@@ -1,0 +1,198 @@
+<?php $slug = 'flare-confidential-compute-xrpl-vote'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">플레어 네트워크(Flare Network)가 7월 6일부터 13일까지 커뮤니티 거버넌스 투표를 열어, 자사의 카나리 네트워크인 송버드(Songbird)에 '플레어 컨피덴셜 컴퓨트(Flare Confidential Compute·FCC)'를 배포할지를 결정한다고 비트코인닷컴 뉴스(Bitcoin.com News) 등이 보도했다. 6월 29일 공지 기간이 시작된 이번 안건은 플레어가 예고해온 대규모 업그레이드 '플레어 2.0'의 첫 실제 구현으로, 신뢰실행환경(TEE)을 기존 데이터 프로토콜과 결합해 XRP 레저(XRP Ledger·XRPL)에 프로그래머블 연산 계층을 얹는 것을 목표로 한다.</p>
+  <p class="en">Flare Network will hold a community governance vote from July 6 to 13 to decide whether to deploy "Flare Confidential Compute" (FCC) on its canary network, Songbird, according to Bitcoin.com News and others. With the notice period opening June 29, the proposal is the first live implementation of "Flare 2.0," the major upgrade Flare has been signaling, and aims to combine trusted execution environments (TEEs) with the network's existing data protocols to layer programmable compute onto the XRP Ledger (XRPL).</p>
+  <p class="ja">フレア・ネットワーク(Flare Network)が7月6日から13日までコミュニティ・ガバナンス投票を開き、自社のカナリアネットワークであるソングバード(Songbird)に「フレア・コンフィデンシャル・コンピュート(Flare Confidential Compute・FCC)」を配備するかを決定すると、ビットコインドットコム・ニュース(Bitcoin.com News)などが報じた。6月29日に告知期間が始まった今回の議案は、フレアが予告してきた大規模アップグレード「フレア2.0」の初の実装であり、信頼実行環境(TEE)を既存のデータプロトコルと結合し、XRPレジャー(XRP Ledger・XRPL)にプログラマブルな演算層を載せることを目標とする。</p>
+
+  <p class="es">Flare Network celebrará una votación de gobernanza comunitaria del 6 al 13 de julio para decidir si despliega "Flare Confidential Compute" (FCC) en su red canaria, Songbird, según Bitcoin.com News y otros. Con el período de notificación abierto el 29 de junio, la propuesta es la primera implementación en vivo de "Flare 2.0", la gran actualización que Flare ha venido anticipando, y busca combinar entornos de ejecución confiable (TEE) con los protocolos de datos existentes de la red para añadir una capa de cómputo programable al XRP Ledger (XRPL).</p>
+  <p class="de">Flare Network wird vom 6. bis 13. Juli eine Community-Governance-Abstimmung abhalten, um zu entscheiden, ob "Flare Confidential Compute" (FCC) auf seinem Canary-Netzwerk Songbird eingesetzt wird, wie Bitcoin.com News und andere berichten. Mit dem am 29. Juni eröffneten Ankündigungszeitraum ist der Vorschlag die erste Live-Implementierung von "Flare 2.0", dem großen Upgrade, das Flare angekündigt hat, und zielt darauf ab, vertrauenswürdige Ausführungsumgebungen (TEEs) mit den bestehenden Datenprotokollen des Netzwerks zu kombinieren, um dem XRP Ledger (XRPL) eine programmierbare Rechenschicht hinzuzufügen.</p>
+
+  <h2 class="ko">무엇을 표결하나</h2>
+  <h2 class="en">What is being voted on</h2>
+  <h2 class="ja">何を採決するのか</h2>
+  <h2 class="es">Qué se está votando</h2>
+  <h2 class="de">Worüber abgestimmt wird</h2>
+  <p class="ko">투표에 부쳐진 핵심은 플레어 컨피덴셜 컴퓨트를 먼저 송버드에서 가동할지 여부다. 송버드는 플레어의 '카나리 네트워크', 즉 메인넷에 앞서 실전 조건에서 신기능을 시험하는 실험망이다. 플레어는 FCC가 신뢰실행환경(TEE)을 활용해 애플리케이션이 안전한 연산을 수행하고, 암호화 키를 관리하며, 더 계산 집약적인 작업을 처리하고, 외부 블록체인과 직접 상호작용할 수 있게 한다고 설명했다. 제안에는 세 가지 구성요소가 포함된다. 첫째, 외부 체인에서 사전 정의된 규칙에 따라 작동하는 '프로토콜 관리 지갑(protocol-managed wallets)', 둘째, 외부 체인 작업을 배치가 아니라 트랜잭션 단위로 처리하는 더 빠른 검증 경로, 셋째, 플레어의 릴레이·합의 네트워크에 연결되는 서드파티 하드웨어 확장 지원이다.</p>
+  <p class="en">The crux put to the vote is whether to run Flare Confidential Compute on Songbird first. Songbird is Flare's "canary network" — a test network that trials new features under live conditions ahead of mainnet. Flare said FCC uses trusted execution environments (TEEs) to let applications perform secure computations, manage cryptographic keys, handle more compute-intensive workloads, and interact directly with external blockchains. The proposal includes three components: first, "protocol-managed wallets" that operate on external chains under predefined rules; second, a faster verification path that processes external-chain operations per transaction rather than in batches; and third, support for third-party hardware extensions that link into Flare's relay and consensus networks.</p>
+  <p class="ja">投票にかけられた核心は、フレア・コンフィデンシャル・コンピュートをまずソングバードで稼働させるかどうかだ。ソングバードはフレアの「カナリアネットワーク」、すなわちメインネットに先立って実戦条件で新機能を試す実験網である。フレアは、FCCが信頼実行環境(TEE)を活用してアプリケーションが安全な演算を実行し、暗号鍵を管理し、より計算集約的な作業を処理し、外部ブロックチェーンと直接相互作用できるようにすると説明した。提案には三つの構成要素が含まれる。第一に、外部チェーンで事前定義された規則に従って作動する「プロトコル管理ウォレット(protocol-managed wallets)」、第二に、外部チェーン作業をバッチではなくトランザクション単位で処理するより速い検証経路、第三に、フレアのリレー・合意ネットワークに接続されるサードパーティのハードウェア拡張のサポートである。</p>
+
+  <p class="es">El meollo sometido a votación es si ejecutar Flare Confidential Compute primero en Songbird. Songbird es la "red canaria" de Flare — una red de prueba que ensaya nuevas funciones en condiciones reales antes de la mainnet. Flare dijo que FCC usa entornos de ejecución confiable (TEE) para permitir que las aplicaciones realicen cómputos seguros, gestionen claves criptográficas, manejen cargas de trabajo más intensivas en cómputo e interactúen directamente con blockchains externas. La propuesta incluye tres componentes: primero, "carteras gestionadas por el protocolo" (protocol-managed wallets) que operan en cadenas externas bajo reglas predefinidas; segundo, una ruta de verificación más rápida que procesa las operaciones de cadenas externas por transacción en lugar de por lotes; y tercero, soporte para extensiones de hardware de terceros que se enlazan con las redes de relay y consenso de Flare.</p>
+  <p class="de">Der Kern der Abstimmung ist, ob Flare Confidential Compute zuerst auf Songbird laufen soll. Songbird ist Flares "Canary-Netzwerk" — ein Testnetz, das neue Funktionen unter Live-Bedingungen vor dem Mainnet erprobt. Flare sagte, FCC nutze vertrauenswürdige Ausführungsumgebungen (TEEs), damit Anwendungen sichere Berechnungen durchführen, kryptografische Schlüssel verwalten, rechenintensivere Arbeitslasten bewältigen und direkt mit externen Blockchains interagieren können. Der Vorschlag umfasst drei Komponenten: erstens "protokollverwaltete Wallets" (protocol-managed wallets), die auf externen Chains nach vordefinierten Regeln arbeiten; zweitens einen schnelleren Verifizierungspfad, der externe Chain-Operationen pro Transaktion statt im Stapel verarbeitet; und drittens Unterstützung für Hardware-Erweiterungen von Drittanbietern, die sich in Flares Relay- und Konsensnetzwerke einklinken.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">플레어 2.0 구상: XRPL '발행 계층' + 플레어 '연산 계층'</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="30" y="55" width="180" height="80" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="120" y="82" fill="#38bdf8" font-weight="700" text-anchor="middle">XRP 레저 (XRPL)</text>
+      <text x="120" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">자산이 발행되는 계층</text>
+      <text x="120" y="118" fill="#71717a" text-anchor="middle" font-size="9">RWA · 스테이블코인 발행</text>
+      <path d="M210 95 L255 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <path d="M255 108 L210 108" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="260" y="55" width="200" height="80" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="360" y="80" fill="#f7931a" font-weight="700" text-anchor="middle">플레어 (연산 계층)</text>
+      <text x="360" y="99" fill="#e4e4e7" text-anchor="middle" font-size="9">FCC: TEE 기반 기밀 연산</text>
+      <text x="360" y="114" fill="#71717a" text-anchor="middle" font-size="9">프로토콜 관리 지갑 · 키 관리</text>
+      <text x="360" y="128" fill="#71717a" text-anchor="middle" font-size="9">트랜잭션 단위 검증</text>
+      <path d="M460 95 L505 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="510" y="55" width="160" height="80" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="590" y="82" fill="#4ade80" font-weight="700" text-anchor="middle">FAssets · DeFi</text>
+      <text x="590" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">수동 브리징 없이</text>
+      <text x="590" y="118" fill="#71717a" text-anchor="middle" font-size="9">dApp과 직접 상호작용</text>
+      <rect x="150" y="185" width="400" height="60" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="350" y="210" fill="#a78bfa" font-weight="700" text-anchor="middle">먼저 송버드(카나리 네트워크)에서 시험</text>
+      <text x="350" y="228" fill="#e4e4e7" text-anchor="middle" font-size="9">거버넌스 투표 7/6~7/13 → 통과 시 배포</text>
+      <path d="M350 180 L350 140" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+    </g>
+    <defs><marker id="fc1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Flare 2.0 concept: XRPL 'issuance layer' + Flare 'compute layer'</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="30" y="55" width="180" height="80" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="120" y="82" fill="#38bdf8" font-weight="700" text-anchor="middle">XRP Ledger (XRPL)</text>
+      <text x="120" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">Layer where assets issue</text>
+      <text x="120" y="118" fill="#71717a" text-anchor="middle" font-size="9">RWA &#183; stablecoin issuance</text>
+      <path d="M210 95 L255 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <path d="M255 108 L210 108" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="260" y="55" width="200" height="80" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="360" y="80" fill="#f7931a" font-weight="700" text-anchor="middle">Flare (compute layer)</text>
+      <text x="360" y="99" fill="#e4e4e7" text-anchor="middle" font-size="9">FCC: TEE-based confidential compute</text>
+      <text x="360" y="114" fill="#71717a" text-anchor="middle" font-size="9">protocol-managed wallets &#183; keys</text>
+      <text x="360" y="128" fill="#71717a" text-anchor="middle" font-size="9">per-transaction verification</text>
+      <path d="M460 95 L505 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="510" y="55" width="160" height="80" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="590" y="82" fill="#4ade80" font-weight="700" text-anchor="middle">FAssets &#183; DeFi</text>
+      <text x="590" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">Interact directly with</text>
+      <text x="590" y="118" fill="#71717a" text-anchor="middle" font-size="9">dApps, no manual bridging</text>
+      <rect x="150" y="185" width="400" height="60" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="350" y="210" fill="#a78bfa" font-weight="700" text-anchor="middle">Tried first on Songbird (canary network)</text>
+      <text x="350" y="228" fill="#e4e4e7" text-anchor="middle" font-size="9">Governance vote Jul 6&#8211;13 &#8594; deploy if passed</text>
+      <path d="M350 180 L350 140" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+    </g>
+    <defs><marker id="fc1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">フレア2.0構想: XRPL「発行層」+ フレア「演算層」</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="30" y="55" width="180" height="80" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="120" y="82" fill="#38bdf8" font-weight="700" text-anchor="middle">XRPレジャー (XRPL)</text>
+      <text x="120" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">資産が発行される層</text>
+      <text x="120" y="118" fill="#71717a" text-anchor="middle" font-size="9">RWA · ステーブルコイン発行</text>
+      <path d="M210 95 L255 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <path d="M255 108 L210 108" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="260" y="55" width="200" height="80" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="360" y="80" fill="#f7931a" font-weight="700" text-anchor="middle">フレア (演算層)</text>
+      <text x="360" y="99" fill="#e4e4e7" text-anchor="middle" font-size="9">FCC: TEEベースの機密演算</text>
+      <text x="360" y="114" fill="#71717a" text-anchor="middle" font-size="9">プロトコル管理ウォレット · 鍵管理</text>
+      <text x="360" y="128" fill="#71717a" text-anchor="middle" font-size="9">トランザクション単位の検証</text>
+      <path d="M460 95 L505 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="510" y="55" width="160" height="80" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="590" y="82" fill="#4ade80" font-weight="700" text-anchor="middle">FAssets · DeFi</text>
+      <text x="590" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">手動ブリッジなしで</text>
+      <text x="590" y="118" fill="#71717a" text-anchor="middle" font-size="9">dAppと直接相互作用</text>
+      <rect x="150" y="185" width="400" height="60" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="350" y="210" fill="#a78bfa" font-weight="700" text-anchor="middle">まずソングバード(カナリア網)で試験</text>
+      <text x="350" y="228" fill="#e4e4e7" text-anchor="middle" font-size="9">ガバナンス投票 7/6&#8211;7/13 → 可決で配備</text>
+      <path d="M350 180 L350 140" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+    </g>
+    <defs><marker id="fc1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Concepto Flare 2.0: XRPL 'capa de emisión' + Flare 'capa de cómputo'</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="30" y="55" width="180" height="80" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="120" y="82" fill="#38bdf8" font-weight="700" text-anchor="middle">XRP Ledger (XRPL)</text>
+      <text x="120" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">Capa donde se emiten activos</text>
+      <text x="120" y="118" fill="#71717a" text-anchor="middle" font-size="9">RWA &#183; emisión de stablecoins</text>
+      <path d="M210 95 L255 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <path d="M255 108 L210 108" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="260" y="55" width="200" height="80" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="360" y="80" fill="#f7931a" font-weight="700" text-anchor="middle">Flare (capa de cómputo)</text>
+      <text x="360" y="99" fill="#e4e4e7" text-anchor="middle" font-size="9">FCC: cómputo confidencial con TEE</text>
+      <text x="360" y="114" fill="#71717a" text-anchor="middle" font-size="9">carteras del protocolo &#183; claves</text>
+      <text x="360" y="128" fill="#71717a" text-anchor="middle" font-size="9">verificación por transacción</text>
+      <path d="M460 95 L505 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="510" y="55" width="160" height="80" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="590" y="82" fill="#4ade80" font-weight="700" text-anchor="middle">FAssets &#183; DeFi</text>
+      <text x="590" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">Interactúan directamente con</text>
+      <text x="590" y="118" fill="#71717a" text-anchor="middle" font-size="9">dApps, sin puentes manuales</text>
+      <rect x="150" y="185" width="400" height="60" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="350" y="210" fill="#a78bfa" font-weight="700" text-anchor="middle">Probado primero en Songbird (red canaria)</text>
+      <text x="350" y="228" fill="#e4e4e7" text-anchor="middle" font-size="9">Votación 6&#8211;13 jul &#8594; despliegue si se aprueba</text>
+      <path d="M350 180 L350 140" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+    </g>
+    <defs><marker id="fc1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Flare-2.0-Konzept: XRPL 'Emissionsschicht' + Flare 'Rechenschicht'</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="30" y="55" width="180" height="80" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="120" y="82" fill="#38bdf8" font-weight="700" text-anchor="middle">XRP Ledger (XRPL)</text>
+      <text x="120" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">Schicht der Asset-Emission</text>
+      <text x="120" y="118" fill="#71717a" text-anchor="middle" font-size="9">RWA &#183; Stablecoin-Emission</text>
+      <path d="M210 95 L255 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <path d="M255 108 L210 108" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="260" y="55" width="200" height="80" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="360" y="80" fill="#f7931a" font-weight="700" text-anchor="middle">Flare (Rechenschicht)</text>
+      <text x="360" y="99" fill="#e4e4e7" text-anchor="middle" font-size="9">FCC: TEE-basiertes vertrauliches Rechnen</text>
+      <text x="360" y="114" fill="#71717a" text-anchor="middle" font-size="9">protokollverwaltete Wallets &#183; Schlüssel</text>
+      <text x="360" y="128" fill="#71717a" text-anchor="middle" font-size="9">Verifizierung pro Transaktion</text>
+      <path d="M460 95 L505 95" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+      <rect x="510" y="55" width="160" height="80" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="590" y="82" fill="#4ade80" font-weight="700" text-anchor="middle">FAssets &#183; DeFi</text>
+      <text x="590" y="102" fill="#e4e4e7" text-anchor="middle" font-size="9">Direkte Interaktion mit</text>
+      <text x="590" y="118" fill="#71717a" text-anchor="middle" font-size="9">dApps, ohne manuelles Bridging</text>
+      <rect x="150" y="185" width="400" height="60" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="350" y="210" fill="#a78bfa" font-weight="700" text-anchor="middle">Zuerst auf Songbird (Canary-Netz) getestet</text>
+      <text x="350" y="228" fill="#e4e4e7" text-anchor="middle" font-size="9">Abstimmung 6.&#8211;13. Jul &#8594; Einsatz bei Annahme</text>
+      <path d="M350 180 L350 140" stroke="#52525b" stroke-width="1.5" marker-end="url(#fc1)"/>
+    </g>
+    <defs><marker id="fc1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+
+  <h2 class="ko">'발행은 XRPL, 연산은 플레어'라는 분업</h2>
+  <h2 class="en">A division of labor: 'issuance on XRPL, compute on Flare'</h2>
+  <h2 class="ja">「発行はXRPL、演算はフレア」という分業</h2>
+  <h2 class="es">Una división del trabajo: 'emisión en XRPL, cómputo en Flare'</h2>
+  <h2 class="de">Eine Arbeitsteilung: 'Emission auf XRPL, Rechnen auf Flare'</h2>
+  <p class="ko">플레어 공동창업자 겸 최고경영자(CEO) 휴고 필리온(Hugo Philion)은 이 구조를 "XRPL은 자산이 발행되는 계층이고, 플레어는 스마트 기능과 유연성을 더하는 연산 계층 역할을 한다"고 요약했다. XRP 레저는 오랫동안 결제·자산 발행에는 강점을 보였지만, 이더리움 같은 범용 스마트컨트랙트 환경은 갖추지 못했다는 지적을 받아왔다. 플레어의 구상은 XRPL에 발행된 실물자산(RWA)과 토큰이, 플레어의 FAssets 및 컨피덴셜 컴퓨트를 통해 사용자가 수동으로 자산을 다리(브리지) 건너 옮기지 않고도 탈중앙 애플리케이션과 상호작용하도록 하는 것이다. 요컨대 XRP 생태계의 약점으로 지목돼온 '프로그래머빌리티 부재'를, 별도 연산 계층을 붙이는 방식으로 메우려는 시도다.</p>
+  <p class="en">Flare co-founder and CEO Hugo Philion summarized the structure this way: "XRPL is the layer where assets get issued, while Flare acts as the compute layer that adds smart features and flexibility." The XRP Ledger has long been strong at payments and asset issuance, but has been criticized for lacking a general-purpose smart-contract environment like Ethereum's. Flare's vision is for real-world assets (RWAs) and tokens issued on XRPL to interact with decentralized applications — via Flare's FAssets and Confidential Compute — without users having to manually move assets across a bridge. In short, it is an attempt to fill the "absence of programmability" long cited as a weakness of the XRP ecosystem by attaching a separate compute layer.</p>
+  <p class="ja">フレア共同創業者兼最高経営責任者(CEO)のヒューゴ・フィリオン(Hugo Philion)は、この構造を「XRPLは資産が発行される層であり、フレアはスマート機能と柔軟性を加える演算層の役割を果たす」と要約した。XRPレジャーは長らく決済・資産発行には強みを見せてきたが、イーサリアムのような汎用スマートコントラクト環境は備えていないと指摘されてきた。フレアの構想は、XRPLに発行された実物資産(RWA)とトークンが、フレアのFAssetsおよびコンフィデンシャル・コンピュートを通じて、ユーザーが手動で資産をブリッジ越しに移さなくても分散型アプリケーションと相互作用できるようにすることだ。要するに、XRPエコシステムの弱点とされてきた「プログラマビリティの欠如」を、別途の演算層を付ける方式で埋めようとする試みである。</p>
+
+  <p class="es">El cofundador y CEO de Flare, Hugo Philion, resumió la estructura así: "XRPL es la capa donde se emiten los activos, mientras que Flare actúa como la capa de cómputo que añade funciones inteligentes y flexibilidad". El XRP Ledger ha sido durante mucho tiempo fuerte en pagos y emisión de activos, pero ha sido criticado por carecer de un entorno de contratos inteligentes de propósito general como el de Ethereum. La visión de Flare es que los activos del mundo real (RWA) y los tokens emitidos en XRPL interactúen con aplicaciones descentralizadas — a través de los FAssets y Confidential Compute de Flare — sin que los usuarios tengan que mover manualmente activos a través de un puente. En resumen, es un intento de llenar la "ausencia de programabilidad" señalada durante mucho tiempo como una debilidad del ecosistema XRP, adjuntando una capa de cómputo separada.</p>
+  <p class="de">Flare-Mitgründer und CEO Hugo Philion fasste die Struktur so zusammen: "XRPL ist die Schicht, auf der Vermögenswerte ausgegeben werden, während Flare als Rechenschicht fungiert, die intelligente Funktionen und Flexibilität hinzufügt." Der XRP Ledger war lange stark bei Zahlungen und Asset-Emission, wurde aber dafür kritisiert, keine universelle Smart-Contract-Umgebung wie die von Ethereum zu bieten. Flares Vision ist, dass auf XRPL ausgegebene Real-World-Assets (RWAs) und Token mit dezentralen Anwendungen interagieren — über Flares FAssets und Confidential Compute —, ohne dass Nutzer Vermögenswerte manuell über eine Bridge bewegen müssen. Kurz gesagt ist es ein Versuch, die "fehlende Programmierbarkeit", die lange als Schwäche des XRP-Ökosystems genannt wurde, durch das Anfügen einer separaten Rechenschicht zu füllen.</p>
+
+  <h2 class="ko">TEE라는 신뢰의 이동, 그리고 남는 질문</h2>
+  <h2 class="en">TEEs shift trust — and leave a question</h2>
+  <h2 class="ja">TEEという信頼の移動、そして残る問い</h2>
+  <h2 class="es">Los TEE desplazan la confianza — y dejan una pregunta</h2>
+  <h2 class="de">TEEs verlagern Vertrauen — und lassen eine Frage offen</h2>
+  <p class="ko">눈여겨봐야 할 지점은 이 설계가 신뢰의 근거를 어디에 두느냐다. 신뢰실행환경(TEE)은 CPU 안에 격리된 보안 영역을 두어 그 안에서 실행되는 코드와 데이터를 외부로부터 감추는 하드웨어 기반 기술이다. 순수한 영지식 증명이 '수학적으로' 프라이버시를 보증하려 한다면, TEE는 상당 부분을 '하드웨어 제조사와 그 무결성'에 대한 신뢰로 대체한다. 이는 계산 집약적 작업을 빠르게 처리할 수 있다는 실용적 장점을 주지만, 동시에 특정 칩 제조사와 원격 증명(remote attestation) 체계에 대한 의존을 새로운 신뢰 가정으로 끌어들인다. 기밀 연산을 통해 기관용 실물자산 거래의 프라이버시를 확보하겠다는 목표와, 그 프라이버시가 하드웨어 신뢰에 기대고 있다는 사실 사이의 긴장은 이 방식이 확산될수록 더 중요한 논점이 될 전망이다.</p>
+  <p class="en">The point worth watching is where this design anchors its trust. A trusted execution environment (TEE) is a hardware-based technology that carves out an isolated secure area inside the CPU, hiding the code and data running within it from the outside. Where a pure zero-knowledge proof seeks to guarantee privacy "mathematically," a TEE substitutes much of that with trust in "the hardware manufacturer and its integrity." This offers the practical advantage of processing compute-intensive workloads quickly, but at the same time pulls dependence on a specific chip maker and its remote-attestation scheme in as a new trust assumption. The tension between the goal of securing privacy for institutional real-world-asset transactions through confidential compute, and the fact that this privacy rests on hardware trust, is likely to become a more important talking point the more this approach spreads.</p>
+  <p class="ja">注目すべき点は、この設計が信頼の根拠をどこに置くかである。信頼実行環境(TEE)は、CPU内に隔離されたセキュア領域を設け、その中で実行されるコードとデータを外部から隠すハードウェアベースの技術だ。純粋なゼロ知識証明が「数学的に」プライバシーを保証しようとするなら、TEEはその相当部分を「ハードウェア製造元とその完全性」への信頼で代替する。これは計算集約的な作業を速く処理できるという実用的な利点を与えるが、同時に特定のチップ製造元と遠隔証明(remote attestation)体系への依存を新たな信頼前提として引き込む。機密演算を通じて機関向け実物資産取引のプライバシーを確保するという目標と、そのプライバシーがハードウェア信頼に依存しているという事実の間の緊張は、この方式が広がるほどより重要な論点になる見通しだ。</p>
+
+  <p class="es">El punto que vale la pena vigilar es dónde ancla este diseño su confianza. Un entorno de ejecución confiable (TEE) es una tecnología basada en hardware que talla un área segura aislada dentro de la CPU, ocultando del exterior el código y los datos que se ejecutan dentro. Donde una prueba de conocimiento cero pura busca garantizar la privacidad "matemáticamente", un TEE sustituye gran parte de eso con confianza en "el fabricante del hardware y su integridad". Esto ofrece la ventaja práctica de procesar rápidamente cargas de trabajo intensivas en cómputo, pero al mismo tiempo introduce la dependencia de un fabricante de chips específico y su esquema de atestación remota (remote attestation) como un nuevo supuesto de confianza. La tensión entre el objetivo de asegurar la privacidad de las transacciones institucionales de activos del mundo real mediante cómputo confidencial, y el hecho de que esa privacidad descansa en la confianza del hardware, probablemente se convierta en un punto de discusión más importante cuanto más se extienda este enfoque.</p>
+  <p class="de">Der beobachtenswerte Punkt ist, wo dieses Design sein Vertrauen verankert. Eine vertrauenswürdige Ausführungsumgebung (TEE) ist eine hardwarebasierte Technologie, die einen isolierten sicheren Bereich innerhalb der CPU schafft und den darin laufenden Code und die Daten vor der Außenwelt verbirgt. Wo ein reiner Zero-Knowledge-Proof Privatsphäre "mathematisch" garantieren will, ersetzt ein TEE viel davon durch Vertrauen in "den Hardwarehersteller und dessen Integrität". Das bietet den praktischen Vorteil, rechenintensive Arbeitslasten schnell zu verarbeiten, zieht aber gleichzeitig die Abhängigkeit von einem bestimmten Chiphersteller und dessen Remote-Attestation-Schema als neue Vertrauensannahme herein. Die Spannung zwischen dem Ziel, die Privatsphäre institutioneller Real-World-Asset-Transaktionen durch vertrauliches Rechnen zu sichern, und der Tatsache, dass diese Privatsphäre auf Hardware-Vertrauen beruht, dürfte umso wichtiger werden, je mehr sich dieser Ansatz verbreitet.</p>
+
+  <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> 7월 13일 마감되는 거버넌스 투표의 통과 여부와 투표율이 1차 관전 포인트다. 통과되면 송버드에서 FCC의 실전 안정성·성능이 검증되는 과정, 그리고 메인넷 배포로 이어지는 일정이 관건이 된다. 나아가 이 구조가 실제로 XRPL 기반 실물자산·디파이 활동을 끌어들이는지, TEE 기반 기밀성이 기관 요구 수준의 프라이버시·감사 가능성을 만족시키는지를 함께 지켜볼 만하다. 이는 개별 토큰 시세보다, XRP 생태계가 결제망을 넘어 프로그래머블 금융 인프라로 확장될 수 있느냐는 더 큰 물음의 시험대다.</div>
+  <div class="box en">💡 <strong>What to watch now:</strong> Whether the governance vote closing July 13 passes, and its turnout, is the first vantage point. If it passes, the key issues become the process of validating FCC's real-world stability and performance on Songbird, and the timeline toward mainnet deployment. Beyond that, it is worth watching whether this structure actually draws in XRPL-based real-world-asset and DeFi activity, and whether TEE-based confidentiality satisfies the level of privacy and auditability institutions demand. More than any single token's price, this is a test of the larger question of whether the XRP ecosystem can expand beyond a payments network into programmable financial infrastructure.</div>
+  <div class="box ja">💡 <strong>今後注視すべきこと:</strong> 7月13日に締め切られるガバナンス投票の可決の有無と投票率が第一の観点だ。可決されれば、ソングバードでFCCの実戦的な安定性・性能が検証される過程、そしてメインネット配備へつながる日程が鍵となる。さらに、この構造が実際にXRPLベースの実物資産・DeFi活動を引き込むか、TEEベースの機密性が機関の要求水準のプライバシー・監査可能性を満たすかを併せて見守る価値がある。これは個別トークンの相場以上に、XRPエコシステムが決済網を超えてプログラマブルな金融インフラへ拡張できるかという、より大きな問いの試金石だ。</div>
+  <div class="box es">💡 <strong>Qué vigilar ahora:</strong> Si la votación de gobernanza que cierra el 13 de julio se aprueba, y su participación, es el primer punto de observación. Si se aprueba, las cuestiones clave pasan a ser el proceso de validar la estabilidad y el rendimiento reales de FCC en Songbird, y el cronograma hacia el despliegue en mainnet. Más allá de eso, vale la pena vigilar si esta estructura realmente atrae actividad de activos del mundo real y DeFi basada en XRPL, y si la confidencialidad basada en TEE satisface el nivel de privacidad y auditabilidad que exigen las instituciones. Más que el precio de un token concreto, esta es una prueba de la pregunta mayor de si el ecosistema XRP puede expandirse más allá de una red de pagos hacia una infraestructura financiera programable.</div>
+  <div class="box de">💡 <strong>Worauf jetzt zu achten ist:</strong> Ob die am 13. Juli endende Governance-Abstimmung angenommen wird, und ihre Beteiligung, ist der erste Beobachtungspunkt. Bei Annahme werden die Schlüsselfragen der Prozess der Validierung von FCCs realer Stabilität und Leistung auf Songbird sowie der Zeitplan bis zum Mainnet-Einsatz. Darüber hinaus lohnt es sich zu beobachten, ob diese Struktur tatsächlich XRPL-basierte Real-World-Asset- und DeFi-Aktivität anzieht und ob die TEE-basierte Vertraulichkeit das von Institutionen geforderte Maß an Privatsphäre und Prüfbarkeit erfüllt. Mehr als der Preis eines einzelnen Tokens ist dies ein Test der größeren Frage, ob das XRP-Ökosystem sich über ein Zahlungsnetzwerk hinaus zu einer programmierbaren Finanzinfrastruktur ausweiten kann.</div>
+
+  <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Bitcoin.com News, Cryptopolitan, HackerNoon, The Crypto Basic. 휴고 필리온(Hugo Philion) 발언 및 플레어 거버넌스 제안 자료 종합.</p>
+  <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Bitcoin.com News, Cryptopolitan, HackerNoon, The Crypto Basic. Compiled from Hugo Philion's remarks and Flare governance proposal materials.</p>
+  <p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: Bitcoin.com News、Cryptopolitan、HackerNoon、The Crypto Basic。ヒューゴ・フィリオン(Hugo Philion)の発言およびフレアのガバナンス提案資料を総合。</p>
+  <p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: Bitcoin.com News, Cryptopolitan, HackerNoon, The Crypto Basic. Recopilado de las declaraciones de Hugo Philion y los materiales de la propuesta de gobernanza de Flare.</p>
+  <p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: Bitcoin.com News, Cryptopolitan, HackerNoon, The Crypto Basic. Zusammengestellt aus Hugo Philions Aussagen und den Governance-Vorschlagsunterlagen von Flare.</p>
+<?php require __DIR__.'/_footer.php'; ?>
