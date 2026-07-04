@@ -3,9 +3,6 @@ name: Deploy blog to Cafe24 (FTP)
 on:
   push:
     branches: [main]
-    paths:
-      - '**.php'
-      - '**.html'
 
 jobs:
   deploy:
