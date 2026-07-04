@@ -5188,6 +5188,32 @@ return json_decode(<<<'ARTICLES_JSON'
     "tag_ja": "コインニュース",
     "tag_es": "Noticias de Criptomonedas",
     "tag_de": "Krypto-Nachrichten",
+  "sbi-crypto-mining-pool-shutdown": {
+    "tag_ko": "채굴",
+    "tag_en": "MINING",
+    "tag_ja": "マイニング",
+    "tag_es": "Minería",
+    "tag_de": "Mining",
+    "title_ko": "SBI 크립토, 비트코인 채굴풀 폐쇄 — 네트워크 해시레이트 2.2%가 이동한다",
+    "title_en": "SBI Crypto to Shut Its Bitcoin Mining Pool — 2.2% of Network Hashrate Must Move",
+    "title_ja": "SBIクリプト、ビットコイン採掘プール閉鎖 — ネットワークハッシュレートの2.2%が移動する",
+    "title_es": "SBI Crypto Cerrará su Pool de Minería de Bitcoin — el 2,2% del Hashrate de la Red Debe Migrar",
+    "title_de": "SBI Crypto schließt seinen Bitcoin-Mining-Pool — 2,2% der Netzwerk-Hashrate müssen umziehen",
+    "h1_ko": "SBI 크립토, 비트코인<br>채굴풀을 닫는다",
+    "h1_en": "SBI Crypto Is Closing<br>Its Bitcoin Mining Pool",
+    "h1_ja": "SBIクリプト、ビットコイン<br>採掘プールを閉じる",
+    "h1_es": "SBI Crypto Cierra su<br>Pool de Minería de Bitcoin",
+    "h1_de": "SBI Crypto schließt seinen<br>Bitcoin-Mining-Pool",
+    "bc_ko": "SBI 채굴풀 폐쇄",
+    "bc_en": "SBI Pool Shutdown",
+    "bc_ja": "SBI採掘プール閉鎖",
+    "bc_es": "Cierre del Pool SBI",
+    "bc_de": "SBI-Pool-Schließung",
+    "desc_ko": "일본 SBI그룹의 채굴 자회사 SBI 크립토가 7월 31일 비트코인 채굴풀을 폐쇄합니다. 네트워크의 2.2%(20.9 EH/s)에 해당하는 해시레이트가 이동해야 하며, 이미 상위 4개 풀이 73%를 차지한 상황에서 집중도 문제를 다시 부각시킵니다.",
+    "desc_en": "SBI Crypto, the mining arm of Japan's SBI Group, will close its Bitcoin mining pool on July 31. Some 2.2% of network hashrate (20.9 EH/s) must migrate — reviving concentration concerns when four pools already control 73%.",
+    "desc_ja": "日本のSBIグループの採掘子会社SBIクリプトが7月31日にビットコイン採掘プールを閉鎖します。ネットワークの2.2%(20.9 EH/s)のハッシュレートが移動する必要があり、上位4プールがすでに73%を占める中で集中度問題を再び浮き彫りにします。",
+    "desc_es": "SBI Crypto, la filial minera del grupo japonés SBI, cerrará su pool de minería de Bitcoin el 31 de julio. El 2,2% del hashrate de la red (20,9 EH/s) debe migrar, reavivando las preocupaciones sobre la concentración cuando cuatro pools ya controlan el 73%.",
+    "desc_de": "SBI Crypto, die Mining-Tochter der japanischen SBI-Gruppe, schließt am 31. Juli ihren Bitcoin-Mining-Pool. Rund 2,2% der Netzwerk-Hashrate (20,9 EH/s) müssen umziehen — was Konzentrationssorgen neu entfacht, während vier Pools bereits 73% kontrollieren.",
     "read_ko": "6",
     "read_en": "6",
     "read_ja": "6",
@@ -5197,6 +5223,10 @@ return json_decode(<<<'ARTICLES_JSON'
     "color": "#22d3ee",
     "category": "coinnews",
     "date": "2026-07-05 11:00:00"
+    "icon": "⛏️",
+    "color": "#38bdf8",
+    "category": "coinnews",
+    "date": "2026-07-05 12:30:00"
   }
 }
 ARTICLES_JSON
