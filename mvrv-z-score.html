@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MVRV Z-Score 완벽 가이드 — 비트코인 저점 판단 지표 | BTCtiming.com</title>
+<meta name="description" content="MVRV Z-Score란 무엇인가요? 비트코인 고평가·저평가를 측정하는 온체인 지표의 계산법, 해석 방법, 역사적 저점 포착 사례를 완벽하게 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/mvrv-z-score.html">
+<meta property="og:title" content="MVRV Z-Score 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/mvrv-z-score.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "온체인 지표", "tag_en": "ON-CHAIN INDICATOR", "title_ko": "MVRV Z-Score 완벽 가이드 — 비트코인 저점을 포착하는 온체인 지표", "title_en": "MVRV Z-Score Complete Guide — The On-Chain Bottom Detector", "desc_ko": "비트코인의 시장가치와 실현가치를 비교해 고평가·저평가 여부를 측정합니다. 2015년, 2018년, 2022년 저점을 모두 포착한 지표의 원리와 활용법을 설명합니다.", "desc_en": "Compares Bitcoin's market value to realized value. Learn how this indicator caught every major bottom in 2015, 2018, and 2022.", "read_ko": "8", "read_en": "8", "date": "2026-07-01", "icon": "📈", "color": "#f472b6", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › MVRV Z-Score</div>
+
+  <!-- ── 제목 ── -->
+  <h1 class="ko">MVRV Z-Score 완벽 가이드<br>비트코인 저점을 포착하는 온체인 지표</h1>
+  <h1 class="en">MVRV Z-Score Complete Guide<br>The On-Chain Indicator That Catches Bitcoin Bottoms</h1>
+  <div class="meta">
+    <span>📅 2026.07.01</span>
+    <span class="ko">⏱ 약 8분 · 🏷 온체인 지표</span>
+    <span class="en">⏱ ~8 min · 🏷 On-Chain Indicator</span>
+  </div>
+
+  <p class="ko">비트코인 투자에서 가장 어려운 질문은 언제나 같습니다. <strong>"지금이 바닥인가, 아니면 더 떨어질 것인가?"</strong> MVRV Z-Score는 이 질문에 데이터로 답하는 온체인 지표로, 지난 10년간 비트코인의 주요 저점과 고점을 놀라울 정도로 정확하게 포착해왔습니다.</p>
+  <p class="en">The hardest question in Bitcoin investing is always the same: <strong>"Is this the bottom, or will it fall further?"</strong> MVRV Z-Score answers this with data — catching every major Bitcoin bottom and top over the past decade with remarkable accuracy.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> MVRV Z-Score가 0 이하이면 역사적 저평가 구간, 3.5 이상이면 과열 구간입니다. 2015년, 2018년, 2022년 비트코인 바닥에서 모두 0 이하를 기록했습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> MVRV Z-Score below 0 signals historical undervaluation; above 3.5 signals overheating. All three major Bitcoin bottoms — 2015, 2018, 2022 — recorded values below 0.</div>
+
+  <!-- ── What is ── -->
+  <h2 class="ko">MVRV Z-Score란 무엇인가?</h2>
+  <h2 class="en">What Is MVRV Z-Score?</h2>
+
+  <h3 class="ko">시장가치(Market Value)</h3>
+  <h3 class="en">Market Value (MV)</h3>
+  <p class="ko">우리가 흔히 아는 시가총액입니다. 현재 비트코인 가격 × 유통 공급량으로 계산하며, 공포와 탐욕에 따라 크게 흔들립니다.</p>
+  <p class="en">The familiar market cap: current price × circulating supply. It swings wildly with fear and greed.</p>
+
+  <h3 class="ko">실현가치(Realized Value)</h3>
+  <h3 class="en">Realized Value (RV)</h3>
+  <p class="ko">각 비트코인이 마지막으로 온체인에서 이동했을 때의 가격으로 평가한 총 가치입니다. 모든 BTC 보유자들의 평균 취득 원가에 가깝고, 시장가치보다 훨씬 안정적입니다.</p>
+  <p class="en">Total value of all Bitcoin priced at the moment each coin last moved on-chain — essentially the aggregate cost basis of all holders. Far more stable than market value.</p>
+
+  <h3 class="ko">Z-Score (표준편차 정규화)</h3>
+  <h3 class="en">Z-Score (Standard Deviation Normalization)</h3>
+  <p class="ko">(시장가치 - 실현가치)를 표준편차로 나눈 값으로, 역사적으로 얼마나 극단적인 수준인지를 숫자 하나로 보여줍니다.</p>
+  <p class="en">(Market Value − Realized Value) ÷ standard deviation of Market Value — a single number showing how historically extreme current valuations are.</p>
+
+  <div class="box ko"><strong>계산 공식:</strong> MVRV Z-Score = (시장가치 − 실현가치) ÷ 표준편차(시장가치)</div>
+  <div class="box en"><strong>Formula:</strong> MVRV Z-Score = (Market Value − Realized Value) ÷ StdDev(Market Value)</div>
+
+  <!-- ── Zones ── -->
+  <h2 class="ko">구간별 해석</h2>
+  <h2 class="en">Zone Interpretation</h2>
+  <table class="zt ko">
+    <tr><th>Z-Score</th><th>시장 상태</th><th>투자 판단</th></tr>
+    <tr><td class="g">−1 이하</td><td>극단적 저평가</td><td class="g">강력 매수</td></tr>
+    <tr><td class="g">0 이하</td><td>역사적 저평가</td><td class="g">매수 구간</td></tr>
+    <tr><td class="y">0 ~ 1</td><td>약간 저평가</td><td class="y">축적 구간</td></tr>
+    <tr><td class="y">1 ~ 3</td><td>적정 ~ 고평가</td><td class="y">중립 / 주의</td></tr>
+    <tr><td class="r">3.5 이상</td><td>과열 구간</td><td class="r">매도 고려</td></tr>
+    <tr><td class="r">7 이상</td><td>극단적 과열</td><td class="r">강력 매도</td></tr>
+  </table>
+  <table class="zt en">
+    <tr><th>Z-Score</th><th>Market State</th><th>Signal</th></tr>
+    <tr><td class="g">Below −1</td><td>Extreme undervaluation</td><td class="g">Strong Buy</td></tr>
+    <tr><td class="g">Below 0</td><td>Historical undervaluation</td><td class="g">Buy Zone</td></tr>
+    <tr><td class="y">0 – 1</td><td>Slightly undervalued</td><td class="y">Accumulate</td></tr>
+    <tr><td class="y">1 – 3</td><td>Fair to overvalued</td><td class="y">Neutral / Caution</td></tr>
+    <tr><td class="r">Above 3.5</td><td>Overheated</td><td class="r">Consider Selling</td></tr>
+    <tr><td class="r">Above 7</td><td>Extreme overheating</td><td class="r">Strong Sell</td></tr>
+  </table>
+
+  <!-- ── History ── -->
+  <h2 class="ko">역사적 저점 포착 사례</h2>
+  <h2 class="en">Historical Bottom Cases</h2>
+
+  <h3>2015 (Z-Score: −0.8)</h3>
+  <p class="ko">비트코인이 $150 근처까지 하락했던 2015년 1월, MVRV Z-Score는 −0.8까지 내려갔습니다. 이후 2017년 $20,000까지 약 130배 상승했습니다.</p>
+  <p class="en">In January 2015 with Bitcoin near $150, MVRV Z-Score hit −0.8. Bitcoin subsequently rose ~130x to $20,000 by 2017.</p>
+
+  <h3>2018–2019 (Z-Score: −0.2)</h3>
+  <p class="ko">2018년 12월 $3,200 바닥에서 −0.2를 기록했습니다. 이 구간에서 매수한 투자자들은 2021년 고점까지 약 20배 수익을 올렸습니다.</p>
+  <p class="en">At the $3,200 bottom in December 2018, the score hit −0.2. Buyers at this level saw ~20x gains by the 2021 peak.</p>
+
+  <h3>2022 FTX (Z-Score: 0.1)</h3>
+  <p class="ko">FTX 붕괴로 비트코인이 $15,500까지 폭락했던 2022년 11월, MVRV Z-Score는 0.1로 역사적 저점 구간에 근접했습니다.</p>
+  <p class="en">During the FTX collapse in November 2022 with Bitcoin at $15,500, the score was 0.1 — near the historical bottom zone.</p>
+
+  <!-- ── Limits ── -->
+  <h2 class="ko">한계점</h2>
+  <h2 class="en">Limitations</h2>
+  <ul class="ko">
+    <li><strong>선행 지표가 아님:</strong> 언제 반등할지는 알려주지 않습니다. 저평가 구간에서도 수개월 더 하락할 수 있습니다.</li>
+    <li><strong>NUPL과 상관관계 높음:</strong> 두 지표 모두 실현가치 기반이라 같은 방향으로 움직이는 경향이 있습니다.</li>
+    <li><strong>단독 사용 금지:</strong> 반드시 다른 지표와 함께 종합적으로 판단해야 합니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Not a leading indicator:</strong> Doesn't tell you when the rebound starts. Prices can fall for months more even in the undervaluation zone.</li>
+    <li><strong>High correlation with NUPL:</strong> Both are realized-value based and tend to move together.</li>
+    <li><strong>Never use alone:</strong> Always combine with other indicators for a complete picture.</li>
+  </ul>
+
+  <!-- ── Combine ── -->
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong>Hash Ribbon 회복 전환:</strong> 가장 강력한 매수 선행 신호</li>
+    <li><strong>STH-SOPR 0.95 이하:</strong> 단기 보유자들의 패닉 손절</li>
+    <li><strong>Coinbase Premium 양전환:</strong> 미국 기관투자자 재진입 신호</li>
+    <li><strong>선물-현물 갭 음수:</strong> 레버리지 롱 청산 완료</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Hash Ribbon recovery cross:</strong> The strongest leading buy signal</li>
+    <li><strong>STH-SOPR below 0.95:</strong> Short-term holders panic selling</li>
+    <li><strong>Coinbase Premium turns positive:</strong> US institutional re-entry signal</li>
+    <li><strong>Futures-Spot gap negative:</strong> Leveraged longs flushed out</li>
+  </ul>
+
+  <div class="cta">
+    <h3 class="ko">지금 MVRV Z-Score 실시간 확인하기</h3>
+    <h3 class="en">Check MVRV Z-Score Live Now</h3>
+    <p class="ko">BTCtiming.com에서 MVRV Z-Score를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See MVRV Z-Score alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){
+  document.getElementById('hr').lang=l;
+  document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');
+  document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');
+  try{localStorage.setItem('blogLang',l);}catch(e){}
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

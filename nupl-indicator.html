@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NUPL 지표 완벽 가이드 — 시장 전체 미실현 손익 읽기 | BTCtiming.com</title>
+<meta name="description" content="NUPL(Net Unrealized Profit/Loss)이란 무엇인가요? 시장 전체의 미실현 손익을 5단계로 나눠 저점과 고점을 포착하는 방법, 계산법, 역사적 사례를 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/nupl-indicator.html">
+<meta property="og:title" content="NUPL 지표 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/nupl-indicator.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "온체인 지표", "tag_en": "ON-CHAIN INDICATOR", "title_ko": "NUPL 지표 완벽 가이드 — 시장 전체의 미실현 손익을 읽는 법", "title_en": "NUPL Complete Guide — Reading the Market's Unrealized P&L", "desc_ko": "시가총액과 실현시가총액의 차이로 시장 전체 심리를 5단계로 나눈 지표. 항복부터 도취까지, 2015~2025년 사이클로 활용법을 설명합니다.", "desc_en": "Divides market-wide sentiment into 5 zones using the gap between market cap and realized cap. From capitulation to euphoria, with 2015–2025 cycle examples.", "read_ko": "8", "read_en": "8", "date": "2026-07-02", "icon": "🌡️", "color": "#22d3ee", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">NUPL</span><span class="en">NUPL</span></div>
+
+  <h1 class="ko">NUPL 지표 완벽 가이드<br>시장 전체의 미실현 손익을 읽는 법</h1>
+  <h1 class="en">NUPL Complete Guide<br>Reading the Market's Unrealized P&amp;L</h1>
+  <div class="meta">
+    <span>📅 2026.07.02</span>
+    <span class="ko">⏱ 약 8분 · 🏷 온체인 지표</span>
+    <span class="en">⏱ ~8 min · 🏷 On-Chain Indicator</span>
+  </div>
+
+
+  <p class="ko">개별 보유자 한 명의 손익이 아니라, <strong>시장 전체 참여자의 미실현 손익</strong>을 하나의 숫자로 볼 수 있다면 어떨까요? <strong>NUPL(Net Unrealized Profit/Loss)</strong>은 정확히 이걸 보여주는 지표로, 시장이 지금 항복 상태인지 도취 상태인지를 5단계로 나눠 알려줍니다.</p>
+  <p class="en">What if you could see the unrealized profit or loss of the <strong>entire market</strong> as a single number — not just one holder? <strong>NUPL (Net Unrealized Profit/Loss)</strong> does exactly that, splitting market psychology into 5 zones from capitulation to euphoria.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> NUPL = (시가총액 − 실현시가총액) ÷ 시가총액. 0 이하면 시장 전체가 평균적으로 손실 상태(항복), 0.75 이상이면 극단적 도취 상태입니다. 모든 주요 저점은 0 이하에서, 모든 주요 고점은 0.75 이상에서 형성됐습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> NUPL = (Market Cap − Realized Cap) ÷ Market Cap. Below 0 means the market is at an average loss (capitulation); above 0.75 means extreme euphoria. Every major bottom formed below 0, and every major top above 0.75.</div>
+
+  <h2 class="ko">NUPL은 어떻게 계산되나?</h2>
+  <h2 class="en">How Is NUPL Calculated?</h2>
+  <p class="ko">시가총액에서 실현시가총액(모든 코인이 마지막으로 이동했을 때의 가격 합)을 뺀 값을, 다시 시가총액으로 나눠 비율로 표현합니다. 결과적으로 "시장 전체 보유자들이 지금 평균적으로 몇 %의 미실현 수익(혹은 손실) 상태인가"를 하나의 숫자로 압축한 것입니다.</p>
+  <p class="en">Subtract realized cap (the sum of each coin's value at the price it last moved) from market cap, then divide by market cap. The result compresses "what percentage of unrealized profit or loss the average holder is sitting on right now" into one number.</p>
+  <div class="box ko"><strong>계산 공식:</strong> NUPL = (시가총액 − 실현시가총액) ÷ 시가총액</div>
+  <div class="box en"><strong>Formula:</strong> NUPL = (Market Cap − Realized Cap) ÷ Market Cap</div>
+
+  <h2 class="ko">5단계 구간 해석</h2>
+  <h2 class="en">The 5 Zones</h2>
+  <table class="zt ko">
+    <tr><th>NUPL</th><th>단계</th><th>시장 상태</th></tr>
+    <tr><td class="g">0 미만</td><td>항복(Capitulation)</td><td class="g">평균적으로 손실 — 강력 매수 구간</td></tr>
+    <tr><td class="g">0 ~ 0.25</td><td>희망/공포(Hope/Fear)</td><td class="g">저점 통과 초기, 회복 시작</td></tr>
+    <tr><td class="y">0.25 ~ 0.5</td><td>낙관/불안(Optimism/Anxiety)</td><td class="y">상승 전환, 아직 중립</td></tr>
+    <tr><td class="y">0.5 ~ 0.75</td><td>믿음/부정(Belief/Denial)</td><td class="y">강세장 진행, 주의 필요</td></tr>
+    <tr><td class="r">0.75 이상</td><td>도취/탐욕(Euphoria/Greed)</td><td class="r">역사적 과열 — 매도 고려</td></tr>
+  </table>
+  <table class="zt en">
+    <tr><th>NUPL</th><th>Zone</th><th>Market State</th></tr>
+    <tr><td class="g">Below 0</td><td>Capitulation</td><td class="g">Average loss — strong buy zone</td></tr>
+    <tr><td class="g">0 – 0.25</td><td>Hope / Fear</td><td class="g">Early post-bottom recovery</td></tr>
+    <tr><td class="y">0.25 – 0.5</td><td>Optimism / Anxiety</td><td class="y">Uptrend forming, still neutral</td></tr>
+    <tr><td class="y">0.5 – 0.75</td><td>Belief / Denial</td><td class="y">Bull market underway, caution advised</td></tr>
+    <tr><td class="r">Above 0.75</td><td>Euphoria / Greed</td><td class="r">Historical overheating — consider selling</td></tr>
+  </table>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2015.01</div>
+    <div class="rt ko">비트코인 $150대 바닥에서 NUPL이 −0.1까지 하락, 시장 전체가 항복 단계.</div>
+    <div class="rt en">NUPL fell to −0.1 as Bitcoin bottomed near $150 — the entire market in capitulation.</div>
+    <div class="rr ko">→ 이후 2017년 $20,000까지 약 130배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~130x to $20,000 by 2017</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2018.12</div>
+    <div class="rt ko">$3,200 바닥에서 NUPL −0.05, 다시 한번 항복 구간 재현.</div>
+    <div class="rt en">NUPL hit −0.05 at the $3,200 bottom, confirming capitulation once again.</div>
+    <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2021.11 (고점)</div>
+    <div class="rt ko">$69,000 고점에서 NUPL 0.75 이상 기록, 도취 단계 진입.</div>
+    <div class="rt en">NUPL exceeded 0.75 at the $69,000 top, entering euphoria.</div>
+    <div class="rr ko">→ 이후 2022년 $15,500까지 약 77% 하락</div>
+    <div class="rr en">→ Bitcoin fell ~77% to $15,500 in 2022</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2022.11 (FTX 붕괴)</div>
+    <div class="rt ko">$15,500 저점에서 NUPL이 다시 0 근처까지 하락, 항복 신호 재현.</div>
+    <div class="rt en">NUPL fell back near 0 at the $15,500 bottom, signaling capitulation again.</div>
+    <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~8x to $126,000 by 2025</div>
+  </div>
+
+  <h2 class="ko">MVRV Z-Score와 무엇이 다른가?</h2>
+  <h2 class="en">How Is This Different From MVRV Z-Score?</h2>
+  <p class="ko">둘 다 시가총액과 실현시가총액을 비교한다는 점에서 근본적으로 유사합니다. 차이는 <strong>정규화 방식</strong>에 있습니다. MVRV Z-Score는 표준편차로 나눠 "역사적으로 얼마나 극단적인가"를 보여주고, NUPL은 단순 비율(%)로 표현해 "지금 시장 참여자가 평균적으로 몇 % 이익/손실 상태인가"를 직관적으로 보여줍니다.</p>
+  <p class="en">Both fundamentally compare market cap to realized cap. The difference is <strong>normalization</strong>. MVRV Z-Score divides by standard deviation to show "how historically extreme" the level is, while NUPL is a simple percentage that intuitively shows "what % profit or loss the average holder is sitting on right now."</p>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>MVRV 계열 지표와 상관관계가 높음.</strong> 같은 실현시가총액 데이터를 쓰기 때문에 MVRV Z-Score와 유사하게 움직입니다. 두 지표를 모두 매수 근거로 쓰면 중복 확인일 뿐, 독립적인 신호는 아닙니다.</li>
+    <li><strong>사이클마다 극단값이 달라질 수 있음.</strong> 시장이 성숙해지며 도취 단계의 최고치가 사이클마다 낮아지는 경향이 있습니다.</li>
+    <li><strong>타이밍 지표가 아님.</strong> 항복 구간에 진입했다고 해서 즉시 반등하는 것은 아니며, 수개월간 항복 상태가 지속될 수 있습니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Highly correlated with MVRV-family metrics.</strong> Since it uses the same realized cap data, it moves similarly to MVRV Z-Score. Using both as buy triggers is redundant confirmation, not two independent signals.</li>
+    <li><strong>Extremes can shift across cycles.</strong> As the market matures, euphoria-zone peaks have tended to get lower each cycle.</li>
+    <li><strong>Not a precise timing tool.</strong> Entering the capitulation zone doesn't mean an immediate rebound — it can persist for months.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료와 시장 항복이 겹치는지 확인</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 1 미만</a>:</strong> 단기 보유자 패닉 매도가 동반되는지 확인</li>
+    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 20 이하</a>:</strong> 시장 심리 지표와 온체인 항복 신호가 일치하는지 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> Check if miner capitulation ends alongside market capitulation</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR below 1</a>:</strong> Confirm short-term holder panic selling is happening too</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed below 20</a>:</strong> Check whether sentiment and on-chain capitulation signals align</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

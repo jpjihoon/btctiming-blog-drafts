@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STH-SOPR 지표 완벽 가이드 — 단기 보유자 손익 실현 추적하기 | BTCtiming.com</title>
+<meta name="description" content="STH-SOPR이란 무엇인가요? 단기 보유자 실현손익비율로 비트코인 패닉 매도와 저점을 포착하는 방법, 계산법, 역사적 사례를 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/sth-sopr.html">
+<meta property="og:title" content="STH-SOPR 지표 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/sth-sopr.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.pg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+@media(max-width:500px){.pg{grid-template-columns:1fr}}
+.pc{background:#111113;border-radius:10px;padding:16px;border:1px solid rgba(255,255,255,.07)}
+.pc.r{border-top:3px solid #f87171}.pc.g{border-top:3px solid #4ade80}
+.pt{font-size:13px;font-weight:700;margin-bottom:6px}
+.pc.r .pt{color:#f87171}.pc.g .pt{color:#4ade80}
+.pd{font-size:13px;color:#71717a;line-height:1.6}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cc{background:#111113;border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:18px 22px;margin:14px 0}
+.cc h3{margin:0 0 10px;color:#f7931a;border:none;font-size:1rem}
+.stats{display:flex;gap:20px;flex-wrap:wrap}
+.si{flex:1;min-width:90px}
+.sl{font-size:11px;color:#52525b;text-transform:uppercase;letter-spacing:.04em}
+.sv{font-size:19px;font-weight:700;color:#fafafa}
+.ss{font-size:12px;color:#71717a}
+.tl{border-left:2px solid rgba(247,147,26,.3);margin:20px 0;padding-left:22px}
+.tli{margin-bottom:20px;position:relative}
+.tli::before{content:'';position:absolute;left:-27px;top:6px;width:9px;height:9px;border-radius:50%;background:#f7931a}
+.tll{font-size:12px;color:#f7931a;font-weight:600;margin-bottom:3px}
+.tlt{color:#a1a1aa;font-size:14px}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "온체인 지표", "tag_en": "ON-CHAIN INDICATOR", "title_ko": "STH-SOPR 지표 완벽 가이드 — 단기 보유자의 손익 실현을 추적하다", "title_en": "STH-SOPR Complete Guide — Tracking Short-Term Holder P&L", "desc_ko": "단기 보유자들이 손실을 감수하고 파는 시점을 포착하는 지표. 2020년 COVID 폭락, 2022년 FTX 붕괴 사례로 저점 신호를 확인합니다.", "desc_en": "Catches the moment short-term holders sell at a loss. See bottom signals through the 2020 COVID crash and 2022 FTX collapse.", "read_ko": "7", "read_en": "7", "date": "2026-07-01", "icon": "💸", "color": "#fb923c", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">STH-SOPR</span><span class="en">STH-SOPR</span></div>
+
+  <h1 class="ko">STH-SOPR 지표 완벽 가이드<br>단기 보유자의 손익 실현을 추적하다</h1>
+  <h1 class="en">STH-SOPR Complete Guide<br>Tracking Short-Term Holder Profit &amp; Loss</h1>
+  <div class="meta">
+    <span>📅 2026.07.01</span>
+    <span class="ko">⏱ 약 7분 · 🏷 온체인 지표</span>
+    <span class="en">⏱ ~7 min · 🏷 On-Chain Indicator</span>
+  </div>
+
+
+  <p class="ko">비트코인을 파는 사람이 이익을 보고 파는지, 손해를 보고 파는지 알 수 있다면 어떨까요? <strong>STH-SOPR(단기 보유자 실현손익비율)</strong>은 정확히 이 질문에 답하는 온체인 지표로, 단기 트레이더들의 항복(capitulation) 시점을 정밀하게 포착합니다.</p>
+  <p class="en">What if you could tell whether Bitcoin sellers are taking profit or realizing losses? <strong>STH-SOPR (Short-Term Holder Spent Output Profit Ratio)</strong> answers exactly that — and it's remarkably precise at catching the moment short-term traders capitulate.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> STH-SOPR이 1 미만이면 155일 미만 보유자들이 평균적으로 손실을 보고 팔고 있다는 뜻입니다. 이 수치가 1 아래로 급락했다가 다시 1을 회복하는 구간이 역사적으로 강력한 저점 신호였습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> STH-SOPR below 1 means holders under 155 days are selling at an average loss. Sharp drops below 1 followed by a recovery back above 1 have historically marked strong bottom signals.</div>
+
+  <h2 class="ko">SOPR과 STH-SOPR의 차이</h2>
+  <h2 class="en">SOPR vs. STH-SOPR</h2>
+  <p class="ko">SOPR(Spent Output Profit Ratio)은 "판매 가격 ÷ 취득 가격"으로 계산되며, 1보다 크면 평균적으로 수익 실현, 1보다 작으면 손실 실현을 의미합니다. STH-SOPR은 이 계산을 <strong>155일 미만 보유한 코인(단기 보유자)</strong>으로만 한정한 버전입니다.</p>
+  <p class="en">SOPR (Spent Output Profit Ratio) is calculated as "sale price ÷ acquisition price." Above 1 means coins are sold at an average profit; below 1 means an average loss. STH-SOPR narrows this calculation to only coins held for <strong>less than 155 days</strong> (short-term holders).</p>
+  <p class="ko">장기 보유자(LTH)는 사이클 내내 코인을 쥐고 있어 SOPR 변화가 느리지만, 단기 보유자는 변동성에 민감하게 매매하기 때문에 시장의 단기 심리 변화를 훨씬 빠르게 반영합니다.</p>
+  <p class="en">Long-term holders (LTH) hold through entire cycles, so their SOPR moves slowly. Short-term holders trade actively around volatility, making STH-SOPR a much faster read on short-term market psychology.</p>
+
+  <h2 class="ko">왜 1 미만 재진입이 저점 신호인가?</h2>
+  <h2 class="en">Why a Drop Below 1 Signals a Bottom</h2>
+  <div class="pg">
+    <div class="pc r">
+      <div class="pt ko">🔴 1 아래로 급락</div>
+      <div class="pt en">🔴 Sharp Drop Below 1</div>
+      <div class="pd ko">단기 보유자들이 패닉에 빠져 손실을 감수하고서라도 투매합니다. 시장에서 "약한 손"이 빠르게 정리되는 구간입니다.</div>
+      <div class="pd en">Short-term holders panic and sell at a loss anyway. This is when "weak hands" get flushed out of the market quickly.</div>
+    </div>
+    <div class="pc g">
+      <div class="pt ko">🟢 1 위로 회복</div>
+      <div class="pt en">🟢 Recovery Back Above 1</div>
+      <div class="pd ko">투매가 소진되고 남은 매도 물량이 손익분기점 근처에서 흡수됨. 매도 압력이 약해졌다는 신호입니다.</div>
+      <div class="pd en">Selling exhausts itself and remaining supply gets absorbed near breakeven — a sign selling pressure has weakened.</div>
+    </div>
+  </div>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2020.03 (COVID 폭락)</div>
+    <div class="rt ko">STH-SOPR이 0.85까지 급락하며 역대급 패닉 매도를 기록. 이후 빠르게 1 위로 회복.</div>
+    <div class="rt en">STH-SOPR plunged to 0.85 during record panic selling, then quickly recovered above 1.</div>
+    <div class="rr ko">→ $3,800 저점에서 2021년 $69,000까지 약 18배 상승</div>
+    <div class="rr en">→ Rose ~18x from the $3,800 bottom to $69,000 in 2021</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2022.11 (FTX 붕괴)</div>
+    <div class="rt ko">FTX 파산 여파로 STH-SOPR이 0.88까지 하락, 단기 보유자들의 대규모 손절 확인.</div>
+    <div class="rt en">STH-SOPR fell to 0.88 amid the FTX collapse, confirming heavy short-term capitulation.</div>
+    <div class="rr ko">→ $15,500 저점 형성 후 반등 시작</div>
+    <div class="rr en">→ Marked the $15,500 bottom before the rebound</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2024.08</div>
+    <div class="rt ko">엔캐리 트레이드 청산 여파로 급락 시 STH-SOPR이 0.92까지 하락 후 빠르게 회복.</div>
+    <div class="rt en">STH-SOPR fell to 0.92 during the yen-carry-trade unwind sell-off, then recovered quickly.</div>
+    <div class="rr ko">→ 단기 저점 확인 후 반등</div>
+    <div class="rr en">→ Confirmed a short-term bottom before rebounding</div>
+  </div>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>노이즈가 많음.</strong> 일간 변동이 크기 때문에 7일 이동평균 등으로 스무딩해서 보는 것이 좋습니다.</li>
+    <li><strong>거래소 이체와 구분 필요.</strong> 대규모 코인 이동(내부 이체 등)이 일시적으로 수치를 왜곡할 수 있습니다.</li>
+    <li><strong>강세장 중 하락 조정에도 나타남.</strong> 사이클 저점이 아니라 단순 조정 구간에서도 1 아래로 내려갈 수 있습니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Noisy day to day.</strong> Daily swings can be large — smoothing with a 7-day moving average is recommended.</li>
+    <li><strong>Watch for exchange transfers.</strong> Large coin movements (e.g. internal transfers) can temporarily distort the reading.</li>
+    <li><strong>Can appear during bull-market pullbacks too.</strong> A dip below 1 doesn't always mean a full cycle bottom — it can also mark a mid-cycle correction.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong>Hash Ribbon 회복 전환:</strong> 채굴자와 트레이더 항복이 동시에 끝나는지 확인</li>
+    <li><strong>MVRV Z-Score 0 이하:</strong> 가격 자체가 저평가 구간인지 함께 확인</li>
+    <li><strong>공포탐욕지수 20 이하:</strong> 시장 전반의 극단적 공포와 일치하는지 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Hash Ribbon recovery cross:</strong> Check if miner and trader capitulation end together</li>
+    <li><strong>MVRV Z-Score below 0:</strong> Confirm price itself is in the undervaluation zone</li>
+    <li><strong>Fear & Greed below 20:</strong> Confirm alignment with broad market-wide extreme fear</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

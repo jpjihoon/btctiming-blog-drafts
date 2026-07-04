@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pi Cycle Top 지표 완벽 가이드 — 사이클 고점을 예측한 지표 | BTCtiming.com</title>
+<meta name="description" content="Pi Cycle Top Indicator란 무엇인가요? 111일과 350일 이동평균선의 교차로 비트코인 사이클 고점을 정확히 포착한 지표를 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/pi-cycle-top-indicator.html">
+<meta property="og:title" content="Pi Cycle Top 지표 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/pi-cycle-top-indicator.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "기술적 지표", "tag_en": "TECHNICAL INDICATOR", "title_ko": "Pi Cycle Top 지표 완벽 가이드 — 사이클 고점을 예측한 지표", "title_en": "Pi Cycle Top Indicator Guide — The Indicator That Called Cycle Tops", "desc_ko": "111일 이동평균선이 350일 이동평균선의 2배를 상향 돌파할 때 사이클 고점 근처를 포착한 지표. 2013·2017·2021년 사례를 소개합니다.", "desc_en": "Catches cycle tops when the 111-day MA crosses above 2x the 350-day MA. With 2013, 2017, and 2021 case studies.", "read_ko": "6", "read_en": "6", "date": "2026-07-09", "icon": "🔺", "color": "#ef4444", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">Pi Cycle Top</span><span class="en">Pi Cycle Top</span></div>
+
+  <h1 class="ko">Pi Cycle Top 지표 완벽 가이드<br>사이클 고점을 예측한 지표</h1>
+  <h1 class="en">Pi Cycle Top Indicator Guide<br>The Indicator That Called Cycle Tops</h1>
+  <div class="meta">
+    <span>📅 2026.07.09</span>
+    <span class="ko">⏱ 약 6분 · 🏷 기술적 지표</span>
+    <span class="en">⏱ ~6 min · 🏷 TECHNICAL INDICATOR</span>
+  </div>
+
+
+  <p class="ko">비트코인 사이클 저점을 잡는 지표는 많지만, <strong>고점</strong>을 정확히 예측한 지표는 드뭅니다. <strong>Pi Cycle Top Indicator</strong>는 단순한 이동평균선 교차 하나로 2013년, 2017년, 2021년 사이클 고점을 며칠 오차로 포착해낸 몇 안 되는 지표입니다.</p>
+  <p class="en">Many indicators help call Bitcoin cycle bottoms, but few reliably predict <strong>tops</strong>. The <strong>Pi Cycle Top Indicator</strong> is one of the rare exceptions — a simple moving average crossover that caught the 2013, 2017, and 2021 cycle tops within days.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> 111일 이동평균선(111DMA)이 350일 이동평균선의 2배(350DMA×2)를 상향 돌파하는 순간이 신호입니다. 세 번의 주요 사이클 고점에서 모두 며칠 이내 오차로 정확히 맞아떨어졌습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> The signal fires when the 111-day moving average (111DMA) crosses above 2x the 350-day moving average (350DMA×2). It nailed all three major cycle tops within days.</div>
+
+  <h2 class="ko">왜 111일과 350일인가?</h2>
+  <h2 class="en">Why 111 and 350 Days?</h2>
+  <p class="ko">111일은 상대적으로 빠른 단기 이동평균, 350일은 거의 1년에 가까운 장기 이동평균입니다. 두 선의 비율(111DMA와 350DMA×2)이 특정 시점에 맞아떨어지는 현상은 우연이라기보다, 강세장 말기에 가격 상승 속도가 극단적으로 빨라지는 패턴을 수학적으로 포착한 결과로 해석됩니다.</p>
+  <p class="en">111 days is a relatively fast short-term average; 350 days is a long-term average nearly spanning a year. The moment these two ratios align isn't coincidence so much as a mathematical capture of the extreme acceleration in price that tends to occur near the end of a bull market.</p>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2013.12</div>
+    <div class="rt ko">$1,150 고점 3일 전 신호 발생.</div>
+    <div class="rt en">Signal fired 3 days before the $1,150 top.</div>
+    <div class="rr ko">→ 이후 -85% 조정</div>
+    <div class="rr en">→ Followed by an -85% correction</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2017.12</div>
+    <div class="rt ko">$19,800 고점 3일 전 신호 발생.</div>
+    <div class="rt en">Signal fired 3 days before the $19,800 top.</div>
+    <div class="rr ko">→ 이후 -84% 조정</div>
+    <div class="rr en">→ Followed by an -84% correction</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2021.04</div>
+    <div class="rt ko">$64,000 고점 근처에서 신호 발생 (2021년 11월 최종 고점은 놓쳤으나 4월 국소 고점 포착).</div>
+    <div class="rt en">Signal fired near the $64,000 top (missed the final November 2021 peak but caught the April local top).</div>
+    <div class="rr ko">→ 신호 후 약 -50% 조정 발생</div>
+    <div class="rr en">→ Followed by an ~-50% correction</div>
+  </div>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>모든 고점을 포착하지는 못함.</strong> 2021년처럼 이중 고점(더블 탑) 사이클에서는 첫 번째 국소 고점만 잡을 수 있습니다.</li>
+    <li><strong>신호가 매우 드물게 발생.</strong> 사이클당 1회 정도만 발생하는 지표라 확인 즉시 대응이 중요합니다.</li>
+    <li><strong>과거 사이클 기반.</strong> 미래에도 동일한 패턴이 반복된다는 보장은 없습니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Doesn't catch every top.</strong> In double-top cycles like 2021, it may only catch the first local peak.</li>
+    <li><strong>Signals are very rare.</strong> It fires roughly once per cycle, so acting promptly when it appears matters.</li>
+    <li><strong>Based on past cycles.</strong> There's no guarantee the same pattern repeats in the future.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 3.5 이상</a>:</strong> 밸류에이션 과열과 겹치는지 확인</li>
+    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 80 이상</a>:</strong> 극단적 탐욕과 함께 나타나는지 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score above 3.5</a>:</strong> Check whether valuation overheating aligns too</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed above 80</a>:</strong> Check whether extreme greed appears alongside it</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

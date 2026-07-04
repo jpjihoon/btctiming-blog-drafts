@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Puell Multiple 완벽 가이드 — 채굴자 수익성으로 보는 사이클 위치 | BTCtiming.com</title>
+<meta name="description" content="Puell Multiple이란 무엇인가요? 채굴자의 일일 수익을 1년 평균과 비교해 사이클 저점과 고점을 포착하는 온체인 지표를 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/puell-multiple.html">
+<meta property="og:title" content="Puell Multiple 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/puell-multiple.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "온체인 지표", "tag_en": "ON-CHAIN INDICATOR", "title_ko": "Puell Multiple 완벽 가이드 — 채굴자 수익성으로 보는 사이클 위치", "title_en": "Puell Multiple Complete Guide — Reading Cycle Position via Miner Revenue", "desc_ko": "채굴자의 일일 발행 수익을 1년 평균과 비교하는 지표. 0.5 이하는 저점, 4 이상은 고점 구간으로 알려져 있습니다.", "desc_en": "Compares daily miner issuance revenue to its 1-year average. Below 0.5 signals a bottom zone, above 4 a top zone.", "read_ko": "6", "read_en": "6", "date": "2026-07-08", "icon": "💰", "color": "#f59e0b", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">Puell Multiple</span><span class="en">Puell Multiple</span></div>
+
+  <h1 class="ko">Puell Multiple 완벽 가이드<br>채굴자 수익성으로 보는 사이클 위치</h1>
+  <h1 class="en">Puell Multiple Complete Guide<br>Reading Cycle Position via Miner Revenue</h1>
+  <div class="meta">
+    <span>📅 2026.07.08</span>
+    <span class="ko">⏱ 약 6분 · 🏷 온체인 지표</span>
+    <span class="en">⏱ ~6 min · 🏷 ON-CHAIN INDICATOR</span>
+  </div>
+
+
+  <p class="ko">채굴자는 비트코인 생태계에서 가장 먼저 매도 압박을 받는 참여자입니다. 이들의 수익성을 추적하면 시장의 구조적 저점과 고점을 미리 읽을 수 있는데, 이걸 정량화한 지표가 바로 <strong>Puell Multiple</strong>입니다.</p>
+  <p class="en">Miners are usually the first participants in the Bitcoin ecosystem to face selling pressure. Tracking their profitability can reveal structural market bottoms and tops early — and that's exactly what the <strong>Puell Multiple</strong> quantifies.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> Puell Multiple = 일일 채굴 발행 수익(USD) ÷ 최근 365일 평균. 0.5 이하는 채굴자 수익성 바닥(저점 구간), 4 이상은 채굴자 초과이익 구간(고점 구간)으로 알려져 있습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> Puell Multiple = Daily mining issuance revenue (USD) ÷ 365-day average. Below 0.5 signals rock-bottom miner profitability (bottom zone); above 4 signals miner windfall profits (top zone).</div>
+
+  <h2 class="ko">왜 채굴자 수익성이 중요한가?</h2>
+  <h2 class="en">Why Does Miner Profitability Matter?</h2>
+  <p class="ko">채굴자는 전기료, 장비 감가 등 고정비를 감당해야 하므로, 수익성이 낮아지면 보유 비트코인을 매도해 운영자금을 충당합니다. 이는 시장에 추가 매도 압력을 만들지만, 동시에 이 매도가 소진되는 지점이 종종 저점과 일치합니다. 반대로 채굴자 수익이 급증하는 시기는 대개 가격 급등기와 겹치며 과열 신호로 해석됩니다.</p>
+  <p class="en">Miners must cover fixed costs — electricity, equipment depreciation — so when profitability drops, they sell held Bitcoin to fund operations. This adds selling pressure, but the point where this selling exhausts itself often coincides with a bottom. Conversely, periods of surging miner revenue tend to overlap with price spikes and are read as overheating signals.</p>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2015.01, 2018.12, 2022.11</div>
+    <div class="rt ko">세 번의 사이클 저점 모두 Puell Multiple이 0.5 이하로 하락, 채굴자 항복 확인.</div>
+    <div class="rt en">All three cycle bottoms saw Puell Multiple fall below 0.5, confirming miner capitulation.</div>
+    <div class="rr ko">→ 이후 모두 사이클 최고점까지 10배 이상 상승</div>
+    <div class="rr en">→ Each was followed by a rally of 10x or more to the cycle peak</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2017.12, 2021.04</div>
+    <div class="rt ko">두 번의 사이클 고점 부근에서 Puell Multiple이 4 이상까지 상승, 채굴자 초과이익 구간.</div>
+    <div class="rt en">Near both cycle tops, Puell Multiple rose above 4, marking a miner windfall zone.</div>
+    <div class="rr ko">→ 이후 각각 -84%, -77% 조정 발생</div>
+    <div class="rr en">→ Followed by corrections of -84% and -77%, respectively</div>
+  </div>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>반감기 직후 왜곡 가능.</strong> 발행량이 절반으로 줄기 때문에 Puell Multiple이 일시적으로 낮게 나올 수 있습니다.</li>
+    <li><strong>해시레이트·난이도 변화의 영향.</strong> 채굴 경쟁 심화로 채산성 자체가 구조적으로 변할 수 있습니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Can be distorted right after a halving.</strong> Since issuance is cut in half, Puell Multiple can read artificially low temporarily.</li>
+    <li><strong>Affected by hashrate/difficulty changes.</strong> Intensifying mining competition can structurally shift baseline profitability.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 채굴자 항복 종료 시점과 교차 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 채굴자 관점과 투자자 관점의 밸류에이션을 함께 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Cross-check against the end of miner capitulation</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Compare valuation from both a miner and an investor perspective</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>
