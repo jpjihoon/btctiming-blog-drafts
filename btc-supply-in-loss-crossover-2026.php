@@ -1,0 +1,174 @@
+<?php $slug = 'btc-supply-in-loss-crossover-2026'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">7월 3일 기준, 손실 상태로 보유되고 있는 비트코인이 1,083만 개로 늘어난 반면 수익 상태로 보유된 물량은 922만 개로 줄었다. 글래스노드 데이터에 따르면 이번 사이클 들어 처음으로 손실 물량이 수익 물량을 앞지른 것이다. 전체 유통량의 절반 이상이 보유자의 매입가보다 낮은 가격에 걸려 있다는 뜻인데, 이 지표가 역대 몇 안 되는 등장 때마다 사이클 바닥 근처였다는 게 이번 크로스오버를 그냥 지나칠 수 없게 만든다.</p>
+  <p class="en">As of July 3, the amount of bitcoin held at a loss has grown to 10.83 million coins, while the amount held in profit has shrunk to 9.22 million. Per Glassnode data, this marks the first time this cycle that loss-holding supply has overtaken profit-holding supply. That means more than half of circulating supply now sits below its holders' cost basis — and the fact that this indicator has appeared only a handful of times in Bitcoin's history, each landing near a cycle bottom, is what makes this crossover impossible to just wave off.</p>
+  <p class="ja">7月3日時点で、損失状態で保有されているビットコインは1,083万枚に増え、収益状態で保有されている物量は922万枚に減った。Glassnodeのデータによると、今サイクルに入って初めて損失物量が収益物量を上回ったという。全体流通量の半分以上が保有者の購入価格を下回る価格にあるということだが、この指標が歴史上数少ない登場のたびにサイクルの底値近くだったという事実が、今回のクロスオーバーをただ見過ごせないものにしている。</p>
+  <p class="es">Al 3 de julio, la cantidad de bitcoin en poder con pérdidas ha crecido a 10.83 millones de monedas, mientras que la cantidad en poder con ganancias se ha reducido a 9.22 millones. Según datos de Glassnode, esta es la primera vez en este ciclo que el suministro en pérdidas supera al suministro en ganancias. Eso significa que más de la mitad del suministro circulante se encuentra ahora por debajo de la base de costo de sus tenedores — y el hecho de que este indicador solo ha aparecido un puñado de veces en la historia de Bitcoin, cada vez cerca de un fondo de ciclo, es lo que hace imposible simplemente ignorar este cruce.</p>
+  <p class="de">Stand 3. Juli ist die Menge an mit Verlust gehaltenem Bitcoin auf 10,83 Millionen Coins gewachsen, während die mit Gewinn gehaltene Menge auf 9,22 Millionen geschrumpft ist. Laut Glassnode-Daten markiert dies das erste Mal in diesem Zyklus, dass das Verlust-Angebot das Gewinn-Angebot überholt hat. Das bedeutet, dass sich mehr als die Hälfte des im Umlauf befindlichen Angebots nun unterhalb der Kostenbasis seiner Halter befindet — und die Tatsache, dass dieser Indikator in der Geschichte von Bitcoin nur eine Handvoll Male aufgetaucht ist, jedes Mal nahe einem Zyklustief, macht es unmöglich, diesen Crossover einfach abzutun.</p>
+
+  <h2 class="ko">이 지표가 실제로 무엇을 재는가</h2>
+  <h2 class="en">What this indicator actually measures</h2>
+  <h2 class="ja">この指標が実際に何を測っているのか</h2>
+  <h2 class="es">Qué mide realmente este indicador</h2>
+  <h2 class="de">Was dieser Indikator tatsächlich misst</h2>
+  <p class="ko">글래스노드의 "공급량 수익/손실" 지표는 각 코인이 마지막으로 온체인에서 이동한 시점의 가격("실현가격")을 그 코인의 취득가로 간주하고, 현재 가격과 비교해 수익·손실 여부를 나눈다. 두 그룹은 항상 정확히 합쳐서 전체 유통량이 되기 때문에, 한쪽이 늘면 다른 쪽은 정확히 그만큼 준다. 6월 4일 처음 이 역전이 나타났을 때는 손실 1,050만 개 대 수익 980만 개였는데, 이후 한 달 새 격차가 더 벌어져 지금은 1,083만 개 대 922만 개다. 같은 기간 비트코인은 지난 4년간 지지선 역할을 해온 200주 이동평균선(약 6만 1,300달러)을 4년 만에 처음 하회했고, 6월 30일에는 21개월 만의 최저치인 5만 7,950달러까지 밀렸다. 과거 이 역전이 나타났던 시점은 2015년(약 200달러), 2019년 1월(약 3,300달러), 2020년 3월 코로나 충격(3,000달러 아래), 2022년 11월 FTX 붕괴 직후(약 1만 5,000달러)로, 네 번 모두 이후 몇 달에서 몇 개월에 걸친 바닥 다지기 구간의 초입이었다.</p>
+  <p class="en">Glassnode's "Supply in Profit/Loss" indicator treats the price at which each coin last moved on-chain (its "realized price") as that coin's acquisition cost, then compares it against the current price to sort supply into profit or loss. Because the two groups always sum exactly to total circulating supply, whatever one gains, the other loses in equal measure. When this crossover first appeared on June 4, the reading was 10.5 million in loss against 9.8 million in profit; the gap has since widened over the following month to today's 10.83 million against 9.22 million. Over that same window, bitcoin broke below its 200-week moving average (around $61,300) — a level that had held as support for the past four years — for the first time in four years, and slid to a 21-month low of $57,950 on June 30. Past appearances of this crossover landed in 2015 (around $200), January 2019 (around $3,300), the March 2020 COVID shock (below $3,000), and right after the November 2022 FTX collapse (around $15,000) — all four times marking the start of a basing period that stretched weeks to months before a sustained recovery followed.</p>
+  <p class="ja">Glassnodeの「供給量収益/損失」指標は各コインが最後にオンチェーンで移動した時点の価格(「実現価格」)をそのコインの取得価格とみなし、現在価格と比較して収益・損失を分ける。2つのグループは常に正確に合わさって全体流通量になるため、一方が増えればもう一方は正確にその分減る。6月4日に初めてこの逆転が現れた時は損失1,050万枚対収益980万枚だったが、その後1ヶ月でギャップがさらに広がり今は1,083万枚対922万枚だ。同期間、ビットコインは過去4年間支持線の役割を果たしてきた200週移動平均線(約6万1,300ドル)を4年ぶりに初めて下回り、6月30日には21ヶ月ぶりの最安値5万7,950ドルまで下落した。過去にこの逆転が現れた時点は2015年(約200ドル)、2019年1月(約3,300ドル)、2020年3月のコロナショック(3,000ドル以下)、2022年11月のFTX崩壊直後(約1万5,000ドル)で、4回とも以後数週間から数ヶ月に及ぶ底固め区間の入り口だった。</p>
+  <p class="es">El indicador "Suministro en Ganancia/Pérdida" de Glassnode trata el precio al que cada moneda se movió por última vez on-chain (su "precio realizado") como el costo de adquisición de esa moneda, y luego lo compara con el precio actual para clasificar el suministro en ganancia o pérdida. Como los dos grupos siempre suman exactamente el suministro circulante total, lo que uno gana, el otro lo pierde en igual medida. Cuando este cruce apareció por primera vez el 4 de junio, la lectura era 10.5 millones en pérdida contra 9.8 millones en ganancia; la brecha se ha ampliado desde entonces durante el mes siguiente hasta los 10.83 millones contra 9.22 millones de hoy. Durante esa misma ventana, bitcoin rompió por debajo de su media móvil de 200 semanas (alrededor de $61,300) — un nivel que se había mantenido como soporte durante los últimos cuatro años — por primera vez en cuatro años, y cayó a un mínimo de 21 meses de $57,950 el 30 de junio. Las apariciones pasadas de este cruce se dieron en 2015 (alrededor de $200), enero de 2019 (alrededor de $3,300), el shock de COVID de marzo de 2020 (por debajo de $3,000), y justo después del colapso de FTX en noviembre de 2022 (alrededor de $15,000) — las cuatro veces marcando el inicio de un período de consolidación que se extendió de semanas a meses antes de que siguiera una recuperación sostenida.</p>
+  <p class="de">Glassnodes "Supply in Profit/Loss"-Indikator behandelt den Preis, zu dem jede Münze zuletzt on-chain bewegt wurde (ihren "realisierten Preis"), als Anschaffungskosten dieser Münze und vergleicht ihn dann mit dem aktuellen Preis, um das Angebot in Gewinn oder Verlust einzuordnen. Da sich die beiden Gruppen immer genau zum gesamten zirkulierenden Angebot summieren, verliert die eine Gruppe genau das, was die andere gewinnt. Als dieser Crossover am 4. Juni zum ersten Mal auftauchte, lag der Messwert bei 10,5 Millionen im Verlust gegenüber 9,8 Millionen im Gewinn; die Lücke hat sich seitdem im folgenden Monat auf die heutigen 10,83 Millionen gegenüber 9,22 Millionen ausgeweitet. Im selben Zeitraum durchbrach Bitcoin zum ersten Mal seit vier Jahren seinen 200-Wochen-gleitenden Durchschnitt (rund 61.300 Dollar) — ein Niveau, das in den vergangenen vier Jahren als Unterstützung gehalten hatte — und rutschte am 30. Juni auf ein 21-Monats-Tief von 57.950 Dollar. Frühere Auftritte dieses Crossovers fielen auf 2015 (rund 200 Dollar), Januar 2019 (rund 3.300 Dollar), den COVID-Schock im März 2020 (unter 3.000 Dollar) und direkt nach dem FTX-Kollaps im November 2022 (rund 15.000 Dollar) — alle vier Male markierten sie den Beginn einer Bodenbildungsphase, die sich über Wochen bis Monate erstreckte, bevor eine anhaltende Erholung folgte.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">과거 손실/수익 공급량 역전 시점 (근사 가격)</text>
+    <g font-family="sans-serif" font-size="10">
+      <rect x="30" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="105" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2015년</text>
+      <text x="105" y="90" fill="#a1a1aa" text-anchor="middle">약 $200</text>
+      <rect x="195" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="270" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2019년 1월</text>
+      <text x="270" y="90" fill="#a1a1aa" text-anchor="middle">약 $3,300</text>
+      <rect x="360" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="435" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2020년 3월</text>
+      <text x="435" y="90" fill="#a1a1aa" text-anchor="middle">$3,000 미만</text>
+      <rect x="525" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="600" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2022년 11월</text>
+      <text x="600" y="90" fill="#a1a1aa" text-anchor="middle">약 $15,000</text>
+      <rect x="195" y="150" width="320" height="70" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="2"/>
+      <text x="355" y="175" fill="#f7931a" font-weight="700" text-anchor="middle">2026년 6~7월 (지금)</text>
+      <text x="355" y="195" fill="#e4e4e7" text-anchor="middle">약 $58,000~$61,300</text>
+      <text x="355" y="212" fill="#71717a" font-size="9" text-anchor="middle">손실 1,083만 vs 수익 922만 BTC</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Glassnode, CoinDesk 데이터 종합. 근사치입니다.</p>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Past Loss/Profit Supply Crossovers (approximate price)</text>
+    <g font-family="sans-serif" font-size="10">
+      <rect x="30" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="105" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2015</text>
+      <text x="105" y="90" fill="#a1a1aa" text-anchor="middle">~$200</text>
+      <rect x="195" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="270" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Jan 2019</text>
+      <text x="270" y="90" fill="#a1a1aa" text-anchor="middle">~$3,300</text>
+      <rect x="360" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="435" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Mar 2020</text>
+      <text x="435" y="90" fill="#a1a1aa" text-anchor="middle">Below $3,000</text>
+      <rect x="525" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="600" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Nov 2022</text>
+      <text x="600" y="90" fill="#a1a1aa" text-anchor="middle">~$15,000</text>
+      <rect x="195" y="150" width="320" height="70" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="2"/>
+      <text x="355" y="175" fill="#f7931a" font-weight="700" text-anchor="middle">Jun-Jul 2026 (now)</text>
+      <text x="355" y="195" fill="#e4e4e7" text-anchor="middle">~$58,000-$61,300</text>
+      <text x="355" y="212" fill="#71717a" font-size="9" text-anchor="middle">10.83M loss vs 9.22M profit BTC</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Compiled from Glassnode and CoinDesk data. Figures are approximate.</p>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">過去の損失/収益供給量逆転時点 (概算価格)</text>
+    <g font-family="sans-serif" font-size="10">
+      <rect x="30" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="105" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2015年</text>
+      <text x="105" y="90" fill="#a1a1aa" text-anchor="middle">約$200</text>
+      <rect x="195" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="270" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2019年1月</text>
+      <text x="270" y="90" fill="#a1a1aa" text-anchor="middle">約$3,300</text>
+      <rect x="360" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="435" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2020年3月</text>
+      <text x="435" y="90" fill="#a1a1aa" text-anchor="middle">$3,000未満</text>
+      <rect x="525" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="600" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2022年11月</text>
+      <text x="600" y="90" fill="#a1a1aa" text-anchor="middle">約$15,000</text>
+      <rect x="195" y="150" width="320" height="70" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="2"/>
+      <text x="355" y="175" fill="#f7931a" font-weight="700" text-anchor="middle">2026年6〜7月(今)</text>
+      <text x="355" y="195" fill="#e4e4e7" text-anchor="middle">約$58,000〜$61,300</text>
+      <text x="355" y="212" fill="#71717a" font-size="9" text-anchor="middle">損失1,083万 vs 収益922万 BTC</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Glassnode、CoinDeskのデータを総合。概算値です。</p>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Cruces Pasados de Suministro en Pérdida/Ganancia (precio aproximado)</text>
+    <g font-family="sans-serif" font-size="10">
+      <rect x="30" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="105" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2015</text>
+      <text x="105" y="90" fill="#a1a1aa" text-anchor="middle">~$200</text>
+      <rect x="195" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="270" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Ene 2019</text>
+      <text x="270" y="90" fill="#a1a1aa" text-anchor="middle">~$3,300</text>
+      <rect x="360" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="435" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Mar 2020</text>
+      <text x="435" y="90" fill="#a1a1aa" text-anchor="middle">Bajo $3,000</text>
+      <rect x="525" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="600" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Nov 2022</text>
+      <text x="600" y="90" fill="#a1a1aa" text-anchor="middle">~$15,000</text>
+      <rect x="195" y="150" width="320" height="70" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="2"/>
+      <text x="355" y="175" fill="#f7931a" font-weight="700" text-anchor="middle">Jun-Jul 2026 (ahora)</text>
+      <text x="355" y="195" fill="#e4e4e7" text-anchor="middle">~$58,000-$61,300</text>
+      <text x="355" y="212" fill="#71717a" font-size="9" text-anchor="middle">10.83M pérdida vs 9.22M ganancia BTC</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Recopilado de datos de Glassnode y CoinDesk. Cifras aproximadas.</p>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Frühere Verlust/Gewinn-Angebots-Crossover (ungefährer Preis)</text>
+    <g font-family="sans-serif" font-size="10">
+      <rect x="30" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="105" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">2015</text>
+      <text x="105" y="90" fill="#a1a1aa" text-anchor="middle">~$200</text>
+      <rect x="195" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="270" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Jan. 2019</text>
+      <text x="270" y="90" fill="#a1a1aa" text-anchor="middle">~$3.300</text>
+      <rect x="360" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="435" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">März 2020</text>
+      <text x="435" y="90" fill="#a1a1aa" text-anchor="middle">Unter $3.000</text>
+      <rect x="525" y="50" width="150" height="55" rx="6" fill="#1c1c1f" stroke="#71717a" stroke-width="1.5"/>
+      <text x="600" y="72" fill="#e4e4e7" font-weight="700" text-anchor="middle">Nov. 2022</text>
+      <text x="600" y="90" fill="#a1a1aa" text-anchor="middle">~$15.000</text>
+      <rect x="195" y="150" width="320" height="70" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="2"/>
+      <text x="355" y="175" fill="#f7931a" font-weight="700" text-anchor="middle">Jun-Jul 2026 (jetzt)</text>
+      <text x="355" y="195" fill="#e4e4e7" text-anchor="middle">~$58.000-$61.300</text>
+      <text x="355" y="212" fill="#71717a" font-size="9" text-anchor="middle">10,83 Mio. Verlust vs 9,22 Mio. Gewinn BTC</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Zusammengestellt aus Glassnode- und CoinDesk-Daten. Näherungswerte.</p>
+  </div>
+
+  <h2 class="ko">이번엔 다른 신호와도 겹친다</h2>
+  <h2 class="en">This time it overlaps with other signals too</h2>
+  <h2 class="ja">今回は他のシグナルとも重なる</h2>
+  <h2 class="es">Esta vez también se superpone con otras señales</h2>
+  <h2 class="de">Diesmal überschneidet es sich auch mit anderen Signalen</h2>
+  <p class="ko">이번 크로스오버가 흥미로운 건 혼자 나타난 게 아니라는 점이다. 같은 기간 장기보유자들은 순매도에서 순매집으로 전환했고, 여러 규모 구간의 지갑 잔고가 동시에 늘고 있다. 코인데스크에 따르면 최근 2주 사이 고래 지갑들이 비트코인을 167억 달러어치 사들인 반면, 미국 현물 ETF는 6월 한 달간 45억 1,000만 달러라는 상장 이후 최대 월간 순유출을 기록했다 — 이는 통상 신규 진입 자금인 ETF 자금과, 이미 시장에 익숙한 고래 자금이 정반대로 움직였다는 뜻이다. 여기에 6월 미국 고용지표가 예상치(11만 명)를 크게 밑도는 5만 7,000명에 그치면서 연준의 추가 긴축 가능성이 낮아졌고, 이 여파로 7월 1일 이후 비트코인은 5만 7,750달러대 저점에서 6만 1,300~6만 1,600달러대까지 반등했다. 코인데스크는 이를 "이번 매도세에서 나온 첫 번째 진짜 반등"이라고 표현했다.</p>
+  <p class="en">What makes this crossover interesting is that it didn't appear in isolation. Over the same period, long-term holders flipped from net selling to net accumulation, and wallet balances across several size brackets have been rising simultaneously. Per CoinDesk, whale wallets bought $16.7 billion worth of bitcoin over the past two weeks, while US spot ETFs recorded their worst monthly net outflow on record — $4.51 billion in June — meaning ETF capital, typically a proxy for new entrants, and whale capital, typically more market-savvy, moved in opposite directions. Layered on top, June's US jobs report came in at just 57,000 jobs added, well below the 110,000 consensus forecast, reducing the odds of further Fed tightening. In the aftermath, bitcoin rebounded from a low near $57,750 on July 1 to the $61,300-61,600 range. CoinDesk described it as "the first real bounce of the selloff."</p>
+  <p class="ja">今回のクロスオーバーが興味深いのは、単独で現れたのではないという点だ。同期間、長期保有者は純売りから純買い集めに転換し、複数の規模区間のウォレット残高が同時に増えている。CoinDeskによると、直近2週間でクジラウォレットがビットコインを167億ドル相当買い込んだ一方、米国現物ETFは6月一ヶ月で上場以来最大の月間純流出額45億1,000万ドルを記録した — これは通常新規参入資金であるETF資金と、すでに市場に精通したクジラ資金が正反対に動いたということを意味する。ここに6月の米国雇用統計が予想値(11万人)を大きく下回る5万7,000人にとどまったことでFRBの追加引き締め可能性が下がり、この余波で7月1日以降ビットコインは5万7,750ドル台の安値から6万1,300〜6万1,600ドル台まで反発した。CoinDeskはこれを「今回の売り相場からの最初の本物の反発」と表現した。</p>
+  <p class="es">Lo que hace interesante este cruce es que no apareció de forma aislada. Durante el mismo período, los tenedores a largo plazo pasaron de venta neta a acumulación neta, y los saldos de wallets en varios rangos de tamaño han estado subiendo simultáneamente. Según CoinDesk, las wallets ballena compraron $16.7 mil millones en bitcoin durante las últimas dos semanas, mientras que los ETFs spot de EE.UU. registraron su peor salida neta mensual en la historia — $4.51 mil millones en junio — lo que significa que el capital de ETF, típicamente un proxy para nuevos entrantes, y el capital ballena, típicamente más conocedor del mercado, se movieron en direcciones opuestas. Sumado a esto, el informe de empleo de EE.UU. de junio llegó a solo 57,000 empleos añadidos, muy por debajo del pronóstico de consenso de 110,000, reduciendo las probabilidades de un mayor endurecimiento de la Fed. Como resultado, bitcoin rebotó desde un mínimo cerca de $57,750 el 1 de julio hasta el rango de $61,300-61,600. CoinDesk lo describió como "el primer rebote real de la venta masiva".</p>
+  <p class="de">Was diesen Crossover interessant macht, ist, dass er nicht isoliert auftrat. Im selben Zeitraum wechselten langfristige Halter von Nettoverkäufen zu Nettoakkumulation, und Wallet-Salden über mehrere Größenklassen hinweg sind gleichzeitig gestiegen. Laut CoinDesk kauften Wal-Wallets in den letzten zwei Wochen Bitcoin im Wert von 16,7 Milliarden Dollar, während US-Spot-ETFs ihren schlimmsten monatlichen Nettoabfluss aller Zeiten verzeichneten — 4,51 Milliarden Dollar im Juni — was bedeutet, dass ETF-Kapital, typischerweise ein Stellvertreter für Neueinsteiger, und Wal-Kapital, typischerweise marktkundiger, sich in entgegengesetzte Richtungen bewegten. Darüber hinaus fiel der US-Arbeitsmarktbericht für Juni mit nur 57.000 hinzugefügten Stellen weit unter die Konsensprognose von 110.000 aus, was die Chancen auf weitere Fed-Straffung senkte. In der Folge erholte sich Bitcoin von einem Tief nahe 57.750 Dollar am 1. Juli auf die Spanne von 61.300-61.600 Dollar. CoinDesk beschrieb dies als "die erste echte Erholung des Ausverkaufs".</p>
+
+  <h2 class="ko">그렇다고 이게 확실한 바닥 신호는 아니다</h2>
+  <h2 class="en">That doesn't make this a confirmed bottom signal</h2>
+  <h2 class="ja">だからといってこれが確実な底値シグナルというわけではない</h2>
+  <h2 class="es">Eso no lo convierte en una señal de fondo confirmada</h2>
+  <h2 class="de">Das macht es nicht zu einem bestätigten Bodensignal</h2>
+  <p class="ko">여기서 짚어야 할 게 있다. 이 지표의 과거 사례들을 다시 보면, "역전이 나타난 순간"과 "실제 사이클 바닥"이 정확히 일치한 적은 없었다. 2022년 11월 역전이 나타난 뒤 실제 바닥(약 1만 5,500달러)까지는 몇 주가 더 걸렸고, 2019년에는 역전 이후로도 몇 달간 등락을 거듭하는 다지기 구간이 이어졌다. 즉 이 지표는 "지금이 바닥이다"를 콕 집어주는 게 아니라, "지금이 항복 매도에 가까운 국면이다"를 알려주는 필요조건에 가깝다. 게다가 이 지표 자체가 안고 있는 한계도 있다. "실현가격"은 코인이 마지막으로 온체인에서 움직인 시점을 취득가로 간주하는데, 거래소 내부 이체나 지갑 서비스 개편 같은 실제 매매가 아닌 이동도 여기 섞여 들어가면서 지표에 잡음을 더한다. 이번 크로스오버가 실제 바닥으로 이어지려면, 온체인 지표 하나가 아니라 ETF 자금 흐름의 반전, 그리고 매크로 유동성 환경의 실제 개선이 함께 확인돼야 한다는 게 코인데스크가 인용한 애널리스트들의 공통된 진단이다.</p>
+  <p class="en">There's something worth flagging here. Looking back at past instances of this indicator, the "moment the crossover appeared" and "the actual cycle bottom" have never lined up exactly. After the crossover appeared in November 2022, it took several more weeks to reach the actual bottom (around $15,500); in 2019, a basing period of ups and downs stretched on for months after the crossover as well. In other words, this indicator doesn't pinpoint "the bottom is now" — it's closer to a necessary condition signaling "this is close to capitulation territory." The indicator also carries its own limitations. "Realized price" treats the moment a coin last moved on-chain as its acquisition cost, but that gets muddied by movements that aren't real trades — internal exchange transfers, wallet service reorganizations — adding noise to the signal. For this crossover to actually resolve into a bottom, analysts cited by CoinDesk broadly agree that it needs to be confirmed not by this on-chain indicator alone, but alongside a reversal in ETF flows and a genuine improvement in the macro liquidity environment.</p>
+  <p class="ja">ここで指摘すべきことがある。この指標の過去の事例を改めて見ると、「逆転が現れた瞬間」と「実際のサイクル底値」が正確に一致したことはなかった。2022年11月に逆転が現れた後、実際の底値(約1万5,500ドル)まではさらに数週間かかり、2019年には逆転後も数ヶ月間上下を繰り返す底固め区間が続いた。つまりこの指標は「今が底だ」とピンポイントで教えてくれるのではなく、「今が降伏売りに近い局面だ」を知らせる必要条件に近い。さらにこの指標自体が抱える限界もある。「実現価格」はコインが最後にオンチェーンで動いた時点を取得価格とみなすが、取引所内部の振替やウォレットサービスの再編のような実際の売買ではない移動もここに混ざり込み、指標にノイズを加える。今回のクロスオーバーが実際の底値につながるには、オンチェーン指標一つではなくETF資金フローの反転、そしてマクロ流動性環境の実際の改善が併せて確認される必要があるというのが、CoinDeskが引用したアナリストたちの共通の診断だ。</p>
+  <p class="es">Hay algo que vale la pena señalar aquí. Mirando hacia atrás las instancias pasadas de este indicador, "el momento en que apareció el cruce" y "el fondo real del ciclo" nunca se han alineado exactamente. Después de que el cruce apareciera en noviembre de 2022, tomó varias semanas más alcanzar el fondo real (alrededor de $15,500); en 2019, un período de consolidación de altibajos se extendió durante meses después del cruce también. En otras palabras, este indicador no señala precisamente "el fondo es ahora" — es más cercano a una condición necesaria que señala "esto está cerca del territorio de capitulación". El indicador también conlleva sus propias limitaciones. El "precio realizado" trata el momento en que una moneda se movió por última vez on-chain como su costo de adquisición, pero eso se enturbia por movimientos que no son operaciones reales — transferencias internas de exchanges, reorganizaciones de servicios de wallet — añadiendo ruido a la señal. Para que este cruce realmente se resuelva en un fondo, los analistas citados por CoinDesk coinciden ampliamente en que necesita confirmarse no solo por este indicador on-chain, sino junto con una reversión en los flujos de ETF y una mejora genuina en el entorno de liquidez macro.</p>
+  <p class="de">Hier gibt es etwas, das erwähnenswert ist. Blickt man auf vergangene Fälle dieses Indikators zurück, haben sich "der Moment, in dem der Crossover auftrat" und "der tatsächliche Zyklustief" noch nie exakt gedeckt. Nachdem der Crossover im November 2022 auftrat, dauerte es noch mehrere Wochen, bis der tatsächliche Boden (rund 15.500 Dollar) erreicht wurde; 2019 zog sich eine Bodenbildungsphase mit Auf und Ab auch nach dem Crossover über Monate hin. Mit anderen Worten, dieser Indikator zeigt nicht genau "der Boden ist jetzt" an — er ist eher eine notwendige Bedingung, die signalisiert "dies ist nahe am Kapitulationsgebiet". Der Indikator hat auch seine eigenen Grenzen. "Realisierter Preis" behandelt den Moment, in dem sich eine Münze zuletzt on-chain bewegte, als ihre Anschaffungskosten, aber das wird durch Bewegungen getrübt, die keine echten Trades sind — interne Börsentransfers, Wallet-Dienst-Reorganisationen — was dem Signal Rauschen hinzufügt. Damit sich dieser Crossover tatsächlich zu einem Boden auflöst, sind sich die von CoinDesk zitierten Analysten weitgehend einig, dass er nicht allein durch diesen On-Chain-Indikator bestätigt werden muss, sondern zusammen mit einer Umkehr der ETF-Flüsse und einer echten Verbesserung des makroökonomischen Liquiditätsumfelds.</p>
+
+  <div class="box ko">💡 <strong>지금 지켜볼 것:</strong> 손실/수익 역전 자체보다, 이 역전이 며칠 만에 사라지는지 아니면 몇 주 이상 유지되는지, 그리고 같은 기간 미국 현물 ETF의 자금 유출이 실제로 멈추는지를 함께 확인하는 게 훨씬 신뢰도 높은 판단 기준입니다. 온체인 지표 하나만으로 "바닥이 왔다"고 단정하는 건 이 지표의 과거 사례들이 보여주는 패턴과도 맞지 않습니다.</div>
+  <div class="box en">💡 <strong>What to watch now:</strong> More than the loss/profit crossover itself, checking whether it disappears within days or holds for weeks or longer, and whether US spot ETF outflows actually stop over that same window, is a far more reliable basis for judgment. Declaring "the bottom is in" from a single on-chain indicator alone doesn't match the pattern this indicator's own past instances actually show.</div>
+  <div class="box ja">💡 <strong>今後注目すべきこと:</strong> 損失/収益逆転自体より、この逆転が数日で消えるのか数週間以上維持されるのか、そして同期間に米国現物ETFの資金流出が実際に止まるかを併せて確認する方がはるかに信頼度の高い判断基準です。オンチェーン指標一つだけで「底値が来た」と断定するのは、この指標の過去事例が示すパターンとも一致しません。</div>
+  <div class="box es">💡 <strong>Qué vigilar ahora:</strong> Más que el cruce de pérdida/ganancia en sí, verificar si desaparece en días o se mantiene durante semanas o más, y si las salidas de ETFs spot de EE.UU. realmente se detienen durante esa misma ventana, es una base de juicio mucho más confiable. Declarar "el fondo está establecido" a partir de un solo indicador on-chain no coincide con el patrón que muestran las propias instancias pasadas de este indicador.</div>
+  <div class="box de">💡 <strong>Worauf jetzt zu achten ist:</strong> Mehr als der Verlust/Gewinn-Crossover selbst ist es weit zuverlässiger zu prüfen, ob er innerhalb von Tagen verschwindet oder Wochen oder länger anhält, und ob die US-Spot-ETF-Abflüsse im selben Zeitraum tatsächlich aufhören. "Der Boden ist da" allein aus einem einzigen On-Chain-Indikator zu erklären, passt nicht zu dem Muster, das die eigenen vergangenen Instanzen dieses Indikators tatsächlich zeigen.</div>
+
+  <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Glassnode 온체인 데이터, CoinDesk("Live updates" 2026.7.3, "This bitcoin metric..." 2026.6.4), CoinGabbar, 미 노동통계국 6월 고용지표.</p>
+  <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Glassnode on-chain data, CoinDesk ("Live updates," July 3, 2026; "This bitcoin metric...," June 4, 2026), CoinGabbar, US Bureau of Labor Statistics June jobs report.</p>
+  <p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: Glassnodeオンチェーンデータ、CoinDesk(「Live updates」2026年7月3日、「This bitcoin metric...」2026年6月4日)、CoinGabbar、米労働統計局6月雇用統計。</p>
+  <p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: Datos on-chain de Glassnode, CoinDesk ("Live updates," 3 de julio de 2026; "This bitcoin metric...," 4 de junio de 2026), CoinGabbar, informe de empleo de junio de la Oficina de Estadísticas Laborales de EE.UU.</p>
+  <p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: Glassnode On-Chain-Daten, CoinDesk ("Live updates," 3. Juli 2026; "This bitcoin metric...," 4. Juni 2026), CoinGabbar, US-Arbeitsmarktbericht für Juni des Bureau of Labor Statistics.</p>
+<?php require __DIR__.'/_footer.php'; ?>

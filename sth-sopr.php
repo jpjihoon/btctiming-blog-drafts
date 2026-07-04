@@ -1,0 +1,214 @@
+<?php $slug = 'sth-sopr'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">비트코인을 파는 사람이 이익을 보고 파는지, 손해를 보고 파는지 알 수 있다면 어떨까요? <strong>STH-SOPR(단기 보유자 실현손익비율)</strong>은 정확히 이 질문에 답하는 온체인 지표로, 단기 트레이더들의 항복(capitulation) 시점을 정밀하게 포착합니다.</p>
+  <p class="en">What if you could tell whether Bitcoin sellers are taking profit or realizing losses? <strong>STH-SOPR (Short-Term Holder Spent Output Profit Ratio)</strong> answers exactly that — and it's remarkably precise at catching the moment short-term traders capitulate.</p>
+  <p class="ja">ビットコインを売る人が利益を確定しているのか、損失を確定しているのかが分かったらどうでしょう? <strong>STH-SOPR(短期保有者実現損益比率)</strong>はまさにこの問いに答えるオンチェーン指標で、短期トレーダーのキャピチュレーションの瞬間を精密に捉えます。</p>
+
+  <p class="es">¿Qué pasaría si pudieras saber si los vendedores de Bitcoin están tomando ganancias o realizando pérdidas? <strong>STH-SOPR (Ratio de Ganancia de Salidas Gastadas de Tenedores a Corto Plazo)</strong> responde exactamente eso — y es notablemente preciso para captar el momento en que los traders a corto plazo capitulan.</p>
+  <p class="de">Was wäre, wenn Sie erkennen könnten, ob Bitcoin-Verkäufer Gewinne mitnehmen oder Verluste realisieren? <strong>STH-SOPR (Short-Term Holder Spent Output Profit Ratio)</strong> beantwortet genau das — und erfasst bemerkenswert präzise den Moment, in dem kurzfristige Trader kapitulieren.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> STH-SOPR이 1 미만이면 155일 미만 보유자들이 평균적으로 손실을 보고 팔고 있다는 뜻입니다. 이 수치가 1 아래로 급락했다가 다시 1을 회복하는 구간이 역사적으로 강력한 저점 신호였습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> STH-SOPR below 1 means holders under 155 days are selling at an average loss. Sharp drops below 1 followed by a recovery back above 1 have historically marked strong bottom signals.</div>
+  <div class="box ja">💡 <strong>要点:</strong> STH-SOPRが1未満なら、155日未満の保有者が平均して損失を出しながら売っていることを意味します。この数値が1を大きく下回った後、再び1を回復する局面は、歴史的に強力な底値シグナルでした。</div>
+  <div class="box es">💡 <strong>Resumen clave:</strong> STH-SOPR por debajo de 1 significa que los tenedores de menos de 155 días venden con pérdida promedio. Caídas bruscas por debajo de 1 seguidas de recuperación han marcado históricamente fuertes señales de suelo.</div>
+  <div class="box de">💡 <strong>Kernaussage:</strong> STH-SOPR unter 1 bedeutet, dass Halter unter 155 Tagen im Durchschnitt mit Verlust verkaufen. Starke Rückgänge unter 1, gefolgt von einer Erholung, markierten historisch starke Tiefsignale.</div>
+
+  <h2 class="ko">1 아래→위 회복을 시각화하면</h2>
+  <h2 class="en">The drop-and-recovery, visualized</h2>
+  <h2 class="ja">1未満→回復を可視化すると</h2>
+  <h2 class="es">La caída y recuperación, visualizada</h2>
+  <h2 class="de">Der Rückgang und die Erholung, visualisiert</h2>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR 패턴 개념도</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">패닉 매도 (급락)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">1 회복 = 매도압력 소진</text>
+  </svg>
+  </div>
+  <div class="en es de">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR Pattern Concept</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">Panic selling (sharp drop)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">Back above 1 = sell pressure exhausted</text>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR パターン概念図</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">パニック売り (急落)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">1回復 = 売り圧力の枯渇</text>
+  </svg>
+  </div>
+
+  <h2 class="ko">SOPR과 STH-SOPR의 차이</h2>
+  <h2 class="en">SOPR vs. STH-SOPR</h2>
+  <h2 class="ja">SOPRとSTH-SOPRの違い</h2>
+  <h2 class="es">SOPR vs. STH-SOPR</h2>
+  <h2 class="de">SOPR vs. STH-SOPR</h2>
+  <p class="ko">SOPR(Spent Output Profit Ratio)은 "판매 가격 ÷ 취득 가격"으로 계산되며, 1보다 크면 평균적으로 수익 실현, 1보다 작으면 손실 실현을 의미합니다. STH-SOPR은 이 계산을 <strong>155일 미만 보유한 코인(단기 보유자)</strong>으로만 한정한 버전입니다.</p>
+  <p class="en">SOPR (Spent Output Profit Ratio) is calculated as "sale price ÷ acquisition price." Above 1 means coins are sold at an average profit; below 1 means an average loss. STH-SOPR narrows this calculation to only coins held for <strong>less than 155 days</strong> (short-term holders).</p>
+  <p class="ja">SOPR(Spent Output Profit Ratio)は「売却価格 ÷ 取得価格」で計算され、1より大きければ平均して利益確定、1より小さければ損失確定を意味します。STH-SOPRはこの計算を<strong>155日未満保有のコイン(短期保有者)</strong>だけに限定したバージョンです。</p>
+  <p class="es">SOPR (Spent Output Profit Ratio) se calcula como "precio de venta ÷ precio de adquisición." Por encima de 1 significa que las monedas se venden con ganancia promedio; por debajo de 1 significa pérdida promedio. STH-SOPR limita este cálculo solo a monedas mantenidas por <strong>menos de 155 días</strong> (tenedores a corto plazo).</p>
+  <p class="de">SOPR (Spent Output Profit Ratio) wird als "Verkaufspreis ÷ Erwerbspreis" berechnet. Über 1 bedeutet, dass Münzen mit durchschnittlichem Gewinn verkauft werden; unter 1 bedeutet durchschnittlicher Verlust. STH-SOPR beschränkt diese Berechnung nur auf Münzen, die <strong>weniger als 155 Tage</strong> gehalten wurden (kurzfristige Halter).</p>
+  <p class="ko">장기 보유자(LTH)는 사이클 내내 코인을 쥐고 있어 SOPR 변화가 느리지만, 단기 보유자는 변동성에 민감하게 매매하기 때문에 시장의 단기 심리 변화를 훨씬 빠르게 반영합니다.</p>
+  <p class="en">Long-term holders (LTH) hold through entire cycles, so their SOPR moves slowly. Short-term holders trade actively around volatility, making STH-SOPR a much faster read on short-term market psychology.</p>
+  <p class="ja">長期保有者(LTH)はサイクル全体を通じてコインを保持するためSOPRの変化が遅いですが、短期保有者はボラティリティに敏感に売買するため、市場の短期心理の変化をはるかに速く反映します。</p>
+  <p class="es">Los tenedores a largo plazo (LTH) mantienen sus monedas durante ciclos completos, por lo que su SOPR cambia lentamente. Los tenedores a corto plazo negocian activamente con la volatilidad, haciendo que STH-SOPR sea una lectura mucho más rápida de la psicología del mercado a corto plazo.</p>
+  <p class="de">Langfristige Halter (LTH) halten über ganze Zyklen hinweg, sodass sich ihr SOPR langsam bewegt. Kurzfristige Halter handeln aktiv mit der Volatilität, was STH-SOPR zu einem viel schnelleren Indikator für kurzfristige Marktpsychologie macht.</p>
+
+  <h2 class="ko">왜 1 미만 재진입이 저점 신호인가?</h2>
+  <h2 class="en">Why a Drop Below 1 Signals a Bottom</h2>
+  <h2 class="ja">なぜ1未満への再突入が底値シグナルなのか?</h2>
+  <h2 class="es">Por Qué una Caída Bajo 1 Señala un Suelo</h2>
+  <h2 class="de">Warum ein Rückgang unter 1 einen Boden signalisiert</h2>
+  <div class="pg">
+    <div class="pc r">
+      <div class="pt ko">🔴 1 아래로 급락</div>
+      <div class="pt en">🔴 Sharp Drop Below 1</div>
+      <div class="pt ja">🔴 1を大きく下回る</div>
+      <div class="pt es">🔴 Caída Brusca Bajo 1</div>
+      <div class="pt de">🔴 Starker Rückgang unter 1</div>
+      <div class="pd ko">단기 보유자들이 패닉에 빠져 손실을 감수하고서라도 투매합니다. 시장에서 "약한 손"이 빠르게 정리되는 구간입니다.</div>
+      <div class="pd en">Short-term holders panic and sell at a loss anyway. This is when "weak hands" get flushed out of the market quickly.</div>
+      <div class="pd ja">短期保有者がパニックに陥り、損失を出してでも投げ売りします。市場から「弱い手」が急速に整理される局面です。</div>
+      <div class="pd es">Los tenedores a corto plazo entran en pánico y venden con pérdida de todos modos. Aquí es cuando las "manos débiles" salen rápidamente del mercado.</div>
+      <div class="pd de">Kurzfristige Halter geraten in Panik und verkaufen trotzdem mit Verlust. Hier werden "schwache Hände" schnell aus dem Markt gespült.</div>
+    </div>
+    <div class="pc g">
+      <div class="pt ko">🟢 1 위로 회복</div>
+      <div class="pt en">🟢 Recovery Back Above 1</div>
+      <div class="pt ja">🟢 1を上回って回復</div>
+      <div class="pt es">🟢 Recuperación Sobre 1</div>
+      <div class="pt de">🟢 Erholung über 1</div>
+      <div class="pd ko">투매가 소진되고 남은 매도 물량이 손익분기점 근처에서 흡수됨. 매도 압력이 약해졌다는 신호입니다.</div>
+      <div class="pd en">Selling exhausts itself and remaining supply gets absorbed near breakeven — a sign selling pressure has weakened.</div>
+      <div class="pd ja">投げ売りが尽き、残った売却分が損益分岐点付近で吸収されます。売り圧力が弱まったシグナルです。</div>
+      <div class="pd es">La venta se agota y la oferta restante se absorbe cerca del punto de equilibrio — señal de que la presión de venta se ha debilitado.</div>
+      <div class="pd de">Der Verkauf erschöpft sich und das verbleibende Angebot wird nahe dem Break-even absorbiert — ein Zeichen, dass der Verkaufsdruck nachgelassen hat.</div>
+    </div>
+  </div>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <h2 class="ja">歴史的事例</h2>
+  <h2 class="es">Casos Históricos</h2>
+  <h2 class="de">Historische Fälle</h2>
+  <div class="rc">
+    <div class="rd">2020.03 (COVID 폭락)</div>
+    <div class="rt ko">STH-SOPR이 0.85까지 급락하며 역대급 패닉 매도를 기록. 이후 빠르게 1 위로 회복.</div>
+    <div class="rt en">STH-SOPR plunged to 0.85 during record panic selling, then quickly recovered above 1.</div>
+    <div class="rt ja">STH-SOPRは0.85まで急落し、史上級のパニック売りを記録。その後速やかに1を回復。</div>
+    <div class="rt es">STH-SOPR se desplomó a 0.85 durante una venta de pánico récord, luego se recuperó rápidamente sobre 1.</div>
+    <div class="rt de">STH-SOPR stürzte während rekordverdächtiger Panikverkäufe auf 0,85 ab und erholte sich dann schnell über 1.</div>
+    <div class="rr ko">→ $3,800 저점에서 2021년 $69,000까지 약 18배 상승</div>
+    <div class="rr en">→ Rose ~18x from the $3,800 bottom to $69,000 in 2021</div>
+    <div class="rr ja">→ $3,800の底値から2021年に$69,000まで約18倍上昇</div>
+    <div class="rr es">→ Subió ~18x desde el suelo de $3,800 hasta $69,000 en 2021</div>
+    <div class="rr de">→ Stieg vom Tief bei $3.800 bis 2021 um das ~18-fache auf $69.000</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2022.11 (FTX 붕괴)</div>
+    <div class="rt ko">FTX 파산 여파로 STH-SOPR이 0.88까지 하락, 단기 보유자들의 대규모 손절 확인.</div>
+    <div class="rt en">STH-SOPR fell to 0.88 amid the FTX collapse, confirming heavy short-term capitulation.</div>
+    <div class="rt ja">FTX破綻の余波でSTH-SOPRは0.88まで下落、短期保有者の大規模な損切りを確認。</div>
+    <div class="rt es">STH-SOPR cayó a 0.88 en medio del colapso de FTX, confirmando una fuerte capitulación a corto plazo.</div>
+    <div class="rt de">STH-SOPR fiel während des FTX-Zusammenbruchs auf 0,88 und bestätigte eine starke kurzfristige Kapitulation.</div>
+    <div class="rr ko">→ $15,500 저점 형성 후 반등 시작</div>
+    <div class="rr en">→ Marked the $15,500 bottom before the rebound</div>
+    <div class="rr ja">→ $15,500の底値形成後、反発開始</div>
+    <div class="rr es">→ Marcó el suelo de $15,500 antes del rebote</div>
+    <div class="rr de">→ Markierte das Tief bei $15.500 vor der Erholung</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2024.08</div>
+    <div class="rt ko">엔캐리 트레이드 청산 여파로 급락 시 STH-SOPR이 0.92까지 하락 후 빠르게 회복.</div>
+    <div class="rt en">STH-SOPR fell to 0.92 during the yen-carry-trade unwind sell-off, then recovered quickly.</div>
+    <div class="rt ja">円キャリートレード解消による急落時、STH-SOPRは0.92まで下落した後、速やかに回復。</div>
+    <div class="rt es">STH-SOPR cayó a 0.92 durante la venta masiva por el desmantelamiento del carry trade del yen, luego se recuperó rápidamente.</div>
+    <div class="rt de">STH-SOPR fiel während des Ausverkaufs durch die Auflösung des Yen-Carry-Trades auf 0,92 und erholte sich dann schnell.</div>
+    <div class="rr ko">→ 단기 저점 확인 후 반등</div>
+    <div class="rr en">→ Confirmed a short-term bottom before rebounding</div>
+    <div class="rr ja">→ 短期的な底値確認後、反発</div>
+    <div class="rr es">→ Confirmó un suelo a corto plazo antes del rebote</div>
+    <div class="rr de">→ Bestätigte ein kurzfristiges Tief vor der Erholung</div>
+  </div>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <h2 class="ja">注意すべき点</h2>
+  <h2 class="es">Advertencias Importantes</h2>
+  <h2 class="de">Wichtige Einschränkungen</h2>
+  <ul class="ko">
+    <li><strong>노이즈가 많음.</strong> 일간 변동이 크기 때문에 7일 이동평균 등으로 스무딩해서 보는 것이 좋습니다.</li>
+    <li><strong>거래소 이체와 구분 필요.</strong> 대규모 코인 이동(내부 이체 등)이 일시적으로 수치를 왜곡할 수 있습니다.</li>
+    <li><strong>강세장 중 하락 조정에도 나타남.</strong> 사이클 저점이 아니라 단순 조정 구간에서도 1 아래로 내려갈 수 있습니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Noisy day to day.</strong> Daily swings can be large — smoothing with a 7-day moving average is recommended.</li>
+    <li><strong>Watch for exchange transfers.</strong> Large coin movements (e.g. internal transfers) can temporarily distort the reading.</li>
+    <li><strong>Can appear during bull-market pullbacks too.</strong> A dip below 1 doesn't always mean a full cycle bottom — it can also mark a mid-cycle correction.</li>
+  </ul>
+  <ul class="ja">
+    <li><strong>ノイズが多い。</strong> 日次の変動が大きいため、7日移動平均などでスムージングして見るのが望ましいです。</li>
+    <li><strong>取引所間の移動と区別が必要。</strong> 大規模なコイン移動(内部送金など)が一時的に数値を歪めることがあります。</li>
+    <li><strong>強気相場中の調整でも現れる。</strong> サイクルの底値ではなく、単なる調整局面でも1を下回ることがあります。</li>
+  </ul>
+  <ul class="es">
+    <li><strong>Ruidoso día a día.</strong> Las fluctuaciones diarias pueden ser grandes — se recomienda suavizar con una media móvil de 7 días.</li>
+    <li><strong>Cuidado con las transferencias de exchanges.</strong> Grandes movimientos de monedas (ej. transferencias internas) pueden distorsionar temporalmente la lectura.</li>
+    <li><strong>Puede aparecer también en retrocesos de mercado alcista.</strong> Una caída bajo 1 no siempre significa un suelo de ciclo completo — también puede marcar una corrección de mitad de ciclo.</li>
+  </ul>
+  <ul class="de">
+    <li><strong>Tageweise verrauscht.</strong> Tägliche Schwankungen können groß sein — Glättung mit einem 7-Tage-Durchschnitt wird empfohlen.</li>
+    <li><strong>Auf Börsentransfers achten.</strong> Große Münzbewegungen (z.B. interne Transfers) können die Messung vorübergehend verzerren.</li>
+    <li><strong>Kann auch bei Bullenmarkt-Rückgängen auftreten.</strong> Ein Rückgang unter 1 bedeutet nicht immer ein vollständiges Zyklustief — er kann auch eine Korrektur mitten im Zyklus markieren.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <h2 class="ja">併せて見るべき指標</h2>
+  <h2 class="es">Mejor Combinado Con</h2>
+  <h2 class="de">Am besten kombiniert mit</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자와 트레이더 항복이 동시에 끝나는지 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 가격 자체가 저평가 구간인지 함께 확인</li>
+    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 20 이하</a>:</strong> 시장 전반의 극단적 공포와 일치하는지 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> Check if miner and trader capitulation end together</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score below 0</a>:</strong> Confirm price itself is in the undervaluation zone</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed below 20</a>:</strong> Confirm alignment with broad market-wide extreme fear</li>
+  </ul>
+  <ul class="ja">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 回復転換</a>:</strong> マイナーとトレーダーのキャピチュレーションが同時に終わるか確認</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア 0以下</a>:</strong> 価格自体が割安圏にあるか併せて確認</li>
+    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数 20以下</a>:</strong> 市場全体の極端な恐怖と一致するか確認</li>
+  </ul>
+  <ul class="es">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si la capitulación de mineros y traders termina simultáneamente</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score por debajo de 0</a>:</strong> Confirmar que el precio mismo está en zona de infravaloración</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Miedo y Codicia por debajo de 20</a>:</strong> Confirmar alineación con el miedo extremo del mercado en general</li>
+  </ul>
+  <ul class="de">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob Miner- und Trader-Kapitulation gleichzeitig enden</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Bestätigen, dass der Preis selbst in der Unterbewertungszone ist</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier unter 20</a>:</strong> Übereinstimmung mit extremer marktweiter Angst bestätigen</li>
+  </ul>
+
+<?php require __DIR__.'/_footer.php'; ?>

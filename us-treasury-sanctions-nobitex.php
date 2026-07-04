@@ -1,0 +1,39 @@
+<?php $slug = 'us-treasury-sanctions-nobitex'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">미국 재무부 해외자산통제국(OFAC)이 이란 최대 가상자산 거래소 Nobitex를 포함해 Wallex, Bitpin, Ramzinex 등 4개 크립토 플랫폼을 제재 명단에 올렸습니다. 이란 정권의 제재 회피를 도운 혐의입니다.</p>
+  <p class="en">The US Treasury's Office of Foreign Assets Control (OFAC) has sanctioned Iran's largest crypto exchange, Nobitex, along with three other platforms — Wallex, Bitpin, and Ramzinex — for allegedly helping the Iranian regime evade US sanctions.</p>
+  <p class="ja">米財務省外国資産管理局(OFAC)が、イラン最大の暗号資産取引所Nobitexを含むWallex、Bitpin、Ramzinexの4つの暗号資産プラットフォームを制裁リストに追加しました。イラン政権の制裁回避を助けた疑いです。</p>
+
+  <p class="es">La Oficina de Control de Activos Extranjeros (OFAC) del Tesoro de EE.UU. ha sancionado al mayor exchange cripto de Irán, Nobitex, junto con otras tres plataformas — Wallex, Bitpin y Ramzinex — por presuntamente ayudar al régimen iraní a evadir sanciones estadounidenses.</p>
+  <p class="de">Das Office of Foreign Assets Control (OFAC) des US-Finanzministeriums hat Irans größte Krypto-Börse Nobitex sowie drei weitere Plattformen — Wallex, Bitpin und Ramzinex — sanktioniert, weil sie dem iranischen Regime angeblich geholfen haben, US-Sanktionen zu umgehen.</p>
+
+  <h2 class="ko">혐의 내용</h2>
+  <h2 class="en">What they're accused of</h2>
+  <h2 class="ja">容疑の内容</h2>
+  <h2 class="es">De Qué se les Acusa</h2>
+  <h2 class="de">Was ihnen vorgeworfen wird</h2>
+  <p class="ko">재무부에 따르면 Nobitex는 이란 중앙은행이 스테이블코인을 활용해 자국 통화 가치를 방어하는 데 상당한 지원을 제공한 것으로 파악됐습니다. 나머지 3개 플랫폼은 이란 혁명수비대(IRGC) 관련 거래를 처리한 혐의를 받고 있습니다. 스콧 베선트 재무장관은 이란 경제가 무너지는 와중에도 정권이 디지털자산 기술을 자금 세탁과 해외 자산 반출 수단으로 악용하고 있다고 밝혔습니다.</p>
+  <p class="en">According to the Treasury, Nobitex provided significant support helping Iran's central bank defend its currency's value using stablecoins. The other three platforms are accused of processing transactions tied to the Islamic Revolutionary Guard Corps (IRGC). Treasury Secretary Scott Bessent said the regime has co-opted digital asset technology for sanctions evasion and moving wealth out of the country even as Iran's economy struggles.</p>
+  <p class="ja">財務省によると、Nobitexはイラン中央銀行がステーブルコインを活用して自国通貨の価値を防衛する上で相当な支援を提供したとされています。残りの3プラットフォームはイラン革命防衛隊(IRGC)関連の取引を処理した疑いを持たれています。スコット・ベッセント財務長官は、イラン経済が崩壊する中でも政権がデジタル資産技術をマネーロンダリングと海外資産の持ち出し手段として悪用していると述べました。</p>
+
+  <p class="es">Según el Tesoro, Nobitex proporcionó apoyo significativo ayudando al banco central de Irán a defender el valor de su moneda usando stablecoins. Las otras tres plataformas están acusadas de procesar transacciones vinculadas al Cuerpo de la Guardia Revolucionaria Islámica (IRGC). El secretario del Tesoro, Scott Bessent, dijo que el régimen ha cooptado la tecnología de activos digitales para evadir sanciones y sacar riqueza del país incluso mientras la economía de Irán se tambalea.</p>
+  <p class="de">Laut Finanzministerium leistete Nobitex bedeutende Unterstützung, indem es der iranischen Zentralbank half, den Wert ihrer Währung mithilfe von Stablecoins zu verteidigen. Den drei anderen Plattformen wird vorgeworfen, Transaktionen im Zusammenhang mit dem Islamischen Revolutionsgardekorps (IRGC) abgewickelt zu haben. Finanzminister Scott Bessent sagte, das Regime habe digitale Vermögenstechnologie zur Sanktionsumgehung und zum Vermögensabtransport genutzt, selbst während Irans Wirtschaft kämpft.</p>
+
+  <h2 class="ko">왜 크립토 업계가 주목하나</h2>
+  <h2 class="en">Why this matters to the crypto industry</h2>
+  <h2 class="ja">なぜ暗号資産業界が注目するのか</h2>
+  <h2 class="es">Por Qué Esto Importa a la Industria Cripto</h2>
+  <h2 class="de">Warum das für die Krypto-Branche wichtig ist</h2>
+  <p class="ko">이번 제재는 스테이블코인이 국가 차원의 제재 회피 수단으로 쓰일 수 있다는 우려를 다시 부각시켰습니다. 동시에 미국 의회에서 논의 중인 <a href="/blog/macro-forces-behind-the-crash.html">CLARITY 법안</a>의 "역외 적용" 조항과도 맞물리는 사안이에요 — 미국 규제를 받지 않는 해외 거래소·사용자에 대한 감독 권한을 어디까지 확대할 것인지가 계속 논쟁거리입니다.</p>
+  <p class="en">The sanctions reinforce concerns that stablecoins can be used as a state-level sanctions-evasion tool. It also intersects with the extraterritorial-reach provisions being debated in Congress's <a href="/blog/macro-forces-behind-the-crash.html">CLARITY Act</a> — how far US oversight should extend to offshore exchanges and users outside direct US jurisdiction remains an ongoing fight.</p>
+  <p class="ja">今回の制裁は、ステーブルコインが国家レベルの制裁回避手段として使われ得るという懸念を改めて浮き彫りにしました。同時に米国議会で議論中の<a href="/blog/macro-forces-behind-the-crash.html">CLARITY法案</a>の「域外適用」条項とも絡む問題です — 米国の規制を受けない海外の取引所・利用者への監督権限をどこまで拡大するかは、引き続き論争の的です。</p>
+
+  <p class="es">Las sanciones refuerzan las preocupaciones de que las stablecoins puedan usarse como herramienta de evasión de sanciones a nivel estatal. También se cruza con las disposiciones de alcance extraterritorial que se debaten en la <a href="/blog/macro-forces-behind-the-crash.html">Ley CLARITY</a> del Congreso — hasta dónde debería extenderse la supervisión de EE.UU. a exchanges y usuarios extraterritoriales fuera de la jurisdicción directa de EE.UU. sigue siendo una lucha en curso.</p>
+  <p class="de">Die Sanktionen verstärken Bedenken, dass Stablecoins als staatliches Sanktionsumgehungs-Instrument genutzt werden können. Dies überschneidet sich auch mit den extraterritorialen Reichweitenbestimmungen, die im <a href="/blog/macro-forces-behind-the-crash.html">CLARITY Act</a> des Kongresses diskutiert werden — wie weit die US-Aufsicht auf Offshore-Börsen und Nutzer außerhalb der direkten US-Gerichtsbarkeit ausgedehnt werden sollte, bleibt ein andauernder Streitpunkt.</p>
+
+  <div class="box ko">⚠️ 제재 대상 플랫폼과 조금이라도 거래 이력이 얽혀 있다면, 본인 계좌나 자산에 영향이 있는지 관련 거래소·전문가를 통해 반드시 확인하시길 권합니다.</div>
+  <div class="box en">⚠️ If you have any transaction history connected to the sanctioned platforms, it's worth confirming with your exchange or a professional whether your account or assets are affected.</div>
+  <div class="box ja">⚠️ 制裁対象プラットフォームと少しでも取引履歴が絡んでいる場合は、ご自身の口座や資産に影響がないか、関連取引所や専門家を通じて必ず確認することをお勧めします。</div>
+  <div class="box es">⚠️ Si tienes algún historial de transacciones conectado a las plataformas sancionadas, vale la pena confirmar con tu exchange o un profesional si tu cuenta o activos se ven afectados.</div>
+  <div class="box de">⚠️ Falls du eine Transaktionshistorie mit den sanktionierten Plattformen hast, solltest du bei deiner Börse oder einem Fachmann prüfen lassen, ob dein Konto oder Vermögen betroffen ist.</div>
+<?php require __DIR__.'/_footer.php'; ?>

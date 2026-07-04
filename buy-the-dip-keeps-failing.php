@@ -1,0 +1,51 @@
+<?php $slug = 'buy-the-dip-keeps-failing'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">2020~2021년 강세장을 겪은 투자자라면 몸에 밴 습관이 하나 있을 거예요. "떨어지면 산다." 실제로 그 시절엔 이게 거의 항상 맞는 전략이었습니다. 근데 이번 사이클은 이 문화를 여러 번 배신했어요.</p>
+  <p class="en">If you lived through the 2020–2021 bull run, you likely developed a reflex: "it dropped, so buy." And back then, that strategy was almost always right. This cycle has repeatedly punished that same reflex.</p>
+  <p class="ja">2020〜2021年の強気相場を経験した投資家なら、身についた習慣が一つあるはずです。「下がったら買う」。実際その頃はこれがほぼ常に正しい戦略でした。しかし今回のサイクルはこの文化を何度も裏切りました。</p>
+
+  <p class="es">Si viviste el mercado alcista de 2020-2021, probablemente desarrollaste un reflejo: "cayó, así que compra." Y en ese entonces, esa estrategia casi siempre acertaba. Este ciclo ha castigado repetidamente ese mismo reflejo.</p>
+  <p class="de">Wer die Bullenrally 2020-2021 miterlebt hat, entwickelte wahrscheinlich einen Reflex: "es fiel, also kaufe." Und damals lag diese Strategie fast immer richtig. Dieser Zyklus hat denselben Reflex wiederholt bestraft.</p>
+
+  <h2 class="ko">2025년 10월 이후, 몇 번의 "저점"이 있었나</h2>
+  <h2 class="en">How many "bottoms" has this cycle had since October 2025</h2>
+  <h2 class="ja">2025年10月以降、何回の「底値」があったか</h2>
+  <h2 class="es">Cuántos "Suelos" Ha Tenido Este Ciclo Desde Octubre de 2025</h2>
+  <h2 class="de">Wie viele "Tiefs" hatte dieser Zyklus seit Oktober 2025</h2>
+  <p class="ko">$126,080 최고가 이후, "이 정도면 바닥이겠지" 싶었던 구간이 여러 번 있었어요. -15% 하락에 샀던 사람, -30%에 샀던 사람, -40%에 샀던 사람 모두 그 이후 추가 하락을 겪었습니다. <a href="/blog/ath-drawdown.html">ATH 대비 하락률</a> 관점에서 보면, 과거 사이클의 최종 저점(-64%, -73%)에 비하면 지금(-50%대)이 아직 다 온 게 아닐 수도 있다는 뜻이에요.</p>
+  <p class="en">Since the $126,080 peak, there have been several points that looked like "surely this is the bottom." People who bought at -15%, at -30%, at -40% all watched further declines follow. Viewed through <a href="/blog/ath-drawdown.html">ATH drawdown</a>, past cycle bottoms hit -64% and -73% — meaning the current ~-50% level may not be the final stop.</p>
+  <p class="ja">$126,080の最高値以降、「これだけ下がれば底だろう」と思われた局面が何度もありました。-15%で買った人も、-30%で買った人も、-40%で買った人も、その後さらなる下落を経験しました。<a href="/blog/ath-drawdown.html">ATH比下落率</a>の観点から見ると、過去のサイクルの最終底値(-64%、-73%)と比べて今(-50%台)はまだ底に達していない可能性があるということです。</p>
+
+  <p class="es">Desde el máximo de $126,080, ha habido varios puntos que parecían "seguramente este es el suelo." Personas que compraron en -15%, en -30%, en -40% vieron todas caídas adicionales después. Visto a través del <a href="/blog/ath-drawdown.html">drawdown desde ATH</a>, los suelos de ciclos pasados llegaron a -64% y -73% — lo que significa que el nivel actual de ~-50% podría no ser la parada final.</p>
+  <p class="de">Seit dem Höchststand von $126.080 gab es mehrere Punkte, die wie "das ist sicher der Boden" aussahen. Menschen, die bei -15%, bei -30%, bei -40% kauften, sahen alle weitere Rückgänge folgen. Betrachtet man den <a href="/blog/ath-drawdown.html">ATH-Drawdown</a>, erreichten vergangene Zyklustiefs -64% und -73% — was bedeutet, dass das aktuelle Niveau von ~-50% möglicherweise nicht die letzte Station ist.</p>
+
+  <h2 class="ko">왜 이번엔 다른가</h2>
+  <h2 class="en">Why is this cycle different</h2>
+  <h2 class="ja">なぜ今回は違うのか</h2>
+  <h2 class="es">Por Qué Este Ciclo Es Diferente</h2>
+  <h2 class="de">Warum dieser Zyklus anders ist</h2>
+  <p class="ko">과거 "바이 더 딥"이 잘 통했던 이유는, 하락의 원인이 대부분 크립토 내부 사건(레버리지 청산, 거래소 문제)이라 원인이 해소되면 바로 반등하는 패턴이 반복됐기 때문이에요. 근데 이번엔 <a href="/blog/macro-forces-behind-the-crash.html">하락 원인 자체가 매크로</a>(금리, 관세, 지정학)라서, "저점 하나 지나면 끝"이 아니라 여러 파도가 순차적으로 밀려오는 구조였습니다. 파도가 몇 개인지 미리 알 방법이 없다는 게 이번 사이클의 특징이에요.</p>
+  <p class="en">"Buy the dip" worked so reliably before because past declines were mostly crypto-internal events (leverage liquidations, exchange issues) — resolve the cause, and a rebound reliably followed. This time, <a href="/blog/macro-forces-behind-the-crash.html">the causes are macro</a> (rates, tariffs, geopolitics), so instead of "past one bottom, done," multiple waves arrived in sequence. Not knowing how many waves are left in advance is the defining feature of this cycle.</p>
+  <p class="ja">過去に「バイ・ザ・ディップ」がうまく機能した理由は、下落の原因がほとんど暗号資産内部の事件(レバレッジ清算、取引所の問題)であり、原因が解消されればすぐ反発するパターンが繰り返されていたからです。しかし今回は<a href="/blog/macro-forces-behind-the-crash.html">下落原因自体がマクロ</a>(金利、関税、地政学)なので、「一つの底値を過ぎれば終わり」ではなく、複数の波が順番に押し寄せる構造でした。波がいくつあるか事前に知る方法がないのが今回のサイクルの特徴です。</p>
+
+  <p class="es">"Comprar la caída" funcionaba tan confiablemente antes porque las caídas pasadas eran mayormente eventos internos de cripto (liquidaciones apalancadas, problemas de exchanges) — resuelve la causa, y un rebote seguía de forma confiable. Esta vez, <a href="/blog/macro-forces-behind-the-crash.html">las causas son macro</a> (tasas, aranceles, geopolítica), así que en lugar de "pasado un suelo, listo," llegaron múltiples olas en secuencia. No saber cuántas olas quedan de antemano es el rasgo definitorio de este ciclo.</p>
+  <p class="de">"Den Dip kaufen" funktionierte früher so zuverlässig, weil vergangene Rückgänge meist krypto-interne Ereignisse waren (Hebel-Liquidationen, Börsenprobleme) — Ursache lösen, und eine Erholung folgte zuverlässig. Diesmal sind <a href="/blog/macro-forces-behind-the-crash.html">die Ursachen makroökonomisch</a> (Zinsen, Zölle, Geopolitik), sodass statt "ein Tief vorbei, fertig" mehrere Wellen nacheinander eintrafen. Im Voraus nicht zu wissen, wie viele Wellen noch übrig sind, ist das bestimmende Merkmal dieses Zyklus.</p>
+
+  <h2 class="ko">그럼 이제 어떻게 사야 하나</h2>
+  <h2 class="en">So how should you buy now?</h2>
+  <h2 class="ja">ではどう買えばいいのか</h2>
+  <h2 class="es">Entonces Cómo Deberías Comprar Ahora</h2>
+  <h2 class="de">Wie solltest du jetzt kaufen?</h2>
+  <p class="ko">"한 번에 저점을 맞히겠다"는 접근 자체를 내려놓는 게 낫다고 봐요. <a href="/blog/dca-vs-lump-sum.html">분할매수 vs 몰빵</a>에서 다뤘듯, 확신이 낮은 국면일수록 분할의 가치가 커집니다. 지금처럼 "저점처럼 보이는 구간이 반복적으로 배신당하는" 시기엔, 한 번의 큰 베팅보다 여러 번의 작은 베팅이 심리적으로도, 결과적으로도 더 안전합니다.</p>
+  <p class="en">Letting go of "I'll nail the exact bottom in one shot" is probably the healthier approach. As covered in <a href="/blog/dca-vs-lump-sum.html">DCA vs. lump sum</a>, the lower your conviction, the more DCA's value increases. In a stretch like this — where apparent bottoms keep getting betrayed — several smaller bets beat one big one, both psychologically and in outcome.</p>
+  <p class="ja">「一発で底値を当てる」というアプローチ自体を手放す方が良いと思います。<a href="/blog/dca-vs-lump-sum.html">分割購入 vs 一括投入</a>で扱った通り、確信が低い局面ほど分割の価値が高まります。今のように「底値のように見える区間が繰り返し裏切られる」時期には、一度の大きな賭けより複数回の小さな賭けの方が心理的にも結果的にも安全です。</p>
+
+  <p class="es">Soltar el "acertaré el suelo exacto de un solo golpe" es probablemente el enfoque más saludable. Como se cubrió en <a href="/blog/dca-vs-lump-sum.html">DCA vs. inversión única</a>, cuanto menor es tu convicción, más aumenta el valor del DCA. En un tramo como este — donde los suelos aparentes siguen siendo traicionados — varias apuestas más pequeñas superan a una grande, tanto psicológicamente como en resultado.</p>
+  <p class="de">Das Loslassen von "ich treffe das exakte Tief auf einen Schlag" ist wahrscheinlich der gesündere Ansatz. Wie in <a href="/blog/dca-vs-lump-sum.html">DCA vs. Einmalanlage</a> behandelt, steigt der Wert von DCA umso mehr, je geringer die Überzeugung ist. In einer Phase wie dieser — in der scheinbare Tiefs immer wieder verraten werden — schlagen mehrere kleinere Wetten eine große, sowohl psychologisch als auch im Ergebnis.</p>
+
+  <div class="box ko">💡 <strong>제 생각:</strong> "바이 더 딥"이 틀린 전략이 된 건 아니에요. 다만 "한 번의 딥"이 아니라 "여러 번의 딥에 걸쳐 나눠 사는" 전략으로 업데이트할 필요가 있는 시기라고 봅니다.</div>
+  <div class="box en">💡 <strong>My take:</strong> "Buy the dip" hasn't become a wrong strategy. It just needs an update — from "one dip" to "spread across several dips" — for a stretch of market like this.</div>
+  <div class="box ja">💡 <strong>私の考え:</strong> 「バイ・ザ・ディップ」が間違った戦略になったわけではありません。ただ「一度のディップ」ではなく「複数回のディップに分けて買う」戦略へアップデートする必要がある時期だと思います。</div>
+  <div class="box es">💡 <strong>Mi opinión:</strong> "Comprar la caída" no se ha convertido en una estrategia equivocada. Solo necesita una actualización — de "una caída" a "distribuida entre varias caídas" — para un tramo de mercado como este.</div>
+  <div class="box de">💡 <strong>Meine Meinung:</strong> "Den Dip kaufen" ist keine falsche Strategie geworden. Sie braucht nur ein Update — von "ein Dip" zu "verteilt über mehrere Dips" — für eine solche Marktphase.</div>
+<?php require __DIR__.'/_footer.php'; ?>
