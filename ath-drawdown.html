@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ATH 대비 하락률(Drawdown) 완벽 가이드 — 역사적 저점 구간 판별법 | BTCtiming.com</title>
+<meta name="description" content="ATH 대비 하락률(Drawdown)이란 무엇인가요? 역대 최고가 대비 하락폭으로 역사적 저점 구간을 판별하는 가장 단순하지만 강력한 지표를 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/ath-drawdown.html">
+<meta property="og:title" content="ATH 대비 하락률 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/ath-drawdown.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "사이클 분석", "tag_en": "CYCLE ANALYSIS", "title_ko": "ATH 대비 하락률(Drawdown) 완벽 가이드 — 역사적 저점 구간 판별법", "title_en": "ATH Drawdown Complete Guide — Identifying Historical Bottom Zones", "desc_ko": "역대 최고가 대비 얼마나 떨어졌는지를 보는 가장 단순한 지표. -70~-85% 구간에서 반복된 과거 사이클 저점 패턴을 소개합니다.", "desc_en": "The simplest indicator — how far price has fallen from its all-time high. Explores the recurring -70% to -85% historical bottom pattern.", "read_ko": "6", "read_en": "6", "date": "2026-07-12", "icon": "📉", "color": "#94a3b8", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">ATH 하락률</span><span class="en">ATH Drawdown</span></div>
+
+  <h1 class="ko">ATH 대비 하락률(Drawdown) 완벽 가이드<br>역사적 저점 구간 판별법</h1>
+  <h1 class="en">ATH Drawdown Complete Guide<br>Identifying Historical Bottom Zones</h1>
+  <div class="meta">
+    <span>📅 2026.07.12</span>
+    <span class="ko">⏱ 약 6분 · 🏷 사이클 분석</span>
+    <span class="en">⏱ ~6 min · 🏷 CYCLE ANALYSIS</span>
+  </div>
+
+
+  <p class="ko">가장 복잡한 온체인 계산 없이도, 딱 하나의 질문으로 지금이 역사적 저점 구간에 가까운지 판단할 수 있습니다. <strong>"역대 최고가(ATH) 대비 얼마나 떨어졌는가?"</strong> 이것이 바로 <strong>ATH 대비 하락률(Drawdown)</strong> 지표입니다.</p>
+  <p class="en">Without any complex on-chain math, one simple question can tell you how close price is to a historical bottom zone: <strong>"How far has it fallen from its all-time high (ATH)?"</strong> That's exactly what the <strong>ATH Drawdown</strong> indicator measures.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> 비트코인의 지난 4번의 주요 사이클 저점은 모두 ATH 대비 -70%에서 -85% 사이에서 형성됐습니다. 이 구간에 진입하면 다른 지표들과 교차 확인할 가치가 충분합니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> Bitcoin's last 4 major cycle bottoms all formed between -70% and -85% below the all-time high. Entering this range is worth cross-checking against other indicators.</div>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2015.01</div>
+    <div class="rt ko">2013년 고점 $1,150 대비 -87%인 $150까지 하락.</div>
+    <div class="rt en">Fell -87% from the 2013 top of $1,150 to $150.</div>
+    <div class="rr ko">→ 이후 2017년 $20,000까지 약 130배 상승</div>
+    <div class="rr en">→ Rose ~130x to $20,000 by 2017</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2018.12</div>
+    <div class="rt ko">2017년 고점 $19,800 대비 -84%인 $3,200까지 하락.</div>
+    <div class="rt en">Fell -84% from the 2017 top of $19,800 to $3,200.</div>
+    <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
+    <div class="rr en">→ Rose ~20x to $69,000 by 2021</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2022.11</div>
+    <div class="rt ko">2021년 고점 $69,000 대비 -77%인 $15,500까지 하락.</div>
+    <div class="rt en">Fell -77% from the 2021 top of $69,000 to $15,500.</div>
+    <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
+    <div class="rr en">→ Rose ~8x to $126,000 by 2025</div>
+  </div>
+
+  <h2 class="ko">사이클이 성숙하며 나타나는 변화</h2>
+  <h2 class="en">The Shift as the Market Matures</h2>
+  <p class="ko">주목할 점은 시가총액이 커질수록 낙폭이 점진적으로 줄어드는 추세가 관찰된다는 것입니다. 2015년 -87%에서 2022년 -77%까지, 매 사이클마다 조금씩 낙폭이 완화되고 있습니다. 시장이 성숙하면서 유동성과 기관 참여가 늘어난 결과로 해석됩니다.</p>
+  <p class="en">Notably, drawdown magnitude has gradually shrunk as market cap has grown. From -87% in 2015 to -77% in 2022, each cycle's drawdown has moderated slightly — likely a result of growing liquidity and institutional participation as the market matures.</p>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>과거 낙폭이 미래를 보장하지 않음.</strong> 다음 사이클이 반드시 -70~-85% 구간에서 멈춘다는 보장은 없습니다.</li>
+    <li><strong>단독 신호로는 부족.</strong> 단순히 "많이 떨어졌다"는 것만으로 매수 근거가 되긴 어려우며, 다른 온체인·심리 지표와 함께 봐야 합니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Past drawdowns don't guarantee the future.</strong> There's no guarantee the next cycle will bottom within the -70% to -85% range.</li>
+    <li><strong>Not sufficient alone.</strong> "It's fallen a lot" isn't enough of a buy thesis by itself — it should be combined with other on-chain and sentiment indicators.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 단순 낙폭이 아니라 온체인 밸류에이션까지 저평가인지 확인</li>
+    <li><strong><a href="/blog/bitcoin-halving-timing.html">반감기 사이클</a>:</strong> 현재 사이클 위치와 함께 판단</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Confirm on-chain valuation is undervalued, not just price drawdown</li>
+    <li><strong><a href="/blog/bitcoin-halving-timing.html">Halving Cycle</a>:</strong> Read alongside current cycle position</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

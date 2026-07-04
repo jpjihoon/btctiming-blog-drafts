@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>비트코인 매수 타이밍 종합 가이드 — 13개 온체인 지표 체크리스트 | BTCtiming.com</title>
+<meta name="description" content="비트코인 매수 타이밍을 잡는 13개 온체인·심리·사이클 지표를 카테고리별로 정리한 종합 체크리스트. MVRV, Hash Ribbon, 공포탐욕지수, STH-SOPR, 반감기 사이클을 한 번에 확인하세요.">
+<link rel="canonical" href="https://btctiming.com/blog/bitcoin-buy-timing-guide.html">
+<meta property="og:title" content="비트코인 매수 타이밍 종합 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/bitcoin-buy-timing-guide.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.pg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+@media(max-width:500px){.pg{grid-template-columns:1fr}}
+.pc{background:#111113;border-radius:10px;padding:16px;border:1px solid rgba(255,255,255,.07)}
+.pc.r{border-top:3px solid #f87171}.pc.g{border-top:3px solid #4ade80}
+.pt{font-size:13px;font-weight:700;margin-bottom:6px}
+.pc.r .pt{color:#f87171}.pc.g .pt{color:#4ade80}
+.pd{font-size:13px;color:#71717a;line-height:1.6}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cc{background:#111113;border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:18px 22px;margin:14px 0}
+.cc h3{margin:0 0 10px;color:#f7931a;border:none;font-size:1rem}
+.stats{display:flex;gap:20px;flex-wrap:wrap}
+.si{flex:1;min-width:90px}
+.sl{font-size:11px;color:#52525b;text-transform:uppercase;letter-spacing:.04em}
+.sv{font-size:19px;font-weight:700;color:#fafafa}
+.ss{font-size:12px;color:#71717a}
+.tl{border-left:2px solid rgba(247,147,26,.3);margin:20px 0;padding-left:22px}
+.tli{margin-bottom:20px;position:relative}
+.tli::before{content:'';position:absolute;left:-27px;top:6px;width:9px;height:9px;border-radius:50%;background:#f7931a}
+.tll{font-size:12px;color:#f7931a;font-weight:600;margin-bottom:3px}
+.tlt{color:#a1a1aa;font-size:14px}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "종합 가이드", "tag_en": "COMPLETE GUIDE", "title_ko": "비트코인 매수 타이밍 종합 가이드 — 13개 온체인 지표 체크리스트", "title_en": "The Complete Bitcoin Buy Timing Guide — A 13-Indicator Checklist", "desc_ko": "밸류에이션·채굴자·심리·사이클 지표를 카테고리별로 정리한 종합 체크리스트. 지금 몇 개의 신호가 겹치는지 직접 확인해보세요.", "desc_en": "A complete checklist organizing valuation, miner, sentiment, and cycle indicators by category. See how many signals align right now.", "read_ko": "9", "read_en": "9", "date": "2026-07-01", "icon": "🧭", "color": "#f7931a", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">매수 타이밍 종합편</span><span class="en">Buy Timing Guide</span></div>
+
+  <h1 class="ko">비트코인 매수 타이밍 종합 가이드<br>13개 온체인 지표로 완성하는 체크리스트</h1>
+  <h1 class="en">The Complete Bitcoin Buy Timing Guide<br>A 13-Indicator On-Chain Checklist</h1>
+  <div class="meta">
+    <span>📅 2026.07.01</span>
+    <span class="ko">⏱ 약 9분 · 🏷 종합 가이드</span>
+    <span class="en">⏱ ~9 min · 🏷 Complete Guide</span>
+  </div>
+
+
+  <p class="ko">비트코인 매수 타이밍을 잡는 가장 흔한 실수는 단 하나의 지표, 혹은 "감"에 의존하는 것입니다. 실제로 신뢰도 높은 저점 포착은 <strong>온체인·심리·사이클 지표를 종합적으로 교차 확인</strong>할 때 이루어집니다. 이 글에서는 BTCtiming.com이 실제로 추적하는 13개 지표를 하나의 체크리스트로 정리했습니다.</p>
+  <p class="en">The most common mistake in timing a Bitcoin entry is relying on a single indicator — or pure gut feeling. Reliable bottom-calling comes from <strong>cross-checking on-chain, sentiment, and cycle indicators together</strong>. This guide organizes the 13 indicators BTCtiming.com actually tracks into a single checklist.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> 지표 하나가 매수 신호를 보내는 것과, 5개 이상의 지표가 동시에 매수 신호를 보내는 것은 완전히 다른 확신도를 줍니다. 이 글은 카테고리별로 지표를 묶어 "나만의 매수 체크리스트"를 만드는 법을 안내합니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> One indicator flashing a buy signal is very different from five or more agreeing at once. This guide groups indicators by category so you can build your own buy checklist.</div>
+
+  <h2 class="ko">카테고리 1 — 밸류에이션 지표 (가격이 저렴한가?)</h2>
+  <h2 class="en">Category 1 — Valuation Indicators (Is the price cheap?)</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 0 이하면 역사적 저평가 구간</li>
+    <li><strong>NUPL(미실현 순손익):</strong> 0 근처 또는 음수면 시장 전체가 평균적으로 손실 상태 — 항복 국면</li>
+    <li><strong>ATH 대비 하락률:</strong> 역대 최고가 대비 -60% 이상이면 역사적 저점 구간과 유사</li>
+    <li><strong>실현가(Realized Price) 대비 위치:</strong> 현재가가 실현가에 근접하거나 밑돌면 시장 평균 매수단가 수준</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Below 0 signals historical undervaluation</li>
+    <li><strong>NUPL:</strong> Near zero or negative means the market is at an average loss — capitulation territory</li>
+    <li><strong>Drawdown from ATH:</strong> -60% or more from the all-time high resembles past historical bottoms</li>
+    <li><strong>Price vs. Realized Price:</strong> Trading near or below realized price means it's near the market's average cost basis</li>
+  </ul>
+
+  <h2 class="ko">카테고리 2 — 채굴자·공급 지표 (약한 손이 정리됐는가?)</h2>
+  <h2 class="en">Category 2 — Miner & Supply Indicators (Have weak hands been flushed out?)</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 30일 해시레이트 MA가 60일 MA를 상향 돌파하면 채굴자 항복 종료</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 1 아래로 급락 후 회복하면 단기 보유자 패닉 매도 소진</li>
+    <li><strong>LTH 공급 비중:</strong> 장기 보유자 비중이 사이클 고점 수준으로 올라가면 "강한 손"이 코인을 흡수 중</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 30-day hashrate MA crossing above the 60-day MA signals capitulation has ended</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> A sharp drop below 1 followed by recovery means short-term panic selling has exhausted</li>
+    <li><strong>LTH Supply Share:</strong> Rising toward cycle-high levels means "strong hands" are absorbing coins</li>
+  </ul>
+
+  <h2 class="ko">카테고리 3 — 심리·자금 흐름 지표 (시장 참여자들의 감정은?)</h2>
+  <h2 class="en">Category 3 — Sentiment & Flow Indicators (What are participants feeling?)</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 20 이하 극단적 공포는 역사적으로 저점과 겹침</li>
+    <li><strong><a href="/blog/coinbase-premium.html">코인베이스 프리미엄</a>:</strong> 공포 국면에서 프리미엄이 회복되면 미국 기관의 저가 매수 신호</li>
+    <li><strong>선물-현물 갭(펀딩비):</strong> 마이너스로 전환되면 과도한 레버리지 롱 포지션이 청산 완료됐다는 뜻</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/fear-greed-index.html">Fear & Greed Index</a>:</strong> Below 20 (extreme fear) historically overlaps with bottoms</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Recovering during fear signals US institutions buying the dip</li>
+    <li><strong>Futures-Spot Gap (funding rate):</strong> Turning negative means over-leveraged longs have been flushed out</li>
+  </ul>
+
+  <h2 class="ko">카테고리 4 — 사이클 지표 (지금이 사이클의 어느 지점인가?)</h2>
+  <h2 class="en">Category 4 — Cycle Indicators (Where are we in the cycle?)</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/bitcoin-halving-timing.html">반감기까지 남은 기간</a>:</strong> 다음 반감기 12~24개월 전이 역사적 매수 구간</li>
+    <li><strong>BTC 도미넌스:</strong> 상승 추세면 리스크 회피 심리, 하락 추세면 알트코인 투기 과열 가능성</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/bitcoin-halving-timing.html">Time to Next Halving</a>:</strong> 12–24 months before the next halving is the historical buy window</li>
+    <li><strong>BTC Dominance:</strong> Rising suggests risk-off behavior; falling can signal altcoin speculation overheating</li>
+  </ul>
+
+  <h2 class="ko">체크리스트 활용법 — 신호 개수로 확신도 측정</h2>
+  <h2 class="en">Using the Checklist — Measuring Confidence by Signal Count</h2>
+  <table class="zt ko">
+    <tr><th>동시 신호 개수</th><th>확신도</th><th>대응</th></tr>
+    <tr><td>0~2개</td><td>낮음</td><td>관망</td></tr>
+    <tr><td class="y">3~5개</td><td>중간</td><td>분할 매수 시작</td></tr>
+    <tr><td class="g">6개 이상</td><td>높음</td><td>적극 매수 구간</td></tr>
+  </table>
+  <table class="zt en">
+    <tr><th>Simultaneous Signals</th><th>Confidence</th><th>Action</th></tr>
+    <tr><td>0–2</td><td>Low</td><td>Wait and watch</td></tr>
+    <tr><td class="y">3–5</td><td>Medium</td><td>Begin dollar-cost averaging</td></tr>
+    <tr><td class="g">6+</td><td>High</td><td>Aggressive buy zone</td></tr>
+  </table>
+  <p class="ko">단, 지표 개수만 세는 것보다 카테고리별로 최소 1개 이상씩 겹치는지 확인하는 것이 더 중요합니다. 예를 들어 밸류에이션 지표 3개만 겹치고 심리 지표가 전혀 안 겹친다면, 아직 패닉이 오지 않은 "아직 이른" 구간일 수 있습니다.</p>
+  <p class="en">That said, checking whether at least one indicator from each category overlaps matters more than just counting totals. If only 3 valuation indicators align but no sentiment indicators do, panic may not have arrived yet — meaning it could still be early.</p>
+
+  <h2 class="ko">2026년 7월 현재, 어떤 구간인가?</h2>
+  <h2 class="en">Where Are We as of July 2026?</h2>
+  <p class="ko">다음 반감기(2028년 4월)까지 약 22개월 남아있어, 사이클 지표상으로는 역사적 매수 구간의 중심에 위치해 있습니다. 다만 밸류에이션·심리 지표는 시시각각 변하므로, 반드시 실시간 데이터로 재확인해야 합니다.</p>
+  <p class="en">With roughly 22 months left until the next halving (April 2028), the cycle indicator places us squarely in the historical buy window. Valuation and sentiment indicators shift constantly, though, so always re-check them against live data.</p>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>과거 패턴이 미래를 보장하지 않습니다.</strong> 사이클이 길어지거나 짧아질 수 있고, 매크로 환경(금리, 규제)이 패턴을 깨뜨릴 수 있습니다.</li>
+    <li><strong>투자 조언이 아닙니다.</strong> 모든 지표는 참고용이며, 최종 투자 판단과 리스크 관리는 본인의 몫입니다.</li>
+    <li><strong>분할 매수를 권장합니다.</strong> 아무리 많은 지표가 겹쳐도 한 번에 몰빵하기보다는 단계적으로 접근하는 것이 안전합니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Past patterns don't guarantee the future.</strong> Cycles can lengthen or shorten, and macro conditions (rates, regulation) can break historical patterns.</li>
+    <li><strong>This is not financial advice.</strong> All indicators are for reference — final decisions and risk management are your own responsibility.</li>
+    <li><strong>Consider dollar-cost averaging.</strong> Even with many aligned signals, a staged approach is generally safer than an all-at-once entry.</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

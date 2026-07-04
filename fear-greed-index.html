@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>비트코인 공포탐욕지수 완벽 가이드 — 시장 심리로 저점·고점 찾기 | BTCtiming.com</title>
+<meta name="description" content="비트코인 공포탐욕지수(Fear & Greed Index)란 무엇인가요? 계산 방식, 구간별 해석, 2018·2021·2022년 역사적 사례로 저점과 고점을 찾는 법을 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/fear-greed-index.html">
+<meta property="og:title" content="비트코인 공포탐욕지수 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/fear-greed-index.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.pg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+@media(max-width:500px){.pg{grid-template-columns:1fr}}
+.pc{background:#111113;border-radius:10px;padding:16px;border:1px solid rgba(255,255,255,.07)}
+.pc.r{border-top:3px solid #f87171}.pc.g{border-top:3px solid #4ade80}
+.pt{font-size:13px;font-weight:700;margin-bottom:6px}
+.pc.r .pt{color:#f87171}.pc.g .pt{color:#4ade80}
+.pd{font-size:13px;color:#71717a;line-height:1.6}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cc{background:#111113;border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:18px 22px;margin:14px 0}
+.cc h3{margin:0 0 10px;color:#f7931a;border:none;font-size:1rem}
+.stats{display:flex;gap:20px;flex-wrap:wrap}
+.si{flex:1;min-width:90px}
+.sl{font-size:11px;color:#52525b;text-transform:uppercase;letter-spacing:.04em}
+.sv{font-size:19px;font-weight:700;color:#fafafa}
+.ss{font-size:12px;color:#71717a}
+.tl{border-left:2px solid rgba(247,147,26,.3);margin:20px 0;padding-left:22px}
+.tli{margin-bottom:20px;position:relative}
+.tli::before{content:'';position:absolute;left:-27px;top:6px;width:9px;height:9px;border-radius:50%;background:#f7931a}
+.tll{font-size:12px;color:#f7931a;font-weight:600;margin-bottom:3px}
+.tlt{color:#a1a1aa;font-size:14px}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "시장 심리 지표", "tag_en": "SENTIMENT INDICATOR", "title_ko": "비트코인 공포탐욕지수 완벽 가이드 — 시장 심리로 저점·고점 찾기", "title_en": "Bitcoin Fear & Greed Index Guide — Finding Tops and Bottoms", "desc_ko": "변동성·거래량·소셜미디어를 종합한 시장 심리 지수. 2018년, 2021년, 2022년 극단적 공포·탐욕 사례로 활용법을 설명합니다.", "desc_en": "A composite sentiment score from volatility, volume, and social media. Learn to use it through the 2018, 2021, and 2022 extreme cases.", "read_ko": "7", "read_en": "7", "date": "2026-07-01", "icon": "🎭", "color": "#fbbf24", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">공포탐욕지수</span><span class="en">Fear & Greed Index</span></div>
+
+  <h1 class="ko">비트코인 공포탐욕지수 완벽 가이드<br>시장 심리로 저점과 고점을 찾는 법</h1>
+  <h1 class="en">Bitcoin Fear & Greed Index Guide<br>Finding Tops and Bottoms With Sentiment</h1>
+  <div class="meta">
+    <span>📅 2026.07.01</span>
+    <span class="ko">⏱ 약 7분 · 🏷 시장 심리 지표</span>
+    <span class="en">⏱ ~7 min · 🏷 Sentiment Indicator</span>
+  </div>
+
+
+  <p class="ko">"공포에 사고 탐욕에 팔아라"는 투자 격언을 숫자로 만든 것이 바로 <strong>공포·탐욕 지수(Fear & Greed Index)</strong>입니다. 변동성, 거래량, 소셜 미디어, 설문조사 등을 종합해 0(극단적 공포)부터 100(극단적 탐욕)까지 시장 심리를 하나의 숫자로 표현합니다.</p>
+  <p class="en">"Buy fear, sell greed" — the <strong>Fear & Greed Index</strong> turns this old trading adage into a number. It combines volatility, volume, social media sentiment, and surveys into a single score from 0 (extreme fear) to 100 (extreme greed).</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> 지수가 20 이하면 극단적 공포, 80 이상이면 극단적 탐욕 구간입니다. 비트코인의 주요 저점은 대부분 극단적 공포 구간에서, 주요 고점은 극단적 탐욕 구간에서 형성됐습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> Below 20 signals extreme fear; above 80 signals extreme greed. Nearly every major Bitcoin bottom formed during extreme fear, and every major top during extreme greed.</div>
+
+  <h2 class="ko">공포·탐욕 지수는 어떻게 계산되나?</h2>
+  <h2 class="en">How Is the Index Calculated?</h2>
+  <p class="ko">여러 데이터 소스를 가중 평균해 산출합니다. 대표적인 구성 요소는 다음과 같습니다.</p>
+  <p class="en">The index is a weighted average of several data sources, including:</p>
+  <ul class="ko">
+    <li><strong>변동성:</strong> 최근 가격 변동성을 30~90일 평균과 비교</li>
+    <li><strong>모멘텀/거래량:</strong> 현재 거래량과 모멘텀을 이동평균과 비교</li>
+    <li><strong>소셜 미디어:</strong> 특정 해시태그의 게시량과 참여율 변화</li>
+    <li><strong>설문조사:</strong> 투자자 대상 심리 설문 결과</li>
+    <li><strong>도미넌스:</strong> 비트코인 시장 점유율 변화 (알트코인 투기 심리 반영)</li>
+    <li><strong>구글 트렌드:</strong> "비트코인" 관련 검색어 트렌드 변화</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Volatility:</strong> Recent price volatility vs. 30–90 day averages</li>
+    <li><strong>Momentum/Volume:</strong> Current volume and momentum vs. moving averages</li>
+    <li><strong>Social Media:</strong> Post volume and engagement on relevant hashtags</li>
+    <li><strong>Surveys:</strong> Investor sentiment poll results</li>
+    <li><strong>Dominance:</strong> Bitcoin's market share shift, reflecting altcoin speculation</li>
+    <li><strong>Google Trends:</strong> Search interest changes around "Bitcoin"</li>
+  </ul>
+
+  <h2 class="ko">구간별 해석</h2>
+  <h2 class="en">Zone Interpretation</h2>
+  <table class="zt ko">
+    <tr><th>지수</th><th>시장 심리</th><th>투자 판단</th></tr>
+    <tr><td class="g">0 ~ 20</td><td>극단적 공포</td><td class="g">역발상 매수 구간</td></tr>
+    <tr><td class="y">20 ~ 40</td><td>공포</td><td class="y">관망 · 분할 매수</td></tr>
+    <tr><td>40 ~ 60</td><td>중립</td><td>추세 확인</td></tr>
+    <tr><td class="y">60 ~ 80</td><td>탐욕</td><td class="y">주의 · 리스크 관리</td></tr>
+    <tr><td class="r">80 ~ 100</td><td>극단적 탐욕</td><td class="r">역발상 매도 구간</td></tr>
+  </table>
+  <table class="zt en">
+    <tr><th>Score</th><th>Sentiment</th><th>Signal</th></tr>
+    <tr><td class="g">0 – 20</td><td>Extreme Fear</td><td class="g">Contrarian Buy Zone</td></tr>
+    <tr><td class="y">20 – 40</td><td>Fear</td><td class="y">Watch / DCA</td></tr>
+    <tr><td>40 – 60</td><td>Neutral</td><td>Confirm Trend</td></tr>
+    <tr><td class="y">60 – 80</td><td>Greed</td><td class="y">Caution / Risk Mgmt</td></tr>
+    <tr><td class="r">80 – 100</td><td>Extreme Greed</td><td class="r">Contrarian Sell Zone</td></tr>
+  </table>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2018.12</div>
+    <div class="rt ko">비트코인 $3,200 바닥에서 지수 약 8~10 기록, 역대 최저 수준의 극단적 공포.</div>
+    <div class="rt en">Index hit ~8–10, near-record extreme fear, as Bitcoin bottomed near $3,200.</div>
+    <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2021.11</div>
+    <div class="rt ko">비트코인 $69,000 고점 근처에서 지수 84~90의 극단적 탐욕 기록.</div>
+    <div class="rt en">Index reached 84–90 (extreme greed) as Bitcoin peaked near $69,000.</div>
+    <div class="rr ko">→ 이후 2022년 $15,500까지 약 77% 하락</div>
+    <div class="rr en">→ Bitcoin fell ~77% to $15,500 in 2022</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2022.11 (FTX 붕괴)</div>
+    <div class="rt ko">FTX 파산으로 지수가 다시 6~10까지 급락, 극단적 공포 재현.</div>
+    <div class="rt en">FTX's collapse drove the index back down to 6–10, extreme fear once again.</div>
+    <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~8x to $126,000 by 2025</div>
+  </div>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>극단 구간이 오래 지속될 수 있음.</strong> "공포"라고 해서 즉시 반등하지 않으며, 수주~수개월 더 이어질 수 있습니다.</li>
+    <li><strong>단독 매매 신호로 부적합.</strong> 심리 지표이지 가치 평가 지표가 아니므로, 가격이 여전히 고평가 상태일 수 있습니다.</li>
+    <li><strong>구성 요소가 리테일 중심.</strong> 기관 자금 흐름은 별도로 코인베이스 프리미엄 등으로 확인해야 합니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Extremes can persist.</strong> "Fear" doesn't guarantee an immediate rebound — it can continue for weeks or months.</li>
+    <li><strong>Not a standalone trading signal.</strong> It measures sentiment, not valuation, so price could still be overvalued.</li>
+    <li><strong>Retail-weighted components.</strong> Check institutional flows separately via Coinbase Premium and similar metrics.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong>MVRV Z-Score 0 이하:</strong> 공포와 저평가가 동시에 확인될 때 신뢰도 상승</li>
+    <li><strong>Hash Ribbon 회복 전환:</strong> 채굴자 항복 종료와 겹치는지 확인</li>
+    <li><strong>STH-SOPR 0.95 이하:</strong> 단기 보유자 패닉 매도가 동반되는지 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong>MVRV Z-Score below 0:</strong> Confidence rises when fear and undervaluation align</li>
+    <li><strong>Hash Ribbon recovery cross:</strong> Check whether miner capitulation has also ended</li>
+    <li><strong>STH-SOPR below 0.95:</strong> Confirm whether short-term holders are panic selling too</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>

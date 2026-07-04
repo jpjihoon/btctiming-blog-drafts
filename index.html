@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko" id="html-root">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>온체인 지표 가이드 — 비트코인 분석 블로그 | BTCtiming.com</title>
+<meta name="description" content="비트코인 온체인 지표를 쉽게 설명하는 가이드 모음. MVRV Z-Score, Hash Ribbon, 반감기 타이밍 등 실전 투자에 바로 활용할 수 있는 분석 글을 제공합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0}
+.lang-btn{font-size:11px;padding:5px 8px;border-radius:6px;border:1px solid rgba(255,255,255,.2);background:var(--bg3,#151515);color:#a1a1aa;cursor:pointer;flex-shrink:0}
+.lang-btn.active{background:#f7931a;color:#000;border-color:#f7931a;font-weight:600}
+.wrap{max-width:800px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;margin-bottom:8px;color:#fafafa}
+.sub{font-size:15px;color:#71717a;margin-bottom:48px}
+.article-grid{display:grid;gap:16px}
+.article-card{background:#111113;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:24px 28px;transition:border-color .15s;display:block;color:inherit}
+.article-card:hover{border-color:rgba(247,147,26,.4);text-decoration:none}
+.card-tag{font-size:11px;font-weight:600;color:#f7931a;letter-spacing:.06em;margin-bottom:8px}
+.card-title{font-size:1.15rem;font-weight:700;color:#fafafa;margin-bottom:6px;line-height:1.35}
+.card-desc{font-size:14px;color:#71717a;line-height:1.6;margin-bottom:12px}
+.card-meta{font-size:12px;color:#52525b;display:flex;gap:12px}
+.cta-main{background:linear-gradient(135deg,#1a1008,#111113);border:1px solid rgba(247,147,26,.25);border-radius:12px;padding:28px 32px;margin-top:48px;text-align:center}
+.cta-main h2{font-size:1.15rem;margin-bottom:8px;color:#fafafa}
+.cta-main p{color:#71717a;font-size:14px;margin-bottom:20px}
+.cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
+.en .ko{display:none}.ko-only,.en .en-hidden{display:none}.en .en-show{display:block}
+</style>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko">← <a href="/" style="color:#71717a">실시간 분석으로 돌아가기</a></span>
+  <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:#71717a">Back to Live Analysis</a></span>
+  <button class="lang-btn active" id="btnKo" onclick="setLang('ko')">KR</button>
+  <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
+</div></nav>
+<div class="wrap">
+  <h1 class="ko">온체인 지표 가이드</h1>
+  <h1 class="en-show" style="display:none">On-Chain Indicator Guides</h1>
+  <p class="sub ko">비트코인 매수·매도 타이밍 분석에 쓰이는 온체인 지표를 쉽게 설명합니다.</p>
+  <p class="sub en-show" style="display:none">Easy-to-understand guides on Bitcoin on-chain indicators for entry/exit timing.</p>
+
+  <div class="article-grid">
+    <a href="/blog/bitcoin-buy-timing-guide.html" class="article-card">
+      <div class="card-tag ko">종합 가이드</div>
+      <div class="card-tag en-show" style="display:none">COMPLETE GUIDE</div>
+      <div class="card-title ko">비트코인 매수 타이밍 종합 가이드 — 13개 온체인 지표 체크리스트</div>
+      <div class="card-title en-show" style="display:none">The Complete Bitcoin Buy Timing Guide — A 13-Indicator Checklist</div>
+      <div class="card-desc ko">밸류에이션·채굴자·심리·사이클 지표를 카테고리별로 정리한 종합 체크리스트. 지금 몇 개의 신호가 겹치는지 직접 확인해보세요.</div>
+      <div class="card-desc en-show" style="display:none">A complete checklist organizing valuation, miner, sentiment, and cycle indicators by category. See how many signals align right now.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 9분</span><span class="en-show" style="display:none"> · ~9 min read</span></div>
+    </a>
+
+    <a href="/blog/mvrv-z-score.html" class="article-card">
+      <div class="card-tag ko">온체인 지표</div>
+      <div class="card-tag en-show" style="display:none">ON-CHAIN INDICATOR</div>
+      <div class="card-title ko">MVRV Z-Score 완벽 가이드 — 비트코인 저점을 포착하는 온체인 지표</div>
+      <div class="card-title en-show" style="display:none">MVRV Z-Score Complete Guide — The On-Chain Bottom Detector</div>
+      <div class="card-desc ko">비트코인의 시장가치와 실현가치를 비교해 고평가·저평가 여부를 측정합니다. 2015년, 2018년, 2022년 저점을 모두 포착한 지표의 원리와 활용법을 설명합니다.</div>
+      <div class="card-desc en-show" style="display:none">Compares Bitcoin's market value to realized value. Learn how this indicator caught every major bottom in 2015, 2018, and 2022.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 8분</span><span class="en-show" style="display:none"> · ~8 min read</span></div>
+    </a>
+
+    <a href="/blog/bitcoin-halving-timing.html" class="article-card">
+      <div class="card-tag ko">사이클 분석</div>
+      <div class="card-tag en-show" style="display:none">CYCLE ANALYSIS</div>
+      <div class="card-title ko">비트코인 반감기 이후 최적 매수 타이밍은 언제인가?</div>
+      <div class="card-title en-show" style="display:none">When Is the Best Time to Buy After a Bitcoin Halving?</div>
+      <div class="card-desc ko">반감기 12~24개월 전이 역사적 최적 매수 구간입니다. 2016년, 2020년, 2024년 데이터를 분석하고 2028년 반감기 전략을 정리했습니다.</div>
+      <div class="card-desc en-show" style="display:none">Historical data shows 12–24 months before a halving is the optimal buy zone. Analysis of 2016, 2020, and 2024 cycles with 2028 strategy.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 7분</span><span class="en-show" style="display:none"> · ~7 min read</span></div>
+    </a>
+
+    <a href="/blog/hash-ribbon-indicator.html" class="article-card">
+      <div class="card-tag ko">온체인 지표</div>
+      <div class="card-tag en-show" style="display:none">ON-CHAIN INDICATOR</div>
+      <div class="card-title ko">Hash Ribbon 지표 완벽 설명 — 비트코인 저점을 가장 정확하게 맞춘 지표</div>
+      <div class="card-title en-show" style="display:none">Hash Ribbon Indicator Guide — Bitcoin's Most Accurate Bottom Signal</div>
+      <div class="card-desc ko">2016년부터 2022년까지 비트코인의 모든 주요 저점에서 매수 신호를 발생시킨 Hash Ribbon. 채굴자 항복과 회복 교차의 원리, 역사적 사례, 실전 활용법을 알아봅니다.</div>
+      <div class="card-desc en-show" style="display:none">Hash Ribbon triggered a buy signal at every major Bitcoin bottom from 2016 to 2022. Learn about miner capitulation, recovery crosses, and real-world application.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 7분</span><span class="en-show" style="display:none"> · ~7 min read</span></div>
+    </a>
+
+    <a href="/blog/coinbase-premium.html" class="article-card">
+      <div class="card-tag ko">온체인 지표</div>
+      <div class="card-tag en-show" style="display:none">ON-CHAIN INDICATOR</div>
+      <div class="card-title ko">코인베이스 프리미엄 완벽 가이드 — 미국 기관 자금 흐름을 읽는 법</div>
+      <div class="card-title en-show" style="display:none">Coinbase Premium Guide — Reading US Institutional Money Flow</div>
+      <div class="card-desc ko">코인베이스와 바이낸스의 가격 차이로 미국 기관투자자의 매수·매도 압력을 읽는 방법. 2020년, 2022년, 2024년 사례로 알아봅니다.</div>
+      <div class="card-desc en-show" style="display:none">Reading US institutional buying and selling pressure through the Coinbase-Binance price gap, with 2020, 2022, and 2024 case studies.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 6분</span><span class="en-show" style="display:none"> · ~6 min read</span></div>
+    </a>
+
+    <a href="/blog/fear-greed-index.html" class="article-card">
+      <div class="card-tag ko">시장 심리 지표</div>
+      <div class="card-tag en-show" style="display:none">SENTIMENT INDICATOR</div>
+      <div class="card-title ko">비트코인 공포탐욕지수 완벽 가이드 — 시장 심리로 저점·고점 찾기</div>
+      <div class="card-title en-show" style="display:none">Bitcoin Fear &amp; Greed Index Guide — Finding Tops and Bottoms</div>
+      <div class="card-desc ko">변동성·거래량·소셜미디어를 종합한 시장 심리 지수. 2018년, 2021년, 2022년 극단적 공포·탐욕 사례로 활용법을 설명합니다.</div>
+      <div class="card-desc en-show" style="display:none">A composite sentiment score from volatility, volume, and social media. Learn to use it through the 2018, 2021, and 2022 extreme cases.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 7분</span><span class="en-show" style="display:none"> · ~7 min read</span></div>
+    </a>
+
+    <a href="/blog/sth-sopr.html" class="article-card">
+      <div class="card-tag ko">온체인 지표</div>
+      <div class="card-tag en-show" style="display:none">ON-CHAIN INDICATOR</div>
+      <div class="card-title ko">STH-SOPR 지표 완벽 가이드 — 단기 보유자의 손익 실현을 추적하다</div>
+      <div class="card-title en-show" style="display:none">STH-SOPR Complete Guide — Tracking Short-Term Holder P&amp;L</div>
+      <div class="card-desc ko">단기 보유자들이 손실을 감수하고 파는 시점을 포착하는 지표. 2020년 COVID 폭락, 2022년 FTX 붕괴 사례로 저점 신호를 확인합니다.</div>
+      <div class="card-desc en-show" style="display:none">Catches the moment short-term holders sell at a loss. See bottom signals through the 2020 COVID crash and 2022 FTX collapse.</div>
+      <div class="card-meta"><span>📅 2026.07.01</span><span class="ko"> · 약 7분</span><span class="en-show" style="display:none"> · ~7 min read</span></div>
+    </a>
+  </div>
+
+  <div class="cta-main">
+    <h2 class="ko">지금 비트코인 타이밍 실시간 확인하기</h2>
+    <h2 class="en-show" style="display:none">Check Bitcoin Timing Score Live</h2>
+    <p class="ko">위 지표들을 종합한 0~10점 매수·매도 점수를 실시간으로 무료로 확인하세요.</p>
+    <p class="en-show" style="display:none">Get a live 0–10 buy/sell score combining all the indicators above — free.</p>
+    <a href="/" class="ko">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en-show" style="display:none">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>
+  © 2026 BTCtiming.com ·
+  <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a>
+  <a href="/privacy" style="color:#52525b" class="en-show" style="display:none">Privacy Policy</a>
+  · <span class="ko">투자 조언이 아닙니다</span><span class="en-show" style="display:none">Not financial advice</span>.
+</footer>
+<script>
+function setLang(lang) {
+  const root = document.getElementById('html-root');
+  root.className = lang;
+  root.lang = lang;
+  document.getElementById('btnKo').className = 'lang-btn' + (lang==='ko'?' active':'');
+  document.getElementById('btnEn').className = 'lang-btn' + (lang==='en'?' active':'');
+  document.querySelectorAll('.en-show').forEach(el => el.style.display = lang==='en' ? '' : 'none');
+  document.querySelectorAll('.ko').forEach(el => el.style.display = lang==='en' ? 'none' : '');
+  try { localStorage.setItem('blogLang', lang); } catch(e){}
+}
+try {
+  const urlLang = new URLSearchParams(location.search).get('lang');
+  const saved = urlLang || localStorage.getItem('blogLang') || localStorage.getItem('lang');
+  if(saved === 'en') setLang('en');
+} catch(e){}
+</script>
+</body>
+</html>

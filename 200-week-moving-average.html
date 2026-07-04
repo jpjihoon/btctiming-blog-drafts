@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko" id="hr">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>200주 이동평균선 완벽 가이드 — 비트코인 사이클 저점의 마지노선 | BTCtiming.com</title>
+<meta name="description" content="비트코인 200주 이동평균선(200WMA)이란 무엇인가요? 모든 주요 사이클 저점에서 지지선 역할을 한 지표의 원리와 활용법을 설명합니다.">
+<link rel="canonical" href="https://btctiming.com/blog/200-week-moving-average.html">
+<meta property="og:title" content="200주 이동평균선 완벽 가이드 | BTCtiming.com">
+<meta property="og:url" content="https://btctiming.com/blog/200-week-moving-average.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
+a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lang-toggle{display:flex;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;overflow:hidden;flex-shrink:0}
+.lang-btn{border:none;background:transparent;color:#a1a1aa;font-size:11px;font-weight:600;padding:0 10px;height:32px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-btn.on{background:#f7931a;color:#000}
+.lang-btn:not(.on):hover{background:#1f1f1f}
+.wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
+.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
+h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
+p{margin-bottom:14px;color:#a1a1aa}
+ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
+.box{background:#1c1c1f;border-left:3px solid #f7931a;border-radius:6px;padding:14px 18px;margin:20px 0;color:#d4d4d8}
+.zt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.zt th{background:#1c1c1f;padding:9px 12px;text-align:left;font-weight:600;color:#fafafa;border:1px solid rgba(255,255,255,.08)}
+.zt td{padding:9px 12px;border:1px solid rgba(255,255,255,.06);color:#a1a1aa}
+.g{color:#4ade80;font-weight:600}.r{color:#f87171;font-weight:600}.y{color:#fbbf24;font-weight:600}
+.rc{background:#111113;border-left:3px solid #4ade80;border-radius:8px;padding:14px 18px;margin:12px 0}
+.rd{font-size:12px;color:#4ade80;font-weight:600;margin-bottom:3px}
+.rt{font-size:14px;color:#a1a1aa}
+.rr{font-size:13px;color:#4ade80;margin-top:5px;font-weight:600}
+.cta{background:linear-gradient(135deg,#1a1008,#0f0f11);border:1px solid rgba(247,147,26,.3);border-radius:12px;padding:24px 28px;margin:40px 0;text-align:center}
+.cta h3{border:none;margin:0 0 8px;font-size:1.15rem;color:#fafafa}
+.cta p{margin-bottom:18px;color:#71717a}
+.cta a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.bc{font-size:13px;color:#52525b;margin-bottom:22px}.bc a{color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+[lang="en"] .ko,[lang="ko"] .en{display:none}
+</style>
+<script type="application/json" id="card-meta">{"tag_ko": "기술적 지표", "tag_en": "TECHNICAL INDICATOR", "title_ko": "200주 이동평균선 완벽 가이드 — 비트코인 사이클 저점의 마지노선", "title_en": "200-Week Moving Average Guide — Bitcoin's Cycle-Bottom Backstop", "desc_ko": "지난 세 번의 사이클 모두 200주 이동평균선 부근에서 최종 저점이 형성됐습니다. 계산법과 실전 활용법을 정리했습니다.", "desc_en": "All three past cycles found their final bottom near the 200-week moving average. Formula and practical use explained.", "read_ko": "6", "read_en": "6", "date": "2026-07-03", "icon": "📐", "color": "#818cf8", "category": "guide"}</script>
+</head>
+<body>
+<nav><div class="nav-w">
+  <a href="/" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back ko"><a href="/blog/" style="color:#71717a">← 가이드 목록</a></span>
+  <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Guides</a></span>
+  <div class="lang-toggle">
+  <button class="lang-btn on" id="bk" onclick="L('ko')">KR</button>
+  <button class="lang-btn" id="be" onclick="L('en')">EN</button>
+  </div>
+</div></nav>
+<div class="wrap">
+  <div class="bc"><a href="/"><span class="ko">홈</span><span class="en">Home</span></a> › <a href="/blog/"><span class="ko">가이드</span><span class="en">Guides</span></a> › <span class="ko">200주 이동평균선</span><span class="en">200-Week MA</span></div>
+
+  <h1 class="ko">200주 이동평균선 완벽 가이드<br>비트코인 사이클 저점의 마지노선</h1>
+  <h1 class="en">200-Week Moving Average Guide<br>Bitcoin's Cycle-Bottom Backstop</h1>
+  <div class="meta">
+    <span>📅 2026.07.03</span>
+    <span class="ko">⏱ 약 6분 · 🏷 기술적 지표</span>
+    <span class="en">⏱ ~6 min · 🏷 TECHNICAL INDICATOR</span>
+  </div>
+
+
+  <p class="ko">비트코인 역사상 지난 세 번의 약세장 모두, 가격이 <strong>200주 이동평균선(200-Week Moving Average, 200WMA)</strong> 근처 또는 그 아래에서 최종 저점을 형성했습니다. 단순하지만 놀라울 정도로 신뢰도 높은 이 지표는 "마지노선" 역할을 해왔습니다.</p>
+  <p class="en">In all three of Bitcoin's past bear markets, price bottomed near or just below the <strong>200-week moving average (200WMA)</strong>. Simple as it sounds, this indicator has served as a remarkably reliable "line in the sand."</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> 200WMA는 최근 200주(약 3.8년)간의 종가 평균입니다. 가격이 이 선을 하회하는 기간은 역사적으로 짧고 드물었으며, 하회한 시점 자체가 극단적 저평가 구간과 거의 일치했습니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> The 200WMA averages closing prices over the last 200 weeks (~3.8 years). Periods where price traded below it have historically been brief and rare — and closely aligned with extreme undervaluation.</div>
+
+  <h2 class="ko">왜 200주인가?</h2>
+  <h2 class="en">Why 200 Weeks?</h2>
+  <p class="ko">200주는 약 3.8년으로, 비트코인의 반감기 사이클(약 4년)과 거의 일치합니다. 이 때문에 200WMA는 단기 노이즈를 걸러내면서도 사이클 전체의 장기 추세를 보여주는 균형점 역할을 합니다.</p>
+  <p class="en">200 weeks is roughly 3.8 years — nearly matching Bitcoin's ~4-year halving cycle. This makes the 200WMA a balance point: it filters out short-term noise while still capturing the full cycle's long-term trend.</p>
+
+  <h2 class="ko">역사적 사례</h2>
+  <h2 class="en">Historical Cases</h2>
+  <div class="rc">
+    <div class="rd">2015.01</div>
+    <div class="rt ko">$150대에서 200WMA를 살짝 하회, 이후 빠르게 재돌파.</div>
+    <div class="rt en">Price briefly dipped below the 200WMA near $150 before quickly reclaiming it.</div>
+    <div class="rr ko">→ 이후 2017년 $20,000까지 약 130배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~130x to $20,000 by 2017</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2018.12 – 2019.02</div>
+    <div class="rt ko">$3,200 바닥이 200WMA 부근에서 정확히 지지됨.</div>
+    <div class="rt en">The $3,200 bottom found support almost exactly at the 200WMA.</div>
+    <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
+  </div>
+  <div class="rc">
+    <div class="rd">2022.11 (FTX 붕괴)</div>
+    <div class="rt ko">$15,500까지 하락하며 200WMA를 짧게 하회, 역대급 저평가 구간 확인.</div>
+    <div class="rt en">Price briefly fell below the 200WMA near $15,500, confirming a historically deep undervaluation zone.</div>
+    <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
+    <div class="rr en">→ Bitcoin rose ~8x to $126,000 by 2025</div>
+  </div>
+
+  <h2 class="ko">주의할 점</h2>
+  <h2 class="en">Important Caveats</h2>
+  <ul class="ko">
+    <li><strong>후행 지표.</strong> 200주 평균이므로 가격 급변을 즉각 반영하지 못하고 서서히 따라갑니다.</li>
+    <li><strong>사이클이 성숙할수록 괴리 축소 가능.</strong> 시가총액이 커질수록 진폭이 줄어들며 200WMA와의 거리도 좁아지는 추세입니다.</li>
+    <li><strong>단독 매매 신호로는 부족.</strong> 정확한 저점 타이밍이 아니라 "장기적으로 싼 구간"을 알려주는 용도로 적합합니다.</li>
+  </ul>
+  <ul class="en">
+    <li><strong>Lagging by nature.</strong> As a 200-week average, it moves slowly and doesn't immediately reflect sharp price swings.</li>
+    <li><strong>Gap may narrow as the market matures.</strong> As market cap grows, volatility tends to shrink, narrowing the distance to the 200WMA over time.</li>
+    <li><strong>Not a precise standalone signal.</strong> Better used to identify "cheap on a long-term basis" than to pinpoint an exact bottom.</li>
+  </ul>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 온체인 밸류에이션까지 저평가인지 교차 확인</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료 시점과 겹치는지 확인</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score below 0</a>:</strong> Cross-check whether on-chain valuation is also undervalued</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> Check whether it coincides with the end of miner capitulation</li>
+  </ul>
+
+
+  <div class="cta">
+    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
+    <h3 class="en">Check This Indicator Live Now</h3>
+    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
+    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
+    <a href="/" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="/?lang=en" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
+  </div>
+</div>
+<footer>© 2026 BTCtiming.com · <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span>.</footer>
+<script>
+function L(l){document.getElementById('hr').lang=l;document.getElementById('bk').className='lang-btn'+(l==='ko'?' on':'');document.getElementById('be').className='lang-btn'+(l==='en'?' on':'');try{localStorage.setItem('blogLang',l);}catch(e){}}
+function getBlogLang(){
+  try{const p=new URLSearchParams(location.search).get('lang');if(p)return p;}catch(e){}
+  try{return localStorage.getItem('blogLang')||localStorage.getItem('lang')||'ko';}catch(e){}return'ko';
+}
+if(getBlogLang()==='en')L('en');
+</script>
+</body>
+</html>
