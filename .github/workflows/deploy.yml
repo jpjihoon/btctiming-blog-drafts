@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'blog/**'
+      - '**.php'
+      - '**.html'
 
 jobs:
   deploy:
@@ -13,14 +14,18 @@ jobs:
       - name: 레포 체크아웃
         uses: actions/checkout@v4
 
-      - name: FTP로 blog 폴더만 업로드
+      - name: FTP로 업로드
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./blog/
+          local-dir: ./
           server-dir: /www/blog/
           dangerous-clean-slate: false
           log-level: verbose
           state-name: .ftp-deploy-sync-state.json
+          exclude: |
+            **/.github/**
+            **/.git/**
+            **/README.md
