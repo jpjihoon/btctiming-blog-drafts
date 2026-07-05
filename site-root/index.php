@@ -530,16 +530,18 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 
 .hist-tab{font-size:10px;padding:3px 10px;border-radius:5px;cursor:pointer;color:var(--t3);border:1px solid transparent;transition:all .15s}
 .hist-tab.active{background:var(--bg3);color:var(--t1);border-color:var(--b2)}
-/* 거래소 제휴 배너 */
-.exch-banner{display:flex;align-items:center;gap:12px;text-decoration:none;background:var(--bg2);border:1px solid var(--b1);border-radius:14px;padding:13px 15px;margin:12px 0;position:relative;overflow:hidden;transition:border-color .2s,background .2s}
-.exch-banner::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(240,185,11,.10),rgba(251,146,60,.05) 55%,transparent);pointer-events:none}
-.exch-banner:hover{border-color:rgba(240,185,11,.4);background:var(--bg3)}
+/* 거래소 제휴 배너 — 눈에 띄는 골드 톤 */
+.exch-banner{display:flex;align-items:center;gap:12px;text-decoration:none;background:linear-gradient(135deg,rgba(240,185,11,.16),rgba(251,146,60,.12));border:1px solid rgba(240,185,11,.45);border-radius:14px;padding:14px 15px;margin:12px 0;position:relative;overflow:hidden;box-shadow:0 0 0 rgba(240,185,11,.4);animation:exchGlow 2.6s ease-in-out infinite;transition:transform .1s}
+@keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(240,185,11,.0)}50%{box-shadow:0 0 16px 1px rgba(240,185,11,.22)}}
+.exch-banner::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.13),transparent);transform:skewX(-18deg);animation:exchShine 3.6s ease-in-out infinite}
+@keyframes exchShine{0%{left:-60%}45%,100%{left:130%}}
+.exch-banner:hover{border-color:rgba(240,185,11,.7)}
 .exch-banner:active{transform:scale(.99)}
-.exch-banner-ic{font-size:22px;flex-shrink:0;position:relative;z-index:1}
+.exch-banner-ic{font-size:23px;flex-shrink:0;position:relative;z-index:1}
 .exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0;position:relative;z-index:1}
-.exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
-.exch-banner-tx span{font-size:11px;color:var(--t2)}
-.exch-banner-ar{color:var(--yellow);font-weight:400;font-size:22px;flex-shrink:0;position:relative;z-index:1;line-height:1}
+.exch-banner-tx b{font-size:13px;color:#fff;font-weight:800;letter-spacing:-.2px}
+.exch-banner-tx span{font-size:11px;color:rgba(255,255,255,.72)}
+.exch-banner-ar{color:var(--yellow);font-weight:700;font-size:20px;flex-shrink:0;position:relative;z-index:1;line-height:1}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
 </style>
 </head>
@@ -763,8 +765,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
     </div>
 
     <!-- Exchange referral banner → 전용 비교 페이지로 이동 (data-i로 언어 즉시 전환) -->
-    <a href="/exchanges.php<?= h(langSuffix($lang)) ?>" class="exch-banner">
-      <span class="exch-banner-ic">📊</span>
+    <a href="/exchanges.php<?= h(langSuffix($lang)) ?>" class="exch-banner" id="exchBanner">
+      <span class="exch-banner-ic">🎁</span>
       <span class="exch-banner-tx">
         <b data-i="exchBannerT">Which exchange to start with?</b>
         <span data-i="exchBannerD">Compare Binance &amp; Bybit + fee discount</span>

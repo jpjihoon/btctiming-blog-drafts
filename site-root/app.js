@@ -387,53 +387,59 @@ function initChart() {
     return;
   }
 
-  wrap.innerHTML = '';
-  // 매번 새 내부 컨테이너를 만들어 위젯을 붙임 (같은 id 재사용 시 위젯이 갱신 안 되는 문제 방지)
-  const inner = document.createElement('div');
-  inner.id = 'tvChartInner';
-  inner.style.cssText = 'width:100%;height:100%';
-  wrap.appendChild(inner);
-  try {
-    tvWidget = new TradingView.widget({
-      container_id: 'tvChartInner',
-      symbol: sym,
-      interval: chartInterval,     // 저장된 봉으로 시작
-      autosize: true,
-      theme: 'dark',
-      style: '1',
-      locale: 'en',
-      toolbar_bg: '#0f0f0f',
-      hide_top_toolbar: false,
-      hide_legend: false,
-      studies: ['MAExp@tv-basicstudies'],
-      backgroundColor: '#0f0f0f',
-      allow_symbol_change: false
-    });
-    // 위젯 준비되면, 사용자가 봉을 바꿀 때마다 저장 (다음 코인 전환·재방문에 유지)
-    if(tvWidget && tvWidget.onChartReady) {
-      tvWidget.onChartReady(function(){
-        try {
-          const chart = tvWidget.chart ? tvWidget.chart() : (tvWidget.activeChart && tvWidget.activeChart());
-          if(chart && chart.onIntervalChanged) {
-            chart.onIntervalChanged().subscribe(null, function(iv){
-              chartInterval = iv;
-              try { localStorage.setItem('chartInterval', iv); } catch(e){}
-            });
-          }
-        } catch(e){}
+  // 이전 위젯이 있으면, 그 위젯이 현재 보고 있던 봉을 읽어서 저장 (사용자가 위젯 안에서 바꾼 봉 유지)
+  const buildNew = function(){
+    wrap.innerHTML = '';
+    const inner = document.createElement('div');
+    inner.id = 'tvChartInner';
+    inner.style.cssText = 'width:100%;height:100%';
+    wrap.appendChild(inner);
+    try {
+      tvWidget = new TradingView.widget({
+        container_id: 'tvChartInner',
+        symbol: sym,
+        interval: chartInterval,     // 저장된 봉으로 시작
+        autosize: true,
+        theme: 'dark',
+        style: '1',
+        locale: 'en',
+        toolbar_bg: '#0f0f0f',
+        hide_top_toolbar: false,
+        hide_legend: false,
+        studies: ['MAExp@tv-basicstudies'],
+        backgroundColor: '#0f0f0f',
+        allow_symbol_change: false
       });
+    } catch(e) {
+      const iframe = document.createElement('iframe');
+      iframe.style.cssText = 'width:100%;height:100%;border:none';
+      iframe.src = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_widget&symbol='
+        + encodeURIComponent(sym) + '&interval=' + encodeURIComponent(chartInterval)
+        + '&theme=dark&style=1&locale=en&toolbar_bg=%230f0f0f&hide_top_toolbar=0'
+        + '&studies=MAExp%40tv-basicstudies&backgroundColor=%230f0f0f';
+      iframe.setAttribute('allowtransparency','true');
+      iframe.setAttribute('allowfullscreen','true');
+      wrap.appendChild(iframe);
     }
-  } catch(e) {
-    // 위젯 실패 시 기존 iframe 방식으로 폴백
-    const iframe = document.createElement('iframe');
-    iframe.style.cssText = 'width:100%;height:100%;border:none';
-    iframe.src = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_widget&symbol='
-      + encodeURIComponent(sym) + '&interval=' + encodeURIComponent(chartInterval)
-      + '&theme=dark&style=1&locale=en&toolbar_bg=%230f0f0f&hide_top_toolbar=0'
-      + '&studies=MAExp%40tv-basicstudies&backgroundColor=%230f0f0f';
-    iframe.setAttribute('allowtransparency','true');
-    iframe.setAttribute('allowfullscreen','true');
-    wrap.appendChild(iframe);
+  };
+
+  // 기존 위젯에서 현재 봉을 읽어 저장한 뒤 새로 생성 (getSymbolInfo는 무료 위젯에서 interval 제공)
+  if(tvWidget && typeof tvWidget.getSymbolInfo === 'function') {
+    let done = false;
+    const proceed = function(){ if(done) return; done = true; buildNew(); };
+    try {
+      tvWidget.getSymbolInfo(function(info){
+        if(info && info.interval){
+          chartInterval = info.interval;
+          try { localStorage.setItem('chartInterval', info.interval); } catch(e){}
+        }
+        proceed();
+      });
+      // 콜백이 안 오면 250ms 후 강제 진행 (안전장치)
+      setTimeout(proceed, 250);
+    } catch(e) { proceed(); }
+  } else {
+    buildNew();
   }
 }
 function _initChart_unused_old() {
@@ -2354,6 +2360,9 @@ function applyStaticI18n() {
   // 온보딩 안내가 표시 중이면 현재 언어·모드에 맞게 문구 갱신
   const _tip = document.getElementById('onboardTip');
   if(_tip && _tip.style.display !== 'none' && typeof renderOnboardText === 'function') renderOnboardText();
+  // 거래소 배너 링크도 현재 언어를 따라가게 (한국어는 접미사 없음)
+  const _bn = document.getElementById('exchBanner');
+  if(_bn){ _bn.setAttribute('href', '/exchanges.php' + (currentLang && currentLang!=='ko' ? ('?lang='+currentLang) : '')); }
 }
 // ═══════════════════════════════════════════════════════
 // LIVE CHAT (Firebase Realtime Database)
