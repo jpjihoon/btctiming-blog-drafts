@@ -1998,8 +1998,9 @@ function saveHistoryToServer(coin, modeKey, t, score) {
   if(!ensureHistoryDB()) return;
   const path = `scoreHistory/${coin}_${modeKey}`;
   chatDB.ref(path).push({t, s: parseFloat(score.toFixed(2))}).then(() => {
+    console.log('[history] saved to server:', path, score);
     pruneOldHistory(path);
-  }).catch(e => console.error('[history] save failed:', e));
+  }).catch(e => console.error('[history] save FAILED (DB 규칙/권한 확인 필요):', e && e.message ? e.message : e));
 }
 
 // 서버 히스토리도 일정 개수 넘으면 오래된 것부터 삭제 (코인당 최대 2000개)
@@ -2039,9 +2040,9 @@ function drawHistory() {
   const modeKey0 = currentMode === 'buy' ? 'long' : 'short';
   const loadKey = `${currentCoin}_${modeKey0}`;
   if(!serverHistoryLoaded[loadKey]) {
-    serverHistoryLoaded[loadKey] = true; // 중복 요청 방지
     loadHistoryFromServer(currentCoin, modeKey0, (serverPoints) => {
       if(serverPoints && serverPoints.length > 0) {
+        serverHistoryLoaded[loadKey] = true; // 성공적으로 받았을 때만 로드완료 처리 (실패 시 다음 렌더에서 재시도)
         // 서버 데이터를 로컬과 병합 (서버가 더 풍부하면 우선)
         const localKey = `history_${currentCoin}_${modeKey0}`;
         let local = [];
