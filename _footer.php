@@ -54,7 +54,7 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 
 <?php // ── 이전 글 / 다음 글 바로가기 ── ?>
 <?php if ($prevSlug || $nextSlug): ?>
-<nav class="prevnext">
+<div class="prevnext">
   <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; ?>
     <a class="pn-link pn-prev" href="/blog/<?= h($prevSlug) ?>.php<?= h($blogSuffix) ?>">
       <span class="pn-dir"><span class="ko">← 이전 글</span><span class="en">← Previous</span><span class="ja">← 前の記事</span><span class="es">← Anterior</span><span class="de">← Zurück</span></span>
@@ -67,7 +67,7 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
       <span class="pn-title"><span class="ko"><?= h($nA['title_ko'] ?? '') ?></span><span class="en"><?= h($nA['title_en'] ?? '') ?></span><span class="ja"><?= h($nA['title_ja'] ?? ($nA['title_en'] ?? '')) ?></span><span class="es"><?= h($nA['title_es'] ?? ($nA['title_en'] ?? '')) ?></span><span class="de"><?= h($nA['title_de'] ?? ($nA['title_en'] ?? '')) ?></span></span>
     </a>
   <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
-</nav>
+</div>
 <?php endif; ?>
 
 <?php // ── 추천: 같은 카테고리 ── ?>
