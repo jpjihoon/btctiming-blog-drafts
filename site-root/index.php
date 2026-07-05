@@ -1884,9 +1884,9 @@ function renderAll(ind) {
     }).join('');
   }
 
-  // Timestamp — 브라우저 로컬시간 대신, 언어별로 명시적인 시간대(ko→KST, ja→JST, en→UTC, es/de→CET·CEST)를 강제 지정
+  // Timestamp
   document.getElementById('tsLabel').textContent=
-    `${T('updated')} ${formatNowInLangTZ(currentLang)}`;
+    `${T('updated')} ${new Date().toLocaleString(SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})}`;
 
   // History
   saveHistory(sc);
@@ -3330,6 +3330,43 @@ function loadInsightWidget() {
 }
 
 /** 카드들을 지정된 컨테이너에 렌더링하는 공통 헬퍼 */
+/** 주어진 UTC 시점의 특정 타임존 오프셋(분) — CET(+60)/CEST(+120) 판별용 */
+function tzOffsetMin(instant, tz) {
+  const p = new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23',
+    year:'numeric', month:'2-digit', day:'2-digit',
+    hour:'2-digit', minute:'2-digit', second:'2-digit' })
+    .formatToParts(instant).reduce((o,x)=>(o[x.type]=x.value,o),{});
+  const asUTC = Date.UTC(+p.year, +p.month-1, +p.day, +p.hour, +p.minute, +p.second);
+  return Math.round((asUTC - instant.getTime()) / 60000);
+}
+
+/**
+ * 저장된 date(항상 KST 기준, "YYYY-MM-DD HH:mm:ss")를 현재 언어의 타임존으로 변환해
+ * "YYYY.MM.DD HH:mm 라벨" 형태로 반환. 블로그 상세 표기 규칙과 동일하게 맞춤:
+ *   ko→KST, ja→JST, en→UTC, es·de→CET/CEST(서머타임 자동 판별)
+ */
+function formatBlogCardDate(dateStr, lang) {
+  if(!dateStr) return '';
+  const m = String(dateStr).match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
+  if(!m) return String(dateStr).replaceAll('-', '.'); // 형식이 다르면 안전하게 원본 표시
+  // KST(UTC+9) 기준 문자열 → UTC epoch로 정규화 (브라우저 로컬 타임존에 의존하지 않음)
+  const instant = new Date(Date.UTC(+m[1], +m[2]-1, +m[3], +m[4]-9, +m[5]));
+  const CONF = {
+    ko: { tz:'Asia/Seoul',    label:'KST' },
+    ja: { tz:'Asia/Tokyo',    label:'JST' },
+    en: { tz:'UTC',           label:'UTC' },
+    es: { tz:'Europe/Madrid', label:null },
+    de: { tz:'Europe/Berlin', label:null },
+  };
+  const c = CONF[lang] || CONF.en;
+  const p = new Intl.DateTimeFormat('en-CA', { timeZone: c.tz, hourCycle: 'h23',
+    year:'numeric', month:'2-digit', day:'2-digit',
+    hour:'2-digit', minute:'2-digit' })
+    .formatToParts(instant).reduce((o,x)=>(o[x.type]=x.value,o),{});
+  const label = c.label || (tzOffsetMin(instant, c.tz) >= 120 ? 'CEST' : 'CET');
+  return `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute} ${label}`;
+}
+
 function renderInsightCards(containerId, articles, ko, suffix) {
   const grid = document.getElementById(containerId);
   if(!grid || !articles.length) return;
@@ -3341,58 +3378,10 @@ function renderInsightCards(containerId, articles, ko, suffix) {
       <div class="insight-body">
         <div class="insight-cat">${cat}</div>
         <div class="insight-title">${title}</div>
-        <div class="insight-date">${formatInsightDate(a.date, currentLang)}</div>
+        <div class="insight-date">${formatBlogCardDate(a.date, currentLang)}</div>
       </div>
     </a>`;
   }).join('');
-}
-
-/**
- * feed.php가 주는 date 문자열(예: "2026-07-05 14:30:00")은 항상 KST(한국시간) 기준으로 저장돼 있음.
- * 현재 언어에 맞는 시간대로 환산해서 라벨과 함께 보여줌 (ko→KST, ja→JST, en→UTC, es/de→CET/CEST 자동).
- * — 이렇게 해야 어느 언어로 보든 "이게 무슨 시간대인지" 헷갈리지 않음.
- */
-function formatInsightDate(dateStr, lang) {
-  if(!dateStr) return '';
-  const m = String(dateStr).match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
-  if(!m) return String(dateStr).replaceAll('-', '.'); // 형식이 다르면 예전처럼 안전하게 표시
-  const y = Number(m[1]), mo = Number(m[2]), d = Number(m[3]), h = Number(m[4]), mi = Number(m[5]);
-  const kstEpoch = Date.UTC(y, mo - 1, d, h - 9, mi); // KST → UTC epoch로 정규화
-  return formatEpochInLangTZ(kstEpoch, lang);
-}
-
-/**
- * "지금 이 순간"(new Date())을 언어별 명시적 시간대로 표시.
- * tsLabel(실시간 데이터 갱신 시각)처럼 저장된 날짜 문자열이 아니라 실시간 현재시각을 다룰 때 사용.
- * 브라우저의 toLocaleString 기본 동작(방문자 로컬시간)에 의존하지 않고, 항상 UI 언어에 맞는
- * 시간대를 명시적으로 강제 지정함 — 그래야 한국에서 접속하든 해외에서 접속하든 언어를 en으로
- * 바꾸면 항상 UTC로, ja면 항상 JST로 일관되게 보임.
- */
-function formatNowInLangTZ(lang) {
-  return formatEpochInLangTZ(Date.now(), lang);
-}
-
-/** epoch(ms) 하나를 받아 언어별 시간대 문자열로 포맷하는 공통 로직 (formatInsightDate/formatNowInLangTZ가 공유) */
-function formatEpochInLangTZ(epochMs, lang) {
-  const TZ_BY_LANG = { ko: 'Asia/Seoul', ja: 'Asia/Tokyo', en: 'UTC', es: 'Europe/Madrid', de: 'Europe/Berlin' };
-  const tz = TZ_BY_LANG[lang] || 'UTC';
-  const dt = new Date(epochMs);
-
-  const parts = new Intl.DateTimeFormat('en-CA', {
-    timeZone: tz, hourCycle: 'h23',
-    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
-  }).formatToParts(dt).reduce((acc, x) => (acc[x.type] = x.value, acc), {});
-
-  let label;
-  if (tz === 'Asia/Seoul') label = 'KST';
-  else if (tz === 'Asia/Tokyo') label = 'JST';
-  else if (tz === 'UTC') label = 'UTC';
-  else {
-    const asUTC = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), Number(parts.hour), Number(parts.minute));
-    const offsetMin = Math.round((asUTC - dt.getTime()) / 60000);
-    label = offsetMin === 120 ? 'CEST' : 'CET';
-  }
-  return `${parts.year}.${parts.month}.${parts.day} ${parts.hour}:${parts.minute} ${label}`;
 }
 
 function updateInsightMoreButton() {
