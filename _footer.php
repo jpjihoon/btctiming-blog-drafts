@@ -163,7 +163,7 @@ function applySavedLang() {
 applySavedLang(); // 최초 로드
 // 뒤로가기/앞으로가기로 bfcache에서 복원될 때는 이 스크립트가 재실행되지 않으므로,
 // pageshow(persisted)에서 저장된 언어를 다시 적용해야 언어 설정이 유지됨.
-window.addEventListener('pageshow', function(e){ if(e.persisted) applySavedLang(); });
+window.addEventListener('pageshow', function(e){ applySavedLang(); });
 </script>
 </body>
 </html>

@@ -333,10 +333,13 @@ document.addEventListener('click', (e) => {
 //  localStorage의 ja를 덮어써 EN으로 되돌아가는 버그가 있었음)
 function restoreBlogLang() {
   try {
+    const VALID = ['ko','en','ja','es','de'];
     const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
     const urlLang = new URLSearchParams(location.search).get('lang');
-    const pick = [ 'en','ja','es','de' ].includes(stored) ? stored
-               : ['en','ja','es','de'].includes(urlLang) ? urlLang : 'ko';
+    // 저장된 값(사용자의 마지막 명시적 선택)이 유효하면 ko 포함 무조건 우선.
+    // 저장값이 없을 때만 URL을, 그것도 없으면 ko.
+    const pick = VALID.includes(stored) ? stored
+               : VALID.includes(urlLang) ? urlLang : 'ko';
     if(pick !== document.getElementById('html-root').lang) setLang(pick);
   } catch(e){}
 }
