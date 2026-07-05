@@ -1124,11 +1124,14 @@ function updateTickerFromAPI(data) {
   if(data.vol24h)  set('tkVol',  (data.vol24h/1e9).toFixed(1)+'B');
   // 서버가 내려주는 usdt_krw/usdt_chg는 원화 전용 값이라, 한국어 모드일 때만 사용.
   // 다른 언어에서는 loadTicker()가 언어에 맞는 통화(USD/JPY/EUR 등)로 이미 채워둔 값을 덮어쓰지 않음.
+  // 원화(KRW)일 때만 업비트 정밀값으로 덮음. 단, 업비트가 이상값을 주면(파싱 실패·레이트리밋 등)
+  // loadTicker가 채운 환율 기반 USDT 값을 유지 → "161" 같은 깨진 숫자가 표시되지 않도록 방어.
   if(currentLang === 'ko') {
-    if(data.usdt_krw != null && data.usdt_krw > 0) {
-      set('tkUsdtKrw', Number(data.usdt_krw).toLocaleString('ko'));
+    const v = Number(data.usdt_krw);
+    if(v >= 500 && v <= 3000) { // USDT/KRW 정상 범위 가드
+      set('tkUsdtKrw', v.toLocaleString('ko', {maximumFractionDigits:1}));
+      if(data.usdt_chg != null) setChg('tkUsdtKrwChg', data.usdt_chg);
     }
-    if(data.usdt_chg != null) setChg('tkUsdtKrwChg', data.usdt_chg);
   }
 }
 
@@ -1151,21 +1154,25 @@ async function loadTicker() {
   if(l1) l1.textContent = `USD/${cur}`;
   if(l2) l2.textContent = `USDT/${cur}`;
 
-  // USD/{통화} 환율만 fetch (exchangerate-api, CORS 허용). 죽은 CORS 프록시(corsproxy/thingproxy)는 제거.
-  // USDT/{통화}: USDT는 사실상 USD와 1:1 페그이므로 USD/{통화} 환율을 그대로 사용 → 별도 프록시 불필요.
-  //   (원화 KRW의 정밀 USDT 시세·김치프리미엄은 별도로 api.php의 업비트 값을 updateTickerFromAPI에서 채움)
+  // USD/{통화} 환율 fetch (exchangerate-api, CORS 허용).
   const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
     .then(r=>r.json()).catch(()=>null);
 
   const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
   const rate = (cur === 'USD') ? 1 : r1?.rates?.[cur];
   if(rate != null) {
+    // USD/{통화}
     const el1 = document.getElementById('tkUsdKrw');
-    if(el1) el1.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 1 : 2});
-    // 원화는 updateTickerFromAPI(업비트)가 더 정확한 값으로 덮으므로 여기선 KRW 외 통화만 채움
+    if(el1) el1.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='JPY'||cur==='KRW') ? 1 : 2});
+    // USDT/{통화}: USDT는 USD에 1:1 페그이므로 USD/{통화} 환율을 기본값으로 사용.
+    //   원화도 여기서 환율 기반값을 먼저 넣어두고, 업비트가 정상이면 updateTickerFromAPI가 정밀값으로 덮음.
+    //   (업비트 실패 시에도 최소한 환율 기반의 온전한 USDT/KRW가 남음)
+    const el2 = document.getElementById('tkUsdtKrw');
+    if(el2) el2.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='JPY') ? 0 : (cur==='KRW' ? 1 : 2)});
     if(cur !== 'KRW') {
-      const el2 = document.getElementById('tkUsdtKrw');
-      if(el2) el2.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY' ? 0 : 3});
+      // 페그가 1이라 별도 변화율이 없으므로 KRW 외에는 변화% 비움
+      const chg2 = document.getElementById('tkUsdtKrwChg');
+      if(chg2) chg2.textContent = '';
     }
   }
 }
