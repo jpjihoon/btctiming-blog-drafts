@@ -1,0 +1,2671 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BTCtiming">
+<meta name="theme-color" content="#080808">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzAiIGZpbGw9IiMwYTBhMGEiIHN0cm9rZT0iIzJhMmEyYSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8IS0tIGdhdWdlIGFyYzogcmVkIC0+IHllbGxvdyAtPiBncmVlbiwgc2VtaWNpcmNsZSBvdmVyIHRoZSB0b3AgLS0+CiAgPHBhdGggZD0iTTEwLDQyIEEyMiwyMiAwIDAgMSAyMSwyMi45NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjg3MTcxIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0yMSwyMi45NSBBMjIsMjIgMCAwIDEgNDMsMjIuOTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZiYmYyNCIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNNDMsMjIuOTUgQTIyLDIyIDAgMCAxIDU0LDQyIiBmaWxsPSJub25lIiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPCEtLSBuZWVkbGUgcG9pbnRpbmcgaW50byB0aGUgZ3JlZW4gem9uZSAtLT4KICA8bGluZSB4MT0iMzIiIHkxPSI0MiIgeDI9IjQ2IiB5Mj0iMjYiIHN0cm9rZT0iI2Y1ZjVmNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjQyIiByPSI0IiBmaWxsPSIjZjVmNWY1Ii8+Cjwvc3ZnPgo=">
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<!-- Title (BTC price injected dynamically) -->
+<title id="pageTitle">비트코인 매수 매도 타이밍 | BTCtiming.com — 온체인 지표 실시간 분석</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="비트코인·이더리움 등 주요 코인의 롱/숏 진입 타이밍을 온체인 지표로 분석합니다. MVRV Z-Score, NUPL, STH-SOPR, Hash Ribbon, 코인베이스 프리미엄 등 13개 지표를 종합한 실시간 매수·매도 신호 — 한국 투자자를 위한 비트코인 타이밍 도구.">
+<meta name="keywords" content="비트코인 매수 타이밍, 비트코인 매도 타이밍, 코인 매수 시점, 비트코인 저점, 비트코인 고점, 온체인 지표, MVRV, NUPL, SOPR, 해시리본, 코인베이스 프리미엄, 롱숏 타이밍, 알트코인 타이밍, 이더리움 매수 타이밍, crypto entry signal, bitcoin on-chain indicator">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="BTCtiming.com">
+<meta name="language" content="Korean">
+<link rel="canonical" href="https://btctiming.com/">
+
+<!-- Open Graph (Facebook, KakaoTalk 등 — 한국 메신저 공유 미리보기에 필수) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="비트코인 매수 매도 타이밍 분석 | BTCtiming.com">
+<meta property="og:description" content="MVRV, NUPL, STH-SOPR, Hash Ribbon 등 온체인 지표 13개로 비트코인·알트코인 롱/숏 타이밍을 실시간 분석합니다.">
+<meta property="og:image" content="https://btctiming.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="BTCtiming.com — 비트코인 롱/숏 진입 타이밍 분석">
+<meta property="og:url" content="https://btctiming.com/">
+<meta property="og:site_name" content="BTCtiming.com">
+<meta property="og:locale" content="ko_KR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="비트코인 매수 매도 타이밍 | BTCtiming.com">
+<meta name="twitter:description" content="온체인 지표 기반 비트코인 롱/숏 타이밍 실시간 분석.">
+<meta name="twitter:image" content="https://btctiming.com/og-image.png">
+
+<!-- 검색엔진 소유 확인 — 아래 코드는 각 콘솔에서 발급받은 값으로 교체 필요 -->
+<!-- 네이버 서치어드바이저: https://searchadvisor.naver.com -->
+<meta name="naver-site-verification" content="3424f0c456a2a94b6fd6307fb36a6b3c6564ce7f">
+<meta name="google-site-verification" content="ef5X4Dv1YgD5IDItze-lDpQn0zK9WDU3Q0gP3PDALpI">
+
+<!-- FAQ 구조화 데이터 — 구글 검색결과에 리치 스니펫(질문/답변 노출)용 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "비트코인 매수 타이밍을 어떻게 알 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BTCtiming.com은 MVRV Z-Score, NUPL, STH-SOPR, Hash Ribbon 등 13개 온체인 지표를 종합해 0~10점으로 매수 타이밍을 실시간 분석합니다. 6점 이상이면 분할 매수 시작, 8점 이상이면 강력 매수 신호입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "MVRV Z-Score란 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MVRV Z-Score는 비트코인의 시장가치(Market Value)와 실현가치(Realized Value)의 차이를 표준편차로 나눈 지표입니다. 0 이하면 역사적 저평가 구간, 3.5 이상이면 과열 구간으로 판단합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hash Ribbon 지표가 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hash Ribbon은 비트코인 채굴 해시레이트의 30일 이동평균이 60일 이동평균을 상향 돌파하는 시점을 포착하는 지표입니다. 역사적으로 2016년, 2018년, 2020년, 2022년 저점을 정확히 포착한 가장 신뢰도 높은 매수 선행 신호입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "비트코인 반감기 이후 언제 매수하는 게 좋나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "역사적으로 반감기 12~24개월 전이 최적 매수 구간이었습니다. 2015년(2016반감기 18개월 전), 2018년(2020반감기 17개월 전), 2022년(2024반감기 17개월 전) 모두 같은 패턴이었습니다. 다음 반감기는 2028년 4월로 현재 약 22개월 전 구간입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "코인베이스 프리미엄이란 무엇인가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "코인베이스 프리미엄은 코인베이스(미국)와 바이낸스의 비트코인 가격 차이를 비율로 나타낸 것입니다. 양수이면 미국 기관투자자들이 매수 중이라는 신호이며, ETF 유입 데이터보다 2~3일 앞서는 선행 지표입니다."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- 구조화 데이터 (검색결과 리치 노출용) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "BTCtiming.com",
+  "alternateName": "비트코인 타이밍",
+  "url": "https://btctiming.com/",
+  "description": "비트코인 및 주요 알트코인의 온체인 지표 기반 롱/숏 진입 타이밍 분석 도구. MVRV Z-Score, NUPL, STH-SOPR 등 13개 지표로 실시간 매수/매도 신호를 제공합니다.",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "inLanguage": "ko-KR",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" }
+}
+</script>
+
+<!-- AdSense -->
+<meta name="google-adsense-account" content="ca-pub-2639309536043953">
+<style>
+:root{
+  --bg:#080808;--bg2:#0f0f0f;--bg3:#151515;--bg4:#1a1a1a;
+  --b1:rgba(255,255,255,0.06);--b2:rgba(255,255,255,0.11);--b3:rgba(255,255,255,0.18);
+  --t1:#f0f0f0;--t2:#aaaaaa;--t3:#666666;--t4:#252525;
+  --green:#4ade80;--green2:#86efac;--green3:#bbf7d0;
+  --yellow:#fbbf24;--orange:#fb923c;--red:#f87171;--blue:#60a5fa;
+  --purple:#a78bfa;--pink:#f472b6;
+  --rad:12px;--rad-sm:8px;--rad-lg:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;min-height:100vh;overflow-x:hidden}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+
+/* ── NAV ── */
+nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
+.nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px;gap:12px}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px}
+.logo span{color:var(--yellow)}
+.coin-tabs{display:flex;gap:4px;overflow-x:auto;flex:1;scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch}
+.coin-tabs::-webkit-scrollbar{display:none}
+@media(max-width:600px){
+  .coin-tabs{display:none!important}
+  #coinDrop{display:block!important}
+}
+.coin-tab{flex-shrink:0;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
+.coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
+.nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
+.lang-toggle{display:flex;background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);overflow:hidden;flex-shrink:0}
+.lang-opt{border:none;background:transparent;color:var(--t2);font-size:11px;font-weight:600;padding:0 10px;height:34px;cursor:pointer;transition:all .15s;letter-spacing:.02em}
+.lang-opt.active{background:var(--orange);color:#000}
+.lang-opt:not(.active):hover{background:var(--bg4)}
+.nav-insight{height:34px;padding:0 11px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);
+  display:flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:var(--t2);text-decoration:none;
+  flex-shrink:0;transition:all .15s;white-space:nowrap}
+.nav-insight:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
+@media(max-width:520px){.nav-insight span{display:none}.nav-insight{padding:0 9px}}
+@media(max-width:400px){
+  .nav-inner{gap:6px;padding:0 10px}
+  .nav-r{gap:5px}
+  #liveTag{display:none}
+  .lang-opt{padding:0 8px}
+}
+.icon-btn:hover{background:var(--bg4);color:var(--t1)}
+.icon-btn.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
+#liveTag{font-size:9px;padding:2px 7px;border-radius:99px;border:1px solid rgba(74,222,128,.3);background:rgba(74,222,128,.08);color:var(--green);display:flex;align-items:center;gap:4px;white-space:nowrap}
+.live-dot{width:5px;height:5px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ── LAYOUT ── */
+.page-wrap{max-width:1280px;margin:0 auto;width:100%}
+.layout{display:grid;grid-template-columns:280px 1fr;gap:0;align-items:start}
+@media(max-width:900px){.layout{grid-template-columns:1fr}}
+.sidebar{background:var(--bg2);border-right:1px solid var(--b1);padding:16px;display:flex;flex-direction:column;gap:12px;align-self:start}
+@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--b1)}}
+.main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+
+/* ── SCORE CARD ── */
+.score-card{background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:18px;position:relative;overflow:hidden;z-index:1;flex-shrink:0}
+.score-card::before{content:'';position:absolute;z-index:0;inset:0;background:radial-gradient(ellipse at top left, rgba(251,191,36,.05) 0%, transparent 60%);pointer-events:none}
+.score-label{font-size:10px;color:var(--t3);letter-spacing:.06em;margin-bottom:4px}
+.score-num{font-size:64px;font-weight:800;line-height:1;letter-spacing:-3px}
+.score-den{font-size:18px;color:var(--t2);font-weight:400}
+.score-action{font-size:20px;font-weight:700;margin-top:8px}
+.score-sub{font-size:10px;color:var(--t3);margin-top:2px}
+.reach-bar{height:3px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden;margin-top:10px}
+.reach-fill{height:100%;border-radius:2px;transition:width .5s ease}
+.reach-pct{font-size:12px;font-weight:600;margin-top:4px}
+
+/* ── MODE TOGGLE ── */
+.mode-toggle{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--bg4);border-radius:var(--rad-sm);padding:3px;flex-shrink:0}
+.mode-btn{padding:7px;border-radius:6px;text-align:center;cursor:pointer;font-size:11px;font-weight:600;color:var(--t2);transition:all .15s}
+.mode-btn.active{background:var(--bg2);color:var(--t1)}
+.mode-btn.buy.active{color:var(--green)}
+.mode-btn.sell.active{color:var(--red)}
+
+/* ── MINI STATS ── */
+.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;flex-shrink:0}
+.mini-stat{background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:10px 12px}
+.mini-stat .lbl{font-size:9px;color:var(--t3);margin-bottom:3px}
+.mini-stat .val{font-size:20px;font-weight:600;line-height:1}
+.mini-stat .sub{font-size:9px;color:var(--t2);margin-top:2px}
+
+/* ── SPLIT PLAN ── */
+.split-plan{background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad)}
+.split-hd{padding:10px 14px;font-size:11px;font-weight:600;border-bottom:1px solid var(--b1)}
+.split-row{padding:9px 14px;border-bottom:1px solid rgba(255,255,255,.03);display:flex;flex-direction:column;gap:4px}
+.split-row:last-child{border-bottom:none}
+.split-top{display:flex;align-items:center;gap:8px}
+.step-now{font-size:9px;padding:2px 7px;border-radius:99px;background:rgba(74,222,128,.12);color:var(--green);border:1px solid rgba(74,222,128,.25);font-weight:600}
+.step-wait{font-size:9px;padding:2px 7px;border-radius:99px;background:var(--bg4);color:var(--t2);border:1px solid var(--b1);font-weight:600}
+.split-cond{font-size:12px;color:var(--t2)}
+.split-bot{display:flex;justify-content:space-between;font-size:11px}
+.split-usdt{font-weight:600}
+.split-btc{color:var(--yellow)}
+.split-price{color:var(--t3)}
+
+/* ── SECTION HDR ── */
+.sec-hd{font-size:10px;font-weight:600;color:var(--t3);letter-spacing:.1em;display:flex;align-items:center;gap:8px}
+.sec-hd::after{content:'';flex:1;height:1px;background:var(--b1)}
+.sec-tag{font-size:9px;padding:1px 6px;border-radius:4px;background:var(--blue);color:#000;font-weight:700;letter-spacing:.02em}
+
+/* ── CHART ── */
+.chart-wrap{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);overflow:hidden;height:420px}
+@media(max-width:600px){.chart-wrap{height:280px}}
+
+/* ── INDICATOR GRID ── */
+.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;align-items:start}
+@media(max-width:600px){.ind-grid{grid-template-columns:1fr 1fr}}
+.icard{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad);padding:13px 14px;cursor:pointer;transition:border-color .15s}
+.icard:hover{border-color:var(--b2)}
+.icard-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:5px}
+.icard-name{font-size:13px;font-weight:500;line-height:1.3}
+.icard-wt{font-size:9px;color:var(--t3);flex-shrink:0;margin-left:4px}
+.icard-score{display:flex;align-items:baseline;gap:3px;margin-bottom:4px}
+.icard-n{font-size:30px;font-weight:700;line-height:1}
+.icard-m{font-size:10px;color:var(--t3)}
+.ibar{height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-bottom:8px}
+.ibf{height:100%;border-radius:1px;transition:width .4s}
+.icard-vals{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.vbox{background:rgba(255,255,255,.03);border-radius:5px;padding:4px 6px}
+.vl{font-size:10px;color:var(--t3);margin-bottom:1px}
+.vv{font-size:12px;font-weight:500}
+.icard-note{font-size:9px;color:var(--t3);margin-top:6px;border-top:1px solid var(--b1);padding-top:5px;line-height:1.5;display:none}
+.icard.expanded .icard-note{display:block}
+.pill{display:inline-block;font-size:8px;padding:1px 5px;border-radius:99px;margin-left:3px;vertical-align:middle;font-weight:500}
+.p-g{background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2)}
+.p-y{background:rgba(251,191,36,.1);color:var(--yellow);border:1px solid rgba(251,191,36,.2)}
+.p-r{background:rgba(248,113,113,.1);color:var(--red);border:1px solid rgba(248,113,113,.2)}
+.p-o{background:rgba(251,146,60,.1);color:var(--orange);border:1px solid rgba(251,146,60,.2)}
+
+/* ── HISTORY CHART ── */
+.history-wrap{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:14px}
+.history-hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.history-title{font-size:12px;font-weight:600}
+.history-sub{font-size:10px;color:var(--t3)}
+#historyCanvas{width:100%;height:160px}
+
+/* ── BREAKDOWN ── */
+.bk{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:14px}
+.bk-hd{font-size:11px;font-weight:600;margin-bottom:10px;color:var(--t2)}
+.bk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:3px 14px}
+.bk-row{display:flex;justify-content:space-between;align-items:center;padding:3px 0;font-size:11px;border-bottom:1px solid rgba(255,255,255,.03)}
+.bk-n{color:var(--t2);font-size:12px}
+.bk-r{display:flex;align-items:center;gap:5px;font-weight:600}
+.mbar{width:28px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;display:inline-block;vertical-align:middle}
+.mfill{height:100%;border-radius:1px}
+.bk-tot{border-top:1px solid var(--b2);margin-top:10px;padding-top:10px;display:flex;justify-content:space-between;font-size:14px;font-weight:700}
+
+/* ── ACTION BAR ── */
+.abar{display:flex;border-radius:var(--rad-sm);overflow:hidden;height:36px}
+.aseg-item{display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;gap:1px;cursor:default;padding:5px 2px}
+
+/* ── TRIGGERS ── */
+.trig{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:14px}
+.trig-hd{font-size:11px;font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.trow{display:flex;gap:7px;font-size:12px;color:var(--t2);padding:5px 0;border-bottom:1px solid var(--b1);line-height:1.4}
+.trow:last-child{border-bottom:none}
+.tnum{font-weight:700;flex-shrink:0;width:14px}
+.trow.done .tnum{color:var(--green)}
+.trow.done{color:var(--green)}
+.trow.pending .tnum{color:var(--yellow)}
+
+/* ── MACRO ── */
+.macro-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.mc{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:9px 11px;display:flex;gap:8px;align-items:flex-start}
+.mdot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.mc-title{font-size:10px;font-weight:500;margin-bottom:1px}
+.mc-desc{font-size:9px;color:var(--t2);line-height:1.4}
+.sec-link{font-size:9px;padding:1px 6px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
+  font-weight:700;letter-spacing:.02em;text-decoration:none;margin-left:auto;transition:all .15s}
+.sec-link:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.insight-card{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:12px;
+  display:flex;gap:10px;align-items:flex-start;text-decoration:none;color:inherit;transition:all .15s}
+.insight-card:hover{border-color:var(--icard-accent,var(--orange));background:var(--bg3);text-decoration:none}
+.insight-icon{flex-shrink:0;width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  font-size:16px;background:var(--icard-accent-bg,rgba(247,147,26,.15))}
+.insight-body{min-width:0;flex:1}
+.insight-cat{font-size:8px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--icard-accent,var(--orange));margin-bottom:3px}
+.insight-title{font-size:11px;font-weight:600;color:var(--t1);line-height:1.4;margin-bottom:2px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.insight-date{font-size:9px;color:var(--t3)}
+
+/* ── NOTIFICATION MODAL ── */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:500;display:flex;align-items:center;justify-content:center;display:none}
+.modal-bg.open{display:flex}
+.modal{background:var(--bg2);border:1px solid var(--b2);border-radius:var(--rad-lg);padding:20px;width:min(360px,90vw);display:flex;flex-direction:column;gap:12px}
+.modal-hd{font-size:14px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.modal-close{cursor:pointer;color:var(--t2);font-size:18px;line-height:1}
+.alert-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--b1);font-size:12px}
+.alert-row:last-child{border-bottom:none}
+.alert-label{color:var(--t2)}
+.toggle{width:36px;height:20px;border-radius:10px;background:var(--bg4);border:1px solid var(--b2);cursor:pointer;position:relative;transition:background .2s}
+.toggle.on{background:var(--green)}
+.toggle::after{content:'';position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .2s}
+.toggle.on::after{transform:translateX(16px)}
+
+/* ── OVERLAY ── */
+#overlay{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:16px}
+.ov-logo{font-size:24px;font-weight:800;letter-spacing:-1px}
+.ov-logo span{color:var(--yellow)}
+.ov-spin{width:32px;height:32px;border:2px solid rgba(255,255,255,.08);border-top-color:var(--green);border-radius:50%;animation:rot .8s linear infinite}
+.ov-txt{font-size:12px;color:var(--t2)}
+@keyframes rot{to{transform:rotate(360deg)}}
+
+/* ── ERR ── */
+.err-bar{background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.2);border-radius:var(--rad-sm);padding:8px 12px;font-size:11px;color:var(--red);display:none}
+
+/* ── SELL MODE ── */
+body.sell-mode .score-card::before{background:radial-gradient(ellipse at top left, rgba(248,113,113,.05) 0%, transparent 60%)}
+
+/* ── SELL SIGNAL ── */
+.sell-signal{background:var(--bg3);border:1px solid rgba(248,113,113,.2);border-radius:var(--rad);padding:12px 14px;display:flex;gap:12px}
+.sell-sig-icon{font-size:20px;flex-shrink:0}
+.sell-sig-title{font-size:12px;font-weight:600;color:var(--red);margin-bottom:4px}
+.sell-sig-desc{font-size:10px;color:var(--t2);line-height:1.5}
+
+.hist-tab{font-size:10px;padding:3px 10px;border-radius:5px;cursor:pointer;color:var(--t3);border:1px solid transparent;transition:all .15s}
+.hist-tab.active{background:var(--bg3);color:var(--t1);border-color:var(--b2)}
+footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
+</style>
+</head>
+<body>
+
+<!-- Overlay -->
+<div id="overlay">
+  <div class="ov-logo">BTC<span>timing.com</span></div>
+  <div class="ov-spin"></div>
+  <div class="ov-txt" id="ovTxt">Fetching live data...</div>
+</div>
+
+<!-- Notification Modal -->
+<div class="modal-bg" id="notifModal" onclick="if(event.target===this)closeModal()">
+  <div class="modal" style="max-height:85vh;overflow-y:auto;width:min(420px,95vw)">
+    <div class="modal-hd">
+      🔔 <span data-i="alertTitle">Alert Settings</span>
+      <span class="modal-close" onclick="closeModal()">×</span>
+    </div>
+    <div style="font-size:10px;color:var(--t3);margin-bottom:10px;line-height:1.5" data-i="alertDesc">
+      Get a browser notification when the score crosses these thresholds.
+    </div>
+
+    <div style="font-size:10px;font-weight:600;color:var(--t2);margin:8px 0 6px" data-i="alertBuySection">📈 LONG TRIGGERS</div>
+    <div class="alert-row"><span class="alert-label" data-i="a2">Long Score ≥ 6.0 (Split Long)</span><div class="toggle on" id="a2" onclick="toggleAlert(this)"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="a3">Long Score ≥ 7.0 (Add Long)</span><div class="toggle on" id="a3" onclick="toggleAlert(this)"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="a4">Long Score ≥ 8.0 (Full Long)</span><div class="toggle on" id="a4" onclick="toggleAlert(this)"></div></div>
+
+    <div style="font-size:10px;font-weight:600;color:var(--t2);margin:12px 0 6px" data-i="alertSellSection">📉 SHORT TRIGGERS</div>
+    <div class="alert-row"><span class="alert-label" data-i="b1">Short Score ≥ 6.0 (Prepare Short)</span><div class="toggle" id="b1" onclick="toggleAlert(this)"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="b2">Short Score ≥ 7.0 (Add Short)</span><div class="toggle" id="b2" onclick="toggleAlert(this)"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="b3">Short Score ≥ 8.0 (Full Short)</span><div class="toggle" id="b3" onclick="toggleAlert(this)"></div></div>
+
+    <button onclick="requestNotif()" style="background:var(--green);color:#000;border:none;border-radius:var(--rad-sm);padding:9px;font-size:12px;font-weight:600;cursor:pointer;width:100%;margin-top:14px">
+      <span data-i="enableNotif">Enable Browser Notifications</span>
+    </button>
+    <div id="notifStatus" style="font-size:10px;color:var(--t3);text-align:center;margin-top:6px"></div>
+  </div>
+</div>
+
+<!-- Ticker Bar -->
+<div id="tickerBar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
+  <div style="max-width:1280px;margin:0 auto;padding:6px 16px;
+    font-size:11px;color:var(--t2);display:flex;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
+    <span>USD/KRW <b id="tkUsdKrw" style="color:var(--t1)">—</b> <span id="tkUsdKrwChg"></span></span>
+    <span>USDT/KRW <b id="tkUsdtKrw" style="color:var(--t1)">—</b> <span id="tkUsdtKrwChg"></span></span>
+    <span>BTC Dominance <b id="tkDom" style="color:var(--t1)">—</b> <span id="tkDomChg"></span></span>
+    <span>Market Cap <b id="tkMcap" style="color:var(--t1)">—</b></span>
+    <span>24h Volume <b id="tkVol" style="color:var(--t1)">—</b></span>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav>
+<div class="nav-inner">
+  <div class="logo">BTC<span>timing</span></div>
+  <!-- PC: 탭, 모바일: 드롭박스 -->
+  <div class="coin-tabs" id="coinTabs"></div>
+  <select id="coinDrop" onchange="switchCoin(this.value)"
+    style="display:none;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);
+    padding:5px 8px;border-radius:var(--rad-sm);font-size:13px;font-weight:600;cursor:pointer;flex-shrink:0;width:68px">
+  </select>
+  <div class="nav-r">
+    <div id="liveTag"><div class="live-dot"></div>LIVE</div>
+    <a href="/blog/" class="nav-insight" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
+    <div class="icon-btn" onclick="openModal()" title="Alerts">🔔</div>
+    <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" style="display:none">↻</div>
+    <div class="lang-toggle">
+      <button type="button" class="lang-opt active" id="langKo" onclick="setLang('ko')">KR</button>
+      <button type="button" class="lang-opt" id="langEn" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</div>
+</nav>
+
+<div class="page-wrap"><div class="layout">
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="err-bar" id="err"></div>
+
+    <!-- Score -->
+    <div class="score-card">
+      <div class="score-label" id="scoreLabel">ENTRY SCORE</div>
+      <div style="display:flex;align-items:baseline;gap:4px">
+        <span class="score-num" id="scoreNum">—</span>
+        <span class="score-den">/10</span>
+      </div>
+      <div class="reach-bar"><div class="reach-fill" id="reachBar" style="width:0%"></div></div>
+      <div class="reach-pct" id="reachPct">—</div>
+      <div class="score-action" id="scoreAction" style="font-size:18px;letter-spacing:.5px">—</div>
+      <div id="scoreDesc" style="font-size:10px;color:var(--t2);margin-top:4px;line-height:1.4">—</div>
+      <div class="score-sub" id="scoreSub">—</div>
+    </div>
+
+    <!-- Mode Toggle -->
+    <div class="mode-toggle">
+      <div class="mode-btn buy active" id="modeBuy" onclick="setMode('buy')">📈 LONG Timing</div>
+      <div class="mode-btn sell" id="modeSell" onclick="setMode('sell')">📉 SHORT</div>
+    </div>
+
+    <!-- Action Bar (동적 렌더링) -->
+    <div id="abar" style="border-radius:8px;overflow:hidden;margin-bottom:2px;flex-shrink:0"></div>
+
+    <!-- Mini Stats -->
+    <div class="mini-stats">
+      <div class="mini-stat">
+        <div class="lbl">Price · Binance</div>
+        <div class="val" id="mPrice">—</div>
+        <div class="sub" id="mPriceSub">—</div>
+      </div>
+      <div class="mini-stat">
+        <div class="lbl">Fear & Greed</div>
+        <div class="val" id="mFG">—</div>
+        <div class="sub" id="mFGLbl">—</div>
+      </div>
+      <div class="mini-stat">
+        <div class="lbl">Realized Price Gap</div>
+        <div class="val" id="mRP">—</div>
+        <div class="sub" id="mRPSub">—</div>
+      </div>
+      <div class="mini-stat">
+        <div class="lbl">200W MA Gap</div>
+        <div class="val" id="mMA">—</div>
+        <div class="sub" id="mMASub">—</div>
+      </div>
+    </div>
+
+    <!-- Position Guide (Long/Short 공통 위치) -->
+    <div id="sellPanel" style="display:none">
+      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sStatusTitle">📊 MARKET STATUS</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sStatusMain">—</div>
+        <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sStatusDesc">—</div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sGuideTitle">💡 SHORT GUIDE</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sGuideAction">—</div>
+        <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sGuideDesc">—</div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid rgba(74,222,128,.2);border-radius:var(--rad-sm);padding:13px 15px">
+        <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite"></div>
+          <div style="font-size:10px;color:var(--green);font-weight:600" id="sExitTitle">🎯 SHORT EXIT</div>
+        </div>
+        <div style="font-size:13px;font-weight:700;margin-bottom:4px" id="sExitSig">—</div>
+        <div style="font-size:11px;color:var(--t2);line-height:1.6;white-space:pre-line" id="sExitDesc">—</div>
+      </div>
+    </div>
+    <!-- LONG Guide Panel -->
+    <div id="longGuidePanel">
+      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lStatusTitle">📊 MARKET STATUS</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lStatusMain">—</div>
+        <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lStatusDesc">—</div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lGuideTitle">💡 LONG GUIDE</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lGuideAction">—</div>
+        <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lGuideDesc">—</div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid rgba(251,191,36,.2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+        <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
+          <div style="width:6px;height:6px;border-radius:50%;background:var(--yellow);animation:pulse 1.5s infinite"></div>
+          <div style="font-size:10px;color:var(--yellow);font-weight:600" id="lNextTitle">🎯 NEXT TRIGGER</div>
+        </div>
+        <div style="font-size:11px;color:var(--t2);line-height:1.8;white-space:pre-line" id="lNextDesc">—</div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px">
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:8px" id="lSplitTitle">💰 SPLIT ENTRY PLAN</div>
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px">
+          <span style="font-size:11px;color:var(--t2);flex-shrink:0" id="lAssetLabel">투자 자산</span>
+          <input type="number" id="userAsset" placeholder="10000"
+            style="flex:1;min-width:0;background:var(--bg4);border:1px solid var(--b2);color:var(--t1);
+            padding:6px 8px;border-radius:var(--rad-sm);font-size:12px;font-weight:600"
+            onchange="setUserAsset(this.value)" oninput="setUserAsset(this.value)">
+          <span style="font-size:11px;color:var(--t3);flex-shrink:0">USDT</span>
+        </div>
+        <div id="splitRows"></div>
+      </div>
+    </div>
+
+
+    <!-- Timestamp -->
+    <div style="font-size:9px;color:var(--t3);text-align:center;flex-shrink:0" id="tsLabel">—</div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- TradingView Chart -->
+    <div class="chart-wrap" id="tvChart"></div>
+
+    <!-- Score History -->
+    <div class="history-wrap">
+      <div class="history-hd">
+        <div>
+          <div class="history-title" data-i="sec_history">Score History</div>
+          <div class="history-sub" id="histRangeSub" data-i="sec_histSub">Saved locally in browser</div>
+        </div>
+        <div style="display:flex;gap:3px;flex-wrap:wrap">
+          <div class="hist-tab active" onclick="setHistPeriod('1d')" id="htp1d">24h</div>
+          <div class="hist-tab" onclick="setHistPeriod('7d')" id="htp7d">7d</div>
+          <div class="hist-tab" onclick="setHistPeriod('30d')" id="htp30d">30d</div>
+          <div class="hist-tab" onclick="setHistPeriod('all')" id="htpAll">All</div>
+        </div>
+      </div>
+      <canvas id="historyCanvas" height="160"></canvas>
+      <div id="histInfo" style="display:none;font-size:10px;color:var(--t2);margin-top:8px;padding:8px;background:var(--bg3);border-radius:6px;line-height:1.6">
+        📊 <b>Hour</b>: Last 24 hours, every 5 minutes<br>
+        📅 <b>Day</b>: Last 30 days, daily average<br>
+        📆 <b>Month</b>: All time, monthly average<br>
+        💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.
+      </div>
+    </div>
+
+
+    <!-- Indicators -->
+    <div class="sec-hd" data-i="sec_onchain">ON-CHAIN VALUATION</div>
+    <div class="ind-grid" id="g1"></div>
+
+    <div class="sec-hd" data-i="sec_miner">MINER / SENTIMENT</div>
+    <div class="ind-grid" id="g2"></div>
+
+    <div class="sec-hd" data-i="sec_inst">INSTITUTIONAL FLOW <span class="sec-tag">LEADING</span></div>
+    <div class="ind-grid" id="g3"></div>
+
+    <div class="sec-hd" data-i="sec_cycle">CYCLE POSITION</div>
+    <div class="ind-grid" id="g4"></div>
+
+    <!-- Breakdown -->
+    <div class="bk">
+      <div class="bk-hd" data-i="sec_breakdown">Score Breakdown (94pt → 10pt)</div>
+      <div class="bk-grid" id="bkGrid"></div>
+      <div class="bk-tot">
+        <span style="color:var(--t2)">Total → /10</span>
+        <span id="bkTot">—</span>
+      </div>
+    </div>
+
+    <!-- Triggers -->
+    <div class="trig">
+      <div class="trig-hd">⚡ <span id="trigTitle">Next Level Triggers</span></div>
+      <div id="trigRows"></div>
+    </div>
+
+    <!-- Macro -->
+    <div class="sec-hd" data-i="sec_macro">MACRO WARNINGS</div>
+    <div class="macro-grid">
+      <div class="mc"><div class="mdot" style="background:var(--red)"></div><div><div class="mc-title">Fed Rate 3.5~3.75%</div><div class="mc-desc">No cut signal — liquidity headwind</div></div></div>
+      <div class="mc"><div class="mdot" id="fgDot" style="background:var(--red)"></div><div><div class="mc-title" id="fgMacro">Fear & Greed —</div><div class="mc-desc">Contrarian signal but downside risk</div></div></div>
+      <div class="mc"><div class="mdot" style="background:var(--yellow)"></div><div><div class="mc-title">Global M2 Mild Expansion</div><div class="mc-desc">Growing but decelerating — neutral</div></div></div>
+      <div class="mc"><div class="mdot" style="background:var(--red)"></div><div><div class="mc-title">10x Research Warning</div><div class="mc-desc">Low target $55K, bottom Aug~Oct</div></div></div>
+    </div>
+
+    <!-- Insights widget (blog/feed.php에서 최신 글을 가져와 렌더링) -->
+    <div class="sec-hd" data-i="sec_insights">BLOG <a href="/blog/" class="sec-link" id="insightAllLink" data-i="viewAllInsights">ALL →</a></div>
+    <div class="insight-grid" id="insightGrid">
+      <div style="grid-column:1/-1;color:var(--t3);font-size:12px;padding:12px 0" data-i="loadingInsights">Loading...</div>
+    </div>
+  </div>
+</div>
+<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
+      Auto-fetched: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
+      On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.<br><br>
+      <span id="blogGuideLabel" style="color:var(--t3)">📖 온체인 지표 가이드: </span>
+      <a id="blogLink1" href="/blog/mvrv-z-score.php" style="color:var(--t3);text-decoration:underline;margin-right:12px">MVRV Z-Score란?</a>
+      <a id="blogLink2" href="/blog/bitcoin-halving-timing.php" style="color:var(--t3);text-decoration:underline;margin-right:12px">반감기 매수 타이밍</a>
+      <a id="blogLink3" href="/blog/hash-ribbon-indicator.php" style="color:var(--t3);text-decoration:underline;margin-right:12px">Hash Ribbon 지표</a>
+      <a id="blogLink4" href="/blog/" style="color:var(--t3);text-decoration:underline">전체 가이드 보기 →</a>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// CONSTANTS & CONFIG
+// ═══════════════════════════════════════════════════════
+// 색상 팔레트 (CSS :root 변수와 동일한 값 — JS에서 style.color/background를 직접 찍을 때 사용)
+const C = {
+  green:'#4ade80', green2:'#86efac', green3:'#bbf7d0',
+  yellow:'#fbbf24', orange:'#fb923c', red:'#f87171', blue:'#60a5fa',
+};
+const ATH_MAP = {BTC:126080, ETH:4955, BNB:1370, SOL:293, XRP:3.84, DOGE:0.74, ADA:3.09, TRX:0.45};
+const HALVING_MONTHS = 22;
+// 자산은 전체 포트폴리오 기준 — 코인 무관하게 동일 (분할 계획은 각 코인 가격으로 환산만 다름)
+let TOTAL_USDT = parseFloat(localStorage.getItem('userAsset')) || 10000;
+
+function setUserAsset(val) {
+  const n = parseFloat(val);
+  if(!isNaN(n) && n > 0) {
+    TOTAL_USDT = n;
+    localStorage.setItem('userAsset', n.toString());
+  } else if(val === '') {
+    TOTAL_USDT = 10000;
+    localStorage.removeItem('userAsset');
+  }
+  // 재렌더
+  if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
+}
+const REALIZED_PRICE = {BTC:52400, ETH:2100, BNB:420, SOL:95, XRP:1.48, DOGE:0.09, ADA:0.32, TRX:0.30};
+
+const COINS = [
+  {id:'BTC', name:'Bitcoin',  sym:'BTCUSDT', color:'#F7931A'},
+  {id:'ETH', name:'Ethereum', sym:'ETHUSDT', color:'#627EEA'},
+  {id:'BNB', name:'BNB',      sym:'BNBUSDT', color:'#F3BA2F'},
+  {id:'SOL', name:'Solana',   sym:'SOLUSDT', color:'#9945FF'},
+  {id:'XRP', name:'XRP',      sym:'XRPUSDT', color:'#00AAE4'},
+  {id:'DOGE',name:'Dogecoin', sym:'DOGEUSDT',color:'#C2A633'},
+  {id:'ADA', name:'Cardano',  sym:'ADAUSDT', color:'#0033AD'},
+  {id:'TRX', name:'TRON',     sym:'TRXUSDT', color:'#FF0013'},
+];
+
+let currentCoin = 'BTC';
+let currentMode = 'buy';
+let ws = null;
+let livePrice = null;
+let chatDB = null; // Firebase Realtime DB 핸들 (채팅 + 히스토리 공용)
+let chatListenersAttached = false; // 채팅 메시지/접속자 리스너가 실제로 부착됐는지
+let scoreHistory = [];
+let currentScore = 0;
+let alertSettings = {t1:true, t2:true, t3:true, t4:false, t5:false};
+// (코인/모드별 점수 추적은 lastScoreByKey 사용 — 아래 checkAlerts 근처에 정의됨)
+let notifGranted = false;
+let indCache = {};
+
+// ═══════════════════════════════════════════════════════
+// COIN TABS
+// ═══════════════════════════════════════════════════════
+function initTabs() {
+  const el = document.getElementById('coinTabs');
+  el.innerHTML = COINS.map(c => `
+    <div class="coin-tab${c.id===currentCoin?' active':''}"
+      onclick="switchCoin('${c.id}')"
+      ontouchend="event.preventDefault();switchCoin('${c.id}')"
+      style="${c.id===currentCoin?`background:${c.color};border-color:${c.color};color:#000`:''}">
+      ${c.id}
+    </div>`).join('');
+  // 모바일 드롭박스 업데이트
+  const drop = document.getElementById('coinDrop');
+  if(drop) {
+    drop.innerHTML = COINS.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
+  }
+}
+
+let loadToken = 0;
+
+function switchCoin(id) {
+  if(currentCoin === id) return;
+  currentCoin = id;
+  livePrice = null;
+  loadToken++;
+
+  // 이 코인으로 전환할 때마다 알림 상태를 초기화 — 그래야 "이미 한 번 봤던 코인"이라도
+  // 다시 들어올 때 지금 점수가 알림 구간에 있으면 매번 다시 효과(플래시+알림음)가 울림.
+  // (안 그러면 세션 중 코인당 딱 한 번만 울리고 그 뒤로는 점수가 그대로면 다시는 안 울렸음)
+  delete lastScoreByKey[`${id}_buy`];
+  delete lastScoreByKey[`${id}_sell`];
+
+  // 탭 즉시 업데이트
+  initTabs();
+  // 차트 즉시 교체 (가장 먼저 보임)
+  initChart();
+  // WebSocket 즉시 연결
+  connectWS();
+
+  // 캐시가 있으면 즉시 렌더 (지연 없이 바로 표시)
+  const cached = indCache[id];
+  if(cached) {
+    currentScore = currentMode==='buy' ? (cached._buyResult?.final ?? 0) : (cached._sellResult?.final ?? 0);
+    renderAll(cached);
+  } else {
+    // 캐시 없을 때만 스켈레톤 표시
+    currentScore = 0;
+    ['scoreNum','scoreAction','reachPct','mPrice','mFG','mRP','mMA'].forEach(elId=>{
+      const el=document.getElementById(elId);
+      if(el){el.textContent='—';el.style.color='var(--t3)';}
+    });
+    document.getElementById('reachBar').style.width='0%';
+    ['g1','g2','g3','g4','bkGrid','splitRows','trigRows'].forEach(elId=>{
+      const el=document.getElementById(elId);
+      if(el) el.innerHTML='<div style="color:var(--t3);font-size:10px;padding:8px">Loading...</div>';
+    });
+  }
+
+  // 백그라운드에서 최신 데이터 갱신 (캐시가 있어도 항상 갱신)
+  loadAll();
+}
+
+// ═══════════════════════════════════════════════════════
+// TICKER BAR — USD/KRW, USDT/KRW (직접 fetch) + 도미넌스/마켓캡/볼륨 (api.php에서 받아옴)
+// ═══════════════════════════════════════════════════════
+function updateTickerFromAPI(data) {
+  if(!data) return;
+  const set = (id, val) => { const el=document.getElementById(id); if(el && val!=null) el.textContent=val; };
+  const setChg = (id, val) => {
+    const el=document.getElementById(id); if(!el || val==null) return;
+    const sign = val>=0?'+':'';
+    el.textContent = `${sign}${Number(val).toFixed(2)}%`;
+    el.style.color = val>=0 ? 'var(--green)' : 'var(--red)';
+  };
+  if(data.btc_dom) set('tkDom', Number(data.btc_dom).toFixed(2)+'%');
+  if(data.dom_chg != null) setChg('tkDomChg', data.dom_chg);
+  if(data.mcap)    set('tkMcap', (data.mcap/1e12).toFixed(2)+'T');
+  if(data.vol24h)  set('tkVol',  (data.vol24h/1e9).toFixed(1)+'B');
+  // USDT/KRW: 서버에서 받은 값이 있으면 사용, 없으면 loadTicker()가 USD/KRW로 채움
+  if(data.usdt_krw != null && data.usdt_krw > 0) {
+    set('tkUsdtKrw', Number(data.usdt_krw).toLocaleString('ko'));
+  }
+  // (0이면 loadTicker의 USD/KRW 대체값이 들어감)
+  if(data.usdt_chg != null) setChg('tkUsdtKrwChg', data.usdt_chg);
+}
+
+async function loadTicker() {
+  // USD/KRW + USDT/KRW 동시에 fetch
+  // USDT/KRW: CoinGecko simple/price (CORS 허용, 한국 시장 김치프리미엄 반영)
+  // USD/KRW: exchangerate-api (CORS 허용)
+  const [r1, r2] = await Promise.allSettled([
+    fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)}).then(r=>r.json()),
+    fetchProxy('https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=krw&include_24hr_change=true'),
+  ]);
+
+  if(r1.status==='fulfilled') {
+    const usdKrw = r1.value?.rates?.KRW;
+    const el = document.getElementById('tkUsdKrw');
+    if(el && usdKrw) el.textContent = usdKrw.toLocaleString('ko', {maximumFractionDigits:1});
+  }
+  if(r2.status==='fulfilled' && r2.value?.tether?.krw) {
+    const usdtKrw = r2.value.tether.krw;
+    const usdtChg = r2.value.tether.krw_24h_change;
+    const el = document.getElementById('tkUsdtKrw');
+    if(el) el.textContent = usdtKrw.toLocaleString('ko', {maximumFractionDigits:0});
+    const chgEl = document.getElementById('tkUsdtKrwChg');
+    if(chgEl && usdtChg != null) {
+      chgEl.textContent = (usdtChg>=0?'+':'') + usdtChg.toFixed(2) + '%';
+      chgEl.style.color = usdtChg>=0 ? 'var(--green)' : 'var(--red)';
+    }
+  }
+}
+loadTicker();
+setInterval(loadTicker, 60*1000); // 1분마다 갱신
+
+// ═══════════════════════════════════════════════════════
+// MODE
+// ═══════════════════════════════════════════════════════
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('modeBuy').classList.toggle('active', mode==='buy');
+  document.getElementById('modeSell').classList.toggle('active', mode==='sell');
+  document.body.classList.toggle('sell-mode', mode==='sell');
+  document.getElementById('sellPanel').style.display = mode==='sell' ? 'block' : 'none';
+  if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
+  // 알림 모달 등 모든 [data-i] 라벨 갱신 (모드 전환 시에도 언어가 흐트러지지 않도록)
+  applyStaticI18n();
+  // histInfo 업데이트
+  const hi=document.getElementById('histInfo');
+  if(hi && currentLang==='ko') hi.innerHTML=`📊 <b>시간별</b>: 최근 24시간, 5분마다<br>📅 <b>일별</b>: 최근 30일, 일별 평균<br>📆 <b>월별</b>: 전체 기간, 월별 평균<br>💾 데이터는 브라우저 로컬저장소에 저장됩니다. 브라우저 데이터 삭제 시 초기화됩니다.`;
+  else if(hi) hi.innerHTML=`📊 <b>Hour</b>: Last 24 hours, every 5 minutes<br>📅 <b>Day</b>: Last 30 days, daily average<br>📆 <b>Month</b>: All time, monthly average<br>💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.`;
+}
+
+// ═══════════════════════════════════════════════════════
+// TRADINGVIEW CHART
+// ═══════════════════════════════════════════════════════
+function initChart() {
+  const coin = COINS.find(c=>c.id===currentCoin);
+  const sym = (currentCoin==='USDT') ? 'BINANCE:USDCUSDT' : ('BINANCE:'+coin.sym);
+  const wrap = document.getElementById('tvChart');
+  wrap.innerHTML = '';
+  const iframe = document.createElement('iframe');
+  iframe.style.cssText = 'width:100%;height:100%;border:none';
+  iframe.src = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_widget'
+    + '&symbol=' + encodeURIComponent(sym)
+    + '&interval=D&theme=dark&style=1&locale=en'
+    + '&toolbar_bg=%230f0f0f&hide_top_toolbar=0'
+    + '&studies=MAExp%40tv-basicstudies'
+    + '&backgroundColor=%230f0f0f';
+  iframe.setAttribute('allowtransparency','true');
+  iframe.setAttribute('allowfullscreen','true');
+  wrap.appendChild(iframe);
+}
+
+// ═══════════════════════════════════════════════════════
+// WEBSOCKET — Binance Real-time Price
+// ═══════════════════════════════════════════════════════
+let wsCoinToken = 0; // WebSocket 전용 토큰 (코인 전환 시 이전 WS 응답 무시)
+
+function connectWS() {
+  wsCoinToken++;
+  const myWsToken = wsCoinToken;
+  const wsCoin = currentCoin; // 이 WS가 담당하는 코인 고정
+
+  if(ws) {
+    try { ws.onclose = null; ws.close(); } catch(e){} // onclose 핸들러 제거 후 닫기 (재연결 방지)
+  }
+  const coin = COINS.find(c=>c.id===wsCoin);
+  if(!coin || wsCoin==='USDT') { livePrice=1.0; return; }
+  try {
+    ws = new WebSocket(`wss://stream.binance.com:9443/ws/${coin.sym.toLowerCase()}@ticker`);
+    ws.onmessage = e => {
+      // 토큰 불일치 또는 코인 전환됨 → 무시
+      if(myWsToken !== wsCoinToken || wsCoin !== currentCoin) return;
+      const d = JSON.parse(e.data);
+      livePrice = parseFloat(d.c);
+      const chg = parseFloat(d.P);
+      const el = document.getElementById('mPrice');
+      if(el) {
+        el.textContent = fmtP(livePrice);
+        el.style.color = chg >= 0 ? 'var(--green)' : 'var(--red)';
+        document.getElementById('mPriceSub').textContent = `${chg>=0?'+':''}${chg.toFixed(2)}% 24h`;
+      }
+    };
+    ws.onerror = () => {};
+    ws.onclose = () => {
+      // 이 WS가 여전히 현재 코인 담당일 때만 재연결
+      if(myWsToken === wsCoinToken && wsCoin === currentCoin) {
+        setTimeout(connectWS, 3000);
+      }
+    };
+  } catch(e) {}
+}
+
+// ═══════════════════════════════════════════════════════
+// CORS PROXY
+// ═══════════════════════════════════════════════════════
+const PROXIES = [
+  'https://corsproxy.io/?',
+  'https://api.allorigins.win/raw?url=',
+  'https://thingproxy.freeboard.io/fetch/',
+];
+
+async function fetchProxy(url, isJson=true) {
+  // 직접+프록시 모두 동시에 시도, 가장 빠른 것 사용
+  try {
+    const direct = fetch(url, {signal:AbortSignal.timeout(2500)})
+      .then(r=>r.ok?(isJson?r.json():r.text()):Promise.reject('direct_fail'));
+    const proxies = PROXIES.map(px=>
+      fetch(px+encodeURIComponent(url),{signal:AbortSignal.timeout(5000)})
+        .then(r=>r.ok?(isJson?r.json():r.text()):Promise.reject('proxy_fail'))
+    );
+    return await Promise.any([direct,...proxies]);
+  } catch(e){}
+  return null;
+}
+
+// ═══════════════════════════════════════════════════════
+// UI RENDERING — 카드 생성 (순수 화면 표시용, 계산 로직 아님)
+// ═══════════════════════════════════════════════════════
+function fmtP(v){
+  if(v==null||isNaN(v))return'—';
+  const n=Number(v);
+  return'$'+n.toLocaleString('en',{minimumFractionDigits:n<10?4:n<1000?2:0,maximumFractionDigits:n<10?4:n<1000?2:0});
+}
+function fmtN(v){
+  if(v==null||isNaN(v))return'0';
+  return Number(v).toLocaleString('en',{maximumFractionDigits:0});
+}
+function col(r){
+  if(r>=.9)return C.green;if(r>=.75)return C.green2;if(r>=.55)return C.green3;
+  if(r>=.35)return C.yellow;if(r>=.2)return C.orange;return C.red;
+}
+function pillCls(sig){
+  const s=(sig||'').toLowerCase();
+  if(s.includes('bottom')||s.includes('safe')||s.includes('accumul')||s.includes('recovery')||
+     s.includes('near bottom')||s.includes('backwardation')||s.includes('early cycle')||
+     s.includes('ideal')||s.includes('capitul')||s.includes('record'))return'p-g';
+  if(s.includes('mid')||s.includes('mild')||s.includes('neutral')||s.includes('watch')||
+     s.includes('transitioning')||s.includes('borderline'))return'p-y';
+  if(s.includes('overheat')||s.includes('fomo')||s.includes('euphoria')||s.includes('distribution')||
+     s.includes('overload')||s.includes('alt season')||s.includes('late cycle')||
+     s.includes('extreme greed')||s.includes('near ath'))return'p-r';
+  return'p-o';
+}
+
+const IND_KEY_MAP={
+  mvrv_z:    {buy:'ind_mvrv_z',  sell:'ind_sell_mvrv', desc:'desc_mvrv_z'},
+  nupl:      {buy:'ind_nupl',    sell:'ind_sell_nupl',  desc:'desc_nupl'},
+  realized:  {buy:'ind_realized',sell:'ind_realized',   desc:'desc_realized'},
+  hash_ribbon:{buy:'ind_hash',   sell:'ind_hash',       desc:'desc_hash'},
+  sth_sopr:  {buy:'ind_sth_sopr',sell:'ind_sell_sopr',  desc:'desc_sopr'},
+  funding:   {buy:'ind_funding', sell:'ind_sell_funding',desc:'desc_funding'},
+  cb_premium:{buy:'ind_cbp',     sell:'ind_sell_cbp',   desc:'desc_cbp'},
+  lth_supply:{buy:'ind_lth',     sell:'ind_sell_lth',   desc:'desc_lth'},
+  dom:       {buy:'ind_dom',     sell:'ind_sell_dom',   desc:'desc_dom'},
+  halving:   {buy:'ind_halving', sell:'ind_sell_halving',desc:'desc_halving'},
+  btc_corr:  {buy:'ind_btc_corr',sell:'ind_btc_corr',   desc:'desc_btc_corr'},
+  ath_pos:   {buy:'ind_halving', sell:'ind_sell_ath',   desc:'desc_halving'},
+  alt_valuation: {buy:'ind_alt_valuation', sell:'ind_alt_valuation', desc:'desc_alt_valuation'},
+  alt_drawdown:  {buy:'ind_alt_drawdown',  sell:'ind_alt_drawdown',  desc:'desc_alt_drawdown'},
+  alt_short_valuation: {buy:'ind_alt_short_val', sell:'ind_alt_short_val', desc:'desc_alt_short_val'},
+  alt_short_ath:        {buy:'ind_alt_short_ath', sell:'ind_alt_short_ath', desc:'desc_alt_short_ath'},
+  rsi:           {buy:'ind_rsi', sell:'ind_rsi', desc:'desc_rsi'},
+  vol_change:    {buy:'ind_vol_change', sell:'ind_vol_change', desc:'desc_vol_change'},
+  btc_corr_tech: {buy:'ind_btc_corr_tech', sell:'ind_btc_corr_tech', desc:'desc_btc_corr_tech'},
+  buy_pressure:  {buy:'ind_buy_pressure', sell:'ind_buy_pressure', desc:'desc_buy_pressure'},
+  sell_pressure: {buy:'ind_sell_pressure', sell:'ind_sell_pressure', desc:'desc_sell_pressure'},
+};
+
+function makeCard(d,mode='buy'){
+  if(!d)return'';
+  const r=d.score/d.max;
+  const clr=col(r);
+  const pc=pillCls(d.signal||'');
+  const ko=currentLang==='ko';
+  const km=IND_KEY_MAP[d.key]||{};
+  const lk=mode==='sell'?km.sell:km.buy;
+  const localLabel=lk?(T(lk)||d.label):d.label;
+  const dk=km.desc;
+  const detDesc=dk?(T(dk)||d.note||''):(d.note||'');
+  const valLbl=ko?'현재값':'Value';
+  const scoreLbl=ko?'점수':'Score';
+  const targetLbl=ko?'목표':'Target';
+  const detailLbl=ko?'▼ 탭하여 설명 보기':'▼ Tap for details';
+  const vStr=`${d.value}${d.unit||''}`;
+  return`<div class="icard" onclick="this.classList.toggle('expanded')">
+    <div class="icard-top">
+      <span class="icard-name">${localLabel}<span class="pill ${pc}">${d.signal||''}</span></span>
+      <span class="icard-wt">${d.max}pt</span>
+    </div>
+    <div class="icard-score">
+      <span class="icard-n" style="color:${clr}">${d.score}</span>
+      <span class="icard-m">/ ${d.max}</span>
+    </div>
+    <div class="ibar"><div class="ibf" style="width:${Math.round(r*100)}%;background:${clr}"></div></div>
+    <div class="icard-vals">
+      <div class="vbox"><div class="vl">${valLbl}</div><div class="vv">${vStr}</div></div>
+      <div class="vbox"><div class="vl">${scoreLbl}</div><div class="vv" style="color:${clr}">${d.score}/${d.max}</div></div>
+      <div class="vbox" style="grid-column:1/-1"><div class="vl">${targetLbl}</div><div class="vv" style="font-size:9px;color:var(--t2)">${d.target||'—'}</div></div>
+    </div>
+    <div class="icard-note">
+      <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>
+      <div style="white-space:pre-line;line-height:1.6;color:var(--t2);font-size:10px">${detDesc}</div>
+    </div>
+  </div>`;
+}
+function validSOPR(v){return typeof v==='number'&&!isNaN(v)&&v>=0.90&&v<=1.10;}
+
+// ═══════════════════════════════════════════════════════
+// API FETCHER — 백엔드(PHP)에서 완성된 점수 결과를 받아옴
+// 점수 계산 로직(calcBuy/calcSell)은 서버에서만 실행되며 클라이언트에 노출되지 않음
+// ═══════════════════════════════════════════════════════
+async function fetchScoreFromAPI(coin, mode) {
+  const url = `/api.php?coin=${coin}&mode=${mode}`;
+  const cacheKey = `btct_cache_${coin}_${mode}`;
+  const cacheTtl = 90 * 1000; // 90초 — 서버 캐시(60초)보다 약간 길게
+
+  // 캐시된 데이터가 있으면 즉시 반환 (화면이 바로 뜸)
+  try {
+    const cached = localStorage.getItem(cacheKey);
+    if(cached) {
+      const {data, ts} = JSON.parse(cached);
+      if(Date.now() - ts < cacheTtl) return data; // 아직 신선함 → 그대로 사용
+      // 만료됐어도 일단 캐시를 먼저 보여주고 백그라운드에서 갱신
+      if(data) {
+        fetch(url, {signal: AbortSignal.timeout(20000)})
+          .then(r => r.ok ? r.json() : null)
+          .then(fresh => { if(fresh) localStorage.setItem(cacheKey, JSON.stringify({data:fresh, ts:Date.now()})); })
+          .catch(()=>{});
+        return data;
+      }
+    }
+  } catch(e){}
+
+  // 캐시 없음 → 직접 fetch
+  let res;
+  try {
+    res = await fetch(url, {signal: AbortSignal.timeout(20000)});
+  } catch(fetchErr) {
+    // 네트워크 오류 또는 타임아웃 — 오버레이에 에러 표시
+    const ov=document.getElementById('overlay');
+    const txt=document.getElementById('ovTxt');
+    if(ov) ov.style.display='flex';
+    if(txt) txt.innerHTML=`⚠ 서버 응답 없음<br><small style="color:#888">새로고침하거나 잠시 후 다시 시도해주세요</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">재시도</button>`;
+    throw fetchErr;
+  }
+  if (!res.ok) throw new Error(`API error: ${res.status}`);
+  const data = await res.json();
+
+  // 새 데이터 캐시 저장
+  try { localStorage.setItem(cacheKey, JSON.stringify({data, ts:Date.now()})); } catch(e){}
+  return data;
+}
+
+
+function renderAll(ind) {
+  // 타이틀에 BTC 가격 노출 (BTC 탭일 때만, 다른 코인이면 코인명 표시)
+  try {
+    const priceForTitle = livePrice || ind.price;
+    if(priceForTitle) {
+      const priceStr = priceForTitle >= 1 ? '$'+Math.round(priceForTitle).toLocaleString() : '$'+priceForTitle.toFixed(4);
+      document.title = `${currentCoin} ${priceStr} — BTCtiming.com`;
+    }
+  } catch(e){}
+  // 오버레이 즉시 숨김
+  const ov=document.getElementById('overlay');if(ov)ov.style.display='none';
+  // 점수 계산은 서버(PHP)에서 완료되어 ind._buyResult / ind._sellResult로 전달됨
+  let result;
+  try {
+    if(currentMode==='buy') {
+      result = ind._buyResult;
+    } else {
+      result = ind._sellResult;
+    }
+    if(!result) throw new Error('No score result from server');
+  } catch(calcErr) {
+    document.getElementById('err').textContent='⚠ Calc Error: '+calcErr.message;
+    document.getElementById('err').style.display='block';
+    return;
+  }
+  indCache[currentCoin] = ind;
+
+  const sc = result.final;
+  const isInvert = currentMode==='sell';
+  const scoreColor = isInvert ? (sc>=7?C.red:sc>=5?C.orange:C.yellow) : col(sc/10);
+  const isKo = currentLang==='ko';
+
+  // 섹션 헤더 한글화
+  const secMap = {
+    'sec_onchain': isKo?'온체인 밸류에이션':'ON-CHAIN VALUATION',
+    'sec_miner':   isKo?'채굴자 / 심리':'MINER / SENTIMENT',
+    'sec_inst':    isKo?'기관 수급 (선행)':'INSTITUTIONAL FLOW',
+    'sec_cycle':   isKo?'사이클 위치':'CYCLE POSITION',
+    'sec_breakdown': isKo?'점수 합산':'Score Breakdown',
+    'sec_macro':   isKo?'매크로 경고등':'MACRO WARNINGS',
+    'sec_history': isKo?'점수 히스토리':'Score History',
+    'sec_histSub': isKo?'브라우저 로컬 저장':'Saved locally in browser',
+  };
+  Object.entries(secMap).forEach(([key,val])=>{
+    document.querySelectorAll('[data-i="'+key+'"]').forEach(el=>{
+      const span = el.querySelector('span');
+      if(span) {
+        const txt = el.childNodes[0];
+        if(txt && txt.nodeType===3) txt.textContent=val+' ';
+      } else el.textContent=val;
+    });
+  });
+
+  // 모드 버튼 한글화
+  const modeBuyEl=document.getElementById('modeBuy');
+  const modeSellEl=document.getElementById('modeSell');
+  if(modeBuyEl) modeBuyEl.textContent=isKo?'📈 LONG':'📈 LONG';
+  if(modeSellEl) modeSellEl.textContent=isKo?'📉 SHORT':'📉 SHORT';
+
+  // 사이드바 라벨 한글화
+  const sideLabels = {
+    'mPrice':null, // price는 건드리지 않음
+    'mFGLbl':null,
+  };
+  const mPriceLblEl = document.querySelector('.mini-stat .lbl');
+  // 미니 stat 라벨
+  document.querySelectorAll('.mini-stat .lbl').forEach((el,i)=>{
+    const keys = isKo
+      ? ['현재가 · 바이낸스','공포·탐욕 지수','실현가 이격률','200주 이평선 (참고)']
+      : ['Price · Binance','Fear & Greed','Realized Price Gap','200W MA (ref)'];
+    if(keys[i]) el.textContent=keys[i];
+  });
+
+  // 분할 계획 헤더
+  const splitHd=document.querySelector('.split-hd');
+  if(splitHd) splitHd.textContent=isKo?'단계별 진입 계획':'Split Entry Plan';
+  const scoreLabel2=document.getElementById('scoreLabel');
+  if(scoreLabel2) scoreLabel2.textContent=isKo?(currentMode==='buy'?'롱 타이밍 점수':'숏 타이밍 점수'):(currentMode==='buy'?'LONG TIMING SCORE':'SHORT TIMING SCORE');
+
+  // Score card
+  const snEl=document.getElementById('scoreNum');
+  if(snEl){
+    snEl.textContent=sc.toFixed(1);
+    snEl.style.setProperty('color', scoreColor, 'important');
+    snEl.style.fontSize='64px';
+    snEl.style.fontWeight='800';
+    snEl.style.display='inline';
+  }
+  document.getElementById('scoreAction').textContent=result.action;
+  document.getElementById('scoreAction').style.color=result.acolor;
+  // 액션 설명
+  const descEl = document.getElementById('scoreDesc');
+  if(descEl) {
+    const ko2 = currentLang === 'ko';
+    let descTxt = '';
+    if(currentMode === 'buy') {
+      const buyDescMap = {
+        'FULL LONG':    ko2?'최강 신호. 풀 롱 or 레버리지 진입.':'Max signal. Full long entry.',
+        'ADD LONG':     ko2?'강한 신호. 목표 비중 70~100% 진입.':'Strong signal. 70~100% of target.',
+        'SPLIT LONG':   ko2?'분할 시작. 목표 비중 30~50% 진입.':'Split entry. 30~50% of target.',
+        'WATCH':        ko2?'관찰 구간. 소량 선진입 or 트리거 대기.':'Watch. Small entry or await trigger.',
+        'SPLIT EXIT':   ko2?'일부 정리. 리스크 관리 구간.':'Partial exit. Risk management zone.',
+        'EXIT LONG':    ko2?'전량 청산 고려. 고점 경고.':'Consider full exit. Top warning.',
+      };
+      descTxt = buyDescMap[result.action] || (ko2 ? (result.actionDesc || '') : '');
+    } else {
+      // 백엔드(score_calc.php)는 한글 설명만 내려주므로, 영어 모드에서는 별도 번역 맵을 사용
+      const sellDescMap = {
+        'FULL SHORT':    ko2?'극단 과열. 풀 숏 진입.':'Extreme overheat. Full short entry.',
+        'ADD SHORT':     ko2?'강한 과열. 숏 비중 확대.':'Strong overheat. Increase short.',
+        'PREPARE SHORT': ko2?'과열 시작. 숏 준비.':'Overheat starting. Prepare short.',
+        'WATCH':         ko2?'중립 관찰.':'Neutral watch.',
+        'SPLIT EXIT':    ko2?'저점 근접. 숏 분할 청산.':'Near bottom. Scale out of short.',
+        'EXIT SHORT':    ko2?'바닥. 숏 즉시 청산.':'Bottom zone. Exit short immediately.',
+      };
+      descTxt = sellDescMap[result.shortSignal] || (ko2 ? (result.shortDesc || '') : '');
+    }
+    descEl.textContent = descTxt;
+    descEl.style.color = result.acolor;
+  }
+  document.getElementById('scoreSub').textContent=`${currentCoin} · ${T(currentMode==='buy'?'modeSub_buy':'modeSub_sell')}`;
+  const slEl=document.getElementById('scoreLabel');
+  if(slEl) slEl.textContent=T(currentMode==='buy'?'modeTitle_buy':'modeTitle_sell');
+
+  const reach=result.reach;
+  document.getElementById('reachPct').textContent=reach+'%';
+  document.getElementById('reachPct').style.color=scoreColor;
+  document.getElementById('reachBar').style.width=reach+'%';
+  document.getElementById('reachBar').style.background=scoreColor;
+
+  // Action bar
+  // ── 액션바: 전체 점수 스펙트럼 표시 ──────────────────────
+  const abarEl = document.getElementById('abar');
+  if(abarEl) {
+    const ko = currentLang === 'ko';
+    // LONG 모드: 0점(Exit Long) → 9+점(Add Long) 스펙트럼
+    // SHORT 모드: 0점(Exit Short) → 9+점(Add Short) 반대 스펙트럼
+    const segments = currentMode === 'buy' ? [
+      {min:0,  max:3.5, bg:'#2d0a0a', color:'#ef4444', en:'EXIT LONG',  ko:'롱청산',  s:'≤3.5'},
+      {min:3.5,max:5.0, bg:'#2d1a0a', color:'#f97316', en:'SPLIT EXIT', ko:'분할청산', s:'3.5~5'},
+      {min:5.0,max:6.0, bg:'#2d2a00', color:'#fbbf24', en:'WATCH',      ko:'관찰',    s:'5~6'},
+      {min:6.0,max:7.0, bg:'#0d2208', color:'#86efac', en:'SPLIT LONG', ko:'분할매수', s:'6~7'},
+      {min:7.0,max:8.0, bg:'#071a05', color:'#4ade80', en:'ADD LONG',   ko:'추가매수', s:'7~8'},
+      {min:8.0,max:11,  bg:'#041203', color:'#22c55e', en:'FULL LONG',  ko:'풀롱',    s:'8+'},
+    ] : [
+      {min:0,  max:3.5, bg:'#041203', color:'#22c55e', en:'EXIT SHORT', ko:'숏청산',  s:'≤3.5'},
+      {min:3.5,max:5.0, bg:'#071a05', color:'#4ade80', en:'SPLIT EXIT', ko:'분할청산', s:'3.5~5'},
+      {min:5.0,max:6.0, bg:'#2d2a00', color:'#fbbf24', en:'WATCH',      ko:'관찰',    s:'5~6'},
+      {min:6.0,max:7.0, bg:'#2d1a0a', color:'#f97316', en:'PREPARE',    ko:'숏준비',  s:'6~7'},
+      {min:7.0,max:8.0, bg:'#2d0a0a', color:'#ef4444', en:'ADD SHORT',  ko:'숏추가',  s:'7~8'},
+      {min:8.0,max:11,  bg:'#1a0505', color:'#dc2626', en:'FULL SHORT', ko:'풀숏',    s:'8+'},
+    ]
+    // 2줄 레이아웃: 위 4개 / 아래 3개
+    const top4 = segments.slice(0, 3);
+    const bot3 = segments.slice(3);
+    const makeRow = (segs) => segs.map((seg) => {
+      const active = sc >= seg.min && sc < seg.max;
+      return `<div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        background:${seg.bg};color:#f5f5f5;font-size:9px;gap:1px;padding:4px 2px;
+        cursor:default;border-radius:0;border-bottom:3px solid ${seg.color};
+        ${active?'outline:2px solid rgba(255,255,255,.55);outline-offset:-2px;font-weight:700;font-size:10px':''}">
+        <span style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center;color:#f5f5f5">${ko ? seg.ko : seg.en}</span>
+        <span style="font-size:7px;opacity:.75;color:#f5f5f5">${seg.s}</span>
+      </div>`;
+    }).join('');
+    abarEl.style.flexDirection = 'column';
+    abarEl.style.height = 'auto';
+    abarEl.style.overflow = 'visible';
+    abarEl.innerHTML =
+      `<div style="display:flex;border-radius:6px 6px 0 0;overflow:hidden;height:38px">${makeRow(top4)}</div>` +
+      `<div style="display:flex;border-radius:0 0 6px 6px;overflow:hidden;height:38px;margin-top:1px">${makeRow(bot3)}</div>`;
+  }
+
+  // Mini stats
+  const p=ind.price;
+  if(livePrice) {
+    document.getElementById('mPrice').textContent=fmtP(livePrice);
+  } else {
+    document.getElementById('mPrice').textContent=fmtP(p);
+    document.getElementById('mPriceSub').textContent=`ATH ${ind.ath_drop?.toFixed(1)||'—'}%`;
+  }
+
+  const fg=ind.fear_greed;
+  document.getElementById('mFG').textContent=fg;
+  document.getElementById('mFG').style.color=fg<=25?C.red:fg<=45?C.yellow:C.green;
+  document.getElementById('mFGLbl').textContent=ind.fg_label||'';
+  document.getElementById('fgDot').style.background=fg<=25?C.red:fg<=45?C.yellow:C.green;
+  document.getElementById('fgMacro').textContent=`Fear & Greed: ${fg} (${ind.fg_label})`;
+  // 매크로 경고등 한글화
+  if(isKo) {
+    const m={mac1:'Fed 금리 3.5~3.75%',mac1d:'금리 동결, 인하 신호 없음 — 유동성 역풍',
+      mac3:'글로벌 M2 완만 확장',mac3d:'확장 중이나 속도 둔화 — 중립',
+      mac4:'10x Research 경고',mac4d:'저점 8~10월, $55K 타겟 언급',
+      mac2d:'역발상 신호이나 추가 하락 위험'};
+    Object.entries(m).forEach(([id,txt])=>{const e=document.getElementById(id);if(e)e.textContent=txt;});
+  } else {
+    const m={mac1:'Fed Rate 3.5~3.75%',mac1d:'No cut signal — liquidity headwind',
+      mac3:'Global M2 Mild Expansion',mac3d:'Growing but decelerating — neutral',
+      mac4:'10x Research Warning',mac4d:'Low target $55K, bottom Aug~Oct',
+      mac2d:'Contrarian signal but downside risk'};
+    Object.entries(m).forEach(([id,txt])=>{const e=document.getElementById(id);if(e)e.textContent=txt;});
+  }
+
+  const rpGap=ind.realized_price>0?((p-ind.realized_price)/ind.realized_price*100):0;
+  document.getElementById('mRP').textContent=(rpGap>=0?'+':'')+rpGap.toFixed(1)+'%';
+  document.getElementById('mRP').style.color=rpGap<0?C.green:rpGap<5?C.green2:C.yellow;
+  document.getElementById('mRPSub').textContent=`Realized ~${fmtP(ind.realized_price)}`;
+
+  const maGap=ind.ma200w>0?((p-ind.ma200w)/ind.ma200w*100):0;
+  document.getElementById('mMA').textContent=(maGap>=0?'+':'')+maGap.toFixed(1)+'%';
+  document.getElementById('mMA').style.color=maGap<0?C.green:C.yellow;
+  document.getElementById('mMASub').textContent=`200W MA ${fmtP(ind.ma200w)} (ref)`;
+
+  // Sell/Long exit panel
+  // 패널 표시/숨김
+  const spEl=document.getElementById('sellPanel');
+  const lgEl=document.getElementById('longGuidePanel');
+  if(spEl) spEl.style.display=currentMode==='sell'?'block':'none';
+  if(lgEl) lgEl.style.display=currentMode==='buy'?'block':'none';
+
+  if(currentMode==='sell') {
+    const ko2=currentLang==='ko';
+    const sc=result.final;
+    const el=(id)=>document.getElementById(id);
+    let stMain,stDesc,gAction,gDesc,exitSig,exitDesc;
+
+    if(sc>=8.0){
+      stMain=ko2?'🔴 극단 과열 — 역대 고점 수준':'🔴 Extreme Overheat — Historical Top';
+      stDesc=ko2?'모든 과열 지표가 위험 구간. 2021년 11월 ATH 직전과 유사한 패턴.':'All overheat indicators in danger zone.';
+      gAction=ko2?'FULL SHORT — 풀 숏 진입':'FULL SHORT — Full short entry';
+      gDesc=ko2?'목표 비중 100% 숏 진입. 레버리지 숏 고려 가능. 스탑로스: ATH +5% 위 설정.':'Enter 100% short. Leverage possible. Stop loss: 5% above ATH.';
+      exitSig=ko2?'청산 조건 (중요)':'Exit Conditions (Important)';
+      exitDesc=ko2?'• MVRV Z 2.5 이하 하락\n• Fear & Greed 50 이하\n• 선물 갭 0.05% 이하로 축소':'• MVRV Z drops below 2.5\n• Fear & Greed below 50\n• Futures gap shrinks below 0.05%';
+    } else if(sc>=7.0){
+      stMain=ko2?'🔴 강한 과열 신호':'🔴 Strong Overheat Signal';
+      stDesc=ko2?'주요 과열 지표들이 경고 수준. 탐욕 지수와 선물 포지션이 과도하게 롱 쏠림.':'Key overheat indicators at warning levels. Extreme long bias.';
+      gAction=ko2?'ADD SHORT — 숏 비중 확대':'ADD SHORT — Increase short';
+      gDesc=ko2?'기존 숏 있다면 목표 비중의 70~100%로 확대. 신규 진입은 분할로.':'If holding short, scale to 70~100%. New entry: split in.';
+      exitSig=ko2?'숏 청산 조건':'Short Exit Conditions';
+      exitDesc=ko2?'• NUPL 50% 이하\n• Fear & Greed 60 이하\n• Coinbase Premium 음수 전환':'• NUPL drops below 50%\n• Fear & Greed below 60\n• Coinbase Premium turns negative';
+    } else if(sc>=6.0){
+      stMain=ko2?'🟠 과열 시작 — 준비 구간':'🟠 Overheat Beginning — Prepare';
+      stDesc=ko2?'일부 지표가 과열 신호. 아직 확정은 아니지만 숏 준비할 타이밍.':'Some overheat signals. Not confirmed but time to prepare.';
+      gAction=ko2?'PREPARE SHORT — 소량 선진입':'PREPARE SHORT — Small entry';
+      gDesc=ko2?'목표 비중의 30~50% 소량 선진입. 추가 과열 확인 후 비중 확대.':'Enter 30~50% of target. Wait for confirmation to add.';
+      exitSig=ko2?'추가 확인 조건':'Confirmation needed';
+      exitDesc=ko2?'• 다음 추가 조건 대기:\n• NUPL 60% 이상\n• Fear & Greed 75 이상':'• Wait for:\n• NUPL above 60%\n• Fear & Greed above 75';
+    } else if(sc>=5.0){
+      stMain=ko2?'🟡 중립 관찰 구간':'🟡 Neutral Watch Zone';
+      stDesc=ko2?'뚜렷한 방향성 없음. 과열도 저점도 아닌 중간 구간. 서두르지 마세요.':'No clear direction. Neither overheat nor bottom.';
+      gAction=ko2?'WATCH — 진입 대기':'WATCH — Wait for signal';
+      gDesc=ko2?'숏 진입 서두르지 마세요. 6.0점 이상 도달 시 행동. 현 시장 모니터링 지속.':'Do not rush. Act when score reaches 6.0+. Keep monitoring.';
+      exitSig=ko2?'기존 숏 보유 중이라면':'If holding short position';
+      exitDesc=ko2?'• 목표 수익 50% 달성 시 절반 청산\n• 손절: 진입가 대비 +5%':'• Close 50% at 50% profit target\n• Stop loss: +5% from entry';
+    } else if(sc>=3.5){
+      stMain=ko2?'🟢 과열 신호 부재 — 숏 위험':'🟢 No Overheat Signals — Short Risky';
+      stDesc=ko2?'현재 과열·고점 신호가 거의 없는 구간. 숏 포지션 보유 중이라면 일부 청산 권고. (※ 이 점수는 "지금 가격이 비싸 보이지 않는다"는 뜻이지, 실제 역사적 저점이라는 의미는 아닙니다.)':'Few overheat signals present right now. Partial exit recommended for shorts. (※ This means current price doesn\'t look overextended — not that it\'s an actual historical low.)';
+      gAction=ko2?'SPLIT EXIT — 분할 청산':'SPLIT EXIT — Scale out';
+      gDesc=ko2?'기존 숏의 50% 청산. 나머지는 추가 하락 관찰 후 판단. 신규 숏 진입 절대 금지.':'Close 50% of short. Hold rest carefully. No new short entries.';
+      exitSig=ko2?'전량 청산 조건':'Full exit conditions';
+      exitDesc=ko2?'• MVRV Z 0.5 이하\n• Fear & Greed 20 이하\n• 선물 갭 음수 전환':'• MVRV Z below 0.5\n• Fear & Greed below 20\n• Futures gap turns negative';
+    } else {
+      stMain=ko2?'🟢 과열 신호 전무 — 숏 즉시 청산':'🟢 Zero Overheat Signals — Exit Short Now';
+      stDesc=ko2?'고점·과열 신호가 전혀 없는 구간. 숏 포지션 유지는 위험하니 손실이더라도 즉시 청산을 고려하세요. (※ 차트가 실제로 상승 추세 중이어도 뜰 수 있는 메시지입니다 — 이 점수는 "역사적 저점"이 아니라 "지금은 과열되지 않았다"만 의미합니다. 차트와 함께 직접 판단하세요.)':'No overheat or top signals present at all. Holding a short here is risky — consider exiting even at a loss. (※ This can appear even while the chart is in a clear uptrend — the score means "not currently overheated," not "historical low." Always check the chart yourself.)';
+      gAction=ko2?'EXIT SHORT — 전량 즉시 청산':'EXIT SHORT — Close all immediately';
+      gDesc=ko2?'모든 숏 즉시 청산. 손실 감수하더라도 추가 손실 방지 최우선. 롱 전환 검토.':'Close ALL shorts now. Prevent further losses. Consider switching to long.';
+      exitSig=ko2?'⚠️ 지금 즉시 행동':'⚠️ Act right now';
+      exitDesc=ko2?'• 현재 시장가로 전량 청산\n• 숏 재진입은 6.0점 이상에서만\n• 롱 진입 적극 검토':'• Close at market price now\n• Only re-short above 6.0\n• Strongly consider going long';
+    }
+
+    if(el('sStatusTitle')) el('sStatusTitle').textContent=ko2?'📊 현재 시장 상태':'📊 MARKET STATUS';
+    if(el('sStatusMain'))  {el('sStatusMain').textContent=stMain;el('sStatusMain').style.color=result.acolor;}
+    if(el('sStatusDesc'))  el('sStatusDesc').textContent=stDesc;
+    if(el('sGuideTitle'))  el('sGuideTitle').textContent=ko2?'💡 숏 포지션 가이드':'💡 SHORT GUIDE';
+    if(el('sGuideAction')) {el('sGuideAction').textContent=gAction;el('sGuideAction').style.color=result.acolor;}
+    if(el('sGuideDesc'))   el('sGuideDesc').textContent=gDesc;
+    if(el('sExitTitle'))   el('sExitTitle').textContent=ko2?'🎯 숏 청산 조건':'🎯 SHORT EXIT';
+    if(el('sExitSig'))     el('sExitSig').textContent=exitSig;
+    if(el('sExitDesc'))    el('sExitDesc').textContent=exitDesc;
+
+  } else {
+    const ko2=currentLang==='ko';
+    const sc=result.final;
+    const el=(id)=>document.getElementById(id);
+    let stMain,stDesc,gAction,gDesc,nextDesc;
+
+    if(sc>=8.0){
+      stMain=ko2?'🟢 저점형 신호 다수 — 매수 타이밍':'🟢 Multiple Bottom Signals — Buy Timing';
+      stDesc=ko2?'현재 온체인·기술 지표 대부분이 저평가 구간을 가리킴. (※ 2018·2022년 바닥과 "비슷한 신호 조합"일 뿐, 정확히 같은 패턴이 반복된다는 보장은 아닙니다.)':'Most on-chain/technical indicators currently point to undervaluation. (※ A similar signal combination to 2018/2022 bottoms — not a guarantee the exact pattern repeats.)';
+      gAction=ko2?'FULL LONG — 전량 진입':'FULL LONG — Enter full position';
+      gDesc=ko2?'목표 비중 100% 진입. 레버리지 고려 가능. 스탑로스: 현재가 -15%. 장기 보유 전략.':'Enter 100%. Leverage possible. Stop loss -15%. Long-term hold.';
+      nextDesc=ko2?'✓ 모든 트리거 달성\n목표: 다음 반감기 후 12~18개월':'✓ All triggers achieved\nTarget: 12~18mo after next halving';
+    } else if(sc>=7.0){
+      stMain=ko2?'🟢 강한 저점 신호':'🟢 Strong Bottom Signal';
+      stDesc=ko2?'MVRV Z, NUPL 등 핵심 지표가 저점 구간. 역사적으로 최고의 매수 기회 중 하나.':'Core indicators in bottom zone. One of the best historical buy opportunities.';
+      gAction=ko2?'ADD LONG — 비중 70~100% 확대':'ADD LONG — Scale to 70~100%';
+      gDesc=ko2?'목표 비중 70~100% 분할 진입. 1~2차 진입 후 추가 하락 시 나머지 투입.':'Split entry 70~100%. Enter 1st tranche, add rest on dips.';
+      nextDesc=ko2?'• Hash Ribbon 회복 전환 → FULL LONG\n• Coinbase Premium 양전환 → 기관 진입 신호':'• Hash Ribbon recovery → FULL LONG\n• Coinbase Premium positive → institutional signal';
+    } else if(sc>=6.0){
+      stMain=ko2?'🟡 분할 진입 시작 구간':'🟡 Split Entry Zone';
+      stDesc=ko2?'저점 신호가 나타나고 있지만 확정 전. 분할 매수로 리스크 분산 권고.':'Bottom signals emerging, not confirmed. Spread risk with split entries.';
+      gAction=ko2?'SPLIT LONG — 30~50% 분할 진입':'SPLIT LONG — 30~50% split entry';
+      gDesc=ko2?'목표 비중 30~50% 1차 진입. 트리거 달성 시마다 추가 진입. 한 번에 올인 금지.':'Enter 30~50% first. Add more at each trigger. No all-in.';
+      nextDesc=ko2?'• MVRV Z 0 이하 → ADD LONG\n• Hash Ribbon 회복 전환\n• Coinbase Premium 양전환':'• MVRV Z below 0 → ADD LONG\n• Hash Ribbon recovery\n• Coinbase Premium turns positive';
+    } else if(sc>=5.0){
+      stMain=ko2?'🟡 관찰 구간 — 트리거 대기':'🟡 Watch Zone — Await Triggers';
+      stDesc=ko2?'일부 저점 신호 있으나 확신 부족. 핵심 트리거 발생 전까지 소량만 허용.':'Some signals but not enough. Small entry only before key triggers.';
+      gAction=ko2?'WATCH — 소량 선진입 10~20%':'WATCH — Small entry 10~20%';
+      gDesc=ko2?'성급한 진입 금지. 전체 계획의 10~20%만 선진입 허용. 손절 명확히 설정.':'No rush. 10~20% entry max. Set clear stop loss.';
+      nextDesc=ko2?'• Coinbase Premium 양전환\n• NUPL 0% 이하\n• 선물 갭 음수 전환':'• Coinbase Premium turns positive\n• NUPL drops below 0%\n• Futures gap turns negative';
+    } else if(sc>=3.5){
+      stMain=ko2?'🟠 조정 진행 중 — 진입 이름':'🟠 Correction In Progress — Too Early';
+      stDesc=ko2?'시장 조정 진행 중. 기존 롱 포지션 일부 정리 고려. 신규 진입은 아직 이름.':'Market correcting. Consider trimming longs. Too early for new entry.';
+      gAction=ko2?'SPLIT EXIT — 30~50% 일부 정리':'SPLIT EXIT — Trim 30~50%';
+      gDesc=ko2?'기존 롱의 30~50% 정리. 현금 비중 확보. 5.0점 이상 회복 시 재진입.':'Trim 30~50% of long. Build cash. Re-enter when score recovers to 5.0+.';
+      nextDesc=ko2?'재진입 조건:\n• 점수 5.0 이상 회복\n• Coinbase Premium 개선\n• STH-SOPR 0.97 이하':'Re-entry:\n• Score above 5.0\n• Coinbase Premium improves\n• STH-SOPR below 0.97';
+    } else {
+      stMain=ko2?'🔴 고점/과열 — 즉시 청산':'🔴 Top/Overheat — Exit Now';
+      stDesc=ko2?'시장 고점 신호. 롱 포지션 매우 위험. 수익 있다면 즉시 확보.':'Top signals. Long position very risky. Take profit immediately.';
+      gAction=ko2?'EXIT LONG — 전량 즉시 청산':'EXIT LONG — Exit all immediately';
+      gDesc=ko2?'모든 롱 청산. 수익 확보 우선. 손실 발생 시에도 추가 손실 방지 최우선.':'Close all longs. Protect profits. Prevent further losses.';
+      nextDesc=ko2?'재진입 조건:\n• 점수 6.0 이상\n• 온체인 지표 저점 진입 확인':'Re-entry:\n• Score above 6.0\n• On-chain confirms bottom';
+    }
+
+    if(el('lStatusTitle')) el('lStatusTitle').textContent=ko2?'📊 현재 시장 상태':'📊 MARKET STATUS';
+    if(el('lStatusMain'))  {el('lStatusMain').textContent=stMain;el('lStatusMain').style.color=result.acolor;}
+    if(el('lStatusDesc'))  el('lStatusDesc').textContent=stDesc;
+    if(el('lGuideTitle'))  el('lGuideTitle').textContent=ko2?'💡 롱 포지션 가이드':'💡 LONG GUIDE';
+    if(el('lGuideAction')) {el('lGuideAction').textContent=gAction;el('lGuideAction').style.color=result.acolor;}
+    if(el('lGuideDesc'))   el('lGuideDesc').textContent=gDesc;
+    if(el('lNextTitle'))   el('lNextTitle').textContent=ko2?'🎯 다음 진입 조건':'🎯 NEXT TRIGGER';
+    if(el('lNextDesc'))    el('lNextDesc').textContent=nextDesc;
+    if(el('lSplitTitle'))  el('lSplitTitle').textContent=ko2?'💰 분할 매수 계획':'💰 SPLIT ENTRY PLAN';
+  const assetInput = document.getElementById('userAsset');
+  if(assetInput && document.activeElement !== assetInput) assetInput.value = TOTAL_USDT;
+  const assetLbl = document.getElementById('lAssetLabel');
+  if(assetLbl) assetLbl.textContent = ko2?'투자 자산':'Investment';
+  }
+
+  // Grids — buy: 고정 키 배분, sell: 동적 배분
+  const det=result.details;
+  const keys=Object.keys(det);
+  let g1k,g2k,g3k,g4k;
+  if(currentMode==='buy') {
+    // buy: 온체인(3) / 채굴자+심리(3) / 기관수급(3) / 사이클(1)
+    const buyG1 = ['mvrv_z','nupl','realized','alt_valuation','alt_drawdown'];
+    const buyG2 = ['hash_ribbon','sth_sopr','funding','rsi','vol_change'];
+    const buyG3 = ['cb_premium','lth_supply','dom'];
+    const buyG4 = ['halving','btc_corr','btc_corr_tech'].filter(k=>det[k]);
+    g1k = buyG1.filter(k=>det[k]);
+    g2k = buyG2.filter(k=>det[k]);
+    g3k = buyG3.filter(k=>det[k]);
+    g4k = buyG4.filter(k=>det[k]);
+    // 나머지 키
+    const used = [...g1k,...g2k,...g3k,...g4k];
+    const rest = keys.filter(k=>!used.includes(k));
+    g4k = [...g4k, ...rest];
+  } else {
+    // sell: 키 이름 기반 고정 배치 (BTC family와 알트코인 둘 다 대응)
+    const sellG1 = ['mvrv_z','nupl','sth_sopr','alt_short_valuation'];          // 온체인 밸류에이션
+    const sellG2 = ['funding','alt_short_ath','rsi','vol_change'];               // 채굴자/심리
+    const sellG3 = ['cb_premium','lth_supply'];                                  // 기관 수급(선행)
+    const sellG4 = ['dom','halving','btc_corr_tech'];                           // 사이클 위치
+    g1k = sellG1.filter(k=>det[k]);
+    g2k = sellG2.filter(k=>det[k]);
+    g3k = sellG3.filter(k=>det[k]);
+    g4k = sellG4.filter(k=>det[k]);
+    // 매핑 안 된 나머지 키는 g4로
+    const usedSell = [...g1k,...g2k,...g3k,...g4k];
+    const restSell = keys.filter(k=>!usedSell.includes(k));
+    g4k = [...g4k, ...restSell];
+  }
+  document.getElementById('g1').innerHTML=(g1k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
+  document.getElementById('g2').innerHTML=(g2k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
+  document.getElementById('g3').innerHTML=(g3k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
+  document.getElementById('g4').innerHTML=(g4k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
+
+  // 빈 섹션은 헤더까지 함께 숨김 (알트코인 SHORT처럼 카드가 없는 섹션 대응)
+  [['g1',(g1k||[]).filter(k=>det[k])],['g2',(g2k||[]).filter(k=>det[k])],
+   ['g3',(g3k||[]).filter(k=>det[k])],['g4',(g4k||[]).filter(k=>det[k])]].forEach(([gridId,arr])=>{
+    const gridEl = document.getElementById(gridId);
+    if(!gridEl) return;
+    const headerEl = gridEl.previousElementSibling; // sec-hd는 grid 바로 위 형제
+    const isEmpty = arr.length === 0;
+    gridEl.style.display = isEmpty ? 'none' : '';
+    if(headerEl && headerEl.classList.contains('sec-hd')) {
+      headerEl.style.display = isEmpty ? 'none' : '';
+    }
+  });
+
+  // Breakdown
+  document.getElementById('bkGrid').innerHTML=keys.map(k=>{
+    const d=det[k];const r=d.score/d.max;const c=col(r);
+    return `<div class="bk-row"><span class="bk-n">${d.label}</span>
+      <span class="bk-r" style="color:${c}">${d.score}/${d.max}
+        <div class="mbar"><div class="mfill" style="width:${Math.round(r*100)}%;background:${c}"></div></div>
+      </span></div>`;
+  }).join('');
+  document.getElementById('bkTot').textContent=`${sc.toFixed(1)} / 10`;
+  document.getElementById('bkTot').style.color=scoreColor;
+  // 점수합산 헤더 한글화
+  const bkHd=document.querySelector('.bk-hd');
+  if(bkHd) bkHd.textContent=isKo?`점수 합산 (${result.max}pt → 10점 환산)`:`Score Breakdown (${result.max}pt → 10pt)`;
+  // 트리거 헤더
+  const trigTitleEl=document.getElementById('trigTitle');
+  if(trigTitleEl) {
+    if(currentMode==='buy') trigTitleEl.textContent=isKo?'다음 단계 트리거':'Next Level Triggers';
+    else trigTitleEl.textContent=isKo?'숏 신호 트리거':'Short Signal Triggers';
+  }
+  // 분할계획 단계 라벨
+  const stepNow=document.querySelector('.step-now');
+  if(stepNow&&isKo) stepNow.textContent=stepNow.textContent.replace('NOW','지금');
+
+  // Triggers
+  renderTriggers(result, ind);
+
+  // Split plan (buy mode only) — 점수 6.0 이상(SPLIT LONG 이상)일 때만 진입 단계 활성화
+  if(currentMode==='buy') {
+    const ko4 = currentLang==='ko';
+    const canEnter = sc >= 6.0; // SPLIT LONG 이상이어야 분할 진입 시작
+    const steps=[
+      {pct:25,cond:canEnter?(ko4?`지금 진입 (${sc.toFixed(1)}점)`:`Now (${sc.toFixed(1)}pt)`):(ko4?`점수 6.0 이상 대기 (현재 ${sc.toFixed(1)}점)`:`Await 6.0+ (now ${sc.toFixed(1)}pt)`),
+       price:livePrice||p, now:canEnter, waiting:!canEnter},
+      {pct:30,cond:ko4?'Hash Ribbon 회복 전환':'Hash Ribbon Recovery Cross',price:null,range:'$50K~$58K'},
+      {pct:25,cond:ko4?'Coinbase Premium 양전환':'Coinbase Premium Turns Positive',price:null,range:'$52K~$62K'},
+      {pct:20,cond:ko4?'NUPL 0% + MVRV Z ≤ 0':'NUPL 0% + MVRV Z ≤ 0',price:null,range:'$45K~$55K'},
+    ];
+    document.getElementById('splitRows').innerHTML=steps.map((s,i)=>{
+      const usdt=Math.round(TOTAL_USDT*s.pct/100);
+      const refPrice = s.price || p;
+      const coinAmt = refPrice ? (usdt/refPrice) : 0;
+      const coinAmtStr = coinAmt >= 1 ? coinAmt.toFixed(4) : coinAmt.toFixed(6);
+      const stepLabel = s.now ? `${i+1} ◀ NOW` : (s.waiting ? `${i+1} ⏸` : `${i+1}`);
+      const stepCls = s.now ? 'step-now' : 'step-wait';
+      return `<div class="split-row">
+        <div class="split-top">
+          <span class="${stepCls}">${stepLabel}</span>
+          <span class="split-cond">${s.cond}</span>
+        </div>
+        <div class="split-bot">
+          <span style="color:${s.waiting?'var(--t3)':'var(--yellow)'};font-weight:700;font-size:13px">${s.pct}%</span>
+          <span style="color:${s.waiting?'var(--t3)':'var(--t1)'};font-size:11px;font-weight:600">${usdt.toLocaleString()} USDT</span>
+        </div>
+        <div style="font-size:10px;color:var(--t3);margin-top:2px">≈ ${coinAmtStr} ${currentCoin}</div>
+      </div>`;
+    }).join('');
+  }
+
+  // Timestamp
+  document.getElementById('tsLabel').textContent=
+    `Updated ${new Date().toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})}`;
+
+  // History
+  saveHistory(sc);
+  drawHistory();
+
+  // Alerts
+  checkAlerts(sc, ind);
+}
+
+// ═══════════════════════════════════════════════════════
+// TRIGGERS
+// ═══════════════════════════════════════════════════════
+function renderTriggers(result, ind) {
+  const sc=result.final;
+  const ko=currentLang==='ko';
+  const ach=ko?'달성':'Achieved';
+  const trig_ko=ko?'발생':'Triggered!';
+  let rows=[];
+  if(currentMode==='buy') {
+    const triggers=[
+      {en:'Hash Ribbon 30d>60d recovery',ko:'Hash Ribbon 30일MA > 60일MA 회복 전환', done: ind.hr_status==='Recovering'},
+      {en:'Coinbase Premium turns positive',ko:'Coinbase Premium 양전환', done: ind.cb_premium>0},
+      {en:'NUPL below 0% (Fear zone)',ko:'NUPL 0% 이하 (공포 구간)', done: ind.nupl<=0},
+      {en:'MVRV Z Score ≤ 0',ko:'MVRV Z Score 0 이하', done: ind.mvrv_z<=0},
+      {en:'Futures-Spot gap negative',ko:'선물-현물 갭 음수 전환', done: ind.funding<0},
+    ];
+    rows=triggers.map(t=>`
+      <div class="trow ${t.done?'done':'pending'}">
+        <span class="tnum">${t.done?'✓':'○'}</span>
+        ${ko?t.ko:t.en}${t.done?` — <b>${t.done?ach:''}</b>`:''}
+      </div>`);
+  } else {
+    const triggers=[
+      {en:'MVRV Z Score ≥ 3.5 (euphoria)',ko:'MVRV Z ≥ 3.5 (도취 구간)', done: ind.mvrv_z>=3.5},
+      {en:'NUPL ≥ 75% (extreme greed)',ko:'NUPL ≥ 75% (극단 탐욕)', done: ind.nupl>=0.75},
+      {en:'Fear & Greed ≥ 80',ko:'공포·탐욕 ≥ 80', done: (ind.fear_greed||0)>=80},
+      {en:'Futures contango ≥ 0.15%',ko:'선물 프리미엄 ≥ 0.15%', done: ind.funding>=0.15},
+      {en:'Coinbase Premium ≥ 0.3%',ko:'Coinbase Premium ≥ 0.3%', done: ind.cb_premium>=0.3},
+    ];
+    rows=triggers.map(t=>`
+      <div class="trow ${t.done?'done':'pending'}">
+        <span class="tnum">${t.done?'✓':'○'}</span>
+        ${ko?t.ko:t.en}${t.done?` — <b>${trig_ko}</b>`:''}
+      </div>`);
+  }
+  document.getElementById('trigRows').innerHTML=rows.join('');
+}
+
+// ═══════════════════════════════════════════════════════
+// SCORE HISTORY
+// ═══════════════════════════════════════════════════════
+function saveHistory(score) {
+  // long 모드 점수만 저장 (short 모드는 별도)
+  const modeKey = currentMode === 'buy' ? 'long' : 'short';
+  const key = `history_${currentCoin}_${modeKey}`;
+  let h=[];
+  try { h=JSON.parse(localStorage.getItem(key)||'[]'); } catch(e){}
+  const now=Date.now();
+  // 직전 저장값과 5분 이내로 가까우면 중복 저장 방지
+  const lastSaved = h.length > 0 ? h[h.length-1].t : 0;
+  const shouldSave = now - lastSaved > 4*60*1000; // 4분 이상 지났을 때만 신규 저장
+
+  if(shouldSave) {
+    h.push({t:now, s:parseFloat(score.toFixed(2))});
+    h=h.slice(-2000); // 로컬은 최근 2000개만 (서버가 장기 보관 담당)
+    try { localStorage.setItem(key,JSON.stringify(h)); } catch(e){}
+    // 서버(Firebase)에도 비동기 저장 — 모든 사용자가 공유하는 히스토리
+    saveHistoryToServer(currentCoin, modeKey, now, score);
+  }
+  scoreHistory=h;
+  currentScore = score;
+}
+
+// Firebase에 점수 히스토리 저장 (전역 공유, 코인별/모드별)
+let historyDBReady = false;
+function ensureHistoryDB() {
+  if(historyDBReady) return true;
+  try {
+    if(typeof firebase === 'undefined') return false;
+    if(!firebase.apps || !firebase.apps.length) {
+      firebase.initializeApp({
+        apiKey: "AIzaSyAdmKYQ3w02e9gbvcRUEM7Q_jcgBKtkgDw",
+        authDomain: "btctiming-chat.firebaseapp.com",
+        databaseURL: "https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "btctiming-chat",
+        storageBucket: "btctiming-chat.firebasestorage.app",
+        messagingSenderId: "1037450881238",
+        appId: "1:1037450881238:web:d21d0deff6e9aef1bf4177",
+        measurementId: "G-VD01B9SL3K"
+      });
+    }
+    if(!chatDB) chatDB = firebase.database();
+    historyDBReady = true;
+    return true;
+  } catch(e) {
+    console.error('[history] Firebase init failed:', e);
+    return false;
+  }
+}
+
+function saveHistoryToServer(coin, modeKey, t, score) {
+  if(!ensureHistoryDB()) return;
+  const path = `scoreHistory/${coin}_${modeKey}`;
+  chatDB.ref(path).push({t, s: parseFloat(score.toFixed(2))}).then(() => {
+    pruneOldHistory(path);
+  }).catch(e => console.error('[history] save failed:', e));
+}
+
+// 서버 히스토리도 일정 개수 넘으면 오래된 것부터 삭제 (코인당 최대 2000개)
+const HISTORY_MAX_POINTS = 2000;
+function pruneOldHistory(path) {
+  if(!chatDB) return;
+  chatDB.ref(path).orderByChild('t').once('value', (snap) => {
+    const data = snap.val();
+    if(!data) return;
+    const entries = Object.entries(data).sort((a,b) => a[1].t - b[1].t);
+    if(entries.length > HISTORY_MAX_POINTS) {
+      const toDelete = entries.slice(0, entries.length - HISTORY_MAX_POINTS);
+      toDelete.forEach(([key]) => chatDB.ref(path + '/' + key).remove());
+    }
+  });
+}
+
+// 서버에서 히스토리 불러오기 (페이지 로드/코인 전환 시)
+function loadHistoryFromServer(coin, modeKey, callback) {
+  if(!ensureHistoryDB()) { callback(null); return; }
+  const path = `scoreHistory/${coin}_${modeKey}`;
+  chatDB.ref(path).orderByChild('t').limitToLast(500).once('value', (snap) => {
+    const data = snap.val();
+    if(!data) { callback(null); return; }
+    const points = Object.values(data).sort((a,b) => a.t - b.t);
+    callback(points);
+  }).catch(e => {
+    console.error('[history] load failed:', e);
+    callback(null);
+  });
+}
+
+let serverHistoryLoaded = {}; // 코인+모드별 서버 로드 여부 캐시
+
+function drawHistory() {
+  // 서버 히스토리 최초 1회 로드 (코인+모드별)
+  const modeKey0 = currentMode === 'buy' ? 'long' : 'short';
+  const loadKey = `${currentCoin}_${modeKey0}`;
+  if(!serverHistoryLoaded[loadKey]) {
+    serverHistoryLoaded[loadKey] = true; // 중복 요청 방지
+    loadHistoryFromServer(currentCoin, modeKey0, (serverPoints) => {
+      if(serverPoints && serverPoints.length > 0) {
+        // 서버 데이터를 로컬과 병합 (서버가 더 풍부하면 우선)
+        const localKey = `history_${currentCoin}_${modeKey0}`;
+        let local = [];
+        try { local = JSON.parse(localStorage.getItem(localKey)||'[]'); } catch(e){}
+        const merged = [...serverPoints, ...local];
+        // 중복 제거 (같은 시각 데이터)
+        const seen = new Set();
+        const dedup = merged.filter(p => {
+          const k = Math.floor(p.t/60000); // 1분 단위로 묶어서 중복 체크
+          if(seen.has(k)) return false;
+          seen.add(k);
+          return true;
+        }).sort((a,b)=>a.t-b.t);
+        try { localStorage.setItem(localKey, JSON.stringify(dedup.slice(-2000))); } catch(e){}
+        drawHistory(); // 데이터 갱신 후 재렌더
+      }
+    });
+  }
+
+  let data = getHistoryData();
+  // 현재 점수를 항상 최신 포인트로 표시
+  if(currentScore > 0) {
+    const now = Date.now();
+    if(data.length === 0) {
+      data = [{t: now, s: currentScore}];
+    } else {
+      // 마지막 포인트가 2분 이내면 업데이트, 아니면 추가
+      if(now - data[data.length-1].t < 120000) {
+        data = [...data.slice(0,-1), {t: now, s: currentScore}];
+      } else {
+        data = [...data, {t: now, s: currentScore}];
+      }
+    }
+  }
+  scoreHistory = data;
+
+  const canvas = document.getElementById('historyCanvas');
+  if(!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio||1;
+  const w = canvas.offsetWidth||600;
+  const h = canvas.offsetHeight||120;
+  canvas.width = w*dpr; canvas.height = h*dpr;
+  ctx.scale(dpr,dpr);
+
+  if(data.length < 2) {
+    ctx.fillStyle='rgba(255,255,255,0.15)';
+    ctx.font='11px system-ui'; ctx.textAlign='center';
+    ctx.fillText('Score history will appear after multiple data points', w/2, h/2);
+    return;
+  }
+
+  const scores = data.map(x=>x.s);
+  const minS = Math.min(...scores, 6);
+  const maxS = Math.max(...scores, 10);
+  const pad = {l:28,r:10,t:10,b:20};
+  const pw = w-pad.l-pad.r;
+  const ph = h-pad.t-pad.b;
+
+  // Zone backgrounds
+  const zones = [
+    {min:8.0,max:10,color:'rgba(34,197,94,0.07)',label:'FULL LONG'},
+    {min:7.0,max:8.0,color:'rgba(74,222,128,0.05)',label:'ADD LONG'},
+    {min:6.0,max:7.0,color:'rgba(134,239,172,0.04)',label:'SPLIT LONG'},
+    {min:5.0,max:6.0,color:'rgba(163,230,53,0.03)',label:'WATCH'},
+    {min:3.5,max:5.0,color:'rgba(251,191,36,0.03)',label:'SPLIT EXIT'},
+    {min:0,max:3.5,color:'rgba(239,68,68,0.03)',label:'EXIT LONG'},
+  ];
+  zones.forEach(z=>{
+    const y1=pad.t+ph-(z.max-minS)/(maxS-minS)*ph;
+    const y2=pad.t+ph-(z.min-minS)/(maxS-minS)*ph;
+    ctx.fillStyle=z.color;
+    ctx.fillRect(pad.l,y1,pw,y2-y1);
+  });
+
+  // Grid lines
+  ctx.lineWidth=1;
+  [3.5,5.0,6.0,7.0,8.0].forEach(v=>{
+    if(v<minS||v>maxS) return;
+    const y=pad.t+ph-(v-minS)/(maxS-minS)*ph;
+    ctx.strokeStyle=v>=8.0?'rgba(74,222,128,0.15)':v>=7.0?'rgba(190,242,100,0.1)':'rgba(255,255,255,0.04)';
+    ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(w-pad.r,y);ctx.stroke();
+    ctx.fillStyle='rgba(255,255,255,0.25)';
+    ctx.font='8px system-ui'; ctx.textAlign='right';
+    ctx.fillText(v.toFixed(1),pad.l-3,y+3);
+  });
+
+  // Gradient fill
+  const grad=ctx.createLinearGradient(0,pad.t,0,h-pad.b);
+  grad.addColorStop(0,'rgba(74,222,128,0.25)');
+  grad.addColorStop(1,'rgba(74,222,128,0)');
+  ctx.beginPath();
+  data.forEach((p,i)=>{
+    const x=pad.l+i/(data.length-1)*pw;
+    const y=pad.t+ph-(p.s-minS)/(maxS-minS)*ph;
+    i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+  });
+  ctx.lineTo(pad.l+pw,h-pad.b);
+  ctx.lineTo(pad.l,h-pad.b);
+  ctx.closePath();
+  ctx.fillStyle=grad; ctx.fill();
+
+  // Line
+  ctx.beginPath(); ctx.strokeStyle='#4ade80'; ctx.lineWidth=1.5;
+  data.forEach((p,i)=>{
+    const x=pad.l+i/(data.length-1)*pw;
+    const y=pad.t+ph-(p.s-minS)/(maxS-minS)*ph;
+    i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+  });
+  ctx.stroke();
+
+  // Latest dot + value
+  const last=data[data.length-1];
+  const lx=pad.l+pw;
+  const ly=pad.t+ph-(last.s-minS)/(maxS-minS)*ph;
+  ctx.beginPath();ctx.arc(lx,ly,4,0,Math.PI*2);
+  ctx.fillStyle='#4ade80';ctx.fill();
+  ctx.fillStyle='rgba(255,255,255,0.8)';ctx.font='bold 9px system-ui';ctx.textAlign='right';
+  ctx.fillText(last.s.toFixed(1),lx-7,ly-5);
+
+  // Time labels (x-axis, 5 labels)
+  ctx.fillStyle='rgba(255,255,255,0.2)';ctx.font='8px system-ui';ctx.textAlign='center';
+  const steps=[0,0.25,0.5,0.75,1];
+  steps.forEach(r=>{
+    const idx=Math.min(Math.round(r*(data.length-1)),data.length-1);
+    const p=data[idx];
+    const x=pad.l+r*pw;
+    let lbl='';
+    const shortR=['1d'].includes(histPeriod);
+    if(shortR) lbl=new Date(p.t).toLocaleTimeString('ko',{hour:'2-digit',minute:'2-digit'});
+    else lbl=new Date(p.t).toLocaleDateString('ko',{month:'numeric',day:'numeric'});
+    ctx.fillText(lbl,x,h-pad.b+12);
+  });
+
+  // Range info
+  const sub=document.getElementById('histRangeSub');
+  if(sub){
+    const rangeLabel = {
+      '1m':'Last 1h','5m':'Last 6h','15m':'Last 24h','30m':'Last 3d',
+      '1h':'Last 7d','4h':'Last 14d','1d':'Last 30d','1w':'Last 90d','1M':'All time'
+    };
+    const rlKo = {
+      '1m':'최근 1시간','5m':'최근 6시간','15m':'최근 24시간','30m':'최근 3일',
+      '1h':'최근 7일','4h':'최근 14일','1d':'최근 30일','1w':'최근 90일','1M':'전체'
+    };
+    const pLabels={'1d':currentLang==='ko'?'최근 24시간':'Last 24h','7d':currentLang==='ko'?'최근 7일':'Last 7d','30d':currentLang==='ko'?'최근 30일':'Last 30d','all':currentLang==='ko'?'전체':'All time'};
+    sub.textContent=`${pLabels[histPeriod]||histPeriod} · ${data.length} ${currentLang==='ko'?'포인트':'points'}`;
+    // 통계 업데이트
+    if(data.length > 0) {
+      const scores = data.map(x=>x.s);
+      const hi = Math.max(...scores);
+      const lo = Math.min(...scores);
+      const now = scores[scores.length-1];
+      const hEl=document.getElementById('histHigh');
+      const lEl=document.getElementById('histLow');
+      const nEl=document.getElementById('histNow');
+      if(hEl) hEl.textContent=hi.toFixed(1);
+      if(lEl) lEl.textContent=lo.toFixed(1);
+      if(nEl) nEl.textContent=now.toFixed(1);
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// NOTIFICATIONS
+// ═══════════════════════════════════════════════════════
+function openModal(){document.getElementById('notifModal').classList.add('open')}
+function closeModal(){document.getElementById('notifModal').classList.remove('open')}
+function toggleAlert(el){
+  el.classList.toggle('on');
+  saveAlertSettings();
+}
+
+// 알림 토글 상태를 브라우저에 저장/복원 (새로고침해도 설정 유지)
+const ALERT_IDS = ['a2','a3','a4','b1','b2','b3'];
+function saveAlertSettings(){
+  const state = {};
+  ALERT_IDS.forEach(id=>{
+    const el=document.getElementById(id);
+    if(el) state[id]=el.classList.contains('on');
+  });
+  try { localStorage.setItem('alertSettings', JSON.stringify(state)); } catch(e){}
+}
+function loadAlertSettings(){
+  try {
+    const raw = localStorage.getItem('alertSettings');
+    if(!raw) return; // 저장된 값이 없으면 HTML에 박혀있는 기본값(on/off) 그대로 사용
+    const state = JSON.parse(raw);
+    ALERT_IDS.forEach(id=>{
+      if(!(id in state)) return;
+      const el=document.getElementById(id);
+      if(el) el.classList.toggle('on', !!state[id]);
+    });
+  } catch(e){}
+}
+async function requestNotif() {
+  const statusEl = document.getElementById('notifStatus');
+  const ko = currentLang === 'ko';
+  if(!('Notification' in window)) {
+    if(statusEl) { statusEl.textContent = ko?'이 브라우저는 알림을 지원하지 않습니다.':'This browser does not support notifications.'; statusEl.style.color='var(--red)'; }
+    return;
+  }
+  try {
+    const p = await Notification.requestPermission();
+    notifGranted = (p === 'granted');
+    if(statusEl) {
+      if(notifGranted) { statusEl.textContent = ko?'✓ 알림이 활성화되었습니다':'✓ Notifications enabled'; statusEl.style.color='var(--green)'; }
+      else { statusEl.textContent = ko?'알림 권한이 거부되었습니다.':'Notification permission denied.'; statusEl.style.color='var(--red)'; }
+    }
+  } catch(e) {
+    console.error('[notif] permission request failed:', e);
+    if(statusEl) { statusEl.textContent = ko?'알림 설정 중 오류 발생':'Error setting up notifications'; statusEl.style.color='var(--red)'; }
+  }
+}
+
+// 점수 기반 LONG/SHORT 트리거만 체크 (가격 알림 제거됨)
+// 코인/모드별로 직전 점수를 따로 추적 — 안 그러면 코인을 바꿨을 때
+// "이전 코인의 점수 → 새 코인의 점수"를 마치 같은 코인의 시간 흐름인 것처럼
+// 잘못 비교해서, 정작 새 코인이 이미 알림 구간에 들어와 있어도 못 잡거나
+// 반대로 엉뚱하게 잘못 울리는 문제가 있었음.
+let lastScoreByKey = {};
+
+function checkAlerts(score, ind) {
+  const key = `${currentCoin}_${currentMode}`;
+  const isFirstView = !(key in lastScoreByKey); // 이 세션에서 이 코인/모드를 처음 보는 경우
+  // 처음 보는 코인이면 "이전 점수"가 없으므로 -Infinity로 간주.
+  // 이렇게 하면 코인을 막 전환했을 때 그 코인이 이미 알림 구간에 들어와 있으면
+  // (이전엔 비교 대상이 없어서 조용히 넘어갔던 것과 달리) 바로 알림이 울림.
+  const prev = isFirstView ? -Infinity : lastScoreByKey[key];
+  lastScoreByKey[key] = score;
+
+  const on=id=>document.getElementById(id)?.classList.contains('on');
+  const ko = currentLang === 'ko';
+  if(currentMode === 'buy') {
+    if(on('a2')&&prev<6.0&&score>=6.0) flashAlert(ko?`${currentCoin} 롱 점수 ${score.toFixed(1)} — 분할 매수 시작`:`${currentCoin} Long score ${score.toFixed(1)} — Split Long`, 'var(--green2)');
+    if(on('a3')&&prev<7.0&&score>=7.0) flashAlert(ko?`${currentCoin} 롱 점수 ${score.toFixed(1)} — 비중 확대`:`${currentCoin} Long score ${score.toFixed(1)} — Add Long`, 'var(--green)');
+    if(on('a4')&&prev<8.0&&score>=8.0) flashAlert(ko?`${currentCoin} 롱 점수 ${score.toFixed(1)} — 풀 롱!`:`${currentCoin} Long score ${score.toFixed(1)} — Full Long!`, '#22c55e');
+  } else {
+    if(on('b1')&&prev<6.0&&score>=6.0) flashAlert(ko?`${currentCoin} 숏 점수 ${score.toFixed(1)} — 숏 준비`:`${currentCoin} Short score ${score.toFixed(1)} — Prepare Short`, 'var(--orange)');
+    if(on('b2')&&prev<7.0&&score>=7.0) flashAlert(ko?`${currentCoin} 숏 점수 ${score.toFixed(1)} — 숏 추가`:`${currentCoin} Short score ${score.toFixed(1)} — Add Short`, 'var(--red)');
+    if(on('b3')&&prev<8.0&&score>=8.0) flashAlert(ko?`${currentCoin} 숏 점수 ${score.toFixed(1)} — 풀 숏!`:`${currentCoin} Short score ${score.toFixed(1)} — Full Short!`, '#dc2626');
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// MAIN LOAD
+// ═══════════════════════════════════════════════════════
+async function loadAll() {
+  const myToken = loadToken;
+  const btn=document.getElementById('refreshBtn');
+  btn.style.opacity='.4';btn.style.pointerEvents='none';
+  document.getElementById('err').style.display='none';
+
+  // 캐시가 있으면 오버레이를 즉시 숨김 — 재방문 시 빈 화면 없이 바로 표시
+  try {
+    const hasCached = localStorage.getItem(`btct_cache_${currentCoin}_buy`);
+    if(hasCached) {
+      const ov=document.getElementById('overlay'); if(ov) ov.style.display='none';
+    }
+  } catch(e){}
+
+  try {
+    const loadingCoin = currentCoin; // 로드 시작 시점의 코인
+    document.getElementById('ovTxt').textContent=`Fetching ${currentCoin} data...`;
+
+    // 서버(PHP)에서 LONG/SHORT 점수를 동시에 받아옴 — 계산 로직은 서버에서만 실행됨
+    const [buyData, sellData] = await Promise.all([
+      fetchScoreFromAPI(currentCoin, 'buy'),
+      fetchScoreFromAPI(currentCoin, 'sell'),
+    ]);
+
+    // 티커바 도미넌스/마켓캡/볼륨 — api.php 응답에서 직접 채움 (CoinGecko 별도 호출 불필요)
+    updateTickerFromAPI(buyData);
+
+    // 토큰 불일치 = 다른 코인으로 전환됨 → 결과 무시
+    if(myToken !== loadToken || loadingCoin !== currentCoin) {
+      console.log('Coin switched, ignoring stale data');
+      return;
+    }
+
+    const p = livePrice || buyData.price || 60000;
+
+    // ind: 화면 표시용 메타데이터 + 서버가 계산한 결과(_buyResult, _sellResult) 포함
+    const raw = buyData.raw || {};
+    const ind = {
+      coin: currentCoin,
+      price: p,
+      ma200w: buyData.ma200w || 62000,
+      fear_greed: buyData.fear_greed ?? 13,
+      fg_label: buyData.fg_label || 'Extreme Fear',
+      ath_drop: buyData.ath_drop,
+      realized_price: buyData.realized_price,
+      // 트리거 체크리스트 패널용 raw 값 (서버에서 전달받음, 계산식은 노출 안 됨)
+      mvrv_z: raw.mvrv_z,
+      nupl: raw.nupl,
+      funding: raw.funding,
+      cb_premium: raw.cb_premium,
+      hr_status: raw.hr_status,
+      _buyResult: buyData.result,
+      _sellResult: sellData.result,
+    };
+
+    renderAll(ind);
+
+  } catch(e) {
+    document.getElementById('err').textContent=`⚠ Error: ${e.message}`;
+    document.getElementById('err').style.display='block';
+  } finally {
+    btn.style.opacity='';btn.style.pointerEvents='';
+    // 오버레이는 첫 로딩 후 완전히 제거
+    const ov = document.getElementById('overlay');
+    if(ov) ov.style.display='none';
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════
+// i18n
+// ═══════════════════════════════════════════════════════
+const LANGS = {
+  en: {
+    // NAV
+    navInsights:'Blog',
+    buyTiming:'📈 LONG Timing', sellTiming:'📉 SHORT Timing',
+    livePriceLabel:'Price · Binance', fgLabel:'Fear & Greed',
+    rpLabel:'Realized Price Gap', maLabel:'200W MA (ref)',
+    splitPlan:'Split Entry Plan', splitTitle:'Allocation by Stage',
+    splitStep1:(s)=>`Now (Score ${s})`, splitStep2:'Hash Ribbon Recovery',
+    splitStep3:'Coinbase Premium → Positive', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Updated',
+    // Mode labels
+    modeTitle_buy:'LONG TIMING SCORE', modeTitle_sell:'SELL PRESSURE GAUGE',
+    modeSub_buy:'Cycle bottom long entry model', modeSub_sell:'Short entry timing model',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ How to read Sell Score',
+    sellExplain_low:'🟢 LOW (0~3): Market is in bottom zone. No exit signal. Hold or accumulate.',
+    sellExplain_mid:'🟡 MID (4~6): Market heating up. Monitor for partial reduction.',
+    sellExplain_high:'🔴 HIGH (7~10): Strong sell signal. Exit long / Consider short entry.',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Realized Price Gap',
+    ind_alt_valuation:'Price vs Est. Realized', ind_alt_drawdown:'ATH Drawdown',
+    ind_alt_short_val:'Price vs Est. Realized (Short)', ind_alt_short_ath:'ATH Proximity — Overheat',
+    ind_rsi:'RSI (14d)', ind_vol_change:'Volume Change (24h vs 7d)', ind_btc_corr_tech:'BTC Correlation (30d)',
+    ind_buy_pressure:'Live Buy-Led Volume — FOMO', ind_sell_pressure:'Live Sell-Led Volume — Capitulation',
+    desc_buy_pressure:`Share of the most recent 15-minute candles' volume driven by aggressive buying. A high ratio (65%+) combined with a volume spike and a green candle can signal FOMO-driven overheating near a local top. Uses 15-minute data instead of daily, so it reflects conditions almost in real time (15min–1hr lag vs. up to 24hr for daily volume).`,
+    desc_sell_pressure:`Share of the most recent 15-minute candles' volume driven by aggressive selling. A high ratio (58%+) combined with a volume spike and a red candle can signal capitulation selling that often precedes a reversal near a local bottom. Uses 15-minute data instead of daily, so it reflects conditions almost in real time.`,
+    desc_rsi:`Relative Strength Index over 14 days, a momentum oscillator measuring the speed and magnitude of recent price changes. RSI below 30 indicates oversold conditions (often a bottom signal), while RSI above 70 indicates overbought conditions (often a top signal). Applies equally to all coins since it's purely price-based.`,
+    desc_vol_change:`Compares the most recent 15-minute candle's volume to the 1-hour and 4-hour averages. A large spike combined with a price near a low can signal capitulation selling that often precedes a reversal. A spike near a high can signal distribution by large holders. Using 15-minute data instead of daily reflects conditions almost in real time.`,
+    desc_btc_corr_tech:`Pearson correlation coefficient between this coin's daily returns and Bitcoin's over the past 30 days. A low correlation (below 0.5) suggests the coin is moving independently of BTC, which can indicate coin-specific strength or weakness rather than broad market movement.`,
+    desc_alt_short_val:`Estimated overvaluation indicator for altcoins in SHORT mode. Measures how far the current price sits above the estimated realized price — the higher above, the more overheated and SHORT-favorable. ⚠️ Realized price is an estimate, not live on-chain data.`,
+    desc_alt_short_ath:`Distance from all-time high (ATH), used as an overheat signal for altcoin SHORT timing. Being close to ATH (within -15%) historically coincides with local tops and increased SHORT favorability.`,
+    ind_btc_corr:'BTC Dominance — Alt Cycle', desc_btc_corr:`Tracks Bitcoin's market cap dominance as a proxy for the broader altcoin cycle position. When BTC dominance is high (55%+), capital is concentrated in Bitcoin and altcoins tend to underperform — often a sign the alt cycle hasn't started yet. When dominance falls (below 50%), capital rotates into altcoins, historically associated with "alt season."`,
+    desc_alt_valuation:`Estimated valuation indicator for altcoins. Unlike BTC/ETH/BNB, this coin does not have reliable on-chain MVRV Z-Score data available, so we use price vs. an estimated realized price as a proxy.
+
+⚠️ Important: the realized price for this coin is a rough estimate, not live on-chain data. Use this as a directional signal only, not a precise valuation.
+
+Below estimated realized price = potential undervaluation zone.`,
+    desc_alt_drawdown:`Distance from all-time high (ATH), used as a substitute for NUPL on altcoins without reliable on-chain profit/loss data.
+
+Deep drawdowns (70%+) from ATH have historically coincided with cycle bottoms for major altcoins, though this varies significantly by coin.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Futures-Spot Gap',
+    ind_cbp:'Coinbase Premium', ind_lth:'LTH Supply %', ind_dom:'BTC Dominance',
+    ind_halving:'Halving Cycle',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Overheat', ind_sell_nupl:'NUPL — Greed Level',
+    ind_sell_funding:'Futures Premium', ind_sell_fg:'LTH-STH SOPR Spread',
+    desc_sell_fg:`LTH-STH SOPR Spread measures the gap between long-term and short-term holder profit-taking behavior.
+A large positive spread means short-term holders are realizing profits much faster than long-term holders — an early sign of distribution.
+
+SHORT zone: spread ≥ 0.15 (STH selling aggressively while LTH holds)
+Safe zone: spread ≤ 0.02 (aligned behavior, no distribution signal)
+
+Current: STH realizing significant profit relative to LTH → distribution may be starting.`,
+    ind_sell_sopr:'STH-SOPR — Profit Taking', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'ON-CHAIN VALUATION', sec_miner:'MINER / SENTIMENT',
+    sec_inst:'INSTITUTIONAL FLOW', sec_cycle:'CYCLE POSITION',
+    sec_breakdown:'Score Breakdown', sec_triggers:'Next Level Triggers',
+    sec_sellTriggers:'Sell Signal Triggers', sec_macro:'MACRO WARNINGS',
+    sec_insights:'BLOG', viewAllInsights:'ALL →', loadingInsights:'Loading...',
+    sec_history:'Score History', sec_histSub:'Saved locally in browser',
+    histH:'Hour', histD:'Day', histM:'Month',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"MVRV Z Score measures how overvalued or undervalued Bitcoin is relative to its realized value. \n• < 0: Historically undervalued (bottom zone) → Strong buy\n• 0~1: Slightly undervalued → Accumulation zone  \n• 1~3: Fair value → Neutral\n• > 3: Overvalued (top zone) → Consider selling\nCurrent phase: 0.27 — Near bottom. Historically, values under 0.5 have preceded major bull runs.",
+    desc_nupl:"NUPL (Net Unrealized Profit/Loss) shows the overall profit/loss state of all BTC holders.\n• < 0% (Capitulation): Holders in loss → Extreme buy signal\n• 0~25% (Hope/Fear): Recovering from bottom → Buy zone  \n• 25~50% (Optimism): Mid-cycle → Neutral\n• 50~75% (Belief/Greed): Late cycle → Watch\n• > 75% (Euphoria): Peak greed → Sell signal",
+    desc_realized:"Shows how far the current price is from the average cost basis of all BTC holders (Realized Price).\n• Below 0%: Price below average cost → Panic zone, strongest buy\n• 0~5%: Near realized price → Ideal entry\n• 5~20%: Moderate premium → Acceptable\n• > 20%: High premium → Caution",
+    desc_hash:"Hash Ribbon tracks Bitcoin mining hashrate momentum (30-day vs 60-day moving average).\n• Capitulation: Weak miners shutting down (30MA < 60MA) → Bottom forming\n• Recovery Cross: 30MA crosses above 60MA → Most reliable leading buy signal (2~4 weeks ahead)\nHistorical accuracy: Perfectly timed 2016, 2018, 2020, 2022 bottoms.",
+    desc_sopr:"Short-Term Holder SOPR measures if recent buyers are selling at profit or loss.\n• < 0.95: Panic selling at heavy losses → Capitulation = buy signal\n• 0.95~1.0: Mild loss realization → Near bottom\n• 1.0~1.03: Neutral profit taking\n• > 1.05: Strong profit taking → Distribution = top signal",
+    desc_funding:"Futures-Spot Gap = (Futures Mark Price - Spot Index Price) / Spot Price\nShows real-time leverage positioning without the 8-hour settlement delay.\n• Negative (backwardation): Futures cheaper than spot → Short overload → Leading buy signal\n• ±0.01%: Neutral (normal range for BTC)\n• > 0.05%: Contango → Long overload → Caution\n• > 0.15%: Extreme contango → Top signal",
+    desc_cbp:"Coinbase Premium = (Coinbase BTC Price - Binance BTC Price) / Binance Price\nReflects US institutional demand in real-time. Leads ETF flow data by 2~3 days.\n• Positive: US institutions buying → Bullish\n• Near zero: Watching/neutral\n• Negative: Institutions on sideline → Bearish for short-term\nCurrent: Negative (46+ consecutive days) → Institutions waiting for macro clarity.",
+    desc_lth:"Long-Term Holder Supply % = percentage of BTC supply held by addresses inactive 155+ days.\n• > 75%: Whales in aggressive accumulation → Strong buy signal\n• 70~75%: Normal accumulation\n• < 70%: Distribution (whales selling)\nRecord levels (79%) mean the smart money is not selling — supply shock incoming when demand returns.",
+    desc_dom:"BTC Dominance = BTC market cap / Total crypto market cap\nRises when capital flows from altcoins to Bitcoin — typical pattern before major bull runs.\n• 55~63% (CoinGecko basis): BTC season → Capital consolidating into BTC → Buy zone\n• < 50%: Alt season → Risk on\n• > 65%: Extreme BTC dominance → May signal alt rotation incoming",
+    desc_halving:"Bitcoin halvings cut mining rewards by 50% every ~4 years, creating supply shocks.\nHistorical bottom timing:\n• 2015 bottom: 18 months before 2016 halving\n• 2018 bottom: 17 months before 2020 halving  \n• 2022 bottom: 17 months before 2024 halving\n• Current: ~22 months before April 2028 halving → In the core bottom window.",
+    // Alert labels
+    alertTitle:'Alert Settings',
+    alertDesc:'Get notified via browser push notification + visual flash + sound when conditions are met.',
+    alertBuySection:'📈 LONG TRIGGERS', alertSellSection:'📉 SHORT TRIGGERS',
+    a2:'Long Score ≥ 6.0 (Start splitting)',
+    a3:'Long Score ≥ 7.0 (Increase position)', a4:'Long Score ≥ 8.0 (Aggressive buy)',
+    a5:'MVRV Z ≤ 0 — Full bottom zone', a6:'NUPL below 0% — Capitulation',
+    a7:'Futures gap turns negative (backwardation)', a8:'Hash Ribbon recovery cross',
+    a9:'Coinbase Premium turns positive',
+    b1:'Short Score ≥ 6.0 (Prepare short)', b2:'Short Score ≥ 7.0 (Increase short)',
+    b3:'Short Score ≥ 8.0 (Full short)', b4:'MVRV Z ≥ 3.5 — Euphoria zone',
+    b5:'NUPL ≥ 75% — Extreme greed', b6:'Fear & Greed ≥ 80',
+    b7:'Futures contango ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Alert when price drops below $', priceAbove:'Alert when price rises above $',
+    enableNotif:'Enable Browser Notifications',
+    ind_sell_lth:'LTH Supply — Distribution', ind_sell_dom:'BTC Dom — Risk',
+    ind_sell_halving:'Halving — Cycle Phase', ind_sell_ath:'ATH Proximity — Top Risk',
+    ind_sell_mvrv:'MVRV Z — Overheat', ind_sell_nupl:'NUPL — Greed',
+    ind_sell_funding:'Futures Premium', ind_sell_fg:'LTH-STH SOPR Spread',
+    desc_sell_fg:`LTH-STH SOPR Spread measures the gap between long-term and short-term holder profit-taking behavior.
+A large positive spread means short-term holders are realizing profits much faster than long-term holders — an early sign of distribution.
+
+SHORT zone: spread ≥ 0.15 (STH selling aggressively while LTH holds)
+Safe zone: spread ≤ 0.02 (aligned behavior, no distribution signal)
+
+Current: STH realizing significant profit relative to LTH → distribution may be starting.`,
+    ind_sell_sopr:'STH-SOPR — Profit Taking', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  ko: {
+    navInsights:'블로그',
+    buyTiming:'📈 롱 타이밍', sellTiming:'📉 매도/청산 타이밍',
+    livePriceLabel:'현재가 · 바이낸스', fgLabel:'공포·탐욕 지수',
+    rpLabel:'실현가 이격률', maLabel:'200주 이평선 (참고)',
+    splitPlan:'단계별 진입 계획', splitTitle:'단계별 비중 배분',
+    splitStep1:(s)=>`지금 진입 (${s}점)`, splitStep2:'Hash Ribbon 회복 전환',
+    splitStep3:'Coinbase Premium 양전환', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'업데이트',
+    modeTitle_buy:'롱 진입 점수', modeTitle_sell:'숏 타이밍 게이지',
+    modeSub_buy:'사이클 저점 롱 진입 모델', modeSub_sell:'숏 진입 타이밍 모델',
+    sellExplainTitle:'ℹ️ 매도 점수 해석 방법',
+    sellExplain_low:'🟢 낮음 (0~3점): 시장이 저점 구간. 청산/숏 신호 없음. 보유 또는 매집.',
+    sellExplain_mid:'🟡 중간 (4~6점): 시장 과열 시작. 일부 비중 축소 검토.',
+    sellExplain_high:'🔴 높음 (7~10점): 강한 매도 신호. 장기 보유 청산 / 숏 진입 검토.',
+    longExitLabel:'장기 보유 청산', shortEntryLabel:'숏 진입 신호',
+    ind_mvrv_z:'MVRV Z 스코어', ind_nupl:'NUPL', ind_realized:'실현가 이격률',
+    ind_alt_valuation:'가격 vs 추정 실현가', ind_alt_drawdown:'ATH 대비 낙폭',
+    ind_alt_short_val:'가격 vs 추정 실현가 (숏)', ind_alt_short_ath:'ATH 근접도 — 과열',
+    ind_rsi:'RSI (14일)', ind_vol_change:'거래량 변화율 (24h vs 7일평균)', ind_btc_corr_tech:'BTC 상관계수 (30일)',
+    ind_buy_pressure:'실시간 매수 주도 거래량 — FOMO/과열', ind_sell_pressure:'실시간 매도 주도 거래량 — Capitulation',
+    desc_buy_pressure:`최근 15분봉 거래량 중 매수 주도 비중입니다. 65% 이상 + 거래량 급증 + 양봉이 겹치면 국소 고점 근처에서 FOMO 과열 매수를 시사할 수 있습니다. 일봉 대신 15분봉을 사용해 거의 실시간(15분~1시간 지연, 일봉은 최대 24시간)으로 반영됩니다.`,
+    desc_sell_pressure:`최근 15분봉 거래량 중 매도 주도 비중입니다. 58% 이상 + 거래량 급증 + 음봉이 겹치면 국소 저점 근처에서 항복 매도(캐피틀레이션) 후 반등이 따라오는 경우가 많습니다. 일봉 대신 15분봉을 사용해 거의 실시간으로 반영됩니다.`,
+    desc_rsi:`14일 기준 상대강도지수(RSI)로, 최근 가격 변화의 속도와 강도를 측정하는 모멘텀 지표입니다. RSI 30 이하는 과매도(보통 저점 신호), 70 이상은 과매수(보통 고점 신호)를 의미합니다. 순수 가격 기반이라 모든 코인에 동일하게 적용 가능합니다.`,
+    desc_vol_change:`최근 15분봉 거래량을 1시간·4시간 평균과 비교합니다. 저점 근처에서 거래량이 급증하면 항복 매도 후 반등이 따라오는 경우가 많고, 고점 근처에서의 급증은 대형 보유자의 분배(매도)를 시사할 수 있습니다. 일봉 대신 15분봉을 사용해 거의 실시간으로 반영됩니다.`,
+    desc_btc_corr_tech:`최근 30일간 이 코인의 일간 수익률과 비트코인 수익률 간 피어슨 상관계수입니다. 상관계수가 낮을수록(0.5 이하) 이 코인이 BTC와 독립적으로 움직인다는 뜻이며, 코인 고유의 강세/약세를 시사할 수 있습니다.`,
+    desc_alt_short_val:`숏 모드용 알트코인 고평가 추정 지표입니다. 현재가가 추정 실현가보다 얼마나 높은지 측정하며, 갭이 클수록 과열되어 숏에 유리합니다. ⚠️ 실현가는 실시간 온체인 데이터가 아닌 추정치입니다.`,
+    desc_alt_short_ath:`역대 최고가(ATH) 대비 거리로, 알트코인 숏 타이밍의 과열 신호로 사용합니다. ATH에 근접할수록(−15% 이내) 역사적으로 국지적 고점과 겹치며 숏에 유리합니다.`,
+    ind_btc_corr:'BTC 도미넌스 — 알트 사이클', desc_btc_corr:`비트코인 시가총액 도미넌스를 알트코인 사이클 위치의 대리 지표로 활용합니다. BTC 도미넌스가 높을 때(55% 이상)는 자금이 비트코인에 집중되어 알트코인이 부진한 경향이 있고, 이는 보통 알트 사이클이 아직 시작되지 않았다는 신호입니다. 도미넌스가 하락하면(50% 이하) 자금이 알트코인으로 이동하며, 역사적으로 '알트 시즌'과 연관됩니다.`,
+    desc_alt_valuation:`알트코인용 추정 밸류에이션 지표입니다. BTC/ETH/BNB와 달리 이 코인은 신뢰할 수 있는 온체인 MVRV Z-Score 데이터가 없어, 현재가 대비 추정 실현가를 대체 지표로 사용합니다.
+
+⚠️ 중요: 이 코인의 실현가는 실시간 온체인 데이터가 아닌 대략적인 추정치입니다. 정밀한 밸류에이션이 아닌 방향성 참고용으로만 활용하세요.
+
+추정 실현가 이하 = 저평가 가능 구간.`,
+    desc_alt_drawdown:`온체인 손익 데이터가 부족한 알트코인에서 NUPL 대체 지표로 사용하는 ATH(역대 최고가) 대비 낙폭입니다.
+
+주요 알트코인은 역사적으로 ATH 대비 70% 이상 하락 시 사이클 저점과 겹치는 경우가 많았으나, 코인별 편차가 클 수 있습니다.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'선물-현물 갭',
+    ind_cbp:'코인베이스 프리미엄', ind_lth:'LTH 공급 비중', ind_dom:'BTC 도미넌스',
+    ind_halving:'반감기 사이클',
+    ind_sell_mvrv:'MVRV Z — 과열 게이지', ind_sell_nupl:'NUPL — 탐욕 수준',
+    ind_sell_funding:'선물 프리미엄', ind_sell_fg:'LTH-STH SOPR 격차',
+    desc_sell_fg:`LTH-STH SOPR 격차는 장기 보유자와 단기 보유자의 수익실현 행동 차이를 측정합니다.
+격차가 크게 양수면 단기 보유자가 장기 보유자보다 훨씬 빠르게 수익을 실현 중 = 분산(매도) 초기 신호.
+
+숏 구간: 격차 ≥ 0.15 (단기는 적극 매도, 장기는 보유 유지)
+안전 구간: 격차 ≤ 0.02 (행동 일치, 분산 신호 없음)
+
+현재: 단기 보유자가 장기 보유자 대비 상당한 수익을 실현 중 → 분산 시작 가능성.`,
+    ind_sell_sopr:'STH-SOPR — 수익 실현', ind_sell_cbp:'코인베이스 프리미엄 — FOMO',
+    sec_onchain:'온체인 밸류에이션', sec_miner:'채굴자 / 심리',
+    sec_inst:'기관 수급 (선행)', sec_cycle:'사이클 위치',
+    sec_breakdown:'점수 합산', sec_triggers:'다음 단계 트리거',
+    sec_sellTriggers:'매도 신호 트리거', sec_macro:'매크로 경고등',
+    sec_insights:'블로그', viewAllInsights:'전체 →', loadingInsights:'불러오는 중...',
+    sec_history:'점수 히스토리', sec_histSub:'브라우저에 로컬 저장',
+    histH:'시간별', histD:'일별', histM:'월별',
+    desc_mvrv_z:"MVRV Z Score는 비트코인이 실현 가치 대비 얼마나 고평가/저평가됐는지 측정합니다.\n• 0 이하: 역사적 저평가 (저점 구간) → 강력 매수\n• 0~1: 약간 저평가 → 축적 구간\n• 1~3: 적정 가치 → 중립\n• 3 이상: 고평가 (고점 구간) → 매도 고려\n현재 0.27 — 저점 근접. 역사적으로 0.5 이하에서 대형 상승이 시작됐습니다.",
+    desc_nupl:"NUPL(미실현 순손익)은 전체 BTC 보유자들의 평균 손익 상태를 보여줍니다.\n• 0% 이하 (항복): 보유자 손실 → 극단 매수 신호\n• 0~25% (희망/공포): 저점 회복 중 → 매수 구간\n• 25~50% (낙관): 사이클 중반 → 중립\n• 50~75% (탐욕): 후기 사이클 → 주시\n• 75% 이상 (도취): 극단 탐욕 → 매도 신호",
+    desc_realized:"현재 가격이 전체 BTC 보유자의 평균 취득 원가(실현가) 대비 얼마나 떨어져 있는지 보여줍니다.\n• 0% 이하: 평균 원가 이하 → 패닉 구간, 최강 매수\n• 0~5%: 실현가 근처 → 이상적 진입\n• 5~20%: 적당한 프리미엄 → 수용 가능\n• 20% 이상: 높은 프리미엄 → 주의",
+    desc_hash:"Hash Ribbon은 비트코인 채굴 해시레이트 모멘텀(30일 vs 60일 이평)을 추적합니다.\n• 캐피튤레이션: 약한 채굴자 가동 중단 → 저점 형성 중\n• 회복 전환: 30일 MA가 60일 MA 상향 돌파 → 가장 신뢰도 높은 선행 매수 신호 (2~4주 선행)\n역사적 정확도: 2016, 2018, 2020, 2022년 저점 모두 정확히 포착.",
+    desc_sopr:"단기 보유자 SOPR — 최근 매수자들이 수익인지 손실인지로 매도하는지 측정합니다.\n• 0.95 이하: 패닉 손절 → 캐피튤레이션 = 매수 신호\n• 0.95~1.0: 소폭 손실 실현 → 저점 근처\n• 1.0~1.03: 소폭 수익 실현 → 중립\n• 1.05 이상: 강한 수익 실현 → 분산 = 고점 신호",
+    desc_funding:"선물-현물 갭 = (선물 마크가격 - 현물 인덱스가격) / 현물가격\n8시간 정산 딜레이 없이 실시간으로 레버리지 쏠림을 포착합니다.\n• 음수 (역프리미엄): 선물이 현물보다 낮음 → 숏 과부하 → 선행 매수 신호\n• ±0.01%: 중립 (BTC 정상 범위)\n• 0.05% 이상: 콘탱고 → 롱 과부하 → 주의\n• 0.15% 이상: 극단 콘탱고 → 고점 신호",
+    desc_cbp:"코인베이스 프리미엄 = (코인베이스 가격 - 바이낸스 가격) / 바이낸스 가격\n미국 기관 수요를 실시간으로 반영. ETF 유입 데이터보다 2~3일 선행합니다.\n• 양수: 미국 기관 매수 중 → 강세\n• 0 근처: 관망/중립\n• 음수: 기관 관망 → 단기 약세\n현재: 음수 (46일+ 연속) → 미국 기관들이 매크로 명확성을 기다리는 중.",
+    desc_lth:"장기 보유자 공급 비중 = 155일 이상 미이동 주소가 보유한 BTC 비율\n• 75% 이상: 고래들의 공격적 매집 → 강력 매수 신호\n• 70~75%: 일반적 매집\n• 70% 이하: 분산 (고래 매도 중)\n현재 79%(역대 최고치) — 스마트머니가 팔지 않음. 수요 회복 시 공급 충격 예상.",
+    desc_dom:"BTC 도미넌스 = BTC 시총 / 전체 암호화폐 시총\n알트코인에서 비트코인으로 자금이 이동할 때 상승 — 대형 상승장 전 전형적 패턴입니다.\n• 55~63% (코인게코 기준): BTC 시즌 → 자본이 BTC에 집중 → 매수 구간\n• 50% 이하: 알트 시즌 → 리스크온\n• 65% 이상: 극단 BTC 지배 → 알트 로테이션 임박 가능",
+    desc_halving:"비트코인 반감기는 약 4년마다 채굴 보상을 50% 줄여 공급 충격을 만듭니다.\n역사적 저점 타이밍:\n• 2015년 저점: 2016년 반감기 18개월 전\n• 2018년 저점: 2020년 반감기 17개월 전\n• 2022년 저점: 2024년 반감기 17개월 전\n• 현재: 2028년 4월 반감기까지 약 22개월 → 핵심 저점 구간.",
+    alertTitle:'알림 설정',
+    alertDesc:'조건 충족 시 브라우저 알림 + 화면 깜빡임 + 알림음으로 알려드립니다.',
+    alertBuySection:'📈 롱 트리거', alertSellSection:'📉 숏 트리거',
+    a2:'롱 점수 ≥ 6.0 (분할 시작)',
+    a3:'롱 점수 ≥ 7.0 (비중 확대)', a4:'롱 점수 ≥ 8.0 (적극 매집)',
+    a5:'MVRV Z ≤ 0 — 완전 저점 구간', a6:'NUPL 0% 이하 — 항복 구간',
+    a7:'선물-현물 갭 음수 전환 (역프리미엄)', a8:'Hash Ribbon 회복 전환',
+    a9:'코인베이스 프리미엄 양전환',
+    b1:'숏 점수 ≥ 6.0 (숏 준비)', b2:'숏 점수 ≥ 7.0 (숏 비중 확대)',
+    b3:'숏 점수 ≥ 8.0 (풀 숏)', b4:'MVRV Z ≥ 3.5 — 도취 구간',
+    b5:'NUPL ≥ 75% — 극단 탐욕', b6:'공포·탐욕 지수 ≥ 80',
+    b7:'선물 프리미엄 ≥ 0.15%', b8:'코인베이스 프리미엄 ≥ 0.3% — FOMO',
+    priceBelow:'가격이 $ 이하 하락 시 알림', priceAbove:'가격이 $ 이상 상승 시 알림',
+    enableNotif:'브라우저 알림 허용',
+    
+    // Short 모드 지표명
+    ind_sell_mvrv:'MVRV Z — 과열 위치', ind_sell_nupl:'NUPL — 탐욕 수준',
+    ind_sell_funding:'선물 프리미엄', ind_sell_fg:'LTH-STH SOPR 격차',
+    desc_sell_fg:`LTH-STH SOPR 격차는 장기 보유자와 단기 보유자의 수익실현 행동 차이를 측정합니다.
+격차가 크게 양수면 단기 보유자가 장기 보유자보다 훨씬 빠르게 수익을 실현 중 = 분산(매도) 초기 신호.
+
+숏 구간: 격차 ≥ 0.15 (단기는 적극 매도, 장기는 보유 유지)
+안전 구간: 격차 ≤ 0.02 (행동 일치, 분산 신호 없음)
+
+현재: 단기 보유자가 장기 보유자 대비 상당한 수익을 실현 중 → 분산 시작 가능성.`,
+    ind_sell_sopr:'STH-SOPR — 수익실현', ind_sell_cbp:'코인베이스 프리미엄 — FOMO',
+    ind_sell_lth:'LTH 공급 — 분산 감지', ind_sell_dom:'BTC 도미넌스 — 리스크',
+    ind_sell_halving:'반감기 — 사이클 위치', ind_sell_ath:'ATH 근접도 — 고점 리스크',
+  }
+};
+let currentLang = (function() {
+  // 언어 우선순위: URL ?lang= 파라미터 > localStorage(blogLang, 블로그와 공유) > 기본값 ko
+  try {
+    const p = new URLSearchParams(location.search).get('lang');
+    if (p === 'en' || p === 'ko') return p;
+  } catch(e) {}
+  try {
+    const saved = localStorage.getItem('blogLang');
+    if (saved === 'en' || saved === 'ko') return saved;
+  } catch(e) {}
+  return 'ko';
+})();
+
+function T(key, args) {
+  const L = LANGS[currentLang] || LANGS.en;
+  const v = L[key] || LANGS.en[key] || key;
+  if(typeof v === 'function') return v(...(args||[]));
+  return v;
+}
+
+
+
+// ═══════════════════════════════════════════════════════
+// HISTORY TAB
+// ═══════════════════════════════════════════════════════
+let histPeriod = '1d'; // 1d, 7d, 30d, all
+
+function setHistPeriod(p) {
+  histPeriod = p;
+  ['1d','7d','30d','all'].forEach(t => {
+    const el = document.getElementById('htp'+t);
+    if(el) el.classList.toggle('active', t===p);
+  });
+  drawHistory();
+}
+// 호환성
+function setHistTab(tab) { setHistPeriod('1d'); }
+
+function getHistoryData() {
+  const modeKey = currentMode === 'buy' ? 'long' : 'short';
+  const key = `history_${currentCoin}_${modeKey}`;
+  let h = [];
+  try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) {}
+  const now = Date.now();
+  const rangeMap = {'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
+  const range = rangeMap[histPeriod] || rangeMap['1d'];
+  const filtered = range===Infinity ? h : h.filter(x=>now-x.t<range);
+  // 최대 300포인트
+  if(filtered.length<=300) return filtered.sort((a,b)=>a.t-b.t);
+  const step=Math.ceil(filtered.length/300);
+  return filtered.filter((_,i)=>i%step===0).sort((a,b)=>a.t-b.t);
+}
+
+// ═══════════════════════════════════════════════════════
+// IMPROVED SELL SCORE — 현재 시장 상황 반영
+// ═══════════════════════════════════════════════════════
+// buy가 낮을 때(저점)는 sell도 낮아야 정상
+// 별도 "셀 압력 게이지"로 표현
+
+// ═══════════════════════════════════════════════════════
+// ALERT SYSTEM 강화
+// ═══════════════════════════════════════════════════════
+let alertState = {};
+let prevIndicators = {};
+
+function flashAlert(msg, color='#fbbf24') {
+  // 화면 테두리 깜빡임
+  const div = document.createElement('div');
+  div.style.cssText = `position:fixed;inset:0;pointer-events:none;border:3px solid ${color};z-index:9999;border-radius:0;animation:flashAnim .6s ease 3`;
+  div.innerHTML = `<style>@keyframes flashAnim{0%,100%{opacity:0}50%{opacity:1}}</style>`;
+  document.body.appendChild(div);
+  setTimeout(()=>div.remove(), 2000);
+
+  // 토스트 메시지
+  const toast = document.createElement('div');
+  toast.style.cssText = `position:fixed;top:70px;right:16px;background:${color};color:#000;padding:10px 16px;border-radius:10px;font-size:12px;font-weight:600;z-index:9999;max-width:280px;box-shadow:0 4px 20px rgba(0,0,0,.4);animation:slideIn .3s ease`;
+  toast.innerHTML = `<style>@keyframes slideIn{from{transform:translateX(120%)}to{transform:translateX(0)}}</style>🔔 ${msg}`;
+  document.body.appendChild(toast);
+  setTimeout(()=>toast.remove(), 5000);
+
+  // 브라우저 알림
+  if(notifGranted) {
+    try { new Notification('BTCtiming.com', {body:msg}); } catch(e){}
+  }
+
+  // 알림음 (간단한 비프)
+  try {
+    const ctx = new (window.AudioContext||window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain); gain.connect(ctx.destination);
+    osc.frequency.value = 880;
+    gain.gain.setValueAtTime(0.3, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime+0.5);
+    osc.start(); osc.stop(ctx.currentTime+0.5);
+  } catch(e){}
+}
+
+function isOn(id) { return document.getElementById(id)?.classList.contains('on'); }
+
+
+// ═══════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════
+// TradingView: iframe 방식 (스크립트 불필요)
+initChart();
+
+initTabs();
+connectWS();
+// 저장된/URL 언어 설정을 토글 버튼과 html 태그에도 반영
+(function syncLangUI() {
+  const ko = document.getElementById('langKo');
+  const en = document.getElementById('langEn');
+  if(ko) ko.className = 'lang-opt' + (currentLang==='ko' ? ' active' : '');
+  if(en) en.className = 'lang-opt' + (currentLang==='en' ? ' active' : '');
+  document.documentElement.lang = currentLang;
+})();
+applyStaticI18n(); // 최초 로딩 시에도 정적 라벨(섹션 헤더, 알림창 등)이 currentLang에 맞게 번역되도록
+updateBlogLinks(currentLang);
+loadInsightWidget();
+loadAlertSettings(); // 저장된 알림 토글 설정 복원 (새로고침해도 유지)
+loadAll();
+
+// Auto-refresh every 5 minutes
+setInterval(loadAll, 5*60*1000);
+
+// 1분마다 현재 점수 히스토리 저장 (탭 변경 시 데이터 축적)
+setInterval(() => {
+  if(currentScore > 0) {
+    saveHistory(currentScore);
+    drawHistory();
+  }
+}, 60*1000);
+
+// Redraw history on resize
+window.addEventListener('resize', drawHistory);
+
+function setLang(lang) {
+  currentLang = lang;
+  try { localStorage.setItem('blogLang', lang); } catch(e) {}
+  const ko = document.getElementById('langKo');
+  const en = document.getElementById('langEn');
+  if(ko) ko.className = 'lang-opt' + (lang==='ko' ? ' active' : '');
+  if(en) en.className = 'lang-opt' + (lang==='en' ? ' active' : '');
+  applyStaticI18n();
+  updateBlogLinks(lang);
+  renderInsightWidget();
+  if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
+  else loadAll();
+}
+
+let insightArticles = [];
+
+/** 홈페이지 "최신 인사이트" 위젯 — blog/feed.php에서 최신 글 3개를 가져와 렌더링 */
+function loadInsightWidget() {
+  fetch('/blog/feed.php?limit=3')
+    .then(r => r.json())
+    .then(data => {
+      insightArticles = (data && data.articles) || [];
+      renderInsightWidget();
+    })
+    .catch(() => {
+      const grid = document.getElementById('insightGrid');
+      if(grid) grid.innerHTML = '';  // 실패 시 조용히 위젯 숨김 (메인 대시보드 기능에 영향 없도록)
+    });
+}
+
+function renderInsightWidget() {
+  const grid = document.getElementById('insightGrid');
+  if(!grid) return;
+  if(!insightArticles.length) return; // 아직 로딩중이거나 글이 없으면 기존 상태 유지
+  const ko = currentLang === 'ko';
+  const suffix = ko ? '' : '?lang=en';
+  grid.innerHTML = insightArticles.map(a => {
+    const title = ko ? a.title_ko : a.title_en;
+    const cat = ko ? a.category_ko : a.category_en;
+    return `<a href="${a.url}${suffix}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
+      <div class="insight-icon">${a.icon}</div>
+      <div class="insight-body">
+        <div class="insight-cat">${cat}</div>
+        <div class="insight-title">${title}</div>
+        <div class="insight-date">${a.date.replaceAll('-','.')}</div>
+      </div>
+    </a>`;
+  }).join('');
+  const allLink = document.getElementById('insightAllLink');
+  if(allLink) allLink.href = '/blog/' + suffix;
+}
+
+function updateBlogLinks(lang) {
+  const ko = lang === 'ko';
+  const label = document.getElementById('blogGuideLabel');
+  const l1 = document.getElementById('blogLink1');
+  const l2 = document.getElementById('blogLink2');
+  const l3 = document.getElementById('blogLink3');
+  const l4 = document.getElementById('blogLink4');
+  if(label) label.textContent = ko ? '📖 온체인 지표 가이드: ' : '📖 On-Chain Guides: ';
+  if(l1) l1.textContent = ko ? 'MVRV Z-Score란?' : 'MVRV Z-Score Guide';
+  if(l2) l2.textContent = ko ? '반감기 매수 타이밍' : 'Halving Timing';
+  if(l3) l3.textContent = ko ? 'Hash Ribbon 지표' : 'Hash Ribbon Guide';
+  if(l4) l4.textContent = ko ? '전체 가이드 보기 →' : 'All Guides →';
+  // 블로그 링크에 lang 파라미터 추가 → 블로그가 언어 설정을 이어받음
+  const suffix = ko ? '' : '?lang=en';
+  if(l1) l1.href = '/blog/mvrv-z-score.php' + suffix;
+  if(l2) l2.href = '/blog/bitcoin-halving-timing.php' + suffix;
+  if(l3) l3.href = '/blog/hash-ribbon-indicator.php' + suffix;
+  if(l4) l4.href = '/blog/' + suffix;
+}
+
+function applyStaticI18n() {
+  const ko = currentLang === 'ko';
+  const tabMap = {'1m':ko?'1h':'1h','5m':ko?'6h':'5m','15m':ko?'1d':'15m',
+    '30m':ko?'3d':'30m','1h':ko?'7d':'1h','4h':ko?'14d':'4h',
+    '1d':ko?'30d':'1d','1w':ko?'90d':'1w','1M':ko?'전체':'1M'};
+  Object.entries(tabMap).forEach(([id,lbl])=>{
+    const el=document.getElementById('ht'+id); if(el) el.textContent=lbl;
+  });
+
+  // 페이지 안의 모든 [data-i] 요소를 빠짐없이 일괄 번역.
+  // (이전엔 차트 탭 라벨만 여기서 갱신되고, 알림창/섹션 헤더 등은
+  //  setMode() 안에서만 일부 키가 갱신되거나 아예 갱신되지 않아서
+  //  언어를 바꿔도 일부 텍스트가 기존 언어로 남아있는 문제가 있었음)
+  document.querySelectorAll('[data-i]').forEach(el => {
+    const key = el.getAttribute('data-i');
+    const translated = T(key);
+    if (!translated || translated === key) return; // 번역 사전에 없는 키는 건드리지 않음
+    if (key === 'sec_inst') {
+      // 이 요소엔 "LEADING" 뱃지(<span class="sec-tag">)가 같이 들어있어서
+      // textContent로 덮어쓰면 뱃지가 같이 사라짐 → 텍스트만 교체하고 뱃지는 보존
+      const badge = el.querySelector('.sec-tag');
+      el.textContent = translated + ' ';
+      if (badge) el.appendChild(badge);
+    } else {
+      el.textContent = translated;
+    }
+  });
+}
+
+// ═══════════════════════════════════════════════════════
+// LIVE CHAT (Firebase Realtime Database)
+// ═══════════════════════════════════════════════════════
+let chatUnsub = null;
+let chatNickname = (function(){
+  try {
+    const saved = localStorage.getItem('chatNickname');
+    if(saved) return saved;
+  } catch(e){}
+  const generated = 'Trader' + Math.floor(Math.random()*9999);
+  try { localStorage.setItem('chatNickname', generated); } catch(e){}
+  return generated;
+})();
+let chatUnreadCount = 0;
+let chatOpen = false;
+let chatInitialized = false;
+
+function initFirebaseChat() {
+  console.log('[chat] initFirebaseChat called, chatDB=', !!chatDB, 'listenersAttached=', chatListenersAttached);
+  if(chatDB && chatListenersAttached) return; // 이미 완전히 연결됨
+  try {
+    console.log('[chat] typeof firebase =', typeof firebase);
+    if(typeof firebase === 'undefined') {
+      console.error('[chat] Firebase SDK not loaded yet');
+      showChatError('Firebase SDK not loaded. Retrying...');
+      chatListenersAttached = false;
+      // SDK가 늦게 로드될 수 있으니 1초 후 재시도
+      setTimeout(initFirebaseChat, 1000);
+      return;
+    }
+    const firebaseConfig = {
+      apiKey: "AIzaSyAdmKYQ3w02e9gbvcRUEM7Q_jcgBKtkgDw",
+      authDomain: "btctiming-chat.firebaseapp.com",
+      databaseURL: "https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "btctiming-chat",
+      storageBucket: "btctiming-chat.firebasestorage.app",
+      messagingSenderId: "1037450881238",
+      appId: "1:1037450881238:web:d21d0deff6e9aef1bf4177",
+      measurementId: "G-VD01B9SL3K"
+    };
+    console.log('[chat] firebase.apps =', firebase.apps);
+    if(!firebase.apps || !firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+      console.log('[chat] initializeApp called');
+    }
+    if(!chatDB) chatDB = firebase.database();
+    console.log('[chat] chatDB ready:', chatDB);
+    listenChatMessages();
+    trackPresence();
+    chatListenersAttached = true;
+    console.log('[chat] listeners attached successfully');
+  } catch(e) {
+    console.error('[chat] init failed:', e.message, e);
+    showChatError(e.message);
+    chatListenersAttached = false;
+  }
+}
+
+function showChatSetupNeeded() {
+  const msgsEl = document.getElementById('chatMessages');
+  const ko = currentLang === 'ko';
+  if(msgsEl) {
+    msgsEl.innerHTML = `<div style="text-align:center;color:var(--t2);font-size:11px;padding:20px;line-height:1.7">
+      ${ko ? '⚙️ 채팅 기능을 사용하려면 Firebase 설정이 필요합니다.<br><br>코드 상단 주석을 참고해 무료 Firebase 프로젝트를 생성하고<br>firebaseConfig 값을 입력해주세요.<br><br>(5분이면 완료됩니다)'
+            : '⚙️ Chat requires Firebase setup.<br><br>See code comments to create a free Firebase project<br>and fill in firebaseConfig.<br><br>(Takes about 5 minutes)'}
+    </div>`;
+  }
+}
+
+function showChatError(detail) {
+  const msgsEl = document.getElementById('chatMessages');
+  if(msgsEl) {
+    const ko = currentLang === 'ko';
+    msgsEl.innerHTML = `<div style="text-align:center;color:var(--t3);font-size:11px;padding:20px;line-height:1.6">
+      ${ko ? '채팅 서버 연결 실패.' : 'Chat server connection failed.'}<br>
+      ${detail ? `<span style="color:var(--red);font-size:10px">${escapeHtml(detail)}</span>` : ''}
+    </div>`;
+  }
+}
+
+function listenChatMessages() {
+  console.log('[chat] listenChatMessages called, chatDB=', chatDB);
+  if(!chatDB) { console.error('[chat] listenChatMessages: chatDB is null!'); return; }
+  const msgsRef = chatDB.ref('messages').limitToLast(50);
+  console.log('[chat] msgsRef created:', msgsRef.toString());
+  msgsRef.on('value', (snapshot) => {
+    console.log('[chat] onValue fired! exists=', snapshot.exists(), 'val=', snapshot.val());
+    const data = snapshot.val();
+    const msgsEl = document.getElementById('chatMessages');
+    if(!msgsEl) { console.error('[chat] chatMessages element not found!'); return; }
+    if(!data) {
+      msgsEl.innerHTML = `<div style="text-align:center;color:var(--t3);font-size:11px;padding:20px">${currentLang==='ko'?'첫 메시지를 남겨보세요!':'Be the first to chat!'}</div>`;
+      return;
+    }
+    const msgs = Object.values(data).sort((a,b)=>a.t-b.t);
+    const wasAtBottom = msgsEl.scrollTop + msgsEl.clientHeight >= msgsEl.scrollHeight - 30;
+    msgsEl.innerHTML = msgs.map(m => {
+      const isMe = m.nick === chatNickname;
+      const time = new Date(m.t).toLocaleTimeString('ko',{hour:'2-digit',minute:'2-digit'});
+      return `<div style="display:flex;flex-direction:column;align-items:${isMe?'flex-end':'flex-start'}">
+        <div style="font-size:10px;color:var(--t3);margin-bottom:2px">${escapeHtml(m.nick)} · ${time}</div>
+        <div style="background:${isMe?'var(--orange)':'var(--bg4)'};color:${isMe?'#000':'var(--t1)'};
+          padding:7px 11px;border-radius:12px;font-size:12px;max-width:85%;word-break:break-word;line-height:1.4">
+          ${escapeHtml(m.text)}
+        </div>
+      </div>`;
+    }).join('');
+    if(wasAtBottom || !chatOpen) {
+      msgsEl.scrollTop = msgsEl.scrollHeight;
+    }
+    // 안읽은 메시지 카운트
+    if(!chatOpen) {
+      chatUnreadCount++;
+      updateChatBadge();
+    }
+  }, (error) => {
+    console.error('[chat] listenChatMessages ERROR:', error.message, error);
+    showChatError('Listen failed: ' + error.message);
+  });
+}
+
+function trackPresence() {
+  if(!chatDB) return;
+  const presenceRef = chatDB.ref('presence/' + chatNickname);
+  presenceRef.set({online: true, t: Date.now()}).then(()=>{
+    console.log('[chat] presence set OK');
+  }).catch(e=>console.error('[chat] presence set failed:', e.message));
+  presenceRef.onDisconnect().remove();
+  chatDB.ref('presence').on('value', (snap) => {
+    console.log('[chat] presence listener fired:', snap.val());
+    const data = snap.val();
+    const count = data ? Object.keys(data).length : 0;
+    const cEl = document.getElementById('chatUserCount');
+    if(cEl) cEl.textContent = `· ${count}명 접속중`;
+  }, (error) => {
+    console.error('[chat] presence listener ERROR:', error.message);
+  });
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function sendChatMsg() {
+  const input = document.getElementById('chatInput');
+  if(!input) return;
+  const text = input.value.trim();
+  if(!text) return;
+  if(!chatDB) {
+    console.error('[chat] sendChatMsg: chatDB not initialized, attempting init + retry...');
+    initFirebaseChat();
+    // 1.2초 후 자동 재시도 (사용자가 다시 누를 필요 없게)
+    setTimeout(() => {
+      if(chatDB && input.value.trim() === text) {
+        sendChatMsg();
+      } else if(!chatDB) {
+        alert(currentLang==='ko' ? '채팅 연결 실패. 새로고침 후 다시 시도해주세요.' : 'Chat connection failed. Please refresh and try again.');
+      }
+    }, 1200);
+    return;
+  }
+  chatDB.ref('messages').push({
+    nick: chatNickname,
+    text: text,
+    t: Date.now()
+  }).then(() => {
+    console.log('Message sent successfully');
+    pruneOldMessages();
+  }).catch((err) => {
+    console.error('Send failed:', err);
+    alert((currentLang==='ko' ? '전송 실패: ' : 'Send failed: ') + err.message);
+  });
+  input.value = '';
+}
+
+// 메시지 100개 초과 시 가장 오래된 것부터 삭제 (DB 용량 관리)
+const CHAT_MAX_MESSAGES = 100;
+function pruneOldMessages() {
+  if(!chatDB) return;
+  chatDB.ref('messages').orderByChild('t').once('value', (snap) => {
+    const data = snap.val();
+    if(!data) return;
+    const entries = Object.entries(data).sort((a,b) => a[1].t - b[1].t);
+    if(entries.length > CHAT_MAX_MESSAGES) {
+      const toDelete = entries.slice(0, entries.length - CHAT_MAX_MESSAGES);
+      toDelete.forEach(([key]) => {
+        chatDB.ref('messages/' + key).remove();
+      });
+    }
+  });
+}
+
+function toggleChat() {
+  const box = document.getElementById('chatBox');
+  if(!box) return;
+  chatOpen = box.style.display === 'none' || box.style.display === '';
+  box.style.display = chatOpen ? 'flex' : 'none';
+  if(chatOpen) {
+    if(!chatListenersAttached) initFirebaseChat(); // 리스너 미부착이면 무조건 (재)시도
+    chatUnreadCount = 0;
+    updateChatBadge();
+    setTimeout(()=>{
+      const input = document.getElementById('chatInput');
+      if(input) input.focus();
+      const msgsEl = document.getElementById('chatMessages');
+      if(msgsEl) msgsEl.scrollTop = msgsEl.scrollHeight;
+    }, 50);
+  }
+}
+
+function updateChatBadge() {
+  const badge = document.getElementById('chatBadge');
+  if(!badge) return;
+  if(chatUnreadCount > 0) {
+    badge.style.display = 'flex';
+    badge.textContent = chatUnreadCount > 9 ? '9+' : chatUnreadCount;
+  } else {
+    badge.style.display = 'none';
+  }
+}
+
+// 닉네임 최초 설정 (선택적)
+function promptNickname() {
+  const ko = currentLang === 'ko';
+  const newNick = prompt(ko ? '채팅 닉네임을 입력하세요:' : 'Enter your chat nickname:', chatNickname);
+  if(newNick && newNick.trim()) {
+    const oldNick = chatNickname;
+    chatNickname = newNick.trim().slice(0, 20);
+    localStorage.setItem('chatNickname', chatNickname);
+    // presence 갱신
+    if(chatDB) {
+      chatDB.ref('presence/' + oldNick).remove();
+      chatDB.ref('presence/' + chatNickname).set({online: true, t: Date.now()});
+      chatDB.ref('presence/' + chatNickname).onDisconnect().remove();
+    }
+  }
+}
+
+// 페이지 로드 시 채팅 위젯 lazy init (처음 열 때만 Firebase 연결)
+</script>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- LIVE CHAT WIDGET -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="chatToggle" onclick="toggleChat()" style="position:fixed;bottom:20px;right:20px;width:56px;height:56px;
+  border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;
+  cursor:pointer;z-index:500;box-shadow:0 4px 16px rgba(0,0,0,.4);font-size:24px;transition:transform .2s">
+  💬
+  <span id="chatBadge" style="position:absolute;top:-2px;right:-2px;background:var(--red);color:#fff;
+    font-size:10px;font-weight:700;border-radius:50%;width:18px;height:18px;display:none;
+    align-items:center;justify-content:center">0</span>
+</div>
+
+<div id="chatBox" style="display:none;position:fixed;bottom:84px;right:20px;width:320px;height:440px;
+  background:var(--bg2);border:1px solid var(--b2);border-radius:12px;z-index:501;
+  flex-direction:column;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.5)">
+  <div style="background:var(--bg3);padding:12px 14px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--b1)">
+    <div style="display:flex;align-items:center;gap:6px;min-width:0">
+      <div style="width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0"></div>
+      <span style="font-size:13px;font-weight:700;flex-shrink:0" id="chatTitle">LIVE CHAT</span>
+      <span id="chatUserCount" style="font-size:10px;color:var(--t3);flex-shrink:0"></span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
+      <div onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
+      <div onclick="toggleChat()" style="cursor:pointer;color:var(--t3);font-size:16px;padding:2px 4px">✕</div>
+    </div>
+  </div>
+  <div id="chatMessages" style="flex:1;overflow-y:auto;padding:10px 12px;display:flex;flex-direction:column;gap:8px"></div>
+  <div style="padding:8px 10px;border-top:1px solid var(--b1);display:flex;gap:6px">
+    <input id="chatInput" type="text" placeholder="메시지 입력..." maxlength="200"
+      style="flex:1;background:var(--bg4);border:1px solid var(--b2);color:var(--t1);
+      padding:8px 10px;border-radius:8px;font-size:12px"
+      onkeydown="if(event.key==='Enter')sendChatMsg()">
+    <button onclick="sendChatMsg()" style="background:var(--orange);color:#000;border:none;
+      padding:8px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer">전송</button>
+  </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js" onerror="console.error('Firebase app SDK failed to load')"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js" onerror="console.error('Firebase database SDK failed to load')"></script>
+</body>
+</html>

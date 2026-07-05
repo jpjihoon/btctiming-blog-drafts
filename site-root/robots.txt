@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# 캐시, API, 서버 스크립트는 색인 불필요
+Disallow: /cache/
+Disallow: /api.php
+Disallow: /cron_warmup.php
+Disallow: /config.php
+Disallow: /data_sources.php
+Disallow: /score_calc.php
+Disallow: /*.keystore
+
+Sitemap: https://btctiming.com/sitemap.xml

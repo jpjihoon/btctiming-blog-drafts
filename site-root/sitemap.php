@@ -1,0 +1,125 @@
+<?php
+// ═══════════════════════════════════════════════════════
+// BTCtiming.com — 동적 사이트맵 생성기
+//
+// 용도: /www/blog/ 폴더의 .html 파일을 매 요청 시 자동으로 스캔해서
+//       sitemap.xml을 만들어줍니다. 블로그 글을 새로 올리거나 지워도
+//       이 파일을 손댈 필요가 없습니다 — 파일만 넣으면 자동 반영됩니다.
+//
+// 설정 방법:
+//   1) 이 파일을 /www/sitemap.php 로 업로드
+//   2) 기존 정적 sitemap.xml은 삭제(또는 이름 변경)
+//   3) robots.txt의 Sitemap: 줄을 https://btctiming.com/sitemap.php 로 변경
+//   4) 구글 서치콘솔 / 네이버 서치어드바이저에 사이트맵 URL을
+//      https://btctiming.com/sitemap.php 로 재제출
+//      (검색엔진은 .xml로 끝나지 않아도 Content-Type이 XML이면 정상 인식합니다)
+// ═══════════════════════════════════════════════════════
+
+// 혹시 이전에 다른 Content-Type 헤더가 잡혀있을 경우를 대비해 제거 후 재설정
+if (function_exists('header_remove')) {
+    header_remove('Content-Type');
+}
+header('Content-Type: application/xml; charset=utf-8');
+// 사이트맵은 자주 안 바뀌므로 짧게 캐싱 헤더만 걸어둠 (선택 사항)
+header('Cache-Control: public, max-age=3600');
+
+$root = __DIR__;
+require_once $root . '/config.php';
+$baseUrl = 'https://btctiming.com';
+
+/**
+ * URL 엔트리 하나를 담는 배열 생성 헬퍼
+ * $hreflangs: ['ko' => url, 'en' => url, 'x-default' => url] — 언어별 대응 URL (선택)
+ */
+function urlEntry(string $loc, string $lastmod, string $changefreq, string $priority, array $hreflangs = []): array {
+    return compact('loc', 'lastmod', 'changefreq', 'priority', 'hreflangs');
+}
+
+$entries = [];
+
+// ── 1) 홈(메인 분석 화면) — SUPPORTED_LANGS(config.php) 기반으로 전 언어 자동 등록.
+//     새 언어를 SUPPORTED_LANGS에 추가하면 이 파일은 안 건드려도 사이트맵에 자동 반영됨.
+$homeFile = file_exists($root . '/index.php') ? $root . '/index.php' : $root . '/index.html';
+$homeLastmod = file_exists($homeFile) ? date('Y-m-d', filemtime($homeFile)) : date('Y-m-d');
+$homeHreflangs = ['x-default' => $baseUrl . '/'];
+foreach (SUPPORTED_LANGS as $lc => $li) {
+    $homeHreflangs[$lc] = $baseUrl . '/' . langSuffix($lc);
+}
+foreach (SUPPORTED_LANGS as $lc => $li) {
+    $priority = $lc === 'ko' ? '1.0' : '0.9';
+    $entries[] = urlEntry($homeHreflangs[$lc], $homeLastmod, 'daily', $priority, $homeHreflangs);
+}
+
+// ── 2) 블로그 목록 ──
+// index.html(구버전) 또는 index.php(신버전, 자동 목록) 둘 중 있는 걸 사용
+$blogDir = $root . '/blog';
+$blogIndexFile = file_exists($blogDir . '/index.php')
+    ? $blogDir . '/index.php'
+    : $blogDir . '/index.html';
+if (file_exists($blogIndexFile)) {
+    $entries[] = urlEntry(
+        $baseUrl . '/blog/',
+        date('Y-m-d', filemtime($blogIndexFile)),
+        'weekly',
+        '0.8'
+    );
+}
+
+// ── 3) 블로그 아티클 전체 — 실제로 존재하는 언어 버전만 각각 별도 URL로 등록 ──
+// _meta.php가 유일한 정답 소스. title_{lang} 존재 여부로 "그 언어 번역 완료"를 자동 판단해서,
+// 번역된 글만 해당 언어 URL과 hreflang을 추가합니다. (미번역 글에 넣으면 구글에 오도 정보가 됨)
+// SUPPORTED_LANGS 기반이라, 블로그에 새 언어(스페인어 등) 번역을 채워 넣기 시작하면
+// 이 파일은 안 건드려도 title_es가 생기는 즉시 사이트맵에 자동으로 잡힙니다.
+$metaFile = $blogDir . '/_meta.php';
+if (file_exists($metaFile)) {
+    $articles = require $metaFile;
+    foreach ($articles as $slug => $a) {
+        $baseArticleUrl = $baseUrl . '/blog/' . $slug . '.php';
+        $availableLangs = array_filter(array_keys(SUPPORTED_LANGS), fn($lc) => $lc === 'ko' || isset($a["title_{$lc}"]));
+        $hreflangs = ['x-default' => $baseArticleUrl];
+        foreach ($availableLangs as $lc) {
+            $hreflangs[$lc] = $baseArticleUrl . langSuffix($lc);
+        }
+        $date = $a['date'] ?? date('Y-m-d');
+        foreach ($availableLangs as $lc) {
+            $priority = $lc === 'ko' ? '0.7' : '0.6';
+            $entries[] = urlEntry($hreflangs[$lc], $date, 'monthly', $priority, $hreflangs);
+        }
+    }
+}
+
+// ── 4) 기타 정적 페이지 (있는 경우만 자동 포함) ──
+$staticPages = [
+    'privacy.html' => ['/privacy', '0.3'],
+    'terms.html'   => ['/terms', '0.3'],
+];
+foreach ($staticPages as $file => [$path, $priority]) {
+    $fullPath = $root . '/' . $file;
+    if (file_exists($fullPath)) {
+        $entries[] = urlEntry(
+            $baseUrl . $path,
+            date('Y-m-d', filemtime($fullPath)),
+            'yearly',
+            $priority
+        );
+    }
+}
+
+// ── XML 출력 (xhtml 네임스페이스로 hreflang 대응 링크 포함) ──
+echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+// 이 한 줄 덕분에 브라우저에서 열면 sitemap.xsl로 예쁜 표 형태로 보임.
+// 검색엔진(구글봇 등)은 이 지시문을 무시하고 원본 XML 데이터만 그대로 읽습니다.
+echo '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>' . "\n";
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">' . "\n";
+foreach ($entries as $e) {
+    echo "  <url>\n";
+    echo "    <loc>" . htmlspecialchars($e['loc'], ENT_XML1) . "</loc>\n";
+    echo "    <lastmod>" . $e['lastmod'] . "</lastmod>\n";
+    echo "    <changefreq>" . $e['changefreq'] . "</changefreq>\n";
+    echo "    <priority>" . $e['priority'] . "</priority>\n";
+    foreach ($e['hreflangs'] as $lang => $url) {
+        echo '    <xhtml:link rel="alternate" hreflang="' . $lang . '" href="' . htmlspecialchars($url, ENT_XML1) . '"/>' . "\n";
+    }
+    echo "  </url>\n";
+}
+echo '</urlset>' . "\n";

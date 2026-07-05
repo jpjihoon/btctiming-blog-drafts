@@ -1,0 +1,17 @@
+{
+  "name": "BTCtiming.com — 비트코인 매수 매도 타이밍",
+  "short_name": "BTCtiming",
+  "description": "온체인 지표 기반 비트코인·알트코인 롱/숏 진입 타이밍 실시간 분석",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "ko",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
