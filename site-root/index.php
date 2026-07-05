@@ -1884,9 +1884,9 @@ function renderAll(ind) {
     }).join('');
   }
 
-  // Timestamp
+  // Timestamp — 브라우저 로컬시간 대신, 언어별로 명시적인 시간대(ko→KST, ja→JST, en→UTC, es/de→CET·CEST)를 강제 지정
   document.getElementById('tsLabel').textContent=
-    `${T('updated')} ${new Date().toLocaleString(SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})}`;
+    `${T('updated')} ${formatNowInLangTZ(currentLang)}`;
 
   // History
   saveHistory(sc);
@@ -3358,10 +3358,25 @@ function formatInsightDate(dateStr, lang) {
   if(!m) return String(dateStr).replaceAll('-', '.'); // 형식이 다르면 예전처럼 안전하게 표시
   const y = Number(m[1]), mo = Number(m[2]), d = Number(m[3]), h = Number(m[4]), mi = Number(m[5]);
   const kstEpoch = Date.UTC(y, mo - 1, d, h - 9, mi); // KST → UTC epoch로 정규화
+  return formatEpochInLangTZ(kstEpoch, lang);
+}
 
+/**
+ * "지금 이 순간"(new Date())을 언어별 명시적 시간대로 표시.
+ * tsLabel(실시간 데이터 갱신 시각)처럼 저장된 날짜 문자열이 아니라 실시간 현재시각을 다룰 때 사용.
+ * 브라우저의 toLocaleString 기본 동작(방문자 로컬시간)에 의존하지 않고, 항상 UI 언어에 맞는
+ * 시간대를 명시적으로 강제 지정함 — 그래야 한국에서 접속하든 해외에서 접속하든 언어를 en으로
+ * 바꾸면 항상 UTC로, ja면 항상 JST로 일관되게 보임.
+ */
+function formatNowInLangTZ(lang) {
+  return formatEpochInLangTZ(Date.now(), lang);
+}
+
+/** epoch(ms) 하나를 받아 언어별 시간대 문자열로 포맷하는 공통 로직 (formatInsightDate/formatNowInLangTZ가 공유) */
+function formatEpochInLangTZ(epochMs, lang) {
   const TZ_BY_LANG = { ko: 'Asia/Seoul', ja: 'Asia/Tokyo', en: 'UTC', es: 'Europe/Madrid', de: 'Europe/Berlin' };
   const tz = TZ_BY_LANG[lang] || 'UTC';
-  const dt = new Date(kstEpoch);
+  const dt = new Date(epochMs);
 
   const parts = new Intl.DateTimeFormat('en-CA', {
     timeZone: tz, hourCycle: 'h23',
@@ -3373,8 +3388,6 @@ function formatInsightDate(dateStr, lang) {
   else if (tz === 'Asia/Tokyo') label = 'JST';
   else if (tz === 'UTC') label = 'UTC';
   else {
-    // 유럽 서머타임(CET/CEST) 자동 판별: 브라우저마다 다른 Intl timeZoneName 대신
-    // UTC와의 실제 분(分) 차이를 직접 계산해서 안정적으로 라벨을 정함
     const asUTC = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), Number(parts.hour), Number(parts.minute));
     const offsetMin = Math.round((asUTC - dt.getTime()) / 60000);
     label = offsetMin === 120 ? 'CEST' : 'CET';
