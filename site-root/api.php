@@ -70,6 +70,11 @@ if ($ind === null) {
         $m15Klines = parseDailyKlines($raw['klines15m'] ?? null, 15);
         $btcKlines = ($coin === 'BTC') ? null : parseDailyKlines($raw['btc_klines'] ?? null, 30);
 
+        // 데이터 신뢰성 플래그: 파싱 실패(null)해서 기본값으로 대체된 지표 = 추정(estimated)으로 표시
+        $estimated = [];
+        if ($fg === null) $estimated['fg'] = true;
+        if ($futuresGap === null) $estimated['funding'] = true;
+
         // 가격을 못 받아왔으면 binance.us로 한 번만 재시도 (드문 경우라 단건 호출로 충분)
         if ($price === null) {
             $fallback = http_get("https://api.binance.us/api/v3/ticker/price?symbol=$sym");
@@ -82,11 +87,21 @@ if ($ind === null) {
             $nh = parseNewhedge($raw['newhedge'] ?? null);
             $hr = parseHashRibbon($raw['hashrate'] ?? null);
             $cbp = parseCBPremium($raw['cbpremium'] ?? null, $price);
+            // BTC라도 소스가 죽으면 파서가 null → 기본값 대체 = 추정 표시
+            if ($mvrv_z === null) $estimated['mvrv'] = true;
+            if ($nh === null) $estimated['onchain'] = true;
+            if ($hr === null) $estimated['hashribbon'] = true;
+            if ($cbp === null) $estimated['cbpremium'] = true;
         } else {
             $mvrv_z = 0.27;
             $nh = ['nupl' => 0.09, 'sth_sopr' => 0.960, 'lth_sopr' => 0.79, 'lth_pct' => 75.0];
             $hr = ['ratio' => 1.0, 'status' => 'Recovering'];
             $cbp = -0.13;
+            // BTC가 아닌 코인은 온체인 지표를 실측하지 않고 BTC 기준 근사값을 씀 = 항상 추정
+            $estimated['mvrv'] = true;
+            $estimated['onchain'] = true;
+            $estimated['hashribbon'] = true;
+            $estimated['cbpremium'] = true;
         }
 
         $p = $price ?? 60000;
@@ -115,6 +130,7 @@ if ($ind === null) {
         $ind = [
             'coin' => $coin,
             'price' => $p,
+            'estimated' => $estimated,
             'ma200w' => $ma200w ?? 62000,
             'fear_greed' => $fg['value'],
             'fg_label' => $fg['label'],
@@ -193,6 +209,7 @@ echo json_encode([
         'cb_premium' => $ind['cb_premium'],
         'hr_status' => $ind['hr_status'],
     ],
+    'estimated' => $ind['estimated'] ?? [],
     'result' => $result,
     'updated_at' => date('c'),
 ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
