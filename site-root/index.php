@@ -254,6 +254,36 @@ $webAppSchema = [
 <?= json_encode($webAppSchema, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) ?>
 </script>
 
+<!-- Organization + WebSite 구조화 데이터 (브랜드 검색결과·발행자 정보 강화) -->
+<?php
+$orgSchema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'Organization',
+    '@id' => 'https://btctiming.com/#organization',
+    'name' => 'BTCtiming.com',
+    'url' => 'https://btctiming.com/',
+    'logo' => [
+        '@type' => 'ImageObject',
+        'url' => 'https://btctiming.com/icon-512.png',
+    ],
+];
+$siteSchema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'WebSite',
+    '@id' => 'https://btctiming.com/#website',
+    'name' => 'BTCtiming.com',
+    'url' => 'https://btctiming.com/',
+    'inLanguage' => $wa['lang'],
+    'publisher' => ['@id' => 'https://btctiming.com/#organization'],
+];
+?>
+<script type="application/ld+json">
+<?= json_encode($orgSchema, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) ?>
+</script>
+<script type="application/ld+json">
+<?= json_encode($siteSchema, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) ?>
+</script>
+
 <!-- AdSense -->
 <meta name="google-adsense-account" content="ca-pub-2639309536043953">
 <style>
