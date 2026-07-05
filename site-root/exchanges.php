@@ -162,8 +162,20 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 .site-hd{display:flex;align-items:center;justify-content:space-between;max-width:840px;width:100%;margin:0 auto;padding:16px 16px;border-bottom:1px solid var(--b1)}
 .hd-logo{font-size:17px;font-weight:800;letter-spacing:-.5px;color:var(--t1);text-decoration:none}
 .hd-logo span{color:var(--orange)}
+.hd-right{display:flex;align-items:center;gap:8px}
 .hd-home{font-size:13px;color:var(--t2);text-decoration:none;padding:6px 12px;border:1px solid var(--b1);border-radius:8px;transition:all .15s}
 .hd-home:hover{color:var(--t1);border-color:var(--b2)}
+/* 언어 드롭다운 (블로그 헤더와 동일 스타일) */
+.lang-dd{position:relative;flex-shrink:0}
+.lang-trig{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:13px;font-weight:600;cursor:pointer}
+.lang-trig:hover{background:#1a1a1a}
+.lang-car{font-size:9px;color:var(--t3);transition:transform .15s}
+.lang-dd.open .lang-car{transform:rotate(180deg)}
+.lang-mn{position:absolute;top:calc(100% + 6px);right:0;min-width:132px;background:var(--bg3);border:1px solid var(--b2);border-radius:10px;padding:5px;opacity:0;pointer-events:none;transform:translateY(-6px);transition:all .15s;z-index:50}
+.lang-dd.open .lang-mn{opacity:1;pointer-events:auto;transform:translateY(0)}
+.lang-it{display:flex;align-items:center;gap:8px;padding:9px 12px;color:var(--t2);text-decoration:none;font-size:13px;border-radius:7px}
+.lang-it:hover{background:#1a1a1a;color:var(--t1)}
+.lang-it.active{color:var(--orange);background:rgba(247,147,26,.08)}
 /* 본문 여백 */
 .wrap{max-width:840px;margin:0 auto;width:100%;padding:24px 16px;flex:1}
 /* 하단 푸터 */
@@ -172,10 +184,6 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 .ft-line{font-size:11px;color:var(--t3);line-height:1.7}
 .ft-line a{color:var(--t3);text-decoration:underline}
 .ft-line a:hover{color:var(--t2)}
-.ft-langs{display:flex;flex-wrap:wrap;gap:8px}
-.ft-langs a{font-size:11px;color:var(--t3);text-decoration:none;padding:3px 9px;border:1px solid var(--b1);border-radius:6px;transition:all .15s}
-.ft-langs a:hover{color:var(--t1);border-color:var(--b2)}
-.ft-langs a.on{color:var(--orange);border-color:rgba(251,146,60,.4)}
 
 .back{display:inline-block;color:var(--t3);text-decoration:none;font-size:13px;margin-bottom:20px}
 .back:hover{color:var(--t1)}
@@ -205,7 +213,22 @@ h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
 <body>
 <header class="site-hd">
   <a href="/<?= h($urlSuffix) ?>" class="hd-logo">BTC<span>timing</span></a>
-  <a href="/<?= h($urlSuffix) ?>" class="hd-home"><?= h($t['f_home']) ?></a>
+  <div class="hd-right">
+    <a href="/<?= h($urlSuffix) ?>" class="hd-home"><?= h($t['f_home']) ?></a>
+    <div class="lang-dd" id="langDd">
+      <button type="button" class="lang-trig" onclick="document.getElementById('langDd').classList.toggle('open')">
+        <span><?= strtoupper($lang) ?></span><span class="lang-car">▾</span>
+      </button>
+      <div class="lang-mn">
+        <?php
+          $LNG = ['ko'=>'🇰🇷 한국어','en'=>'🇺🇸 English','ja'=>'🇯🇵 日本語','es'=>'🇪🇸 Español','de'=>'🇩🇪 Deutsch'];
+          foreach (array_keys(SUPPORTED_LANGS) as $lc):
+        ?>
+        <a class="lang-it<?= $lc===$lang ? ' active' : '' ?>" href="/exchanges.php<?= h(langSuffix($lc)) ?>"><?= h($LNG[$lc] ?? strtoupper($lc)) ?></a>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
 </header>
 <div class="wrap">
   <a href="/<?= h($urlSuffix) ?>" class="back"><?= h($t['back']) ?></a>
@@ -249,12 +272,13 @@ h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
       <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['f_terms']) ?></a> ·
       <span><?= h($t['f_disc']) ?></span>
     </div>
-    <div class="ft-langs">
-      <?php foreach (SUPPORTED_LANGS as $lc => $li): ?>
-        <a href="/exchanges.php<?= h(langSuffix($lc)) ?>"<?= $lc===$lang ? ' class="on"' : '' ?>><?= h($li['flag'] ?? $lc) ?> <?= h($li['name'] ?? strtoupper($lc)) ?></a>
-      <?php endforeach; ?>
-    </div>
   </div>
 </footer>
+<script>
+document.addEventListener('click', function(e){
+  var dd = document.getElementById('langDd');
+  if(dd && !dd.contains(e.target)) dd.classList.remove('open');
+});
+</script>
 </body>
 </html>
