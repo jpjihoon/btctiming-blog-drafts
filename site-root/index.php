@@ -1123,8 +1123,13 @@ function updateTickerFromAPI(data) {
   if(data.mcap)    set('tkMcap', (data.mcap/1e12).toFixed(2)+'T');
   if(data.vol24h)  set('tkVol',  (data.vol24h/1e9).toFixed(1)+'B');
   // 서버가 내려주는 usdt_krw/usdt_chg는 원화 전용 값이라, 한국어 모드일 때만 사용.
-  // USDT/{통화}는 loadTicker(data)가 실제 시세로 렌더 (첫 렌더/데이터 갱신 모두 최신 반영)
-  loadTicker(data);
+  // 다른 언어에서는 loadTicker()가 언어에 맞는 통화(USD/JPY/EUR 등)로 이미 채워둔 값을 덮어쓰지 않음.
+  if(currentLang === 'ko') {
+    if(data.usdt_krw != null && data.usdt_krw > 0) {
+      set('tkUsdtKrw', Number(data.usdt_krw).toLocaleString('ko'));
+    }
+    if(data.usdt_chg != null) setChg('tkUsdtKrwChg', data.usdt_chg);
+  }
 }
 
 // 언어별 기준 통화 매핑 — 한국어면 원화(김치프리미엄 확인용), 그 외 언어는 각 지역에서 익숙한 통화로.
@@ -1132,7 +1137,7 @@ function updateTickerFromAPI(data) {
 const TICKER_CURRENCY_MAP = {ko:'KRW', en:'USD', ja:'JPY', es:'EUR', de:'EUR'};
 function getTickerCurrency() { return TICKER_CURRENCY_MAP[currentLang] || 'USD'; }
 
-async function loadTicker(tickerData) {
+async function loadTicker() {
   const cur = getTickerCurrency();
   const curLower = cur.toLowerCase();
   // 라벨 갱신 (USD/USD처럼 같은 통화가 겹치는 경우 — 예: 영어 사용자에게 USD/USD — 는
@@ -1146,35 +1151,30 @@ async function loadTicker(tickerData) {
   if(l1) l1.textContent = `USD/${cur}`;
   if(l2) l2.textContent = `USDT/${cur}`;
 
-  // USD/{통화} 환율 fetch (exchangerate-api, CORS 허용).
-  const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
-    .then(r=>r.json()).catch(()=>null);
+  // 기준 통화 환율 + USDT 시세를 동시에 fetch
+  //   USD/{통화}: exchangerate-api (CORS 허용)
+  //   USDT/{통화}: CoinGecko simple/price — 직접 호출이 CORS로 막히면 프록시 경유
+  const [r1, r2] = await Promise.allSettled([
+    fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)}).then(r=>r.json()),
+    fetchProxy(`https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=${curLower}&include_24hr_change=true`),
+  ]);
 
   const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-  const rate = (cur === 'USD') ? 1 : r1?.rates?.[cur];
-  if(rate != null) {
-    // USD/{통화} 법정환율
-    const el1 = document.getElementById('tkUsdKrw');
-    if(el1) el1.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='JPY'||cur==='KRW') ? 1 : 2});
+  if(r1.status==='fulfilled') {
+    const rate = cur === 'USD' ? 1 : r1.value?.rates?.[cur];
+    const el = document.getElementById('tkUsdKrw');
+    if(el && rate != null) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 1 : 2});
   }
-
-  // USDT/{통화}: 실제 테더 시세 사용. 우선순위: 넘겨받은 tickerData > indCache > 환율 폴백(빈칸 방지).
-  const el2 = document.getElementById('tkUsdtKrw');
-  const chgEl = document.getElementById('tkUsdtKrwChg');
-  const src = tickerData || ((typeof indCache !== 'undefined') ? indCache[currentCoin] : null);
-  let price = null, chg = null;
-  if(cur === 'KRW' && src){ const v = Number(src.usdt_krw); if(v>=500 && v<=3000){ price=v; chg=src.usdt_chg; } }
-  if(price == null && src && src.usdt_prices && src.usdt_prices[curLower]){
-    price = src.usdt_prices[curLower].p; chg = src.usdt_prices[curLower].c;
-  }
-  if(price == null && rate != null){ price = rate; chg = null; } // 최후 폴백: 환율
-  if(price != null && el2){
-    const digits = (cur==='JPY') ? 0 : (cur==='KRW' ? 1 : 4);
-    el2.textContent = price.toLocaleString(dLoc, {maximumFractionDigits: digits, minimumFractionDigits: (cur==='USD'||cur==='EUR')?4:0});
-  }
-  if(chgEl){
-    if(chg != null){ const s=chg>=0?'+':''; chgEl.textContent=`${s}${Number(chg).toFixed(2)}%`; chgEl.style.color=chg>=0?'var(--green)':'var(--red)'; }
-    else chgEl.textContent = '';
+  if(r2.status==='fulfilled' && r2.value?.tether?.[curLower] != null) {
+    const rate = r2.value.tether[curLower];
+    const chg = r2.value.tether[`${curLower}_24h_change`];
+    const el = document.getElementById('tkUsdtKrw');
+    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 0 : 3});
+    const chgEl = document.getElementById('tkUsdtKrwChg');
+    if(chgEl && chg != null) {
+      chgEl.textContent = (chg>=0?'+':'') + chg.toFixed(2) + '%';
+      chgEl.style.color = chg>=0 ? 'var(--green)' : 'var(--red)';
+    }
   }
 }
 setInterval(loadTicker, 60*1000); // 1분마다 갱신 (최초 1회는 refreshLangDependentUI()에서 호출됨)
@@ -1260,6 +1260,28 @@ function connectWS() {
 // ═══════════════════════════════════════════════════════
 // CORS PROXY
 // ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════
+// USDT 시세 등 CORS 미허용 API를 위한 프록시 헬퍼. 직접 호출을 먼저 시도하고,
+// 막히면 아래 프록시들을 병렬로 시도해 가장 빠른 성공을 사용.
+// (죽은 corsproxy.io/thingproxy는 제외. 살아있는 것들만 유지 — 하나 죽어도 나머지로 대체됨)
+const PROXIES = [
+  'https://api.allorigins.win/raw?url=',
+  'https://api.codetabs.com/v1/proxy/?quest=',
+];
+
+async function fetchProxy(url, isJson=true) {
+  try {
+    const direct = fetch(url, {signal:AbortSignal.timeout(3000)})
+      .then(r=>r.ok?(isJson?r.json():r.text()):Promise.reject('direct_fail'));
+    const proxies = PROXIES.map(px=>
+      fetch(px+encodeURIComponent(url),{signal:AbortSignal.timeout(6000)})
+        .then(r=>r.ok?(isJson?r.json():r.text()):Promise.reject('proxy_fail'))
+    );
+    return await Promise.any([direct, ...proxies]);
+  } catch(e){}
+  return null;
+}
+
 // ═══════════════════════════════════════════════════════
 // UI RENDERING — 카드 생성 (순수 화면 표시용, 계산 로직 아님)
 // ═══════════════════════════════════════════════════════
