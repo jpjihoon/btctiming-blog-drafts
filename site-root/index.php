@@ -2944,15 +2944,15 @@ Aktuell: STH realisiert deutliche Gewinne relativ zu LTH → Distribution könnt
 const LANG_META = <?= json_encode(array_map(fn($l) => ['code' => $l['code'], 'name' => $l['flag'] . ' ' . $l['name']], SUPPORTED_LANGS), JSON_UNESCAPED_UNICODE) ?>;
 const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 let currentLang = (function() {
-  // 언어 우선순위: URL ?lang= 파라미터 > localStorage(blogLang, 블로그와 공유) > 기본값 ko
-  // SUPPORTED_LANG_CODES는 서버(config.php의 SUPPORTED_LANGS)에서 내려주므로, 새 언어 추가시 이 코드는 안 건드려도 됨.
-  try {
-    const p = new URLSearchParams(location.search).get('lang');
-    if (SUPPORTED_LANG_CODES.includes(p)) return p;
-  } catch(e) {}
+  // 언어 우선순위: localStorage(사용자의 마지막 명시적 선택, 블로그와 공유) > URL ?lang= > 기본값 ko.
+  // (뒤로/앞으로가기로 URL에 옛 ?lang=이 남아있어도 최근 선택을 덮지 않도록 localStorage 우선)
   try {
     const saved = localStorage.getItem('blogLang');
     if (SUPPORTED_LANG_CODES.includes(saved)) return saved;
+  } catch(e) {}
+  try {
+    const p = new URLSearchParams(location.search).get('lang');
+    if (SUPPORTED_LANG_CODES.includes(p)) return p;
   } catch(e) {}
   return 'ko';
 })();
