@@ -3160,7 +3160,15 @@ function refreshLangDependentUI() {
   loadBlogTicker();
   loadTicker(); // bfcache 복원 시에도 언어에 맞는 통화(KRW/USD/JPY/EUR)로 티커 재조회
 }
-refreshLangDependentUI(); // 최초 로딩
+refreshLangDependentUI(); // 최초 로딩 (단, footer 등 이 <script> 뒤에 오는 요소는 아직 DOM에 없음)
+// ⚠ 이 스크립트는 문서 중간(footer 앞)에서 실행되므로, footer의 [data-i](개인정보처리방침/이용약관/
+//   투자조언 등)는 위 호출 시점엔 아직 존재하지 않아 번역이 안 됨. 서버는 URL ?lang=만 보고 footer를
+//   렌더하므로, 저장 언어가 ko가 아니면 footer만 한국어로 남는다. → DOM 완성 후 한 번 더 적용.
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function(){ applyStaticI18n(); updateLangUI(currentLang); loadCategoryLinks(); });
+} else {
+  applyStaticI18n(); updateLangUI(currentLang); loadCategoryLinks();
+}
 // 뒤로가기/앞으로가기 복원(bfcache, event.persisted===true)뿐 아니라, URL에 ?lang= 없이
 // 홈으로 돌아온 경우(서버는 ?lang만 보므로 footer 등을 한국어로 렌더함)에도 언어가 어긋난다.
 // 그래서 표시될 때마다 localStorage의 저장 언어와 현재 언어가 다르면 재동기화한다.
