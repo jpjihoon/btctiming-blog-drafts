@@ -150,9 +150,13 @@ function applySavedLang() {
     const current = document.getElementById('hr').lang;
     if(saved === current) return;
     if(saved === 'en' || saved === 'ja' || saved === 'es' || saved === 'de') {
-      // 이 글에 해당 언어 메뉴 항목이 존재할 때만 전환 (미번역 글은 해당 언어 메뉴 자체가 없을 수 있음)
+      // 이 글에 해당 언어 메뉴 항목이 존재할 때만 실제 전환 (미번역 글은 서버가 en으로 폴백)
       const hasMenuItem = document.querySelector('.lang-menu-item[data-lang="' + saved + '"]');
       if(hasMenuItem) L(saved);
+    } else if(saved === 'ko') {
+      // 저장된 선호가 한국어인데 페이지가 다른 언어로 렌더된 경우(예: ?lang= 링크로 진입) 한국어로 복귀.
+      // 모든 글은 한국어 원문이 있으므로 항상 전환 가능.
+      L('ko');
     }
   } catch(e){}
 }
