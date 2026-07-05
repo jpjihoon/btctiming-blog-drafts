@@ -1943,17 +1943,32 @@ function dismissOnboard(){
   try { localStorage.setItem('onboardSeen','1'); } catch(e){}
   const t=document.getElementById('onboardTip'); if(t) t.style.display='none';
 }
+function renderOnboardText(){
+  const txt=document.getElementById('onboardTipText'); if(!txt) return;
+  const isShort = (currentMode === 'sell');
+  if(isShort){
+    txt.innerHTML = TT({
+      ko:'👋 <b>처음 오셨나요?</b> 이 점수는 0~10으로, <b>높을수록 매도·숏(하락 베팅) 타이밍</b>에 가깝다는 뜻입니다. 아래 지표들을 종합한 값이에요.',
+      en:'👋 <b>New here?</b> This 0–10 score shows how good the <b>sell / short (bet on a drop) timing</b> is — higher is better. It combines the indicators below.',
+      ja:'👋 <b>初めてですか?</b> このスコアは0〜10で、<b>高いほど売り・ショート(下落ベット)のタイミング</b>が良いことを示します。下の指標を総合した値です。',
+      es:'👋 <b>¿Primera vez?</b> Esta puntuación de 0 a 10 indica qué tan buen <b>momento de venta / corto (apostar a la baja)</b> es — más alto es mejor. Combina los indicadores de abajo.',
+      de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Verkaufs-/Short-Timing (auf fallende Kurse setzen)</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.'
+    });
+  } else {
+    txt.innerHTML = TT({
+      ko:'👋 <b>처음 오셨나요?</b> 이 점수는 0~10으로, <b>높을수록 매수·롱(상승 베팅) 타이밍</b>에 가깝다는 뜻입니다. 아래 지표들을 종합한 값이에요.',
+      en:'👋 <b>New here?</b> This 0–10 score shows how good the <b>buy / long (bet on a rise) timing</b> is — higher is better. It combines the indicators below.',
+      ja:'👋 <b>初めてですか?</b> このスコアは0〜10で、<b>高いほど買い・ロング(上昇ベット)のタイミング</b>が良いことを示します。下の指標を総合した値です。',
+      es:'👋 <b>¿Primera vez?</b> Esta puntuación de 0 a 10 indica qué tan buen <b>momento de compra / largo (apostar a la subida)</b> es — más alto es mejor. Combina los indicadores de abajo.',
+      de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Kauf-/Long-Timing (auf steigende Kurse setzen)</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.'
+    });
+  }
+}
 function showOnboardIfFirst(){
   try { if(localStorage.getItem('onboardSeen')) return; } catch(e){}
   const tip=document.getElementById('onboardTip'), txt=document.getElementById('onboardTipText');
   if(!tip||!txt) return;
-  txt.innerHTML = TT({
-    ko:'👋 <b>처음 오셨나요?</b> 이 점수는 0~10으로, <b>높을수록 매수(롱) 타이밍</b>에 가깝다는 뜻입니다. 아래 지표들을 종합한 값이에요.',
-    en:'👋 <b>New here?</b> This 0–10 score shows how good the <b>buy (long) timing</b> is — higher is better. It combines the indicators below.',
-    ja:'👋 <b>初めてですか?</b> このスコアは0〜10で、<b>高いほど買い(ロング)のタイミング</b>が良いことを示します。下の指標を総合した値です。',
-    es:'👋 <b>¿Primera vez?</b> Esta puntuación de 0 a 10 indica qué tan buen <b>momento de compra (largo)</b> es — más alto es mejor. Combina los indicadores de abajo.',
-    de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Kauf-(Long-)Timing</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.'
-  });
+  renderOnboardText();
   tip.style.display='block';
 }
 showOnboardIfFirst();
@@ -2294,8 +2309,10 @@ function applyStaticI18n() {
       el.textContent = translated;
     }
   });
+  // 온보딩 안내가 표시 중이면 현재 언어·모드에 맞게 문구 갱신
+  const _tip = document.getElementById('onboardTip');
+  if(_tip && _tip.style.display !== 'none' && typeof renderOnboardText === 'function') renderOnboardText();
 }
-
 // ═══════════════════════════════════════════════════════
 // LIVE CHAT (Firebase Realtime Database)
 // ═══════════════════════════════════════════════════════
