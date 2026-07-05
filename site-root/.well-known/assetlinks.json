@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.btctiming.app",
+    "sha256_cert_fingerprints": [
+      "82:85:05:C6:F1:AC:4A:3B:0E:F1:C9:10:8A:9F:9C:08:95:6D:43:B9:26:99:CC:20:EA:61:D4:91:D2:2D:E4:36",
+      "96:60:53:A6:C2:08:EA:E7:E9:C2:14:8C:1D:1C:E3:A3:B7:73:0E:77:30:2A:A0:2B:73:38:1E:9A:C7:DA:99:E5"
+    ]
+  }
+}]
