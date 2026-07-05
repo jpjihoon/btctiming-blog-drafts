@@ -247,7 +247,7 @@ function switchCoin(id) {
     currentScore = 0;
     ['scoreNum','scoreAction','reachPct','mPrice','mFG','mRP','mMA'].forEach(elId=>{
       const el=document.getElementById(elId);
-      if(el){el.textContent='—';el.style.color='var(--t3)';}
+      if(el){el.textContent='—';el.style.color='var(--t3)';el.classList.add('sk-load');}
     });
     document.getElementById('reachBar').style.width='0%';
     ['g1','g2','g3','g4','bkGrid','splitRows','trigRows'].forEach(elId=>{
@@ -609,6 +609,10 @@ async function fetchScoreFromAPI(coin, mode) {
 
 
 function renderAll(ind) {
+  // 데이터가 도착했으니 로딩 스켈레톤 제거
+  ['scoreNum','scoreAction','reachPct','mPrice','mFG','mRP','mMA'].forEach(id=>{
+    const el=document.getElementById(id); if(el) el.classList.remove('sk-load');
+  });
   // 타이틀에 BTC 가격 노출 (BTC 탭일 때만, 다른 코인이면 코인명 표시)
   try {
     const priceForTitle = livePrice || ind.price;
@@ -1581,6 +1585,9 @@ async function loadAll() {
     // 티커바 도미넌스/마켓캡/볼륨 — api.php 응답에서 직접 채움 (CoinGecko 별도 호출 불필요)
     updateTickerFromAPI(buyData);
 
+    // 데이터 신선도 표시: 서버 updated_at이 3분 이내면 LIVE(초록), 그 이상이면 DELAYED(주황)
+    updateLiveTag(buyData && buyData.updated_at);
+
     // 토큰 불일치 = 다른 코인으로 전환됨 → 결과 무시
     if(myToken !== loadToken || loadingCoin !== currentCoin) {
       console.log('Coin switched, ignoring stale data');
@@ -1646,6 +1653,12 @@ let currentLang = (function() {
   try {
     const p = new URLSearchParams(location.search).get('lang');
     if (SUPPORTED_LANG_CODES.includes(p)) return p;
+  } catch(e) {}
+  // 첫 방문(저장값·URL 모두 없음)이면 브라우저 언어를 감지해 시작. 지원 언어가 아니면 ko.
+  try {
+    const nav = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+    const code = nav.toLowerCase().split('-')[0]; // 'en-US' → 'en'
+    if (SUPPORTED_LANG_CODES.includes(code)) return code;
   } catch(e) {}
   return 'ko';
 })();
@@ -1892,6 +1905,43 @@ window.addEventListener('pageshow', function(e) {
   }
 });
 loadAlertSettings(); // 저장된 알림 토글 설정 복원 (새로고침해도 유지)
+
+// 첫 방문자 안내 — 점수 의미를 한 줄로. 닫으면 localStorage에 기록해 다시 안 띄움.
+// 데이터 신선도 배지: updated_at 기준 3분 이내면 LIVE(초록), 초과면 DELAYED(주황)
+function updateLiveTag(updatedAt){
+  const tag=document.getElementById('liveTag'); if(!tag) return;
+  let fresh=true;
+  if(updatedAt){ const age=Date.now()-new Date(updatedAt).getTime(); fresh = age >= 0 && age < 3*60*1000; }
+  const dot=tag.querySelector('.live-dot');
+  if(fresh){
+    tag.style.color='var(--green)'; tag.style.borderColor='rgba(74,222,128,.3)'; tag.style.background='rgba(74,222,128,.08)';
+    if(dot){ dot.style.background='var(--green)'; dot.style.animation='pulse 1.5s infinite'; }
+    tag.childNodes[tag.childNodes.length-1].nodeValue='LIVE';
+  } else {
+    tag.style.color='var(--orange)'; tag.style.borderColor='rgba(251,146,60,.3)'; tag.style.background='rgba(251,146,60,.08)';
+    if(dot){ dot.style.background='var(--orange)'; dot.style.animation='none'; }
+    tag.childNodes[tag.childNodes.length-1].nodeValue='DELAYED';
+  }
+}
+
+function dismissOnboard(){
+  try { localStorage.setItem('onboardSeen','1'); } catch(e){}
+  const t=document.getElementById('onboardTip'); if(t) t.style.display='none';
+}
+function showOnboardIfFirst(){
+  try { if(localStorage.getItem('onboardSeen')) return; } catch(e){}
+  const tip=document.getElementById('onboardTip'), txt=document.getElementById('onboardTipText');
+  if(!tip||!txt) return;
+  txt.innerHTML = TT({
+    ko:'👋 <b>처음 오셨나요?</b> 이 점수는 0~10으로, <b>높을수록 매수(롱) 타이밍</b>에 가깝다는 뜻입니다. 아래 지표들을 종합한 값이에요.',
+    en:'👋 <b>New here?</b> This 0–10 score shows how good the <b>buy (long) timing</b> is — higher is better. It combines the indicators below.',
+    ja:'👋 <b>初めてですか?</b> このスコアは0〜10で、<b>高いほど買い(ロング)のタイミング</b>が良いことを示します。下の指標を総合した値です。',
+    es:'👋 <b>¿Primera vez?</b> Esta puntuación de 0 a 10 indica qué tan buen <b>momento de compra (largo)</b> es — más alto es mejor. Combina los indicadores de abajo.',
+    de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Kauf-(Long-)Timing</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.'
+  });
+  tip.style.display='block';
+}
+showOnboardIfFirst();
 loadAll();
 
 // Auto-refresh every 5 minutes

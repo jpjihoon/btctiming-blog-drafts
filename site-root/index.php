@@ -339,6 +339,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .score-card::before{content:'';position:absolute;z-index:0;inset:0;background:radial-gradient(ellipse at top left, rgba(251,191,36,.05) 0%, transparent 60%);pointer-events:none}
 .score-label{font-size:10px;color:var(--t3);letter-spacing:.06em;margin-bottom:4px}
 .score-num{font-size:64px;font-weight:800;line-height:1;letter-spacing:-3px}
+/* 로딩 스켈레톤 — 데이터 오기 전 회색 깜빡임으로 "불러오는 중"임을 알림 */
+@keyframes skShimmer{0%{opacity:.35}50%{opacity:.75}100%{opacity:.35}}
+.sk-load{position:relative;color:transparent!important}
+.sk-load::after{content:"";position:absolute;left:0;top:15%;width:100%;height:70%;border-radius:8px;background:var(--bg3);animation:skShimmer 1.1s ease-in-out infinite}
 .score-den{font-size:18px;color:var(--t2);font-weight:400}
 .score-action{font-size:20px;font-weight:700;margin-top:8px}
 .score-sub{font-size:10px;color:var(--t3);margin-top:2px}
@@ -592,9 +596,9 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
     <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
     <div class="icon-btn" onclick="openModal()" title="Alerts">🔔</div>
-    <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" style="display:none">↻</div>
+    <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
-      <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
+      <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)" aria-label="Select language" aria-haspopup="true">
         <span id="langTriggerLabel">KO</span><span class="lang-caret">▾</span>
       </button>
       <div class="lang-menu" id="langMenu">
@@ -631,6 +635,10 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
     <!-- Score -->
     <div class="score-card">
+      <div id="onboardTip" style="display:none;background:var(--bg3);border:1px solid var(--b2);border-radius:8px;padding:9px 11px;margin-bottom:10px;font-size:11.5px;line-height:1.55;color:var(--t2)">
+        <span id="onboardTipText"></span>
+        <span onclick="dismissOnboard()" role="button" tabindex="0" aria-label="Dismiss guide" style="float:right;cursor:pointer;color:var(--t3);font-weight:700;margin-left:8px">✕</span>
+      </div>
       <div class="score-label" id="scoreLabel">ENTRY SCORE</div>
       <div style="display:flex;align-items:baseline;gap:4px">
         <span class="score-num" id="scoreNum">—</span>
@@ -653,8 +661,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
     <!-- Mode Toggle -->
     <div class="mode-toggle">
-      <div class="mode-btn buy active" id="modeBuy" onclick="setMode('buy')">📈 LONG Timing</div>
-      <div class="mode-btn sell" id="modeSell" onclick="setMode('sell')">📉 SHORT</div>
+      <div class="mode-btn buy active" id="modeBuy" onclick="setMode('buy')" role="button" tabindex="0" aria-label="Long timing mode">📈 LONG Timing</div>
+      <div class="mode-btn sell" id="modeSell" onclick="setMode('sell')" role="button" tabindex="0" aria-label="Short timing mode">📉 SHORT</div>
     </div>
 
     <!-- Action Bar (동적 렌더링) -->
@@ -770,10 +778,10 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
           <div class="history-sub" id="histRangeSub" data-i="sec_histSub">Saved locally in browser</div>
         </div>
         <div style="display:flex;gap:3px;flex-wrap:wrap">
-          <div class="hist-tab active" onclick="setHistPeriod('1d')" id="htp1d">24h</div>
-          <div class="hist-tab" onclick="setHistPeriod('7d')" id="htp7d">7d</div>
-          <div class="hist-tab" onclick="setHistPeriod('30d')" id="htp30d">30d</div>
-          <div class="hist-tab" onclick="setHistPeriod('all')" id="htpAll">All</div>
+          <div class="hist-tab active" onclick="setHistPeriod('1d')" id="htp1d" role="button" tabindex="0" aria-label="Show 24 hours">24h</div>
+          <div class="hist-tab" onclick="setHistPeriod('7d')" id="htp7d" role="button" tabindex="0" aria-label="Show 7 days">7d</div>
+          <div class="hist-tab" onclick="setHistPeriod('30d')" id="htp30d" role="button" tabindex="0" aria-label="Show 30 days">30d</div>
+          <div class="hist-tab" onclick="setHistPeriod('all')" id="htpAll" role="button" tabindex="0" aria-label="Show all time">All</div>
         </div>
       </div>
       <div style="position:relative">
@@ -858,7 +866,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 <!-- ═══════════════════════════════════════════════════════ -->
 <!-- LIVE CHAT WIDGET -->
 <!-- ═══════════════════════════════════════════════════════ -->
-<div id="chatToggle" onclick="toggleChat()" style="position:fixed;bottom:20px;right:20px;width:56px;height:56px;
+<div id="chatToggle" onclick="toggleChat()" role="button" tabindex="0" aria-label="Open chat" style="position:fixed;bottom:20px;right:20px;width:56px;height:56px;
   border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;
   cursor:pointer;z-index:500;box-shadow:0 4px 16px rgba(0,0,0,.4);font-size:24px;transition:transform .2s">
   💬
@@ -878,7 +886,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
     </div>
     <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
       <div onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
-      <div onclick="toggleChat()" style="cursor:pointer;color:var(--t3);font-size:16px;padding:2px 4px">✕</div>
+      <div onclick="toggleChat()" role="button" tabindex="0" aria-label="Close chat" style="cursor:pointer;color:var(--t3);font-size:16px;padding:2px 4px">✕</div>
     </div>
   </div>
   <div id="chatMessages" style="flex:1;overflow-y:auto;padding:10px 12px;display:flex;flex-direction:column;gap:8px"></div>
