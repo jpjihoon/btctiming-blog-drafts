@@ -99,6 +99,13 @@ function L(l){
     const cat = bcCat.dataset.cat || '';
     bcCat.setAttribute('href', '/blog/?cat=' + cat + (l === 'ko' ? '' : ('&lang=' + l)));
   }
+  // 로고·하단 정책(개인정보/약관)·CTA 링크도 현재 언어를 유지하도록 href 갱신
+  // (예전엔 서버 렌더 시점 언어에 고정돼, 언어를 바꿔도 예전 언어 페이지로 이동했음)
+  const _logo = document.querySelector('a.logo');
+  if(_logo) _logo.setAttribute('href', '/' + bcSuffix);
+  document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + bcSuffix));
+  document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + bcSuffix));
+  document.querySelectorAll('.cta a').forEach(a => a.setAttribute('href', '/' + bcSuffix));
   try{localStorage.setItem('blogLang',l);}catch(e){}
   try{
     const url = new URL(location.href);
@@ -137,15 +144,22 @@ function getBlogLang(){
 // 저장된 언어 설정 복원 — 본문 내 글 간 링크들이 ?lang= 없이 연결되는 경우가 많아서,
 // localStorage에 저장된 선호 언어를 URL보다 후순위로 적용해 이어감.
 // (단, 이 글이 해당 언어로 번역 안 됐으면 <html lang>이 서버에서 이미 en으로 폴백돼 있으므로 그대로 둠)
-try {
-  const saved = getBlogLang();
-  const current = document.getElementById('hr').lang;
-  if(saved !== current && (saved === 'en' || saved === 'ja' || saved === 'es' || saved === 'de')) {
-    // 이 글에 해당 언어 메뉴 항목이 존재할 때만 전환 (미번역 글은 해당 언어 메뉴 자체가 없을 수 있음)
-    const hasMenuItem = document.querySelector('.lang-menu-item[data-lang="' + saved + '"]');
-    if(hasMenuItem) L(saved);
-  }
-} catch(e){}
+function applySavedLang() {
+  try {
+    const saved = getBlogLang();
+    const current = document.getElementById('hr').lang;
+    if(saved === current) return;
+    if(saved === 'en' || saved === 'ja' || saved === 'es' || saved === 'de') {
+      // 이 글에 해당 언어 메뉴 항목이 존재할 때만 전환 (미번역 글은 해당 언어 메뉴 자체가 없을 수 있음)
+      const hasMenuItem = document.querySelector('.lang-menu-item[data-lang="' + saved + '"]');
+      if(hasMenuItem) L(saved);
+    }
+  } catch(e){}
+}
+applySavedLang(); // 최초 로드
+// 뒤로가기/앞으로가기로 bfcache에서 복원될 때는 이 스크립트가 재실행되지 않으므로,
+// pageshow(persisted)에서 저장된 언어를 다시 적용해야 언어 설정이 유지됨.
+window.addEventListener('pageshow', function(e){ if(e.persisted) applySavedLang(); });
 </script>
 </body>
 </html>

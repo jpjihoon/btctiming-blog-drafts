@@ -1,0 +1,179 @@
+<?php $slug = 'oversold-capitulation-2026-07'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">비트코인이 다시 6만 달러 언저리로 내려앉았다. 7월 초 미국 고용지표 둔화로 금리 인하 기대가 살아나며 잠시 6만2,000달러를 회복했지만, 지난 12개월 수익률은 −44%이고 가격은 200주 이동평균선 아래에 머문다. 6월 미국 현물 ETF에서만 40억 달러가 넘는 순유출이 나왔고, 그 대부분이 블랙록 IBIT였다. 가격은 공포를 말하지만, 온체인은 조금 다른 이야기를 한다.</p>
+  <p class="en">Bitcoin has slipped back toward $60,000. A softer U.S. jobs print in early July revived rate-cut hopes and briefly lifted it above $62,000, yet its 12-month return is −44% and price sits below the 200-week moving average. June saw more than $4 billion in net outflows from U.S. spot ETFs — most of it BlackRock's IBIT. Price is speaking fear. On-chain is telling a different story.</p>
+  <p class="ja">ビットコインは再び6万ドル付近まで下落した。7月初旬の米雇用指標の鈍化で利下げ期待が息を吹き返し、一時6万2,000ドルを回復したが、過去12カ月の騰落率は−44%で、価格は200週移動平均線を下回っている。6月には米国の現物ETFだけで40億ドルを超える純流出が発生し、その大半はブラックロックのIBITだった。価格は恐怖を語るが、オンチェーンは少し違う物語を語っている。</p>
+
+  <p class="es">Bitcoin ha vuelto a caer hacia los 60.000 $. Un dato de empleo en EE. UU. más débil a principios de julio reavivó las expectativas de recortes de tasas y lo elevó brevemente por encima de 62.000 $, pero su rendimiento a 12 meses es del −44% y el precio se sitúa por debajo de la media móvil de 200 semanas. En junio hubo más de 4.000 millones de dólares en salidas netas de los ETF spot de EE. UU., en su mayoría el IBIT de BlackRock. El precio habla de miedo. La cadena cuenta otra historia.</p>
+  <p class="de">Bitcoin ist wieder Richtung 60.000 $ gerutscht. Ein schwächerer US-Arbeitsmarktbericht Anfang Juli belebte Zinssenkungshoffnungen und hob den Kurs kurz über 62.000 $, doch die 12-Monats-Rendite liegt bei −44% und der Preis unter dem 200-Wochen-Durchschnitt. Im Juni verzeichneten allein die US-Spot-ETFs über 4 Milliarden Dollar Nettoabflüsse — größtenteils BlackRocks IBIT. Der Preis spricht Angst. On-Chain erzählt etwas anderes.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> MVRV Z-Score 0.27, STH-SOPR 0.96, 선물-현물 베이시스 −0.055%, Hash Ribbon 0.98. 역사적 바닥 구간의 특성이 겹치지만, 이는 '저평가'이지 '반등 확정'은 아니다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> MVRV Z-Score 0.27, STH-SOPR 0.96, futures-spot basis −0.055%, Hash Ribbon 0.98. The markers of a historical bottom zone are lining up — but that means "undervalued," not "reversal confirmed."</div>
+  <div class="box ja">💡 <strong>要点:</strong> MVRV Zスコア0.27、STH-SOPR 0.96、先物-現物ベーシス−0.055%、Hash Ribbon 0.98。歴史的な底値圏の特徴が重なるが、これは「割安」であって「反発の確定」ではない。</div>
+
+  <div class="box es">💡 <strong>Resumen clave:</strong> MVRV Z-Score 0,27, STH-SOPR 0,96, base futuros-spot −0,055%, Hash Ribbon 0,98. Se alinean los rasgos de una zona de suelo histórico — pero eso significa "infravalorado", no "rebote confirmado".</div>
+  <div class="box de">💡 <strong>Kernaussage:</strong> MVRV Z-Score 0,27, STH-SOPR 0,96, Futures-Spot-Basis −0,055%, Hash Ribbon 0,98. Die Merkmale einer historischen Bodenzone treffen zusammen — das heißt "unterbewertet", nicht "Umkehr bestätigt".</div>
+
+  <h2 class="ko">온체인 스냅샷</h2>
+  <h2 class="en">On-Chain Snapshot</h2>
+  <h2 class="ja">オンチェーン・スナップショット</h2>
+  <h2 class="es">Instantánea On-Chain</h2>
+  <h2 class="de">On-Chain-Momentaufnahme</h2>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">온체인 스냅샷 · 2026-07-05</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="95" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">MVRV Z-Score</text>
+      <text x="95" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.27</text>
+      <text x="95" y="158" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">저평가</text>
+      <rect x="190" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="265" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">STH-SOPR</text>
+      <text x="265" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.96</text>
+      <text x="265" y="158" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle">항복</text>
+      <rect x="360" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="435" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">Hash Ribbon</text>
+      <text x="435" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.98</text>
+      <text x="435" y="158" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle">채굴자 항복</text>
+      <rect x="530" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="605" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">선물-현물</text>
+      <text x="605" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">−0.05%</text>
+      <text x="605" y="158" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">백워데이션</text>
+    </g>
+  </svg>
+  </div>
+  <div class="en es de">
+  <svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">On-Chain Snapshot · 2026-07-05</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="95" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">MVRV Z-Score</text>
+      <text x="95" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.27</text>
+      <text x="95" y="158" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">Undervalued</text>
+      <rect x="190" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="265" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">STH-SOPR</text>
+      <text x="265" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.96</text>
+      <text x="265" y="158" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle">Capitulation</text>
+      <rect x="360" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="435" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">Hash Ribbon</text>
+      <text x="435" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.98</text>
+      <text x="435" y="158" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle">Miner capitulation</text>
+      <rect x="530" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="605" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">Futures−Spot</text>
+      <text x="605" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">−0.05%</text>
+      <text x="605" y="158" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Backwardation</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">オンチェーン・スナップショット · 2026-07-05</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="95" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">MVRV Z-Score</text>
+      <text x="95" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.27</text>
+      <text x="95" y="158" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">割安</text>
+      <rect x="190" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="265" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">STH-SOPR</text>
+      <text x="265" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.96</text>
+      <text x="265" y="158" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle">降伏</text>
+      <rect x="360" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="435" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">Hash Ribbon</text>
+      <text x="435" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">0.98</text>
+      <text x="435" y="158" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="middle">マイナー降伏</text>
+      <rect x="530" y="45" width="150" height="140" rx="8" fill="#18181b" stroke="rgba(255,255,255,.08)"/>
+      <text x="605" y="72" fill="#a1a1aa" font-size="11" text-anchor="middle">先物−現物</text>
+      <text x="605" y="118" fill="#fafafa" font-size="30" font-weight="800" text-anchor="middle">−0.05%</text>
+      <text x="605" y="158" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">バックワーデーション</text>
+    </g>
+  </svg>
+  </div>
+
+  <h2 class="ko">온체인은 저평가를 말한다</h2>
+  <h2 class="en">On-Chain Says Undervalued</h2>
+  <h2 class="ja">オンチェーンは「割安」と語る</h2>
+  <h2 class="es">La Cadena Dice Infravalorado</h2>
+  <h2 class="de">On-Chain sagt: unterbewertet</h2>
+  <p class="ko">MVRV Z-Score는 0.270이다. 시장가치가 전체 보유자의 평균 취득원가에 바짝 붙었다는 뜻으로, 이 지표는 2015년·2018년·2022년 저점을 모두 0 이하에서 짚어냈다. 단기 보유자의 손익을 보는 STH-SOPR은 0.960까지 내려와, 최근 진입한 약한 손들이 손실을 확정하며 던지고 있음을 보여준다. NUPL 9%, 실현가 이격도 16.4% 역시 같은 방향을 가리킨다.</p>
+  <p class="en">MVRV Z-Score reads 0.270 — market value pressed right up against the aggregate cost basis of all holders. This gauge marked the 2015, 2018, and 2022 bottoms all below zero. STH-SOPR, which tracks short-term holder profit and loss, has fallen to 0.960, showing that the weakest recent entrants are realizing losses and selling. NUPL at 9% and a realized-price gap of 16.4% point the same way.</p>
+  <p class="ja">MVRV Zスコアは0.270。時価総額が全保有者の平均取得原価に肉薄したことを意味し、この指標は2015年・2018年・2022年の底値をいずれも0以下で捉えた。短期保有者の損益を示すSTH-SOPRは0.960まで低下し、最近参入した弱い手が損失を確定して投げ売りしていることを示す。NUPL 9%、実現価格乖離16.4%も同じ方向を指す。</p>
+  <p class="es">El MVRV Z-Score marca 0,270 — el valor de mercado pegado a la base de costo agregada de todos los tenedores. Este indicador marcó los suelos de 2015, 2018 y 2022 todos por debajo de cero. El STH-SOPR, que mide las ganancias y pérdidas de los tenedores a corto plazo, ha caído a 0,960, mostrando que los entrantes recientes más débiles están realizando pérdidas y vendiendo. El NUPL en 9% y una brecha de precio realizado del 16,4% apuntan en la misma dirección.</p>
+  <p class="de">Der MVRV Z-Score steht bei 0,270 — der Marktwert liegt dicht an der aggregierten Kostenbasis aller Halter. Dieser Indikator markierte die Tiefs von 2015, 2018 und 2022 allesamt unter null. Der STH-SOPR, der Gewinn und Verlust kurzfristiger Halter misst, ist auf 0,960 gefallen und zeigt, dass die schwächsten jüngsten Einsteiger Verluste realisieren und verkaufen. NUPL bei 9% und eine Realized-Price-Lücke von 16,4% weisen in dieselbe Richtung.</p>
+
+  <h2 class="ko">파생과 채굴자도 항복 중</h2>
+  <h2 class="en">Derivatives and Miners Are Capitulating Too</h2>
+  <h2 class="ja">デリバティブとマイナーも降伏中</h2>
+  <h2 class="es">Los Derivados y los Mineros También Capitulan</h2>
+  <h2 class="de">Auch Derivate und Miner kapitulieren</h2>
+  <p class="ko">선물-현물 베이시스가 −0.055%로 뒤집혔다. 선물이 현물보다 싸지는 백워데이션은 강세장에선 드물며, 레버리지 롱 청산과 헤지 수요가 만든 공포의 구조다. 작은 반등에도 숏이 연쇄 청산되는 숏스퀴즈의 씨앗이 되기도 한다. 채굴자 지표 Hash Ribbon은 0.98로 항복 구간이다. Capriole의 찰스 에드워즈는 생산원가를 약 6만~6만3,500달러로 추정하며, 현재가가 채굴자 손익분기 수준이라고 진단했다.</p>
+  <p class="en">The futures-spot basis has flipped to −0.055%. Backwardation — futures cheaper than spot — is rare in bull markets; it is a fear structure born of leveraged-long liquidations and hedging demand. It can also seed a short squeeze, where even a small bounce chain-liquidates shorts. The miner gauge Hash Ribbon sits at 0.98, in capitulation territory. Capriole's Charles Edwards estimates production cost near $60,000–$63,500 and reads current prices as the miner breakeven zone.</p>
+  <p class="ja">先物-現物ベーシスは−0.055%へと反転した。先物が現物より安くなるバックワーデーションは強気相場では稀で、レバレッジロングの清算とヘッジ需要が生んだ恐怖の構造だ。わずかな反発でもショートが連鎖清算されるショートスクイズの種にもなる。マイナー指標Hash Ribbonは0.98で降伏圏にある。Caprioleのチャールズ・エドワーズは生産コストを約6万〜6万3,500ドルと推定し、現在の価格をマイナーの損益分岐水準と診断した。</p>
+  <p class="es">La base futuros-spot se ha invertido a −0,055%. La backwardation — futuros más baratos que el spot — es rara en mercados alcistas; es una estructura de miedo nacida de liquidaciones de largos apalancados y demanda de cobertura. También puede sembrar un short squeeze, donde incluso un pequeño rebote liquida cortos en cadena. El indicador de mineros Hash Ribbon está en 0,98, en territorio de capitulación. Charles Edwards, de Capriole, estima el costo de producción cerca de 60.000–63.500 $ y lee los precios actuales como la zona de equilibrio de los mineros.</p>
+  <p class="de">Die Futures-Spot-Basis ist auf −0,055% gekippt. Backwardation — Futures billiger als Spot — ist in Bullenmärkten selten; sie ist eine Angststruktur aus Long-Liquidierungen und Absicherungsnachfrage. Sie kann auch einen Short Squeeze auslösen, bei dem schon ein kleiner Anstieg Shorts kettenweise liquidiert. Der Miner-Indikator Hash Ribbon steht bei 0,98, in Kapitulationsgebiet. Charles Edwards von Capriole schätzt die Produktionskosten auf rund 60.000–63.500 $ und deutet die aktuellen Preise als die Break-even-Zone der Miner.</p>
+
+  <h2 class="ko">그러나 저평가가 곧 반등은 아니다</h2>
+  <h2 class="en">But Undervalued Is Not the Same as Rebounding</h2>
+  <h2 class="ja">だが「割安」は「反発」ではない</h2>
+  <h2 class="es">Pero Infravalorado No Es Lo Mismo Que Rebotar</h2>
+  <h2 class="de">Doch unterbewertet heißt nicht Erholung</h2>
+  <p class="ko">CryptoQuant의 기영주는 이번 사이클의 자본 효율이 급격히 떨어졌다고 지적한다. 시가총액이 1조 달러를 넘어선 지금, 또 한 번의 급등을 위해선 1조 달러 규모의 신규 자본이 필요하다는 계산이다. ETF 유출이 이어지는 한 저평가가 즉각적인 반등을 뜻하지는 않는다. MVRV Z-Score의 한계도 여기 있다. 저평가 구간에 들어가고도 가격은 수개월 더 흘러내릴 수 있다.</p>
+  <p class="en">CryptoQuant's Ki Young Ju notes that capital efficiency has collapsed this cycle. With market cap past $1 trillion, another parabolic move would require roughly $1 trillion in fresh capital. As long as ETF outflows persist, undervaluation does not guarantee an immediate bounce. That is also the core limit of MVRV Z-Score: price can keep bleeding for months even after entering the undervalued zone.</p>
+  <p class="ja">CryptoQuantのキ・ヨンジュは、今サイクルの資本効率が急激に低下したと指摘する。時価総額が1兆ドルを超えた今、もう一段の急騰には約1兆ドルの新規資本が必要という計算だ。ETFの流出が続く限り、割安が即座の反発を意味するわけではない。MVRV Zスコアの限界もここにある。割安圏に入っても、価格はさらに数カ月下落し続けることがある。</p>
+  <p class="es">Ki Young Ju, de CryptoQuant, señala que la eficiencia del capital se ha desplomado en este ciclo. Con una capitalización que supera el billón de dólares, otro movimiento parabólico requeriría cerca de un billón de dólares en capital nuevo. Mientras persistan las salidas de ETF, la infravaloración no garantiza un rebote inmediato. Ese es también el límite central del MVRV Z-Score: el precio puede seguir sangrando durante meses incluso tras entrar en la zona de infravaloración.</p>
+  <p class="de">Ki Young Ju von CryptoQuant weist darauf hin, dass die Kapitaleffizienz in diesem Zyklus eingebrochen ist. Bei einer Marktkapitalisierung über 1 Billion Dollar bräuchte eine weitere parabolische Bewegung rund 1 Billion Dollar an frischem Kapital. Solange ETF-Abflüsse anhalten, garantiert Unterbewertung keinen sofortigen Anstieg. Das ist auch die zentrale Grenze des MVRV Z-Score: Der Preis kann selbst nach Eintritt in die Unterbewertungszone noch monatelang fallen.</p>
+
+  <div class="box ko">🎯 <strong>실전 신호:</strong> 종합 신호는 목표 비중의 30~50%를 넣는 분할 진입(SPLIT LONG)이다. 나머지 물량의 방아쇠는 세 가지 — MVRV Z-Score가 0 아래로 내려가고, Hash Ribbon이 회복으로 돌아서며, 코인베이스 프리미엄이 양전환하는 순간이다. 바닥은 하나의 점이 아니라 이 확인들이 쌓이는 과정이다.</div>
+  <div class="box en">🎯 <strong>The practical signal:</strong> The composite reading calls for a split entry (SPLIT LONG) of 30–50% of target size. Three triggers release the rest — MVRV Z-Score falling below 0, Hash Ribbon turning to a recovery cross, and Coinbase Premium flipping positive. A bottom is not a single point; it is these confirmations stacking up.</div>
+  <div class="box ja">🎯 <strong>実践シグナル:</strong> 総合シグナルは目標比率の30〜50%を入れる分割エントリー(SPLIT LONG)だ。残りの引き金は三つ — MVRV Zスコアが0を下回り、Hash Ribbonが回復転換し、Coinbaseプレミアムがプラス転換する瞬間だ。底は一つの点ではなく、これらの確認が積み上がる過程である。</div>
+  <div class="box es">🎯 <strong>La señal práctica:</strong> La lectura compuesta pide una entrada dividida (SPLIT LONG) del 30–50% del tamaño objetivo. Tres disparadores liberan el resto — el MVRV Z-Score cayendo por debajo de 0, el Hash Ribbon girando a un cruce de recuperación y el Coinbase Premium volviéndose positivo. Un suelo no es un único punto; es la acumulación de estas confirmaciones.</div>
+  <div class="box de">🎯 <strong>Das praktische Signal:</strong> Der Gesamtwert ruft nach einem geteilten Einstieg (SPLIT LONG) von 30–50% der Zielgröße. Drei Auslöser geben den Rest frei — der MVRV Z-Score fällt unter 0, der Hash Ribbon dreht auf ein Erholungscross, und die Coinbase Premium wird positiv. Ein Boden ist kein einzelner Punkt; er ist das Aufeinanderschichten dieser Bestätigungen.</div>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <h2 class="ja">併せて見るべき指標</h2>
+  <h2 class="es">Mejor Combinado Con</h2>
+  <h2 class="de">Am besten kombiniert mit</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score 가이드</a>:</strong> 저점을 포착하는 온체인 지표의 원리</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon 지표</a>:</strong> 채굴자 항복과 회복 전환의 해석</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> 단기 보유자의 손익과 항복 신호</li>
+    <li><strong><a href="/blog/coinbase-premium.php">코인베이스 프리미엄</a>:</strong> 미국 기관 수급의 방향</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">선물-현물 갭</a>:</strong> 파생 레버리지의 청산 국면</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score Guide</a>:</strong> How this on-chain gauge catches bottoms</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Reading miner capitulation and recovery</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Short-term holder profit, loss, and capitulation</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> The direction of U.S. institutional flow</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Futures-Spot Gap</a>:</strong> The liquidation phase of leverage</li>
+  </ul>
+  <ul class="ja">
+    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Zスコア ガイド</a>:</strong> 底値を捉えるオンチェーン指標の原理</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> マイナー降伏と回復転換の読み方</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> 短期保有者の損益と降伏シグナル</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbaseプレミアム</a>:</strong> 米国機関の需給の方向</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">先物-現物ギャップ</a>:</strong> デリバティブのレバレッジ清算局面</li>
+  </ul>
+  <ul class="es">
+    <li><strong><a href="/blog/mvrv-z-score.php">Guía MVRV Z-Score</a>:</strong> Cómo este indicador on-chain detecta suelos</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Leer la capitulación y recuperación de mineros</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Ganancia, pérdida y capitulación de tenedores a corto plazo</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> La dirección del flujo institucional de EE. UU.</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Brecha Futuros-Spot</a>:</strong> La fase de liquidación del apalancamiento</li>
+  </ul>
+  <ul class="de">
+    <li><strong><a href="/blog/mvrv-z-score.php">MVRV-Z-Score-Anleitung</a>:</strong> Wie dieser On-Chain-Indikator Tiefs erkennt</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Miner-Kapitulation und Erholung lesen</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Gewinn, Verlust und Kapitulation kurzfristiger Halter</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> Die Richtung des US-institutionellen Flusses</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Futures-Spot-Lücke</a>:</strong> Die Liquidationsphase der Hebelwirkung</li>
+  </ul>
+
+  <p class="ko" style="font-size:.85rem;color:#71717a">출처: Investing.com·MetaMask(가격), CoinDesk·CryptoQuant(자본 효율), Capriole Investments·Charles Edwards(생산원가), BTCtiming 자체 온체인 지표. 본 글은 투자 조언이 아니다.</p>
+  <p class="en" style="font-size:.85rem;color:#71717a">Sources: Investing.com, MetaMask (price), CoinDesk &amp; CryptoQuant (capital efficiency), Capriole Investments &amp; Charles Edwards (production cost), BTCtiming on-chain metrics. This is not investment advice.</p>
+  <p class="ja" style="font-size:.85rem;color:#71717a">出典: Investing.com・MetaMask(価格)、CoinDesk・CryptoQuant(資本効率)、Capriole Investments・Charles Edwards(生産コスト)、BTCtiming独自のオンチェーン指標。本記事は投資助言ではない。</p>
+  <p class="es" style="font-size:.85rem;color:#71717a">Fuentes: Investing.com y MetaMask (precio), CoinDesk y CryptoQuant (eficiencia del capital), Capriole Investments y Charles Edwards (costo de producción), métricas on-chain de BTCtiming. Esto no es asesoramiento de inversión.</p>
+  <p class="de" style="font-size:.85rem;color:#71717a">Quellen: Investing.com und MetaMask (Preis), CoinDesk und CryptoQuant (Kapitaleffizienz), Capriole Investments und Charles Edwards (Produktionskosten), On-Chain-Metriken von BTCtiming. Dies ist keine Anlageberatung.</p>
+
+<?php require __DIR__.'/_footer.php'; ?>

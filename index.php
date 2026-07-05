@@ -304,6 +304,10 @@ function setLang(lang) {
       a.setAttribute('href', u.pathname + (u.search ? u.search : ''));
     } catch(e){}
   });
+  // 하단 정책(개인정보/약관) 링크도 현재 언어 유지 (예전엔 /privacy·/terms로 하드코딩돼 한국어로 셌음)
+  const _suf = (lang === 'ko' ? '' : '?lang=' + lang);
+  document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
+  document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
   try { localStorage.setItem('blogLang', lang); } catch(e){}
   try {
     const url = new URL(location.href);
@@ -331,6 +335,15 @@ try {
   const saved = urlLang || localStorage.getItem('blogLang') || localStorage.getItem('lang');
   if(['en','ja','es','de'].includes(saved)) setLang(saved);
 } catch(e){}
+// 뒤로가기/앞으로가기(bfcache) 복원 시에도 저장된 언어를 다시 적용 — 스크립트가 재실행되지 않으므로 필요.
+window.addEventListener('pageshow', function(e){
+  if(!e.persisted) return;
+  try {
+    const ul = new URLSearchParams(location.search).get('lang');
+    const s = ul || localStorage.getItem('blogLang') || localStorage.getItem('lang');
+    setLang(['en','ja','es','de'].includes(s) ? s : 'ko');
+  } catch(err){}
+});
 
 const PAGE_SIZE = 12;
 let currentCat = 'all';
