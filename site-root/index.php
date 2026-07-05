@@ -289,6 +289,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 }
 .coin-tab{flex-shrink:0;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
+.fav-star{margin-right:4px;font-size:11px;opacity:.5;transition:opacity .12s,transform .12s;display:inline-block}
+.fav-star:hover{opacity:1;transform:scale(1.2)}
+.fav-star.on{opacity:1;color:#fbbf24}
+.coin-tab.active .fav-star.on{color:#000}
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
 .lang-dropdown{position:relative;flex-shrink:0}
