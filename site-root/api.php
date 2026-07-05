@@ -181,6 +181,8 @@ echo json_encode([
     // 티커바용 USDT/KRW (업비트 → PHP 서버에서 받아와 CORS 우회)
     'usdt_krw'  => $usdtKrw,
     'usdt_chg'  => $usdtChg,
+    // 티커바용 통화별 실제 USDT 시세 (CoinGecko tether → USD/KRW/JPY/EUR). 디페깅·프리미엄 표시용.
+    'usdt_prices' => $ind['usdt_prices'] ?? [],
     // 트리거 체크리스트("다음 진입 조건" 패널)에 필요한 현재값만 노출
     'raw' => [
         'mvrv_z' => $ind['mvrv_z'],
