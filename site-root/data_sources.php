@@ -30,6 +30,8 @@ function buildDataUrls(string $coin, string $sym): array {
         'usdt_krw'   => 'https://api.upbit.com/v1/ticker?markets=KRW-USDT',
         // 실제 USDT 시세(법정환율이 아니라 테더 실거래가) — 4개 통화 한 번에. 디페깅/김치프리미엄 확인용.
         'usdt_fx'    => 'https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=usd,krw,jpy,eur&include_24hr_change=true',
+        // USD 기준 법정환율 (KRW/JPY/EUR). 클라이언트가 직접 부르던 걸 서버로 옮겨 CORS/쿼터 리스크 제거.
+        'fx_rates'   => 'https://api.exchangerate-api.com/v4/latest/USD',
     ];
 
     // USDT 자체는 선물 마켓이 없으므로 제외
@@ -76,6 +78,24 @@ function parseUsdtFx(?string $body): array {
                 'p' => (float)$t[$cur],
                 'c' => isset($t["{$cur}_24h_change"]) ? round((float)$t["{$cur}_24h_change"], 2) : null,
             ];
+        }
+    }
+    return $out;
+}
+
+/**
+ * exchangerate-api 응답에서 USD 기준 법정환율(KRW/JPY/EUR) 추출.
+ * 반환: ['KRW'=>1385.2, 'JPY'=>156.8, 'EUR'=>0.92] (없으면 빈 배열)
+ */
+function parseFxRates(?string $body): array {
+    if (!$body) return [];
+    $d = json_decode($body, true);
+    $rates = $d['rates'] ?? null;
+    if (!is_array($rates)) return [];
+    $out = [];
+    foreach (['KRW','JPY','EUR'] as $cur) {
+        if (isset($rates[$cur]) && is_numeric($rates[$cur])) {
+            $out[$cur] = (float)$rates[$cur];
         }
     }
     return $out;

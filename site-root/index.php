@@ -1129,6 +1129,7 @@ function updateTickerFromAPI(data) {
       indCache[currentCoin].usdt_krw = data.usdt_krw;
       indCache[currentCoin].usdt_chg = data.usdt_chg;
       indCache[currentCoin].usdt_prices = data.usdt_prices;
+      indCache[currentCoin].fx_rates = data.fx_rates;
     }
   } catch(e){}
   loadTicker();
@@ -1153,12 +1154,16 @@ async function loadTicker() {
   if(l1) l1.textContent = `USD/${cur}`;
   if(l2) l2.textContent = `USDT/${cur}`;
 
-  // USD/{통화} 환율만 exchangerate-api로 받음 (USDT 시세는 서버 api.php가 usdt_prices로 내려줌 → 프록시 불필요)
-  const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
-    .then(r=>r.json()).catch(()=>null);
+  // USD/{통화} 환율: 서버(api.php fx_rates)를 우선 사용. 서버값 없으면 exchangerate-api 직접호출로 폴백.
+  const cacheForFx = (typeof indCache !== 'undefined') ? indCache[currentCoin] : null;
+  let rate = (cur === 'USD') ? 1 : (cacheForFx && cacheForFx.fx_rates && cacheForFx.fx_rates[cur]);
+  if(rate == null && cur !== 'USD') {
+    const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
+      .then(r=>r.json()).catch(()=>null);
+    rate = r1?.rates?.[cur];
+  }
 
   const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-  const rate = (cur === 'USD') ? 1 : r1?.rates?.[cur];
   if(rate != null) {
     const el = document.getElementById('tkUsdKrw');
     if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='JPY'||cur==='KRW') ? 1 : 2});
@@ -2451,6 +2456,7 @@ async function loadAll() {
       usdt_krw: buyData.usdt_krw,
       usdt_chg: buyData.usdt_chg,
       usdt_prices: buyData.usdt_prices,
+      fx_rates: buyData.fx_rates,
     };
 
     renderAll(ind);
