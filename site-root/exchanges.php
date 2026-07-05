@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/config.php';
 
-// 언어 결정 (index.php와 동일 규칙)
+// 언어 결정 (블로그와 동일 규칙)
 $lang = 'ko';
 if (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
     $lang = $_GET['lang'];
@@ -19,117 +19,103 @@ $REF_BYBIT   = 'https://partner.bybit.com/b/17242';
 $T = [
   'ko' => [
     'title' => '거래소 추천 — 바이낸스 vs 바이비트 | BTCtiming',
-    'desc'  => '비트코인·알트코인 선물 거래를 시작할 거래소 비교. 바이낸스와 바이비트의 특징과 수수료 혜택을 정리했습니다.',
+    'desc'  => '비트코인·알트코인 선물 거래를 시작할 거래소 비교. 바이낸스와 바이비트의 특징, 장단점, 수수료 할인 혜택을 정리했습니다.',
+    'back'  => '실시간 분석으로 돌아가기',
     'h1'    => '어느 거래소로 시작할까?',
-    'lead'  => 'BTCtiming의 점수를 실제 거래로 옮기려면 거래소 계정이 필요합니다. 세계적으로 가장 많이 쓰이는 두 곳을 정리했습니다. 아래 링크로 가입하면 수수료 할인 혜택을 받을 수 있습니다.',
+    'lead'  => 'BTCtiming의 점수를 실제 거래로 옮기려면 거래소 계정이 필요합니다. 세계에서 가장 많이 쓰이는 두 거래소를 비교했습니다. 아래 링크로 가입하면 거래 수수료 할인 혜택을 받을 수 있습니다.',
     'binance_tag' => '세계 1위 거래량',
-    'binance_desc'=> '가장 많은 코인, 가장 깊은 유동성. 현물부터 선물까지 폭넓게 지원하며 입문자용 자료도 풍부합니다.',
+    'binance_desc'=> '전 세계에서 거래량이 가장 많은 거래소입니다. 350개 이상의 코인을 상장해 알트코인 선택폭이 넓고, 유동성이 깊어 큰 금액도 슬리피지 없이 체결됩니다. 현물·선물·마진·스테이킹·런치패드까지 한 곳에서 처리할 수 있어, 처음 시작하는 사람부터 전문 트레이더까지 폭넓게 씁니다. 한국어 지원과 입문 자료도 충실합니다.',
     'bybit_tag'   => '선물 트레이더 선호',
-    'bybit_desc'  => '선물·파생상품에 강점. 빠른 체결과 직관적인 인터페이스로 단타·레버리지 트레이더에게 인기가 높습니다.',
+    'bybit_desc'  => '선물·파생상품에 특화된 거래소로, 단타와 레버리지 트레이더 사이에서 인기가 높습니다. 주문 체결 속도가 빠르고 인터페이스가 직관적이라 빠른 진입·청산에 유리합니다. 최대 100배 레버리지, 다양한 주문 유형, 카피 트레이딩을 지원하며, 선물 거래 수수료가 경쟁력 있습니다.',
     'feat'        => '주요 특징',
-    'b1'          => ['방대한 코인 상장', '깊은 유동성', '초보자 친화적'],
-    'b2'          => ['선물 특화', '빠른 체결 속도', '경쟁력 있는 수수료'],
+    'b1'          => ['350개+ 코인 상장', '세계 최고 수준의 유동성', '현물·선물·스테이킹 통합', '초보자 친화적 UI'],
+    'b2'          => ['선물·파생상품 특화', '빠른 체결 속도', '최대 100배 레버리지', '카피 트레이딩 지원'],
     'cta_binance' => '바이낸스 가입하고 수수료 할인 받기',
     'cta_bybit'   => '바이비트 가입하고 수수료 할인 받기',
-    'note'        => '위 링크는 제휴(레퍼럴) 링크로, 가입 시 BTCtiming에 소액의 수수료가 지급될 수 있습니다. 추가 비용은 없으며, 오히려 수수료 할인 혜택을 받습니다.',
+    'note'        => '위 링크로 가입하면 거래 수수료 할인 혜택을 받을 수 있습니다.',
     'risk'        => '⚠ 암호화폐 거래, 특히 선물·레버리지 거래는 높은 손실 위험을 동반합니다. BTCtiming의 점수는 정보 제공용이며 투자 조언이 아닙니다. 본인의 판단과 책임하에 거래하세요.',
-    'back'        => '← BTCtiming 홈으로',
-    'f_home'      => "홈",
-    'f_privacy'   => "개인정보처리방침",
-    'f_terms'     => "이용약관",
-    'f_disc'      => "투자 조언이 아닙니다",
+    'f_privacy'   => '개인정보처리방침', 'f_terms' => '이용약관',
   ],
   'en' => [
     'title' => 'Best Exchange — Binance vs Bybit | BTCtiming',
-    'desc'  => 'Compare exchanges to start trading Bitcoin and altcoin futures. Features and fee benefits of Binance and Bybit.',
+    'desc'  => 'Compare exchanges to start trading Bitcoin and altcoin futures. Features, pros and cons, and fee discounts for Binance and Bybit.',
+    'back'  => 'Back to Live Analysis',
     'h1'    => 'Which exchange should you start with?',
-    'lead'  => 'To act on BTCtiming scores you need an exchange account. Here are the two most widely used worldwide. Signing up via the links below gets you a fee discount.',
+    'lead'  => 'To act on BTCtiming scores you need an exchange account. We compared the two most widely used exchanges worldwide. Signing up via the links below gets you a trading fee discount.',
     'binance_tag' => '#1 by volume',
-    'binance_desc'=> 'The most coins and deepest liquidity. Broad support from spot to futures, with plenty of beginner resources.',
+    'binance_desc'=> 'The highest-volume exchange in the world. With 350+ listed coins it offers a wide range of altcoins, and its deep liquidity fills large orders with minimal slippage. Spot, futures, margin, staking and launchpad are all in one place, making it popular with everyone from first-timers to pro traders. Solid beginner resources too.',
     'bybit_tag'   => 'Favored by futures traders',
-    'bybit_desc'  => 'Strong in futures and derivatives. Fast execution and a clean interface make it popular with leverage traders.',
+    'bybit_desc'  => 'A derivatives-focused exchange, popular among scalpers and leverage traders. Fast order execution and a clean interface make quick entries and exits easy. It offers up to 100x leverage, a range of order types, copy trading, and competitive futures fees.',
     'feat'        => 'Key features',
-    'b1'          => ['Huge coin selection', 'Deep liquidity', 'Beginner-friendly'],
-    'b2'          => ['Futures-focused', 'Fast execution', 'Competitive fees'],
+    'b1'          => ['350+ coins listed', 'World-class liquidity', 'Spot, futures & staking in one', 'Beginner-friendly UI'],
+    'b2'          => ['Futures & derivatives focus', 'Fast execution', 'Up to 100x leverage', 'Copy trading support'],
     'cta_binance' => 'Sign up on Binance & get a fee discount',
     'cta_bybit'   => 'Sign up on Bybit & get a fee discount',
-    'note'        => 'These are referral links; BTCtiming may earn a small commission when you sign up. There is no extra cost to you — you receive a fee discount instead.',
+    'note'        => 'Signing up via the links above gets you a trading fee discount.',
     'risk'        => '⚠ Crypto trading, especially futures and leverage, carries a high risk of loss. BTCtiming scores are for information only and are not financial advice. Trade at your own discretion and risk.',
-    'back'        => '← Back to BTCtiming',
-    'f_home'      => "Home",
-    'f_privacy'   => "Privacy Policy",
-    'f_terms'     => "Terms of Service",
-    'f_disc'      => "Not financial advice",
+    'f_privacy'   => 'Privacy Policy', 'f_terms' => 'Terms of Service',
   ],
   'ja' => [
     'title' => 'おすすめ取引所 — Binance vs Bybit | BTCtiming',
-    'desc'  => 'ビットコイン・アルトコインの先物取引を始める取引所を比較。BinanceとBybitの特徴と手数料特典をまとめました。',
+    'desc'  => 'ビットコイン・アルトコインの先物取引を始める取引所を比較。BinanceとBybitの特徴、長所短所、手数料割引をまとめました。',
+    'back'  => 'リアルタイム分析に戻る',
     'h1'    => 'どの取引所から始める?',
-    'lead'  => 'BTCtimingのスコアを実際の取引に活かすには取引所口座が必要です。世界で最も使われている2つを紹介します。下のリンクから登録すると手数料割引を受けられます。',
+    'lead'  => 'BTCtimingのスコアを実際の取引に活かすには取引所口座が必要です。世界で最も使われている2つの取引所を比較しました。下のリンクから登録すると取引手数料の割引を受けられます。',
     'binance_tag' => '取引量世界1位',
-    'binance_desc'=> '最多の銘柄と最も深い流動性。現物から先物まで幅広く対応し、初心者向け資料も充実。',
+    'binance_desc'=> '世界で最も取引量の多い取引所です。350以上の銘柄を上場しアルトコインの選択肢が広く、流動性が深いため大口注文もスリッページなく約定します。現物・先物・証拠金・ステーキング・ローンチパッドまで一箇所で完結でき、初心者からプロまで幅広く利用しています。日本語対応と入門資料も充実。',
     'bybit_tag'   => '先物トレーダーに人気',
-    'bybit_desc'  => '先物・デリバティブに強み。高速約定と直感的なUIでレバレッジ取引者に人気。',
+    'bybit_desc'  => '先物・デリバティブに特化した取引所で、スキャルピングやレバレッジ取引者に人気です。注文約定が速く、直感的なUIで素早いエントリー・決済に有利。最大100倍レバレッジ、多様な注文タイプ、コピートレードに対応し、先物手数料が競争力あります。',
     'feat'        => '主な特徴',
-    'b1'          => ['豊富な銘柄', '深い流動性', '初心者に優しい'],
-    'b2'          => ['先物特化', '高速約定', '競争力ある手数料'],
+    'b1'          => ['350以上の銘柄', '世界最高水準の流動性', '現物・先物・ステーキング統合', '初心者に優しいUI'],
+    'b2'          => ['先物・デリバティブ特化', '高速約定', '最大100倍レバレッジ', 'コピートレード対応'],
     'cta_binance' => 'Binanceに登録して手数料割引を受ける',
     'cta_bybit'   => 'Bybitに登録して手数料割引を受ける',
-    'note'        => '上記はリファラルリンクで、登録時にBTCtimingに少額の手数料が支払われる場合があります。追加費用はなく、むしろ手数料割引を受けられます。',
+    'note'        => '上記のリンクから登録すると取引手数料の割引を受けられます。',
     'risk'        => '⚠ 暗号資産取引、特に先物・レバレッジ取引は高い損失リスクを伴います。BTCtimingのスコアは情報提供用であり投資助言ではありません。自己の判断と責任で取引してください。',
-    'back'        => '← BTCtimingホームへ',
-    'f_home'      => "ホーム",
-    'f_privacy'   => "プライバシーポリシー",
-    'f_terms'     => "利用規約",
-    'f_disc'      => "投資助言ではありません",
+    'f_privacy'   => 'プライバシーポリシー', 'f_terms' => '利用規約',
   ],
   'es' => [
     'title' => 'Mejor Exchange — Binance vs Bybit | BTCtiming',
-    'desc'  => 'Compara exchanges para operar futuros de Bitcoin y altcoins. Características y beneficios de comisiones de Binance y Bybit.',
+    'desc'  => 'Compara exchanges para operar futuros de Bitcoin y altcoins. Características, pros y contras, y descuentos de comisiones de Binance y Bybit.',
+    'back'  => 'Volver al Análisis en Vivo',
     'h1'    => '¿Con qué exchange empezar?',
-    'lead'  => 'Para actuar sobre las puntuaciones de BTCtiming necesitas una cuenta de exchange. Aquí están los dos más usados del mundo. Registrarte con los enlaces de abajo te da un descuento en comisiones.',
+    'lead'  => 'Para actuar sobre las puntuaciones de BTCtiming necesitas una cuenta de exchange. Comparamos los dos exchanges más usados del mundo. Registrarte con los enlaces de abajo te da un descuento en comisiones de trading.',
     'binance_tag' => '#1 por volumen',
-    'binance_desc'=> 'La mayor cantidad de monedas y la liquidez más profunda. Amplio soporte de spot a futuros, con muchos recursos para principiantes.',
+    'binance_desc'=> 'El exchange de mayor volumen del mundo. Con más de 350 monedas listadas ofrece una amplia gama de altcoins, y su profunda liquidez ejecuta órdenes grandes con mínimo deslizamiento. Spot, futuros, margen, staking y launchpad en un solo lugar, popular desde principiantes hasta traders profesionales. Buenos recursos para empezar.',
     'bybit_tag'   => 'Preferido por traders de futuros',
-    'bybit_desc'  => 'Fuerte en futuros y derivados. Ejecución rápida e interfaz limpia, popular entre traders con apalancamiento.',
+    'bybit_desc'  => 'Un exchange enfocado en derivados, popular entre scalpers y traders con apalancamiento. Ejecución rápida e interfaz limpia facilitan entradas y salidas rápidas. Ofrece hasta 100x de apalancamiento, varios tipos de órdenes, copy trading y comisiones de futuros competitivas.',
     'feat'        => 'Características clave',
-    'b1'          => ['Enorme selección de monedas', 'Liquidez profunda', 'Fácil para principiantes'],
-    'b2'          => ['Enfocado en futuros', 'Ejecución rápida', 'Comisiones competitivas'],
+    'b1'          => ['Más de 350 monedas', 'Liquidez de primer nivel', 'Spot, futuros y staking', 'Interfaz para principiantes'],
+    'b2'          => ['Enfoque en futuros', 'Ejecución rápida', 'Hasta 100x apalancamiento', 'Copy trading'],
     'cta_binance' => 'Regístrate en Binance y obtén descuento',
     'cta_bybit'   => 'Regístrate en Bybit y obtén descuento',
-    'note'        => 'Estos son enlaces de referido; BTCtiming puede ganar una pequeña comisión cuando te registras. No tiene costo extra para ti — recibes un descuento en comisiones.',
+    'note'        => 'Registrarte con los enlaces de arriba te da un descuento en comisiones de trading.',
     'risk'        => '⚠ Operar con cripto, especialmente futuros y apalancamiento, conlleva un alto riesgo de pérdida. Las puntuaciones de BTCtiming son solo informativas y no son asesoramiento financiero. Opera bajo tu propio criterio y riesgo.',
-    'back'        => '← Volver a BTCtiming',
-    'f_home'      => "Inicio",
-    'f_privacy'   => "Política de Privacidad",
-    'f_terms'     => "Términos de Servicio",
-    'f_disc'      => "No es asesoramiento financiero",
+    'f_privacy'   => 'Política de Privacidad', 'f_terms' => 'Términos de Servicio',
   ],
   'de' => [
     'title' => 'Beste Börse — Binance vs Bybit | BTCtiming',
-    'desc'  => 'Vergleiche Börsen für den Handel mit Bitcoin- und Altcoin-Futures. Merkmale und Gebührenvorteile von Binance und Bybit.',
+    'desc'  => 'Vergleiche Börsen für den Handel mit Bitcoin- und Altcoin-Futures. Merkmale, Vor- und Nachteile sowie Gebührenrabatte von Binance und Bybit.',
+    'back'  => 'Zurück zur Live-Analyse',
     'h1'    => 'Mit welcher Börse anfangen?',
-    'lead'  => 'Um BTCtiming-Scores umzusetzen, brauchst du ein Börsenkonto. Hier sind die zwei weltweit meistgenutzten. Mit den Links unten erhältst du einen Gebührenrabatt.',
+    'lead'  => 'Um BTCtiming-Scores umzusetzen, brauchst du ein Börsenkonto. Wir haben die zwei weltweit meistgenutzten Börsen verglichen. Mit den Links unten erhältst du einen Rabatt auf die Handelsgebühren.',
     'binance_tag' => 'Nr. 1 nach Volumen',
-    'binance_desc'=> 'Die meisten Coins und die tiefste Liquidität. Breite Unterstützung von Spot bis Futures, mit vielen Einsteiger-Ressourcen.',
+    'binance_desc'=> 'Die umsatzstärkste Börse der Welt. Mit über 350 gelisteten Coins bietet sie eine große Auswahl an Altcoins, und die tiefe Liquidität führt große Orders mit minimalem Slippage aus. Spot, Futures, Margin, Staking und Launchpad an einem Ort — beliebt von Einsteigern bis Profis. Gute Einsteiger-Ressourcen.',
     'bybit_tag'   => 'Von Futures-Tradern bevorzugt',
-    'bybit_desc'  => 'Stark bei Futures und Derivaten. Schnelle Ausführung und klare Oberfläche, beliebt bei Hebel-Tradern.',
+    'bybit_desc'  => 'Eine auf Derivate fokussierte Börse, beliebt bei Scalpern und Hebel-Tradern. Schnelle Orderausführung und eine klare Oberfläche erleichtern schnelle Ein- und Ausstiege. Bis zu 100x Hebel, verschiedene Ordertypen, Copy-Trading und wettbewerbsfähige Futures-Gebühren.',
     'feat'        => 'Hauptmerkmale',
-    'b1'          => ['Riesige Coin-Auswahl', 'Tiefe Liquidität', 'Einsteigerfreundlich'],
-    'b2'          => ['Futures-fokussiert', 'Schnelle Ausführung', 'Wettbewerbsfähige Gebühren'],
+    'b1'          => ['Über 350 Coins', 'Erstklassige Liquidität', 'Spot, Futures & Staking', 'Einsteigerfreundlich'],
+    'b2'          => ['Futures-Fokus', 'Schnelle Ausführung', 'Bis zu 100x Hebel', 'Copy-Trading'],
     'cta_binance' => 'Bei Binance anmelden & Rabatt erhalten',
     'cta_bybit'   => 'Bei Bybit anmelden & Rabatt erhalten',
-    'note'        => 'Dies sind Empfehlungslinks; BTCtiming kann bei deiner Anmeldung eine kleine Provision erhalten. Für dich entstehen keine Zusatzkosten — du erhältst stattdessen einen Gebührenrabatt.',
+    'note'        => 'Mit den Links oben erhältst du einen Rabatt auf die Handelsgebühren.',
     'risk'        => '⚠ Krypto-Handel, besonders Futures und Hebel, birgt ein hohes Verlustrisiko. BTCtiming-Scores dienen nur der Information und sind keine Finanzberatung. Handle nach eigenem Ermessen und Risiko.',
-    'back'        => '← Zurück zu BTCtiming',
-    'f_home'      => "Startseite",
-    'f_privacy'   => "Datenschutzerklärung",
-    'f_terms'     => "Nutzungsbedingungen",
-    'f_disc'      => "Keine Finanzberatung",
+    'f_privacy'   => 'Datenschutzerklärung', 'f_terms' => 'Nutzungsbedingungen',
   ],
 ];
 $t = $T[$lang] ?? $T['en'];
 $canonical = 'https://www.btctiming.com/exchanges.php' . $urlSuffix;
+$LNG = ['ko'=>'🇰🇷 한국어','en'=>'🇺🇸 English','ja'=>'🇯🇵 日本語','es'=>'🇪🇸 Español','de'=>'🇩🇪 Deutsch'];
 ?>
 <!DOCTYPE html>
 <html lang="<?= h($htmlLang) ?>">
@@ -149,89 +135,70 @@ $canonical = 'https://www.btctiming.com/exchanges.php' . $urlSuffix;
 <meta property="og:type" content="website">
 <meta property="og:url" content="<?= h($canonical) ?>">
 <style>
-:root{
-  --bg:#080808;--bg2:#0f0f0f;--bg3:#151515;
-  --b1:rgba(255,255,255,0.06);--b2:rgba(255,255,255,0.11);
-  --t1:#f0f0f0;--t2:#aaaaaa;--t3:#666666;
-  --green:#4ade80;--yellow:#fbbf24;--orange:#fb923c;--red:#f87171;
-  --rad:12px;--rad-lg:16px;
-}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
-/* 상단 헤더 */
-.site-hd{display:flex;align-items:center;justify-content:space-between;max-width:840px;width:100%;margin:0 auto;padding:16px 16px;border-bottom:1px solid var(--b1)}
-.hd-logo{font-size:17px;font-weight:800;letter-spacing:-.5px;color:var(--t1);text-decoration:none}
-.hd-logo span{color:var(--orange)}
-.hd-right{display:flex;align-items:center;gap:8px}
-.hd-home{font-size:13px;color:var(--t2);text-decoration:none;padding:6px 12px;border:1px solid var(--b1);border-radius:8px;transition:all .15s}
-.hd-home:hover{color:var(--t1);border-color:var(--b2)}
-/* 언어 드롭다운 (블로그 헤더와 동일 스타일) */
-.lang-dd{position:relative;flex-shrink:0}
-.lang-trig{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:13px;font-weight:600;cursor:pointer}
-.lang-trig:hover{background:#1a1a1a}
-.lang-car{font-size:9px;color:var(--t3);transition:transform .15s}
-.lang-dd.open .lang-car{transform:rotate(180deg)}
-.lang-mn{position:absolute;top:calc(100% + 6px);right:0;min-width:132px;background:var(--bg3);border:1px solid var(--b2);border-radius:10px;padding:5px;opacity:0;pointer-events:none;transform:translateY(-6px);transition:all .15s;z-index:50}
-.lang-dd.open .lang-mn{opacity:1;pointer-events:auto;transform:translateY(0)}
-.lang-it{display:flex;align-items:center;gap:8px;padding:9px 12px;color:var(--t2);text-decoration:none;font-size:13px;border-radius:7px}
-.lang-it:hover{background:#1a1a1a;color:var(--t1)}
-.lang-it.active{color:var(--orange);background:rgba(247,147,26,.08)}
-/* 본문 여백 */
-.wrap{max-width:840px;margin:0 auto;width:100%;padding:24px 16px;flex:1}
-/* 하단 푸터 */
-.site-ft{border-top:1px solid var(--b1);margin-top:8px}
-.ft-inner{max-width:840px;margin:0 auto;width:100%;padding:18px 16px;display:flex;flex-direction:column;gap:12px}
-.ft-line{font-size:11px;color:var(--t3);line-height:1.7}
-.ft-line a{color:var(--t3);text-decoration:underline}
-.ft-line a:hover{color:var(--t2)}
-
-.back{display:inline-block;color:var(--t3);text-decoration:none;font-size:13px;margin-bottom:20px}
-.back:hover{color:var(--t1)}
+body{background:#080808;color:#f0f0f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit}
+/* ── 헤더 (블로그 리스트와 동일) ── */
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}
+.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a;text-decoration:none}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.back a{color:#71717a;text-decoration:none}
+.lang-dropdown{position:relative;flex-shrink:0}
+.lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#e4e4e7;font-size:11px;font-weight:600;letter-spacing:.02em;cursor:pointer;transition:all .15s}
+.lang-trigger:hover{background:#1f1f1f}
+.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
+.lang-dropdown.open .lang-caret{transform:rotate(180deg)}
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
+.lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
+.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:none;color:#a1a1aa;font-size:12px;font-weight:600;text-align:left;text-decoration:none;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
+.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
+/* ── 본문 ── */
+.wrap{max-width:840px;margin:0 auto;width:100%;padding:32px 16px;flex:1}
 h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
-.lead{color:var(--t2);margin-bottom:28px;font-size:14px}
+.lead{color:#a1a1aa;margin-bottom:28px;font-size:14px}
 .cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:640px){.cards{grid-template-columns:1fr}}
-.card{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:22px;display:flex;flex-direction:column}
+.card{background:#0f0f0f;border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:22px;display:flex;flex-direction:column}
 .card h2{font-size:20px;font-weight:800;margin-bottom:6px}
 .tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:12px;width:fit-content}
-.tag.b{background:rgba(251,191,36,.12);color:var(--yellow);border:1px solid rgba(251,191,36,.3)}
-.tag.y{background:rgba(251,146,60,.12);color:var(--orange);border:1px solid rgba(251,146,60,.3)}
-.card p.d{color:var(--t2);font-size:13px;margin-bottom:16px;flex-grow:0}
-.feat{font-size:11px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.tag.b{background:rgba(240,185,11,.12);color:#f0b90b;border:1px solid rgba(240,185,11,.3)}
+.tag.y{background:rgba(251,146,60,.12);color:#fb923c;border:1px solid rgba(251,146,60,.3)}
+.card p.d{color:#a1a1aa;font-size:13px;margin-bottom:16px}
+.feat{font-size:11px;color:#71717a;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
 .card ul{list-style:none;margin-bottom:20px;flex-grow:1}
-.card li{font-size:13px;color:var(--t1);padding:5px 0 5px 22px;position:relative}
-.card li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:700}
-.cta{display:block;text-align:center;text-decoration:none;font-weight:700;font-size:14px;padding:13px 16px;border-radius:var(--rad);transition:transform .1s,opacity .15s}
+.card li{font-size:13px;color:#f0f0f0;padding:5px 0 5px 22px;position:relative}
+.card li::before{content:"✓";position:absolute;left:0;color:#4ade80;font-weight:700}
+.cta{display:block;text-align:center;text-decoration:none;font-weight:700;font-size:14px;padding:13px 16px;border-radius:12px;transition:transform .1s,opacity .15s}
 .cta:active{transform:scale(.98)}
 .cta.b{background:linear-gradient(135deg,#f0b90b,#f8d33a);color:#000}
 .cta.y{background:linear-gradient(135deg,#fb923c,#fdba74);color:#000}
 .cta:hover{opacity:.92}
-.note{font-size:11.5px;color:var(--t3);margin-top:22px;line-height:1.6}
-.risk{font-size:12px;color:var(--red);background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.2);border-radius:var(--rad);padding:12px 14px;margin-top:14px;line-height:1.55}
+.note{font-size:12px;color:#71717a;margin-top:22px;line-height:1.6}
+.risk{font-size:12px;color:#f87171;background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.2);border-radius:12px;padding:12px 14px;margin-top:14px;line-height:1.55}
+/* ── 푸터 (블로그 리스트와 동일) ── */
+footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
+footer a{color:#52525b;text-decoration:underline}
 </style>
 </head>
 <body>
-<header class="site-hd">
-  <a href="/<?= h($urlSuffix) ?>" class="hd-logo">BTC<span>timing</span></a>
-  <div class="hd-right">
-    <a href="/<?= h($urlSuffix) ?>" class="hd-home"><?= h($t['f_home']) ?></a>
-    <div class="lang-dd" id="langDd">
-      <button type="button" class="lang-trig" onclick="document.getElementById('langDd').classList.toggle('open')">
-        <span><?= strtoupper($lang) ?></span><span class="lang-car">▾</span>
-      </button>
-      <div class="lang-mn">
-        <?php
-          $LNG = ['ko'=>'🇰🇷 한국어','en'=>'🇺🇸 English','ja'=>'🇯🇵 日本語','es'=>'🇪🇸 Español','de'=>'🇩🇪 Deutsch'];
-          foreach (array_keys(SUPPORTED_LANGS) as $lc):
-        ?>
-        <a class="lang-it<?= $lc===$lang ? ' active' : '' ?>" href="/exchanges.php<?= h(langSuffix($lc)) ?>"><?= h($LNG[$lc] ?? strtoupper($lc)) ?></a>
-        <?php endforeach; ?>
-      </div>
+<nav><div class="nav-w">
+  <a href="/<?= h($urlSuffix) ?>" class="logo">BTC<span>timing</span>.com</a>
+  <span class="back">← <a href="/<?= h($urlSuffix) ?>"><?= h($t['back']) ?></a></span>
+  <div class="lang-dropdown" id="langDropdown">
+    <button type="button" class="lang-trigger" onclick="document.getElementById('langDropdown').classList.toggle('open');event.stopPropagation()">
+      <span><?= strtoupper($lang) ?></span><span class="lang-caret">▾</span>
+    </button>
+    <div class="lang-menu">
+      <?php foreach (array_keys(SUPPORTED_LANGS) as $lc): ?>
+      <a class="lang-menu-item<?= $lc===$lang ? ' active' : '' ?>" href="/exchanges.php<?= h(langSuffix($lc)) ?>"><?= h($LNG[$lc] ?? strtoupper($lc)) ?></a>
+      <?php endforeach; ?>
     </div>
   </div>
-</header>
+</div></nav>
+
 <div class="wrap">
-  <a href="/<?= h($urlSuffix) ?>" class="back"><?= h($t['back']) ?></a>
   <h1><?= h($t['h1']) ?></h1>
   <p class="lead"><?= h($t['lead']) ?></p>
 
@@ -264,19 +231,15 @@ h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
   <div class="risk"><?= h($t['risk']) ?></div>
 </div>
 
-<footer class="site-ft">
-  <div class="ft-inner">
-    <div class="ft-line">
-      © 2026 BTCtiming.com ·
-      <a href="/privacy<?= h($urlSuffix) ?>"><?= h($t['f_privacy']) ?></a> ·
-      <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['f_terms']) ?></a> ·
-      <span><?= h($t['f_disc']) ?></span>
-    </div>
-  </div>
+<footer>
+  © 2026 BTCtiming.com ·
+  <a href="/privacy<?= h($urlSuffix) ?>"><?= h($t['f_privacy']) ?></a> ·
+  <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['f_terms']) ?></a>
 </footer>
+
 <script>
 document.addEventListener('click', function(e){
-  var dd = document.getElementById('langDd');
+  var dd = document.getElementById('langDropdown');
   if(dd && !dd.contains(e.target)) dd.classList.remove('open');
 });
 </script>
