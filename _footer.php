@@ -1,36 +1,38 @@
 
 <?php
-// ── 다른 글 목록: 내부 트래픽 유도용. 같은 카테고리 우선 + 다른 카테고리 섞어서 다양성 확보 ──
+// ── 다른 글 목록: 내부 트래픽 유도용. 같은 카테고리 / 다른 카테고리를 시각적으로 분리해서 노출 ──
 $otherPool = array_filter($ARTICLES, fn($k) => $k !== $slug, ARRAY_FILTER_USE_KEY);
 $sameCategory = array_filter($otherPool, fn($a) => ($a['category'] ?? '') === $catKey);
 $otherCategory = array_filter($otherPool, fn($a) => ($a['category'] ?? '') !== $catKey);
-// 최신순으로 우선 노출(날짜 내림차순), 같은 카테고리 4개 + 다른 카테고리 4개 = 8개
+// 최신순으로 우선 노출(날짜 내림차순)
 uasort($sameCategory, fn($a, $b) => strcmp($b['date'] ?? '', $a['date'] ?? ''));
 uasort($otherCategory, fn($a, $b) => strcmp($b['date'] ?? '', $a['date'] ?? ''));
-$related = array_slice($sameCategory, 0, 4, true) + array_slice($otherCategory, 0, 4, true);
+$sameTop  = array_slice($sameCategory, 0, 4, true);   // 같은 카테고리 추천
+$otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 추천
 $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
-?>
-<?php if (!empty($related)): ?>
-<div class="other-articles">
-  <h3 class="ko">다른 글도 읽어보세요</h3>
-  <h3 class="en">You Might Also Like</h3>
-  <h3 class="ja">こちらの記事もどうぞ</h3>
-  <h3 class="es">También Te Puede Interesar</h3>
-  <h3 class="de">Das könnte dich auch interessieren</h3>
-  <div class="other-grid">
-    <?php foreach ($related as $rSlug => $rA):
-      $rCat = $rA['category'] ?? 'guide';
-      $rColor = $rA['color'] ?? '#f7931a';
-      $rIcon = $rA['icon'] ?? '📄';
-      $rTitleJa = $rA['title_ja'] ?? ($rA['title_en'] ?? '');
-      $rDescJa = $rA['desc_ja'] ?? ($rA['desc_en'] ?? '');
-      $rCatJa = CATEGORY_META[$rCat]['ja'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
-      $rTitleEs = $rA['title_es'] ?? ($rA['title_en'] ?? '');
-      $rDescEs = $rA['desc_es'] ?? ($rA['desc_en'] ?? '');
-      $rCatEs = CATEGORY_META[$rCat]['es'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
-      $rTitleDe = $rA['title_de'] ?? ($rA['title_en'] ?? '');
-      $rDescDe = $rA['desc_de'] ?? ($rA['desc_en'] ?? '');
-      $rCatDe = CATEGORY_META[$rCat]['de'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
+
+// ── 이전 글 / 다음 글: 전체 글을 날짜순(오름차순)으로 세워 현재 글의 앞뒤를 찾음 ──
+$ordered = $ARTICLES;
+uasort($ordered, fn($a, $b) => strcmp($a['date'] ?? '', $b['date'] ?? ''));
+$orderedSlugs = array_keys($ordered);
+$curPos = array_search($slug, $orderedSlugs, true);
+$prevSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 더 과거 글
+$nextSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 더 최신 글
+
+// 추천 카드 하나를 그리는 헬퍼
+$renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
+    $rCat = $rA['category'] ?? 'guide';
+    $rColor = $rA['color'] ?? '#f7931a';
+    $rIcon = $rA['icon'] ?? '📄';
+    $rTitleJa = $rA['title_ja'] ?? ($rA['title_en'] ?? '');
+    $rDescJa = $rA['desc_ja'] ?? ($rA['desc_en'] ?? '');
+    $rCatJa = CATEGORY_META[$rCat]['ja'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
+    $rTitleEs = $rA['title_es'] ?? ($rA['title_en'] ?? '');
+    $rDescEs = $rA['desc_es'] ?? ($rA['desc_en'] ?? '');
+    $rCatEs = CATEGORY_META[$rCat]['es'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
+    $rTitleDe = $rA['title_de'] ?? ($rA['title_en'] ?? '');
+    $rDescDe = $rA['desc_de'] ?? ($rA['desc_en'] ?? '');
+    $rCatDe = CATEGORY_META[$rCat]['de'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
     ?>
     <a href="/blog/<?= htmlspecialchars($rSlug) ?>.php<?= htmlspecialchars($blogSuffix) ?>" class="other-card" style="--oc-accent:<?= htmlspecialchars($rColor) ?>">
       <div class="oc-icon"><?= $rIcon ?></div>
@@ -46,10 +48,56 @@ $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
         </div>
       </div>
     </a>
-    <?php endforeach; ?>
+    <?php
+};
+?>
+
+<?php // ── 이전 글 / 다음 글 바로가기 ── ?>
+<?php if ($prevSlug || $nextSlug): ?>
+<nav class="prevnext">
+  <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; ?>
+    <a class="pn-link pn-prev" href="/blog/<?= h($prevSlug) ?>.php<?= h($blogSuffix) ?>">
+      <span class="pn-dir"><span class="ko">← 이전 글</span><span class="en">← Previous</span><span class="ja">← 前の記事</span><span class="es">← Anterior</span><span class="de">← Zurück</span></span>
+      <span class="pn-title"><span class="ko"><?= h($pA['title_ko'] ?? '') ?></span><span class="en"><?= h($pA['title_en'] ?? '') ?></span><span class="ja"><?= h($pA['title_ja'] ?? ($pA['title_en'] ?? '')) ?></span><span class="es"><?= h($pA['title_es'] ?? ($pA['title_en'] ?? '')) ?></span><span class="de"><?= h($pA['title_de'] ?? ($pA['title_en'] ?? '')) ?></span></span>
+    </a>
+  <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
+  <?php if ($nextSlug): $nA = $ARTICLES[$nextSlug]; ?>
+    <a class="pn-link pn-next" href="/blog/<?= h($nextSlug) ?>.php<?= h($blogSuffix) ?>">
+      <span class="pn-dir"><span class="ko">다음 글 →</span><span class="en">Next →</span><span class="ja">次の記事 →</span><span class="es">Siguiente →</span><span class="de">Weiter →</span></span>
+      <span class="pn-title"><span class="ko"><?= h($nA['title_ko'] ?? '') ?></span><span class="en"><?= h($nA['title_en'] ?? '') ?></span><span class="ja"><?= h($nA['title_ja'] ?? ($nA['title_en'] ?? '')) ?></span><span class="es"><?= h($nA['title_es'] ?? ($nA['title_en'] ?? '')) ?></span><span class="de"><?= h($nA['title_de'] ?? ($nA['title_en'] ?? '')) ?></span></span>
+    </a>
+  <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
+</nav>
+<?php endif; ?>
+
+<?php // ── 추천: 같은 카테고리 ── ?>
+<?php if (!empty($sameTop)): ?>
+<div class="other-articles">
+  <h3 class="ko">같은 카테고리의 다른 글</h3>
+  <h3 class="en">More in This Category</h3>
+  <h3 class="ja">同じカテゴリの記事</h3>
+  <h3 class="es">Más en Esta Categoría</h3>
+  <h3 class="de">Mehr in dieser Kategorie</h3>
+  <div class="other-grid">
+    <?php foreach ($sameTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>
 </div>
 <?php endif; ?>
+
+<?php // ── 추천: 다른 카테고리 ── ?>
+<?php if (!empty($otherTop)): ?>
+<div class="other-articles">
+  <h3 class="ko">이런 글도 읽어보세요</h3>
+  <h3 class="en">You Might Also Like</h3>
+  <h3 class="ja">こちらの記事もどうぞ</h3>
+  <h3 class="es">También Te Puede Interesar</h3>
+  <h3 class="de">Das könnte dich auch interessieren</h3>
+  <div class="other-grid">
+    <?php foreach ($otherTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
+  </div>
+</div>
+<?php endif; ?>
+
 
   <div class="cta">
     <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>

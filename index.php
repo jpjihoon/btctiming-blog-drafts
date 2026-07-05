@@ -75,6 +75,16 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#fafafa;letter-spac
 
 /* ── 카테고리 필터 탭 ── */
 .cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:800px;margin:0 auto;padding:0 24px;position:relative;top:18px}
+/* 블로그 검색창 */
+.blog-search-wrap{max-width:800px;margin:0 auto;padding:20px 24px 0}
+.blog-search{display:flex;align-items:center;gap:8px;background:#151515;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 14px;transition:border-color .15s}
+.blog-search:focus-within{border-color:rgba(247,147,26,.5)}
+.bs-icon{font-size:14px;opacity:.6;flex-shrink:0}
+#blogSearch{flex:1;background:transparent;border:none;outline:none;color:#e4e4e7;font-size:14px;min-width:0}
+#blogSearch::placeholder{color:#52525b}
+.bs-clear{flex-shrink:0;background:transparent;border:none;color:#71717a;font-size:13px;cursor:pointer;padding:2px 4px;border-radius:4px}
+.bs-clear:hover{color:#e4e4e7;background:rgba(255,255,255,.06)}
+.no-results{text-align:center;color:#52525b;font-size:14px;padding:48px 20px;grid-column:1/-1}
 .cat-tab{font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.1);
   background:#111113;color:#a1a1aa;cursor:pointer;transition:all .15s;white-space:nowrap}
 .cat-tab:hover{border-color:rgba(255,255,255,.25);color:#e4e4e7}
@@ -172,6 +182,14 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
   </div>
 </div>
 
+<div class="blog-search-wrap">
+  <div class="blog-search">
+    <span class="bs-icon">🔍</span>
+    <input type="text" id="blogSearch" oninput="onSearchInput()" autocomplete="off" placeholder="글 검색...">
+    <button type="button" id="bsClear" class="bs-clear" onclick="clearSearch()" style="display:none">✕</button>
+  </div>
+</div>
+
 <div class="cat-tabs" id="catTabs">
   <button class="cat-tab active" data-cat="all" onclick="filterCat('all')">
     <span class="ko">전체</span><span class="en-show" style="display:none">All</span><span class="ja-show" style="display:none">全て</span><span class="es-show" style="display:none">Todo</span><span class="de-show" style="display:none">Alle</span>
@@ -213,7 +231,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     $readEs = $a['read_es'] ?? ($a['read_en'] ?? '');
     $readDe = $a['read_de'] ?? ($a['read_en'] ?? '');
 ?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" data-search="<?= h(strtolower(trim(($a['title_ko']??'').' '.($a['title_en']??'').' '.($a['title_ja']??'').' '.($a['title_es']??'').' '.($a['title_de']??'').' '.($a['desc_ko']??'').' '.($a['desc_en']??'').' '.($a['tag_ko']??'').' '.($a['tag_en']??'')))) ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
       <div class="card-body">
         <div class="card-tagrow">
@@ -246,6 +264,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
       <div class="card-arrow">→</div>
     </a>
 <?php endforeach; endif; ?>
+    <div class="no-results" id="noResults" style="display:none"></div>
   </div>
 
   <button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="display:none">
@@ -309,6 +328,13 @@ function setLang(lang) {
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
   try { localStorage.setItem('blogLang', lang); } catch(e){}
+  // 검색창 placeholder + 결과없음 문구 다국어
+  const _ph = {ko:'글 검색...', en:'Search articles...', ja:'記事を検索...', es:'Buscar artículos...', de:'Artikel suchen...'};
+  const _nr = {ko:'검색 결과가 없습니다.', en:'No results found.', ja:'検索結果がありません。', es:'No se encontraron resultados.', de:'Keine Ergebnisse gefunden.'};
+  const _si = document.getElementById('blogSearch');
+  if(_si) _si.placeholder = _ph[lang] || _ph.en;
+  window.BLOG_NO_RESULT = _nr[lang] || _nr.en;
+  if(typeof updateVisibility === 'function' && searchQuery) updateVisibility();
   try {
     const url = new URL(location.href);
     if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
@@ -353,21 +379,55 @@ window.addEventListener('pageshow', function(e){
 const PAGE_SIZE = 12;
 let currentCat = 'all';
 let visibleCount = PAGE_SIZE;
+let searchQuery = '';
 const allCards = Array.from(document.querySelectorAll('#articleGrid .article-card'));
 
 function updateVisibility() {
   let shownInCat = 0;
+  let anyVisible = 0;
+  const searching = searchQuery.length > 0;
   allCards.forEach(card => {
     const matchesCat = currentCat === 'all' || card.dataset.cat === currentCat;
-    let show = matchesCat;
-    if (matchesCat && currentCat === 'all') {
-      // 전체 탭에서만 페이지네이션 적용 — 특정 카테고리 필터 중엔 전부 노출
+    const matchesSearch = !searching || (card.dataset.search || '').indexOf(searchQuery) !== -1;
+    let show = matchesCat && matchesSearch;
+    // 페이지네이션은 검색 중이 아닐 때, 전체 탭에서만 적용
+    if (show && !searching && currentCat === 'all') {
       show = shownInCat < visibleCount;
       shownInCat++;
     }
     card.classList.toggle('hidden', !show);
+    if (show) anyVisible++;
   });
+  // 검색 결과 없음 메시지
+  const nr = document.getElementById('noResults');
+  if (nr) {
+    if (searching && anyVisible === 0) {
+      nr.textContent = window.BLOG_NO_RESULT || 'No results found.';
+      nr.style.display = 'block';
+    } else {
+      nr.style.display = 'none';
+    }
+  }
   updateMoreButton();
+}
+
+// 검색 입력 처리
+function onSearchInput() {
+  const input = document.getElementById('blogSearch');
+  searchQuery = (input.value || '').trim().toLowerCase();
+  document.getElementById('bsClear').style.display = searchQuery ? 'block' : 'none';
+  if (searchQuery) visibleCount = 1e9; // 검색 중엔 페이지네이션 무시(전부 노출)
+  else visibleCount = PAGE_SIZE;
+  updateVisibility();
+}
+function clearSearch() {
+  const input = document.getElementById('blogSearch');
+  input.value = '';
+  searchQuery = '';
+  document.getElementById('bsClear').style.display = 'none';
+  visibleCount = PAGE_SIZE;
+  updateVisibility();
+  input.focus();
 }
 
 function updateMoreButton() {
