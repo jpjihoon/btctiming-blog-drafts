@@ -529,6 +529,11 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 
 .hist-tab{font-size:10px;padding:3px 10px;border-radius:5px;cursor:pointer;color:var(--t3);border:1px solid transparent;transition:all .15s}
 .hist-tab.active{background:var(--bg3);color:var(--t1);border-color:var(--b2)}
+/* 차트 봉 선택 바 */
+.tv-iv-bar{display:flex;gap:4px;margin-bottom:6px;flex-wrap:wrap}
+.tv-iv-btn{font-size:11px;padding:3px 11px;border-radius:6px;cursor:pointer;color:var(--t3);border:1px solid var(--b1);background:var(--bg2);transition:all .15s;user-select:none}
+.tv-iv-btn:hover{color:var(--t2);border-color:var(--b2)}
+.tv-iv-btn.active{background:var(--orange);color:#000;border-color:var(--orange);font-weight:700}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
 </style>
 </head>
@@ -764,6 +769,13 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
   <!-- Chart: 데스크톱에선 사이드바 옆, 모바일에선 최상단(grid-template-areas로 순서 제어) -->
   <div class="chart-wrap-cell">
+    <div class="tv-iv-bar" role="group" aria-label="Chart interval">
+      <div class="tv-iv-btn" data-iv="5" onclick="setChartInterval('5')" role="button" tabindex="0" aria-label="5 minutes">5m</div>
+      <div class="tv-iv-btn" data-iv="15" onclick="setChartInterval('15')" role="button" tabindex="0" aria-label="15 minutes">15m</div>
+      <div class="tv-iv-btn" data-iv="60" onclick="setChartInterval('60')" role="button" tabindex="0" aria-label="1 hour">1h</div>
+      <div class="tv-iv-btn" data-iv="240" onclick="setChartInterval('240')" role="button" tabindex="0" aria-label="4 hours">4h</div>
+      <div class="tv-iv-btn active" data-iv="D" onclick="setChartInterval('D')" role="button" tabindex="0" aria-label="1 day">1D</div>
+    </div>
     <div class="chart-wrap" id="tvChart"></div>
   </div>
 
@@ -922,7 +934,7 @@ $ft = $footerText[$lang] ?? $footerText['en'];
   · <span data-i="footerDisclaimer"><?= h($ft['disclaimer']) ?></span>
 </div>
 
-<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js" onerror="console.error('Firebase app SDK failed to load')"></script>
-<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js" onerror="console.error('Firebase database SDK failed to load')"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js" defer onerror="console.error('Firebase app SDK failed to load')"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js" defer onerror="console.error('Firebase database SDK failed to load')"></script>
 </body>
 </html>

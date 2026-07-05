@@ -175,7 +175,10 @@ const COINS = [
   {id:'TRX', name:'TRON',     sym:'TRXUSDT', color:'#FF0013'},
 ];
 
-let currentCoin = 'BTC';
+let currentCoin = (function(){
+  try { const c = localStorage.getItem('selectedCoin'); if(c && COINS.some(x=>x.id===c)) return c; } catch(e){}
+  return 'BTC';
+})();
 let currentMode = 'buy';
 let ws = null;
 let livePrice = null;
@@ -221,6 +224,7 @@ function goHome() {
 function switchCoin(id) {
   if(currentCoin === id) return;
   currentCoin = id;
+  try { localStorage.setItem('selectedCoin', id); } catch(e){}
   livePrice = null;
   loadToken++;
 
@@ -363,6 +367,17 @@ function setMode(mode) {
 // ═══════════════════════════════════════════════════════
 // TRADINGVIEW CHART
 // ═══════════════════════════════════════════════════════
+let chartInterval = (function(){
+  try { const v = localStorage.getItem('chartInterval'); if(v) return v; } catch(e){}
+  return 'D';
+})();
+function setChartInterval(iv){
+  chartInterval = iv;
+  try { localStorage.setItem('chartInterval', iv); } catch(e){}
+  // 봉 버튼 active 표시
+  document.querySelectorAll('.tv-iv-btn').forEach(b=>b.classList.toggle('active', b.dataset.iv===iv));
+  initChart();
+}
 function initChart() {
   const coin = COINS.find(c=>c.id===currentCoin);
   const sym = (currentCoin==='USDT') ? 'BINANCE:USDCUSDT' : ('BINANCE:'+coin.sym);
@@ -372,13 +387,15 @@ function initChart() {
   iframe.style.cssText = 'width:100%;height:100%;border:none';
   iframe.src = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_widget'
     + '&symbol=' + encodeURIComponent(sym)
-    + '&interval=D&theme=dark&style=1&locale=en'
+    + '&interval=' + encodeURIComponent(chartInterval) + '&theme=dark&style=1&locale=en'
     + '&toolbar_bg=%230f0f0f&hide_top_toolbar=0'
     + '&studies=MAExp%40tv-basicstudies'
     + '&backgroundColor=%230f0f0f';
   iframe.setAttribute('allowtransparency','true');
   iframe.setAttribute('allowfullscreen','true');
   wrap.appendChild(iframe);
+  // 현재 봉 버튼 상태 반영
+  document.querySelectorAll('.tv-iv-btn').forEach(b=>b.classList.toggle('active', b.dataset.iv===chartInterval));
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1161,7 +1178,6 @@ function saveHistoryToServer(coin, modeKey, t, score) {
   if(!ensureHistoryDB()) return;
   const path = `scoreHistory/${coin}_${modeKey}`;
   chatDB.ref(path).push({t, s: parseFloat(score.toFixed(2))}).then(() => {
-    console.log('[history] saved to server:', path, score);
     pruneOldHistory(path);
   }).catch(e => console.error('[history] save FAILED (DB 규칙/권한 확인 필요):', e && e.message ? e.message : e));
 }
@@ -1590,7 +1606,6 @@ async function loadAll() {
 
     // 토큰 불일치 = 다른 코인으로 전환됨 → 결과 무시
     if(myToken !== loadToken || loadingCoin !== currentCoin) {
-      console.log('Coin switched, ignoring stale data');
       return;
     }
 
@@ -2361,10 +2376,8 @@ let chatOpen = false;
 let chatInitialized = false;
 
 function initFirebaseChat() {
-  console.log('[chat] initFirebaseChat called, chatDB=', !!chatDB, 'listenersAttached=', chatListenersAttached);
   if(chatDB && chatListenersAttached) return; // 이미 완전히 연결됨
   try {
-    console.log('[chat] typeof firebase =', typeof firebase);
     if(typeof firebase === 'undefined') {
       console.error('[chat] Firebase SDK not loaded yet');
       showChatError('Firebase SDK not loaded. Retrying...');
@@ -2383,13 +2396,10 @@ function initFirebaseChat() {
       appId: "1:1037450881238:web:d21d0deff6e9aef1bf4177",
       measurementId: "G-VD01B9SL3K"
     };
-    console.log('[chat] firebase.apps =', firebase.apps);
     if(!firebase.apps || !firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
-      console.log('[chat] initializeApp called');
     }
     if(!chatDB) chatDB = firebase.database();
-    console.log('[chat] chatDB ready:', chatDB);
     if(!myRegion) {
       detectMyRegion().then(() => {
         if(lastChatData) renderChatMessages(lastChatData); // 감지 완료 후 이미 그려진 메시지에 번역 적용
@@ -2398,7 +2408,6 @@ function initFirebaseChat() {
     listenChatMessages();
     trackPresence();
     chatListenersAttached = true;
-    console.log('[chat] listeners attached successfully');
   } catch(e) {
     console.error('[chat] init failed:', e.message, e);
     showChatError(e.message);
@@ -2428,12 +2437,9 @@ function showChatError(detail) {
 let lastChatData = null; // 최신 메시지 스냅샷 (지역 감지 완료 후 재렌더링용)
 
 function listenChatMessages() {
-  console.log('[chat] listenChatMessages called, chatDB=', chatDB);
   if(!chatDB) { console.error('[chat] listenChatMessages: chatDB is null!'); return; }
   const msgsRef = chatDB.ref('messages').limitToLast(50);
-  console.log('[chat] msgsRef created:', msgsRef.toString());
   msgsRef.on('value', (snapshot) => {
-    console.log('[chat] onValue fired! exists=', snapshot.exists(), 'val=', snapshot.val());
     lastChatData = snapshot.val();
     renderChatMessages(lastChatData);
   }, (error) => {
@@ -2494,11 +2500,9 @@ function trackPresence() {
   if(!chatDB) return;
   const presenceRef = chatDB.ref('presence/' + chatNickname);
   presenceRef.set({online: true, t: Date.now()}).then(()=>{
-    console.log('[chat] presence set OK');
   }).catch(e=>console.error('[chat] presence set failed:', e.message));
   presenceRef.onDisconnect().remove();
   chatDB.ref('presence').on('value', (snap) => {
-    console.log('[chat] presence listener fired:', snap.val());
     const data = snap.val();
     const count = data ? Object.keys(data).length : 0;
     const cEl = document.getElementById('chatUserCount');
@@ -2538,7 +2542,6 @@ function sendChatMsg() {
     t: Date.now(),
     region: myRegion || 'US'
   }).then(() => {
-    console.log('Message sent successfully');
     pruneOldMessages();
   }).catch((err) => {
     console.error('Send failed:', err);
