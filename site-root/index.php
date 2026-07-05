@@ -530,6 +530,15 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 
 .hist-tab{font-size:10px;padding:3px 10px;border-radius:5px;cursor:pointer;color:var(--t3);border:1px solid transparent;transition:all .15s}
 .hist-tab.active{background:var(--bg3);color:var(--t1);border-color:var(--b2)}
+/* 거래소 제휴 배너 */
+.exch-banner{display:flex;align-items:center;gap:11px;text-decoration:none;background:linear-gradient(135deg,rgba(251,191,36,.1),rgba(251,146,60,.08));border:1px solid rgba(251,191,36,.28);border-radius:12px;padding:11px 13px;margin:12px 0;transition:border-color .15s,transform .1s}
+.exch-banner:hover{border-color:rgba(251,191,36,.5)}
+.exch-banner:active{transform:scale(.99)}
+.exch-banner-ic{font-size:20px;flex-shrink:0}
+.exch-banner-tx{display:flex;flex-direction:column;line-height:1.3;flex:1;min-width:0}
+.exch-banner-tx b{font-size:12.5px;color:var(--t1);font-weight:700}
+.exch-banner-tx span{font-size:11px;color:var(--t3)}
+.exch-banner-ar{color:var(--yellow);font-weight:700;font-size:16px;flex-shrink:0}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
 </style>
 </head>
@@ -751,6 +760,16 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </div>
       </div>
     </div>
+
+    <!-- Exchange referral banner → 전용 비교 페이지로 이동 -->
+    <a href="/exchanges.php<?= h(langSuffix($lang)) ?>" class="exch-banner">
+      <span class="exch-banner-ic">🚀</span>
+      <span class="exch-banner-tx">
+        <b><?= h(['ko'=>'거래소, 어디서 시작할까?','en'=>'Which exchange to start with?','ja'=>'取引所はどこで始める?','es'=>'¿Con qué exchange empezar?','de'=>'Mit welcher Börse anfangen?'][$lang] ?? 'Which exchange to start with?') ?></b>
+        <span><?= h(['ko'=>'바이낸스·바이비트 비교 + 수수료 할인','en'=>'Compare Binance & Bybit + fee discount','ja'=>'Binance・Bybit比較 + 手数料割引','es'=>'Compara Binance y Bybit + descuento','de'=>'Binance & Bybit vergleichen + Rabatt'][$lang] ?? 'Compare Binance & Bybit + fee discount') ?></span>
+      </span>
+      <span class="exch-banner-ar">→</span>
+    </a>
 
     <!-- Sidebar Blog List: 좌측 하단 여백 채우는 컴팩트 블로그 리스트 -->
     <div class="sb-blog">
