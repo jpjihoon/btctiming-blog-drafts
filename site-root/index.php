@@ -3341,10 +3341,45 @@ function renderInsightCards(containerId, articles, ko, suffix) {
       <div class="insight-body">
         <div class="insight-cat">${cat}</div>
         <div class="insight-title">${title}</div>
-        <div class="insight-date">${a.date.replaceAll('-','.')}</div>
+        <div class="insight-date">${formatInsightDate(a.date, currentLang)}</div>
       </div>
     </a>`;
   }).join('');
+}
+
+/**
+ * feed.php가 주는 date 문자열(예: "2026-07-05 14:30:00")은 항상 KST(한국시간) 기준으로 저장돼 있음.
+ * 현재 언어에 맞는 시간대로 환산해서 라벨과 함께 보여줌 (ko→KST, ja→JST, en→UTC, es/de→CET/CEST 자동).
+ * — 이렇게 해야 어느 언어로 보든 "이게 무슨 시간대인지" 헷갈리지 않음.
+ */
+function formatInsightDate(dateStr, lang) {
+  if(!dateStr) return '';
+  const m = String(dateStr).match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
+  if(!m) return String(dateStr).replaceAll('-', '.'); // 형식이 다르면 예전처럼 안전하게 표시
+  const y = Number(m[1]), mo = Number(m[2]), d = Number(m[3]), h = Number(m[4]), mi = Number(m[5]);
+  const kstEpoch = Date.UTC(y, mo - 1, d, h - 9, mi); // KST → UTC epoch로 정규화
+
+  const TZ_BY_LANG = { ko: 'Asia/Seoul', ja: 'Asia/Tokyo', en: 'UTC', es: 'Europe/Madrid', de: 'Europe/Berlin' };
+  const tz = TZ_BY_LANG[lang] || 'UTC';
+  const dt = new Date(kstEpoch);
+
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: tz, hourCycle: 'h23',
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
+  }).formatToParts(dt).reduce((acc, x) => (acc[x.type] = x.value, acc), {});
+
+  let label;
+  if (tz === 'Asia/Seoul') label = 'KST';
+  else if (tz === 'Asia/Tokyo') label = 'JST';
+  else if (tz === 'UTC') label = 'UTC';
+  else {
+    // 유럽 서머타임(CET/CEST) 자동 판별: 브라우저마다 다른 Intl timeZoneName 대신
+    // UTC와의 실제 분(分) 차이를 직접 계산해서 안정적으로 라벨을 정함
+    const asUTC = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), Number(parts.hour), Number(parts.minute));
+    const offsetMin = Math.round((asUTC - dt.getTime()) / 60000);
+    label = offsetMin === 120 ? 'CEST' : 'CET';
+  }
+  return `${parts.year}.${parts.month}.${parts.day} ${parts.hour}:${parts.minute} ${label}`;
 }
 
 function updateInsightMoreButton() {
