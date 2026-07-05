@@ -1122,14 +1122,16 @@ function updateTickerFromAPI(data) {
   if(data.dom_chg != null) setChg('tkDomChg', data.dom_chg);
   if(data.mcap)    set('tkMcap', (data.mcap/1e12).toFixed(2)+'T');
   if(data.vol24h)  set('tkVol',  (data.vol24h/1e9).toFixed(1)+'B');
-  // 서버가 내려주는 usdt_krw/usdt_chg는 원화 전용 값이라, 한국어 모드일 때만 사용.
-  // 다른 언어에서는 loadTicker()가 언어에 맞는 통화(USD/JPY/EUR 등)로 이미 채워둔 값을 덮어쓰지 않음.
-  if(currentLang === 'ko') {
-    if(data.usdt_krw != null && data.usdt_krw > 0) {
-      set('tkUsdtKrw', Number(data.usdt_krw).toLocaleString('ko'));
+  // USDT 시세를 캐시에 즉시 반영해서 loadTicker가 첫 렌더에도 실제 값을 쓰게 함 (렌더 순서 타이밍 방지)
+  try {
+    if(typeof indCache !== 'undefined'){
+      indCache[currentCoin] = indCache[currentCoin] || {};
+      indCache[currentCoin].usdt_krw = data.usdt_krw;
+      indCache[currentCoin].usdt_chg = data.usdt_chg;
+      indCache[currentCoin].usdt_prices = data.usdt_prices;
     }
-    if(data.usdt_chg != null) setChg('tkUsdtKrwChg', data.usdt_chg);
-  }
+  } catch(e){}
+  loadTicker();
 }
 
 // 언어별 기준 통화 매핑 — 한국어면 원화(김치프리미엄 확인용), 그 외 언어는 각 지역에서 익숙한 통화로.
@@ -1151,30 +1153,33 @@ async function loadTicker() {
   if(l1) l1.textContent = `USD/${cur}`;
   if(l2) l2.textContent = `USDT/${cur}`;
 
-  // 기준 통화 환율 + USDT 시세를 동시에 fetch
-  //   USD/{통화}: exchangerate-api (CORS 허용)
-  //   USDT/{통화}: CoinGecko simple/price — 직접 호출이 CORS로 막히면 프록시 경유
-  const [r1, r2] = await Promise.allSettled([
-    fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)}).then(r=>r.json()),
-    fetchProxy(`https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=${curLower}&include_24hr_change=true`),
-  ]);
+  // USD/{통화} 환율만 exchangerate-api로 받음 (USDT 시세는 서버 api.php가 usdt_prices로 내려줌 → 프록시 불필요)
+  const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
+    .then(r=>r.json()).catch(()=>null);
 
   const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-  if(r1.status==='fulfilled') {
-    const rate = cur === 'USD' ? 1 : r1.value?.rates?.[cur];
+  const rate = (cur === 'USD') ? 1 : r1?.rates?.[cur];
+  if(rate != null) {
     const el = document.getElementById('tkUsdKrw');
-    if(el && rate != null) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 1 : 2});
+    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='JPY'||cur==='KRW') ? 1 : 2});
   }
-  if(r2.status==='fulfilled' && r2.value?.tether?.[curLower] != null) {
-    const rate = r2.value.tether[curLower];
-    const chg = r2.value.tether[`${curLower}_24h_change`];
-    const el = document.getElementById('tkUsdtKrw');
-    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 0 : 3});
-    const chgEl = document.getElementById('tkUsdtKrwChg');
-    if(chgEl && chg != null) {
-      chgEl.textContent = (chg>=0?'+':'') + chg.toFixed(2) + '%';
-      chgEl.style.color = chg>=0 ? 'var(--green)' : 'var(--red)';
-    }
+
+  // USDT/{통화}: 서버가 내려준 실제 테더 시세(usdt_prices) 사용. 원화는 업비트 정밀값 우선.
+  const src = (typeof indCache !== 'undefined') ? indCache[currentCoin] : null;
+  let price = null, chg = null;
+  if(cur === 'KRW' && src){ const v = Number(src.usdt_krw); if(v>=500 && v<=3000){ price=v; chg=src.usdt_chg; } }
+  if(price == null && src && src.usdt_prices && src.usdt_prices[curLower]){
+    price = src.usdt_prices[curLower].p; chg = src.usdt_prices[curLower].c;
+  }
+  const elU = document.getElementById('tkUsdtKrw');
+  const chgEl = document.getElementById('tkUsdtKrwChg');
+  if(price != null && elU){
+    const digits = (cur==='JPY') ? 0 : (cur==='KRW' ? 1 : 4);
+    elU.textContent = price.toLocaleString(dLoc, {maximumFractionDigits: digits, minimumFractionDigits: (cur==='USD'||cur==='EUR')?4:0});
+  }
+  if(chgEl){
+    if(chg != null){ const s=chg>=0?'+':''; chgEl.textContent=`${s}${Number(chg).toFixed(2)}%`; chgEl.style.color=chg>=0?'var(--green)':'var(--red)'; }
+    else chgEl.textContent = '';
   }
 }
 setInterval(loadTicker, 60*1000); // 1분마다 갱신 (최초 1회는 refreshLangDependentUI()에서 호출됨)
