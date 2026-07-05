@@ -34,6 +34,10 @@ $T = [
     'note'        => '위 링크는 제휴(레퍼럴) 링크로, 가입 시 BTCtiming에 소액의 수수료가 지급될 수 있습니다. 추가 비용은 없으며, 오히려 수수료 할인 혜택을 받습니다.',
     'risk'        => '⚠ 암호화폐 거래, 특히 선물·레버리지 거래는 높은 손실 위험을 동반합니다. BTCtiming의 점수는 정보 제공용이며 투자 조언이 아닙니다. 본인의 판단과 책임하에 거래하세요.',
     'back'        => '← BTCtiming 홈으로',
+    'f_home'      => "홈",
+    'f_privacy'   => "개인정보처리방침",
+    'f_terms'     => "이용약관",
+    'f_disc'      => "투자 조언이 아닙니다",
   ],
   'en' => [
     'title' => 'Best Exchange — Binance vs Bybit | BTCtiming',
@@ -52,6 +56,10 @@ $T = [
     'note'        => 'These are referral links; BTCtiming may earn a small commission when you sign up. There is no extra cost to you — you receive a fee discount instead.',
     'risk'        => '⚠ Crypto trading, especially futures and leverage, carries a high risk of loss. BTCtiming scores are for information only and are not financial advice. Trade at your own discretion and risk.',
     'back'        => '← Back to BTCtiming',
+    'f_home'      => "Home",
+    'f_privacy'   => "Privacy Policy",
+    'f_terms'     => "Terms of Service",
+    'f_disc'      => "Not financial advice",
   ],
   'ja' => [
     'title' => 'おすすめ取引所 — Binance vs Bybit | BTCtiming',
@@ -70,6 +78,10 @@ $T = [
     'note'        => '上記はリファラルリンクで、登録時にBTCtimingに少額の手数料が支払われる場合があります。追加費用はなく、むしろ手数料割引を受けられます。',
     'risk'        => '⚠ 暗号資産取引、特に先物・レバレッジ取引は高い損失リスクを伴います。BTCtimingのスコアは情報提供用であり投資助言ではありません。自己の判断と責任で取引してください。',
     'back'        => '← BTCtimingホームへ',
+    'f_home'      => "ホーム",
+    'f_privacy'   => "プライバシーポリシー",
+    'f_terms'     => "利用規約",
+    'f_disc'      => "投資助言ではありません",
   ],
   'es' => [
     'title' => 'Mejor Exchange — Binance vs Bybit | BTCtiming',
@@ -88,6 +100,10 @@ $T = [
     'note'        => 'Estos son enlaces de referido; BTCtiming puede ganar una pequeña comisión cuando te registras. No tiene costo extra para ti — recibes un descuento en comisiones.',
     'risk'        => '⚠ Operar con cripto, especialmente futuros y apalancamiento, conlleva un alto riesgo de pérdida. Las puntuaciones de BTCtiming son solo informativas y no son asesoramiento financiero. Opera bajo tu propio criterio y riesgo.',
     'back'        => '← Volver a BTCtiming',
+    'f_home'      => "Inicio",
+    'f_privacy'   => "Política de Privacidad",
+    'f_terms'     => "Términos de Servicio",
+    'f_disc'      => "No es asesoramiento financiero",
   ],
   'de' => [
     'title' => 'Beste Börse — Binance vs Bybit | BTCtiming',
@@ -106,6 +122,10 @@ $T = [
     'note'        => 'Dies sind Empfehlungslinks; BTCtiming kann bei deiner Anmeldung eine kleine Provision erhalten. Für dich entstehen keine Zusatzkosten — du erhältst stattdessen einen Gebührenrabatt.',
     'risk'        => '⚠ Krypto-Handel, besonders Futures und Hebel, birgt ein hohes Verlustrisiko. BTCtiming-Scores dienen nur der Information und sind keine Finanzberatung. Handle nach eigenem Ermessen und Risiko.',
     'back'        => '← Zurück zu BTCtiming',
+    'f_home'      => "Startseite",
+    'f_privacy'   => "Datenschutzerklärung",
+    'f_terms'     => "Nutzungsbedingungen",
+    'f_disc'      => "Keine Finanzberatung",
   ],
 ];
 $t = $T[$lang] ?? $T['en'];
@@ -137,8 +157,26 @@ $canonical = 'https://www.btctiming.com/exchanges.php' . $urlSuffix;
   --rad:12px;--rad-lg:16px;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;padding:24px 16px}
-.wrap{max-width:840px;margin:0 auto}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+/* 상단 헤더 */
+.site-hd{display:flex;align-items:center;justify-content:space-between;max-width:840px;width:100%;margin:0 auto;padding:16px 16px;border-bottom:1px solid var(--b1)}
+.hd-logo{font-size:17px;font-weight:800;letter-spacing:-.5px;color:var(--t1);text-decoration:none}
+.hd-logo span{color:var(--orange)}
+.hd-home{font-size:13px;color:var(--t2);text-decoration:none;padding:6px 12px;border:1px solid var(--b1);border-radius:8px;transition:all .15s}
+.hd-home:hover{color:var(--t1);border-color:var(--b2)}
+/* 본문 여백 */
+.wrap{max-width:840px;margin:0 auto;width:100%;padding:24px 16px;flex:1}
+/* 하단 푸터 */
+.site-ft{border-top:1px solid var(--b1);margin-top:8px}
+.ft-inner{max-width:840px;margin:0 auto;width:100%;padding:18px 16px;display:flex;flex-direction:column;gap:12px}
+.ft-line{font-size:11px;color:var(--t3);line-height:1.7}
+.ft-line a{color:var(--t3);text-decoration:underline}
+.ft-line a:hover{color:var(--t2)}
+.ft-langs{display:flex;flex-wrap:wrap;gap:8px}
+.ft-langs a{font-size:11px;color:var(--t3);text-decoration:none;padding:3px 9px;border:1px solid var(--b1);border-radius:6px;transition:all .15s}
+.ft-langs a:hover{color:var(--t1);border-color:var(--b2)}
+.ft-langs a.on{color:var(--orange);border-color:rgba(251,146,60,.4)}
+
 .back{display:inline-block;color:var(--t3);text-decoration:none;font-size:13px;margin-bottom:20px}
 .back:hover{color:var(--t1)}
 h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
@@ -165,6 +203,10 @@ h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
 </style>
 </head>
 <body>
+<header class="site-hd">
+  <a href="/<?= h($urlSuffix) ?>" class="hd-logo">BTC<span>timing</span></a>
+  <a href="/<?= h($urlSuffix) ?>" class="hd-home"><?= h($t['f_home']) ?></a>
+</header>
 <div class="wrap">
   <a href="/<?= h($urlSuffix) ?>" class="back"><?= h($t['back']) ?></a>
   <h1><?= h($t['h1']) ?></h1>
@@ -198,5 +240,21 @@ h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
   <p class="note"><?= h($t['note']) ?></p>
   <div class="risk"><?= h($t['risk']) ?></div>
 </div>
+
+<footer class="site-ft">
+  <div class="ft-inner">
+    <div class="ft-line">
+      © 2026 BTCtiming.com ·
+      <a href="/privacy<?= h($urlSuffix) ?>"><?= h($t['f_privacy']) ?></a> ·
+      <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['f_terms']) ?></a> ·
+      <span><?= h($t['f_disc']) ?></span>
+    </div>
+    <div class="ft-langs">
+      <?php foreach (SUPPORTED_LANGS as $lc => $li): ?>
+        <a href="/exchanges.php<?= h(langSuffix($lc)) ?>"<?= $lc===$lang ? ' class="on"' : '' ?>><?= h($li['flag'] ?? $lc) ?> <?= h($li['name'] ?? strtoupper($lc)) ?></a>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
