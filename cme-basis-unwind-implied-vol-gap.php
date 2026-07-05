@@ -1,0 +1,239 @@
+<?php $slug = 'cme-basis-unwind-implied-vol-gap'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">7월 5일 현재 비트코인은 6만 3,000달러 안팎에서 거래되고 있다. 7월 1일 찍었던 저점 5만 7,950달러(652일래 최저치) 대비 약 8~9% 반등한 자리다. 이 반등을 두고 옵션 스큐, 코인베이스 프리미엄, 스테이블코인 공급 같은 지표들이 아직 확신을 주지 않는다는 진단은 이미 여러 차례 나왔다. 그런데 정작 기관 자금이 가장 직접적으로 드러나는 채널 — CME 비트코인 선물 — 과 그 자금이 향후 변동성을 어떻게 가격에 반영하는지는 아직 따로 짚이지 않았다.</p>
+  <p class="en">As of July 5, bitcoin is trading around $63,000 — roughly 8-9% above the $57,950 low set on July 1, itself a 652-day low. Plenty has already been said about how options skew, the Coinbase premium, and stablecoin supply haven't caught up to this bounce. What hasn't been examined yet is the channel where institutional money shows up most directly — CME bitcoin futures — and how that same money is pricing forward volatility.</p>
+  <p class="ja">7月5日現在、ビットコインは6万3,000ドル前後で取引されている。7月1日に付けた安値5万7,950ドル(652日ぶりの安値)と比べると約8〜9%の反発水準だ。この反発をめぐっては、オプションスキューやコインベースプレミアム、ステーブルコイン供給といった指標がまだ追いついていないという指摘がすでに何度も出ている。しかし、機関投資家の資金が最も直接的に現れるチャネル — CMEビットコイン先物 — と、その資金が今後の変動性をどう価格に織り込んでいるかは、まだ個別に検証されていない。</p>
+  <p class="es">A 5 de julio, bitcoin cotiza en torno a los $63,000 — un rebote de aproximadamente 8-9% respecto al mínimo de $57,950 marcado el 1 de julio, el más bajo en 652 días. Ya se ha dicho bastante sobre cómo el skew de opciones, la prima de Coinbase y la oferta de stablecoins no han seguido el ritmo de este rebote. Lo que aún no se ha examinado es el canal donde el capital institucional aparece de forma más directa — los futuros de bitcoin en CME — y cómo ese mismo capital está fijando el precio de la volatilidad futura.</p>
+  <p class="de">Zum 5. Juli notiert Bitcoin bei rund 63.000 Dollar — etwa 8-9% über dem Tief von 57.950 Dollar vom 1. Juli, dem niedrigsten Stand seit 652 Tagen. Es wurde bereits viel darüber gesagt, dass Optionsskew, Coinbase-Prämie und Stablecoin-Angebot mit dieser Erholung nicht Schritt gehalten haben. Was noch nicht untersucht wurde, ist der Kanal, über den institutionelles Kapital am direktesten sichtbar wird — CME-Bitcoin-Futures — und wie dasselbe Kapital die künftige Volatilität einpreist.</p>
+
+  <h2 class="ko">CME 선물 미결제약정, 반등에도 아랑곳없이 계속 줄었다</h2>
+  <h2 class="en">CME Futures Open Interest Kept Shrinking Right Through the Rebound</h2>
+  <h2 class="ja">CME先物の未決済建玉、反発をよそに減り続けた</h2>
+  <h2 class="es">El Interés Abierto de Futuros en CME Siguió Reduciéndose Pese al Rebote</h2>
+  <h2 class="de">Das Open Interest der CME-Futures Schrumpfte Trotz der Erholung Weiter</h2>
+  <p class="ko">CME 비트코인 선물은 기관이 규제된 채널에서 비트코인 익스포저를 취하는 대표적인 창구다. 그중에서도 '베이시스 트레이드'는 현물(또는 현물 ETF)을 매수하고 동시에 CME 선물을 매도해 그 가격 차이(베이시스)를 무위험에 가깝게 수취하는 전략으로, 지난 1년간 CME 미결제약정 증가를 이끈 핵심 동력이었다. 더블록 등의 보도에 따르면 CME 평균 일일 미결제약정은 지난 3월 80억 달러 아래로 내려갔고 4월 초에는 약 72억 달러로 2024년 2월 이후 최저치를 기록하며 5개월 연속 감소했다. 그런데 이 흐름은 6월 하락과 7월 초 반등을 거치는 동안에도 반전되지 않았다 — 시장 데이터 기준으로 6월 말 CME 미결제약정은 10만 5,270 BTC(약 63억 3,000만 달러) 수준까지 더 줄어든 것으로 나타난다.</p>
+  <p class="en">CME bitcoin futures are the main regulated channel through which institutions take bitcoin exposure. Within that, the "basis trade" — buying spot (or a spot ETF) while simultaneously shorting CME futures to collect the near risk-free spread between the two — was the core driver behind CME open interest growth over the past year. Per reporting from The Block and others, CME's average daily open interest fell below $8 billion in March and slid to roughly $7.2 billion in early April, a low not seen since February 2024 and a fifth straight monthly decline. That trend didn't reverse through June's sell-off or the early-July bounce — market data trackers put CME open interest at roughly 105,270 BTC (about $6.33 billion) by late June, even lower than the April reading.</p>
+  <p class="ja">CMEビットコイン先物は、機関投資家が規制されたチャネルでビットコインのエクスポージャーを取る代表的な窓口だ。中でも「ベーシス取引」は、現物(または現物ETF)を買うと同時にCME先物を売って、その価格差(ベーシス)をほぼ無リスクで得る戦略で、過去1年間のCME未決済建玉増加を牽引した中心的な動力だった。ザ・ブロックなどの報道によると、CMEの1日平均未決済建玉は3月に80億ドルを割り込み、4月初旬には約72億ドルとなり2024年2月以来の最低水準を記録、5ヶ月連続の減少となった。この流れは6月の急落や7月初旬の反発を経てもなお反転しなかった — 市場データによれば、6月末時点のCME未決済建玉は約10万5,270BTC(約63.3億ドル)まで、4月の水準よりさらに減少している。</p>
+  <p class="es">Los futuros de bitcoin en CME son el principal canal regulado a través del cual las instituciones toman exposición a bitcoin. Dentro de eso, el "basis trade" — comprar spot (o un ETF spot) mientras se vende en corto simultáneamente futuros de CME para cobrar el diferencial casi libre de riesgo entre ambos — fue el motor central detrás del crecimiento del interés abierto de CME durante el último año. Según reportes de The Block y otros, el interés abierto promedio diario de CME cayó por debajo de $8,000 millones en marzo y bajó a unos $7,200 millones a principios de abril, un mínimo no visto desde febrero de 2024 y una quinta caída mensual consecutiva. Esa tendencia no se revirtió durante el desplome de junio ni el rebote de principios de julio — los rastreadores de datos de mercado sitúan el interés abierto de CME en unos 105,270 BTC (cerca de $6,330 millones) a fines de junio, incluso más bajo que la lectura de abril.</p>
+  <p class="de">CME-Bitcoin-Futures sind der wichtigste regulierte Kanal, über den Institutionelle Bitcoin-Exposure aufbauen. Der "Basis-Trade" — der gleichzeitige Kauf von Spot (oder einem Spot-ETF) und Leerverkauf von CME-Futures, um die nahezu risikofreie Spanne zwischen beiden einzustreichen — war dabei der zentrale Treiber hinter dem Wachstum des CME-Open-Interest im vergangenen Jahr. Laut Berichten von The Block und anderen fiel das durchschnittliche tägliche Open Interest der CME im März unter 8 Milliarden Dollar und sank Anfang April auf rund 7,2 Milliarden Dollar — ein Tiefstand, der seit Februar 2024 nicht mehr erreicht wurde, und der fünfte monatliche Rückgang in Folge. Dieser Trend kehrte sich weder während des Juni-Ausverkaufs noch während der Erholung Anfang Juli um — Marktdaten-Tracker beziffern das CME-Open-Interest Ende Juni auf rund 105.270 BTC (etwa 6,33 Milliarden Dollar), sogar niedriger als der Wert im April.</p>
+
+  <p class="ko">규모의 문제만이 아니다. CME 월간 거래대금은 3월 1,630억 달러로 2025년 1월 고점 대비 거의 절반 줄었고, 2023년 11월 이후 처음으로 세계 최대 비트코인 선물 거래소 자리를 바이낸스에 내줬다. 베이시스 트레이드의 매력이 사라진 이유도 숫자로 확인된다 — 한때 연 15~20%에 달했던 베이시스 수익률이 약 5%까지 압축되면서, 4.5% 안팎인 미국 무위험금리와 거의 차이가 없어졌다. 차익거래 유인이 사실상 사라진 셈이다. 전체 거래소 합산 비트코인 선물 미결제약정도 약 426억 달러로, 2025년 말 고점(약 950억 달러)의 절반에도 못 미친다. 즉 이번 반등은 규제된 기관 채널의 자금이 다시 모여들며 만든 반등이 아니라, 그 채널이 계속 비어가는 와중에 일어난 반등이라는 뜻이다.</p>
+  <p class="en">It's not just a size problem. CME's monthly trading volume fell to $163 billion in March, down nearly 50% from its January 2025 peak, and CME lost its position as the world's largest bitcoin futures venue to Binance for the first time since November 2023. Why the basis trade lost its appeal shows up in the numbers too — annualized basis yields that once ran 15-20% have compressed to around 5%, barely above the roughly 4.5% US risk-free rate. The arbitrage incentive has effectively disappeared. Total bitcoin futures open interest across all exchanges sits around $42.6 billion, less than half the roughly $95 billion cycle peak hit in late 2025. In other words, this rebound isn't being built by capital regrouping in the regulated institutional channel — it's happening while that channel keeps emptying out.</p>
+  <p class="ja">規模だけの問題ではない。CMEの月間取引代金は3月に1,630億ドルとなり、2025年1月の高値からほぼ半減、2023年11月以来初めて世界最大のビットコイン先物取引所の座をバイナンスに明け渡した。ベーシス取引の魅力が失われた理由も数字で確認できる — かつて年15〜20%に達していたベーシス利回りは約5%まで圧縮され、約4.5%の米国無リスク金利とほとんど差がなくなった。裁定取引のインセンティブは事実上消滅したことになる。全取引所合算のビットコイン先物未決済建玉も約426億ドルで、2025年末の高値(約950億ドル)の半分にも満たない。つまり今回の反発は、規制された機関チャネルに資金が再び集まって作られたものではなく、そのチャネルが減り続ける中で起きた反発だということだ。</p>
+  <p class="es">No es solo un problema de tamaño. El volumen de operaciones mensual de CME cayó a $163,000 millones en marzo, casi un 50% menos que su pico de enero de 2025, y CME perdió su posición como la mayor plaza de futuros de bitcoin del mundo frente a Binance por primera vez desde noviembre de 2023. Por qué el basis trade perdió su atractivo también se ve en los números — los rendimientos anualizados del basis, que llegaron a ser del 15-20%, se han comprimido a cerca del 5%, apenas por encima de la tasa libre de riesgo de EE.UU. de aproximadamente 4.5%. El incentivo de arbitraje prácticamente ha desaparecido. El interés abierto total de futuros de bitcoin en todas las bolsas ronda los $42,600 millones, menos de la mitad del pico del ciclo de unos $95,000 millones alcanzado a fines de 2025. En otras palabras, este rebote no lo está construyendo capital que se reagrupa en el canal institucional regulado — está ocurriendo mientras ese canal sigue vaciándose.</p>
+  <p class="de">Es ist nicht nur ein Größenproblem. Das monatliche Handelsvolumen der CME fiel im März auf 163 Milliarden Dollar, fast 50% unter ihrem Hoch vom Januar 2025, und die CME verlor erstmals seit November 2023 ihre Position als weltweit größter Bitcoin-Futures-Handelsplatz an Binance. Warum der Basis-Trade seinen Reiz verlor, zeigt sich auch in den Zahlen — annualisierte Basis-Renditen, die einst bei 15-20% lagen, sind auf rund 5% zusammengeschrumpft, kaum über dem US-risikofreien Zinssatz von etwa 4,5%. Der Arbitrage-Anreiz ist faktisch verschwunden. Das gesamte Bitcoin-Futures-Open-Interest über alle Börsen hinweg liegt bei rund 42,6 Milliarden Dollar, weniger als der Hälfte des Zyklushochs von rund 95 Milliarden Dollar Ende 2025. Mit anderen Worten: Diese Erholung wird nicht von Kapital getragen, das sich im regulierten institutionellen Kanal neu formiert — sie findet statt, während dieser Kanal sich weiter leert.</p>
+
+  <h2 class="ko">옵션시장도 변동성 재상승에 베팅하지 않는다</h2>
+  <h2 class="en">The Options Market Isn't Betting on Rising Volatility Either</h2>
+  <h2 class="ja">オプション市場も変動性の再上昇に賭けていない</h2>
+  <h2 class="es">El Mercado de Opciones Tampoco Apuesta por un Repunte de la Volatilidad</h2>
+  <h2 class="de">Auch der Optionsmarkt Wettet Nicht auf Steigende Volatilität</h2>
+  <p class="ko">내재변동성 지수는 옵션 가격에서 역산한, 향후 30일간 시장이 예상하는 연율화 변동폭이다. 볼멕스의 BVIV는 지난 5월 22일 38%까지 내려가며 2025년 10월 이후 최저치를 기록했고, CME 계열의 CF벤치마크 BVX 지수는 7월 4일 기준 40.13을 기록 중이다. 두 지표 모두 지난 1년 평균보다 뚜렷이 낮은 구간이다. 문제는 같은 기간 실제 가격 흐름이다 — 비트코인은 6월 한 달간 약 20% 급락했고, 7월 1일 저점을 찍은 뒤 나흘 만에 6만 3,000달러대까지 반등했다. 이 정도의 실제 변동폭이면 옵션시장이 향후 변동성 전망치를 끌어올리는 게 자연스럽다. 실제로 NYU V랩의 GARCH 통계모델은 최근 가격 흐름을 근거로 7월 6일 기준 1개월 변동성 전망치를 52.99%로 제시했다 — 옵션시장이 가격을 매기는 BVX(40.13)보다 10%포인트 이상 높은 수치다.</p>
+  <p class="en">An implied volatility index backs out, from options prices, the annualized price swing the market expects over the next 30 days. Volmex's BVIV sank to 38% around May 22 — its lowest since October 2025 — and CF Benchmarks' CME-linked BVX index sits at 40.13 as of July 4. Both are noticeably below their trailing one-year averages. The problem is what actual price did over the same stretch: bitcoin fell roughly 20% over the course of June, then bounced from its July 1 low to the $63,000s within four days. Swings of that size would normally push forward-volatility pricing higher. And indeed, NYU V-Lab's GARCH statistical model, working off that same recent price action, put its one-month volatility forecast at 52.99% as of July 6 — more than 10 points above the 40.13 the options market is actually pricing through BVX.</p>
+  <p class="ja">インプライド・ボラティリティ指数は、オプション価格から逆算した、市場が今後30日間に予想する年率換算の値動き幅だ。ボルメックスのBVIVは5月22日ごろに38%まで下落し、2025年10月以来の最低水準を記録した。CME系のCFベンチマークBVX指数は7月4日時点で40.13となっている。どちらも過去1年平均を明らかに下回る水準だ。問題は同時期の実際の値動きだ — ビットコインは6月の1ヶ月間で約20%急落し、7月1日の安値をつけた後、わずか4日で6万3,000ドル台まで反発した。これほどの実際の変動幅があれば、オプション市場が今後のボラティリティ予想を引き上げるのが自然だ。実際、NYU Vラボの統計モデルGARCHは、この同じ価格の動きを根拠に、7月6日時点の1ヶ月変動性予想を52.99%と提示した — オプション市場が織り込むBVX(40.13)より10ポイント以上高い数値だ。</p>
+  <p class="es">Un índice de volatilidad implícita deriva, a partir de los precios de las opciones, el movimiento de precio anualizado que el mercado espera para los próximos 30 días. El BVIV de Volmex cayó a 38% alrededor del 22 de mayo — su nivel más bajo desde octubre de 2025 — y el índice BVX de CF Benchmarks, vinculado a CME, se sitúa en 40.13 a 4 de julio. Ambos están notablemente por debajo de sus promedios de los últimos doce meses. El problema es lo que hizo realmente el precio durante ese mismo período: bitcoin cayó cerca de un 20% a lo largo de junio, y luego rebotó desde su mínimo del 1 de julio hasta los $63,000 en cuatro días. Movimientos de ese tamaño normalmente empujarían al alza el precio de la volatilidad futura. Y de hecho, el modelo estadístico GARCH del V-Lab de NYU, basado en esa misma acción reciente del precio, situó su pronóstico de volatilidad a un mes en 52.99% a 6 de julio — más de 10 puntos por encima del 40.13 que realmente está fijando el mercado de opciones a través del BVX.</p>
+  <p class="de">Ein Index der impliziten Volatilität leitet aus Optionspreisen die annualisierte Kursschwankung ab, die der Markt für die nächsten 30 Tage erwartet. Volmex' BVIV fiel um den 22. Mai auf 38% — den niedrigsten Stand seit Oktober 2025 — und CF Benchmarks' CME-gebundener BVX-Index liegt zum 4. Juli bei 40,13. Beide liegen deutlich unter ihrem Durchschnitt der letzten zwölf Monate. Das Problem ist, was der tatsächliche Kurs im selben Zeitraum tat: Bitcoin fiel im Laufe des Juni um rund 20% und erholte sich dann von seinem Tief vom 1. Juli innerhalb von vier Tagen auf die 63.000-Dollar-Marke. Schwankungen dieser Größenordnung würden normalerweise die Bepreisung künftiger Volatilität nach oben treiben. Und tatsächlich setzte das GARCH-Statistikmodell des NYU V-Lab, gestützt auf dieselbe jüngste Kursentwicklung, seine Ein-Monats-Volatilitätsprognose zum 6. Juli bei 52,99% an — mehr als 10 Punkte über den 40,13, die der Optionsmarkt über den BVX tatsächlich einpreist.</p>
+
+  <p class="ko">CME 옵션시장의 포지셔닝도 같은 방향을 가리킨다. 비트코인닷컴 뉴스가 6월 28일 보도한 바에 따르면 CME에서는 2025년 말 이후 줄곧 콜보다 풋의 명목 가치가 우세했고, CME 옵션 총 미결제약정은 최근 1년 새 가장 낮은 수준까지 줄었다. 드리비트·바이낸스·OKX의 6만 달러 근방 맥스페인 쏠림도 <a href="/blog/options-expiry-max-pain-analysis.php">이미 짚었듯</a> 방향성 확신이 크지 않다는 정황과 겹친다. 요컨대 실제 가격은 통계모델이 변동성 확대를 시사할 만큼 크게 움직였는데, 정작 그 변동성에 값을 매기는 옵션시장 참가자들 — 그리고 그중에서도 기관 비중이 큰 CME 참가자들 — 은 여전히 조용한 전망 쪽에 걸고 있다.</p>
+  <p class="en">Positioning in the CME options market points the same way. Per Bitcoin.com News reporting from June 28, puts have outweighed calls in notional value at CME consistently since late 2025, and total CME options open interest has fallen to its lowest level in the past year. The max-pain cluster near $60,000 across Deribit, Binance, and OKX — <a href="/blog/options-expiry-max-pain-analysis.php">covered previously</a> — fits the same pattern of limited conviction in either direction. In short: actual price moved enough that a statistical model reads it as a case for rising volatility, yet the market participants who actually price that volatility — CME's institutionally weighted crowd especially — are still leaning toward a quiet forecast.</p>
+  <p class="ja">CMEオプション市場のポジショニングも同じ方向を示している。Bitcoin.comニュースが6月28日に報じたところによると、CMEでは2025年末以降一貫してプットの名目価値がコールを上回っており、CMEオプションの総未決済建玉は過去1年で最低水準まで減少した。ドリビット・バイナンス・OKXにおける6万ドル近辺へのマックスペインの偏り(<a href="/blog/options-expiry-max-pain-analysis.php">既に取り上げた通り</a>)も、方向性への確信が大きくないという状況と重なる。要するに、実際の価格は統計モデルが変動性の拡大を示唆するほど大きく動いたのに、その変動性に値をつけるオプション市場参加者 — 中でも機関投資家の比率が高いCME参加者 — は依然として静かな予想の方に賭けている。</p>
+  <p class="es">El posicionamiento en el mercado de opciones de CME apunta en la misma dirección. Según reportes de Bitcoin.com News del 28 de junio, las puts han superado a las calls en valor nocional en CME de forma constante desde fines de 2025, y el interés abierto total de opciones de CME ha caído a su nivel más bajo del último año. La agrupación de max pain cerca de $60,000 en Deribit, Binance y OKX — <a href="/blog/options-expiry-max-pain-analysis.php">cubierta anteriormente</a> — encaja con el mismo patrón de convicción limitada en cualquier dirección. En resumen: el precio real se movió lo suficiente como para que un modelo estadístico lo lea como un caso de volatilidad creciente, pero los participantes del mercado que realmente fijan el precio de esa volatilidad — especialmente el grupo institucionalmente ponderado de CME — todavía se inclinan hacia un pronóstico tranquilo.</p>
+  <p class="de">Die Positionierung am CME-Optionsmarkt zeigt in dieselbe Richtung. Laut einem Bericht von Bitcoin.com News vom 28. Juni übertreffen Puts an der CME seit Ende 2025 durchgehend Calls im Nominalwert, und das gesamte CME-Optionen-Open-Interest ist auf den niedrigsten Stand des vergangenen Jahres gefallen. Die Max-Pain-Häufung nahe 60.000 Dollar bei Deribit, Binance und OKX — <a href="/blog/options-expiry-max-pain-analysis.php">bereits behandelt</a> — passt zum selben Muster begrenzter Überzeugung in beide Richtungen. Kurz gesagt: Der tatsächliche Kurs bewegte sich stark genug, dass ein Statistikmodell darin einen Fall für steigende Volatilität sieht, doch die Marktteilnehmer, die diese Volatilität tatsächlich bepreisen — besonders die institutionell geprägte CME-Klientel — setzen weiterhin auf eine ruhige Prognose.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">가격은 반등했는데, CME 미결제약정은 계속 줄었다</text>
+    <g font-family="sans-serif">
+      <text x="30" y="52" fill="#a1a1aa" font-size="11">CME 선물 미결제약정 (일평균, 근사치)</text>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#4ade80" opacity="0.35"/>
+      <text x="35" y="72" fill="#e4e4e7" font-size="10">3월 &lt;$80억</text>
+      <rect x="30" y="86" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="86" width="576" height="14" rx="4" fill="#facc15" opacity="0.5"/>
+      <text x="35" y="96" fill="#e4e4e7" font-size="10">4월 초 ~$72억 (14개월래 최저)</text>
+      <rect x="30" y="110" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="110" width="506" height="14" rx="4" fill="#f87171" opacity="0.6"/>
+      <text x="35" y="120" fill="#e4e4e7" font-size="10">6월 말 ~$63.3억 (10.5만 BTC)</text>
+
+      <rect x="30" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#f87171" stroke-width="1.5"/>
+      <text x="130" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">베이시스 연 수익률</text>
+      <text x="130" y="200" fill="#f87171" font-size="20" font-weight="800" text-anchor="middle">15~20% → 5%</text>
+
+      <rect x="250" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="350" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">BVX 내재변동성</text>
+      <text x="350" y="200" fill="#fbbf24" font-size="20" font-weight="800" text-anchor="middle">40.13</text>
+
+      <rect x="470" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="2"/>
+      <text x="570" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">비트코인 가격</text>
+      <text x="570" y="200" fill="#4ade80" font-size="20" font-weight="800" text-anchor="middle">$5.8만 → $6.3만</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">The Block, CME Group, CF Benchmarks(BVX), Volmex(BVIV), NYU V-Lab 데이터 종합. 근사치입니다.</p>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Price rebounded while CME open interest kept shrinking</text>
+    <g font-family="sans-serif">
+      <text x="30" y="52" fill="#a1a1aa" font-size="11">CME futures open interest (daily avg, approx.)</text>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#4ade80" opacity="0.35"/>
+      <text x="35" y="72" fill="#e4e4e7" font-size="10">March &lt;$8.0B</text>
+      <rect x="30" y="86" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="86" width="576" height="14" rx="4" fill="#facc15" opacity="0.5"/>
+      <text x="35" y="96" fill="#e4e4e7" font-size="10">Early April ~$7.2B (14-month low)</text>
+      <rect x="30" y="110" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="110" width="506" height="14" rx="4" fill="#f87171" opacity="0.6"/>
+      <text x="35" y="120" fill="#e4e4e7" font-size="10">Late June ~$6.33B (105K BTC)</text>
+
+      <rect x="30" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#f87171" stroke-width="1.5"/>
+      <text x="130" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Basis annualized yield</text>
+      <text x="130" y="200" fill="#f87171" font-size="20" font-weight="800" text-anchor="middle">15-20% → 5%</text>
+
+      <rect x="250" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="350" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">BVX implied vol</text>
+      <text x="350" y="200" fill="#fbbf24" font-size="20" font-weight="800" text-anchor="middle">40.13</text>
+
+      <rect x="470" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="2"/>
+      <text x="570" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Bitcoin price</text>
+      <text x="570" y="200" fill="#4ade80" font-size="20" font-weight="800" text-anchor="middle">$57.9K → $63K</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Compiled from The Block, CME Group, CF Benchmarks (BVX), Volmex (BVIV), and NYU V-Lab data. Figures are approximate.</p>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">価格は反発したが、CME未決済建玉は減り続けた</text>
+    <g font-family="sans-serif">
+      <text x="30" y="52" fill="#a1a1aa" font-size="11">CME先物未決済建玉(日平均、概算)</text>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#4ade80" opacity="0.35"/>
+      <text x="35" y="72" fill="#e4e4e7" font-size="10">3月 &lt;80億ドル</text>
+      <rect x="30" y="86" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="86" width="576" height="14" rx="4" fill="#facc15" opacity="0.5"/>
+      <text x="35" y="96" fill="#e4e4e7" font-size="10">4月初め 約72億ドル(14ヶ月ぶり最低)</text>
+      <rect x="30" y="110" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="110" width="506" height="14" rx="4" fill="#f87171" opacity="0.6"/>
+      <text x="35" y="120" fill="#e4e4e7" font-size="10">6月末 約63.3億ドル(10.5万BTC)</text>
+
+      <rect x="30" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#f87171" stroke-width="1.5"/>
+      <text x="130" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">ベーシス年率利回り</text>
+      <text x="130" y="200" fill="#f87171" font-size="20" font-weight="800" text-anchor="middle">15~20% → 5%</text>
+
+      <rect x="250" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="350" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">BVXインプライドボラ</text>
+      <text x="350" y="200" fill="#fbbf24" font-size="20" font-weight="800" text-anchor="middle">40.13</text>
+
+      <rect x="470" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="2"/>
+      <text x="570" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">ビットコイン価格</text>
+      <text x="570" y="200" fill="#4ade80" font-size="20" font-weight="800" text-anchor="middle">5.79万→6.3万ドル</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">The Block、CME Group、CF Benchmarks(BVX)、Volmex(BVIV)、NYU V-Labのデータを総合。概算値です。</p>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">El precio rebotó mientras el interés abierto de CME seguía cayendo</text>
+    <g font-family="sans-serif">
+      <text x="30" y="52" fill="#a1a1aa" font-size="11">Interés abierto de futuros CME (prom. diario, aprox.)</text>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#4ade80" opacity="0.35"/>
+      <text x="35" y="72" fill="#e4e4e7" font-size="10">Marzo &lt;$8,000M</text>
+      <rect x="30" y="86" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="86" width="576" height="14" rx="4" fill="#facc15" opacity="0.5"/>
+      <text x="35" y="96" fill="#e4e4e7" font-size="10">Principios de abril ~$7,200M (mínimo de 14 meses)</text>
+      <rect x="30" y="110" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="110" width="506" height="14" rx="4" fill="#f87171" opacity="0.6"/>
+      <text x="35" y="120" fill="#e4e4e7" font-size="10">Fines de junio ~$6,330M (105K BTC)</text>
+
+      <rect x="30" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#f87171" stroke-width="1.5"/>
+      <text x="130" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Rendimiento anual del basis</text>
+      <text x="130" y="200" fill="#f87171" font-size="20" font-weight="800" text-anchor="middle">15-20% → 5%</text>
+
+      <rect x="250" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="350" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Vol. implícita BVX</text>
+      <text x="350" y="200" fill="#fbbf24" font-size="20" font-weight="800" text-anchor="middle">40.13</text>
+
+      <rect x="470" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="2"/>
+      <text x="570" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Precio de bitcoin</text>
+      <text x="570" y="200" fill="#4ade80" font-size="20" font-weight="800" text-anchor="middle">$57.9K → $63K</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Recopilado de datos de The Block, CME Group, CF Benchmarks (BVX), Volmex (BVIV) y NYU V-Lab. Cifras aproximadas.</p>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Der Kurs erholte sich, während das CME-Open-Interest weiter sank</text>
+    <g font-family="sans-serif">
+      <text x="30" y="52" fill="#a1a1aa" font-size="11">CME-Futures-Open-Interest (Tagesdurchschnitt, ca.)</text>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="62" width="640" height="14" rx="4" fill="#4ade80" opacity="0.35"/>
+      <text x="35" y="72" fill="#e4e4e7" font-size="10">März &lt;8,0 Mrd. $</text>
+      <rect x="30" y="86" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="86" width="576" height="14" rx="4" fill="#facc15" opacity="0.5"/>
+      <text x="35" y="96" fill="#e4e4e7" font-size="10">Anfang April ~7,2 Mrd. $ (14-Monats-Tief)</text>
+      <rect x="30" y="110" width="640" height="14" rx="4" fill="#2a2a2e"/>
+      <rect x="30" y="110" width="506" height="14" rx="4" fill="#f87171" opacity="0.6"/>
+      <text x="35" y="120" fill="#e4e4e7" font-size="10">Ende Juni ~6,33 Mrd. $ (105K BTC)</text>
+
+      <rect x="30" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#f87171" stroke-width="1.5"/>
+      <text x="130" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Basis-Jahresrendite</text>
+      <text x="130" y="200" fill="#f87171" font-size="20" font-weight="800" text-anchor="middle">15-20% → 5%</text>
+
+      <rect x="250" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="350" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">BVX implizite Vol.</text>
+      <text x="350" y="200" fill="#fbbf24" font-size="20" font-weight="800" text-anchor="middle">40,13</text>
+
+      <rect x="470" y="150" width="200" height="70" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="2"/>
+      <text x="570" y="172" fill="#e4e4e7" font-size="11" font-weight="700" text-anchor="middle">Bitcoin-Kurs</text>
+      <text x="570" y="200" fill="#4ade80" font-size="20" font-weight="800" text-anchor="middle">57,9K $ → 63K $</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Zusammengestellt aus Daten von The Block, CME Group, CF Benchmarks (BVX), Volmex (BVIV) und NYU V-Lab. Näherungswerte.</p>
+  </div>
+
+  <h2 class="ko">두 지표가 겹쳐 말하는 것 — 확신 없는 반등</h2>
+  <h2 class="en">What the Two Together Say: A Rebound Without Conviction</h2>
+  <h2 class="ja">2つの指標が重なって語ること — 確信のない反発</h2>
+  <h2 class="es">Lo Que Dicen Juntos los Dos Indicadores: un Rebote Sin Convicción</h2>
+  <h2 class="de">Was Beide Zusammen Sagen: Eine Erholung Ohne Überzeugung</h2>
+  <p class="ko">CME 미결제약정과 옵션 내재변동성은 서로 완전히 다른 방식으로 만들어지는 지표다. 하나는 기관이 실제로 얼마나 많은 규제된 자본을 걸고 있는지를 보여주고, 다른 하나는 그 참가자들이 앞으로의 위험을 얼마나 크게 보는지를 보여준다. 그런데 둘 다 같은 방향을 가리킨다 — 자본은 빠져나가고 있고(CME 미결제약정 감소), 남은 참가자들도 큰 변동을 예상하지 않는다(BVX가 통계모델 전망치보다 낮음). 이는 앞서 여러 글이 짚었던 '리테일·로테이션 중심의 반등' 진단과 결이 같다. <a href="/blog/oi-rebuild-balanced-positioning.php">이미 다룬 것처럼</a> 비트코인 무기한선물(퍼페추얼) 쪽 미결제약정은 청산 이후 다시 쌓이고 롱숏 비율도 균형을 찾아가고 있는데, 그 쌓이는 자리가 규제되지 않은 리테일 중심 파생상품 시장이지 CME가 아니라는 점이 이번에 확인된 셈이다.</p>
+  <p class="en">CME open interest and options-implied volatility are built through entirely different mechanisms. One shows how much regulated capital institutions actually have at stake; the other shows how much risk those same participants expect going forward. Yet both point the same way — capital is leaving (CME open interest shrinking) and the participants who remain aren't bracing for a big move either (BVX sitting below the statistical model's forecast). That fits the same "retail/rotation-driven rebound" read that other pieces have already made. <a href="/blog/oi-rebuild-balanced-positioning.php">As covered previously</a>, open interest on perpetual futures has been rebuilding since the post-liquidation low, with the long/short ratio drifting back toward balance — but what this adds is that the rebuilding is happening in the unregulated, retail-heavy perpetuals market, not on CME.</p>
+  <p class="ja">CME未決済建玉とオプションのインプライド・ボラティリティは、まったく異なる仕組みで作られる指標だ。一方は機関投資家が実際にどれだけの規制資本を賭けているかを示し、もう一方はその参加者たちが今後のリスクをどれだけ大きく見ているかを示す。しかし両方とも同じ方向を指している — 資本は流出しており(CME未決済建玉の減少)、残った参加者たちも大きな値動きを予想していない(BVXが統計モデルの予想値を下回る)。これは、これまでの複数の記事が指摘してきた「リテール・ローテーション主導の反発」という診断と同じ流れだ。<a href="/blog/oi-rebuild-balanced-positioning.php">既に取り上げたように</a>、無期限先物(パーペチュアル)側の未決済建玉は清算後の底値から再び積み上がり、ロング・ショート比率も均衡に近づいているが、今回わかったのは、その積み上がりの場が規制されていないリテール中心のデリバティブ市場であって、CMEではないということだ。</p>
+  <p class="es">El interés abierto de CME y la volatilidad implícita de opciones se construyen mediante mecanismos completamente distintos. Uno muestra cuánto capital regulado tienen realmente en juego las instituciones; el otro muestra cuánto riesgo esperan esos mismos participantes de cara al futuro. Sin embargo, ambos apuntan en la misma dirección — el capital se está retirando (el interés abierto de CME se reduce) y los participantes que quedan tampoco se preparan para un gran movimiento (el BVX está por debajo del pronóstico del modelo estadístico). Eso encaja con la misma lectura de "rebote impulsado por retail/rotación" que ya han hecho otros artículos. <a href="/blog/oi-rebuild-balanced-positioning.php">Como se cubrió antes</a>, el interés abierto en futuros perpetuos se ha ido reconstruyendo desde el mínimo posterior a las liquidaciones, con la razón long/short volviendo hacia el equilibrio — pero lo que esto añade es que esa reconstrucción está ocurriendo en el mercado de perpetuos, no regulado y dominado por el retail, no en CME.</p>
+  <p class="de">CME-Open-Interest und die implizite Optionsvolatilität entstehen über völlig unterschiedliche Mechanismen. Das eine zeigt, wie viel reguliertes Kapital Institutionelle tatsächlich einsetzen; das andere zeigt, wie viel Risiko dieselben Marktteilnehmer künftig erwarten. Dennoch zeigen beide in dieselbe Richtung — Kapital zieht ab (CME-Open-Interest schrumpft), und die verbliebenen Teilnehmer rüsten sich auch nicht für eine große Bewegung (BVX liegt unter der Prognose des Statistikmodells). Das passt zu der bereits an anderer Stelle vorgenommenen Einschätzung einer "von Retail/Rotation getragenen Erholung". <a href="/blog/oi-rebuild-balanced-positioning.php">Wie bereits behandelt</a>, baut sich das Open Interest bei unbefristeten Futures (Perpetuals) seit dem Tief nach den Liquidationen wieder auf, wobei sich das Long/Short-Verhältnis wieder dem Gleichgewicht annähert — neu ist hier jedoch, dass sich dieser Aufbau im unregulierten, von Privatanlegern dominierten Perpetuals-Markt abspielt, nicht auf der CME.</p>
+
+  <p class="ko">물론 한계도 있다. CME 미결제약정 감소는 베이시스 트레이드 청산이라는 구조적 요인이 커서, 반드시 '비트코인 자체에 대한 비관'을 뜻하지는 않는다 — 무위험금리 대비 수익성이 사라진 차익거래를 접는 것은 합리적 선택이기도 하다. BVX와 GARCH 모델의 괴리도 통계모델의 예측일 뿐, 실제로 변동성이 커질지 여부를 확정하는 지표는 아니다. 그럼에도 서로 다른 메커니즘으로 '기관 참여도'와 '위험 전망'을 각각 추정하는 두 지표가, 이미 확인된 리테일 중심 반등 진단과 같은 방향으로 겹친다는 점은 가볍게 넘기기 어렵다.</p>
+  <p class="en">There are limits here too, of course. The decline in CME open interest is heavily driven by the structural unwind of the basis trade, so it doesn't necessarily mean pessimism about bitcoin itself — walking away from an arbitrage that no longer beats the risk-free rate is a rational choice on its own. And the gap between BVX and the GARCH model is just that: a model's forecast, not confirmation that volatility will actually rise. Still, two indicators that estimate "institutional participation" and "forward risk expectations" through entirely different mechanisms lining up with the already-documented retail-driven rebound read is more than can easily be waved away.</p>
+  <p class="ja">もちろん限界もある。CME未決済建玉の減少は、ベーシス取引の巻き戻しという構造的要因が大きく、必ずしも「ビットコイン自体への悲観」を意味するわけではない — 無リスク金利を上回らなくなった裁定取引から手を引くのは、それ自体合理的な選択でもある。BVXとGARCHモデルの乖離も、あくまで統計モデルの予測であり、実際に変動性が大きくなるかどうかを確定させる指標ではない。それでも、まったく異なる仕組みで「機関投資家の参加度」と「今後のリスク予想」をそれぞれ推定する2つの指標が、既に確認されているリテール主導の反発という診断と同じ方向で重なっている点は、軽視しにくい。</p>
+  <p class="es">Por supuesto, también hay límites aquí. La caída del interés abierto de CME está muy impulsada por el desmontaje estructural del basis trade, así que no significa necesariamente pesimismo sobre bitcoin en sí — alejarse de un arbitraje que ya no supera la tasa libre de riesgo es en sí mismo una decisión racional. Y la brecha entre el BVX y el modelo GARCH es solo eso: el pronóstico de un modelo, no la confirmación de que la volatilidad realmente subirá. Aun así, que dos indicadores que estiman "participación institucional" y "expectativas de riesgo futuro" mediante mecanismos completamente distintos coincidan con la lectura ya documentada de un rebote impulsado por el retail es más que una coincidencia fácil de descartar.</p>
+  <p class="de">Auch hier gibt es natürlich Grenzen. Der Rückgang des CME-Open-Interest wird stark durch die strukturelle Auflösung des Basis-Trades getrieben und bedeutet daher nicht zwangsläufig Pessimismus gegenüber Bitcoin selbst — sich von einer Arbitrage zu verabschieden, die den risikofreien Zins nicht mehr schlägt, ist für sich genommen eine rationale Entscheidung. Und die Lücke zwischen BVX und dem GARCH-Modell ist eben nur das: die Prognose eines Modells, keine Bestätigung, dass die Volatilität tatsächlich steigen wird. Dennoch ist es mehr als Zufall, dass zwei Indikatoren, die "institutionelle Beteiligung" und "künftige Risikoerwartungen" über völlig unterschiedliche Mechanismen schätzen, mit der bereits dokumentierten, von Retail getriebenen Erholungslesart übereinstimmen.</p>
+
+  <h2 class="ko">지금 국면에서 지켜볼 세 가지</h2>
+  <h2 class="en">Three Things Worth Watching From Here</h2>
+  <h2 class="ja">今の局面で見ておくべき3つのこと</h2>
+  <h2 class="es">Tres Cosas que Vale la Pena Vigilar Desde Aquí</h2>
+  <h2 class="de">Drei Dinge, die von Hier an zu Beobachten Sind</h2>
+  <p class="ko">이 진단이 맞는지는 예측이 아니라 앞으로 나올 데이터로 확인할 문제다. 첫째, CME 미결제약정이 감소를 멈추고 다시 늘어나는지 — 베이시스 수익률이 무위험금리를 다시 눈에 띄게 웃돌아야 차익거래 유인이 되살아나고, 그래야 기관 자금이 규제 채널로 돌아올 근거가 생긴다. 둘째, BVX 같은 내재변동성 지수가 GARCH 전망치 방향으로 올라붙는지, 아니면 반대로 실제 가격이 잠잠해지며 두 수치가 수렴하는지 — 어느 쪽이든 지금의 괴리가 좁혀지는 방향을 보면 시장이 스스로 어떤 국면인지 재평가하고 있다는 뜻이다. 셋째, CME 옵션의 풋·콜 비율이 반전되는지 — 이는 <a href="/blog/rebound-not-yet-confirmed-2026.php">이미 짚은 여러 반등 미확인 신호</a>들 중에서도 기관 참가자의 방향성 판단을 가장 직접적으로 보여주는 지표다.</p>
+  <p class="en">Whether this read holds up isn't something to predict — it's something the coming weeks of data will confirm or not. First, whether CME open interest stops shrinking and starts growing again — the basis yield would need to meaningfully outpace the risk-free rate again for the arbitrage incentive to return, which is the precondition for institutional capital coming back to the regulated channel. Second, whether implied volatility gauges like BVX climb toward the GARCH forecast, or instead actual price calms down enough that the two converge from the other side — either way, watching that gap close would suggest the market is actively reassessing what phase it's in. Third, whether the put/call ratio on CME options flips — among the <a href="/blog/rebound-not-yet-confirmed-2026.php">several unconfirmed-rebound signals already flagged</a>, this is the one that most directly reflects institutional participants' own directional read.</p>
+  <p class="ja">この診断が正しいかどうかは予測ではなく、今後のデータで確認すべき問題だ。第一に、CME未決済建玉が減少を止めて再び増加に転じるかどうか — ベーシス利回りが無リスク金利を再び明確に上回らなければ裁定取引のインセンティブは復活せず、それがなければ機関資金が規制チャネルに戻る根拠は生まれない。第二に、BVXのようなインプライド・ボラティリティ指数がGARCH予想の方向に上昇するか、あるいは逆に実際の価格が落ち着いて両者が反対側から収束するか — どちらにせよ、今のギャップが縮まる方向を見れば、市場が自ら今どの局面にいるかを再評価しているということになる。第三に、CMEオプションのプット・コール比率が反転するかどうかだ — <a href="/blog/rebound-not-yet-confirmed-2026.php">既に指摘された複数の反発未確認シグナル</a>の中でも、これは機関参加者自身の方向性判断を最も直接的に示す指標だ。</p>
+  <p class="es">Que este diagnóstico se sostenga no es algo para predecir — es algo que los datos de las próximas semanas confirmarán o no. Primero, si el interés abierto de CME deja de reducirse y vuelve a crecer — el rendimiento del basis necesitaría superar de forma notable la tasa libre de riesgo de nuevo para que el incentivo de arbitraje regrese, lo cual es la condición previa para que el capital institucional vuelva al canal regulado. Segundo, si indicadores de volatilidad implícita como el BVX suben hacia el pronóstico de GARCH, o si en cambio el precio real se calma lo suficiente como para que ambos converjan desde el otro lado — en cualquier caso, ver que esa brecha se cierra sugeriría que el mercado está reevaluando activamente en qué fase se encuentra. Tercero, si la razón put/call en las opciones de CME se revierte — entre las <a href="/blog/rebound-not-yet-confirmed-2026.php">varias señales de rebote no confirmado ya señaladas</a>, esta es la que refleja de forma más directa la propia lectura direccional de los participantes institucionales.</p>
+  <p class="de">Ob diese Einschätzung standhält, ist keine Prognose — das werden die Daten der kommenden Wochen zeigen. Erstens, ob das CME-Open-Interest aufhört zu schrumpfen und wieder wächst — die Basis-Rendite müsste den risikofreien Zins wieder deutlich übertreffen, damit der Arbitrage-Anreiz zurückkehrt, was die Voraussetzung dafür ist, dass institutionelles Kapital in den regulierten Kanal zurückfließt. Zweitens, ob Indikatoren der impliziten Volatilität wie BVX in Richtung der GARCH-Prognose steigen, oder ob sich stattdessen der tatsächliche Kurs so weit beruhigt, dass sich beide von der anderen Seite annähern — so oder so würde eine Schließung dieser Lücke darauf hindeuten, dass der Markt aktiv neu bewertet, in welcher Phase er sich befindet. Drittens, ob sich das Put/Call-Verhältnis bei CME-Optionen umkehrt — unter den <a href="/blog/rebound-not-yet-confirmed-2026.php">bereits markierten unbestätigten Erholungssignalen</a> ist dies dasjenige, das die eigene Richtungseinschätzung institutioneller Marktteilnehmer am direktesten widerspiegelt.</p>
+
+  <p class="ko">이 세 가지가 함께 방향을 트는 순간이 있다면, 그때가 이번 반등이 '얇은 시장에서의 기술적 되돌림'을 넘어 기관도 인정하는 국면으로 넘어가는 지점이다. 지금은 그 이전 단계다 — 가격은 이미 움직였고, 그 가격을 움직인 자금이 어디서 왔으며 앞으로 얼마나 흔들릴지를 보여주는 지표들은 아직 그 이야기를 확인해주지 않고 있다.</p>
+  <p class="en">If there's a moment where all three turn together, that's the point where this rebound would move beyond a "technical bounce in a thin market" into a phase institutions themselves are willing to confirm. Right now, we're still one step before that — price has already moved, and the indicators that would show where that money came from, and how much more it expects things to shake, haven't yet backed up the story.</p>
+  <p class="ja">この3つが同時に方向を変える瞬間があるとすれば、その時こそ今回の反発が「薄い市場での技術的な戻り」を超えて、機関投資家自身も認める局面へと移る地点だ。今はまだその一歩手前の段階にある — 価格はすでに動いたが、その価格を動かした資金がどこから来て、今後どれだけ揺れると見ているかを示す指標は、まだその物語を裏づけていない。</p>
+  <p class="es">Si hay un momento en que los tres giren juntos, ese sería el punto en que este rebote pasaría de ser un "rebote técnico en un mercado poco líquido" a una fase que las propias instituciones estarían dispuestas a confirmar. Ahora mismo seguimos un paso antes de eso — el precio ya se movió, y los indicadores que mostrarían de dónde vino ese dinero, y cuánta más agitación esperan, todavía no han respaldado esa historia.</p>
+  <p class="de">Sollte es einen Moment geben, in dem sich alle drei gemeinsam wenden, wäre das der Punkt, an dem diese Erholung über einen "technischen Ausschlag in einem dünnen Markt" hinausginge und in eine Phase überginge, die auch die Institutionellen selbst bestätigen würden. Im Moment stehen wir noch einen Schritt davor — der Kurs hat sich bereits bewegt, doch die Indikatoren, die zeigen würden, woher dieses Geld kam und mit wie viel weiterer Bewegung gerechnet wird, haben diese Geschichte noch nicht untermauert.</p>
+
+  <div class="box ko">💡 <strong>정리:</strong> 비트코인이 6만 3,000달러로 반등하는 동안 CME 선물 미결제약정은 6월 말 약 63억 3,000만 달러까지 계속 줄었고, 베이시스 연 수익률도 5%까지 압축됐다. 옵션 내재변동성(BVX 40.13)도 최근 가격 급변에 견줘 낮은 채로 남아 있다. 기관 참여도와 위험 전망을 각각 보여주는 두 지표 모두, 이번 반등에 아직 확신을 보내지 않고 있다.</div>
+  <div class="box en">💡 <strong>Bottom line:</strong> While bitcoin rebounded to $63,000, CME futures open interest kept shrinking to roughly $6.33 billion by late June, and the basis trade's annualized yield compressed to around 5%. Options-implied volatility (BVX at 40.13) also remains low relative to the size of recent price swings. Two indicators that separately track institutional participation and forward risk expectations are both still withholding confirmation of this rebound.</div>
+  <div class="box ja">💡 <strong>まとめ:</strong> ビットコインが6万3,000ドルまで反発する間、CME先物未決済建玉は6月末に約63.3億ドルまで減り続け、ベーシス年率利回りも約5%まで圧縮された。オプションのインプライド・ボラティリティ(BVX 40.13)も、最近の急激な値動きに比べて低い水準にとどまっている。機関投資家の参加度とリスク予想をそれぞれ示す2つの指標は、いずれもこの反発への確信をまだ示していない。</div>
+  <div class="box es">💡 <strong>En resumen:</strong> Mientras bitcoin rebotaba a $63,000, el interés abierto de futuros de CME siguió cayendo hasta unos $6,330 millones a fines de junio, y el rendimiento anualizado del basis trade se comprimió a cerca del 5%. La volatilidad implícita de opciones (BVX en 40.13) también se mantiene baja frente a la magnitud de los recientes movimientos de precio. Dos indicadores que rastrean por separado la participación institucional y las expectativas de riesgo futuro todavía no confirman este rebote.</div>
+  <div class="box de">💡 <strong>Fazit:</strong> Während Bitcoin auf 63.000 $ zulegte, schrumpfte das Open Interest der CME-Futures bis Ende Juni weiter auf rund 6,33 Milliarden Dollar, und die annualisierte Rendite des Basis-Trades komprimierte sich auf etwa 5%. Auch die implizite Optionsvolatilität (BVX bei 40,13) bleibt gemessen an den jüngsten Kursschwankungen niedrig. Zwei Indikatoren, die institutionelle Beteiligung und künftige Risikoerwartungen getrennt erfassen, bestätigen diese Erholung beide noch nicht.</div>
+
+  <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: The Block("CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand"), CME Group 비트코인 선물 거래량·미결제약정 데이터, CF Benchmarks BVX 지수(2026.7.4 기준) 및 Volmex BVIV 지수(2026.5.22 기준), NYU V-Lab GARCH 변동성 모델(2026.7.6 전망치), Bitcoin.com News("CME Puts Dominate Bitcoin Options as Traders Bet Against $60K Floor," 2026.6.28).</p>
+  <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: The Block ("CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand"), CME Group bitcoin futures volume and open interest data, CF Benchmarks' BVX index (as of July 4, 2026) and Volmex's BVIV index (as of May 22, 2026), NYU V-Lab's GARCH volatility model (July 6, 2026 forecast), Bitcoin.com News ("CME Puts Dominate Bitcoin Options as Traders Bet Against $60K Floor," June 28, 2026).</p>
+  <p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: The Block(「CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand」)、CME Groupのビットコイン先物出来高・未決済建玉データ、CF BenchmarksのBVX指数(2026年7月4日時点)およびVolmexのBVIV指数(2026年5月22日時点)、NYU V-LabのGARCHボラティリティモデル(2026年7月6日予想値)、Bitcoin.com News(「CME Puts Dominate Bitcoin Options as Traders Bet Against $60K Floor」2026年6月28日)。</p>
+  <p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: The Block ("CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand"), datos de volumen e interés abierto de futuros de bitcoin de CME Group, el índice BVX de CF Benchmarks (a 4 de julio de 2026) y el índice BVIV de Volmex (a 22 de mayo de 2026), el modelo de volatilidad GARCH del NYU V-Lab (pronóstico del 6 de julio de 2026), Bitcoin.com News ("CME Puts Dominate Bitcoin Options as Traders Bet Against $60K Floor", 28 de junio de 2026).</p>
+  <p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: The Block ("CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand"), Daten zu Handelsvolumen und Open Interest der CME-Group-Bitcoin-Futures, CF Benchmarks' BVX-Index (Stand 4. Juli 2026) und Volmex' BVIV-Index (Stand 22. Mai 2026), das GARCH-Volatilitätsmodell des NYU V-Lab (Prognose vom 6. Juli 2026), Bitcoin.com News ("CME Puts Dominate Bitcoin Options as Traders Bet Against $60K Floor", 28. Juni 2026).</p>
+<?php require __DIR__.'/_footer.php'; ?>
