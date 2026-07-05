@@ -388,9 +388,14 @@ function initChart() {
   }
 
   wrap.innerHTML = '';
+  // 매번 새 내부 컨테이너를 만들어 위젯을 붙임 (같은 id 재사용 시 위젯이 갱신 안 되는 문제 방지)
+  const inner = document.createElement('div');
+  inner.id = 'tvChartInner';
+  inner.style.cssText = 'width:100%;height:100%';
+  wrap.appendChild(inner);
   try {
     tvWidget = new TradingView.widget({
-      container_id: 'tvChart',
+      container_id: 'tvChartInner',
       symbol: sym,
       interval: chartInterval,     // 저장된 봉으로 시작
       autosize: true,

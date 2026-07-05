@@ -2,6 +2,7 @@
 // 이 파일은 index.php의 메인 스크립트보다 먼저 로드되어야 함 (<head>에서 로드)
 window.LANGS = {
   en: {
+    exchBannerT:"Which exchange to start with?", exchBannerD:"Compare Binance & Bybit + fee discount",
     // NAV
     navInsights:'Blog',
     footerPrivacy:'Privacy Policy', footerTerms:'Terms of Service', footerDisclaimer:'Not financial advice',
@@ -105,6 +106,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     ind_sell_sopr:'STH-SOPR — Profit Taking', ind_sell_cbp:'Coinbase Premium — FOMO',
   },
   ja: {
+    exchBannerT:"取引所はどこで始める?", exchBannerD:"Binance・Bybit比較 + 手数料割引",
     // NAV
     navInsights:'ブログ',
     footerPrivacy:'プライバシーポリシー', footerTerms:'利用規約', footerDisclaimer:'投資助言ではありません',
@@ -203,6 +205,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
   },
 
   ko: {
+    exchBannerT:"거래소, 어디서 시작할까?", exchBannerD:"바이낸스·바이비트 비교 + 수수료 할인",
     navInsights:'블로그',
     footerPrivacy:'개인정보처리방침', footerTerms:'이용약관', footerDisclaimer:'투자 조언이 아닙니다',
     whyBtnLabel:'왜?', whyTopTitle:'점수를 끌어올린 지표', whyBottomTitle:'점수를 끌어내린 지표', histToday:'오늘', histYesterday:'어제', histWeekAgo:'지난주',
@@ -301,6 +304,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     ind_sell_halving:'반감기 — 사이클 위치', ind_sell_ath:'ATH 근접도 — 고점 리스크',
   },
   es: {
+    exchBannerT:"¿Con qué exchange empezar?", exchBannerD:"Compara Binance y Bybit + descuento",
     // NAV
     navInsights:'Blog',
     footerPrivacy:'Política de Privacidad', footerTerms:'Términos de Servicio', footerDisclaimer:'No es asesoramiento financiero',
@@ -404,6 +408,7 @@ Actual: STH realizando ganancias significativas en relación a LTH → la distri
     ind_sell_sopr:'STH-SOPR — Toma de Ganancias', ind_sell_cbp:'Coinbase Premium — FOMO',
   },
   de: {
+    exchBannerT:"Mit welcher Börse anfangen?", exchBannerD:"Binance & Bybit vergleichen + Rabatt",
     // NAV
     navInsights:'Blog',
     footerPrivacy:'Datenschutzerklärung', footerTerms:'Nutzungsbedingungen', footerDisclaimer:'Keine Finanzberatung',
