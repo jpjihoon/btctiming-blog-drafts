@@ -668,7 +668,6 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </button>
       </div>
       <div id="whyPanel" style="display:none;margin-top:8px;padding:10px 12px;background:var(--bg3);border-radius:8px;font-size:11.5px;line-height:1.6"></div>
-      <div id="estNote" style="display:none;margin-top:8px;padding:7px 10px;background:rgba(251,146,60,.08);border:1px solid rgba(251,146,60,.25);border-radius:8px;font-size:10.5px;line-height:1.5;color:var(--orange)"></div>
       <div id="miniHistory" style="display:flex;gap:10px;margin-top:8px;font-size:10.5px;color:var(--t3)"></div>
       <div class="score-sub" id="scoreSub">—</div>
     </div>

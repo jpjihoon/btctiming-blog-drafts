@@ -678,39 +678,6 @@ function renderAll(ind) {
   ['scoreNum','scoreAction','reachPct','mPrice','mFG','mRP','mMA'].forEach(id=>{
     const el=document.getElementById(id); if(el) el.classList.remove('sk-load');
   });
-  // 데이터 신뢰성: 추정(폴백)으로 채워진 지표가 있으면 안내 노트 표시
-  try {
-    const est = ind.estimated || {};
-    const noteEl = document.getElementById('estNote');
-    if(noteEl){
-      const keys = Object.keys(est).filter(k=>est[k]);
-      if(keys.length){
-        const onchainEst = est.mvrv || est.onchain || est.hashribbon || est.cbpremium;
-        let msg;
-        if(currentCoin !== 'BTC' && onchainEst){
-          msg = TT({
-            ko:'⚠ 이 코인의 온체인 지표(MVRV·NUPL·해시리본 등)는 실측이 아니라 BTC 기준 추정값입니다. 참고용으로만 보세요.',
-            en:'⚠ On-chain indicators (MVRV, NUPL, Hash Ribbon, etc.) for this coin are estimated from BTC, not measured directly. For reference only.',
-            ja:'⚠ このコインのオンチェーン指標(MVRV・NUPL・ハッシュリボン等)は実測ではなくBTC基準の推定値です。参考程度にご覧ください。',
-            es:'⚠ Los indicadores on-chain (MVRV, NUPL, Hash Ribbon, etc.) de esta moneda son estimados a partir de BTC, no medidos directamente. Solo como referencia.',
-            de:'⚠ Die On-Chain-Indikatoren (MVRV, NUPL, Hash Ribbon usw.) für diese Coin sind aus BTC geschätzt, nicht direkt gemessen. Nur als Referenz.'
-          });
-        } else {
-          msg = TT({
-            ko:'⚠ 일부 지표를 실시간으로 불러오지 못해 추정값으로 대체했습니다. 점수가 평소보다 부정확할 수 있습니다.',
-            en:'⚠ Some indicators could not be fetched live and were replaced with estimates. The score may be less accurate than usual.',
-            ja:'⚠ 一部の指標をリアルタイムで取得できず推定値で代替しました。スコアが普段より不正確な場合があります。',
-            es:'⚠ Algunos indicadores no se pudieron obtener en vivo y se reemplazaron con estimaciones. La puntuación puede ser menos precisa de lo habitual.',
-            de:'⚠ Einige Indikatoren konnten nicht live geladen werden und wurden durch Schätzungen ersetzt. Der Wert kann ungenauer als üblich sein.'
-          });
-        }
-        noteEl.textContent = msg;
-        noteEl.style.display = 'block';
-      } else {
-        noteEl.style.display = 'none';
-      }
-    }
-  } catch(e){}
   // 타이틀에 BTC 가격 노출 (BTC 탭일 때만, 다른 코인이면 코인명 표시)
   try {
     const priceForTitle = livePrice || ind.price;
@@ -1714,7 +1681,6 @@ async function loadAll() {
       usdt_chg: buyData.usdt_chg,
       usdt_prices: buyData.usdt_prices,
       fx_rates: buyData.fx_rates,
-      estimated: buyData.estimated || {},
     };
 
     renderAll(ind);
