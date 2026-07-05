@@ -3161,16 +3161,31 @@ function refreshLangDependentUI() {
   loadTicker(); // bfcache 복원 시에도 언어에 맞는 통화(KRW/USD/JPY/EUR)로 티커 재조회
 }
 refreshLangDependentUI(); // 최초 로딩
-// 뒤로가기/앞으로가기로 bfcache에서 페이지가 복원될 때(event.persisted === true) 다시 동기화.
-// 이때 localStorage에 저장된 언어가 그 사이 바뀌었을 수도 있으니 currentLang도 다시 읽음.
+// 뒤로가기/앞으로가기 복원(bfcache, event.persisted===true)뿐 아니라, URL에 ?lang= 없이
+// 홈으로 돌아온 경우(서버는 ?lang만 보므로 footer 등을 한국어로 렌더함)에도 언어가 어긋난다.
+// 그래서 표시될 때마다 localStorage의 저장 언어와 현재 언어가 다르면 재동기화한다.
+function syncLangFromStorage() {
+  try {
+    const saved = localStorage.getItem('blogLang');
+    if (SUPPORTED_LANG_CODES.includes(saved) && saved !== currentLang) {
+      currentLang = saved;
+      refreshLangDependentUI();
+    }
+  } catch(err) {}
+}
 window.addEventListener('pageshow', function(e) {
   if (e.persisted) {
+    // bfcache 복원: 스냅샷의 일부 텍스트(footer 등)가 어긋나 있을 수 있으므로
+    // localStorage 언어를 다시 읽고 전체 UI를 무조건 재적용한다.
     try {
       const saved = localStorage.getItem('blogLang');
       if (SUPPORTED_LANG_CODES.includes(saved)) currentLang = saved;
     } catch(err) {}
     refreshLangDependentUI();
-    loadAll(); // 가격/지표 데이터도 뒤로가기로 돌아온 사이 오래됐을 수 있으니 함께 갱신
+    loadAll();
+  } else {
+    // 일반 표시(fresh load 등): 저장 언어와 다르면만 재동기화
+    syncLangFromStorage();
   }
 });
 loadAlertSettings(); // 저장된 알림 토글 설정 복원 (새로고침해도 유지)
