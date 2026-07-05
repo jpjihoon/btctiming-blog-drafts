@@ -80,7 +80,15 @@ if (file_exists($metaFile)) {
         foreach ($availableLangs as $lc) {
             $hreflangs[$lc] = $baseArticleUrl . langSuffix($lc);
         }
-        $date = $a['date'] ?? date('Y-m-d');
+        // lastmod는 반드시 YYYY-MM-DD 형식이어야 함 (Search Console 규칙).
+        // $a['date']는 "2026-07-05" 또는 "2026-07-05 15:00:00"(시간 포함)일 수 있으므로 날짜 부분만 추출.
+        $rawDate = $a['date'] ?? '';
+        if (preg_match('/^(\d{4}-\d{2}-\d{2})/', (string)$rawDate, $mDate)) {
+            $date = $mDate[1];
+        } else {
+            $ts = strtotime((string)$rawDate);
+            $date = $ts ? date('Y-m-d', $ts) : date('Y-m-d');
+        }
         foreach ($availableLangs as $lc) {
             $priority = $lc === 'ko' ? '0.7' : '0.6';
             $entries[] = urlEntry($hreflangs[$lc], $date, 'monthly', $priority, $hreflangs);

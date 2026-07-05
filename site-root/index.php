@@ -1151,29 +1151,21 @@ async function loadTicker() {
   if(l1) l1.textContent = `USD/${cur}`;
   if(l2) l2.textContent = `USDT/${cur}`;
 
-  // 기준 통화 환율 + USDT 시세를 동시에 fetch
-  // USDT/{통화}: CoinGecko simple/price (CORS 허용)
-  // USD/{통화}: exchangerate-api (CORS 허용)
-  const [r1, r2] = await Promise.allSettled([
-    fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)}).then(r=>r.json()),
-    fetchProxy(`https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=${curLower}&include_24hr_change=true`),
-  ]);
+  // USD/{통화} 환율만 fetch (exchangerate-api, CORS 허용). 죽은 CORS 프록시(corsproxy/thingproxy)는 제거.
+  // USDT/{통화}: USDT는 사실상 USD와 1:1 페그이므로 USD/{통화} 환율을 그대로 사용 → 별도 프록시 불필요.
+  //   (원화 KRW의 정밀 USDT 시세·김치프리미엄은 별도로 api.php의 업비트 값을 updateTickerFromAPI에서 채움)
+  const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
+    .then(r=>r.json()).catch(()=>null);
 
   const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-  if(r1.status==='fulfilled') {
-    const rate = cur === 'USD' ? 1 : r1.value?.rates?.[cur];
-    const el = document.getElementById('tkUsdKrw');
-    if(el && rate != null) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 1 : 2});
-  }
-  if(r2.status==='fulfilled' && r2.value?.tether?.[curLower] != null) {
-    const rate = r2.value.tether[curLower];
-    const chg = r2.value.tether[`${curLower}_24h_change`];
-    const el = document.getElementById('tkUsdtKrw');
-    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 0 : 3});
-    const chgEl = document.getElementById('tkUsdtKrwChg');
-    if(chgEl && chg != null) {
-      chgEl.textContent = (chg>=0?'+':'') + chg.toFixed(2) + '%';
-      chgEl.style.color = chg>=0 ? 'var(--green)' : 'var(--red)';
+  const rate = (cur === 'USD') ? 1 : r1?.rates?.[cur];
+  if(rate != null) {
+    const el1 = document.getElementById('tkUsdKrw');
+    if(el1) el1.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY'||cur==='KRW' ? 1 : 2});
+    // 원화는 updateTickerFromAPI(업비트)가 더 정확한 값으로 덮으므로 여기선 KRW 외 통화만 채움
+    if(cur !== 'KRW') {
+      const el2 = document.getElementById('tkUsdtKrw');
+      if(el2) el2.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: cur==='JPY' ? 0 : 3});
     }
   }
 }
@@ -1260,26 +1252,6 @@ function connectWS() {
 // ═══════════════════════════════════════════════════════
 // CORS PROXY
 // ═══════════════════════════════════════════════════════
-const PROXIES = [
-  'https://corsproxy.io/?',
-  'https://api.allorigins.win/raw?url=',
-  'https://thingproxy.freeboard.io/fetch/',
-];
-
-async function fetchProxy(url, isJson=true) {
-  // 직접+프록시 모두 동시에 시도, 가장 빠른 것 사용
-  try {
-    const direct = fetch(url, {signal:AbortSignal.timeout(2500)})
-      .then(r=>r.ok?(isJson?r.json():r.text()):Promise.reject('direct_fail'));
-    const proxies = PROXIES.map(px=>
-      fetch(px+encodeURIComponent(url),{signal:AbortSignal.timeout(5000)})
-        .then(r=>r.ok?(isJson?r.json():r.text()):Promise.reject('proxy_fail'))
-    );
-    return await Promise.any([direct,...proxies]);
-  } catch(e){}
-  return null;
-}
-
 // ═══════════════════════════════════════════════════════
 // UI RENDERING — 카드 생성 (순수 화면 표시용, 계산 로직 아님)
 // ═══════════════════════════════════════════════════════
@@ -1884,9 +1856,9 @@ function renderAll(ind) {
     }).join('');
   }
 
-  // Timestamp
-  document.getElementById('tsLabel').textContent=
-    `${T('updated')} ${new Date().toLocaleString(SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})}`;
+  // Timestamp — 언어별 타임존으로 표시 (ko→KST, ja→JST, en→UTC, es·de→CET/CEST)
+  document.getElementById('tsLabel').textContent =
+    `${T('updated')} ${formatUpdatedStamp(currentLang)}`;
 
   // History
   saveHistory(sc);
@@ -3365,6 +3337,28 @@ function formatBlogCardDate(dateStr, lang) {
     .formatToParts(instant).reduce((o,x)=>(o[x.type]=x.value,o),{});
   const label = c.label || (tzOffsetMin(instant, c.tz) >= 120 ? 'CEST' : 'CET');
   return `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute} ${label}`;
+}
+
+/**
+ * 현재 시각(지금)을 언어별 타임존으로 "M월 D일 오후 H:mm 라벨" 형태 짧게 표시.
+ *   ko→KST, ja→JST, en→UTC, es·de→CET/CEST. tsLabel(업데이트 시각)용.
+ */
+function formatUpdatedStamp(lang) {
+  const now = new Date();
+  const CONF = {
+    ko: { tz:'Asia/Seoul',    label:'KST' },
+    ja: { tz:'Asia/Tokyo',    label:'JST' },
+    en: { tz:'UTC',           label:'UTC' },
+    es: { tz:'Europe/Madrid', label:null },
+    de: { tz:'Europe/Berlin', label:null },
+  };
+  const c = CONF[lang] || CONF.en;
+  const dLoc = (typeof SUPPORTED_LANG_CODES !== 'undefined' && SUPPORTED_LANG_CODES.includes(lang)) ? lang : 'en';
+  const t = new Intl.DateTimeFormat(dLoc, {
+    timeZone: c.tz, month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'
+  }).format(now);
+  const label = c.label || (tzOffsetMin(now, c.tz) >= 120 ? 'CEST' : 'CET');
+  return `${t} ${label}`;
 }
 
 function renderInsightCards(containerId, articles, ko, suffix) {
