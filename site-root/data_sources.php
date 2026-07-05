@@ -28,6 +28,8 @@ function buildDataUrls(string $coin, string $sym): array {
         'fg'         => 'https://api.alternative.me/fng/?limit=1',
         'dom'        => 'https://api.coingecko.com/api/v3/global',
         'usdt_krw'   => 'https://api.upbit.com/v1/ticker?markets=KRW-USDT',
+        // 실제 USDT 시세(법정환율이 아니라 테더 실거래가) — 4개 통화 한 번에. 디페깅/김치프리미엄 확인용.
+        'usdt_fx'    => 'https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=usd,krw,jpy,eur&include_24hr_change=true',
     ];
 
     // USDT 자체는 선물 마켓이 없으므로 제외
@@ -56,6 +58,27 @@ function parsePrice(?string $body): ?float {
     if (!$body) return null;
     $d = json_decode($body, true);
     return isset($d['price']) ? (float)$d['price'] : null;
+}
+
+/**
+ * CoinGecko tether 응답에서 통화별 실제 USDT 시세 + 24h 변화율을 뽑아냄.
+ * 반환: ['usd'=>['p'=>1.0,'c'=>0.01], 'krw'=>[...], 'jpy'=>[...], 'eur'=>[...]] (없으면 빈 배열)
+ */
+function parseUsdtFx(?string $body): array {
+    if (!$body) return [];
+    $d = json_decode($body, true);
+    $t = $d['tether'] ?? null;
+    if (!is_array($t)) return [];
+    $out = [];
+    foreach (['usd','krw','jpy','eur'] as $cur) {
+        if (isset($t[$cur])) {
+            $out[$cur] = [
+                'p' => (float)$t[$cur],
+                'c' => isset($t["{$cur}_24h_change"]) ? round((float)$t["{$cur}_24h_change"], 2) : null,
+            ];
+        }
+    }
+    return $out;
 }
 
 /** raw 응답에서 200주 이동평균 파싱 */

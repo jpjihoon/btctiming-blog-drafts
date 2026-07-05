@@ -121,6 +121,7 @@ if ($ind === null) {
             'dominance' => $dom,
             'usdt_krw' => $usdtKrwCached,
             'usdt_chg' => $usdtChgCached,
+            'usdt_prices' => parseUsdtFx($raw['usdt_fx'] ?? null),
             'funding' => $futuresGap['gap'] ?? 0.005,
             'funding_mark' => $futuresGap['markPrice'] ?? 0,
             'funding_index' => $futuresGap['indexPrice'] ?? 0,
