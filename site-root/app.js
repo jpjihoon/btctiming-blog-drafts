@@ -371,32 +371,69 @@ let chartInterval = (function(){
   try { const v = localStorage.getItem('chartInterval'); if(v) return v; } catch(e){}
   return 'D';
 })();
-function setChartInterval(iv){
-  chartInterval = iv;
-  try { localStorage.setItem('chartInterval', iv); } catch(e){}
-  // 봉 버튼 active 표시
-  document.querySelectorAll('.tv-iv-btn').forEach(b=>b.classList.toggle('active', b.dataset.iv===iv));
-  initChart();
-}
+let tvWidget = null;
+
+// TradingView 고급 위젯(tv.js). 사용자가 위젯 안에서 봉을 바꾸면 localStorage에 저장되어,
+// 코인을 바꾸거나 재방문해도 같은 봉으로 다시 그려짐. (별도 봉 버튼 불필요 — 위젯 내장 버튼 사용)
 function initChart() {
   const coin = COINS.find(c=>c.id===currentCoin);
   const sym = (currentCoin==='USDT') ? 'BINANCE:USDCUSDT' : ('BINANCE:'+coin.sym);
   const wrap = document.getElementById('tvChart');
+  if(!wrap) return;
+
+  // tv.js가 아직 로드 안 됐으면 잠시 후 재시도 (defer 로드)
+  if(typeof TradingView === 'undefined' || !TradingView.widget) {
+    setTimeout(initChart, 300);
+    return;
+  }
+
   wrap.innerHTML = '';
-  const iframe = document.createElement('iframe');
-  iframe.style.cssText = 'width:100%;height:100%;border:none';
-  iframe.src = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_widget'
-    + '&symbol=' + encodeURIComponent(sym)
-    + '&interval=' + encodeURIComponent(chartInterval) + '&theme=dark&style=1&locale=en'
-    + '&toolbar_bg=%230f0f0f&hide_top_toolbar=0'
-    + '&studies=MAExp%40tv-basicstudies'
-    + '&backgroundColor=%230f0f0f';
-  iframe.setAttribute('allowtransparency','true');
-  iframe.setAttribute('allowfullscreen','true');
-  wrap.appendChild(iframe);
-  // 현재 봉 버튼 상태 반영
-  document.querySelectorAll('.tv-iv-btn').forEach(b=>b.classList.toggle('active', b.dataset.iv===chartInterval));
+  try {
+    tvWidget = new TradingView.widget({
+      container_id: 'tvChart',
+      symbol: sym,
+      interval: chartInterval,     // 저장된 봉으로 시작
+      autosize: true,
+      theme: 'dark',
+      style: '1',
+      locale: 'en',
+      toolbar_bg: '#0f0f0f',
+      hide_top_toolbar: false,
+      hide_legend: false,
+      studies: ['MAExp@tv-basicstudies'],
+      backgroundColor: '#0f0f0f',
+      allow_symbol_change: false
+    });
+    // 위젯 준비되면, 사용자가 봉을 바꿀 때마다 저장 (다음 코인 전환·재방문에 유지)
+    if(tvWidget && tvWidget.onChartReady) {
+      tvWidget.onChartReady(function(){
+        try {
+          const chart = tvWidget.chart ? tvWidget.chart() : (tvWidget.activeChart && tvWidget.activeChart());
+          if(chart && chart.onIntervalChanged) {
+            chart.onIntervalChanged().subscribe(null, function(iv){
+              chartInterval = iv;
+              try { localStorage.setItem('chartInterval', iv); } catch(e){}
+            });
+          }
+        } catch(e){}
+      });
+    }
+  } catch(e) {
+    // 위젯 실패 시 기존 iframe 방식으로 폴백
+    const iframe = document.createElement('iframe');
+    iframe.style.cssText = 'width:100%;height:100%;border:none';
+    iframe.src = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_widget&symbol='
+      + encodeURIComponent(sym) + '&interval=' + encodeURIComponent(chartInterval)
+      + '&theme=dark&style=1&locale=en&toolbar_bg=%230f0f0f&hide_top_toolbar=0'
+      + '&studies=MAExp%40tv-basicstudies&backgroundColor=%230f0f0f';
+    iframe.setAttribute('allowtransparency','true');
+    iframe.setAttribute('allowfullscreen','true');
+    wrap.appendChild(iframe);
+  }
 }
+function _initChart_unused_old() {
+}
+
 
 // ═══════════════════════════════════════════════════════
 // WEBSOCKET — Binance Real-time Price
