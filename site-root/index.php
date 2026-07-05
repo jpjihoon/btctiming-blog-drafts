@@ -3795,7 +3795,7 @@ function trackPresence() {
     const data = snap.val();
     const count = data ? Object.keys(data).length : 0;
     const cEl = document.getElementById('chatUserCount');
-    if(cEl) cEl.textContent = `· ${count}명 접속중`;
+    if(cEl) cEl.textContent = '· ' + TT({ko:`${count}명 접속중`, en:`${count} online`, ja:`${count}人 接続中`, es:`${count} en línea`, de:`${count} online`});
   }, (error) => {
     console.error('[chat] presence listener ERROR:', error.message);
   });
