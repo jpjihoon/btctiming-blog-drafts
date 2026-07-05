@@ -195,7 +195,7 @@ ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
 .oc-desc{font-size:11.5px;color:#71717a;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:480px){.other-grid{grid-template-columns:1fr}}
 /* 이전 글 / 다음 글 바로가기 */
-.prevnext{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:40px 0 8px}
+.prevnext{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:48px 0 44px}
 .pn-link{display:flex;flex-direction:column;gap:5px;padding:14px 16px;background:#131316;border:1px solid rgba(255,255,255,.07);border-radius:12px;text-decoration:none;transition:border-color .15s,background .15s,transform .15s;min-width:0}
 .pn-link:hover{border-color:rgba(247,147,26,.4);background:#17171b;transform:translateY(-1px)}
 .pn-next{text-align:right;align-items:flex-end}
