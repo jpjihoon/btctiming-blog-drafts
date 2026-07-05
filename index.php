@@ -328,21 +328,23 @@ document.addEventListener('click', (e) => {
   const dd = document.getElementById('langDropdown');
   if(dd && dd.classList.contains('open') && !dd.contains(e.target)) closeLangMenu();
 });
-try {
-  // 2026-07 수정: 카드별로 title_es/title_de 유무에 따라 자동 폴백(영어)하는 구조를 갖췄으므로,
-  // 이제 es/de도 en/ja와 동일하게 그대로 인식해서 setLang 호출.
-  const urlLang = new URLSearchParams(location.search).get('lang');
-  const saved = urlLang || localStorage.getItem('blogLang') || localStorage.getItem('lang');
-  if(['en','ja','es','de'].includes(saved)) setLang(saved);
-} catch(e){}
-// 뒤로가기/앞으로가기(bfcache) 복원 시에도 저장된 언어를 다시 적용 — 스크립트가 재실행되지 않으므로 필요.
-window.addEventListener('pageshow', function(e){
-  if(!e.persisted) return;
+// 언어 복원 우선순위: localStorage(사용자의 가장 최근 선택) > URL ?lang= > 기본 ko.
+// (예전엔 URL을 우선해서, 목록에서 EN→글에서 JA→뒤로가기 시 목록 URL의 ?lang=en(옛값)이
+//  localStorage의 ja를 덮어써 EN으로 되돌아가는 버그가 있었음)
+function restoreBlogLang() {
   try {
-    const ul = new URLSearchParams(location.search).get('lang');
-    const s = ul || localStorage.getItem('blogLang') || localStorage.getItem('lang');
-    setLang(['en','ja','es','de'].includes(s) ? s : 'ko');
-  } catch(err){}
+    const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
+    const urlLang = new URLSearchParams(location.search).get('lang');
+    const pick = [ 'en','ja','es','de' ].includes(stored) ? stored
+               : ['en','ja','es','de'].includes(urlLang) ? urlLang : 'ko';
+    if(pick !== document.getElementById('html-root').lang) setLang(pick);
+  } catch(e){}
+}
+restoreBlogLang();
+// 뒤로가기/앞으로가기(bfcache) 복원 시엔 <script>가 재실행되지 않으므로 pageshow에서 다시 적용.
+// (bfcache가 아니어도, 표시될 때마다 저장 언어와 어긋나면 맞춰준다.)
+window.addEventListener('pageshow', function(e){
+  restoreBlogLang();
 });
 
 const PAGE_SIZE = 12;

@@ -127,17 +127,17 @@ document.addEventListener('click', (e) => {
   if(dd && dd.classList.contains('open') && !dd.contains(e.target)) closeLangMenu();
 });
 function getBlogLang(){
-  // 2026-07 수정: 'en'/'ja'만 인식해서, 스페인어/독일어 모드에서 글 간 링크(lang 파라미터 없는 것들)를
-  // 타고 넘어가면 조용히 한국어로 떨어지던 버그가 있었음.
-  // 2026-07 추가 수정: es/de 번역 글이 실제로 생기기 시작해서, 여기서 미리 en으로 바꿔버리지 않고
-  // 그대로 반환 — 실제 폴백 여부는 각 글의 _header.php가 title_es/title_de 존재 여부로 판단함.
-  try{
-    const p=new URLSearchParams(location.search).get('lang');
-    if(p==='en'||p==='ja'||p==='es'||p==='de')return p;
-  }catch(e){}
+  // 우선순위: localStorage(사용자가 마지막으로 명시적으로 고른 언어) > URL ?lang= > ko.
+  // (예전엔 URL을 우선해서, 목록/글을 오갈 때 옛 ?lang= 값이 최근 선택을 덮어써
+  //  "언어에 따라 됐다 안 됐다" 하던 문제가 있었음. 실제 번역 폴백은 _header.php가 판단.)
   try{
     const s=localStorage.getItem('blogLang')||localStorage.getItem('lang');
     if(s==='en'||s==='ja'||s==='es'||s==='de')return s;
+    if(s==='ko')return'ko';
+  }catch(e){}
+  try{
+    const p=new URLSearchParams(location.search).get('lang');
+    if(p==='en'||p==='ja'||p==='es'||p==='de')return p;
   }catch(e){}
   return'ko';
 }
