@@ -1,0 +1,26 @@
+name: Deploy site root to Cafe24 (FTP)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site-root/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 레포 체크아웃
+        uses: actions/checkout@v4
+
+      - name: FTP로 사이트 루트 업로드
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./site-root/
+          server-dir: /www/
+          dangerous-clean-slate: false
+          log-level: verbose
+          state-name: .ftp-deploy-sync-state-root.json
