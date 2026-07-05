@@ -2329,12 +2329,35 @@ function renderInsightWidget() {
       <div class="insight-body">
         <div class="insight-cat">${cat}</div>
         <div class="insight-title">${title}</div>
-        <div class="insight-date">${a.date.replaceAll('-','.')}</div>
+        <div class="insight-date">${formatInsightDate(a.date, ko)}</div>
       </div>
     </a>`;
   }).join('');
   const allLink = document.getElementById('insightAllLink');
   if(allLink) allLink.href = '/blog/' + suffix;
+}
+
+/**
+ * feed.php가 주는 date 문자열(예: "2026-07-05 14:30:00")은 항상 KST(한국시간) 기준으로 저장돼 있음.
+ * 언어가 한국어면 KST 그대로, 그 외(현재 홈페이지는 en으로 통일)엔 UTC로 환산해서 라벨과 함께 보여줌
+ * — 이렇게 해야 어느 언어로 보든 "이게 무슨 시간대인지" 헷갈리지 않음.
+ */
+function formatInsightDate(dateStr, isKo) {
+  if(!dateStr) return '';
+  // "YYYY-MM-DD HH:mm:ss" 형태를 KST로 간주해 파싱
+  const m = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
+  if(!m) return dateStr.replaceAll('-', '.'); // 형식이 다르면 예전처럼 안전하게 표시
+  const y = Number(m[1]), mo = Number(m[2]), d = Number(m[3]), h = Number(m[4]), mi = Number(m[5]);
+  const kstMs = Date.UTC(y, mo - 1, d, h - 9, mi); // KST → UTC epoch로 정규화
+  if(isKo) {
+    const kd = new Date(kstMs + 9 * 3600 * 1000); // 다시 KST 값으로
+    const pad = n => String(n).padStart(2, '0');
+    return `${kd.getUTCFullYear()}.${pad(kd.getUTCMonth()+1)}.${pad(kd.getUTCDate())} ${pad(kd.getUTCHours())}:${pad(kd.getUTCMinutes())} KST`;
+  } else {
+    const ud = new Date(kstMs);
+    const pad = n => String(n).padStart(2, '0');
+    return `${ud.getUTCFullYear()}.${pad(ud.getUTCMonth()+1)}.${pad(ud.getUTCDate())} ${pad(ud.getUTCHours())}:${pad(ud.getUTCMinutes())} UTC`;
+  }
 }
 
 function updateBlogLinks(lang) {
