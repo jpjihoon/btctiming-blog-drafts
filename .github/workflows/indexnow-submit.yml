@@ -1,0 +1,109 @@
+name: IndexNow Submit
+
+# main에 새/변경된 블로그 글(.html)이 push되면, 그 URL을 IndexNow로 검색엔진에 통보한다.
+# 지원 엔진: Bing, Naver, Yandex, Seznam 등 (구글은 미지원이나 Bing 경유 간접 효과).
+# 색인 속도를 앞당기는 용도이며, 실패해도 사이트 동작에는 영향 없음.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.html'          # 블로그 글은 .html로 배포됨
+      - 'meta/*.json'        # 메타(새 글 신호)도 트리거
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: '수동 제출할 URL (공백으로 여러 개, 비우면 최근 커밋 변경분 사용)'
+        required: false
+        default: ''
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 레포 체크아웃
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2      # 직전 커밋과 비교하려면 최소 2개 필요
+
+      - name: 변경된 글 URL 수집 후 IndexNow 제출
+        shell: bash
+        env:
+          INDEXNOW_KEY: '29f668ed0308c146364623c85877a458'
+          HOST: 'btctiming.com'
+        run: |
+          set -uo pipefail
+
+          # 1) 제출할 URL 목록 만들기
+          declare -a urls=()
+
+          MANUAL="${{ github.event.inputs.urls }}"
+          if [ -n "${MANUAL}" ]; then
+            # 수동 실행: 입력받은 URL 그대로
+            for u in ${MANUAL}; do urls+=("$u"); done
+          else
+            # 자동: 직전 커밋 대비 추가/변경된 파일에서 블로그 글 URL 추출
+            # (A: added, M: modified, R: renamed)
+            changed=$(git diff --name-only --diff-filter=AMR HEAD~1 HEAD 2>/dev/null || true)
+
+            while IFS= read -r f; do
+              [ -z "$f" ] && continue
+              slug=""
+              case "$f" in
+                # 레포 루트의 {slug}.php → /blog/{slug}.html
+                *.php)
+                  base=$(basename "$f" .php)
+                  case "$base" in
+                    _*|index) ;;                      # _header/_footer/index 등 제외
+                    *) slug="$base" ;;
+                  esac
+                  ;;
+                # meta/{slug}.json → /blog/{slug}.html
+                meta/*.json)
+                  slug=$(basename "$f" .json)
+                  ;;
+                # 이미 .html 이면 그대로 경로화
+                *.html)
+                  base=$(basename "$f" .html)
+                  slug="$base"
+                  ;;
+              esac
+              [ -n "$slug" ] && urls+=("https://${HOST}/blog/${slug}.html")
+            done <<< "$changed"
+          fi
+
+          # 중복 제거
+          if [ ${#urls[@]} -eq 0 ]; then
+            echo "제출할 URL 없음 — 종료"; exit 0
+          fi
+          mapfile -t urls < <(printf '%s\n' "${urls[@]}" | sort -u)
+
+          echo "제출 대상 URL:"; printf '  %s\n' "${urls[@]}"
+
+          # 2) IndexNow JSON 페이로드 구성
+          url_json=$(printf '%s\n' "${urls[@]}" | jq -R . | jq -s .)
+          payload=$(jq -n \
+            --arg host "$HOST" \
+            --arg key "$INDEXNOW_KEY" \
+            --arg keyloc "https://${HOST}/${INDEXNOW_KEY}.txt" \
+            --argjson list "$url_json" \
+            '{host:$host, key:$key, keyLocation:$keyloc, urlList:$list}')
+
+          echo "페이로드:"; echo "$payload"
+
+          # 3) IndexNow 엔드포인트에 POST (대표 엔드포인트 하나면 참여 엔진 전체에 전파됨)
+          code=$(curl -sS -o /tmp/indexnow_resp -w '%{http_code}' \
+            -X POST 'https://api.indexnow.org/indexnow' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data "$payload") || code="000"
+
+          echo "IndexNow 응답 코드: $code"
+          echo "응답 본문:"; cat /tmp/indexnow_resp 2>/dev/null || true
+
+          # 200/202 는 정상. 그 외여도 워크플로우는 실패시키지 않음(색인은 부가기능).
+          if [ "$code" = "200" ] || [ "$code" = "202" ]; then
+            echo "✅ IndexNow 제출 성공"
+          else
+            echo "⚠ IndexNow 제출 실패(코드 $code) — 사이트에는 영향 없음, 다음 배포 때 재시도"
+          fi
+          exit 0
