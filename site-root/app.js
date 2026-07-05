@@ -175,26 +175,6 @@ const COINS = [
   {id:'TRX', name:'TRON',     sym:'TRXUSDT', color:'#FF0013'},
 ];
 
-// 즐겨찾기: localStorage에 코인 id 배열 저장. 즐겨찾기한 코인을 탭 앞쪽에 정렬.
-let favCoins = (function(){
-  try { const v = JSON.parse(localStorage.getItem('favCoins')||'[]'); if(Array.isArray(v)) return v; } catch(e){}
-  return [];
-})();
-function isFav(id){ return favCoins.indexOf(id) !== -1; }
-function toggleFav(id, ev){
-  if(ev){ ev.stopPropagation(); ev.preventDefault(); }
-  const i = favCoins.indexOf(id);
-  if(i === -1) favCoins.push(id); else favCoins.splice(i,1);
-  try { localStorage.setItem('favCoins', JSON.stringify(favCoins)); } catch(e){}
-  initTabs();
-}
-// 즐겨찾기 우선 정렬 (원래 순서는 유지하면서 즐겨찾기만 앞으로)
-function sortedCoins(){
-  const favs = COINS.filter(c=>isFav(c.id));
-  const rest = COINS.filter(c=>!isFav(c.id));
-  return favs.concat(rest);
-}
-
 let currentCoin = (function(){
   try { const c = localStorage.getItem('selectedCoin'); if(c && COINS.some(x=>x.id===c)) return c; } catch(e){}
   return 'BTC';
@@ -217,17 +197,17 @@ let indCache = {};
 // ═══════════════════════════════════════════════════════
 function initTabs() {
   const el = document.getElementById('coinTabs');
-  el.innerHTML = sortedCoins().map(c => `
+  el.innerHTML = COINS.map(c => `
     <div class="coin-tab${c.id===currentCoin?' active':''}"
       onclick="switchCoin('${c.id}')"
       ontouchend="event.preventDefault();switchCoin('${c.id}')"
       style="${c.id===currentCoin?`background:${c.color};border-color:${c.color};color:#000`:''}">
-      <span class="fav-star${isFav(c.id)?' on':''}" onclick="toggleFav('${c.id}',event)" ontouchend="toggleFav('${c.id}',event)" title="Favorite">${isFav(c.id)?'★':'☆'}</span>${c.id}
+      ${c.id}
     </div>`).join('');
   // 모바일 드롭박스 업데이트
   const drop = document.getElementById('coinDrop');
   if(drop) {
-    drop.innerHTML = sortedCoins().map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${isFav(c.id)?'★ ':''}${c.id}</option>`).join('');
+    drop.innerHTML = COINS.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
   }
 }
 
