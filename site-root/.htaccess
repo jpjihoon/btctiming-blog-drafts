@@ -1,0 +1,27 @@
+# '/' 요청 시 index.php를 우선 사용 (언어별 서버사이드 메타태그 렌더링을 위해)
+DirectoryIndex index.php index.html
+
+# 텍스트 파일(robots.txt, ads.txt 등)에 UTF-8 charset을 명시적으로 붙임
+# 이게 없으면 브라우저가 인코딩을 잘못 추측해서 한글이 깨져 보일 수 있음
+AddDefaultCharset UTF-8
+
+# XML MIME 타입 (sitemap.xml이 텍스트로 깨져 보이는 문제 해결)
+AddType application/xml .xml
+AddType text/plain .txt
+
+# /privacy → privacy.html 리다이렉트
+Redirect /privacy https://btctiming.com/privacy.html
+# /terms → terms.html 리다이렉트
+Redirect /terms https://btctiming.com/terms.html
+
+RewriteEngine On
+
+# sitemap.xml 주소로 접근해도 실제로는 sitemap.php가 응답 (검색엔진 호환성)
+# 사용자/구글 눈에는 https://btctiming.com/sitemap.xml 로 보이지만
+# 내부적으로는 계속 PHP로 동적 생성되는 sitemap.php가 처리합니다.
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]
+
+# 블로그 아티클 구주소(.html) → 신주소(.php) 301 리다이렉트
+# 예: /blog/mvrv-z-score.html → /blog/mvrv-z-score.php
+# 새 글이 추가돼도 이 규칙 하나로 전부 자동 처리됩니다 (수정 불필요)
+RewriteRule ^blog/([a-z0-9-]+)\.html$ /blog/$1.php [R=301,L]
