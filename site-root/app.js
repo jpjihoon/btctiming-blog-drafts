@@ -2153,9 +2153,9 @@ function renderBlogTicker() {
   }
   el.innerHTML = tickerArticles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
-    return `<a href="${a.url}${suffix}" style="color:var(--t3);text-decoration:underline;margin-right:14px;
-      display:inline-block;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
-      vertical-align:bottom" title="${title.replace(/"/g,'&quot;')}">${title}</a>`;
+    return `<a href="${a.url}${suffix}" style="color:var(--t2);text-decoration:none;margin-right:16px;
+      display:inline-block;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+      vertical-align:bottom;border-bottom:1px solid var(--b1)" title="${title.replace(/"/g,'&quot;')}">${title}</a>`;
   }).join('');
 }
 
@@ -2357,8 +2357,10 @@ function renderCategoryLinks() {
   el.innerHTML = categoryFooterArticles.map(a => {
     const cat = pickLangField(a, 'category', currentLang);
     const title = pickLangField(a, 'title', currentLang);
-    return `<a href="${a.url}${suffix}" style="color:var(--t3);text-decoration:underline;margin-right:12px">[${cat}] ${title}</a>`;
-  }).join('') + `<a href="/blog/${suffix}" style="color:var(--t3);text-decoration:underline">${TT({ko:'전체 블로그 보기 →',en:'All Posts →',ja:'全ての記事を見る →',es:'Ver Todas las Publicaciones →',de:'Alle Beiträge ansehen →'})}</a>`;
+    return `<a href="${a.url}${suffix}" title="[${cat}] ${title.replace(/"/g,'&quot;')}" style="color:var(--t2);text-decoration:none;margin-right:14px;font-size:12px;
+      display:inline-block;max-width:230px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+      vertical-align:bottom;border-bottom:1px solid var(--b1)"><b style="color:var(--t3);font-weight:600">[${cat}]</b> ${title}</a>`;
+  }).join('') + `<a href="/blog/${suffix}" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;vertical-align:bottom">${TT({ko:'전체 블로그 보기 →',en:'All Posts →',ja:'全ての記事を見る →',es:'Ver Todas las Publicaciones →',de:'Alle Beiträge ansehen →'})}</a>`;
 }
 
 function applyStaticI18n() {

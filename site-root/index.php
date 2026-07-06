@@ -667,9 +667,9 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
 <!-- Blog Ticker: 최신 블로그 글을 아주 작은 글씨로 노출. 개별 링크는 말줄임 처리, 모바일에서 좌우 스와이프 가능, 오른쪽 끝에 흐림 효과로 "더 있음"을 암시 -->
 <div id="blogTickerBar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
-  <div style="max-width:1280px;margin:0 auto;padding:5px 16px;font-size:10px;color:var(--t3);
+  <div style="max-width:1280px;margin:0 auto;padding:6px 16px;font-size:12px;color:var(--t2);
     display:flex;align-items:center;gap:0;overflow:hidden">
-    <span id="blogTickerLabel" style="flex-shrink:0;white-space:nowrap;margin-right:10px">📰 블로그:</span>
+    <span id="blogTickerLabel" style="flex-shrink:0;white-space:nowrap;margin-right:10px;color:var(--t2);font-weight:600"></span>
     <div id="blogTickerScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;
       -webkit-overflow-scrolling:touch;touch-action:pan-x;scrollbar-width:none;position:relative">
       <span id="blogTickerLinks"></span>
@@ -915,7 +915,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 <footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
       Auto-fetched: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
       On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.<br><br>
-      <span id="blogGuideLabel" style="color:var(--t3)">📖 카테고리별 최신 글: </span>
+      <span id="blogGuideLabel" style="color:var(--t2);font-size:12px;font-weight:600"></span>
       <span id="blogCategoryLinks"></span>
 </footer>
 
