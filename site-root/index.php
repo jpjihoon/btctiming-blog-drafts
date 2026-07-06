@@ -93,7 +93,7 @@ function h(string $s): string {
   gtag('config', 'G-VD01B9SL3K');
 </script>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -321,6 +321,13 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
+/* 티커: 깔끔한 스크롤 + 모바일에서 '더 있음' 페이드 힌트 */
+.ticker-scroll{scrollbar-width:none;-ms-overflow-style:none}
+.ticker-scroll::-webkit-scrollbar{display:none}
+.ticker-bar{position:relative}
+@media(max-width:600px){
+  .ticker-bar::after{content:'';position:absolute;top:0;right:0;bottom:0;width:32px;background:linear-gradient(to right,transparent,#0a0a0a);pointer-events:none}
+}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:var(--bg3);
   border:1px solid var(--b1);border-radius:var(--rad-sm);color:var(--t1);font-size:11px;font-weight:700;
@@ -613,8 +620,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 </div>
 
 <!-- Ticker Bar -->
-<div id="tickerBar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
-  <div style="max-width:1280px;margin:0 auto;padding:6px 16px;
+<div id="tickerBar" class="ticker-bar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
+  <div class="ticker-scroll" style="max-width:1280px;margin:0 auto;padding:6px 16px;
     font-size:11px;color:var(--t2);display:flex;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
     <span id="tkFiatItem1"><span id="tkFiatLabel1">USD/KRW</span> <b id="tkUsdKrw" style="color:var(--t1)">—</b> <span id="tkUsdKrwChg"></span></span>
     <span><span id="tkFiatLabel2">USDT/KRW</span> <b id="tkUsdtKrw" style="color:var(--t1)">—</b> <span id="tkUsdtKrwChg"></span></span>
