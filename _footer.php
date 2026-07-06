@@ -75,15 +75,8 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 ?>
 
 <?php // ── 본문 하단 SNS 공유 ── ?>
-<div class="share-bar share-bottom" data-share>
-  <span class="share-label"><span class="ko">이 글 공유하기</span><span class="en">Share this</span><span class="ja">この記事をシェア</span><span class="es">Compartir</span><span class="de">Teilen</span></span>
-  <a class="share-btn sh-x" data-net="x" href="#" rel="nofollow noopener" target="_blank" aria-label="X (Twitter)">𝕏</a>
-  <a class="share-btn sh-fb" data-net="fb" href="#" rel="nofollow noopener" target="_blank" aria-label="Facebook">f</a>
-  <a class="share-btn sh-tg" data-net="tg" href="#" rel="nofollow noopener" target="_blank" aria-label="Telegram">✈</a>
-  <a class="share-btn sh-ln" data-net="line" href="#" rel="nofollow noopener" target="_blank" aria-label="LINE">L</a>
-  <a class="share-btn sh-wa" data-net="wa" href="#" rel="nofollow noopener" target="_blank" aria-label="WhatsApp">✆</a>
-  <button type="button" class="share-btn sh-copy" data-net="copy" aria-label="Copy link">🔗<span class="copied-tip"><span class="ko">복사됨</span><span class="en">Copied</span><span class="ja">コピー</span><span class="es">Copiado</span><span class="de">Kopiert</span></span></button>
-</div>
+<?php renderShareBar('bottom'); ?>
+
 
 <?php // ── 광고 배너: 거래소 비교(바이낸스·바이비트) 페이지로 ── ?>
 <a class="blog-ad" href="/exchanges.php<?= h($blogSuffix) ?>">
@@ -273,19 +266,31 @@ window.addEventListener('pageshow', function(e){ applySavedLang(); });
     const shareUrls = {
       x:    `https://twitter.com/intent/tweet?url=${u}&text=${t}`,
       fb:   `https://www.facebook.com/sharer/sharer.php?u=${u}`,
+      in:   `https://www.linkedin.com/sharing/share-offsite/?url=${u}`,
       tg:   `https://t.me/share/url?url=${u}&text=${t}`,
       line: `https://social-plugins.line.me/lineit/share?url=${u}`,
       wa:   `https://api.whatsapp.com/send?text=${t}%20${u}`
     };
+    // 네이티브 공유(Web Share API) 지원 + 모바일 환경이면 네이티브 버튼을 우선 노출
+    const canNative = (typeof navigator !== 'undefined' && typeof navigator.share === 'function');
+    const isMobile = window.matchMedia && window.matchMedia('(max-width:600px)').matches;
+
     document.querySelectorAll('[data-share]').forEach(bar => {
+      if(canNative) bar.classList.add('native-on');
       bar.querySelectorAll('[data-net]').forEach(btn => {
         const net = btn.getAttribute('data-net');
-        if(net === 'copy') {
+        if(net === 'native') {
+          if(canNative) {
+            btn.hidden = false;
+            btn.addEventListener('click', () => {
+              navigator.share({ title: title, url: pageUrl }).catch(()=>{});
+            });
+          }
+        } else if(net === 'copy') {
           btn.addEventListener('click', () => {
             const done = () => { btn.classList.add('copied'); setTimeout(()=>btn.classList.remove('copied'), 1500); };
             if(navigator.clipboard && navigator.clipboard.writeText) {
               navigator.clipboard.writeText(pageUrl).then(done).catch(()=>{
-                // 폴백: 임시 input 선택 복사
                 const ta=document.createElement('textarea');ta.value=pageUrl;document.body.appendChild(ta);ta.select();
                 try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done();
               });

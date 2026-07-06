@@ -57,6 +57,30 @@ $pageDesc  = $M['desc' . $suf] ?? $M['desc_en'];
 $baseUrl   = "https://btctiming.com/blog/{$slug}.php";
 $canonical = ($lang === 'ko') ? $baseUrl : "{$baseUrl}?lang={$lang}"; // 언어별로 각각 자기 자신을 정식 URL로 지정
 
+// SNS 공유바 렌더 (상단·하단 공용). $variant = 'top' | 'bottom'
+if (!function_exists('renderShareBar')) {
+    function renderShareBar(string $variant = 'top'): void {
+        $cls = $variant === 'bottom' ? 'share-bar share-bottom' : 'share-bar share-top';
+        $label = $variant === 'bottom'
+            ? '<span class="ko">이 글 공유하기</span><span class="en">Share this</span><span class="ja">この記事をシェア</span><span class="es">Compartir</span><span class="de">Teilen</span>'
+            : '<span class="ko">공유</span><span class="en">Share</span><span class="ja">シェア</span><span class="es">Compartir</span><span class="de">Teilen</span>';
+        $copied = '<span class="ko">복사됨</span><span class="en">Copied</span><span class="ja">コピー</span><span class="es">Copiado</span><span class="de">Kopiert</span>';
+        echo '<div class="' . $cls . '" data-share>';
+        echo '<span class="share-label">' . $label . '</span>';
+        // 모바일 네이티브 공유(설치된 앱 목록) — JS가 지원 시에만 노출
+        echo '<button type="button" class="share-btn sh-native" data-net="native" aria-label="Share" hidden>⤴</button>';
+        // 데스크톱/폴백: 개별 SNS 버튼
+        echo '<a class="share-btn sh-x" data-net="x" href="#" rel="nofollow noopener" target="_blank" aria-label="X (Twitter)">𝕏</a>';
+        echo '<a class="share-btn sh-fb" data-net="fb" href="#" rel="nofollow noopener" target="_blank" aria-label="Facebook">f</a>';
+        echo '<a class="share-btn sh-in" data-net="in" href="#" rel="nofollow noopener" target="_blank" aria-label="LinkedIn">in</a>';
+        echo '<a class="share-btn sh-tg" data-net="tg" href="#" rel="nofollow noopener" target="_blank" aria-label="Telegram">✈</a>';
+        echo '<a class="share-btn sh-ln" data-net="line" href="#" rel="nofollow noopener" target="_blank" aria-label="LINE">L</a>';
+        echo '<a class="share-btn sh-wa" data-net="wa" href="#" rel="nofollow noopener" target="_blank" aria-label="WhatsApp">✆</a>';
+        echo '<button type="button" class="share-btn sh-copy" data-net="copy" aria-label="Copy link">🔗<span class="copied-tip">' . $copied . '</span></button>';
+        echo '</div>';
+    }
+}
+
 // 카테고리 라벨 (없으면 기본 가이드로 취급)
 $CATS = require __DIR__ . '/_category_meta.php';
 $catKey = $M['category'] ?? 'guide';
@@ -196,6 +220,14 @@ h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#faf
 .sh-tg:hover{background:#229ed9;border-color:#229ed9;color:#fff}
 .sh-ln:hover{background:#06c755;border-color:#06c755;color:#fff}
 .sh-wa:hover{background:#25d366;border-color:#25d366;color:#fff}
+.sh-in{font-size:12px}
+.sh-in:hover{background:#0a66c2;border-color:#0a66c2;color:#fff}
+.sh-native:hover{background:#f7931a;border-color:#f7931a;color:#fff}
+/* 모바일: 네이티브 공유(설치된 앱 목록) 하나만 노출, 개별 SNS 버튼 숨김 */
+@media(max-width:600px){
+  .share-bar.native-on .sh-x,.share-bar.native-on .sh-fb,.share-bar.native-on .sh-in,
+  .share-bar.native-on .sh-tg,.share-bar.native-on .sh-ln,.share-bar.native-on .sh-wa{display:none}
+}
 .sh-copy:hover{background:#f7931a;border-color:#f7931a;color:#fff}
 .copied-tip{position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);
   background:#f7931a;color:#0a0a0a;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;
@@ -339,13 +371,5 @@ footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center
     <span class="de">⏱ ~<?= h($M['read_de'] ?? $M['read_en']) ?> Min. · 🏷 <?= h($M['tag_de'] ?? $M['tag_en']) ?></span>
   </div>
 
-  <div class="share-bar share-top" data-share>
-    <span class="share-label"><span class="ko">공유</span><span class="en">Share</span><span class="ja">シェア</span><span class="es">Compartir</span><span class="de">Teilen</span></span>
-    <a class="share-btn sh-x" data-net="x" href="#" rel="nofollow noopener" target="_blank" aria-label="X (Twitter)">𝕏</a>
-    <a class="share-btn sh-fb" data-net="fb" href="#" rel="nofollow noopener" target="_blank" aria-label="Facebook">f</a>
-    <a class="share-btn sh-tg" data-net="tg" href="#" rel="nofollow noopener" target="_blank" aria-label="Telegram">✈</a>
-    <a class="share-btn sh-ln" data-net="line" href="#" rel="nofollow noopener" target="_blank" aria-label="LINE">L</a>
-    <a class="share-btn sh-wa" data-net="wa" href="#" rel="nofollow noopener" target="_blank" aria-label="WhatsApp">✆</a>
-    <button type="button" class="share-btn sh-copy" data-net="copy" aria-label="Copy link">🔗<span class="copied-tip"><span class="ko">복사됨</span><span class="en">Copied</span><span class="ja">コピー</span><span class="es">Copiado</span><span class="de">Kopiert</span></span></button>
-  </div>
+  <?php renderShareBar('top'); ?>
 
