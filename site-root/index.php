@@ -680,7 +680,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
       margin-left:12px;padding-left:12px;border-left:1px solid var(--b1);white-space:nowrap"></a>
   </div>
 </div>
-<style>#blogTickerScroll::-webkit-scrollbar{display:none}</style>
+<style>#blogTickerScroll::-webkit-scrollbar{display:none}
+#blogCategoryScroll::-webkit-scrollbar{display:none}</style>
 
 <div class="page-wrap"><div class="layout">
   <!-- SIDEBAR -->
@@ -915,8 +916,13 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 <footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
       Auto-fetched: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
       On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.<br><br>
-      <span id="blogGuideLabel" style="color:var(--t2);font-size:12px;font-weight:600"></span>
-      <span id="blogCategoryLinks"></span>
+      <div id="blogCategoryBar" style="display:flex;align-items:center;gap:0;max-width:100%;overflow:hidden">
+        <span id="blogGuideLabel" style="color:var(--t2);font-size:12px;font-weight:600;flex-shrink:0;white-space:nowrap;margin-right:8px"></span>
+        <div id="blogCategoryScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch">
+          <span id="blogCategoryLinks"></span>
+        </div>
+        <a id="blogCategoryAllLink" href="/blog/" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;flex-shrink:0;margin-left:10px"></a>
+      </div>
 </footer>
 
 <script>

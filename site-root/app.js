@@ -2360,14 +2360,20 @@ function renderCategoryLinks() {
   if(!el || !categoryFooterArticles.length) return;
   const suffix = blogSuffix(currentLang);
   const label = document.getElementById('blogGuideLabel');
-  if(label) label.textContent = TT({ko:'📖 카테고리별 최신 글: ',en:'📖 Latest by Category: ',ja:'📖 カテゴリー別最新記事: ',es:'📖 Últimas por Categoría: ',de:'📖 Neueste nach Kategorie: '});
+  if(label) label.textContent = TT({ko:'📖 카테고리별 최신 글:',en:'📖 Latest by Category:',ja:'📖 カテゴリー別最新記事:',es:'📖 Últimas por Categoría:',de:'📖 Neueste nach Kategorie:'});
   el.innerHTML = categoryFooterArticles.map(a => {
     const cat = pickLangField(a, 'category', currentLang);
     const title = pickLangField(a, 'title', currentLang);
     return `<a href="${a.url}${suffix}" title="[${cat}] ${title.replace(/"/g,'&quot;')}" style="color:var(--t2);text-decoration:none;margin-right:14px;font-size:12px;
-      display:inline-block;max-width:230px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+      display:inline-block;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
       vertical-align:bottom;border-bottom:1px solid var(--b1)"><b style="color:var(--t3);font-weight:600">[${cat}]</b> ${title}</a>`;
-  }).join('') + `<a href="/blog/${suffix}" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;vertical-align:bottom">${TT({ko:'전체 블로그 보기 →',en:'All Posts →',ja:'全ての記事を見る →',es:'Ver Todas las Publicaciones →',de:'Alle Beiträge ansehen →'})}</a>`;
+  }).join('');
+  // "전체 블로그 보기"는 오른쪽 끝 고정 요소로 분리 (한 줄 유지, 스크롤 밖)
+  const allLink = document.getElementById('blogCategoryAllLink');
+  if(allLink) {
+    allLink.href = '/blog/' + suffix;
+    allLink.textContent = TT({ko:'전체 블로그 보기 →',en:'All Posts →',ja:'全ての記事を見る →',es:'Ver Todas las Publicaciones →',de:'Alle Beiträge ansehen →'});
+  }
 }
 
 function applyStaticI18n() {
