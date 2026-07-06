@@ -147,6 +147,24 @@ nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:st
 .lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
 .lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+/* 본문 이미지·SVG·표 반응형 (모바일에서 잘림/축소 방지) */
+.wrap img,.wrap svg,.wrap table,.wrap iframe{max-width:100%;height:auto}
+.wrap img{border-radius:10px}
+.wrap table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media(max-width:600px){
+  .wrap{padding:32px 14px 64px}
+  .wrap svg{margin-left:-4px;margin-right:-4px;width:calc(100% + 8px)}
+  h1{font-size:1.6rem;line-height:1.3}
+  h2{font-size:1.2rem;margin:32px 0 10px}
+  h3{font-size:1rem}
+  .box{padding:12px 14px}
+  .zt{font-size:13px}
+  .zt th,.zt td{padding:7px 9px}
+}
+@media(max-width:400px){
+  .wrap{padding:28px 10px 56px}
+  h1{font-size:1.45rem}
+}
 h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
 .meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
 h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
