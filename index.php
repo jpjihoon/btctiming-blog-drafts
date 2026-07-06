@@ -309,6 +309,10 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </div>
 <footer>
   © 2026 BTCtiming.com ·
+  <a href="/rss-guide.php" style="color:#52525b">RSS</a>
+  ·
+  <a href="/sitemap-guide.php" style="color:#52525b" class="ko">사이트맵</a><a href="/sitemap-guide.php" style="color:#52525b" class="en">Sitemap</a><a href="/sitemap-guide.php" style="color:#52525b" class="ja">サイトマップ</a><a href="/sitemap-guide.php" style="color:#52525b" class="es">Mapa del sitio</a><a href="/sitemap-guide.php" style="color:#52525b" class="de">Sitemap</a>
+  ·
   <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a><a href="/privacy" style="color:#52525b" class="ja">プライバシーポリシー</a><a href="/privacy" style="color:#52525b" class="es">Política de Privacidad</a><a href="/privacy" style="color:#52525b" class="de">Datenschutzerklärung</a>
   ·
   <a href="/terms" style="color:#52525b" class="ko">이용약관</a><a href="/terms" style="color:#52525b" class="en">Terms of Service</a><a href="/terms" style="color:#52525b" class="ja">利用規約</a><a href="/terms" style="color:#52525b" class="es">Términos de Servicio</a><a href="/terms" style="color:#52525b" class="de">Nutzungsbedingungen</a>
