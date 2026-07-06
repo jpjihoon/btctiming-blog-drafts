@@ -4,11 +4,33 @@
 $otherPool = array_filter($ARTICLES, fn($k) => $k !== $slug, ARRAY_FILTER_USE_KEY);
 $sameCategory = array_filter($otherPool, fn($a) => ($a['category'] ?? '') === $catKey);
 $otherCategory = array_filter($otherPool, fn($a) => ($a['category'] ?? '') !== $catKey);
-// 최신순으로 우선 노출(날짜 내림차순)
-uasort($sameCategory, fn($a, $b) => strcmp($b['date'] ?? '', $a['date'] ?? ''));
-uasort($otherCategory, fn($a, $b) => strcmp($b['date'] ?? '', $a['date'] ?? ''));
-$sameTop  = array_slice($sameCategory, 0, 4, true);   // 같은 카테고리 추천
-$otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 추천
+
+// 관련도 계산: 현재 글의 제목·태그에서 키워드를 뽑아, 다른 글과 겹치는 정도로 점수화.
+// (같은 주제를 다룬 글이 위로 오도록 — 단순 최신순보다 실질적 관련 글 추천)
+$stop = [' ','—','·','-','the','a','an','of','to','for','and','비트코인','bitcoin','btc','가이드','guide','완벽','지표','indicator'];
+$kw = function(array $a): array {
+    $t = mb_strtolower(($a['title_ko'] ?? '').' '.($a['title_en'] ?? '').' '.($a['tag_ko'] ?? '').' '.($a['tag_en'] ?? ''));
+    $t = preg_replace('/[^\p{L}\p{N} ]+/u', ' ', $t);
+    $parts = preg_split('/\s+/u', $t, -1, PREG_SPLIT_NO_EMPTY);
+    return array_values(array_filter($parts, fn($w) => mb_strlen($w) >= 2));
+};
+$curKw = array_flip($kw($M ?? []));
+$relScore = function(array $a) use ($kw, $curKw): int {
+    $s = 0;
+    foreach ($kw($a) as $w) if (isset($curKw[$w])) $s++;
+    return $s;
+};
+// 관련도 내림차순, 동점이면 최신순
+uasort($sameCategory, function($a, $b) use ($relScore) {
+    $d = $relScore($b) - $relScore($a);
+    return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? '');
+});
+uasort($otherCategory, function($a, $b) use ($relScore) {
+    $d = $relScore($b) - $relScore($a);
+    return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? '');
+});
+$sameTop  = array_slice($sameCategory, 0, 4, true);   // 같은 카테고리 · 관련도순
+$otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 · 관련도순
 $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
 
 // ── 이전 글 / 다음 글: 전체 글을 날짜순(오름차순)으로 세워 현재 글의 앞뒤를 찾음 ──
@@ -52,6 +74,16 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 };
 ?>
 
+<?php // ── 광고 배너: 거래소 비교(바이낸스·바이비트) 페이지로 ── ?>
+<a class="blog-ad" href="/exchanges.php<?= h($blogSuffix) ?>">
+  <span class="blog-ad-ic">🎁</span>
+  <span class="blog-ad-tx">
+    <b class="ko">비트코인 선물, 어디서 거래할까?</b><b class="en">Where to trade Bitcoin futures?</b><b class="ja">ビットコイン先物、どこで取引?</b><b class="es">¿Dónde operar futuros de Bitcoin?</b><b class="de">Wo Bitcoin-Futures handeln?</b>
+    <span class="ko">바이낸스·바이비트 비교 + 수수료 할인 혜택</span><span class="en">Compare Binance &amp; Bybit + fee discounts</span><span class="ja">Binance・Bybit比較 + 手数料割引</span><span class="es">Compara Binance y Bybit + descuentos</span><span class="de">Binance &amp; Bybit vergleichen + Rabatte</span>
+  </span>
+  <span class="blog-ad-ar">›</span>
+</a>
+
 <?php // ── 이전 글 / 다음 글 바로가기 ── ?>
 <?php if ($prevSlug || $nextSlug): ?>
 <div class="prevnext">
@@ -73,11 +105,11 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <?php // ── 추천: 같은 카테고리 ── ?>
 <?php if (!empty($sameTop)): ?>
 <div class="other-articles">
-  <h3 class="ko">같은 카테고리의 다른 글</h3>
-  <h3 class="en">More in This Category</h3>
-  <h3 class="ja">同じカテゴリの記事</h3>
-  <h3 class="es">Más en Esta Categoría</h3>
-  <h3 class="de">Mehr in dieser Kategorie</h3>
+  <h3 class="ko">관련 주제의 글</h3>
+  <h3 class="en">Related Topics</h3>
+  <h3 class="ja">関連トピックの記事</h3>
+  <h3 class="es">Temas Relacionados</h3>
+  <h3 class="de">Verwandte Themen</h3>
   <div class="other-grid">
     <?php foreach ($sameTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>

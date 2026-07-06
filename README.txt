@@ -1,3 +1,4 @@
-[블로그 SVG 차트 모바일 대응 — 둘 다 레포 루트(/www/blog/)]
-- _header.php : SVG 스크롤 래퍼 CSS + 모바일 최소너비 520px
-- _footer.php : 본문 SVG를 스크롤 래퍼로 감싸는 JS (기존/신규 글 자동 적용)
+[블로그 개선 — 3파일 모두 레포 루트(/www/blog/)]
+- index.php    : 상단 히어로 축소 + 검색 강화(다중단어·결과개수)
+- _footer.php  : 본문 광고배너(거래소) + 추천글 관련도순 정렬
+- _header.php  : 광고배너 CSS + (이전 SVG/폰트 수정 포함)
