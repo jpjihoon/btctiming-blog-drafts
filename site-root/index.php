@@ -321,6 +321,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
+/* 우측 바깥 여백 고정 광고 (레이아웃 1280 + 광고 160 + 여백이 들어갈 만큼 넓을 때만) */
+.side-ad:empty{display:none}
+.side-ad:not(:empty){position:fixed;top:50%;right:16px;transform:translateY(-50%);width:160px;min-height:600px;z-index:40}
+@media(max-width:1620px){.side-ad{display:none!important}}
 /* 티커: 깔끔한 스크롤 + 모바일에서 '더 있음' 페이드 힌트 */
 .ticker-scroll{scrollbar-width:none;-ms-overflow-style:none}
 .ticker-scroll::-webkit-scrollbar{display:none}
@@ -984,5 +988,7 @@ $ft = $footerText[$lang] ?? $footerText['en'];
 
 <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js" defer onerror="console.error('Firebase app SDK failed to load')"></script>
 <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js" defer onerror="console.error('Firebase database SDK failed to load')"></script>
+<!-- 우측 바깥 여백 광고 (화면이 넓고 광고가 있을 때만 노출, 승인 전엔 비어서 숨김) -->
+<aside class="side-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
 </body>
 </html>
