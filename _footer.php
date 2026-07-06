@@ -271,38 +271,62 @@ window.addEventListener('pageshow', function(e){ applySavedLang(); });
       line: `https://social-plugins.line.me/lineit/share?url=${u}`,
       wa:   `https://api.whatsapp.com/send?text=${t}%20${u}`
     };
-    // 네이티브 공유(Web Share API) 지원 + 모바일 환경이면 네이티브 버튼을 우선 노출
     const canNative = (typeof navigator !== 'undefined' && typeof navigator.share === 'function');
-    const isMobile = window.matchMedia && window.matchMedia('(max-width:600px)').matches;
+
+    // 열려있는 팝오버 전부 닫기
+    function closeAllPops(){
+      document.querySelectorAll('[data-share-pop]').forEach(p => { p.hidden = true; });
+      document.querySelectorAll('[data-share-toggle]').forEach(b => b.setAttribute('aria-expanded','false'));
+    }
+    // 바깥 클릭 시 닫기
+    document.addEventListener('click', (e) => {
+      if(!e.target.closest('.share-wrap')) closeAllPops();
+    });
 
     document.querySelectorAll('[data-share]').forEach(bar => {
-      if(canNative) bar.classList.add('native-on');
-      bar.querySelectorAll('[data-net]').forEach(btn => {
+      // SNS 개별 버튼 href 세팅
+      bar.querySelectorAll('.share-btn[data-net]').forEach(btn => {
         const net = btn.getAttribute('data-net');
-        if(net === 'native') {
-          if(canNative) {
-            btn.hidden = false;
-            btn.addEventListener('click', () => {
-              navigator.share({ title: title, url: pageUrl }).catch(()=>{});
+        if(shareUrls[net]) btn.setAttribute('href', shareUrls[net]);
+        // SNS 클릭하면 팝오버 닫기
+        btn.addEventListener('click', () => setTimeout(closeAllPops, 50));
+      });
+
+      // 공유 토글: 네이티브 지원 시 시스템 공유 시트, 아니면 팝오버 펼침
+      const toggle = bar.querySelector('[data-share-toggle]');
+      const pop = bar.querySelector('[data-share-pop]');
+      if(toggle){
+        toggle.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if(canNative){
+            navigator.share({ title: title, url: pageUrl }).catch(()=>{
+              // 사용자가 취소하거나 실패하면 팝오버로 폴백
+              if(pop){ const willOpen = pop.hidden; closeAllPops(); if(willOpen){ pop.hidden=false; toggle.setAttribute('aria-expanded','true'); } }
             });
+          } else if(pop){
+            const willOpen = pop.hidden;
+            closeAllPops();
+            if(willOpen){ pop.hidden = false; toggle.setAttribute('aria-expanded','true'); }
           }
-        } else if(net === 'copy') {
-          btn.addEventListener('click', () => {
-            const done = () => { btn.classList.add('copied'); setTimeout(()=>btn.classList.remove('copied'), 1500); };
-            if(navigator.clipboard && navigator.clipboard.writeText) {
-              navigator.clipboard.writeText(pageUrl).then(done).catch(()=>{
-                const ta=document.createElement('textarea');ta.value=pageUrl;document.body.appendChild(ta);ta.select();
-                try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done();
-              });
-            } else {
+        });
+      }
+
+      // 복사 버튼 (별도)
+      const copyBtn = bar.querySelector('[data-net="copy"]');
+      if(copyBtn){
+        copyBtn.addEventListener('click', () => {
+          const done = () => { copyBtn.classList.add('copied'); setTimeout(()=>copyBtn.classList.remove('copied'), 1500); };
+          if(navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(pageUrl).then(done).catch(()=>{
               const ta=document.createElement('textarea');ta.value=pageUrl;document.body.appendChild(ta);ta.select();
               try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done();
-            }
-          });
-        } else if(shareUrls[net]) {
-          btn.setAttribute('href', shareUrls[net]);
-        }
-      });
+            });
+          } else {
+            const ta=document.createElement('textarea');ta.value=pageUrl;document.body.appendChild(ta);ta.select();
+            try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done();
+          }
+        });
+      }
     });
   } catch(e){}
 })();
