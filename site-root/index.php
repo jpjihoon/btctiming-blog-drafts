@@ -857,7 +857,9 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </div>
         <div style="display:flex;gap:3px;flex-wrap:wrap">
           <div class="hist-tab" onclick="setHistPeriod('1h')" id="htp1h" role="button" tabindex="0" aria-label="Show 1 hour">1h</div>
+          <div class="hist-tab" onclick="setHistPeriod('4h')" id="htp4h" role="button" tabindex="0" aria-label="Show 4 hours">4h</div>
           <div class="hist-tab" onclick="setHistPeriod('6h')" id="htp6h" role="button" tabindex="0" aria-label="Show 6 hours">6h</div>
+          <div class="hist-tab" onclick="setHistPeriod('12h')" id="htp12h" role="button" tabindex="0" aria-label="Show 12 hours">12h</div>
           <div class="hist-tab active" onclick="setHistPeriod('1d')" id="htp1d" role="button" tabindex="0" aria-label="Show 24 hours">24h</div>
           <div class="hist-tab" onclick="setHistPeriod('7d')" id="htp7d" role="button" tabindex="0" aria-label="Show 7 days">7d</div>
           <div class="hist-tab" onclick="setHistPeriod('30d')" id="htp30d" role="button" tabindex="0" aria-label="Show 30 days">30d</div>
