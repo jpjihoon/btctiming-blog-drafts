@@ -37,13 +37,26 @@ function urlEntry(string $loc, string $lastmod, string $changefreq, string $prio
 
 $entries = [];
 
+// 사이트맵 전용 언어 접미사: ko도 ?lang=ko를 명시한다.
+// 이유 — 파라미터 없는 URL은 브라우저에 저장된 언어(localStorage)로 표시될 수 있어,
+//        사이트맵/검색결과에서 "한국어"를 눌러도 다른 언어로 가는 문제가 있었다.
+//        ko에 ?lang=ko를 붙이면 페이지가 URL의 언어를 최우선으로 적용해 정확히 한국어로 진입한다.
+//        (SEO상 정식 URL은 각 페이지의 <link rel="canonical">이 파라미터 없는 버전을 가리키므로
+//         중복 색인 문제는 발생하지 않는다.)
+$smSuffix = function(string $lc): string {
+    return '?lang=' . $lc;   // ko 포함 항상 명시
+};
+$smSuffixCat = function(string $lc): string {
+    return '&lang=' . $lc;   // ?cat= 뒤에 붙는 경우
+};
+
 // ── 1) 홈(메인 분석 화면) — SUPPORTED_LANGS(config.php) 기반으로 전 언어 자동 등록.
 //     새 언어를 SUPPORTED_LANGS에 추가하면 이 파일은 안 건드려도 사이트맵에 자동 반영됨.
 $homeFile = file_exists($root . '/index.php') ? $root . '/index.php' : $root . '/index.html';
 $homeLastmod = file_exists($homeFile) ? date('Y-m-d', filemtime($homeFile)) : date('Y-m-d');
 $homeHreflangs = ['x-default' => $baseUrl . '/'];
 foreach (SUPPORTED_LANGS as $lc => $li) {
-    $homeHreflangs[$lc] = $baseUrl . '/' . langSuffix($lc);
+    $homeHreflangs[$lc] = $baseUrl . '/' . $smSuffix($lc);
 }
 foreach (SUPPORTED_LANGS as $lc => $li) {
     $priority = $lc === 'ko' ? '1.0' : '0.9';
@@ -88,11 +101,10 @@ if (file_exists($catMetaFile) && file_exists($metaFileForCats)) {
     foreach ($catMeta as $catKey => $ci) {
         if (($catCount[$catKey] ?? 0) < 1) continue; // 글 있는 카테고리만
         $lastmod = $catLatest[$catKey] ?? date('Y-m-d');
-        // 언어별 URL: /blog/?cat=key (ko) , /blog/?cat=key&lang=xx (그 외)
+        // 언어별 URL: /blog/?cat=key&lang=xx (ko 포함 항상 명시)
         $catHreflangs = ['x-default' => $baseUrl . '/blog/?cat=' . $catKey];
         foreach (SUPPORTED_LANGS as $lc => $li) {
-            $catHreflangs[$lc] = $baseUrl . '/blog/?cat=' . $catKey
-                . ($lc === 'ko' ? '' : '&lang=' . $lc);
+            $catHreflangs[$lc] = $baseUrl . '/blog/?cat=' . $catKey . $smSuffixCat($lc);
         }
         foreach (SUPPORTED_LANGS as $lc => $li) {
             $priority = $lc === 'ko' ? '0.7' : '0.6';
@@ -114,7 +126,7 @@ if (file_exists($metaFile)) {
         $availableLangs = array_filter(array_keys(SUPPORTED_LANGS), fn($lc) => $lc === 'ko' || isset($a["title_{$lc}"]));
         $hreflangs = ['x-default' => $baseArticleUrl];
         foreach ($availableLangs as $lc) {
-            $hreflangs[$lc] = $baseArticleUrl . langSuffix($lc);
+            $hreflangs[$lc] = $baseArticleUrl . $smSuffix($lc);
         }
         // lastmod는 반드시 YYYY-MM-DD 형식이어야 함 (Search Console 규칙).
         // $a['date']는 "2026-07-05" 또는 "2026-07-05 15:00:00"(시간 포함)일 수 있으므로 날짜 부분만 추출.
