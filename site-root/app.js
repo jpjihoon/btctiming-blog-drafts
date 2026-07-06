@@ -1327,19 +1327,30 @@ function drawHistory() {
   }
 
   const scores = data.map(x=>x.s);
-  const minS = Math.min(...scores, 6);
-  const maxS = Math.max(...scores, 10);
+  // Y축을 데이터 실제 범위에 맞춰 동적으로 (위/아래 여백이 과하게 남지 않게).
+  // 변동이 너무 작으면 최소 범위(1.5)를 보장해 선이 납작해지지 않게 함.
+  let dataMin = Math.min(...scores);
+  let dataMax = Math.max(...scores);
+  let span = dataMax - dataMin;
+  const MIN_SPAN = 1.5;
+  if (span < MIN_SPAN) { const mid=(dataMin+dataMax)/2; dataMin=mid-MIN_SPAN/2; dataMax=mid+MIN_SPAN/2; span=MIN_SPAN; }
+  const yPad = span * 0.15;              // 위아래 15% 여백
+  const minS = Math.max(0, dataMin - yPad);
+  const maxS = Math.min(10, dataMax + yPad);
   const pad = {l:28,r:10,t:10,b:20};
   const pw = w-pad.l-pad.r;
   const ph = h-pad.t-pad.b;
 
-  // X축을 '선택한 기간' 전체로 고정 (예: 24H면 지금-24h ~ 지금).
-  // 데이터가 일부 구간만 있어도 축은 전체를 보여주고, 포인트는 실제 시각 위치에 찍힘.
+  // X축을 '선택한 기간' 전체로 고정하되, 사용자의 팬(좌우 이동)·줌(확대)을 반영.
+  // chartZoom: 1이면 기간 전체, >1이면 확대. chartPan: 오른쪽 끝 기준 과거로 밀어낸 ms.
   const rangeMsMap = {'1h':3600000,'6h':6*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000};
   const nowT = Date.now();
-  const spanMs = rangeMsMap[histPeriod] || (data[data.length-1].t - data[0].t) || 86400000;
-  const tEnd = nowT;
-  const tStart = (histPeriod === 'all') ? data[0].t : (tEnd - spanMs);
+  const fullSpan = rangeMsMap[histPeriod] || (data[data.length-1].t - data[0].t) || 86400000;
+  const spanMs = fullSpan / chartZoom;              // 줌인하면 보이는 폭이 좁아짐
+  const maxPan = Math.max(0, fullSpan - spanMs);     // 과거로 밀 수 있는 최대치
+  chartPan = Math.max(0, Math.min(chartPan, maxPan)); // 범위 밖으로 못 나가게
+  const tEnd = nowT - chartPan;
+  const tStart = tEnd - spanMs;
   const tSpan = Math.max(tEnd - tStart, 1);
   // 시각 → X좌표 (시간 비례)
   const xAt = (t) => pad.l + Math.max(0, Math.min(1, (t - tStart)/tSpan)) * pw;
@@ -1578,6 +1589,63 @@ function attachHistoryHover() {
     if(e.touches && e.touches[0]) { handleMove(e.touches[0].clientX, e.touches[0].clientY); e.preventDefault(); }
   }, {passive:false});
   hoverCanvas.addEventListener('touchend', hideTooltip);
+
+  // ── 좌우 드래그(팬) ──────────────────────────────
+  let dragging=false, dragStartX=0, dragStartPan=0;
+  const pxToMs = () => {
+    // 화면 1px이 몇 ms인지 (현재 보이는 폭 기준)
+    const st = historyPlotState;
+    if(!st || !st.pw) return 0;
+    return st.tSpan / st.pw;
+  };
+  const startDrag = (x) => { dragging=true; dragStartX=x; dragStartPan=chartPan; hoverCanvas.style.cursor='grabbing'; };
+  const moveDrag = (x) => {
+    if(!dragging) return;
+    const dx = x - dragStartX;               // 오른쪽으로 끌면 +
+    chartPan = dragStartPan + dx * pxToMs();  // 오른쪽 드래그 = 과거로
+    drawHistory();
+  };
+  const endDrag = () => { dragging=false; hoverCanvas.style.cursor='crosshair'; };
+
+  hoverCanvas.addEventListener('mousedown', (e) => { startDrag(e.clientX); e.preventDefault(); });
+  window.addEventListener('mousemove', (e) => { if(dragging) moveDrag(e.clientX); });
+  window.addEventListener('mouseup', endDrag);
+
+  // ── 휠 줌 (확대/축소) ────────────────────────────
+  hoverCanvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const factor = e.deltaY < 0 ? 1.2 : 1/1.2;   // 위로 굴리면 확대
+    const newZoom = Math.max(1, Math.min(50, chartZoom * factor));
+    chartZoom = newZoom;
+    drawHistory();
+  }, {passive:false});
+
+  // ── 터치: 한 손가락 팬 + 두 손가락 핀치 줌 ──────────
+  let pinchStartDist=0, pinchStartZoom=1, touchPanStartX=0, touchPanStartPan=0, touchMode='';
+  hoverCanvas.addEventListener('touchstart', (e) => {
+    if(e.touches.length===2){
+      touchMode='pinch';
+      const dx=e.touches[0].clientX-e.touches[1].clientX, dy=e.touches[0].clientY-e.touches[1].clientY;
+      pinchStartDist=Math.hypot(dx,dy); pinchStartZoom=chartZoom;
+    } else if(e.touches.length===1){
+      touchMode='pan'; touchPanStartX=e.touches[0].clientX; touchPanStartPan=chartPan;
+    }
+  }, {passive:true});
+  hoverCanvas.addEventListener('touchmove', (e) => {
+    if(touchMode==='pinch' && e.touches.length===2){
+      const dx=e.touches[0].clientX-e.touches[1].clientX, dy=e.touches[0].clientY-e.touches[1].clientY;
+      const dist=Math.hypot(dx,dy);
+      if(pinchStartDist>0){ chartZoom=Math.max(1,Math.min(50,pinchStartZoom*(dist/pinchStartDist))); drawHistory(); }
+      e.preventDefault();
+    } else if(touchMode==='pan' && e.touches.length===1){
+      const dx=e.touches[0].clientX-touchPanStartX;
+      chartPan=touchPanStartPan + dx*pxToMs(); drawHistory();
+    }
+  }, {passive:false});
+  hoverCanvas.addEventListener('touchend', () => { touchMode=''; });
+
+  // 더블클릭: 확대/이동 초기화
+  hoverCanvas.addEventListener('dblclick', () => { chartZoom=1; chartPan=0; drawHistory(); });
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1808,10 +1876,13 @@ function T(key, args) {
 // ═══════════════════════════════════════════════════════
 // HISTORY TAB
 // ═══════════════════════════════════════════════════════
-let histPeriod = '1d'; // 1d, 7d, 30d, all
+let histPeriod = '1d'; // 1h, 6h, 1d, 7d, 30d
+let chartZoom = 1;     // 1=기간 전체, >1=확대
+let chartPan = 0;      // 오른쪽(현재) 기준 과거로 밀어낸 ms
 
 function setHistPeriod(p) {
   histPeriod = p;
+  chartZoom = 1; chartPan = 0; // 기간 바꾸면 확대/이동 초기화
   const idMap = {'1h':'htp1h','6h':'htp6h','1d':'htp1d','7d':'htp7d','30d':'htp30d'};
   Object.entries(idMap).forEach(([t, id]) => {
     const el = document.getElementById(id);
