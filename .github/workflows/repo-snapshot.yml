@@ -1,0 +1,36 @@
+name: Repo Snapshot
+
+# 매주 레포 전체를 zip으로 묶어 Actions 아티팩트로 보관한다(코드 백업 이중화).
+# GitHub 자체가 1차 백업이지만, 특정 시점 스냅샷을 별도로 남겨 실수/사고에 대비.
+
+on:
+  schedule:
+    - cron: '30 18 * * 0'   # 매주 일요일 (UTC 18:30 = KST 월요일 새벽 3:30)
+  workflow_dispatch: {}
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 레포 체크아웃 (전체 히스토리)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # 전체 커밋 히스토리 포함
+
+      - name: zip으로 묶기
+        shell: bash
+        run: |
+          set -uo pipefail
+          STAMP=$(date -u +%Y%m%d)
+          NAME="btctiming-repo-${STAMP}"
+          # .git 포함 전체(복원용). 대용량 백업 폴더는 제외해 크기 절감.
+          zip -qr "${NAME}.zip" . -x "backups/*" -x "*.tar.gz"
+          echo "SNAP_NAME=${NAME}" >> "$GITHUB_ENV"
+          echo "만든 스냅샷: ${NAME}.zip ($(du -h ${NAME}.zip | cut -f1))"
+
+      - name: 아티팩트 업로드 (보관 90일)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.SNAP_NAME }}
+          path: ${{ env.SNAP_NAME }}.zip
+          retention-days: 90
