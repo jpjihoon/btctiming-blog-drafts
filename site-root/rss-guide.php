@@ -30,24 +30,26 @@ a{color:var(--orange);text-decoration:none}a:hover{text-decoration:underline}
 [lang="ja"] .ko,[lang="ja"] .en,[lang="ja"] .es,[lang="ja"] .de{display:none}
 [lang="es"] .ko,[lang="es"] .en,[lang="es"] .ja,[lang="es"] .de{display:none}
 [lang="de"] .ko,[lang="de"] .en,[lang="de"] .ja,[lang="de"] .es{display:none}
-/* nav — 블로그와 동일 */
-nav{background:var(--bg2);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:100;height:52px}
-.nav-w{max-width:960px;margin:0 auto;padding:0 20px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:16px;font-weight:700;color:var(--orange)}.logo span{color:var(--t1)}
-.back{font-size:13px;color:var(--t3);margin-left:2px}
-.lang-dropdown{position:relative;flex-shrink:0;margin-left:auto}
+/* nav — 블로그 목록과 완전 동일 */
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}
+.nav-w{max-width:960px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.nav-spacer{flex:1}
+.lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;
-  border:1px solid var(--b1);border-radius:8px;color:var(--t2);font-size:12px;font-weight:600;cursor:pointer}
+  border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#e4e4e7;font-size:11px;font-weight:600;
+  letter-spacing:.02em;cursor:pointer;transition:all .15s}
 .lang-trigger:hover{background:#1f1f1f}
-.lang-caret{font-size:9px;transition:transform .15s}
+.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
-.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;border:1px solid var(--b1);
-  border-radius:10px;padding:5px;opacity:0;pointer-events:none;transform:translateY(-6px);transition:.15s;z-index:20}
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;
+  border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
+  overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
-.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:0;
-  color:var(--t2);font-size:13px;cursor:pointer;border-radius:7px;text-align:left}
-.lang-menu-item:hover{background:#1f1f1f;color:var(--t1)}
-.lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}
+.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
+  border:none;color:#a1a1aa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
+.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 /* hero — 블로그 목록과 동일한 그라데이션 */
 .hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.06);
   background:radial-gradient(ellipse 900px 400px at 15% -10%,rgba(247,147,26,.16),transparent 60%),
@@ -73,18 +75,15 @@ h2{font-size:1.15rem;font-weight:700;margin:36px 0 14px;padding-bottom:8px;borde
 .note{margin-top:36px;padding:16px 18px;background:var(--bg3);border:1px solid var(--b1);border-radius:12px;font-size:13.5px;color:var(--t2)}
 .note b{color:var(--t1)}
 code{background:var(--bg4);padding:1px 6px;border-radius:5px;font-size:12.5px}
-footer{border-top:1px solid var(--b1);margin-top:40px}
-.foot-in{max-width:960px;margin:0 auto;padding:26px 20px 40px}
-.foot-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-bottom:16px}
-.foot-links a{font-size:13.5px;color:var(--t2)}
-.foot-links a:hover{color:var(--orange)}
-.foot-copy{font-size:12px;color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
+footer a{color:#52525b}footer a:hover{color:#71717a}
+.foot-sep{margin:0 6px;color:#3f3f46}
 </style>
 </head>
 <body>
 <nav><div class="nav-w">
   <a href="/" class="logo">BTC<span>timing</span>.com</a>
-  <span class="back"><a href="/blog/" style="color:var(--t3)"><span class="ko">← 블로그</span><span class="en">← Blog</span><span class="ja">← ブログ</span><span class="es">← Blog</span><span class="de">← Blog</span></a></span>
+  <div class="nav-spacer"></div>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" onclick="toggleLangMenu(event)"><span id="langTriggerLabel">KO</span><span class="lang-caret">▾</span></button>
     <div class="lang-menu">
@@ -165,17 +164,17 @@ footer{border-top:1px solid var(--b1);margin-top:40px}
   </div>
 </div>
 
-<footer><div class="foot-in">
-  <div class="foot-links">
-    <a href="/"><span class="ko">대시보드</span><span class="en">Dashboard</span><span class="ja">ダッシュボード</span><span class="es">Panel</span><span class="de">Dashboard</span></a>
-    <a href="/blog/"><span class="ko">블로그</span><span class="en">Blog</span><span class="ja">ブログ</span><span class="es">Blog</span><span class="de">Blog</span></a>
-    <a href="/sitemap-guide.php"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span></a>
-    <a href="/exchanges.php"><span class="ko">거래소 비교</span><span class="en">Exchanges</span><span class="ja">取引所比較</span><span class="es">Exchanges</span><span class="de">Börsen</span></a>
-    <a href="/privacy"><span class="ko">개인정보처리방침</span><span class="en">Privacy</span><span class="ja">プライバシー</span><span class="es">Privacidad</span><span class="de">Datenschutz</span></a>
-    <a href="/terms"><span class="ko">이용약관</span><span class="en">Terms</span><span class="ja">利用規約</span><span class="es">Términos</span><span class="de">Nutzungsbedingungen</span></a>
-  </div>
-  <div class="foot-copy">© 2026 BTCtiming.com</div>
-</div></footer>
+<footer>
+  © 2026 BTCtiming.com
+  <span class="foot-sep">·</span>
+  <a href="/blog/"><span class="ko">블로그</span><span class="en">Blog</span><span class="ja">ブログ</span><span class="es">Blog</span><span class="de">Blog</span></a>
+  <span class="foot-sep">·</span>
+  <a href="/sitemap-guide.php"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span></a>
+  <span class="foot-sep">·</span>
+  <a href="/privacy"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span><span class="ja">プライバシーポリシー</span><span class="es">Política de Privacidad</span><span class="de">Datenschutzerklärung</span></a>
+  <span class="foot-sep">·</span>
+  <a href="/terms"><span class="ko">이용약관</span><span class="en">Terms of Service</span><span class="ja">利用規約</span><span class="es">Términos de Servicio</span><span class="de">Nutzungsbedingungen</span></a>
+</footer>
 
 <script>
 const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE'};
