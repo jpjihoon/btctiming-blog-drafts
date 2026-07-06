@@ -1,0 +1,220 @@
+<?php $slug = 'strategy-largest-btc-sale-preferred-dividends'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">세계 최대 기업 비트코인 보유사인 <strong>스트래티지(Strategy·옛 마이크로스트래티지)</strong>가 우선주 배당을 지급하기 위해 비트코인 3,588개를 약 2억1,600만 달러에 매각했다고 미국 증권거래위원회(SEC) 공시를 인용해 <strong>코인데스크(CoinDesk)</strong>·<strong>블룸버그(Bloomberg)</strong>·<strong>포춘(Fortune)</strong>이 7월 6일 보도했다. 매각은 6월 29일부터 7월 5일까지 이뤄졌으며, 회사가 2022년 이후 처음으로 비트코인을 판 지난 5월(32개, 약 250만 달러)에 비해 규모가 약 100배 크다. 이번 매각은 스트래티지가 비트코인을 사들이기만 하던 기업에서 배당 의무를 맞추기 위해 보유분을 능동적으로 처분하는 기업으로 성격이 바뀌고 있음을 처음으로 실물 거래로 확인시킨 사건이다.</p>
+  <p class="en">Strategy (formerly MicroStrategy), the largest corporate holder of bitcoin, sold 3,588 bitcoin for about $216 million to fund dividends on its preferred securities, CoinDesk, Bloomberg and Fortune reported on July 6, citing a U.S. Securities and Exchange Commission (SEC) filing. The sales ran from June 29 to July 5 and are roughly 100 times larger than the company's first bitcoin sale since 2022 — 32 coins for about $2.5 million in late May. The disposal is the first real transaction to confirm that Strategy is shifting from a firm that only bought bitcoin into one that actively sells holdings to meet dividend obligations.</p>
+  <p class="ja">世界最大の企業ビットコイン保有企業である<strong>ストラテジー(Strategy・旧マイクロストラテジー)</strong>が、優先株の配当を支払うためにビットコイン3,588枚を約2億1,600万ドルで売却したと、米証券取引委員会(SEC)への提出書類を引用して<strong>CoinDesk</strong>・<strong>Bloomberg</strong>・<strong>Fortune</strong>が7月6日に報じた。売却は6月29日から7月5日にかけて行われ、同社が2022年以来初めてビットコインを売った5月(32枚、約250万ドル)と比べ規模は約100倍だ。今回の売却は、ストラテジーがビットコインを買い集めるだけの企業から、配当義務を満たすために保有分を能動的に処分する企業へと性格を変えつつあることを、初めて実取引で裏づけた出来事である。</p>
+  <p class="es">Strategy (antes MicroStrategy), el mayor tenedor corporativo de bitcoin, vendió 3.588 bitcoins por unos 216 millones de dólares para financiar dividendos de sus valores preferentes, informaron CoinDesk, Bloomberg y Fortune el 6 de julio, citando una presentación ante la Comisión de Bolsa y Valores (SEC) de EE. UU. Las ventas se realizaron del 29 de junio al 5 de julio y son unas 100 veces mayores que la primera venta de bitcoin de la empresa desde 2022: 32 monedas por unos 2,5 millones de dólares a finales de mayo. La operación es la primera transacción real que confirma que Strategy está pasando de una firma que solo compraba bitcoin a una que vende activamente sus tenencias para cumplir obligaciones de dividendos.</p>
+  <p class="de">Strategy (früher MicroStrategy), der größte Unternehmensinhaber von Bitcoin, verkaufte 3.588 Bitcoin für rund 216 Millionen Dollar, um Dividenden auf seine Vorzugspapiere zu finanzieren, berichteten CoinDesk, Bloomberg und Fortune am 6. Juli unter Berufung auf eine Eingabe bei der US-Börsenaufsicht SEC. Die Verkäufe liefen vom 29. Juni bis 5. Juli und sind rund 100-mal größer als der erste Bitcoin-Verkauf des Unternehmens seit 2022 — 32 Coins für etwa 2,5 Millionen Dollar Ende Mai. Das Geschäft ist die erste reale Transaktion, die bestätigt, dass sich Strategy von einer Firma, die Bitcoin nur kaufte, zu einer wandelt, die Bestände aktiv verkauft, um Dividendenpflichten zu erfüllen.</p>
+
+  <h2 class="ko">무엇이 공시됐나</h2>
+  <h2 class="en">What was disclosed</h2>
+  <h2 class="ja">何が公示されたか</h2>
+  <h2 class="es">Qué se reveló</h2>
+  <h2 class="de">Was offengelegt wurde</h2>
+  <p class="ko">SEC 공시에 따르면 이번 매각은 두 구간으로 나뉜다. 코인데스크가 전한 온체인·공시 집계로는 6월 29~30일에 1,363개, 이어 7월 1~5일에 2,225개가 처분됐고, 후자의 평균 매각가는 코인당 약 6만773달러였다. 스트래티지가 밝힌 이들 물량의 평균 취득가는 약 7만5,476달러로, 회사는 판 비트코인 한 개당 약 1만4,700달러, 비율로는 약 19.5%의 손실을 확정한 셈이다. 회사는 6월 22~28일 주간에도 비트코인을 신규 매입하지 않았다고 앞서 공시한 바 있어, 이번 처분은 '매입 중단'에서 '실제 매각'으로 넘어간 국면을 보여준다.</p>
+  <p class="ko">매각 대금은 스트래티지가 '디지털 크레딧(Digital Credit)'이라 부르는 우선주 사업의 배당에 쓰였다. 구체적으로 STRF·STRE·STRK·STRD 네 종목의 분기 배당과 STRC의 월 배당을 지급하기 위한 재원이었다고 회사는 밝혔다. 스트래티지는 7월 6일 기준 약 84만7,000개 안팎의 비트코인을 평균 약 7만5,000달러대에 보유하고 있는데, 비트코인 가격이 취득가를 크게 밑도는 6만 달러 초반에 머무는 상황에서 배당 현금을 마련하려다 손실을 확정한 것이어서 시장의 주목을 받았다. 같은 날 비트코인은 한때 6만3,900달러 부근까지 올랐다가 매각 소식 이후 6만1,500달러 선으로 되밀렸다고 코인데스크는 전했다.</p>
+  <p class="en">Per the SEC filing, the sale came in two tranches. By CoinDesk's on-chain and filing tally, 1,363 coins were sold on June 29–30, then 2,225 on July 1–5, with the latter fetching an average of about $60,773 per coin. Strategy said the average acquisition cost of those coins was about $75,476, meaning the company locked in a loss of roughly $14,700 per bitcoin sold, or about 19.5%. The firm had earlier disclosed that it bought no new bitcoin in the week of June 22–28, so this disposal marks the move from "pausing purchases" to "actually selling."</p>
+  <p class="en">The proceeds went to dividends on the preferred-stock business Strategy calls "Digital Credit." Specifically, the company said the money funded quarterly dividends on four issues — STRF, STRE, STRK and STRD — plus the monthly dividend on STRC. As of July 6, Strategy holds roughly 847,000 bitcoin at an average near the $75,000 range, so raising dividend cash while bitcoin trades in the low $60,000s — well below cost — forced it to realize a loss, drawing market attention. The same day, bitcoin briefly rose toward $63,900 before pulling back to around $61,500 after the sale news, CoinDesk reported.</p>
+  <p class="ja">SECの提出書類によれば、今回の売却は二つの区分に分かれる。CoinDeskのオンチェーン・開示集計では、6月29〜30日に1,363枚、続いて7月1〜5日に2,225枚が処分され、後者の平均売却価格は1枚あたり約6万773ドルだった。ストラテジーが示したこれらの平均取得価格は約7万5,476ドルで、同社は売却したビットコイン1枚あたり約1万4,700ドル、率にして約19.5%の損失を確定したことになる。同社は6月22〜28日の週にビットコインを新規購入していないと先に開示しており、今回の処分は「購入停止」から「実際の売却」へ移った局面を示す。</p>
+  <p class="ja">売却代金は、ストラテジーが「デジタル・クレジット(Digital Credit)」と呼ぶ優先株事業の配当に充てられた。具体的には、STRF・STRE・STRK・STRDの四銘柄の四半期配当と、STRCの月次配当を支払うための原資だったと同社は述べた。ストラテジーは7月6日時点で約84万7,000枚前後のビットコインを平均約7万5,000ドル台で保有しており、価格が取得価格を大きく下回る6万ドル台前半にとどまるなか、配当現金を確保しようとして損失を確定したため市場の注目を集めた。同日、ビットコインは一時6万3,900ドル付近まで上昇した後、売却報道を受けて6万1,500ドル前後へ押し戻されたとCoinDeskは伝えた。</p>
+  <p class="es">Según la presentación ante la SEC, la venta se dio en dos tramos. Por el recuento on-chain y de registros de CoinDesk, se vendieron 1.363 monedas el 29–30 de junio y luego 2.225 el 1–5 de julio, estas últimas a un promedio de unos 60.773 dólares por moneda. Strategy dijo que el costo medio de adquisición de esas monedas fue de unos 75.476 dólares, lo que implica que la empresa fijó una pérdida de unos 14.700 dólares por bitcoin vendido, o cerca del 19,5%. La firma había revelado antes que no compró bitcoin nuevo en la semana del 22–28 de junio, por lo que esta operación marca el paso de "pausar compras" a "vender de verdad".</p>
+  <p class="es">Los fondos se destinaron a dividendos del negocio de acciones preferentes que Strategy llama "Digital Credit". En concreto, la empresa dijo que el dinero financió dividendos trimestrales de cuatro emisiones —STRF, STRE, STRK y STRD— más el dividendo mensual de STRC. Al 6 de julio, Strategy posee unos 847.000 bitcoins a un promedio cercano a los 75.000 dólares, así que reunir efectivo para dividendos mientras el bitcoin cotiza en los 60.000 bajos —muy por debajo del costo— la obligó a realizar una pérdida, lo que atrajo la atención del mercado. Ese mismo día, el bitcoin subió brevemente hacia los 63.900 dólares antes de retroceder a unos 61.500 tras la noticia de la venta, informó CoinDesk.</p>
+  <p class="de">Laut SEC-Eingabe erfolgte der Verkauf in zwei Tranchen. Nach CoinDesks On-Chain- und Filing-Zählung wurden am 29.–30. Juni 1.363 Coins verkauft, dann 2.225 am 1.–5. Juli, letztere zu durchschnittlich rund 60.773 Dollar je Coin. Strategy gab die durchschnittlichen Anschaffungskosten dieser Coins mit etwa 75.476 Dollar an, womit das Unternehmen einen Verlust von rund 14.700 Dollar je verkauftem Bitcoin oder etwa 19,5 % festschrieb. Die Firma hatte zuvor offengelegt, in der Woche vom 22.–28. Juni keinen neuen Bitcoin gekauft zu haben, sodass diese Veräußerung den Übergang vom "Aussetzen der Käufe" zum "tatsächlichen Verkauf" markiert.</p>
+  <p class="de">Der Erlös floss in Dividenden des Vorzugsaktien-Geschäfts, das Strategy "Digital Credit" nennt. Konkret erklärte das Unternehmen, das Geld habe Quartalsdividenden auf vier Papiere — STRF, STRE, STRK und STRD — sowie die Monatsdividende auf STRC finanziert. Zum 6. Juli hält Strategy rund 847.000 Bitcoin zu durchschnittlich nahe der 75.000-Dollar-Spanne, sodass die Beschaffung von Dividendenbargeld, während Bitcoin in den niedrigen 60.000ern — deutlich unter Kosten — notiert, einen Verlust erzwang und Aufmerksamkeit erregte. Am selben Tag stieg Bitcoin kurz auf rund 63.900 Dollar, bevor er nach der Verkaufsmeldung auf etwa 61.500 zurückfiel, berichtete CoinDesk.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">스트래티지의 첫 대규모 매각 — 손실을 확정하며 배당 재원 마련</text>
+    <g font-family="sans-serif">
+      <text x="20" y="66" fill="#a1a1aa" font-size="13" font-weight="700">취득가 vs 매각가 (코인당)</text>
+      <text x="20" y="98" fill="#e4e4e7" font-size="14" font-weight="700">평균 취득가</text>
+      <rect x="150" y="82" width="480" height="30" rx="6" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+      <text x="390" y="103" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="700">약 $75,476</text>
+      <text x="20" y="138" fill="#e4e4e7" font-size="14" font-weight="700">평균 매각가</text>
+      <rect x="150" y="122" width="386" height="30" rx="6" fill="#2a1416" stroke="#ef4444" stroke-width="1.6"/>
+      <text x="343" y="143" fill="#f87171" text-anchor="middle" font-size="14" font-weight="700">약 $60,773</text>
+      <text x="150" y="176" fill="#fca5a5" font-size="13" font-weight="700">→ 코인당 약 -$14,700 손실 확정 (약 -19.5%)</text>
+      <line x1="20" y1="200" x2="680" y2="200" stroke="#27272a" stroke-width="1"/>
+      <text x="20" y="230" fill="#a1a1aa" font-size="13" font-weight="700">매각 구간 (6/29~7/5)</text>
+      <rect x="20" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="120" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">1,363</text>
+      <text x="120" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 6/29~30</text>
+      <rect x="240" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="340" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2,225</text>
+      <text x="340" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 7/1~5</text>
+      <rect x="460" y="244" width="220" height="90" rx="10" fill="#221016" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="570" y="280" fill="#f87171" text-anchor="middle" font-size="24" font-weight="800">3,588 BTC</text>
+      <text x="570" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">합계 · 약 $216M</text>
+      <text x="20" y="366" fill="#71717a" font-size="13">배당 대상: STRF·STRE·STRK·STRD(분기) + STRC(월) · 총보유 약 847,000 BTC</text>
+    </g>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Strategy's first large sale — realizing a loss to fund dividends</text>
+    <g font-family="sans-serif">
+      <text x="20" y="66" fill="#a1a1aa" font-size="13" font-weight="700">Cost vs sale price (per coin)</text>
+      <text x="20" y="98" fill="#e4e4e7" font-size="14" font-weight="700">Avg. cost</text>
+      <rect x="150" y="82" width="480" height="30" rx="6" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+      <text x="390" y="103" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="700">~$75,476</text>
+      <text x="20" y="138" fill="#e4e4e7" font-size="14" font-weight="700">Avg. sale</text>
+      <rect x="150" y="122" width="386" height="30" rx="6" fill="#2a1416" stroke="#ef4444" stroke-width="1.6"/>
+      <text x="343" y="143" fill="#f87171" text-anchor="middle" font-size="14" font-weight="700">~$60,773</text>
+      <text x="150" y="176" fill="#fca5a5" font-size="13" font-weight="700">→ loss of ~$14,700 per coin locked in (~-19.5%)</text>
+      <line x1="20" y1="200" x2="680" y2="200" stroke="#27272a" stroke-width="1"/>
+      <text x="20" y="230" fill="#a1a1aa" font-size="13" font-weight="700">Sale tranches (Jun 29–Jul 5)</text>
+      <rect x="20" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="120" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">1,363</text>
+      <text x="120" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · Jun 29–30</text>
+      <rect x="240" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="340" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2,225</text>
+      <text x="340" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · Jul 1–5</text>
+      <rect x="460" y="244" width="220" height="90" rx="10" fill="#221016" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="570" y="280" fill="#f87171" text-anchor="middle" font-size="24" font-weight="800">3,588 BTC</text>
+      <text x="570" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">total · ~$216M</text>
+      <text x="20" y="366" fill="#71717a" font-size="13">Dividends: STRF·STRE·STRK·STRD (qtrly) + STRC (monthly) · holds ~847,000 BTC</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">ストラテジーの初の大型売却 — 損失を確定して配当を賄う</text>
+    <g font-family="sans-serif">
+      <text x="20" y="66" fill="#a1a1aa" font-size="13" font-weight="700">取得価格 vs 売却価格 (1枚あたり)</text>
+      <text x="20" y="98" fill="#e4e4e7" font-size="14" font-weight="700">平均取得</text>
+      <rect x="150" y="82" width="480" height="30" rx="6" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+      <text x="390" y="103" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="700">約 $75,476</text>
+      <text x="20" y="138" fill="#e4e4e7" font-size="14" font-weight="700">平均売却</text>
+      <rect x="150" y="122" width="386" height="30" rx="6" fill="#2a1416" stroke="#ef4444" stroke-width="1.6"/>
+      <text x="343" y="143" fill="#f87171" text-anchor="middle" font-size="14" font-weight="700">約 $60,773</text>
+      <text x="150" y="176" fill="#fca5a5" font-size="13" font-weight="700">→ 1枚あたり約 -$14,700 の損失確定 (約 -19.5%)</text>
+      <line x1="20" y1="200" x2="680" y2="200" stroke="#27272a" stroke-width="1"/>
+      <text x="20" y="230" fill="#a1a1aa" font-size="13" font-weight="700">売却区分 (6/29〜7/5)</text>
+      <rect x="20" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="120" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">1,363</text>
+      <text x="120" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 6/29〜30</text>
+      <rect x="240" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="340" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2,225</text>
+      <text x="340" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 7/1〜5</text>
+      <rect x="460" y="244" width="220" height="90" rx="10" fill="#221016" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="570" y="280" fill="#f87171" text-anchor="middle" font-size="24" font-weight="800">3,588 BTC</text>
+      <text x="570" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">合計 · 約 $216M</text>
+      <text x="20" y="366" fill="#71717a" font-size="13">配当対象: STRF·STRE·STRK·STRD(四半期) + STRC(月次) · 保有 約847,000 BTC</text>
+    </g>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">La primera gran venta de Strategy — asumir pérdida para pagar dividendos</text>
+    <g font-family="sans-serif">
+      <text x="20" y="66" fill="#a1a1aa" font-size="13" font-weight="700">Costo vs precio de venta (por moneda)</text>
+      <text x="20" y="98" fill="#e4e4e7" font-size="14" font-weight="700">Costo medio</text>
+      <rect x="150" y="82" width="480" height="30" rx="6" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+      <text x="390" y="103" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="700">~$75.476</text>
+      <text x="20" y="138" fill="#e4e4e7" font-size="14" font-weight="700">Venta media</text>
+      <rect x="150" y="122" width="386" height="30" rx="6" fill="#2a1416" stroke="#ef4444" stroke-width="1.6"/>
+      <text x="343" y="143" fill="#f87171" text-anchor="middle" font-size="14" font-weight="700">~$60.773</text>
+      <text x="150" y="176" fill="#fca5a5" font-size="13" font-weight="700">→ pérdida de ~$14.700 por moneda (~-19,5%)</text>
+      <line x1="20" y1="200" x2="680" y2="200" stroke="#27272a" stroke-width="1"/>
+      <text x="20" y="230" fill="#a1a1aa" font-size="13" font-weight="700">Tramos de venta (29 jun–5 jul)</text>
+      <rect x="20" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="120" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">1.363</text>
+      <text x="120" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 29–30 jun</text>
+      <rect x="240" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="340" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2.225</text>
+      <text x="340" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 1–5 jul</text>
+      <rect x="460" y="244" width="220" height="90" rx="10" fill="#221016" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="570" y="280" fill="#f87171" text-anchor="middle" font-size="24" font-weight="800">3.588 BTC</text>
+      <text x="570" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">total · ~$216M</text>
+      <text x="20" y="366" fill="#71717a" font-size="13">Dividendos: STRF·STRE·STRK·STRD (trim.) + STRC (mensual) · posee ~847.000 BTC</text>
+    </g>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Strategys erster großer Verkauf — Verlust realisiert, um Dividenden zu zahlen</text>
+    <g font-family="sans-serif">
+      <text x="20" y="66" fill="#a1a1aa" font-size="13" font-weight="700">Kosten vs Verkaufspreis (je Coin)</text>
+      <text x="20" y="98" fill="#e4e4e7" font-size="14" font-weight="700">Ø Kosten</text>
+      <rect x="150" y="82" width="480" height="30" rx="6" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+      <text x="390" y="103" fill="#4ade80" text-anchor="middle" font-size="14" font-weight="700">~75.476 $</text>
+      <text x="20" y="138" fill="#e4e4e7" font-size="14" font-weight="700">Ø Verkauf</text>
+      <rect x="150" y="122" width="386" height="30" rx="6" fill="#2a1416" stroke="#ef4444" stroke-width="1.6"/>
+      <text x="343" y="143" fill="#f87171" text-anchor="middle" font-size="14" font-weight="700">~60.773 $</text>
+      <text x="150" y="176" fill="#fca5a5" font-size="13" font-weight="700">→ Verlust von ~14.700 $ je Coin festgeschrieben (~-19,5%)</text>
+      <line x1="20" y1="200" x2="680" y2="200" stroke="#27272a" stroke-width="1"/>
+      <text x="20" y="230" fill="#a1a1aa" font-size="13" font-weight="700">Verkaufs-Tranchen (29. Jun–5. Jul)</text>
+      <rect x="20" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="120" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">1.363</text>
+      <text x="120" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 29.–30. Jun</text>
+      <rect x="240" y="244" width="200" height="90" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+      <text x="340" y="280" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2.225</text>
+      <text x="340" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">BTC · 1.–5. Jul</text>
+      <rect x="460" y="244" width="220" height="90" rx="10" fill="#221016" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="570" y="280" fill="#f87171" text-anchor="middle" font-size="24" font-weight="800">3.588 BTC</text>
+      <text x="570" y="306" fill="#a1a1aa" text-anchor="middle" font-size="13">gesamt · ~216M $</text>
+      <text x="20" y="366" fill="#71717a" font-size="13">Dividenden: STRF·STRE·STRK·STRD (viertelj.) + STRC (monatl.) · hält ~847.000 BTC</text>
+    </g>
+  </svg>
+  </div>
+
+  <h2 class="ko">어떻게 작동하는가 — '디지털 크레딧'과 배당 의무</h2>
+  <h2 class="en">How it works — 'Digital Credit' and the dividend obligation</h2>
+  <h2 class="ja">どう作動するか — 「デジタル・クレジット」と配当義務</h2>
+  <h2 class="es">Cómo funciona — 'Digital Credit' y la obligación de dividendos</h2>
+  <h2 class="de">Wie es funktioniert — 'Digital Credit' und die Dividendenpflicht</h2>
+  <p class="ko">한 단계 더 들어가 보자. 스트래티지의 자본 구조는 크게 세 층이다. 맨 위에 보통주(MSTR), 그 아래에 전환사채, 그리고 STRF·STRE·STRK·STRD·STRC 같은 우선주가 있다. 이 우선주들은 회사가 비트코인을 사기 위한 자금을 조달하는 통로였지만, 동시에 정기적으로 배당을 지급해야 하는 '고정 비용'을 만들어낸다. 문제는 스트래티지의 본업(소프트웨어)에서 나오는 현금흐름만으로는 이 배당을 전부 감당하기 어렵다는 데 있다. 결국 배당 재원은 새 자본 조달이나 보유 비트코인 매각에서 나올 수밖에 없는 구조다.</p>
+  <p class="ko">비트코인 가격이 취득가보다 높고 주가가 순자산가치(NAV)를 웃돌 때는 이 구조가 매끄럽게 돌아간다. 회사는 프리미엄이 붙은 주식이나 우선주를 팔아 비트코인을 더 사고, 배당은 새 조달로 메운다. 그러나 지금처럼 비트코인이 취득가를 밑돌고 신규 조달 여건이 나빠지면, 배당이라는 고정 비용이 오히려 보유 자산을 갉아먹는 압력으로 돌변한다. 이번 매각은 바로 그 압력이 실제 거래로 나타난 첫 사례다. 회사는 앞서 최대 12억5,000만 달러 규모의 'BTC 수익화 프로그램'을 승인해 뒀는데, 이번 2억1,600만 달러 매각은 그 프로그램이 문서상 권한을 넘어 실제 집행 단계로 들어섰음을 보여준다.</p>
+  <p class="en">Go one level deeper. Strategy's capital stack has roughly three layers: common stock (MSTR) at the top, convertible debt below it, and preferred shares such as STRF, STRE, STRK, STRD and STRC. These preferreds were the conduit for raising cash to buy bitcoin, but they also create a "fixed cost" — regular dividends that must be paid. The catch is that the cash flow from Strategy's core software business alone cannot cover all of them. So the dividend money must ultimately come from fresh capital raises or from selling bitcoin held on the balance sheet.</p>
+  <p class="en">When bitcoin trades above cost and the stock trades above net asset value (NAV), this machine runs smoothly: the company sells premium-priced shares or preferreds to buy more bitcoin and covers dividends with new issuance. But when bitcoin sits below cost and raising fresh capital gets harder — as now — that fixed dividend cost flips into pressure that eats into the very assets it was built on. This sale is the first case of that pressure showing up as an actual transaction. The company had earlier authorized a "BTC Monetization Program" of up to $1.25 billion, and this $216 million sale shows that program moving from paper authority into real execution.</p>
+  <p class="ja">もう一段掘り下げよう。ストラテジーの資本構造は大きく三層だ。最上位に普通株(MSTR)、その下に転換社債、そしてSTRF・STRE・STRK・STRD・STRCといった優先株がある。これらの優先株はビットコイン購入資金を調達する経路だったが、同時に定期的に配当を支払う「固定費」を生み出す。問題は、ストラテジーの本業(ソフトウェア)から生じるキャッシュフローだけではこの配当を全て賄いにくい点だ。結局、配当原資は新規調達か保有ビットコインの売却から出ざるを得ない構造である。</p>
+  <p class="ja">ビットコイン価格が取得価格を上回り、株価が純資産価値(NAV)を上回るときは、この仕組みは滑らかに回る。会社はプレミアムの付いた株式や優先株を売ってビットコインを買い増し、配当は新規調達で補う。しかし今のようにビットコインが取得価格を下回り、新規調達の環境が悪化すると、配当という固定費はむしろ保有資産を削る圧力へと転じる。今回の売却は、まさにその圧力が実取引として現れた最初の事例だ。会社は先に最大12億5,000万ドル規模の「BTC収益化プログラム」を承認しており、今回の2億1,600万ドルの売却は、そのプログラムが文書上の権限を超えて実際の執行段階に入ったことを示す。</p>
+  <p class="es">Vayamos un nivel más adentro. La estructura de capital de Strategy tiene unas tres capas: acciones comunes (MSTR) arriba, deuda convertible debajo y acciones preferentes como STRF, STRE, STRK, STRD y STRC. Estas preferentes fueron el conducto para recaudar efectivo y comprar bitcoin, pero también crean un "costo fijo": dividendos regulares que deben pagarse. El problema es que el flujo de caja del negocio central de software de Strategy no basta por sí solo para cubrirlos todos. Así que el dinero de los dividendos debe salir, en última instancia, de nuevas emisiones de capital o de la venta del bitcoin del balance.</p>
+  <p class="es">Cuando el bitcoin cotiza por encima del costo y la acción por encima del valor neto de los activos (NAV), esta máquina funciona con fluidez: la empresa vende acciones o preferentes con prima para comprar más bitcoin y cubre los dividendos con nuevas emisiones. Pero cuando el bitcoin queda por debajo del costo y recaudar capital fresco se vuelve más difícil —como ahora—, ese costo fijo de dividendos se convierte en una presión que devora los propios activos sobre los que se construyó. Esta venta es el primer caso de esa presión materializándose como transacción real. La empresa había autorizado antes un "Programa de Monetización de BTC" de hasta 1.250 millones de dólares, y esta venta de 216 millones muestra ese programa pasando de la autoridad en papel a la ejecución real.</p>
+  <p class="de">Gehen wir eine Ebene tiefer. Strategys Kapitalstruktur hat etwa drei Schichten: Stammaktien (MSTR) oben, Wandelanleihen darunter und Vorzugsaktien wie STRF, STRE, STRK, STRD und STRC. Diese Vorzugspapiere waren der Kanal zur Kapitalbeschaffung für Bitcoin-Käufe, schaffen aber zugleich einen "Fixkosten"-Block — regelmäßige Dividenden, die gezahlt werden müssen. Der Haken: Der Cashflow aus Strategys Kern-Softwaregeschäft allein kann sie nicht alle decken. Das Dividendengeld muss also letztlich aus frischen Kapitalerhöhungen oder dem Verkauf von Bitcoin aus der Bilanz kommen.</p>
+  <p class="de">Wenn Bitcoin über den Kosten und die Aktie über dem Nettoinventarwert (NAV) notiert, läuft diese Maschine reibungslos: Das Unternehmen verkauft mit Aufschlag bewertete Aktien oder Vorzugspapiere, um mehr Bitcoin zu kaufen, und deckt Dividenden mit neuen Emissionen. Doch wenn Bitcoin unter den Kosten liegt und frisches Kapital schwerer zu beschaffen ist — wie jetzt — kippt dieser fixe Dividendenposten in Druck, der genau die Vermögenswerte auffrisst, auf denen er aufgebaut wurde. Dieser Verkauf ist der erste Fall, in dem sich dieser Druck als reale Transaktion zeigt. Das Unternehmen hatte zuvor ein "BTC-Monetarisierungsprogramm" über bis zu 1,25 Milliarden Dollar genehmigt, und dieser 216-Millionen-Verkauf zeigt, wie dieses Programm von der Papier-Vollmacht in die reale Umsetzung übergeht.</p>
+
+  <h2 class="ko">2022년의 32개 매각과 무엇이 다른가</h2>
+  <h2 class="en">How this differs from the 32-coin sale</h2>
+  <h2 class="ja">2022年の32枚売却と何が違うか</h2>
+  <h2 class="es">En qué difiere de la venta de 32 monedas</h2>
+  <h2 class="de">Wie sich dies vom 32-Coin-Verkauf unterscheidet</h2>
+  <p class="ko">스트래티지의 매각 자체가 처음은 아니다. 2022년 말 회사는 세금 목적의 손실 실현(tax-loss harvesting)을 위해 소량의 비트코인을 팔았고, 지난 5월에도 배당 지급용으로 32개를 처분했다. 그러나 이번 3,588개는 성격이 다르다. 5월 매각이 상징적 규모였다면 이번은 약 100배로, 회사가 배당을 위해 비트코인을 파는 것이 일회성 예외가 아니라 반복 가능한 자금 조달 수단이 됐음을 보여준다. 특히 손실을 감수하면서까지 팔았다는 점은, 회사가 '어떤 가격에도 절대 팔지 않는다'는 과거의 서사에서 분명히 이동했다는 신호다.</p>
+  <p class="ko">다르게 해석할 여지도 있다. 3,588개는 스트래티지가 보유한 약 84만7,000개의 0.4%에 불과해, 전체 보유고에 미치는 직접적 영향은 미미하다. 옹호론자들은 이를 '위기'가 아니라 배당 현금을 마련하는 정상적 재무 관리로 본다. 그러나 비판적 시각에서 보면, 이번 매각은 비트코인 매집 기업 모델의 구조적 약점을 드러낸다. 주가가 NAV를 밑돌아 신주 발행이 어려워지면 배당 의무가 자산 매각을 강제하고, 그 매각은 다시 시장에 매물 압력과 심리적 부담을 더한다. 이 되먹임 고리가 얼마나 커지느냐가 관건이며, 최근 수년간 우후죽순 늘어난 '비트코인 트레저리(DAT)' 기업들에도 같은 질문이 적용된다.</p>
+  <p class="en">This is not Strategy's first sale. In late 2022 the company sold a small amount of bitcoin for tax-loss harvesting, and in late May it disposed of 32 coins to fund dividends. But these 3,588 coins are different in character. If the May sale was symbolic in size, this one is roughly 100 times larger, showing that selling bitcoin for dividends has become not a one-off exception but a repeatable funding tool. That the company sold even at a loss is a signal it has clearly moved away from its old narrative of "never selling at any price."</p>
+  <p class="en">There is room for a different reading. The 3,588 coins are just 0.4% of the roughly 847,000 Strategy holds, so the direct impact on the total stack is minimal. Defenders see this not as a "crisis" but as routine treasury management to raise dividend cash. From a critical angle, though, the sale exposes a structural weakness in the bitcoin-accumulator model: when the stock trades below NAV and issuing new shares gets hard, the dividend obligation forces asset sales, and those sales in turn add supply pressure and psychological weight to the market. How large this feedback loop grows is the crux — and the same question applies to the many "bitcoin treasury" (DAT) firms that have sprung up in recent years.</p>
+  <p class="ja">ストラテジーの売却自体は初めてではない。2022年末に会社は税務目的の損失実現(tax-loss harvesting)のために少量のビットコインを売り、5月にも配当支払い用に32枚を処分した。しかし今回の3,588枚は性格が異なる。5月の売却が象徴的な規模だったとすれば、今回は約100倍で、配当のためにビットコインを売ることが一度きりの例外ではなく反復可能な資金調達手段になったことを示す。とりわけ損失を負ってまで売った点は、会社が「どんな価格でも決して売らない」という過去の物語から明確に移動したという信号だ。</p>
+  <p class="ja">別の解釈の余地もある。3,588枚はストラテジーが保有する約84万7,000枚の0.4%に過ぎず、総保有への直接的な影響は小さい。擁護派はこれを「危機」ではなく配当現金を用意する正常な財務管理と見る。しかし批判的視点では、今回の売却はビットコイン集積企業モデルの構造的弱点を露呈する。株価がNAVを下回り新株発行が難しくなると配当義務が資産売却を強制し、その売却は再び市場に売り圧力と心理的負担を加える。この反復ループがどれだけ大きくなるかが鍵であり、近年乱立した「ビットコイン・トレジャリー(DAT)」企業にも同じ問いが当てはまる。</p>
+  <p class="es">No es la primera venta de Strategy. A finales de 2022 la empresa vendió una pequeña cantidad de bitcoin para cosechar pérdidas fiscales (tax-loss harvesting), y a finales de mayo dispuso de 32 monedas para financiar dividendos. Pero estas 3.588 monedas son distintas en carácter. Si la venta de mayo fue simbólica en tamaño, esta es unas 100 veces mayor, mostrando que vender bitcoin para dividendos se ha vuelto no una excepción puntual sino una herramienta de financiación repetible. Que la empresa vendiera incluso con pérdida es una señal de que se ha alejado claramente de su viejo relato de "nunca vender a ningún precio".</p>
+  <p class="es">Hay margen para otra lectura. Las 3.588 monedas son apenas el 0,4% de las cerca de 847.000 que posee Strategy, así que el impacto directo sobre el total es mínimo. Los defensores no lo ven como una "crisis" sino como gestión de tesorería rutinaria para reunir efectivo de dividendos. Desde un ángulo crítico, sin embargo, la venta expone una debilidad estructural del modelo acumulador de bitcoin: cuando la acción cotiza por debajo del NAV y emitir nuevas acciones se dificulta, la obligación de dividendos fuerza ventas de activos, y esas ventas a su vez añaden presión de oferta y peso psicológico al mercado. Cuánto crece este bucle de retroalimentación es el meollo, y la misma pregunta aplica a las muchas firmas de "tesorería de bitcoin" (DAT) surgidas en años recientes.</p>
+  <p class="de">Es ist nicht Strategys erster Verkauf. Ende 2022 verkaufte das Unternehmen eine kleine Menge Bitcoin zur steuerlichen Verlustrealisierung (Tax-Loss-Harvesting), und Ende Mai veräußerte es 32 Coins zur Dividendenfinanzierung. Doch diese 3.588 Coins sind anderer Natur. War der Mai-Verkauf symbolisch in der Größe, ist dieser rund 100-mal größer und zeigt, dass der Verkauf von Bitcoin für Dividenden nicht mehr eine einmalige Ausnahme, sondern ein wiederholbares Finanzierungsinstrument ist. Dass das Unternehmen sogar mit Verlust verkaufte, signalisiert eine klare Abkehr von seinem alten Narrativ des "Niemals-Verkaufens zu welchem Preis auch immer".</p>
+  <p class="de">Es gibt Raum für eine andere Lesart. Die 3.588 Coins sind nur 0,4 % der rund 847.000, die Strategy hält, sodass die direkte Wirkung auf den Gesamtbestand minimal ist. Befürworter sehen darin keine "Krise", sondern routinemäßiges Treasury-Management zur Beschaffung von Dividendenbargeld. Aus kritischer Sicht legt der Verkauf jedoch eine strukturelle Schwäche des Bitcoin-Akkumulator-Modells offen: Wenn die Aktie unter dem NAV notiert und die Ausgabe neuer Aktien schwerer wird, erzwingt die Dividendenpflicht Vermögensverkäufe, und diese Verkäufe fügen dem Markt wiederum Angebotsdruck und psychologisches Gewicht hinzu. Wie groß diese Rückkopplungsschleife wird, ist der Kern — und dieselbe Frage gilt für die vielen "Bitcoin-Treasury"-Firmen (DAT), die in den letzten Jahren entstanden sind.</p>
+
+  <h2 class="ko">무엇을 지켜봐야 하나</h2>
+  <h2 class="en">What to watch</h2>
+  <h2 class="ja">何を注視すべきか</h2>
+  <h2 class="es">Qué vigilar</h2>
+  <h2 class="de">Worauf zu achten ist</h2>
+  <p class="ko">지켜볼 핵심 지표는 세 가지다. 첫째, 스트래티지 주가가 NAV 대비 프리미엄을 회복하는지 여부다. 프리미엄이 돌아오면 회사는 다시 신주·우선주 발행으로 배당을 메울 수 있어 비트코인 매각 압력이 줄어든다. 둘째, 12억5,000만 달러 한도의 BTC 수익화 프로그램이 얼마나 빠르게 소진되는지다. 이번 2억1,600만 달러는 시작일 뿐이며, 배당이 계속되는 한 매 분기·매월 비슷한 처분이 반복될 수 있다. 셋째, 비트코인 가격이 회사의 평균 취득가(약 7만5,000달러)를 회복하는 시점이다. 가격이 취득가를 넘어서면 손실 확정 부담 자체가 사라진다.</p>
+  <p class="ko">더 큰 그림에서 이번 사건이 던지는 질문은 '기업 비트코인 보유 모델이 하락장에서도 지속 가능한가'이다. 상승장에서 이 모델은 프리미엄→매집→주가 상승의 선순환을 그리지만, 하락장에서는 배당·이자라는 고정 비용이 반대 방향으로 작동한다. 스트래티지가 손실을 감수하며 판 이번 결정은 그 모델이 시험대에 올랐음을 보여주는 첫 실물 증거다. 투자자라면 회사의 다음 공시에서 매각이 일회성인지 반복되는지, 그리고 신규 자본 조달 여건이 개선되는지를 함께 확인할 필요가 있다. 개별 종목 전망이 아니라, 비트코인 시장 전체에 걸친 '강제 매도 압력'의 잠재적 원천으로서 이 구조를 이해하는 것이 중요하다.</p>
+  <p class="en">Three metrics are key to watch. First, whether Strategy's stock recovers a premium to NAV. If the premium returns, the company can again cover dividends via new share and preferred issuance, easing the pressure to sell bitcoin. Second, how quickly the $1.25 billion BTC Monetization Program is drawn down. This $216 million is only the start, and as long as dividends continue, similar disposals could recur each quarter and month. Third, the point at which bitcoin recovers the company's average cost (around $75,000). Once price clears cost, the burden of realizing a loss disappears altogether.</p>
+  <p class="en">In the bigger picture, the question this episode poses is whether the corporate bitcoin-holding model is sustainable in a down market. In a bull market the model traces a virtuous circle of premium → accumulation → higher stock; in a bear market, the fixed cost of dividends and interest works in reverse. Strategy's decision to sell at a loss is the first real-world evidence that the model is being tested. Investors should check the next filing to see whether the sale is a one-off or recurring, and whether conditions for raising fresh capital improve. What matters is understanding this structure not as a single-stock call but as a potential source of "forced-selling pressure" across the whole bitcoin market.</p>
+  <p class="ja">注視すべき核心指標は三つだ。第一に、ストラテジー株がNAV比のプレミアムを回復するか否か。プレミアムが戻れば会社は再び新株・優先株の発行で配当を賄え、ビットコイン売却圧力が減る。第二に、12億5,000万ドル枠のBTC収益化プログラムがどれだけ速く消化されるか。今回の2億1,600万ドルは始まりに過ぎず、配当が続く限り毎四半期・毎月同様の処分が繰り返され得る。第三に、ビットコイン価格が会社の平均取得価格(約7万5,000ドル)を回復する時点だ。価格が取得価格を超えれば損失確定の負担そのものが消える。</p>
+  <p class="ja">より大きな絵で今回の出来事が投げかける問いは「企業ビットコイン保有モデルは下落相場でも持続可能か」である。上昇相場ではこのモデルはプレミアム→集積→株価上昇の好循環を描くが、下落相場では配当・利息という固定費が逆方向に働く。ストラテジーが損失を負って売った今回の決定は、そのモデルが試練にさらされていることを示す初の実物証拠だ。投資家なら、会社の次の開示で売却が一度きりか反復されるか、そして新規資本調達の環境が改善するかを併せて確認する必要がある。個別銘柄の見通しではなく、ビットコイン市場全体にかかる「強制売却圧力」の潜在的な源泉としてこの構造を理解することが重要だ。</p>
+  <p class="es">Tres métricas son clave. Primero, si la acción de Strategy recupera una prima sobre el NAV. Si la prima vuelve, la empresa podrá de nuevo cubrir dividendos mediante emisión de acciones y preferentes, aliviando la presión de vender bitcoin. Segundo, con qué rapidez se agota el Programa de Monetización de BTC de 1.250 millones. Estos 216 millones son solo el comienzo, y mientras sigan los dividendos, ventas similares podrían repetirse cada trimestre y cada mes. Tercero, el punto en que el bitcoin recupere el costo medio de la empresa (unos 75.000 dólares). Cuando el precio supere el costo, la carga de realizar una pérdida desaparece por completo.</p>
+  <p class="es">En el panorama más amplio, la pregunta que plantea este episodio es si el modelo corporativo de tenencia de bitcoin es sostenible en un mercado bajista. En un mercado alcista el modelo traza un círculo virtuoso de prima → acumulación → acción más alta; en uno bajista, el costo fijo de dividendos e intereses opera a la inversa. La decisión de Strategy de vender con pérdida es la primera evidencia real de que el modelo está siendo puesto a prueba. Los inversores deberían revisar la próxima presentación para ver si la venta es puntual o recurrente, y si mejoran las condiciones para captar capital fresco. Lo que importa es entender esta estructura no como una apuesta sobre una sola acción, sino como una fuente potencial de "presión de venta forzada" en todo el mercado del bitcoin.</p>
+  <p class="de">Drei Kennzahlen sind entscheidend. Erstens, ob Strategys Aktie eine Prämie zum NAV zurückgewinnt. Kehrt die Prämie zurück, kann das Unternehmen Dividenden wieder über neue Aktien- und Vorzugsemissionen decken, was den Druck zum Bitcoin-Verkauf mindert. Zweitens, wie schnell das 1,25-Milliarden-Dollar-BTC-Monetarisierungsprogramm ausgeschöpft wird. Diese 216 Millionen sind nur der Anfang, und solange Dividenden laufen, könnten sich ähnliche Veräußerungen jedes Quartal und jeden Monat wiederholen. Drittens, der Zeitpunkt, an dem Bitcoin die durchschnittlichen Kosten des Unternehmens (rund 75.000 Dollar) zurückgewinnt. Übersteigt der Preis die Kosten, entfällt die Last der Verlustrealisierung ganz.</p>
+  <p class="de">Im größeren Bild lautet die Frage dieser Episode, ob das unternehmerische Bitcoin-Haltemodell in einem fallenden Markt tragfähig ist. In einem Bullenmarkt zeichnet das Modell einen Kreislauf von Prämie → Akkumulation → höherer Aktie; in einem Bärenmarkt wirken die Fixkosten aus Dividenden und Zinsen umgekehrt. Strategys Entscheidung, mit Verlust zu verkaufen, ist der erste reale Beleg, dass das Modell auf die Probe gestellt wird. Anleger sollten die nächste Eingabe prüfen, ob der Verkauf einmalig oder wiederkehrend ist und ob sich die Bedingungen für frisches Kapital bessern. Wichtig ist, diese Struktur nicht als Einzelaktien-Wette zu verstehen, sondern als potenzielle Quelle von "Zwangsverkaufsdruck" über den gesamten Bitcoin-Markt.</p>
+
+  <div class="box ko">💡 <strong>시사점:</strong> 스트래티지의 3,588 BTC(약 2억1,600만 달러) 매각은 단순한 손절이 아니라, 우선주 배당이라는 고정 비용이 하락장에서 어떻게 보유 자산 매각을 강제하는지 보여주는 구조적 사건이다. 매각분은 전체 보유고의 0.4%에 불과하지만, 손실을 감수하며 판 결정은 '절대 안 판다'는 서사의 전환점이다. 핵심은 주가의 NAV 프리미엄 회복 여부와 BTC 수익화 프로그램 소진 속도이며, 이는 비트코인 트레저리 모델 전반의 지속가능성을 가늠하는 시험대다.</div>
+  <div class="box en">💡 <strong>Takeaway:</strong> Strategy's sale of 3,588 BTC (~$216M) is not a simple stop-loss but a structural event showing how the fixed cost of preferred dividends forces asset sales in a down market. The sold amount is just 0.4% of the total stack, yet the choice to sell at a loss marks a turning point away from the "never sell" narrative. The keys are whether the stock's NAV premium returns and how fast the BTC Monetization Program is drawn down — a test of the sustainability of the bitcoin-treasury model overall.</div>
+  <div class="box ja">💡 <strong>示唆:</strong> ストラテジーの3,588 BTC(約2億1,600万ドル)売却は単なる損切りではなく、優先株配当という固定費が下落相場でどのように保有資産の売却を強制するかを示す構造的な出来事だ。売却分は総保有の0.4%に過ぎないが、損失を負って売った決定は「決して売らない」物語の転換点である。核心は株価のNAVプレミアム回復の有無とBTC収益化プログラムの消化速度で、ビットコイン・トレジャリーモデル全般の持続可能性を測る試金石だ。</div>
+  <div class="box es">💡 <strong>Conclusión:</strong> La venta de 3.588 BTC (~$216M) de Strategy no es un simple stop-loss, sino un evento estructural que muestra cómo el costo fijo de los dividendos preferentes fuerza ventas de activos en un mercado bajista. Lo vendido es apenas el 0,4% del total, pero la decisión de vender con pérdida marca un giro respecto al relato de "nunca vender". Las claves son si vuelve la prima sobre el NAV y con qué rapidez se agota el Programa de Monetización de BTC — una prueba de la sostenibilidad del modelo de tesorería de bitcoin en general.</div>
+  <div class="box de">💡 <strong>Fazit:</strong> Strategys Verkauf von 3.588 BTC (~216 Mio. $) ist kein einfacher Stop-Loss, sondern ein strukturelles Ereignis, das zeigt, wie der Fixkostenblock der Vorzugsdividenden in einem fallenden Markt Vermögensverkäufe erzwingt. Das Verkaufte ist nur 0,4 % des Gesamtbestands, doch die Entscheidung, mit Verlust zu verkaufen, markiert eine Wende weg vom "Niemals-Verkaufen"-Narrativ. Entscheidend sind die Rückkehr der NAV-Prämie der Aktie und das Tempo, in dem das BTC-Monetarisierungsprogramm ausgeschöpft wird — ein Test der Nachhaltigkeit des Bitcoin-Treasury-Modells insgesamt.</div>
+
+  <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 미국 증권거래위원회(SEC) 공시, CoinDesk, Bloomberg, Fortune, CCN, TheStreet, ZeroHedge. 취득가·매각가 및 배당 종목(STRF·STRE·STRK·STRD·STRC) 정보는 회사 공시와 CoinDesk 집계 기준. 가격 데이터는 7월 6일 시점.</p>
+  <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: U.S. Securities and Exchange Commission (SEC) filing, CoinDesk, Bloomberg, Fortune, CCN, TheStreet, ZeroHedge. Cost/sale prices and dividend issues (STRF, STRE, STRK, STRD, STRC) per company filing and CoinDesk tally. Price data as of July 6.</p>
+  <p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: 米証券取引委員会(SEC)提出書類、CoinDesk、Bloomberg、Fortune、CCN、TheStreet、ZeroHedge。取得価格・売却価格および配当銘柄(STRF・STRE・STRK・STRD・STRC)情報は会社開示およびCoinDesk集計に基づく。価格データは7月6日時点。</p>
+  <p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: Presentación ante la Comisión de Bolsa y Valores (SEC) de EE. UU., CoinDesk, Bloomberg, Fortune, CCN, TheStreet, ZeroHedge. Precios de costo/venta y emisiones de dividendos (STRF, STRE, STRK, STRD, STRC) según la presentación de la empresa y el recuento de CoinDesk. Datos de precios al 6 de julio.</p>
+  <p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: Eingabe bei der US-Börsenaufsicht SEC, CoinDesk, Bloomberg, Fortune, CCN, TheStreet, ZeroHedge. Kosten-/Verkaufspreise und Dividendenpapiere (STRF, STRE, STRK, STRD, STRC) gemäß Unternehmenseingabe und CoinDesk-Zählung. Preisdaten zum 6. Juli.</p>
+<?php require __DIR__.'/_footer.php'; ?>
