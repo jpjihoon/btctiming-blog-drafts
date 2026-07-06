@@ -147,6 +147,16 @@ nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:st
 .lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
 .lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+/* 본문 + 우측 광고 컬럼 레이아웃 (넓은 화면 + 광고가 실제 있을 때만 노출) */
+@media(min-width:1100px){
+  .wrap:has(.wrap-ad:not(:empty)){max-width:1020px;display:flex;gap:28px;align-items:flex-start;justify-content:center}
+  .wrap:has(.wrap-ad:not(:empty)) .wrap-main{max-width:712px;flex:1 1 auto;min-width:0}
+  .wrap-ad:not(:empty){flex:0 0 160px;position:sticky;top:72px;align-self:flex-start;min-height:600px}
+}
+.wrap-ad:empty{display:none}
+@media(max-width:1099px){
+  .wrap-ad{display:none}
+}
 /* 본문 이미지·SVG·표 반응형 (모바일에서 잘림/축소 방지) */
 .wrap img,.wrap table,.wrap iframe{max-width:100%;height:auto}
 .wrap img{border-radius:10px}
@@ -284,6 +294,7 @@ footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center
   </div>
 </div></nav>
 <div class="wrap">
+<div class="wrap-main">
   <?php
     $bcSuffix = langSuffix($requestedLang); // 브레드크럼 링크도 현재 보고 있는 언어를 유지하도록
     $bcCatHref = '/blog/?cat=' . h($catKey) . ($requestedLang !== 'ko' ? '&lang=' . h($requestedLang) : '');

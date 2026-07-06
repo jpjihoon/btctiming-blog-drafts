@@ -93,6 +93,14 @@ h1{font-size:1.6rem;font-weight:800;color:#fafafa;letter-spacing:-.5px}
 .cat-tab.active{background:var(--cat-color,#f7931a);border-color:var(--cat-color,#f7931a);color:#000}
 
 .wrap{max-width:800px;margin:0 auto;padding:36px 24px 80px}
+/* 목록 + 우측 광고 컬럼 (넓은 화면 + 광고 있을 때만) */
+@media(min-width:1100px){
+  .wrap:has(.wrap-ad:not(:empty)){max-width:1060px;display:flex;gap:28px;align-items:flex-start;justify-content:center}
+  .wrap:has(.wrap-ad:not(:empty)) .wrap-main{max-width:800px;flex:1 1 auto;min-width:0}
+  .wrap-ad:not(:empty){flex:0 0 160px;position:sticky;top:24px;align-self:flex-start;min-height:600px}
+}
+.wrap-ad:empty{display:none}
+@media(max-width:1099px){.wrap-ad{display:none}}
 .article-grid{display:grid;gap:14px}
 .article-card{background:#111113;border:1px solid rgba(255,255,255,.07);border-radius:14px;
   padding:22px;transition:border-color .18s,transform .18s,background .18s;
@@ -207,6 +215,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </div>
 
 <div class="wrap">
+<div class="wrap-main">
   <div class="article-grid" id="articleGrid">
 <?php if (empty($articles)): ?>
     <div class="empty ko">아직 등록된 글이 없습니다.</div>
@@ -294,6 +303,8 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     <a href="/?lang=es" class="es-show" style="display:none">Ver Análisis en Vivo →</a>
     <a href="/?lang=de" class="de-show" style="display:none">Live-Analyse ansehen →</a>
   </div>
+</div><?php // /.wrap-main ?>
+  <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
 </div>
 <footer>
   © 2026 BTCtiming.com ·

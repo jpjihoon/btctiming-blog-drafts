@@ -155,6 +155,8 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     <a href="<?= h($mainHref) ?>" class="es" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Ver Análisis en Vivo →</a>
     <a href="<?= h($mainHref) ?>" class="de" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Live-Analyse ansehen →</a>
   </div>
+</div><?php // /.wrap-main ?>
+  <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
 </div>
 <?php $legalSuffix = langSuffix($requestedLang); ?>
 <footer>© 2026 BTCtiming.com · <a href="/privacy<?= h($legalSuffix) ?>" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy<?= h($legalSuffix) ?>" style="color:#52525b" class="en">Privacy Policy</a><a href="/privacy<?= h($legalSuffix) ?>" style="color:#52525b" class="ja">プライバシーポリシー</a><a href="/privacy<?= h($legalSuffix) ?>" style="color:#52525b" class="es">Política de Privacidad</a><a href="/privacy<?= h($legalSuffix) ?>" style="color:#52525b" class="de">Datenschutzerklärung</a> · <a href="/terms<?= h($legalSuffix) ?>" style="color:#52525b" class="ko">이용약관</a><a href="/terms<?= h($legalSuffix) ?>" style="color:#52525b" class="en">Terms of Service</a><a href="/terms<?= h($legalSuffix) ?>" style="color:#52525b" class="ja">利用規約</a><a href="/terms<?= h($legalSuffix) ?>" style="color:#52525b" class="es">Términos de Servicio</a><a href="/terms<?= h($legalSuffix) ?>" style="color:#52525b" class="de">Nutzungsbedingungen</a> · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span><span class="ja">投資助言ではありません</span><span class="es">No es asesoramiento financiero</span><span class="de">Keine Finanzberatung</span>.</footer>
