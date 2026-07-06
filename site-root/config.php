@@ -9,6 +9,13 @@
 // 렌더링 대신 소스코드를 그대로 보여주는 심각한 버그가 생김. config.php는 순수 설정/상수만
 // 담당하고, 실제로 JSON 응답이 필요한 곳(api.php 등)에서 각자 header()를 호출하도록 분리함.
 
+// ── 점수 히스토리 스냅샷 설정 ──────────────────────
+// snapshot.php 를 크론에서 호출할 때 쓰는 인증 토큰. 아무나 호출해 데이터를
+// 늘리지 못하게 막는 용도. 노출되면 config.php에서 이 값만 바꾸면 된다.
+const SNAPSHOT_TOKEN = 'e8028ae26b0fd3d47f30c9748255a6964a9ab1db433b8093';
+// Firebase Realtime DB URL (scoreHistory 저장 위치)
+const FIREBASE_DB_URL = 'https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
+
 // 코인별 Binance 심볼 매핑
 const COIN_SYMBOLS = [
     'BTC'  => 'BTCUSDT',
