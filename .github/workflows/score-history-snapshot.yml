@@ -1,70 +1,47 @@
 name: Score History Snapshot
 
-# 매시간 정각에 8개 코인의 매수(long)/매도(short) 점수를 계산해
-# Firebase Realtime DB(scoreHistory/{coin}_{mode})에 저장한다.
-# 사용자가 사이트에 접속하지 않아도 히스토리에 구멍이 생기지 않게 하는 목적.
+# 8개 코인의 매수(long)/매도(short) 점수를 계산해 Firebase(scoreHistory/{coin}_{mode})에 저장한다.
+# 실제 계산·저장은 서버의 snapshot.php가 담당하고, 이 워크플로우는 그 URL을 호출만 한다.
+# (외부 크론 cron-job.org 도 같은 URL을 호출해 이중화 → 한쪽이 스킵돼도 구멍이 안 생김)
 
 on:
   schedule:
-    - cron: '0 * * * *'    # 매시간 0분 (UTC)
-    - cron: '15 * * * *'   # 15분
-    - cron: '30 * * * *'   # 30분
-    - cron: '45 * * * *'   # 45분
-    # 15분 간격 스냅샷. GitHub 무료 스케줄은 부하 시 일부 건너뛰므로 여러 줄로 명시해 실행률을 높인다.
-    # 브라우저 저장과 병행돼도 중복은 무해(각 스냅샷이 별도 포인트).
-  workflow_dispatch: {}    # 수동 실행 버튼도 허용
+    # 15분 간격. GitHub 무료 스케줄은 '정각·딱 떨어지는 분'에 부하가 몰려 스킵되기 쉬워
+    # 어중간한 분(:07/:22/:37/:52)으로 분산한다. 그래도 간헐 스킵은 외부 크론이 커버.
+    - cron: '7 * * * *'
+    - cron: '22 * * * *'
+    - cron: '37 * * * *'
+    - cron: '52 * * * *'
+  workflow_dispatch: {}
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
-      - name: Take score snapshot and push to Firebase
+      - name: Call snapshot endpoint
         shell: bash
+        env:
+          SNAPSHOT_TOKEN: ${{ secrets.SNAPSHOT_TOKEN }}
         run: |
           set -uo pipefail
+          echo "=== Score History Snapshot @ $(date -u '+%Y-%m-%d %H:%M:%S UTC') ==="
 
-          API_BASE="https://btctiming.com/api.php"
-          FB_BASE="https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app"
-          COINS=(BTC ETH BNB SOL XRP DOGE ADA TRX)
-          NOW_MS=$(( $(date +%s) * 1000 ))
+          if [ -z "${SNAPSHOT_TOKEN:-}" ]; then
+            echo "ERROR: SNAPSHOT_TOKEN secret is not set (repo Settings > Secrets)."
+            exit 1
+          fi
 
-          ok=0; fail=0
+          # snapshot.php 호출 (재시도 포함). 서버가 8코인×2모드를 계산·저장한다.
+          resp=$(curl -fsS --max-time 120 --retry 2 --retry-delay 5 \
+            "https://btctiming.com/snapshot.php?key=${SNAPSHOT_TOKEN}" 2>/dev/null) || {
+              echo "snapshot call FAILED"; exit 1;
+            }
 
-          save_one () {
-            local coin="$1" mode="$2" modekey="$3"
-            # api.php 호출 (타임아웃/재시도 포함)
-            local resp
-            resp=$(curl -fsS --max-time 25 --retry 2 --retry-delay 3 \
-              "${API_BASE}?coin=${coin}&mode=${mode}" 2>/dev/null) || { echo "  [$coin/$mode] api fetch FAILED"; fail=$((fail+1)); return; }
-
-            # result.final 추출 (jq — ubuntu-latest에 기본 설치됨)
-            local score
-            score=$(printf '%s' "$resp" | jq -r '.result.final // empty' 2>/dev/null) || score=""
-            # 숫자가 아니면 버림
-            if ! printf '%s' "$score" | grep -Eq '^-?[0-9]+(\.[0-9]+)?$'; then
-              echo "  [$coin/$mode] no valid score in response"; fail=$((fail+1)); return
-            fi
-
-            # Firebase에 POST(push) — scoreHistory/{coin}_{modekey}
-            # 규칙이 append-only(!data.exists())이므로 새 키 push는 통과. 형식은 브라우저와 동일: {t, s}
-            local path="${FB_BASE}/scoreHistory/${coin}_${modekey}.json"
-            local body
-            body=$(printf '{"t":%s,"s":%s}' "$NOW_MS" "$score")
-            if curl -fsS --max-time 20 -X POST -d "$body" "$path" >/dev/null 2>&1; then
-              echo "  [$coin/$modekey] saved score=$score"
-              ok=$((ok+1))
-            else
-              echo "  [$coin/$modekey] firebase POST FAILED"
-              fail=$((fail+1))
-            fi
-          }
-
-          for c in "${COINS[@]}"; do
-            save_one "$c" "buy"  "long"
-            save_one "$c" "sell" "short"
-          done
-
+          echo "$resp"
+          # ok 개수 확인 (jq)
+          ok=$(printf '%s' "$resp" | jq -r '.ok // 0' 2>/dev/null || echo 0)
+          fail=$(printf '%s' "$resp" | jq -r '.fail // 0' 2>/dev/null || echo 0)
           echo "----------------------------------------"
-          echo "Snapshot done: ok=$ok fail=$fail (at ${NOW_MS}ms)"
-          # 일부 실패해도 워크플로우 자체는 성공 처리 (다음 시간에 재시도)
+          echo "Snapshot done: ok=$ok fail=$fail"
+          # 일부 실패해도 워크플로우는 성공 처리 (다음 스케줄에 재시도)
           exit 0
