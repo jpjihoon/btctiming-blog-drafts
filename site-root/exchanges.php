@@ -139,21 +139,21 @@ $LNG = ['ko'=>'🇰🇷 한국어','en'=>'🇺🇸 English','ja'=>'🇯🇵 日�
 body{background:#080808;color:#f0f0f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
 a{color:inherit}
 /* ── 헤더 (블로그 리스트와 동일) ── */
-nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}
+nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:16px;font-weight:700;color:#f7931a;text-decoration:none}.logo span{color:#e4e4e7}
-.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.back a{color:#71717a;text-decoration:none}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0;text-decoration:none}.logo span{color:#fbbf24}
+.back{font-size:13px;color:#666666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.back a{color:#666666;text-decoration:none}
 .lang-dropdown{position:relative;flex-shrink:0}
-.lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#e4e4e7;font-size:11px;font-weight:600;letter-spacing:.02em;cursor:pointer;transition:all .15s}
-.lang-trigger:hover{background:#1f1f1f}
-.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
+.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#151515;border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f0f0f0;font-size:11px;font-weight:700;letter-spacing:.02em;cursor:pointer;transition:all .15s}
+.lang-trigger:hover{background:#1a1a1a}
+.lang-caret{font-size:9px;color:#666666;transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
-.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#0f0f0f;border:1px solid rgba(255,255,255,0.06);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
-.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:none;color:#a1a1aa;font-size:12px;font-weight:600;text-align:left;text-decoration:none;cursor:pointer;transition:all .1s}
-.lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
-.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
+.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:none;color:#aaaaaa;font-size:12px;font-weight:600;text-align:left;text-decoration:none;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#151515;color:#f0f0f0}
+.lang-menu-item.active{color:#fb923c;background:rgba(247,147,26,.08)}
 /* ── 본문 ── */
 .wrap{max-width:840px;margin:0 auto;width:100%;padding:32px 16px;flex:1}
 h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
@@ -178,13 +178,13 @@ h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
 .note{font-size:12px;color:#71717a;margin-top:22px;line-height:1.6}
 .risk{font-size:12px;color:#f87171;background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.2);border-radius:12px;padding:12px 14px;margin-top:14px;line-height:1.55}
 /* ── 푸터 (블로그 리스트와 동일) ── */
-footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
-footer a{color:#52525b;text-decoration:underline}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:11px;color:#666666}
+footer a{color:#666666;text-decoration:underline}
 </style>
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/<?= h($urlSuffix) ?>" class="logo">BTC<span>timing</span>.com</a>
+  <a href="/<?= h($urlSuffix) ?>" class="logo">BTC<span>timing</span></a>
   <span class="back">← <a href="/<?= h($urlSuffix) ?>"><?= h($t['back']) ?></a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" onclick="document.getElementById('langDropdown').classList.toggle('open');event.stopPropagation()">
