@@ -2322,15 +2322,20 @@ function renderInsightWidget() {
   if(sbAllLink) sbAllLink.href = '/blog/' + suffix;
 }
 
-/** 사이드바 좌측 하단 컴팩트 블로그 리스트 (텍스트 위주, 아이콘만) */
+/** 사이드바 좌측 블로그 리스트 — 카테고리·제목·발행시각까지 표시 (우측 카드 수준 가독성) */
 function renderSidebarBlogList(articles, ko, suffix) {
   const list = document.getElementById('sbBlogList');
   if(!list || !articles.length) return;
   list.innerHTML = articles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
-    return `<a href="${a.url}${suffix}" class="sb-blog-item">
+    const cat = pickLangField(a, 'category', currentLang);
+    return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color}">
       <span class="sb-blog-icon">${a.icon}</span>
-      <span class="sb-blog-title">${title}</span>
+      <span class="sb-blog-main">
+        <span class="sb-blog-cat">${cat}</span>
+        <span class="sb-blog-title">${title}</span>
+        <span class="sb-blog-date">${formatBlogCardDate(a.date, currentLang)}</span>
+      </span>
     </a>`;
   }).join('');
 }
