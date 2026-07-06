@@ -1739,15 +1739,16 @@ async function loadAll() {
 
 
 let currentLang = (function() {
-  // 언어 우선순위: localStorage(사용자의 마지막 명시적 선택, 블로그와 공유) > URL ?lang= > 기본값 ko.
-  // (뒤로/앞으로가기로 URL에 옛 ?lang=이 남아있어도 최근 선택을 덮지 않도록 localStorage 우선)
-  try {
-    const saved = localStorage.getItem('blogLang');
-    if (SUPPORTED_LANG_CODES.includes(saved)) return saved;
-  } catch(e) {}
+  // 언어 우선순위: URL ?lang= (사이트맵·구글 검색결과·공유링크로 특정 언어 진입) > localStorage(마지막 선택) > 브라우저 언어 > ko.
+  // URL에 lang이 명시돼 있으면 그 의도를 최우선으로 존중한다. (사용자가 페이지 안에서 언어를 바꾸면
+  //  setLang이 URL의 ?lang=도 함께 갱신하므로, 이후 저장값 기반 동작과 충돌하지 않는다.)
   try {
     const p = new URLSearchParams(location.search).get('lang');
     if (SUPPORTED_LANG_CODES.includes(p)) return p;
+  } catch(e) {}
+  try {
+    const saved = localStorage.getItem('blogLang');
+    if (SUPPORTED_LANG_CODES.includes(saved)) return saved;
   } catch(e) {}
   // 첫 방문(저장값·URL 모두 없음)이면 브라우저 언어를 감지해 시작. 지원 언어가 아니면 ko.
   try {
@@ -1977,20 +1978,25 @@ if (document.readyState === 'loading') {
 // 그래서 표시될 때마다 localStorage의 저장 언어와 현재 언어가 다르면 재동기화한다.
 function syncLangFromStorage() {
   try {
-    const saved = localStorage.getItem('blogLang');
-    if (SUPPORTED_LANG_CODES.includes(saved) && saved !== currentLang) {
-      currentLang = saved;
+    // URL에 lang이 명시돼 있으면 그것을 최우선으로 존중(사이트맵·검색결과 진입).
+    const urlLang = new URLSearchParams(location.search).get('lang');
+    const desired = SUPPORTED_LANG_CODES.includes(urlLang)
+      ? urlLang
+      : localStorage.getItem('blogLang');
+    if (SUPPORTED_LANG_CODES.includes(desired) && desired !== currentLang) {
+      currentLang = desired;
       refreshLangDependentUI();
     }
   } catch(err) {}
 }
 window.addEventListener('pageshow', function(e) {
   if (e.persisted) {
-    // bfcache 복원: 스냅샷의 일부 텍스트(footer 등)가 어긋나 있을 수 있으므로
-    // localStorage 언어를 다시 읽고 전체 UI를 무조건 재적용한다.
+    // bfcache 복원: 스냅샷 일부 텍스트(footer 등)가 어긋날 수 있으므로 언어를 다시 읽어 전체 UI 재적용.
+    // URL에 lang이 명시돼 있으면 그것을 우선(사이트맵·검색결과 진입), 아니면 저장값.
     try {
-      const saved = localStorage.getItem('blogLang');
-      if (SUPPORTED_LANG_CODES.includes(saved)) currentLang = saved;
+      const urlLang = new URLSearchParams(location.search).get('lang');
+      const desired = SUPPORTED_LANG_CODES.includes(urlLang) ? urlLang : localStorage.getItem('blogLang');
+      if (SUPPORTED_LANG_CODES.includes(desired)) currentLang = desired;
     } catch(err) {}
     refreshLangDependentUI();
     loadAll();
