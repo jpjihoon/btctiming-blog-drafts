@@ -65,6 +65,42 @@ if (file_exists($blogIndexFile)) {
     );
 }
 
+// ── 2-1) 카테고리별 목록 페이지 ──
+// 블로그 목록은 ?cat={key} 파라미터로 카테고리 필터가 적용된 상태로 진입 가능(고유 URL).
+// _category_meta.php를 정답 소스로 삼아, 실제로 글이 1개 이상 있는 카테고리만 등록한다.
+// (글 없는 카테고리는 목록 탭에도 안 뜨므로 sitemap에 넣으면 빈 페이지가 됨)
+$catMetaFile = $blogDir . '/_category_meta.php';
+$metaFileForCats = $blogDir . '/_meta.php';
+if (file_exists($catMetaFile) && file_exists($metaFileForCats)) {
+    $catMeta = require $catMetaFile;
+    $articlesForCats = require $metaFileForCats;
+    // 카테고리별 글 개수 + 가장 최근 글 날짜 집계
+    $catCount = [];
+    $catLatest = [];
+    foreach ($articlesForCats as $a) {
+        $c = $a['category'] ?? '';
+        if ($c === '') continue;
+        $catCount[$c] = ($catCount[$c] ?? 0) + 1;
+        $d = '';
+        if (preg_match('/^(\d{4}-\d{2}-\d{2})/', (string)($a['date'] ?? ''), $mm)) $d = $mm[1];
+        if ($d && (!isset($catLatest[$c]) || $d > $catLatest[$c])) $catLatest[$c] = $d;
+    }
+    foreach ($catMeta as $catKey => $ci) {
+        if (($catCount[$catKey] ?? 0) < 1) continue; // 글 있는 카테고리만
+        $lastmod = $catLatest[$catKey] ?? date('Y-m-d');
+        // 언어별 URL: /blog/?cat=key (ko) , /blog/?cat=key&lang=xx (그 외)
+        $catHreflangs = ['x-default' => $baseUrl . '/blog/?cat=' . $catKey];
+        foreach (SUPPORTED_LANGS as $lc => $li) {
+            $catHreflangs[$lc] = $baseUrl . '/blog/?cat=' . $catKey
+                . ($lc === 'ko' ? '' : '&lang=' . $lc);
+        }
+        foreach (SUPPORTED_LANGS as $lc => $li) {
+            $priority = $lc === 'ko' ? '0.7' : '0.6';
+            $entries[] = urlEntry($catHreflangs[$lc], $lastmod, 'weekly', $priority, $catHreflangs);
+        }
+    }
+}
+
 // ── 3) 블로그 아티클 전체 — 실제로 존재하는 언어 버전만 각각 별도 URL로 등록 ──
 // _meta.php가 유일한 정답 소스. title_{lang} 존재 여부로 "그 언어 번역 완료"를 자동 판단해서,
 // 번역된 글만 해당 언어 URL과 hreflang을 추가합니다. (미번역 글에 넣으면 구글에 오도 정보가 됨)
