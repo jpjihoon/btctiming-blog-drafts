@@ -967,7 +967,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
       <span id="chatUserCount" style="font-size:10px;color:var(--t3);flex-shrink:0"></span>
     </div>
     <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
-      <div onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
+      <div id="chatNickBtn" onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
       <div onclick="toggleChat()" role="button" tabindex="0" aria-label="Close chat" style="cursor:pointer;color:var(--t3);font-size:16px;padding:2px 4px">✕</div>
     </div>
   </div>
@@ -977,7 +977,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
       style="flex:1;background:var(--bg4);border:1px solid var(--b2);color:var(--t1);
       padding:8px 10px;border-radius:8px;font-size:12px"
       onkeydown="if(event.key==='Enter')sendChatMsg()">
-    <button onclick="sendChatMsg()" style="background:var(--orange);color:#000;border:none;
+    <button id="chatSendBtn" onclick="sendChatMsg()" style="background:var(--orange);color:#000;border:none;
       padding:8px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer">전송</button>
   </div>
 </div>
