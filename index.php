@@ -45,24 +45,24 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
-nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
-.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0}.logo span{color:#fbbf24}
+.back{font-size:13px;color:#666666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0}
-.lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;
-  border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#e4e4e7;font-size:11px;font-weight:600;
+.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#151515;
+  border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f0f0f0;font-size:11px;font-weight:700;
   letter-spacing:.02em;cursor:pointer;transition:all .15s}
-.lang-trigger:hover{background:#1f1f1f}
-.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
+.lang-trigger:hover{background:#1a1a1a}
+.lang-caret{font-size:9px;color:#666666;transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
-.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;
-  border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#0f0f0f;
+  border:1px solid rgba(255,255,255,0.06);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
   overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
-  border:none;color:#a1a1aa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
-.lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
-.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
+  border:none;color:#aaaaaa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#151515;color:#f0f0f0}
+.lang-menu-item.active{color:#fb923c;background:rgba(247,147,26,.08)}
 
 /* ── 히어로 영역 ── */
 .hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.06);
@@ -133,7 +133,7 @@ h1{font-size:1.6rem;font-weight:800;color:#fafafa;letter-spacing:-.5px}
 .cta-main h2{font-size:1.15rem;margin-bottom:8px;color:#fafafa}
 .cta-main p{color:#71717a;font-size:14px;margin-bottom:20px}
 .cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
-footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:11px;color:#666666}
 /* 푸터 언어 전환 — 기존 en-show/ja-show + JS 토글 방식이 중복 style 속성 버그로 불안정했어서,
    이미 검증된 [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 교체함 */
 footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
@@ -153,7 +153,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/" class="logo" id="logoLink">BTC<span>timing</span>.com</a>
+  <a href="/" class="logo" id="logoLink">BTC<span>timing</span></a>
   <span class="back ko">← <a href="/" style="color:#71717a">실시간 분석으로 돌아가기</a></span>
   <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:#71717a">Back to Live Analysis</a></span>
   <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:#71717a">リアルタイム分析に戻る</a></span>

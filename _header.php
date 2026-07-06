@@ -155,24 +155,25 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
-nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
-.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
-.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0}.logo span{color:#fbbf24}
+.back{font-size:13px;color:#666666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.back a{color:#666666}
 .lang-dropdown{position:relative;flex-shrink:0}
-.lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;
-  border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#e4e4e7;font-size:11px;font-weight:600;
+.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#151515;
+  border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f0f0f0;font-size:11px;font-weight:700;
   letter-spacing:.02em;cursor:pointer;transition:all .15s}
-.lang-trigger:hover{background:#1f1f1f}
-.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
+.lang-trigger:hover{background:#1a1a1a}
+.lang-caret{font-size:9px;color:#666666;transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
-.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;
-  border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#0f0f0f;
+  border:1px solid rgba(255,255,255,0.06);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
   overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
-  border:none;color:#a1a1aa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
-.lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
-.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
+  border:none;color:#aaaaaa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#151515;color:#f0f0f0}
+.lang-menu-item.active{color:#fb923c;background:rgba(247,147,26,.08)}
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
 /* 본문 + 우측 광고 컬럼 레이아웃 (넓은 화면 + 광고가 실제 있을 때만 노출) */
 @media(min-width:1100px){
@@ -310,7 +311,7 @@ ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
 .bc a:hover{color:#f7931a;text-decoration:underline}
 .bc-sep{color:#3f3f46;margin:0 8px;font-size:13px}
 .bc-current{color:#e4e4e7;font-weight:600}
-footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:13px;color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:11px;color:#666666}
 /* 3개 언어 표시/숨김: 현재 lang이 아닌 클래스는 전부 숨김 */
 [lang="en"] .ko,[lang="ja"] .ko,[lang="es"] .ko,[lang="de"] .ko,
 [lang="ko"] .en,[lang="ja"] .en,[lang="es"] .en,[lang="de"] .en,
@@ -321,7 +322,7 @@ footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/<?= h(langSuffix($lang)) ?>" class="logo">BTC<span>timing</span>.com</a>
+  <a href="/<?= h(langSuffix($lang)) ?>" class="logo">BTC<span>timing</span></a>
   <span class="back ko"><a href="/blog/" style="color:#71717a">← 블로그 목록</a></span>
   <span class="back en"><a href="/blog/?lang=en" style="color:#71717a">← All Posts</a></span>
   <span class="back ja"><a href="/blog/?lang=ja" style="color:#71717a">← 記事一覧</a></span>
