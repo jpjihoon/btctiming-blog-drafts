@@ -1329,7 +1329,16 @@ function drawHistory() {
   const pw = w-pad.l-pad.r;
   const ph = h-pad.t-pad.b;
 
-  // Zone backgrounds
+  // X축을 '선택한 기간' 전체로 고정 (예: 24H면 지금-24h ~ 지금).
+  // 데이터가 일부 구간만 있어도 축은 전체를 보여주고, 포인트는 실제 시각 위치에 찍힘.
+  const rangeMsMap = {'1d':86400000,'7d':7*86400000,'30d':30*86400000};
+  const nowT = Date.now();
+  const spanMs = rangeMsMap[histPeriod] || (data[data.length-1].t - data[0].t) || 86400000;
+  const tEnd = nowT;
+  const tStart = (histPeriod === 'all') ? data[0].t : (tEnd - spanMs);
+  const tSpan = Math.max(tEnd - tStart, 1);
+  // 시각 → X좌표 (시간 비례)
+  const xAt = (t) => pad.l + Math.max(0, Math.min(1, (t - tStart)/tSpan)) * pw;
   const zones = [
     {min:8.0,max:10,color:'rgba(34,197,94,0.07)',label:'FULL LONG'},
     {min:7.0,max:8.0,color:'rgba(74,222,128,0.05)',label:'ADD LONG'},
@@ -1363,19 +1372,19 @@ function drawHistory() {
   grad.addColorStop(1,'rgba(74,222,128,0)');
   ctx.beginPath();
   data.forEach((p,i)=>{
-    const x=pad.l+i/(data.length-1)*pw;
+    const x=xAt(p.t);
     const y=pad.t+ph-(p.s-minS)/(maxS-minS)*ph;
     i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
   });
-  ctx.lineTo(pad.l+pw,h-pad.b);
-  ctx.lineTo(pad.l,h-pad.b);
+  ctx.lineTo(xAt(data[data.length-1].t),h-pad.b);
+  ctx.lineTo(xAt(data[0].t),h-pad.b);
   ctx.closePath();
   ctx.fillStyle=grad; ctx.fill();
 
   // Line
   ctx.beginPath(); ctx.strokeStyle='#4ade80'; ctx.lineWidth=1.5;
   data.forEach((p,i)=>{
-    const x=pad.l+i/(data.length-1)*pw;
+    const x=xAt(p.t);
     const y=pad.t+ph-(p.s-minS)/(maxS-minS)*ph;
     i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
   });
@@ -1383,24 +1392,32 @@ function drawHistory() {
 
   // Latest dot + value
   const last=data[data.length-1];
-  const lx=pad.l+pw;
+  const lx=xAt(last.t);
   const ly=pad.t+ph-(last.s-minS)/(maxS-minS)*ph;
   ctx.beginPath();ctx.arc(lx,ly,4,0,Math.PI*2);
   ctx.fillStyle='#4ade80';ctx.fill();
   ctx.fillStyle='rgba(255,255,255,0.8)';ctx.font='bold 9px system-ui';ctx.textAlign='right';
   ctx.fillText(last.s.toFixed(1),lx-7,ly-5);
 
-  // Time labels (x-axis, 5 labels)
+  // Time labels (x-axis, 5 labels) — 데이터가 아니라 '기간 전체' 기준 균등 시각 + 언어별 타임존
+  const TZ = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin'};
+  const tz = TZ[currentLang] || undefined;
+  const loc = SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en';
   ctx.fillStyle='rgba(255,255,255,0.2)';ctx.font='8px system-ui';ctx.textAlign='center';
   const steps=[0,0.25,0.5,0.75,1];
+  const shortR=['1d'].includes(histPeriod);
   steps.forEach(r=>{
-    const idx=Math.min(Math.round(r*(data.length-1)),data.length-1);
-    const p=data[idx];
-    const x=pad.l+r*pw;
+    const t = tStart + r*tSpan;          // 기간 전체를 균등 분할한 시각
+    const x = pad.l + r*pw;
+    const d = new Date(t);
     let lbl='';
-    const shortR=['1d'].includes(histPeriod);
-    if(shortR) lbl=new Date(p.t).toLocaleTimeString(SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en',{hour:'2-digit',minute:'2-digit'});
-    else lbl=new Date(p.t).toLocaleDateString(SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en',{month:'numeric',day:'numeric'});
+    try {
+      if(shortR) lbl=d.toLocaleTimeString(loc,{hour:'2-digit',minute:'2-digit',timeZone:tz});
+      else lbl=d.toLocaleDateString(loc,{month:'numeric',day:'numeric',timeZone:tz});
+    } catch(e){
+      if(shortR) lbl=d.toLocaleTimeString(loc,{hour:'2-digit',minute:'2-digit'});
+      else lbl=d.toLocaleDateString(loc,{month:'numeric',day:'numeric'});
+    }
     ctx.fillText(lbl,x,h-pad.b+12);
   });
 
@@ -1438,7 +1455,7 @@ function drawHistory() {
   }
 
   // 호버 툴팁이 참조할 플롯 상태 저장 (좌표 재계산 없이 최근점을 빠르게 찾기 위함)
-  historyPlotState = {data, minS, maxS, pad, pw, ph, w, h};
+  historyPlotState = {data, minS, maxS, pad, pw, ph, w, h, tStart, tSpan};
   attachHistoryHover(); // 최초 1회만 실제로 이벤트를 붙임 (내부에서 중복 방지)
 }
 
@@ -1458,11 +1475,17 @@ function attachHistoryHover() {
 
   function findNearestPoint(mouseX) {
     if(!historyPlotState) return null;
-    const {data, pad, pw} = historyPlotState;
+    const {data, pad, pw, tStart, tSpan} = historyPlotState;
     if(!data || data.length === 0) return null;
     const ratio = Math.max(0, Math.min(1, (mouseX - pad.l) / pw));
-    const idx = Math.round(ratio * (data.length - 1));
-    return {idx, point: data[Math.max(0, Math.min(data.length - 1, idx))]};
+    const targetT = tStart + ratio * tSpan;      // 마우스 위치의 시각
+    // 그 시각에 가장 가까운 데이터 포인트 찾기
+    let bestIdx = 0, bestDiff = Infinity;
+    for(let i=0;i<data.length;i++){
+      const diff = Math.abs(data[i].t - targetT);
+      if(diff < bestDiff){ bestDiff = diff; bestIdx = i; }
+    }
+    return {idx: bestIdx, point: data[bestIdx]};
   }
 
   function drawCrosshair(x, y) {
@@ -1492,17 +1515,26 @@ function attachHistoryHover() {
     const mouseX = clientX - rect.left;
     const nearest = findNearestPoint(mouseX);
     if(!nearest || !nearest.point) { hideTooltip(); return; }
-    const {data, minS, maxS, pad, pw, ph} = historyPlotState;
-    const x = pad.l + nearest.idx/(Math.max(1,data.length-1))*pw;
+    const {data, minS, maxS, pad, pw, ph, tStart, tSpan} = historyPlotState;
+    const x = pad.l + Math.max(0, Math.min(1, (nearest.point.t - tStart)/tSpan))*pw;
     const y = pad.t + ph - (nearest.point.s - minS)/(maxS - minS)*ph;
     drawCrosshair(x, y);
 
-    // 툴팁 텍스트: 점수 + 날짜/시각 (기간이 짧으면 시각, 길면 날짜)
+    // 툴팁 텍스트: 점수 + 날짜/시각 (기간이 짧으면 시각, 길면 날짜) — 언어별 타임존 적용
     const shortR = ['1d'].includes(histPeriod);
     const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-    const timeStr = shortR
-      ? new Date(nearest.point.t).toLocaleTimeString(dLoc,{hour:'2-digit',minute:'2-digit'})
-      : new Date(nearest.point.t).toLocaleDateString(dLoc,{year:'numeric',month:'short',day:'numeric'});
+    const TZ2 = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin'};
+    const dtz = TZ2[currentLang] || undefined;
+    let timeStr;
+    try {
+      timeStr = shortR
+        ? new Date(nearest.point.t).toLocaleTimeString(dLoc,{hour:'2-digit',minute:'2-digit',timeZone:dtz})
+        : new Date(nearest.point.t).toLocaleDateString(dLoc,{year:'numeric',month:'short',day:'numeric',timeZone:dtz});
+    } catch(e){
+      timeStr = shortR
+        ? new Date(nearest.point.t).toLocaleTimeString(dLoc,{hour:'2-digit',minute:'2-digit'})
+        : new Date(nearest.point.t).toLocaleDateString(dLoc,{year:'numeric',month:'short',day:'numeric'});
+    }
     tScore.textContent = TT({ko:`점수 ${nearest.point.s.toFixed(2)}`,en:`Score ${nearest.point.s.toFixed(2)}`,ja:`スコア ${nearest.point.s.toFixed(2)}`,es:`Puntuación ${nearest.point.s.toFixed(2)}`,de:`Score ${nearest.point.s.toFixed(2)}`});
     tTime.textContent = timeStr;
 
