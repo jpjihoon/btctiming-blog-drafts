@@ -528,24 +528,12 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .sb-blog-hd a{font-size:10px;padding:2px 7px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
   font-weight:700;text-decoration:none;margin-left:auto}
 .sb-blog-hd a:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
-.sb-blog-item{display:flex;gap:10px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--b1);text-decoration:none;color:inherit;transition:padding-left .12s}
-.sb-blog-item:first-child{border-top:none;padding-top:4px}
-.sb-blog-item:hover{padding-left:3px}
+.sb-blog-item{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--b1);text-decoration:none;color:inherit}
+.sb-blog-item:first-child{border-top:none}
 .sb-blog-item:hover .sb-blog-title{color:var(--orange)}
-.sb-blog-icon{flex-shrink:0;font-size:16px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;
-  background:rgba(255,255,255,.05);background:color-mix(in srgb, var(--sb-accent, var(--orange)) 14%, transparent);border-radius:7px;margin-top:1px}
-.sb-blog-main{display:flex;flex-direction:column;gap:3px;min-width:0}
-.sb-blog-cat{font-size:10px;font-weight:700;letter-spacing:.02em;color:var(--sb-accent, var(--t3));text-transform:uppercase;opacity:.85}
-.sb-blog-title{font-size:13.5px;color:var(--t1);line-height:1.5;font-weight:600;
+.sb-blog-icon{flex-shrink:0;font-size:15px;width:22px;text-align:center}
+.sb-blog-title{font-size:13px;color:var(--t1);line-height:1.45;font-weight:500;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.sb-blog-date{font-size:10.5px;color:var(--t3);font-variant-numeric:tabular-nums;margin-top:1px}
-@media(max-width:768px){
-  .sb-blog-item{padding:16px 0;gap:11px}
-  .sb-blog-icon{font-size:17px;width:28px;height:28px}
-  .sb-blog-title{font-size:14.5px;line-height:1.55}
-  .sb-blog-cat{font-size:10.5px}
-  .sb-blog-date{font-size:11px}
-}
 
 /* ── NOTIFICATION MODAL ── */
 .modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:500;display:flex;align-items:center;justify-content:center;display:none}
@@ -967,7 +955,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
       <span id="chatUserCount" style="font-size:10px;color:var(--t3);flex-shrink:0"></span>
     </div>
     <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
-      <div onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
+      <div id="chatNickBtn" onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
       <div onclick="toggleChat()" role="button" tabindex="0" aria-label="Close chat" style="cursor:pointer;color:var(--t3);font-size:16px;padding:2px 4px">✕</div>
     </div>
   </div>
@@ -977,7 +965,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
       style="flex:1;background:var(--bg4);border:1px solid var(--b2);color:var(--t1);
       padding:8px 10px;border-radius:8px;font-size:12px"
       onkeydown="if(event.key==='Enter')sendChatMsg()">
-    <button onclick="sendChatMsg()" style="background:var(--orange);color:#000;border:none;
+    <button id="chatSendBtn" onclick="sendChatMsg()" style="background:var(--orange);color:#000;border:none;
       padding:8px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer">전송</button>
   </div>
 </div>

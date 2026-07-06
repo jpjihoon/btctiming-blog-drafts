@@ -810,6 +810,9 @@ function renderAll(ind) {
     descEl.style.color = result.acolor;
   }
   lastResultDetails = result.details; // Why 패널이 최신 지표 breakdown을 참조할 수 있도록 저장
+  // Why 패널이 열려 있으면 최신 details로 다시 그린다 (롱↔숏/코인 전환 시 이전 내용이 남는 버그 방지)
+  const _whyPanel = document.getElementById('whyPanel');
+  if (_whyPanel && _whyPanel.style.display !== 'none') renderWhyPanel();
   renderMiniHistory();
   document.getElementById('scoreSub').textContent=`${currentCoin} · ${T(currentMode==='buy'?'modeSub_buy':'modeSub_sell')}`;
   const slEl=document.getElementById('scoreLabel');
@@ -2322,20 +2325,15 @@ function renderInsightWidget() {
   if(sbAllLink) sbAllLink.href = '/blog/' + suffix;
 }
 
-/** 사이드바 좌측 블로그 리스트 — 카테고리·제목·발행시각까지 표시 (우측 카드 수준 가독성) */
+/** 사이드바 좌측 하단 컴팩트 블로그 리스트 (텍스트 위주, 아이콘만) */
 function renderSidebarBlogList(articles, ko, suffix) {
   const list = document.getElementById('sbBlogList');
   if(!list || !articles.length) return;
   list.innerHTML = articles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
-    const cat = pickLangField(a, 'category', currentLang);
-    return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color}">
+    return `<a href="${a.url}${suffix}" class="sb-blog-item">
       <span class="sb-blog-icon">${a.icon}</span>
-      <span class="sb-blog-main">
-        <span class="sb-blog-cat">${cat}</span>
-        <span class="sb-blog-title">${title}</span>
-        <span class="sb-blog-date">${formatBlogCardDate(a.date, currentLang)}</span>
-      </span>
+      <span class="sb-blog-title">${title}</span>
     </a>`;
   }).join('');
 }
@@ -2415,6 +2413,21 @@ function applyStaticI18n() {
   // 거래소 배너 링크도 현재 언어를 따라가게 (한국어는 접미사 없음)
   const _bn = document.getElementById('exchBanner');
   if(_bn){ _bn.setAttribute('href', '/exchanges.php' + (currentLang && currentLang!=='ko' ? ('?lang='+currentLang) : '')); }
+
+  // 라이브 채팅 UI 문구 (data-i가 없어 일괄 번역에서 빠지므로 별도 함수로 갱신)
+  if(typeof syncChatLang === 'function') syncChatLang();
+}
+
+// 라이브 채팅 UI 문구를 현재 언어로 갱신 (applyStaticI18n + 채팅 열 때 공용)
+function syncChatLang() {
+  const _chatTitle = document.getElementById('chatTitle');
+  if(_chatTitle) _chatTitle.textContent = TT({ko:'실시간 채팅',en:'LIVE CHAT',ja:'ライブチャット',es:'CHAT EN VIVO',de:'LIVE-CHAT'});
+  const _chatInput = document.getElementById('chatInput');
+  if(_chatInput) _chatInput.setAttribute('placeholder', TT({ko:'메시지 입력...',en:'Type a message...',ja:'メッセージを入力...',es:'Escribe un mensaje...',de:'Nachricht eingeben...'}));
+  const _chatSend = document.getElementById('chatSendBtn');
+  if(_chatSend) _chatSend.textContent = TT({ko:'전송',en:'Send',ja:'送信',es:'Enviar',de:'Senden'});
+  const _chatNick = document.getElementById('chatNickBtn');
+  if(_chatNick) _chatNick.setAttribute('title', TT({ko:'닉네임 변경',en:'Change nickname',ja:'ニックネーム変更',es:'Cambiar apodo',de:'Spitznamen ändern'}));
 }
 // ═══════════════════════════════════════════════════════
 // LIVE CHAT (Firebase Realtime Database)
@@ -2693,6 +2706,7 @@ function toggleChat() {
   chatOpen = box.style.display === 'none' || box.style.display === '';
   box.style.display = chatOpen ? 'flex' : 'none';
   if(chatOpen) {
+    if(typeof syncChatLang === 'function') syncChatLang(); // 열 때 현재 언어로 채팅 UI 맞춤
     if(!chatListenersAttached) initFirebaseChat(); // 리스너 미부착이면 무조건 (재)시도
     chatUnreadCount = 0;
     updateChatBadge();
