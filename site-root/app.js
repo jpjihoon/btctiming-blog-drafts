@@ -1335,7 +1335,7 @@ function drawHistory() {
 
   // X축을 '선택한 기간' 전체로 고정 (예: 24H면 지금-24h ~ 지금).
   // 데이터가 일부 구간만 있어도 축은 전체를 보여주고, 포인트는 실제 시각 위치에 찍힘.
-  const rangeMsMap = {'1d':86400000,'7d':7*86400000,'30d':30*86400000};
+  const rangeMsMap = {'1h':3600000,'6h':6*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000};
   const nowT = Date.now();
   const spanMs = rangeMsMap[histPeriod] || (data[data.length-1].t - data[0].t) || 86400000;
   const tEnd = nowT;
@@ -1370,10 +1370,16 @@ function drawHistory() {
     ctx.fillText(v.toFixed(1),pad.l-3,y+3);
   });
 
-  // Gradient fill
+  // 최신 점수에 따라 라인 색상 결정 (롱/숏 강도 시각화)
+  const lastScore = data[data.length-1].s;
+  const lineColor = lastScore >= 7 ? '#4ade80' : lastScore >= 5 ? '#a3e635' : lastScore >= 3.5 ? '#fbbf24' : '#f87171';
+  const lineRGB = lastScore >= 7 ? '74,222,128' : lastScore >= 5 ? '163,230,53' : lastScore >= 3.5 ? '251,191,36' : '248,113,113';
+
+  // Gradient fill (라인 색상과 연동)
   const grad=ctx.createLinearGradient(0,pad.t,0,h-pad.b);
-  grad.addColorStop(0,'rgba(74,222,128,0.25)');
-  grad.addColorStop(1,'rgba(74,222,128,0)');
+  grad.addColorStop(0,`rgba(${lineRGB},0.28)`);
+  grad.addColorStop(0.7,`rgba(${lineRGB},0.06)`);
+  grad.addColorStop(1,`rgba(${lineRGB},0)`);
   ctx.beginPath();
   data.forEach((p,i)=>{
     const x=xAt(p.t);
@@ -1385,23 +1391,32 @@ function drawHistory() {
   ctx.closePath();
   ctx.fillStyle=grad; ctx.fill();
 
-  // Line
-  ctx.beginPath(); ctx.strokeStyle='#4ade80'; ctx.lineWidth=1.5;
+  // Line — 글로우 효과 + 부드러운 연결
+  ctx.save();
+  ctx.shadowColor=lineColor; ctx.shadowBlur=8;
+  ctx.beginPath(); ctx.strokeStyle=lineColor; ctx.lineWidth=2;
+  ctx.lineJoin='round'; ctx.lineCap='round';
   data.forEach((p,i)=>{
     const x=xAt(p.t);
     const y=pad.t+ph-(p.s-minS)/(maxS-minS)*ph;
     i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
   });
   ctx.stroke();
+  ctx.restore();
 
-  // Latest dot + value
+  // Latest dot — 발광 효과 (외곽 링 + 코어)
   const last=data[data.length-1];
   const lx=xAt(last.t);
   const ly=pad.t+ph-(last.s-minS)/(maxS-minS)*ph;
-  ctx.beginPath();ctx.arc(lx,ly,4,0,Math.PI*2);
-  ctx.fillStyle='#4ade80';ctx.fill();
-  ctx.fillStyle='rgba(255,255,255,0.8)';ctx.font='bold 9px system-ui';ctx.textAlign='right';
-  ctx.fillText(last.s.toFixed(1),lx-7,ly-5);
+  ctx.save();
+  ctx.shadowColor=lineColor; ctx.shadowBlur=12;
+  ctx.beginPath();ctx.arc(lx,ly,5,0,Math.PI*2);
+  ctx.fillStyle=`rgba(${lineRGB},0.25)`;ctx.fill();
+  ctx.beginPath();ctx.arc(lx,ly,3.5,0,Math.PI*2);
+  ctx.fillStyle=lineColor;ctx.fill();
+  ctx.restore();
+  ctx.fillStyle='rgba(255,255,255,0.9)';ctx.font='bold 10px system-ui';ctx.textAlign='right';
+  ctx.fillText(last.s.toFixed(1),lx-8,ly-6);
 
   // Time labels (x-axis, 5 labels) — 데이터가 아니라 '기간 전체' 기준 균등 시각 + 언어별 타임존
   const TZ = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin'};
@@ -1409,7 +1424,7 @@ function drawHistory() {
   const loc = SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en';
   ctx.fillStyle='rgba(255,255,255,0.2)';ctx.font='8px system-ui';ctx.textAlign='center';
   const steps=[0,0.25,0.5,0.75,1];
-  const shortR=['1d'].includes(histPeriod);
+  const shortR=['1h','6h','1d'].includes(histPeriod);
   steps.forEach(r=>{
     const t = tStart + r*tSpan;          // 기간 전체를 균등 분할한 시각
     const x = pad.l + r*pw;
@@ -1437,6 +1452,8 @@ function drawHistory() {
       '1h':'최근 7일','4h':'최근 14일','1d':'최근 30일','1w':'최근 90일','1M':'전체'
     };
     const pLabels={
+      '1h': TT({ko:'최근 1시간',en:'Last 1h',ja:'直近1時間',es:'Última 1h',de:'Letzte 1 Std.'}),
+      '6h': TT({ko:'최근 6시간',en:'Last 6h',ja:'直近6時間',es:'Últimas 6h',de:'Letzte 6 Std.'}),
       '1d': TT({ko:'최근 24시간',en:'Last 24h',ja:'直近24時間',es:'Últimas 24h',de:'Letzte 24 Std.'}),
       '7d': TT({ko:'최근 7일',en:'Last 7d',ja:'直近7日間',es:'Últimos 7d',de:'Letzte 7 Tage'}),
       '30d': TT({ko:'최근 30일',en:'Last 30d',ja:'直近30日間',es:'Últimos 30d',de:'Letzte 30 Tage'}),
@@ -1525,7 +1542,7 @@ function attachHistoryHover() {
     drawCrosshair(x, y);
 
     // 툴팁 텍스트: 점수 + 날짜/시각 (기간이 짧으면 시각, 길면 날짜) — 언어별 타임존 적용
-    const shortR = ['1d'].includes(histPeriod);
+    const shortR = ['1h','6h','1d'].includes(histPeriod);
     const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
     const TZ2 = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin'};
     const dtz = TZ2[currentLang] || undefined;
@@ -1795,8 +1812,7 @@ let histPeriod = '1d'; // 1d, 7d, 30d, all
 
 function setHistPeriod(p) {
   histPeriod = p;
-  // 버튼 ID 매핑: 1d/7d/30d는 소문자, all은 'htpAll'(대문자 A)라 직접 매핑해야 active가 정상 토글됨
-  const idMap = {'1d':'htp1d','7d':'htp7d','30d':'htp30d','all':'htpAll'};
+  const idMap = {'1h':'htp1h','6h':'htp6h','1d':'htp1d','7d':'htp7d','30d':'htp30d'};
   Object.entries(idMap).forEach(([t, id]) => {
     const el = document.getElementById(id);
     if(el) el.classList.toggle('active', t===p);
@@ -1878,7 +1894,7 @@ function getHistoryData() {
   let h = [];
   try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) {}
   const now = Date.now();
-  const rangeMap = {'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
+  const rangeMap = {'1h':3600000,'6h':6*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
   const range = rangeMap[histPeriod] || rangeMap['1d'];
   const filtered = range===Infinity ? h : h.filter(x=>now-x.t<range);
   // 최대 300포인트

@@ -581,8 +581,9 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .sell-sig-title{font-size:12px;font-weight:600;color:var(--red);margin-bottom:4px}
 .sell-sig-desc{font-size:10px;color:var(--t2);line-height:1.5}
 
-.hist-tab{font-size:10px;padding:3px 10px;border-radius:5px;cursor:pointer;color:var(--t3);border:1px solid transparent;transition:all .15s}
-.hist-tab.active{background:var(--bg3);color:var(--t1);border-color:var(--b2)}
+.hist-tab{font-size:10px;padding:3px 9px;border-radius:6px;cursor:pointer;color:var(--t3);border:1px solid transparent;transition:all .15s;font-weight:600;user-select:none}
+.hist-tab:hover{color:var(--t2);background:var(--bg3)}
+.hist-tab.active{background:var(--orange);color:#000;border-color:transparent;font-weight:700}
 /* 거래소 제휴 배너 — 눈에 띄는 골드 톤 */
 .exch-banner{display:flex;align-items:center;gap:12px;text-decoration:none;background:linear-gradient(135deg,rgba(240,185,11,.16),rgba(251,146,60,.12));border:1px solid rgba(240,185,11,.45);border-radius:14px;padding:14px 15px;margin:12px 0;position:relative;overflow:hidden;box-shadow:0 0 0 rgba(240,185,11,.4);animation:exchGlow 2.6s ease-in-out infinite;transition:transform .1s}
 @keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(240,185,11,.0)}50%{box-shadow:0 0 16px 1px rgba(240,185,11,.22)}}
@@ -855,10 +856,11 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
           <div class="history-sub" id="histRangeSub" data-i="sec_histSub">Saved locally in browser</div>
         </div>
         <div style="display:flex;gap:3px;flex-wrap:wrap">
+          <div class="hist-tab" onclick="setHistPeriod('1h')" id="htp1h" role="button" tabindex="0" aria-label="Show 1 hour">1h</div>
+          <div class="hist-tab" onclick="setHistPeriod('6h')" id="htp6h" role="button" tabindex="0" aria-label="Show 6 hours">6h</div>
           <div class="hist-tab active" onclick="setHistPeriod('1d')" id="htp1d" role="button" tabindex="0" aria-label="Show 24 hours">24h</div>
           <div class="hist-tab" onclick="setHistPeriod('7d')" id="htp7d" role="button" tabindex="0" aria-label="Show 7 days">7d</div>
           <div class="hist-tab" onclick="setHistPeriod('30d')" id="htp30d" role="button" tabindex="0" aria-label="Show 30 days">30d</div>
-          <div class="hist-tab" onclick="setHistPeriod('all')" id="htpAll" role="button" tabindex="0" aria-label="Show all time">All</div>
         </div>
       </div>
       <div style="position:relative">
