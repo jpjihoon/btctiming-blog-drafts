@@ -970,16 +970,20 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 // 어떤 이유로든(외부 스크립트 로드 실패, 광고차단기 등) JS의 applyStaticI18n()이 못 돌면
 // 영어/일본어/스페인어/독일어 사용자에게도 이 부분만 한국어로 굳어버리는 문제가 있었음.
 $footerText = [
-    'ko' => ['privacy' => '개인정보처리방침', 'terms' => '이용약관', 'disclaimer' => '투자 조언이 아닙니다'],
-    'en' => ['privacy' => 'Privacy Policy', 'terms' => 'Terms of Service', 'disclaimer' => 'Not financial advice'],
-    'ja' => ['privacy' => 'プライバシーポリシー', 'terms' => '利用規約', 'disclaimer' => '投資助言ではありません'],
-    'es' => ['privacy' => 'Política de Privacidad', 'terms' => 'Términos de Servicio', 'disclaimer' => 'No es asesoramiento financiero'],
-    'de' => ['privacy' => 'Datenschutzerklärung', 'terms' => 'Nutzungsbedingungen', 'disclaimer' => 'Keine Finanzberatung'],
+    'ko' => ['privacy' => '개인정보처리방침', 'terms' => '이용약관', 'sitemap' => '사이트맵', 'disclaimer' => '투자 조언이 아닙니다'],
+    'en' => ['privacy' => 'Privacy Policy', 'terms' => 'Terms of Service', 'sitemap' => 'Sitemap', 'disclaimer' => 'Not financial advice'],
+    'ja' => ['privacy' => 'プライバシーポリシー', 'terms' => '利用規約', 'sitemap' => 'サイトマップ', 'disclaimer' => '投資助言ではありません'],
+    'es' => ['privacy' => 'Política de Privacidad', 'terms' => 'Términos de Servicio', 'sitemap' => 'Mapa del sitio', 'disclaimer' => 'No es asesoramiento financiero'],
+    'de' => ['privacy' => 'Datenschutzerklärung', 'terms' => 'Nutzungsbedingungen', 'sitemap' => 'Sitemap', 'disclaimer' => 'Keine Finanzberatung'],
 ];
 $ft = $footerText[$lang] ?? $footerText['en'];
 ?>
 <div style="text-align:center;padding:20px 16px 90px;font-size:11px;color:var(--t3)">
   © 2026 BTCtiming.com ·
+  <a href="/rss-guide.php" style="color:var(--t3);text-decoration:underline">RSS</a>
+  ·
+  <a href="/sitemap-guide.php<?= h($urlSuffix) ?>" style="color:var(--t3);text-decoration:underline"><?= h($ft['sitemap']) ?></a>
+  ·
   <a href="/privacy<?= h($urlSuffix) ?>" id="footerPrivacyLink" style="color:var(--t3);text-decoration:underline" data-i="footerPrivacy"><?= h($ft['privacy']) ?></a>
   ·
   <a href="/terms<?= h($urlSuffix) ?>" id="footerTermsLink" style="color:var(--t3);text-decoration:underline" data-i="footerTerms"><?= h($ft['terms']) ?></a>
