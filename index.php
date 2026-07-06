@@ -380,10 +380,13 @@ function restoreBlogLang() {
     const VALID = ['ko','en','ja','es','de'];
     const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
     const urlLang = new URLSearchParams(location.search).get('lang');
-    // 저장된 값(사용자의 마지막 명시적 선택)이 유효하면 ko 포함 무조건 우선.
-    // 저장값이 없을 때만 URL을, 그것도 없으면 ko.
-    const pick = VALID.includes(stored) ? stored
-               : VALID.includes(urlLang) ? urlLang : 'ko';
+    // URL에 lang이 명시돼 있으면(사이트맵·hreflang·공유링크로 특정 언어를 콕 집어 진입) 그것을 우선.
+    // 그 외에는 저장된 사용자 선택을 따르고, 둘 다 없으면 ko.
+    // ※ URL lang은 없는데 저장값이 'ko'가 아닌 경우엔 저장값을 따르되, URL이 명시한 언어가
+    //   있으면(=사용자가 이 URL로 그 언어를 원함) 저장값보다 URL을 존중한다.
+    const pick = VALID.includes(urlLang) ? urlLang
+               : VALID.includes(stored) ? stored
+               : 'ko';
     if(pick !== document.getElementById('html-root').lang) setLang(pick);
   } catch(e){}
 }

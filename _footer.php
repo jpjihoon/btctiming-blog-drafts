@@ -228,6 +228,11 @@ function getBlogLang(){
 // (단, 이 글이 해당 언어로 번역 안 됐으면 <html lang>이 서버에서 이미 en으로 폴백돼 있으므로 그대로 둠)
 function applySavedLang() {
   try {
+    // URL에 lang이 명시돼 있으면(사이트맵·hreflang·공유링크로 특정 언어 진입) 서버가 그 언어로
+    // 렌더한 상태를 그대로 존중하고, 저장값으로 덮어쓰지 않는다.
+    const urlLang = new URLSearchParams(location.search).get('lang');
+    const VALID = ['ko','en','ja','es','de'];
+    if(VALID.includes(urlLang)) return;
     const saved = getBlogLang();
     const current = document.getElementById('hr').lang;
     if(saved === current) return;
@@ -236,7 +241,7 @@ function applySavedLang() {
       const hasMenuItem = document.querySelector('.lang-menu-item[data-lang="' + saved + '"]');
       if(hasMenuItem) L(saved);
     } else if(saved === 'ko') {
-      // 저장된 선호가 한국어인데 페이지가 다른 언어로 렌더된 경우(예: ?lang= 링크로 진입) 한국어로 복귀.
+      // 저장된 선호가 한국어인데 페이지가 다른 언어로 렌더된 경우 한국어로 복귀.
       // 모든 글은 한국어 원문이 있으므로 항상 전환 가능.
       L('ko');
     }
