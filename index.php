@@ -40,6 +40,7 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 <title>블로그 — 비트코인 분석 인사이트 | BTCtiming.com</title>
 <meta name="description" content="비트코인 온체인 지표 가이드, 시황분석, 칼럼을 한곳에서. MVRV Z-Score, Hash Ribbon, 반감기 타이밍 등 실전 투자에 바로 활용할 수 있는 분석 글을 제공합니다.">
 <link rel="canonical" href="https://btctiming.com/blog/">
+<link rel="alternate" type="application/rss+xml" title="BTCtiming.com Blog RSS" href="https://btctiming.com/blog/rss.php">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}

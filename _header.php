@@ -80,6 +80,7 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <title><?= h($pageTitle) ?></title>
 <meta name="description" content="<?= h($pageDesc) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
+<link rel="alternate" type="application/rss+xml" title="BTCtiming.com Blog RSS" href="https://btctiming.com/blog/rss.php<?= $lang === 'ko' ? '' : '?lang=' . h($lang) ?>">
 <!-- hreflang: 실제로 번역이 존재하는 언어만 대응 URL로 알림 (미번역 언어는 넣지 않음 — 오도 방지) -->
 <link rel="alternate" hreflang="ko" href="<?= h($baseUrl) ?>">
 <link rel="alternate" hreflang="en" href="<?= h($baseUrl) ?>?lang=en">
@@ -181,7 +182,25 @@ nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:st
   h1{font-size:1.45rem}
 }
 h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#fafafa}
-.meta{font-size:13px;color:#71717a;margin-bottom:36px;display:flex;gap:16px;flex-wrap:wrap}
+.meta{font-size:13px;color:#71717a;margin-bottom:20px;display:flex;gap:16px;flex-wrap:wrap}
+/* SNS 공유 버튼 */
+.share-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 32px}
+.share-bar.share-bottom{margin:40px 0 8px;padding-top:24px;border-top:1px solid rgba(255,255,255,.07)}
+.share-label{font-size:12px;font-weight:600;color:#71717a;margin-right:2px}
+.share-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:9px;
+  font-size:15px;font-weight:700;text-decoration:none;cursor:pointer;border:1px solid rgba(255,255,255,.1);
+  background:#17171b;color:#e4e4e7;transition:transform .12s,background .12s,border-color .12s;position:relative;line-height:1}
+.share-btn:hover{transform:translateY(-2px);text-decoration:none}
+.sh-x:hover{background:#000;border-color:#000;color:#fff}
+.sh-fb:hover{background:#1877f2;border-color:#1877f2;color:#fff}
+.sh-tg:hover{background:#229ed9;border-color:#229ed9;color:#fff}
+.sh-ln:hover{background:#06c755;border-color:#06c755;color:#fff}
+.sh-wa:hover{background:#25d366;border-color:#25d366;color:#fff}
+.sh-copy:hover{background:#f7931a;border-color:#f7931a;color:#fff}
+.copied-tip{position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);
+  background:#f7931a;color:#0a0a0a;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;
+  white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .15s}
+.sh-copy.copied .copied-tip{opacity:1}
 h2{font-size:1.35rem;font-weight:700;margin:40px 0 12px;color:#fafafa;padding-top:8px;border-top:1px solid rgba(255,255,255,.06)}
 h3{font-size:1.05rem;font-weight:600;margin:24px 0 8px;color:#d4d4d8}
 p{margin-bottom:14px;color:#a1a1aa}
@@ -318,5 +337,15 @@ footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center
     <span class="ja">⏱ 約<?= h($M['read_ja'] ?? $M['read_en']) ?>分 · 🏷 <?= h($M['tag_ja'] ?? $M['tag_en']) ?></span>
     <span class="es">⏱ ~<?= h($M['read_es'] ?? $M['read_en']) ?> min · 🏷 <?= h($M['tag_es'] ?? $M['tag_en']) ?></span>
     <span class="de">⏱ ~<?= h($M['read_de'] ?? $M['read_en']) ?> Min. · 🏷 <?= h($M['tag_de'] ?? $M['tag_en']) ?></span>
+  </div>
+
+  <div class="share-bar share-top" data-share>
+    <span class="share-label"><span class="ko">공유</span><span class="en">Share</span><span class="ja">シェア</span><span class="es">Compartir</span><span class="de">Teilen</span></span>
+    <a class="share-btn sh-x" data-net="x" href="#" rel="nofollow noopener" target="_blank" aria-label="X (Twitter)">𝕏</a>
+    <a class="share-btn sh-fb" data-net="fb" href="#" rel="nofollow noopener" target="_blank" aria-label="Facebook">f</a>
+    <a class="share-btn sh-tg" data-net="tg" href="#" rel="nofollow noopener" target="_blank" aria-label="Telegram">✈</a>
+    <a class="share-btn sh-ln" data-net="line" href="#" rel="nofollow noopener" target="_blank" aria-label="LINE">L</a>
+    <a class="share-btn sh-wa" data-net="wa" href="#" rel="nofollow noopener" target="_blank" aria-label="WhatsApp">✆</a>
+    <button type="button" class="share-btn sh-copy" data-net="copy" aria-label="Copy link">🔗<span class="copied-tip"><span class="ko">복사됨</span><span class="en">Copied</span><span class="ja">コピー</span><span class="es">Copiado</span><span class="de">Kopiert</span></span></button>
   </div>
 
