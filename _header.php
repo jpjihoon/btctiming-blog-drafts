@@ -148,12 +148,17 @@ nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:st
 .lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
 /* 본문 이미지·SVG·표 반응형 (모바일에서 잘림/축소 방지) */
-.wrap img,.wrap svg,.wrap table,.wrap iframe{max-width:100%;height:auto}
+.wrap img,.wrap table,.wrap iframe{max-width:100%;height:auto}
 .wrap img{border-radius:10px}
+.wrap svg{max-width:100%;height:auto}
+/* SVG 차트 가로 스크롤 래퍼 (JS가 각 svg를 이 div로 감쌈) */
+.svg-scroll{margin:20px 0;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.svg-scroll svg{margin:0!important;display:block}
 .wrap table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
 @media(max-width:600px){
   .wrap{padding:32px 14px 64px}
-  .wrap svg{margin-left:-4px;margin-right:-4px;width:calc(100% + 8px)}
+  /* 모바일: SVG를 최소 520px로 유지(글씨 가독성 확보), 넘치면 래퍼가 가로 스크롤 */
+  .svg-scroll svg{min-width:520px;width:520px}
   h1{font-size:1.6rem;line-height:1.3}
   h2{font-size:1.2rem;margin:32px 0 10px}
   h3{font-size:1rem}

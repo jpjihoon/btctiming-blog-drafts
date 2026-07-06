@@ -212,6 +212,30 @@ applySavedLang(); // 최초 로드
 // 뒤로가기/앞으로가기로 bfcache에서 복원될 때는 이 스크립트가 재실행되지 않으므로,
 // pageshow(persisted)에서 저장된 언어를 다시 적용해야 언어 설정이 유지됨.
 window.addEventListener('pageshow', function(e){ applySavedLang(); });
+
+// 본문 SVG 차트를 가로 스크롤 래퍼로 감싼다 (모바일에서 최소너비 유지 → 글씨 가독성).
+// 기존/신규 글 모두 자동 적용. 이미 감싼 건 건너뜀.
+(function wrapSvgCharts(){
+  try {
+    var wrap = document.querySelector('.wrap');
+    if(!wrap) return;
+    var svgs = wrap.querySelectorAll('svg');
+    svgs.forEach(function(svg){
+      if(svg.closest('.svg-scroll')) return;           // 이미 래핑됨
+      if(svg.closest('.lang-menu, nav, .prevnext, .other-articles')) return; // 아이콘류 제외
+      // viewBox가 넓은(차트형) SVG만 대상 — 작은 인라인 아이콘은 제외
+      var vb = svg.getAttribute('viewBox');
+      var wide = false;
+      if(vb){ var p = vb.split(/[ ,]+/); if(p.length===4 && parseFloat(p[2])>=400) wide = true; }
+      if(!wide) return;
+      var box = document.createElement('div');
+      box.className = 'svg-scroll';
+      svg.parentNode.insertBefore(box, svg);
+      box.appendChild(svg);
+    });
+  } catch(e){}
+})();
+
 </script>
 </body>
 </html>
