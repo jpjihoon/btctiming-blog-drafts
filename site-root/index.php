@@ -520,15 +520,15 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 
 /* ── Sidebar Blog List (좌측 하단 컴팩트 목록) ── */
 .sb-blog{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:12px 13px;flex-shrink:0}
-.sb-blog-hd{display:flex;align-items:center;font-size:10px;font-weight:700;letter-spacing:.07em;color:var(--t3);margin-bottom:8px}
-.sb-blog-hd a{font-size:9px;padding:1px 6px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
+.sb-blog-hd{display:flex;align-items:center;font-size:11px;font-weight:700;letter-spacing:.07em;color:var(--t3);margin-bottom:8px}
+.sb-blog-hd a{font-size:10px;padding:2px 7px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
   font-weight:700;text-decoration:none;margin-left:auto}
 .sb-blog-hd a:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
-.sb-blog-item{display:flex;gap:8px;align-items:flex-start;padding:6px 0;border-top:1px solid var(--b1);text-decoration:none;color:inherit}
+.sb-blog-item{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--b1);text-decoration:none;color:inherit}
 .sb-blog-item:first-child{border-top:none}
 .sb-blog-item:hover .sb-blog-title{color:var(--orange)}
-.sb-blog-icon{flex-shrink:0;font-size:13px;width:20px;text-align:center}
-.sb-blog-title{font-size:11px;color:var(--t1);line-height:1.4;
+.sb-blog-icon{flex-shrink:0;font-size:15px;width:22px;text-align:center}
+.sb-blog-title{font-size:13px;color:var(--t1);line-height:1.45;font-weight:500;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
 /* ── NOTIFICATION MODAL ── */
