@@ -682,7 +682,8 @@ function renderAll(ind) {
   try {
     const priceForTitle = livePrice || ind.price;
     if(priceForTitle) {
-      const priceStr = priceForTitle >= 1 ? '$'+Math.round(priceForTitle).toLocaleString() : '$'+priceForTitle.toFixed(4);
+      // 메인 가격 카드와 동일한 포맷(fmtP) 사용 — 저가 코인 소수점 유지, 표기 일관성
+      const priceStr = fmtP(priceForTitle);
       document.title = `${currentCoin} ${priceStr} — BTCtiming.com`;
     }
   } catch(e){}
