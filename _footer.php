@@ -271,7 +271,6 @@ window.addEventListener('pageshow', function(e){ applySavedLang(); });
       line: `https://social-plugins.line.me/lineit/share?url=${u}`,
       wa:   `https://api.whatsapp.com/send?text=${t}%20${u}`
     };
-    const canNative = (typeof navigator !== 'undefined' && typeof navigator.share === 'function');
 
     // 열려있는 팝오버 전부 닫기
     function closeAllPops(){
@@ -298,12 +297,8 @@ window.addEventListener('pageshow', function(e){ applySavedLang(); });
       if(toggle){
         toggle.addEventListener('click', (e) => {
           e.stopPropagation();
-          if(canNative){
-            navigator.share({ title: title, url: pageUrl }).catch(()=>{
-              // 사용자가 취소하거나 실패하면 팝오버로 폴백
-              if(pop){ const willOpen = pop.hidden; closeAllPops(); if(willOpen){ pop.hidden=false; toggle.setAttribute('aria-expanded','true'); } }
-            });
-          } else if(pop){
+          // 항상 자체 팝오버를 펼침 (브라우저/OS 기본 공유창 대신 X·Facebook·LinkedIn 등 아이콘 노출)
+          if(pop){
             const willOpen = pop.hidden;
             closeAllPops();
             if(willOpen){ pop.hidden = false; toggle.setAttribute('aria-expanded','true'); }
