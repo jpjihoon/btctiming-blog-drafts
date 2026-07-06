@@ -20,6 +20,52 @@
   <h2 class="es">Los 5 Grupos de Indicadores de un Vistazo</h2>
   <h2 class="de">Die 5 Indikatorgruppen auf einen Blick</h2>
 
+  <div class="ko">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">온체인 지표 5대 그룹 → 매수·매도 점수</text>
+    <g font-family="sans-serif" font-size="10" font-weight="700">
+      <rect x="30" y="50" width="150" height="34" fill="#a78bfa" rx="6"/><text x="105" y="72" fill="#000" text-anchor="middle">밸류에이션</text>
+      <rect x="30" y="92" width="150" height="34" fill="#38bdf8" rx="6"/><text x="105" y="114" fill="#000" text-anchor="middle">수익성·심리</text>
+      <rect x="30" y="134" width="150" height="34" fill="#60a5fa" rx="6"/><text x="105" y="156" fill="#000" text-anchor="middle">보유자 행동</text>
+      <rect x="30" y="176" width="150" height="34" fill="#fbbf24" rx="6"/><text x="105" y="198" fill="#000" text-anchor="middle">채굴자 / 자금흐름</text>
+      <path d="M180 67 H320 M180 109 H320 M180 151 H320 M180 193 H320" stroke="#52525b" stroke-width="1.5" fill="none"/>
+      <rect x="320" y="105" width="180" height="50" fill="#22c55e" rx="8"/><text x="410" y="128" fill="#000" font-size="11" text-anchor="middle">겹쳐 읽기</text><text x="410" y="144" fill="#000" font-size="9" text-anchor="middle">(합의 = 신호)</text>
+      <path d="M500 130 H600" stroke="#52525b" stroke-width="1.5" fill="none"/>
+      <rect x="600" y="108" width="70" height="44" fill="#f7931a" rx="8"/><text x="635" y="127" fill="#000" font-size="11" text-anchor="middle">0~10</text><text x="635" y="143" fill="#000" font-size="9" text-anchor="middle">점수</text>
+    </g>
+  </svg>
+  </div>
+  <div class="en es de">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">5 On-Chain Groups → Buy/Sell Score</text>
+    <g font-family="sans-serif" font-size="10" font-weight="700">
+      <rect x="30" y="50" width="150" height="34" fill="#a78bfa" rx="6"/><text x="105" y="72" fill="#000" text-anchor="middle">Valuation</text>
+      <rect x="30" y="92" width="150" height="34" fill="#38bdf8" rx="6"/><text x="105" y="114" fill="#000" text-anchor="middle">Profit / Sentiment</text>
+      <rect x="30" y="134" width="150" height="34" fill="#60a5fa" rx="6"/><text x="105" y="156" fill="#000" text-anchor="middle">Holder Behavior</text>
+      <rect x="30" y="176" width="150" height="34" fill="#fbbf24" rx="6"/><text x="105" y="198" fill="#000" text-anchor="middle">Miners / Flow</text>
+      <path d="M180 67 H320 M180 109 H320 M180 151 H320 M180 193 H320" stroke="#52525b" stroke-width="1.5" fill="none"/>
+      <rect x="320" y="105" width="180" height="50" fill="#22c55e" rx="8"/><text x="410" y="128" fill="#000" font-size="11" text-anchor="middle">Stack them</text><text x="410" y="144" fill="#000" font-size="9" text-anchor="middle">(consensus = signal)</text>
+      <path d="M500 130 H600" stroke="#52525b" stroke-width="1.5" fill="none"/>
+      <rect x="600" y="108" width="70" height="44" fill="#f7931a" rx="8"/><text x="635" y="127" fill="#000" font-size="11" text-anchor="middle">0-10</text><text x="635" y="143" fill="#000" font-size="9" text-anchor="middle">Score</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">5大オンチェーングループ → 売買スコア</text>
+    <g font-family="sans-serif" font-size="10" font-weight="700">
+      <rect x="30" y="50" width="150" height="34" fill="#a78bfa" rx="6"/><text x="105" y="72" fill="#000" text-anchor="middle">バリュエーション</text>
+      <rect x="30" y="92" width="150" height="34" fill="#38bdf8" rx="6"/><text x="105" y="114" fill="#000" text-anchor="middle">収益性・心理</text>
+      <rect x="30" y="134" width="150" height="34" fill="#60a5fa" rx="6"/><text x="105" y="156" fill="#000" text-anchor="middle">保有者行動</text>
+      <rect x="30" y="176" width="150" height="34" fill="#fbbf24" rx="6"/><text x="105" y="198" fill="#000" text-anchor="middle">マイナー / 資金</text>
+      <path d="M180 67 H320 M180 109 H320 M180 151 H320 M180 193 H320" stroke="#52525b" stroke-width="1.5" fill="none"/>
+      <rect x="320" y="105" width="180" height="50" fill="#22c55e" rx="8"/><text x="410" y="128" fill="#000" font-size="11" text-anchor="middle">重ねて読む</text><text x="410" y="144" fill="#000" font-size="9" text-anchor="middle">(合意 = シグナル)</text>
+      <path d="M500 130 H600" stroke="#52525b" stroke-width="1.5" fill="none"/>
+      <rect x="600" y="108" width="70" height="44" fill="#f7931a" rx="8"/><text x="635" y="127" fill="#000" font-size="11" text-anchor="middle">0〜10</text><text x="635" y="143" fill="#000" font-size="9" text-anchor="middle">スコア</text>
+    </g>
+  </svg>
+  </div>
+
   <table class="zt ko">
     <tr><th>그룹</th><th>대표 지표</th><th>무엇을 알려주나</th></tr>
     <tr><td>밸류에이션</td><td>MVRV Z, 실현가, NUPL</td><td>고평가 / 저평가</td></tr>
