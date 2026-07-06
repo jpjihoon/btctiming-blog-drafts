@@ -1,0 +1,89 @@
+<?php
+// ═══════════════════════════════════════════════════════
+// BTCtiming.com — 안내 페이지 공용 헤더 (RSS·사이트맵 등이 include)
+// 대시보드(index.php)의 nav·로고·언어선택과 픽셀 단위로 동일하게 유지한다.
+// 사용법: 각 페이지 상단에서
+//   $GUIDE_TITLE = '...'; $GUIDE_DESC = '...'; $GUIDE_CANONICAL='...';
+//   require __DIR__ . '/_guide_head.php';
+// 를 호출하면 <!DOCTYPE>~<nav>까지 출력된다. 이후 본문을 쓰고 _guide_foot.php로 닫는다.
+// ═══════════════════════════════════════════════════════
+if (!function_exists('gh')) { function gh($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); } }
+$__title = $GUIDE_TITLE ?? 'BTCtiming.com';
+$__desc  = $GUIDE_DESC ?? '';
+$__canon = $GUIDE_CANONICAL ?? 'https://btctiming.com/';
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title><?= gh($__title) ?></title>
+<?php if ($__desc): ?><meta name="description" content="<?= gh($__desc) ?>"><?php endif; ?>
+<link rel="canonical" href="<?= gh($__canon) ?>">
+<style>
+/* ── 대시보드와 동일한 디자인 토큰 ── */
+:root{
+  --bg:#080808;--bg2:#0f0f0f;--bg3:#151515;--bg4:#1a1a1a;
+  --b1:rgba(255,255,255,0.06);--b2:rgba(255,255,255,0.11);--b3:rgba(255,255,255,0.18);
+  --t1:#f0f0f0;--t2:#aaaaaa;--t3:#666666;--t4:#252525;
+  --green:#4ade80;--yellow:#fbbf24;--orange:#fb923c;--red:#f87171;--blue:#60a5fa;
+  --rad:12px;--rad-sm:8px;--rad-lg:16px;color-scheme:dark
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;min-height:100vh;overflow-x:hidden;line-height:1.7}
+a{color:var(--orange);text-decoration:none}a:hover{text-decoration:underline}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+/* 언어별 표시 */
+[lang="ko"] .l-en,[lang="ko"] .l-ja,[lang="ko"] .l-es,[lang="ko"] .l-de{display:none}
+[lang="en"] .l-ko,[lang="en"] .l-ja,[lang="en"] .l-es,[lang="en"] .l-de{display:none}
+[lang="ja"] .l-ko,[lang="ja"] .l-en,[lang="ja"] .l-es,[lang="ja"] .l-de{display:none}
+[lang="es"] .l-ko,[lang="es"] .l-en,[lang="es"] .l-ja,[lang="es"] .l-de{display:none}
+[lang="de"] .l-ko,[lang="de"] .l-en,[lang="de"] .l-ja,[lang="de"] .l-es{display:none}
+/* ── NAV (대시보드와 동일) ── */
+nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
+.nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px;gap:12px}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;color:var(--t1)}
+.logo:hover{opacity:.8;text-decoration:none}
+.logo span{color:var(--yellow)}
+.nav-back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-back a{color:var(--t3)}
+.nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
+.lang-dropdown{position:relative;flex-shrink:0}
+.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:var(--bg3);
+  border:1px solid var(--b1);border-radius:var(--rad-sm);color:var(--t1);font-size:11px;font-weight:700;
+  letter-spacing:.02em;cursor:pointer;transition:all .15s}
+.lang-trigger:hover{background:var(--bg4)}
+.lang-caret{font-size:9px;color:var(--t3);transition:transform .15s}
+.lang-dropdown.open .lang-caret{transform:rotate(180deg)}
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:var(--bg2);
+  border:1px solid var(--b1);border-radius:var(--rad-sm);box-shadow:0 8px 24px rgba(0,0,0,.4);
+  overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
+.lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
+.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
+  border:none;color:var(--t2);font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:var(--bg3);color:var(--t1)}
+.lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}
+/* ── 공용 히어로/본문 폭 ── */
+.guide-wrap{max-width:1280px;margin:0 auto;padding:0 16px}
+<?= $GUIDE_EXTRA_CSS ?? '' ?>
+</style>
+</head>
+<body>
+<nav><div class="nav-inner">
+  <a href="/" class="logo">BTC<span>timing</span></a>
+  <span class="nav-back"><a href="/"><span class="l-ko">← 실시간 분석으로 돌아가기</span><span class="l-en">← Back to Live Analysis</span><span class="l-ja">← リアルタイム分析に戻る</span><span class="l-es">← Volver al Análisis en Vivo</span><span class="l-de">← Zurück zur Live-Analyse</span></a></span>
+  <div class="nav-r">
+    <div class="lang-dropdown" id="langDropdown">
+      <button type="button" class="lang-trigger" onclick="toggleLangMenu(event)" aria-haspopup="true"><span id="langTriggerLabel">KO</span><span class="lang-caret">▾</span></button>
+      <div class="lang-menu">
+        <button type="button" class="lang-menu-item" data-lang="ko" onclick="L('ko')">🇰🇷 한국어</button>
+        <button type="button" class="lang-menu-item" data-lang="en" onclick="L('en')">🇺🇸 English</button>
+        <button type="button" class="lang-menu-item" data-lang="ja" onclick="L('ja')">🇯🇵 日本語</button>
+        <button type="button" class="lang-menu-item" data-lang="es" onclick="L('es')">🇪🇸 Español</button>
+        <button type="button" class="lang-menu-item" data-lang="de" onclick="L('de')">🇩🇪 Deutsch</button>
+      </div>
+    </div>
+  </div>
+</div></nav>
