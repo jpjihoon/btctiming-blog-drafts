@@ -35,6 +35,7 @@ $T = [
     'note'        => '위 링크로 가입하면 거래 수수료 할인 혜택을 받을 수 있습니다.',
     'risk'        => '⚠ 암호화폐 거래, 특히 선물·레버리지 거래는 높은 손실 위험을 동반합니다. BTCtiming의 점수는 정보 제공용이며 투자 조언이 아닙니다. 본인의 판단과 책임하에 거래하세요.',
     'f_privacy'   => '개인정보처리방침', 'f_terms' => '이용약관',
+    'f_sitemap'   => '사이트맵', 'f_disclaimer' => '투자 조언이 아닙니다',
   ],
   'en' => [
     'title' => 'Best Exchange — Binance vs Bybit | BTCtiming',
@@ -54,6 +55,7 @@ $T = [
     'note'        => 'Signing up via the links above gets you a trading fee discount.',
     'risk'        => '⚠ Crypto trading, especially futures and leverage, carries a high risk of loss. BTCtiming scores are for information only and are not financial advice. Trade at your own discretion and risk.',
     'f_privacy'   => 'Privacy Policy', 'f_terms' => 'Terms of Service',
+    'f_sitemap'   => 'Sitemap', 'f_disclaimer' => 'Not financial advice',
   ],
   'ja' => [
     'title' => 'おすすめ取引所 — Binance vs Bybit | BTCtiming',
@@ -73,6 +75,7 @@ $T = [
     'note'        => '上記のリンクから登録すると取引手数料の割引を受けられます。',
     'risk'        => '⚠ 暗号資産取引、特に先物・レバレッジ取引は高い損失リスクを伴います。BTCtimingのスコアは情報提供用であり投資助言ではありません。自己の判断と責任で取引してください。',
     'f_privacy'   => 'プライバシーポリシー', 'f_terms' => '利用規約',
+    'f_sitemap'   => 'サイトマップ', 'f_disclaimer' => '投資助言ではありません',
   ],
   'es' => [
     'title' => 'Mejor Exchange — Binance vs Bybit | BTCtiming',
@@ -92,6 +95,7 @@ $T = [
     'note'        => 'Registrarte con los enlaces de arriba te da un descuento en comisiones de trading.',
     'risk'        => '⚠ Operar con cripto, especialmente futuros y apalancamiento, conlleva un alto riesgo de pérdida. Las puntuaciones de BTCtiming son solo informativas y no son asesoramiento financiero. Opera bajo tu propio criterio y riesgo.',
     'f_privacy'   => 'Política de Privacidad', 'f_terms' => 'Términos de Servicio',
+    'f_sitemap'   => 'Mapa del sitio', 'f_disclaimer' => 'No es asesoramiento financiero',
   ],
   'de' => [
     'title' => 'Beste Börse — Binance vs Bybit | BTCtiming',
@@ -111,6 +115,7 @@ $T = [
     'note'        => 'Mit den Links oben erhältst du einen Rabatt auf die Handelsgebühren.',
     'risk'        => '⚠ Krypto-Handel, besonders Futures und Hebel, birgt ein hohes Verlustrisiko. BTCtiming-Scores dienen nur der Information und sind keine Finanzberatung. Handle nach eigenem Ermessen und Risiko.',
     'f_privacy'   => 'Datenschutzerklärung', 'f_terms' => 'Nutzungsbedingungen',
+    'f_sitemap'   => 'Sitemap', 'f_disclaimer' => 'Keine Finanzberatung',
   ],
 ];
 $t = $T[$lang] ?? $T['en'];
@@ -233,8 +238,11 @@ footer a{color:#666666;text-decoration:underline}
 
 <footer>
   © 2026 BTCtiming.com ·
+  <a href="/rss-guide.php"><?= h($t['f_rss'] ?? 'RSS') ?></a> ·
+  <a href="/sitemap-guide.php<?= h($urlSuffix) ?>"><?= h($t['f_sitemap']) ?></a> ·
   <a href="/privacy<?= h($urlSuffix) ?>"><?= h($t['f_privacy']) ?></a> ·
-  <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['f_terms']) ?></a>
+  <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['f_terms']) ?></a> ·
+  <?= h($t['f_disclaimer']) ?>
 </footer>
 
 <script>
