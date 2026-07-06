@@ -9,12 +9,16 @@ AddDefaultCharset UTF-8
 AddType application/xml .xml
 AddType text/plain .txt
 
-# /privacy → privacy.html 리다이렉트
-Redirect /privacy https://btctiming.com/privacy.html
-# /terms → terms.html 리다이렉트
-Redirect /terms https://btctiming.com/terms.html
-
+# /privacy, /terms → 내부적으로 .php가 응답 (URL은 그대로 유지)
+# (구 버전은 privacy.html로 301 리다이렉트했으나, .php 전환으로 rewrite 처리)
 RewriteEngine On
+
+RewriteRule ^privacy/?$ /privacy.php [L]
+RewriteRule ^terms/?$ /terms.php [L]
+
+# 구주소 접근 시 새 주소로 정리 (.html 캐시된 링크 대응)
+RewriteRule ^privacy\.html$ /privacy [R=301,L]
+RewriteRule ^terms\.html$ /terms [R=301,L]
 
 # sitemap.xml 주소로 접근해도 실제로는 sitemap.php가 응답 (검색엔진 호환성)
 # 사용자/구글 눈에는 https://btctiming.com/sitemap.xml 로 보이지만
