@@ -28,7 +28,7 @@ $COIN_META = [
   'RENDER'=>['Render','#CF1011'],'SKY'=>['Sky','#1AAB9B'],'LDO'=>['Lido DAO','#00A3FF'],
   'STX'=>['Stacks','#5546FF'],'THETA'=>['Theta','#2AB8E6'],'SAND'=>['The Sandbox','#00ADEF'],
   'AXS'=>['Axie Infinity','#0055D5'],'MANA'=>['Decentraland','#FF2D55'],'FLOW'=>['Flow','#00EF8B'],
-  'CHZ'=>['Chiliz','#CD0124'],'GALA'=>['Gala','#222222'],'EOS'=>['EOS','#222222'],
+  'CHZ'=>['Chiliz','#CD0124'],'GALA'=>['Gala','#222222'],'A'=>['Vaulta','#222222'],
   'PEPE'=>['Pepe','#3D8130'],'SHIB'=>['Shiba Inu','#FFA409'],
 ];
 $coinList = [];
@@ -144,6 +144,9 @@ const T_EMPTY = <?= json_encode($t['empty'], JSON_UNESCAPED_UNICODE) ?>;
 const T_EMPTY_FAV = <?= json_encode($t['empty_fav'], JSON_UNESCAPED_UNICODE) ?>;
 let curTab = 'fav';
 
+function getDelistedCoins(){
+  try{ const raw = localStorage.getItem('delistedCoins'); return raw ? (JSON.parse(raw)||[]) : []; }catch(e){ return []; }
+}
 function getFavorites(){
   try{
     const raw = localStorage.getItem('favoriteCoins');
@@ -180,7 +183,9 @@ function render(q){
   const query = (q||'').trim().toUpperCase();
   const favs = getFavorites();
   document.getElementById('favCnt').textContent = favs.length;
-  const base = curTab==='fav' ? COINS.filter(c=>favs.includes(c.id)) : COINS;
+  const dead = getDelistedCoins();
+  const pool = COINS.filter(c=>!dead.includes(c.id));
+  const base = curTab==='fav' ? pool.filter(c=>favs.includes(c.id)) : pool;
   const matched = base.filter(c=>!query || c.id.includes(query) || c.name.toUpperCase().includes(query));
   const list = document.getElementById('coinList');
   if(!matched.length){

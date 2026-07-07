@@ -214,7 +214,7 @@ const COINS = [
   {id:'FLOW',name:'Flow',     sym:'FLOWUSDT',color:'#00EF8B'},
   {id:'CHZ', name:'Chiliz',   sym:'CHZUSDT', color:'#CD0124'},
   {id:'GALA',name:'Gala',     sym:'GALAUSDT',color:'#000000'},
-  {id:'EOS', name:'EOS',      sym:'EOSUSDT', color:'#000000'},
+  {id:'A',   name:'Vaulta',   sym:'AUSDT',   color:'#000000'},
   {id:'PEPE',name:'Pepe',     sym:'PEPEUSDT',color:'#3D8130'},
   {id:'SHIB',name:'Shiba Inu',sym:'SHIBUSDT',color:'#FFA409'},
 ];
@@ -228,6 +228,33 @@ let currentCoin = (function(){
 // 즐겨찾기 (관심 코인) — localStorage 저장, 대시보드 탭에 노출되는 코인 목록
 // ═══════════════════════════════════════════════════════
 const DEFAULT_FAVORITES = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX']; // 기존 8개
+
+// ── 상장폐지/이용불가 코인 자동 숨김 ──
+// api.php가 'coin_unavailable'을 반환한 코인(상폐/티커변경)을 기억해,
+// 코인 목록·즐겨찾기·검색에서 자동으로 숨긴다. (하나씩 수동으로 지울 필요 없음)
+function getDelistedCoins() {
+  try {
+    const raw = localStorage.getItem('delistedCoins');
+    return raw ? (JSON.parse(raw) || []) : [];
+  } catch(e) { return []; }
+}
+function markCoinDelisted(id) {
+  if (!id || id === 'BTC') return; // BTC는 절대 숨기지 않음(안전장치)
+  const list = getDelistedCoins();
+  if (!list.includes(id)) {
+    list.push(id);
+    try { localStorage.setItem('delistedCoins', JSON.stringify(list)); } catch(e) {}
+  }
+  const favs = getFavorites().filter(x => x !== id);
+  saveFavorites(favs);
+  try { initTabs(); } catch(e) {}
+}
+function isDelisted(id) { return getDelistedCoins().includes(id); }
+function activeCoins() {
+  const dead = getDelistedCoins();
+  return COINS.filter(c => !dead.includes(c.id));
+}
+
 function getFavorites() {
   try {
     const raw = localStorage.getItem('favoriteCoins');
@@ -260,8 +287,9 @@ function resetFavorites() { return saveFavorites([...DEFAULT_FAVORITES]); }
 // 즐겨찾기를 COINS 정의 순서(거래량 순)대로 정렬해 반환 — 탭 순서 일관성
 function getFavoriteCoins() {
   const favs = getFavorites();
-  // 저장된 즐겨찾기 순서를 그대로 따른다 (사용자가 조정한 순서 유지)
-  return favs.map(id => COINS.find(c => c.id === id)).filter(Boolean);
+  const dead = getDelistedCoins();
+  // 저장된 즐겨찾기 순서를 그대로 따르되, 상폐된 코인은 제외
+  return favs.map(id => COINS.find(c => c.id === id)).filter(c => c && !dead.includes(c.id));
 }
 // 즐겨찾기 순서 이동 (검색 오버레이/coins.php에서 위/아래로 조정)
 function moveFavorite(id, dir) { // dir: -1(위) | +1(아래)
@@ -485,12 +513,13 @@ function renderCoinSearchList(q) {
   const cnt = document.getElementById('covFavCount');
   if (cnt) cnt.textContent = favs.length;
   // 탭에 따라 대상 코인 선정. 검색어가 있으면 전체에서 찾되 즐겨찾기 탭은 즐겨찾기 내에서만.
+  const dead = getDelistedCoins();
   let base;
   if (coinSearchTab === 'fav') {
-    // 즐겨찾기는 저장된 순서대로 표시 (순서 조정 반영)
-    base = favs.map(id => COINS.find(c => c.id === id)).filter(Boolean);
+    // 즐겨찾기는 저장된 순서대로 표시 (순서 조정 반영), 상폐 제외
+    base = favs.map(id => COINS.find(c => c.id === id)).filter(c => c && !dead.includes(c.id));
   } else {
-    base = COINS;
+    base = COINS.filter(c => !dead.includes(c.id)); // 전체 탭도 상폐 제외
   }
   const matched = base.filter(c =>
     !query || c.id.includes(query) || c.name.toUpperCase().includes(query)
@@ -1000,18 +1029,30 @@ async function fetchScoreFromAPI(coin, mode) {
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   const data = await res.json();
 
-  // 서버가 상폐/변경된 코인이라고 알려주면, 500 대신 안내 표시
+  // 서버가 상폐/변경된 코인이라고 알려주면, 자동으로 목록에서 숨기고 다른 코인으로 전환
   if (data && data.error === 'coin_unavailable') {
-    const ov=document.getElementById('overlay');
-    const txt=document.getElementById('ovTxt');
-    if(ov) ov.style.display='flex';
-    if(txt) txt.innerHTML=TT({
-      ko:`⚠ 이 코인은 현재 이용할 수 없습니다<br><small style="color:#888">심볼이 변경되었거나 상장폐지되었을 수 있습니다.<br>다른 코인을 선택해주세요.</small>`,
-      en:`⚠ This coin is currently unavailable<br><small style="color:#888">Its symbol may have changed or been delisted.<br>Please select another coin.</small>`,
-      ja:`⚠ このコインは現在利用できません<br><small style="color:#888">シンボルが変更されたか上場廃止された可能性があります。<br>他のコインを選択してください。</small>`,
-      es:`⚠ Esta moneda no está disponible<br><small style="color:#888">Su símbolo puede haber cambiado o sido retirado.<br>Selecciona otra moneda.</small>`,
-      de:`⚠ Dieser Coin ist nicht verfügbar<br><small style="color:#888">Sein Symbol wurde möglicherweise geändert oder delistet.<br>Bitte wählen Sie einen anderen Coin.</small>`
-    });
+    const deadId = (data.coin || coin);
+    markCoinDelisted(deadId); // 목록·즐겨찾기에서 자동 제거 + 기억
+    // 살아있는 즐겨찾기 코인으로 자동 전환 (없으면 BTC)
+    const alive = getFavoriteCoins().filter(c => c.id !== deadId);
+    const next = alive.length ? alive[0].id : 'BTC';
+    if (next !== currentCoin && next !== deadId) {
+      setTimeout(() => { try { switchCoin(next); } catch(e){} }, 30);
+    }
+    // 짧은 토스트성 안내 (오버레이 대신)
+    try {
+      const ov=document.getElementById('overlay');
+      const txt=document.getElementById('ovTxt');
+      if(ov) ov.style.display='flex';
+      if(txt) txt.innerHTML=TT({
+        ko:`⚠ ${deadId}는 상장폐지되어 목록에서 제거했습니다<br><small style="color:#888">다른 코인으로 전환합니다…</small>`,
+        en:`⚠ ${deadId} was delisted and removed from your list<br><small style="color:#888">Switching to another coin…</small>`,
+        ja:`⚠ ${deadId}は上場廃止のためリストから削除しました<br><small style="color:#888">他のコインに切り替えます…</small>`,
+        es:`⚠ ${deadId} fue retirada y eliminada de tu lista<br><small style="color:#888">Cambiando a otra moneda…</small>`,
+        de:`⚠ ${deadId} wurde delistet und aus der Liste entfernt<br><small style="color:#888">Wechsle zu einem anderen Coin…</small>`
+      });
+      setTimeout(() => { if(ov) ov.style.display='none'; }, 2500);
+    } catch(e){}
     throw new Error('coin_unavailable');
   }
 

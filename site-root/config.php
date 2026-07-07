@@ -66,7 +66,7 @@ const COIN_SYMBOLS = [
     'FLOW'  => 'FLOWUSDT',
     'CHZ'   => 'CHZUSDT',
     'GALA'  => 'GALAUSDT',
-    'EOS'   => 'EOSUSDT',
+    'A'     => 'AUSDT',
     'PEPE'  => 'PEPEUSDT',
     'SHIB'  => 'SHIBUSDT',
 ];
