@@ -516,6 +516,111 @@ Sichere Zone: Spread ≤ 0,02 (abgestimmtes Verhalten, kein Distributionssignal)
 Aktuell: STH realisiert deutliche Gewinne relativ zu LTH → Distribution könnte beginnen.`,
     ind_sell_sopr:'STH-SOPR — Gewinnmitnahme', ind_sell_cbp:'Coinbase Premium — FOMO',
   },
+  fr: {
+    exchBannerT:"Par quel exchange commencer ?", exchBannerD:"Comparez Binance et Bybit + réduction de frais",
+    // NAV
+    navInsights:'Blog',
+    footerPrivacy:'Politique de confidentialité', footerTerms:'Conditions d\'utilisation', footerDisclaimer:'Pas un conseil financier',
+    whyBtnLabel:'Pourquoi ?', whyTopTitle:'Principaux contributeurs', whyBottomTitle:'Ce qui freine', histToday:'Aujourd\'hui', histYesterday:'Hier', histWeekAgo:'Semaine dernière',
+    buyTiming:'📈 Timing LONG', sellTiming:'📉 Timing SHORT',
+    livePriceLabel:'Prix · Binance', fgLabel:'Peur et Avidité',
+    rpLabel:'Écart de Prix Réalisé', maLabel:'MM 200S (réf)',
+    splitPlan:'Plan d\'Entrée Échelonnée', splitTitle:'Répartition par Étape',
+    splitStep1:(s)=>`Maintenant (Score ${s})`, splitStep2:'Reprise Hash Ribbon',
+    splitStep3:'Coinbase Premium → Positif', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Mis à jour',
+    // Mode labels
+    modeTitle_buy:'SCORE DE TIMING LONG', modeTitle_sell:'JAUGE DE PRESSION DE VENTE',
+    modeSub_buy:'Modèle d\'entrée long au creux du cycle', modeSub_sell:'Modèle de timing d\'entrée short',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Comment lire le Score de Vente',
+    sellExplain_low:'🟢 FAIBLE (0~3) : Marché en zone de creux. Aucun signal de sortie. Conserver ou accumuler.',
+    sellExplain_mid:'🟡 MOYEN (4~6) : Marché en surchauffe. Surveiller pour réduction partielle.',
+    sellExplain_high:'🔴 ÉLEVÉ (7~10) : Signal de vente fort. Sortir du long / Envisager une entrée short.',
+    // Indicator names (buy)
+    ind_mvrv_z:'Score Z MVRV', ind_nupl:'NUPL', ind_realized:'Écart de Prix Réalisé',
+    ind_alt_valuation:'Prix vs Réalisé Est. (MM 200S)', ind_alt_drawdown:'Baisse depuis l\'ATH',
+    tab_dashboard:'En direct', tab_coins:'Rechercher', tab_blog:'Blog',
+    ind_alt_short_val:'Prix vs Réalisé Est. (Short)', ind_alt_short_ath:'Proximité de l\'ATH — Surchauffe',
+    ind_rsi:'RSI (14j)', ind_vol_change:'Accélération du Volume (15m vs 1h/4h)', ind_btc_corr_tech:'Corrélation BTC (30j)',
+    ind_buy_pressure:'Volume en Direct Mené par l\'Achat — FOMO', ind_sell_pressure:'Volume en Direct Mené par la Vente — Capitulation',
+    desc_buy_pressure:`Proportion du volume des bougies de 15 minutes les plus récentes portée par des achats agressifs. Un ratio élevé (65%+) combiné à un pic de volume et une bougie verte peut signaler une surchauffe due au FOMO près d'un sommet local. Utilise des données de 15 minutes plutôt que quotidiennes, reflétant des conditions quasi en temps réel (délai de 15min–1h vs jusqu'à 24h pour le volume quotidien).`,
+    desc_sell_pressure:`Proportion du volume des bougies de 15 minutes les plus récentes portée par des ventes agressives. Un ratio élevé (58%+) combiné à un pic de volume et une bougie rouge peut signaler une vente de capitulation qui précède souvent un rebond près d'un creux local. Utilise des données de 15 minutes plutôt que quotidiennes, reflétant des conditions quasi en temps réel.`,
+    desc_rsi:`Indice de Force Relative sur 14 jours, un oscillateur de momentum mesurant la vitesse et l'ampleur des variations de prix récentes. Un RSI inférieur à 30 indique une survente (souvent signal de creux), tandis qu'au-dessus de 70 il indique un surachat (souvent signal de sommet). S'applique de la même manière à toutes les cryptos car il repose uniquement sur le prix.`,
+    desc_vol_change:`Compare le volume de la bougie de 15 minutes la plus récente aux moyennes de 1 heure et 4 heures. Un pic important combiné à un prix près d'un plus bas peut signaler une vente de capitulation qui précède souvent un rebond. Un pic près d'un plus haut peut signaler une distribution par les gros détenteurs. Utiliser des données de 15 minutes plutôt que quotidiennes reflète des conditions quasi en temps réel.`,
+    desc_btc_corr_tech:`Coefficient de corrélation de Pearson entre les rendements quotidiens de cette crypto et ceux du Bitcoin sur les 30 derniers jours. Une faible corrélation (inférieure à 0,5) suggère que la crypto évolue indépendamment du BTC, ce qui peut indiquer une force ou une faiblesse propre à la crypto plutôt qu'un mouvement de marché général.`,
+    desc_alt_short_val:`Indicateur estimé de survalorisation pour les altcoins en mode SHORT. Mesure de combien le prix actuel dépasse le prix réalisé estimé — plus il est élevé, plus la crypto est en surchauffe et favorable au SHORT. ⚠️ Le prix réalisé est une estimation, pas des données on-chain en direct.`,
+    desc_alt_short_ath:`Distance par rapport au plus haut historique (ATH), utilisée comme signal de surchauffe pour le timing SHORT des altcoins. Être proche de l'ATH (à moins de -15%) coïncide historiquement avec des sommets locaux et une plus grande favorabilité au SHORT.`,
+    ind_btc_corr:'Dominance BTC — Cycle Alt', desc_btc_corr:`Suit la dominance de capitalisation du Bitcoin comme indicateur de la position du cycle alt plus large. Quand la dominance BTC est élevée (55%+), le capital se concentre sur le Bitcoin et les altcoins tendent à sous-performer — souvent le signe que le cycle alt n'a pas encore commencé. Quand la dominance chute (sous 50%), le capital tourne vers les altcoins, historiquement associé à la "saison alt".`,
+    desc_alt_valuation:`Indicateur de valorisation estimé pour les altcoins. Contrairement à BTC/ETH/BNB, cette crypto n'a pas de données MVRV Z-Score on-chain fiables disponibles, nous utilisons donc le prix vs un prix réalisé estimé comme approximation.
+
+⚠️ Important : le prix réalisé estimé de cette crypto est approximé par la moyenne mobile sur 200 semaines (MM 200S), et non par des données on-chain en direct. La MM 200S est une approximation largement utilisée qui suit de près le prix réalisé on-chain, mais diffère des données précises. À utiliser uniquement comme signal directionnel.
+
+Sous le prix réalisé estimé = zone de sous-valorisation possible.`,
+    desc_alt_drawdown:`Distance par rapport au plus haut historique (ATH), utilisée comme substitut du NUPL pour les altcoins sans données fiables de profit/perte on-chain.
+
+Les baisses profondes (70%+) depuis l'ATH ont historiquement coïncidé avec les creux de cycle des principaux altcoins, bien que cela varie fortement selon la crypto.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Écart Futures-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% Offre LTH', ind_dom:'Dominance BTC',
+    ind_halving:'Cycle de Halving',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Surchauffe', ind_sell_nupl:'NUPL — Niveau d\'Avidité',
+    ind_sell_funding:'Prime des Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Le Spread SOPR LTH-STH mesure l'écart entre le comportement de prise de bénéfices des détenteurs à long et à court terme.
+Un spread positif important signifie que les détenteurs à court terme prennent leurs bénéfices bien plus vite que ceux à long terme — un signal précoce de distribution.
+
+Zone SHORT : spread ≥ 0,15 (STH vend agressivement tandis que LTH conserve)
+Zone sûre : spread ≤ 0,02 (comportement aligné, aucun signal de distribution)
+
+Actuel : STH prend des bénéfices significatifs par rapport à LTH → la distribution pourrait commencer.`,
+    ind_sell_sopr:'STH-SOPR — Prise de Bénéfices', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'VALORISATION ON-CHAIN', sec_miner:'MINEUR / SENTIMENT',
+    sec_inst:'FLUX INSTITUTIONNEL', sec_cycle:'POSITION DU CYCLE',
+    sec_breakdown:'Détail du Score', sec_triggers:'Prochains Déclencheurs',
+    sec_sellTriggers:'Déclencheurs de Signal de Vente', sec_macro:'AVERTISSEMENTS MACRO',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'TOUT →', loadingInsights:'Chargement...', loadMoreInsights:'Voir Plus', collapseInsights:'Réduire',
+    sec_history:'Historique des Scores', sec_histSub:'Enregistré localement dans le navigateur',
+    histH:'Heure', histD:'Jour', histM:'Mois',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"Le Score Z MVRV mesure à quel point le Bitcoin est survalorisé ou sous-valorisé par rapport à sa valeur réalisée. \n• < 0 : Sous-valorisé historiquement (zone de creux) → Achat fort\n• 0~1 : Légèrement sous-valorisé → Zone d'accumulation  \n• 1~3 : Juste valeur → Neutre\n• > 3 : Survalorisé (zone de sommet) → Envisager la vente\nPhase actuelle : 0,27 — Proche du creux. Historiquement, les valeurs sous 0,5 ont précédé de grands marchés haussiers.",
+    desc_nupl:"Le NUPL (Profit/Perte Net Non Réalisé) montre l'état global de profit/perte de tous les détenteurs de BTC.\n• < 0% (Capitulation) : Détenteurs en perte → Signal d'achat extrême\n• 0~25% (Espoir/Peur) : Reprise depuis le creux → Zone d'achat  \n• 25~50% (Optimisme) : Milieu de cycle → Neutre\n• 50~75% (Croyance/Avidité) : Fin de cycle → Surveiller\n• > 75% (Euphorie) : Avidité maximale → Signal de vente",
+    desc_realized:"Montre à quelle distance le prix actuel se situe du coût moyen de tous les détenteurs de BTC (Prix Réalisé).\n• Sous 0% : Prix sous le coût moyen → Zone de panique, achat le plus fort\n• 0~5% : Proche du prix réalisé → Entrée idéale\n• 5~20% : Prime modérée → Acceptable\n• > 20% : Prime élevée → Prudence",
+    desc_hash:"Le Hash Ribbon suit le momentum du hashrate de minage du Bitcoin (moyenne mobile 30 jours vs 60 jours).\n• Capitulation : Mineurs faibles à l'arrêt (30MM < 60MM) → Formation d'un creux\n• Croisement de Reprise : la 30MM passe au-dessus de la 60MM → Signal d'achat avancé le plus fiable (2~4 semaines à l'avance)\nPrécision historique : A parfaitement marqué les creux de 2016, 2018, 2020 et 2022.",
+    desc_sopr:"Le SOPR des Détenteurs à Court Terme mesure si les acheteurs récents vendent à profit ou à perte.\n• < 0,95 : Vente panique à forte perte → Capitulation = signal d'achat\n• 0,95~1,0 : Légère prise de perte → Proche du creux\n• 1,0~1,03 : Prise de bénéfices neutre\n• > 1,05 : Forte prise de bénéfices → Distribution = signal de sommet",
+    desc_funding:"Écart Futures-Spot = (Prix Mark Futures - Prix Indice Spot) / Prix Spot\nMontre le positionnement du levier en temps réel sans le délai de règlement de 8 heures.\n• Négatif (backwardation) : Futures moins chers que le spot → Surcharge de shorts → Signal d'achat avancé\n• ±0,01% : Neutre (fourchette normale pour BTC)\n• > 0,05% : Contango → Surcharge de longs → Prudence\n• > 0,15% : Contango extrême → Signal de sommet",
+    desc_cbp:"Coinbase Premium = (Prix BTC Coinbase - Prix BTC Binance) / Prix Binance\nReflète la demande institutionnelle américaine en temps réel. Devance les données de flux ETF de 2~3 jours.\n• Positif : Institutions américaines en achat → Haussier\n• Proche de zéro : En observation/neutre\n• Négatif : Institutions en retrait → Baissier à court terme\nActuel : Négatif (46+ jours consécutifs) → Institutions en attente de clarté macro.",
+    desc_lth:"% Offre des Détenteurs à Long Terme = pourcentage de l'offre de BTC détenue par des adresses inactives depuis 155+ jours.\n• > 75% : Baleines en accumulation agressive → Signal d'achat fort\n• 70~75% : Accumulation normale\n• < 70% : Distribution (baleines en vente)\nDes niveaux records (79%) signifient que l'argent intelligent ne vend pas — un choc d'offre arrivera au retour de la demande.",
+    desc_dom:"Dominance BTC = Capitalisation BTC / Capitalisation totale du marché crypto\nAugmente quand le capital passe des altcoins au Bitcoin — schéma typique avant de grands marchés haussiers.\n• 55~63% (base CoinGecko) : Saison BTC → Capital consolidé sur BTC → Zone d'achat\n• < 50% : Saison alt → Risque activé\n• > 65% : Dominance BTC extrême → Peut signaler une rotation alt imminente",
+    desc_halving:"Les halvings du Bitcoin réduisent les récompenses de minage de 50% tous les ~4 ans, créant des chocs d'offre.\nTiming historique des creux :\n• Creux 2015 : 18 mois avant le halving 2016\n• Creux 2018 : 17 mois avant le halving 2020  \n• Creux 2022 : 17 mois avant le halving 2024\n• Actuel : ~21 mois avant le halving d'avril 2028 → Au centre de la fenêtre de creux.",
+    // Alert labels
+    alertTitle:'Paramètres d\'Alerte',
+    alertDesc:'Recevez des notifications par push du navigateur + flash visuel + son lorsque les conditions sont remplies.',
+    alertBuySection:'📈 DÉCLENCHEURS LONG', alertSellSection:'📉 DÉCLENCHEURS SHORT',
+    a2:'Score Long ≥ 6.0 (Démarrer l\'échelonnement)',
+    a3:'Score Long ≥ 7.0 (Augmenter la position)', a4:'Score Long ≥ 8.0 (Achat agressif)',
+    a5:'MVRV Z ≤ 0 — Zone de creux totale', a6:'NUPL sous 0% — Capitulation',
+    a7:'L\'écart des futures devient négatif (backwardation)', a8:'Croisement de reprise Hash Ribbon',
+    a9:'Coinbase Premium devient positif',
+    b1:'Score Short ≥ 6.0 (Préparer le short)', b2:'Score Short ≥ 7.0 (Augmenter le short)',
+    b3:'Score Short ≥ 8.0 (Short total)', b4:'MVRV Z ≥ 3.5 — Zone d\'euphorie',
+    b5:'NUPL ≥ 75% — Avidité extrême', b6:'Peur et Avidité ≥ 80',
+    b7:'Contango des futures ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Alerter quand le prix descend sous $', priceAbove:'Alerter quand le prix monte au-dessus de $',
+    enableNotif:'Activer les Notifications du Navigateur',
+    ind_sell_lth:'Offre LTH — Distribution', ind_sell_dom:'Dominance BTC — Risque',
+    ind_sell_halving:'Halving — Phase du Cycle', ind_sell_ath:'Proximité ATH — Risque de Sommet',
+    ind_sell_mvrv:'MVRV Z — Surchauffe', ind_sell_nupl:'NUPL — Avidité',
+    ind_sell_funding:'Prime des Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Le Spread SOPR LTH-STH mesure l'écart entre le comportement de prise de bénéfices des détenteurs à long et à court terme.
+Un spread positif important signifie que les détenteurs à court terme prennent leurs bénéfices bien plus vite que ceux à long terme — un signal précoce de distribution.
+
+Zone SHORT : spread ≥ 0,15 (STH vend agressivement tandis que LTH conserve)
+Zone sûre : spread ≤ 0,02 (comportement aligné, aucun signal de distribution)
+
+Actuel : STH prend des bénéfices significatifs par rapport à LTH → la distribution pourrait commencer.`,
+    ind_sell_sopr:'STH-SOPR — Prise de Bénéfices', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
   pt: {
     exchBannerT:"Por qual exchange começar?", exchBannerD:"Compare Binance e Bybit + desconto de taxa",
     // NAV

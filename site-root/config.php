@@ -140,6 +140,7 @@ const SUPPORTED_LANGS = [
     'ja' => ['code' => 'JA', 'flag' => '🇯🇵', 'name' => '日本語'],
     'es' => ['code' => 'ES', 'flag' => '🇪🇸', 'name' => 'Español'],
     'de' => ['code' => 'DE', 'flag' => '🇩🇪', 'name' => 'Deutsch'],
+    'fr' => ['code' => 'FR', 'flag' => '🇫🇷', 'name' => 'Français'],
     'pt' => ['code' => 'PT', 'flag' => '🇧🇷', 'name' => 'Português'],
     'tr' => ['code' => 'TR', 'flag' => '🇹🇷', 'name' => 'Türkçe'],
     'vi' => ['code' => 'VI', 'flag' => '🇻🇳', 'name' => 'Tiếng Việt'],
