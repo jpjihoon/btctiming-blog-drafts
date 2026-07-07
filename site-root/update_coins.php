@@ -79,6 +79,12 @@ function is_excluded(string $base): bool {
         // 레버리지 토큰: BASE 끝에 UP/DOWN/BULL/BEAR/3L/3S 등
         if (str_ends_with($base, $kw) && strlen($base) > strlen($kw)) return true;
     }
+    // 패턴 기반 스테이블 감지: USD/EUR로 끝나는 토큰 대부분이 스테이블 (RLUSD, XUSD 등).
+    // 단 실제 코인 오탐 방지 화이트리스트(끝이 USD여도 스테이블 아닌 것).
+    $notStable = ['PAXG']; // 금 등 예외 (필요시 추가)
+    if (!in_array($base, $notStable, true)) {
+        if (preg_match('/(USD|EUR)$/', $base) && strlen($base) >= 4) return true;
+    }
     return false;
 }
 

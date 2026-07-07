@@ -55,7 +55,7 @@ const COIN_META_MASTER = [
 ];
 
 // 스테이블코인·법정화폐 토큰 (거래량 상위에 섞이지만 제외 대상)
-const STABLECOINS = ['USDT','USDC','FDUSD','TUSD','BUSD','DAI','USDP','USDD','GUSD','EURT','EUR','AEUR','USTC','PYUSD','FRAX','USDE','USD1'];
+const STABLECOINS = ['USDT','USDC','FDUSD','TUSD','BUSD','DAI','USDP','USDD','GUSD','EURT','EUR','AEUR','USTC','PYUSD','FRAX','USDE','USD1','RLUSD','USDS','USDX','USDG','GHO','LUSD','CRVUSD','USD0','USDB','EURC','EURI','XUSD','BUIDL','USDf','FDUSD','USDL','DEUSD'];
 
 // 레버리지/특수 토큰 접미사·키워드 (제외)
 const EXCLUDE_KEYWORDS = ['UP','DOWN','BULL','BEAR','3L','3S','5L','5S'];
