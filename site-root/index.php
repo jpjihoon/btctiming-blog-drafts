@@ -805,7 +805,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 <div id="overlay">
   <div class="ov-logo">BTC<span>timing.com</span></div>
   <div class="ov-spin"></div>
-  <div class="ov-txt" id="ovTxt">Fetching live data...</div>
+  <div class="ov-txt" id="ovTxt"><?php echo ['ko'=>'실시간 데이터 불러오는 중...','en'=>'Fetching live data...','ja'=>'リアルタイムデータ取得中...','es'=>'Obteniendo datos en vivo...','de'=>'Live-Daten werden geladen...','fr'=>'Chargement des données en direct...','pt'=>'Carregando dados ao vivo...','tr'=>'Canlı veriler yükleniyor...','vi'=>'Đang tải dữ liệu trực tiếp...'][$lang] ?? 'Fetching live data...'; ?></div>
 </div>
 
 <!-- Notification Modal -->
@@ -842,9 +842,9 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
     font-size:11px;color:var(--t2);display:flex;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
     <span id="tkFiatItem1"><span id="tkFiatLabel1">USD/KRW</span> <b id="tkUsdKrw" style="color:var(--t1)">—</b> <span id="tkUsdKrwChg"></span></span>
     <span><span id="tkFiatLabel2">USDT/KRW</span> <b id="tkUsdtKrw" style="color:var(--t1)">—</b> <span id="tkUsdtKrwChg"></span></span>
-    <span>BTC Dominance <b id="tkDom" style="color:var(--t1)">—</b> <span id="tkDomChg"></span></span>
-    <span>Market Cap <b id="tkMcap" style="color:var(--t1)">—</b></span>
-    <span>24h Volume <b id="tkVol" style="color:var(--t1)">—</b></span>
+    <span><span data-i="tkDomLabel">BTC Dominance</span> <b id="tkDom" style="color:var(--t1)">—</b> <span id="tkDomChg"></span></span>
+    <span><span data-i="tkMcapLabel">Market Cap</span> <b id="tkMcap" style="color:var(--t1)">—</b></span>
+    <span><span data-i="tkVolLabel">24h Volume</span> <b id="tkVol" style="color:var(--t1)">—</b></span>
   </div>
 </div>
 
@@ -1117,7 +1117,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
       <div class="bk-hd" data-i="sec_breakdown">Score Breakdown (94pt → 10pt)</div>
       <div class="bk-grid" id="bkGrid"></div>
       <div class="bk-tot">
-        <span style="color:var(--t2)">Total → /10</span>
+        <span style="color:var(--t2)" data-i="bkTotalLabel">Total → /10</span>
         <span id="bkTot">—</span>
       </div>
     </div>
@@ -1130,8 +1130,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
   </div>
 </div>
 <footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
-      Auto-fetched: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
-      On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.<br><br>
+      <span data-i="footerSources">Auto-fetched</span>: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
+      <span data-i="footerDisclaimer2">On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.</span><br><br>
       <div id="blogCategoryBar" style="display:flex;align-items:center;gap:0;max-width:100%;overflow:hidden">
         <span id="blogGuideLabel" style="color:var(--t2);font-size:12px;font-weight:600;flex-shrink:0;white-space:nowrap;margin-right:8px"></span>
         <div id="blogCategoryScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch">
