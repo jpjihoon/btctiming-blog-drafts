@@ -94,6 +94,7 @@ function h(string $s): string {
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="p:domain_verify" content="7aa5d0e2fb9fe7cc948d6989b7ba624f"/>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -332,7 +333,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .cm-name{color:var(--t3);font-weight:400;font-size:11px}
 /* 코인 검색 오버레이 */
 .coin-ov{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);backdrop-filter:blur(3px);align-items:flex-start;justify-content:center;padding:8vh 16px 16px}
-.coin-ov-box{width:100%;max-width:460px;max-height:80vh;display:flex;flex-direction:column;background:#131316;border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.coin-ov-box{width:100%;max-width:460px;height:70vh;max-height:640px;display:flex;flex-direction:column;background:#131316;border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
 .coin-ov-grip{display:none}
 .coin-ov-head{display:flex;align-items:center;gap:8px;padding:14px 14px 10px}
 .coin-ov-input{flex:1;height:40px;padding:0 14px;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:10px;color:#f0f0f0;font-size:14px;outline:none}
@@ -347,13 +348,13 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-ov-hint{font-size:11px;color:#777}
 .coin-ov-reset{font-size:11px;color:#aaa;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:7px;padding:5px 10px;cursor:pointer}
 .coin-ov-reset:hover{color:#f0f0f0;border-color:var(--orange)}
-.coin-ov-list{overflow-y:auto;-webkit-overflow-scrolling:touch;padding:4px 8px 10px}
+.coin-ov-list{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:4px 8px 10px}
 .coin-ov-item{display:flex;align-items:center;gap:10px;height:52px;padding:0 12px;border-radius:10px;cursor:pointer;transition:background .1s}
 .coin-ov-item:hover{background:#1c1c20}
 .coin-ov-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
 .coin-ov-id{font-size:13px;font-weight:700;color:#f0f0f0;min-width:56px}
 .coin-ov-name{font-size:12px;color:#888;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.coin-ov-star{font-size:18px;color:#3a3a40;flex-shrink:0}
+.coin-ov-star{font-size:18px;color:#3a3a40;flex-shrink:0;padding:6px 4px;margin:-6px -2px;cursor:pointer}
 .coin-ov-item.fav .coin-ov-star{color:var(--orange)}
 .coin-ov-move{display:flex;flex-direction:column;gap:1px;flex-shrink:0}
 .cov-mv{width:22px;height:15px;line-height:1;padding:0;background:#26262c;border:1px solid rgba(255,255,255,.08);border-radius:4px;color:#999;font-size:8px;cursor:pointer}
@@ -373,8 +374,8 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-sw-manage:hover{color:#f0f0f0;border-color:var(--orange)}
 /* 모바일: 하단 시트 형태 */
 @media(max-width:600px){
-  .coin-ov{align-items:flex-end;padding:0}
-  .coin-ov-box{max-width:none;max-height:82vh;border-radius:18px 18px 0 0;border-bottom:none;
+  .coin-ov{align-items:flex-end;padding:0 0 48px}
+  .coin-ov-box{max-width:none;height:76vh;max-height:none;border-radius:18px 18px 0 0;border-bottom:none;
     animation:sheetUp .22s ease-out}
   .coin-ov-grip{display:block;width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.2);margin:9px auto 2px}
   .coin-ov-list{padding-bottom:calc(14px + env(safe-area-inset-bottom))}
@@ -1040,9 +1041,9 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 <!-- ═══════════════════════════════════════════════════════ -->
 <!-- LIVE CHAT WIDGET -->
 <!-- ═══════════════════════════════════════════════════════ -->
-<div id="chatToggle" onclick="toggleChat()" role="button" tabindex="0" aria-label="Open chat" style="position:fixed;bottom:20px;right:20px;width:56px;height:56px;
+<div id="chatToggle" onclick="toggleChat()" role="button" tabindex="0" aria-label="Open chat" style="position:fixed;bottom:20px;right:20px;width:46px;height:46px;
   border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;
-  cursor:pointer;z-index:500;box-shadow:0 4px 16px rgba(0,0,0,.4);font-size:24px;transition:transform .2s">
+  cursor:pointer;z-index:500;box-shadow:0 4px 16px rgba(0,0,0,.4);font-size:20px;transition:transform .2s">
   💬
   <span id="chatBadge" style="position:absolute;top:-2px;right:-2px;background:var(--red);color:#fff;
     font-size:10px;font-weight:700;border-radius:50%;width:18px;height:18px;display:none;

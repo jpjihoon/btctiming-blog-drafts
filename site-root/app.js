@@ -401,7 +401,13 @@ document.addEventListener('click', (e) => {
   // 메뉴 내부나 more 버튼 클릭이 아니면 닫기
   if (!e.target.closest('.coin-tab-more') && !e.target.closest('#coinMoreMenu')) closeCoinMore();
 });
-window.addEventListener('scroll', closeCoinMore, true);
+// 페이지 스크롤 시 닫되, 드롭다운 메뉴 자체의 내부 스크롤은 제외 (스크롤로 선택 가능하게)
+window.addEventListener('scroll', (e) => {
+  const m = document.getElementById('coinMoreMenu');
+  if (!m || !m.classList.contains('open')) return;
+  if (e.target && e.target.id === 'coinMoreMenu') return; // 메뉴 내부 스크롤은 무시
+  closeCoinMore();
+}, true);
 
 // ═══════════════════════════════════════════════════════
 // 코인 검색/즐겨찾기 오버레이
@@ -543,14 +549,19 @@ function renderCoinSearchList(q) {
         <button class="cov-mv" onclick="event.stopPropagation();moveFavAndRefresh('${c.id}',-1)" ${i===0?'disabled':''} aria-label="up">▲</button>
         <button class="cov-mv" onclick="event.stopPropagation();moveFavAndRefresh('${c.id}',1)" ${i===matched.length-1?'disabled':''} aria-label="down">▼</button>
       </span>` : '';
-    return `<div class="coin-ov-item${on?' fav':''}" onclick="toggleFavFromSearch('${c.id}')">
+    return `<div class="coin-ov-item${on?' fav':''}" onclick="selectCoinFromSearch('${c.id}')">
       <span class="coin-ov-dot" style="background:${c.color}"></span>
       <span class="coin-ov-id">${c.id}</span>
       <span class="coin-ov-name">${c.name}</span>
       ${reorder}
-      <span class="coin-ov-star">${on?'★':'☆'}</span>
+      <span class="coin-ov-star" onclick="event.stopPropagation();toggleFavFromSearch('${c.id}')" role="button" aria-label="toggle favorite">${on?'★':'☆'}</span>
     </div>`;
   }).join('');
+}
+// 항목 클릭: 그 코인으로 전환하고 오버레이 닫기 (즐겨찾기 해제 아님)
+function selectCoinFromSearch(id) {
+  closeCoinSearch();
+  switchCoin(id);
 }
 function moveFavAndRefresh(id, dir) {
   moveFavorite(id, dir);
