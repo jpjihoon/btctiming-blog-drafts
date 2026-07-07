@@ -1,0 +1,250 @@
+<?php $slug = 'bip110-reduced-data-soft-fork-signaling'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">비트코인 블록체인에 임의 데이터 저장을 1년간 제한하려는 소프트포크 제안 'BIP-110'이 강제 신호(signaling) 개시 시한을 한 달 앞두고 채굴자 지지율 1% 미만에 머물러 있다고 뉴스BTC(News.Bitcoin.com)와 비트겟(Bitget)이 7월 초 보도했다. BG지오메트릭스(BGeometrics) 집계에 따르면 5월 1일 이후 채굴된 9,066개 블록 가운데 BIP-110을 지지하는 신호를 담은 블록은 38개, 즉 0.42%에 그쳤다. 6월 26일~7월 2일 최근 7일 구간에서는 1,000개 중 8개(0.8%)에 불과했다. 그럼에도 이 제안은 오는 8월 초, 블록 높이 961,632에서 시작되는 강제 신호 구간을 향해 자동으로 다가가고 있으며, 이때부터 이 규칙을 채택한 노드는 신호를 담지 않은 블록을 거부한다. 오디널스(Ordinals)를 둘러싼 '무엇을 위한 비트코인인가'라는 오래된 논쟁이 체인 분열(chain split) 위험을 낀 거버넌스 위기로 번졌다.</p>
+  <p class="en">BIP-110, a soft-fork proposal to restrict arbitrary data storage on Bitcoin for one year, sits below 1% miner support a month before its mandatory signaling window opens, News.Bitcoin.com and Bitget reported in early July. According to BGeometrics' tally, of the 9,066 blocks mined since May 1, just 38 — 0.42% — carried a signal backing BIP-110. In the most recent seven-day window (June 26–July 2), only 8 of 1,000 blocks (0.8%) did. Yet the proposal is drifting automatically toward a mandatory signaling period that opens in early August at block height 961,632, when nodes that have adopted the rule begin rejecting any block that fails to signal. A long-running dispute over "what Bitcoin is for," centered on Ordinals, has escalated into a governance crisis carrying the risk of a chain split.</p>
+  <p class="ja">ビットコインのブロックチェーンへの任意データ保存を1年間制限するソフトフォーク提案「BIP-110」が、強制シグナリング開始期限を1カ月後に控えながら、マイナーの支持率1%未満にとどまっているとニュースBTC(News.Bitcoin.com)とビットゲット(Bitget)が7月初旬に報じた。BGジオメトリクス(BGeometrics)の集計によれば、5月1日以降に採掘された9,066ブロックのうちBIP-110を支持するシグナルを含むブロックは38個、すなわち0.42%にとどまった。6月26日〜7月2日の直近7日間では1,000個中8個(0.8%)にすぎない。それでもこの提案は8月初旬、ブロック高961,632から始まる強制シグナリング区間へ自動的に近づいており、この時点からこの規則を採用したノードはシグナルを含まないブロックを拒否する。オーディナルズ(Ordinals)をめぐる「何のためのビットコインか」という長年の論争が、チェーン分裂(chain split)のリスクを伴うガバナンス危機へと発展した。</p>
+  <p class="es">BIP-110, una propuesta de soft fork para restringir durante un año el almacenamiento de datos arbitrarios en Bitcoin, se mantiene por debajo del 1% de apoyo minero a un mes de que se abra su ventana de señalización obligatoria, informaron News.Bitcoin.com y Bitget a comienzos de julio. Según el recuento de BGeometrics, de los 9.066 bloques minados desde el 1 de mayo, solo 38 —el 0,42%— llevaron una señal de respaldo a BIP-110. En la ventana más reciente de siete días (26 de junio–2 de julio), apenas 8 de 1.000 bloques (0,8%) lo hicieron. Aun así, la propuesta avanza automáticamente hacia un periodo de señalización obligatoria que se abre a comienzos de agosto en la altura de bloque 961.632, cuando los nodos que han adoptado la regla empiezan a rechazar todo bloque que no señalice. Una disputa de larga data sobre "para qué sirve Bitcoin", centrada en Ordinals, ha escalado a una crisis de gobernanza con riesgo de una escisión de cadena (chain split).</p>
+  <p class="de">BIP-110, ein Soft-Fork-Vorschlag, der die Speicherung beliebiger Daten auf Bitcoin für ein Jahr beschränken würde, liegt einen Monat vor Öffnung seines verpflichtenden Signalisierungsfensters unter 1% Miner-Unterstützung, berichteten News.Bitcoin.com und Bitget Anfang Juli. Laut der Zählung von BGeometrics trugen von den seit dem 1. Mai geschürften 9.066 Blöcken nur 38 — 0,42% — ein Signal zur Unterstützung von BIP-110. Im jüngsten Sieben-Tage-Fenster (26. Juni–2. Juli) waren es lediglich 8 von 1.000 Blöcken (0,8%). Dennoch treibt der Vorschlag automatisch auf eine verpflichtende Signalisierungsphase zu, die Anfang August bei Blockhöhe 961.632 beginnt, ab der Knoten, die die Regel übernommen haben, jeden nicht signalisierenden Block ablehnen. Ein langjähriger Streit darüber, „wofür Bitcoin da ist", zentriert auf Ordinals, ist zu einer Governance-Krise mit dem Risiko einer Kettenspaltung (Chain Split) eskaliert.</p>
+
+  <h2 class="ko">BIP-110은 무엇을 막으려 하나</h2>
+  <h2 class="en">What BIP-110 tries to block</h2>
+  <h2 class="ja">BIP-110は何を止めようとするのか</h2>
+  <h2 class="es">Qué intenta bloquear BIP-110</h2>
+  <h2 class="de">Was BIP-110 zu blockieren versucht</h2>
+  <p class="ko">BIP-110의 정식 명칭은 '임시 데이터 축소 소프트포크(Reduced Data Temporary Softfork, RDTS)'로, 익명 개발자 데이턴 옴(Dathon Ohm)이 2025년 12월 제안했다. 핵심은 오디널스 인스크립션, 룬(Runes), BRC-20 토큰, 그리고 대용량 OP_RETURN 페이로드처럼 비트코인 블록에 '결제와 무관한 데이터'를 실어 나르는 방식을 약 1년간 합의 계층에서 차단하는 것이다. 구체적으로는 트랜잭션 출력 데이터를 34바이트로, OP_RETURN을 83바이트로 제한한다. 지지자들은 이런 대용량 데이터가 한정된 블록 공간을 잠식하고 노드 운영자의 저장 부담을 키워, 비트코인을 P2P 결제 네트워크라는 본래 목적에서 멀어지게 한다고 본다.</p>
+  <p class="ko">문제는 이 규칙이 '스팸'만 겨냥하지 않는다는 데 있다. 제안은 미니스크립트(Miniscript)가 사용하는 OP_IF 계열 옵코드를 포함한 여러 탭루트(Taproot) 스크립트 기능을 함께 금지하고, 신규 P2PK(pay-to-public-key) 출력 생성도 막는다. P2PK는 비트코인 초창기에 널리 쓰였고 지금도 170만 BTC 이상이 이 방식으로 잠겨 있는 스크립트 유형이다. 즉 데이터 저장을 겨냥한 칼날이 정상적인 지출 스크립트까지 함께 벤다는 뜻이다. 이는 채굴자가 어떤 트랜잭션을 블록에 담느냐를 놓고 벌어진 과거 논쟁 — <a href="/blog/stratum-v2-first-miner-built-block.html">스트라텀 v2로 채굴자가 직접 블록을 구성</a>하기 시작한 흐름 — 의 연장선에 있지만, 이번에는 '무엇을 담을 수 있느냐'를 합의 규칙 자체에 새겨 넣으려 한다는 점에서 성격이 다르다.</p>
+  <p class="en">BIP-110's formal name is the Reduced Data Temporary Softfork (RDTS), proposed in December 2025 by the pseudonymous developer Dathon Ohm. Its core is a roughly one-year consensus-level block on the methods used to carry "payment-irrelevant data" in Bitcoin blocks — Ordinals inscriptions, Runes, BRC-20 tokens and large OP_RETURN payloads. Concretely, it caps transaction output data at 34 bytes and OP_RETURN at 83 bytes. Supporters argue such large-data transactions eat into limited block space and swell the storage burden on node operators, pulling Bitcoin away from its original purpose as a peer-to-peer payments network.</p>
+  <p class="en">The problem is that the rule does not target "spam" alone. The proposal also bans several Taproot scripting features, including the OP_IF-family opcodes used by Miniscript, and blocks the creation of new pay-to-public-key (P2PK) outputs. P2PK, widely used in Bitcoin's earliest days, still locks more than 1.7 million BTC. In other words, a blade aimed at data storage cuts through legitimate spending scripts as well. This extends an old fight over what miners include in blocks — the shift toward miners building their own templates with <a href="/blog/stratum-v2-first-miner-built-block.html">Stratum V2</a> — but differs in kind: this time the aim is to carve "what may be included" into the consensus rules themselves.</p>
+  <p class="ja">BIP-110の正式名称は「一時的データ削減ソフトフォーク(Reduced Data Temporary Softfork、RDTS)」で、匿名の開発者デイトン・オーム(Dathon Ohm)氏が2025年12月に提案した。核心は、オーディナルズのインスクリプション、ルーン(Runes)、BRC-20トークン、そして大容量OP_RETURNペイロードのように、ビットコインのブロックに「決済と無関係なデータ」を載せる方式を約1年間、合意層で遮断することだ。具体的にはトランザクション出力データを34バイト、OP_RETURNを83バイトに制限する。支持者は、こうした大容量データが限られたブロック空間を侵食しノード運営者の保存負担を膨らませ、ビットコインをP2P決済ネットワークという本来の目的から遠ざけると見る。</p>
+  <p class="ja">問題は、この規則が「スパム」だけを狙っていない点にある。提案はミニスクリプト(Miniscript)が使うOP_IF系オプコードを含む複数のタップルート(Taproot)スクリプト機能を併せて禁止し、新規P2PK(pay-to-public-key)出力の生成も止める。P2PKはビットコイン初期に広く使われ、今も170万BTC超がこの方式で固定されているスクリプト型だ。つまりデータ保存を狙った刃が、正常な支払いスクリプトまで一緒に切る。これは、マイナーがどのトランザクションをブロックに含めるかをめぐる過去の論争 — <a href="/blog/stratum-v2-first-miner-built-block.html">ストラタムV2でマイナーが自らブロックを構成</a>し始めた流れ — の延長にあるが、今回は「何を含められるか」を合意規則そのものに刻もうとする点で性格が異なる。</p>
+  <p class="es">El nombre formal de BIP-110 es Reduced Data Temporary Softfork (RDTS), propuesto en diciembre de 2025 por el desarrollador seudónimo Dathon Ohm. Su núcleo es un bloqueo de nivel de consenso, de aproximadamente un año, sobre los métodos usados para transportar "datos irrelevantes para el pago" en los bloques de Bitcoin: inscripciones de Ordinals, Runes, tokens BRC-20 y grandes cargas de OP_RETURN. En concreto, limita los datos de salida de una transacción a 34 bytes y OP_RETURN a 83 bytes. Los partidarios sostienen que esas transacciones de gran tamaño consumen el espacio limitado de bloque e inflan la carga de almacenamiento de los operadores de nodos, alejando a Bitcoin de su propósito original como red de pagos entre pares.</p>
+  <p class="es">El problema es que la regla no apunta solo al "spam". La propuesta también prohíbe varias funciones de scripting de Taproot, incluidos los opcodes de la familia OP_IF que usa Miniscript, y bloquea la creación de nuevas salidas pay-to-public-key (P2PK). El P2PK, muy usado en los primeros días de Bitcoin, todavía inmoviliza más de 1,7 millones de BTC. Dicho de otro modo, una cuchilla dirigida al almacenamiento de datos corta también scripts de gasto legítimos. Esto prolonga una vieja pelea sobre qué incluyen los mineros en los bloques —el giro hacia mineros que construyen sus propias plantillas con <a href="/blog/stratum-v2-first-miner-built-block.html">Stratum V2</a>— pero difiere en su naturaleza: esta vez se busca grabar "qué puede incluirse" en las propias reglas de consenso.</p>
+  <p class="de">Der formale Name von BIP-110 ist Reduced Data Temporary Softfork (RDTS), im Dezember 2025 vom pseudonymen Entwickler Dathon Ohm vorgeschlagen. Sein Kern ist eine rund einjährige Sperre auf Konsensebene für die Methoden, mit denen „zahlungsirrelevante Daten" in Bitcoin-Blöcke geladen werden — Ordinals-Inschriften, Runes, BRC-20-Token und große OP_RETURN-Nutzlasten. Konkret begrenzt er die Ausgabedaten einer Transaktion auf 34 Byte und OP_RETURN auf 83 Byte. Befürworter argumentieren, solche datenintensiven Transaktionen fräßen den begrenzten Blockraum auf und blähten die Speicherlast der Node-Betreiber auf, was Bitcoin von seinem ursprünglichen Zweck als Peer-to-Peer-Zahlungsnetz entfernt.</p>
+  <p class="de">Das Problem ist, dass die Regel nicht allein auf „Spam" zielt. Der Vorschlag verbietet auch mehrere Taproot-Scripting-Funktionen, darunter die von Miniscript genutzten Opcodes der OP_IF-Familie, und blockiert die Erzeugung neuer Pay-to-Public-Key-Ausgaben (P2PK). P2PK, in Bitcoins frühesten Tagen weit verbreitet, bindet noch immer mehr als 1,7 Millionen BTC. Anders gesagt: Eine auf Datenspeicherung gerichtete Klinge schneidet auch durch legitime Ausgabe-Skripte. Das verlängert einen alten Streit darüber, was Miner in Blöcke aufnehmen — die Verschiebung hin zu Minern, die mit <a href="/blog/stratum-v2-first-miner-built-block.html">Stratum V2</a> eigene Vorlagen bauen — unterscheidet sich aber in der Art: Diesmal soll „was aufgenommen werden darf" in die Konsensregeln selbst eingraviert werden.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BIP-110 — 8월 강제 신호 앞 채굴자 지지 0.42%</text>
+    <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">5.1 이후 9,066블록 중 38블록만 지지 · UASF 활성화 문턱 55%</text>
+    <g font-family="sans-serif">
+      <text x="24" y="96" fill="#e4e4e7" font-size="14" font-weight="700">채굴자 신호율(막대 = 지지 비중, 로그 아님)</text>
+      <rect x="24" y="110" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="110" width="2" height="26" rx="1" fill="#ef4444"/>
+      <text x="516" y="129" fill="#fca5a5" font-size="13">0.42% (38/9,066)</text>
+      <rect x="24" y="146" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="146" width="4" height="26" rx="1" fill="#f59e0b"/>
+      <text x="516" y="165" fill="#fbbf24" font-size="13">0.8% 최근 7일 (8/1,000)</text>
+      <rect x="24" y="182" width="480" height="26" rx="4" fill="#3f2d0a"/>
+      <rect x="24" y="182" width="264" height="26" rx="4" fill="#22c55e" opacity="0.35"/>
+      <text x="516" y="201" fill="#86efac" font-size="13">55% 활성화 문턱</text>
+      <line x1="40" y1="262" x2="660" y2="262" stroke="#3f3f46" stroke-width="2"/>
+      <circle cx="80" cy="262" r="6" fill="#22c55e"/>
+      <text x="80" y="290" fill="#e4e4e7" font-size="13" text-anchor="middle">'25.12</text>
+      <text x="80" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">제안</text>
+      <circle cx="250" cy="262" r="6" fill="#38bdf8"/>
+      <text x="250" y="290" fill="#7dd3fc" font-size="13" text-anchor="middle">'26.3</text>
+      <text x="250" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">첫 신호(Ocean)</text>
+      <circle cx="430" cy="262" r="6" fill="#ef4444"/>
+      <text x="430" y="290" fill="#fca5a5" font-size="13" text-anchor="middle">6.8</text>
+      <text x="430" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">애덤 백 반대</text>
+      <circle cx="640" cy="262" r="7" fill="#f59e0b"/>
+      <text x="640" y="290" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">8월초</text>
+      <text x="640" y="308" fill="#fbbf24" font-size="13" text-anchor="middle">블록 961,632</text>
+      <text x="24" y="352" fill="#e4e4e7" font-size="13" font-weight="700">강제 신호 구간: 961,632–963,647</text>
+      <text x="24" y="376" fill="#a1a1aa" font-size="13">채택 노드는 미신호 블록 거부 → 소수 체인 분열 위험</text>
+    </g>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BIP-110 — 0.42% miner support before August signaling</text>
+    <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">38 of 9,066 blocks since May 1 · 55% UASF activation threshold</text>
+    <g font-family="sans-serif">
+      <text x="24" y="96" fill="#e4e4e7" font-size="14" font-weight="700">Miner signaling rate (bar = share, not log)</text>
+      <rect x="24" y="110" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="110" width="2" height="26" rx="1" fill="#ef4444"/>
+      <text x="516" y="129" fill="#fca5a5" font-size="13">0.42% (38/9,066)</text>
+      <rect x="24" y="146" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="146" width="4" height="26" rx="1" fill="#f59e0b"/>
+      <text x="516" y="165" fill="#fbbf24" font-size="13">0.8% last 7 days (8/1,000)</text>
+      <rect x="24" y="182" width="480" height="26" rx="4" fill="#3f2d0a"/>
+      <rect x="24" y="182" width="264" height="26" rx="4" fill="#22c55e" opacity="0.35"/>
+      <text x="516" y="201" fill="#86efac" font-size="13">55% activation floor</text>
+      <line x1="40" y1="262" x2="660" y2="262" stroke="#3f3f46" stroke-width="2"/>
+      <circle cx="80" cy="262" r="6" fill="#22c55e"/>
+      <text x="80" y="290" fill="#e4e4e7" font-size="13" text-anchor="middle">Dec '25</text>
+      <text x="80" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">proposed</text>
+      <circle cx="250" cy="262" r="6" fill="#38bdf8"/>
+      <text x="250" y="290" fill="#7dd3fc" font-size="13" text-anchor="middle">Mar '26</text>
+      <text x="250" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">first signal (Ocean)</text>
+      <circle cx="430" cy="262" r="6" fill="#ef4444"/>
+      <text x="430" y="290" fill="#fca5a5" font-size="13" text-anchor="middle">Jun 8</text>
+      <text x="430" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">Back rejects</text>
+      <circle cx="640" cy="262" r="7" fill="#f59e0b"/>
+      <text x="640" y="290" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">early Aug</text>
+      <text x="640" y="308" fill="#fbbf24" font-size="13" text-anchor="middle">block 961,632</text>
+      <text x="24" y="352" fill="#e4e4e7" font-size="13" font-weight="700">Mandatory window: 961,632–963,647</text>
+      <text x="24" y="376" fill="#a1a1aa" font-size="13">opted-in nodes reject non-signaling blocks → minority-fork risk</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BIP-110 — 8月の強制シグナリング前、マイナー支持0.42%</text>
+    <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">5.1以降9,066ブロック中38ブロックのみ · UASF活性化閾値55%</text>
+    <g font-family="sans-serif">
+      <text x="24" y="96" fill="#e4e4e7" font-size="14" font-weight="700">マイナーのシグナル率(棒=支持比率)</text>
+      <rect x="24" y="110" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="110" width="2" height="26" rx="1" fill="#ef4444"/>
+      <text x="516" y="129" fill="#fca5a5" font-size="13">0.42% (38/9,066)</text>
+      <rect x="24" y="146" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="146" width="4" height="26" rx="1" fill="#f59e0b"/>
+      <text x="516" y="165" fill="#fbbf24" font-size="13">0.8% 直近7日 (8/1,000)</text>
+      <rect x="24" y="182" width="480" height="26" rx="4" fill="#3f2d0a"/>
+      <rect x="24" y="182" width="264" height="26" rx="4" fill="#22c55e" opacity="0.35"/>
+      <text x="516" y="201" fill="#86efac" font-size="13">55% 活性化閾値</text>
+      <line x1="40" y1="262" x2="660" y2="262" stroke="#3f3f46" stroke-width="2"/>
+      <circle cx="80" cy="262" r="6" fill="#22c55e"/>
+      <text x="80" y="290" fill="#e4e4e7" font-size="13" text-anchor="middle">'25.12</text>
+      <text x="80" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">提案</text>
+      <circle cx="250" cy="262" r="6" fill="#38bdf8"/>
+      <text x="250" y="290" fill="#7dd3fc" font-size="13" text-anchor="middle">'26.3</text>
+      <text x="250" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">初シグナル(Ocean)</text>
+      <circle cx="430" cy="262" r="6" fill="#ef4444"/>
+      <text x="430" y="290" fill="#fca5a5" font-size="13" text-anchor="middle">6.8</text>
+      <text x="430" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">アダム・バック反対</text>
+      <circle cx="640" cy="262" r="7" fill="#f59e0b"/>
+      <text x="640" y="290" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">8月初</text>
+      <text x="640" y="308" fill="#fbbf24" font-size="13" text-anchor="middle">ブロック961,632</text>
+      <text x="24" y="352" fill="#e4e4e7" font-size="13" font-weight="700">強制シグナル区間: 961,632–963,647</text>
+      <text x="24" y="376" fill="#a1a1aa" font-size="13">採用ノードは未シグナルブロックを拒否 → 少数チェーン分裂リスク</text>
+    </g>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BIP-110 — 0,42% de apoyo minero antes de la señalización de agosto</text>
+    <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">38 de 9.066 bloques desde el 1 may · umbral UASF 55%</text>
+    <g font-family="sans-serif">
+      <text x="24" y="96" fill="#e4e4e7" font-size="14" font-weight="700">Tasa de señalización minera (barra = proporción)</text>
+      <rect x="24" y="110" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="110" width="2" height="26" rx="1" fill="#ef4444"/>
+      <text x="516" y="129" fill="#fca5a5" font-size="13">0,42% (38/9.066)</text>
+      <rect x="24" y="146" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="146" width="4" height="26" rx="1" fill="#f59e0b"/>
+      <text x="516" y="165" fill="#fbbf24" font-size="13">0,8% últimos 7 días (8/1.000)</text>
+      <rect x="24" y="182" width="480" height="26" rx="4" fill="#3f2d0a"/>
+      <rect x="24" y="182" width="264" height="26" rx="4" fill="#22c55e" opacity="0.35"/>
+      <text x="516" y="201" fill="#86efac" font-size="13">55% umbral de activación</text>
+      <line x1="40" y1="262" x2="660" y2="262" stroke="#3f3f46" stroke-width="2"/>
+      <circle cx="80" cy="262" r="6" fill="#22c55e"/>
+      <text x="80" y="290" fill="#e4e4e7" font-size="13" text-anchor="middle">dic '25</text>
+      <text x="80" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">propuesta</text>
+      <circle cx="250" cy="262" r="6" fill="#38bdf8"/>
+      <text x="250" y="290" fill="#7dd3fc" font-size="13" text-anchor="middle">mar '26</text>
+      <text x="250" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">1ª señal (Ocean)</text>
+      <circle cx="430" cy="262" r="6" fill="#ef4444"/>
+      <text x="430" y="290" fill="#fca5a5" font-size="13" text-anchor="middle">8 jun</text>
+      <text x="430" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">Back rechaza</text>
+      <circle cx="640" cy="262" r="7" fill="#f59e0b"/>
+      <text x="640" y="290" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">ppios ago</text>
+      <text x="640" y="308" fill="#fbbf24" font-size="13" text-anchor="middle">bloque 961.632</text>
+      <text x="24" y="352" fill="#e4e4e7" font-size="13" font-weight="700">Ventana obligatoria: 961.632–963.647</text>
+      <text x="24" y="376" fill="#a1a1aa" font-size="13">nodos adheridos rechazan bloques sin señal → riesgo de escisión</text>
+    </g>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BIP-110 — 0,42% Miner-Unterstützung vor der August-Signalisierung</text>
+    <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">38 von 9.066 Blöcken seit 1. Mai · UASF-Schwelle 55%</text>
+    <g font-family="sans-serif">
+      <text x="24" y="96" fill="#e4e4e7" font-size="14" font-weight="700">Miner-Signalrate (Balken = Anteil)</text>
+      <rect x="24" y="110" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="110" width="2" height="26" rx="1" fill="#ef4444"/>
+      <text x="516" y="129" fill="#fca5a5" font-size="13">0,42% (38/9.066)</text>
+      <rect x="24" y="146" width="480" height="26" rx="4" fill="#27272a"/>
+      <rect x="24" y="146" width="4" height="26" rx="1" fill="#f59e0b"/>
+      <text x="516" y="165" fill="#fbbf24" font-size="13">0,8% letzte 7 Tage (8/1.000)</text>
+      <rect x="24" y="182" width="480" height="26" rx="4" fill="#3f2d0a"/>
+      <rect x="24" y="182" width="264" height="26" rx="4" fill="#22c55e" opacity="0.35"/>
+      <text x="516" y="201" fill="#86efac" font-size="13">55% Aktivierungsschwelle</text>
+      <line x1="40" y1="262" x2="660" y2="262" stroke="#3f3f46" stroke-width="2"/>
+      <circle cx="80" cy="262" r="6" fill="#22c55e"/>
+      <text x="80" y="290" fill="#e4e4e7" font-size="13" text-anchor="middle">Dez '25</text>
+      <text x="80" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">Vorschlag</text>
+      <circle cx="250" cy="262" r="6" fill="#38bdf8"/>
+      <text x="250" y="290" fill="#7dd3fc" font-size="13" text-anchor="middle">Mär '26</text>
+      <text x="250" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">1. Signal (Ocean)</text>
+      <circle cx="430" cy="262" r="6" fill="#ef4444"/>
+      <text x="430" y="290" fill="#fca5a5" font-size="13" text-anchor="middle">8. Juni</text>
+      <text x="430" y="308" fill="#a1a1aa" font-size="13" text-anchor="middle">Back lehnt ab</text>
+      <circle cx="640" cy="262" r="7" fill="#f59e0b"/>
+      <text x="640" y="290" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">Anf. Aug</text>
+      <text x="640" y="308" fill="#fbbf24" font-size="13" text-anchor="middle">Block 961.632</text>
+      <text x="24" y="352" fill="#e4e4e7" font-size="13" font-weight="700">Pflichtfenster: 961.632–963.647</text>
+      <text x="24" y="376" fill="#a1a1aa" font-size="13">Teilnehmende Knoten lehnen nicht-signalisierende Blöcke ab → Fork-Risiko</text>
+    </g>
+  </svg>
+  </div>
+
+  <h2 class="ko">왜 표류하나 — 신호율과 강제 활성화의 역설</h2>
+  <h2 class="en">Why it is drifting — the paradox of signaling and forced activation</h2>
+  <h2 class="ja">なぜ漂流するのか — シグナル率と強制活性化の逆説</h2>
+  <h2 class="es">Por qué va a la deriva — la paradoja de la señalización y la activación forzada</h2>
+  <h2 class="de">Warum es treibt — das Paradox von Signalisierung und Zwangsaktivierung</h2>
+  <p class="ko">비트코인의 소프트포크는 보통 채굴자 신호가 일정 문턱을 넘어야 활성화된다. 2017년 세그윗(SegWit)이 BIP-9 방식으로 95% 문턱을 채워 매끄럽게 활성화된 것이 대표적이다. 반면 BIP-110은 사용자 활성화 소프트포크(UASF) 방식을 택해, 활성화 문턱을 55%로 낮추고 강제 신호 구간에서 채택 노드가 미신호 블록을 거부하도록 설계됐다. 문제는 실제 채굴자 지지가 55%는커녕 1%에도 못 미친다는 점이다. 첫 지지 블록은 2026년 3월 루크 다시어(Luke Dashjr)가 운영하는 마이닝 풀 오션(Ocean)이 채굴했다. 오션은 다른 대형 풀이 별다른 검토 없이 처리하는 트랜잭션 유형을 걸러내는 것으로 알려진, 채굴 세계의 이례적 존재다.</p>
+  <p class="ko">여기서 UASF의 역설이 드러난다. 신호율이 낮다는 것은 규칙을 강제하려는 세력이 소수라는 뜻이지만, UASF는 바로 그 소수가 '우리는 이 규칙을 강제하겠다'고 선언하고 미신호 블록을 거부하는 방식이다. 다수 해시레이트가 무시하면 강제 노드들만 별도 체인으로 갈라질 수 있다. 세그윗 국면에서 등장했던 UASF(BIP-148)는 결국 채굴자 다수가 세그윗2x 대신 세그윗을 받아들이며 분열 없이 봉합됐지만, 이번에는 지지 기반이 훨씬 얇다. 7월 2일 프로그래머 리포피포엑스(lifofifoX)가 대용량 파일을 제한 이하 크기로 잘게 쪼개 우회하는 코드를 공개했고, 오디널스 창시자 케이시 로다머(Casey Rodarmor)가 깃허브(GitHub)에서 이를 검증하면서, 제안이 통과돼도 데이터 저장을 완전히 막지 못한다는 회의론이 커졌다.</p>
+  <p class="en">Bitcoin soft forks usually activate once miner signaling clears a set threshold. The textbook case is SegWit in 2017, which activated smoothly after meeting a 95% threshold under the BIP-9 scheme. BIP-110, by contrast, adopts a User-Activated Soft Fork (UASF): it lowers the activation threshold to 55% and has adopting nodes reject non-signaling blocks during the mandatory window. The catch is that actual miner support sits below 1%, let alone 55%. The first supporting block was mined in March 2026 by Ocean, the pool run by Luke Dashjr — an outlier in mining, known for filtering transaction types that other large pools process without a second look.</p>
+  <p class="en">Here the UASF paradox surfaces. A low signaling rate means the faction trying to enforce the rule is small — but a UASF is precisely the mechanism by which that small faction declares "we will enforce this rule" and rejects non-signaling blocks. If the majority hashrate ignores it, only the enforcing nodes may split off onto a separate chain. The UASF that appeared during SegWit (BIP-148) was ultimately stitched together without a split, as a miner majority accepted SegWit over SegWit2x; this time the support base is far thinner. On July 2, the programmer lifofifoX published code that fragments large files into pieces small enough to slip under the limit, and Casey Rodarmor, the creator of Ordinals, validated it on GitHub — deepening skepticism that even a passed proposal would fully block data storage.</p>
+  <p class="ja">ビットコインのソフトフォークは通常、マイナーのシグナルが一定の閾値を超えて初めて活性化する。2017年のセグウィット(SegWit)がBIP-9方式で95%の閾値を満たし円滑に活性化したのが代表例だ。一方BIP-110はユーザー活性化ソフトフォーク(UASF)方式を採り、活性化閾値を55%に下げ、強制シグナル区間で採用ノードが未シグナルブロックを拒否するよう設計された。問題は実際のマイナー支持が55%どころか1%にも満たない点だ。最初の支持ブロックは2026年3月、ルーク・ダシア(Luke Dashjr)氏が運営するマイニングプールのオーシャン(Ocean)が採掘した。オーシャンは他の大手プールが特に精査せず処理するトランザクション型を選別することで知られる、採掘界の異例の存在だ。</p>
+  <p class="ja">ここでUASFの逆説が現れる。シグナル率が低いとは規則を強制しようとする勢力が少数だという意味だが、UASFはまさにその少数が「我々はこの規則を強制する」と宣言し未シグナルブロックを拒否する方式だ。多数のハッシュレートが無視すれば、強制ノードだけが別チェーンへ分かれうる。セグウィット局面で登場したUASF(BIP-148)は結局マイナー多数がセグウィット2xの代わりにセグウィットを受け入れ、分裂なく収束したが、今回は支持基盤がはるかに薄い。7月2日、プログラマーのリフォフィフォX(lifofifoX)氏が大容量ファイルを制限以下の大きさに細かく分割して回避するコードを公開し、オーディナルズ創始者ケイシー・ロダマー(Casey Rodarmor)氏がギットハブ(GitHub)でこれを検証したことで、提案が通ってもデータ保存を完全には止められないとの懐疑が強まった。</p>
+  <p class="es">Los soft forks de Bitcoin suelen activarse una vez que la señalización minera supera un umbral fijado. El caso de manual es SegWit en 2017, que se activó con fluidez tras alcanzar un umbral del 95% bajo el esquema BIP-9. BIP-110, en cambio, adopta un Soft Fork Activado por Usuarios (UASF): baja el umbral de activación al 55% y hace que los nodos adheridos rechacen bloques sin señal durante la ventana obligatoria. El problema es que el apoyo minero real está por debajo del 1%, ni hablar del 55%. El primer bloque de apoyo lo minó en marzo de 2026 Ocean, el pool dirigido por Luke Dashjr, un caso atípico en la minería, conocido por filtrar tipos de transacciones que otros grandes pools procesan sin más.</p>
+  <p class="es">Aquí aflora la paradoja del UASF. Una baja tasa de señalización significa que la facción que intenta imponer la regla es pequeña, pero un UASF es precisamente el mecanismo por el cual esa pequeña facción declara "vamos a imponer esta regla" y rechaza los bloques sin señal. Si la mayoría del hashrate lo ignora, solo los nodos que imponen la regla podrían escindirse a una cadena aparte. El UASF que apareció durante SegWit (BIP-148) acabó zurciéndose sin escisión, al aceptar una mayoría de mineros SegWit en vez de SegWit2x; esta vez la base de apoyo es mucho más delgada. El 2 de julio, el programador lifofifoX publicó código que fragmenta archivos grandes en piezas lo bastante pequeñas para colarse bajo el límite, y Casey Rodarmor, creador de Ordinals, lo validó en GitHub, ahondando el escepticismo de que incluso una propuesta aprobada bloquearía por completo el almacenamiento de datos.</p>
+  <p class="de">Bitcoin-Soft-Forks aktivieren sich üblicherweise, sobald die Miner-Signalisierung eine festgelegte Schwelle überschreitet. Der Lehrbuchfall ist SegWit 2017, das nach Erreichen einer 95%-Schwelle unter dem BIP-9-Schema reibungslos aktiviert wurde. BIP-110 dagegen setzt auf einen User-Activated Soft Fork (UASF): Es senkt die Aktivierungsschwelle auf 55% und lässt teilnehmende Knoten während des Pflichtfensters nicht-signalisierende Blöcke ablehnen. Der Haken: Die tatsächliche Miner-Unterstützung liegt unter 1%, geschweige denn 55%. Den ersten unterstützenden Block schürfte im März 2026 Ocean, der von Luke Dashjr betriebene Pool — ein Ausreißer im Mining, bekannt dafür, Transaktionstypen zu filtern, die andere große Pools ohne zweiten Blick verarbeiten.</p>
+  <p class="de">Hier tritt das UASF-Paradox zutage. Eine niedrige Signalrate bedeutet, dass die Fraktion, die die Regel durchsetzen will, klein ist — doch ein UASF ist genau der Mechanismus, mit dem diese kleine Fraktion erklärt „wir setzen diese Regel durch" und nicht-signalisierende Blöcke ablehnt. Ignoriert die Mehrheit der Hashrate es, könnten sich nur die durchsetzenden Knoten auf eine separate Kette abspalten. Der UASF, der während SegWit auftrat (BIP-148), wurde letztlich ohne Spaltung zusammengefügt, als eine Miner-Mehrheit SegWit statt SegWit2x akzeptierte; diesmal ist die Unterstützungsbasis weit dünner. Am 2. Juli veröffentlichte der Programmierer lifofifoX Code, der große Dateien in Stücke zerlegt, die klein genug sind, um unter das Limit zu rutschen, und Casey Rodarmor, der Schöpfer von Ordinals, validierte ihn auf GitHub — was die Skepsis vertiefte, dass selbst ein verabschiedeter Vorschlag die Datenspeicherung vollständig blockieren würde.</p>
+
+  <h2 class="ko">자기수탁을 깨뜨린다는 경고 — 그리고 반론</h2>
+  <h2 class="en">The warning that it breaks self-custody — and the rebuttal</h2>
+  <h2 class="ja">自己保管を壊すという警告 — そして反論</h2>
+  <h2 class="es">La advertencia de que rompe la autocustodia — y la réplica</h2>
+  <h2 class="de">Die Warnung, dass es Selbstverwahrung bricht — und die Gegenrede</h2>
+  <p class="ko">비판의 핵심은 스팸 억제라는 목적이 아니라 부작용의 범위다. 크립토포테이토(CryptoPotato) 등은 BIP-110이 활성화되면 일부 지갑이 깨지고 특정 BTC가 영구히 사용 불가능해질 수 있다고 지적했다. 메커니즘은 이렇다 — 미니스크립트를 지원하는 지갑은 포크 이후에도 이제는 금지된 스크립트로 만든 주소로 자금을 보낼 수 있다. 그 트랜잭션은 BIP-110 규칙 아래서도 유효해 보이지만, 정작 그 자금을 다시 꺼내는 지출 조건은 새 합의 규칙에서 더 이상 성립하지 않아 BTC가 잠겨버린다. 자기수탁의 대전제 — 내 열쇠로 언제든 내 자금을 움직일 수 있다 — 가 합의 규칙 변경으로 흔들릴 수 있다는 경고다.</p>
+  <p class="ko">거물들의 반대도 잇따랐다. 블록스트림(Blockstream) CEO 애덤 백(Adam Back)은 6월 8일 제안을 공개적으로 거부하며 "기술적으로 결함이 있고, 강제 활성화는 네트워크를 소수 포크로 쪼갤 수 있다"고 경고했다. 마이클 세일러(Michael Saylor)는 이를 비트코인의 '자초한 위험'이라 불렀다. 다른 합의 변경 논쟁 — <a href="/blog/blockstream-op-checkshrincs-quantum-opcode.html">블록스트림의 양자 대응 옵코드 제안</a>처럼 — 이 대체로 기능 추가를 놓고 벌어진 것과 달리, BIP-110은 '무엇을 금지할 것인가'를 둘러싼 싸움이라는 점에서 더 첨예하다. 반론도 성립한다. 지지자들은 이 조치가 1년짜리 한시적 규칙이며, 노드 저장 부담과 초기 동기화 비용이 실제로 커지는 상황에서 결제 네트워크의 순수성을 지키는 최소한의 방어라고 본다. 어느 쪽이 옳든, 55% 문턱을 강제 노드가 실제로 밀어붙일지, 다수 해시레이트가 이를 무시할지가 8월 초 체인의 운명을 가른다.</p>
+  <p class="en">The heart of the criticism is not the goal of curbing spam but the breadth of the side effects. Outlets including CryptoPotato warned that if BIP-110 activates, some wallets could break and certain BTC could become permanently unspendable. The mechanism: a wallet supporting Miniscript could, even after the fork, send funds to an address built on a now-banned script. That transaction may look valid under BIP-110's own rules, yet the spending condition needed to move those funds again no longer holds under the new consensus rules, locking the BTC. It is a warning that self-custody's core premise — that my keys can always move my funds — can be shaken by a change in consensus rules.</p>
+  <p class="en">Heavyweight opposition followed. Blockstream CEO Adam Back publicly rejected the proposal on June 8, warning it was "technically flawed" and that forcing activation could split the network into a minority fork. Michael Saylor called it a "self-inflicted risk" for Bitcoin. Unlike other consensus-change debates — such as <a href="/blog/blockstream-op-checkshrincs-quantum-opcode.html">Blockstream's quantum-resistant opcode proposal</a> — which largely turned on adding features, BIP-110 is sharper because it is a fight over what to prohibit. The rebuttal also holds: supporters see it as a one-year temporary rule and a minimal defense of the payments network's purity at a time when node storage costs and initial-sync burdens are genuinely rising. Whichever side is right, whether enforcing nodes actually push the 55% threshold and whether the majority hashrate ignores them will decide the chain's fate in early August.</p>
+  <p class="ja">批判の核心はスパム抑制という目的ではなく、副作用の範囲だ。クリプトポテト(CryptoPotato)などは、BIP-110が活性化すれば一部の財布が壊れ、特定のBTCが永久に使用不能になりうると指摘した。メカニズムはこうだ — ミニスクリプトを支援する財布はフォーク後も、いまや禁止されたスクリプトで作った住所へ資金を送れる。そのトランザクションはBIP-110の規則下でも有効に見えるが、その資金を再び引き出す支出条件は新しい合意規則ではもはや成立せず、BTCが固定される。自己保管の大前提 — 自分の鍵でいつでも自分の資金を動かせる — が合意規則の変更で揺らぎうるという警告だ。</p>
+  <p class="ja">大物たちの反対も相次いだ。ブロックストリーム(Blockstream)CEOのアダム・バック(Adam Back)氏は6月8日に提案を公然と拒否し、「技術的に欠陥があり、強制活性化はネットワークを少数フォークに割りうる」と警告した。マイケル・セイラー(Michael Saylor)氏はこれをビットコインの「自ら招いたリスク」と呼んだ。他の合意変更論争 — <a href="/blog/blockstream-op-checkshrincs-quantum-opcode.html">ブロックストリームの量子対応オプコード提案</a>のように — が概ね機能追加をめぐるものだったのと異なり、BIP-110は「何を禁じるか」をめぐる争いである点でより先鋭だ。反論も成り立つ。支持者はこれを1年限りの一時規則とみなし、ノードの保存負担と初期同期コストが実際に増す状況で決済ネットワークの純粋性を守る最小限の防御と見る。どちらが正しくとも、55%閾値を強制ノードが実際に押し通すか、多数ハッシュレートがそれを無視するかが8月初旬のチェーンの運命を分ける。</p>
+  <p class="es">El núcleo de la crítica no es el objetivo de frenar el spam, sino la amplitud de los efectos secundarios. Medios como CryptoPotato advirtieron que, si BIP-110 se activa, algunas billeteras podrían romperse y ciertos BTC quedar permanentemente inservibles. El mecanismo: una billetera que soporte Miniscript podría, incluso tras el fork, enviar fondos a una dirección construida sobre un script ahora prohibido. Esa transacción puede parecer válida bajo las propias reglas de BIP-110, pero la condición de gasto necesaria para volver a mover esos fondos ya no se cumple bajo las nuevas reglas de consenso, dejando el BTC bloqueado. Es una advertencia de que la premisa central de la autocustodia —que mis claves siempre pueden mover mis fondos— puede tambalearse por un cambio en las reglas de consenso.</p>
+  <p class="es">Siguió una oposición de peso. El CEO de Blockstream, Adam Back, rechazó públicamente la propuesta el 8 de junio, advirtiendo que era "técnicamente defectuosa" y que forzar la activación podría escindir la red en un fork minoritario. Michael Saylor lo llamó un "riesgo autoinfligido" para Bitcoin. A diferencia de otros debates de cambio de consenso —como la <a href="/blog/blockstream-op-checkshrincs-quantum-opcode.html">propuesta de opcode resistente a lo cuántico de Blockstream</a>—, que en gran medida giraban en torno a añadir funciones, BIP-110 es más filoso porque es una pelea sobre qué prohibir. La réplica también se sostiene: los partidarios lo ven como una regla temporal de un año y una defensa mínima de la pureza de la red de pagos, en un momento en que los costes de almacenamiento de nodos y la carga de sincronización inicial realmente crecen. Sea cual sea el bando correcto, si los nodos que imponen la regla realmente empujan el umbral del 55% y si la mayoría del hashrate los ignora decidirá el destino de la cadena a comienzos de agosto.</p>
+  <p class="de">Der Kern der Kritik ist nicht das Ziel, Spam einzudämmen, sondern die Breite der Nebenwirkungen. Medien wie CryptoPotato warnten, dass bei Aktivierung von BIP-110 einige Wallets brechen und bestimmte BTC dauerhaft nicht mehr ausgebbar werden könnten. Der Mechanismus: Eine Miniscript unterstützende Wallet könnte selbst nach dem Fork Gelder an eine Adresse senden, die auf einem nun verbotenen Skript aufbaut. Diese Transaktion mag unter BIP-110s eigenen Regeln gültig aussehen, doch die Ausgabebedingung, um diese Gelder wieder zu bewegen, gilt unter den neuen Konsensregeln nicht mehr und sperrt die BTC. Es ist eine Warnung, dass die Kernprämisse der Selbstverwahrung — dass meine Schlüssel meine Gelder jederzeit bewegen können — durch eine Änderung der Konsensregeln erschüttert werden kann.</p>
+  <p class="de">Schwergewichtiger Widerstand folgte. Blockstream-CEO Adam Back lehnte den Vorschlag am 8. Juni öffentlich ab und warnte, er sei „technisch fehlerhaft" und eine erzwungene Aktivierung könne das Netz in einen Minderheits-Fork spalten. Michael Saylor nannte es ein „selbstverschuldetes Risiko" für Bitcoin. Anders als andere Konsensänderungs-Debatten — etwa <a href="/blog/blockstream-op-checkshrincs-quantum-opcode.html">Blockstreams quantenresistenter Opcode-Vorschlag</a> —, die sich weitgehend um das Hinzufügen von Funktionen drehten, ist BIP-110 schärfer, weil es ein Kampf darüber ist, was verboten werden soll. Auch die Gegenrede hält: Befürworter sehen es als einjährige temporäre Regel und minimale Verteidigung der Reinheit des Zahlungsnetzes zu einer Zeit, in der Node-Speicherkosten und Erstsynchronisationslasten tatsächlich steigen. Wer auch recht hat — ob durchsetzende Knoten die 55%-Schwelle wirklich durchdrücken und ob die Mehrheit der Hashrate sie ignoriert, entscheidet Anfang August über das Schicksal der Kette.</p>
+
+  <h2 class="ko">왜 중요한가 — 지켜봐야 할 것</h2>
+  <h2 class="en">Why it matters — what to watch</h2>
+  <h2 class="ja">なぜ重要か — 注視すべき点</h2>
+  <h2 class="es">Por qué importa — qué vigilar</h2>
+  <h2 class="de">Warum es wichtig ist — worauf zu achten ist</h2>
+  <p class="ko">BIP-110의 진짜 쟁점은 오디널스가 아니라 거버넌스다. 지지율 1% 미만의 제안이 강제 신호 구간을 향해 자동으로 다가간다는 사실 자체가, 비트코인이 합의 변경을 어떻게 결정하는가라는 오래된 질문을 다시 꺼낸다. 다수결도, 코어 개발자 합의도 아닌 UASF는 '소수가 규칙을 강제할 수 있다'는 위험한 선례가 될 수도, 반대로 '다수 해시레이트가 소수의 강요를 손쉽게 무시한다'는 반례가 될 수도 있다. 8월 초 어느 쪽으로 결론이 나든, 그 결과는 앞으로의 모든 소프트포크 논쟁에 인용될 판례가 된다.</p>
+  <p class="ko">지켜봐야 할 것은 세 가지다. 첫째, 8월 초 블록 961,632 전후로 채택 노드가 실제로 미신호 블록을 거부하는지, 그래서 짧게라도 체인이 갈라지는지다. 둘째, 오션 외에 대형 풀이 신호에 가담하는지 — 신호율이 한 자릿수라도 오르면 활성화 시나리오가 현실감을 얻는다. 셋째, 리포피포엑스식 우회가 확산되는지다. 우회가 손쉽다면 제안은 통과 여부와 무관하게 실효성을 잃고, '결제 대 데이터'라는 근본 논쟁만 남는다. 시장 가격은 이 거버넌스 리스크를 아직 거의 반영하지 않고 있어, 만약 실제 분열 신호가 나오면 단기 변동성이 확대될 수 있다.</p>
+  <p class="en">The real issue in BIP-110 is not Ordinals but governance. The very fact that a proposal with under 1% support drifts automatically toward a mandatory signaling window reopens an old question: how does Bitcoin decide on consensus changes? A UASF — neither majority rule nor core-developer consensus — could set a dangerous precedent that "a minority can force a rule," or, conversely, a counterexample that "the majority hashrate easily ignores a minority's coercion." However it resolves in early August, the outcome becomes case law cited in every future soft-fork fight.</p>
+  <p class="en">Three things are worth watching. First, whether adopting nodes actually reject non-signaling blocks around block 961,632 in early August, splitting the chain even briefly. Second, whether large pools beyond Ocean join the signal — even a single-digit rise in the signaling rate would lend the activation scenario some realism. Third, whether lifofifoX-style workarounds spread; if evasion is easy, the proposal loses force regardless of passage, leaving only the underlying "payments versus data" debate. Market prices have barely reflected this governance risk, so any genuine split signal could widen short-term volatility.</p>
+  <p class="ja">BIP-110の真の争点はオーディナルズではなくガバナンスだ。支持率1%未満の提案が強制シグナル区間へ自動的に近づくという事実そのものが、ビットコインは合意変更をどう決めるのかという古い問いを再び持ち出す。多数決でもコア開発者の合意でもないUASFは、「少数が規則を強制できる」という危険な前例にも、逆に「多数ハッシュレートが少数の強要をたやすく無視する」という反例にもなりうる。8月初旬にどちらへ決着しても、その結果は今後のあらゆるソフトフォーク論争で引用される判例になる。</p>
+  <p class="ja">注視すべきは三つだ。第一に、8月初旬のブロック961,632前後で採用ノードが実際に未シグナルブロックを拒否し、短期であれチェーンが割れるかだ。第二に、オーシャン以外の大手プールがシグナルに加わるか — シグナル率が一桁でも上がれば活性化シナリオが現実味を帯びる。第三に、リフォフィフォX式の回避が広がるかだ。回避が容易なら提案は可決の有無に関わらず実効性を失い、「決済対データ」という根本論争だけが残る。市場価格はこのガバナンス・リスクをまだほとんど織り込んでおらず、実際の分裂シグナルが出れば短期のボラティリティが拡大しうる。</p>
+  <p class="es">La verdadera cuestión en BIP-110 no es Ordinals, sino la gobernanza. El mero hecho de que una propuesta con menos del 1% de apoyo avance automáticamente hacia una ventana de señalización obligatoria reabre una vieja pregunta: ¿cómo decide Bitcoin los cambios de consenso? Un UASF —ni regla de mayoría ni consenso de desarrolladores del núcleo— podría sentar un precedente peligroso de que "una minoría puede imponer una regla" o, al contrario, un contraejemplo de que "la mayoría del hashrate ignora con facilidad la coerción de una minoría". Como sea que se resuelva a comienzos de agosto, el resultado se convierte en jurisprudencia citada en toda futura pelea de soft fork.</p>
+  <p class="es">Tres cosas merecen vigilancia. Primero, si los nodos adheridos rechazan de verdad los bloques sin señal en torno al bloque 961.632 a comienzos de agosto, escindiendo la cadena aunque sea brevemente. Segundo, si grandes pools más allá de Ocean se suman a la señal: incluso un alza de un solo dígito en la tasa de señalización daría algo de realismo al escenario de activación. Tercero, si se difunden los rodeos al estilo de lifofifoX; si evadir es fácil, la propuesta pierde fuerza al margen de su aprobación, dejando solo el debate de fondo "pagos frente a datos". Los precios de mercado apenas han reflejado este riesgo de gobernanza, así que cualquier señal real de escisión podría ampliar la volatilidad de corto plazo.</p>
+  <p class="de">Das eigentliche Thema bei BIP-110 sind nicht Ordinals, sondern Governance. Allein die Tatsache, dass ein Vorschlag mit unter 1% Unterstützung automatisch auf ein verpflichtendes Signalfenster zutreibt, öffnet eine alte Frage neu: Wie entscheidet Bitcoin über Konsensänderungen? Ein UASF — weder Mehrheitsregel noch Konsens der Kernentwickler — könnte einen gefährlichen Präzedenzfall setzen, dass „eine Minderheit eine Regel erzwingen kann", oder umgekehrt ein Gegenbeispiel, dass „die Mehrheit der Hashrate den Zwang einer Minderheit mühelos ignoriert". Wie auch immer es Anfang August ausgeht, das Ergebnis wird zur Rechtsprechung, die in jedem künftigen Soft-Fork-Streit zitiert wird.</p>
+  <p class="de">Drei Dinge sind beobachtenswert. Erstens, ob teilnehmende Knoten Anfang August rund um Block 961.632 tatsächlich nicht-signalisierende Blöcke ablehnen und die Kette, sei es kurz, spalten. Zweitens, ob große Pools über Ocean hinaus das Signal aufnehmen — schon ein einstelliger Anstieg der Signalrate verliehe dem Aktivierungsszenario etwas Realismus. Drittens, ob sich Umgehungen im Stil von lifofifoX verbreiten; ist die Umgehung leicht, verliert der Vorschlag unabhängig von der Verabschiedung an Kraft und übrig bleibt nur die grundlegende Debatte „Zahlungen gegen Daten". Die Marktpreise haben dieses Governance-Risiko kaum eingepreist, sodass ein echtes Spaltungssignal die kurzfristige Volatilität ausweiten könnte.</p>
+
+  <div class="box ko">💡 <strong>시사점:</strong> 오디널스 등 임의 데이터를 1년간 제한하려는 소프트포크 BIP-110이 채굴자 지지 0.42%(5.1 이후 38/9,066블록)에 머문 채 8월 초 블록 961,632의 강제 신호 구간으로 다가간다. UASF 방식(문턱 55%)이라 소수 노드가 미신호 블록을 거부하면 소수 체인 분열 위험이 있다. 루크 다시어의 오션은 찬성, 애덤 백·마이클 세일러는 반대다. 7.2 리포피포엑스의 우회 코드로 실효성 논란까지 겹쳤다. 진짜 쟁점은 오디널스가 아니라 비트코인 거버넌스다.</div>
+  <div class="box en">💡 <strong>Takeaway:</strong> BIP-110, a soft fork to restrict arbitrary data (Ordinals and more) for one year, drifts toward the early-August mandatory signaling window at block 961,632 with just 0.42% miner support (38/9,066 blocks since May 1). Because it is a UASF (55% threshold), a minority of nodes rejecting non-signaling blocks risks a minority chain split. Luke Dashjr's Ocean backs it; Adam Back and Michael Saylor oppose it. A July 2 workaround by lifofifoX adds doubt about its efficacy. The real issue is not Ordinals but Bitcoin governance.</div>
+  <div class="box ja">💡 <strong>示唆:</strong> オーディナルズなど任意データを1年制限するソフトフォークBIP-110が、マイナー支持0.42%(5.1以降38/9,066ブロック)のまま8月初旬のブロック961,632の強制シグナル区間へ近づく。UASF方式(閾値55%)のため少数ノードが未シグナルブロックを拒否すれば少数チェーン分裂リスクがある。ルーク・ダシアのオーシャンは賛成、アダム・バックとマイケル・セイラーは反対。7.2のリフォフィフォXの回避コードで実効性論争も重なった。真の争点はオーディナルズではなくビットコインのガバナンスだ。</div>
+  <div class="box es">💡 <strong>Conclusión:</strong> BIP-110, un soft fork para restringir datos arbitrarios (Ordinals y más) durante un año, avanza hacia la ventana de señalización obligatoria de comienzos de agosto en el bloque 961.632 con apenas 0,42% de apoyo minero (38/9.066 bloques desde el 1 may). Al ser un UASF (umbral 55%), que una minoría de nodos rechace bloques sin señal arriesga una escisión de cadena minoritaria. Ocean, de Luke Dashjr, lo respalda; Adam Back y Michael Saylor se oponen. Un rodeo del 2 jul por lifofifoX suma dudas sobre su eficacia. La verdadera cuestión no es Ordinals, sino la gobernanza de Bitcoin.</div>
+  <div class="box de">💡 <strong>Fazit:</strong> BIP-110, ein Soft Fork zur einjährigen Beschränkung beliebiger Daten (Ordinals u.a.), treibt mit nur 0,42% Miner-Unterstützung (38/9.066 Blöcke seit 1. Mai) auf das Pflicht-Signalfenster Anfang August bei Block 961.632 zu. Da es ein UASF ist (Schwelle 55%), riskiert eine Minderheit von Knoten, die nicht-signalisierende Blöcke ablehnt, eine Minderheits-Kettenspaltung. Luke Dashjrs Ocean unterstützt es; Adam Back und Michael Saylor lehnen es ab. Eine Umgehung vom 2. Juli durch lifofifoX nährt Zweifel an der Wirksamkeit. Das eigentliche Thema sind nicht Ordinals, sondern Bitcoins Governance.</div>
+
+  <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: News.Bitcoin.com, CryptoPotato, BeInCrypto, Coinpedia, Cryptobriefing, Bitget, The Block, BGeometrics(신호율 API), GitHub. 신호 0.42%(38/9,066, 5.1 이후)·0.8%(8/1,000, 6.26~7.2)·강제 구간 961,632–963,647·UASF 55% 문턱·P2PK 170만 BTC·OP_RETURN 83바이트·출력 34바이트·애덤 백 반대(6.8)·오션 첫 신호(3월)·리포피포엑스 우회(7.2) 수치는 각 매체 및 온체인 집계 기준. 본 글은 투자 자문이 아니다.</p>
+  <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: News.Bitcoin.com, CryptoPotato, BeInCrypto, Coinpedia, Cryptobriefing, Bitget, The Block, BGeometrics (signaling API), GitHub. The 0.42% (38/9,066, since May 1), 0.8% (8/1,000, Jun 26–Jul 2), mandatory window 961,632–963,647, 55% UASF threshold, 1.7M BTC in P2PK, 83-byte OP_RETURN, 34-byte output cap, Adam Back's rejection (Jun 8), Ocean's first signal (March) and lifofifoX's workaround (Jul 2) reflect those outlets and on-chain tallies. This article is not investment advice.</p>
+  <p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: News.Bitcoin.com、CryptoPotato、BeInCrypto、Coinpedia、Cryptobriefing、Bitget、The Block、BGeometrics(シグナルAPI)、GitHub。シグナル0.42%(38/9,066、5.1以降)・0.8%(8/1,000、6.26〜7.2)・強制区間961,632–963,647・UASF55%閾値・P2PK170万BTC・OP_RETURN83バイト・出力34バイト・アダム・バック反対(6.8)・オーシャン初シグナル(3月)・リフォフィフォX回避(7.2)の数値は各媒体およびオンチェーン集計に基づく。本記事は投資助言ではない。</p>
+  <p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: News.Bitcoin.com, CryptoPotato, BeInCrypto, Coinpedia, Cryptobriefing, Bitget, The Block, BGeometrics (API de señalización), GitHub. El 0,42% (38/9.066, desde el 1 may), 0,8% (8/1.000, 26 jun–2 jul), la ventana obligatoria 961.632–963.647, el umbral UASF del 55%, 1,7 M BTC en P2PK, OP_RETURN de 83 bytes, tope de salida de 34 bytes, el rechazo de Adam Back (8 jun), la primera señal de Ocean (marzo) y el rodeo de lifofifoX (2 jul) reflejan esos medios y recuentos on-chain. Este artículo no es asesoramiento de inversión.</p>
+  <p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: News.Bitcoin.com, CryptoPotato, BeInCrypto, Coinpedia, Cryptobriefing, Bitget, The Block, BGeometrics (Signal-API), GitHub. Die 0,42% (38/9.066, seit 1. Mai), 0,8% (8/1.000, 26. Juni–2. Juli), das Pflichtfenster 961.632–963.647, die 55%-UASF-Schwelle, 1,7 Mio. BTC in P2PK, 83-Byte-OP_RETURN, 34-Byte-Ausgabegrenze, Adam Backs Ablehnung (8. Juni), Oceans erstes Signal (März) und lifofifoXs Umgehung (2. Juli) beruhen auf diesen Medien und On-Chain-Zählungen. Dieser Artikel ist keine Anlageberatung.</p>
+<?php require __DIR__.'/_footer.php'; ?>
