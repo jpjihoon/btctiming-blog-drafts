@@ -46,28 +46,23 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     $rCat = $rA['category'] ?? 'guide';
     $rColor = $rA['color'] ?? '#f7931a';
     $rIcon = $rA['icon'] ?? '📄';
-    $rTitleJa = $rA['title_ja'] ?? ($rA['title_en'] ?? '');
-    $rDescJa = $rA['desc_ja'] ?? ($rA['desc_en'] ?? '');
-    $rCatJa = CATEGORY_META[$rCat]['ja'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
-    $rTitleEs = $rA['title_es'] ?? ($rA['title_en'] ?? '');
-    $rDescEs = $rA['desc_es'] ?? ($rA['desc_en'] ?? '');
-    $rCatEs = CATEGORY_META[$rCat]['es'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
-    $rTitleDe = $rA['title_de'] ?? ($rA['title_en'] ?? '');
-    $rDescDe = $rA['desc_de'] ?? ($rA['desc_en'] ?? '');
-    $rCatDe = CATEGORY_META[$rCat]['de'] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
+    $rLangKeys = array_keys(SUPPORTED_LANGS);
     ?>
     <a href="/blog/<?= htmlspecialchars($rSlug) ?>.php<?= htmlspecialchars($blogSuffix) ?>" class="other-card" style="--oc-accent:<?= htmlspecialchars($rColor) ?>">
       <div class="oc-icon"><?= $rIcon ?></div>
       <div class="oc-body">
-        <div class="oc-cat">
-          <span class="ko"><?= htmlspecialchars(CATEGORY_META[$rCat]['ko'] ?? $rCat) ?></span><span class="en"><?= htmlspecialchars(CATEGORY_META[$rCat]['en'] ?? $rCat) ?></span><span class="ja"><?= htmlspecialchars($rCatJa) ?></span><span class="es"><?= htmlspecialchars($rCatEs) ?></span><span class="de"><?= htmlspecialchars($rCatDe) ?></span>
-        </div>
-        <div class="oc-title">
-          <span class="ko"><?= htmlspecialchars($rA['title_ko'] ?? '') ?></span><span class="en"><?= htmlspecialchars($rA['title_en'] ?? '') ?></span><span class="ja"><?= htmlspecialchars($rTitleJa) ?></span><span class="es"><?= htmlspecialchars($rTitleEs) ?></span><span class="de"><?= htmlspecialchars($rTitleDe) ?></span>
-        </div>
-        <div class="oc-desc">
-          <span class="ko"><?= htmlspecialchars($rA['desc_ko'] ?? '') ?></span><span class="en"><?= htmlspecialchars($rA['desc_en'] ?? '') ?></span><span class="ja"><?= htmlspecialchars($rDescJa) ?></span><span class="es"><?= htmlspecialchars($rDescEs) ?></span><span class="de"><?= htmlspecialchars($rDescDe) ?></span>
-        </div>
+        <div class="oc-cat"><?php foreach ($rLangKeys as $rL) {
+          $v = CATEGORY_META[$rCat][$rL] ?? (CATEGORY_META[$rCat]['en'] ?? $rCat);
+          echo '<span class="' . $rL . '">' . htmlspecialchars($v) . '</span>';
+        } ?></div>
+        <div class="oc-title"><?php foreach ($rLangKeys as $rL) {
+          $v = $rA["title_{$rL}"] ?? ($rA['title_en'] ?? '');
+          echo '<span class="' . $rL . '">' . htmlspecialchars($v) . '</span>';
+        } ?></div>
+        <div class="oc-desc"><?php foreach ($rLangKeys as $rL) {
+          $v = $rA["desc_{$rL}"] ?? ($rA['desc_en'] ?? '');
+          echo '<span class="' . $rL . '">' . htmlspecialchars($v) . '</span>';
+        } ?></div>
       </div>
     </a>
     <?php
@@ -82,8 +77,8 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <a class="blog-ad" href="/exchanges.php<?= h($blogSuffix) ?>">
   <span class="blog-ad-ic">🎁</span>
   <span class="blog-ad-tx">
-    <b class="ko">비트코인 선물, 어디서 거래할까?</b><b class="en">Where to trade Bitcoin futures?</b><b class="ja">ビットコイン先物、どこで取引?</b><b class="es">¿Dónde operar futuros de Bitcoin?</b><b class="de">Wo Bitcoin-Futures handeln?</b>
-    <span class="ko">바이낸스·바이비트 비교 + 수수료 할인 혜택</span><span class="en">Compare Binance &amp; Bybit + fee discounts</span><span class="ja">Binance・Bybit比較 + 手数料割引</span><span class="es">Compara Binance y Bybit + descuentos</span><span class="de">Binance &amp; Bybit vergleichen + Rabatte</span>
+    <b class="ko">비트코인 선물, 어디서 거래할까?</b><b class="en">Where to trade Bitcoin futures?</b><b class="ja">ビットコイン先物、どこで取引?</b><b class="es">¿Dónde operar futuros de Bitcoin?</b><b class="de">Wo Bitcoin-Futures handeln?</b><b class="fr">Où trader les futures Bitcoin ?</b><b class="pt">Onde negociar futuros de Bitcoin?</b><b class="tr">Bitcoin vadeli işlemleri nerede?</b><b class="vi">Giao dịch futures Bitcoin ở đâu?</b>
+    <span class="ko">바이낸스·바이비트 비교 + 수수료 할인 혜택</span><span class="en">Compare Binance &amp; Bybit + fee discounts</span><span class="ja">Binance・Bybit比較 + 手数料割引</span><span class="es">Compara Binance y Bybit + descuentos</span><span class="de">Binance &amp; Bybit vergleichen + Rabatte</span><span class="fr">Comparez Binance et Bybit + réductions de frais</span><span class="pt">Compare Binance e Bybit + descontos de taxa</span><span class="tr">Binance ve Bybit karşılaştır + komisyon indirimi</span><span class="vi">So sánh Binance &amp; Bybit + giảm phí</span>
   </span>
   <span class="blog-ad-ar">›</span>
 </a>
@@ -91,16 +86,18 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <?php // ── 이전 글 / 다음 글 바로가기 ── ?>
 <?php if ($prevSlug || $nextSlug): ?>
 <div class="prevnext">
-  <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; ?>
+  <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
+    $pnPrev = ['ko'=>'← 이전 글','en'=>'← Previous','ja'=>'← 前の記事','es'=>'← Anterior','de'=>'← Zurück','fr'=>'← Précédent','pt'=>'← Anterior','tr'=>'← Önceki','vi'=>'← Trước']; ?>
     <a class="pn-link pn-prev" href="/blog/<?= h($prevSlug) ?>.php<?= h($blogSuffix) ?>">
-      <span class="pn-dir"><span class="ko">← 이전 글</span><span class="en">← Previous</span><span class="ja">← 前の記事</span><span class="es">← Anterior</span><span class="de">← Zurück</span></span>
-      <span class="pn-title"><span class="ko"><?= h($pA['title_ko'] ?? '') ?></span><span class="en"><?= h($pA['title_en'] ?? '') ?></span><span class="ja"><?= h($pA['title_ja'] ?? ($pA['title_en'] ?? '')) ?></span><span class="es"><?= h($pA['title_es'] ?? ($pA['title_en'] ?? '')) ?></span><span class="de"><?= h($pA['title_de'] ?? ($pA['title_en'] ?? '')) ?></span></span>
+      <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnPrev[$pl] ?? $pnPrev['en']).'</span>'; ?></span>
+      <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pA["title_{$pl}"] ?? ($pA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
   <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
-  <?php if ($nextSlug): $nA = $ARTICLES[$nextSlug]; ?>
+  <?php if ($nextSlug): $nA = $ARTICLES[$nextSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
+    $pnNext = ['ko'=>'다음 글 →','en'=>'Next →','ja'=>'次の記事 →','es'=>'Siguiente →','de'=>'Weiter →','fr'=>'Suivant →','pt'=>'Próximo →','tr'=>'Sonraki →','vi'=>'Tiếp →']; ?>
     <a class="pn-link pn-next" href="/blog/<?= h($nextSlug) ?>.php<?= h($blogSuffix) ?>">
-      <span class="pn-dir"><span class="ko">다음 글 →</span><span class="en">Next →</span><span class="ja">次の記事 →</span><span class="es">Siguiente →</span><span class="de">Weiter →</span></span>
-      <span class="pn-title"><span class="ko"><?= h($nA['title_ko'] ?? '') ?></span><span class="en"><?= h($nA['title_en'] ?? '') ?></span><span class="ja"><?= h($nA['title_ja'] ?? ($nA['title_en'] ?? '')) ?></span><span class="es"><?= h($nA['title_es'] ?? ($nA['title_en'] ?? '')) ?></span><span class="de"><?= h($nA['title_de'] ?? ($nA['title_en'] ?? '')) ?></span></span>
+      <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnNext[$pl] ?? $pnNext['en']).'</span>'; ?></span>
+      <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($nA["title_{$pl}"] ?? ($nA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
   <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
 </div>
@@ -114,6 +111,10 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
   <h3 class="ja">関連トピックの記事</h3>
   <h3 class="es">Temas Relacionados</h3>
   <h3 class="de">Verwandte Themen</h3>
+  <h3 class="fr">Sujets connexes</h3>
+  <h3 class="pt">Tópicos relacionados</h3>
+  <h3 class="tr">İlgili konular</h3>
+  <h3 class="vi">Chủ đề liên quan</h3>
   <div class="other-grid">
     <?php foreach ($sameTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>
@@ -128,6 +129,10 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
   <h3 class="ja">こちらの記事もどうぞ</h3>
   <h3 class="es">También Te Puede Interesar</h3>
   <h3 class="de">Das könnte dich auch interessieren</h3>
+  <h3 class="fr">Vous aimerez aussi</h3>
+  <h3 class="pt">Você também pode gostar</h3>
+  <h3 class="tr">Bunları da beğenebilirsiniz</h3>
+  <h3 class="vi">Bạn cũng có thể thích</h3>
   <div class="other-grid">
     <?php foreach ($otherTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>
@@ -141,11 +146,19 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     <h3 class="ja">今すぐリアルタイム指標で確認する</h3>
     <h3 class="es">Consulta Este Indicador en Vivo Ahora</h3>
     <h3 class="de">Diesen Indikator jetzt live prüfen</h3>
+    <h3 class="fr">Vérifiez cet indicateur en direct</h3>
+    <h3 class="pt">Confira este indicador ao vivo agora</h3>
+    <h3 class="tr">Bu göstergeyi şimdi canlı kontrol et</h3>
+    <h3 class="vi">Kiểm tra chỉ báo này trực tiếp ngay</h3>
     <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
     <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
     <p class="ja">BTCtiming.comでこの指標を含む13個のオンチェーン指標をリアルタイムで確認し、総合買い・売りスコアを無料で受け取りましょう。</p>
     <p class="es">Consulta este indicador junto a otros 12 indicadores on-chain en tiempo real, combinados en una sola puntuación de compra/venta de 0-10 — gratis.</p>
     <p class="de">Sieh dir diesen Indikator zusammen mit 12 weiteren On-Chain-Indikatoren in Echtzeit an, kombiniert zu einem einzigen Kauf-/Verkaufs-Score von 0-10 — kostenlos.</p>
+    <p class="fr">Consultez cet indicateur avec 12 autres indicateurs on-chain en temps réel, combinés en un seul score d'achat/vente de 0 à 10 — gratuit.</p>
+    <p class="pt">Veja este indicador junto a outros 12 indicadores on-chain em tempo real, combinados em uma única pontuação de compra/venda de 0-10 — grátis.</p>
+    <p class="tr">Bu göstergeyi 12 diğer zincir üstü göstergeyle gerçek zamanlı görün, tek bir 0-10 alım/satım puanında birleştirilmiş — ücretsiz.</p>
+    <p class="vi">Xem chỉ báo này cùng 12 chỉ báo on-chain khác theo thời gian thực, kết hợp thành một điểm mua/bán 0-10 duy nhất — miễn phí.</p>
     <?php
     // 2026-07 수정: <html lang="...">이 $lang(이 글에서 실제 렌더링된 언어, 번역 없으면 en 폴백) 기준이라
     // 어떤 텍스트 변형이 보일지도 $lang을 따름. 하지만 href는 $requestedLang(사용자가 진짜 요청한 언어)을
@@ -158,6 +171,10 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     <a href="<?= h($mainHref) ?>" class="ja" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">リアルタイム分析を見る →</a>
     <a href="<?= h($mainHref) ?>" class="es" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Ver Análisis en Vivo →</a>
     <a href="<?= h($mainHref) ?>" class="de" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Live-Analyse ansehen →</a>
+    <a href="<?= h($mainHref) ?>" class="fr" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Voir l'analyse en direct →</a>
+    <a href="<?= h($mainHref) ?>" class="pt" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Ver análise ao vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="tr" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Canlı analizi gör →</a>
+    <a href="<?= h($mainHref) ?>" class="vi" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Xem phân tích trực tiếp →</a>
   </div>
 </div><?php // /.wrap-main ?>
   <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
@@ -213,16 +230,15 @@ document.addEventListener('click', (e) => {
 });
 function getBlogLang(){
   // 우선순위: localStorage(사용자가 마지막으로 명시적으로 고른 언어) > URL ?lang= > ko.
-  // (예전엔 URL을 우선해서, 목록/글을 오갈 때 옛 ?lang= 값이 최근 선택을 덮어써
-  //  "언어에 따라 됐다 안 됐다" 하던 문제가 있었음. 실제 번역 폴백은 _header.php가 판단.)
+  // 지원 언어 목록은 config.php의 SUPPORTED_LANGS에서 PHP가 주입 → 언어 추가 시 이 JS 불변.
+  var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
   try{
     const s=localStorage.getItem('blogLang')||localStorage.getItem('lang');
-    if(s==='en'||s==='ja'||s==='es'||s==='de')return s;
-    if(s==='ko')return'ko';
+    if(s && SUP.indexOf(s)!==-1) return s;
   }catch(e){}
   try{
     const p=new URLSearchParams(location.search).get('lang');
-    if(p==='en'||p==='ja'||p==='es'||p==='de')return p;
+    if(p && SUP.indexOf(p)!==-1) return p;
   }catch(e){}
   return'ko';
 }
@@ -233,13 +249,13 @@ function applySavedLang() {
   try {
     // URL에 lang이 명시돼 있으면(사이트맵·hreflang·공유링크로 특정 언어 진입) 서버가 그 언어로
     // 렌더한 상태를 그대로 존중하고, 저장값으로 덮어쓰지 않는다.
+    var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
     const urlLang = new URLSearchParams(location.search).get('lang');
-    const VALID = ['ko','en','ja','es','de'];
-    if(VALID.includes(urlLang)) return;
+    if(SUP.indexOf(urlLang)!==-1) return;
     const saved = getBlogLang();
     const current = document.getElementById('hr').lang;
     if(saved === current) return;
-    if(saved === 'en' || saved === 'ja' || saved === 'es' || saved === 'de') {
+    if(saved !== 'ko' && SUP.indexOf(saved)!==-1) {
       // 이 글에 해당 언어 메뉴 항목이 존재할 때만 실제 전환 (미번역 글은 서버가 en으로 폴백)
       const hasMenuItem = document.querySelector('.lang-menu-item[data-lang="' + saved + '"]');
       if(hasMenuItem) L(saved);
