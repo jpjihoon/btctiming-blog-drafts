@@ -114,29 +114,30 @@ if ($bodyMtime > 0) {
 
 // ── OG SVG 구성 ──
 if ($chartSvg !== null) {
-    // [차트형 OG] 상단 브랜드+제목, 그 아래 본문 차트 배치
-    $shortTitle = mb_substr($title, 0, $isCJK ? 26 : 44);
-    // 차트 배치 영역: x=80, y=280, 폭 1040, 높이 320 (하단 여백 확보)
-    $boxX = 80; $boxY = 280; $boxW = 1040; $boxH = 320;
-    // "contain" 스케일: 폭·높이 둘 다 영역 안에 들어가도록 작은 쪽 배율 선택 (넘침 방지)
+    // [차트형 OG — C안] 차트를 위쪽 대부분에 크게, 하단 바에 로고 + 제목 한 줄
+    // 하단 바 높이 82px. 차트 배치 영역은 상단바(6) 아래 ~ 하단바 위.
+    $barY = 548; $barH = 82;
+    $boxX = 50; $boxY = 40; $boxW = 1100; $boxH = 480; // 차트 영역 (하단 바 위까지)
+    // "contain" 스케일: 폭·높이 둘 다 영역 안에 (넘침 방지) + 차트를 최대한 크게
     $scale = min($boxW / $chartW, $boxH / $chartH);
     $drawW = $chartW * $scale;
     $drawH = $chartH * $scale;
-    // 영역 안에서 가운데 정렬
     $offX = $boxX + ($boxW - $drawW) / 2;
     $offY = $boxY + ($boxH - $drawH) / 2;
+    // 하단 바 제목: 로고 폭 고려해 길이 제한 (한 줄)
+    $barTitle = mb_substr($title, 0, $isCJK ? 30 : 52);
     $svg = '<?xml version="1.0" encoding="UTF-8"?>'
     . '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
     . '<defs><style>@font-face{font-family:"OG";src:url("' . $fontUri . '");}</style></defs>'
     . '<rect width="1200" height="630" fill="#0d0d0f"/>'
     . '<rect x="0" y="0" width="1200" height="6" fill="#fbbf24"/>'
-    . '<text x="80" y="82" fill="#f0f0f0" font-size="30" font-weight="bold" font-family="OG">BTC<tspan fill="#fbbf24">timing</tspan></text>'
-    . '<text x="80" y="150" fill="#f0f0f0" font-size="42" font-weight="bold" font-family="OG">' . xml($shortTitle) . '</text>'
-    . '<text x="80" y="198" fill="#fbbf24" font-size="22" font-weight="bold" font-family="OG">' . xml($tag) . '</text>'
     . '<g transform="translate(' . round($offX, 1) . ', ' . round($offY, 1) . ') scale(' . round($scale, 4) . ')">'
     . '<rect x="0" y="0" width="' . $chartW . '" height="' . $chartH . '" fill="#111113" rx="12"/>'
     . $chartSvg
     . '</g>'
+    . '<rect x="0" y="' . $barY . '" width="1200" height="' . $barH . '" fill="#161616"/>'
+    . '<text x="50" y="' . ($barY + 50) . '" fill="#f0f0f0" font-size="26" font-weight="bold" font-family="OG">BTC<tspan fill="#fbbf24">timing</tspan></text>'
+    . '<text x="235" y="' . ($barY + 50) . '" fill="#a1a1aa" font-size="24" font-family="OG">' . xml($barTitle) . '</text>'
     . '</svg>';
 } else {
     // [제목형 OG] 본문에 차트가 없을 때 — 제목 텍스트 카드
