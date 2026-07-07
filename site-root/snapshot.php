@@ -85,22 +85,111 @@ function fb_push(string $fbBase, string $coin, string $modekey, int $t, float $s
     return $resp !== false && $code >= 200 && $code < 300;
 }
 
+// api.php 응답(JSON)에서 점수 추출
+function extract_score($resp, int $code): ?float {
+    if ($resp === false || $code !== 200) return null;
+    $j = json_decode($resp, true);
+    if (!is_array($j) || !isset($j['result']['final'])) return null;
+    $s = $j['result']['final'];
+    return is_numeric($s) ? (float) $s : null;
+}
+
+// ── 병렬 점수 수집 (curl_multi) ──
+// 50개 코인 × 2모드 = 100개를 순차로 돌면 타임아웃(30s) → 배치 병렬로 처리.
+// 배치 크기만큼 동시에 던지고, 한 배치가 끝나면 다음 배치. 서버 과부하 방지.
+function fetch_scores_parallel(string $apiBase, array $jobs, int $batchSize = 12): array {
+    $results = []; // "coin|mode" => ?float
+    foreach (array_chunk($jobs, $batchSize) as $batch) {
+        $mh = curl_multi_init();
+        $handles = [];
+        foreach ($batch as $job) {
+            [$coin, $mode] = $job;
+            $url = $apiBase . '?coin=' . urlencode($coin) . '&mode=' . urlencode($mode);
+            $ch = curl_init($url);
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_TIMEOUT        => 22,
+                CURLOPT_CONNECTTIMEOUT => 8,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_HTTPHEADER     => ['Host: btctiming.com'],
+            ]);
+            curl_multi_add_handle($mh, $ch);
+            $handles["$coin|$mode"] = $ch;
+        }
+        // 배치 실행
+        do {
+            $status = curl_multi_exec($mh, $running);
+            if ($running) curl_multi_select($mh, 1.0);
+        } while ($running && $status === CURLM_OK);
+        // 결과 수집
+        foreach ($handles as $key => $ch) {
+            $resp = curl_multi_getcontent($ch);
+            $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $results[$key] = extract_score($resp, $code);
+            curl_multi_remove_handle($mh, $ch);
+            curl_close($ch);
+        }
+        curl_multi_close($mh);
+    }
+    return $results;
+}
+
+// 작업 목록 구성
+$jobs = [];
 foreach ($coins as $coin) {
     foreach ($modes as [$mode, $modekey]) {
-        // 로컬 호출 우선, 실패하면 공개 도메인으로 폴백
-        $score = fetch_score($API_LOCAL, $coin, $mode);
-        if ($score === null) $score = fetch_score($API_PUBLIC, $coin, $mode);
-        if ($score === null) {
-            $fail++; $details[] = "$coin/$modekey: score fetch failed";
-            continue;
-        }
-        if (fb_push($FB_BASE, $coin, $modekey, $nowMs, $score)) {
-            $ok++;
-        } else {
-            $fail++; $details[] = "$coin/$modekey: firebase push failed";
-        }
+        $jobs[] = [$coin, $mode, $modekey];
     }
 }
+
+// 1차: 로컬 병렬 호출
+$scoreMap = fetch_scores_parallel($API_LOCAL, array_map(fn($j) => [$j[0], $j[1]], $jobs));
+
+// 2차: 로컬에서 실패한 것만 공개 도메인으로 재시도 (병렬)
+$retry = [];
+foreach ($jobs as [$coin, $mode, $modekey]) {
+    if (($scoreMap["$coin|$mode"] ?? null) === null) $retry[] = [$coin, $mode];
+}
+if ($retry) {
+    $retryMap = fetch_scores_parallel($API_PUBLIC, $retry);
+    foreach ($retryMap as $k => $v) { if ($v !== null) $scoreMap[$k] = $v; }
+}
+
+// Firebase 저장 (병렬 — 저장은 가벼우니 한 번에)
+$pushMh = curl_multi_init();
+$pushHandles = [];
+foreach ($jobs as [$coin, $mode, $modekey]) {
+    $score = $scoreMap["$coin|$mode"] ?? null;
+    if ($score === null) {
+        $fail++; $details[] = "$coin/$modekey: score fetch failed";
+        continue;
+    }
+    $path = rtrim($FB_BASE, '/') . '/scoreHistory/' . $coin . '_' . $modekey . '.json';
+    $body = json_encode(['t' => $nowMs, 's' => round($score, 2)]);
+    $ch = curl_init($path);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_POST           => true,
+        CURLOPT_POSTFIELDS     => $body,
+        CURLOPT_TIMEOUT        => 20,
+        CURLOPT_CONNECTTIMEOUT => 8,
+        CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
+    ]);
+    curl_multi_add_handle($pushMh, $ch);
+    $pushHandles["$coin/$modekey"] = $ch;
+}
+do {
+    $status = curl_multi_exec($pushMh, $running);
+    if ($running) curl_multi_select($pushMh, 1.0);
+} while ($running && $status === CURLM_OK);
+foreach ($pushHandles as $label => $ch) {
+    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    if ($code >= 200 && $code < 300) $ok++;
+    else { $fail++; $details[] = "$label: firebase push failed ($code)"; }
+    curl_multi_remove_handle($pushMh, $ch);
+    curl_close($ch);
+}
+curl_multi_close($pushMh);
 
 echo json_encode([
     'ok'      => $ok,
