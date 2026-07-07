@@ -6,18 +6,30 @@
 
   <p class="es">El <strong>RSI (Índice de Fuerza Relativa)</strong> es uno de los indicadores de momentum más utilizados. Compara las ganancias y pérdidas recientes durante un período determinado, expresando el resultado como un valor entre 0 y 100 — útil para evaluar rápidamente el estado de sobrecompra o sobreventa de Bitcoin.</p>
   <p class="de">Der <strong>RSI (Relative Strength Index)</strong> ist einer der am häufigsten verwendeten Momentum-Indikatoren. Er vergleicht jüngste Gewinne und Verluste über einen festgelegten Zeitraum und drückt das Ergebnis als Wert zwischen 0 und 100 aus — nützlich, um Bitcoins kurzfristigen überkauften oder überverkauften Zustand schnell einzuschätzen.</p>
+  <p class="fr">Le <strong>RSI (Relative Strength Index)</strong> est l'un des indicateurs de momentum les plus utilisés. Il compare les gains et les pertes récents sur une période donnée, exprimant le résultat sous forme d'une valeur comprise entre 0 et 100 — utile pour évaluer rapidement l'état de surachat ou de survente à court terme du Bitcoin.</p>
+  <p class="pt">O <strong>RSI (Índice de Força Relativa)</strong> é um dos indicadores de momentum mais utilizados. Ele compara os ganhos e perdas recentes ao longo de um período determinado, expressando o resultado como um valor entre 0 e 100 — útil para avaliar rapidamente o estado de sobrecompra ou sobrevenda de curto prazo do Bitcoin.</p>
+  <p class="tr"><strong>RSI (Göreceli Güç Endeksi)</strong>, en yaygın kullanılan momentum göstergelerinden biridir. Belirli bir dönemdeki son kazanç ve kayıpları karşılaştırarak sonucu 0 ile 100 arasında bir değerle ifade eder — Bitcoin'in kısa vadeli aşırı alım veya aşırı satım durumunu hızlıca değerlendirmek için kullanışlıdır.</p>
+  <p class="vi"><strong>RSI (Chỉ số Sức mạnh Tương đối)</strong> là một trong những chỉ báo động lượng được sử dụng rộng rãi nhất. Chỉ báo này so sánh mức tăng và giảm gần đây trong một khoảng thời gian nhất định, thể hiện kết quả bằng một giá trị từ 0 đến 100 — hữu ích để nhanh chóng đánh giá trạng thái quá mua hoặc quá bán ngắn hạn của Bitcoin.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 일반적으로 RSI 30 이하는 과매도, 70 이상은 과매수로 해석합니다. BTCtiming.com은 14일 RSI를 기본으로 사용합니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> RSI below 30 is typically read as oversold, above 70 as overbought. BTCtiming.com uses the 14-day RSI by default.</div>
   <div class="box ja">💡 <strong>要点:</strong> 一般的にRSI 30以下は売られすぎ、70以上は買われすぎと解釈します。BTCtiming.comでは14日RSIを基本として使用しています。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Un RSI por debajo de 30 se interpreta típicamente como sobreventa, por encima de 70 como sobrecompra. BTCtiming.com usa el RSI de 14 días por defecto.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> RSI unter 30 wird typischerweise als überverkauft gelesen, über 70 als überkauft. BTCtiming.com verwendet standardmäßig den 14-Tage-RSI.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Un RSI inférieur à 30 est généralement interprété comme une survente, supérieur à 70 comme un surachat. BTCtiming.com utilise le RSI à 14 jours par défaut.</div>
+  <div class="box pt">💡 <strong>Ponto-chave:</strong> Um RSI abaixo de 30 é geralmente interpretado como sobrevenda, acima de 70 como sobrecompra. O BTCtiming.com utiliza o RSI de 14 dias por padrão.</div>
+  <div class="box tr">💡 <strong>Önemli nokta:</strong> RSI'nin 30'un altında olması genellikle aşırı satım, 70'in üzerinde olması ise aşırı alım olarak yorumlanır. BTCtiming.com varsayılan olarak 14 günlük RSI kullanır.</div>
+  <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> RSI dưới 30 thường được hiểu là quá bán, trên 70 là quá mua. BTCtiming.com mặc định sử dụng RSI 14 ngày.</div>
 
   <h2 class="ko">구간별 해석</h2>
   <h2 class="en">Zone Interpretation</h2>
   <h2 class="ja">区間別の解釈</h2>
   <h2 class="es">Interpretación por Zona</h2>
   <h2 class="de">Zonen-Interpretation</h2>
+  <h2 class="fr">Interprétation par Zone</h2>
+  <h2 class="pt">Interpretação por Zona</h2>
+  <h2 class="tr">Bölgelere Göre Yorumlama</h2>
+  <h2 class="vi">Diễn giải theo Vùng</h2>
   <table class="zt ko">
     <tr><th>RSI</th><th>상태</th><th>참고 사항</th></tr>
     <tr><td class="g">30 이하</td><td>과매도</td><td>단기 반등 가능성 (강세장에선 40~50에서도 반등)</td></tr>
