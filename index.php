@@ -283,17 +283,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     <a href="/?lang=de" class="de-show" style="display:none">Live-Analyse ansehen →</a>
   </div>
 </div>
-<footer>
-  © 2026 BTCtiming.com ·
-  <a href="/rss-guide.php" style="color:#666;text-decoration:underline">RSS</a>
-  ·
-  <a href="/sitemap-guide.php" id="footerSitemapLink" style="color:#666;text-decoration:underline"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span></a>
-  ·
-  <a href="/privacy" style="color:#666;text-decoration:underline" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#666;text-decoration:underline" class="en">Privacy Policy</a><a href="/privacy" style="color:#666;text-decoration:underline" class="ja">プライバシーポリシー</a><a href="/privacy" style="color:#666;text-decoration:underline" class="es">Política de Privacidad</a><a href="/privacy" style="color:#666;text-decoration:underline" class="de">Datenschutzerklärung</a>
-  ·
-  <a href="/terms" style="color:#666;text-decoration:underline" class="ko">이용약관</a><a href="/terms" style="color:#666;text-decoration:underline" class="en">Terms of Service</a><a href="/terms" style="color:#666;text-decoration:underline" class="ja">利用規約</a><a href="/terms" style="color:#666;text-decoration:underline" class="es">Términos de Servicio</a><a href="/terms" style="color:#666;text-decoration:underline" class="de">Nutzungsbedingungen</a>
-  · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span><span class="ja">投資助言ではありません</span><span class="es">No es asesoramiento financiero</span><span class="de">Keine Finanzberatung</span>.
-</footer>
+<?php require __DIR__ . '/../_shared_footer.php'; ?>
 <script>
 function setLang(lang) {
   const root = document.getElementById('html-root');
