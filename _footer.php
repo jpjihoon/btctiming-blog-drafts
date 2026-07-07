@@ -363,7 +363,9 @@ $tbt = $tb[$lang] ?? $tb['en']; ?>
 @media(max-width:600px){
   .blog-tabbar{display:flex;position:fixed;left:0;right:0;top:auto;bottom:0;z-index:900;
     height:48px;background:rgba(15,15,17,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
-    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
+    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom);
+    transition:transform .25s ease}
+  .blog-tabbar.tabbar-hidden{transform:translateY(110%)}
   .blog-tabbar .btab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
     background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;
     -webkit-tap-highlight-color:transparent}
@@ -388,5 +390,21 @@ $tbt = $tb[$lang] ?? $tb['en']; ?>
     <span><?= h($tbt['blog']) ?></span>
   </a>
 </nav>
+<script>
+(function(){
+  var bar=document.querySelector('.blog-tabbar');
+  if(!bar) return;
+  var lastY=window.scrollY||0, idle=null;
+  window.addEventListener('scroll',function(){
+    var y=window.scrollY||0, dy=y-lastY;
+    if(y<60) bar.classList.remove('tabbar-hidden');
+    else if(dy>6) bar.classList.add('tabbar-hidden');
+    else if(dy<-6) bar.classList.remove('tabbar-hidden');
+    lastY=y;
+    clearTimeout(idle);
+    idle=setTimeout(function(){bar.classList.remove('tabbar-hidden');},900);
+  },{passive:true});
+})();
+</script>
 </body>
 </html>
