@@ -56,7 +56,7 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
-nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
 .logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0}.logo span{color:#fbbf24}
 .back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0}
@@ -124,7 +124,7 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#fafafa;letter-spac
 .cta-main h2{font-size:1.15rem;margin-bottom:8px;color:#fafafa}
 .cta-main p{color:#71717a;font-size:14px;margin-bottom:20px}
 .cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
-footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;font-size:11px;color:#666}
 /* 푸터 언어 전환 — 기존 en-show/ja-show + JS 토글 방식이 중복 style 속성 버그로 불안정했어서,
    이미 검증된 [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 교체함 */
 footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
@@ -285,13 +285,13 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </div>
 <footer>
   © 2026 BTCtiming.com ·
-  <a href="/rss-guide.php" style="color:#52525b">RSS</a>
+  <a href="/rss-guide.php" style="color:#666;text-decoration:underline">RSS</a>
   ·
-  <a href="/sitemap-guide.php" id="footerSitemapLink" style="color:#52525b"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span></a>
+  <a href="/sitemap-guide.php" id="footerSitemapLink" style="color:#666;text-decoration:underline"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span></a>
   ·
-  <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a><a href="/privacy" style="color:#52525b" class="ja">プライバシーポリシー</a><a href="/privacy" style="color:#52525b" class="es">Política de Privacidad</a><a href="/privacy" style="color:#52525b" class="de">Datenschutzerklärung</a>
+  <a href="/privacy" style="color:#666;text-decoration:underline" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#666;text-decoration:underline" class="en">Privacy Policy</a><a href="/privacy" style="color:#666;text-decoration:underline" class="ja">プライバシーポリシー</a><a href="/privacy" style="color:#666;text-decoration:underline" class="es">Política de Privacidad</a><a href="/privacy" style="color:#666;text-decoration:underline" class="de">Datenschutzerklärung</a>
   ·
-  <a href="/terms" style="color:#52525b" class="ko">이용약관</a><a href="/terms" style="color:#52525b" class="en">Terms of Service</a><a href="/terms" style="color:#52525b" class="ja">利用規約</a><a href="/terms" style="color:#52525b" class="es">Términos de Servicio</a><a href="/terms" style="color:#52525b" class="de">Nutzungsbedingungen</a>
+  <a href="/terms" style="color:#666;text-decoration:underline" class="ko">이용약관</a><a href="/terms" style="color:#666;text-decoration:underline" class="en">Terms of Service</a><a href="/terms" style="color:#666;text-decoration:underline" class="ja">利用規約</a><a href="/terms" style="color:#666;text-decoration:underline" class="es">Términos de Servicio</a><a href="/terms" style="color:#666;text-decoration:underline" class="de">Nutzungsbedingungen</a>
   · <span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span><span class="ja">投資助言ではありません</span><span class="es">No es asesoramiento financiero</span><span class="de">Keine Finanzberatung</span>.
 </footer>
 <script>
@@ -465,7 +465,7 @@ try {
   </div>
 </div>
 <style>
-.blog-coin-sheet{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);align-items:flex-end;justify-content:center}
+.blog-coin-sheet{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);align-items:flex-end;justify-content:center;padding-bottom:48px}
 .blog-coin-sheet.open{display:flex}
 .bcs-box{width:100%;max-width:460px;max-height:70vh;display:flex;flex-direction:column;background:#131316;border-radius:18px 18px 0 0;overflow:hidden;animation:bcsUp .22s ease-out}
 @keyframes bcsUp{from{transform:translateY(100%)}to{transform:translateY(0)}}

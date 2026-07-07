@@ -311,7 +311,7 @@ ul,ol{margin:0 0 14px 22px;color:#a1a1aa}li{margin-bottom:6px}
 .bc a:hover{color:#f7931a;text-decoration:underline}
 .bc-sep{color:#3f3f46;margin:0 8px;font-size:13px}
 .bc-current{color:#e4e4e7;font-weight:600}
-footer{border-top:1px solid rgba(255,255,255,.06);padding:22px;text-align:center;font-size:11px;color:#666666}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;font-size:11px;color:#666666}
 /* 3개 언어 표시/숨김: 현재 lang이 아닌 클래스는 전부 숨김 */
 [lang="en"] .ko,[lang="ja"] .ko,[lang="es"] .ko,[lang="de"] .ko,
 [lang="ko"] .en,[lang="ja"] .en,[lang="es"] .en,[lang="de"] .en,
