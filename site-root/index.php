@@ -348,7 +348,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-ov-reset{font-size:11px;color:#aaa;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:7px;padding:5px 10px;cursor:pointer}
 .coin-ov-reset:hover{color:#f0f0f0;border-color:var(--orange)}
 .coin-ov-list{overflow-y:auto;-webkit-overflow-scrolling:touch;padding:4px 8px 10px}
-.coin-ov-item{display:flex;align-items:center;gap:10px;padding:11px 12px;border-radius:10px;cursor:pointer;transition:background .1s}
+.coin-ov-item{display:flex;align-items:center;gap:10px;min-height:46px;padding:8px 12px;border-radius:10px;cursor:pointer;transition:background .1s}
 .coin-ov-item:hover{background:#1c1c20}
 .coin-ov-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
 .coin-ov-id{font-size:13px;font-weight:700;color:#f0f0f0;min-width:56px}
@@ -363,6 +363,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 /* 코인 전환 시트 (하단바 코인 탭) */
 .coin-sw-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 8px}
 .coin-sw-title{font-size:15px;font-weight:700;color:#f0f0f0}
+.coin-sw-sub{display:block;font-size:11px;color:#888;margin-top:2px}
 .coin-sw-item{display:flex;align-items:center;gap:10px;padding:13px 14px;border-radius:10px;cursor:pointer;transition:background .1s}
 .coin-sw-item:hover{background:#1c1c20}
 .coin-sw-item.current{background:rgba(251,146,60,.1)}
@@ -377,7 +378,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
     animation:sheetUp .22s ease-out}
   .coin-ov-grip{display:block;width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.2);margin:9px auto 2px}
   .coin-ov-list{padding-bottom:calc(14px + env(safe-area-inset-bottom))}
-  .coin-ov-item{padding:13px 12px}
+  .coin-ov-item{min-height:50px;padding:8px 12px}
   .coin-ov-star{font-size:22px}
 }
 @keyframes sheetUp{from{transform:translateY(100%)}to{transform:translateY(0)}}

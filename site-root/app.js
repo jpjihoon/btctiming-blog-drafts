@@ -189,7 +189,7 @@ const COINS = [
   {id:'XLM', name:'Stellar',  sym:'XLMUSDT', color:'#14B6E7'},
   {id:'ETC', name:'Ethereum Classic',sym:'ETCUSDT',color:'#328332'},
   {id:'FIL', name:'Filecoin', sym:'FILUSDT', color:'#0090FF'},
-  {id:'HBAR',name:'Hedera',   sym:'HBARUSDT',color:'#000000'},
+  {id:'HBAR',name:'Hedera',   sym:'HBARUSDT',color:'#8A94A6'},
   {id:'ARB', name:'Arbitrum', sym:'ARBUSDT', color:'#28A0F0'},
   {id:'OP',  name:'Optimism', sym:'OPUSDT',  color:'#FF0420'},
   {id:'VET', name:'VeChain',  sym:'VETUSDT', color:'#15BDFF'},
@@ -197,12 +197,12 @@ const COINS = [
   {id:'SUI', name:'Sui',      sym:'SUIUSDT', color:'#4DA2FF'},
   {id:'AAVE',name:'Aave',     sym:'AAVEUSDT',color:'#B6509E'},
   {id:'GRT', name:'The Graph',sym:'GRTUSDT', color:'#6747ED'},
-  {id:'ALGO',name:'Algorand', sym:'ALGOUSDT',color:'#000000'},
+  {id:'ALGO',name:'Algorand', sym:'ALGOUSDT',color:'#9CA3AF'},
   {id:'SEI', name:'Sei',      sym:'SEIUSDT', color:'#8B1E2B'},
   {id:'RUNE',name:'THORChain',sym:'RUNEUSDT',color:'#00CCFF'},
   {id:'S',   name:'Sonic',    sym:'SUSDT',   color:'#1969FF'},
   {id:'TIA', name:'Celestia', sym:'TIAUSDT', color:'#7B2BF9'},
-  {id:'IMX', name:'Immutable',sym:'IMXUSDT', color:'#0B0E1A'},
+  {id:'IMX', name:'Immutable',sym:'IMXUSDT', color:'#3B82F6'},
   {id:'RENDER',name:'Render', sym:'RENDERUSDT',color:'#CF1011'},
   {id:'SKY', name:'Sky',      sym:'SKYUSDT', color:'#1AAB9B'},
   {id:'LDO', name:'Lido DAO', sym:'LDOUSDT', color:'#00A3FF'},
@@ -213,8 +213,8 @@ const COINS = [
   {id:'MANA',name:'Decentraland',sym:'MANAUSDT',color:'#FF2D55'},
   {id:'FLOW',name:'Flow',     sym:'FLOWUSDT',color:'#00EF8B'},
   {id:'CHZ', name:'Chiliz',   sym:'CHZUSDT', color:'#CD0124'},
-  {id:'GALA',name:'Gala',     sym:'GALAUSDT',color:'#000000'},
-  {id:'A',   name:'Vaulta',   sym:'AUSDT',   color:'#000000'},
+  {id:'GALA',name:'Gala',     sym:'GALAUSDT',color:'#B0B7C3'},
+  {id:'A',   name:'Vaulta',   sym:'AUSDT',   color:'#8B9DC3'},
   {id:'PEPE',name:'Pepe',     sym:'PEPEUSDT',color:'#3D8130'},
   {id:'SHIB',name:'Shiba Inu',sym:'SHIBUSDT',color:'#FFA409'},
 ];
@@ -418,7 +418,10 @@ function openCoinSwitcher() {
       <div class="coin-ov-box" role="dialog" aria-modal="true" aria-label="코인 전환">
         <div class="coin-ov-grip"></div>
         <div class="coin-sw-head">
-          <span class="coin-sw-title">${TT({ko:'코인 전환',en:'Switch coin',ja:'コイン切替',es:'Cambiar moneda',de:'Coin wechseln'})}</span>
+          <div>
+            <span class="coin-sw-title">${TT({ko:'코인 전환',en:'Switch coin',ja:'コイン切替',es:'Cambiar moneda',de:'Coin wechseln'})}</span>
+            <span class="coin-sw-sub">${TT({ko:'즐겨찾기한 코인',en:'Your favorite coins',ja:'お気に入りコイン',es:'Tus favoritos',de:'Deine Favoriten'})}</span>
+          </div>
           <button class="coin-ov-close" onclick="closeCoinSwitcher()" aria-label="Close">✕</button>
         </div>
         <div id="coinSwitchList" class="coin-ov-list"></div>
