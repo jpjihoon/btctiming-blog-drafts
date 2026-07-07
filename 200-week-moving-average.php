@@ -6,18 +6,30 @@
 
   <p class="es">En los tres mercados bajistas anteriores de Bitcoin, el precio tocó fondo cerca o justo por debajo de la <strong>media móvil de 200 semanas (200WMA)</strong>. Aunque simple, este indicador ha servido como una "línea de defensa" notablemente confiable.</p>
   <p class="de">In allen drei vergangenen Bitcoin-Bärenmärkten fand der Preis sein Tief nahe oder knapp unter dem <strong>200-Wochen-gleitenden Durchschnitt (200WMA)</strong>. So einfach es klingt, dieser Indikator diente als bemerkenswert zuverlässige "letzte Verteidigungslinie".</p>
+  <p class="fr">Lors des trois derniers marchés baissiers du Bitcoin, le prix a atteint son plancher près de la <strong>moyenne mobile à 200 semaines (200WMA)</strong> ou juste en dessous. Aussi simple soit-il, cet indicateur a servi de "ligne de défense" remarquablement fiable.</p>
+  <p class="pt">Nos três últimos mercados baixistas do Bitcoin, o preço formou fundo perto ou logo abaixo da <strong>média móvel de 200 semanas (200WMA)</strong>. Por mais simples que pareça, esse indicador tem servido como uma "linha de defesa" notavelmente confiável.</p>
+  <p class="tr">Bitcoin'in geçmişteki üç ayı piyasasının tamamında fiyat, <strong>200 haftalık hareketli ortalamanın (200WMA)</strong> yakınında veya hemen altında dip yapmıştır. Basit görünmesine rağmen bu gösterge, dikkat çekici derecede güvenilir bir "son savunma hattı" işlevi görmüştür.</p>
+  <p class="vi">Trong cả ba đợt thị trường giá xuống trước đây của Bitcoin, giá đều tạo đáy gần hoặc ngay dưới <strong>đường trung bình động 200 tuần (200WMA)</strong>. Dù đơn giản, chỉ báo này đã đóng vai trò như một "ranh giới phòng thủ" đáng tin cậy đến bất ngờ.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 200WMA는 최근 200주(약 3.8년)간의 종가 평균입니다. 가격이 이 선을 하회하는 기간은 역사적으로 짧고 드물었으며, 하회한 시점 자체가 극단적 저평가 구간과 거의 일치했습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> The 200WMA averages closing prices over the last 200 weeks (~3.8 years). Periods where price traded below it have historically been brief and rare — and closely aligned with extreme undervaluation.</div>
   <div class="box ja">💡 <strong>要点:</strong> 200WMAは直近200週間(約3.8年)の終値の平均です。価格がこの線を下回る期間は歴史的に短く稀であり、下回った時点自体が極端な割安圏とほぼ一致していました。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> El 200WMA promedia los precios de cierre de las últimas 200 semanas (~3.8 años). Los períodos en que el precio cotizó por debajo han sido históricamente breves y raros — y estrechamente alineados con infravaloración extrema.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Der 200WMA mittelt die Schlusskurse der letzten 200 Wochen (~3,8 Jahre). Phasen, in denen der Preis darunter handelte, waren historisch kurz und selten — und eng mit extremer Unterbewertung verbunden.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Le 200WMA fait la moyenne des cours de clôture sur les 200 dernières semaines (~3,8 ans). Les périodes où le prix s'est échangé en dessous ont historiquement été brèves et rares — et étroitement liées à une sous-évaluation extrême.</div>
+  <div class="box pt">💡 <strong>Resumo:</strong> O 200WMA calcula a média dos preços de fechamento das últimas 200 semanas (~3,8 anos). Os períodos em que o preço negociou abaixo dele foram historicamente breves e raros — e estreitamente alinhados com uma subvalorização extrema.</div>
+  <div class="box tr">💡 <strong>Özet:</strong> 200WMA, son 200 haftanın (~3,8 yıl) kapanış fiyatlarının ortalamasını alır. Fiyatın bu çizginin altında işlem gördüğü dönemler tarihsel olarak kısa ve nadir olmuş, aşırı değer kaybı bölgeleriyle yakından örtüşmüştür.</div>
+  <div class="box vi">💡 <strong>Tóm tắt chính:</strong> 200WMA lấy trung bình giá đóng cửa trong 200 tuần gần nhất (~3,8 năm). Các giai đoạn giá giao dịch dưới đường này trong lịch sử thường ngắn và hiếm gặp — và gắn liền chặt chẽ với vùng định giá thấp cực độ.</div>
 
   <h2 class="ko">가격 vs 200WMA를 시각화하면</h2>
   <h2 class="en">Price vs. 200WMA, visualized</h2>
   <h2 class="ja">価格 vs 200WMAを可視化すると</h2>
   <h2 class="es">Precio vs. 200WMA, Visualizado</h2>
   <h2 class="de">Preis vs. 200WMA, visualisiert</h2>
+  <h2 class="fr">Prix vs 200WMA, visualisé</h2>
+  <h2 class="pt">Preço vs. 200WMA, visualizado</h2>
+  <h2 class="tr">Fiyat ve 200WMA karşılaştırması</h2>
+  <h2 class="vi">Trực quan hóa giá so với 200WMA</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -32,7 +44,7 @@
     <circle cx="500" cy="235" r="5" fill="#f87171"/><text x="500" y="255" fill="#f87171" font-size="9" text-anchor="middle">2022</text>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Price vs 200WMA — Three Touch Points, Concept</text>
     <path d="M 50 190 Q 150 175 250 165 T 450 130 T 660 90" fill="none" stroke="#f7931a" stroke-width="2" stroke-dasharray="5,3"/>
@@ -67,12 +79,20 @@
   <p class="ja">200週は約3.8年で、ビットコインの半減期サイクル(約4年)とほぼ一致します。そのため200WMAは、短期的なノイズを取り除きながらもサイクル全体の長期トレンドを示す、バランスの取れた指標として機能します。</p>
   <p class="es">200 semanas son aproximadamente 3.8 años — casi coincidiendo con el ciclo de halving de Bitcoin (~4 años). Esto convierte al 200WMA en un punto de equilibrio: filtra el ruido de corto plazo mientras captura la tendencia de largo plazo de todo el ciclo.</p>
   <p class="de">200 Wochen entsprechen etwa 3,8 Jahren — was fast dem ~4-Jahres-Halving-Zyklus von Bitcoin entspricht. Das macht den 200WMA zu einem Gleichgewichtspunkt: Er filtert kurzfristiges Rauschen heraus und erfasst gleichzeitig den langfristigen Trend des gesamten Zyklus.</p>
+  <p class="fr">200 semaines représentent environ 3,8 ans — ce qui correspond presque au cycle de halving d'environ 4 ans de Bitcoin. Cela fait du 200WMA un point d'équilibre : il filtre le bruit à court terme tout en capturant la tendance de long terme de l'ensemble du cycle.</p>
+  <p class="pt">200 semanas equivalem a aproximadamente 3,8 anos — quase coincidindo com o ciclo de halving de cerca de 4 anos do Bitcoin. Isso torna o 200WMA um ponto de equilíbrio: ele filtra o ruído de curto prazo enquanto ainda captura a tendência de longo prazo de todo o ciclo.</p>
+  <p class="tr">200 hafta yaklaşık 3,8 yıla denk gelir ve Bitcoin'in yaklaşık 4 yıllık yarılanma döngüsüyle neredeyse örtüşür. Bu durum 200WMA'yı bir denge noktası haline getirir: kısa vadeli gürültüyü filtrelerken döngünün bütününe ait uzun vadeli eğilimi de yakalar.</p>
+  <p class="vi">200 tuần tương đương khoảng 3,8 năm — gần khớp với chu kỳ halving khoảng 4 năm của Bitcoin. Điều này khiến 200WMA trở thành một điểm cân bằng: nó lọc bỏ nhiễu ngắn hạn trong khi vẫn nắm bắt được xu hướng dài hạn của toàn bộ chu kỳ.</p>
 
   <h2 class="ko">역사적 사례</h2>
   <h2 class="en">Historical Cases</h2>
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas historiques</h2>
+  <h2 class="pt">Casos históricos</h2>
+  <h2 class="tr">Tarihsel örnekler</h2>
+  <h2 class="vi">Các trường hợp lịch sử</h2>
   <div class="rc">
     <div class="rd">2015.01</div>
     <div class="rt ko">$150대에서 200WMA를 살짝 하회, 이후 빠르게 재돌파.</div>
@@ -80,11 +100,19 @@
     <div class="rt ja">$150台で200WMAをわずかに下回った後、すぐに再突破。</div>
     <div class="rt es">El precio cayó brevemente por debajo del 200WMA cerca de $150 antes de recuperarlo rápidamente.</div>
     <div class="rt de">Der Preis fiel kurzzeitig nahe $150 unter den 200WMA, bevor er ihn schnell zurückeroberte.</div>
+    <div class="rt fr">Le prix est brièvement passé sous le 200WMA près de $150 avant de le reprendre rapidement.</div>
+    <div class="rt pt">O preço caiu brevemente abaixo do 200WMA perto de $150 antes de recuperá-lo rapidamente.</div>
+    <div class="rt tr">Fiyat, $150 civarında kısa süreliğine 200WMA'nın altına indi ve ardından hızla yeniden üzerine çıktı.</div>
+    <div class="rt vi">Giá đã giảm nhẹ xuống dưới 200WMA gần mức $150 trước khi nhanh chóng lấy lại vị trí trên đường này.</div>
     <div class="rr ko">→ 이후 2017년 $20,000까지 약 130배 상승</div>
     <div class="rr en">→ Bitcoin rose ~130x to $20,000 by 2017</div>
     <div class="rr ja">→ その後2017年に$20,000まで約130倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~130x hasta $20,000 en 2017</div>
     <div class="rr de">→ Bitcoin stieg bis 2017 um das ~130-fache auf $20.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 130x jusqu'à $20 000 en 2017</div>
+    <div class="rr pt">→ O Bitcoin subiu ~130x até $20.000 em 2017</div>
+    <div class="rr tr">→ Bitcoin 2017 yılına kadar ~130 kat yükselerek $20.000'e ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 130 lần lên $20.000 vào năm 2017</div>
   </div>
   <div class="rc">
     <div class="rd">2018.12 – 2019.02</div>
@@ -93,11 +121,19 @@
     <div class="rt ja">$3,200の底値が200WMA付近でほぼ正確に支持された。</div>
     <div class="rt es">El suelo de $3,200 encontró soporte casi exactamente en el 200WMA.</div>
     <div class="rt de">Das Tief bei $3.200 fand Unterstützung fast genau am 200WMA.</div>
+    <div class="rt fr">Le plancher de $3 200 a trouvé un support presque exactement au niveau du 200WMA.</div>
+    <div class="rt pt">O fundo de $3.200 encontrou suporte quase exatamente no 200WMA.</div>
+    <div class="rt tr">$3.200 dip seviyesi neredeyse tam olarak 200WMA'da destek buldu.</div>
+    <div class="rt vi">Đáy $3.200 nhận được hỗ trợ gần như chính xác tại đường 200WMA.</div>
     <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
     <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
     <div class="rr ja">→ その後2021年に$69,000まで約20倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~20x hasta $69,000 en 2021</div>
     <div class="rr de">→ Bitcoin stieg bis 2021 um das ~20-fache auf $69.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 20x jusqu'à $69 000 en 2021</div>
+    <div class="rr pt">→ O Bitcoin subiu ~20x até $69.000 em 2021</div>
+    <div class="rr tr">→ Bitcoin 2021 yılına kadar ~20 kat yükselerek $69.000'e ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 20 lần lên $69.000 vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2022.11 (FTX 붕괴)</div>
@@ -106,11 +142,19 @@
     <div class="rt ja">$15,500まで下落し200WMAを短期間下回り、歴史的な深い割安圏を確認。</div>
     <div class="rt es">El precio cayó brevemente por debajo del 200WMA cerca de $15,500, confirmando una zona de infravaloración históricamente profunda.</div>
     <div class="rt de">Der Preis fiel kurzzeitig nahe $15.500 unter den 200WMA und bestätigte eine historisch tiefe Unterbewertungszone.</div>
+    <div class="rt fr">Le prix est brièvement tombé sous le 200WMA près de $15 500, confirmant une zone de sous-évaluation historiquement profonde.</div>
+    <div class="rt pt">O preço caiu brevemente abaixo do 200WMA perto de $15.500, confirmando uma zona de subvalorização historicamente profunda.</div>
+    <div class="rt tr">Fiyat, $15.500 civarında kısa süreliğine 200WMA'nın altına düşerek tarihsel olarak derin bir değer kaybı bölgesini doğruladı.</div>
+    <div class="rt vi">Giá giảm nhẹ xuống dưới 200WMA gần mức $15.500, xác nhận một vùng định giá thấp sâu mang tính lịch sử.</div>
     <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
     <div class="rr en">→ Bitcoin rose ~8x to $126,000 by 2025</div>
     <div class="rr ja">→ その後2025年に$126,000まで約8倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~8x hasta $126,000 en 2025</div>
     <div class="rr de">→ Bitcoin stieg bis 2025 um das ~8-fache auf $126.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 8x jusqu'à $126 000 en 2025</div>
+    <div class="rr pt">→ O Bitcoin subiu ~8x até $126.000 em 2025</div>
+    <div class="rr tr">→ Bitcoin 2025 yılına kadar ~8 kat yükselerek $126.000'e ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 8 lần lên $126.000 vào năm 2025</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -118,6 +162,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Points importants à considérer</h2>
+  <h2 class="pt">Ressalvas importantes</h2>
+  <h2 class="tr">Önemli uyarılar</h2>
+  <h2 class="vi">Những lưu ý quan trọng</h2>
   <ul class="ko">
     <li><strong>후행 지표.</strong> 200주 평균이므로 가격 급변을 즉각 반영하지 못하고 서서히 따라갑니다.</li>
     <li><strong>사이클이 성숙할수록 괴리 축소 가능.</strong> 시가총액이 커질수록 진폭이 줄어들며 200WMA와의 거리도 좁아지는 추세입니다.</li>
@@ -143,12 +191,36 @@
     <li><strong>Abstand kann sich mit Marktreife verringern.</strong> Mit wachsender Marktkapitalisierung tendiert die Volatilität zur Schrumpfung, was den Abstand zum 200WMA im Laufe der Zeit verringert.</li>
     <li><strong>Kein präzises eigenständiges Signal.</strong> Besser geeignet, um "langfristig günstig" zu identifizieren, als ein genaues Tief zu bestimmen.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Retardataire par nature.</strong> En tant que moyenne sur 200 semaines, il évolue lentement et ne reflète pas immédiatement les variations brutales de prix.</li>
+    <li><strong>L'écart peut se réduire à mesure que le marché mûrit.</strong> À mesure que la capitalisation boursière augmente, la volatilité tend à diminuer, réduisant la distance au 200WMA au fil du temps.</li>
+    <li><strong>Ce n'est pas un signal autonome précis.</strong> Il est mieux utilisé pour identifier une zone "bon marché à long terme" que pour définir un plancher exact.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Naturalmente defasado.</strong> Por ser uma média de 200 semanas, ele se move lentamente e não reflete imediatamente oscilações bruscas de preço.</li>
+    <li><strong>A diferença pode diminuir à medida que o mercado amadurece.</strong> À medida que a capitalização de mercado cresce, a volatilidade tende a diminuir, reduzindo a distância até o 200WMA com o tempo.</li>
+    <li><strong>Não é um sinal preciso e independente.</strong> É mais útil para identificar uma zona "barata no longo prazo" do que para determinar um fundo exato.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Doğası gereği gecikmelidir.</strong> 200 haftalık bir ortalama olduğu için yavaş hareket eder ve keskin fiyat dalgalanmalarını hemen yansıtmaz.</li>
+    <li><strong>Piyasa olgunlaştıkça fark daralabilir.</strong> Piyasa değeri büyüdükçe volatilite azalma eğilimindedir, bu da zamanla 200WMA'ya olan mesafeyi daraltır.</li>
+    <li><strong>Tek başına kesin bir sinyal değildir.</strong> Tam bir dip noktası belirlemekten çok "uzun vadede ucuz" bir bölgeyi tespit etmek için kullanılması daha uygundur.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Vốn dĩ có độ trễ.</strong> Vì là đường trung bình 200 tuần, nó di chuyển chậm và không phản ánh ngay lập tức các biến động giá mạnh.</li>
+    <li><strong>Khoảng cách có thể thu hẹp khi thị trường trưởng thành hơn.</strong> Khi vốn hóa thị trường tăng lên, độ biến động có xu hướng giảm, thu hẹp khoảng cách tới 200WMA theo thời gian.</li>
+    <li><strong>Không phải tín hiệu độc lập chính xác.</strong> Nên dùng để xác định vùng "rẻ trên cơ sở dài hạn" hơn là để xác định chính xác điểm đáy.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal à combiner avec</h2>
+  <h2 class="pt">Melhor combinado com</h2>
+  <h2 class="tr">En iyi şu göstergelerle birlikte kullanılır</h2>
+  <h2 class="vi">Kết hợp tốt nhất với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 온체인 밸류에이션까지 저평가인지 교차 확인</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료 시점과 겹치는지 확인</li>
@@ -168,6 +240,22 @@
   <ul class="de">
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Abgleich, ob die On-Chain-Bewertung ebenfalls unterbewertet ist</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob dies mit dem Ende der Miner-Kapitulation zusammenfällt</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score sous 0</a> :</strong> Vérifier si la valorisation on-chain est également sous-évaluée</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si cela coïncide avec la fin de la capitulation des mineurs</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score abaixo de 0</a>:</strong> Verificação cruzada se a valorização on-chain também está subvalorizada</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se coincide com o fim da capitulação dos mineradores</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/mvrv-z-score.html">0'ın altında MVRV Z-Score</a>:</strong> Zincir üzeri (on-chain) değerlemenin de düşük olup olmadığını çapraz kontrol edin</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Bunun madenci kapitülasyonunun bitişiyle örtüşüp örtüşmediğini kontrol edin</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score dưới 0</a>:</strong> Đối chiếu xem định giá on-chain có đang bị định giá thấp hay không</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon chuyển sang phục hồi</a>:</strong> Kiểm tra xem điều này có trùng với thời điểm kết thúc capitulation của thợ đào hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
