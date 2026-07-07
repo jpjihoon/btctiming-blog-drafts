@@ -6,29 +6,49 @@
 
   <p class="es">Los mineros suelen ser los primeros participantes del ecosistema Bitcoin en enfrentar presión de venta. Rastrear su rentabilidad puede revelar suelos y techos estructurales del mercado con anticipación — y eso es exactamente lo que cuantifica el <strong>Puell Multiple</strong>.</p>
   <p class="de">Miner sind meist die ersten Teilnehmer im Bitcoin-Ökosystem, die Verkaufsdruck ausgesetzt sind. Die Verfolgung ihrer Rentabilität kann strukturelle Markttiefs und -hochs frühzeitig aufzeigen — genau das quantifiziert der <strong>Puell Multiple</strong>.</p>
+  <p class="fr">Les mineurs sont généralement les premiers participants de l'écosystème Bitcoin à subir une pression vendeuse. Suivre leur rentabilité permet de repérer tôt les creux et sommets structurels du marché — et c'est précisément ce que quantifie le <strong>Puell Multiple</strong>.</p>
+  <p class="pt">Os mineradores costumam ser os primeiros participantes do ecossistema Bitcoin a enfrentar pressão vendedora. Acompanhar sua rentabilidade pode revelar antecipadamente fundos e topos estruturais do mercado — e é exatamente isso que o <strong>Puell Multiple</strong> quantifica.</p>
+  <p class="tr">Madenciler genellikle Bitcoin ekosisteminde satış baskısıyla karşılaşan ilk katılımcılardır. Kârlılıklarını takip etmek, piyasanın yapısal dip ve tepe noktalarını erken ortaya çıkarabilir — ve <strong>Puell Multiple</strong> tam olarak bunu ölçer.</p>
+  <p class="vi">Thợ đào thường là những người tham gia đầu tiên trong hệ sinh thái Bitcoin phải chịu áp lực bán. Theo dõi khả năng sinh lời của họ có thể sớm cho thấy các đáy và đỉnh mang tính cấu trúc của thị trường — và đó chính xác là điều mà <strong>Puell Multiple</strong> đo lường.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> Puell Multiple = 일일 채굴 발행 수익(USD) ÷ 최근 365일 평균. 0.5 이하는 채굴자 수익성 바닥(저점 구간), 4 이상은 채굴자 초과이익 구간(고점 구간)으로 알려져 있습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Puell Multiple = Daily mining issuance revenue (USD) ÷ 365-day average. Below 0.5 signals rock-bottom miner profitability (bottom zone); above 4 signals miner windfall profits (top zone).</div>
   <div class="box ja">💡 <strong>要点:</strong> Puell Multiple = 日次マイニング発行収益(USD) ÷ 直近365日平均。0.5以下はマイナー収益性の底(底値圏)、4以上はマイナーの超過利益圏(天井圏)として知られています。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Puell Multiple = Ingresos diarios por emisión minera (USD) ÷ promedio de 365 días. Por debajo de 0.5 señala rentabilidad mínima de mineros (zona de suelo); por encima de 4 señala ganancias extraordinarias de mineros (zona de techo).</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Puell Multiple = tägliche Mining-Emissionserlöse (USD) ÷ 365-Tage-Durchschnitt. Unter 0,5 signalisiert Tiefstrentabilität der Miner (Tiefzone); über 4 signalisiert Miner-Übergewinne (Hochzone).</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Puell Multiple = revenu quotidien d'émission minière (USD) ÷ moyenne sur 365 jours. En dessous de 0,5, il signale une rentabilité minière au plus bas (zone de creux) ; au-dessus de 4, il signale des profits exceptionnels des mineurs (zone de sommet).</div>
+  <div class="box pt">💡 <strong>Resumo principal:</strong> Puell Multiple = receita diária de emissão de mineração (USD) ÷ média de 365 dias. Abaixo de 0,5 sinaliza rentabilidade mínima dos mineradores (zona de fundo); acima de 4 sinaliza lucros extraordinários dos mineradores (zona de topo).</div>
+  <div class="box tr">💡 <strong>Ana fikir:</strong> Puell Multiple = günlük madencilik ihraç geliri (USD) ÷ 365 günlük ortalama. 0,5'in altı, madenci kârlılığının dip seviyede olduğunu (dip bölgesi) gösterir; 4'ün üzeri, madenci beklenmedik kârlarını (tepe bölgesi) gösterir.</div>
+  <div class="box vi">💡 <strong>Tóm tắt chính:</strong> Puell Multiple = doanh thu phát hành khai thác hàng ngày (USD) ÷ trung bình 365 ngày. Dưới 0,5 cho thấy khả năng sinh lời của thợ đào chạm đáy (vùng đáy); trên 4 cho thấy thợ đào thu lợi nhuận bất ngờ (vùng đỉnh).</div>
 
   <h2 class="ko">왜 채굴자 수익성이 중요한가?</h2>
   <h2 class="en">Why Does Miner Profitability Matter?</h2>
   <h2 class="ja">なぜマイナーの収益性が重要なのか?</h2>
   <h2 class="es">¿Por Qué Importa la Rentabilidad de los Mineros?</h2>
   <h2 class="de">Warum ist die Miner-Rentabilität wichtig?</h2>
+  <h2 class="fr">Pourquoi la rentabilité des mineurs est-elle importante ?</h2>
+  <h2 class="pt">Por Que a Rentabilidade dos Mineradores Importa?</h2>
+  <h2 class="tr">Madenci Kârlılığı Neden Önemlidir?</h2>
+  <h2 class="vi">Tại Sao Khả Năng Sinh Lời Của Thợ Đào Lại Quan Trọng?</h2>
   <p class="ko">채굴자는 전기료, 장비 감가 등 고정비를 감당해야 하므로, 수익성이 낮아지면 보유 비트코인을 매도해 운영자금을 충당합니다. 이는 시장에 추가 매도 압력을 만들지만, 동시에 이 매도가 소진되는 지점이 종종 저점과 일치합니다. 반대로 채굴자 수익이 급증하는 시기는 대개 가격 급등기와 겹치며 과열 신호로 해석됩니다.</p>
   <p class="en">Miners must cover fixed costs — electricity, equipment depreciation — so when profitability drops, they sell held Bitcoin to fund operations. This adds selling pressure, but the point where this selling exhausts itself often coincides with a bottom. Conversely, periods of surging miner revenue tend to overlap with price spikes and are read as overheating signals.</p>
   <p class="ja">マイナーは電気代や機材の減価償却などの固定費を負担する必要があるため、収益性が低下すると保有ビットコインを売却して運営資金を賄います。これは市場に追加の売り圧力を生みますが、同時にこの売却が尽きる時点がしばしば底値と一致します。逆にマイナー収益が急増する時期は、たいてい価格急騰期と重なり過熱シグナルと解釈されます。</p>
   <p class="es">Los mineros deben cubrir costos fijos —electricidad, depreciación de equipos— por lo que cuando la rentabilidad cae, venden Bitcoin para financiar sus operaciones. Esto añade presión de venta, pero el punto donde esta venta se agota a menudo coincide con un suelo. Por el contrario, los períodos de ingresos mineros en auge suelen coincidir con picos de precio y se interpretan como señales de sobrecalentamiento.</p>
   <p class="de">Miner müssen fixe Kosten decken — Strom, Geräteabschreibung — daher verkaufen sie bei sinkender Rentabilität gehaltenes Bitcoin, um den Betrieb zu finanzieren. Dies erhöht den Verkaufsdruck, aber der Punkt, an dem sich dieser Verkauf erschöpft, fällt oft mit einem Tief zusammen. Umgekehrt fallen Phasen stark steigender Miner-Erlöse meist mit Preisspitzen zusammen und werden als Überhitzungssignale gelesen.</p>
+  <p class="fr">Les mineurs doivent couvrir des coûts fixes — électricité, amortissement du matériel — donc lorsque la rentabilité baisse, ils vendent leurs bitcoins détenus pour financer leurs opérations. Cela accroît la pression vendeuse, mais le moment où cette vente s'épuise coïncide souvent avec un creux. À l'inverse, les périodes de forte hausse des revenus des mineurs coïncident généralement avec des pics de prix et sont interprétées comme des signaux de surchauffe.</p>
+  <p class="pt">Os mineradores precisam cobrir custos fixos — eletricidade, depreciação de equipamentos — então, quando a rentabilidade cai, eles vendem o Bitcoin que possuem para financiar as operações. Isso aumenta a pressão vendedora, mas o ponto em que essa venda se esgota costuma coincidir com um fundo. Por outro lado, os períodos de forte alta na receita dos mineradores tendem a coincidir com picos de preço e são interpretados como sinais de sobreaquecimento.</p>
+  <p class="tr">Madenciler elektrik ve ekipman amortismanı gibi sabit maliyetleri karşılamak zorundadır; bu nedenle kârlılık düştüğünde ellerindeki Bitcoin'i satarak operasyonlarını finanse ederler. Bu durum satış baskısını artırır, ancak bu satışın tükendiği nokta genellikle bir dip ile örtüşür. Bunun tersine, madenci gelirinin hızla arttığı dönemler genellikle fiyat sıçramalarıyla örtüşür ve aşırı ısınma sinyali olarak yorumlanır.</p>
+  <p class="vi">Thợ đào phải trang trải các chi phí cố định — tiền điện, khấu hao thiết bị — nên khi khả năng sinh lời giảm, họ bán Bitcoin đang nắm giữ để tài trợ cho hoạt động của mình. Điều này làm tăng áp lực bán, nhưng thời điểm áp lực bán này cạn kiệt thường trùng với một đáy. Ngược lại, các giai đoạn doanh thu thợ đào tăng vọt thường trùng với các đợt tăng giá và được xem là tín hiệu quá nóng.</p>
 
   <h2 class="ko">역사적 사례</h2>
   <h2 class="en">Historical Cases</h2>
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas Historiques</h2>
+  <h2 class="pt">Casos Históricos</h2>
+  <h2 class="tr">Tarihsel Örnekler</h2>
+  <h2 class="vi">Các Trường Hợp Lịch Sử</h2>
   <div class="rc">
     <div class="rd">2015.01, 2018.12, 2022.11</div>
     <div class="rt ko">세 번의 사이클 저점 모두 Puell Multiple이 0.5 이하로 하락, 채굴자 항복 확인.</div>
@@ -36,11 +56,19 @@
     <div class="rt ja">3回のサイクル底値すべてでPuell Multipleが0.5以下に低下し、マイナーのキャピチュレーションを確認。</div>
     <div class="rt es">Los tres suelos de ciclo vieron el Puell Multiple caer por debajo de 0.5, confirmando la capitulación de mineros.</div>
     <div class="rt de">Bei allen drei Zyklustiefs fiel der Puell Multiple unter 0,5 und bestätigte die Miner-Kapitulation.</div>
+    <div class="rt fr">Aux trois creux de cycle, le Puell Multiple est tombé sous 0,5, confirmant la capitulation des mineurs.</div>
+    <div class="rt pt">Nos três fundos de ciclo, o Puell Multiple caiu abaixo de 0,5, confirmando a capitulação dos mineradores.</div>
+    <div class="rt tr">Üç döngü dibinde de Puell Multiple 0,5'in altına düşerek madenci kapitülasyonunu doğruladı.</div>
+    <div class="rt vi">Cả ba đáy chu kỳ đều chứng kiến Puell Multiple giảm xuống dưới 0,5, xác nhận sự đầu hàng của thợ đào.</div>
     <div class="rr ko">→ 이후 모두 사이클 최고점까지 10배 이상 상승</div>
     <div class="rr en">→ Each was followed by a rally of 10x or more to the cycle peak</div>
     <div class="rr ja">→ その後いずれもサイクル最高値まで10倍以上上昇</div>
     <div class="rr es">→ Cada uno fue seguido por un repunte de 10x o más hasta el pico del ciclo</div>
     <div class="rr de">→ Auf jedes folgte eine Rally von 10x oder mehr bis zum Zyklushoch</div>
+    <div class="rr fr">→ Chacun a été suivi d'un rallye de 10x ou plus jusqu'au sommet du cycle</div>
+    <div class="rr pt">→ Cada um foi seguido por uma alta de 10x ou mais até o pico do ciclo</div>
+    <div class="rr tr">→ Her birinin ardından döngü zirvesine kadar 10 kat veya daha fazla bir yükseliş geldi</div>
+    <div class="rr vi">→ Mỗi lần đều được theo sau bởi một đợt tăng giá 10 lần trở lên cho đến đỉnh chu kỳ</div>
   </div>
   <div class="rc">
     <div class="rd">2017.12, 2021.04</div>
@@ -49,11 +77,19 @@
     <div class="rt ja">2回のサイクル天井付近でPuell Multipleが4以上まで上昇、マイナー超過利益圏に。</div>
     <div class="rt es">Cerca de ambos techos de ciclo, el Puell Multiple subió por encima de 4, marcando una zona de ganancias extraordinarias de mineros.</div>
     <div class="rt de">Nahe beiden Zyklushochs stieg der Puell Multiple über 4 und markierte eine Miner-Übergewinnzone.</div>
+    <div class="rt fr">Près des deux sommets de cycle, le Puell Multiple est monté au-dessus de 4, marquant une zone de profits exceptionnels pour les mineurs.</div>
+    <div class="rt pt">Próximo aos dois topos de ciclo, o Puell Multiple subiu acima de 4, marcando uma zona de lucros extraordinários dos mineradores.</div>
+    <div class="rt tr">Her iki döngü zirvesine yakın dönemde Puell Multiple 4'ün üzerine çıkarak bir madenci beklenmedik kâr bölgesi oluşturdu.</div>
+    <div class="rt vi">Gần cả hai đỉnh chu kỳ, Puell Multiple tăng trên 4, đánh dấu vùng lợi nhuận bất ngờ của thợ đào.</div>
     <div class="rr ko">→ 이후 각각 -84%, -77% 조정 발생</div>
     <div class="rr en">→ Followed by corrections of -84% and -77%, respectively</div>
     <div class="rr ja">→ その後それぞれ-84%、-77%の調整が発生</div>
     <div class="rr es">→ Seguido por correcciones de -84% y -77%, respectivamente</div>
     <div class="rr de">→ Gefolgt von Korrekturen von -84% bzw. -77%</div>
+    <div class="rr fr">→ Suivi de corrections de -84 % et -77 %, respectivement</div>
+    <div class="rr pt">→ Seguido por correções de -84% e -77%, respectivamente</div>
+    <div class="rr tr">→ Ardından sırasıyla -84% ve -77% düzeltmeler geldi</div>
+    <div class="rr vi">→ Theo sau là các đợt điều chỉnh lần lượt -84% và -77%</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -61,6 +97,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en Garde Importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>반감기 직후 왜곡 가능.</strong> 발행량이 절반으로 줄기 때문에 Puell Multiple이 일시적으로 낮게 나올 수 있습니다.</li>
     <li><strong>해시레이트·난이도 변화의 영향.</strong> 채굴 경쟁 심화로 채산성 자체가 구조적으로 변할 수 있습니다.</li>
@@ -81,12 +121,32 @@
     <li><strong>Kann direkt nach einem Halving verzerrt sein.</strong> Da sich die Emission halbiert, kann der Puell Multiple vorübergehend künstlich niedrig ausfallen.</li>
     <li><strong>Beeinflusst durch Hashrate-/Difficulty-Änderungen.</strong> Verschärfter Mining-Wettbewerb kann die Grundrentabilität strukturell verschieben.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Peut être faussé juste après un halving.</strong> L'émission étant réduite de moitié, le Puell Multiple peut afficher temporairement une valeur artificiellement basse.</li>
+    <li><strong>Affecté par les variations de hashrate/difficulté.</strong> L'intensification de la concurrence minière peut modifier structurellement la rentabilité de base.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Pode ser distorcido logo após um halving.</strong> Como a emissão é reduzida pela metade, o Puell Multiple pode apresentar temporariamente um valor artificialmente baixo.</li>
+    <li><strong>Afetado por mudanças em hashrate/dificuldade.</strong> A intensificação da concorrência de mineração pode alterar estruturalmente a rentabilidade base.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Halving sonrasında hemen bozulabilir.</strong> İhraç miktarı yarıya indiği için Puell Multiple geçici olarak yapay biçimde düşük görünebilir.</li>
+    <li><strong>Hash oranı/zorluk değişikliklerinden etkilenir.</strong> Madencilik rekabetinin artması, temel kârlılığı yapısal olarak değiştirebilir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Có thể bị bóp méo ngay sau halving.</strong> Vì lượng phát hành giảm một nửa, Puell Multiple có thể tạm thời hiển thị mức thấp giả tạo.</li>
+    <li><strong>Bị ảnh hưởng bởi thay đổi hashrate/độ khó.</strong> Sự cạnh tranh khai thác gia tăng có thể làm thay đổi cấu trúc khả năng sinh lời cơ bản.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Meilleure Association Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 채굴자 항복 종료 시점과 교차 확인</li>
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 채굴자 관점과 투자자 관점의 밸류에이션을 함께 확인</li>
@@ -106,6 +166,22 @@
   <ul class="de">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Abgleich mit dem Ende der Miner-Kapitulation</li>
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Bewertung aus Miner- und Investorensicht vergleichen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Vérification croisée avec la fin de la capitulation des mineurs</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Comparer la valorisation du point de vue des mineurs et des investisseurs</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Verificação cruzada com o fim da capitulação dos mineradores</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Comparar a valorização sob a perspectiva dos mineradores e dos investidores</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Madenci kapitülasyonunun sonuyla çapraz kontrol</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Hem madenci hem de yatırımcı perspektifinden değerlemeyi karşılaştırın</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Đối chiếu chéo với thời điểm kết thúc sự đầu hàng của thợ đào</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> So sánh định giá từ góc nhìn của cả thợ đào và nhà đầu tư</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
