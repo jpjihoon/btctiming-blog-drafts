@@ -6,29 +6,49 @@
 
   <p class="es">Los mineros suelen ser los primeros participantes del ecosistema Bitcoin en enfrentar presión de venta. Rastrear su rentabilidad puede revelar suelos y techos estructurales del mercado con anticipación — y eso es exactamente lo que cuantifica el <strong>Puell Multiple</strong>.</p>
   <p class="de">Miner sind meist die ersten Teilnehmer im Bitcoin-Ökosystem, die Verkaufsdruck ausgesetzt sind. Die Verfolgung ihrer Rentabilität kann strukturelle Markttiefs und -hochs frühzeitig aufzeigen — genau das quantifiziert der <strong>Puell Multiple</strong>.</p>
+  <p class="fr">Les mineurs sont généralement les premiers acteurs de l'écosystème Bitcoin à subir une pression vendeuse. Suivre leur rentabilité permet de détecter précocement les creux et sommets structurels du marché — et c'est exactement ce que quantifie le <strong>Puell Multiple</strong>.</p>
+  <p class="pt">Os mineradores costumam ser os primeiros participantes do ecossistema Bitcoin a enfrentar pressão de venda. Acompanhar sua rentabilidade pode revelar antecipadamente fundos e topos estruturais do mercado — e é exatamente isso que o <strong>Puell Multiple</strong> quantifica.</p>
+  <p class="tr">Madenciler genellikle Bitcoin ekosisteminde satış baskısıyla karşılaşan ilk katılımcılardır. Kârlılıklarını takip etmek, piyasanın yapısal dip ve tepe noktalarını erkenden ortaya çıkarabilir — ve <strong>Puell Multiple</strong>'ın ölçtüğü tam olarak budur.</p>
+  <p class="vi">Thợ đào thường là những người tham gia đầu tiên trong hệ sinh thái Bitcoin phải chịu áp lực bán. Theo dõi khả năng sinh lời của họ có thể giúp phát hiện sớm các đáy và đỉnh mang tính cấu trúc của thị trường — và đó chính xác là điều mà <strong>Puell Multiple</strong> định lượng.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> Puell Multiple = 일일 채굴 발행 수익(USD) ÷ 최근 365일 평균. 0.5 이하는 채굴자 수익성 바닥(저점 구간), 4 이상은 채굴자 초과이익 구간(고점 구간)으로 알려져 있습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Puell Multiple = Daily mining issuance revenue (USD) ÷ 365-day average. Below 0.5 signals rock-bottom miner profitability (bottom zone); above 4 signals miner windfall profits (top zone).</div>
   <div class="box ja">💡 <strong>要点:</strong> Puell Multiple = 日次マイニング発行収益(USD) ÷ 直近365日平均。0.5以下はマイナー収益性の底(底値圏)、4以上はマイナーの超過利益圏(天井圏)として知られています。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Puell Multiple = Ingresos diarios por emisión minera (USD) ÷ promedio de 365 días. Por debajo de 0.5 señala rentabilidad mínima de mineros (zona de suelo); por encima de 4 señala ganancias extraordinarias de mineros (zona de techo).</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Puell Multiple = tägliche Mining-Emissionserlöse (USD) ÷ 365-Tage-Durchschnitt. Unter 0,5 signalisiert Tiefstrentabilität der Miner (Tiefzone); über 4 signalisiert Miner-Übergewinne (Hochzone).</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Puell Multiple = Revenu quotidien d'émission minière (USD) ÷ moyenne sur 365 jours. En dessous de 0,5, cela signale une rentabilité minière au plus bas (zone de creux) ; au-dessus de 4, cela signale des profits exceptionnels pour les mineurs (zone de sommet).</div>
+  <div class="box pt">💡 <strong>Resumo principal:</strong> Puell Multiple = Receita diária de emissão de mineração (USD) ÷ média de 365 dias. Abaixo de 0,5 sinaliza rentabilidade mínima dos mineradores (zona de fundo); acima de 4 sinaliza lucros excepcionais dos mineradores (zona de topo).</div>
+  <div class="box tr">💡 <strong>Özet:</strong> Puell Multiple = Günlük madencilik ihraç geliri (USD) ÷ 365 günlük ortalama. 0,5'in altı, madenci kârlılığının dip noktasını (dip bölgesi) gösterir; 4'ün üzeri ise madencilerin olağanüstü kâr elde ettiği (tepe bölgesi) dönemi işaret eder.</div>
+  <div class="box vi">💡 <strong>Tóm tắt chính:</strong> Puell Multiple = Doanh thu phát hành từ đào coin hằng ngày (USD) ÷ trung bình 365 ngày. Dưới 0,5 báo hiệu khả năng sinh lời của thợ đào chạm đáy (vùng đáy); trên 4 báo hiệu thợ đào thu lợi nhuận vượt trội (vùng đỉnh).</div>
 
   <h2 class="ko">왜 채굴자 수익성이 중요한가?</h2>
   <h2 class="en">Why Does Miner Profitability Matter?</h2>
   <h2 class="ja">なぜマイナーの収益性が重要なのか?</h2>
   <h2 class="es">¿Por Qué Importa la Rentabilidad de los Mineros?</h2>
   <h2 class="de">Warum ist die Miner-Rentabilität wichtig?</h2>
+  <h2 class="fr">Pourquoi la Rentabilité des Mineurs Est-elle Importante ?</h2>
+  <h2 class="pt">Por Que a Rentabilidade dos Mineradores Importa?</h2>
+  <h2 class="tr">Madenci Kârlılığı Neden Önemli?</h2>
+  <h2 class="vi">Tại Sao Khả Năng Sinh Lời Của Thợ Đào Lại Quan Trọng?</h2>
   <p class="ko">채굴자는 전기료, 장비 감가 등 고정비를 감당해야 하므로, 수익성이 낮아지면 보유 비트코인을 매도해 운영자금을 충당합니다. 이는 시장에 추가 매도 압력을 만들지만, 동시에 이 매도가 소진되는 지점이 종종 저점과 일치합니다. 반대로 채굴자 수익이 급증하는 시기는 대개 가격 급등기와 겹치며 과열 신호로 해석됩니다.</p>
   <p class="en">Miners must cover fixed costs — electricity, equipment depreciation — so when profitability drops, they sell held Bitcoin to fund operations. This adds selling pressure, but the point where this selling exhausts itself often coincides with a bottom. Conversely, periods of surging miner revenue tend to overlap with price spikes and are read as overheating signals.</p>
   <p class="ja">マイナーは電気代や機材の減価償却などの固定費を負担する必要があるため、収益性が低下すると保有ビットコインを売却して運営資金を賄います。これは市場に追加の売り圧力を生みますが、同時にこの売却が尽きる時点がしばしば底値と一致します。逆にマイナー収益が急増する時期は、たいてい価格急騰期と重なり過熱シグナルと解釈されます。</p>
   <p class="es">Los mineros deben cubrir costos fijos —electricidad, depreciación de equipos— por lo que cuando la rentabilidad cae, venden Bitcoin para financiar sus operaciones. Esto añade presión de venta, pero el punto donde esta venta se agota a menudo coincide con un suelo. Por el contrario, los períodos de ingresos mineros en auge suelen coincidir con picos de precio y se interpretan como señales de sobrecalentamiento.</p>
   <p class="de">Miner müssen fixe Kosten decken — Strom, Geräteabschreibung — daher verkaufen sie bei sinkender Rentabilität gehaltenes Bitcoin, um den Betrieb zu finanzieren. Dies erhöht den Verkaufsdruck, aber der Punkt, an dem sich dieser Verkauf erschöpft, fällt oft mit einem Tief zusammen. Umgekehrt fallen Phasen stark steigender Miner-Erlöse meist mit Preisspitzen zusammen und werden als Überhitzungssignale gelesen.</p>
+  <p class="fr">Les mineurs doivent couvrir des coûts fixes — électricité, amortissement du matériel — de sorte que lorsque la rentabilité baisse, ils vendent leurs bitcoins détenus pour financer leurs opérations. Cela ajoute une pression vendeuse, mais le point où cette vente s'épuise coïncide souvent avec un creux. À l'inverse, les périodes de forte hausse des revenus des mineurs coïncident généralement avec des pics de prix et sont interprétées comme des signaux de surchauffe.</p>
+  <p class="pt">Os mineradores precisam cobrir custos fixos — eletricidade, depreciação de equipamentos —, então, quando a rentabilidade cai, eles vendem os bitcoins que possuem para financiar as operações. Isso aumenta a pressão de venda, mas o ponto em que essa venda se esgota costuma coincidir com um fundo de mercado. Por outro lado, períodos de forte alta na receita dos mineradores tendem a coincidir com picos de preço e são interpretados como sinais de sobreaquecimento.</p>
+  <p class="tr">Madenciler elektrik ve ekipman amortismanı gibi sabit maliyetleri karşılamak zorundadır; bu yüzden kârlılık düştüğünde, faaliyetlerini finanse etmek için ellerindeki bitcoinleri satarlar. Bu durum satış baskısını artırır, ancak bu satışın tükendiği nokta genellikle bir dip ile örtüşür. Buna karşılık, madenci gelirlerinin hızla arttığı dönemler genellikle fiyat sıçramalarıyla çakışır ve aşırı ısınma sinyali olarak yorumlanır.</p>
+  <p class="vi">Thợ đào phải trang trải các chi phí cố định — tiền điện, khấu hao thiết bị — nên khi khả năng sinh lời giảm, họ bán Bitcoin đang nắm giữ để tài trợ cho hoạt động khai thác. Điều này làm tăng áp lực bán, nhưng thời điểm áp lực bán này cạn kiệt thường trùng với một đáy thị trường. Ngược lại, những giai đoạn doanh thu thợ đào tăng vọt thường trùng với các đợt tăng giá mạnh và được xem là tín hiệu quá nhiệt.</p>
 
   <h2 class="ko">역사적 사례</h2>
   <h2 class="en">Historical Cases</h2>
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas Historiques</h2>
+  <h2 class="pt">Casos Históricos</h2>
+  <h2 class="tr">Tarihsel Örnekler</h2>
+  <h2 class="vi">Các Trường Hợp Lịch Sử</h2>
   <div class="rc">
     <div class="rd">2015.01, 2018.12, 2022.11</div>
     <div class="rt ko">세 번의 사이클 저점 모두 Puell Multiple이 0.5 이하로 하락, 채굴자 항복 확인.</div>

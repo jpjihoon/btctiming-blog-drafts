@@ -54,11 +54,19 @@
   <h2 class="ja">ダイバージェンス — RSIの真の強み</h2>
   <h2 class="es">Divergencia — La Verdadera Fortaleza del RSI</h2>
   <h2 class="de">Divergenz — Die wahre Stärke des RSI</h2>
+  <h2 class="fr">Divergence — La Véritable Force du RSI</h2>
+  <h2 class="pt">Divergência — A Verdadeira Força do RSI</h2>
+  <h2 class="tr">Uyumsuzluk (Divergence) — RSI'nin Gerçek Gücü</h2>
+  <h2 class="vi">Phân kỳ — Sức mạnh Thực sự của RSI</h2>
   <p class="ko">가격은 신고점을 경신하는데 RSI는 이전 고점보다 낮다면(약세 다이버전스), 상승 모멘텀이 약해지고 있다는 신호입니다. 반대로 가격은 신저점을 경신하는데 RSI가 이전 저점보다 높다면(강세 다이버전스), 하락 모멘텀이 소진되고 있다는 신호입니다.</p>
   <p class="en">If price makes a new high but RSI makes a lower high (bearish divergence), it signals weakening upward momentum. If price makes a new low but RSI makes a higher low (bullish divergence), it signals downward momentum is running out.</p>
   <p class="ja">価格が新高値を更新しているのにRSIが前回の高値より低い場合(弱気ダイバージェンス)、上昇モメンタムが弱まっているシグナルです。逆に価格が新安値を更新しているのにRSIが前回の安値より高い場合(強気ダイバージェンス)、下降モメンタムが尽きつつあるシグナルです。</p>
   <p class="es">Si el precio marca un nuevo máximo pero el RSI marca un máximo más bajo (divergencia bajista), señala un debilitamiento del momentum alcista. Si el precio marca un nuevo mínimo pero el RSI marca un mínimo más alto (divergencia alcista), señala que el momentum bajista se está agotando.</p>
   <p class="de">Wenn der Preis ein neues Hoch erreicht, der RSI aber ein niedrigeres Hoch bildet (bärische Divergenz), signalisiert dies nachlassendes Aufwärtsmomentum. Wenn der Preis ein neues Tief erreicht, der RSI aber ein höheres Tief bildet (bullische Divergenz), signalisiert dies, dass das Abwärtsmomentum nachlässt.</p>
+  <p class="fr">Si le prix atteint un nouveau sommet mais que le RSI forme un sommet plus bas (divergence baissière), cela signale un affaiblissement de la dynamique haussière. Si le prix atteint un nouveau creux mais que le RSI forme un creux plus élevé (divergence haussière), cela signale que la dynamique baissière s'essouffle.</p>
+  <p class="pt">Se o preço atinge uma nova máxima, mas o RSI forma uma máxima mais baixa (divergência de baixa), isso sinaliza um enfraquecimento do momentum de alta. Se o preço atinge uma nova mínima, mas o RSI forma uma mínima mais alta (divergência de alta), isso sinaliza que o momentum de baixa está se esgotando.</p>
+  <p class="tr">Fiyat yeni bir zirve yaparken RSI daha düşük bir zirve yapıyorsa (düşüş yönlü uyumsuzluk), bu yukarı yönlü momentumun zayıfladığının işaretidir. Fiyat yeni bir dip yaparken RSI daha yüksek bir dip yapıyorsa (yükseliş yönlü uyumsuzluk), bu aşağı yönlü momentumun tükenmekte olduğunun işaretidir.</p>
+  <p class="vi">Nếu giá tạo đỉnh mới nhưng RSI tạo đỉnh thấp hơn (phân kỳ giảm), đó là tín hiệu cho thấy động lượng tăng đang suy yếu. Nếu giá tạo đáy mới nhưng RSI tạo đáy cao hơn (phân kỳ tăng), đó là tín hiệu cho thấy động lượng giảm đang cạn kiệt.</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -76,7 +84,7 @@
     <text x="450" y="230" fill="#f87171" font-size="10" font-weight="700">낮은 고점 = 모멘텀 약화</text>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Bearish Divergence — Price makes new high, RSI doesn't</text>
     <text x="20" y="45" fill="#71717a" font-size="10" font-family="sans-serif">Price</text>
@@ -114,6 +122,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en Garde Importantes</h2>
+  <h2 class="pt">Advertências Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu ý Quan trọng</h2>
   <ul class="ko">
     <li><strong>강세장에서는 과매수 상태가 오래 지속될 수 있음.</strong> RSI가 70을 넘었다고 바로 매도 신호로 보면 큰 상승분을 놓칠 수 있습니다.</li>
     <li><strong>타임프레임에 따라 신호가 다름.</strong> 일봉·주봉 RSI는 방향성이 다르게 나올 수 있어 함께 봐야 합니다.</li>

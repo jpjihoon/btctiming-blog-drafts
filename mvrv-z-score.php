@@ -6,6 +6,10 @@
 
   <p class="es">La pregunta más difícil en la inversión en Bitcoin siempre es la misma: <strong>"¿es este el suelo, o caerá más?"</strong> El MVRV Z-Score responde a esto con datos — capturando cada suelo y techo importante de Bitcoin en la última década con notable precisión.</p>
   <p class="de">Die schwierigste Frage beim Bitcoin-Investment ist immer dieselbe: <strong>"Ist das der Boden, oder fällt es noch weiter?"</strong> Der MVRV Z-Score beantwortet dies mit Daten — er hat jedes wichtige Bitcoin-Tief und -Hoch der letzten zehn Jahre mit bemerkenswerter Genauigkeit erfasst.</p>
+  <p class="fr">La question la plus difficile dans l'investissement en Bitcoin est toujours la même : <strong>"Est-ce le creux, ou va-t-il encore baisser ?"</strong> Le MVRV Z-Score répond à cette question avec des données — il a repéré avec une précision remarquable chaque creux et chaque sommet majeur du Bitcoin au cours de la dernière décennie.</p>
+  <p class="pt">A pergunta mais difícil no investimento em Bitcoin é sempre a mesma: <strong>"Este é o fundo, ou ainda vai cair mais?"</strong> O MVRV Z-Score responde a isso com dados — capturando com notável precisão cada fundo e topo importante do Bitcoin na última década.</p>
+  <p class="tr">Bitcoin yatırımındaki en zor soru her zaman aynıdır: <strong>"Bu dip mi, yoksa daha mı düşecek?"</strong> MVRV Z-Score bu soruyu verilerle yanıtlar — son on yılda Bitcoin'in her önemli dip ve tepe noktasını dikkat çekici bir doğrulukla yakalamıştır.</p>
+  <p class="vi">Câu hỏi khó nhất trong đầu tư Bitcoin luôn giống nhau: <strong>"Đây là đáy, hay giá sẽ còn giảm tiếp?"</strong> MVRV Z-Score trả lời câu hỏi này bằng dữ liệu — nắm bắt mọi đáy và đỉnh lớn của Bitcoin trong thập kỷ qua với độ chính xác đáng kinh ngạc.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> MVRV Z-Score가 0 이하이면 역사적 저평가 구간, 3.5 이상이면 과열 구간입니다. 2015년, 2018년, 2022년 비트코인 바닥에서 모두 0 이하를 기록했습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> MVRV Z-Score below 0 signals historical undervaluation; above 3.5 signals overheating. All three major Bitcoin bottoms — 2015, 2018, 2022 — recorded values below 0.</div>
@@ -13,6 +17,10 @@
 
   <div class="box es">💡 <strong>Resumen clave:</strong> Un MVRV Z-Score por debajo de 0 señala infravaloración histórica; por encima de 3.5 señala sobrecalentamiento. Los tres suelos principales de Bitcoin — 2015, 2018, 2022 — registraron valores por debajo de 0.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Ein MVRV Z-Score unter 0 signalisiert historische Unterbewertung; über 3,5 signalisiert Überhitzung. Alle drei großen Bitcoin-Tiefs — 2015, 2018, 2022 — verzeichneten Werte unter 0.</div>
+  <div class="box fr">💡 <strong>À retenir :</strong> Un MVRV Z-Score inférieur à 0 signale une sous-évaluation historique ; supérieur à 3,5, il signale une surchauffe. Les trois principaux creux du Bitcoin — 2015, 2018, 2022 — ont tous enregistré des valeurs inférieures à 0.</div>
+  <div class="box pt">💡 <strong>Ponto-chave:</strong> Um MVRV Z-Score abaixo de 0 sinaliza subvalorização histórica; acima de 3,5 sinaliza sobreaquecimento. Os três principais fundos do Bitcoin — 2015, 2018, 2022 — registraram valores abaixo de 0.</div>
+  <div class="box tr">💡 <strong>Özet:</strong> MVRV Z-Score'un 0'ın altında olması tarihsel olarak düşük değerlemeyi, 3,5'in üzerinde olması ise aşırı ısınmayı gösterir. Bitcoin'in üç büyük dip noktası — 2015, 2018, 2022 — hepsi 0'ın altında değer kaydetmiştir.</div>
+  <div class="box vi">💡 <strong>Tóm tắt:</strong> MVRV Z-Score dưới 0 báo hiệu tình trạng định giá thấp mang tính lịch sử; trên 3,5 báo hiệu quá nhiệt. Cả ba đáy lớn của Bitcoin — 2015, 2018, 2022 — đều ghi nhận giá trị dưới 0.</div>
 
   <h2 class="ko">구간별로 시각화하면</h2>
   <h2 class="en">Visualized by zone</h2>
@@ -51,7 +59,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">MVRV Z-Score Zone Gauge</text>
     <g font-family="sans-serif">
@@ -127,17 +135,29 @@
   <h3 class="ja">時価総額 (Market Value)</h3>
   <h3 class="es">Valor de Mercado (MV)</h3>
   <h3 class="de">Marktwert (MV)</h3>
+  <h3 class="fr">Valeur de Marché (MV)</h3>
+  <h3 class="pt">Valor de Mercado (MV)</h3>
+  <h3 class="tr">Piyasa Değeri (MV)</h3>
+  <h3 class="vi">Giá trị Thị trường (MV)</h3>
   <p class="ko">우리가 흔히 아는 시가총액입니다. 현재 비트코인 가격 × 유통 공급량으로 계산하며, 공포와 탐욕에 따라 크게 흔들립니다.</p>
   <p class="en">The familiar market cap: current price × circulating supply. It swings wildly with fear and greed.</p>
   <p class="ja">おなじみの時価総額です。現在のビットコイン価格 × 流通供給量で計算され、恐怖と強欲によって大きく揺れ動きます。</p>
   <p class="es">La conocida capitalización de mercado: precio actual × suministro circulante. Oscila bruscamente con el miedo y la codicia.</p>
   <p class="de">Die bekannte Marktkapitalisierung: aktueller Preis × zirkulierendes Angebot. Sie schwankt stark mit Angst und Gier.</p>
+  <p class="fr">La capitalisation boursière bien connue : prix actuel × offre en circulation. Elle fluctue fortement au gré de la peur et de l'avidité.</p>
+  <p class="pt">A conhecida capitalização de mercado: preço atual × oferta em circulação. Ela oscila fortemente com o medo e a ganância.</p>
+  <p class="tr">Bilindik piyasa değeri: güncel fiyat × dolaşımdaki arz. Korku ve açgözlülükle birlikte şiddetli dalgalanmalar gösterir.</p>
+  <p class="vi">Vốn hóa thị trường quen thuộc: giá hiện tại × nguồn cung lưu hành. Nó dao động mạnh theo tâm lý sợ hãi và tham lam.</p>
 
   <h3 class="ko">실현가치(Realized Value)</h3>
   <h3 class="en">Realized Value (RV)</h3>
   <h3 class="ja">実現時価総額 (Realized Value)</h3>
   <h3 class="es">Valor Realizado (RV)</h3>
   <h3 class="de">Realized Value (RV)</h3>
+  <h3 class="fr">Valeur Réalisée (RV)</h3>
+  <h3 class="pt">Valor Realizado (RV)</h3>
+  <h3 class="tr">Gerçekleşen Değer (RV)</h3>
+  <h3 class="vi">Giá trị Thực hiện (RV)</h3>
   <p class="ko">각 비트코인이 마지막으로 온체인에서 이동했을 때의 가격으로 평가한 총 가치입니다. 모든 BTC 보유자들의 평균 취득 원가에 가깝고, 시장가치보다 훨씬 안정적입니다.</p>
   <p class="en">Total value of all Bitcoin priced at the moment each coin last moved on-chain — essentially the aggregate cost basis of all holders. Far more stable than market value.</p>
   <p class="ja">各ビットコインが最後にオンチェーンで移動した時点の価格で評価した総価値です。全BTC保有者の平均取得原価に近く、時価総額よりもはるかに安定しています。</p>

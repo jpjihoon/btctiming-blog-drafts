@@ -6,18 +6,30 @@
 
   <p class="es">Cuando alguien mueve Bitcoin a un exchange, generalmente se está preparando para vender. Cuando lo retira a una billetera privada, suele señalar intención de tenencia a largo plazo (HODL). El <strong>Flujo Neto de Exchanges</strong> rastrea este movimiento diariamente.</p>
   <p class="de">Wenn jemand Bitcoin auf eine Börse überträgt, bereitet er sich in der Regel auf den Verkauf vor. Wenn er es in eine private Wallet abzieht, signalisiert dies meist die Absicht zum langfristigen Halten (HODLing). Der <strong>Exchange Netflow</strong> verfolgt diese Bewegung täglich.</p>
+  <p class="fr">Lorsque quelqu'un transfère du Bitcoin vers un exchange, il se prépare généralement à vendre. Lorsqu'il le retire vers un portefeuille privé, cela signale généralement une intention de détention à long terme (HODL). L'<strong>Exchange Netflow</strong> suit ce mouvement au quotidien.</p>
+  <p class="pt">Quando alguém transfere Bitcoin para uma exchange, geralmente está se preparando para vender. Quando o retira para uma carteira privada, isso normalmente sinaliza intenção de retenção a longo prazo (HODL). O <strong>Exchange Netflow</strong> acompanha esse movimento diariamente.</p>
+  <p class="tr">Biri Bitcoin'i bir borsaya taşıdığında, genellikle satmaya hazırlanıyordur. Özel bir cüzdana çıkardığında ise, genellikle uzun vadeli elde tutma (HODL) niyetine işaret eder. <strong>Exchange Netflow</strong> bu hareketi günlük olarak takip eder.</p>
+  <p class="vi">Khi ai đó chuyển Bitcoin lên một sàn giao dịch, họ thường đang chuẩn bị bán. Khi họ rút về ví cá nhân, điều đó thường báo hiệu ý định nắm giữ dài hạn (HODL). <strong>Exchange Netflow</strong> theo dõi chuyển động này hàng ngày.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 순유입(거래소 잔고 증가)이 지속되면 잠재적 매도 물량이 쌓이고 있다는 뜻이고, 순유출(거래소 잔고 감소)이 지속되면 투자자들이 코인을 빼내 장기 보유로 전환하고 있다는 뜻입니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Sustained net inflow (rising exchange balances) means potential sell pressure is building. Sustained net outflow (falling exchange balances) means investors are moving coins off to hold long-term.</div>
   <div class="box ja">💡 <strong>要点:</strong> 純流入(取引所残高増加)が続くと潜在的な売り圧力が蓄積していることを意味し、純流出(取引所残高減少)が続くと投資家がコインを引き出して長期保有に転じていることを意味します。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Un flujo neto de entrada sostenido (balances de exchange en aumento) significa que se está acumulando presión de venta potencial. Un flujo neto de salida sostenido (balances en descenso) significa que los inversores están retirando monedas para tenencia a largo plazo.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Anhaltender Netto-Zufluss (steigende Börsenbestände) bedeutet, dass sich potenzieller Verkaufsdruck aufbaut. Anhaltender Netto-Abfluss (sinkende Börsenbestände) bedeutet, dass Investoren Münzen zum langfristigen Halten abziehen.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Un flux entrant net soutenu (hausse des soldes sur les exchanges) signifie qu'une pression de vente potentielle s'accumule. Un flux sortant net soutenu (baisse des soldes) signifie que les investisseurs retirent leurs pièces pour les détenir à long terme.</div>
+  <div class="box pt">💡 <strong>Principal conclusão:</strong> Uma entrada líquida sustentada (aumento dos saldos nas exchanges) significa que uma pressão de venda potencial está se acumulando. Uma saída líquida sustentada (queda dos saldos) significa que os investidores estão retirando moedas para reter a longo prazo.</div>
+  <div class="box tr">💡 <strong>Ana çıkarım:</strong> Sürekli net giriş (borsa bakiyelerinin artması) potansiyel satış baskısının biriktiği anlamına gelir. Sürekli net çıkış (borsa bakiyelerinin düşmesi) ise yatırımcıların coinleri uzun vadeli tutmak için çektiği anlamına gelir.</div>
+  <div class="box vi">💡 <strong>Điểm chính:</strong> Dòng vào ròng kéo dài (số dư trên sàn tăng) có nghĩa là áp lực bán tiềm ẩn đang tích lũy. Dòng ra ròng kéo dài (số dư trên sàn giảm) có nghĩa là nhà đầu tư đang rút coin ra để nắm giữ dài hạn.</div>
 
   <h2 class="ko">어떻게 활용하나?</h2>
   <h2 class="en">How to Use It</h2>
   <h2 class="ja">どう活用するか?</h2>
   <h2 class="es">Cómo Usarlo</h2>
   <h2 class="de">Wie man es nutzt</h2>
+  <h2 class="fr">Comment l'utiliser</h2>
+  <h2 class="pt">Como Utilizá-lo</h2>
+  <h2 class="tr">Nasıl Kullanılır</h2>
+  <h2 class="vi">Cách Sử Dụng</h2>
   <div class="box ko"><strong>대량 순유출 + 가격 하락 동반:</strong> 패닉 매도가 아니라 오히려 저가 매수 후 개인 지갑 이동일 가능성 — 강세 신호로 해석될 수 있음</div>
   <div class="box en"><strong>Large net outflow + falling price:</strong> Rather than panic selling, this can mean dip-buying followed by moving coins to private wallets — often read as a bullish sign</div>
   <div class="box ja"><strong>大量純流出 + 価格下落を伴う:</strong> パニック売りではなく、むしろ押し目買い後の個人ウォレット移動である可能性 — 強気シグナルと解釈されることがある</div>

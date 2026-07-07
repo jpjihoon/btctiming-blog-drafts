@@ -7,11 +7,21 @@
   <p class="es">"Compra con miedo, vende con codicia" — el <strong>Índice de Miedo y Codicia</strong> convierte este viejo dicho de trading en un número. Combina volatilidad, volumen, sentimiento en redes sociales y encuestas en una sola puntuación de 0 (miedo extremo) a 100 (codicia extrema).</p>
   <p class="de">"Kaufe bei Angst, verkaufe bei Gier" — der <strong>Angst-&amp;-Gier-Index</strong> verwandelt dieses alte Trading-Sprichwort in eine Zahl. Er kombiniert Volatilität, Volumen, Social-Media-Stimmung und Umfragen zu einem einzigen Score von 0 (extreme Angst) bis 100 (extreme Gier).</p>
 
+  <p class="fr">« Achetez dans la peur, vendez dans l'avidité » — l'<strong>Indice de Peur et d'Avidité</strong> transforme ce vieil adage boursier en un chiffre. Il combine volatilité, volume, sentiment sur les réseaux sociaux et sondages en un score unique allant de 0 (peur extrême) à 100 (avidité extrême).</p>
+  <p class="pt">"Compre no medo, venda na ganância" — o <strong>Índice de Medo e Ganância</strong> transforma esse velho ditado do mercado em um número. Ele combina volatilidade, volume, sentimento nas redes sociais e pesquisas em uma única pontuação de 0 (medo extremo) a 100 (ganância extrema).</p>
+  <p class="tr">"Korkuda al, açgözlülükte sat" — <strong>Korku ve Açgözlülük Endeksi</strong> bu eski yatırım deyişini bir sayıya dönüştürür. Volatilite, işlem hacmi, sosyal medya duyarlılığı ve anketleri birleştirerek 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında tek bir puan oluşturur.</p>
+  <p class="vi">"Mua khi sợ hãi, bán khi tham lam" — <strong>Chỉ số Sợ hãi và Tham lam</strong> biến câu ngạn ngữ giao dịch cũ này thành một con số. Chỉ số này kết hợp biến động giá, khối lượng giao dịch, tâm lý mạng xã hội và các cuộc khảo sát thành một điểm số duy nhất từ 0 (sợ hãi cực độ) đến 100 (tham lam cực độ).</p>
+
   <div class="box ko">💡 <strong>핵심 요약:</strong> 지수가 20 이하면 극단적 공포, 80 이상이면 극단적 탐욕 구간입니다. 비트코인의 주요 저점은 대부분 극단적 공포 구간에서, 주요 고점은 극단적 탐욕 구간에서 형성됐습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Below 20 signals extreme fear; above 80 signals extreme greed. Nearly every major Bitcoin bottom formed during extreme fear, and every major top during extreme greed.</div>
   <div class="box ja">💡 <strong>要点:</strong> 指数が20以下なら極端な恐怖、80以上なら極端な強欲ゾーンです。ビットコインの主要な底値のほとんどは極端な恐怖の中で、主要な天井は極端な強欲の中で形成されました。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Por debajo de 20 señala miedo extremo; por encima de 80 señala codicia extrema. Casi todos los suelos importantes de Bitcoin se formaron durante miedo extremo, y todos los techos importantes durante codicia extrema.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Unter 20 signalisiert extreme Angst; über 80 signalisiert extreme Gier. Fast jedes große Bitcoin-Tief bildete sich während extremer Angst, und jedes große Hoch während extremer Gier.</div>
+
+  <div class="box fr">💡 <strong>Point clé :</strong> En dessous de 20, cela signale une peur extrême ; au-dessus de 80, une avidité extrême. Presque tous les principaux creux du Bitcoin se sont formés en période de peur extrême, et tous les principaux sommets en période d'avidité extrême.</div>
+  <div class="box pt">💡 <strong>Resumo:</strong> Abaixo de 20 sinaliza medo extremo; acima de 80 sinaliza ganância extrema. Quase todos os principais fundos do Bitcoin se formaram durante o medo extremo, e todos os principais topos durante a ganância extrema.</div>
+  <div class="box tr">💡 <strong>Özet:</strong> 20'nin altı aşırı korkuyu, 80'in üzeri aşırı açgözlülüğü işaret eder. Bitcoin'in neredeyse tüm önemli dip noktaları aşırı korku döneminde, tüm önemli zirveleri ise aşırı açgözlülük döneminde oluşmuştur.</div>
+  <div class="box vi">💡 <strong>Tóm tắt chính:</strong> Dưới 20 báo hiệu sợ hãi cực độ; trên 80 báo hiệu tham lam cực độ. Gần như mọi đáy lớn của Bitcoin đều hình thành trong giai đoạn sợ hãi cực độ, và mọi đỉnh lớn đều hình thành trong giai đoạn tham lam cực độ.</div>
 
   <h2 class="ko">게이지로 시각화하면</h2>
   <h2 class="en">Visualized as a gauge</h2>
