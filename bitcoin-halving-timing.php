@@ -6,29 +6,49 @@
 
   <p class="es">Todo inversor de Bitcoin lo ha escuchado: <strong>"Compra antes del halving."</strong> Pero los datos históricos cuentan otra historia — la verdadera zona óptima de compra es <strong>12-24 meses antes del halving</strong>, no justo antes.</p>
   <p class="de">Jeder Bitcoin-Investor hat es gehört: <strong>"Kaufe vor dem Halving."</strong> Aber historische Daten erzählen eine andere Geschichte — die wahre optimale Kaufzone liegt <strong>12-24 Monate vor dem Halving</strong>, nicht unmittelbar davor.</p>
+  <p class="fr">Tout investisseur en Bitcoin l'a déjà entendu : <strong>« Achetez avant le halving. »</strong> Mais les données historiques racontent une autre histoire — la véritable zone d'achat optimale se situe <strong>12 à 24 mois avant le halving</strong>, et non juste avant.</p>
+  <p class="pt">Todo investidor de Bitcoin já ouviu isso: <strong>"Compre antes do halving."</strong> Mas os dados históricos contam uma história diferente — a verdadeira zona ótima de compra é <strong>de 12 a 24 meses antes do halving</strong>, não pouco antes dele.</p>
+  <p class="tr">Her Bitcoin yatırımcısı bunu duymuştur: <strong>"Halving'den önce al."</strong> Ancak tarihsel veriler farklı bir hikâye anlatıyor — gerçek optimal alım bölgesi, halving'den hemen önce değil, <strong>halving'den 12-24 ay önce</strong>dir.</p>
+  <p class="vi">Mọi nhà đầu tư Bitcoin đều đã từng nghe câu này: <strong>"Mua trước halving."</strong> Nhưng dữ liệu lịch sử lại kể một câu chuyện khác — vùng mua tối ưu thực sự là <strong>12–24 tháng trước halving</strong>, chứ không phải ngay trước đó.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 역사적으로 비트코인 저점은 다음 반감기 12~24개월 전에 형성됐습니다. 2028년 4월 반감기 기준 현재(2026년 7월)는 약 22개월 전 — 역사적 매수 구간의 중심입니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Historically, Bitcoin bottoms form 12–24 months before the next halving. With the next halving in April 2028, we're currently (July 2026) ~22 months away — right in the historical buy zone.</div>
   <div class="box ja">💡 <strong>要点:</strong> 歴史的に、ビットコインの底値は次の半減期の12〜24ヶ月前に形成されてきました。2028年4月の半減期を基準にすると、現在(2026年7月)は約22ヶ月前 — 歴史的な買いゾーンの中心にいます。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Históricamente, los suelos de Bitcoin se forman 12-24 meses antes del próximo halving. Con el próximo halving en abril de 2028, estamos actualmente (julio de 2026) a ~22 meses — justo en la zona histórica de compra.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Historisch bilden sich Bitcoin-Tiefs 12-24 Monate vor dem nächsten Halving. Mit dem nächsten Halving im April 2028 sind wir aktuell (Juli 2026) ~22 Monate entfernt — genau in der historischen Kaufzone.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Historiquement, les points bas de Bitcoin se forment 12 à 24 mois avant le prochain halving. Le prochain halving étant prévu en avril 2028, nous sommes actuellement (juillet 2026) à environ 22 mois — en plein dans la zone d'achat historique.</div>
+  <div class="box pt">💡 <strong>Principal conclusão:</strong> Historicamente, os fundos do Bitcoin se formam de 12 a 24 meses antes do próximo halving. Com o próximo halving em abril de 2028, estamos atualmente (julho de 2026) a cerca de 22 meses de distância — exatamente na zona histórica de compra.</div>
+  <div class="box tr">💡 <strong>Ana çıkarım:</strong> Tarihsel olarak, Bitcoin dipleri bir sonraki halving'den 12-24 ay önce oluşur. Bir sonraki halving Nisan 2028'de gerçekleşeceğinden, şu anda (Temmuz 2026) yaklaşık 22 ay uzaktayız — tam olarak tarihsel alım bölgesindeyiz.</div>
+  <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Về mặt lịch sử, các đáy của Bitcoin hình thành 12–24 tháng trước lần halving tiếp theo. Với lần halving tiếp theo vào tháng 4 năm 2028, hiện tại (tháng 7 năm 2026) chúng ta còn cách khoảng 22 tháng — đúng vào vùng mua lịch sử.</div>
 
   <h2 class="ko">반감기란 무엇인가?</h2>
   <h2 class="en">What Is a Bitcoin Halving?</h2>
   <h2 class="ja">半減期とは何か?</h2>
   <h2 class="es">¿Qué es un Halving de Bitcoin?</h2>
   <h2 class="de">Was ist ein Bitcoin-Halving?</h2>
+  <h2 class="fr">Qu'est-ce qu'un halving de Bitcoin ?</h2>
+  <h2 class="pt">O que é um Halving do Bitcoin?</h2>
+  <h2 class="tr">Bitcoin Halving Nedir?</h2>
+  <h2 class="vi">Halving Bitcoin Là Gì?</h2>
   <p class="ko">비트코인은 약 4년(21만 블록)마다 채굴 보상이 절반으로 줄어드는 반감기(Halving)가 설계되어 있습니다. 공급 감소가 가격에 큰 영향을 미쳐왔으며, 지금까지 4번의 반감기가 있었습니다.</p>
   <p class="en">Every ~4 years (210,000 blocks), Bitcoin's mining reward is cut in half. This supply shock has historically had a major impact on price. There have been 4 halvings so far.</p>
   <p class="ja">ビットコインは約4年(21万ブロック)ごとに、マイニング報酬が半分になる半減期(Halving)が設計に組み込まれています。この供給ショックは価格に大きな影響を与えてきており、これまでに4回の半減期がありました。</p>
   <p class="es">Cada ~4 años (210,000 bloques), la recompensa minera de Bitcoin se reduce a la mitad. Este shock de suministro ha tenido históricamente un gran impacto en el precio. Ha habido 4 halvings hasta ahora.</p>
   <p class="de">Alle ~4 Jahre (210.000 Blöcke) wird Bitcoins Mining-Belohnung halbiert. Dieser Angebotsschock hatte historisch großen Einfluss auf den Preis. Bisher gab es 4 Halvings.</p>
+  <p class="fr">Tous les ~4 ans (210 000 blocs), la récompense de minage de Bitcoin est réduite de moitié. Ce choc d'offre a historiquement eu un impact majeur sur le prix. Il y a eu 4 halvings jusqu'à présent.</p>
+  <p class="pt">A cada ~4 anos (210.000 blocos), a recompensa de mineração do Bitcoin é reduzida pela metade. Esse choque de oferta historicamente teve um grande impacto no preço. Já houve 4 halvings até agora.</p>
+  <p class="tr">Yaklaşık her 4 yılda bir (210.000 blok), Bitcoin'in madencilik ödülü yarıya iner. Bu arz şoku tarihsel olarak fiyat üzerinde büyük bir etkiye sahip olmuştur. Şimdiye kadar 4 halving yaşandı.</p>
+  <p class="vi">Cứ khoảng ~4 năm (210.000 khối) một lần, phần thưởng khai thác Bitcoin lại giảm một nửa. Cú sốc nguồn cung này về mặt lịch sử đã có tác động lớn đến giá. Cho đến nay đã có 4 lần halving.</p>
 
   <h2 class="ko">타임라인으로 보면</h2>
   <h2 class="en">On a timeline</h2>
   <h2 class="ja">タイムラインで見ると</h2>
   <h2 class="es">En una Línea de Tiempo</h2>
   <h2 class="de">Auf einer Zeitlinie</h2>
+  <h2 class="fr">Sur une chronologie</h2>
+  <h2 class="pt">Em uma linha do tempo</h2>
+  <h2 class="tr">Zaman çizelgesinde</h2>
+  <h2 class="vi">Trên dòng thời gian</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -57,7 +77,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Bottom-to-Halving Interval Pattern (4 cycles)</text>
     <line x1="60" y1="170" x2="660" y2="170" stroke="#3f3f46"/>
@@ -117,29 +137,33 @@
   <h2 class="ja">歴史的な半減期別の底値分析</h2>
   <h2 class="es">Análisis de Suelos Históricos por Ciclo</h2>
   <h2 class="de">Historische Tiefanalyse nach Zyklus</h2>
+  <h2 class="fr">Analyse historique des points bas par cycle</h2>
+  <h2 class="pt">Análise Histórica de Fundos por Ciclo</h2>
+  <h2 class="tr">Döngüye Göre Tarihsel Dip Analizi</h2>
+  <h2 class="vi">Phân Tích Đáy Lịch Sử Theo Chu Kỳ</h2>
 
   <div class="cc">
-    <h3>🔸 <span class="ko">2차 반감기 사이클 (2016년 7월)</span><span class="en">2nd Halving Cycle (July 2016)</span><span class="ja">第2次半減期サイクル (2016年7月)</span><span class="es">2º Ciclo de Halving (Julio 2016)</span><span class="de">2. Halving-Zyklus (Juli 2016)</span></h3>
+    <h3>🔸 <span class="ko">2차 반감기 사이클 (2016년 7월)</span><span class="en">2nd Halving Cycle (July 2016)</span><span class="ja">第2次半減期サイクル (2016年7月)</span><span class="es">2º Ciclo de Halving (Julio 2016)</span><span class="de">2. Halving-Zyklus (Juli 2016)</span><span class="fr">2e cycle de halving (juillet 2016)</span><span class="pt">2º Ciclo de Halving (julho de 2016)</span><span class="tr">2. Halving Döngüsü (Temmuz 2016)</span><span class="vi">Chu Kỳ Halving Thứ 2 (Tháng 7/2016)</span></h3>
     <div class="stats">
-      <div class="si"><div class="sl"><span class="ko">반감기 전 저점</span><span class="en">Pre-Halving Bottom</span><span class="ja">半減期前の底値</span><span class="es">Suelo Pre-Halving</span><span class="de">Tief vor dem Halving</span></div><div class="sv">$150</div><div class="ss"><span class="ko">18개월 전</span><span class="en">18mo before</span><span class="ja">18ヶ月前</span><span class="es">18 meses antes</span><span class="de">18 Monate vorher</span></div></div>
-      <div class="si"><div class="sl"><span class="ko">반감기 후 고점</span><span class="en">Post-Halving Peak</span><span class="ja">半減期後の天井</span><span class="es">Techo Post-Halving</span><span class="de">Hoch nach dem Halving</span></div><div class="sv">$19,800</div><div class="ss">2017.12</div></div>
-      <div class="si"><div class="sl"><span class="ko">상승률</span><span class="en">Return</span><span class="ja">上昇率</span><span class="es">Retorno</span><span class="de">Rendite</span></div><div class="sv">+130x</div></div>
+      <div class="si"><div class="sl"><span class="ko">반감기 전 저점</span><span class="en">Pre-Halving Bottom</span><span class="ja">半減期前の底値</span><span class="es">Suelo Pre-Halving</span><span class="de">Tief vor dem Halving</span><span class="fr">Point bas avant le halving</span><span class="pt">Fundo Pré-Halving</span><span class="tr">Halving Öncesi Dip</span><span class="vi">Đáy Trước Halving</span></div><div class="sv">$150</div><div class="ss"><span class="ko">18개월 전</span><span class="en">18mo before</span><span class="ja">18ヶ月前</span><span class="es">18 meses antes</span><span class="de">18 Monate vorher</span><span class="fr">18 mois avant</span><span class="pt">18 meses antes</span><span class="tr">18 ay önce</span><span class="vi">18 tháng trước</span></div></div>
+      <div class="si"><div class="sl"><span class="ko">반감기 후 고점</span><span class="en">Post-Halving Peak</span><span class="ja">半減期後の天井</span><span class="es">Techo Post-Halving</span><span class="de">Hoch nach dem Halving</span><span class="fr">Sommet après le halving</span><span class="pt">Topo Pós-Halving</span><span class="tr">Halving Sonrası Zirve</span><span class="vi">Đỉnh Sau Halving</span></div><div class="sv">$19,800</div><div class="ss">2017.12</div></div>
+      <div class="si"><div class="sl"><span class="ko">상승률</span><span class="en">Return</span><span class="ja">上昇率</span><span class="es">Retorno</span><span class="de">Rendite</span><span class="fr">Rendement</span><span class="pt">Retorno</span><span class="tr">Getiri</span><span class="vi">Lợi nhuận</span></div><div class="sv">+130x</div></div>
     </div>
   </div>
   <div class="cc">
-    <h3>🔸 <span class="ko">3차 반감기 사이클 (2020년 5월)</span><span class="en">3rd Halving Cycle (May 2020)</span><span class="ja">第3次半減期サイクル (2020年5月)</span><span class="es">3er Ciclo de Halving (Mayo 2020)</span><span class="de">3. Halving-Zyklus (Mai 2020)</span></h3>
+    <h3>🔸 <span class="ko">3차 반감기 사이클 (2020년 5월)</span><span class="en">3rd Halving Cycle (May 2020)</span><span class="ja">第3次半減期サイクル (2020年5月)</span><span class="es">3er Ciclo de Halving (Mayo 2020)</span><span class="de">3. Halving-Zyklus (Mai 2020)</span><span class="fr">3e cycle de halving (mai 2020)</span><span class="pt">3º Ciclo de Halving (maio de 2020)</span><span class="tr">3. Halving Döngüsü (Mayıs 2020)</span><span class="vi">Chu Kỳ Halving Thứ 3 (Tháng 5/2020)</span></h3>
     <div class="stats">
-      <div class="si"><div class="sl"><span class="ko">반감기 전 저점</span><span class="en">Pre-Halving Bottom</span><span class="ja">半減期前の底値</span><span class="es">Suelo Pre-Halving</span><span class="de">Tief vor dem Halving</span></div><div class="sv">$3,200</div><div class="ss"><span class="ko">17개월 전</span><span class="en">17mo before</span><span class="ja">17ヶ月前</span><span class="es">17 meses antes</span><span class="de">17 Monate vorher</span></div></div>
-      <div class="si"><div class="sl"><span class="ko">반감기 후 고점</span><span class="en">Post-Halving Peak</span><span class="ja">半減期後の天井</span><span class="es">Techo Post-Halving</span><span class="de">Hoch nach dem Halving</span></div><div class="sv">$69,000</div><div class="ss">2021.11</div></div>
-      <div class="si"><div class="sl"><span class="ko">상승률</span><span class="en">Return</span><span class="ja">上昇率</span><span class="es">Retorno</span><span class="de">Rendite</span></div><div class="sv">+21x</div></div>
+      <div class="si"><div class="sl"><span class="ko">반감기 전 저점</span><span class="en">Pre-Halving Bottom</span><span class="ja">半減期前の底値</span><span class="es">Suelo Pre-Halving</span><span class="de">Tief vor dem Halving</span><span class="fr">Point bas avant le halving</span><span class="pt">Fundo Pré-Halving</span><span class="tr">Halving Öncesi Dip</span><span class="vi">Đáy Trước Halving</span></div><div class="sv">$3,200</div><div class="ss"><span class="ko">17개월 전</span><span class="en">17mo before</span><span class="ja">17ヶ月前</span><span class="es">17 meses antes</span><span class="de">17 Monate vorher</span><span class="fr">17 mois avant</span><span class="pt">17 meses antes</span><span class="tr">17 ay önce</span><span class="vi">17 tháng trước</span></div></div>
+      <div class="si"><div class="sl"><span class="ko">반감기 후 고점</span><span class="en">Post-Halving Peak</span><span class="ja">半減期後の天井</span><span class="es">Techo Post-Halving</span><span class="de">Hoch nach dem Halving</span><span class="fr">Sommet après le halving</span><span class="pt">Topo Pós-Halving</span><span class="tr">Halving Sonrası Zirve</span><span class="vi">Đỉnh Sau Halving</span></div><div class="sv">$69,000</div><div class="ss">2021.11</div></div>
+      <div class="si"><div class="sl"><span class="ko">상승률</span><span class="en">Return</span><span class="ja">上昇率</span><span class="es">Retorno</span><span class="de">Rendite</span><span class="fr">Rendement</span><span class="pt">Retorno</span><span class="tr">Getiri</span><span class="vi">Lợi nhuận</span></div><div class="sv">+21x</div></div>
     </div>
   </div>
   <div class="cc">
-    <h3>🔸 <span class="ko">4차 반감기 사이클 (2024년 4월)</span><span class="en">4th Halving Cycle (April 2024)</span><span class="ja">第4次半減期サイクル (2024年4月)</span><span class="es">4º Ciclo de Halving (Abril 2024)</span><span class="de">4. Halving-Zyklus (April 2024)</span></h3>
+    <h3>🔸 <span class="ko">4차 반감기 사이클 (2024년 4월)</span><span class="en">4th Halving Cycle (April 2024)</span><span class="ja">第4次半減期サイクル (2024年4月)</span><span class="es">4º Ciclo de Halving (Abril 2024)</span><span class="de">4. Halving-Zyklus (April 2024)</span><span class="fr">4e cycle de halving (avril 2024)</span><span class="pt">4º Ciclo de Halving (abril de 2024)</span><span class="tr">4. Halving Döngüsü (Nisan 2024)</span><span class="vi">Chu Kỳ Halving Thứ 4 (Tháng 4/2024)</span></h3>
     <div class="stats">
-      <div class="si"><div class="sl"><span class="ko">반감기 전 저점</span><span class="en">Pre-Halving Bottom</span><span class="ja">半減期前の底値</span><span class="es">Suelo Pre-Halving</span><span class="de">Tief vor dem Halving</span></div><div class="sv">$15,500</div><div class="ss"><span class="ko">17개월 전</span><span class="en">17mo before</span><span class="ja">17ヶ月前</span><span class="es">17 meses antes</span><span class="de">17 Monate vorher</span></div></div>
-      <div class="si"><div class="sl"><span class="ko">반감기 후 고점</span><span class="en">Post-Halving Peak</span><span class="ja">半減期後の天井</span><span class="es">Techo Post-Halving</span><span class="de">Hoch nach dem Halving</span></div><div class="sv">$126,080</div><div class="ss">2025</div></div>
-      <div class="si"><div class="sl"><span class="ko">상승률</span><span class="en">Return</span><span class="ja">上昇率</span><span class="es">Retorno</span><span class="de">Rendite</span></div><div class="sv">+8x</div></div>
+      <div class="si"><div class="sl"><span class="ko">반감기 전 저점</span><span class="en">Pre-Halving Bottom</span><span class="ja">半減期前の底値</span><span class="es">Suelo Pre-Halving</span><span class="de">Tief vor dem Halving</span><span class="fr">Point bas avant le halving</span><span class="pt">Fundo Pré-Halving</span><span class="tr">Halving Öncesi Dip</span><span class="vi">Đáy Trước Halving</span></div><div class="sv">$15,500</div><div class="ss"><span class="ko">17개월 전</span><span class="en">17mo before</span><span class="ja">17ヶ月前</span><span class="es">17 meses antes</span><span class="de">17 Monate vorher</span><span class="fr">17 mois avant</span><span class="pt">17 meses antes</span><span class="tr">17 ay önce</span><span class="vi">17 tháng trước</span></div></div>
+      <div class="si"><div class="sl"><span class="ko">반감기 후 고점</span><span class="en">Post-Halving Peak</span><span class="ja">半減期後の天井</span><span class="es">Techo Post-Halving</span><span class="de">Hoch nach dem Halving</span><span class="fr">Sommet après le halving</span><span class="pt">Topo Pós-Halving</span><span class="tr">Halving Sonrası Zirve</span><span class="vi">Đỉnh Sau Halving</span></div><div class="sv">$126,080</div><div class="ss">2025</div></div>
+      <div class="si"><div class="sl"><span class="ko">상승률</span><span class="en">Return</span><span class="ja">上昇率</span><span class="es">Retorno</span><span class="de">Rendite</span><span class="fr">Rendement</span><span class="pt">Retorno</span><span class="tr">Getiri</span><span class="vi">Lợi nhuận</span></div><div class="sv">+8x</div></div>
     </div>
   </div>
 
@@ -148,11 +172,15 @@
   <h2 class="ja">パターン: 底値は常に半減期の12〜24ヶ月前</h2>
   <h2 class="es">El Patrón: Los Suelos Siempre se Forman 12-24 Meses Antes del Halving</h2>
   <h2 class="de">Das Muster: Tiefs bilden sich immer 12-24 Monate vor dem Halving</h2>
+  <h2 class="fr">Le schéma : les points bas se forment toujours 12 à 24 mois avant le halving</h2>
+  <h2 class="pt">O Padrão: os Fundos Sempre se Formam de 12 a 24 Meses Antes do Halving</h2>
+  <h2 class="tr">Kalıp: Dipler Her Zaman Halving'den 12-24 Ay Önce Oluşur</h2>
+  <h2 class="vi">Quy Luật: Đáy Luôn Hình Thành 12–24 Tháng Trước Halving</h2>
   <div class="tl">
-    <div class="tli"><div class="tll">2015.01</div><div class="tlt ko">다음 반감기(2016.07)까지 18개월. $150.</div><div class="tlt en">18 months to next halving (Jul 2016). $150.</div><div class="tlt ja">次の半減期(2016.07)まで18ヶ月。$150。</div><div class="tlt es">18 meses hasta el próximo halving (jul 2016). $150.</div><div class="tlt de">18 Monate bis zum nächsten Halving (Jul 2016). $150.</div></div>
-    <div class="tli"><div class="tll">2018.12</div><div class="tlt ko">다음 반감기(2020.05)까지 17개월. $3,200.</div><div class="tlt en">17 months to next halving (May 2020). $3,200.</div><div class="tlt ja">次の半減期(2020.05)まで17ヶ月。$3,200。</div><div class="tlt es">17 meses hasta el próximo halving (may 2020). $3,200.</div><div class="tlt de">17 Monate bis zum nächsten Halving (Mai 2020). $3.200.</div></div>
-    <div class="tli"><div class="tll">2022.11</div><div class="tlt ko">다음 반감기(2024.04)까지 17개월. $15,500.</div><div class="tlt en">17 months to next halving (Apr 2024). $15,500.</div><div class="tlt ja">次の半減期(2024.04)まで17ヶ月。$15,500。</div><div class="tlt es">17 meses hasta el próximo halving (abr 2024). $15,500.</div><div class="tlt de">17 Monate bis zum nächsten Halving (Apr 2024). $15.500.</div></div>
-    <div class="tli"><div class="tll" style="color:#4ade80">2026.07 — <span class="ko">현재</span><span class="en">Now</span><span class="ja">現在</span><span class="es">Ahora</span><span class="de">Jetzt</span></div><div class="tlt ko">다음 반감기(2028.04)까지 약 22개월. 역사적 매수 구간 안에 있습니다.</div><div class="tlt en">~22 months to next halving (Apr 2028). Inside the historical buy window.</div><div class="tlt ja">次の半減期(2028.04)まで約22ヶ月。歴史的な買いゾーンの中にいます。</div><div class="tlt es">~22 meses hasta el próximo halving (abr 2028). Dentro de la ventana histórica de compra.</div><div class="tlt de">~22 Monate bis zum nächsten Halving (Apr 2028). Innerhalb des historischen Kauffensters.</div></div>
+    <div class="tli"><div class="tll">2015.01</div><div class="tlt ko">다음 반감기(2016.07)까지 18개월. $150.</div><div class="tlt en">18 months to next halving (Jul 2016). $150.</div><div class="tlt ja">次の半減期(2016.07)まで18ヶ月。$150。</div><div class="tlt es">18 meses hasta el próximo halving (jul 2016). $150.</div><div class="tlt de">18 Monate bis zum nächsten Halving (Jul 2016). $150.</div><div class="tlt fr">18 mois avant le prochain halving (juil. 2016). $150.</div><div class="tlt pt">18 meses até o próximo halving (jul. 2016). $150.</div><div class="tlt tr">Bir sonraki halving'e (Tem 2016) 18 ay. $150.</div><div class="tlt vi">Còn 18 tháng đến lần halving tiếp theo (07/2016). $150.</div></div>
+    <div class="tli"><div class="tll">2018.12</div><div class="tlt ko">다음 반감기(2020.05)까지 17개월. $3,200.</div><div class="tlt en">17 months to next halving (May 2020). $3,200.</div><div class="tlt ja">次の半減期(2020.05)まで17ヶ月。$3,200。</div><div class="tlt es">17 meses hasta el próximo halving (may 2020). $3,200.</div><div class="tlt de">17 Monate bis zum nächsten Halving (Mai 2020). $3.200.</div><div class="tlt fr">17 mois avant le prochain halving (mai 2020). $3,200.</div><div class="tlt pt">17 meses até o próximo halving (maio de 2020). $3,200.</div><div class="tlt tr">Bir sonraki halving'e (May 2020) 17 ay. $3,200.</div><div class="tlt vi">Còn 17 tháng đến lần halving tiếp theo (05/2020). $3,200.</div></div>
+    <div class="tli"><div class="tll">2022.11</div><div class="tlt ko">다음 반감기(2024.04)까지 17개월. $15,500.</div><div class="tlt en">17 months to next halving (Apr 2024). $15,500.</div><div class="tlt ja">次の半減期(2024.04)まで17ヶ月。$15,500。</div><div class="tlt es">17 meses hasta el próximo halving (abr 2024). $15,500.</div><div class="tlt de">17 Monate bis zum nächsten Halving (Apr 2024). $15.500.</div><div class="tlt fr">17 mois avant le prochain halving (avr. 2024). $15,500.</div><div class="tlt pt">17 meses até o próximo halving (abr. de 2024). $15,500.</div><div class="tlt tr">Bir sonraki halving'e (Nis 2024) 17 ay. $15,500.</div><div class="tlt vi">Còn 17 tháng đến lần halving tiếp theo (04/2024). $15,500.</div></div>
+    <div class="tli"><div class="tll" style="color:#4ade80">2026.07 — <span class="ko">현재</span><span class="en">Now</span><span class="ja">現在</span><span class="es">Ahora</span><span class="de">Jetzt</span><span class="fr">Maintenant</span><span class="pt">Agora</span><span class="tr">Şimdi</span><span class="vi">Hiện tại</span></div><div class="tlt ko">다음 반감기(2028.04)까지 약 22개월. 역사적 매수 구간 안에 있습니다.</div><div class="tlt en">~22 months to next halving (Apr 2028). Inside the historical buy window.</div><div class="tlt ja">次の半減期(2028.04)まで約22ヶ月。歴史的な買いゾーンの中にいます。</div><div class="tlt es">~22 meses hasta el próximo halving (abr 2028). Dentro de la ventana histórica de compra.</div><div class="tlt de">~22 Monate bis zum nächsten Halving (Apr 2028). Innerhalb des historischen Kauffensters.</div><div class="tlt fr">~22 mois avant le prochain halving (avr. 2028). Dans la fenêtre d'achat historique.</div><div class="tlt pt">~22 meses até o próximo halving (abr. de 2028). Dentro da janela histórica de compra.</div><div class="tlt tr">Bir sonraki halving'e (Nis 2028) ~22 ay. Tarihsel alım penceresinin içinde.</div><div class="tlt vi">Còn ~22 tháng đến lần halving tiếp theo (04/2028). Đang nằm trong vùng mua lịch sử.</div></div>
   </div>
 
   <h2 class="ko">반감기 타이밍만 믿으면 안 되는 이유</h2>
@@ -160,6 +188,10 @@
   <h2 class="ja">半減期タイミングだけを信じてはいけない理由</h2>
   <h2 class="es">Por Qué No Puede Confiar Solo en el Timing del Halving</h2>
   <h2 class="de">Warum Sie sich nicht nur auf das Halving-Timing verlassen können</h2>
+  <h2 class="fr">Pourquoi il ne faut pas se fier uniquement au timing du halving</h2>
+  <h2 class="pt">Por Que Você Não Pode Confiar Apenas no Timing do Halving</h2>
+  <h2 class="tr">Neden Sadece Halving Zamanlamasına Güvenemezsiniz</h2>
+  <h2 class="vi">Vì Sao Không Thể Chỉ Dựa Vào Thời Điểm Halving</h2>
   <ul class="ko">
     <li><strong>패턴 반복 보장 없음.</strong> 사이클이 길어지거나 고점이 낮아지는 추세가 있습니다.</li>
     <li><strong>매크로 환경의 영향.</strong> 2022년에는 금리 인상으로 예상보다 더 하락했습니다.</li>
@@ -185,17 +217,45 @@
     <li><strong>Makroumfeld ist wichtig.</strong> 2022 drückten Zinserhöhungen Bitcoin tiefer, als das Zyklusmodell nahelegte.</li>
     <li><strong>Einstiegs-Timing ist weiterhin wichtig.</strong> Der Kauf an einem lokalen Hoch vor dem Halving kann bedeuten, lange Verluste zu halten.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Aucune garantie que le schéma se répète.</strong> Les cycles peuvent s'allonger et les rendements maximaux diminuer avec le temps.</li>
+    <li><strong>L'environnement macroéconomique compte.</strong> En 2022, les hausses de taux ont fait chuter Bitcoin plus bas que ce que le modèle de cycle suggérait.</li>
+    <li><strong>Le timing d'entrée reste important.</strong> Acheter à un sommet local avant le halving peut signifier subir des pertes pendant longtemps.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Nenhuma garantia de que o padrão se repita.</strong> Os ciclos podem se alongar e os retornos máximos diminuir ao longo do tempo.</li>
+    <li><strong>O ambiente macroeconômico importa.</strong> Em 2022, as altas de juros levaram o Bitcoin a cair mais do que o modelo de ciclo sugeria.</li>
+    <li><strong>O timing de entrada ainda importa.</strong> Comprar em um topo local antes do halving pode significar manter perdas por muito tempo.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Kalıbın tekrarlanacağının garantisi yok.</strong> Döngüler uzayabilir ve zirve getirileri zamanla azalabilir.</li>
+    <li><strong>Makro ortam önemlidir.</strong> 2022'de faiz artışları Bitcoin'i döngü modelinin öngördüğünden daha da aşağı çekti.</li>
+    <li><strong>Giriş zamanlaması hâlâ önemlidir.</strong> Halving öncesinde yerel bir zirvede alım yapmak, uzun süre zarar taşımak anlamına gelebilir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Không có gì đảm bảo quy luật sẽ lặp lại.</strong> Các chu kỳ có thể kéo dài hơn và lợi nhuận đỉnh có thể giảm dần theo thời gian.</li>
+    <li><strong>Môi trường vĩ mô có ảnh hưởng.</strong> Năm 2022, việc tăng lãi suất đã khiến Bitcoin giảm sâu hơn so với dự đoán của mô hình chu kỳ.</li>
+    <li><strong>Thời điểm vào lệnh vẫn quan trọng.</strong> Mua ở đỉnh cục bộ trước halving có thể đồng nghĩa với việc chịu lỗ trong thời gian dài.</li>
+  </ul>
 
   <h2 class="ko">반감기 + 온체인 지표를 함께 보는 것이 정답</h2>
   <h2 class="en">The Right Approach: Halving + On-Chain Indicators Together</h2>
   <h2 class="ja">半減期 + オンチェーン指標を併用するのが正解</h2>
   <h2 class="es">El Enfoque Correcto: Halving + Indicadores On-Chain Juntos</h2>
   <h2 class="de">Der richtige Ansatz: Halving + On-Chain-Indikatoren zusammen</h2>
+  <h2 class="fr">La bonne approche : combiner halving et indicateurs on-chain</h2>
+  <h2 class="pt">A Abordagem Correta: Halving + Indicadores On-Chain Juntos</h2>
+  <h2 class="tr">Doğru Yaklaşım: Halving + Zincir Üstü Göstergeler Birlikte</h2>
+  <h2 class="vi">Cách Tiếp Cận Đúng: Kết Hợp Halving Với Các Chỉ Số On-Chain</h2>
   <p class="ko">반감기 사이클로 큰 방향을 잡고, 온체인 지표로 세밀한 진입 타이밍을 잡는 것이 가장 효과적입니다.</p>
   <p class="en">Use the halving cycle for macro direction, and on-chain indicators for precise entry timing.</p>
   <p class="ja">半減期サイクルで大きな方向性を掴み、オンチェーン指標で精密なエントリータイミングを計るのが最も効果的です。</p>
   <p class="es">Use el ciclo de halving para la dirección macro, y los indicadores on-chain para un timing de entrada preciso.</p>
   <p class="de">Nutzen Sie den Halving-Zyklus für die Makrorichtung und On-Chain-Indikatoren für präzises Einstiegs-Timing.</p>
+  <p class="fr">Utilisez le cycle de halving pour la direction macro, et les indicateurs on-chain pour un timing d'entrée précis.</p>
+  <p class="pt">Use o ciclo de halving para a direção macro, e os indicadores on-chain para um timing de entrada preciso.</p>
+  <p class="tr">Makro yön için halving döngüsünü, hassas giriş zamanlaması için ise zincir üstü göstergeleri kullanın.</p>
+  <p class="vi">Hãy dùng chu kỳ halving để xác định hướng đi vĩ mô, và các chỉ số on-chain để xác định thời điểm vào lệnh chính xác.</p>
   <ul class="ko">
     <li><strong>반감기 사이클:</strong> 지금이 역사적 매수 구간인가? (현재: 예)</li>
     <li><strong>MVRV Z-Score:</strong> 현재 가격이 저평가인가?</li>
@@ -226,5 +286,30 @@
     <li><strong>Hash Ribbon:</strong> Ist die Miner-Kapitulation beendet?</li>
     <li><strong>Angst-&amp;-Gier-Index:</strong> Ist die Marktstimmung bei extremer Angst?</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Cycle de halving :</strong> Sommes-nous dans la fenêtre d'achat historique ? (Actuellement : Oui)</li>
+    <li><strong>MVRV Z-Score :</strong> Le prix est-il historiquement sous-évalué ?</li>
+    <li><strong>Hash Ribbon :</strong> La capitulation des mineurs est-elle terminée ?</li>
+    <li><strong>Indice de peur et de cupidité :</strong> Le sentiment de marché est-il en peur extrême ?</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Ciclo de halving:</strong> Estamos na janela histórica de compra? (Atualmente: Sim)</li>
+    <li><strong>MVRV Z-Score:</strong> O preço está historicamente subvalorizado?</li>
+    <li><strong>Hash Ribbon:</strong> A capitulação dos mineradores já terminou?</li>
+    <li><strong>Índice de Medo e Ganância:</strong> O sentimento de mercado está em medo extremo?</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Halving döngüsü:</strong> Tarihsel alım penceresinde miyiz? (Şu anda: Evet)</li>
+    <li><strong>MVRV Z-Score:</strong> Fiyat tarihsel olarak düşük mü değerlenmiş?</li>
+    <li><strong>Hash Ribbon:</strong> Madenci kapitülasyonu sona erdi mi?</li>
+    <li><strong>Korku &amp; Açgözlülük Endeksi:</strong> Piyasa duyarlılığı aşırı korku seviyesinde mi?</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Chu kỳ halving:</strong> Chúng ta có đang ở trong vùng mua lịch sử không? (Hiện tại: Có)</li>
+    <li><strong>MVRV Z-Score:</strong> Giá hiện có đang bị định giá thấp hơn mức lịch sử không?</li>
+    <li><strong>Hash Ribbon:</strong> Tình trạng đầu hàng của thợ đào đã kết thúc chưa?</li>
+    <li><strong>Chỉ số Sợ hãi &amp; Tham lam:</strong> Tâm lý thị trường có đang ở mức sợ hãi cực độ không?</li>
+  </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
+</content>
