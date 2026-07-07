@@ -321,6 +321,15 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
 .coin-tab-add{font-weight:700;color:var(--t3);padding:5px 11px}
 .coin-tab-add:hover{color:var(--t1);border-color:var(--b2)}
+.coin-tab-more{position:relative;font-weight:700;color:var(--t2);padding:5px 11px}
+.coin-tab-more:hover{color:var(--t1);border-color:var(--b2)}
+.coin-more-menu{display:none;position:absolute;top:calc(100% + 6px);right:0;min-width:180px;max-height:340px;overflow-y:auto;background:#131316;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:5px;z-index:300;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.coin-more-menu.open{display:block}
+.coin-more-item{display:flex;align-items:center;gap:8px;padding:9px 11px;border-radius:7px;font-size:12px;font-weight:600;color:var(--t2);cursor:pointer;white-space:nowrap}
+.coin-more-item:hover{background:#1f1f24;color:var(--t1)}
+.coin-more-item.active{background:rgba(251,146,60,.14);color:var(--orange)}
+.cm-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.cm-name{color:var(--t3);font-weight:400;font-size:11px}
 /* 코인 검색 오버레이 */
 .coin-ov{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);backdrop-filter:blur(3px);align-items:flex-start;justify-content:center;padding:8vh 16px 16px}
 .coin-ov-box{width:100%;max-width:460px;max-height:80vh;display:flex;flex-direction:column;background:#131316;border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
@@ -346,6 +355,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-ov-name{font-size:12px;color:#888;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .coin-ov-star{font-size:18px;color:#3a3a40;flex-shrink:0}
 .coin-ov-item.fav .coin-ov-star{color:var(--orange)}
+.coin-ov-move{display:flex;flex-direction:column;gap:1px;flex-shrink:0}
+.cov-mv{width:22px;height:15px;line-height:1;padding:0;background:#26262c;border:1px solid rgba(255,255,255,.08);border-radius:4px;color:#999;font-size:8px;cursor:pointer}
+.cov-mv:hover:not(:disabled){background:var(--orange);color:#000;border-color:var(--orange)}
+.cov-mv:disabled{opacity:.25;cursor:default}
 .coin-ov-empty{padding:30px;text-align:center;color:#666;font-size:13px;line-height:1.6}
 /* 모바일: 하단 시트 형태 */
 @media(max-width:600px){

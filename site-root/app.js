@@ -260,7 +260,18 @@ function resetFavorites() { return saveFavorites([...DEFAULT_FAVORITES]); }
 // 즐겨찾기를 COINS 정의 순서(거래량 순)대로 정렬해 반환 — 탭 순서 일관성
 function getFavoriteCoins() {
   const favs = getFavorites();
-  return COINS.filter(c => favs.includes(c.id));
+  // 저장된 즐겨찾기 순서를 그대로 따른다 (사용자가 조정한 순서 유지)
+  return favs.map(id => COINS.find(c => c.id === id)).filter(Boolean);
+}
+// 즐겨찾기 순서 이동 (검색 오버레이/coins.php에서 위/아래로 조정)
+function moveFavorite(id, dir) { // dir: -1(위) | +1(아래)
+  const favs = getFavorites();
+  const i = favs.indexOf(id);
+  if (i < 0) return favs;
+  const j = i + dir;
+  if (j < 0 || j >= favs.length) return favs;
+  [favs[i], favs[j]] = [favs[j], favs[i]];
+  return saveFavorites(favs);
 }
 
 let currentMode = 'buy';
@@ -287,21 +298,65 @@ function initTabs() {
     try { localStorage.setItem('selectedCoin', currentCoin); } catch(e) {}
   }
   const el = document.getElementById('coinTabs');
-  el.innerHTML = favCoins.map(c => `
+
+  // 상단바에 직접 노출할 최대 개수 (넘치면 나머지는 "더보기" 드롭다운으로).
+  // 화면 폭에 따라 다르게: 좁으면 적게, 넓으면 많이.
+  const vw = window.innerWidth || 1280;
+  const MAX_VISIBLE = vw >= 1400 ? 12 : vw >= 1100 ? 9 : vw >= 800 ? 6 : 5;
+
+  let visible = favCoins, overflow = [];
+  if (favCoins.length > MAX_VISIBLE) {
+    visible = favCoins.slice(0, MAX_VISIBLE);
+    overflow = favCoins.slice(MAX_VISIBLE);
+    // 현재 선택된 코인이 오버플로(숨김) 쪽에 있으면, 맨 앞으로 끌어와 항상 보이게
+    if (overflow.some(c => c.id === currentCoin)) {
+      const cur = favCoins.find(c => c.id === currentCoin);
+      visible = [cur, ...favCoins.filter(c => c.id !== currentCoin).slice(0, MAX_VISIBLE - 1)];
+      const visIds = new Set(visible.map(c => c.id));
+      overflow = favCoins.filter(c => !visIds.has(c.id));
+    }
+  }
+
+  let html = visible.map(c => `
     <div class="coin-tab${c.id===currentCoin?' active':''}"
       onclick="switchCoin('${c.id}')"
       ontouchend="event.preventDefault();switchCoin('${c.id}')"
       style="${c.id===currentCoin?`background:${c.color};border-color:${c.color};color:#000`:''}">
       ${c.id}
-    </div>`).join('')
-    // 끝에 코인 검색/추가 버튼
-    + `<div class="coin-tab coin-tab-add" onclick="openCoinSearch()" ontouchend="event.preventDefault();openCoinSearch()" title="코인 추가/관리" aria-label="Add coins">＋</div>`;
+    </div>`).join('');
+
+  // 넘치는 코인들은 드롭다운으로
+  if (overflow.length) {
+    html += `<div class="coin-tab coin-tab-more" onclick="toggleCoinMore(event)" title="더 보기">
+      +${overflow.length} ▾
+      <div class="coin-more-menu" id="coinMoreMenu">
+        ${overflow.map(c => `<div class="coin-more-item${c.id===currentCoin?' active':''}" onclick="event.stopPropagation();switchCoin('${c.id}');closeCoinMore()">
+          <span class="cm-dot" style="background:${c.color}"></span>${c.id} <span class="cm-name">${c.name}</span></div>`).join('')}
+      </div>
+    </div>`;
+  }
+  // 검색/관리 버튼
+  html += `<div class="coin-tab coin-tab-add" onclick="openCoinSearch()" ontouchend="event.preventDefault();openCoinSearch()" title="코인 추가/관리" aria-label="Add coins">＋</div>`;
+  el.innerHTML = html;
+
   // 모바일 드롭박스도 즐겨찾기만
   const drop = document.getElementById('coinDrop');
   if(drop) {
     drop.innerHTML = favCoins.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
   }
 }
+function toggleCoinMore(e) {
+  e.stopPropagation();
+  const m = document.getElementById('coinMoreMenu');
+  if (m) m.classList.toggle('open');
+}
+function closeCoinMore() {
+  const m = document.getElementById('coinMoreMenu');
+  if (m) m.classList.remove('open');
+}
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.coin-tab-more')) closeCoinMore();
+});
 
 // ═══════════════════════════════════════════════════════
 // 코인 검색/즐겨찾기 오버레이
@@ -365,7 +420,8 @@ function renderCoinSearchList(q) {
   // 탭에 따라 대상 코인 선정. 검색어가 있으면 전체에서 찾되 즐겨찾기 탭은 즐겨찾기 내에서만.
   let base;
   if (coinSearchTab === 'fav') {
-    base = COINS.filter(c => favs.includes(c.id));
+    // 즐겨찾기는 저장된 순서대로 표시 (순서 조정 반영)
+    base = favs.map(id => COINS.find(c => c.id === id)).filter(Boolean);
   } else {
     base = COINS;
   }
@@ -379,15 +435,29 @@ function renderCoinSearchList(q) {
     list.innerHTML = `<div class="coin-ov-empty">${emptyMsg}</div>`;
     return;
   }
-  list.innerHTML = matched.map(c => {
+  // 즐겨찾기 탭 & 검색어 없을 때만 순서조정 버튼 노출 (검색 중엔 순서 의미 없음)
+  const showReorder = coinSearchTab === 'fav' && !query;
+  list.innerHTML = matched.map((c, i) => {
     const on = favs.includes(c.id);
+    const reorder = showReorder ? `
+      <span class="coin-ov-move">
+        <button class="cov-mv" onclick="event.stopPropagation();moveFavAndRefresh('${c.id}',-1)" ${i===0?'disabled':''} aria-label="up">▲</button>
+        <button class="cov-mv" onclick="event.stopPropagation();moveFavAndRefresh('${c.id}',1)" ${i===matched.length-1?'disabled':''} aria-label="down">▼</button>
+      </span>` : '';
     return `<div class="coin-ov-item${on?' fav':''}" onclick="toggleFavFromSearch('${c.id}')">
       <span class="coin-ov-dot" style="background:${c.color}"></span>
       <span class="coin-ov-id">${c.id}</span>
       <span class="coin-ov-name">${c.name}</span>
+      ${reorder}
       <span class="coin-ov-star">${on?'★':'☆'}</span>
     </div>`;
   }).join('');
+}
+function moveFavAndRefresh(id, dir) {
+  moveFavorite(id, dir);
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+  initTabs();
 }
 function toggleFavFromSearch(id) {
   toggleFavorite(id);
@@ -418,6 +488,11 @@ function switchCoin(id) {
   try { localStorage.setItem('selectedCoin', id); } catch(e){}
   livePrice = null;
   loadToken++;
+
+  // 코인 전환 시 이전 코인의 히스토리 상태를 즉시 비운다.
+  // (안 그러면 새 코인 히스토리가 비어있어도 호버 시 이전 코인의 점수가 잘못 표시됨)
+  historyPlotState = null;
+  scoreHistory = [];
 
   // 이 코인으로 전환할 때마다 알림 상태를 초기화 — 그래야 "이미 한 번 봤던 코인"이라도
   // 다시 들어올 때 지금 점수가 알림 구간에 있으면 매번 다시 효과(플래시+알림음)가 울림.
@@ -1526,6 +1601,7 @@ function drawHistory() {
   ctx.scale(dpr,dpr);
 
   if(data.length < 2) {
+    historyPlotState = null; // 데이터 부족 시 호버 상태도 비워 이전 코인 값이 안 뜨게
     ctx.fillStyle='rgba(255,255,255,0.15)';
     ctx.font='11px system-ui'; ctx.textAlign='center';
     ctx.fillText('Score history will appear after multiple data points', w/2, h/2);
@@ -2366,6 +2442,12 @@ setInterval(() => {
 
 // Redraw history on resize
 window.addEventListener('resize', drawHistory);
+// 리사이즈 시 상단바 노출 개수도 재계산 (디바운스)
+let _tabResizeTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(_tabResizeTimer);
+  _tabResizeTimer = setTimeout(() => { try { initTabs(); } catch(e){} }, 200);
+});
 
 function setLang(lang) {
   currentLang = lang;
