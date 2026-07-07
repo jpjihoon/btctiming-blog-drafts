@@ -357,7 +357,22 @@ $tb = [
   'es'=>['live'=>'En vivo','coin'=>'Buscar','blog'=>'Blog'],
   'de'=>['live'=>'Live','coin'=>'Coins','blog'=>'Blog'],
 ];
-$tbt = $tb[$lang] ?? $tb['en']; ?>
+$tbt = $tb[$lang] ?? $tb['en'];
+// 블로그 하단바 코인 탭 → 즐겨찾기 코인 전환 시트용 데이터.
+// _header.php가 ../config.php를 이미 로드했으므로 COIN_SYMBOLS 사용 가능.
+$__blogCoins = [];
+if (defined('COIN_SYMBOLS')) {
+    if (!function_exists('coinMeta')) { @include_once __DIR__ . '/../coin_meta.php'; }
+    foreach (COIN_SYMBOLS as $__id => $__sym) {
+        if (function_exists('coinMeta')) { $__m = coinMeta($__id); }
+        else { $__m = ['name' => $__id, 'color' => '#888888']; }
+        $__blogCoins[] = ['id' => $__id, 'name' => $__m['name'], 'color' => $__m['color']];
+    }
+}
+$__blogCoinsJson = json_encode($__blogCoins, JSON_UNESCAPED_UNICODE);
+$__coinSheetTitle = ['ko'=>'코인 전환','en'=>'Switch coin','ja'=>'コイン切替','es'=>'Cambiar','de'=>'Coin wechseln'][$lang] ?? 'Switch coin';
+$__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'お気に入り','es'=>'Favoritos','de'=>'Favoriten'][$lang] ?? 'Your favorites';
+?>
 <style>
 .blog-tabbar{display:none}
 @media(max-width:600px){
@@ -381,15 +396,78 @@ $tbt = $tb[$lang] ?? $tb['en']; ?>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
     <span><?= h($tbt['live']) ?></span>
   </a>
-  <a class="btab" href="/coins.php<?= h($tbSuffix) ?>">
+  <button type="button" class="btab" onclick="openBlogCoinSwitcher()">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
     <span><?= h($tbt['coin']) ?></span>
-  </a>
+  </button>
   <a class="btab active" href="/blog/<?= h($blogSuffix) ?>">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
     <span><?= h($tbt['blog']) ?></span>
   </a>
 </nav>
+<!-- 블로그 코인 전환 시트 (즐겨찾기 코인 선택 → 대시보드로 이동) -->
+<div id="blogCoinSheet" class="blog-coin-sheet" onclick="if(event.target===this)closeBlogCoinSwitcher()">
+  <div class="bcs-box">
+    <div class="bcs-grip"></div>
+    <div class="bcs-head">
+      <div>
+        <div class="bcs-title"><?= h($__coinSheetTitle) ?></div>
+        <div class="bcs-sub"><?= h($__coinSheetSub) ?></div>
+      </div>
+      <button class="bcs-close" onclick="closeBlogCoinSwitcher()" aria-label="close">✕</button>
+    </div>
+    <div id="bcsList" class="bcs-list"></div>
+  </div>
+</div>
+<style>
+.blog-coin-sheet{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);align-items:flex-end;justify-content:center}
+.blog-coin-sheet.open{display:flex}
+.bcs-box{width:100%;max-width:460px;max-height:70vh;display:flex;flex-direction:column;background:#131316;border-radius:18px 18px 0 0;overflow:hidden;animation:bcsUp .22s ease-out}
+@keyframes bcsUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.bcs-grip{width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.2);margin:9px auto 2px}
+.bcs-head{display:flex;align-items:center;justify-content:space-between;padding:8px 16px 10px}
+.bcs-title{font-size:15px;font-weight:700;color:#f0f0f0}
+.bcs-sub{font-size:11px;color:#888;margin-top:2px}
+.bcs-close{background:none;border:none;color:#888;font-size:16px;cursor:pointer;padding:4px 8px}
+.bcs-list{flex:1;overflow-y:auto;padding:4px 8px 16px}
+.bcs-item{display:flex;align-items:center;gap:10px;height:52px;padding:0 12px;border-radius:10px;cursor:pointer}
+.bcs-item:active{background:#1f1f24}
+.bcs-item.current{background:rgba(251,146,60,.1)}
+.bcs-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.bcs-id{font-size:13px;font-weight:700;color:#f0f0f0}
+.bcs-name{font-size:12px;color:#888}
+.bcs-empty{padding:30px;text-align:center;color:#666;font-size:13px;line-height:1.6}
+</style>
+<script>
+window.__BLOG_COINS = <?= $__blogCoinsJson ?>;
+window.__BLOG_DEFAULT_FAVS = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX'];
+function bcsGetFavs(){
+  try{ const r=localStorage.getItem('favoriteCoins'); if(r===null) return [...window.__BLOG_DEFAULT_FAVS]; const a=JSON.parse(r); return Array.isArray(a)&&a.length?a:[...window.__BLOG_DEFAULT_FAVS]; }catch(e){ return [...window.__BLOG_DEFAULT_FAVS]; }
+}
+function bcsGetDelisted(){ try{ const r=localStorage.getItem('delistedCoins'); return r?(JSON.parse(r)||[]):[]; }catch(e){ return []; } }
+function openBlogCoinSwitcher(){
+  const sheet=document.getElementById('blogCoinSheet');
+  const list=document.getElementById('bcsList');
+  const favs=bcsGetFavs(), dead=bcsGetDelisted();
+  const byId={}; (window.__BLOG_COINS||[]).forEach(c=>byId[c.id]=c);
+  const coins=favs.map(id=>byId[id]).filter(c=>c&&!dead.includes(c.id));
+  if(!coins.length){
+    list.innerHTML='<div class="bcs-empty"><?= $lang==='ko'?'즐겨찾기한 코인이 없습니다.':'No favorite coins yet.' ?></div>';
+  } else {
+    list.innerHTML=coins.map(c=>`<div class="bcs-item" onclick="bcsPick('${c.id}')">
+      <span class="bcs-dot" style="background:${c.color}"></span>
+      <span class="bcs-id">${c.id}</span><span class="bcs-name">${c.name}</span></div>`).join('');
+  }
+  sheet.classList.add('open');
+}
+function closeBlogCoinSwitcher(){ document.getElementById('blogCoinSheet').classList.remove('open'); }
+function bcsPick(id){
+  try{ localStorage.setItem('selectedCoin', id); }catch(e){}
+  // 대시보드로 이동 (현재 언어 유지)
+  var lang='<?= h($lang) ?>';
+  location.href = '/' + (lang==='ko'?'':'?lang='+lang);
+}
+</script>
 <script>
 (function(){
   var bar=document.querySelector('.blog-tabbar');
