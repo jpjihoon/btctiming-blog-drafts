@@ -93,40 +93,25 @@ $fontFile = __DIR__ . '/NotoCJK-Bold.otf';
 $fontUri = 'file://' . $fontFile;
 function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
-// ── 본문에서 첫 번째 차트 SVG 추출 ──
+// ── 본문에서 현재 언어에 맞는 차트 SVG 추출 ──
 // 본문 글 안에 인포그래픽/차트 SVG가 있으면 그걸 OG 이미지의 주인공으로 삼는다.
-// (제목 텍스트 카드가 아니라, 글 안의 실제 시각자료를 공유 썸네일로)
 //
-// 다국어 처리: 글이 SVG를 다루는 방식은 두 가지가 있을 수 있다.
-//   (A) 언어별로 SVG를 통째로 나눔:  <svg class="ko">…</svg> … <svg class="vi">…</svg>
-//   (B) 하나의 SVG 안에서 텍스트만 언어별로 나눔:  <text class="ko">…</text><text class="fr">…</text>
-//   (C) 언어 구분 없는 공용 SVG (숫자·기호 위주, 혹은 한 언어 고정)
+// 실제 글 구조(가장 흔함): SVG를 언어별 <div>로 감싼다.
+//   <div class="ko"><svg>…한국어…</svg></div>
+//   <div class="en es de"><svg>…영어(en/es/de 공용)…</svg></div>
+//   <div class="ja"><svg>…일본어…</svg></div>
+//   → 부모 div의 class 목록에 현재 언어가 포함된 SVG를 골라야 한다.
+//     (SVG 태그 자체엔 class가 없으므로, 부모 div를 봐야 함)
+//
+// 그 외 대비: (B) 하나의 SVG 안에서 <text class="ko">처럼 텍스트만 언어별로
+//   나눈 경우 → 현재 언어 아닌 요소 제거. (C) 언어 구분 없는 공용 SVG → 그대로.
 // og.php는 Imagick으로 정적 렌더하므로 CSS display:none이 적용되지 않는다.
-// 따라서 현재 $lang이 아닌 언어 요소를 문자열 단계에서 직접 제거해야 겹침이 없다.
+// 따라서 현재 $lang이 아닌 요소를 문자열 단계에서 직접 골라내거나 제거해야 한다.
 $chartSvg = null; $chartW = 0; $chartH = 0;
 if ($bodyMtime > 0) {
     $body = file_get_contents($bodyFile);
     if ($body !== false) {
-        // 본문에 있는 모든 최상위 <svg>…</svg> 블록 수집
-        $raw = null;
-        if (preg_match_all('/<svg\b[^>]*>.*?<\/svg>/is', $body, $all) && !empty($all[0])) {
-            $svgs = $all[0];
-            // (A) 언어별로 나뉜 SVG면, 현재 언어(class="xx")를 가진 SVG를 우선 선택.
-            //     현재 언어가 없으면 영어 → 한국어 → 그냥 첫 번째 순으로 폴백.
-            $byLang = [];
-            $hasLangTagged = false;
-            foreach ($svgs as $s) {
-                if (preg_match('/<svg\b[^>]*\bclass="([a-z]{2})"/i', $s, $cm)) {
-                    $byLang[$cm[1]] = $s; $hasLangTagged = true;
-                }
-            }
-            if ($hasLangTagged) {
-                $raw = $byLang[$lang] ?? $byLang['en'] ?? $byLang['ko'] ?? reset($svgs);
-            } else {
-                // 언어 태그 없는 SVG들 → 첫 번째를 주인공으로
-                $raw = $svgs[0];
-            }
-        }
+        $raw = og_pick_svg_for_lang($body, $lang);
         if ($raw !== null) {
             // viewBox에서 원본 크기
             if (preg_match('/viewBox="[\d.\s]*?([\d.]+)\s+([\d.]+)"/i', $raw, $vb)) {
@@ -138,13 +123,60 @@ if ($bodyMtime > 0) {
                 // <svg ...> 래퍼 제거하고 내부 그래픽만 추출
                 $inner = preg_replace('/^<svg\b[^>]*>/i', '', $raw);
                 $inner = preg_replace('/<\/svg>\s*$/i', '', $inner);
-                // (B) 하나의 SVG 안에 언어별 텍스트가 섞여 있으면, 현재 언어 아닌 요소 제거.
-                //     <text>/<tspan>/<g> 등 어떤 태그든 class="{다른언어}"면 통째로 삭제.
+                // (B) 하나의 SVG 안에 언어별 텍스트가 섞여 있으면 현재 언어 아닌 요소 제거.
                 $inner = og_strip_other_langs($inner, $lang);
                 $chartSvg = $inner;
             }
         }
     }
+}
+
+// 본문에서 현재 언어에 가장 맞는 <svg>…</svg> 하나를 고른다.
+// 우선순위:
+//   1) SVG를 감싼 부모 <div class="…">의 class에 현재 언어가 포함된 것
+//   2) (부모 div에 언어 표기가 있는 글에서) 영어 → 한국어 순 폴백
+//   3) 부모 div 언어 표기가 전혀 없으면(공용 SVG 글) 첫 번째 SVG
+// 반환: <svg …>…</svg> 문자열 또는 null
+function og_pick_svg_for_lang(string $body, string $lang): ?string {
+    // (1) 언어 div로 감싼 SVG들을 수집: <div class="…"> … <svg>…</svg> … </div>
+    //     div가 SVG 하나만 감싸는 구조를 가정(실제 글이 그러함).
+    $wrapped = []; // lang => svg
+    if (preg_match_all('/<div\b[^>]*\bclass="([a-z][a-z ]*)"[^>]*>\s*(<svg\b[^>]*>.*?<\/svg>)/is', $body, $ms, PREG_SET_ORDER)) {
+        foreach ($ms as $m) {
+            $classList = preg_split('/\s+/', trim($m[1]));
+            $svg = $m[2];
+            foreach ($classList as $c) {
+                // 언어 코드로 보이는 class만 취급 (2글자)
+                if (preg_match('/^[a-z]{2}$/', $c) && !isset($wrapped[$c])) {
+                    $wrapped[$c] = $svg;
+                }
+            }
+        }
+    }
+    if (!empty($wrapped)) {
+        // 부모 div 언어 표기가 있는 글 → 현재 언어 우선, 없으면 en → ko → 아무거나
+        if (isset($wrapped[$lang])) return $wrapped[$lang];
+        if (isset($wrapped['en'])) return $wrapped['en'];
+        if (isset($wrapped['ko'])) return $wrapped['ko'];
+        return reset($wrapped);
+    }
+    // (2) 부모 div 없이 <svg class="xx">로 언어를 표기한 글
+    if (preg_match_all('/<svg\b[^>]*>.*?<\/svg>/is', $body, $all) && !empty($all[0])) {
+        $byLang = []; $hasLangTagged = false;
+        foreach ($all[0] as $s) {
+            if (preg_match('/<svg\b[^>]*\bclass="([a-z][a-z ]*)"/i', $s, $cm)) {
+                foreach (preg_split('/\s+/', trim($cm[1])) as $c) {
+                    if (preg_match('/^[a-z]{2}$/', $c) && !isset($byLang[$c])) { $byLang[$c] = $s; $hasLangTagged = true; }
+                }
+            }
+        }
+        if ($hasLangTagged) {
+            return $byLang[$lang] ?? $byLang['en'] ?? $byLang['ko'] ?? reset($byLang);
+        }
+        // (3) 언어 표기 전혀 없음 → 공용 SVG로 보고 첫 번째
+        return $all[0][0];
+    }
+    return null;
 }
 
 // SVG 내부에서 현재 언어가 아닌 언어 클래스를 가진 요소를 제거.
