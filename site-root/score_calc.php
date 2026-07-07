@@ -424,8 +424,10 @@ function calcSell(array $ind): array {
 
     // RSI (숏, 2026-07 관점B 대칭): 과매수(≥70)=만점(고점 가산), 중립(45~60)=중립 크레딧,
     // 과매도(≤30)=강한 감점(바닥이라 숏 위험). 롱과 대칭 — "안 과매도면 크게 안 깎음".
+    // RSI (숏, 3번 조정): 중립~약간높은 구간(50~63)이 과하게 후해서 저평가 알트도 숏 RSI가
+    // 높게 나왔음(ETH 9/14). 중립 구간을 낮추고 진짜 과열(70+)에서만 고득점하도록 조임.
     $rsiMaxS = ($coin === 'BTC') ? 15 : 14;
-    $s = round(lerpScore($rsiS, [[15, 0], [25, 1.5], [32, 3], [42, 5], [50, 6], [60, 8], [70, 12], [78, 15], [90, 15]]) * ($rsiMaxS / 15), 1);
+    $s = round(lerpScore($rsiS, [[15, 0], [25, 1], [35, 2], [45, 3.5], [52, 4.5], [60, 6], [68, 9], [75, 13], [85, 15]]) * ($rsiMaxS / 15), 1);
     $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMaxS, 'score' => $s,
         'value' => number_format($rsiS, 1), 'unit' => '',
         'target' => 'Overbought ≥ 70 (bonus); not oversold', 'signal' => $rsiS >= 70 ? 'Overbought (Top)' : ($rsiS <= 30 ? 'Oversold' : 'Neutral'),
@@ -468,15 +470,16 @@ function calcSell(array $ind): array {
         'note' => "최근 15분봉 매수 주도 " . number_format($fastBuyRatioS * 100, 1) . "%, " . ($fastIsRedS ? '음봉' : '양봉') . ", 거래량 " . number_format($volR1hS, 2) . "배. FOMO면 가산, 조용하면 중립(4점), 투매(바닥)면 감점."];
 
     if ($coin !== 'BTC') {
-        // SHORT 관점에서는 BTC와 상관계수가 높을수록(=BTC 약세를 그대로 따라갈 가능성) 유리하므로
-        // LONG 쪽(낮은 상관계수가 유리)과 반대 방향으로 채점해야 함.
-        // 기존 코드는 LONG 공식을 그대로 복사해서 방향이 뒤집혀 있었음 (높은 상관계수가 최저점을 받던 버그).
-        $s = round(lerpScore($btcCorrS, [[0, 1], [0.3, 2], [0.5, 3], [0.7, 4], [0.85, 5], [1.0, 5]]), 1);
+        // 상관 지표 방향 중립화 (2026-07): 기존은 "높은 상관 = BTC 약세 따라감 = 숏 유리"로 5점을
+        // 줬으나, 이는 BTC가 하락 중일 때만 성립. BTC가 저평가/바닥 국면이면 "따라감"은 오히려 상승이라
+        // 숏에 불리함. 알트 카드는 BTC의 방향을 모르므로, 상관을 방향 신호로 쓰는 것 자체가 부정확.
+        // → 상관은 중립(2.5) 기준, 독자 강세(저상관)만 숏에 미세하게 불리(BTC와 무관히 자기 흐름).
+        $s = round(lerpScore($btcCorrS, [[0, 1.5], [0.3, 2], [0.5, 2.5], [0.7, 2.5], [0.85, 2.5], [1.0, 2.5]]), 1);
         $det['btc_corr_tech'] = ['key' => 'btc_corr_tech', 'label' => 'BTC Correlation (30d)', 'max' => 5, 'score' => $s,
             'value' => number_format($btcCorrS, 2), 'unit' => '',
-            'target' => 'High correlation = follows BTC weakness',
+            'target' => 'Correlation is direction-neutral for shorting',
             'signal' => $btcCorrS >= 0.85 ? 'Highly Correlated' : ($btcCorrS <= 0.5 ? 'Independent' : 'Moderate'),
-            'note' => "BTC와의 30일 상관계수 " . number_format($btcCorrS, 2) . ". 독자적 강세(저상관)는 숏에 불리할 수 있음."];
+            'note' => "BTC와의 30일 상관계수 " . number_format($btcCorrS, 2) . ". 상관 자체는 숏/롱 방향 신호가 아님(BTC 방향에 따라 달라짐) → 방향 중립 처리."];
     }
 
     $rawSell = array_sum(array_column($det, 'score'));
