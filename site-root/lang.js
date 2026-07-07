@@ -515,6 +515,320 @@ Sichere Zone: Spread ≤ 0,02 (abgestimmtes Verhalten, kein Distributionssignal)
 
 Aktuell: STH realisiert deutliche Gewinne relativ zu LTH → Distribution könnte beginnen.`,
     ind_sell_sopr:'STH-SOPR — Gewinnmitnahme', ind_sell_cbp:'Coinbase Premium — FOMO',
-  }
+  },
+  pt: {
+    exchBannerT:"Por qual exchange começar?", exchBannerD:"Compare Binance e Bybit + desconto de taxa",
+    // NAV
+    navInsights:'Blog',
+    footerPrivacy:'Política de Privacidade', footerTerms:'Termos de Serviço', footerDisclaimer:'Não é aconselhamento financeiro',
+    whyBtnLabel:'Por quê?', whyTopTitle:'Principais contribuidores', whyBottomTitle:'O que está segurando', histToday:'Hoje', histYesterday:'Ontem', histWeekAgo:'Semana passada',
+    buyTiming:'📈 Timing LONG', sellTiming:'📉 Timing SHORT',
+    livePriceLabel:'Preço · Binance', fgLabel:'Medo e Ganância',
+    rpLabel:'Diferença do Preço Realizado', maLabel:'MM 200S (ref)',
+    splitPlan:'Plano de Entrada Escalonada', splitTitle:'Alocação por Etapa',
+    splitStep1:(s)=>`Agora (Pontuação ${s})`, splitStep2:'Recuperação Hash Ribbon',
+    splitStep3:'Coinbase Premium → Positivo', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Atualizado',
+    // Mode labels
+    modeTitle_buy:'PONTUAÇÃO DE TIMING LONG', modeTitle_sell:'MEDIDOR DE PRESSÃO DE VENDA',
+    modeSub_buy:'Modelo de entrada long no fundo do ciclo', modeSub_sell:'Modelo de timing de entrada short',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Como ler a Pontuação de Venda',
+    sellExplain_low:'🟢 BAIXA (0~3): Mercado em zona de fundo. Sem sinal de saída. Manter ou acumular.',
+    sellExplain_mid:'🟡 MÉDIA (4~6): Mercado esquentando. Vigiar para redução parcial.',
+    sellExplain_high:'🔴 ALTA (7~10): Sinal de venda forte. Sair do long / Considerar entrada short.',
+    // Indicator names (buy)
+    ind_mvrv_z:'Pontuação Z MVRV', ind_nupl:'NUPL', ind_realized:'Diferença do Preço Realizado',
+    ind_alt_valuation:'Preço vs Realizado Est. (200W MA)', ind_alt_drawdown:'Queda desde ATH',
+    tab_dashboard:'Ao vivo', tab_coins:'Buscar', tab_blog:'Blog',
+    ind_alt_short_val:'Preço vs Realizado Est. (Short)', ind_alt_short_ath:'Proximidade do ATH — Sobreaquecimento',
+    ind_rsi:'RSI (14d)', ind_vol_change:'Aceleração de Volume (15m vs 1h/4h)', ind_btc_corr_tech:'Correlação com BTC (30d)',
+    ind_buy_pressure:'Volume ao Vivo Liderado por Compra — FOMO', ind_sell_pressure:'Volume ao Vivo Liderado por Venda — Capitulação',
+    desc_buy_pressure:`Proporção do volume das velas de 15 minutos mais recentes impulsionado por compras agressivas. Um índice alto (65%+) combinado com um pico de volume e uma vela verde pode sinalizar sobreaquecimento por FOMO perto de um topo local. Usa dados de 15 minutos em vez de diários, refletindo condições quase em tempo real (atraso de 15min–1h vs. até 24h para o volume diário).`,
+    desc_sell_pressure:`Proporção do volume das velas de 15 minutos mais recentes impulsionado por vendas agressivas. Um índice alto (58%+) combinado com um pico de volume e uma vela vermelha pode sinalizar uma venda de capitulação que muitas vezes precede uma recuperação perto de um fundo local. Usa dados de 15 minutos em vez de diários, refletindo condições quase em tempo real.`,
+    desc_rsi:`Índice de Força Relativa de 14 dias, um oscilador de momentum que mede a velocidade e a magnitude das variações de preço recentes. RSI abaixo de 30 indica sobrevenda (muitas vezes sinal de fundo), enquanto acima de 70 indica sobrecompra (muitas vezes sinal de topo). Aplica-se igualmente a todas as moedas por se basear puramente no preço.`,
+    desc_vol_change:`Compara o volume da vela de 15 minutos mais recente com as médias de 1 hora e 4 horas. Um pico grande combinado com um preço perto de uma mínima pode sinalizar uma venda de capitulação que muitas vezes precede uma recuperação. Um pico perto de uma máxima pode sinalizar distribuição por grandes detentores. Usar dados de 15 minutos em vez de diários reflete condições quase em tempo real.`,
+    desc_btc_corr_tech:`Coeficiente de correlação de Pearson entre os retornos diários desta moeda e os do Bitcoin nos últimos 30 dias. Uma correlação baixa (abaixo de 0,5) sugere que a moeda se move independentemente do BTC, o que pode indicar força ou fraqueza específica da moeda em vez de um movimento amplo do mercado.`,
+    desc_alt_short_val:`Indicador estimado de sobrevalorização para altcoins no modo SHORT. Mede quanto o preço atual está acima do preço realizado estimado — quanto mais alto, mais sobreaquecido e favorável para SHORT. ⚠️ O preço realizado é uma estimativa, não dados on-chain ao vivo.`,
+    desc_alt_short_ath:`Distância do máximo histórico (ATH), usada como sinal de sobreaquecimento para o timing SHORT de altcoins. Estar perto do ATH (dentro de -15%) historicamente coincide com topos locais e maior favorabilidade para SHORT.`,
+    ind_btc_corr:'Dominância BTC — Ciclo Alt', desc_btc_corr:`Acompanha a dominância de capitalização de mercado do Bitcoin como proxy da posição do ciclo alt mais amplo. Quando a dominância BTC é alta (55%+), o capital concentra-se no Bitcoin e as altcoins tendem a render menos — muitas vezes sinal de que o ciclo alt ainda não começou. Quando a dominância cai (abaixo de 50%), o capital gira para altcoins, historicamente associado à "temporada alt".`,
+    desc_alt_valuation:`Indicador de valorização estimado para altcoins. Diferente de BTC/ETH/BNB, esta moeda não tem dados confiáveis de MVRV Z-Score on-chain disponíveis, por isso usamos preço vs. um preço realizado estimado como proxy.
 
+⚠️ Importante: o preço realizado estimado desta moeda é aproximado pela média móvel de 200 semanas (200W MA), não por dados on-chain ao vivo. A 200W MA é um proxy amplamente usado que segue de perto o preço realizado on-chain, mas difere dos dados precisos. Use apenas como sinal direcional.
+
+Abaixo do preço realizado estimado = possível zona de subvalorização.`,
+    desc_alt_drawdown:`Distância do máximo histórico (ATH), usada como substituto do NUPL em altcoins sem dados confiáveis de lucro/prejuízo on-chain.
+
+Quedas profundas (70%+) desde o ATH coincidiram historicamente com fundos de ciclo para altcoins principais, embora isso varie significativamente conforme a moeda.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Diferença Futuros-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% Fornecimento LTH', ind_dom:'Dominância BTC',
+    ind_halving:'Ciclo de Halving',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Sobreaquecimento', ind_sell_nupl:'NUPL — Nível de Ganância',
+    ind_sell_funding:'Prêmio de Futuros', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`O Spread SOPR LTH-STH mede a diferença entre o comportamento de realização de lucros de detentores de longo e curto prazo.
+Um spread positivo grande significa que os detentores de curto prazo estão realizando lucros muito mais rápido que os de longo prazo — um sinal precoce de distribuição.
+
+Zona SHORT: spread ≥ 0,15 (STH vendendo agressivamente enquanto LTH mantém)
+Zona segura: spread ≤ 0,02 (comportamento alinhado, sem sinal de distribuição)
+
+Atual: STH realizando lucros significativos em relação ao LTH → a distribuição pode estar começando.`,
+    ind_sell_sopr:'STH-SOPR — Realização de Lucros', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'VALORIZAÇÃO ON-CHAIN', sec_miner:'MINERADOR / SENTIMENTO',
+    sec_inst:'FLUXO INSTITUCIONAL', sec_cycle:'POSIÇÃO DO CICLO',
+    sec_breakdown:'Detalhamento da Pontuação', sec_triggers:'Próximos Gatilhos',
+    sec_sellTriggers:'Gatilhos de Sinal de Venda', sec_macro:'AVISOS MACRO',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'TUDO →', loadingInsights:'Carregando...', loadMoreInsights:'Ver Mais', collapseInsights:'Recolher',
+    sec_history:'Histórico de Pontuação', sec_histSub:'Salvo localmente no navegador',
+    histH:'Hora', histD:'Dia', histM:'Mês',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"A Pontuação Z MVRV mede o quão sobrevalorizado ou subvalorizado o Bitcoin está em relação ao seu valor realizado. \n• < 0: Historicamente subvalorizado (zona de fundo) → Compra forte\n• 0~1: Ligeiramente subvalorizado → Zona de acumulação  \n• 1~3: Valor justo → Neutro\n• > 3: Sobrevalorizado (zona de topo) → Considerar venda\nFase atual: 0,27 — Perto do fundo. Historicamente, valores abaixo de 0,5 precederam grandes mercados de alta.",
+    desc_nupl:"NUPL (Lucro/Prejuízo Líquido Não Realizado) mostra o estado geral de lucro/prejuízo de todos os detentores de BTC.\n• < 0% (Capitulação): Detentores no prejuízo → Sinal de compra extrema\n• 0~25% (Esperança/Medo): Recuperando do fundo → Zona de compra  \n• 25~50% (Otimismo): Meio do ciclo → Neutro\n• 50~75% (Crença/Ganância): Fim do ciclo → Vigiar\n• > 75% (Euforia): Ganância máxima → Sinal de venda",
+    desc_realized:"Mostra o quão longe o preço atual está da base de custo médio de todos os detentores de BTC (Preço Realizado).\n• Abaixo de 0%: Preço abaixo do custo médio → Zona de pânico, compra mais forte\n• 0~5%: Perto do preço realizado → Entrada ideal\n• 5~20%: Prêmio moderado → Aceitável\n• > 20%: Prêmio alto → Cautela",
+    desc_hash:"Hash Ribbon acompanha o momentum do hashrate de mineração do Bitcoin (média móvel de 30 dias vs 60 dias).\n• Capitulação: Mineradores fracos encerrando (30MA < 60MA) → Formando um fundo\n• Cruzamento de Recuperação: 30MA cruza acima de 60MA → Sinal de compra líder mais confiável (2~4 semanas de antecedência)\nPrecisão histórica: Marcou perfeitamente os fundos de 2016, 2018, 2020 e 2022.",
+    desc_sopr:"O SOPR de Detentores de Curto Prazo mede se os compradores recentes estão vendendo com lucro ou prejuízo.\n• < 0,95: Venda de pânico com prejuízos fortes → Capitulação = sinal de compra\n• 0,95~1,0: Realização leve de prejuízos → Perto do fundo\n• 1,0~1,03: Realização de lucros neutra\n• > 1,05: Realização de lucros forte → Distribuição = sinal de topo",
+    desc_funding:"Diferença Futuros-Spot = (Preço Marca Futuros - Preço Índice Spot) / Preço Spot\nMostra o posicionamento de alavancagem em tempo real sem o atraso de liquidação de 8 horas.\n• Negativo (backwardation): Futuros mais baratos que spot → Sobrecarga de shorts → Sinal de compra líder\n• ±0,01%: Neutro (faixa normal para BTC)\n• > 0,05%: Contango → Sobrecarga de longs → Cautela\n• > 0,15%: Contango extremo → Sinal de topo",
+    desc_cbp:"Coinbase Premium = (Preço BTC Coinbase - Preço BTC Binance) / Preço Binance\nReflete a demanda institucional dos EUA em tempo real. Antecipa os dados de fluxo de ETF em 2~3 dias.\n• Positivo: Instituições dos EUA comprando → Altista\n• Perto de zero: Observando/neutro\n• Negativo: Instituições à margem → Baixista a curto prazo\nAtual: Negativo (46+ dias consecutivos) → Instituições aguardando clareza macro.",
+    desc_lth:"% Fornecimento de Detentores de Longo Prazo = percentual do fornecimento de BTC em mãos de endereços inativos por 155+ dias.\n• > 75%: Baleias em acumulação agressiva → Sinal de compra forte\n• 70~75%: Acumulação normal\n• < 70%: Distribuição (baleias vendendo)\nNíveis recordes (79%) significam que o dinheiro inteligente não está vendendo — choque de oferta virá quando a demanda retornar.",
+    desc_dom:"Dominância BTC = Capitalização de mercado BTC / Capitalização total do mercado cripto\nSobe quando o capital flui de altcoins para o Bitcoin — padrão típico antes de grandes mercados de alta.\n• 55~63% (base CoinGecko): Temporada BTC → Capital consolidando em BTC → Zona de compra\n• < 50%: Temporada alt → Risco ativado\n• > 65%: Dominância BTC extrema → Pode sinalizar rotação alt próxima",
+    desc_halving:"Os halvings do Bitcoin reduzem as recompensas de mineração em 50% a cada ~4 anos, criando choques de oferta.\nTiming histórico de fundos:\n• Fundo 2015: 18 meses antes do halving 2016\n• Fundo 2018: 17 meses antes do halving 2020  \n• Fundo 2022: 17 meses antes do halving 2024\n• Atual: ~21 meses antes do halving de abril 2028 → Na janela central do fundo.",
+    // Alert labels
+    alertTitle:'Configuração de Alertas',
+    alertDesc:'Receba notificações via push do navegador + flash visual + som quando as condições forem atendidas.',
+    alertBuySection:'📈 GATILHOS LONG', alertSellSection:'📉 GATILHOS SHORT',
+    a2:'Pontuação Long ≥ 6.0 (Iniciar escalonado)',
+    a3:'Pontuação Long ≥ 7.0 (Aumentar posição)', a4:'Pontuação Long ≥ 8.0 (Compra agressiva)',
+    a5:'MVRV Z ≤ 0 — Zona de fundo total', a6:'NUPL abaixo de 0% — Capitulação',
+    a7:'Diferença de futuros fica negativa (backwardation)', a8:'Cruzamento de recuperação Hash Ribbon',
+    a9:'Coinbase Premium fica positivo',
+    b1:'Pontuação Short ≥ 6.0 (Preparar short)', b2:'Pontuação Short ≥ 7.0 (Aumentar short)',
+    b3:'Pontuação Short ≥ 8.0 (Short total)', b4:'MVRV Z ≥ 3.5 — Zona de euforia',
+    b5:'NUPL ≥ 75% — Ganância extrema', b6:'Medo e Ganância ≥ 80',
+    b7:'Contango de futuros ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Alertar quando o preço cair abaixo de $', priceAbove:'Alertar quando o preço subir acima de $',
+    enableNotif:'Ativar Notificações do Navegador',
+    ind_sell_lth:'Fornecimento LTH — Distribuição', ind_sell_dom:'Dominância BTC — Risco',
+    ind_sell_halving:'Halving — Fase do Ciclo', ind_sell_ath:'Proximidade ATH — Risco de Topo',
+    ind_sell_mvrv:'MVRV Z — Sobreaquecimento', ind_sell_nupl:'NUPL — Ganância',
+    ind_sell_funding:'Prêmio de Futuros', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`O Spread SOPR LTH-STH mede a diferença entre o comportamento de realização de lucros de detentores de longo e curto prazo.
+Um spread positivo grande significa que os detentores de curto prazo estão realizando lucros muito mais rápido que os de longo prazo — um sinal precoce de distribuição.
+
+Zona SHORT: spread ≥ 0,15 (STH vendendo agressivamente enquanto LTH mantém)
+Zona segura: spread ≤ 0,02 (comportamento alinhado, sem sinal de distribuição)
+
+Atual: STH realizando lucros significativos em relação ao LTH → a distribuição pode estar começando.`,
+    ind_sell_sopr:'STH-SOPR — Realização de Lucros', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  tr: {
+    exchBannerT:"Hangi borsayla başlamalı?", exchBannerD:"Binance ve Bybit karşılaştır + komisyon indirimi",
+    // NAV
+    navInsights:'Blog',
+    footerPrivacy:'Gizlilik Politikası', footerTerms:'Hizmet Şartları', footerDisclaimer:'Yatırım tavsiyesi değildir',
+    whyBtnLabel:'Neden?', whyTopTitle:'Başlıca katkıda bulunanlar', whyBottomTitle:'Geride tutan', histToday:'Bugün', histYesterday:'Dün', histWeekAgo:'Geçen hafta',
+    buyTiming:'📈 LONG Zamanlaması', sellTiming:'📉 SHORT Zamanlaması',
+    livePriceLabel:'Fiyat · Binance', fgLabel:'Korku ve Açgözlülük',
+    rpLabel:'Gerçekleşen Fiyat Farkı', maLabel:'200H HO (ref)',
+    splitPlan:'Kademeli Giriş Planı', splitTitle:'Aşamaya Göre Dağılım',
+    splitStep1:(s)=>`Şimdi (Puan ${s})`, splitStep2:'Hash Ribbon Toparlanması',
+    splitStep3:'Coinbase Premium → Pozitif', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Güncellendi',
+    // Mode labels
+    modeTitle_buy:'LONG ZAMANLAMA PUANI', modeTitle_sell:'SATIŞ BASKISI GÖSTERGESİ',
+    modeSub_buy:'Döngü dibi long giriş modeli', modeSub_sell:'Short giriş zamanlama modeli',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Satış Puanı nasıl okunur',
+    sellExplain_low:'🟢 DÜŞÜK (0~3): Piyasa dip bölgesinde. Çıkış sinyali yok. Tut veya biriktir.',
+    sellExplain_mid:'🟡 ORTA (4~6): Piyasa ısınıyor. Kısmi azaltma için izle.',
+    sellExplain_high:'🔴 YÜKSEK (7~10): Güçlü satış sinyali. Long çık / Short girişi düşün.',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Puanı', ind_nupl:'NUPL', ind_realized:'Gerçekleşen Fiyat Farkı',
+    ind_alt_valuation:'Fiyat vs Tahmini Gerçekleşen (200H HO)', ind_alt_drawdown:'ATH\u2019den Düşüş',
+    tab_dashboard:'Canlı', tab_coins:'Ara', tab_blog:'Blog',
+    ind_alt_short_val:'Fiyat vs Tahmini Gerçekleşen (Short)', ind_alt_short_ath:'ATH Yakınlığı — Aşırı Isınma',
+    ind_rsi:'RSI (14g)', ind_vol_change:'Hacim Hızlanması (15d vs 1s/4s)', ind_btc_corr_tech:'BTC Korelasyonu (30g)',
+    ind_buy_pressure:'Canlı Alım Öncülüğünde Hacim — FOMO', ind_sell_pressure:'Canlı Satış Öncülüğünde Hacim — Kapitülasyon',
+    desc_buy_pressure:`En son 15 dakikalık mumların hacminin agresif alımlarla yönlendirilen oranı. Yüksek bir oran (%65+) ile hacim sıçraması ve yeşil mum birleştiğinde, yerel bir tepe yakınında FOMO kaynaklı aşırı ısınmaya işaret edebilir. Günlük yerine 15 dakikalık veri kullanır ve neredeyse gerçek zamanlı koşulları yansıtır (günlük hacim için 24 saate kadar gecikme yerine 15dk–1s gecikme).`,
+    desc_sell_pressure:`En son 15 dakikalık mumların hacminin agresif satışlarla yönlendirilen oranı. Yüksek bir oran (%58+) ile hacim sıçraması ve kırmızı mum birleştiğinde, yerel bir dip yakınında sıklıkla bir toparlanmadan önce gelen kapitülasyon satışına işaret edebilir. Günlük yerine 15 dakikalık veri kullanır ve neredeyse gerçek zamanlı koşulları yansıtır.`,
+    desc_rsi:`14 günlük Göreceli Güç Endeksi, son fiyat değişimlerinin hızını ve büyüklüğünü ölçen bir momentum osilatörü. 30\u2019un altındaki RSI aşırı satımı gösterir (genellikle dip sinyali), 70\u2019in üzeri ise aşırı alımı gösterir (genellikle tepe sinyali). Tamamen fiyata dayandığı için tüm coinlere eşit uygulanır.`,
+    desc_vol_change:`En son 15 dakikalık mumun hacmini 1 saatlik ve 4 saatlik ortalamalarla karşılaştırır. Bir dibin yakınındaki fiyatla birleşen büyük bir sıçrama, sıklıkla bir toparlanmadan önce gelen kapitülasyon satışına işaret edebilir. Bir tepenin yakınındaki sıçrama, büyük sahiplerce dağıtıma işaret edebilir. Günlük yerine 15 dakikalık veri kullanmak neredeyse gerçek zamanlı koşulları yansıtır.`,
+    desc_btc_corr_tech:`Bu coinin günlük getirileri ile Bitcoin\u2019in son 30 gündeki getirileri arasındaki Pearson korelasyon katsayısı. Düşük korelasyon (0,5 altı) coinin BTC\u2019den bağımsız hareket ettiğini gösterir; bu, geniş piyasa hareketi yerine coine özgü güç veya zayıflığa işaret edebilir.`,
+    desc_alt_short_val:`SHORT modunda altcoinler için tahmini aşırı değerleme göstergesi. Mevcut fiyatın tahmini gerçekleşen fiyatın ne kadar üzerinde olduğunu ölçer — ne kadar yüksekse o kadar aşırı ısınmış ve SHORT için elverişli. ⚠️ Gerçekleşen fiyat bir tahmindir, canlı zincir üstü veri değildir.`,
+    desc_alt_short_ath:`Altcoin SHORT zamanlaması için aşırı ısınma sinyali olarak kullanılan, tüm zamanların en yüksek seviyesine (ATH) olan uzaklık. ATH\u2019ye yakın olmak (-15% içinde) tarihsel olarak yerel tepelerle ve SHORT için daha yüksek elverişlilikle örtüşür.`,
+    ind_btc_corr:'BTC Dominansı — Alt Döngü', desc_btc_corr:`Bitcoin\u2019in piyasa değeri dominansını, daha geniş alt döngü konumunun bir vekili olarak izler. BTC dominansı yüksek olduğunda (%55+) sermaye Bitcoin\u2019de yoğunlaşır ve altcoinler genellikle daha az getiri sağlar — çoğu zaman alt döngüsünün henüz başlamadığının işaretidir. Dominans düştüğünde (%50 altı) sermaye altcoinlere döner; bu tarihsel olarak "alt sezonu" ile ilişkilendirilir.`,
+    desc_alt_valuation:`Altcoinler için tahmini değerleme göstergesi. BTC/ETH/BNB\u2019nin aksine, bu coinin güvenilir zincir üstü MVRV Z-Score verisi yoktur, bu yüzden vekil olarak fiyat vs. tahmini gerçekleşen fiyat kullanırız.
+
+⚠️ Önemli: bu coinin tahmini gerçekleşen fiyatı, canlı zincir üstü veriyle değil 200 haftalık hareketli ortalama (200H HO) ile yaklaşık hesaplanır. 200H HO, zincir üstü gerçekleşen fiyatı yakından takip eden yaygın bir vekildir ama kesin veriden farklıdır. Yalnızca yönsel sinyal olarak kullanın.
+
+Tahmini gerçekleşen fiyatın altında = olası düşük değerleme bölgesi.`,
+    desc_alt_drawdown:`Güvenilir zincir üstü kar/zarar verisi olmayan altcoinlerde NUPL yerine kullanılan, tüm zamanların en yüksek seviyesine (ATH) olan uzaklık.
+
+ATH\u2019den derin düşüşler (%70+) tarihsel olarak büyük altcoinler için döngü diplerine denk gelmiştir, ancak bu coine göre önemli ölçüde değişir.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Vadeli-Spot Farkı',
+    ind_cbp:'Coinbase Premium', ind_lth:'% LTH Arzı', ind_dom:'BTC Dominansı',
+    ind_halving:'Halving Döngüsü',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Aşırı Isınma', ind_sell_nupl:'NUPL — Açgözlülük Seviyesi',
+    ind_sell_funding:'Vadeli Primi', ind_sell_fg:'SOPR LTH-STH Spreadi',
+    desc_sell_fg:`SOPR LTH-STH Spreadi, uzun ve kısa vadeli sahiplerin kar realizasyonu davranışı arasındaki farkı ölçer.
+Büyük pozitif bir spread, kısa vadeli sahiplerin uzun vadelilere göre çok daha hızlı kar realize ettiği anlamına gelir — erken bir dağıtım sinyali.
+
+SHORT bölgesi: spread ≥ 0,15 (STH agresif satarken LTH tutuyor)
+Güvenli bölge: spread ≤ 0,02 (uyumlu davranış, dağıtım sinyali yok)
+
+Mevcut: STH, LTH\u2019ye göre önemli kar realize ediyor → dağıtım başlıyor olabilir.`,
+    ind_sell_sopr:'STH-SOPR — Kar Realizasyonu', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'ZİNCİR ÜSTÜ DEĞERLEME', sec_miner:'MADENCİ / DUYGU',
+    sec_inst:'KURUMSAL AKIŞ', sec_cycle:'DÖNGÜ KONUMU',
+    sec_breakdown:'Puan Dökümü', sec_triggers:'Sonraki Tetikleyiciler',
+    sec_sellTriggers:'Satış Sinyali Tetikleyicileri', sec_macro:'MAKRO UYARILARI',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'TÜMÜ →', loadingInsights:'Yükleniyor...', loadMoreInsights:'Daha Fazla', collapseInsights:'Daralt',
+    sec_history:'Puan Geçmişi', sec_histSub:'Tarayıcıda yerel olarak kaydedildi',
+    histH:'Saat', histD:'Gün', histM:'Ay',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"MVRV Z Puanı, Bitcoin\u2019in gerçekleşen değerine göre ne kadar aşırı veya düşük değerli olduğunu ölçer. \n• < 0: Tarihsel olarak düşük değerli (dip bölgesi) → Güçlü alım\n• 0~1: Hafif düşük değerli → Biriktirme bölgesi  \n• 1~3: Adil değer → Nötr\n• > 3: Aşırı değerli (tepe bölgesi) → Satışı düşün\nMevcut faz: 0,27 — Dibe yakın. Tarihsel olarak 0,5 altı değerler büyük boğa piyasalarından önce gelmiştir.",
+    desc_nupl:"NUPL (Net Gerçekleşmemiş Kar/Zarar) tüm BTC sahiplerinin genel kar/zarar durumunu gösterir.\n• < 0% (Kapitülasyon): Sahipler zararda → Aşırı alım sinyali\n• 0~25% (Umut/Korku): Dipten toparlanma → Alım bölgesi  \n• 25~50% (İyimserlik): Döngü ortası → Nötr\n• 50~75% (İnanç/Açgözlülük): Döngü sonu → İzle\n• > 75% (Öfori): Maksimum açgözlülük → Satış sinyali",
+    desc_realized:"Mevcut fiyatın tüm BTC sahiplerinin ortalama maliyet tabanından (Gerçekleşen Fiyat) ne kadar uzak olduğunu gösterir.\n• 0% altında: Fiyat ortalama maliyetin altında → Panik bölgesi, en güçlü alım\n• 0~5%: Gerçekleşen fiyata yakın → İdeal giriş\n• 5~20%: Orta prim → Kabul edilebilir\n• > 20%: Yüksek prim → Dikkat",
+    desc_hash:"Hash Ribbon, Bitcoin madencilik hash oranının momentumunu izler (30 günlük vs 60 günlük hareketli ortalama).\n• Kapitülasyon: Zayıf madenciler kapanıyor (30HO < 60HO) → Dip oluşuyor\n• Toparlanma Kesişimi: 30HO, 60HO\u2019yu yukarı keser → En güvenilir öncü alım sinyali (2~4 hafta önceden)\nTarihsel doğruluk: 2016, 2018, 2020 ve 2022 diplerini mükemmel işaretledi.",
+    desc_sopr:"Kısa Vadeli Sahip SOPR\u2019u, son alıcıların karla mı zararla mı sattığını ölçer.\n• < 0,95: Ağır zararla panik satışı → Kapitülasyon = alım sinyali\n• 0,95~1,0: Hafif zarar realizasyonu → Dibe yakın\n• 1,0~1,03: Nötr kar realizasyonu\n• > 1,05: Güçlü kar realizasyonu → Dağıtım = tepe sinyali",
+    desc_funding:"Vadeli-Spot Farkı = (Vadeli Mark Fiyatı - Spot Endeks Fiyatı) / Spot Fiyat\n8 saatlik takas gecikmesi olmadan gerçek zamanlı kaldıraç konumlanmasını gösterir.\n• Negatif (backwardation): Vadeli spottan ucuz → Aşırı short → Öncü alım sinyali\n• ±0,01%: Nötr (BTC için normal aralık)\n• > 0,05%: Contango → Aşırı long → Dikkat\n• > 0,15%: Aşırı contango → Tepe sinyali",
+    desc_cbp:"Coinbase Premium = (Coinbase BTC Fiyatı - Binance BTC Fiyatı) / Binance Fiyatı\nABD kurumsal talebini gerçek zamanlı yansıtır. ETF akış verisinden 2~3 gün önde gider.\n• Pozitif: ABD kurumları alıyor → Boğa\n• Sıfıra yakın: İzliyor/nötr\n• Negatif: Kurumlar kenarda → Kısa vadeli ayı\nMevcut: Negatif (46+ ardışık gün) → Kurumlar makro netlik bekliyor.",
+    desc_lth:"% Uzun Vadeli Sahip Arzı = 155+ gün hareketsiz adreslerdeki BTC arzının yüzdesi.\n• > 75%: Balinalar agresif biriktiriyor → Güçlü alım sinyali\n• 70~75%: Normal biriktirme\n• < 70%: Dağıtım (balinalar satıyor)\nRekor seviyeler (%79) akıllı paranın satmadığı anlamına gelir — talep döndüğünde arz şoku gelecek.",
+    desc_dom:"BTC Dominansı = BTC piyasa değeri / Toplam kripto piyasa değeri\nSermaye altcoinlerden Bitcoin\u2019e aktığında yükselir — büyük boğa piyasalarından önceki tipik desen.\n• 55~63% (CoinGecko bazlı): BTC sezonu → Sermaye BTC\u2019de yoğunlaşıyor → Alım bölgesi\n• < 50%: Alt sezonu → Risk açık\n• > 65%: Aşırı BTC dominansı → Yaklaşan alt rotasyonuna işaret edebilir",
+    desc_halving:"Bitcoin halvingleri madencilik ödüllerini her ~4 yılda %50 azaltır ve arz şokları yaratır.\nTarihsel dip zamanlaması:\n• 2015 dibi: 2016 halvinginden 18 ay önce\n• 2018 dibi: 2020 halvinginden 17 ay önce  \n• 2022 dibi: 2024 halvinginden 17 ay önce\n• Mevcut: Nisan 2028 halvinginden ~21 ay önce → Dip penceresinin merkezinde.",
+    // Alert labels
+    alertTitle:'Uyarı Ayarları',
+    alertDesc:'Koşullar sağlandığında tarayıcı push bildirimi + görsel flaş + ses ile bildirim alın.',
+    alertBuySection:'📈 LONG TETİKLEYİCİLERİ', alertSellSection:'📉 SHORT TETİKLEYİCİLERİ',
+    a2:'Long Puanı ≥ 6.0 (Kademeli başlat)',
+    a3:'Long Puanı ≥ 7.0 (Pozisyon artır)', a4:'Long Puanı ≥ 8.0 (Agresif alım)',
+    a5:'MVRV Z ≤ 0 — Tam dip bölgesi', a6:'NUPL 0% altında — Kapitülasyon',
+    a7:'Vadeli farkı negatife döner (backwardation)', a8:'Hash Ribbon toparlanma kesişimi',
+    a9:'Coinbase Premium pozitife döner',
+    b1:'Short Puanı ≥ 6.0 (Short hazırla)', b2:'Short Puanı ≥ 7.0 (Short artır)',
+    b3:'Short Puanı ≥ 8.0 (Tam short)', b4:'MVRV Z ≥ 3.5 — Öfori bölgesi',
+    b5:'NUPL ≥ 75% — Aşırı açgözlülük', b6:'Korku ve Açgözlülük ≥ 80',
+    b7:'Vadeli contango ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Fiyat şunun altına düşünce uyar $', priceAbove:'Fiyat şunun üstüne çıkınca uyar $',
+    enableNotif:'Tarayıcı Bildirimlerini Etkinleştir',
+    ind_sell_lth:'LTH Arzı — Dağıtım', ind_sell_dom:'BTC Dominansı — Risk',
+    ind_sell_halving:'Halving — Döngü Fazı', ind_sell_ath:'ATH Yakınlığı — Tepe Riski',
+    ind_sell_mvrv:'MVRV Z — Aşırı Isınma', ind_sell_nupl:'NUPL — Açgözlülük',
+    ind_sell_funding:'Vadeli Primi', ind_sell_fg:'SOPR LTH-STH Spreadi',
+    desc_sell_fg:`SOPR LTH-STH Spreadi, uzun ve kısa vadeli sahiplerin kar realizasyonu davranışı arasındaki farkı ölçer.
+Büyük pozitif bir spread, kısa vadeli sahiplerin uzun vadelilere göre çok daha hızlı kar realize ettiği anlamına gelir — erken bir dağıtım sinyali.
+
+SHORT bölgesi: spread ≥ 0,15 (STH agresif satarken LTH tutuyor)
+Güvenli bölge: spread ≤ 0,02 (uyumlu davranış, dağıtım sinyali yok)
+
+Mevcut: STH, LTH\u2019ye göre önemli kar realize ediyor → dağıtım başlıyor olabilir.`,
+    ind_sell_sopr:'STH-SOPR — Kar Realizasyonu', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  vi: {
+    exchBannerT:"Bắt đầu với sàn nào?", exchBannerD:"So sánh Binance & Bybit + giảm phí",
+    // NAV
+    navInsights:'Blog',
+    footerPrivacy:'Chính sách bảo mật', footerTerms:'Điều khoản dịch vụ', footerDisclaimer:'Không phải lời khuyên tài chính',
+    whyBtnLabel:'Tại sao?', whyTopTitle:'Đóng góp hàng đầu', whyBottomTitle:'Đang kìm hãm', histToday:'Hôm nay', histYesterday:'Hôm qua', histWeekAgo:'Tuần trước',
+    buyTiming:'📈 Thời điểm LONG', sellTiming:'📉 Thời điểm SHORT',
+    livePriceLabel:'Giá · Binance', fgLabel:'Sợ hãi & Tham lam',
+    rpLabel:'Chênh lệch Giá Thực hiện', maLabel:'MA 200T (tham chiếu)',
+    splitPlan:'Kế hoạch Vào lệnh Từng phần', splitTitle:'Phân bổ theo Giai đoạn',
+    splitStep1:(s)=>`Bây giờ (Điểm ${s})`, splitStep2:'Hash Ribbon Phục hồi',
+    splitStep3:'Coinbase Premium → Dương', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Đã cập nhật',
+    // Mode labels
+    modeTitle_buy:'ĐIỂM THỜI ĐIỂM LONG', modeTitle_sell:'THƯỚC ĐO ÁP LỰC BÁN',
+    modeSub_buy:'Mô hình vào long ở đáy chu kỳ', modeSub_sell:'Mô hình thời điểm vào short',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Cách đọc Điểm Bán',
+    sellExplain_low:'🟢 THẤP (0~3): Thị trường ở vùng đáy. Không có tín hiệu thoát. Giữ hoặc tích lũy.',
+    sellExplain_mid:'🟡 TRUNG BÌNH (4~6): Thị trường đang nóng lên. Theo dõi để giảm một phần.',
+    sellExplain_high:'🔴 CAO (7~10): Tín hiệu bán mạnh. Thoát long / Cân nhắc vào short.',
+    // Indicator names (buy)
+    ind_mvrv_z:'Điểm Z MVRV', ind_nupl:'NUPL', ind_realized:'Chênh lệch Giá Thực hiện',
+    ind_alt_valuation:'Giá vs Giá Thực hiện Ước tính (MA 200T)', ind_alt_drawdown:'Sụt giảm từ ATH',
+    tab_dashboard:'Trực tiếp', tab_coins:'Tìm kiếm', tab_blog:'Blog',
+    ind_alt_short_val:'Giá vs Thực hiện Ước tính (Short)', ind_alt_short_ath:'Gần ATH — Quá nóng',
+    ind_rsi:'RSI (14n)', ind_vol_change:'Tăng tốc Khối lượng (15p vs 1g/4g)', ind_btc_corr_tech:'Tương quan BTC (30n)',
+    ind_buy_pressure:'Khối lượng Trực tiếp do Mua dẫn dắt — FOMO', ind_sell_pressure:'Khối lượng Trực tiếp do Bán dẫn dắt — Đầu hàng',
+    desc_buy_pressure:`Tỷ lệ khối lượng của các nến 15 phút gần nhất được thúc đẩy bởi lực mua chủ động. Tỷ lệ cao (65%+) kết hợp với đột biến khối lượng và nến xanh có thể báo hiệu quá nóng do FOMO gần đỉnh cục bộ. Dùng dữ liệu 15 phút thay vì hàng ngày, phản ánh điều kiện gần thời gian thực (độ trễ 15p–1g so với tối đa 24g cho khối lượng hàng ngày).`,
+    desc_sell_pressure:`Tỷ lệ khối lượng của các nến 15 phút gần nhất được thúc đẩy bởi lực bán chủ động. Tỷ lệ cao (58%+) kết hợp với đột biến khối lượng và nến đỏ có thể báo hiệu đợt bán đầu hàng thường xảy ra trước một đợt hồi phục gần đáy cục bộ. Dùng dữ liệu 15 phút thay vì hàng ngày, phản ánh điều kiện gần thời gian thực.`,
+    desc_rsi:`Chỉ số Sức mạnh Tương đối 14 ngày, một dao động động lượng đo tốc độ và mức độ thay đổi giá gần đây. RSI dưới 30 cho thấy quá bán (thường là tín hiệu đáy), trong khi trên 70 cho thấy quá mua (thường là tín hiệu đỉnh). Áp dụng như nhau cho mọi đồng vì hoàn toàn dựa trên giá.`,
+    desc_vol_change:`So sánh khối lượng nến 15 phút gần nhất với trung bình 1 giờ và 4 giờ. Một đột biến lớn kết hợp với giá gần mức thấp có thể báo hiệu đợt bán đầu hàng thường xảy ra trước một đợt hồi phục. Đột biến gần mức cao có thể báo hiệu phân phối bởi các tay to. Dùng dữ liệu 15 phút thay vì hàng ngày phản ánh điều kiện gần thời gian thực.`,
+    desc_btc_corr_tech:`Hệ số tương quan Pearson giữa lợi nhuận hàng ngày của đồng này và của Bitcoin trong 30 ngày qua. Tương quan thấp (dưới 0,5) cho thấy đồng này di chuyển độc lập với BTC, có thể chỉ ra sức mạnh hoặc điểm yếu riêng của đồng thay vì biến động thị trường chung.`,
+    desc_alt_short_val:`Chỉ báo định giá quá cao ước tính cho altcoin ở chế độ SHORT. Đo giá hiện tại cao hơn giá thực hiện ước tính bao nhiêu — càng cao càng quá nóng và thuận lợi cho SHORT. ⚠️ Giá thực hiện là ước tính, không phải dữ liệu on-chain trực tiếp.`,
+    desc_alt_short_ath:`Khoảng cách từ mức cao nhất mọi thời đại (ATH), dùng làm tín hiệu quá nóng cho thời điểm SHORT của altcoin. Ở gần ATH (trong -15%) về mặt lịch sử trùng với đỉnh cục bộ và mức thuận lợi cao hơn cho SHORT.`,
+    ind_btc_corr:'Thống trị BTC — Chu kỳ Alt', desc_btc_corr:`Theo dõi mức thống trị vốn hóa của Bitcoin như một chỉ báo về vị trí của chu kỳ alt rộng hơn. Khi thống trị BTC cao (55%+), vốn tập trung vào Bitcoin và altcoin có xu hướng kém hơn — thường là dấu hiệu chu kỳ alt chưa bắt đầu. Khi thống trị giảm (dưới 50%), vốn xoay sang altcoin, về mặt lịch sử gắn với "mùa alt".`,
+    desc_alt_valuation:`Chỉ báo định giá ước tính cho altcoin. Khác với BTC/ETH/BNB, đồng này không có dữ liệu MVRV Z-Score on-chain đáng tin cậy, nên chúng tôi dùng giá vs. giá thực hiện ước tính làm chỉ báo thay thế.
+
+⚠️ Quan trọng: giá thực hiện ước tính của đồng này được xấp xỉ bằng trung bình động 200 tuần (MA 200T), không phải dữ liệu on-chain trực tiếp. MA 200T là chỉ báo thay thế được dùng rộng rãi, bám sát giá thực hiện on-chain nhưng khác với dữ liệu chính xác. Chỉ dùng như tín hiệu định hướng.
+
+Dưới giá thực hiện ước tính = vùng có thể bị định giá thấp.`,
+    desc_alt_drawdown:`Khoảng cách từ mức cao nhất mọi thời đại (ATH), dùng thay cho NUPL ở các altcoin không có dữ liệu lãi/lỗ on-chain đáng tin cậy.
+
+Các đợt sụt sâu (70%+) từ ATH về mặt lịch sử trùng với đáy chu kỳ của các altcoin lớn, tuy điều này khác biệt đáng kể tùy đồng.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Chênh lệch Tương lai-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% Nguồn cung LTH', ind_dom:'Thống trị BTC',
+    ind_halving:'Chu kỳ Halving',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Quá nóng', ind_sell_nupl:'NUPL — Mức Tham lam',
+    ind_sell_funding:'Phần bù Tương lai', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Spread SOPR LTH-STH đo khoảng cách giữa hành vi chốt lời của người nắm giữ dài hạn và ngắn hạn.
+Spread dương lớn nghĩa là người nắm giữ ngắn hạn đang chốt lời nhanh hơn nhiều so với dài hạn — tín hiệu sớm của phân phối.
+
+Vùng SHORT: spread ≥ 0,15 (STH bán mạnh trong khi LTH giữ)
+Vùng an toàn: spread ≤ 0,02 (hành vi đồng nhất, không có tín hiệu phân phối)
+
+Hiện tại: STH chốt lời đáng kể so với LTH → phân phối có thể đang bắt đầu.`,
+    ind_sell_sopr:'STH-SOPR — Chốt lời', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'ĐỊNH GIÁ ON-CHAIN', sec_miner:'THỢ ĐÀO / TÂM LÝ',
+    sec_inst:'DÒNG TIỀN TỔ CHỨC', sec_cycle:'VỊ TRÍ CHU KỲ',
+    sec_breakdown:'Phân tích Điểm', sec_triggers:'Kích hoạt Tiếp theo',
+    sec_sellTriggers:'Kích hoạt Tín hiệu Bán', sec_macro:'CẢNH BÁO VĨ MÔ',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'TẤT CẢ →', loadingInsights:'Đang tải...', loadMoreInsights:'Xem thêm', collapseInsights:'Thu gọn',
+    sec_history:'Lịch sử Điểm', sec_histSub:'Lưu cục bộ trên trình duyệt',
+    histH:'Giờ', histD:'Ngày', histM:'Tháng',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"Điểm Z MVRV đo mức Bitcoin bị định giá cao hay thấp so với giá trị thực hiện của nó. \n• < 0: Định giá thấp về mặt lịch sử (vùng đáy) → Mua mạnh\n• 0~1: Định giá hơi thấp → Vùng tích lũy  \n• 1~3: Giá trị hợp lý → Trung lập\n• > 3: Định giá cao (vùng đỉnh) → Cân nhắc bán\nGiai đoạn hiện tại: 0,27 — Gần đáy. Về mặt lịch sử, giá trị dưới 0,5 đã đi trước các thị trường tăng lớn.",
+    desc_nupl:"NUPL (Lãi/Lỗ Ròng Chưa thực hiện) cho thấy trạng thái lãi/lỗ tổng thể của tất cả người nắm giữ BTC.\n• < 0% (Đầu hàng): Người nắm giữ đang lỗ → Tín hiệu mua cực mạnh\n• 0~25% (Hy vọng/Sợ hãi): Hồi phục từ đáy → Vùng mua  \n• 25~50% (Lạc quan): Giữa chu kỳ → Trung lập\n• 50~75% (Tin tưởng/Tham lam): Cuối chu kỳ → Theo dõi\n• > 75% (Hưng phấn): Tham lam tối đa → Tín hiệu bán",
+    desc_realized:"Cho thấy giá hiện tại cách bao xa so với giá vốn trung bình của tất cả người nắm giữ BTC (Giá Thực hiện).\n• Dưới 0%: Giá dưới giá vốn trung bình → Vùng hoảng loạn, mua mạnh nhất\n• 0~5%: Gần giá thực hiện → Điểm vào lý tưởng\n• 5~20%: Phần bù vừa phải → Chấp nhận được\n• > 20%: Phần bù cao → Thận trọng",
+    desc_hash:"Hash Ribbon theo dõi động lượng hash rate khai thác Bitcoin (trung bình động 30 ngày vs 60 ngày).\n• Đầu hàng: Thợ đào yếu đóng cửa (30MA < 60MA) → Đang tạo đáy\n• Giao cắt Phục hồi: 30MA cắt lên trên 60MA → Tín hiệu mua dẫn dắt đáng tin cậy nhất (báo trước 2~4 tuần)\nĐộ chính xác lịch sử: Đánh dấu hoàn hảo các đáy 2016, 2018, 2020 và 2022.",
+    desc_sopr:"SOPR của Người nắm giữ Ngắn hạn đo xem người mua gần đây đang bán lãi hay lỗ.\n• < 0,95: Bán hoảng loạn với lỗ nặng → Đầu hàng = tín hiệu mua\n• 0,95~1,0: Chốt lỗ nhẹ → Gần đáy\n• 1,0~1,03: Chốt lời trung lập\n• > 1,05: Chốt lời mạnh → Phân phối = tín hiệu đỉnh",
+    desc_funding:"Chênh lệch Tương lai-Spot = (Giá Mark Tương lai - Giá Chỉ số Spot) / Giá Spot\nCho thấy vị thế đòn bẩy thời gian thực mà không có độ trễ thanh toán 8 giờ.\n• Âm (backwardation): Tương lai rẻ hơn spot → Quá tải short → Tín hiệu mua dẫn dắt\n• ±0,01%: Trung lập (khoảng bình thường cho BTC)\n• > 0,05%: Contango → Quá tải long → Thận trọng\n• > 0,15%: Contango cực đoan → Tín hiệu đỉnh",
+    desc_cbp:"Coinbase Premium = (Giá BTC Coinbase - Giá BTC Binance) / Giá Binance\nPhản ánh nhu cầu tổ chức Mỹ theo thời gian thực. Đi trước dữ liệu dòng tiền ETF 2~3 ngày.\n• Dương: Tổ chức Mỹ đang mua → Tăng giá\n• Gần 0: Đang quan sát/trung lập\n• Âm: Tổ chức đứng ngoài → Giảm giá ngắn hạn\nHiện tại: Âm (46+ ngày liên tiếp) → Tổ chức chờ sự rõ ràng vĩ mô.",
+    desc_lth:"% Nguồn cung Người nắm giữ Dài hạn = phần trăm nguồn cung BTC nằm trong các địa chỉ không hoạt động 155+ ngày.\n• > 75%: Cá voi tích lũy mạnh → Tín hiệu mua mạnh\n• 70~75%: Tích lũy bình thường\n• < 70%: Phân phối (cá voi đang bán)\nMức kỷ lục (79%) nghĩa là tiền thông minh không bán — cú sốc nguồn cung sẽ đến khi nhu cầu quay lại.",
+    desc_dom:"Thống trị BTC = Vốn hóa BTC / Tổng vốn hóa thị trường crypto\nTăng khi vốn chảy từ altcoin sang Bitcoin — mô hình điển hình trước các thị trường tăng lớn.\n• 55~63% (theo CoinGecko): Mùa BTC → Vốn củng cố vào BTC → Vùng mua\n• < 50%: Mùa alt → Bật rủi ro\n• > 65%: Thống trị BTC cực đoan → Có thể báo hiệu xoay vòng alt sắp tới",
+    desc_halving:"Các đợt halving của Bitcoin giảm phần thưởng khai thác 50% mỗi ~4 năm, tạo cú sốc nguồn cung.\nThời điểm đáy lịch sử:\n• Đáy 2015: 18 tháng trước halving 2016\n• Đáy 2018: 17 tháng trước halving 2020  \n• Đáy 2022: 17 tháng trước halving 2024\n• Hiện tại: ~21 tháng trước halving tháng 4/2028 → Ở giữa cửa sổ đáy.",
+    // Alert labels
+    alertTitle:'Cài đặt Cảnh báo',
+    alertDesc:'Nhận thông báo qua push trình duyệt + nhấp nháy hình ảnh + âm thanh khi điều kiện được đáp ứng.',
+    alertBuySection:'📈 KÍCH HOẠT LONG', alertSellSection:'📉 KÍCH HOẠT SHORT',
+    a2:'Điểm Long ≥ 6.0 (Bắt đầu từng phần)',
+    a3:'Điểm Long ≥ 7.0 (Tăng vị thế)', a4:'Điểm Long ≥ 8.0 (Mua mạnh)',
+    a5:'MVRV Z ≤ 0 — Vùng đáy hoàn toàn', a6:'NUPL dưới 0% — Đầu hàng',
+    a7:'Chênh lệch tương lai thành âm (backwardation)', a8:'Giao cắt phục hồi Hash Ribbon',
+    a9:'Coinbase Premium thành dương',
+    b1:'Điểm Short ≥ 6.0 (Chuẩn bị short)', b2:'Điểm Short ≥ 7.0 (Tăng short)',
+    b3:'Điểm Short ≥ 8.0 (Short toàn phần)', b4:'MVRV Z ≥ 3.5 — Vùng hưng phấn',
+    b5:'NUPL ≥ 75% — Tham lam cực độ', b6:'Sợ hãi & Tham lam ≥ 80',
+    b7:'Contango tương lai ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Cảnh báo khi giá xuống dưới $', priceAbove:'Cảnh báo khi giá lên trên $',
+    enableNotif:'Bật Thông báo Trình duyệt',
+    ind_sell_lth:'Nguồn cung LTH — Phân phối', ind_sell_dom:'Thống trị BTC — Rủi ro',
+    ind_sell_halving:'Halving — Pha Chu kỳ', ind_sell_ath:'Gần ATH — Rủi ro Đỉnh',
+    ind_sell_mvrv:'MVRV Z — Quá nóng', ind_sell_nupl:'NUPL — Tham lam',
+    ind_sell_funding:'Phần bù Tương lai', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Spread SOPR LTH-STH đo khoảng cách giữa hành vi chốt lời của người nắm giữ dài hạn và ngắn hạn.
+Spread dương lớn nghĩa là người nắm giữ ngắn hạn đang chốt lời nhanh hơn nhiều so với dài hạn — tín hiệu sớm của phân phối.
+
+Vùng SHORT: spread ≥ 0,15 (STH bán mạnh trong khi LTH giữ)
+Vùng an toàn: spread ≤ 0,02 (hành vi đồng nhất, không có tín hiệu phân phối)
+
+Hiện tại: STH chốt lời đáng kể so với LTH → phân phối có thể đang bắt đầu.`,
+    ind_sell_sopr:'STH-SOPR — Chốt lời', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
 };

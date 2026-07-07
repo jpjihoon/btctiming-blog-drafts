@@ -140,6 +140,9 @@ const SUPPORTED_LANGS = [
     'ja' => ['code' => 'JA', 'flag' => '🇯🇵', 'name' => '日本語'],
     'es' => ['code' => 'ES', 'flag' => '🇪🇸', 'name' => 'Español'],
     'de' => ['code' => 'DE', 'flag' => '🇩🇪', 'name' => 'Deutsch'],
+    'pt' => ['code' => 'PT', 'flag' => '🇧🇷', 'name' => 'Português'],
+    'tr' => ['code' => 'TR', 'flag' => '🇹🇷', 'name' => 'Türkçe'],
+    'vi' => ['code' => 'VI', 'flag' => '🇻🇳', 'name' => 'Tiếng Việt'],
 ];
 
 /** 언어 코드로 블로그/페이지 URL suffix 생성. 'ko'는 접미사 없음(fallback). */
