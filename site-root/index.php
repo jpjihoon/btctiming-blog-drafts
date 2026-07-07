@@ -388,7 +388,9 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:600px){
   .mobile-tabbar{display:flex;position:fixed;left:0;right:0;top:auto;bottom:0;z-index:900;
     height:48px;background:rgba(15,15,17,.96);backdrop-filter:blur(12px);
-    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
+    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom);
+    transition:transform .25s ease}
+  .mobile-tabbar.tabbar-hidden{transform:translateY(110%)}
   .mtab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
     background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;cursor:pointer;
     transition:color .15s;-webkit-tap-highlight-color:transparent}

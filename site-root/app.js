@@ -2571,6 +2571,29 @@ window.addEventListener('resize', () => {
   _tabResizeTimer = setTimeout(() => { try { initTabs(); } catch(e){} }, 200);
 });
 
+// ── 스크롤 방향에 따라 모바일 하단바 표시/숨김 ──
+// 아래로 스크롤(콘텐츠 읽는 중) → 숨김, 위로 스크롤 또는 멈춤 → 표시.
+(function(){
+  const bar = document.getElementById('mobileTabbar');
+  if (!bar) return;
+  let lastY = window.scrollY || 0;
+  let idleTimer = null;
+  const SHOW = () => bar.classList.remove('tabbar-hidden');
+  const HIDE = () => bar.classList.add('tabbar-hidden');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY || 0;
+    const dy = y - lastY;
+    // 최상단 근처면 항상 표시
+    if (y < 60) { SHOW(); }
+    else if (dy > 6) { HIDE(); }        // 아래로 스크롤 → 숨김
+    else if (dy < -6) { SHOW(); }       // 위로 스크롤 → 표시
+    lastY = y;
+    // 스크롤 멈추고 잠시 지나면 표시
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(SHOW, 900);
+  }, { passive: true });
+})();
+
 function setLang(lang) {
   currentLang = lang;
   try { localStorage.setItem('blogLang', lang); } catch(e) {}
