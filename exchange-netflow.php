@@ -7,33 +7,59 @@
   <p class="es">Cuando alguien mueve Bitcoin a un exchange, generalmente se está preparando para vender. Cuando lo retira a una billetera privada, suele señalar intención de tenencia a largo plazo (HODL). El <strong>Flujo Neto de Exchanges</strong> rastrea este movimiento diariamente.</p>
   <p class="de">Wenn jemand Bitcoin auf eine Börse überträgt, bereitet er sich in der Regel auf den Verkauf vor. Wenn er es in eine private Wallet abzieht, signalisiert dies meist die Absicht zum langfristigen Halten (HODLing). Der <strong>Exchange Netflow</strong> verfolgt diese Bewegung täglich.</p>
 
+  <p class="fr">Lorsque quelqu'un transfère du Bitcoin vers une plateforme d'échange, il se prépare généralement à vendre. Lorsqu'il le retire vers un portefeuille privé, cela signale généralement une intention de conservation à long terme (HODL). Le <strong>Exchange Netflow</strong> suit ce mouvement au quotidien.</p>
+  <p class="pt">Quando alguém move Bitcoin para uma exchange, geralmente está se preparando para vender. Quando o retira para uma carteira privada, isso costuma sinalizar intenção de retenção a longo prazo (HODL). O <strong>Exchange Netflow</strong> acompanha esse movimento diariamente.</p>
+  <p class="tr">Biri Bitcoin'ini bir borsaya taşıdığında, genellikle satmaya hazırlanıyordur. Özel bir cüzdana çektiğinde ise bu genellikle uzun vadeli elde tutma (HODL) niyetine işaret eder. <strong>Exchange Netflow</strong> bu hareketi günlük olarak takip eder.</p>
+  <p class="vi">Khi ai đó chuyển Bitcoin vào một sàn giao dịch, họ thường đang chuẩn bị bán. Khi họ rút ra ví cá nhân, điều đó thường báo hiệu ý định nắm giữ dài hạn (HODL). <strong>Exchange Netflow</strong> theo dõi dòng chuyển động này hằng ngày.</p>
+
   <div class="box ko">💡 <strong>핵심 요약:</strong> 순유입(거래소 잔고 증가)이 지속되면 잠재적 매도 물량이 쌓이고 있다는 뜻이고, 순유출(거래소 잔고 감소)이 지속되면 투자자들이 코인을 빼내 장기 보유로 전환하고 있다는 뜻입니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Sustained net inflow (rising exchange balances) means potential sell pressure is building. Sustained net outflow (falling exchange balances) means investors are moving coins off to hold long-term.</div>
   <div class="box ja">💡 <strong>要点:</strong> 純流入(取引所残高増加)が続くと潜在的な売り圧力が蓄積していることを意味し、純流出(取引所残高減少)が続くと投資家がコインを引き出して長期保有に転じていることを意味します。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Un flujo neto de entrada sostenido (balances de exchange en aumento) significa que se está acumulando presión de venta potencial. Un flujo neto de salida sostenido (balances en descenso) significa que los inversores están retirando monedas para tenencia a largo plazo.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Anhaltender Netto-Zufluss (steigende Börsenbestände) bedeutet, dass sich potenzieller Verkaufsdruck aufbaut. Anhaltender Netto-Abfluss (sinkende Börsenbestände) bedeutet, dass Investoren Münzen zum langfristigen Halten abziehen.</div>
 
+  <div class="box fr">💡 <strong>Point clé :</strong> Un flux net entrant soutenu (hausse des soldes sur les exchanges) signifie qu'une pression de vente potentielle s'accumule. Un flux net sortant soutenu (baisse des soldes sur les exchanges) signifie que les investisseurs retirent leurs pièces pour les conserver à long terme.</div>
+  <div class="box pt">💡 <strong>Resumo principal:</strong> Um fluxo líquido de entrada sustentado (aumento dos saldos nas exchanges) significa que uma potencial pressão de venda está se acumulando. Um fluxo líquido de saída sustentado (queda dos saldos nas exchanges) significa que os investidores estão retirando moedas para retenção a longo prazo.</div>
+  <div class="box tr">💡 <strong>Özet:</strong> Sürekli net giriş (borsa bakiyelerinin artması) potansiyel satış baskısının biriktiği anlamına gelir. Sürekli net çıkış (borsa bakiyelerinin azalması) ise yatırımcıların paralarını uzun vadeli tutmak için çektiği anlamına gelir.</div>
+  <div class="box vi">💡 <strong>Ý chính:</strong> Dòng vào ròng kéo dài (số dư trên sàn tăng) nghĩa là áp lực bán tiềm ẩn đang tích lũy. Dòng ra ròng kéo dài (số dư trên sàn giảm) nghĩa là nhà đầu tư đang rút coin ra để nắm giữ dài hạn.</div>
+
   <h2 class="ko">어떻게 활용하나?</h2>
   <h2 class="en">How to Use It</h2>
   <h2 class="ja">どう活用するか?</h2>
   <h2 class="es">Cómo Usarlo</h2>
   <h2 class="de">Wie man es nutzt</h2>
+  <h2 class="fr">Comment l'utiliser</h2>
+  <h2 class="pt">Como Utilizá-lo</h2>
+  <h2 class="tr">Nasıl Kullanılır?</h2>
+  <h2 class="vi">Cách Sử Dụng</h2>
   <div class="box ko"><strong>대량 순유출 + 가격 하락 동반:</strong> 패닉 매도가 아니라 오히려 저가 매수 후 개인 지갑 이동일 가능성 — 강세 신호로 해석될 수 있음</div>
   <div class="box en"><strong>Large net outflow + falling price:</strong> Rather than panic selling, this can mean dip-buying followed by moving coins to private wallets — often read as a bullish sign</div>
   <div class="box ja"><strong>大量純流出 + 価格下落を伴う:</strong> パニック売りではなく、むしろ押し目買い後の個人ウォレット移動である可能性 — 強気シグナルと解釈されることがある</div>
   <div class="box es"><strong>Gran salida neta + caída de precio:</strong> En lugar de venta de pánico, esto puede significar compra en la caída seguida de traslado a billeteras privadas — a menudo interpretado como señal alcista</div>
   <div class="box de"><strong>Großer Netto-Abfluss + fallender Preis:</strong> Statt Panikverkauf kann dies Dip-Buying gefolgt von Transfer in private Wallets bedeuten — oft als bullisches Zeichen gelesen</div>
+  <div class="box fr"><strong>Forte sortie nette + baisse du prix :</strong> Plutôt qu'une vente de panique, cela peut signifier des achats sur repli suivis d'un transfert vers des portefeuilles privés — souvent interprété comme un signal haussier</div>
+  <div class="box pt"><strong>Grande saída líquida + queda de preço:</strong> Em vez de venda por pânico, isso pode significar compra na baixa seguida da transferência de moedas para carteiras privadas — frequentemente interpretado como um sinal de alta</div>
+  <div class="box tr"><strong>Büyük net çıkış + fiyat düşüşü:</strong> Panik satışından ziyade, bu durum düşüşte alım yapıp ardından paraları özel cüzdanlara taşımak anlamına gelebilir — genellikle yükseliş sinyali olarak yorumlanır</div>
+  <div class="box vi"><strong>Dòng ra ròng lớn + giá giảm:</strong> Thay vì bán tháo hoảng loạn, điều này có thể có nghĩa là mua khi giá giảm rồi chuyển coin sang ví cá nhân — thường được xem là tín hiệu tăng giá</div>
   <div class="box ko"><strong>대량 순유입 + 가격 상승 동반:</strong> 상승장에서 대규모 물량이 거래소로 들어오면 조정 위험 신호</div>
   <div class="box en"><strong>Large net inflow + rising price:</strong> Large inflows into exchanges during an uptrend can signal correction risk</div>
   <div class="box ja"><strong>大量純流入 + 価格上昇を伴う:</strong> 上昇相場で大量の物量が取引所に流入すると、調整リスクのシグナル</div>
   <div class="box es"><strong>Gran entrada neta + precio en alza:</strong> Grandes entradas a exchanges durante una tendencia alcista pueden señalar riesgo de corrección</div>
   <div class="box de"><strong>Großer Netto-Zufluss + steigender Preis:</strong> Große Zuflüsse zu Börsen während eines Aufwärtstrends können Korrekturrisiko signalisieren</div>
+  <div class="box fr"><strong>Forte entrée nette + hausse du prix :</strong> D'importantes entrées vers les exchanges pendant une tendance haussière peuvent signaler un risque de correction</div>
+  <div class="box pt"><strong>Grande entrada líquida + alta de preço:</strong> Grandes entradas nas exchanges durante uma tendência de alta podem sinalizar risco de correção</div>
+  <div class="box tr"><strong>Büyük net giriş + fiyat yükselişi:</strong> Yükseliş trendi sırasında borsalara yönelik büyük girişler düzeltme riskine işaret edebilir</div>
+  <div class="box vi"><strong>Dòng vào ròng lớn + giá tăng:</strong> Dòng tiền lớn đổ vào các sàn giao dịch trong xu hướng tăng có thể báo hiệu rủi ro điều chỉnh</div>
 
   <h2 class="ko">역사적 사례</h2>
   <h2 class="en">Historical Cases</h2>
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas Historiques</h2>
+  <h2 class="pt">Casos Históricos</h2>
+  <h2 class="tr">Tarihsel Örnekler</h2>
+  <h2 class="vi">Các Trường Hợp Lịch Sử</h2>
   <div class="rc">
     <div class="rd">2020.03 – 2021.01</div>
     <div class="rt ko">COVID 폭락 직후부터 지속적인 대규모 순유출이 관찰되며 장기 보유 심리 확산.</div>
@@ -41,11 +67,19 @@
     <div class="rt ja">COVID暴落直後から持続的な大規模純流出が観測され、長期保有心理が広がった。</div>
     <div class="rt es">Salidas netas grandes y sostenidas siguieron al colapso de COVID, reflejando un sentimiento de tenencia a largo plazo en expansión.</div>
     <div class="rt de">Anhaltende große Nettoabflüsse folgten dem COVID-Crash und spiegelten ein sich ausbreitendes Langzeit-Halte-Sentiment wider.</div>
+    <div class="rt fr">D'importantes sorties nettes soutenues ont suivi le krach du COVID, reflétant une propagation du sentiment de conservation à long terme.</div>
+    <div class="rt pt">Grandes saídas líquidas sustentadas seguiram o colapso da COVID, refletindo a disseminação do sentimento de retenção a longo prazo.</div>
+    <div class="rt tr">COVID çöküşünün ardından sürekli büyük net çıkışlar yaşandı ve bu, yayılan uzun vadeli elde tutma eğilimini yansıttı.</div>
+    <div class="rt vi">Các đợt dòng ra ròng lớn kéo dài đã diễn ra sau cú sụp đổ do COVID, phản ánh tâm lý nắm giữ dài hạn đang lan rộng.</div>
     <div class="rr ko">→ $3,800에서 2021년 $69,000까지 약 18배 상승</div>
     <div class="rr en">→ Rose ~18x from $3,800 to $69,000 in 2021</div>
     <div class="rr ja">→ $3,800から2021年に$69,000まで約18倍上昇</div>
     <div class="rr es">→ Subió ~18x de $3,800 a $69,000 en 2021</div>
     <div class="rr de">→ Stieg 2021 um das ~18-fache von $3.800 auf $69.000</div>
+    <div class="rr fr">→ A grimpé d'environ 18x, de 3 800 $ à 69 000 $ en 2021</div>
+    <div class="rr pt">→ Subiu cerca de 18x, de US$ 3.800 para US$ 69.000 em 2021</div>
+    <div class="rr tr">→ 2021'de 3.800 $'dan 69.000 $'a yaklaşık 18 kat yükseldi</div>
+    <div class="rr vi">→ Tăng khoảng 18 lần, từ 3.800 đô la lên 69.000 đô la vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2022.11 (FTX 붕괴)</div>
@@ -54,11 +88,19 @@
     <div class="rt ja">取引所への信頼危機によりセルフカストディへの大規模な移動が発生、純流出が急増。</div>
     <div class="rt es">La crisis de confianza en los exchanges provocó un cambio masivo hacia la autocustodia, disparando las salidas netas.</div>
     <div class="rt de">Die Vertrauenskrise bei Börsen löste einen massiven Wechsel zur Selbstverwahrung aus und ließ die Nettoabflüsse in die Höhe schnellen.</div>
+    <div class="rt fr">La crise de confiance envers les exchanges a déclenché un basculement massif vers l'auto-conservation, faisant grimper les sorties nettes.</div>
+    <div class="rt pt">A crise de confiança nas exchanges provocou uma mudança maciça para a autocustódia, disparando as saídas líquidas.</div>
+    <div class="rt tr">Borsalara yönelik güven krizi, kendi kendine saklamaya (self-custody) devasa bir geçişi tetikledi ve net çıkışları hızla artırdı.</div>
+    <div class="rt vi">Cuộc khủng hoảng niềm tin vào các sàn giao dịch đã kích hoạt một làn sóng chuyển dịch lớn sang tự lưu ký, khiến dòng ra ròng tăng vọt.</div>
     <div class="rr ko">→ $15,500 저점 이후 반등 시작</div>
     <div class="rr en">→ Rebound began after the $15,500 bottom</div>
     <div class="rr ja">→ $15,500の底値後、反発開始</div>
     <div class="rr es">→ El rebote comenzó tras el suelo de $15,500</div>
     <div class="rr de">→ Die Erholung begann nach dem Tief bei $15.500</div>
+    <div class="rr fr">→ Le rebond a commencé après le plancher de 15 500 $</div>
+    <div class="rr pt">→ A recuperação começou após o fundo de US$ 15.500</div>
+    <div class="rr tr">→ Toparlanma, 15.500 $ dip seviyesinin ardından başladı</div>
+    <div class="rr vi">→ Sự phục hồi bắt đầu sau đáy 15.500 đô la</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -66,6 +108,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Points d'Attention Importants</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>거래소 내부 지갑 이동과 구분 필요.</strong> 콜드월렛 재배치 등 내부 이체가 노이즈를 만들 수 있습니다.</li>
     <li><strong>파생상품 담보 이동도 포함될 수 있음.</strong> 반드시 현물 매도 목적만 있는 것은 아닙니다.</li>
@@ -86,12 +132,32 @@
     <li><strong>Von internen Börsen-Wallet-Bewegungen unterscheiden.</strong> Cold-Wallet-Umschichtungen können Rauschen in den Daten erzeugen.</li>
     <li><strong>Kann Derivate-Sicherheiten-Bewegungen einschließen.</strong> Nicht alle Flüsse dienen rein dem Spot-Verkauf.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>À distinguer des mouvements internes de portefeuilles d'exchanges.</strong> Le réarrangement des cold wallets peut créer du bruit dans les données.</li>
+    <li><strong>Peut inclure des mouvements de garanties de produits dérivés.</strong> Tous les flux ne sont pas uniquement destinés à la vente au comptant.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Diferenciar de movimentos internos de carteiras da exchange.</strong> A reorganização de cold wallets pode gerar ruído nos dados.</li>
+    <li><strong>Pode incluir movimentação de garantias de derivativos.</strong> Nem todos os fluxos têm finalidade exclusivamente de venda à vista.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Borsa içi cüzdan hareketlerinden ayırt edilmelidir.</strong> Soğuk cüzdan (cold wallet) yeniden düzenlemeleri verilerde gürültü yaratabilir.</li>
+    <li><strong>Türev teminat hareketlerini de içerebilir.</strong> Tüm akışlar yalnızca spot satış amaçlı değildir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Cần phân biệt với các dịch chuyển ví nội bộ của sàn.</strong> Việc sắp xếp lại ví lạnh (cold wallet) có thể tạo ra nhiễu trong dữ liệu.</li>
+    <li><strong>Có thể bao gồm dịch chuyển tài sản thế chấp phái sinh.</strong> Không phải tất cả dòng tiền đều chỉ nhằm mục đích bán giao ngay.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal en Complément de</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 유입된 물량이 실제로 손실 매도되는지 확인</li>
     <li><strong><a href="/blog/coinbase-premium.html">코인베이스 프리미엄</a>:</strong> 유출과 기관 매수가 겹치는지 확인</li>
@@ -111,6 +177,22 @@
   <ul class="de">
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Prüfen, ob eingehendes Angebot tatsächlich mit Verlust verkauft wird</li>
     <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Prüfen, ob Abflüsse mit institutionellem Kauf zusammenfallen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a> :</strong> Vérifier si l'offre entrante est réellement vendue à perte</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a> :</strong> Vérifier si les sorties coïncident avec des achats institutionnels</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Verificar se o suprimento que está entrando realmente está sendo vendido com prejuízo</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Verificar se as saídas coincidem com compras institucionais</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Giriş yapan arzın gerçekten zararına satılıp satılmadığını kontrol edin</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Çıkışların kurumsal alımlarla örtüşüp örtüşmediğini kontrol edin</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Kiểm tra xem lượng cung chảy vào có thực sự đang bị bán lỗ hay không</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Kiểm tra xem dòng ra có trùng với hoạt động mua của tổ chức hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
