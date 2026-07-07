@@ -488,7 +488,7 @@ function openCoinSearch() {
           <button id="covTabAll" class="cov-tab" onclick="setCoinSearchTab('all')">${TT({ko:'전체',en:'All',ja:'すべて',es:'Todo',de:'Alle'})} <span class="cov-cnt">${COINS.length}</span></button>
         </div>
         <div class="coin-ov-bar">
-          <span class="coin-ov-hint">${TT({ko:'별을 눌러 추가/제거',en:'Tap the star to add/remove',ja:'星をタップして追加/削除',es:'Toca la estrella',de:'Stern tippen'})}</span>
+          <span class="coin-ov-hint" id="covHint">${TT({ko:'별을 눌러 추가/제거',en:'Tap the star to add/remove',ja:'星をタップして追加/削除',es:'Toca la estrella',de:'Stern tippen'})}</span>
           <button class="coin-ov-reset" onclick="resetFavAndRefresh()">${TT({ko:'기본값 초기화',en:'Reset',ja:'リセット',es:'Restablecer',de:'Zurücksetzen'})}</button>
         </div>
         <div id="coinSearchList" class="coin-ov-list"></div>
@@ -525,6 +525,13 @@ function renderCoinSearchList(q) {
   // 즐겨찾기 카운트 뱃지 갱신
   const cnt = document.getElementById('covFavCount');
   if (cnt) cnt.textContent = favs.length;
+  // 탭에 따라 힌트 텍스트 갱신: 전체 탭은 "탭=즐겨찾기 토글", 즐겨찾기 탭은 "탭=이동"
+  const hint = document.getElementById('covHint');
+  if (hint) {
+    hint.textContent = coinSearchTab === 'all'
+      ? TT({ko:'항목을 눌러 즐겨찾기 추가/제거',en:'Tap an item to add/remove favorite',ja:'項目をタップして追加/削除',es:'Toca para añadir/quitar favorito',de:'Tippen zum Hinzufügen/Entfernen'})
+      : TT({ko:'항목을 눌러 이동 · 별로 제거',en:'Tap to switch · star to remove',ja:'タップで移動・星で削除',es:'Toca para ir · estrella para quitar',de:'Tippen zum Wechseln · Stern entfernt'});
+  }
   // 탭에 따라 대상 코인 선정. 검색어가 있으면 전체에서 찾되 즐겨찾기 탭은 즐겨찾기 내에서만.
   const dead = getDelistedCoins();
   let base;
@@ -562,8 +569,15 @@ function renderCoinSearchList(q) {
     </div>`;
   }).join('');
 }
-// 항목 클릭: 그 코인으로 전환하고 오버레이 닫기 (즐겨찾기 해제 아님)
+// 항목 클릭 동작은 탭에 따라 다르다.
+//  · 즐겨찾기 탭: 그 코인으로 전환하고 오버레이 닫기
+//  · 전체 탭: 코인 이동이 아니라 즐겨찾기 추가/해제만 (실수로 이동 방지 + 즐겨찾기 관리 편의)
 function selectCoinFromSearch(id) {
+  if (coinSearchTab === 'all') {
+    // 전체 탭에서는 클릭이 곧 즐겨찾기 토글
+    toggleFavFromSearch(id);
+    return;
+  }
   closeCoinSearch();
   switchCoin(id);
 }
