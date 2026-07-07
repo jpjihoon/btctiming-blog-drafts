@@ -28,12 +28,17 @@ if (!is_readable($metaFile)) {
 $meta = json_decode(file_get_contents($metaFile), true);
 if (!is_array($meta)) { http_response_code(500); exit('bad meta'); }
 
-// 캐시 경로 (meta 파일보다 새 이미지가 있으면 그대로 반환)
+// 본문 파일 경로 (본문 안의 첫 차트 SVG를 OG로 쓰기 위함)
+$bodyFile = __DIR__ . '/blog/' . $slug . '.php';
+$bodyMtime = is_readable($bodyFile) ? filemtime($bodyFile) : 0;
+
+// 캐시 경로 (meta 또는 본문이 바뀌면 새로 생성)
 $cacheDir = __DIR__ . '/og';
 if (!is_dir($cacheDir)) @mkdir($cacheDir, 0755, true);
 $cacheFile = $cacheDir . '/og-' . $slug . '-' . $lang . '.png';
 
-if (is_readable($cacheFile) && filemtime($cacheFile) >= filemtime($metaFile)) {
+$srcMtime = max(filemtime($metaFile), $bodyMtime);
+if (is_readable($cacheFile) && filemtime($cacheFile) >= $srcMtime) {
     header('Content-Type: image/png');
     header('Cache-Control: public, max-age=86400');
     readfile($cacheFile);
@@ -81,28 +86,73 @@ function og_wrap(string $text, int $max, int $maxLines): array {
 }
 
 $fontFile = __DIR__ . '/NotoCJK-Bold.otf';
-
-// ── SVG 구성 ──
-function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
-$tspans = '';
-$y0 = 300;
-foreach ($lines as $i => $ln) {
-    $tspans .= '<text x="80" y="' . ($y0 + $i * 74) . '" fill="#f0f0f0" font-size="52" font-weight="bold" font-family="OG">' . xml($ln) . '</text>';
-}
-$tagW = max(90, mb_strlen($tag) * 22 + 44);
 $fontUri = 'file://' . $fontFile;
-$svg = '<?xml version="1.0" encoding="UTF-8"?>'
-. '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
-. '<defs><style>@font-face{font-family:"OG";src:url("' . $fontUri . '");}</style>'
-. '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d0f"/><stop offset="1" stop-color="#16161a"/></linearGradient></defs>'
-. '<rect width="1200" height="630" fill="url(#bg)"/>'
-. '<rect x="0" y="0" width="1200" height="6" fill="#fbbf24"/>'
-. '<text x="80" y="130" fill="#f0f0f0" font-size="34" font-weight="bold" font-family="OG">BTC<tspan fill="#fbbf24">timing</tspan></text>'
-. '<rect x="80" y="180" width="' . $tagW . '" height="42" rx="21" fill="#2a2410"/>'
-. '<text x="' . (80 + $tagW / 2) . '" y="209" fill="#fbbf24" font-size="22" font-weight="bold" font-family="OG" text-anchor="middle">' . xml($tag) . '</text>'
-. $tspans
-. '<text x="80" y="580" fill="#888888" font-size="26" font-family="OG">btctiming.com · ' . xml($slogan) . '</text>'
-. '</svg>';
+function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
+
+// ── 본문에서 첫 번째 차트 SVG 추출 ──
+// 본문 글 안에 인포그래픽/차트 SVG가 있으면 그걸 OG 이미지의 주인공으로 삼는다.
+// (제목 텍스트 카드가 아니라, 글 안의 실제 시각자료를 공유 썸네일로)
+$chartSvg = null; $chartW = 0; $chartH = 0;
+if ($bodyMtime > 0) {
+    $body = file_get_contents($bodyFile);
+    if ($body !== false && preg_match('/<svg\b[^>]*>.*?<\/svg>/is', $body, $mm)) {
+        $raw = $mm[0];
+        // viewBox에서 원본 크기
+        if (preg_match('/viewBox="[\d.\s]*?([\d.]+)\s+([\d.]+)"/i', $raw, $vb)) {
+            $chartW = (float)$vb[1]; $chartH = (float)$vb[2];
+        } elseif (preg_match('/width="([\d.]+)"[^>]*height="([\d.]+)"/i', $raw, $wh)) {
+            $chartW = (float)$wh[1]; $chartH = (float)$wh[2];
+        }
+        if ($chartW > 0 && $chartH > 0) {
+            // <svg ...> 래퍼 제거하고 내부 그래픽만 추출
+            $inner = preg_replace('/^<svg\b[^>]*>/i', '', $raw);
+            $inner = preg_replace('/<\/svg>\s*$/i', '', $inner);
+            $chartSvg = $inner;
+        }
+    }
+}
+
+// ── OG SVG 구성 ──
+if ($chartSvg !== null) {
+    // [차트형 OG] 상단 브랜드+제목, 그 아래 본문 차트 배치
+    $shortTitle = mb_substr($title, 0, $isCJK ? 26 : 44);
+    // 차트를 폭 1040으로 스케일해서 (80, 300) 위치에 배치
+    $scale = 1040 / $chartW;
+    $svg = '<?xml version="1.0" encoding="UTF-8"?>'
+    . '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
+    . '<defs><style>@font-face{font-family:"OG";src:url("' . $fontUri . '");}</style></defs>'
+    . '<rect width="1200" height="630" fill="#0d0d0f"/>'
+    . '<rect x="0" y="0" width="1200" height="6" fill="#fbbf24"/>'
+    . '<text x="80" y="88" fill="#f0f0f0" font-size="30" font-weight="bold" font-family="OG">BTC<tspan fill="#fbbf24">timing</tspan></text>'
+    . '<text x="80" y="160" fill="#f0f0f0" font-size="44" font-weight="bold" font-family="OG">' . xml($shortTitle) . '</text>'
+    . '<text x="80" y="210" fill="#fbbf24" font-size="22" font-weight="bold" font-family="OG">' . xml($tag) . '</text>'
+    . '<g transform="translate(80, 292) scale(' . $scale . ')">'
+    . '<rect x="0" y="0" width="' . $chartW . '" height="' . $chartH . '" fill="#111113" rx="12"/>'
+    . $chartSvg
+    . '</g>'
+    . '<text x="80" y="600" fill="#888888" font-size="22" font-family="OG">btctiming.com · ' . xml($slogan) . '</text>'
+    . '</svg>';
+} else {
+    // [제목형 OG] 본문에 차트가 없을 때 — 제목 텍스트 카드
+    $tspans = '';
+    $y0 = 300;
+    foreach ($lines as $i => $ln) {
+        $tspans .= '<text x="80" y="' . ($y0 + $i * 74) . '" fill="#f0f0f0" font-size="52" font-weight="bold" font-family="OG">' . xml($ln) . '</text>';
+    }
+    $tagW = max(90, mb_strlen($tag) * 22 + 44);
+    $svg = '<?xml version="1.0" encoding="UTF-8"?>'
+    . '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
+    . '<defs><style>@font-face{font-family:"OG";src:url("' . $fontUri . '");}</style>'
+    . '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d0f"/><stop offset="1" stop-color="#16161a"/></linearGradient></defs>'
+    . '<rect width="1200" height="630" fill="url(#bg)"/>'
+    . '<rect x="0" y="0" width="1200" height="6" fill="#fbbf24"/>'
+    . '<text x="80" y="130" fill="#f0f0f0" font-size="34" font-weight="bold" font-family="OG">BTC<tspan fill="#fbbf24">timing</tspan></text>'
+    . '<rect x="80" y="180" width="' . $tagW . '" height="42" rx="21" fill="#2a2410"/>'
+    . '<text x="' . (80 + $tagW / 2) . '" y="209" fill="#fbbf24" font-size="22" font-weight="bold" font-family="OG" text-anchor="middle">' . xml($tag) . '</text>'
+    . $tspans
+    . '<text x="80" y="580" fill="#888888" font-size="26" font-family="OG">btctiming.com · ' . xml($slogan) . '</text>'
+    . '</svg>';
+}
 
 // ── 렌더: Imagick 우선 ──
 $pngData = null;
