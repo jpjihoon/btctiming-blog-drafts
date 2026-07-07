@@ -102,14 +102,32 @@ function parseFxRates(?string $body): array {
 }
 
 /** raw 응답에서 200주 이동평균 파싱 */
-function parseMA200w(?string $body): ?int {
+function parseMA200w(?string $body): ?float {
     if (!$body) return null;
     $d = json_decode($body, true);
-    if (is_array($d) && count($d) >= 200) {
-        $closes = array_map(fn($k) => (float)$k[4], $d);
-        return (int)round(array_sum($closes) / count($closes));
-    }
-    return null;
+    if (!is_array($d) || count($d) < 20) return null; // 최소 20주는 있어야 의미있는 평균
+    // 200주가 안 되는 신규 코인은 있는 데이터만큼 평균 (상장 후 전체 기간 평균 = 실현가 근사로 유효)
+    $closes = array_map(fn($k) => (float)$k[4], $d);
+    $avg = array_sum($closes) / count($closes);
+    // 저가 코인(XRP·DOGE 등)은 정수 반올림하면 0이 되므로 소수 유지. 값 크기에 따라 정밀도 조정.
+    if ($avg >= 100) return round($avg);
+    if ($avg >= 1)   return round($avg, 2);
+    return round($avg, 6);
+}
+
+// 200주 주봉 데이터에서 최고가(High)를 뽑아 ATH 근사값으로 사용.
+// 진짜 역대 최고가와 100% 일치하진 않지만(4년보다 이전 고점은 놓칠 수 있음),
+// 대부분 코인은 최근 4년 내 ATH라 실용적으로 충분. 코인 심볼만 추가하면 자동 산출됨.
+function parseAthFromKlines(?string $body): ?float {
+    if (!$body) return null;
+    $d = json_decode($body, true);
+    if (!is_array($d) || count($d) < 4) return null;
+    $highs = array_map(fn($k) => (float)$k[2], $d); // 주봉 [2] = High
+    $ath = max($highs);
+    if ($ath <= 0) return null;
+    if ($ath >= 100) return round($ath);
+    if ($ath >= 1)   return round($ath, 2);
+    return round($ath, 6);
 }
 
 /**
