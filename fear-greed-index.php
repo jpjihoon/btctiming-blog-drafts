@@ -6,18 +6,30 @@
 
   <p class="es">"Compra con miedo, vende con codicia" — el <strong>Índice de Miedo y Codicia</strong> convierte este viejo dicho de trading en un número. Combina volatilidad, volumen, sentimiento en redes sociales y encuestas en una sola puntuación de 0 (miedo extremo) a 100 (codicia extrema).</p>
   <p class="de">"Kaufe bei Angst, verkaufe bei Gier" — der <strong>Angst-&amp;-Gier-Index</strong> verwandelt dieses alte Trading-Sprichwort in eine Zahl. Er kombiniert Volatilität, Volumen, Social-Media-Stimmung und Umfragen zu einem einzigen Score von 0 (extreme Angst) bis 100 (extreme Gier).</p>
+  <p class="fr">« Achetez la peur, vendez la cupidité » — l’<strong>indice Fear &amp; Greed</strong> transforme cet ancien adage boursier en un chiffre. Il combine la volatilité, le volume, le sentiment sur les réseaux sociaux et des sondages en un score unique allant de 0 (peur extrême) à 100 (cupidité extrême).</p>
+  <p class="pt">"Compre com medo, venda com ganância" — o <strong>Índice de Medo e Ganância (Fear &amp; Greed Index)</strong> transforma esse velho ditado de trading em um número. Ele combina volatilidade, volume, sentimento nas redes sociais e pesquisas em uma única pontuação de 0 (medo extremo) a 100 (ganância extrema).</p>
+  <p class="tr">"Korkuda al, açgözlülükte sat" — <strong>Korku ve Açgözlülük Endeksi (Fear &amp; Greed Index)</strong> bu eski yatırım deyimini bir sayıya dönüştürür. Volatiliteyi, hacmi, sosyal medya duyarlılığını ve anketleri tek bir puanda birleştirir: 0 (aşırı korku) ile 100 (aşırı açgözlülük) arasında.</p>
+  <p class="vi">"Mua khi sợ hãi, bán khi tham lam" — <strong>Chỉ số Sợ hãi &amp; Tham lam (Fear &amp; Greed Index)</strong> biến câu ngạn ngữ giao dịch cũ này thành một con số. Chỉ số này kết hợp biến động giá, khối lượng giao dịch, tâm lý mạng xã hội và các khảo sát thành một điểm số duy nhất từ 0 (sợ hãi cực độ) đến 100 (tham lam cực độ).</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 지수가 20 이하면 극단적 공포, 80 이상이면 극단적 탐욕 구간입니다. 비트코인의 주요 저점은 대부분 극단적 공포 구간에서, 주요 고점은 극단적 탐욕 구간에서 형성됐습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Below 20 signals extreme fear; above 80 signals extreme greed. Nearly every major Bitcoin bottom formed during extreme fear, and every major top during extreme greed.</div>
   <div class="box ja">💡 <strong>要点:</strong> 指数が20以下なら極端な恐怖、80以上なら極端な強欲ゾーンです。ビットコインの主要な底値のほとんどは極端な恐怖の中で、主要な天井は極端な強欲の中で形成されました。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Por debajo de 20 señala miedo extremo; por encima de 80 señala codicia extrema. Casi todos los suelos importantes de Bitcoin se formaron durante miedo extremo, y todos los techos importantes durante codicia extrema.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Unter 20 signalisiert extreme Angst; über 80 signalisiert extreme Gier. Fast jedes große Bitcoin-Tief bildete sich während extremer Angst, und jedes große Hoch während extremer Gier.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> En dessous de 20, le signal indique une peur extrême ; au-dessus de 80, une cupidité extrême. Presque tous les principaux points bas du Bitcoin se sont formés en période de peur extrême, et tous les principaux sommets en période de cupidité extrême.</div>
+  <div class="box pt">💡 <strong>Resumo:</strong> Abaixo de 20 sinaliza medo extremo; acima de 80 sinaliza ganância extrema. Quase todos os fundos importantes do Bitcoin se formaram durante o medo extremo, e todos os topos importantes durante a ganância extrema.</div>
+  <div class="box tr">💡 <strong>Önemli çıkarım:</strong> 20'nin altı aşırı korkuyu, 80'in üstü aşırı açgözlülüğü işaret eder. Bitcoin'in neredeyse tüm önemli dipleri aşırı korku döneminde, tüm önemli zirveleri ise aşırı açgözlülük döneminde oluşmuştur.</div>
+  <div class="box vi">💡 <strong>Điểm chính:</strong> Dưới 20 báo hiệu sợ hãi cực độ; trên 80 báo hiệu tham lam cực độ. Gần như mọi đáy lớn của Bitcoin đều hình thành trong giai đoạn sợ hãi cực độ, và mọi đỉnh lớn đều hình thành trong giai đoạn tham lam cực độ.</div>
 
   <h2 class="ko">게이지로 시각화하면</h2>
   <h2 class="en">Visualized as a gauge</h2>
   <h2 class="ja">ゲージで可視化すると</h2>
   <h2 class="es">Visualizado como un medidor</h2>
   <h2 class="de">Als Anzeige visualisiert</h2>
+  <h2 class="fr">Visualisé sous forme de jauge</h2>
+  <h2 class="pt">Visualizado como um medidor</h2>
+  <h2 class="tr">Gösterge olarak görselleştirme</h2>
+  <h2 class="vi">Hình dung dưới dạng đồng hồ đo</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -43,7 +55,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Fear &amp; Greed Index Gauge (0-100)</text>
     <g font-family="sans-serif">
@@ -100,6 +112,10 @@
   <p class="ja">複数のデータソースを加重平均して算出します。代表的な構成要素は以下の通りです。</p>
   <p class="es">El índice es un promedio ponderado de varias fuentes de datos, incluyendo:</p>
   <p class="de">Der Index ist ein gewichteter Durchschnitt mehrerer Datenquellen, darunter:</p>
+  <p class="fr">L’indice est une moyenne pondérée de plusieurs sources de données, notamment :</p>
+  <p class="pt">O índice é uma média ponderada de várias fontes de dados, incluindo:</p>
+  <p class="tr">Endeks, aralarında şunların da bulunduğu çeşitli veri kaynaklarının ağırlıklı ortalamasıdır:</p>
+  <p class="vi">Chỉ số này là trung bình có trọng số của nhiều nguồn dữ liệu, bao gồm:</p>
   <ul class="ko">
     <li><strong>변동성:</strong> 최근 가격 변동성을 30~90일 평균과 비교</li>
     <li><strong>모멘텀/거래량:</strong> 현재 거래량과 모멘텀을 이동평균과 비교</li>
@@ -140,12 +156,48 @@
     <li><strong>Dominanz:</strong> Verschiebung von Bitcoins Marktanteil, spiegelt Altcoin-Spekulation wider</li>
     <li><strong>Google Trends:</strong> Suchinteresse-Änderungen rund um "Bitcoin"</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Volatilité :</strong> Volatilité récente des prix par rapport aux moyennes sur 30 à 90 jours</li>
+    <li><strong>Momentum/Volume :</strong> Volume et momentum actuels par rapport aux moyennes mobiles</li>
+    <li><strong>Réseaux sociaux :</strong> Volume de publications et engagement sur les hashtags pertinents</li>
+    <li><strong>Sondages :</strong> Résultats des sondages sur le sentiment des investisseurs</li>
+    <li><strong>Dominance :</strong> Évolution de la part de marché du Bitcoin, reflétant la spéculation sur les altcoins</li>
+    <li><strong>Google Trends :</strong> Évolution de l’intérêt de recherche autour de « Bitcoin »</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Volatilidade:</strong> Volatilidade recente do preço vs. médias de 30-90 dias</li>
+    <li><strong>Momentum/Volume:</strong> Volume e momentum atuais vs. médias móveis</li>
+    <li><strong>Redes Sociais:</strong> Volume de postagens e engajamento em hashtags relevantes</li>
+    <li><strong>Pesquisas:</strong> Resultados de pesquisas de sentimento dos investidores</li>
+    <li><strong>Dominância:</strong> Variação da participação de mercado do Bitcoin, refletindo especulação em altcoins</li>
+    <li><strong>Google Trends:</strong> Mudanças no interesse de busca em torno de "Bitcoin"</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Volatilite:</strong> Son fiyat volatilitesinin 30-90 günlük ortalamalara göre karşılaştırılması</li>
+    <li><strong>Momentum/Hacim:</strong> Mevcut hacim ve momentumun hareketli ortalamalara göre karşılaştırılması</li>
+    <li><strong>Sosyal Medya:</strong> İlgili hashtag'lerdeki gönderi hacmi ve etkileşim</li>
+    <li><strong>Anketler:</strong> Yatırımcı duyarlılık anketi sonuçları</li>
+    <li><strong>Dominans:</strong> Bitcoin'in piyasa payındaki değişim, altcoin spekülasyonunu yansıtır</li>
+    <li><strong>Google Trendleri:</strong> "Bitcoin" etrafındaki arama ilgisi değişimleri</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Biến động:</strong> Biến động giá gần đây so với mức trung bình 30–90 ngày</li>
+    <li><strong>Động lượng/Khối lượng:</strong> Khối lượng và động lượng hiện tại so với các đường trung bình động</li>
+    <li><strong>Mạng xã hội:</strong> Khối lượng bài đăng và mức độ tương tác trên các hashtag liên quan</li>
+    <li><strong>Khảo sát:</strong> Kết quả khảo sát tâm lý nhà đầu tư</li>
+    <li><strong>Sự thống trị:</strong> Sự thay đổi thị phần của Bitcoin, phản ánh đầu cơ altcoin</li>
+    <li><strong>Xu hướng Google:</strong> Thay đổi mức độ quan tâm tìm kiếm xung quanh "Bitcoin"</li>
+  </ul>
 
   <h2 class="ko">구간별 해석</h2>
   <h2 class="en">Zone Interpretation</h2>
   <h2 class="ja">区間別の解釈</h2>
   <h2 class="es">Interpretación por Zona</h2>
   <h2 class="de">Zonen-Interpretation</h2>
+  <h2 class="fr">Interprétation par zone</h2>
+  <h2 class="pt">Interpretação por Zona</h2>
+  <h2 class="tr">Bölgeye Göre Yorumlama</h2>
+  <h2 class="vi">Diễn giải theo Vùng</h2>
   <table class="zt ko">
     <tr><th>지수</th><th>시장 심리</th><th>투자 판단</th></tr>
     <tr><td class="g">0 ~ 20</td><td>극단적 공포</td><td class="g">역발상 매수 구간</td></tr>
@@ -186,12 +238,48 @@
     <tr><td class="y">60 – 80</td><td>Gier</td><td class="y">Vorsicht / Risikomanagement</td></tr>
     <tr><td class="r">80 – 100</td><td>Extreme Gier</td><td class="r">Contrarian-Verkaufszone</td></tr>
   </table>
+  <table class="zt fr">
+    <tr><th>Score</th><th>Sentiment</th><th>Signal</th></tr>
+    <tr><td class="g">0 – 20</td><td>Peur Extrême</td><td class="g">Zone d’Achat à Contre-courant</td></tr>
+    <tr><td class="y">20 – 40</td><td>Peur</td><td class="y">Observer / DCA</td></tr>
+    <tr><td>40 – 60</td><td>Neutre</td><td>Confirmer la Tendance</td></tr>
+    <tr><td class="y">60 – 80</td><td>Cupidité</td><td class="y">Prudence / Gestion du Risque</td></tr>
+    <tr><td class="r">80 – 100</td><td>Cupidité Extrême</td><td class="r">Zone de Vente à Contre-courant</td></tr>
+  </table>
+  <table class="zt pt">
+    <tr><th>Pontuação</th><th>Sentimento</th><th>Sinal</th></tr>
+    <tr><td class="g">0 – 20</td><td>Medo Extremo</td><td class="g">Zona de Compra Contrária</td></tr>
+    <tr><td class="y">20 – 40</td><td>Medo</td><td class="y">Observar / DCA</td></tr>
+    <tr><td>40 – 60</td><td>Neutro</td><td>Confirmar Tendência</td></tr>
+    <tr><td class="y">60 – 80</td><td>Ganância</td><td class="y">Cautela / Gestão de Risco</td></tr>
+    <tr><td class="r">80 – 100</td><td>Ganância Extrema</td><td class="r">Zona de Venda Contrária</td></tr>
+  </table>
+  <table class="zt tr">
+    <tr><th>Puan</th><th>Duyarlılık</th><th>Sinyal</th></tr>
+    <tr><td class="g">0 – 20</td><td>Aşırı Korku</td><td class="g">Ters Yönlü Alım Bölgesi</td></tr>
+    <tr><td class="y">20 – 40</td><td>Korku</td><td class="y">İzle / DCA</td></tr>
+    <tr><td>40 – 60</td><td>Nötr</td><td>Trendi Onayla</td></tr>
+    <tr><td class="y">60 – 80</td><td>Açgözlülük</td><td class="y">Dikkat / Risk Yönetimi</td></tr>
+    <tr><td class="r">80 – 100</td><td>Aşırı Açgözlülük</td><td class="r">Ters Yönlü Satış Bölgesi</td></tr>
+  </table>
+  <table class="zt vi">
+    <tr><th>Điểm số</th><th>Tâm lý</th><th>Tín hiệu</th></tr>
+    <tr><td class="g">0 – 20</td><td>Sợ hãi Cực độ</td><td class="g">Vùng Mua Ngược dòng</td></tr>
+    <tr><td class="y">20 – 40</td><td>Sợ hãi</td><td class="y">Theo dõi / DCA</td></tr>
+    <tr><td>40 – 60</td><td>Trung lập</td><td>Xác nhận Xu hướng</td></tr>
+    <tr><td class="y">60 – 80</td><td>Tham lam</td><td class="y">Thận trọng / Quản lý Rủi ro</td></tr>
+    <tr><td class="r">80 – 100</td><td>Tham lam Cực độ</td><td class="r">Vùng Bán Ngược dòng</td></tr>
+  </table>
 
   <h2 class="ko">역사적 사례</h2>
   <h2 class="en">Historical Cases</h2>
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas historiques</h2>
+  <h2 class="pt">Casos Históricos</h2>
+  <h2 class="tr">Tarihsel Örnekler</h2>
+  <h2 class="vi">Các Trường hợp Lịch sử</h2>
   <div class="rc">
     <div class="rd">2018.12</div>
     <div class="rt ko">비트코인 $3,200 바닥에서 지수 약 8~10 기록, 역대 최저 수준의 극단적 공포.</div>
@@ -199,11 +287,19 @@
     <div class="rt ja">ビットコインが$3,200で底を打った際、指数は約8〜10を記録 — 史上最低水準の極端な恐怖。</div>
     <div class="rt es">El indice registro alrededor de 8-10 cuando Bitcoin toco fondo cerca de $3,200 -- miedo extremo casi record.</div>
     <div class="rt de">Der Index erreichte etwa 8-10 an nahezu rekordverdaechtiger extremer Angst, als Bitcoin nahe $3.200 sein Tief erreichte.</div>
+    <div class="rt fr">L’indice a atteint environ 8-10, une peur extrême proche du record, alors que le Bitcoin touchait son plus bas près de 3 200 $.</div>
+    <div class="rt pt">O índice atingiu cerca de 8-10, medo extremo quase recorde, enquanto o Bitcoin atingia o fundo perto de $3.200.</div>
+    <div class="rt tr">Bitcoin 3.200 dolar civarında dip yaparken endeks yaklaşık 8-10'a geriledi; neredeyse rekor düzeyde aşırı korku.</div>
+    <div class="rt vi">Chỉ số đạt khoảng 8–10, mức sợ hãi cực độ gần kỷ lục, khi Bitcoin tạo đáy gần mức 3.200 đô la.</div>
     <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
     <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
     <div class="rr ja">→ その後2021年に$69,000まで約20倍上昇</div>
     <div class="rr es">→ Bitcoin subio ~20x hasta $69,000 en 2021</div>
     <div class="rr de">→ Bitcoin stieg bis 2021 um das ~20-fache auf $69.000</div>
+    <div class="rr fr">→ Le Bitcoin a grimpé d’environ 20x jusqu’à 69 000 $ d’ici 2021</div>
+    <div class="rr pt">→ O Bitcoin subiu ~20x até $69.000 até 2021</div>
+    <div class="rr tr">→ Bitcoin, 2021'e kadar yaklaşık 20 kat yükselerek 69.000 dolara ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 20 lần lên 69.000 đô la vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2021.11</div>
@@ -212,11 +308,19 @@
     <div class="rt ja">ビットコインが$69,000の天井付近にあった際、指数は84〜90の極端な強欲を記録。</div>
     <div class="rt es">El indice alcanzo 84-90 (codicia extrema) cuando Bitcoin alcanzo su pico cerca de $69,000.</div>
     <div class="rt de">Der Index erreichte 84-90 (extreme Gier), als Bitcoin nahe $69.000 seinen Hoehepunkt erreichte.</div>
+    <div class="rt fr">L’indice a atteint 84-90 (cupidité extrême) alors que le Bitcoin culminait près de 69 000 $.</div>
+    <div class="rt pt">O índice atingiu 84-90 (ganância extrema) enquanto o Bitcoin atingia seu pico perto de $69.000.</div>
+    <div class="rt tr">Bitcoin 69.000 dolar civarında zirve yaparken endeks 84-90'a ulaştı (aşırı açgözlülük).</div>
+    <div class="rt vi">Chỉ số đạt 84–90 (tham lam cực độ) khi Bitcoin đạt đỉnh gần mức 69.000 đô la.</div>
     <div class="rr ko">→ 이후 2022년 $15,500까지 약 77% 하락</div>
     <div class="rr en">→ Bitcoin fell ~77% to $15,500 in 2022</div>
     <div class="rr ja">→ その後2022年に$15,500まで約77%下落</div>
     <div class="rr es">→ Bitcoin cayo ~77% hasta $15,500 en 2022</div>
     <div class="rr de">→ Bitcoin fiel 2022 um ~77% auf $15.500</div>
+    <div class="rr fr">→ Le Bitcoin a chuté d’environ 77 % à 15 500 $ en 2022</div>
+    <div class="rr pt">→ O Bitcoin caiu ~77% para $15.500 em 2022</div>
+    <div class="rr tr">→ Bitcoin, 2022'de yaklaşık %77 düşerek 15.500 dolara geriledi</div>
+    <div class="rr vi">→ Bitcoin giảm khoảng 77% xuống 15.500 đô la vào năm 2022</div>
   </div>
   <div class="rc">
     <div class="rd">2022.11 (FTX 붕괴)</div>
@@ -225,11 +329,19 @@
     <div class="rt ja">FTXの破綻で指数は再び6〜10まで急落、極端な恐怖が再現。</div>
     <div class="rt es">El colapso de FTX hizo que el indice cayera de nuevo a 6-10, miedo extremo una vez mas.</div>
     <div class="rt de">Der FTX-Zusammenbruch liess den Index erneut auf 6-10 fallen -- wieder extreme Angst.</div>
+    <div class="rt fr">L’effondrement de FTX a fait retomber l’indice à 6-10, une peur extrême de nouveau.</div>
+    <div class="rt pt">O colapso da FTX fez o índice cair novamente para 6-10, medo extremo mais uma vez.</div>
+    <div class="rt tr">FTX'in çöküşü endeksi yeniden 6-10 seviyesine düşürdü; bir kez daha aşırı korku hâkim oldu.</div>
+    <div class="rt vi">Sự sụp đổ của FTX đã kéo chỉ số xuống lại mức 6–10, sợ hãi cực độ một lần nữa.</div>
     <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
     <div class="rr en">→ Bitcoin rose ~8x to $126,000 by 2025</div>
     <div class="rr ja">→ その後2025年に$126,000まで約8倍上昇</div>
     <div class="rr es">→ Bitcoin subio ~8x hasta $126,000 en 2025</div>
     <div class="rr de">→ Bitcoin stieg bis 2025 um das ~8-fache auf $126.000</div>
+    <div class="rr fr">→ Le Bitcoin a grimpé d’environ 8x jusqu’à 126 000 $ d’ici 2025</div>
+    <div class="rr pt">→ O Bitcoin subiu ~8x até $126.000 até 2025</div>
+    <div class="rr tr">→ Bitcoin, 2025'e kadar yaklaşık 8 kat yükselerek 126.000 dolara ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 8 lần lên 126.000 đô la vào năm 2025</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -237,6 +349,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en garde importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu ý Quan trọng</h2>
   <ul class="ko">
     <li><strong>극단 구간이 오래 지속될 수 있음.</strong> "공포"라고 해서 즉시 반등하지 않으며, 수주~수개월 더 이어질 수 있습니다.</li>
     <li><strong>단독 매매 신호로 부적합.</strong> 심리 지표이지 가치 평가 지표가 아니므로, 가격이 여전히 고평가 상태일 수 있습니다.</li>
@@ -262,12 +378,36 @@
     <li><strong>Kein eigenständiges Handelssignal.</strong> Misst Stimmung, nicht Bewertung, daher könnte der Preis noch überbewertet sein.</li>
     <li><strong>Retail-gewichtete Komponenten.</strong> Institutionelle Flüsse separat über Coinbase Premium und ähnliche Metriken prüfen.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Les extrêmes peuvent persister.</strong> La « peur » ne garantit pas un rebond immédiat — elle peut se poursuivre pendant des semaines, voire des mois.</li>
+    <li><strong>Pas un signal de trading autonome.</strong> Il mesure le sentiment, pas la valorisation, donc le prix pourrait encore être surévalué.</li>
+    <li><strong>Composantes pondérées vers le détail (retail).</strong> Vérifiez séparément les flux institutionnels via le Coinbase Premium et des indicateurs similaires.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Os extremos podem persistir.</strong> O "medo" não garante uma recuperação imediata — pode continuar por semanas ou meses.</li>
+    <li><strong>Não é um sinal de negociação isolado.</strong> Ele mede sentimento, não valuation, então o preço ainda pode estar sobrevalorizado.</li>
+    <li><strong>Componentes ponderados para o varejo.</strong> Verifique os fluxos institucionais separadamente através do Coinbase Premium e métricas similares.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Aşırı uçlar uzun sürebilir.</strong> "Korku" anında bir toparlanmayı garanti etmez — haftalarca hatta aylarca sürebilir.</li>
+    <li><strong>Tek başına bir alım satım sinyali değildir.</strong> Değerlemeyi değil, duyarlılığı ölçer; bu nedenle fiyat hâlâ aşırı değerli olabilir.</li>
+    <li><strong>Bileşenler perakendeci ağırlıklıdır.</strong> Kurumsal akışları Coinbase Premium ve benzeri metriklerle ayrıca kontrol edin.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Các mức cực đoan có thể kéo dài.</strong> "Sợ hãi" không đảm bảo sự phục hồi ngay lập tức — nó có thể tiếp tục trong nhiều tuần hoặc nhiều tháng.</li>
+    <li><strong>Không phải là tín hiệu giao dịch độc lập.</strong> Chỉ số này đo lường tâm lý, không phải định giá, vì vậy giá vẫn có thể đang bị định giá quá cao.</li>
+    <li><strong>Các thành phần thiên về nhà đầu tư cá nhân (retail).</strong> Cần kiểm tra dòng vốn tổ chức riêng qua Coinbase Premium và các chỉ số tương tự.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal en complément de</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Bunlarla Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết hợp Tốt nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 공포와 저평가가 동시에 확인될 때 신뢰도 상승</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료와 겹치는지 확인</li>
@@ -292,6 +432,26 @@
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Vertrauen steigt, wenn Angst und Unterbewertung übereinstimmen</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob die Miner-Kapitulation ebenfalls endete</li>
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR unter 0,95</a>:</strong> Bestätigen, ob kurzfristige Halter ebenfalls in Panik verkaufen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score sous 0</a>:</strong> La confiance augmente lorsque la peur et la sous-évaluation coïncident</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a>:</strong> Vérifier si la capitulation des mineurs est également terminée</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR sous 0,95</a>:</strong> Confirmer si les détenteurs à court terme vendent également en panique</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score abaixo de 0</a>:</strong> A confiança aumenta quando medo e subavaliação coincidem</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação dos mineradores também terminou</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR abaixo de 0,95</a>:</strong> Confirmar se os detentores de curto prazo também estão vendendo em pânico</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Skoru 0'ın altında</a>:</strong> Korku ve düşük değerleme aynı anda görüldüğünde güven artar</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci kapitülasyonunun da sona erip ermediğini kontrol edin</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 0,95'in altında</a>:</strong> Kısa vadeli sahiplerin de panik satışı yapıp yapmadığını doğrulayın</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score dưới 0</a>:</strong> Độ tin cậy tăng lên khi sợ hãi và định giá thấp cùng xuất hiện</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon chuyển sang phục hồi</a>:</strong> Kiểm tra xem tình trạng đầu hàng của thợ đào có kết thúc hay không</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR dưới 0,95</a>:</strong> Xác nhận liệu người nắm giữ ngắn hạn có đang bán tháo hoảng loạn hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
