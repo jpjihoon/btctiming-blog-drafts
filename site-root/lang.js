@@ -24,7 +24,8 @@ window.LANGS = {
     sellExplain_high:'🔴 HIGH (7~10): Strong sell signal. Exit long / Consider short entry.',
     // Indicator names (buy)
     ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Realized Price Gap',
-    ind_alt_valuation:'Price vs Est. Realized', ind_alt_drawdown:'ATH Drawdown',
+    ind_alt_valuation:'Price vs Est. Realized (200W MA)', ind_alt_drawdown:'ATH Drawdown',
+    tab_dashboard:'Dashboard', tab_coins:'Coins', tab_blog:'Blog',
     ind_alt_short_val:'Price vs Est. Realized (Short)', ind_alt_short_ath:'ATH Proximity — Overheat',
     ind_rsi:'RSI (14d)', ind_vol_change:'Volume Acceleration (15m vs 1h/4h)', ind_btc_corr_tech:'BTC Correlation (30d)',
     ind_buy_pressure:'Live Buy-Led Volume — FOMO', ind_sell_pressure:'Live Sell-Led Volume — Capitulation',
@@ -38,7 +39,7 @@ window.LANGS = {
     ind_btc_corr:'BTC Dominance — Alt Cycle', desc_btc_corr:`Tracks Bitcoin's market cap dominance as a proxy for the broader altcoin cycle position. When BTC dominance is high (55%+), capital is concentrated in Bitcoin and altcoins tend to underperform — often a sign the alt cycle hasn't started yet. When dominance falls (below 50%), capital rotates into altcoins, historically associated with "alt season."`,
     desc_alt_valuation:`Estimated valuation indicator for altcoins. Unlike BTC/ETH/BNB, this coin does not have reliable on-chain MVRV Z-Score data available, so we use price vs. an estimated realized price as a proxy.
 
-⚠️ Important: the realized price for this coin is a rough estimate, not live on-chain data. Use this as a directional signal only, not a precise valuation.
+⚠️ Important: the estimated realized price for this coin is approximated using the 200-week moving average (200W MA), not live on-chain data. The 200W MA is a widely-used proxy that tracks on-chain realized price closely, but differs from precise on-chain data. Use as a directional signal only.
 
 Below estimated realized price = potential undervaluation zone.`,
     desc_alt_drawdown:`Distance from all-time high (ATH), used as a substitute for NUPL on altcoins without reliable on-chain profit/loss data.
@@ -129,7 +130,8 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     longExitLabel:'ロング決済', shortEntryLabel:'ショートエントリーシグナル',
     // Indicator names (buy)
     ind_mvrv_z:'MVRV Zスコア', ind_nupl:'NUPL', ind_realized:'実現価格乖離率',
-    ind_alt_valuation:'価格 vs 推定実現価格', ind_alt_drawdown:'ATH比下落率',
+    ind_alt_valuation:'価格 vs 推定実現価格 (200W MA)', ind_alt_drawdown:'ATH比下落率',
+    tab_dashboard:'ダッシュボード', tab_coins:'コイン', tab_blog:'ブログ',
     ind_alt_short_val:'価格 vs 推定実現価格 (ショート)', ind_alt_short_ath:'ATH近接度 — 過熱',
     ind_rsi:'RSI (14日)', ind_vol_change:'出来高変化率 (15分足 vs 1h/4h)', ind_btc_corr_tech:'BTC相関係数 (30日)',
     ind_buy_pressure:'リアルタイム買い主導出来高 — FOMO/過熱', ind_sell_pressure:'リアルタイム売り主導出来高 — Capitulation',
@@ -143,7 +145,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     ind_btc_corr:'BTCドミナンス — アルトサイクル', desc_btc_corr:`ビットコインの時価総額ドミナンスを、アルトコインサイクルの位置を示す代理指標として活用します。BTCドミナンスが高いとき(55%以上)は資金がビットコインに集中し、アルトコインが軟調な傾向があり、通常はアルトサイクルがまだ始まっていないシグナルです。ドミナンスが下落すると(50%以下)資金がアルトコインに移動し、歴史的に「アルトシーズン」と関連付けられます。`,
     desc_alt_valuation:`アルトコイン向けの推定バリュエーション指標です。BTC/ETH/BNBと異なり、このコインには信頼できるオンチェーンMVRV Zスコアデータがないため、現在価格と推定実現価格の比較を代替指標として使用します。
 
-⚠️ 重要: このコインの実現価格はリアルタイムのオンチェーンデータではなく、大まかな推定値です。精密なバリュエーションではなく方向性の参考としてのみ活用してください。
+⚠️ 重要: このコインの推定実現価格はリアルタイムのオンチェーンデータではなく、200週移動平均(200W MA)で近似した値です。200W MAはオンチェーン実現価格に近い動きをする広く使われるプロキシですが、精密なオンチェーンデータとは異なります。方向性の参考としてのみ活用してください。
 
 推定実現価格以下 = 割安の可能性がある水準。`,
     desc_alt_drawdown:`オンチェーンの損益データが不足しているアルトコインでNUPLの代替指標として使用する、ATH(史上最高値)からの下落率です。
@@ -224,7 +226,8 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     sellExplain_high:'🔴 높음 (7~10점): 강한 매도 신호. 장기 보유 청산 / 숏 진입 검토.',
     longExitLabel:'장기 보유 청산', shortEntryLabel:'숏 진입 신호',
     ind_mvrv_z:'MVRV Z 스코어', ind_nupl:'NUPL', ind_realized:'실현가 이격률',
-    ind_alt_valuation:'가격 vs 추정 실현가', ind_alt_drawdown:'ATH 대비 낙폭',
+    ind_alt_valuation:'가격 vs 추정 실현가 (200주 MA)', ind_alt_drawdown:'ATH 대비 낙폭',
+    tab_dashboard:'대시보드', tab_coins:'코인', tab_blog:'블로그',
     ind_alt_short_val:'가격 vs 추정 실현가 (숏)', ind_alt_short_ath:'ATH 근접도 — 과열',
     ind_rsi:'RSI (14일)', ind_vol_change:'거래량 가속도 (15분봉 vs 1h/4h)', ind_btc_corr_tech:'BTC 상관계수 (30일)',
     ind_buy_pressure:'실시간 매수 주도 거래량 — FOMO/과열', ind_sell_pressure:'실시간 매도 주도 거래량 — Capitulation',
@@ -238,9 +241,9 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     ind_btc_corr:'BTC 도미넌스 — 알트 사이클', desc_btc_corr:`비트코인 시가총액 도미넌스를 알트코인 사이클 위치의 대리 지표로 활용합니다. BTC 도미넌스가 높을 때(55% 이상)는 자금이 비트코인에 집중되어 알트코인이 부진한 경향이 있고, 이는 보통 알트 사이클이 아직 시작되지 않았다는 신호입니다. 도미넌스가 하락하면(50% 이하) 자금이 알트코인으로 이동하며, 역사적으로 '알트 시즌'과 연관됩니다.`,
     desc_alt_valuation:`알트코인용 추정 밸류에이션 지표입니다. BTC/ETH/BNB와 달리 이 코인은 신뢰할 수 있는 온체인 MVRV Z-Score 데이터가 없어, 현재가 대비 추정 실현가를 대체 지표로 사용합니다.
 
-⚠️ 중요: 이 코인의 실현가는 실시간 온체인 데이터가 아닌 대략적인 추정치입니다. 정밀한 밸류에이션이 아닌 방향성 참고용으로만 활용하세요.
+⚠️ 중요: 이 코인의 추정 실현가는 실시간 온체인 데이터가 아니라 200주 이동평균(200W MA)으로 근사한 값입니다. 200주 MA는 온체인 실현가와 비슷하게 움직이는 널리 쓰이는 프록시지만, 정밀한 온체인 실현가와는 다릅니다. 방향성 참고용으로만 활용하세요.
 
-추정 실현가 이하 = 저평가 가능 구간.`,
+추정 실현가(200주 MA) 이하 = 저평가 가능 구간.`,
     desc_alt_drawdown:`온체인 손익 데이터가 부족한 알트코인에서 NUPL 대체 지표로 사용하는 ATH(역대 최고가) 대비 낙폭입니다.
 
 주요 알트코인은 역사적으로 ATH 대비 70% 이상 하락 시 사이클 저점과 겹치는 경우가 많았으나, 코인별 편차가 클 수 있습니다.`,
@@ -326,7 +329,8 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     sellExplain_high:'🔴 ALTA (7~10): Señal de venta fuerte. Salir de largo / Considerar entrada corta.',
     // Indicator names (buy)
     ind_mvrv_z:'Puntuación Z MVRV', ind_nupl:'NUPL', ind_realized:'Brecha del Precio Realizado',
-    ind_alt_valuation:'Precio vs Realizado Est.', ind_alt_drawdown:'Caída desde ATH',
+    ind_alt_valuation:'Precio vs Realizado Est. (200W MA)', ind_alt_drawdown:'Caída desde ATH',
+    tab_dashboard:'Panel', tab_coins:'Monedas', tab_blog:'Blog',
     ind_alt_short_val:'Precio vs Realizado Est. (Corto)', ind_alt_short_ath:'Proximidad a ATH — Sobrecalentamiento',
     ind_rsi:'RSI (14d)', ind_vol_change:'Aceleración de Volumen (15m vs 1h/4h)', ind_btc_corr_tech:'Correlación con BTC (30d)',
     ind_buy_pressure:'Volumen en Vivo Liderado por Compra — FOMO', ind_sell_pressure:'Volumen en Vivo Liderado por Venta — Capitulación',
@@ -340,7 +344,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     ind_btc_corr:'Dominancia BTC — Ciclo Alt', desc_btc_corr:`Rastrea la dominancia de capitalización de mercado de Bitcoin como proxy de la posición del ciclo alt más amplio. Cuando la dominancia BTC es alta (55%+), el capital se concentra en Bitcoin y las altcoins tienden a rendir menos — a menudo señal de que el ciclo alt aún no ha comenzado. Cuando la dominancia cae (por debajo de 50%), el capital rota hacia altcoins, históricamente asociado con la "temporada alt".`,
     desc_alt_valuation:`Indicador de valoración estimado para altcoins. A diferencia de BTC/ETH/BNB, esta moneda no tiene datos confiables de MVRV Z-Score on-chain disponibles, por lo que usamos precio vs. un precio realizado estimado como proxy.
 
-⚠️ Importante: el precio realizado de esta moneda es una estimación aproximada, no datos on-chain en vivo. Úselo solo como señal direccional, no como valoración precisa.
+⚠️ Importante: el precio realizado estimado de esta moneda se aproxima con la media móvil de 200 semanas (200W MA), no con datos on-chain en vivo. La 200W MA es un proxy ampliamente usado que sigue de cerca el precio realizado on-chain, pero difiere de los datos precisos. Úselo solo como señal direccional.
 
 Por debajo del precio realizado estimado = posible zona de infravaloración.`,
     desc_alt_drawdown:`Distancia desde el máximo histórico (ATH), usado como sustituto de NUPL en altcoins sin datos confiables de ganancia/pérdida on-chain.
@@ -430,7 +434,8 @@ Actual: STH realizando ganancias significativas en relación a LTH → la distri
     sellExplain_high:'🔴 HOCH (7~10): Starkes Verkaufssignal. Long-Position schließen / Short-Einstieg erwägen.',
     // Indicator names (buy)
     ind_mvrv_z:'MVRV Z-Score', ind_nupl:'NUPL', ind_realized:'Realized-Price-Abstand',
-    ind_alt_valuation:'Preis vs. gesch. Realized', ind_alt_drawdown:'ATH-Drawdown',
+    ind_alt_valuation:'Preis vs. gesch. Realized (200W MA)', ind_alt_drawdown:'ATH-Drawdown',
+    tab_dashboard:'Dashboard', tab_coins:'Coins', tab_blog:'Blog',
     ind_alt_short_val:'Preis vs. gesch. Realized (Short)', ind_alt_short_ath:'ATH-Nähe — Überhitzung',
     ind_rsi:'RSI (14T)', ind_vol_change:'Volumenbeschleunigung (15m vs 1h/4h)', ind_btc_corr_tech:'BTC-Korrelation (30T)',
     ind_buy_pressure:'Live Kaufgetriebenes Volumen — FOMO', ind_sell_pressure:'Live Verkaufsgetriebenes Volumen — Kapitulation',
@@ -444,7 +449,7 @@ Actual: STH realizando ganancias significativas en relación a LTH → la distri
     ind_btc_corr:'BTC-Dominanz — Alt-Zyklus', desc_btc_corr:`Verfolgt Bitcoins Marktkapitalisierungs-Dominanz als Proxy für die Position im breiteren Alt-Zyklus. Bei hoher BTC-Dominanz (55%+) konzentriert sich Kapital auf Bitcoin und Altcoins tendieren zur Underperformance — oft ein Zeichen, dass der Alt-Zyklus noch nicht begonnen hat. Fällt die Dominanz (unter 50%), rotiert Kapital in Altcoins, historisch verbunden mit der "Alt Season".`,
     desc_alt_valuation:`Geschätzter Bewertungsindikator für Altcoins. Anders als bei BTC/ETH/BNB liegen für diesen Coin keine verlässlichen On-Chain-MVRV-Z-Score-Daten vor, daher nutzen wir Preis vs. geschätzten Realized Price als Proxy.
 
-⚠️ Wichtig: Der Realized Price dieses Coins ist eine grobe Schätzung, keine Live-On-Chain-Daten. Nur als Richtungssignal nutzen, nicht als präzise Bewertung.
+⚠️ Wichtig: Der geschätzte Realized Price dieses Coins wird über den 200-Wochen-Durchschnitt (200W MA) approximiert, nicht über Live-On-Chain-Daten. Der 200W MA ist ein weit verbreiteter Proxy, der dem On-Chain-Realized-Price nahe folgt, sich aber von präzisen Daten unterscheidet. Nur als Richtungssignal nutzen.
 
 Unter geschätztem Realized Price = mögliche Unterbewertungszone.`,
     desc_alt_drawdown:`Abstand vom Allzeithoch (ATH), genutzt als Ersatz für NUPL bei Altcoins ohne verlässliche On-Chain-Gewinn/Verlust-Daten.

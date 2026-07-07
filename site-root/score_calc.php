@@ -87,10 +87,10 @@ function calcBuy(array $ind): array {
         $rp_gap = ($price - $realized_price) / $realized_price * 100;
         // 보간: -40% 이하 만점(28) → 0%(realized가) 근처 18점 → +80% 이상 1점. 계단 절벽 없이 부드럽게 이어짐.
         $s = round(lerpScore($rp_gap, [[-40, 28], [-20, 24], [-10, 22], [0, 18], [20, 12], [50, 6], [80, 1]]), 1);
-        $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized', 'max' => 28, 'score' => $s,
+        $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 28, 'score' => $s,
             'value' => number_format($rp_gap, 1), 'unit' => '%',
             'target' => 'Below estimated realized price', 'signal' => $rp_gap < 0 ? 'Below Realized' : 'Above',
-            'note' => "현재가 \$" . fmtN($price) . " vs 추정 실현가 ~\$" . fmtN($realized_price) . " (갭 " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%). ⚠️ 알트코인 실현가는 추정치입니다."];
+            'note' => "현재가 \$" . fmtN($price) . " vs 추정 실현가 ~\$" . fmtN($realized_price) . " (갭 " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%). ⚠️ 알트코인 실현가는 200주 이동평균(200W MA)으로 근사한 추정치입니다."];
 
         $atd = $ath_drop;
         // 보간: -90% 이하 만점(12) → 0%(ATH) 0점. 기존엔 -30%를 기준으로 0점/3점이 뚝 끊겼는데,

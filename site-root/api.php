@@ -63,6 +63,7 @@ if ($ind === null) {
 
         $price = parsePrice($raw['price'] ?? null);
         $ma200w = parseMA200w($raw['ma200w'] ?? null);
+        $athAuto = parseAthFromKlines($raw['ma200w'] ?? null); // 200주 주봉에서 ATH 근사 추출
         $fg = parseFG($raw['fg'] ?? null);
         $dom = parseDominance($raw['dom'] ?? null);
         $futuresGap = parseFuturesGap($raw['futures'] ?? null);
@@ -105,7 +106,10 @@ if ($ind === null) {
         }
 
         $p = $price ?? 60000;
-        $ath = ATH_MAP[$coin] ?? 100;
+        // 기존 검증된 코인은 정확한 고정 ATH, 목록에 없는 신규 코인은 200주 최고가로 자동 산출.
+        // 자동 ATH가 현재가보다 낮으면(신고가 갱신 중) 현재가를 ATH로 사용.
+        $ath = ATH_MAP[$coin] ?? max($athAuto ?? 0, $p);
+        if ($ath <= 0) $ath = $p;
         $ath_drop = round(($p - $ath) / $ath * 100, 1);
 
         // 기술적 지표 계산 (네트워크 호출 없음, 순수 계산)
@@ -150,7 +154,11 @@ if ($ind === null) {
             'hr_status' => $hr['status'],
             'cb_premium' => $cbp,
             'lth_pct' => $nh['lth_pct'] ?? 79.0,
-            'realized_price' => REALIZED_PRICE[$coin] ?? 52400,
+            // BTC는 온체인 지표 역산 실현가(고정 추정), 알트는 200주 이동평균을 실현가 프록시로 자동 계산.
+            // 200주 MA는 온체인 실현가의 공인 근사치 — 코인 심볼만 추가하면 실현가가 자동 산출됨.
+            'realized_price' => ($coin === 'BTC')
+                ? (REALIZED_PRICE['BTC'] ?? 54000)
+                : ($ma200w ?? (REALIZED_PRICE[$coin] ?? $p)),
             'ath_drop' => $ath_drop,
             'halving_months' => HALVING_MONTHS,
             'rsi14' => $rsi14,

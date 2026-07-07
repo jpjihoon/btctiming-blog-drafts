@@ -319,6 +319,57 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 }
 .coin-tab{flex-shrink:0;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
+.coin-tab-add{font-weight:700;color:var(--t3);padding:5px 11px}
+.coin-tab-add:hover{color:var(--t1);border-color:var(--b2)}
+/* 코인 검색 오버레이 */
+.coin-ov{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);backdrop-filter:blur(3px);align-items:flex-start;justify-content:center;padding:8vh 16px 16px}
+.coin-ov-box{width:100%;max-width:460px;max-height:80vh;display:flex;flex-direction:column;background:#131316;border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.coin-ov-grip{display:none}
+.coin-ov-head{display:flex;align-items:center;gap:8px;padding:14px 14px 10px}
+.coin-ov-input{flex:1;height:40px;padding:0 14px;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:10px;color:#f0f0f0;font-size:14px;outline:none}
+.coin-ov-input:focus{border-color:var(--orange)}
+.coin-ov-close{width:34px;height:34px;flex-shrink:0;background:transparent;border:none;color:#888;font-size:16px;cursor:pointer;border-radius:8px}
+.coin-ov-close:hover{background:#1c1c20;color:#f0f0f0}
+.coin-ov-tabs{display:flex;gap:6px;padding:0 14px 8px}
+.cov-tab{flex:1;height:36px;background:#1c1c20;border:1px solid rgba(255,255,255,.08);border-radius:9px;color:#999;font-size:12.5px;font-weight:700;cursor:pointer;transition:all .12s;display:flex;align-items:center;justify-content:center;gap:5px}
+.cov-tab.active{background:var(--orange);border-color:var(--orange);color:#000}
+.cov-cnt{font-size:11px;font-weight:700;opacity:.7}
+.coin-ov-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 16px 10px}
+.coin-ov-hint{font-size:11px;color:#777}
+.coin-ov-reset{font-size:11px;color:#aaa;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:7px;padding:5px 10px;cursor:pointer}
+.coin-ov-reset:hover{color:#f0f0f0;border-color:var(--orange)}
+.coin-ov-list{overflow-y:auto;-webkit-overflow-scrolling:touch;padding:4px 8px 10px}
+.coin-ov-item{display:flex;align-items:center;gap:10px;padding:11px 12px;border-radius:10px;cursor:pointer;transition:background .1s}
+.coin-ov-item:hover{background:#1c1c20}
+.coin-ov-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.coin-ov-id{font-size:13px;font-weight:700;color:#f0f0f0;min-width:56px}
+.coin-ov-name{font-size:12px;color:#888;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.coin-ov-star{font-size:18px;color:#3a3a40;flex-shrink:0}
+.coin-ov-item.fav .coin-ov-star{color:var(--orange)}
+.coin-ov-empty{padding:30px;text-align:center;color:#666;font-size:13px;line-height:1.6}
+/* 모바일: 하단 시트 형태 */
+@media(max-width:600px){
+  .coin-ov{align-items:flex-end;padding:0}
+  .coin-ov-box{max-width:none;max-height:82vh;border-radius:18px 18px 0 0;border-bottom:none;
+    animation:sheetUp .22s ease-out}
+  .coin-ov-grip{display:block;width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.2);margin:9px auto 2px}
+  .coin-ov-list{padding-bottom:calc(14px + env(safe-area-inset-bottom))}
+  .coin-ov-item{padding:13px 12px}
+  .coin-ov-star{font-size:22px}
+}
+@keyframes sheetUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+/* 모바일 하단 탭바 */
+.mobile-tabbar{display:none}
+@media(max-width:600px){
+  .mobile-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:900;height:58px;
+    background:#0f0f0f;border-top:1px solid rgba(255,255,255,.08);padding-bottom:env(safe-area-inset-bottom)}
+  .mtab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+    background:transparent;border:none;color:#777;font-size:10px;font-weight:600;text-decoration:none;cursor:pointer;transition:color .15s}
+  .mtab.active{color:var(--orange)}
+  .mtab-ic{font-size:19px;line-height:1}
+  .mtab-tx{font-size:10px}
+  body{padding-bottom:58px}
+}
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
 /* 우측 바깥 여백 고정 광고 (레이아웃 1280 + 광고 160 + 여백이 들어갈 만큼 넓을 때만) */
@@ -1016,5 +1067,20 @@ $ft = $footerText[$lang] ?? $footerText['en'];
 <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js" defer onerror="console.error('Firebase database SDK failed to load')"></script>
 <!-- 우측 바깥 여백 광고 (화면이 넓고 광고가 있을 때만 노출, 승인 전엔 비어서 숨김) -->
 <aside class="side-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
+<!-- 모바일 하단 탭바 -->
+<nav class="mobile-tabbar" id="mobileTabbar">
+  <a class="mtab active" href="/<?= h($urlSuffix ?? '') ?>" data-tab="dashboard">
+    <span class="mtab-ic">◧</span>
+    <span class="mtab-tx" data-i="tab_dashboard">대시보드</span>
+  </a>
+  <button type="button" class="mtab" onclick="openCoinSearch()" data-tab="coins">
+    <span class="mtab-ic">◎</span>
+    <span class="mtab-tx" data-i="tab_coins">코인</span>
+  </button>
+  <a class="mtab" href="/blog/<?= isset($urlSuffix) && $urlSuffix ? h($urlSuffix) : '' ?>" data-tab="blog">
+    <span class="mtab-ic">▤</span>
+    <span class="mtab-tx" data-i="tab_blog">블로그</span>
+  </a>
+</nav>
 </body>
 </html>

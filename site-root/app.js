@@ -162,7 +162,9 @@ function setUserAsset(val) {
   // 재렌더
   if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
 }
-const REALIZED_PRICE = {BTC:52400, ETH:2100, BNB:420, SOL:95, XRP:1.48, DOGE:0.09, ADA:0.32, TRX:0.30};
+// 실현가는 백엔드(api.php)가 계산해 ind.realized_price로 내려줌 (BTC=온체인 추정, 알트=200주 MA).
+// 아래 상수는 하위호환용 폴백일 뿐 실제 표시에는 ind.realized_price를 사용한다.
+const REALIZED_PRICE = {BTC:54000, ETH:2100, BNB:420, SOL:95, XRP:1.48, DOGE:0.09, ADA:0.32, TRX:0.30};
 
 const COINS = [
   {id:'BTC', name:'Bitcoin',  sym:'BTCUSDT', color:'#F7931A'},
@@ -173,12 +175,94 @@ const COINS = [
   {id:'DOGE',name:'Dogecoin', sym:'DOGEUSDT',color:'#C2A633'},
   {id:'ADA', name:'Cardano',  sym:'ADAUSDT', color:'#0033AD'},
   {id:'TRX', name:'TRON',     sym:'TRXUSDT', color:'#FF0013'},
+  {id:'AVAX',name:'Avalanche',sym:'AVAXUSDT',color:'#E84142'},
+  {id:'LINK',name:'Chainlink',sym:'LINKUSDT',color:'#2A5ADA'},
+  {id:'DOT', name:'Polkadot', sym:'DOTUSDT', color:'#E6007A'},
+  {id:'MATIC',name:'Polygon', sym:'MATICUSDT',color:'#8247E5'},
+  {id:'LTC', name:'Litecoin', sym:'LTCUSDT', color:'#BFBBBB'},
+  {id:'BCH', name:'Bitcoin Cash',sym:'BCHUSDT',color:'#0AC18E'},
+  {id:'NEAR',name:'NEAR',     sym:'NEARUSDT',color:'#00EC97'},
+  {id:'UNI', name:'Uniswap',  sym:'UNIUSDT', color:'#FF007A'},
+  {id:'APT', name:'Aptos',    sym:'APTUSDT', color:'#4CB4A4'},
+  {id:'ICP', name:'Internet Computer',sym:'ICPUSDT',color:'#3B00B9'},
+  {id:'ATOM',name:'Cosmos',   sym:'ATOMUSDT',color:'#2E3148'},
+  {id:'XLM', name:'Stellar',  sym:'XLMUSDT', color:'#14B6E7'},
+  {id:'ETC', name:'Ethereum Classic',sym:'ETCUSDT',color:'#328332'},
+  {id:'FIL', name:'Filecoin', sym:'FILUSDT', color:'#0090FF'},
+  {id:'HBAR',name:'Hedera',   sym:'HBARUSDT',color:'#000000'},
+  {id:'ARB', name:'Arbitrum', sym:'ARBUSDT', color:'#28A0F0'},
+  {id:'OP',  name:'Optimism', sym:'OPUSDT',  color:'#FF0420'},
+  {id:'VET', name:'VeChain',  sym:'VETUSDT', color:'#15BDFF'},
+  {id:'INJ', name:'Injective',sym:'INJUSDT', color:'#00D2FF'},
+  {id:'SUI', name:'Sui',      sym:'SUIUSDT', color:'#4DA2FF'},
+  {id:'AAVE',name:'Aave',     sym:'AAVEUSDT',color:'#B6509E'},
+  {id:'GRT', name:'The Graph',sym:'GRTUSDT', color:'#6747ED'},
+  {id:'ALGO',name:'Algorand', sym:'ALGOUSDT',color:'#000000'},
+  {id:'SEI', name:'Sei',      sym:'SEIUSDT', color:'#8B1E2B'},
+  {id:'RUNE',name:'THORChain',sym:'RUNEUSDT',color:'#00CCFF'},
+  {id:'FTM', name:'Fantom',   sym:'FTMUSDT', color:'#1969FF'},
+  {id:'TIA', name:'Celestia', sym:'TIAUSDT', color:'#7B2BF9'},
+  {id:'IMX', name:'Immutable',sym:'IMXUSDT', color:'#0B0E1A'},
+  {id:'RENDER',name:'Render', sym:'RENDERUSDT',color:'#CF1011'},
+  {id:'MKR', name:'Maker',    sym:'MKRUSDT', color:'#1AAB9B'},
+  {id:'LDO', name:'Lido DAO', sym:'LDOUSDT', color:'#00A3FF'},
+  {id:'STX', name:'Stacks',   sym:'STXUSDT', color:'#5546FF'},
+  {id:'THETA',name:'Theta',   sym:'THETAUSDT',color:'#2AB8E6'},
+  {id:'SAND',name:'The Sandbox',sym:'SANDUSDT',color:'#00ADEF'},
+  {id:'AXS', name:'Axie Infinity',sym:'AXSUSDT',color:'#0055D5'},
+  {id:'MANA',name:'Decentraland',sym:'MANAUSDT',color:'#FF2D55'},
+  {id:'FLOW',name:'Flow',     sym:'FLOWUSDT',color:'#00EF8B'},
+  {id:'CHZ', name:'Chiliz',   sym:'CHZUSDT', color:'#CD0124'},
+  {id:'GALA',name:'Gala',     sym:'GALAUSDT',color:'#000000'},
+  {id:'EOS', name:'EOS',      sym:'EOSUSDT', color:'#000000'},
+  {id:'PEPE',name:'Pepe',     sym:'PEPEUSDT',color:'#3D8130'},
+  {id:'SHIB',name:'Shiba Inu',sym:'SHIBUSDT',color:'#FFA409'},
 ];
 
 let currentCoin = (function(){
   try { const c = localStorage.getItem('selectedCoin'); if(c && COINS.some(x=>x.id===c)) return c; } catch(e){}
   return 'BTC';
 })();
+
+// ═══════════════════════════════════════════════════════
+// 즐겨찾기 (관심 코인) — localStorage 저장, 대시보드 탭에 노출되는 코인 목록
+// ═══════════════════════════════════════════════════════
+const DEFAULT_FAVORITES = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX']; // 기존 8개
+function getFavorites() {
+  try {
+    const raw = localStorage.getItem('favoriteCoins');
+    if (raw === null) return [...DEFAULT_FAVORITES]; // 최초 방문 = 기본 8개
+    const arr = JSON.parse(raw);
+    // 존재하는 코인만 필터. 비었으면 최소 BTC 하나는 보장.
+    const valid = Array.isArray(arr) ? arr.filter(id => COINS.some(c => c.id === id)) : [];
+    return valid.length ? valid : ['BTC'];
+  } catch(e) { return [...DEFAULT_FAVORITES]; }
+}
+function saveFavorites(list) {
+  // 최소 1개 강제 (다 지우면 BTC 유지)
+  const clean = (Array.isArray(list) ? list : []).filter(id => COINS.some(c => c.id === id));
+  const finalList = clean.length ? clean : ['BTC'];
+  try { localStorage.setItem('favoriteCoins', JSON.stringify(finalList)); } catch(e) {}
+  return finalList;
+}
+function isFavorite(id) { return getFavorites().includes(id); }
+function toggleFavorite(id) {
+  if (!COINS.some(c => c.id === id)) return getFavorites();
+  let favs = getFavorites();
+  if (favs.includes(id)) {
+    favs = favs.filter(x => x !== id); // 제거 (최소 1개는 saveFavorites가 보장)
+  } else {
+    favs.push(id); // 추가 (순서 유지)
+  }
+  return saveFavorites(favs);
+}
+function resetFavorites() { return saveFavorites([...DEFAULT_FAVORITES]); }
+// 즐겨찾기를 COINS 정의 순서(거래량 순)대로 정렬해 반환 — 탭 순서 일관성
+function getFavoriteCoins() {
+  const favs = getFavorites();
+  return COINS.filter(c => favs.includes(c.id));
+}
+
 let currentMode = 'buy';
 let ws = null;
 let livePrice = null;
@@ -196,19 +280,126 @@ let indCache = {};
 // COIN TABS
 // ═══════════════════════════════════════════════════════
 function initTabs() {
+  const favCoins = getFavoriteCoins();
+  // 현재 선택된 코인이 즐겨찾기에서 빠졌으면 첫 즐겨찾기로 이동
+  if (!favCoins.some(c => c.id === currentCoin)) {
+    currentCoin = favCoins.length ? favCoins[0].id : 'BTC';
+    try { localStorage.setItem('selectedCoin', currentCoin); } catch(e) {}
+  }
   const el = document.getElementById('coinTabs');
-  el.innerHTML = COINS.map(c => `
+  el.innerHTML = favCoins.map(c => `
     <div class="coin-tab${c.id===currentCoin?' active':''}"
       onclick="switchCoin('${c.id}')"
       ontouchend="event.preventDefault();switchCoin('${c.id}')"
       style="${c.id===currentCoin?`background:${c.color};border-color:${c.color};color:#000`:''}">
       ${c.id}
-    </div>`).join('');
-  // 모바일 드롭박스 업데이트
+    </div>`).join('')
+    // 끝에 코인 검색/추가 버튼
+    + `<div class="coin-tab coin-tab-add" onclick="openCoinSearch()" ontouchend="event.preventDefault();openCoinSearch()" title="코인 추가/관리" aria-label="Add coins">＋</div>`;
+  // 모바일 드롭박스도 즐겨찾기만
   const drop = document.getElementById('coinDrop');
   if(drop) {
-    drop.innerHTML = COINS.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
+    drop.innerHTML = favCoins.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
   }
+}
+
+// ═══════════════════════════════════════════════════════
+// 코인 검색/즐겨찾기 오버레이
+// ═══════════════════════════════════════════════════════
+let coinSearchTab = 'fav'; // 'fav' | 'all'
+function openCoinSearch() {
+  let ov = document.getElementById('coinSearchOverlay');
+  if (!ov) {
+    ov = document.createElement('div');
+    ov.id = 'coinSearchOverlay';
+    ov.className = 'coin-ov';
+    ov.innerHTML = `
+      <div class="coin-ov-box" role="dialog" aria-modal="true" aria-label="코인 검색">
+        <div class="coin-ov-grip"></div>
+        <div class="coin-ov-head">
+          <input id="coinSearchInput" class="coin-ov-input" type="text" placeholder="${TT({ko:'코인 검색 (이름/심볼)',en:'Search coins (name/symbol)',ja:'コイン検索(名前/シンボル)',es:'Buscar monedas',de:'Coins suchen'})}" autocomplete="off">
+          <button class="coin-ov-close" onclick="closeCoinSearch()" aria-label="Close">✕</button>
+        </div>
+        <div class="coin-ov-tabs">
+          <button id="covTabFav" class="cov-tab active" onclick="setCoinSearchTab('fav')">★ ${TT({ko:'즐겨찾기',en:'Favorites',ja:'お気に入り',es:'Favoritos',de:'Favoriten'})} <span id="covFavCount" class="cov-cnt"></span></button>
+          <button id="covTabAll" class="cov-tab" onclick="setCoinSearchTab('all')">${TT({ko:'전체',en:'All',ja:'すべて',es:'Todo',de:'Alle'})} <span class="cov-cnt">${COINS.length}</span></button>
+        </div>
+        <div class="coin-ov-bar">
+          <span class="coin-ov-hint">${TT({ko:'별을 눌러 추가/제거',en:'Tap the star to add/remove',ja:'星をタップして追加/削除',es:'Toca la estrella',de:'Stern tippen'})}</span>
+          <button class="coin-ov-reset" onclick="resetFavAndRefresh()">${TT({ko:'기본값 초기화',en:'Reset',ja:'リセット',es:'Restablecer',de:'Zurücksetzen'})}</button>
+        </div>
+        <div id="coinSearchList" class="coin-ov-list"></div>
+      </div>`;
+    document.body.appendChild(ov);
+    ov.addEventListener('click', (e) => { if (e.target === ov) closeCoinSearch(); });
+    const inp = ov.querySelector('#coinSearchInput');
+    inp.addEventListener('input', () => renderCoinSearchList(inp.value));
+  }
+  ov.style.display = 'flex';
+  const inp = ov.querySelector('#coinSearchInput');
+  inp.value = '';
+  setCoinSearchTab('fav'); // 열 때마다 즐겨찾기 탭부터
+  // 데스크톱만 자동 포커스 (모바일은 키보드가 시트를 가려서 제외)
+  if (window.matchMedia('(min-width:601px)').matches) setTimeout(() => inp.focus(), 50);
+}
+function closeCoinSearch() {
+  const ov = document.getElementById('coinSearchOverlay');
+  if (ov) ov.style.display = 'none';
+}
+function setCoinSearchTab(tab) {
+  coinSearchTab = tab;
+  const f = document.getElementById('covTabFav'), a = document.getElementById('covTabAll');
+  if (f) f.classList.toggle('active', tab === 'fav');
+  if (a) a.classList.toggle('active', tab === 'all');
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+}
+function renderCoinSearchList(q) {
+  const list = document.getElementById('coinSearchList');
+  if (!list) return;
+  const query = (q || '').trim().toUpperCase();
+  const favs = getFavorites();
+  // 즐겨찾기 카운트 뱃지 갱신
+  const cnt = document.getElementById('covFavCount');
+  if (cnt) cnt.textContent = favs.length;
+  // 탭에 따라 대상 코인 선정. 검색어가 있으면 전체에서 찾되 즐겨찾기 탭은 즐겨찾기 내에서만.
+  let base;
+  if (coinSearchTab === 'fav') {
+    base = COINS.filter(c => favs.includes(c.id));
+  } else {
+    base = COINS;
+  }
+  const matched = base.filter(c =>
+    !query || c.id.includes(query) || c.name.toUpperCase().includes(query)
+  );
+  if (!matched.length) {
+    const emptyMsg = coinSearchTab === 'fav' && !query
+      ? TT({ko:'즐겨찾기한 코인이 없습니다. 전체 탭에서 추가하세요.',en:'No favorites yet. Add from the All tab.',ja:'お気に入りがありません。すべてタブから追加してください。',es:'Sin favoritos. Añade desde la pestaña Todo.',de:'Keine Favoriten. Über den Alle-Tab hinzufügen.'})
+      : TT({ko:'검색 결과 없음',en:'No results',ja:'該当なし',es:'Sin resultados',de:'Keine Ergebnisse'});
+    list.innerHTML = `<div class="coin-ov-empty">${emptyMsg}</div>`;
+    return;
+  }
+  list.innerHTML = matched.map(c => {
+    const on = favs.includes(c.id);
+    return `<div class="coin-ov-item${on?' fav':''}" onclick="toggleFavFromSearch('${c.id}')">
+      <span class="coin-ov-dot" style="background:${c.color}"></span>
+      <span class="coin-ov-id">${c.id}</span>
+      <span class="coin-ov-name">${c.name}</span>
+      <span class="coin-ov-star">${on?'★':'☆'}</span>
+    </div>`;
+  }).join('');
+}
+function toggleFavFromSearch(id) {
+  toggleFavorite(id);
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+  initTabs(); // 대시보드 탭 즉시 갱신
+}
+function resetFavAndRefresh() {
+  resetFavorites();
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+  initTabs();
 }
 
 let loadToken = 0;
@@ -571,7 +762,7 @@ const GUIDE_LINK_MAP={
   cb_premium:'coinbase-premium', lth_supply:'long-term-holder-supply', dom:'btc-dominance',
   halving:'bitcoin-halving-timing', ath_pos:'ath-drawdown', alt_drawdown:'ath-drawdown',
   alt_short_ath:'ath-drawdown', rsi:'rsi-bitcoin',
-  alt_valuation:'mvrv-z-score', alt_short_valuation:'mvrv-z-score',
+  alt_valuation:'200-week-moving-average', alt_short_valuation:'200-week-moving-average',
   btc_corr:'btc-dominance', btc_corr_tech:'btc-correlation-guide',
   buy_pressure:'buy-sell-led-volume-guide', sell_pressure:'buy-sell-led-volume-guide',
   vol_change:'volume-acceleration-guide',
