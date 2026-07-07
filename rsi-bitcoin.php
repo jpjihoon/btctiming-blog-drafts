@@ -6,18 +6,30 @@
 
   <p class="es">El <strong>RSI (Índice de Fuerza Relativa)</strong> es uno de los indicadores de momentum más utilizados. Compara las ganancias y pérdidas recientes durante un período determinado, expresando el resultado como un valor entre 0 y 100 — útil para evaluar rápidamente el estado de sobrecompra o sobreventa de Bitcoin.</p>
   <p class="de">Der <strong>RSI (Relative Strength Index)</strong> ist einer der am häufigsten verwendeten Momentum-Indikatoren. Er vergleicht jüngste Gewinne und Verluste über einen festgelegten Zeitraum und drückt das Ergebnis als Wert zwischen 0 und 100 aus — nützlich, um Bitcoins kurzfristigen überkauften oder überverkauften Zustand schnell einzuschätzen.</p>
+  <p class="fr">Le <strong>RSI (Relative Strength Index, indice de force relative)</strong> est l'un des indicateurs de momentum les plus utilisés. Il compare les gains et les pertes récents sur une période donnée, exprimant le résultat sous la forme d'une valeur comprise entre 0 et 100 — utile pour évaluer rapidement l'état de surachat ou de survente à court terme du Bitcoin.</p>
+  <p class="pt">O <strong>RSI (Relative Strength Index, Índice de Força Relativa)</strong> é um dos indicadores de momentum mais utilizados. Ele compara os ganhos e perdas recentes ao longo de um período definido, expressando o resultado como um valor entre 0 e 100 — útil para avaliar rapidamente o estado de sobrecompra ou sobrevenda de curto prazo do Bitcoin.</p>
+  <p class="tr"><strong>RSI (Relative Strength Index, Göreceli Güç Endeksi)</strong>, en yaygın kullanılan momentum göstergelerinden biridir. Belirli bir dönemdeki yakın zamanlı kazançları ve kayıpları karşılaştırarak sonucu 0 ile 100 arasında bir değer olarak ifade eder — Bitcoin'in kısa vadeli aşırı alım veya aşırı satım durumunu hızlıca değerlendirmek için kullanışlıdır.</p>
+  <p class="vi"><strong>RSI (Relative Strength Index, Chỉ số Sức mạnh Tương đối)</strong> là một trong những chỉ báo động lượng được sử dụng rộng rãi nhất. Chỉ số này so sánh mức tăng và giảm gần đây trong một khoảng thời gian nhất định, thể hiện kết quả bằng một giá trị từ 0 đến 100 — hữu ích để nhanh chóng đánh giá trạng thái mua quá mức hoặc bán quá mức ngắn hạn của Bitcoin.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 일반적으로 RSI 30 이하는 과매도, 70 이상은 과매수로 해석합니다. BTCtiming.com은 14일 RSI를 기본으로 사용합니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> RSI below 30 is typically read as oversold, above 70 as overbought. BTCtiming.com uses the 14-day RSI by default.</div>
   <div class="box ja">💡 <strong>要点:</strong> 一般的にRSI 30以下は売られすぎ、70以上は買われすぎと解釈します。BTCtiming.comでは14日RSIを基本として使用しています。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> Un RSI por debajo de 30 se interpreta típicamente como sobreventa, por encima de 70 como sobrecompra. BTCtiming.com usa el RSI de 14 días por defecto.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> RSI unter 30 wird typischerweise als überverkauft gelesen, über 70 als überkauft. BTCtiming.com verwendet standardmäßig den 14-Tage-RSI.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Un RSI inférieur à 30 est généralement interprété comme une survente, supérieur à 70 comme un surachat. BTCtiming.com utilise le RSI 14 jours par défaut.</div>
+  <div class="box pt">💡 <strong>Resumo:</strong> Um RSI abaixo de 30 é geralmente interpretado como sobrevenda, acima de 70 como sobrecompra. O BTCtiming.com usa o RSI de 14 dias por padrão.</div>
+  <div class="box tr">💡 <strong>Önemli nokta:</strong> RSI'nin 30'un altında olması genellikle aşırı satım, 70'in üzerinde olması ise aşırı alım olarak yorumlanır. BTCtiming.com varsayılan olarak 14 günlük RSI kullanır.</div>
+  <div class="box vi">💡 <strong>Điểm chính:</strong> RSI dưới 30 thường được coi là bán quá mức, trên 70 là mua quá mức. BTCtiming.com sử dụng RSI 14 ngày làm mặc định.</div>
 
   <h2 class="ko">구간별 해석</h2>
   <h2 class="en">Zone Interpretation</h2>
   <h2 class="ja">区間別の解釈</h2>
   <h2 class="es">Interpretación por Zona</h2>
   <h2 class="de">Zonen-Interpretation</h2>
+  <h2 class="fr">Interprétation par zone</h2>
+  <h2 class="pt">Interpretação por Zona</h2>
+  <h2 class="tr">Bölgelere Göre Yorumlama</h2>
+  <h2 class="vi">Diễn giải theo Vùng</h2>
   <table class="zt ko">
     <tr><th>RSI</th><th>상태</th><th>참고 사항</th></tr>
     <tr><td class="g">30 이하</td><td>과매도</td><td>단기 반등 가능성 (강세장에선 40~50에서도 반등)</td></tr>
@@ -42,11 +54,19 @@
   <h2 class="ja">ダイバージェンス — RSIの真の強み</h2>
   <h2 class="es">Divergencia — La Verdadera Fortaleza del RSI</h2>
   <h2 class="de">Divergenz — Die wahre Stärke des RSI</h2>
+  <h2 class="fr">Divergence — La véritable force du RSI</h2>
+  <h2 class="pt">Divergência — A Verdadeira Força do RSI</h2>
+  <h2 class="tr">Uyumsuzluk (Divergence) — RSI'nin Gerçek Gücü</h2>
+  <h2 class="vi">Phân kỳ (Divergence) — Sức mạnh Thực sự của RSI</h2>
   <p class="ko">가격은 신고점을 경신하는데 RSI는 이전 고점보다 낮다면(약세 다이버전스), 상승 모멘텀이 약해지고 있다는 신호입니다. 반대로 가격은 신저점을 경신하는데 RSI가 이전 저점보다 높다면(강세 다이버전스), 하락 모멘텀이 소진되고 있다는 신호입니다.</p>
   <p class="en">If price makes a new high but RSI makes a lower high (bearish divergence), it signals weakening upward momentum. If price makes a new low but RSI makes a higher low (bullish divergence), it signals downward momentum is running out.</p>
   <p class="ja">価格が新高値を更新しているのにRSIが前回の高値より低い場合(弱気ダイバージェンス)、上昇モメンタムが弱まっているシグナルです。逆に価格が新安値を更新しているのにRSIが前回の安値より高い場合(強気ダイバージェンス)、下降モメンタムが尽きつつあるシグナルです。</p>
   <p class="es">Si el precio marca un nuevo máximo pero el RSI marca un máximo más bajo (divergencia bajista), señala un debilitamiento del momentum alcista. Si el precio marca un nuevo mínimo pero el RSI marca un mínimo más alto (divergencia alcista), señala que el momentum bajista se está agotando.</p>
   <p class="de">Wenn der Preis ein neues Hoch erreicht, der RSI aber ein niedrigeres Hoch bildet (bärische Divergenz), signalisiert dies nachlassendes Aufwärtsmomentum. Wenn der Preis ein neues Tief erreicht, der RSI aber ein höheres Tief bildet (bullische Divergenz), signalisiert dies, dass das Abwärtsmomentum nachlässt.</p>
+  <p class="fr">Si le prix atteint un nouveau sommet mais que le RSI forme un sommet plus bas (divergence baissière), cela signale un affaiblissement de la dynamique haussière. Si le prix atteint un nouveau plus bas mais que le RSI forme un plus bas plus élevé (divergence haussière), cela signale que la dynamique baissière s'essouffle.</p>
+  <p class="pt">Se o preço atinge uma nova máxima, mas o RSI forma uma máxima mais baixa (divergência de baixa), isso sinaliza um enfraquecimento do momentum de alta. Se o preço atinge uma nova mínima, mas o RSI forma uma mínima mais alta (divergência de alta), isso sinaliza que o momentum de baixa está se esgotando.</p>
+  <p class="tr">Fiyat yeni bir zirve yaparken RSI daha düşük bir zirve yapıyorsa (düşüş yönlü uyumsuzluk), bu yukarı yönlü momentumun zayıfladığını gösterir. Fiyat yeni bir dip yaparken RSI daha yüksek bir dip yapıyorsa (yükseliş yönlü uyumsuzluk), bu aşağı yönlü momentumun tükendiğini gösterir.</p>
+  <p class="vi">Nếu giá tạo đỉnh mới nhưng RSI tạo đỉnh thấp hơn (phân kỳ giảm), đó là tín hiệu cho thấy động lượng tăng đang suy yếu. Nếu giá tạo đáy mới nhưng RSI tạo đáy cao hơn (phân kỳ tăng), đó là tín hiệu cho thấy động lượng giảm đang cạn kiệt.</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -64,7 +84,7 @@
     <text x="450" y="230" fill="#f87171" font-size="10" font-weight="700">낮은 고점 = 모멘텀 약화</text>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Bearish Divergence — Price makes new high, RSI doesn't</text>
     <text x="20" y="45" fill="#71717a" font-size="10" font-family="sans-serif">Price</text>
@@ -102,6 +122,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en garde importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu ý Quan trọng</h2>
   <ul class="ko">
     <li><strong>강세장에서는 과매수 상태가 오래 지속될 수 있음.</strong> RSI가 70을 넘었다고 바로 매도 신호로 보면 큰 상승분을 놓칠 수 있습니다.</li>
     <li><strong>타임프레임에 따라 신호가 다름.</strong> 일봉·주봉 RSI는 방향성이 다르게 나올 수 있어 함께 봐야 합니다.</li>
@@ -122,12 +146,32 @@
     <li><strong>Überkaufte Bedingungen können in Bullenmärkten anhalten.</strong> RSI über 70 als sofortiges Verkaufssignal zu behandeln kann bedeuten, große Gewinne zu verpassen.</li>
     <li><strong>Signale unterscheiden sich je nach Zeitrahmen.</strong> Täglicher und wöchentlicher RSI können in unterschiedliche Richtungen zeigen und sollten zusammen geprüft werden.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Les conditions de surachat peuvent persister dans les marchés haussiers.</strong> Considérer un RSI supérieur à 70 comme un signal de vente immédiat peut faire manquer d'importants gains.</li>
+    <li><strong>Les signaux diffèrent selon l'horizon temporel.</strong> Le RSI journalier et hebdomadaire peuvent pointer dans des directions différentes et doivent être vérifiés ensemble.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>As condições de sobrecompra podem persistir em mercados de alta.</strong> Tratar o RSI acima de 70 como um sinal de venda imediato pode significar perder grandes ganhos.</li>
+    <li><strong>Os sinais diferem conforme o período de tempo.</strong> O RSI diário e semanal podem apontar em direções diferentes e devem ser verificados juntos.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Aşırı alım koşulları boğa piyasalarında uzun süre devam edebilir.</strong> RSI'nin 70'in üzerinde olmasını anında satış sinyali olarak değerlendirmek büyük kazançları kaçırmak anlamına gelebilir.</li>
+    <li><strong>Sinyaller zaman dilimine göre farklılık gösterir.</strong> Günlük ve haftalık RSI farklı yönleri işaret edebilir ve birlikte kontrol edilmelidir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Trạng thái mua quá mức có thể kéo dài trong thị trường tăng giá.</strong> Coi RSI trên 70 là tín hiệu bán ngay lập tức có thể khiến bạn bỏ lỡ những khoản lợi nhuận lớn.</li>
+    <li><strong>Tín hiệu khác nhau tùy theo khung thời gian.</strong> RSI theo ngày và theo tuần có thể chỉ ra các hướng khác nhau và cần được xem xét cùng nhau.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéalement combiné avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Birlikte Kullanılanlar</h2>
+  <h2 class="vi">Kết hợp Tốt nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 심리 지표와 함께 확인해 신뢰도 상승</li>
     <li><strong><a href="/blog/200-week-moving-average.html">200주 이동평균선</a>:</strong> 장기 추세 안에서 RSI 신호를 해석</li>
@@ -147,6 +191,22 @@
   <ul class="de">
     <li><strong><a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a>:</strong> Abgleich mit Sentiment für zusätzliche Zuversicht</li>
     <li><strong><a href="/blog/200-week-moving-average.html">200-Wochen-MA</a>:</strong> RSI-Signale innerhalb des breiteren langfristigen Trends interpretieren</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur et de Cupidité</a> :</strong> Recouper avec le sentiment de marché pour plus de confiance</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">MM 200 semaines</a> :</strong> Interpréter les signaux du RSI dans le contexte de la tendance à long terme</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a>:</strong> Verificação cruzada com o sentimento para mais confiança</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">MM de 200 Semanas</a>:</strong> Interpretar os sinais do RSI dentro da tendência de longo prazo</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/fear-greed-index.html">Korku ve Açgözlülük Endeksi</a>:</strong> Ek güven için piyasa duyarlılığıyla çapraz kontrol edin</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">200 Haftalık HO</a>:</strong> RSI sinyallerini daha geniş uzun vadeli trend içinde yorumlayın</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi và Tham lam</a>:</strong> Đối chiếu với tâm lý thị trường để tăng độ tin cậy</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">MA 200 Tuần</a>:</strong> Diễn giải tín hiệu RSI trong bối cảnh xu hướng dài hạn rộng hơn</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
