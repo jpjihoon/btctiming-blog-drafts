@@ -39,7 +39,7 @@ const TARGET_COUNT   = 50;
 const DEFAULT_ALWAYS = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX']; // 항상 포함
 
 // ── 1) 바이낸스 24h 티커 받기 ──
-function http_get(string $url, int $timeout = 15): ?string {
+function uc_http_get(string $url, int $timeout = 15): ?string {
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
@@ -54,10 +54,10 @@ function http_get(string $url, int $timeout = 15): ?string {
     return ($r !== false && $code === 200) ? $r : null;
 }
 
-$raw = http_get('https://api.binance.com/api/v3/ticker/24hr');
+$raw = uc_http_get('https://api.binance.com/api/v3/ticker/24hr');
 if ($raw === null) {
     // 폴백 도메인 시도
-    $raw = http_get('https://data-api.binance.vision/api/v3/ticker/24hr');
+    $raw = uc_http_get('https://data-api.binance.vision/api/v3/ticker/24hr');
 }
 if ($raw === null) {
     http_response_code(502);
