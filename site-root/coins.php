@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/coin_meta.php';
 
 // 언어 결정 (블로그·exchanges와 동일 규칙)
 $lang = 'ko';
@@ -33,8 +34,13 @@ $COIN_META = [
 ];
 $coinList = [];
 foreach (array_keys(COIN_SYMBOLS) as $id) {
-  $m = $COIN_META[$id] ?? [$id, '#888888'];
-  $coinList[] = ['id'=>$id, 'name'=>$m[0], 'color'=>$m[1]];
+  // coin_meta 마스터 우선(자동목록의 새 코인도 이름·색 자동 생성), 없으면 페이지 자체 맵
+  if (isset($COIN_META[$id])) {
+    $coinList[] = ['id'=>$id, 'name'=>$COIN_META[$id][0], 'color'=>$COIN_META[$id][1]];
+  } else {
+    $mm = coinMeta($id);
+    $coinList[] = ['id'=>$id, 'name'=>$mm['name'], 'color'=>$mm['color']];
+  }
 }
 
 $T = [

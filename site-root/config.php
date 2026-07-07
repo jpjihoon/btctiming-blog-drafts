@@ -17,8 +17,28 @@ const SNAPSHOT_TOKEN = 'e8028ae26b0fd3d47f30c9748255a6964a9ab1db433b8093';
 const FIREBASE_DB_URL = 'https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
 
 // 코인별 Binance 심볼 매핑
-const COIN_SYMBOLS = [
-    // 거래량 상위 50개 (바이낸스 USDT 페어). BTC 외 알트는 실현가·ATH가 200주 데이터로 자동 산출됨.
+// ── 코인 목록: coins-auto.json(매일 자동 갱신)이 있으면 우선 사용, 없으면 아래 폴백 ──
+// update_coins.php가 바이낸스 거래량 상위 50개를 골라 coins-auto.json에 저장한다.
+// 파일이 없거나 깨졌으면 아래 하드코딩 목록을 쓰므로 사이트가 절대 안 깨진다.
+$__coinSymbols = null;
+$__autoPath = __DIR__ . '/coins-auto.json';
+if (is_readable($__autoPath)) {
+    $__autoRaw = @file_get_contents($__autoPath);
+    $__auto = $__autoRaw ? json_decode($__autoRaw, true) : null;
+    if (is_array($__auto) && !empty($__auto['coins']) && is_array($__auto['coins'])) {
+        $__map = [];
+        foreach ($__auto['coins'] as $__c) {
+            if (!empty($__c['id']) && !empty($__c['sym'])) $__map[$__c['id']] = $__c['sym'];
+        }
+        // BTC는 반드시 포함(안전장치). 최소 8개는 있어야 유효한 목록으로 인정.
+        if (isset($__map['BTC']) && count($__map) >= 8) $__coinSymbols = $__map;
+    }
+}
+if ($__coinSymbols !== null) {
+    define('COIN_SYMBOLS', $__coinSymbols);
+} else {
+    define('COIN_SYMBOLS', [
+    // [폴백] 거래량 상위 50개 (바이낸스 USDT 페어). coins-auto.json 없을 때만 사용.
     'BTC'   => 'BTCUSDT',
     'ETH'   => 'ETHUSDT',
     'BNB'   => 'BNBUSDT',
@@ -69,7 +89,8 @@ const COIN_SYMBOLS = [
     'A'     => 'AUSDT',
     'PEPE'  => 'PEPEUSDT',
     'SHIB'  => 'SHIBUSDT',
-];
+    ]);
+}
 
 // 알트코인 추정 실현가 (검증된 값, 주기적 갱신 필요)
 // 2026-07-03 갱신: BTC는 실측 가능한 데이터로 갱신함 — 2026-07-01 기준 MVRV Z-Score 0.20,

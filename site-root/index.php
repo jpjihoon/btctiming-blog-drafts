@@ -1,5 +1,14 @@
 <?php
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/coin_meta.php';
+// 자동 코인목록(COIN_SYMBOLS: coins-auto.json 또는 폴백)에 이름·색을 붙여 프론트로 전달.
+// app.js는 window.COINS_AUTO가 있으면 그걸 우선 사용(없으면 자체 하드코딩 폴백).
+$__coinsForJs = [];
+foreach (COIN_SYMBOLS as $__id => $__sym) {
+    $__m = coinMeta($__id);
+    $__coinsForJs[] = ['id' => $__id, 'sym' => $__sym, 'name' => $__m['name'], 'color' => $__m['color']];
+}
+$__coinsJson = json_encode($__coinsForJs, JSON_UNESCAPED_UNICODE);
 // ── 서버사이드 언어 감지 (SEO) ──
 // ?lang=en / ?lang=ja(/향후 ?lang=es 등) 요청 시 서버가 처음부터 해당 언어의 메타태그를
 // 내려줘서, 구글이 언어별로 각각 별개 페이지로 색인할 수 있게 함.
@@ -1038,6 +1047,7 @@ const CATEGORY_LIST = <?= json_encode(array_keys(require __DIR__ . '/blog/_categ
 const LANG_META = <?= json_encode(array_map(fn($l) => ['code' => $l['code'], 'name' => $l['flag'] . ' ' . $l['name']], SUPPORTED_LANGS), JSON_UNESCAPED_UNICODE) ?>;
 const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 </script>
+<script>window.COINS_AUTO = <?= $__coinsJson ?>;</script>
 <script src="/app.js" defer></script>
 
 <!-- ═══════════════════════════════════════════════════════ -->

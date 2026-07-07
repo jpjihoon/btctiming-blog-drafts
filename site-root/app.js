@@ -166,7 +166,11 @@ function setUserAsset(val) {
 // 아래 상수는 하위호환용 폴백일 뿐 실제 표시에는 ind.realized_price를 사용한다.
 const REALIZED_PRICE = {BTC:54000, ETH:2100, BNB:420, SOL:95, XRP:1.48, DOGE:0.09, ADA:0.32, TRX:0.30};
 
-const COINS = [
+// 서버가 주입한 자동 코인목록(window.COINS_AUTO)이 있으면 우선 사용.
+// 없으면(구버전 캐시 등) 아래 하드코딩 폴백을 쓴다.
+const COINS = (Array.isArray(window.COINS_AUTO) && window.COINS_AUTO.length >= 8)
+  ? window.COINS_AUTO
+  : [
   {id:'BTC', name:'Bitcoin',  sym:'BTCUSDT', color:'#F7931A'},
   {id:'ETH', name:'Ethereum', sym:'ETHUSDT', color:'#627EEA'},
   {id:'BNB', name:'BNB',      sym:'BNBUSDT', color:'#F3BA2F'},
