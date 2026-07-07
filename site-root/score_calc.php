@@ -83,22 +83,22 @@ function calcBuy(array $ind): array {
             'target' => '≤5% or below', 'signal' => $rp_gap < 0 ? 'Below Realized' : ($rp_gap <= 5 ? 'Ideal' : 'Caution'),
             'note' => '$' . fmtN($price) . " / Realized ~\$" . fmtN($realized_price) . " / Gap " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%"];
     } else {
-        // ── 알트코인: 추정 지표 (배점 축소 + 포화 완화) ──
-        // 2026-07 개편: 기존 실현가 28점은 약세장에 거의 모든 알트가 만점(28)으로 포화돼
-        // 코인 간 변별력을 잃었음. 배점을 16으로 낮추고, 만점 구간을 -40%→-65%로 더 극단에 둬서
-        // 약세장에서도 "얼마나 더 싼가"가 점수에 반영되게 함.
+        // ── 알트코인: 밸류에이션 비중 확대 (2026-07 2차 개편) ──
+        // 알트는 BTC의 온체인 저점 지표(MVRV·Hash Ribbon 등 64점)가 없어서, "싸다"를 표현할
+        // 지표가 실현가+ATH뿐임. 이 배점이 너무 작으면(구 22점) 저평가 알트가 모멘텀 조용할 때
+        // BTC보다 구조적으로 눌림. 배점을 키워(실현가 24, ATH 10 = 34점) 저평가를 제대로 반영.
+        // 단 포화 방지 곡선(만점 -65%)은 유지 → 극단적으로 싼 코인만 만점.
         $rp_gap = ($price - $realized_price) / $realized_price * 100;
-        $s = round(lerpScore($rp_gap, [[-65, 16], [-50, 14], [-35, 11], [-20, 9], [0, 6], [30, 3], [80, 0]]), 1);
-        $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 16, 'score' => $s,
+        $s = round(lerpScore($rp_gap, [[-65, 24], [-50, 21], [-35, 17], [-20, 13], [0, 9], [30, 4], [80, 0]]), 1);
+        $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 24, 'score' => $s,
             'value' => number_format($rp_gap, 1), 'unit' => '%',
             'target' => 'Below estimated realized price', 'signal' => $rp_gap < 0 ? 'Below Realized' : 'Above',
             'note' => "현재가 \$" . fmtN($price) . " vs 추정 실현가 ~\$" . fmtN($realized_price) . " (갭 " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%). ⚠️ 알트코인 실현가는 200주 이동평균(200W MA)으로 근사한 추정치입니다."];
 
-        // ATH 낙폭: 12→6으로 축소. "많이 떨어졌다"는 실현가 갭과 중복되는 신호이고,
-        // 낙폭 자체가 반등을 보장하지 않으므로 보조 지표로만 유지. 만점 구간도 -95%로 더 극단화.
+        // ATH 낙폭 6→10: 저평가 신호 비중 확대. 여전히 실현가보다는 작게(보조).
         $atd = $ath_drop;
-        $s = round(lerpScore($atd, [[-95, 6], [-88, 5], [-80, 4], [-70, 3], [-55, 2], [-35, 1], [-15, 0.3], [0, 0]]), 1);
-        $det['alt_drawdown'] = ['key' => 'alt_drawdown', 'label' => 'ATH Drawdown', 'max' => 6, 'score' => $s,
+        $s = round(lerpScore($atd, [[-95, 10], [-88, 9], [-80, 7], [-70, 5], [-55, 3], [-35, 1.5], [-15, 0.5], [0, 0]]), 1);
+        $det['alt_drawdown'] = ['key' => 'alt_drawdown', 'label' => 'ATH Drawdown', 'max' => 10, 'score' => $s,
             'value' => number_format($atd, 1), 'unit' => '%',
             'target' => '≥80% drawdown from ATH', 'signal' => $atd <= -70 ? 'Deep Correction' : ($atd <= -50 ? 'Correction' : 'High'),
             'note' => "ATH \$" . fmtN(ATH_MAP[$coin] ?? 0) . " → 현재 \$" . fmtN($price) . " (" . number_format($atd, 1) . "%). ⚠️ 낙폭은 반등을 보장하지 않는 보조 지표."];
@@ -212,8 +212,9 @@ function calcBuy(array $ind): array {
     // (volChg는 더 이상 점수 계산에 안 쓰임 — 15분봉 기반 fast_vol_ratio로 대체됨)
     $btcCorr = $ind['btc_corr_value'] ?? 0.7;
 
-    // RSI: 알트는 온체인 데이터가 없어 가격 모멘텀 비중을 높임(15→18). BTC는 온체인이 충실하니 15 유지.
-    $rsiMax = ($coin === 'BTC') ? 15 : 18;
+    // RSI: 알트는 14로. (지난 개편서 18로 올렸으나, 저평가 알트가 현재 RSI 중립일 때
+    // 과도하게 눌리는 부작용 → 14로 완화. 밸류에이션 비중을 대신 키움)
+    $rsiMax = ($coin === 'BTC') ? 15 : 14;
     $s = round(lerpScore($rsi, [[15, 15], [25, 15], [35, 12], [45, 8], [55, 5], [70, 2], [85, 0]]) * ($rsiMax / 15), 1);
     $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMax, 'score' => $s,
         'value' => number_format($rsi, 1), 'unit' => '',
@@ -260,17 +261,17 @@ function calcBuy(array $ind): array {
     $total_max = array_sum(array_column($det, 'max'));
     $final = min(10, round($raw / $total_max * 10, 1));
 
-    // 6단계 LONG 액션
-    // 2026-06-30 재조정: Hash Ribbon·Coinbase Premium·매도주도거래량처럼 "특정 순간에만 만점"인
-    // 희귀 이벤트성 지표가 섞여 있어서, 다른 밸류에이션 지표가 전부 바닥을 가리켜도
-    // 전체 reach%가 90%까지 올라가는 경우는 거의 없음. 기존 임계값(90/85/80/70/55%)은
-    // 현실적으로 도달 불가능한 수준이라 평생 매수 신호가 안 뜨는 문제가 있었음 → 하향 조정.
+    // 6단계 LONG 액션 (2026-07 재정의)
+    // 핵심 수정: 롱 점수가 낮다 = "매수 매력 약함"이지 "팔아라"가 아님.
+    // 예전엔 3.5 미만을 EXIT LONG(청산), 3.5~5를 SPLIT EXIT(정리)로 라벨해서,
+    // -64% 빠진 저평가 알트한테도 "팔아라"는 잘못된 신호가 나왔음(숏 점수도 낮은데 모순).
+    // → 매도/청산 지시는 숏 점수 몫으로 넘기고, 롱 점수 낮은 구간은 "관망/진입보류"로만.
     if ($final >= 8.0) { $action = 'FULL LONG'; $acolor = '#22c55e'; $actionDesc = '역대급 저점. 목표 비중 100% 전량 진입.'; }
     elseif ($final >= 7.0) { $action = 'ADD LONG'; $acolor = 'var(--green)'; $actionDesc = '강한 저점. 목표 비중 70~100% 확대.'; }
     elseif ($final >= 6.0) { $action = 'SPLIT LONG'; $acolor = 'var(--green2)'; $actionDesc = '분할 진입 시작. 목표 비중 30~50%.'; }
-    elseif ($final >= 5.0) { $action = 'WATCH'; $acolor = '#a3e635'; $actionDesc = '관찰 구간. 트리거 대기.'; }
-    elseif ($final >= 3.5) { $action = 'SPLIT EXIT'; $acolor = 'var(--orange)'; $actionDesc = '일부 정리. 리스크 관리 구간.'; }
-    else { $action = 'EXIT LONG'; $acolor = 'var(--red)'; $actionDesc = '청산 권고. 시장 고점/과열 경고.'; }
+    elseif ($final >= 4.5) { $action = 'WATCH'; $acolor = '#a3e635'; $actionDesc = '관찰 구간. 저점 신호(과매도·투매·거래량 급증) 대기.'; }
+    elseif ($final >= 3.0) { $action = 'NO ENTRY'; $acolor = 'var(--orange)'; $actionDesc = '신규 진입 보류. 매수 매력 약함(팔라는 뜻 아님 — 매도는 숏 점수 참고).'; }
+    else { $action = 'AVOID'; $acolor = 'var(--red)'; $actionDesc = '매수 부적합 구간. 신규 롱 진입 자제(청산 여부는 숏 점수로 판단).'; }
 
     return [
         'final' => $final, 'raw' => $raw, 'max' => $total_max,
@@ -400,7 +401,7 @@ function calcSell(array $ind): array {
     // (volChgS는 더 이상 점수 계산에 안 쓰임 — 15분봉 기반 fast_vol_ratio로 대체됨)
     $btcCorrS = $ind['btc_corr_value'] ?? 0.7;
 
-    $rsiMaxS = ($coin === 'BTC') ? 15 : 18;
+    $rsiMaxS = ($coin === 'BTC') ? 15 : 14;
     $s = round(lerpScore($rsiS, [[15, 1], [30, 2], [45, 5], [55, 8], [65, 12], [75, 15], [90, 15]]) * ($rsiMaxS / 15), 1);
     $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMaxS, 'score' => $s,
         'value' => number_format($rsiS, 1), 'unit' => '',
