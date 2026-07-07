@@ -114,11 +114,11 @@
   <p class="es">Ethereum había caído un 64% desde su máximo y estaba un 28% por debajo de la media móvil de 200 semanas que usamos como sustituto del precio realizado. Por cualquier medida, se había vuelto "barato". Sin embargo, la puntuación long marcaba 4.9, y debajo aparecía la frase "SPLIT EXIT". En pocas palabras: vende parte del Ethereum que tienes. Que a una moneda caída un 64% se le dijera vender más contradecía claramente el sentido común.</p>
   <p class="de">Ethereum lag 64% unter seinem Hoch und 28% unter dem 200-Wochen-Durchschnitt, den wir als Näherung für den realisierten Preis verwenden. Nach jedem Maßstab war es „billig" geworden. Doch der Long-Score zeigte 4,9, darunter stand „SPLIT EXIT". Im Klartext: Verkaufe einen Teil deines Ethereums. Dass einer um 64% gefallenen Münze gesagt wurde, mehr zu verkaufen, widersprach eindeutig dem gesunden Menschenverstand.</p>
 
-  <p class="ko">우리 팀에서 알트코인 지표를 맡고 있는 Kai가 같은 순간의 숏 점수를 함께 확인했다. 그 결과가 이 문제의 성격을 분명하게 드러냈다.</p>
-  <p class="en">Kai, who oversees altcoin indicators on our team, pulled up the short score for the same moment. The result laid the problem bare.</p>
-  <p class="ja">私たちのチームでアルトコイン指標を担当するKaiが、同じ瞬間のショートスコアも確認した。その結果がこの問題の性質を明確に示した。</p>
-  <p class="es">Kai, que supervisa los indicadores de altcoins en nuestro equipo, revisó la puntuación short del mismo momento. El resultado dejó el problema al descubierto.</p>
-  <p class="de">Kai, der in unserem Team die Altcoin-Indikatoren betreut, rief den Short-Score für denselben Moment auf. Das Ergebnis legte das Problem offen.</p>
+  <p class="ko">Kai가 같은 순간의 숏 점수를 함께 확인했다. 그 결과가 이 문제의 성격을 분명하게 드러냈다.</p>
+  <p class="en">Kai pulled up the short score for the same moment. The result laid the problem bare.</p>
+  <p class="ja">Kaiが同じ瞬間のショートスコアも確認した。その結果がこの問題の性質を明確に示した。</p>
+  <p class="es">Kai revisó la puntuación short del mismo momento. El resultado dejó el problema al descubierto.</p>
+  <p class="de">Kai rief den Short-Score für denselben Moment auf. Das Ergebnis legte das Problem offen.</p>
 
   <h2 class="ko">두 점수가 서로를 부정하고 있었다</h2>
   <h2 class="en">The two scores were contradicting each other</h2>
