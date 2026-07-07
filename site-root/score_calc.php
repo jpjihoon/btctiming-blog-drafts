@@ -83,23 +83,25 @@ function calcBuy(array $ind): array {
             'target' => '≤5% or below', 'signal' => $rp_gap < 0 ? 'Below Realized' : ($rp_gap <= 5 ? 'Ideal' : 'Caution'),
             'note' => '$' . fmtN($price) . " / Realized ~\$" . fmtN($realized_price) . " / Gap " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%"];
     } else {
-        // ── 알트코인: 추정 지표 2개 ──
+        // ── 알트코인: 추정 지표 (배점 축소 + 포화 완화) ──
+        // 2026-07 개편: 기존 실현가 28점은 약세장에 거의 모든 알트가 만점(28)으로 포화돼
+        // 코인 간 변별력을 잃었음. 배점을 16으로 낮추고, 만점 구간을 -40%→-65%로 더 극단에 둬서
+        // 약세장에서도 "얼마나 더 싼가"가 점수에 반영되게 함.
         $rp_gap = ($price - $realized_price) / $realized_price * 100;
-        // 보간: -40% 이하 만점(28) → 0%(realized가) 근처 18점 → +80% 이상 1점. 계단 절벽 없이 부드럽게 이어짐.
-        $s = round(lerpScore($rp_gap, [[-40, 28], [-20, 24], [-10, 22], [0, 18], [20, 12], [50, 6], [80, 1]]), 1);
-        $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 28, 'score' => $s,
+        $s = round(lerpScore($rp_gap, [[-65, 16], [-50, 14], [-35, 11], [-20, 9], [0, 6], [30, 3], [80, 0]]), 1);
+        $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 16, 'score' => $s,
             'value' => number_format($rp_gap, 1), 'unit' => '%',
             'target' => 'Below estimated realized price', 'signal' => $rp_gap < 0 ? 'Below Realized' : 'Above',
             'note' => "현재가 \$" . fmtN($price) . " vs 추정 실현가 ~\$" . fmtN($realized_price) . " (갭 " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%). ⚠️ 알트코인 실현가는 200주 이동평균(200W MA)으로 근사한 추정치입니다."];
 
+        // ATH 낙폭: 12→6으로 축소. "많이 떨어졌다"는 실현가 갭과 중복되는 신호이고,
+        // 낙폭 자체가 반등을 보장하지 않으므로 보조 지표로만 유지. 만점 구간도 -95%로 더 극단화.
         $atd = $ath_drop;
-        // 보간: -90% 이하 만점(12) → 0%(ATH) 0점. 기존엔 -30%를 기준으로 0점/3점이 뚝 끊겼는데,
-        // 이제 -15%~-30% 구간도 1~2점대로 자연스럽게 이어짐 (TRX -29.5%처럼 경계선 바로 위에서 0점 되던 문제 해결).
-        $s = round(lerpScore($atd, [[-90, 12], [-80, 12], [-70, 10], [-60, 8], [-50, 6], [-30, 3], [-15, 1], [0, 0]]), 1);
-        $det['alt_drawdown'] = ['key' => 'alt_drawdown', 'label' => 'ATH Drawdown', 'max' => 12, 'score' => $s,
+        $s = round(lerpScore($atd, [[-95, 6], [-88, 5], [-80, 4], [-70, 3], [-55, 2], [-35, 1], [-15, 0.3], [0, 0]]), 1);
+        $det['alt_drawdown'] = ['key' => 'alt_drawdown', 'label' => 'ATH Drawdown', 'max' => 6, 'score' => $s,
             'value' => number_format($atd, 1), 'unit' => '%',
-            'target' => '≥70% drawdown from ATH', 'signal' => $atd <= -70 ? 'Deep Correction' : ($atd <= -50 ? 'Correction' : 'High'),
-            'note' => "ATH \$" . fmtN(ATH_MAP[$coin] ?? 0) . " → 현재 \$" . fmtN($price) . " (" . number_format($atd, 1) . "%)"];
+            'target' => '≥80% drawdown from ATH', 'signal' => $atd <= -70 ? 'Deep Correction' : ($atd <= -50 ? 'Correction' : 'High'),
+            'note' => "ATH \$" . fmtN(ATH_MAP[$coin] ?? 0) . " → 현재 \$" . fmtN($price) . " (" . number_format($atd, 1) . "%). ⚠️ 낙폭은 반등을 보장하지 않는 보조 지표."];
     }
 
     // 4. Hash Ribbon /16 (기존 10 → 16. 채굴자 항복→회복 교차는 역사적으로 가장 신뢰도 높은 선행지표라 가중치 상향)
@@ -210,8 +212,10 @@ function calcBuy(array $ind): array {
     // (volChg는 더 이상 점수 계산에 안 쓰임 — 15분봉 기반 fast_vol_ratio로 대체됨)
     $btcCorr = $ind['btc_corr_value'] ?? 0.7;
 
-    $s = round(lerpScore($rsi, [[15, 15], [25, 15], [35, 12], [45, 8], [55, 5], [70, 2], [85, 0]]), 1);
-    $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => 15, 'score' => $s,
+    // RSI: 알트는 온체인 데이터가 없어 가격 모멘텀 비중을 높임(15→18). BTC는 온체인이 충실하니 15 유지.
+    $rsiMax = ($coin === 'BTC') ? 15 : 18;
+    $s = round(lerpScore($rsi, [[15, 15], [25, 15], [35, 12], [45, 8], [55, 5], [70, 2], [85, 0]]) * ($rsiMax / 15), 1);
+    $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMax, 'score' => $s,
         'value' => number_format($rsi, 1), 'unit' => '',
         'target' => 'Oversold ≤ 30', 'signal' => $rsi <= 30 ? 'Oversold (Bottom)' : ($rsi >= 70 ? 'Overbought' : 'Neutral'),
         'note' => "RSI " . number_format($rsi, 1) . ". 30 이하 과매도(저점 신호), 70 이상 과매수(고점 신호)."];
@@ -336,24 +340,25 @@ function calcSell(array $ind): array {
             'target' => 'SHORT zone ≤ 70%', 'signal' => $lthp <= 70 ? 'Distribution' : ($lthp <= 74 ? 'Mild' : 'Accumulation (Safe)'),
             'note' => number_format($lthp, 1) . "% — 역대급 축적(저점). 숏은 70% 이하."];
     } else {
-        // ── 알트코인: 추정 지표 (선형 보간) ──
-        // 기존엔 -60%~+50% 사이를 직선 하나로 그어서, +30%만 되어도 벌써 80%까지 점수가 차버리는
-        // 문제가 있었음(실제 알트 불장 고점은 +100~300%까지도 솟구침). 구간을 넓히고 다구간 보간으로 변경.
+        // ── 알트코인: 추정 지표 (배점 축소) ──
+        // 2026-07 개편: 매수와 대칭으로 배점 축소. 강세장 고점에선 실현가 갭이 쉽게 포화되므로
+        // 배점을 25→16으로 낮추고, 만점 구간을 +220%→+300%로 더 극단화.
         $rp_gap = ($price - $realized_price) / $realized_price * 100;
-        $s = round(lerpScore($rp_gap, [[-60, 1], [0, 6], [20, 11], [50, 16], [100, 21], [150, 24], [220, 25]]), 1);
-        $det['alt_short_valuation'] = ['key' => 'alt_short_valuation', 'label' => 'Price vs Est. Realized (Short)', 'max' => 25, 'score' => $s,
+        $s = round(lerpScore($rp_gap, [[-60, 1], [0, 4], [30, 7], [80, 10], [150, 13], [250, 15], [300, 16]]), 1);
+        $det['alt_short_valuation'] = ['key' => 'alt_short_valuation', 'label' => 'Price vs Est. Realized (Short)', 'max' => 16, 'score' => $s,
             'value' => number_format($rp_gap, 1), 'unit' => '%',
-            'target' => 'SHORT zone ≥ 20% above realized',
-            'signal' => $rp_gap >= 20 ? 'Overvalued' : ($rp_gap >= 0 ? 'Mild Premium' : 'Below Realized (Safe)'),
+            'target' => 'SHORT zone ≥ 30% above realized',
+            'signal' => $rp_gap >= 30 ? 'Overvalued' : ($rp_gap >= 0 ? 'Mild Premium' : 'Below Realized (Safe)'),
             'note' => "현재가 대비 추정 실현가 갭 " . number_format($rp_gap, 1) . "%. 양수가 클수록 고평가(숏 유리). ⚠️ 추정치입니다."];
 
+        // ATH 근접: 20→10으로 축소. 고점 근접은 과열 신호지만 실현가 갭과 중복되므로 보조로.
         $atd = $ath_drop;
-        $s = round(lerpScore($atd, [[-95, 1], [-50, 6], [-30, 11], [-15, 20], [0, 20]]), 1);
-        $det['alt_short_ath'] = ['key' => 'alt_short_ath', 'label' => 'ATH Proximity — Overheat', 'max' => 20, 'score' => $s,
+        $s = round(lerpScore($atd, [[-95, 0.5], [-60, 3], [-35, 6], [-15, 10], [0, 10]]), 1);
+        $det['alt_short_ath'] = ['key' => 'alt_short_ath', 'label' => 'ATH Proximity — Overheat', 'max' => 10, 'score' => $s,
             'value' => number_format($atd, 1), 'unit' => '%',
             'target' => 'SHORT zone: within -15% of ATH',
             'signal' => $atd >= -15 ? 'Near ATH' : ($atd >= -30 ? 'Elevated' : 'Far from ATH (Safe)'),
-            'note' => "ATH \$" . fmtN(ATH_MAP[$coin] ?? 0) . " 대비 " . number_format($atd, 1) . "%. 고점 근접할수록 숏 유리."];
+            'note' => "ATH \$" . fmtN(ATH_MAP[$coin] ?? 0) . " 대비 " . number_format($atd, 1) . "%. 고점 근접할수록 숏 유리. ⚠️ 보조 지표."];
     }
 
     // ── 공통 지표 ──
@@ -395,8 +400,9 @@ function calcSell(array $ind): array {
     // (volChgS는 더 이상 점수 계산에 안 쓰임 — 15분봉 기반 fast_vol_ratio로 대체됨)
     $btcCorrS = $ind['btc_corr_value'] ?? 0.7;
 
-    $s = round(lerpScore($rsiS, [[15, 1], [30, 2], [45, 5], [55, 8], [65, 12], [75, 15], [90, 15]]), 1);
-    $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => 15, 'score' => $s,
+    $rsiMaxS = ($coin === 'BTC') ? 15 : 18;
+    $s = round(lerpScore($rsiS, [[15, 1], [30, 2], [45, 5], [55, 8], [65, 12], [75, 15], [90, 15]]) * ($rsiMaxS / 15), 1);
+    $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMaxS, 'score' => $s,
         'value' => number_format($rsiS, 1), 'unit' => '',
         'target' => 'Overbought ≥ 70', 'signal' => $rsiS >= 70 ? 'Overbought (Top)' : ($rsiS <= 30 ? 'Oversold' : 'Neutral'),
         'note' => "RSI " . number_format($rsiS, 1) . ". 70 이상 과매수(고점/숏 신호), 30 이하 과매도(저점)."];
