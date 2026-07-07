@@ -45,7 +45,7 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0}.logo span{color:#fbbf24}
 .back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;
@@ -132,7 +132,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/" class="logo" id="logoLink">BTC<span>timing</span>.com</a>
+  <a href="/" class="logo" id="logoLink">BTC<span>timing</span></a>
   <span class="back ko">← <a href="/" style="color:#71717a">실시간 분석으로 돌아가기</a></span>
   <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:#71717a">Back to Live Analysis</a></span>
   <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:#71717a">リアルタイム分析に戻る</a></span>
@@ -273,6 +273,10 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </div>
 <footer>
   © 2026 BTCtiming.com ·
+  <a href="/rss-guide.php" style="color:#52525b">RSS</a>
+  ·
+  <a href="/sitemap-guide.php" id="footerSitemapLink" style="color:#52525b"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span></a>
+  ·
   <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a><a href="/privacy" style="color:#52525b" class="ja">プライバシーポリシー</a><a href="/privacy" style="color:#52525b" class="es">Política de Privacidad</a><a href="/privacy" style="color:#52525b" class="de">Datenschutzerklärung</a>
   ·
   <a href="/terms" style="color:#52525b" class="ko">이용약관</a><a href="/terms" style="color:#52525b" class="en">Terms of Service</a><a href="/terms" style="color:#52525b" class="ja">利用規約</a><a href="/terms" style="color:#52525b" class="es">Términos de Servicio</a><a href="/terms" style="color:#52525b" class="de">Nutzungsbedingungen</a>
@@ -410,7 +414,9 @@ try {
 @media(max-width:600px){
   .blog-tabbar{display:flex;position:fixed;left:0;right:0;top:auto;bottom:0;z-index:900;
     height:48px;background:rgba(15,15,17,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
-    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
+    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom);
+    transition:transform .25s ease}
+  .blog-tabbar.tabbar-hidden{transform:translateY(110%)}
   .blog-tabbar .btab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
     background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;
     -webkit-tap-highlight-color:transparent}
@@ -457,6 +463,21 @@ try{
     window.setLang=function(l){ _orig(l); applyTabbarLang(l); };
   }
 }catch(e){}
+// 하단바 스크롤 표시/숨김 (다운=숨김, 업/멈춤=표시)
+(function(){
+  const bar=document.querySelector('.blog-tabbar');
+  if(!bar) return;
+  let lastY=window.scrollY||0, idle=null;
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY||0, dy=y-lastY;
+    if(y<60) bar.classList.remove('tabbar-hidden');
+    else if(dy>6) bar.classList.add('tabbar-hidden');
+    else if(dy<-6) bar.classList.remove('tabbar-hidden');
+    lastY=y;
+    clearTimeout(idle);
+    idle=setTimeout(()=>bar.classList.remove('tabbar-hidden'),900);
+  },{passive:true});
+})();
 </script>
 </body>
 </html>
