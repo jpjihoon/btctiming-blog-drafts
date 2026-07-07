@@ -125,12 +125,27 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#fafafa;letter-spac
 .cta-main p{color:#71717a;font-size:14px;margin-bottom:20px}
 .cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
 footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;font-size:11px;color:#666}
-/* 푸터 언어 전환 — 기존 en-show/ja-show + JS 토글 방식이 중복 style 속성 버그로 불안정했어서,
-   이미 검증된 [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 교체함 */
-footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
-[lang="ko"] footer .ko,[lang="en"] footer .en,[lang="ja"] footer .ja,[lang="es"] footer .es,[lang="de"] footer .de{display:inline}
-.en .ko{display:none}.ko-only,.en .en-hidden{display:none}.en .en-show{display:block}
-.ja .ko{display:none}.ja .en-show{display:none!important}.ja .ja-show{display:block}
+/* 언어 전환 — [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 통일.
+   푸터·본문 공통. SUPPORTED_LANGS 기반 자동 생성 → 언어 추가 시 이 파일 불변. */
+<?php
+$__langKeys = array_keys(SUPPORTED_LANGS);
+// 푸터: 모든 언어 span 기본 숨김 → 현재 lang만 표시
+echo 'footer ' . implode(',footer ', array_map(fn($l)=>'.'.$l, $__langKeys)) . "{display:none}\n";
+$__footerShow = array_map(fn($l)=>'[lang="'.$l.'"] footer .'.$l, $__langKeys);
+echo implode(',', $__footerShow) . "{display:inline}\n";
+// 본문: body(html-root) className이 현재 언어. ko 외 언어일 때 .ko 숨김 + 해당 .{lang}-show 표시.
+foreach ($__langKeys as $__l) {
+    if ($__l === 'ko') continue;
+    echo '.' . $__l . ' .ko{display:none}';
+    echo '.' . $__l . ' .' . $__l . '-show{display:block}';
+    // 다른 언어의 -show는 숨김
+    foreach ($__langKeys as $__o) {
+        if ($__o === 'ko' || $__o === $__l) continue;
+        echo '.' . $__l . ' .' . $__o . '-show{display:none}';
+    }
+    echo "\n";
+}
+?>
 .empty{color:#52525b;font-size:14px;padding:24px 0}
 @media(max-width:480px){
   .hero-inner{padding:40px 20px 28px}
@@ -150,16 +165,18 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
   <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:#71717a">リアルタイム分析に戻る</a></span>
   <span class="back es-show" style="display:none">← <a href="/?lang=es" style="color:#71717a">Volver al Análisis en Vivo</a></span>
   <span class="back de-show" style="display:none">← <a href="/?lang=de" style="color:#71717a">Zurück zur Live-Analyse</a></span>
+  <span class="back fr-show" style="display:none">← <a href="/?lang=fr" style="color:#71717a">Retour à l'analyse en direct</a></span>
+  <span class="back pt-show" style="display:none">← <a href="/?lang=pt" style="color:#71717a">Voltar à análise ao vivo</a></span>
+  <span class="back tr-show" style="display:none">← <a href="/?lang=tr" style="color:#71717a">Canlı analize dön</a></span>
+  <span class="back vi-show" style="display:none">← <a href="/?lang=vi" style="color:#71717a">Quay lại phân tích trực tiếp</a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
       <span id="langTriggerLabel">KO</span><span class="lang-caret">▾</span>
     </button>
     <div class="lang-menu" id="langMenu">
-      <button type="button" class="lang-menu-item active" data-lang="ko" onclick="setLang('ko')">🇰🇷 한국어</button>
-      <button type="button" class="lang-menu-item" data-lang="en" onclick="setLang('en')">🇺🇸 English</button>
-      <button type="button" class="lang-menu-item" data-lang="ja" onclick="setLang('ja')">🇯🇵 日本語</button>
-      <button type="button" class="lang-menu-item" data-lang="es" onclick="setLang('es')">🇪🇸 Español</button>
-      <button type="button" class="lang-menu-item" data-lang="de" onclick="setLang('de')">🇩🇪 Deutsch</button>
+      <?php foreach (SUPPORTED_LANGS as $__lc => $__meta): ?>
+      <button type="button" class="lang-menu-item<?= $__lc==='ko' ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>')"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
+      <?php endforeach; ?>
     </div>
   </div>
 </div></nav>
@@ -171,26 +188,38 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     <span class="hero-badge ja-show" style="display:none">📚 <?= count($articles) ?>件の記事</span>
     <span class="hero-badge es-show" style="display:none">📚 <?= count($articles) ?> artículos</span>
     <span class="hero-badge de-show" style="display:none">📚 <?= count($articles) ?> Artikel</span>
+    <span class="hero-badge fr-show" style="display:none">📚 <?= count($articles) ?> articles</span>
+    <span class="hero-badge pt-show" style="display:none">📚 <?= count($articles) ?> artigos</span>
+    <span class="hero-badge tr-show" style="display:none">📚 <?= count($articles) ?> yazı</span>
+    <span class="hero-badge vi-show" style="display:none">📚 <?= count($articles) ?> bài viết</span>
     <h1 class="ko">블로그</h1>
     <h1 class="en-show" style="display:none">Blog</h1>
     <h1 class="ja-show" style="display:none">ブログ</h1>
     <h1 class="es-show" style="display:none">Blog</h1>
     <h1 class="de-show" style="display:none">Blog</h1>
+    <h1 class="fr-show" style="display:none">Blog</h1>
+    <h1 class="pt-show" style="display:none">Blog</h1>
+    <h1 class="tr-show" style="display:none">Blog</h1>
+    <h1 class="vi-show" style="display:none">Blog</h1>
     <p class="sub ko">온체인 지표 가이드부터 시황분석, 칼럼까지 — 비트코인 타이밍에 필요한 모든 글.</p>
     <p class="sub en-show" style="display:none">From on-chain indicator guides to market watch and columns — everything for Bitcoin timing.</p>
     <p class="sub ja-show" style="display:none">オンチェーン指標ガイドから市況分析、コラムまで — ビットコインタイミングに必要なすべての記事。</p>
     <p class="sub es-show" style="display:none">Desde guías de indicadores on-chain hasta análisis de mercado y columnas — todo para el timing de Bitcoin.</p>
     <p class="sub de-show" style="display:none">Von On-Chain-Indikator-Anleitungen bis zu Marktanalysen und Kolumnen — alles für Bitcoin-Timing.</p>
+    <p class="sub fr-show" style="display:none">Des guides d'indicateurs on-chain aux analyses de marché et chroniques — tout pour le timing du Bitcoin.</p>
+    <p class="sub pt-show" style="display:none">De guias de indicadores on-chain a análises de mercado e colunas — tudo para o timing do Bitcoin.</p>
+    <p class="sub tr-show" style="display:none">Zincir üstü gösterge kılavuzlarından piyasa analizlerine ve köşe yazılarına — Bitcoin zamanlaması için her şey.</p>
+    <p class="sub vi-show" style="display:none">Từ hướng dẫn chỉ báo on-chain đến phân tích thị trường và chuyên mục — mọi thứ cho thời điểm Bitcoin.</p>
   </div>
 </div>
 
 <div class="cat-tabs" id="catTabs">
   <button class="cat-tab active" data-cat="all" onclick="filterCat('all')">
-    <span class="ko">전체</span><span class="en-show" style="display:none">All</span><span class="ja-show" style="display:none">全て</span><span class="es-show" style="display:none">Todo</span><span class="de-show" style="display:none">Alle</span>
+    <span class="ko">전체</span><span class="en-show" style="display:none">All</span><span class="ja-show" style="display:none">全て</span><span class="es-show" style="display:none">Todo</span><span class="de-show" style="display:none">Alle</span><span class="fr-show" style="display:none">Tout</span><span class="pt-show" style="display:none">Todos</span><span class="tr-show" style="display:none">Tümü</span><span class="vi-show" style="display:none">Tất cả</span>
   </button>
 <?php foreach ($tabs as $cat): $cm = CATEGORY_META[$cat]; ?>
   <button class="cat-tab" data-cat="<?= h($cat) ?>" style="--cat-color:<?= h($cm['color']) ?>" onclick="filterCat('<?= h($cat) ?>')">
-    <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show" style="display:none"><?= h($cm['en']) ?></span><span class="ja-show" style="display:none"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show" style="display:none"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show" style="display:none"><?= h($cm['de'] ?? $cm['en']) ?></span>
+    <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show" style="display:none"><?= h($cm['en']) ?></span><span class="ja-show" style="display:none"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show" style="display:none"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show" style="display:none"><?= h($cm['de'] ?? $cm['en']) ?></span><span class="fr-show" style="display:none"><?= h($cm['fr'] ?? $cm['en']) ?></span><span class="pt-show" style="display:none"><?= h($cm['pt'] ?? $cm['en']) ?></span><span class="tr-show" style="display:none"><?= h($cm['tr'] ?? $cm['en']) ?></span><span class="vi-show" style="display:none"><?= h($cm['vi'] ?? $cm['en']) ?></span>
   </button>
 <?php endforeach; ?>
 </div>
@@ -203,56 +232,40 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     <div class="empty ja-show" style="display:none">まだ記事がありません。</div>
     <div class="empty es-show" style="display:none">Aún no hay artículos.</div>
     <div class="empty de-show" style="display:none">Noch keine Artikel vorhanden.</div>
+    <div class="empty fr-show" style="display:none">Aucun article pour le moment.</div>
+    <div class="empty pt-show" style="display:none">Ainda não há artigos.</div>
+    <div class="empty tr-show" style="display:none">Henüz yazı yok.</div>
+    <div class="empty vi-show" style="display:none">Chưa có bài viết nào.</div>
 <?php else: foreach ($articles as $i => $a):
     $icon = $a['icon'] ?? '📄';
     $color = $a['color'] ?? '#f7931a';
     $cat = $a['category'];
     $catColor = CATEGORY_META[$cat]['color'] ?? '#f7931a';
-    // 번역 없는 글은 영어로 자연스럽게 폴백 (개별 페이지와 동일한 정책)
-    $catJa = CATEGORY_META[$cat]['ja'] ?? (CATEGORY_META[$cat]['en'] ?? $cat);
-    $catEs = CATEGORY_META[$cat]['es'] ?? (CATEGORY_META[$cat]['en'] ?? $cat);
-    $catDe = CATEGORY_META[$cat]['de'] ?? (CATEGORY_META[$cat]['en'] ?? $cat);
-    $tagJa = $a['tag_ja'] ?? ($a['tag_en'] ?? '');
-    $tagEs = $a['tag_es'] ?? ($a['tag_en'] ?? '');
-    $tagDe = $a['tag_de'] ?? ($a['tag_en'] ?? '');
-    $titleJa = $a['title_ja'] ?? ($a['title_en'] ?? '');
-    $titleEs = $a['title_es'] ?? ($a['title_en'] ?? '');
-    $titleDe = $a['title_de'] ?? ($a['title_en'] ?? '');
-    $descJa = $a['desc_ja'] ?? ($a['desc_en'] ?? '');
-    $descEs = $a['desc_es'] ?? ($a['desc_en'] ?? '');
-    $descDe = $a['desc_de'] ?? ($a['desc_en'] ?? '');
-    $readJa = $a['read_ja'] ?? ($a['read_en'] ?? '');
-    $readEs = $a['read_es'] ?? ($a['read_en'] ?? '');
-    $readDe = $a['read_de'] ?? ($a['read_en'] ?? '');
+    $cardLangs = array_keys(SUPPORTED_LANGS);
+    // 언어별 값 헬퍼: 번역 없으면 영어로 폴백 (개별 페이지와 동일 정책)
+    $catVal   = fn($l) => CATEGORY_META[$cat][$l] ?? (CATEGORY_META[$cat]['en'] ?? $cat);
+    $tagVal   = fn($l) => $a["tag_{$l}"]   ?? ($a['tag_en']   ?? '');
+    $titleVal = fn($l) => $a["title_{$l}"] ?? ($a['title_en'] ?? '');
+    $descVal  = fn($l) => $a["desc_{$l}"]  ?? ($a['desc_en']  ?? '');
+    $readVal  = fn($l) => $a["read_{$l}"]  ?? ($a['read_en']  ?? '');
+    // read 단위 표기 (언어별)
+    $readFmt = ['ko'=>fn($r)=>" · 약 {$r}분",'en'=>fn($r)=>" · ~{$r} min read",'ja'=>fn($r)=>" · 約{$r}分",'es'=>fn($r)=>" · ~{$r} min",'de'=>fn($r)=>" · ~{$r} Min.",'fr'=>fn($r)=>" · ~{$r} min",'pt'=>fn($r)=>" · ~{$r} min",'tr'=>fn($r)=>" · ~{$r} dk",'vi'=>fn($r)=>" · ~{$r} phút"];
+    // 각 언어의 표시 클래스: ko는 "ko", 나머지는 "{lang}-show"
+    $clsOf = fn($l) => ($l === 'ko') ? 'ko' : ($l . '-show');
+    $styOf = fn($l) => ($l === 'ko') ? '' : ' style="display:none"';
 ?>
     <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
       <div class="card-body">
         <div class="card-tagrow">
-          <span class="card-cat"><span class="ko"><?= h(CATEGORY_META[$cat]['ko'] ?? $cat) ?></span><span class="en-show" style="display:none"><?= h(CATEGORY_META[$cat]['en'] ?? $cat) ?></span><span class="ja-show" style="display:none"><?= h($catJa) ?></span><span class="es-show" style="display:none"><?= h($catEs) ?></span><span class="de-show" style="display:none"><?= h($catDe) ?></span></span>
-          <span class="card-tag ko"><?= h($a['tag_ko'] ?? '') ?></span>
-          <span class="card-tag en-show" style="display:none"><?= h($a['tag_en'] ?? '') ?></span>
-          <span class="card-tag ja-show" style="display:none"><?= h($tagJa) ?></span>
-          <span class="card-tag es-show" style="display:none"><?= h($tagEs) ?></span>
-          <span class="card-tag de-show" style="display:none"><?= h($tagDe) ?></span>
+          <span class="card-cat"><?php foreach ($cardLangs as $l) echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($catVal($l)).'</span>'; ?></span>
+          <?php foreach ($cardLangs as $l) echo '<span class="card-tag '.$clsOf($l).'"'.$styOf($l).'>'.h($tagVal($l)).'</span>'; ?>
         </div>
-        <div class="card-title ko"><?= h($a['title_ko'] ?? '') ?></div>
-        <div class="card-title en-show" style="display:none"><?= h($a['title_en'] ?? '') ?></div>
-        <div class="card-title ja-show" style="display:none"><?= h($titleJa) ?></div>
-        <div class="card-title es-show" style="display:none"><?= h($titleEs) ?></div>
-        <div class="card-title de-show" style="display:none"><?= h($titleDe) ?></div>
-        <div class="card-desc ko"><?= h($a['desc_ko'] ?? '') ?></div>
-        <div class="card-desc en-show" style="display:none"><?= h($a['desc_en'] ?? '') ?></div>
-        <div class="card-desc ja-show" style="display:none"><?= h($descJa) ?></div>
-        <div class="card-desc es-show" style="display:none"><?= h($descEs) ?></div>
-        <div class="card-desc de-show" style="display:none"><?= h($descDe) ?></div>
+        <?php foreach ($cardLangs as $l) echo '<div class="card-title '.$clsOf($l).'"'.$styOf($l).'>'.h($titleVal($l)).'</div>'; ?>
+        <?php foreach ($cardLangs as $l) echo '<div class="card-desc '.$clsOf($l).'"'.$styOf($l).'>'.h($descVal($l)).'</div>'; ?>
         <div class="card-meta">
           <span>📅 <?= h(displayDate($a['date'] ?? '')) ?></span>
-          <span class="ko"> · 약 <?= h($a['read_ko'] ?? '') ?>분</span>
-          <span class="en-show" style="display:none"> · ~<?= h($a['read_en'] ?? '') ?> min read</span>
-          <span class="ja-show" style="display:none"> · 約<?= h($readJa) ?>분</span>
-          <span class="es-show" style="display:none"> · ~<?= h($readEs) ?> min</span>
-          <span class="de-show" style="display:none"> · ~<?= h($readDe) ?> Min.</span>
+          <?php foreach ($cardLangs as $l) { $fmt = $readFmt[$l] ?? $readFmt['en']; echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($fmt($readVal($l))).'</span>'; } ?>
         </div>
       </div>
       <div class="card-arrow">→</div>
@@ -261,7 +274,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
   </div>
 
   <button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="display:none">
-    <span class="ko">더 보기</span><span class="en-show" style="display:none">Load More</span><span class="ja-show" style="display:none">もっと見る</span><span class="es-show" style="display:none">Ver Más</span><span class="de-show" style="display:none">Mehr laden</span>
+    <span class="ko">더 보기</span><span class="en-show" style="display:none">Load More</span><span class="ja-show" style="display:none">もっと見る</span><span class="es-show" style="display:none">Ver Más</span><span class="de-show" style="display:none">Mehr laden</span><span class="fr-show" style="display:none">Voir plus</span><span class="pt-show" style="display:none">Ver mais</span><span class="tr-show" style="display:none">Daha fazla</span><span class="vi-show" style="display:none">Xem thêm</span>
     <span id="loadMoreCount"></span>
   </button>
 
@@ -271,16 +284,28 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     <h2 class="ja-show" style="display:none">今すぐビットコインタイミングをリアルタイムで確認</h2>
     <h2 class="es-show" style="display:none">Consulta el Timing de Bitcoin en Vivo</h2>
     <h2 class="de-show" style="display:none">Bitcoin-Timing jetzt live prüfen</h2>
+    <h2 class="fr-show" style="display:none">Vérifiez le timing Bitcoin en direct</h2>
+    <h2 class="pt-show" style="display:none">Confira o timing do Bitcoin ao vivo</h2>
+    <h2 class="tr-show" style="display:none">Bitcoin zamanlamasını şimdi canlı kontrol et</h2>
+    <h2 class="vi-show" style="display:none">Kiểm tra thời điểm Bitcoin trực tiếp</h2>
     <p class="ko">위 지표들을 종합한 0~10점 매수·매도 점수를 실시간으로 무료로 확인하세요.</p>
     <p class="en-show" style="display:none">Get a live 0–10 buy/sell score combining all the indicators above — free.</p>
     <p class="ja-show" style="display:none">上記の指標を統合した0〜10点の売買スコアをリアルタイムで無料確認できます。</p>
     <p class="es-show" style="display:none">Consulta en tiempo real la puntuación de compra/venta de 0-10 combinando todos los indicadores anteriores — gratis.</p>
     <p class="de-show" style="display:none">Erhalte in Echtzeit einen 0-10-Kauf-/Verkaufs-Score, der alle obigen Indikatoren kombiniert — kostenlos.</p>
+    <p class="fr-show" style="display:none">Obtenez en direct un score d'achat/vente de 0 à 10 combinant tous les indicateurs ci-dessus — gratuit.</p>
+    <p class="pt-show" style="display:none">Obtenha ao vivo uma pontuação de compra/venda de 0-10 combinando todos os indicadores acima — grátis.</p>
+    <p class="tr-show" style="display:none">Yukarıdaki tüm göstergeleri birleştiren 0-10 alım/satım puanını canlı ve ücretsiz alın.</p>
+    <p class="vi-show" style="display:none">Nhận điểm mua/bán 0–10 trực tiếp kết hợp tất cả các chỉ báo trên — miễn phí.</p>
     <a href="/" class="ko">실시간 분석 보러가기 →</a>
     <a href="/?lang=en" class="en-show" style="display:none">Go to Live Analysis →</a>
     <a href="/?lang=ja" class="ja-show" style="display:none">リアルタイム分析を見る →</a>
     <a href="/?lang=es" class="es-show" style="display:none">Ver Análisis en Vivo →</a>
     <a href="/?lang=de" class="de-show" style="display:none">Live-Analyse ansehen →</a>
+    <a href="/?lang=fr" class="fr-show" style="display:none">Voir l'analyse en direct →</a>
+    <a href="/?lang=pt" class="pt-show" style="display:none">Ver análise ao vivo →</a>
+    <a href="/?lang=tr" class="tr-show" style="display:none">Canlı analizi gör →</a>
+    <a href="/?lang=vi" class="vi-show" style="display:none">Xem phân tích trực tiếp →</a>
   </div>
 </div>
 <?php require __DIR__ . '/../_shared_footer.php'; ?>
@@ -295,10 +320,13 @@ function setLang(lang) {
     el.classList.toggle('active', el.dataset.lang === lang);
   });
   closeLangMenu();
-  document.querySelectorAll('.en-show').forEach(el => el.style.display = lang==='en' ? '' : 'none');
-  document.querySelectorAll('.ja-show').forEach(el => el.style.display = lang==='ja' ? '' : 'none');
-  document.querySelectorAll('.es-show').forEach(el => el.style.display = lang==='es' ? '' : 'none');
-  document.querySelectorAll('.de-show').forEach(el => el.style.display = lang==='de' ? '' : 'none');
+  // 지원 언어 목록(config.php SUPPORTED_LANGS)을 PHP가 주입 → 언어 추가 시 이 JS 불변
+  var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
+  // ko 외 각 언어의 .{lang}-show 요소를 현재 언어일 때만 표시
+  SUP.forEach(function(L){
+    if(L==='ko') return;
+    document.querySelectorAll('.'+L+'-show').forEach(el => el.style.display = (lang===L) ? '' : 'none');
+  });
   document.querySelectorAll('.ko').forEach(el => el.style.display = (lang!=='ko') ? 'none' : '');
   const logoLink = document.getElementById('logoLink');
   if(logoLink) logoLink.href = '/' + (lang==='ko' ? '' : '?lang=' + lang);
@@ -339,7 +367,7 @@ document.addEventListener('click', (e) => {
 //  localStorage의 ja를 덮어써 EN으로 되돌아가는 버그가 있었음)
 function restoreBlogLang() {
   try {
-    const VALID = ['ko','en','ja','es','de'];
+    const VALID = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
     const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
     const urlLang = new URLSearchParams(location.search).get('lang');
     // 저장된 값(사용자의 마지막 명시적 선택)이 유효하면 ko 포함 무조건 우선.
@@ -430,15 +458,15 @@ try {
 }
 </style>
 <nav class="blog-tabbar">
-  <a class="btab" href="/" data-tb='{"ko":"실시간 지표","en":"Live","ja":"リアルタイム","es":"En vivo","de":"Live"}'>
+  <a class="btab" href="/" data-tb='{"ko":"실시간 지표","en":"Live","ja":"リアルタイム","es":"En vivo","de":"Live","fr":"En direct","pt":"Ao vivo","tr":"Canlı","vi":"Trực tiếp"}'>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
     <span class="btab-tx">실시간 지표</span>
   </a>
-  <button type="button" class="btab" onclick="openBlogCoinSwitcher()" data-tb='{"ko":"코인 검색","en":"Find Coins","ja":"コイン検索","es":"Buscar","de":"Coins"}'>
+  <button type="button" class="btab" onclick="openBlogCoinSwitcher()" data-tb='{"ko":"코인 검색","en":"Find Coins","ja":"コイン検索","es":"Buscar","de":"Coins","fr":"Cryptos","pt":"Buscar","tr":"Coin ara","vi":"Tìm coin"}'>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
     <span class="btab-tx">코인 검색</span>
   </button>
-  <a class="btab active" href="/blog/" data-tb='{"ko":"블로그","en":"Blog","ja":"ブログ","es":"Blog","de":"Blog"}'>
+  <a class="btab active" href="/blog/" data-tb='{"ko":"블로그","en":"Blog","ja":"ブログ","es":"Blog","de":"Blog","fr":"Blog","pt":"Blog","tr":"Blog","vi":"Blog"}'>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
     <span class="btab-tx">블로그</span>
   </a>
@@ -480,7 +508,11 @@ var __BCS_I18N={
   en:{title:'Switch coin',sub:'Your favorites',empty:'No favorite coins yet.'},
   ja:{title:'コイン切替',sub:'お気に入り',empty:'お気に入りがありません。'},
   es:{title:'Cambiar',sub:'Favoritos',empty:'Sin favoritos.'},
-  de:{title:'Coin wechseln',sub:'Favoriten',empty:'Keine Favoriten.'}
+  de:{title:'Coin wechseln',sub:'Favoriten',empty:'Keine Favoriten.'},
+  fr:{title:'Changer de crypto',sub:'Vos favoris',empty:'Aucune crypto favorite.'},
+  pt:{title:'Trocar moeda',sub:'Seus favoritos',empty:'Nenhuma moeda favorita.'},
+  tr:{title:'Coin değiştir',sub:'Favorileriniz',empty:'Henüz favori coin yok.'},
+  vi:{title:'Đổi coin',sub:'Yêu thích',empty:'Chưa có coin yêu thích.'}
 };
 function bcsLang(){ try{ return document.getElementById('html-root').lang||'ko'; }catch(e){ return 'ko'; } }
 function bcsGetFavs(){ try{ const r=localStorage.getItem('favoriteCoins'); if(r===null) return [...window.__BLOG_DEFAULT_FAVS]; const a=JSON.parse(r); return Array.isArray(a)&&a.length?a:[...window.__BLOG_DEFAULT_FAVS]; }catch(e){ return [...window.__BLOG_DEFAULT_FAVS]; } }
