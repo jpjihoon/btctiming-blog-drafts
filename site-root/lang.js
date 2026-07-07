@@ -25,7 +25,7 @@ window.LANGS = {
     // Indicator names (buy)
     ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Realized Price Gap',
     ind_alt_valuation:'Price vs Est. Realized (200W MA)', ind_alt_drawdown:'ATH Drawdown',
-    tab_dashboard:'Live', tab_coins:'Coins', tab_blog:'Blog',
+    tab_dashboard:'Live', tab_coins:'Find Coins', tab_blog:'Blog',
     ind_alt_short_val:'Price vs Est. Realized (Short)', ind_alt_short_ath:'ATH Proximity — Overheat',
     ind_rsi:'RSI (14d)', ind_vol_change:'Volume Acceleration (15m vs 1h/4h)', ind_btc_corr_tech:'BTC Correlation (30d)',
     ind_buy_pressure:'Live Buy-Led Volume — FOMO', ind_sell_pressure:'Live Sell-Led Volume — Capitulation',
@@ -131,7 +131,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     // Indicator names (buy)
     ind_mvrv_z:'MVRV Zスコア', ind_nupl:'NUPL', ind_realized:'実現価格乖離率',
     ind_alt_valuation:'価格 vs 推定実現価格 (200W MA)', ind_alt_drawdown:'ATH比下落率',
-    tab_dashboard:'リアルタイム', tab_coins:'コイン', tab_blog:'ブログ',
+    tab_dashboard:'リアルタイム', tab_coins:'コイン検索', tab_blog:'ブログ',
     ind_alt_short_val:'価格 vs 推定実現価格 (ショート)', ind_alt_short_ath:'ATH近接度 — 過熱',
     ind_rsi:'RSI (14日)', ind_vol_change:'出来高変化率 (15分足 vs 1h/4h)', ind_btc_corr_tech:'BTC相関係数 (30日)',
     ind_buy_pressure:'リアルタイム買い主導出来高 — FOMO/過熱', ind_sell_pressure:'リアルタイム売り主導出来高 — Capitulation',
@@ -227,7 +227,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     longExitLabel:'장기 보유 청산', shortEntryLabel:'숏 진입 신호',
     ind_mvrv_z:'MVRV Z 스코어', ind_nupl:'NUPL', ind_realized:'실현가 이격률',
     ind_alt_valuation:'가격 vs 추정 실현가 (200주 MA)', ind_alt_drawdown:'ATH 대비 낙폭',
-    tab_dashboard:'실시간 지표', tab_coins:'코인', tab_blog:'블로그',
+    tab_dashboard:'실시간 지표', tab_coins:'코인 검색', tab_blog:'블로그',
     ind_alt_short_val:'가격 vs 추정 실현가 (숏)', ind_alt_short_ath:'ATH 근접도 — 과열',
     ind_rsi:'RSI (14일)', ind_vol_change:'거래량 가속도 (15분봉 vs 1h/4h)', ind_btc_corr_tech:'BTC 상관계수 (30일)',
     ind_buy_pressure:'실시간 매수 주도 거래량 — FOMO/과열', ind_sell_pressure:'실시간 매도 주도 거래량 — Capitulation',
@@ -330,7 +330,7 @@ Current: STH realizing significant profit relative to LTH → distribution may b
     // Indicator names (buy)
     ind_mvrv_z:'Puntuación Z MVRV', ind_nupl:'NUPL', ind_realized:'Brecha del Precio Realizado',
     ind_alt_valuation:'Precio vs Realizado Est. (200W MA)', ind_alt_drawdown:'Caída desde ATH',
-    tab_dashboard:'En vivo', tab_coins:'Monedas', tab_blog:'Blog',
+    tab_dashboard:'En vivo', tab_coins:'Buscar', tab_blog:'Blog',
     ind_alt_short_val:'Precio vs Realizado Est. (Corto)', ind_alt_short_ath:'Proximidad a ATH — Sobrecalentamiento',
     ind_rsi:'RSI (14d)', ind_vol_change:'Aceleración de Volumen (15m vs 1h/4h)', ind_btc_corr_tech:'Correlación con BTC (30d)',
     ind_buy_pressure:'Volumen en Vivo Liderado por Compra — FOMO', ind_sell_pressure:'Volumen en Vivo Liderado por Venta — Capitulación',
@@ -435,7 +435,7 @@ Actual: STH realizando ganancias significativas en relación a LTH → la distri
     // Indicator names (buy)
     ind_mvrv_z:'MVRV Z-Score', ind_nupl:'NUPL', ind_realized:'Realized-Price-Abstand',
     ind_alt_valuation:'Preis vs. gesch. Realized (200W MA)', ind_alt_drawdown:'ATH-Drawdown',
-    tab_dashboard:'Live', tab_coins:'Coins', tab_blog:'Blog',
+    tab_dashboard:'Live', tab_coins:'Find Coins', tab_blog:'Blog',
     ind_alt_short_val:'Preis vs. gesch. Realized (Short)', ind_alt_short_ath:'ATH-Nähe — Überhitzung',
     ind_rsi:'RSI (14T)', ind_vol_change:'Volumenbeschleunigung (15m vs 1h/4h)', ind_btc_corr_tech:'BTC-Korrelation (30T)',
     ind_buy_pressure:'Live Kaufgetriebenes Volumen — FOMO', ind_sell_pressure:'Live Verkaufsgetriebenes Volumen — Kapitulation',

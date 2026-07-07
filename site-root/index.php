@@ -374,7 +374,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 /* 모바일 하단 탭바 */
 .mobile-tabbar{display:none}
 @media(max-width:600px){
-  .mobile-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:900;
+  .mobile-tabbar{display:flex;position:fixed;left:0;right:0;top:auto;bottom:0;z-index:900;
     height:48px;background:rgba(15,15,17,.96);backdrop-filter:blur(12px);
     border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
   .mtab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
@@ -1092,7 +1092,7 @@ $ft = $footerText[$lang] ?? $footerText['en'];
   </a>
   <button type="button" class="mtab" onclick="openCoinSearch()" data-tab="coins">
     <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
-    <span class="mtab-tx" data-i="tab_coins">코인</span>
+    <span class="mtab-tx" data-i="tab_coins">코인 검색</span>
   </button>
   <a class="mtab" href="/blog/<?= isset($urlSuffix) && $urlSuffix ? h($urlSuffix) : '' ?>" data-tab="blog">
     <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
