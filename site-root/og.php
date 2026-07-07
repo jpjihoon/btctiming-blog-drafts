@@ -13,7 +13,7 @@
 
 $slug = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['slug'] ?? ''));
 $lang = preg_replace('/[^a-z]/', '', strtolower($_GET['lang'] ?? 'ko'));
-$allowedLangs = ['ko','en','ja','es','de'];
+$allowedLangs = ['ko','en','ja','es','de','fr','pt','tr','vi'];
 if (!in_array($lang, $allowedLangs, true)) $lang = 'ko';
 if ($slug === '') { http_response_code(400); exit('bad slug'); }
 
@@ -57,6 +57,10 @@ $slogans = [
     'ja' => 'ビットコイン売買タイミング',
     'es' => 'Momento de compra/venta de Bitcoin',
     'de' => 'Bitcoin Kauf-/Verkaufszeitpunkt',
+    'fr' => 'Timing d\'achat/vente Bitcoin',
+    'pt' => 'Timing de compra/venda de Bitcoin',
+    'tr' => 'Bitcoin alım/satım zamanlaması',
+    'vi' => 'Thời điểm mua/bán Bitcoin',
 ];
 $slogan = $slogans[$lang] ?? $slogans['en'];
 
@@ -92,24 +96,79 @@ function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8
 // ── 본문에서 첫 번째 차트 SVG 추출 ──
 // 본문 글 안에 인포그래픽/차트 SVG가 있으면 그걸 OG 이미지의 주인공으로 삼는다.
 // (제목 텍스트 카드가 아니라, 글 안의 실제 시각자료를 공유 썸네일로)
+//
+// 다국어 처리: 글이 SVG를 다루는 방식은 두 가지가 있을 수 있다.
+//   (A) 언어별로 SVG를 통째로 나눔:  <svg class="ko">…</svg> … <svg class="vi">…</svg>
+//   (B) 하나의 SVG 안에서 텍스트만 언어별로 나눔:  <text class="ko">…</text><text class="fr">…</text>
+//   (C) 언어 구분 없는 공용 SVG (숫자·기호 위주, 혹은 한 언어 고정)
+// og.php는 Imagick으로 정적 렌더하므로 CSS display:none이 적용되지 않는다.
+// 따라서 현재 $lang이 아닌 언어 요소를 문자열 단계에서 직접 제거해야 겹침이 없다.
 $chartSvg = null; $chartW = 0; $chartH = 0;
 if ($bodyMtime > 0) {
     $body = file_get_contents($bodyFile);
-    if ($body !== false && preg_match('/<svg\b[^>]*>.*?<\/svg>/is', $body, $mm)) {
-        $raw = $mm[0];
-        // viewBox에서 원본 크기
-        if (preg_match('/viewBox="[\d.\s]*?([\d.]+)\s+([\d.]+)"/i', $raw, $vb)) {
-            $chartW = (float)$vb[1]; $chartH = (float)$vb[2];
-        } elseif (preg_match('/width="([\d.]+)"[^>]*height="([\d.]+)"/i', $raw, $wh)) {
-            $chartW = (float)$wh[1]; $chartH = (float)$wh[2];
+    if ($body !== false) {
+        // 본문에 있는 모든 최상위 <svg>…</svg> 블록 수집
+        $raw = null;
+        if (preg_match_all('/<svg\b[^>]*>.*?<\/svg>/is', $body, $all) && !empty($all[0])) {
+            $svgs = $all[0];
+            // (A) 언어별로 나뉜 SVG면, 현재 언어(class="xx")를 가진 SVG를 우선 선택.
+            //     현재 언어가 없으면 영어 → 한국어 → 그냥 첫 번째 순으로 폴백.
+            $byLang = [];
+            $hasLangTagged = false;
+            foreach ($svgs as $s) {
+                if (preg_match('/<svg\b[^>]*\bclass="([a-z]{2})"/i', $s, $cm)) {
+                    $byLang[$cm[1]] = $s; $hasLangTagged = true;
+                }
+            }
+            if ($hasLangTagged) {
+                $raw = $byLang[$lang] ?? $byLang['en'] ?? $byLang['ko'] ?? reset($svgs);
+            } else {
+                // 언어 태그 없는 SVG들 → 첫 번째를 주인공으로
+                $raw = $svgs[0];
+            }
         }
-        if ($chartW > 0 && $chartH > 0) {
-            // <svg ...> 래퍼 제거하고 내부 그래픽만 추출
-            $inner = preg_replace('/^<svg\b[^>]*>/i', '', $raw);
-            $inner = preg_replace('/<\/svg>\s*$/i', '', $inner);
-            $chartSvg = $inner;
+        if ($raw !== null) {
+            // viewBox에서 원본 크기
+            if (preg_match('/viewBox="[\d.\s]*?([\d.]+)\s+([\d.]+)"/i', $raw, $vb)) {
+                $chartW = (float)$vb[1]; $chartH = (float)$vb[2];
+            } elseif (preg_match('/width="([\d.]+)"[^>]*height="([\d.]+)"/i', $raw, $wh)) {
+                $chartW = (float)$wh[1]; $chartH = (float)$wh[2];
+            }
+            if ($chartW > 0 && $chartH > 0) {
+                // <svg ...> 래퍼 제거하고 내부 그래픽만 추출
+                $inner = preg_replace('/^<svg\b[^>]*>/i', '', $raw);
+                $inner = preg_replace('/<\/svg>\s*$/i', '', $inner);
+                // (B) 하나의 SVG 안에 언어별 텍스트가 섞여 있으면, 현재 언어 아닌 요소 제거.
+                //     <text>/<tspan>/<g> 등 어떤 태그든 class="{다른언어}"면 통째로 삭제.
+                $inner = og_strip_other_langs($inner, $lang);
+                $chartSvg = $inner;
+            }
         }
     }
+}
+
+// SVG 내부에서 현재 언어가 아닌 언어 클래스를 가진 요소를 제거.
+// class="xx" (xx = 지원 9개 언어 중 현재 언어가 아닌 것)를 가진 요소를,
+// 여는 태그~닫는 태그까지 통째로 삭제한다. 언어 클래스가 아예 없으면 그대로 둔다.
+function og_strip_other_langs(string $svg, string $lang): string {
+    $langs = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+    $others = array_diff($langs, [$lang]);
+    foreach ($others as $ol) {
+        // <tag ... class="ol" ...> ... </tag>  (같은 태그명끼리 매칭; 중첩 최소화 위해 non-greedy)
+        // text/tspan/g/rect 등 자주 쓰는 요소를 개별 처리
+        foreach (['text','tspan','g','rect','path','line','circle','polyline','polygon'] as $tag) {
+            $svg = preg_replace(
+                '/<' . $tag . '\b[^>]*\bclass="' . $ol . '"[^>]*>.*?<\/' . $tag . '>/is',
+                '', $svg
+            );
+            // 자기닫힘 형태 <rect ... class="ol" .../>
+            $svg = preg_replace(
+                '/<' . $tag . '\b[^>]*\bclass="' . $ol . '"[^>]*\/>/is',
+                '', $svg
+            );
+        }
+    }
+    return $svg;
 }
 
 // ── OG SVG 구성 ──
