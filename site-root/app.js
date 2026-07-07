@@ -291,6 +291,9 @@ let indCache = {};
 // COIN TABS
 // ═══════════════════════════════════════════════════════
 function initTabs() {
+  // 이전에 body로 옮겨진 더보기 메뉴가 있으면 제거 (중복 방지)
+  const orphan = document.getElementById('coinMoreMenu');
+  if (orphan && orphan.parentElement === document.body) orphan.remove();
   const favCoins = getFavoriteCoins();
   // 현재 선택된 코인이 즐겨찾기에서 빠졌으면 첫 즐겨찾기로 이동
   if (!favCoins.some(c => c.id === currentCoin)) {
@@ -347,16 +350,30 @@ function initTabs() {
 }
 function toggleCoinMore(e) {
   e.stopPropagation();
-  const m = document.getElementById('coinMoreMenu');
-  if (m) m.classList.toggle('open');
+  const menu = document.getElementById('coinMoreMenu');
+  const btn = e.currentTarget; // .coin-tab-more
+  if (!menu) return;
+  const isOpen = menu.classList.contains('open');
+  if (isOpen) { closeCoinMore(); return; }
+  // overflow:auto 컨테이너에 잘리지 않도록 body로 옮기고 버튼 위치 기준 fixed 배치
+  if (menu.parentElement !== document.body) document.body.appendChild(menu);
+  const r = btn.getBoundingClientRect();
+  menu.style.position = 'fixed';
+  menu.style.top = (r.bottom + 6) + 'px';
+  // 오른쪽 정렬(화면 밖으로 안 나가게). 버튼 오른쪽 끝에 메뉴 오른쪽을 맞춤.
+  menu.style.left = 'auto';
+  menu.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
+  menu.classList.add('open');
 }
 function closeCoinMore() {
   const m = document.getElementById('coinMoreMenu');
   if (m) m.classList.remove('open');
 }
 document.addEventListener('click', (e) => {
-  if (!e.target.closest('.coin-tab-more')) closeCoinMore();
+  // 메뉴 내부나 more 버튼 클릭이 아니면 닫기
+  if (!e.target.closest('.coin-tab-more') && !e.target.closest('#coinMoreMenu')) closeCoinMore();
 });
+window.addEventListener('scroll', closeCoinMore, true);
 
 // ═══════════════════════════════════════════════════════
 // 코인 검색/즐겨찾기 오버레이

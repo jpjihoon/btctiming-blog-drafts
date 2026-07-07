@@ -323,7 +323,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-tab-add:hover{color:var(--t1);border-color:var(--b2)}
 .coin-tab-more{position:relative;font-weight:700;color:var(--t2);padding:5px 11px}
 .coin-tab-more:hover{color:var(--t1);border-color:var(--b2)}
-.coin-more-menu{display:none;position:absolute;top:calc(100% + 6px);right:0;min-width:180px;max-height:340px;overflow-y:auto;background:#131316;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:5px;z-index:300;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.coin-more-menu{display:none;position:fixed;min-width:180px;max-height:340px;overflow-y:auto;background:#131316;border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:5px;z-index:1200;box-shadow:0 12px 40px rgba(0,0,0,.5)}
 .coin-more-menu.open{display:block}
 .coin-more-item{display:flex;align-items:center;gap:8px;padding:9px 11px;border-radius:7px;font-size:12px;font-weight:600;color:var(--t2);cursor:pointer;white-space:nowrap}
 .coin-more-item:hover{background:#1f1f24;color:var(--t1)}
