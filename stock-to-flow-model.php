@@ -76,7 +76,7 @@
     <text x="360" y="105" fill="#4ade80" font-size="11" font-weight="700">실제 가격</text>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">S2F Prediction Line vs Actual Bitcoin Price (log scale, conceptual)</text>
     <line x1="55" y1="270" x2="670" y2="270" stroke="#3f3f46" stroke-width="1"/>
@@ -115,12 +115,20 @@
   <p class="ko" style="font-size:12px;color:#71717a;margin-top:-10px">※ 실제 데이터가 아닌 두 궤적의 관계를 보여주기 위한 개념도입니다.</p>
   <p class="en" style="font-size:12px;color:#71717a;margin-top:-10px">※ Conceptual illustration of the relationship, not exact historical data.</p>
   <p class="ja" style="font-size:12px;color:#71717a;margin-top:-10px">※ 実際のデータではなく、2つの軌跡の関係を示すための概念図です。</p>
+  <p class="fr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Illustration conceptuelle de la relation, et non des données historiques exactes.</p>
+  <p class="pt" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustração conceitual da relação, não dados históricos exatos.</p>
+  <p class="tr" style="font-size:12px;color:#71717a;margin-top:-10px">※ İlişkinin kavramsal bir gösterimidir, kesin tarihsel veri değildir.</p>
+  <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Đây là minh họa khái niệm về mối quan hệ, không phải dữ liệu lịch sử chính xác.</p>
 
   <p class="ko">2019~2020년까지는 실제 가격이 이 예측선 근처에서 등락했어요. 그래서 신봉자가 폭발적으로 늘었습니다. "S2F가 곧 신의 계시"라는 농담까지 나올 정도였죠.</p>
   <p class="en">Through 2019-2020, actual price oscillated close to that predicted line. Believers multiplied fast — there were even jokes that "S2F is basically gospel."</p>
   <p class="ja">2019〜2020年までは実際の価格がこの予測線付近で上下していました。そのため信奉者が爆発的に増えました。「S2Fはもはや神の啓示だ」という冗談まで出るほどでした。</p>
   <p class="es">Hasta 2019-2020, el precio real oscilaba cerca de esa línea predicha. Los creyentes se multiplicaron rápido — incluso hubo bromas de que "S2F es básicamente el evangelio."</p>
   <p class="de">Bis 2019-2020 schwankte der tatsächliche Preis nahe dieser vorhergesagten Linie. Die Gläubigen vermehrten sich schnell — es gab sogar Witze, dass "S2F im Grunde das Evangelium ist."</p>
+  <p class="fr">Entre 2019 et 2020, le prix réel a oscillé près de cette ligne prédite. Les croyants se sont multipliés rapidement — il y a même eu des blagues disant que "le S2F est pratiquement parole d'évangile."</p>
+  <p class="pt">Ao longo de 2019-2020, o preço real oscilou perto dessa linha prevista. Os crentes se multiplicaram rapidamente — chegou a haver piadas de que "o S2F é basicamente um evangelho."</p>
+  <p class="tr">2019-2020 boyunca gerçek fiyat, bu tahmin çizgisine yakın seyretti. İnananların sayısı hızla arttı — hatta "S2F neredeyse kutsal bir gerçek" diye şakalar bile yapıldı.</p>
+  <p class="vi">Trong suốt năm 2019-2020, giá thực tế dao động sát với đường dự đoán đó. Số người tin theo tăng nhanh chóng — thậm chí còn có những câu đùa rằng "S2F về cơ bản là chân lý."</p>
 
   <h2 class="ko">그리고 2021년, 선을 완전히 이탈했다</h2>
   <h2 class="en">Then, in 2021, it went completely off the rails</h2>

@@ -384,12 +384,36 @@
     <li><strong>Kein eigenständiges Handelssignal.</strong> Misst Stimmung, nicht Bewertung, daher könnte der Preis noch überbewertet sein.</li>
     <li><strong>Retail-gewichtete Komponenten.</strong> Institutionelle Flüsse separat über Coinbase Premium und ähnliche Metriken prüfen.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Les extrêmes peuvent persister.</strong> La « peur » ne garantit pas un rebond immédiat — elle peut se poursuivre pendant des semaines, voire des mois.</li>
+    <li><strong>Ne constitue pas un signal de trading autonome.</strong> Il mesure le sentiment, pas la valorisation, donc le prix peut rester surévalué.</li>
+    <li><strong>Composantes pondérées vers les particuliers.</strong> Vérifiez séparément les flux institutionnels via le Coinbase Premium et des indicateurs similaires.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Extremos podem persistir.</strong> O "medo" não garante uma recuperação imediata — pode continuar por semanas ou meses.</li>
+    <li><strong>Não é um sinal de negociação isolado.</strong> Ele mede sentimento, não valoração, portanto o preço ainda pode estar sobrevalorizado.</li>
+    <li><strong>Componentes ponderados para o varejo.</strong> Verifique os fluxos institucionais separadamente por meio do Coinbase Premium e métricas semelhantes.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Aşırı seviyeler uzun sürebilir.</strong> "Korku" anında bir toparlanmayı garanti etmez — haftalarca hatta aylarca devam edebilir.</li>
+    <li><strong>Tek başına bir alım-satım sinyali değildir.</strong> Değerlemeyi değil duyarlılığı ölçer, bu yüzden fiyat hâlâ aşırı değerli olabilir.</li>
+    <li><strong>Bileşenler perakendeye ağırlıklıdır.</strong> Kurumsal akışları Coinbase Premium ve benzeri metriklerle ayrıca kontrol edin.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Các mức cực đoan có thể kéo dài.</strong> "Sợ hãi" không đảm bảo sự phục hồi ngay lập tức — nó có thể tiếp tục trong nhiều tuần hoặc nhiều tháng.</li>
+    <li><strong>Không phải là tín hiệu giao dịch độc lập.</strong> Chỉ số này đo lường tâm lý, không phải định giá, vì vậy giá vẫn có thể đang bị định giá quá cao.</li>
+    <li><strong>Các thành phần thiên về nhà đầu tư cá nhân.</strong> Cần kiểm tra dòng vốn tổ chức riêng qua Coinbase Premium và các chỉ số tương tự.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal en combinaison avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Kombinasyon</h2>
+  <h2 class="vi">Kết hợp tốt nhất với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 공포와 저평가가 동시에 확인될 때 신뢰도 상승</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료와 겹치는지 확인</li>
@@ -414,6 +438,26 @@
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Vertrauen steigt, wenn Angst und Unterbewertung übereinstimmen</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob die Miner-Kapitulation ebenfalls endete</li>
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR unter 0,95</a>:</strong> Bestätigen, ob kurzfristige Halter ebenfalls in Panik verkaufen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score inférieur à 0</a> :</strong> La confiance augmente lorsque la peur et la sous-évaluation coïncident</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifiez si la capitulation des mineurs s'est également terminée</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR inférieur à 0,95</a> :</strong> Confirmez si les détenteurs à court terme vendent également en panique</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score abaixo de 0</a>:</strong> A confiança aumenta quando medo e subvalorização coincidem</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verifique se a capitulação dos mineradores também terminou</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR abaixo de 0,95</a>:</strong> Confirme se os detentores de curto prazo também estão vendendo em pânico</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score'un 0'ın altında olması</a>:</strong> Korku ve düşük değerleme örtüştüğünde güven artar</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci kapitülasyonunun da sona erip ermediğini kontrol edin</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR'nin 0,95'in altında olması</a>:</strong> Kısa vadeli yatırımcıların da panikle satış yapıp yapmadığını doğrulayın</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score dưới 0</a>:</strong> Độ tin cậy tăng lên khi sợ hãi và định giá thấp cùng xuất hiện</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Điểm giao cắt phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem tình trạng đầu hàng của thợ đào đã kết thúc hay chưa</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR dưới 0,95</a>:</strong> Xác nhận liệu người nắm giữ ngắn hạn có đang bán tháo trong hoảng loạn hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

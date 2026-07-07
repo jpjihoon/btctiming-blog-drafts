@@ -419,5 +419,29 @@
     <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium wird positiv</a>:</strong> Signal für US-institutionellen Wiedereinstieg</li>
     <li><strong><a href="/blog/funding-rate-futures-gap.html">Futures-Spot-Spread negativ</a>:</strong> Gehebelte Longs ausgespült</li>
   </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Le signal d'achat avancé le plus puissant</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR sous 0,95</a> :</strong> Vente de panique des détenteurs à court terme</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium redevient positif</a> :</strong> Signal de retour des investisseurs institutionnels américains</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.html">Écart Futures-Spot négatif</a> :</strong> Purge des positions longues à effet de levier</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> O sinal de compra antecedente mais forte</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR abaixo de 0,95</a>:</strong> Venda em pânico de detentores de curto prazo</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium torna-se positivo</a>:</strong> Sinal de reentrada de investidores institucionais dos EUA</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.html">Gap Futuros-Spot negativo</a>:</strong> Liquidação de posições compradas alavancadas</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> En güçlü öncü alım sinyali</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 0,95 altında</a>:</strong> Kısa vadeli yatırımcıların panik satışı</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium'un pozitife dönmesi</a>:</strong> ABD kurumsal yatırımcılarının yeniden giriş sinyali</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.html">Vadeli-Spot farkının negatif olması</a>:</strong> Kaldıraçlı long pozisyonların tasfiyesi</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon cắt lên phục hồi</a>:</strong> Tín hiệu mua dẫn dắt mạnh nhất</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR dưới 0,95</a>:</strong> Nhà đầu tư ngắn hạn bán tháo hoảng loạn</li>
+    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium chuyển sang dương</a>:</strong> Tín hiệu nhà đầu tư tổ chức Mỹ quay trở lại</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.html">Chênh lệch Futures-Spot âm</a>:</strong> Các vị thế long đòn bẩy bị thanh lý hết</li>
+  </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

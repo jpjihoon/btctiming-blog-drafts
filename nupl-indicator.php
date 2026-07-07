@@ -293,11 +293,19 @@
     <div class="rt ja">$15,500の底値でNUPLは再び0付近まで下落、キャピチュレーションシグナルを再現。</div>
     <div class="rt es">NUPL volvió a caer cerca de 0 en el suelo de $15,500, señalando capitulación nuevamente.</div>
     <div class="rt de">NUPL fiel am Tief von $15.500 erneut auf nahe 0 und signalisierte wieder Kapitulation.</div>
+    <div class="rt fr">Le NUPL est retombé près de 0 au plancher de $15,500, signalant à nouveau la capitulation.</div>
+    <div class="rt pt">O NUPL voltou a cair perto de 0 no fundo de $15,500, sinalizando capitulação novamente.</div>
+    <div class="rt tr">NUPL, $15,500 dip seviyesinde tekrar 0'a yaklaşarak yeniden kapitülasyon sinyali verdi.</div>
+    <div class="rt vi">NUPL giảm trở lại gần mức 0 tại đáy $15,500, báo hiệu trạng thái đầu hàng một lần nữa.</div>
     <div class="rr ko">→ 이후 2025년 $126,000까지 약 8배 상승</div>
     <div class="rr en">→ Bitcoin rose ~8x to $126,000 by 2025</div>
     <div class="rr ja">→ その後2025年に$126,000まで約8倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~8x hasta $126,000 en 2025</div>
     <div class="rr de">→ Bitcoin stieg bis 2025 um das ~8-fache auf $126.000</div>
+    <div class="rr fr">→ Le Bitcoin a grimpé d'environ 8x jusqu'à $126,000 d'ici 2025</div>
+    <div class="rr pt">→ Bitcoin subiu ~8x até $126,000 em 2025</div>
+    <div class="rr tr">→ Bitcoin 2025'e kadar ~8 kat yükselerek $126,000'a ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng ~8 lần lên $126,000 vào năm 2025</div>
   </div>
 
   <h2 class="ko">MVRV Z-Score와 무엇이 다른가?</h2>
