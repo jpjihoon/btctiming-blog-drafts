@@ -374,14 +374,18 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 /* 모바일 하단 탭바 */
 .mobile-tabbar{display:none}
 @media(max-width:600px){
-  .mobile-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:900;height:58px;
-    background:#0f0f0f;border-top:1px solid rgba(255,255,255,.08);padding-bottom:env(safe-area-inset-bottom)}
-  .mtab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
-    background:transparent;border:none;color:#777;font-size:10px;font-weight:600;text-decoration:none;cursor:pointer;transition:color .15s}
+  .mobile-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:900;
+    height:48px;background:rgba(15,15,17,.96);backdrop-filter:blur(12px);
+    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
+  .mtab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;cursor:pointer;
+    transition:color .15s;-webkit-tap-highlight-color:transparent}
   .mtab.active{color:var(--orange)}
-  .mtab-ic{font-size:19px;line-height:1}
-  .mtab-tx{font-size:10px}
-  body{padding-bottom:58px}
+  .mtab.active::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:22px;height:2px;border-radius:0 0 3px 3px;background:var(--orange)}
+  .mtab-ic{width:20px;height:20px;display:block}
+  .mtab-tx{font-size:9.5px;letter-spacing:-.2px}
+  body{padding-bottom:48px}
 }
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
@@ -1083,15 +1087,15 @@ $ft = $footerText[$lang] ?? $footerText['en'];
 <!-- 모바일 하단 탭바 -->
 <nav class="mobile-tabbar" id="mobileTabbar">
   <a class="mtab active" href="/<?= h($urlSuffix ?? '') ?>" data-tab="dashboard">
-    <span class="mtab-ic">◧</span>
-    <span class="mtab-tx" data-i="tab_dashboard">대시보드</span>
+    <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
+    <span class="mtab-tx" data-i="tab_dashboard">실시간 지표</span>
   </a>
   <button type="button" class="mtab" onclick="openCoinSearch()" data-tab="coins">
-    <span class="mtab-ic">◎</span>
+    <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
     <span class="mtab-tx" data-i="tab_coins">코인</span>
   </button>
   <a class="mtab" href="/blog/<?= isset($urlSuffix) && $urlSuffix ? h($urlSuffix) : '' ?>" data-tab="blog">
-    <span class="mtab-ic">▤</span>
+    <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
     <span class="mtab-tx" data-i="tab_blog">블로그</span>
   </a>
 </nav>
