@@ -40,68 +40,47 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 <title>블로그 — 비트코인 분석 인사이트 | BTCtiming.com</title>
 <meta name="description" content="비트코인 온체인 지표 가이드, 시황분석, 칼럼을 한곳에서. MVRV Z-Score, Hash Ribbon, 반감기 타이밍 등 실전 투자에 바로 활용할 수 있는 분석 글을 제공합니다.">
 <link rel="canonical" href="https://btctiming.com/blog/">
-<link rel="alternate" type="application/rss+xml" title="BTCtiming.com Blog RSS" href="https://btctiming.com/blog/rss.php">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#09090b;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
-nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0}.logo span{color:#fbbf24}
-.back{font-size:13px;color:#666666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+nav{background:#0f0f11;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:100;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
+.logo{font-size:16px;font-weight:700;color:#f7931a}.logo span{color:#e4e4e7}
+.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0}
-.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#151515;
-  border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f0f0f0;font-size:11px;font-weight:700;
+.lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#151515;
+  border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#e4e4e7;font-size:11px;font-weight:600;
   letter-spacing:.02em;cursor:pointer;transition:all .15s}
-.lang-trigger:hover{background:#1a1a1a}
-.lang-caret{font-size:9px;color:#666666;transition:transform .15s}
+.lang-trigger:hover{background:#1f1f1f}
+.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
-.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#0f0f0f;
-  border:1px solid rgba(255,255,255,0.06);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#151515;
+  border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
   overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
-  border:none;color:#aaaaaa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
-.lang-menu-item:hover{background:#151515;color:#f0f0f0}
-.lang-menu-item.active{color:#fb923c;background:rgba(247,147,26,.08)}
+  border:none;color:#a1a1aa;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#1f1f1f;color:#e4e4e7}
+.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 
 /* ── 히어로 영역 ── */
 .hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.06);
   background:radial-gradient(ellipse 900px 400px at 15% -10%,rgba(247,147,26,.16),transparent 60%),
              radial-gradient(ellipse 700px 350px at 90% 0%,rgba(96,165,250,.10),transparent 60%),#09090b}
-.hero-inner{max-width:800px;margin:0 auto;padding:28px 24px 22px}
-.hero-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.hero-inner{max-width:800px;margin:0 auto;padding:56px 24px 40px}
 .hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#f7931a;
-  background:rgba(247,147,26,.1);border:1px solid rgba(247,147,26,.25);border-radius:999px;padding:3px 11px}
-h1{font-size:1.6rem;font-weight:800;color:#fafafa;letter-spacing:-.5px}
-.sub{font-size:13.5px;color:#8b8b93;max-width:560px;margin-top:6px}
+  background:rgba(247,147,26,.1);border:1px solid rgba(247,147,26,.25);border-radius:999px;padding:5px 12px;margin-bottom:18px}
+h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#fafafa;letter-spacing:-.5px}
+.sub{font-size:15px;color:#8b8b93;max-width:520px}
 
 /* ── 카테고리 필터 탭 ── */
 .cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:800px;margin:0 auto;padding:0 24px;position:relative;top:18px}
-/* 블로그 검색창 */
-.blog-search-wrap{max-width:800px;margin:0 auto;padding:20px 24px 0}
-.blog-search{display:flex;align-items:center;gap:8px;background:#151515;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 14px;transition:border-color .15s}
-.blog-search:focus-within{border-color:rgba(247,147,26,.5)}
-.bs-icon{font-size:14px;opacity:.6;flex-shrink:0}
-#blogSearch{flex:1;background:transparent;border:none;outline:none;color:#e4e4e7;font-size:14px;min-width:0}
-#blogSearch::placeholder{color:#52525b}
-.bs-clear{flex-shrink:0;background:transparent;border:none;color:#71717a;font-size:13px;cursor:pointer;padding:2px 4px;border-radius:4px}
-.bs-clear:hover{color:#e4e4e7;background:rgba(255,255,255,.06)}
-.search-count{flex-shrink:0;font-size:11px;font-weight:600;color:#f7931a;background:rgba(247,147,26,.1);border:1px solid rgba(247,147,26,.22);border-radius:999px;padding:2px 9px;white-space:nowrap}
-.no-results{text-align:center;color:#52525b;font-size:14px;padding:48px 20px;grid-column:1/-1}
 .cat-tab{font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.1);
   background:#111113;color:#a1a1aa;cursor:pointer;transition:all .15s;white-space:nowrap}
 .cat-tab:hover{border-color:rgba(255,255,255,.25);color:#e4e4e7}
 .cat-tab.active{background:var(--cat-color,#f7931a);border-color:var(--cat-color,#f7931a);color:#000}
 
 .wrap{max-width:800px;margin:0 auto;padding:36px 24px 80px}
-/* 목록 + 우측 광고 컬럼 (넓은 화면 + 광고 있을 때만) */
-@media(min-width:1100px){
-  .wrap:has(.wrap-ad:not(:empty)){max-width:1060px;display:flex;gap:28px;align-items:flex-start;justify-content:center}
-  .wrap:has(.wrap-ad:not(:empty)) .wrap-main{max-width:800px;flex:1 1 auto;min-width:0}
-  .wrap-ad:not(:empty){flex:0 0 160px;position:sticky;top:24px;align-self:flex-start;min-height:600px}
-}
-.wrap-ad:empty{display:none}
-@media(max-width:1099px){.wrap-ad{display:none}}
 .article-grid{display:grid;gap:14px}
 .article-card{background:#111113;border:1px solid rgba(255,255,255,.07);border-radius:14px;
   padding:22px;transition:border-color .18s,transform .18s,background .18s;
@@ -133,7 +112,7 @@ h1{font-size:1.6rem;font-weight:800;color:#fafafa;letter-spacing:-.5px}
 .cta-main h2{font-size:1.15rem;margin-bottom:8px;color:#fafafa}
 .cta-main p{color:#71717a;font-size:14px;margin-bottom:20px}
 .cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
-footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:11px;color:#666666}
+footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:13px;color:#52525b}
 /* 푸터 언어 전환 — 기존 en-show/ja-show + JS 토글 방식이 중복 style 속성 버그로 불안정했어서,
    이미 검증된 [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 교체함 */
 footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
@@ -142,7 +121,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 .ja .ko{display:none}.ja .en-show{display:none!important}.ja .ja-show{display:block}
 .empty{color:#52525b;font-size:14px;padding:24px 0}
 @media(max-width:480px){
-  .hero-inner{padding:22px 20px 18px}
+  .hero-inner{padding:40px 20px 28px}
   h1{font-size:1.6rem}
   .cat-tabs{top:14px}
   .article-card{padding:16px;gap:12px}
@@ -153,7 +132,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/" class="logo" id="logoLink">BTC<span>timing</span></a>
+  <a href="/" class="logo" id="logoLink">BTC<span>timing</span>.com</a>
   <span class="back ko">← <a href="/" style="color:#71717a">실시간 분석으로 돌아가기</a></span>
   <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:#71717a">Back to Live Analysis</a></span>
   <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:#71717a">リアルタイム分析に戻る</a></span>
@@ -175,32 +154,21 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 
 <div class="hero">
   <div class="hero-inner">
-    <div class="hero-row">
-      <h1 class="ko">블로그</h1>
-      <h1 class="en-show" style="display:none">Blog</h1>
-      <h1 class="ja-show" style="display:none">ブログ</h1>
-      <h1 class="es-show" style="display:none">Blog</h1>
-      <h1 class="de-show" style="display:none">Blog</h1>
-      <span class="hero-badge ko"><?= count($articles) ?>개의 글</span>
-      <span class="hero-badge en-show" style="display:none"><?= count($articles) ?> articles</span>
-      <span class="hero-badge ja-show" style="display:none"><?= count($articles) ?>件</span>
-      <span class="hero-badge es-show" style="display:none"><?= count($articles) ?> art.</span>
-      <span class="hero-badge de-show" style="display:none"><?= count($articles) ?> Art.</span>
-    </div>
-    <p class="sub ko">비트코인 타이밍에 필요한 지표 가이드·시황·칼럼.</p>
-    <p class="sub en-show" style="display:none">Indicator guides, market watch and columns for Bitcoin timing.</p>
-    <p class="sub ja-show" style="display:none">ビットコインタイミングのための指標ガイド・市況・コラム。</p>
-    <p class="sub es-show" style="display:none">Guías de indicadores, análisis y columnas para el timing de Bitcoin.</p>
-    <p class="sub de-show" style="display:none">Indikator-Guides, Marktanalysen und Kolumnen für Bitcoin-Timing.</p>
-  </div>
-</div>
-
-<div class="blog-search-wrap">
-  <div class="blog-search">
-    <span class="bs-icon">🔍</span>
-    <input type="text" id="blogSearch" oninput="onSearchInput()" autocomplete="off" placeholder="글 검색...">
-    <span id="searchCount" class="search-count" style="display:none"></span>
-    <button type="button" id="bsClear" class="bs-clear" onclick="clearSearch()" style="display:none">✕</button>
+    <span class="hero-badge ko">📚 <?= count($articles) ?>개의 글</span>
+    <span class="hero-badge en-show" style="display:none">📚 <?= count($articles) ?> articles</span>
+    <span class="hero-badge ja-show" style="display:none">📚 <?= count($articles) ?>件の記事</span>
+    <span class="hero-badge es-show" style="display:none">📚 <?= count($articles) ?> artículos</span>
+    <span class="hero-badge de-show" style="display:none">📚 <?= count($articles) ?> Artikel</span>
+    <h1 class="ko">블로그</h1>
+    <h1 class="en-show" style="display:none">Blog</h1>
+    <h1 class="ja-show" style="display:none">ブログ</h1>
+    <h1 class="es-show" style="display:none">Blog</h1>
+    <h1 class="de-show" style="display:none">Blog</h1>
+    <p class="sub ko">온체인 지표 가이드부터 시황분석, 칼럼까지 — 비트코인 타이밍에 필요한 모든 글.</p>
+    <p class="sub en-show" style="display:none">From on-chain indicator guides to market watch and columns — everything for Bitcoin timing.</p>
+    <p class="sub ja-show" style="display:none">オンチェーン指標ガイドから市況分析、コラムまで — ビットコインタイミングに必要なすべての記事。</p>
+    <p class="sub es-show" style="display:none">Desde guías de indicadores on-chain hasta análisis de mercado y columnas — todo para el timing de Bitcoin.</p>
+    <p class="sub de-show" style="display:none">Von On-Chain-Indikator-Anleitungen bis zu Marktanalysen und Kolumnen — alles für Bitcoin-Timing.</p>
   </div>
 </div>
 
@@ -216,7 +184,6 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
 </div>
 
 <div class="wrap">
-<div class="wrap-main">
   <div class="article-grid" id="articleGrid">
 <?php if (empty($articles)): ?>
     <div class="empty ko">아직 등록된 글이 없습니다.</div>
@@ -246,7 +213,7 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     $readEs = $a['read_es'] ?? ($a['read_en'] ?? '');
     $readDe = $a['read_de'] ?? ($a['read_en'] ?? '');
 ?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" data-search="<?= h(strtolower(trim(($a['title_ko']??'').' '.($a['title_en']??'').' '.($a['title_ja']??'').' '.($a['title_es']??'').' '.($a['title_de']??'').' '.($a['desc_ko']??'').' '.($a['desc_en']??'').' '.($a['tag_ko']??'').' '.($a['tag_en']??'')))) ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
       <div class="card-body">
         <div class="card-tagrow">
@@ -279,7 +246,6 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
       <div class="card-arrow">→</div>
     </a>
 <?php endforeach; endif; ?>
-    <div class="no-results" id="noResults" style="display:none"></div>
   </div>
 
   <button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="display:none">
@@ -304,15 +270,9 @@ footer .ko,footer .en,footer .ja,footer .es,footer .de{display:none}
     <a href="/?lang=es" class="es-show" style="display:none">Ver Análisis en Vivo →</a>
     <a href="/?lang=de" class="de-show" style="display:none">Live-Analyse ansehen →</a>
   </div>
-</div><?php // /.wrap-main ?>
-  <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
 </div>
 <footer>
   © 2026 BTCtiming.com ·
-  <a href="/rss-guide.php" style="color:#52525b">RSS</a>
-  ·
-  <a href="/sitemap-guide.php" style="color:#52525b" class="ko">사이트맵</a><a href="/sitemap-guide.php" style="color:#52525b" class="en">Sitemap</a><a href="/sitemap-guide.php" style="color:#52525b" class="ja">サイトマップ</a><a href="/sitemap-guide.php" style="color:#52525b" class="es">Mapa del sitio</a><a href="/sitemap-guide.php" style="color:#52525b" class="de">Sitemap</a>
-  ·
   <a href="/privacy" style="color:#52525b" class="ko">개인정보처리방침</a><a href="/privacy" style="color:#52525b" class="en">Privacy Policy</a><a href="/privacy" style="color:#52525b" class="ja">プライバシーポリシー</a><a href="/privacy" style="color:#52525b" class="es">Política de Privacidad</a><a href="/privacy" style="color:#52525b" class="de">Datenschutzerklärung</a>
   ·
   <a href="/terms" style="color:#52525b" class="ko">이용약관</a><a href="/terms" style="color:#52525b" class="en">Terms of Service</a><a href="/terms" style="color:#52525b" class="ja">利用規約</a><a href="/terms" style="color:#52525b" class="es">Términos de Servicio</a><a href="/terms" style="color:#52525b" class="de">Nutzungsbedingungen</a>
@@ -349,15 +309,6 @@ function setLang(lang) {
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
   try { localStorage.setItem('blogLang', lang); } catch(e){}
-  // 검색창 placeholder + 결과없음 문구 다국어
-  const _ph = {ko:'글 검색...', en:'Search articles...', ja:'記事を検索...', es:'Buscar artículos...', de:'Artikel suchen...'};
-  const _nr = {ko:'검색 결과가 없습니다.', en:'No results found.', ja:'検索結果がありません。', es:'No se encontraron resultados.', de:'Keine Ergebnisse gefunden.'};
-  const _rc = {ko:'{n}개', en:'{n} results', ja:'{n}件', es:'{n} result.', de:'{n} Ergeb.'};
-  const _si = document.getElementById('blogSearch');
-  if(_si) _si.placeholder = _ph[lang] || _ph.en;
-  window.BLOG_NO_RESULT = _nr[lang] || _nr.en;
-  window.BLOG_RESULT_COUNT = _rc[lang] || _rc.en;
-  if(typeof updateVisibility === 'function' && searchQuery) updateVisibility();
   try {
     const url = new URL(location.href);
     if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
@@ -385,13 +336,10 @@ function restoreBlogLang() {
     const VALID = ['ko','en','ja','es','de'];
     const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
     const urlLang = new URLSearchParams(location.search).get('lang');
-    // URL에 lang이 명시돼 있으면(사이트맵·hreflang·공유링크로 특정 언어를 콕 집어 진입) 그것을 우선.
-    // 그 외에는 저장된 사용자 선택을 따르고, 둘 다 없으면 ko.
-    // ※ URL lang은 없는데 저장값이 'ko'가 아닌 경우엔 저장값을 따르되, URL이 명시한 언어가
-    //   있으면(=사용자가 이 URL로 그 언어를 원함) 저장값보다 URL을 존중한다.
-    const pick = VALID.includes(urlLang) ? urlLang
-               : VALID.includes(stored) ? stored
-               : 'ko';
+    // 저장된 값(사용자의 마지막 명시적 선택)이 유효하면 ko 포함 무조건 우선.
+    // 저장값이 없을 때만 URL을, 그것도 없으면 ko.
+    const pick = VALID.includes(stored) ? stored
+               : VALID.includes(urlLang) ? urlLang : 'ko';
     if(pick !== document.getElementById('html-root').lang) setLang(pick);
   } catch(e){}
 }
@@ -405,68 +353,21 @@ window.addEventListener('pageshow', function(e){
 const PAGE_SIZE = 12;
 let currentCat = 'all';
 let visibleCount = PAGE_SIZE;
-let searchQuery = '';
 const allCards = Array.from(document.querySelectorAll('#articleGrid .article-card'));
 
 function updateVisibility() {
   let shownInCat = 0;
-  let anyVisible = 0;
-  const searching = searchQuery.length > 0;
-  const terms = searching ? searchQuery.split(/\s+/).filter(Boolean) : [];
   allCards.forEach(card => {
     const matchesCat = currentCat === 'all' || card.dataset.cat === currentCat;
-    // 다중 단어는 모두 포함(AND). 예: "비트코인 ETF" → 둘 다 있는 글만
-    const hay = card.dataset.search || '';
-    const matchesSearch = !searching || terms.every(t => hay.indexOf(t) !== -1);
-    let show = matchesCat && matchesSearch;
-    if (show && !searching && currentCat === 'all') {
+    let show = matchesCat;
+    if (matchesCat && currentCat === 'all') {
+      // 전체 탭에서만 페이지네이션 적용 — 특정 카테고리 필터 중엔 전부 노출
       show = shownInCat < visibleCount;
       shownInCat++;
     }
     card.classList.toggle('hidden', !show);
-    if (show) anyVisible++;
   });
-  // 검색 결과 개수 배지
-  const cnt = document.getElementById('searchCount');
-  if (cnt) {
-    if (searching) {
-      const tpl = window.BLOG_RESULT_COUNT || '{n} results';
-      cnt.textContent = tpl.replace('{n}', anyVisible);
-      cnt.style.display = 'inline-flex';
-    } else {
-      cnt.style.display = 'none';
-    }
-  }
-  // 검색 결과 없음 메시지
-  const nr = document.getElementById('noResults');
-  if (nr) {
-    if (searching && anyVisible === 0) {
-      nr.textContent = window.BLOG_NO_RESULT || 'No results found.';
-      nr.style.display = 'block';
-    } else {
-      nr.style.display = 'none';
-    }
-  }
   updateMoreButton();
-}
-
-// 검색 입력 처리
-function onSearchInput() {
-  const input = document.getElementById('blogSearch');
-  searchQuery = (input.value || '').trim().toLowerCase();
-  document.getElementById('bsClear').style.display = searchQuery ? 'block' : 'none';
-  if (searchQuery) visibleCount = 1e9; // 검색 중엔 페이지네이션 무시(전부 노출)
-  else visibleCount = PAGE_SIZE;
-  updateVisibility();
-}
-function clearSearch() {
-  const input = document.getElementById('blogSearch');
-  input.value = '';
-  searchQuery = '';
-  document.getElementById('bsClear').style.display = 'none';
-  visibleCount = PAGE_SIZE;
-  updateVisibility();
-  input.focus();
 }
 
 function updateMoreButton() {
@@ -503,6 +404,59 @@ try {
   const initCat = new URLSearchParams(location.search).get('cat');
   if (initCat) filterCat(initCat);
 } catch(e){}
+</script>
+<style>
+.blog-tabbar{display:none}
+@media(max-width:600px){
+  .blog-tabbar{display:flex;position:fixed;left:0;right:0;top:auto;bottom:0;z-index:900;
+    height:48px;background:rgba(15,15,17,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
+  .blog-tabbar .btab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;
+    -webkit-tap-highlight-color:transparent}
+  .blog-tabbar .btab.active{color:#fb923c}
+  .blog-tabbar .btab.active::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:22px;height:2px;border-radius:0 0 3px 3px;background:#fb923c}
+  .blog-tabbar .btab svg{width:20px;height:20px;display:block}
+  body{padding-bottom:48px}
+}
+</style>
+<nav class="blog-tabbar">
+  <a class="btab" href="/" data-tb='{"ko":"실시간 지표","en":"Live","ja":"リアルタイム","es":"En vivo","de":"Live"}'>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
+    <span class="btab-tx">실시간 지표</span>
+  </a>
+  <a class="btab" href="/coins.php" data-tb='{"ko":"코인 검색","en":"Find Coins","ja":"コイン検索","es":"Buscar","de":"Coins"}'>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
+    <span class="btab-tx">코인 검색</span>
+  </a>
+  <a class="btab active" href="/blog/" data-tb='{"ko":"블로그","en":"Blog","ja":"ブログ","es":"Blog","de":"Blog"}'>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
+    <span class="btab-tx">블로그</span>
+  </a>
+</nav>
+<script>
+// 하단바 텍스트 언어 적용 (setLang 시 + 최초)
+function applyTabbarLang(lang){
+  document.querySelectorAll('.blog-tabbar .btab').forEach(a=>{
+    try{ const m=JSON.parse(a.getAttribute('data-tb')); const tx=a.querySelector('.btab-tx'); if(tx&&m[lang]) tx.textContent=m[lang]; }catch(e){}
+  });
+  // 링크에도 언어 반영
+  const suf = (lang==='ko'?'':'?lang='+lang);
+  const live=document.querySelector('.blog-tabbar .btab[href^="/"]:not([href^="/coins"]):not([href^="/blog"])');
+  const coins=document.querySelector('.blog-tabbar .btab[href^="/coins"]');
+  if(live) live.setAttribute('href','/'+suf);
+  if(coins) coins.setAttribute('href','/coins.php'+suf);
+}
+try{
+  const _l = document.getElementById('html-root').lang || 'ko';
+  applyTabbarLang(_l);
+  // setLang이 있으면 래핑해서 하단바도 갱신
+  if(typeof setLang==='function'){
+    const _orig=setLang;
+    window.setLang=function(l){ _orig(l); applyTabbarLang(l); };
+  }
+}catch(e){}
 </script>
 </body>
 </html>
