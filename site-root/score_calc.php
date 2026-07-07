@@ -88,19 +88,23 @@ function calcBuy(array $ind): array {
         // 지표가 실현가+ATH뿐임. 이 배점이 너무 작으면(구 22점) 저평가 알트가 모멘텀 조용할 때
         // BTC보다 구조적으로 눌림. 배점을 키워(실현가 24, ATH 10 = 34점) 저평가를 제대로 반영.
         // 단 포화 방지 곡선(만점 -65%)은 유지 → 극단적으로 싼 코인만 만점.
+        // 해법1(2026-07 3차): 만점 구간을 -65%→-40%로 당김. 200주 MA 대비 -40%면 이미
+        // 깊은 저평가라 만점이 합리적. 이러면 -28% 같은 상당한 저평가도 89% 성취로 제대로
+        // 인정받아, BTC의 온체인 저평가 계상과 대등해짐(격차 축소). 200주선 위(양수)는 여전히
+        // 낮게 유지 → 안 빠진 코인(TRX 등) 구분 유지.
         $rp_gap = ($price - $realized_price) / $realized_price * 100;
-        $s = round(lerpScore($rp_gap, [[-65, 24], [-50, 21], [-35, 17], [-20, 13], [0, 9], [30, 4], [80, 0]]), 1);
+        $s = round(lerpScore($rp_gap, [[-40, 24], [-30, 22], [-20, 19], [-10, 16], [0, 12], [15, 7], [40, 2], [80, 0]]), 1);
         $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 24, 'score' => $s,
             'value' => number_format($rp_gap, 1), 'unit' => '%',
             'target' => 'Below estimated realized price', 'signal' => $rp_gap < 0 ? 'Below Realized' : 'Above',
             'note' => "현재가 \$" . fmtN($price) . " vs 추정 실현가 ~\$" . fmtN($realized_price) . " (갭 " . ($rp_gap >= 0 ? '+' : '') . number_format($rp_gap, 1) . "%). ⚠️ 알트코인 실현가는 200주 이동평균(200W MA)으로 근사한 추정치입니다."];
 
-        // ATH 낙폭 6→10: 저평가 신호 비중 확대. 여전히 실현가보다는 작게(보조).
+        // ATH 낙폭: 만점 -90%로 당기고 곡선 완만하게 (저평가 인정 강화)
         $atd = $ath_drop;
-        $s = round(lerpScore($atd, [[-95, 10], [-88, 9], [-80, 7], [-70, 5], [-55, 3], [-35, 1.5], [-15, 0.5], [0, 0]]), 1);
+        $s = round(lerpScore($atd, [[-90, 10], [-80, 9], [-70, 7.5], [-60, 6], [-50, 4.5], [-35, 2.5], [-15, 0.8], [0, 0]]), 1);
         $det['alt_drawdown'] = ['key' => 'alt_drawdown', 'label' => 'ATH Drawdown', 'max' => 10, 'score' => $s,
             'value' => number_format($atd, 1), 'unit' => '%',
-            'target' => '≥80% drawdown from ATH', 'signal' => $atd <= -70 ? 'Deep Correction' : ($atd <= -50 ? 'Correction' : 'High'),
+            'target' => '≥70% drawdown from ATH', 'signal' => $atd <= -70 ? 'Deep Correction' : ($atd <= -50 ? 'Correction' : 'High'),
             'note' => "ATH \$" . fmtN(ATH_MAP[$coin] ?? 0) . " → 현재 \$" . fmtN($price) . " (" . number_format($atd, 1) . "%). ⚠️ 낙폭은 반등을 보장하지 않는 보조 지표."];
     }
 
