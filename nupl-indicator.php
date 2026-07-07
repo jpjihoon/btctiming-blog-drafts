@@ -316,12 +316,20 @@
   <p class="ja">両者とも時価総額と実現時価総額を比較するという点で本質的に似ています。違いは<strong>正規化の方法</strong>にあります。MVRV Zスコアは標準偏差で割って「歴史的にどれだけ極端か」を示し、NUPLは単純な比率(%)で「今、市場参加者が平均して何%の利益/損失状態にあるか」を直感的に示します。</p>
   <p class="es">Ambos comparan fundamentalmente la capitalización de mercado con la capitalización realizada. La diferencia está en la <strong>normalización</strong>. MVRV Z-Score divide por la desviación estándar para mostrar "qué tan extremo es históricamente" el nivel, mientras que NUPL es un porcentaje simple que muestra intuitivamente "qué % de ganancia o pérdida tiene el tenedor promedio ahora mismo."</p>
   <p class="de">Beide vergleichen grundsätzlich Marktkapitalisierung mit Realized Cap. Der Unterschied liegt in der <strong>Normalisierung</strong>. MVRV Z-Score teilt durch die Standardabweichung, um zu zeigen, "wie historisch extrem" das Niveau ist, während NUPL ein einfacher Prozentsatz ist, der intuitiv zeigt, "welchen Gewinn oder Verlust in % der durchschnittliche Halter gerade hat."</p>
+  <p class="fr">Les deux comparent fondamentalement la capitalisation boursière à la capitalisation réalisée. La différence réside dans la <strong>normalisation</strong>. Le MVRV Z-Score divise par l'écart type pour montrer "à quel point le niveau est historiquement extrême", tandis que le NUPL est un simple pourcentage qui montre intuitivement "quel pourcentage de profit ou de perte le détenteur moyen affiche actuellement".</p>
+  <p class="pt">Ambos comparam fundamentalmente a capitalização de mercado com a capitalização realizada. A diferença está na <strong>normalização</strong>. O MVRV Z-Score divide pelo desvio padrão para mostrar "quão extremo historicamente" é o nível, enquanto o NUPL é uma porcentagem simples que mostra intuitivamente "qual % de lucro ou prejuízo o detentor médio está tendo agora".</p>
+  <p class="tr">İkisi de temelde piyasa değerini gerçekleşmiş piyasa değeriyle karşılaştırır. Fark, <strong>normalizasyon</strong> yönteminde yatar. MVRV Z-Skoru, seviyenin "tarihsel olarak ne kadar aşırı olduğunu" göstermek için standart sapmaya böler; NUPL ise "ortalama yatırımcının şu anda yüzde kaç kâr veya zarar durumunda olduğunu" sezgisel olarak gösteren basit bir yüzdedir.</p>
+  <p class="vi">Cả hai đều so sánh cơ bản giữa vốn hóa thị trường và vốn hóa thực hiện. Khác biệt nằm ở <strong>cách chuẩn hóa</strong>. MVRV Z-Score chia cho độ lệch chuẩn để cho thấy "mức độ cực đoan trong lịch sử" của chỉ số, trong khi NUPL là một tỷ lệ phần trăm đơn giản, cho thấy trực quan "người nắm giữ trung bình đang lãi hay lỗ bao nhiêu phần trăm ngay lúc này".</p>
 
   <h2 class="ko">주의할 점</h2>
   <h2 class="en">Important Caveats</h2>
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en garde importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>MVRV 계열 지표와 상관관계가 높음.</strong> 같은 실현시가총액 데이터를 쓰기 때문에 MVRV Z-Score와 유사하게 움직입니다. 두 지표를 모두 매수 근거로 쓰면 중복 확인일 뿐, 독립적인 신호는 아닙니다.</li>
     <li><strong>사이클마다 극단값이 달라질 수 있음.</strong> 시장이 성숙해지며 도취 단계의 최고치가 사이클마다 낮아지는 경향이 있습니다.</li>
@@ -347,12 +355,36 @@
     <li><strong>Extremwerte können sich zyklusübergreifend verschieben.</strong> Mit zunehmender Marktreife sind die Höchststände der Euphoriezone tendenziell in jedem Zyklus niedriger geworden.</li>
     <li><strong>Kein präzises Timing-Tool.</strong> Der Eintritt in die Kapitulationszone bedeutet keine sofortige Erholung — sie kann monatelang anhalten.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Fortement corrélé aux métriques de la famille MVRV.</strong> Comme il utilise les mêmes données de capitalisation réalisée, il évolue de façon similaire au MVRV Z-Score. Utiliser les deux comme déclencheurs d'achat n'est qu'une confirmation redondante, pas deux signaux indépendants.</li>
+    <li><strong>Les extrêmes peuvent varier selon les cycles.</strong> À mesure que le marché mûrit, les sommets de la zone d'euphorie ont eu tendance à baisser à chaque cycle.</li>
+    <li><strong>Ce n'est pas un outil de timing précis.</strong> Entrer dans la zone de capitulation ne signifie pas un rebond immédiat — cela peut persister pendant des mois.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Altamente correlacionado com métricas da família MVRV.</strong> Como usa os mesmos dados de capitalização realizada, ele se move de forma semelhante ao MVRV Z-Score. Usar ambos como gatilhos de compra é confirmação redundante, não dois sinais independentes.</li>
+    <li><strong>Os extremos podem mudar entre ciclos.</strong> À medida que o mercado amadurece, os picos da zona de euforia têm tendido a ficar mais baixos a cada ciclo.</li>
+    <li><strong>Não é uma ferramenta de timing precisa.</strong> Entrar na zona de capitulação não significa uma recuperação imediata — pode persistir por meses.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>MVRV ailesi metrikleriyle yüksek korelasyon gösterir.</strong> Aynı gerçekleşmiş piyasa değeri verisini kullandığı için MVRV Z-Skoru ile benzer hareket eder. Her ikisini de alım tetikleyicisi olarak kullanmak, bağımsız iki sinyal değil, yalnızca yinelenen bir doğrulamadır.</li>
+    <li><strong>Uç değerler döngüden döngüye değişebilir.</strong> Piyasa olgunlaştıkça, öfori bölgesi zirveleri her döngüde biraz daha düşük olma eğilimi göstermiştir.</li>
+    <li><strong>Kesin bir zamanlama aracı değildir.</strong> Kapitülasyon bölgesine girmek anında bir toparlanma anlamına gelmez — bu durum aylarca sürebilir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Tương quan cao với các chỉ số họ MVRV.</strong> Vì sử dụng cùng dữ liệu vốn hóa thực hiện, nó biến động tương tự MVRV Z-Score. Dùng cả hai làm tín hiệu mua chỉ là xác nhận trùng lặp, không phải hai tín hiệu độc lập.</li>
+    <li><strong>Các mức cực trị có thể thay đổi theo từng chu kỳ.</strong> Khi thị trường trưởng thành hơn, các đỉnh của vùng hưng phấn có xu hướng thấp dần qua mỗi chu kỳ.</li>
+    <li><strong>Không phải công cụ định thời chính xác.</strong> Việc bước vào vùng đầu hàng không có nghĩa là sẽ phục hồi ngay lập tức — trạng thái này có thể kéo dài nhiều tháng.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal à combiner avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료와 시장 항복이 겹치는지 확인</li>
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 1 미만</a>:</strong> 단기 보유자 패닉 매도가 동반되는지 확인</li>
