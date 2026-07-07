@@ -10,6 +10,7 @@
 // ═══════════════════════════════════════════════════════
 
 return [
+    'patch'    => ['ko' => '패치노트',   'en' => 'Patch Notes',   'ja' => 'パッチノート',   'es' => 'Notas de Parche',    'de' => 'Patch Notes',    'color' => '#f97316'],
     'weekly'   => ['ko' => '주간리포트', 'en' => 'Weekly Report', 'ja' => '週間レポート',   'es' => 'Informe Semanal',     'de' => 'Wochenbericht',  'color' => '#22c55e'],
     'news'     => ['ko' => '시황분석',   'en' => 'Market Watch',  'ja' => '市況分析',       'es' => 'Análisis de Mercado', 'de' => 'Marktanalyse',   'color' => '#38bdf8'],
     'coinnews' => ['ko' => '코인뉴스',   'en' => 'Coin News',     'ja' => 'コインニュース', 'es' => 'Noticias Cripto',     'de' => 'Krypto-News',    'color' => '#06b6d4'],
