@@ -1,0 +1,267 @@
+<?php $slug = 'mtgox-47228-btc-bitstamp-creditor-repayment'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">파산한 옛 거래소 <strong>마운트곡스(Mt. Gox)</strong>와 연결된 지갑이 7월 6일 <strong>47,228 BTC</strong>를 거래소 <strong>비트스탬프(Bitstamp)</strong>의 주소로 옮겼다고 온체인 분석업체 <strong>아캄인텔리전스(Arkham Intelligence)</strong>의 데이터를 인용해 <strong>더블록(The Block)</strong>이 전했다. 이동 규모는 당시 시세로 <strong>30억 달러</strong>를 웃돈다. 시장은 이 움직임을 파산 신탁이 <strong>10월 31일</strong> 마감을 앞두고 채권자 상환을 본격적으로 가속하는 신호로 읽었다. 이번 이동으로 마운트곡스가 통제하는 잔여 물량은 약 <strong>34,504 BTC</strong>로 줄었다.</p>
+  <p class="en">A wallet linked to the failed exchange <strong>Mt. Gox</strong> moved <strong>47,228 BTC</strong> to addresses at the exchange <strong>Bitstamp</strong> on July 6, <strong>The Block</strong> reported, citing data from on-chain analytics firm <strong>Arkham Intelligence</strong>. The transfer was worth more than <strong>$3 billion</strong> at prevailing prices. The market read the move as a sign that the bankruptcy trustee is decisively accelerating creditor repayments ahead of an <strong>October 31</strong> deadline. After the transfer, the holdings Mt. Gox still controls fell to about <strong>34,504 BTC</strong>.</p>
+  <p class="ja">破綻した旧取引所<strong>マウントゴックス(Mt. Gox)</strong>に関連するウォレットが7月6日、<strong>47,228 BTC</strong>を取引所<strong>ビットスタンプ(Bitstamp)</strong>のアドレスへ移したと、オンチェーン分析会社<strong>アーカム・インテリジェンス(Arkham Intelligence)</strong>のデータを引用して<strong>ザ・ブロック(The Block)</strong>が伝えた。移動規模は当時の相場で<strong>30億ドル</strong>を超える。市場はこの動きを、破産信託が<strong>10月31日</strong>の期限を前に債権者償還を本格的に加速させる兆候と読んだ。今回の移動でマウントゴックスが管理する残量は約<strong>34,504 BTC</strong>に減った。</p>
+  <p class="es">Una cartera vinculada al fallido exchange <strong>Mt. Gox</strong> movió <strong>47,228 BTC</strong> a direcciones del exchange <strong>Bitstamp</strong> el 6 de julio, informó <strong>The Block</strong> citando datos de la firma de análisis on-chain <strong>Arkham Intelligence</strong>. La transferencia valía más de <strong>3.000 millones de dólares</strong> a los precios vigentes. El mercado leyó el movimiento como una señal de que el fideicomiso de quiebra acelera decididamente los reembolsos a acreedores antes del plazo del <strong>31 de octubre</strong>. Tras la transferencia, las tenencias que Mt. Gox aún controla cayeron a unos <strong>34,504 BTC</strong>.</p>
+  <p class="de">Eine mit der gescheiterten Börse <strong>Mt. Gox</strong> verbundene Wallet bewegte am 6. Juli <strong>47.228 BTC</strong> an Adressen der Börse <strong>Bitstamp</strong>, berichtete <strong>The Block</strong> unter Berufung auf Daten der On-Chain-Analysefirma <strong>Arkham Intelligence</strong>. Der Transfer war zu den damaligen Kursen mehr als <strong>3 Milliarden Dollar</strong> wert. Der Markt deutete den Schritt als Zeichen, dass der Insolvenzverwalter die Gläubigerrückzahlungen vor der Frist am <strong>31. Oktober</strong> entschieden beschleunigt. Nach dem Transfer sanken die noch von Mt. Gox kontrollierten Bestände auf rund <strong>34.504 BTC</strong>.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">마운트곡스 이번 이동 vs 잔여 보유 (단위: BTC)</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">7월 6일 이동분이 남은 물량보다 크다 — 상환의 실제 진척</text>
+    <text x="20" y="100" fill="#e4e4e7" font-size="15" font-family="sans-serif">비트스탬프로 이동</text>
+    <rect x="20" y="112" width="600" height="34" rx="5" fill="#0e7490" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="34" y="134" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">47,228 BTC · 약 30억 달러</text>
+    <text x="20" y="188" fill="#e4e4e7" font-size="15" font-family="sans-serif">마운트곡스 잔여 보유</text>
+    <rect x="20" y="200" width="438" height="34" rx="5" fill="#3f3f46" stroke="#71717a" stroke-width="1.5"/>
+    <text x="34" y="222" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">34,504 BTC · 약 22억 달러</text>
+    <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">최종 상환 마감</text>
+    <text x="20" y="304" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">2026년 10월 31일 (세 번째 연장)</text>
+    <text x="680" y="326" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">출처: The Block, Arkham Intelligence</text>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Mt. Gox: this transfer vs remaining holdings (BTC)</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">The July 6 move is larger than what is left — real repayment progress</text>
+    <text x="20" y="100" fill="#e4e4e7" font-size="15" font-family="sans-serif">Moved to Bitstamp</text>
+    <rect x="20" y="112" width="600" height="34" rx="5" fill="#0e7490" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="34" y="134" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">47,228 BTC · ~$3.0 billion</text>
+    <text x="20" y="188" fill="#e4e4e7" font-size="15" font-family="sans-serif">Mt. Gox remaining holdings</text>
+    <rect x="20" y="200" width="438" height="34" rx="5" fill="#3f3f46" stroke="#71717a" stroke-width="1.5"/>
+    <text x="34" y="222" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">34,504 BTC · ~$2.2 billion</text>
+    <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Final repayment deadline</text>
+    <text x="20" y="304" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">October 31, 2026 (third extension)</text>
+    <text x="680" y="326" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Source: The Block, Arkham Intelligence</text>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">マウントゴックス: 今回の移動 vs 残りの保有 (BTC)</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">7月6日の移動は残量より大きい — 償還の実際の進捗</text>
+    <text x="20" y="100" fill="#e4e4e7" font-size="15" font-family="sans-serif">ビットスタンプへ移動</text>
+    <rect x="20" y="112" width="600" height="34" rx="5" fill="#0e7490" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="34" y="134" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">47,228 BTC · 約30億ドル</text>
+    <text x="20" y="188" fill="#e4e4e7" font-size="15" font-family="sans-serif">マウントゴックス残りの保有</text>
+    <rect x="20" y="200" width="438" height="34" rx="5" fill="#3f3f46" stroke="#71717a" stroke-width="1.5"/>
+    <text x="34" y="222" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">34,504 BTC · 約22億ドル</text>
+    <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">最終償還期限</text>
+    <text x="20" y="304" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">2026年10月31日 (3回目の延長)</text>
+    <text x="680" y="326" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">出典: The Block, Arkham Intelligence</text>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Mt. Gox: esta transferencia vs tenencias restantes (BTC)</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">El movimiento del 6 de julio supera lo que queda — progreso real</text>
+    <text x="20" y="100" fill="#e4e4e7" font-size="15" font-family="sans-serif">Movido a Bitstamp</text>
+    <rect x="20" y="112" width="600" height="34" rx="5" fill="#0e7490" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="34" y="134" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">47,228 BTC · ~3.000 M$</text>
+    <text x="20" y="188" fill="#e4e4e7" font-size="15" font-family="sans-serif">Tenencias restantes de Mt. Gox</text>
+    <rect x="20" y="200" width="438" height="34" rx="5" fill="#3f3f46" stroke="#71717a" stroke-width="1.5"/>
+    <text x="34" y="222" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">34,504 BTC · ~2.200 M$</text>
+    <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Plazo final de reembolso</text>
+    <text x="20" y="304" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">31 de octubre de 2026 (tercera prórroga)</text>
+    <text x="680" y="326" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Fuente: The Block, Arkham Intelligence</text>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Mt. Gox: dieser Transfer vs. verbleibende Bestände (BTC)</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">Der Schritt vom 6. Juli ist größer als der Rest — echter Fortschritt</text>
+    <text x="20" y="100" fill="#e4e4e7" font-size="15" font-family="sans-serif">An Bitstamp bewegt</text>
+    <rect x="20" y="112" width="600" height="34" rx="5" fill="#0e7490" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="34" y="134" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">47.228 BTC · ~3,0 Mrd. $</text>
+    <text x="20" y="188" fill="#e4e4e7" font-size="15" font-family="sans-serif">Mt. Gox verbleibende Bestände</text>
+    <rect x="20" y="200" width="438" height="34" rx="5" fill="#3f3f46" stroke="#71717a" stroke-width="1.5"/>
+    <text x="34" y="222" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">34.504 BTC · ~2,2 Mrd. $</text>
+    <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Endgültige Rückzahlungsfrist</text>
+    <text x="20" y="304" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">31. Oktober 2026 (dritte Verlängerung)</text>
+    <text x="680" y="326" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Quelle: The Block, Arkham Intelligence</text>
+  </svg>
+  </div>
+
+  <h2 class="ko">왜 지금 47,228 BTC가 움직였나</h2>
+  <h2 class="en">Why 47,228 BTC moved now</h2>
+  <h2 class="ja">なぜ今47,228 BTCが動いたのか</h2>
+  <h2 class="es">Por qué se movieron ahora 47,228 BTC</h2>
+  <h2 class="de">Warum sich jetzt 47.228 BTC bewegten</h2>
+  <p class="ko">이번 이동의 배경에는 시간표가 있다. 마운트곡스 재생 신탁은 채권자 상환 마감을 2023년 10월에서 여러 차례 미뤄 왔고, 현재 마감은 <strong>2026년 10월 31일</strong>로 세 번째 연장된 상태다. 마감이 넉 달 앞으로 다가온 만큼, 신탁이 실제 분배를 위해 물량을 상환 파트너 거래소로 이관하기 시작한 것은 일정상 자연스러운 수순이다. 코인텔레그래프는 비트스탬프가 <strong>7월 25일</strong>부터 마운트곡스 채권자에게 자산을 분배하기 시작한다고 전한 바 있다. 이번 47,228 BTC 이동은 그 분배를 위한 사전 자금 배치로 읽힌다.</p>
+  <p class="ko">규모의 맥락도 중요하다. 이번에 옮긴 47,228 BTC는 신탁의 잔여 보유량 약 34,504 BTC보다 크다. 다시 말해 신탁은 자기가 아직 들고 있는 것보다 많은 양을 한 번에 상환 채널로 밀어 넣은 것이다. 이는 상환 절차가 서류·행정 단계를 넘어 실제 코인의 물리적 이동 단계로 진입했음을 뜻한다. 다만 '거래소로 옮겼다'는 사실과 '시장에 매물로 나온다'는 사실은 전혀 다른 문제다. 이 구분이 이번 뉴스를 해석하는 핵심이며, 다음 섹션에서 그 메커니즘을 뜯어본다.</p>
+  <p class="en">There is a calendar behind the move. The Mt. Gox rehabilitation trust has repeatedly pushed back its creditor-repayment deadline from October 2023, and the current deadline stands at <strong>October 31, 2026</strong> — a third extension. With the cutoff four months out, the trustee shifting coins to a repayment-partner exchange for actual distribution is a natural next step on the schedule. Cointelegraph earlier reported that Bitstamp will begin distributing assets to Mt. Gox creditors from <strong>July 25</strong>. This 47,228 BTC transfer reads as pre-positioning of funds for that distribution.</p>
+  <p class="en">The context of size matters too. The 47,228 BTC just moved is larger than the trust's remaining holdings of about 34,504 BTC. In other words, the trustee pushed more into the repayment channel at once than it still holds. That means the process has crossed from paperwork and administration into the physical movement of coins. Yet "moved to an exchange" and "put up for sale on the market" are entirely different facts. That distinction is the key to reading this news, and the next section takes the mechanism apart.</p>
+  <p class="ja">今回の動きの背後には時間表がある。マウントゴックス再生信託は債権者償還の期限を2023年10月から繰り返し延ばしてきており、現在の期限は<strong>2026年10月31日</strong>と3回目の延長となっている。期限が4か月後に迫った以上、信託が実際の分配のために資金を償還パートナーの取引所へ移し始めるのは日程上自然な手順だ。コインテレグラフは、ビットスタンプが<strong>7月25日</strong>からマウントゴックス債権者への資産分配を始めると伝えていた。今回の47,228 BTC移動は、その分配に向けた事前の資金配置と読める。</p>
+  <p class="ja">規模の文脈も重要だ。今回移した47,228 BTCは、信託の残りの保有量約34,504 BTCより大きい。つまり信託は、自らがまだ保有する量より多くを一度に償還チャネルへ押し込んだ。これは償還手続きが書類・行政の段階を越え、実際のコインの物理的移動の段階に入ったことを意味する。ただし「取引所へ移した」という事実と「市場に売りとして出る」という事実はまったく別の問題だ。この区別が今回のニュースを読み解く鍵であり、次のセクションでその仕組みを解剖する。</p>
+  <p class="es">Hay un calendario detrás del movimiento. El fideicomiso de rehabilitación de Mt. Gox ha aplazado repetidamente su plazo de reembolso desde octubre de 2023, y el plazo actual se sitúa en el <strong>31 de octubre de 2026</strong> — una tercera prórroga. Con el corte a cuatro meses vista, que el fideicomiso traslade monedas a un exchange socio de reembolso para la distribución real es un paso natural del cronograma. Cointelegraph informó antes de que Bitstamp comenzará a distribuir activos a los acreedores de Mt. Gox desde el <strong>25 de julio</strong>. Esta transferencia de 47,228 BTC se lee como un posicionamiento previo de fondos para esa distribución.</p>
+  <p class="es">El contexto del tamaño también importa. Los 47,228 BTC recién movidos superan las tenencias restantes del fideicomiso, de unos 34,504 BTC. Dicho de otro modo, el fideicomiso empujó de una vez al canal de reembolso más de lo que aún posee. Eso significa que el proceso ha cruzado del papeleo y la administración al movimiento físico de las monedas. Sin embargo, "movido a un exchange" y "puesto a la venta en el mercado" son hechos completamente distintos. Esa distinción es la clave para leer esta noticia, y la siguiente sección desmonta el mecanismo.</p>
+  <p class="de">Hinter dem Schritt steht ein Kalender. Der Mt.-Gox-Sanierungstreuhänder hat seine Gläubiger-Rückzahlungsfrist seit Oktober 2023 wiederholt verschoben, und die aktuelle Frist liegt beim <strong>31. Oktober 2026</strong> — eine dritte Verlängerung. Da der Stichtag vier Monate entfernt ist, ist es ein natürlicher nächster Schritt im Zeitplan, dass der Treuhänder Coins für die tatsächliche Verteilung an eine Rückzahlungspartner-Börse verschiebt. Cointelegraph berichtete zuvor, dass Bitstamp ab dem <strong>25. Juli</strong> mit der Verteilung von Vermögenswerten an Mt.-Gox-Gläubiger beginnt. Dieser Transfer von 47.228 BTC gilt als Vorpositionierung von Mitteln für diese Verteilung.</p>
+  <p class="de">Auch der Kontext der Größe zählt. Die soeben bewegten 47.228 BTC übersteigen die verbleibenden Bestände des Treuhänders von rund 34.504 BTC. Mit anderen Worten: Der Treuhänder schob auf einmal mehr in den Rückzahlungskanal, als er noch hält. Das bedeutet, dass der Prozess von Papierkram und Verwaltung zur physischen Bewegung der Coins übergegangen ist. Doch „an eine Börse bewegt" und „auf dem Markt zum Verkauf gestellt" sind völlig verschiedene Tatsachen. Diese Unterscheidung ist der Schlüssel zum Verständnis dieser Nachricht, und der nächste Abschnitt zerlegt den Mechanismus.</p>
+
+  <h2 class="ko">거래소로 옮겼다고 곧바로 매도는 아니다</h2>
+  <h2 class="en">An exchange transfer is not an immediate sale</h2>
+  <h2 class="ja">取引所へ移したからといって即売却ではない</h2>
+  <h2 class="es">Una transferencia a un exchange no es una venta inmediata</h2>
+  <h2 class="de">Ein Börsentransfer ist kein sofortiger Verkauf</h2>
+  <p class="ko">이 지점에서 공급 오버행 공포가 흔히 과장된다. 마운트곡스 상환은 <strong>현물 인도(in-kind) 방식</strong>이다. 즉 신탁이 비트코인을 팔아 현금으로 나눠 주는 것이 아니라, 채권자에게 비트코인 그 자체를 거래소 계정으로 넣어 준다. 신탁이 코인을 비트스탬프로 옮기는 순간에는 시장에 어떤 매도 압력도 발생하지 않는다. 실제 매도는 그 코인을 받은 <strong>수만 명의 개별 채권자</strong>가 각자 "지금 팔까, 계속 들고 갈까"를 결정할 때 비로소, 그것도 분산된 형태로 나타난다. 거래소 유입(exchange inflow)이 잠재적 매도 압력의 <em>선행 신호</em>인 것은 맞지만, 그 신호가 실제 체결로 이어지는지는 전혀 별개다. 거래소 유출입이 어떻게 신호가 되고 어디서 어긋나는지는 <a href="/blog/exchange-netflow.html">거래소 순유출입 가이드</a>에서 자세히 다룬 바 있다.</p>
+  <p class="ko">채권자 구성을 보면 매도 압력이 더 희석된다. 마운트곡스 채권자 상당수는 2014년부터 10년 넘게 청구권을 보유해 온 이들로, 이들의 취득 원가는 당시 수백 달러 수준이다. 지금 시세로 받으면 수백 배 차익이니 일부는 분명 실현 매도에 나설 것이다. 그러나 10년을 기다린 사람은 그 자체로 <strong>낮은 시간선호(low time preference)</strong>를 입증한 집단이며, 상당수는 세금·자산배분을 이유로 즉시 전량 매도하지 않는다. 게다가 청구권 상당 부분은 이미 <strong>비트코인 청구권 펀드(claims funds)</strong>에 헐값에 매각돼 있어, 최종 수령자는 개인이 아니라 장기 보유 성향의 기관인 경우가 많다. 이 두 요인이 겹치면 '30억 달러어치가 시장을 덮친다'는 직관적 그림은 상당히 무너진다.</p>
+  <p class="en">This is where fear of a supply overhang is usually overstated. Mt. Gox repayments are made <strong>in kind</strong>: the trust does not sell bitcoin for cash to hand out — it delivers the bitcoin itself into creditors' exchange accounts. At the moment the trust moves coins to Bitstamp, no selling pressure hits the market. Actual selling appears only later, and in fragmented form, when the <strong>tens of thousands of individual creditors</strong> who receive those coins each decide "sell now, or keep holding." Exchange inflow is indeed a <em>leading signal</em> of potential selling pressure, but whether that signal turns into executed sales is a separate question. How exchange flows become a signal — and where they mislead — is covered in our <a href="/blog/exchange-netflow.html">exchange netflow guide</a>.</p>
+  <p class="en">The composition of creditors dilutes the pressure further. Many Mt. Gox creditors have held their claims for more than a decade since 2014, with cost bases in the hundreds of dollars. Receiving at today's price is a several-hundred-fold gain, so some will surely realize. But people who waited a decade have, by that very act, demonstrated <strong>low time preference</strong>, and many will not dump everything at once for tax and allocation reasons. Moreover, a large share of the claims were long ago sold cheaply to <strong>bitcoin claims funds</strong>, so the final recipients are often long-biased institutions rather than individuals. Stack those two factors and the intuitive picture of "$3 billion crashing onto the market" largely falls apart.</p>
+  <p class="ja">この点で供給オーバーハングの恐怖はしばしば誇張される。マウントゴックス償還は<strong>現物(in-kind)方式</strong>だ。つまり信託がビットコインを売って現金で配るのではなく、債権者へビットコインそのものを取引所口座に入れる。信託がコインをビットスタンプへ移す瞬間には、市場に一切の売り圧力は生じない。実際の売りは、そのコインを受け取った<strong>数万人の個別債権者</strong>がそれぞれ「今売るか、持ち続けるか」を決めるときに、しかも分散した形で初めて現れる。取引所流入(exchange inflow)が潜在的な売り圧力の<em>先行シグナル</em>であるのは正しいが、そのシグナルが実際の約定につながるかは全く別だ。取引所の流出入がどうシグナルになり、どこでずれるかは<a href="/blog/exchange-netflow.html">取引所ネットフローのガイド</a>で詳しく扱った。</p>
+  <p class="ja">債権者の構成を見ると売り圧力はさらに薄まる。マウントゴックス債権者の多くは2014年から10年以上請求権を保有してきた人々で、取得原価は当時数百ドル水準だ。今の相場で受け取れば数百倍の差益なので、一部は確かに実現売りに出るだろう。しかし10年待った人はそれ自体で<strong>低い時間選好(low time preference)</strong>を証明した集団であり、多くは税・資産配分を理由に即座に全量を売らない。さらに請求権のかなりの部分はすでに<strong>ビットコイン請求権ファンド(claims funds)</strong>に安値で売却されており、最終受領者は個人ではなく長期保有志向の機関である場合が多い。この二つが重なると「30億ドル分が市場を襲う」という直感的な図はかなり崩れる。</p>
+  <p class="es">Aquí es donde suele exagerarse el miedo a un excedente de oferta. Los reembolsos de Mt. Gox se hacen <strong>en especie</strong>: el fideicomiso no vende bitcoin por efectivo para repartir, sino que entrega el propio bitcoin en las cuentas de exchange de los acreedores. En el momento en que el fideicomiso mueve monedas a Bitstamp, ninguna presión vendedora golpea el mercado. La venta real aparece solo después, y de forma fragmentada, cuando las <strong>decenas de miles de acreedores individuales</strong> que reciben esas monedas deciden cada uno "vender ahora o seguir manteniendo". La entrada a exchanges es en efecto una <em>señal adelantada</em> de posible presión vendedora, pero que esa señal se convierta en ventas ejecutadas es otra cuestión. Cómo los flujos de exchange se vuelven señal — y dónde engañan — se aborda en nuestra <a href="/blog/exchange-netflow.html">guía de flujo neto de exchanges</a>.</p>
+  <p class="es">La composición de los acreedores diluye aún más la presión. Muchos acreedores de Mt. Gox han mantenido sus reclamaciones más de una década desde 2014, con costes base de cientos de dólares. Recibir al precio de hoy es una ganancia de varios cientos de veces, así que algunos sin duda realizarán. Pero quienes esperaron una década han demostrado, por ese mismo acto, una <strong>baja preferencia temporal</strong>, y muchos no venderán todo de golpe por razones fiscales y de asignación. Además, buena parte de las reclamaciones se vendió hace tiempo a bajo precio a <strong>fondos de reclamaciones de bitcoin</strong>, así que los receptores finales suelen ser instituciones de sesgo largo más que individuos. Sumados esos dos factores, la imagen intuitiva de "3.000 millones desplomándose sobre el mercado" se desmorona en gran medida.</p>
+  <p class="de">Hier wird die Angst vor einem Angebotsüberhang meist übertrieben. Mt.-Gox-Rückzahlungen erfolgen <strong>in Sachwerten (in kind)</strong>: Der Treuhänder verkauft nicht Bitcoin gegen Bargeld zur Auszahlung, sondern liefert die Bitcoin selbst in die Börsenkonten der Gläubiger. In dem Moment, in dem der Treuhänder Coins an Bitstamp bewegt, trifft keinerlei Verkaufsdruck den Markt. Tatsächliches Verkaufen erscheint erst später und in fragmentierter Form, wenn die <strong>Zehntausenden einzelnen Gläubiger</strong>, die diese Coins erhalten, je entscheiden „jetzt verkaufen oder weiter halten". Börsenzuflüsse sind zwar ein <em>vorlaufendes Signal</em> für möglichen Verkaufsdruck, doch ob dieses Signal zu ausgeführten Verkäufen wird, ist eine andere Frage. Wie Börsenflüsse zum Signal werden — und wo sie in die Irre führen — behandelt unser <a href="/blog/exchange-netflow.html">Leitfaden zum Börsen-Nettofluss</a>.</p>
+  <p class="de">Die Zusammensetzung der Gläubiger verdünnt den Druck weiter. Viele Mt.-Gox-Gläubiger halten ihre Forderungen seit 2014 mehr als ein Jahrzehnt, mit Einstandskosten im dreistelligen Dollarbereich. Zum heutigen Preis zu erhalten ist ein mehrhundertfacher Gewinn, sodass einige sicher realisieren werden. Doch wer ein Jahrzehnt gewartet hat, hat allein dadurch eine <strong>niedrige Zeitpräferenz</strong> bewiesen, und viele werden aus Steuer- und Allokationsgründen nicht alles auf einmal abstoßen. Zudem wurde ein großer Teil der Forderungen längst billig an <strong>Bitcoin-Forderungsfonds</strong> verkauft, sodass die Endempfänger oft langfristig orientierte Institutionen und nicht Einzelpersonen sind. Kombiniert man beide Faktoren, zerfällt das intuitive Bild von „3 Milliarden Dollar, die auf den Markt einbrechen" weitgehend.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">마운트곡스 상환 타임라인</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">파산(2014) → 반복된 마감 연장 → 2026년 실제 분배</text>
+    <line x1="60" y1="90" x2="60" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="60" cy="110" r="7" fill="#71717a"/>
+    <text x="82" y="108" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2014년 2월 — 마운트곡스 파산</text>
+    <text x="82" y="128" fill="#a1a1aa" font-size="13" font-family="sans-serif">해킹으로 약 85만 BTC 소실, 이후 약 14만 BTC 회수</text>
+    <circle cx="60" cy="168" r="7" fill="#71717a"/>
+    <text x="82" y="166" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2024년 — 1차 대규모 분배 개시</text>
+    <text x="82" y="186" fill="#a1a1aa" font-size="13" font-family="sans-serif">크라켄·비트스탬프 통해 현물 인도 시작</text>
+    <circle cx="60" cy="226" r="8" fill="#06b6d4"/>
+    <text x="82" y="224" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">2026년 7월 6일 — 47,228 BTC 비트스탬프 이동</text>
+    <text x="82" y="244" fill="#a1a1aa" font-size="13" font-family="sans-serif">잔여 약 34,504 BTC · 분배용 사전 배치</text>
+    <circle cx="60" cy="284" r="7" fill="#f7dc6f"/>
+    <text x="82" y="282" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">2026년 7월 25일 — 비트스탬프 분배 시작 예정</text>
+    <circle cx="60" cy="324" r="7" fill="#f7dc6f"/>
+    <text x="82" y="322" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">2026년 10월 31일 — 최종 상환 마감</text>
+    <text x="680" y="368" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">출처: The Block, Cointelegraph, Arkham</text>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Mt. Gox repayment timeline</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">Collapse (2014) → repeated deadline extensions → real distribution 2026</text>
+    <line x1="60" y1="90" x2="60" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="60" cy="110" r="7" fill="#71717a"/>
+    <text x="82" y="108" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">Feb 2014 — Mt. Gox collapses</text>
+    <text x="82" y="128" fill="#a1a1aa" font-size="13" font-family="sans-serif">~850,000 BTC lost to hacks; ~140,000 BTC later recovered</text>
+    <circle cx="60" cy="168" r="7" fill="#71717a"/>
+    <text x="82" y="166" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2024 — first large distributions begin</text>
+    <text x="82" y="186" fill="#a1a1aa" font-size="13" font-family="sans-serif">In-kind delivery starts via Kraken and Bitstamp</text>
+    <circle cx="60" cy="226" r="8" fill="#06b6d4"/>
+    <text x="82" y="224" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">Jul 6, 2026 — 47,228 BTC moved to Bitstamp</text>
+    <text x="82" y="244" fill="#a1a1aa" font-size="13" font-family="sans-serif">~34,504 BTC remaining · pre-positioned for distribution</text>
+    <circle cx="60" cy="284" r="7" fill="#f7dc6f"/>
+    <text x="82" y="282" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">Jul 25, 2026 — Bitstamp distributions set to begin</text>
+    <circle cx="60" cy="324" r="7" fill="#f7dc6f"/>
+    <text x="82" y="322" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">Oct 31, 2026 — final repayment deadline</text>
+    <text x="680" y="368" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Source: The Block, Cointelegraph, Arkham</text>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">マウントゴックス償還タイムライン</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">破綻(2014) → 繰り返す期限延長 → 2026年 実際の分配</text>
+    <line x1="60" y1="90" x2="60" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="60" cy="110" r="7" fill="#71717a"/>
+    <text x="82" y="108" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2014年2月 — マウントゴックス破綻</text>
+    <text x="82" y="128" fill="#a1a1aa" font-size="13" font-family="sans-serif">ハッキングで約85万BTC消失、後に約14万BTC回収</text>
+    <circle cx="60" cy="168" r="7" fill="#71717a"/>
+    <text x="82" y="166" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2024年 — 1回目の大規模分配開始</text>
+    <text x="82" y="186" fill="#a1a1aa" font-size="13" font-family="sans-serif">クラーケン・ビットスタンプ経由で現物引き渡し開始</text>
+    <circle cx="60" cy="226" r="8" fill="#06b6d4"/>
+    <text x="82" y="224" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">2026年7月6日 — 47,228 BTCをビットスタンプへ移動</text>
+    <text x="82" y="244" fill="#a1a1aa" font-size="13" font-family="sans-serif">残り約34,504 BTC · 分配用の事前配置</text>
+    <circle cx="60" cy="284" r="7" fill="#f7dc6f"/>
+    <text x="82" y="282" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">2026年7月25日 — ビットスタンプ分配開始予定</text>
+    <circle cx="60" cy="324" r="7" fill="#f7dc6f"/>
+    <text x="82" y="322" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">2026年10月31日 — 最終償還期限</text>
+    <text x="680" y="368" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">出典: The Block, Cointelegraph, Arkham</text>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Cronología del reembolso de Mt. Gox</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">Colapso (2014) → prórrogas repetidas → distribución real 2026</text>
+    <line x1="60" y1="90" x2="60" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="60" cy="110" r="7" fill="#71717a"/>
+    <text x="82" y="108" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">Feb 2014 — Mt. Gox colapsa</text>
+    <text x="82" y="128" fill="#a1a1aa" font-size="13" font-family="sans-serif">~850.000 BTC perdidos; ~140.000 BTC recuperados después</text>
+    <circle cx="60" cy="168" r="7" fill="#71717a"/>
+    <text x="82" y="166" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2024 — comienzan las primeras grandes distribuciones</text>
+    <text x="82" y="186" fill="#a1a1aa" font-size="13" font-family="sans-serif">Entrega en especie vía Kraken y Bitstamp</text>
+    <circle cx="60" cy="226" r="8" fill="#06b6d4"/>
+    <text x="82" y="224" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">6 jul 2026 — 47,228 BTC movidos a Bitstamp</text>
+    <text x="82" y="244" fill="#a1a1aa" font-size="13" font-family="sans-serif">~34.504 BTC restantes · preposicionados para distribución</text>
+    <circle cx="60" cy="284" r="7" fill="#f7dc6f"/>
+    <text x="82" y="282" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">25 jul 2026 — distribuciones de Bitstamp comenzarán</text>
+    <circle cx="60" cy="324" r="7" fill="#f7dc6f"/>
+    <text x="82" y="322" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">31 oct 2026 — plazo final de reembolso</text>
+    <text x="680" y="368" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Fuente: The Block, Cointelegraph, Arkham</text>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Mt.-Gox-Rückzahlungs-Zeitleiste</text>
+    <text x="20" y="56" fill="#a1a1aa" font-size="13" font-family="sans-serif">Zusammenbruch (2014) → wiederholte Fristverlängerungen → echte Verteilung 2026</text>
+    <line x1="60" y1="90" x2="60" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="60" cy="110" r="7" fill="#71717a"/>
+    <text x="82" y="108" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">Feb 2014 — Mt. Gox bricht zusammen</text>
+    <text x="82" y="128" fill="#a1a1aa" font-size="13" font-family="sans-serif">~850.000 BTC durch Hacks verloren; ~140.000 BTC später zurück</text>
+    <circle cx="60" cy="168" r="7" fill="#71717a"/>
+    <text x="82" y="166" fill="#e4e4e7" font-size="15" font-weight="700" font-family="sans-serif">2024 — erste große Verteilungen beginnen</text>
+    <text x="82" y="186" fill="#a1a1aa" font-size="13" font-family="sans-serif">Sachauslieferung über Kraken und Bitstamp</text>
+    <circle cx="60" cy="226" r="8" fill="#06b6d4"/>
+    <text x="82" y="224" fill="#cffafe" font-size="15" font-weight="700" font-family="sans-serif">6. Juli 2026 — 47.228 BTC an Bitstamp bewegt</text>
+    <text x="82" y="244" fill="#a1a1aa" font-size="13" font-family="sans-serif">~34.504 BTC verbleibend · vorpositioniert zur Verteilung</text>
+    <circle cx="60" cy="284" r="7" fill="#f7dc6f"/>
+    <text x="82" y="282" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">25. Juli 2026 — Bitstamp-Verteilungen sollen beginnen</text>
+    <circle cx="60" cy="324" r="7" fill="#f7dc6f"/>
+    <text x="82" y="322" fill="#f7dc6f" font-size="15" font-weight="700" font-family="sans-serif">31. Okt 2026 — endgültige Rückzahlungsfrist</text>
+    <text x="680" y="368" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Quelle: The Block, Cointelegraph, Arkham</text>
+  </svg>
+  </div>
+
+  <h2 class="ko">2024년 사례가 말해 주는 것</h2>
+  <h2 class="en">What the 2024 episode tells us</h2>
+  <h2 class="ja">2024年の事例が語ること</h2>
+  <h2 class="es">Lo que dice el episodio de 2024</h2>
+  <h2 class="de">Was die Episode von 2024 zeigt</h2>
+  <p class="ko">이번이 처음이 아니라는 점이 중요하다. 신탁은 2024년 여름부터 이미 크라켄과 비트스탬프를 통해 대규모 현물 분배를 시작했고, 당시에도 "14만 BTC가 시장에 쏟아진다"는 공포가 팽배했다. 그러나 결과적으로 그해 비트코인 가격의 방향을 실제로 좌우한 것은 마운트곡스가 아니라 다른 매도자였다. 같은 시기 <strong>독일 정부</strong>가 압수 물량 약 5만 BTC를 몇 주에 걸쳐 실제로 시장에 <strong>직접 매도</strong>했고, 이 강제 매도가 훨씬 뚜렷한 하락 압력으로 작용했다. 마운트곡스 물량은 대부분 분배 직후 곧바로 팔리지 않고 채권자 지갑에 머물렀다.</p>
+  <p class="ko">여기서 반박 가능한 관점도 짚어야 공정하다. "분배가 곧 매도가 아니다"라는 논리가 매번 통하는 것은 아니다. 개별 채권자 중 상당수는 세무 신고와 유동성 확보를 위해 수령 직후 일부를 파는 것이 합리적이며, 이런 분산 매도가 특정 며칠에 우연히 겹치면 단기 변동성을 키울 수 있다. 또 이번 이동이 과거보다 '한 번에 큰 규모'라는 점 자체가 심리적 트리거로 작동해, 실제 매도와 무관하게 파생상품 시장에서 선제적 헤지나 숏 포지션을 자극할 수 있다. 요컨대 펀더멘털 공급 압력은 과장됐지만, <strong>단기 심리·포지셔닝 변동성</strong>은 실재한다는 것이 2024년의 교훈이다.</p>
+  <p class="en">It matters that this is not the first time. The trust already began large in-kind distributions via Kraken and Bitstamp from the summer of 2024, and back then, too, fear was rife that "140,000 BTC will flood the market." Yet what actually steered bitcoin's price that year was not Mt. Gox but a different seller. Over the same window, the <strong>German government</strong> directly sold about 50,000 seized BTC on the open market over a few weeks, and that forced selling exerted far clearer downward pressure. Most of the Mt. Gox coins sat in creditor wallets rather than being sold right after distribution.</p>
+  <p class="en">To be fair, one must also state the counterargument. The logic that "distribution is not selling" does not hold every time. Many individual creditors will rationally sell part of their allotment right after receipt, for tax filing and liquidity, and if such scattered sales happen to cluster on particular days they can amplify short-term volatility. The very fact that this transfer is "large all at once" relative to the past can act as a psychological trigger, provoking pre-emptive hedges or short positions in the derivatives market regardless of actual selling. In short, the fundamental supply pressure is overstated, but <strong>short-term sentiment and positioning volatility</strong> is real — that is the lesson of 2024.</p>
+  <p class="ja">今回が初めてではない点が重要だ。信託は2024年夏からすでにクラーケンとビットスタンプを通じて大規模な現物分配を始めており、その時も「14万BTCが市場に溢れる」という恐怖が蔓延した。しかし結果的にその年のビットコイン価格の方向を実際に左右したのは、マウントゴックスではなく別の売り手だった。同じ時期に<strong>ドイツ政府</strong>が押収した約5万BTCを数週間かけて実際に市場へ<strong>直接売却</strong>し、この強制売却がはるかに明確な下落圧力として働いた。マウントゴックスの物量は大半が分配直後にすぐ売られず、債権者のウォレットに留まった。</p>
+  <p class="ja">ここで反論可能な視点も示すのが公正だ。「分配は売りではない」という論理が毎回通じるわけではない。個別債権者の多くは納税申告と流動性確保のために受領直後に一部を売るのが合理的で、こうした分散売りが特定の数日に偶然重なれば短期変動性を高めうる。さらに今回の移動が過去より「一度に大きな規模」であること自体が心理的トリガーとして働き、実際の売りと無関係にデリバティブ市場で先制的なヘッジやショートを刺激しうる。要するにファンダメンタルな供給圧力は誇張されているが、<strong>短期の心理・ポジショニング変動性</strong>は実在する、というのが2024年の教訓だ。</p>
+  <p class="es">Importa que no es la primera vez. El fideicomiso ya inició grandes distribuciones en especie vía Kraken y Bitstamp desde el verano de 2024, y también entonces cundió el miedo a que "140.000 BTC inunden el mercado". Sin embargo, lo que realmente dirigió el precio de bitcoin ese año no fue Mt. Gox, sino otro vendedor. En la misma ventana, el <strong>gobierno alemán</strong> vendió directamente unos 50.000 BTC incautados en el mercado abierto durante unas semanas, y esa venta forzada ejerció una presión bajista mucho más clara. La mayoría de las monedas de Mt. Gox quedaron en carteras de acreedores en lugar de venderse justo tras la distribución.</p>
+  <p class="es">Para ser justos, hay que exponer también el contraargumento. La lógica de que "distribución no es venta" no se sostiene siempre. Muchos acreedores individuales venderán racionalmente parte de su asignación justo tras recibirla, por declaración fiscal y liquidez, y si esas ventas dispersas coinciden en días concretos pueden amplificar la volatilidad de corto plazo. El propio hecho de que esta transferencia sea "grande de golpe" frente al pasado puede actuar como disparador psicológico, provocando coberturas preventivas o posiciones cortas en el mercado de derivados al margen de la venta real. En resumen, la presión de oferta fundamental está exagerada, pero la <strong>volatilidad de sentimiento y posicionamiento de corto plazo</strong> es real — esa es la lección de 2024.</p>
+  <p class="de">Es zählt, dass dies nicht das erste Mal ist. Der Treuhänder begann bereits ab Sommer 2024 große Sachverteilungen über Kraken und Bitstamp, und auch damals grassierte die Angst, „140.000 BTC überschwemmen den Markt". Doch was den Bitcoin-Preis in jenem Jahr tatsächlich lenkte, war nicht Mt. Gox, sondern ein anderer Verkäufer. Im selben Zeitraum verkaufte die <strong>deutsche Regierung</strong> rund 50.000 beschlagnahmte BTC über einige Wochen direkt am offenen Markt, und dieser Zwangsverkauf übte weit deutlicheren Abwärtsdruck aus. Die meisten Mt.-Gox-Coins lagen in Gläubiger-Wallets, statt gleich nach der Verteilung verkauft zu werden.</p>
+  <p class="de">Fairerweise muss man auch den Gegeneinwand nennen. Die Logik „Verteilung ist kein Verkauf" gilt nicht jedes Mal. Viele einzelne Gläubiger werden aus Steuer- und Liquiditätsgründen rational einen Teil ihrer Zuteilung gleich nach Erhalt verkaufen, und wenn sich solche verstreuten Verkäufe zufällig an bestimmten Tagen bündeln, können sie die kurzfristige Volatilität verstärken. Gerade die Tatsache, dass dieser Transfer im Vergleich zur Vergangenheit „auf einmal groß" ist, kann als psychologischer Auslöser wirken und unabhängig vom tatsächlichen Verkauf präventive Absicherungen oder Short-Positionen im Derivatemarkt provozieren. Kurz: Der fundamentale Angebotsdruck ist überzeichnet, aber die <strong>kurzfristige Stimmungs- und Positionierungsvolatilität</strong> ist real — das ist die Lehre von 2024.</p>
+
+  <h2 class="ko">왜 중요하고 무엇을 지켜봐야 하나</h2>
+  <h2 class="en">Why it matters, and what to watch</h2>
+  <h2 class="ja">なぜ重要で、何を注視すべきか</h2>
+  <h2 class="es">Por qué importa, y qué vigilar</h2>
+  <h2 class="de">Warum es wichtig ist, und worauf zu achten</h2>
+  <p class="ko">이 뉴스가 중요한 이유는 단일 이벤트여서가 아니라, 비트코인 시장의 <strong>공급 측 서사</strong>를 시험하는 실시간 실험이기 때문이다. 지금 시장은 현물 ETF 유출, 채굴자 매도, 장기 보유자 물량 등 여러 공급 원천을 저울질하고 있는데, 마운트곡스 47,228 BTC는 그중에서도 '출처와 규모가 정확히 공개된' 희귀한 케이스다. 이 물량이 실제로 얼마나 시장에 흡수되는지를 관찰하면, 현재 수요가 이런 크기의 알려진 공급을 소화할 만큼 두터운지를 역으로 가늠할 수 있다. 채권자 상환이라는 10년 묵은 리스크가 마침내 소진되는 과정이라는 점에서, 이 사건은 오히려 오래된 오버행이 걷히는 <strong>구조적 정리</strong>의 성격도 갖는다.</p>
+  <p class="ko"><strong>지켜봐야 할 것</strong>은 세 가지다. 첫째, 7월 25일 전후 비트스탬프·크라켄의 <strong>거래소 순유입과 실현 손익(SOPR)</strong> 지표다. 코인이 지갑에서 나와 실제 매도로 전환되는지가 여기서 드러난다. 둘째, 파생상품 시장의 <strong>펀딩비와 미결제약정</strong>이다. 실제 현물 매도 없이도 공포만으로 숏이 쌓이면, 역설적으로 숏 스퀴즈의 연료가 된다. 셋째, 신탁의 잔여 약 34,504 BTC가 언제 어떤 속도로 마저 움직이는지다. 10월 31일 마감을 향해 남은 물량이 순차 이동하면, 시장은 이번처럼 매번 헤드라인에 반응하되 그 반응 폭은 점차 줄어들 가능성이 크다. 알려진 공급은, 반복될수록 시장이 학습하기 때문이다.</p>
+  <p class="en">This news matters not because it is a single event but because it is a live experiment testing bitcoin's <strong>supply-side narrative</strong>. The market is currently weighing several supply sources — spot-ETF outflows, miner selling, long-term-holder coins — and the Mt. Gox 47,228 BTC is a rare case where "the source and size are precisely disclosed." Watching how much of it the market actually absorbs lets you gauge, in reverse, whether current demand is deep enough to digest known supply of this scale. Because it is the process of a decade-old creditor-repayment risk finally being spent, this event also has the character of a <strong>structural clearing</strong> in which an old overhang is lifted.</p>
+  <p class="en"><strong>Three things to watch.</strong> First, <strong>exchange net inflows and realized profit/loss (SOPR)</strong> at Bitstamp and Kraken around July 25; whether coins leave wallets and convert to actual selling shows up here. Second, <strong>funding rates and open interest</strong> in derivatives; if shorts pile up on fear alone without real spot selling, that paradoxically becomes fuel for a short squeeze. Third, when and how fast the trust's remaining ~34,504 BTC finishes moving. As the leftover supply migrates toward the October 31 deadline, the market will likely keep reacting to each headline as it did here — but with a steadily shrinking response, because known supply is something the market learns as it repeats.</p>
+  <p class="ja">このニュースが重要なのは、単一のイベントだからではなく、ビットコイン市場の<strong>供給側の物語</strong>を試すリアルタイムの実験だからだ。今、市場は現物ETF流出、採掘者の売り、長期保有者の物量など複数の供給源を秤にかけており、マウントゴックスの47,228 BTCはその中でも「出どころと規模が正確に開示された」稀なケースだ。この物量が実際にどれだけ市場に吸収されるかを観察すれば、現在の需要がこの規模の既知の供給を消化できるほど厚いかを逆に測れる。債権者償還という10年物のリスクがついに消化される過程である点で、この出来事はむしろ古いオーバーハングが晴れる<strong>構造的整理</strong>の性格も持つ。</p>
+  <p class="ja"><strong>注視すべきは</strong>三つだ。第一に、7月25日前後のビットスタンプ・クラーケンの<strong>取引所純流入と実現損益(SOPR)</strong>指標だ。コインがウォレットから出て実際の売りに転じるかがここで表れる。第二に、デリバティブ市場の<strong>ファンディングレートと建玉</strong>だ。実際の現物売りなしに恐怖だけでショートが積み上がれば、逆説的にショートスクイズの燃料になる。第三に、信託の残り約34,504 BTCがいつどの速度で動き切るかだ。10月31日の期限へ向けて残量が順次移動すれば、市場は今回のように毎回ヘッドラインに反応しつつ、その反応幅は次第に縮む可能性が高い。既知の供給は、繰り返されるほど市場が学習するからだ。</p>
+  <p class="es">Esta noticia importa no por ser un evento aislado, sino por ser un experimento en vivo que pone a prueba la <strong>narrativa de oferta</strong> de bitcoin. El mercado sopesa ahora varias fuentes de oferta — salidas de ETF al contado, ventas de mineros, monedas de holders de largo plazo — y los 47,228 BTC de Mt. Gox son un caso raro en que "el origen y el tamaño están divulgados con precisión". Observar cuánto de ello absorbe realmente el mercado permite calibrar, a la inversa, si la demanda actual es lo bastante profunda para digerir oferta conocida de esta escala. Por ser el proceso de agotar un riesgo de reembolso de una década, este evento también tiene el carácter de una <strong>limpieza estructural</strong> en la que se levanta un viejo excedente.</p>
+  <p class="es"><strong>Tres cosas que vigilar.</strong> Primero, las <strong>entradas netas a exchanges y el resultado realizado (SOPR)</strong> en Bitstamp y Kraken en torno al 25 de julio; si las monedas salen de las carteras y se convierten en venta real, se verá aquí. Segundo, las <strong>tasas de financiación y el interés abierto</strong> en derivados; si los cortos se acumulan solo por miedo sin venta real al contado, eso paradójicamente se vuelve combustible para un short squeeze. Tercero, cuándo y a qué velocidad termina de moverse el ~34.504 BTC restante del fideicomiso. A medida que la oferta sobrante migre hacia el plazo del 31 de octubre, el mercado probablemente seguirá reaccionando a cada titular como aquí — pero con una respuesta cada vez menor, porque la oferta conocida es algo que el mercado aprende al repetirse.</p>
+  <p class="de">Diese Nachricht ist wichtig, nicht weil sie ein Einzelereignis ist, sondern weil sie ein Live-Experiment ist, das Bitcoins <strong>Angebotsseiten-Narrativ</strong> testet. Der Markt wägt derzeit mehrere Angebotsquellen ab — Spot-ETF-Abflüsse, Miner-Verkäufe, Coins von Langzeithaltern — und die 47.228 BTC von Mt. Gox sind ein seltener Fall, in dem „Herkunft und Größe präzise offengelegt" sind. Zu beobachten, wie viel davon der Markt tatsächlich aufnimmt, lässt umgekehrt abschätzen, ob die aktuelle Nachfrage tief genug ist, um bekanntes Angebot dieser Größenordnung zu verdauen. Weil es der Prozess ist, in dem ein zehn Jahre altes Gläubiger-Rückzahlungsrisiko endlich aufgebraucht wird, hat dieses Ereignis auch den Charakter einer <strong>strukturellen Bereinigung</strong>, bei der ein alter Überhang abgebaut wird.</p>
+  <p class="de"><strong>Drei Dinge sind zu beobachten.</strong> Erstens die <strong>Börsen-Nettozuflüsse und die realisierten Gewinne/Verluste (SOPR)</strong> bei Bitstamp und Kraken rund um den 25. Juli; ob Coins die Wallets verlassen und sich in tatsächlichen Verkauf umwandeln, zeigt sich hier. Zweitens <strong>Finanzierungsraten und offenes Interesse</strong> im Derivatemarkt; türmen sich Shorts allein aus Angst ohne echten Spot-Verkauf auf, wird das paradoxerweise zum Treibstoff für einen Short Squeeze. Drittens, wann und wie schnell die verbleibenden ~34.504 BTC des Treuhänders zu Ende bewegt werden. Wenn das übrige Angebot auf die Frist am 31. Oktober zuwandert, wird der Markt wohl weiter auf jede Schlagzeile reagieren wie hier — aber mit stetig schrumpfender Reaktion, denn bekanntes Angebot ist etwas, das der Markt durch Wiederholung lernt.</p>
+
+  <div class="box ko">💡 <strong>시사점:</strong> 마운트곡스와 연결된 지갑이 7월 6일 47,228 BTC(30억 달러 이상)를 비트스탬프로 옮겼다고 더블록이 아캄 데이터를 인용해 전했다. 잔여 보유는 약 34,504 BTC로 줄었고, 비트스탬프 분배는 7월 25일, 최종 마감은 10월 31일이다. 상환은 현물 인도 방식이라 거래소 이동이 곧 매도는 아니며, 2024년엔 마운트곡스가 아니라 독일 정부의 강제 매도가 실제 하락 압력이었다. 펀더멘털 공급 압력은 과장됐으나 단기 심리·포지셔닝 변동성은 실재한다. 7월 25일 전후 거래소 순유입·SOPR과 파생상품 펀딩을 지켜봐야 한다.</div>
+  <div class="box en">💡 <strong>Takeaway:</strong> A Mt. Gox-linked wallet moved 47,228 BTC (over $3B) to Bitstamp on July 6, The Block reported citing Arkham data. Remaining holdings fell to ~34,504 BTC; Bitstamp distributions begin July 25, with an October 31 final deadline. Repayments are in kind, so an exchange transfer is not a sale — and in 2024 it was Germany's forced selling, not Mt. Gox, that drove the drop. Fundamental supply pressure is overstated, but short-term sentiment and positioning volatility is real. Watch exchange net inflows and SOPR around July 25, plus derivatives funding.</div>
+  <div class="box ja">💡 <strong>示唆:</strong> マウントゴックス関連ウォレットが7月6日、47,228 BTC(30億ドル超)をビットスタンプへ移したとザ・ブロックがアーカムのデータを引用して伝えた。残り保有は約34,504 BTCに減り、ビットスタンプ分配は7月25日、最終期限は10月31日だ。償還は現物方式なので取引所移動は即売却ではなく、2024年はマウントゴックスではなくドイツ政府の強制売却が実際の下落圧力だった。ファンダメンタルな供給圧力は誇張されているが、短期の心理・ポジショニング変動性は実在する。7月25日前後の取引所純流入・SOPRとデリバティブのファンディングを注視すべきだ。</div>
+  <div class="box es">💡 <strong>Conclusión:</strong> Una cartera vinculada a Mt. Gox movió 47,228 BTC (más de 3.000 M$) a Bitstamp el 6 de julio, informó The Block citando datos de Arkham. Las tenencias restantes cayeron a ~34.504 BTC; las distribuciones de Bitstamp comienzan el 25 de julio, con plazo final el 31 de octubre. Los reembolsos son en especie, así que una transferencia a exchange no es una venta — y en 2024 fue la venta forzada de Alemania, no Mt. Gox, la que impulsó la caída. La presión de oferta fundamental está exagerada, pero la volatilidad de sentimiento y posicionamiento de corto plazo es real. Vigilar entradas netas a exchanges y SOPR en torno al 25 de julio, más la financiación de derivados.</div>
+  <div class="box de">💡 <strong>Fazit:</strong> Eine Mt.-Gox-verbundene Wallet bewegte am 6. Juli 47.228 BTC (über 3 Mrd. $) an Bitstamp, berichtete The Block unter Berufung auf Arkham-Daten. Die verbleibenden Bestände sanken auf ~34.504 BTC; Bitstamp-Verteilungen beginnen am 25. Juli, die Endfrist ist der 31. Oktober. Rückzahlungen erfolgen in Sachwerten, ein Börsentransfer ist also kein Verkauf — und 2024 war es Deutschlands Zwangsverkauf, nicht Mt. Gox, der den Rückgang trieb. Der fundamentale Angebotsdruck ist überzeichnet, doch die kurzfristige Stimmungs- und Positionierungsvolatilität ist real. Zu beobachten sind Börsen-Nettozuflüsse und SOPR rund um den 25. Juli sowie die Derivate-Finanzierung.</div>
+
+  <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: The Block("Mt. Gox moves 47,228 BTC to Bitstamp", Arkham Intelligence 데이터 인용, 2026-07-06), Cointelegraph(비트스탬프 7월 25일 분배 개시), Arkham Intelligence(지갑 추적·잔여 보유량). 이동 규모(47,228 BTC)·잔여 보유(약 34,504 BTC)·달러 환산액·마감일(2026-10-31)은 각 매체 및 온체인 데이터 기준이며 시세와 후속 이동에 따라 달라질 수 있다. 이 글은 특정 자산의 매매를 권유하지 않으며 투자 조언이 아니다.</p>
+  <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: The Block ("Mt. Gox moves 47,228 BTC to Bitstamp," citing Arkham Intelligence data, 2026-07-06), Cointelegraph (Bitstamp distributions from July 25), Arkham Intelligence (wallet tracking and remaining holdings). The transfer size (47,228 BTC), remaining holdings (~34,504 BTC), dollar values, and the deadline (2026-10-31) are per the cited outlets and on-chain data and may change with price and further movements. This article does not recommend buying or selling any asset and is not investment advice.</p>
+  <p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: The Block(「Mt. Gox moves 47,228 BTC to Bitstamp」、Arkham Intelligenceのデータを引用、2026-07-06)、Cointelegraph(ビットスタンプが7月25日から分配)、Arkham Intelligence(ウォレット追跡・残り保有量)。移動規模(47,228 BTC)・残り保有(約34,504 BTC)・ドル換算額・期限(2026-10-31)は各媒体およびオンチェーンデータに基づき、相場や後続の移動によって変わりうる。本記事は特定資産の売買を勧誘するものではなく、投資助言ではない。</p>
+  <p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: The Block ("Mt. Gox moves 47,228 BTC to Bitstamp", citando datos de Arkham Intelligence, 2026-07-06), Cointelegraph (distribuciones de Bitstamp desde el 25 de julio), Arkham Intelligence (rastreo de carteras y tenencias restantes). El tamaño de la transferencia (47,228 BTC), las tenencias restantes (~34.504 BTC), los valores en dólares y el plazo (2026-10-31) son según los medios citados y los datos on-chain, y pueden cambiar con el precio y movimientos posteriores. Este artículo no recomienda comprar ni vender ningún activo y no es asesoramiento de inversión.</p>
+  <p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: The Block („Mt. Gox moves 47,228 BTC to Bitstamp", unter Berufung auf Arkham-Intelligence-Daten, 2026-07-06), Cointelegraph (Bitstamp-Verteilungen ab dem 25. Juli), Arkham Intelligence (Wallet-Verfolgung und verbleibende Bestände). Transfergröße (47.228 BTC), verbleibende Bestände (~34.504 BTC), Dollarwerte und Frist (2026-10-31) beruhen auf den zitierten Medien und On-Chain-Daten und können sich mit Preis und weiteren Bewegungen ändern. Dieser Artikel empfiehlt weder Kauf noch Verkauf eines Vermögenswerts und ist keine Anlageberatung.</p>
+
+<?php require __DIR__.'/_footer.php'; ?>
