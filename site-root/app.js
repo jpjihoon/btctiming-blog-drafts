@@ -204,7 +204,7 @@ const COINS = [
   {id:'TIA', name:'Celestia', sym:'TIAUSDT', color:'#7B2BF9'},
   {id:'IMX', name:'Immutable',sym:'IMXUSDT', color:'#0B0E1A'},
   {id:'RENDER',name:'Render', sym:'RENDERUSDT',color:'#CF1011'},
-  {id:'MKR', name:'Maker',    sym:'MKRUSDT', color:'#1AAB9B'},
+  {id:'SKY', name:'Sky',      sym:'SKYUSDT', color:'#1AAB9B'},
   {id:'LDO', name:'Lido DAO', sym:'LDOUSDT', color:'#00A3FF'},
   {id:'STX', name:'Stacks',   sym:'STXUSDT', color:'#5546FF'},
   {id:'THETA',name:'Theta',   sym:'THETAUSDT',color:'#2AB8E6'},
@@ -379,6 +379,56 @@ window.addEventListener('scroll', closeCoinMore, true);
 // 코인 검색/즐겨찾기 오버레이
 // ═══════════════════════════════════════════════════════
 let coinSearchTab = 'fav'; // 'fav' | 'all'
+// 즐겨찾기 코인 전환 시트 (모바일 하단바 "코인" 탭). 즐겨찾기한 코인을 빠르게 전환.
+function openCoinSwitcher() {
+  let ov = document.getElementById('coinSwitchOverlay');
+  if (!ov) {
+    ov = document.createElement('div');
+    ov.id = 'coinSwitchOverlay';
+    ov.className = 'coin-ov coin-switch-ov';
+    ov.innerHTML = `
+      <div class="coin-ov-box" role="dialog" aria-modal="true" aria-label="코인 전환">
+        <div class="coin-ov-grip"></div>
+        <div class="coin-sw-head">
+          <span class="coin-sw-title">${TT({ko:'코인 전환',en:'Switch coin',ja:'コイン切替',es:'Cambiar moneda',de:'Coin wechseln'})}</span>
+          <button class="coin-ov-close" onclick="closeCoinSwitcher()" aria-label="Close">✕</button>
+        </div>
+        <div id="coinSwitchList" class="coin-ov-list"></div>
+        <button class="coin-sw-manage" onclick="closeCoinSwitcher();openCoinSearch()">
+          ＋ ${TT({ko:'코인 검색 / 관리',en:'Search / manage coins',ja:'コイン検索・管理',es:'Buscar / gestionar',de:'Coins suchen / verwalten'})}
+        </button>
+      </div>`;
+    document.body.appendChild(ov);
+    ov.addEventListener('click', (e) => { if (e.target === ov) closeCoinSwitcher(); });
+  }
+  ov.style.display = 'flex';
+  renderCoinSwitchList();
+}
+function closeCoinSwitcher() {
+  const ov = document.getElementById('coinSwitchOverlay');
+  if (ov) ov.style.display = 'none';
+}
+function renderCoinSwitchList() {
+  const list = document.getElementById('coinSwitchList');
+  if (!list) return;
+  const favCoins = getFavoriteCoins();
+  if (!favCoins.length) {
+    list.innerHTML = `<div class="coin-ov-empty">${TT({ko:'즐겨찾기한 코인이 없습니다.',en:'No favorite coins yet.',ja:'お気に入りがありません。',es:'Sin favoritos.',de:'Keine Favoriten.'})}</div>`;
+    return;
+  }
+  list.innerHTML = favCoins.map(c => `
+    <div class="coin-sw-item${c.id===currentCoin?' current':''}" onclick="switchCoinFromSheet('${c.id}')">
+      <span class="coin-ov-dot" style="background:${c.color}"></span>
+      <span class="coin-ov-id">${c.id}</span>
+      <span class="coin-ov-name">${c.name}</span>
+      ${c.id===currentCoin?`<span class="coin-sw-cur">${TT({ko:'보는 중',en:'viewing',ja:'表示中',es:'viendo',de:'aktiv'})}</span>`:''}
+    </div>`).join('');
+}
+function switchCoinFromSheet(id) {
+  closeCoinSwitcher();
+  switchCoin(id);
+}
+
 function openCoinSearch() {
   let ov = document.getElementById('coinSearchOverlay');
   if (!ov) {

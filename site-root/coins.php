@@ -25,7 +25,7 @@ $COIN_META = [
   'SUI'=>['Sui','#4DA2FF'],'AAVE'=>['Aave','#B6509E'],'GRT'=>['The Graph','#6747ED'],
   'ALGO'=>['Algorand','#222222'],'SEI'=>['Sei','#8B1E2B'],'RUNE'=>['THORChain','#00CCFF'],
   'S'=>['Sonic','#1969FF'],'TIA'=>['Celestia','#7B2BF9'],'IMX'=>['Immutable','#4361EE'],
-  'RENDER'=>['Render','#CF1011'],'MKR'=>['Maker','#1AAB9B'],'LDO'=>['Lido DAO','#00A3FF'],
+  'RENDER'=>['Render','#CF1011'],'SKY'=>['Sky','#1AAB9B'],'LDO'=>['Lido DAO','#00A3FF'],
   'STX'=>['Stacks','#5546FF'],'THETA'=>['Theta','#2AB8E6'],'SAND'=>['The Sandbox','#00ADEF'],
   'AXS'=>['Axie Infinity','#0055D5'],'MANA'=>['Decentraland','#FF2D55'],'FLOW'=>['Flow','#00EF8B'],
   'CHZ'=>['Chiliz','#CD0124'],'GALA'=>['Gala','#222222'],'EOS'=>['EOS','#222222'],

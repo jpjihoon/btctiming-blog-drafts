@@ -360,6 +360,16 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .cov-mv:hover:not(:disabled){background:var(--orange);color:#000;border-color:var(--orange)}
 .cov-mv:disabled{opacity:.25;cursor:default}
 .coin-ov-empty{padding:30px;text-align:center;color:#666;font-size:13px;line-height:1.6}
+/* 코인 전환 시트 (하단바 코인 탭) */
+.coin-sw-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px 8px}
+.coin-sw-title{font-size:15px;font-weight:700;color:#f0f0f0}
+.coin-sw-item{display:flex;align-items:center;gap:10px;padding:13px 14px;border-radius:10px;cursor:pointer;transition:background .1s}
+.coin-sw-item:hover{background:#1c1c20}
+.coin-sw-item.current{background:rgba(251,146,60,.1)}
+.coin-sw-item.current .coin-ov-id{color:var(--orange)}
+.coin-sw-cur{margin-left:auto;font-size:10px;font-weight:700;color:var(--orange);flex-shrink:0}
+.coin-sw-manage{margin:6px 12px 12px;padding:12px;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:10px;color:#bbb;font-size:13px;font-weight:600;cursor:pointer;width:calc(100% - 24px)}
+.coin-sw-manage:hover{color:#f0f0f0;border-color:var(--orange)}
 /* 모바일: 하단 시트 형태 */
 @media(max-width:600px){
   .coin-ov{align-items:flex-end;padding:0}
@@ -386,6 +396,15 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
   .mtab-ic{width:20px;height:20px;display:block}
   .mtab-tx{font-size:9.5px;letter-spacing:-.2px}
   body{padding-bottom:48px}
+}
+/* 모바일: 채팅 버튼이 하단 탭바를 안 가리게 위로 + 축소 */
+@media(max-width:600px){
+  #chatToggle{width:44px!important;height:44px!important;font-size:19px!important;
+    bottom:60px!important;right:14px!important}
+  #chatToggle #chatBadge{width:15px!important;height:15px!important;font-size:9px!important}
+  #chatBox{bottom:112px!important;right:10px!important;
+    width:calc(100vw - 20px)!important;max-width:340px!important;
+    height:min(60vh,420px)!important}
 }
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
@@ -1090,7 +1109,7 @@ $ft = $footerText[$lang] ?? $footerText['en'];
     <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
     <span class="mtab-tx" data-i="tab_dashboard">실시간 지표</span>
   </a>
-  <button type="button" class="mtab" onclick="openCoinSearch()" data-tab="coins">
+  <button type="button" class="mtab" onclick="openCoinSwitcher()" data-tab="coins">
     <svg class="mtab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
     <span class="mtab-tx" data-i="tab_coins">코인 검색</span>
   </button>
