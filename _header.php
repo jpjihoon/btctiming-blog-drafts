@@ -121,7 +121,9 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <meta property="og:description" content="<?= h($pageDesc) ?>">
 <meta property="og:url" content="<?= h($canonical) ?>">
 <meta property="og:type" content="article">
-<meta property="og:image" content="https://btctiming.com/og-image.png">
+<meta property="og:image" content="https://btctiming.com/og.php?slug=<?= h($slug) ?>&lang=<?= h($lang) ?>">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:site_name" content="BTCtiming.com">
 <meta property="og:locale" content="<?= $LOCALE_MAP[$lang] ?>">
 <?php foreach (SUPPORTED_LANGS as $altLang => $altInfo): if ($altLang === $lang) continue; if ($altLang === 'ja' && !$hasJa) continue; if (($altLang === 'es' || $altLang === 'de') && !isset($M["title_{$altLang}"])) continue; ?>
@@ -131,7 +133,7 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?= h($M['title' . $suf] ?? $M['title_en']) ?>">
 <meta name="twitter:description" content="<?= h($pageDesc) ?>">
-<meta name="twitter:image" content="https://btctiming.com/og-image.png">
+<meta name="twitter:image" content="https://btctiming.com/og.php?slug=<?= h($slug) ?>&lang=<?= h($lang) ?>">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
