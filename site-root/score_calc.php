@@ -92,8 +92,10 @@ function calcBuy(array $ind): array {
         // 깊은 저평가라 만점이 합리적. 이러면 -28% 같은 상당한 저평가도 89% 성취로 제대로
         // 인정받아, BTC의 온체인 저평가 계상과 대등해짐(격차 축소). 200주선 위(양수)는 여전히
         // 낮게 유지 → 안 빠진 코인(TRX 등) 구분 유지.
+        // 실현가 곡선: 만점 -55% (포화 방지 + 변별력). -28%는 73%(17.5/24)로 상당히 인정,
+        // 더 깊이 빠진 코인과 구분됨.
         $rp_gap = ($price - $realized_price) / $realized_price * 100;
-        $s = round(lerpScore($rp_gap, [[-40, 24], [-30, 22], [-20, 19], [-10, 16], [0, 12], [15, 7], [40, 2], [80, 0]]), 1);
+        $s = round(lerpScore($rp_gap, [[-55, 24], [-45, 22], [-35, 19.5], [-28, 17.5], [-20, 15], [-10, 12], [0, 9], [15, 5], [40, 1.5], [80, 0]]), 1);
         $det['alt_valuation'] = ['key' => 'alt_valuation', 'label' => 'Price vs Est. Realized (200W MA)', 'max' => 24, 'score' => $s,
             'value' => number_format($rp_gap, 1), 'unit' => '%',
             'target' => 'Below estimated realized price', 'signal' => $rp_gap < 0 ? 'Below Realized' : 'Above',
@@ -216,41 +218,56 @@ function calcBuy(array $ind): array {
     // (volChg는 더 이상 점수 계산에 안 쓰임 — 15분봉 기반 fast_vol_ratio로 대체됨)
     $btcCorr = $ind['btc_corr_value'] ?? 0.7;
 
-    // RSI: 알트는 14로. (지난 개편서 18로 올렸으나, 저평가 알트가 현재 RSI 중립일 때
-    // 과도하게 눌리는 부작용 → 14로 완화. 밸류에이션 비중을 대신 키움)
+    // RSI (2026-07 관점B 재설계): 기존은 과매도(30↓)만 고득점이라 "조용한 저점"(중립 RSI)에서
+    // 크게 눌렸음 → 역대 최저가인데 점수 낮은 역설. 이제 "과열 감점 위주"로 전환:
+    //   과매도(≤30)=만점(항복 가산 유지), 중립(40~60)=60~70% 인정(조용한 바닥도 OK),
+    //   과열(≥70)=강하게 감점. 저점 매수 도구의 성격상 "안 과열이면 감점 안 함"이 맞음.
     $rsiMax = ($coin === 'BTC') ? 15 : 14;
-    $s = round(lerpScore($rsi, [[15, 15], [25, 15], [35, 12], [45, 8], [55, 5], [70, 2], [85, 0]]) * ($rsiMax / 15), 1);
+    $s = round(lerpScore($rsi, [[15, 15], [30, 15], [40, 12], [50, 10.5], [60, 9], [68, 6], [75, 3], [85, 0]]) * ($rsiMax / 15), 1);
     $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMax, 'score' => $s,
         'value' => number_format($rsi, 1), 'unit' => '',
-        'target' => 'Oversold ≤ 30', 'signal' => $rsi <= 30 ? 'Oversold (Bottom)' : ($rsi >= 70 ? 'Overbought' : 'Neutral'),
-        'note' => "RSI " . number_format($rsi, 1) . ". 30 이하 과매도(저점 신호), 70 이상 과매수(고점 신호)."];
+        'target' => 'Oversold ≤ 30 (bonus); not overbought', 'signal' => $rsi <= 30 ? 'Oversold (Bottom)' : ($rsi >= 70 ? 'Overbought' : 'Neutral'),
+        'note' => "RSI " . number_format($rsi, 1) . ". 30 이하 과매도(강한 저점 신호), 70 이상 과매수(고점 경고). 중립 구간은 감점 최소(조용한 바닥도 매집 구간으로 인정)."];
 
-    // 거래량 가속도 — 15분봉 기준 (기존 일봉 기준은 최대 24시간 지연이 있었음 → 실시간성 개선)
+    // 거래량 가속도 (롱 축): 마름=중립 크레딧(5), 급증=가산 — 단 "저평가 구간의 급증"만
+    // 항복→반등으로 인정. 고평가(실현가 위) 구간의 급증은 FOMO(고점 신호)라 롱 가산 대상 아님.
+    // rp_gap<0(저평가)일수록 급증 가산 100%, rp_gap>0(고평가)면 급증 가산을 0까지 감쇠.
     $volR1h = $ind['fast_vol_ratio_1h'] ?? 1.0;
     $volR4h = $ind['fast_vol_ratio_4h'] ?? 1.0;
-    $volScore = max(lerpScore($volR1h, [[0.3, 2], [1.0, 4], [2.0, 6], [4.0, 8], [8.0, 10]]),
-                     lerpScore($volR4h, [[0.3, 2], [1.0, 4], [2.5, 6], [5.0, 8], [10.0, 10]]));
+    $volSpikeRaw = max(lerpScore($volR1h, [[0.2, 5], [0.5, 5], [1.0, 5.5], [2.0, 7], [4.0, 9], [8.0, 10]]),
+                        lerpScore($volR4h, [[0.2, 5], [0.5, 5], [1.0, 5.5], [2.5, 7], [5.0, 9], [10.0, 10]]));
+    // 밸류에이션 게이트: 저평가(-20%↓)면 급증 가산 그대로, 고평가(+20%↑)면 급증분 제거(5점=중립으로)
+    $valGate = max(0, min(1, (20 - $rp_gap) / 40)); // rp_gap -20%→1.0, +20%→0.0
+    $volScore = 5 + ($volSpikeRaw - 5) * $valGate; // 5(중립) 기준, 급증 초과분만 게이팅
     $s = round($volScore, 1);
     $det['vol_change'] = ['key' => 'vol_change', 'label' => 'Volume Acceleration (15m vs 1h/4h)', 'max' => 10, 'score' => $s,
         'value' => number_format($volR1h, 2) . 'x / ' . number_format($volR4h, 2) . 'x', 'unit' => '',
-        'target' => 'Volume spike near lows = capitulation-to-rebound signal',
-        'signal' => $volR1h >= 2.0 ? 'Volume Spike' : ($volR1h <= 0.5 ? 'Volume Dry-up' : 'Normal'),
-        'note' => "최근 15분봉 거래량이 직전 1시간 평균 대비 " . number_format($volR1h, 2) . "배, 4시간 평균 대비 " . number_format($volR4h, 2) . "배. 일봉 기준보다 지연이 훨씬 짧음(최대 15분~1시간)."];
+        'target' => 'Volume spike = capitulation-to-rebound bonus; dry-up = neutral (basing)',
+        'signal' => $volR1h >= 2.0 ? 'Volume Spike' : ($volR1h <= 0.5 ? 'Volume Dry-up (Basing)' : 'Normal'),
+        'note' => "최근 15분봉 거래량이 직전 1시간 대비 " . number_format($volR1h, 2) . "배, 4시간 대비 " . number_format($volR4h, 2) . "배. 급증은 항복→반등 가산 신호, 마름은 바닥 다지기로 중립 처리."];
 
     // 11. 매도 주도 거래량 — 캐피틀레이션(투항 매도) 탐지, 15분봉 기준 /10
     // 기존엔 일봉 기준이라 최대 24시간 지연됐음(어제 상황만 반영). 이제 가장 최근 마감된 15분봉으로
     // 판단해서 15분~1시간 단위로 갱신 — "지금 막 떨어지는" 상황도 거의 실시간으로 잡을 수 있음.
+    // 매도 주도 거래량 — 캐피틀레이션 (2026-07 관점B 재설계)
+    // 기존은 "투매(sell+급증+음봉)"일 때만 고득점, 조용하면 0점이라 조용한 저점에서 텅 빔.
+    // 이제: 중립 크레딧(4점) 기반 + 진짜 항복이면 가산(최대 10) + 매수광풍(급등 중 매수폭발)이면 감점.
+    // "지금 투매 중이면 저점 가산, 조용하면 중립, 과열 매수광풍이면 경고"
     $fastBuyRatio = $ind['fast_buy_ratio'] ?? 0.5;
     $fastIsRed = $ind['fast_is_red'] ?? false;
     $fastSellRatio = 1 - $fastBuyRatio;
-    $fastSpikeFactor = max(0, min(1, ($volR1h - 0.5) / 3.5)); // 0.5x~4x 구간을 0~1로 정규화
-    $fastBase = lerpScore($fastSellRatio, [[0.40, 1], [0.50, 4], [0.58, 7], [0.70, 10]]);
-    $s = round(min(10, $fastBase * (0.4 + 0.6 * $fastSpikeFactor) * ($fastIsRed ? 1.0 : 0.5)), 1);
+    $fastSpikeFactor = max(0, min(1, ($volR1h - 0.5) / 3.5)); // 0.5x~4x → 0~1
+    // 항복 가산분: 매도주도 + 거래량급증 + 음봉일수록 큼 (0~6점 가산)
+    $capBonus = lerpScore($fastSellRatio, [[0.45, 0], [0.55, 2], [0.62, 4], [0.72, 6]]) * $fastSpikeFactor * ($fastIsRed ? 1.0 : 0.5);
+    // 과열 감점분: 매수주도(매수폭발) + 급증 + 양봉이면 감점 (매수광풍=고점 경고)
+    $heatPenalty = lerpScore($fastBuyRatio, [[0.55, 0], [0.62, 1.5], [0.72, 3]]) * $fastSpikeFactor * ($fastIsRed ? 0.0 : 1.0);
+    $s = round(max(0, min(10, 4.0 + $capBonus - $heatPenalty)), 1); // 중립 기준 4점
+    $capSignal = $capBonus >= 3 ? 'Capitulation' : ($heatPenalty >= 2 ? 'Buying Frenzy (Caution)' : ($fastSellRatio >= 0.55 ? 'Mild Selling' : 'Quiet / Basing'));
     $det['sell_pressure'] = ['key' => 'sell_pressure', 'label' => 'Live Sell-Led Volume — Capitulation', 'max' => 10, 'score' => $s,
         'value' => number_format($fastSellRatio * 100, 1), 'unit' => '%',
-        'target' => 'Sell ratio ≥ 58% + volume spike + red candle (last 15m)',
-        'signal' => $s >= 7 ? 'Capitulation' : ($s >= 4 ? 'Mild Selling' : 'Buyer-led (Caution)'),
-        'note' => "최근 15분봉 매도 주도 거래량 " . number_format($fastSellRatio * 100, 1) . "%, " . ($fastIsRed ? '음봉(하락)' : '양봉(상승)') . ". 1시간 거래량 " . number_format($volR1h, 2) . "배. 일봉 대신 15분봉이라 거의 실시간 반영됨."];
+        'target' => 'Capitulation (sell+spike+red) = bonus; quiet = neutral; buying frenzy = penalty',
+        'signal' => $capSignal,
+        'note' => "최근 15분봉 매도 주도 " . number_format($fastSellRatio * 100, 1) . "%, " . ($fastIsRed ? '음봉' : '양봉') . ", 거래량 " . number_format($volR1h, 2) . "배. 투매(항복)면 가산, 조용하면 중립(4점), 매수광풍이면 감점."];
 
     if ($coin !== 'BTC') {
         $s = round(lerpScore($btcCorr, [[0, 5], [0.3, 5], [0.5, 4], [0.7, 3], [0.85, 2], [1.0, 1]]), 1);
@@ -265,17 +282,17 @@ function calcBuy(array $ind): array {
     $total_max = array_sum(array_column($det, 'max'));
     $final = min(10, round($raw / $total_max * 10, 1));
 
-    // 6단계 LONG 액션 (2026-07 재정의)
-    // 핵심 수정: 롱 점수가 낮다 = "매수 매력 약함"이지 "팔아라"가 아님.
-    // 예전엔 3.5 미만을 EXIT LONG(청산), 3.5~5를 SPLIT EXIT(정리)로 라벨해서,
-    // -64% 빠진 저평가 알트한테도 "팔아라"는 잘못된 신호가 나왔음(숏 점수도 낮은데 모순).
-    // → 매도/청산 지시는 숏 점수 몫으로 넘기고, 롱 점수 낮은 구간은 "관망/진입보류"로만.
+    // 6단계 LONG 액션 — 롱 하나의 축에서 완결 (진입 ↔ 익절)
+    // 롱 점수 = "롱 진입 매력 ↔ 롱 익절 신호"의 한 축. 숏과 무관하게 롱 안에서 판단.
+    //   높음 = 저평가+저점신호 → 매수 진입
+    //   중간 = 중립 → 관망(보유는 유지)
+    //   낮음 = 고평가+과열 → 보유분 분할 익절 → 익절/청산
     if ($final >= 8.0) { $action = 'FULL LONG'; $acolor = '#22c55e'; $actionDesc = '역대급 저점. 목표 비중 100% 전량 진입.'; }
     elseif ($final >= 7.0) { $action = 'ADD LONG'; $acolor = 'var(--green)'; $actionDesc = '강한 저점. 목표 비중 70~100% 확대.'; }
     elseif ($final >= 6.0) { $action = 'SPLIT LONG'; $acolor = 'var(--green2)'; $actionDesc = '분할 진입 시작. 목표 비중 30~50%.'; }
-    elseif ($final >= 4.5) { $action = 'WATCH'; $acolor = '#a3e635'; $actionDesc = '관찰 구간. 저점 신호(과매도·투매·거래량 급증) 대기.'; }
-    elseif ($final >= 3.0) { $action = 'NO ENTRY'; $acolor = 'var(--orange)'; $actionDesc = '신규 진입 보류. 매수 매력 약함(팔라는 뜻 아님 — 매도는 숏 점수 참고).'; }
-    else { $action = 'AVOID'; $acolor = 'var(--red)'; $actionDesc = '매수 부적합 구간. 신규 롱 진입 자제(청산 여부는 숏 점수로 판단).'; }
+    elseif ($final >= 4.5) { $action = 'HOLD'; $acolor = '#a3e635'; $actionDesc = '중립 관망. 보유는 유지, 신규 진입은 대기.'; }
+    elseif ($final >= 3.0) { $action = 'SPLIT EXIT'; $acolor = 'var(--orange)'; $actionDesc = '분할 익절. 고평가·과열 진행 → 보유분 일부 매도.'; }
+    else { $action = 'TAKE PROFIT'; $acolor = 'var(--red)'; $actionDesc = '익절/청산. 과열 정점권 → 롱 보유분 정리.'; }
 
     return [
         'final' => $final, 'raw' => $raw, 'max' => $total_max,
@@ -405,37 +422,50 @@ function calcSell(array $ind): array {
     // (volChgS는 더 이상 점수 계산에 안 쓰임 — 15분봉 기반 fast_vol_ratio로 대체됨)
     $btcCorrS = $ind['btc_corr_value'] ?? 0.7;
 
+    // RSI (숏, 2026-07 관점B 대칭): 과매수(≥70)=만점(고점 가산), 중립(45~60)=중립 크레딧,
+    // 과매도(≤30)=강한 감점(바닥이라 숏 위험). 롱과 대칭 — "안 과매도면 크게 안 깎음".
     $rsiMaxS = ($coin === 'BTC') ? 15 : 14;
-    $s = round(lerpScore($rsiS, [[15, 1], [30, 2], [45, 5], [55, 8], [65, 12], [75, 15], [90, 15]]) * ($rsiMaxS / 15), 1);
+    $s = round(lerpScore($rsiS, [[15, 0], [25, 1.5], [32, 3], [42, 5], [50, 6], [60, 8], [70, 12], [78, 15], [90, 15]]) * ($rsiMaxS / 15), 1);
     $det['rsi'] = ['key' => 'rsi', 'label' => 'RSI (14d)', 'max' => $rsiMaxS, 'score' => $s,
         'value' => number_format($rsiS, 1), 'unit' => '',
-        'target' => 'Overbought ≥ 70', 'signal' => $rsiS >= 70 ? 'Overbought (Top)' : ($rsiS <= 30 ? 'Oversold' : 'Neutral'),
-        'note' => "RSI " . number_format($rsiS, 1) . ". 70 이상 과매수(고점/숏 신호), 30 이하 과매도(저점)."];
+        'target' => 'Overbought ≥ 70 (bonus); not oversold', 'signal' => $rsiS >= 70 ? 'Overbought (Top)' : ($rsiS <= 30 ? 'Oversold' : 'Neutral'),
+        'note' => "RSI " . number_format($rsiS, 1) . ". 70 이상 과매수(강한 고점/숏 신호), 30 이하 과매도(바닥, 숏 위험). 중립은 감점 최소."];
 
-    // 거래량 가속도 — 15분봉 기준 (SHORT 관점에서도 동일하게 지연 개선)
+    // 거래량 가속도 (숏 축): 마름=중립 크레딧(5), 급증=가산 — 단 "고평가 구간의 급증"만
+    // 분산매도(distribution)로 인정. 저평가(실현가 아래) 구간의 급증은 항복 투매라 숏 가산 대상 아님.
     $volR1hS = $ind['fast_vol_ratio_1h'] ?? 1.0;
     $volR4hS = $ind['fast_vol_ratio_4h'] ?? 1.0;
-    $volScoreS = max(lerpScore($volR1hS, [[0.3, 2], [1.0, 4], [2.0, 6], [4.0, 8], [8.0, 10]]),
-                      lerpScore($volR4hS, [[0.3, 2], [1.0, 4], [2.5, 6], [5.0, 8], [10.0, 10]]));
+    $volSpikeRawS = max(lerpScore($volR1hS, [[0.2, 5], [0.5, 5], [1.0, 5.5], [2.0, 7], [4.0, 9], [8.0, 10]]),
+                        lerpScore($volR4hS, [[0.2, 5], [0.5, 5], [1.0, 5.5], [2.5, 7], [5.0, 9], [10.0, 10]]));
+    // 밸류에이션 게이트(숏은 롱의 반대): 고평가(+20%↑)면 급증 가산 그대로, 저평가(-20%↓)면 급증분 제거
+    $rp_gap_forGate = ($realized_price > 0) ? (($price - $realized_price) / $realized_price * 100) : 0;
+    $valGateS = max(0, min(1, ($rp_gap_forGate + 20) / 40)); // +20%→1.0, -20%→0.0
+    $volScoreS = 5 + ($volSpikeRawS - 5) * $valGateS;
     $s = round($volScoreS, 1);
     $det['vol_change'] = ['key' => 'vol_change', 'label' => 'Volume Acceleration (15m vs 1h/4h)', 'max' => 10, 'score' => $s,
         'value' => number_format($volR1hS, 2) . 'x / ' . number_format($volR4hS, 2) . 'x', 'unit' => '',
-        'target' => 'Volume spike near highs = distribution (selling) signal',
+        'target' => 'Volume spike near highs = distribution bonus; dry-up = neutral',
         'signal' => $volR1hS >= 2.0 ? 'Volume Spike' : ($volR1hS <= 0.5 ? 'Volume Dry-up' : 'Normal'),
-        'note' => "최근 15분봉 거래량이 직전 1시간 평균 대비 " . number_format($volR1hS, 2) . "배, 4시간 평균 대비 " . number_format($volR4hS, 2) . "배. 일봉 기준보다 지연이 훨씬 짧음(최대 15분~1시간)."];
+        'note' => "최근 15분봉 거래량이 직전 1시간 대비 " . number_format($volR1hS, 2) . "배, 4시간 대비 " . number_format($volR4hS, 2) . "배. 급증은 분산매도 가산, 마름은 중립 처리."];
 
-    // 매수 주도 거래량 — 과열/FOMO 탐지, 15분봉 기준 /10
-    // 기존엔 일봉 기준이라 최대 24시간 지연됐음. 이제 최근 15분봉으로 거의 실시간 반영.
+    // 매수 주도 거래량 — FOMO/과열 (숏, 관점B 대칭)
+    // 중립 크레딧 4점 + 진짜 FOMO(매수+급증+양봉)=가산 + 투매(매도폭발=바닥)=감점.
+    // "지금 매수광풍이면 숏 가산, 조용하면 중립, 투매 중이면 숏 위험(감점)"
     $fastBuyRatioS = $ind['fast_buy_ratio'] ?? 0.5;
     $fastIsRedS = $ind['fast_is_red'] ?? false;
+    $fastSellRatioS = 1 - $fastBuyRatioS;
     $fastSpikeFactorS = max(0, min(1, ($volR1hS - 0.5) / 3.5));
-    $fastBaseS = lerpScore($fastBuyRatioS, [[0.50, 1], [0.58, 4], [0.65, 7], [0.75, 10]]);
-    $s = round(min(10, $fastBaseS * (0.4 + 0.6 * $fastSpikeFactorS) * ($fastIsRedS ? 0.5 : 1.0)), 1);
+    // FOMO 가산분: 매수주도 + 급증 + 양봉일수록 큼 (0~6)
+    $fomoBonus = lerpScore($fastBuyRatioS, [[0.55, 0], [0.62, 2], [0.68, 4], [0.75, 6]]) * $fastSpikeFactorS * ($fastIsRedS ? 0.5 : 1.0);
+    // 투매 감점분: 매도주도 + 급증 + 음봉이면 감점 (바닥 항복=숏 위험)
+    $capPenaltyS = lerpScore($fastSellRatioS, [[0.55, 0], [0.62, 1.5], [0.72, 3]]) * $fastSpikeFactorS * ($fastIsRedS ? 1.0 : 0.0);
+    $s = round(max(0, min(10, 4.0 + $fomoBonus - $capPenaltyS)), 1);
+    $fomoSignal = $fomoBonus >= 3 ? 'FOMO Buying' : ($capPenaltyS >= 2 ? 'Capitulation (Short Risk)' : ($fastBuyRatioS >= 0.55 ? 'Mild Buying' : 'Quiet'));
     $det['buy_pressure'] = ['key' => 'buy_pressure', 'label' => 'Live Buy-Led Volume — FOMO/Overheat', 'max' => 10, 'score' => $s,
         'value' => number_format($fastBuyRatioS * 100, 1), 'unit' => '%',
-        'target' => 'Buy ratio ≥ 65% + volume spike + green candle (last 15m)',
-        'signal' => $s >= 7 ? 'FOMO Buying' : ($s >= 4 ? 'Mild Buying' : 'Seller-led (Safe)'),
-        'note' => "최근 15분봉 매수 주도 거래량 " . number_format($fastBuyRatioS * 100, 1) . "%, " . ($fastIsRedS ? '음봉(하락)' : '양봉(상승)') . ". 1시간 거래량 " . number_format($volR1hS, 2) . "배. 일봉 대신 15분봉이라 거의 실시간 반영됨."];
+        'target' => 'FOMO (buy+spike+green) = bonus; quiet = neutral; capitulation = penalty',
+        'signal' => $fomoSignal,
+        'note' => "최근 15분봉 매수 주도 " . number_format($fastBuyRatioS * 100, 1) . "%, " . ($fastIsRedS ? '음봉' : '양봉') . ", 거래량 " . number_format($volR1hS, 2) . "배. FOMO면 가산, 조용하면 중립(4점), 투매(바닥)면 감점."];
 
     if ($coin !== 'BTC') {
         // SHORT 관점에서는 BTC와 상관계수가 높을수록(=BTC 약세를 그대로 따라갈 가능성) 유리하므로
