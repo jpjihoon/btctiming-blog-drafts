@@ -410,5 +410,25 @@
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR unter 1</a>:</strong> Bestätigen, ob auch Panikverkäufe kurzfristiger Halter stattfinden</li>
     <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier unter 20</a>:</strong> Prüfen, ob Sentiment und On-Chain-Kapitulationssignale übereinstimmen</li>
   </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si la capitulation des mineurs se termine en même temps que celle du marché</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR sous 1</a> :</strong> Confirmer que la vente panique des détenteurs de court terme se produit aussi</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur &amp; Cupidité sous 20</a> :</strong> Vérifier si le sentiment et les signaux de capitulation on-chain concordent</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação dos mineradores termina junto com a capitulação do mercado</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR abaixo de 1</a>:</strong> Confirmar se também está ocorrendo venda em pânico de detentores de curto prazo</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância abaixo de 20</a>:</strong> Verificar se o sentimento e os sinais de capitulação on-chain estão alinhados</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci kapitülasyonunun piyasa kapitülasyonuyla birlikte sona erip ermediğini kontrol edin</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 1'in altında</a>:</strong> Kısa vadeli yatırımcı panik satışının da gerçekleşip gerçekleşmediğini doğrulayın</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Korku &amp; Açgözlülük Endeksi 20'nin altında</a>:</strong> Piyasa duyarlılığı ile zincir üstü kapitülasyon sinyallerinin örtüşüp örtüşmediğini kontrol edin</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon cắt lên phục hồi</a>:</strong> Kiểm tra xem sự đầu hàng của thợ đào có kết thúc cùng lúc với sự đầu hàng của thị trường không</li>
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR dưới 1</a>:</strong> Xác nhận liệu có xảy ra bán tháo hoảng loạn của người nắm giữ ngắn hạn hay không</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam dưới 20</a>:</strong> Kiểm tra xem tín hiệu tâm lý thị trường và tín hiệu đầu hàng on-chain có đồng nhất không</li>
+  </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
