@@ -118,6 +118,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en Garde Importantes</h2>
+  <h2 class="pt">Advertências Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>모든 고점을 포착하지는 못함.</strong> 2021년처럼 이중 고점(더블 탑) 사이클에서는 첫 번째 국소 고점만 잡을 수 있습니다.</li>
     <li><strong>신호가 매우 드물게 발생.</strong> 사이클당 1회 정도만 발생하는 지표라 확인 즉시 대응이 중요합니다.</li>
@@ -143,12 +147,36 @@
     <li><strong>Signale sind sehr selten.</strong> Es tritt etwa einmal pro Zyklus auf, daher ist schnelles Handeln bei Erscheinen wichtig.</li>
     <li><strong>Basiert auf vergangenen Zyklen.</strong> Es gibt keine Garantie, dass sich dasselbe Muster in Zukunft wiederholt.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Ne capte pas tous les sommets.</strong> Dans les cycles à double sommet comme 2021, il peut ne capter que le premier pic local.</li>
+    <li><strong>Les signaux sont très rares.</strong> Il se déclenche environ une fois par cycle, il est donc important d'agir rapidement dès son apparition.</li>
+    <li><strong>Basé sur les cycles passés.</strong> Rien ne garantit que le même schéma se reproduira à l'avenir.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Não captura todos os topos.</strong> Em ciclos de topo duplo como 2021, pode captar apenas o primeiro pico local.</li>
+    <li><strong>Os sinais são muito raros.</strong> Ocorre aproximadamente uma vez por ciclo, por isso agir rapidamente quando aparece é importante.</li>
+    <li><strong>Baseado em ciclos passados.</strong> Não há garantia de que o mesmo padrão se repita no futuro.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Her zirveyi yakalamaz.</strong> 2021 gibi çift tepe döngülerinde yalnızca ilk yerel zirveyi yakalayabilir.</li>
+    <li><strong>Sinyaller çok nadirdir.</strong> Döngü başına yaklaşık bir kez tetiklenir, bu yüzden ortaya çıktığında hızlı hareket etmek önemlidir.</li>
+    <li><strong>Geçmiş döngülere dayanır.</strong> Aynı düzenin gelecekte tekrarlanacağının garantisi yoktur.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Không bắt được mọi đỉnh.</strong> Trong các chu kỳ đỉnh đôi như 2021, chỉ báo này có thể chỉ bắt được đỉnh cục bộ đầu tiên.</li>
+    <li><strong>Tín hiệu rất hiếm khi xuất hiện.</strong> Nó chỉ kích hoạt khoảng một lần mỗi chu kỳ, vì vậy hành động kịp thời khi tín hiệu xuất hiện là điều quan trọng.</li>
+    <li><strong>Dựa trên các chu kỳ trong quá khứ.</strong> Không có gì đảm bảo rằng cùng một mô hình sẽ lặp lại trong tương lai.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal en Combinaison Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Kombinasyon</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 3.5 이상</a>:</strong> 밸류에이션 과열과 겹치는지 확인</li>
     <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 80 이상</a>:</strong> 극단적 탐욕과 함께 나타나는지 확인</li>
@@ -168,6 +196,22 @@
   <ul class="de">
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score über 3,5</a>:</strong> Prüfen, ob Bewertungsüberhitzung ebenfalls vorliegt</li>
     <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier über 80</a>:</strong> Prüfen, ob extreme Gier gleichzeitig auftritt</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score au-dessus de 3,5</a> :</strong> Vérifier si une surchauffe de valorisation coïncide également</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Indice Peur &amp; Cupidité au-dessus de 80</a> :</strong> Vérifier si une cupidité extrême apparaît en même temps</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score acima de 3,5</a>:</strong> Verificar se o sobreaquecimento de valuation também coincide</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Medo e Ganância acima de 80</a>:</strong> Verificar se a ganância extrema aparece junto</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 3,5 üzerinde</a>:</strong> Değerleme aşırı ısınmasının da eşlik edip etmediğini kontrol edin</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Korku ve Açgözlülük 80 üzerinde</a>:</strong> Aşırı açgözlülüğün birlikte görünüp görünmediğini kontrol edin</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score trên 3,5</a>:</strong> Kiểm tra xem có đi kèm hiện tượng định giá quá nóng hay không</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam trên 80</a>:</strong> Kiểm tra xem có xuất hiện cùng lúc với sự tham lam cực độ hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

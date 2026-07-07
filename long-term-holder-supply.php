@@ -77,11 +77,19 @@
     <div class="rt ja">長期保有者の利益確定が集中し、LTH供給比率がサイクル最低水準まで下落。</div>
     <div class="rt es">Una ola de toma de ganancias de tenedores a largo plazo hizo caer el suministro LTH a un nivel mínimo del ciclo.</div>
     <div class="rt de">Eine Welle von Gewinnmitnahmen langfristiger Halter ließ das LTH-Angebot auf ein Zyklustief fallen.</div>
+    <div class="rt fr">Une vague de prises de bénéfices des détenteurs à long terme a fait chuter l'offre LTH à un niveau bas du cycle.</div>
+    <div class="rt pt">Uma onda de realização de lucros por detentores de longo prazo derrubou a oferta LTH para um nível mínimo do ciclo.</div>
+    <div class="rt tr">Uzun vadeli sahiplerin kâr realizasyonu dalgası, LTH arzını döngünün en düşük seviyesine düşürdü.</div>
+    <div class="rt vi">Một làn sóng chốt lời của người nắm giữ dài hạn đã khiến nguồn cung LTH giảm xuống mức thấp nhất của chu kỳ.</div>
     <div class="rr ko">→ 이후 2022년 -77% 조정</div>
     <div class="rr en">→ Followed by a -77% correction in 2022</div>
     <div class="rr ja">→ その後2022年に-77%の調整</div>
     <div class="rr es">→ Seguido por una corrección de -77% en 2022</div>
     <div class="rr de">→ Gefolgt von einer Korrektur von -77% im Jahr 2022</div>
+    <div class="rr fr">→ Suivi d'une correction de -77 % en 2022</div>
+    <div class="rr pt">→ Seguido por uma correção de -77% em 2022</div>
+    <div class="rr tr">→ 2022'de -%77'lik bir düzeltme izledi</div>
+    <div class="rr vi">→ Theo sau là một đợt điều chỉnh -77% vào năm 2022</div>
   </div>
   <div class="rc">
     <div class="rd">2023 ~ 2024 (재축적기)</div>
@@ -90,11 +98,19 @@
     <div class="rt ja">弱気相場の底値を過ぎてLTH供給比率が再び上昇に転じ、ETF承認まで蓄積が継続。</div>
     <div class="rt es">El suministro LTH volvió a subir tras el suelo del mercado bajista, con acumulación continuando hasta la aprobación del ETF.</div>
     <div class="rt de">Das LTH-Angebot stieg nach dem Bärenmarkttief erneut an, wobei die Akkumulation bis zur ETF-Genehmigung anhielt.</div>
+    <div class="rt fr">L'offre LTH est repartie à la hausse après le point bas du marché baissier, l'accumulation se poursuivant jusqu'à l'approbation de l'ETF.</div>
+    <div class="rt pt">A oferta LTH voltou a subir após o fundo do mercado em baixa, com a acumulação continuando até a aprovação do ETF.</div>
+    <div class="rt tr">LTH arzı, ayı piyasası dibinden sonra tekrar yükseldi ve birikim ETF onayına kadar devam etti.</div>
+    <div class="rt vi">Nguồn cung LTH tăng trở lại sau khi thị trường giá xuống chạm đáy, quá trình tích lũy tiếp tục cho đến khi ETF được phê duyệt.</div>
     <div class="rr ko">→ 2024~2025년 신고가 경신으로 이어짐</div>
     <div class="rr en">→ Preceded new all-time highs in 2024–2025</div>
     <div class="rr ja">→ 2024〜2025年の史上最高値更新につながった</div>
     <div class="rr es">→ Ging neuen Allzeithochs 2024-2025 voraus</div>
     <div class="rr de">→ Precedió nuevos máximos históricos en 2024-2025</div>
+    <div class="rr fr">→ A précédé de nouveaux sommets historiques en 2024-2025</div>
+    <div class="rr pt">→ Precedeu novas máximas históricas em 2024-2025</div>
+    <div class="rr tr">→ 2024-2025'te yeni tüm zamanların en yüksek seviyelerinden önce geldi</div>
+    <div class="rr vi">→ Diễn ra trước khi đạt các mức đỉnh lịch sử mới vào năm 2024-2025</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -102,6 +118,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises En Garde Importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>후행 지표.</strong> 155일 기준 자체가 과거 데이터를 봐야 확정되므로 실시간 반응이 느립니다.</li>
     <li><strong>분실된 코인 포함 가능.</strong> 개인키를 잃어버린 "죽은 코인"도 장기 보유로 잡혀 왜곡을 줄 수 있습니다.</li>
@@ -122,12 +142,32 @@
     <li><strong>Ein nachlaufender Indikator.</strong> Die 155-Tage-Schwelle selbst erfordert historische Daten und reagiert daher langsam in Echtzeit.</li>
     <li><strong>Kann verlorene Münzen einschließen.</strong> "Tote Münzen" mit verlorenen privaten Schlüsseln zählen ebenfalls als langfristig gehalten, was die Messung verzerren kann.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Un indicateur retardé.</strong> Le seuil de 155 jours lui-même nécessite des données historiques, il réagit donc lentement en temps réel.</li>
+    <li><strong>Peut inclure des pièces perdues.</strong> Les « pièces mortes » dont les clés privées sont perdues comptent également comme détention à long terme, ce qui peut fausser la lecture.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Um indicador defasado.</strong> O próprio limite de 155 dias requer dados históricos, por isso reage lentamente em tempo real.</li>
+    <li><strong>Pode incluir moedas perdidas.</strong> As "moedas mortas", com chaves privadas perdidas, também contam como retidas a longo prazo, o que pode distorcer a leitura.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Gecikmeli bir gösterge.</strong> 155 günlük eşiğin kendisi geçmiş verilere ihtiyaç duyduğundan, gerçek zamanlı olarak yavaş tepki verir.</li>
+    <li><strong>Kaybolmuş paraları içerebilir.</strong> Özel anahtarları kaybolmuş "ölü paralar" da uzun vadeli tutulmuş olarak sayılır, bu da okumayı çarpıtabilir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Một chỉ báo trễ.</strong> Bản thân ngưỡng 155 ngày cần dữ liệu lịch sử, nên nó phản ứng chậm trong thời gian thực.</li>
+    <li><strong>Có thể bao gồm coin đã mất.</strong> Những "đồng coin đã chết" với khóa riêng tư bị mất cũng được tính là nắm giữ dài hạn, điều này có thể làm sai lệch số liệu.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Meilleure Combinaison Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Kombinasyon</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 단기 보유자 행동과 대비해 시장 구조를 파악</li>
     <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> 시장 전체 심리 단계와 LTH 축적/분산 국면을 함께 확인</li>
@@ -147,6 +187,22 @@
   <ul class="de">
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Vergleich mit dem Verhalten kurzfristiger Halter zur Einschätzung der Marktstruktur</li>
     <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Abgleich der allgemeinen Sentiment-Phase mit LTH-Akkumulations-/Distributionsphasen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Comparer avec le comportement des détenteurs à court terme pour lire la structure du marché</li>
+    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Croiser l'étape de sentiment global avec les phases d'accumulation/distribution du LTH</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Comparar com o comportamento dos detentores de curto prazo para interpretar a estrutura do mercado</li>
+    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Verificar cruzadamente o estágio geral de sentimento com as fases de acumulação/distribuição do LTH</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Piyasa yapısını okumak için kısa vadeli sahip davranışıyla karşılaştırın</li>
+    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Genel duyarlılık aşamasını LTH birikim/dağıtım evreleriyle çapraz kontrol edin</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> So sánh với hành vi của người nắm giữ ngắn hạn để đọc cấu trúc thị trường</li>
+    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Đối chiếu giai đoạn tâm lý chung với các pha tích lũy/phân phối của LTH</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

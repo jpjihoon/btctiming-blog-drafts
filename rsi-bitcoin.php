@@ -146,12 +146,32 @@
     <li><strong>Überkaufte Bedingungen können in Bullenmärkten anhalten.</strong> RSI über 70 als sofortiges Verkaufssignal zu behandeln kann bedeuten, große Gewinne zu verpassen.</li>
     <li><strong>Signale unterscheiden sich je nach Zeitrahmen.</strong> Täglicher und wöchentlicher RSI können in unterschiedliche Richtungen zeigen und sollten zusammen geprüft werden.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Les conditions de surachat peuvent persister dans les marchés haussiers.</strong> Considérer un RSI supérieur à 70 comme un signal de vente immédiat peut faire manquer d'importants gains.</li>
+    <li><strong>Les signaux diffèrent selon l'horizon temporel.</strong> Le RSI journalier et hebdomadaire peuvent indiquer des directions différentes et doivent être examinés ensemble.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Condições de sobrecompra podem persistir em mercados em alta.</strong> Tratar um RSI acima de 70 como um sinal de venda imediato pode significar perder grandes ganhos.</li>
+    <li><strong>Os sinais diferem conforme o período de tempo.</strong> O RSI diário e semanal podem apontar em direções diferentes e devem ser verificados em conjunto.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Aşırı alım koşulları boğa piyasalarında uzun süre devam edebilir.</strong> RSI'nin 70'in üzerinde olmasını hemen satış sinyali olarak değerlendirmek büyük kazançların kaçırılmasına neden olabilir.</li>
+    <li><strong>Sinyaller zaman dilimine göre farklılık gösterir.</strong> Günlük ve haftalık RSI farklı yönleri işaret edebilir ve birlikte incelenmelidir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Tình trạng quá mua có thể kéo dài trong thị trường tăng giá.</strong> Coi RSI trên 70 là tín hiệu bán ngay lập tức có thể khiến bạn bỏ lỡ những khoản lợi nhuận lớn.</li>
+    <li><strong>Tín hiệu khác nhau tùy theo khung thời gian.</strong> RSI theo ngày và theo tuần có thể chỉ ra các hướng khác nhau và cần được xem xét cùng nhau.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">À Combiner Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">Birlikte En İyi Kullanılanlar</h2>
+  <h2 class="vi">Kết hợp Tốt nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 심리 지표와 함께 확인해 신뢰도 상승</li>
     <li><strong><a href="/blog/200-week-moving-average.html">200주 이동평균선</a>:</strong> 장기 추세 안에서 RSI 신호를 해석</li>
@@ -171,6 +191,22 @@
   <ul class="de">
     <li><strong><a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a>:</strong> Abgleich mit Sentiment für zusätzliche Zuversicht</li>
     <li><strong><a href="/blog/200-week-moving-average.html">200-Wochen-MA</a>:</strong> RSI-Signale innerhalb des breiteren langfristigen Trends interpretieren</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur et d'Avidité</a>:</strong> Recouper avec le sentiment du marché pour plus de fiabilité</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">MA 200 Semaines</a>:</strong> Interpréter les signaux du RSI dans le cadre de la tendance de long terme</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a>:</strong> Cruzar com o sentimento de mercado para maior confiança</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">MA de 200 Semanas</a>:</strong> Interpretar os sinais do RSI dentro da tendência de longo prazo</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/fear-greed-index.html">Korku ve Açgözlülük Endeksi</a>:</strong> Ek güven için piyasa duyarlılığıyla çapraz kontrol edin</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">200 Haftalık MA</a>:</strong> RSI sinyallerini daha geniş uzun vadeli trend içinde yorumlayın</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi và Tham lam</a>:</strong> Đối chiếu với tâm lý thị trường để tăng độ tin cậy</li>
+    <li><strong><a href="/blog/200-week-moving-average.html">MA 200 Tuần</a>:</strong> Diễn giải tín hiệu RSI trong bối cảnh xu hướng dài hạn rộng hơn</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

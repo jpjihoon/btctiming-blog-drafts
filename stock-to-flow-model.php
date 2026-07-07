@@ -6,33 +6,57 @@
 
   <p class="es">En 2019, un artículo de una cuenta anónima de Twitter llamada "PlanB" puso patas arriba a la comunidad de Bitcoin. La afirmación: se podía predecir el precio futuro únicamente a partir de la estructura de escasez impulsada por el halving. Esto es el <strong>modelo Stock-to-Flow (S2F)</strong>. Por un tiempo, fue inquietantemente preciso. Luego estuvo completamente equivocado. Ambas cosas son ciertas.</p>
   <p class="de">2019 stellte ein Papier von einem anonymen Twitter-Konto namens "PlanB" die Bitcoin-Community auf den Kopf. Die Behauptung: Man könnte den zukünftigen Preis rein aus der durch das Halving getriebenen Knappheitsstruktur vorhersagen. Dies ist das <strong>Stock-to-Flow-(S2F)-Modell</strong>. Eine Zeit lang war es unheimlich genau. Dann lag es völlig falsch. Beides ist wahr.</p>
+  <p class="fr">En 2019, un article publié par un compte Twitter anonyme nommé "PlanB" a bouleversé la communauté Bitcoin. L'affirmation : on pouvait prédire le prix futur uniquement à partir de la structure de rareté dictée par le halving. C'est le <strong>modèle Stock-to-Flow (S2F)</strong>. Pendant un temps, il fut d'une précision troublante. Puis il s'est complètement trompé. Ces deux affirmations sont vraies.</p>
+  <p class="pt">Em 2019, um artigo de uma conta anônima do Twitter chamada "PlanB" virou a comunidade Bitcoin de cabeça para baixo. A afirmação: seria possível prever o preço futuro apenas a partir da estrutura de escassez ditada pelo halving. Este é o <strong>modelo Stock-to-Flow (S2F)</strong>. Por um tempo, foi assustadoramente preciso. Depois, ficou completamente errado. As duas coisas são verdadeiras.</p>
+  <p class="tr">2019 yılında, "PlanB" adlı anonim bir Twitter hesabından yayımlanan bir makale Bitcoin topluluğunu alt üst etti. İddia şuydu: gelecekteki fiyat, yalnızca yarılanmanın yönlendirdiği kıtlık yapısından tahmin edilebilirdi. Bu, <strong>Stock-to-Flow (S2F) modeli</strong>dir. Bir süre ürkütücü derecede isabetliydi. Sonra tamamen yanıldı. İkisi de doğru.</p>
+  <p class="vi">Năm 2019, một bài viết từ một tài khoản Twitter ẩn danh có tên "PlanB" đã làm đảo lộn cộng đồng Bitcoin. Tuyên bố: có thể dự đoán giá tương lai chỉ dựa vào cấu trúc khan hiếm do halving tạo ra. Đây chính là <strong>mô hình Stock-to-Flow (S2F)</strong>. Trong một thời gian, nó chính xác đến mức đáng sợ. Sau đó, nó hoàn toàn sai. Cả hai điều đó đều đúng.</p>
 
   <h2 class="ko">모델 자체는 단순하다</h2>
   <h2 class="en">The model itself is simple</h2>
   <h2 class="ja">モデル自体はシンプル</h2>
   <h2 class="es">El modelo en sí es simple</h2>
   <h2 class="de">Das Modell selbst ist einfach</h2>
+  <h2 class="fr">Le modèle en lui-même est simple</h2>
+  <h2 class="pt">O modelo em si é simples</h2>
+  <h2 class="tr">Modelin kendisi basit</h2>
+  <h2 class="vi">Bản thân mô hình này rất đơn giản</h2>
   <p class="ko">Stock-to-Flow는 원래 금이나 은 같은 귀금속의 희소성을 측정하던 지표예요. 계산법은 이렇습니다.</p>
   <p class="en">Stock-to-Flow originally measured scarcity for precious metals like gold and silver. The formula:</p>
   <p class="ja">Stock-to-Flowはもともと金や銀のような貴金属の希少性を測定していた指標です。計算方法は以下の通りです。</p>
   <p class="es">Stock-to-Flow medía originalmente la escasez de metales preciosos como el oro y la plata. La fórmula:</p>
   <p class="de">Stock-to-Flow maß ursprünglich die Knappheit von Edelmetallen wie Gold und Silber. Die Formel:</p>
+  <p class="fr">Le Stock-to-Flow mesurait à l'origine la rareté des métaux précieux comme l'or et l'argent. La formule :</p>
+  <p class="pt">O Stock-to-Flow originalmente media a escassez de metais preciosos como o ouro e a prata. A fórmula:</p>
+  <p class="tr">Stock-to-Flow başlangıçta altın ve gümüş gibi değerli metallerin kıtlığını ölçmek için kullanılıyordu. Formül şu şekilde:</p>
+  <p class="vi">Stock-to-Flow ban đầu được dùng để đo độ khan hiếm của các kim loại quý như vàng và bạc. Công thức như sau:</p>
   <div class="box ko"><strong>S2F = 현재까지 채굴된 총량(Stock) ÷ 연간 신규 채굴량(Flow)</strong><br>숫자가 클수록 "이미 있는 양 대비 새로 생기는 양이 적다" = 희소하다는 뜻</div>
   <div class="box en"><strong>S2F = Total existing supply (Stock) ÷ Annual new production (Flow)</strong><br>A higher number means "less new supply relative to what already exists" — i.e., more scarce</div>
   <div class="box ja"><strong>S2F = 現在までに採掘された総量(Stock) ÷ 年間新規採掘量(Flow)</strong><br>数字が大きいほど「既存量に対して新たに生まれる量が少ない」= 希少であることを意味する</div>
   <div class="box es"><strong>S2F = Suministro total existente (Stock) ÷ Producción anual nueva (Flow)</strong><br>Un número más alto significa "menos suministro nuevo relativo al existente" — es decir, más escaso</div>
   <div class="box de"><strong>S2F = Gesamtes bestehendes Angebot (Stock) ÷ Jährliche Neuproduktion (Flow)</strong><br>Eine höhere Zahl bedeutet "weniger neues Angebot relativ zum bestehenden" — also knapper</div>
+  <div class="box fr"><strong>S2F = Offre totale existante (Stock) ÷ Production annuelle nouvelle (Flow)</strong><br>Un chiffre plus élevé signifie "moins de nouvelle offre par rapport à ce qui existe déjà" — c'est-à-dire plus rare</div>
+  <div class="box pt"><strong>S2F = Oferta total existente (Stock) ÷ Produção anual nova (Flow)</strong><br>Um número mais alto significa "menos oferta nova em relação ao que já existe" — ou seja, mais escasso</div>
+  <div class="box tr"><strong>S2F = Mevcut toplam arz (Stock) ÷ Yıllık yeni üretim (Flow)</strong><br>Daha yüksek bir sayı, "mevcut olana kıyasla daha az yeni arz" anlamına gelir — yani daha kıt</div>
+  <div class="box vi"><strong>S2F = Tổng nguồn cung hiện có (Stock) ÷ Sản lượng mới hàng năm (Flow)</strong><br>Con số càng cao nghĩa là "nguồn cung mới càng ít so với những gì đã tồn tại" — tức là càng khan hiếm</div>
   <p class="ko">비트코인은 4년마다 반감기로 Flow(신규 발행량)가 정확히 절반이 되니까, S2F 값이 계단식으로 두 배씩 뛰어요. PlanB는 이 S2F 값과 과거 가격 데이터를 로그 스케일로 회귀분석해서, "S2F가 이만큼이면 가격은 이 정도여야 한다"는 공식을 뽑아냈습니다.</p>
   <p class="en">Bitcoin's halving cuts Flow (new issuance) exactly in half every 4 years, so S2F jumps in step-function doublings. PlanB ran a log-scale regression between this S2F value and historical price, producing a formula: "at this S2F level, price should be roughly this."</p>
   <p class="ja">ビットコインは4年ごとの半減期でFlow(新規発行量)がちょうど半分になるため、S2F値は階段状に2倍ずつ跳ね上がります。PlanBはこのS2F値と過去の価格データをログスケールで回帰分析し、「S2Fがこの値なら価格はこの程度であるべき」という公式を導き出しました。</p>
   <p class="es">El halving de Bitcoin corta Flow (nueva emisión) exactamente a la mitad cada 4 años, por lo que S2F salta en duplicaciones escalonadas. PlanB ejecutó una regresión logarítmica entre este valor S2F y el precio histórico, produciendo una fórmula: "a este nivel de S2F, el precio debería ser aproximadamente este."</p>
   <p class="de">Bitcoins Halving halbiert Flow (Neuemission) alle 4 Jahre exakt, sodass S2F in stufenweisen Verdopplungen springt. PlanB führte eine logarithmische Regression zwischen diesem S2F-Wert und dem historischen Preis durch und erstellte eine Formel: "bei diesem S2F-Niveau sollte der Preis etwa so sein."</p>
+  <p class="fr">Le halving de Bitcoin réduit exactement de moitié le Flow (nouvelle émission) tous les 4 ans, ce qui fait bondir le S2F par doublements en escalier. PlanB a effectué une régression logarithmique entre cette valeur S2F et le prix historique, produisant une formule : "à ce niveau de S2F, le prix devrait être approximativement celui-ci."</p>
+  <p class="pt">O halving do Bitcoin corta o Flow (nova emissão) exatamente pela metade a cada 4 anos, fazendo o S2F saltar em duplicações escalonadas. PlanB executou uma regressão em escala logarítmica entre esse valor de S2F e o preço histórico, produzindo uma fórmula: "neste nível de S2F, o preço deveria ser aproximadamente este."</p>
+  <p class="tr">Bitcoin'in yarılanması, Flow'u (yeni arzı) her 4 yılda bir tam olarak yarıya indirir, bu yüzden S2F basamaklı ikiye katlamalarla sıçrar. PlanB, bu S2F değeri ile geçmiş fiyat arasında logaritmik ölçekli bir regresyon yaptı ve şu formülü ortaya çıkardı: "bu S2F seviyesinde fiyat yaklaşık şu kadar olmalı."</p>
+  <p class="vi">Việc halving của Bitcoin cắt giảm chính xác một nửa Flow (lượng phát hành mới) mỗi 4 năm, khiến S2F tăng vọt theo từng bậc gấp đôi. PlanB đã chạy một phép hồi quy theo thang logarit giữa giá trị S2F này và giá lịch sử, tạo ra một công thức: "ở mức S2F này, giá nên xấp xỉ mức này."</p>
 
   <h2 class="ko">그래프로 그려보면 이렇게 생겼다</h2>
   <h2 class="en">Here's what it looks like plotted out</h2>
   <h2 class="ja">グラフに描くとこうなる</h2>
   <h2 class="es">Así es como se ve graficado</h2>
   <h2 class="de">So sieht es grafisch dargestellt aus</h2>
+  <h2 class="fr">Voici à quoi cela ressemble une fois représenté graphiquement</h2>
+  <h2 class="pt">Veja como isso fica quando representado em um gráfico</h2>
+  <h2 class="tr">Grafiğe döküldüğünde şöyle görünüyor</h2>
+  <h2 class="vi">Đây là hình dạng của nó khi được vẽ thành biểu đồ</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">

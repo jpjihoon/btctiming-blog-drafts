@@ -6,18 +6,30 @@
 
   <p class="es">¿Qué pasaría si pudieras ver la ganancia o pérdida no realizada de <strong>todo el mercado</strong> como un solo número, no solo de un tenedor? <strong>NUPL (Net Unrealized Profit/Loss)</strong> hace exactamente eso, dividiendo la psicología del mercado en 5 zonas desde la capitulación hasta la euforia.</p>
   <p class="de">Was wäre, wenn Sie den nicht realisierten Gewinn oder Verlust des <strong>gesamten Marktes</strong> als eine einzige Zahl sehen könnten — nicht nur eines Halters? <strong>NUPL (Net Unrealized Profit/Loss)</strong> tut genau das und teilt die Marktpsychologie in 5 Zonen von Kapitulation bis Euphorie ein.</p>
+  <p class="fr">Et si vous pouviez voir le profit ou la perte non réalisé de <strong>l'ensemble du marché</strong> sous la forme d'un seul chiffre — pas seulement celui d'un détenteur ? <strong>NUPL (Net Unrealized Profit/Loss)</strong> fait exactement cela, en divisant la psychologie du marché en 5 zones, de la capitulation à l'euphorie.</p>
+  <p class="pt">E se você pudesse ver o lucro ou prejuízo não realizado de <strong>todo o mercado</strong> como um único número — não apenas de um detentor? <strong>NUPL (Net Unrealized Profit/Loss)</strong> faz exatamente isso, dividindo a psicologia do mercado em 5 zonas, da capitulação à euforia.</p>
+  <p class="tr">Tek bir yatırımcının değil, <strong>tüm piyasanın</strong> gerçekleşmemiş kâr veya zararını tek bir sayı olarak görebilseniz nasıl olurdu? <strong>NUPL (Net Unrealized Profit/Loss)</strong> tam olarak bunu yapar; piyasa psikolojisini kapitülasyondan öfori bandına kadar 5 bölgeye ayırır.</p>
+  <p class="vi">Sẽ thế nào nếu bạn có thể thấy lãi hoặc lỗ chưa thực hiện của <strong>toàn bộ thị trường</strong> chỉ bằng một con số duy nhất — không chỉ của một người nắm giữ? <strong>NUPL (Net Unrealized Profit/Loss)</strong> làm chính xác điều đó, chia tâm lý thị trường thành 5 vùng từ đầu hàng (capitulation) đến hưng phấn tột độ (euphoria).</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> NUPL = (시가총액 − 실현시가총액) ÷ 시가총액. 0 이하면 시장 전체가 평균적으로 손실 상태(항복), 0.75 이상이면 극단적 도취 상태입니다. 모든 주요 저점은 0 이하에서, 모든 주요 고점은 0.75 이상에서 형성됐습니다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> NUPL = (Market Cap − Realized Cap) ÷ Market Cap. Below 0 means the market is at an average loss (capitulation); above 0.75 means extreme euphoria. Every major bottom formed below 0, and every major top above 0.75.</div>
   <div class="box ja">💡 <strong>要点:</strong> NUPL = (時価総額 − 実現時価総額) ÷ 時価総額。0以下なら市場全体が平均的に含み損状態(キャピチュレーション)、0.75以上なら極端な陶酔状態です。主要な底値はすべて0以下で、主要な天井はすべて0.75以上で形成されました。</div>
   <div class="box es">💡 <strong>Resumen clave:</strong> NUPL = (Capitalización de Mercado − Capitalización Realizada) ÷ Capitalización de Mercado. Por debajo de 0 significa pérdida promedio del mercado (capitulación); por encima de 0.75 significa euforia extrema. Todos los suelos importantes se formaron por debajo de 0, y todos los techos importantes por encima de 0.75.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> NUPL = (Marktkapitalisierung − Realized Cap) ÷ Marktkapitalisierung. Unter 0 bedeutet durchschnittlicher Marktverlust (Kapitulation); über 0,75 bedeutet extreme Euphorie. Jedes große Tief bildete sich unter 0, jedes große Hoch über 0,75.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> NUPL = (Capitalisation boursière − Capitalisation réalisée) ÷ Capitalisation boursière. En dessous de 0, le marché est en perte moyenne (capitulation) ; au-dessus de 0,75, c'est l'euphorie extrême. Chaque creux majeur s'est formé en dessous de 0, et chaque sommet majeur au-dessus de 0,75.</div>
+  <div class="box pt">💡 <strong>Resumo:</strong> NUPL = (Capitalização de Mercado − Capitalização Realizada) ÷ Capitalização de Mercado. Abaixo de 0 significa que o mercado está em prejuízo médio (capitulação); acima de 0,75 significa euforia extrema. Todo fundo importante se formou abaixo de 0, e todo topo importante acima de 0,75.</div>
+  <div class="box tr">💡 <strong>Özet:</strong> NUPL = (Piyasa Değeri − Gerçekleşmiş Piyasa Değeri) ÷ Piyasa Değeri. 0'ın altı, piyasanın ortalama zararda olduğu (kapitülasyon) anlamına gelir; 0,75 üzeri ise aşırı öfori anlamına gelir. Her büyük dip 0'ın altında, her büyük tepe ise 0,75'in üzerinde oluşmuştur.</div>
+  <div class="box vi">💡 <strong>Tóm tắt chính:</strong> NUPL = (Vốn hóa thị trường − Vốn hóa thực hiện) ÷ Vốn hóa thị trường. Dưới 0 nghĩa là thị trường đang lỗ trung bình (đầu hàng); trên 0,75 nghĩa là hưng phấn tột độ. Mọi đáy lớn đều hình thành dưới 0, và mọi đỉnh lớn đều hình thành trên 0,75.</div>
 
   <h2 class="ko">5단계를 시각화하면</h2>
   <h2 class="en">The 5 zones, visualized</h2>
   <h2 class="ja">5段階を可視化すると</h2>
   <h2 class="es">Las 5 zonas, visualizadas</h2>
   <h2 class="de">Die 5 Zonen, visualisiert</h2>
+  <h2 class="fr">Les 5 zones, visualisées</h2>
+  <h2 class="pt">As 5 zonas, visualizadas</h2>
+  <h2 class="tr">5 bölge, görselleştirilmiş hâli</h2>
+  <h2 class="vi">5 vùng, được trực quan hóa</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 190" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -45,7 +57,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 190" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">NUPL 5 Zones + Historical Cases</text>
     <g font-family="sans-serif">
@@ -106,17 +118,29 @@
   <p class="ja">時価総額から実現時価総額(各コインが最後に移動した時点の価格の合計)を引き、その値を再び時価総額で割って比率にします。結果として「市場全体の保有者が今、平均して何%の未実現利益(または損失)状態にあるか」を一つの数字に凝縮したものです。</p>
   <p class="es">Reste la capitalización realizada (la suma del valor de cada moneda al precio de su último movimiento) de la capitalización de mercado, luego divida por la capitalización de mercado. El resultado condensa "qué porcentaje de ganancia o pérdida no realizada tiene el tenedor promedio en este momento" en un solo número.</p>
   <p class="de">Ziehen Sie die Realized Cap (die Summe des Wertes jeder Münze zum Preis ihrer letzten Bewegung) von der Marktkapitalisierung ab und teilen Sie dann durch die Marktkapitalisierung. Das Ergebnis fasst zusammen, "welchen Prozentsatz an nicht realisiertem Gewinn oder Verlust der durchschnittliche Halter gerade hat" in einer einzigen Zahl.</p>
+  <p class="fr">Soustrayez la capitalisation réalisée (la somme de la valeur de chaque pièce au prix de son dernier mouvement) de la capitalisation boursière, puis divisez par la capitalisation boursière. Le résultat condense en un seul chiffre "quel pourcentage de profit ou de perte non réalisé le détenteur moyen affiche actuellement".</p>
+  <p class="pt">Subtraia a capitalização realizada (a soma do valor de cada moeda pelo preço de sua última movimentação) da capitalização de mercado, depois divida pela capitalização de mercado. O resultado condensa em um único número "qual percentual de lucro ou prejuízo não realizado o detentor médio está tendo agora".</p>
+  <p class="tr">Piyasa değerinden gerçekleşmiş piyasa değerini (her bir coin'in son hareket ettiği fiyattaki değerlerinin toplamı) çıkarın, ardından piyasa değerine bölün. Sonuç, "ortalama yatırımcının şu anda yüzde kaç gerçekleşmemiş kâr veya zarar durumunda olduğunu" tek bir sayıya sıkıştırır.</p>
+  <p class="vi">Lấy vốn hóa thị trường trừ đi vốn hóa thực hiện (tổng giá trị của mỗi đồng coin tại mức giá lần cuối nó di chuyển), sau đó chia cho vốn hóa thị trường. Kết quả nén "bao nhiêu phần trăm lãi hoặc lỗ chưa thực hiện mà người nắm giữ trung bình đang có ngay lúc này" thành một con số duy nhất.</p>
   <div class="box ko"><strong>계산 공식:</strong> NUPL = (시가총액 − 실현시가총액) ÷ 시가총액</div>
   <div class="box en"><strong>Formula:</strong> NUPL = (Market Cap − Realized Cap) ÷ Market Cap</div>
   <div class="box ja"><strong>計算式:</strong> NUPL = (時価総額 − 実現時価総額) ÷ 時価総額</div>
   <div class="box es"><strong>Fórmula:</strong> NUPL = (Capitalización de Mercado − Capitalización Realizada) ÷ Capitalización de Mercado</div>
   <div class="box de"><strong>Formel:</strong> NUPL = (Marktkapitalisierung − Realized Cap) ÷ Marktkapitalisierung</div>
+  <div class="box fr"><strong>Formule :</strong> NUPL = (Capitalisation boursière − Capitalisation réalisée) ÷ Capitalisation boursière</div>
+  <div class="box pt"><strong>Fórmula:</strong> NUPL = (Capitalização de Mercado − Capitalização Realizada) ÷ Capitalização de Mercado</div>
+  <div class="box tr"><strong>Formül:</strong> NUPL = (Piyasa Değeri − Gerçekleşmiş Piyasa Değeri) ÷ Piyasa Değeri</div>
+  <div class="box vi"><strong>Công thức:</strong> NUPL = (Vốn hóa thị trường − Vốn hóa thực hiện) ÷ Vốn hóa thị trường</div>
 
   <h2 class="ko">5단계 구간 해석</h2>
   <h2 class="en">The 5 Zones</h2>
   <h2 class="ja">5段階の区間解釈</h2>
   <h2 class="es">Las 5 Zonas</h2>
   <h2 class="de">Die 5 Zonen</h2>
+  <h2 class="fr">Les 5 Zones</h2>
+  <h2 class="pt">As 5 Zonas</h2>
+  <h2 class="tr">5 Bölge</h2>
+  <h2 class="vi">5 Vùng</h2>
   <table class="zt ko">
     <tr><th>NUPL</th><th>단계</th><th>시장 상태</th></tr>
     <tr><td class="g">0 미만</td><td>항복(Capitulation)</td><td class="g">평균적으로 손실 — 강력 매수 구간</td></tr>
@@ -157,12 +181,48 @@
     <tr><td class="y">0,5 – 0,75</td><td>Glaube / Verleugnung</td><td class="y">Bullenmarkt im Gange, Vorsicht geboten</td></tr>
     <tr><td class="r">Über 0,75</td><td>Euphorie / Gier</td><td class="r">Historische Überhitzung — Verkauf erwägen</td></tr>
   </table>
+  <table class="zt fr">
+    <tr><th>NUPL</th><th>Zone</th><th>État du marché</th></tr>
+    <tr><td class="g">Sous 0</td><td>Capitulation</td><td class="g">Perte moyenne — zone d'achat fort</td></tr>
+    <tr><td class="g">0 – 0,25</td><td>Espoir / Peur</td><td class="g">Début de reprise post-creux</td></tr>
+    <tr><td class="y">0,25 – 0,5</td><td>Optimisme / Anxiété</td><td class="y">Tendance haussière en formation, encore neutre</td></tr>
+    <tr><td class="y">0,5 – 0,75</td><td>Conviction / Déni</td><td class="y">Marché haussier en cours, prudence recommandée</td></tr>
+    <tr><td class="r">Au-dessus de 0,75</td><td>Euphorie / Cupidité</td><td class="r">Surchauffe historique — envisager la vente</td></tr>
+  </table>
+  <table class="zt pt">
+    <tr><th>NUPL</th><th>Zona</th><th>Estado do Mercado</th></tr>
+    <tr><td class="g">Abaixo de 0</td><td>Capitulação</td><td class="g">Prejuízo médio — zona de compra forte</td></tr>
+    <tr><td class="g">0 – 0,25</td><td>Esperança / Medo</td><td class="g">Recuperação inicial pós-fundo</td></tr>
+    <tr><td class="y">0,25 – 0,5</td><td>Otimismo / Ansiedade</td><td class="y">Tendência de alta se formando, ainda neutro</td></tr>
+    <tr><td class="y">0,5 – 0,75</td><td>Crença / Negação</td><td class="y">Mercado em alta em curso, cautela recomendada</td></tr>
+    <tr><td class="r">Acima de 0,75</td><td>Euforia / Ganância</td><td class="r">Sobreaquecimento histórico — considerar venda</td></tr>
+  </table>
+  <table class="zt tr">
+    <tr><th>NUPL</th><th>Bölge</th><th>Piyasa Durumu</th></tr>
+    <tr><td class="g">0'ın altı</td><td>Kapitülasyon</td><td class="g">Ortalama zarar — güçlü alım bölgesi</td></tr>
+    <tr><td class="g">0 – 0,25</td><td>Umut / Korku</td><td class="g">Dip sonrası erken toparlanma</td></tr>
+    <tr><td class="y">0,25 – 0,5</td><td>İyimserlik / Endişe</td><td class="y">Yükseliş trendi oluşuyor, hâlâ nötr</td></tr>
+    <tr><td class="y">0,5 – 0,75</td><td>İnanç / İnkâr</td><td class="y">Boğa piyasası sürüyor, dikkatli olunmalı</td></tr>
+    <tr><td class="r">0,75 üzeri</td><td>Öfori / Açgözlülük</td><td class="r">Tarihsel aşırı ısınma — satış düşünülmeli</td></tr>
+  </table>
+  <table class="zt vi">
+    <tr><th>NUPL</th><th>Vùng</th><th>Trạng thái Thị trường</th></tr>
+    <tr><td class="g">Dưới 0</td><td>Đầu hàng (Capitulation)</td><td class="g">Lỗ trung bình — vùng mua mạnh</td></tr>
+    <tr><td class="g">0 – 0,25</td><td>Hy vọng / Sợ hãi</td><td class="g">Phục hồi sớm sau đáy</td></tr>
+    <tr><td class="y">0,25 – 0,5</td><td>Lạc quan / Lo lắng</td><td class="y">Xu hướng tăng đang hình thành, vẫn trung lập</td></tr>
+    <tr><td class="y">0,5 – 0,75</td><td>Tin tưởng / Phủ nhận</td><td class="y">Thị trường tăng đang diễn ra, cần thận trọng</td></tr>
+    <tr><td class="r">Trên 0,75</td><td>Hưng phấn / Tham lam</td><td class="r">Quá nhiệt lịch sử — cân nhắc bán</td></tr>
+  </table>
 
   <h2 class="ko">역사적 사례</h2>
   <h2 class="en">Historical Cases</h2>
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas Historiques</h2>
+  <h2 class="pt">Casos Históricos</h2>
+  <h2 class="tr">Tarihsel Örnekler</h2>
+  <h2 class="vi">Các Trường Hợp Lịch Sử</h2>
   <div class="rc">
     <div class="rd">2015.01</div>
     <div class="rt ko">비트코인 $150대 바닥에서 NUPL이 −0.1까지 하락, 시장 전체가 항복 단계.</div>
@@ -170,11 +230,19 @@
     <div class="rt ja">ビットコインが$150台で底を打った際、NUPLは−0.1まで下落 — 市場全体がキャピチュレーション段階に。</div>
     <div class="rt es">NUPL cayó a −0.1 cuando Bitcoin tocó fondo cerca de $150 — todo el mercado en capitulación.</div>
     <div class="rt de">NUPL fiel auf −0,1, als Bitcoin nahe $150 den Boden erreichte — der gesamte Markt in Kapitulation.</div>
+    <div class="rt fr">Le NUPL est tombé à −0,1 alors que le Bitcoin touchait un plancher proche de $150 — l'ensemble du marché en capitulation.</div>
+    <div class="rt pt">O NUPL caiu para −0,1 quando o Bitcoin encontrou fundo perto de $150 — todo o mercado em capitulação.</div>
+    <div class="rt tr">Bitcoin $150 civarında dip yaparken NUPL −0,1'e geriledi — tüm piyasa kapitülasyonda.</div>
+    <div class="rt vi">NUPL giảm xuống −0,1 khi Bitcoin tạo đáy gần $150 — toàn bộ thị trường trong trạng thái đầu hàng.</div>
     <div class="rr ko">→ 이후 2017년 $20,000까지 약 130배 상승</div>
     <div class="rr en">→ Bitcoin rose ~130x to $20,000 by 2017</div>
     <div class="rr ja">→ その後2017年に$20,000まで約130倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~130x hasta $20,000 en 2017</div>
     <div class="rr de">→ Bitcoin stieg bis 2017 um das ~130-fache auf $20.000</div>
+    <div class="rr fr">→ Le Bitcoin a grimpé d'environ 130x jusqu'à $20,000 d'ici 2017</div>
+    <div class="rr pt">→ Bitcoin subiu ~130x até $20,000 em 2017</div>
+    <div class="rr tr">→ Bitcoin 2017'ye kadar ~130 kat yükselerek $20,000'a ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng ~130 lần lên $20,000 vào năm 2017</div>
   </div>
   <div class="rc">
     <div class="rd">2018.12</div>
@@ -183,11 +251,19 @@
     <div class="rt ja">$3,200の底値でNUPLは−0.05、再びキャピチュレーション局面を確認。</div>
     <div class="rt es">NUPL llegó a −0.05 en el suelo de $3,200, confirmando la capitulación una vez más.</div>
     <div class="rt de">NUPL erreichte −0,05 am Tief von $3.200 und bestätigte erneut die Kapitulation.</div>
+    <div class="rt fr">Le NUPL a atteint −0,05 au plancher de $3,200, confirmant à nouveau la capitulation.</div>
+    <div class="rt pt">O NUPL atingiu −0,05 no fundo de $3,200, confirmando a capitulação mais uma vez.</div>
+    <div class="rt tr">NUPL, $3,200 dip seviyesinde −0,05'e ulaşarak kapitülasyonu bir kez daha doğruladı.</div>
+    <div class="rt vi">NUPL chạm mức −0,05 tại đáy $3,200, xác nhận trạng thái đầu hàng thêm một lần nữa.</div>
     <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
     <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
     <div class="rr ja">→ その後2021年に$69,000まで約20倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~20x hasta $69,000 en 2021</div>
     <div class="rr de">→ Bitcoin stieg bis 2021 um das ~20-fache auf $69.000</div>
+    <div class="rr fr">→ Le Bitcoin a grimpé d'environ 20x jusqu'à $69,000 d'ici 2021</div>
+    <div class="rr pt">→ Bitcoin subiu ~20x até $69,000 em 2021</div>
+    <div class="rr tr">→ Bitcoin 2021'e kadar ~20 kat yükselerek $69,000'a ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng ~20 lần lên $69,000 vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2021.11 (고점)</div>
@@ -196,11 +272,19 @@
     <div class="rt ja">$69,000の天井でNUPLが0.75を超え、陶酔段階に突入。</div>
     <div class="rt es">NUPL superó 0.75 en el techo de $69,000, entrando en euforia.</div>
     <div class="rt de">NUPL überschritt 0,75 am Hoch von $69.000 und trat in die Euphorie ein.</div>
+    <div class="rt fr">Le NUPL a dépassé 0,75 au sommet de $69,000, entrant en euphorie.</div>
+    <div class="rt pt">O NUPL ultrapassou 0,75 no topo de $69,000, entrando em euforia.</div>
+    <div class="rt tr">NUPL, $69,000 zirvesinde 0,75'i aşarak öfori evresine girdi.</div>
+    <div class="rt vi">NUPL vượt 0,75 tại đỉnh $69,000, bước vào giai đoạn hưng phấn.</div>
     <div class="rr ko">→ 이후 2022년 $15,500까지 약 77% 하락</div>
     <div class="rr en">→ Bitcoin fell ~77% to $15,500 in 2022</div>
     <div class="rr ja">→ その後2022年に$15,500まで約77%下落</div>
     <div class="rr es">→ Bitcoin cayó ~77% hasta $15,500 en 2022</div>
     <div class="rr de">→ Bitcoin fiel 2022 um ~77% auf $15.500</div>
+    <div class="rr fr">→ Le Bitcoin a chuté d'environ 77 % jusqu'à $15,500 en 2022</div>
+    <div class="rr pt">→ Bitcoin caiu ~77% até $15,500 em 2022</div>
+    <div class="rr tr">→ Bitcoin 2022'de ~%77 düşerek $15,500'e geriledi</div>
+    <div class="rr vi">→ Bitcoin giảm ~77% xuống $15,500 vào năm 2022</div>
   </div>
   <div class="rc">
     <div class="rd">2022.11 (FTX 붕괴)</div>

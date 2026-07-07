@@ -56,11 +56,19 @@
     <div class="rt ja">3回のサイクル底値すべてでPuell Multipleが0.5以下に低下し、マイナーのキャピチュレーションを確認。</div>
     <div class="rt es">Los tres suelos de ciclo vieron el Puell Multiple caer por debajo de 0.5, confirmando la capitulación de mineros.</div>
     <div class="rt de">Bei allen drei Zyklustiefs fiel der Puell Multiple unter 0,5 und bestätigte die Miner-Kapitulation.</div>
+    <div class="rt fr">Aux trois creux de cycle, le Puell Multiple est tombé sous 0,5, confirmant la capitulation des mineurs.</div>
+    <div class="rt pt">Nos três fundos de ciclo, o Puell Multiple caiu abaixo de 0,5, confirmando a capitulação dos mineradores.</div>
+    <div class="rt tr">Üç döngü dibinde de Puell Multiple 0,5'in altına düşerek madenci kapitülasyonunu doğruladı.</div>
+    <div class="rt vi">Cả ba đáy chu kỳ đều chứng kiến Puell Multiple giảm xuống dưới 0,5, xác nhận sự đầu hàng của thợ đào.</div>
     <div class="rr ko">→ 이후 모두 사이클 최고점까지 10배 이상 상승</div>
     <div class="rr en">→ Each was followed by a rally of 10x or more to the cycle peak</div>
     <div class="rr ja">→ その後いずれもサイクル最高値まで10倍以上上昇</div>
     <div class="rr es">→ Cada uno fue seguido por un repunte de 10x o más hasta el pico del ciclo</div>
     <div class="rr de">→ Auf jedes folgte eine Rally von 10x oder mehr bis zum Zyklushoch</div>
+    <div class="rr fr">→ Chacun a été suivi d'un rallye de 10x ou plus jusqu'au sommet du cycle</div>
+    <div class="rr pt">→ Cada um foi seguido por uma alta de 10x ou mais até o topo do ciclo</div>
+    <div class="rr tr">→ Her birinin ardından döngü zirvesine kadar 10 kat veya daha fazla bir yükseliş geldi</div>
+    <div class="rr vi">→ Mỗi lần đều được theo sau bởi một đợt tăng giá từ 10 lần trở lên cho đến đỉnh chu kỳ</div>
   </div>
   <div class="rc">
     <div class="rd">2017.12, 2021.04</div>
@@ -69,11 +77,19 @@
     <div class="rt ja">2回のサイクル天井付近でPuell Multipleが4以上まで上昇、マイナー超過利益圏に。</div>
     <div class="rt es">Cerca de ambos techos de ciclo, el Puell Multiple subió por encima de 4, marcando una zona de ganancias extraordinarias de mineros.</div>
     <div class="rt de">Nahe beiden Zyklushochs stieg der Puell Multiple über 4 und markierte eine Miner-Übergewinnzone.</div>
+    <div class="rt fr">Près des deux sommets de cycle, le Puell Multiple est monté au-dessus de 4, marquant une zone de profits exceptionnels pour les mineurs.</div>
+    <div class="rt pt">Perto de ambos os topos de ciclo, o Puell Multiple subiu acima de 4, marcando uma zona de lucros excepcionais dos mineradores.</div>
+    <div class="rt tr">Her iki döngü zirvesine yakın dönemde Puell Multiple 4'ün üzerine çıkarak madencilerin olağanüstü kâr elde ettiği bölgeyi işaret etti.</div>
+    <div class="rt vi">Gần cả hai đỉnh chu kỳ, Puell Multiple đã tăng lên trên 4, đánh dấu vùng lợi nhuận vượt trội của thợ đào.</div>
     <div class="rr ko">→ 이후 각각 -84%, -77% 조정 발생</div>
     <div class="rr en">→ Followed by corrections of -84% and -77%, respectively</div>
     <div class="rr ja">→ その後それぞれ-84%、-77%の調整が発生</div>
     <div class="rr es">→ Seguido por correcciones de -84% y -77%, respectivamente</div>
     <div class="rr de">→ Gefolgt von Korrekturen von -84% bzw. -77%</div>
+    <div class="rr fr">→ Suivi de corrections de -84 % et -77 %, respectivement</div>
+    <div class="rr pt">→ Seguido por correções de -84% e -77%, respectivamente</div>
+    <div class="rr tr">→ Ardından sırasıyla %-84 ve %-77 düzeltmeler geldi</div>
+    <div class="rr vi">→ Sau đó lần lượt là các đợt điều chỉnh -84% và -77%</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -81,6 +97,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en Garde Importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>반감기 직후 왜곡 가능.</strong> 발행량이 절반으로 줄기 때문에 Puell Multiple이 일시적으로 낮게 나올 수 있습니다.</li>
     <li><strong>해시레이트·난이도 변화의 영향.</strong> 채굴 경쟁 심화로 채산성 자체가 구조적으로 변할 수 있습니다.</li>
@@ -101,12 +121,32 @@
     <li><strong>Kann direkt nach einem Halving verzerrt sein.</strong> Da sich die Emission halbiert, kann der Puell Multiple vorübergehend künstlich niedrig ausfallen.</li>
     <li><strong>Beeinflusst durch Hashrate-/Difficulty-Änderungen.</strong> Verschärfter Mining-Wettbewerb kann die Grundrentabilität strukturell verschieben.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Peut être faussé juste après un halving.</strong> Comme l'émission est réduite de moitié, le Puell Multiple peut temporairement afficher une valeur artificiellement basse.</li>
+    <li><strong>Affecté par les variations de hashrate/difficulté.</strong> L'intensification de la concurrence minière peut modifier structurellement la rentabilité de référence.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Pode ser distorcido logo após um halving.</strong> Como a emissão é reduzida pela metade, o Puell Multiple pode apresentar valores artificialmente baixos temporariamente.</li>
+    <li><strong>Afetado por mudanças de hashrate/dificuldade.</strong> A intensificação da concorrência na mineração pode alterar estruturalmente a rentabilidade de referência.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Halving sonrasında hemen bozulabilir.</strong> İhraç miktarı yarıya indiği için Puell Multiple geçici olarak yapay biçimde düşük görünebilir.</li>
+    <li><strong>Hashrate/zorluk değişimlerinden etkilenir.</strong> Madencilik rekabetinin yoğunlaşması, temel kârlılığı yapısal olarak değiştirebilir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Có thể bị sai lệch ngay sau halving.</strong> Vì lượng phát hành giảm một nửa, Puell Multiple có thể tạm thời hiển thị mức thấp một cách giả tạo.</li>
+    <li><strong>Bị ảnh hưởng bởi thay đổi hashrate/độ khó.</strong> Sự cạnh tranh khai thác ngày càng gay gắt có thể làm thay đổi cấu trúc khả năng sinh lời nền.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal à Combiner Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Şu Göstergelerle Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 채굴자 항복 종료 시점과 교차 확인</li>
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 채굴자 관점과 투자자 관점의 밸류에이션을 함께 확인</li>
@@ -126,6 +166,22 @@
   <ul class="de">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Abgleich mit dem Ende der Miner-Kapitulation</li>
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Bewertung aus Miner- und Investorensicht vergleichen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> :</strong> Vérification croisée avec la fin de la capitulation des mineurs</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a> :</strong> Comparer la valorisation du point de vue des mineurs et des investisseurs</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Verificação cruzada com o fim da capitulação dos mineradores</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Comparar a valorização sob a perspectiva de mineradores e investidores</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Madenci kapitülasyonunun sonuyla çapraz kontrol</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Hem madenci hem de yatırımcı bakış açısıyla değerlemeyi karşılaştırma</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Đối chiếu chéo với thời điểm kết thúc sự đầu hàng của thợ đào</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> So sánh định giá từ góc nhìn của cả thợ đào và nhà đầu tư</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

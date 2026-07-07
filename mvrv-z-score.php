@@ -163,29 +163,49 @@
   <p class="ja">各ビットコインが最後にオンチェーンで移動した時点の価格で評価した総価値です。全BTC保有者の平均取得原価に近く、時価総額よりもはるかに安定しています。</p>
   <p class="es">Valor total de todo el Bitcoin valorado al precio del momento en que cada moneda se movió por última vez on-chain — esencialmente la base de costo agregada de todos los tenedores. Mucho más estable que el valor de mercado.</p>
   <p class="de">Gesamtwert aller Bitcoin, bewertet zum Preis des Zeitpunkts, an dem jede Münze zuletzt on-chain bewegt wurde — im Wesentlichen die aggregierte Kostenbasis aller Halter. Weitaus stabiler als der Marktwert.</p>
+  <p class="fr">Valeur totale de tous les Bitcoin évalués au prix du moment où chaque pièce a été déplacée on-chain pour la dernière fois — essentiellement la base de coût agrégée de tous les détenteurs. Bien plus stable que la valeur de marché.</p>
+  <p class="pt">Valor total de todo o Bitcoin avaliado ao preço do momento em que cada moeda se movimentou pela última vez on-chain — essencialmente o custo médio agregado de todos os detentores. Muito mais estável do que o valor de mercado.</p>
+  <p class="tr">Her bir bitcoin'in zincir üzerinde son hareket ettiği andaki fiyattan değerlenen toplam değeri — özünde tüm sahiplerin toplam maliyet tabanıdır. Piyasa değerinden çok daha istikrarlıdır.</p>
+  <p class="vi">Tổng giá trị của toàn bộ Bitcoin được định giá theo mức giá tại thời điểm mỗi đồng coin di chuyển on-chain lần cuối — về bản chất là tổng giá vốn trung bình của tất cả người nắm giữ. Ổn định hơn nhiều so với giá trị thị trường.</p>
 
   <h3 class="ko">Z-Score (표준편차 정규화)</h3>
   <h3 class="en">Z-Score (Standard Deviation Normalization)</h3>
   <h3 class="ja">Zスコア (標準偏差による正規化)</h3>
   <h3 class="es">Z-Score (Normalización por Desviación Estándar)</h3>
   <h3 class="de">Z-Score (Standardabweichungs-Normalisierung)</h3>
+  <h3 class="fr">Z-Score (Normalisation par Écart Type)</h3>
+  <h3 class="pt">Z-Score (Normalização por Desvio Padrão)</h3>
+  <h3 class="tr">Z-Score (Standart Sapma Normalizasyonu)</h3>
+  <h3 class="vi">Z-Score (Chuẩn hóa theo Độ lệch Chuẩn)</h3>
   <p class="ko">(시장가치 - 실현가치)를 표준편차로 나눈 값으로, 역사적으로 얼마나 극단적인 수준인지를 숫자 하나로 보여줍니다.</p>
   <p class="en">(Market Value − Realized Value) ÷ standard deviation of Market Value — a single number showing how historically extreme current valuations are.</p>
   <p class="ja">(時価総額 − 実現時価総額)を標準偏差で割った値で、歴史的に見てどれだけ極端な水準かを一つの数字で示します。</p>
   <p class="es">(Valor de Mercado − Valor Realizado) ÷ desviación estándar del Valor de Mercado — un solo número que muestra qué tan extremas son las valoraciones actuales históricamente.</p>
   <p class="de">(Marktwert − Realized Value) ÷ Standardabweichung des Marktwerts — eine einzige Zahl, die zeigt, wie extrem die aktuellen Bewertungen historisch gesehen sind.</p>
+  <p class="fr">(Valeur de Marché − Valeur Réalisée) ÷ écart type de la Valeur de Marché — un chiffre unique montrant à quel point les valorisations actuelles sont extrêmes sur le plan historique.</p>
+  <p class="pt">(Valor de Mercado − Valor Realizado) ÷ desvio padrão do Valor de Mercado — um único número que mostra o quão extremas são as avaliações atuais em termos históricos.</p>
+  <p class="tr">(Piyasa Değeri − Gerçekleşen Değer) ÷ Piyasa Değerinin standart sapması — mevcut değerlemelerin tarihsel olarak ne kadar uç noktada olduğunu gösteren tek bir sayı.</p>
+  <p class="vi">(Giá trị Thị trường − Giá trị Thực hiện) ÷ độ lệch chuẩn của Giá trị Thị trường — một con số duy nhất cho thấy mức định giá hiện tại cực đoan đến đâu xét theo lịch sử.</p>
 
   <div class="box ko"><strong>계산 공식:</strong> MVRV Z-Score = (시장가치 − 실현가치) ÷ 표준편차(시장가치)</div>
   <div class="box en"><strong>Formula:</strong> MVRV Z-Score = (Market Value − Realized Value) ÷ StdDev(Market Value)</div>
   <div class="box ja"><strong>計算式:</strong> MVRV Zスコア = (時価総額 − 実現時価総額) ÷ 標準偏差(時価総額)</div>
   <div class="box es"><strong>Fórmula:</strong> MVRV Z-Score = (Valor de Mercado − Valor Realizado) ÷ DesvEst(Valor de Mercado)</div>
   <div class="box de"><strong>Formel:</strong> MVRV Z-Score = (Marktwert − Realized Value) ÷ StdAbw(Marktwert)</div>
+  <div class="box fr"><strong>Formule :</strong> MVRV Z-Score = (Valeur de Marché − Valeur Réalisée) ÷ ÉcartType(Valeur de Marché)</div>
+  <div class="box pt"><strong>Fórmula:</strong> MVRV Z-Score = (Valor de Mercado − Valor Realizado) ÷ DesvPad(Valor de Mercado)</div>
+  <div class="box tr"><strong>Formül:</strong> MVRV Z-Score = (Piyasa Değeri − Gerçekleşen Değer) ÷ StdSapma(Piyasa Değeri)</div>
+  <div class="box vi"><strong>Công thức:</strong> MVRV Z-Score = (Giá trị Thị trường − Giá trị Thực hiện) ÷ ĐộLệchChuẩn(Giá trị Thị trường)</div>
 
   <h2 class="ko">구간별 해석</h2>
   <h2 class="en">Zone Interpretation</h2>
   <h2 class="ja">区間別の解釈</h2>
   <h2 class="es">Interpretación por Zona</h2>
   <h2 class="de">Zonen-Interpretation</h2>
+  <h2 class="fr">Interprétation par Zone</h2>
+  <h2 class="pt">Interpretação por Zona</h2>
+  <h2 class="tr">Bölge Yorumlaması</h2>
+  <h2 class="vi">Diễn giải theo Vùng</h2>
   <table class="zt ko">
     <tr><th>Z-Score</th><th>시장 상태</th><th>투자 판단</th></tr>
     <tr><td class="g">−1 이하</td><td>극단적 저평가</td><td class="g">강력 매수</td></tr>
@@ -231,12 +251,52 @@
     <tr><td class="r">Über 3,5</td><td>Überhitzt</td><td class="r">Verkauf erwägen</td></tr>
     <tr><td class="r">Über 7</td><td>Extreme Überhitzung</td><td class="r">Starker Verkauf</td></tr>
   </table>
+  <table class="zt fr">
+    <tr><th>Z-Score</th><th>État du Marché</th><th>Signal</th></tr>
+    <tr><td class="g">Inférieur à −1</td><td>Sous-évaluation extrême</td><td class="g">Achat Fort</td></tr>
+    <tr><td class="g">Inférieur à 0</td><td>Sous-évaluation historique</td><td class="g">Zone d'Achat</td></tr>
+    <tr><td class="y">0 – 1</td><td>Légèrement sous-évalué</td><td class="y">Accumulation</td></tr>
+    <tr><td class="y">1 – 3</td><td>Juste à surévalué</td><td class="y">Neutre / Prudence</td></tr>
+    <tr><td class="r">Au-delà de 3,5</td><td>Surchauffe</td><td class="r">Envisager une Vente</td></tr>
+    <tr><td class="r">Au-delà de 7</td><td>Surchauffe extrême</td><td class="r">Vente Forte</td></tr>
+  </table>
+  <table class="zt pt">
+    <tr><th>Z-Score</th><th>Estado do Mercado</th><th>Sinal</th></tr>
+    <tr><td class="g">Abaixo de −1</td><td>Subvalorização extrema</td><td class="g">Compra Forte</td></tr>
+    <tr><td class="g">Abaixo de 0</td><td>Subvalorização histórica</td><td class="g">Zona de Compra</td></tr>
+    <tr><td class="y">0 – 1</td><td>Ligeiramente subvalorizado</td><td class="y">Acumular</td></tr>
+    <tr><td class="y">1 – 3</td><td>Justo a sobrevalorizado</td><td class="y">Neutro / Cautela</td></tr>
+    <tr><td class="r">Acima de 3,5</td><td>Sobreaquecido</td><td class="r">Considerar Venda</td></tr>
+    <tr><td class="r">Acima de 7</td><td>Sobreaquecimento extremo</td><td class="r">Venda Forte</td></tr>
+  </table>
+  <table class="zt tr">
+    <tr><th>Z-Score</th><th>Piyasa Durumu</th><th>Sinyal</th></tr>
+    <tr><td class="g">−1 altı</td><td>Aşırı düşük değerleme</td><td class="g">Güçlü Al</td></tr>
+    <tr><td class="g">0 altı</td><td>Tarihsel düşük değerleme</td><td class="g">Alım Bölgesi</td></tr>
+    <tr><td class="y">0 – 1</td><td>Hafif düşük değerli</td><td class="y">Biriktirme</td></tr>
+    <tr><td class="y">1 – 3</td><td>Makul ile aşırı değerli arası</td><td class="y">Nötr / Dikkat</td></tr>
+    <tr><td class="r">3,5 üzeri</td><td>Aşırı ısınma</td><td class="r">Satış Düşünülmeli</td></tr>
+    <tr><td class="r">7 üzeri</td><td>Aşırı ısınma (uç)</td><td class="r">Güçlü Sat</td></tr>
+  </table>
+  <table class="zt vi">
+    <tr><th>Z-Score</th><th>Trạng thái Thị trường</th><th>Tín hiệu</th></tr>
+    <tr><td class="g">Dưới −1</td><td>Định giá thấp cực độ</td><td class="g">Mua Mạnh</td></tr>
+    <tr><td class="g">Dưới 0</td><td>Định giá thấp mang tính lịch sử</td><td class="g">Vùng Mua</td></tr>
+    <tr><td class="y">0 – 1</td><td>Hơi định giá thấp</td><td class="y">Tích lũy</td></tr>
+    <tr><td class="y">1 – 3</td><td>Hợp lý đến định giá cao</td><td class="y">Trung lập / Thận trọng</td></tr>
+    <tr><td class="r">Trên 3.5</td><td>Quá nhiệt</td><td class="r">Cân nhắc Bán</td></tr>
+    <tr><td class="r">Trên 7</td><td>Quá nhiệt cực độ</td><td class="r">Bán Mạnh</td></tr>
+  </table>
 
   <h2 class="ko">역사적 저점 포착 사례</h2>
   <h2 class="en">Historical Bottom Cases</h2>
   <h2 class="ja">歴史的な底値捕捉事例</h2>
   <h2 class="es">Casos Históricos de Suelo</h2>
   <h2 class="de">Historische Tiefpunkt-Fälle</h2>
+  <h2 class="fr">Cas Historiques de Creux</h2>
+  <h2 class="pt">Casos Históricos de Fundo</h2>
+  <h2 class="tr">Tarihsel Dip Örnekleri</h2>
+  <h2 class="vi">Các Trường hợp Đáy Lịch sử</h2>
 
   <h3>2015 (Z-Score: −0.8)</h3>
   <p class="ko">비트코인이 $150 근처까지 하락했던 2015년 1월, MVRV Z-Score는 −0.8까지 내려갔습니다. 이후 2017년 $20,000까지 약 130배 상승했습니다.</p>
@@ -244,6 +304,10 @@
   <p class="ja">ビットコインが$150付近まで下落した2015年1月、MVRV Zスコアは−0.8まで低下しました。その後2017年には$20,000まで約130倍上昇しました。</p>
   <p class="es">En enero de 2015, con Bitcoin cerca de $150, el MVRV Z-Score llegó a −0.8. Bitcoin posteriormente subió ~130x hasta $20,000 en 2017.</p>
   <p class="de">Im Januar 2015, als Bitcoin bei etwa $150 lag, erreichte der MVRV Z-Score −0,8. Bitcoin stieg danach bis 2017 um das ~130-fache auf $20.000.</p>
+  <p class="fr">En janvier 2015, alors que le Bitcoin était autour de $150, le MVRV Z-Score a atteint −0,8. Le Bitcoin a ensuite progressé d'environ 130 fois pour atteindre $20 000 en 2017.</p>
+  <p class="pt">Em janeiro de 2015, com o Bitcoin próximo de $150, o MVRV Z-Score atingiu −0,8. O Bitcoin subsequentemente subiu cerca de 130x até $20.000 em 2017.</p>
+  <p class="tr">Ocak 2015'te Bitcoin $150 civarındayken MVRV Z-Score −0,8'e ulaştı. Bitcoin daha sonra 2017'ye kadar yaklaşık 130 kat yükselerek $20.000'e ulaştı.</p>
+  <p class="vi">Vào tháng 1 năm 2015, khi Bitcoin ở gần mức $150, MVRV Z-Score chạm mức −0,8. Sau đó Bitcoin đã tăng khoảng 130 lần lên $20.000 vào năm 2017.</p>
 
   <h3>2018–2019 (Z-Score: −0.2)</h3>
   <p class="ko">2018년 12월 $3,200 바닥에서 −0.2를 기록했습니다. 이 구간에서 매수한 투자자들은 2021년 고점까지 약 20배 수익을 올렸습니다.</p>
@@ -251,6 +315,10 @@
   <p class="ja">2018年12月、$3,200の底値で−0.2を記録しました。この水準で買った投資家は、2021年の天井までに約20倍の利益を得ました。</p>
   <p class="es">En el suelo de $3,200 en diciembre de 2018, la puntuación llegó a −0.2. Los compradores en este nivel vieron ganancias de ~20x hasta el pico de 2021.</p>
   <p class="de">Am Tief von $3.200 im Dezember 2018 erreichte der Score −0,2. Käufer auf diesem Niveau sahen bis zum Höchststand 2021 Gewinne von ~20x.</p>
+  <p class="fr">Au creux de $3 200 en décembre 2018, le score a atteint −0,2. Les acheteurs à ce niveau ont réalisé des gains d'environ 20 fois jusqu'au sommet de 2021.</p>
+  <p class="pt">No fundo de $3.200 em dezembro de 2018, o índice atingiu −0,2. Os compradores nesse nível obtiveram ganhos de cerca de 20x até o pico de 2021.</p>
+  <p class="tr">Aralık 2018'deki $3.200 dip noktasında skor −0,2'ye ulaştı. Bu seviyeden alım yapanlar 2021 zirvesine kadar yaklaşık 20 kat kazanç elde etti.</p>
+  <p class="vi">Tại đáy $3.200 vào tháng 12 năm 2018, chỉ số này đạt −0,2. Những người mua ở mức này đã thu được lợi nhuận khoảng 20 lần cho đến đỉnh năm 2021.</p>
 
   <h3>2022 FTX (Z-Score: 0.1)</h3>
   <p class="ko">FTX 붕괴로 비트코인이 $15,500까지 폭락했던 2022년 11월, MVRV Z-Score는 0.1로 역사적 저점 구간에 근접했습니다.</p>
@@ -258,6 +326,10 @@
   <p class="ja">FTX破綻でビットコインが$15,500まで暴落した2022年11月、MVRV Zスコアは0.1と歴史的な底値圏に近づきました。</p>
   <p class="es">Durante el colapso de FTX en noviembre de 2022, con Bitcoin en $15,500, la puntuación fue 0.1 — cerca de la zona de suelo histórico.</p>
   <p class="de">Während des FTX-Zusammenbruchs im November 2022, als Bitcoin bei $15.500 lag, betrug der Score 0,1 — nahe der historischen Tiefzone.</p>
+  <p class="fr">Pendant l'effondrement de FTX en novembre 2022, avec un Bitcoin à $15 500, le score était de 0,1 — proche de la zone de creux historique.</p>
+  <p class="pt">Durante o colapso da FTX em novembro de 2022, com o Bitcoin em $15.500, o índice foi 0,1 — próximo da zona de fundo histórico.</p>
+  <p class="tr">Kasım 2022'deki FTX çöküşü sırasında Bitcoin $15.500 seviyesindeyken skor 0,1 oldu — tarihsel dip bölgesine yakın.</p>
+  <p class="vi">Trong sự sụp đổ của FTX vào tháng 11 năm 2022, khi Bitcoin ở mức $15.500, chỉ số này là 0,1 — gần vùng đáy lịch sử.</p>
 
   <h2 class="ko">한계점</h2>
   <h2 class="en">Limitations</h2>
@@ -287,12 +359,36 @@
     <li><strong>Hohe Korrelation mit NUPL:</strong> Beide basieren auf dem Realized Value und bewegen sich tendenziell gemeinsam.</li>
     <li><strong>Niemals allein verwenden:</strong> Immer mit anderen Indikatoren kombinieren für ein vollständiges Bild.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Ce n'est pas un indicateur avancé :</strong> Il n'indique pas quand le rebond commencera. Les prix peuvent encore baisser pendant des mois, même dans la zone de sous-évaluation.</li>
+    <li><strong>Forte corrélation avec le NUPL :</strong> Les deux indicateurs reposent sur la valeur réalisée et ont tendance à évoluer ensemble.</li>
+    <li><strong>Ne jamais l'utiliser seul :</strong> Toujours le combiner avec d'autres indicateurs pour une vision complète.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Não é um indicador antecedente:</strong> Não indica quando a recuperação começará. Os preços podem cair por mais meses mesmo na zona de subvalorização.</li>
+    <li><strong>Alta correlação com o NUPL:</strong> Ambos são baseados no valor realizado e tendem a se mover juntos.</li>
+    <li><strong>Nunca usar sozinho:</strong> Combine sempre com outros indicadores para obter uma visão completa.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Öncü bir gösterge değildir:</strong> Toparlanmanın ne zaman başlayacağını göstermez. Fiyatlar düşük değerleme bölgesinde bile aylarca daha düşebilir.</li>
+    <li><strong>NUPL ile yüksek korelasyon:</strong> Her ikisi de gerçekleşen değere dayanır ve birlikte hareket etme eğilimindedir.</li>
+    <li><strong>Asla tek başına kullanmayın:</strong> Bütünsel bir görünüm için her zaman diğer göstergelerle birlikte değerlendirin.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Không phải chỉ báo dẫn dắt:</strong> Không cho biết khi nào đà phục hồi sẽ bắt đầu. Giá có thể tiếp tục giảm thêm nhiều tháng ngay cả trong vùng định giá thấp.</li>
+    <li><strong>Tương quan cao với NUPL:</strong> Cả hai đều dựa trên giá trị thực hiện và có xu hướng di chuyển cùng nhau.</li>
+    <li><strong>Không bao giờ sử dụng đơn lẻ:</strong> Luôn kết hợp với các chỉ báo khác để có cái nhìn toàn diện.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Meilleures Combinaisons</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Birlikte Kullanılabilecekler</h2>
+  <h2 class="vi">Kết hợp Tốt nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 가장 강력한 매수 선행 신호</li>
     <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 0.95 이하</a>:</strong> 단기 보유자들의 패닉 손절</li>
