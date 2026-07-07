@@ -31,151 +31,151 @@
   <p class="de">Warum 0,68 wichtig ist, zeigt sich im Blick auf die Geschichte. <a href="/blog/puell-multiple-ceiling-decay.php">Wie diese Seite bereits berichtete</a>, ist das Puell Multiple nur dreimal unter 0,5 gefallen — Januar 2015, Dezember 2018 und November 2022 — und alle drei Momente fielen nahezu mit dem endgültigen Zyklustief zusammen. Das heutige 0,68 hat diese Schwelle noch nicht durchbrochen, nähert sich aber der Nachbarschaft vergangener Zyklustiefs. Bemerkenswert ist, dass die reale Mining-Industrie sich bereits so verhält, als hätte sie kapituliert — noch bevor der Indikator dies formal bestätigt hat. <a href="/blog/miner-selling-record-price-rebound-gap.php">Wie zuvor berichtet</a>, verkauften börsennotierte Miner allein im Q1 2026 mehr als 32.000 BTC — bereits mehr als die gesamten Verkäufe von 2025 — und der Hashprice liegt bei 33-37,5 $ pro PH/s und Tag, also an oder unter der Gewinnschwelle von rund 35 $. Die reale Mining-Wirtschaft durchlebt den Stress bereits, bevor der Indikator ihm eine formale Zahl gegeben hat.</p>
 
   <div class="ko">
-  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Puell Multiple vs 실현시가총액 · 2026-07-07</text>
     <g font-family="sans-serif">
       <text x="20" y="58" fill="#a1a1aa" font-size="14" font-weight="700">① Puell Multiple: 항복 문턱(0.5)까지 남은 거리</text>
-      <rect x="60" y="83" width="242" height="24" fill="rgba(248,113,113,.18)"/>
-      <line x1="60" y1="95" x2="543" y2="95" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-      <text x="60" y="122" fill="#a1a1aa" font-size="13">0</text>
-      <text x="543" y="122" fill="#a1a1aa" font-size="13" text-anchor="end">1.0</text>
-      <line x1="302" y1="73" x2="302" y2="117" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
-      <text x="302" y="65" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0.5 (항복 문턱)</text>
-      <circle cx="389" cy="95" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
-      <line x1="389" y1="103" x2="389" y2="135" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="389" y="150" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0.68 (현재)</text>
-      <text x="181" y="165" fill="#d4d4d8" font-size="13" text-anchor="middle">2015·2018·2022 사이클 저점 모두 이 구간(&lt;0.5) 아래</text>
+      <rect x="60" y="103" width="242" height="24" fill="rgba(248,113,113,.18)"/>
+      <line x1="60" y1="115" x2="543" y2="115" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="60" y="142" fill="#a1a1aa" font-size="13">0</text>
+      <text x="543" y="142" fill="#a1a1aa" font-size="13" text-anchor="end">1.0</text>
+      <line x1="302" y1="93" x2="302" y2="137" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="302" y="85" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0.5 (항복 문턱)</text>
+      <circle cx="389" cy="115" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
+      <line x1="389" y1="123" x2="389" y2="155" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="389" y="170" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0.68 (현재)</text>
+      <text x="181" y="192" fill="#d4d4d8" font-size="13" text-anchor="middle">2015·2018·2022 사이클 저점 모두 이 구간(&lt;0.5) 아래</text>
 
-      <text x="20" y="205" fill="#a1a1aa" font-size="14" font-weight="700">② 30일간 변화율: 가격 vs 실현시가총액</text>
-      <line x1="60" y1="390" x2="60" y2="240" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <text x="30" y="244" fill="#a1a1aa" font-size="13">+10%</text>
-      <text x="30" y="394" fill="#a1a1aa" font-size="13">0%</text>
-      <rect x="160" y="229" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
-      <text x="215" y="220" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7.5%</text>
-      <text x="215" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC 가격</text>
-      <rect x="400" y="325" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="455" y="316" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0.4%</text>
-      <text x="455" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">실현시가총액</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="14" font-weight="700">② 30일간 변화율: 가격 vs 실현시가총액</text>
+      <line x1="60" y1="405" x2="60" y2="255" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+      <text x="30" y="259" fill="#a1a1aa" font-size="13">+10%</text>
+      <text x="30" y="409" fill="#a1a1aa" font-size="13">0%</text>
+      <rect x="160" y="244" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="215" y="235" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7.5%</text>
+      <text x="215" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC 가격</text>
+      <rect x="400" y="340" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="455" y="331" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0.4%</text>
+      <text x="455" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">실현시가총액</text>
     </g>
   </svg>
   <p style="font-size:12px;color:#52525b;margin-top:-10px">데이터: Bitcoin Magazine Pro·CryptoQuant(Puell Multiple), 온체인 분석 플랫폼 추정치(실현시가총액, MVRV). 근사치.</p>
   </div>
   <div class="en">
-  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Puell Multiple vs Realized Cap · Jul 7, 2026</text>
     <g font-family="sans-serif">
       <text x="20" y="58" fill="#a1a1aa" font-size="14" font-weight="700">① Puell Multiple: Distance to the 0.5 Capitulation Floor</text>
-      <rect x="60" y="83" width="242" height="24" fill="rgba(248,113,113,.18)"/>
-      <line x1="60" y1="95" x2="543" y2="95" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-      <text x="60" y="122" fill="#a1a1aa" font-size="13">0</text>
-      <text x="543" y="122" fill="#a1a1aa" font-size="13" text-anchor="end">1.0</text>
-      <line x1="302" y1="73" x2="302" y2="117" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
-      <text x="302" y="65" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0.5 (floor)</text>
-      <circle cx="389" cy="95" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
-      <line x1="389" y1="103" x2="389" y2="135" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="389" y="150" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0.68 (now)</text>
-      <text x="181" y="165" fill="#d4d4d8" font-size="13" text-anchor="middle">2015, 2018 &amp; 2022 cycle lows all sat below this zone (&lt;0.5)</text>
+      <rect x="60" y="103" width="242" height="24" fill="rgba(248,113,113,.18)"/>
+      <line x1="60" y1="115" x2="543" y2="115" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="60" y="142" fill="#a1a1aa" font-size="13">0</text>
+      <text x="543" y="142" fill="#a1a1aa" font-size="13" text-anchor="end">1.0</text>
+      <line x1="302" y1="93" x2="302" y2="137" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="302" y="85" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0.5 (floor)</text>
+      <circle cx="389" cy="115" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
+      <line x1="389" y1="123" x2="389" y2="155" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="389" y="170" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0.68 (now)</text>
+      <text x="181" y="192" fill="#d4d4d8" font-size="13" text-anchor="middle">2015, 2018 &amp; 2022 cycle lows all sat below this zone (&lt;0.5)</text>
 
-      <text x="20" y="205" fill="#a1a1aa" font-size="14" font-weight="700">② 30-Day Change: Price vs Realized Cap</text>
-      <line x1="60" y1="390" x2="60" y2="240" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <text x="30" y="244" fill="#a1a1aa" font-size="13">+10%</text>
-      <text x="30" y="394" fill="#a1a1aa" font-size="13">0%</text>
-      <rect x="160" y="229" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
-      <text x="215" y="220" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7.5%</text>
-      <text x="215" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC Price</text>
-      <rect x="400" y="325" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="455" y="316" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0.4%</text>
-      <text x="455" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">Realized Cap</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="14" font-weight="700">② 30-Day Change: Price vs Realized Cap</text>
+      <line x1="60" y1="405" x2="60" y2="255" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+      <text x="30" y="259" fill="#a1a1aa" font-size="13">+10%</text>
+      <text x="30" y="409" fill="#a1a1aa" font-size="13">0%</text>
+      <rect x="160" y="244" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="215" y="235" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7.5%</text>
+      <text x="215" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC Price</text>
+      <rect x="400" y="340" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="455" y="331" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0.4%</text>
+      <text x="455" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">Realized Cap</text>
     </g>
   </svg>
   <p style="font-size:12px;color:#52525b;margin-top:-10px">Data: Bitcoin Magazine Pro &amp; CryptoQuant (Puell Multiple), on-chain analytics platform estimates (Realized Cap, MVRV). Approximate figures.</p>
   </div>
   <div class="ja">
-  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Puell Multiple vs 実現時価総額 · 2026年7月7日</text>
     <g font-family="sans-serif">
       <text x="20" y="58" fill="#a1a1aa" font-size="14" font-weight="700">①Puell Multiple: 降伏の水準(0.5)までの距離</text>
-      <rect x="60" y="83" width="242" height="24" fill="rgba(248,113,113,.18)"/>
-      <line x1="60" y1="95" x2="543" y2="95" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-      <text x="60" y="122" fill="#a1a1aa" font-size="13">0</text>
-      <text x="543" y="122" fill="#a1a1aa" font-size="13" text-anchor="end">1.0</text>
-      <line x1="302" y1="73" x2="302" y2="117" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
-      <text x="302" y="65" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0.5(降伏水準)</text>
-      <circle cx="389" cy="95" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
-      <line x1="389" y1="103" x2="389" y2="135" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="389" y="150" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0.68(現在)</text>
-      <text x="181" y="165" fill="#d4d4d8" font-size="13" text-anchor="middle">2015・2018・2022年のサイクル底は全てこの区間(&lt;0.5)より下</text>
+      <rect x="60" y="103" width="242" height="24" fill="rgba(248,113,113,.18)"/>
+      <line x1="60" y1="115" x2="543" y2="115" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="60" y="142" fill="#a1a1aa" font-size="13">0</text>
+      <text x="543" y="142" fill="#a1a1aa" font-size="13" text-anchor="end">1.0</text>
+      <line x1="302" y1="93" x2="302" y2="137" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="302" y="85" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0.5(降伏水準)</text>
+      <circle cx="389" cy="115" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
+      <line x1="389" y1="123" x2="389" y2="155" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="389" y="170" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0.68(現在)</text>
+      <text x="181" y="192" fill="#d4d4d8" font-size="13" text-anchor="middle">2015・2018・2022年のサイクル底は全てこの区間(&lt;0.5)より下</text>
 
-      <text x="20" y="205" fill="#a1a1aa" font-size="14" font-weight="700">②30日間の変化率: 価格 vs 実現時価総額</text>
-      <line x1="60" y1="390" x2="60" y2="240" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <text x="30" y="244" fill="#a1a1aa" font-size="13">+10%</text>
-      <text x="30" y="394" fill="#a1a1aa" font-size="13">0%</text>
-      <rect x="160" y="229" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
-      <text x="215" y="220" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7.5%</text>
-      <text x="215" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC価格</text>
-      <rect x="400" y="325" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="455" y="316" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0.4%</text>
-      <text x="455" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">実現時価総額</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="14" font-weight="700">②30日間の変化率: 価格 vs 実現時価総額</text>
+      <line x1="60" y1="405" x2="60" y2="255" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+      <text x="30" y="259" fill="#a1a1aa" font-size="13">+10%</text>
+      <text x="30" y="409" fill="#a1a1aa" font-size="13">0%</text>
+      <rect x="160" y="244" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="215" y="235" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7.5%</text>
+      <text x="215" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC価格</text>
+      <rect x="400" y="340" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="455" y="331" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0.4%</text>
+      <text x="455" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">実現時価総額</text>
     </g>
   </svg>
   <p style="font-size:12px;color:#52525b;margin-top:-10px">データ: Bitcoin Magazine Pro・CryptoQuant(Puell Multiple)、オンチェーン分析プラットフォーム推定値(実現時価総額・MVRV)。近似値。</p>
   </div>
   <div class="es">
-  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Puell Multiple vs Capitalización Realizada · 7 jul 2026</text>
     <g font-family="sans-serif">
       <text x="20" y="58" fill="#a1a1aa" font-size="14" font-weight="700">① Puell Multiple: Distancia al Piso de Capitulación (0,5)</text>
-      <rect x="60" y="83" width="242" height="24" fill="rgba(248,113,113,.18)"/>
-      <line x1="60" y1="95" x2="543" y2="95" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-      <text x="60" y="122" fill="#a1a1aa" font-size="13">0</text>
-      <text x="543" y="122" fill="#a1a1aa" font-size="13" text-anchor="end">1,0</text>
-      <line x1="302" y1="73" x2="302" y2="117" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
-      <text x="302" y="65" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0,5 (piso)</text>
-      <circle cx="389" cy="95" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
-      <line x1="389" y1="103" x2="389" y2="135" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="389" y="150" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0,68 (ahora)</text>
-      <text x="181" y="165" fill="#d4d4d8" font-size="13" text-anchor="middle">Los fondos de 2015, 2018 y 2022 estuvieron todos bajo esta zona (&lt;0,5)</text>
+      <rect x="60" y="103" width="242" height="24" fill="rgba(248,113,113,.18)"/>
+      <line x1="60" y1="115" x2="543" y2="115" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="60" y="142" fill="#a1a1aa" font-size="13">0</text>
+      <text x="543" y="142" fill="#a1a1aa" font-size="13" text-anchor="end">1,0</text>
+      <line x1="302" y1="93" x2="302" y2="137" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="302" y="85" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0,5 (piso)</text>
+      <circle cx="389" cy="115" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
+      <line x1="389" y1="123" x2="389" y2="155" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="389" y="170" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0,68 (ahora)</text>
+      <text x="181" y="192" fill="#d4d4d8" font-size="13" text-anchor="middle">Los fondos de 2015, 2018 y 2022 estuvieron todos bajo esta zona (&lt;0,5)</text>
 
-      <text x="20" y="205" fill="#a1a1aa" font-size="14" font-weight="700">② Cambio en 30 Días: Precio vs Capitalización Realizada</text>
-      <line x1="60" y1="390" x2="60" y2="240" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <text x="30" y="244" fill="#a1a1aa" font-size="13">+10%</text>
-      <text x="30" y="394" fill="#a1a1aa" font-size="13">0%</text>
-      <rect x="160" y="229" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
-      <text x="215" y="220" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7,5%</text>
-      <text x="215" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">Precio BTC</text>
-      <rect x="400" y="325" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="455" y="316" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0,4%</text>
-      <text x="455" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">Cap. Realizada</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="14" font-weight="700">② Cambio en 30 Días: Precio vs Capitalización Realizada</text>
+      <line x1="60" y1="405" x2="60" y2="255" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+      <text x="30" y="259" fill="#a1a1aa" font-size="13">+10%</text>
+      <text x="30" y="409" fill="#a1a1aa" font-size="13">0%</text>
+      <rect x="160" y="244" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="215" y="235" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7,5%</text>
+      <text x="215" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">Precio BTC</text>
+      <rect x="400" y="340" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="455" y="331" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0,4%</text>
+      <text x="455" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">Cap. Realizada</text>
     </g>
   </svg>
   <p style="font-size:12px;color:#52525b;margin-top:-10px">Datos: Bitcoin Magazine Pro y CryptoQuant (Puell Multiple), estimaciones de plataformas de análisis on-chain (Capitalización Realizada, MVRV). Cifras aproximadas.</p>
   </div>
   <div class="de">
-  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Puell Multiple vs Realized Cap · 7. Juli 2026</text>
     <g font-family="sans-serif">
       <text x="20" y="58" fill="#a1a1aa" font-size="14" font-weight="700">① Puell Multiple: Abstand zur 0,5-Kapitulationsschwelle</text>
-      <rect x="60" y="83" width="242" height="24" fill="rgba(248,113,113,.18)"/>
-      <line x1="60" y1="95" x2="543" y2="95" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-      <text x="60" y="122" fill="#a1a1aa" font-size="13">0</text>
-      <text x="543" y="122" fill="#a1a1aa" font-size="13" text-anchor="end">1,0</text>
-      <line x1="302" y1="73" x2="302" y2="117" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
-      <text x="302" y="65" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0,5 (Schwelle)</text>
-      <circle cx="389" cy="95" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
-      <line x1="389" y1="103" x2="389" y2="135" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="389" y="150" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0,68 (jetzt)</text>
-      <text x="181" y="165" fill="#d4d4d8" font-size="13" text-anchor="middle">Die Zyklustiefs 2015, 2018 &amp; 2022 lagen alle unter dieser Zone (&lt;0,5)</text>
+      <rect x="60" y="103" width="242" height="24" fill="rgba(248,113,113,.18)"/>
+      <line x1="60" y1="115" x2="543" y2="115" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="60" y="142" fill="#a1a1aa" font-size="13">0</text>
+      <text x="543" y="142" fill="#a1a1aa" font-size="13" text-anchor="end">1,0</text>
+      <line x1="302" y1="93" x2="302" y2="137" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="302" y="85" fill="#f87171" font-size="14" font-weight="800" text-anchor="middle">0,5 (Schwelle)</text>
+      <circle cx="389" cy="115" r="8" fill="#38bdf8" stroke="#fafafa" stroke-width="1.5"/>
+      <line x1="389" y1="123" x2="389" y2="155" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="389" y="170" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">0,68 (jetzt)</text>
+      <text x="181" y="192" fill="#d4d4d8" font-size="13" text-anchor="middle">Die Zyklustiefs 2015, 2018 &amp; 2022 lagen alle unter dieser Zone (&lt;0,5)</text>
 
-      <text x="20" y="205" fill="#a1a1aa" font-size="14" font-weight="700">② 30-Tage-Veränderung: Preis vs Realized Cap</text>
-      <line x1="60" y1="390" x2="60" y2="240" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-      <text x="30" y="244" fill="#a1a1aa" font-size="13">+10%</text>
-      <text x="30" y="394" fill="#a1a1aa" font-size="13">0%</text>
-      <rect x="160" y="229" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
-      <text x="215" y="220" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7,5%</text>
-      <text x="215" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC-Preis</text>
-      <rect x="400" y="325" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
-      <text x="455" y="316" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0,4%</text>
-      <text x="455" y="412" fill="#d4d4d8" font-size="13" text-anchor="middle">Realized Cap</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="14" font-weight="700">② 30-Tage-Veränderung: Preis vs Realized Cap</text>
+      <line x1="60" y1="405" x2="60" y2="255" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
+      <text x="30" y="259" fill="#a1a1aa" font-size="13">+10%</text>
+      <text x="30" y="409" fill="#a1a1aa" font-size="13">0%</text>
+      <rect x="160" y="244" width="110" height="101" rx="6" fill="rgba(74,222,128,.3)" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="215" y="235" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle">+7,5%</text>
+      <text x="215" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">BTC-Preis</text>
+      <rect x="400" y="340" width="110" height="5" rx="2" fill="rgba(56,189,248,.4)" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="455" y="331" fill="#38bdf8" font-size="16" font-weight="800" text-anchor="middle">+0,4%</text>
+      <text x="455" y="427" fill="#d4d4d8" font-size="13" text-anchor="middle">Realized Cap</text>
     </g>
   </svg>
   <p style="font-size:12px;color:#52525b;margin-top:-10px">Daten: Bitcoin Magazine Pro und CryptoQuant (Puell Multiple), Schätzungen von On-Chain-Analyseplattformen (Realized Cap, MVRV). Näherungswerte.</p>
