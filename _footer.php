@@ -349,5 +349,44 @@ window.addEventListener('pageshow', function(e){ applySavedLang(); });
 })();
 
 </script>
+<?php $tbSuffix = langSuffix($requestedLang ?? $lang ?? 'ko');
+$tb = [
+  'ko'=>['live'=>'실시간 지표','coin'=>'코인 검색','blog'=>'블로그'],
+  'en'=>['live'=>'Live','coin'=>'Find Coins','blog'=>'Blog'],
+  'ja'=>['live'=>'リアルタイム','coin'=>'コイン検索','blog'=>'ブログ'],
+  'es'=>['live'=>'En vivo','coin'=>'Buscar','blog'=>'Blog'],
+  'de'=>['live'=>'Live','coin'=>'Coins','blog'=>'Blog'],
+];
+$tbt = $tb[$lang] ?? $tb['en']; ?>
+<style>
+.blog-tabbar{display:none}
+@media(max-width:600px){
+  .blog-tabbar{display:flex;position:fixed;left:0;right:0;top:auto;bottom:0;z-index:900;
+    height:48px;background:rgba(15,15,17,.96);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+    border-top:1px solid rgba(255,255,255,.07);padding-bottom:env(safe-area-inset-bottom)}
+  .blog-tabbar .btab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;
+    -webkit-tap-highlight-color:transparent}
+  .blog-tabbar .btab.active{color:#fb923c}
+  .blog-tabbar .btab.active::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:22px;height:2px;border-radius:0 0 3px 3px;background:#fb923c}
+  .blog-tabbar .btab svg{width:20px;height:20px;display:block}
+  body{padding-bottom:48px}
+}
+</style>
+<nav class="blog-tabbar">
+  <a class="btab" href="/<?= h($tbSuffix) ?>">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
+    <span><?= h($tbt['live']) ?></span>
+  </a>
+  <a class="btab" href="/coins.php<?= h($tbSuffix) ?>">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
+    <span><?= h($tbt['coin']) ?></span>
+  </a>
+  <a class="btab active" href="/blog/<?= h($blogSuffix) ?>">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
+    <span><?= h($tbt['blog']) ?></span>
+  </a>
+</nav>
 </body>
 </html>
