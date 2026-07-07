@@ -1,40 +1,130 @@
 <?php $slug = 'patch-long-exit'; require __DIR__.'/_header.php'; ?>
 
-  <p class="ko">안녕하세요. BTCtiming에서 알트코인 지표를 맡고 있는 <strong>Kai</strong>입니다. 오늘은 우리가 최근에 겪은, 조금 부끄럽지만 꼭 공유하고 싶은 이야기를 하나 하려고 합니다. 이더리움 점수 하나 때문에 지표 설계 전체를 다시 들여다보게 된 사건입니다.</p>
-  <p class="en">Hi, I'm <strong>Kai</strong>, and I handle the altcoin indicators here at BTCtiming. Today I want to share a slightly embarrassing but important story — how a single Ethereum score made us rethink the entire scoring design.</p>
-  <p class="ja">こんにちは。BTCtimingでアルトコイン指標を担当している<strong>Kai</strong>です。今日は少し恥ずかしいですが、ぜひ共有したい話をします。イーサリアムのスコア一つが、指標設計全体を見直すきっかけになった出来事です。</p>
-  <p class="es">Hola, soy <strong>Kai</strong> y me encargo de los indicadores de altcoins en BTCtiming. Hoy quiero compartir una historia un poco vergonzosa pero importante: cómo una sola puntuación de Ethereum nos hizo replantear todo el diseño.</p>
-  <p class="de">Hallo, ich bin <strong>Kai</strong> und betreue die Altcoin-Indikatoren bei BTCtiming. Heute erzähle ich eine etwas peinliche, aber wichtige Geschichte — wie ein einziger Ethereum-Wert uns das gesamte Bewertungsdesign überdenken ließ.</p>
+  <p class="ko">문제는 이더리움 카드 한 장에서 시작됐다. 전고점 대비 64% 하락한 종목의 화면에, 시스템은 "일부 정리하라"는 신호를 띄우고 있었다. 우리는 그 한 줄이 왜 틀렸는지를 추적하는 과정에서, 점수 자체가 아니라 점수를 사람에게 전하는 방식에 결함이 있었다는 결론에 도달했다. 이 글은 그 며칠간의 기록이다.</p>
+  <p class="en">It began with a single Ethereum card. On the screen for an asset down 64% from its all-time high, the system was flashing a signal to "partially exit." In tracing why that one line was wrong, we concluded that the flaw lay not in the score itself but in how the score was communicated to a person. This is a record of those few days.</p>
+  <p class="ja">問題は一枚のイーサリアムのカードから始まった。最高値から64%下落した銘柄の画面に、システムは「一部売却せよ」というシグナルを表示していた。その一行がなぜ誤りなのかを追ううちに、私たちは欠陥がスコアそのものではなく、スコアを人に伝える方法にあったという結論に至った。本稿はその数日間の記録である。</p>
+  <p class="es">Todo empezó con una sola tarjeta de Ethereum. En la pantalla de un activo caído un 64% desde su máximo histórico, el sistema mostraba una señal de "salir parcialmente". Al rastrear por qué esa línea era errónea, concluimos que el defecto no estaba en la puntuación misma, sino en cómo se comunicaba a una persona. Este es el registro de esos días.</p>
+  <p class="de">Es begann mit einer einzigen Ethereum-Karte. Auf dem Bildschirm eines Vermögenswerts, der 64% unter seinem Allzeithoch lag, zeigte das System ein Signal zum „teilweisen Ausstieg". Bei der Suche nach dem Grund kamen wir zu dem Schluss, dass der Fehler nicht im Wert selbst lag, sondern darin, wie er einem Menschen vermittelt wurde. Dies ist die Aufzeichnung jener Tage.</p>
 
-  <div class="box ko">🩹 <strong>이번 패치 한 줄 요약:</strong> "롱 점수가 낮다 = 팔아라"라는 잘못된 등식을 걷어냈습니다. 낮은 롱 점수는 "지금 사기엔 매력이 약하다"는 뜻이지, "들고 있는 걸 던지라"는 뜻이 아닙니다.</div>
-  <div class="box en">🩹 <strong>Patch in one line:</strong> We removed the false equation "low long score = sell." A low long score means "not an attractive place to buy right now," not "dump what you're holding."</div>
-  <div class="box ja">🩹 <strong>今回のパッチ要約:</strong>「ロングスコアが低い＝売れ」という誤った等式を取り除きました。低いロングスコアは「今は買う魅力が弱い」という意味であって、「持っているものを投げろ」ではありません。</div>
-  <div class="box es">🩹 <strong>Resumen del parche:</strong> Eliminamos la ecuación falsa "puntuación long baja = vender." Una puntuación long baja significa "no es un buen momento para comprar," no "vende lo que tienes."</div>
-  <div class="box de">🩹 <strong>Patch in einem Satz:</strong> Wir haben die falsche Gleichung „niedriger Long-Score = verkaufen" entfernt. Ein niedriger Long-Score bedeutet „gerade kein attraktiver Kaufzeitpunkt", nicht „wirf ab, was du hältst".</div>
+  <div class="ko">
+  <svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="24" width="700" height="252" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <circle cx="62" cy="62" r="14" fill="#627eea"/>
+    <text x="62" y="67" fill="#fff" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Ξ</text>
+    <text x="88" y="60" fill="#f0f0f0" font-size="18" font-weight="700" font-family="sans-serif">Ethereum</text>
+    <text x="88" y="80" fill="#666666" font-size="13" font-family="sans-serif">ETH · $1,760</text>
+    <text x="60" y="130" fill="#666666" font-size="11" letter-spacing="1" font-family="sans-serif">롱 (LONG) 진입 점수</text>
+    <text x="58" y="200" fill="#fb923c" font-size="64" font-weight="800" font-family="sans-serif" letter-spacing="-3">4.9</text>
+    <text x="168" y="200" fill="#aaaaaa" font-size="18" font-family="sans-serif">/ 10</text>
+    <text x="60" y="238" fill="#fb923c" font-size="21" font-weight="700" font-family="sans-serif">SPLIT EXIT</text>
+    <text x="60" y="260" fill="#666666" font-size="12" font-family="sans-serif">일부 정리. 리스크 관리 구간.</text>
+    <text x="700" y="130" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">전고점 대비</text>
+    <text x="700" y="162" fill="#f87171" font-size="28" font-weight="700" text-anchor="end" font-family="sans-serif">-64.1%</text>
+    <text x="700" y="200" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">추정 실현가 대비</text>
+    <text x="700" y="228" fill="#f87171" font-size="22" font-weight="700" text-anchor="end" font-family="sans-serif">-28.1%</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ 문제가 된 이더리움 카드. 64% 하락한 종목에 "SPLIT EXIT(일부 정리)"가 떠 있다.</p>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="24" width="700" height="252" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <circle cx="62" cy="62" r="14" fill="#627eea"/>
+    <text x="62" y="67" fill="#fff" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Ξ</text>
+    <text x="88" y="60" fill="#f0f0f0" font-size="18" font-weight="700" font-family="sans-serif">Ethereum</text>
+    <text x="88" y="80" fill="#666666" font-size="13" font-family="sans-serif">ETH · $1,760</text>
+    <text x="60" y="130" fill="#666666" font-size="11" letter-spacing="1" font-family="sans-serif">LONG entry score</text>
+    <text x="58" y="200" fill="#fb923c" font-size="64" font-weight="800" font-family="sans-serif" letter-spacing="-3">4.9</text>
+    <text x="168" y="200" fill="#aaaaaa" font-size="18" font-family="sans-serif">/ 10</text>
+    <text x="60" y="238" fill="#fb923c" font-size="21" font-weight="700" font-family="sans-serif">SPLIT EXIT</text>
+    <text x="60" y="260" fill="#666666" font-size="12" font-family="sans-serif">Trim partially. Risk-management zone.</text>
+    <text x="700" y="130" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">From ATH</text>
+    <text x="700" y="162" fill="#f87171" font-size="28" font-weight="700" text-anchor="end" font-family="sans-serif">-64.1%</text>
+    <text x="700" y="200" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">vs realized price</text>
+    <text x="700" y="228" fill="#f87171" font-size="22" font-weight="700" text-anchor="end" font-family="sans-serif">-28.1%</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ The Ethereum card in question. An asset down 64% shows "SPLIT EXIT."</p>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="24" width="700" height="252" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <circle cx="62" cy="62" r="14" fill="#627eea"/>
+    <text x="62" y="67" fill="#fff" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Ξ</text>
+    <text x="88" y="60" fill="#f0f0f0" font-size="18" font-weight="700" font-family="sans-serif">Ethereum</text>
+    <text x="88" y="80" fill="#666666" font-size="13" font-family="sans-serif">ETH · $1,760</text>
+    <text x="60" y="130" fill="#666666" font-size="11" letter-spacing="1" font-family="sans-serif">ロング (LONG) スコア</text>
+    <text x="58" y="200" fill="#fb923c" font-size="64" font-weight="800" font-family="sans-serif" letter-spacing="-3">4.9</text>
+    <text x="168" y="200" fill="#aaaaaa" font-size="18" font-family="sans-serif">/ 10</text>
+    <text x="60" y="238" fill="#fb923c" font-size="21" font-weight="700" font-family="sans-serif">SPLIT EXIT</text>
+    <text x="60" y="260" fill="#666666" font-size="12" font-family="sans-serif">一部売却。リスク管理区間。</text>
+    <text x="700" y="130" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">最高値から</text>
+    <text x="700" y="162" fill="#f87171" font-size="28" font-weight="700" text-anchor="end" font-family="sans-serif">-64.1%</text>
+    <text x="700" y="200" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">実現価格比</text>
+    <text x="700" y="228" fill="#f87171" font-size="22" font-weight="700" text-anchor="end" font-family="sans-serif">-28.1%</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ 問題のイーサリアムのカード。64%下落した銘柄に「SPLIT EXIT(一部売却)」が表示されている。</p>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="24" width="700" height="252" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <circle cx="62" cy="62" r="14" fill="#627eea"/>
+    <text x="62" y="67" fill="#fff" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Ξ</text>
+    <text x="88" y="60" fill="#f0f0f0" font-size="18" font-weight="700" font-family="sans-serif">Ethereum</text>
+    <text x="88" y="80" fill="#666666" font-size="13" font-family="sans-serif">ETH · $1,760</text>
+    <text x="60" y="130" fill="#666666" font-size="11" letter-spacing="1" font-family="sans-serif">Puntuación LONG</text>
+    <text x="58" y="200" fill="#fb923c" font-size="64" font-weight="800" font-family="sans-serif" letter-spacing="-3">4.9</text>
+    <text x="168" y="200" fill="#aaaaaa" font-size="18" font-family="sans-serif">/ 10</text>
+    <text x="60" y="238" fill="#fb923c" font-size="21" font-weight="700" font-family="sans-serif">SPLIT EXIT</text>
+    <text x="60" y="260" fill="#666666" font-size="12" font-family="sans-serif">Reducir parcialmente. Zona de riesgo.</text>
+    <text x="700" y="130" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">Desde máximo</text>
+    <text x="700" y="162" fill="#f87171" font-size="28" font-weight="700" text-anchor="end" font-family="sans-serif">-64.1%</text>
+    <text x="700" y="200" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">vs precio realizado</text>
+    <text x="700" y="228" fill="#f87171" font-size="22" font-weight="700" text-anchor="end" font-family="sans-serif">-28.1%</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ La tarjeta de Ethereum en cuestión. Un activo caído 64% muestra "SPLIT EXIT".</p>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="24" width="700" height="252" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <circle cx="62" cy="62" r="14" fill="#627eea"/>
+    <text x="62" y="67" fill="#fff" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Ξ</text>
+    <text x="88" y="60" fill="#f0f0f0" font-size="18" font-weight="700" font-family="sans-serif">Ethereum</text>
+    <text x="88" y="80" fill="#666666" font-size="13" font-family="sans-serif">ETH · $1,760</text>
+    <text x="60" y="130" fill="#666666" font-size="11" letter-spacing="1" font-family="sans-serif">LONG-Score</text>
+    <text x="58" y="200" fill="#fb923c" font-size="64" font-weight="800" font-family="sans-serif" letter-spacing="-3">4.9</text>
+    <text x="168" y="200" fill="#aaaaaa" font-size="18" font-family="sans-serif">/ 10</text>
+    <text x="60" y="238" fill="#fb923c" font-size="21" font-weight="700" font-family="sans-serif">SPLIT EXIT</text>
+    <text x="60" y="260" fill="#666666" font-size="12" font-family="sans-serif">Teilweise reduzieren. Risikozone.</text>
+    <text x="700" y="130" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">Vom ATH</text>
+    <text x="700" y="162" fill="#f87171" font-size="28" font-weight="700" text-anchor="end" font-family="sans-serif">-64.1%</text>
+    <text x="700" y="200" fill="#666666" font-size="11" text-anchor="end" font-family="sans-serif">vs. realisierter Preis</text>
+    <text x="700" y="228" fill="#f87171" font-size="22" font-weight="700" text-anchor="end" font-family="sans-serif">-28.1%</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ Die betreffende Ethereum-Karte. Ein 64% gefallener Wert zeigt „SPLIT EXIT".</p>
+  </div>
 
-  <h2 class="ko">발단: 64% 폭락한 이더리움에 "일부 정리하라"고 뜬 화면</h2>
-  <h2 class="en">The trigger: a screen telling us to "partially exit" an Ethereum down 64%</h2>
-  <h2 class="ja">発端：64%暴落したイーサリアムに「一部売却」と表示された画面</h2>
-  <h2 class="es">El detonante: una pantalla que decía "salir parcialmente" de un Ethereum caído un 64%</h2>
-  <h2 class="de">Der Auslöser: ein Bildschirm, der bei einem 64% gefallenen Ethereum „teilweise verkaufen" anzeigte</h2>
+  <h2 class="ko">이상한 신호</h2>
+  <h2 class="en">A strange signal</h2>
+  <h2 class="ja">奇妙なシグナル</h2>
+  <h2 class="es">Una señal extraña</h2>
+  <h2 class="de">Ein seltsames Signal</h2>
 
-  <p class="ko">어느 날 이더리움 카드를 보다가 이상한 걸 발견했습니다. 이더리움은 전고점 대비 <strong>64% 하락</strong>한 상태였고, 추정 실현가(200주 이동평균)보다도 28% 아래에 있었습니다. 누가 봐도 "많이 싸진" 상태였죠. 그런데 롱 점수가 <strong>4.9점</strong>이 나오면서 액션에는 <strong>"SPLIT EXIT — 일부 정리"</strong>가 떠 있었습니다. 쉽게 말해 "들고 있는 이더리움을 좀 팔아라"였습니다.</p>
-  <p class="en">One day, looking at the Ethereum card, I noticed something odd. Ethereum was down <strong>64% from its all-time high</strong>, and sitting 28% below its estimated realized price (the 200-week moving average). By any measure, it had gotten "cheap." Yet the long score read <strong>4.9</strong>, and the action label said <strong>"SPLIT EXIT."</strong> In plain terms: "sell some of the Ethereum you're holding."</p>
-  <p class="ja">ある日、イーサリアムのカードを見ていて奇妙なことに気づきました。イーサリアムは最高値から<strong>64%下落</strong>し、推定実現価格(200週移動平均)よりも28%下にありました。誰が見ても「かなり安く」なった状態です。ところがロングスコアは<strong>4.9点</strong>で、アクションには<strong>「SPLIT EXIT — 一部売却」</strong>と表示されていました。要するに「持っているイーサリアムを少し売れ」です。</p>
-  <p class="es">Un día, mirando la tarjeta de Ethereum, noté algo extraño. Ethereum había caído un <strong>64% desde su máximo histórico</strong> y estaba un 28% por debajo de su precio realizado estimado (la media móvil de 200 semanas). Por cualquier medida, se había vuelto "barato." Sin embargo, la puntuación long marcaba <strong>4.9</strong>, y la acción decía <strong>"SPLIT EXIT."</strong> En pocas palabras: "vende parte de tu Ethereum."</p>
-  <p class="de">Eines Tages fiel mir beim Betrachten der Ethereum-Karte etwas Seltsames auf. Ethereum war <strong>64% unter seinem Allzeithoch</strong> und lag 28% unter seinem geschätzten realisierten Preis (dem 200-Wochen-Durchschnitt). Nach jedem Maßstab war es „billig" geworden. Trotzdem zeigte der Long-Score <strong>4,9</strong> und die Aktion lautete <strong>„SPLIT EXIT."</strong> Im Klartext: „Verkaufe einen Teil deines Ethereums."</p>
+  <p class="ko">이더리움은 전고점에서 64% 내려와 있었고, 우리가 실현가의 대용치로 쓰는 200주 이동평균보다도 28% 아래였다. 어떤 기준으로 보아도 "싸진" 상태였다. 그런데 롱 점수는 4.9였고, 그 아래에는 "SPLIT EXIT — 일부 정리"라는 문구가 붙어 있었다. 풀어 쓰면 "들고 있는 이더리움을 조금 팔라"는 뜻이다. 64% 하락한 종목에게 더 팔라는 신호가 상식과 어긋난다는 점은 분명했다.</p>
+  <p class="en">Ethereum was down 64% from its high, and 28% below the 200-week moving average we use as a proxy for realized price. By any measure, it had become "cheap." Yet the long score read 4.9, and beneath it sat the phrase "SPLIT EXIT." In plain terms: sell some of the Ethereum you hold. That a coin down 64% would be told to sell more clearly ran against common sense.</p>
+  <p class="ja">イーサリアムは高値から64%下落し、私たちが実現価格の代用値として使う200週移動平均よりも28%下にあった。どの基準で見ても「安く」なっていた。ところがロングスコアは4.9で、その下には「SPLIT EXIT — 一部売却」の文言が付いていた。噛み砕けば「持っているイーサリアムを少し売れ」だ。64%下落した銘柄にさらに売れというシグナルが常識に反することは明らかだった。</p>
+  <p class="es">Ethereum había caído un 64% desde su máximo y estaba un 28% por debajo de la media móvil de 200 semanas que usamos como sustituto del precio realizado. Por cualquier medida, se había vuelto "barato". Sin embargo, la puntuación long marcaba 4.9, y debajo aparecía la frase "SPLIT EXIT". En pocas palabras: vende parte del Ethereum que tienes. Que a una moneda caída un 64% se le dijera vender más contradecía claramente el sentido común.</p>
+  <p class="de">Ethereum lag 64% unter seinem Hoch und 28% unter dem 200-Wochen-Durchschnitt, den wir als Näherung für den realisierten Preis verwenden. Nach jedem Maßstab war es „billig" geworden. Doch der Long-Score zeigte 4,9, darunter stand „SPLIT EXIT". Im Klartext: Verkaufe einen Teil deines Ethereums. Dass einer um 64% gefallenen Münze gesagt wurde, mehr zu verkaufen, widersprach eindeutig dem gesunden Menschenverstand.</p>
 
-  <p class="ko">뭔가 크게 잘못됐다는 느낌이 들었습니다. 64% 빠져서 바닥 근처인 코인한테 "더 팔아라"라니, 이건 상식적으로 이상하잖아요. 그래서 그 순간 같은 이더리움의 <strong>숏 점수</strong>도 같이 확인해봤습니다. 그랬더니 더 이상한 그림이 나왔습니다.</p>
-  <p class="en">Something felt deeply wrong. Telling someone to "sell more" of a coin that's down 64% and near a bottom just defies common sense. So I checked the <strong>short score</strong> for the same Ethereum at that moment. And the picture got even stranger.</p>
-  <p class="ja">何かが大きく間違っていると感じました。64%下落して底値付近のコインに「もっと売れ」というのは、常識的におかしいですよね。そこでその瞬間、同じイーサリアムの<strong>ショートスコア</strong>も確認してみました。すると、さらに奇妙な絵が見えてきました。</p>
-  <p class="es">Algo estaba profundamente mal. Decirle a alguien que "venda más" de una moneda caída un 64% y cerca de un suelo simplemente desafía el sentido común. Así que revisé la <strong>puntuación short</strong> del mismo Ethereum en ese momento. Y el panorama se volvió aún más extraño.</p>
-  <p class="de">Etwas fühlte sich zutiefst falsch an. Jemandem zu sagen, er solle „mehr verkaufen" von einer Münze, die 64% gefallen und nahe einem Boden ist, widerspricht dem gesunden Menschenverstand. Also prüfte ich den <strong>Short-Score</strong> desselben Ethereums. Und das Bild wurde noch seltsamer.</p>
+  <p class="ko">우리 팀에서 알트코인 지표를 맡고 있는 Kai가 같은 순간의 숏 점수를 함께 확인했다. 그 결과가 이 문제의 성격을 분명하게 드러냈다.</p>
+  <p class="en">Kai, who oversees altcoin indicators on our team, pulled up the short score for the same moment. The result laid the problem bare.</p>
+  <p class="ja">私たちのチームでアルトコイン指標を担当するKaiが、同じ瞬間のショートスコアも確認した。その結果がこの問題の性質を明確に示した。</p>
+  <p class="es">Kai, que supervisa los indicadores de altcoins en nuestro equipo, revisó la puntuación short del mismo momento. El resultado dejó el problema al descubierto.</p>
+  <p class="de">Kai, der in unserem Team die Altcoin-Indikatoren betreut, rief den Short-Score für denselben Moment auf. Das Ergebnis legte das Problem offen.</p>
 
-  <h2 class="ko">모순의 발견: 롱은 "팔아라", 숏은 "바닥이다"</h2>
-  <h2 class="en">The contradiction: long says "sell," short says "it's a bottom"</h2>
-  <h2 class="ja">矛盾の発見：ロングは「売れ」、ショートは「底だ」</h2>
-  <h2 class="es">La contradicción: long dice "vende," short dice "es un suelo"</h2>
-  <h2 class="de">Der Widerspruch: Long sagt „verkaufen", Short sagt „es ist ein Boden"</h2>
+  <h2 class="ko">두 점수가 서로를 부정하고 있었다</h2>
+  <h2 class="en">The two scores were contradicting each other</h2>
+  <h2 class="ja">二つのスコアが互いを否定していた</h2>
+  <h2 class="es">Las dos puntuaciones se contradecían</h2>
+  <h2 class="de">Die beiden Scores widersprachen sich</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -44,12 +134,10 @@
       <rect x="20" y="80" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="80" width="215" height="26" fill="#f97316" rx="4"/>
       <text x="245" y="98" fill="#fff" font-size="12" font-weight="700">4.9 → "SPLIT EXIT (일부 정리 = 팔아라)"</text>
-
       <text x="20" y="140" fill="#f87171" font-size="12" font-weight="700">숏(매도) 점수</text>
       <rect x="20" y="150" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="150" width="158" height="26" fill="#22c55e" rx="4"/>
       <text x="188" y="168" fill="#fff" font-size="12" font-weight="700">3.6 → "EXIT SHORT (바닥이니 숏 청산)"</text>
-
       <text x="20" y="205" fill="#71717a" font-size="11">→ "바닥이라 숏을 접으라"면서 동시에 "롱을 팔라"고 함. 둘 다 맞을 수 없음.</text>
     </g>
   </svg>
@@ -62,13 +150,11 @@
       <rect x="20" y="80" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="80" width="215" height="26" fill="#f97316" rx="4"/>
       <text x="245" y="98" fill="#fff" font-size="12" font-weight="700">4.9 → "SPLIT EXIT (sell some)"</text>
-
       <text x="20" y="140" fill="#f87171" font-size="12" font-weight="700">SHORT score</text>
       <rect x="20" y="150" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="150" width="158" height="26" fill="#22c55e" rx="4"/>
       <text x="188" y="168" fill="#fff" font-size="12" font-weight="700">3.6 → "EXIT SHORT (bottom, cover)"</text>
-
-      <text x="20" y="205" fill="#71717a" font-size="11">→ "It's a bottom, cover your short" AND "sell your long" at once. Both can't be right.</text>
+      <text x="20" y="205" fill="#71717a" font-size="11">→ "It's a bottom, cover your short" AND "sell your long" at once. Both can't hold.</text>
     </g>
   </svg>
   </div>
@@ -80,12 +166,10 @@
       <rect x="20" y="80" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="80" width="215" height="26" fill="#f97316" rx="4"/>
       <text x="245" y="98" fill="#fff" font-size="12" font-weight="700">4.9 → "SPLIT EXIT (一部売却)"</text>
-
       <text x="20" y="140" fill="#f87171" font-size="12" font-weight="700">ショート スコア</text>
       <rect x="20" y="150" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="150" width="158" height="26" fill="#22c55e" rx="4"/>
       <text x="188" y="168" fill="#fff" font-size="12" font-weight="700">3.6 → "EXIT SHORT (底・決済)"</text>
-
       <text x="20" y="205" fill="#71717a" font-size="11">→「底だからショートを閉じろ」と同時に「ロングを売れ」。両方は成立しない。</text>
     </g>
   </svg>
@@ -98,13 +182,11 @@
       <rect x="20" y="80" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="80" width="215" height="26" fill="#f97316" rx="4"/>
       <text x="245" y="98" fill="#fff" font-size="12" font-weight="700">4.9 → "SPLIT EXIT (vende algo)"</text>
-
       <text x="20" y="140" fill="#f87171" font-size="12" font-weight="700">Puntuación SHORT</text>
       <rect x="20" y="150" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="150" width="158" height="26" fill="#22c55e" rx="4"/>
       <text x="188" y="168" fill="#fff" font-size="12" font-weight="700">3.6 → "EXIT SHORT (suelo)"</text>
-
-      <text x="20" y="205" fill="#71717a" font-size="11">→ "Es un suelo, cierra el short" Y "vende tu long" a la vez. Ambos no pueden ser correctos.</text>
+      <text x="20" y="205" fill="#71717a" font-size="11">→ "Es un suelo, cierra el short" Y "vende tu long" a la vez. Ambos no pueden ser ciertos.</text>
     </g>
   </svg>
   </div>
@@ -116,58 +198,147 @@
       <rect x="20" y="80" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="80" width="215" height="26" fill="#f97316" rx="4"/>
       <text x="245" y="98" fill="#fff" font-size="12" font-weight="700">4,9 → "SPLIT EXIT (etwas verkaufen)"</text>
-
       <text x="20" y="140" fill="#f87171" font-size="12" font-weight="700">SHORT-Score</text>
       <rect x="20" y="150" width="440" height="26" fill="#27272a" rx="4"/>
       <rect x="20" y="150" width="158" height="26" fill="#22c55e" rx="4"/>
       <text x="188" y="168" fill="#fff" font-size="12" font-weight="700">3,6 → "EXIT SHORT (Boden)"</text>
-
-      <text x="20" y="205" fill="#71717a" font-size="11">→ "Boden, Short schließen" UND "Long verkaufen" zugleich. Beides kann nicht stimmen.</text>
+      <text x="20" y="205" fill="#71717a" font-size="11">→ "Boden, Short schließen" UND "Long verkaufen" zugleich. Beides kann nicht gelten.</text>
     </g>
   </svg>
   </div>
 
-  <p class="ko">보시다시피 롱 점수는 "팔아라(SPLIT EXIT)"라고 하는데, 숏 점수는 "지금 바닥이니 숏을 청산하라(EXIT SHORT)"라고 하고 있었습니다. 바닥이라 숏을 접으라면서, 동시에 롱은 팔라니 — 이건 논리적으로 앞뒤가 안 맞습니다. 둘 중 하나는 분명히 틀린 겁니다.</p>
-  <p class="en">As you can see, the long score said "sell (SPLIT EXIT)," while the short score said "this is a bottom, cover your short (EXIT SHORT)." Telling you to cover shorts because it's a bottom, while also telling you to sell your longs — that simply doesn't add up. One of them had to be wrong.</p>
-  <p class="ja">ご覧の通り、ロングスコアは「売れ(SPLIT EXIT)」と言い、ショートスコアは「今は底だからショートを決済しろ(EXIT SHORT)」と言っていました。底だからショートを閉じろと言いながら、同時にロングを売れとは — 論理的に辻褄が合いません。どちらかが間違っているのです。</p>
-  <p class="es">Como ven, la puntuación long decía "vende (SPLIT EXIT)," mientras la short decía "esto es un suelo, cierra tu short (EXIT SHORT)." Decir que cierres shorts porque es un suelo, mientras también dices que vendas tus longs — simplemente no cuadra. Una de las dos tenía que estar mal.</p>
-  <p class="de">Wie Sie sehen, sagte der Long-Score „verkaufen (SPLIT EXIT)", während der Short-Score „das ist ein Boden, schließe deinen Short (EXIT SHORT)" sagte. Zu sagen, man solle Shorts schließen, weil es ein Boden ist, und gleichzeitig Longs verkaufen — das passt nicht zusammen. Eines von beiden musste falsch sein.</p>
+  <p class="ko">롱 점수는 "팔라"고 했고, 숏 점수는 "지금이 바닥이니 숏을 청산하라"고 했다. 바닥이라 숏을 접으라면서 동시에 롱을 팔라는 것은 논리적으로 성립하지 않는다. 둘 중 하나는 반드시 틀린 신호였다.</p>
+  <p class="en">The long score said "sell," while the short score said "this is a bottom, cover your short." To cover shorts because it is a bottom, while also selling longs, does not hold together. One of the two had to be wrong.</p>
+  <p class="ja">ロングスコアは「売れ」と言い、ショートスコアは「今が底だからショートを決済せよ」と言った。底だからショートを閉じろと言いながら同時にロングを売れというのは論理的に成立しない。二つのうち一つは必ず誤ったシグナルだった。</p>
+  <p class="es">La puntuación long decía "vende", mientras la short decía "esto es un suelo, cierra tu short". Cerrar shorts porque es un suelo, mientras se venden longs, no se sostiene. Una de las dos tenía que estar mal.</p>
+  <p class="de">Der Long-Score sagte „verkaufen", der Short-Score sagte „das ist ein Boden, schließe deinen Short". Shorts zu schließen, weil es ein Boden ist, und zugleich Longs zu verkaufen, passt nicht zusammen. Eines von beiden musste falsch sein.</p>
 
-  <h2 class="ko">원인: 점수 하나에 두 가지 뜻을 억지로 담고 있었다</h2>
-  <h2 class="en">The cause: one score was forced to mean two different things</h2>
-  <h2 class="ja">原因：一つのスコアに二つの意味を無理やり詰め込んでいた</h2>
-  <h2 class="es">La causa: una puntuación forzada a significar dos cosas</h2>
-  <h2 class="de">Die Ursache: ein Score musste zwei Dinge zugleich bedeuten</h2>
+  <h2 class="ko">원인은 계산이 아니라 번역에 있었다</h2>
+  <h2 class="en">The cause was translation, not calculation</h2>
+  <h2 class="ja">原因は計算ではなく翻訳にあった</h2>
+  <h2 class="es">La causa era la traducción, no el cálculo</h2>
+  <h2 class="de">Die Ursache war die Übersetzung, nicht die Berechnung</h2>
 
-  <p class="ko">범인을 찾는 데는 오래 걸리지 않았습니다. 문제는 개별 지표 계산이 아니라 <strong>점수를 액션(행동 지시)으로 바꾸는 부분</strong>에 있었습니다. 당시 롱 점수의 구간 표는 이렇게 돼 있었습니다: 5점 이상은 관찰, <strong>3.5~5점은 "SPLIT EXIT(일부 정리)"</strong>, 3.5점 미만은 "EXIT LONG(청산)". 즉 <strong>롱 점수가 낮으면 무조건 "팔아라"로 해석</strong>하고 있었던 겁니다.</p>
-  <p class="en">Finding the culprit didn't take long. The problem wasn't in the individual indicator math — it was in <strong>how the score was translated into an action</strong>. Back then, the long score bands looked like this: above 5 was watch, <strong>3.5–5 was "SPLIT EXIT,"</strong> below 3.5 was "EXIT LONG." In other words, <strong>a low long score was always read as "sell."</strong></p>
-  <p class="ja">犯人を見つけるのに時間はかかりませんでした。問題は個別指標の計算ではなく、<strong>スコアをアクション(行動指示)に変換する部分</strong>にありました。当時のロングスコアの区分表はこうでした：5点以上は観察、<strong>3.5〜5点は「SPLIT EXIT(一部売却)」</strong>、3.5点未満は「EXIT LONG(決済)」。つまり<strong>ロングスコアが低いと必ず「売れ」と解釈</strong>していたのです。</p>
-  <p class="es">Encontrar al culpable no tomó mucho. El problema no estaba en el cálculo de los indicadores — estaba en <strong>cómo se traducía la puntuación en una acción</strong>. Entonces, las bandas de la puntuación long eran así: arriba de 5 era observar, <strong>3.5–5 era "SPLIT EXIT,"</strong> abajo de 3.5 era "EXIT LONG." Es decir, <strong>una puntuación long baja siempre se leía como "vender."</strong></p>
-  <p class="de">Den Übeltäter zu finden dauerte nicht lange. Das Problem lag nicht in der Berechnung der Indikatoren — sondern darin, <strong>wie der Score in eine Aktion übersetzt wurde</strong>. Damals sahen die Long-Score-Bänder so aus: über 5 war beobachten, <strong>3,5–5 war „SPLIT EXIT",</strong> unter 3,5 war „EXIT LONG." Mit anderen Worten: <strong>ein niedriger Long-Score wurde immer als „verkaufen" gelesen.</strong></p>
+  <p class="ko">개별 지표의 계산은 틀리지 않았다. 문제는 그 점수를 행동 지시로 바꾸는 마지막 단계에 있었다. 당시 롱 점수의 구간표는 5점 이상을 관찰, 3.5점에서 5점 사이를 "일부 정리", 3.5점 미만을 "청산"으로 규정하고 있었다. 즉 롱 점수가 낮다는 사실 하나만으로 무조건 "팔라"는 결론이 나오도록 설계돼 있었다.</p>
+  <p class="en">The individual indicator math was not wrong. The problem lay in the final step that turns a score into an instruction. At the time, the long score's bands defined anything above 5 as "watch," 3.5 to 5 as "partial exit," and below 3.5 as "liquidate." In other words, a low long score alone was enough to produce the conclusion "sell."</p>
+  <p class="ja">個別指標の計算は誤っていなかった。問題はそのスコアを行動指示に変える最後の段階にあった。当時のロングスコアの区分表は、5点以上を観察、3.5〜5点を「一部売却」、3.5点未満を「決済」と規定していた。つまりロングスコアが低いという事実だけで、必ず「売れ」という結論が出るように設計されていた。</p>
+  <p class="es">El cálculo de cada indicador no estaba mal. El problema estaba en el paso final que convierte una puntuación en una instrucción. Entonces, las bandas del long definían todo lo superior a 5 como "observar", de 3.5 a 5 como "salida parcial", y por debajo de 3.5 como "liquidar". Es decir, una puntuación long baja bastaba por sí sola para producir la conclusión "vender".</p>
+  <p class="de">Die Berechnung der einzelnen Indikatoren war nicht falsch. Das Problem lag im letzten Schritt, der einen Wert in eine Anweisung verwandelt. Damals definierten die Long-Bänder alles über 5 als „beobachten", 3,5 bis 5 als „Teilausstieg" und unter 3,5 als „liquidieren". Mit anderen Worten: Ein niedriger Long-Score allein genügte, um die Schlussfolgerung „verkaufen" zu erzeugen.</p>
 
-  <p class="ko">여기서 핵심을 놓치고 있었습니다. <strong>"지금 사기 나쁘다"와 "지금 팔아야 한다"는 완전히 다른 이야기입니다.</strong> 이더리움은 실현가 근처까지 내려온, "지금 신규로 진입하기엔 아주 매력적이진 않지만 그렇다고 팔 이유는 전혀 없는" 상태였습니다. 그런데 점수 체계는 "매수 매력이 약함"을 곧바로 "매도 신호"로 번역해버린 거죠. 매도 판단은 원래 <strong>숏 점수</strong>가 담당해야 하는데, 롱 점수가 그 일까지 억지로 하고 있었습니다.</p>
-  <p class="en">Here's the key thing we were missing. <strong>"A bad time to buy" and "time to sell" are completely different statements.</strong> Ethereum had dropped near its realized price — "not especially attractive for a fresh entry, but with no reason at all to sell." Yet the scoring system translated "weak buy appeal" straight into a "sell signal." Selling decisions should belong to the <strong>short score</strong>, but the long score was being forced to do that job too.</p>
-  <p class="ja">ここで核心を見落としていました。<strong>「今は買いに悪い」と「今は売るべき」はまったく別の話です。</strong>イーサリアムは実現価格付近まで下がった、「新規参入するには特別魅力的ではないが、売る理由は全くない」状態でした。ところがスコア体系は「買い魅力が弱い」をそのまま「売りシグナル」に翻訳していたのです。売却判断は本来<strong>ショートスコア</strong>が担うべきなのに、ロングスコアがその仕事まで無理にやっていました。</p>
-  <p class="es">Aquí está lo que se nos escapaba. <strong>"Mal momento para comprar" y "momento de vender" son afirmaciones completamente distintas.</strong> Ethereum había bajado cerca de su precio realizado — "no especialmente atractivo para entrar, pero sin razón alguna para vender." Sin embargo, el sistema traducía "poco atractivo de compra" directamente en "señal de venta." La decisión de vender debería pertenecer a la <strong>puntuación short</strong>, pero la long estaba forzada a hacer también ese trabajo.</p>
-  <p class="de">Hier lag unser Denkfehler. <strong>„Ein schlechter Zeitpunkt zum Kaufen" und „Zeit zu verkaufen" sind völlig verschiedene Aussagen.</strong> Ethereum war nahe seinen realisierten Preis gefallen — „nicht besonders attraktiv für einen Einstieg, aber ohne jeden Grund zu verkaufen." Doch das System übersetzte „schwacher Kaufreiz" direkt in ein „Verkaufssignal." Verkaufsentscheidungen sollten zum <strong>Short-Score</strong> gehören, aber der Long-Score musste diese Aufgabe mitübernehmen.</p>
+  <p class="ko">여기에 두 개념이 뒤섞여 있었다. "지금 사기에 매력적이지 않다"와 "지금 팔아야 한다"는 전혀 다른 판단이다. 이더리움은 실현가 근처까지 내려온, 신규로 크게 담기에는 애매하지만 팔 이유는 전혀 없는 상태였다. 그런데 점수 체계는 "매수 매력이 약하다"를 곧바로 "매도 신호"로 옮겨버렸다. 매도 판단은 원래 숏 점수의 몫인데, 롱 점수가 그 역할까지 떠안고 있었던 것이다.</p>
+  <p class="en">Two ideas had been conflated. "Not attractive to buy right now" and "time to sell now" are entirely different judgments. Ethereum had fallen near its realized price — ambiguous for a large fresh entry, but with no reason at all to sell. Yet the system translated "weak buy appeal" directly into a "sell signal." Selling belongs to the short score, but the long score had taken on that role too.</p>
+  <p class="ja">ここで二つの概念が混ざっていた。「今は買うのに魅力的でない」と「今は売るべき」はまったく別の判断だ。イーサリアムは実現価格付近まで下がった、新規で大きく仕込むには微妙だが売る理由は全くない状態だった。ところがスコア体系は「買い魅力が弱い」をそのまま「売りシグナル」に移し替えた。売却判断は本来ショートスコアの役目なのに、ロングスコアがその役割まで抱えていた。</p>
+  <p class="es">Se habían confundido dos ideas. "No atractivo para comprar ahora" y "momento de vender ahora" son juicios completamente distintos. Ethereum había caído cerca de su precio realizado — ambiguo para una gran entrada nueva, pero sin razón alguna para vender. Sin embargo, el sistema traducía "poco atractivo de compra" directamente en "señal de venta". Vender pertenece al short, pero el long había asumido también ese papel.</p>
+  <p class="de">Zwei Konzepte waren vermischt worden. „Jetzt nicht attraktiv zu kaufen" und „jetzt verkaufen" sind völlig verschiedene Urteile. Ethereum war nahe seinen realisierten Preis gefallen — unklar für einen großen Neueinstieg, aber ohne jeden Grund zu verkaufen. Doch das System übersetzte „schwacher Kaufreiz" direkt in ein „Verkaufssignal". Verkaufen gehört zum Short-Score, aber der Long-Score hatte auch diese Rolle übernommen.</p>
 
-  <h2 class="ko">수정: 롱 점수의 낮은 구간을 다시 정의하다</h2>
-  <h2 class="en">The fix: redefining the low end of the long score</h2>
-  <h2 class="ja">修正：ロングスコアの低い区間を再定義</h2>
-  <h2 class="es">La solución: redefinir la parte baja de la puntuación long</h2>
-  <h2 class="de">Die Lösung: das untere Ende des Long-Scores neu definieren</h2>
+  <div class="ko">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">롱 점수 하나의 축에 담긴 두 가지 뜻</text>
+    <defs><linearGradient id="g1ko" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.5" stop-color="#a3a3a3"/><stop offset="1" stop-color="#f87171"/></linearGradient></defs>
+    <g font-family="sans-serif">
+      <rect x="40" y="55" width="620" height="24" rx="12" fill="url(#g1ko)"/>
+      <text x="45" y="105" fill="#22c55e" font-size="11" font-weight="700">10 · 강한 저점</text>
+      <text x="330" y="105" fill="#a3a3a3" font-size="11" font-weight="700" text-anchor="middle">5 · 중립</text>
+      <text x="655" y="105" fill="#f87171" font-size="11" font-weight="700" text-anchor="end">0 · 과열</text>
+      <text x="45" y="130" fill="#71717a" font-size="10">매수 진입</text>
+      <text x="330" y="130" fill="#71717a" font-size="10" text-anchor="middle">관망</text>
+      <text x="655" y="130" fill="#71717a" font-size="10" text-anchor="end">익절/청산</text>
+      <line x1="200" y1="165" x2="200" y2="185" stroke="#f97316" stroke-width="2"/>
+      <text x="200" y="205" fill="#f97316" font-size="11" font-weight="700" text-anchor="middle">이더리움 4.9</text>
+      <text x="200" y="222" fill="#71717a" font-size="10" text-anchor="middle">= "관망"이어야 하는데 "익절" 쪽으로 잘못 분류</text>
+    </g>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Two meanings forced onto one long-score axis</text>
+    <defs><linearGradient id="g1en" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.5" stop-color="#a3a3a3"/><stop offset="1" stop-color="#f87171"/></linearGradient></defs>
+    <g font-family="sans-serif">
+      <rect x="40" y="55" width="620" height="24" rx="12" fill="url(#g1en)"/>
+      <text x="45" y="105" fill="#22c55e" font-size="11" font-weight="700">10 · Strong bottom</text>
+      <text x="330" y="105" fill="#a3a3a3" font-size="11" font-weight="700" text-anchor="middle">5 · Neutral</text>
+      <text x="655" y="105" fill="#f87171" font-size="11" font-weight="700" text-anchor="end">0 · Overheated</text>
+      <text x="45" y="130" fill="#71717a" font-size="10">Buy / enter</text>
+      <text x="330" y="130" fill="#71717a" font-size="10" text-anchor="middle">Watch</text>
+      <text x="655" y="130" fill="#71717a" font-size="10" text-anchor="end">Take profit / exit</text>
+      <line x1="200" y1="165" x2="200" y2="185" stroke="#f97316" stroke-width="2"/>
+      <text x="200" y="205" fill="#f97316" font-size="11" font-weight="700" text-anchor="middle">Ethereum 4.9</text>
+      <text x="200" y="222" fill="#71717a" font-size="10" text-anchor="middle">= should be "watch," but was miscast as "take profit"</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">一つのロングスコアの軸に詰め込まれた二つの意味</text>
+    <defs><linearGradient id="g1ja" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.5" stop-color="#a3a3a3"/><stop offset="1" stop-color="#f87171"/></linearGradient></defs>
+    <g font-family="sans-serif">
+      <rect x="40" y="55" width="620" height="24" rx="12" fill="url(#g1ja)"/>
+      <text x="45" y="105" fill="#22c55e" font-size="11" font-weight="700">10 · 強い底</text>
+      <text x="330" y="105" fill="#a3a3a3" font-size="11" font-weight="700" text-anchor="middle">5 · 中立</text>
+      <text x="655" y="105" fill="#f87171" font-size="11" font-weight="700" text-anchor="end">0 · 過熱</text>
+      <text x="45" y="130" fill="#71717a" font-size="10">買い参入</text>
+      <text x="330" y="130" fill="#71717a" font-size="10" text-anchor="middle">様子見</text>
+      <text x="655" y="130" fill="#71717a" font-size="10" text-anchor="end">利確/決済</text>
+      <line x1="200" y1="165" x2="200" y2="185" stroke="#f97316" stroke-width="2"/>
+      <text x="200" y="205" fill="#f97316" font-size="11" font-weight="700" text-anchor="middle">イーサリアム 4.9</text>
+      <text x="200" y="222" fill="#71717a" font-size="10" text-anchor="middle">=「様子見」であるべきが「利確」側に誤分類</text>
+    </g>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Dos significados en un solo eje de puntuación long</text>
+    <defs><linearGradient id="g1es" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.5" stop-color="#a3a3a3"/><stop offset="1" stop-color="#f87171"/></linearGradient></defs>
+    <g font-family="sans-serif">
+      <rect x="40" y="55" width="620" height="24" rx="12" fill="url(#g1es)"/>
+      <text x="45" y="105" fill="#22c55e" font-size="11" font-weight="700">10 · Suelo fuerte</text>
+      <text x="330" y="105" fill="#a3a3a3" font-size="11" font-weight="700" text-anchor="middle">5 · Neutral</text>
+      <text x="655" y="105" fill="#f87171" font-size="11" font-weight="700" text-anchor="end">0 · Sobrecalentado</text>
+      <text x="45" y="130" fill="#71717a" font-size="10">Comprar / entrar</text>
+      <text x="330" y="130" fill="#71717a" font-size="10" text-anchor="middle">Observar</text>
+      <text x="655" y="130" fill="#71717a" font-size="10" text-anchor="end">Tomar ganancias</text>
+      <line x1="200" y1="165" x2="200" y2="185" stroke="#f97316" stroke-width="2"/>
+      <text x="200" y="205" fill="#f97316" font-size="11" font-weight="700" text-anchor="middle">Ethereum 4.9</text>
+      <text x="200" y="222" fill="#71717a" font-size="10" text-anchor="middle">= debía ser "observar", mal clasificado como "tomar ganancias"</text>
+    </g>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Zwei Bedeutungen auf einer Long-Score-Achse</text>
+    <defs><linearGradient id="g1de" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.5" stop-color="#a3a3a3"/><stop offset="1" stop-color="#f87171"/></linearGradient></defs>
+    <g font-family="sans-serif">
+      <rect x="40" y="55" width="620" height="24" rx="12" fill="url(#g1de)"/>
+      <text x="45" y="105" fill="#22c55e" font-size="11" font-weight="700">10 · Starker Boden</text>
+      <text x="330" y="105" fill="#a3a3a3" font-size="11" font-weight="700" text-anchor="middle">5 · Neutral</text>
+      <text x="655" y="105" fill="#f87171" font-size="11" font-weight="700" text-anchor="end">0 · Überhitzt</text>
+      <text x="45" y="130" fill="#71717a" font-size="10">Kaufen</text>
+      <text x="330" y="130" fill="#71717a" font-size="10" text-anchor="middle">Beobachten</text>
+      <text x="655" y="130" fill="#71717a" font-size="10" text-anchor="end">Gewinn mitnehmen</text>
+      <line x1="200" y1="165" x2="200" y2="185" stroke="#f97316" stroke-width="2"/>
+      <text x="200" y="205" fill="#f97316" font-size="11" font-weight="700" text-anchor="middle">Ethereum 4,9</text>
+      <text x="200" y="222" fill="#71717a" font-size="10" text-anchor="middle">= sollte „beobachten" sein, falsch als „Gewinn mitnehmen" eingestuft</text>
+    </g>
+  </svg>
+  </div>
 
-  <p class="ko">그래서 롱 점수의 액션을 이렇게 다시 나눴습니다. 롱은 <strong>"진입 매력 ↔ 익절 신호"라는 하나의 축</strong>으로 보되, 낮은 점수가 "왜 낮은지"를 구분하게 했습니다. 단순히 저평가가 아니라서 낮은 거라면 <strong>"관망/진입 보류"</strong>이고, 실제로 고평가·과열이라 낮은 거라면 그때 비로소 <strong>"분할 익절"</strong>입니다.</p>
-  <p class="en">So we re-split the long score's actions. We keep the long score as <strong>a single axis: "entry appeal ↔ profit-taking signal,"</strong> but we made the low end distinguish <strong>why</strong> it's low. If it's low simply because it isn't cheap, that's <strong>"watch / hold off on entry."</strong> If it's low because the coin is genuinely overvalued and overheated, only then is it <strong>"take partial profit."</strong></p>
-  <p class="ja">そこでロングスコアのアクションをこう分け直しました。ロングは<strong>「参入魅力 ↔ 利確シグナル」という一つの軸</strong>として見つつ、低いスコアが「なぜ低いか」を区別させました。単に割安でないから低いなら<strong>「様子見/参入保留」</strong>、実際に割高・過熱で低いなら初めて<strong>「分割利確」</strong>です。</p>
-  <p class="es">Así que redividimos las acciones del long. Mantenemos el long como <strong>un solo eje: "atractivo de entrada ↔ señal de toma de ganancias,"</strong> pero hicimos que la parte baja distinga <strong>por qué</strong> es baja. Si es baja simplemente porque no está barato, eso es <strong>"observar / esperar."</strong> Si es baja porque está genuinamente sobrevalorado y sobrecalentado, solo entonces es <strong>"toma de ganancias parcial."</strong></p>
-  <p class="de">Also teilten wir die Aktionen des Long-Scores neu auf. Wir behalten den Long-Score als <strong>eine einzige Achse: „Einstiegsreiz ↔ Gewinnmitnahme-Signal",</strong> ließen aber das untere Ende unterscheiden, <strong>warum</strong> es niedrig ist. Ist es niedrig, weil es einfach nicht billig ist, heißt das <strong>„beobachten / Einstieg abwarten."</strong> Ist es niedrig, weil die Münze wirklich überbewertet und überhitzt ist, erst dann heißt es <strong>„Teilgewinn mitnehmen."</strong></p>
+  <h2 class="ko">수정</h2>
+  <h2 class="en">The fix</h2>
+  <h2 class="ja">修正</h2>
+  <h2 class="es">La corrección</h2>
+  <h2 class="de">Die Korrektur</h2>
 
-  <p class="ko">그리고 여기서 한 가지를 더 배웠습니다. <strong>롱을 정리할 시점이 곧 숏을 잡을 시점은 아니라는 것</strong>입니다. 고평가가 시작돼서 롱 익절을 고민할 무렵에도, 숏은 아직 "확실히 꺾였다"는 확인이 필요합니다. 그래서 롱 익절이 뜨는 지점과 숏 진입이 뜨는 지점을 서로 어긋나게 배치했습니다. 그 사이에는 "롱은 익절, 숏은 아직 관찰"이라는 중간지대가 생깁니다. 이게 실제 트레이딩 감각에 훨씬 가깝습니다.</p>
-  <p class="en">And we learned one more thing here: <strong>the moment to trim a long is not the same as the moment to open a short.</strong> When overvaluation begins and you start thinking about taking long profits, a short still needs confirmation that the trend has truly rolled over. So we deliberately offset the point where "trim long" appears from the point where "enter short" appears. In between sits a middle zone: "trim your long, but only watch for a short." That's far closer to how trading actually feels.</p>
-  <p class="ja">そしてここでもう一つ学びました。<strong>ロングを整理する時点が、そのままショートを取る時点ではない</strong>ということです。割高が始まりロング利確を考える頃でも、ショートはまだ「確実に崩れた」という確認が必要です。そこでロング利確が出る地点とショート参入が出る地点をあえてずらして配置しました。その間には「ロングは利確、ショートはまだ観察」という中間地帯が生まれます。これが実際のトレード感覚にずっと近いのです。</p>
-  <p class="es">Y aquí aprendimos algo más: <strong>el momento de recortar un long no es el mismo que el de abrir un short.</strong> Cuando empieza la sobrevaloración y piensas en tomar ganancias del long, un short todavía necesita confirmación de que la tendencia realmente se giró. Así que separamos deliberadamente el punto donde aparece "recortar long" del punto donde aparece "entrar short." En medio queda una zona: "recorta tu long, pero solo observa para un short." Eso se acerca mucho más a cómo se siente operar.</p>
-  <p class="de">Und wir lernten noch etwas: <strong>der Moment, einen Long zu reduzieren, ist nicht derselbe wie der, einen Short zu eröffnen.</strong> Wenn die Überbewertung beginnt und man über Long-Gewinne nachdenkt, braucht ein Short noch die Bestätigung, dass der Trend wirklich gedreht hat. Also verschoben wir bewusst den Punkt, an dem „Long reduzieren" erscheint, gegenüber dem Punkt, an dem „Short eröffnen" erscheint. Dazwischen liegt eine Zone: „reduziere deinen Long, aber beobachte nur für einen Short." Das kommt dem echten Trading-Gefühl viel näher.</p>
+  <p class="ko">우리는 롱 점수를 "진입 매력에서 익절 신호로 이어지는 하나의 축"으로 다시 정의하되, 낮은 점수가 왜 낮은지를 구분하도록 했다. 단지 저평가가 아니어서 낮은 것이라면 "관망"이고, 실제로 고평가와 과열이 진행돼 낮은 것이라면 그때 비로소 "분할 익절"이다. 매도와 청산 지시는 숏 점수에만 남겼다.</p>
+  <p class="en">We redefined the long score as "a single axis running from entry appeal to a profit-taking signal," but made the low end distinguish why it is low. If it is low simply because the asset is not cheap, that is "watch." If it is low because overvaluation and overheating are underway, only then is it "partial profit-taking." Instructions to sell or liquidate were left to the short score alone.</p>
+  <p class="ja">私たちはロングスコアを「参入魅力から利確シグナルへと続く一つの軸」として再定義しつつ、低いスコアがなぜ低いかを区別させた。単に割安でないから低いなら「様子見」、実際に割高と過熱が進んで低いなら初めて「分割利確」だ。売却と決済の指示はショートスコアだけに残した。</p>
+  <p class="es">Redefinimos la puntuación long como "un solo eje que va del atractivo de entrada a una señal de toma de ganancias", pero hicimos que la parte baja distinguiera por qué es baja. Si es baja simplemente porque el activo no está barato, eso es "observar". Si es baja porque avanzan la sobrevaloración y el sobrecalentamiento, solo entonces es "toma de ganancias parcial". Las instrucciones de vender o liquidar quedaron solo en el short.</p>
+  <p class="de">Wir definierten den Long-Score neu als „eine einzige Achse vom Einstiegsreiz zum Gewinnmitnahme-Signal", ließen aber das untere Ende unterscheiden, warum es niedrig ist. Ist es niedrig, weil der Wert einfach nicht billig ist, heißt das „beobachten". Ist es niedrig, weil Überbewertung und Überhitzung im Gange sind, erst dann „Teilgewinnmitnahme". Anweisungen zum Verkaufen blieben allein dem Short-Score vorbehalten.</p>
+
+  <p class="ko">그 과정에서 하나를 더 확인했다. 롱을 정리할 시점이 곧 숏을 잡을 시점은 아니라는 점이다. 고평가가 시작돼 롱 익절을 고민할 무렵에도, 숏은 추세가 확실히 꺾였다는 별도의 확인을 요구한다. 그래서 롱 익절이 뜨는 지점과 숏 진입이 뜨는 지점을 어긋나게 배치했다. 그 사이에는 "롱은 익절하되 숏은 아직 관찰"이라는 중간지대가 생긴다.</p>
+  <p class="en">Along the way we confirmed one more thing: the moment to trim a long is not the moment to open a short. Even as overvaluation begins and you weigh taking long profits, a short demands separate confirmation that the trend has truly rolled over. So we offset the point where "trim long" appears from the point where "enter short" appears. Between them sits a middle zone: trim the long, but only watch for a short.</p>
+  <p class="ja">その過程でもう一つ確認した。ロングを整理する時点が、そのままショートを取る時点ではないという点だ。割高が始まりロング利確を考える頃でも、ショートは推移が確実に崩れたという別の確認を要求する。そこでロング利確が出る地点とショート参入が出る地点をずらして配置した。その間には「ロングは利確するがショートはまだ観察」という中間地帯が生まれる。</p>
+  <p class="es">En el camino confirmamos algo más: el momento de recortar un long no es el de abrir un short. Aun cuando empieza la sobrevaloración y sopesas tomar ganancias del long, un short exige confirmación aparte de que la tendencia realmente se giró. Así que separamos el punto donde aparece "recortar long" del de "entrar short". Entre ambos queda una zona intermedia: recorta el long, pero solo observa para un short.</p>
+  <p class="de">Dabei bestätigten wir noch etwas: Der Moment, einen Long zu reduzieren, ist nicht der, einen Short zu eröffnen. Selbst wenn die Überbewertung beginnt und man Long-Gewinne erwägt, verlangt ein Short eine gesonderte Bestätigung, dass der Trend wirklich gedreht hat. Also verschoben wir den Punkt „Long reduzieren" gegenüber „Short eröffnen". Dazwischen liegt eine Zone: Reduziere den Long, aber beobachte nur für einen Short.</p>
 
   <h2 class="ko">결과</h2>
   <h2 class="en">The result</h2>
@@ -175,22 +346,72 @@
   <h2 class="es">El resultado</h2>
   <h2 class="de">Das Ergebnis</h2>
 
-  <p class="ko">패치 후 그 이더리움을 다시 보니, 롱 점수는 여전히 5점대였지만 액션은 <strong>"HOLD(관망)"</strong>으로 바뀌었습니다. "지금 신규로 크게 담기엔 애매하지만, 들고 있다면 굳이 팔 이유는 없다"는, 처음부터 나왔어야 할 메시지입니다. 그리고 숏이 "바닥"이라고 말하는 것과도 더 이상 충돌하지 않습니다. 이제 <strong>매도·청산 신호는 오로지 숏 점수가</strong>, <strong>매수·익절 판단은 롱 점수가</strong> 각자의 자리에서 담당합니다.</p>
-  <p class="en">After the patch, that same Ethereum still scored in the 5s, but its action changed to <strong>"HOLD."</strong> "Not a compelling spot to load up fresh, but no reason to sell if you're holding" — the message that should have shown from the start. And it no longer clashes with the short score saying "bottom." Now <strong>sell/exit signals come solely from the short score,</strong> and <strong>buy/profit-taking from the long score</strong> — each in its own lane.</p>
-  <p class="ja">パッチ後、その同じイーサリアムを再び見ると、ロングスコアは依然5点台でしたが、アクションは<strong>「HOLD(様子見)」</strong>に変わりました。「今、新規で大きく仕込むには微妙だが、持っているなら売る理由はない」という、最初から出るべきだったメッセージです。そしてショートが「底」と言うことともう衝突しません。今や<strong>売り・決済シグナルはショートスコアのみが</strong>、<strong>買い・利確判断はロングスコアが</strong>それぞれの持ち場で担当します。</p>
-  <p class="es">Tras el parche, ese mismo Ethereum seguía puntuando en los 5, pero su acción cambió a <strong>"HOLD."</strong> "No es un punto convincente para cargar de nuevo, pero sin razón para vender si lo tienes" — el mensaje que debió aparecer desde el principio. Y ya no choca con el short diciendo "suelo." Ahora <strong>las señales de venta/salida vienen solo de la puntuación short,</strong> y <strong>las de compra/ganancias de la long</strong> — cada una en su carril.</p>
-  <p class="de">Nach dem Patch bewertete dasselbe Ethereum immer noch im 5er-Bereich, aber seine Aktion wechselte zu <strong>„HOLD."</strong> „Kein überzeugender Punkt zum Nachladen, aber kein Grund zu verkaufen, wenn man hält" — die Botschaft, die von Anfang an hätte erscheinen sollen. Und sie kollidiert nicht mehr mit dem Short, der „Boden" sagt. Jetzt kommen <strong>Verkaufs-/Ausstiegssignale allein vom Short-Score</strong> und <strong>Kauf-/Gewinnmitnahme vom Long-Score</strong> — jeder in seiner Spur.</p>
+  <div class="ko">
+  <svg viewBox="0 0 760 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="20" width="700" height="90" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <text x="55" y="52" fill="#666666" font-size="11" font-family="sans-serif">롱 (LONG) 진입 점수 · 이더리움</text>
+    <text x="53" y="92" fill="#a3e635" font-size="34" font-weight="800" font-family="sans-serif" letter-spacing="-1">5.1</text>
+    <text x="118" y="92" fill="#aaaaaa" font-size="14" font-family="sans-serif">/ 10</text>
+    <text x="200" y="78" fill="#a3e635" font-size="18" font-weight="700" font-family="sans-serif">HOLD</text>
+    <text x="200" y="97" fill="#666666" font-size="11" font-family="sans-serif">중립 관망. 보유는 유지, 신규 진입은 대기.</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ 패치 후 같은 이더리움. 점수는 그대로지만 액션이 "HOLD(관망)"으로 바뀌었다.</p>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 760 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="20" width="700" height="90" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <text x="55" y="52" fill="#666666" font-size="11" font-family="sans-serif">LONG entry score · Ethereum</text>
+    <text x="53" y="92" fill="#a3e635" font-size="34" font-weight="800" font-family="sans-serif" letter-spacing="-1">5.1</text>
+    <text x="118" y="92" fill="#aaaaaa" font-size="14" font-family="sans-serif">/ 10</text>
+    <text x="200" y="78" fill="#a3e635" font-size="18" font-weight="700" font-family="sans-serif">HOLD</text>
+    <text x="200" y="97" fill="#666666" font-size="11" font-family="sans-serif">Neutral. Keep holdings, wait on new entries.</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ The same Ethereum after the patch. The score is unchanged, but the action is now "HOLD."</p>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 760 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="20" width="700" height="90" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <text x="55" y="52" fill="#666666" font-size="11" font-family="sans-serif">ロング (LONG) スコア · イーサリアム</text>
+    <text x="53" y="92" fill="#a3e635" font-size="34" font-weight="800" font-family="sans-serif" letter-spacing="-1">5.1</text>
+    <text x="118" y="92" fill="#aaaaaa" font-size="14" font-family="sans-serif">/ 10</text>
+    <text x="200" y="78" fill="#a3e635" font-size="18" font-weight="700" font-family="sans-serif">HOLD</text>
+    <text x="200" y="97" fill="#666666" font-size="11" font-family="sans-serif">中立・様子見。保有は維持、新規参入は待機。</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ パッチ後の同じイーサリアム。スコアはそのままだが、アクションが「HOLD(様子見)」に変わった。</p>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 760 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="20" width="700" height="90" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <text x="55" y="52" fill="#666666" font-size="11" font-family="sans-serif">Puntuación LONG · Ethereum</text>
+    <text x="53" y="92" fill="#a3e635" font-size="34" font-weight="800" font-family="sans-serif" letter-spacing="-1">5.1</text>
+    <text x="118" y="92" fill="#aaaaaa" font-size="14" font-family="sans-serif">/ 10</text>
+    <text x="200" y="78" fill="#a3e635" font-size="18" font-weight="700" font-family="sans-serif">HOLD</text>
+    <text x="200" y="97" fill="#666666" font-size="11" font-family="sans-serif">Neutral. Mantén posiciones, espera nuevas entradas.</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ El mismo Ethereum tras el parche. La puntuación no cambia, pero la acción ahora es "HOLD".</p>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 760 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#080808;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <rect x="30" y="20" width="700" height="90" rx="14" fill="#151515" stroke="rgba(255,255,255,0.06)"/>
+    <text x="55" y="52" fill="#666666" font-size="11" font-family="sans-serif">LONG-Score · Ethereum</text>
+    <text x="53" y="92" fill="#a3e635" font-size="34" font-weight="800" font-family="sans-serif" letter-spacing="-1">5.1</text>
+    <text x="118" y="92" fill="#aaaaaa" font-size="14" font-family="sans-serif">/ 10</text>
+    <text x="200" y="78" fill="#a3e635" font-size="18" font-weight="700" font-family="sans-serif">HOLD</text>
+    <text x="200" y="97" fill="#666666" font-size="11" font-family="sans-serif">Neutral. Bestand halten, auf neue Einstiege warten.</text>
+  </svg>
+  <p style="color:#71717a;font-size:12px;margin-top:-8px">▲ Dasselbe Ethereum nach dem Patch. Der Wert bleibt gleich, doch die Aktion lautet nun „HOLD".</p>
+  </div>
 
-  <div class="box ko">📝 <strong>Kai의 메모:</strong> 이 사건이 우리한테 남긴 교훈은 "지표 숫자가 맞느냐"보다 "그 숫자를 사람에게 어떤 말로 전하느냐"가 똑같이 중요하다는 것이었습니다. 4.9라는 점수 자체는 틀리지 않았습니다. 그걸 "팔아라"로 번역한 게 틀렸던 거죠. 앞으로도 이런 번역의 실수를 발견하면 숨기지 않고 여기 패치노트에 남기겠습니다.</div>
-  <div class="box en">📝 <strong>Kai's note:</strong> The lesson this left us with is that "is the number right" matters just as much as "what words do we use to tell a human that number." The 4.9 itself wasn't wrong. Translating it into "sell" was. Whenever we catch a translation mistake like this, we'll leave it here in the patch notes rather than hide it.</div>
-  <div class="box ja">📝 <strong>Kaiのメモ:</strong> この出来事が残した教訓は、「指標の数字が正しいか」と同じくらい「その数字を人にどんな言葉で伝えるか」が重要だということでした。4.9というスコア自体は間違っていません。それを「売れ」と翻訳したのが間違いでした。今後もこうした翻訳のミスを見つけたら、隠さずここパッチノートに残します。</div>
-  <div class="box es">📝 <strong>Nota de Kai:</strong> La lección que nos dejó es que "¿es correcto el número?" importa tanto como "¿con qué palabras se lo decimos a una persona?" El 4.9 no estaba mal. Traducirlo como "vender" sí. Cada vez que detectemos un error de traducción así, lo dejaremos aquí en las notas del parche en vez de ocultarlo.</div>
-  <div class="box de">📝 <strong>Kais Notiz:</strong> Die Lektion war, dass „stimmt die Zahl" genauso wichtig ist wie „mit welchen Worten sagen wir sie einem Menschen." Die 4,9 selbst war nicht falsch. Sie als „verkaufen" zu übersetzen schon. Wann immer wir so einen Übersetzungsfehler finden, lassen wir ihn hier in den Patch Notes, statt ihn zu verstecken.</div>
+  <p class="ko">패치 이후 같은 이더리움의 롱 점수는 여전히 5점대였지만, 액션은 "HOLD(관망)"으로 바뀌었다. 신규로 크게 담기에는 애매하나 들고 있다면 팔 이유가 없다는, 처음부터 나왔어야 할 메시지다. 숏 점수가 "바닥"이라고 말하는 것과도 더 이상 충돌하지 않는다. 이제 매도와 청산은 숏 점수가, 매수와 익절은 롱 점수가 각자의 자리에서 담당한다.</p>
+  <p class="en">After the patch, the same Ethereum still scored in the 5s, but the action changed to "HOLD" — the message that should have appeared from the start: ambiguous for a large fresh entry, but no reason to sell if held. It no longer clashes with the short score calling it a bottom. Selling and liquidating now belong to the short score, buying and profit-taking to the long score, each in its lane.</p>
+  <p class="ja">パッチ以降、同じイーサリアムのロングスコアは依然5点台だったが、アクションは「HOLD(様子見)」に変わった。新規で大きく仕込むには微妙だが持っているなら売る理由はない、という最初から出るべきだったメッセージだ。ショートスコアが「底」と言うこととももう衝突しない。今や売却と決済はショートスコアが、買いと利確はロングスコアがそれぞれの持ち場で担う。</p>
+  <p class="es">Tras el parche, el mismo Ethereum seguía puntuando en los 5, pero la acción cambió a "HOLD" — el mensaje que debió aparecer desde el principio: ambiguo para una gran entrada, pero sin razón para vender si se tiene. Ya no choca con el short llamándolo suelo. Vender y liquidar pertenecen ahora al short; comprar y tomar ganancias, al long.</p>
+  <p class="de">Nach dem Patch bewertete dasselbe Ethereum weiter im 5er-Bereich, doch die Aktion wechselte zu „HOLD" — die Botschaft, die von Anfang an hätte erscheinen sollen: unklar für einen großen Einstieg, aber kein Grund zu verkaufen, wenn gehalten. Es kollidiert nicht mehr mit dem Short. Verkaufen gehört nun zum Short-Score, Kaufen und Gewinnmitnahme zum Long-Score.</p>
 
-  <p class="ko" style="margin-top:32px;color:#71717a;font-size:14px">— Kai, BTCtiming 알트코인 지표 담당</p>
-  <p class="en" style="margin-top:32px;color:#71717a;font-size:14px">— Kai, Altcoin Indicators, BTCtiming</p>
-  <p class="ja" style="margin-top:32px;color:#71717a;font-size:14px">— Kai, BTCtiming アルトコイン指標担当</p>
-  <p class="es" style="margin-top:32px;color:#71717a;font-size:14px">— Kai, Indicadores de Altcoins, BTCtiming</p>
-  <p class="de" style="margin-top:32px;color:#71717a;font-size:14px">— Kai, Altcoin-Indikatoren, BTCtiming</p>
+  <div class="box ko">이 사건이 남긴 것은, 지표의 숫자가 맞는지 못지않게 그 숫자를 사람에게 어떤 말로 전하는지가 중요하다는 사실이었다. 4.9라는 점수 자체는 틀리지 않았다. 그것을 "팔라"로 옮긴 것이 틀렸다. 우리는 앞으로도 이런 판단의 결함을 발견하면 숨기지 않고 이 패치노트에 기록한다.</div>
+  <div class="box en">What this episode left us with is that the words we use to convey a number matter as much as whether the number is right. The 4.9 itself was not wrong. Rendering it as "sell" was. When we find flaws in judgment like this, we record them here in the patch notes rather than hide them.</div>
+  <div class="box ja">この出来事が残したのは、指標の数字が正しいかと同じくらい、その数字を人にどんな言葉で伝えるかが重要だという事実だった。4.9というスコア自体は誤っていない。それを「売れ」と訳したのが誤りだった。私たちは今後もこうした判断の欠陥を見つけたら、隠さずこのパッチノートに記録する。</div>
+  <div class="box es">Lo que dejó este episodio es que las palabras con que se comunica un número importan tanto como si el número es correcto. El 4.9 no estaba mal. Traducirlo como "vender" sí. Cuando hallemos fallos de juicio como este, los registramos aquí en las notas del parche en lugar de ocultarlos.</div>
+  <div class="box de">Was diese Episode hinterließ: Die Worte, mit denen eine Zahl vermittelt wird, sind so wichtig wie die Frage, ob die Zahl stimmt. Die 4,9 war nicht falsch. Sie als „verkaufen" wiederzugeben schon. Wenn wir solche Urteilsfehler finden, halten wir sie hier in den Patch Notes fest, statt sie zu verbergen.</div>
 
 <?php require __DIR__.'/_footer.php'; ?>
