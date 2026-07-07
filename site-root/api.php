@@ -82,6 +82,17 @@ if ($ind === null) {
             if (isset($fallback['price'])) $price = (float)$fallback['price'];
         }
 
+        // 그래도 가격이 없으면 = 상장폐지/티커 변경된 심볼. 엉뚱한 폴백값으로 틀린 점수를 주는 대신
+        // 명확한 에러를 반환해 프론트가 "일시적으로 이용 불가"로 안내하게 함 (500 대신 200+error).
+        if ($price === null && $coin !== 'BTC') {
+            echo json_encode([
+                'error' => 'coin_unavailable',
+                'coin' => $coin,
+                'message' => 'This coin is temporarily unavailable (symbol may have changed or been delisted).'
+            ]);
+            exit;
+        }
+
         // BTC 전용 온체인 데이터 (다른 코인은 폴백값)
         if ($coin === 'BTC') {
             $mvrv_z = parseMVRVZ($raw['mvrv'] ?? null);

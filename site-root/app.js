@@ -178,7 +178,7 @@ const COINS = [
   {id:'AVAX',name:'Avalanche',sym:'AVAXUSDT',color:'#E84142'},
   {id:'LINK',name:'Chainlink',sym:'LINKUSDT',color:'#2A5ADA'},
   {id:'DOT', name:'Polkadot', sym:'DOTUSDT', color:'#E6007A'},
-  {id:'MATIC',name:'Polygon', sym:'MATICUSDT',color:'#8247E5'},
+  {id:'POL',  name:'Polygon',  sym:'POLUSDT',  color:'#8247E5'},
   {id:'LTC', name:'Litecoin', sym:'LTCUSDT', color:'#BFBBBB'},
   {id:'BCH', name:'Bitcoin Cash',sym:'BCHUSDT',color:'#0AC18E'},
   {id:'NEAR',name:'NEAR',     sym:'NEARUSDT',color:'#00EC97'},
@@ -200,7 +200,7 @@ const COINS = [
   {id:'ALGO',name:'Algorand', sym:'ALGOUSDT',color:'#000000'},
   {id:'SEI', name:'Sei',      sym:'SEIUSDT', color:'#8B1E2B'},
   {id:'RUNE',name:'THORChain',sym:'RUNEUSDT',color:'#00CCFF'},
-  {id:'FTM', name:'Fantom',   sym:'FTMUSDT', color:'#1969FF'},
+  {id:'S',   name:'Sonic',    sym:'SUSDT',   color:'#1969FF'},
   {id:'TIA', name:'Celestia', sym:'TIAUSDT', color:'#7B2BF9'},
   {id:'IMX', name:'Immutable',sym:'IMXUSDT', color:'#0B0E1A'},
   {id:'RENDER',name:'Render', sym:'RENDERUSDT',color:'#CF1011'},
@@ -857,6 +857,21 @@ async function fetchScoreFromAPI(coin, mode) {
   }
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   const data = await res.json();
+
+  // 서버가 상폐/변경된 코인이라고 알려주면, 500 대신 안내 표시
+  if (data && data.error === 'coin_unavailable') {
+    const ov=document.getElementById('overlay');
+    const txt=document.getElementById('ovTxt');
+    if(ov) ov.style.display='flex';
+    if(txt) txt.innerHTML=TT({
+      ko:`⚠ 이 코인은 현재 이용할 수 없습니다<br><small style="color:#888">심볼이 변경되었거나 상장폐지되었을 수 있습니다.<br>다른 코인을 선택해주세요.</small>`,
+      en:`⚠ This coin is currently unavailable<br><small style="color:#888">Its symbol may have changed or been delisted.<br>Please select another coin.</small>`,
+      ja:`⚠ このコインは現在利用できません<br><small style="color:#888">シンボルが変更されたか上場廃止された可能性があります。<br>他のコインを選択してください。</small>`,
+      es:`⚠ Esta moneda no está disponible<br><small style="color:#888">Su símbolo puede haber cambiado o sido retirado.<br>Selecciona otra moneda.</small>`,
+      de:`⚠ Dieser Coin ist nicht verfügbar<br><small style="color:#888">Sein Symbol wurde möglicherweise geändert oder delistet.<br>Bitte wählen Sie einen anderen Coin.</small>`
+    });
+    throw new Error('coin_unavailable');
+  }
 
   // 새 데이터 캐시 저장
   try { localStorage.setItem(cacheKey, JSON.stringify({data, ts:Date.now()})); } catch(e){}
