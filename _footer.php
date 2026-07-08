@@ -48,7 +48,7 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     $rIcon = $rA['icon'] ?? '📄';
     $rLangKeys = array_keys(SUPPORTED_LANGS);
     ?>
-    <a href="/blog/<?= htmlspecialchars($rSlug) ?>.php<?= htmlspecialchars($blogSuffix) ?>" class="other-card" style="--oc-accent:<?= htmlspecialchars($rColor) ?>">
+    <a data-base="/blog/<?= htmlspecialchars($rSlug) ?>.php" href="/blog/<?= htmlspecialchars($rSlug) ?>.php<?= htmlspecialchars($blogSuffix) ?>" class="other-card" style="--oc-accent:<?= htmlspecialchars($rColor) ?>">
       <div class="oc-icon"><?= $rIcon ?></div>
       <div class="oc-body">
         <div class="oc-cat"><?php foreach ($rLangKeys as $rL) {
@@ -215,9 +215,9 @@ function L(l){
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + bcSuffix));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + bcSuffix));
   document.querySelectorAll('.cta a').forEach(a => a.setAttribute('href', '/' + bcSuffix));
-  // 이전글/다음글 링크도 현재 언어를 유지 (서버는 렌더 시점 언어로 접미사를 넣기 때문에,
-  // JS로 언어가 바뀐 상태에선 접미사가 안 맞아 이동 시 한글로 깜빡였음)
-  document.querySelectorAll('.pn-link[data-base]').forEach(a => {
+  // 이전글/다음글 + 추천글 카드 링크도 현재 언어를 유지 (서버는 렌더 시점 언어로
+  // 접미사를 넣기 때문에, JS로 언어가 바뀐 상태에선 접미사가 안 맞아 이동 시 한글로 깜빡였음)
+  document.querySelectorAll('a[data-base^="/blog/"]').forEach(a => {
     const base = a.getAttribute('data-base');
     if(base) a.setAttribute('href', base + (l === 'ko' ? '' : ('?lang=' + l)));
   });
@@ -285,13 +285,13 @@ function applySavedLang() {
   } catch(e){}
 }
 applySavedLang(); // 최초 로드
-// 이전글/다음글 링크를 현재 표시 언어(<html lang>)에 맞춤.
+// 이전글/다음글 + 추천글 링크를 현재 표시 언어(<html lang>)에 맞춤.
 // applySavedLang이 URL 언어 존중 등으로 L()을 안 부르고 끝난 경우에도
 // 링크 접미사가 실제 표시 언어와 어긋나지 않도록 무조건 한 번 동기화한다.
 function syncPrevNextLang(){
   try{
     const cur = document.getElementById('hr').lang || 'ko';
-    document.querySelectorAll('.pn-link[data-base]').forEach(a => {
+    document.querySelectorAll('a[data-base^="/blog/"]').forEach(a => {
       const base = a.getAttribute('data-base');
       if(base) a.setAttribute('href', base + (cur === 'ko' ? '' : ('?lang=' + cur)));
     });
