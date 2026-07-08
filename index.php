@@ -575,7 +575,7 @@ try{
   // setLang이 있으면 래핑해서 하단바도 갱신
   if(typeof setLang==='function'){
     const _orig=setLang;
-    window.setLang=function(l){ _orig(l); applyTabbarLang(l); };
+    window.setLang=function(){ _orig.apply(this, arguments); applyTabbarLang(arguments[0]); };
   }
 }catch(e){}
 // 하단바 스크롤 표시/숨김 (다운=숨김, 업/멈춤=표시)
