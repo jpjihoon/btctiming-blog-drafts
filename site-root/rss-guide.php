@@ -57,25 +57,28 @@ require __DIR__ . '/_guide_head.php';
   <div class="feed-row">
     <div style="min-width:0">
       <div class="feed-name"><span class="feed-ico">📰</span> <span class="l-ko">전체 글</span><span class="l-en">All posts</span><span class="l-ja">全記事</span><span class="l-es">Todas</span><span class="l-de">Alle</span><span class="l-fr">Tout</span><span class="l-pt">Todos</span><span class="l-tr">Tümü</span><span class="l-vi">Tất cả</span></div>
-      <div class="feed-url"><?= gh($feedBase) ?></div>
+      <div class="feed-url" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat=""><?= gh($feedBase . ($__ghLang === 'ko' ? '' : '?lang=' . $__ghLang)) ?></div>
     </div>
     <div class="feed-actions">
-      <a class="gbtn" href="<?= gh($feedBase) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
-      <button class="gbtn gcopy" data-copy="<?= gh($feedBase) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
+      <a class="gbtn feed-open" href="<?= gh($feedBase . ($__ghLang === 'ko' ? '' : '?lang=' . $__ghLang)) ?>" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
+      <button class="gbtn gcopy" data-copy="<?= gh($feedBase . ($__ghLang === 'ko' ? '' : '?lang=' . $__ghLang)) ?>" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat=""><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
     </div>
   </div>
 
   <?php if (!empty($cats)): ?>
   <h2><span class="l-ko">카테고리별 피드</span><span class="l-en">By Category</span><span class="l-ja">カテゴリー別</span><span class="l-es">Por Categoría</span><span class="l-de">Nach Kategorie</span><span class="l-fr">Par catégorie</span><span class="l-pt">Por categoria</span><span class="l-tr">Kategoriye göre</span><span class="l-vi">Theo danh mục</span></h2>
-  <?php foreach ($cats as $key => $ci): $curl=$feedBase.'?category='.$key; $icon=$catIcon[$key]??'📄'; ?>
+  <?php foreach ($cats as $key => $ci):
+    $curl = $feedBase . '?category=' . $key . ($__ghLang === 'ko' ? '' : '&lang=' . $__ghLang);
+    $icon = $catIcon[$key] ?? '📄';
+  ?>
   <div class="feed-row">
     <div style="min-width:0">
       <div class="feed-name"><span class="feed-ico"><?= $icon ?></span> <span class="l-ko"><?= gh(cn($ci,'ko')) ?></span><span class="l-en"><?= gh(cn($ci,'en')) ?></span><span class="l-ja"><?= gh(cn($ci,'ja')) ?></span><span class="l-es"><?= gh(cn($ci,'es')) ?></span><span class="l-de"><?= gh(cn($ci,'de')) ?></span><span class="l-fr"><?= gh(cn($ci,'fr')) ?></span><span class="l-pt"><?= gh(cn($ci,'pt')) ?></span><span class="l-tr"><?= gh(cn($ci,'tr')) ?></span><span class="l-vi"><?= gh(cn($ci,'vi')) ?></span></div>
-      <div class="feed-url"><?= gh($curl) ?></div>
+      <div class="feed-url" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="<?= gh($key) ?>"><?= gh($curl) ?></div>
     </div>
     <div class="feed-actions">
-      <a class="gbtn" href="<?= gh($curl) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
-      <button class="gbtn gcopy" data-copy="<?= gh($curl) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
+      <a class="gbtn feed-open" href="<?= gh($curl) ?>" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="<?= gh($key) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
+      <button class="gbtn gcopy" data-copy="<?= gh($curl) ?>" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="<?= gh($key) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
     </div>
   </div>
   <?php endforeach; ?>
@@ -108,6 +111,23 @@ require __DIR__ . '/_guide_head.php';
 
 <?php
 $GUIDE_EXTRA_JS = "
+// data-feed-base/data-feed-cat 를 가진 요소(전체·카테고리 피드)의 URL을 현재 언어로 갱신.
+// 전체 피드: base + (ko면 '' / else '?lang=xx')
+// 카테고리 피드: base + '?category=xx' + (ko면 '' / else '&lang=xx')
+function updateFeedUrls(lang){
+  document.querySelectorAll('[data-feed-base]').forEach(function(el){
+    var base=el.getAttribute('data-feed-base');
+    var cat=el.getAttribute('data-feed-cat')||'';
+    var url;
+    if(cat){ url=base+'?category='+cat+(lang==='ko'?'':'&lang='+lang); }
+    else   { url=base+(lang==='ko'?'':'?lang='+lang); }
+    if(el.classList.contains('feed-url')) el.textContent=url;
+    if(el.tagName==='A') el.setAttribute('href',url);
+    if(el.classList.contains('gcopy')) el.setAttribute('data-copy',url);
+  });
+}
+// _guide_foot.php의 applyLang()이 언어 적용 후 이 콜백을 호출한다.
+window.onGuideLang=function(lang){ updateFeedUrls(lang); };
 document.querySelectorAll('.gcopy').forEach(function(b){
   b.addEventListener('click',function(){
     var txt=b.getAttribute('data-copy');
