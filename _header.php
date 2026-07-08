@@ -43,7 +43,15 @@ function h(string $s): string {
 // 인식 실패로 조용히 한국어(ko)로 떨어지는 버그가 있었음. config.php의 SUPPORTED_LANGS를
 // 유일한 정답 소스로 써서, 새 언어가 추가돼도 이 파일은 안 건드려도 되게 일반화함.
 require_once __DIR__ . '/../config.php';
-$requestedLang = (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) ? $_GET['lang'] : 'ko';
+// 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
+// 쿠키를 읽으므로 뒤로가기로 lang 없는 글 URL에 와도 마지막 선택 언어로 렌더된다.
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+    $requestedLang = $_GET['lang'];
+} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+    $requestedLang = $_COOKIE['blogLang'];
+} else {
+    $requestedLang = 'ko';
+}
 $hasJa = isset($M['title_ja']); // 이 글이 일본어로 번역됐는지 여부
 $hasLangContent = $requestedLang === 'ko' || $requestedLang === 'en' || isset($M["title_{$requestedLang}"]);
 $lang = $hasLangContent ? $requestedLang : 'en'; // 이 글에 해당 언어 콘텐츠가 없으면 영어로 폴백

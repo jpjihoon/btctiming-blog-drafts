@@ -37,9 +37,13 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 
 // 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
-$__blLang = 'ko';
-if (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+// 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
     $__blLang = $_GET['lang'];
+} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+    $__blLang = $_COOKIE['blogLang'];
+} else {
+    $__blLang = 'ko';
 }
 ?>
 <!DOCTYPE html>
@@ -352,6 +356,7 @@ function setLang(lang) {
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
   try { localStorage.setItem('blogLang', lang); } catch(e){}
+  try { document.cookie = 'blogLang=' + encodeURIComponent(lang) + '; path=/; max-age=31536000; SameSite=Lax'; } catch(e){}
   try {
     const url = new URL(location.href);
     if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);

@@ -222,6 +222,8 @@ function L(l){
     if(base) a.setAttribute('href', base + (l === 'ko' ? '' : ('?lang=' + l)));
   });
   try{localStorage.setItem('blogLang',l);}catch(e){}
+  // 쿠키에도 저장 → 서버(_header/목록)가 URL ?lang 없을 때 이걸 읽어 마지막 선택 언어로 렌더.
+  try{document.cookie='blogLang='+encodeURIComponent(l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}
   try{
     const url = new URL(location.href);
     if(l==='ko') url.searchParams.delete('lang'); else url.searchParams.set('lang',l);
