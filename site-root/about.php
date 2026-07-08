@@ -50,7 +50,7 @@ require __DIR__ . '/_guide_head.php';
 </div>
 
 <h2 id="s1"><span class="l-ko">1. 우리는 누구인가</span><span class="l-en">1. Who We Are</span><span class="l-ja">1. 私たちについて</span><span class="l-es">1. Quiénes Somos</span><span class="l-de">1. Wer wir sind</span><span class="l-fr">1. Qui sommes-nous</span><span class="l-pt">1. Quem Somos</span><span class="l-tr">1. Biz Kimiz</span><span class="l-vi">1. Chúng tôi là ai</span></h2>
-<p class="l-ko"><strong>BTCtiming.com</strong>은 비트코인과 주요 알트코인의 온체인 지표를 종합해 <strong>매수·매도 타이밍 점수</strong>를 제공하는 독립 분석 사이트다. 특정 거래소나 발행 재단, 투자 상품과 이해관계가 없는 개인 운영 프로젝트로, 온체인 데이터를 정량적으로 해석해 시장의 과열·저평가 구간을 판단하는 것을 목표로 한다.</p>
+<p class="l-ko"><strong>BTCtiming.com</strong>은 비트코인과 주요 알트코인의 온체인 지표를 종합해 <strong>매수·매도 타이밍 점수</strong>를 제공하는 독립 분석 사이트입니다. 특정 거래소나 발행 재단, 투자 상품과 이해관계가 없는 개인 운영 프로젝트로, 온체인 데이터를 정량적으로 해석해 시장의 과열·저평가 구간을 판단하는 것을 목표로 합니다.</p>
 <p class="l-en"><strong>BTCtiming.com</strong> is an independent analysis site that combines on-chain indicators for Bitcoin and major altcoins into a single <strong>buy/sell timing score</strong>. It is an individually operated project with no financial ties to any exchange, token foundation, or investment product, and it aims to interpret on-chain data quantitatively to identify overheated and undervalued phases in the market.</p>
 <p class="l-ja"><strong>BTCtiming.com</strong> は、ビットコインおよび主要アルトコインのオンチェーン指標を統合し、<strong>売買タイミングスコア</strong>を提供する独立系分析サイトです。特定の取引所・発行財団・投資商品と利害関係を持たない個人運営プロジェクトであり、オンチェーンデータを定量的に解釈して市場の過熱・割安局面を判断することを目的としています。</p>
 <p class="l-es"><strong>BTCtiming.com</strong> es un sitio de análisis independiente que combina indicadores on-chain de Bitcoin y las principales altcoins en una única <strong>puntuación de timing de compra/venta</strong>. Es un proyecto de operación individual sin vínculos financieros con ninguna casa de cambio, fundación de tokens o producto de inversión, y busca interpretar los datos on-chain de forma cuantitativa para identificar fases de sobrecalentamiento e infravaloración del mercado.</p>
@@ -61,7 +61,7 @@ require __DIR__ . '/_guide_head.php';
 <p class="l-vi"><strong>BTCtiming.com</strong> là một trang phân tích độc lập, kết hợp các chỉ báo on-chain của Bitcoin và các altcoin lớn thành một <strong>điểm thời điểm mua/bán</strong> duy nhất. Đây là dự án do cá nhân vận hành, không có liên hệ tài chính với bất kỳ sàn giao dịch, quỹ token hay sản phẩm đầu tư nào, và hướng tới việc diễn giải dữ liệu on-chain một cách định lượng để nhận diện các giai đoạn thị trường quá nóng và bị định giá thấp.</p>
 
 <h2 id="s2"><span class="l-ko">2. 무엇을 제공하는가</span><span class="l-en">2. What We Provide</span><span class="l-ja">2. 提供するもの</span><span class="l-es">2. Qué Ofrecemos</span><span class="l-de">2. Was wir bieten</span><span class="l-fr">2. Ce que nous proposons</span><span class="l-pt">2. O que Oferecemos</span><span class="l-tr">2. Ne Sunuyoruz</span><span class="l-vi">2. Chúng tôi cung cấp gì</span></h2>
-<p class="l-ko">핵심은 여러 온체인·기술 지표를 하나의 <strong>0~10점 타이밍 점수</strong>로 종합하는 것이다. 비트코인은 MVRV Z-Score, NUPL, STH-SOPR, 코인베이스 프리미엄, 해시리본 등 완전한 온체인 데이터를 사용하고, 알트코인은 추정 밸류에이션 지표로 보완한다. 점수와 함께 각 지표의 현재 상태, 분할 진입 가이드, 점수 히스토리를 제공하며, 블로그에서 지표 해설·시황 분석·주간 리포트를 함께 발행한다.</p>
+<p class="l-ko">핵심은 여러 온체인·기술 지표를 하나의 <strong>0~10점 타이밍 점수</strong>로 종합하는 것입니다. 비트코인은 MVRV Z-Score, NUPL, STH-SOPR, 코인베이스 프리미엄, 해시리본 등 완전한 온체인 데이터를 사용하고, 알트코인은 추정 밸류에이션 지표로 보완합니다. 점수와 함께 각 지표의 현재 상태, 분할 진입 가이드, 점수 히스토리를 제공하며, 블로그에서 지표 해설·시황 분석·주간 리포트를 함께 발행합니다.</p>
 <p class="l-en">At its core, the site condenses multiple on-chain and technical indicators into a single <strong>0–10 timing score</strong>. Bitcoin uses full on-chain data such as MVRV Z-Score, NUPL, STH-SOPR, Coinbase Premium, and Hash Ribbon, while altcoins are supplemented with estimated valuation metrics. Alongside the score, we show the current state of each indicator, a split-entry guide, and score history, and our blog publishes indicator explainers, market analysis, and weekly reports.</p>
 <p class="l-ja">中心となるのは、複数のオンチェーン・テクニカル指標を単一の<strong>0〜10のタイミングスコア</strong>に統合することです。ビットコインは MVRV Z-Score、NUPL、STH-SOPR、コインベースプレミアム、ハッシュリボンなどの完全なオンチェーンデータを使用し、アルトコインは推定バリュエーション指標で補完します。スコアとともに各指標の現在の状態、分割エントリーガイド、スコア履歴を提供し、ブログでは指標解説・市況分析・週次レポートを発行しています。</p>
 <p class="l-es">En esencia, el sitio condensa múltiples indicadores on-chain y técnicos en una única <strong>puntuación de timing de 0 a 10</strong>. Bitcoin utiliza datos on-chain completos como MVRV Z-Score, NUPL, STH-SOPR, Coinbase Premium y Hash Ribbon, mientras que las altcoins se complementan con métricas de valoración estimadas. Junto con la puntuación, mostramos el estado actual de cada indicador, una guía de entrada escalonada y el historial de puntuaciones, y nuestro blog publica explicaciones de indicadores, análisis de mercado e informes semanales.</p>
@@ -73,10 +73,10 @@ require __DIR__ . '/_guide_head.php';
 
 <h2 id="s3"><span class="l-ko">3. 편집·분석 원칙</span><span class="l-en">3. Editorial &amp; Analysis Principles</span><span class="l-ja">3. 編集・分析方針</span><span class="l-es">3. Principios Editoriales y de Análisis</span><span class="l-de">3. Redaktions- und Analysegrundsätze</span><span class="l-fr">3. Principes éditoriaux et d'analyse</span><span class="l-pt">3. Princípios Editoriais e de Análise</span><span class="l-tr">3. Editoryal ve Analiz İlkeleri</span><span class="l-vi">3. Nguyên tắc biên tập &amp; phân tích</span></h2>
 <ul class="l-ko">
-  <li><strong>데이터 우선</strong> — 모든 점수와 판단은 공개된 온체인·시장 데이터에 근거하며, 계산 방식과 데이터 출처를 투명하게 밝힌다.</li>
-  <li><strong>과장 배제</strong> — 특정 코인의 매수를 부추기거나 가격을 단정적으로 예측하지 않는다. 지표가 가리키는 확률적 상태를 설명할 뿐이다.</li>
-  <li><strong>이해관계 없음</strong> — 코인 발행처·거래소로부터 대가를 받고 특정 자산을 홍보하지 않는다. 제휴 링크가 있는 경우 명확히 표시한다.</li>
-  <li><strong>정정</strong> — 오류가 확인되면 해당 글을 수정하고 수정 사실을 밝힌다.</li>
+  <li><strong>데이터 우선</strong> — 모든 점수와 판단은 공개된 온체인·시장 데이터에 근거하며, 계산 방식과 데이터 출처를 투명하게 밝힙니다.</li>
+  <li><strong>과장 배제</strong> — 특정 코인의 매수를 부추기거나 가격을 단정적으로 예측하지 않습니다. 지표가 가리키는 확률적 상태를 설명할 뿐입니다.</li>
+  <li><strong>이해관계 없음</strong> — 코인 발행처·거래소로부터 대가를 받고 특정 자산을 홍보하지 않습니다. 제휴 링크가 있는 경우 명확히 표시합니다.</li>
+  <li><strong>정정</strong> — 오류가 확인되면 해당 글을 수정하고 수정 사실을 밝힙니다.</li>
 </ul>
 <ul class="l-en">
   <li><strong>Data first</strong> — Every score and judgment is grounded in public on-chain and market data, and we disclose our calculation method and data sources transparently.</li>
@@ -128,7 +128,7 @@ require __DIR__ . '/_guide_head.php';
 </ul>
 
 <h2 id="s4"><span class="l-ko">4. 데이터 출처</span><span class="l-en">4. Data Sources</span><span class="l-ja">4. データソース</span><span class="l-es">4. Fuentes de Datos</span><span class="l-de">4. Datenquellen</span><span class="l-fr">4. Sources de données</span><span class="l-pt">4. Fontes de Dados</span><span class="l-tr">4. Veri Kaynakları</span><span class="l-vi">4. Nguồn dữ liệu</span></h2>
-<p class="l-ko">가격·이동평균·선물 데이터는 바이낸스 API, 공포·탐욕 지수는 Alternative.me, 도미넌스·시가총액은 CoinGecko, 온체인 지표는 Glassnode·MacroMicro·Newhedge 등 공개 소스, 코인베이스 프리미엄은 코인베이스 API, 환율은 Upbit·exchangerate-api를 참조한다. 일부 온체인 값은 스크래핑 실패 시 대체값을 사용할 수 있으며, 이 경우 화면에 안내한다.</p>
+<p class="l-ko">가격·이동평균·선물 데이터는 바이낸스 API, 공포·탐욕 지수는 Alternative.me, 도미넌스·시가총액은 CoinGecko, 온체인 지표는 Glassnode·MacroMicro·Newhedge 등 공개 소스, 코인베이스 프리미엄은 코인베이스 API, 환율은 Upbit·exchangerate-api를 참조합니다. 일부 온체인 값은 스크래핑 실패 시 대체값을 사용할 수 있으며, 이 경우 화면에 안내합니다.</p>
 <p class="l-en">Price, moving-average, and futures data come from the Binance API; the Fear &amp; Greed Index from Alternative.me; dominance and market cap from CoinGecko; on-chain indicators from public sources such as Glassnode, MacroMicro, and Newhedge; Coinbase Premium from the Coinbase API; and exchange rates from Upbit and exchangerate-api. Some on-chain values may fall back to substitute figures if scraping fails, in which case this is indicated on screen.</p>
 <p class="l-ja">価格・移動平均・先物データは Binance API、恐怖・貪欲指数は Alternative.me、ドミナンス・時価総額は CoinGecko、オンチェーン指標は Glassnode・MacroMicro・Newhedge などの公開ソース、コインベースプレミアムは Coinbase API、為替レートは Upbit・exchangerate-api を参照します。一部のオンチェーン値はスクレイピングに失敗した場合に代替値を使用することがあり、その際は画面に表示します。</p>
 <p class="l-es">Los datos de precio, media móvil y futuros provienen de la API de Binance; el Índice de Miedo y Codicia de Alternative.me; la dominancia y capitalización de mercado de CoinGecko; los indicadores on-chain de fuentes públicas como Glassnode, MacroMicro y Newhedge; el Coinbase Premium de la API de Coinbase; y los tipos de cambio de Upbit y exchangerate-api. Algunos valores on-chain pueden recurrir a cifras sustitutas si falla el scraping, en cuyo caso se indica en pantalla.</p>
@@ -140,7 +140,7 @@ require __DIR__ . '/_guide_head.php';
 
 <h2 id="s5"><span class="l-ko">5. 면책 고지</span><span class="l-en">5. Disclaimer</span><span class="l-ja">5. 免責事項</span><span class="l-es">5. Aviso Legal</span><span class="l-de">5. Haftungsausschluss</span><span class="l-fr">5. Avertissement</span><span class="l-pt">5. Aviso Legal</span><span class="l-tr">5. Sorumluluk Reddi</span><span class="l-vi">5. Miễn trừ trách nhiệm</span></h2>
 <div class="box warn">
-<p class="l-ko"><b>본 사이트의 모든 정보는 참고용이며 투자 조언이 아니다.</b> 암호화폐 투자에는 원금 손실 위험이 따르며, 최종 투자 판단과 그 결과에 대한 책임은 전적으로 이용자 본인에게 있다. 타이밍 점수는 과거 데이터에 기반한 확률적 지표일 뿐 미래 수익을 보장하지 않는다.</p>
+<p class="l-ko"><b>본 사이트의 모든 정보는 참고용이며 투자 조언이 아닙니다.</b> 암호화폐 투자에는 원금 손실 위험이 따르며, 최종 투자 판단과 그 결과에 대한 책임은 전적으로 이용자 본인에게 있습니다. 타이밍 점수는 과거 데이터에 기반한 확률적 지표일 뿐 미래 수익을 보장하지 않습니다.</p>
 <p class="l-en"><b>All information on this site is for reference only and is not investment advice.</b> Cryptocurrency investing carries the risk of losing your principal, and the final investment decision and its consequences rest entirely with you. The timing score is a probabilistic indicator based on historical data and does not guarantee future returns.</p>
 <p class="l-ja"><b>本サイトのすべての情報は参考用であり、投資助言ではありません。</b> 暗号資産投資には元本損失のリスクが伴い、最終的な投資判断とその結果に対する責任はすべて利用者本人にあります。タイミングスコアは過去データに基づく確率的指標にすぎず、将来の収益を保証しません。</p>
 <p class="l-es"><b>Toda la información de este sitio es solo de referencia y no constituye asesoramiento de inversión.</b> Invertir en criptomonedas conlleva el riesgo de perder su capital, y la decisión final de inversión y sus consecuencias recaen enteramente en usted. La puntuación de timing es un indicador probabilístico basado en datos históricos y no garantiza rendimientos futuros.</p>
@@ -152,7 +152,7 @@ require __DIR__ . '/_guide_head.php';
 </div>
 
 <h2 id="s6"><span class="l-ko">6. 운영 및 연락처</span><span class="l-en">6. Operator &amp; Contact</span><span class="l-ja">6. 運営・連絡先</span><span class="l-es">6. Operador y Contacto</span><span class="l-de">6. Betreiber &amp; Kontakt</span><span class="l-fr">6. Exploitant et contact</span><span class="l-pt">6. Operador e Contato</span><span class="l-tr">6. İşletmeci ve İletişim</span><span class="l-vi">6. Người vận hành &amp; Liên hệ</span></h2>
-<p class="l-ko">BTCtiming.com은 개인이 운영한다. 제보·정정 요청·제휴 문의·기타 의견은 아래 이메일로 연락해 주세요. 확인 후 성실히 답변드린다.</p>
+<p class="l-ko">BTCtiming.com은 개인이 운영합니다. 제보·정정 요청·제휴 문의·기타 의견은 아래 이메일로 연락해 주세요. 확인 후 성실히 답변드리겠습니다.</p>
 <p class="l-en">BTCtiming.com is operated by an individual. For tips, correction requests, partnership inquiries, or any other feedback, please reach us at the email below. We review every message and reply in good faith.</p>
 <p class="l-ja">BTCtiming.com は個人が運営しています。情報提供・訂正依頼・提携のお問い合わせ・その他のご意見は、以下のメールアドレスまでご連絡ください。確認のうえ誠実に返信いたします。</p>
 <p class="l-es">BTCtiming.com es operado por un particular. Para sugerencias, solicitudes de corrección, consultas de colaboración o cualquier otro comentario, contáctenos en el correo a continuación. Revisamos cada mensaje y respondemos de buena fe.</p>
@@ -166,12 +166,6 @@ require __DIR__ . '/_guide_head.php';
   <b class="l-ko">이메일</b><b class="l-en">Email</b><b class="l-ja">メール</b><b class="l-es">Correo electrónico</b><b class="l-de">E-Mail</b><b class="l-fr">E-mail</b><b class="l-pt">E-mail</b><b class="l-tr">E-posta</b><b class="l-vi">Email</b>
   <a href="mailto:jpjihoon@gmail.com">jpjihoon@gmail.com</a>
 </div>
-
-  <div class="pagefoot" style="margin-top:56px;padding-top:24px;border-top:1px solid var(--b1);font-size:12.5px;color:var(--t3);display:flex;gap:18px;flex-wrap:wrap">
-    <a href="/" style="color:var(--t3);text-decoration:underline"><span class="l-ko">← 메인으로</span><span class="l-en">← Back to Home</span><span class="l-ja">← ホームへ戻る</span><span class="l-es">← Volver al Inicio</span><span class="l-de">← Zurück zur Startseite</span><span class="l-fr">← Retour à l'accueil</span><span class="l-pt">← Voltar ao início</span><span class="l-tr">← Ana sayfaya dön</span><span class="l-vi">← Về trang chủ</span></a>
-    <a href="/privacy" style="color:var(--t3);text-decoration:underline"><span class="l-ko">개인정보처리방침</span><span class="l-en">Privacy Policy</span><span class="l-ja">プライバシーポリシー</span><span class="l-es">Política de Privacidad</span><span class="l-de">Datenschutz</span><span class="l-fr">Confidentialité</span><span class="l-pt">Privacidade</span><span class="l-tr">Gizlilik</span><span class="l-vi">Bảo mật</span></a>
-    <a href="/terms" style="color:var(--t3);text-decoration:underline"><span class="l-ko">이용약관</span><span class="l-en">Terms of Service</span><span class="l-ja">利用規約</span><span class="l-es">Términos de Servicio</span><span class="l-de">Nutzungsbedingungen</span><span class="l-fr">Conditions d'utilisation</span><span class="l-pt">Termos de Serviço</span><span class="l-tr">Hizmet Şartları</span><span class="l-vi">Điều khoản dịch vụ</span></a>
-  </div>
 </div>
 
 <?php require __DIR__ . '/_guide_foot.php';

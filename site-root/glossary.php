@@ -126,8 +126,6 @@ h1{font-size:1.8rem;font-weight:800;line-height:1.28;margin-bottom:8px;color:#fa
 .gcard .garw{font-size:15px;opacity:0;transform:translateX(-4px);transition:opacity .15s,transform .15s}
 .gcard:hover .garw{opacity:1;transform:translateX(0)}
 .gcard span{display:block;color:#8b8b93;font-size:12px;line-height:1.55;margin-top:5px}
-.pagefoot{margin-top:52px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07);font-size:12.5px;color:#71717a;display:flex;gap:18px;flex-wrap:wrap}
-.pagefoot a{color:#71717a;text-decoration:underline}
 CSS;
 
 // 개념도 라벨 치환
@@ -275,12 +273,6 @@ require __DIR__ . '/_guide_head.php';
     </div>
   <?php endforeach; ?>
 <?php endif; ?>
-
-  <div class="pagefoot">
-    <a href="/<?= gh($termSuffix) ?>"><span class="l-ko">← 실시간 분석</span><span class="l-en">← Live Analysis</span><span class="l-ja">← リアルタイム分析</span><span class="l-es">← Análisis en vivo</span><span class="l-de">← Live-Analyse</span><span class="l-fr">← Analyse en direct</span><span class="l-pt">← Análise ao vivo</span><span class="l-tr">← Canlı analiz</span><span class="l-vi">← Phân tích trực tiếp</span></a>
-    <a href="/blog/<?= gh($termSuffix) ?>"><span class="l-ko">블로그</span><span class="l-en">Blog</span><span class="l-ja">ブログ</span><span class="l-es">Blog</span><span class="l-de">Blog</span><span class="l-fr">Blog</span><span class="l-pt">Blog</span><span class="l-tr">Blog</span><span class="l-vi">Blog</span></a>
-    <a href="/about<?= gh($termSuffix) ?>"><span class="l-ko">소개</span><span class="l-en">About</span><span class="l-ja">概要</span><span class="l-es">Acerca de</span><span class="l-de">Über uns</span><span class="l-fr">À propos</span><span class="l-pt">Sobre</span><span class="l-tr">Hakkında</span><span class="l-vi">Giới thiệu</span></a>
-  </div>
 </div>
 
 <script>
