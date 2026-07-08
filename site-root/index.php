@@ -139,7 +139,7 @@ function h(string $s): string {
 <!DOCTYPE html>
 <html lang="<?= $htmlLang ?>">
 <head>
-<script src="/lang.js"></script>
+<script src="/lang.js" defer></script>
 <script src="https://s3.tradingview.com/tv.js" defer></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
@@ -151,7 +151,7 @@ function h(string $s): string {
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="p:domain_verify" content="7aa5d0e2fb9fe7cc948d6989b7ba624f"/>
+<meta name="p:domain_verify" content="7aa5d0e2fb9fe7cc948d6989b7ba624f">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -805,6 +805,8 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .exch-banner-tx span{font-size:11px;color:rgba(255,255,255,.72)}
 .exch-banner-ar{color:var(--yellow);font-weight:700;font-size:20px;flex-shrink:0;position:relative;z-index:1;line-height:1}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
+#blogTickerScroll::-webkit-scrollbar{display:none}
+#blogCategoryScroll::-webkit-scrollbar{display:none}
 </style>
 </head>
 <body>
@@ -929,8 +931,6 @@ $__seoSub = [
       margin-left:12px;padding-left:12px;border-left:1px solid var(--b1);white-space:nowrap"></a>
   </div>
 </div>
-<style>#blogTickerScroll::-webkit-scrollbar{display:none}
-#blogCategoryScroll::-webkit-scrollbar{display:none}</style>
 
 <div class="page-wrap">
 <?php
@@ -1179,6 +1179,7 @@ $__seoSub = [
         <a id="blogCategoryAllLink" href="/blog/" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;flex-shrink:0;margin-left:10px"></a>
       </div>
 </footer>
+</div><!-- /page-wrap -->
 
 <script>
 // 서버(PHP)가 생성해야 하는 설정값만 인라인 유지 — 나머지 로직은 /app.js로 분리됨

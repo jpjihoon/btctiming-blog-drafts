@@ -972,19 +972,6 @@ const GUIDE_LINK_MAP={
   vol_change:'volume-acceleration-guide',
 };
 
-// 지표 카드 → 용어사전(glossary) 슬러그 매핑
-const GLOSSARY_LINK_MAP={
-  mvrv_z:'mvrv-z', nupl:'nupl', realized:'realized-price',
-  hash_ribbon:'hash-ribbon', sth_sopr:'sth-sopr', funding:'funding-rate',
-  cb_premium:'coinbase-premium', lth_supply:'lth-supply', dom:'btc-dominance',
-  halving:'halving', ath_pos:'altcoin-drawdown', alt_drawdown:'altcoin-drawdown',
-  alt_short_ath:'altcoin-drawdown', rsi:'rsi',
-  alt_valuation:'altcoin-valuation', alt_short_valuation:'altcoin-valuation',
-  btc_corr:'btc-dominance', btc_corr_tech:'btc-correlation',
-  buy_pressure:'buy-pressure', sell_pressure:'buy-pressure',
-  vol_change:'volume-change',
-};
-
 function makeCard(d,mode='buy'){
   if(!d)return'';
   const r=d.score/d.max;
@@ -1004,19 +991,12 @@ function makeCard(d,mode='buy'){
   const localTarget=translateTarget(d.target||'—');
   const vStr=`${d.value}${d.unit||''}`;
   const guideSlug=GUIDE_LINK_MAP[d.key];
-  const glossarySlug=GLOSSARY_LINK_MAP[d.key];
   const blogSuffixVal = blogSuffix(currentLang);
-  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}"
+  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}" target="_blank" rel="noopener"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
       📖 ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
-  const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
-  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}"
-      onclick="event.stopPropagation()"
-      style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
-      text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
-      📚 ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
   return`<div class="icard" onclick="this.classList.toggle('expanded')">
     <div class="icard-top">
       <span class="icard-name">${localLabel}<span class="pill ${pc}">${localSignal}</span></span>
@@ -1035,7 +1015,7 @@ function makeCard(d,mode='buy'){
     <div class="icard-note">
       <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>
       <div style="white-space:pre-line;line-height:1.6;color:var(--t2);font-size:10px">${detDesc}</div>
-      ${guideBtn}${glossaryBtn}
+      ${guideBtn}
     </div>
   </div>`;
 }
@@ -2472,8 +2452,18 @@ function isOn(id) { return document.getElementById(id)?.classList.contains('on')
 // ═══════════════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════════════
-// TradingView: iframe 방식 (스크립트 불필요)
-initChart();
+// TradingView 차트는 무겁다(≈550KB). 초기 렌더를 막지 않도록 뷰포트에 들어올 때 로드한다.
+(function lazyChart(){
+  var el = document.getElementById('tvChart');
+  if(!el || !('IntersectionObserver' in window)){ initChart(); return; }  // 폴백: 그냥 로드
+  var io = new IntersectionObserver(function(entries){
+    if(entries.some(function(e){ return e.isIntersecting; })){
+      io.disconnect();
+      initChart();
+    }
+  }, { rootMargin: '300px' });   // 화면에 들어오기 300px 전 미리 로드
+  io.observe(el);
+})();
 
 initTabs();
 connectWS();
@@ -2669,8 +2659,6 @@ function updateLangUI(lang) {
   document.documentElement.lang = lang;
   const navBlog = document.getElementById('navBlogLink');
   if(navBlog) navBlog.href = '/blog/' + blogSuffix(lang);
-  const navGlossary = document.getElementById('navGlossaryLink');
-  if(navGlossary) navGlossary.href = '/glossary' + blogSuffix(lang);
   const privacyLink = document.getElementById('footerPrivacyLink');
   if(privacyLink) privacyLink.href = '/privacy' + blogSuffix(lang);
   const termsLink = document.getElementById('footerTermsLink');
