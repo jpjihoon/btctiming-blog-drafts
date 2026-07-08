@@ -566,11 +566,12 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 
 /* ── LAYOUT ── */
 .page-wrap{max-width:1280px;margin:0 auto;width:100%}
-/* SEO 대표 제목(h1) — 시각적으로 절제된 소개 문구. 구글에 페이지 주제를 명확히 전달 */
-.seo-hero{padding:14px 16px 4px}
-.seo-hero h1{font-size:15px;font-weight:700;color:var(--t1);line-height:1.35;margin:0 0 3px;letter-spacing:-.2px}
-.seo-hero p{font-size:12px;color:var(--t3);line-height:1.45;margin:0}
-@media(max-width:600px){.seo-hero{padding:12px 16px 2px}.seo-hero h1{font-size:14px}.seo-hero p{font-size:11.5px}}
+/* SEO 대표 제목(h1) — 차트 셀 상단에 얇게. 레이아웃(grid)을 밀지 않고 차트 위 여백만 사용 */
+.seo-hero{padding:0 2px 10px}
+.seo-hero h1{font-size:14px;font-weight:700;color:var(--t1);line-height:1.3;margin:0 0 2px;letter-spacing:-.2px}
+.seo-hero p{font-size:11px;color:var(--t3);line-height:1.4;margin:0}
+@media(max-width:900px){.seo-hero{padding:0 2px 8px}}
+@media(max-width:600px){.seo-hero h1{font-size:13px}.seo-hero p{font-size:10.5px}}
 .layout{display:grid;grid-template-columns:280px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:0;align-items:start}
 .sidebar{grid-area:sidebar}
 .chart-wrap-cell{grid-area:chart;padding:16px 16px 0}
@@ -928,10 +929,6 @@ $__seoSub = [
   'vi' => 'Tín hiệu thời điểm 0–10 theo thời gian thực, kết hợp các chỉ báo on-chain, miễn phí.',
 ];
 ?>
-<div class="seo-hero">
-  <h1><?= h($__seoH1[$lang] ?? $__seoH1['en']) ?></h1>
-  <p><?= h($__seoSub[$lang] ?? $__seoSub['en']) ?></p>
-</div>
 <div class="layout">
   <!-- SIDEBAR -->
   <div class="sidebar">
@@ -1078,6 +1075,10 @@ $__seoSub = [
 
   <!-- Chart: 데스크톱에선 사이드바 옆, 모바일에선 최상단(grid-template-areas로 순서 제어) -->
   <div class="chart-wrap-cell">
+    <div class="seo-hero">
+      <h1><?= h($__seoH1[$lang] ?? $__seoH1['en']) ?></h1>
+      <p><?= h($__seoSub[$lang] ?? $__seoSub['en']) ?></p>
+    </div>
     <div class="chart-wrap" id="tvChart"></div>
   </div>
 
