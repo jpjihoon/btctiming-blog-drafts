@@ -61,7 +61,6 @@ $GUIDE_EXTRA_CSS = '
 .day-head .d-count{font-size:11px;font-weight:600;color:var(--t3);background:var(--bg4);border:1px solid var(--b1);border-radius:999px;padding:2px 9px}
 ul.day-posts{list-style:none;padding:0;margin:0}
 ul.day-posts li{display:flex;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid var(--b1)}
-ul.day-posts li .p-ico{flex-shrink:0;font-size:14px}
 ul.day-posts li a{color:#d4d4d8;font-size:14.5px}
 ul.day-posts li a:hover{color:var(--orange)}
 .empty-day{color:var(--t3);font-size:14px;padding:16px 0}
@@ -145,9 +144,8 @@ function renderPosts(){
   const posts=POSTS[ymd]||[]; if(cnt)cnt.textContent=posts.length; ul.innerHTML='';
   if(posts.length===0){ ul.innerHTML='<li class=\"empty-day\">—</li>'; return; }
   posts.forEach(p=>{ const li=document.createElement('li');
-    const ico=document.createElement('span');ico.className='p-ico';ico.textContent=p.icon;
     const a=document.createElement('a');a.href='/blog/'+p.slug+'.php'+(lang==='ko'?'':('?lang='+lang));a.textContent=p.title[lang]||p.title.ko;
-    li.appendChild(ico);li.appendChild(a);ul.appendChild(li); });
+    li.appendChild(a);ul.appendChild(li); });
 }
 function renderAll(){ renderYears(); renderMonths(); renderDays(); renderPosts(); }
 window.onGuideLang = function(){ if(Object.keys(TREE).length) renderAll(); };
