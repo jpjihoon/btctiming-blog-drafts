@@ -11,3 +11,4 @@ Disallow: /score_calc.php
 Disallow: /*.keystore
 
 Sitemap: https://btctiming.com/sitemap.xml
+Sitemap: https://btctiming.com/blog/news-sitemap.php
