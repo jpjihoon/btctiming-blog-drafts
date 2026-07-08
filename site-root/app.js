@@ -972,6 +972,19 @@ const GUIDE_LINK_MAP={
   vol_change:'volume-acceleration-guide',
 };
 
+// 지표 카드 → 용어사전(glossary) 슬러그 매핑
+const GLOSSARY_LINK_MAP={
+  mvrv_z:'mvrv-z', nupl:'nupl', realized:'realized-price',
+  hash_ribbon:'hash-ribbon', sth_sopr:'sth-sopr', funding:'funding-rate',
+  cb_premium:'coinbase-premium', lth_supply:'lth-supply', dom:'btc-dominance',
+  halving:'halving', ath_pos:'altcoin-drawdown', alt_drawdown:'altcoin-drawdown',
+  alt_short_ath:'altcoin-drawdown', rsi:'rsi',
+  alt_valuation:'altcoin-valuation', alt_short_valuation:'altcoin-valuation',
+  btc_corr:'btc-dominance', btc_corr_tech:'btc-correlation',
+  buy_pressure:'buy-pressure', sell_pressure:'buy-pressure',
+  vol_change:'volume-change',
+};
+
 function makeCard(d,mode='buy'){
   if(!d)return'';
   const r=d.score/d.max;
@@ -991,12 +1004,19 @@ function makeCard(d,mode='buy'){
   const localTarget=translateTarget(d.target||'—');
   const vStr=`${d.value}${d.unit||''}`;
   const guideSlug=GUIDE_LINK_MAP[d.key];
+  const glossarySlug=GLOSSARY_LINK_MAP[d.key];
   const blogSuffixVal = blogSuffix(currentLang);
   const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}" target="_blank" rel="noopener"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
       📖 ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
+  const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
+  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}" target="_blank" rel="noopener"
+      onclick="event.stopPropagation()"
+      style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
+      text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
+      📚 ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
   return`<div class="icard" onclick="this.classList.toggle('expanded')">
     <div class="icard-top">
       <span class="icard-name">${localLabel}<span class="pill ${pc}">${localSignal}</span></span>
@@ -1015,7 +1035,7 @@ function makeCard(d,mode='buy'){
     <div class="icard-note">
       <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>
       <div style="white-space:pre-line;line-height:1.6;color:var(--t2);font-size:10px">${detDesc}</div>
-      ${guideBtn}
+      ${guideBtn}${glossaryBtn}
     </div>
   </div>`;
 }

@@ -14,6 +14,10 @@
   <a href="/privacy" style="color:var(--t3);text-decoration:underline"><span class="l-ko">개인정보처리방침</span><span class="l-en">Privacy Policy</span><span class="l-ja">プライバシーポリシー</span><span class="l-es">Política de Privacidad</span><span class="l-de">Datenschutzerklärung</span><span class="l-fr">Confidentialité</span><span class="l-pt">Privacidade</span><span class="l-tr">Gizlilik Politikası</span><span class="l-vi">Chính sách bảo mật</span></a>
   ·
   <a href="/terms" style="color:var(--t3);text-decoration:underline"><span class="l-ko">이용약관</span><span class="l-en">Terms of Service</span><span class="l-ja">利用規約</span><span class="l-es">Términos de Servicio</span><span class="l-de">Nutzungsbedingungen</span><span class="l-fr">Conditions d'utilisation</span><span class="l-pt">Termos de Serviço</span><span class="l-tr">Hizmet Şartları</span><span class="l-vi">Điều khoản dịch vụ</span></a>
+  ·
+  <a href="/about" style="color:var(--t3);text-decoration:underline"><span class="l-ko">소개</span><span class="l-en">About</span><span class="l-ja">概要</span><span class="l-es">Acerca de</span><span class="l-de">Über uns</span><span class="l-fr">À propos</span><span class="l-pt">Sobre</span><span class="l-tr">Hakkında</span><span class="l-vi">Giới thiệu</span></a>
+  ·
+  <a href="/glossary" style="color:var(--t3);text-decoration:underline"><span class="l-ko">용어사전</span><span class="l-en">Glossary</span><span class="l-ja">用語集</span><span class="l-es">Glosario</span><span class="l-de">Glossar</span><span class="l-fr">Glossaire</span><span class="l-pt">Glossário</span><span class="l-tr">Sözlük</span><span class="l-vi">Từ điển</span></a>
   · <span class="l-ko">투자 조언이 아닙니다</span><span class="l-en">Not financial advice</span><span class="l-ja">投資助言ではありません</span><span class="l-es">No es asesoramiento financiero</span><span class="l-de">Keine Finanzberatung</span><span class="l-fr">Pas un conseil financier</span><span class="l-pt">Não é aconselhamento financeiro</span><span class="l-tr">Yatırım tavsiyesi değildir</span><span class="l-vi">Không phải lời khuyên tài chính</span>.
 </div>
 

@@ -897,6 +897,7 @@ $__seoSub = [
   <div class="nav-r">
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
     <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
+    <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary">📚 <span data-i="navGlossary">용어사전</span></a>
     <div class="icon-btn" onclick="openModal()" title="Alerts">🔔</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
