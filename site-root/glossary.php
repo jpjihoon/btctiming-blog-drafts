@@ -10,8 +10,16 @@ require_once __DIR__ . '/config.php';
 $GLOSSARY = require __DIR__ . '/glossary_data.php';
 require __DIR__ . '/glossary_gauge.php';
 
-// 언어 결정(공용 규칙)
-$__gLang = (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) ? $_GET['lang'] : 'ko';
+// 언어 결정(공용 규칙): URL ?lang 우선 → 없으면 쿠키(마지막 선택) → ko
+// 쿠키를 보기 때문에, 뒤로가기로 lang 없는 URL에 와도 서버가 마지막 선택 언어로 렌더한다.
+// (그래서 JS로 다시 로드해 고칠 필요가 없어 히스토리가 꼬이지 않는다.)
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+    $__gLang = $_GET['lang'];                          // URL에 명시되면 그걸 존중(공유 링크 등)
+} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+    $__gLang = $_COOKIE['blogLang'];                  // 없으면 마지막 선택 언어(쿠키)
+} else {
+    $__gLang = 'ko';
+}
 $L = fn($arr) => $arr[$__gLang] ?? $arr['en'];
 
 // 요청 지표
@@ -234,76 +242,53 @@ require __DIR__ . '/_guide_head.php';
 </div>
 
 <script>
-// 이 페이지의 본문(카드/설명)은 서버(PHP)가 선택 언어 하나만 렌더한다.
-// 그래서 헤더/푸터처럼 CSS로 즉시 전환할 수 없고, 언어를 바꾸면 새 URL로 이동해 다시 렌더해야 한다.
+// 언어 유지 방식: 사용자가 언어를 바꾸면 쿠키(blogLang)에 저장한다.
+// 서버(glossary.php)가 URL ?lang 없을 때 이 쿠키를 읽어 마지막 선택 언어로 렌더하므로,
+// 뒤로가기로 어떤 URL에 오든 서버가 처음부터 올바른 언어로 그린다.
+// → JS가 location.replace로 다시 로드해 고칠 필요가 없다(그게 히스토리를 꼬았던 원인).
 (function(){
-  var RENDERED = <?= json_encode($__gLang) ?>;      // 지금 화면에 렌더된(=URL이 요청한) 언어
-  var SCROLL_KEY = 'glossaryScroll';                // 언어 전환 리로드 시 스크롤 위치 임시 저장 키
+  var RENDERED = <?= json_encode($__gLang) ?>;      // 지금 화면에 렌더된 언어
+  var SCROLL_KEY = 'glossaryScroll';
   var navigating = false;
 
-  // 언어 전환으로 리로드된 직후에만 저장해둔 스크롤 위치를 복원한다(최상단으로 튀는 것 방지).
-  // ※ scrollRestoration은 건드리지 않는다 — 뒤로가기 시 브라우저의 기본 스크롤 복원을 살려둬야 하기 때문.
+  // 언어 전환으로 리로드된 직후에만 저장해둔 스크롤 위치를 복원(최상단으로 튀는 것 방지).
   var pendingScroll = null;
   try {
     var saved = sessionStorage.getItem(SCROLL_KEY);
     if (saved !== null) {
       sessionStorage.removeItem(SCROLL_KEY);
       pendingScroll = parseInt(saved, 10) || 0;
-      window.scrollTo(0, pendingScroll);             // 즉시 1차 복원
+      window.scrollTo(0, pendingScroll);
     }
   } catch(_){}
-  // 이미지/SVG로 레이아웃이 늦게 커질 수 있어 로드 완료 후 한 번 더 복원
   if (pendingScroll !== null) {
     window.addEventListener('load', function(){ window.scrollTo(0, pendingScroll); });
   }
 
+  function setLangCookie(lang){
+    try {
+      // 1년 유효, 사이트 전역 경로. SameSite=Lax로 일반 내비게이션에서 전송됨.
+      document.cookie = 'blogLang=' + encodeURIComponent(lang) +
+        '; path=/; max-age=31536000; SameSite=Lax';
+    } catch(_){}
+  }
+
+  // 사용자가 언어를 바꿀 때(_guide_foot의 언어 선택이 이 훅을 호출)
   window.onGuideLang = function(lang){
     if (navigating) return;
-    if (!lang || lang === RENDERED) return;          // 이미 이 언어면 이동 안 함(초기 적용 시 오작동 방지)
+    if (!lang) return;
+    setLangCookie(lang);                             // 다음 페이지부터 서버가 이 언어로 렌더
+    if (lang === RENDERED) return;                   // 이미 이 언어면 리로드 불필요
     navigating = true;
-    // 현재 스크롤 위치를 저장 → 리로드 후 위에서 복원
     try { sessionStorage.setItem(SCROLL_KEY, String(window.pageYOffset || 0)); } catch(_){}
     var url = new URL(location.href);
     if (lang === 'ko') url.searchParams.delete('lang');
     else url.searchParams.set('lang', lang);
-    // location.href(히스토리 push) 대신 replace: 언어 전환이 뒤로가기 스택에 쌓이지 않는다.
-    location.replace(url.toString());
+    location.replace(url.toString());               // 지금 이 페이지만 새 언어로 다시 렌더
   };
 
-  // 마지막으로 고른 언어(localStorage)를 항상 존중한다 = 사용자가 마지막에 선택한 언어 유지.
-  // 화면(RENDERED)이 마지막 선택 언어와 다르면, 그 언어로 다시 로드해 맞춘다.
-  // 이걸 "페이지 로드 즉시"에도 하고 "뒤로가기 복원 시(pageshow)"에도 해야 한다.
-  //   - 뒤로가기가 bfcache 히트면 pageshow(persisted)로 잡히고,
-  //   - bfcache 미스(새 로드)면 아래 즉시 실행 분기로 잡힌다.
-  // 둘 다 처리해야 "뒤로가기 하면 이전 언어로 돌아가는" 문제가 사라진다.
-  function syncToStoredLang(){
-    if (navigating) return;
-    // URL에 ?lang이 명시돼 있으면 그건 존중한다(공유 링크·명시적 접근).
-    // 그 경우 서버가 이미 그 언어로 RENDERED 했으므로 건드리지 않는다.
-    var urlHasLang = false;
-    try { urlHasLang = new URLSearchParams(location.search).has('lang'); } catch(_){}
-    // RENDERED가 ko인데 URL에 lang이 있으면(=?lang=ko 같은 경우)도 명시로 간주.
-    if (urlHasLang) return;
-    // 여기까지 왔으면 URL에 lang이 없는 "기본 화면"(서버는 ko로 렌더).
-    // 마지막에 고른 언어가 ko가 아니면 그 언어로 맞춰 사용자의 선택을 유지한다.
-    var stored = 'ko';
-    try { var s = localStorage.getItem('blogLang'); if (s) stored = s; } catch(_){}
-    if (stored !== RENDERED) {
-      navigating = true;
-      var url = new URL(location.href);
-      url.searchParams.set('lang', stored);          // stored는 여기서 ko가 아님
-      location.replace(url.toString());
-    }
-  }
-  // ① 페이지 로드 즉시(새 로드·뒤로가기 bfcache 미스 모두 커버)
-  syncToStoredLang();
-  // ② 뒤로가기/앞으로가기로 bfcache 복원될 때
-  window.addEventListener('pageshow', function(e){
-    if (e.persisted) {
-      navigating = false;
-      syncToStoredLang();
-    }
-  });
+  // 현재 렌더된 언어를 쿠키에도 반영해 둔다(첫 방문 후 localStorage만 있고 쿠키 없던 경우 대비).
+  setLangCookie(RENDERED);
 })();
 </script>
 
