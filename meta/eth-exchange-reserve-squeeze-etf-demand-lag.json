@@ -52,5 +52,9 @@
   "read_en": "8",
   "read_ja": "8",
   "read_es": "8",
-  "read_de": "8"
+  "read_de": "8",
+  "read_fr": "8",
+  "read_pt": "8",
+  "read_tr": "8",
+  "read_vi": "8"
 }
