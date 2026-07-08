@@ -236,16 +236,31 @@ require __DIR__ . '/_guide_head.php';
 <script>
 // 이 페이지의 본문(카드/설명)은 서버(PHP)가 선택 언어 하나만 렌더한다.
 // 그래서 헤더/푸터처럼 CSS로 즉시 전환할 수 없고, 언어를 바꾸면 새 URL로 이동해 다시 렌더해야 한다.
-// _guide_foot.php의 언어 선택이 window.onGuideLang(lang)을 호출해주므로 여기서 후킹한다.
 (function(){
-  var RENDERED = <?= json_encode($__gLang) ?>; // 지금 화면에 렌더된 언어
+  var RENDERED = <?= json_encode($__gLang) ?>;      // 지금 화면에 렌더된(=URL이 요청한) 언어
+  // URL의 lang이 이 페이지의 진실. 초기 로드 때 _guide_foot의 applyLang(currentLang())이
+  // localStorage 값으로 onGuideLang을 호출할 수 있으므로, RENDERED와 다를 때만 이동한다.
+  var navigating = false;
   window.onGuideLang = function(lang){
-    if (!lang || lang === RENDERED) return;      // 같은 언어면 아무것도 안 함(초기 적용 시 무한 이동 방지)
+    if (navigating) return;
+    if (!lang || lang === RENDERED) return;          // 이미 이 언어면 이동 안 함(무한/오작동 방지)
+    navigating = true;
     var url = new URL(location.href);
     if (lang === 'ko') url.searchParams.delete('lang');
     else url.searchParams.set('lang', lang);
-    location.href = url.toString();               // 새 언어로 페이지 재요청 → PHP가 본문까지 새 언어로 렌더
+    // location.href(=히스토리 push) 대신 replace: 언어 전환이 뒤로가기 스택에 쌓이지 않아
+    // 뒤로가기/앞으로가기 시 언어가 계속 튀는 문제를 없앤다.
+    location.replace(url.toString());
   };
+  // 뒤로가기/앞으로가기로 bfcache 복원될 때: 화면은 RENDERED 언어 그대로다.
+  // localStorage가 그새 다른 값이 돼 있어도 이 페이지를 다시 이동시키지 않도록,
+  // 복원 시 localStorage를 현재 URL 언어(RENDERED)로 맞춰 재이동 트리거를 끊는다.
+  window.addEventListener('pageshow', function(e){
+    if (e.persisted) {
+      try { localStorage.setItem('blogLang', RENDERED); } catch(_){}
+      navigating = false;
+    }
+  });
 })();
 </script>
 

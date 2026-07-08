@@ -1006,13 +1006,13 @@ function makeCard(d,mode='buy'){
   const guideSlug=GUIDE_LINK_MAP[d.key];
   const glossarySlug=GLOSSARY_LINK_MAP[d.key];
   const blogSuffixVal = blogSuffix(currentLang);
-  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}" target="_blank" rel="noopener"
+  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
       📖 ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
   const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
-  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}" target="_blank" rel="noopener"
+  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
       text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
