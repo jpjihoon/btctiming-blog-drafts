@@ -18,9 +18,10 @@ header('Content-Type: application/rss+xml; charset=utf-8');
 header('Cache-Control: public, max-age=600'); // 10분 캐싱
 
 require_once __DIR__ . '/_articles.php';
+require_once __DIR__ . '/../config.php';
 
 $baseUrl = 'https://btctiming.com';
-$VALID_LANGS = ['ko', 'en', 'ja', 'es', 'de'];
+$VALID_LANGS = array_keys(SUPPORTED_LANGS);
 
 // 언어 결정
 $lang = $_GET['lang'] ?? 'ko';
@@ -48,20 +49,30 @@ $pick = function(array $a, string $field) use ($lang): string {
 };
 
 // 피드 메타(언어별)
-$feedTitle = [
+$__feedTitles = [
     'ko' => 'BTCtiming.com 블로그',
     'en' => 'BTCtiming.com Blog',
     'ja' => 'BTCtiming.com ブログ',
     'es' => 'Blog de BTCtiming.com',
     'de' => 'BTCtiming.com Blog',
-][$lang];
-$feedDesc = [
+    'fr' => 'Blog de BTCtiming.com',
+    'pt' => 'Blog do BTCtiming.com',
+    'tr' => 'BTCtiming.com Blog',
+    'vi' => 'Blog BTCtiming.com',
+];
+$feedTitle = $__feedTitles[$lang] ?? $__feedTitles['en'];
+$__feedDescs = [
     'ko' => '비트코인 온체인 지표 가이드, 시황분석, 주간 리포트, 칼럼.',
     'en' => 'Bitcoin on-chain indicator guides, market watch, weekly reports and columns.',
     'ja' => 'ビットコインのオンチェーン指標ガイド、市況分析、週間レポート、コラム。',
     'es' => 'Guías de indicadores on-chain de Bitcoin, análisis de mercado, informes semanales y columnas.',
     'de' => 'Bitcoin-On-Chain-Indikator-Guides, Marktanalysen, Wochenberichte und Kolumnen.',
-][$lang];
+    'fr' => 'Guides des indicateurs on-chain du Bitcoin, analyses de marché, rapports hebdomadaires et chroniques.',
+    'pt' => 'Guias de indicadores on-chain do Bitcoin, análise de mercado, relatórios semanais e colunas.',
+    'tr' => 'Bitcoin zincir üstü gösterge kılavuzları, piyasa analizi, haftalık raporlar ve köşe yazıları.',
+    'vi' => 'Hướng dẫn chỉ báo on-chain của Bitcoin, phân tích thị trường, báo cáo hàng tuần và chuyên mục.',
+];
+$feedDesc = $__feedDescs[$lang] ?? $__feedDescs['en'];
 
 // RFC-822 날짜 (RSS 표준). date 필드는 'YYYY-MM-DD' 또는 시간 포함일 수 있음.
 $rfc822 = function(?string $raw): string {

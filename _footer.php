@@ -385,8 +385,8 @@ if (defined('COIN_SYMBOLS')) {
     }
 }
 $__blogCoinsJson = json_encode($__blogCoins, JSON_UNESCAPED_UNICODE);
-$__coinSheetTitle = ['ko'=>'코인 전환','en'=>'Switch coin','ja'=>'コイン切替','es'=>'Cambiar','de'=>'Coin wechseln'][$lang] ?? 'Switch coin';
-$__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'お気に入り','es'=>'Favoritos','de'=>'Favoriten'][$lang] ?? 'Your favorites';
+$__coinSheetTitle = ['ko'=>'코인 전환','en'=>'Switch coin','ja'=>'コイン切替','es'=>'Cambiar','de'=>'Coin wechseln','fr'=>'Changer de crypto','pt'=>'Trocar moeda','tr'=>'Coin değiştir','vi'=>'Đổi coin'][$lang] ?? 'Switch coin';
+$__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'お気に入り','es'=>'Favoritos','de'=>'Favoriten','fr'=>'Vos favoris','pt'=>'Seus favoritos','tr'=>'Favorileriniz','vi'=>'Yêu thích của bạn'][$lang] ?? 'Your favorites';
 ?>
 <style>
 .blog-tabbar{display:none}
