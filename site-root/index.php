@@ -830,14 +830,14 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
     </div>
 
     <div style="font-size:10px;font-weight:600;color:var(--t2);margin:8px 0 6px" data-i="alertBuySection">📈 LONG TRIGGERS</div>
-    <div class="alert-row"><span class="alert-label" data-i="a2">Long Score ≥ 6.0 (Split Long)</span><div class="toggle on" id="a2" onclick="toggleAlert(this)"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="a3">Long Score ≥ 7.0 (Add Long)</span><div class="toggle on" id="a3" onclick="toggleAlert(this)"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="a4">Long Score ≥ 8.0 (Full Long)</span><div class="toggle on" id="a4" onclick="toggleAlert(this)"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="a2">Long Score ≥ 6.0 (Split Long)</span><div class="toggle on" id="a2" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="a3">Long Score ≥ 7.0 (Add Long)</span><div class="toggle on" id="a3" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="a4">Long Score ≥ 8.0 (Full Long)</span><div class="toggle on" id="a4" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
 
     <div style="font-size:10px;font-weight:600;color:var(--t2);margin:12px 0 6px" data-i="alertSellSection">📉 SHORT TRIGGERS</div>
-    <div class="alert-row"><span class="alert-label" data-i="b1">Short Score ≥ 6.0 (Prepare Short)</span><div class="toggle" id="b1" onclick="toggleAlert(this)"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="b2">Short Score ≥ 7.0 (Add Short)</span><div class="toggle" id="b2" onclick="toggleAlert(this)"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="b3">Short Score ≥ 8.0 (Full Short)</span><div class="toggle" id="b3" onclick="toggleAlert(this)"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="b1">Short Score ≥ 6.0 (Prepare Short)</span><div class="toggle" id="b1" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="b2">Short Score ≥ 7.0 (Add Short)</span><div class="toggle" id="b2" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+    <div class="alert-row"><span class="alert-label" data-i="b3">Short Score ≥ 8.0 (Full Short)</span><div class="toggle" id="b3" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
 
     <button onclick="requestNotif()" style="background:var(--green);color:#000;border:none;border-radius:var(--rad-sm);padding:9px;font-size:12px;font-weight:600;cursor:pointer;width:100%;margin-top:14px">
       <span data-i="enableNotif">Enable Browser Notifications</span>
@@ -892,7 +892,7 @@ $__seoSub = [
     onkeydown="if(event.key==='Enter')goHome()">BTC<span>timing</span></div>
   <!-- PC: 탭, 모바일: 드롭박스 -->
   <div class="coin-tabs" id="coinTabs"></div>
-  <select id="coinDrop" onchange="switchCoin(this.value)"
+  <select id="coinDrop" onchange="switchCoin(this.value)" aria-label="Select coin"
     style="display:none;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);
     padding:5px 8px;border-radius:var(--rad-sm);font-size:13px;font-weight:600;cursor:pointer;flex-shrink:0;width:68px">
   </select>
@@ -900,7 +900,7 @@ $__seoSub = [
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
     <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
     <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary">📚 <span data-i="navGlossary">용어사전</span></a>
-    <div class="icon-btn" onclick="openModal()" title="Alerts">🔔</div>
+    <div class="icon-btn" onclick="openModal()" title="Alerts" role="button" tabindex="0" aria-label="Alerts" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openModal();}">🔔</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
       <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)" aria-label="Select language" aria-haspopup="true">
@@ -927,7 +927,7 @@ $__seoSub = [
       <div style="position:absolute;top:0;right:0;bottom:0;width:24px;pointer-events:none;
         background:linear-gradient(to right,transparent,#0a0a0a)"></div>
     </div>
-    <a id="blogTickerAllLink" href="/blog/<?= h(langSuffix($lang)) ?>" style="flex-shrink:0;color:var(--orange);text-decoration:underline;
+    <a id="blogTickerAllLink" aria-label="View all blog posts" href="/blog/<?= h(langSuffix($lang)) ?>" style="flex-shrink:0;color:var(--orange);text-decoration:underline;
       margin-left:12px;padding-left:12px;border-left:1px solid var(--b1);white-space:nowrap"></a>
   </div>
 </div>
@@ -1040,7 +1040,7 @@ $__seoSub = [
         <div style="font-size:11px;color:var(--t2);line-height:1.8;white-space:pre-line" id="lNextDesc">—</div>
       </div>
       <div style="background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px">
-        <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleSplitPlan()">
+        <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleSplitPlan()" role="button" tabindex="0" aria-label="Toggle split entry plan" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSplitPlan();}">
           <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lSplitTitle">💰 SPLIT ENTRY PLAN</div>
           <span id="splitPlanChevron" style="font-size:10px;color:var(--t3);transition:transform .2s;transform:rotate(-90deg)">▾</span>
         </div>
@@ -1176,7 +1176,7 @@ $__seoSub = [
         <div id="blogCategoryScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch">
           <span id="blogCategoryLinks"></span>
         </div>
-        <a id="blogCategoryAllLink" href="/blog/" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;flex-shrink:0;margin-left:10px"></a>
+        <a id="blogCategoryAllLink" aria-label="View all blog categories" href="/blog/" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;flex-shrink:0;margin-left:10px"></a>
       </div>
 </footer>
 </div><!-- /page-wrap -->
@@ -1212,7 +1212,7 @@ const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
       <span id="chatUserCount" style="font-size:10px;color:var(--t3);flex-shrink:0"></span>
     </div>
     <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
-      <div id="chatNickBtn" onclick="promptNickname()" title="닉네임 변경" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
+      <div id="chatNickBtn" onclick="promptNickname()" title="닉네임 변경" role="button" tabindex="0" aria-label="Change nickname" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();promptNickname();}" style="cursor:pointer;color:var(--t3);font-size:13px">⚙️</div>
       <div onclick="toggleChat()" role="button" tabindex="0" aria-label="Close chat" style="cursor:pointer;color:var(--t3);font-size:16px;padding:2px 4px">✕</div>
     </div>
   </div>
