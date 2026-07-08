@@ -154,18 +154,30 @@
   <p class="ja">CryptoQuantのキ・ヨンジュは、今サイクルの資本効率が急激に低下したと指摘する。時価総額が1兆ドルを超えた今、もう一段の急騰には約1兆ドルの新規資本が必要という計算だ。ETFの流出が続く限り、割安が即座の反発を意味するわけではない。MVRV Zスコアの限界もここにある。割安圏に入っても、価格はさらに数カ月下落し続けることがある。</p>
   <p class="es">Ki Young Ju, de CryptoQuant, señala que la eficiencia del capital se ha desplomado en este ciclo. Con una capitalización que supera el billón de dólares, otro movimiento parabólico requeriría cerca de un billón de dólares en capital nuevo. Mientras persistan las salidas de ETF, la infravaloración no garantiza un rebote inmediato. Ese es también el límite central del MVRV Z-Score: el precio puede seguir sangrando durante meses incluso tras entrar en la zona de infravaloración.</p>
   <p class="de">Ki Young Ju von CryptoQuant weist darauf hin, dass die Kapitaleffizienz in diesem Zyklus eingebrochen ist. Bei einer Marktkapitalisierung über 1 Billion Dollar bräuchte eine weitere parabolische Bewegung rund 1 Billion Dollar an frischem Kapital. Solange ETF-Abflüsse anhalten, garantiert Unterbewertung keinen sofortigen Anstieg. Das ist auch die zentrale Grenze des MVRV Z-Score: Der Preis kann selbst nach Eintritt in die Unterbewertungszone noch monatelang fallen.</p>
+  <p class="fr">Ki Young Ju, de CryptoQuant, souligne que l'efficacité du capital s'est effondrée durant ce cycle. Avec une capitalisation boursière dépassant les 1 000 milliards de dollars, un nouveau mouvement parabolique nécessiterait environ 1 000 milliards de dollars de capitaux frais. Tant que les sorties des ETF se poursuivent, la sous-évaluation ne garantit pas un rebond immédiat. C'est aussi la limite fondamentale du MVRV Z-Score : le prix peut continuer de saigner pendant des mois, même après être entré dans la zone de sous-évaluation.</p>
+  <p class="pt">Ki Young Ju, da CryptoQuant, observa que a eficiência de capital entrou em colapso neste ciclo. Com a capitalização de mercado acima de US$ 1 trilhão, outro movimento parabólico exigiria cerca de US$ 1 trilhão em capital novo. Enquanto as saídas dos ETFs persistirem, a subvalorização não garante um repique imediato. Esse é também o limite central do MVRV Z-Score: o preço pode continuar sangrando por meses mesmo depois de entrar na zona de subvalorização.</p>
+  <p class="tr">CryptoQuant'tan Ki Young Ju, bu döngüde sermaye verimliliğinin çöktüğüne dikkat çekiyor. Piyasa değeri 1 trilyon doları aştığına göre, bir başka parabolik hareket için yaklaşık 1 trilyon dolarlık taze sermaye gerekir. ETF çıkışları sürdüğü sürece, değerin düşük olması anında bir toparlanmayı garanti etmez. Bu aynı zamanda MVRV Z-Score'un temel sınırlamasıdır: fiyat, değeri düşük bölgeye girdikten sonra bile aylarca kan kaybetmeye devam edebilir.</p>
+  <p class="vi">Ki Young Ju của CryptoQuant lưu ý rằng hiệu quả sử dụng vốn đã sụp đổ trong chu kỳ này. Với vốn hóa thị trường vượt 1 nghìn tỷ đô la, một đợt tăng parabol khác sẽ cần khoảng 1 nghìn tỷ đô la vốn mới. Chừng nào dòng vốn ETF còn rút ra, việc bị định giá thấp không đảm bảo một đợt hồi phục ngay lập tức. Đó cũng chính là giới hạn cốt lõi của MVRV Z-Score: giá vẫn có thể tiếp tục giảm trong nhiều tháng ngay cả sau khi bước vào vùng bị định giá thấp.</p>
 
   <div class="box ko">🎯 <strong>실전 신호:</strong> 종합 신호는 목표 비중의 30~50%를 넣는 분할 진입(SPLIT LONG)이다. 나머지 물량의 방아쇠는 세 가지 — MVRV Z-Score가 0 아래로 내려가고, Hash Ribbon이 회복으로 돌아서며, 코인베이스 프리미엄이 양전환하는 순간이다. 바닥은 하나의 점이 아니라 이 확인들이 쌓이는 과정이다.</div>
   <div class="box en">🎯 <strong>The practical signal:</strong> The composite reading calls for a split entry (SPLIT LONG) of 30–50% of target size. Three triggers release the rest — MVRV Z-Score falling below 0, Hash Ribbon turning to a recovery cross, and Coinbase Premium flipping positive. A bottom is not a single point; it is these confirmations stacking up.</div>
   <div class="box ja">🎯 <strong>実践シグナル:</strong> 総合シグナルは目標比率の30〜50%を入れる分割エントリー(SPLIT LONG)だ。残りの引き金は三つ — MVRV Zスコアが0を下回り、Hash Ribbonが回復転換し、Coinbaseプレミアムがプラス転換する瞬間だ。底は一つの点ではなく、これらの確認が積み上がる過程である。</div>
   <div class="box es">🎯 <strong>La señal práctica:</strong> La lectura compuesta pide una entrada dividida (SPLIT LONG) del 30–50% del tamaño objetivo. Tres disparadores liberan el resto — el MVRV Z-Score cayendo por debajo de 0, el Hash Ribbon girando a un cruce de recuperación y el Coinbase Premium volviéndose positivo. Un suelo no es un único punto; es la acumulación de estas confirmaciones.</div>
   <div class="box de">🎯 <strong>Das praktische Signal:</strong> Der Gesamtwert ruft nach einem geteilten Einstieg (SPLIT LONG) von 30–50% der Zielgröße. Drei Auslöser geben den Rest frei — der MVRV Z-Score fällt unter 0, der Hash Ribbon dreht auf ein Erholungscross, und die Coinbase Premium wird positiv. Ein Boden ist kein einzelner Punkt; er ist das Aufeinanderschichten dieser Bestätigungen.</div>
+  <div class="box fr">🎯 <strong>Le signal pratique :</strong> La lecture composite appelle une entrée fractionnée (SPLIT LONG) de 30 à 50% de la taille cible. Trois déclencheurs libèrent le reste — le MVRV Z-Score passant sous 0, le Hash Ribbon amorçant un croisement de reprise, et la Coinbase Premium repassant en territoire positif. Un plancher n'est pas un point unique ; c'est l'accumulation de ces confirmations.</div>
+  <div class="box pt">🎯 <strong>O sinal prático:</strong> A leitura composta pede uma entrada fracionada (SPLIT LONG) de 30–50% do tamanho-alvo. Três gatilhos liberam o restante — o MVRV Z-Score caindo abaixo de 0, o Hash Ribbon virando para um cruzamento de recuperação, e o Coinbase Premium tornando-se positivo. Um fundo não é um único ponto; é o acúmulo dessas confirmações.</div>
+  <div class="box tr">🎯 <strong>Pratik sinyal:</strong> Bileşik okuma, hedef pozisyon büyüklüğünün %30–50'si kadar bölünmüş bir giriş (SPLIT LONG) öneriyor. Kalanını üç tetikleyici serbest bırakır — MVRV Z-Score'un 0'ın altına düşmesi, Hash Ribbon'un toparlanma kesişimine dönmesi ve Coinbase Premium'un pozitife dönmesi. Dip tek bir nokta değildir; bu doğrulamaların üst üste birikmesidir.</div>
+  <div class="box vi">🎯 <strong>Tín hiệu thực tế:</strong> Chỉ số tổng hợp cho thấy nên vào lệnh chia nhỏ (SPLIT LONG) với 30–50% quy mô mục tiêu. Ba yếu tố kích hoạt sẽ giải phóng phần còn lại — MVRV Z-Score giảm xuống dưới 0, Hash Ribbon chuyển sang tín hiệu phục hồi cắt lên, và Coinbase Premium chuyển sang dương. Đáy không phải một điểm duy nhất; đó là quá trình tích lũy của những xác nhận này.</div>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">À Combiner Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score 가이드</a>:</strong> 저점을 포착하는 온체인 지표의 원리</li>
     <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon 지표</a>:</strong> 채굴자 항복과 회복 전환의 해석</li>
@@ -201,11 +213,43 @@
     <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> Die Richtung des US-institutionellen Flusses</li>
     <li><strong><a href="/blog/funding-rate-futures-gap.php">Futures-Spot-Lücke</a>:</strong> Die Liquidationsphase der Hebelwirkung</li>
   </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/mvrv-z-score.php">Guide MVRV Z-Score</a>:</strong> Comment cet indicateur on-chain détecte les creux</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Lire la capitulation et la reprise des mineurs</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Profit, perte et capitulation des détenteurs à court terme</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> La direction du flux institutionnel américain</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Écart Futures-Spot</a>:</strong> La phase de liquidation de l'effet de levier</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/mvrv-z-score.php">Guia MVRV Z-Score</a>:</strong> Como esse indicador on-chain identifica fundos</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Lendo a capitulação e a recuperação dos mineradores</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Lucro, prejuízo e capitulação dos detentores de curto prazo</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> A direção do fluxo institucional dos EUA</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Gap Futuros-à Vista</a>:</strong> A fase de liquidação da alavancagem</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score Rehberi</a>:</strong> Bu on-chain gösterge dipleri nasıl yakalar</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Madenci teslimiyeti ve toparlanmasını okumak</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Kısa vadeli yatırımcı kâr, zarar ve teslimiyeti</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> ABD kurumsal akışının yönü</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Vadeli-Spot Farkı</a>:</strong> Kaldıracın tasfiye aşaması</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/mvrv-z-score.php">Hướng dẫn MVRV Z-Score</a>:</strong> Chỉ số on-chain này bắt đáy như thế nào</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Đọc hiểu sự đầu hàng và phục hồi của thợ đào</li>
+    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Lãi, lỗ và sự đầu hàng của người nắm giữ ngắn hạn</li>
+    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> Hướng đi của dòng vốn tổ chức Mỹ</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap.php">Chênh Lệch Hợp Đồng Tương Lai-Giao Ngay</a>:</strong> Giai đoạn thanh lý đòn bẩy</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Investing.com·MetaMask(가격), CoinDesk·CryptoQuant(자본 효율), Capriole Investments·Charles Edwards(생산원가), BTCtiming 자체 온체인 지표. 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: Investing.com, MetaMask (price), CoinDesk &amp; CryptoQuant (capital efficiency), Capriole Investments &amp; Charles Edwards (production cost), BTCtiming on-chain metrics. This is not investment advice.</p>
   <p class="ja" style="font-size:.85rem;color:#71717a">出典: Investing.com・MetaMask(価格)、CoinDesk・CryptoQuant(資本効率)、Capriole Investments・Charles Edwards(生産コスト)、BTCtiming独自のオンチェーン指標。本記事は投資助言ではない。</p>
   <p class="es" style="font-size:.85rem;color:#71717a">Fuentes: Investing.com y MetaMask (precio), CoinDesk y CryptoQuant (eficiencia del capital), Capriole Investments y Charles Edwards (costo de producción), métricas on-chain de BTCtiming. Esto no es asesoramiento de inversión.</p>
   <p class="de" style="font-size:.85rem;color:#71717a">Quellen: Investing.com und MetaMask (Preis), CoinDesk und CryptoQuant (Kapitaleffizienz), Capriole Investments und Charles Edwards (Produktionskosten), On-Chain-Metriken von BTCtiming. Dies ist keine Anlageberatung.</p>
+  <p class="fr" style="font-size:.85rem;color:#71717a">Sources : Investing.com, MetaMask (prix), CoinDesk et CryptoQuant (efficacité du capital), Capriole Investments et Charles Edwards (coût de production), indicateurs on-chain de BTCtiming. Ceci n'est pas un conseil en investissement.</p>
+  <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: Investing.com, MetaMask (preço), CoinDesk e CryptoQuant (eficiência de capital), Capriole Investments e Charles Edwards (custo de produção), métricas on-chain da BTCtiming. Isto não é aconselhamento de investimento.</p>
+  <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: Investing.com, MetaMask (fiyat), CoinDesk ve CryptoQuant (sermaye verimliliği), Capriole Investments ve Charles Edwards (üretim maliyeti), BTCtiming on-chain göstergeleri. Bu bir yatırım tavsiyesi değildir.</p>
+  <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: Investing.com, MetaMask (giá), CoinDesk và CryptoQuant (hiệu quả sử dụng vốn), Capriole Investments và Charles Edwards (chi phí sản xuất), các chỉ số on-chain của BTCtiming. Đây không phải là lời khuyên đầu tư.</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
