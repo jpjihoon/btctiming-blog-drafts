@@ -374,30 +374,41 @@ document.addEventListener('click', (e) => {
 // 언어 복원 우선순위: localStorage(사용자의 가장 최근 선택) > URL ?lang= > 기본 ko.
 // (예전엔 URL을 우선해서, 목록에서 EN→글에서 JA→뒤로가기 시 목록 URL의 ?lang=en(옛값)이
 //  localStorage의 ja를 덮어써 EN으로 되돌아가는 버그가 있었음)
-function restoreBlogLang() {
+function restoreBlogLang(preferUrl) {
   try {
     const VALID = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
     const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
     const urlLang = new URLSearchParams(location.search).get('lang');
-    // 저장된 값(사용자의 마지막 명시적 선택)이 유효하면 ko 포함 무조건 우선.
-    // 저장값이 없을 때만 URL을, 그것도 없으면 ko.
-    const pick = VALID.includes(stored) ? stored
-               : VALID.includes(urlLang) ? urlLang : 'ko';
+    // 최초 진입(preferUrl=true): URL ?lang= 최우선 — 사이트맵·구글 검색결과·공유링크로 특정
+    //   언어에 진입했을 때 그 의도를 존중한다(대시보드 app.js와 동일 정책).
+    // 뒤로가기/bfcache 복원(preferUrl=false): localStorage(마지막 선택) 우선 — 목록에서 EN→글에서
+    //   JA→뒤로가기 시, 목록 URL에 남은 옛 ?lang=en이 방금 고른 ja를 덮어쓰지 않도록 한다.
+    const pick = preferUrl
+      ? (VALID.includes(urlLang) ? urlLang : (VALID.includes(stored) ? stored : 'ko'))
+      : (VALID.includes(stored) ? stored : (VALID.includes(urlLang) ? urlLang : 'ko'));
     // 서버가 <html class="xx">로 이미 올바른 언어를 렌더했더라도, 카드 등의 요소에는
     // 인라인 style="display:none"이 남아 있어(초기 숨김) CSS만으로는 표시되지 않는다.
     // 따라서 pick과 현재 lang이 같아도 최초 1회는 setLang을 호출해 인라인 style을 정리한다.
     setLang(pick);
   } catch(e){}
 }
-restoreBlogLang();
+restoreBlogLang(true); // 최초 진입: URL ?lang= 최우선(사이트맵·공유링크 존중)
 // 뒤로가기/앞으로가기(bfcache) 복원 시엔 <script>가 재실행되지 않으므로 pageshow에서 다시 적용.
-// (bfcache가 아니어도, 표시될 때마다 저장 언어와 어긋나면 맞춰준다.)
+// bfcache 복원(e.persisted)은 localStorage 우선(방금 고른 언어 보존), 그 외 표시는 URL 우선.
 window.addEventListener('pageshow', function(e){
-  restoreBlogLang();
+  restoreBlogLang(!e.persisted);
 });
 
 const PAGE_SIZE = 12;
-let currentCat = 'all';
+// URL ?cat= 을 읽어 초기 카테고리 결정(사이트맵·공유링크로 특정 카테고리 진입 존중).
+// 유효한 카테고리 탭이 실제로 있을 때만 적용, 아니면 'all'.
+let currentCat = (function(){
+  try {
+    const c = new URLSearchParams(location.search).get('cat');
+    if (c && document.querySelector('.cat-tab[data-cat="' + c + '"]')) return c;
+  } catch(e){}
+  return 'all';
+})();
 let visibleCount = PAGE_SIZE;
 const allCards = Array.from(document.querySelectorAll('#articleGrid .article-card'));
 
