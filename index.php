@@ -382,18 +382,17 @@ document.addEventListener('click', (e) => {
 function restoreBlogLang(preferUrl) {
   try {
     const VALID = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
-    const stored = localStorage.getItem('blogLang') || localStorage.getItem('lang');
+    // 쿠키(서버가 렌더에 쓰는 값) 우선, 없으면 localStorage — 다른 영역과 언어 일관.
+    let stored = null;
+    try { const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/); if(m) stored=decodeURIComponent(m[1]); } catch(e){}
+    if(!VALID.includes(stored)) { stored = localStorage.getItem('blogLang') || localStorage.getItem('lang'); }
     const urlLang = new URLSearchParams(location.search).get('lang');
     // 최초 진입(preferUrl=true): URL ?lang= 최우선 — 사이트맵·구글 검색결과·공유링크로 특정
     //   언어에 진입했을 때 그 의도를 존중한다(대시보드 app.js와 동일 정책).
-    // 뒤로가기/bfcache 복원(preferUrl=false): localStorage(마지막 선택) 우선 — 목록에서 EN→글에서
-    //   JA→뒤로가기 시, 목록 URL에 남은 옛 ?lang=en이 방금 고른 ja를 덮어쓰지 않도록 한다.
+    // 뒤로가기/bfcache 복원(preferUrl=false): 저장값(쿠키/localStorage) 우선.
     const pick = preferUrl
       ? (VALID.includes(urlLang) ? urlLang : (VALID.includes(stored) ? stored : 'ko'))
       : (VALID.includes(stored) ? stored : (VALID.includes(urlLang) ? urlLang : 'ko'));
-    // 서버가 <html class="xx">로 이미 올바른 언어를 렌더했더라도, 카드 등의 요소에는
-    // 인라인 style="display:none"이 남아 있어(초기 숨김) CSS만으로는 표시되지 않는다.
-    // 따라서 pick과 현재 lang이 같아도 최초 1회는 setLang을 호출해 인라인 style을 정리한다.
     setLang(pick);
   } catch(e){}
 }

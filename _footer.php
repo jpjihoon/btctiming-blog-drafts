@@ -166,15 +166,15 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     // 사이트로는 독일어로 정확히 돌아가야 함(메인은 5개 언어 다 지원하므로 이 글의 번역 여부와 무관).
     $mainHref = '/' . langSuffix($requestedLang);
     ?>
-    <a href="<?= h($mainHref) ?>" class="ko" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">실시간 분석 보러가기 →</a>
-    <a href="<?= h($mainHref) ?>" class="en" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Go to Live Analysis →</a>
-    <a href="<?= h($mainHref) ?>" class="ja" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">リアルタイム分析を見る →</a>
-    <a href="<?= h($mainHref) ?>" class="es" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Ver Análisis en Vivo →</a>
-    <a href="<?= h($mainHref) ?>" class="de" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Live-Analyse ansehen →</a>
-    <a href="<?= h($mainHref) ?>" class="fr" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Voir l'analyse en direct →</a>
-    <a href="<?= h($mainHref) ?>" class="pt" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Ver análise ao vivo →</a>
-    <a href="<?= h($mainHref) ?>" class="tr" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Canlı analizi gör →</a>
-    <a href="<?= h($mainHref) ?>" class="vi" onclick="try{localStorage.setItem('blogLang',getBlogLang());}catch(e){}">Xem phân tích trực tiếp →</a>
+    <a href="<?= h($mainHref) ?>" class="ko" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="<?= h($mainHref) ?>" class="en" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Go to Live Analysis →</a>
+    <a href="<?= h($mainHref) ?>" class="ja" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">リアルタイム分析を見る →</a>
+    <a href="<?= h($mainHref) ?>" class="es" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Ver Análisis en Vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="de" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Live-Analyse ansehen →</a>
+    <a href="<?= h($mainHref) ?>" class="fr" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Voir l'analyse en direct →</a>
+    <a href="<?= h($mainHref) ?>" class="pt" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Ver análise ao vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="tr" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Canlı analizi gör →</a>
+    <a href="<?= h($mainHref) ?>" class="vi" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Xem phân tích trực tiếp →</a>
   </div>
 </div><?php // /.wrap-main ?>
   <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
@@ -244,16 +244,22 @@ document.addEventListener('click', (e) => {
   if(dd && dd.classList.contains('open') && !dd.contains(e.target)) closeLangMenu();
 });
 function getBlogLang(){
-  // 우선순위: localStorage(사용자가 마지막으로 명시적으로 고른 언어) > URL ?lang= > ko.
-  // 지원 언어 목록은 config.php의 SUPPORTED_LANGS에서 PHP가 주입 → 언어 추가 시 이 JS 불변.
+  // 우선순위: URL ?lang= > 쿠키(서버가 렌더에 쓰는 값) > localStorage > ko.
+  // ★ 쿠키를 우선한다: 서버가 URL 없을 때 쿠키로 언어를 정하므로, JS도 쿠키를 우선해야
+  //   화면(서버 렌더)과 어긋나지 않고, 대시보드·용어집 등 다른 영역과도 일관된다.
   var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
-  try{
-    const s=localStorage.getItem('blogLang')||localStorage.getItem('lang');
-    if(s && SUP.indexOf(s)!==-1) return s;
-  }catch(e){}
   try{
     const p=new URLSearchParams(location.search).get('lang');
     if(p && SUP.indexOf(p)!==-1) return p;
+  }catch(e){}
+  try{
+    const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);
+    const c=m?decodeURIComponent(m[1]):null;
+    if(c && SUP.indexOf(c)!==-1) return c;
+  }catch(e){}
+  try{
+    const s=localStorage.getItem('blogLang')||localStorage.getItem('lang');
+    if(s && SUP.indexOf(s)!==-1) return s;
   }catch(e){}
   return'ko';
 }
@@ -287,6 +293,11 @@ function applySavedLang() {
   } catch(e){}
 }
 applySavedLang(); // 최초 로드
+// 진입 시 현재 표시 언어를 쿠키에 반영 → 대시보드·용어집 등 다른 영역으로 이동해도 언어 일관.
+try {
+  var _cur = document.getElementById('hr') ? document.getElementById('hr').lang : 'ko';
+  if (_cur) document.cookie = 'blogLang=' + encodeURIComponent(_cur) + '; path=/; max-age=31536000; SameSite=Lax';
+} catch(e){}
 // 이전글/다음글 + 추천글 링크를 현재 표시 언어(<html lang>)에 맞춤.
 // applySavedLang이 URL 언어 존중 등으로 L()을 안 부르고 끝난 경우에도
 // 링크 접미사가 실제 표시 언어와 어긋나지 않도록 무조건 한 번 동기화한다.
