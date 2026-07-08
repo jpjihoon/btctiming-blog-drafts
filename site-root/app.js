@@ -2669,6 +2669,8 @@ function updateLangUI(lang) {
   document.documentElement.lang = lang;
   const navBlog = document.getElementById('navBlogLink');
   if(navBlog) navBlog.href = '/blog/' + blogSuffix(lang);
+  const navGlossary = document.getElementById('navGlossaryLink');
+  if(navGlossary) navGlossary.href = '/glossary' + blogSuffix(lang);
   const privacyLink = document.getElementById('footerPrivacyLink');
   if(privacyLink) privacyLink.href = '/privacy' + blogSuffix(lang);
   const termsLink = document.getElementById('footerTermsLink');
