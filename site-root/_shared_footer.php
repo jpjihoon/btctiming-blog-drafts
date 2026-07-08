@@ -19,31 +19,36 @@ if (!function_exists('h')) {
 }
 ?>
 <footer class="site-footer">
-  <nav class="sf-row sf-nav" aria-label="Site">
-    <a href="/glossary" class="sf-link sf-legal" data-base="/glossary"><span class="ko">용어사전</span><span class="en">Glossary</span><span class="ja">用語集</span><span class="es">Glosario</span><span class="de">Glossar</span><span class="fr">Glossaire</span><span class="pt">Glossário</span><span class="tr">Sözlük</span><span class="vi">Từ điển</span></a>
-    <span class="sf-sep">·</span>
-    <a href="/rss-guide.php" class="sf-link">RSS</a>
-    <span class="sf-sep">·</span>
-    <a href="/sitemap-guide.php" class="sf-link sf-legal" data-base="/sitemap-guide.php"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span><span class="fr">Plan du site</span><span class="pt">Mapa do site</span><span class="tr">Site haritası</span><span class="vi">Sơ đồ trang</span></a>
-  </nav>
-  <nav class="sf-row sf-legal-row" aria-label="Legal">
-    <a href="/about" class="sf-link sf-legal" data-base="/about"><span class="ko">소개</span><span class="en">About</span><span class="ja">概要</span><span class="es">Acerca de</span><span class="de">Über uns</span><span class="fr">À propos</span><span class="pt">Sobre</span><span class="tr">Hakkında</span><span class="vi">Giới thiệu</span></a>
-    <span class="sf-sep">·</span>
-    <a href="/privacy" class="sf-link sf-legal" data-base="/privacy"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span><span class="ja">プライバシーポリシー</span><span class="es">Política de Privacidad</span><span class="de">Datenschutzerklärung</span><span class="fr">Confidentialité</span><span class="pt">Privacidade</span><span class="tr">Gizlilik Politikası</span><span class="vi">Chính sách bảo mật</span></a>
-    <span class="sf-sep">·</span>
-    <a href="/terms" class="sf-link sf-legal" data-base="/terms"><span class="ko">이용약관</span><span class="en">Terms of Service</span><span class="ja">利用規約</span><span class="es">Términos de Servicio</span><span class="de">Nutzungsbedingungen</span><span class="fr">Conditions d'utilisation</span><span class="pt">Termos de Serviço</span><span class="tr">Hizmet Şartları</span><span class="vi">Điều khoản dịch vụ</span></a>
+  <nav class="sf-links" aria-label="Footer">
+    <span class="sf-group">
+      <a href="/blog/" class="sf-link sf-legal" data-base="/blog/"><span class="ko">블로그</span><span class="en">Blog</span><span class="ja">ブログ</span><span class="es">Blog</span><span class="de">Blog</span><span class="fr">Blog</span><span class="pt">Blog</span><span class="tr">Blog</span><span class="vi">Blog</span></a>
+      <span class="sf-sep">·</span>
+      <a href="/glossary" class="sf-link sf-legal" data-base="/glossary"><span class="ko">용어사전</span><span class="en">Glossary</span><span class="ja">用語集</span><span class="es">Glosario</span><span class="de">Glossar</span><span class="fr">Glossaire</span><span class="pt">Glossário</span><span class="tr">Sözlük</span><span class="vi">Từ điển</span></a>
+      <span class="sf-sep">·</span>
+      <a href="/rss-guide.php" class="sf-link">RSS</a>
+      <span class="sf-sep">·</span>
+      <a href="/sitemap-guide.php" class="sf-link sf-legal" data-base="/sitemap-guide.php"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span><span class="fr">Plan du site</span><span class="pt">Mapa do site</span><span class="tr">Site haritası</span><span class="vi">Sơ đồ trang</span></a>
+    </span>
+    <span class="sf-div">|</span>
+    <span class="sf-group">
+      <a href="/about" class="sf-link sf-legal" data-base="/about"><span class="ko">서비스 소개</span><span class="en">About</span><span class="ja">概要</span><span class="es">Acerca de</span><span class="de">Über uns</span><span class="fr">À propos</span><span class="pt">Sobre</span><span class="tr">Hakkında</span><span class="vi">Giới thiệu</span></a>
+      <span class="sf-sep">·</span>
+      <a href="/privacy" class="sf-link sf-legal" data-base="/privacy"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span><span class="ja">プライバシーポリシー</span><span class="es">Política de Privacidad</span><span class="de">Datenschutzerklärung</span><span class="fr">Confidentialité</span><span class="pt">Privacidade</span><span class="tr">Gizlilik Politikası</span><span class="vi">Chính sách bảo mật</span></a>
+      <span class="sf-sep">·</span>
+      <a href="/terms" class="sf-link sf-legal" data-base="/terms"><span class="ko">이용약관</span><span class="en">Terms of Service</span><span class="ja">利用規約</span><span class="es">Términos de Servicio</span><span class="de">Nutzungsbedingungen</span><span class="fr">Conditions d'utilisation</span><span class="pt">Termos de Serviço</span><span class="tr">Hizmet Şartları</span><span class="vi">Điều khoản dịch vụ</span></a>
+    </span>
   </nav>
   <div class="sf-meta">© 2026 BTCtiming.com · <span class="sf-dis"><span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span><span class="ja">投資助言ではありません</span><span class="es">No es asesoramiento financiero</span><span class="de">Keine Finanzberatung</span><span class="fr">Pas un conseil financier</span><span class="pt">Não é aconselhamento financeiro</span><span class="tr">Yatırım tavsiyesi değildir</span><span class="vi">Không phải lời khuyên tài chính</span></span></div>
 </footer>
 <style>
-.site-footer{border-top:1px solid rgba(255,255,255,.06);padding:22px 16px 90px;text-align:center;line-height:1.9}
-.site-footer .sf-row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;font-size:12px}
-.site-footer .sf-nav{margin-bottom:5px}
-.site-footer .sf-legal-row{margin-bottom:11px}
+.site-footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;line-height:1.9}
+.site-footer .sf-links{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;font-size:12px}
+.site-footer .sf-group{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px}
 .site-footer a.sf-link{color:#8b8b93;text-decoration:none}
 .site-footer a.sf-link:hover{color:#f7931a}
 .site-footer .sf-sep{color:#3f3f46}
-.site-footer .sf-meta{font-size:11px;color:#52525b}
+.site-footer .sf-div{color:#3f3f46;margin:0 6px}
+.site-footer .sf-meta{font-size:11px;color:#52525b;margin-top:7px}
 .site-footer .sf-dis{color:#52525b}
 .site-footer .ko,.site-footer .en,.site-footer .ja,.site-footer .es,.site-footer .de,.site-footer .fr,.site-footer .pt,.site-footer .tr,.site-footer .vi{display:none}
 html[lang="ko"] .site-footer .ko,
