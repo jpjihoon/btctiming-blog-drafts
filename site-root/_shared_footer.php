@@ -19,7 +19,7 @@ if (!function_exists('h')) {
 }
 ?>
 <footer class="site-footer">
-  <div class="sf-links" role="navigation" aria-label="Footer">
+  <nav class="sf-links" aria-label="Footer">
     <span class="sf-group">
       <a href="/blog/" class="sf-link sf-legal" data-base="/blog/"><span class="ko">블로그</span><span class="en">Blog</span><span class="ja">ブログ</span><span class="es">Blog</span><span class="de">Blog</span><span class="fr">Blog</span><span class="pt">Blog</span><span class="tr">Blog</span><span class="vi">Blog</span></a>
       <span class="sf-sep">·</span>
@@ -37,8 +37,8 @@ if (!function_exists('h')) {
       <span class="sf-sep">·</span>
       <a href="/terms" class="sf-link sf-legal" data-base="/terms"><span class="ko">이용약관</span><span class="en">Terms of Service</span><span class="ja">利用規約</span><span class="es">Términos de Servicio</span><span class="de">Nutzungsbedingungen</span><span class="fr">Conditions d'utilisation</span><span class="pt">Termos de Serviço</span><span class="tr">Hizmet Şartları</span><span class="vi">Điều khoản dịch vụ</span></a>
     </span>
-  </div>
-  <div class="sf-meta">© 2026 BTCtiming.com<span class="sf-dis"><span class="ko"> · 본 사이트의 모든 정보는 투자 조언이 아닙니다.</span><span class="en"> · The information on this site is not investment advice.</span><span class="ja"> · 本サイトのすべての情報は投資助言ではありません。</span><span class="es"> · La información de este sitio no es asesoramiento financiero.</span><span class="de"> · Die Informationen auf dieser Website sind keine Finanzberatung.</span><span class="fr"> · Les informations de ce site ne constituent pas un conseil financier.</span><span class="pt"> · As informações deste site não são aconselhamento financeiro.</span><span class="tr"> · Bu sitedeki bilgiler yatırım tavsiyesi değildir.</span><span class="vi"> · Thông tin trên trang này không phải là lời khuyên đầu tư.</span></span></div>
+  </nav>
+  <div class="sf-meta">© 2026 BTCtiming.com · <span class="sf-dis"><span class="ko">투자 조언이 아닙니다</span><span class="en">Not financial advice</span><span class="ja">投資助言ではありません</span><span class="es">No es asesoramiento financiero</span><span class="de">Keine Finanzberatung</span><span class="fr">Pas un conseil financier</span><span class="pt">Não é aconselhamento financeiro</span><span class="tr">Yatırım tavsiyesi değildir</span><span class="vi">Không phải lời khuyên tài chính</span></span></div>
 </footer>
 <style>
 .site-footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;line-height:1.9}

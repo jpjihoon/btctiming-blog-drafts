@@ -17,23 +17,25 @@ $GUIDE_TITLE = 'RSS · BTCtiming.com';
 $GUIDE_DESC = 'BTCtiming.com 블로그 RSS 피드. 전체·카테고리별·언어별 구독.';
 $GUIDE_CANONICAL = $baseUrl . '/rss-guide.php';
 $GUIDE_EXTRA_CSS = '
-.hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.06);background:radial-gradient(ellipse 900px 400px at 15% -10%,rgba(251,146,60,.16),transparent 60%),radial-gradient(ellipse 700px 350px at 90% 0%,rgba(96,165,250,.10),transparent 60%),var(--bg)}
-.hero-in{max-width:800px;margin:0 auto;padding:40px 16px 30px}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--orange);background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.25);border-radius:999px;padding:4px 12px;margin-bottom:14px}
-.hero h1{font-size:2rem;font-weight:800;margin:0 0 10px;letter-spacing:-.5px}
-.hero .lead{font-size:15px;color:var(--t2);max-width:640px;margin:0}
-.wrap{max-width:800px;margin:0 auto;padding:32px 16px 40px}
-.wrap h2{font-size:1.15rem;font-weight:700;margin:32px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--b1)}
-.feed-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;background:var(--bg3);border:1px solid var(--b1);border-radius:12px;margin-bottom:9px;flex-wrap:wrap;transition:border-color .12s}
-.feed-row:hover{border-color:rgba(251,146,60,.35)}
-.feed-name{font-weight:600;font-size:14.5px;display:flex;align-items:center;gap:9px;min-width:0}
-.feed-ico{font-size:16px;flex-shrink:0}
-.feed-url{font-size:12px;color:var(--t3);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all}
-.feed-actions{display:flex;gap:8px;flex-shrink:0}
-.gbtn{font-size:12px;font-weight:600;padding:6px 12px;border-radius:8px;border:1px solid var(--b2);background:var(--bg4);color:var(--t1);cursor:pointer}
-.gbtn:hover{background:var(--orange);border-color:var(--orange);color:#0a0a0a;text-decoration:none}
-.gbtn.copied{background:var(--green);border-color:var(--green);color:#0a0a0a}
-.note{margin-top:36px;padding:16px 18px;background:var(--bg3);border:1px solid var(--b1);border-radius:12px;font-size:13.5px;color:var(--t2)}
+.hero{border-bottom:1px solid rgba(255,255,255,.08)}
+.hero-in{max-width:800px;margin:0 auto;padding:38px 16px 26px}
+.hero-eyebrow{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:9px}
+.hero h1{font-size:1.7rem;font-weight:600;margin:0 0 10px;letter-spacing:-.01em}
+.hero .lead{font-size:14px;color:var(--t2);max-width:640px;margin:0;line-height:1.6}
+.wrap{max-width:800px;margin:0 auto;padding:30px 16px 40px}
+.wrap h2{font-size:12px;font-weight:600;letter-spacing:.05em;color:#e4e4e7;margin:28px 0 12px;display:flex;align-items:center;gap:9px}
+.wrap h2:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--orange);flex-shrink:0}
+.wrap h2:after{content:"";flex:1;height:1px;background:rgba(255,255,255,.06)}
+.feed-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;background:#151518;border:1px solid rgba(255,255,255,.07);border-left:3px solid var(--orange);border-radius:0 10px 10px 0;margin-bottom:8px;flex-wrap:wrap;transition:background .12s}
+.feed-row:hover{background:#1c1c21}
+.feed-main{display:flex;align-items:baseline;gap:12px;min-width:0;flex:1}
+.feed-name{font-weight:500;font-size:14px;color:#fafafa;flex-shrink:0}
+.feed-url{font-size:12px;color:#71717a;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.feed-actions{display:flex;gap:6px;flex-shrink:0}
+.gbtn{font-size:12px;font-weight:500;padding:5px 12px;border-radius:7px;border:1px solid rgba(255,255,255,.12);background:none;color:#8b8b93;cursor:pointer;transition:all .12s}
+.gbtn:hover{border-color:var(--orange);color:var(--orange);text-decoration:none}
+.gbtn.copied{border-color:var(--green);color:var(--green)}
+.note{margin-top:32px;padding:16px 18px;background:#151518;border:1px solid rgba(255,255,255,.07);border-radius:12px;font-size:13.5px;color:var(--t2);line-height:1.6}
 .note b{color:var(--t1)}
 .note code{background:var(--bg4);padding:1px 6px;border-radius:5px;font-size:12.5px}
 ';
@@ -41,7 +43,7 @@ require __DIR__ . '/_guide_head.php';
 ?>
 
 <div class="hero"><div class="hero-in">
-  <span class="hero-badge">📡 RSS</span>
+  <div class="hero-eyebrow">RSS</div>
   <h1><span class="l-ko">RSS 피드</span><span class="l-en">RSS Feeds</span><span class="l-ja">RSSフィード</span><span class="l-es">Feeds RSS</span><span class="l-de">RSS-Feeds</span><span class="l-fr">Flux RSS</span><span class="l-pt">Feeds RSS</span><span class="l-tr">RSS Beslemeleri</span><span class="l-vi">Nguồn cấp RSS</span></h1>
   <p class="lead">
     <span class="l-ko">피드리더(Feedly, Inoreader 등)에 아래 주소를 등록하면 새 글을 자동으로 받아볼 수 있습니다.</span>
@@ -55,9 +57,9 @@ require __DIR__ . '/_guide_head.php';
 <div class="wrap">
   <h2><span class="l-ko">전체 피드</span><span class="l-en">All Posts</span><span class="l-ja">全記事</span><span class="l-es">Todo</span><span class="l-de">Alle Beiträge</span><span class="l-fr">Tous les articles</span><span class="l-pt">Todos os artigos</span><span class="l-tr">Tüm yazılar</span><span class="l-vi">Tất cả bài viết</span></h2>
   <div class="feed-row">
-    <div style="min-width:0">
-      <div class="feed-name"><span class="feed-ico">📰</span> <span class="l-ko">전체 글</span><span class="l-en">All posts</span><span class="l-ja">全記事</span><span class="l-es">Todas</span><span class="l-de">Alle</span><span class="l-fr">Tout</span><span class="l-pt">Todos</span><span class="l-tr">Tümü</span><span class="l-vi">Tất cả</span></div>
-      <div class="feed-url" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat=""><?= gh($feedBase . ($__ghLang === 'ko' ? '' : '?lang=' . $__ghLang)) ?></div>
+    <div class="feed-main">
+      <span class="feed-name"><span class="l-ko">전체 글</span><span class="l-en">All posts</span><span class="l-ja">全記事</span><span class="l-es">Todas</span><span class="l-de">Alle</span><span class="l-fr">Tout</span><span class="l-pt">Todos</span><span class="l-tr">Tümü</span><span class="l-vi">Tất cả</span></span>
+      <span class="feed-url" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat=""><?= gh($feedBase . ($__ghLang === 'ko' ? '' : '?lang=' . $__ghLang)) ?></span>
     </div>
     <div class="feed-actions">
       <a class="gbtn feed-open" href="<?= gh($feedBase . ($__ghLang === 'ko' ? '' : '?lang=' . $__ghLang)) ?>" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
@@ -72,9 +74,9 @@ require __DIR__ . '/_guide_head.php';
     $icon = $catIcon[$key] ?? '📄';
   ?>
   <div class="feed-row">
-    <div style="min-width:0">
-      <div class="feed-name"><span class="feed-ico"><?= $icon ?></span> <span class="l-ko"><?= gh(cn($ci,'ko')) ?></span><span class="l-en"><?= gh(cn($ci,'en')) ?></span><span class="l-ja"><?= gh(cn($ci,'ja')) ?></span><span class="l-es"><?= gh(cn($ci,'es')) ?></span><span class="l-de"><?= gh(cn($ci,'de')) ?></span><span class="l-fr"><?= gh(cn($ci,'fr')) ?></span><span class="l-pt"><?= gh(cn($ci,'pt')) ?></span><span class="l-tr"><?= gh(cn($ci,'tr')) ?></span><span class="l-vi"><?= gh(cn($ci,'vi')) ?></span></div>
-      <div class="feed-url" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="<?= gh($key) ?>"><?= gh($curl) ?></div>
+    <div class="feed-main">
+      <span class="feed-name"><span class="l-ko"><?= gh(cn($ci,'ko')) ?></span><span class="l-en"><?= gh(cn($ci,'en')) ?></span><span class="l-ja"><?= gh(cn($ci,'ja')) ?></span><span class="l-es"><?= gh(cn($ci,'es')) ?></span><span class="l-de"><?= gh(cn($ci,'de')) ?></span><span class="l-fr"><?= gh(cn($ci,'fr')) ?></span><span class="l-pt"><?= gh(cn($ci,'pt')) ?></span><span class="l-tr"><?= gh(cn($ci,'tr')) ?></span><span class="l-vi"><?= gh(cn($ci,'vi')) ?></span></span>
+      <span class="feed-url" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="<?= gh($key) ?>"><?= gh($curl) ?></span>
     </div>
     <div class="feed-actions">
       <a class="gbtn feed-open" href="<?= gh($curl) ?>" data-feed-base="<?= gh($feedBase) ?>" data-feed-cat="<?= gh($key) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
@@ -87,9 +89,9 @@ require __DIR__ . '/_guide_head.php';
   <h2><span class="l-ko">언어별 피드</span><span class="l-en">By Language</span><span class="l-ja">言語別</span><span class="l-es">Por Idioma</span><span class="l-de">Nach Sprache</span><span class="l-fr">Par langue</span><span class="l-pt">Por idioma</span><span class="l-tr">Dile göre</span><span class="l-vi">Theo ngôn ngữ</span></h2>
   <?php foreach ($langs as $lc => $li): $lurl=$feedBase.'?lang='.$lc; ?>
   <div class="feed-row">
-    <div style="min-width:0">
-      <div class="feed-name"><span class="feed-ico"><?= $li[0] ?></span> <?= gh($li[1]) ?></div>
-      <div class="feed-url"><?= gh($lurl) ?></div>
+    <div class="feed-main">
+      <span class="feed-name"><?= gh($li[1]) ?></span>
+      <span class="feed-url"><?= gh($lurl) ?></span>
     </div>
     <div class="feed-actions">
       <a class="gbtn" href="<?= gh($lurl) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>

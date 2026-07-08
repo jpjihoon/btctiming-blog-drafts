@@ -44,24 +44,29 @@ $GUIDE_TITLE = 'Sitemap · BTCtiming.com';
 $GUIDE_DESC = 'BTCtiming.com 블로그 글을 날짜별로 조회하는 사이트맵.';
 $GUIDE_CANONICAL = $baseUrl . '/sitemap-guide.php';
 $GUIDE_EXTRA_CSS = '
-.hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.06);background:radial-gradient(ellipse 900px 400px at 15% -10%,rgba(251,146,60,.16),transparent 60%),radial-gradient(ellipse 700px 350px at 90% 0%,rgba(96,165,250,.10),transparent 60%),var(--bg)}
-.hero-in{max-width:800px;margin:0 auto;padding:40px 16px 30px}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--orange);background:rgba(251,146,60,.1);border:1px solid rgba(251,146,60,.25);border-radius:999px;padding:4px 12px;margin-bottom:14px}
-.hero h1{font-size:2rem;font-weight:800;margin:0 0 10px;letter-spacing:-.5px}
-.hero .lead{font-size:15px;color:var(--t2);max-width:640px;margin:0}
-.wrap{max-width:800px;margin:0 auto;padding:32px 16px 40px}
-.picker-label{font-size:12px;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:.04em;margin:0 0 10px}
-.picker-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
-.pick{font-size:14px;font-weight:600;padding:7px 14px;border-radius:9px;background:var(--bg3);border:1px solid var(--b1);color:var(--t1);cursor:pointer;transition:all .12s;font-variant-numeric:tabular-nums}
-.pick:hover{border-color:rgba(251,146,60,.5);color:var(--orange)}
-.pick.active{background:var(--orange);border-color:var(--orange);color:#0a0a0a}
-.picker-block{margin-bottom:22px}
-.picker-block.sep{border-top:1px solid var(--b1);padding-top:22px}
-.day-head{font-size:1.15rem;font-weight:700;margin:8px 0 14px;display:flex;align-items:baseline;gap:10px}
-.day-head .d-count{font-size:11px;font-weight:600;color:var(--t3);background:var(--bg4);border:1px solid var(--b1);border-radius:999px;padding:2px 9px}
-ul.day-posts{list-style:none;padding:0;margin:0}
-ul.day-posts li{display:flex;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid var(--b1)}
-ul.day-posts li a{color:#d4d4d8;font-size:14.5px}
+.hero{border-bottom:1px solid rgba(255,255,255,.08)}
+.hero-in{max-width:800px;margin:0 auto;padding:38px 16px 26px}
+.hero-eyebrow{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:9px}
+.hero h1{font-size:1.7rem;font-weight:600;margin:0 0 10px;letter-spacing:-.01em}
+.hero .lead{font-size:14px;color:var(--t2);max-width:640px;margin:0;line-height:1.6}
+.wrap{max-width:800px;margin:0 auto;padding:30px 16px 40px}
+.picker-block{margin-bottom:18px}
+/* 연도 = 밑줄 탭 */
+.year-tabs{display:flex;flex-wrap:wrap;gap:22px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:18px}
+.year-tabs .pick{font-size:15px;font-weight:500;color:var(--t3);padding:0 0 10px;margin-bottom:-1px;background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;transition:color .12s;font-variant-numeric:tabular-nums}
+.year-tabs .pick:hover{color:var(--t1)}
+.year-tabs .pick.active{color:#fafafa;border-bottom-color:var(--orange)}
+/* 월·일 = 텍스트 (선택만 오렌지) */
+.mon-row,.day-row{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:16px}
+.mon-row .pick,.day-row .pick{font-size:14px;font-weight:400;color:var(--t3);background:none;border:none;padding:2px 0;cursor:pointer;transition:color .12s;font-variant-numeric:tabular-nums}
+.mon-row .pick:hover,.day-row .pick:hover{color:var(--t1)}
+.mon-row .pick.active,.day-row .pick.active{color:var(--orange);font-weight:500}
+.day-head{font-size:14px;font-weight:500;color:#fafafa;margin:20px 0 4px;display:flex;align-items:center;gap:10px}
+.day-head:after{content:"";flex:1;height:1px;background:rgba(255,255,255,.06)}
+.day-head .d-count{font-size:11px;font-weight:400;color:var(--t3);background:rgba(255,255,255,.04);border-radius:999px;padding:2px 9px;order:1}
+ul.day-posts{list-style:none;padding:0;margin:8px 0 0}
+ul.day-posts li{padding:0;border:none}
+ul.day-posts li a{display:block;color:#d4d4d8;font-size:14px;text-decoration:none;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.05)}
 ul.day-posts li a:hover{color:var(--orange)}
 .empty-day{color:var(--t3);font-size:14px;padding:16px 0}
 ';
@@ -69,7 +74,7 @@ require __DIR__ . '/_guide_head.php';
 ?>
 
 <div class="hero"><div class="hero-in">
-  <span class="hero-badge">🗺 <span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span></span>
+  <div class="hero-eyebrow">Sitemap</div>
   <h1><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span></h1>
   <p class="lead">
     <span class="l-ko">날짜를 선택하면 그날 발행된 블로그 글을 볼 수 있습니다.</span>
@@ -83,18 +88,11 @@ require __DIR__ . '/_guide_head.php';
 <div class="wrap">
   <?php if ($hasArticles): ?>
   <div class="picker-block">
-    <div class="picker-label"><span class="l-ko">연도</span><span class="l-en">Year</span><span class="l-ja">年</span><span class="l-es">Año</span><span class="l-de">Jahr</span><span class="l-fr">Année</span><span class="l-pt">Ano</span><span class="l-tr">Yıl</span><span class="l-vi">Năm</span></div>
-    <div class="picker-row" id="yearRow"></div>
+    <div class="year-tabs" id="yearRow"></div>
+    <div class="mon-row" id="monthRow"></div>
+    <div class="day-row" id="dayRow"></div>
   </div>
-  <div class="picker-block sep">
-    <div class="picker-label"><span class="l-ko">월</span><span class="l-en">Month</span><span class="l-ja">月</span><span class="l-es">Mes</span><span class="l-de">Monat</span><span class="l-fr">Mois</span><span class="l-pt">Mês</span><span class="l-tr">Ay</span><span class="l-vi">Tháng</span></div>
-    <div class="picker-row" id="monthRow"></div>
-  </div>
-  <div class="picker-block sep">
-    <div class="picker-label"><span class="l-ko">일</span><span class="l-en">Day</span><span class="l-ja">日</span><span class="l-es">Día</span><span class="l-de">Tag</span><span class="l-fr">Jour</span><span class="l-pt">Dia</span><span class="l-tr">Gün</span><span class="l-vi">Ngày</span></div>
-    <div class="picker-row" id="dayRow"></div>
-  </div>
-  <div class="picker-block sep">
+  <div class="picker-block">
     <div class="day-head"><span id="dayTitle"></span><span class="d-count" id="dayCount"></span></div>
     <ul class="day-posts" id="dayPosts"></ul>
   </div>
