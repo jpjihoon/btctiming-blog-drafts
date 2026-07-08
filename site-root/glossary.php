@@ -29,6 +29,14 @@ $CAT_LABEL = [
   'altcoin'       => ['ko'=>'알트코인 지표','en'=>'Altcoin Metrics','ja'=>'アルトコイン指標','es'=>'Métricas de Altcoins','de'=>'Altcoin-Metriken','fr'=>'Indicateurs Altcoins','pt'=>'Métricas de Altcoins','tr'=>'Altcoin Metrikleri','vi'=>'Chỉ số Altcoin'],
 ];
 $CAT_ORDER = ['onchain','miner','institutional','cycle','altcoin'];
+// 카테고리별 accent 색상 — 목록에서 그룹을 시각적으로 구분(정보를 색으로 인코딩)
+$CAT_COLOR = [
+  'onchain'       => '#f7931a',
+  'miner'         => '#2dd4bf',
+  'institutional' => '#a78bfa',
+  'cycle'         => '#4ade80',
+  'altcoin'       => '#f472b6',
+];
 
 $TITLE_PAT = ['ko'=>'%s란? 뜻과 활용법','en'=>'What is %s? Meaning & How to Use','ja'=>'%sとは？意味と使い方','es'=>'¿Qué es %s? Significado y uso','de'=>'Was ist %s? Bedeutung & Nutzung','fr'=>'Qu\'est-ce que %s ? Signification et usage','pt'=>'O que é %s? Significado e uso','tr'=>'%s nedir? Anlamı ve kullanımı','vi'=>'%s là gì? Ý nghĩa và cách dùng'];
 $HUB_TITLE = ['ko'=>'비트코인 온체인 지표 용어사전','en'=>'Bitcoin On-Chain Indicator Glossary','ja'=>'ビットコイン・オンチェーン指標用語集','es'=>'Glosario de Indicadores On-Chain de Bitcoin','de'=>'Bitcoin On-Chain-Indikator-Glossar','fr'=>'Glossaire des indicateurs on-chain Bitcoin','pt'=>'Glossário de Indicadores On-Chain do Bitcoin','tr'=>'Bitcoin Zincir Üstü Gösterge Sözlüğü','vi'=>'Từ điển chỉ báo on-chain Bitcoin'];
@@ -98,11 +106,26 @@ h1{font-size:1.8rem;font-weight:800;line-height:1.28;margin-bottom:8px;color:#fa
 .gother a{font-size:12.5px;color:#c4c4cc;background:#151517;border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:6px 12px;text-decoration:none}
 .gother a:hover{border-color:#f7931a;color:#f7931a}
 .gsec{margin:34px 0 12px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#f7931a}
-.gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
-.gcard{display:block;background:#151517;border:1px solid var(--b1,rgba(255,255,255,.07));border-radius:12px;padding:15px 16px;text-decoration:none;transition:border-color .15s,transform .1s}
-.gcard:hover{border-color:#f7931a;transform:translateY(-1px)}
-.gcard b{display:block;color:#fafafa;font-size:14.5px;margin-bottom:4px}
-.gcard span{color:#8b8b93;font-size:12px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* ── 허브 리디자인 ── */
+.ghub-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:4px}
+.ghub-stats{display:flex;gap:10px;flex-shrink:0}
+.ghub-stat{text-align:center;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:12px 16px}
+.ghub-stat b{display:block;font-size:24px;font-weight:800;color:#fafafa;line-height:1}
+.ghub-stat span{font-size:10.5px;color:#71717a;margin-top:4px;letter-spacing:.03em;display:block}
+.gcatsec{margin-top:30px}
+.gcathead{display:flex;align-items:center;gap:9px;margin-bottom:13px}
+.gcatdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.gcatname{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#e4e4e7}
+.gcatnum{font-size:11px;color:#52525b;background:rgba(255,255,255,.04);border-radius:20px;padding:2px 9px}
+.gcatline{flex:1;height:1px;background:rgba(255,255,255,.06)}
+.gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:11px}
+.gcard{display:block;position:relative;background:#151518;border:1px solid rgba(255,255,255,.07);border-left:3px solid #f7931a;border-radius:0 11px 11px 0;padding:14px 15px 15px;text-decoration:none;transition:background .15s,transform .12s}
+.gcard:hover{background:#1c1c21;transform:translateX(2px)}
+.gcard-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.gcard b{color:#fafafa;font-size:14px;font-weight:600}
+.gcard .garw{font-size:15px;opacity:0;transform:translateX(-4px);transition:opacity .15s,transform .15s}
+.gcard:hover .garw{opacity:1;transform:translateX(0)}
+.gcard span{display:block;color:#8b8b93;font-size:12px;line-height:1.55;margin-top:5px}
 .pagefoot{margin-top:52px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07);font-size:12.5px;color:#71717a;display:flex;gap:18px;flex-wrap:wrap}
 .pagefoot a{color:#71717a;text-decoration:underline}
 CSS;
@@ -210,20 +233,45 @@ require __DIR__ . '/_guide_head.php';
   </div>
 
 <?php else: // ── 허브 ── ?>
-  <h1><?= gh($L($HUB_TITLE)) ?></h1>
-  <p class="lead"><?= gh($L($HUB_DESC)) ?></p>
+  <?php
+    $__liveCount = 0;
+    foreach ($GLOSSARY as $__g) { if (!empty($__g['live_field'])) $__liveCount++; }
+  ?>
+  <div class="ghub-head">
+    <div>
+      <h1><?= gh($L($HUB_TITLE)) ?></h1>
+      <p class="lead" style="margin-bottom:0"><?= gh($L($HUB_DESC)) ?></p>
+    </div>
+    <div class="ghub-stats">
+      <div class="ghub-stat"><b><?= count($GLOSSARY) ?></b><span class="l-ko">지표</span><span class="l-en">indicators</span><span class="l-ja">指標</span><span class="l-es">indicadores</span><span class="l-de">Indikatoren</span><span class="l-fr">indicateurs</span><span class="l-pt">indicadores</span><span class="l-tr">gösterge</span><span class="l-vi">chỉ báo</span></div>
+      <?php if ($__liveCount > 0): ?>
+      <div class="ghub-stat"><b><?= $__liveCount ?></b><span class="l-ko">실시간 값</span><span class="l-en">live values</span><span class="l-ja">リアルタイム値</span><span class="l-es">valores en vivo</span><span class="l-de">Live-Werte</span><span class="l-fr">valeurs en direct</span><span class="l-pt">valores ao vivo</span><span class="l-tr">canlı değer</span><span class="l-vi">giá trị trực tiếp</span></div>
+      <?php endif; ?>
+    </div>
+  </div>
   <?php foreach ($CAT_ORDER as $cat):
     $inCat = array_filter($GLOSSARY, fn($g) => $g['category'] === $cat);
-    if (!$inCat) continue; ?>
-    <div class="gsec"><?= gh($L($CAT_LABEL[$cat])) ?></div>
-    <div class="gcards">
-      <?php foreach ($inCat as $s => $g):
-        $gi = $g['i18n'][$__gLang] ?? $g['i18n']['en']; ?>
-        <a class="gcard" href="/glossary/<?= gh($s) ?><?= gh($termSuffix) ?>">
-          <b><?= gh($gi['term_full']) ?></b>
-          <span><?= gh(mb_substr($gi['one_liner'], 0, 72)) ?></span>
-        </a>
-      <?php endforeach; ?>
+    if (!$inCat) continue;
+    $__cc = $CAT_COLOR[$cat] ?? '#f7931a'; ?>
+    <div class="gcatsec">
+      <div class="gcathead">
+        <span class="gcatdot" style="background:<?= gh($__cc) ?>"></span>
+        <span class="gcatname"><?= gh($L($CAT_LABEL[$cat])) ?></span>
+        <span class="gcatnum"><?= count($inCat) ?></span>
+        <span class="gcatline"></span>
+      </div>
+      <div class="gcards">
+        <?php foreach ($inCat as $s => $g):
+          $gi = $g['i18n'][$__gLang] ?? $g['i18n']['en']; ?>
+          <a class="gcard" style="border-left-color:<?= gh($__cc) ?>" href="/glossary/<?= gh($s) ?><?= gh($termSuffix) ?>">
+            <span class="gcard-top">
+              <b><?= gh($gi['term_full']) ?></b>
+              <i class="garw" style="color:<?= gh($__cc) ?>;font-style:normal">→</i>
+            </span>
+            <span><?= gh(mb_substr($gi['one_liner'], 0, 72)) ?></span>
+          </a>
+        <?php endforeach; ?>
+      </div>
     </div>
   <?php endforeach; ?>
 <?php endif; ?>
