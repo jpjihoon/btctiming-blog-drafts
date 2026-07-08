@@ -66,29 +66,29 @@ require __DIR__ . '/_guide_head.php';
 ?>
 
 <div class="hero"><div class="hero-in">
-  <span class="hero-badge">🗺 <span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa</span><span class="l-de">Sitemap</span></span>
-  <h1><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span></h1>
+  <span class="hero-badge">🗺 <span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span></span>
+  <h1><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span></h1>
   <p class="lead">
     <span class="l-ko">날짜를 선택하면 그날 발행된 블로그 글을 볼 수 있습니다.</span>
     <span class="l-en">Select a date to see blog posts published that day.</span>
     <span class="l-ja">日付を選ぶと、その日に公開されたブログ記事が表示されます。</span>
     <span class="l-es">Selecciona una fecha para ver las publicaciones de ese día.</span>
-    <span class="l-de">Wähle ein Datum, um die an diesem Tag veröffentlichten Beiträge zu sehen.</span>
+    <span class="l-de">Wähle ein Datum, um die an diesem Tag veröffentlichten Beiträge zu sehen.</span><span class="l-fr">Sélectionnez une date pour voir les articles publiés ce jour-là.</span><span class="l-pt">Selecione uma data para ver os artigos publicados naquele dia.</span><span class="l-tr">O gün yayımlanan yazıları görmek için bir tarih seçin.</span><span class="l-vi">Chọn một ngày để xem các bài viết được đăng trong ngày đó.</span>
   </p>
 </div></div>
 
 <div class="wrap">
   <?php if ($hasArticles): ?>
   <div class="picker-block">
-    <div class="picker-label"><span class="l-ko">연도</span><span class="l-en">Year</span><span class="l-ja">年</span><span class="l-es">Año</span><span class="l-de">Jahr</span></div>
+    <div class="picker-label"><span class="l-ko">연도</span><span class="l-en">Year</span><span class="l-ja">年</span><span class="l-es">Año</span><span class="l-de">Jahr</span><span class="l-fr">Année</span><span class="l-pt">Ano</span><span class="l-tr">Yıl</span><span class="l-vi">Năm</span></div>
     <div class="picker-row" id="yearRow"></div>
   </div>
   <div class="picker-block sep">
-    <div class="picker-label"><span class="l-ko">월</span><span class="l-en">Month</span><span class="l-ja">月</span><span class="l-es">Mes</span><span class="l-de">Monat</span></div>
+    <div class="picker-label"><span class="l-ko">월</span><span class="l-en">Month</span><span class="l-ja">月</span><span class="l-es">Mes</span><span class="l-de">Monat</span><span class="l-fr">Mois</span><span class="l-pt">Mês</span><span class="l-tr">Ay</span><span class="l-vi">Tháng</span></div>
     <div class="picker-row" id="monthRow"></div>
   </div>
   <div class="picker-block sep">
-    <div class="picker-label"><span class="l-ko">일</span><span class="l-en">Day</span><span class="l-ja">日</span><span class="l-es">Día</span><span class="l-de">Tag</span></div>
+    <div class="picker-label"><span class="l-ko">일</span><span class="l-en">Day</span><span class="l-ja">日</span><span class="l-es">Día</span><span class="l-de">Tag</span><span class="l-fr">Jour</span><span class="l-pt">Dia</span><span class="l-tr">Gün</span><span class="l-vi">Ngày</span></div>
     <div class="picker-row" id="dayRow"></div>
   </div>
   <div class="picker-block sep">
@@ -96,7 +96,7 @@ require __DIR__ . '/_guide_head.php';
     <ul class="day-posts" id="dayPosts"></ul>
   </div>
   <?php else: ?>
-  <p class="lead"><span class="l-ko">아직 등록된 글이 없습니다.</span><span class="l-en">No posts yet.</span><span class="l-ja">記事はまだありません。</span><span class="l-es">Aún no hay publicaciones.</span><span class="l-de">Noch keine Beiträge.</span></p>
+  <p class="lead"><span class="l-ko">아직 등록된 글이 없습니다.</span><span class="l-en">No posts yet.</span><span class="l-ja">記事はまだありません。</span><span class="l-es">Aún no hay publicaciones.</span><span class="l-de">Noch keine Beiträge.</span><span class="l-fr">Aucun article pour le moment.</span><span class="l-pt">Ainda não há artigos.</span><span class="l-tr">Henüz yazı yok.</span><span class="l-vi">Chưa có bài viết nào.</span></p>
   <?php endif; ?>
 </div>
 

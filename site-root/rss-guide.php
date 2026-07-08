@@ -40,31 +40,31 @@ require __DIR__ . '/_guide_head.php';
 
 <div class="hero"><div class="hero-in">
   <span class="hero-badge">📡 RSS</span>
-  <h1><span class="l-ko">RSS 피드</span><span class="l-en">RSS Feeds</span><span class="l-ja">RSSフィード</span><span class="l-es">Feeds RSS</span><span class="l-de">RSS-Feeds</span></h1>
+  <h1><span class="l-ko">RSS 피드</span><span class="l-en">RSS Feeds</span><span class="l-ja">RSSフィード</span><span class="l-es">Feeds RSS</span><span class="l-de">RSS-Feeds</span><span class="l-fr">Flux RSS</span><span class="l-pt">Feeds RSS</span><span class="l-tr">RSS Beslemeleri</span><span class="l-vi">Nguồn cấp RSS</span></h1>
   <p class="lead">
     <span class="l-ko">피드리더(Feedly, Inoreader 등)에 아래 주소를 등록하면 새 글을 자동으로 받아볼 수 있습니다.</span>
     <span class="l-en">Add the addresses below to a feed reader (Feedly, Inoreader, etc.) to receive new posts automatically.</span>
     <span class="l-ja">フィードリーダー（Feedly、Inoreaderなど）に以下のアドレスを登録すると、新着記事を自動で受け取れます。</span>
     <span class="l-es">Agrega las direcciones a un lector de feeds para recibir nuevas publicaciones automáticamente.</span>
-    <span class="l-de">Füge die Adressen unten zu einem Feed-Reader hinzu, um neue Beiträge automatisch zu erhalten.</span>
+    <span class="l-de">Füge die Adressen unten zu einem Feed-Reader hinzu, um neue Beiträge automatisch zu erhalten.</span><span class="l-fr">Ajoutez les adresses ci-dessous à un lecteur de flux pour recevoir automatiquement les nouveaux articles.</span><span class="l-pt">Adicione os endereços abaixo a um leitor de feeds para receber automaticamente novos artigos.</span><span class="l-tr">Yeni yazıları otomatik almak için aşağıdaki adresleri bir besleme okuyucusuna ekleyin.</span><span class="l-vi">Thêm các địa chỉ bên dưới vào trình đọc nguồn cấp để tự động nhận bài viết mới.</span>
   </p>
 </div></div>
 
 <div class="wrap">
-  <h2><span class="l-ko">전체 피드</span><span class="l-en">All Posts</span><span class="l-ja">全記事</span><span class="l-es">Todo</span><span class="l-de">Alle Beiträge</span></h2>
+  <h2><span class="l-ko">전체 피드</span><span class="l-en">All Posts</span><span class="l-ja">全記事</span><span class="l-es">Todo</span><span class="l-de">Alle Beiträge</span><span class="l-fr">Tous les articles</span><span class="l-pt">Todos os artigos</span><span class="l-tr">Tüm yazılar</span><span class="l-vi">Tất cả bài viết</span></h2>
   <div class="feed-row">
     <div style="min-width:0">
-      <div class="feed-name"><span class="feed-ico">📰</span> <span class="l-ko">전체 글</span><span class="l-en">All posts</span><span class="l-ja">全記事</span><span class="l-es">Todas</span><span class="l-de">Alle</span></div>
+      <div class="feed-name"><span class="feed-ico">📰</span> <span class="l-ko">전체 글</span><span class="l-en">All posts</span><span class="l-ja">全記事</span><span class="l-es">Todas</span><span class="l-de">Alle</span><span class="l-fr">Tout</span><span class="l-pt">Todos</span><span class="l-tr">Tümü</span><span class="l-vi">Tất cả</span></div>
       <div class="feed-url"><?= gh($feedBase) ?></div>
     </div>
     <div class="feed-actions">
-      <a class="gbtn" href="<?= gh($feedBase) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span></a>
-      <button class="gbtn gcopy" data-copy="<?= gh($feedBase) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span></button>
+      <a class="gbtn" href="<?= gh($feedBase) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
+      <button class="gbtn gcopy" data-copy="<?= gh($feedBase) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
     </div>
   </div>
 
   <?php if (!empty($cats)): ?>
-  <h2><span class="l-ko">카테고리별 피드</span><span class="l-en">By Category</span><span class="l-ja">カテゴリー別</span><span class="l-es">Por Categoría</span><span class="l-de">Nach Kategorie</span></h2>
+  <h2><span class="l-ko">카테고리별 피드</span><span class="l-en">By Category</span><span class="l-ja">カテゴリー別</span><span class="l-es">Por Categoría</span><span class="l-de">Nach Kategorie</span><span class="l-fr">Par catégorie</span><span class="l-pt">Por categoria</span><span class="l-tr">Kategoriye göre</span><span class="l-vi">Theo danh mục</span></h2>
   <?php foreach ($cats as $key => $ci): $curl=$feedBase.'?category='.$key; $icon=$catIcon[$key]??'📄'; ?>
   <div class="feed-row">
     <div style="min-width:0">
@@ -72,14 +72,14 @@ require __DIR__ . '/_guide_head.php';
       <div class="feed-url"><?= gh($curl) ?></div>
     </div>
     <div class="feed-actions">
-      <a class="gbtn" href="<?= gh($curl) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span></a>
-      <button class="gbtn gcopy" data-copy="<?= gh($curl) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span></button>
+      <a class="gbtn" href="<?= gh($curl) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
+      <button class="gbtn gcopy" data-copy="<?= gh($curl) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
     </div>
   </div>
   <?php endforeach; ?>
   <?php endif; ?>
 
-  <h2><span class="l-ko">언어별 피드</span><span class="l-en">By Language</span><span class="l-ja">言語別</span><span class="l-es">Por Idioma</span><span class="l-de">Nach Sprache</span></h2>
+  <h2><span class="l-ko">언어별 피드</span><span class="l-en">By Language</span><span class="l-ja">言語別</span><span class="l-es">Por Idioma</span><span class="l-de">Nach Sprache</span><span class="l-fr">Par langue</span><span class="l-pt">Por idioma</span><span class="l-tr">Dile göre</span><span class="l-vi">Theo ngôn ngữ</span></h2>
   <?php foreach ($langs as $lc => $li): $lurl=$feedBase.'?lang='.$lc; ?>
   <div class="feed-row">
     <div style="min-width:0">
@@ -87,19 +87,19 @@ require __DIR__ . '/_guide_head.php';
       <div class="feed-url"><?= gh($lurl) ?></div>
     </div>
     <div class="feed-actions">
-      <a class="gbtn" href="<?= gh($lurl) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span></a>
-      <button class="gbtn gcopy" data-copy="<?= gh($lurl) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span></button>
+      <a class="gbtn" href="<?= gh($lurl) ?>" target="_blank" rel="noopener"><span class="l-ko">열기</span><span class="l-en">Open</span><span class="l-ja">開く</span><span class="l-es">Abrir</span><span class="l-de">Öffnen</span><span class="l-fr">Ouvrir</span><span class="l-pt">Abrir</span><span class="l-tr">Aç</span><span class="l-vi">Mở</span></a>
+      <button class="gbtn gcopy" data-copy="<?= gh($lurl) ?>"><span class="l-ko">복사</span><span class="l-en">Copy</span><span class="l-ja">コピー</span><span class="l-es">Copiar</span><span class="l-de">Kopieren</span><span class="l-fr">Copier</span><span class="l-pt">Copiar</span><span class="l-tr">Kopyala</span><span class="l-vi">Sao chép</span></button>
     </div>
   </div>
   <?php endforeach; ?>
 
   <div class="note">
-    <b><span class="l-ko">RSS가 처음이신가요?</span><span class="l-en">New to RSS?</span><span class="l-ja">RSSは初めてですか？</span><span class="l-es">¿Nuevo en RSS?</span><span class="l-de">Neu bei RSS?</span></b>
+    <b><span class="l-ko">RSS가 처음이신가요?</span><span class="l-en">New to RSS?</span><span class="l-ja">RSSは初めてですか？</span><span class="l-es">¿Nuevo en RSS?</span><span class="l-de">Neu bei RSS?</span><span class="l-fr">Nouveau sur le RSS ?</span><span class="l-pt">Novo no RSS?</span><span class="l-tr">RSS’e yeni misiniz?</span><span class="l-vi">Mới dùng RSS?</span></b>
     <span class="l-ko"> Feedly·Inoreader 같은 무료 앱에 위 주소를 붙여넣으면 새 글이 자동으로 도착합니다. 파라미터는 조합할 수 있습니다 — 예: </span>
     <span class="l-en"> Paste the addresses above into a free app like Feedly or Inoreader. Parameters can be combined — e.g. </span>
     <span class="l-ja"> FeedlyやInoreaderなどの無料アプリに上記アドレスを貼り付けると自動で届きます。組み合わせ可能 — 例: </span>
     <span class="l-es"> Pega las direcciones en una app gratuita como Feedly. Se pueden combinar — ej.: </span>
-    <span class="l-de"> Füge die Adressen in eine App wie Feedly ein. Kombinierbar — z. B.: </span>
+    <span class="l-de"> Füge die Adressen in eine App wie Feedly ein. Kombinierbar — z. B.: </span><span class="l-fr"> Ajoutez les adresses dans une app comme Feedly. Combinables — par ex. : </span><span class="l-pt"> Adicione os endereços em um app como o Feedly. Combináveis — ex.: </span><span class="l-tr"> Adresleri Feedly gibi bir uygulamaya ekleyin. Birleştirilebilir — örn.: </span><span class="l-vi"> Thêm các địa chỉ vào ứng dụng như Feedly. Có thể kết hợp — ví dụ: </span>
     <code><?= gh($feedBase) ?>?category=weekly&lang=en</code>
   </div>
 </div>

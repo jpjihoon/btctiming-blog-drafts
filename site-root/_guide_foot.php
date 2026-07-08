@@ -9,19 +9,20 @@
   © 2026 BTCtiming.com ·
   <a href="/rss-guide.php" style="color:var(--t3);text-decoration:underline">RSS</a>
   ·
-  <a href="/sitemap-guide.php" style="color:var(--t3);text-decoration:underline"><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span></a>
+  <a href="/sitemap-guide.php" style="color:var(--t3);text-decoration:underline"><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span></a>
   ·
-  <a href="/privacy" style="color:var(--t3);text-decoration:underline"><span class="l-ko">개인정보처리방침</span><span class="l-en">Privacy Policy</span><span class="l-ja">プライバシーポリシー</span><span class="l-es">Política de Privacidad</span><span class="l-de">Datenschutzerklärung</span></a>
+  <a href="/privacy" style="color:var(--t3);text-decoration:underline"><span class="l-ko">개인정보처리방침</span><span class="l-en">Privacy Policy</span><span class="l-ja">プライバシーポリシー</span><span class="l-es">Política de Privacidad</span><span class="l-de">Datenschutzerklärung</span><span class="l-fr">Confidentialité</span><span class="l-pt">Privacidade</span><span class="l-tr">Gizlilik Politikası</span><span class="l-vi">Chính sách bảo mật</span></a>
   ·
-  <a href="/terms" style="color:var(--t3);text-decoration:underline"><span class="l-ko">이용약관</span><span class="l-en">Terms of Service</span><span class="l-ja">利用規約</span><span class="l-es">Términos de Servicio</span><span class="l-de">Nutzungsbedingungen</span></a>
-  · <span class="l-ko">투자 조언이 아닙니다</span><span class="l-en">Not financial advice</span><span class="l-ja">投資助言ではありません</span><span class="l-es">No es asesoramiento financiero</span><span class="l-de">Keine Finanzberatung</span>.
+  <a href="/terms" style="color:var(--t3);text-decoration:underline"><span class="l-ko">이용약관</span><span class="l-en">Terms of Service</span><span class="l-ja">利用規約</span><span class="l-es">Términos de Servicio</span><span class="l-de">Nutzungsbedingungen</span><span class="l-fr">Conditions d'utilisation</span><span class="l-pt">Termos de Serviço</span><span class="l-tr">Hizmet Şartları</span><span class="l-vi">Điều khoản dịch vụ</span></a>
+  · <span class="l-ko">투자 조언이 아닙니다</span><span class="l-en">Not financial advice</span><span class="l-ja">投資助言ではありません</span><span class="l-es">No es asesoramiento financiero</span><span class="l-de">Keine Finanzberatung</span><span class="l-fr">Pas un conseil financier</span><span class="l-pt">Não é aconselhamento financeiro</span><span class="l-tr">Yatırım tavsiyesi değildir</span><span class="l-vi">Không phải lời khuyên tài chính</span>.
 </div>
 
 <script>
-const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE'};
+var GUIDE_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
+const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE',fr:'FR',pt:'PT',tr:'TR',vi:'VI'};
 function currentLang(){
-  try{const p=new URLSearchParams(location.search).get('lang');if(['ko','en','ja','es','de'].includes(p))return p;}catch(e){}
-  try{const s=localStorage.getItem('blogLang');if(['ko','en','ja','es','de'].includes(s))return s;}catch(e){}
+  try{const p=new URLSearchParams(location.search).get('lang');if(GUIDE_LANGS.includes(p))return p;}catch(e){}
+  try{const s=localStorage.getItem('blogLang');if(GUIDE_LANGS.includes(s))return s;}catch(e){}
   return 'ko';
 }
 function applyLang(lang){

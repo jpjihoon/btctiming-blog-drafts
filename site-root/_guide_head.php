@@ -7,13 +7,21 @@
 //   require __DIR__ . '/_guide_head.php';
 // 를 호출하면 <!DOCTYPE>~<nav>까지 출력된다. 이후 본문을 쓰고 _guide_foot.php로 닫는다.
 // ═══════════════════════════════════════════════════════
+require_once __DIR__ . '/config.php';
 if (!function_exists('gh')) { function gh($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); } }
 $__title = $GUIDE_TITLE ?? 'BTCtiming.com';
 $__desc  = $GUIDE_DESC ?? '';
 $__canon = $GUIDE_CANONICAL ?? 'https://btctiming.com/';
+// 언어 결정: URL ?lang= 를 서버에서 읽어 <html lang>에 바로 반영(깜빡임 방지 + 진입 시 유지).
+// (localStorage 기반 복원은 _guide_foot.php의 JS가 추가로 처리한다.)
+$__ghLang = 'ko';
+if (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+    $__ghLang = $_GET['lang'];
+}
+$__ghLangKeys = array_keys(SUPPORTED_LANGS);
 ?>
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="<?= gh($__ghLang) ?>">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -35,12 +43,17 @@ a{color:var(--orange);text-decoration:none}a:hover{text-decoration:underline}
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
-/* 언어별 표시 */
-[lang="ko"] .l-en,[lang="ko"] .l-ja,[lang="ko"] .l-es,[lang="ko"] .l-de{display:none}
-[lang="en"] .l-ko,[lang="en"] .l-ja,[lang="en"] .l-es,[lang="en"] .l-de{display:none}
-[lang="ja"] .l-ko,[lang="ja"] .l-en,[lang="ja"] .l-es,[lang="ja"] .l-de{display:none}
-[lang="es"] .l-ko,[lang="es"] .l-en,[lang="es"] .l-ja,[lang="es"] .l-de{display:none}
-[lang="de"] .l-ko,[lang="de"] .l-en,[lang="de"] .l-ja,[lang="de"] .l-es{display:none}
+/* 언어별 표시 — SUPPORTED_LANGS 기반 자동 생성 (l- 접두사) */
+<?php
+$__ghRules = [];
+foreach ($__ghLangKeys as $__cur) {
+    foreach ($__ghLangKeys as $__other) {
+        if ($__cur === $__other) continue;
+        $__ghRules[] = '[lang="' . $__cur . '"] .l-' . $__other;
+    }
+}
+echo implode(',', $__ghRules) . "{display:none}\n";
+?>
 /* ── NAV (대시보드와 동일) ── */
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
 .nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px;gap:12px}
@@ -73,16 +86,14 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 <body>
 <nav><div class="nav-inner">
   <a href="/" class="logo">BTC<span>timing</span></a>
-  <span class="nav-back"><a href="/"><span class="l-ko">← 실시간 분석으로 돌아가기</span><span class="l-en">← Back to Live Analysis</span><span class="l-ja">← リアルタイム分析に戻る</span><span class="l-es">← Volver al Análisis en Vivo</span><span class="l-de">← Zurück zur Live-Analyse</span></a></span>
+  <span class="nav-back"><a href="/"><span class="l-ko">← 실시간 분석으로 돌아가기</span><span class="l-en">← Back to Live Analysis</span><span class="l-ja">← リアルタイム分析に戻る</span><span class="l-es">← Volver al Análisis en Vivo</span><span class="l-de">← Zurück zur Live-Analyse</span><span class="l-fr">← Retour à l'analyse en direct</span><span class="l-pt">← Voltar à análise ao vivo</span><span class="l-tr">← Canlı analize dön</span><span class="l-vi">← Quay lại phân tích trực tiếp</span></a></span>
   <div class="nav-r">
     <div class="lang-dropdown" id="langDropdown">
-      <button type="button" class="lang-trigger" onclick="toggleLangMenu(event)" aria-haspopup="true"><span id="langTriggerLabel">KO</span><span class="lang-caret">▾</span></button>
+      <button type="button" class="lang-trigger" onclick="toggleLangMenu(event)" aria-haspopup="true"><span id="langTriggerLabel"><?= gh(strtoupper($__ghLang)) ?></span><span class="lang-caret">▾</span></button>
       <div class="lang-menu">
-        <button type="button" class="lang-menu-item" data-lang="ko" onclick="L('ko')">🇰🇷 한국어</button>
-        <button type="button" class="lang-menu-item" data-lang="en" onclick="L('en')">🇺🇸 English</button>
-        <button type="button" class="lang-menu-item" data-lang="ja" onclick="L('ja')">🇯🇵 日本語</button>
-        <button type="button" class="lang-menu-item" data-lang="es" onclick="L('es')">🇪🇸 Español</button>
-        <button type="button" class="lang-menu-item" data-lang="de" onclick="L('de')">🇩🇪 Deutsch</button>
+<?php foreach (SUPPORTED_LANGS as $__lc => $__meta): ?>
+        <button type="button" class="lang-menu-item<?= $__lc===$__ghLang ? ' active' : '' ?>" data-lang="<?= gh($__lc) ?>" onclick="L('<?= gh($__lc) ?>')"><?= $__meta['flag'] ?? '' ?> <?= gh($__meta['name'] ?? strtoupper($__lc)) ?></button>
+<?php endforeach; ?>
       </div>
     </div>
   </div>
