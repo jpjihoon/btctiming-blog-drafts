@@ -88,14 +88,14 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <div class="prevnext">
   <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
     $pnPrev = ['ko'=>'← 이전 글','en'=>'← Previous','ja'=>'← 前の記事','es'=>'← Anterior','de'=>'← Zurück','fr'=>'← Précédent','pt'=>'← Anterior','tr'=>'← Önceki','vi'=>'← Trước']; ?>
-    <a class="pn-link pn-prev" href="/blog/<?= h($prevSlug) ?>.php<?= h($blogSuffix) ?>">
+    <a class="pn-link pn-prev" data-base="/blog/<?= h($prevSlug) ?>.php" href="/blog/<?= h($prevSlug) ?>.php<?= h($blogSuffix) ?>">
       <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnPrev[$pl] ?? $pnPrev['en']).'</span>'; ?></span>
       <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pA["title_{$pl}"] ?? ($pA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
   <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
   <?php if ($nextSlug): $nA = $ARTICLES[$nextSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
     $pnNext = ['ko'=>'다음 글 →','en'=>'Next →','ja'=>'次の記事 →','es'=>'Siguiente →','de'=>'Weiter →','fr'=>'Suivant →','pt'=>'Próximo →','tr'=>'Sonraki →','vi'=>'Tiếp →']; ?>
-    <a class="pn-link pn-next" href="/blog/<?= h($nextSlug) ?>.php<?= h($blogSuffix) ?>">
+    <a class="pn-link pn-next" data-base="/blog/<?= h($nextSlug) ?>.php" href="/blog/<?= h($nextSlug) ?>.php<?= h($blogSuffix) ?>">
       <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnNext[$pl] ?? $pnNext['en']).'</span>'; ?></span>
       <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($nA["title_{$pl}"] ?? ($nA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
@@ -215,6 +215,12 @@ function L(l){
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + bcSuffix));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + bcSuffix));
   document.querySelectorAll('.cta a').forEach(a => a.setAttribute('href', '/' + bcSuffix));
+  // 이전글/다음글 링크도 현재 언어를 유지 (서버는 렌더 시점 언어로 접미사를 넣기 때문에,
+  // JS로 언어가 바뀐 상태에선 접미사가 안 맞아 이동 시 한글로 깜빡였음)
+  document.querySelectorAll('.pn-link[data-base]').forEach(a => {
+    const base = a.getAttribute('data-base');
+    if(base) a.setAttribute('href', base + (l === 'ko' ? '' : ('?lang=' + l)));
+  });
   try{localStorage.setItem('blogLang',l);}catch(e){}
   try{
     const url = new URL(location.href);
@@ -279,9 +285,22 @@ function applySavedLang() {
   } catch(e){}
 }
 applySavedLang(); // 최초 로드
+// 이전글/다음글 링크를 현재 표시 언어(<html lang>)에 맞춤.
+// applySavedLang이 URL 언어 존중 등으로 L()을 안 부르고 끝난 경우에도
+// 링크 접미사가 실제 표시 언어와 어긋나지 않도록 무조건 한 번 동기화한다.
+function syncPrevNextLang(){
+  try{
+    const cur = document.getElementById('hr').lang || 'ko';
+    document.querySelectorAll('.pn-link[data-base]').forEach(a => {
+      const base = a.getAttribute('data-base');
+      if(base) a.setAttribute('href', base + (cur === 'ko' ? '' : ('?lang=' + cur)));
+    });
+  }catch(e){}
+}
+syncPrevNextLang();
 // 뒤로가기/앞으로가기로 bfcache에서 복원될 때는 이 스크립트가 재실행되지 않으므로,
 // pageshow(persisted)에서 저장된 언어를 다시 적용해야 언어 설정이 유지됨.
-window.addEventListener('pageshow', function(e){ applySavedLang(); });
+window.addEventListener('pageshow', function(e){ applySavedLang(); syncPrevNextLang(); });
 
 // ── SNS 공유 버튼 ──
 (function initShare(){
