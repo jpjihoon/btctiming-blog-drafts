@@ -6,7 +6,9 @@ $baseUrl = 'https://btctiming.com';
 $feedBase = $baseUrl . '/blog/rss.php';
 $catFile = $root . '/blog/_category_meta.php';
 $cats = file_exists($catFile) ? require $catFile : [];
-$langs = ['ko'=>['🇰🇷','한국어'],'en'=>['🇺🇸','English'],'ja'=>['🇯🇵','日本語'],'es'=>['🇪🇸','Español'],'de'=>['🇩🇪','Deutsch']];
+require_once $root . '/config.php';
+$langs = [];
+foreach (SUPPORTED_LANGS as $__lc => $__m) { $langs[$__lc] = [$__m['flag'] ?? '', $__m['name'] ?? strtoupper($__lc)]; }
 if(!function_exists('gh')){ function gh($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); } }
 $catIcon = ['weekly'=>'📊','news'=>'📈','coinnews'=>'🪙','column'=>'✍️','guide'=>'📖'];
 function cn($ci,$lc){ return $ci[$lc] ?? ($ci['ko'] ?? ($ci['en'] ?? '')); }
@@ -68,7 +70,7 @@ require __DIR__ . '/_guide_head.php';
   <?php foreach ($cats as $key => $ci): $curl=$feedBase.'?category='.$key; $icon=$catIcon[$key]??'📄'; ?>
   <div class="feed-row">
     <div style="min-width:0">
-      <div class="feed-name"><span class="feed-ico"><?= $icon ?></span> <span class="l-ko"><?= gh(cn($ci,'ko')) ?></span><span class="l-en"><?= gh(cn($ci,'en')) ?></span><span class="l-ja"><?= gh(cn($ci,'ja')) ?></span><span class="l-es"><?= gh(cn($ci,'es')) ?></span><span class="l-de"><?= gh(cn($ci,'de')) ?></span></div>
+      <div class="feed-name"><span class="feed-ico"><?= $icon ?></span> <span class="l-ko"><?= gh(cn($ci,'ko')) ?></span><span class="l-en"><?= gh(cn($ci,'en')) ?></span><span class="l-ja"><?= gh(cn($ci,'ja')) ?></span><span class="l-es"><?= gh(cn($ci,'es')) ?></span><span class="l-de"><?= gh(cn($ci,'de')) ?></span><span class="l-fr"><?= gh(cn($ci,'fr')) ?></span><span class="l-pt"><?= gh(cn($ci,'pt')) ?></span><span class="l-tr"><?= gh(cn($ci,'tr')) ?></span><span class="l-vi"><?= gh(cn($ci,'vi')) ?></span></div>
       <div class="feed-url"><?= gh($curl) ?></div>
     </div>
     <div class="feed-actions">

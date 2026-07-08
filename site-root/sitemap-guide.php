@@ -28,7 +28,11 @@ foreach ($byDate as $ymd => $list) {
             'ko'=>$a['title_ko']??($a['title_en']??$slug),'en'=>$a['title_en']??($a['title_ko']??$slug),
             'ja'=>$a['title_ja']??($a['title_en']??($a['title_ko']??$slug)),
             'es'=>$a['title_es']??($a['title_en']??($a['title_ko']??$slug)),
-            'de'=>$a['title_de']??($a['title_en']??($a['title_ko']??$slug))]];
+            'de'=>$a['title_de']??($a['title_en']??($a['title_ko']??$slug)),
+            'fr'=>$a['title_fr']??($a['title_en']??($a['title_ko']??$slug)),
+            'pt'=>$a['title_pt']??($a['title_en']??($a['title_ko']??$slug)),
+            'tr'=>$a['title_tr']??($a['title_en']??($a['title_ko']??$slug)),
+            'vi'=>$a['title_vi']??($a['title_en']??($a['title_ko']??$slug))]];
     }
     $postsData[$ymd]=$arr;
 }
@@ -108,7 +112,11 @@ const MONTH_NAMES = {ko:['','1월','2월','3월','4월','5월','6월','7월','8�
   en:['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
   ja:['','1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
   es:['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
-  de:['','Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez']};
+  de:['','Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'],
+  fr:['','Jan','Fév','Mar','Avr','Mai','Juin','Juil','Août','Sep','Oct','Nov','Déc'],
+  pt:['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+  tr:['','Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'],
+  vi:['','Th1','Th2','Th3','Th4','Th5','Th6','Th7','Th8','Th9','Th10','Th11','Th12']};
 let sel = {y:'" . gh($defY) . "', m:'" . gh($defM) . "', d:'" . gh($defD) . "'};
 function curLang(){ return document.documentElement.lang || 'ko'; }
 function renderYears(){
