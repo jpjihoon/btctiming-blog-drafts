@@ -4,6 +4,9 @@
 header('Content-Type: text/html; charset=utf-8');
 $baseUrl = 'https://btctiming.com';
 
+// SUPPORTED_LANGS 등 공용 상수/함수를 먼저 확보 (아래 언어 판정에서 즉시 사용)
+require_once __DIR__ . '/config.php';
+
 $GLOSSARY = require __DIR__ . '/glossary_data.php';
 require __DIR__ . '/glossary_gauge.php';
 
