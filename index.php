@@ -38,13 +38,7 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 // 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
 // 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
-if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
-    $__blLang = $_GET['lang'];
-} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-    $__blLang = $_COOKIE['blogLang'];
-} else {
-    $__blLang = 'ko';
-}
+$__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 ?>
 <!DOCTYPE html>
 <html lang="<?= h($__blLang) ?>"<?= $__blLang !== 'ko' ? ' class="'.h($__blLang).'"' : '' ?> id="html-root">
@@ -322,6 +316,8 @@ foreach ($__langKeys as $__l) {
   </div>
 </div>
 <?php require __DIR__ . '/../_shared_footer.php'; ?>
+<script>window.BT_SUPPORTED_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;</script>
+<script src="/lang-common.js"></script>
 <script>
 function setLang(lang) {
   const root = document.getElementById('html-root');
@@ -355,8 +351,9 @@ function setLang(lang) {
   const _suf = (lang === 'ko' ? '' : '?lang=' + lang);
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
-  try { localStorage.setItem('blogLang', lang); } catch(e){}
-  try { document.cookie = 'blogLang=' + encodeURIComponent(lang) + '; path=/; max-age=31536000; SameSite=Lax'; } catch(e){}
+  // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
+  if(window.BTLang){BTLang.save(lang);}
+  else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
   try {
     const url = new URL(location.href);
     if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
@@ -382,9 +379,10 @@ document.addEventListener('click', (e) => {
 function restoreBlogLang(preferUrl) {
   try {
     const VALID = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
-    // 쿠키(서버가 렌더에 쓰는 값) 우선, 없으면 localStorage — 다른 영역과 언어 일관.
+    // 저장 언어는 공통 유틸로 조회(쿠키 우선). 미로드 시 폴백.
     let stored = null;
-    try { const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/); if(m) stored=decodeURIComponent(m[1]); } catch(e){}
+    if(window.BTLang){ stored = BTLang.readCookie(); }
+    if(!VALID.includes(stored)){ try{ const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/); if(m) stored=decodeURIComponent(m[1]); }catch(e){} }
     if(!VALID.includes(stored)) { stored = localStorage.getItem('blogLang') || localStorage.getItem('lang'); }
     const urlLang = new URLSearchParams(location.search).get('lang');
     // 최초 진입(preferUrl=true): URL ?lang= 최우선 — 사이트맵·구글 검색결과·공유링크로 특정

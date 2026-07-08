@@ -166,20 +166,22 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     // 사이트로는 독일어로 정확히 돌아가야 함(메인은 5개 언어 다 지원하므로 이 글의 번역 여부와 무관).
     $mainHref = '/' . langSuffix($requestedLang);
     ?>
-    <a href="<?= h($mainHref) ?>" class="ko" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">실시간 분석 보러가기 →</a>
-    <a href="<?= h($mainHref) ?>" class="en" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Go to Live Analysis →</a>
-    <a href="<?= h($mainHref) ?>" class="ja" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">リアルタイム分析を見る →</a>
-    <a href="<?= h($mainHref) ?>" class="es" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Ver Análisis en Vivo →</a>
-    <a href="<?= h($mainHref) ?>" class="de" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Live-Analyse ansehen →</a>
-    <a href="<?= h($mainHref) ?>" class="fr" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Voir l'analyse en direct →</a>
-    <a href="<?= h($mainHref) ?>" class="pt" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Ver análise ao vivo →</a>
-    <a href="<?= h($mainHref) ?>" class="tr" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Canlı analizi gör →</a>
-    <a href="<?= h($mainHref) ?>" class="vi" onclick="try{var _l=getBlogLang();localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}">Xem phân tích trực tiếp →</a>
+    <a href="<?= h($mainHref) ?>" class="ko" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="<?= h($mainHref) ?>" class="en" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Go to Live Analysis →</a>
+    <a href="<?= h($mainHref) ?>" class="ja" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">リアルタイム分析を見る →</a>
+    <a href="<?= h($mainHref) ?>" class="es" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver Análisis en Vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="de" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Live-Analyse ansehen →</a>
+    <a href="<?= h($mainHref) ?>" class="fr" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Voir l'analyse en direct →</a>
+    <a href="<?= h($mainHref) ?>" class="pt" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver análise ao vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="tr" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Canlı analizi gör →</a>
+    <a href="<?= h($mainHref) ?>" class="vi" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Xem phân tích trực tiếp →</a>
   </div>
 </div><?php // /.wrap-main ?>
   <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
 </div>
 <?php $legalSuffix = langSuffix($requestedLang); require __DIR__ . '/../_shared_footer.php'; ?>
+<script>window.BT_SUPPORTED_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;</script>
+<script src="/lang-common.js"></script>
 <script>
 // 사용자가 언어 메뉴에서 직접 고른 경우: "명시적 선택" 플래그를 켜고 전환.
 // 이 플래그가 켜져 있으면 이후 뒤로가기 등으로 ?lang=이 다른 페이지에 도달해도
@@ -221,9 +223,9 @@ function L(l){
     const base = a.getAttribute('data-base');
     if(base) a.setAttribute('href', base + (l === 'ko' ? '' : ('?lang=' + l)));
   });
-  try{localStorage.setItem('blogLang',l);}catch(e){}
-  // 쿠키에도 저장 → 서버(_header/목록)가 URL ?lang 없을 때 이걸 읽어 마지막 선택 언어로 렌더.
-  try{document.cookie='blogLang='+encodeURIComponent(l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}
+  // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
+  if(window.BTLang){BTLang.save(l);}
+  else{try{localStorage.setItem('blogLang',l);document.cookie='blogLang='+encodeURIComponent(l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
   try{
     const url = new URL(location.href);
     if(l==='ko') url.searchParams.delete('lang'); else url.searchParams.set('lang',l);
@@ -244,23 +246,13 @@ document.addEventListener('click', (e) => {
   if(dd && dd.classList.contains('open') && !dd.contains(e.target)) closeLangMenu();
 });
 function getBlogLang(){
-  // 우선순위: URL ?lang= > 쿠키(서버가 렌더에 쓰는 값) > localStorage > ko.
-  // ★ 쿠키를 우선한다: 서버가 URL 없을 때 쿠키로 언어를 정하므로, JS도 쿠키를 우선해야
-  //   화면(서버 렌더)과 어긋나지 않고, 대시보드·용어집 등 다른 영역과도 일관된다.
+  // 언어 결정은 공통 유틸(lang-common.js)에 위임 → 사이트 전역 동일 규칙.
+  if(window.BTLang) return BTLang.get(false);
+  // 폴백(공통 유틸 미로드 시): URL > 쿠키 > localStorage > ko
   var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
-  try{
-    const p=new URLSearchParams(location.search).get('lang');
-    if(p && SUP.indexOf(p)!==-1) return p;
-  }catch(e){}
-  try{
-    const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);
-    const c=m?decodeURIComponent(m[1]):null;
-    if(c && SUP.indexOf(c)!==-1) return c;
-  }catch(e){}
-  try{
-    const s=localStorage.getItem('blogLang')||localStorage.getItem('lang');
-    if(s && SUP.indexOf(s)!==-1) return s;
-  }catch(e){}
+  try{const p=new URLSearchParams(location.search).get('lang');if(p&&SUP.indexOf(p)!==-1)return p;}catch(e){}
+  try{const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);const c=m?decodeURIComponent(m[1]):null;if(c&&SUP.indexOf(c)!==-1)return c;}catch(e){}
+  try{const s=localStorage.getItem('blogLang')||localStorage.getItem('lang');if(s&&SUP.indexOf(s)!==-1)return s;}catch(e){}
   return'ko';
 }
 // 저장된 언어 설정 복원 — 본문 내 글 간 링크들이 ?lang= 없이 연결되는 경우가 많아서,
@@ -296,7 +288,7 @@ applySavedLang(); // 최초 로드
 // 진입 시 현재 표시 언어를 쿠키에 반영 → 대시보드·용어집 등 다른 영역으로 이동해도 언어 일관.
 try {
   var _cur = document.getElementById('hr') ? document.getElementById('hr').lang : 'ko';
-  if (_cur) document.cookie = 'blogLang=' + encodeURIComponent(_cur) + '; path=/; max-age=31536000; SameSite=Lax';
+  if (_cur) { if(window.BTLang) BTLang.save(_cur); else document.cookie = 'blogLang=' + encodeURIComponent(_cur) + '; path=/; max-age=31536000; SameSite=Lax'; }
 } catch(e){}
 // 이전글/다음글 + 추천글 링크를 현재 표시 언어(<html lang>)에 맞춤.
 // applySavedLang이 URL 언어 존중 등으로 L()을 안 부르고 끝난 경우에도

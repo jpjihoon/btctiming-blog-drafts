@@ -45,13 +45,7 @@ function h(string $s): string {
 require_once __DIR__ . '/../config.php';
 // 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
 // 쿠키를 읽으므로 뒤로가기로 lang 없는 글 URL에 와도 마지막 선택 언어로 렌더된다.
-if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
-    $requestedLang = $_GET['lang'];
-} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-    $requestedLang = $_COOKIE['blogLang'];
-} else {
-    $requestedLang = 'ko';
-}
+$requestedLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 $hasJa = isset($M['title_ja']); // 이 글이 일본어로 번역됐는지 여부
 $hasLangContent = $requestedLang === 'ko' || $requestedLang === 'en' || isset($M["title_{$requestedLang}"]);
 $lang = $hasLangContent ? $requestedLang : 'en'; // 이 글에 해당 언어 콘텐츠가 없으면 영어로 폴백
