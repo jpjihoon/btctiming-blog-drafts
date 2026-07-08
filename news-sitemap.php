@@ -48,11 +48,18 @@ foreach ($articles as $slug => $M) {
     $cat = $M['category'] ?? 'guide';
     if (!in_array($cat, $NEWS_CATEGORIES, true)) continue;
 
-    // 2) 발행일 파싱
-    $dateStr = $M['date'] ?? '';
-    if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $dateStr)) continue;
-    // KST(+09:00) 오전 9시를 발행 시각으로 간주
-    $pubTs = strtotime($dateStr . ' 09:00:00 +0900');
+    // 2) 발행일 파싱 — date 필드가 "2026-07-08", "2026-07-08 13:20:00",
+    //    "2026.07.08 13:20" 등 다양한 형식일 수 있으므로 유연하게 처리.
+    $dateStr = trim($M['date'] ?? '');
+    if ($dateStr === '') continue;
+    // 점(.)을 하이픈(-)으로 통일 후, 앞부분에서 YYYY-MM-DD와 (있으면) 시:분:초 추출
+    $normalized = str_replace('.', '-', $dateStr);
+    if (!preg_match('/^(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}:\d{2}(?::\d{2})?))?/', $normalized, $dm)) continue;
+    $datePart = $dm[1];
+    $timePart = $dm[2] ?? '09:00:00';       // 시간이 없으면 KST 오전 9시로 간주
+    if (strlen($timePart) === 5) $timePart .= ':00'; // HH:MM → HH:MM:SS
+    // KST(+09:00) 기준 발행 시각
+    $pubTs = strtotime($datePart . ' ' . $timePart . ' +0900');
     if ($pubTs === false) continue;
 
     // 3) 48시간 이내인지 (미래 날짜는 제외)

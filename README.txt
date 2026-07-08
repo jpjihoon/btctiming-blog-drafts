@@ -1,53 +1,41 @@
-[패치노트 블로그 10편 — 전체 배포 패키지]
+[뉴스 사이트맵 빈 XML 문제 수정 — 날짜 형식]
 
-■ 압축 구조 = GitHub repo(main 브랜치) 구조와 동일
-  이 zip을 풀면 나오는 위치가 곧 repo에서의 위치입니다.
+■ 증상
+  https://btctiming.com/blog/news-sitemap.php 가 <urlset></urlset> 로
+  비어 있었음. 뉴스 글(코인뉴스, 오늘 날짜)이 분명히 있는데도 안 잡힘.
+  GSC: "url 태그에 필수 태그 누락" 오류.
 
-  {slug}.php          (zip 루트)   → repo 루트   → 서버 /www/blog/{slug}.php
-  meta/{slug}.json                 → repo meta/  → 서버 /www/blog/meta/{slug}.json
-  _category_meta.php  (zip 루트)   → repo 루트   → 서버 /www/blog/_category_meta.php
-  site-root/og.php                 → repo site-root/ → 서버 /www/og.php
-  site-root/app.js                 → repo site-root/ → 서버 /www/app.js
+■ 원인
+  글의 date 필드가 "2026.07.08 13:20:00"처럼 "시간 포함 + 점(.) 구분"
+  형식인데, 기존 news-sitemap.php는 날짜가 정확히 "YYYY-MM-DD"
+  (시간 없음)일 때만 통과시켰음. 그래서 시간이 붙은 글은 전부
+  걸러져서 sitemap이 비었던 것.
+  (GSC가 본 "필수 태그 누락"은, 예전에 다른 형식의 글이 부분적으로
+   걸리던 흔적이거나 캐시된 상태로 보임. 근본 원인은 이 날짜 필터.)
 
-  ※ 블로그 파일은 repo 루트(main)에 그대로 커밋하면 됩니다.
-    폴더로 감싸지 마세요.
+■ 수정 (news-sitemap.php)
+  날짜 파싱을 유연하게:
+  · 점(.)을 하이픈(-)으로 통일
+  · "YYYY-MM-DD" 뒤에 시:분(:초)이 있으면 그 시각을 발행 시각으로 사용
+  · 시간이 아예 없으면 종전처럼 KST 오전 9시로 간주
+  → "2026-07-08", "2026-07-08 13:20:00", "2026.07.08 13:20" 등
+    어떤 형식이든 안전하게 처리. publication_date에 실제 시각 반영.
 
-■ 포함된 패치노트 10편 (모두 NYT식 차분한 서술체, 5개 언어, 이미지 다수)
-  1. patch-long-exit          롱 점수가 낮으면 팔라는 뜻이 아니었다
-  2. patch-realized-saturation 잡알트가 전부 만점이던 시절
-  3. patch-quiet-bottom       역대 최저가인데 왜 점수가 낮았을까
-  4. patch-eth-gap            이더리움은 왜 늘 비트코인보다 낮을까
-  5. patch-trx-philosophy     안 빠진 코인은 상승장 와도 안 오르나
-  6. patch-symmetry-trap      완벽한 대칭의 함정
-  7. patch-volume-gating      거래량이 오르면 무조건 좋은가
-  8. patch-correlation        상관계수의 착각
-  9. patch-btc-first          비트코인이 1등인 게 맞나 (미완의 고민, 투명 공개)
-  10. patch-long-entry        장기 상승 초입을 어떻게 점수화하나 (근본 철학)
+■ 검증
+  · 문빔 글(2026.07.08 13:20:00) → 정상 포함,
+    publication_date "2026-07-08T13:20:00+09:00" ✓
+  · 날짜만/하이픈+시간 형식도 모두 포함 ✓
+  · 48시간 초과 글은 여전히 제외 ✓
+  · XML 유효, 모든 url 필수 태그(publication/date/title) 완비 ✓
+  · php -l 통과, UTF-8, LF ✓
 
-  - 날짜: 2026-03-15 ~ 2026-07-02 로 분산 (오래 다뤄온 느낌)
-  - 팀원은 인물로만 등장(Sophia, Kai, Randy, Leo, Mina), 담당 설명 없음
-  - 각 글의 본문 첫 SVG가 OG 공유 이미지로 자동 사용됨 (og.php C안)
-  - 카드 목업은 실제 대시보드 CSS 재현 → 실제 캡처 주시면 교체 가능
+■ 배포
+  news-sitemap.php → /www/blog/news-sitemap.php 덮어쓰기.
+  배포 후 https://btctiming.com/blog/news-sitemap.php 열어
+  <url> 블록이 나오는지 확인(최근 48h 뉴스글이 있으면 목록이 뜸).
+  그 다음 GSC에서 사이트맵 "다시 제출" 또는 오류 새로고침.
 
-■ _category_meta.php
-  '패치노트'(patch) 카테고리가 목록 맨 앞에 오도록 첫 항목으로 추가됨.
-  색상 #f97316(주황). 기존 카테고리는 그대로 유지.
-
-■ 태그(토픽)는 category와 다르게 지정 → 목록에서 "패치노트 · {토픽}" 표시
-  (예: 패치노트 · 롱·숏 신호 / 패치노트 · 저점 관점 ...)
-
-■ site-root 2개 파일 (이전 수정분 포함, 아직 미배포면 함께 올리세요)
-  - og.php : 본문 첫 차트 SVG를 C안 레이아웃 OG로 생성
-  - app.js : 코인검색 '전체' 탭 클릭 = 즐겨찾기 토글(이동 안함),
-             '즐겨찾기' 탭 클릭 = 코인 이동
-
-■ 줄바꿈: 블로그/repo-root = LF, site-root = CRLF
-
-■ 배포 후 확인
-  1. 블로그 목록에 '패치노트' 카테고리 탭이 맨 앞에 나오는지
-  2. 각 글 열림: https://btctiming.com/blog/patch-long-exit.php 등
-  3. 목록 카드에 "패치노트 · 롱·숏 신호"처럼 토픽이 중복 없이 표시
-  4. OG: https://btctiming.com/og.php?slug=patch-quiet-bottom&lang=ko
-     → 각 글 첫 차트가 이미지로. (배포 후 /www/og/*.png 캐시 삭제,
-       페이스북 공유 디버거에서 Scrape Again)
-  5. 코인검색 전체탭 클릭 = 별만 토글 / 즐겨찾기탭 클릭 = 이동
+■ 참고 (중요)
+  이 sitemap은 "최근 48시간" 글만 담게 설계됨(구글 뉴스 규칙).
+  뉴스 글을 이틀 넘게 안 올리면 자연히 다시 비게 되고, 그건 정상.
+  꾸준히(이틀에 한 번 이상) 뉴스성 글을 올리면 항상 채워져 있음.
