@@ -182,6 +182,10 @@
     <div class="rr ja">→ その後2021年に$69,000まで約20倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~20x hasta $69,000 en 2021</div>
     <div class="rr de">→ Bitcoin stieg bis 2021 um das ~20-fache auf $69.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 20x jusqu'à $69,000 en 2021</div>
+    <div class="rr pt">→ Bitcoin subiu ~20x até $69,000 em 2021</div>
+    <div class="rr tr">→ Bitcoin 2021'e kadar ~20 kat yükselerek $69,000 seviyesine ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 20 lần lên $69,000 vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2020.05</div>
@@ -190,11 +194,19 @@
     <div class="rt ja">COVID暴落後、$9,000の水準で買いシグナルが発生。</div>
     <div class="rt es">Señal de compra en $9,000 tras el colapso de COVID.</div>
     <div class="rt de">Kaufsignal bei $9.000 nach dem COVID-Crash.</div>
+    <div class="rt fr">Signal d'achat à $9,000 après le krach du COVID.</div>
+    <div class="rt pt">Sinal de compra em $9,000 após o crash da COVID.</div>
+    <div class="rt tr">COVID çöküşünün ardından $9,000 seviyesinde alım sinyali.</div>
+    <div class="rt vi">Tín hiệu mua ở mức $9,000 sau cú sập do COVID.</div>
     <div class="rr ko">→ 이후 2021년 $69,000까지 약 7.5배 상승</div>
     <div class="rr en">→ Bitcoin rose ~7.5x to $69,000 by 2021</div>
     <div class="rr ja">→ その後2021年に$69,000まで約7.5倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~7.5x hasta $69,000 en 2021</div>
     <div class="rr de">→ Bitcoin stieg bis 2021 um das ~7,5-fache auf $69.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 7.5x jusqu'à $69,000 en 2021</div>
+    <div class="rr pt">→ Bitcoin subiu ~7.5x até $69,000 em 2021</div>
+    <div class="rr tr">→ Bitcoin 2021'e kadar ~7.5 kat yükselerek $69,000 seviyesine ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 7.5 lần lên $69,000 vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2023.01</div>
@@ -203,11 +215,19 @@
     <div class="rt ja">FTX破綻後、$17,000の水準で買いシグナルが発生。</div>
     <div class="rt es">Señal de compra en $17,000 tras el colapso de FTX.</div>
     <div class="rt de">Kaufsignal bei $17.000 nach dem FTX-Zusammenbruch.</div>
+    <div class="rt fr">Signal d'achat à $17,000 après l'effondrement de FTX.</div>
+    <div class="rt pt">Sinal de compra em $17,000 após o colapso da FTX.</div>
+    <div class="rt tr">FTX'in çöküşünün ardından $17,000 seviyesinde alım sinyali.</div>
+    <div class="rt vi">Tín hiệu mua ở mức $17,000 sau sự sụp đổ của FTX.</div>
     <div class="rr ko">→ 이후 2025년 $126,000까지 약 7.4배 상승</div>
     <div class="rr en">→ Bitcoin rose ~7.4x to $126,000 by 2025</div>
     <div class="rr ja">→ その後2025年に$126,000まで約7.4倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~7.4x hasta $126,000 en 2025</div>
     <div class="rr de">→ Bitcoin stieg bis 2025 um das ~7,4-fache auf $126.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 7.4x jusqu'à $126,000 en 2025</div>
+    <div class="rr pt">→ Bitcoin subiu ~7.4x até $126,000 em 2025</div>
+    <div class="rr tr">→ Bitcoin 2025'e kadar ~7.4 kat yükselerek $126,000 seviyesine ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 7.4 lần lên $126,000 vào năm 2025</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -215,6 +235,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Points de Vigilance Importants</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>신호가 드물게 발생합니다.</strong> 1~2년에 한 번 나올까 말까 한 신호라 오히려 신뢰도가 높습니다.</li>
     <li><strong>신호 후 단기 하락 가능.</strong> 항복이 끝난다고 바로 오르지는 않으며, 수주~수개월의 횡보 후 상승하는 경우도 있습니다.</li>
@@ -240,12 +264,36 @@
     <li><strong>Kurzfristige Rückgänge nach dem Signal möglich.</strong> Seitwärtsbewegung über Wochen bis Monate ist vor der Rally üblich.</li>
     <li><strong>Nur für Bitcoin.</strong> Kann nicht auf Altcoins angewendet werden.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Les signaux sont rares.</strong> Ils apparaissent environ une fois tous les 1 à 2 ans, ce qui explique en partie leur grande fiabilité.</li>
+    <li><strong>Des baisses à court terme après le signal sont possibles.</strong> Une phase de consolidation de quelques semaines à quelques mois avant la remontée est fréquente.</li>
+    <li><strong>Indicateur exclusif à Bitcoin.</strong> Ne peut pas être appliqué aux altcoins.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Os sinais são raros.</strong> Eles aparecem aproximadamente uma vez a cada 1-2 anos, o que explica em parte sua alta confiabilidade.</li>
+    <li><strong>Quedas de curto prazo após o sinal são possíveis.</strong> É comum haver um movimento lateral de semanas a meses antes da alta.</li>
+    <li><strong>Indicador exclusivo do Bitcoin.</strong> Não pode ser aplicado a altcoins.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Sinyaller nadirdir.</strong> Yaklaşık 1-2 yılda bir ortaya çıkarlar, bu da yüksek güvenilirliklerinin nedenlerinden biridir.</li>
+    <li><strong>Sinyalden sonra kısa vadeli düşüşler mümkündür.</strong> Yükseliş öncesinde haftalarca hatta aylarca süren yatay hareket sık görülür.</li>
+    <li><strong>Yalnızca Bitcoin için geçerli bir gösterge.</strong> Altcoinlere uygulanamaz.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Tín hiệu hiếm khi xuất hiện.</strong> Chúng xuất hiện khoảng một lần mỗi 1-2 năm, đây cũng là một phần lý do khiến chúng đáng tin cậy.</li>
+    <li><strong>Có thể xảy ra sụt giảm ngắn hạn sau tín hiệu.</strong> Diễn biến đi ngang kéo dài vài tuần đến vài tháng trước khi tăng giá là điều thường thấy.</li>
+    <li><strong>Chỉ báo chỉ dành riêng cho Bitcoin.</strong> Không thể áp dụng cho các altcoin.</li>
+  </ul>
 
   <h2 class="ko">Hash Ribbon + 다른 지표 조합</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">Hash Ribbon + 他の指標との組み合わせ</h2>
   <h2 class="es">Hash Ribbon + Combinación con Otros Indicadores</h2>
   <h2 class="de">Hash Ribbon + Kombination mit anderen Indikatoren</h2>
+  <h2 class="fr">À Combiner de Préférence Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Kombinasyonlar</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong>MVRV Z-Score 0.5 이하:</strong> 가격이 여전히 저평가 구간인지 확인</li>
     <li><strong>공포탐욕지수 20 이하:</strong> 극단적 공포 상태</li>
@@ -275,6 +323,30 @@
     <li><strong>Angst &amp; Gier unter 20:</strong> Extreme Angst am Markt</li>
     <li><strong>Coinbase Premium wird positiv:</strong> US-institutioneller Wiedereinstieg</li>
     <li><strong>STH-SOPR unter 0,97:</strong> Kurzfristige Halter kapitulieren noch</li>
+  </ul>
+  <ul class="fr">
+    <li><strong>MVRV Z-Score inférieur à 0.5:</strong> Confirme que le prix est encore dans la zone de sous-évaluation</li>
+    <li><strong>Fear &amp; Greed inférieur à 20:</strong> Peur extrême sur le marché</li>
+    <li><strong>Le Coinbase Premium devient positif:</strong> Retour des investisseurs institutionnels américains</li>
+    <li><strong>STH-SOPR inférieur à 0.97:</strong> Les détenteurs à court terme capitulent encore</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>MVRV Z-Score abaixo de 0.5:</strong> Confirma que o preço ainda está na zona de subavaliação</li>
+    <li><strong>Fear &amp; Greed abaixo de 20:</strong> Medo extremo no mercado</li>
+    <li><strong>O Coinbase Premium torna-se positivo:</strong> Reentrada institucional dos EUA</li>
+    <li><strong>STH-SOPR abaixo de 0.97:</strong> Detentores de curto prazo ainda em capitulação</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>MVRV Z-Score 0.5'in altında:</strong> Fiyatın hâlâ değerinin altında olduğunu doğrular</li>
+    <li><strong>Korku &amp; Açgözlülük Endeksi 20'nin altında:</strong> Piyasada aşırı korku</li>
+    <li><strong>Coinbase Premium pozitife döner:</strong> ABD kurumsal yatırımcılarının yeniden girişi</li>
+    <li><strong>STH-SOPR 0.97'nin altında:</strong> Kısa vadeli yatırımcılar hâlâ kapitülasyon yaşıyor</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>MVRV Z-Score dưới 0.5:</strong> Xác nhận giá vẫn đang ở vùng định giá thấp</li>
+    <li><strong>Chỉ số Sợ hãi &amp; Tham lam dưới 20:</strong> Thị trường trong trạng thái sợ hãi cực độ</li>
+    <li><strong>Coinbase Premium chuyển sang dương:</strong> Tín hiệu dòng vốn tổ chức Mỹ quay trở lại</li>
+    <li><strong>STH-SOPR dưới 0.97:</strong> Người nắm giữ ngắn hạn vẫn đang trong giai đoạn đầu hàng</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

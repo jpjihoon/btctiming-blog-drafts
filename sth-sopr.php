@@ -255,12 +255,36 @@
     <li><strong>Auf Börsentransfers achten.</strong> Große Münzbewegungen (z.B. interne Transfers) können die Messung vorübergehend verzerren.</li>
     <li><strong>Kann auch bei Bullenmarkt-Rückgängen auftreten.</strong> Ein Rückgang unter 1 bedeutet nicht immer ein vollständiges Zyklustief — er kann auch eine Korrektur mitten im Zyklus markieren.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Bruité au jour le jour.</strong> Les variations quotidiennes peuvent être importantes — un lissage avec une moyenne mobile sur 7 jours est recommandé.</li>
+    <li><strong>Attention aux transferts d'exchanges.</strong> D'importants mouvements de pièces (ex. transferts internes) peuvent temporairement fausser la lecture.</li>
+    <li><strong>Peut aussi apparaître lors de replis en marché haussier.</strong> Une baisse sous 1 ne signifie pas toujours un plancher de cycle complet — elle peut aussi marquer une correction en milieu de cycle.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Ruidoso dia a dia.</strong> As oscilações diárias podem ser grandes — recomenda-se suavizar com uma média móvel de 7 dias.</li>
+    <li><strong>Atenção às transferências entre exchanges.</strong> Grandes movimentações de moedas (ex.: transferências internas) podem distorcer temporariamente a leitura.</li>
+    <li><strong>Também pode aparecer em correções de mercado em alta.</strong> Uma queda abaixo de 1 nem sempre significa um fundo de ciclo completo — também pode marcar uma correção intermediária do ciclo.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Günlük bazda gürültülü.</strong> Günlük dalgalanmalar büyük olabilir — 7 günlük hareketli ortalama ile yumuşatılması önerilir.</li>
+    <li><strong>Borsa transferlerine dikkat edin.</strong> Büyük coin hareketleri (örn. iç transferler) okumayı geçici olarak bozabilir.</li>
+    <li><strong>Boğa piyasası geri çekilmelerinde de görülebilir.</strong> 1'in altına bir düşüş her zaman tam bir döngü dibi anlamına gelmez — döngü ortasındaki bir düzeltmeyi de işaret edebilir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Nhiễu theo ngày.</strong> Biến động hằng ngày có thể lớn — nên làm mượt bằng đường trung bình động 7 ngày.</li>
+    <li><strong>Cẩn thận với các giao dịch chuyển sàn.</strong> Các đợt chuyển coin lớn (ví dụ: chuyển nội bộ) có thể tạm thời làm sai lệch chỉ số.</li>
+    <li><strong>Cũng có thể xuất hiện trong các đợt điều chỉnh của thị trường tăng giá.</strong> Mức giảm xuống dưới 1 không phải lúc nào cũng đồng nghĩa với đáy toàn chu kỳ — nó cũng có thể đánh dấu một đợt điều chỉnh giữa chu kỳ.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal à Combiner Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Bu Göstergelerle Birlikte Kullanılır</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자와 트레이더 항복이 동시에 끝나는지 확인</li>
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 가격 자체가 저평가 구간인지 함께 확인</li>
@@ -285,6 +309,26 @@
     <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob Miner- und Trader-Kapitulation gleichzeitig enden</li>
     <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Bestätigen, dass der Preis selbst in der Unterbewertungszone ist</li>
     <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier unter 20</a>:</strong> Übereinstimmung mit extremer marktweiter Angst bestätigen</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si la capitulation des mineurs et des traders se termine simultanément</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score sous 0</a> :</strong> Confirmer que le prix lui-même est dans la zone de sous-évaluation</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Peur et Cupidité sous 20</a> :</strong> Confirmer l'alignement avec une peur extrême généralisée du marché</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação de mineradores e traders termina ao mesmo tempo</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score abaixo de 0</a>:</strong> Confirmar se o próprio preço está na zona de subvalorização</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância abaixo de 20</a>:</strong> Confirmar alinhamento com o medo extremo generalizado do mercado</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci ve yatırımcı kapitülasyonunun birlikte sona erip ermediğini kontrol edin</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score'un 0'ın altında olması</a>:</strong> Fiyatın kendisinin değer kaybı bölgesinde olup olmadığını doğrulayın</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Korku &amp; Açgözlülük Endeksi'nin 20'nin altında olması</a>:</strong> Genel piyasa çapındaki aşırı korkuyla uyumu doğrulayın</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/hash-ribbon-indicator.html">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem sự đầu hàng của thợ đào và nhà giao dịch có kết thúc cùng lúc hay không</li>
+    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score dưới 0</a>:</strong> Xác nhận bản thân giá đang ở vùng định giá thấp</li>
+    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam dưới 20</a>:</strong> Xác nhận sự phù hợp với tâm lý sợ hãi cực độ trên toàn thị trường</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
