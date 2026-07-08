@@ -233,6 +233,22 @@ require __DIR__ . '/_guide_head.php';
   </div>
 </div>
 
+<script>
+// 이 페이지의 본문(카드/설명)은 서버(PHP)가 선택 언어 하나만 렌더한다.
+// 그래서 헤더/푸터처럼 CSS로 즉시 전환할 수 없고, 언어를 바꾸면 새 URL로 이동해 다시 렌더해야 한다.
+// _guide_foot.php의 언어 선택이 window.onGuideLang(lang)을 호출해주므로 여기서 후킹한다.
+(function(){
+  var RENDERED = <?= json_encode($__gLang) ?>; // 지금 화면에 렌더된 언어
+  window.onGuideLang = function(lang){
+    if (!lang || lang === RENDERED) return;      // 같은 언어면 아무것도 안 함(초기 적용 시 무한 이동 방지)
+    var url = new URL(location.href);
+    if (lang === 'ko') url.searchParams.delete('lang');
+    else url.searchParams.set('lang', lang);
+    location.href = url.toString();               // 새 언어로 페이지 재요청 → PHP가 본문까지 새 언어로 렌더
+  };
+})();
+</script>
+
 <?php if ($isDetail && $hasLive): ?>
 <script>
 (function(){
