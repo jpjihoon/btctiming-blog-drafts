@@ -180,7 +180,7 @@ foreach ($__langKeys as $__l) {
     </button>
     <div class="lang-menu" id="langMenu">
       <?php foreach (SUPPORTED_LANGS as $__lc => $__meta): ?>
-      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick=\"setLang('<?= h($__lc) ?>', true)\"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
+      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>', true)"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
       <?php endforeach; ?>
     </div>
   </div>
