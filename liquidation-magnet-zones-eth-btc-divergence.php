@@ -5,6 +5,10 @@
   <p class="ja">ビットコインは6月30日の安値5万7,950ドルから反発し、7月5日現在6万2,900ドル前後で取引されている。日々の値幅は落ち着いて見えるが、コイングラスの清算ヒートマップを見ると、この価格帯は偶然の休憩地点ではない。上方には6万7,645ドル付近に約2億4,700万ドル規模のショート清算レバレッジが、下方には5万〜5万7,000ドルの区間に最も厚いロング清算の山が積み上がっている。それでも資金は方向転換に確信を示していない — イーサリアムは対ビットコインで14カ月連続、数年ぶりの安値圏に留まっている。</p>
   <p class="es">Bitcoin rebotó desde su mínimo del 30 de junio de 57.950 $ y cotiza cerca de 62.900 $ a fecha del 5 de julio. El rango diario parece tranquilo, pero el mapa de calor de liquidaciones de CoinGlass indica que esta banda de precios no es un punto de descanso casual. Por encima hay unos 247 millones de dólares en apalancamiento de liquidación corta agrupados cerca de 67.645 $; por debajo, el estante más grueso de liquidaciones largas se sitúa en la zona de 50.000–57.000 $. Sin embargo, el capital no confirma un giro direccional — Ethereum lleva ya 14 meses consecutivos cerca de mínimos plurianuales frente a Bitcoin.</p>
   <p class="de">Bitcoin erholte sich von seinem Tief vom 30. Juni bei 57.950 $ und notiert am 5. Juli bei rund 62.900 $. Die Tagesspanne wirkt ruhig, doch die Liquidations-Heatmap von CoinGlass zeigt: Diese Preiszone ist kein zufälliger Ruhepunkt. Oberhalb liegt bei rund 67.645 $ ein Short-Liquidationscluster von etwa 247 Millionen Dollar; unterhalb liegt das dickste Long-Liquidationspolster in der Zone 50.000–57.000 $. Doch das Kapital bestätigt keine Richtungswende — Ethereum verharrt nun seit 14 Monaten in Folge nahe mehrjähriger Tiefs gegenüber Bitcoin.</p>
+  <p class="fr">Le bitcoin a rebondi depuis son plus bas du 30 juin à 57 950 $ et se négocie autour de 62 900 $ au 5 juillet. L'amplitude quotidienne paraît calme, mais la carte de chaleur des liquidations de CoinGlass indique que cette zone de prix n'est pas un point de repos accidentel. Au-dessus se trouvent environ 247 millions de dollars de levier de liquidation courte concentrés près de 67 645 $ ; en dessous, la couche la plus épaisse de liquidations longues se situe dans la zone 50 000–57 000 $. Pourtant, les capitaux ne confirment pas de retournement directionnel — l'Ethereum passe désormais un 14e mois consécutif proche de ses plus bas pluriannuels face au Bitcoin.</p>
+  <p class="pt">O Bitcoin recuperou de sua mínima de 30 de junho, em 57.950 $, e é negociado perto de 62.900 $ em 5 de julho. A amplitude diária parece calma, mas o mapa de calor de liquidações da CoinGlass indica que essa faixa de preço não é um ponto de repouso acidental. Acima, cerca de 247 milhões de dólares em alavancagem de liquidação curta estão concentrados perto de 67.645 $; abaixo, a camada mais espessa de liquidações longas está na faixa de 50.000–57.000 $. No entanto, o capital não confirma uma reversão direcional — o Ethereum já passou 14 meses consecutivos perto de mínimas plurianuais frente ao Bitcoin.</p>
+  <p class="tr">Bitcoin, 30 Haziran'daki 57.950 $ dip seviyesinden sıçradı ve 5 Temmuz itibarıyla 62.900 $ civarında işlem görüyor. Günlük hareket aralığı sakin görünse de, CoinGlass'ın tasfiye ısı haritası bu fiyat bandının tesadüfi bir dinlenme noktası olmadığını gösteriyor. Üstte, 67.645 $ civarında yaklaşık 247 milyon dolarlık kısa pozisyon tasfiye kaldıracı yoğunlaşmış durumda; altta ise en kalın uzun pozisyon tasfiye tabakası 50.000–57.000 $ bölgesinde bulunuyor. Ancak sermaye yönsel bir dönüşü henüz doğrulamıyor — Ethereum, Bitcoin karşısında art arda 14. ayını çok yıllı dip seviyelere yakın geçiriyor.</p>
+  <p class="vi">Bitcoin đã bật lên từ đáy 57.950 đô la ngày 30/6 và hiện giao dịch quanh mức 62.900 đô la tính đến ngày 5/7. Biên độ dao động hàng ngày trông có vẻ bình lặng, nhưng bản đồ nhiệt thanh lý của CoinGlass cho thấy vùng giá này không phải là điểm nghỉ ngẫu nhiên. Phía trên, khoảng 247 triệu đô la đòn bẩy thanh lý lệnh short tập trung gần mức 67.645 đô la; phía dưới, lớp thanh lý lệnh long dày nhất nằm trong vùng 50.000–57.000 đô la. Tuy nhiên, dòng vốn vẫn chưa xác nhận một sự đảo chiều rõ ràng — Ethereum hiện đã trải qua 14 tháng liên tiếp neo gần vùng đáy nhiều năm so với Bitcoin.</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 숏 청산 자석 $67,645(약 2.47억 달러), 롱 청산 선반 $50,000~$57,000. ETH/BTC 비율 0.0276(14개월 연속 0.05 하회), BTC 도미넌스 약 55.5%. 파생상품 레버리지 지형과 자금 로테이션이 서로 다른 이야기를 한다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> Short liquidation magnet at $67,645 (~$247M), long liquidation shelf at $50,000–$57,000. ETH/BTC ratio at 0.0276 (below 0.05 for 14 straight months), BTC dominance near 55.5%. The leverage geography and capital rotation are telling two different stories.</div>
@@ -12,12 +16,20 @@
 
   <div class="box es">💡 <strong>Resumen clave:</strong> Imán de liquidación corta en 67.645 $ (~247 M$), estante de liquidación larga en 50.000–57.000 $. Ratio ETH/BTC en 0,0276 (por debajo de 0,05 durante 14 meses seguidos), dominancia de BTC cerca del 55,5%. La geografía del apalancamiento y la rotación de capital cuentan historias distintas.</div>
   <div class="box de">💡 <strong>Kernaussage:</strong> Short-Liquidations-Magnet bei 67.645 $ (~247 Mio. $), Long-Liquidations-Polster bei 50.000–57.000 $. ETH/BTC-Verhältnis bei 0,0276 (seit 14 Monaten in Folge unter 0,05), BTC-Dominanz bei rund 55,5%. Die Hebel-Geografie und die Kapitalrotation erzählen zwei verschiedene Geschichten.</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> Aimant de liquidation courte à 67 645 $ (~247 M$), plateau de liquidation longue à 50 000–57 000 $. Ratio ETH/BTC à 0,0276 (sous 0,05 depuis 14 mois consécutifs), dominance du BTC proche de 55,5 %. La géographie du levier et la rotation des capitaux racontent deux histoires différentes.</div>
+  <div class="box pt">💡 <strong>Resumo essencial:</strong> Ímã de liquidação curta em 67.645 $ (~247 M$), prateleira de liquidação longa em 50.000–57.000 $. Razão ETH/BTC em 0,0276 (abaixo de 0,05 por 14 meses consecutivos), dominância do BTC perto de 55,5%. A geografia da alavancagem e a rotação de capital contam duas histórias diferentes.</div>
+  <div class="box tr">💡 <strong>Öne çıkanlar:</strong> 67.645 $'da kısa pozisyon tasfiye mıknatısı (~247M$), 50.000–57.000 $ aralığında uzun pozisyon tasfiye tabakası. ETH/BTC oranı 0,0276'da (14 ay üst üste 0,05'in altında), BTC dominansı yaklaşık %55,5. Kaldıraç coğrafyası ve sermaye rotasyonu birbirinden farklı iki hikâye anlatıyor.</div>
+  <div class="box vi">💡 <strong>Điểm chính:</strong> Nam châm thanh lý short tại 67.645 đô la (~247 triệu đô la), lớp thanh lý long tại 50.000–57.000 đô la. Tỷ lệ ETH/BTC ở mức 0,0276 (dưới 0,05 suốt 14 tháng liên tiếp), mức thống trị của BTC gần 55,5%. Bản đồ đòn bẩy và dòng vốn luân chuyển đang kể hai câu chuyện khác nhau.</div>
 
   <h2 class="ko">청산 히트맵 스냅샷</h2>
   <h2 class="en">Liquidation Heatmap Snapshot</h2>
   <h2 class="ja">清算ヒートマップ・スナップショット</h2>
   <h2 class="es">Instantánea del Mapa de Calor de Liquidaciones</h2>
   <h2 class="de">Momentaufnahme der Liquidations-Heatmap</h2>
+  <h2 class="fr">Instantané de la carte de chaleur des liquidations</h2>
+  <h2 class="pt">Retrato do mapa de calor de liquidações</h2>
+  <h2 class="tr">Tasfiye Isı Haritası Görünümü</h2>
+  <h2 class="vi">Ảnh chụp nhanh bản đồ nhiệt thanh lý</h2>
 
   <div class="ko">
   <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -34,7 +46,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Liquidation Magnet Geography · 2026-07-05</text>
     <g font-family="sans-serif">
