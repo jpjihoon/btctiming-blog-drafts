@@ -34,9 +34,16 @@ $articles = collectArticles(__DIR__);
 // 실제 존재하는 카테고리만 탭으로 노출 (CATEGORY_META 순서를 따름)
 $presentCats = array_unique(array_column($articles, 'category'));
 $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentCats, true));
+
+// 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
+// localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
+$__blLang = 'ko';
+if (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+    $__blLang = $_GET['lang'];
+}
 ?>
 <!DOCTYPE html>
-<html lang="ko" id="html-root">
+<html lang="<?= h($__blLang) ?>"<?= $__blLang !== 'ko' ? ' class="'.h($__blLang).'"' : '' ?> id="html-root">
 <head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
@@ -171,11 +178,11 @@ foreach ($__langKeys as $__l) {
   <span class="back vi-show" style="display:none">← <a href="/?lang=vi" style="color:#71717a">Quay lại phân tích trực tiếp</a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
-      <span id="langTriggerLabel">KO</span><span class="lang-caret">▾</span>
+      <span id="langTriggerLabel"><?= h(strtoupper($__blLang)) ?></span><span class="lang-caret">▾</span>
     </button>
     <div class="lang-menu" id="langMenu">
       <?php foreach (SUPPORTED_LANGS as $__lc => $__meta): ?>
-      <button type="button" class="lang-menu-item<?= $__lc==='ko' ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>')"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
+      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>')"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
       <?php endforeach; ?>
     </div>
   </div>
