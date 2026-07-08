@@ -206,11 +206,19 @@
     <div class="rt ja">円キャリートレード解消による急落時、STH-SOPRは0.92まで下落した後、速やかに回復。</div>
     <div class="rt es">STH-SOPR cayó a 0.92 durante la venta masiva por el desmantelamiento del carry trade del yen, luego se recuperó rápidamente.</div>
     <div class="rt de">STH-SOPR fiel während des Ausverkaufs durch die Auflösung des Yen-Carry-Trades auf 0,92 und erholte sich dann schnell.</div>
+    <div class="rt fr">Le STH-SOPR est tombé à 0,92 lors de la vente massive due au dénouement du carry trade du yen, puis s'est redressé rapidement.</div>
+    <div class="rt pt">O STH-SOPR caiu para 0,92 durante a venda maciça provocada pelo desmonte do carry trade do iene, depois se recuperou rapidamente.</div>
+    <div class="rt tr">STH-SOPR, yen carry-trade pozisyonlarının çözülmesiyle yaşanan satış dalgasında 0,92'ye geriledi, ardından hızla toparlandı.</div>
+    <div class="rt vi">STH-SOPR giảm xuống 0,92 trong đợt bán tháo do việc thoái lui carry trade đồng yên, sau đó phục hồi nhanh chóng.</div>
     <div class="rr ko">→ 단기 저점 확인 후 반등</div>
     <div class="rr en">→ Confirmed a short-term bottom before rebounding</div>
     <div class="rr ja">→ 短期的な底値確認後、反発</div>
     <div class="rr es">→ Confirmó un suelo a corto plazo antes del rebote</div>
     <div class="rr de">→ Bestätigte ein kurzfristiges Tief vor der Erholung</div>
+    <div class="rr fr">→ A confirmé un plancher à court terme avant le rebond</div>
+    <div class="rr pt">→ Confirmou um fundo de curto prazo antes da recuperação</div>
+    <div class="rr tr">→ Toparlanmadan önce kısa vadeli bir dip oluşumunu doğruladı</div>
+    <div class="rr vi">→ Xác nhận đáy ngắn hạn trước khi bật tăng trở lại</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>
@@ -218,6 +226,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en Garde Importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>노이즈가 많음.</strong> 일간 변동이 크기 때문에 7일 이동평균 등으로 스무딩해서 보는 것이 좋습니다.</li>
     <li><strong>거래소 이체와 구분 필요.</strong> 대규모 코인 이동(내부 이체 등)이 일시적으로 수치를 왜곡할 수 있습니다.</li>

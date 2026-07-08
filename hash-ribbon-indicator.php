@@ -152,11 +152,19 @@
     <div class="rt ja">$350〜$400の水準でHash Ribbonの買いシグナルが発生。</div>
     <div class="rt es">Señal de compra de Hash Ribbon en $350–$400.</div>
     <div class="rt de">Hash-Ribbon-Kaufsignal bei $350–$400.</div>
+    <div class="rt fr">Signal d'achat Hash Ribbon entre $350 et $400.</div>
+    <div class="rt pt">Sinal de compra do Hash Ribbon entre $350 e $400.</div>
+    <div class="rt tr">$350–$400 aralığında Hash Ribbon alım sinyali.</div>
+    <div class="rt vi">Tín hiệu mua Hash Ribbon ở mức $350–$400.</div>
     <div class="rr ko">→ 이후 2017년 $20,000까지 약 50배 상승</div>
     <div class="rr en">→ Bitcoin rose ~50x to $20,000 by 2017</div>
     <div class="rr ja">→ その後2017年に$20,000まで約50倍上昇</div>
     <div class="rr es">→ Bitcoin subió ~50x hasta $20,000 en 2017</div>
     <div class="rr de">→ Bitcoin stieg bis 2017 um das ~50-fache auf $20.000</div>
+    <div class="rr fr">→ Bitcoin a grimpé d'environ 50x jusqu'à $20,000 en 2017</div>
+    <div class="rr pt">→ Bitcoin subiu ~50x até $20,000 em 2017</div>
+    <div class="rr tr">→ Bitcoin 2017'ye kadar ~50 kat yükselerek $20,000 seviyesine ulaştı</div>
+    <div class="rr vi">→ Bitcoin tăng khoảng 50 lần lên $20,000 vào năm 2017</div>
   </div>
   <div class="rc">
     <div class="rd">2019.02</div>
@@ -165,6 +173,10 @@
     <div class="rt ja">$3,500の水準でHash Ribbonの買いシグナルが発生。</div>
     <div class="rt es">Señal de compra de Hash Ribbon en $3,500.</div>
     <div class="rt de">Hash-Ribbon-Kaufsignal bei $3.500.</div>
+    <div class="rt fr">Signal d'achat Hash Ribbon à $3,500.</div>
+    <div class="rt pt">Sinal de compra do Hash Ribbon em $3,500.</div>
+    <div class="rt tr">$3,500 seviyesinde Hash Ribbon alım sinyali.</div>
+    <div class="rt vi">Tín hiệu mua Hash Ribbon ở mức $3,500.</div>
     <div class="rr ko">→ 이후 2021년 $69,000까지 약 20배 상승</div>
     <div class="rr en">→ Bitcoin rose ~20x to $69,000 by 2021</div>
     <div class="rr ja">→ その後2021年に$69,000まで約20倍上昇</div>

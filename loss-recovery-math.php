@@ -15,6 +15,10 @@
   <p class="vi">Một câu đố nhanh. 1.000 đô la giảm -50% xuống còn 500 đô la. Cần tăng bao nhiêu phần trăm để quay lại 1.000 đô la? Câu trả lời trực giác thường là "+50%" — nhưng câu trả lời thực tế là <strong>+100%</strong>. 100% của 500 đô la chính xác là 500 đô la, nên để quay về 1.000 đô la ban đầu, cần tăng gấp đôi chính xác.</p>
   <p class="es">Todo el mundo sabe esto intelectualmente. Sin embargo, al ver a la gente asumir "esto rebotará rápido" durante un drawdown de -30% o -40%, la asimetría claramente no se registra intuitivamente. Así que grafiqué la curva.</p>
   <p class="de">Jeder weiß das intellektuell. Doch beobachtet man, wie Menschen bei einem Drawdown von -30% oder -40% annehmen "das erholt sich schnell wieder", registriert sich die Asymmetrie eindeutig nicht intuitiv. Also habe ich die Kurve gezeichnet.</p>
+  <p class="fr">Tout le monde le sait intellectuellement. Pourtant, en observant les gens supposer « ça va vite remonter » pendant un repli de -30 % ou -40 %, on voit bien que cette asymétrie ne s'impose pas intuitivement. J'ai donc tracé la courbe.</p>
+  <p class="pt">Todo mundo sabe disso racionalmente. No entanto, ao ver as pessoas presumirem que "isso vai se recuperar rápido" durante uma queda de -30% ou -40%, fica claro que essa assimetria não é percebida intuitivamente. Por isso, tracei a curva.</p>
+  <p class="tr">Herkes bunu aklen bilir. Ama insanların %-30 ya da %-40'lık bir düşüş sırasında "bu çok geçmeden toparlanır" diye düşündüğünü görünce, bu asimetrinin sezgisel olarak hiç de kavranmadığı ortaya çıkıyor. Bu yüzden eğriyi çizdim.</p>
+  <p class="vi">Ai cũng biết điều này về mặt lý thuyết. Nhưng khi thấy mọi người cho rằng "chắc sẽ hồi phục nhanh thôi" trong một đợt giảm -30% hay -40%, rõ ràng sự bất đối xứng này không được cảm nhận một cách trực giác. Vì vậy tôi đã vẽ đường cong này ra.</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -46,7 +50,7 @@
     <text x="600" y="30" fill="#ef4444" font-size="10" text-anchor="middle">+270%</text>
   </svg>
   </div>
-  <div class="en">
+  <div class="en fr pt tr vi">
   <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Drawdown vs Gain Needed to Break Even</text>
     <line x1="60" y1="280" x2="670" y2="280" stroke="#3f3f46" stroke-width="1"/>
