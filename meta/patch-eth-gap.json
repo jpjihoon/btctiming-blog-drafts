@@ -38,6 +38,7 @@
     "desc_tr": "Ethereum'un long puanı, değeri düşük olsa bile her zaman Bitcoin'inkinin altında çıktı. Yapısal farkı analiz ediyoruz — Bitcoin değer altı olmayı 6 on-chain göstergeyle, altcoin'ler 2 göstergeyle sayıyor — ve bu farkı neden azaltıp dürüstçe koruduğumuzu açıklıyoruz.",
     "desc_vi": "Điểm long của Ethereum luôn thấp hơn điểm của Bitcoin, ngay cả khi bị định giá thấp. Chúng tôi phân tích khoảng cách mang tính cấu trúc — Bitcoin tính định giá thấp bằng 6 chỉ báo on-chain, altcoin bằng 2 — và giải thích vì sao chúng tôi thu hẹp nhưng vẫn giữ khoảng cách đó một cách trung thực.",
     "read_ko": "6", "read_en": "6", "read_ja": "6", "read_es": "6", "read_de": "6",
+    "read_fr": "6", "read_pt": "6", "read_tr": "6", "read_vi": "6",
     "date": "2026-04-18 10:15",
     "icon": "🩹",
     "color": "#f97316",
