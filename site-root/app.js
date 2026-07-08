@@ -2453,7 +2453,7 @@ function flashAlert(msg, color='#fbbf24') {
     activeToastCount = Math.max(0, activeToastCount - 1);
   };
   toast.addEventListener('click', removeToast);
-  toastTimer = setTimeout(removeToast, 5000);
+  toastTimer = setTimeout(removeToast, 1000);
 
   // 브라우저 알림
   if(notifGranted) {
