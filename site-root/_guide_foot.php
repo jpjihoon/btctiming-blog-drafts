@@ -26,6 +26,7 @@ var GUIDE_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE',fr:'FR',pt:'PT',tr:'TR',vi:'VI'};
 function currentLang(){
   try{const p=new URLSearchParams(location.search).get('lang');if(GUIDE_LANGS.includes(p))return p;}catch(e){}
+  try{const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);const c=m?decodeURIComponent(m[1]):null;if(GUIDE_LANGS.includes(c))return c;}catch(e){}
   try{const s=localStorage.getItem('blogLang');if(GUIDE_LANGS.includes(s))return s;}catch(e){}
   return 'ko';
 }

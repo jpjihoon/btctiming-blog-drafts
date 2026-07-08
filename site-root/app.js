@@ -2269,18 +2269,23 @@ async function loadAll() {
 
 
 let currentLang = (function() {
-  // 언어 우선순위: URL ?lang= (사이트맵·구글 검색결과·공유링크로 특정 언어 진입) > localStorage(마지막 선택) > 브라우저 언어 > ko.
-  // URL에 lang이 명시돼 있으면 그 의도를 최우선으로 존중한다. (사용자가 페이지 안에서 언어를 바꾸면
-  //  setLang이 URL의 ?lang=도 함께 갱신하므로, 이후 저장값 기반 동작과 충돌하지 않는다.)
+  // 언어 우선순위: URL ?lang= > 쿠키(서버가 렌더에 쓰는 값) > localStorage > 브라우저 언어 > ko.
+  // ★ 쿠키를 localStorage보다 먼저 본다: 서버(index.php)가 URL 없을 때 쿠키로 언어를 정하므로,
+  //   app.js도 쿠키를 우선해야 화면(서버 렌더)과 JS 동작 언어가 어긋나지 않는다.
   try {
     const p = new URLSearchParams(location.search).get('lang');
     if (SUPPORTED_LANG_CODES.includes(p)) return p;
   } catch(e) {}
   try {
+    const m = document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);
+    const c = m ? decodeURIComponent(m[1]) : null;
+    if (SUPPORTED_LANG_CODES.includes(c)) return c;
+  } catch(e) {}
+  try {
     const saved = localStorage.getItem('blogLang');
     if (SUPPORTED_LANG_CODES.includes(saved)) return saved;
   } catch(e) {}
-  // 첫 방문(저장값·URL 모두 없음)이면 브라우저 언어를 감지해 시작. 지원 언어가 아니면 ko.
+  // 첫 방문(URL·쿠키·저장값 모두 없음)이면 브라우저 언어를 감지해 시작. 지원 언어가 아니면 ko.
   try {
     const nav = (navigator.languages && navigator.languages[0]) || navigator.language || '';
     const code = nav.toLowerCase().split('-')[0]; // 'en-US' → 'en'
@@ -2288,6 +2293,12 @@ let currentLang = (function() {
   } catch(e) {}
   return 'ko';
 })();
+
+// 페이지 진입 시 현재 언어를 쿠키에도 반영한다.
+// (localStorage나 URL로 언어가 정해졌어도 쿠키가 없거나 다르면, 블로그·용어집 등
+//  다른 영역으로 이동할 때 서버가 옛 언어로 렌더해 언어가 어긋나는 문제가 생김.
+//  진입 시 현재 언어를 쿠키에 써두면 어느 영역으로 가든 마지막 언어가 일관되게 유지됨.)
+try { document.cookie = 'blogLang=' + encodeURIComponent(currentLang) + '; path=/; max-age=31536000; SameSite=Lax'; } catch(e) {}
 
 /** 코드 곳곳에 흩어진 'ko ? A : B' 삼항연산자들을 여러 언어로 확장하기 위한 헬퍼.
  *  기존 사용법(하위호환, ko/en/ja 3개 고정): TT({ko:'한국어',en:'English',ja:'日本語',es:'Español',de:'Deutsch',fr:'Français',pt:'Português',tr:'Türkçe',vi:'Tiếng Việt'})
