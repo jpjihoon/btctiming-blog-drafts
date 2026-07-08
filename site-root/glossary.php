@@ -238,28 +238,43 @@ require __DIR__ . '/_guide_head.php';
 // 그래서 헤더/푸터처럼 CSS로 즉시 전환할 수 없고, 언어를 바꾸면 새 URL로 이동해 다시 렌더해야 한다.
 (function(){
   var RENDERED = <?= json_encode($__gLang) ?>;      // 지금 화면에 렌더된(=URL이 요청한) 언어
-  // URL의 lang이 이 페이지의 진실. 초기 로드 때 _guide_foot의 applyLang(currentLang())이
-  // localStorage 값으로 onGuideLang을 호출할 수 있으므로, RENDERED와 다를 때만 이동한다.
+  var SCROLL_KEY = 'glossaryScroll';                // 언어 전환 리로드 시 스크롤 위치 임시 저장 키
   var navigating = false;
+
+  // 언어 전환으로 리로드된 직후에만 저장해둔 스크롤 위치를 복원한다(최상단으로 튀는 것 방지).
+  // ※ scrollRestoration은 건드리지 않는다 — 뒤로가기 시 브라우저의 기본 스크롤 복원을 살려둬야 하기 때문.
+  var pendingScroll = null;
+  try {
+    var saved = sessionStorage.getItem(SCROLL_KEY);
+    if (saved !== null) {
+      sessionStorage.removeItem(SCROLL_KEY);
+      pendingScroll = parseInt(saved, 10) || 0;
+      window.scrollTo(0, pendingScroll);             // 즉시 1차 복원
+    }
+  } catch(_){}
+  // 이미지/SVG로 레이아웃이 늦게 커질 수 있어 로드 완료 후 한 번 더 복원
+  if (pendingScroll !== null) {
+    window.addEventListener('load', function(){ window.scrollTo(0, pendingScroll); });
+  }
+
   window.onGuideLang = function(lang){
     if (navigating) return;
-    if (!lang || lang === RENDERED) return;          // 이미 이 언어면 이동 안 함(무한/오작동 방지)
+    if (!lang || lang === RENDERED) return;          // 이미 이 언어면 이동 안 함(초기 적용 시 오작동 방지)
     navigating = true;
+    // 현재 스크롤 위치를 저장 → 리로드 후 위에서 복원
+    try { sessionStorage.setItem(SCROLL_KEY, String(window.pageYOffset || 0)); } catch(_){}
     var url = new URL(location.href);
     if (lang === 'ko') url.searchParams.delete('lang');
     else url.searchParams.set('lang', lang);
-    // location.href(=히스토리 push) 대신 replace: 언어 전환이 뒤로가기 스택에 쌓이지 않아
-    // 뒤로가기/앞으로가기 시 언어가 계속 튀는 문제를 없앤다.
+    // location.href(히스토리 push) 대신 replace: 언어 전환이 뒤로가기 스택에 쌓이지 않는다.
     location.replace(url.toString());
   };
-  // 뒤로가기/앞으로가기로 bfcache 복원될 때: 화면은 RENDERED 언어 그대로다.
-  // localStorage가 그새 다른 값이 돼 있어도 이 페이지를 다시 이동시키지 않도록,
-  // 복원 시 localStorage를 현재 URL 언어(RENDERED)로 맞춰 재이동 트리거를 끊는다.
+
+  // 뒤로가기/앞으로가기로 bfcache 복원 시: navigating 플래그만 리셋한다.
+  // (이전 버전은 여기서 localStorage를 RENDERED로 덮어써서, 다른 페이지에서 바꾼 언어를
+  //  되돌려버리는 버그가 있었다. localStorage는 건드리지 않는다 — URL이 곧 이 페이지의 언어다.)
   window.addEventListener('pageshow', function(e){
-    if (e.persisted) {
-      try { localStorage.setItem('blogLang', RENDERED); } catch(_){}
-      navigating = false;
-    }
+    if (e.persisted) navigating = false;
   });
 })();
 </script>
