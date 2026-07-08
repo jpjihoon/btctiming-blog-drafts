@@ -33,13 +33,14 @@ $sameTop  = array_slice($sameCategory, 0, 4, true);   // 같은 카테고리 · 
 $otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 · 관련도순
 $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
 
-// ── 이전 글 / 다음 글: 전체 글을 날짜순(오름차순)으로 세워 현재 글의 앞뒤를 찾음 ──
+// ── 이전 글 / 다음 글: 블로그 목록과 동일하게 날짜 내림차순(최신이 위)으로 세워,
+//    목록에서 "위 = 이전 글", "아래(다음 순서) = 다음 글"이 되도록 맞춤 ──
 $ordered = $ARTICLES;
-uasort($ordered, fn($a, $b) => strcmp($a['date'] ?? '', $b['date'] ?? ''));
+uasort($ordered, fn($a, $b) => strcmp($b['date'] ?? '', $a['date'] ?? '')); // 최신 우선(목록과 동일)
 $orderedSlugs = array_keys($ordered);
 $curPos = array_search($slug, $orderedSlugs, true);
-$prevSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 더 과거 글
-$nextSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 더 최신 글
+$prevSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 목록에서 위(더 최신)
+$nextSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 목록에서 아래(더 과거)
 
 // 추천 카드 하나를 그리는 헬퍼
 $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
