@@ -13,6 +13,12 @@ AddType text/plain .txt
 # (구 버전은 privacy.html로 301 리다이렉트했으나, .php 전환으로 rewrite 처리)
 RewriteEngine On
 
+# www 접속을 www 없는 주소로 301 리다이렉트 (SEO 중복 방지).
+# canonical·사이트맵이 모두 www 없는 https://btctiming.com 기준이므로 통일한다.
+# %1 = www를 둔 나머지 도메인. non-www엔 www가 없어 무한루프 없음.
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
 RewriteRule ^privacy/?$ /privacy.php [L]
 RewriteRule ^terms/?$ /terms.php [L]
 
