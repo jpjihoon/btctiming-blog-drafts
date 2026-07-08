@@ -63,19 +63,24 @@ foreach (SUPPORTED_LANGS as $lc => $li) {
     $entries[] = urlEntry($homeHreflangs[$lc], $homeLastmod, 'daily', $priority, $homeHreflangs);
 }
 
-// ── 2) 블로그 목록 ──
-// index.html(구버전) 또는 index.php(신버전, 자동 목록) 둘 중 있는 걸 사용
+// ── 2) 블로그 목록 (카테고리 필터 없는 전체 목록) ──
+// index.html(구버전) 또는 index.php(신버전, 자동 목록) 둘 중 있는 걸 사용.
+// 홈·카테고리와 동일하게 9개 언어 URL + 상호 hreflang(+x-default)으로 등록한다.
+// (예전엔 /blog/ 하나만 lang·hreflang 없이 넣어, 목록의 "전체" 버전만 언어 처리가 빠져 있었음)
 $blogDir = $root . '/blog';
 $blogIndexFile = file_exists($blogDir . '/index.php')
     ? $blogDir . '/index.php'
     : $blogDir . '/index.html';
 if (file_exists($blogIndexFile)) {
-    $entries[] = urlEntry(
-        $baseUrl . '/blog/',
-        date('Y-m-d', filemtime($blogIndexFile)),
-        'weekly',
-        '0.8'
-    );
+    $blogLastmod = date('Y-m-d', filemtime($blogIndexFile));
+    $blogHreflangs = ['x-default' => $baseUrl . '/blog/'];
+    foreach (SUPPORTED_LANGS as $lc => $li) {
+        $blogHreflangs[$lc] = $baseUrl . '/blog/' . $smSuffix($lc);
+    }
+    foreach (SUPPORTED_LANGS as $lc => $li) {
+        $priority = $lc === 'ko' ? '0.8' : '0.7';
+        $entries[] = urlEntry($blogHreflangs[$lc], $blogLastmod, 'weekly', $priority, $blogHreflangs);
+    }
 }
 
 // ── 2-1) 카테고리별 목록 페이지 ──
