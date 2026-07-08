@@ -270,25 +270,38 @@ require __DIR__ . '/_guide_head.php';
     location.replace(url.toString());
   };
 
-  // 마지막으로 고른 언어(localStorage)를 사이트 전체에서 존중한다.
-  // 예: 용어사전 뷰에서 KO로 바꾸면 → 뒤로가기로 온 목록도 KO로 나와야 한다.
-  // bfcache로 복원된 목록/뷰는 URL 기준(예전 언어)으로 그려져 있으므로,
-  // 저장된 언어와 다르면 그 언어로 다시 로드해 화면을 맞춘다.
+  // 마지막으로 고른 언어(localStorage)를 항상 존중한다 = 사용자가 마지막에 선택한 언어 유지.
+  // 화면(RENDERED)이 마지막 선택 언어와 다르면, 그 언어로 다시 로드해 맞춘다.
+  // 이걸 "페이지 로드 즉시"에도 하고 "뒤로가기 복원 시(pageshow)"에도 해야 한다.
+  //   - 뒤로가기가 bfcache 히트면 pageshow(persisted)로 잡히고,
+  //   - bfcache 미스(새 로드)면 아래 즉시 실행 분기로 잡힌다.
+  // 둘 다 처리해야 "뒤로가기 하면 이전 언어로 돌아가는" 문제가 사라진다.
   function syncToStoredLang(){
+    if (navigating) return;
+    // URL에 ?lang이 명시돼 있으면 그건 존중한다(공유 링크·명시적 접근).
+    // 그 경우 서버가 이미 그 언어로 RENDERED 했으므로 건드리지 않는다.
+    var urlHasLang = false;
+    try { urlHasLang = new URLSearchParams(location.search).has('lang'); } catch(_){}
+    // RENDERED가 ko인데 URL에 lang이 있으면(=?lang=ko 같은 경우)도 명시로 간주.
+    if (urlHasLang) return;
+    // 여기까지 왔으면 URL에 lang이 없는 "기본 화면"(서버는 ko로 렌더).
+    // 마지막에 고른 언어가 ko가 아니면 그 언어로 맞춰 사용자의 선택을 유지한다.
     var stored = 'ko';
     try { var s = localStorage.getItem('blogLang'); if (s) stored = s; } catch(_){}
     if (stored !== RENDERED) {
       navigating = true;
       var url = new URL(location.href);
-      if (stored === 'ko') url.searchParams.delete('lang');
-      else url.searchParams.set('lang', stored);
+      url.searchParams.set('lang', stored);          // stored는 여기서 ko가 아님
       location.replace(url.toString());
     }
   }
+  // ① 페이지 로드 즉시(새 로드·뒤로가기 bfcache 미스 모두 커버)
+  syncToStoredLang();
+  // ② 뒤로가기/앞으로가기로 bfcache 복원될 때
   window.addEventListener('pageshow', function(e){
-    if (e.persisted) {                               // 뒤로가기/앞으로가기(bfcache) 복원
+    if (e.persisted) {
       navigating = false;
-      syncToStoredLang();                            // 저장 언어와 다르면 맞춰 이동
+      syncToStoredLang();
     }
   });
 })();
