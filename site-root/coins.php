@@ -52,7 +52,7 @@ $T = [
 ];
 $t = $T[$lang] ?? $T['en'];
 $LNG = ['ko'=>'🇰🇷 한국어','en'=>'🇺🇸 English','ja'=>'🇯🇵 日本語','es'=>'🇪🇸 Español','de'=>'🇩🇪 Deutsch'];
-$canonical = 'https://www.btctiming.com/coins.php' . $urlSuffix;
+$canonical = 'https://btctiming.com/coins.php' . $urlSuffix;
 ?>
 <!DOCTYPE html>
 <html lang="<?= $htmlLang ?>">

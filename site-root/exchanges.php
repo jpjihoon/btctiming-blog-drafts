@@ -199,7 +199,7 @@ $T = [
   ],
 ];
 $t = $T[$lang] ?? $T['en'];
-$canonical = 'https://www.btctiming.com/exchanges.php' . $urlSuffix;
+$canonical = 'https://btctiming.com/exchanges.php' . $urlSuffix;
 // 언어 드롭다운 이름: SUPPORTED_LANGS(config.php)의 flag+name → 언어 추가 시 이 파일 불변
 $LNG = [];
 foreach (SUPPORTED_LANGS as $__lc => $__m) { $LNG[$__lc] = ($__m['flag'] ?? '') . ' ' . ($__m['name'] ?? strtoupper($__lc)); }
@@ -214,9 +214,9 @@ foreach (SUPPORTED_LANGS as $__lc => $__m) { $LNG[$__lc] = ($__m['flag'] ?? '') 
 <meta name="description" content="<?= h($t['desc']) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
 <?php foreach (array_keys(SUPPORTED_LANGS) as $lc): ?>
-<link rel="alternate" hreflang="<?= h($lc) ?>" href="https://www.btctiming.com/exchanges.php<?= h(langSuffix($lc)) ?>">
+<link rel="alternate" hreflang="<?= h($lc) ?>" href="https://btctiming.com/exchanges.php<?= h(langSuffix($lc)) ?>">
 <?php endforeach; ?>
-<link rel="alternate" hreflang="x-default" href="https://www.btctiming.com/exchanges.php">
+<link rel="alternate" hreflang="x-default" href="https://btctiming.com/exchanges.php">
 <meta property="og:title" content="<?= h($t['title']) ?>">
 <meta property="og:description" content="<?= h($t['desc']) ?>">
 <meta property="og:type" content="website">

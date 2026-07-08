@@ -144,20 +144,31 @@ if (file_exists($metaFile)) {
     }
 }
 
-// ── 4) 기타 정적 페이지 (있는 경우만 자동 포함) ──
+// ── 4) 기타 정적 페이지 — 홈과 동일하게 언어별 URL + hreflang 전체 등록 ──
+// 각 페이지는 실제 파일이 있을 때만 포함하고, SUPPORTED_LANGS 기반으로 9개 언어를
+// 각각 별도 URL(+상호 hreflang)로 등록한다. 새 언어를 추가하면 자동 반영된다.
+//   file  : 실제 파일 경로(존재 확인 + lastmod 산출용)
+//   route : URL 경로(파라미터 없는 x-default 기준)
 $staticPages = [
-    'privacy.html' => ['/privacy', '0.3'],
-    'terms.html'   => ['/terms', '0.3'],
+    ['file' => 'privacy.php',       'route' => '/privacy',           'priority' => '0.3'],
+    ['file' => 'terms.php',         'route' => '/terms',             'priority' => '0.3'],
+    ['file' => 'exchanges.php',     'route' => '/exchanges.php',     'priority' => '0.5'],
+    ['file' => 'coins.php',         'route' => '/coins.php',         'priority' => '0.5'],
+    ['file' => 'rss-guide.php',     'route' => '/rss-guide.php',     'priority' => '0.4'],
+    ['file' => 'sitemap-guide.php', 'route' => '/sitemap-guide.php', 'priority' => '0.3'],
 ];
-foreach ($staticPages as $file => [$path, $priority]) {
-    $fullPath = $root . '/' . $file;
-    if (file_exists($fullPath)) {
-        $entries[] = urlEntry(
-            $baseUrl . $path,
-            date('Y-m-d', filemtime($fullPath)),
-            'yearly',
-            $priority
-        );
+foreach ($staticPages as $sp) {
+    $fullPath = $root . '/' . $sp['file'];
+    if (!file_exists($fullPath)) continue; // 없는 페이지는 건너뜀
+    $lastmod = date('Y-m-d', filemtime($fullPath));
+    // 9개 언어 + x-default 상호 hreflang 구성
+    $spHreflangs = ['x-default' => $baseUrl . $sp['route']];
+    foreach (SUPPORTED_LANGS as $lc => $li) {
+        $spHreflangs[$lc] = $baseUrl . $sp['route'] . $smSuffix($lc);
+    }
+    foreach (SUPPORTED_LANGS as $lc => $li) {
+        $priority = $lc === 'ko' ? $sp['priority'] : number_format((float)$sp['priority'] - 0.1, 1);
+        $entries[] = urlEntry($spHreflangs[$lc], $lastmod, 'yearly', $priority, $spHreflangs);
     }
 }
 
