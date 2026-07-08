@@ -6,36 +6,60 @@
 
   <p class="es">Menciona <a href="/blog/clarity-act-stalled.html">la Ley CLARITY</a> y la reacción es casi siempre la misma: "las altcoins subirán si pasa." No está mal. Pero detenerse ahí pierde la parte interesante. Sigue el efecto de primer orden hacia los efectos de segundo y tercer orden que desencadena, y emerge un panorama muy diferente.</p>
   <p class="de">Erwähnt man <a href="/blog/clarity-act-stalled.html">den CLARITY Act</a>, ist die Reaktion fast immer dieselbe: "Altcoins werden pumpen, wenn er durchkommt." Nicht falsch. Aber dort aufzuhören, verpasst den interessanten Teil. Verfolgt man den Effekt erster Ordnung zu den Effekten zweiter und dritter Ordnung, die er auslöst, entsteht ein ganz anderes Bild.</p>
+  <p class="fr">Évoquez <a href="/blog/clarity-act-stalled.html">le CLARITY Act</a> et la réaction est presque toujours la même : « les altcoins vont s'envoler si la loi passe ». Ce n'est pas faux. Mais s'arrêter là fait manquer la partie intéressante. Suivez l'effet de premier ordre jusqu'aux effets de deuxième et troisième ordre qu'il déclenche, et un tableau très différent se dessine.</p>
+  <p class="pt">Mencione <a href="/blog/clarity-act-stalled.html">o CLARITY Act</a> e a reação é quase sempre a mesma: "as altcoins vão disparar se for aprovado." Não está errado. Mas parar por aí faz perder a parte interessante. Acompanhe o efeito de primeira ordem até os efeitos de segunda e terceira ordem que ele desencadeia, e surge um quadro muito diferente.</p>
+  <p class="tr"><a href="/blog/clarity-act-stalled.html">CLARITY Yasası</a>ndan söz edildiğinde tepki neredeyse her zaman aynıdır: "yasalaşırsa altcoinler yükselir." Yanlış değil. Ama orada durmak işin ilginç kısmını kaçırmak demek. Birinci dereceden etkiyi, onun tetiklediği ikinci ve üçüncü dereceden etkilere kadar takip edin, ortaya çok farklı bir tablo çıkıyor.</p>
+  <p class="vi">Nhắc đến <a href="/blog/clarity-act-stalled.html">Đạo luật CLARITY</a> thì phản ứng gần như luôn giống nhau: "nếu được thông qua, altcoin sẽ tăng giá." Không sai. Nhưng dừng lại ở đó thì bỏ lỡ phần thú vị. Hãy theo dõi hiệu ứng bậc một cho đến các hiệu ứng bậc hai, bậc ba mà nó kích hoạt, và một bức tranh hoàn toàn khác sẽ hiện ra.</p>
 
   <h2 class="ko">1차 효과 — 다들 아는 것</h2>
   <h2 class="en">1st order — the part everyone already knows</h2>
   <h2 class="ja">一次効果 — 皆が知っていること</h2>
   <h2 class="es">Primer Orden — La Parte Que Todos Ya Saben</h2>
   <h2 class="de">Erste Ordnung — Der Teil, den jeder schon kennt</h2>
+  <h2 class="fr">Premier ordre — Ce que tout le monde sait déjà</h2>
+  <h2 class="pt">Primeira Ordem — A Parte Que Todos Já Sabem</h2>
+  <h2 class="tr">Birinci Derece — Herkesin Zaten Bildiği Kısım</h2>
+  <h2 class="vi">Bậc một — Phần ai cũng đã biết</h2>
   <p class="ko">CLARITY가 통과되면 "디지털 상품"으로 분류된 자산(SOL, XRP 등)의 법적 지위가 확정돼요. <a href="/blog/sec-digital-commodity-interpretive-release.html">SEC의 3월 해석 발표</a>가 이미 행정적으로는 비슷한 방향을 잡아뒀지만, 그건 위원장이 바뀌면 뒤집힐 수 있는 "해석"일 뿐이에요. 법으로 못 박히는 것과는 무게가 완전히 다릅니다. 이 지점에서 다들 "그럼 이 코인들이 오르겠네"로 생각을 끝내요.</p>
   <p class="en">If CLARITY passes, the legal status of assets classified as "digital commodities" (SOL, XRP, etc.) gets locked in. <a href="/blog/sec-digital-commodity-interpretive-release.html">The SEC's March interpretive release</a> already pointed the same direction administratively — but an interpretation can be reversed the moment a new chair takes over. A law is a fundamentally different weight class. This is usually where the thinking stops: "so those coins will rally."</p>
   <p class="ja">CLARITYが成立すれば、「デジタルコモディティ」に分類された資産(SOL、XRPなど)の法的地位が確定します。<a href="/blog/sec-digital-commodity-interpretive-release.html">SECの3月の解釈発表</a>はすでに行政的には同じ方向を示していましたが、それは委員長が交代すれば覆り得る「解釈」に過ぎません。法律で確定することとは重みがまったく違います。この地点で皆「じゃあこのコインたちが上がるね」で思考を終えます。</p>
 
   <p class="es">Si CLARITY pasa, el estatus legal de activos clasificados como "commodities digitales" (SOL, XRP, etc.) queda fijado. <a href="/blog/sec-digital-commodity-interpretive-release.html">El lanzamiento interpretativo de marzo de la SEC</a> ya apuntaba administrativamente en la misma dirección — pero una interpretación puede revertirse en el momento en que asume un nuevo presidente. Una ley es una categoría de peso fundamentalmente diferente. Aquí es donde el pensamiento suele detenerse: "así que esas monedas subirán."</p>
   <p class="de">Wenn CLARITY durchgeht, wird der rechtliche Status von Assets, die als "digitale Commodities" klassifiziert sind (SOL, XRP usw.), festgeschrieben. <a href="/blog/sec-digital-commodity-interpretive-release.html">Das Auslegungsschreiben der SEC vom März</a> zeigte administrativ bereits in dieselbe Richtung — aber eine Auslegung kann in dem Moment umgekehrt werden, in dem ein neuer Vorsitzender übernimmt. Ein Gesetz ist eine grundlegend andere Gewichtsklasse. Hier hört das Denken meist auf: "also werden diese Coins rallyen."</p>
+  <p class="fr">Si CLARITY est adopté, le statut juridique des actifs classés comme « commodités numériques » (SOL, XRP, etc.) sera figé. <a href="/blog/sec-digital-commodity-interpretive-release.html">La note interprétative de la SEC de mars</a> pointait déjà administrativement dans la même direction — mais une interprétation peut être renversée dès qu'un nouveau président prend ses fonctions. Une loi appartient à une catégorie de poids fondamentalement différente. C'est généralement là que la réflexion s'arrête : « donc ces coins vont grimper ».</p>
+  <p class="pt">Se o CLARITY for aprovado, o status legal dos ativos classificados como "commodities digitais" (SOL, XRP etc.) fica travado. <a href="/blog/sec-digital-commodity-interpretive-release.html">O comunicado interpretativo da SEC de março</a> já apontava administrativamente na mesma direção — mas uma interpretação pode ser revertida no momento em que um novo presidente assume. Uma lei é uma categoria de peso fundamentalmente diferente. É geralmente aí que o raciocínio para: "então essas moedas vão subir."</p>
+  <p class="tr">CLARITY yasalaşırsa, "dijital emtia" olarak sınıflandırılan varlıkların (SOL, XRP vb.) hukuki statüsü kesinleşir. <a href="/blog/sec-digital-commodity-interpretive-release.html">SEC'in Mart ayındaki yorum bildirisi</a> idari açıdan zaten aynı yönü işaret ediyordu — ama bir yorum, yeni bir başkan göreve gelir gelmez tersine çevrilebilir. Kanun ise tamamen farklı bir ağırlık sınıfıdır. Düşünce genelde burada durur: "demek ki bu coinler yükselecek."</p>
+  <p class="vi">Nếu CLARITY được thông qua, tình trạng pháp lý của các tài sản được phân loại là "hàng hóa kỹ thuật số" (SOL, XRP, v.v.) sẽ được ấn định. <a href="/blog/sec-digital-commodity-interpretive-release.html">Thông báo diễn giải tháng Ba của SEC</a> đã chỉ ra cùng hướng đi đó về mặt hành chính — nhưng một diễn giải có thể bị đảo ngược ngay khi có chủ tịch mới. Một đạo luật lại thuộc một hạng cân hoàn toàn khác. Đây thường là nơi suy nghĩ dừng lại: "vậy là các đồng coin đó sẽ tăng giá."</p>
 
   <h2 class="ko">2차 효과 — 진짜 자금이 움직이는 지점</h2>
   <h2 class="en">2nd order — where the real capital actually moves</h2>
   <h2 class="ja">二次効果 — 本当の資金が動く地点</h2>
   <h2 class="es">Segundo Orden — Dónde Se Mueve Realmente el Capital</h2>
   <h2 class="de">Zweite Ordnung — Wo sich das echte Kapital tatsächlich bewegt</h2>
+  <h2 class="fr">Deuxième ordre — Là où le capital réel se déplace vraiment</h2>
+  <h2 class="pt">Segunda Ordem — Onde o Capital Real Realmente se Move</h2>
+  <h2 class="tr">İkinci Derece — Gerçek Sermayenin Asıl Hareket Ettiği Nokta</h2>
+  <h2 class="vi">Bậc hai — Nơi dòng vốn thực sự dịch chuyển</h2>
   <p class="ko">법적 지위가 확정되면, 코인 가격보다 먼저 반응하는 게 <strong>커스터디언과 보험사</strong>예요. 지금까지 대형 커스터디 업체들이 비트코인·이더리움 외 자산을 잘 안 받아준 이유 중 하나가 "이게 나중에 증권으로 재분류되면 우리도 법적 책임을 진다"는 리스크였거든요. 이 리스크가 사라지면, 커스터디 목록에 오르는 코인 수가 늘어나고 — 이게 늘어나야 비로소 SOL·XRP 현물 ETF 같은 상품이 대형 자산운용사 입장에서 "운영 리스크가 관리 가능한 상품"이 됩니다.</p>
   <p class="en">Once legal status is locked in, the first movers aren't coin prices — they're <strong>custodians and insurers</strong>. Part of why major custody providers have avoided assets beyond Bitcoin and Ethereum is the risk that reclassifying an asset as a security later exposes them to legal liability. Remove that risk, and the list of custodiable coins expands — and only once that expands do products like spot SOL or XRP ETFs become "operationally manageable" for large asset managers.</p>
   <p class="ja">法的地位が確定すると、コイン価格より先に反応するのは<strong>カストディアンと保険会社</strong>です。これまで大手カストディ業者がビットコイン・イーサリアム以外の資産をあまり受け入れなかった理由の一つが、「これが後で証券に再分類されたら自分たちも法的責任を負う」というリスクでした。このリスクがなくなれば、カストディ対象リストに載るコイン数が増え — これが増えて初めてSOL・XRP現物ETFのような商品が大手資産運用会社にとって「運用リスクが管理可能な商品」になります。</p>
 
   <p class="es">Una vez que el estatus legal queda fijado, los primeros en moverse no son los precios de las monedas — son <strong>los custodios y aseguradoras</strong>. Parte de por qué los grandes proveedores de custodia han evitado activos más allá de Bitcoin y Ethereum es el riesgo de que reclasificar un activo como valor después los exponga a responsabilidad legal. Elimina ese riesgo, y la lista de monedas custodiables se expande — y solo una vez que eso se expande, productos como ETFs spot de SOL o XRP se vuelven "operacionalmente manejables" para grandes gestores de activos.</p>
   <p class="de">Sobald der rechtliche Status feststeht, sind nicht die Coin-Preise die ersten, die sich bewegen — es sind <strong>Verwahrstellen und Versicherer</strong>. Ein Teil davon, warum große Verwahranbieter Assets jenseits von Bitcoin und Ethereum gemieden haben, ist das Risiko, dass eine spätere Neuklassifizierung eines Assets als Wertpapier sie rechtlicher Haftung aussetzt. Entfernt man dieses Risiko, erweitert sich die Liste verwahrfähiger Coins — und erst wenn sich das erweitert, werden Produkte wie Spot-SOL- oder XRP-ETFs für große Vermögensverwalter "operativ handhabbar."</p>
+  <p class="fr">Une fois le statut juridique figé, les premiers à bouger ne sont pas les prix des coins — ce sont <strong>les dépositaires (custodians) et les assureurs</strong>. Une des raisons pour lesquelles les grands prestataires de conservation ont évité les actifs autres que Bitcoin et Ethereum est le risque qu'une reclassification ultérieure d'un actif en tant que valeur mobilière les expose à une responsabilité juridique. Éliminez ce risque, et la liste des coins pouvant être conservés s'élargit — et ce n'est qu'une fois cette liste élargie que des produits comme les ETF spot SOL ou XRP deviennent « opérationnellement gérables » pour les grands gestionnaires d'actifs.</p>
+  <p class="pt">Uma vez travado o status legal, os primeiros a se mover não são os preços das moedas — são os <strong>custodiantes e seguradoras</strong>. Parte do motivo pelo qual os grandes provedores de custódia evitaram ativos além de Bitcoin e Ethereum é o risco de que uma reclassificação futura de um ativo como valor mobiliário os exponha a responsabilidade legal. Elimine esse risco, e a lista de moedas passíveis de custódia se expande — e só depois dessa expansão é que produtos como ETFs à vista de SOL ou XRP se tornam "operacionalmente administráveis" para grandes gestoras de ativos.</p>
+  <p class="tr">Hukuki statü kesinleştiğinde, ilk harekete geçenler coin fiyatları değil — <strong>saklama kuruluşları (custodian) ve sigortacılar</strong> olur. Büyük saklama sağlayıcılarının Bitcoin ve Ethereum dışındaki varlıklardan kaçınmasının bir nedeni, bir varlığın sonradan menkul kıymet olarak yeniden sınıflandırılmasının kendilerini hukuki sorumluluğa maruz bırakma riskiydi. Bu risk ortadan kalkınca, saklamaya uygun coin listesi genişler — ve ancak bu liste genişledikten sonra spot SOL veya XRP ETF'leri gibi ürünler büyük varlık yöneticileri için "operasyonel olarak yönetilebilir" hale gelir.</p>
+  <p class="vi">Khi tình trạng pháp lý được ấn định, những đối tượng phản ứng đầu tiên không phải là giá coin — mà là <strong>các đơn vị lưu ký (custodian) và công ty bảo hiểm</strong>. Một phần lý do khiến các nhà cung cấp dịch vụ lưu ký lớn né tránh các tài sản ngoài Bitcoin và Ethereum là rủi ro rằng việc phân loại lại một tài sản thành chứng khoán sau này có thể khiến họ chịu trách nhiệm pháp lý. Loại bỏ rủi ro đó, danh sách các đồng coin có thể lưu ký sẽ mở rộng — và chỉ khi danh sách đó mở rộng thì các sản phẩm như ETF giao ngay SOL hay XRP mới trở nên "khả thi về mặt vận hành" đối với các công ty quản lý tài sản lớn.</p>
 
   <p class="ko">즉 알트코인이 오르는 건 "법이 통과됐다"는 뉴스 자체 때문이 아니라, 그 법이 <strong>커스터디 인프라를 열어주고, 그 인프라가 다시 기관 상품을 가능하게 만드는</strong> 몇 단계짜리 파이프라인이 작동한 결과예요. 이 파이프라인은 몇 주~몇 달의 시차를 두고 순차적으로 작동합니다.</p>
   <p class="en">Altcoins rallying isn't really caused by "the law passed" as a headline — it's the output of a multi-step pipeline where the law <strong>unlocks custody infrastructure, which then makes institutional products viable</strong>. That pipeline runs sequentially, with weeks-to-months of lag between each step.</p>
   <p class="ja">つまりアルトコインが上がるのは「法律が成立した」というニュース自体のためではなく、その法律が<strong>カストディインフラを開放し、そのインフラが機関商品を可能にする</strong>という数段階のパイプラインが作動した結果です。このパイプラインは数週間〜数ヶ月の時差を置いて順番に作動します。</p>
   <p class="es">Que las altcoins suban realmente no es causado por "la ley pasó" como titular — es el resultado de una tubería de múltiples pasos donde la ley <strong>desbloquea la infraestructura de custodia, que luego hace viables los productos institucionales</strong>. Esa tubería funciona secuencialmente, con semanas a meses de retraso entre cada paso.</p>
   <p class="de">Dass Altcoins rallyen, wird nicht wirklich durch "das Gesetz wurde verabschiedet" als Schlagzeile verursacht — es ist das Ergebnis einer mehrstufigen Pipeline, bei der das Gesetz <strong>Verwahrungsinfrastruktur freischaltet, die dann institutionelle Produkte machbar macht</strong>. Diese Pipeline läuft sequenziell, mit Wochen bis Monaten Verzögerung zwischen jedem Schritt.</p>
+  <p class="fr">La hausse des altcoins n'est pas vraiment causée par le titre « la loi est passée » — c'est le résultat d'un enchaînement à plusieurs étapes où la loi <strong>débloque l'infrastructure de conservation, laquelle rend ensuite viables les produits institutionnels</strong>. Cet enchaînement se déroule de façon séquentielle, avec un décalage de plusieurs semaines à plusieurs mois entre chaque étape.</p>
+  <p class="pt">A alta das altcoins não é realmente causada pela manchete "a lei foi aprovada" — é o resultado de um processo em várias etapas em que a lei <strong>libera a infraestrutura de custódia, que então viabiliza os produtos institucionais</strong>. Esse processo funciona de forma sequencial, com semanas a meses de defasagem entre cada etapa.</p>
+  <p class="tr">Altcoinlerin yükselişi aslında "yasa geçti" başlığından kaynaklanmıyor — bu, yasanın <strong>saklama altyapısının önünü açtığı, bu altyapının da kurumsal ürünleri uygulanabilir kıldığı</strong> çok adımlı bir sürecin sonucudur. Bu süreç, her adım arasında haftalar ila aylar süren gecikmelerle sırayla işler.</p>
+  <p class="vi">Việc altcoin tăng giá thực ra không phải do tiêu đề "luật đã được thông qua" gây ra — đó là kết quả của một chuỗi nhiều bước, trong đó đạo luật <strong>mở khóa hạ tầng lưu ký, và hạ tầng đó sau đó làm cho các sản phẩm dành cho tổ chức trở nên khả thi</strong>. Chuỗi này vận hành tuần tự, với độ trễ vài tuần đến vài tháng giữa mỗi bước.</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -244,30 +268,210 @@
     <defs><marker id="arrow-de" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
   </svg>
   </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Effets en cascade après l'adoption de CLARITY (1er → 4e ordre)</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="20" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="95" y="78" fill="#f7931a" font-weight="700" text-anchor="middle">1er</text>
+      <text x="95" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Statut juridique figé</text>
+
+      <path d="M170 82 L205 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-fr)"/>
+
+      <rect x="210" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="285" y="78" fill="#38bdf8" font-weight="700" text-anchor="middle">2e</text>
+      <text x="285" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Conservation &amp; assurance s'étendent</text>
+
+      <path d="M360 82 L395 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-fr)"/>
+
+      <rect x="400" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="475" y="78" fill="#4ade80" font-weight="700" text-anchor="middle">2e</text>
+      <text x="475" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Accélération des ETF spot alt</text>
+
+      <path d="M475 110 L475 145" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-fr)"/>
+
+      <rect x="290" y="150" width="170" height="55" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="375" y="173" fill="#a78bfa" font-weight="700" text-anchor="middle">3e</text>
+      <text x="375" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Entrée des fonds de pension, etc.</text>
+
+      <rect x="30" y="150" width="230" height="55" rx="8" fill="#1c1c1f" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="145" y="173" fill="#ef4444" font-weight="700" text-anchor="middle">3e</text>
+      <text x="145" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Les exchanges offshore perdent leur avantage</text>
+
+      <rect x="480" y="150" width="190" height="55" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="575" y="173" fill="#fbbf24" font-weight="700" text-anchor="middle">3e</text>
+      <text x="575" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Nouvelles règles de reporting CFTC</text>
+
+      <rect x="140" y="230" width="420" height="55" rx="8" fill="#1c1c1f" stroke="#f472b6" stroke-width="1.5"/>
+      <text x="350" y="253" fill="#f472b6" font-weight="700" text-anchor="middle">4e</text>
+      <text x="350" y="270" fill="#e4e4e7" text-anchor="middle" font-size="10">Les entreprises DAT passent de BTC seul à des avoirs diversifiés</text>
+    </g>
+    <defs><marker id="arrow-fr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Efeitos em Cascata Após a Aprovação do CLARITY (1ª → 4ª ordem)</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="20" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="95" y="78" fill="#f7931a" font-weight="700" text-anchor="middle">1ª</text>
+      <text x="95" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Status legal travado</text>
+
+      <path d="M170 82 L205 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-pt)"/>
+
+      <rect x="210" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="285" y="78" fill="#38bdf8" font-weight="700" text-anchor="middle">2ª</text>
+      <text x="285" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Custódia &amp; seguros se expandem</text>
+
+      <path d="M360 82 L395 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-pt)"/>
+
+      <rect x="400" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="475" y="78" fill="#4ade80" font-weight="700" text-anchor="middle">2ª</text>
+      <text x="475" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">ETFs à vista de alts aceleram</text>
+
+      <path d="M475 110 L475 145" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-pt)"/>
+
+      <rect x="290" y="150" width="170" height="55" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="375" y="173" fill="#a78bfa" font-weight="700" text-anchor="middle">3ª</text>
+      <text x="375" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Fundos de pensão etc. entram</text>
+
+      <rect x="30" y="150" width="230" height="55" rx="8" fill="#1c1c1f" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="145" y="173" fill="#ef4444" font-weight="700" text-anchor="middle">3ª</text>
+      <text x="145" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Exchanges offshore perdem vantagem</text>
+
+      <rect x="480" y="150" width="190" height="55" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="575" y="173" fill="#fbbf24" font-weight="700" text-anchor="middle">3ª</text>
+      <text x="575" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Novas regras de relato da CFTC</text>
+
+      <rect x="140" y="230" width="420" height="55" rx="8" fill="#1c1c1f" stroke="#f472b6" stroke-width="1.5"/>
+      <text x="350" y="253" fill="#f472b6" font-weight="700" text-anchor="middle">4ª</text>
+      <text x="350" y="270" fill="#e4e4e7" text-anchor="middle" font-size="10">Empresas DAT migram de BTC-only para participações diversificadas</text>
+    </g>
+    <defs><marker id="arrow-pt" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">CLARITY Yasalaştıktan Sonra Zincirleme Etkiler (1. → 4. derece)</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="20" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="95" y="78" fill="#f7931a" font-weight="700" text-anchor="middle">1.</text>
+      <text x="95" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Hukuki statü kesinleşir</text>
+
+      <path d="M170 82 L205 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-tr)"/>
+
+      <rect x="210" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="285" y="78" fill="#38bdf8" font-weight="700" text-anchor="middle">2.</text>
+      <text x="285" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Saklama &amp; sigorta genişler</text>
+
+      <path d="M360 82 L395 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-tr)"/>
+
+      <rect x="400" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="475" y="78" fill="#4ade80" font-weight="700" text-anchor="middle">2.</text>
+      <text x="475" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Alt spot ETF'ler hızlanır</text>
+
+      <path d="M475 110 L475 145" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-tr)"/>
+
+      <rect x="290" y="150" width="170" height="55" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="375" y="173" fill="#a78bfa" font-weight="700" text-anchor="middle">3.</text>
+      <text x="375" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Emeklilik fonları vb. giriş yapar</text>
+
+      <rect x="30" y="150" width="230" height="55" rx="8" fill="#1c1c1f" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="145" y="173" fill="#ef4444" font-weight="700" text-anchor="middle">3.</text>
+      <text x="145" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Offshore borsalar avantajını kaybeder</text>
+
+      <rect x="480" y="150" width="190" height="55" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="575" y="173" fill="#fbbf24" font-weight="700" text-anchor="middle">3.</text>
+      <text x="575" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Yeni CFTC raporlama kuralları</text>
+
+      <rect x="140" y="230" width="420" height="55" rx="8" fill="#1c1c1f" stroke="#f472b6" stroke-width="1.5"/>
+      <text x="350" y="253" fill="#f472b6" font-weight="700" text-anchor="middle">4.</text>
+      <text x="350" y="270" fill="#e4e4e7" text-anchor="middle" font-size="10">DAT şirketleri yalnızca BTC'den çeşitlendirilmiş varlıklara geçer</text>
+    </g>
+    <defs><marker id="arrow-tr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Hiệu ứng dây chuyền sau khi CLARITY được thông qua (bậc 1 → bậc 4)</text>
+    <g font-family="sans-serif" font-size="11">
+      <rect x="20" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#f7931a" stroke-width="1.5"/>
+      <text x="95" y="78" fill="#f7931a" font-weight="700" text-anchor="middle">B1</text>
+      <text x="95" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Tình trạng pháp lý được ấn định</text>
+
+      <path d="M170 82 L205 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-vi)"/>
+
+      <rect x="210" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="285" y="78" fill="#38bdf8" font-weight="700" text-anchor="middle">B2</text>
+      <text x="285" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">Lưu ký &amp; bảo hiểm mở rộng</text>
+
+      <path d="M360 82 L395 82" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-vi)"/>
+
+      <rect x="400" y="55" width="150" height="55" rx="8" fill="#1c1c1f" stroke="#4ade80" stroke-width="1.5"/>
+      <text x="475" y="78" fill="#4ade80" font-weight="700" text-anchor="middle">B2</text>
+      <text x="475" y="95" fill="#e4e4e7" text-anchor="middle" font-size="9">ETF giao ngay altcoin tăng tốc</text>
+
+      <path d="M475 110 L475 145" stroke="#52525b" stroke-width="1.5" marker-end="url(#arrow-vi)"/>
+
+      <rect x="290" y="150" width="170" height="55" rx="8" fill="#1c1c1f" stroke="#a78bfa" stroke-width="1.5"/>
+      <text x="375" y="173" fill="#a78bfa" font-weight="700" text-anchor="middle">B3</text>
+      <text x="375" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Quỹ hưu trí v.v. tham gia</text>
+
+      <rect x="30" y="150" width="230" height="55" rx="8" fill="#1c1c1f" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="145" y="173" fill="#ef4444" font-weight="700" text-anchor="middle">B3</text>
+      <text x="145" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Sàn giao dịch nước ngoài mất lợi thế</text>
+
+      <rect x="480" y="150" width="190" height="55" rx="8" fill="#1c1c1f" stroke="#fbbf24" stroke-width="1.5"/>
+      <text x="575" y="173" fill="#fbbf24" font-weight="700" text-anchor="middle">B3</text>
+      <text x="575" y="190" fill="#e4e4e7" text-anchor="middle" font-size="9">Quy định báo cáo mới của CFTC</text>
+
+      <rect x="140" y="230" width="420" height="55" rx="8" fill="#1c1c1f" stroke="#f472b6" stroke-width="1.5"/>
+      <text x="350" y="253" fill="#f472b6" font-weight="700" text-anchor="middle">B4</text>
+      <text x="350" y="270" fill="#e4e4e7" text-anchor="middle" font-size="10">Công ty DAT chuyển từ chỉ nắm BTC sang nắm giữ đa dạng</text>
+    </g>
+    <defs><marker id="arrow-vi" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#52525b"/></marker></defs>
+  </svg>
+  </div>
 
   <h2 class="ko">3차 효과 — 여기서부터가 진짜</h2>
   <h2 class="en">3rd order — this is where it gets interesting</h2>
   <h2 class="ja">三次効果 — ここからが本番</h2>
   <h2 class="es">Tercer Orden — Aquí Es Donde Se Pone Interesante</h2>
   <h2 class="de">Dritte Ordnung — Hier wird es interessant</h2>
+  <h2 class="fr">Troisième ordre — C'est là que ça devient intéressant</h2>
+  <h2 class="pt">Terceira Ordem — É Aqui Que Fica Interessante</h2>
+  <h2 class="tr">Üçüncü Derece — Asıl İlginç Kısım Burada Başlıyor</h2>
+  <h2 class="vi">Bậc ba — Đây mới là phần thú vị thực sự</h2>
 
   <h3 class="ko">① 지금까지 못 들어오던 자금이 처음으로 들어온다</h3>
   <h3 class="en">① Capital that couldn't enter before, enters for the first time</h3>
   <h3 class="ja">① これまで入れなかった資金が初めて入る</h3>
   <h3 class="es">① El Capital que No Podía Entrar Antes, Entra por Primera Vez</h3>
   <h3 class="de">① Kapital, das vorher nicht eintreten konnte, steigt zum ersten Mal ein</h3>
+  <h3 class="fr">① Un capital qui ne pouvait pas entrer auparavant, entre pour la première fois</h3>
+  <h3 class="pt">① Capital que antes não podia entrar, entra pela primeira vez</h3>
+  <h3 class="tr">① Daha önce giremeyen sermaye ilk kez giriyor</h3>
+  <h3 class="vi">① Dòng vốn trước đây không thể tham gia, nay lần đầu tham gia</h3>
   <p class="ko">현물 ETF가 늘어나는 것과, "연기금 같은 보수적 자금이 실제로 들어오는 것"은 다른 문제예요. 연기금·보험사 자금은 대개 "규제 명확성"을 신탁 의무(fiduciary duty) 상의 필수 조건으로 명시해두는 경우가 많습니다. 지금까지는 크립토 네이티브 펀드나 개인 투자자 자금이 대부분이었다면, CLARITY 통과 이후엔 <strong>애초에 진입 자체가 규정상 막혀있던 훨씬 보수적인 자금</strong>이 처음으로 문을 열고 들어올 수 있어요. 이건 기존 ETF 자금 흐름과는 완전히 다른, 새로운 종류의 유동성입니다.</p>
   <p class="en">More spot ETFs and "conservative capital like pension funds actually entering" are different problems. Pension and insurance capital often specifies regulatory clarity as a fiduciary-duty prerequisite. Until now, most capital has been crypto-native funds or retail. After CLARITY passes, <strong>far more conservative capital that was structurally barred from entering at all</strong> could open the door for the first time — a genuinely new kind of liquidity, distinct from existing ETF flows.</p>
   <p class="ja">現物ETFが増えることと「年金基金のような保守的資金が実際に入ってくること」は別の問題です。年金・保険資金は多くの場合、規制の明確性を受託者責任(フィデューシャリー・デューティー)上の必須条件として明記しています。これまではクリプトネイティブなファンドや個人投資家の資金がほとんどでしたが、CLARITY成立後は<strong>そもそも規定上参入自体が塞がれていたはるかに保守的な資金</strong>が初めて扉を開けて入ってくる可能性があります。これは既存のETF資金フローとはまったく異なる、新種の流動性です。</p>
 
   <p class="es">Más ETFs spot y "capital conservador como fondos de pensiones realmente entrando" son problemas diferentes. El capital de pensiones y seguros a menudo especifica la claridad regulatoria como un prerrequisito de deber fiduciario. Hasta ahora, la mayor parte del capital ha sido fondos nativos cripto o minoristas. Después de que CLARITY pase, <strong>capital mucho más conservador que estaba estructuralmente prohibido de entrar en absoluto</strong> podría abrir la puerta por primera vez — un tipo genuinamente nuevo de liquidez, distinto de los flujos de ETF existentes.</p>
   <p class="de">Mehr Spot-ETFs und "konservatives Kapital wie Pensionsfonds tritt tatsächlich ein" sind unterschiedliche Probleme. Pensions- und Versicherungskapital spezifiziert oft regulatorische Klarheit als Voraussetzung der Treuepflicht. Bisher war das meiste Kapital krypto-native Fonds oder Retail. Nach Verabschiedung von CLARITY könnte <strong>weit konservativeres Kapital, das strukturell überhaupt vom Eintritt ausgeschlossen war</strong>, zum ersten Mal die Tür öffnen — eine echt neue Art von Liquidität, verschieden von bestehenden ETF-Flüssen.</p>
+  <p class="fr">Davantage d'ETF spot et « du capital conservateur comme les fonds de pension qui entrent réellement » sont deux problèmes différents. Le capital des fonds de pension et des assureurs impose souvent la clarté réglementaire comme condition préalable au devoir fiduciaire. Jusqu'à présent, l'essentiel du capital provenait de fonds natifs de la crypto ou de particuliers. Une fois CLARITY adopté, <strong>un capital bien plus conservateur, jusqu'ici structurellement interdit d'entrée</strong>, pourrait ouvrir la porte pour la première fois — un type de liquidité véritablement nouveau, distinct des flux d'ETF existants.</p>
+  <p class="pt">Mais ETFs à vista e "capital conservador como fundos de pensão realmente entrando" são problemas diferentes. O capital de fundos de pensão e seguradoras costuma exigir clareza regulatória como pré-requisito do dever fiduciário. Até agora, a maior parte do capital veio de fundos nativos de cripto ou de varejo. Depois que o CLARITY for aprovado, <strong>capital muito mais conservador, que estava estruturalmente impedido de entrar</strong>, pode abrir a porta pela primeira vez — um tipo genuinamente novo de liquidez, distinto dos fluxos de ETF já existentes.</p>
+  <p class="tr">Daha fazla spot ETF ile "emeklilik fonları gibi muhafazakâr sermayenin fiilen girmesi" farklı meselelerdir. Emeklilik ve sigorta sermayesi genellikle düzenleyici netliği bir güvene dayalı yükümlülük (fiduciary duty) ön koşulu olarak belirler. Şimdiye kadar sermayenin büyük kısmı kripto-yerli fonlar veya bireysel yatırımcılardan oluşuyordu. CLARITY yasalaştıktan sonra, <strong>yapısal olarak girişi tamamen engellenmiş çok daha muhafazakâr bir sermaye</strong> ilk kez kapıyı açabilir — mevcut ETF akışlarından tamamen farklı, gerçekten yeni bir likidite türü.</p>
+  <p class="vi">Việc có thêm ETF giao ngay và việc "dòng vốn thận trọng như quỹ hưu trí thực sự tham gia" là hai vấn đề khác nhau. Vốn của quỹ hưu trí và bảo hiểm thường đặt ra sự minh bạch về quy định như một điều kiện tiên quyết theo nghĩa vụ ủy thác (fiduciary duty). Cho đến nay, phần lớn dòng vốn là các quỹ bản địa của tiền mã hóa hoặc nhà đầu tư cá nhân. Sau khi CLARITY được thông qua, <strong>dòng vốn thận trọng hơn nhiều, vốn trước đây bị cấm cửa hoàn toàn về mặt cấu trúc</strong>, có thể lần đầu tiên mở cánh cửa đó — một loại thanh khoản thực sự mới, khác biệt với dòng vốn ETF hiện có.</p>
 
   <h3 class="ko">② 해외 거래소들이 조용히 불리해진다</h3>
   <h3 class="en">② Offshore exchanges quietly lose their edge</h3>
   <h3 class="ja">② 海外取引所が静かに不利になる</h3>
   <h3 class="es">② Los Exchanges Offshore Pierden Silenciosamente Su Ventaja</h3>
   <h3 class="de">② Offshore-Börsen verlieren leise ihren Vorteil</h3>
+  <h3 class="fr">② Les exchanges offshore perdent discrètement leur avantage</h3>
+  <h3 class="pt">② Exchanges offshore perdem silenciosamente sua vantagem</h3>
+  <h3 class="tr">② Offshore borsalar sessizce avantajını kaybediyor</h3>
+  <h3 class="vi">② Các sàn giao dịch nước ngoài âm thầm mất lợi thế</h3>
   <p class="ko">그동안 해외 거래소들이 미국 거래소보다 훨씬 다양한 알트코인을 상장할 수 있었던 배경엔, 미국 내 법적 불확실성 자체가 있었어요. 미국 거래소들은 "이 코인이 나중에 증권으로 판정 나면 어떡하지"라는 리스크 때문에 상장을 꺼렸고, 그 틈을 <a href="/blog/binance-eu-mica-license-setback.html">해외 거래소</a>들이 메워왔거든요. CLARITY로 이 불확실성이 사라지면, 미국 거래소들이 같은 자산을 훨씬 공격적으로 상장하기 시작할 거고, 해외 거래소의 "미국에 없는 걸 판다"는 경쟁우위 하나가 조용히 사라집니다.</p>
   <p class="en">Part of why offshore exchanges could list a far wider range of altcoins than US exchanges was precisely US legal uncertainty — domestic exchanges avoided listings over fear an asset might later get ruled a security, and <a href="/blog/binance-eu-mica-license-setback.html">offshore platforms</a> filled that gap. Once CLARITY removes that uncertainty, US exchanges start listing the same assets far more aggressively, and one of offshore exchanges' competitive edges — "we sell what the US doesn't" — quietly disappears.</p>
   <p class="ja">これまで海外取引所が米国取引所よりはるかに多様なアルトコインを上場できていた背景には、まさに米国内の法的不確実性がありました。米国取引所は「このコインが後で証券と判定されたらどうしよう」というリスクのため上場を避けており、その隙間を<a href="/blog/binance-eu-mica-license-setback.html">海外取引所</a>が埋めてきたのです。CLARITYでこの不確実性がなくなれば、米国取引所は同じ資産をはるかに積極的に上場し始め、海外取引所の「米国にないものを売る」という競争優位の一つが静かに消えます。</p>
@@ -279,6 +483,10 @@
   <h3 class="ja">③ 誰も語らない副作用 — 新しい監視網</h3>
   <h3 class="es">③ El Efecto Secundario Poco Discutido — Nueva Supervisión</h3>
   <h3 class="de">③ Der kaum diskutierte Nebeneffekt — neue Aufsicht</h3>
+  <h3 class="fr">③ L'effet secondaire dont on parle peu — une nouvelle surveillance</h3>
+  <h3 class="pt">③ O Efeito Colateral Pouco Discutido — Nova Fiscalização</h3>
+  <h3 class="tr">③ Üzerinde Pek Konuşulmayan Yan Etki — Yeni Gözetim</h3>
+  <h3 class="vi">③ Tác dụng phụ ít được nhắc đến — sự giám sát mới</h3>
   <p class="ko">여기가 가장 놓치기 쉬운 부분이에요. "디지털 상품"으로 분류된다는 건 CFTC(상품선물거래위원회) 관할로 들어간다는 뜻이고, 상품 시장은 원래 대형 트레이더 보고 의무, 포지션 한도 같은 감시 체계가 이미 촘촘하게 갖춰진 영역입니다. 지금까지 상대적으로 느슨했던 크립토 파생상품 거래에, 곡물·원유 선물시장과 비슷한 수준의 보고·공시 의무가 새로 따라붙을 가능성이 커요. "규제 명확성 = 자유로워진다"고만 생각하기 쉬운데, 실제로는 <a href="/blog/is-regulatory-clarity-actually-good.html">명확해지는 만큼 감시도 촘촘해지는</a> 교환이 함께 옵니다.</p>
   <p class="en">This is the easiest part to miss. Being classified as a "digital commodity" means falling under CFTC jurisdiction — and commodity markets already carry tightly built oversight: large-trader reporting requirements, position limits. Crypto derivatives trading, relatively loose until now, could suddenly face reporting and disclosure obligations similar to grain or oil futures markets. It's easy to assume "regulatory clarity = more freedom," but in practice, <a href="/blog/is-regulatory-clarity-actually-good.html">clarity comes bundled with tighter oversight</a> in exchange.</p>
   <p class="ja">ここが最も見落としやすい部分です。「デジタルコモディティ」に分類されるということはCFTC(商品先物取引委員会)の管轄下に入ることを意味し、商品市場は元々大口トレーダー報告義務、ポジション上限のような監視体系がすでに緻密に整った領域です。これまで相対的に緩かった暗号資産デリバティブ取引に、穀物・原油先物市場と似た水準の報告・開示義務が新たに課される可能性が高いです。「規制の明確性=自由になる」とだけ考えがちですが、実際には<a href="/blog/is-regulatory-clarity-actually-good.html">明確になる分だけ監視も緻密になる</a>という交換が伴います。</p>
@@ -290,22 +498,42 @@
   <h3 class="ja">④ DAT企業の戦略自体が変わり得る</h3>
   <h3 class="es">④ La Estrategia Misma de las Empresas DAT Podría Cambiar</h3>
   <h3 class="de">④ Die Strategie der DAT-Unternehmen selbst könnte sich ändern</h3>
+  <h3 class="fr">④ La stratégie même des entreprises DAT pourrait changer</h3>
+  <h3 class="pt">④ A Própria Estratégia das Empresas DAT Pode Mudar</h3>
+  <h3 class="tr">④ DAT Şirketlerinin Stratejisinin Kendisi Değişebilir</h3>
+  <h3 class="vi">④ Bản thân chiến lược của các công ty DAT có thể thay đổi</h3>
   <p class="de">Dies ist der am leichtesten zu übersehende Teil. Als "digitale Commodity" klassifiziert zu werden bedeutet, unter die Zuständigkeit der CFTC zu fallen — und Rohstoffmärkte tragen bereits eng gebaute Aufsicht: Meldepflichten für Großhändler, Positionslimits. Der Krypto-Derivatehandel, bisher relativ locker, könnte plötzlich mit Melde- und Offenlegungspflichten ähnlich wie Getreide- oder Ölfutures-Märkten konfrontiert werden. Es ist leicht anzunehmen "regulatorische Klarheit = mehr Freiheit," aber in der Praxis kommt <a href="/blog/is-regulatory-clarity-actually-good.html">Klarheit im Austausch mit strengerer Aufsicht</a>.</p>
+  <p class="fr">C'est la partie la plus facile à manquer. Être classé comme « commodité numérique » signifie tomber sous la juridiction de la CFTC — et les marchés de matières premières disposent déjà d'une surveillance étroitement construite : obligations de déclaration pour les gros opérateurs, limites de position. Le trading de dérivés crypto, jusqu'ici relativement peu encadré, pourrait soudain faire face à des obligations de déclaration et de divulgation comparables à celles des marchés à terme du blé ou du pétrole. Il est facile de supposer que « clarté réglementaire = plus de liberté », mais en pratique, <a href="/blog/is-regulatory-clarity-actually-good.html">la clarté vient avec une surveillance plus stricte</a> en contrepartie.</p>
+  <p class="pt">Esta é a parte mais fácil de passar despercebida. Ser classificado como "commodity digital" significa cair sob a jurisdição da CFTC — e os mercados de commodities já carregam uma fiscalização estritamente construída: exigências de relato para grandes negociadores, limites de posição. O trading de derivativos cripto, até agora relativamente frouxo, poderia de repente enfrentar obrigações de relato e divulgação semelhantes às dos mercados futuros de grãos ou petróleo. É fácil supor que "clareza regulatória = mais liberdade," mas na prática, <a href="/blog/is-regulatory-clarity-actually-good.html">a clareza vem empacotada com fiscalização mais rígida</a> em troca.</p>
+  <p class="tr">Bu, gözden kaçırılması en kolay kısımdır. "Dijital emtia" olarak sınıflandırılmak CFTC'nin yetki alanına girmek anlamına gelir — ve emtia piyasalarında zaten sıkı bir gözetim yapısı vardır: büyük yatırımcı raporlama yükümlülükleri, pozisyon limitleri. Şimdiye kadar görece gevşek olan kripto türev işlemleri, tahıl veya petrol vadeli işlem piyasalarına benzer raporlama ve açıklama yükümlülükleriyle aniden karşılaşabilir. "Düzenleyici netlik = daha fazla özgürlük" varsayımı kolay gelir, ama pratikte <a href="/blog/is-regulatory-clarity-actually-good.html">netlik, karşılığında daha sıkı bir gözetimle birlikte gelir</a>.</p>
+  <p class="vi">Đây là phần dễ bị bỏ sót nhất. Được phân loại là "hàng hóa kỹ thuật số" nghĩa là rơi vào phạm vi quản lý của CFTC — và các thị trường hàng hóa vốn đã có hệ thống giám sát được xây dựng chặt chẽ: yêu cầu báo cáo đối với nhà giao dịch lớn, giới hạn vị thế. Giao dịch phái sinh tiền mã hóa, vốn tương đối lỏng lẻo cho đến nay, có thể đột nhiên phải đối mặt với các nghĩa vụ báo cáo và công bố thông tin tương tự như thị trường tương lai ngũ cốc hay dầu mỏ. Người ta dễ cho rằng "minh bạch về quy định = tự do hơn," nhưng trên thực tế, <a href="/blog/is-regulatory-clarity-actually-good.html">sự minh bạch đi kèm với sự giám sát chặt chẽ hơn</a> như một sự đánh đổi.</p>
   <p class="ko">지금 <a href="/blog/dat-companies-domino-risk.html">Strategy 같은 기업들</a>이 비트코인에만 집중 투자해온 이유 중 하나는, 다른 코인은 법적 리스크가 더 컸기 때문이에요. CLARITY로 이 격차가 좁혀지면, 새로 설립되는 DAT 기업들이 처음부터 비트코인 대신 SOL이나 다른 자산으로 포트폴리오를 짤 수 있는 길이 열립니다. 이게 뜻하는 건 — 앞으로의 기업 매수세가 비트코인에만 집중되지 않고 여러 자산으로 분산될 수 있다는 거예요. 비트코인 입장에서는 "기업발 매수세 독점"이라는 지금까지의 구조적 강점 하나가 옅어지는 결과로 이어질 수 있습니다.</p>
   <p class="en">Part of why companies like <a href="/blog/dat-companies-domino-risk.html">Strategy</a> have concentrated purely on Bitcoin is that other assets carried greater legal risk. Once CLARITY narrows that gap, newly formed DAT companies can build portfolios around SOL or other assets from day one instead of defaulting to Bitcoin. That means future corporate buying pressure could spread across multiple assets rather than concentrating on Bitcoin — diluting one of Bitcoin's structural advantages: near-exclusive corporate treasury demand.</p>
   <p class="ja">今<a href="/blog/dat-companies-domino-risk.html">Strategyのような企業</a>がビットコインだけに集中投資してきた理由の一つは、他のコインは法的リスクがより大きかったからです。CLARITYでこの格差が縮まれば、新たに設立されるDAT企業が最初からビットコインの代わりにSOLや他の資産でポートフォリオを組む道が開かれます。これが意味するのは — 今後の企業買いがビットコインだけに集中せず、複数の資産に分散し得るということです。ビットコインの立場からは、「企業発の買いの独占」というこれまでの構造的強みの一つが薄れる結果につながる可能性があります。</p>
 
   <p class="es">Parte de por qué empresas como <a href="/blog/dat-companies-domino-risk.html">Strategy</a> se han concentrado puramente en Bitcoin es que otros activos conllevaban mayor riesgo legal. Una vez que CLARITY reduzca esa brecha, las empresas DAT recién formadas pueden construir carteras alrededor de SOL u otros activos desde el primer día en lugar de recurrir por defecto a Bitcoin. Eso significa que la futura presión de compra corporativa podría dispersarse a través de múltiples activos en lugar de concentrarse en Bitcoin — diluyendo una de las ventajas estructurales de Bitcoin: la demanda casi exclusiva de tesorería corporativa.</p>
   <p class="de">Ein Teil davon, warum Unternehmen wie <a href="/blog/dat-companies-domino-risk.html">Strategy</a> sich rein auf Bitcoin konzentriert haben, ist, dass andere Assets größeres rechtliches Risiko trugen. Sobald CLARITY diese Lücke verringert, können neu gegründete DAT-Unternehmen von Tag eins an Portfolios um SOL oder andere Assets aufbauen, statt standardmäßig auf Bitcoin zu setzen. Das bedeutet, dass sich zukünftiger unternehmerischer Kaufdruck über mehrere Assets verteilen könnte, statt sich auf Bitcoin zu konzentrieren — was einen der strukturellen Vorteile von Bitcoin verwässert: die nahezu exklusive Unternehmens-Treasury-Nachfrage.</p>
+  <p class="fr">Une des raisons pour lesquelles des entreprises comme <a href="/blog/dat-companies-domino-risk.html">Strategy</a> se sont concentrées uniquement sur Bitcoin est que les autres actifs comportaient un risque juridique plus élevé. Une fois que CLARITY réduira cet écart, les entreprises DAT nouvellement créées pourront bâtir leurs portefeuilles autour de SOL ou d'autres actifs dès le premier jour, au lieu de se rabattre par défaut sur Bitcoin. Cela signifie que la pression d'achat des entreprises pourrait à l'avenir se répartir entre plusieurs actifs plutôt que se concentrer sur Bitcoin — diluant l'un des avantages structurels de Bitcoin : une demande de trésorerie d'entreprise quasi exclusive.</p>
+  <p class="pt">Parte do motivo pelo qual empresas como a <a href="/blog/dat-companies-domino-risk.html">Strategy</a> se concentraram puramente em Bitcoin é que outros ativos carregavam maior risco legal. Assim que o CLARITY reduzir essa diferença, empresas DAT recém-formadas poderão montar carteiras em torno de SOL ou outros ativos desde o primeiro dia, em vez de recorrer por padrão ao Bitcoin. Isso significa que a futura pressão de compra corporativa pode se espalhar por múltiplos ativos em vez de se concentrar em Bitcoin — diluindo uma das vantagens estruturais do Bitcoin: a demanda quase exclusiva de tesouraria corporativa.</p>
+  <p class="tr"><a href="/blog/dat-companies-domino-risk.html">Strategy</a> gibi şirketlerin yalnızca Bitcoin'e yoğunlaşmasının bir nedeni, diğer varlıkların daha büyük hukuki risk taşımasıydı. CLARITY bu farkı daralttığında, yeni kurulan DAT şirketleri, varsayılan olarak Bitcoin'e yönelmek yerine daha ilk günden SOL veya başka varlıklar etrafında portföy oluşturabilir. Bu da gelecekteki kurumsal alım baskısının Bitcoin'de yoğunlaşmak yerine birden fazla varlığa yayılabileceği anlamına gelir — bu da Bitcoin'in yapısal avantajlarından birini, yani neredeyse tekelinde olduğu kurumsal hazine talebini zayıflatır.</p>
+  <p class="vi">Một phần lý do các công ty như <a href="/blog/dat-companies-domino-risk.html">Strategy</a> chỉ tập trung đầu tư vào Bitcoin là vì các tài sản khác mang rủi ro pháp lý lớn hơn. Khi CLARITY thu hẹp khoảng cách đó, các công ty DAT mới thành lập có thể xây dựng danh mục xoay quanh SOL hoặc các tài sản khác ngay từ đầu, thay vì mặc định chọn Bitcoin. Điều đó có nghĩa là áp lực mua từ doanh nghiệp trong tương lai có thể lan tỏa sang nhiều tài sản thay vì tập trung vào Bitcoin — làm loãng một trong những lợi thế cấu trúc của Bitcoin: nhu cầu kho bạc doanh nghiệp gần như độc quyền.</p>
 
   <h2 class="ko">그래서 뭘 준비해야 하나</h2>
   <h2 class="en">So what should you actually prepare for</h2>
   <h2 class="ja">では何を準備すべきか</h2>
   <h2 class="es">Entonces Para Qué Deberías Prepararte Realmente</h2>
   <h2 class="de">Worauf du dich also tatsächlich vorbereiten solltest</h2>
+  <h2 class="fr">Alors, à quoi faut-il vraiment se préparer</h2>
+  <h2 class="pt">Então, Para Que Você Deve Realmente se Preparar</h2>
+  <h2 class="tr">Peki Asıl Neye Hazırlıklı Olmak Gerekiyor</h2>
+  <h2 class="vi">Vậy thực sự cần chuẩn bị cho điều gì</h2>
   <p class="ko">"CLARITY 통과 = 알트코인 상승"이라는 1차원적 반응만 준비하면, 정작 몇 달 뒤에 벌어지는 진짜 변화(커스터디 확대, 신규 기관 자금, 해외거래소 재편, DAT 기업 전략 변화)는 놓치게 돼요. 법안 통과 자체보다, <strong>그 이후 몇 달간 커스터디언들의 신규 자산 발표, ETF 신청 건수, 해외 거래소들의 대응</strong>을 순서대로 추적하는 게 훨씬 실전적인 준비입니다.</p>
   <p class="en">Preparing only for the one-dimensional reaction — "CLARITY passes, altcoins rally" — means missing the real changes that unfold months later: expanded custody, new institutional capital, offshore exchange restructuring, DAT companies shifting strategy. Rather than the bill's passage itself, tracking <strong>custodians' new asset announcements, ETF filing counts, and offshore exchanges' responses</strong> in sequence over the following months is the far more practical way to prepare.</p>
   <p class="ja">「CLARITY成立=アルトコイン上昇」という一次元的な反応だけ準備していると、数ヶ月後に起きる本当の変化(カストディ拡大、新規機関資金、海外取引所の再編、DAT企業の戦略転換)を見逃してしまいます。法案の成立自体より、<strong>その後数ヶ月間のカストディアンの新規資産発表、ETF申請件数、海外取引所の対応</strong>を順を追って追跡する方がはるかに実践的な準備です。</p>
   <p class="es">Preparándose solo para la reacción unidimensional — "CLARITY pasa, altcoins suben" — significa perder los cambios reales que se desarrollan meses después: custodia expandida, nuevo capital institucional, reestructuración de exchanges offshore, empresas DAT cambiando de estrategia. En lugar de la aprobación de la ley en sí, rastrear <strong>los anuncios de nuevos activos de custodios, el número de solicitudes de ETF, y las respuestas de los exchanges offshore</strong> en secuencia durante los meses siguientes es la forma mucho más práctica de prepararse.</p>
   <p class="de">Sich nur auf die eindimensionale Reaktion vorzubereiten — "CLARITY geht durch, Altcoins rallyen" — bedeutet, die echten Veränderungen zu verpassen, die sich Monate später entfalten: erweiterte Verwahrung, neues institutionelles Kapital, Umstrukturierung von Offshore-Börsen, DAT-Unternehmen, die ihre Strategie ändern. Statt der Verabschiedung des Gesetzes selbst ist es der weit praktischere Weg, sich vorzubereiten, indem man <strong>die Ankündigungen neuer Assets von Verwahrstellen, die Anzahl der ETF-Anmeldungen und die Reaktionen der Offshore-Börsen</strong> in den folgenden Monaten der Reihe nach verfolgt.</p>
+  <p class="fr">Ne se préparer qu'à la réaction unidimensionnelle — « CLARITY passe, les altcoins s'envolent » — revient à manquer les vrais changements qui se déploient des mois plus tard : conservation élargie, nouveau capital institutionnel, restructuration des exchanges offshore, changement de stratégie des entreprises DAT. Plutôt que l'adoption de la loi elle-même, suivre dans l'ordre <strong>les annonces de nouveaux actifs des dépositaires, le nombre de dépôts de dossiers ETF et les réactions des exchanges offshore</strong> au cours des mois suivants est une manière de se préparer bien plus concrète.</p>
+  <p class="pt">Preparar-se apenas para a reação unidimensional — "CLARITY é aprovado, altcoins disparam" — significa perder as mudanças reais que se desenrolam meses depois: custódia ampliada, novo capital institucional, reestruturação dos exchanges offshore, empresas DAT mudando de estratégia. Em vez da aprovação da lei em si, acompanhar em sequência <strong>os anúncios de novos ativos dos custodiantes, o número de pedidos de ETF e as respostas dos exchanges offshore</strong> ao longo dos meses seguintes é a forma muito mais prática de se preparar.</p>
+  <p class="tr">Yalnızca tek boyutlu tepkiye — "CLARITY geçer, altcoinler yükselir" — hazırlanmak, aylar sonra ortaya çıkacak asıl değişimleri kaçırmak demektir: genişleyen saklama hizmetleri, yeni kurumsal sermaye, offshore borsaların yeniden yapılanması, DAT şirketlerinin strateji değiştirmesi. Yasanın kabul edilmesinin kendisinden çok, sonraki aylar boyunca <strong>saklama kuruluşlarının yeni varlık duyurularını, ETF başvuru sayılarını ve offshore borsaların tepkilerini</strong> sırasıyla takip etmek, çok daha pratik bir hazırlık yoludur.</p>
+  <p class="vi">Chỉ chuẩn bị cho phản ứng một chiều — "CLARITY được thông qua, altcoin tăng giá" — nghĩa là bỏ lỡ những thay đổi thực sự diễn ra nhiều tháng sau đó: lưu ký mở rộng, dòng vốn tổ chức mới, các sàn giao dịch nước ngoài tái cơ cấu, các công ty DAT chuyển hướng chiến lược. Thay vì chỉ chú ý đến việc đạo luật được thông qua, việc theo dõi tuần tự <strong>các thông báo tài sản mới của đơn vị lưu ký, số lượng hồ sơ đăng ký ETF, và phản ứng của các sàn giao dịch nước ngoài</strong> trong những tháng tiếp theo mới là cách chuẩn bị thực tế hơn nhiều.</p>
 <?php require __DIR__.'/_footer.php'; ?>
