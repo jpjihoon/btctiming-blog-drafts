@@ -289,12 +289,144 @@
   </svg>
   <p class="de" style="font-size:12px;color:#71717a;margin-top:-10px">※ Beide Reihen sind auf Q4 2021 = 100 indexiert, um die relative Veränderung zu vergleichen, und nicht auf einer gemeinsamen Achse aus Rohwerten (Nutzer vs. Dollar) dargestellt. Quellen: vierteljährliche Aktionärsbriefe von Coinbase Global, öffentlich berichtete BTC-Quartalsendpreise.</p>
   </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Coinbase Users vs. Bitcoin Price (2021Q4→2022Q4)</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Indexed to Q4 2021 = 100 · user attrition fell far less than half the price collapse</text>
+    <line x1="60" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">100%</text>
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="214" fill="#71717a" font-size="13" text-anchor="end">50%</text>
+    <line x1="60" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0%</text>
+    <line x1="350" y1="66" x2="350" y2="340" stroke="#71717a" stroke-dasharray="3,3"/>
+    <text x="350" y="76" fill="#a1a1aa" font-size="13" text-anchor="middle">Terra/LUNA collapse (May 2022)</text>
+    <polyline points="90,80 220,130 350,135 480,146 610,151" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#fbbf24"/><circle cx="220" cy="130" r="4" fill="#fbbf24"/><circle cx="350" cy="135" r="4" fill="#fbbf24"/><circle cx="480" cy="146" r="4" fill="#fbbf24"/><circle cx="610" cy="151" r="4" fill="#fbbf24"/>
+    <text x="80" y="70" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">11.4M</text>
+    <text x="610" y="168" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">8.3M (-27%)</text>
+    <polyline points="90,80 220,84 350,228 480,231 610,247" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#f87171"/><circle cx="220" cy="84" r="4" fill="#f87171"/><circle cx="350" cy="228" r="4" fill="#f87171"/><circle cx="480" cy="231" r="4" fill="#f87171"/><circle cx="610" cy="247" r="4" fill="#f87171"/>
+    <text x="100" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start">$46.2k</text>
+    <text x="610" y="264" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle">$16.5k (-65%)</text>
+    <text x="90" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2021 Q4</text>
+    <text x="220" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q1</text>
+    <text x="350" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q2</text>
+    <text x="480" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q3</text>
+    <text x="610" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q4</text>
+    <line x1="200" y1="392" x2="220" y2="392" stroke="#fbbf24" stroke-width="3"/>
+    <text x="226" y="396" fill="#fbbf24" font-size="13" text-anchor="start">MTU (Coinbase monthly users)</text>
+    <line x1="470" y1="392" x2="490" y2="392" stroke="#f87171" stroke-width="3"/>
+    <text x="496" y="396" fill="#f87171" font-size="13" text-anchor="start">BTC price</text>
+  </svg>
+  <p class="fr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Both series are indexed to Q4 2021 = 100 to compare relative change, not plotted on one shared axis of raw units (users vs. dollars). Sources: Coinbase Global quarterly shareholder letters, publicly reported BTC quarter-end prices.</p>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Coinbase Users vs. Bitcoin Price (2021Q4→2022Q4)</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Indexed to Q4 2021 = 100 · user attrition fell far less than half the price collapse</text>
+    <line x1="60" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">100%</text>
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="214" fill="#71717a" font-size="13" text-anchor="end">50%</text>
+    <line x1="60" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0%</text>
+    <line x1="350" y1="66" x2="350" y2="340" stroke="#71717a" stroke-dasharray="3,3"/>
+    <text x="350" y="76" fill="#a1a1aa" font-size="13" text-anchor="middle">Terra/LUNA collapse (May 2022)</text>
+    <polyline points="90,80 220,130 350,135 480,146 610,151" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#fbbf24"/><circle cx="220" cy="130" r="4" fill="#fbbf24"/><circle cx="350" cy="135" r="4" fill="#fbbf24"/><circle cx="480" cy="146" r="4" fill="#fbbf24"/><circle cx="610" cy="151" r="4" fill="#fbbf24"/>
+    <text x="80" y="70" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">11.4M</text>
+    <text x="610" y="168" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">8.3M (-27%)</text>
+    <polyline points="90,80 220,84 350,228 480,231 610,247" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#f87171"/><circle cx="220" cy="84" r="4" fill="#f87171"/><circle cx="350" cy="228" r="4" fill="#f87171"/><circle cx="480" cy="231" r="4" fill="#f87171"/><circle cx="610" cy="247" r="4" fill="#f87171"/>
+    <text x="100" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start">$46.2k</text>
+    <text x="610" y="264" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle">$16.5k (-65%)</text>
+    <text x="90" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2021 Q4</text>
+    <text x="220" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q1</text>
+    <text x="350" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q2</text>
+    <text x="480" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q3</text>
+    <text x="610" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q4</text>
+    <line x1="200" y1="392" x2="220" y2="392" stroke="#fbbf24" stroke-width="3"/>
+    <text x="226" y="396" fill="#fbbf24" font-size="13" text-anchor="start">MTU (Coinbase monthly users)</text>
+    <line x1="470" y1="392" x2="490" y2="392" stroke="#f87171" stroke-width="3"/>
+    <text x="496" y="396" fill="#f87171" font-size="13" text-anchor="start">BTC price</text>
+  </svg>
+  <p class="pt" style="font-size:12px;color:#71717a;margin-top:-10px">※ Both series are indexed to Q4 2021 = 100 to compare relative change, not plotted on one shared axis of raw units (users vs. dollars). Sources: Coinbase Global quarterly shareholder letters, publicly reported BTC quarter-end prices.</p>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Coinbase Users vs. Bitcoin Price (2021Q4→2022Q4)</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Indexed to Q4 2021 = 100 · user attrition fell far less than half the price collapse</text>
+    <line x1="60" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">100%</text>
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="214" fill="#71717a" font-size="13" text-anchor="end">50%</text>
+    <line x1="60" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0%</text>
+    <line x1="350" y1="66" x2="350" y2="340" stroke="#71717a" stroke-dasharray="3,3"/>
+    <text x="350" y="76" fill="#a1a1aa" font-size="13" text-anchor="middle">Terra/LUNA collapse (May 2022)</text>
+    <polyline points="90,80 220,130 350,135 480,146 610,151" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#fbbf24"/><circle cx="220" cy="130" r="4" fill="#fbbf24"/><circle cx="350" cy="135" r="4" fill="#fbbf24"/><circle cx="480" cy="146" r="4" fill="#fbbf24"/><circle cx="610" cy="151" r="4" fill="#fbbf24"/>
+    <text x="80" y="70" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">11.4M</text>
+    <text x="610" y="168" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">8.3M (-27%)</text>
+    <polyline points="90,80 220,84 350,228 480,231 610,247" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#f87171"/><circle cx="220" cy="84" r="4" fill="#f87171"/><circle cx="350" cy="228" r="4" fill="#f87171"/><circle cx="480" cy="231" r="4" fill="#f87171"/><circle cx="610" cy="247" r="4" fill="#f87171"/>
+    <text x="100" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start">$46.2k</text>
+    <text x="610" y="264" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle">$16.5k (-65%)</text>
+    <text x="90" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2021 Q4</text>
+    <text x="220" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q1</text>
+    <text x="350" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q2</text>
+    <text x="480" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q3</text>
+    <text x="610" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q4</text>
+    <line x1="200" y1="392" x2="220" y2="392" stroke="#fbbf24" stroke-width="3"/>
+    <text x="226" y="396" fill="#fbbf24" font-size="13" text-anchor="start">MTU (Coinbase monthly users)</text>
+    <line x1="470" y1="392" x2="490" y2="392" stroke="#f87171" stroke-width="3"/>
+    <text x="496" y="396" fill="#f87171" font-size="13" text-anchor="start">BTC price</text>
+  </svg>
+  <p class="tr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Both series are indexed to Q4 2021 = 100 to compare relative change, not plotted on one shared axis of raw units (users vs. dollars). Sources: Coinbase Global quarterly shareholder letters, publicly reported BTC quarter-end prices.</p>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Coinbase Users vs. Bitcoin Price (2021Q4→2022Q4)</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Indexed to Q4 2021 = 100 · user attrition fell far less than half the price collapse</text>
+    <line x1="60" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">100%</text>
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="214" fill="#71717a" font-size="13" text-anchor="end">50%</text>
+    <line x1="60" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0%</text>
+    <line x1="350" y1="66" x2="350" y2="340" stroke="#71717a" stroke-dasharray="3,3"/>
+    <text x="350" y="76" fill="#a1a1aa" font-size="13" text-anchor="middle">Terra/LUNA collapse (May 2022)</text>
+    <polyline points="90,80 220,130 350,135 480,146 610,151" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#fbbf24"/><circle cx="220" cy="130" r="4" fill="#fbbf24"/><circle cx="350" cy="135" r="4" fill="#fbbf24"/><circle cx="480" cy="146" r="4" fill="#fbbf24"/><circle cx="610" cy="151" r="4" fill="#fbbf24"/>
+    <text x="80" y="70" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">11.4M</text>
+    <text x="610" y="168" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">8.3M (-27%)</text>
+    <polyline points="90,80 220,84 350,228 480,231 610,247" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="90" cy="80" r="4" fill="#f87171"/><circle cx="220" cy="84" r="4" fill="#f87171"/><circle cx="350" cy="228" r="4" fill="#f87171"/><circle cx="480" cy="231" r="4" fill="#f87171"/><circle cx="610" cy="247" r="4" fill="#f87171"/>
+    <text x="100" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start">$46.2k</text>
+    <text x="610" y="264" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle">$16.5k (-65%)</text>
+    <text x="90" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2021 Q4</text>
+    <text x="220" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q1</text>
+    <text x="350" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q2</text>
+    <text x="480" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q3</text>
+    <text x="610" y="365" fill="#d4d4d8" font-size="13" text-anchor="middle">2022 Q4</text>
+    <line x1="200" y1="392" x2="220" y2="392" stroke="#fbbf24" stroke-width="3"/>
+    <text x="226" y="396" fill="#fbbf24" font-size="13" text-anchor="start">MTU (Coinbase monthly users)</text>
+    <line x1="470" y1="392" x2="490" y2="392" stroke="#f87171" stroke-width="3"/>
+    <text x="496" y="396" fill="#f87171" font-size="13" text-anchor="start">BTC price</text>
+  </svg>
+  <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Both series are indexed to Q4 2021 = 100 to compare relative change, not plotted on one shared axis of raw units (users vs. dollars). Sources: Coinbase Global quarterly shareholder letters, publicly reported BTC quarter-end prices.</p>
+  </div>
 
   <h2 class="ko">2026년, 정반대 방향의 무관심 — 가격은 오르는데 아무도 보지 않는다</h2>
   <h2 class="en">2026: Indifference in the Opposite Direction — Nobody Is Watching While the Price Climbs</h2>
   <h2 class="ja">2026年、正反対方向の無関心——価格は上がっているのに誰も見ていない</h2>
   <h2 class="es">2026: Indiferencia en Sentido Contrario — Nadie Mira Mientras el Precio Sube</h2>
   <h2 class="de">2026: Gleichgültigkeit in die entgegengesetzte Richtung — Niemand schaut hin, während der Preis steigt</h2>
+  <h2 class="fr">2026 : une indifférence en sens inverse — Personne ne regarde alors que le prix grimpe</h2>
+  <h2 class="pt">2026: indiferença na direção oposta — Ninguém está olhando enquanto o preço sobe</h2>
+  <h2 class="tr">2026: Tam tersi yönde bir kayıtsızlık — Fiyat yükselirken kimse izlemiyor</h2>
+  <h2 class="vi">2026: Sự thờ ơ theo chiều ngược lại — Không ai theo dõi trong khi giá tăng</h2>
 
   <p class="ko">그런데 2026년 지금 시점에는 이 패턴을 한 번 더 비틀어야 할 새로운 증거가 나타나고 있다. 2026년 5월 중순, 전 세계 구글 트렌드에서 '비트코인' 검색량이 2022~2023년 약세장 최저점 수준보다도 더 낮은 수준으로 떨어졌다. 당시 비트코인 가격이 1만 6,000달러 안팎이었던 것과 달리, 2026년 5월 현재 가격은 7만 4,000~8만 달러 구간으로 2022년 저점의 4~5배에 달한다. 가격은 역사적으로 높은 수준을 유지하고 있는데, 정작 그 가격을 검색해서 확인하는 사람의 수는 진짜 약세장 바닥보다도 적다.</p>
   <p class="en">New evidence emerging right now, in 2026, gives this pattern one more twist. In mid-May 2026, worldwide Google search volume for "Bitcoin" fell below the level it hit at the very floor of the 2022–2023 bear market. Back then, Bitcoin traded around $16,000; as of May 2026, it trades in the $74,000–$80,000 range — four to five times the 2022 low. The price is holding at historically elevated levels, and yet fewer people are searching to check it than did at the actual bottom of a real bear market.</p>
@@ -302,6 +434,10 @@
 
   <p class="es">Pero justo ahora, en 2026, está surgiendo nueva evidencia que le da otra vuelta a este patrón. A mediados de mayo de 2026, el volumen mundial de búsquedas en Google para "Bitcoin" cayó por debajo del nivel que tocó en el mismísimo piso del mercado bajista de 2022–2023. En aquel entonces, bitcoin cotizaba alrededor de $16,000; en mayo de 2026 cotiza en el rango de $74,000–$80,000 — de cuatro a cinco veces el mínimo de 2022. El precio se mantiene en niveles históricamente elevados, y sin embargo menos gente lo busca para revisarlo que en el fondo real de un mercado bajista.</p>
   <p class="de">Doch gerade jetzt, 2026, taucht neue Evidenz auf, die diesem Muster noch eine weitere Wendung gibt. Mitte Mai 2026 fiel das weltweite Google-Suchvolumen für "Bitcoin" unter das Niveau, das es am absoluten Tiefpunkt des Bärenmarktes 2022–2023 erreicht hatte. Damals notierte Bitcoin bei rund 16.000 Dollar; im Mai 2026 liegt der Kurs bei 74.000 bis 80.000 Dollar — dem Vier- bis Fünffachen des Tiefs von 2022. Der Preis hält sich auf historisch hohem Niveau, und trotzdem suchen weniger Menschen danach, um ihn nachzusehen, als am wirklichen Boden eines echten Bärenmarktes.</p>
+  <p class="fr">De nouvelles preuves émergeant en ce moment même, en 2026, donnent à ce schéma un tour supplémentaire. À la mi-mai 2026, le volume mondial de recherches Google pour « Bitcoin » est tombé sous le niveau atteint au tout fond du marché baissier de 2022-2023. À l'époque, le bitcoin s'échangeait autour de 16 000 $ ; en mai 2026, il évolue dans une fourchette de 74 000 à 80 000 $ — soit quatre à cinq fois le plancher de 2022. Le prix se maintient à des niveaux historiquement élevés, et pourtant moins de gens le recherchent pour le vérifier qu'au véritable fond d'un vrai marché baissier.</p>
+  <p class="pt">Novas evidências que surgem agora, em 2026, dão a esse padrão mais uma reviravolta. Em meados de maio de 2026, o volume mundial de buscas no Google por "Bitcoin" caiu abaixo do nível atingido bem no fundo do mercado baixista de 2022–2023. Naquela época, o bitcoin era negociado em torno de US$ 16.000; em maio de 2026, ele é negociado na faixa de US$ 74.000–US$ 80.000 — de quatro a cinco vezes a mínima de 2022. O preço se mantém em níveis historicamente elevados, e ainda assim menos gente busca por ele para verificá-lo do que buscava no fundo real de um mercado baixista de verdade.</p>
+  <p class="tr">2026'da, tam da şu anda ortaya çıkan yeni kanıtlar bu örüntüye bir bükülme daha katıyor. Mayıs 2026 ortasında, dünya genelinde "Bitcoin" için Google arama hacmi, 2022-2023 ayı piyasasının tam dibinde ulaştığı seviyenin altına düştü. O dönemde Bitcoin yaklaşık 16.000 dolardan işlem görüyordu; Mayıs 2026 itibarıyla 74.000-80.000 dolar aralığında işlem görüyor — 2022 dibinin dört ila beş katı. Fiyat tarihsel olarak yüksek seviyelerde tutunurken, onu kontrol etmek için arama yapan insan sayısı gerçek bir ayı piyasasının gerçek dibindekinden daha az.</p>
+  <p class="vi">Bằng chứng mới xuất hiện ngay lúc này, năm 2026, khiến khuôn mẫu này thêm một bước ngoặt nữa. Vào giữa tháng 5 năm 2026, khối lượng tìm kiếm Google trên toàn thế giới cho từ khóa "Bitcoin" đã giảm xuống dưới mức nó từng chạm đáy trong thị trường giá xuống 2022–2023. Khi đó, Bitcoin giao dịch quanh mức 16.000 đô la; tính đến tháng 5 năm 2026, nó giao dịch trong khoảng 74.000–80.000 đô la — gấp bốn đến năm lần đáy năm 2022. Giá đang neo ở mức cao chưa từng có trong lịch sử, vậy mà số người tìm kiếm để kiểm tra nó lại ít hơn cả lúc thị trường giá xuống thực sự chạm đáy.</p>
 
   <p class="ko">이는 손실의 고통을 피하려는 전형적 타조 효과와는 결이 다른 무관심이다. 분석가들은 이 괴리를, 기관과 ETF, 기업 재무 매수자가 가격 형성을 주도하게 되면서 개인 투자자의 관심이 구조적으로 밀려난 결과로 설명한다 — 실제로 2026년 5월 14일 비트파이넥스 리서치는 기업의 비트코인 재무 매수량이 전월 대비 약 80% 급감했다고 보고했다. 이유는 다르지만 결과는 같다. 정보를 확인하는 행위와 그 정보가 자신의 의사결정에 미치는 영향 사이의 연결이 끊어졌다는 것이다. 회피의 이유가 고통이든 소외감이든, 자신만의 점검 규칙 없이 시세를 방치해 온 사람에게는 다음 국면 전환 신호를 가장 늦게 알아차릴 위험이 똑같이 남는다.</p>
   <p class="en">This is a different flavor of indifference than the classic ostrich effect's flight from the pain of loss. Analysts attribute the gap to institutions, ETFs, and corporate treasury buyers taking over price formation, structurally crowding out retail attention — and on May 14, 2026, Bitfinex Research reported that corporate Bitcoin treasury purchases had fallen roughly 80% month over month. The reason differs, but the result is identical: the link between checking information and that information mattering to one's own decisions has been severed. Whether the avoidance comes from pain or from feeling sidelined, anyone who has left the price unattended without a personal review rule carries the same risk of being the last to notice when the next turn comes.</p>
@@ -309,12 +445,20 @@
 
   <p class="es">Esta es una indiferencia de un sabor distinto a la huida clásica del efecto avestruz frente al dolor de la pérdida. Los analistas atribuyen esta brecha a que instituciones, ETFs y compradores de tesorería corporativa han tomado el control de la formación del precio, desplazando estructuralmente la atención minorista — y el 14 de mayo de 2026, Bitfinex Research reportó que las compras corporativas de tesorería en bitcoin habían caído cerca de un 80% mes contra mes. La razón es distinta, pero el resultado es idéntico: se ha cortado el vínculo entre revisar la información y que esa información importe para las propias decisiones. Ya sea que la evitación venga del dolor o de sentirse desplazado, quien ha dejado el precio sin vigilancia sin una regla personal de revisión carga con el mismo riesgo de ser el último en notar el próximo giro.</p>
   <p class="de">Analysten führen diese Lücke darauf zurück, dass Institutionen, ETFs und Unternehmens-Treasury-Käufer die Preisbildung übernommen haben und die Aufmerksamkeit von Privatanlegern strukturell verdrängen — und am 14. Mai 2026 berichtete Bitfinex Research, dass die Bitcoin-Treasury-Käufe von Unternehmen im Monatsvergleich um rund 80 Prozent eingebrochen waren. Der Grund ist ein anderer, das Ergebnis identisch: Die Verbindung zwischen dem Nachsehen von Informationen und deren Bedeutung für die eigene Entscheidung ist gekappt. Ob die Vermeidung aus Schmerz oder aus dem Gefühl kommt, an den Rand gedrängt zu werden — wer den Kurs ohne eigene Prüfregel unbeobachtet gelassen hat, trägt dasselbe Risiko, den nächsten Wendepunkt als Letzter zu bemerken.</p>
+  <p class="fr">Il s'agit d'une indifférence d'un genre différent de la fuite classique de l'effet autruche face à la douleur de la perte. Les analystes attribuent cet écart au fait que les institutions, les ETF et les acheteurs de trésorerie d'entreprise ont pris le contrôle de la formation des prix, évinçant structurellement l'attention des particuliers — et le 14 mai 2026, Bitfinex Research a rapporté que les achats de trésorerie bitcoin des entreprises avaient chuté d'environ 80 % d'un mois sur l'autre. La raison diffère, mais le résultat est identique : le lien entre vérifier l'information et le fait que cette information compte pour ses propres décisions a été rompu. Que l'évitement vienne de la douleur ou du sentiment d'être mis à l'écart, quiconque a laissé le prix sans surveillance sans règle de vérification personnelle court le même risque d'être le dernier à remarquer le prochain retournement.</p>
+  <p class="pt">Essa é uma indiferença de outro tipo, diferente da fuga clássica do efeito avestruz diante da dor da perda. Os analistas atribuem essa lacuna ao fato de instituições, ETFs e compradores de tesouraria corporativa terem assumido a formação de preço, deslocando estruturalmente a atenção do varejo — e, em 14 de maio de 2026, a Bitfinex Research relatou que as compras corporativas de tesouraria em bitcoin haviam caído cerca de 80% na comparação mensal. O motivo é diferente, mas o resultado é idêntico: o elo entre verificar a informação e essa informação importar para as próprias decisões foi rompido. Seja a evitação motivada pela dor ou pela sensação de estar à margem, quem deixou o preço sem acompanhamento sem uma regra pessoal de verificação carrega o mesmo risco de ser o último a perceber a próxima virada.</p>
+  <p class="tr">Bu, klasik devekuşu etkisinin kayıp acısından kaçışından farklı bir kayıtsızlık türü. Analistler bu farkı, kurumların, ETF'lerin ve şirket hazine alıcılarının fiyat oluşumunu ele geçirmesine ve bunun bireysel yatırımcı ilgisini yapısal olarak dışlamasına bağlıyor — nitekim 14 Mayıs 2026'da Bitfinex Research, şirketlerin Bitcoin hazine alımlarının aydan aya yaklaşık yüzde 80 düştüğünü bildirdi. Neden farklı olsa da sonuç aynı: bilgiyi kontrol etmekle o bilginin kendi kararları için önem taşıması arasındaki bağ kopmuş durumda. Kaçınma ister acıdan ister dışlanmışlık hissinden kaynaklansın, kişisel bir kontrol kuralı olmadan fiyatı denetimsiz bırakan herkes, bir sonraki dönüşü fark eden en son kişi olma riskini aynı şekilde taşır.</p>
+  <p class="vi">Đây là một dạng thờ ơ khác với việc né tránh nỗi đau thua lỗ kinh điển của hiệu ứng đà điểu. Các nhà phân tích cho rằng khoảng cách này là do các tổ chức, quỹ ETF và bên mua ngân quỹ doanh nghiệp đã chiếm lĩnh việc hình thành giá, đẩy sự chú ý của nhà đầu tư cá nhân ra khỏi cuộc chơi một cách có tính cấu trúc — và vào ngày 14 tháng 5 năm 2026, Bitfinex Research báo cáo rằng lượng mua ngân quỹ Bitcoin của doanh nghiệp đã giảm khoảng 80% so với tháng trước. Lý do khác nhau, nhưng kết quả thì giống hệt: mối liên kết giữa việc kiểm tra thông tin và việc thông tin đó có ý nghĩa với quyết định của chính mình đã bị cắt đứt. Dù sự né tránh đến từ nỗi đau hay cảm giác bị gạt ra ngoài lề, bất kỳ ai bỏ mặc giá không theo dõi mà không có quy tắc kiểm tra cá nhân đều mang cùng một rủi ro: trở thành người cuối cùng nhận ra khi bước ngoặt tiếp theo xảy đến.</p>
 
   <h2 class="ko">감정이 아니라 일정이 확인의 방아쇠가 되어야 한다</h2>
   <h2 class="en">The Trigger for Checking Should Be a Schedule, Not an Emotion</h2>
   <h2 class="ja">確認の引き金は感情ではなく予定であるべきだ</h2>
   <h2 class="es">El Disparador para Revisar Debe Ser un Horario, No una Emoción</h2>
   <h2 class="de">Der Auslöser fürs Nachsehen sollte ein Zeitplan sein, keine Emotion</h2>
+  <h2 class="fr">Le déclencheur de la vérification doit être un horaire, pas une émotion</h2>
+  <h2 class="pt">O gatilho para verificar deve ser uma agenda, não uma emoção</h2>
+  <h2 class="tr">Kontrol etmenin tetikleyicisi bir duygu değil, bir takvim olmalı</h2>
+  <h2 class="vi">Yếu tố kích hoạt việc kiểm tra nên là một lịch trình, không phải cảm xúc</h2>
 
   <p class="ko">타조 효과에 대한 조언이 "그러니 매일 확인하라"는 말로 끝나면, 미어캣 효과가 보여준 위험 — 하락 초입의 과잉 확인이 패닉을 증폭시키는 문제 — 를 그대로 방치하는 셈이다. 실제로 작동하는 규칙은 확인의 방아쇠를 감정이나 가격 변동이 아니라 미리 정해둔 일정과 지표 임계값으로 못 박는 것이다. 매주 정해진 요일에만 포트폴리오를 점검하고, 그 사이에는 가격을 보더라도 아무 행동도 취하지 않는다는 규칙을 스스로에게 부과하는 방식이 그 예다.</p>
   <p class="en">Advice about the ostrich effect that ends with "so check every day" leaves the risk the meerkat-effect research exposed — that overchecking early in a decline amplifies panic — completely unaddressed. A rule that actually works pins the trigger for checking to a fixed schedule and indicator thresholds instead of emotion or price movement. One example is checking the portfolio only on a set day each week, and imposing on yourself the rule that even if you happen to see the price in between, you take no action on it.</p>
