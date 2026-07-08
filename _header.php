@@ -133,22 +133,38 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <meta name="twitter:title" content="<?= h($M['title' . $suf] ?? $M['title_en']) ?>">
 <meta name="twitter:description" content="<?= h($pageDesc) ?>">
 <meta name="twitter:image" content="https://btctiming.com/og.php?slug=<?= h($slug) ?>&lang=<?= h($lang) ?>">
+<?php
+// 구글 뉴스/검색용 구조화 데이터.
+// 뉴스성 카테고리(시황분석·코인뉴스·주간리포트)는 NewsArticle, 나머지(가이드·칼럼·패치)는 Article로 구분.
+// NewsArticle은 구글 뉴스가 "시의성 있는 기사"로 인식하는 더 강한 신호다.
+$__newsCats = ['news', 'coinnews', 'weekly'];
+$__schemaType = in_array($catKey, $__newsCats, true) ? 'NewsArticle' : 'Article';
+// image는 고정 배너 대신 기사별 OG 이미지(og.php)를 사용 — 각 기사의 고유 이미지로 노출.
+$__ogImage = "https://btctiming.com/og.php?slug={$slug}&lang={$lang}";
+// dateModified: 메타에 수정일(dateModified)이 있으면 그것을, 없으면 발행일을 사용.
+$__dateMod = $M['dateModified'] ?? $M['date'];
+?>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "<?= $__schemaType ?>",
   "headline": <?= json_encode($M['title' . $suf] ?? $M['title_en'], JSON_UNESCAPED_UNICODE) ?>,
   "description": <?= json_encode($pageDesc, JSON_UNESCAPED_UNICODE) ?>,
-  "image": "https://btctiming.com/og-image.png",
-  "datePublished": "<?= h($M['date']) ?>",
-  "dateModified": "<?= h($M['date']) ?>",
+  "image": [<?= json_encode($__ogImage, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>],
+  "datePublished": "<?= h($M['date']) ?>T09:00:00+09:00",
+  "dateModified": "<?= h($__dateMod) ?>T09:00:00+09:00",
   "inLanguage": "<?= $htmlLang ?>",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "<?= h($canonical) ?>" },
-  "author": { "@type": "Organization", "name": "BTCtiming.com" },
+  "author": {
+    "@type": "Organization",
+    "name": "BTCtiming.com",
+    "url": "https://btctiming.com/"
+  },
   "publisher": {
     "@type": "Organization",
     "name": "BTCtiming.com",
-    "logo": { "@type": "ImageObject", "url": "https://btctiming.com/og-image.png" }
+    "url": "https://btctiming.com/",
+    "logo": { "@type": "ImageObject", "url": "https://btctiming.com/icon-512.png", "width": 512, "height": 512 }
   }
 }
 </script>
