@@ -13,13 +13,7 @@ require __DIR__ . '/glossary_gauge.php';
 // 언어 결정(공용 규칙): URL ?lang 우선 → 없으면 쿠키(마지막 선택) → ko
 // 쿠키를 보기 때문에, 뒤로가기로 lang 없는 URL에 와도 서버가 마지막 선택 언어로 렌더한다.
 // (그래서 JS로 다시 로드해 고칠 필요가 없어 히스토리가 꼬이지 않는다.)
-if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
-    $__gLang = $_GET['lang'];                          // URL에 명시되면 그걸 존중(공유 링크 등)
-} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-    $__gLang = $_COOKIE['blogLang'];                  // 없으면 마지막 선택 언어(쿠키)
-} else {
-    $__gLang = 'ko';
-}
+$__gLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 $L = fn($arr) => $arr[$__gLang] ?? $arr['en'];
 
 // 요청 지표
@@ -266,10 +260,13 @@ require __DIR__ . '/_guide_head.php';
   }
 
   function setLangCookie(lang){
+    // 저장은 공통 유틸(lang-common.js)에 위임. 단 이 인라인은 _guide_foot(공통 유틸 로드)보다
+    // 먼저 실행될 수 있어, BTLang이 아직 없으면 직접 저장(폴백).
+    if (window.BTLang) { window.BTLang.save(lang); return; }
     try {
-      // 1년 유효, 사이트 전역 경로. SameSite=Lax로 일반 내비게이션에서 전송됨.
       document.cookie = 'blogLang=' + encodeURIComponent(lang) +
         '; path=/; max-age=31536000; SameSite=Lax';
+      localStorage.setItem('blogLang', lang);
     } catch(_){}
   }
 

@@ -16,13 +16,7 @@ $__canon = $GUIDE_CANONICAL ?? 'https://btctiming.com/';
 // 쿠키를 읽으므로 뒤로가기로 lang 없는 URL에 와도 서버가 마지막 선택 언어로 렌더한다.
 // (JS로 다시 로드해 고칠 필요가 없어 히스토리가 꼬이지 않는다.)
 // 이 파일을 include하는 모든 안내 페이지(about/privacy/terms/rss/sitemap/glossary)에 일괄 적용됨.
-if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
-    $__ghLang = $_GET['lang'];                                  // URL 명시(공유 링크 등) 우선
-} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-    $__ghLang = $_COOKIE['blogLang'];                          // 마지막 선택 언어
-} else {
-    $__ghLang = 'ko';
-}
+$__ghLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 $__ghLangKeys = array_keys(SUPPORTED_LANGS);
 ?>
 <!DOCTYPE html>

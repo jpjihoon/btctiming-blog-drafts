@@ -15,13 +15,7 @@ $__coinsJson = json_encode($__coinsForJs, JSON_UNESCAPED_UNICODE);
 // 지원 언어 목록은 config.php의 SUPPORTED_LANGS 하나로 관리 — 새 언어 추가 시 여기 코드는 안 건드려도 됨.
 // 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
 // 쿠키를 읽으므로 뒤로가기로 lang 없는 URL(대시보드)에 와도 마지막 선택 언어로 렌더된다.
-if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
-    $lang = $_GET['lang'];
-} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-    $lang = $_COOKIE['blogLang'];
-} else {
-    $lang = 'ko';
-}
+$lang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 $htmlLang = $lang;
 $urlSuffix = langSuffix($lang);
 
@@ -1191,8 +1185,10 @@ $__seoSub = [
 const CATEGORY_LIST = <?= json_encode(array_keys(require __DIR__ . '/blog/_category_meta.php')) ?>;
 const LANG_META = <?= json_encode(array_map(fn($l) => ['code' => $l['code'], 'name' => $l['flag'] . ' ' . $l['name']], SUPPORTED_LANGS), JSON_UNESCAPED_UNICODE) ?>;
 const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
+window.BT_SUPPORTED_LANGS = SUPPORTED_LANG_CODES; // 공통 언어 유틸(lang-common.js)이 참조
 </script>
 <script>window.COINS_AUTO = <?= $__coinsJson ?>;</script>
+<script src="/lang-common.js" defer></script>
 <script src="/app.js" defer></script>
 
 <!-- ═══════════════════════════════════════════════════════ -->

@@ -21,10 +21,13 @@
   · <span class="l-ko">투자 조언이 아닙니다</span><span class="l-en">Not financial advice</span><span class="l-ja">投資助言ではありません</span><span class="l-es">No es asesoramiento financiero</span><span class="l-de">Keine Finanzberatung</span><span class="l-fr">Pas un conseil financier</span><span class="l-pt">Não é aconselhamento financeiro</span><span class="l-tr">Yatırım tavsiyesi değildir</span><span class="l-vi">Không phải lời khuyên tài chính</span>.
 </div>
 
+<script>window.BT_SUPPORTED_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;</script>
+<script src="/lang-common.js"></script>
 <script>
 var GUIDE_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE',fr:'FR',pt:'PT',tr:'TR',vi:'VI'};
 function currentLang(){
+  if(window.BTLang) return BTLang.get(false);   // 공통 유틸에 위임
   try{const p=new URLSearchParams(location.search).get('lang');if(GUIDE_LANGS.includes(p))return p;}catch(e){}
   try{const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);const c=m?decodeURIComponent(m[1]):null;if(GUIDE_LANGS.includes(c))return c;}catch(e){}
   try{const s=localStorage.getItem('blogLang');if(GUIDE_LANGS.includes(s))return s;}catch(e){}
@@ -34,10 +37,9 @@ function applyLang(lang){
   document.documentElement.lang=lang;
   const l=document.getElementById('langTriggerLabel');if(l)l.textContent=LANG_NAMES[lang]||'KO';
   document.querySelectorAll('.lang-menu-item').forEach(el=>el.classList.toggle('active',el.dataset.lang===lang));
-  try{localStorage.setItem('blogLang',lang);}catch(e){}
-  // 쿠키에도 저장 → 서버(_guide_head)가 URL ?lang 없을 때 이걸 읽어 마지막 선택 언어로 렌더.
-  // 그래서 새 페이지로 이동하면 마지막 언어가 유지된다.
-  try{document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}
+  // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
+  if(window.BTLang){BTLang.save(lang);}
+  else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
   if(typeof window.onGuideLang==='function'){try{window.onGuideLang(lang);}catch(e){}}
 }
 function L(lang){applyLang(lang);closeLangMenu();const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());}

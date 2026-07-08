@@ -152,6 +152,29 @@ function langSuffix(string $lang): string {
 }
 
 /**
+ * 페이지 언어 결정 — 사이트 전역 단일 규칙.
+ * 우선순위: URL ?lang= (공유 링크·사이트맵 등 명시적 진입) > 쿠키 blogLang(마지막 선택) > ko.
+ *
+ * 이 함수 하나를 대시보드·용어집·블로그·안내 페이지가 모두 호출하므로,
+ * 언어 결정 규칙을 바꿀 일이 생기면 여기만 고치면 전 페이지에 일관 적용된다.
+ * (예전엔 이 로직이 페이지마다 복붙돼 있어, 한 곳만 고치면 다른 페이지에서 어긋났음.)
+ *
+ * 쿠키를 읽기 때문에, URL에 ?lang이 없는 페이지로 (링크·뒤로가기로) 이동해도
+ * 서버가 처음부터 마지막 선택 언어로 렌더한다 → JS로 다시 로드해 고칠 필요가 없다.
+ *
+ * @return string SUPPORTED_LANGS에 존재하는 언어 코드 (기본 'ko')
+ */
+function resolveLang(): string {
+    if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+        return $_GET['lang'];
+    }
+    if (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+        return $_COOKIE['blogLang'];
+    }
+    return 'ko';
+}
+
+/**
  * HTTP GET 요청 헬퍼 (단건, cURL 기반, 타임아웃/User-Agent 설정)
  * 병렬 호출이 불가능한 단일 백업/재시도 용도로만 사용.
  * @param string $url 요청 URL
