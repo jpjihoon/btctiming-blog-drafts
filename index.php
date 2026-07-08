@@ -259,7 +259,9 @@ foreach ($__langKeys as $__l) {
     $readFmt = ['ko'=>fn($r)=>" · 약 {$r}분",'en'=>fn($r)=>" · ~{$r} min read",'ja'=>fn($r)=>" · 約{$r}分",'es'=>fn($r)=>" · ~{$r} min",'de'=>fn($r)=>" · ~{$r} Min.",'fr'=>fn($r)=>" · ~{$r} min",'pt'=>fn($r)=>" · ~{$r} min",'tr'=>fn($r)=>" · ~{$r} dk",'vi'=>fn($r)=>" · ~{$r} phút"];
     // 각 언어의 표시 클래스: ko는 "ko", 나머지는 "{lang}-show"
     $clsOf = fn($l) => ($l === 'ko') ? 'ko' : ($l . '-show');
-    $styOf = fn($l) => ($l === 'ko') ? '' : ' style="display:none"';
+    // 인라인 숨김: 서버가 렌더한 현재 언어($__blLang)면 숨기지 않는다(첫 화면부터 보이도록, 깜빡임 방지).
+    // 그 외 언어는 display:none으로 숨겨두고, 언어 전환 시 JS(setLang)가 인라인 style을 조정한다.
+    $styOf = fn($l) => ($l === $__blLang) ? '' : ' style="display:none"';
 ?>
     <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
@@ -381,7 +383,10 @@ function restoreBlogLang() {
     // 저장값이 없을 때만 URL을, 그것도 없으면 ko.
     const pick = VALID.includes(stored) ? stored
                : VALID.includes(urlLang) ? urlLang : 'ko';
-    if(pick !== document.getElementById('html-root').lang) setLang(pick);
+    // 서버가 <html class="xx">로 이미 올바른 언어를 렌더했더라도, 카드 등의 요소에는
+    // 인라인 style="display:none"이 남아 있어(초기 숨김) CSS만으로는 표시되지 않는다.
+    // 따라서 pick과 현재 lang이 같아도 최초 1회는 setLang을 호출해 인라인 style을 정리한다.
+    setLang(pick);
   } catch(e){}
 }
 restoreBlogLang();
