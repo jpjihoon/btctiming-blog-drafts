@@ -229,6 +229,10 @@
   <h2 class="ja">注意すべき点</h2>
   <h2 class="es">Advertencias Importantes</h2>
   <h2 class="de">Wichtige Einschränkungen</h2>
+  <h2 class="fr">Mises en garde importantes</h2>
+  <h2 class="pt">Ressalvas Importantes</h2>
+  <h2 class="tr">Önemli Uyarılar</h2>
+  <h2 class="vi">Những Lưu Ý Quan Trọng</h2>
   <ul class="ko">
     <li><strong>단독 신호로 쓰지 말 것.</strong> 프리미엄은 몇 시간~며칠 단위로 빠르게 오르내리는 단기 지표라, 추세보다는 방향 확인용으로 활용해야 합니다.</li>
     <li><strong>환율·수수료 왜곡 가능.</strong> 인출 지연, 유동성 부족 등 일시적 요인으로도 프리미엄이 왜곡될 수 있습니다.</li>
@@ -254,12 +258,36 @@
     <li><strong>Kann vorübergehend verzerrt sein.</strong> Auszahlungsverzögerungen oder geringe Liquidität können die Messung verzerren, ohne die tatsächliche Stimmung widerzuspiegeln.</li>
     <li><strong>Empfindlich gegenüber US-Regulierungsnachrichten.</strong> Reagiert schnell auf ETF-Genehmigungen, SEC-Maßnahmen und ähnliche Schlagzeilen.</li>
   </ul>
+  <ul class="fr">
+    <li><strong>Ne pas l'utiliser seul.</strong> La prime peut varier en quelques heures à quelques jours, il est donc préférable de l'utiliser pour confirmer une direction plutôt que comme signal de tendance autonome.</li>
+    <li><strong>Peut être temporairement faussée.</strong> Des retards de retrait ou une faible liquidité peuvent fausser la lecture sans refléter le sentiment réel.</li>
+    <li><strong>Sensible aux annonces réglementaires américaines.</strong> Réagit rapidement aux approbations d'ETF, aux mesures de la SEC et aux gros titres similaires.</li>
+  </ul>
+  <ul class="pt">
+    <li><strong>Não use isoladamente.</strong> O prêmio pode oscilar em questão de horas a dias, por isso é melhor usá-lo para confirmar a direção em vez de como um sinal de tendência independente.</li>
+    <li><strong>Pode ser distorcido temporariamente.</strong> Atrasos em saques ou baixa liquidez podem distorcer a leitura sem refletir o sentimento real.</li>
+    <li><strong>Sensível a notícias regulatórias dos EUA.</strong> Reage rapidamente a aprovações de ETF, ações da SEC e manchetes semelhantes.</li>
+  </ul>
+  <ul class="tr">
+    <li><strong>Tek başına kullanmayın.</strong> Prim, saatler ila günler içinde değişebilir, bu yüzden bağımsız bir trend sinyali olarak değil, yön teyidi için kullanılması en iyisidir.</li>
+    <li><strong>Geçici olarak bozulabilir.</strong> Para çekme gecikmeleri veya düşük likidite, gerçek piyasa duyarlılığını yansıtmadan okumayı çarpıtabilir.</li>
+    <li><strong>ABD düzenleyici haberlerine duyarlıdır.</strong> ETF onaylarına, SEC eylemlerine ve benzer haberlere hızla tepki verir.</li>
+  </ul>
+  <ul class="vi">
+    <li><strong>Đừng chỉ dựa vào chỉ số này một mình.</strong> Phần bù có thể dao động trong vài giờ đến vài ngày, vì vậy tốt nhất nên dùng để xác nhận xu hướng thay vì làm tín hiệu xu hướng độc lập.</li>
+    <li><strong>Có thể bị bóp méo tạm thời.</strong> Sự chậm trễ trong rút tiền hoặc thanh khoản mỏng có thể làm sai lệch số liệu mà không phản ánh đúng tâm lý thị trường thực tế.</li>
+    <li><strong>Nhạy cảm với tin tức quản lý của Mỹ.</strong> Phản ứng nhanh với việc phê duyệt ETF, hành động của SEC và các tin tức tương tự.</li>
+  </ul>
 
   <h2 class="ko">함께 보면 좋은 지표</h2>
   <h2 class="en">Best Combined With</h2>
   <h2 class="ja">併せて見るべき指標</h2>
   <h2 class="es">Mejor Combinado Con</h2>
   <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">Idéal à combiner avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Birlikte Kullanılacaklar</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
     <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 극단적 공포 속에서 프리미엄이 회복되면 저점 신호 강화</li>
     <li><strong><a href="/blog/funding-rate-futures-gap.html">선물-현물 갭</a>:</strong> 레버리지 포지션 청산 여부와 함께 확인</li>

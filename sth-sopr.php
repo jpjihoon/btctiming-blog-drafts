@@ -164,11 +164,19 @@
     <div class="rt ja">STH-SOPRは0.85まで急落し、史上級のパニック売りを記録。その後速やかに1を回復。</div>
     <div class="rt es">STH-SOPR se desplomó a 0.85 durante una venta de pánico récord, luego se recuperó rápidamente sobre 1.</div>
     <div class="rt de">STH-SOPR stürzte während rekordverdächtiger Panikverkäufe auf 0,85 ab und erholte sich dann schnell über 1.</div>
+    <div class="rt fr">Le STH-SOPR a plongé à 0,85 lors d'une vente panique record, puis s'est rapidement redressé au-dessus de 1.</div>
+    <div class="rt pt">O STH-SOPR despencou para 0,85 durante uma venda em pânico recorde, depois se recuperou rapidamente acima de 1.</div>
+    <div class="rt tr">STH-SOPR, rekor düzeydeki panik satışlar sırasında 0,85'e kadar geriledi, ardından hızla 1'in üzerine toparlandı.</div>
+    <div class="rt vi">STH-SOPR lao dốc xuống 0,85 trong đợt bán tháo hoảng loạn kỷ lục, sau đó nhanh chóng phục hồi trở lại trên 1.</div>
     <div class="rr ko">→ $3,800 저점에서 2021년 $69,000까지 약 18배 상승</div>
     <div class="rr en">→ Rose ~18x from the $3,800 bottom to $69,000 in 2021</div>
     <div class="rr ja">→ $3,800の底値から2021年に$69,000まで約18倍上昇</div>
     <div class="rr es">→ Subió ~18x desde el suelo de $3,800 hasta $69,000 en 2021</div>
     <div class="rr de">→ Stieg vom Tief bei $3.800 bis 2021 um das ~18-fache auf $69.000</div>
+    <div class="rr fr">→ A grimpé d'environ 18x depuis le plancher de 3 800 $ jusqu'à 69 000 $ en 2021</div>
+    <div class="rr pt">→ Subiu ~18x desde o fundo de US$ 3.800 até US$ 69.000 em 2021</div>
+    <div class="rr tr">→ 2021'de 3.800 dolarlık dipten 69.000 dolara kadar yaklaşık 18 kat yükseldi</div>
+    <div class="rr vi">→ Tăng khoảng 18 lần từ đáy 3.800 USD lên 69.000 USD vào năm 2021</div>
   </div>
   <div class="rc">
     <div class="rd">2022.11 (FTX 붕괴)</div>
@@ -177,11 +185,19 @@
     <div class="rt ja">FTX破綻の余波でSTH-SOPRは0.88まで下落、短期保有者の大規模な損切りを確認。</div>
     <div class="rt es">STH-SOPR cayó a 0.88 en medio del colapso de FTX, confirmando una fuerte capitulación a corto plazo.</div>
     <div class="rt de">STH-SOPR fiel während des FTX-Zusammenbruchs auf 0,88 und bestätigte eine starke kurzfristige Kapitulation.</div>
+    <div class="rt fr">Le STH-SOPR est tombé à 0,88 lors de l'effondrement de FTX, confirmant une lourde capitulation à court terme.</div>
+    <div class="rt pt">O STH-SOPR caiu para 0,88 em meio ao colapso da FTX, confirmando uma forte capitulação de curto prazo.</div>
+    <div class="rt tr">STH-SOPR, FTX'in çöküşü sırasında 0,88'e geriledi ve yoğun bir kısa vadeli kapitülasyonu doğruladı.</div>
+    <div class="rt vi">STH-SOPR giảm xuống 0,88 giữa lúc FTX sụp đổ, xác nhận một đợt đầu hàng ngắn hạn mạnh.</div>
     <div class="rr ko">→ $15,500 저점 형성 후 반등 시작</div>
     <div class="rr en">→ Marked the $15,500 bottom before the rebound</div>
     <div class="rr ja">→ $15,500の底値形成後、反発開始</div>
     <div class="rr es">→ Marcó el suelo de $15,500 antes del rebote</div>
     <div class="rr de">→ Markierte das Tief bei $15.500 vor der Erholung</div>
+    <div class="rr fr">→ A marqué le plancher de 15 500 $ avant le rebond</div>
+    <div class="rr pt">→ Marcou o fundo de US$ 15.500 antes da recuperação</div>
+    <div class="rr tr">→ Toparlanmadan önce 15.500 dolarlık dibi işaret etti</div>
+    <div class="rr vi">→ Đánh dấu đáy 15.500 USD trước khi bật tăng trở lại</div>
   </div>
   <div class="rc">
     <div class="rd">2024.08</div>

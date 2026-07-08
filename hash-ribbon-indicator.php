@@ -108,6 +108,10 @@
       <div class="pd ja">弱いマイナーが撤退し、全体のハッシュレートが減少します。30日MAが60日MAを下回ります。</div>
       <div class="pd es">Los mineros débiles cierran, causando que el hashrate total disminuya. La MA de 30 días cae por debajo de la MA de 60 días.</div>
       <div class="pd de">Schwache Miner schalten ab, wodurch die Gesamt-Hashrate sinkt. Der 30-Tage-MA fällt unter den 60-Tage-MA.</div>
+      <div class="pd fr">Les mineurs faibles cessent leur activité, ce qui fait baisser le hashrate total. La MA de 30 jours passe sous la MA de 60 jours.</div>
+      <div class="pd pt">Mineradores mais fracos desligam, fazendo o hashrate total cair. A MA de 30 dias cai abaixo da MA de 60 dias.</div>
+      <div class="pd tr">Zayıf madenciler kapanır, bu da toplam hashrate'in düşmesine neden olur. 30 günlük MA, 60 günlük MA'nın altına iner.</div>
+      <div class="pd vi">Các thợ đào yếu ngừng hoạt động, khiến tổng hashrate suy giảm. MA 30 ngày rơi xuống dưới MA 60 ngày.</div>
     </div>
     <div class="pc g">
       <div class="pt ko">🟢 회복 단계</div>
@@ -115,11 +119,19 @@
       <div class="pt ja">🟢 回復段階</div>
       <div class="pt es">🟢 Fase de Recuperación</div>
       <div class="pt de">🟢 Erholungsphase</div>
+      <div class="pt fr">🟢 Phase de Reprise</div>
+      <div class="pt pt">🟢 Fase de Recuperação</div>
+      <div class="pt tr">🟢 Toparlanma Aşaması</div>
+      <div class="pt vi">🟢 Giai Đoạn Phục Hồi</div>
       <div class="pd ko">살아남은 채굴자들의 수익성이 회복되면서 해시레이트가 다시 증가합니다. 30일 MA가 60일 MA를 상향 돌파하는 순간이 매수 신호입니다.</div>
       <div class="pd en">Surviving miners become profitable again, hashrate rises. The moment 30-day MA crosses above 60-day MA is the buy signal.</div>
       <div class="pd ja">生き残ったマイナーの収益性が回復し、ハッシュレートが再び増加します。30日MAが60日MAを上抜ける瞬間が買いシグナルです。</div>
       <div class="pd es">Los mineros sobrevivientes vuelven a ser rentables, el hashrate aumenta. El momento en que la MA de 30 días cruza sobre la MA de 60 días es la señal de compra.</div>
       <div class="pd de">Überlebende Miner werden wieder profitabel, die Hashrate steigt. Der Moment, in dem der 30-Tage-MA über den 60-Tage-MA kreuzt, ist das Kaufsignal.</div>
+      <div class="pd fr">Les mineurs survivants redeviennent rentables, le hashrate augmente. Le moment où la MA de 30 jours croise au-dessus de la MA de 60 jours est le signal d'achat.</div>
+      <div class="pd pt">Os mineradores sobreviventes voltam a ser lucrativos, o hashrate aumenta. O momento em que a MA de 30 dias cruza acima da MA de 60 dias é o sinal de compra.</div>
+      <div class="pd tr">Ayakta kalan madenciler yeniden kârlı hale gelir, hashrate yükselir. 30 günlük MA'nın 60 günlük MA'yı yukarı kestiği an alım sinyalidir.</div>
+      <div class="pd vi">Các thợ đào còn trụ lại bắt đầu có lãi trở lại, hashrate tăng lên. Thời điểm MA 30 ngày cắt lên trên MA 60 ngày chính là tín hiệu mua.</div>
     </div>
   </div>
 
@@ -128,6 +140,10 @@
   <h2 class="ja">歴史的な的中率 — 4回すべて的中</h2>
   <h2 class="es">Precisión Histórica — 4 de 4</h2>
   <h2 class="de">Historische Genauigkeit — 4 von 4</h2>
+  <h2 class="fr">Précision Historique — 4 sur 4</h2>
+  <h2 class="pt">Precisão Histórica — 4 de 4</h2>
+  <h2 class="tr">Tarihsel Doğruluk — 4'te 4</h2>
+  <h2 class="vi">Độ Chính Xác Lịch Sử — Đúng Cả 4 Lần</h2>
 
   <div class="rc">
     <div class="rd">2016.01</div>
