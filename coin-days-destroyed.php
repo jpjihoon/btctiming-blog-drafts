@@ -105,6 +105,10 @@
 <p class="ja">その約1年後、2025年7月、それぞれ1万BTCを保有するサトシ時代のウォレット8つ(合計8万BTC、約86億ドル)が14年間の沈黙を破って一斉に動いた。あるアナリストはこれを「2024年5月の事件に次ぐ史上2番目に大きなCDDスパイク」と評価した。クリプトクォントのデータによれば、2022年から2025年7月までにCDDが2000万を超えたのはわずか5回で、今回を除く残り4回はすべて下落相場と重なっていた。しかし同じ時期に動いた物量の一部 — 2010年産のウォレット一つから出た2000BTC、約1億8100万ドル相当 — は取引所ではなく機関カストディ業者のギャラクシー・デジタルへ入ったと報じられている。売却ではなく管理主体の移転だったということだ。同年11月にはコインベースが680億〜700億ドル規模の資産を内部的に新しいウォレットへ移す作業を公に行ったが、これも価格やセキュリティ事故とは無関係な定期的なセキュリティ手続きだと明言していたにもかかわらず、ホールドウェーブ(HODL Wave)チャートを一時的に壊すほど大きな痕跡を残した。</p>
 <p class="es">Alrededor de un año después, en julio de 2025, ocho wallets de la era Satoshi que tenían 10,000 BTC cada una — 80,000 BTC en total, unos 8,600 millones de dólares — rompieron catorce años de silencio y se movieron todas a la vez. Un analista la calificó como el segundo mayor pico de CDD registrado, solo por detrás del evento de mayo de 2024. Los datos de CryptoQuant muestran que el CDD superó los 20 millones solo cinco veces entre 2022 y julio de 2025, y las otras cuatro coincidieron todas con caídas del mercado. Sin embargo, parte de lo que se movió en ese mismo período — 2,000 BTC, unos 181 millones de dólares, de una sola wallet de la añada 2010 — según se informó, no fue a un exchange sino a custodia con el custodio institucional Galaxy Digital: un cambio de custodio, no una venta. Ese mismo noviembre, Coinbase llevó a cabo públicamente una migración interna de unos 68,000-70,000 millones de dólares en activos a nuevas wallets — declarada explícitamente como un procedimiento de seguridad rutinario no relacionado con el precio ni con una brecha — y aun así dejó una huella lo bastante grande como para romper temporalmente los gráficos de HODL Wave.</p>
 <p class="de">Rund ein Jahr später, im Juli 2025, brachen acht Wallets aus der Satoshi-Ära mit je 10.000 BTC — insgesamt 80.000 BTC, etwa 8,6 Milliarden Dollar — vierzehn Jahre Stille und bewegten sich alle gleichzeitig. Ein Analyst bewertete dies als die zweitgrößte je verzeichnete CDD-Spitze, nur übertroffen vom Ereignis im Mai 2024. CryptoQuant-Daten zeigen, dass CDD zwischen 2022 und Juli 2025 nur fünfmal die Marke von 20 Millionen überschritt, und die anderen vier Male fielen allesamt mit Marktabschwüngen zusammen. Doch ein Teil dessen, was sich in diesem Zeitraum bewegte — 2.000 BTC, etwa 181 Millionen Dollar, aus einer einzigen Wallet aus dem Jahr 2010 — ging Berichten zufolge nicht an eine Börse, sondern in die Verwahrung des institutionellen Custodians Galaxy Digital: ein Wechsel des Verwahrers, kein Verkauf. Im selben November führte Coinbase öffentlich eine interne Migration von rund 68 bis 70 Milliarden Dollar an Vermögenswerten in neue Wallets durch — ausdrücklich als routinemäßiges Sicherheitsverfahren ohne Bezug zum Preis oder zu einem Sicherheitsvorfall bezeichnet — und hinterließ dennoch eine Spur, groß genug, um HODL-Wave-Charts vorübergehend zu verzerren.</p>
+<p class="fr">Environ un an plus tard, en juillet 2025, huit portefeuilles de l'ère Satoshi détenant chacun 10 000 BTC — soit 80 000 BTC au total, environ 8,6 milliards de dollars — ont rompu quatorze ans de silence et se sont déplacés d'un seul coup. Un analyste l'a qualifié de deuxième plus grand pic de CDD jamais enregistré, juste derrière l'événement de mai 2024. Les données de CryptoQuant montrent que le CDD n'a dépassé 20 millions que cinq fois entre 2022 et juillet 2025, et les quatre autres fois coïncidaient toutes avec des baisses de marché. Pourtant, une partie de ce qui a bougé durant cette même période — 2 000 BTC, environ 181 millions de dollars, provenant d'un seul portefeuille datant de 2010 — serait allée non pas vers une plateforme d'échange mais vers la garde du dépositaire institutionnel Galaxy Digital : un changement de dépositaire, pas une vente. Ce même mois de novembre, Coinbase a publiquement effectué une migration interne d'environ 68 à 70 milliards de dollars d'actifs vers de nouveaux portefeuilles — présentée explicitement comme une procédure de sécurité de routine sans rapport avec le prix ou une faille — et cela a tout de même laissé une empreinte assez grande pour perturber temporairement les graphiques HODL Wave.</p>
+<p class="pt">Cerca de um ano depois, em julho de 2025, oito carteiras da era Satoshi com 10.000 BTC cada — 80.000 BTC no total, cerca de 8,6 bilhões de dólares — romperam catorze anos de silêncio e se moveram todas de uma vez. Um analista classificou isso como o segundo maior pico de CDD já registrado, atrás apenas do evento de maio de 2024. Dados da CryptoQuant mostram que o CDD superou 20 milhões apenas cinco vezes entre 2022 e julho de 2025, e as outras quatro coincidiram todas com quedas de mercado. Ainda assim, parte do que se moveu nesse mesmo período — 2.000 BTC, cerca de 181 milhões de dólares, de uma única carteira da safra de 2010 — teria ido não para uma corretora, mas para a custódia do custodiante institucional Galaxy Digital: uma troca de custodiante, não uma venda. Nesse mesmo mês de novembro, a Coinbase realizou publicamente uma migração interna de cerca de 68-70 bilhões de dólares em ativos para novas carteiras — declarada explicitamente como um procedimento de segurança rotineiro, sem relação com preço ou com uma violação — e mesmo assim deixou um rastro grande o bastante para quebrar temporariamente os gráficos de HODL Wave.</p>
+<p class="tr">Yaklaşık bir yıl sonra, Temmuz 2025'te, her biri 10.000 BTC tutan sekiz Satoshi dönemi cüzdanı — toplam 80.000 BTC, yaklaşık 8,6 milyar dolar — on dört yıllık sessizliği bozarak hep birlikte hareket etti. Bir analist bunu, yalnızca Mayıs 2024 olayının gerisinde kalan, tarihteki ikinci en büyük CDD sıçraması olarak değerlendirdi. CryptoQuant verileri, CDD'nin 2022 ile Temmuz 2025 arasında yalnızca beş kez 20 milyonu aştığını ve diğer dört kez de piyasa düşüşleriyle çakıştığını gösteriyor. Ancak aynı dönemde hareket eden miktarın bir kısmı — 2010 yılına ait tek bir cüzdandan çıkan 2.000 BTC, yaklaşık 181 milyon dolar — bir borsaya değil, kurumsal saklama kuruluşu Galaxy Digital'e gittiği bildiriliyor: bir satış değil, saklayıcı değişikliği. Aynı yılın Kasım ayında Coinbase, yaklaşık 68-70 milyar dolar değerindeki varlıkları yeni cüzdanlara taşıyan bir iç göçü kamuya açık şekilde gerçekleştirdi — bunun fiyatla ya da bir güvenlik ihlaliyle ilgisi olmayan rutin bir güvenlik prosedürü olduğu açıkça belirtildi — yine de HODL Wave grafiklerini geçici olarak bozacak kadar büyük bir iz bıraktı.</p>
+<p class="vi">Khoảng một năm sau, vào tháng 7 năm 2025, tám ví từ thời Satoshi, mỗi ví nắm giữ 10.000 BTC — tổng cộng 80.000 BTC, khoảng 8,6 tỷ đô la — đã phá vỡ mười bốn năm im lặng và di chuyển cùng lúc. Một nhà phân tích đánh giá đây là đợt tăng vọt CDD lớn thứ hai từng được ghi nhận, chỉ sau sự kiện tháng 5 năm 2024. Dữ liệu của CryptoQuant cho thấy CDD chỉ vượt mốc 20 triệu năm lần trong khoảng từ 2022 đến tháng 7 năm 2025, và bốn lần còn lại đều trùng với các đợt thị trường đi xuống. Tuy nhiên, một phần số coin di chuyển trong cùng giai đoạn đó — 2.000 BTC, khoảng 181 triệu đô la, từ một ví duy nhất có niên đại 2010 — được cho là không đi vào một sàn giao dịch mà đi vào lưu ký của tổ chức lưu ký Galaxy Digital: đó là thay đổi đơn vị lưu ký, không phải bán ra. Cũng trong tháng 11 năm đó, Coinbase đã công khai thực hiện một đợt di chuyển nội bộ khoảng 68-70 tỷ đô la tài sản sang các ví mới — được nêu rõ là một quy trình bảo mật định kỳ, không liên quan đến giá hay sự cố xâm nhập — nhưng vẫn để lại dấu vết đủ lớn để tạm thời làm gián đoạn các biểu đồ HODL Wave.</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -216,12 +220,104 @@
   <text x="560" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Nov 2025 Coinbase</text>
 </svg>
 </div>
+<div class="fr">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Grands Pics de CDD — Signal de Vente ou Bruit ?</text>
+  <text x="20" y="42" fill="#71717a" font-size="10" font-family="sans-serif">Placement chronologique uniquement — non proportionnel à la taille du pic</text>
+  <rect x="480" y="16" width="10" height="10" fill="#4ade80"/><text x="494" y="25" fill="#a1a1aa" font-size="10" font-family="sans-serif">Signal de sommet lié à une vente</text>
+  <rect x="480" y="32" width="10" height="10" fill="#f87171"/><text x="494" y="41" fill="#a1a1aa" font-size="10" font-family="sans-serif">Mouvement de garde (bruit)</text>
+  <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="160" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="340" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="520" cy="110" r="8" fill="#4ade80"/>
+  <text x="160" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2013</text>
+  <text x="340" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="520" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2021</text>
+  <line x1="70" y1="210" x2="630" y2="210" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="260" cy="210" r="8" fill="#f87171"/>
+  <circle cx="420" cy="210" r="8" fill="#f87171"/>
+  <circle cx="560" cy="210" r="8" fill="#f87171"/>
+  <text x="260" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Mai 2024 Mt. Gox</text>
+  <text x="420" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Juil. 2025 portefeuilles Satoshi</text>
+  <text x="560" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Nov. 2025 Coinbase</text>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Grandes Picos de CDD — Sinal de Venda ou Ruído?</text>
+  <text x="20" y="42" fill="#71717a" font-size="10" font-family="sans-serif">Apenas posicionamento cronológico — não proporcional ao tamanho do pico</text>
+  <rect x="480" y="16" width="10" height="10" fill="#4ade80"/><text x="494" y="25" fill="#a1a1aa" font-size="10" font-family="sans-serif">Sinal de topo por venda</text>
+  <rect x="480" y="32" width="10" height="10" fill="#f87171"/><text x="494" y="41" fill="#a1a1aa" font-size="10" font-family="sans-serif">Movimento de custódia (ruído)</text>
+  <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="160" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="340" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="520" cy="110" r="8" fill="#4ade80"/>
+  <text x="160" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2013</text>
+  <text x="340" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="520" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2021</text>
+  <line x1="70" y1="210" x2="630" y2="210" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="260" cy="210" r="8" fill="#f87171"/>
+  <circle cx="420" cy="210" r="8" fill="#f87171"/>
+  <circle cx="560" cy="210" r="8" fill="#f87171"/>
+  <text x="260" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Mai 2024 Mt. Gox</text>
+  <text x="420" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Jul 2025 carteiras Satoshi</text>
+  <text x="560" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Nov 2025 Coinbase</text>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Büyük CDD Sıçramaları — Satış Sinyali mi, Gürültü mü?</text>
+  <text x="20" y="42" fill="#71717a" font-size="10" font-family="sans-serif">Yalnızca kronolojik sıralama — sıçrama büyüklüğüyle orantılı değildir</text>
+  <rect x="480" y="16" width="10" height="10" fill="#4ade80"/><text x="494" y="25" fill="#a1a1aa" font-size="10" font-family="sans-serif">Satışa dayalı zirve sinyali</text>
+  <rect x="480" y="32" width="10" height="10" fill="#f87171"/><text x="494" y="41" fill="#a1a1aa" font-size="10" font-family="sans-serif">Saklama hareketi (gürültü)</text>
+  <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="160" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="340" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="520" cy="110" r="8" fill="#4ade80"/>
+  <text x="160" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2013</text>
+  <text x="340" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="520" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2021</text>
+  <line x1="70" y1="210" x2="630" y2="210" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="260" cy="210" r="8" fill="#f87171"/>
+  <circle cx="420" cy="210" r="8" fill="#f87171"/>
+  <circle cx="560" cy="210" r="8" fill="#f87171"/>
+  <text x="260" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">May. 2024 Mt. Gox</text>
+  <text x="420" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Tem. 2025 Satoshi cüzdanları</text>
+  <text x="560" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Kas. 2025 Coinbase</text>
+</svg>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Các Đợt Tăng Vọt CDD Lớn — Tín Hiệu Bán hay Nhiễu?</text>
+  <text x="20" y="42" fill="#71717a" font-size="10" font-family="sans-serif">Chỉ sắp xếp theo thời gian — không tỷ lệ với độ lớn của đợt tăng vọt</text>
+  <rect x="480" y="16" width="10" height="10" fill="#4ade80"/><text x="494" y="25" fill="#a1a1aa" font-size="10" font-family="sans-serif">Tín hiệu đỉnh do bán ra</text>
+  <rect x="480" y="32" width="10" height="10" fill="#f87171"/><text x="494" y="41" fill="#a1a1aa" font-size="10" font-family="sans-serif">Di chuyển lưu ký (nhiễu)</text>
+  <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="160" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="340" cy="110" r="8" fill="#4ade80"/>
+  <circle cx="520" cy="110" r="8" fill="#4ade80"/>
+  <text x="160" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2013</text>
+  <text x="340" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="520" y="90" fill="#d4d4d8" font-size="11" font-weight="600" text-anchor="middle" font-family="sans-serif">2021</text>
+  <line x1="70" y1="210" x2="630" y2="210" stroke="rgba(255,255,255,.15)"/>
+  <circle cx="260" cy="210" r="8" fill="#f87171"/>
+  <circle cx="420" cy="210" r="8" fill="#f87171"/>
+  <circle cx="560" cy="210" r="8" fill="#f87171"/>
+  <text x="260" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Th5 2024 Mt. Gox</text>
+  <text x="420" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Th7 2025 ví Satoshi</text>
+  <text x="560" y="235" fill="#d4d4d8" font-size="10" font-weight="600" text-anchor="middle" font-family="sans-serif">Th11 2025 Coinbase</text>
+</svg>
+</div>
 
 <h2 class="ko">같은 재료로 정반대 결론을 내리는 지표도 있다</h2>
 <h2 class="en">The Same Raw Ingredient Can Point in Opposite Directions</h2>
 <h2 class="ja">同じ材料から正反対の結論を導く指標もある</h2>
 <h2 class="es">El Mismo Ingrediente Puede Apuntar en Direcciones Opuestas</h2>
 <h2 class="de">Dieselbe Zutat kann in entgegengesetzte Richtungen zeigen</h2>
+<h2 class="fr">Le Même Ingrédient Brut Peut Pointer dans des Directions Opposées</h2>
+<h2 class="pt">O Mesmo Ingrediente Bruto Pode Apontar em Direções Opostas</h2>
+<h2 class="tr">Aynı Ham Malzeme Zıt Yönleri İşaret Edebilir</h2>
+<h2 class="vi">Cùng Một Nguyên Liệu Thô Có Thể Chỉ Về Hai Hướng Đối Lập</h2>
 
 <p class="ko">흥미로운 건 CDD라는 원재료의 방향조차 고정돼 있지 않다는 점이다. 온체인 분석가 윌리 우(Willy Woo)가 CDD를 누적해 가격으로 환산한 CVDD(Cumulative Value Days Destroyed)는 정점이 아니라 오히려 바닥을 짚어내는 지표로 쓰인다. 똑같이 '오래된 코인이 얼마나 소멸됐는가'를 재료로 쓰면서도, 어떤 방식으로 누적하고 정규화하느냐에 따라 하나는 팔 시점을, 다른 하나는 살 시점을 가리키게 되는 셈이다.</p>
 <p class="en">What's striking is that CDD's raw material doesn't even point in a fixed direction. On-chain analyst Willy Woo's Cumulative Value Days Destroyed (CVDD) — built by accumulating CDD and converting it into a price level — is used as a bottom indicator, not a top one. Take the exact same ingredient, "how many old coin-days got destroyed," and depending on how you accumulate and normalize it, one derivative points to when to sell and another to when to buy.</p>
