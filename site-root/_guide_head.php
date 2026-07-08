@@ -12,11 +12,16 @@ if (!function_exists('gh')) { function gh($s){ return htmlspecialchars((string)$
 $__title = $GUIDE_TITLE ?? 'BTCtiming.com';
 $__desc  = $GUIDE_DESC ?? '';
 $__canon = $GUIDE_CANONICAL ?? 'https://btctiming.com/';
-// 언어 결정: URL ?lang= 를 서버에서 읽어 <html lang>에 바로 반영(깜빡임 방지 + 진입 시 유지).
-// (localStorage 기반 복원은 _guide_foot.php의 JS가 추가로 처리한다.)
-$__ghLang = 'ko';
-if (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
-    $__ghLang = $_GET['lang'];
+// 언어 결정: URL ?lang= 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
+// 쿠키를 읽으므로 뒤로가기로 lang 없는 URL에 와도 서버가 마지막 선택 언어로 렌더한다.
+// (JS로 다시 로드해 고칠 필요가 없어 히스토리가 꼬이지 않는다.)
+// 이 파일을 include하는 모든 안내 페이지(about/privacy/terms/rss/sitemap/glossary)에 일괄 적용됨.
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+    $__ghLang = $_GET['lang'];                                  // URL 명시(공유 링크 등) 우선
+} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+    $__ghLang = $_COOKIE['blogLang'];                          // 마지막 선택 언어
+} else {
+    $__ghLang = 'ko';
 }
 $__ghLangKeys = array_keys(SUPPORTED_LANGS);
 ?>

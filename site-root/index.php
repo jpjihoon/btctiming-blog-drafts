@@ -13,9 +13,14 @@ $__coinsJson = json_encode($__coinsForJs, JSON_UNESCAPED_UNICODE);
 // ?lang=en / ?lang=ja(/향후 ?lang=es 등) 요청 시 서버가 처음부터 해당 언어의 메타태그를
 // 내려줘서, 구글이 언어별로 각각 별개 페이지로 색인할 수 있게 함.
 // 지원 언어 목록은 config.php의 SUPPORTED_LANGS 하나로 관리 — 새 언어 추가 시 여기 코드는 안 건드려도 됨.
-$lang = 'ko';
-if (isset($_GET['lang']) && $_GET['lang'] !== 'ko' && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
+// 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
+// 쿠키를 읽으므로 뒤로가기로 lang 없는 URL(대시보드)에 와도 마지막 선택 언어로 렌더된다.
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
     $lang = $_GET['lang'];
+} elseif (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+    $lang = $_COOKIE['blogLang'];
+} else {
+    $lang = 'ko';
 }
 $htmlLang = $lang;
 $urlSuffix = langSuffix($lang);

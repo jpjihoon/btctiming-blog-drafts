@@ -34,6 +34,9 @@ function applyLang(lang){
   const l=document.getElementById('langTriggerLabel');if(l)l.textContent=LANG_NAMES[lang]||'KO';
   document.querySelectorAll('.lang-menu-item').forEach(el=>el.classList.toggle('active',el.dataset.lang===lang));
   try{localStorage.setItem('blogLang',lang);}catch(e){}
+  // 쿠키에도 저장 → 서버(_guide_head)가 URL ?lang 없을 때 이걸 읽어 마지막 선택 언어로 렌더.
+  // 그래서 새 페이지로 이동하면 마지막 언어가 유지된다.
+  try{document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}
   if(typeof window.onGuideLang==='function'){try{window.onGuideLang(lang);}catch(e){}}
 }
 function L(lang){applyLang(lang);closeLangMenu();const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());}

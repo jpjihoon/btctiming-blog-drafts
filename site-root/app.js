@@ -2655,6 +2655,9 @@ window.addEventListener('resize', () => {
 function setLang(lang) {
   currentLang = lang;
   try { localStorage.setItem('blogLang', lang); } catch(e) {}
+  // 쿠키에도 저장 → 서버(index.php)가 URL ?lang 없을 때 이걸 읽어 마지막 선택 언어로 렌더.
+  // 그래서 뒤로가기로 대시보드에 와도, 새 페이지로 이동해도 마지막 언어가 유지된다.
+  try { document.cookie = 'blogLang=' + encodeURIComponent(lang) + '; path=/; max-age=31536000; SameSite=Lax'; } catch(e) {}
   // 2026-07 수정: 여기서 URL을 안 바꿔주고 있어서, 언어를 바꾼 뒤 URL은 계속 예전 언어(?lang=ja 등)로
   // 남아있었음. 이 상태에서 다른 페이지로 갔다가 "뒤로가기"가 bfcache 복원이 아니라 진짜 새로고침으로
   // 처리되면, 그 오래된 URL 기준으로 서버가 다시 렌더링하면서 방금 바꾼 언어가 원래대로 되돌아갔음.
