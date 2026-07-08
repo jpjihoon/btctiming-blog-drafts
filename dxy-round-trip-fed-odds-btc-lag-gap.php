@@ -1,0 +1,543 @@
+<?php $slug = 'dxy-round-trip-fed-odds-btc-lag-gap'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">비트코인은 7월 8일 이란-미국 휴전 파기발 충격으로 $62,045까지 밀렸다가 $63,300~63,900 구간을 회복했다. 6월 30일 21개월 저점 $57,900 대비로는 +10~11%다. 이 반등의 배경 서사로 가장 자주 등장하는 것이 '미국 고용지표 부진 → 연준 금리 인하 기대 → 위험자산 매수'라는 매크로 경로다. 그런데 그 경로의 핵심 축인 달러인덱스(DXY)를 들여다보면 이야기가 그렇게 단순하지 않다.</p>
+  <p class="en">Bitcoin fell to $62,045 on July 8 when the Iran-US ceasefire collapsed, then recovered to the $63,300-63,900 range — up 10-11% from the 21-month low of $57,900 hit on June 30. The macro story most often cited for this bounce is "weak US jobs data → Fed rate-cut hopes → risk-asset buying." But look at the Dollar Index (DXY), the pivot of that chain, and the story isn't so simple.</p>
+  <p class="ja">ビットコインは7月8日、イラン・米国の停戦破棄をきっかけとした衝撃で6万2,045ドルまで下落した後、6万3,300〜6万3,900ドル圏を回復した。6月30日の21カ月ぶり安値5万7,900ドルからは+10〜11%だ。この反発の背景として最も頻繁に語られるのが「米雇用統計の悪化→FRB利下げ期待→リスク資産買い」というマクロ経路だ。しかしその経路の要であるドル指数(DXY)を見ると、話はそう単純ではない。</p>
+  <p class="es">Bitcoin cayó a 62.045 $ el 8 de julio cuando el alto el fuego entre Irán y EE. UU. se rompió, para luego recuperarse a la banda de 63.300-63.900 $ — un 10-11% por encima del mínimo de 21 meses de 57.900 $ del 30 de junio. La narrativa macro más citada para este rebote es "datos de empleo débiles en EE. UU. → esperanzas de recorte de tasas de la Fed → compra de activos de riesgo". Pero al observar el Índice del Dólar (DXY), el eje de esa cadena, la historia no es tan simple.</p>
+  <p class="de">Bitcoin fiel am 8. Juli auf 62.045 $, als der Waffenstillstand zwischen Iran und den USA zusammenbrach, und erholte sich dann auf die Spanne 63.300-63.900 $ — 10-11% über dem 21-Monats-Tief von 57.900 $ vom 30. Juni. Die am häufigsten zitierte Makro-Erzählung für diese Erholung lautet "schwache US-Arbeitsmarktdaten → Fed-Zinssenkungshoffnungen → Kauf von Risikoanlagen". Doch betrachtet man den Dollarindex (DXY), den Dreh- und Angelpunkt dieser Kette, ist die Geschichte nicht so einfach.</p>
+  <p class="fr">Le bitcoin est tombé à 62 045 $ le 8 juillet lorsque le cessez-le-feu entre l'Iran et les États-Unis s'est effondré, avant de remonter dans la fourchette 63 300-63 900 $ — en hausse de 10 à 11 % par rapport au plus bas de 21 mois de 57 900 $ du 30 juin. Le récit macro le plus souvent cité pour ce rebond est « données d'emploi américaines faibles → espoirs de baisse des taux de la Fed → achats d'actifs à risque ». Mais en observant l'indice du dollar (DXY), pivot de cette chaîne, l'histoire n'est pas si simple.</p>
+  <p class="pt">O bitcoin caiu para US$ 62.045 em 8 de julho quando o cessar-fogo entre Irã e EUA ruiu, e depois se recuperou para a faixa de US$ 63.300-63.900 — alta de 10-11% em relação à mínima de 21 meses de US$ 57.900 de 30 de junho. A narrativa macro mais citada para esse repique é "dados de emprego fracos nos EUA → esperanças de corte de juros do Fed → compra de ativos de risco". Mas, olhando para o Índice do Dólar (DXY), o eixo dessa cadeia, a história não é tão simples.</p>
+  <p class="tr">Bitcoin, İran-ABD ateşkesinin bozulmasıyla 8 Temmuz'da 62.045 dolara geriledi, ardından 63.300-63.900 dolar bandına toparlandı — 30 Haziran'daki 21 aylık dip olan 57.900 dolara göre %10-11 yükseliş. Bu yükseliş için en sık dile getirilen makro anlatı "zayıf ABD istihdam verileri → Fed faiz indirimi umutları → risk varlığı alımları" zinciri. Ama bu zincirin ekseni olan Dolar Endeksi'ne (DXY) bakınca hikaye o kadar basit değil.</p>
+  <p class="vi">Bitcoin giảm xuống 62.045 USD vào ngày 8/7 khi lệnh ngừng bắn Iran-Mỹ sụp đổ, sau đó phục hồi lên vùng 63.300-63.900 USD — tăng 10-11% so với đáy 21 tháng 57.900 USD hôm 30/6. Câu chuyện vĩ mô được nhắc đến nhiều nhất cho đợt phục hồi này là "dữ liệu việc làm Mỹ yếu → kỳ vọng Fed cắt lãi suất → mua tài sản rủi ro". Nhưng nhìn vào Chỉ số Đô la (DXY), trục xoay của chuỗi đó, câu chuyện không đơn giản như vậy.</p>
+
+  <p class="ko">6월 하순 5주 최고치인 101.50까지 올랐던 DXY는 6월 비농업고용 발표(+5만7,000명, 시장 예상 약 11만 명을 크게 밑돎, 실업률은 4.2%로 낮아졌지만 이는 경제활동참가율이 2021년 3월 이후 최저로 떨어진 결과였다)를 계기로 7월 3일 100.70까지 밀렸다. 그런데 불과 나흘 뒤인 7월 7일에는 다시 101.07(당일 +0.05%)까지 반등해, 일주일 만에 거의 원위치했다. 이 글은 반등의 '엔진'으로 지목된 매크로 채널이 이미 되돌아간 시점에, 비트코인과 그 파생시장이 실제로 어떻게 반응하고 있는지(혹은 반응하지 않고 있는지)를 진단한다.</p>
+  <p class="en">DXY, which had climbed to a five-week high of 101.50 in late June, fell to 100.70 by July 3 after June's non-farm payrolls report (+57,000 jobs, well below the roughly 110,000 forecast; unemployment ticked down to 4.2%, but only because labor-force participation dropped to its lowest since March 2021). Yet just four days later, on July 7, it climbed back to 101.07 (up 0.05% that day) — nearly a full round trip in a week. This piece diagnoses how Bitcoin and its derivatives market are actually reacting — or not — now that the macro channel supposedly driving the bounce has already reversed course.</p>
+  <p class="ja">6月下旬に5週間ぶりの高値101.50まで上昇していたDXYは、6月の非農業部門雇用者数の発表(+5万7,000人、市場予想の約11万人を大きく下回った。失業率は4.2%へ低下したが、これは労働参加率が2021年3月以来の最低水準まで落ち込んだ結果だった)を機に7月3日には100.70まで下落した。ところがわずか4日後の7月7日には再び101.07(当日+0.05%)まで反発し、一週間でほぼ元の水準に戻った。本稿は、反発の「エンジン」とされたマクロ経路がすでに揺り戻した時点で、ビットコインとそのデリバティブ市場が実際にどう反応している(あるいはしていない)のかを診断する。</p>
+  <p class="es">El DXY, que había subido a un máximo de cinco semanas de 101,50 a fines de junio, cayó a 100,70 el 3 de julio tras el informe de nóminas no agrícolas de junio (+57.000 empleos, muy por debajo del pronóstico de unos 110.000; el desempleo bajó a 4,2%, pero solo porque la tasa de participación laboral cayó a su nivel más bajo desde marzo de 2021). Sin embargo, apenas cuatro días después, el 7 de julio, volvió a subir a 101,07 (+0,05% ese día) — casi un viaje de ida y vuelta completo en una semana. Este artículo diagnostica cómo está reaccionando realmente Bitcoin y su mercado de derivados — o no — ahora que el canal macro que supuestamente impulsaba el rebote ya ha revertido su curso.</p>
+  <p class="de">Der DXY, der Ende Juni auf ein Fünf-Wochen-Hoch von 101,50 gestiegen war, fiel bis zum 3. Juli auf 100,70, nachdem der Juni-Bericht zu den Beschäftigtenzahlen außerhalb der Landwirtschaft (+57.000 Stellen, deutlich unter der Prognose von rund 110.000; die Arbeitslosigkeit sank zwar auf 4,2%, aber nur weil die Erwerbsquote auf den niedrigsten Stand seit März 2021 fiel) veröffentlicht wurde. Doch nur vier Tage später, am 7. Juli, kletterte er wieder auf 101,07 (an diesem Tag +0,05%) — fast eine vollständige Rundreise innerhalb einer Woche. Dieser Beitrag diagnostiziert, wie Bitcoin und sein Derivatemarkt tatsächlich reagieren — oder auch nicht —, nun da der angeblich treibende Makrokanal bereits seinen Kurs umgekehrt hat.</p>
+  <p class="fr">Le DXY, qui avait grimpé à un sommet de cinq semaines de 101,50 fin juin, est tombé à 100,70 le 3 juillet après le rapport sur les emplois non agricoles de juin (+57 000 emplois, bien en dessous de la prévision d'environ 110 000 ; le chômage a légèrement reculé à 4,2 %, mais uniquement parce que le taux de participation au marché du travail est tombé à son plus bas niveau depuis mars 2021). Pourtant, quatre jours plus tard seulement, le 7 juillet, il est remonté à 101,07 (+0,05 % ce jour-là) — presque un aller-retour complet en une semaine. Cet article diagnostique comment le bitcoin et son marché de dérivés réagissent réellement — ou non — maintenant que le canal macro censé propulser le rebond a déjà inversé sa trajectoire.</p>
+  <p class="pt">O DXY, que havia subido a uma máxima de cinco semanas de 101,50 no final de junho, caiu para 100,70 até 3 de julho após o relatório de folha de pagamento não agrícola de junho (+57.000 empregos, bem abaixo da previsão de cerca de 110.000; o desemprego caiu para 4,2%, mas apenas porque a taxa de participação da força de trabalho caiu para a mínima desde março de 2021). No entanto, apenas quatro dias depois, em 7 de julho, ele subiu de volta para 101,07 (+0,05% naquele dia) — quase uma ida e volta completa em uma semana. Este texto diagnostica como o bitcoin e seu mercado de derivativos estão realmente reagindo — ou não — agora que o canal macro supostamente impulsionando o repique já reverteu seu curso.</p>
+  <p class="tr">Haziran sonunda beş haftalık zirve olan 101,50'ye tırmanan DXY, haziran ayı tarım dışı istihdam raporunun (+57.000 istihdam, yaklaşık 110.000 olan tahminin oldukça altında; işsizlik %4,2'ye geriledi ama bu yalnızca işgücüne katılım oranının Mart 2021'den bu yana en düşük seviyeye inmesinden kaynaklandı) ardından 3 Temmuz'da 100,70'e geriledi. Ama sadece dört gün sonra, 7 Temmuz'da, yeniden 101,07'ye tırmandı (o gün +%0,05) — bir haftada neredeyse tam bir gidiş-dönüş. Bu yazı, yükselişin 'motoru' olarak gösterilen makro kanal zaten yön değiştirmişken Bitcoin ve türev piyasasının gerçekte nasıl tepki verdiğini (ya da vermediğini) teşhis ediyor.</p>
+  <p class="vi">DXY, vốn đã tăng lên đỉnh 5 tuần 101,50 vào cuối tháng 6, giảm xuống 100,70 vào ngày 3/7 sau báo cáo việc làm phi nông nghiệp tháng 6 (+57.000 việc làm, thấp hơn nhiều so với dự báo khoảng 110.000; tỷ lệ thất nghiệp giảm xuống 4,2%, nhưng chỉ vì tỷ lệ tham gia lực lượng lao động giảm xuống mức thấp nhất kể từ tháng 3/2021). Tuy nhiên, chỉ bốn ngày sau, vào ngày 7/7, nó đã tăng trở lại 101,07 (+0,05% trong ngày đó) — gần như một vòng đi-về hoàn chỉnh chỉ trong một tuần. Bài viết này chẩn đoán cách Bitcoin và thị trường phái sinh của nó thực sự phản ứng — hay không phản ứng — khi kênh vĩ mô được cho là động lực của đợt phục hồi đã đảo ngược hướng đi.</p>
+
+  <div class="box ko">💡 <strong>핵심 요약:</strong> 달러인덱스(DXY)는 6월 말 5주 최고치 101.50에서 부진한 고용지표 여파로 7월 3일 100.70까지 밀렸다가, 7월 7일 101.07로 되돌아왔다(일주일 내 왕복). 10년물 국채금리는 같은 기간 4.47~4.50%에서 큰 변화가 없었고, CME FedWatch 기준 7월 29일 FOMC 동결 확률은 73.4%(9월 15~16일이 다음 정례회의)다. 그런데 비트코인은 6월 30일 저점 $57,900에서 $63,300~63,900까지 오른 반등을 이 매크로 되돌림과 무관하게 유지하고 있다. 선물 미결제약정은 77만6,000→74만 BTC로 줄었고, 펀딩비는 연환산 약 19%(과열 기준 30% 미만)로 잠잠하며, 미국 현물 ETF는 7월 8일 +$143M로 나흘 연속 순유입을 이어갔다. Alternative.me 공포탐욕지수는 20(극단적 공포), CFGI는 45(중립)다.</div>
+  <div class="box en">💡 <strong>Key takeaway:</strong> The Dollar Index (DXY) fell from a five-week high of 101.50 in late June to 100.70 on July 3 after weak jobs data, then round-tripped back to 101.07 by July 7 — nearly a full cycle within a week. The 10-year Treasury yield barely moved over the same span, holding near 4.47-4.50%, while CME FedWatch puts the odds of a hold at the July 29 FOMC at 73.4% (the next scheduled meeting is September 15-16). Yet Bitcoin's bounce from its June 30 low of $57,900 to $63,300-63,900 has continued regardless of that macro reversal. Futures open interest fell from 776,000 to 740,000 BTC, funding sits at a subdued ~19% annualized (below the 30% overheating threshold), and US spot ETFs logged a fourth straight day of net inflows on July 8 (+$143M). Alternative.me's Fear &amp; Greed Index reads 20 ("Extreme Fear"), while CFGI reads 45 ("Neutral").</div>
+  <div class="box ja">💡 <strong>要点:</strong> ドル指数(DXY)は6月末の5週間ぶり高値101.50から、雇用統計の悪化を受けて7月3日に100.70まで下落した後、7月7日には101.07まで戻った(一週間以内の往復)。10年物国債利回りは同期間4.47〜4.50%でほとんど動かず、CME FedWatch基準で7月29日FOMCの据え置き確率は73.4%(次回定例会合は9月15〜16日)。しかしビットコインは6月30日の安値5万7,900ドルから6万3,300〜6万3,900ドルまでの反発をこのマクロの揺り戻しとは無関係に維持している。先物未決済建玉は77万6,000から74万BTCへ減少し、資金調達率は年率換算約19%(過熱基準30%未満)と落ち着いており、米国現物ETFは7月8日に+1億4,300万ドルで4日連続の純流入となった。Alternative.meの恐怖強欲指数は20(極端な恐怖)、CFGIは45(中立)だ。</div>
+  <div class="box es">💡 <strong>Resumen clave:</strong> El Índice del Dólar (DXY) cayó de un máximo de cinco semanas de 101,50 a fines de junio a 100,70 el 3 de julio tras datos de empleo débiles, y luego volvió a 101,07 el 7 de julio — casi un ciclo completo en una semana. El rendimiento del bono a 10 años apenas se movió en el mismo período, manteniéndose cerca de 4,47-4,50%, mientras que CME FedWatch sitúa la probabilidad de una pausa en el FOMC del 29 de julio en 73,4% (la próxima reunión programada es el 15-16 de septiembre). Sin embargo, el rebote de Bitcoin desde su mínimo del 30 de junio de 57.900 $ hasta 63.300-63.900 $ ha continuado sin importar ese giro macro. El interés abierto en futuros cayó de 776.000 a 740.000 BTC, el funding se mantiene en un moderado ~19% anualizado (por debajo del umbral de sobrecalentamiento del 30%), y los ETF spot de EE. UU. registraron su cuarto día consecutivo de entradas netas el 8 de julio (+143 millones de dólares). El Índice de Miedo y Codicia de Alternative.me marca 20 ("Miedo Extremo"), mientras que CFGI marca 45 ("Neutral").</div>
+  <div class="box de">💡 <strong>Kernaussage:</strong> Der Dollarindex (DXY) fiel Ende Juni von einem Fünf-Wochen-Hoch von 101,50 nach schwachen Arbeitsmarktdaten bis zum 3. Juli auf 100,70 und kehrte dann bis zum 7. Juli auf 101,07 zurück — fast ein vollständiger Zyklus innerhalb einer Woche. Die Rendite zehnjähriger Staatsanleihen bewegte sich im selben Zeitraum kaum und hielt sich bei 4,47-4,50%, während das CME-FedWatch-Tool die Wahrscheinlichkeit einer Pause bei der FOMC-Sitzung am 29. Juli auf 73,4% beziffert (die nächste planmäßige Sitzung ist am 15.-16. September). Doch Bitcoins Erholung von seinem Tief vom 30. Juni bei 57.900 $ auf 63.300-63.900 $ setzt sich ungeachtet dieser Makro-Umkehr fort. Das Futures-Open-Interest fiel von 776.000 auf 740.000 BTC, das Funding liegt bei gedämpften ~19% p.a. (unter der Überhitzungsschwelle von 30%), und US-Spot-ETFs verzeichneten am 8. Juli den vierten Tag in Folge mit Nettozuflüssen (+143 Mio. $). Der Fear-&amp;-Greed-Index von Alternative.me zeigt 20 ("Extreme Angst"), CFGI zeigt 45 ("Neutral").</div>
+  <div class="box fr">💡 <strong>Point clé :</strong> L'indice du dollar (DXY) est tombé d'un sommet de cinq semaines de 101,50 fin juin à 100,70 le 3 juillet après des données d'emploi décevantes, avant de revenir à 101,07 le 7 juillet — presque un cycle complet en une semaine. Le rendement des bons du Trésor à 10 ans a à peine bougé sur la même période, restant autour de 4,47-4,50 %, tandis que le CME FedWatch situe la probabilité d'une pause lors du FOMC du 29 juillet à 73,4 % (la prochaine réunion prévue est les 15-16 septembre). Pourtant, le rebond du bitcoin depuis son plus bas du 30 juin de 57 900 $ jusqu'à 63 300-63 900 $ s'est poursuivi indépendamment de ce revirement macro. L'open interest des futures est tombé de 776 000 à 740 000 BTC, le funding reste modéré à ~19 % annualisé (sous le seuil de surchauffe de 30 %), et les ETF spot américains ont enregistré un quatrième jour consécutif d'entrées nettes le 8 juillet (+143 millions de dollars). L'indice Fear &amp; Greed d'Alternative.me affiche 20 (« Peur Extrême »), tandis que CFGI affiche 45 (« Neutre »).</div>
+  <div class="box pt">💡 <strong>Resumo:</strong> o Índice do Dólar (DXY) caiu de uma máxima de cinco semanas de 101,50 no final de junho para 100,70 em 3 de julho após dados de emprego fracos, e depois voltou a 101,07 em 7 de julho — quase um ciclo completo em uma semana. O rendimento do título de 10 anos mal se moveu no mesmo período, mantendo-se perto de 4,47-4,50%, enquanto o CME FedWatch coloca a probabilidade de uma pausa no FOMC de 29 de julho em 73,4% (a próxima reunião agendada é em 15-16 de setembro). No entanto, o repique do bitcoin desde sua mínima de 30 de junho de US$ 57.900 até US$ 63.300-63.900 continuou independentemente dessa reversão macro. O interesse em aberto de futuros caiu de 776.000 para 740.000 BTC, o funding está em um moderado ~19% anualizado (abaixo do limite de superaquecimento de 30%), e os ETFs à vista dos EUA registraram o quarto dia consecutivo de entradas líquidas em 8 de julho (+US$ 143 milhões). O Índice de Medo e Ganância da Alternative.me marca 20 ("Medo Extremo"), enquanto o CFGI marca 45 ("Neutro").</div>
+  <div class="box tr">💡 <strong>Ana çıkarım:</strong> Dolar Endeksi (DXY), haziran sonundaki beş haftalık zirve olan 101,50'den zayıf istihdam verileri sonrasında 3 Temmuz'da 100,70'e geriledi, ardından 7 Temmuz'da 101,07'ye geri döndü — bir hafta içinde neredeyse tam bir döngü. 10 yıllık tahvil getirisi aynı dönemde neredeyse hiç kıpırdamayarak %4,47-4,50 civarında kaldı; CME FedWatch ise 29 Temmuz FOMC'sinde duraklama olasılığını %73,4 olarak gösteriyor (bir sonraki planlı toplantı 15-16 Eylül). Ancak Bitcoin'in 30 Haziran dibi olan 57.900 dolardan 63.300-63.900 dolara yükselişi bu makro geri dönüşten bağımsız şekilde sürdü. Vadeli işlem açık pozisyonu 776.000'den 740.000 BTC'ye geriledi, fonlama oranı %19 yıllıklandırılmış (%30 aşırı ısınma eşiğinin altında) ile mütevazı seyrediyor ve ABD spot ETF'leri 8 Temmuz'da +143 milyon dolarla dördüncü gün üst üste net giriş kaydetti. Alternative.me Korku ve Açgözlülük Endeksi 20 ("Aşırı Korku"), CFGI ise 45 ("Nötr") gösteriyor.</div>
+  <div class="box vi">💡 <strong>Tóm tắt chính:</strong> Chỉ số Đô la (DXY) giảm từ đỉnh 5 tuần 101,50 cuối tháng 6 xuống 100,70 vào ngày 3/7 sau dữ liệu việc làm yếu, rồi quay lại 101,07 vào ngày 7/7 — gần như một chu kỳ hoàn chỉnh trong một tuần. Lợi suất trái phiếu 10 năm hầu như không đổi trong cùng giai đoạn, giữ quanh mức 4,47-4,50%, trong khi CME FedWatch đặt xác suất Fed tạm dừng tại FOMC ngày 29/7 ở mức 73,4% (cuộc họp định kỳ tiếp theo là 15-16/9). Tuy nhiên, đà phục hồi của Bitcoin từ đáy 57.900 USD hôm 30/6 lên 63.300-63.900 USD vẫn tiếp diễn bất chấp sự đảo chiều vĩ mô đó. Hợp đồng mở phái sinh giảm từ 776.000 xuống 740.000 BTC, tỷ lệ funding ở mức khiêm tốn ~19% hàng năm (dưới ngưỡng quá nhiệt 30%), và các ETF giao ngay Mỹ ghi nhận ngày thứ tư liên tiếp có dòng vốn vào ròng vào ngày 8/7 (+143 triệu USD). Chỉ số Sợ hãi &amp; Tham lam của Alternative.me ở mức 20 ("Sợ hãi Cực độ"), trong khi CFGI ở mức 45 ("Trung lập").</div>
+
+  <h2 class="ko">달러인덱스, 5주 고점에서 저점 찍고 일주일 만에 원위치</h2>
+  <h2 class="en">The Dollar Index Fell From a 5-Week High to a Low — and Round-Tripped Back in a Week</h2>
+  <h2 class="ja">ドル指数、5週間ぶりの高値から安値をつけ一週間で元の水準に</h2>
+  <h2 class="es">El Índice del Dólar Cayó de un Máximo de 5 Semanas a un Mínimo — y Volvió en Una Semana</h2>
+  <h2 class="de">Der Dollarindex Fiel von einem 5-Wochen-Hoch auf ein Tief — und Kehrte Innerhalb einer Woche Zurück</h2>
+  <h2 class="fr">L'Indice du Dollar est Tombé d'un Sommet de 5 Semaines à un Plus Bas — et a Fait un Aller-Retour en Une Semaine</h2>
+  <h2 class="pt">O Índice do Dólar Caiu de uma Máxima de 5 Semanas para uma Mínima — e Voltou em Uma Semana</h2>
+  <h2 class="tr">Dolar Endeksi 5 Haftalık Zirveden Dibe İndi — ve Bir Haftada Geri Döndü</h2>
+  <h2 class="vi">Chỉ Số Đô La Rơi Từ Đỉnh 5 Tuần Xuống Đáy — Rồi Quay Lại Chỉ Trong Một Tuần</h2>
+
+  <p class="ko">6월 하순 DXY는 101.50까지 오르며 5주 만의 최고치를 찍었다. 그런데 6월 비농업고용 발표가 시장 예상(약 11만 명)을 크게 밑도는 +5만7,000명에 그치자 달러 매도가 유입되며 7월 3일 100.70까지 밀렸다 — 5주 고점 대비 약 0.8포인트, 비율로는 약 0.8% 하락이다. 실업률은 4.2%로 낮아졌지만, 이는 경제활동참가율이 2021년 3월 이후 최저 수준으로 떨어진 결과였다는 점에서 '건강한 고용시장'을 뜻하는 하락은 아니었다. 이 지표는 당시 연준 인하 기대를 다시 키운 재료였고, 6월 30일 저점을 찍은 비트코인의 반등에도 힘을 보탰다는 서사가 형성됐다.</p>
+  <p class="en">In late June, DXY climbed to 101.50, a five-week high. But when June's non-farm payrolls report came in at just +57,000 — far below the roughly 110,000 forecast — dollar selling picked up and the index fell to 100.70 by July 3, roughly 0.8 points, or about 0.8%, below that high. Unemployment ticked down to 4.2%, but since that was driven by labor-force participation dropping to its lowest since March 2021, it wasn't a decline that signaled a "healthy" labor market. At the time, this data reignited Fed rate-cut hopes and was credited with helping fuel Bitcoin's bounce off its June 30 low.</p>
+  <p class="ja">6月下旬、DXYは101.50まで上昇し、5週間ぶりの高値をつけた。ところが6月の非農業部門雇用者数が市場予想(約11万人)を大きく下回る+5万7,000人にとどまると、ドル売りが強まり、7月3日には100.70まで下落した — 5週高値から約0.8ポイント、比率にして約0.8%の下落だ。失業率は4.2%へ低下したが、これは労働参加率が2021年3月以来の最低水準まで落ち込んだ結果であり、「健全な雇用市場」を意味する下落ではなかった。この指標は当時、FRBの利下げ期待を再び高める材料となり、6月30日に底を打ったビットコインの反発を後押ししたという見方が形成された。</p>
+  <p class="es">A fines de junio, el DXY subió a 101,50, un máximo de cinco semanas. Pero cuando el informe de nóminas no agrícolas de junio resultó en solo +57.000 — muy por debajo del pronóstico de unos 110.000 — la venta de dólares se intensificó y el índice cayó a 100,70 el 3 de julio, aproximadamente 0,8 puntos, o alrededor de 0,8%, por debajo de ese máximo. El desempleo bajó a 4,2%, pero como eso se debió a que la participación laboral cayó a su nivel más bajo desde marzo de 2021, no fue una caída que señalara un mercado laboral "saludable". En ese momento, este dato reavivó las esperanzas de recorte de tasas de la Fed y se le atribuyó haber ayudado a impulsar el rebote de Bitcoin desde su mínimo del 30 de junio.</p>
+  <p class="de">Ende Juni stieg der DXY auf 101,50, ein Fünf-Wochen-Hoch. Doch als der Juni-Bericht zu den Beschäftigtenzahlen außerhalb der Landwirtschaft mit nur +57.000 deutlich unter der Prognose von rund 110.000 ausfiel, nahmen die Dollarverkäufe zu, und der Index fiel bis zum 3. Juli auf 100,70 — etwa 0,8 Punkte bzw. rund 0,8% unter diesem Hoch. Die Arbeitslosigkeit sank zwar auf 4,2%, doch da dies durch den Rückgang der Erwerbsquote auf den niedrigsten Stand seit März 2021 bedingt war, war es kein Rückgang, der einen "gesunden" Arbeitsmarkt signalisierte. Diese Daten schürten damals erneut Fed-Zinssenkungshoffnungen und trugen der Erzählung nach dazu bei, Bitcoins Erholung von seinem Tief vom 30. Juni anzuheizen.</p>
+  <p class="fr">Fin juin, le DXY est monté à 101,50, un sommet de cinq semaines. Mais lorsque le rapport sur les emplois non agricoles de juin n'a montré que +57 000 — bien en dessous de la prévision d'environ 110 000 — les ventes de dollars se sont intensifiées et l'indice est tombé à 100,70 le 3 juillet, soit environ 0,8 point, ou environ 0,8 %, sous ce sommet. Le chômage a légèrement reculé à 4,2 %, mais comme cela résultait de la chute du taux de participation au marché du travail à son plus bas niveau depuis mars 2021, ce n'était pas un recul signalant un marché du travail « sain ». À l'époque, cette donnée a ravivé les espoirs de baisse des taux de la Fed et aurait contribué à alimenter le rebond du bitcoin depuis son plus bas du 30 juin.</p>
+  <p class="pt">No final de junho, o DXY subiu para 101,50, uma máxima de cinco semanas. Mas quando o relatório de folha de pagamento não agrícola de junho veio com apenas +57.000 — bem abaixo da previsão de cerca de 110.000 — as vendas de dólar se intensificaram e o índice caiu para 100,70 em 3 de julho, cerca de 0,8 ponto, ou cerca de 0,8%, abaixo dessa máxima. O desemprego caiu para 4,2%, mas como isso foi impulsionado pela queda da participação da força de trabalho para a mínima desde março de 2021, não foi uma queda que sinalizasse um mercado de trabalho "saudável". Na época, esse dado reacendeu as esperanças de corte de juros do Fed e foi creditado por ajudar a impulsionar o repique do bitcoin desde sua mínima de 30 de junho.</p>
+  <p class="tr">Haziran sonunda DXY, beş haftalık zirve olan 101,50'ye tırmandı. Ama haziran ayı tarım dışı istihdam raporu yaklaşık 110.000 olan tahminin oldukça altında sadece +57.000 çıkınca dolar satışları hızlandı ve endeks 3 Temmuz'da 100,70'e geriledi — bu zirveden yaklaşık 0,8 puan, oranla yaklaşık %0,8 düşüş demek. İşsizlik %4,2'ye geriledi, ama bu işgücüne katılım oranının Mart 2021'den bu yana en düşük seviyeye inmesinden kaynaklandığı için 'sağlıklı' bir işgücü piyasasını işaret eden bir düşüş değildi. Bu veri o dönemde Fed faiz indirimi umutlarını yeniden alevlendirdi ve 30 Haziran'da dip yapan Bitcoin'in yükselişine destek verdiği düşünüldü.</p>
+  <p class="vi">Cuối tháng 6, DXY tăng lên 101,50, đỉnh 5 tuần. Nhưng khi báo cáo việc làm phi nông nghiệp tháng 6 chỉ đạt +57.000 — thấp hơn nhiều so với dự báo khoảng 110.000 — lực bán đô la gia tăng và chỉ số giảm xuống 100,70 vào ngày 3/7, thấp hơn đỉnh đó khoảng 0,8 điểm, tức khoảng 0,8%. Tỷ lệ thất nghiệp giảm xuống 4,2%, nhưng vì điều này là do tỷ lệ tham gia lực lượng lao động giảm xuống mức thấp nhất kể từ tháng 3/2021, nên đây không phải là sự sụt giảm báo hiệu một thị trường lao động "khỏe mạnh". Vào thời điểm đó, dữ liệu này đã làm bùng lên lại kỳ vọng Fed cắt lãi suất và được cho là đã góp phần thúc đẩy đà phục hồi của Bitcoin từ đáy ngày 30/6.</p>
+
+  <p class="ko">문제는 그다음이다. 7월 7일 기준 DXY는 101.07로 되돌아왔고, 그날 하루만 +0.05% 상승했다 — 7월 3일 저점에서 이미 3분의 1포인트 이상을 되돌린 셈이다. 10년물 국채금리는 같은 기간 4.47~4.50% 부근에서 크게 벗어나지 않았다. 즉 '고용 냉각 → 실질금리 하락 → 달러 약세'라는 경로가 실제로 굳어진 게 아니라, 데이터 하나에 대한 단기 반응이었을 가능성이 크다. CME FedWatch 기준 7월 29일 FOMC에서 연준이 금리를 동결할 확률은 73.4%(7월 7일 기준)로, 시장은 여전히 '당장의 인하'보다는 '관망'에 무게를 싣고 있다. 다음 정례회의는 점도표가 함께 발표되는 9월 15~16일이다.</p>
+  <p class="en">The problem is what came next. As of July 7, DXY had climbed back to 101.07, up 0.05% that day alone — already reversing more than a third of a point from its July 3 low. The 10-year Treasury yield, meanwhile, barely strayed from 4.47-4.50% over the same stretch. In other words, the "labor cooling → lower real rates → weaker dollar" chain likely never fully solidified — it looks more like a short-lived reaction to a single data point. As of July 7, CME FedWatch put the odds of the Fed holding rates at the July 29 FOMC at 73.4%, meaning markets are still leaning toward "wait and see" rather than an imminent cut. The next scheduled meeting, which comes with a fresh dot plot, is September 15-16.</p>
+  <p class="ja">問題はその後だ。7月7日時点でDXYは101.07まで戻り、その日だけで+0.05%上昇した — 7月3日の安値からすでに3分の1ポイント以上を取り戻した計算になる。10年物国債利回りは同期間、4.47〜4.50%付近を大きく外れなかった。つまり「雇用の冷え込み→実質金利の低下→ドル安」という経路が実際に固まったわけではなく、単一のデータに対する短期的な反応だった可能性が高い。CME FedWatch基準で7月29日FOMCで連邦準備制度が金利を据え置く確率は73.4%(7月7日時点)で、市場は依然として「即座の利下げ」よりも「様子見」に比重を置いている。次回定例会合はドットプロットも公表される9月15〜16日だ。</p>
+  <p class="es">El problema es lo que vino después. Al 7 de julio, el DXY había vuelto a subir a 101,07, +0,05% ese solo día — ya revirtiendo más de un tercio de punto desde su mínimo del 3 de julio. El rendimiento del bono a 10 años, mientras tanto, apenas se apartó de 4,47-4,50% en el mismo período. En otras palabras, la cadena "enfriamiento laboral → tasas reales más bajas → dólar más débil" probablemente nunca se solidificó por completo — parece más una reacción de corta duración a un solo dato. Al 7 de julio, CME FedWatch situaba la probabilidad de que la Fed mantenga las tasas en el FOMC del 29 de julio en 73,4%, lo que significa que los mercados aún se inclinan por "esperar y ver" en lugar de un recorte inminente. La próxima reunión programada, que viene con un nuevo dot plot, es el 15-16 de septiembre.</p>
+  <p class="de">Das Problem ist, was danach kam. Zum 7. Juli war der DXY wieder auf 101,07 gestiegen, an diesem Tag allein um 0,05% — und hatte damit bereits mehr als ein Drittel Punkt von seinem Tief vom 3. Juli zurückerobert. Die Rendite zehnjähriger Staatsanleihen wich im selben Zeitraum kaum von 4,47-4,50% ab. Mit anderen Worten: Die Kette "Arbeitsmarktabkühlung → niedrigere Realzinsen → schwächerer Dollar" hat sich wahrscheinlich nie vollständig verfestigt — es sieht eher nach einer kurzlebigen Reaktion auf einen einzelnen Datenpunkt aus. Zum 7. Juli bezifferte CME FedWatch die Wahrscheinlichkeit, dass die Fed die Zinsen bei der FOMC-Sitzung am 29. Juli hält, auf 73,4%, was bedeutet, dass die Märkte weiterhin eher auf "abwarten" als auf eine unmittelbare Senkung setzen. Die nächste planmäßige Sitzung, bei der auch ein neuer Dot Plot veröffentlicht wird, findet am 15.-16. September statt.</p>
+  <p class="fr">Le problème, c'est ce qui a suivi. Au 7 juillet, le DXY était remonté à 101,07, en hausse de 0,05 % ce jour-là seulement — inversant déjà plus d'un tiers de point depuis son plus bas du 3 juillet. Le rendement des bons du Trésor à 10 ans, quant à lui, s'est à peine écarté de 4,47-4,50 % sur la même période. Autrement dit, la chaîne « refroidissement du marché du travail → baisse des taux réels → dollar plus faible » ne s'est probablement jamais complètement solidifiée — cela ressemble davantage à une réaction éphémère à une seule donnée. Au 7 juillet, le CME FedWatch situait la probabilité que la Fed maintienne ses taux lors du FOMC du 29 juillet à 73,4 %, ce qui signifie que les marchés penchent toujours vers « attendre et voir » plutôt qu'une baisse imminente. La prochaine réunion prévue, accompagnée d'un nouveau dot plot, se tiendra les 15-16 septembre.</p>
+  <p class="pt">O problema é o que veio depois. Em 7 de julho, o DXY havia subido de volta para 101,07, alta de 0,05% somente naquele dia — já revertendo mais de um terço de ponto desde sua mínima de 3 de julho. O rendimento do título de 10 anos, por sua vez, mal se afastou de 4,47-4,50% no mesmo período. Em outras palavras, a cadeia "arrefecimento do mercado de trabalho → juros reais mais baixos → dólar mais fraco" provavelmente nunca se solidificou por completo — parece mais uma reação de curta duração a um único dado. Em 7 de julho, o CME FedWatch colocava a probabilidade de o Fed manter as taxas no FOMC de 29 de julho em 73,4%, o que significa que os mercados ainda pendem para "esperar para ver" em vez de um corte iminente. A próxima reunião agendada, que vem com um novo dot plot, é em 15-16 de setembro.</p>
+  <p class="tr">Sorun bundan sonra yaşanan. 7 Temmuz itibarıyla DXY, o gün tek başına %0,05 yükselerek 101,07'ye geri döndü — 3 Temmuz dibinden zaten üçte bir puandan fazla geri dönüş yapmış oldu. 10 yıllık tahvil getirisi ise aynı dönemde %4,47-4,50 civarından pek sapmadı. Başka bir deyişle, 'işgücü soğuması → düşük reel faizler → zayıf dolar' zinciri muhtemelen hiçbir zaman tam olarak oturmadı — tek bir veriye kısa ömürlü bir tepki gibi görünüyor. 7 Temmuz itibarıyla CME FedWatch, Fed'in 29 Temmuz FOMC'sinde faizleri sabit tutma olasılığını %73,4 olarak gösteriyordu; bu da piyasaların hâlâ acil bir indirimden çok 'bekle ve gör' tarafına ağırlık verdiği anlamına geliyor. Bir sonraki planlı toplantı, yeni bir nokta grafiğiyle birlikte 15-16 Eylül'de yapılacak.</p>
+  <p class="vi">Vấn đề nằm ở những gì xảy ra sau đó. Tính đến ngày 7/7, DXY đã tăng trở lại 101,07, tăng 0,05% chỉ trong ngày đó — đã đảo ngược hơn một phần ba điểm so với đáy ngày 3/7. Trong khi đó, lợi suất trái phiếu 10 năm hầu như không lệch khỏi mức 4,47-4,50% trong cùng giai đoạn. Nói cách khác, chuỗi "hạ nhiệt lao động → lãi suất thực thấp hơn → đô la yếu hơn" có lẽ chưa bao giờ thực sự được củng cố — nó giống một phản ứng ngắn hạn với một dữ liệu đơn lẻ hơn. Tính đến ngày 7/7, CME FedWatch đặt xác suất Fed giữ nguyên lãi suất tại FOMC ngày 29/7 ở mức 73,4%, nghĩa là thị trường vẫn nghiêng về "chờ xem" hơn là một đợt cắt giảm sắp xảy ra. Cuộc họp định kỳ tiếp theo, đi kèm biểu đồ dot plot mới, là vào ngày 15-16/9.</p>
+
+  <h2 class="ko">비트코인은 달러의 되돌림에도 반응하지 않았다</h2>
+  <h2 class="en">Bitcoin Didn't React to the Dollar's Reversal</h2>
+  <h2 class="ja">ビットコインはドルの揺り戻しに反応しなかった</h2>
+  <h2 class="es">Bitcoin No Reaccionó al Giro del Dólar</h2>
+  <h2 class="de">Bitcoin Reagierte Nicht auf die Umkehr des Dollars</h2>
+  <h2 class="fr">Le Bitcoin N'a Pas Réagi au Retournement du Dollar</h2>
+  <h2 class="pt">O Bitcoin Não Reagiu à Reversão do Dólar</h2>
+  <h2 class="tr">Bitcoin Doların Geri Dönüşüne Tepki Vermedi</h2>
+  <h2 class="vi">Bitcoin Không Phản Ứng Với Sự Đảo Chiều Của Đồng Đô La</h2>
+
+  <p class="ko">DXY가 저점을 찍었던 7월 1~3일 구간과 비트코인이 저점을 찍고 반등을 시작한 6월 30일~7월 초 구간은 시기적으로 겹친다. '달러 약세=위험자산 강세'라는 통상적 상관관계가 작동했다고 볼 여지가 있는 구간이다. 그런데 DXY가 7월 3일부터 7일까지 나흘 만에 저점 대비 3분의 1포인트 이상을 되돌리는 동안에도, 비트코인은 반등폭을 반납하지 않았다. 오히려 7월 8일 이란발 충격으로 일시적으로 밀렸을 뿐, $62,045에서 곧바로 $62,800~63,300대로 복귀했다. 달러가 다시 강해지는 흐름과 비트코인이 계속 버티는 흐름이 같은 주에 동시에 벌어진 셈이다.</p>
+  <p class="en">The window when DXY bottomed (July 1-3) overlaps with the window when Bitcoin bottomed and began bouncing (June 30 to early July) — a stretch where the usual "weak dollar = strong risk assets" correlation could plausibly have been at work. But as DXY reversed more than a third of a point off its low over just four days, from July 3 to July 7, Bitcoin didn't give back its gains. It only dipped temporarily on the July 8 Iran shock, quickly returning from $62,045 to the $62,800-63,300 range. A dollar that's strengthening again and a Bitcoin that keeps holding its ground played out in the same week.</p>
+  <p class="ja">DXYが底を打った7月1〜3日の期間と、ビットコインが底を打って反発を始めた6月30日〜7月初旬の期間は時期的に重なる。「ドル安=リスク資産高」という通常の相関が働いていたと見る余地がある期間だ。ところがDXYが7月3日から7日までのわずか4日間で安値から3分の1ポイント以上を取り戻す間も、ビットコインは反発分を手放さなかった。むしろ7月8日のイラン発ショックで一時的に下落しただけで、5万2,045ドル(原文ママ、6万2,045ドル)から6万2,800〜6万3,300ドル台へすぐに回復した。ドルが再び強くなる流れと、ビットコインが持ちこたえ続ける流れが同じ週に同時に起きたわけだ。</p>
+  <p class="es">El período en que el DXY tocó fondo (1-3 de julio) se superpone con el período en que Bitcoin tocó fondo y comenzó a rebotar (30 de junio a principios de julio) — un tramo en el que la habitual correlación "dólar débil = activos de riesgo fuertes" plausiblemente pudo haber estado en juego. Pero mientras el DXY revertía más de un tercio de punto desde su mínimo en solo cuatro días, del 3 al 7 de julio, Bitcoin no devolvió sus ganancias. Solo cayó temporalmente en el shock de Irán del 8 de julio, regresando rápidamente de 62.045 $ a la banda de 62.800-63.300 $. Un dólar que se fortalece de nuevo y un Bitcoin que sigue manteniendo su terreno ocurrieron en la misma semana.</p>
+  <p class="de">Der Zeitraum, in dem der DXY seinen Boden fand (1.-3. Juli), überschneidet sich mit dem Zeitraum, in dem Bitcoin seinen Boden fand und zu einer Erholung ansetzte (30. Juni bis Anfang Juli) — eine Phase, in der die übliche Korrelation "schwacher Dollar = starke Risikoanlagen" plausibel am Werk gewesen sein könnte. Doch während der DXY innerhalb von nur vier Tagen, vom 3. bis zum 7. Juli, mehr als ein Drittel Punkt von seinem Tief zurückeroberte, gab Bitcoin seine Gewinne nicht ab. Es fiel nur vorübergehend beim Iran-Schock am 8. Juli und kehrte rasch von 62.045 $ auf die Spanne 62.800-63.300 $ zurück. Ein wieder erstarkender Dollar und ein Bitcoin, das seine Position weiter behauptet, spielten sich in derselben Woche ab.</p>
+  <p class="fr">La période où le DXY a touché son plancher (1-3 juillet) chevauche celle où le bitcoin a touché son plancher et a commencé à rebondir (30 juin à début juillet) — une période où la corrélation habituelle « dollar faible = actifs à risque forts » aurait plausiblement pu être à l'œuvre. Mais alors que le DXY inversait plus d'un tiers de point depuis son plus bas en seulement quatre jours, du 3 au 7 juillet, le bitcoin n'a pas rendu ses gains. Il n'a que temporairement chuté lors du choc iranien du 8 juillet, revenant rapidement de 62 045 $ à la fourchette 62 800-63 300 $. Un dollar qui se renforce à nouveau et un bitcoin qui continue de tenir bon se sont produits la même semaine.</p>
+  <p class="pt">O período em que o DXY tocou o fundo (1-3 de julho) se sobrepõe ao período em que o bitcoin tocou o fundo e começou a repicar (30 de junho a início de julho) — um trecho em que a correlação habitual "dólar fraco = ativos de risco fortes" plausivelmente poderia estar em ação. Mas enquanto o DXY revertia mais de um terço de ponto desde sua mínima em apenas quatro dias, de 3 a 7 de julho, o bitcoin não devolveu seus ganhos. Ele só caiu temporariamente no choque do Irã em 8 de julho, voltando rapidamente de US$ 62.045 para a faixa de US$ 62.800-63.300. Um dólar que volta a se fortalecer e um bitcoin que continua se sustentando ocorreram na mesma semana.</p>
+  <p class="tr">DXY'nin dip yaptığı dönem (1-3 Temmuz) ile Bitcoin'in dip yapıp yükselişe geçtiği dönem (30 Haziran-temmuz başı) zaman olarak örtüşüyor — olağan 'zayıf dolar = güçlü risk varlıkları' korelasyonunun makul biçimde işlemiş olabileceği bir aralık. Ama DXY 3 Temmuz'dan 7 Temmuz'a sadece dört günde dibinden üçte bir puandan fazla geri dönüş yaparken, Bitcoin kazanımlarını geri vermedi. Sadece 8 Temmuz'daki İran şokuyla geçici olarak geriledi, 62.045 dolardan 62.800-63.300 dolar bandına hızla döndü. Yeniden güçlenen bir dolar ile direncini koruyan bir Bitcoin aynı hafta içinde yaşandı.</p>
+  <p class="vi">Giai đoạn DXY chạm đáy (1-3/7) trùng với giai đoạn Bitcoin chạm đáy và bắt đầu phục hồi (30/6 đến đầu tháng 7) — một khoảng thời gian mà mối tương quan thông thường "đô la yếu = tài sản rủi ro mạnh" có thể đã hoạt động một cách hợp lý. Nhưng trong khi DXY đảo ngược hơn một phần ba điểm so với đáy chỉ trong bốn ngày, từ 3/7 đến 7/7, Bitcoin không trả lại mức tăng của mình. Nó chỉ giảm tạm thời trong cú sốc Iran ngày 8/7, nhanh chóng quay lại từ 62.045 USD lên vùng 62.800-63.300 USD. Một đồng đô la đang mạnh lên trở lại và một Bitcoin vẫn giữ vững vị thế đã diễn ra trong cùng một tuần.</p>
+
+  <p class="ko">같은 이란발 충격에서 금이 오히려 팔린 것도 같은 맥락에서 참고할 만하다. 오일은 24시간 +5.8~5.9% 뛰었는데 금은 -1%대로 밀려 온스당 $4,050(7월 2일 이후 최저)까지 내려갔다 — 전형적인 안전자산 도피와는 다른 조합이었다. 달러도 지정학 리스크 속에 단기적으로 안전자산 수요를 흡수했을 개연성이 있다. 요컨대 '달러-비트코인'의 되돌림 관계는 지난 며칠 사이 최소 두 번(고용지표발 달러 약세 되돌림, 이란발 달러 강세 이벤트) 시험대에 올랐지만, 비트코인은 두 번 다 그 관계를 기계적으로 따르지 않았다. 이는 이번 반등이 달러·금리 채널만으로 설명되는 단순한 매크로 트레이드가 아니라는 뜻으로 읽힌다.</p>
+  <p class="en">It's also worth noting that gold, of all things, sold off in that same Iran shock. Oil jumped 5.8-5.9% over 24 hours while gold fell about 1%, dropping to $4,050 an ounce — its lowest since July 2 — a combination that doesn't fit the usual safe-haven playbook. The dollar plausibly absorbed some of that short-term safe-haven demand amid the geopolitical risk. In short, the "dollar-Bitcoin" reversal relationship has been tested at least twice in the past several days — once by the jobs-data-driven dollar weakness, once by the Iran-driven dollar strength — and Bitcoin didn't mechanically follow either time. That suggests this bounce isn't a simple macro trade explained solely by the dollar/rates channel.</p>
+  <p class="ja">同じイラン発ショックで金がむしろ売られたことも同じ文脈で参考になる。オイルは24時間で+5.8〜5.9%跳ねたが、金は-1%台に押し込まれ1オンス4,050ドル(7月2日以来の安値)まで下落した — 典型的な安全資産への逃避とは異なる組み合わせだった。地政学リスクの中でドルも一時的に安全資産需要を吸収した可能性がある。要するに「ドル・ビットコイン」の揺り戻し関係はここ数日で少なくとも2度(雇用統計発のドル安の揺り戻し、イラン発のドル高イベント)試されたが、ビットコインはどちらの場合もその関係を機械的には追わなかった。これは今回の反発が、ドル・金利経路だけで説明できる単純なマクロトレードではないことを示唆している。</p>
+  <p class="es">También vale la pena notar que, precisamente, el oro cayó en ese mismo shock de Irán. El petróleo saltó 5,8-5,9% en 24 horas mientras el oro cayó alrededor de 1%, hasta 4.050 $ la onza — su nivel más bajo desde el 2 de julio — una combinación que no encaja con el guion habitual de refugio seguro. El dólar plausiblemente absorbió parte de esa demanda de refugio a corto plazo en medio del riesgo geopolítico. En resumen, la relación de reversión "dólar-Bitcoin" se ha puesto a prueba al menos dos veces en los últimos días — una por la debilidad del dólar impulsada por los datos de empleo, otra por la fortaleza del dólar impulsada por Irán — y Bitcoin no siguió mecánicamente ninguna de las dos veces. Eso sugiere que este rebote no es un simple trade macro explicado únicamente por el canal dólar/tasas.</p>
+  <p class="de">Bemerkenswert ist auch, dass ausgerechnet Gold sich im selben Iran-Schock abverkaufte. Öl sprang innerhalb von 24 Stunden um 5,8-5,9%, während Gold um etwa 1% fiel und auf 4.050 $ pro Unze sank — den niedrigsten Stand seit dem 2. Juli — eine Kombination, die nicht zum üblichen Safe-Haven-Schema passt. Der Dollar hat inmitten des geopolitischen Risikos plausibel einen Teil dieser kurzfristigen Nachfrage nach sicheren Häfen absorbiert. Kurz gesagt: Die "Dollar-Bitcoin"-Umkehrbeziehung wurde in den vergangenen Tagen mindestens zweimal auf die Probe gestellt — einmal durch die arbeitsmarktdatenbedingte Dollarschwäche, einmal durch das iranbedingte Dollarstärke-Ereignis — und Bitcoin folgte dieser Beziehung in keinem der beiden Fälle mechanisch. Das deutet darauf hin, dass diese Erholung kein einfacher, allein durch den Dollar-/Zinskanal erklärbarer Makro-Trade ist.</p>
+  <p class="fr">Il convient aussi de noter que l'or, justement, a chuté lors de ce même choc iranien. Le pétrole a bondi de 5,8-5,9 % en 24 heures tandis que l'or a reculé d'environ 1 %, tombant à 4 050 $ l'once — son plus bas niveau depuis le 2 juillet — une combinaison qui ne correspond pas au schéma habituel de valeur refuge. Le dollar a plausiblement absorbé une partie de cette demande de refuge à court terme au milieu du risque géopolitique. En bref, la relation de retournement « dollar-bitcoin » a été testée au moins deux fois ces derniers jours — une fois par la faiblesse du dollar induite par les données d'emploi, une fois par la force du dollar induite par l'Iran — et le bitcoin n'a suivi mécaniquement ni l'une ni l'autre. Cela suggère que ce rebond n'est pas un simple trade macro expliqué uniquement par le canal dollar/taux.</p>
+  <p class="pt">Também vale notar que o ouro, justamente, caiu nesse mesmo choque do Irã. O petróleo saltou 5,8-5,9% em 24 horas enquanto o ouro caiu cerca de 1%, chegando a US$ 4.050 a onça — sua mínima desde 2 de julho — uma combinação que não se encaixa no roteiro habitual de porto seguro. O dólar plausivelmente absorveu parte dessa demanda de porto seguro de curto prazo em meio ao risco geopolítico. Em resumo, a relação de reversão "dólar-bitcoin" foi testada pelo menos duas vezes nos últimos dias — uma pela fraqueza do dólar impulsionada pelos dados de emprego, outra pela força do dólar impulsionada pelo Irã — e o bitcoin não seguiu mecanicamente nenhuma das duas vezes. Isso sugere que esse repique não é um simples trade macro explicado apenas pelo canal dólar/juros.</p>
+  <p class="tr">Aynı İran şokunda altının da satılması aynı bağlamda dikkate değer. Petrol 24 saatte %5,8-5,9 sıçrarken altın yaklaşık %1 gerileyerek ons başına 4.050 dolara (2 Temmuz'dan bu yana en düşük) düştü — bu, olağan güvenli liman senaryosuna uymayan bir kombinasyondu. Dolar, jeopolitik risk ortamında bu kısa vadeli güvenli liman talebinin bir kısmını makul biçimde emmiş olabilir. Kısacası, 'dolar-Bitcoin' geri dönüş ilişkisi son birkaç günde en az iki kez test edildi — bir kez istihdam verisi kaynaklı dolar zayıflığıyla, bir kez de İran kaynaklı dolar güçlenmesi olayıyla — ve Bitcoin her iki seferde de bu ilişkiyi mekanik biçimde takip etmedi. Bu, bu yükselişin sadece dolar/faiz kanalıyla açıklanabilecek basit bir makro işlem olmadığını gösteriyor.</p>
+  <p class="vi">Cũng đáng chú ý là vàng, của tất cả mọi thứ, lại bị bán tháo trong cùng cú sốc Iran đó. Dầu tăng 5,8-5,9% trong 24 giờ trong khi vàng giảm khoảng 1%, xuống còn 4.050 USD/ounce — mức thấp nhất kể từ ngày 2/7 — một sự kết hợp không khớp với kịch bản trú ẩn an toàn thông thường. Đồng đô la có thể đã hấp thụ một phần nhu cầu trú ẩn ngắn hạn đó giữa rủi ro địa chính trị. Tóm lại, mối quan hệ đảo chiều "đô la-Bitcoin" đã được kiểm chứng ít nhất hai lần trong vài ngày qua — một lần bởi sự suy yếu của đồng đô la do dữ liệu việc làm, một lần bởi sự mạnh lên của đồng đô la do Iran — và Bitcoin không tuân theo mối quan hệ đó một cách máy móc trong cả hai lần. Điều này cho thấy đợt phục hồi này không phải là một giao dịch vĩ mô đơn giản chỉ được giải thích bởi kênh đô la/lãi suất.</p>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="ko" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">달러는 왕복했는데 비트코인은 반등을 지켰다</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① 일주일간 달러인덱스(DXY) 경로</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101.50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">6월 말</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100.70 (저점)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">7월 3일</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101.07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7월 7일</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② 같은 기간 비트코인·파생시장 지표</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">비트코인 가격</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">저점 대비 +10~11% 유지</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">선물 미결제약정</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">77.6만→74만 BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">펀딩비(연환산)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (과열선 30% 미만)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">현물 ETF (7/8)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+$143M (4일 연속 순유입)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">달러가 되돌아간 일주일 동안, 비트코인·파생시장은 각자의 논리로 움직였다</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="en" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">The Dollar Round-Tripped, Bitcoin Held Its Bounce</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Dollar Index (DXY) Path Over a Week</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101.50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Late June</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100.70 (low)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">Jul 3</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101.07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">Jul 7</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Bitcoin &amp; Derivatives Over the Same Span</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Bitcoin price</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Holds +10-11% off low</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Futures open interest</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776k→740k BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Funding (annualized)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (below 30% threshold)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">Spot ETF (Jul 8)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+$143M (4th day of inflow)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">During the dollar's round trip, Bitcoin and its derivatives moved by their own logic</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="ja" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">ドルは往復したが、ビットコインは反発を維持した</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">①一週間のドル指数(DXY)の推移</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101.50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">6月末</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100.70(安値)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">7月3日</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101.07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7月7日</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">②同期間のビットコイン・デリバティブ指標</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">ビットコイン価格</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">安値比+10~11%を維持</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">先物未決済建玉</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">77.6万→74万BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">資金調達率(年率)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19%(過熱基準30%未満)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">現物ETF(7/8)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+1.43億ドル(4日連続流入)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">ドルが往復した一週間、ビットコインとデリバティブは独自の論理で動いた</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="es" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">El Dólar Fue y Volvió, Bitcoin Mantuvo su Rebote</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Trayectoria del Índice del Dólar (DXY) en Una Semana</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Fin de junio</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100,70 (mínimo)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">3 jul</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7 jul</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Bitcoin y Derivados en el Mismo Período</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Precio de Bitcoin</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Mantiene +10-11% desde el mínimo</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Interés abierto en futuros</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776k→740k BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Funding (anualizado)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (bajo el umbral de 30%)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">ETF spot (8 jul)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+143M$ (4º día de entradas)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">Durante el ida y vuelta del dólar, Bitcoin y sus derivados se movieron por su propia lógica</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="de" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Der Dollar Machte eine Rundreise, Bitcoin Hielt Seine Erholung</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① DXY-Verlauf Über Eine Woche</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Ende Juni</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100,70 (Tief)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">7. Jul</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7. Jul</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Bitcoin &amp; Derivate im Selben Zeitraum</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Bitcoin-Preis</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Hält +10-11% über Tief</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Futures-Open-Interest</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776k→740k BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Funding (p.a.)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (unter 30%-Schwelle)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">Spot-ETF (7. Jul)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+143 Mio.$ (4. Zuflusstag)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">Während der Dollar seine Rundreise machte, bewegten sich Bitcoin und Derivate nach eigener Logik</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="fr" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Le Dollar a Fait un Aller-Retour, le Bitcoin a Tenu son Rebond</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Trajectoire de l'Indice du Dollar (DXY) Sur Une Semaine</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Fin juin</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100,70 (bas)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">3 juil.</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7 juil.</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Bitcoin et Dérivés Sur la Même Période</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Prix du Bitcoin</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Tient +10-11% depuis le bas</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Open interest futures</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776k→740k BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Funding (annualisé)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (sous le seuil de 30%)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">ETF spot (8 juil.)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+143M$ (4e jour d'entrées)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">Pendant l'aller-retour du dollar, le bitcoin et ses dérivés ont suivi leur propre logique</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="pt" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">O Dólar Fez Ida e Volta, o Bitcoin Manteve seu Repique</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Trajetória do Índice do Dólar (DXY) em Uma Semana</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Final de junho</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100,70 (mínima)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">3 jul</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7 jul</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Bitcoin e Derivativos no Mesmo Período</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Preço do Bitcoin</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Mantém +10-11% desde a mínima</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Interesse em aberto futuros</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776 mil→740 mil BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Funding (anualizado)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (abaixo do limite de 30%)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">ETF à vista (8/7)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+US$143M (4º dia de entrada)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">Durante a ida e volta do dólar, Bitcoin e derivativos se moveram por lógica própria</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="tr" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Dolar Gidip Geldi, Bitcoin Yükselişini Korudu</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Bir Haftada Dolar Endeksi (DXY) Seyri</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Haziran sonu</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100,70 (dip)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">3 Tem</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7 Tem</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Aynı Dönemde Bitcoin ve Türev Göstergeleri</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Bitcoin fiyatı</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Dipten +%10-11 korunuyor</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Vadeli açık pozisyon</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776bin→740bin BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Fonlama (yıllık)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~%19 (%30 eşiğinin altında)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">Spot ETF (8 Tem)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+143M$ (4. giriş günü)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">Dolar gidip gelirken, Bitcoin ve türevleri kendi mantığıyla hareket etti</text>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" class="vi" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Đồng Đô La Đi Vòng Quay Lại, Bitcoin Vẫn Giữ Đà Phục Hồi</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Đường Đi Của Chỉ Số Đô La (DXY) Trong Một Tuần</text>
+      <line x1="60" y1="120" x2="620" y2="120" stroke="rgba(255,255,255,.2)" stroke-width="1.5"/>
+      <circle cx="90" cy="75" r="5" fill="#4ade80"/>
+      <text x="90" y="65" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,50</text>
+      <text x="90" y="135" fill="#71717a" font-size="13" text-anchor="middle">Cuối tháng 6</text>
+      <line x1="90" y1="80" x2="350" y2="108" stroke="#f87171" stroke-width="2"/>
+      <circle cx="350" cy="108" r="5" fill="#f87171"/>
+      <text x="350" y="98" fill="#f87171" font-size="13" text-anchor="middle" font-weight="800">100,70 (đáy)</text>
+      <text x="350" y="135" fill="#71717a" font-size="13" text-anchor="middle">3/7</text>
+      <line x1="350" y1="108" x2="600" y2="82" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="600" cy="82" r="5" fill="#4ade80"/>
+      <text x="600" y="68" fill="#4ade80" font-size="13" text-anchor="middle" font-weight="800">101,07</text>
+      <text x="600" y="135" fill="#71717a" font-size="13" text-anchor="middle">7/7</text>
+      <text x="20" y="103" fill="#a1a1aa" font-size="13">DXY</text>
+      <line x1="20" y1="165" x2="680" y2="165" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      <text x="20" y="192" fill="#a1a1aa" font-size="13" font-weight="700">② Bitcoin và Phái Sinh Trong Cùng Giai Đoạn</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13">Giá Bitcoin</text>
+      <rect x="280" y="211" width="230" height="16" fill="#4ade80"/>
+      <text x="520" y="223" fill="#4ade80" font-size="13" font-weight="800">Giữ +10-11% so với đáy</text>
+      <text x="20" y="262" fill="#a1a1aa" font-size="13">Hợp đồng mở phái sinh</text>
+      <rect x="200" y="251" width="80" height="16" fill="#f87171"/>
+      <text x="290" y="263" fill="#f87171" font-size="13" font-weight="800">776k→740k BTC</text>
+      <text x="20" y="302" fill="#a1a1aa" font-size="13">Funding (hàng năm)</text>
+      <rect x="280" y="291" width="60" height="16" fill="#fbbf24"/>
+      <text x="350" y="303" fill="#fbbf24" font-size="13" font-weight="800">~19% (dưới ngưỡng 30%)</text>
+      <text x="20" y="342" fill="#a1a1aa" font-size="13">ETF giao ngay (8/7)</text>
+      <rect x="280" y="331" width="40" height="16" fill="#4ade80"/>
+      <text x="330" y="343" fill="#4ade80" font-size="13" font-weight="800">+143 triệu USD (ngày vào ròng thứ 4)</text>
+      <text x="350" y="395" fill="#71717a" font-size="13" text-anchor="middle">Khi đồng đô la đi vòng quay lại, Bitcoin và phái sinh di chuyển theo logic riêng</text>
+    </g>
+  </svg>
+
+  <h2 class="ko">파생시장 확인 — OI·펀딩비·ETF는 이 되돌림에 반응하지 않았다</h2>
+  <h2 class="en">Checking the Derivatives Market — OI, Funding, and ETF Flows Didn't React to This Reversal Either</h2>
+  <h2 class="ja">デリバティブ市場の点検 — OI・資金調達率・ETFもこの揺り戻しに反応しなかった</h2>
+  <h2 class="es">Verificando el Mercado de Derivados — el OI, el Funding y los Flujos de ETF Tampoco Reaccionaron a Este Giro</h2>
+  <h2 class="de">Der Derivatemarkt im Check — OI, Funding und ETF-Flüsse Reagierten Ebenfalls Nicht auf Diese Umkehr</h2>
+  <h2 class="fr">Vérification du Marché des Dérivés — l'OI, le Funding et les Flux ETF N'ont Pas Non Plus Réagi à ce Retournement</h2>
+  <h2 class="pt">Verificando o Mercado de Derivativos — OI, Funding e Fluxos de ETF Também Não Reagiram a Essa Reversão</h2>
+  <h2 class="tr">Türev Piyasasını Kontrol Etmek — Açık Pozisyon, Fonlama ve ETF Akışları da Bu Geri Dönüşe Tepki Vermedi</h2>
+  <h2 class="vi">Kiểm Tra Thị Trường Phái Sinh — OI, Funding và Dòng Vốn ETF Cũng Không Phản Ứng Với Sự Đảo Chiều Này</h2>
+
+  <p class="ko">만약 이번 반등이 매크로 되돌림과 무관하게 스스로의 힘으로 재레버리지되고 있다면, 선물 미결제약정과 펀딩비도 함께 뛰어야 정상이다. 그런데 실제로는 반대다. 비트코인 선물 미결제약정은 77만6,000 BTC에서 74만 BTC로 오히려 줄었고, 펀딩비도 연환산 약 19%로 과열 기준(30%)에 한참 못 미친다. 이는 이번 반등을 새로운 레버리지 롱 포지션이 밀어 올리고 있는 게 아니라는 뜻이다 — 오히려 숏 포지션 청산이나 기존 포지션 정리에 가까운 흐름으로 읽힌다.</p>
+  <p class="en">If this bounce were genuinely re-leveraging on its own strength, independent of the macro reversal, futures open interest and funding should be climbing along with it. In reality, the opposite is happening. Bitcoin futures open interest actually fell from 776,000 BTC to 740,000 BTC, and funding sits at roughly 19% annualized — well below the 30% overheating threshold. That means fresh leveraged long positions aren't what's driving this bounce; it reads more like short-position liquidations or existing positions being unwound.</p>
+  <p class="ja">もし今回の反発がマクロの揺り戻しとは無関係に自らの力で再レバレッジしているのなら、先物未決済建玉と資金調達率も一緒に上がるのが正常だ。ところが実際は逆だ。ビットコイン先物未決済建玉は77万6,000BTCから74万BTCへむしろ減少し、資金調達率も年率換算約19%と過熱基準(30%)を大きく下回る。これは今回の反発を新規のレバレッジロングポジションが押し上げているのではないことを意味する — むしろショートポジションの清算や既存ポジションの解消に近い流れと読める。</p>
+  <p class="es">Si este rebote realmente estuviera re-apalancándose por su propia fuerza, independientemente del giro macro, el interés abierto en futuros y el funding deberían estar subiendo junto con él. En realidad, ocurre lo contrario. El interés abierto en futuros de Bitcoin cayó de 776.000 BTC a 740.000 BTC, y el funding se sitúa en torno al 19% anualizado — muy por debajo del umbral de sobrecalentamiento del 30%. Eso significa que no son nuevas posiciones largas apalancadas las que impulsan este rebote — se lee más como liquidaciones de posiciones cortas o el desmonte de posiciones existentes.</p>
+  <p class="de">Wenn sich diese Erholung tatsächlich unabhängig von der Makro-Umkehr aus eigener Kraft re-verhebeln würde, sollten Futures-Open-Interest und Funding mitsteigen. In Wirklichkeit ist das Gegenteil der Fall. Das Bitcoin-Futures-Open-Interest fiel tatsächlich von 776.000 BTC auf 740.000 BTC, und das Funding liegt bei rund 19% p.a. — weit unter der Überhitzungsschwelle von 30%. Das bedeutet, dass nicht neue gehebelte Long-Positionen diese Erholung antreiben — es liest sich eher wie Short-Positions-Liquidationen oder der Abbau bestehender Positionen.</p>
+  <p class="fr">Si ce rebond se re-levierait vraiment par sa propre force, indépendamment du revirement macro, l'open interest des futures et le funding devraient grimper avec lui. En réalité, c'est l'inverse qui se produit. L'open interest des futures Bitcoin est en fait tombé de 776 000 BTC à 740 000 BTC, et le funding se situe à environ 19 % annualisé — bien en dessous du seuil de surchauffe de 30 %. Cela signifie que ce ne sont pas de nouvelles positions longues à effet de levier qui alimentent ce rebond — cela ressemble davantage à des liquidations de positions courtes ou au dénouement de positions existantes.</p>
+  <p class="pt">Se esse repique estivesse genuinamente se re-alavancando por conta própria, independentemente da reversão macro, o interesse em aberto de futuros e o funding deveriam estar subindo junto. Na realidade, o oposto está acontecendo. O interesse em aberto de futuros de bitcoin caiu de 776.000 BTC para 740.000 BTC, e o funding está em cerca de 19% anualizado — bem abaixo do limite de superaquecimento de 30%. Isso significa que não são novas posições compradas alavancadas que estão impulsionando esse repique — parece mais liquidações de posições vendidas ou o desmonte de posições existentes.</p>
+  <p class="tr">Bu yükseliş gerçekten de makro geri dönüşten bağımsız olarak kendi gücüyle yeniden kaldıraçlanıyor olsaydı, vadeli işlem açık pozisyonu ve fonlama oranının da birlikte yükselmesi normal olurdu. Ama gerçekte tam tersi oluyor. Bitcoin vadeli işlem açık pozisyonu 776.000 BTC'den 740.000 BTC'ye geriledi, fonlama oranı da yıllıklandırılmış yaklaşık %19 ile %30'luk aşırı ısınma eşiğinin oldukça altında. Bu, bu yükselişi yeni kaldıraçlı uzun pozisyonların değil, daha çok kısa pozisyon tasfiyelerinin ya da mevcut pozisyonların çözülmesinin sürüklediği anlamına geliyor.</p>
+  <p class="vi">Nếu đợt phục hồi này thực sự đang tự tái đòn bẩy bằng sức mạnh riêng của nó, độc lập với sự đảo chiều vĩ mô, thì hợp đồng mở phái sinh và tỷ lệ funding lẽ ra phải tăng theo. Trên thực tế, điều ngược lại đang xảy ra. Hợp đồng mở phái sinh Bitcoin thực sự đã giảm từ 776.000 BTC xuống 740.000 BTC, và funding ở mức khoảng 19% hàng năm — thấp hơn nhiều so với ngưỡng quá nhiệt 30%. Điều đó có nghĩa là không phải các vị thế mua đòn bẩy mới đang thúc đẩy đợt phục hồi này — nó giống với việc thanh lý vị thế bán khống hoặc tháo gỡ các vị thế hiện có hơn.</p>
+
+  <p class="ko">ETF 자금은 조금 다른 그림을 보인다. 미국 현물 비트코인 ETF는 7월 8일 +$143M 순유입을 기록하며 나흘 연속 순유입을 이어갔다 — DXY가 되돌아가는 와중에도 자금은 계속 들어왔다는 뜻이다. 다만 규모 자체는 크지 않고, 6월 말~7월 초 열흘 가까이 이어진 순유출을 상쇄하기엔 아직 부족하다. 공포탐욕지수는 Alternative.me 기준 20(극단적 공포), CFGI 기준 45(중립)로 여전히 크게 엇갈려 있어, 크라우드 심리 역시 이 국면을 하나의 신호로 정리해주지 못한다. 결국 매크로(달러·금리)도, 크립토 내부 포지셔닝(OI·펀딩비·ETF·심리)도 이번 반등에 뚜렷한 확신을 실어주지 않는 상태다.</p>
+  <p class="en">ETF flows tell a slightly different story. US spot Bitcoin ETFs logged +$143M in net inflows on July 8, extending their streak to four straight days — meaning money kept coming in even as DXY was making its round trip back up. Still, the size isn't large, and it's not yet enough to offset the roughly ten straight days of net outflows seen in late June and early July. The Fear & Greed Index remains split — 20 ("Extreme Fear") per Alternative.me versus 45 ("Neutral") per CFGI — so crowd sentiment isn't resolving this moment into a clean signal either. In the end, neither the macro channel (dollar, rates) nor crypto's internal positioning (OI, funding, ETFs, sentiment) is lending this bounce clear conviction.</p>
+  <p class="ja">ETF資金は少し違う絵を見せている。米国現物ビットコインETFは7月8日、+1億4,300万ドルの純流入を記録し、4日連続の純流入となった — DXYが逆戻りする最中でも資金は流入し続けたということだ。ただし規模自体は大きくなく、6月末〜7月初旬にかけて10日近く続いた純流出を相殺するにはまだ足りない。恐怖強欲指数はAlternative.me基準で20(極端な恐怖)、CFGI基準で45(中立)と依然として大きく食い違っており、大衆心理もこの局面を一つのシグナルにまとめてくれない。結局、マクロ(ドル・金利)もクリプト内部のポジショニング(OI・資金調達率・ETF・心理)も、今回の反発にはっきりした確信を与えていない状態だ。</p>
+  <p class="es">Los flujos de ETF cuentan una historia ligeramente diferente. Los ETF spot de Bitcoin en EE. UU. registraron +143 millones de dólares en entradas netas el 8 de julio, extendiendo su racha a cuatro días consecutivos — lo que significa que el dinero siguió entrando incluso mientras el DXY hacía su viaje de vuelta hacia arriba. Aun así, el tamaño no es grande, y todavía no es suficiente para compensar los casi diez días consecutivos de salidas netas vistos a fines de junio y principios de julio. El Índice de Miedo y Codicia sigue dividido — 20 ("Miedo Extremo") según Alternative.me frente a 45 ("Neutral") según CFGI — por lo que el sentimiento de la multitud tampoco resuelve este momento en una señal clara. Al final, ni el canal macro (dólar, tasas) ni el posicionamiento interno de las criptomonedas (OI, funding, ETF, sentimiento) le están dando a este rebote una convicción clara.</p>
+  <p class="de">Die ETF-Flüsse erzählen eine etwas andere Geschichte. US-Spot-Bitcoin-ETFs verzeichneten am 8. Juli Nettozuflüsse von +143 Mio. $ und verlängerten damit ihre Serie auf vier Tage in Folge — das Geld floss also weiter, während der DXY seine Rundreise nach oben machte. Der Umfang ist jedoch nicht groß und reicht noch nicht aus, um die fast zehn aufeinanderfolgenden Tage mit Nettoabflüssen Ende Juni und Anfang Juli auszugleichen. Der Fear-&-Greed-Index bleibt gespalten — 20 ("Extreme Angst") laut Alternative.me gegenüber 45 ("Neutral") laut CFGI —, sodass auch die Stimmung der Masse diesen Moment nicht in ein klares Signal auflöst. Am Ende verleihen weder der Makrokanal (Dollar, Zinsen) noch die interne Krypto-Positionierung (OI, Funding, ETFs, Stimmung) dieser Erholung klare Überzeugung.</p>
+  <p class="fr">Les flux ETF racontent une histoire légèrement différente. Les ETF spot Bitcoin américains ont enregistré +143 millions de dollars d'entrées nettes le 8 juillet, prolongeant leur série à quatre jours consécutifs — ce qui signifie que l'argent a continué d'affluer même pendant que le DXY faisait son aller-retour vers le haut. Néanmoins, l'ampleur n'est pas grande, et ce n'est pas encore suffisant pour compenser les près de dix jours consécutifs de sorties nettes observés fin juin et début juillet. L'indice Fear & Greed reste divisé — 20 (« Peur Extrême ») selon Alternative.me contre 45 (« Neutre ») selon CFGI — de sorte que le sentiment de la foule ne résout pas non plus ce moment en un signal clair. Au final, ni le canal macro (dollar, taux) ni le positionnement interne des cryptos (OI, funding, ETF, sentiment) ne donnent à ce rebond une conviction claire.</p>
+  <p class="pt">Os fluxos de ETF contam uma história ligeiramente diferente. Os ETFs à vista de bitcoin dos EUA registraram +US$ 143 milhões em entradas líquidas em 8 de julho, estendendo sua sequência para quatro dias consecutivos — significando que o dinheiro continuou entrando mesmo enquanto o DXY fazia sua ida e volta para cima. Ainda assim, o tamanho não é grande, e ainda não é suficiente para compensar os quase dez dias consecutivos de saídas líquidas vistos no final de junho e início de julho. O Índice de Medo e Ganância permanece dividido — 20 ("Medo Extremo") segundo a Alternative.me contra 45 ("Neutro") segundo o CFGI — então o sentimento da multidão também não resolve esse momento em um sinal claro. No fim, nem o canal macro (dólar, juros) nem o posicionamento interno das criptos (OI, funding, ETFs, sentimento) estão dando a esse repique uma convicção clara.</p>
+  <p class="tr">ETF akışları biraz farklı bir tablo çiziyor. ABD spot Bitcoin ETF'leri 8 Temmuz'da +143 milyon dolarlık net girişle dört gün üst üste giriş serisini sürdürdü — bu, DXY yukarı doğru gidiş-dönüşünü yaparken bile paranın girmeye devam ettiği anlamına geliyor. Yine de büyüklük fazla değil ve haziran sonu-temmuz başında görülen neredeyse on gün üst üste süren net çıkışları dengelemeye henüz yetmiyor. Korku ve Açgözlülük Endeksi hâlâ bölünmüş durumda — Alternative.me'ye göre 20 ("Aşırı Korku"), CFGI'ye göre 45 ("Nötr") — bu yüzden kalabalığın psikolojisi de bu anı net bir sinyale dönüştürmüyor. Sonuçta ne makro kanal (dolar, faizler) ne de kripto içi konumlanma (OI, fonlama, ETF, duyarlılık) bu yükselişe net bir ikna gücü katıyor.</p>
+  <p class="vi">Dòng vốn ETF kể một câu chuyện hơi khác. Các ETF Bitcoin giao ngay của Mỹ ghi nhận +143 triệu USD dòng vốn vào ròng vào ngày 8/7, kéo dài chuỗi lên bốn ngày liên tiếp — nghĩa là tiền vẫn tiếp tục chảy vào ngay cả khi DXY đang đi vòng quay trở lại lên trên. Tuy nhiên, quy mô không lớn, và vẫn chưa đủ để bù đắp gần mười ngày liên tiếp rút ròng chứng kiến vào cuối tháng 6 và đầu tháng 7. Chỉ số Sợ hãi &amp; Tham lam vẫn còn phân hóa — 20 ("Sợ hãi Cực độ") theo Alternative.me so với 45 ("Trung lập") theo CFGI — vì vậy tâm lý đám đông cũng không giải quyết được thời điểm này thành một tín hiệu rõ ràng. Cuối cùng, cả kênh vĩ mô (đô la, lãi suất) lẫn vị thế nội tại của crypto (OI, funding, ETF, tâm lý) đều không mang lại sự thuyết phục rõ ràng cho đợt phục hồi này.</p>
+
+  <h2 class="ko">종합 진단 — 매크로도, 크립토 포지셔닝도 아직 확신을 주지 않는다</h2>
+  <h2 class="en">Overall Diagnosis — Neither the Macro Channel Nor Crypto's Positioning Offers Conviction Yet</h2>
+  <h2 class="ja">総合診断 — マクロもクリプトのポジショニングもまだ確信を与えていない</h2>
+  <h2 class="es">Diagnóstico General — Ni el Canal Macro ni el Posicionamiento Cripto Ofrecen Aún Convicción</h2>
+  <h2 class="de">Gesamtdiagnose — Weder Makrokanal noch Krypto-Positionierung Bieten Bislang Überzeugung</h2>
+  <h2 class="fr">Diagnostic Global — Ni le Canal Macro ni le Positionnement Crypto n'Offrent Encore de Conviction</h2>
+  <h2 class="pt">Diagnóstico Geral — Nem o Canal Macro Nem o Posicionamento Cripto Ainda Oferecem Convicção</h2>
+  <h2 class="tr">Genel Teşhis — Ne Makro Kanal Ne de Kripto Konumlanması Henüz İkna Edici Değil</h2>
+  <h2 class="vi">Chẩn Đoán Tổng Thể — Cả Kênh Vĩ Mô Lẫn Vị Thế Crypto Đều Chưa Mang Lại Sự Thuyết Phục</h2>
+
+  <p class="ko">이번 반등을 밀어 올렸다고 서사화된 매크로 채널(고용 냉각 → 인하 기대 → 달러 약세)은 이미 일주일 만에 상당 부분 되돌아갔다. 달러는 5주 저점에서 다시 올라섰고, 연준은 7월 29일 FOMC에서 동결할 확률이 73%를 넘는다. 그런데 비트코인은 그 되돌림에도 반등을 반납하지 않았다. 동시에 그 반등을 크립토 내부 힘으로 설명하려 해도, 선물 미결제약정은 줄었고 펀딩비는 잠잠하며 ETF 자금 유입도 아직 왜소하다. 즉 이 반등은 어느 한쪽 채널로도 깔끔하게 설명되지 않는, '이중으로 확신이 없는' 상태에 놓여 있다.</p>
+  <p class="en">The macro channel credited with driving this bounce — labor cooling, then rate-cut hopes, then a weaker dollar — has already unwound a good deal of itself within a week. The dollar is back off its five-week low, and the odds of a Fed hold at the July 29 FOMC now exceed 73%. Yet Bitcoin hasn't given back its bounce despite that reversal. At the same time, trying to explain the bounce through crypto's own internal strength doesn't fully hold up either: futures open interest has fallen, funding is subdued, and ETF inflows are still small. In other words, this bounce currently sits in a state of "double non-conviction" — not cleanly explained by either channel.</p>
+  <p class="ja">今回の反発を後押ししたと物語化されたマクロ経路(雇用の冷え込み→利下げ期待→ドル安)は、すでに一週間でかなりの部分が巻き戻った。ドルは5週安値から再び上昇し、連邦準備制度が7月29日FOMCで据え置く確率は73%を超える。しかしビットコインはその揺り戻しにもかかわらず反発分を手放していない。同時に、この反発をクリプト内部の力で説明しようとしても、先物未決済建玉は減り、資金調達率は落ち着いており、ETF資金流入もまだ小さい。つまりこの反発は、どちらの経路でもきれいに説明できない「二重の確信不足」の状態に置かれている。</p>
+  <p class="es">El canal macro al que se atribuyó impulsar este rebote — enfriamiento laboral, luego esperanzas de recorte de tasas, luego un dólar más débil — ya se ha desmontado en buena parte en una semana. El dólar ha vuelto a subir desde su mínimo de cinco semanas, y la probabilidad de que la Fed mantenga las tasas en el FOMC del 29 de julio ahora supera el 73%. Sin embargo, Bitcoin no ha devuelto su rebote pese a ese giro. Al mismo tiempo, intentar explicar el rebote a través de la propia fuerza interna de las criptomonedas tampoco se sostiene del todo: el interés abierto en futuros ha caído, el funding es moderado y las entradas de ETF siguen siendo pequeñas. En otras palabras, este rebote se encuentra actualmente en un estado de "doble falta de convicción" — no explicado con claridad por ninguno de los dos canales.</p>
+  <p class="de">Der Makrokanal, dem diese Erholung zugeschrieben wurde — Arbeitsmarktabkühlung, dann Zinssenkungshoffnungen, dann ein schwächerer Dollar — hat sich innerhalb einer Woche bereits zu einem guten Teil selbst zurückgedreht. Der Dollar ist von seinem Fünf-Wochen-Tief wieder gestiegen, und die Wahrscheinlichkeit einer Fed-Pause bei der FOMC-Sitzung am 29. Juli liegt inzwischen über 73%. Doch Bitcoin hat seine Erholung trotz dieser Umkehr nicht abgegeben. Gleichzeitig lässt sich die Erholung auch nicht sauber durch Kryptos eigene interne Stärke erklären: Das Futures-Open-Interest ist gefallen, das Funding ist gedämpft, und die ETF-Zuflüsse sind noch klein. Mit anderen Worten: Diese Erholung befindet sich derzeit in einem Zustand "doppelter Nicht-Überzeugung" — von keinem der beiden Kanäle sauber erklärt.</p>
+  <p class="fr">Le canal macro auquel on attribue ce rebond — refroidissement du marché du travail, puis espoirs de baisse des taux, puis dollar plus faible — s'est déjà largement défait en une semaine. Le dollar est remonté depuis son plus bas de cinq semaines, et la probabilité d'une pause de la Fed lors du FOMC du 29 juillet dépasse désormais 73 %. Pourtant, le bitcoin n'a pas rendu son rebond malgré ce revirement. Dans le même temps, essayer d'expliquer le rebond par la propre force interne des cryptos ne tient pas non plus entièrement debout : l'open interest des futures a chuté, le funding est modéré, et les entrées d'ETF restent faibles. Autrement dit, ce rebond se trouve actuellement dans un état de « double absence de conviction » — non expliqué proprement par l'un ou l'autre canal.</p>
+  <p class="pt">O canal macro creditado por impulsionar esse repique — arrefecimento do mercado de trabalho, depois esperanças de corte de juros, depois um dólar mais fraco — já se desfez em boa parte em uma semana. O dólar voltou a subir desde sua mínima de cinco semanas, e a probabilidade de uma pausa do Fed no FOMC de 29 de julho agora ultrapassa 73%. No entanto, o bitcoin não devolveu seu repique apesar dessa reversão. Ao mesmo tempo, tentar explicar o repique pela própria força interna das criptos também não se sustenta totalmente: o interesse em aberto de futuros caiu, o funding está moderado, e as entradas de ETF ainda são pequenas. Em outras palavras, esse repique está atualmente em um estado de "dupla falta de convicção" — não explicado claramente por nenhum dos dois canais.</p>
+  <p class="tr">Bu yükselişin arkasındaki gerekçe olarak gösterilen makro kanal — işgücü soğuması, ardından faiz indirimi umutları, ardından zayıf dolar — bir hafta içinde büyük ölçüde geri döndü. Dolar beş haftalık dibinden yeniden yükseldi ve Fed'in 29 Temmuz FOMC'sinde faizleri sabit tutma olasılığı artık %73'ü aşıyor. Ancak Bitcoin bu geri dönüşe rağmen yükselişini geri vermedi. Aynı zamanda yükselişi kriptonun kendi iç gücüyle açıklamaya çalışmak da tam olarak tutmuyor: vadeli işlem açık pozisyonu düştü, fonlama oranı sakin ve ETF girişleri hâlâ küçük. Başka bir deyişle, bu yükseliş şu anda her iki kanal tarafından da net biçimde açıklanamayan bir 'çifte ikna eksikliği' durumunda.</p>
+  <p class="vi">Kênh vĩ mô được cho là đã thúc đẩy đợt phục hồi này — lao động hạ nhiệt, rồi kỳ vọng cắt lãi suất, rồi đồng đô la yếu hơn — đã tự đảo ngược một phần đáng kể chỉ trong một tuần. Đồng đô la đã tăng trở lại từ đáy 5 tuần, và xác suất Fed tạm dừng tại FOMC ngày 29/7 giờ đây vượt quá 73%. Tuy nhiên, Bitcoin không trả lại đà phục hồi của mình bất chấp sự đảo chiều đó. Đồng thời, cố gắng giải thích đợt phục hồi bằng sức mạnh nội tại của chính crypto cũng không hoàn toàn đứng vững: hợp đồng mở phái sinh đã giảm, funding vẫn khiêm tốn, và dòng vốn ETF vẫn còn nhỏ. Nói cách khác, đợt phục hồi này hiện đang ở trạng thái "thiếu thuyết phục kép" — không được giải thích rõ ràng bởi bất kỳ kênh nào trong hai kênh trên.</p>
+
+  <div class="box ko">🎯 <strong>지켜볼 지점:</strong> ① DXY가 100선을 이탈하거나 반대로 101.50을 재돌파하는지. ② 8월 고용·물가 지표 이후 9월 FOMC 인하 확률이 어느 방향으로 움직이는지. ③ 선물 미결제약정과 펀딩비가 가격과 함께 오르며 재레버리지 신호를 보이는지. ④ 미국 현물 ETF 순유입이 나흘을 넘어 계속되고 앞선 유출분을 상쇄하는지.</div>
+  <div class="box en">🎯 <strong>What to watch:</strong> ① Whether DXY breaks below 100 or instead reclaims 101.50. ② Which direction September FOMC rate-cut odds move after August's jobs and inflation data. ③ Whether futures open interest and funding start climbing alongside price, signaling fresh re-leveraging. ④ Whether US spot ETF net inflows extend past four days and offset the prior outflows.</div>
+  <div class="box ja">🎯 <strong>注視点:</strong> ①DXYが100を割り込むか、逆に101.50を再突破するか。②8月の雇用・物価指標後、9月FOMCの利下げ確率がどちらの方向に動くか。③先物未決済建玉と資金調達率が価格とともに上昇し、再レバレッジのシグナルを見せるか。④米国現物ETFの純流入が4日を超えて続き、これまでの流出分を相殺するか。</div>
+  <div class="box es">🎯 <strong>Qué observar:</strong> ① Si el DXY rompe por debajo de 100 o, en cambio, recupera 101,50. ② En qué dirección se mueve la probabilidad de recorte de tasas del FOMC de septiembre tras los datos de empleo e inflación de agosto. ③ Si el interés abierto en futuros y el funding comienzan a subir junto con el precio, señalando un nuevo re-apalancamiento. ④ Si las entradas netas de los ETF spot de EE. UU. se extienden más allá de cuatro días y compensan las salidas previas.</div>
+  <div class="box de">🎯 <strong>Worauf zu achten ist:</strong> ① Ob der DXY unter 100 fällt oder stattdessen 101,50 zurückerobert. ② In welche Richtung sich die Zinssenkungswahrscheinlichkeit für die September-FOMC-Sitzung nach den Arbeitsmarkt- und Inflationsdaten im August bewegt. ③ Ob Futures-Open-Interest und Funding zusammen mit dem Preis zu steigen beginnen und damit neue Re-Verhebelung signalisieren. ④ Ob sich die Nettozuflüsse der US-Spot-ETFs über vier Tage hinaus fortsetzen und die vorherigen Abflüsse ausgleichen.</div>
+  <div class="box fr">🎯 <strong>À surveiller :</strong> ① Si le DXY passe sous 100 ou reprend au contraire 101,50. ② Dans quelle direction évolue la probabilité de baisse des taux du FOMC de septembre après les données d'emploi et d'inflation d'août. ③ Si l'open interest des futures et le funding commencent à grimper avec le prix, signalant un nouveau re-levier. ④ Si les entrées nettes des ETF spot américains se prolongent au-delà de quatre jours et compensent les sorties précédentes.</div>
+  <div class="box pt">🎯 <strong>O que observar:</strong> ① Se o DXY rompe abaixo de 100 ou, ao contrário, recupera 101,50. ② Em que direção a probabilidade de corte de juros do FOMC de setembro se move após os dados de emprego e inflação de agosto. ③ Se o interesse em aberto de futuros e o funding começam a subir junto com o preço, sinalizando nova realavancagem. ④ Se as entradas líquidas dos ETFs à vista dos EUA se estendem além de quatro dias e compensam as saídas anteriores.</div>
+  <div class="box tr">🎯 <strong>İzlenecekler:</strong> ① DXY'nin 100'ün altına inip inmeyeceği ya da 101,50'yi yeniden aşıp aşmayacağı. ② Ağustos istihdam ve enflasyon verilerinin ardından Eylül FOMC faiz indirimi olasılığının hangi yöne hareket edeceği. ③ Vadeli işlem açık pozisyonu ve fonlama oranının fiyatla birlikte yükselerek yeniden kaldıraçlanma sinyali verip vermeyeceği. ④ ABD spot ETF net girişlerinin dört günü aşıp aşmayacağı ve önceki çıkışları dengeleyip dengelemeyeceği.</div>
+  <div class="box vi">🎯 <strong>Cần theo dõi:</strong> ① DXY có phá vỡ xuống dưới 100 hay ngược lại lấy lại mốc 101,50. ② Xác suất Fed cắt lãi suất tại FOMC tháng 9 sẽ di chuyển theo hướng nào sau dữ liệu việc làm và lạm phát tháng 8. ③ Hợp đồng mở phái sinh và funding có bắt đầu tăng cùng với giá, báo hiệu tái đòn bẩy hay không. ④ Dòng vốn vào ròng của ETF giao ngay Mỹ có kéo dài quá bốn ngày và bù đắp lượng rút trước đó hay không.</div>
+
+  <h2 class="ko">함께 보면 좋은 지표</h2>
+  <h2 class="en">Best Combined With</h2>
+  <h2 class="ja">併せて見るべき指標</h2>
+  <h2 class="es">Mejor Combinado Con</h2>
+  <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">À Combiner Avec</h2>
+  <h2 class="pt">Melhor Combinado Com</h2>
+  <h2 class="tr">En İyi Şununla Birlikte Okunur</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+
+  <ul class="ko">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">글로벌 M2는 사상 최대 속도로 불어나는데 — 비트코인은 여전히 사상 최고가의 반토막이다</a>:</strong> 유동성이라는 더 넓은 매크로 배경을 짚은 글</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 반등을 촉발한 고용지표·크라우드 심리를 다룬 글</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">비트코인의 세 나침반이 서로 다른 곳을 가리킨다 — 나스닥·금은 깨지고 달러만 '정상' 복귀</a>:</strong> 같은 주 달러와의 상관관계 자체를 다룬 글</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 7월 8일 지정학 충격 당시의 파생시장 포지셔닝을 다룬 글</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Global M2 Is Expanding at a Record Pace — Bitcoin Is Still Half Its All-Time High</a>:</strong> The broader liquidity backdrop behind this macro narrative</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The jobs-data trigger and crowd sentiment behind this bounce</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin's Three Compasses Point in Three Directions — Nasdaq and Gold Break Down, Only the Dollar Comes Back to 'Normal'</a>:</strong> The correlation regime with the dollar itself, same week</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> Derivatives positioning during the July 8 geopolitical shock</li>
+  </ul>
+  <ul class="ja">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">グローバルM2は史上最速で膨らむのに — ビットコインはいまだ史上最高値の半分だ</a>:</strong> このマクロ物語の背景にある、より広い流動性の状況を扱った記事</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この反発の引き金となった雇用統計と大衆心理を扱った記事</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ビットコインの三つの羅針盤がバラバラを指す — ナスダック・金は崩れ、ドルだけが「正常」に戻った</a>:</strong> 同じ週のドルとの相関そのものを扱った記事</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> 7月8日の地政学ショック時のデリバティブ市場ポジショニングを扱った記事</li>
+  </ul>
+  <ul class="es">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">La M2 Global se Expande a un Ritmo Récord — Bitcoin Sigue en la Mitad de su Máximo Histórico</a>:</strong> El trasfondo más amplio de liquidez detrás de esta narrativa macro</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> El detonante de los datos de empleo y el sentimiento de la multitud detrás de este rebote</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas — Nasdaq y Oro se Rompen, Solo el Dólar Vuelve a lo 'Normal'</a>:</strong> El régimen de correlación con el propio dólar, la misma semana</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> El posicionamiento en derivados durante el shock geopolítico del 8 de julio</li>
+  </ul>
+  <ul class="de">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Die Globale M2 Wächst in Rekordtempo — Bitcoin Liegt Noch Immer bei der Hälfte Seines Allzeithochs</a>:</strong> Der breitere Liquiditätshintergrund hinter dieser Makro-Erzählung</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Der Arbeitsmarktdaten-Auslöser und die Stimmung der Masse hinter dieser Erholung</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoins Drei Kompasse Zeigen in Drei Richtungen — Nasdaq und Gold Brechen Weg, Nur der Dollar Kehrt zur 'Normalität' Zurück</a>:</strong> Das Korrelationsregime mit dem Dollar selbst, dieselbe Woche</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Derivate-Positionierung während des geopolitischen Schocks am 8. Juli</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">La M2 Mondiale se Développe à un Rythme Record — le Bitcoin Reste à la Moitié de son Sommet Historique</a>:</strong> La toile de fond de liquidité plus large derrière ce récit macro</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> Le déclencheur des données d'emploi et le sentiment de la foule derrière ce rebond</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions — Nasdaq et Or Décrochent, Seul le Dollar Redevient 'Normal'</a>:</strong> Le régime de corrélation avec le dollar lui-même, la même semaine</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a>:</strong> Le positionnement en dérivés pendant le choc géopolitique du 8 juillet</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">A M2 Global Está se Expandindo em Ritmo Recorde — o Bitcoin Ainda Está na Metade de sua Máxima Histórica</a>:</strong> O pano de fundo de liquidez mais amplo por trás dessa narrativa macro</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> O gatilho dos dados de emprego e o sentimento da multidão por trás desse repique</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">As Três Bússolas do Bitcoin Apontam em Três Direções — Nasdaq e Ouro se Rompem, Só o Dólar Volta ao 'Normal'</a>:</strong> O regime de correlação com o próprio dólar, na mesma semana</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> O posicionamento em derivativos durante o choque geopolítico de 8 de julho</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Küresel M2 Rekor Hızda Genişliyor — Bitcoin Hâlâ Tüm Zamanların Zirvesinin Yarısında</a>:</strong> Bu makro anlatının arkasındaki daha geniş likidite arka planı</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yükselişin arkasındaki istihdam verisi tetikleyicisi ve kalabalık psikolojisi</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor — Nasdaq ve Altın Kırılıyor, Sadece Dolar 'Normale' Dönüyor</a>:</strong> Aynı haftada doların kendisiyle olan korelasyon rejimi</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> 8 Temmuz'daki jeopolitik şok sırasındaki türev piyasası konumlanması</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">M2 Toàn Cầu Đang Mở Rộng Với Tốc Độ Kỷ Lục — Bitcoin Vẫn Chỉ Bằng Một Nửa Đỉnh Lịch Sử</a>:</strong> Bối cảnh thanh khoản rộng hơn đằng sau câu chuyện vĩ mô này</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Chất xúc tác từ dữ liệu việc làm và tâm lý đám đông đằng sau đợt phục hồi này</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau — Nasdaq và Vàng Đứt Gãy, Chỉ Đồng Đô La Trở Lại 'Bình Thường'</a>:</strong> Chế độ tương quan với chính đồng đô la, cùng tuần</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Vị thế phái sinh trong cú sốc địa chính trị ngày 8/7</li>
+  </ul>
+
+  <p class="ko" style="font-size:.85rem;color:#71717a">출처: CME Group·CME FedWatch(연준 금리 인하 확률), Investing.com·TradingEconomics·Vantage Markets·ICE(달러인덱스 DXY), FRED·미국 재무부(10년물 국채금리), Yahoo Finance·TheStreet·Fortune·CoinGecko(비트코인 가격·24시간 변동), CoinGlass(선물 미결제약정·펀딩비), Farside Investors·SoSoValue(현물 ETF 자금흐름), Alternative.me·CFGI(공포탐욕지수), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>
+  <p class="en" style="font-size:.85rem;color:#71717a">Sources: CME Group &amp; CME FedWatch (Fed rate-cut odds), Investing.com, TradingEconomics, Vantage Markets &amp; ICE (Dollar Index DXY), FRED &amp; US Treasury (10-year Treasury yield), Yahoo Finance, TheStreet, Fortune &amp; CoinGecko (Bitcoin price, 24-hour change), CoinGlass (futures open interest, funding), Farside Investors &amp; SoSoValue (spot ETF flows), Alternative.me &amp; CFGI (Fear &amp; Greed Index), BTCtiming.com's own analysis. Figures are as of the time cited and may change in real time. This is not investment advice — it's meant to diagnose the market's current state, not to predict where price goes next.</p>
+  <p class="ja" style="font-size:.85rem;color:#71717a">出典: CME Group・CME FedWatch(連邦準備制度の利下げ確率)、Investing.com・TradingEconomics・Vantage Markets・ICE(ドル指数DXY)、FRED・米財務省(10年物国債利回り)、Yahoo Finance・TheStreet・Fortune・CoinGecko(ビットコイン価格・24時間変動)、CoinGlass(先物未決済建玉・資金調達率)、Farside Investors・SoSoValue(現物ETF資金フロー)、Alternative.me・CFGI(恐怖強欲指数)、BTCtiming.com自社分析。数値は引用時点のものであり、リアルタイムで変動しうる。本記事は投資助言ではなく、現時点の市場状態を診断するためのものであり、今後の価格の方向性を予測するものではない。</p>
+  <p class="es" style="font-size:.85rem;color:#71717a">Fuentes: CME Group y CME FedWatch (probabilidad de recorte de tasas de la Fed), Investing.com, TradingEconomics, Vantage Markets e ICE (Índice del Dólar DXY), FRED y Tesoro de EE. UU. (rendimiento del bono a 10 años), Yahoo Finance, TheStreet, Fortune y CoinGecko (precio de Bitcoin, variación de 24 horas), CoinGlass (interés abierto en futuros, funding), Farside Investors y SoSoValue (flujos de ETF spot), Alternative.me y CFGI (Índice de Miedo y Codicia), análisis propio de BTCtiming.com. Las cifras son de la fecha citada y pueden cambiar en tiempo real. Esto no es asesoramiento de inversión — su propósito es diagnosticar el estado actual del mercado, no predecir hacia dónde irá el precio.</p>
+  <p class="de" style="font-size:.85rem;color:#71717a">Quellen: CME Group und CME FedWatch (Fed-Zinssenkungswahrscheinlichkeit), Investing.com, TradingEconomics, Vantage Markets und ICE (Dollarindex DXY), FRED und US-Finanzministerium (Rendite zehnjähriger Staatsanleihen), Yahoo Finance, TheStreet, Fortune und CoinGecko (Bitcoin-Preis, 24-Stunden-Veränderung), CoinGlass (Futures-Open-Interest, Funding), Farside Investors und SoSoValue (Spot-ETF-Flüsse), Alternative.me und CFGI (Fear-&amp;-Greed-Index), eigene Analyse von BTCtiming.com. Zahlen beziehen sich auf den zitierten Zeitpunkt und können sich in Echtzeit ändern. Dies ist keine Anlageberatung — der Zweck ist, den aktuellen Marktzustand zu diagnostizieren, nicht die künftige Preisrichtung vorherzusagen.</p>
+  <p class="fr" style="font-size:.85rem;color:#71717a">Sources : CME Group et CME FedWatch (probabilité de baisse des taux de la Fed), Investing.com, TradingEconomics, Vantage Markets et ICE (indice du dollar DXY), FRED et Trésor américain (rendement des bons du Trésor à 10 ans), Yahoo Finance, TheStreet, Fortune et CoinGecko (prix du bitcoin, variation sur 24 heures), CoinGlass (open interest des futures, funding), Farside Investors et SoSoValue (flux des ETF spot), Alternative.me et CFGI (indice Fear &amp; Greed), analyse propre de BTCtiming.com. Les chiffres sont ceux de la date citée et peuvent changer en temps réel. Ceci n'est pas un conseil en investissement — l'objectif est de diagnostiquer l'état actuel du marché, pas de prédire la direction future du prix.</p>
+  <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: CME Group e CME FedWatch (probabilidade de corte de juros do Fed), Investing.com, TradingEconomics, Vantage Markets e ICE (Índice do Dólar DXY), FRED e Tesouro dos EUA (rendimento do título de 10 anos), Yahoo Finance, TheStreet, Fortune e CoinGecko (preço do bitcoin, variação em 24 horas), CoinGlass (interesse em aberto de futuros, funding), Farside Investors e SoSoValue (fluxos de ETF à vista), Alternative.me e CFGI (Índice de Medo e Ganância), análise própria da BTCtiming.com. Os valores são referentes ao momento citado e podem mudar em tempo real. Isto não é aconselhamento de investimento — o objetivo é diagnosticar o estado atual do mercado, não prever para onde o preço vai.</p>
+  <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: CME Group ve CME FedWatch (Fed faiz indirimi olasılığı), Investing.com, TradingEconomics, Vantage Markets ve ICE (Dolar Endeksi DXY), FRED ve ABD Hazinesi (10 yıllık tahvil getirisi), Yahoo Finance, TheStreet, Fortune ve CoinGecko (Bitcoin fiyatı, 24 saatlik değişim), CoinGlass (vadeli işlem açık pozisyonu, fonlama), Farside Investors ve SoSoValue (spot ETF akışları), Alternative.me ve CFGI (Korku ve Açgözlülük Endeksi), BTCtiming.com'un kendi analizi. Rakamlar belirtilen tarihe aittir ve gerçek zamanlı olarak değişebilir. Bu bir yatırım tavsiyesi değildir — amaç, fiyatın gelecekte nereye gideceğini tahmin etmek değil, piyasanın şu anki durumunu teşhis etmektir.</p>
+  <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: CME Group và CME FedWatch (xác suất Fed cắt lãi suất), Investing.com, TradingEconomics, Vantage Markets và ICE (Chỉ số Đô la DXY), FRED và Bộ Tài chính Mỹ (lợi suất trái phiếu 10 năm), Yahoo Finance, TheStreet, Fortune và CoinGecko (giá Bitcoin, biến động 24 giờ), CoinGlass (hợp đồng mở phái sinh, funding), Farside Investors và SoSoValue (dòng vốn ETF giao ngay), Alternative.me và CFGI (Chỉ số Sợ hãi &amp; Tham lam), phân tích riêng của BTCtiming.com. Các số liệu tính đến thời điểm được trích dẫn và có thể thay đổi theo thời gian thực. Đây không phải là lời khuyên đầu tư — mục đích là chẩn đoán trạng thái hiện tại của thị trường, không dự đoán hướng đi của giá trong tương lai.</p>
+
+<?php require __DIR__.'/_footer.php'; ?>
