@@ -87,6 +87,10 @@
 
   <p class="es">Los mineros de Bitcoin son los más vulnerables durante las caídas de precio. Con costos fijos — electricidad, depreciación de equipos — cuando los precios caen por debajo del punto de equilibrio, los mineros cierran y comienzan a vender su BTC. Esto se llama <strong>Capitulación de Mineros</strong>.</p>
   <p class="de">Bitcoin-Miner sind während Preiseinbrüchen am anfälligsten. Bei fixen Kosten — Strom, Geräteabschreibung — schalten Miner ab und beginnen, ihr BTC zu verkaufen, wenn die Preise unter den Break-even fallen. Dies wird <strong>Miner-Kapitulation</strong> genannt.</p>
+  <p class="fr">Les mineurs de Bitcoin sont les plus vulnérables pendant les baisses de prix. En raison de coûts fixes — électricité, dépréciation du matériel — lorsque les prix tombent sous le seuil de rentabilité, les mineurs cessent leur activité et commencent à vendre leurs BTC. C'est ce qu'on appelle la <strong>Capitulation des Mineurs</strong>.</p>
+  <p class="pt">Os mineradores de Bitcoin são os mais vulneráveis durante as quedas de preço. Com custos fixos — eletricidade, depreciação de equipamentos — quando os preços caem abaixo do ponto de equilíbrio, os mineradores desligam suas máquinas e começam a vender seus BTC. Isso é chamado de <strong>Capitulação dos Mineradores</strong>.</p>
+  <p class="tr">Bitcoin madencileri, fiyat düşüşleri sırasında en savunmasız taraftır. Elektrik ve ekipman amortismanı gibi sabit maliyetler nedeniyle, fiyatlar başabaş noktasının altına düştüğünde madenciler kapanır ve ellerindeki BTC'yi satmaya başlar. Buna <strong>Madenci Kapitülasyonu</strong> denir.</p>
+  <p class="vi">Thợ đào Bitcoin là những người dễ tổn thương nhất trong giai đoạn giá giảm. Do chi phí cố định — tiền điện, khấu hao thiết bị — khi giá giảm xuống dưới điểm hòa vốn, thợ đào ngừng hoạt động và bắt đầu bán BTC nắm giữ. Đây được gọi là <strong>Sự Đầu Hàng Của Thợ Đào</strong>.</p>
 
   <div class="pg">
     <div class="pc r">
@@ -95,6 +99,10 @@
       <div class="pt ja">🔴 キャピチュレーション段階</div>
       <div class="pt es">🔴 Fase de Capitulación</div>
       <div class="pt de">🔴 Kapitulationsphase</div>
+      <div class="pt fr">🔴 Phase de Capitulation</div>
+      <div class="pt pt">🔴 Fase de Capitulação</div>
+      <div class="pt tr">🔴 Kapitülasyon Aşaması</div>
+      <div class="pt vi">🔴 Giai Đoạn Đầu Hàng</div>
       <div class="pd ko">약한 채굴자들이 채굴을 포기하면서 전체 해시레이트가 감소합니다. 30일 MA가 60일 MA 아래로 내려갑니다.</div>
       <div class="pd en">Weak miners shut down, causing total hashrate to decline. 30-day MA drops below the 60-day MA.</div>
       <div class="pd ja">弱いマイナーが撤退し、全体のハッシュレートが減少します。30日MAが60日MAを下回ります。</div>

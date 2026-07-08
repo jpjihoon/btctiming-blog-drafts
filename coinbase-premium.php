@@ -209,11 +209,19 @@
     <div class="rt ja">ビットコイン現物ETF承認後、Coinbaseはカストディアンの役割も兼ねるようになり、プレミアムの構造的なプラス基調が強化。</div>
     <div class="rt es">Tras la aprobación del ETF spot, el rol adicional de Coinbase como custodio reforzó estructuralmente un sesgo de prima positiva.</div>
     <div class="rt de">Nach der Genehmigung des Spot-ETFs verstärkte Coinbases zusätzliche Rolle als Verwahrstelle strukturell eine positive Prämientendenz.</div>
+    <div class="rt fr">Après l'approbation des ETF au comptant, le rôle supplémentaire de Coinbase en tant que dépositaire a structurellement renforcé un biais de prime positif.</div>
+    <div class="rt pt">Após a aprovação do ETF à vista, o papel adicional da Coinbase como custodiante reforçou estruturalmente um viés de prêmio positivo.</div>
+    <div class="rt tr">Spot ETF onayının ardından Coinbase'in saklama kuruluşu olarak üstlendiği ek rol, pozitif prim eğilimini yapısal olarak güçlendirdi.</div>
+    <div class="rt vi">Sau khi ETF giao ngay được phê duyệt, vai trò bổ sung của Coinbase với tư cách là đơn vị lưu ký đã củng cố về mặt cấu trúc xu hướng phần bù dương.</div>
     <div class="rr ko">→ 기관 자금 유입이 가격 상승을 주도</div>
     <div class="rr en">→ Institutional inflows became a primary price driver</div>
     <div class="rr ja">→ 機関資金の流入が価格上昇を主導</div>
     <div class="rr es">→ Los flujos institucionales se convirtieron en un motor principal del precio</div>
     <div class="rr de">→ Institutionelle Zuflüsse wurden zu einem Haupttreiber des Preises</div>
+    <div class="rr fr">→ Les entrées institutionnelles sont devenues un moteur principal du prix</div>
+    <div class="rr pt">→ Os fluxos institucionais se tornaram um dos principais motores do preço</div>
+    <div class="rr tr">→ Kurumsal girişler, fiyatın başlıca itici gücü haline geldi</div>
+    <div class="rr vi">→ Dòng vốn tổ chức trở thành động lực chính thúc đẩy giá</div>
   </div>
 
   <h2 class="ko">주의할 점</h2>

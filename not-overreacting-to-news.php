@@ -6,12 +6,20 @@
 
   <p class="es">Incluso nuestra propia categoría "Noticias de Criptomonedas" lo muestra — hackeos, sanciones, titulares regulatorios llegan casi a diario. Reacciona a cada uno con una decisión de trading, y te agotarás rápido.</p>
   <p class="de">Selbst unsere eigene Kategorie "Krypto-Nachrichten" zeigt es — Hacks, Sanktionen, regulatorische Schlagzeilen strömen fast täglich herein. Reagierst du auf jede einzelne mit einer Handelsentscheidung, brennst du schnell aus.</p>
+  <p class="fr">Même notre propre catégorie « Actus Crypto » le montre : piratages, sanctions, titres réglementaires affluent presque quotidiennement. Réagir à chacun d'eux par une décision de trading, et vous vous épuiserez rapidement.</p>
+  <p class="pt">Até a nossa própria categoria "Notícias Cripto" mostra isso — hacks, sanções, manchetes regulatórias chegam quase diariamente. Reaja a cada uma delas com uma decisão de negociação, e você vai se esgotar rapidamente.</p>
+  <p class="tr">Kendi "Kripto Haberleri" kategorimiz bile bunu gösteriyor — hackler, yaptırımlar, düzenleyici başlıklar neredeyse her gün akıyor. Bunların her birine bir alım satım kararıyla tepki verirseniz kısa sürede tükenirsiniz.</p>
+  <p class="vi">Ngay cả chuyên mục "Tin Tức Coin" của chúng tôi cũng cho thấy điều đó — tin về hack, lệnh trừng phạt, tiêu đề quản lý đổ về gần như mỗi ngày. Phản ứng với từng tin bằng một quyết định giao dịch, bạn sẽ nhanh chóng kiệt sức.</p>
 
   <h2 class="ko">모든 뉴스가 같은 무게를 갖지 않는다</h2>
   <h2 class="en">Not every headline carries the same weight</h2>
   <h2 class="ja">すべてのニュースが同じ重みを持つわけではない</h2>
   <h2 class="es">No Todos los Titulares Tienen el Mismo Peso</h2>
   <h2 class="de">Nicht jede Schlagzeile hat dasselbe Gewicht</h2>
+  <h2 class="fr">Toutes les nouvelles n'ont pas le même poids</h2>
+  <h2 class="pt">Nem toda manchete tem o mesmo peso</h2>
+  <h2 class="tr">Her başlık aynı ağırlığa sahip değildir</h2>
+  <h2 class="vi">Không phải tin tức nào cũng có trọng lượng như nhau</h2>
   <p class="ko"><a href="/blog/june-2026-hacks-roundup.html">특정 프로토콜 해킹</a>은 그 프로토콜 투자자에겐 중요하지만, 비트코인 전체 시장에는 대체로 제한적인 영향을 미쳐요. 반면 <a href="/blog/june-fomc-warsh-first-meeting.html">FOMC 같은 매크로 이벤트</a>는 거의 모든 자산에 파급력이 있습니다. 뉴스를 보면 먼저 "이게 내가 들고 있는 자산 전체에 영향을 주는가, 아니면 특정 종목에 국한되는가"부터 구분하는 습관이 필요해요.</p>
   <p class="en">A <a href="/blog/june-2026-hacks-roundup.html">specific protocol hack</a> matters a lot to that protocol's holders, but usually has limited spillover to the broader Bitcoin market. A <a href="/blog/june-fomc-warsh-first-meeting.html">macro event like the FOMC</a>, on the other hand, ripples across nearly every asset. The first habit worth building: does this news affect everything I hold, or is it isolated to one asset?</p>
   <p class="ja"><a href="/blog/june-2026-hacks-roundup.html">特定プロトコルのハッキング</a>はそのプロトコルの投資家には重要ですが、ビットコイン市場全体にはたいてい限定的な影響しか与えません。一方<a href="/blog/june-fomc-warsh-first-meeting.html">FOMCのようなマクロイベント</a>はほぼすべての資産に波及力があります。ニュースを見たら、まず「これは自分が保有する資産全体に影響するのか、特定の銘柄に限定されるのか」を区別する習慣が必要です。</p>

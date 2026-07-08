@@ -132,11 +132,19 @@
       <div class="pt ja">🟢 1を上回って回復</div>
       <div class="pt es">🟢 Recuperación Sobre 1</div>
       <div class="pt de">🟢 Erholung über 1</div>
+      <div class="pt fr">🟢 Reprise Au-Dessus de 1</div>
+      <div class="pt pt">🟢 Recuperação Acima de 1</div>
+      <div class="pt tr">🟢 1'in Üzerine Toparlanma</div>
+      <div class="pt vi">🟢 Phục Hồi Trở Lại Trên 1</div>
       <div class="pd ko">투매가 소진되고 남은 매도 물량이 손익분기점 근처에서 흡수됨. 매도 압력이 약해졌다는 신호입니다.</div>
       <div class="pd en">Selling exhausts itself and remaining supply gets absorbed near breakeven — a sign selling pressure has weakened.</div>
       <div class="pd ja">投げ売りが尽き、残った売却分が損益分岐点付近で吸収されます。売り圧力が弱まったシグナルです。</div>
       <div class="pd es">La venta se agota y la oferta restante se absorbe cerca del punto de equilibrio — señal de que la presión de venta se ha debilitado.</div>
       <div class="pd de">Der Verkauf erschöpft sich und das verbleibende Angebot wird nahe dem Break-even absorbiert — ein Zeichen, dass der Verkaufsdruck nachgelassen hat.</div>
+      <div class="pd fr">La vente s'essouffle et l'offre restante est absorbée près du seuil de rentabilité — un signe que la pression vendeuse s'est affaiblie.</div>
+      <div class="pd pt">A venda se esgota e a oferta restante é absorvida perto do ponto de equilíbrio — um sinal de que a pressão vendedora enfraqueceu.</div>
+      <div class="pd tr">Satışlar tükenir ve kalan arz başabaş noktasına yakın bir seviyede emilir — bu, satış baskısının zayıfladığının bir işaretidir.</div>
+      <div class="pd vi">Áp lực bán cạn kiệt và nguồn cung còn lại được hấp thụ gần điểm hòa vốn — dấu hiệu cho thấy áp lực bán đã suy yếu.</div>
     </div>
   </div>
 
@@ -145,6 +153,10 @@
   <h2 class="ja">歴史的事例</h2>
   <h2 class="es">Casos Históricos</h2>
   <h2 class="de">Historische Fälle</h2>
+  <h2 class="fr">Cas Historiques</h2>
+  <h2 class="pt">Casos Históricos</h2>
+  <h2 class="tr">Tarihsel Örnekler</h2>
+  <h2 class="vi">Các Trường Hợp Lịch Sử</h2>
   <div class="rc">
     <div class="rd">2020.03 (COVID 폭락)</div>
     <div class="rt ko">STH-SOPR이 0.85까지 급락하며 역대급 패닉 매도를 기록. 이후 빠르게 1 위로 회복.</div>
