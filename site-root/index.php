@@ -843,7 +843,37 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 </div>
 
 <!-- Ticker Bar -->
+<?php
+// SEO: 페이지의 대표 제목(h1). 대시보드는 숫자·라벨 위주라 h1이 없으면 구글이 주제를
+// 파악하기 어렵다. 티커바 위에 현재 언어로 h1을 노출(JS data-i로 언어 즉시 전환됨).
+$__seoH1 = [
+  'ko' => '비트코인·알트코인 실시간 매수·매도 타이밍 점수',
+  'en' => 'Real-Time Bitcoin & Altcoin Buy/Sell Timing Score',
+  'ja' => 'ビットコイン・アルトコインのリアルタイム売買タイミングスコア',
+  'es' => 'Puntuación de Timing de Compra/Venta de Bitcoin y Altcoins en Tiempo Real',
+  'de' => 'Echtzeit-Kauf-/Verkaufs-Timing-Score für Bitcoin & Altcoins',
+  'fr' => 'Score de Timing d\'Achat/Vente Bitcoin & Altcoins en Temps Réel',
+  'pt' => 'Pontuação de Timing de Compra/Venda de Bitcoin e Altcoins em Tempo Real',
+  'tr' => 'Gerçek Zamanlı Bitcoin ve Altcoin Alım/Satım Zamanlama Skoru',
+  'vi' => 'Điểm Thời Điểm Mua/Bán Bitcoin & Altcoin Theo Thời Gian Thực',
+];
+$__seoSub = [
+  'ko' => '온체인 지표를 종합한 0~10점 타이밍 신호를 무료로 실시간 확인하세요.',
+  'en' => 'A free real-time 0–10 timing signal combining on-chain indicators.',
+  'ja' => 'オンチェーン指標を統合した0〜10のタイミングシグナルを無料でリアルタイム表示。',
+  'es' => 'Una señal de timing de 0 a 10 en tiempo real que combina indicadores on-chain, gratis.',
+  'de' => 'Ein kostenloses Echtzeit-Timing-Signal von 0–10, das On-Chain-Indikatoren kombiniert.',
+  'fr' => 'Un signal de timing de 0 à 10 en temps réel combinant des indicateurs on-chain, gratuit.',
+  'pt' => 'Um sinal de timing de 0 a 10 em tempo real combinando indicadores on-chain, grátis.',
+  'tr' => 'Zincir üstü göstergeleri birleştiren, ücretsiz ve gerçek zamanlı 0–10 zamanlama sinyali.',
+  'vi' => 'Tín hiệu thời điểm 0–10 theo thời gian thực, kết hợp các chỉ báo on-chain, miễn phí.',
+];
+?>
 <div id="tickerBar" class="ticker-bar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
+  <div class="seo-hero" style="max-width:1280px;margin:0 auto;padding:8px 16px 2px">
+    <h1 data-i="seoH1"><?= h($__seoH1[$lang] ?? $__seoH1['en']) ?></h1>
+    <p data-i="seoSub"><?= h($__seoSub[$lang] ?? $__seoSub['en']) ?></p>
+  </div>
   <div class="ticker-scroll" style="max-width:1280px;margin:0 auto;padding:6px 16px;
     font-size:11px;color:var(--t2);display:flex;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
     <span id="tkFiatItem1"><span id="tkFiatLabel1">USD/KRW</span> <b id="tkUsdKrw" style="color:var(--t1)">—</b> <span id="tkUsdKrwChg"></span></span>
@@ -904,30 +934,6 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
 <div class="page-wrap">
 <?php
-// SEO: 페이지의 대표 제목(h1). 대시보드는 숫자·라벨 위주라 h1이 없으면 구글이 주제를
-// 파악하기 어렵다. 현재 언어로 핵심 검색어를 담은 h1을 노출(시각적으로도 페이지 설명이 됨).
-$__seoH1 = [
-  'ko' => '비트코인·알트코인 실시간 매수·매도 타이밍 점수',
-  'en' => 'Real-Time Bitcoin & Altcoin Buy/Sell Timing Score',
-  'ja' => 'ビットコイン・アルトコインのリアルタイム売買タイミングスコア',
-  'es' => 'Puntuación de Timing de Compra/Venta de Bitcoin y Altcoins en Tiempo Real',
-  'de' => 'Echtzeit-Kauf-/Verkaufs-Timing-Score für Bitcoin & Altcoins',
-  'fr' => 'Score de Timing d\'Achat/Vente Bitcoin & Altcoins en Temps Réel',
-  'pt' => 'Pontuação de Timing de Compra/Venda de Bitcoin e Altcoins em Tempo Real',
-  'tr' => 'Gerçek Zamanlı Bitcoin ve Altcoin Alım/Satım Zamanlama Skoru',
-  'vi' => 'Điểm Thời Điểm Mua/Bán Bitcoin & Altcoin Theo Thời Gian Thực',
-];
-$__seoSub = [
-  'ko' => '온체인 지표를 종합한 0~10점 타이밍 신호를 무료로 실시간 확인하세요.',
-  'en' => 'A free real-time 0–10 timing signal combining on-chain indicators.',
-  'ja' => 'オンチェーン指標を統合した0〜10のタイミングシグナルを無料でリアルタイム表示。',
-  'es' => 'Una señal de timing de 0 a 10 en tiempo real que combina indicadores on-chain, gratis.',
-  'de' => 'Ein kostenloses Echtzeit-Timing-Signal von 0–10, das On-Chain-Indikatoren kombiniert.',
-  'fr' => 'Un signal de timing de 0 à 10 en temps réel combinant des indicateurs on-chain, gratuit.',
-  'pt' => 'Um sinal de timing de 0 a 10 em tempo real combinando indicadores on-chain, grátis.',
-  'tr' => 'Zincir üstü göstergeleri birleştiren, ücretsiz ve gerçek zamanlı 0–10 zamanlama sinyali.',
-  'vi' => 'Tín hiệu thời điểm 0–10 theo thời gian thực, kết hợp các chỉ báo on-chain, miễn phí.',
-];
 ?>
 <div class="layout">
   <!-- SIDEBAR -->
@@ -1075,10 +1081,6 @@ $__seoSub = [
 
   <!-- Chart: 데스크톱에선 사이드바 옆, 모바일에선 최상단(grid-template-areas로 순서 제어) -->
   <div class="chart-wrap-cell">
-    <div class="seo-hero">
-      <h1><?= h($__seoH1[$lang] ?? $__seoH1['en']) ?></h1>
-      <p><?= h($__seoSub[$lang] ?? $__seoSub['en']) ?></p>
-    </div>
     <div class="chart-wrap" id="tvChart"></div>
   </div>
 
