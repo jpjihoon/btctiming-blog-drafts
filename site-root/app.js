@@ -311,6 +311,7 @@ let ws = null;
 let livePrice = null;
 let chatDB = null; // Firebase Realtime DB 핸들 (채팅 + 히스토리 공용)
 let chatListenersAttached = false; // 채팅 메시지/접속자 리스너가 실제로 부착됐는지
+let lastPresenceCount = null; // 마지막으로 받은 접속자 수(언어 변경 시 문구 재렌더에 사용)
 let scoreHistory = [];
 let currentScore = 0;
 let lastResultDetails = null; // Why 패널이 참조할, 가장 최근 렌더된 지표 상세 breakdown
@@ -2473,6 +2474,7 @@ function refreshLangDependentUI() {
   loadInsightWidget();
   loadBlogTicker();
   loadTicker(); // bfcache 복원 시에도 언어에 맞는 통화(KRW/USD/JPY/EUR)로 티커 재조회
+  renderChatUserCount(); // 채팅창을 열어둔 채 언어를 바꿔도 '· N명 접속중' 문구가 새 언어로 갱신되도록
 }
 refreshLangDependentUI(); // 최초 로딩 (단, footer 등 이 <script> 뒤에 오는 요소는 아직 DOM에 없음)
 // ⚠ 이 스크립트는 문서 중간(footer 앞)에서 실행되므로, footer의 [data-i](개인정보처리방침/이용약관/
@@ -2630,6 +2632,7 @@ function setLang(lang) {
   renderCategoryLinks();
   renderInsightWidget();
   renderBlogTicker();
+  renderChatUserCount(); // 채팅창을 열어둔 채 언어를 바꿔도 '· N명 접속중' 문구가 새 언어로 갱신되도록
   loadTicker(); // 언어가 바뀌면 상단 티커의 기준 통화(KRW/USD/JPY/EUR)도 다시 불러옴
   if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
   else loadAll();
@@ -3186,11 +3189,19 @@ function trackPresence() {
   chatDB.ref('presence').on('value', (snap) => {
     const data = snap.val();
     const count = data ? Object.keys(data).length : 0;
-    const cEl = document.getElementById('chatUserCount');
-    if(cEl) cEl.textContent = '· ' + TT({ko:`${count}명 접속중`, en:`${count} online`, ja:`${count}人 接続中`, es:`${count} en línea`, de:`${count} online`,fr:`${count} en ligne`,pt:`${count} online`,tr:`${count} çevrimiçi`,vi:`${count} trực tuyến`});
+    lastPresenceCount = count; // 언어 변경 시 재렌더할 수 있도록 마지막 접속자 수를 보관
+    renderChatUserCount();
   }, (error) => {
     console.error('[chat] presence listener ERROR:', error.message);
   });
+}
+/** 접속자 수 문구를 현재 언어로 다시 그림. presence 리스너와 언어 변경 시 모두 호출된다.
+ *  (리스너는 접속자 수가 바뀔 때만 발동하므로, 언어만 바꾸면 이 함수를 따로 불러줘야 한다.) */
+function renderChatUserCount() {
+  const cEl = document.getElementById('chatUserCount');
+  if (!cEl || lastPresenceCount == null) return;
+  const count = lastPresenceCount;
+  cEl.textContent = '· ' + TT({ko:`${count}명 접속중`, en:`${count} online`, ja:`${count}人 接続中`, es:`${count} en línea`, de:`${count} online`,fr:`${count} en ligne`,pt:`${count} online`,tr:`${count} çevrimiçi`,vi:`${count} trực tuyến`});
 }
 
 function escapeHtml(str) {
