@@ -166,15 +166,15 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     // 사이트로는 독일어로 정확히 돌아가야 함(메인은 5개 언어 다 지원하므로 이 글의 번역 여부와 무관).
     $mainHref = '/' . langSuffix($requestedLang);
     ?>
-    <a href="<?= h($mainHref) ?>" class="ko" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">실시간 분석 보러가기 →</a>
-    <a href="<?= h($mainHref) ?>" class="en" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Go to Live Analysis →</a>
-    <a href="<?= h($mainHref) ?>" class="ja" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">リアルタイム分析を見る →</a>
-    <a href="<?= h($mainHref) ?>" class="es" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver Análisis en Vivo →</a>
-    <a href="<?= h($mainHref) ?>" class="de" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Live-Analyse ansehen →</a>
-    <a href="<?= h($mainHref) ?>" class="fr" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Voir l'analyse en direct →</a>
-    <a href="<?= h($mainHref) ?>" class="pt" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver análise ao vivo →</a>
-    <a href="<?= h($mainHref) ?>" class="tr" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Canlı analizi gör →</a>
-    <a href="<?= h($mainHref) ?>" class="vi" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Xem phân tích trực tiếp →</a>
+    <a href="<?= h($mainHref) ?>" class="ko main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">실시간 분석 보러가기 →</a>
+    <a href="<?= h($mainHref) ?>" class="en main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Go to Live Analysis →</a>
+    <a href="<?= h($mainHref) ?>" class="ja main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">リアルタイム分析を見る →</a>
+    <a href="<?= h($mainHref) ?>" class="es main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver Análisis en Vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="de main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Live-Analyse ansehen →</a>
+    <a href="<?= h($mainHref) ?>" class="fr main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Voir l'analyse en direct →</a>
+    <a href="<?= h($mainHref) ?>" class="pt main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver análise ao vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="tr main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Canlı analizi gör →</a>
+    <a href="<?= h($mainHref) ?>" class="vi main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Xem phân tích trực tiếp →</a>
   </div>
 </div><?php // /.wrap-main ?>
   <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
@@ -217,6 +217,9 @@ function L(l){
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + bcSuffix));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + bcSuffix));
   document.querySelectorAll('.cta a').forEach(a => a.setAttribute('href', '/' + bcSuffix));
+  // "실시간 분석 보러가기"(대시보드행) 링크도 현재 언어 유지 — 서버는 렌더 시점 언어로
+  // href를 넣으므로, JS로 언어를 바꾼 뒤엔 대시보드가 옛 언어로 떴음. 여기서 갱신.
+  document.querySelectorAll('a.main-live-link').forEach(a => a.setAttribute('href', '/' + bcSuffix));
   // 이전글/다음글 + 추천글 카드 링크도 현재 언어를 유지 (서버는 렌더 시점 언어로
   // 접미사를 넣기 때문에, JS로 언어가 바뀐 상태에선 접미사가 안 맞아 이동 시 한글로 깜빡였음)
   document.querySelectorAll('a[data-base^="/blog/"]').forEach(a => {
@@ -284,11 +287,12 @@ function applySavedLang() {
     }
   } catch(e){}
 }
-applySavedLang(); // 최초 로드
-// 진입 시 현재 표시 언어를 쿠키에 반영 → 대시보드·용어집 등 다른 영역으로 이동해도 언어 일관.
+// 진입 시: 서버가 렌더한 언어(URL 기준, <html lang>)를 그대로 둔다. 저장언어로 덮지 않는다.
+// (저장언어로 덮으면 뒤로가기로 온 글이 최근 방문 언어로 오염됨.)
+// 그 언어를 URL에 반영 → 뒤로가기로 이 글에 오면 그때 언어로 정확히 복원.
 try {
-  var _cur = document.getElementById('hr') ? document.getElementById('hr').lang : 'ko';
-  if (_cur) { if(window.BTLang) BTLang.save(_cur); else document.cookie = 'blogLang=' + encodeURIComponent(_cur) + '; path=/; max-age=31536000; SameSite=Lax'; }
+  var _cur = document.getElementById('hr') ? (document.getElementById('hr').lang || 'ko') : 'ko';
+  if (window.BTLang) window.BTLang.stampUrl(_cur);
 } catch(e){}
 // 이전글/다음글 + 추천글 링크를 현재 표시 언어(<html lang>)에 맞춤.
 // applySavedLang이 URL 언어 존중 등으로 L()을 안 부르고 끝난 경우에도
@@ -305,7 +309,9 @@ function syncPrevNextLang(){
 syncPrevNextLang();
 // 뒤로가기/앞으로가기로 bfcache에서 복원될 때는 이 스크립트가 재실행되지 않으므로,
 // pageshow(persisted)에서 저장된 언어를 다시 적용해야 언어 설정이 유지됨.
-window.addEventListener('pageshow', function(e){ applySavedLang(); syncPrevNextLang(); });
+// 뒤로가기/앞으로가기(bfcache) 복원 시: 언어는 브라우저가 복원한 그대로 둔다(건드리지 않음).
+// 링크 접미사만 현재 표시 언어에 맞춰 재동기화(applySavedLang은 부르지 않음 → 뒤로가기 언어 유지).
+window.addEventListener('pageshow', function(e){ syncPrevNextLang(); });
 
 // ── SNS 공유 버튼 ──
 (function initShare(){

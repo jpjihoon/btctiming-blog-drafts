@@ -180,7 +180,7 @@ foreach ($__langKeys as $__l) {
     </button>
     <div class="lang-menu" id="langMenu">
       <?php foreach (SUPPORTED_LANGS as $__lc => $__meta): ?>
-      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>')"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
+      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick=\"setLang('<?= h($__lc) ?>', true)\"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
       <?php endforeach; ?>
     </div>
   </div>
@@ -319,7 +319,7 @@ foreach ($__langKeys as $__l) {
 <script>window.BT_SUPPORTED_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;</script>
 <script src="/lang-common.js"></script>
 <script>
-function setLang(lang) {
+function setLang(lang, doSave) {
   const root = document.getElementById('html-root');
   root.className = lang;
   root.lang = lang;
@@ -351,9 +351,12 @@ function setLang(lang) {
   const _suf = (lang === 'ko' ? '' : '?lang=' + lang);
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
-  // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
-  if(window.BTLang){BTLang.save(lang);}
-  else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
+  // 저장은 사용자가 "직접 언어를 고를 때"(doSave=true)만 한다. 진입/뒤로가기 복원 시엔 저장 안 함.
+  // (진입 시 저장하면 뒤로가기로 온 페이지가 최근 방문 언어로 오염됨.)
+  if(doSave){
+    if(window.BTLang){BTLang.save(lang);}
+    else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
+  }
   try {
     const url = new URL(location.href);
     if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
@@ -376,29 +379,23 @@ document.addEventListener('click', (e) => {
 // 언어 복원 우선순위: localStorage(사용자의 가장 최근 선택) > URL ?lang= > 기본 ko.
 // (예전엔 URL을 우선해서, 목록에서 EN→글에서 JA→뒤로가기 시 목록 URL의 ?lang=en(옛값)이
 //  localStorage의 ja를 덮어써 EN으로 되돌아가는 버그가 있었음)
-function restoreBlogLang(preferUrl) {
+function restoreBlogLang() {
   try {
     const VALID = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
-    // 저장 언어는 공통 유틸로 조회(쿠키 우선). 미로드 시 폴백.
-    let stored = null;
-    if(window.BTLang){ stored = BTLang.readCookie(); }
-    if(!VALID.includes(stored)){ try{ const m=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/); if(m) stored=decodeURIComponent(m[1]); }catch(e){} }
-    if(!VALID.includes(stored)) { stored = localStorage.getItem('blogLang') || localStorage.getItem('lang'); }
+    // 언어는 URL ?lang= 기준으로만 정한다(서버가 렌더한 언어와 동일). 저장값은 보지 않는다.
+    // (저장값을 보면 뒤로가기로 온 목록이 최근 방문 언어로 오염됨.)
+    // 목록은 카드에 인라인 style이 남아 있어 CSS만으론 표시 안 되므로, setLang으로 화면을 정리한다.
+    // 단 저장은 하지 않는다(두 번째 인자 생략 = doSave false).
     const urlLang = new URLSearchParams(location.search).get('lang');
-    // 최초 진입(preferUrl=true): URL ?lang= 최우선 — 사이트맵·구글 검색결과·공유링크로 특정
-    //   언어에 진입했을 때 그 의도를 존중한다(대시보드 app.js와 동일 정책).
-    // 뒤로가기/bfcache 복원(preferUrl=false): 저장값(쿠키/localStorage) 우선.
-    const pick = preferUrl
-      ? (VALID.includes(urlLang) ? urlLang : (VALID.includes(stored) ? stored : 'ko'))
-      : (VALID.includes(stored) ? stored : (VALID.includes(urlLang) ? urlLang : 'ko'));
+    const pick = VALID.includes(urlLang) ? urlLang : 'ko';
     setLang(pick);
   } catch(e){}
 }
-restoreBlogLang(true); // 최초 진입: URL ?lang= 최우선(사이트맵·공유링크 존중)
-// 뒤로가기/앞으로가기(bfcache) 복원 시엔 <script>가 재실행되지 않으므로 pageshow에서 다시 적용.
-// bfcache 복원(e.persisted)은 localStorage 우선(방금 고른 언어 보존), 그 외 표시는 URL 우선.
+restoreBlogLang(); // 진입: URL ?lang= 기준(사이트맵·공유링크·뒤로가기 모두 URL의 언어를 따름)
+// 뒤로가기/앞으로가기(bfcache) 복원 시: 언어는 브라우저가 복원한 그대로 둔다.
+// URL이 바뀌었을 수 있으니 화면만 URL 기준으로 재정리(저장은 안 함).
 window.addEventListener('pageshow', function(e){
-  restoreBlogLang(!e.persisted);
+  restoreBlogLang();
 });
 
 const PAGE_SIZE = 12;
