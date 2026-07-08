@@ -2538,18 +2538,19 @@ function syncLangFromStorage() {
 }
 window.addEventListener('pageshow', function(e) {
   if (e.persisted) {
-    // bfcache 복원: 스냅샷 일부 텍스트(footer 등)가 어긋날 수 있으므로 언어를 다시 읽어 전체 UI 재적용.
-    // URL에 lang이 명시돼 있으면 그것을 우선(사이트맵·검색결과 진입), 아니면 저장값.
+    // bfcache 복원(뒤로가기/앞으로가기): 언어는 "이 페이지를 원래 보던 언어" 그대로 둔다.
+    // ★ 저장값(localStorage/최근 선택 언어)을 읽지 않는다 — 읽으면 뒤로가기로 온 대시보드가
+    //   최근 방문 언어로 오염됨(다른 페이지에서 언어 바꾸고 대시보드로 뒤로가기 시 그 언어로 뜨던 버그).
+    //   URL의 ?lang= 만 신뢰한다. (서버 resolveLang도 URL만 보므로 화면과 일치)
     try {
       const urlLang = new URLSearchParams(location.search).get('lang');
-      const desired = SUPPORTED_LANG_CODES.includes(urlLang) ? urlLang : localStorage.getItem('blogLang');
-      if (SUPPORTED_LANG_CODES.includes(desired)) currentLang = desired;
+      const desired = SUPPORTED_LANG_CODES.includes(urlLang) ? urlLang : 'ko';
+      currentLang = desired;
     } catch(err) {}
     refreshLangDependentUI();
     loadAll();
   } else {
-    // 일반 표시(fresh load 등): 저장 언어와 다르면만 재동기화
-    syncLangFromStorage();
+    // 일반 fresh load: 서버가 URL로 렌더한 언어(currentLang)를 그대로 쓴다. 저장값으로 덮지 않음.
   }
 });
 loadAlertSettings(); // 저장된 알림 토글 설정 복원 (새로고침해도 유지)
