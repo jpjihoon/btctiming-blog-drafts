@@ -156,6 +156,7 @@ if (file_exists($metaFile)) {
 //   route : URL 경로(파라미터 없는 x-default 기준)
 $staticPages = [
     ['file' => 'about.php',         'route' => '/about',             'priority' => '0.5'],
+    ['file' => 'glossary.php',      'route' => '/glossary',          'priority' => '0.6'],
     ['file' => 'privacy.php',       'route' => '/privacy',           'priority' => '0.3'],
     ['file' => 'terms.php',         'route' => '/terms',             'priority' => '0.3'],
     ['file' => 'exchanges.php',     'route' => '/exchanges.php',     'priority' => '0.5'],
@@ -175,6 +176,24 @@ foreach ($staticPages as $sp) {
     foreach (SUPPORTED_LANGS as $lc => $li) {
         $priority = $lc === 'ko' ? $sp['priority'] : number_format((float)$sp['priority'] - 0.1, 1);
         $entries[] = urlEntry($spHreflangs[$lc], $lastmod, 'yearly', $priority, $spHreflangs);
+    }
+}
+
+// ── 용어사전 개별 지표 페이지 (/glossary/{slug}) ──
+$__glossaryFile = $root . '/glossary_data.php';
+if (file_exists($__glossaryFile)) {
+    $__glossary = require $__glossaryFile;
+    $__glLastmod = date('Y-m-d', filemtime($__glossaryFile));
+    foreach (array_keys($__glossary) as $__gslug) {
+        $__route = '/glossary/' . $__gslug;
+        $__glHreflangs = ['x-default' => $baseUrl . $__route];
+        foreach (SUPPORTED_LANGS as $lc => $li) {
+            $__glHreflangs[$lc] = $baseUrl . $__route . $smSuffix($lc);
+        }
+        foreach (SUPPORTED_LANGS as $lc => $li) {
+            $priority = $lc === 'ko' ? '0.5' : '0.4';
+            $entries[] = urlEntry($__glHreflangs[$lc], $__glLastmod, 'monthly', $priority, $__glHreflangs);
+        }
     }
 }
 
