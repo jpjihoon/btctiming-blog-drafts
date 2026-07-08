@@ -37,17 +37,23 @@ function applyLang(lang){
   document.documentElement.lang=lang;
   const l=document.getElementById('langTriggerLabel');if(l)l.textContent=LANG_NAMES[lang]||'KO';
   document.querySelectorAll('.lang-menu-item').forEach(el=>el.classList.toggle('active',el.dataset.lang===lang));
-  // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
-  if(window.BTLang){BTLang.save(lang);}
-  else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
+  // ※ 저장(쿼키/localStorage)은 여기서 안 한다 — 진입 시에도 applyLang이 불리므로,
+  //   여기서 저장하면 뒤로가기로 온 페이지가 최근 언어로 오염됨. 저장은 L()(사용자 선택)에서만.
   if(typeof window.onGuideLang==='function'){try{window.onGuideLang(lang);}catch(e){}}
 }
-function L(lang){applyLang(lang);closeLangMenu();const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());}
+function L(lang){applyLang(lang);if(window.BTLang)BTLang.save(lang);closeLangMenu();const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());}
 function toggleLangMenu(e){e.stopPropagation();document.getElementById('langDropdown').classList.toggle('open');}
 function closeLangMenu(){const d=document.getElementById('langDropdown');if(d)d.classList.remove('open');}
 document.addEventListener('click',(e)=>{const dd=document.getElementById('langDropdown');if(dd&&dd.classList.contains('open')&&!dd.contains(e.target))closeLangMenu();});
 <?= $GUIDE_EXTRA_JS ?? '' ?>
-applyLang(currentLang());
+// 진입 시: 서버가 렌더한 언어(URL 기준)를 그대로 적용한다. 저장된 언어로 덮어쓰지 않는다.
+// (저장언어로 덮으면 뒤로가기로 온 페이지가 최근 방문 언어로 오염됨.)
+// 그리고 그 언어를 URL에 반영 → 뒤로가기로 이 페이지에 오면 그때 언어로 정확히 복원.
+(function(){
+  var _rendered = <?= json_encode($__ghLang) ?>;
+  applyLang(_rendered);
+  if (window.BTLang) window.BTLang.stampUrl(_rendered);
+})();
 </script>
 </body>
 </html>

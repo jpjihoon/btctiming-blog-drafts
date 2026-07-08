@@ -1186,6 +1186,7 @@ const CATEGORY_LIST = <?= json_encode(array_keys(require __DIR__ . '/blog/_categ
 const LANG_META = <?= json_encode(array_map(fn($l) => ['code' => $l['code'], 'name' => $l['flag'] . ' ' . $l['name']], SUPPORTED_LANGS), JSON_UNESCAPED_UNICODE) ?>;
 const SUPPORTED_LANG_CODES = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
 window.BT_SUPPORTED_LANGS = SUPPORTED_LANG_CODES; // 공통 언어 유틸(lang-common.js)이 참조
+window.BT_SERVER_LANG = <?= json_encode($lang) ?>; // 서버가 URL 기준으로 렌더한 언어(단일 진실)
 </script>
 <script>window.COINS_AUTO = <?= $__coinsJson ?>;</script>
 <script src="/lang-common.js" defer></script>

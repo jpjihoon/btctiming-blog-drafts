@@ -284,8 +284,9 @@ require __DIR__ . '/_guide_head.php';
     location.replace(url.toString());               // 지금 이 페이지만 새 언어로 다시 렌더
   };
 
-  // 현재 렌더된 언어를 쿠키에도 반영해 둔다(첫 방문 후 localStorage만 있고 쿠키 없던 경우 대비).
-  setLangCookie(RENDERED);
+  // 진입 시: 현재 언어를 URL에 반영(뒤로가기로 이 페이지에 오면 그때 언어로 복원되게).
+  // 쿠키/localStorage 저장은 안 한다 — 진입 시 저장하면 다른 페이지의 뒤로가기가 오염됨.
+  if (window.BTLang) window.BTLang.stampUrl(RENDERED);
 })();
 </script>
 

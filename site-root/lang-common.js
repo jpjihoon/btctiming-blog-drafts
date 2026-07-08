@@ -71,8 +71,9 @@
   }
 
   /**
-   * 언어를 저장한다(쿠키 + localStorage 동시). 서버가 쿠키를 읽어 다음 페이지를 그 언어로 렌더.
-   * 사용자가 언어를 "선택"했을 때, 그리고 페이지 진입 시 현재 언어를 동기화할 때 호출.
+   * 언어를 저장한다(쿠키 + localStorage 동시). 사용자가 언어를 "선택"했을 때만 호출.
+   * ★ 페이지 진입 시에는 호출하지 말 것 — 진입 시 저장하면 뒤로가기로 온 페이지의 언어가
+   *   최근 방문 언어로 오염된다(서버가 URL만 보게 해도 클라 저장이 꼬임).
    */
   function save(l) {
     if (!isValid(l)) return;
@@ -80,5 +81,22 @@
     writeLocal(l);
   }
 
-  w.BTLang = { get: get, save: save, readCookie: readCookie, isValid: isValid };
+  /**
+   * 현재 렌더된 언어(rendered)를 이 페이지의 URL에 반영한다(?lang=xx, replaceState).
+   * 페이지 진입 시 호출 → 이 히스토리 엔트리가 자기 언어를 URL에 담게 되어,
+   * 나중에 "뒤로가기"로 이 페이지에 돌아오면 그때의 언어로 정확히 복원된다.
+   * (서버는 URL ?lang만 보므로, URL에 언어가 박혀 있어야 뒤로가기가 정확함.)
+   * 저장(쿠키/localStorage)은 하지 않는다 — 오염 방지.
+   */
+  function stampUrl(rendered) {
+    try {
+      var u = new URL(location.href);
+      if (rendered === 'ko') u.searchParams.delete('lang');
+      else if (isValid(rendered)) u.searchParams.set('lang', rendered);
+      else return;
+      history.replaceState(null, '', u);
+    } catch (e) {}
+  }
+
+  w.BTLang = { get: get, save: save, stampUrl: stampUrl, readCookie: readCookie, isValid: isValid };
 })(window);

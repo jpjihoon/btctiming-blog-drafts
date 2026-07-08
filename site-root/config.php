@@ -153,23 +153,21 @@ function langSuffix(string $lang): string {
 
 /**
  * 페이지 언어 결정 — 사이트 전역 단일 규칙.
- * 우선순위: URL ?lang= (공유 링크·사이트맵 등 명시적 진입) > 쿠키 blogLang(마지막 선택) > ko.
+ * ★ 서버는 URL ?lang= 만 본다. 쿠키는 읽지 않는다.
+ *   이유: 서버가 쿠키(마지막 선택 언어)를 읽으면, 뒤로가기로 온 페이지까지
+ *   마지막 언어로 덮어써서 "뒤로가기 = 원래 보던 언어"가 깨진다.
+ *   서버는 뒤로가기인지 새 이동인지 구분할 수 없으므로, 아예 URL만 신뢰한다.
  *
- * 이 함수 하나를 대시보드·용어집·블로그·안내 페이지가 모두 호출하므로,
- * 언어 결정 규칙을 바꿀 일이 생기면 여기만 고치면 전 페이지에 일관 적용된다.
- * (예전엔 이 로직이 페이지마다 복붙돼 있어, 한 곳만 고치면 다른 페이지에서 어긋났음.)
- *
- * 쿠키를 읽기 때문에, URL에 ?lang이 없는 페이지로 (링크·뒤로가기로) 이동해도
- * 서버가 처음부터 마지막 선택 언어로 렌더한다 → JS로 다시 로드해 고칠 필요가 없다.
+ * 동작:
+ *   - 뒤로가기(히스토리백): 그때 그 URL(그때 언어)로 감 → 원래 언어 그대로 ✓
+ *   - 버튼 클릭으로 새 페이지 이동: 링크에 ?lang=마지막언어가 붙어 있어 그 언어로 감 ✓
+ *     (마지막 언어 유지는 클라이언트가 링크에 ?lang을 붙여서 처리)
  *
  * @return string SUPPORTED_LANGS에 존재하는 언어 코드 (기본 'ko')
  */
 function resolveLang(): string {
     if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
         return $_GET['lang'];
-    }
-    if (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-        return $_COOKIE['blogLang'];
     }
     return 'ko';
 }

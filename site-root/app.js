@@ -2268,20 +2268,24 @@ async function loadAll() {
 
 
 
-let currentLang = (window.BTLang ? BTLang.get(true) : (function(){
-  // 폴백(공통 유틸 lang-common.js 미로드 시): URL > 쿠키 > localStorage > 브라우저 > ko
+let currentLang = (function(){
+  // 언어는 서버가 URL 기준으로 렌더한 값(BT_SERVER_LANG)을 그대로 따른다 = 화면과 항상 일치.
+  // 이래야 뒤로가기로 온 페이지(URL의 언어)와 JS 동작 언어가 어긋나지 않고, 저장값에 오염되지 않는다.
+  if (window.BT_SERVER_LANG && SUPPORTED_LANG_CODES.includes(window.BT_SERVER_LANG)) return window.BT_SERVER_LANG;
+  // 폴백: URL ?lang
   try{var p=new URLSearchParams(location.search).get('lang');if(SUPPORTED_LANG_CODES.includes(p))return p;}catch(e){}
-  try{var mm=document.cookie.match(/(?:^|;\s*)blogLang=([^;]+)/);var c=mm?decodeURIComponent(mm[1]):null;if(SUPPORTED_LANG_CODES.includes(c))return c;}catch(e){}
-  try{var sv=localStorage.getItem('blogLang');if(SUPPORTED_LANG_CODES.includes(sv))return sv;}catch(e){}
-  try{var nv=(navigator.languages&&navigator.languages[0])||navigator.language||'';var cd=nv.toLowerCase().split('-')[0];if(SUPPORTED_LANG_CODES.includes(cd))return cd;}catch(e){}
   return 'ko';
-})());
+})();
 
-// 페이지 진입 시 현재 언어를 쿠키에도 반영한다.
-// (localStorage나 URL로 언어가 정해졌어도 쿠키가 없거나 다르면, 블로그·용어집 등
-//  다른 영역으로 이동할 때 서버가 옛 언어로 렌더해 언어가 어긋나는 문제가 생김.
-//  진입 시 현재 언어를 쿠키에 써두면 어느 영역으로 가든 마지막 언어가 일관되게 유지됨.)
-if (window.BTLang) BTLang.save(currentLang); else { try { document.cookie = 'blogLang=' + encodeURIComponent(currentLang) + '; path=/; max-age=31536000; SameSite=Lax'; } catch(e) {} }
+// 페이지 진입 시: 현재 언어를 이 페이지 URL에 반영(?lang=xx). 뒤로가기로 이 페이지에 돌아오면
+// 그때의 URL(언어)로 정확히 복원되게 하기 위함. (서버는 URL ?lang만 보므로 URL에 언어가 있어야 함)
+// ※ 저장(쿠키/localStorage)은 언어를 '바꿀 때'(setLang)만. 진입 시엔 저장 안 함 → 뒤로가기 언어 오염 방지.
+try {
+  var _u = new URL(location.href);
+  var _cur = (typeof currentLang !== 'undefined') ? currentLang : 'ko';
+  if (_cur === 'ko') _u.searchParams.delete('lang'); else _u.searchParams.set('lang', _cur);
+  history.replaceState(null, '', _u);
+} catch(e) {}
 
 /** 코드 곳곳에 흩어진 'ko ? A : B' 삼항연산자들을 여러 언어로 확장하기 위한 헬퍼.
  *  기존 사용법(하위호환, ko/en/ja 3개 고정): TT({ko:'한국어',en:'English',ja:'日本語',es:'Español',de:'Deutsch',fr:'Français',pt:'Português',tr:'Türkçe',vi:'Tiếng Việt'})
