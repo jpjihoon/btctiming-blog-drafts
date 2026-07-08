@@ -50,7 +50,127 @@
     <text x="600" y="30" fill="#ef4444" font-size="10" text-anchor="middle">+270%</text>
   </svg>
   </div>
-  <div class="en fr pt tr vi">
+  <div class="en">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Drawdown vs Gain Needed to Break Even</text>
+    <line x1="60" y1="280" x2="670" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="60" y1="30" x2="60" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <text x="10" y="285" fill="#71717a" font-size="10">0%</text>
+    <text x="10" y="160" fill="#71717a" font-size="10">200%</text>
+    <text x="10" y="40" fill="#71717a" font-size="10">400%+</text>
+    <path d="M 60 280 L 150 268 L 240 250 L 330 220 L 390 190 L 440 150 L 480 110 L 520 65 L 550 35" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="150" cy="268" r="4" fill="#4ade80"/>
+    <text x="150" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-10%</text>
+    <text x="150" y="255" fill="#4ade80" font-size="10" text-anchor="middle">+11%</text>
+
+    <circle cx="330" cy="220" r="4" fill="#facc15"/>
+    <text x="330" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-30%</text>
+    <text x="330" y="207" fill="#facc15" font-size="10" text-anchor="middle">+43%</text>
+
+    <circle cx="440" cy="150" r="4" fill="#fb923c"/>
+    <text x="440" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-50%</text>
+    <text x="440" y="137" fill="#fb923c" font-size="10" text-anchor="middle">+100%</text>
+
+    <circle cx="520" cy="65" r="4" fill="#f87171"/>
+    <text x="520" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-70%</text>
+    <text x="520" y="52" fill="#f87171" font-size="10" text-anchor="middle">+233%</text>
+
+    <circle cx="550" cy="35" r="4" fill="#ef4444"/>
+    <text x="565" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-73%</text>
+    <text x="600" y="30" fill="#ef4444" font-size="10" text-anchor="middle">+270%</text>
+  </svg>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Drawdown vs Gain Needed to Break Even</text>
+    <line x1="60" y1="280" x2="670" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="60" y1="30" x2="60" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <text x="10" y="285" fill="#71717a" font-size="10">0%</text>
+    <text x="10" y="160" fill="#71717a" font-size="10">200%</text>
+    <text x="10" y="40" fill="#71717a" font-size="10">400%+</text>
+    <path d="M 60 280 L 150 268 L 240 250 L 330 220 L 390 190 L 440 150 L 480 110 L 520 65 L 550 35" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="150" cy="268" r="4" fill="#4ade80"/>
+    <text x="150" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-10%</text>
+    <text x="150" y="255" fill="#4ade80" font-size="10" text-anchor="middle">+11%</text>
+
+    <circle cx="330" cy="220" r="4" fill="#facc15"/>
+    <text x="330" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-30%</text>
+    <text x="330" y="207" fill="#facc15" font-size="10" text-anchor="middle">+43%</text>
+
+    <circle cx="440" cy="150" r="4" fill="#fb923c"/>
+    <text x="440" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-50%</text>
+    <text x="440" y="137" fill="#fb923c" font-size="10" text-anchor="middle">+100%</text>
+
+    <circle cx="520" cy="65" r="4" fill="#f87171"/>
+    <text x="520" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-70%</text>
+    <text x="520" y="52" fill="#f87171" font-size="10" text-anchor="middle">+233%</text>
+
+    <circle cx="550" cy="35" r="4" fill="#ef4444"/>
+    <text x="565" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-73%</text>
+    <text x="600" y="30" fill="#ef4444" font-size="10" text-anchor="middle">+270%</text>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Drawdown vs Gain Needed to Break Even</text>
+    <line x1="60" y1="280" x2="670" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="60" y1="30" x2="60" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <text x="10" y="285" fill="#71717a" font-size="10">0%</text>
+    <text x="10" y="160" fill="#71717a" font-size="10">200%</text>
+    <text x="10" y="40" fill="#71717a" font-size="10">400%+</text>
+    <path d="M 60 280 L 150 268 L 240 250 L 330 220 L 390 190 L 440 150 L 480 110 L 520 65 L 550 35" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="150" cy="268" r="4" fill="#4ade80"/>
+    <text x="150" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-10%</text>
+    <text x="150" y="255" fill="#4ade80" font-size="10" text-anchor="middle">+11%</text>
+
+    <circle cx="330" cy="220" r="4" fill="#facc15"/>
+    <text x="330" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-30%</text>
+    <text x="330" y="207" fill="#facc15" font-size="10" text-anchor="middle">+43%</text>
+
+    <circle cx="440" cy="150" r="4" fill="#fb923c"/>
+    <text x="440" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-50%</text>
+    <text x="440" y="137" fill="#fb923c" font-size="10" text-anchor="middle">+100%</text>
+
+    <circle cx="520" cy="65" r="4" fill="#f87171"/>
+    <text x="520" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-70%</text>
+    <text x="520" y="52" fill="#f87171" font-size="10" text-anchor="middle">+233%</text>
+
+    <circle cx="550" cy="35" r="4" fill="#ef4444"/>
+    <text x="565" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-73%</text>
+    <text x="600" y="30" fill="#ef4444" font-size="10" text-anchor="middle">+270%</text>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Drawdown vs Gain Needed to Break Even</text>
+    <line x1="60" y1="280" x2="670" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="60" y1="30" x2="60" y2="280" stroke="#3f3f46" stroke-width="1"/>
+    <text x="10" y="285" fill="#71717a" font-size="10">0%</text>
+    <text x="10" y="160" fill="#71717a" font-size="10">200%</text>
+    <text x="10" y="40" fill="#71717a" font-size="10">400%+</text>
+    <path d="M 60 280 L 150 268 L 240 250 L 330 220 L 390 190 L 440 150 L 480 110 L 520 65 L 550 35" fill="none" stroke="#f87171" stroke-width="3"/>
+    <circle cx="150" cy="268" r="4" fill="#4ade80"/>
+    <text x="150" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-10%</text>
+    <text x="150" y="255" fill="#4ade80" font-size="10" text-anchor="middle">+11%</text>
+
+    <circle cx="330" cy="220" r="4" fill="#facc15"/>
+    <text x="330" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-30%</text>
+    <text x="330" y="207" fill="#facc15" font-size="10" text-anchor="middle">+43%</text>
+
+    <circle cx="440" cy="150" r="4" fill="#fb923c"/>
+    <text x="440" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-50%</text>
+    <text x="440" y="137" fill="#fb923c" font-size="10" text-anchor="middle">+100%</text>
+
+    <circle cx="520" cy="65" r="4" fill="#f87171"/>
+    <text x="520" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-70%</text>
+    <text x="520" y="52" fill="#f87171" font-size="10" text-anchor="middle">+233%</text>
+
+    <circle cx="550" cy="35" r="4" fill="#ef4444"/>
+    <text x="565" y="300" fill="#a1a1aa" font-size="10" text-anchor="middle">-73%</text>
+    <text x="600" y="30" fill="#ef4444" font-size="10" text-anchor="middle">+270%</text>
+  </svg>
+  </div>
+  <div class="vi">
   <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Drawdown vs Gain Needed to Break Even</text>
     <line x1="60" y1="280" x2="670" y2="280" stroke="#3f3f46" stroke-width="1"/>

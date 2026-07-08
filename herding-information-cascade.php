@@ -97,7 +97,7 @@
   </svg>
   <p class="ko" style="font-size:12px;color:#71717a;margin-top:-10px">※ Chang, Cheng &amp; Khorana(2000) CSAD 모형의 관계를 도식화한 개념도입니다. 실제 수치가 아닙니다.</p>
   </div>
-  <div class="en es de fr pt tr vi">
+  <div class="en es de">
   <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Herding Measured With CSAD: Market Return vs. Cross-Sectional Dispersion</text>
     <text x="20" y="44" fill="#71717a" font-size="12" font-family="sans-serif">Theoretical linear relationship (dashed) vs. actual herding observed in bear markets (solid) · conceptual diagram</text>
@@ -118,6 +118,90 @@
     <text x="446" y="416" fill="#a1a1aa" font-size="12" font-family="sans-serif">Actual CSAD (herding)</text>
   </svg>
   <p class="en" style="font-size:12px;color:#71717a;margin-top:-10px">※ Conceptual diagram illustrating the relationship in the Chang, Cheng &amp; Khorana (2000) CSAD model. Not actual data.</p>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Herding Measured With CSAD: Market Return vs. Cross-Sectional Dispersion</text>
+    <text x="20" y="44" fill="#71717a" font-size="12" font-family="sans-serif">Theoretical linear relationship (dashed) vs. actual herding observed in bear markets (solid) · conceptual diagram</text>
+    <rect x="90" y="60" width="180" height="270" fill="#f87171" opacity="0.10"/>
+    <text x="100" y="80" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Herding zone</text>
+    <text x="100" y="98" fill="#f87171" font-size="12" font-family="sans-serif">Extreme decline · actual &lt; theory</text>
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="70" y1="60" x2="70" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <polyline points="100,95 360,310 620,115" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <polyline points="100,205 160,192 220,202 300,265 360,310 400,265 500,178 620,122" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="360" y="366" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Market average return (decline ← 0 → rally)</text>
+    <text x="100" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme decline</text>
+    <text x="620" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme rally</text>
+    <text x="28" y="195" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 28 195)">Cross-sectional return dispersion (CSAD)</text>
+    <line x1="410" y1="392" x2="440" y2="392" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="446" y="396" fill="#a1a1aa" font-size="12" font-family="sans-serif">Theoretical linear relation</text>
+    <line x1="410" y1="412" x2="440" y2="412" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="446" y="416" fill="#a1a1aa" font-size="12" font-family="sans-serif">Actual CSAD (herding)</text>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Herding Measured With CSAD: Market Return vs. Cross-Sectional Dispersion</text>
+    <text x="20" y="44" fill="#71717a" font-size="12" font-family="sans-serif">Theoretical linear relationship (dashed) vs. actual herding observed in bear markets (solid) · conceptual diagram</text>
+    <rect x="90" y="60" width="180" height="270" fill="#f87171" opacity="0.10"/>
+    <text x="100" y="80" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Herding zone</text>
+    <text x="100" y="98" fill="#f87171" font-size="12" font-family="sans-serif">Extreme decline · actual &lt; theory</text>
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="70" y1="60" x2="70" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <polyline points="100,95 360,310 620,115" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <polyline points="100,205 160,192 220,202 300,265 360,310 400,265 500,178 620,122" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="360" y="366" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Market average return (decline ← 0 → rally)</text>
+    <text x="100" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme decline</text>
+    <text x="620" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme rally</text>
+    <text x="28" y="195" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 28 195)">Cross-sectional return dispersion (CSAD)</text>
+    <line x1="410" y1="392" x2="440" y2="392" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="446" y="396" fill="#a1a1aa" font-size="12" font-family="sans-serif">Theoretical linear relation</text>
+    <line x1="410" y1="412" x2="440" y2="412" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="446" y="416" fill="#a1a1aa" font-size="12" font-family="sans-serif">Actual CSAD (herding)</text>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Herding Measured With CSAD: Market Return vs. Cross-Sectional Dispersion</text>
+    <text x="20" y="44" fill="#71717a" font-size="12" font-family="sans-serif">Theoretical linear relationship (dashed) vs. actual herding observed in bear markets (solid) · conceptual diagram</text>
+    <rect x="90" y="60" width="180" height="270" fill="#f87171" opacity="0.10"/>
+    <text x="100" y="80" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Herding zone</text>
+    <text x="100" y="98" fill="#f87171" font-size="12" font-family="sans-serif">Extreme decline · actual &lt; theory</text>
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="70" y1="60" x2="70" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <polyline points="100,95 360,310 620,115" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <polyline points="100,205 160,192 220,202 300,265 360,310 400,265 500,178 620,122" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="360" y="366" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Market average return (decline ← 0 → rally)</text>
+    <text x="100" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme decline</text>
+    <text x="620" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme rally</text>
+    <text x="28" y="195" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 28 195)">Cross-sectional return dispersion (CSAD)</text>
+    <line x1="410" y1="392" x2="440" y2="392" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="446" y="396" fill="#a1a1aa" font-size="12" font-family="sans-serif">Theoretical linear relation</text>
+    <line x1="410" y1="412" x2="440" y2="412" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="446" y="416" fill="#a1a1aa" font-size="12" font-family="sans-serif">Actual CSAD (herding)</text>
+  </svg>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Herding Measured With CSAD: Market Return vs. Cross-Sectional Dispersion</text>
+    <text x="20" y="44" fill="#71717a" font-size="12" font-family="sans-serif">Theoretical linear relationship (dashed) vs. actual herding observed in bear markets (solid) · conceptual diagram</text>
+    <rect x="90" y="60" width="180" height="270" fill="#f87171" opacity="0.10"/>
+    <text x="100" y="80" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Herding zone</text>
+    <text x="100" y="98" fill="#f87171" font-size="12" font-family="sans-serif">Extreme decline · actual &lt; theory</text>
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="70" y1="60" x2="70" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <polyline points="100,95 360,310 620,115" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <polyline points="100,205 160,192 220,202 300,265 360,310 400,265 500,178 620,122" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="360" y="366" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Market average return (decline ← 0 → rally)</text>
+    <text x="100" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme decline</text>
+    <text x="620" y="346" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Extreme rally</text>
+    <text x="28" y="195" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 28 195)">Cross-sectional return dispersion (CSAD)</text>
+    <line x1="410" y1="392" x2="440" y2="392" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="446" y="396" fill="#a1a1aa" font-size="12" font-family="sans-serif">Theoretical linear relation</text>
+    <line x1="410" y1="412" x2="440" y2="412" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="446" y="416" fill="#a1a1aa" font-size="12" font-family="sans-serif">Actual CSAD (herding)</text>
+  </svg>
   </div>
   <div class="ja">
   <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">

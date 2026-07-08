@@ -154,7 +154,7 @@
 </svg>
 <p class="ko" style="font-size:12px;color:#71717a;margin-top:-10px">※ 실제 가격 축척과 다른 단순화된 개념도이며, 오른쪽은 순수 무작위 시뮬레이션입니다.</p>
 </div>
-<div class="en es de fr pt tr vi">
+<div class="en es de">
 <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Head-and-Shoulders, or a Coin Flip?</text>
   <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">The same shape can come from two entirely different origins · conceptual illustration, not to scale</text>
@@ -178,7 +178,115 @@
   <text x="350" y="414" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Shape alone cannot tell these two charts apart</text>
   <text x="350" y="434" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">The only difference: real forced-selling volume beneath the neckline</text>
 </svg>
-<p class="en es de fr pt tr vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+<p class="en es de" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+<p class="fr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+<p class="pt" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+<p class="tr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+<p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Head-and-Shoulders, or a Coin Flip?</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">The same shape can come from two entirely different origins · conceptual illustration, not to scale</text>
+  <line x1="350" y1="60" x2="350" y2="392" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Real Bitcoin (2021)</text>
+  <line x1="60" y1="330" x2="300" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="60,300 100,215 135,270 175,140 215,270 255,195 285,260 300,330" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <line x1="135" y1="270" x2="300" y2="270" stroke="#f87171" stroke-dasharray="4,4"/>
+  <text x="100" y="203" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Left Shoulder</text>
+  <text x="175" y="128" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Head</text>
+  <text x="255" y="183" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Right Shoulder</text>
+  <text x="296" y="286" fill="#f87171" font-size="13" text-anchor="end" font-family="sans-serif">Neckline</text>
+  <text x="175" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sep 2021 → Nov → Apr 2022</text>
+  <text x="175" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Neckline broke, real bear market followed</text>
+  <text x="525" y="82" fill="#a78bfa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Coin-Flip Simulation</text>
+  <line x1="410" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="410,300 450,220 485,270 525,150 565,268 605,200 635,258 650,330" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <line x1="485" y1="269" x2="650" y2="269" stroke="rgba(167,139,250,.6)" stroke-dasharray="4,4"/>
+  <text x="525" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Heads +0.5 / Tails -0.5, pure random walk</text>
+  <text x="525" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">No trend, no forced-selling volume, ever</text>
+  <text x="350" y="414" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Shape alone cannot tell these two charts apart</text>
+  <text x="350" y="434" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">The only difference: real forced-selling volume beneath the neckline</text>
+</svg>
+<p class="fr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Head-and-Shoulders, or a Coin Flip?</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">The same shape can come from two entirely different origins · conceptual illustration, not to scale</text>
+  <line x1="350" y1="60" x2="350" y2="392" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Real Bitcoin (2021)</text>
+  <line x1="60" y1="330" x2="300" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="60,300 100,215 135,270 175,140 215,270 255,195 285,260 300,330" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <line x1="135" y1="270" x2="300" y2="270" stroke="#f87171" stroke-dasharray="4,4"/>
+  <text x="100" y="203" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Left Shoulder</text>
+  <text x="175" y="128" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Head</text>
+  <text x="255" y="183" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Right Shoulder</text>
+  <text x="296" y="286" fill="#f87171" font-size="13" text-anchor="end" font-family="sans-serif">Neckline</text>
+  <text x="175" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sep 2021 → Nov → Apr 2022</text>
+  <text x="175" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Neckline broke, real bear market followed</text>
+  <text x="525" y="82" fill="#a78bfa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Coin-Flip Simulation</text>
+  <line x1="410" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="410,300 450,220 485,270 525,150 565,268 605,200 635,258 650,330" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <line x1="485" y1="269" x2="650" y2="269" stroke="rgba(167,139,250,.6)" stroke-dasharray="4,4"/>
+  <text x="525" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Heads +0.5 / Tails -0.5, pure random walk</text>
+  <text x="525" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">No trend, no forced-selling volume, ever</text>
+  <text x="350" y="414" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Shape alone cannot tell these two charts apart</text>
+  <text x="350" y="434" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">The only difference: real forced-selling volume beneath the neckline</text>
+</svg>
+<p class="pt" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Head-and-Shoulders, or a Coin Flip?</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">The same shape can come from two entirely different origins · conceptual illustration, not to scale</text>
+  <line x1="350" y1="60" x2="350" y2="392" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Real Bitcoin (2021)</text>
+  <line x1="60" y1="330" x2="300" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="60,300 100,215 135,270 175,140 215,270 255,195 285,260 300,330" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <line x1="135" y1="270" x2="300" y2="270" stroke="#f87171" stroke-dasharray="4,4"/>
+  <text x="100" y="203" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Left Shoulder</text>
+  <text x="175" y="128" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Head</text>
+  <text x="255" y="183" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Right Shoulder</text>
+  <text x="296" y="286" fill="#f87171" font-size="13" text-anchor="end" font-family="sans-serif">Neckline</text>
+  <text x="175" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sep 2021 → Nov → Apr 2022</text>
+  <text x="175" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Neckline broke, real bear market followed</text>
+  <text x="525" y="82" fill="#a78bfa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Coin-Flip Simulation</text>
+  <line x1="410" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="410,300 450,220 485,270 525,150 565,268 605,200 635,258 650,330" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <line x1="485" y1="269" x2="650" y2="269" stroke="rgba(167,139,250,.6)" stroke-dasharray="4,4"/>
+  <text x="525" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Heads +0.5 / Tails -0.5, pure random walk</text>
+  <text x="525" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">No trend, no forced-selling volume, ever</text>
+  <text x="350" y="414" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Shape alone cannot tell these two charts apart</text>
+  <text x="350" y="434" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">The only difference: real forced-selling volume beneath the neckline</text>
+</svg>
+<p class="tr" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Head-and-Shoulders, or a Coin Flip?</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">The same shape can come from two entirely different origins · conceptual illustration, not to scale</text>
+  <line x1="350" y1="60" x2="350" y2="392" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Real Bitcoin (2021)</text>
+  <line x1="60" y1="330" x2="300" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="60,300 100,215 135,270 175,140 215,270 255,195 285,260 300,330" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <line x1="135" y1="270" x2="300" y2="270" stroke="#f87171" stroke-dasharray="4,4"/>
+  <text x="100" y="203" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Left Shoulder</text>
+  <text x="175" y="128" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Head</text>
+  <text x="255" y="183" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Right Shoulder</text>
+  <text x="296" y="286" fill="#f87171" font-size="13" text-anchor="end" font-family="sans-serif">Neckline</text>
+  <text x="175" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sep 2021 → Nov → Apr 2022</text>
+  <text x="175" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Neckline broke, real bear market followed</text>
+  <text x="525" y="82" fill="#a78bfa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Coin-Flip Simulation</text>
+  <line x1="410" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.12)"/>
+  <polyline points="410,300 450,220 485,270 525,150 565,268 605,200 635,258 650,330" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <line x1="485" y1="269" x2="650" y2="269" stroke="rgba(167,139,250,.6)" stroke-dasharray="4,4"/>
+  <text x="525" y="356" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Heads +0.5 / Tails -0.5, pure random walk</text>
+  <text x="525" y="374" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">No trend, no forced-selling volume, ever</text>
+  <text x="350" y="414" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Shape alone cannot tell these two charts apart</text>
+  <text x="350" y="434" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">The only difference: real forced-selling volume beneath the neckline</text>
+</svg>
+<p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Simplified conceptual illustration, not to scale. The right chart is a pure random simulation.</p>
 </div>
 <div class="ja">
 <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">

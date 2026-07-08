@@ -51,7 +51,87 @@
     </g>
   </svg>
   </div>
-  <div class="en es de fr pt tr vi">
+  <div class="en es de">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Coinbase vs Binance Price (concept)</text>
+    <g font-family="sans-serif">
+      <text x="175" y="50" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Positive</text>
+      <rect x="80" y="130" width="60" height="40" fill="#4ade80" rx="3"/>
+      <text x="110" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="180" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="210" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="160" y="115" fill="#4ade80" font-size="11">↑ US buying leads</text>
+
+      <text x="525" y="50" fill="#f87171" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Negative</text>
+      <rect x="430" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="460" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="530" y="130" width="60" height="40" fill="#f87171" rx="3"/>
+      <text x="560" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="510" y="115" fill="#f87171" font-size="11">↓ US selling/Asia leads</text>
+    </g>
+  </svg>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Coinbase vs Binance Price (concept)</text>
+    <g font-family="sans-serif">
+      <text x="175" y="50" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Positive</text>
+      <rect x="80" y="130" width="60" height="40" fill="#4ade80" rx="3"/>
+      <text x="110" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="180" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="210" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="160" y="115" fill="#4ade80" font-size="11">↑ US buying leads</text>
+
+      <text x="525" y="50" fill="#f87171" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Negative</text>
+      <rect x="430" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="460" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="530" y="130" width="60" height="40" fill="#f87171" rx="3"/>
+      <text x="560" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="510" y="115" fill="#f87171" font-size="11">↓ US selling/Asia leads</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Coinbase vs Binance Price (concept)</text>
+    <g font-family="sans-serif">
+      <text x="175" y="50" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Positive</text>
+      <rect x="80" y="130" width="60" height="40" fill="#4ade80" rx="3"/>
+      <text x="110" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="180" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="210" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="160" y="115" fill="#4ade80" font-size="11">↑ US buying leads</text>
+
+      <text x="525" y="50" fill="#f87171" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Negative</text>
+      <rect x="430" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="460" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="530" y="130" width="60" height="40" fill="#f87171" rx="3"/>
+      <text x="560" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="510" y="115" fill="#f87171" font-size="11">↓ US selling/Asia leads</text>
+    </g>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Coinbase vs Binance Price (concept)</text>
+    <g font-family="sans-serif">
+      <text x="175" y="50" fill="#4ade80" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Positive</text>
+      <rect x="80" y="130" width="60" height="40" fill="#4ade80" rx="3"/>
+      <text x="110" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="180" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="210" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="160" y="115" fill="#4ade80" font-size="11">↑ US buying leads</text>
+
+      <text x="525" y="50" fill="#f87171" font-size="12" font-weight="700" text-anchor="middle">Premium Turns Negative</text>
+      <rect x="430" y="145" width="60" height="25" fill="#71717a" rx="3"/>
+      <text x="460" y="162" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Coinbase</text>
+      <rect x="530" y="130" width="60" height="40" fill="#f87171" rx="3"/>
+      <text x="560" y="155" fill="#000" font-size="10" font-weight="700" text-anchor="middle">Binance</text>
+      <text x="510" y="115" fill="#f87171" font-size="11">↓ US selling/Asia leads</text>
+    </g>
+  </svg>
+  </div>
+  <div class="vi">
   <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">Coinbase vs Binance Price (concept)</text>
     <g font-family="sans-serif">

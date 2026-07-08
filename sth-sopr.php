@@ -43,7 +43,55 @@
     <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">1 회복 = 매도압력 소진</text>
   </svg>
   </div>
-  <div class="en es de fr pt tr vi">
+  <div class="en es de">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR Pattern Concept</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">Panic selling (sharp drop)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">Back above 1 = sell pressure exhausted</text>
+  </svg>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR Pattern Concept</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">Panic selling (sharp drop)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">Back above 1 = sell pressure exhausted</text>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR Pattern Concept</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">Panic selling (sharp drop)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">Back above 1 = sell pressure exhausted</text>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR Pattern Concept</text>
+    <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>
+    <text x="665" y="134" fill="#4ade80" font-size="10">1.0</text>
+    <path d="M 50 110 Q 150 100 220 80 L 300 175 Q 340 190 380 160 T 500 100 T 660 90" fill="none" stroke="#f7931a" stroke-width="2.5"/>
+    <circle cx="300" cy="175" r="6" fill="#fff" stroke="#f87171" stroke-width="2"/>
+    <text x="300" y="200" fill="#f87171" font-size="10" font-weight="700" text-anchor="middle">Panic selling (sharp drop)</text>
+    <circle cx="395" cy="132" r="6" fill="#fff" stroke="#4ade80" stroke-width="2"/>
+    <text x="420" y="60" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle">Back above 1 = sell pressure exhausted</text>
+  </svg>
+  </div>
+  <div class="vi">
   <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">STH-SOPR Pattern Concept</text>
     <line x1="50" y1="130" x2="660" y2="130" stroke="#4ade80" stroke-dasharray="4,3"/>

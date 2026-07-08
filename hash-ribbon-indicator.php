@@ -45,7 +45,63 @@
     <text x="530" y="222" fill="#71717a" font-size="10">회복 구간</text>
   </svg>
   </div>
-  <div class="en es de fr pt tr vi">
+  <div class="en es de">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">30-Day vs 60-Day MA Crossover Concept</text>
+    <line x1="50" y1="200" x2="660" y2="200" stroke="#3f3f46"/>
+    <path d="M 50 150 Q 200 210 320 190 T 500 100 T 660 60" fill="none" stroke="#f87171" stroke-width="2.5"/>
+    <path d="M 50 130 Q 200 160 320 170 T 500 130 T 660 90" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <circle cx="380" cy="176" r="6" fill="#fff" stroke="#f7931a" stroke-width="2"/>
+    <text x="380" y="225" fill="#f7931a" font-size="11" font-weight="700" text-anchor="middle">Recovery Cross (Buy Signal)</text>
+    <text x="560" y="55" fill="#f87171" font-size="11" font-weight="700">30d MA</text>
+    <text x="560" y="85" fill="#4ade80" font-size="11" font-weight="700">60d MA</text>
+    <text x="130" y="222" fill="#71717a" font-size="10">Capitulation (30d &lt; 60d)</text>
+    <text x="530" y="222" fill="#71717a" font-size="10">Recovery</text>
+  </svg>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">30-Day vs 60-Day MA Crossover Concept</text>
+    <line x1="50" y1="200" x2="660" y2="200" stroke="#3f3f46"/>
+    <path d="M 50 150 Q 200 210 320 190 T 500 100 T 660 60" fill="none" stroke="#f87171" stroke-width="2.5"/>
+    <path d="M 50 130 Q 200 160 320 170 T 500 130 T 660 90" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <circle cx="380" cy="176" r="6" fill="#fff" stroke="#f7931a" stroke-width="2"/>
+    <text x="380" y="225" fill="#f7931a" font-size="11" font-weight="700" text-anchor="middle">Recovery Cross (Buy Signal)</text>
+    <text x="560" y="55" fill="#f87171" font-size="11" font-weight="700">30d MA</text>
+    <text x="560" y="85" fill="#4ade80" font-size="11" font-weight="700">60d MA</text>
+    <text x="130" y="222" fill="#71717a" font-size="10">Capitulation (30d &lt; 60d)</text>
+    <text x="530" y="222" fill="#71717a" font-size="10">Recovery</text>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">30-Day vs 60-Day MA Crossover Concept</text>
+    <line x1="50" y1="200" x2="660" y2="200" stroke="#3f3f46"/>
+    <path d="M 50 150 Q 200 210 320 190 T 500 100 T 660 60" fill="none" stroke="#f87171" stroke-width="2.5"/>
+    <path d="M 50 130 Q 200 160 320 170 T 500 130 T 660 90" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <circle cx="380" cy="176" r="6" fill="#fff" stroke="#f7931a" stroke-width="2"/>
+    <text x="380" y="225" fill="#f7931a" font-size="11" font-weight="700" text-anchor="middle">Recovery Cross (Buy Signal)</text>
+    <text x="560" y="55" fill="#f87171" font-size="11" font-weight="700">30d MA</text>
+    <text x="560" y="85" fill="#4ade80" font-size="11" font-weight="700">60d MA</text>
+    <text x="130" y="222" fill="#71717a" font-size="10">Capitulation (30d &lt; 60d)</text>
+    <text x="530" y="222" fill="#71717a" font-size="10">Recovery</text>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">30-Day vs 60-Day MA Crossover Concept</text>
+    <line x1="50" y1="200" x2="660" y2="200" stroke="#3f3f46"/>
+    <path d="M 50 150 Q 200 210 320 190 T 500 100 T 660 60" fill="none" stroke="#f87171" stroke-width="2.5"/>
+    <path d="M 50 130 Q 200 160 320 170 T 500 130 T 660 90" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <circle cx="380" cy="176" r="6" fill="#fff" stroke="#f7931a" stroke-width="2"/>
+    <text x="380" y="225" fill="#f7931a" font-size="11" font-weight="700" text-anchor="middle">Recovery Cross (Buy Signal)</text>
+    <text x="560" y="55" fill="#f87171" font-size="11" font-weight="700">30d MA</text>
+    <text x="560" y="85" fill="#4ade80" font-size="11" font-weight="700">60d MA</text>
+    <text x="130" y="222" fill="#71717a" font-size="10">Capitulation (30d &lt; 60d)</text>
+    <text x="530" y="222" fill="#71717a" font-size="10">Recovery</text>
+  </svg>
+  </div>
+  <div class="vi">
   <svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="24" fill="#fafafa" font-size="12" font-weight="700" font-family="sans-serif">30-Day vs 60-Day MA Crossover Concept</text>
     <line x1="50" y1="200" x2="660" y2="200" stroke="#3f3f46"/>

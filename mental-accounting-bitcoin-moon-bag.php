@@ -118,7 +118,119 @@
   <text x="250" y="365" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">출처와 무관하게, 다음 손실은 항상 원금에서 나간다</text>
 </svg>
 </div>
-<div class="en fr pt tr vi">
+<div class="en">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The 3-Layer Mind vs. the Actual Wallet</text>
+  <text x="20" y="46" fill="#71717a" font-size="13" font-family="sans-serif">Illustrating Shefrin &amp; Statman (2000) Behavioral Portfolio Theory · ratios are illustrative</text>
+  <rect x="180" y="65" width="140" height="55" fill="#f87171" rx="4"/>
+  <rect x="130" y="120" width="240" height="55" fill="#4ade80" rx="4"/>
+  <rect x="80" y="175" width="340" height="55" fill="#38bdf8" rx="4"/>
+  <line x1="320" y1="92" x2="436" y2="92" stroke="rgba(255,255,255,.25)"/>
+  <line x1="370" y1="148" x2="436" y2="148" stroke="rgba(255,255,255,.25)"/>
+  <line x1="420" y1="202" x2="436" y2="202" stroke="rgba(255,255,255,.25)"/>
+  <rect x="440" y="87" width="10" height="10" fill="#f87171"/>
+  <text x="454" y="96" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Aspiration</text>
+  <text x="454" y="113" fill="#a1a1aa" font-size="13" font-family="sans-serif">Alts &amp; memecoins — OK to lose</text>
+  <rect x="440" y="143" width="10" height="10" fill="#4ade80"/>
+  <text x="454" y="152" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Growth</text>
+  <text x="454" y="169" fill="#a1a1aa" font-size="13" font-family="sans-serif">Unrealized gains — for reinvesting</text>
+  <rect x="440" y="197" width="10" height="10" fill="#38bdf8"/>
+  <text x="454" y="206" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Safety</text>
+  <text x="454" y="223" fill="#a1a1aa" font-size="13" font-family="sans-serif">Principal — defend the cost basis</text>
+  <line x1="250" y1="232" x2="250" y2="286" stroke="rgba(255,255,255,.3)" stroke-dasharray="5,4"/>
+  <polygon points="243,283 257,283 250,291" fill="rgba(255,255,255,.4)"/>
+  <text x="268" y="262" fill="#d4d4d8" font-size="13" font-family="sans-serif">The ledger knows no such split</text>
+  <text x="80" y="282" fill="#a1a1aa" font-size="13" font-family="sans-serif">Actual wallet balance — fully fungible</text>
+  <rect x="80" y="290" width="340" height="50" fill="#27272a" stroke="#52525b" rx="6"/>
+  <text x="250" y="320" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1 BTC = 1 BTC, no matter the source</text>
+  <text x="250" y="365" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Whatever the source, the next loss always comes out of principal</text>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The 3-Layer Mind vs. the Actual Wallet</text>
+  <text x="20" y="46" fill="#71717a" font-size="13" font-family="sans-serif">Illustrating Shefrin &amp; Statman (2000) Behavioral Portfolio Theory · ratios are illustrative</text>
+  <rect x="180" y="65" width="140" height="55" fill="#f87171" rx="4"/>
+  <rect x="130" y="120" width="240" height="55" fill="#4ade80" rx="4"/>
+  <rect x="80" y="175" width="340" height="55" fill="#38bdf8" rx="4"/>
+  <line x1="320" y1="92" x2="436" y2="92" stroke="rgba(255,255,255,.25)"/>
+  <line x1="370" y1="148" x2="436" y2="148" stroke="rgba(255,255,255,.25)"/>
+  <line x1="420" y1="202" x2="436" y2="202" stroke="rgba(255,255,255,.25)"/>
+  <rect x="440" y="87" width="10" height="10" fill="#f87171"/>
+  <text x="454" y="96" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Aspiration</text>
+  <text x="454" y="113" fill="#a1a1aa" font-size="13" font-family="sans-serif">Alts &amp; memecoins — OK to lose</text>
+  <rect x="440" y="143" width="10" height="10" fill="#4ade80"/>
+  <text x="454" y="152" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Growth</text>
+  <text x="454" y="169" fill="#a1a1aa" font-size="13" font-family="sans-serif">Unrealized gains — for reinvesting</text>
+  <rect x="440" y="197" width="10" height="10" fill="#38bdf8"/>
+  <text x="454" y="206" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Safety</text>
+  <text x="454" y="223" fill="#a1a1aa" font-size="13" font-family="sans-serif">Principal — defend the cost basis</text>
+  <line x1="250" y1="232" x2="250" y2="286" stroke="rgba(255,255,255,.3)" stroke-dasharray="5,4"/>
+  <polygon points="243,283 257,283 250,291" fill="rgba(255,255,255,.4)"/>
+  <text x="268" y="262" fill="#d4d4d8" font-size="13" font-family="sans-serif">The ledger knows no such split</text>
+  <text x="80" y="282" fill="#a1a1aa" font-size="13" font-family="sans-serif">Actual wallet balance — fully fungible</text>
+  <rect x="80" y="290" width="340" height="50" fill="#27272a" stroke="#52525b" rx="6"/>
+  <text x="250" y="320" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1 BTC = 1 BTC, no matter the source</text>
+  <text x="250" y="365" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Whatever the source, the next loss always comes out of principal</text>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The 3-Layer Mind vs. the Actual Wallet</text>
+  <text x="20" y="46" fill="#71717a" font-size="13" font-family="sans-serif">Illustrating Shefrin &amp; Statman (2000) Behavioral Portfolio Theory · ratios are illustrative</text>
+  <rect x="180" y="65" width="140" height="55" fill="#f87171" rx="4"/>
+  <rect x="130" y="120" width="240" height="55" fill="#4ade80" rx="4"/>
+  <rect x="80" y="175" width="340" height="55" fill="#38bdf8" rx="4"/>
+  <line x1="320" y1="92" x2="436" y2="92" stroke="rgba(255,255,255,.25)"/>
+  <line x1="370" y1="148" x2="436" y2="148" stroke="rgba(255,255,255,.25)"/>
+  <line x1="420" y1="202" x2="436" y2="202" stroke="rgba(255,255,255,.25)"/>
+  <rect x="440" y="87" width="10" height="10" fill="#f87171"/>
+  <text x="454" y="96" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Aspiration</text>
+  <text x="454" y="113" fill="#a1a1aa" font-size="13" font-family="sans-serif">Alts &amp; memecoins — OK to lose</text>
+  <rect x="440" y="143" width="10" height="10" fill="#4ade80"/>
+  <text x="454" y="152" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Growth</text>
+  <text x="454" y="169" fill="#a1a1aa" font-size="13" font-family="sans-serif">Unrealized gains — for reinvesting</text>
+  <rect x="440" y="197" width="10" height="10" fill="#38bdf8"/>
+  <text x="454" y="206" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Safety</text>
+  <text x="454" y="223" fill="#a1a1aa" font-size="13" font-family="sans-serif">Principal — defend the cost basis</text>
+  <line x1="250" y1="232" x2="250" y2="286" stroke="rgba(255,255,255,.3)" stroke-dasharray="5,4"/>
+  <polygon points="243,283 257,283 250,291" fill="rgba(255,255,255,.4)"/>
+  <text x="268" y="262" fill="#d4d4d8" font-size="13" font-family="sans-serif">The ledger knows no such split</text>
+  <text x="80" y="282" fill="#a1a1aa" font-size="13" font-family="sans-serif">Actual wallet balance — fully fungible</text>
+  <rect x="80" y="290" width="340" height="50" fill="#27272a" stroke="#52525b" rx="6"/>
+  <text x="250" y="320" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1 BTC = 1 BTC, no matter the source</text>
+  <text x="250" y="365" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Whatever the source, the next loss always comes out of principal</text>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The 3-Layer Mind vs. the Actual Wallet</text>
+  <text x="20" y="46" fill="#71717a" font-size="13" font-family="sans-serif">Illustrating Shefrin &amp; Statman (2000) Behavioral Portfolio Theory · ratios are illustrative</text>
+  <rect x="180" y="65" width="140" height="55" fill="#f87171" rx="4"/>
+  <rect x="130" y="120" width="240" height="55" fill="#4ade80" rx="4"/>
+  <rect x="80" y="175" width="340" height="55" fill="#38bdf8" rx="4"/>
+  <line x1="320" y1="92" x2="436" y2="92" stroke="rgba(255,255,255,.25)"/>
+  <line x1="370" y1="148" x2="436" y2="148" stroke="rgba(255,255,255,.25)"/>
+  <line x1="420" y1="202" x2="436" y2="202" stroke="rgba(255,255,255,.25)"/>
+  <rect x="440" y="87" width="10" height="10" fill="#f87171"/>
+  <text x="454" y="96" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Aspiration</text>
+  <text x="454" y="113" fill="#a1a1aa" font-size="13" font-family="sans-serif">Alts &amp; memecoins — OK to lose</text>
+  <rect x="440" y="143" width="10" height="10" fill="#4ade80"/>
+  <text x="454" y="152" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Growth</text>
+  <text x="454" y="169" fill="#a1a1aa" font-size="13" font-family="sans-serif">Unrealized gains — for reinvesting</text>
+  <rect x="440" y="197" width="10" height="10" fill="#38bdf8"/>
+  <text x="454" y="206" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Safety</text>
+  <text x="454" y="223" fill="#a1a1aa" font-size="13" font-family="sans-serif">Principal — defend the cost basis</text>
+  <line x1="250" y1="232" x2="250" y2="286" stroke="rgba(255,255,255,.3)" stroke-dasharray="5,4"/>
+  <polygon points="243,283 257,283 250,291" fill="rgba(255,255,255,.4)"/>
+  <text x="268" y="262" fill="#d4d4d8" font-size="13" font-family="sans-serif">The ledger knows no such split</text>
+  <text x="80" y="282" fill="#a1a1aa" font-size="13" font-family="sans-serif">Actual wallet balance — fully fungible</text>
+  <rect x="80" y="290" width="340" height="50" fill="#27272a" stroke="#52525b" rx="6"/>
+  <text x="250" y="320" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1 BTC = 1 BTC, no matter the source</text>
+  <text x="250" y="365" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Whatever the source, the next loss always comes out of principal</text>
+</svg>
+</div>
+<div class="vi">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The 3-Layer Mind vs. the Actual Wallet</text>
   <text x="20" y="46" fill="#71717a" font-size="13" font-family="sans-serif">Illustrating Shefrin &amp; Statman (2000) Behavioral Portfolio Theory · ratios are illustrative</text>

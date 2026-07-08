@@ -123,7 +123,99 @@
   <text x="350" y="388" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">①→②, ③→④ : ETF 자금은 가격이 이미 정점·저점을 찍은 뒤에야 뒤따라 움직였다</text>
 </svg>
 </div>
-<div class="en es de fr pt tr vi">
+<div class="en es de">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Price vs. ETF Flow — A Lag That Fingerprints Recency Bias</text>
+  <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Conceptual illustration · see the text for exact figures and dates</text>
+  <text x="60" y="75" fill="#60a5fa" font-size="13" font-weight="700" font-family="sans-serif">Price (conceptual)</text>
+  <line x1="60" y1="210" x2="660" y2="210" stroke="#3f3f46" stroke-width="1"/>
+  <polyline points="70,175 128,155 186,130 244,105 302,85 360,100 418,125 476,150 534,190 592,165 650,145" fill="none" stroke="#60a5fa" stroke-width="3"/>
+  <circle cx="302" cy="85" r="5" fill="#60a5fa"/>
+  <text x="302" y="70" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">① Price peak</text>
+  <circle cx="534" cy="190" r="5" fill="#60a5fa"/>
+  <text x="534" y="228" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">③ Price trough</text>
+  <text x="60" y="245" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">ETF net flow (conceptual)</text>
+  <line x1="60" y1="305" x2="660" y2="305" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="40" y="252" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">In</text>
+  <text x="40" y="362" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Out</text>
+  <polyline points="70,305 128,300 186,285 244,265 302,255 360,248 418,260 476,285 534,310 592,335 650,320" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <circle cx="360" cy="248" r="5" fill="#fbbf24"/>
+  <text x="360" y="232" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">② Inflow peak</text>
+  <circle cx="592" cy="335" r="5" fill="#fbbf24"/>
+  <text x="592" y="355" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">④ Outflow peak</text>
+  <text x="350" y="388" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">①→②, ③→④: ETF money moved only after price had already peaked or bottomed</text>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Price vs. ETF Flow — A Lag That Fingerprints Recency Bias</text>
+  <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Conceptual illustration · see the text for exact figures and dates</text>
+  <text x="60" y="75" fill="#60a5fa" font-size="13" font-weight="700" font-family="sans-serif">Price (conceptual)</text>
+  <line x1="60" y1="210" x2="660" y2="210" stroke="#3f3f46" stroke-width="1"/>
+  <polyline points="70,175 128,155 186,130 244,105 302,85 360,100 418,125 476,150 534,190 592,165 650,145" fill="none" stroke="#60a5fa" stroke-width="3"/>
+  <circle cx="302" cy="85" r="5" fill="#60a5fa"/>
+  <text x="302" y="70" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">① Price peak</text>
+  <circle cx="534" cy="190" r="5" fill="#60a5fa"/>
+  <text x="534" y="228" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">③ Price trough</text>
+  <text x="60" y="245" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">ETF net flow (conceptual)</text>
+  <line x1="60" y1="305" x2="660" y2="305" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="40" y="252" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">In</text>
+  <text x="40" y="362" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Out</text>
+  <polyline points="70,305 128,300 186,285 244,265 302,255 360,248 418,260 476,285 534,310 592,335 650,320" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <circle cx="360" cy="248" r="5" fill="#fbbf24"/>
+  <text x="360" y="232" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">② Inflow peak</text>
+  <circle cx="592" cy="335" r="5" fill="#fbbf24"/>
+  <text x="592" y="355" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">④ Outflow peak</text>
+  <text x="350" y="388" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">①→②, ③→④: ETF money moved only after price had already peaked or bottomed</text>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Price vs. ETF Flow — A Lag That Fingerprints Recency Bias</text>
+  <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Conceptual illustration · see the text for exact figures and dates</text>
+  <text x="60" y="75" fill="#60a5fa" font-size="13" font-weight="700" font-family="sans-serif">Price (conceptual)</text>
+  <line x1="60" y1="210" x2="660" y2="210" stroke="#3f3f46" stroke-width="1"/>
+  <polyline points="70,175 128,155 186,130 244,105 302,85 360,100 418,125 476,150 534,190 592,165 650,145" fill="none" stroke="#60a5fa" stroke-width="3"/>
+  <circle cx="302" cy="85" r="5" fill="#60a5fa"/>
+  <text x="302" y="70" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">① Price peak</text>
+  <circle cx="534" cy="190" r="5" fill="#60a5fa"/>
+  <text x="534" y="228" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">③ Price trough</text>
+  <text x="60" y="245" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">ETF net flow (conceptual)</text>
+  <line x1="60" y1="305" x2="660" y2="305" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="40" y="252" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">In</text>
+  <text x="40" y="362" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Out</text>
+  <polyline points="70,305 128,300 186,285 244,265 302,255 360,248 418,260 476,285 534,310 592,335 650,320" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <circle cx="360" cy="248" r="5" fill="#fbbf24"/>
+  <text x="360" y="232" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">② Inflow peak</text>
+  <circle cx="592" cy="335" r="5" fill="#fbbf24"/>
+  <text x="592" y="355" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">④ Outflow peak</text>
+  <text x="350" y="388" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">①→②, ③→④: ETF money moved only after price had already peaked or bottomed</text>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Price vs. ETF Flow — A Lag That Fingerprints Recency Bias</text>
+  <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Conceptual illustration · see the text for exact figures and dates</text>
+  <text x="60" y="75" fill="#60a5fa" font-size="13" font-weight="700" font-family="sans-serif">Price (conceptual)</text>
+  <line x1="60" y1="210" x2="660" y2="210" stroke="#3f3f46" stroke-width="1"/>
+  <polyline points="70,175 128,155 186,130 244,105 302,85 360,100 418,125 476,150 534,190 592,165 650,145" fill="none" stroke="#60a5fa" stroke-width="3"/>
+  <circle cx="302" cy="85" r="5" fill="#60a5fa"/>
+  <text x="302" y="70" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">① Price peak</text>
+  <circle cx="534" cy="190" r="5" fill="#60a5fa"/>
+  <text x="534" y="228" fill="#93c5fd" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">③ Price trough</text>
+  <text x="60" y="245" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">ETF net flow (conceptual)</text>
+  <line x1="60" y1="305" x2="660" y2="305" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="40" y="252" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">In</text>
+  <text x="40" y="362" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Out</text>
+  <polyline points="70,305 128,300 186,285 244,265 302,255 360,248 418,260 476,285 534,310 592,335 650,320" fill="none" stroke="#fbbf24" stroke-width="3"/>
+  <circle cx="360" cy="248" r="5" fill="#fbbf24"/>
+  <text x="360" y="232" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">② Inflow peak</text>
+  <circle cx="592" cy="335" r="5" fill="#fbbf24"/>
+  <text x="592" y="355" fill="#fde68a" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">④ Outflow peak</text>
+  <text x="350" y="388" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">①→②, ③→④: ETF money moved only after price had already peaked or bottomed</text>
+</svg>
+</div>
+<div class="vi">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Price vs. ETF Flow — A Lag That Fingerprints Recency Bias</text>
   <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Conceptual illustration · see the text for exact figures and dates</text>
