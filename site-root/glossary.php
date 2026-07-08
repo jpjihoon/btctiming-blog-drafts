@@ -270,11 +270,26 @@ require __DIR__ . '/_guide_head.php';
     location.replace(url.toString());
   };
 
-  // 뒤로가기/앞으로가기로 bfcache 복원 시: navigating 플래그만 리셋한다.
-  // (이전 버전은 여기서 localStorage를 RENDERED로 덮어써서, 다른 페이지에서 바꾼 언어를
-  //  되돌려버리는 버그가 있었다. localStorage는 건드리지 않는다 — URL이 곧 이 페이지의 언어다.)
+  // 마지막으로 고른 언어(localStorage)를 사이트 전체에서 존중한다.
+  // 예: 용어사전 뷰에서 KO로 바꾸면 → 뒤로가기로 온 목록도 KO로 나와야 한다.
+  // bfcache로 복원된 목록/뷰는 URL 기준(예전 언어)으로 그려져 있으므로,
+  // 저장된 언어와 다르면 그 언어로 다시 로드해 화면을 맞춘다.
+  function syncToStoredLang(){
+    var stored = 'ko';
+    try { var s = localStorage.getItem('blogLang'); if (s) stored = s; } catch(_){}
+    if (stored !== RENDERED) {
+      navigating = true;
+      var url = new URL(location.href);
+      if (stored === 'ko') url.searchParams.delete('lang');
+      else url.searchParams.set('lang', stored);
+      location.replace(url.toString());
+    }
+  }
   window.addEventListener('pageshow', function(e){
-    if (e.persisted) navigating = false;
+    if (e.persisted) {                               // 뒤로가기/앞으로가기(bfcache) 복원
+      navigating = false;
+      syncToStoredLang();                            // 저장 언어와 다르면 맞춰 이동
+    }
   });
 })();
 </script>
