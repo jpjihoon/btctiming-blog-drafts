@@ -33,14 +33,13 @@ $sameTop  = array_slice($sameCategory, 0, 4, true);   // 같은 카테고리 · 
 $otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 · 관련도순
 $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
 
-// ── 이전 글 / 다음 글: 블로그 목록과 동일하게 날짜 내림차순(최신이 위)으로 세워,
-//    목록에서 "위 = 이전 글", "아래(다음 순서) = 다음 글"이 되도록 맞춤 ──
+// ── 이전 글 / 다음 글: 전체 글을 날짜순(오름차순)으로 세워 현재 글의 앞뒤를 찾음 ──
 $ordered = $ARTICLES;
-uasort($ordered, fn($a, $b) => strcmp($b['date'] ?? '', $a['date'] ?? '')); // 최신 우선(목록과 동일)
+uasort($ordered, fn($a, $b) => strcmp($a['date'] ?? '', $b['date'] ?? ''));
 $orderedSlugs = array_keys($ordered);
 $curPos = array_search($slug, $orderedSlugs, true);
-$prevSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 목록에서 위(더 최신)
-$nextSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 목록에서 아래(더 과거)
+$prevSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 더 과거 글
+$nextSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 더 최신 글
 
 // 추천 카드 하나를 그리는 헬퍼
 $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
@@ -182,6 +181,13 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 </div>
 <?php $legalSuffix = langSuffix($requestedLang); require __DIR__ . '/../_shared_footer.php'; ?>
 <script>
+// 사용자가 언어 메뉴에서 직접 고른 경우: "명시적 선택" 플래그를 켜고 전환.
+// 이 플래그가 켜져 있으면 이후 뒤로가기 등으로 ?lang=이 다른 페이지에 도달해도
+// 사용자가 마지막에 고른 언어를 우선 적용한다(applySavedLang 참고).
+function Lpick(l){
+  try{ localStorage.setItem('blogLangPicked','1'); }catch(e){}
+  L(l);
+}
 function L(l){
   document.getElementById('hr').lang=l;
   const trigLabel = document.getElementById('langTriggerLabel');
@@ -248,11 +254,16 @@ function getBlogLang(){
 // (단, 이 글이 해당 언어로 번역 안 됐으면 <html lang>이 서버에서 이미 en으로 폴백돼 있으므로 그대로 둠)
 function applySavedLang() {
   try {
-    // URL에 lang이 명시돼 있으면(사이트맵·hreflang·공유링크로 특정 언어 진입) 서버가 그 언어로
-    // 렌더한 상태를 그대로 존중하고, 저장값으로 덮어쓰지 않는다.
+    // 기본 원칙: URL에 lang이 명시돼 있으면(사이트맵·hreflang·공유링크로 특정 언어 진입)
+    // 서버가 그 언어로 렌더한 상태를 존중하고 저장값으로 덮어쓰지 않는다.
+    // 예외: 사용자가 이 브라우저에서 언어 메뉴로 "직접" 언어를 고른 적이 있으면
+    //       (blogLangPicked 플래그) 그 선택을 URL보다 우선한다.
+    //       → 일본어 글에서 한국어로 바꾼 뒤 뒤로가기 해도 한국어가 유지됨.
     var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
+    var picked = false;
+    try{ picked = localStorage.getItem('blogLangPicked') === '1'; }catch(e){}
     const urlLang = new URLSearchParams(location.search).get('lang');
-    if(SUP.indexOf(urlLang)!==-1) return;
+    if(!picked && SUP.indexOf(urlLang)!==-1) return;
     const saved = getBlogLang();
     const current = document.getElementById('hr').lang;
     if(saved === current) return;

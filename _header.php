@@ -365,7 +365,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
       <?php foreach (SUPPORTED_LANGS as $__lc => $__meta):
         // ko·en은 항상 노출, 그 외 언어는 이 글에 번역(title_xx)이 있을 때만 노출
         if ($__lc !== 'ko' && $__lc !== 'en' && !isset($M["title_{$__lc}"])) continue; ?>
-      <button type="button" class="lang-menu-item<?= $lang===$__lc ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="L('<?= h($__lc) ?>')"><?= $__meta['flag'] ?> <?= h($__meta['name']) ?></button>
+      <button type="button" class="lang-menu-item<?= $lang===$__lc ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="Lpick('<?= h($__lc) ?>')"><?= $__meta['flag'] ?> <?= h($__meta['name']) ?></button>
       <?php endforeach; ?>
     </div>
   </div>
