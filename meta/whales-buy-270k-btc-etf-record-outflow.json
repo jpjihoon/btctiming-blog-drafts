@@ -44,9 +44,17 @@
   "desc_ja": "コインデスク・ビットフィネックス集計で、過去2週間にビットコインのクジラが27万BTC(約167億ドル)を5万9,000ドル付近で買い集めた一方、米現物ETFは6月に約40億6,000万ドルの純流出と上場以来最悪を記録した。過去サイクル底との類似と構造的売りという違いを分析する。",
   "desc_es": "Según CoinDesk y Bitfinex, las ballenas acumularon 270.000 BTC (unos 16.700 millones) cerca de 59.000 dólares en dos semanas, mientras los ETF al contado de EE.UU. registraron su peor mes con unos 4.060 millones en salidas de junio. Sopesamos el parecido con suelos pasados frente al carácter estructural de las ventas.",
   "desc_de": "Laut CoinDesk und Bitfinex akkumulierten Bitcoin-Wale in zwei Wochen 270.000 BTC (rund 16,7 Mrd. Dollar) nahe 59.000 Dollar, während US-Spot-ETFs mit etwa 4,06 Mrd. Dollar Juni-Abflüssen ihren schlechtesten Monat verzeichneten. Wir wägen die Ähnlichkeit zu früheren Tiefs gegen den strukturellen Charakter der Verkäufe ab.",
+  "desc_fr": "Selon CoinDesk et Bitfinex, les baleines Bitcoin ont accumulé 270 000 BTC (environ 16,7 Mds$) près de 59 000 dollars en deux semaines, tandis que les ETF au comptant américains ont enregistré leur pire mois jamais vu avec près de 4,06 Mds$ de sorties en juin. Nous mettons en balance la ressemblance avec les creux de cycles passés et le caractère structurel de ces ventes.",
+  "desc_pt": "Segundo CoinDesk e Bitfinex, as baleias de Bitcoin acumularam 270.000 BTC (cerca de US$ 16,7 bi) perto de US$ 59.000 em duas semanas, enquanto os ETFs à vista dos EUA registraram seu pior mês da história, com cerca de US$ 4,06 bi em saídas em junho. Avaliamos a semelhança com fundos de ciclos passados frente à natureza estrutural das vendas.",
+  "desc_tr": "CoinDesk ve Bitfinex verilerine göre Bitcoin balinaları iki hafta içinde 59.000 dolar civarında 270.000 BTC (yaklaşık 16,7 milyar dolar) biriktirirken, ABD spot ETF'leri Haziran'da yaklaşık 4,06 milyar dolarlık çıkışla şimdiye kadarki en kötü ayını yaşadı. Bu durumun geçmiş döngü diplerine benzerliğini, satışın yapısal niteliğiyle karşılaştırıyoruz.",
+  "desc_vi": "Theo CoinDesk và Bitfinex, cá voi Bitcoin đã tích lũy 270.000 BTC (khoảng 16,7 tỷ USD) quanh mức 59.000 USD trong hai tuần, trong khi các quỹ ETF giao ngay của Mỹ ghi nhận tháng tồi tệ nhất từ trước đến nay với khoảng 4,06 tỷ USD bị rút ròng trong tháng 6. Chúng tôi cân nhắc sự tương đồng với các đáy chu kỳ trước đây so với bản chất mang tính cấu trúc của đợt bán ra này.",
   "read_ko": "6",
   "read_en": "6",
   "read_ja": "6",
   "read_es": "6",
-  "read_de": "6"
+  "read_de": "6",
+  "read_fr": "6",
+  "read_pt": "6",
+  "read_tr": "6",
+  "read_vi": "6"
 }
