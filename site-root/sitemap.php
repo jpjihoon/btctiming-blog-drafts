@@ -155,6 +155,7 @@ if (file_exists($metaFile)) {
 //   file  : 실제 파일 경로(존재 확인 + lastmod 산출용)
 //   route : URL 경로(파라미터 없는 x-default 기준)
 $staticPages = [
+    ['file' => 'about.php',         'route' => '/about',             'priority' => '0.5'],
     ['file' => 'privacy.php',       'route' => '/privacy',           'priority' => '0.3'],
     ['file' => 'terms.php',         'route' => '/terms',             'priority' => '0.3'],
     ['file' => 'exchanges.php',     'route' => '/exchanges.php',     'priority' => '0.5'],
