@@ -157,7 +157,7 @@ $__dateMod = $M['dateModified'] ?? $M['date'];
   "mainEntityOfPage": { "@type": "WebPage", "@id": "<?= h($canonical) ?>" },
   "author": {
     "@type": "Organization",
-    "name": "BTCtiming.com",
+    "name": "BTCtiming Research",
     "url": "https://btctiming.com/"
   },
   "publisher": {
@@ -406,6 +406,14 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   <?php endforeach; ?>
   <div class="meta">
     <span>📅 <?= h(str_replace('-', '.', $M['date'])) ?></span>
+    <?php
+    // 작성자 byline — 브랜드 리서치팀 명의. 언어별 "작성/By" 표기 + 브랜드명은 공통.
+    $__byLabel = ['ko'=>'글','en'=>'By','ja'=>'文','es'=>'Por','de'=>'Von','fr'=>'Par','pt'=>'Por','tr'=>'Yazan','vi'=>'Bởi'];
+    foreach ($__langKeys as $__l):
+      $__by = $__byLabel[$__l] ?? 'By';
+    ?>
+    <span class="<?= $__l ?>">✍ <?= h($__by) ?> BTCtiming Research</span>
+    <?php endforeach; ?>
     <?php
     // 읽기 시간·태그: 언어별 단위 표기 + 영어 폴백
     $__readUnit = ['ko'=>['pre'=>'⏱ 약 ','mid'=>'분 · 🏷 '],'en'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'ja'=>['pre'=>'⏱ 約','mid'=>'分 · 🏷 '],'es'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'de'=>['pre'=>'⏱ ~','mid'=>' Min. · 🏷 '],'fr'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'pt'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'tr'=>['pre'=>'⏱ ~','mid'=>' dk · 🏷 '],'vi'=>['pre'=>'⏱ ~','mid'=>' phút · 🏷 ']];
