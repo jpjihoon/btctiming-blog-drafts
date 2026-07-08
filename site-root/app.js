@@ -972,6 +972,20 @@ const GUIDE_LINK_MAP={
   vol_change:'volume-acceleration-guide',
 };
 
+
+// 지표 카드 → 용어사전(glossary) 슬러그 매핑
+const GLOSSARY_LINK_MAP={
+  mvrv_z:'mvrv-z', nupl:'nupl', realized:'realized-price',
+  hash_ribbon:'hash-ribbon', sth_sopr:'sth-sopr', funding:'funding-rate',
+  cb_premium:'coinbase-premium', lth_supply:'lth-supply', dom:'btc-dominance',
+  halving:'halving', ath_pos:'altcoin-drawdown', alt_drawdown:'altcoin-drawdown',
+  alt_short_ath:'altcoin-drawdown', rsi:'rsi',
+  alt_valuation:'altcoin-valuation', alt_short_valuation:'altcoin-valuation',
+  btc_corr:'btc-dominance', btc_corr_tech:'btc-correlation',
+  buy_pressure:'buy-pressure', sell_pressure:'buy-pressure',
+  vol_change:'volume-change',
+};
+
 function makeCard(d,mode='buy'){
   if(!d)return'';
   const r=d.score/d.max;
@@ -991,12 +1005,19 @@ function makeCard(d,mode='buy'){
   const localTarget=translateTarget(d.target||'—');
   const vStr=`${d.value}${d.unit||''}`;
   const guideSlug=GUIDE_LINK_MAP[d.key];
+  const glossarySlug=GLOSSARY_LINK_MAP[d.key];
   const blogSuffixVal = blogSuffix(currentLang);
-  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}" target="_blank" rel="noopener"
+  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
       📖 ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
+  const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
+  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}"
+      onclick="event.stopPropagation()"
+      style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
+      text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
+      📚 ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
   return`<div class="icard" onclick="this.classList.toggle('expanded')">
     <div class="icard-top">
       <span class="icard-name">${localLabel}<span class="pill ${pc}">${localSignal}</span></span>
@@ -1015,7 +1036,7 @@ function makeCard(d,mode='buy'){
     <div class="icard-note">
       <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>
       <div style="white-space:pre-line;line-height:1.6;color:var(--t2);font-size:10px">${detDesc}</div>
-      ${guideBtn}
+      ${guideBtn}${glossaryBtn}
     </div>
   </div>`;
 }
@@ -2420,13 +2441,19 @@ function flashAlert(msg, color='#fbbf24') {
   const topOffset = 70 + activeToastCount * 54;
   activeToastCount++;
   const toast = document.createElement('div');
-  toast.style.cssText = `position:fixed;top:${topOffset}px;right:16px;background:${color};color:#000;padding:10px 16px;border-radius:10px;font-size:12px;font-weight:600;z-index:9999;max-width:min(280px, calc(100vw - 32px));box-shadow:0 4px 20px rgba(0,0,0,.4);animation:slideIn .3s ease;transition:top .25s ease`;
+  toast.style.cssText = `position:fixed;top:${topOffset}px;right:16px;background:${color};color:#000;padding:10px 16px;border-radius:10px;font-size:12px;font-weight:600;z-index:9999;max-width:min(280px, calc(100vw - 32px));box-shadow:0 4px 20px rgba(0,0,0,.4);animation:slideIn .3s ease;transition:top .25s ease;cursor:pointer`;
   toast.innerHTML = `<style>@keyframes slideIn{from{transform:translateX(120%)}to{transform:translateX(0)}}</style>🔔 ${msg}`;
   document.body.appendChild(toast);
-  setTimeout(()=>{
+  // 클릭하면 즉시 닫기 (언어 선택 등 다른 UI를 가리는 문제 해소)
+  let toastTimer;
+  const removeToast = () => {
+    if(!toast.parentNode) return;
+    clearTimeout(toastTimer);
     toast.remove();
     activeToastCount = Math.max(0, activeToastCount - 1);
-  }, 5000);
+  };
+  toast.addEventListener('click', removeToast);
+  toastTimer = setTimeout(removeToast, 5000);
 
   // 브라우저 알림
   if(notifGranted) {
@@ -2659,6 +2686,8 @@ function updateLangUI(lang) {
   document.documentElement.lang = lang;
   const navBlog = document.getElementById('navBlogLink');
   if(navBlog) navBlog.href = '/blog/' + blogSuffix(lang);
+  const navGlossary = document.getElementById('navGlossaryLink');
+  if(navGlossary) navGlossary.href = '/glossary' + blogSuffix(lang);
   const privacyLink = document.getElementById('footerPrivacyLink');
   if(privacyLink) privacyLink.href = '/privacy' + blogSuffix(lang);
   const termsLink = document.getElementById('footerTermsLink');
