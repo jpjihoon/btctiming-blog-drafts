@@ -566,7 +566,9 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 
 /* ── LAYOUT ── */
 .page-wrap{max-width:1280px;margin:0 auto;width:100%}
-/* SEO 대표 제목(h1) — 차트 셀 상단에 얇게. 레이아웃(grid)을 밀지 않고 차트 위 여백만 사용 */
+/* SEO 대표 제목(h1) — 티커바 오른쪽 끝에 작게. 모바일에선 공간이 좁아 숨김 */
+.ticker-h1{overflow:hidden;text-overflow:ellipsis;max-width:340px}
+@media(max-width:900px){.ticker-h1{display:none}}
 .seo-hero{padding:0 2px 10px}
 .seo-hero h1{font-size:14px;font-weight:700;color:var(--t1);line-height:1.3;margin:0 0 2px;letter-spacing:-.2px}
 .seo-hero p{font-size:11px;color:var(--t3);line-height:1.4;margin:0}
@@ -870,17 +872,14 @@ $__seoSub = [
 ];
 ?>
 <div id="tickerBar" class="ticker-bar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
-  <div class="seo-hero" style="max-width:1280px;margin:0 auto;padding:8px 16px 2px">
-    <h1 data-i="seoH1"><?= h($__seoH1[$lang] ?? $__seoH1['en']) ?></h1>
-    <p data-i="seoSub"><?= h($__seoSub[$lang] ?? $__seoSub['en']) ?></p>
-  </div>
   <div class="ticker-scroll" style="max-width:1280px;margin:0 auto;padding:6px 16px;
-    font-size:11px;color:var(--t2);display:flex;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
+    font-size:11px;color:var(--t2);display:flex;align-items:center;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
     <span id="tkFiatItem1"><span id="tkFiatLabel1">USD/KRW</span> <b id="tkUsdKrw" style="color:var(--t1)">—</b> <span id="tkUsdKrwChg"></span></span>
     <span><span id="tkFiatLabel2">USDT/KRW</span> <b id="tkUsdtKrw" style="color:var(--t1)">—</b> <span id="tkUsdtKrwChg"></span></span>
     <span><span data-i="tkDomLabel">BTC Dominance</span> <b id="tkDom" style="color:var(--t1)">—</b> <span id="tkDomChg"></span></span>
     <span><span data-i="tkMcapLabel">Market Cap</span> <b id="tkMcap" style="color:var(--t1)">—</b></span>
     <span><span data-i="tkVolLabel">24h Volume</span> <b id="tkVol" style="color:var(--t1)">—</b></span>
+    <h1 class="ticker-h1" data-i="seoH1" style="margin-left:auto;flex-shrink:0;font-size:11px;font-weight:600;color:var(--t3);letter-spacing:0;line-height:1"><?= h($__seoH1[$lang] ?? $__seoH1['en']) ?></h1>
   </div>
 </div>
 
