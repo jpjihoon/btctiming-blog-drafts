@@ -407,6 +407,14 @@ require __DIR__ . '/_guide_head.php';
         }
         return;
       }
+      // mayer-multiple 특수 계산: 현재가 / 200주 이동평균
+      if (field === 'computed.mayer'){
+        if (d.price && d.ma200w){
+          var mayer = d.price / d.ma200w;
+          render({computed:{mayer: mayer}});
+        }
+        return;
+      }
       render(d);
     })
     .catch(function(){ box.querySelector('.lv-time').textContent = '–'; });
