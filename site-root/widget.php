@@ -198,6 +198,20 @@ body{display:flex;flex-direction:column}
 <script>
 const COINS=<?= $coinsJson ?>,LANG=<?= $langJs ?>,API=location.origin+'/api.php';
 const IS_PWA=<?= $pwaJson ?>;
+(function(){
+  try{
+    var params=new URLSearchParams(location.search);
+    if(IS_PWA && !params.get('coins')){
+      var raw=localStorage.getItem('btc_wg_coins');
+      var coins=null;
+      if(raw){ var arr=JSON.parse(raw); if(Array.isArray(arr)&&arr.length) coins=arr.join(','); }
+      if(!coins) coins='BTC,ETH,SOL,XRP,DOGE';
+      var lang=localStorage.getItem('blogLang')||LANG||'ko';
+      var blog=localStorage.getItem('btc_wg_blog')==='1'?'&blog=1':'';
+      location.replace('/widget.php?coins='+encodeURIComponent(coins)+'&lang='+lang+blog+'&pwa=1');
+    }
+  }catch(e){}
+})();
 let _wgInstallPrompt=null;
 window.addEventListener('beforeinstallprompt',function(e){
   e.preventDefault(); _wgInstallPrompt=e;

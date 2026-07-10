@@ -147,4 +147,120 @@ html:not([lang]) .site-footer .ko{display:inline}
   });
   try{ new MutationObserver(sfApplyLang).observe(document.documentElement,{attributes:true,attributeFilter:['lang']}); }catch(e){}
 })();
+
+/* ═══════════════════════════════════════════════════════════
+   플로팅 위젯 — 전 페이지 공통 (대시보드·블로그·용어사전 등 어디서나)
+   localStorage에서 직접 코인/언어를 읽어 자립적으로 동작한다.
+   대시보드의 "화면에 위젯 고정" 버튼이 켜지면 btc_float_on='1'이 저장되고,
+   이후 어느 페이지로 이동하든 이 코드가 자동으로 위젯을 다시 띄운다.
+   ═══════════════════════════════════════════════════════════ */
+(function(){
+  if(window._btcFloatCommonLoaded) return;   // 중복 로드 방지
+  window._btcFloatCommonLoaded = true;
+
+  var VALID=['ko','en','ja','es','de','fr','pt','tr','vi'];
+  function floatLang(){
+    // 현재 페이지가 렌더 중인 언어를 따라감
+    try{ if(typeof currentLang!=='undefined' && currentLang && VALID.indexOf(currentLang)>=0) return currentLang; }catch(e){}
+    var hl=document.documentElement.getAttribute('lang');
+    if(hl && VALID.indexOf(hl)>=0) return hl;
+    try{ if(window.BTLang && BTLang.get){ var l=BTLang.get(); if(l&&VALID.indexOf(l)>=0) return l; } }catch(e){}
+    return 'ko';
+  }
+  function floatCoins(){
+    // 저장된 즐겨찾기 코인 (없으면 기본 5개). BTC만 나오던 버그 방지: 직접 localStorage 파싱
+    try{
+      var raw=localStorage.getItem('btc_wg_coins');
+      if(raw){ var arr=JSON.parse(raw); if(Array.isArray(arr) && arr.length) return arr; }
+    }catch(e){}
+    return ['BTC','ETH','SOL','XRP','DOGE'];
+  }
+  function floatBlog(){
+    try{ return localStorage.getItem('btc_wg_blog')==='1'; }catch(e){ return false; }
+  }
+  function widgetUrl(){
+    var coins=floatCoins().join(',');
+    var blog=floatBlog()?'&blog=1':'';
+    return 'https://btctiming.com/widget.php?coins='+encodeURIComponent(coins)+'&lang='+floatLang()+blog;
+  }
+  function estHeight(){
+    var n=floatCoins().length;
+    return Math.min(38 + (floatBlog()?34:0) + Math.max(n,1)*38 + 28, 340);
+  }
+
+  // 전역 공개: 대시보드 버튼이 이 함수를 호출 (있으면 재사용, 없으면 여기 정의)
+  window.btcLaunchFloating = function(fromRestore){
+    var fw=document.getElementById('btcFloatWidget');
+    if(fw && !fromRestore){
+      fw.remove();
+      if(window._btcFloatPoll){clearInterval(window._btcFloatPoll);window._btcFloatPoll=null;}
+      try{ localStorage.setItem('btc_float_on','0'); }catch(e){}
+      return;
+    }
+    if(fw) return;
+    var h=estHeight();
+    var pos={top:80,left:null,right:24};
+    try{ var s=JSON.parse(localStorage.getItem('btc_float_pos')||'null'); if(s) pos=s; }catch(e){}
+    fw=document.createElement('div');
+    fw.id='btcFloatWidget';
+    var posStyle = (pos.left!==null && pos.left!==undefined) ? ('left:'+pos.left+'px;') : ('right:'+(pos.right||24)+'px;');
+    fw.style.cssText='position:fixed;top:'+(pos.top||80)+'px;'+posStyle+'width:320px;height:'+(h+34)+'px;z-index:99999;'
+      +'background:#0d0d10;border:1px solid rgba(255,255,255,.16);border-radius:14px;'
+      +'box-shadow:0 16px 48px rgba(0,0,0,.7);overflow:hidden;display:flex;flex-direction:column';
+    fw.innerHTML=
+      '<div id="btcFloatBar" style="display:flex;align-items:center;justify-content:space-between;padding:7px 11px;'
+      +'background:#1e1e25;cursor:move;border-bottom:1px solid rgba(255,255,255,.1);flex-shrink:0">'
+      +'<span style="font-size:11px;font-weight:700;color:#f7931a">📌 BTCtiming</span>'
+      +'<span id="btcFloatClose" style="cursor:pointer;color:#c0c0c8;font-size:17px;line-height:1;padding:0 3px">×</span></div>'
+      +'<iframe id="btcFloatFrame" src="'+widgetUrl()+'" frameborder="0" scrolling="no" '
+      +'style="flex:1;width:100%;border:0;background:#0d0d10"></iframe>';
+    document.body.appendChild(fw);
+    try{ localStorage.setItem('btc_float_on','1'); }catch(e){}
+    document.getElementById('btcFloatClose').onclick=function(){
+      fw.remove();
+      if(window._btcFloatPoll){clearInterval(window._btcFloatPoll);window._btcFloatPoll=null;}
+      try{ localStorage.setItem('btc_float_on','0'); }catch(e){}
+    };
+    // 드래그
+    (function(el,handle){
+      var sx=0,sy=0,ox=0,oy=0,drag=false,ifr=el.querySelector('iframe');
+      handle.addEventListener('mousedown',function(e){
+        drag=true;sx=e.clientX;sy=e.clientY;var r=el.getBoundingClientRect();ox=r.left;oy=r.top;
+        el.style.right='auto';el.style.left=ox+'px';el.style.top=oy+'px';
+        if(ifr) ifr.style.pointerEvents='none'; e.preventDefault();
+      });
+      document.addEventListener('mousemove',function(e){
+        if(!drag)return; el.style.left=(ox+e.clientX-sx)+'px'; el.style.top=(oy+e.clientY-sy)+'px';
+      });
+      document.addEventListener('mouseup',function(){
+        if(!drag)return; drag=false; if(ifr) ifr.style.pointerEvents='';
+        try{ var r=el.getBoundingClientRect(); localStorage.setItem('btc_float_pos',JSON.stringify({top:Math.round(r.top),left:Math.round(r.left),right:null})); }catch(e){}
+      });
+    })(fw, document.getElementById('btcFloatBar'));
+    // 높이 자동조정 + 언어 변경 감지 (같은 도메인이므로 iframe 내부 직접 읽음)
+    var frame=document.getElementById('btcFloatFrame');
+    var _fl=floatLang();
+    function fit(){
+      try{
+        var nl=floatLang();
+        if(nl!==_fl){ _fl=nl; frame.src=widgetUrl(); return; }
+        var doc=frame.contentDocument||frame.contentWindow.document;
+        if(!doc||!doc.body) return;
+        var ih=doc.body.scrollHeight, maxH=window.innerHeight-100;
+        var t=Math.min(ih,maxH)+34;
+        if(Math.abs(parseInt(fw.style.height)-t)>2) fw.style.height=t+'px';
+      }catch(e){}
+    }
+    if(window._btcFloatPoll) clearInterval(window._btcFloatPoll);
+    window._btcFloatPoll=setInterval(fit,200);
+    frame.addEventListener('load',fit);
+  };
+
+  // 페이지 로드 시: 켜짐 상태였으면 자동 복원 (블로그↔메인 등 이동해도 유지)
+  function restore(){
+    try{ if(localStorage.getItem('btc_float_on')==='1') window.btcLaunchFloating(true); }catch(e){}
+  }
+  if(document.readyState!=='loading') restore();
+  else document.addEventListener('DOMContentLoaded', restore);
+})();
 </script>

@@ -888,7 +888,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </div>
 
         <!-- 플로팅 위젯 (사이트 위 상주) -->
-        <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:rgba(247,147,26,.14);border:1px solid rgba(247,147,26,.5);border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+        <button onclick="btcLaunchFloating()" style="width:100%;margin-top:10px;background:rgba(247,147,26,.14);border:1px solid rgba(247,147,26,.5);border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
           <span style="font-size:15px">📌</span><span id="wgTxt_pin" style="color:#f7931a;font-weight:700">Pin widget on screen</span>
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
@@ -1629,122 +1629,14 @@ function updateWidgetPreview(){
 
 // ── 플로팅 위젯: 현재 페이지 위에 드래그 가능한 패널로 상주 ──
 // (브라우저 확장프로그램처럼 화면 위에 항상 떠있는 경험. 별도 창/앱 설치 불필요.)
-function launchFloatingWidget(fromRestore){
-  let fw = document.getElementById('btcFloatWidget');
-  if(fw && !fromRestore){
-    fw.remove();
-    if(window._btcFloatPoll){clearInterval(window._btcFloatPoll);window._btcFloatPoll=null;}
-    try{ localStorage.setItem('btc_float_on','0'); }catch(e){}
-    return;
-  }
-  if(fw) return;
-  const h = widgetHeight();
-  let pos = {top:80, left:null, right:24};
-  try{ const saved = JSON.parse(localStorage.getItem('btc_float_pos')||'null'); if(saved) pos = saved; }catch(e){}
-  fw = document.createElement('div');
-  fw.id = 'btcFloatWidget';
-  const posStyle = pos.left!==null ? ('left:'+pos.left+'px;') : ('right:'+(pos.right||24)+'px;');
-  fw.style.cssText = 'position:fixed;top:'+(pos.top||80)+'px;'+posStyle+'width:320px;height:'+(h+34)+'px;z-index:99999;'
-    + 'background:#0d0d10;border:1px solid rgba(255,255,255,.16);border-radius:14px;'
-    + 'box-shadow:0 16px 48px rgba(0,0,0,.7);overflow:hidden;display:flex;flex-direction:column';
-  fw.innerHTML =
-    '<div id="btcFloatBar" style="display:flex;align-items:center;justify-content:space-between;padding:7px 11px;'
-    + 'background:#1e1e25;cursor:move;border-bottom:1px solid rgba(255,255,255,.1);flex-shrink:0">'
-    + '<span style="font-size:11px;font-weight:700;color:#f7931a">📌 BTCtiming</span>'
-    + '<span id="btcFloatClose" style="cursor:pointer;color:#c0c0c8;font-size:17px;line-height:1;padding:0 3px">×</span></div>'
-    + '<iframe id="btcFloatFrame" src="'+buildWidgetUrl()+'" frameborder="0" scrolling="no" '
-    + 'style="flex:1;width:100%;border:0;background:#0d0d10"></iframe>';
-  document.body.appendChild(fw);
-  try{ localStorage.setItem('btc_float_on','1'); }catch(e){}
-  document.getElementById('btcFloatClose').onclick = ()=> {
-    fw.remove();
-    if(window._btcFloatPoll){clearInterval(window._btcFloatPoll);window._btcFloatPoll=null;}
-    try{ localStorage.setItem('btc_float_on','0'); }catch(e){}
-  };
-  makeFloatDraggable(fw, document.getElementById('btcFloatBar'));
-  // 같은 도메인이므로 iframe 내부 실제 높이를 직접 읽어 컨테이너를 확장 (스크롤 없이)
-  const frame = document.getElementById('btcFloatFrame');
-  let _floatLang = getWidgetLang();
-  function fitFloat(){
-    try{
-      // 홈 언어가 바뀌면 플로팅 위젯도 새 언어로 갱신
-      const nowLang = getWidgetLang();
-      if(nowLang !== _floatLang){
-        _floatLang = nowLang;
-        frame.src = buildWidgetUrl();
-        return;
-      }
-      const doc = frame.contentDocument || frame.contentWindow.document;
-      if(!doc || !doc.body) return;
-      const innerH = doc.body.scrollHeight;
-      const maxH = window.innerHeight - 100;
-      const target = Math.min(innerH, maxH) + 34;
-      if(Math.abs(parseInt(fw.style.height) - target) > 2){
-        fw.style.height = target + 'px';
-      }
-    }catch(e){}
-  }
-  if(window._btcFloatPoll) clearInterval(window._btcFloatPoll);
-  window._btcFloatPoll = setInterval(fitFloat, 200); // 0.2초마다 높이 맞춤
-  frame.addEventListener('load', fitFloat);
-  closeModal();
-}
-
-// 위젯 iframe이 보내는 높이 메시지 수신 → 플로팅 패널이 내용 전체만큼 확장 (스크롤 없이)
-window.addEventListener('message', function(e){
-  if(!e.data || typeof e.data.btctimingWidgetHeight === 'undefined') return;
-  const fw = document.getElementById('btcFloatWidget');
-  if(!fw) return;
-  const frame = document.getElementById('btcFloatFrame');
-  // 화면 높이를 넘지 않는 선에서 내용 전체만큼 확장
-  const maxH = window.innerHeight - 120;
-  const inner = Math.min(e.data.btctimingWidgetHeight, maxH);
-  fw.style.height = (inner + 34) + 'px';
-});
-
+// 플로팅 위젯은 _shared_footer.php 공통 코드(btcLaunchFloating)가 전 페이지에서 처리.
+// 대시보드에서 코인/블로그 설정을 바꾸면 떠있는 플로팅을 새 설정으로 갱신.
 function syncFloatingWidget(){
-  const fw = document.getElementById('btcFloatWidget');
+  var fw=document.getElementById('btcFloatWidget');
   if(!fw) return;
-  const iframe = document.getElementById('btcFloatFrame');
-  const h = widgetHeight();
-  fw.style.height = (h+34) + 'px';
+  var iframe=document.getElementById('btcFloatFrame');
   if(iframe) iframe.src = buildWidgetUrl();
 }
-
-function makeFloatDraggable(el, handle){
-  let sx=0, sy=0, ox=0, oy=0, drag=false;
-  const iframe = el.querySelector('iframe');
-  handle.addEventListener('mousedown', e=>{
-    drag=true; sx=e.clientX; sy=e.clientY;
-    const r=el.getBoundingClientRect(); ox=r.left; oy=r.top;
-    el.style.right='auto'; el.style.left=ox+'px'; el.style.top=oy+'px';
-    if(iframe) iframe.style.pointerEvents='none'; // 드래그 중 iframe이 마우스 안 먹게
-    e.preventDefault();
-  });
-  document.addEventListener('mousemove', e=>{
-    if(!drag) return;
-    el.style.left=(ox + e.clientX - sx)+'px';
-    el.style.top =(oy + e.clientY - sy)+'px';
-  });
-  document.addEventListener('mouseup', ()=>{
-    if(!drag) return;
-    drag=false;
-    if(iframe) iframe.style.pointerEvents='';
-    try{
-      const r = el.getBoundingClientRect();
-      localStorage.setItem('btc_float_pos', JSON.stringify({top:Math.round(r.top), left:Math.round(r.left), right:null}));
-    }catch(e){}
-  });
-}
-
-// 페이지 로드 시: 플로팅이 "켜짐" 상태였으면 자동으로 다시 띄움 (블로그↔메인 이동해도 유지)
-(function(){
-  function restoreFloat(){
-    try{ if(localStorage.getItem('btc_float_on') === '1'){ launchFloatingWidget(true); } }catch(e){}
-  }
-  if(document.readyState !== 'loading') restoreFloat();
-  else document.addEventListener('DOMContentLoaded', restoreFloat);
-})();
 
 function copyWidgetCode(){
   const box = document.getElementById('wgCodeBox');
