@@ -12,6 +12,7 @@ $ALLOWED = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX','AVAX','LINK',
 $rawCoins = strtoupper(trim($_GET['coins'] ?? 'BTC'));
 $lang     = preg_match('/^[a-z]{2}$/', $_GET['lang'] ?? '') ? $_GET['lang'] : 'en';
 $showBlog = ($_GET['blog'] ?? '0') === '1';
+$isPwa    = ($_GET['pwa'] ?? '0') === '1';
 
 $coins = array_values(array_filter(
     array_slice(array_map('trim', explode(',', $rawCoins)), 0, 10),
@@ -47,6 +48,7 @@ if ($showBlog) {
 
 $coinsJson = json_encode($coins);
 $sbJson    = $showBlog ? 'true' : 'false';
+$pwaJson   = $isPwa ? 'true' : 'false';
 $langJs    = json_encode($lang);
 ?><!DOCTYPE html>
 <html lang="<?= $lang ?>">
@@ -128,6 +130,7 @@ body{display:flex;flex-direction:column}
     <span class="wg-logo-tx">BTCtiming</span>
   </a>
   <span class="wg-upd" id="updTime">—</span>
+  <button id="wgPwaInstall" style="display:none;margin-left:8px;background:#f7931a;color:#0a0a0a;border:none;border-radius:6px;padding:4px 10px;font-size:11px;font-weight:700;cursor:pointer">💻 <span id="wgPwaInstallTx">Install</span></button>
 </div>
 <?php if ($showBlog): ?>
 <div class="wg-tabs">
@@ -194,6 +197,28 @@ body{display:flex;flex-direction:column}
 </div>
 <script>
 const COINS=<?= $coinsJson ?>,LANG=<?= $langJs ?>,API=location.origin+'/api.php';
+const IS_PWA=<?= $pwaJson ?>;
+let _wgInstallPrompt=null;
+window.addEventListener('beforeinstallprompt',function(e){
+  e.preventDefault(); _wgInstallPrompt=e;
+  if(IS_PWA){ var b=document.getElementById('wgPwaInstall'); if(b) b.style.display=''; }
+});
+window.addEventListener('DOMContentLoaded',function(){
+  var b=document.getElementById('wgPwaInstall');
+  if(!b) return;
+  var tx=document.getElementById('wgPwaInstallTx');
+  var L={ko:'앱 설치',en:'Install',ja:'インストール',es:'Instalar',de:'Installieren',fr:'Installer',pt:'Instalar',tr:'Kur',vi:'Cài đặt'};
+  if(tx) tx.textContent=L[LANG]||'Install';
+  b.onclick=function(){
+    if(_wgInstallPrompt){ _wgInstallPrompt.prompt(); _wgInstallPrompt.userChoice.finally(function(){_wgInstallPrompt=null;}); }
+    else{
+      var isKo=LANG==='ko';
+      alert(isKo
+        ? '이 위젯을 앱으로 설치하려면:\n주소창 오른쪽의 설치 아이콘을 누르거나,\n브라우저 메뉴 → "앱 설치"를 선택하세요.\n\n설치하면 이 위젯만 독립 창으로 실행됩니다.'
+        : 'To install this widget as an app:\nClick the install icon in the address bar,\nor browser menu -> "Install app".\n\nOnly this widget will run as a standalone window.');
+    }
+  };
+});
 const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',es:'es-ES',de:'de-DE',fr:'fr-FR',pt:'pt-BR',tr:'tr-TR',vi:'vi-VN'}[LANG]||'en-US';
 let cache={};
 function sigColor(sig){if(!sig)return'#606068';if(sig.includes('FULL'))return'#22c55e';if(sig.includes('ADD'))return'#86efac';if(sig.includes('SPLIT LONG'))return'#a3e635';if(sig.includes('WATCH'))return'#facc15';if(sig.includes('SPLIT EXIT'))return'#fb923c';return'#f87171';}
