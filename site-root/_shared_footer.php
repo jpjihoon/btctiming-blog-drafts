@@ -20,7 +20,7 @@ if (!function_exists('h')) {
 ?>
 <footer class="site-footer">
  <div class="sf-wrap">
-  <div class="sf-left">
+  <div class="sf-center">
   <div class="sf-links" role="navigation" aria-label="Footer">
     <span class="sf-group">
       <a href="/blog/" class="sf-link sf-legal" data-base="/blog/"><span class="ko">블로그</span><span class="en">Blog</span><span class="ja">ブログ</span><span class="es">Blog</span><span class="de">Blog</span><span class="fr">Blog</span><span class="pt">Blog</span><span class="tr">Blog</span><span class="vi">Blog</span></a>
@@ -42,7 +42,7 @@ if (!function_exists('h')) {
   </div>
   <div class="sf-meta">© 2026 BTCtiming.com<span class="sf-dis"><span class="ko"> · 본 사이트의 모든 정보는 투자 조언이 아닙니다.</span><span class="en"> · The information on this site is not investment advice.</span><span class="ja"> · 本サイトのすべての情報は投資助言ではありません。</span><span class="es"> · La información de este sitio no es asesoramiento financiero.</span><span class="de"> · Die Informationen auf dieser Website sind keine Finanzberatung.</span><span class="fr"> · Les informations de ce site ne constituent pas un conseil financier.</span><span class="pt"> · As informações deste site não são aconselhamento financeiro.</span><span class="tr"> · Bu sitedeki bilgiler yatırım tavsiyesi değildir.</span><span class="vi"> · Thông tin trên trang này không phải là lời khuyên đầu tư.</span></span></div>
   </div>
-  <a class="app-mini" id="appBanner" href="https://play.google.com/store/apps/details?id=com.btctiming.app" target="_blank" rel="noopener" hidden>
+  <a class="app-mini app-mini--fixed" id="appBanner" href="https://play.google.com/store/apps/details?id=com.btctiming.app" target="_blank" rel="noopener" hidden>
     <span class="am-icon" aria-hidden="true">
       <svg width="26" height="26" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#26262b" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 41 29" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </span>
@@ -54,9 +54,10 @@ if (!function_exists('h')) {
  </div>
 </footer>
 <style>
-.site-footer .sf-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.site-footer .sf-left{text-align:left;flex:1;min-width:0}
+.site-footer .sf-wrap{max-width:1100px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center;min-height:56px}
+.site-footer .sf-center{text-align:center;flex:1;min-width:0}
 .app-mini{display:inline-flex;align-items:center;gap:10px;background:#0d0d10;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:8px 13px 8px 9px;text-decoration:none;flex-shrink:0;transition:border-color .12s}
+.app-mini--fixed{position:absolute;right:0;top:50%;transform:translateY(-50%)}
 .app-mini:hover{border-color:rgba(247,147,26,.4)}
 .app-mini .am-icon{width:36px;height:36px;border-radius:10px;background:#151518;border:1px solid rgba(247,147,26,.28);display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .app-mini .am-text{display:flex;flex-direction:column;text-align:left;line-height:1.25}
@@ -74,8 +75,9 @@ html[lang="tr"] .app-mini .tr,
 html[lang="vi"] .app-mini .vi{display:inline}
 html:not([lang]) .app-mini .ko{display:inline}
 @media (max-width:640px){
-  .site-footer .sf-wrap{justify-content:center;text-align:center}
-  .site-footer .sf-left{text-align:center;flex-basis:100%}
+  .site-footer .sf-wrap{flex-direction:column;align-items:center;gap:16px;padding-bottom:8px}
+  .site-footer .sf-center{text-align:center}
+  .app-mini--fixed{position:static;transform:none}
 }
 .site-footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;line-height:1.9}
 .site-footer .sf-links{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;font-size:12px}
