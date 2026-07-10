@@ -1,0 +1,373 @@
+<?php $slug = 'btc-307-day-range-third-longest-consolidation-glassnode'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">비트코인이 6만~7만달러 구간에 머문 지 307일째를 맞았다. 온체인 데이터 업체 글래스노드(Glassnode) 집계에 따르면, 이는 비트코인 역사상 어떤 1만달러 단위 가격 밴드에 머문 기간으로는 세 번째로 긴 기록이다. 코인데스크, 팁랭크스(TipRanks), 야후파이낸스, 비트코인시츠(BitcoinSeats) 등이 7월 10일 이 통계를 보도했다. 앞선 두 기록은 2018년 하락장의 1만~2만달러 구간, 2022년 하락장의 2만~3만달러 구간으로, 둘 다 현재의 307일보다 더 길게 지속됐다.</p>
+  <p class="ko">7월 10일 기준 비트코인은 약 6만3,000~6만4,000달러대에서 거래되고 있다. 코인데스크 보도에 따르면 200주 이동평균선은 현재 약 6만2,873달러로, 이번 6만~7만달러 밴드의 정확히 중간 지점을 지나고 있다. 이 선은 과거 모든 주요 하락장에서 최종 바닥을 지지한 지점으로 거듭 언급돼 온 지표다.</p>
+  <p class="en">Bitcoin has now spent 307 days inside the $60,000-to-$70,000 range. According to data from on-chain analytics firm Glassnode, that makes it the third-longest stretch bitcoin has ever spent within any single $10,000 price band. CoinDesk, TipRanks, Yahoo Finance and BitcoinSeats reported the statistic on July 10. The two longer stretches on record are the 2018 bear market's time within the $10,000-to-$20,000 band and the 2022 bear market's time within the $20,000-to-$30,000 band — both of which, per Glassnode, ran longer than the current 307 days.</p>
+  <p class="en">As of July 10, bitcoin is trading in the roughly $63,000-to-$64,000 range. Per CoinDesk's reporting, the 200-week moving average currently sits near $62,873 — almost exactly the midpoint of the $60,000-to-$70,000 band. That line has repeatedly been cited as the level where every one of bitcoin's past major bear markets ultimately found its floor.</p>
+  <p class="ja">ビットコインが6万~7万ドルの範囲に留まってから307日目を迎えた。オンチェーン分析企業グラスノード(Glassnode)の集計によれば、これはビットコイン史上どの1万ドル単位の価格帯に留まった期間としても3番目に長い記録だ。コインデスク、ティップランクス(TipRanks)、ヤフーファイナンス、ビットコインシーツ(BitcoinSeats)などが7月10日にこの統計を報じた。これまでの上位2記録は、2018年下落相場の1万~2万ドル帯、2022年下落相場の2万~3万ドル帯で、いずれも現在の307日より長く続いた。</p>
+  <p class="ja">7月10日時点でビットコインは約6万3,000~6万4,000ドル台で取引されている。コインデスクの報道によれば、200週移動平均線は現在約6万2,873ドルで、今回の6万~7万ドル帯のちょうど中間点を通過している。この線は過去のすべての主要な下落相場で最終的な底を支えた地点として繰り返し言及されてきた指標だ。</p>
+  <p class="es">Bitcoin ha pasado ya 307 días dentro del rango de $60.000 a $70.000. Según datos de la firma de análisis on-chain Glassnode, esto lo convierte en el tercer período más largo que bitcoin ha pasado dentro de cualquier banda de precios de $10.000. CoinDesk, TipRanks, Yahoo Finance y BitcoinSeats reportaron la estadística el 10 de julio. Los dos períodos más largos registrados son el tiempo del mercado bajista de 2018 dentro de la banda de $10.000 a $20.000 y el del mercado bajista de 2022 dentro de la banda de $20.000 a $30.000 — ambos, según Glassnode, duraron más que los actuales 307 días.</p>
+  <p class="es">Al 10 de julio, bitcoin cotiza en el rango de aproximadamente $63.000 a $64.000. Según la cobertura de CoinDesk, la media móvil de 200 semanas se encuentra actualmente cerca de $62.873 — casi exactamente el punto medio de la banda de $60.000 a $70.000. Esa línea ha sido citada repetidamente como el nivel donde cada uno de los mercados bajistas más importantes de bitcoin encontró finalmente su piso.</p>
+  <p class="de">Bitcoin hat nun 307 Tage innerhalb der Spanne von 60.000 bis 70.000 US-Dollar verbracht. Laut Daten des On-Chain-Analyseunternehmens Glassnode ist das die drittlängste Zeitspanne, die Bitcoin je innerhalb einer einzelnen 10.000-Dollar-Preisspanne verbracht hat. CoinDesk, TipRanks, Yahoo Finance und BitcoinSeats berichteten am 10. Juli über diese Statistik. Die beiden längeren Zeitspannen im Rekordbuch sind die Zeit des Bärenmarkts von 2018 innerhalb der 10.000-bis-20.000-Dollar-Spanne und die Zeit des Bärenmarkts von 2022 innerhalb der 20.000-bis-30.000-Dollar-Spanne – beide dauerten laut Glassnode länger als die aktuellen 307 Tage.</p>
+  <p class="de">Zum 10. Juli notiert Bitcoin in der Spanne von etwa 63.000 bis 64.000 US-Dollar. Laut Berichterstattung von CoinDesk liegt der 200-Wochen-gleitende Durchschnitt derzeit bei rund 62.873 US-Dollar – nahezu genau der Mittelpunkt der 60.000-bis-70.000-Dollar-Spanne. Diese Linie wurde wiederholt als das Niveau genannt, an dem jeder vergangene große Bärenmarkt von Bitcoin letztlich seinen Boden fand.</p>
+  <p class="fr">Le bitcoin a désormais passé 307 jours dans la fourchette de 60 000 à 70 000 dollars. Selon les données de la société d'analyse on-chain Glassnode, il s'agit de la troisième plus longue période que le bitcoin ait jamais passée dans une seule bande de prix de 10 000 dollars. CoinDesk, TipRanks, Yahoo Finance et BitcoinSeats ont rapporté cette statistique le 10 juillet. Les deux périodes plus longues enregistrées sont le temps passé par le marché baissier de 2018 dans la bande de 10 000 à 20 000 dollars et celui du marché baissier de 2022 dans la bande de 20 000 à 30 000 dollars — les deux ayant, selon Glassnode, duré plus longtemps que les 307 jours actuels.</p>
+  <p class="fr">Au 10 juillet, le bitcoin se négocie dans la fourchette d'environ 63 000 à 64 000 dollars. Selon les informations de CoinDesk, la moyenne mobile sur 200 semaines se situe actuellement autour de 62 873 dollars — presque exactement le point médian de la bande de 60 000 à 70 000 dollars. Cette ligne a été citée à plusieurs reprises comme le niveau où chacun des grands marchés baissiers passés du bitcoin a finalement trouvé son plancher.</p>
+  <p class="pt">O bitcoin já passou 307 dias dentro da faixa de $60.000 a $70.000. Segundo dados da empresa de análise on-chain Glassnode, esse é o terceiro período mais longo que o bitcoin já passou dentro de qualquer faixa de preço de $10.000. CoinDesk, TipRanks, Yahoo Finance e BitcoinSeats noticiaram a estatística em 10 de julho. Os dois períodos mais longos registrados são o tempo do mercado em baixa de 2018 dentro da faixa de $10.000 a $20.000 e o do mercado em baixa de 2022 dentro da faixa de $20.000 a $30.000 — ambos, segundo a Glassnode, duraram mais do que os atuais 307 dias.</p>
+  <p class="pt">Em 10 de julho, o bitcoin é negociado na faixa de aproximadamente $63.000 a $64.000. Segundo a cobertura da CoinDesk, a média móvel de 200 semanas está atualmente próxima de $62.873 — quase exatamente o ponto médio da faixa de $60.000 a $70.000. Essa linha tem sido repetidamente citada como o nível em que cada um dos principais mercados em baixa do bitcoin no passado finalmente encontrou seu piso.</p>
+  <p class="tr">Bitcoin, 60.000 ile 70.000 dolar aralığında geçirdiği süreyi 307 güne çıkardı. Zincir üstü analiz şirketi Glassnode'un verilerine göre, bu, bitcoin'in herhangi bir 10.000 dolarlık fiyat bandı içinde geçirdiği en uzun üçüncü süre. CoinDesk, TipRanks, Yahoo Finance ve BitcoinSeats bu istatistiği 10 Temmuz'da haberleştirdi. Kayıtlardaki daha uzun iki süre, 2018 ayı piyasasının 10.000-20.000 dolar bandındaki süresi ve 2022 ayı piyasasının 20.000-30.000 dolar bandındaki süresidir — Glassnode'a göre her ikisi de şu anki 307 günden daha uzun sürdü.</p>
+  <p class="tr">10 Temmuz itibarıyla bitcoin, yaklaşık 63.000-64.000 dolar aralığında işlem görüyor. CoinDesk'in haberine göre, 200 haftalık hareketli ortalama şu anda 62.873 dolar civarında — 60.000-70.000 dolar bandının neredeyse tam orta noktası. Bu çizgi, bitcoin'in geçmişteki her büyük ayı piyasasının sonunda dibini bulduğu seviye olarak tekrar tekrar anılmıştır.</p>
+  <p class="vi">Bitcoin đã trải qua 307 ngày trong khoảng giá từ 60.000 đến 70.000 đô la. Theo dữ liệu từ công ty phân tích on-chain Glassnode, đây là khoảng thời gian dài thứ ba mà bitcoin từng trải qua trong bất kỳ dải giá 10.000 đô la nào. CoinDesk, TipRanks, Yahoo Finance và BitcoinSeats đã đưa tin về số liệu này vào ngày 10 tháng 7. Hai khoảng thời gian dài hơn được ghi nhận là thời gian thị trường giá xuống năm 2018 nằm trong dải 10.000-20.000 đô la và thị trường giá xuống năm 2022 nằm trong dải 20.000-30.000 đô la — cả hai đều, theo Glassnode, kéo dài hơn 307 ngày hiện tại.</p>
+  <p class="vi">Tính đến ngày 10 tháng 7, bitcoin đang giao dịch trong khoảng 63.000-64.000 đô la. Theo đưa tin của CoinDesk, đường trung bình động 200 tuần hiện đang ở mức khoảng 62.873 đô la — gần như chính xác là điểm giữa của dải 60.000-70.000 đô la. Đường này đã nhiều lần được nhắc đến là mức mà mọi thị trường giá xuống lớn trong quá khứ của bitcoin cuối cùng đều tìm thấy đáy.</p>
+
+  <h2 class="ko">'1만달러 밴드'는 어떻게 측정하나</h2>
+  <h2 class="en">How a '$10,000 Band' Is Measured</h2>
+  <h2 class="ja">「1万ドル帯」はどう測定するのか</h2>
+  <h2 class="es">Cómo se Mide una 'Banda de $10.000'</h2>
+  <h2 class="de">Wie eine „10.000-Dollar-Spanne" Gemessen Wird</h2>
+  <h2 class="fr">Comment une « Bande de 10 000 Dollars » Est Mesurée</h2>
+  <h2 class="pt">Como uma 'Faixa de $10.000' É Medida</h2>
+  <h2 class="tr">Bir '10.000 Dolarlık Bant' Nasıl Ölçülür</h2>
+  <h2 class="vi">Cách Đo Một 'Dải 10.000 Đô La'</h2>
+
+  <p class="ko">글래스노드의 방법론은 단순하다. 비트코인 가격을 1만달러 단위로 나눈 뒤, 종가가 그 구간을 벗어나지 않고 머문 연속 일수를 센다. 이 방식은 절대적인 경제적 의미를 갖는 경계선이 아니라, 인간이 숫자를 인지하는 방식에서 나온 인위적 구획이다. 6만달러와 7만달러라는 경계 자체는 시장 구조나 온체인 지표가 정한 것이 아니라, 10진법 숫자 체계에서 자연스럽게 떨어지는 자리일 뿐이다. 그럼에도 이 지표가 유용한 이유는, 밴드를 벗어나지 못한 기간이 길어질수록 실현 변동성이 압축되고 있다는 사실 자체는 측정 가능한 현상이기 때문이다.</p>
+  <p class="ko">BTCtiming이 앞서 다룬 '라운드 넘버 매그넷' 현상과 같은 맥락에서 볼 필요가 있다. 인간의 인지는 반올림된 숫자에 자연스럽게 이끌리고, 트레이더들의 주문도 그런 숫자 근처에 몰린다. 즉 6만달러·7만달러라는 경계 자체가 통계적으로 특별한 지점이라기보다, 그 근처에 매수·매도 주문이 쏠리면서 스스로 지지·저항선이 되는 자기실현적 성격을 갖는다. 이는 밴드가 오래 지속되는 이유의 일부를 설명하지만, 밴드가 언제 깨질지를 예측하는 데는 도움이 되지 않는다.</p>
+  <p class="en">Glassnode's methodology is straightforward: divide bitcoin's price history into $10,000 bands, then count the consecutive days the closing price stays within one band without leaving it. The boundaries themselves carry no inherent economic meaning — they are an artifact of how humans read numbers, not a line drawn by market structure or an on-chain metric. The $60,000 and $70,000 thresholds fall where they do simply because of base-10 counting, not because anything in bitcoin's mechanics singles them out. Still, the metric is useful because the fact being measured — how long realized volatility has stayed compressed within a fixed range — is a real, measurable phenomenon, regardless of where the boundary happens to sit.</p>
+  <p class="en">Worth reading alongside the "round-number magnets" pattern BTCtiming has covered before: human cognition gravitates toward rounded figures, and traders' resting orders cluster near them too. That means the $60,000 and $70,000 lines aren't statistically special so much as self-reinforcing — buy and sell orders concentrate near them, which is what turns them into support and resistance in the first place. That helps explain part of why a band can persist this long, but it says nothing about when it will break.</p>
+  <p class="ja">グラスノードの手法は単純だ。ビットコインの価格履歴を1万ドル単位の帯に分け、終値がその帯から出ずに留まった連続日数を数える。この境界線自体は絶対的な経済的意味を持つものではなく、人間が数字を認識する方式から生まれた人為的な区分だ。6万ドルと7万ドルという境界そのものは市場構造やオンチェーン指標が定めたものではなく、10進法の数体系で自然に落ち着く位置にすぎない。それでもこの指標が有用なのは、帯を出ない期間が長くなるほど実現ボラティリティが圧縮されているという事実自体は測定可能な現象だからだ。</p>
+  <p class="ja">BTCtimingが以前取り上げた「ラウンドナンバー・マグネット」現象と同じ文脈で見る必要がある。人間の認知は丸められた数字に自然と引き寄せられ、トレーダーの注文もそうした数字の近くに集まる。つまり6万ドル・7万ドルという境界自体が統計的に特別な地点というより、その近くに買い・売り注文が集中することで自ら支持線・抵抗線となる自己実現的な性質を持つ。これは帯が長く続く理由の一部を説明するが、帯がいつ崩れるかを予測する助けにはならない。</p>
+  <p class="es">La metodología de Glassnode es sencilla: dividir el historial de precios de bitcoin en bandas de $10.000, y luego contar los días consecutivos en que el precio de cierre permanece dentro de una banda sin salir de ella. Los límites en sí no tienen un significado económico inherente: son un artefacto de cómo los humanos leen los números, no una línea trazada por la estructura del mercado o una métrica on-chain. Los umbrales de $60.000 y $70.000 caen donde caen simplemente por el conteo en base 10, no porque nada en la mecánica de bitcoin los distinga. Aun así, la métrica es útil porque el hecho que mide —cuánto tiempo la volatilidad realizada se ha mantenido comprimida dentro de un rango fijo— es un fenómeno real y medible, sin importar dónde se ubique el límite.</p>
+  <p class="es">Vale la pena leerlo junto con el patrón de los "imanes de números redondos" que BTCtiming ha cubierto antes: la cognición humana gravita hacia cifras redondeadas, y las órdenes pendientes de los traders también se agrupan cerca de ellas. Eso significa que las líneas de $60.000 y $70.000 no son estadísticamente especiales tanto como autorreforzantes: las órdenes de compra y venta se concentran cerca de ellas, lo que es precisamente lo que las convierte en soporte y resistencia. Eso ayuda a explicar parte de por qué una banda puede persistir tanto tiempo, pero no dice nada sobre cuándo se romperá.</p>
+  <p class="de">Die Methodik von Glassnode ist unkompliziert: Die Preisgeschichte von Bitcoin wird in 10.000-Dollar-Bänder unterteilt, dann werden die aufeinanderfolgenden Tage gezählt, an denen der Schlusskurs innerhalb eines Bandes bleibt, ohne es zu verlassen. Die Grenzen selbst haben keine inhärente wirtschaftliche Bedeutung – sie sind ein Artefakt davon, wie Menschen Zahlen lesen, keine von der Marktstruktur oder einer On-Chain-Metrik gezogene Linie. Die Schwellenwerte von 60.000 und 70.000 US-Dollar fallen dort, wo sie liegen, einfach aufgrund der Zählweise im Zehnersystem, nicht weil irgendetwas in der Mechanik von Bitcoin sie hervorhebt. Trotzdem ist die Kennzahl nützlich, weil die gemessene Tatsache – wie lange die realisierte Volatilität innerhalb einer festen Spanne komprimiert geblieben ist – ein reales, messbares Phänomen ist, unabhängig davon, wo die Grenze zufällig liegt.</p>
+  <p class="de">Es lohnt sich, dies im Zusammenhang mit dem von BTCtiming bereits behandelten Muster der „Rundzahl-Magnete" zu lesen: Die menschliche Kognition tendiert zu gerundeten Zahlen, und auch die ruhenden Orders von Händlern ballen sich in deren Nähe. Das bedeutet, dass die Linien bei 60.000 und 70.000 US-Dollar nicht so sehr statistisch besonders als vielmehr selbstverstärkend sind – Kauf- und Verkaufsaufträge konzentrieren sich in ihrer Nähe, wodurch sie überhaupt erst zu Unterstützung und Widerstand werden. Das erklärt einen Teil davon, warum eine Spanne so lange anhalten kann, sagt aber nichts darüber aus, wann sie brechen wird.</p>
+  <p class="fr">La méthodologie de Glassnode est simple : diviser l'historique des prix du bitcoin en bandes de 10 000 dollars, puis compter les jours consécutifs pendant lesquels le cours de clôture reste dans une bande sans en sortir. Les limites elles-mêmes n'ont aucune signification économique inhérente — elles sont un artefact de la façon dont les humains lisent les nombres, pas une ligne tracée par la structure du marché ou une métrique on-chain. Les seuils de 60 000 et 70 000 dollars se situent là où ils sont simplement en raison du comptage en base 10, et non parce que quelque chose dans les mécanismes du bitcoin les distingue. Néanmoins, la métrique est utile car le fait mesuré — la durée pendant laquelle la volatilité réalisée est restée comprimée dans une fourchette fixe — est un phénomène réel et mesurable, quel que soit l'endroit où se trouve la limite.</p>
+  <p class="fr">Il convient de le lire en parallèle avec le schéma des « aimants à nombres ronds » déjà traité par BTCtiming : la cognition humaine gravite vers des chiffres ronds, et les ordres en attente des traders se regroupent aussi près de ceux-ci. Cela signifie que les lignes à 60 000 et 70 000 dollars ne sont pas tant statistiquement spéciales qu'autorenforçantes — les ordres d'achat et de vente se concentrent près d'elles, ce qui est précisément ce qui en fait des niveaux de support et de résistance. Cela explique en partie pourquoi une bande peut persister aussi longtemps, mais ne dit rien sur le moment où elle se brisera.</p>
+  <p class="pt">A metodologia da Glassnode é simples: dividir o histórico de preços do bitcoin em faixas de $10.000 e, depois, contar os dias consecutivos em que o preço de fechamento permanece dentro de uma faixa sem saltar dela. Os limites em si não têm significado econômico inerente — são um artefato de como os humanos leem números, não uma linha traçada pela estrutura do mercado ou por uma métrica on-chain. Os limiares de $60.000 e $70.000 caem onde caem simplesmente por causa da contagem em base 10, não porque algo na mecânica do bitcoin os destaque. Ainda assim, a métrica é útil porque o fato medido — por quanto tempo a volatilidade realizada permaneceu comprimida dentro de uma faixa fixa — é um fenômeno real e mensurável, independentemente de onde o limite esteja.</p>
+  <p class="pt">Vale a pena ler isso junto com o padrão dos "ímãs de números redondos" que a BTCtiming já cobriu: a cognição humana gravita em torno de números arredondados, e as ordens pendentes dos traders também se concentram perto deles. Isso significa que as linhas de $60.000 e $70.000 não são tão estatisticamente especiais quanto autorreforçantes — ordens de compra e venda se concentram perto delas, o que é exatamente o que as transforma em suporte e resistência. Isso ajuda a explicar parte do motivo pelo qual uma faixa pode persistir por tanto tempo, mas nada diz sobre quando ela vai se romper.</p>
+  <p class="tr">Glassnode'un metodolojisi basit: bitcoin'in fiyat geçmişini 10.000 dolarlık bantlara bölmek, ardından kapanış fiyatının bir banttan ayrılmadan kaldığı ardışık günleri saymak. Sınırların kendisi doğal bir ekonomik anlam taşımaz — bunlar piyasa yapısının veya zincir üstü bir metriğin çizdiği bir çizgi değil, insanların sayıları nasıl okuduğunun bir yansımasıdır. 60.000 ve 70.000 dolarlık eşikler, bitcoin'in mekaniğinde onları öne çıkaran bir şey olduğundan değil, sadece 10'luk sayma sisteminden dolayı orada bulunuyor. Buna rağmen bu metrik yararlıdır, çünkü ölçülen gerçek — gerçekleşen oynaklığın sabit bir aralık içinde ne kadar sıkışık kaldığı — sınırın nerede olduğuna bakılmaksızın gerçek, ölçülebilir bir olgudur.</p>
+  <p class="tr">Bunu BTCtiming'in daha önce ele aldığı "yuvarlak sayı mıknatısları" örüntüsüyle birlikte okumak gerekir: insan bilişi yuvarlatılmış rakamlara doğal olarak yönelir ve tüccarların bekleyen emirleri de bu rakamların yakınında kümelenir. Bu, 60.000 ve 70.000 dolarlık çizgilerin istatistiksel olarak özel olmaktan çok kendi kendini güçlendiren çizgiler olduğu anlamına gelir — alım ve satım emirleri bu seviyelerin yakınında yoğunlaşır, bu da onları destek ve direnç haline getiren şeydir. Bu, bir bandın bu kadar uzun sürebilmesinin bir nedenini açıklamaya yardımcı olur, ama bandın ne zaman kırılacağı hakkında hiçbir şey söylemez.</p>
+  <p class="vi">Phương pháp của Glassnode rất đơn giản: chia lịch sử giá bitcoin thành các dải 10.000 đô la, sau đó đếm số ngày liên tiếp mà giá đóng cửa nằm trong một dải mà không thoát ra. Các ranh giới này bản thân không mang ý nghĩa kinh tế vốn có — chúng là sản phẩm của cách con người đọc số, không phải là một đường được vẽ ra bởi cấu trúc thị trường hay một chỉ số on-chain. Các ngưỡng 60.000 và 70.000 đô la rơi vào đúng vị trí đó chỉ đơn giản vì cách đếm cơ số 10, không phải vì có điều gì trong cơ chế của bitcoin làm chúng trở nên đặc biệt. Tuy vậy, chỉ số này vẫn có ích vì thực tế được đo lường — độ biến động thực tế đã bị nén trong một khoảng cố định bao lâu — là một hiện tượng thực sự, có thể đo lường được, bất kể ranh giới đó nằm ở đâu.</p>
+  <p class="vi">Điều này nên được đọc cùng với hiện tượng "nam châm số tròn" mà BTCtiming đã đề cập trước đây: nhận thức của con người có xu hướng bị hút về các số được làm tròn, và các lệnh chờ của nhà giao dịch cũng tập trung gần các mức đó. Điều đó có nghĩa là các mốc 60.000 và 70.000 đô la không đặc biệt về mặt thống kê nhiều như là tự gia cố — các lệnh mua và bán tập trung gần đó, và chính điều đó biến chúng thành hỗ trợ và kháng cự ngay từ đầu. Điều này giúp giải thích một phần lý do một dải giá có thể tồn tại lâu như vậy, nhưng không nói lên điều gì về thời điểm nó sẽ bị phá vỡ.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">비트코인 역대 최장 1만달러 밴드 체류 기간 (Glassnode, 2026-07-10 기준)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">현재 6만~7만달러 구간, 307일째로 역대 3위</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">2018년 하락장 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">1위 (307일보다 길다)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">2022년 하락장 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">2위 (307일보다 길다)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">현재 · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">3위 · 307일 (진행 중)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">200주 이동평균선 ≈ $62,873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(밴드 중간 지점 통과)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">막대 길이는 예시 비율이며 정확한 일수는 출처에 표기되지 않음 (출처: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bitcoin's Longest-Ever Stays Within a $10K Price Band (Glassnode, as of Jul 10, 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Current $60K-$70K band, 307 days and counting — ranked third all-time</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">2018 bear market · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#1 (longer than 307 days)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">2022 bear market · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#2 (longer than 307 days)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Current · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">#3 · 307 days (ongoing)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">200-week MA ≈ $62,873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(passes through band midpoint)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Bar lengths are illustrative; exact day counts for #1/#2 not specified in sources (Source: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">ビットコイン史上最長の1万ドル帯滞在期間(Glassnode、2026年7月10日時点)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">現在の6万~7万ドル帯、307日目で史上3位</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">2018年下落相場 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">1位(307日より長い)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">2022年下落相場 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">2位(307日より長い)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">現在 · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">3位 · 307日(進行中)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">200週移動平均線 ≈ $62,873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(帯の中間点を通過)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">バーの長さは例示であり、1位・2位の正確な日数は出典に記載なし (出典: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Las Permanencias Más Largas de Bitcoin en una Banda de $10K (Glassnode, al 10 jul. 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Banda actual de $60K-$70K, 307 días y contando — tercer lugar histórico</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">Mercado bajista 2018 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#1 (más de 307 días)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">Mercado bajista 2022 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#2 (más de 307 días)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Actual · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">#3 · 307 días (en curso)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">Media móvil 200 sem. ≈ $62.873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(pasa por el punto medio de la banda)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Las barras son ilustrativas; los días exactos de #1/#2 no se especifican en las fuentes (Fuente: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bitcoins Längste Verweildauer in einer 10.000-Dollar-Spanne (Glassnode, Stand 10.07.2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Aktuelle 60K-70K-Dollar-Spanne, 307 Tage und weiter zählend — Rang drei aller Zeiten</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">Bärenmarkt 2018 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#1 (länger als 307 Tage)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">Bärenmarkt 2022 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#2 (länger als 307 Tage)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Aktuell · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">#3 · 307 Tage (laufend)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">200-Wochen-MA ≈ $62.873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(verläuft durch die Mitte der Spanne)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Balkenlängen sind illustrativ; genaue Tageszahlen für #1/#2 in den Quellen nicht angegeben (Quelle: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Les Plus Longs Séjours du Bitcoin dans une Bande de 10 000$ (Glassnode, au 10 juil. 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Bande actuelle de 60K$-70K$, 307 jours et ça continue — 3e rang de tous les temps</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">Marché baissier 2018 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">n°1 (plus de 307 jours)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">Marché baissier 2022 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">n°2 (plus de 307 jours)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Actuel · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">n°3 · 307 jours (en cours)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">MM 200 sem. ≈ 62 873$</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(traverse le milieu de la bande)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Longueurs des barres illustratives ; jours exacts pour n°1/n°2 non précisés dans les sources (Source : Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">As Permanências Mais Longas do Bitcoin em uma Faixa de $10K (Glassnode, em 10/07/2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Faixa atual de $60K-$70K, 307 dias e contando — 3º lugar de todos os tempos</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">Mercado em baixa 2018 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#1 (mais de 307 dias)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">Mercado em baixa 2022 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#2 (mais de 307 dias)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Atual · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">#3 · 307 dias (em curso)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">Média móvel 200 sem. ≈ $62.873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(passa pelo ponto médio da faixa)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Barras ilustrativas; dias exatos de #1/#2 não especificados nas fontes (Fonte: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bitcoin'in 10K Dolarlık Bir Bantta Kaldığı En Uzun Süreler (Glassnode, 10.07.2026 itibarıyla)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Mevcut 60K-70K dolar bandı, 307 gün ve sayılıyor — tüm zamanların üçüncüsü</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">2018 ayı piyasası · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#1 (307 günden uzun)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">2022 ayı piyasası · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#2 (307 günden uzun)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Mevcut · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">#3 · 307 gün (sürüyor)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">200 haftalık HO ≈ $62.873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(bandın orta noktasından geçiyor)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Çubuk uzunlukları örnek amaçlıdır; #1/#2 için kesin gün sayısı kaynaklarda belirtilmemiştir (Kaynak: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Thời Gian Dài Nhất Bitcoin Ở Trong Một Dải 10K Đô La (Glassnode, tính đến 10/7/2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Dải hiện tại 60K-70K đô la, 307 ngày và đang tiếp tục — xếp thứ ba mọi thời đại</text>
+    <g font-family="sans-serif">
+      <text x="20" y="95" fill="#fafafa" font-size="14" font-weight="700">Thị trường giá xuống 2018 · $10K-$20K</text>
+      <rect x="20" y="105" width="560" height="34" fill="#71717a"/>
+      <text x="590" y="128" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#1 (dài hơn 307 ngày)</text>
+      <text x="20" y="165" fill="#fafafa" font-size="14" font-weight="700">Thị trường giá xuống 2022 · $20K-$30K</text>
+      <rect x="20" y="175" width="500" height="34" fill="#71717a"/>
+      <text x="530" y="198" fill="#fafafa" font-size="14" font-weight="800" text-anchor="end">#2 (dài hơn 307 ngày)</text>
+      <text x="20" y="235" fill="#fafafa" font-size="14" font-weight="700">Hiện tại · $60K-$70K</text>
+      <rect x="20" y="245" width="430" height="34" fill="#38bdf8"/>
+      <text x="460" y="268" fill="#111113" font-size="14" font-weight="800" text-anchor="end">#3 · 307 ngày (đang diễn ra)</text>
+      <line x1="240" y1="290" x2="240" y2="330" stroke="#f97316" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="240" y="345" fill="#f97316" font-size="13" text-anchor="middle" font-weight="700">MA 200 tuần ≈ $62.873</text>
+      <text x="240" y="365" fill="#a1a1aa" font-size="13" text-anchor="middle">(đi qua điểm giữa của dải)</text>
+      <text x="20" y="390" fill="#a1a1aa" font-size="13">Độ dài cột chỉ minh họa; số ngày chính xác của #1/#2 không được nêu trong nguồn (Nguồn: Glassnode, CoinDesk)</text>
+    </g>
+  </svg>
+  </div>
+
+  <h2 class="ko">2018년, 2022년 밴드는 어떻게 끝났나</h2>
+  <h2 class="en">How the 2018 and 2022 Bands Ended</h2>
+  <h2 class="ja">2018年、2022年の帯はどう終わったのか</h2>
+  <h2 class="es">Cómo Terminaron las Bandas de 2018 y 2022</h2>
+  <h2 class="de">Wie die Spannen von 2018 und 2022 Endeten</h2>
+  <h2 class="fr">Comment les Bandes de 2018 et 2022 Se Sont Terminées</h2>
+  <h2 class="pt">Como as Faixas de 2018 e 2022 Terminaram</h2>
+  <h2 class="tr">2018 ve 2022 Bantları Nasıl Sona Erdi</h2>
+  <h2 class="vi">Các Dải 2018 và 2022 Đã Kết Thúc Như Thế Nào</h2>
+
+  <p class="ko">역대 1위와 2위 기록이 남긴 결말은 이번 사례에 곧바로 적용할 수 있는 청사진이 아니다. 2018년의 1만~2만달러 밴드는 결국 위쪽이 아니라 아래쪽으로 무너지며 끝났다 — 그해 말 비트코인은 약 3,200달러까지 주저앉았다. 2022년의 2만~3만달러 밴드 역시 FTX 붕괴라는 외부 충격과 함께 하방으로 이탈해, 그해 11월 약 1만5,476달러까지 떨어졌다. 즉 밴드를 벗어난 방향이라는 기준으로 보면, 역대 두 최장 밴드 모두 '위로 도약'이 아니라 '아래로 붕괴'로 마무리됐다.</p>
+  <p class="ko">이 사실은 두 가지로 해석될 수 있다. 하나는 오랜 횡보 이후 하방 이탈이 더 흔한 결말이라는 패턴론이다. 다른 하나는, 표본이 단 두 개뿐인 상태에서 패턴을 일반화하는 것 자체가 위험하다는 반론이다. BTCtiming이 앞서 다룬 백테스트 과최적화의 함정과 정확히 같은 문제다 — 세 번째 사례(현재 진행 중인 밴드)가 앞선 두 건과 같은 방향으로 끝날지, 아니면 처음으로 다른 패턴을 그릴지는 이 통계 자체로는 알 수 없다. 2018년과 2022년 모두 거시경제 여건(연준 긴축, 거래소 붕괴)이라는 별도의 촉매가 있었다는 점도, 이번엔 그런 촉매의 존재 여부가 다를 수 있다는 뜻이다.</p>
+  <p class="en">The way the two longer-running bands resolved isn't a blueprint that transfers directly to the current case. The 2018 band within $10,000-to-$20,000 ultimately broke down rather than up — bitcoin fell to roughly $3,200 by the end of that year. The 2022 band within $20,000-to-$30,000 likewise broke to the downside, alongside the external shock of FTX's collapse, falling to about $15,476 that November. Measured purely by which direction the band broke, both of bitcoin's record-longest consolidations ended in a breakdown, not a breakout.</p>
+  <p class="en">That fact cuts two ways. One reading treats it as a pattern: a downside break is the more common resolution after a long sideways stretch. The other reading is a caution against generalizing from a sample of two. It's the same problem BTCtiming has covered in the context of backtest overfitting — whether this third case (the band currently in progress) resolves in the same direction as the first two, or draws an entirely new pattern, isn't something this statistic alone can tell you. Both 2018 and 2022 also had a distinct macro catalyst (Fed tightening, an exchange collapse), and whether a comparable catalyst exists this time is itself an open question.</p>
+  <p class="ja">歴代1位・2位の記録が残した結末は、今回の事例にそのまま当てはめられる青写真ではない。2018年の1万~2万ドル帯は最終的に上ではなく下方向に崩れて終わった — その年末までにビットコインは約3,200ドルまで沈んだ。2022年の2万~3万ドル帯もFTX破綻という外部ショックとともに下方へ離脱し、その年11月に約1万5,476ドルまで下落した。つまり帯から外れた方向という基準で見ると、歴代二つの最長帯はいずれも「上への跳躍」ではなく「下への崩壊」で終わっている。</p>
+  <p class="ja">この事実は二つの解釈が可能だ。一つは、長い横ばいの後は下方離脱がより一般的な結末だというパターン論。もう一つは、標本が二つしかない状態でパターンを一般化すること自体が危険だという反論だ。BTCtimingが以前取り上げたバックテスト過最適化の罠と全く同じ問題だ — 三番目の事例(現在進行中の帯)が前の二件と同じ方向で終わるのか、あるいは初めて別のパターンを描くのかは、この統計自体からは分からない。2018年も2022年も、それぞれ別のマクロ経済的触媒(FRBの引き締め、取引所の破綻)があったことも、今回はそうした触媒の有無が異なりうることを意味する。</p>
+  <p class="es">La forma en que se resolvieron las dos bandas más largas no es un plano que se traslade directamente al caso actual. La banda de 2018 dentro de $10.000 a $20.000 terminó finalmente rompiendo hacia abajo, no hacia arriba — bitcoin cayó a aproximadamente $3.200 a finales de ese año. La banda de 2022 dentro de $20.000 a $30.000 también rompió a la baja, junto con el shock externo del colapso de FTX, cayendo a unos $15.476 ese noviembre. Medido puramente por la dirección en que se rompió la banda, las dos consolidaciones más largas de la historia de bitcoin terminaron en una ruptura a la baja, no en un avance.</p>
+  <p class="es">Ese hecho se puede leer de dos maneras. Una lectura lo trata como un patrón: una ruptura a la baja es el desenlace más común tras un largo período de lateralización. La otra lectura es una advertencia contra generalizar a partir de una muestra de dos. Es el mismo problema que BTCtiming ha cubierto en el contexto del sobreajuste en backtesting: si este tercer caso (la banda actualmente en curso) se resuelve en la misma dirección que los dos primeros, o dibuja un patrón completamente nuevo, no es algo que esta estadística por sí sola pueda decir. Tanto 2018 como 2022 tuvieron también un catalizador macroeconómico distinto (el ajuste de la Fed, el colapso de un exchange), y si existe un catalizador comparable esta vez es en sí misma una pregunta abierta.</p>
+  <p class="de">Wie sich die beiden länger andauernden Spannen auflösten, ist kein Bauplan, der sich direkt auf den aktuellen Fall übertragen lässt. Die Spanne von 2018 innerhalb von 10.000 bis 20.000 US-Dollar brach letztlich nach unten aus, nicht nach oben – Bitcoin fiel bis Ende jenes Jahres auf etwa 3.200 US-Dollar. Die Spanne von 2022 innerhalb von 20.000 bis 30.000 US-Dollar brach ebenfalls nach unten aus, zusammen mit dem externen Schock des FTX-Zusammenbruchs, und fiel in jenem November auf etwa 15.476 US-Dollar. Gemessen allein an der Richtung, in die die Spanne ausbrach, endeten beide der bisher längsten Konsolidierungen von Bitcoin in einem Abbruch nach unten, nicht in einem Ausbruch nach oben.</p>
+  <p class="de">Diese Tatsache lässt sich auf zwei Arten deuten. Eine Lesart behandelt sie als Muster: Ein Abwärtsausbruch ist die häufigere Auflösung nach einer langen Seitwärtsphase. Die andere Lesart ist eine Warnung davor, aus einer Stichprobe von zwei Fällen zu verallgemeinern. Es ist dasselbe Problem, das BTCtiming im Zusammenhang mit Backtest-Overfitting behandelt hat – ob sich dieser dritte Fall (die aktuell laufende Spanne) in dieselbe Richtung auflöst wie die ersten beiden, oder ein völlig neues Muster zeichnet, lässt sich allein aus dieser Statistik nicht ableiten. Sowohl 2018 als auch 2022 hatten außerdem einen eigenen makroökonomischen Auslöser (Straffung der Fed, Zusammenbruch einer Börse), und ob es diesmal einen vergleichbaren Auslöser gibt, ist selbst eine offene Frage.</p>
+  <p class="fr">La façon dont les deux bandes les plus longues se sont résolues n'est pas un modèle qui se transpose directement au cas actuel. La bande de 2018 entre 10 000 et 20 000 dollars a finalement cassé vers le bas et non vers le haut — le bitcoin est tombé à environ 3 200 dollars à la fin de cette année-là. La bande de 2022 entre 20 000 et 30 000 dollars a également cassé à la baisse, accompagnée du choc externe de l'effondrement de FTX, chutant à environ 15 476 dollars en novembre de cette année. Mesuré uniquement par la direction dans laquelle la bande s'est cassée, les deux plus longues consolidations de l'histoire du bitcoin se sont terminées par une cassure baissière, et non par une percée haussière.</p>
+  <p class="fr">Ce fait peut être lu de deux façons. Une lecture le considère comme un schéma : une cassure baissière est le dénouement le plus courant après une longue période de latéralisation. L'autre lecture est un avertissement contre la généralisation à partir d'un échantillon de deux cas. C'est exactement le même problème que BTCtiming a traité dans le contexte du surajustement des backtests — si ce troisième cas (la bande actuellement en cours) se résout dans la même direction que les deux premiers, ou dessine un schéma entièrement nouveau, ce n'est pas quelque chose que cette statistique seule peut révéler. 2018 et 2022 ont également eu chacun un catalyseur macroéconomique distinct (durcissement de la Fed, effondrement d'un échange), et l'existence ou non d'un catalyseur comparable cette fois est elle-même une question ouverte.</p>
+  <p class="pt">A forma como as duas faixas mais longas se resolveram não é um modelo que se transponha diretamente para o caso atual. A faixa de 2018, dentro de $10.000 a $20.000, acabou rompendo para baixo, e não para cima — o bitcoin caiu para cerca de $3.200 até o fim daquele ano. A faixa de 2022, dentro de $20.000 a $30.000, também rompeu para baixo, junto com o choque externo do colapso da FTX, caindo para cerca de $15.476 naquele novembro. Medido apenas pela direção em que a faixa se rompeu, as duas consolidações mais longas da história do bitcoin terminaram em um rompimento de baixa, não em uma alta.</p>
+  <p class="pt">Esse fato pode ser lido de duas formas. Uma leitura o trata como um padrão: um rompimento de baixa é o desfecho mais comum após um longo período de lateralização. A outra leitura é uma advertência contra generalizar a partir de uma amostra de dois casos. É exatamente o mesmo problema que a BTCtiming já abordou no contexto do overfitting em backtests — se este terceiro caso (a faixa atualmente em curso) se resolve na mesma direção que os dois primeiros, ou traça um padrão totalmente novo, não é algo que essa estatística, por si só, possa revelar. Tanto 2018 quanto 2022 também tiveram um catalisador macroeconômico distinto (aperto monetário do Fed, colapso de uma exchange), e se existe um catalisador comparável desta vez é, em si, uma questão aberta.</p>
+  <p class="tr">İlk iki bandın nasıl sonuçlandığı, mevcut duruma doğrudan uygulanabilecek bir plan değil. 2018'deki 10.000-20.000 dolar bandı, sonunda yukarı değil aşağı doğru kırıldı — bitcoin o yılın sonunda yaklaşık 3.200 dolara düştü. 2022'deki 20.000-30.000 dolar bandı da FTX'in çöküşünün dışsal şokuyla birlikte aşağı yönlü kırıldı ve o Kasım ayında yaklaşık 15.476 dolara düştü. Sadece bandın hangi yöne kırıldığına bakılırsa, bitcoin'in şimdiye kadarki en uzun iki konsolidasyonu, bir yükselişle değil, bir çöküşle sona erdi.</p>
+  <p class="tr">Bu gerçek iki şekilde yorumlanabilir. Bir okuma, bunu bir örüntü olarak ele alır: uzun bir yatay seyirden sonra aşağı yönlü kırılma daha yaygın bir sonuçtur. Diğer okuma ise, sadece iki örnekten genelleme yapmaya karşı bir uyarıdır. Bu, BTCtiming'in geriye dönük test aşırı uyumu bağlamında ele aldığı sorunun tam olarak aynısıdır — bu üçüncü vakanın (şu anda sürmekte olan bant) ilk ikisiyle aynı yönde mi sonuçlanacağı, yoksa tamamen yeni bir örüntü mü çizeceği, bu istatistiğin kendisinden anlaşılamaz. 2018 ve 2022'nin her ikisinin de kendine özgü bir makro katalizörü vardı (Fed'in sıkılaştırması, bir borsanın çöküşü) ve bu sefer karşılaştırılabilir bir katalizörün var olup olmadığı, kendisi başlı başına açık bir sorudur.</p>
+  <p class="vi">Cách hai dải dài hơn được giải quyết không phải là bản thiết kế có thể áp dụng trực tiếp cho trường hợp hiện tại. Dải năm 2018 trong khoảng 10.000-20.000 đô la cuối cùng đã phá vỡ xuống dưới, không phải lên trên — bitcoin đã giảm xuống khoảng 3.200 đô la vào cuối năm đó. Dải năm 2022 trong khoảng 20.000-30.000 đô la cũng phá vỡ theo hướng giảm, cùng với cú sốc bên ngoài từ sự sụp đổ của FTX, giảm xuống khoảng 15.476 đô la vào tháng 11 năm đó. Chỉ xét theo hướng mà dải giá bị phá vỡ, hai giai đoạn tích lũy dài nhất trong lịch sử bitcoin đều kết thúc bằng một sự sụp đổ, không phải một sự bứt phá.</p>
+  <p class="vi">Sự thật này có thể được hiểu theo hai cách. Một cách hiểu coi đó là một khuôn mẫu: phá vỡ xuống dưới là kết quả phổ biến hơn sau một giai đoạn đi ngang kéo dài. Cách hiểu khác là một lời cảnh báo về việc tổng quát hóa từ mẫu chỉ có hai trường hợp. Đây chính xác là vấn đề mà BTCtiming đã đề cập trong bối cảnh overfitting khi kiểm thử lại — liệu trường hợp thứ ba này (dải hiện đang diễn ra) có kết thúc theo cùng hướng với hai trường hợp đầu tiên, hay vẽ ra một khuôn mẫu hoàn toàn mới, là điều mà chỉ số này không thể tự nói lên. Cả năm 2018 và 2022 đều có một chất xúc tác kinh tế vĩ mô riêng biệt (Fed thắt chặt, một sàn giao dịch sụp đổ), và liệu có một chất xúc tác tương đương lần này hay không vẫn là một câu hỏi còn mở.</p>
+
+  <h2 class="ko">지켜볼 지점: 축적인가, 소진인가</h2>
+  <h2 class="en">What to Watch: Accumulation or Exhaustion</h2>
+  <h2 class="ja">注視点:蓄積か、消耗か</h2>
+  <h2 class="es">Qué Vigilar: ¿Acumulación o Agotamiento?</h2>
+  <h2 class="de">Worauf zu Achten Ist: Akkumulation oder Erschöpfung</h2>
+  <h2 class="fr">Ce Qu'il Faut Surveiller : Accumulation ou Épuisement</h2>
+  <h2 class="pt">O Que Observar: Acumulação ou Esgotamento</h2>
+  <h2 class="tr">İzlenmesi Gerekenler: Birikim mi, Tükenme mi</h2>
+  <h2 class="vi">Cần Theo Dõi: Tích Lũy Hay Cạn Kiệt</h2>
+
+  <p class="ko">이 307일이라는 숫자 하나를 두고도 서로 다른 두 해석이 공존한다. 낙관적 해석은, BTCtiming이 앞서 다룬 장기보유자(LTH) 물량의 재축적 국면과 겹쳐 읽는다 — 오랜 횡보가 신규 유통량을 흡수하며 다음 상승 국면의 토대를 놓는 조용한 매집 구간일 수 있다는 것이다. 비관적 해석은, 밴드가 길어질수록 시장 참여자들의 관심과 신규 자금 유입이 서서히 소진돼, 결국 얕은 매도 물량에도 하방으로 밀릴 취약성이 커진다고 본다. 이 두 시각 모두 같은 307일이라는 사실에서 정반대의 결론을 끌어낸다는 점이 이 통계의 한계를 보여준다.</p>
+  <p class="ko">결국 이 통계 자체는 예측 도구가 아니라 진단 도구에 가깝다. 실제로 지켜봐야 할 것은 밴드의 지속 기간 자체가 아니라, 그 안에서 일어나는 자금 흐름의 방향이다 — ETF 순유입이 재개되는지, 장기보유자 물량이 계속 늘어나는지, 그리고 200주 이동평균선이라는 심리적·기술적 지지선이 실제 매수세로 방어되는지 여부다. CLARITY 법안 처리 여부나 연준의 통화정책 변화 같은 거시적 촉매가 등장할 경우, 307일은 308일, 309일로 늘어나는 대신 갑자기 끝날 수도 있다. 이번 밴드가 언제, 어느 방향으로 마감될지는 지금으로선 어느 쪽도 확정적으로 말할 수 없다.</p>
+  <p class="en">Even this single figure of 307 days supports two opposing readings. The optimistic one overlaps with the long-term holder (LTH) re-accumulation phase BTCtiming has covered before — the long sideways stretch could be a quiet accumulation window absorbing new supply and laying the groundwork for the next leg up. The pessimistic one holds that the longer a band persists, the more market attention and fresh capital inflows gradually drain away, leaving the range increasingly vulnerable to being pushed down by even shallow selling. That the same 307-day fact supports two opposite conclusions is itself a limitation of the statistic.</p>
+  <p class="en">In the end, this statistic functions less as a predictive tool than a diagnostic one. What's actually worth watching isn't the duration of the band itself, but the direction of the flows happening inside it — whether ETF net inflows resume, whether long-term holder supply keeps growing, and whether the 200-week moving average holds as a psychological and technical support level backed by real buying. If a macro catalyst emerges — passage of the CLARITY Act, a shift in Fed policy — 307 days could stop extending to 308 and 309 and end abruptly instead. Neither direction can be called with confidence from where things stand now.</p>
+  <p class="ja">この307日という一つの数字だけでも、正反対の二つの解釈が両立する。楽観的な解釈は、BTCtimingが以前取り上げた長期保有者(LTH)の再蓄積局面と重ねて読む — 長い横ばいは新規流通量を吸収し次の上昇局面の土台を築く静かな買い集め区間かもしれないという見方だ。悲観的な解釈は、帯が長くなるほど市場参加者の関心と新規資金の流入が徐々に消耗し、結局は浅い売り物量にも下方へ押される脆弱性が増すと見る。この二つの視点が同じ307日という事実から正反対の結論を導き出すという点自体が、この統計の限界を示している。</p>
+  <p class="ja">結局この統計自体は予測の道具ではなく、診断の道具に近い。実際に注視すべきは帯の持続期間そのものではなく、その中で起きている資金の流れの方向だ — ETFの純流入が再開するか、長期保有者の物量が増え続けるか、そして200週移動平均線という心理的・技術的支持線が実際の買いによって防衛されるかどうかだ。CLARITY法案の処理や連邦準備制度の金融政策変化といったマクロ的な触媒が現れれば、307日は308日、309日と延びる代わりに突然終わる可能性もある。この帯がいつ、どちらの方向で終わるのかは、現時点ではどちらの側も確定的には言えない。</p>
+  <p class="es">Incluso esta única cifra de 307 días admite dos lecturas opuestas. La optimista se superpone con la fase de reacumulación de tenedores a largo plazo (LTH) que BTCtiming ha cubierto antes — el largo tramo lateral podría ser una ventana silenciosa de acumulación que absorbe nueva oferta y sienta las bases para el próximo tramo alcista. La pesimista sostiene que cuanto más persiste una banda, más se drenan gradualmente la atención del mercado y los flujos de capital nuevo, dejando el rango cada vez más vulnerable a ser empujado a la baja incluso por ventas superficiales. Que el mismo dato de 307 días respalde dos conclusiones opuestas es en sí mismo una limitación de la estadística.</p>
+  <p class="es">Al final, esta estadística funciona menos como herramienta predictiva que como herramienta de diagnóstico. Lo que realmente vale la pena vigilar no es la duración de la banda en sí, sino la dirección de los flujos que ocurren dentro de ella: si se reanudan las entradas netas a los ETF, si la oferta de los tenedores a largo plazo sigue creciendo, y si la media móvil de 200 semanas se mantiene como un nivel de soporte psicológico y técnico respaldado por compras reales. Si surge un catalizador macro —la aprobación de la ley CLARITY, un giro en la política de la Fed—, los 307 días podrían dejar de extenderse a 308 y 309 y terminar abruptamente. Ninguna de las dos direcciones puede afirmarse con confianza desde donde están las cosas ahora.</p>
+  <p class="de">Selbst diese einzelne Zahl von 307 Tagen stützt zwei entgegengesetzte Lesarten. Die optimistische überlappt sich mit der Wiederakkumulationsphase der Langzeithalter (LTH), über die BTCtiming bereits berichtet hat – die lange Seitwärtsphase könnte ein stilles Akkumulationsfenster sein, das neues Angebot aufnimmt und die Grundlage für den nächsten Aufwärtsschub legt. Die pessimistische besagt, dass je länger eine Spanne anhält, desto mehr Marktaufmerksamkeit und frisches Kapital allmählich abfließen, wodurch die Spanne zunehmend anfällig wird, selbst durch geringe Verkäufe nach unten gedrückt zu werden. Dass dieselbe 307-Tage-Tatsache zwei entgegengesetzte Schlussfolgerungen stützt, ist selbst eine Einschränkung der Statistik.</p>
+  <p class="de">Am Ende funktioniert diese Statistik weniger als Vorhersageinstrument denn als Diagnoseinstrument. Was tatsächlich zu beobachten lohnt, ist nicht die Dauer der Spanne selbst, sondern die Richtung der Ströme, die sich darin abspielen – ob sich Netto-Zuflüsse bei ETFs fortsetzen, ob das Angebot der Langzeithalter weiter wächst, und ob der 200-Wochen-gleitende Durchschnitt als psychologisches und technisches Unterstützungsniveau durch echte Käufe verteidigt wird. Sollte ein makroökonomischer Katalysator auftauchen – die Verabschiedung des CLARITY Act, ein Schwenk in der Fed-Politik –, könnten die 307 Tage aufhören, sich auf 308 und 309 auszudehnen, und stattdessen abrupt enden. Keine der beiden Richtungen lässt sich vom aktuellen Stand aus mit Zuversicht vorhersagen.</p>
+  <p class="fr">Même ce seul chiffre de 307 jours soutient deux lectures opposées. La lecture optimiste rejoint la phase de ré-accumulation des détenteurs à long terme (LTH) déjà traitée par BTCtiming — la longue période de latéralisation pourrait être une fenêtre d'accumulation silencieuse absorbant la nouvelle offre et posant les bases de la prochaine phase de hausse. La lecture pessimiste soutient que plus une bande persiste, plus l'attention du marché et les nouveaux flux de capitaux s'épuisent progressivement, rendant la fourchette de plus en plus vulnérable à être poussée vers le bas même par des ventes superficielles. Que le même fait de 307 jours soutienne deux conclusions opposées est en soi une limite de cette statistique.</p>
+  <p class="fr">En fin de compte, cette statistique fonctionne moins comme un outil prédictif que comme un outil diagnostique. Ce qui vaut vraiment la peine d'être surveillé n'est pas la durée de la bande elle-même, mais la direction des flux qui s'y produisent — si les entrées nettes dans les ETF reprennent, si l'offre des détenteurs à long terme continue de croître, et si la moyenne mobile sur 200 semaines se maintient comme niveau de support psychologique et technique soutenu par de véritables achats. Si un catalyseur macroéconomique apparaît — l'adoption du CLARITY Act, un changement dans la politique de la Fed —, les 307 jours pourraient cesser de s'étendre à 308 et 309 et se terminer brusquement à la place. Aucune des deux directions ne peut être affirmée avec confiance en l'état actuel des choses.</p>
+  <p class="pt">Mesmo esse único número de 307 dias sustenta duas leituras opostas. A leitura otimista se sobrepõe à fase de reacumulação dos detentores de longo prazo (LTH) que a BTCtiming já cobriu — o longo trecho lateral pode ser uma janela silenciosa de acumulação, absorvendo nova oferta e lançando as bases para a próxima alta. A leitura pessimista sustenta que, quanto mais uma faixa persiste, mais a atenção do mercado e os fluxos de novo capital gradualmente se esgotam, deixando o intervalo cada vez mais vulnerável a ser empurrado para baixo mesmo por vendas superficiais. O fato de o mesmo dado de 307 dias sustentar duas conclusões opostas é, em si, uma limitação dessa estatística.</p>
+  <p class="pt">No final, essa estatística funciona menos como uma ferramenta preditiva do que como uma ferramenta de diagnóstico. O que realmente vale a pena observar não é a duração da faixa em si, mas a direção dos fluxos que ocorrem dentro dela — se as entradas líquidas em ETFs são retomadas, se a oferta de detentores de longo prazo continua crescendo, e se a média móvel de 200 semanas se sustenta como um nível de suporte psicológico e técnico apoiado por compras reais. Se surgir um catalisador macro — a aprovação do CLARITY Act, uma mudança na política do Fed —, os 307 dias poderiam parar de se estender para 308 e 309 e terminar abruptamente. Nenhuma das duas direções pode ser afirmada com confiança a partir de onde as coisas estão agora.</p>
+  <p class="tr">Bu tek 307 günlük rakam bile iki karşıt yorumu destekliyor. Optimist okuma, BTCtiming'in daha önce ele aldığı uzun vadeli sahiplerin (LTH) yeniden birikim aşamasıyla örtüşüyor — uzun yatay seyir, yeni arzı emen ve bir sonraki yükseliş bacağının temelini atan sessiz bir birikim penceresi olabilir. Pessimist okuma, bir bandın ne kadar uzun sürerse, piyasa ilgisinin ve yeni sermaye girişlerinin o kadar yavaşça tükendiğini ve aralığın küçük satışlarla bile aşağı itilmeye karşı giderek daha güvensiz hale geldiğini öne sürüyor. Aynı 307 günlük gerçeğin iki karşıt sonucu desteklemesi, bu istatistiğin bir sınırlamasıdır.</p>
+  <p class="tr">Sonuçta bu istatistik, öngörü aracından çok bir tanı aracı olarak işlev görüyor. Gerçekten izlenmeye değer olan şey bandın süresinin kendisi değil, içinde gerçekleşen akışların yönüdür — ETF net girişlerinin yeniden başlayıp başlamadığı, uzun vadeli sahip arzının artmaya devam edip etmediği ve 200 haftalık hareketli ortalamanın gerçek alımlarla desteklenen psikolojik ve teknik bir destek seviyesi olarak tutup tutmadığı. Bir makro katalizör ortaya çıkarsa — CLARITY Yasası'nın geçmesi, Fed politikasında bir değişiklik — 307 gün, 308 ve 309'a uzamayı bırakıp aniden sona erebilir. Şu anki duruma göre her iki yön de güvenle söylenemez.</p>
+  <p class="vi">Ngay cả con số 307 ngày này cũng hỗ trợ hai cách hiểu đối lập. Cách hiểu lạc quan trùng với giai đoạn tích lũy lại của những người nắm giữ dài hạn (LTH) mà BTCtiming đã đề cập trước đây — giai đoạn đi ngang kéo dài có thể là một khoảng thời gian tích lũy âm thầm, hấp thụ nguồn cung mới và đặt nền tảng cho đợt tăng tiếp theo. Cách hiểu bi quan cho rằng dải giá càng kéo dài, sự chú ý của thị trường và luồng vốn mới càng dần cạn kiệt, khiến biên độ ngày càng dễ bị đẩy xuống ngay cả bởi lượng bán ra nông. Việc cùng một sự thật 307 ngày lại hỗ trợ hai kết luận đối lập chính là một hạn chế của chỉ số này.</p>
+  <p class="vi">Cuối cùng, chỉ số này hoạt động giống một công cụ chẩn đoán hơn là một công cụ dự đoán. Điều thực sự đáng theo dõi không phải là thời gian của dải giá, mà là hướng đi của các luồng tiền diễn ra bên trong nó — liệu dòng vốn ròng vào ETF có quay lại hay không, liệu nguồn cung của người nắm giữ dài hạn có tiếp tục tăng hay không, và liệu đường trung bình động 200 tuần có được bảo vệ như một mức hỗ trợ tâm lý và kỹ thuật bằng lực mua thực sự hay không. Nếu một chất xúc tác kinh tế vĩ mô xuất hiện — việc thông qua Luật CLARITY, một sự thay đổi trong chính sách của Fed — 307 ngày có thể ngừng kéo dài thành 308 và 309 mà kết thúc đột ngột. Không hướng nào trong hai hướng có thể được khẳng định chắc chắn từ tình hình hiện tại.</p>
+
+  <div class="box ko">💡 BTCtiming 분석: 307일이라는 숫자에서 정말 주목할 부분은 순위 자체가 아니라, 이 통계가 방향성에 대해 아무것도 말해주지 않는다는 사실이다. 표본이 3개뿐인 통계에서 패턴을 읽으려는 유혹을 경계해야 한다 — 이는 정확히 백테스트 과최적화가 경고하는 함정이다. 다음 확인 지점은 ETF 순유입 재개 여부와 200주 이동평균선 방어 여부다.</div>
+  <div class="box en">💡 BTCtiming's take: what's really worth noting in the 307-day figure isn't the ranking itself, but the fact that this statistic says nothing about direction. Be wary of reading a pattern into a sample of three — that's exactly the trap backtest overfitting warns against. The next things to confirm are whether ETF net inflows resume and whether the 200-week moving average holds as support.</div>
+  <div class="box ja">💡 BTCtiming分析:307日という数字で本当に注目すべきは順位そのものではなく、この統計が方向性について何も語っていないという事実だ。標本が3つしかない統計からパターンを読み取ろうとする誘惑には警戒すべきだ — これはまさにバックテスト過最適化が警告する陥穽だ。次の確認点はETF純流入の再開の有無と200週移動平均線の防衛の有無だ。</div>
+  <div class="box es">💡 El análisis de BTCtiming: lo que realmente vale la pena notar en la cifra de 307 días no es la clasificación en sí, sino el hecho de que esta estadística no dice nada sobre la dirección. Hay que tener cuidado de leer un patrón en una muestra de tres — esa es exactamente la trampa contra la que advierte el sobreajuste en backtesting. Lo siguiente por confirmar es si se reanudan las entradas netas de los ETF y si la media móvil de 200 semanas se mantiene como soporte.</div>
+  <div class="box de">💡 Die Einschätzung von BTCtiming: Was an der 307-Tage-Zahl wirklich bemerkenswert ist, ist nicht die Rangfolge selbst, sondern die Tatsache, dass diese Statistik nichts über die Richtung aussagt. Man sollte vorsichtig sein, ein Muster in eine Stichprobe von drei Fällen hineinzulesen – genau das ist die Falle, vor der Backtest-Overfitting warnt. Als Nächstes gilt es zu bestätigen, ob die Netto-Zuflüsse bei ETFs wieder aufnehmen und ob der 200-Wochen-gleitende Durchschnitt als Unterstützung hält.</div>
+  <div class="box fr">💡 L'analyse de BTCtiming : ce qui vaut vraiment la peine d'être noté dans le chiffre de 307 jours n'est pas le classement lui-même, mais le fait que cette statistique ne dit rien sur la direction. Il faut se méfier de vouloir lire un schéma dans un échantillon de trois — c'est exactement le piège contre lequel met en garde le surajustement des backtests. Les prochains points à confirmer sont la reprise des entrées nettes dans les ETF et le maintien de la moyenne mobile sur 200 semaines en tant que support.</div>
+  <div class="box pt">💡 A análise da BTCtiming: o que realmente vale a pena notar no número de 307 dias não é a classificação em si, mas o fato de que essa estatística não diz nada sobre a direção. É preciso ter cautela ao tentar ler um padrão em uma amostra de três — essa é exatamente a armadilha contra a qual o overfitting em backtests alerta. Os próximos pontos a confirmar são se as entradas líquidas em ETFs são retomadas e se a média móvel de 200 semanas se mantém como suporte.</div>
+  <div class="box tr">💡 BTCtiming'in değerlendirmesi: 307 günlük rakamda gerçekten dikkat çekici olan sıralamanın kendisi değil, bu istatistiğin yön hakkında hiçbir şey söylememesidir. Üç örneklik bir örneklemde bir örüntü okumaya çalışmaktan kaçınılmalıdır — bu, geriye dönük test aşırı uyumunun tam olarak uyardığı tuzaktır. Sıradaki doğrulanması gereken noktalar, ETF net girişlerinin yeniden başlayıp başlamayacağı ve 200 haftalık hareketli ortalamanın destek olarak tutup tutmayacağıdır.</div>
+  <div class="box vi">💡 Nhận định của BTCtiming: điều thực sự đáng chú ý trong con số 307 ngày không phải là thứ hạng, mà là việc chỉ số này không nói lên điều gì về hướng đi. Cần cẩn trọng khi cố đọc ra một khuôn mẫu từ một mẫu chỉ có ba trường hợp — đó chính xác là cái bẫy mà hiện tượng overfitting trong kiểm thử lại cảnh báo. Những điều cần xác nhận tiếp theo là liệu dòng vốn ròng vào ETF có quay lại hay không và liệu đường trung bình động 200 tuần có giữ được vai trò hỗ trợ hay không.</div>
+
+  <h2 class="ko">함께 보면 좋은 글</h2>
+  <h2 class="en">Best Combined With</h2>
+  <h2 class="ja">併せて見るべき記事</h2>
+  <h2 class="es">Mejor Combinado Con</h2>
+  <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">À combiner de préférence avec</h2>
+  <h2 class="pt">Melhor combinado com</h2>
+  <h2 class="tr">En İyi Kombinasyon</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/round-number-magnets.php">라운드 넘버 매그넷 — 왜 시장은 반올림된 숫자에 멈추는가</a>:</strong> 6만·7만달러 경계 자체가 왜 특별해 보이는지에 대한 배경</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">백테스트 과최적화의 함정</a>:</strong> 표본 3개짜리 통계에서 패턴을 읽는 것의 위험을 다룬 글</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">장기보유자 물량, 다시 축적 국면으로</a>:</strong> 낙관적 해석의 근거가 되는 온체인 데이터</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/round-number-magnets.php">Round-Number Magnets — Why Markets Stall at Rounded Figures</a>:</strong> Background on why the $60K/$70K boundaries look special in the first place</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">The Backtest Overfitting Trap</a>:</strong> On the risk of reading a pattern into a three-item sample</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Long-Term Holder Supply Returns to Accumulation</a>:</strong> The on-chain data behind the optimistic reading</li>
+  </ul>
+  <ul class="ja">
+    <li><strong><a href="/blog/round-number-magnets.php">ラウンドナンバー・マグネット — 市場が丸められた数字で止まる理由</a>:</strong> 6万・7万ドルの境界がそもそもなぜ特別に見えるのかという背景</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">バックテスト過最適化の罠</a>:</strong> 標本3つの統計からパターンを読むことの危険性を扱った記事</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">長期保有者の物量、再び蓄積局面へ</a>:</strong> 楽観的解釈の根拠となるオンチェーンデータ</li>
+  </ul>
+  <ul class="es">
+    <li><strong><a href="/blog/round-number-magnets.php">Imanes de Números Redondos — Por Qué los Mercados se Detienen en Cifras Redondas</a>:</strong> Contexto sobre por qué los límites de $60K/$70K parecen especiales</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">La Trampa del Sobreajuste en Backtesting</a>:</strong> Sobre el riesgo de leer un patrón en una muestra de tres elementos</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">La Oferta de Tenedores a Largo Plazo Regresa a la Acumulación</a>:</strong> Los datos on-chain detrás de la lectura optimista</li>
+  </ul>
+  <ul class="de">
+    <li><strong><a href="/blog/round-number-magnets.php">Rundzahl-Magnete — Warum Märkte an Gerundeten Zahlen Stocken</a>:</strong> Hintergrund dazu, warum die 60K-/70K-Dollar-Grenzen überhaupt besonders wirken</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">Die Backtest-Overfitting-Falle</a>:</strong> Zum Risiko, ein Muster in eine Stichprobe von drei Fällen hineinzulesen</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Das Angebot der Langzeithalter Kehrt zur Akkumulation Zurück</a>:</strong> Die On-Chain-Daten hinter der optimistischen Lesart</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/round-number-magnets.php">Aimants à Nombres Ronds — Pourquoi les Marchés Bloquent sur des Chiffres Ronds</a> :</strong> Le contexte expliquant pourquoi les limites de 60K/70K$ semblent spéciales</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">Le Piège du Surajustement des Backtests</a> :</strong> Sur le risque de lire un schéma dans un échantillon de trois éléments</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">L'Offre des Détenteurs à Long Terme Revient à l'Accumulation</a> :</strong> Les données on-chain derrière la lecture optimiste</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/round-number-magnets.php">Ímãs de Números Redondos — Por Que os Mercados Travam em Números Arredondados</a>:</strong> Contexto sobre por que os limites de $60K/$70K parecem especiais</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">A Armadilha do Overfitting em Backtests</a>:</strong> Sobre o risco de ler um padrão em uma amostra de três itens</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">A Oferta de Detentores de Longo Prazo Retorna à Acumulação</a>:</strong> Os dados on-chain por trás da leitura otimista</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/round-number-magnets.php">Yuvarlak Sayı Mıknatısları — Piyasalar Neden Yuvarlak Rakamlarda Duraksar</a>:</strong> 60K/70K dolar sınırlarının neden özel göründüğüne dair arka plan</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">Geriye Dönük Test Aşırı Uyum Tuzağı</a>:</strong> Üç öğelik bir örneklemde örüntü okuma riski hakkında</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Uzun Vadeli Sahip Arzı Yeniden Birikime Dönüyor</a>:</strong> Optimist okumanın ardındaki zincir üstü veriler</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/round-number-magnets.php">Nam Châm Số Tròn — Vì Sao Thị Trường Dừng Lại Ở Các Số Tròn</a>:</strong> Bối cảnh vì sao các ngưỡng 60K/70K đô la trông có vẻ đặc biệt</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap.php">Cái Bẫy Overfitting Khi Kiểm Thử Lại</a>:</strong> Về rủi ro đọc ra một khuôn mẫu từ mẫu chỉ có ba trường hợp</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Nguồn Cung Người Nắm Giữ Dài Hạn Quay Lại Tích Lũy</a>:</strong> Dữ liệu on-chain đằng sau cách hiểu lạc quan</li>
+  </ul>
+
+  <p class="ko" style="font-size:.85rem;color:#71717a">출처: 글래스노드(Glassnode), 코인데스크, 팁랭크스(TipRanks), 야후파이낸스, 비트코인시츠(BitcoinSeats), 크립토월드헤드라인(Crypto World Headline). 통계는 2026년 7월 10일 보도 기준이며 이후 갱신될 수 있다. 본 글은 투자 조언이 아니다.</p>
+  <p class="en" style="font-size:.85rem;color:#71717a">Sources: Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Figures are as reported on July 10, 2026, and may be updated as new data emerges. This is not investment advice.</p>
+  <p class="ja" style="font-size:.85rem;color:#71717a">出典:Glassnode、CoinDesk、TipRanks、Yahoo Finance、BitcoinSeats、Crypto World Headline。統計は2026年7月10日の報道時点のものであり、その後更新される可能性がある。本記事は投資助言ではない。</p>
+  <p class="es" style="font-size:.85rem;color:#71717a">Fuentes: Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Las cifras corresponden a lo informado el 10 de julio de 2026 y pueden actualizarse a medida que surjan nuevos datos. Esto no constituye asesoramiento de inversión.</p>
+  <p class="de" style="font-size:.85rem;color:#71717a">Quellen: Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Die Zahlen entsprechen dem Stand der Berichterstattung vom 10. Juli 2026 und können sich mit neuen Daten ändern. Dies ist keine Anlageberatung.</p>
+  <p class="fr" style="font-size:.85rem;color:#71717a">Sources : Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Les chiffres correspondent à ce qui a été rapporté le 10 juillet 2026 et pourront être mis à jour à mesure que de nouvelles données apparaîtront. Ceci ne constitue pas un conseil en investissement.</p>
+  <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Os números correspondem ao que foi divulgado em 10 de julho de 2026 e podem ser atualizados conforme surjam novos dados. Isto não constitui aconselhamento de investimento.</p>
+  <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Rakamlar 10 Temmuz 2026 tarihli haberlere göredir ve yeni veriler ortaya çıktıkça güncellenebilir. Bu, yatırım tavsiyesi değildir.</p>
+  <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: Glassnode, CoinDesk, TipRanks, Yahoo Finance, BitcoinSeats, Crypto World Headline. Số liệu theo báo cáo ngày 10 tháng 7 năm 2026 và có thể được cập nhật khi có dữ liệu mới. Đây không phải là lời khuyên đầu tư.</p>
+<?php require __DIR__.'/_footer.php'; ?>

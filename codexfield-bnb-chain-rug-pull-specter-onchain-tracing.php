@@ -1,0 +1,420 @@
+<?php $slug = 'codexfield-bnb-chain-rug-pull-specter-onchain-tracing'; require __DIR__.'/_header.php'; ?>
+
+  <p class="ko">온체인 분석가 스펙터(Specter)가 7월 9일, BNB 스마트체인·BNB 그린필드 기반 프로젝트 코덱스필드(CodexField)가 최소 100달러 입금 조건으로 8,500만달러 이상을 모금한 뒤, 이 프로젝트와 연결된 지갑들이 1,730만달러 상당의 USDT를 트론에서 이더리움으로 브리징했다고 밝혔다. 크립(Cryip), 크립토뉴스닷넷(Cryptonews.net) 등이 이날 분석을 보도했다. 스펙터에 따르면 이 자금은 이후 폴리곤 네트워크에서 DAI로 전환됐고, 보도 시점 기준 650만달러는 전환이 끝났고 나머지 1,080만달러는 아직 처리 중이었다.</p>
+  <p class="en">On-chain analyst Specter reported on July 9 that CodexField, a project built on BNB Smart Chain and BNB Greenfield with a minimum $100 entry requirement, had taken in more than $85 million in deposits before wallets linked to the project bridged $17.3 million worth of USDT from Tron to Ethereum. Cryip and Cryptonews.net covered the analysis the same day. According to Specter, the funds were then converted into DAI on the Polygon network; as of the report, $6.5 million had completed the conversion while the remaining $10.8 million was still in transit.</p>
+  <p class="ja">オンチェーン分析家スペクター(Specter)は7月9日、BNBスマートチェーンとBNBグリーンフィールド上に構築されたプロジェクト、コーデックスフィールド(CodexField)が最低100ドルの入金条件で8,500万ドル以上を集めた後、同プロジェクトに紐づくウォレットがトロンからイーサリアムへ1,730万ドル相当のUSDTをブリッジしたと明らかにした。Cryip、Cryptonews.netがこの日この分析を報じた。スペクター氏によれば、この資金はその後ポリゴン上でDAIへ転換され、報道時点で650万ドルの転換が完了、残り1,080万ドルは処理中だった。</p>
+  <p class="es">El analista on-chain Specter informó el 9 de julio que CodexField, un proyecto construido sobre BNB Smart Chain y BNB Greenfield con un depósito mínimo de 100 dólares, había recaudado más de 85 millones de dólares antes de que carteras vinculadas al proyecto puentearan 17,3 millones de dólares en USDT desde Tron hacia Ethereum. Cryip y Cryptonews.net cubrieron el análisis ese mismo día. Según Specter, los fondos se convirtieron después en DAI en la red Polygon; al momento del informe, 6,5 millones de dólares ya habían completado la conversión, mientras que los 10,8 millones restantes seguían en tránsito.</p>
+  <p class="de">Der On-Chain-Analyst Specter berichtete am 9. Juli, dass CodexField, ein auf BNB Smart Chain und BNB Greenfield aufbauendes Projekt mit einer Mindesteinzahlung von 100 US-Dollar, mehr als 85 Millionen US-Dollar an Einlagen eingesammelt hatte, bevor mit dem Projekt verknüpfte Wallets 17,3 Millionen US-Dollar in USDT von Tron nach Ethereum brückten. Cryip und Cryptonews.net berichteten am selben Tag über die Analyse. Laut Specter wurden die Gelder anschließend im Polygon-Netzwerk in DAI umgewandelt; zum Zeitpunkt des Berichts waren 6,5 Millionen US-Dollar bereits umgetauscht, während die restlichen 10,8 Millionen US-Dollar noch unterwegs waren.</p>
+  <p class="fr">L'analyste on-chain Specter a rapporté le 9 juillet que CodexField, un projet construit sur BNB Smart Chain et BNB Greenfield avec un dépôt minimum de 100 dollars, avait collecté plus de 85 millions de dollars avant que des portefeuilles liés au projet ne fassent transiter 17,3 millions de dollars en USDT de Tron vers Ethereum via un pont. Cryip et Cryptonews.net ont couvert cette analyse le même jour. Selon Specter, les fonds ont ensuite été convertis en DAI sur le réseau Polygon ; au moment du rapport, 6,5 millions de dollars avaient déjà terminé la conversion, tandis que les 10,8 millions restants étaient encore en transit.</p>
+  <p class="pt">O analista on-chain Specter informou em 9 de julho que a CodexField, um projeto construído sobre a BNB Smart Chain e a BNB Greenfield com depósito mínimo de 100 dólares, havia captado mais de 85 milhões de dólares antes que carteiras ligadas ao projeto fizessem a ponte de 17,3 milhões de dólares em USDT da Tron para a Ethereum. Cryip e Cryptonews.net noticiaram a análise no mesmo dia. Segundo Specter, os fundos foram então convertidos em DAI na rede Polygon; no momento do relatório, 6,5 milhões de dólares já haviam concluído a conversão, enquanto os 10,8 milhões restantes ainda estavam em trânsito.</p>
+  <p class="tr">Zincir üstü analisti Specter, 9 Temmuz'da, BNB Smart Chain ve BNB Greenfield üzerine kurulu, minimum 100 dolarlık giriş şartına sahip CodexField projesinin 85 milyon dolardan fazla mevduat topladığını, ardından projeye bağlı cüzdanların Tron'dan Ethereum'a 17,3 milyon dolar değerinde USDT köprülediğini bildirdi. Cryip ve Cryptonews.net aynı gün bu analizi haberleştirdi. Specter'a göre bu fonlar daha sonra Polygon ağında DAI'ye dönüştürüldü; rapor sırasında 6,5 milyon dolarlık dönüşüm tamamlanmış, kalan 10,8 milyon dolar ise henüz aktarım halindeydi.</p>
+  <p class="vi">Nhà phân tích on-chain Specter báo cáo vào ngày 9 tháng 7 rằng CodexField, một dự án xây dựng trên BNB Smart Chain và BNB Greenfield với yêu cầu nạp tối thiểu 100 đô la, đã thu hút hơn 85 triệu đô la tiền gửi trước khi các ví liên quan đến dự án bắc cầu 17,3 triệu đô la USDT từ Tron sang Ethereum. Cryip và Cryptonews.net đã đưa tin về phân tích này trong cùng ngày. Theo Specter, số tiền này sau đó được chuyển đổi thành DAI trên mạng Polygon; tại thời điểm báo cáo, 6,5 triệu đô la đã hoàn tất chuyển đổi, trong khi 10,8 triệu đô la còn lại vẫn đang trong quá trình xử lý.</p>
+
+  <h2 class="ko">계정명 변경과 서브도메인 폐쇄</h2>
+  <h2 class="en">The Account Rename and the Subdomain Shutdowns</h2>
+  <h2 class="ja">アカウント名変更とサブドメイン閉鎖</h2>
+  <h2 class="es">El cambio de nombre de la cuenta y el cierre de subdominios</h2>
+  <h2 class="de">Die Umbenennung des Accounts und die Abschaltung der Subdomains</h2>
+  <h2 class="fr">Le changement de nom du compte et la fermeture des sous-domaines</h2>
+  <h2 class="pt">A mudança de nome da conta e o desligamento dos subdomínios</h2>
+  <h2 class="tr">Hesap Adı Değişikliği ve Alt Alan Adı Kapatmaları</h2>
+  <h2 class="vi">Việc Đổi Tên Tài Khoản Và Đóng Các Miền Phụ</h2>
+
+  <p class="ko">7월 10일 스펙터의 후속 게시물에 따르면, 코덱스필드의 X(트위터) 계정 핸들이 @CodexField에서 @CodexField_AI로 바뀌었고, 입금용으로 쓰이던 여러 서브도메인이 잇따라 폐쇄됐다. 두 가지 변화가 같은 날 동시에 일어났다는 점이 의심을 키운 지점이다 — 자금 흐름 추적이 공개된 직후 프로젝트의 정체성과 접점 자체가 바뀌었기 때문이다. 다만 7월 10일 기준 코덱스필드, BNB체인, 바이낸스, 자오창펑(CZ) 어느 쪽에서도 공식 입장은 나오지 않았다.</p>
+  <p class="ko">이 조합 — 최소 입금액을 낮게 설정해 소액 투자자를 폭넓게 끌어들이고, 대규모 자금을 모은 뒤 짧은 시간 안에 여러 체인을 넘나들며 자산을 옮기는 패턴 — 은 개별 사실만 놓고 보면 애매하지만, 함께 놓였을 때는 전형적인 이탈 준비 신호로 해석될 여지가 있다. 동시에 이는 정황 증거일 뿐, 스펙터 개인의 온체인 추적 외에 블록체인 포렌식 업체나 사법당국의 독립적 확인은 아직 없다는 점도 분명히 해야 한다.</p>
+  <p class="en">According to Specter's July 10 follow-up post, CodexField's X handle changed from @CodexField to @CodexField_AI, and several subdomains used for deposits were taken offline in quick succession. The fact that both changes happened on the same day the fund-flow trail became public is what sharpened suspicion — the project's identity and public touchpoints shifted immediately after the tracing was disclosed. As of July 10, however, no official statement had come from CodexField, BNB Chain, Binance, or Changpeng Zhao (CZ).</p>
+  <p class="en">Taken individually, the combination — a low minimum deposit designed to attract a wide base of small investors, followed by a large sum raised and then moved across multiple chains in a short window — is ambiguous. Taken together, it fits a pattern often associated with an exit in preparation. At the same time, this remains circumstantial: beyond Specter's own on-chain tracing, there has been no independent confirmation from a blockchain forensics firm or law enforcement.</p>
+  <p class="ja">7月10日のスペクター氏の続報によれば、コーデックスフィールドのXハンドルは@CodexFieldから@CodexField_AIに変更され、入金用に使われていた複数のサブドメインが相次いで閉鎖された。資金移動の追跡が公開された当日に両方の変化が起きたことが、疑念を深めた点だ — プロジェクトのアイデンティティと接点自体が、追跡結果の開示直後に変わったからだ。ただし7月10日時点で、コーデックスフィールド、BNBチェーン、Binance、趙長鵬(CZ)のいずれからも公式声明は出ていない。</p>
+  <p class="ja">個別に見れば、最低入金額を低く設定して小口投資家を幅広く呼び込み、大規模な資金を集めた後に短期間で複数チェーンをまたいで資産を移すという組み合わせは曖昧だ。しかし合わせて見れば、離脱準備によく見られるパターンに当てはまる。同時に、これは状況証拠にすぎず、スペクター氏個人のオンチェーン追跡以外に、ブロックチェーンフォレンジック企業や司法当局による独立した確認はまだないことも明確にしておく必要がある。</p>
+  <p class="es">Según la publicación de seguimiento de Specter del 10 de julio, el usuario de X de CodexField cambió de @CodexField a @CodexField_AI, y varios subdominios usados para depósitos fueron desconectados en rápida sucesión. El hecho de que ambos cambios ocurrieran el mismo día en que se hizo pública la ruta del flujo de fondos es lo que agudizó la sospecha: la identidad del proyecto y sus puntos de contacto públicos cambiaron inmediatamente después de que se divulgara el rastreo. Sin embargo, hasta el 10 de julio no había salido ninguna declaración oficial de CodexField, BNB Chain, Binance ni de Changpeng Zhao (CZ).</p>
+  <p class="es">Tomada de forma aislada, la combinación —un depósito mínimo bajo diseñado para atraer a una amplia base de pequeños inversores, seguido de una gran suma recaudada y luego movida entre varias cadenas en un plazo corto— es ambigua. Tomada en conjunto, se ajusta a un patrón a menudo asociado con la preparación de una salida. Al mismo tiempo, esto sigue siendo circunstancial: más allá del propio rastreo on-chain de Specter, no ha habido confirmación independiente de ninguna firma de forense blockchain ni de las autoridades.</p>
+  <p class="de">Laut Specters Folgebeitrag vom 10. Juli änderte sich CodexFields X-Handle von @CodexField zu @CodexField_AI, und mehrere für Einzahlungen genutzte Subdomains wurden in schneller Folge abgeschaltet. Dass beide Änderungen an demselben Tag geschahen, an dem die Spur der Mittelflüsse öffentlich wurde, verschärfte den Verdacht – die Identität und die öffentlichen Kontaktpunkte des Projekts änderten sich unmittelbar nach der Offenlegung der Nachverfolgung. Zum 10. Juli gab es jedoch keine offizielle Stellungnahme von CodexField, BNB Chain, Binance oder Changpeng Zhao (CZ).</p>
+  <p class="de">Für sich genommen ist die Kombination – eine niedrige Mindesteinzahlung, die eine breite Basis von Kleinanlegern anziehen soll, gefolgt von einer großen eingesammelten Summe, die dann in kurzer Zeit über mehrere Chains bewegt wird – mehrdeutig. Zusammen betrachtet passt sie zu einem Muster, das oft mit einem vorbereiteten Ausstieg in Verbindung gebracht wird. Gleichzeitig bleibt dies ein Indiz: Über Specters eigene On-Chain-Nachverfolgung hinaus gibt es keine unabhängige Bestätigung durch eine Blockchain-Forensikfirma oder Strafverfolgungsbehörden.</p>
+  <p class="fr">Selon la publication de suivi de Specter du 10 juillet, l'identifiant X de CodexField est passé de @CodexField à @CodexField_AI, et plusieurs sous-domaines utilisés pour les dépôts ont été mis hors ligne en succession rapide. Le fait que ces deux changements se soient produits le jour même où la trace des flux de fonds est devenue publique a aiguisé les soupçons — l'identité du projet et ses points de contact publics ont changé immédiatement après la divulgation du traçage. Au 10 juillet, cependant, aucune déclaration officielle n'était venue de CodexField, de BNB Chain, de Binance ou de Changpeng Zhao (CZ).</p>
+  <p class="fr">Pris isolément, cette combinaison — un dépôt minimum bas conçu pour attirer une large base de petits investisseurs, suivi d'une somme importante levée puis déplacée sur plusieurs chaînes en peu de temps — reste ambiguë. Pris ensemble, elle correspond à un schéma souvent associé à une sortie en préparation. Dans le même temps, cela reste circonstanciel : au-delà du traçage on-chain de Specter lui-même, aucune confirmation indépendante n'est venue d'une société de forensique blockchain ou des autorités.</p>
+  <p class="pt">Segundo a publicação de acompanhamento de Specter em 10 de julho, o identificador do X da CodexField mudou de @CodexField para @CodexField_AI, e vários subdomínios usados para depósitos foram desativados em rápida sucessão. O fato de as duas mudanças terem ocorrido no mesmo dia em que o rastro do fluxo de fundos se tornou público é o que aguçou a suspeita — a identidade do projeto e seus pontos de contato públicos mudaram imediatamente após a divulgação do rastreamento. Até 10 de julho, porém, nenhuma declaração oficial havia sido feita pela CodexField, pela BNB Chain, pela Binance ou por Changpeng Zhao (CZ).</p>
+  <p class="pt">Tomada isoladamente, a combinação — um depósito mínimo baixo, projetado para atrair uma base ampla de pequenos investidores, seguido por uma grande soma captada e depois movida entre várias cadeias em um curto espaço de tempo — é ambígua. Tomada em conjunto, ela se encaixa em um padrão frequentemente associado a uma saída em preparação. Ao mesmo tempo, isso continua sendo circunstancial: além do próprio rastreamento on-chain de Specter, não houve confirmação independente de nenhuma empresa de forense em blockchain nem das autoridades.</p>
+  <p class="tr">Specter'ın 10 Temmuz'daki takip gönderisine göre, CodexField'in X kullanıcı adı @CodexField'den @CodexField_AI'a değiştirildi ve para yatırma amacıyla kullanılan birçok alt alan adı art arda çevrimdışı hale getirildi. Her iki değişikliğin de fon akışı izinin kamuya açıklandığı günle aynı gün gerçekleşmesi, şüpheyi artıran nokta oldu — projenin kimliği ve kamuya açık temas noktaları, izleme sonuçları açıklandıktan hemen sonra değişti. Ancak 10 Temmuz itibarıyla CodexField, BNB Chain, Binance ya da Changpeng Zhao'dan (CZ) resmi bir açıklama gelmedi.</p>
+  <p class="tr">Tek başına ele alındığında, düşük bir minimum yatırım tutarıyla geniş bir küçük yatırımcı tabanını çekmeyi hedefleyen ve ardından büyük bir tutarın toplanıp kısa bir sürede birden fazla zincir arasında taşındığı bu kombinasyon belirsizdir. Birlikte ele alındığında ise, genellikle çıkışa hazırlık ile ilişkilendirilen bir örüntüye uyar. Aynı zamanda bunun dolaylı kanıt niteliğinde olduğu da açık: Specter'ın kendi zincir üstü izlemesinin dışında, bir blockchain adli analiz firmasından veya kolluk kuvvetlerinden bağımsız bir doğrulama henüz yok.</p>
+  <p class="vi">Theo bài đăng tiếp theo của Specter vào ngày 10 tháng 7, tên tài khoản X của CodexField đã đổi từ @CodexField thành @CodexField_AI, và một số miền phụ dùng để nạp tiền đã bị ngừng hoạt động liên tiếp. Việc cả hai thay đổi này xảy ra cùng ngày dấu vết dòng tiền được công khai là điều làm gia tăng nghi ngờ — danh tính và các điểm tiếp xúc công khai của dự án đã thay đổi ngay sau khi việc truy vết được công bố. Tuy nhiên, tính đến ngày 10 tháng 7, không có tuyên bố chính thức nào từ CodexField, BNB Chain, Binance hay Changpeng Zhao (CZ).</p>
+  <p class="vi">Nếu xét riêng lẻ, sự kết hợp này — mức nạp tối thiểu thấp được thiết kế để thu hút một lượng lớn nhà đầu tư nhỏ, sau đó là một khoản tiền lớn được huy động rồi di chuyển qua nhiều chuỗi trong thời gian ngắn — là mơ hồ. Nhưng khi xét chung, nó phù hợp với một khuôn mẫu thường gắn với việc chuẩn bị rút lui. Đồng thời, đây vẫn chỉ là chứng cứ gián tiếp: ngoài việc truy vết on-chain của riêng Specter, chưa có xác nhận độc lập nào từ một công ty giám định blockchain hay cơ quan thực thi pháp luật.</p>
+
+  <div class="ko">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">코덱스필드 자금 흐름 (스펙터 온체인 추적, 2026-07-09~10)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">BNB체인 프로젝트 → 트론 → 이더리움 → 폴리곤 경유 자산 전환</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">누적 예치금</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">트론→이더리움 브리징</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">DAI 전환 완료</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">전환 진행 중</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">7/10: X 계정 @CodexField → @CodexField_AI 변경, 입금 서브도메인 다수 폐쇄</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">7/10 기준 코덱스필드·BNB체인·바이낸스·CZ 공식 입장 없음 (출처: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="en">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">CodexField Fund Flow (Specter's On-Chain Tracing, Jul 9-10, 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">BNB Chain project → Tron → Ethereum → Polygon asset conversion</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Total deposits</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Tron→Ethereum bridge</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Converted to DAI</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Still in transit</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">Jul 10: X handle @CodexField → @CodexField_AI, multiple deposit subdomains taken down</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">As of Jul 10, no official statement from CodexField, BNB Chain, Binance, or CZ (Source: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="ja">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">コーデックスフィールド資金の流れ(スペクター氏のオンチェーン追跡、2026年7月9〜10日)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">BNBチェーンプロジェクト → トロン → イーサリアム → ポリゴン経由の資産転換</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">累積預金</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">トロン→イーサリアム ブリッジ</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">DAI転換完了</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">転換処理中</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">7/10: Xアカウント @CodexField → @CodexField_AI に変更、入金用サブドメイン多数が閉鎖</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">7/10時点でコーデックスフィールド・BNBチェーン・Binance・CZの公式声明なし (出典: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="es">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Flujo de fondos de CodexField (rastreo on-chain de Specter, 9-10 jul. 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Proyecto en BNB Chain → Tron → Ethereum → conversión de activos en Polygon</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Depósitos totales</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Puente Tron→Ethereum</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Convertido a DAI</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Aún en tránsito</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">10 jul.: usuario X @CodexField → @CodexField_AI, varios subdominios de depósito cerrados</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">Al 10 jul., sin declaración oficial de CodexField, BNB Chain, Binance o CZ (Fuente: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="de">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">CodexField-Geldfluss (On-Chain-Nachverfolgung von Specter, 9.-10. Juli 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">BNB-Chain-Projekt → Tron → Ethereum → Vermögensumwandlung auf Polygon</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Gesamteinlagen</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Tron→Ethereum-Brücke</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Zu DAI umgewandelt</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Noch unterwegs</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">10.7.: X-Handle @CodexField → @CodexField_AI, mehrere Einzahlungs-Subdomains abgeschaltet</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">Stand 10.7. keine offizielle Stellungnahme von CodexField, BNB Chain, Binance oder CZ (Quelle: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Flux de fonds de CodexField (traçage on-chain de Specter, 9-10 juillet 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Projet BNB Chain → Tron → Ethereum → conversion d'actifs sur Polygon</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Dépôts totaux</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Pont Tron→Ethereum</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Converti en DAI</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Encore en transit</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">10/07 : identifiant X @CodexField → @CodexField_AI, plusieurs sous-domaines de dépôt fermés</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">Au 10/07, aucune déclaration officielle de CodexField, BNB Chain, Binance ou CZ (Source : Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Fluxo de fundos da CodexField (rastreamento on-chain de Specter, 9-10 jul. 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Projeto na BNB Chain → Tron → Ethereum → conversão de ativos na Polygon</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Depósitos totais</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Ponte Tron→Ethereum</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Convertido em DAI</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Ainda em trânsito</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">10/07: usuário X @CodexField → @CodexField_AI, vários subdomínios de depósito desativados</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">Em 10/07, sem declaração oficial da CodexField, BNB Chain, Binance ou CZ (Fonte: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">CodexField Para Akışı (Specter'ın Zincir Üstü İzlemesi, 9-10 Temmuz 2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">BNB Chain projesi → Tron → Ethereum → Polygon üzerinden varlık dönüşümü</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Toplam mevduat</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Tron→Ethereum köprüsü</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">DAI'ye dönüştürüldü</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Halen aktarımda</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">10/07: X kullanıcı adı @CodexField → @CodexField_AI, birçok yatırma alt alan adı kapatıldı</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">10/07 itibarıyla CodexField, BNB Chain, Binance veya CZ'den resmi açıklama yok (Kaynak: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Dòng Tiền CodexField (Truy Vết On-Chain Của Specter, 9-10/7/2026)</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Dự án BNB Chain → Tron → Ethereum → chuyển đổi tài sản qua Polygon</text>
+    <g font-family="sans-serif">
+      <rect x="20" y="80" width="200" height="60" rx="8" fill="#ef4444"/>
+      <text x="120" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Tổng tiền gửi</text>
+      <text x="120" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$85M+</text>
+      <path d="M220,110 L300,110" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="300" y="80" width="200" height="60" rx="8" fill="#f97316"/>
+      <text x="400" y="105" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Cầu Tron→Ethereum</text>
+      <text x="400" y="128" fill="#fafafa" font-size="20" font-weight="800" text-anchor="middle">$17.3M USDT</text>
+      <path d="M400,140 L400,190" stroke="#71717a" stroke-width="2" marker-end="url(#arrow1)"/>
+      <rect x="240" y="200" width="160" height="60" rx="8" fill="#38bdf8"/>
+      <text x="320" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Đã chuyển sang DAI</text>
+      <text x="320" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$6.5M</text>
+      <rect x="420" y="200" width="160" height="60" rx="8" fill="#a1a1aa"/>
+      <text x="500" y="225" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">Vẫn đang xử lý</text>
+      <text x="500" y="248" fill="#111113" font-size="20" font-weight="800" text-anchor="middle">$10.8M</text>
+      <text x="20" y="310" fill="#a1a1aa" font-size="13">10/7: tên tài khoản X @CodexField → @CodexField_AI, nhiều miền phụ nạp tiền bị đóng</text>
+      <text x="20" y="335" fill="#a1a1aa" font-size="13">Tính đến 10/7, không có tuyên bố chính thức từ CodexField, BNB Chain, Binance hay CZ (Nguồn: Specter, Cryip)</text>
+    </g>
+    <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#71717a"/></marker></defs>
+  </svg>
+  </div>
+
+  <h2 class="ko">체인 호핑이 자금 추적을 흐리는 방식</h2>
+  <h2 class="en">How Chain-Hopping Blurs a Fund Trail</h2>
+  <h2 class="ja">チェーンホッピングが資金追跡をぼかす仕組み</h2>
+  <h2 class="es">Cómo el salto entre cadenas difumina el rastro de los fondos</h2>
+  <h2 class="de">Wie Chain-Hopping eine Geldspur verwischt</h2>
+  <h2 class="fr">Comment le saut de chaînes brouille une trace de fonds</h2>
+  <h2 class="pt">Como o salto entre cadeias turva o rastro dos fundos</h2>
+  <h2 class="tr">Zincir Atlama Bir Fon İzini Nasıl Belirsizleştirir</h2>
+  <h2 class="vi">Việc Nhảy Chuỗi Làm Mờ Dấu Vết Dòng Tiền Như Thế Nào</h2>
+
+  <p class="ko">단일 체인 안에서는 자금 이동을 지갑 주소 단위로 끝까지 추적할 수 있다. 문제는 브리지를 거쳐 체인을 넘는 순간이다. 트론에서 이더리움으로 넘어가는 브리지는 원본 자산을 그대로 옮기는 게 아니라, 원본을 보관(락)하고 목적지 체인에서 대응하는 토큰을 새로 발행(민팅)하는 방식이 많다. 이 과정에서 추적자는 "브리지 스마트컨트랙트에 얼마가 들어갔고 나갔는가"까지는 볼 수 있지만, 그 안에서 여러 이용자의 자금이 뒤섞이면 개별 입금과 출금을 1:1로 대응시키기 어려워진다. 여기에 USDT를 DAI로 바꾸는 스와프까지 더해지면, 토큰 종류 자체가 바뀌면서 체인 탐색기에서의 검색 키워드(토큰 심볼)마저 끊긴다.</p>
+  <p class="ko">즉 스펙터의 추적이 가치 있는 이유는, 이런 각 단계의 마찰에도 불구하고 시점과 금액의 패턴 매칭으로 자금의 경로를 재구성해냈다는 데 있다. 반대로 이 사건이 시사하는 더 큰 문제는, 이런 재구성 작업이 매번 숙련된 개인 분석가의 자발적 조사에 의존하고 있다는 점이다. 트론·이더리움·폴리곤을 넘나드는 이 정도 규모의 자금이 공식 감시 체계 없이 한 명의 X 계정 게시물로만 세상에 알려졌다는 사실 자체가, 다중 체인 생태계의 구조적 사각지대를 보여준다.</p>
+  <p class="en">Within a single chain, a fund's movement can be traced wallet by wallet to the end. The trouble starts the moment it crosses a bridge. A Tron-to-Ethereum bridge typically doesn't move the original asset directly — it locks the original and mints a corresponding token on the destination chain. A tracer can see how much went into and out of the bridge contract, but once multiple users' funds are pooled inside it, matching individual deposits to individual withdrawals one-to-one becomes difficult. Add a swap from USDT to DAI on top, and even the token symbol used to search a chain explorer changes, breaking the trail a step further.</p>
+  <p class="en">What makes Specter's tracing valuable is that, despite this friction at every step, it reconstructed the route by matching timing and amounts. The larger issue this case points to is that this kind of reconstruction depends, every time, on a skilled individual analyst's voluntary investigation. That a sum of this size moving across Tron, Ethereum, and Polygon became public knowledge only through one analyst's posts on X — with no official monitoring framework flagging it first — is itself evidence of a structural blind spot in the multi-chain ecosystem.</p>
+  <p class="ja">単一チェーン内であれば、資金の移動はウォレット単位で最後まで追跡できる。問題はブリッジを経てチェーンを跨ぐ瞬間だ。トロンからイーサリアムへのブリッジは、原資産をそのまま移すのではなく、原資産をロックし目的地チェーンで対応するトークンを新規発行(ミント)する方式が多い。この過程で追跡者は「ブリッジのスマートコントラクトにいくら入っていくら出たか」までは見えるが、その中で複数利用者の資金が混ざると、個別の入金と出金を1対1で対応させるのが難しくなる。さらにUSDTをDAIに換えるスワップが加わると、トークンの種類自体が変わり、チェーンエクスプローラーでの検索キーワード(トークンシンボル)まで途切れる。</p>
+  <p class="ja">つまりスペクター氏の追跡が価値を持つのは、こうした各段階の摩擦にもかかわらず、時点と金額のパターンマッチングで資金の経路を再構成した点にある。逆にこの事件が示すより大きな問題は、こうした再構成作業が毎回、熟練した個人分析家の自発的調査に依存していることだ。トロン・イーサリアム・ポリゴンを跨ぐこの規模の資金が、公的な監視体制なしに一人のXアカウントの投稿だけで世に知られたという事実自体が、マルチチェーン生態系の構造的な死角を示している。</p>
+  <p class="es">Dentro de una sola cadena, el movimiento de fondos puede rastrearse billetera por billetera hasta el final. El problema comienza en el momento en que cruza un puente. Un puente de Tron a Ethereum normalmente no mueve el activo original directamente: bloquea el original y acuña un token correspondiente en la cadena de destino. Un rastreador puede ver cuánto entró y salió del contrato del puente, pero una vez que los fondos de varios usuarios se mezclan dentro de él, hacer coincidir depósitos individuales con retiros individuales uno a uno se vuelve difícil. Si a esto se añade un swap de USDT a DAI, incluso el símbolo del token usado para buscar en un explorador de cadena cambia, rompiendo el rastro un paso más.</p>
+  <p class="es">Lo que hace valioso el rastreo de Specter es que, a pesar de esta fricción en cada paso, reconstruyó la ruta cotejando el momento y los montos. El problema más amplio que señala este caso es que este tipo de reconstrucción depende, cada vez, de la investigación voluntaria de un analista individual capacitado. Que una suma de este tamaño, moviéndose entre Tron, Ethereum y Polygon, se hiciera pública solo a través de las publicaciones de un analista en X —sin que ningún marco de monitoreo oficial lo señalara primero— es en sí misma evidencia de un punto ciego estructural en el ecosistema multicadena.</p>
+  <p class="de">Innerhalb einer einzelnen Chain lässt sich die Bewegung von Geldern Wallet für Wallet bis zum Ende nachverfolgen. Das Problem beginnt in dem Moment, in dem sie eine Brücke überquert. Eine Tron-zu-Ethereum-Brücke bewegt in der Regel nicht das Originalvermögen direkt – sie sperrt das Original und prägt ein entsprechendes Token auf der Zielchain. Ein Verfolger kann sehen, wie viel in den Brückenvertrag hinein- und herausfloss, aber sobald die Gelder mehrerer Nutzer darin gepoolt sind, wird es schwierig, einzelne Einzahlungen einzelnen Abhebungen eins zu eins zuzuordnen. Kommt noch ein Swap von USDT zu DAI hinzu, ändert sich sogar das Token-Symbol, mit dem in einem Chain-Explorer gesucht wird, was die Spur einen weiteren Schritt zerstört.</p>
+  <p class="de">Was Specters Nachverfolgung wertvoll macht, ist, dass sie trotz dieser Reibung auf jeder Stufe die Route durch Abgleich von Zeitpunkt und Beträgen rekonstruierte. Das größere Problem, auf das dieser Fall hinweist, ist, dass diese Art der Rekonstruktion jedes Mal von der freiwilligen Untersuchung eines geschickten einzelnen Analysten abhängt. Dass eine Summe dieser Größenordnung, die sich über Tron, Ethereum und Polygon bewegt, nur durch die Beiträge eines Analysten auf X öffentlich bekannt wurde – ohne dass ein offizielles Überwachungssystem sie zuerst markierte – ist selbst ein Beleg für einen strukturellen blinden Fleck im Multi-Chain-Ökosystem.</p>
+  <p class="fr">Au sein d'une seule chaîne, le mouvement des fonds peut être retracé portefeuille par portefeuille jusqu'au bout. Le problème commence au moment où il traverse un pont. Un pont Tron-vers-Ethereum ne déplace généralement pas l'actif original directement — il verrouille l'original et frappe un jeton correspondant sur la chaîne de destination. Un traqueur peut voir combien est entré et sorti du contrat du pont, mais une fois que les fonds de plusieurs utilisateurs y sont regroupés, faire correspondre les dépôts individuels aux retraits individuels un pour un devient difficile. Ajoutez à cela un échange d'USDT vers DAI, et même le symbole du jeton utilisé pour effectuer une recherche dans un explorateur de chaîne change, brisant la trace un peu plus.</p>
+  <p class="fr">Ce qui rend le traçage de Specter précieux, c'est que, malgré ces frictions à chaque étape, il a reconstitué l'itinéraire en faisant correspondre le moment et les montants. Le problème plus large que ce cas soulève est que ce type de reconstruction dépend, chaque fois, de l'enquête volontaire d'un analyste individuel compétent. Le fait qu'une somme de cette ampleur, se déplaçant entre Tron, Ethereum et Polygon, ne soit devenue publique que grâce aux publications d'un seul analyste sur X — sans qu'aucun cadre de surveillance officiel ne l'ait signalée en premier — est en soi la preuve d'un angle mort structurel dans l'écosystème multi-chaînes.</p>
+  <p class="pt">Dentro de uma única cadeia, a movimentação de fundos pode ser rastreada carteira por carteira até o fim. O problema começa no momento em que ela atravessa uma ponte. Uma ponte Tron-para-Ethereum geralmente não move o ativo original diretamente — ela trava o original e emite um token correspondente na cadeia de destino. Um rastreador pode ver quanto entrou e saiu do contrato da ponte, mas, uma vez que os fundos de vários usuários se misturam dentro dele, tornar-se difícil casar depósitos individuais com retiradas individuais de forma exata. Some-se a isso uma troca de USDT para DAI, e até o símbolo do token usado para pesquisar em um explorador de blockchain muda, quebrando o rastro ainda mais.</p>
+  <p class="pt">O que torna o rastreamento de Specter valioso é que, apesar desse atrito em cada etapa, ele reconstruiu a rota combinando tempo e valores. A questão maior que este caso aponta é que esse tipo de reconstrução depende, sempre, da investigação voluntária de um analista individual habilidoso. O fato de uma soma desse porte, movendo-se entre Tron, Ethereum e Polygon, ter se tornado pública apenas por meio das publicações de um analista no X — sem que nenhum sistema oficial de monitoramento a sinalizasse primeiro — é, em si, evidência de um ponto cego estrutural no ecossistema multi-chain.</p>
+  <p class="tr">Tek bir zincir içinde, para hareketi cüzdan bazında sonuna kadar izlenebilir. Sorun, bir köprüyü geçtiği anda başlar. Tron'dan Ethereum'a bir köprü genellikle orijinal varlığı doğrudan taşımaz — orijinali kilitler ve hedef zincirde karşılık gelen bir token basar (mint eder). Bir izleyici köprü sözleşmesine ne kadar girip çıktığını görebilir, ancak birden fazla kullanıcının fonları içeride birleştiğinde, bireysel yatırmaları bireysel çekimlerle bire bir eşleştirmek zorlaşır. Buna USDT'den DAI'ye bir takas eklendiğinde, bir zincir gezgininde arama yapmak için kullanılan token sembolü bile değişir ve iz bir adım daha kopar.</p>
+  <p class="tr">Specter'ın izlemesini değerli kılan şey, her adımdaki bu sürtünmeye rağmen, zamanlama ve tutarları eşleştirerek rotayı yeniden inşa etmiş olmasıdır. Bu vakanın işaret ettiği daha büyük sorun, bu tür bir yeniden inşanın her seferinde yetenekli bir bireysel analistin gönüllü araştırmasına bağlı olmasıdır. Tron, Ethereum ve Polygon arasında hareket eden bu büyüklükte bir tutarın, resmi bir izleme çerçevesi önce fark etmeden, yalnızca bir analistin X'teki gönderileri aracılığıyla kamuoyuna duyurulmuş olması, çok zincirli ekosistemdeki yapısal bir kör noktanın kanıtıdır.</p>
+  <p class="vi">Trong một chuỗi duy nhất, sự di chuyển của tiền có thể được truy vết theo từng ví đến cùng. Vấn đề bắt đầu ngay khi nó vượt qua một cầu nối. Một cầu nối Tron sang Ethereum thường không di chuyển trực tiếp tài sản gốc — nó khóa tài sản gốc và tạo ra (mint) một token tương ứng trên chuỗi đích. Người truy vết có thể thấy bao nhiêu tiền đã vào và ra khỏi hợp đồng cầu nối, nhưng khi tiền của nhiều người dùng được gộp lại bên trong, việc khớp từng khoản nạp với từng khoản rút theo tỷ lệ một-một trở nên khó khăn. Thêm vào đó một giao dịch hoán đổi từ USDT sang DAI, thì ngay cả ký hiệu token dùng để tìm kiếm trên trình khám phá chuỗi cũng thay đổi, làm đứt dấu vết thêm một bước nữa.</p>
+  <p class="vi">Điều làm cho việc truy vết của Specter có giá trị là, dù có ma sát ở mỗi bước như vậy, ông đã tái tạo lại lộ trình bằng cách khớp thời điểm và số tiền. Vấn đề lớn hơn mà vụ việc này chỉ ra là loại tái tạo này luôn phụ thuộc vào cuộc điều tra tự nguyện của một nhà phân tích cá nhân có kỹ năng. Việc một số tiền lớn như vậy di chuyển qua Tron, Ethereum và Polygon chỉ được công khai thông qua các bài đăng của một nhà phân tích trên X — mà không có bất kỳ khung giám sát chính thức nào phát hiện trước — chính là bằng chứng cho một điểm mù mang tính cấu trúc trong hệ sinh thái đa chuỗi.</p>
+
+  <h2 class="ko">BSC 러그풀의 역사, 그리고 규모의 차이</h2>
+  <h2 class="en">BSC's Rug-Pull History, and a Difference in Scale</h2>
+  <h2 class="ja">BSCラグプルの歴史、そして規模の違い</h2>
+  <h2 class="es">La historia de rug pulls en BSC, y una diferencia de escala</h2>
+  <h2 class="de">Die Geschichte der Rug Pulls auf BSC, und ein Unterschied in der Größenordnung</h2>
+  <h2 class="fr">L'historique des rug pulls sur BSC, et une différence d'échelle</h2>
+  <h2 class="pt">O histórico de rug pulls na BSC, e uma diferença de escala</h2>
+  <h2 class="tr">BSC'nin Rug Pull Geçmişi ve Ölçek Farkı</h2>
+  <h2 class="vi">Lịch Sử Rug Pull Trên BSC, Và Sự Khác Biệt Về Quy Mô</h2>
+
+  <p class="ko">바이낸스 스마트체인(현 BNB체인)은 2021년 한 해 동안 낮은 수수료와 느슨한 상장 심사가 결합돼 "러그풀 공장"이라는 별칭을 얻을 정도로 많은 이탈 사건을 낳았다. 당시 스퀴드게임 테마 토큰이 하루 만에 가치가 거의 0으로 떨어진 사례나, 아누비스다오(AnubisDAO)가 유동성 조달 하루 만에 이더(당시 시세로 약 6,000만달러 상당)를 잃은 사례가 대표적이다. 다만 이런 초기 사례들은 대부분 수백만달러에서 1,000만달러대 규모였고, 자금 이동도 단일 체인 안에서 끝나는 경우가 많았다.</p>
+  <p class="ko">이번 코덱스필드 의혹이 사실로 확인된다면, 규모(8,500만달러 이상)와 세탁 경로의 복잡성(3개 체인, 2종류의 스테이블코인 전환)이라는 두 축에서 과거 BSC 러그풀 사례들과 질적으로 다른 층위에 놓인다. 최소 입금액을 100달러로 낮게 설정한 점도 시사하는 바가 있다 — 한 명의 대형 투자자가 아니라 다수의 소액 투자자로부터 자금을 분산시켜 모으는 방식은, 개별 피해 규모를 작게 보이게 해 초기 경보를 늦추는 효과를 낼 수 있다.</p>
+  <p class="en">In 2021, Binance Smart Chain (now BNB Chain) earned the nickname "rug pull factory" as low fees and loose listing screening combined to produce a wave of exit scams. The Squid Game-themed token that lost nearly all its value within a day, and AnubisDAO, which lost roughly $60 million worth of ether (at the time) within 24 hours of its liquidity raise, are the best-known examples. Most of those earlier cases, though, were in the single digits to low tens of millions of dollars, and the fund movement typically stayed within a single chain.</p>
+  <p class="en">If the CodexField allegations are confirmed, the case sits on a qualitatively different level from those past BSC rug pulls on two axes: scale (over $85 million) and the complexity of the laundering route (three chains, two stablecoin conversions). The low $100 minimum deposit is also telling — spreading collection across many small depositors rather than concentrating it in a few large investors can make individual losses look small enough to delay an early warning.</p>
+  <p class="ja">2021年、バイナンス・スマートチェーン(現BNBチェーン)は低い手数料と緩い上場審査が組み合わさり、「ラグプル工場」という異名を得るほど多くの離脱事件を生んだ。当時スクイッド・ゲームをテーマにしたトークンが一日でほぼ価値がゼロになった例や、アヌビスダオ(AnubisDAO)が流動性調達からわずか24時間でイーサ(当時のレートで約6,000万ドル相当)を失った例が代表的だ。ただしこうした初期の事例の多くは数百万ドルから1,000万ドル台の規模で、資金移動も単一チェーン内で終わる場合が多かった。</p>
+  <p class="ja">今回のコーデックスフィールド疑惑が事実であると確認されれば、規模(8,500万ドル以上)と洗浄経路の複雑さ(3つのチェーン、2種類のステーブルコイン転換)という二つの軸で、過去のBSCラグプル事例とは質的に異なる層に位置する。最低入金額を100ドルと低く設定した点も示唆的だ — 一人の大口投資家ではなく多数の小口投資家から資金を分散して集める方式は、個々の被害規模を小さく見せ、早期警戒を遅らせる効果を持ちうる。</p>
+  <p class="es">En 2021, Binance Smart Chain (ahora BNB Chain) se ganó el apodo de "fábrica de rug pulls" cuando comisiones bajas y una revisión laxa de los listados se combinaron para producir una ola de estafas de salida. El token temático de Squid Game, que perdió casi todo su valor en un día, y AnubisDAO, que perdió unos 60 millones de dólares en ether (al valor de entonces) dentro de las 24 horas de su recaudación de liquidez, son los ejemplos más conocidos. Sin embargo, la mayoría de esos casos anteriores estaban en el rango de un solo dígito a decenas de millones de dólares, y el movimiento de fondos normalmente se quedaba dentro de una sola cadena.</p>
+  <p class="es">Si las acusaciones contra CodexField se confirman, el caso se sitúa en un nivel cualitativamente distinto de esos anteriores rug pulls de BSC en dos ejes: la escala (más de 85 millones de dólares) y la complejidad de la ruta de lavado (tres cadenas, dos conversiones de stablecoins). El depósito mínimo bajo, de 100 dólares, también es revelador: distribuir la recaudación entre muchos pequeños depositantes en lugar de concentrarla en pocos inversores grandes puede hacer que las pérdidas individuales parezcan lo bastante pequeñas como para retrasar una alerta temprana.</p>
+  <p class="de">2021 erhielt die Binance Smart Chain (heute BNB Chain) den Spitznamen „Rug-Pull-Fabrik", da niedrige Gebühren und laxe Listing-Prüfungen zusammen eine Welle von Exit-Scams hervorbrachten. Das Squid-Game-Themen-Token, das innerhalb eines Tages fast seinen gesamten Wert verlor, und AnubisDAO, das innerhalb von 24 Stunden nach seinem Liquiditäts-Raise rund 60 Millionen US-Dollar in Ether (zum damaligen Wert) verlor, sind die bekanntesten Beispiele. Die meisten dieser früheren Fälle bewegten sich jedoch im einstelligen bis niedrigen zweistelligen Millionenbereich, und die Geldbewegung blieb in der Regel innerhalb einer einzigen Chain.</p>
+  <p class="de">Sollten sich die Vorwürfe gegen CodexField bestätigen, liegt der Fall auf einer qualitativ anderen Ebene als jene früheren BSC-Rug-Pulls, und zwar auf zwei Achsen: Größenordnung (über 85 Millionen US-Dollar) und die Komplexität des Geldwäschewegs (drei Chains, zwei Stablecoin-Umwandlungen). Die niedrige Mindesteinzahlung von 100 US-Dollar ist ebenfalls aufschlussreich – das Einsammeln über viele Kleinanleger statt die Konzentration auf wenige Großanleger kann einzelne Verluste klein genug wirken lassen, um eine frühe Warnung zu verzögern.</p>
+  <p class="fr">En 2021, la Binance Smart Chain (aujourd'hui BNB Chain) a gagné le surnom d'« usine à rug pulls » lorsque des frais bas et un contrôle laxiste des inscriptions se sont combinés pour produire une vague d'arnaques à la sortie. Le jeton à thème Squid Game, qui a perdu presque toute sa valeur en une journée, et AnubisDAO, qui a perdu environ 60 millions de dollars en ether (à la valeur de l'époque) dans les 24 heures suivant sa levée de liquidité, en sont les exemples les plus connus. La plupart de ces cas antérieurs se situaient toutefois dans une fourchette allant d'un chiffre à quelques dizaines de millions de dollars, et le mouvement des fonds restait généralement au sein d'une seule chaîne.</p>
+  <p class="fr">Si les accusations contre CodexField sont confirmées, l'affaire se situe à un niveau qualitativement différent de ces précédents rug pulls sur BSC, sur deux axes : l'échelle (plus de 85 millions de dollars) et la complexité de l'itinéraire de blanchiment (trois chaînes, deux conversions de stablecoins). Le faible dépôt minimum de 100 dollars est également révélateur — répartir la collecte entre de nombreux petits déposants plutôt que la concentrer sur quelques gros investisseurs peut faire paraître les pertes individuelles suffisamment petites pour retarder une alerte précoce.</p>
+  <p class="pt">Em 2021, a Binance Smart Chain (agora BNB Chain) ganhou o apelido de "fábrica de rug pulls" quando taxas baixas e uma triagem de listagem frouxa se combinaram para produzir uma onda de golpes de saída. O token temático de Squid Game, que perdeu quase todo o seu valor em um dia, e a AnubisDAO, que perdeu cerca de 60 milhões de dólares em ether (no valor da época) dentro de 24 horas após sua captação de liquidez, são os exemplos mais conhecidos. A maioria desses casos anteriores, porém, ficava na faixa de um dígito a dezenas de milhões de dólares, e a movimentação de fundos geralmente permanecia dentro de uma única cadeia.</p>
+  <p class="pt">Se as alegações contra a CodexField forem confirmadas, o caso se situa em um nível qualitativamente diferente daqueles rug pulls anteriores da BSC, em dois eixos: escala (mais de 85 milhões de dólares) e complexidade da rota de lavagem (três cadeias, duas conversões de stablecoins). O depósito mínimo baixo de 100 dólares também é revelador — distribuir a captação entre muitos pequenos depositantes, em vez de concentrá-la em poucos grandes investidores, pode fazer com que as perdas individuais pareçam pequenas o suficiente para retardar um alerta precoce.</p>
+  <p class="tr">2021'de, Binance Smart Chain (şimdi BNB Chain) düşük ücretler ve gevşek listeleme denetiminin birleşmesiyle bir dizi çıkış dolandırıcılığı üretince "rug pull fabrikası" lakabını kazandı. Bir günde değerinin neredeyse tamamını kaybeden Squid Game temalı token ve likidite toplamasından 24 saat içinde (o zamanki değerle) yaklaşık 60 milyon dolarlık ether kaybeden AnubisDAO, en bilinen örneklerdir. Ancak bu önceki vakaların çoğu tek hanelerden düşük on milyonlarca dolara kadar bir aralıktaydı ve para hareketi genellikle tek bir zincir içinde kalıyordu.</p>
+  <p class="tr">CodexField iddiaları doğrulanırsa, vaka iki eksende geçmişteki bu BSC rug pull'larından niteliksel olarak farklı bir seviyede yer alır: ölçek (85 milyon dolardan fazla) ve kara para aklama rotasının karmaşıklığı (üç zincir, iki stabilcoin dönüşümü). 100 dolarlık düşük minimum yatırım tutarı da anlamlıdır — toplamayı az sayıda büyük yatırımcıda yoğunlaştırmak yerine çok sayıda küçük yatırımcıya yaymak, bireysel kayıpları erken bir uyarıyı geciktirecek kadar küçük gösterebilir.</p>
+  <p class="vi">Vào năm 2021, Binance Smart Chain (nay là BNB Chain) đã có biệt danh "nhà máy rug pull" khi phí thấp và việc sàng lọc niêm yết lỏng lẻo kết hợp tạo ra một loạt vụ lừa đảo rút chạy. Token theo chủ đề Squid Game mất gần hết giá trị trong một ngày, và AnubisDAO, mất khoảng 60 triệu đô la ether (theo giá trị thời điểm đó) trong vòng 24 giờ sau khi huy động thanh khoản, là những ví dụ nổi tiếng nhất. Tuy nhiên, hầu hết các vụ trước đó chỉ ở mức một chữ số đến vài chục triệu đô la, và việc di chuyển tiền thường chỉ nằm trong một chuỗi duy nhất.</p>
+  <p class="vi">Nếu các cáo buộc đối với CodexField được xác nhận, vụ việc này ở một cấp độ khác về chất so với các vụ rug pull trên BSC trước đây theo hai trục: quy mô (hơn 85 triệu đô la) và độ phức tạp của lộ trình rửa tiền (ba chuỗi, hai lần chuyển đổi stablecoin). Mức nạp tối thiểu thấp 100 đô la cũng đáng chú ý — việc phân tán việc thu tiền qua nhiều người gửi nhỏ thay vì tập trung vào một vài nhà đầu tư lớn có thể làm cho các khoản lỗ cá nhân trông nhỏ đến mức làm chậm một cảnh báo sớm.</p>
+
+  <h2 class="ko">아직 확인되지 않은 것들</h2>
+  <h2 class="en">What Remains Unconfirmed</h2>
+  <h2 class="ja">まだ確認されていないこと</h2>
+  <h2 class="es">Lo que sigue sin confirmarse</h2>
+  <h2 class="de">Was noch unbestätigt bleibt</h2>
+  <h2 class="fr">Ce qui reste non confirmé</h2>
+  <h2 class="pt">O que ainda não foi confirmado</h2>
+  <h2 class="tr">Henüz Doğrulanmayanlar</h2>
+  <h2 class="vi">Những Điều Vẫn Chưa Được Xác Nhận</h2>
+
+  <p class="ko">한 가지 반박 가능한 시각을 짚어둘 필요가 있다. 온체인 분석가 개인의 결론이 항상 맞는 것은 아니다. BTCtiming이 앞서 다룬 코인베이스 AI 챗봇의 월드컵 관련 허위 경보 사례처럼, 자동화 도구나 개인 분석이 실제로는 무해한 활동을 위험 신호로 잘못 해석한 전례가 있다. 이 사건에서도 계정명에 "_AI"를 붙이는 리브랜딩이나 서브도메인 정리가, 반드시 자금 이탈을 감추려는 의도가 아니라 우연히 겹친 사업적 결정일 가능성을 완전히 배제할 수는 없다.</p>
+  <p class="ko">다만 두 가지 사실은 그 가능성을 낮춘다. 첫째, 리브랜딩과 서브도메인 폐쇄가 자금 흐름 추적 결과가 공개된 시점과 정확히 일치한다는 타이밍이다. 둘째, 사건 발생 하루가 지난 시점에도 코덱스필드 측이 스펙터의 주장을 반박하거나 자금 이동의 정당한 사유(예: 트레저리 리밸런싱, 거래소 상장 준비)를 설명하는 어떤 공개 대응도 내놓지 않았다는 점이다. 무혐의라면 가장 쉬운 대응은 즉각적인 해명이며, 그 부재 자체가 하나의 신호로 읽힐 수 있다.</p>
+  <p class="en">One counter-argument deserves attention: an individual on-chain analyst's conclusion is not always correct. As in the case BTCtiming previously covered — Coinbase's AI chatbot issuing a false World Cup-related alert — automated tools and individual analyses have misread genuinely benign activity as a red flag before. In this case too, the possibility that the "_AI" rebrand or the subdomain cleanup were an unrelated business decision that simply overlapped in timing, rather than an attempt to conceal an exit, cannot be entirely ruled out.</p>
+  <p class="en">Two facts, however, weigh against that possibility. First is the timing: the rebrand and subdomain shutdowns occurred exactly when the fund-flow tracing became public. Second, a full day after the allegations surfaced, CodexField had offered no public response either disputing Specter's claims or explaining a legitimate reason for the fund movement — treasury rebalancing or exchange-listing preparation, for example. If there were no wrongdoing, the easiest response would be an immediate explanation, and its absence can itself be read as a signal.</p>
+  <p class="ja">一つの反論に値する視点を指摘しておく必要がある。個人のオンチェーン分析家の結論が常に正しいわけではない。BTCtimingが以前取り上げたコインベースのAIチャットボットによるワールドカップ関連の誤警報の例のように、自動化ツールや個人分析が実際には無害な活動を危険信号と誤って解釈した前例がある。この件でも、アカウント名に「_AI」を付けるリブランディングやサブドメインの整理が、必ずしも資金流出を隠す意図ではなく、たまたま時期が重なった事業上の決定である可能性を完全には排除できない。</p>
+  <p class="ja">ただし二つの事実がその可能性を下げる。第一に、リブランディングとサブドメイン閉鎖が、資金流の追跡結果が公開された時点と正確に一致しているというタイミングだ。第二に、事件発生から一日が過ぎた時点でも、コーデックスフィールド側がスペクター氏の主張に反論したり、資金移動の正当な理由(例:トレジャリーの再配分、取引所上場の準備)を説明する公開対応を一切示していないことだ。無実であれば最も簡単な対応は即座の説明であり、その不在自体が一つのシグナルとして読める。</p>
+  <p class="es">Vale la pena señalar un argumento en contra: la conclusión de un analista on-chain individual no siempre es correcta. Como en el caso que BTCtiming cubrió anteriormente —el chatbot de IA de Coinbase emitiendo una falsa alerta relacionada con el Mundial—, herramientas automatizadas y análisis individuales han interpretado erróneamente actividad genuinamente inofensiva como una señal de alarma antes. En este caso también, no se puede descartar por completo que el cambio de marca a "_AI" o la limpieza de subdominios fueran una decisión empresarial no relacionada que simplemente coincidió en el tiempo, en lugar de un intento de ocultar una salida.</p>
+  <p class="es">Sin embargo, dos hechos pesan contra esa posibilidad. Primero, el momento: el cambio de marca y el cierre de subdominios ocurrieron exactamente cuando se hizo público el rastreo del flujo de fondos. Segundo, un día completo después de que surgieran las acusaciones, CodexField no había ofrecido ninguna respuesta pública ni disputando las afirmaciones de Specter ni explicando una razón legítima para el movimiento de fondos —reequilibrio de tesorería o preparación para una cotización en un exchange, por ejemplo—. Si no hubiera irregularidades, la respuesta más fácil sería una explicación inmediata, y su ausencia puede leerse en sí misma como una señal.</p>
+  <p class="de">Ein Gegenargument verdient Beachtung: Die Schlussfolgerung eines einzelnen On-Chain-Analysten ist nicht immer richtig. Wie in dem Fall, über den BTCtiming zuvor berichtete – Coinbases KI-Chatbot, der einen falschen Alarm im Zusammenhang mit der Weltmeisterschaft ausgab – haben automatisierte Tools und individuelle Analysen zuvor tatsächlich harmlose Aktivitäten als Warnsignal fehlinterpretiert. Auch in diesem Fall lässt sich nicht vollständig ausschließen, dass das „_AI"-Rebranding oder die Subdomain-Bereinigung eine unabhängige Geschäftsentscheidung war, die sich zeitlich lediglich überschnitt, statt ein Versuch, einen Exit zu verschleiern.</p>
+  <p class="de">Zwei Fakten sprechen jedoch gegen diese Möglichkeit. Erstens das Timing: Das Rebranding und die Subdomain-Abschaltungen erfolgten genau dann, als die Nachverfolgung der Geldflüsse öffentlich wurde. Zweitens hat CodexField einen vollen Tag nach Bekanntwerden der Vorwürfe weder öffentlich Specters Behauptungen widersprochen noch einen legitimen Grund für die Geldbewegung erklärt – etwa eine Treasury-Umschichtung oder die Vorbereitung eines Börsenlistings. Gäbe es kein Fehlverhalten, wäre die einfachste Reaktion eine sofortige Erklärung, und deren Fehlen kann selbst als Signal gelesen werden.</p>
+  <p class="fr">Un contre-argument mérite l'attention : la conclusion d'un analyste on-chain individuel n'est pas toujours correcte. Comme dans le cas que BTCtiming a couvert précédemment — le chatbot IA de Coinbase émettant une fausse alerte liée à la Coupe du Monde —, des outils automatisés et des analyses individuelles ont déjà mal interprété une activité réellement anodine comme un signal d'alarme. Dans ce cas également, on ne peut pas totalement exclure que le rebranding en « _AI » ou le nettoyage des sous-domaines aient été une décision commerciale sans rapport qui a simplement coïncidé dans le temps, plutôt qu'une tentative de dissimuler une sortie.</p>
+  <p class="fr">Deux faits pèsent toutefois contre cette possibilité. D'abord, le timing : le rebranding et la fermeture des sous-domaines se sont produits exactement au moment où le traçage des flux de fonds est devenu public. Ensuite, une journée entière après que les allégations ont fait surface, CodexField n'avait offert aucune réponse publique, ni pour contester les affirmations de Specter, ni pour expliquer une raison légitime au mouvement de fonds — un rééquilibrage de trésorerie ou une préparation à une cotation en bourse, par exemple. En l'absence de faute, la réponse la plus simple serait une explication immédiate, et son absence peut elle-même être lue comme un signal.</p>
+  <p class="pt">Um contra-argumento merece atenção: a conclusão de um analista on-chain individual não é sempre correta. Como no caso que a BTCtiming cobriu anteriormente — o chatbot de IA da Coinbase emitindo um alerta falso relacionado à Copa do Mundo —, ferramentas automatizadas e análises individuais já interpretaram erroneamente atividades genuinamente inofensivas como um sinal de alerta. Neste caso também, não se pode descartar completamente que o rebranding para "_AI" ou a limpeza de subdomínios tenham sido uma decisão de negócios não relacionada que simplesmente coincidiu no tempo, em vez de uma tentativa de ocultar uma saída.</p>
+  <p class="pt">Dois fatos, porém, pesam contra essa possibilidade. Primeiro, o momento: o rebranding e o desligamento dos subdomínios ocorreram exatamente quando o rastreamento do fluxo de fundos se tornou público. Segundo, um dia inteiro depois de as alegações surgirem, a CodexField não ofereceu nenhuma resposta pública nem contestando as afirmações de Specter, nem explicando um motivo legítimo para a movimentação de fundos — rebalanceamento de tesouraria ou preparação para listagem em exchange, por exemplo. Se não houvesse irregularidade, a resposta mais fácil seria uma explicação imediata, e sua ausência pode, em si, ser lida como um sinal.</p>
+  <p class="tr">Bir karşı argüman ilgiyi hak ediyor: bireysel bir zincir üstü analistin sonucu her zaman doğru değildir. BTCtiming'in daha önce ele aldığı Coinbase'in AI sohbet botunun Dünya Kupası ile ilgili sahte bir uyarı vermesi vakasında olduğu gibi, otomatikleştirilmiş araçlar ve bireysel analizler daha önce gerçekte zararsız bir etkinliği bir uyarı işareti olarak yanlış yorumlamıştır. Bu vakada da, "_AI" yeniden markalaşmasının veya alt alan adı temizliğinin, bir çıkışı gizleme girişimi değil de sadece zamanlama olarak örtüşen ilgisiz bir iş kararı olma olasılığı tamamen dışlanamaz.</p>
+  <p class="tr">Ancak iki gerçek bu olasılığın aleyhine işliyor. Birincisi zamanlama: yeniden markalaşma ve alt alan adı kapatmaları, fon akışı izlemesinin kamuoyuna açıklandığı anda gerçekleşti. İkincisi, iddialar ortaya çıktıktan tam bir gün sonra CodexField, Specter'ın iddialarına itiraz eden veya fon hareketi için meşru bir neden açıklayan (örneğin, hazine yeniden dengelemesi veya borsa listeleme hazırlığı) hiçbir kamuya açık yanıt vermedi. Bir yanlışlık yoksa, en kolay yanıt anında bir açıklama olurdu ve bunun yokluğu kendi başına bir sinyal olarak okunabilir.</p>
+  <p class="vi">Một lập luận phản bác đáng được chú ý: kết luận của một nhà phân tích on-chain cá nhân không phải lúc nào cũng đúng. Như trong trường hợp BTCtiming đã đưa tin trước đó — chatbot AI của Coinbase đưa ra cảnh báo giả liên quan đến World Cup — các công cụ tự động và phân tích cá nhân đã từng hiểu sai một hoạt động vô hại thực sự thành một dấu hiệu cảnh báo. Trong trường hợp này cũng vậy, không thể hoàn toàn loại trừ khả năng việc đổi tên thương hiệu thành "_AI" hoặc việc dọn dẹp miền phụ chỉ là một quyết định kinh doanh không liên quan mà trùng hợp về thời điểm, thay vì một nỗ lực che giấu việc rút lui.</p>
+  <p class="vi">Tuy nhiên, hai sự thật lại nghiêng về khả năng ngược lại. Thứ nhất là thời điểm: việc đổi tên thương hiệu và đóng miền phụ xảy ra chính xác vào lúc việc truy vết dòng tiền được công khai. Thứ hai, một ngày đầy đủ sau khi các cáo buộc xuất hiện, CodexField không đưa ra bất kỳ phản hồi công khai nào để bác bỏ tuyên bố của Specter hoặc giải thích lý do hợp pháp cho việc di chuyển tiền — chẳng hạn như tái cân bằng ngân khố hoặc chuẩn bị niêm yết trên sàn giao dịch. Nếu không có sai phạm, phản hồi dễ nhất sẽ là một lời giải thích ngay lập tức, và sự vắng mặt của nó có thể được coi là một tín hiệu.</p>
+
+  <div class="box ko">💡 BTCtiming 분석: 이 사건에서 가장 눈여겨볼 것은 8,500만달러라는 액수가 아니라, 이 정도 규모의 자금 이동이 공식 감시 체계보다 개인 온체인 분석가의 자발적 게시물에 의해 먼저 드러났다는 사실이다. CertiK 등 보안업체의 2026년 상반기 보고서가 지갑 침해 대응 방식의 변화를 다룬 것과 마찬가지로, 이번 사건도 "누가, 얼마나 빨리 이상 신호를 잡아내는가"의 구조적 문제를 다시 드러낸다.</div>
+  <div class="box en">💡 BTCtiming's take: the most notable part of this case isn't the $85 million figure, but the fact that a fund movement of this size surfaced through a single independent on-chain analyst's posts before any official monitoring framework caught it. Much like CertiK's H1 2026 report on shifting wallet-compromise response patterns, this case reopens the structural question of who catches red flags, and how fast.</div>
+  <div class="box ja">💡 BTCtiming分析:この事件で最も注目すべきは8,500万ドルという金額ではなく、この規模の資金移動が公式な監視体制よりも先に、一人の独立したオンチェーン分析家の投稿によって明らかになったという事実だ。CertiKなどセキュリティ企業による2026年上半期報告書がウォレット侵害への対応方法の変化を扱ったのと同様、この事件も「誰が、どれだけ早く異常信号を捉えるか」という構造的な問題を再び浮かび上がらせる。</div>
+  <div class="box es">💡 El análisis de BTCtiming: lo más destacable de este caso no es la cifra de 85 millones de dólares, sino el hecho de que un movimiento de fondos de este tamaño saliera a la luz gracias a las publicaciones de un solo analista on-chain independiente, antes de que ningún marco de monitoreo oficial lo detectara. Al igual que el informe de CertiK del primer semestre de 2026 sobre el cambio en los patrones de respuesta a compromisos de billeteras, este caso reabre la pregunta estructural de quién detecta las señales de alerta, y con qué rapidez.</div>
+  <div class="box de">💡 Die Einschätzung von BTCtiming: Das Bemerkenswerteste an diesem Fall ist nicht die Zahl von 85 Millionen US-Dollar, sondern die Tatsache, dass eine Geldbewegung dieser Größenordnung durch die Beiträge eines einzelnen unabhängigen On-Chain-Analysten bekannt wurde, bevor ein offizielles Überwachungssystem sie erfasste. Ähnlich wie CertiKs Bericht zum ersten Halbjahr 2026 über sich wandelnde Reaktionsmuster auf Wallet-Kompromittierungen wirft auch dieser Fall die strukturelle Frage neu auf, wer Warnsignale erkennt – und wie schnell.</div>
+  <div class="box fr">💡 L'analyse de BTCtiming : l'élément le plus notable de cette affaire n'est pas le chiffre de 85 millions de dollars, mais le fait qu'un mouvement de fonds de cette ampleur ait été révélé par les publications d'un seul analyste on-chain indépendant, avant qu'un cadre de surveillance officiel ne le détecte. À l'image du rapport de CertiK sur le premier semestre 2026 concernant l'évolution des schémas de réponse aux compromissions de portefeuilles, cette affaire rouvre la question structurelle de qui détecte les signaux d'alarme, et à quelle vitesse.</div>
+  <div class="box pt">💡 A análise da BTCtiming: o ponto mais notável deste caso não é a cifra de 85 milhões de dólares, mas o fato de que uma movimentação de fundos desse porte foi revelada pelas publicações de um único analista on-chain independente, antes que qualquer sistema oficial de monitoramento a detectasse. Assim como o relatório da CertiK sobre o primeiro semestre de 2026, que tratou da mudança nos padrões de resposta a comprometimentos de carteiras, este caso reabre a questão estrutural de quem detecta os sinais de alerta, e com que rapidez.</div>
+  <div class="box tr">💡 BTCtiming'in değerlendirmesi: bu vakada en dikkat çekici olan 85 milyon dolarlık rakam değil, bu büyüklükte bir fon hareketinin resmi bir izleme çerçevesi tarafından yakalanmadan önce tek bir bağımsız zincir üstü analistin gönderileriyle ortaya çıkmış olmasıdır. CertiK'in cüzdan güvenliği ihlallerine verilen yanıt kalıplarındaki değişimi ele alan 2026'nın ilk yarısı raporuna benzer şekilde, bu vaka da kırmızı bayrakları kimin, ne kadar hızlı yakaladığına ilişkin yapısal soruyu yeniden gündeme getiriyor.</div>
+  <div class="box vi">💡 Nhận định của BTCtiming: điều đáng chú ý nhất trong vụ việc này không phải là con số 85 triệu đô la, mà là việc một khoản tiền di chuyển với quy mô này được phát hiện qua các bài đăng của một nhà phân tích on-chain độc lập duy nhất, trước khi bất kỳ khung giám sát chính thức nào bắt được nó. Tương tự như báo cáo nửa đầu năm 2026 của CertiK về sự thay đổi trong các mẫu hình ứng phó với việc ví bị xâm phạm, vụ việc này cũng mở lại câu hỏi mang tính cấu trúc về việc ai phát hiện các dấu hiệu cảnh báo, và nhanh đến mức nào.</div>
+
+  <h2 class="ko">함께 보면 좋은 글</h2>
+  <h2 class="en">Best Combined With</h2>
+  <h2 class="ja">併せて見るべき記事</h2>
+  <h2 class="es">Mejor Combinado Con</h2>
+  <h2 class="de">Am besten kombiniert mit</h2>
+  <h2 class="fr">À combiner de préférence avec</h2>
+  <h2 class="pt">Melhor combinado com</h2>
+  <h2 class="tr">En İyi Kombinasyon</h2>
+  <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+  <ul class="ko">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">코인베이스 AI가 만들어낸 가짜 월드컵 경보</a>:</strong> 자동화·개인 분석 도구가 틀릴 수 있다는 반증 사례</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK 2026년 상반기 보고서, 지갑 침해 대응 방식의 변화</a>:</strong> 온체인 위협 탐지 생태계 전반의 구조적 맥락</li>
+  </ul>
+  <ul class="en">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">The Fake World Cup Alert Coinbase's AI Invented</a>:</strong> A counter-example showing automated and individual analysis tools can be wrong</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK's H1 2026 Report on Shifting Wallet-Compromise Response</a>:</strong> Broader structural context for on-chain threat detection</li>
+  </ul>
+  <ul class="ja">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">CoinbaseのAIが作り出した偽のワールドカップ警報</a>:</strong> 自動化・個人分析ツールが誤ることもある反証事例</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK 2026年上半期報告書、ウォレット侵害対応方式の変化</a>:</strong> オンチェーン脅威検知の生態系全体の構造的背景</li>
+  </ul>
+  <ul class="es">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">La Falsa Alerta del Mundial que Inventó la IA de Coinbase</a>:</strong> Un contraejemplo que muestra que las herramientas de análisis automatizado e individual pueden equivocarse</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">El Informe de CertiK del Primer Semestre de 2026 sobre el Cambio en la Respuesta a Compromisos de Billeteras</a>:</strong> Contexto estructural más amplio para la detección de amenazas on-chain</li>
+  </ul>
+  <ul class="de">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">Der falsche WM-Alarm, den Coinbases KI erfand</a>:</strong> Ein Gegenbeispiel dafür, dass automatisierte und individuelle Analysetools falsch liegen können</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiKs Bericht zum ersten Halbjahr 2026 über den Wandel bei der Reaktion auf Wallet-Kompromittierungen</a>:</strong> Breiterer struktureller Kontext für die On-Chain-Bedrohungserkennung</li>
+  </ul>
+  <ul class="fr">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">La Fausse Alerte Coupe du Monde Inventée par l'IA de Coinbase</a> :</strong> Un contre-exemple montrant que les outils d'analyse automatisée et individuelle peuvent se tromper</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">Le Rapport de CertiK sur le Premier Semestre 2026 sur l'Évolution de la Réponse aux Compromissions de Portefeuilles</a> :</strong> Contexte structurel plus large pour la détection des menaces on-chain</li>
+  </ul>
+  <ul class="pt">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">O Falso Alerta da Copa do Mundo Inventado pela IA da Coinbase</a>:</strong> Um contraexemplo mostrando que ferramentas de análise automatizada e individual podem errar</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">O Relatório da CertiK sobre o Primeiro Semestre de 2026 sobre a Mudança na Resposta a Comprometimentos de Carteiras</a>:</strong> Contexto estrutural mais amplo para a detecção de ameaças on-chain</li>
+  </ul>
+  <ul class="tr">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">Coinbase'in Yapay Zekasının İcat Ettiği Sahte Dünya Kupası Uyarısı</a>:</strong> Otomatik ve bireysel analiz araçlarının yanılabileceğini gösteren bir karşı örnek</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK'in Cüzdan İhlali Yanıtındaki Değişime İlişkin 2026 İlk Yarı Raporu</a>:</strong> Zincir üstü tehdit tespiti için daha geniş yapısal bağlam</li>
+  </ul>
+  <ul class="vi">
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">Cảnh Báo World Cup Giả Mà AI Của Coinbase Đã Tạo Ra</a>:</strong> Một ví dụ phản bác cho thấy các công cụ phân tích tự động và cá nhân có thể sai</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">Báo Cáo Nửa Đầu Năm 2026 Của CertiK Về Sự Thay Đổi Trong Ứng Phó Xâm Phạm Ví</a>:</strong> Bối cảnh cấu trúc rộng hơn cho việc phát hiện mối đe dọa on-chain</li>
+  </ul>
+
+  <p class="ko" style="font-size:.85rem;color:#71717a">출처: 온체인 분석가 스펙터(X 게시물, 2026-07-09~10), 크립(Cryip), 크립토뉴스닷넷(Cryptonews.net), 비트코인시스테미(Bitcoin Sistemi). 본 기사에서 다룬 자금 이동 내역은 스펙터 개인의 온체인 추적에 근거한 것으로, 2026년 7월 10일 기준 코덱스필드·BNB체인·바이낸스·CZ의 공식 확인이나 반박은 없었다. 본 글은 투자 조언이 아니다.</p>
+  <p class="en" style="font-size:.85rem;color:#71717a">Sources: on-chain analyst Specter (X posts, July 9-10, 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. The fund movements described here are based on Specter's own on-chain tracing; as of July 10, 2026, there had been no official confirmation or rebuttal from CodexField, BNB Chain, Binance, or CZ. This is not investment advice.</p>
+  <p class="ja" style="font-size:.85rem;color:#71717a">出典:オンチェーン分析家スペクター(X投稿、2026年7月9〜10日)、Cryip、Cryptonews.net、Bitcoin Sistemi。本記事で取り上げた資金移動の内容はスペクター氏個人のオンチェーン追跡に基づくもので、2026年7月10日時点でコーデックスフィールド・BNBチェーン・Binance・CZによる公式確認や反論はなかった。本記事は投資助言ではない。</p>
+  <p class="es" style="font-size:.85rem;color:#71717a">Fuentes: analista on-chain Specter (publicaciones en X, 9-10 de julio de 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. Los movimientos de fondos descritos aquí se basan en el propio rastreo on-chain de Specter; al 10 de julio de 2026, no había confirmación oficial ni refutación por parte de CodexField, BNB Chain, Binance o CZ. Esto no constituye asesoramiento de inversión.</p>
+  <p class="de" style="font-size:.85rem;color:#71717a">Quellen: On-Chain-Analyst Specter (X-Beiträge, 9.-10. Juli 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. Die hier beschriebenen Geldbewegungen basieren auf Specters eigener On-Chain-Nachverfolgung; zum 10. Juli 2026 gab es keine offizielle Bestätigung oder Widerlegung durch CodexField, BNB Chain, Binance oder CZ. Dies ist keine Anlageberatung.</p>
+  <p class="fr" style="font-size:.85rem;color:#71717a">Sources : analyste on-chain Specter (publications X, 9-10 juillet 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. Les mouvements de fonds décrits ici sont basés sur le traçage on-chain propre de Specter ; au 10 juillet 2026, aucune confirmation officielle ni réfutation n'était venue de CodexField, BNB Chain, Binance ou CZ. Ceci ne constitue pas un conseil en investissement.</p>
+  <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: analista on-chain Specter (publicações no X, 9-10 de julho de 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. As movimentações de fundos descritas aqui se baseiam no próprio rastreamento on-chain de Specter; em 10 de julho de 2026, não havia confirmação oficial ou contestação por parte da CodexField, BNB Chain, Binance ou CZ. Isto não constitui aconselhamento de investimento.</p>
+  <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: zincir üstü analist Specter (X gönderileri, 9-10 Temmuz 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. Burada açıklanan fon hareketleri Specter'ın kendi zincir üstü izlemesine dayanmaktadır; 10 Temmuz 2026 itibarıyla CodexField, BNB Chain, Binance veya CZ'den resmi bir doğrulama veya yalanlama gelmemiştir. Bu, yatırım tavsiyesi değildir.</p>
+  <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: nhà phân tích on-chain Specter (bài đăng trên X, 9-10 tháng 7 năm 2026), Cryip, Cryptonews.net, Bitcoin Sistemi. Các diễn biến dòng tiền được mô tả ở đây dựa trên việc truy vết on-chain của riêng Specter; tính đến ngày 10 tháng 7 năm 2026, không có xác nhận chính thức hay phản bác nào từ CodexField, BNB Chain, Binance hay CZ. Đây không phải là lời khuyên đầu tư.</p>
+<?php require __DIR__.'/_footer.php'; ?>
