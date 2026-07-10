@@ -1282,7 +1282,7 @@ window.BT_SERVER_LANG = <?= json_encode($lang) ?>; // 서버가 URL 기준으로
 </script>
 <script>window.COINS_AUTO = <?= $__coinsJson ?>;</script>
 <script src="/lang-common.js" defer></script>
-<script src="/app.js" defer></script>
+<script src="/app.js?v=<?= @filemtime(__DIR__.'/app.js') ?>" defer></script>
 <script>
 // 위젯 설정은 데스크톱 브라우저 전용. 모바일·앱에서는 설정 버튼은 유지하되(알람 필요)
 // '위젯 탭'만 숨기고 알람 탭만 보이게 한다.
