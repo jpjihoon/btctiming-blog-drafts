@@ -44,7 +44,7 @@ if (!function_exists('h')) {
   </div>
   <a class="app-mini app-mini--fixed" id="appBanner" href="https://play.google.com/store/apps/details?id=com.btctiming.app" target="_blank" rel="noopener" hidden>
     <span class="am-icon" aria-hidden="true">
-      <svg width="26" height="26" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#26262b" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 41 29" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg width="26" height="26" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </span>
     <span class="am-text">
       <span class="am-top"><span class="ko">앱으로도 만나보세요</span><span class="en">Also on the app</span><span class="ja">アプリでも</span><span class="es">También en la app</span><span class="de">Auch als App</span><span class="fr">Aussi sur l'app</span><span class="pt">Também no app</span><span class="tr">Uygulamada da</span><span class="vi">Có trên ứng dụng</span></span>
@@ -114,7 +114,8 @@ html:not([lang]) .site-footer .ko{display:inline}
       var isStandalone = (window.matchMedia && (
         window.matchMedia('(display-mode: standalone)').matches ||
         window.matchMedia('(display-mode: fullscreen)').matches ||
-        window.matchMedia('(display-mode: minimal-ui)').matches
+        window.matchMedia('(display-mode: minimal-ui)').matches ||
+        window.matchMedia('(display-mode: window-controls-overlay)').matches
       )) || (navigator.standalone === true);
       var fromAndroidApp = (document.referrer || '').indexOf('android-app://com.btctiming.app') === 0;
       var flagged = false;

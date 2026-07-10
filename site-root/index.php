@@ -1288,8 +1288,7 @@ function btcIsMobileOrApp(){
   var mobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
   var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
   var inApp = document.referrer && document.referrer.indexOf('android-app://') === 0;
-  var narrow = window.innerWidth < 768;
-  return mobile || standalone || inApp || narrow;
+  return mobile || standalone || inApp;   // 창 너비(innerWidth) 대신 디바이스/앱으로만 판단
 }
 (function(){
   function apply(){
