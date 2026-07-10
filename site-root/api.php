@@ -67,7 +67,7 @@ if ($ind === null) {
         $fg = parseFG($raw['fg'] ?? null);
         $dom = parseDominance($raw['dom'] ?? null);
         $futuresGap = parseFuturesGap($raw['futures'] ?? null);
-        $dailyKlines = parseDailyKlines($raw['klines'] ?? null, 30);
+        $dailyKlines = parseDailyKlines($raw['klines'] ?? null, 365);
         $m15Klines = parseDailyKlines($raw['klines15m'] ?? null, 15);
         $btcKlines = ($coin === 'BTC') ? null : parseDailyKlines($raw['btc_klines'] ?? null, 30);
 
@@ -185,6 +185,41 @@ if ($ind === null) {
             'btc_corr_value' => $btcCorr,
         ];
 
+        // ── Puell Multiple 계산 (BTC 전용, 일봉 365개 필요) ──────────────────────
+        // 공식: 오늘 채굴 발행 USD / 365일 평균 채굴 발행 USD
+        // 블록보상: 2024-04-20 4차 반감기 이후 3.125 BTC. 이전은 6.25 BTC.
+        // 4차 반감기 타임스탬프(ms): 1713571200000 (2024-04-20 00:00 UTC)
+        $ind['puell'] = null;
+        if ($coin === 'BTC' && $dailyKlines && count($dailyKlines['closes']) >= 60) {
+            $HALVING4_MS = 1713571200000; // 4차 반감기 (2024-04-20)
+            $BLOCKS_PER_DAY = 144;
+            // Binance kline raw data를 다시 파싱 (timestamp + close 필요)
+            $klRaw = json_decode($raw['klines'] ?? '[]', true);
+            if (is_array($klRaw) && count($klRaw) > 1) {
+                array_pop($klRaw); // 미완성 봉 제거
+                $dailyIssueUsd = [];
+                foreach ($klRaw as $k) {
+                    $ts    = (float)$k[0]; // 봉 시작 timestamp(ms)
+                    $close = (float)$k[4];
+                    // 반감기 이전이면 6.25 BTC, 이후면 3.125 BTC
+                    $reward = ($ts < $HALVING4_MS) ? 6.25 : 3.125;
+                    $dailyIssueUsd[] = $reward * $BLOCKS_PER_DAY * $close;
+                }
+                $n = count($dailyIssueUsd);
+                if ($n >= 60) {
+                    // 오늘(마지막 완성봉) 발행 USD
+                    $todayIssue = $dailyIssueUsd[$n - 1];
+                    // 365일 평균 (데이터 부족 시 있는 만큼으로 평균)
+                    $avgN = min($n, 365);
+                    $slice = array_slice($dailyIssueUsd, -$avgN);
+                    $avgIssue = array_sum($slice) / count($slice);
+                    if ($avgIssue > 0) {
+                        $ind['puell'] = round($todayIssue / $avgIssue, 3);
+                    }
+                }
+            }
+        }
+
         cache_set($cacheKey, $ind);
     }
 
@@ -229,6 +264,7 @@ echo json_encode([
         'hr_status' => $ind['hr_status'],
     ],
     'estimated' => $ind['estimated'] ?? [],
+    'puell' => $ind['puell'] ?? null,
     'result' => $result,
     'updated_at' => date('c'),
 ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);

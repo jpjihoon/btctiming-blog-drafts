@@ -23,7 +23,7 @@ function buildDataUrls(string $coin, string $sym): array {
     $urls = [
         'price'      => "https://api.binance.com/api/v3/ticker/price?symbol=$sym",
         'ma200w'     => "https://api.binance.com/api/v3/klines?symbol=$sym&interval=1w&limit=200",
-        'klines'     => "https://api.binance.com/api/v3/klines?symbol=$sym&interval=1d&limit=31",
+        'klines'     => "https://api.binance.com/api/v3/klines?symbol=$sym&interval=1d&limit=366",
         'klines15m'  => "https://api.binance.com/api/v3/klines?symbol=$sym&interval=15m&limit=20",
         'fg'         => 'https://api.alternative.me/fng/?limit=1',
         'dom'        => 'https://api.coingecko.com/api/v3/global',
@@ -41,7 +41,7 @@ function buildDataUrls(string $coin, string $sym): array {
 
     // 다른 코인과의 상관계수 계산용 BTC 일봉 (BTC 탭일 때는 불필요)
     if ($coin !== 'BTC') {
-        $urls['btc_klines'] = 'https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=31';
+        $urls['btc_klines'] = 'https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=366';
     }
 
     // BTC 전용 온체인 지표 — newhedge.io는 nupl/sopr/lth_supply를 한 페이지에서 다 긁어옴 (중복 호출 제거)
