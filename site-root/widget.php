@@ -129,10 +129,11 @@ body{display:flex;flex-direction:column}
   <div style="font-weight:800;margin-bottom:6px">💻 <?= $lang==='ko'?'이 위젯을 앱으로 설치':'Install this widget as an app' ?></div>
   <div style="font-size:11px;opacity:.85;margin-bottom:9px"><?= $lang==='ko'?'아래 버튼을 누르면 이 위젯만 독립 앱 창으로 설치됩니다 (사이트 전체가 아님).':'Installs only this widget as a standalone app (not the whole site).' ?></div>
   <button id="pwaBigInstall" style="background:#0a0a0a;color:#f7931a;border:none;border-radius:8px;padding:9px 20px;font-size:12.5px;font-weight:800;cursor:pointer">💻 <?= $lang==='ko'?'앱으로 설치':'Install app' ?></button>
+  <div style="font-size:10px;opacity:.75;margin-top:8px"><?= $lang==='ko'?'※ Chrome·Edge에서 설치할 수 있습니다. 다른 브라우저(웨일·Safari 등)는 앱 설치가 제한될 수 있습니다.':'※ Works on Chrome/Edge. Other browsers may not support app install.' ?></div>
 </div>
 <?php endif; ?>
 <div class="wg-head">
-  <a class="wg-logo" href="https://btctiming.com" target="_top" rel="noopener">
+  <a class="wg-logo wg-extlink" href="https://btctiming.com<?= $lang!=='ko'?'?lang='.$lang:'' ?>" target="_top" rel="noopener">
     <svg width="18" height="18" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#26262b" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 41 29" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <span class="wg-logo-tx">BTCtiming</span>
   </a>
@@ -177,7 +178,7 @@ body{display:flex;flex-direction:column}
       <div class="gp-entry-t">Staged Entry Guide</div>
       <div class="gp-steps" id="gsteps_<?= $c ?>"></div>
     </div>
-    <a class="gp-link" href="https://btctiming.com/?coin=<?= htmlspecialchars($c) ?>" target="_top" rel="noopener">→ Full analysis on btctiming.com</a>
+    <a class="gp-link wg-extlink" href="https://btctiming.com/?coin=<?= htmlspecialchars($c) ?><?= $lang!=='ko'?'&lang='.$lang:'' ?>" target="_top" rel="noopener">→ Full analysis on btctiming.com</a>
   </div>
 <?php endforeach; ?>
 </div>
@@ -186,7 +187,7 @@ body{display:flex;flex-direction:column}
   <?php if (empty($blogPosts)): ?>
     <div style="padding:20px;text-align:center;color:var(--t3);font-size:11px">No articles available</div>
   <?php else: foreach ($blogPosts as $p): ?>
-    <a class="blog-post" href="https://btctiming.com/blog/<?= htmlspecialchars($p['slug']) ?>.php" target="_top" rel="noopener">
+    <a class="blog-post wg-extlink" href="https://btctiming.com/blog/<?= htmlspecialchars($p['slug']) ?>.php<?= $lang!=='ko'?'?lang='.$lang:'' ?>" target="_top" rel="noopener">
       <span class="bp-icon"><?= $p['icon'] ?></span>
       <div class="bp-body">
         <div class="bp-tag" style="color:<?= htmlspecialchars($p['color']) ?>"><?= htmlspecialchars($p['tag']) ?></div>
@@ -199,7 +200,7 @@ body{display:flex;flex-direction:column}
 </div>
 <?php endif; ?>
 <div class="wg-foot">
-  <span class="wg-pw">by <a href="https://btctiming.com" target="_top" rel="noopener">btctiming.com</a></span>
+  <span class="wg-pw">by <a class="wg-extlink" href="https://btctiming.com<?= $lang!=='ko'?'?lang='.$lang:'' ?>" target="_top" rel="noopener">btctiming.com</a></span>
   <button class="wg-rfr" onclick="loadAll()">↻ refresh</button>
 </div>
 <script>
@@ -243,12 +244,6 @@ window.addEventListener('DOMContentLoaded',function(){
   if(big){ big.onclick=doWidgetInstall; }
 });
 window.addEventListener('appinstalled',function(){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; });
-(function(){
-  try{
-    var standalone=(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone===true;
-    if(standalone){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; }
-  }catch(e){}
-})();
 const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',es:'es-ES',de:'de-DE',fr:'fr-FR',pt:'pt-BR',tr:'tr-TR',vi:'vi-VN'}[LANG]||'en-US';
 let cache={};
 function sigColor(sig){if(!sig)return'#606068';if(sig.includes('FULL'))return'#22c55e';if(sig.includes('ADD'))return'#86efac';if(sig.includes('SPLIT LONG'))return'#a3e635';if(sig.includes('WATCH'))return'#facc15';if(sig.includes('SPLIT EXIT'))return'#fb923c';return'#f87171';}
@@ -276,6 +271,36 @@ function loadCoin(coin){return fetch(API+'?coin='+coin+'&mode=buy').then(r=>r.js
 function loadAll(){document.getElementById('updTime').textContent='…';Promise.all(COINS.map(loadCoin)).then(()=>{const n=new Date();document.getElementById('updTime').textContent=n.toLocaleTimeString(LOCALE,{hour:'2-digit',minute:'2-digit'});postHeight();});}
 function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');postHeight();setTimeout(postHeight,60);}
 loadAll();setInterval(loadAll,60000);
+
+// 앱(standalone)으로 실행 중인지 판정
+function wgIsStandalone(){
+  try{ return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone===true; }catch(e){ return false; }
+}
+// 앱(standalone)에서는 외부 링크(로고/블로그/하단)를 새 브라우저 창으로 열기.
+// (앱 창은 위젯 전용이므로 앱 안에서 메인이 열리면 안 됨)
+window.addEventListener('DOMContentLoaded',function(){
+  var standalone = wgIsStandalone();
+  // 설치 배너: 이미 앱이면 숨김
+  if(standalone){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; }
+  var inIframe = false; try{ inIframe = (window.self !== window.top); }catch(e){ inIframe = true; }
+  function withLang(href){
+    try{
+      var u = new URL(href, location.origin);
+      if(LANG && LANG!=='ko') u.searchParams.set('lang', LANG);
+      else u.searchParams.delete('lang');
+      return u.toString();
+    }catch(e){ return href; }
+  }
+  if(standalone || inIframe){
+    document.querySelectorAll('a.wg-extlink').forEach(function(a){
+      a.setAttribute('target','_blank'); a.setAttribute('rel','noopener noreferrer');
+    });
+    document.addEventListener('click',function(e){
+      var a = e.target.closest && e.target.closest('a.wg-extlink');
+      if(a){ e.preventDefault(); window.open(withLang(a.getAttribute('href')), '_blank', 'noopener'); }
+    });
+  }
+});
 window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
 if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js',{scope:'/widget.php'}).catch(function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});});}
 </script>
