@@ -895,13 +895,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
           <span id="wgTxt_pinHint">Keeps a small live widget floating on this page — drag it anywhere.</span>
         </div>
 
-        <!-- 위젯 별도 창으로 열기 -->
-        <button id="wgInstallBtn" onclick="openWidgetWindow()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>🗔</span> <span id="wgTxt_install">Open widget in a separate window</span>
-        </button>
-        <div id="wgInstallHint" style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
-          <span id="wgTxt_installHint">Opens only the widget in a small window you can keep on top.</span>
-        </div>
+
 
         <!-- 코드 복사 -->
         <div class="sset-label" id="wgTxt_code">Embed code (for your website)</div>
@@ -987,7 +981,7 @@ $__seoSub = [
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
     <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
     <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary">📚 <span data-i="navGlossary">용어사전</span></a>
-    <div class="icon-btn" onclick="openSettings()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSettings();}">⚙️</div>
+    <div class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSettings();}">⚙️</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
       <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)" aria-label="Select language" aria-haspopup="true">
@@ -1280,6 +1274,24 @@ window.BT_SERVER_LANG = <?= json_encode($lang) ?>; // 서버가 URL 기준으로
 <script src="/lang-common.js" defer></script>
 <script src="/app.js" defer></script>
 <script>
+// 위젯 설정은 데스크톱 브라우저 전용 → 모바일·앱에서는 설정 버튼 숨김
+(function(){
+  function isMobileOrApp(){
+    var mobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+    var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+    var inApp = document.referrer && document.referrer.indexOf('android-app://') === 0;
+    var narrow = window.innerWidth < 768;
+    return mobile || standalone || inApp || narrow;
+  }
+  function apply(){
+    var btn = document.getElementById('settingsBtn');
+    if(btn) btn.style.display = isMobileOrApp() ? 'none' : '';
+  }
+  if(document.readyState !== 'loading') apply();
+  else document.addEventListener('DOMContentLoaded', apply);
+  window.addEventListener('resize', apply);
+})();
+
 // PWA: service worker 등록 (앱 설치 조건 충족)
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function(){
@@ -1291,9 +1303,7 @@ let btcInstallPrompt = null;
 window.addEventListener('beforeinstallprompt', function(e){
   e.preventDefault();
   btcInstallPrompt = e;
-  // 프롬프트 준비됨 → 설치 버튼 강조 (오렌지)
-  var btn = document.getElementById('wgInstallBtn');
-  if(btn){ btn.style.background='#f7931a'; btn.style.color='#0a0a0a'; btn.style.borderColor='#f7931a'; }
+  // (위젯 설치 버튼 제거됨)
 });
 window.addEventListener('appinstalled', function(){ btcInstallPrompt = null; });
 </script>
@@ -1431,7 +1441,6 @@ function applyWgI18n(){
   set('wgTxt_title',L.title); set('wgTxt_desc',L.desc); set('wgTxt_coins',L.coins);
   set('wgTxt_options',L.options); set('wgTxt_blog',L.blog); set('wgTxt_preview',L.preview);
   set('wgTxt_pin',L.pin); set('wgTxt_pinHint',L.pinHint); set('wgTxt_code',L.code); set('wgTxt_copy',L.copy);
-  set('wgTxt_install',L.install); set('wgTxt_installHint',L.installHint);
   var s=document.getElementById('wgCoinSearch'); if(s) s.placeholder=L.ph;
   var cnt=document.getElementById('wgSelCount'); if(cnt) cnt.textContent=L.count(wgSelected.length);
 }
@@ -1613,13 +1622,21 @@ function launchFloatingWidget(){
   makeFloatDraggable(fw, document.getElementById('btcFloatBar'));
   // 같은 도메인이므로 iframe 내부 실제 높이를 직접 읽어 컨테이너를 확장 (스크롤 없이)
   const frame = document.getElementById('btcFloatFrame');
+  let _floatLang = getWidgetLang();
   function fitFloat(){
     try{
+      // 홈 언어가 바뀌면 플로팅 위젯도 새 언어로 갱신
+      const nowLang = getWidgetLang();
+      if(nowLang !== _floatLang){
+        _floatLang = nowLang;
+        frame.src = buildWidgetUrl();
+        return;
+      }
       const doc = frame.contentDocument || frame.contentWindow.document;
       if(!doc || !doc.body) return;
       const innerH = doc.body.scrollHeight;
       const maxH = window.innerHeight - 100;
-      const target = Math.min(innerH, maxH) + 34; // +헤더바
+      const target = Math.min(innerH, maxH) + 34;
       if(Math.abs(parseInt(fw.style.height) - target) > 2){
         fw.style.height = target + 'px';
       }

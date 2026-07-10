@@ -123,7 +123,7 @@ body{display:flex;flex-direction:column}
 </head>
 <body>
 <div class="wg-head">
-  <a class="wg-logo" href="https://btctiming.com" target="_blank" rel="noopener">
+  <a class="wg-logo" href="https://btctiming.com" target="_top" rel="noopener">
     <svg width="18" height="18" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#26262b" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 41 29" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <span class="wg-logo-tx">BTCtiming</span>
   </a>
@@ -167,7 +167,7 @@ body{display:flex;flex-direction:column}
       <div class="gp-entry-t">Staged Entry Guide</div>
       <div class="gp-steps" id="gsteps_<?= $c ?>"></div>
     </div>
-    <a class="gp-link" href="https://btctiming.com/?coin=<?= htmlspecialchars($c) ?>" target="_blank" rel="noopener">→ Full analysis on btctiming.com</a>
+    <a class="gp-link" href="https://btctiming.com/?coin=<?= htmlspecialchars($c) ?>" target="_top" rel="noopener">→ Full analysis on btctiming.com</a>
   </div>
 <?php endforeach; ?>
 </div>
@@ -176,7 +176,7 @@ body{display:flex;flex-direction:column}
   <?php if (empty($blogPosts)): ?>
     <div style="padding:20px;text-align:center;color:var(--t3);font-size:11px">No articles available</div>
   <?php else: foreach ($blogPosts as $p): ?>
-    <a class="blog-post" href="https://btctiming.com/blog/<?= htmlspecialchars($p['slug']) ?>.php" target="_blank" rel="noopener">
+    <a class="blog-post" href="https://btctiming.com/blog/<?= htmlspecialchars($p['slug']) ?>.php" target="_top" rel="noopener">
       <span class="bp-icon"><?= $p['icon'] ?></span>
       <div class="bp-body">
         <div class="bp-tag" style="color:<?= htmlspecialchars($p['color']) ?>"><?= htmlspecialchars($p['tag']) ?></div>
@@ -189,7 +189,7 @@ body{display:flex;flex-direction:column}
 </div>
 <?php endif; ?>
 <div class="wg-foot">
-  <span class="wg-pw">by <a href="https://btctiming.com" target="_blank" rel="noopener">btctiming.com</a></span>
+  <span class="wg-pw">by <a href="https://btctiming.com" target="_top" rel="noopener">btctiming.com</a></span>
   <button class="wg-rfr" onclick="loadAll()">↻ refresh</button>
 </div>
 <script>
@@ -198,8 +198,14 @@ const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',es:'es-ES',de:'de-DE',fr:'fr-FR',
 let cache={};
 function sigColor(sig){if(!sig)return'#606068';if(sig.includes('FULL'))return'#22c55e';if(sig.includes('ADD'))return'#86efac';if(sig.includes('SPLIT LONG'))return'#a3e635';if(sig.includes('WATCH'))return'#facc15';if(sig.includes('SPLIT EXIT'))return'#fb923c';return'#f87171';}
 function fmtP(p){if(p>=10000)return'$'+p.toLocaleString(LOCALE,{maximumFractionDigits:0});if(p>=100)return'$'+p.toLocaleString(LOCALE,{minimumFractionDigits:2,maximumFractionDigits:2});if(p>=1)return'$'+p.toLocaleString(LOCALE,{minimumFractionDigits:3,maximumFractionDigits:3});return'$'+p.toLocaleString(LOCALE,{minimumFractionDigits:5,maximumFractionDigits:5});}
-const DESC={'FULL LONG':{en:'Historical bottom. Maximum position entry.',ko:'역대급 저점. 목표 비중 100% 전량 진입.'},'ADD LONG':{en:'Strong buy zone. Scale up to 70–100%.',ko:'강한 저점. 목표 비중 70~100% 확대.'},'SPLIT LONG':{en:'Start staged entries. 30–50% initial.',ko:'분할 진입 시작. 목표 비중 30~50%.'},'WATCH':{en:'Neutral zone. Monitor and wait.',ko:'중립 관찰.'},'SPLIT EXIT':{en:'Overheated. Start taking partial profits.',ko:'분할 익절. 고평가·과열 → 보유분 일부 매도.'},'EXIT':{en:'High risk. Consider exiting.',ko:'고위험. 익절 또는 청산 고려.'}};
-function getDesc(sig){const d=DESC[sig];if(!d)return'';return LANG==='ko'?d.ko:d.en;}
+const DESC={
+'FULL LONG':{ko:'역대급 저점. 목표 비중 100% 전량 진입.',en:'Historical bottom. Maximum position entry.',ja:'歴史的な底値。目標比率100%で全力エントリー。',es:'Suelo histórico. Entrada de posición máxima.',de:'Historischer Boden. Maximaler Positionseinstieg.',fr:'Plancher historique. Entrée maximale.',pt:'Fundo histórico. Entrada de posição máxima.',tr:'Tarihi dip. Maksimum pozisyon girişi.',vi:'Đáy lịch sử. Vào lệnh tối đa.'},
+'ADD LONG':{ko:'강한 저점. 목표 비중 70~100% 확대.',en:'Strong buy zone. Scale up to 70–100%.',ja:'強い買い場。目標比率70〜100%へ拡大。',es:'Zona de compra fuerte. Aumentar a 70–100%.',de:'Starke Kaufzone. Auf 70–100% erhöhen.',fr:'Zone d\'achat forte. Monter à 70–100%.',pt:'Zona de compra forte. Aumentar para 70–100%.',tr:'Güçlü alım bölgesi. %70–100\'e çıkar.',vi:'Vùng mua mạnh. Tăng lên 70–100%.'},
+'SPLIT LONG':{ko:'분할 진입 시작. 목표 비중 30~50%.',en:'Start staged entries. 30–50% initial.',ja:'分割エントリー開始。目標比率30〜50%。',es:'Inicia entradas escalonadas. 30–50%.',de:'Gestaffelter Einstieg. 30–50% anfangs.',fr:'Débuter les entrées échelonnées. 30–50%.',pt:'Iniciar entradas em etapas. 30–50%.',tr:'Kademeli girişe başla. %30–50.',vi:'Bắt đầu vào lệnh từng phần. 30–50%.'},
+'WATCH':{ko:'중립 관찰.',en:'Neutral zone. Monitor and wait.',ja:'中立ゾーン。様子見。',es:'Zona neutral. Observar y esperar.',de:'Neutrale Zone. Beobachten.',fr:'Zone neutre. Observer.',pt:'Zona neutra. Observar.',tr:'Nötr bölge. İzle ve bekle.',vi:'Vùng trung lập. Quan sát.'},
+'SPLIT EXIT':{ko:'분할 익절. 고평가·과열 → 보유분 일부 매도.',en:'Overheated. Start taking partial profits.',ja:'過熱。一部利益確定を開始。',es:'Sobrecalentado. Toma ganancias parciales.',de:'Überhitzt. Teilgewinne mitnehmen.',fr:'Surchauffe. Prendre des profits partiels.',pt:'Sobreaquecido. Realize lucros parciais.',tr:'Aşırı ısındı. Kısmi kâr al.',vi:'Quá nóng. Chốt lời một phần.'},
+'EXIT':{ko:'고위험. 익절 또는 청산 고려.',en:'High risk. Consider exiting.',ja:'高リスク。利確・撤退を検討。',es:'Alto riesgo. Considera salir.',de:'Hohes Risiko. Ausstieg erwägen.',fr:'Risque élevé. Envisager la sortie.',pt:'Alto risco. Considere sair.',tr:'Yüksek risk. Çıkışı düşün.',vi:'Rủi ro cao. Cân nhắc thoát.'}};
+function getDesc(sig){const d=DESC[sig];if(!d)return'';return d[LANG]||d.en;}
 const ARC=157;
 function fillGauge(coin,score){const el=document.getElementById('gfill_'+coin);if(!el)return;const col=score>=7?'#22c55e':score>=5?'#f7931a':score>=3.5?'#fb923c':'#f87171';el.setAttribute('stroke',col);el.setAttribute('stroke-dasharray',(Math.min(Math.max(score/10,0),1)*ARC)+' '+ARC);}
 function renderInds(coin,details){const wrap=document.getElementById('ginds_'+coin);if(!wrap||!details)return;const TOP=['mvrv_z','nupl','hash_ribbon','sth_sopr','cb_premium','lth_supply'];const items=TOP.map(k=>details[k]).filter(Boolean).slice(0,4);if(!items.length){wrap.innerHTML='';return;}wrap.innerHTML=items.map(d=>{const pct=d.max>0?Math.min(d.score/d.max*100,100):50;const col=pct>=70?'#22c55e':pct>=40?'#f7931a':'#f87171';return'<div class="gp-ind"><span class="gp-ind-name">'+d.label.replace(/ [—–].*/,'')+'</span><div class="gp-ind-bar-w"><div class="gp-ind-bar" style="width:'+pct+'%;background:'+col+'"></div></div><span class="gp-ind-sig" style="color:'+col+'">'+(d.signal||'')+'</span></div>';}).join('');}
