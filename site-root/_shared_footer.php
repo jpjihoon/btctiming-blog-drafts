@@ -57,6 +57,7 @@ if (!function_exists('h')) {
 .site-footer .sf-wrap{max-width:1100px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center;min-height:56px}
 .site-footer .sf-center{text-align:center;flex:1;min-width:0}
 .app-mini{display:inline-flex;align-items:center;gap:10px;background:#0d0d10;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:8px 13px 8px 9px;text-decoration:none;flex-shrink:0;transition:border-color .12s}
+.app-mini[hidden]{display:none!important}
 .app-mini--fixed{position:absolute;right:0;top:50%;transform:translateY(-50%)}
 .app-mini:hover{border-color:rgba(247,147,26,.4)}
 .app-mini .am-icon{width:36px;height:36px;border-radius:10px;background:#151518;border:1px solid rgba(247,147,26,.28);display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -123,9 +124,9 @@ html:not([lang]) .site-footer .ko{display:inline}
       var inApp = isStandalone || fromAndroidApp || flagged;
       if (inApp) {
         try { sessionStorage.setItem('bt_in_app', '1'); } catch(e){}
-        // 앱: 배너 숨김 유지 (hidden 그대로)
+        banner.hidden = true; banner.style.display = 'none'; // 앱: 확실히 숨김(인라인 스타일)
       } else {
-        banner.hidden = false; // 일반 브라우저에서만 노출
+        banner.hidden = false; banner.style.display = ''; // 일반 브라우저에서만 노출
       }
     }
   } catch(e){}
