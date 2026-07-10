@@ -21,7 +21,9 @@ if (empty($coins)) $coins = ['BTC'];
 
 $blogPosts = [];
 if ($showBlog) {
-    $metaDir = __DIR__ . '/../blog/meta';
+    // widget.php는 /www/ 에 위치, 블로그 메타는 /www/blog/meta/*.json
+    $metaDir = __DIR__ . '/blog/meta';
+    if (!is_dir($metaDir)) { $metaDir = __DIR__ . '/../blog/meta'; } // 폴백
     if (is_dir($metaDir)) {
         $files = glob($metaDir . '/*.json');
         usort($files, fn($a,$b) => filemtime($b) - filemtime($a));
@@ -201,13 +203,14 @@ function renderInds(coin,details){const wrap=document.getElementById('ginds_'+co
 function renderEntry(coin,score){const wrap=document.getElementById('gentry_'+coin),steps=document.getElementById('gsteps_'+coin);if(!wrap||!steps)return;if(score<6.0){wrap.style.display='none';return;}wrap.style.display='';const g=score>=8.0?[{pct:'50%',cond:'Now',col:'#22c55e'},{pct:'30%',cond:'≥7.0',col:'#f7931a'},{pct:'20%',cond:'≥6.0',col:'#facc15'}]:score>=7.0?[{pct:'40%',cond:'Now',col:'#22c55e'},{pct:'40%',cond:'≥7.5',col:'#f7931a'},{pct:'20%',cond:'≥8.0',col:'#facc15'}]:[{pct:'30%',cond:'Now',col:'#22c55e'},{pct:'40%',cond:'≥7.0',col:'#f7931a'},{pct:'30%',cond:'≥8.0',col:'#facc15'}];steps.innerHTML=g.map((s,i)=>'<div class="gp-step"><div class="gp-step-n">Step '+(i+1)+'</div><div class="gp-step-pct" style="color:'+s.col+'">'+s.pct+'</div><div class="gp-step-c">'+s.cond+'</div></div>').join('');}
 function updateGP(coin){const d=cache[coin];if(!d)return;const score=d.result?.final??0,sig=d.result?.action??'—',col=sigColor(sig);const gcs=document.getElementById('gcs_'+coin),gsig=document.getElementById('gsig_'+coin),gdesc=document.getElementById('gdesc_'+coin);if(gcs){gcs.textContent=score.toFixed(1);gcs.style.color=col;}if(gsig){gsig.textContent=sig;gsig.style.color=col;}if(gdesc)gdesc.textContent=getDesc(sig);fillGauge(coin,score);renderInds(coin,d.result?.details);renderEntry(coin,score);}
 let openCoin=null;
-function toggleGauge(coin){if(openCoin&&openCoin!==coin){document.getElementById('gp_'+openCoin)?.classList.remove('open');document.getElementById('row_'+openCoin)?.classList.remove('active');openCoin=null;}const gp=document.getElementById('gp_'+coin),row=document.getElementById('row_'+coin);if(!gp)return;const isOpen=gp.classList.contains('open');gp.classList.toggle('open',!isOpen);row?.classList.toggle('active',!isOpen);openCoin=isOpen?null:coin;if(!isOpen)updateGP(coin);postHeight();}
+function toggleGauge(coin){if(openCoin&&openCoin!==coin){document.getElementById('gp_'+openCoin)?.classList.remove('open');document.getElementById('row_'+openCoin)?.classList.remove('active');openCoin=null;}const gp=document.getElementById('gp_'+coin),row=document.getElementById('row_'+coin);if(!gp)return;const isOpen=gp.classList.contains('open');gp.classList.toggle('open',!isOpen);row?.classList.toggle('active',!isOpen);openCoin=isOpen?null:coin;if(!isOpen)updateGP(coin);postHeight();setTimeout(postHeight,60);setTimeout(postHeight,250);}
 // 부모(플로팅 패널/임베드)에 현재 문서 높이 전달 → iframe이 내용에 맞게 커짐
 function postHeight(){try{const h=document.body.scrollHeight;parent.postMessage({btctimingWidgetHeight:h},'*');}catch(e){}}
 function loadCoin(coin){return fetch(API+'?coin='+coin+'&mode=buy').then(r=>r.json()).then(d=>{cache[coin]=d;const score=d.result?.final??0,sig=d.result?.action??'—',price=d.price??0,col=sigColor(sig);const ps=document.getElementById('price_'+coin),sc=document.getElementById('score_'+coin),sg=document.getElementById('sig_'+coin),cg=document.getElementById('chg_'+coin);if(ps)ps.textContent=fmtP(price);if(sc){sc.textContent=score.toFixed(1);sc.style.color=col;}if(sg){sg.textContent=sig;sg.style.color=col;}if(cg){const chg=d.chg24h;if(chg!==null&&chg!==undefined){const sign=chg>0?'+':'';cg.textContent=sign+chg.toFixed(2)+'%';cg.style.color=chg>0?'#22c55e':chg<0?'#f87171':'var(--t3)';}else{cg.textContent='';}}if(openCoin===coin)updateGP(coin);}).catch(()=>{});}
 function loadAll(){document.getElementById('updTime').textContent='…';Promise.all(COINS.map(loadCoin)).then(()=>{const n=new Date();document.getElementById('updTime').textContent=n.toLocaleTimeString(LOCALE,{hour:'2-digit',minute:'2-digit'});postHeight();});}
 function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');}
 loadAll();setInterval(loadAll,60000);
+window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
 </script>
 </body>
 </html>
