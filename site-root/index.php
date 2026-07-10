@@ -834,7 +834,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
 <!-- Settings Modal (Widget + Alert tabs) -->
 <div class="modal-bg" id="notifModal" onclick="if(event.target===this)closeModal()">
-  <div class="modal" style="max-height:92vh;overflow-y:auto;width:min(560px,96vw)">
+  <div class="modal" style="max-height:92vh;min-height:min(680px,88vh);overflow-y:auto;width:min(560px,96vw)">
     <div class="modal-hd">
       ⚙️ <span data-i="settingsTitle">Settings</span>
       <span class="modal-close" onclick="closeModal()">×</span>
@@ -842,8 +842,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
     <!-- 탭 버튼 -->
     <div class="stab-row">
-      <button class="stab active" id="stab_widget" onclick="switchTab('widget')">📋 Widget</button>
-      <button class="stab" id="stab_alert" onclick="switchTab('alert')">🔔 Alerts</button>
+      <button id="stab_widget" onclick="switchTab('widget')" style="flex:1;padding:10px;border-radius:8px;border:1px solid #f7931a;background:#f7931a;color:#0a0a0a;font-size:12.5px;cursor:pointer;font-weight:700;text-align:center">📋 Widget</button>
+      <button id="stab_alert" onclick="switchTab('alert')" style="flex:1;padding:10px;border-radius:8px;border:1px solid var(--b2);background:var(--bg3);color:var(--t1);font-size:12.5px;cursor:pointer;font-weight:600;text-align:center">🔔 Alerts</button>
     </div>
 
     <!-- 위젯 탭 -->
@@ -893,14 +893,6 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
           Keeps a small live widget floating on this page — drag it anywhere.
-        </div>
-
-        <!-- 데스크톱 앱으로 설치 (PWA) -->
-        <button onclick="installPwaHint()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>💻</span> Install as desktop app
-        </button>
-        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
-          Installs BTCtiming as a standalone app window on your PC (via your browser).
         </div>
 
         <!-- 코드 복사 -->
@@ -1284,8 +1276,16 @@ window.BT_SERVER_LANG = <?= json_encode($lang) ?>; // 서버가 URL 기준으로
 function switchTab(tab){
   document.getElementById('tab_widget').style.display = tab==='widget' ? '' : 'none';
   document.getElementById('tab_alert').style.display  = tab==='alert'  ? '' : 'none';
-  document.getElementById('stab_widget').classList.toggle('active', tab==='widget');
-  document.getElementById('stab_alert').classList.toggle('active', tab==='alert');
+  // 탭 색상: 활성 = 오렌지 배경+검은 글씨, 비활성 = 회색 배경+밝은 글씨 (인라인 강제)
+  const w = document.getElementById('stab_widget');
+  const a = document.getElementById('stab_alert');
+  if(tab==='widget'){
+    w.style.cssText = 'flex:1;padding:10px;border-radius:8px;border:1px solid #f7931a;background:#f7931a;color:#0a0a0a;font-size:12.5px;cursor:pointer;font-weight:700;text-align:center';
+    a.style.cssText = 'flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,.14);background:#1e1e25;color:#f0f0f2;font-size:12.5px;cursor:pointer;font-weight:600;text-align:center';
+  } else {
+    a.style.cssText = 'flex:1;padding:10px;border-radius:8px;border:1px solid #f7931a;background:#f7931a;color:#0a0a0a;font-size:12.5px;cursor:pointer;font-weight:700;text-align:center';
+    w.style.cssText = 'flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,.14);background:#1e1e25;color:#f0f0f2;font-size:12.5px;cursor:pointer;font-weight:600;text-align:center';
+  }
   if(tab==='widget') initWidgetTab();
 }
 
@@ -1310,7 +1310,7 @@ let wgInited = false;
 function initWidgetTab(){
   if(wgInited) return;
   wgInited = true;
-  try { wgSelected = JSON.parse(localStorage.getItem('btc_wg_coins')||'["BTC"]'); } catch(e){ wgSelected=['BTC']; }
+  try { wgSelected = JSON.parse(localStorage.getItem('btc_wg_coins')||'["BTC","ETH","SOL","XRP","DOGE"]'); } catch(e){ wgSelected=['BTC','ETH','SOL','XRP','DOGE']; }
   try { wgShowBlog = localStorage.getItem('btc_wg_blog') === '1'; } catch(e){}
   try { wgEnabled = localStorage.getItem('btc_wg_enabled') !== '0'; } catch(e){}
   const blogToggle = document.getElementById('wgBlogToggle');
@@ -1365,10 +1365,16 @@ function filterWgCoins(val){
   const box = document.getElementById('wgSearchResults');
   if(!box) return;
   const q = (val||'').toUpperCase().trim();
-  if(!q){ box.style.display='none'; box.innerHTML=''; return; }
-  const matches = WG_ALL_COINS.filter(c => c.includes(q) && !wgSelected.includes(c)).slice(0, 8);
+  let matches;
+  if(!q){
+    // 검색어 없을 때: 아직 추가 안 한 인기 코인 추천
+    const popular = ['BTC','ETH','SOL','XRP','DOGE','ADA','BNB','AVAX','LINK','DOT','TRX','MATIC','LTC','SHIB','PEPE'];
+    matches = popular.filter(c => WG_ALL_COINS.includes(c) && !wgSelected.includes(c)).slice(0, 8);
+  } else {
+    matches = WG_ALL_COINS.filter(c => c.includes(q) && !wgSelected.includes(c)).slice(0, 8);
+  }
   if(!matches.length){
-    box.innerHTML = '<div style="padding:8px 11px;font-size:11px;color:var(--t3)">No match, or already added.</div>';
+    box.innerHTML = '<div style="padding:8px 11px;font-size:11px;color:var(--t3)">' + (q ? 'No match, or already added.' : 'All popular coins added.') + '</div>';
     box.style.display='block';
     return;
   }
@@ -1410,7 +1416,8 @@ function toggleWgBlog(el){
 }
 
 function getWidgetLang(){
-  // 홈페이지 언어 설정을 따라감: currentLang(전역) → localStorage → html lang → en
+  // 홈페이지 언어를 정확히 따라감: BTLang.get()(URL>쿠키>localStorage) → currentLang → html lang → en
+  try { if(window.BTLang && BTLang.get){ const l = BTLang.get(); if(l) return l; } } catch(e){}
   if(typeof currentLang !== 'undefined' && currentLang) return currentLang;
   try { const l = localStorage.getItem('blogLang'); if(l) return l; } catch(e){}
   const hl = document.documentElement.getAttribute('lang');
@@ -1440,24 +1447,6 @@ function updateWidgetPreview(){
 
 // ── 플로팅 위젯: 현재 페이지 위에 드래그 가능한 패널로 상주 ──
 // (브라우저 확장프로그램처럼 화면 위에 항상 떠있는 경험. 별도 창/앱 설치 불필요.)
-// PWA 설치 (데스크톱 앱처럼) — 브라우저가 지원하면 설치 프롬프트, 아니면 수동 안내
-let deferredPwaPrompt = null;
-window.addEventListener('beforeinstallprompt', function(e){
-  e.preventDefault();
-  deferredPwaPrompt = e;
-});
-function installPwaHint(){
-  if(deferredPwaPrompt){
-    deferredPwaPrompt.prompt();
-    deferredPwaPrompt.userChoice.finally(()=>{ deferredPwaPrompt = null; });
-  } else {
-    const isChrome = /Chrome|Edg/.test(navigator.userAgent);
-    alert(isChrome
-      ? 'To install: click the ⊕ (install) icon in your browser\'s address bar, or open the browser menu → "Install BTCtiming".\n\nThis adds BTCtiming as a standalone app window on your desktop.'
-      : 'Your browser may not support app install. Try Chrome or Edge, then use the browser menu → "Install BTCtiming" to add it as a desktop app.');
-  }
-}
-
 function launchFloatingWidget(){
   let fw = document.getElementById('btcFloatWidget');
   if(fw){ fw.remove(); return; }  // 이미 있으면 토글로 닫기
@@ -1480,15 +1469,16 @@ function launchFloatingWidget(){
   closeModal();
 }
 
-// 위젯 iframe이 보내는 높이 메시지 수신 → 플로팅 패널 높이 자동 조정 (최대 480px, 넘으면 내부 스크롤)
+// 위젯 iframe이 보내는 높이 메시지 수신 → 플로팅 패널이 내용 전체만큼 확장 (스크롤 없이)
 window.addEventListener('message', function(e){
   if(!e.data || typeof e.data.btctimingWidgetHeight === 'undefined') return;
   const fw = document.getElementById('btcFloatWidget');
   if(!fw) return;
   const frame = document.getElementById('btcFloatFrame');
-  const inner = Math.min(e.data.btctimingWidgetHeight, 460);
+  // 화면 높이를 넘지 않는 선에서 내용 전체만큼 확장
+  const maxH = window.innerHeight - 120;
+  const inner = Math.min(e.data.btctimingWidgetHeight, maxH);
   fw.style.height = (inner + 34) + 'px';
-  if(frame) frame.scrolling = 'yes';
 });
 
 function syncFloatingWidget(){
