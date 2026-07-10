@@ -124,6 +124,13 @@ body{display:flex;flex-direction:column}
 </style>
 </head>
 <body>
+<?php if ($isPwa): ?>
+<div id="pwaInstallBanner" style="background:linear-gradient(135deg,#f7931a,#e8820a);color:#0a0a0a;padding:12px 14px;font-size:12.5px;line-height:1.5;text-align:center">
+  <div style="font-weight:800;margin-bottom:6px">💻 <?= $lang==='ko'?'이 위젯을 앱으로 설치':'Install this widget as an app' ?></div>
+  <div style="font-size:11px;opacity:.85;margin-bottom:9px"><?= $lang==='ko'?'아래 버튼을 누르면 이 위젯만 독립 앱 창으로 설치됩니다 (사이트 전체가 아님).':'Installs only this widget as a standalone app (not the whole site).' ?></div>
+  <button id="pwaBigInstall" style="background:#0a0a0a;color:#f7931a;border:none;border-radius:8px;padding:9px 20px;font-size:12.5px;font-weight:800;cursor:pointer">💻 <?= $lang==='ko'?'앱으로 설치':'Install app' ?></button>
+</div>
+<?php endif; ?>
 <div class="wg-head">
   <a class="wg-logo" href="https://btctiming.com" target="_top" rel="noopener">
     <svg width="18" height="18" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#26262b" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 41 29" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -217,22 +224,31 @@ window.addEventListener('beforeinstallprompt',function(e){
   e.preventDefault(); _wgInstallPrompt=e;
   if(IS_PWA){ var b=document.getElementById('wgPwaInstall'); if(b) b.style.display=''; }
 });
+function doWidgetInstall(){
+  if(_wgInstallPrompt){
+    _wgInstallPrompt.prompt();
+    _wgInstallPrompt.userChoice.finally(function(){_wgInstallPrompt=null;});
+  } else {
+    var isKo=LANG==='ko';
+    alert(isKo
+      ? '이 위젯을 앱으로 설치하려면:\n\n① 주소창 오른쪽 끝의 설치 아이콘(⊕ 또는 모니터 모양)을 클릭\n   (안 보이면 브라우저 ⋮ 메뉴 → "앱" → "이 페이지를 앱으로 설치")\n② "설치" 클릭\n\n지금 이 페이지에서 설치해야 위젯만 앱으로 뜹니다.\n(홈에서 설치하면 사이트 전체가 앱이 됩니다.)'
+      : 'To install THIS widget as an app:\n\n1. Click the install icon at the right of the address bar\n   (or menu -> Apps -> Install this page as an app)\n2. Click "Install"\n\nInstall from THIS page so only the widget becomes an app.');
+  }
+}
 window.addEventListener('DOMContentLoaded',function(){
-  var b=document.getElementById('wgPwaInstall');
-  if(!b) return;
-  var tx=document.getElementById('wgPwaInstallTx');
   var L={ko:'앱 설치',en:'Install',ja:'インストール',es:'Instalar',de:'Installieren',fr:'Installer',pt:'Instalar',tr:'Kur',vi:'Cài đặt'};
-  if(tx) tx.textContent=L[LANG]||'Install';
-  b.onclick=function(){
-    if(_wgInstallPrompt){ _wgInstallPrompt.prompt(); _wgInstallPrompt.userChoice.finally(function(){_wgInstallPrompt=null;}); }
-    else{
-      var isKo=LANG==='ko';
-      alert(isKo
-        ? '이 위젯을 앱으로 설치하려면:\n주소창 오른쪽의 설치 아이콘을 누르거나,\n브라우저 메뉴 → "앱 설치"를 선택하세요.\n\n설치하면 이 위젯만 독립 창으로 실행됩니다.'
-        : 'To install this widget as an app:\nClick the install icon in the address bar,\nor browser menu -> "Install app".\n\nOnly this widget will run as a standalone window.');
-    }
-  };
+  var b=document.getElementById('wgPwaInstall');
+  if(b){ var tx=document.getElementById('wgPwaInstallTx'); if(tx) tx.textContent=L[LANG]||'Install'; b.onclick=doWidgetInstall; }
+  var big=document.getElementById('pwaBigInstall');
+  if(big){ big.onclick=doWidgetInstall; }
 });
+window.addEventListener('appinstalled',function(){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; });
+(function(){
+  try{
+    var standalone=(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone===true;
+    if(standalone){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; }
+  }catch(e){}
+})();
 const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',es:'es-ES',de:'de-DE',fr:'fr-FR',pt:'pt-BR',tr:'tr-TR',vi:'vi-VN'}[LANG]||'en-US';
 let cache={};
 function sigColor(sig){if(!sig)return'#606068';if(sig.includes('FULL'))return'#22c55e';if(sig.includes('ADD'))return'#86efac';if(sig.includes('SPLIT LONG'))return'#a3e635';if(sig.includes('WATCH'))return'#facc15';if(sig.includes('SPLIT EXIT'))return'#fb923c';return'#f87171';}
@@ -261,7 +277,7 @@ function loadAll(){document.getElementById('updTime').textContent='…';Promise.
 function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');postHeight();setTimeout(postHeight,60);}
 loadAll();setInterval(loadAll,60000);
 window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
-if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js',{scope:'/widget.php'}).catch(function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});});}
 </script>
 </body>
 </html>

@@ -1341,10 +1341,12 @@ function openWidgetWindow(){
 }
 
 function installBtcApp(){
-  // 위젯 "페이지 자체"를 앱으로 설치 → 홈 전체가 아니라 위젯만 독립 앱 창이 됨.
   const url = buildWidgetUrl() + '&pwa=1';
+  const isKo = getWidgetLang() === 'ko';
   window.open(url, '_blank');
-  setTimeout(function(){ showInstallGuide('widget'); }, 400);
+  alert(isKo
+    ? '새 탭에서 위젯 페이지가 열렸습니다.\n\n그 탭으로 이동해서 상단의 "💻 앱으로 설치" 버튼을 누르세요.\n그러면 이 위젯만 독립 앱 창으로 설치됩니다.\n\n(지금 이 홈 화면에서 설치하면 사이트 전체가 앱이 되니, 꼭 새로 열린 위젯 탭에서 설치하세요.)'
+    : 'The widget page opened in a new tab.\n\nGo to that tab and click the "Install app" button at the top.\nThat installs ONLY the widget as a standalone app.');
 }
 
 function showInstallGuide(mode){
