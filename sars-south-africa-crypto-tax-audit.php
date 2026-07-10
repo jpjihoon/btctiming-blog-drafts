@@ -5,6 +5,10 @@
   <p class="ja">南アフリカ共和国国税庁(<strong>SARS</strong>)が7月1日、暗号資産の課税方式を整理した指針の草案を公開し、8月31日まで公開意見を募ると明らかにした。<strong>Cryptobriefing</strong>、<strong>Bitcoin.com</strong>、南ア紙<strong>Polity</strong>によれば、この草案は推定580万〜600万人とされる自国の暗号資産利用者の取引をどう課税・監査するかを規定し、SARSは同時にデジタルウォレットを追跡・監査する新設の専門チーム「暗号税収増強ユニット(Crypto Revenue Augmentation Unit)」を稼働させた。草案は暗号資産を外貨ではなく無形資産に分類し、保有中は課税せず、売却・交換・決済で「処分」する瞬間に課税するという原則を明示した。</p>
   <p class="es">El servicio de recaudación de Sudáfrica (<strong>SARS</strong>) dijo el 1 de julio que había publicado un borrador de guía que establece cómo se gravarán los criptoactivos, abierto a comentarios públicos hasta el 31 de agosto. Según <strong>Cryptobriefing</strong>, <strong>Bitcoin.com</strong> y el medio sudafricano <strong>Polity</strong>, el borrador rige cómo se gravarán y auditarán las transacciones de los estimados 5,8-6 millones de usuarios cripto del país, y el SARS creó al mismo tiempo un nuevo equipo dedicado —la Unidad de Aumento de Ingresos Cripto— para rastrear y auditar billeteras digitales. El borrador clasifica el cripto como un activo intangible en lugar de moneda extranjera, y fija el principio de que mantener no tributa, pero el momento de la "disposición" —vender, intercambiar o gastar— sí.</p>
   <p class="de">Südafrikas Steuerbehörde (<strong>SARS</strong>) erklärte am 1. Juli, sie habe einen Leitfaden-Entwurf veröffentlicht, der festlegt, wie Krypto-Vermögenswerte besteuert werden, offen für öffentliche Kommentare bis 31. August. Laut <strong>Cryptobriefing</strong>, <strong>Bitcoin.com</strong> und dem südafrikanischen Medium <strong>Polity</strong> regelt der Entwurf, wie die Transaktionen der geschätzt 5,8-6 Millionen Krypto-Nutzer des Landes besteuert und geprüft werden, und SARS stellte gleichzeitig ein neues eigenes Team auf — die Crypto Revenue Augmentation Unit — um digitale Wallets zu verfolgen und zu prüfen. Der Entwurf stuft Krypto als immateriellen Vermögenswert statt als Fremdwährung ein und legt den Grundsatz fest, dass Halten nicht besteuert wird, der Moment der "Veräußerung" — Verkauf, Tausch oder Ausgabe — hingegen schon.</p>
+  <p class="fr">Le service des impôts d'Afrique du Sud (<strong>SARS</strong>) a annoncé le 1er juillet avoir publié un projet de guide précisant comment les cryptoactifs seront imposés, ouvert aux commentaires publics jusqu'au 31 août. Selon <strong>Cryptobriefing</strong>, <strong>Bitcoin.com</strong> et le média sud-africain <strong>Polity</strong>, ce projet régit la manière dont seront imposées et contrôlées les transactions des quelque 5,8 à 6 millions d'utilisateurs de cryptomonnaies du pays, et le SARS a simultanément mis en place une nouvelle équipe dédiée — la Crypto Revenue Augmentation Unit — chargée de suivre et de vérifier les portefeuilles numériques. Le projet classe les cryptoactifs comme des actifs incorporels plutôt que comme une devise étrangère, et pose le principe selon lequel la détention n'est pas imposée, mais le moment de la « cession » — vente, échange ou dépense — l'est.</p>
+  <p class="pt">O fisco da África do Sul (<strong>SARS</strong>) informou em 1º de julho que havia publicado um projeto de diretriz que estabelece como os criptoativos serão tributados, aberto a comentários públicos até 31 de agosto. Segundo a <strong>Cryptobriefing</strong>, a <strong>Bitcoin.com</strong> e o veículo sul-africano <strong>Polity</strong>, o rascunho rege como as transações dos estimados 5,8 a 6 milhões de usuários de cripto do país serão tributadas e auditadas, e o SARS criou simultaneamente uma nova equipe dedicada — a Crypto Revenue Augmentation Unit — para rastrear e auditar carteiras digitais. O rascunho classifica as criptomoedas como ativo intangível em vez de moeda estrangeira, e estabelece o princípio de que a mera posse não é tributada, mas o momento da "alienação" — vender, trocar ou gastar — sim.</p>
+  <p class="tr">Güney Afrika vergi dairesi (<strong>SARS</strong>), 1 Temmuz'da kripto varlıkların nasıl vergilendirileceğini belirleyen bir taslak rehber yayımladığını ve bunun 31 Ağustos'a kadar kamuoyu görüşüne açık olduğunu duyurdu. <strong>Cryptobriefing</strong>, <strong>Bitcoin.com</strong> ve Güney Afrikalı yayın organı <strong>Polity</strong>'ye göre taslak, ülkedeki tahmini 5,8-6 milyon kripto kullanıcısının işlemlerinin nasıl vergilendirileceğini ve denetleneceğini belirliyor; SARS aynı zamanda dijital cüzdanları izlemek ve denetlemek üzere Crypto Revenue Augmentation Unit adlı yeni, özel bir ekip kurdu. Taslak, kriptoyu yabancı para birimi yerine maddi olmayan bir varlık olarak sınıflandırıyor ve elde tutmanın vergilendirilmediği, ancak satma, takas etme veya harcama yoluyla gerçekleşen "elden çıkarma" anının vergilendirildiği ilkesini koyuyor.</p>
+  <p class="vi">Cơ quan thuế Nam Phi (<strong>SARS</strong>) cho biết hôm 1/7 rằng họ đã công bố dự thảo hướng dẫn quy định cách đánh thuế tài sản tiền mã hóa, mở lấy ý kiến công chúng đến hết ngày 31/8. Theo <strong>Cryptobriefing</strong>, <strong>Bitcoin.com</strong> và hãng tin Nam Phi <strong>Polity</strong>, dự thảo này quy định cách các giao dịch của ước tính 5,8-6 triệu người dùng tiền mã hóa của nước này sẽ bị đánh thuế và kiểm toán, đồng thời SARS cũng lập một đội đặc nhiệm mới — Crypto Revenue Augmentation Unit — để theo dõi và kiểm toán ví kỹ thuật số. Dự thảo phân loại tiền mã hóa là tài sản vô hình chứ không phải ngoại tệ, và đặt ra nguyên tắc rằng việc nắm giữ không bị đánh thuế nhưng thời điểm "định đoạt" — bán, hoán đổi hoặc chi tiêu — thì có.</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -93,12 +97,84 @@
     <text x="680" y="292" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Quelle: SARS-Entwurf, Cryptobriefing</text>
   </svg>
   </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Le taux se divise selon « trading » ou « investissement »</text>
+    <text x="20" y="46" fill="#71717a" font-size="11" font-family="sans-serif">Même pièce, imposition différente selon la nature de l'activité</text>
+    <line x1="70" y1="230" x2="660" y2="230" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="160" fill="#f59e0b"/>
+    <text x="195" y="60" fill="#f59e0b" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-45%</text>
+    <text x="195" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Trading / court terme</text>
+    <text x="195" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">marginal sur revenu ordinaire</text>
+    <rect x="450" y="102" width="90" height="128" fill="#38bdf8"/>
+    <text x="495" y="92" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-36%</text>
+    <text x="495" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Détention à long terme</text>
+    <text x="495" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">plus-value (effective)</text>
+    <text x="20" y="292" fill="#71717a" font-size="10" font-family="sans-serif">Les échanges crypto-à-crypto imposés comme troc · Le CARF partage automatiquement les données de portefeuilles transfrontaliers (adopté le 2026-03-01)</text>
+    <text x="680" y="292" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Source : projet SARS, Cryptobriefing</text>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">A alíquota se divide entre "trading" e "investimento"</text>
+    <text x="20" y="46" fill="#71717a" font-size="11" font-family="sans-serif">Mesma moeda, tributação diferente conforme a natureza da atividade</text>
+    <line x1="70" y1="230" x2="660" y2="230" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="160" fill="#f59e0b"/>
+    <text x="195" y="60" fill="#f59e0b" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-45%</text>
+    <text x="195" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Trading / curto prazo</text>
+    <text x="195" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">marginal de renda ordinária</text>
+    <rect x="450" y="102" width="90" height="128" fill="#38bdf8"/>
+    <text x="495" y="92" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-36%</text>
+    <text x="495" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Retenção de longo prazo</text>
+    <text x="495" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">ganho de capital (efetivo)</text>
+    <text x="20" y="292" fill="#71717a" font-size="10" font-family="sans-serif">Trocas cripto-para-cripto tributadas como permuta · CARF compartilha automaticamente dados de carteiras transfronteiriças (adotado em 2026-03-01)</text>
+    <text x="680" y="292" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Fonte: rascunho do SARS, Cryptobriefing</text>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Oran "alım satım" ile "yatırım" arasında ayrışıyor</text>
+    <text x="20" y="46" fill="#71717a" font-size="11" font-family="sans-serif">Aynı coin, faaliyetin niteliğine göre farklı vergi türü</text>
+    <line x1="70" y1="230" x2="660" y2="230" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="160" fill="#f59e0b"/>
+    <text x="195" y="60" fill="#f59e0b" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-45%</text>
+    <text x="195" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Alım satım / gün içi işlem</text>
+    <text x="195" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">olağan gelir marjinal oranı</text>
+    <rect x="450" y="102" width="90" height="128" fill="#38bdf8"/>
+    <text x="495" y="92" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-36%</text>
+    <text x="495" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Uzun vadeli elde tutma</text>
+    <text x="495" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">sermaye kazancı (efektif)</text>
+    <text x="20" y="292" fill="#71717a" font-size="10" font-family="sans-serif">Kripto-kriptoya takaslar takas (barter) olarak vergilendiriliyor · CARF sınır ötesi cüzdan verilerini otomatik paylaşıyor (2026-03-01'de kabul edildi)</text>
+    <text x="680" y="292" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Kaynak: SARS taslağı, Cryptobriefing</text>
+  </svg>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Mức thuế chia theo "giao dịch" hay "đầu tư"</text>
+    <text x="20" y="46" fill="#71717a" font-size="11" font-family="sans-serif">Cùng một coin, sắc thuế khác nhau tùy tính chất hoạt động</text>
+    <line x1="70" y1="230" x2="660" y2="230" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="160" fill="#f59e0b"/>
+    <text x="195" y="60" fill="#f59e0b" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-45%</text>
+    <text x="195" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Giao dịch / lướt sóng trong ngày</text>
+    <text x="195" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">thuế suất biên thu nhập thông thường</text>
+    <rect x="450" y="102" width="90" height="128" fill="#38bdf8"/>
+    <text x="495" y="92" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">18-36%</text>
+    <text x="495" y="250" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">Nắm giữ dài hạn</text>
+    <text x="495" y="268" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">lãi vốn (thực tế)</text>
+    <text x="20" y="292" fill="#71717a" font-size="10" font-family="sans-serif">Hoán đổi tiền mã hóa lẫn nhau bị đánh thuế như trao đổi hàng hóa · CARF tự động chia sẻ dữ liệu ví xuyên biên giới (áp dụng từ 2026-03-01)</text>
+    <text x="680" y="292" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Nguồn: dự thảo SARS, Cryptobriefing</text>
+  </svg>
+  </div>
 
   <h2 class="ko">초안이 규정한 과세 구조</h2>
   <h2 class="en">The tax structure the draft sets out</h2>
   <h2 class="ja">草案が定める課税構造</h2>
   <h2 class="es">La estructura fiscal que fija el borrador</h2>
   <h2 class="de">Die Steuerstruktur, die der Entwurf festlegt</h2>
+  <h2 class="fr">La structure fiscale que fixe le projet</h2>
+  <h2 class="pt">A estrutura tributária que o rascunho estabelece</h2>
+  <h2 class="tr">Taslağın belirlediği vergi yapısı</h2>
+  <h2 class="vi">Cấu trúc thuế mà dự thảo đặt ra</h2>
   <p class="ko">초안의 뼈대는 세 가지다. 첫째, 가상자산은 무형자산으로 다뤄지며 보유 자체는 과세 사건이 아니다 — 팔거나, 다른 코인으로 바꾸거나, 재화·서비스 결제에 쓰는 '처분' 시점에만 세금이 붙는다. 둘째, 같은 코인이라도 활동의 성격에 따라 적용 세목이 갈린다. <strong>Coincu</strong>와 <strong>TechNext</strong>에 따르면 사업적·단기 트레이딩으로 판단되면 이익은 총소득으로 잡혀 18~45% 한계세율의 소득세 대상이 되고, 장기 투자로 보유했다면 자본이득세 대상으로 실효세율은 18~36% 구간이 된다. 셋째, 코인 간 교환(예: 이더리움→솔라나, 비트코인→스테이블코인)은 '물물교환(barter)' 거래로 간주돼, 교환 시점의 시장가치를 기준으로 그 자체가 과세 사건이 된다.</p>
   <p class="ko">이 구조에서 실무적으로 가장 뜨거운 쟁점은 '트레이딩이냐 투자냐'의 경계다. 남아공 세법은 이 구분을 고정된 보유기간이 아니라 거래 빈도·의도·조직성 같은 정성적 요소로 판단하는데, 이는 납세자와 과세당국 사이에 해석 다툼을 낳는 전형적 회색지대다. 예컨대 활발히 스왑을 반복한 이용자는 스스로 '장기 투자'라 여겨도 SARS가 '트레이딩'으로 재분류해 더 높은 소득세율을 매길 수 있다. 특히 코인 간 교환을 과세 사건으로 못 박은 대목은, 법정화폐로 현금화하지 않았으니 세금이 없다고 믿어온 이용자들의 통념과 정면으로 부딪친다 — 이는 미국·영국 등 다수 관할권이 이미 채택한 방식과 같은 방향이다.</p>
   <p class="en">The draft rests on three pillars. First, crypto is treated as an intangible asset and merely holding it is not a taxable event — tax attaches only at the point of "disposal": selling, swapping for another coin, or spending on goods and services. Second, the same coin draws a different tax head depending on the nature of the activity. Per <strong>Coincu</strong> and <strong>TechNext</strong>, if the activity is deemed business-like or short-term trading, gains are treated as gross income and taxed at ordinary marginal rates of 18-45%; if held as a long-term investment, the proceeds fall under capital gains tax at an effective 18-36%. Third, crypto-to-crypto swaps (say, Ethereum to Solana, or Bitcoin to a stablecoin) are treated as barter transactions, so the swap itself is a taxable event valued at the market price at the time.</p>

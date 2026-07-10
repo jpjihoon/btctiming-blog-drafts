@@ -5,12 +5,20 @@
   <p class="ja">世界最大の企業ビットコイン保有社である<strong>ストラテジー(Strategy・旧マイクロストラテジー)</strong>がビットコインの積み増しを止め、創業以来初めてビットコインの売却を正式に承認したと、<strong>The Block</strong>と<strong>FinanceFeeds</strong>が米証券取引委員会(SEC)への8-K開示を引用して伝えた。同社は6月22日から28日までビットコインを買わず、最大12億5,000万ドル相当のビットコインを売ってドル準備金へ移せる「BTC収益化プログラム(BTC Monetization Program)」を新設した。これは「一方向の資本調達」から「能動的な資本管理」への転換だとCEOのフォン・レ(Phong Le)が述べた。</p>
   <p class="es">El mayor tenedor corporativo de bitcoin del mundo, <strong>Strategy (antes MicroStrategy)</strong>, ha dejado de acumular bitcoin y, por primera vez en su historia, autorizó formalmente venderlo, informaron <strong>The Block</strong> y <strong>FinanceFeeds</strong>, citando un formulario 8-K ante la Comisión de Bolsa y Valores de EE. UU. (SEC). La empresa no compró bitcoin del 22 al 28 de junio y creó un "Programa de Monetización de BTC" que le permite vender hasta 1.250 millones de dólares de bitcoin y mover lo obtenido a una reserva en dólares. El CEO Phong Le lo describió como un giro de la "emisión de capital en un solo sentido" a la "gestión activa de capital".</p>
   <p class="de">Der weltweit größte Unternehmens-Bitcoin-Halter, <strong>Strategy (ehemals MicroStrategy)</strong>, hat aufgehört, Bitcoin anzuhäufen, und erstmals in seiner Geschichte den Verkauf formell genehmigt, berichteten <strong>The Block</strong> und <strong>FinanceFeeds</strong> unter Berufung auf ein 8-K-Dokument bei der US-Börsenaufsicht SEC. Das Unternehmen kaufte vom 22. bis 28. Juni keinen Bitcoin und schuf ein "BTC-Monetarisierungsprogramm", das ihm erlaubt, Bitcoin für bis zu 1,25 Milliarden Dollar zu verkaufen und den Erlös in eine Dollarreserve zu verschieben. CEO Phong Le beschrieb es als Wende von "einseitiger Kapitalausgabe" zu "aktivem Kapitalmanagement".</p>
+  <p class="fr">Le plus grand détenteur institutionnel de bitcoin au monde, <strong>Strategy (anciennement MicroStrategy)</strong>, a cessé d'accumuler du bitcoin et, pour la première fois de son histoire, a formellement autorisé sa vente, ont rapporté <strong>The Block</strong> et <strong>FinanceFeeds</strong>, citant un dépôt 8-K auprès de la Securities and Exchange Commission (SEC) des États-Unis. L'entreprise n'a acheté aucun bitcoin du 22 au 28 juin et a créé un « BTC Monetization Program » lui permettant de vendre jusqu'à 1,25 milliard de dollars de bitcoin et de transférer le produit dans une réserve en dollars. Le PDG Phong Le a décrit cela comme un passage d'une « émission de capital à sens unique » à une « gestion active du capital ».</p>
+  <p class="pt">O maior detentor corporativo de bitcoin do mundo, <strong>Strategy (antiga MicroStrategy)</strong>, parou de acumular bitcoin e, pela primeira vez em sua história, autorizou formalmente a sua venda, informaram <strong>The Block</strong> e <strong>FinanceFeeds</strong>, citando um documento 8-K apresentado à Comissão de Valores Mobiliários dos EUA (SEC). A empresa não comprou bitcoin entre 22 e 28 de junho e criou um "BTC Monetization Program" que lhe permite vender até US$ 1,25 bilhão em bitcoin e transferir o valor para uma reserva em dólares. O CEO Phong Le descreveu isso como uma mudança de "emissão de capital de via única" para "gestão ativa de capital".</p>
+  <p class="tr">Dünyanın en büyük kurumsal bitcoin sahibi <strong>Strategy (eski adıyla MicroStrategy)</strong>, bitcoin biriktirmeyi durdurdu ve tarihinde ilk kez bitcoin satışını resmen onayladı; bunu <strong>The Block</strong> ve <strong>FinanceFeeds</strong>, ABD Sermaye Piyasası Kurulu'na (SEC) sunulan bir 8-K başvurusuna atıfla bildirdi. Şirket 22-28 Haziran arasında hiç bitcoin almadı ve elindeki bitcoinin 1,25 milyar dolara kadarını satıp gelirini dolar rezervine aktarmasına imkân tanıyan bir "BTC Monetization Program" oluşturdu. CEO Phong Le bunu "tek yönlü sermaye ihracından" "aktif sermaye yönetimine" geçiş olarak tanımladı.</p>
+  <p class="vi">Công ty nắm giữ bitcoin lớn nhất trong giới doanh nghiệp toàn cầu, <strong>Strategy (trước đây là MicroStrategy)</strong>, đã ngừng gom mua bitcoin và lần đầu tiên trong lịch sử công ty chính thức cho phép bán ra, theo <strong>The Block</strong> và <strong>FinanceFeeds</strong> dẫn hồ sơ 8-K nộp lên Ủy ban Chứng khoán và Giao dịch Hoa Kỳ (SEC). Công ty không mua bitcoin nào từ ngày 22 đến 28 tháng 6 và lập ra một "BTC Monetization Program" cho phép bán tới 1,25 tỷ USD bitcoin và chuyển số tiền thu được vào quỹ dự trữ đô la. CEO Phong Le mô tả đây là bước chuyển từ "phát hành vốn một chiều" sang "quản lý vốn chủ động".</p>
 
   <p class="ko">방향 전환의 배경에는 회사의 손익 상황이 있다. <strong>The Block</strong>에 따르면 스트래티지는 6월 26일 기준 비트코인 84만7,363개를 평균 매입가 7만5,651달러에 보유 중인데, 비트코인이 2024년 10월 이후 처음으로 6만 달러 아래로 밀리면서 미실현 손실이 약 140억 달러에 이르렀다. 보유 자산의 시가는 약 507억 달러로 평가됐다. 즉, 이 회사는 자신이 산 평균가보다 낮은 시세에 갇힌 채, 우선주 배당 같은 현금 유출 의무를 계속 감당해야 하는 상황에 처했다.</p>
   <p class="en">Behind the pivot is the company's profit-and-loss position. Per <strong>The Block</strong>, as of June 26 Strategy held 847,363 bitcoin at an average purchase price of $75,651, and with bitcoin slipping below $60,000 for the first time since October 2024, its unrealized loss reached about $14 billion. The holdings were valued at roughly $50.7 billion at market. In other words, the company is trapped below its own average cost while still having to meet cash-outflow obligations such as preferred-stock dividends.</p>
   <p class="ja">方向転換の背景には同社の損益状況がある。<strong>The Block</strong>によれば、ストラテジーは6月26日時点でビットコイン84万7,363枚を平均取得価格7万5,651ドルで保有しており、ビットコインが2024年10月以来初めて6万ドルを割り込んだことで含み損は約140億ドルに達した。保有資産の時価は約507億ドルと評価された。つまり同社は自らの平均取得価格を下回る相場に閉じ込められたまま、優先株配当のような現金流出義務を負い続ける状況に置かれている。</p>
   <p class="es">Detrás del giro está la situación de pérdidas y ganancias de la empresa. Según <strong>The Block</strong>, al 26 de junio Strategy poseía 847.363 bitcoin a un precio medio de compra de 75.651 dólares y, con el bitcoin cayendo por debajo de 60.000 dólares por primera vez desde octubre de 2024, su pérdida no realizada alcanzó unos 14.000 millones. Las tenencias se valoraban en unos 50.700 millones a precio de mercado. En otras palabras, la empresa está atrapada por debajo de su propio costo medio mientras aún debe cumplir obligaciones de salida de efectivo como los dividendos de acciones preferentes.</p>
   <p class="de">Hinter der Wende steht die Gewinn-und-Verlust-Lage des Unternehmens. Laut <strong>The Block</strong> hielt Strategy zum 26. Juni 847.363 Bitcoin zu einem durchschnittlichen Kaufpreis von 75.651 Dollar, und da Bitcoin erstmals seit Oktober 2024 unter 60.000 Dollar rutschte, erreichte der unrealisierte Verlust etwa 14 Milliarden Dollar. Die Bestände wurden zum Marktpreis auf rund 50,7 Milliarden Dollar bewertet. Mit anderen Worten: Das Unternehmen sitzt unter seinen eigenen Durchschnittskosten fest und muss gleichzeitig Zahlungsverpflichtungen wie Vorzugsaktiendividenden erfüllen.</p>
+  <p class="fr">Derrière ce revirement se trouve la situation de résultat de l'entreprise. Selon <strong>The Block</strong>, au 26 juin Strategy détenait 847 363 bitcoins à un prix d'achat moyen de 75 651 dollars et, le bitcoin étant tombé sous les 60 000 dollars pour la première fois depuis octobre 2024, sa perte latente atteignait environ 14 milliards de dollars. Les avoirs étaient évalués à environ 50,7 milliards de dollars au prix du marché. Autrement dit, l'entreprise se retrouve prisonnière sous son propre coût moyen tout en devant continuer à honorer des obligations de sortie de trésorerie telles que les dividendes des actions privilégiées.</p>
+  <p class="pt">Por trás dessa guinada está a posição de lucros e perdas da empresa. Segundo a <strong>The Block</strong>, em 26 de junho a Strategy possuía 847.363 bitcoin a um preço médio de compra de US$ 75.651 e, com o bitcoin caindo abaixo de US$ 60.000 pela primeira vez desde outubro de 2024, seu prejuízo não realizado chegou a cerca de US$ 14 bilhões. As posições foram avaliadas em cerca de US$ 50,7 bilhões a preço de mercado. Em outras palavras, a empresa está presa abaixo de seu próprio custo médio enquanto ainda precisa cumprir obrigações de saída de caixa, como dividendos de ações preferenciais.</p>
+  <p class="tr">Bu yön değişikliğinin arkasında şirketin kâr-zarar durumu yatıyor. <strong>The Block</strong>'a göre, 26 Haziran itibarıyla Strategy 847.363 bitcoin'i ortalama 75.651 dolarlık alım fiyatıyla elinde tutuyordu ve bitcoin Ekim 2024'ten bu yana ilk kez 60.000 doların altına kayınca gerçekleşmemiş zararı yaklaşık 14 milyar dolara ulaştı. Varlıklar piyasa değeriyle yaklaşık 50,7 milyar dolar olarak değerlendi. Bir başka deyişle, şirket kendi ortalama maliyetinin altında sıkışmış durumda ve yine de imtiyazlı hisse temettüleri gibi nakit çıkışı yükümlülüklerini karşılamak zorunda.</p>
+  <p class="vi">Đằng sau bước chuyển hướng này là tình hình lãi/lỗ của công ty. Theo <strong>The Block</strong>, tính đến ngày 26/6 Strategy nắm giữ 847.363 bitcoin với giá mua trung bình 75.651 USD, và khi bitcoin tụt xuống dưới 60.000 USD lần đầu tiên kể từ tháng 10/2024, khoản lỗ chưa thực hiện của công ty đã lên tới khoảng 14 tỷ USD. Số tài sản nắm giữ được định giá theo thị trường vào khoảng 50,7 tỷ USD. Nói cách khác, công ty đang mắc kẹt dưới mức giá vốn bình quân của chính mình trong khi vẫn phải đáp ứng các nghĩa vụ chi tiền mặt như cổ tức cổ phiếu ưu đãi.</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -92,12 +100,80 @@
     <text x="640" y="120" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Quelle: The Block, SEC 8-K</text>
   </svg>
   </div>
+  <div class="fr">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Les 847 363 BTC de Strategy : coût moyen vs marché (26 juin)</text>
+    <line x1="60" y1="240" x2="660" y2="240" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="170" fill="#fb923c"/>
+    <rect x="440" y="106" width="90" height="134" fill="#22d3ee"/>
+    <text x="195" y="60" fill="#fb923c" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$75,651</text>
+    <text x="485" y="96" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~$59,800</text>
+    <text x="195" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">prix d'achat moyen</text>
+    <text x="485" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">prix du marché</text>
+    <text x="195" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">coût d'acquisition ≈ 64,1 Md$</text>
+    <text x="485" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">marché ≈ 50,7 Md$</text>
+    <text x="350" y="150" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">perte latente ≈ 14 Md$</text>
+    <text x="640" y="120" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Source : The Block, SEC 8-K</text>
+  </svg>
+  </div>
+  <div class="pt">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Os 847.363 BTC da Strategy: custo médio vs mercado (26 de junho)</text>
+    <line x1="60" y1="240" x2="660" y2="240" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="170" fill="#fb923c"/>
+    <rect x="440" y="106" width="90" height="134" fill="#22d3ee"/>
+    <text x="195" y="60" fill="#fb923c" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$75,651</text>
+    <text x="485" y="96" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~$59,800</text>
+    <text x="195" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">preço médio de compra</text>
+    <text x="485" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">preço de mercado</text>
+    <text x="195" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">custo ≈ US$ 64,1 bi</text>
+    <text x="485" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">mercado ≈ US$ 50,7 bi</text>
+    <text x="350" y="150" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">prejuízo não realizado ≈ US$ 14 bi</text>
+    <text x="640" y="120" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Fonte: The Block, SEC 8-K</text>
+  </svg>
+  </div>
+  <div class="tr">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">Strategy'nin 847.363 BTC'si: ortalama maliyet vs piyasa (26 Haziran)</text>
+    <line x1="60" y1="240" x2="660" y2="240" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="170" fill="#fb923c"/>
+    <rect x="440" y="106" width="90" height="134" fill="#22d3ee"/>
+    <text x="195" y="60" fill="#fb923c" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$75,651</text>
+    <text x="485" y="96" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~$59,800</text>
+    <text x="195" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">ortalama alım fiyatı</text>
+    <text x="485" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">piyasa fiyatı</text>
+    <text x="195" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">maliyet ≈ 64,1 milyar $</text>
+    <text x="485" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">piyasa ≈ 50,7 milyar $</text>
+    <text x="350" y="150" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">gerçekleşmemiş zarar ≈ 14 milyar $</text>
+    <text x="640" y="120" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Kaynak: The Block, SEC 8-K</text>
+  </svg>
+  </div>
+  <div class="vi">
+  <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="13" font-weight="700" font-family="sans-serif">847.363 BTC của Strategy: giá vốn trung bình so với thị trường (26/6)</text>
+    <line x1="60" y1="240" x2="660" y2="240" stroke="#3f3f46"/>
+    <rect x="150" y="70" width="90" height="170" fill="#fb923c"/>
+    <rect x="440" y="106" width="90" height="134" fill="#22d3ee"/>
+    <text x="195" y="60" fill="#fb923c" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$75,651</text>
+    <text x="485" y="96" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~$59,800</text>
+    <text x="195" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">giá mua trung bình</text>
+    <text x="485" y="260" fill="#a1a1aa" font-size="11" text-anchor="middle" font-family="sans-serif">giá thị trường</text>
+    <text x="195" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">giá vốn ≈ 64,1 tỷ USD</text>
+    <text x="485" y="278" fill="#71717a" font-size="10" text-anchor="middle" font-family="sans-serif">thị trường ≈ 50,7 tỷ USD</text>
+    <text x="350" y="150" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">lỗ chưa thực hiện ≈ 14 tỷ USD</text>
+    <text x="640" y="120" fill="#52525b" font-size="9" text-anchor="end" font-family="sans-serif">Nguồn: The Block, SEC 8-K</text>
+  </svg>
+  </div>
 
   <h2 class="ko">프레임워크에 담긴 것</h2>
   <h2 class="en">What the framework contains</h2>
   <h2 class="ja">フレームワークに含まれるもの</h2>
   <h2 class="es">Qué contiene el marco</h2>
   <h2 class="de">Was der Rahmen enthält</h2>
+  <h2 class="fr">Ce que contient le cadre</h2>
+  <h2 class="pt">O que a estrutura contém</h2>
+  <h2 class="tr">Çerçevede neler var</h2>
+  <h2 class="vi">Những gì có trong khung này</h2>
   <p class="ko">'디지털 크레딧 자본 프레임워크'는 여러 장치를 한꺼번에 묶었다. <strong>Barchart</strong>와 <strong>FinanceFeeds</strong>의 정리에 따르면 핵심은 다섯 가지다. ① 최대 12억5,000만 달러의 비트코인을 매각해 달러 준비금에 넣을 수 있는 BTC 수익화 프로그램, ② 10억 달러 규모의 우선주(preferred securities) 재매입 프로그램, ③ 10억 달러 규모의 클래스 A 보통주(MSTR) 자사주 매입, ④ STRC 우선주 배당률을 11.5%에서 12%로 인상(7월 1일 이후 기준일 주주 대상), ⑤ 25억5,000만 달러로 늘린 공식 달러 준비금 정책이다.</p>
   <p class="ko">이 조합은 지금까지의 스트래티지와 정반대 방향을 가리킨다. 회사는 수년간 '주식·전환사채·우선주를 찍어 그 돈으로 비트코인을 산다'는 한 방향 기계였다. 그런데 이번엔 그 발행된 증권을 되사들이고(우선주·보통주 재매입), 필요하면 비트코인을 팔아 현금을 쌓는다. 발행에서 환매로, 매집에서 매각 옵션으로의 이동이다. <strong>The Block</strong>은 이 발표 직후 월요일 MSTR 주가가 12% 넘게 올랐다고 전했는데, 이는 시장이 무한 희석 우려의 완화를 반겼음을 시사한다.</p>
   <p class="en">The "Digital Credit Capital Framework" bundles several mechanisms at once. Per summaries by <strong>Barchart</strong> and <strong>FinanceFeeds</strong>, there are five core pieces: (1) a BTC Monetization Program that can sell up to $1.25 billion of bitcoin into the dollar reserve; (2) a $1 billion preferred-securities repurchase program; (3) a $1 billion Class A common stock (MSTR) buyback; (4) an STRC preferred dividend raised from 11.5% to 12% (for holders of record on or after July 1); and (5) a formal USD reserve policy topped up to $2.55 billion.</p>
