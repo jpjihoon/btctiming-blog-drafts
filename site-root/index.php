@@ -889,7 +889,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
         <!-- 플로팅 위젯 (사이트 위 상주) -->
         <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:var(--or);border:1px solid var(--or);color:#0a0a0a;border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>📌</span> <span id="wgTxt_pin" style="color:#0a0a0a">Pin widget on screen</span>
+          <span style="color:#0a0a0a">📌</span> <span id="wgTxt_pin" style="color:#0a0a0a !important;font-weight:700">Pin widget on screen</span>
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
           <span id="wgTxt_pinHint">Keeps a small live widget floating on this page — drag it anywhere.</span>
@@ -1291,22 +1291,76 @@ let btcInstallPrompt = null;
 window.addEventListener('beforeinstallprompt', function(e){
   e.preventDefault();
   btcInstallPrompt = e;
-  // 설치 버튼은 항상 표시 (프롬프트 없으면 클릭 시 안내)
+  // 프롬프트 준비됨 → 설치 버튼 강조 (오렌지)
+  var btn = document.getElementById('wgInstallBtn');
+  if(btn){ btn.style.background='#f7931a'; btn.style.color='#0a0a0a'; btn.style.borderColor='#f7931a'; }
 });
 window.addEventListener('appinstalled', function(){ btcInstallPrompt = null; });
 </script>
 <script>
 // ── 설정 모달 탭 전환 ────────────────────────────────
 function installBtcApp(){
+  // 1) 브라우저가 설치 프롬프트를 준비했으면 즉시 설치 실행
   if(btcInstallPrompt){
     btcInstallPrompt.prompt();
     btcInstallPrompt.userChoice.finally(function(){ btcInstallPrompt = null; });
-  } else {
-    const L = WG_I18N[getWidgetLang()] || WG_I18N.en;
-    alert(L.installHint + '\n\n' + (/Chrome|Edg/.test(navigator.userAgent)
-      ? '설치 아이콘(⊕)을 주소창에서 누르거나, 브라우저 메뉴 → "앱 설치"를 선택하세요.'
-      : 'Chrome 또는 Edge에서 브라우저 메뉴 → "앱 설치"를 이용하세요.'));
+    return;
   }
+  // 2) 이미 설치돼 독립 앱으로 실행 중이면 안내
+  if(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches){
+    showInstallGuide('already'); return;
+  }
+  // 3) 프롬프트가 아직 없으면 브라우저별 수동 설치 방법을 시각적으로 안내
+  showInstallGuide('manual');
+}
+
+function showInstallGuide(mode){
+  const lang = getWidgetLang();
+  const isKo = lang === 'ko';
+  const ua = navigator.userAgent;
+  const isEdge = /Edg/.test(ua), isChrome = /Chrome/.test(ua) && !isEdge;
+  const isSafari = /Safari/.test(ua) && !/Chrome/.test(ua);
+  let steps;
+  if(mode === 'already'){
+    steps = isKo ? '이미 앱으로 설치되어 실행 중입니다. ✓' : 'Already installed and running as an app. ✓';
+  } else if(isChrome || isEdge){
+    steps = isKo
+      ? '<b>' + (isEdge?'Edge':'Chrome') + '에서 설치하기</b><br><br>'
+        + '1. 주소창 오른쪽 끝의 <b>설치 아이콘(⊕ 또는 🖥️)</b>을 클릭<br>'
+        + '&nbsp;&nbsp;&nbsp;(안 보이면 우측 상단 <b>⋮ 메뉴</b> → <b>"앱"</b> → <b>"이 사이트를 앱으로 설치"</b>)<br>'
+        + '2. 팝업에서 <b>"설치"</b> 클릭<br>'
+        + '3. 바탕화면·시작메뉴에 <b>BTCtiming 아이콘</b>이 생깁니다<br>'
+        + '4. 클릭하면 독립 앱 창으로 실행됩니다 🎉'
+      : '<b>Install on ' + (isEdge?'Edge':'Chrome') + '</b><br><br>'
+        + '1. Click the <b>install icon (⊕ / 🖥️)</b> at the right of the address bar<br>'
+        + '&nbsp;&nbsp;&nbsp;(or <b>⋮ menu</b> → <b>Apps</b> → <b>Install this site as an app</b>)<br>'
+        + '2. Click <b>Install</b> in the popup<br>'
+        + '3. A <b>BTCtiming icon</b> appears on your desktop<br>'
+        + '4. Click it to run as a standalone app 🎉';
+  } else if(isSafari){
+    steps = isKo
+      ? '<b>Safari에서는 앱 설치가 제한됩니다.</b><br><br>Chrome 또는 Edge 브라우저에서 이 페이지를 열면 데스크톱 앱으로 설치할 수 있습니다.'
+      : '<b>Safari has limited install support.</b><br><br>Open this page in Chrome or Edge to install as a desktop app.';
+  } else {
+    steps = isKo
+      ? 'Chrome 또는 Edge 브라우저의 메뉴에서 <b>"앱 설치"</b> 또는 <b>"홈 화면에 추가"</b>를 선택하세요.'
+      : 'Use your browser menu → <b>Install app</b> / <b>Add to Home screen</b> (Chrome or Edge recommended).';
+  }
+  // 안내 오버레이
+  let ov = document.getElementById('btcInstallGuide');
+  if(ov) ov.remove();
+  ov = document.createElement('div');
+  ov.id = 'btcInstallGuide';
+  ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:100000;display:flex;align-items:center;justify-content:center;padding:20px';
+  ov.innerHTML = '<div style="background:#17171c;border:1px solid rgba(255,255,255,.14);border-radius:16px;max-width:400px;width:100%;padding:22px;color:#f0f0f2">'
+    + '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">'
+    + '<span style="font-size:15px;font-weight:700">💻 ' + (isKo?'앱으로 설치':'Install as app') + '</span>'
+    + '<span onclick="document.getElementById(\'btcInstallGuide\').remove()" style="cursor:pointer;color:#9090a0;font-size:20px;line-height:1">×</span></div>'
+    + '<div style="font-size:12.5px;line-height:1.9;color:#c8c8d0">' + steps + '</div>'
+    + '<button onclick="document.getElementById(\'btcInstallGuide\').remove()" style="width:100%;margin-top:18px;background:#f7931a;color:#0a0a0a;border:none;border-radius:9px;padding:11px;font-size:13px;font-weight:700;cursor:pointer">' + (isKo?'확인':'Got it') + '</button>'
+    + '</div>';
+  ov.onclick = function(e){ if(e.target === ov) ov.remove(); };
+  document.body.appendChild(ov);
 }
 function openSettings(){
   openModal();                 // app.js의 모달 열기
@@ -1526,8 +1580,25 @@ function launchFloatingWidget(){
     + '<iframe id="btcFloatFrame" src="'+buildWidgetUrl()+'" frameborder="0" scrolling="no" '
     + 'style="flex:1;width:100%;border:0;background:#0d0d10"></iframe>';
   document.body.appendChild(fw);
-  document.getElementById('btcFloatClose').onclick = ()=> fw.remove();
+  document.getElementById('btcFloatClose').onclick = ()=> { fw.remove(); if(window._btcFloatPoll){clearInterval(window._btcFloatPoll);window._btcFloatPoll=null;} };
   makeFloatDraggable(fw, document.getElementById('btcFloatBar'));
+  // 같은 도메인이므로 iframe 내부 실제 높이를 직접 읽어 컨테이너를 확장 (스크롤 없이)
+  const frame = document.getElementById('btcFloatFrame');
+  function fitFloat(){
+    try{
+      const doc = frame.contentDocument || frame.contentWindow.document;
+      if(!doc || !doc.body) return;
+      const innerH = doc.body.scrollHeight;
+      const maxH = window.innerHeight - 100;
+      const target = Math.min(innerH, maxH) + 34; // +헤더바
+      if(Math.abs(parseInt(fw.style.height) - target) > 2){
+        fw.style.height = target + 'px';
+      }
+    }catch(e){}
+  }
+  if(window._btcFloatPoll) clearInterval(window._btcFloatPoll);
+  window._btcFloatPoll = setInterval(fitFloat, 200); // 0.2초마다 높이 맞춤
+  frame.addEventListener('load', fitFloat);
   closeModal();
 }
 
