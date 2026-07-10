@@ -769,10 +769,9 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .toggle.on::after{transform:translateX(16px)}
 /* 설정 탭 */
 .stab-row{display:flex;gap:8px;margin-bottom:14px}
-.stab{flex:1;padding:9px;border-radius:8px;border:1px solid var(--b2);background:var(--bg3);color:var(--t2);font-size:12px;cursor:pointer;font-weight:600;transition:all .15s;display:flex;align-items:center;justify-content:center;gap:5px}
-.stab:hover{background:var(--bg4);color:var(--t1)}
-.stab.active{background:var(--or);color:#0a0a0a;border-color:var(--or);font-weight:700;box-shadow:0 2px 8px rgba(247,147,26,.3)}
-.stab.active span{color:#0a0a0a}
+.stab{flex:1;padding:10px;border-radius:8px;border:1px solid var(--b2);background:var(--bg3);color:var(--t1)!important;font-size:12.5px;cursor:pointer;font-weight:600;transition:all .15s;text-align:center}
+.stab:hover{background:var(--bg4)}
+.stab.active{background:var(--or)!important;color:#0a0a0a!important;border-color:var(--or);font-weight:700;box-shadow:0 2px 8px rgba(247,147,26,.3)}
 .stab-desc{font-size:10px;color:var(--t3);margin-bottom:10px;line-height:1.5}
 .sset-label{font-size:10px;font-weight:600;color:var(--t2);margin:10px 0 6px}
 .wg-coin-grid{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
@@ -843,12 +842,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
     <!-- 탭 버튼 -->
     <div class="stab-row">
-      <button class="stab active" id="stab_widget" onclick="switchTab('widget')">
-        <span>📋</span> <span data-i="tabWidget">Widget</span>
-      </button>
-      <button class="stab" id="stab_alert" onclick="switchTab('alert')">
-        <span>🔔</span> <span data-i="tabAlert">Alerts</span>
-      </button>
+      <button class="stab active" id="stab_widget" onclick="switchTab('widget')">📋 Widget</button>
+      <button class="stab" id="stab_alert" onclick="switchTab('alert')">🔔 Alerts</button>
     </div>
 
     <!-- 위젯 탭 -->
@@ -894,10 +889,18 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
         <!-- 플로팅 위젯 (사이트 위 상주) -->
         <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:var(--or);border:1px solid var(--or);color:#0a0a0a;border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>📌</span> <span data-i="pinFloating">Pin widget on screen</span>
+          <span>📌</span> Pin widget on screen
         </button>
-        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4" data-i="floatingHint">
-          Keeps a small live widget floating on this page — drag it anywhere, like a browser extension.
+        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
+          Keeps a small live widget floating on this page — drag it anywhere.
+        </div>
+
+        <!-- 데스크톱 앱으로 설치 (PWA) -->
+        <button onclick="installPwaHint()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span>💻</span> Install as desktop app
+        </button>
+        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
+          Installs BTCtiming as a standalone app window on your PC (via your browser).
         </div>
 
         <!-- 코드 복사 -->
@@ -1406,9 +1409,16 @@ function toggleWgBlog(el){
   syncFloatingWidget();
 }
 
+function getWidgetLang(){
+  // 홈페이지 언어 설정을 따라감: currentLang(전역) → localStorage → html lang → en
+  if(typeof currentLang !== 'undefined' && currentLang) return currentLang;
+  try { const l = localStorage.getItem('blogLang'); if(l) return l; } catch(e){}
+  const hl = document.documentElement.getAttribute('lang');
+  return hl || 'en';
+}
 function buildWidgetUrl(){
   const coins = wgSelected.join(',');
-  const lang  = document.documentElement.getAttribute('lang') || 'en';
+  const lang  = getWidgetLang();
   const blog  = wgShowBlog ? '&blog=1' : '';
   return 'https://btctiming.com/widget.php?coins=' + encodeURIComponent(coins) + '&lang=' + lang + blog;
 }
@@ -1430,32 +1440,61 @@ function updateWidgetPreview(){
 
 // ── 플로팅 위젯: 현재 페이지 위에 드래그 가능한 패널로 상주 ──
 // (브라우저 확장프로그램처럼 화면 위에 항상 떠있는 경험. 별도 창/앱 설치 불필요.)
+// PWA 설치 (데스크톱 앱처럼) — 브라우저가 지원하면 설치 프롬프트, 아니면 수동 안내
+let deferredPwaPrompt = null;
+window.addEventListener('beforeinstallprompt', function(e){
+  e.preventDefault();
+  deferredPwaPrompt = e;
+});
+function installPwaHint(){
+  if(deferredPwaPrompt){
+    deferredPwaPrompt.prompt();
+    deferredPwaPrompt.userChoice.finally(()=>{ deferredPwaPrompt = null; });
+  } else {
+    const isChrome = /Chrome|Edg/.test(navigator.userAgent);
+    alert(isChrome
+      ? 'To install: click the ⊕ (install) icon in your browser\'s address bar, or open the browser menu → "Install BTCtiming".\n\nThis adds BTCtiming as a standalone app window on your desktop.'
+      : 'Your browser may not support app install. Try Chrome or Edge, then use the browser menu → "Install BTCtiming" to add it as a desktop app.');
+  }
+}
+
 function launchFloatingWidget(){
   let fw = document.getElementById('btcFloatWidget');
-  if(fw){ fw.remove(); }  // 이미 있으면 토글로 닫기
+  if(fw){ fw.remove(); return; }  // 이미 있으면 토글로 닫기
   const h = widgetHeight();
   fw = document.createElement('div');
   fw.id = 'btcFloatWidget';
-  fw.style.cssText = 'position:fixed;top:80px;right:24px;width:320px;height:'+(h+34)+'px;z-index:9999;'
-    + 'background:#0d0d10;border:1px solid rgba(255,255,255,.14);border-radius:14px;'
-    + 'box-shadow:0 12px 40px rgba(0,0,0,.6);overflow:hidden;display:flex;flex-direction:column';
+  fw.style.cssText = 'position:fixed;top:80px;right:24px;width:320px;height:'+(h+34)+'px;z-index:99999;'
+    + 'background:#0d0d10;border:1px solid rgba(255,255,255,.16);border-radius:14px;'
+    + 'box-shadow:0 16px 48px rgba(0,0,0,.7);overflow:hidden;display:flex;flex-direction:column';
   fw.innerHTML =
-    '<div id="btcFloatBar" style="display:flex;align-items:center;justify-content:space-between;padding:6px 10px;'
-    + 'background:#17171c;cursor:move;border-bottom:1px solid rgba(255,255,255,.08);flex-shrink:0">'
+    '<div id="btcFloatBar" style="display:flex;align-items:center;justify-content:space-between;padding:7px 11px;'
+    + 'background:#1e1e25;cursor:move;border-bottom:1px solid rgba(255,255,255,.1);flex-shrink:0">'
     + '<span style="font-size:11px;font-weight:700;color:#f7931a">📌 BTCtiming</span>'
-    + '<span onclick="document.getElementById(\'btcFloatWidget\').remove()" '
-    + 'style="cursor:pointer;color:#9090a0;font-size:16px;line-height:1;padding:0 2px">×</span></div>'
-    + '<iframe src="'+buildWidgetUrl()+'" frameborder="0" scrolling="no" '
+    + '<span id="btcFloatClose" style="cursor:pointer;color:#c0c0c8;font-size:17px;line-height:1;padding:0 3px">×</span></div>'
+    + '<iframe id="btcFloatFrame" src="'+buildWidgetUrl()+'" frameborder="0" '
     + 'style="flex:1;width:100%;border:0;background:#0d0d10"></iframe>';
   document.body.appendChild(fw);
+  document.getElementById('btcFloatClose').onclick = ()=> fw.remove();
   makeFloatDraggable(fw, document.getElementById('btcFloatBar'));
-  closeModal();  // 설정창 닫아 위젯이 바로 보이게
+  closeModal();
 }
+
+// 위젯 iframe이 보내는 높이 메시지 수신 → 플로팅 패널 높이 자동 조정 (최대 480px, 넘으면 내부 스크롤)
+window.addEventListener('message', function(e){
+  if(!e.data || typeof e.data.btctimingWidgetHeight === 'undefined') return;
+  const fw = document.getElementById('btcFloatWidget');
+  if(!fw) return;
+  const frame = document.getElementById('btcFloatFrame');
+  const inner = Math.min(e.data.btctimingWidgetHeight, 460);
+  fw.style.height = (inner + 34) + 'px';
+  if(frame) frame.scrolling = 'yes';
+});
 
 function syncFloatingWidget(){
   const fw = document.getElementById('btcFloatWidget');
-  if(!fw) return;  // 떠있을 때만 갱신
-  const iframe = fw.querySelector('iframe');
+  if(!fw) return;
+  const iframe = document.getElementById('btcFloatFrame');
   const h = widgetHeight();
   fw.style.height = (h+34) + 'px';
   if(iframe) iframe.src = buildWidgetUrl();
@@ -1463,10 +1502,12 @@ function syncFloatingWidget(){
 
 function makeFloatDraggable(el, handle){
   let sx=0, sy=0, ox=0, oy=0, drag=false;
+  const iframe = el.querySelector('iframe');
   handle.addEventListener('mousedown', e=>{
     drag=true; sx=e.clientX; sy=e.clientY;
     const r=el.getBoundingClientRect(); ox=r.left; oy=r.top;
     el.style.right='auto'; el.style.left=ox+'px'; el.style.top=oy+'px';
+    if(iframe) iframe.style.pointerEvents='none'; // 드래그 중 iframe이 마우스 안 먹게
     e.preventDefault();
   });
   document.addEventListener('mousemove', e=>{
@@ -1474,7 +1515,10 @@ function makeFloatDraggable(el, handle){
     el.style.left=(ox + e.clientX - sx)+'px';
     el.style.top =(oy + e.clientY - sy)+'px';
   });
-  document.addEventListener('mouseup', ()=>{ drag=false; });
+  document.addEventListener('mouseup', ()=>{
+    drag=false;
+    if(iframe) iframe.style.pointerEvents='';
+  });
 }
 
 function copyWidgetCode(){
