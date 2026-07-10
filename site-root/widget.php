@@ -46,7 +46,6 @@ if ($showBlog) {
 $coinsJson = json_encode($coins);
 $sbJson    = $showBlog ? 'true' : 'false';
 $langJs    = json_encode($lang);
-?>
 ?><!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
@@ -190,9 +189,10 @@ body{display:flex;flex-direction:column;overflow:hidden}
 </div>
 <script>
 const COINS=<?= $coinsJson ?>,LANG=<?= $langJs ?>,API=location.origin+'/api.php';
+const LOCALE={ko:'ko-KR',en:'en-US',ja:'ja-JP',es:'es-ES',de:'de-DE',fr:'fr-FR',pt:'pt-BR',tr:'tr-TR',vi:'vi-VN'}[LANG]||'en-US';
 let cache={};
 function sigColor(sig){if(!sig)return'#606068';if(sig.includes('FULL'))return'#22c55e';if(sig.includes('ADD'))return'#86efac';if(sig.includes('SPLIT LONG'))return'#a3e635';if(sig.includes('WATCH'))return'#facc15';if(sig.includes('SPLIT EXIT'))return'#fb923c';return'#f87171';}
-function fmtP(p){if(p>=10000)return'$'+p.toLocaleString('en',{maximumFractionDigits:0});if(p>=100)return'$'+p.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2});if(p>=1)return'$'+p.toLocaleString('en',{minimumFractionDigits:3,maximumFractionDigits:3});return'$'+p.toLocaleString('en',{minimumFractionDigits:5,maximumFractionDigits:5});}
+function fmtP(p){if(p>=10000)return'$'+p.toLocaleString(LOCALE,{maximumFractionDigits:0});if(p>=100)return'$'+p.toLocaleString(LOCALE,{minimumFractionDigits:2,maximumFractionDigits:2});if(p>=1)return'$'+p.toLocaleString(LOCALE,{minimumFractionDigits:3,maximumFractionDigits:3});return'$'+p.toLocaleString(LOCALE,{minimumFractionDigits:5,maximumFractionDigits:5});}
 const DESC={'FULL LONG':{en:'Historical bottom. Maximum position entry.',ko:'역대급 저점. 목표 비중 100% 전량 진입.'},'ADD LONG':{en:'Strong buy zone. Scale up to 70–100%.',ko:'강한 저점. 목표 비중 70~100% 확대.'},'SPLIT LONG':{en:'Start staged entries. 30–50% initial.',ko:'분할 진입 시작. 목표 비중 30~50%.'},'WATCH':{en:'Neutral zone. Monitor and wait.',ko:'중립 관찰.'},'SPLIT EXIT':{en:'Overheated. Start taking partial profits.',ko:'분할 익절. 고평가·과열 → 보유분 일부 매도.'},'EXIT':{en:'High risk. Consider exiting.',ko:'고위험. 익절 또는 청산 고려.'}};
 function getDesc(sig){const d=DESC[sig];if(!d)return'';return LANG==='ko'?d.ko:d.en;}
 const ARC=157;
@@ -203,7 +203,7 @@ function updateGP(coin){const d=cache[coin];if(!d)return;const score=d.result?.f
 let openCoin=null;
 function toggleGauge(coin){if(openCoin&&openCoin!==coin){document.getElementById('gp_'+openCoin)?.classList.remove('open');document.getElementById('row_'+openCoin)?.classList.remove('active');openCoin=null;}const gp=document.getElementById('gp_'+coin),row=document.getElementById('row_'+coin);if(!gp)return;const isOpen=gp.classList.contains('open');gp.classList.toggle('open',!isOpen);row?.classList.toggle('active',!isOpen);openCoin=isOpen?null:coin;if(!isOpen)updateGP(coin);}
 function loadCoin(coin){return fetch(API+'?coin='+coin+'&mode=buy').then(r=>r.json()).then(d=>{cache[coin]=d;const score=d.result?.final??0,sig=d.result?.action??'—',price=d.price??0,col=sigColor(sig);const ps=document.getElementById('price_'+coin),sc=document.getElementById('score_'+coin),sg=document.getElementById('sig_'+coin),cg=document.getElementById('chg_'+coin);if(ps)ps.textContent=fmtP(price);if(sc){sc.textContent=score.toFixed(1);sc.style.color=col;}if(sg){sg.textContent=sig;sg.style.color=col;}if(cg){const chg=d.chg24h;if(chg!==null&&chg!==undefined){const sign=chg>0?'+':'';cg.textContent=sign+chg.toFixed(2)+'%';cg.style.color=chg>0?'#22c55e':chg<0?'#f87171':'var(--t3)';}else{cg.textContent='';}}if(openCoin===coin)updateGP(coin);}).catch(()=>{});}
-function loadAll(){document.getElementById('updTime').textContent='…';Promise.all(COINS.map(loadCoin)).then(()=>{const n=new Date();document.getElementById('updTime').textContent=n.toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'});});}
+function loadAll(){document.getElementById('updTime').textContent='…';Promise.all(COINS.map(loadCoin)).then(()=>{const n=new Date();document.getElementById('updTime').textContent=n.toLocaleTimeString(LOCALE,{hour:'2-digit',minute:'2-digit'});});}
 function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');}
 loadAll();setInterval(loadAll,60000);
 </script>

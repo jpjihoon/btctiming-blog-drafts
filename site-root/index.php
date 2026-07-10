@@ -768,9 +768,11 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .toggle::after{content:'';position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .2s}
 .toggle.on::after{transform:translateX(16px)}
 /* 설정 탭 */
-.stab-row{display:flex;gap:6px;margin-bottom:14px}
-.stab{flex:1;padding:7px;border-radius:8px;border:1px solid var(--b1);background:var(--bg3);color:var(--t2);font-size:12px;cursor:pointer;font-weight:500;transition:all .15s}
-.stab.active{background:var(--or);color:#000;border-color:var(--or);font-weight:700}
+.stab-row{display:flex;gap:8px;margin-bottom:14px}
+.stab{flex:1;padding:9px;border-radius:8px;border:1px solid var(--b2);background:var(--bg3);color:var(--t2);font-size:12px;cursor:pointer;font-weight:600;transition:all .15s;display:flex;align-items:center;justify-content:center;gap:5px}
+.stab:hover{background:var(--bg4);color:var(--t1)}
+.stab.active{background:var(--or);color:#0a0a0a;border-color:var(--or);font-weight:700;box-shadow:0 2px 8px rgba(247,147,26,.3)}
+.stab.active span{color:#0a0a0a}
 .stab-desc{font-size:10px;color:var(--t3);margin-bottom:10px;line-height:1.5}
 .sset-label{font-size:10px;font-weight:600;color:var(--t2);margin:10px 0 6px}
 .wg-coin-grid{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
@@ -863,10 +865,13 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
       <div id="wgBody">
         <!-- 코인 선택 + 검색 -->
-        <div class="sset-label" data-i="widgetCoins">Coins to display</div>
-        <input type="text" id="wgCoinSearch" placeholder="Search all coins (e.g. ETH, SOL, PEPE…)"
-          style="width:100%;padding:7px 10px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:12px;margin-bottom:8px;outline:none"
-          oninput="filterWgCoins(this.value)">
+        <div class="sset-label" data-i="widgetCoins">My coins (favorites)</div>
+        <div style="position:relative;margin-bottom:8px">
+          <input type="text" id="wgCoinSearch" placeholder="🔍 Search to add a coin (ETH, SOL, PEPE…)" autocomplete="off"
+            style="width:100%;padding:7px 10px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:12px;outline:none"
+            oninput="filterWgCoins(this.value)" onfocus="filterWgCoins(this.value)">
+          <div id="wgSearchResults" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:4px;background:var(--bg2);border:1px solid var(--b2);border-radius:8px;max-height:180px;overflow-y:auto;z-index:10;box-shadow:0 8px 24px rgba(0,0,0,.5)"></div>
+        </div>
         <div class="wg-coin-grid" id="wgCoinGrid"></div>
         <div style="font-size:10px;color:var(--t3);margin-top:5px" id="wgSelCount"></div>
 
@@ -887,12 +892,12 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
           </iframe>
         </div>
 
-        <!-- 플로팅 창 -->
-        <button onclick="openFloatingWidget()" style="width:100%;margin-top:10px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>🪟</span> <span data-i="openFloating">Open as floating window on my PC</span>
+        <!-- 플로팅 위젯 (사이트 위 상주) -->
+        <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:var(--or);border:1px solid var(--or);color:#0a0a0a;border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span>📌</span> <span data-i="pinFloating">Pin widget on screen</span>
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4" data-i="floatingHint">
-          Opens a small always-visible window you can drag anywhere on your desktop.
+          Keeps a small live widget floating on this page — drag it anywhere, like a browser extension.
         </div>
 
         <!-- 코드 복사 -->
@@ -903,11 +908,6 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
             <span data-i="copyCode">Copy</span>
           </button>
         </div>
-      </div>
-
-      <div id="wgDisabledMsg" style="display:none;text-align:center;padding:30px 10px;color:var(--t3);font-size:12px">
-        <div style="font-size:28px;margin-bottom:8px">⏸️</div>
-        <span data-i="widgetDisabled">Widget is turned off. Enable it above to set up your coins.</span>
       </div>
     </div>
 
@@ -1286,6 +1286,16 @@ function switchTab(tab){
   if(tab==='widget') initWidgetTab();
 }
 
+// 검색 드롭다운 바깥 클릭 시 닫기
+document.addEventListener('click', function(e){
+  const search = document.getElementById('wgCoinSearch');
+  const results = document.getElementById('wgSearchResults');
+  if(!search || !results) return;
+  if(e.target !== search && !results.contains(e.target)){
+    results.style.display = 'none';
+  }
+});
+
 // ── 위젯 탭 초기화 ────────────────────────────────────
 // 전체 코인 목록 (config.php COIN_SYMBOLS와 동일, 검색 대상)
 const WG_ALL_COINS = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX','AVAX','LINK','DOT','POL','LTC','BCH','NEAR','UNI','APT','ICP','ATOM','XLM','ETC','FIL','HBAR','ARB','OP','VET','INJ','SUI','AAVE','GRT','ALGO','SEI','RUNE','S','TIA','IMX','RENDER','SKY','LDO','STX','THETA','SAND','AXS','MANA','FLOW','CHZ','GALA','PEPE','SHIB'];
@@ -1305,7 +1315,7 @@ function initWidgetTab(){
   const enableToggle = document.getElementById('wgEnableToggle');
   if(enableToggle) enableToggle.classList.toggle('on', wgEnabled);
   applyWgEnabledUI();
-  buildCoinGrid('');
+  buildCoinGrid();
   updateWidgetPreview();
 }
 
@@ -1318,53 +1328,74 @@ function toggleWgEnable(el){
 
 function applyWgEnabledUI(){
   const body = document.getElementById('wgBody');
-  const msg  = document.getElementById('wgDisabledMsg');
-  if(body) body.style.display = wgEnabled ? '' : 'none';
-  if(msg)  msg.style.display  = wgEnabled ? 'none' : '';
+  if(body){
+    body.style.opacity = wgEnabled ? '1' : '0.4';
+    body.style.pointerEvents = wgEnabled ? '' : 'none';
+    body.style.filter = wgEnabled ? '' : 'grayscale(0.5)';
+    body.style.transition = 'opacity .2s';
+  }
 }
 
-// 검색어 없으면: 내가 선택(즐겨찾기)한 코인만 표시
-// 검색어 있으면: 전체 50개 코인 대상으로 검색
-function buildCoinGrid(filter){
+// 코인 그리드 = 항상 즐겨찾기만 표시 (검색과 무관)
+function buildCoinGrid(){
   const grid = document.getElementById('wgCoinGrid');
   if(!grid) return;
-  const q = (filter||'').toUpperCase().trim();
-  const visible = q ? WG_ALL_COINS.filter(c => c.includes(q)) : wgSelected.slice();
   grid.innerHTML = '';
-  if(!q && wgSelected.length === 0){
-    grid.innerHTML = '<div style="font-size:10.5px;color:var(--t3);padding:4px 0">No favorites yet — search above to add coins.</div>';
+  if(wgSelected.length === 0){
+    grid.innerHTML = '<div style="font-size:10.5px;color:var(--t3);padding:4px 0">No coins yet — search above to add.</div>';
   } else {
-    visible.forEach(c=>{
+    wgSelected.forEach(c=>{
       const chip = document.createElement('button');
-      chip.className = 'wg-coin-chip' + (wgSelected.includes(c)?' on':'');
-      chip.textContent = c;
-      chip.onclick = ()=>{ toggleWgCoin(c, chip); };
+      chip.className = 'wg-coin-chip on';
+      chip.innerHTML = c + ' <span style="opacity:.6;margin-left:2px">×</span>';
+      chip.title = 'Remove ' + c;
+      chip.onclick = ()=>{ removeWgCoin(c); };
       grid.appendChild(chip);
     });
   }
   const countEl = document.getElementById('wgSelCount');
-  if(countEl) countEl.textContent = wgSelected.length + ' favorite' + (wgSelected.length>1?'s':'') + ' selected (max 10) · search to add more';
+  if(countEl) countEl.textContent = wgSelected.length + ' / 10 coins · tap a coin to remove';
 }
 
+// 검색은 드롭다운으로 (즐겨찾기에 없는 코인만 후보로) — 그리드는 안 건드림
 function filterWgCoins(val){
-  buildCoinGrid(val);
+  const box = document.getElementById('wgSearchResults');
+  if(!box) return;
+  const q = (val||'').toUpperCase().trim();
+  if(!q){ box.style.display='none'; box.innerHTML=''; return; }
+  const matches = WG_ALL_COINS.filter(c => c.includes(q) && !wgSelected.includes(c)).slice(0, 8);
+  if(!matches.length){
+    box.innerHTML = '<div style="padding:8px 11px;font-size:11px;color:var(--t3)">No match, or already added.</div>';
+    box.style.display='block';
+    return;
+  }
+  box.innerHTML = matches.map(c =>
+    '<div onclick="addWgCoin(\''+c+'\')" style="padding:8px 11px;font-size:12px;color:var(--t1);cursor:pointer;border-bottom:1px solid var(--b1)" onmouseover="this.style.background=\'var(--bg3)\'" onmouseout="this.style.background=\'\'">'
+    + '<span style="font-weight:700">'+c+'</span> <span style="color:var(--or);font-size:10px;margin-left:4px">+ add</span></div>'
+  ).join('');
+  box.style.display='block';
 }
 
-function toggleWgCoin(coin, chip){
-  const idx = wgSelected.indexOf(coin);
-  if(idx >= 0){
-    if(wgSelected.length <= 1) return;
-    wgSelected.splice(idx, 1);
-    chip.classList.remove('on');
-  } else {
-    if(wgSelected.length >= 10) return;
-    wgSelected.push(coin);
-    chip.classList.add('on');
-  }
+function addWgCoin(coin){
+  if(wgSelected.includes(coin)) return;
+  if(wgSelected.length >= 10) { alert('Max 10 coins'); return; }
+  wgSelected.push(coin);
   try { localStorage.setItem('btc_wg_coins', JSON.stringify(wgSelected)); } catch(e){}
   const search = document.getElementById('wgCoinSearch');
-  buildCoinGrid(search ? search.value : '');
+  if(search){ search.value=''; }
+  document.getElementById('wgSearchResults').style.display='none';
+  buildCoinGrid();
   updateWidgetPreview();
+  syncFloatingWidget();
+}
+
+function removeWgCoin(coin){
+  if(wgSelected.length <= 1) return; // 최소 1개
+  wgSelected = wgSelected.filter(c => c !== coin);
+  try { localStorage.setItem('btc_wg_coins', JSON.stringify(wgSelected)); } catch(e){}
+  buildCoinGrid();
+  updateWidgetPreview();
+  syncFloatingWidget();
 }
 
 function toggleWgBlog(el){
@@ -1372,6 +1403,7 @@ function toggleWgBlog(el){
   wgShowBlog = el.classList.contains('on');
   try { localStorage.setItem('btc_wg_blog', wgShowBlog ? '1' : '0'); } catch(e){}
   updateWidgetPreview();
+  syncFloatingWidget();
 }
 
 function buildWidgetUrl(){
@@ -1381,10 +1413,14 @@ function buildWidgetUrl(){
   return 'https://btctiming.com/widget.php?coins=' + encodeURIComponent(coins) + '&lang=' + lang + blog;
 }
 
+function widgetHeight(){
+  const rowH = 38, headH = 38, footH = 28, tabH = wgShowBlog ? 34 : 0;
+  return Math.min(headH + tabH + Math.max(wgSelected.length,1) * rowH + footH, 340);
+}
+
 function updateWidgetPreview(){
   const src = buildWidgetUrl();
-  const rowH = 38, headH = 38, footH = 28, tabH = wgShowBlog ? 34 : 0;
-  const h = Math.min(headH + tabH + Math.max(wgSelected.length,1) * rowH + footH, 320);
+  const h = widgetHeight();
   const frame = document.getElementById('wgPreviewFrame');
   if(frame){ frame.src = src; frame.style.height = h + 'px'; }
   const code = '<iframe src="' + src + '" width="320" height="' + h + '" frameborder="0" scrolling="no" style="border-radius:12px"></iframe>';
@@ -1392,16 +1428,53 @@ function updateWidgetPreview(){
   if(box) box.value = code;
 }
 
-// 데스크톱 플로팅 창 — 별도 브라우저 팝업으로 열어 화면 어디든 드래그해 띄워둘 수 있음
-function openFloatingWidget(){
-  const src = buildWidgetUrl();
-  const w = 320, h = Math.min(38 + (wgShowBlog?34:0) + Math.max(wgSelected.length,1)*38 + 28, 420);
-  const left = Math.max(0, (screen.availWidth - w) / 2);
-  const top  = Math.max(0, (screen.availHeight - h) / 3);
-  const features = 'width='+w+',height='+h+',left='+left+',top='+top+
-    ',resizable=yes,scrollbars=no,toolbar=no,location=no,menubar=no,status=no,directories=no';
-  const win = window.open(src, 'btctimingFloatingWidget', features);
-  if(win) win.focus();
+// ── 플로팅 위젯: 현재 페이지 위에 드래그 가능한 패널로 상주 ──
+// (브라우저 확장프로그램처럼 화면 위에 항상 떠있는 경험. 별도 창/앱 설치 불필요.)
+function launchFloatingWidget(){
+  let fw = document.getElementById('btcFloatWidget');
+  if(fw){ fw.remove(); }  // 이미 있으면 토글로 닫기
+  const h = widgetHeight();
+  fw = document.createElement('div');
+  fw.id = 'btcFloatWidget';
+  fw.style.cssText = 'position:fixed;top:80px;right:24px;width:320px;height:'+(h+34)+'px;z-index:9999;'
+    + 'background:#0d0d10;border:1px solid rgba(255,255,255,.14);border-radius:14px;'
+    + 'box-shadow:0 12px 40px rgba(0,0,0,.6);overflow:hidden;display:flex;flex-direction:column';
+  fw.innerHTML =
+    '<div id="btcFloatBar" style="display:flex;align-items:center;justify-content:space-between;padding:6px 10px;'
+    + 'background:#17171c;cursor:move;border-bottom:1px solid rgba(255,255,255,.08);flex-shrink:0">'
+    + '<span style="font-size:11px;font-weight:700;color:#f7931a">📌 BTCtiming</span>'
+    + '<span onclick="document.getElementById(\'btcFloatWidget\').remove()" '
+    + 'style="cursor:pointer;color:#9090a0;font-size:16px;line-height:1;padding:0 2px">×</span></div>'
+    + '<iframe src="'+buildWidgetUrl()+'" frameborder="0" scrolling="no" '
+    + 'style="flex:1;width:100%;border:0;background:#0d0d10"></iframe>';
+  document.body.appendChild(fw);
+  makeFloatDraggable(fw, document.getElementById('btcFloatBar'));
+  closeModal();  // 설정창 닫아 위젯이 바로 보이게
+}
+
+function syncFloatingWidget(){
+  const fw = document.getElementById('btcFloatWidget');
+  if(!fw) return;  // 떠있을 때만 갱신
+  const iframe = fw.querySelector('iframe');
+  const h = widgetHeight();
+  fw.style.height = (h+34) + 'px';
+  if(iframe) iframe.src = buildWidgetUrl();
+}
+
+function makeFloatDraggable(el, handle){
+  let sx=0, sy=0, ox=0, oy=0, drag=false;
+  handle.addEventListener('mousedown', e=>{
+    drag=true; sx=e.clientX; sy=e.clientY;
+    const r=el.getBoundingClientRect(); ox=r.left; oy=r.top;
+    el.style.right='auto'; el.style.left=ox+'px'; el.style.top=oy+'px';
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove', e=>{
+    if(!drag) return;
+    el.style.left=(ox + e.clientX - sx)+'px';
+    el.style.top =(oy + e.clientY - sy)+'px';
+  });
+  document.addEventListener('mouseup', ()=>{ drag=false; });
 }
 
 function copyWidgetCode(){
