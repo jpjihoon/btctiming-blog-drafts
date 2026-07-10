@@ -185,6 +185,17 @@ if ($ind === null) {
             'btc_corr_value' => $btcCorr,
         ];
 
+        // ── 24시간 등락률 (위젯/티커용) ──────────────────────────
+        // 실시간가 대비 전일 마감 종가 비교 (dailyKlines의 마지막 = 가장 최근 완성된 일봉)
+        $ind['chg24h'] = null;
+        if ($dailyKlines && !empty($dailyKlines['closes'])) {
+            $closes = $dailyKlines['closes'];
+            $prevClose = $closes[count($closes) - 1];
+            if ($prevClose > 0) {
+                $ind['chg24h'] = round(($p - $prevClose) / $prevClose * 100, 2);
+            }
+        }
+
         // ── Puell Multiple 계산 (BTC 전용, 일봉 365개 필요) ──────────────────────
         // 공식: 오늘 채굴 발행 USD / 365일 평균 채굴 발행 USD
         // 블록보상: 2024-04-20 4차 반감기 이후 3.125 BTC. 이전은 6.25 BTC.
@@ -265,6 +276,7 @@ echo json_encode([
     ],
     'estimated' => $ind['estimated'] ?? [],
     'puell' => $ind['puell'] ?? null,
+    'chg24h' => $ind['chg24h'] ?? null,
     'result' => $result,
     'updated_at' => date('c'),
 ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);

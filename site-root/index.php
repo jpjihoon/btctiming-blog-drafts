@@ -833,7 +833,7 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
 <!-- Settings Modal (Widget + Alert tabs) -->
 <div class="modal-bg" id="notifModal" onclick="if(event.target===this)closeModal()">
-  <div class="modal" style="max-height:90vh;overflow-y:auto;width:min(460px,96vw)">
+  <div class="modal" style="max-height:92vh;overflow-y:auto;width:min(560px,96vw)">
     <div class="modal-hd">
       ⚙️ <span data-i="settingsTitle">Settings</span>
       <span class="modal-close" onclick="closeModal()">×</span>
@@ -851,40 +851,63 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
 
     <!-- 위젯 탭 -->
     <div id="tab_widget">
-      <div class="stab-desc" data-i="widgetDesc">Add a live BTCtiming widget to your site. Select coins and copy the embed code.</div>
-
-      <!-- 코인 선택 + 검색 -->
-      <div class="sset-label" data-i="widgetCoins">Coins to display</div>
-      <input type="text" id="wgCoinSearch" placeholder="Search coin (e.g. ETH, SOL…)"
-        style="width:100%;padding:6px 9px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:11px;margin-bottom:7px;outline:none"
-        oninput="filterWgCoins(this.value)">
-      <div class="wg-coin-grid" id="wgCoinGrid"></div>
-      <div style="font-size:10px;color:var(--t3);margin-top:4px" id="wgSelCount"></div>
-
-      <!-- 블로그 표시 -->
-      <div class="sset-label">Options</div>
-      <div style="display:flex;align-items:center;justify-content:space-between;padding:6px 0">
-        <span style="font-size:11px;color:var(--t2)">Show latest blog posts tab</span>
-        <div class="toggle" id="wgBlogToggle" onclick="toggleWgBlog(this)" role="switch" tabindex="0"
-          aria-label="Show blog" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleWgBlog(this);}"></div>
+      <!-- 위젯 ON/OFF -->
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:2px 0 10px;border-bottom:1px solid var(--b1);margin-bottom:12px">
+        <div>
+          <div style="font-size:13px;font-weight:700;color:var(--t1)">Widget</div>
+          <div style="font-size:10px;color:var(--t3);margin-top:1px" data-i="widgetDesc2">Use it yourself as a floating panel, or embed it on your site.</div>
+        </div>
+        <div class="toggle on" id="wgEnableToggle" onclick="toggleWgEnable(this)" role="switch" tabindex="0"
+          aria-label="Enable widget" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleWgEnable(this);}"></div>
       </div>
 
-      <!-- 미리보기 -->
-      <div class="sset-label" data-i="widgetPreview">Preview</div>
-      <div class="wg-preview-wrap">
-        <iframe id="wgPreviewFrame"
-          src="" frameborder="0" scrolling="no"
-          style="width:100%;height:180px;border-radius:10px;border:1px solid var(--b1);background:var(--bg3)">
-        </iframe>
-      </div>
+      <div id="wgBody">
+        <!-- 코인 선택 + 검색 -->
+        <div class="sset-label" data-i="widgetCoins">Coins to display</div>
+        <input type="text" id="wgCoinSearch" placeholder="Search all coins (e.g. ETH, SOL, PEPE…)"
+          style="width:100%;padding:7px 10px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:12px;margin-bottom:8px;outline:none"
+          oninput="filterWgCoins(this.value)">
+        <div class="wg-coin-grid" id="wgCoinGrid"></div>
+        <div style="font-size:10px;color:var(--t3);margin-top:5px" id="wgSelCount"></div>
 
-      <!-- 코드 복사 -->
-      <div class="sset-label" data-i="widgetCode">Embed code</div>
-      <div class="wg-code-wrap">
-        <textarea id="wgCodeBox" readonly rows="3" style="width:100%;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t2);font-size:11px;padding:8px;resize:none;font-family:monospace;line-height:1.5"></textarea>
-        <button class="wg-copy-btn" onclick="copyWidgetCode()" id="wgCopyBtn">
-          <span data-i="copyCode">Copy</span>
+        <!-- 블로그 표시 -->
+        <div class="sset-label">Options</div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:6px 0">
+          <span style="font-size:11.5px;color:var(--t2)">Show latest blog posts (5)</span>
+          <div class="toggle" id="wgBlogToggle" onclick="toggleWgBlog(this)" role="switch" tabindex="0"
+            aria-label="Show blog" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleWgBlog(this);}"></div>
+        </div>
+
+        <!-- 미리보기 -->
+        <div class="sset-label" data-i="widgetPreview">Preview</div>
+        <div class="wg-preview-wrap">
+          <iframe id="wgPreviewFrame"
+            src="" frameborder="0" scrolling="no"
+            style="width:320px;max-width:100%;height:260px;border-radius:12px;border:1px solid var(--b1);background:var(--bg3);display:block;margin:0 auto">
+          </iframe>
+        </div>
+
+        <!-- 플로팅 창 -->
+        <button onclick="openFloatingWidget()" style="width:100%;margin-top:10px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span>🪟</span> <span data-i="openFloating">Open as floating window on my PC</span>
         </button>
+        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4" data-i="floatingHint">
+          Opens a small always-visible window you can drag anywhere on your desktop.
+        </div>
+
+        <!-- 코드 복사 -->
+        <div class="sset-label" data-i="widgetCode">Embed code (for your website)</div>
+        <div class="wg-code-wrap">
+          <textarea id="wgCodeBox" readonly rows="3" style="width:100%;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t2);font-size:11px;padding:8px;resize:none;font-family:monospace;line-height:1.5"></textarea>
+          <button class="wg-copy-btn" onclick="copyWidgetCode()" id="wgCopyBtn">
+            <span data-i="copyCode">Copy</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="wgDisabledMsg" style="display:none;text-align:center;padding:30px 10px;color:var(--t3);font-size:12px">
+        <div style="font-size:28px;margin-bottom:8px">⏸️</div>
+        <span data-i="widgetDisabled">Widget is turned off. Enable it above to set up your coins.</span>
       </div>
     </div>
 
@@ -1264,9 +1287,11 @@ function switchTab(tab){
 }
 
 // ── 위젯 탭 초기화 ────────────────────────────────────
-const WG_ALL_COINS = ['BTC','ETH','SOL','BNB','XRP','DOGE','ADA','TRX','AVAX','LINK','DOT','LTC','BCH','NEAR','UNI','ARB','SUI','HBAR','APT','ICP','ATOM','XLM','ETC','FIL','OP','VET','INJ','AAVE','GRT'];
+// 전체 코인 목록 (config.php COIN_SYMBOLS와 동일, 검색 대상)
+const WG_ALL_COINS = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX','AVAX','LINK','DOT','POL','LTC','BCH','NEAR','UNI','APT','ICP','ATOM','XLM','ETC','FIL','HBAR','ARB','OP','VET','INJ','SUI','AAVE','GRT','ALGO','SEI','RUNE','S','TIA','IMX','RENDER','SKY','LDO','STX','THETA','SAND','AXS','MANA','FLOW','CHZ','GALA','PEPE','SHIB'];
 let wgSelected = [];
 let wgShowBlog = false;
+let wgEnabled = true;
 let wgInited = false;
 
 function initWidgetTab(){
@@ -1274,27 +1299,51 @@ function initWidgetTab(){
   wgInited = true;
   try { wgSelected = JSON.parse(localStorage.getItem('btc_wg_coins')||'["BTC"]'); } catch(e){ wgSelected=['BTC']; }
   try { wgShowBlog = localStorage.getItem('btc_wg_blog') === '1'; } catch(e){}
+  try { wgEnabled = localStorage.getItem('btc_wg_enabled') !== '0'; } catch(e){}
   const blogToggle = document.getElementById('wgBlogToggle');
   if(blogToggle && wgShowBlog) blogToggle.classList.add('on');
+  const enableToggle = document.getElementById('wgEnableToggle');
+  if(enableToggle) enableToggle.classList.toggle('on', wgEnabled);
+  applyWgEnabledUI();
   buildCoinGrid('');
   updateWidgetPreview();
 }
 
+function toggleWgEnable(el){
+  el.classList.toggle('on');
+  wgEnabled = el.classList.contains('on');
+  try { localStorage.setItem('btc_wg_enabled', wgEnabled ? '1' : '0'); } catch(e){}
+  applyWgEnabledUI();
+}
+
+function applyWgEnabledUI(){
+  const body = document.getElementById('wgBody');
+  const msg  = document.getElementById('wgDisabledMsg');
+  if(body) body.style.display = wgEnabled ? '' : 'none';
+  if(msg)  msg.style.display  = wgEnabled ? 'none' : '';
+}
+
+// 검색어 없으면: 내가 선택(즐겨찾기)한 코인만 표시
+// 검색어 있으면: 전체 50개 코인 대상으로 검색
 function buildCoinGrid(filter){
   const grid = document.getElementById('wgCoinGrid');
   if(!grid) return;
   const q = (filter||'').toUpperCase().trim();
-  const visible = q ? WG_ALL_COINS.filter(c => c.includes(q)) : WG_ALL_COINS;
+  const visible = q ? WG_ALL_COINS.filter(c => c.includes(q)) : wgSelected.slice();
   grid.innerHTML = '';
-  visible.forEach(c=>{
-    const chip = document.createElement('button');
-    chip.className = 'wg-coin-chip' + (wgSelected.includes(c)?' on':'');
-    chip.textContent = c;
-    chip.onclick = ()=>{ toggleWgCoin(c, chip); };
-    grid.appendChild(chip);
-  });
+  if(!q && wgSelected.length === 0){
+    grid.innerHTML = '<div style="font-size:10.5px;color:var(--t3);padding:4px 0">No favorites yet — search above to add coins.</div>';
+  } else {
+    visible.forEach(c=>{
+      const chip = document.createElement('button');
+      chip.className = 'wg-coin-chip' + (wgSelected.includes(c)?' on':'');
+      chip.textContent = c;
+      chip.onclick = ()=>{ toggleWgCoin(c, chip); };
+      grid.appendChild(chip);
+    });
+  }
   const countEl = document.getElementById('wgSelCount');
-  if(countEl) countEl.textContent = wgSelected.length + ' coin' + (wgSelected.length>1?'s':'') + ' selected (max 10)';
+  if(countEl) countEl.textContent = wgSelected.length + ' favorite' + (wgSelected.length>1?'s':'') + ' selected (max 10) · search to add more';
 }
 
 function filterWgCoins(val){
@@ -1313,8 +1362,8 @@ function toggleWgCoin(coin, chip){
     chip.classList.add('on');
   }
   try { localStorage.setItem('btc_wg_coins', JSON.stringify(wgSelected)); } catch(e){}
-  const countEl = document.getElementById('wgSelCount');
-  if(countEl) countEl.textContent = wgSelected.length + ' coin' + (wgSelected.length>1?'s':'') + ' selected (max 10)';
+  const search = document.getElementById('wgCoinSearch');
+  buildCoinGrid(search ? search.value : '');
   updateWidgetPreview();
 }
 
@@ -1325,21 +1374,34 @@ function toggleWgBlog(el){
   updateWidgetPreview();
 }
 
-function updateWidgetPreview(){
+function buildWidgetUrl(){
   const coins = wgSelected.join(',');
   const lang  = document.documentElement.getAttribute('lang') || 'en';
   const blog  = wgShowBlog ? '&blog=1' : '';
-  // 실제 사이트 URL로 (내 PC에서도 btctiming.com으로 동작)
-  const src = 'https://btctiming.com/widget.php?coins=' + encodeURIComponent(coins) + '&lang=' + lang + blog;
-  const rowH = 38;
-  const headH = 38, footH = 28, tabH = wgShowBlog ? 32 : 0;
-  const h = Math.min(headH + tabH + wgSelected.length * rowH + footH, 280);
+  return 'https://btctiming.com/widget.php?coins=' + encodeURIComponent(coins) + '&lang=' + lang + blog;
+}
+
+function updateWidgetPreview(){
+  const src = buildWidgetUrl();
+  const rowH = 38, headH = 38, footH = 28, tabH = wgShowBlog ? 34 : 0;
+  const h = Math.min(headH + tabH + Math.max(wgSelected.length,1) * rowH + footH, 320);
   const frame = document.getElementById('wgPreviewFrame');
   if(frame){ frame.src = src; frame.style.height = h + 'px'; }
-  const iW = 300, iH = h;
-  const code = '<iframe src="' + src + '" width="' + iW + '" height="' + iH + '" frameborder="0" scrolling="no" style="border-radius:12px"></iframe>';
+  const code = '<iframe src="' + src + '" width="320" height="' + h + '" frameborder="0" scrolling="no" style="border-radius:12px"></iframe>';
   const box = document.getElementById('wgCodeBox');
   if(box) box.value = code;
+}
+
+// 데스크톱 플로팅 창 — 별도 브라우저 팝업으로 열어 화면 어디든 드래그해 띄워둘 수 있음
+function openFloatingWidget(){
+  const src = buildWidgetUrl();
+  const w = 320, h = Math.min(38 + (wgShowBlog?34:0) + Math.max(wgSelected.length,1)*38 + 28, 420);
+  const left = Math.max(0, (screen.availWidth - w) / 2);
+  const top  = Math.max(0, (screen.availHeight - h) / 3);
+  const features = 'width='+w+',height='+h+',left='+left+',top='+top+
+    ',resizable=yes,scrollbars=no,toolbar=no,location=no,menubar=no,status=no,directories=no';
+  const win = window.open(src, 'btctimingFloatingWidget', features);
+  if(win) win.focus();
 }
 
 function copyWidgetCode(){

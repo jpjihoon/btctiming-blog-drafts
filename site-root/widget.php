@@ -61,14 +61,16 @@ body{display:flex;flex-direction:column;overflow:hidden}
 .wg-logo{display:flex;align-items:center;gap:6px;text-decoration:none;color:inherit}
 .wg-logo-tx{font-size:12px;font-weight:700;color:var(--or)}
 .wg-upd{font-size:10px;color:var(--t3)}
-.wg-tabs{display:flex;border-bottom:1px solid var(--b1);flex-shrink:0}
-.wg-tab{flex:1;padding:7px;font-size:11px;font-weight:600;color:var(--t3);text-align:center;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s}
-.wg-tab.on{color:var(--or);border-color:var(--or)}
+.wg-tabs{display:flex;border-bottom:1px solid var(--b1);flex-shrink:0;background:var(--bg2)}
+.wg-tab{flex:1;padding:8px;font-size:11.5px;font-weight:600;color:var(--t2);text-align:center;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;background:var(--bg2)}
+.wg-tab:hover{color:var(--t1);background:var(--bg3)}
+.wg-tab.on{color:var(--or);border-color:var(--or);background:var(--bg3)}
 .wg-body{flex:1;overflow-y:auto}
 .coin-row{display:flex;align-items:center;padding:9px 11px;border-bottom:1px solid var(--b1);cursor:pointer;transition:background .12s;gap:8px}
 .coin-row:hover,.coin-row.active{background:var(--bg2)}
 .cr-sym{font-size:13px;font-weight:700;width:40px;flex-shrink:0}
 .cr-price{font-size:11.5px;color:var(--t2);flex:1;font-variant-numeric:tabular-nums}
+.cr-chg{font-size:10px;font-weight:600;width:52px;text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums}
 .cr-score{font-size:15px;font-weight:800;width:32px;text-align:right;flex-shrink:0;font-variant-numeric:tabular-nums}
 .cr-sig{font-size:9px;font-weight:700;width:64px;text-align:right;flex-shrink:0;line-height:1.25}
 .cr-arr{font-size:12px;color:var(--t3);flex-shrink:0;transition:transform .2s}
@@ -134,6 +136,7 @@ body{display:flex;flex-direction:column;overflow:hidden}
   <div class="coin-row" id="row_<?= $c ?>" onclick="toggleGauge('<?= $c ?>')">
     <span class="cr-sym"><?= htmlspecialchars($c) ?></span>
     <span class="cr-price" id="price_<?= $c ?>"><span class="sk" style="width:60px"></span></span>
+    <span class="cr-chg" id="chg_<?= $c ?>"></span>
     <span class="cr-score" id="score_<?= $c ?>">—</span>
     <span class="cr-sig" id="sig_<?= $c ?>">—</span>
     <span class="cr-arr">›</span>
@@ -199,7 +202,7 @@ function renderEntry(coin,score){const wrap=document.getElementById('gentry_'+co
 function updateGP(coin){const d=cache[coin];if(!d)return;const score=d.result?.final??0,sig=d.result?.action??'—',col=sigColor(sig);const gcs=document.getElementById('gcs_'+coin),gsig=document.getElementById('gsig_'+coin),gdesc=document.getElementById('gdesc_'+coin);if(gcs){gcs.textContent=score.toFixed(1);gcs.style.color=col;}if(gsig){gsig.textContent=sig;gsig.style.color=col;}if(gdesc)gdesc.textContent=getDesc(sig);fillGauge(coin,score);renderInds(coin,d.result?.details);renderEntry(coin,score);}
 let openCoin=null;
 function toggleGauge(coin){if(openCoin&&openCoin!==coin){document.getElementById('gp_'+openCoin)?.classList.remove('open');document.getElementById('row_'+openCoin)?.classList.remove('active');openCoin=null;}const gp=document.getElementById('gp_'+coin),row=document.getElementById('row_'+coin);if(!gp)return;const isOpen=gp.classList.contains('open');gp.classList.toggle('open',!isOpen);row?.classList.toggle('active',!isOpen);openCoin=isOpen?null:coin;if(!isOpen)updateGP(coin);}
-function loadCoin(coin){return fetch(API+'?coin='+coin+'&mode=buy').then(r=>r.json()).then(d=>{cache[coin]=d;const score=d.result?.final??0,sig=d.result?.action??'—',price=d.price??0,col=sigColor(sig);const ps=document.getElementById('price_'+coin),sc=document.getElementById('score_'+coin),sg=document.getElementById('sig_'+coin);if(ps)ps.textContent=fmtP(price);if(sc){sc.textContent=score.toFixed(1);sc.style.color=col;}if(sg){sg.textContent=sig;sg.style.color=col;}if(openCoin===coin)updateGP(coin);}).catch(()=>{});}
+function loadCoin(coin){return fetch(API+'?coin='+coin+'&mode=buy').then(r=>r.json()).then(d=>{cache[coin]=d;const score=d.result?.final??0,sig=d.result?.action??'—',price=d.price??0,col=sigColor(sig);const ps=document.getElementById('price_'+coin),sc=document.getElementById('score_'+coin),sg=document.getElementById('sig_'+coin),cg=document.getElementById('chg_'+coin);if(ps)ps.textContent=fmtP(price);if(sc){sc.textContent=score.toFixed(1);sc.style.color=col;}if(sg){sg.textContent=sig;sg.style.color=col;}if(cg){const chg=d.chg24h;if(chg!==null&&chg!==undefined){const sign=chg>0?'+':'';cg.textContent=sign+chg.toFixed(2)+'%';cg.style.color=chg>0?'#22c55e':chg<0?'#f87171':'var(--t3)';}else{cg.textContent='';}}if(openCoin===coin)updateGP(coin);}).catch(()=>{});}
 function loadAll(){document.getElementById('updTime').textContent='…';Promise.all(COINS.map(loadCoin)).then(()=>{const n=new Date();document.getElementById('updTime').textContent=n.toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'});});}
 function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');}
 loadAll();setInterval(loadAll,60000);
