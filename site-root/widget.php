@@ -274,14 +274,21 @@ loadAll();setInterval(loadAll,60000);
 
 // 앱(standalone)으로 실행 중인지 판정
 function wgIsStandalone(){
-  try{ return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone===true; }catch(e){ return false; }
+  try{
+    return (window.matchMedia && (window.matchMedia('(display-mode: standalone)').matches
+        || window.matchMedia('(display-mode: minimal-ui)').matches
+        || window.matchMedia('(display-mode: window-controls-overlay)').matches))
+      || navigator.standalone===true;
+  }catch(e){ return false; }
 }
-// 앱(standalone)에서는 외부 링크(로고/블로그/하단)를 새 브라우저 창으로 열기.
-// (앱 창은 위젯 전용이므로 앱 안에서 메인이 열리면 안 됨)
+function wgHideBanner(){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; }
+if(wgIsStandalone()) wgHideBanner();
+window.addEventListener('DOMContentLoaded',function(){ if(wgIsStandalone()) wgHideBanner(); });
+window.addEventListener('load',function(){ if(wgIsStandalone()) wgHideBanner(); });
+try{ window.matchMedia('(display-mode: standalone)').addEventListener('change',function(e){ if(e.matches) wgHideBanner(); }); }catch(e){}
+
 window.addEventListener('DOMContentLoaded',function(){
   var standalone = wgIsStandalone();
-  // 설치 배너: 이미 앱이면 숨김
-  if(standalone){ var bn=document.getElementById('pwaInstallBanner'); if(bn) bn.style.display='none'; }
   var inIframe = false; try{ inIframe = (window.self !== window.top); }catch(e){ inIframe = true; }
   function withLang(href){
     try{
@@ -291,10 +298,14 @@ window.addEventListener('DOMContentLoaded',function(){
       return u.toString();
     }catch(e){ return href; }
   }
-  if(standalone || inIframe){
-    document.querySelectorAll('a.wg-extlink').forEach(function(a){
-      a.setAttribute('target','_blank'); a.setAttribute('rel','noopener noreferrer');
-    });
+  document.querySelectorAll('a.wg-extlink').forEach(function(a){
+    try{ a.setAttribute('href', withLang(a.getAttribute('href'))); }catch(e){}
+    if(standalone || inIframe){
+      a.setAttribute('target','_blank');
+      a.setAttribute('rel','noopener noreferrer');
+    }
+  });
+  if(inIframe && !standalone){
     document.addEventListener('click',function(e){
       var a = e.target.closest && e.target.closest('a.wg-extlink');
       if(a){ e.preventDefault(); window.open(withLang(a.getAttribute('href')), '_blank', 'noopener'); }
