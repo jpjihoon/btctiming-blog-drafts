@@ -61,7 +61,7 @@ $allowedJson = json_encode($ALLOWED);
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0d0d10;--bg2:#17171c;--bg3:#1e1e25;--bg4:#26262e;--b1:rgba(255,255,255,.08);--t1:#f0f0f2;--t2:#9090a0;--t3:#505060;--or:#f7931a}
+:root{--bg:#0d0d10;--bg2:#17171c;--bg3:#1e1e25;--bg4:#26262e;--b1:rgba(255,255,255,.08);--t1:#f0f0f2;--t2:#9090a0;--t3:#505060;--or:#f7931a;--green:#22c55e;--b2:rgba(255,255,255,.14)}
 html{background:var(--bg)}body{background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--t1)}
 body{display:flex;flex-direction:column}
 .wg-head{display:flex;align-items:center;justify-content:space-between;padding:8px 11px 7px;border-bottom:1px solid var(--b1);flex-shrink:0}
@@ -136,28 +136,32 @@ body{overflow-x:hidden}
   .cr-sig{width:58px;font-size:8.5px}
   .cr-score{width:28px;font-size:14px}
   .wg-logo-tx{display:none}
-  .gp-inner{gap:8px}
-  .gp-gauge{width:92px}
+  .gp-inner{gap:8px}.gp-gauge{width:92px}
 }
-@media (max-width:280px){
-  .cr-sig{display:none}
-  .gp-steps{flex-wrap:wrap}
-}
-/* ── in-app settings panel ── */
+@media (max-width:280px){ .cr-sig{display:none} .gp-steps{flex-wrap:wrap} }
+/* ── in-app settings (dashboard design) ── */
 .wg-set{padding:12px 12px 16px}
-.wg-set-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.wg-set-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
 .wg-set-title{font-size:13px;font-weight:800}
 .wg-set-x{background:none;border:none;color:var(--t2);font-size:15px;cursor:pointer;line-height:1}
 .wg-set-x:hover{color:var(--t1)}
-.wg-set-row{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px;padding:9px 11px;background:var(--bg2);border-radius:8px;margin-bottom:14px;cursor:pointer}
-.wg-set-row input{width:16px;height:16px;accent-color:var(--or);cursor:pointer}
-.wg-set-lbl{font-size:10px;color:var(--t2);font-weight:600;margin-bottom:7px}
-.wg-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
-.wg-chip{display:inline-flex;align-items:center;gap:5px;background:var(--bg3);border:1px solid var(--b1);border-radius:14px;padding:4px 7px 4px 10px;font-size:11px;font-weight:700}
-.wg-chip b{cursor:pointer;color:var(--t3);font-size:14px;line-height:1}
-.wg-chip b:hover{color:#f87171}
-.wg-add{width:100%;background:var(--bg2);color:var(--t1);border:1px solid var(--b1);border-radius:8px;padding:9px 10px;font-size:12px;margin-bottom:14px;cursor:pointer}
-.wg-apply{width:100%;background:var(--or);color:#0a0a0a;border:none;border-radius:8px;padding:11px;font-size:13px;font-weight:800;cursor:pointer}
+.sset-label{font-size:10px;font-weight:600;color:var(--t2);margin:12px 0 6px}
+.wg-srch{width:100%;padding:8px 10px;background:var(--bg3);border:1px solid var(--b2);border-radius:8px;color:var(--t1);font-size:12px;outline:none}
+.wg-srch:focus{border-color:var(--or)}
+.wg-res{display:none;position:absolute;top:100%;left:0;right:0;margin-top:4px;background:var(--bg2);border:1px solid var(--b2);border-radius:8px;max-height:180px;overflow-y:auto;z-index:10;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.wg-res-item{padding:8px 11px;font-size:12px;color:var(--t1);cursor:pointer;border-bottom:1px solid var(--b1)}
+.wg-res-item:hover{background:var(--bg3)}
+.wg-coin-grid{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
+.wg-coin-chip{padding:5px 11px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid var(--b1);background:var(--bg3);color:var(--t2);transition:all .15s;user-select:none}
+.wg-coin-chip.on{background:var(--bg4);color:var(--or);border-color:var(--or);box-shadow:0 0 0 1px var(--or)}
+.wg-count{font-size:10px;color:var(--t3);margin-top:5px}
+.wg-opt-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 0}
+.wg-opt-row span{font-size:11.5px;color:var(--t2)}
+.toggle{width:36px;height:20px;border-radius:10px;background:var(--bg4);border:1px solid var(--b2);cursor:pointer;position:relative;transition:background .2s;flex-shrink:0}
+.toggle.on{background:var(--green)}
+.toggle::after{content:'';position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .2s}
+.toggle.on::after{transform:translateX(16px)}
+.wg-apply{width:100%;margin-top:16px;background:var(--or);color:#0a0a0a;border:none;border-radius:8px;padding:11px;font-size:13px;font-weight:800;cursor:pointer}
 .wg-apply:hover{opacity:.92}
 </style>
 </head>
@@ -189,10 +193,15 @@ body{overflow-x:hidden}
 <?php endif; ?>
 <div class="wg-set" id="wgSettings" style="display:none">
   <div class="wg-set-hd"><span class="wg-set-title" id="wsTitle">Settings</span><button class="wg-set-x" id="wsClose">✕</button></div>
-  <label class="wg-set-row"><span id="wsBlogLbl">Show blog tab</span><input type="checkbox" id="wsBlog"></label>
-  <div class="wg-set-lbl" id="wsCoinsLbl">Coins</div>
-  <div class="wg-chips" id="wsChips"></div>
-  <select class="wg-add" id="wsAdd"><option value="">+ Add coin</option></select>
+  <div class="sset-label" id="wsCoinsLbl">My coins (favorites)</div>
+  <div style="position:relative;margin-bottom:8px">
+    <input type="text" id="wsSearch" class="wg-srch" autocomplete="off" placeholder="Search to add a coin">
+    <div class="wg-res" id="wsResults"></div>
+  </div>
+  <div class="wg-coin-grid" id="wsChips"></div>
+  <div class="wg-count" id="wsCount"></div>
+  <div class="sset-label" id="wsOptLbl">Options</div>
+  <div class="wg-opt-row"><span id="wsBlogLbl">Show latest blog posts</span><div class="toggle" id="wsBlogToggle" role="switch" tabindex="0" aria-label="blog"></div></div>
   <button class="wg-apply" id="wsApply">Apply</button>
 </div>
 <div class="wg-body" id="bodyScore">
@@ -366,35 +375,55 @@ window.addEventListener('DOMContentLoaded',function(){
 window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
 if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js',{scope:'/widget.php'}).catch(function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});});}
 
-/* ── Widget in-app Settings: blog toggle + coin add/remove ── */
+/* ── Widget in-app Settings (dashboard-style: search add + chips + toggle) ── */
 (function(){
   var SL={
     title:{ko:'설정',en:'Settings',ja:'設定',es:'Ajustes',de:'Einstellungen',fr:'Réglages',pt:'Ajustes',tr:'Ayarlar',vi:'Cài đặt'},
-    blog:{ko:'블로그 탭 표시',en:'Show blog tab',ja:'ブログタブを表示',es:'Mostrar pestaña de blog',de:'Blog-Tab anzeigen',fr:"Afficher l'onglet blog",pt:'Mostrar aba do blog',tr:'Blog sekmesini göster',vi:'Hiện tab blog'},
-    coins:{ko:'코인 (최대 10개)',en:'Coins (max 10)',ja:'コイン（最大10）',es:'Monedas (máx. 10)',de:'Coins (max. 10)',fr:'Cryptos (max 10)',pt:'Moedas (máx. 10)',tr:'Coinler (en çok 10)',vi:'Coin (tối đa 10)'},
-    add:{ko:'+ 코인 추가',en:'+ Add coin',ja:'+ コインを追加',es:'+ Añadir moneda',de:'+ Coin hinzufügen',fr:'+ Ajouter une crypto',pt:'+ Adicionar moeda',tr:'+ Coin ekle',vi:'+ Thêm coin'},
+    mycoins:{ko:'내 코인 (즐겨찾기)',en:'My coins (favorites)',ja:'マイコイン（お気に入り）',es:'Mis monedas (favoritas)',de:'Meine Coins (Favoriten)',fr:'Mes cryptos (favoris)',pt:'Minhas moedas (favoritas)',tr:'Coinlerim (favoriler)',vi:'Coin của tôi (yêu thích)'},
+    ph:{ko:'🔍 코인 검색해서 추가 (ETH, SOL…)',en:'🔍 Search to add a coin (ETH, SOL, PEPE…)',ja:'🔍 コインを検索して追加 (ETH, SOL…)',es:'🔍 Busca para añadir (ETH, SOL…)',de:'🔍 Coin suchen & hinzufügen',fr:'🔍 Rechercher pour ajouter',pt:'🔍 Buscar para adicionar',tr:'🔍 Coin ara ve ekle',vi:'🔍 Tìm coin để thêm'},
+    options:{ko:'옵션',en:'Options',ja:'オプション',es:'Opciones',de:'Optionen',fr:'Options',pt:'Opções',tr:'Seçenekler',vi:'Tùy chọn'},
+    blog:{ko:'최신 블로그 글 표시',en:'Show latest blog posts',ja:'最新のブログ記事を表示',es:'Mostrar últimos artículos',de:'Neueste Blogposts anzeigen',fr:'Afficher les derniers articles',pt:'Mostrar posts recentes',tr:'Son blog yazılarını göster',vi:'Hiện bài blog mới nhất'},
     apply:{ko:'적용',en:'Apply',ja:'適用',es:'Aplicar',de:'Übernehmen',fr:'Appliquer',pt:'Aplicar',tr:'Uygula',vi:'Áp dụng'},
-    min1:{ko:'최소 1개 코인이 필요합니다.',en:'At least 1 coin is required.'},
-    max10:{ko:'최대 10개까지 추가할 수 있습니다.',en:'Up to 10 coins.'}
+    add:{ko:'+ 추가',en:'+ add',ja:'+ 追加',es:'+ añadir',de:'+ hinzufügen',fr:'+ ajouter',pt:'+ adicionar',tr:'+ ekle',vi:'+ thêm'},
+    none:{ko:'일치 없음 또는 이미 추가됨',en:'No match, or already added.',ja:'該当なし／追加済み',es:'Sin resultados o ya añadido',de:'Kein Treffer / bereits hinzugefügt',fr:'Aucun résultat / déjà ajouté',pt:'Sem correspondência / já adicionado',tr:'Eşleşme yok / zaten ekli',vi:'Không khớp / đã thêm'},
+    allin:{ko:'인기 코인 모두 추가됨',en:'All popular coins added.',ja:'人気コインは追加済み',es:'Todas añadidas',de:'Alle hinzugefügt',fr:'Toutes ajoutées',pt:'Todas adicionadas',tr:'Hepsi eklendi',vi:'Đã thêm hết'},
+    max:{ko:'최대 10개',en:'Max 10 coins',ja:'最大10',es:'Máx. 10',de:'Max. 10',fr:'Max 10',pt:'Máx. 10',tr:'En fazla 10',vi:'Tối đa 10'}
   };
+  var CNT={ko:function(n){return n+' / 10개 · 탭하면 삭제';},en:function(n){return n+' / 10 coins · tap a coin to remove';},ja:function(n){return n+' / 10 · タップで削除';},es:function(n){return n+' / 10 · toca para quitar';},de:function(n){return n+' / 10 · zum Entfernen tippen';},fr:function(n){return n+' / 10 · touchez pour retirer';},pt:function(n){return n+' / 10 · toque para remover';},tr:function(n){return n+' / 10 · kaldırmak için dokun';},vi:function(n){return n+' / 10 · chạm để xóa';}};
+  var POP=['BTC','ETH','SOL','XRP','DOGE','ADA','BNB','AVAX','LINK','DOT','TRX','LTC'];
   function slg(k){var o=SL[k];return (o&&(o[LANG]||o.en))||'';}
+  function cnt(n){var f=CNT[LANG]||CNT.en;return f(n);}
+  function el(id){return document.getElementById(id);}
   var wsSel=Array.isArray(COINS)?COINS.slice():[];
   var wsBlog=!!SHOW_BLOG;
-  function el(id){return document.getElementById(id);}
-  function wsRenderChips(){
-    el('wsChips').innerHTML=wsSel.map(function(c){return '<span class="wg-chip">'+c+'<b data-x="'+c+'">\u00d7</b></span>';}).join('');
-    var opts='<option value="">'+slg('add')+'</option>';
-    (ALLOWED||[]).forEach(function(c){ if(wsSel.indexOf(c)<0) opts+='<option value="'+c+'">'+c+'</option>'; });
-    el('wsAdd').innerHTML=opts;
+  function renderChips(){
+    var g=el('wsChips');
+    if(!wsSel.length){ g.innerHTML='<div style="font-size:10.5px;color:var(--t3);padding:4px 0">—</div>'; }
+    else { g.innerHTML=wsSel.map(function(c){return '<button class="wg-coin-chip on" data-x="'+c+'" title="remove '+c+'">'+c+' <span style="opacity:.6;margin-left:2px">\u00d7</span></button>';}).join(''); }
+    el('wsCount').textContent=cnt(wsSel.length);
   }
-  function wsRender(){ el('wsTitle').textContent=slg('title'); el('wsBlogLbl').textContent=slg('blog'); el('wsCoinsLbl').textContent=slg('coins'); el('wsApply').textContent=slg('apply'); el('wsBlog').checked=wsBlog; wsRenderChips(); }
-  function wsOpen(){ wsRender(); el('wgSettings').style.display=''; var tb=document.querySelector('.wg-tabs'); if(tb)tb.style.display='none'; el('bodyScore').style.display='none'; var bb=el('bodyBlog'); if(bb)bb.style.display='none'; var ft=document.querySelector('.wg-foot'); if(ft)ft.style.display='none'; postHeight(); setTimeout(postHeight,60); setTimeout(postHeight,220); }
-  function wsCloseFn(){ el('wgSettings').style.display='none'; var tb=document.querySelector('.wg-tabs'); if(tb)tb.style.display=''; el('bodyScore').style.display=''; var ft=document.querySelector('.wg-foot'); if(ft)ft.style.display=''; if(typeof showTab==='function') showTab('score'); postHeight(); setTimeout(postHeight,60); }
+  function filter(val){
+    var box=el('wsResults'); var q=(val||'').toUpperCase().trim(); var m;
+    if(!q){ m=POP.filter(function(c){return ALLOWED.indexOf(c)>=0 && wsSel.indexOf(c)<0;}).slice(0,8); }
+    else { m=ALLOWED.filter(function(c){return c.indexOf(q)>=0 && wsSel.indexOf(c)<0;}).slice(0,8); }
+    if(!m.length){ box.innerHTML='<div class="wg-res-item" style="cursor:default;color:var(--t3)">'+(q?slg('none'):slg('allin'))+'</div>'; box.style.display='block'; return; }
+    box.innerHTML=m.map(function(c){return '<div class="wg-res-item" data-add="'+c+'"><span style="font-weight:700">'+c+'</span> <span style="color:var(--or);font-size:10px;margin-left:4px">'+slg('add')+'</span></div>';}).join('');
+    box.style.display='block';
+  }
+  function addCoin(c){ if(wsSel.indexOf(c)>=0)return; if(wsSel.length>=10){alert(slg('max'));return;} wsSel.push(c); var s=el('wsSearch'); if(s)s.value=''; el('wsResults').style.display='none'; renderChips(); }
+  function removeCoin(c){ if(wsSel.length<=1)return; var i=wsSel.indexOf(c); if(i>=0){wsSel.splice(i,1);renderChips();} }
+  function labels(){
+    el('wsTitle').textContent=slg('title'); el('wsCoinsLbl').textContent=slg('mycoins');
+    el('wsOptLbl').textContent=slg('options'); el('wsBlogLbl').textContent=slg('blog');
+    el('wsApply').textContent=slg('apply'); el('wsSearch').placeholder=slg('ph');
+    el('wsBlogToggle').classList.toggle('on',wsBlog);
+  }
+  function wsOpen(){ labels(); renderChips(); el('wgSettings').style.display=''; var tb=document.querySelector('.wg-tabs'); if(tb)tb.style.display='none'; el('bodyScore').style.display='none'; var bb=el('bodyBlog'); if(bb)bb.style.display='none'; var ft=document.querySelector('.wg-foot'); if(ft)ft.style.display='none'; postHeight(); setTimeout(postHeight,60); setTimeout(postHeight,220); }
+  function wsCloseFn(){ el('wgSettings').style.display='none'; el('wsResults').style.display='none'; var tb=document.querySelector('.wg-tabs'); if(tb)tb.style.display=''; el('bodyScore').style.display=''; var ft=document.querySelector('.wg-foot'); if(ft)ft.style.display=''; if(typeof showTab==='function') showTab('score'); postHeight(); setTimeout(postHeight,60); }
   function wsApplyFn(){
     try{ localStorage.setItem('btc_wg_coins',JSON.stringify(wsSel)); localStorage.setItem('btc_wg_blog',wsBlog?'1':'0'); }catch(e){}
     var qs='coins='+encodeURIComponent(wsSel.join(','))+'&lang='+encodeURIComponent(LANG||'en');
-    if(wsBlog) qs+='&blog=1';
-    if(IS_PWA) qs+='&pwa=1';
+    if(wsBlog) qs+='&blog=1'; if(IS_PWA) qs+='&pwa=1';
     location.replace('/widget.php?'+qs);
   }
   document.addEventListener('DOMContentLoaded',function(){
@@ -404,9 +433,10 @@ if('serviceWorker' in navigator){window.addEventListener('load',function(){navig
     if(g && (IS_PWA || !inIframe || sameOrigin)){ g.style.display=''; g.title=slg('title'); g.onclick=wsOpen; }
     var x=el('wsClose'); if(x)x.onclick=wsCloseFn;
     var ap=el('wsApply'); if(ap)ap.onclick=wsApplyFn;
-    var bl=el('wsBlog'); if(bl)bl.onchange=function(){ wsBlog=bl.checked; };
-    var ad=el('wsAdd'); if(ad)ad.onchange=function(){ var v=ad.value; if(v){ if(wsSel.indexOf(v)<0){ if(wsSel.length>=10){ alert(slg('max10')); } else { wsSel.push(v); wsRenderChips(); } } } ad.value=''; };
-    var ch=el('wsChips'); if(ch)ch.addEventListener('click',function(e){ var b=(e.target.closest)?e.target.closest('b[data-x]'):null; if(!b)return; var c=b.getAttribute('data-x'); if(wsSel.length<=1){ alert(slg('min1')); return; } var i=wsSel.indexOf(c); if(i>=0){ wsSel.splice(i,1); wsRenderChips(); } });
+    var tg=el('wsBlogToggle'); if(tg)tg.onclick=function(){ tg.classList.toggle('on'); wsBlog=tg.classList.contains('on'); };
+    var s=el('wsSearch'); if(s){ s.addEventListener('input',function(){filter(s.value);}); s.addEventListener('focus',function(){filter(s.value);}); s.addEventListener('blur',function(){setTimeout(function(){var b=el('wsResults');if(b)b.style.display='none';},180);}); }
+    var res=el('wsResults'); if(res)res.addEventListener('mousedown',function(e){var it=e.target.closest?e.target.closest('[data-add]'):null; if(it){e.preventDefault();addCoin(it.getAttribute('data-add'));}});
+    var ch=el('wsChips'); if(ch)ch.addEventListener('click',function(e){var b=e.target.closest?e.target.closest('[data-x]'):null; if(b)removeCoin(b.getAttribute('data-x'));});
   });
 })();
 </script>
