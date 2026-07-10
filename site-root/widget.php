@@ -50,6 +50,7 @@ $coinsJson = json_encode($coins);
 $sbJson    = $showBlog ? 'true' : 'false';
 $pwaJson   = $isPwa ? 'true' : 'false';
 $langJs    = json_encode($lang);
+$allowedJson = json_encode($ALLOWED);
 ?><!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
@@ -121,6 +122,43 @@ body{display:flex;flex-direction:column}
 .wg-pw{font-size:10px;color:var(--t3)}.wg-pw a{color:var(--or);text-decoration:none}
 .wg-rfr{font-size:10px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0}
 .wg-rfr:hover{color:var(--t2)}
+/* ── responsive: allow the app/window to shrink horizontally ── */
+html,body{min-width:0}
+body{overflow-x:hidden}
+.wg-hd-r{display:flex;align-items:center;gap:8px;min-width:0;flex-shrink:0}
+.wg-gear{background:none;border:none;color:var(--t2);font-size:15px;line-height:1;cursor:pointer;padding:0}
+.wg-gear:hover{color:var(--t1)}
+.cr-price{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:360px){
+  .coin-row{gap:6px;padding:8px 8px}
+  .cr-chg{display:none}
+  .cr-sym{width:36px;font-size:12px}
+  .cr-sig{width:58px;font-size:8.5px}
+  .cr-score{width:28px;font-size:14px}
+  .wg-logo-tx{display:none}
+  .gp-inner{gap:8px}
+  .gp-gauge{width:92px}
+}
+@media (max-width:280px){
+  .cr-sig{display:none}
+  .gp-steps{flex-wrap:wrap}
+}
+/* ── in-app settings panel ── */
+.wg-set{padding:12px 12px 16px}
+.wg-set-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.wg-set-title{font-size:13px;font-weight:800}
+.wg-set-x{background:none;border:none;color:var(--t2);font-size:15px;cursor:pointer;line-height:1}
+.wg-set-x:hover{color:var(--t1)}
+.wg-set-row{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px;padding:9px 11px;background:var(--bg2);border-radius:8px;margin-bottom:14px;cursor:pointer}
+.wg-set-row input{width:16px;height:16px;accent-color:var(--or);cursor:pointer}
+.wg-set-lbl{font-size:10px;color:var(--t2);font-weight:600;margin-bottom:7px}
+.wg-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.wg-chip{display:inline-flex;align-items:center;gap:5px;background:var(--bg3);border:1px solid var(--b1);border-radius:14px;padding:4px 7px 4px 10px;font-size:11px;font-weight:700}
+.wg-chip b{cursor:pointer;color:var(--t3);font-size:14px;line-height:1}
+.wg-chip b:hover{color:#f87171}
+.wg-add{width:100%;background:var(--bg2);color:var(--t1);border:1px solid var(--b1);border-radius:8px;padding:9px 10px;font-size:12px;margin-bottom:14px;cursor:pointer}
+.wg-apply{width:100%;background:var(--or);color:#0a0a0a;border:none;border-radius:8px;padding:11px;font-size:13px;font-weight:800;cursor:pointer}
+.wg-apply:hover{opacity:.92}
 </style>
 </head>
 <body>
@@ -137,8 +175,11 @@ body{display:flex;flex-direction:column}
     <svg width="18" height="18" viewBox="0 0 64 64"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 41 29" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <span class="wg-logo-tx">BTCtiming</span>
   </a>
+  <div class="wg-hd-r">
   <span class="wg-upd" id="updTime">—</span>
+  <button id="wgGear" class="wg-gear" aria-label="settings" style="display:none">⚙</button>
   <button id="wgPwaInstall" style="display:none;margin-left:8px;background:#f7931a;color:#0a0a0a;border:none;border-radius:6px;padding:4px 10px;font-size:11px;font-weight:700;cursor:pointer">💻 <span id="wgPwaInstallTx">Install</span></button>
+  </div>
 </div>
 <?php if ($showBlog): ?>
 <div class="wg-tabs">
@@ -146,6 +187,14 @@ body{display:flex;flex-direction:column}
   <div class="wg-tab" id="tabBlog" onclick="showTab('blog')">📰 Blog</div>
 </div>
 <?php endif; ?>
+<div class="wg-set" id="wgSettings" style="display:none">
+  <div class="wg-set-hd"><span class="wg-set-title" id="wsTitle">Settings</span><button class="wg-set-x" id="wsClose">✕</button></div>
+  <label class="wg-set-row"><span id="wsBlogLbl">Show blog tab</span><input type="checkbox" id="wsBlog"></label>
+  <div class="wg-set-lbl" id="wsCoinsLbl">Coins</div>
+  <div class="wg-chips" id="wsChips"></div>
+  <select class="wg-add" id="wsAdd"><option value="">+ Add coin</option></select>
+  <button class="wg-apply" id="wsApply">Apply</button>
+</div>
 <div class="wg-body" id="bodyScore">
 <?php foreach ($coins as $c): ?>
   <div class="coin-row" id="row_<?= $c ?>" onclick="toggleGauge('<?= $c ?>')">
@@ -206,6 +255,8 @@ body{display:flex;flex-direction:column}
 <script>
 const COINS=<?= $coinsJson ?>,LANG=<?= $langJs ?>,API=location.origin+'/api.php';
 const IS_PWA=<?= $pwaJson ?>;
+const ALLOWED=<?= $allowedJson ?>;
+const SHOW_BLOG=<?= $sbJson ?>;
 (function(){
   try{
     var params=new URLSearchParams(location.search);
@@ -314,6 +365,50 @@ window.addEventListener('DOMContentLoaded',function(){
 });
 window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
 if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js',{scope:'/widget.php'}).catch(function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});});}
+
+/* ── Widget in-app Settings: blog toggle + coin add/remove ── */
+(function(){
+  var SL={
+    title:{ko:'설정',en:'Settings',ja:'設定',es:'Ajustes',de:'Einstellungen',fr:'Réglages',pt:'Ajustes',tr:'Ayarlar',vi:'Cài đặt'},
+    blog:{ko:'블로그 탭 표시',en:'Show blog tab',ja:'ブログタブを表示',es:'Mostrar pestaña de blog',de:'Blog-Tab anzeigen',fr:"Afficher l'onglet blog",pt:'Mostrar aba do blog',tr:'Blog sekmesini göster',vi:'Hiện tab blog'},
+    coins:{ko:'코인 (최대 10개)',en:'Coins (max 10)',ja:'コイン（最大10）',es:'Monedas (máx. 10)',de:'Coins (max. 10)',fr:'Cryptos (max 10)',pt:'Moedas (máx. 10)',tr:'Coinler (en çok 10)',vi:'Coin (tối đa 10)'},
+    add:{ko:'+ 코인 추가',en:'+ Add coin',ja:'+ コインを追加',es:'+ Añadir moneda',de:'+ Coin hinzufügen',fr:'+ Ajouter une crypto',pt:'+ Adicionar moeda',tr:'+ Coin ekle',vi:'+ Thêm coin'},
+    apply:{ko:'적용',en:'Apply',ja:'適用',es:'Aplicar',de:'Übernehmen',fr:'Appliquer',pt:'Aplicar',tr:'Uygula',vi:'Áp dụng'},
+    min1:{ko:'최소 1개 코인이 필요합니다.',en:'At least 1 coin is required.'},
+    max10:{ko:'최대 10개까지 추가할 수 있습니다.',en:'Up to 10 coins.'}
+  };
+  function slg(k){var o=SL[k];return (o&&(o[LANG]||o.en))||'';}
+  var wsSel=Array.isArray(COINS)?COINS.slice():[];
+  var wsBlog=!!SHOW_BLOG;
+  function el(id){return document.getElementById(id);}
+  function wsRenderChips(){
+    el('wsChips').innerHTML=wsSel.map(function(c){return '<span class="wg-chip">'+c+'<b data-x="'+c+'">\u00d7</b></span>';}).join('');
+    var opts='<option value="">'+slg('add')+'</option>';
+    (ALLOWED||[]).forEach(function(c){ if(wsSel.indexOf(c)<0) opts+='<option value="'+c+'">'+c+'</option>'; });
+    el('wsAdd').innerHTML=opts;
+  }
+  function wsRender(){ el('wsTitle').textContent=slg('title'); el('wsBlogLbl').textContent=slg('blog'); el('wsCoinsLbl').textContent=slg('coins'); el('wsApply').textContent=slg('apply'); el('wsBlog').checked=wsBlog; wsRenderChips(); }
+  function wsOpen(){ wsRender(); el('wgSettings').style.display=''; var tb=document.querySelector('.wg-tabs'); if(tb)tb.style.display='none'; el('bodyScore').style.display='none'; var bb=el('bodyBlog'); if(bb)bb.style.display='none'; var ft=document.querySelector('.wg-foot'); if(ft)ft.style.display='none'; postHeight(); setTimeout(postHeight,60); setTimeout(postHeight,220); }
+  function wsCloseFn(){ el('wgSettings').style.display='none'; var tb=document.querySelector('.wg-tabs'); if(tb)tb.style.display=''; el('bodyScore').style.display=''; var ft=document.querySelector('.wg-foot'); if(ft)ft.style.display=''; if(typeof showTab==='function') showTab('score'); postHeight(); setTimeout(postHeight,60); }
+  function wsApplyFn(){
+    try{ localStorage.setItem('btc_wg_coins',JSON.stringify(wsSel)); localStorage.setItem('btc_wg_blog',wsBlog?'1':'0'); }catch(e){}
+    var qs='coins='+encodeURIComponent(wsSel.join(','))+'&lang='+encodeURIComponent(LANG||'en');
+    if(wsBlog) qs+='&blog=1';
+    if(IS_PWA) qs+='&pwa=1';
+    location.replace('/widget.php?'+qs);
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    var g=el('wgGear');
+    var inIframe=false; try{inIframe=(window.self!==window.top);}catch(e){inIframe=true;}
+    var sameOrigin=true; if(inIframe){ try{ void window.top.location.href; }catch(e){ sameOrigin=false; } }
+    if(g && (IS_PWA || !inIframe || sameOrigin)){ g.style.display=''; g.title=slg('title'); g.onclick=wsOpen; }
+    var x=el('wsClose'); if(x)x.onclick=wsCloseFn;
+    var ap=el('wsApply'); if(ap)ap.onclick=wsApplyFn;
+    var bl=el('wsBlog'); if(bl)bl.onchange=function(){ wsBlog=bl.checked; };
+    var ad=el('wsAdd'); if(ad)ad.onchange=function(){ var v=ad.value; if(v){ if(wsSel.indexOf(v)<0){ if(wsSel.length>=10){ alert(slg('max10')); } else { wsSel.push(v); wsRenderChips(); } } } ad.value=''; };
+    var ch=el('wsChips'); if(ch)ch.addEventListener('click',function(e){ var b=(e.target.closest)?e.target.closest('b[data-x]'):null; if(!b)return; var c=b.getAttribute('data-x'); if(wsSel.length<=1){ alert(slg('min1')); return; } var i=wsSel.indexOf(c); if(i>=0){ wsSel.splice(i,1); wsRenderChips(); } });
+  });
+})();
 </script>
 </body>
 </html>
