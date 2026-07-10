@@ -416,7 +416,8 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 /* ── NAV ── */
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
 .nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px;gap:12px}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;display:inline-flex;align-items:center;gap:6px}
+.logo .logo-ic{flex-shrink:0}
 .logo:hover{opacity:.8}
 .logo:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:3px}
 .logo span{color:var(--yellow)}
@@ -721,6 +722,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
   font-size:16px;background:var(--icard-accent-bg,rgba(247,147,26,.15))}
 .insight-body{min-width:0;flex:1}
 .insight-cat{font-size:8px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--icard-accent,var(--orange));margin-bottom:3px}
+.cat-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}
 .insight-title{font-size:11px;font-weight:600;color:var(--t1);line-height:1.4;margin-bottom:2px;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .insight-date{font-size:9px;color:var(--t3)}
@@ -978,7 +980,7 @@ $__seoSub = [
 <nav>
 <div class="nav-inner">
   <div class="logo" onclick="goHome()" title="BTCtiming.com — Home" role="button" tabindex="0"
-    onkeydown="if(event.key==='Enter')goHome()">BTC<span>timing</span></div>
+    onkeydown="if(event.key==='Enter')goHome()"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></div>
   <!-- PC: 탭, 모바일: 드롭박스 -->
   <div class="coin-tabs" id="coinTabs"></div>
   <select id="coinDrop" onchange="switchCoin(this.value)" aria-label="Select coin"
@@ -1130,7 +1132,7 @@ $__seoSub = [
       </div>
       <div style="background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px">
         <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleSplitPlan()" role="button" tabindex="0" aria-label="Toggle split entry plan" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSplitPlan();}">
-          <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lSplitTitle">💰 SPLIT ENTRY PLAN</div>
+          <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lSplitTitle">SPLIT ENTRY PLAN</div>
           <span id="splitPlanChevron" style="font-size:10px;color:var(--t3);transition:transform .2s;transform:rotate(-90deg)">▾</span>
         </div>
         <div id="splitPlanBody" style="display:none;margin-top:10px">
@@ -1288,7 +1290,8 @@ function btcIsMobileOrApp(){
   var mobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
   var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
   var inApp = document.referrer && document.referrer.indexOf('android-app://') === 0;
-  return mobile || standalone || inApp;   // 창 너비(innerWidth) 대신 디바이스/앱으로만 판단
+  var narrow = window.innerWidth < 768;
+  return mobile || standalone || inApp || narrow;
 }
 (function(){
   function apply(){

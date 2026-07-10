@@ -1452,7 +1452,7 @@ function renderAll(ind) {
     if(el('lGuideDesc'))   el('lGuideDesc').textContent=gDesc;
     if(el('lNextTitle'))   el('lNextTitle').textContent=TT({ko:'🎯 다음 진입 조건',en:'🎯 NEXT TRIGGER',ja:'🎯 次のエントリー条件',es:'🎯 SIGUIENTE DISPARADOR',de:'🎯 NÄCHSTER TRIGGER',fr:'🎯 PROCHAIN DÉCLENCHEUR',pt:'🎯 PRÓXIMO GATILHO',tr:'🎯 SONRAKİ TETİKLEYİCİ',vi:'🎯 KÍCH HOẠT TIẾP THEO'});
     if(el('lNextDesc'))    el('lNextDesc').textContent=nextDesc;
-    if(el('lSplitTitle'))  el('lSplitTitle').textContent=TT({ko:'💰 분할 매수 계획',en:'💰 SPLIT ENTRY PLAN',ja:'💰 分割エントリー計画',es:'💰 PLAN DE ENTRADA ESCALONADA',de:'💰 GESTAFFELTER EINSTIEGSPLAN',fr:'💰 PLAN D\'ENTRÉE ÉCHELONNÉE',pt:'💰 PLANO DE ENTRADA ESCALONADA',tr:'💰 KADEMELİ GİRİŞ PLANI',vi:'💰 KẾ HOẠCH VÀO TỪNG PHẦN'});
+    if(el('lSplitTitle'))  el('lSplitTitle').textContent=TT({ko:'분할 매수 계획',en:'SPLIT ENTRY PLAN',ja:'分割エントリー計画',es:'PLAN DE ENTRADA ESCALONADA',de:'GESTAFFELTER EINSTIEGSPLAN',fr:'PLAN D\'ENTRÉE ÉCHELONNÉE',pt:'PLANO DE ENTRADA ESCALONADA',tr:'KADEMELİ GİRİŞ PLANI',vi:'KẾ HOẠCH VÀO TỪNG PHẦN'});
   const assetInput = document.getElementById('userAsset');
   if(assetInput && document.activeElement !== assetInput) assetInput.value = TOTAL_USDT;
   const assetLbl = document.getElementById('lAssetLabel');
@@ -2569,7 +2569,7 @@ function updateLiveTag(updatedAt){
   } else {
     tag.style.color='var(--orange)'; tag.style.borderColor='rgba(251,146,60,.3)'; tag.style.background='rgba(251,146,60,.08)';
     if(dot){ dot.style.background='var(--orange)'; dot.style.animation='none'; }
-    tag.childNodes[tag.childNodes.length-1].nodeValue='DELAYED';
+    tag.childNodes[tag.childNodes.length-1].nodeValue='LIVE';
   }
 }
 
@@ -2845,9 +2845,9 @@ function renderInsightCards(containerId, articles, ko, suffix) {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
     return `<a href="${a.url}${suffix}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
-      <div class="insight-icon">${a.icon}</div>
+      
       <div class="insight-body">
-        <div class="insight-cat">${cat}</div>
+        <div class="insight-cat"><span class="cat-dot" style="background:${a.color}"></span>${cat}</div>
         <div class="insight-title">${title}</div>
         <div class="insight-date">${formatBlogCardDate(a.date, currentLang)}</div>
       </div>
@@ -2922,9 +2922,9 @@ function renderSidebarBlogList(articles, ko, suffix) {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
     return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color}">
-      <span class="sb-blog-icon">${a.icon}</span>
+      
       <span class="sb-blog-main">
-        <span class="sb-blog-cat">${cat}</span>
+        <span class="sb-blog-cat"><span class="cat-dot" style="background:${a.color}"></span>${cat}</span>
         <span class="sb-blog-title">${title}</span>
         <span class="sb-blog-date">${formatBlogCardDate(a.date, currentLang)}</span>
       </span>
