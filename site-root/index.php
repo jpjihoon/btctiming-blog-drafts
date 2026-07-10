@@ -767,6 +767,19 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .toggle.on{background:var(--green)}
 .toggle::after{content:'';position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .2s}
 .toggle.on::after{transform:translateX(16px)}
+/* 설정 탭 */
+.stab-row{display:flex;gap:6px;margin-bottom:14px}
+.stab{flex:1;padding:7px;border-radius:8px;border:1px solid var(--b1);background:var(--bg3);color:var(--t2);font-size:12px;cursor:pointer;font-weight:500;transition:all .15s}
+.stab.active{background:var(--or);color:#000;border-color:var(--or);font-weight:700}
+.stab-desc{font-size:10px;color:var(--t3);margin-bottom:10px;line-height:1.5}
+.sset-label{font-size:10px;font-weight:600;color:var(--t2);margin:10px 0 6px}
+.wg-coin-grid{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
+.wg-coin-chip{padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid var(--b1);background:var(--bg3);color:var(--t2);transition:all .15s;user-select:none}
+.wg-coin-chip.on{background:var(--or);color:#000;border-color:var(--or)}
+.wg-preview-wrap{margin-bottom:4px;border-radius:10px;overflow:hidden}
+.wg-code-wrap{position:relative}
+.wg-copy-btn{position:absolute;right:6px;top:6px;padding:3px 9px;border-radius:6px;background:var(--bg4);border:1px solid var(--b1);color:var(--t1);font-size:10px;cursor:pointer}
+.wg-copy-btn:hover{background:var(--or);color:#000;border-color:var(--or)}
 
 /* ── OVERLAY ── */
 #overlay{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:16px}
@@ -817,31 +830,67 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
   <div class="ov-txt" id="ovTxt"><?php echo ['ko'=>'실시간 데이터 불러오는 중...','en'=>'Fetching live data...','ja'=>'リアルタイムデータ取得中...','es'=>'Obteniendo datos en vivo...','de'=>'Live-Daten werden geladen...','fr'=>'Chargement des données en direct...','pt'=>'Carregando dados ao vivo...','tr'=>'Canlı veriler yükleniyor...','vi'=>'Đang tải dữ liệu trực tiếp...'][$lang] ?? 'Fetching live data...'; ?></div>
 </div>
 
-<!-- Notification Modal -->
+<!-- Settings Modal (Widget + Alert tabs) -->
 <div class="modal-bg" id="notifModal" onclick="if(event.target===this)closeModal()">
-  <div class="modal" style="max-height:85vh;overflow-y:auto;width:min(420px,95vw)">
+  <div class="modal" style="max-height:90vh;overflow-y:auto;width:min(460px,96vw)">
     <div class="modal-hd">
-      🔔 <span data-i="alertTitle">Alert Settings</span>
+      ⚙️ <span data-i="settingsTitle">Settings</span>
       <span class="modal-close" onclick="closeModal()">×</span>
     </div>
-    <div style="font-size:10px;color:var(--t3);margin-bottom:10px;line-height:1.5" data-i="alertDesc">
-      Get a browser notification when the score crosses these thresholds.
+
+    <!-- 탭 버튼 -->
+    <div class="stab-row">
+      <button class="stab active" id="stab_widget" onclick="switchTab('widget')">
+        <span>📋</span> <span data-i="tabWidget">Widget</span>
+      </button>
+      <button class="stab" id="stab_alert" onclick="switchTab('alert')">
+        <span>🔔</span> <span data-i="tabAlert">Alerts</span>
+      </button>
     </div>
 
-    <div style="font-size:10px;font-weight:600;color:var(--t2);margin:8px 0 6px" data-i="alertBuySection">📈 LONG TRIGGERS</div>
-    <div class="alert-row"><span class="alert-label" data-i="a2">Long Score ≥ 6.0 (Split Long)</span><div class="toggle on" id="a2" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="a3">Long Score ≥ 7.0 (Add Long)</span><div class="toggle on" id="a3" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="a4">Long Score ≥ 8.0 (Full Long)</span><div class="toggle on" id="a4" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+    <!-- 위젯 탭 -->
+    <div id="tab_widget">
+      <div class="stab-desc" data-i="widgetDesc">Add a live BTCtiming widget to your site. Select coins and copy the embed code.</div>
 
-    <div style="font-size:10px;font-weight:600;color:var(--t2);margin:12px 0 6px" data-i="alertSellSection">📉 SHORT TRIGGERS</div>
-    <div class="alert-row"><span class="alert-label" data-i="b1">Short Score ≥ 6.0 (Prepare Short)</span><div class="toggle" id="b1" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="b2">Short Score ≥ 7.0 (Add Short)</span><div class="toggle" id="b2" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
-    <div class="alert-row"><span class="alert-label" data-i="b3">Short Score ≥ 8.0 (Full Short)</span><div class="toggle" id="b3" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <!-- 코인 선택 -->
+      <div class="sset-label" data-i="widgetCoins">Coins to display</div>
+      <div class="wg-coin-grid" id="wgCoinGrid"></div>
 
-    <button onclick="requestNotif()" style="background:var(--green);color:#000;border:none;border-radius:var(--rad-sm);padding:9px;font-size:12px;font-weight:600;cursor:pointer;width:100%;margin-top:14px">
-      <span data-i="enableNotif">Enable Browser Notifications</span>
-    </button>
-    <div id="notifStatus" style="font-size:10px;color:var(--t3);text-align:center;margin-top:6px"></div>
+      <!-- 미리보기 -->
+      <div class="sset-label" data-i="widgetPreview">Preview</div>
+      <div class="wg-preview-wrap">
+        <iframe id="wgPreviewFrame"
+          src="" frameborder="0" scrolling="no"
+          style="width:100%;height:160px;border-radius:10px;border:1px solid var(--b1);background:var(--bg3)">
+        </iframe>
+      </div>
+
+      <!-- 코드 복사 -->
+      <div class="sset-label" data-i="widgetCode">Embed code</div>
+      <div class="wg-code-wrap">
+        <textarea id="wgCodeBox" readonly rows="3" style="width:100%;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t2);font-size:11px;padding:8px;resize:none;font-family:monospace;line-height:1.5"></textarea>
+        <button class="wg-copy-btn" onclick="copyWidgetCode()" id="wgCopyBtn">
+          <span data-i="copyCode">Copy</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 알람 탭 -->
+    <div id="tab_alert" style="display:none">
+      <div class="stab-desc" data-i="alertDesc">Get a browser notification when the score crosses these thresholds.</div>
+      <div style="font-size:10px;font-weight:600;color:var(--t2);margin:8px 0 6px" data-i="alertBuySection">📈 LONG TRIGGERS</div>
+      <div class="alert-row"><span class="alert-label" data-i="a2">Long Score ≥ 6.0 (Split Long)</span><div class="toggle on" id="a2" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <div class="alert-row"><span class="alert-label" data-i="a3">Long Score ≥ 7.0 (Add Long)</span><div class="toggle on" id="a3" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <div class="alert-row"><span class="alert-label" data-i="a4">Long Score ≥ 8.0 (Full Long)</span><div class="toggle on" id="a4" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <div style="font-size:10px;font-weight:600;color:var(--t2);margin:12px 0 6px" data-i="alertSellSection">📉 SHORT TRIGGERS</div>
+      <div class="alert-row"><span class="alert-label" data-i="b1">Short Score ≥ 6.0 (Prepare Short)</span><div class="toggle" id="b1" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <div class="alert-row"><span class="alert-label" data-i="b2">Short Score ≥ 7.0 (Add Short)</span><div class="toggle" id="b2" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <div class="alert-row"><span class="alert-label" data-i="b3">Short Score ≥ 8.0 (Full Short)</span><div class="toggle" id="b3" onclick="toggleAlert(this)" role="switch" tabindex="0" aria-label="Toggle alert" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleAlert(this);}"></div></div>
+      <button onclick="requestNotif()" style="background:var(--green);color:#000;border:none;border-radius:var(--rad-sm);padding:9px;font-size:12px;font-weight:600;cursor:pointer;width:100%;margin-top:14px">
+        <span data-i="enableNotif">Enable Browser Notifications</span>
+      </button>
+      <div id="notifStatus" style="font-size:10px;color:var(--t3);text-align:center;margin-top:6px"></div>
+    </div>
   </div>
 </div>
 
@@ -899,7 +948,7 @@ $__seoSub = [
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
     <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
     <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary">📚 <span data-i="navGlossary">용어사전</span></a>
-    <div class="icon-btn" onclick="openModal()" title="Alerts" role="button" tabindex="0" aria-label="Alerts" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openModal();}">🔔</div>
+    <div class="icon-btn" onclick="openModal()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openModal();}">⚙️</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
       <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)" aria-label="Select language" aria-haspopup="true">
@@ -1191,6 +1240,86 @@ window.BT_SERVER_LANG = <?= json_encode($lang) ?>; // 서버가 URL 기준으로
 <script>window.COINS_AUTO = <?= $__coinsJson ?>;</script>
 <script src="/lang-common.js" defer></script>
 <script src="/app.js" defer></script>
+<script>
+// ── 설정 모달 탭 전환 ────────────────────────────────
+function switchTab(tab){
+  document.getElementById('tab_widget').style.display = tab==='widget' ? '' : 'none';
+  document.getElementById('tab_alert').style.display  = tab==='alert'  ? '' : 'none';
+  document.getElementById('stab_widget').classList.toggle('active', tab==='widget');
+  document.getElementById('stab_alert').classList.toggle('active', tab==='alert');
+  if(tab==='widget') initWidgetTab();
+}
+
+// ── 위젯 탭 초기화 ────────────────────────────────────
+const WG_ALL_COINS = ['BTC','ETH','SOL','BNB','XRP','DOGE','ADA','TRX','AVAX','LINK','DOT','LTC','BCH','NEAR','UNI','ARB','SUI','HBAR','APT','ICP'];
+let wgSelected = [];
+let wgInited = false;
+
+function initWidgetTab(){
+  if(wgInited) return;
+  wgInited = true;
+  // 저장된 코인 불러오기
+  try { wgSelected = JSON.parse(localStorage.getItem('btc_wg_coins')||'["BTC"]'); } catch(e){ wgSelected=['BTC']; }
+  buildCoinGrid();
+  updateWidgetPreview();
+}
+
+function buildCoinGrid(){
+  const grid = document.getElementById('wgCoinGrid');
+  if(!grid) return;
+  grid.innerHTML = '';
+  WG_ALL_COINS.forEach(c=>{
+    const chip = document.createElement('button');
+    chip.className = 'wg-coin-chip' + (wgSelected.includes(c)?' on':'');
+    chip.textContent = c;
+    chip.onclick = ()=>{ toggleWgCoin(c, chip); };
+    grid.appendChild(chip);
+  });
+}
+
+function toggleWgCoin(coin, chip){
+  const idx = wgSelected.indexOf(coin);
+  if(idx>=0){
+    if(wgSelected.length<=1) return; // 최소 1개
+    wgSelected.splice(idx,1);
+    chip.classList.remove('on');
+  } else {
+    if(wgSelected.length>=10) return; // 최대 10개
+    wgSelected.push(coin);
+    chip.classList.add('on');
+  }
+  try { localStorage.setItem('btc_wg_coins', JSON.stringify(wgSelected)); } catch(e){}
+  updateWidgetPreview();
+}
+
+function updateWidgetPreview(){
+  const coins = wgSelected.join(',');
+  const lang  = document.documentElement.getAttribute('lang') || 'en';
+  const src   = 'https://btctiming.com/widget.php?coins='+encodeURIComponent(coins)+'&lang='+lang;
+  // 미리보기 height: 헤더(40) + 코인행(40*N) + 푸터(32)
+  const h = 40 + wgSelected.length * 40 + 32;
+  const frame = document.getElementById('wgPreviewFrame');
+  if(frame){ frame.src=src; frame.style.height=Math.min(h,240)+'px'; }
+  // 코드 박스
+  const iframeW = 300;
+  const iframeH = Math.min(h, 240);
+  const code = '<iframe src="'+src+'" width="'+iframeW+'" height="'+iframeH+'" frameborder="0" scrolling="no" style="border-radius:12px"></iframe>';
+  const box = document.getElementById('wgCodeBox');
+  if(box) box.value = code;
+}
+
+function copyWidgetCode(){
+  const box = document.getElementById('wgCodeBox');
+  if(!box) return;
+  navigator.clipboard.writeText(box.value).then(()=>{
+    const btn = document.getElementById('wgCopyBtn');
+    const orig = btn.innerHTML;
+    btn.textContent = '✓ Copied!';
+    btn.style.background = 'var(--green)'; btn.style.color = '#000';
+    setTimeout(()=>{ btn.innerHTML=orig; btn.style.background=''; btn.style.color=''; }, 2000);
+  }).catch(()=>{ box.select(); document.execCommand('copy'); });
+}
+</script>
 
 <!-- ═══════════════════════════════════════════════════════ -->
 <!-- LIVE CHAT WIDGET -->
