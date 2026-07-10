@@ -888,19 +888,19 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </div>
 
         <!-- 플로팅 위젯 (사이트 위 상주) -->
-        <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:var(--or);border:1px solid var(--or);color:#0a0a0a;border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span style="color:#0a0a0a">📌</span> <span id="wgTxt_pin" style="color:#0a0a0a !important;font-weight:700">Pin widget on screen</span>
+        <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:#f7931a;border:none;border-radius:8px;padding:12px;font-size:13px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span style="color:#0a0a0a;font-size:15px">📌</span><span id="wgTxt_pin" style="color:#0a0a0a;font-weight:800">Pin widget on screen</span>
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
           <span id="wgTxt_pinHint">Keeps a small live widget floating on this page — drag it anywhere.</span>
         </div>
 
-        <!-- 앱 설치 (PWA) -->
-        <button id="wgInstallBtn" onclick="installBtcApp()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>💻</span> <span id="wgTxt_install">Install BTCtiming as an app</span>
+        <!-- 위젯 별도 창으로 열기 -->
+        <button id="wgInstallBtn" onclick="openWidgetWindow()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span>🗔</span> <span id="wgTxt_install">Open widget in a separate window</span>
         </button>
         <div id="wgInstallHint" style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
-          <span id="wgTxt_installHint">Adds BTCtiming to your desktop as a standalone app window.</span>
+          <span id="wgTxt_installHint">Opens only the widget in a small window you can keep on top.</span>
         </div>
 
         <!-- 코드 복사 -->
@@ -1299,6 +1299,20 @@ window.addEventListener('appinstalled', function(){ btcInstallPrompt = null; });
 </script>
 <script>
 // ── 설정 모달 탭 전환 ────────────────────────────────
+// 위젯만 별도 작은 창으로 띄우기 (홈페이지 전체가 아니라 위젯 페이지만)
+function openWidgetWindow(){
+  const url = buildWidgetUrl();
+  const w = 340;
+  const h = Math.min(widgetHeight() + 40, 640);
+  const left = (screen.availWidth - w - 40);
+  const top = 80;
+  // 툴바/주소창 최소화한 팝업 창으로 위젯만 표시
+  const features = 'popup=yes,width='+w+',height='+h+',left='+left+',top='+top+',resizable=yes,scrollbars=yes';
+  const win = window.open(url, 'btctimingWidgetWindow', features);
+  if(win){ win.focus(); }
+  else { alert(getWidgetLang()==='ko' ? '팝업이 차단되었습니다. 팝업 허용 후 다시 시도해주세요.' : 'Popup blocked. Please allow popups and try again.'); }
+}
+
 function installBtcApp(){
   // 1) 브라우저가 설치 프롬프트를 준비했으면 즉시 설치 실행
   if(btcInstallPrompt){
@@ -1401,15 +1415,15 @@ let wgEnabled = true;
 let wgInited = false;
 
 const WG_I18N = {
-  ko:{title:'위젯',desc:'플로팅 패널로 직접 쓰거나, 사이트에 임베드할 수 있습니다.',coins:'내 코인 (즐겨찾기)',ph:'🔍 코인 검색해서 추가 (ETH, SOL, PEPE…)',options:'옵션',blog:'최신 블로그 글 표시 (5개)',preview:'미리보기',pin:'화면에 위젯 고정',pinHint:'이 페이지 위에 작은 실시간 위젯을 띄웁니다 — 원하는 곳으로 드래그하세요.',code:'임베드 코드 (내 웹사이트용)',copy:'복사',install:'BTCtiming 앱으로 설치',installHint:'BTCtiming을 데스크톱에 독립 앱 창으로 추가합니다.',count:function(n){return n+' / 10개 · 코인을 탭하면 제거';}},
-  en:{title:'Widget',desc:'Use it yourself as a floating panel, or embed it on your site.',coins:'My coins (favorites)',ph:'🔍 Search to add a coin (ETH, SOL, PEPE…)',options:'Options',blog:'Show latest blog posts (5)',preview:'Preview',pin:'Pin widget on screen',pinHint:'Keeps a small live widget floating on this page — drag it anywhere.',code:'Embed code (for your website)',copy:'Copy',install:'Install BTCtiming as an app',installHint:'Adds BTCtiming to your desktop as a standalone app window.',count:function(n){return n+' / 10 coins · tap a coin to remove';}},
-  ja:{title:'ウィジェット',desc:'フローティングパネルとして使うか、サイトに埋め込めます。',coins:'マイコイン（お気に入り）',ph:'🔍 コインを検索して追加 (ETH, SOL, PEPE…)',options:'オプション',blog:'最新ブログ記事を表示 (5件)',preview:'プレビュー',pin:'画面に固定',pinHint:'このページ上に小さなライブウィジェットを表示します。ドラッグで移動できます。',code:'埋め込みコード（サイト用）',copy:'コピー',install:'BTCtimingをアプリとして追加',installHint:'BTCtimingをデスクトップに独立アプリとして追加します。',count:function(n){return n+' / 10 · タップで削除';}},
-  es:{title:'Widget',desc:'Úsalo como panel flotante o incrústalo en tu sitio.',coins:'Mis monedas (favoritas)',ph:'🔍 Busca para añadir (ETH, SOL, PEPE…)',options:'Opciones',blog:'Mostrar últimas entradas (5)',preview:'Vista previa',pin:'Fijar widget en pantalla',pinHint:'Mantiene un widget flotante en esta página — arrástralo donde quieras.',code:'Código para incrustar',copy:'Copiar',install:'Instalar BTCtiming como app',installHint:'Añade BTCtiming a tu escritorio como ventana de app.',count:function(n){return n+' / 10 · toca para quitar';}},
-  de:{title:'Widget',desc:'Nutze es als schwebendes Panel oder bette es auf deiner Seite ein.',coins:'Meine Coins (Favoriten)',ph:'🔍 Coin suchen zum Hinzufügen (ETH, SOL…)',options:'Optionen',blog:'Neueste Blogbeiträge zeigen (5)',preview:'Vorschau',pin:'Widget anheften',pinHint:'Hält ein kleines Live-Widget auf dieser Seite — beliebig ziehbar.',code:'Einbettungscode (für deine Website)',copy:'Kopieren',install:'BTCtiming als App installieren',installHint:'Fügt BTCtiming als eigenständiges App-Fenster hinzu.',count:function(n){return n+' / 10 · zum Entfernen tippen';}},
-  fr:{title:'Widget',desc:'Utilisez-le comme panneau flottant ou intégrez-le à votre site.',coins:'Mes cryptos (favoris)',ph:'🔍 Rechercher pour ajouter (ETH, SOL…)',options:'Options',blog:'Afficher les derniers articles (5)',preview:'Aperçu',pin:'Épingler le widget',pinHint:'Garde un petit widget flottant sur cette page — déplaçable à volonté.',code:"Code d'intégration (pour votre site)",copy:'Copier',install:'Installer BTCtiming comme app',installHint:'Ajoute BTCtiming à votre bureau comme fenêtre d\'app.',count:function(n){return n+' / 10 · touchez pour retirer';}},
-  pt:{title:'Widget',desc:'Use como painel flutuante ou incorpore no seu site.',coins:'Minhas moedas (favoritas)',ph:'🔍 Busque para adicionar (ETH, SOL…)',options:'Opções',blog:'Mostrar últimos posts (5)',preview:'Prévia',pin:'Fixar widget na tela',pinHint:'Mantém um widget flutuante nesta página — arraste para qualquer lugar.',code:'Código de incorporação',copy:'Copiar',install:'Instalar BTCtiming como app',installHint:'Adiciona BTCtiming à área de trabalho como janela de app.',count:function(n){return n+' / 10 · toque para remover';}},
-  tr:{title:'Widget',desc:'Yüzen panel olarak kullan veya sitene göm.',coins:'Coinlerim (favoriler)',ph:'🔍 Eklemek için ara (ETH, SOL…)',options:'Seçenekler',blog:'Son blog yazılarını göster (5)',preview:'Önizleme',pin:"Widget'ı ekrana sabitle",pinHint:'Bu sayfada küçük bir canlı widget tutar — istediğin yere sürükle.',code:'Yerleştirme kodu (siten için)',copy:'Kopyala',install:'BTCtiming\'i uygulama olarak kur',installHint:'BTCtiming\'i masaüstüne bağımsız uygulama olarak ekler.',count:function(n){return n+' / 10 · kaldırmak için dokun';}},
-  vi:{title:'Widget',desc:'Dùng như bảng nổi hoặc nhúng vào trang của bạn.',coins:'Coin của tôi (yêu thích)',ph:'🔍 Tìm để thêm coin (ETH, SOL…)',options:'Tùy chọn',blog:'Hiện bài blog mới nhất (5)',preview:'Xem trước',pin:'Ghim widget lên màn hình',pinHint:'Giữ một widget nhỏ nổi trên trang này — kéo đến bất cứ đâu.',code:'Mã nhúng (cho website của bạn)',copy:'Sao chép',install:'Cài BTCtiming như ứng dụng',installHint:'Thêm BTCtiming vào màn hình nền như cửa sổ ứng dụng.',count:function(n){return n+' / 10 · chạm để xóa';}}
+  ko:{title:'위젯',desc:'플로팅 패널로 직접 쓰거나, 사이트에 임베드할 수 있습니다.',coins:'내 코인 (즐겨찾기)',ph:'🔍 코인 검색해서 추가 (ETH, SOL, PEPE…)',options:'옵션',blog:'최신 블로그 글 표시 (5개)',preview:'미리보기',pin:'화면에 위젯 고정',pinHint:'이 페이지 위에 작은 실시간 위젯을 띄웁니다 — 원하는 곳으로 드래그하세요.',code:'임베드 코드 (내 웹사이트용)',copy:'복사',install:'위젯 별도 창으로 열기',installHint:'홈페이지가 아니라 위젯만 작은 창으로 띄웁니다 (항상 위 고정 가능).',count:function(n){return n+' / 10개 · 코인을 탭하면 제거';}},
+  en:{title:'Widget',desc:'Use it yourself as a floating panel, or embed it on your site.',coins:'My coins (favorites)',ph:'🔍 Search to add a coin (ETH, SOL, PEPE…)',options:'Options',blog:'Show latest blog posts (5)',preview:'Preview',pin:'Pin widget on screen',pinHint:'Keeps a small live widget floating on this page — drag it anywhere.',code:'Embed code (for your website)',copy:'Copy',install:'Open widget in a separate window',installHint:'Opens only the widget in a small window you can keep on top.',count:function(n){return n+' / 10 coins · tap a coin to remove';}},
+  ja:{title:'ウィジェット',desc:'フローティングパネルとして使うか、サイトに埋め込めます。',coins:'マイコイン（お気に入り）',ph:'🔍 コインを検索して追加 (ETH, SOL, PEPE…)',options:'オプション',blog:'最新ブログ記事を表示 (5件)',preview:'プレビュー',pin:'画面に固定',pinHint:'このページ上に小さなライブウィジェットを表示します。ドラッグで移動できます。',code:'埋め込みコード（サイト用）',copy:'コピー',install:'ウィジェットを別ウィンドウで開く',installHint:'ホームページではなくウィジェットだけを小さな窓で表示します。',count:function(n){return n+' / 10 · タップで削除';}},
+  es:{title:'Widget',desc:'Úsalo como panel flotante o incrústalo en tu sitio.',coins:'Mis monedas (favoritas)',ph:'🔍 Busca para añadir (ETH, SOL, PEPE…)',options:'Opciones',blog:'Mostrar últimas entradas (5)',preview:'Vista previa',pin:'Fijar widget en pantalla',pinHint:'Mantiene un widget flotante en esta página — arrástralo donde quieras.',code:'Código para incrustar',copy:'Copiar',install:'Abrir widget en ventana aparte',installHint:'Abre solo el widget en una ventana pequeña.',count:function(n){return n+' / 10 · toca para quitar';}},
+  de:{title:'Widget',desc:'Nutze es als schwebendes Panel oder bette es auf deiner Seite ein.',coins:'Meine Coins (Favoriten)',ph:'🔍 Coin suchen zum Hinzufügen (ETH, SOL…)',options:'Optionen',blog:'Neueste Blogbeiträge zeigen (5)',preview:'Vorschau',pin:'Widget anheften',pinHint:'Hält ein kleines Live-Widget auf dieser Seite — beliebig ziehbar.',code:'Einbettungscode (für deine Website)',copy:'Kopieren',install:'Widget in eigenem Fenster öffnen',installHint:'Öffnet nur das Widget in einem kleinen Fenster.',count:function(n){return n+' / 10 · zum Entfernen tippen';}},
+  fr:{title:'Widget',desc:'Utilisez-le comme panneau flottant ou intégrez-le à votre site.',coins:'Mes cryptos (favoris)',ph:'🔍 Rechercher pour ajouter (ETH, SOL…)',options:'Options',blog:'Afficher les derniers articles (5)',preview:'Aperçu',pin:'Épingler le widget',pinHint:'Garde un petit widget flottant sur cette page — déplaçable à volonté.',code:"Code d'intégration (pour votre site)",copy:'Copier',install:'Ouvrir le widget dans une fenêtre',installHint:'Ouvre seulement le widget dans une petite fenêtre.',count:function(n){return n+' / 10 · touchez pour retirer';}},
+  pt:{title:'Widget',desc:'Use como painel flutuante ou incorpore no seu site.',coins:'Minhas moedas (favoritas)',ph:'🔍 Busque para adicionar (ETH, SOL…)',options:'Opções',blog:'Mostrar últimos posts (5)',preview:'Prévia',pin:'Fixar widget na tela',pinHint:'Mantém um widget flutuante nesta página — arraste para qualquer lugar.',code:'Código de incorporação',copy:'Copiar',install:'Abrir widget em janela separada',installHint:'Abre apenas o widget numa janela pequena.',count:function(n){return n+' / 10 · toque para remover';}},
+  tr:{title:'Widget',desc:'Yüzen panel olarak kullan veya sitene göm.',coins:'Coinlerim (favoriler)',ph:'🔍 Eklemek için ara (ETH, SOL…)',options:'Seçenekler',blog:'Son blog yazılarını göster (5)',preview:'Önizleme',pin:"Widget'ı ekrana sabitle",pinHint:'Bu sayfada küçük bir canlı widget tutar — istediğin yere sürükle.',code:'Yerleştirme kodu (siten için)',copy:'Kopyala',install:'Widget\'i ayrı pencerede aç',installHint:'Sadece widget\'ı küçük bir pencerede açar.',count:function(n){return n+' / 10 · kaldırmak için dokun';}},
+  vi:{title:'Widget',desc:'Dùng như bảng nổi hoặc nhúng vào trang của bạn.',coins:'Coin của tôi (yêu thích)',ph:'🔍 Tìm để thêm coin (ETH, SOL…)',options:'Tùy chọn',blog:'Hiện bài blog mới nhất (5)',preview:'Xem trước',pin:'Ghim widget lên màn hình',pinHint:'Giữ một widget nhỏ nổi trên trang này — kéo đến bất cứ đâu.',code:'Mã nhúng (cho website của bạn)',copy:'Sao chép',install:'Mở widget trong cửa sổ riêng',installHint:'Chỉ mở widget trong một cửa sổ nhỏ.',count:function(n){return n+' / 10 · chạm để xóa';}}
 };
 function applyWgI18n(){
   const L = WG_I18N[getWidgetLang()] || WG_I18N.en;
@@ -1532,12 +1546,13 @@ function toggleWgBlog(el){
 }
 
 function getWidgetLang(){
-  // 홈페이지 언어를 정확히 따라감: BTLang.get()(URL>쿠키>localStorage) → currentLang → html lang → en
-  try { if(window.BTLang && BTLang.get){ const l = BTLang.get(); if(l) return l; } } catch(e){}
-  if(typeof currentLang !== 'undefined' && currentLang) return currentLang;
-  try { const l = localStorage.getItem('blogLang'); if(l) return l; } catch(e){}
+  // 홈 대시보드가 "실제로 표시 중인" 언어를 최우선으로 따라감.
+  const valid = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+  if(typeof currentLang !== 'undefined' && currentLang && valid.includes(currentLang)) return currentLang;
   const hl = document.documentElement.getAttribute('lang');
-  return hl || 'en';
+  if(hl && valid.includes(hl)) return hl;
+  try { if(window.BTLang && BTLang.get){ const l = BTLang.get(); if(l && valid.includes(l)) return l; } } catch(e){}
+  return 'ko';
 }
 function buildWidgetUrl(){
   const coins = wgSelected.join(',');
@@ -1555,7 +1570,21 @@ function updateWidgetPreview(){
   const src = buildWidgetUrl();
   const h = widgetHeight();
   const frame = document.getElementById('wgPreviewFrame');
-  if(frame){ frame.src = src; frame.style.height = h + 'px'; }
+  if(frame){
+    frame.src = src;
+    frame.style.height = h + 'px';
+    if(window._btcPreviewPoll) clearInterval(window._btcPreviewPoll);
+    function fitPreview(){
+      try{
+        const doc = frame.contentDocument || frame.contentWindow.document;
+        if(!doc || !doc.body) return;
+        const ih = Math.min(doc.body.scrollHeight, 400);
+        if(Math.abs(parseInt(frame.style.height) - ih) > 2) frame.style.height = ih + 'px';
+      }catch(e){}
+    }
+    window._btcPreviewPoll = setInterval(fitPreview, 250);
+    frame.addEventListener('load', fitPreview);
+  }
   const code = '<iframe src="' + src + '" width="320" height="' + h + '" frameborder="0" scrolling="no" style="border-radius:12px"></iframe>';
   const box = document.getElementById('wgCodeBox');
   if(box) box.value = code;

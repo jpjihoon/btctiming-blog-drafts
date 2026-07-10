@@ -56,8 +56,8 @@ $langJs    = json_encode($lang);
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#0d0d10;--bg2:#17171c;--bg3:#1e1e25;--bg4:#26262e;--b1:rgba(255,255,255,.08);--t1:#f0f0f2;--t2:#9090a0;--t3:#505060;--or:#f7931a}
-html,body{height:100%;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--t1)}
-body{display:flex;flex-direction:column;overflow:hidden}
+html,body{min-height:100%;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--t1)}
+body{display:flex;flex-direction:column;min-height:100vh}
 .wg-head{display:flex;align-items:center;justify-content:space-between;padding:8px 11px 7px;border-bottom:1px solid var(--b1);flex-shrink:0}
 .wg-logo{display:flex;align-items:center;gap:6px;text-decoration:none;color:inherit}
 .wg-logo-tx{font-size:12px;font-weight:700;color:var(--or)}
@@ -66,7 +66,7 @@ body{display:flex;flex-direction:column;overflow:hidden}
 .wg-tab{flex:1;padding:8px;font-size:11.5px;font-weight:600;color:var(--t2);text-align:center;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;background:var(--bg2)}
 .wg-tab:hover{color:var(--t1);background:var(--bg3)}
 .wg-tab.on{color:var(--or);border-color:var(--or);background:var(--bg3)}
-.wg-body{flex:1;overflow-y:auto}
+.wg-body{flex:none}
 .coin-row{display:flex;align-items:center;padding:9px 11px;border-bottom:1px solid var(--b1);cursor:pointer;transition:background .12s;gap:8px}
 .coin-row:hover,.coin-row.active{background:var(--bg2)}
 .cr-sym{font-size:13px;font-weight:700;width:40px;flex-shrink:0}
@@ -210,7 +210,7 @@ function postHeight(){try{const h=document.body.scrollHeight;parent.postMessage(
 if(window.ResizeObserver){try{new ResizeObserver(function(){postHeight();}).observe(document.body);}catch(e){}}
 function loadCoin(coin){return fetch(API+'?coin='+coin+'&mode=buy').then(r=>r.json()).then(d=>{cache[coin]=d;const score=d.result?.final??0,sig=d.result?.action??'—',price=d.price??0,col=sigColor(sig);const ps=document.getElementById('price_'+coin),sc=document.getElementById('score_'+coin),sg=document.getElementById('sig_'+coin),cg=document.getElementById('chg_'+coin);if(ps)ps.textContent=fmtP(price);if(sc){sc.textContent=score.toFixed(1);sc.style.color=col;}if(sg){sg.textContent=sig;sg.style.color=col;}if(cg){const chg=d.chg24h;if(chg!==null&&chg!==undefined){const sign=chg>0?'+':'';cg.textContent=sign+chg.toFixed(2)+'%';cg.style.color=chg>0?'#22c55e':chg<0?'#f87171':'var(--t3)';}else{cg.textContent='';}}if(openCoin===coin)updateGP(coin);}).catch(()=>{});}
 function loadAll(){document.getElementById('updTime').textContent='…';Promise.all(COINS.map(loadCoin)).then(()=>{const n=new Date();document.getElementById('updTime').textContent=n.toLocaleTimeString(LOCALE,{hour:'2-digit',minute:'2-digit'});postHeight();});}
-function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');}
+function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');postHeight();setTimeout(postHeight,60);}
 loadAll();setInterval(loadAll,60000);
 window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
 </script>
