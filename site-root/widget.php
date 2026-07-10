@@ -53,11 +53,14 @@ $langJs    = json_encode($lang);
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="manifest" href="/widget-manifest.json">
+<meta name="theme-color" content="#0d0d10">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--bg:#0d0d10;--bg2:#17171c;--bg3:#1e1e25;--bg4:#26262e;--b1:rgba(255,255,255,.08);--t1:#f0f0f2;--t2:#9090a0;--t3:#505060;--or:#f7931a}
-html,body{min-height:100%;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--t1)}
-body{display:flex;flex-direction:column;min-height:100vh}
+html{background:var(--bg)}body{background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--t1)}
+body{display:flex;flex-direction:column}
 .wg-head{display:flex;align-items:center;justify-content:space-between;padding:8px 11px 7px;border-bottom:1px solid var(--b1);flex-shrink:0}
 .wg-logo{display:flex;align-items:center;gap:6px;text-decoration:none;color:inherit}
 .wg-logo-tx{font-size:12px;font-weight:700;color:var(--or)}
@@ -169,7 +172,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
 <?php endforeach; ?>
 </div>
 <?php if ($showBlog): ?>
-<div class="wg-body" id="bodyBlog" style="display:none">
+<div class="wg-body" id="bodyBlog" style="display:none;max-height:168px;overflow-y:auto">
   <?php if (empty($blogPosts)): ?>
     <div style="padding:20px;text-align:center;color:var(--t3);font-size:11px">No articles available</div>
   <?php else: foreach ($blogPosts as $p): ?>
@@ -213,6 +216,7 @@ function loadAll(){document.getElementById('updTime').textContent='…';Promise.
 function showTab(t){document.getElementById('bodyScore').style.display=t==='score'?'':'none';const bb=document.getElementById('bodyBlog');if(bb)bb.style.display=t==='blog'?'':'none';document.getElementById('tabScore')?.classList.toggle('on',t==='score');document.getElementById('tabBlog')?.classList.toggle('on',t==='blog');postHeight();setTimeout(postHeight,60);}
 loadAll();setInterval(loadAll,60000);
 window.addEventListener('load',function(){postHeight();setTimeout(postHeight,150);setTimeout(postHeight,500);});
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}
 </script>
 </body>
 </html>

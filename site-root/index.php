@@ -888,8 +888,8 @@ footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-to
         </div>
 
         <!-- 플로팅 위젯 (사이트 위 상주) -->
-        <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:#f7931a;border:none;border-radius:8px;padding:12px;font-size:13px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span style="color:#0a0a0a;font-size:15px">📌</span><span id="wgTxt_pin" style="color:#0a0a0a;font-weight:800">Pin widget on screen</span>
+        <button onclick="launchFloatingWidget()" style="width:100%;margin-top:10px;background:rgba(247,147,26,.14);border:1px solid rgba(247,147,26,.5);border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span style="font-size:15px">📌</span><span id="wgTxt_pin" style="color:#f7931a;font-weight:700">Pin widget on screen</span>
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
           <span id="wgTxt_pinHint">Keeps a small live widget floating on this page — drag it anywhere.</span>
@@ -1301,12 +1301,12 @@ window.addEventListener('appinstalled', function(){ btcInstallPrompt = null; });
 // ── 설정 모달 탭 전환 ────────────────────────────────
 // 위젯만 별도 작은 창으로 띄우기 (홈페이지 전체가 아니라 위젯 페이지만)
 function openWidgetWindow(){
-  const url = buildWidgetUrl();
+  // pwa=1: 위젯이 전용 manifest로 로드 → 그 창의 브라우저 메뉴에서 "앱 설치" 시 위젯만 독립 앱으로 뜸
+  const url = buildWidgetUrl() + '&pwa=1';
   const w = 340;
   const h = Math.min(widgetHeight() + 40, 640);
   const left = (screen.availWidth - w - 40);
   const top = 80;
-  // 툴바/주소창 최소화한 팝업 창으로 위젯만 표시
   const features = 'popup=yes,width='+w+',height='+h+',left='+left+',top='+top+',resizable=yes,scrollbars=yes';
   const win = window.open(url, 'btctimingWidgetWindow', features);
   if(win){ win.focus(); }

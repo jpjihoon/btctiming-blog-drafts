@@ -1,0 +1,17 @@
+{
+  "name": "BTCtiming Widget",
+  "short_name": "BTC Widget",
+  "description": "BTCtiming 실시간 매수·매도 타이밍 위젯",
+  "start_url": "/widget.php?coins=BTC,ETH,SOL&pwa=1",
+  "scope": "/widget.php",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d0d10",
+  "theme_color": "#0d0d10",
+  "lang": "ko",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
