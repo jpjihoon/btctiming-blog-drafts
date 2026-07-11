@@ -408,11 +408,13 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   <?php endforeach; ?>
   <div class="meta">
     <?php
-    // 작성 시각: 언어별 형식으로 렌더 (언어 전환 시 함께 바뀜)
-    $__ts = strtotime($M['date']);
+    // 작성 시각: KST 원본 → 각 언어 타임존으로 변환 + 라벨 (대시보드 blog 리스트와 통일)
     $__hasTime = (strpos((string)$M['date'], ':') !== false);
-    $__Y = date('Y', $__ts); $__n = (int)date('n', $__ts); $__j = (int)date('j', $__ts);
-    $__Hi = $__hasTime ? date('H:i', $__ts) : '';
+    $__srcTz = new DateTimeZone('Asia/Seoul');
+    $__base = DateTime::createFromFormat('Y-m-d H:i:s', (string)$M['date'], $__srcTz);
+    if(!$__base) $__base = DateTime::createFromFormat('Y-m-d H:i', (string)$M['date'], $__srcTz);
+    if(!$__base) $__base = DateTime::createFromFormat('!Y-m-d', substr((string)$M['date'],0,10), $__srcTz);
+    if(!$__base) $__base = new DateTime('now', $__srcTz);
     $__MON = [
       'en'=>['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
       'es'=>['','ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'],
@@ -420,22 +422,24 @@ echo implode(",\n", $__rules) . "{display:none}\n";
       'fr'=>['','janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'],
       'pt'=>['','jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'],
       'tr'=>['','Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'],
-      'vi'=>['','thg 1','thg 2','thg 3','thg 4','thg 5','thg 6','thg 7','thg 8','thg 9','thg 10','thg 11','thg 12'],
     ];
-    $__DATE = [
-      'ko' => "{$__Y}년 {$__n}월 {$__j}일",
-      'ja' => "{$__Y}年{$__n}月{$__j}日",
-      'en' => $__MON['en'][$__n]." {$__j}, {$__Y}",
-      'es' => "{$__j} ".$__MON['es'][$__n]." {$__Y}",
-      'de' => "{$__j}. ".$__MON['de'][$__n]." {$__Y}",
-      'fr' => "{$__j} ".$__MON['fr'][$__n]." {$__Y}",
-      'pt' => "{$__j} ".$__MON['pt'][$__n]." {$__Y}",
-      'tr' => "{$__j} ".$__MON['tr'][$__n]." {$__Y}",
-      'vi' => "{$__j} ".$__MON['vi'][$__n]." {$__Y}",
+    $__TZ = [
+      'ko'=>['Asia/Seoul','KST'], 'ja'=>['Asia/Tokyo','JST'], 'en'=>['UTC','UTC'],
+      'es'=>['Europe/Madrid',null], 'de'=>['Europe/Berlin',null], 'fr'=>['Europe/Paris',null],
+      'pt'=>['America/Sao_Paulo','BRT'], 'tr'=>['Europe/Istanbul','TRT'], 'vi'=>['Asia/Ho_Chi_Minh','ICT'],
     ];
     foreach ($__langKeys as $__l):
-      $__d = $__DATE[$__l] ?? $__DATE['en'];
+      $__cfg = $__TZ[$__l] ?? $__TZ['en'];
+      $__dt = clone $__base; $__dt->setTimezone(new DateTimeZone($__cfg[0]));
+      $__Y=(int)$__dt->format('Y'); $__n=(int)$__dt->format('n'); $__j=(int)$__dt->format('j'); $__Hi=$__dt->format('H:i');
+      if ($__l==='ko')      $__d = "{$__Y}년 {$__n}월 {$__j}일";
+      elseif ($__l==='ja')  $__d = "{$__Y}年{$__n}月{$__j}日";
+      elseif ($__l==='en')  $__d = $__MON['en'][$__n]." {$__j}, {$__Y}";
+      elseif ($__l==='de')  $__d = "{$__j}. ".$__MON['de'][$__n]." {$__Y}";
+      elseif ($__l==='vi')  $__d = "{$__j} thg {$__n} {$__Y}";
+      else                  $__d = "{$__j} ".(($__MON[$__l] ?? $__MON['en'])[$__n])." {$__Y}";
       if ($__hasTime) $__d .= ' ' . $__Hi;
+      if (!empty($__cfg[1])) $__d .= ' ' . $__cfg[1];
     ?>
     <span class="<?= $__l ?>">📅 <?= h($__d) ?></span>
     <?php endforeach; ?>
