@@ -441,9 +441,9 @@ $__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'
   .blog-tabbar .btab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
     background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;
     -webkit-tap-highlight-color:transparent}
-  .blog-tabbar .btab.active{color:#fb923c}
+  .blog-tabbar .btab.active{color:#f7931a}
   .blog-tabbar .btab.active::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
-    width:22px;height:2px;border-radius:0 0 3px 3px;background:#fb923c}
+    width:22px;height:2px;border-radius:0 0 3px 3px;background:#f7931a}
   .blog-tabbar .btab svg{width:20px;height:20px;display:block}
   body{padding-bottom:48px}
 }
@@ -479,19 +479,19 @@ $__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'
 <style>
 .blog-coin-sheet{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.66);align-items:flex-end;justify-content:center;padding-bottom:48px}
 .blog-coin-sheet.open{display:flex}
-.bcs-box{width:100%;max-width:460px;max-height:70vh;display:flex;flex-direction:column;background:#131316;border-radius:18px 18px 0 0;overflow:hidden;animation:bcsUp .22s ease-out}
+.bcs-box{width:100%;max-width:460px;max-height:70vh;display:flex;flex-direction:column;background:#1b1b21;border-radius:18px 18px 0 0;overflow:hidden;animation:bcsUp .22s ease-out}
 @keyframes bcsUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
 .bcs-grip{width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.2);margin:9px auto 2px}
 .bcs-head{display:flex;align-items:center;justify-content:space-between;padding:8px 16px 10px}
-.bcs-title{font-size:15px;font-weight:700;color:#f0f0f0}
+.bcs-title{font-size:15px;font-weight:700;color:#f2f2f5}
 .bcs-sub{font-size:11px;color:#888;margin-top:2px}
 .bcs-close{background:none;border:none;color:#888;font-size:16px;cursor:pointer;padding:4px 8px}
 .bcs-list{flex:1;overflow-y:auto;padding:4px 8px 16px}
 .bcs-item{display:flex;align-items:center;gap:10px;height:52px;padding:0 12px;border-radius:10px;cursor:pointer}
-.bcs-item:active{background:#1f1f24}
+.bcs-item:active{background:#24242b}
 .bcs-item.current{background:rgba(251,146,60,.1)}
 .bcs-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-.bcs-id{font-size:13px;font-weight:700;color:#f0f0f0}
+.bcs-id{font-size:13px;font-weight:700;color:#f2f2f5}
 .bcs-name{font-size:12px;color:#888}
 .bcs-empty{padding:30px;text-align:center;color:#666;font-size:13px;line-height:1.6}
 </style>
