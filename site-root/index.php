@@ -584,7 +584,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .seo-hero p{font-size:11px;color:var(--t3);line-height:1.4;margin:0}
 @media(max-width:900px){.seo-hero{padding:0 2px 8px}}
 @media(max-width:600px){.seo-hero h1{font-size:13px}.seo-hero p{font-size:10.5px}}
-.layout{display:grid;grid-template-columns:300px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:16px 18px;align-items:start}
+.layout{display:grid;grid-template-columns:340px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:16px 16px;align-items:start}
 .sidebar{grid-area:sidebar}
 .chart-wrap-cell{grid-area:chart;padding:16px 16px 0}
 @media(max-width:900px){.chart-wrap-cell{padding:16px 16px 0}}
