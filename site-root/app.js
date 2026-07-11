@@ -1025,7 +1025,7 @@ function makeCard(d,mode='buy'){
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
       text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
-      📚 ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
+      ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
   return`<div class="icard" onclick="this.classList.toggle('expanded')">
     <div class="icard-top">
       <span class="icard-name">${localLabel}<span class="pill ${pc}">${localSignal}</span></span>
@@ -2744,7 +2744,7 @@ function renderBlogTicker() {
   if(!el || !tickerArticles.length) return;
   const ko = currentLang === 'ko';
   const suffix = blogSuffix(currentLang);
-  if(label) label.textContent = TT({ko:'📰 블로그:',en:'📰 Blog:',ja:'📰 ブログ:',es:'📰 Blog:',de:'📰 Blog:',fr:'📰 Blog :',pt:'📰 Blog:',tr:'📰 Blog:',vi:'📰 Blog:'});
+  if(label) label.textContent = TT({ko:'블로그:',en:'Blog:',ja:'ブログ:',es:'Blog:',de:'Blog:',fr:'Blog :',pt:'Blog:',tr:'Blog:',vi:'Blog:'});
   if(allLink) {
     allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →',fr:'Voir tout →',pt:'Ver tudo →',tr:'Tümünü gör →',vi:'Xem tất cả →'});
     allLink.href = '/blog/' + suffix;
@@ -2976,7 +2976,7 @@ function renderCategoryLinks() {
   const allLink = document.getElementById('blogCategoryAllLink');
   if(allLink) {
     allLink.href = '/blog/' + suffix;
-    allLink.textContent = TT({ko:'전체 블로그 보기 →',en:'All Posts →',ja:'全ての記事を見る →',es:'Ver Todas las Publicaciones →',de:'Alle Beiträge ansehen →',fr:'Tous les articles →',pt:'Todos os posts →',tr:'Tüm yazılar →',vi:'Tất cả bài →'});
+    allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →',fr:'Voir tout →',pt:'Ver tudo →',tr:'Tümünü gör →',vi:'Xem tất cả →'});
   }
 }
 

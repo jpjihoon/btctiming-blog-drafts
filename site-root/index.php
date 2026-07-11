@@ -650,9 +650,9 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:600px){.chart-wrap{height:280px}}
 
 /* ── INDICATOR GRID ── */
-.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-items:start}
+.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-items:stretch}
 @media(max-width:600px){.ind-grid{grid-template-columns:1fr 1fr}}
-.icard{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:15px 16px;cursor:pointer;transition:border-color .15s}
+.icard{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:15px 16px;cursor:pointer;display:flex;flex-direction:column;transition:border-color .15s}
 .icard-meta{display:flex;justify-content:space-between;gap:12px;font-size:10.5px;color:var(--t3);margin-top:6px;flex-wrap:wrap}
 .icard-meta b{color:var(--t2);font-weight:700;margin-left:3px}
 .icard:hover{border-color:var(--b2)}
@@ -1027,10 +1027,10 @@ $__seoSub = [
 <div id="blogTickerBar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
   <div style="max-width:1280px;margin:0 auto;padding:6px 16px;font-size:12px;color:var(--t2);
     display:flex;align-items:center;gap:0;overflow:hidden">
-    <span id="blogTickerLabel" style="flex-shrink:0;white-space:nowrap;margin-right:10px;color:var(--t2);font-weight:600"></span>
+    
     <div id="blogTickerScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;
       -webkit-overflow-scrolling:touch;touch-action:pan-x;scrollbar-width:none;position:relative">
-      <span id="blogTickerLinks"></span>
+      <span id="blogTickerLabel" style="white-space:nowrap;margin-right:10px;color:var(--t2);font-weight:600"></span><span id="blogTickerLinks"></span>
       <div style="position:absolute;top:0;right:0;bottom:0;width:24px;pointer-events:none;
         background:linear-gradient(to right,transparent,#0a0a0a)"></div>
     </div>
@@ -1282,9 +1282,9 @@ $__seoSub = [
       <span data-i="footerSources">Auto-fetched</span>: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
       <span data-i="footerDisclaimer2">On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.</span><br><br>
       <div id="blogCategoryBar" style="display:flex;align-items:center;gap:0;max-width:100%;overflow:hidden">
-        <span id="blogGuideLabel" style="color:var(--t2);font-size:12px;font-weight:600;flex-shrink:0;white-space:nowrap;margin-right:8px"></span>
+        
         <div id="blogCategoryScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch">
-          <span id="blogCategoryLinks"></span>
+          <span id="blogGuideLabel" style="color:var(--t2);font-size:12px;font-weight:600;white-space:nowrap;margin-right:8px"></span><span id="blogCategoryLinks"></span>
         </div>
         <a id="blogCategoryAllLink" aria-label="View all blog categories" href="/blog/" style="color:var(--orange);text-decoration:none;font-size:12px;white-space:nowrap;flex-shrink:0;margin-left:10px"></a>
       </div>
