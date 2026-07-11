@@ -1307,14 +1307,14 @@ function renderAll(ind) {
       return `<div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
         background:${seg.bg};border-radius:8px;padding:8px 3px;
         border:1.5px solid ${active?'var(--orange)':'transparent'};${active?'':'opacity:.9'}">
-        <span style="font-size:9px;font-weight:600;opacity:.9;color:${seg.color}">${seg.s}</span>
-        <span style="font-size:10.5px;font-weight:700;color:${seg.color};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center">${segLabel}</span>
+        <span style="font-size:9px;font-weight:600;color:rgba(255,255,255,.7)">${seg.s}</span>
+        <span style="font-size:10.5px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center">${segLabel}</span>
       </div>`;
     }).join('');
     abarEl.style.flexDirection = 'column';
     abarEl.style.height = 'auto';
     abarEl.style.overflow = 'visible';
-    abarEl.style.gap = '5px';
+    abarEl.style.gap = '8px';
     abarEl.innerHTML =
       `<div style="display:flex;gap:5px">${makeRow(top4)}</div>` +
       `<div style="display:flex;gap:5px">${makeRow(bot3)}</div>`;

@@ -823,7 +823,7 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .hist-tab:hover{color:var(--t2);background:var(--bg3)}
 .hist-tab.active{background:var(--orange);color:#000;border-color:transparent;font-weight:700}
 /* 거래소 제휴 배너 — 눈에 띄는 골드 톤 */
-.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 16px;margin:12px 0;transition:border-color .15s}
+.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
 @keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(247,147,26,.0)}50%{box-shadow:0 0 16px 1px rgba(247,147,26,.22)}}
 
 
