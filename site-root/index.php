@@ -425,10 +425,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-tabs::-webkit-scrollbar{display:none}
 @media(max-width:600px){
   .coin-tabs{display:none!important}
-  #coinDrop{display:block!important}
+  #coinPicker{display:block!important}
   nav{height:auto;min-height:52px;padding:5px 0}
   .nav-inner{flex-wrap:wrap;row-gap:5px}
-  #coinDrop{order:5;flex:1 0 100%;width:100%;margin-top:2px}
+  #coinPicker{order:5;flex:1 0 100%;width:100%;margin-top:2px}
   .nav-r{margin-left:auto}
 }
 .coin-tab{flex-shrink:0;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
@@ -524,6 +524,12 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
     height:min(60vh,420px)!important}
 }
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
+#coinPickerBtn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);color:var(--t1);padding:9px 12px;font-size:14px;font-weight:700;cursor:pointer}
+.cp-arrow{color:var(--t3);font-size:12px;flex-shrink:0}
+.cp-panel{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:200;background:var(--bg2);border:1px solid var(--b2);border-radius:var(--rad-sm);max-height:45vh;overflow-y:auto;padding:4px;box-shadow:0 12px 34px rgba(0,0,0,.55)}
+.cp-item{display:flex;align-items:center;padding:11px 12px;border-radius:6px;cursor:pointer;color:var(--t1);font-size:14px;font-weight:600}
+.cp-item:active,.cp-item.active{background:var(--bg4)}
+.cp-item.active{color:var(--orange)}
 .icon-btn{width:34px;height:34px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--t2);transition:all .15s;flex-shrink:0}
 /* 우측 바깥 여백 고정 광고 (레이아웃 1280 + 광고 160 + 여백이 들어갈 만큼 넓을 때만) */
 .side-ad:empty{display:none}
@@ -585,7 +591,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .main{grid-area:mainrest}
 @media(max-width:900px){.layout{grid-template-columns:1fr;grid-template-areas:"chart" "sidebar" "mainrest"}}
 .sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:16px}
-@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--b1)}}
+@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;padding:16px}}
 .main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
 /* ── SCORE CARD ── */
@@ -991,10 +997,12 @@ $__seoSub = [
     onkeydown="if(event.key==='Enter')goHome()"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></div>
   <!-- PC: 탭, 모바일: 드롭박스 -->
   <div class="coin-tabs" id="coinTabs"></div>
-  <select id="coinDrop" onchange="switchCoin(this.value)" aria-label="Select coin"
-    style="display:none;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);
-    padding:5px 8px;border-radius:var(--rad-sm);font-size:13px;font-weight:600;cursor:pointer;flex-shrink:0;width:68px">
-  </select>
+  <div id="coinPicker" style="display:none;position:relative">
+    <button type="button" id="coinPickerBtn" onclick="toggleCoinPicker(event)" aria-label="Select coin">
+      <span id="coinPickerLabel">BTC</span><span class="cp-arrow">▾</span>
+    </button>
+    <div id="coinPickerPanel" class="cp-panel" style="display:none"></div>
+  </div>
   <div class="nav-r">
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
     <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
