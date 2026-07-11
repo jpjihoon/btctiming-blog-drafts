@@ -1028,10 +1028,9 @@ function makeCard(d,mode='buy'){
       <span class="icard-m">/ ${d.max}</span>
     </div>
     <div class="ibar"><div class="ibf" style="width:${Math.round(r*100)}%;background:${clr}"></div></div>
-    <div class="icard-vals">
-      <div class="vbox"><div class="vl">${valLbl}</div><div class="vv">${vStr}</div></div>
-      <div class="vbox"><div class="vl">${scoreLbl}</div><div class="vv" style="color:${clr}">${d.score}/${d.max}</div></div>
-      <div class="vbox" style="grid-column:1/-1"><div class="vl">${targetLbl}</div><div class="vv" style="font-size:9px;color:var(--t2)">${localTarget}</div></div>
+    <div class="icard-meta">
+      <span>${valLbl} <b>${vStr}</b></span>
+      <span>${targetLbl} <b>${localTarget}</b></span>
     </div>
     <div class="icard-note">
       <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>

@@ -638,9 +638,11 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:600px){.chart-wrap{height:280px}}
 
 /* ── INDICATOR GRID ── */
-.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;align-items:start}
+.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-items:start}
 @media(max-width:600px){.ind-grid{grid-template-columns:1fr 1fr}}
-.icard{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad);padding:13px 14px;cursor:pointer;transition:border-color .15s}
+.icard{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:15px 16px;cursor:pointer;transition:border-color .15s}
+.icard-meta{display:flex;justify-content:space-between;gap:12px;font-size:10.5px;color:var(--t3);margin-top:6px;flex-wrap:wrap}
+.icard-meta b{color:var(--t2);font-weight:700;margin-left:3px}
 .icard:hover{border-color:var(--b2)}
 .icard-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:5px}
 .icard-name{font-size:13px;font-weight:500;line-height:1.3}
