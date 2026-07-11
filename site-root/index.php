@@ -580,7 +580,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:900px){.chart-wrap-cell{padding:16px 16px 0}}
 .main{grid-area:mainrest}
 @media(max-width:900px){.layout{grid-template-columns:1fr;grid-template-areas:"chart" "sidebar" "mainrest"}}
-.sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:2px}
+.sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:16px}
 @media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--b1)}}
 .main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
@@ -589,7 +589,8 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .score-card::before{content:'';position:absolute;z-index:0;inset:0;background:radial-gradient(ellipse at top left, rgba(251,191,36,.05) 0%, transparent 60%);pointer-events:none}
 .score-label{font-size:10px;color:var(--t3);letter-spacing:.06em;margin-bottom:4px}
 .score-num{font-size:64px;font-weight:800;line-height:1;letter-spacing:-3px}
-.coin-badge{width:44px;height:44px;border-radius:50%;background:var(--bg4);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:var(--orange);flex-shrink:0;letter-spacing:-.02em}
+.coin-badge{width:44px;height:44px;border-radius:50%;background:var(--bg4);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:var(--orange);flex-shrink:0;letter-spacing:-.02em;overflow:hidden}
+.coin-badge img{width:100%;height:100%;object-fit:cover;display:block}
 /* 로딩 스켈레톤 — 데이터 오기 전 회색 깜빡임으로 "불러오는 중"임을 알림 */
 @keyframes skShimmer{0%{opacity:.35}50%{opacity:.75}100%{opacity:.35}}
 .sk-load{position:relative;color:transparent!important}
