@@ -46,9 +46,9 @@ $T = [
     'cta_binance' => '바이낸스 가입하고 할인받기',
     'cta_bybit' => '바이비트 가입하고 할인받기',
     'why_title' => '왜 링크로 가입해야 할까?',
-    'why' => ['수수료는 매 거래마다 나가는 고정 비용입니다. 할인 한 번 설정으로 장기적으로 큰 차이를 만듭니다.', '추천 코드/링크는 가입 후 바꿀 수 없습니다. 처음부터 할인 링크로 시작하는 게 유리합니다.', '신규 보너스·바우처는 가입 초기에만 받는 일회성 혜택입니다.'],
+    'why' => ['수수료는 매 거래마다 나가는 고정 비용입니다. 할인 한 번 설정으로 장기적으로 큰 차이를 만듭니다.', '신규 보너스·바우처는 가입 초기에만 받는 일회성 혜택입니다.'],
     'verify_note' => '표시된 할인율은 프로그램 최대치(“최대”)이며, 실제 적용률은 가입 화면의 추천인(Referral ID) 칸에서 확인할 수 있습니다. 지역·상품·캠페인에 따라 달라질 수 있습니다.',
-    'note' => '위 링크로 가입하면 거래 수수료 할인과 신규 가입 혜택을 받을 수 있습니다. BTCtiming은 파트너 링크를 통해 소정의 수수료를 받을 수 있으나, 추천 내용은 이에 영향받지 않습니다.',
+    'note' => '위 링크로 가입하면 거래 수수료 할인과 신규 가입 혜택을 받을 수 있습니다.',
     'risk' => '⚠ 암호화폐 거래, 특히 선물·레버리지 거래는 높은 손실 위험을 동반합니다. BTCtiming의 점수는 정보 제공용이며 투자 조언이 아닙니다. 본인의 판단과 책임하에 거래하세요.',
     'f_privacy' => '개인정보처리방침',
     'f_terms' => '이용약관',
@@ -79,9 +79,9 @@ $T = [
     'cta_binance' => 'Sign up on Binance & save',
     'cta_bybit' => 'Sign up on Bybit & save',
     'why_title' => 'Why sign up via the link?',
-    'why' => ['Fees are a fixed cost on every trade. Setting a discount once makes a big difference long-term.', 'The referral code/link cannot be changed after signup — start with the discount from day one.', 'New-user bonuses and vouchers are one-time perks available only at the start.'],
+    'why' => ['Fees are a fixed cost on every trade. Setting a discount once makes a big difference long-term.', 'New-user bonuses and vouchers are one-time perks available only at the start.'],
     'verify_note' => 'The rate shown is the program maximum (“up to”). Your actual rate appears in the Referral ID field on the signup screen and may vary by region, product and campaign.',
-    'note' => 'Signing up via the links above gets you a trading fee discount and new-user perks. BTCtiming may earn a small commission through partner links; this does not affect our recommendations.',
+    'note' => 'Signing up via the links above gets you a trading fee discount and new-user perks.',
     'risk' => '⚠ Crypto trading, especially futures and leverage, carries a high risk of loss. BTCtiming scores are for information only and are not financial advice. Trade at your own discretion and risk.',
     'f_privacy' => 'Privacy Policy',
     'f_terms' => 'Terms of Service',
@@ -112,9 +112,9 @@ $T = [
     'cta_binance' => 'Binanceに登録して割引を受ける',
     'cta_bybit' => 'Bybitに登録して割引を受ける',
     'why_title' => 'なぜリンクから登録すべき?',
-    'why' => ['手数料は毎取引でかかる固定コスト。一度の割引設定が長期的に大きな差を生みます。', '紹介コード/リンクは登録後に変更できません。最初から割引リンクで始めるのが有利です。', '新規ボーナス・バウチャーは登録初期のみの一度きりの特典です。'],
+    'why' => ['手数料は毎取引でかかる固定コスト。一度の割引設定が長期的に大きな差を生みます。', '新規ボーナス・バウチャーは登録初期のみの一度きりの特典です。'],
     'verify_note' => '表示の割引率はプログラム上限(「最大」)です。実際の適用率は登録画面の紹介人(Referral ID)欄で確認でき、地域・商品・キャンペーンにより異なります。',
-    'note' => '上記のリンクから登録すると取引手数料の割引と新規特典を受けられます。BTCtimingはパートナーリンク経由で少額の手数料を得ることがありますが、推奨内容には影響しません。',
+    'note' => '上記のリンクから登録すると取引手数料の割引と新規特典を受けられます。',
     'risk' => '⚠ 暗号資産取引、特に先物・レバレッジ取引は高い損失リスクを伴います。BTCtimingのスコアは情報提供用であり投資助言ではありません。自己の判断と責任で取引してください。',
     'f_privacy' => 'プライバシーポリシー',
     'f_terms' => '利用規約',
@@ -145,9 +145,9 @@ $T = [
     'cta_binance' => 'Regístrate en Binance y ahorra',
     'cta_bybit' => 'Regístrate en Bybit y ahorra',
     'why_title' => '¿Por qué registrarse con el enlace?',
-    'why' => ['Las comisiones son un costo fijo en cada operación. Un descuento marca gran diferencia a largo plazo.', 'El código/enlace no se puede cambiar tras el registro — empieza con el descuento desde el día uno.', 'Los bonos y vales para nuevos usuarios son beneficios únicos disponibles solo al inicio.'],
+    'why' => ['Las comisiones son un costo fijo en cada operación. Un descuento marca gran diferencia a largo plazo.', 'Los bonos y vales para nuevos usuarios son beneficios únicos disponibles solo al inicio.'],
     'verify_note' => 'La tasa mostrada es el máximo del programa ("hasta"). Tu tasa real aparece en el campo Referral ID al registrarte y puede variar por región, producto y campaña.',
-    'note' => 'Registrarte con los enlaces de arriba te da un descuento en comisiones y beneficios de bienvenida. BTCtiming puede ganar una pequeña comisión mediante enlaces de socios; esto no afecta nuestras recomendaciones.',
+    'note' => 'Registrarte con los enlaces de arriba te da un descuento en comisiones y beneficios de bienvenida.',
     'risk' => '⚠ Operar con cripto, especialmente futuros y apalancamiento, conlleva un alto riesgo de pérdida. Las puntuaciones de BTCtiming son solo informativas y no son asesoramiento financiero. Opera bajo tu propio criterio y riesgo.',
     'f_privacy' => 'Política de Privacidad',
     'f_terms' => 'Términos de Servicio',
@@ -178,9 +178,9 @@ $T = [
     'cta_binance' => 'Bei Binance anmelden & sparen',
     'cta_bybit' => 'Bei Bybit anmelden & sparen',
     'why_title' => 'Warum über den Link anmelden?',
-    'why' => ['Gebühren sind ein fixer Kostenpunkt bei jedem Trade. Ein Rabatt macht langfristig viel aus.', 'Der Code/Link ist nach der Anmeldung nicht änderbar — starte von Anfang an mit dem Rabatt.', 'Neukundenboni und Gutscheine sind einmalige Vorteile nur zu Beginn.'],
+    'why' => ['Gebühren sind ein fixer Kostenpunkt bei jedem Trade. Ein Rabatt macht langfristig viel aus.', 'Neukundenboni und Gutscheine sind einmalige Vorteile nur zu Beginn.'],
     'verify_note' => 'Der gezeigte Satz ist das Programm-Maximum ("bis zu"). Dein tatsächlicher Satz erscheint im Feld Referral ID bei der Anmeldung und kann je nach Region, Produkt und Kampagne variieren.',
-    'note' => 'Die Anmeldung über die Links oben bringt dir einen Gebührenrabatt und Neukundenvorteile. BTCtiming kann über Partnerlinks eine kleine Provision erhalten; dies beeinflusst unsere Empfehlungen nicht.',
+    'note' => 'Die Anmeldung über die Links oben bringt dir einen Gebührenrabatt und Neukundenvorteile.',
     'risk' => '⚠ Krypto-Handel, besonders Futures und Hebel, birgt ein hohes Verlustrisiko. BTCtiming-Scores dienen nur der Information und sind keine Finanzberatung. Handle nach eigenem Ermessen und Risiko.',
     'f_privacy' => 'Datenschutzerklärung',
     'f_terms' => 'Nutzungsbedingungen',
@@ -211,9 +211,9 @@ $T = [
     'cta_binance' => 'S\'inscrire sur Binance et économiser',
     'cta_bybit' => 'S\'inscrire sur Bybit et économiser',
     'why_title' => 'Pourquoi s’inscrire via le lien ?',
-    'why' => ['Les frais sont un coût fixe à chaque trade. Une réduction fait une grande différence à long terme.', 'Le code/lien ne peut pas être changé après l\'inscription — commencez avec la réduction dès le départ.', 'Les bonus et bons nouveaux membres sont des avantages uniques, uniquement au début.'],
+    'why' => ['Les frais sont un coût fixe à chaque trade. Une réduction fait une grande différence à long terme.', 'Les bonus et bons nouveaux membres sont des avantages uniques, uniquement au début.'],
     'verify_note' => 'Le taux affiché est le maximum du programme (« jusqu\'à »). Votre taux réel apparaît dans le champ Referral ID à l\'inscription et peut varier selon la région, le produit et la campagne.',
-    'note' => 'S\'inscrire via les liens ci-dessus vous donne une réduction de frais et des avantages de bienvenue. BTCtiming peut percevoir une petite commission via des liens partenaires ; cela n\'affecte pas nos recommandations.',
+    'note' => 'S\'inscrire via les liens ci-dessus vous donne une réduction de frais et des avantages de bienvenue.',
     'risk' => '⚠ Le trading de crypto, surtout les futures et l\'effet de levier, comporte un risque de perte élevé. Les scores BTCtiming sont informatifs et ne constituent pas un conseil financier. Tradez à vos propres risques.',
     'f_privacy' => 'Politique de confidentialité',
     'f_terms' => 'Conditions d\'utilisation',
@@ -244,9 +244,9 @@ $T = [
     'cta_binance' => 'Cadastre-se na Binance e economize',
     'cta_bybit' => 'Cadastre-se na Bybit e economize',
     'why_title' => 'Por que se cadastrar pelo link?',
-    'why' => ['Taxas são um custo fixo em cada operação. Um desconto faz grande diferença no longo prazo.', 'O código/link não pode ser alterado após o cadastro — comece com o desconto desde o primeiro dia.', 'Bônus e vales para novos usuários são benefícios únicos, só no início.'],
+    'why' => ['Taxas são um custo fixo em cada operação. Um desconto faz grande diferença no longo prazo.', 'Bônus e vales para novos usuários são benefícios únicos, só no início.'],
     'verify_note' => 'A taxa exibida é o máximo do programa ("até"). Sua taxa real aparece no campo Referral ID no cadastro e pode variar por região, produto e campanha.',
-    'note' => 'Cadastrar-se pelos links acima garante desconto na taxa e benefícios de boas-vindas. A BTCtiming pode receber uma pequena comissão por links de parceiros; isso não afeta nossas recomendações.',
+    'note' => 'Cadastrar-se pelos links acima garante desconto na taxa e benefícios de boas-vindas.',
     'risk' => '⚠ Negociar cripto, especialmente futuros e alavancagem, envolve alto risco de perda. As pontuações do BTCtiming são apenas informativas e não constituem aconselhamento financeiro. Negocie por sua conta e risco.',
     'f_privacy' => 'Política de Privacidade',
     'f_terms' => 'Termos de Serviço',
@@ -277,9 +277,9 @@ $T = [
     'cta_binance' => 'Binance\'e kaydol ve kazan',
     'cta_bybit' => 'Bybit\'e kaydol ve kazan',
     'why_title' => 'Neden bağlantıdan kaydolmalı?',
-    'why' => ['Komisyon her işlemde sabit bir maliyettir. Bir kez indirim ayarı uzun vadede büyük fark yaratır.', 'Referans kodu/bağlantısı kayıttan sonra değiştirilemez — indirimle ilk günden başlayın.', 'Yeni kullanıcı bonusları ve kuponları yalnızca başlangıçta verilen tek seferlik avantajlardır.'],
+    'why' => ['Komisyon her işlemde sabit bir maliyettir. Bir kez indirim ayarı uzun vadede büyük fark yaratır.', 'Yeni kullanıcı bonusları ve kuponları yalnızca başlangıçta verilen tek seferlik avantajlardır.'],
     'verify_note' => 'Gösterilen oran program üst sınırıdır ("e varan"). Gerçek oranınız kayıt ekranındaki Referral ID alanında görünür; bölge, ürün ve kampanyaya göre değişebilir.',
-    'note' => 'Yukarıdaki bağlantılardan kaydolmak komisyon indirimi ve yeni kullanıcı avantajları sağlar. BTCtiming, ortak bağlantılar üzerinden küçük bir komisyon kazanabilir; bu, önerilerimizi etkilemez.',
+    'note' => 'Yukarıdaki bağlantılardan kaydolmak komisyon indirimi ve yeni kullanıcı avantajları sağlar.',
     'risk' => '⚠ Kripto ticareti, özellikle vadeli ve kaldıraç, yüksek kayıp riski taşır. BTCtiming puanları yalnızca bilgi amaçlıdır ve yatırım tavsiyesi değildir. Kendi takdirinizle ve riskinizle işlem yapın.',
     'f_privacy' => 'Gizlilik Politikası',
     'f_terms' => 'Hizmet Şartları',
@@ -310,9 +310,9 @@ $T = [
     'cta_binance' => 'Đăng ký Binance và tiết kiệm',
     'cta_bybit' => 'Đăng ký Bybit và tiết kiệm',
     'why_title' => 'Vì sao nên đăng ký qua liên kết?',
-    'why' => ['Phí là chi phí cố định mỗi lần giao dịch. Thiết lập giảm phí một lần tạo khác biệt lớn về lâu dài.', 'Mã/liên kết giới thiệu không thể đổi sau khi đăng ký — hãy bắt đầu với ưu đãi ngay từ đầu.', 'Thưởng và voucher người dùng mới là ưu đãi một lần, chỉ có lúc bắt đầu.'],
+    'why' => ['Phí là chi phí cố định mỗi lần giao dịch. Thiết lập giảm phí một lần tạo khác biệt lớn về lâu dài.', 'Thưởng và voucher người dùng mới là ưu đãi một lần, chỉ có lúc bắt đầu.'],
     'verify_note' => 'Mức hiển thị là tối đa của chương trình ("tới"). Mức thực tế của bạn hiện ở ô Referral ID khi đăng ký và có thể khác theo khu vực, sản phẩm và chiến dịch.',
-    'note' => 'Đăng ký qua các liên kết trên giúp bạn được giảm phí và nhận ưu đãi người dùng mới. BTCtiming có thể nhận hoa hồng nhỏ qua liên kết đối tác; điều này không ảnh hưởng đến khuyến nghị của chúng tôi.',
+    'note' => 'Đăng ký qua các liên kết trên giúp bạn được giảm phí và nhận ưu đãi người dùng mới.',
     'risk' => '⚠ Giao dịch crypto, đặc biệt futures và đòn bẩy, mang rủi ro thua lỗ cao. Điểm BTCtiming chỉ mang tính thông tin và không phải lời khuyên tài chính. Hãy giao dịch theo quyết định và rủi ro của riêng bạn.',
     'f_privacy' => 'Chính sách bảo mật',
     'f_terms' => 'Điều khoản dịch vụ',
@@ -380,21 +380,18 @@ h1{font-size:27px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
 .cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:680px){.cards{grid-template-columns:1fr}}
 .card{background:var(--bg2);border:1px solid var(--b1);border-radius:18px;padding:22px;display:flex;flex-direction:column}
-.card-hd{display:flex;align-items:center;gap:12px;margin-bottom:14px}
-.badge{width:44px;height:44px;border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
-.badge.b{background:linear-gradient(135deg,#f0b90b,#f8d33a)}
-.badge.y{background:#16161a;border:1px solid rgba(247,147,26,.4)}
-.card-hd h2{font-size:20px;font-weight:800;line-height:1.1}
-.tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;margin-top:4px;width:fit-content}
+.card-hd{margin-bottom:14px}
+.card-hd h2{font-size:20px;font-weight:800;line-height:1.1;margin-bottom:5px}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap}
 .tag.b{background:rgba(240,185,11,.12);color:var(--gold);border:1px solid rgba(240,185,11,.3)}
 .tag.y{background:rgba(247,147,26,.12);color:var(--orange);border:1px solid rgba(247,147,26,.3)}
 /* 할인 pill */
-.disc{display:flex;align-items:center;gap:8px;background:var(--bg3);border:1px solid var(--b1);border-radius:12px;padding:11px 13px;margin-bottom:8px}
-.disc .pct{font-size:19px;font-weight:800;letter-spacing:-.3px}
+.disc{display:flex;flex-direction:column;align-items:flex-start;gap:2px;background:var(--bg3);border:1px solid var(--b1);border-radius:12px;padding:11px 13px;margin-bottom:8px}
+.disc .pct{font-size:18px;font-weight:800;letter-spacing:-.3px;white-space:nowrap}
 .disc.b .pct{color:var(--gold)}.disc.y .pct{color:var(--orange)}
-.disc .bo{font-size:11.5px;color:var(--t2);line-height:1.35}
+.disc .bo{font-size:11.5px;color:var(--t2);line-height:1.3}
 .card p.d{color:var(--t2);font-size:13px;line-height:1.7;margin-bottom:16px}
-.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px;flex-grow:1;align-content:start}
 @media(max-width:400px){.pc{grid-template-columns:1fr}}
 .pc h3{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:7px}
 .pc ul{list-style:none}
@@ -405,7 +402,7 @@ h1{font-size:27px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
 .card>ul.f{list-style:none;margin-bottom:18px;flex-grow:1}
 .card>ul.f li{font-size:12.5px;color:var(--t1);padding:4px 0 4px 20px;position:relative}
 .card>ul.f li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:700}
-.cta{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:14px;padding:14px 16px;border-radius:12px;transition:transform .1s,opacity .15s}
+.cta{display:block;margin-top:auto;text-align:center;text-decoration:none;font-weight:800;font-size:14px;padding:14px 16px;border-radius:12px;transition:transform .1s,opacity .15s}
 .cta:active{transform:scale(.98)}.cta:hover{opacity:.92}
 .cta.b{background:linear-gradient(135deg,#f0b90b,#f8d33a);color:#000}
 .cta.y{background:linear-gradient(135deg,#f7931a,#fdba74);color:#000}
@@ -458,7 +455,6 @@ footer a{color:var(--t3);text-decoration:underline}
     <!-- Binance -->
     <div class="card">
       <div class="card-hd">
-        <span class="badge b"><svg width="24" height="24" viewBox="0 0 24 24"><g fill="#0a0a0c"><rect x="10.6" y="3.4" width="3" height="3" transform="rotate(45 12 4.9)"/><rect x="4.6" y="9.4" width="3" height="3" transform="rotate(45 6 10.9)"/><rect x="16.6" y="9.4" width="3" height="3" transform="rotate(45 18 10.9)"/><rect x="10.6" y="9.4" width="3" height="3" transform="rotate(45 12 10.9)"/><rect x="10.6" y="15.4" width="3" height="3" transform="rotate(45 12 16.9)"/></g></svg></span>
         <div><h2>Binance</h2><span class="tag b"><?= h($t['binance_tag']) ?></span></div>
       </div>
       <div class="disc b"><span class="pct"><?= h($discB) ?></span><span class="bo"><?= h($t['bonus']) ?></span></div>
@@ -472,7 +468,6 @@ footer a{color:var(--t3);text-decoration:underline}
     <!-- Bybit -->
     <div class="card">
       <div class="card-hd">
-        <span class="badge y"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 7v10M6 7h4a3 3 0 0 1 0 6H6m0 0h5a3 3 0 0 1 0 4H6" stroke="#f7931a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18.5" cy="7.5" r="1.6" fill="#f7931a"/></svg></span>
         <div><h2>Bybit</h2><span class="tag y"><?= h($t['bybit_tag']) ?></span></div>
       </div>
       <div class="disc y"><span class="pct"><?= h($discY) ?></span><span class="bo"><?= h($t['bonus_y']) ?></span></div>
