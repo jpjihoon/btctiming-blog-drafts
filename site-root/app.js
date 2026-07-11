@@ -759,7 +759,7 @@ function setMode(mode) {
   document.getElementById('modeBuy').classList.toggle('active', mode==='buy');
   document.getElementById('modeSell').classList.toggle('active', mode==='sell');
   document.body.classList.toggle('sell-mode', mode==='sell');
-  document.getElementById('sellPanel').style.display = mode==='sell' ? 'flex' : 'none';
+  document.getElementById('sellPanel').style.display = mode==='sell' ? 'block' : 'none';
   if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
   // 알림 모달 등 모든 [data-i] 라벨 갱신 (모드 전환 시에도 언어가 흐트러지지 않도록)
   applyStaticI18n();

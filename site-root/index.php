@@ -746,7 +746,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .insight-more:hover{background:rgba(247,147,26,.08);text-decoration:none}
 
 /* ── Sidebar Blog List (좌측 하단 컴팩트 목록) ── */
-.sb-blog{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;flex-shrink:0}
+.sb-blog{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:14px;flex-shrink:0}
 .sb-blog-hd{display:flex;align-items:center;font-size:11px;font-weight:700;letter-spacing:.07em;color:var(--t3);margin-bottom:8px}
 .sb-blog-hd a{font-size:10px;padding:2px 7px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
   font-weight:700;text-decoration:none;margin-left:auto}
@@ -1110,13 +1110,13 @@ $__seoSub = [
     </div>
 
     <!-- Position Guide (Long/Short 공통 위치) -->
-    <div id="sellPanel" style="display:none;flex-direction:column;gap:14px">
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px">
+    <div id="sellPanel" style="display:none">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:14px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sStatusTitle">MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sStatusDesc">—</div>
       </div>
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:14px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sGuideTitle">💡 SHORT GUIDE</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sGuideAction">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sGuideDesc">—</div>
@@ -1131,18 +1131,18 @@ $__seoSub = [
       </div>
     </div>
     <!-- LONG Guide Panel -->
-    <div id="longGuidePanel" style="display:flex;flex-direction:column;gap:14px">
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px">
+    <div id="longGuidePanel">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:14px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lStatusTitle">MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lStatusDesc">—</div>
       </div>
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:14px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lGuideTitle">💡 LONG GUIDE</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lGuideAction">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lGuideDesc">—</div>
       </div>
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:14px">
         <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
           
           <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lNextTitle">NEXT TRIGGER</div>
