@@ -431,7 +431,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
   #coinPicker{order:5;flex:1 0 100%;width:100%;margin-top:2px}
   .nav-r{margin-left:auto}
 }
-.coin-tab{flex-shrink:0;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
+.coin-tab{flex-shrink:0;padding:5px 12px;border-radius:7px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
 .coin-tab-add{font-weight:700;color:var(--t3);padding:5px 11px}
 .coin-tab-add:hover{color:var(--t1);border-color:var(--b2)}
@@ -524,7 +524,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
     height:min(60vh,420px)!important}
 }
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
-#coinPickerBtn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);color:var(--t1);padding:9px 12px;font-size:14px;font-weight:700;cursor:pointer}
+#coinPickerBtn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--bg3);border:1px solid var(--b1);border-radius:6px;color:var(--t1);padding:9px 12px;font-size:14px;font-weight:700;cursor:pointer}
 .cp-arrow{color:var(--t3);font-size:12px;flex-shrink:0}
 .cp-panel{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:200;background:var(--bg2);border:1px solid var(--b2);border-radius:var(--rad-sm);max-height:45vh;overflow-y:auto;padding:4px;box-shadow:0 12px 34px rgba(0,0,0,.55)}
 .cp-item{display:flex;align-items:center;padding:11px 12px;border-radius:6px;cursor:pointer;color:var(--t1);font-size:14px;font-weight:600}
@@ -608,7 +608,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .score-den{font-size:18px;color:var(--t2);font-weight:400}
 .score-action{font-size:20px;font-weight:700;margin-top:8px}
 .score-sub{font-size:10px;color:var(--t3);margin-top:2px}
-.reach-bar{height:3px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden;margin-top:10px}
+.reach-bar{height:4px;background:rgba(255,255,255,.13);border-radius:2px;overflow:hidden;margin-top:10px}
 .reach-fill{height:100%;border-radius:2px;transition:width .5s ease}
 .reach-pct{font-size:12px;font-weight:600;margin-top:4px}
 
@@ -662,7 +662,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .icard-score{display:flex;align-items:baseline;gap:3px;margin-bottom:4px}
 .icard-n{font-size:30px;font-weight:700;line-height:1}
 .icard-m{font-size:10px;color:var(--t3)}
-.ibar{height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-bottom:8px}
+.ibar{height:3px;background:rgba(255,255,255,.13);border-radius:2px;overflow:hidden;margin-bottom:8px}
 .ibf{height:100%;border-radius:1px;transition:width .4s}
 .icard-vals{display:grid;grid-template-columns:1fr 1fr;gap:3px}
 .vbox{background:rgba(255,255,255,.03);border-radius:5px;padding:4px 6px}
@@ -688,10 +688,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .bk{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:14px}
 .bk-hd{font-size:11px;font-weight:600;margin-bottom:10px;color:var(--t2)}
 .bk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:3px 14px}
-.bk-row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;font-size:11px;border-bottom:1px solid var(--b1)}
+.bk-row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;font-size:11px}
 .bk-n{color:var(--t2);font-size:12px}
 .bk-r{display:flex;align-items:center;gap:5px;font-weight:600}
-.mbar{width:28px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;display:inline-block;vertical-align:middle}
+.mbar{width:34px;height:3px;background:rgba(255,255,255,.13);border-radius:2px;overflow:hidden;display:inline-block;vertical-align:middle}
 .mfill{height:100%;border-radius:1px}
 .bk-tot{border-top:1px solid var(--b2);margin-top:10px;padding-top:10px;display:flex;justify-content:space-between;font-size:14px;font-weight:700}
 
@@ -823,7 +823,7 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .hist-tab:hover{color:var(--t2);background:var(--bg3)}
 .hist-tab.active{background:var(--orange);color:#000;border-color:transparent;font-weight:700}
 /* 거래소 제휴 배너 — 눈에 띄는 골드 톤 */
-.exch-banner{display:flex;align-items:center;gap:12px;text-decoration:none;background:linear-gradient(135deg,rgba(247,147,26,.16),rgba(247,147,26,.12));border:1px solid rgba(247,147,26,.45);border-radius:14px;padding:14px 15px;margin:12px 0;position:relative;overflow:hidden;box-shadow:0 0 0 rgba(247,147,26,.4);animation:exchGlow 2.6s ease-in-out infinite;transition:transform .1s}
+.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 16px;margin:12px 0;transition:border-color .15s}
 @keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(247,147,26,.0)}50%{box-shadow:0 0 16px 1px rgba(247,147,26,.22)}}
 .exch-banner::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.13),transparent);transform:skewX(-18deg);animation:exchShine 3.6s ease-in-out infinite}
 @keyframes exchShine{0%{left:-60%}45%,100%{left:130%}}
@@ -831,9 +831,9 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .exch-banner:active{transform:scale(.99)}
 .exch-banner-ic{font-size:23px;flex-shrink:0;position:relative;z-index:1}
 .exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0;position:relative;z-index:1}
-.exch-banner-tx b{font-size:13px;color:#fff;font-weight:800;letter-spacing:-.2px}
-.exch-banner-tx span{font-size:11px;color:rgba(255,255,255,.72)}
-.exch-banner-ar{color:var(--yellow);font-weight:700;font-size:20px;flex-shrink:0;position:relative;z-index:1;line-height:1}
+.exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
+.exch-banner-tx span{font-size:11px;color:var(--t3)}
+.exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;position:relative;z-index:1;line-height:1}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
 #blogTickerScroll::-webkit-scrollbar{display:none}
 #blogCategoryScroll::-webkit-scrollbar{display:none}
@@ -1005,7 +1005,7 @@ $__seoSub = [
   </div>
   <div class="nav-r">
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
-    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog">📖 <span data-i="navInsights">Blog</span></a>
+    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><span data-i="navInsights">Blog</span></a>
     <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary">📚 <span data-i="navGlossary">용어사전</span></a>
     <div class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSettings();}">⚙️</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
@@ -1112,7 +1112,7 @@ $__seoSub = [
     <!-- Position Guide (Long/Short 공통 위치) -->
     <div id="sellPanel" style="display:none">
       <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
-        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sStatusTitle">📊 MARKET STATUS</div>
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sStatusTitle">MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sStatusDesc">—</div>
       </div>
@@ -1124,7 +1124,7 @@ $__seoSub = [
       <div style="background:var(--bg3);border:1px solid rgba(74,222,128,.2);border-radius:var(--rad-sm);padding:13px 15px">
         <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
           <div style="width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite"></div>
-          <div style="font-size:10px;color:var(--green);font-weight:600" id="sExitTitle">🎯 SHORT EXIT</div>
+          <div style="font-size:10px;color:var(--green);font-weight:600" id="sExitTitle">SHORT EXIT</div>
         </div>
         <div style="font-size:13px;font-weight:700;margin-bottom:4px" id="sExitSig">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6;white-space:pre-line" id="sExitDesc">—</div>
@@ -1133,7 +1133,7 @@ $__seoSub = [
     <!-- LONG Guide Panel -->
     <div id="longGuidePanel">
       <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
-        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lStatusTitle">📊 MARKET STATUS</div>
+        <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lStatusTitle">MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lStatusDesc">—</div>
       </div>
@@ -1145,12 +1145,12 @@ $__seoSub = [
       <div style="background:var(--bg3);border:1px solid rgba(251,191,36,.2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
         <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
           <div style="width:6px;height:6px;border-radius:50%;background:var(--yellow);animation:pulse 1.5s infinite"></div>
-          <div style="font-size:10px;color:var(--yellow);font-weight:600" id="lNextTitle">🎯 NEXT TRIGGER</div>
+          <div style="font-size:10px;color:var(--yellow);font-weight:600" id="lNextTitle">NEXT TRIGGER</div>
         </div>
         <div style="font-size:11px;color:var(--t2);line-height:1.8;white-space:pre-line" id="lNextDesc">—</div>
       </div>
       <div style="background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px">
-        <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer" onclick="toggleSplitPlan()" role="button" tabindex="0" aria-label="Toggle split entry plan" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSplitPlan();}">
+        <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:13px 15px;margin:-13px -15px 0;border-radius:var(--rad-sm)" onclick="toggleSplitPlan()" role="button" tabindex="0" aria-label="Toggle split entry plan" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSplitPlan();}">
           <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lSplitTitle">SPLIT ENTRY PLAN</div>
           <span id="splitPlanChevron" style="font-size:10px;color:var(--t3);transition:transform .2s;transform:rotate(-90deg)">▾</span>
         </div>
@@ -1170,7 +1170,7 @@ $__seoSub = [
 
     <!-- Exchange referral banner → 전용 비교 페이지로 이동 (data-i로 언어 즉시 전환) -->
     <a href="/exchanges.php<?= h(langSuffix($lang)) ?>" class="exch-banner" id="exchBanner">
-      <span class="exch-banner-ic">🎁</span>
+      <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
       <span class="exch-banner-tx">
         <b data-i="exchBannerT">Which exchange to start with?</b>
         <span data-i="exchBannerD">Compare Binance &amp; Bybit + fee discount</span>
@@ -1225,9 +1225,9 @@ $__seoSub = [
         </div>
       </div>
       <div id="histInfo" style="display:none;font-size:10px;color:var(--t2);margin-top:8px;padding:8px;background:var(--bg3);border-radius:6px;line-height:1.6">
-        📊 <b>Hour</b>: Last 24 hours, every 5 minutes<br>
-        📅 <b>Day</b>: Last 30 days, daily average<br>
-        📆 <b>Month</b>: All time, monthly average<br>
+        <b>Hour</b>: Last 24 hours, every 5 minutes<br>
+        <b>Day</b>: Last 30 days, daily average<br>
+        <b>Month</b>: All time, monthly average<br>
         💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.
       </div>
     </div>
@@ -1273,7 +1273,7 @@ $__seoSub = [
 
     <!-- Triggers -->
     <div class="trig">
-      <div class="trig-hd">⚡ <span id="trigTitle">Next Level Triggers</span></div>
+      <div class="trig-hd"><span id="trigTitle">Next Level Triggers</span></div>
       <div id="trigRows"></div>
     </div>
   </div>

@@ -764,7 +764,7 @@ function setMode(mode) {
   applyStaticI18n();
   // histInfo 업데이트
   const hi=document.getElementById('histInfo');
-  if(hi) hi.innerHTML = TT({ko:`📊 <b>시간별</b>: 최근 24시간, 5분마다<br>📅 <b>일별</b>: 최근 30일, 일별 평균<br>📆 <b>월별</b>: 전체 기간, 월별 평균<br>💾 데이터는 브라우저 로컬저장소에 저장됩니다. 브라우저 데이터 삭제 시 초기화됩니다.`,en:`📊 <b>Hour</b>: Last 24 hours, every 5 minutes<br>📅 <b>Day</b>: Last 30 days, daily average<br>📆 <b>Month</b>: All time, monthly average<br>💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.`,ja:`📊 <b>時間別</b>: 直近24時間、5分ごと<br>📅 <b>日別</b>: 直近30日間、日次平均<br>📆 <b>月別</b>: 全期間、月次平均<br>💾 データはブラウザ(localStorage)に保存されます。ブラウザデータを消去すると初期化されます。`,es:`📊 <b>Hora</b>: Últimas 24 horas, cada 5 minutos<br>📅 <b>Día</b>: Últimos 30 días, promedio diario<br>📆 <b>Mes</b>: Todo el período, promedio mensual<br>💾 Los datos se guardan en tu navegador (localStorage). Se borran si se limpian los datos del navegador.`,de:`📊 <b>Stunde</b>: Letzte 24 Stunden, alle 5 Minuten<br>📅 <b>Tag</b>: Letzte 30 Tage, Tagesdurchschnitt<br>📆 <b>Monat</b>: Gesamter Zeitraum, Monatsdurchschnitt<br>💾 Daten werden lokal im Browser (localStorage) gespeichert. Werden beim Löschen der Browserdaten zurückgesetzt.`,fr:`📊 <b>Heure</b> : 24 dernières heures, toutes les 5 minutes<br>📅 <b>Jour</b> : 30 derniers jours, moyenne quotidienne<br>📆 <b>Mois</b> : Tout l'historique, moyenne mensuelle<br>💾 Les données sont stockées localement dans le navigateur (localStorage). Effacées si les données du navigateur sont supprimées.`,pt:`📊 <b>Hora</b>: Últimas 24 horas, a cada 5 minutos<br>📅 <b>Dia</b>: Últimos 30 dias, média diária<br>📆 <b>Mês</b>: Todo o período, média mensal<br>💾 Os dados são salvos localmente no navegador (localStorage). Apagados se os dados do navegador forem limpos.`,tr:`📊 <b>Saat</b>: Son 24 saat, her 5 dakika<br>📅 <b>Gün</b>: Son 30 gün, günlük ortalama<br>📆 <b>Ay</b>: Tüm zamanlar, aylık ortalama<br>💾 Veriler tarayıcıda yerel olarak (localStorage) saklanır. Tarayıcı verileri silinirse sıfırlanır.`,vi:`📊 <b>Giờ</b>: 24 giờ qua, mỗi 5 phút<br>📅 <b>Ngày</b>: 30 ngày qua, trung bình ngày<br>📆 <b>Tháng</b>: Toàn bộ, trung bình tháng<br>💾 Dữ liệu lưu cục bộ trên trình duyệt (localStorage). Bị xóa nếu dữ liệu trình duyệt bị xóa.`});
+  if(hi) hi.innerHTML = TT({ko:`<b>시간별</b>: 최근 24시간, 5분마다<br><b>일별</b>: 최근 30일, 일별 평균<br><b>월별</b>: 전체 기간, 월별 평균<br>💾 데이터는 브라우저 로컬저장소에 저장됩니다. 브라우저 데이터 삭제 시 초기화됩니다.`,en:`<b>Hour</b>: Last 24 hours, every 5 minutes<br><b>Day</b>: Last 30 days, daily average<br><b>Month</b>: All time, monthly average<br>💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.`,ja:`<b>時間別</b>: 直近24時間、5分ごと<br><b>日別</b>: 直近30日間、日次平均<br><b>月別</b>: 全期間、月次平均<br>💾 データはブラウザ(localStorage)に保存されます。ブラウザデータを消去すると初期化されます。`,es:`<b>Hora</b>: Últimas 24 horas, cada 5 minutos<br><b>Día</b>: Últimos 30 días, promedio diario<br><b>Mes</b>: Todo el período, promedio mensual<br>💾 Los datos se guardan en tu navegador (localStorage). Se borran si se limpian los datos del navegador.`,de:`<b>Stunde</b>: Letzte 24 Stunden, alle 5 Minuten<br><b>Tag</b>: Letzte 30 Tage, Tagesdurchschnitt<br><b>Monat</b>: Gesamter Zeitraum, Monatsdurchschnitt<br>💾 Daten werden lokal im Browser (localStorage) gespeichert. Werden beim Löschen der Browserdaten zurückgesetzt.`,fr:`<b>Heure</b> : 24 dernières heures, toutes les 5 minutes<br><b>Jour</b> : 30 derniers jours, moyenne quotidienne<br><b>Mois</b> : Tout l'historique, moyenne mensuelle<br>💾 Les données sont stockées localement dans le navigateur (localStorage). Effacées si les données du navigateur sont supprimées.`,pt:`<b>Hora</b>: Últimas 24 horas, a cada 5 minutos<br><b>Dia</b>: Últimos 30 dias, média diária<br><b>Mês</b>: Todo o período, média mensal<br>💾 Os dados são salvos localmente no navegador (localStorage). Apagados se os dados do navegador forem limpos.`,tr:`<b>Saat</b>: Son 24 saat, her 5 dakika<br><b>Gün</b>: Son 30 gün, günlük ortalama<br><b>Ay</b>: Tüm zamanlar, aylık ortalama<br>💾 Veriler tarayıcıda yerel olarak (localStorage) saklanır. Tarayıcı verileri silinirse sıfırlanır.`,vi:`<b>Giờ</b>: 24 giờ qua, mỗi 5 phút<br><b>Ngày</b>: 30 ngày qua, trung bình ngày<br><b>Tháng</b>: Toàn bộ, trung bình tháng<br>💾 Dữ liệu lưu cục bộ trên trình duyệt (localStorage). Bị xóa nếu dữ liệu trình duyệt bị xóa.`});
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1019,7 +1019,7 @@ function makeCard(d,mode='buy'){
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
-      📖 ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
+      ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
   const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
   const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}"
       onclick="event.stopPropagation()"
@@ -1399,13 +1399,13 @@ function renderAll(ind) {
       exitDesc=TT({ko:'• 현재 시장가로 전량 청산\n• 숏 재진입은 6.0점 이상에서만\n• 롱 진입 적극 검토',en:'• Close at market price now\n• Only re-short above 6.0\n• Strongly consider going long',ja:'• 現在の市場価格で全量決済\n• ショート再エントリーはスコア6.0以上でのみ\n• ロングエントリーを積極的に検討',es:'• Cerrar todo al precio de mercado actual\n• Reingresar corto solo por encima de 6.0\n• Considerar seriamente entrada larga',de:'• Alles zum aktuellen Marktpreis schließen\n• Short-Wiedereinstieg nur über 6,0\n• Long-Einstieg stark erwägen',fr:'• Fermez au prix du marché maintenant\n• Re-short uniquement au-dessus de 6,0\n• Envisagez fortement le long',pt:'• Feche a preço de mercado agora\n• Re-short apenas acima de 6,0\n• Considere fortemente ir long',tr:'• Şimdi piyasa fiyatından kapat\n• Sadece 6,0 üstünde tekrar short\n• Long\'a geçmeyi ciddi düşün',vi:'• Đóng theo giá thị trường ngay\n• Chỉ short lại trên 6,0\n• Cân nhắc mạnh việc vào long'});
     }
 
-    if(el('sStatusTitle')) el('sStatusTitle').textContent=TT({ko:'📊 현재 시장 상태',en:'📊 MARKET STATUS',ja:'📊 現在の市場状況',es:'📊 ESTADO DEL MERCADO',de:'📊 MARKTSTATUS',fr:'📊 ÉTAT DU MARCHÉ',pt:'📊 STATUS DO MERCADO',tr:'📊 PİYASA DURUMU',vi:'📊 TRẠNG THÁI THỊ TRƯỜNG'});
+    if(el('sStatusTitle')) el('sStatusTitle').textContent=TT({ko:'현재 시장 상태',en:'MARKET STATUS',ja:'現在の市場状況',es:'ESTADO DEL MERCADO',de:'MARKTSTATUS',fr:'ÉTAT DU MARCHÉ',pt:'STATUS DO MERCADO',tr:'PİYASA DURUMU',vi:'TRẠNG THÁI THỊ TRƯỜNG'});
     if(el('sStatusMain'))  {el('sStatusMain').textContent=stMain;el('sStatusMain').style.color=result.acolor;}
     if(el('sStatusDesc'))  el('sStatusDesc').textContent=stDesc;
     if(el('sGuideTitle'))  el('sGuideTitle').textContent=TT({ko:'💡 숏 포지션 가이드',en:'💡 SHORT GUIDE',ja:'💡 ショートポジションガイド',es:'💡 GUÍA CORTO',de:'💡 SHORT-ANLEITUNG',fr:'💡 GUIDE SHORT',pt:'💡 GUIA SHORT',tr:'💡 SHORT KILAVUZU',vi:'💡 HƯỚNG DẪN SHORT'});
     if(el('sGuideAction')) {el('sGuideAction').textContent=gAction;el('sGuideAction').style.color=result.acolor;}
     if(el('sGuideDesc'))   el('sGuideDesc').textContent=gDesc;
-    if(el('sExitTitle'))   el('sExitTitle').textContent=TT({ko:'🎯 숏 청산 조건',en:'🎯 SHORT EXIT',ja:'🎯 ショート決済条件',es:'🎯 SALIDA CORTA',de:'🎯 SHORT-AUSSTIEG',fr:'🎯 SORTIE SHORT',pt:'🎯 SAÍDA SHORT',tr:'🎯 SHORT ÇIKIŞ',vi:'🎯 THOÁT SHORT'});
+    if(el('sExitTitle'))   el('sExitTitle').textContent=TT({ko:'숏 청산 조건',en:'SHORT EXIT',ja:'ショート決済条件',es:'SALIDA CORTA',de:'SHORT-AUSSTIEG',fr:'SORTIE SHORT',pt:'SAÍDA SHORT',tr:'SHORT ÇIKIŞ',vi:'THOÁT SHORT'});
     if(el('sExitSig'))     el('sExitSig').textContent=exitSig;
     if(el('sExitDesc'))    el('sExitDesc').textContent=exitDesc;
 
@@ -1452,13 +1452,13 @@ function renderAll(ind) {
       nextDesc=TT({ko:'재진입 조건:\n• 점수 6.0 이상\n• 온체인 지표 저점 진입 확인',en:'Re-entry:\n• Score above 6.0\n• On-chain confirms bottom',ja:'再エントリー条件:\n• スコア6.0以上\n• オンチェーン指標が底値を確認',es:'Condiciones de reingreso:\n• Puntuación por encima de 6.0\n• On-chain confirma suelo',de:'Wiedereinstiegsbedingungen:\n• Score über 6,0\n• On-Chain bestätigt Tief',fr:'Réentrée :\n• Score au-dessus de 6,0\n• L\'on-chain confirme le creux',pt:'Reentrada:\n• Pontuação acima de 6,0\n• On-chain confirma o fundo',tr:'Tekrar giriş:\n• Puan 6,0 üstü\n• Zincir üstü dibi onaylar',vi:'Vào lại:\n• Điểm trên 6,0\n• On-chain xác nhận đáy'});
     }
 
-    if(el('lStatusTitle')) el('lStatusTitle').textContent=TT({ko:'📊 현재 시장 상태',en:'📊 MARKET STATUS',ja:'📊 現在の市場状況',es:'📊 ESTADO DEL MERCADO',de:'📊 MARKTSTATUS',fr:'📊 ÉTAT DU MARCHÉ',pt:'📊 STATUS DO MERCADO',tr:'📊 PİYASA DURUMU',vi:'📊 TRẠNG THÁI THỊ TRƯỜNG'});
+    if(el('lStatusTitle')) el('lStatusTitle').textContent=TT({ko:'현재 시장 상태',en:'MARKET STATUS',ja:'現在の市場状況',es:'ESTADO DEL MERCADO',de:'MARKTSTATUS',fr:'ÉTAT DU MARCHÉ',pt:'STATUS DO MERCADO',tr:'PİYASA DURUMU',vi:'TRẠNG THÁI THỊ TRƯỜNG'});
     if(el('lStatusMain'))  {el('lStatusMain').textContent=stMain;el('lStatusMain').style.color=result.acolor;}
     if(el('lStatusDesc'))  el('lStatusDesc').textContent=stDesc;
     if(el('lGuideTitle'))  el('lGuideTitle').textContent=TT({ko:'💡 롱 포지션 가이드',en:'💡 LONG GUIDE',ja:'💡 ロングポジションガイド',es:'💡 GUÍA LARGO',de:'💡 LONG-ANLEITUNG',fr:'💡 GUIDE LONG',pt:'💡 GUIA LONG',tr:'💡 LONG KILAVUZU',vi:'💡 HƯỚNG DẪN LONG'});
     if(el('lGuideAction')) {el('lGuideAction').textContent=gAction;el('lGuideAction').style.color=result.acolor;}
     if(el('lGuideDesc'))   el('lGuideDesc').textContent=gDesc;
-    if(el('lNextTitle'))   el('lNextTitle').textContent=TT({ko:'🎯 다음 진입 조건',en:'🎯 NEXT TRIGGER',ja:'🎯 次のエントリー条件',es:'🎯 SIGUIENTE DISPARADOR',de:'🎯 NÄCHSTER TRIGGER',fr:'🎯 PROCHAIN DÉCLENCHEUR',pt:'🎯 PRÓXIMO GATILHO',tr:'🎯 SONRAKİ TETİKLEYİCİ',vi:'🎯 KÍCH HOẠT TIẾP THEO'});
+    if(el('lNextTitle'))   el('lNextTitle').textContent=TT({ko:'다음 진입 조건',en:'NEXT TRIGGER',ja:'次のエントリー条件',es:'SIGUIENTE DISPARADOR',de:'NÄCHSTER TRIGGER',fr:'PROCHAIN DÉCLENCHEUR',pt:'PRÓXIMO GATILHO',tr:'SONRAKİ TETİKLEYİCİ',vi:'KÍCH HOẠT TIẾP THEO'});
     if(el('lNextDesc'))    el('lNextDesc').textContent=nextDesc;
     if(el('lSplitTitle'))  el('lSplitTitle').textContent=TT({ko:'분할 매수 계획',en:'SPLIT ENTRY PLAN',ja:'分割エントリー計画',es:'PLAN DE ENTRADA ESCALONADA',de:'GESTAFFELTER EINSTIEGSPLAN',fr:'PLAN D\'ENTRÉE ÉCHELONNÉE',pt:'PLANO DE ENTRADA ESCALONADA',tr:'KADEMELİ GİRİŞ PLANI',vi:'KẾ HOẠCH VÀO TỪNG PHẦN'});
   const assetInput = document.getElementById('userAsset');
@@ -2964,7 +2964,7 @@ function renderCategoryLinks() {
   if(!el || !categoryFooterArticles.length) return;
   const suffix = blogSuffix(currentLang);
   const label = document.getElementById('blogGuideLabel');
-  if(label) label.textContent = TT({ko:'📖 카테고리별 최신 글:',en:'📖 Latest by Category:',ja:'📖 カテゴリー別最新記事:',es:'📖 Últimas por Categoría:',de:'📖 Neueste nach Kategorie:',fr:'📖 Derniers par catégorie :',pt:'📖 Recentes por categoria:',tr:'📖 Kategoriye göre son:',vi:'📖 Mới nhất theo danh mục:'});
+  if(label) label.textContent = TT({ko:'카테고리별 최신 글:',en:'Latest by Category:',ja:'カテゴリー別最新記事:',es:'Últimas por Categoría:',de:'Neueste nach Kategorie:',fr:'Derniers par catégorie :',pt:'Recentes por categoria:',tr:'Kategoriye göre son:',vi:'Mới nhất theo danh mục:'});
   el.innerHTML = categoryFooterArticles.map(a => {
     const cat = pickLangField(a, 'category', currentLang);
     const title = pickLangField(a, 'title', currentLang);
