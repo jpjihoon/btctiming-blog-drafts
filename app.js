@@ -15,108 +15,108 @@ const C = {
 
 // 지표 카드의 signal(뱃지)/target(목표조건) 텍스트 번역 맵. 서버(score_calc.php)가 영어로만 내려주므로 클라이언트에서 번역.
 const SIGNAL_MAP = {
-  "Above": {"ko": "위", "en": "Above", "ja": "上", "es": "Por Encima", "de": "Darüber"},
-  "Accumulating": {"ko": "매집 중", "en": "Accumulating", "ja": "蓄積中", "es": "Acumulando", "de": "Akkumulierend"},
-  "Accumulation (Safe)": {"ko": "매집 구간 (안전)", "en": "Accumulation (Safe)", "ja": "蓄積ゾーン(安全)", "es": "Acumulación (Seguro)", "de": "Akkumulation (Sicher)"},
-  "Alt Season Risk": {"ko": "알트시즌 리스크", "en": "Alt Season Risk", "ja": "アルトシーズンリスク", "es": "Riesgo Temporada Alt", "de": "Alt-Season-Risiko"},
-  "Alt Season": {"ko": "알트시즌", "en": "Alt Season", "ja": "アルトシーズン", "es": "Temporada Alt", "de": "Alt Season"},
-  "BTC Season (Safe)": {"ko": "BTC 시즌 (안전)", "en": "BTC Season (Safe)", "ja": "BTCシーズン(安全)", "es": "Temporada BTC (Seguro)", "de": "BTC-Season (Sicher)"},
-  "BTC Season": {"ko": "BTC 시즌", "en": "BTC Season", "ja": "BTCシーズン", "es": "Temporada BTC", "de": "BTC-Season"},
-  "Backwardation (Safe)": {"ko": "백워데이션 (안전)", "en": "Backwardation (Safe)", "ja": "バックワーデーション(安全)", "es": "Backwardation (Seguro)", "de": "Backwardation (Sicher)"},
-  "Below Realized (Safe)": {"ko": "실현가 이하 (안전)", "en": "Below Realized (Safe)", "ja": "実現価格以下(安全)", "es": "Bajo Realizado (Seguro)", "de": "Unter Realized (Sicher)"},
-  "Below Realized": {"ko": "실현가 이하", "en": "Below Realized", "ja": "実現価格以下", "es": "Bajo Realizado", "de": "Unter Realized"},
-  "Borderline": {"ko": "경계선", "en": "Borderline", "ja": "境界線", "es": "Límite", "de": "Grenzwertig"},
-  "Buyer-led (Caution)": {"ko": "매수 주도 (주의)", "en": "Buyer-led (Caution)", "ja": "買い主導(注意)", "es": "Liderado por Compra (Precaución)", "de": "Käufergetrieben (Vorsicht)"},
-  "Capitulation": {"ko": "항복", "en": "Capitulation", "ja": "キャピチュレーション", "es": "Capitulación", "de": "Kapitulation"},
-  "Caution": {"ko": "주의", "en": "Caution", "ja": "注意", "es": "Precaución", "de": "Vorsicht"},
-  "Core Bottom Zone": {"ko": "핵심 저점 구간", "en": "Core Bottom Zone", "ja": "核心底値ゾーン", "es": "Zona Central de Suelo", "de": "Kern-Tiefzone"},
-  "Correction": {"ko": "조정", "en": "Correction", "ja": "調整", "es": "Corrección", "de": "Korrektur"},
-  "Deep Correction": {"ko": "깊은 조정", "en": "Deep Correction", "ja": "深い調整", "es": "Corrección Profunda", "de": "Tiefe Korrektur"},
-  "Distribution": {"ko": "분산", "en": "Distribution", "ja": "分配", "es": "Distribución", "de": "Distribution"},
-  "Elevated": {"ko": "상승", "en": "Elevated", "ja": "上昇", "es": "Elevado", "de": "Erhöht"},
-  "Euphoria": {"ko": "도취", "en": "Euphoria", "ja": "陶酔", "es": "Euforia", "de": "Euphorie"},
-  "FOMO Buying": {"ko": "FOMO 매수", "en": "FOMO Buying", "ja": "FOMO買い", "es": "Compra por FOMO", "de": "FOMO-Kauf"},
-  "Far (Safe)": {"ko": "멀음 (안전)", "en": "Far (Safe)", "ja": "遠い(安全)", "es": "Lejos (Seguro)", "de": "Weit (Sicher)"},
-  "Far from ATH (Safe)": {"ko": "ATH와 멀음 (안전)", "en": "Far from ATH (Safe)", "ja": "ATHから遠い(安全)", "es": "Lejos del ATH (Seguro)", "de": "Weit vom ATH (Sicher)"},
-  "Fear (Safe)": {"ko": "공포 (안전)", "en": "Fear (Safe)", "ja": "恐怖(安全)", "es": "Miedo (Seguro)", "de": "Angst (Sicher)"},
-  "Fear": {"ko": "공포", "en": "Fear", "ja": "恐怖", "es": "Miedo", "de": "Angst"},
-  "General": {"ko": "일반", "en": "General", "ja": "一般", "es": "General", "de": "Allgemein"},
-  "High": {"ko": "높음", "en": "High", "ja": "高い", "es": "Alto", "de": "Hoch"},
-  "Highly Correlated": {"ko": "높은 상관관계", "en": "Highly Correlated", "ja": "高い相関", "es": "Muy Correlacionado", "de": "Stark Korreliert"},
-  "Hope Bottom": {"ko": "희망 저점", "en": "Hope Bottom", "ja": "希望底値", "es": "Esperanza de Suelo", "de": "Hoffnung Boden"},
-  "Hope": {"ko": "희망", "en": "Hope", "ja": "希望", "es": "Esperanza", "de": "Hoffnung"},
-  "Ideal": {"ko": "이상적", "en": "Ideal", "ja": "理想的", "es": "Ideal", "de": "Ideal"},
-  "Independent": {"ko": "독립적", "en": "Independent", "ja": "独立的", "es": "Independiente", "de": "Unabhängig"},
-  "Institutional FOMO": {"ko": "기관 FOMO", "en": "Institutional FOMO", "ja": "機関FOMO", "es": "FOMO Institucional", "de": "Institutionelles FOMO"},
-  "Long Overload": {"ko": "롱 과부하", "en": "Long Overload", "ja": "ロング過負荷", "es": "Sobrecarga de Largos", "de": "Long-Überlastung"},
-  "Loss (Safe)": {"ko": "손실 (안전)", "en": "Loss (Safe)", "ja": "損失(安全)", "es": "Pérdida (Seguro)", "de": "Verlust (Sicher)"},
-  "Low (Safe)": {"ko": "낮음 (안전)", "en": "Low (Safe)", "ja": "低い(安全)", "es": "Bajo (Seguro)", "de": "Niedrig (Sicher)"},
-  "Mid Range": {"ko": "중간 구간", "en": "Mid Range", "ja": "中間レンジ", "es": "Rango Medio", "de": "Mittlerer Bereich"},
-  "Mild Buying": {"ko": "약한 매수", "en": "Mild Buying", "ja": "弱い買い", "es": "Compra Leve", "de": "Leichter Kauf"},
-  "Mild Premium": {"ko": "약한 프리미엄", "en": "Mild Premium", "ja": "弱いプレミアム", "es": "Prima Leve", "de": "Leichte Prämie"},
-  "Mild Profit": {"ko": "약한 수익", "en": "Mild Profit", "ja": "弱い利益", "es": "Ganancia Leve", "de": "Leichter Gewinn"},
-  "Mild Selling": {"ko": "약한 매도", "en": "Mild Selling", "ja": "弱い売り", "es": "Venta Leve", "de": "Leichter Verkauf"},
-  "Mild": {"ko": "약함", "en": "Mild", "ja": "弱い", "es": "Leve", "de": "Leicht"},
-  "Moderate": {"ko": "보통", "en": "Moderate", "ja": "中程度", "es": "Moderado", "de": "Moderat"},
-  "Near ATH": {"ko": "ATH 근접", "en": "Near ATH", "ja": "ATH近接", "es": "Cerca del ATH", "de": "Nahe ATH"},
-  "Near Bottom": {"ko": "저점 근접", "en": "Near Bottom", "ja": "底値近接", "es": "Cerca del Suelo", "de": "Nahe Boden"},
-  "Neutral": {"ko": "중립", "en": "Neutral", "ja": "中立", "es": "Neutral", "de": "Neutral"},
-  "Normal": {"ko": "정상", "en": "Normal", "ja": "正常", "es": "Normal", "de": "Normal"},
-  "Optimism": {"ko": "낙관", "en": "Optimism", "ja": "楽観", "es": "Optimismo", "de": "Optimismus"},
-  "Out of Range": {"ko": "범위 밖", "en": "Out of Range", "ja": "範囲外", "es": "Fuera de Rango", "de": "Außerhalb des Bereichs"},
-  "Overbought (Top)": {"ko": "과매수 (고점)", "en": "Overbought (Top)", "ja": "買われすぎ(天井)", "es": "Sobrecompra (Techo)", "de": "Überkauft (Top)"},
-  "Overbought": {"ko": "과매수", "en": "Overbought", "ja": "買われすぎ", "es": "Sobrecompra", "de": "Überkauft"},
-  "Overheated": {"ko": "과열", "en": "Overheated", "ja": "過熱", "es": "Sobrecalentado", "de": "Überhitzt"},
-  "Oversold (Bottom)": {"ko": "과매도 (저점)", "en": "Oversold (Bottom)", "ja": "売られすぎ(底値)", "es": "Sobreventa (Suelo)", "de": "Überverkauft (Boden)"},
-  "Oversold": {"ko": "과매도", "en": "Oversold", "ja": "売られすぎ", "es": "Sobreventa", "de": "Überverkauft"},
-  "Overvalued": {"ko": "고평가", "en": "Overvalued", "ja": "過大評価", "es": "Sobrevalorado", "de": "Überbewertet"},
-  "Past Peak": {"ko": "고점 지남", "en": "Past Peak", "ja": "ピーク超過", "es": "Pasado el Pico", "de": "Über dem Höhepunkt"},
-  "Peak Zone": {"ko": "고점 구간", "en": "Peak Zone", "ja": "ピークゾーン", "es": "Zona de Pico", "de": "Höchststand-Zone"},
-  "Record Accumulation": {"ko": "역대급 매집", "en": "Record Accumulation", "ja": "記録的な蓄積", "es": "Acumulación Récord", "de": "Rekord-Akkumulation"},
-  "Rising/Bottom": {"ko": "상승/저점", "en": "Rising/Bottom", "ja": "上昇/底値", "es": "Subiendo/Suelo", "de": "Steigend/Boden"},
-  "Seller-led (Safe)": {"ko": "매도 주도 (안전)", "en": "Seller-led (Safe)", "ja": "売り主導(安全)", "es": "Liderado por Venta (Seguro)", "de": "Verkäufergetrieben (Sicher)"},
-  "Sideline (Safe)": {"ko": "관망 (안전)", "en": "Sideline (Safe)", "ja": "様子見(安全)", "es": "Al Margen (Seguro)", "de": "Abseits (Sicher)"},
-  "Strong": {"ko": "강함", "en": "Strong", "ja": "強い", "es": "Fuerte", "de": "Stark"},
-  "Target Zone": {"ko": "목표 구간", "en": "Target Zone", "ja": "目標ゾーン", "es": "Zona Objetivo", "de": "Zielzone"},
-  "Transitioning": {"ko": "전환 중", "en": "Transitioning", "ja": "転換中", "es": "Transición", "de": "Übergang"},
-  "Volume Dry-up": {"ko": "거래량 고갈", "en": "Volume Dry-up", "ja": "出来高枯渇", "es": "Volumen Agotado", "de": "Volumen versiegt"},
-  "Volume Spike": {"ko": "거래량 급증", "en": "Volume Spike", "ja": "出来高急増", "es": "Pico de Volumen", "de": "Volumenspike"},
-  "Weak": {"ko": "약함", "en": "Weak", "ja": "弱い", "es": "Débil", "de": "Schwach"},
+  "Above": {"ko": "위", "en": "Above", "ja": "上", "es": "Por Encima", "de": "Darüber", "fr": "Au-dessus", "pt": "Acima", "tr": "Üzerinde", "vi": "Trên"},
+  "Accumulating": {"ko": "매집 중", "en": "Accumulating", "ja": "蓄積中", "es": "Acumulando", "de": "Akkumulierend", "fr": "En accumulation", "pt": "Acumulando", "tr": "Biriktiriyor", "vi": "Đang tích lũy"},
+  "Accumulation (Safe)": {"ko": "매집 구간 (안전)", "en": "Accumulation (Safe)", "ja": "蓄積ゾーン(安全)", "es": "Acumulación (Seguro)", "de": "Akkumulation (Sicher)", "fr": "Accumulation (Sûr)", "pt": "Acumulação (Seguro)", "tr": "Biriktirme (Güvenli)", "vi": "Tích lũy (An toàn)"},
+  "Alt Season Risk": {"ko": "알트시즌 리스크", "en": "Alt Season Risk", "ja": "アルトシーズンリスク", "es": "Riesgo Temporada Alt", "de": "Alt-Season-Risiko", "fr": "Risque Saison Alt", "pt": "Risco Temporada Alt", "tr": "Alt Sezon Riski", "vi": "Rủi ro Mùa Alt"},
+  "Alt Season": {"ko": "알트시즌", "en": "Alt Season", "ja": "アルトシーズン", "es": "Temporada Alt", "de": "Alt Season", "fr": "Saison Alt", "pt": "Temporada Alt", "tr": "Alt Sezon", "vi": "Mùa Alt"},
+  "BTC Season (Safe)": {"ko": "BTC 시즌 (안전)", "en": "BTC Season (Safe)", "ja": "BTCシーズン(安全)", "es": "Temporada BTC (Seguro)", "de": "BTC-Season (Sicher)", "fr": "Saison BTC (Sûr)", "pt": "Temporada BTC (Seguro)", "tr": "BTC Sezonu (Güvenli)", "vi": "Mùa BTC (An toàn)"},
+  "BTC Season": {"ko": "BTC 시즌", "en": "BTC Season", "ja": "BTCシーズン", "es": "Temporada BTC", "de": "BTC-Season", "fr": "Saison BTC", "pt": "Temporada BTC", "tr": "BTC Sezonu", "vi": "Mùa BTC"},
+  "Backwardation (Safe)": {"ko": "백워데이션 (안전)", "en": "Backwardation (Safe)", "ja": "バックワーデーション(安全)", "es": "Backwardation (Seguro)", "de": "Backwardation (Sicher)", "fr": "Backwardation (Sûr)", "pt": "Backwardation (Seguro)", "tr": "Backwardation (Güvenli)", "vi": "Backwardation (An toàn)"},
+  "Below Realized (Safe)": {"ko": "실현가 이하 (안전)", "en": "Below Realized (Safe)", "ja": "実現価格以下(安全)", "es": "Bajo Realizado (Seguro)", "de": "Unter Realized (Sicher)", "fr": "Sous le Réalisé (Sûr)", "pt": "Abaixo do Realizado (Seguro)", "tr": "Gerçekleşenin Altında (Güvenli)", "vi": "Dưới Thực hiện (An toàn)"},
+  "Below Realized": {"ko": "실현가 이하", "en": "Below Realized", "ja": "実現価格以下", "es": "Bajo Realizado", "de": "Unter Realized", "fr": "Sous le Réalisé", "pt": "Abaixo do Realizado", "tr": "Gerçekleşenin Altında", "vi": "Dưới Thực hiện"},
+  "Borderline": {"ko": "경계선", "en": "Borderline", "ja": "境界線", "es": "Límite", "de": "Grenzwertig", "fr": "Limite", "pt": "Limítrofe", "tr": "Sınırda", "vi": "Ranh giới"},
+  "Buyer-led (Caution)": {"ko": "매수 주도 (주의)", "en": "Buyer-led (Caution)", "ja": "買い主導(注意)", "es": "Liderado por Compra (Precaución)", "de": "Käufergetrieben (Vorsicht)", "fr": "Mené par l'Achat (Prudence)", "pt": "Liderado por Compra (Cautela)", "tr": "Alım Öncülüğünde (Dikkat)", "vi": "Do Mua dẫn dắt (Thận trọng)"},
+  "Capitulation": {"ko": "항복", "en": "Capitulation", "ja": "キャピチュレーション", "es": "Capitulación", "de": "Kapitulation", "fr": "Capitulation", "pt": "Capitulação", "tr": "Kapitülasyon", "vi": "Đầu hàng"},
+  "Caution": {"ko": "주의", "en": "Caution", "ja": "注意", "es": "Precaución", "de": "Vorsicht", "fr": "Prudence", "pt": "Cautela", "tr": "Dikkat", "vi": "Thận trọng"},
+  "Core Bottom Zone": {"ko": "핵심 저점 구간", "en": "Core Bottom Zone", "ja": "核心底値ゾーン", "es": "Zona Central de Suelo", "de": "Kern-Tiefzone", "fr": "Zone de Creux Central", "pt": "Zona Central de Fundo", "tr": "Çekirdek Dip Bölgesi", "vi": "Vùng Đáy Cốt lõi"},
+  "Correction": {"ko": "조정", "en": "Correction", "ja": "調整", "es": "Corrección", "de": "Korrektur", "fr": "Correction", "pt": "Correção", "tr": "Düzeltme", "vi": "Điều chỉnh"},
+  "Deep Correction": {"ko": "깊은 조정", "en": "Deep Correction", "ja": "深い調整", "es": "Corrección Profunda", "de": "Tiefe Korrektur", "fr": "Correction Profonde", "pt": "Correção Profunda", "tr": "Derin Düzeltme", "vi": "Điều chỉnh Sâu"},
+  "Distribution": {"ko": "분산", "en": "Distribution", "ja": "分配", "es": "Distribución", "de": "Distribution", "fr": "Distribution", "pt": "Distribuição", "tr": "Dağıtım", "vi": "Phân phối"},
+  "Elevated": {"ko": "상승", "en": "Elevated", "ja": "上昇", "es": "Elevado", "de": "Erhöht", "fr": "Élevé", "pt": "Elevado", "tr": "Yükselmiş", "vi": "Tăng cao"},
+  "Euphoria": {"ko": "도취", "en": "Euphoria", "ja": "陶酔", "es": "Euforia", "de": "Euphorie", "fr": "Euphorie", "pt": "Euforia", "tr": "Öfori", "vi": "Hưng phấn"},
+  "FOMO Buying": {"ko": "FOMO 매수", "en": "FOMO Buying", "ja": "FOMO買い", "es": "Compra por FOMO", "de": "FOMO-Kauf", "fr": "Achat FOMO", "pt": "Compra por FOMO", "tr": "FOMO Alımı", "vi": "Mua theo FOMO"},
+  "Far (Safe)": {"ko": "멀음 (안전)", "en": "Far (Safe)", "ja": "遠い(安全)", "es": "Lejos (Seguro)", "de": "Weit (Sicher)", "fr": "Loin (Sûr)", "pt": "Longe (Seguro)", "tr": "Uzak (Güvenli)", "vi": "Xa (An toàn)"},
+  "Far from ATH (Safe)": {"ko": "ATH와 멀음 (안전)", "en": "Far from ATH (Safe)", "ja": "ATHから遠い(安全)", "es": "Lejos del ATH (Seguro)", "de": "Weit vom ATH (Sicher)", "fr": "Loin de l'ATH (Sûr)", "pt": "Longe do ATH (Seguro)", "tr": "ATH'den Uzak (Güvenli)", "vi": "Xa ATH (An toàn)"},
+  "Fear (Safe)": {"ko": "공포 (안전)", "en": "Fear (Safe)", "ja": "恐怖(安全)", "es": "Miedo (Seguro)", "de": "Angst (Sicher)", "fr": "Peur (Sûr)", "pt": "Medo (Seguro)", "tr": "Korku (Güvenli)", "vi": "Sợ hãi (An toàn)"},
+  "Fear": {"ko": "공포", "en": "Fear", "ja": "恐怖", "es": "Miedo", "de": "Angst", "fr": "Peur", "pt": "Medo", "tr": "Korku", "vi": "Sợ hãi"},
+  "General": {"ko": "일반", "en": "General", "ja": "一般", "es": "General", "de": "Allgemein", "fr": "Général", "pt": "Geral", "tr": "Genel", "vi": "Chung"},
+  "High": {"ko": "높음", "en": "High", "ja": "高い", "es": "Alto", "de": "Hoch", "fr": "Élevé", "pt": "Alto", "tr": "Yüksek", "vi": "Cao"},
+  "Highly Correlated": {"ko": "높은 상관관계", "en": "Highly Correlated", "ja": "高い相関", "es": "Muy Correlacionado", "de": "Stark Korreliert", "fr": "Fortement Corrélé", "pt": "Altamente Correlacionado", "tr": "Yüksek Korelasyonlu", "vi": "Tương quan Cao"},
+  "Hope Bottom": {"ko": "희망 저점", "en": "Hope Bottom", "ja": "希望底値", "es": "Esperanza de Suelo", "de": "Hoffnung Boden", "fr": "Creux d'Espoir", "pt": "Fundo de Esperança", "tr": "Umut Dibi", "vi": "Đáy Hy vọng"},
+  "Hope": {"ko": "희망", "en": "Hope", "ja": "希望", "es": "Esperanza", "de": "Hoffnung", "fr": "Espoir", "pt": "Esperança", "tr": "Umut", "vi": "Hy vọng"},
+  "Ideal": {"ko": "이상적", "en": "Ideal", "ja": "理想的", "es": "Ideal", "de": "Ideal", "fr": "Idéal", "pt": "Ideal", "tr": "İdeal", "vi": "Lý tưởng"},
+  "Independent": {"ko": "독립적", "en": "Independent", "ja": "独立的", "es": "Independiente", "de": "Unabhängig", "fr": "Indépendant", "pt": "Independente", "tr": "Bağımsız", "vi": "Độc lập"},
+  "Institutional FOMO": {"ko": "기관 FOMO", "en": "Institutional FOMO", "ja": "機関FOMO", "es": "FOMO Institucional", "de": "Institutionelles FOMO", "fr": "FOMO Institutionnel", "pt": "FOMO Institucional", "tr": "Kurumsal FOMO", "vi": "FOMO Tổ chức"},
+  "Long Overload": {"ko": "롱 과부하", "en": "Long Overload", "ja": "ロング過負荷", "es": "Sobrecarga de Largos", "de": "Long-Überlastung", "fr": "Surcharge de Longs", "pt": "Sobrecarga de Longs", "tr": "Long Aşırı Yük", "vi": "Quá tải Long"},
+  "Loss (Safe)": {"ko": "손실 (안전)", "en": "Loss (Safe)", "ja": "損失(安全)", "es": "Pérdida (Seguro)", "de": "Verlust (Sicher)", "fr": "Perte (Sûr)", "pt": "Prejuízo (Seguro)", "tr": "Zarar (Güvenli)", "vi": "Lỗ (An toàn)"},
+  "Low (Safe)": {"ko": "낮음 (안전)", "en": "Low (Safe)", "ja": "低い(安全)", "es": "Bajo (Seguro)", "de": "Niedrig (Sicher)", "fr": "Bas (Sûr)", "pt": "Baixo (Seguro)", "tr": "Düşük (Güvenli)", "vi": "Thấp (An toàn)"},
+  "Mid Range": {"ko": "중간 구간", "en": "Mid Range", "ja": "中間レンジ", "es": "Rango Medio", "de": "Mittlerer Bereich", "fr": "Fourchette Moyenne", "pt": "Faixa Média", "tr": "Orta Aralık", "vi": "Khoảng Giữa"},
+  "Mild Buying": {"ko": "약한 매수", "en": "Mild Buying", "ja": "弱い買い", "es": "Compra Leve", "de": "Leichter Kauf", "fr": "Achat Léger", "pt": "Compra Leve", "tr": "Hafif Alım", "vi": "Mua Nhẹ"},
+  "Mild Premium": {"ko": "약한 프리미엄", "en": "Mild Premium", "ja": "弱いプレミアム", "es": "Prima Leve", "de": "Leichte Prämie", "fr": "Prime Légère", "pt": "Prêmio Leve", "tr": "Hafif Prim", "vi": "Phần bù Nhẹ"},
+  "Mild Profit": {"ko": "약한 수익", "en": "Mild Profit", "ja": "弱い利益", "es": "Ganancia Leve", "de": "Leichter Gewinn", "fr": "Profit Léger", "pt": "Lucro Leve", "tr": "Hafif Kar", "vi": "Lãi Nhẹ"},
+  "Mild Selling": {"ko": "약한 매도", "en": "Mild Selling", "ja": "弱い売り", "es": "Venta Leve", "de": "Leichter Verkauf", "fr": "Vente Légère", "pt": "Venda Leve", "tr": "Hafif Satış", "vi": "Bán Nhẹ"},
+  "Mild": {"ko": "약함", "en": "Mild", "ja": "弱い", "es": "Leve", "de": "Leicht", "fr": "Léger", "pt": "Leve", "tr": "Hafif", "vi": "Nhẹ"},
+  "Moderate": {"ko": "보통", "en": "Moderate", "ja": "中程度", "es": "Moderado", "de": "Moderat", "fr": "Modéré", "pt": "Moderado", "tr": "Orta", "vi": "Vừa phải"},
+  "Near ATH": {"ko": "ATH 근접", "en": "Near ATH", "ja": "ATH近接", "es": "Cerca del ATH", "de": "Nahe ATH", "fr": "Proche de l'ATH", "pt": "Perto do ATH", "tr": "ATH'ye Yakın", "vi": "Gần ATH"},
+  "Near Bottom": {"ko": "저점 근접", "en": "Near Bottom", "ja": "底値近接", "es": "Cerca del Suelo", "de": "Nahe Boden", "fr": "Proche du Creux", "pt": "Perto do Fundo", "tr": "Dibe Yakın", "vi": "Gần Đáy"},
+  "Neutral": {"ko": "중립", "en": "Neutral", "ja": "中立", "es": "Neutral", "de": "Neutral", "fr": "Neutre", "pt": "Neutro", "tr": "Nötr", "vi": "Trung lập"},
+  "Normal": {"ko": "정상", "en": "Normal", "ja": "正常", "es": "Normal", "de": "Normal", "fr": "Normal", "pt": "Normal", "tr": "Normal", "vi": "Bình thường"},
+  "Optimism": {"ko": "낙관", "en": "Optimism", "ja": "楽観", "es": "Optimismo", "de": "Optimismus", "fr": "Optimisme", "pt": "Otimismo", "tr": "İyimserlik", "vi": "Lạc quan"},
+  "Out of Range": {"ko": "범위 밖", "en": "Out of Range", "ja": "範囲外", "es": "Fuera de Rango", "de": "Außerhalb des Bereichs", "fr": "Hors Fourchette", "pt": "Fora da Faixa", "tr": "Aralık Dışı", "vi": "Ngoài Khoảng"},
+  "Overbought (Top)": {"ko": "과매수 (고점)", "en": "Overbought (Top)", "ja": "買われすぎ(天井)", "es": "Sobrecompra (Techo)", "de": "Überkauft (Top)", "fr": "Suracheté (Sommet)", "pt": "Sobrecompra (Topo)", "tr": "Aşırı Alım (Tepe)", "vi": "Quá mua (Đỉnh)"},
+  "Overbought": {"ko": "과매수", "en": "Overbought", "ja": "買われすぎ", "es": "Sobrecompra", "de": "Überkauft", "fr": "Suracheté", "pt": "Sobrecompra", "tr": "Aşırı Alım", "vi": "Quá mua"},
+  "Overheated": {"ko": "과열", "en": "Overheated", "ja": "過熱", "es": "Sobrecalentado", "de": "Überhitzt", "fr": "En Surchauffe", "pt": "Sobreaquecido", "tr": "Aşırı Isınmış", "vi": "Quá nóng"},
+  "Oversold (Bottom)": {"ko": "과매도 (저점)", "en": "Oversold (Bottom)", "ja": "売られすぎ(底値)", "es": "Sobreventa (Suelo)", "de": "Überverkauft (Boden)", "fr": "Survendu (Creux)", "pt": "Sobrevenda (Fundo)", "tr": "Aşırı Satım (Dip)", "vi": "Quá bán (Đáy)"},
+  "Oversold": {"ko": "과매도", "en": "Oversold", "ja": "売られすぎ", "es": "Sobreventa", "de": "Überverkauft", "fr": "Survendu", "pt": "Sobrevenda", "tr": "Aşırı Satım", "vi": "Quá bán"},
+  "Overvalued": {"ko": "고평가", "en": "Overvalued", "ja": "過大評価", "es": "Sobrevalorado", "de": "Überbewertet", "fr": "Survalorisé", "pt": "Sobrevalorizado", "tr": "Aşırı Değerli", "vi": "Định giá cao"},
+  "Past Peak": {"ko": "고점 지남", "en": "Past Peak", "ja": "ピーク超過", "es": "Pasado el Pico", "de": "Über dem Höhepunkt", "fr": "Sommet Dépassé", "pt": "Após o Pico", "tr": "Zirveyi Geçmiş", "vi": "Qua Đỉnh"},
+  "Peak Zone": {"ko": "고점 구간", "en": "Peak Zone", "ja": "ピークゾーン", "es": "Zona de Pico", "de": "Höchststand-Zone", "fr": "Zone de Sommet", "pt": "Zona de Pico", "tr": "Zirve Bölgesi", "vi": "Vùng Đỉnh"},
+  "Record Accumulation": {"ko": "역대급 매집", "en": "Record Accumulation", "ja": "記録的な蓄積", "es": "Acumulación Récord", "de": "Rekord-Akkumulation", "fr": "Accumulation Record", "pt": "Acumulação Recorde", "tr": "Rekor Biriktirme", "vi": "Tích lũy Kỷ lục"},
+  "Rising/Bottom": {"ko": "상승/저점", "en": "Rising/Bottom", "ja": "上昇/底値", "es": "Subiendo/Suelo", "de": "Steigend/Boden", "fr": "En Hausse/Creux", "pt": "Subindo/Fundo", "tr": "Yükseliyor/Dip", "vi": "Tăng/Đáy"},
+  "Seller-led (Safe)": {"ko": "매도 주도 (안전)", "en": "Seller-led (Safe)", "ja": "売り主導(安全)", "es": "Liderado por Venta (Seguro)", "de": "Verkäufergetrieben (Sicher)", "fr": "Mené par la Vente (Sûr)", "pt": "Liderado por Venda (Seguro)", "tr": "Satış Öncülüğünde (Güvenli)", "vi": "Do Bán dẫn dắt (An toàn)"},
+  "Sideline (Safe)": {"ko": "관망 (안전)", "en": "Sideline (Safe)", "ja": "様子見(安全)", "es": "Al Margen (Seguro)", "de": "Abseits (Sicher)", "fr": "En Retrait (Sûr)", "pt": "À Margem (Seguro)", "tr": "Kenarda (Güvenli)", "vi": "Đứng ngoài (An toàn)"},
+  "Strong": {"ko": "강함", "en": "Strong", "ja": "強い", "es": "Fuerte", "de": "Stark", "fr": "Fort", "pt": "Forte", "tr": "Güçlü", "vi": "Mạnh"},
+  "Target Zone": {"ko": "목표 구간", "en": "Target Zone", "ja": "目標ゾーン", "es": "Zona Objetivo", "de": "Zielzone", "fr": "Zone Cible", "pt": "Zona Alvo", "tr": "Hedef Bölge", "vi": "Vùng Mục tiêu"},
+  "Transitioning": {"ko": "전환 중", "en": "Transitioning", "ja": "転換中", "es": "Transición", "de": "Übergang", "fr": "En Transition", "pt": "Em Transição", "tr": "Geçiş Halinde", "vi": "Đang chuyển tiếp"},
+  "Volume Dry-up": {"ko": "거래량 고갈", "en": "Volume Dry-up", "ja": "出来高枯渇", "es": "Volumen Agotado", "de": "Volumen versiegt", "fr": "Volume Asséché", "pt": "Volume Esgotado", "tr": "Hacim Kuruması", "vi": "Cạn Khối lượng"},
+  "Volume Spike": {"ko": "거래량 급증", "en": "Volume Spike", "ja": "出来高急増", "es": "Pico de Volumen", "de": "Volumenspike", "fr": "Pic de Volume", "pt": "Pico de Volume", "tr": "Hacim Sıçraması", "vi": "Đột biến Khối lượng"},
+  "Weak": {"ko": "약함", "en": "Weak", "ja": "弱い", "es": "Débil", "de": "Schwach", "fr": "Faible", "pt": "Fraco", "tr": "Zayıf", "vi": "Yếu"},
 };
 const TARGET_MAP = {
-  "12~24mo before = bottom zone": {"ko": "반감기 12~24개월 전 = 저점 구간", "en": "12~24mo before = bottom zone", "ja": "半減期12〜24ヶ月前 = 底値ゾーン", "es": "12-24 meses antes = zona de suelo", "de": "12-24 Monate vorher = Tiefzone"},
-  "55~63% BTC season": {"ko": "55~63% BTC 시즌", "en": "55~63% BTC season", "ja": "55~63% BTCシーズン", "es": "55-63% temporada BTC", "de": "55-63% BTC-Season"},
-  "Alt season ≤ 50%": {"ko": "알트시즌 ≤ 50%", "en": "Alt season ≤ 50%", "ja": "アルトシーズン ≤ 50%", "es": "Temporada alt ≤ 50%", "de": "Alt-Season ≤ 50%"},
-  "Backwardation = short squeeze signal": {"ko": "백워데이션 = 숏스퀴즈 신호", "en": "Backwardation = short squeeze signal", "ja": "バックワーデーション = ショートスクイーズシグナル", "es": "Backwardation = señal de short squeeze", "de": "Backwardation = Short-Squeeze-Signal"},
-  "Below estimated realized price": {"ko": "추정 실현가 이하", "en": "Below estimated realized price", "ja": "推定実現価格以下", "es": "Bajo el precio realizado estimado", "de": "Unter geschätztem Realized Price"},
-  "Bottom zone ≤ 0": {"ko": "저점 구간 ≤ 0", "en": "Bottom zone ≤ 0", "ja": "底値ゾーン ≤ 0", "es": "Zona de suelo ≤ 0", "de": "Tiefzone ≤ 0"},
-  "Buy ratio ≥ 65% + volume spike + green candle (last 15m)": {"ko": "매수 비율 ≥ 65% + 거래량 급증 + 양봉 (최근 15분)", "en": "Buy ratio ≥ 65% + volume spike + green candle (last 15m)", "ja": "買い比率 ≥ 65% + 出来高急増 + 陽線(直近15分)", "es": "Ratio de compra ≥ 65% + pico de volumen + vela verde (últimos 15m)", "de": "Kaufquote ≥ 65% + Volumenspike + grüne Kerze (letzte 15m)"},
-  "Capitulation ≤0.95": {"ko": "항복 ≤0.95", "en": "Capitulation ≤0.95", "ja": "キャピチュレーション ≤0.95", "es": "Capitulación ≤0.95", "de": "Kapitulation ≤0,95"},
-  "Fear zone ≤ 0%": {"ko": "공포 구간 ≤ 0%", "en": "Fear zone ≤ 0%", "ja": "恐怖ゾーン ≤ 0%", "es": "Zona de miedo ≤ 0%", "de": "Angstzone ≤ 0%"},
-  "High correlation = follows BTC weakness": {"ko": "높은 상관관계 = BTC 약세 추종", "en": "High correlation = follows BTC weakness", "ja": "高い相関 = BTCの弱さに追従", "es": "Alta correlación = sigue la debilidad de BTC", "de": "Hohe Korrelation = folgt BTC-Schwäche"},
-  "High dominance = strong network": {"ko": "높은 도미넌스 = 강한 네트워크", "en": "High dominance = strong network", "ja": "高いドミナンス = 強いネットワーク", "es": "Alta dominancia = red fuerte", "de": "Hohe Dominanz = starkes Netzwerk"},
-  "Low correlation = independent strength": {"ko": "낮은 상관관계 = 독자적 강세", "en": "Low correlation = independent strength", "ja": "低い相関 = 独自の強さ", "es": "Baja correlación = fortaleza independiente", "de": "Niedrige Korrelation = unabhängige Stärke"},
-  "Overbought ≥ 70": {"ko": "과매수 ≥ 70", "en": "Overbought ≥ 70", "ja": "買われすぎ ≥ 70", "es": "Sobrecompra ≥ 70", "de": "Überkauft ≥ 70"},
-  "Oversold ≤ 30": {"ko": "과매도 ≤ 30", "en": "Oversold ≤ 30", "ja": "売られすぎ ≤ 30", "es": "Sobreventa ≤ 30", "de": "Überverkauft ≤ 30"},
-  "Positive = institutional re-entry": {"ko": "양수 = 기관 재진입", "en": "Positive = institutional re-entry", "ja": "プラス = 機関再参入", "es": "Positivo = reingreso institucional", "de": "Positiv = institutioneller Wiedereinstieg"},
-  "Recovery cross (30MA>60MA)": {"ko": "회복 전환 (30MA>60MA)", "en": "Recovery cross (30MA>60MA)", "ja": "回復転換 (30MA>60MA)", "es": "Cruce de recuperación (30MA>60MA)", "de": "Erholungscross (30MA>60MA)"},
-  "SHORT optimal: 12–18 months after halving": {"ko": "숏 최적: 반감기 후 12~18개월", "en": "SHORT optimal: 12–18 months after halving", "ja": "ショート最適: 半減期後12〜18ヶ月", "es": "Óptimo CORTO: 12-18 meses tras el halving", "de": "SHORT optimal: 12-18 Monate nach Halving"},
-  "SHORT zone > -20%": {"ko": "숏 구간 > -20%", "en": "SHORT zone > -20%", "ja": "ショートゾーン > -20%", "es": "Zona CORTO > -20%", "de": "SHORT-Zone > -20%"},
-  "SHORT zone ≤ 50%": {"ko": "숏 구간 ≤ 50%", "en": "SHORT zone ≤ 50%", "ja": "ショートゾーン ≤ 50%", "es": "Zona CORTO ≤ 50%", "de": "SHORT-Zone ≤ 50%"},
-  "SHORT zone ≤ 70%": {"ko": "숏 구간 ≤ 70%", "en": "SHORT zone ≤ 70%", "ja": "ショートゾーン ≤ 70%", "es": "Zona CORTO ≤ 70%", "de": "SHORT-Zone ≤ 70%"},
-  "SHORT zone ≥ 0.10%": {"ko": "숏 구간 ≥ 0.10%", "en": "SHORT zone ≥ 0.10%", "ja": "ショートゾーン ≥ 0.10%", "es": "Zona CORTO ≥ 0.10%", "de": "SHORT-Zone ≥ 0,10%"},
-  "SHORT zone ≥ 0.15%": {"ko": "숏 구간 ≥ 0.15%", "en": "SHORT zone ≥ 0.15%", "ja": "ショートゾーン ≥ 0.15%", "es": "Zona CORTO ≥ 0.15%", "de": "SHORT-Zone ≥ 0,15%"},
-  "SHORT zone ≥ 1.04": {"ko": "숏 구간 ≥ 1.04", "en": "SHORT zone ≥ 1.04", "ja": "ショートゾーン ≥ 1.04", "es": "Zona CORTO ≥ 1.04", "de": "SHORT-Zone ≥ 1,04"},
-  "SHORT zone ≥ 20% above realized": {"ko": "숏 구간: 실현가 대비 20% 이상", "en": "SHORT zone ≥ 20% above realized", "ja": "ショートゾーン: 実現価格比20%以上", "es": "Zona CORTO: 20% o más sobre el realizado", "de": "SHORT-Zone: 20%+ über Realized"},
-  "SHORT zone ≥ 3.5": {"ko": "숏 구간 ≥ 3.5", "en": "SHORT zone ≥ 3.5", "ja": "ショートゾーン ≥ 3.5", "es": "Zona CORTO ≥ 3.5", "de": "SHORT-Zone ≥ 3,5"},
-  "SHORT zone ≥ 60%": {"ko": "숏 구간 ≥ 60%", "en": "SHORT zone ≥ 60%", "ja": "ショートゾーン ≥ 60%", "es": "Zona CORTO ≥ 60%", "de": "SHORT-Zone ≥ 60%"},
-  "SHORT zone: within -15% of ATH": {"ko": "숏 구간: ATH 대비 -15% 이내", "en": "SHORT zone: within -15% of ATH", "ja": "ショートゾーン: ATH比-15%以内", "es": "Zona CORTO: dentro de -15% del ATH", "de": "SHORT-Zone: innerhalb -15% vom ATH"},
-  "Sell ratio ≥ 58% + volume spike + red candle (last 15m)": {"ko": "매도 비율 ≥ 58% + 거래량 급증 + 음봉 (최근 15분)", "en": "Sell ratio ≥ 58% + volume spike + red candle (last 15m)", "ja": "売り比率 ≥ 58% + 出来高急増 + 陰線(直近15分)", "es": "Ratio de venta ≥ 58% + pico de volumen + vela roja (últimos 15m)", "de": "Verkaufsquote ≥ 58% + Volumenspike + rote Kerze (letzte 15m)"},
-  "Volume spike near highs = distribution (selling) signal": {"ko": "고점 근처 거래량 급증 = 분산(매도) 신호", "en": "Volume spike near highs = distribution (selling) signal", "ja": "高値近くの出来高急増 = 分配(売り)シグナル", "es": "Pico de volumen cerca de máximos = señal de distribución (venta)", "de": "Volumenspike nahe Hochs = Distributionssignal (Verkauf)"},
-  "Volume spike near lows = capitulation-to-rebound signal": {"ko": "저점 근처 거래량 급증 = 항복 후 반등 신호", "en": "Volume spike near lows = capitulation-to-rebound signal", "ja": "安値近くの出来高急増 = キャピチュレーション後反発シグナル", "es": "Pico de volumen cerca de mínimos = señal de capitulación a rebote", "de": "Volumenspike nahe Tiefs = Kapitulations-zu-Rebound-Signal"},
-  "≤5% or below": {"ko": "≤5% 이하", "en": "≤5% or below", "ja": "≤5%以下", "es": "≤5% o menos", "de": "≤5% oder darunter"},
-  "≥70% drawdown from ATH": {"ko": "ATH 대비 ≥70% 하락", "en": "≥70% drawdown from ATH", "ja": "ATH比≥70%下落", "es": "≥70% de caída desde el ATH", "de": "≥70% Drawdown vom ATH"},
-  "≥75% whale accumulation": {"ko": "≥75% 고래 매집", "en": "≥75% whale accumulation", "ja": "≥75%クジラ蓄積", "es": "≥75% acumulación de ballenas", "de": "≥75% Wal-Akkumulation"},
+  "12~24mo before = bottom zone": {"ko": "반감기 12~24개월 전 = 저점 구간", "en": "12~24mo before = bottom zone", "ja": "半減期12〜24ヶ月前 = 底値ゾーン", "es": "12-24 meses antes = zona de suelo", "de": "12-24 Monate vorher = Tiefzone", "fr": "12-24 mois avant = zone de creux", "pt": "12-24 meses antes = zona de fundo", "tr": "Yarılanmadan 12-24 ay önce = dip bölgesi", "vi": "12~24 tháng trước = vùng đáy"},
+  "55~63% BTC season": {"ko": "55~63% BTC 시즌", "en": "55~63% BTC season", "ja": "55~63% BTCシーズン", "es": "55-63% temporada BTC", "de": "55-63% BTC-Season", "fr": "55-63% saison BTC", "pt": "55-63% temporada BTC", "tr": "55-63% BTC sezonu", "vi": "55~63% mùa BTC"},
+  "Alt season ≤ 50%": {"ko": "알트시즌 ≤ 50%", "en": "Alt season ≤ 50%", "ja": "アルトシーズン ≤ 50%", "es": "Temporada alt ≤ 50%", "de": "Alt-Season ≤ 50%", "fr": "Saison alt ≤ 50%", "pt": "Temporada alt ≤ 50%", "tr": "Alt sezon ≤ 50%", "vi": "Mùa alt ≤ 50%"},
+  "Backwardation = short squeeze signal": {"ko": "백워데이션 = 숏스퀴즈 신호", "en": "Backwardation = short squeeze signal", "ja": "バックワーデーション = ショートスクイーズシグナル", "es": "Backwardation = señal de short squeeze", "de": "Backwardation = Short-Squeeze-Signal", "fr": "Backwardation = signal de short squeeze", "pt": "Backwardation = sinal de short squeeze", "tr": "Backwardation = short squeeze sinyali", "vi": "Backwardation = tín hiệu short squeeze"},
+  "Below estimated realized price": {"ko": "추정 실현가 이하", "en": "Below estimated realized price", "ja": "推定実現価格以下", "es": "Bajo el precio realizado estimado", "de": "Unter geschätztem Realized Price", "fr": "Sous le prix réalisé estimé", "pt": "Abaixo do preço realizado estimado", "tr": "Tahmini gerçekleşen fiyatın altında", "vi": "Dưới giá thực hiện ước tính"},
+  "Bottom zone ≤ 0": {"ko": "저점 구간 ≤ 0", "en": "Bottom zone ≤ 0", "ja": "底値ゾーン ≤ 0", "es": "Zona de suelo ≤ 0", "de": "Tiefzone ≤ 0", "fr": "Zone de creux ≤ 0", "pt": "Zona de fundo ≤ 0", "tr": "Dip bölgesi ≤ 0", "vi": "Vùng đáy ≤ 0"},
+  "Buy ratio ≥ 65% + volume spike + green candle (last 15m)": {"ko": "매수 비율 ≥ 65% + 거래량 급증 + 양봉 (최근 15분)", "en": "Buy ratio ≥ 65% + volume spike + green candle (last 15m)", "ja": "買い比率 ≥ 65% + 出来高急増 + 陽線(直近15分)", "es": "Ratio de compra ≥ 65% + pico de volumen + vela verde (últimos 15m)", "de": "Kaufquote ≥ 65% + Volumenspike + grüne Kerze (letzte 15m)", "fr": "Ratio d'achat ≥ 65% + pic de volume + bougie verte (15 dernières min)", "pt": "Proporção de compra ≥ 65% + pico de volume + vela verde (últimos 15m)", "tr": "Alım oranı ≥ 65% + hacim sıçraması + yeşil mum (son 15d)", "vi": "Tỷ lệ mua ≥ 65% + đột biến khối lượng + nến xanh (15p qua)"},
+  "Capitulation ≤0.95": {"ko": "항복 ≤0.95", "en": "Capitulation ≤0.95", "ja": "キャピチュレーション ≤0.95", "es": "Capitulación ≤0.95", "de": "Kapitulation ≤0,95", "fr": "Capitulation ≤0,95", "pt": "Capitulação ≤0,95", "tr": "Kapitülasyon ≤0,95", "vi": "Đầu hàng ≤0,95"},
+  "Fear zone ≤ 0%": {"ko": "공포 구간 ≤ 0%", "en": "Fear zone ≤ 0%", "ja": "恐怖ゾーン ≤ 0%", "es": "Zona de miedo ≤ 0%", "de": "Angstzone ≤ 0%", "fr": "Zone de peur ≤ 0%", "pt": "Zona de medo ≤ 0%", "tr": "Korku bölgesi ≤ 0%", "vi": "Vùng sợ hãi ≤ 0%"},
+  "High correlation = follows BTC weakness": {"ko": "높은 상관관계 = BTC 약세 추종", "en": "High correlation = follows BTC weakness", "ja": "高い相関 = BTCの弱さに追従", "es": "Alta correlación = sigue la debilidad de BTC", "de": "Hohe Korrelation = folgt BTC-Schwäche", "fr": "Forte corrélation = suit la faiblesse du BTC", "pt": "Alta correlação = segue a fraqueza do BTC", "tr": "Yüksek korelasyon = BTC zayıflığını izler", "vi": "Tương quan cao = theo điểm yếu BTC"},
+  "High dominance = strong network": {"ko": "높은 도미넌스 = 강한 네트워크", "en": "High dominance = strong network", "ja": "高いドミナンス = 強いネットワーク", "es": "Alta dominancia = red fuerte", "de": "Hohe Dominanz = starkes Netzwerk", "fr": "Forte dominance = réseau solide", "pt": "Alta dominância = rede forte", "tr": "Yüksek dominans = güçlü ağ", "vi": "Thống trị cao = mạng mạnh"},
+  "Low correlation = independent strength": {"ko": "낮은 상관관계 = 독자적 강세", "en": "Low correlation = independent strength", "ja": "低い相関 = 独自の強さ", "es": "Baja correlación = fortaleza independiente", "de": "Niedrige Korrelation = unabhängige Stärke", "fr": "Faible corrélation = force indépendante", "pt": "Baixa correlação = força independente", "tr": "Düşük korelasyon = bağımsız güç", "vi": "Tương quan thấp = sức mạnh độc lập"},
+  "Overbought ≥ 70": {"ko": "과매수 ≥ 70", "en": "Overbought ≥ 70", "ja": "買われすぎ ≥ 70", "es": "Sobrecompra ≥ 70", "de": "Überkauft ≥ 70", "fr": "Suracheté ≥ 70", "pt": "Sobrecompra ≥ 70", "tr": "Aşırı alım ≥ 70", "vi": "Quá mua ≥ 70"},
+  "Oversold ≤ 30": {"ko": "과매도 ≤ 30", "en": "Oversold ≤ 30", "ja": "売られすぎ ≤ 30", "es": "Sobreventa ≤ 30", "de": "Überverkauft ≤ 30", "fr": "Survendu ≤ 30", "pt": "Sobrevenda ≤ 30", "tr": "Aşırı satım ≤ 30", "vi": "Quá bán ≤ 30"},
+  "Positive = institutional re-entry": {"ko": "양수 = 기관 재진입", "en": "Positive = institutional re-entry", "ja": "プラス = 機関再参入", "es": "Positivo = reingreso institucional", "de": "Positiv = institutioneller Wiedereinstieg", "fr": "Positif = réentrée institutionnelle", "pt": "Positivo = reentrada institucional", "tr": "Pozitif = kurumsal yeniden giriş", "vi": "Dương = tổ chức quay lại"},
+  "Recovery cross (30MA>60MA)": {"ko": "회복 전환 (30MA>60MA)", "en": "Recovery cross (30MA>60MA)", "ja": "回復転換 (30MA>60MA)", "es": "Cruce de recuperación (30MA>60MA)", "de": "Erholungscross (30MA>60MA)", "fr": "Croisement de reprise (30MM>60MM)", "pt": "Cruzamento de recuperação (30MA>60MA)", "tr": "Toparlanma kesişimi (30HO>60HO)", "vi": "Giao cắt phục hồi (30MA>60MA)"},
+  "SHORT optimal: 12–18 months after halving": {"ko": "숏 최적: 반감기 후 12~18개월", "en": "SHORT optimal: 12–18 months after halving", "ja": "ショート最適: 半減期後12〜18ヶ月", "es": "Óptimo CORTO: 12-18 meses tras el halving", "de": "SHORT optimal: 12-18 Monate nach Halving", "fr": "SHORT optimal : 12-18 mois après le halving", "pt": "SHORT ótimo: 12-18 meses após o halving", "tr": "SHORT optimal: yarılanmadan 12-18 ay sonra", "vi": "SHORT tối ưu: 12-18 tháng sau halving"},
+  "SHORT zone > -20%": {"ko": "숏 구간 > -20%", "en": "SHORT zone > -20%", "ja": "ショートゾーン > -20%", "es": "Zona CORTO > -20%", "de": "SHORT-Zone > -20%", "fr": "Zone SHORT > -20%", "pt": "Zona SHORT > -20%", "tr": "SHORT bölgesi > -20%", "vi": "Vùng SHORT > -20%"},
+  "SHORT zone ≤ 50%": {"ko": "숏 구간 ≤ 50%", "en": "SHORT zone ≤ 50%", "ja": "ショートゾーン ≤ 50%", "es": "Zona CORTO ≤ 50%", "de": "SHORT-Zone ≤ 50%", "fr": "Zone SHORT ≤ 50%", "pt": "Zona SHORT ≤ 50%", "tr": "SHORT bölgesi ≤ 50%", "vi": "Vùng SHORT ≤ 50%"},
+  "SHORT zone ≤ 70%": {"ko": "숏 구간 ≤ 70%", "en": "SHORT zone ≤ 70%", "ja": "ショートゾーン ≤ 70%", "es": "Zona CORTO ≤ 70%", "de": "SHORT-Zone ≤ 70%", "fr": "Zone SHORT ≤ 70%", "pt": "Zona SHORT ≤ 70%", "tr": "SHORT bölgesi ≤ 70%", "vi": "Vùng SHORT ≤ 70%"},
+  "SHORT zone ≥ 0.10%": {"ko": "숏 구간 ≥ 0.10%", "en": "SHORT zone ≥ 0.10%", "ja": "ショートゾーン ≥ 0.10%", "es": "Zona CORTO ≥ 0.10%", "de": "SHORT-Zone ≥ 0,10%", "fr": "Zone SHORT ≥ 0,10%", "pt": "Zona SHORT ≥ 0,10%", "tr": "SHORT bölgesi ≥ 0,10%", "vi": "Vùng SHORT ≥ 0,10%"},
+  "SHORT zone ≥ 0.15%": {"ko": "숏 구간 ≥ 0.15%", "en": "SHORT zone ≥ 0.15%", "ja": "ショートゾーン ≥ 0.15%", "es": "Zona CORTO ≥ 0.15%", "de": "SHORT-Zone ≥ 0,15%", "fr": "Zone SHORT ≥ 0,15%", "pt": "Zona SHORT ≥ 0,15%", "tr": "SHORT bölgesi ≥ 0,15%", "vi": "Vùng SHORT ≥ 0,15%"},
+  "SHORT zone ≥ 1.04": {"ko": "숏 구간 ≥ 1.04", "en": "SHORT zone ≥ 1.04", "ja": "ショートゾーン ≥ 1.04", "es": "Zona CORTO ≥ 1.04", "de": "SHORT-Zone ≥ 1,04", "fr": "Zone SHORT ≥ 1,04", "pt": "Zona SHORT ≥ 1,04", "tr": "SHORT bölgesi ≥ 1,04", "vi": "Vùng SHORT ≥ 1,04"},
+  "SHORT zone ≥ 20% above realized": {"ko": "숏 구간: 실현가 대비 20% 이상", "en": "SHORT zone ≥ 20% above realized", "ja": "ショートゾーン: 実現価格比20%以上", "es": "Zona CORTO: 20% o más sobre el realizado", "de": "SHORT-Zone: 20%+ über Realized", "fr": "Zone SHORT : 20%+ au-dessus du réalisé", "pt": "Zona SHORT: 20% ou mais acima do realizado", "tr": "SHORT bölgesi: gerçekleşenin %20+ üstünde", "vi": "Vùng SHORT: 20%+ trên thực hiện"},
+  "SHORT zone ≥ 3.5": {"ko": "숏 구간 ≥ 3.5", "en": "SHORT zone ≥ 3.5", "ja": "ショートゾーン ≥ 3.5", "es": "Zona CORTO ≥ 3.5", "de": "SHORT-Zone ≥ 3,5", "fr": "Zone SHORT ≥ 3,5", "pt": "Zona SHORT ≥ 3,5", "tr": "SHORT bölgesi ≥ 3,5", "vi": "Vùng SHORT ≥ 3,5"},
+  "SHORT zone ≥ 60%": {"ko": "숏 구간 ≥ 60%", "en": "SHORT zone ≥ 60%", "ja": "ショートゾーン ≥ 60%", "es": "Zona CORTO ≥ 60%", "de": "SHORT-Zone ≥ 60%", "fr": "Zone SHORT ≥ 60%", "pt": "Zona SHORT ≥ 60%", "tr": "SHORT bölgesi ≥ 60%", "vi": "Vùng SHORT ≥ 60%"},
+  "SHORT zone: within -15% of ATH": {"ko": "숏 구간: ATH 대비 -15% 이내", "en": "SHORT zone: within -15% of ATH", "ja": "ショートゾーン: ATH比-15%以内", "es": "Zona CORTO: dentro de -15% del ATH", "de": "SHORT-Zone: innerhalb -15% vom ATH", "fr": "Zone SHORT : à moins de -15% de l'ATH", "pt": "Zona SHORT: dentro de -15% do ATH", "tr": "SHORT bölgesi: ATH'nin -15% içinde", "vi": "Vùng SHORT: trong -15% của ATH"},
+  "Sell ratio ≥ 58% + volume spike + red candle (last 15m)": {"ko": "매도 비율 ≥ 58% + 거래량 급증 + 음봉 (최근 15분)", "en": "Sell ratio ≥ 58% + volume spike + red candle (last 15m)", "ja": "売り比率 ≥ 58% + 出来高急増 + 陰線(直近15分)", "es": "Ratio de venta ≥ 58% + pico de volumen + vela roja (últimos 15m)", "de": "Verkaufsquote ≥ 58% + Volumenspike + rote Kerze (letzte 15m)", "fr": "Ratio de vente ≥ 58% + pic de volume + bougie rouge (15 dernières min)", "pt": "Proporção de venda ≥ 58% + pico de volume + vela vermelha (últimos 15m)", "tr": "Satış oranı ≥ 58% + hacim sıçraması + kırmızı mum (son 15d)", "vi": "Tỷ lệ bán ≥ 58% + đột biến khối lượng + nến đỏ (15p qua)"},
+  "Volume spike near highs = distribution (selling) signal": {"ko": "고점 근처 거래량 급증 = 분산(매도) 신호", "en": "Volume spike near highs = distribution (selling) signal", "ja": "高値近くの出来高急増 = 分配(売り)シグナル", "es": "Pico de volumen cerca de máximos = señal de distribución (venta)", "de": "Volumenspike nahe Hochs = Distributionssignal (Verkauf)", "fr": "Pic de volume près des sommets = signal de distribution (vente)", "pt": "Pico de volume perto de máximas = sinal de distribuição (venda)", "tr": "Tepelere yakın hacim sıçraması = dağıtım (satış) sinyali", "vi": "Đột biến khối lượng gần đỉnh = tín hiệu phân phối (bán)"},
+  "Volume spike near lows = capitulation-to-rebound signal": {"ko": "저점 근처 거래량 급증 = 항복 후 반등 신호", "en": "Volume spike near lows = capitulation-to-rebound signal", "ja": "安値近くの出来高急増 = キャピチュレーション後反発シグナル", "es": "Pico de volumen cerca de mínimos = señal de capitulación a rebote", "de": "Volumenspike nahe Tiefs = Kapitulations-zu-Rebound-Signal", "fr": "Pic de volume près des creux = signal de capitulation vers rebond", "pt": "Pico de volume perto de mínimas = sinal de capitulação para recuperação", "tr": "Diplere yakın hacim sıçraması = kapitülasyondan toparlanmaya sinyali", "vi": "Đột biến khối lượng gần đáy = tín hiệu đầu hàng-hồi phục"},
+  "≤5% or below": {"ko": "≤5% 이하", "en": "≤5% or below", "ja": "≤5%以下", "es": "≤5% o menos", "de": "≤5% oder darunter", "fr": "≤5% ou moins", "pt": "≤5% ou menos", "tr": "≤5% veya altı", "vi": "≤5% hoặc thấp hơn"},
+  "≥70% drawdown from ATH": {"ko": "ATH 대비 ≥70% 하락", "en": "≥70% drawdown from ATH", "ja": "ATH比≥70%下落", "es": "≥70% de caída desde el ATH", "de": "≥70% Drawdown vom ATH", "fr": "≥70% de baisse depuis l'ATH", "pt": "≥70% de queda desde o ATH", "tr": "ATH'den ≥70% düşüş", "vi": "≥70% sụt giảm từ ATH"},
+  "≥75% whale accumulation": {"ko": "≥75% 고래 매집", "en": "≥75% whale accumulation", "ja": "≥75%クジラ蓄積", "es": "≥75% acumulación de ballenas", "de": "≥75% Wal-Akkumulation", "fr": "≥75% accumulation de baleines", "pt": "≥75% acumulação de baleias", "tr": "≥75% balina biriktirmesi", "vi": "≥75% cá voi tích lũy"},
 };
 function translateSignal(text) {
   const entry = SIGNAL_MAP[text];
@@ -162,9 +162,15 @@ function setUserAsset(val) {
   // 재렌더
   if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
 }
-const REALIZED_PRICE = {BTC:52400, ETH:2100, BNB:420, SOL:95, XRP:1.48, DOGE:0.09, ADA:0.32, TRX:0.30};
+// 실현가는 백엔드(api.php)가 계산해 ind.realized_price로 내려줌 (BTC=온체인 추정, 알트=200주 MA).
+// 아래 상수는 하위호환용 폴백일 뿐 실제 표시에는 ind.realized_price를 사용한다.
+const REALIZED_PRICE = {BTC:54000, ETH:2100, BNB:420, SOL:95, XRP:1.48, DOGE:0.09, ADA:0.32, TRX:0.30};
 
-const COINS = [
+// 서버가 주입한 자동 코인목록(window.COINS_AUTO)이 있으면 우선 사용.
+// 없으면(구버전 캐시 등) 아래 하드코딩 폴백을 쓴다.
+const COINS = (Array.isArray(window.COINS_AUTO) && window.COINS_AUTO.length >= 8)
+  ? window.COINS_AUTO
+  : [
   {id:'BTC', name:'Bitcoin',  sym:'BTCUSDT', color:'#F7931A'},
   {id:'ETH', name:'Ethereum', sym:'ETHUSDT', color:'#627EEA'},
   {id:'BNB', name:'BNB',      sym:'BNBUSDT', color:'#F3BA2F'},
@@ -173,17 +179,139 @@ const COINS = [
   {id:'DOGE',name:'Dogecoin', sym:'DOGEUSDT',color:'#C2A633'},
   {id:'ADA', name:'Cardano',  sym:'ADAUSDT', color:'#0033AD'},
   {id:'TRX', name:'TRON',     sym:'TRXUSDT', color:'#FF0013'},
+  {id:'AVAX',name:'Avalanche',sym:'AVAXUSDT',color:'#E84142'},
+  {id:'LINK',name:'Chainlink',sym:'LINKUSDT',color:'#2A5ADA'},
+  {id:'DOT', name:'Polkadot', sym:'DOTUSDT', color:'#E6007A'},
+  {id:'POL',  name:'Polygon',  sym:'POLUSDT',  color:'#8247E5'},
+  {id:'LTC', name:'Litecoin', sym:'LTCUSDT', color:'#BFBBBB'},
+  {id:'BCH', name:'Bitcoin Cash',sym:'BCHUSDT',color:'#0AC18E'},
+  {id:'NEAR',name:'NEAR',     sym:'NEARUSDT',color:'#00EC97'},
+  {id:'UNI', name:'Uniswap',  sym:'UNIUSDT', color:'#FF007A'},
+  {id:'APT', name:'Aptos',    sym:'APTUSDT', color:'#4CB4A4'},
+  {id:'ICP', name:'Internet Computer',sym:'ICPUSDT',color:'#3B00B9'},
+  {id:'ATOM',name:'Cosmos',   sym:'ATOMUSDT',color:'#2E3148'},
+  {id:'XLM', name:'Stellar',  sym:'XLMUSDT', color:'#14B6E7'},
+  {id:'ETC', name:'Ethereum Classic',sym:'ETCUSDT',color:'#328332'},
+  {id:'FIL', name:'Filecoin', sym:'FILUSDT', color:'#0090FF'},
+  {id:'HBAR',name:'Hedera',   sym:'HBARUSDT',color:'#8A94A6'},
+  {id:'ARB', name:'Arbitrum', sym:'ARBUSDT', color:'#28A0F0'},
+  {id:'OP',  name:'Optimism', sym:'OPUSDT',  color:'#FF0420'},
+  {id:'VET', name:'VeChain',  sym:'VETUSDT', color:'#15BDFF'},
+  {id:'INJ', name:'Injective',sym:'INJUSDT', color:'#00D2FF'},
+  {id:'SUI', name:'Sui',      sym:'SUIUSDT', color:'#4DA2FF'},
+  {id:'AAVE',name:'Aave',     sym:'AAVEUSDT',color:'#B6509E'},
+  {id:'GRT', name:'The Graph',sym:'GRTUSDT', color:'#6747ED'},
+  {id:'ALGO',name:'Algorand', sym:'ALGOUSDT',color:'#9CA3AF'},
+  {id:'SEI', name:'Sei',      sym:'SEIUSDT', color:'#8B1E2B'},
+  {id:'RUNE',name:'THORChain',sym:'RUNEUSDT',color:'#00CCFF'},
+  {id:'S',   name:'Sonic',    sym:'SUSDT',   color:'#1969FF'},
+  {id:'TIA', name:'Celestia', sym:'TIAUSDT', color:'#7B2BF9'},
+  {id:'IMX', name:'Immutable',sym:'IMXUSDT', color:'#3B82F6'},
+  {id:'RENDER',name:'Render', sym:'RENDERUSDT',color:'#CF1011'},
+  {id:'SKY', name:'Sky',      sym:'SKYUSDT', color:'#1AAB9B'},
+  {id:'LDO', name:'Lido DAO', sym:'LDOUSDT', color:'#00A3FF'},
+  {id:'STX', name:'Stacks',   sym:'STXUSDT', color:'#5546FF'},
+  {id:'THETA',name:'Theta',   sym:'THETAUSDT',color:'#2AB8E6'},
+  {id:'SAND',name:'The Sandbox',sym:'SANDUSDT',color:'#00ADEF'},
+  {id:'AXS', name:'Axie Infinity',sym:'AXSUSDT',color:'#0055D5'},
+  {id:'MANA',name:'Decentraland',sym:'MANAUSDT',color:'#FF2D55'},
+  {id:'FLOW',name:'Flow',     sym:'FLOWUSDT',color:'#00EF8B'},
+  {id:'CHZ', name:'Chiliz',   sym:'CHZUSDT', color:'#CD0124'},
+  {id:'GALA',name:'Gala',     sym:'GALAUSDT',color:'#B0B7C3'},
+  {id:'A',   name:'Vaulta',   sym:'AUSDT',   color:'#8B9DC3'},
+  {id:'PEPE',name:'Pepe',     sym:'PEPEUSDT',color:'#3D8130'},
+  {id:'SHIB',name:'Shiba Inu',sym:'SHIBUSDT',color:'#FFA409'},
 ];
 
 let currentCoin = (function(){
   try { const c = localStorage.getItem('selectedCoin'); if(c && COINS.some(x=>x.id===c)) return c; } catch(e){}
   return 'BTC';
 })();
+
+// ═══════════════════════════════════════════════════════
+// 즐겨찾기 (관심 코인) — localStorage 저장, 대시보드 탭에 노출되는 코인 목록
+// ═══════════════════════════════════════════════════════
+const DEFAULT_FAVORITES = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX']; // 기존 8개
+
+// ── 상장폐지/이용불가 코인 자동 숨김 ──
+// api.php가 'coin_unavailable'을 반환한 코인(상폐/티커변경)을 기억해,
+// 코인 목록·즐겨찾기·검색에서 자동으로 숨긴다. (하나씩 수동으로 지울 필요 없음)
+function getDelistedCoins() {
+  try {
+    const raw = localStorage.getItem('delistedCoins');
+    return raw ? (JSON.parse(raw) || []) : [];
+  } catch(e) { return []; }
+}
+function markCoinDelisted(id) {
+  if (!id || id === 'BTC') return; // BTC는 절대 숨기지 않음(안전장치)
+  const list = getDelistedCoins();
+  if (!list.includes(id)) {
+    list.push(id);
+    try { localStorage.setItem('delistedCoins', JSON.stringify(list)); } catch(e) {}
+  }
+  const favs = getFavorites().filter(x => x !== id);
+  saveFavorites(favs);
+  try { initTabs(); } catch(e) {}
+}
+function isDelisted(id) { return getDelistedCoins().includes(id); }
+function activeCoins() {
+  const dead = getDelistedCoins();
+  return COINS.filter(c => !dead.includes(c.id));
+}
+
+function getFavorites() {
+  try {
+    const raw = localStorage.getItem('favoriteCoins');
+    if (raw === null) return [...DEFAULT_FAVORITES]; // 최초 방문 = 기본 8개
+    const arr = JSON.parse(raw);
+    // 존재하는 코인만 필터. 비었으면 최소 BTC 하나는 보장.
+    const valid = Array.isArray(arr) ? arr.filter(id => COINS.some(c => c.id === id)) : [];
+    return valid.length ? valid : ['BTC'];
+  } catch(e) { return [...DEFAULT_FAVORITES]; }
+}
+function saveFavorites(list) {
+  // 최소 1개 강제 (다 지우면 BTC 유지)
+  const clean = (Array.isArray(list) ? list : []).filter(id => COINS.some(c => c.id === id));
+  const finalList = clean.length ? clean : ['BTC'];
+  try { localStorage.setItem('favoriteCoins', JSON.stringify(finalList)); } catch(e) {}
+  return finalList;
+}
+function isFavorite(id) { return getFavorites().includes(id); }
+function toggleFavorite(id) {
+  if (!COINS.some(c => c.id === id)) return getFavorites();
+  let favs = getFavorites();
+  if (favs.includes(id)) {
+    favs = favs.filter(x => x !== id); // 제거 (최소 1개는 saveFavorites가 보장)
+  } else {
+    favs.push(id); // 추가 (순서 유지)
+  }
+  return saveFavorites(favs);
+}
+function resetFavorites() { return saveFavorites([...DEFAULT_FAVORITES]); }
+// 즐겨찾기를 COINS 정의 순서(거래량 순)대로 정렬해 반환 — 탭 순서 일관성
+function getFavoriteCoins() {
+  const favs = getFavorites();
+  const dead = getDelistedCoins();
+  // 저장된 즐겨찾기 순서를 그대로 따르되, 상폐된 코인은 제외
+  return favs.map(id => COINS.find(c => c.id === id)).filter(c => c && !dead.includes(c.id));
+}
+// 즐겨찾기 순서 이동 (검색 오버레이/coins.php에서 위/아래로 조정)
+function moveFavorite(id, dir) { // dir: -1(위) | +1(아래)
+  const favs = getFavorites();
+  const i = favs.indexOf(id);
+  if (i < 0) return favs;
+  const j = i + dir;
+  if (j < 0 || j >= favs.length) return favs;
+  [favs[i], favs[j]] = [favs[j], favs[i]];
+  return saveFavorites(favs);
+}
+
 let currentMode = 'buy';
 let ws = null;
 let livePrice = null;
 let chatDB = null; // Firebase Realtime DB 핸들 (채팅 + 히스토리 공용)
 let chatListenersAttached = false; // 채팅 메시지/접속자 리스너가 실제로 부착됐는지
+let lastPresenceCount = null; // 마지막으로 받은 접속자 수(언어 변경 시 문구 재렌더에 사용)
 let scoreHistory = [];
 let currentScore = 0;
 let lastResultDetails = null; // Why 패널이 참조할, 가장 최근 렌더된 지표 상세 breakdown
@@ -196,19 +324,290 @@ let indCache = {};
 // COIN TABS
 // ═══════════════════════════════════════════════════════
 function initTabs() {
+  // 이전에 body로 옮겨진 더보기 메뉴가 있으면 제거 (중복 방지)
+  const orphan = document.getElementById('coinMoreMenu');
+  if (orphan && orphan.parentElement === document.body) orphan.remove();
+  const favCoins = getFavoriteCoins();
+  // 현재 선택된 코인이 즐겨찾기에서 빠졌으면 첫 즐겨찾기로 이동
+  if (!favCoins.some(c => c.id === currentCoin)) {
+    currentCoin = favCoins.length ? favCoins[0].id : 'BTC';
+    try { localStorage.setItem('selectedCoin', currentCoin); } catch(e) {}
+  }
   const el = document.getElementById('coinTabs');
-  el.innerHTML = COINS.map(c => `
+
+  // 상단바에 직접 노출할 최대 개수 (넘치면 나머지는 "더보기" 드롭다운으로).
+  // 화면 폭에 따라 다르게: 좁으면 적게, 넓으면 많이.
+  const vw = window.innerWidth || 1280;
+  const MAX_VISIBLE = vw >= 1400 ? 12 : vw >= 1100 ? 9 : vw >= 800 ? 6 : 5;
+
+  let visible = favCoins, overflow = [];
+  if (favCoins.length > MAX_VISIBLE) {
+    visible = favCoins.slice(0, MAX_VISIBLE);
+    overflow = favCoins.slice(MAX_VISIBLE);
+    // 현재 선택된 코인이 오버플로(숨김) 쪽에 있으면, 맨 앞으로 끌어와 항상 보이게
+    if (overflow.some(c => c.id === currentCoin)) {
+      const cur = favCoins.find(c => c.id === currentCoin);
+      visible = [cur, ...favCoins.filter(c => c.id !== currentCoin).slice(0, MAX_VISIBLE - 1)];
+      const visIds = new Set(visible.map(c => c.id));
+      overflow = favCoins.filter(c => !visIds.has(c.id));
+    }
+  }
+
+  let html = visible.map(c => `
     <div class="coin-tab${c.id===currentCoin?' active':''}"
       onclick="switchCoin('${c.id}')"
       ontouchend="event.preventDefault();switchCoin('${c.id}')"
       style="${c.id===currentCoin?`background:${c.color};border-color:${c.color};color:#000`:''}">
       ${c.id}
     </div>`).join('');
-  // 모바일 드롭박스 업데이트
+
+  // 넘치는 코인들은 드롭다운으로
+  if (overflow.length) {
+    html += `<div class="coin-tab coin-tab-more" onclick="toggleCoinMore(event)" title="더 보기">
+      +${overflow.length} ▾
+      <div class="coin-more-menu" id="coinMoreMenu">
+        ${overflow.map(c => `<div class="coin-more-item${c.id===currentCoin?' active':''}" onclick="event.stopPropagation();switchCoin('${c.id}');closeCoinMore()">
+          <span class="cm-dot" style="background:${c.color}"></span>${c.id} <span class="cm-name">${c.name}</span></div>`).join('')}
+      </div>
+    </div>`;
+  }
+  // 검색/관리 버튼
+  html += `<div class="coin-tab coin-tab-add" onclick="openCoinSearch()" ontouchend="event.preventDefault();openCoinSearch()" title="코인 추가/관리" aria-label="Add coins">＋</div>`;
+  el.innerHTML = html;
+
+  // 모바일 드롭박스도 즐겨찾기만
   const drop = document.getElementById('coinDrop');
   if(drop) {
-    drop.innerHTML = COINS.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
+    drop.innerHTML = favCoins.map(c => `<option value="${c.id}" ${c.id===currentCoin?'selected':''}>${c.id}</option>`).join('');
   }
+  const cpPanel = document.getElementById('coinPickerPanel');
+  if(cpPanel) { cpPanel.innerHTML = favCoins.map(c => `<div class="cp-item${c.id===currentCoin?' active':''}" onclick="pickCoin('${c.id}')">${c.id}</div>`).join(''); }
+  const cpLabel = document.getElementById('coinPickerLabel');
+  if(cpLabel) cpLabel.textContent = currentCoin;
+}
+function _emphArrow(s){return String(s).split('\n').map(function(l){return l.replace(/(\u2192\s*)(.+)$/,'$1<b style="color:var(--green);font-weight:700">$2</b>');}).join('<br>');}
+function toggleCoinPicker(e){ if(e) e.stopPropagation(); var p=document.getElementById('coinPickerPanel'); if(p) p.style.display=(p.style.display==='block'?'none':'block'); }
+function pickCoin(id){ var p=document.getElementById('coinPickerPanel'); if(p) p.style.display='none'; switchCoin(id); }
+document.addEventListener('click', function(ev){ var w=document.getElementById('coinPicker'); var p=document.getElementById('coinPickerPanel'); if(p && p.style.display==='block' && w && !w.contains(ev.target)) p.style.display='none'; });
+
+function toggleCoinMore(e) {
+  e.stopPropagation();
+  const menu = document.getElementById('coinMoreMenu');
+  const btn = e.currentTarget; // .coin-tab-more
+  if (!menu) return;
+  const isOpen = menu.classList.contains('open');
+  if (isOpen) { closeCoinMore(); return; }
+  // overflow:auto 컨테이너에 잘리지 않도록 body로 옮기고 버튼 위치 기준 fixed 배치
+  if (menu.parentElement !== document.body) document.body.appendChild(menu);
+  const r = btn.getBoundingClientRect();
+  menu.style.position = 'fixed';
+  menu.style.top = (r.bottom + 6) + 'px';
+  // 오른쪽 정렬(화면 밖으로 안 나가게). 버튼 오른쪽 끝에 메뉴 오른쪽을 맞춤.
+  menu.style.left = 'auto';
+  menu.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
+  menu.classList.add('open');
+}
+function closeCoinMore() {
+  const m = document.getElementById('coinMoreMenu');
+  if (m) m.classList.remove('open');
+}
+document.addEventListener('click', (e) => {
+  // 메뉴 내부나 more 버튼 클릭이 아니면 닫기
+  if (!e.target.closest('.coin-tab-more') && !e.target.closest('#coinMoreMenu')) closeCoinMore();
+});
+// 페이지 스크롤 시 닫되, 드롭다운 메뉴 자체의 내부 스크롤은 제외 (스크롤로 선택 가능하게)
+window.addEventListener('scroll', (e) => {
+  const m = document.getElementById('coinMoreMenu');
+  if (!m || !m.classList.contains('open')) return;
+  if (e.target && e.target.id === 'coinMoreMenu') return; // 메뉴 내부 스크롤은 무시
+  closeCoinMore();
+}, true);
+
+// ═══════════════════════════════════════════════════════
+// 코인 검색/즐겨찾기 오버레이
+// ═══════════════════════════════════════════════════════
+let coinSearchTab = 'fav'; // 'fav' | 'all'
+// 즐겨찾기 코인 전환 시트 (모바일 하단바 "코인" 탭). 즐겨찾기한 코인을 빠르게 전환.
+function openCoinSwitcher() {
+  let ov = document.getElementById('coinSwitchOverlay');
+  if (!ov) {
+    ov = document.createElement('div');
+    ov.id = 'coinSwitchOverlay';
+    ov.className = 'coin-ov coin-switch-ov';
+    ov.innerHTML = `
+      <div class="coin-ov-box" role="dialog" aria-modal="true" aria-label="코인 전환">
+        <div class="coin-ov-grip"></div>
+        <div class="coin-sw-head">
+          <div>
+            <span class="coin-sw-title">${TT({ko:'코인 전환',en:'Switch coin',ja:'コイン切替',es:'Cambiar moneda',de:'Coin wechseln',fr:'Changer de crypto',pt:'Trocar moeda',tr:'Coin değiştir',vi:'Đổi coin'})}</span>
+            <span class="coin-sw-sub">${TT({ko:'즐겨찾기한 코인',en:'Your favorite coins',ja:'お気に入りコイン',es:'Tus favoritos',de:'Deine Favoriten',fr:'Vos cryptos favorites',pt:'Suas moedas favoritas',tr:'Favori coinleriniz',vi:'Coin yêu thích của bạn'})}</span>
+          </div>
+          <button class="coin-ov-close" onclick="closeCoinSwitcher()" aria-label="Close">✕</button>
+        </div>
+        <div id="coinSwitchList" class="coin-ov-list"></div>
+        <button class="coin-sw-manage" onclick="closeCoinSwitcher();openCoinSearch()">
+          ＋ ${TT({ko:'코인 검색 / 관리',en:'Search / manage coins',ja:'コイン検索・管理',es:'Buscar / gestionar',de:'Coins suchen / verwalten',fr:'Rechercher / gérer les cryptos',pt:'Buscar / gerenciar moedas',tr:'Coin ara / yönet',vi:'Tìm / quản lý coin'})}
+        </button>
+      </div>`;
+    document.body.appendChild(ov);
+    ov.addEventListener('click', (e) => { if (e.target === ov) closeCoinSwitcher(); });
+  }
+  ov.style.display = 'flex';
+  renderCoinSwitchList();
+}
+function closeCoinSwitcher() {
+  const ov = document.getElementById('coinSwitchOverlay');
+  if (ov) ov.style.display = 'none';
+}
+function renderCoinSwitchList() {
+  const list = document.getElementById('coinSwitchList');
+  if (!list) return;
+  const favCoins = getFavoriteCoins();
+  if (!favCoins.length) {
+    list.innerHTML = `<div class="coin-ov-empty">${TT({ko:'즐겨찾기한 코인이 없습니다.',en:'No favorite coins yet.',ja:'お気に入りがありません。',es:'Sin favoritos.',de:'Keine Favoriten.',fr:'Aucune crypto favorite.',pt:'Nenhuma moeda favorita.',tr:'Henüz favori coin yok.',vi:'Chưa có coin yêu thích.'})}</div>`;
+    return;
+  }
+  list.innerHTML = favCoins.map(c => `
+    <div class="coin-sw-item${c.id===currentCoin?' current':''}" onclick="switchCoinFromSheet('${c.id}')">
+      <span class="coin-ov-dot" style="background:${c.color}"></span>
+      <span class="coin-ov-id">${c.id}</span>
+      <span class="coin-ov-name">${c.name}</span>
+      ${c.id===currentCoin?`<span class="coin-sw-cur">${TT({ko:'보는 중',en:'viewing',ja:'表示中',es:'viendo',de:'aktiv',fr:'en cours',pt:'visualizando',tr:'görüntüleniyor',vi:'đang xem'})}</span>`:''}
+    </div>`).join('');
+}
+function switchCoinFromSheet(id) {
+  closeCoinSwitcher();
+  switchCoin(id);
+}
+
+function openCoinSearch() {
+  let ov = document.getElementById('coinSearchOverlay');
+  if (!ov) {
+    ov = document.createElement('div');
+    ov.id = 'coinSearchOverlay';
+    ov.className = 'coin-ov';
+    ov.innerHTML = `
+      <div class="coin-ov-box" role="dialog" aria-modal="true" aria-label="코인 검색">
+        <div class="coin-ov-grip"></div>
+        <div class="coin-ov-head">
+          <input id="coinSearchInput" class="coin-ov-input" type="text" placeholder="${TT({ko:'코인 검색 (이름/심볼)',en:'Search coins (name/symbol)',ja:'コイン検索(名前/シンボル)',es:'Buscar monedas',de:'Coins suchen',fr:'Rechercher (nom/symbole)',pt:'Buscar (nome/símbolo)',tr:'Ara (isim/sembol)',vi:'Tìm (tên/ký hiệu)'})}" autocomplete="off">
+          <button class="coin-ov-close" onclick="closeCoinSearch()" aria-label="Close">✕</button>
+        </div>
+        <div class="coin-ov-tabs">
+          <button id="covTabFav" class="cov-tab active" onclick="setCoinSearchTab('fav')">★ ${TT({ko:'즐겨찾기',en:'Favorites',ja:'お気に入り',es:'Favoritos',de:'Favoriten',fr:'Favoris',pt:'Favoritos',tr:'Favoriler',vi:'Yêu thích'})} <span id="covFavCount" class="cov-cnt"></span></button>
+          <button id="covTabAll" class="cov-tab" onclick="setCoinSearchTab('all')">${TT({ko:'전체',en:'All',ja:'すべて',es:'Todo',de:'Alle',fr:'Tout',pt:'Todos',tr:'Tümü',vi:'Tất cả'})} <span class="cov-cnt">${COINS.length}</span></button>
+        </div>
+        <div class="coin-ov-bar">
+          <span class="coin-ov-hint" id="covHint">${TT({ko:'별을 눌러 추가/제거',en:'Tap the star to add/remove',ja:'星をタップして追加/削除',es:'Toca la estrella',de:'Stern tippen',fr:'Touchez l\'étoile pour ajouter/retirer',pt:'Toque na estrela para adicionar/remover',tr:'Eklemek/çıkarmak için yıldıza dokunun',vi:'Chạm sao để thêm/xóa'})}</span>
+          <button class="coin-ov-reset" onclick="resetFavAndRefresh()">${TT({ko:'기본값 초기화',en:'Reset',ja:'リセット',es:'Restablecer',de:'Zurücksetzen',fr:'Réinitialiser',pt:'Redefinir',tr:'Sıfırla',vi:'Đặt lại'})}</button>
+        </div>
+        <div id="coinSearchList" class="coin-ov-list"></div>
+      </div>`;
+    document.body.appendChild(ov);
+    ov.addEventListener('click', (e) => { if (e.target === ov) closeCoinSearch(); });
+    const inp = ov.querySelector('#coinSearchInput');
+    inp.addEventListener('input', () => renderCoinSearchList(inp.value));
+  }
+  ov.style.display = 'flex';
+  const inp = ov.querySelector('#coinSearchInput');
+  inp.value = '';
+  setCoinSearchTab('fav'); // 열 때마다 즐겨찾기 탭부터
+  // 데스크톱만 자동 포커스 (모바일은 키보드가 시트를 가려서 제외)
+  if (window.matchMedia('(min-width:601px)').matches) setTimeout(() => inp.focus(), 50);
+}
+function closeCoinSearch() {
+  const ov = document.getElementById('coinSearchOverlay');
+  if (ov) ov.style.display = 'none';
+}
+function setCoinSearchTab(tab) {
+  coinSearchTab = tab;
+  const f = document.getElementById('covTabFav'), a = document.getElementById('covTabAll');
+  if (f) f.classList.toggle('active', tab === 'fav');
+  if (a) a.classList.toggle('active', tab === 'all');
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+}
+function renderCoinSearchList(q) {
+  const list = document.getElementById('coinSearchList');
+  if (!list) return;
+  const query = (q || '').trim().toUpperCase();
+  const favs = getFavorites();
+  // 즐겨찾기 카운트 뱃지 갱신
+  const cnt = document.getElementById('covFavCount');
+  if (cnt) cnt.textContent = favs.length;
+  // 탭에 따라 힌트 텍스트 갱신: 전체 탭은 "탭=즐겨찾기 토글", 즐겨찾기 탭은 "탭=이동"
+  const hint = document.getElementById('covHint');
+  if (hint) {
+    hint.textContent = coinSearchTab === 'all'
+      ? TT({ko:'항목을 눌러 즐겨찾기 추가/제거',en:'Tap an item to add/remove favorite',ja:'項目をタップして追加/削除',es:'Toca para añadir/quitar favorito',de:'Tippen zum Hinzufügen/Entfernen',fr:'Touchez un élément pour l\'ajouter/retirer des favoris',pt:'Toque num item para adicionar/remover favorito',tr:'Favoriye eklemek/çıkarmak için bir öğeye dokunun',vi:'Chạm mục để thêm/xóa yêu thích'})
+      : TT({ko:'항목을 눌러 이동 · 별로 제거',en:'Tap to switch · star to remove',ja:'タップで移動・星で削除',es:'Toca para ir · estrella para quitar',de:'Tippen zum Wechseln · Stern entfernt',fr:'Touchez pour changer · étoile pour retirer',pt:'Toque para trocar · estrela para remover',tr:'Değiştirmek için dokunun · kaldırmak için yıldız',vi:'Chạm để đổi · sao để xóa'});
+  }
+  // 탭에 따라 대상 코인 선정. 검색어가 있으면 전체에서 찾되 즐겨찾기 탭은 즐겨찾기 내에서만.
+  const dead = getDelistedCoins();
+  let base;
+  if (coinSearchTab === 'fav') {
+    // 즐겨찾기는 저장된 순서대로 표시 (순서 조정 반영), 상폐 제외
+    base = favs.map(id => COINS.find(c => c.id === id)).filter(c => c && !dead.includes(c.id));
+  } else {
+    base = COINS.filter(c => !dead.includes(c.id)); // 전체 탭도 상폐 제외
+  }
+  const matched = base.filter(c =>
+    !query || c.id.includes(query) || c.name.toUpperCase().includes(query)
+  );
+  if (!matched.length) {
+    const emptyMsg = coinSearchTab === 'fav' && !query
+      ? TT({ko:'즐겨찾기한 코인이 없습니다. 전체 탭에서 추가하세요.',en:'No favorites yet. Add from the All tab.',ja:'お気に入りがありません。すべてタブから追加してください。',es:'Sin favoritos. Añade desde la pestaña Todo.',de:'Keine Favoriten. Über den Alle-Tab hinzufügen.',fr:'Aucun favori. Ajoutez depuis l\'onglet Tout.',pt:'Nenhum favorito. Adicione na aba Todos.',tr:'Henüz favori yok. Tümü sekmesinden ekleyin.',vi:'Chưa có yêu thích. Thêm từ tab Tất cả.'})
+      : TT({ko:'검색 결과 없음',en:'No results',ja:'該当なし',es:'Sin resultados',de:'Keine Ergebnisse',fr:'Aucun résultat',pt:'Nenhum resultado',tr:'Sonuç yok',vi:'Không có kết quả'});
+    list.innerHTML = `<div class="coin-ov-empty">${emptyMsg}</div>`;
+    return;
+  }
+  // 즐겨찾기 탭 & 검색어 없을 때만 순서조정 버튼 노출 (검색 중엔 순서 의미 없음)
+  const showReorder = coinSearchTab === 'fav' && !query;
+  list.innerHTML = matched.map((c, i) => {
+    const on = favs.includes(c.id);
+    const reorder = showReorder ? `
+      <span class="coin-ov-move">
+        <button class="cov-mv" onclick="event.stopPropagation();moveFavAndRefresh('${c.id}',-1)" ${i===0?'disabled':''} aria-label="up">▲</button>
+        <button class="cov-mv" onclick="event.stopPropagation();moveFavAndRefresh('${c.id}',1)" ${i===matched.length-1?'disabled':''} aria-label="down">▼</button>
+      </span>` : '';
+    return `<div class="coin-ov-item${on?' fav':''}" onclick="selectCoinFromSearch('${c.id}')">
+      <span class="coin-ov-dot" style="background:${c.color}"></span>
+      <span class="coin-ov-id">${c.id}</span>
+      <span class="coin-ov-name">${c.name}</span>
+      ${reorder}
+      <span class="coin-ov-star" onclick="event.stopPropagation();toggleFavFromSearch('${c.id}')" role="button" aria-label="toggle favorite">${on?'★':'☆'}</span>
+    </div>`;
+  }).join('');
+}
+// 항목 클릭 동작은 탭에 따라 다르다.
+//  · 즐겨찾기 탭: 그 코인으로 전환하고 오버레이 닫기
+//  · 전체 탭: 코인 이동이 아니라 즐겨찾기 추가/해제만 (실수로 이동 방지 + 즐겨찾기 관리 편의)
+function selectCoinFromSearch(id) {
+  if (coinSearchTab === 'all') {
+    // 전체 탭에서는 클릭이 곧 즐겨찾기 토글
+    toggleFavFromSearch(id);
+    return;
+  }
+  closeCoinSearch();
+  switchCoin(id);
+}
+function moveFavAndRefresh(id, dir) {
+  moveFavorite(id, dir);
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+  initTabs();
+}
+function toggleFavFromSearch(id) {
+  toggleFavorite(id);
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+  initTabs(); // 대시보드 탭 즉시 갱신
+}
+function resetFavAndRefresh() {
+  resetFavorites();
+  const inp = document.getElementById('coinSearchInput');
+  renderCoinSearchList(inp ? inp.value : '');
+  initTabs();
 }
 
 let loadToken = 0;
@@ -227,6 +626,11 @@ function switchCoin(id) {
   try { localStorage.setItem('selectedCoin', id); } catch(e){}
   livePrice = null;
   loadToken++;
+
+  // 코인 전환 시 이전 코인의 히스토리 상태를 즉시 비운다.
+  // (안 그러면 새 코인 히스토리가 비어있어도 호버 시 이전 코인의 점수가 잘못 표시됨)
+  historyPlotState = null;
+  scoreHistory = [];
 
   // 이 코인으로 전환할 때마다 알림 상태를 초기화 — 그래야 "이미 한 번 봤던 코인"이라도
   // 다시 들어올 때 지금 점수가 알림 구간에 있으면 매번 다시 효과(플래시+알림음)가 울림.
@@ -295,7 +699,7 @@ function updateTickerFromAPI(data) {
 
 // 언어별 기준 통화 매핑 — 한국어면 원화(김치프리미엄 확인용), 그 외 언어는 각 지역에서 익숙한 통화로.
 // exchangerate-api/CoinGecko 둘 다 이 통화 코드들을 지원함.
-const TICKER_CURRENCY_MAP = {ko:'KRW', en:'USD', ja:'JPY', es:'EUR', de:'EUR'};
+const TICKER_CURRENCY_MAP = {ko:'KRW', en:'USD', ja:'JPY', es:'EUR', de:'EUR', fr:'EUR', pt:'BRL', tr:'TRY', vi:'VND'};
 function getTickerCurrency() { return TICKER_CURRENCY_MAP[currentLang] || 'USD'; }
 
 async function loadTicker() {
@@ -361,7 +765,7 @@ function setMode(mode) {
   applyStaticI18n();
   // histInfo 업데이트
   const hi=document.getElementById('histInfo');
-  if(hi) hi.innerHTML = TT({ko:`📊 <b>시간별</b>: 최근 24시간, 5분마다<br>📅 <b>일별</b>: 최근 30일, 일별 평균<br>📆 <b>월별</b>: 전체 기간, 월별 평균<br>💾 데이터는 브라우저 로컬저장소에 저장됩니다. 브라우저 데이터 삭제 시 초기화됩니다.`,en:`📊 <b>Hour</b>: Last 24 hours, every 5 minutes<br>📅 <b>Day</b>: Last 30 days, daily average<br>📆 <b>Month</b>: All time, monthly average<br>💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.`,ja:`📊 <b>時間別</b>: 直近24時間、5分ごと<br>📅 <b>日別</b>: 直近30日間、日次平均<br>📆 <b>月別</b>: 全期間、月次平均<br>💾 データはブラウザ(localStorage)に保存されます。ブラウザデータを消去すると初期化されます。`,es:`📊 <b>Hora</b>: Últimas 24 horas, cada 5 minutos<br>📅 <b>Día</b>: Últimos 30 días, promedio diario<br>📆 <b>Mes</b>: Todo el período, promedio mensual<br>💾 Los datos se guardan en tu navegador (localStorage). Se borran si se limpian los datos del navegador.`,de:`📊 <b>Stunde</b>: Letzte 24 Stunden, alle 5 Minuten<br>📅 <b>Tag</b>: Letzte 30 Tage, Tagesdurchschnitt<br>📆 <b>Monat</b>: Gesamter Zeitraum, Monatsdurchschnitt<br>💾 Daten werden lokal im Browser (localStorage) gespeichert. Werden beim Löschen der Browserdaten zurückgesetzt.`});
+  if(hi) hi.innerHTML = TT({ko:`<b>시간별</b>: 최근 24시간, 5분마다<br><b>일별</b>: 최근 30일, 일별 평균<br><b>월별</b>: 전체 기간, 월별 평균<br>💾 데이터는 브라우저 로컬저장소에 저장됩니다. 브라우저 데이터 삭제 시 초기화됩니다.`,en:`<b>Hour</b>: Last 24 hours, every 5 minutes<br><b>Day</b>: Last 30 days, daily average<br><b>Month</b>: All time, monthly average<br>💾 Data is stored in your browser (localStorage). Clears if browser data is wiped.`,ja:`<b>時間別</b>: 直近24時間、5分ごと<br><b>日別</b>: 直近30日間、日次平均<br><b>月別</b>: 全期間、月次平均<br>💾 データはブラウザ(localStorage)に保存されます。ブラウザデータを消去すると初期化されます。`,es:`<b>Hora</b>: Últimas 24 horas, cada 5 minutos<br><b>Día</b>: Últimos 30 días, promedio diario<br><b>Mes</b>: Todo el período, promedio mensual<br>💾 Los datos se guardan en tu navegador (localStorage). Se borran si se limpian los datos del navegador.`,de:`<b>Stunde</b>: Letzte 24 Stunden, alle 5 Minuten<br><b>Tag</b>: Letzte 30 Tage, Tagesdurchschnitt<br><b>Monat</b>: Gesamter Zeitraum, Monatsdurchschnitt<br>💾 Daten werden lokal im Browser (localStorage) gespeichert. Werden beim Löschen der Browserdaten zurückgesetzt.`,fr:`<b>Heure</b> : 24 dernières heures, toutes les 5 minutes<br><b>Jour</b> : 30 derniers jours, moyenne quotidienne<br><b>Mois</b> : Tout l'historique, moyenne mensuelle<br>💾 Les données sont stockées localement dans le navigateur (localStorage). Effacées si les données du navigateur sont supprimées.`,pt:`<b>Hora</b>: Últimas 24 horas, a cada 5 minutos<br><b>Dia</b>: Últimos 30 dias, média diária<br><b>Mês</b>: Todo o período, média mensal<br>💾 Os dados são salvos localmente no navegador (localStorage). Apagados se os dados do navegador forem limpos.`,tr:`<b>Saat</b>: Son 24 saat, her 5 dakika<br><b>Gün</b>: Son 30 gün, günlük ortalama<br><b>Ay</b>: Tüm zamanlar, aylık ortalama<br>💾 Veriler tarayıcıda yerel olarak (localStorage) saklanır. Tarayıcı verileri silinirse sıfırlanır.`,vi:`<b>Giờ</b>: 24 giờ qua, mỗi 5 phút<br><b>Ngày</b>: 30 ngày qua, trung bình ngày<br><b>Tháng</b>: Toàn bộ, trung bình tháng<br>💾 Dữ liệu lưu cục bộ trên trình duyệt (localStorage). Bị xóa nếu dữ liệu trình duyệt bị xóa.`});
 }
 
 // ═══════════════════════════════════════════════════════
@@ -472,7 +876,7 @@ function connectWS() {
       const el = document.getElementById('mPrice');
       if(el) {
         el.textContent = fmtP(livePrice);
-        el.style.color = chg >= 0 ? 'var(--green)' : 'var(--red)';
+        el.style.color = 'var(--t1)';
         document.getElementById('mPriceSub').textContent = `${chg>=0?'+':''}${chg.toFixed(2)}% 24h`;
       }
     };
@@ -571,10 +975,24 @@ const GUIDE_LINK_MAP={
   cb_premium:'coinbase-premium', lth_supply:'long-term-holder-supply', dom:'btc-dominance',
   halving:'bitcoin-halving-timing', ath_pos:'ath-drawdown', alt_drawdown:'ath-drawdown',
   alt_short_ath:'ath-drawdown', rsi:'rsi-bitcoin',
-  alt_valuation:'mvrv-z-score', alt_short_valuation:'mvrv-z-score',
+  alt_valuation:'200-week-moving-average', alt_short_valuation:'200-week-moving-average',
   btc_corr:'btc-dominance', btc_corr_tech:'btc-correlation-guide',
   buy_pressure:'buy-sell-led-volume-guide', sell_pressure:'buy-sell-led-volume-guide',
   vol_change:'volume-acceleration-guide',
+};
+
+
+// 지표 카드 → 용어사전(glossary) 슬러그 매핑
+const GLOSSARY_LINK_MAP={
+  mvrv_z:'mvrv-z', nupl:'nupl', realized:'realized-price',
+  hash_ribbon:'hash-ribbon', sth_sopr:'sth-sopr', funding:'funding-rate',
+  cb_premium:'coinbase-premium', lth_supply:'lth-supply', dom:'btc-dominance',
+  halving:'halving', ath_pos:'altcoin-drawdown', alt_drawdown:'altcoin-drawdown',
+  alt_short_ath:'altcoin-drawdown', rsi:'rsi',
+  alt_valuation:'altcoin-valuation', alt_short_valuation:'altcoin-valuation',
+  btc_corr:'btc-dominance', btc_corr_tech:'btc-correlation',
+  buy_pressure:'buy-pressure', sell_pressure:'buy-pressure',
+  vol_change:'volume-change',
 };
 
 function makeCard(d,mode='buy'){
@@ -588,20 +1006,27 @@ function makeCard(d,mode='buy'){
   const localLabel=lk?(T(lk)||d.label):d.label;
   const dk=km.desc;
   const detDesc=dk?(T(dk)||d.note||''):(d.note||'');
-  const valLbl=TT({ko:'현재값',en:'Value',ja:'現在値',es:'Valor',de:'Wert'});
-  const scoreLbl=TT({ko:'점수',en:'Score',ja:'スコア',es:'Puntuación',de:'Score'});
-  const targetLbl=TT({ko:'목표',en:'Target',ja:'目標',es:'Objetivo',de:'Ziel'});
-  const detailLbl=TT({ko:'▼ 탭하여 설명 보기',en:'▼ Tap for details',ja:'▼ タップして詳細を見る',es:'▼ Toca para ver detalles',de:'▼ Tippen für Details'});
+  const valLbl=TT({ko:'현재값',en:'Value',ja:'現在値',es:'Valor',de:'Wert',fr:'Valeur',pt:'Valor',tr:'Değer',vi:'Giá trị'});
+  const scoreLbl=TT({ko:'점수',en:'Score',ja:'スコア',es:'Puntuación',de:'Score',fr:'Score',pt:'Pontuação',tr:'Puan',vi:'Điểm'});
+  const targetLbl=TT({ko:'목표',en:'Target',ja:'目標',es:'Objetivo',de:'Ziel',fr:'Objectif',pt:'Alvo',tr:'Hedef',vi:'Mục tiêu'});
+  const detailLbl=TT({ko:'▼ 탭하여 설명 보기',en:'▼ Tap for details',ja:'▼ タップして詳細を見る',es:'▼ Toca para ver detalles',de:'▼ Tippen für Details',fr:'▼ Touchez pour les détails',pt:'▼ Toque para detalhes',tr:'▼ Detaylar için dokunun',vi:'▼ Chạm để xem chi tiết'});
   const localSignal=translateSignal(d.signal||'');
   const localTarget=translateTarget(d.target||'—');
   const vStr=`${d.value}${d.unit||''}`;
   const guideSlug=GUIDE_LINK_MAP[d.key];
+  const glossarySlug=GLOSSARY_LINK_MAP[d.key];
   const blogSuffixVal = blogSuffix(currentLang);
-  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}" target="_blank" rel="noopener"
+  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
-      📖 ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen'})} →</a>`:'';
+      ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
+  const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
+  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}"
+      onclick="event.stopPropagation()"
+      style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
+      text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
+      ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
   return`<div class="icard" onclick="this.classList.toggle('expanded')">
     <div class="icard-top">
       <span class="icard-name">${localLabel}<span class="pill ${pc}">${localSignal}</span></span>
@@ -612,15 +1037,14 @@ function makeCard(d,mode='buy'){
       <span class="icard-m">/ ${d.max}</span>
     </div>
     <div class="ibar"><div class="ibf" style="width:${Math.round(r*100)}%;background:${clr}"></div></div>
-    <div class="icard-vals">
-      <div class="vbox"><div class="vl">${valLbl}</div><div class="vv">${vStr}</div></div>
-      <div class="vbox"><div class="vl">${scoreLbl}</div><div class="vv" style="color:${clr}">${d.score}/${d.max}</div></div>
-      <div class="vbox" style="grid-column:1/-1"><div class="vl">${targetLbl}</div><div class="vv" style="font-size:9px;color:var(--t2)">${localTarget}</div></div>
+    <div class="icard-meta">
+      <span>${valLbl} <b>${vStr}</b></span>
+      <span>${targetLbl} <b>${localTarget}</b></span>
     </div>
     <div class="icard-note">
-      <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>
-      <div style="white-space:pre-line;line-height:1.6;color:var(--t2);font-size:10px">${detDesc}</div>
-      ${guideBtn}
+      <div style="font-size:10px;color:var(--t3);margin-bottom:7px;font-weight:600">${detailLbl}</div>
+      <div style="white-space:pre-line;line-height:1.65;color:var(--t2);font-size:11.5px">${detDesc}</div>
+      ${guideBtn}${glossaryBtn}
     </div>
   </div>`;
 }
@@ -661,11 +1085,42 @@ async function fetchScoreFromAPI(coin, mode) {
     const ov=document.getElementById('overlay');
     const txt=document.getElementById('ovTxt');
     if(ov) ov.style.display='flex';
-    if(txt) txt.innerHTML=TT({ko:`⚠ 서버 응답 없음<br><small style="color:#888">새로고침하거나 잠시 후 다시 시도해주세요</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">재시도</button>`,en:`⚠ No server response<br><small style="color:#888">Please refresh or try again shortly</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Retry</button>`,ja:`⚠ サーバーからの応答がありません<br><small style="color:#888">更新するか、しばらくしてから再度お試しください</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">再試行</button>`,es:`⚠ Sin respuesta del servidor<br><small style="color:#888">Actualiza o inténtalo de nuevo en breve</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Reintentar</button>`,de:`⚠ Keine Serverantwort<br><small style="color:#888">Bitte aktualisieren oder in Kürze erneut versuchen</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Erneut versuchen</button>`});
+    if(txt) txt.innerHTML=TT({ko:`⚠ 서버 응답 없음<br><small style="color:#888">새로고침하거나 잠시 후 다시 시도해주세요</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">재시도</button>`,en:`⚠ No server response<br><small style="color:#888">Please refresh or try again shortly</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Retry</button>`,ja:`⚠ サーバーからの応答がありません<br><small style="color:#888">更新するか、しばらくしてから再度お試しください</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">再試行</button>`,es:`⚠ Sin respuesta del servidor<br><small style="color:#888">Actualiza o inténtalo de nuevo en breve</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Reintentar</button>`,de:`⚠ Keine Serverantwort<br><small style="color:#888">Bitte aktualisieren oder in Kürze erneut versuchen</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Erneut versuchen</button>`,fr:`⚠ Aucune réponse du serveur<br><small style="color:#888">Veuillez rafraîchir ou réessayer bientôt</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Réessayer</button>`,pt:`⚠ Sem resposta do servidor<br><small style="color:#888">Atualize ou tente novamente em breve</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Tentar novamente</button>`,tr:`⚠ Sunucu yanıtı yok<br><small style="color:#888">Lütfen yenileyin veya kısa süre sonra tekrar deneyin</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Tekrar dene</button>`,vi:`⚠ Không có phản hồi từ máy chủ<br><small style="color:#888">Vui lòng tải lại hoặc thử lại sau</small><br><button onclick="loadAll()" style="margin-top:12px;padding:8px 20px;background:var(--orange);color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:700">Thử lại</button>`});
     throw fetchErr;
   }
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   const data = await res.json();
+
+  // 서버가 상폐/변경된 코인이라고 알려주면, 자동으로 목록에서 숨기고 다른 코인으로 전환
+  if (data && data.error === 'coin_unavailable') {
+    const deadId = (data.coin || coin);
+    markCoinDelisted(deadId); // 목록·즐겨찾기에서 자동 제거 + 기억
+    // 살아있는 즐겨찾기 코인으로 자동 전환 (없으면 BTC)
+    const alive = getFavoriteCoins().filter(c => c.id !== deadId);
+    const next = alive.length ? alive[0].id : 'BTC';
+    if (next !== currentCoin && next !== deadId) {
+      setTimeout(() => { try { switchCoin(next); } catch(e){} }, 30);
+    }
+    // 짧은 토스트성 안내 (오버레이 대신)
+    try {
+      const ov=document.getElementById('overlay');
+      const txt=document.getElementById('ovTxt');
+      if(ov) ov.style.display='flex';
+      if(txt) txt.innerHTML=TT({
+        ko:`⚠ ${deadId}는 상장폐지되어 목록에서 제거했습니다<br><small style="color:#888">다른 코인으로 전환합니다…</small>`,
+        en:`⚠ ${deadId} was delisted and removed from your list<br><small style="color:#888">Switching to another coin…</small>`,
+        ja:`⚠ ${deadId}は上場廃止のためリストから削除しました<br><small style="color:#888">他のコインに切り替えます…</small>`,
+        es:`⚠ ${deadId} fue retirada y eliminada de tu lista<br><small style="color:#888">Cambiando a otra moneda…</small>`,
+        de:`⚠ ${deadId} wurde delistet und aus der Liste entfernt<br><small style="color:#888">Wechsle zu einem anderen Coin…</small>`,
+        fr:`⚠ ${deadId} a été retiré et supprimé de votre liste<br><small style="color:#888">Passage à une autre crypto…</small>`,
+        pt:`⚠ ${deadId} foi removida e excluída da sua lista<br><small style="color:#888">Mudando para outra moeda…</small>`,
+        tr:`⚠ ${deadId} listeden çıkarıldı ve kaldırıldı<br><small style="color:#888">Başka bir coine geçiliyor…</small>`,
+        vi:`⚠ ${deadId} đã bị hủy niêm yết và xóa khỏi danh sách<br><small style="color:#888">Đang chuyển sang coin khác…</small>`
+      });
+      setTimeout(() => { if(ov) ov.style.display='none'; }, 2500);
+    } catch(e){}
+    throw new Error('coin_unavailable');
+  }
 
   // 새 데이터 캐시 저장
   try { localStorage.setItem(cacheKey, JSON.stringify({data, ts:Date.now()})); } catch(e){}
@@ -712,14 +1167,14 @@ function renderAll(ind) {
 
   // 섹션 헤더 다국어화
   const secMap = {
-    'sec_onchain': TT({ko:'온체인 밸류에이션',en:'ON-CHAIN VALUATION',ja:'オンチェーン バリュエーション',es:'VALORACIÓN ON-CHAIN',de:'ON-CHAIN-BEWERTUNG'}),
-    'sec_miner':   TT({ko:'채굴자 / 심리',en:'MINER / SENTIMENT',ja:'マイナー / センチメント',es:'MINERO / SENTIMIENTO',de:'MINER / SENTIMENT'}),
-    'sec_inst':    TT({ko:'기관 수급 (선행)',en:'INSTITUTIONAL FLOW',ja:'機関資金フロー (先行)',es:'FLUJO INSTITUCIONAL (adelantado)',de:'INSTITUTIONELLER FLUSS (Vorlauf)'}),
-    'sec_cycle':   TT({ko:'사이클 위치',en:'CYCLE POSITION',ja:'サイクル位置',es:'POSICIÓN DEL CICLO',de:'ZYKLUSPOSITION'}),
-    'sec_breakdown': TT({ko:'점수 합산',en:'Score Breakdown',ja:'スコア内訳',es:'Desglose de Puntuación',de:'Score-Aufschlüsselung'}),
-    'sec_macro':   TT({ko:'매크로 경고등',en:'MACRO WARNINGS',ja:'マクロ警告',es:'ADVERTENCIAS MACRO',de:'MAKRO-WARNUNGEN'}),
-    'sec_history': TT({ko:'점수 히스토리',en:'Score History',ja:'スコア履歴',es:'Historial de Puntuación',de:'Score-Verlauf'}),
-    'sec_histSub': TT({ko:'브라우저 로컬 저장',en:'Saved locally in browser',ja:'ブラウザにローカル保存',es:'Guardado localmente en el navegador',de:'Lokal im Browser gespeichert'}),
+    'sec_onchain': TT({ko:'온체인 밸류에이션',en:'ON-CHAIN VALUATION',ja:'オンチェーン バリュエーション',es:'VALORACIÓN ON-CHAIN',de:'ON-CHAIN-BEWERTUNG',fr:'VALORISATION ON-CHAIN',pt:'VALORIZAÇÃO ON-CHAIN',tr:'ZİNCİR ÜSTÜ DEĞERLEME',vi:'ĐỊNH GIÁ ON-CHAIN'}),
+    'sec_miner':   TT({ko:'채굴자 / 심리',en:'MINER / SENTIMENT',ja:'マイナー / センチメント',es:'MINERO / SENTIMIENTO',de:'MINER / SENTIMENT',fr:'MINEUR / SENTIMENT',pt:'MINERADOR / SENTIMENTO',tr:'MADENCİ / DUYGU',vi:'THỢ ĐÀO / TÂM LÝ'}),
+    'sec_inst':    TT({ko:'기관 수급 (선행)',en:'INSTITUTIONAL FLOW',ja:'機関資金フロー (先行)',es:'FLUJO INSTITUCIONAL (adelantado)',de:'INSTITUTIONELLER FLUSS (Vorlauf)',fr:'FLUX INSTITUTIONNEL',pt:'FLUXO INSTITUCIONAL',tr:'KURUMSAL AKIŞ',vi:'DÒNG TIỀN TỔ CHỨC'}),
+    'sec_cycle':   TT({ko:'사이클 위치',en:'CYCLE POSITION',ja:'サイクル位置',es:'POSICIÓN DEL CICLO',de:'ZYKLUSPOSITION',fr:'POSITION DU CYCLE',pt:'POSIÇÃO DO CICLO',tr:'DÖNGÜ KONUMU',vi:'VỊ TRÍ CHU KỲ'}),
+    'sec_breakdown': TT({ko:'점수 합산',en:'Score Breakdown',ja:'スコア内訳',es:'Desglose de Puntuación',de:'Score-Aufschlüsselung',fr:'Détail du Score',pt:'Detalhamento da Pontuação',tr:'Puan Dökümü',vi:'Phân tích Điểm'}),
+    'sec_macro':   TT({ko:'매크로 경고등',en:'MACRO WARNINGS',ja:'マクロ警告',es:'ADVERTENCIAS MACRO',de:'MAKRO-WARNUNGEN',fr:'AVERTISSEMENTS MACRO',pt:'AVISOS MACRO',tr:'MAKRO UYARILARI',vi:'CẢNH BÁO VĨ MÔ'}),
+    'sec_history': TT({ko:'점수 히스토리',en:'Score History',ja:'スコア履歴',es:'Historial de Puntuación',de:'Score-Verlauf',fr:'Historique des Scores',pt:'Histórico de Pontuação',tr:'Puan Geçmişi',vi:'Lịch sử Điểm'}),
+    'sec_histSub': TT({ko:'브라우저 로컬 저장',en:'Saved locally in browser',ja:'ブラウザにローカル保存',es:'Guardado localmente en el navegador',de:'Lokal im Browser gespeichert',fr:'Enregistré localement dans le navigateur',pt:'Salvo localmente no navegador',tr:'Tarayıcıda yerel olarak kaydedildi',vi:'Lưu cục bộ trên trình duyệt'}),
   };
   Object.entries(secMap).forEach(([key,val])=>{
     document.querySelectorAll('[data-i="'+key+'"]').forEach(el=>{
@@ -734,26 +1189,23 @@ function renderAll(ind) {
   // 모드 버튼 (언어 무관하게 동일 표기)
   const modeBuyEl=document.getElementById('modeBuy');
   const modeSellEl=document.getElementById('modeSell');
-  if(modeBuyEl) modeBuyEl.textContent='📈 LONG';
-  if(modeSellEl) modeSellEl.textContent='📉 SHORT';
+  if(modeBuyEl) modeBuyEl.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>LONG';
+  if(modeSellEl) modeSellEl.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>SHORT';
 
   // 사이드바 라벨 다국어화
+  // 사이드바 라벨은 LANGS 사전(livePriceLabel/fgLabel/rpLabel/maLabel) 기반 → 전 언어 지원
+  const _miniKeys = ['livePriceLabel','fgLabel','rpLabel','maLabel'];
   document.querySelectorAll('.mini-stat .lbl').forEach((el,i)=>{
-    const keys = currentLang==='ko'
-      ? ['현재가 · 바이낸스','공포·탐욕 지수','실현가 이격률','200주 이평선 (참고)']
-      : currentLang==='ja'
-      ? ['現在価格 · Binance','恐怖・強欲指数','実現価格乖離率','200週移動平均線 (参考)']
-      : ['Price · Binance','Fear & Greed','Realized Price Gap','200W MA (ref)'];
-    if(keys[i]) el.textContent=keys[i];
+    if(_miniKeys[i]){ const v=T(_miniKeys[i]); if(v && v!==_miniKeys[i]) el.textContent=v; }
   });
 
   // 분할 계획 헤더
   const splitHd=document.querySelector('.split-hd');
-  if(splitHd) splitHd.textContent=TT({ko:'단계별 진입 계획',en:'Split Entry Plan',ja:'段階別エントリー計画',es:'Plan de Entrada Escalonada',de:'Gestaffelter Einstiegsplan'});
+  if(splitHd) splitHd.textContent=TT({ko:'단계별 진입 계획',en:'Split Entry Plan',ja:'段階別エントリー計画',es:'Plan de Entrada Escalonada',de:'Gestaffelter Einstiegsplan',fr:'Plan d\'Entrée Échelonnée',pt:'Plano de Entrada Escalonada',tr:'Kademeli Giriş Planı',vi:'Kế hoạch Vào lệnh Từng phần'});
   const scoreLabel2=document.getElementById('scoreLabel');
   if(scoreLabel2) scoreLabel2.textContent = currentMode==='buy'
-    ? TT({ko:'롱 타이밍 점수',en:'LONG TIMING SCORE',ja:'ロング タイミングスコア',es:'PUNTUACIÓN DE TIMING LARGO',de:'LONG-TIMING-SCORE'})
-    : TT({ko:'숏 타이밍 점수',en:'SHORT TIMING SCORE',ja:'ショート タイミングスコア',es:'PUNTUACIÓN DE TIMING CORTO',de:'SHORT-TIMING-SCORE'});
+    ? TT({ko:'롱 타이밍 점수',en:'LONG TIMING SCORE',ja:'ロング タイミングスコア',es:'PUNTUACIÓN DE TIMING LARGO',de:'LONG-TIMING-SCORE',fr:'SCORE DE TIMING LONG',pt:'PONTUAÇÃO DE TIMING LONG',tr:'LONG ZAMANLAMA PUANI',vi:'ĐIỂM THỜI ĐIỂM LONG'})
+    : TT({ko:'숏 타이밍 점수',en:'SHORT TIMING SCORE',ja:'ショート タイミングスコア',es:'PUNTUACIÓN DE TIMING CORTO',de:'SHORT-TIMING-SCORE',fr:'SCORE DE TIMING SHORT',pt:'PONTUAÇÃO DE TIMING SHORT',tr:'SHORT ZAMANLAMA PUANI',vi:'ĐIỂM THỜI ĐIỂM SHORT'});
 
   // Score card
   const snEl=document.getElementById('scoreNum');
@@ -764,19 +1216,20 @@ function renderAll(ind) {
     snEl.style.fontWeight='800';
     snEl.style.display='inline';
   }
+  const scEl=document.getElementById('scoreCoin'); if(scEl){ const _cs=(currentCoin||'').toString(); const _u=_cs.toUpperCase(); scEl.textContent=_u; scEl.style.fontSize=(_u.length>=7?'8px':_u.length>=5?'10px':_u.length>=4?'12px':'14px'); if(_cs){ const _im=new Image(); _im.alt=_u; _im.style.cssText='width:30px;height:30px;border-radius:50%'; _im.onload=function(){ scEl.textContent=''; scEl.style.fontSize=''; scEl.appendChild(_im); }; _im.onerror=function(){}; _im.src='https://assets.coincap.io/assets/icons/'+_cs.toLowerCase()+'@2x.png'; } }
   // 액션 코드(FULL LONG, WATCH 등)는 백엔드(score_calc.php)가 영어 코드로만 내려주므로,
   // 화면에 보여줄 땐 언어별로 번역해서 표시. (이전엔 result.action을 그대로 찍어서 모든 언어에서 항상 영어로만 보였음)
   const actionLabelMap = {
-    'FULL LONG':    TT({ko:'전량 진입',en:'FULL LONG',ja:'全量エントリー',es:'LONG TOTAL',de:'VOLL-LONG'}),
-    'ADD LONG':     TT({ko:'비중 확대',en:'ADD LONG',ja:'比率拡大',es:'MÁS LONG',de:'LONG+'}),
-    'SPLIT LONG':   TT({ko:'분할 진입',en:'SPLIT LONG',ja:'分割エントリー',es:'LONG PARCIAL',de:'TEIL-LONG'}),
-    'WATCH':        TT({ko:'관찰',en:'WATCH',ja:'様子見',es:'ESPERAR',de:'WARTEN'}),
-    'SPLIT EXIT':   TT({ko:'분할 청산',en:'SPLIT EXIT',ja:'分割決済',es:'SALIDA PARCIAL',de:'TEIL-EXIT'}),
-    'EXIT LONG':    TT({ko:'청산 권고',en:'EXIT LONG',ja:'決済推奨',es:'SALIR',de:'EXIT'}),
-    'FULL SHORT':   TT({ko:'풀 숏 진입',en:'FULL SHORT',ja:'フルショート',es:'SHORT TOTAL',de:'VOLL-SHORT'}),
-    'ADD SHORT':    TT({ko:'숏 확대',en:'ADD SHORT',ja:'ショート拡大',es:'MÁS SHORT',de:'SHORT+'}),
-    'PREPARE SHORT':TT({ko:'숏 준비',en:'PREPARE SHORT',ja:'ショート準備',es:'PREPARAR',de:'BEREIT'}),
-    'EXIT SHORT':   TT({ko:'숏 청산',en:'EXIT SHORT',ja:'ショート決済',es:'SALIR',de:'EXIT'}),
+    'FULL LONG':    TT({ko:'전량 진입',en:'FULL LONG',ja:'全量エントリー',es:'LONG TOTAL',de:'VOLL-LONG',fr:'LONG TOTAL',pt:'LONG TOTAL',tr:'TAM LONG',vi:'LONG TOÀN PHẦN'}),
+    'ADD LONG':     TT({ko:'비중 확대',en:'ADD LONG',ja:'比率拡大',es:'MÁS LONG',de:'LONG+',fr:'AUGMENTER LONG',pt:'AUMENTAR LONG',tr:'LONG ARTIR',vi:'TĂNG LONG'}),
+    'SPLIT LONG':   TT({ko:'분할 진입',en:'SPLIT LONG',ja:'分割エントリー',es:'LONG PARCIAL',de:'TEIL-LONG',fr:'LONG ÉCHELONNÉ',pt:'LONG ESCALONADO',tr:'KADEMELİ LONG',vi:'LONG TỪNG PHẦN'}),
+    'WATCH':        TT({ko:'관찰',en:'WATCH',ja:'様子見',es:'ESPERAR',de:'WARTEN',fr:'SURVEILLER',pt:'OBSERVAR',tr:'İZLE',vi:'QUAN SÁT'}),
+    'SPLIT EXIT':   TT({ko:'분할 청산',en:'SPLIT EXIT',ja:'分割決済',es:'SALIDA PARCIAL',de:'TEIL-EXIT',fr:'SORTIE ÉCHELONNÉE',pt:'SAÍDA ESCALONADA',tr:'KADEMELİ ÇIKIŞ',vi:'THOÁT TỪNG PHẦN'}),
+    'EXIT LONG':    TT({ko:'청산 권고',en:'EXIT LONG',ja:'決済推奨',es:'SALIR',de:'EXIT',fr:'SORTIR DU LONG',pt:'SAIR DO LONG',tr:'LONG ÇIK',vi:'THOÁT LONG'}),
+    'FULL SHORT':   TT({ko:'풀 숏 진입',en:'FULL SHORT',ja:'フルショート',es:'SHORT TOTAL',de:'VOLL-SHORT',fr:'SHORT TOTAL',pt:'SHORT TOTAL',tr:'TAM SHORT',vi:'SHORT TOÀN PHẦN'}),
+    'ADD SHORT':    TT({ko:'숏 확대',en:'ADD SHORT',ja:'ショート拡大',es:'MÁS SHORT',de:'SHORT+',fr:'AUGMENTER SHORT',pt:'AUMENTAR SHORT',tr:'SHORT ARTIR',vi:'TĂNG SHORT'}),
+    'PREPARE SHORT':TT({ko:'숏 준비',en:'PREPARE SHORT',ja:'ショート準備',es:'PREPARAR',de:'BEREIT',fr:'PRÉPARER SHORT',pt:'PREPARAR SHORT',tr:'SHORT HAZIRLA',vi:'CHUẨN BỊ SHORT'}),
+    'EXIT SHORT':   TT({ko:'숏 청산',en:'EXIT SHORT',ja:'ショート決済',es:'SALIR',de:'EXIT',fr:'SORTIR DU SHORT',pt:'SAIR DO SHORT',tr:'SHORT ÇIK',vi:'THOÁT SHORT'}),
   };
   document.getElementById('scoreAction').textContent=actionLabelMap[result.action] || result.action;
   document.getElementById('scoreAction').style.color=result.acolor;
@@ -786,23 +1239,23 @@ function renderAll(ind) {
     let descTxt = '';
     if(currentMode === 'buy') {
       const buyDescMap = {
-        'FULL LONG':    TT({ko:'최강 신호. 풀 롱 or 레버리지 진입.',en:'Max signal. Full long entry.',ja:'最強シグナル。フルロングまたはレバレッジエントリー。',es:'Señal máxima. Largo total o entrada apalancada.',de:'Maximales Signal. Voller Long oder gehebelter Einstieg.'}),
-        'ADD LONG':     TT({ko:'강한 신호. 목표 비중 70~100% 진입.',en:'Strong signal. 70~100% of target.',ja:'強いシグナル。目標比率70~100%でエントリー。',es:'Señal fuerte. Entrada 70~100% del objetivo.',de:'Starkes Signal. Einstieg 70~100% des Ziels.'}),
-        'SPLIT LONG':   TT({ko:'분할 시작. 목표 비중 30~50% 진입.',en:'Split entry. 30~50% of target.',ja:'分割開始。目標比率30~50%でエントリー。',es:'Inicio escalonado. Entrada 30~50% del objetivo.',de:'Staffelung startet. Einstieg 30~50% des Ziels.'}),
-        'WATCH':        TT({ko:'관찰 구간. 소량 선진입 or 트리거 대기.',en:'Watch. Small entry or await trigger.',ja:'様子見ゾーン。少量の先行エントリーまたはトリガー待ち。',es:'Zona de observación. Entrada pequeña o esperar disparador.',de:'Beobachtungszone. Kleiner Voreinstieg oder auf Trigger warten.'}),
-        'SPLIT EXIT':   TT({ko:'일부 정리. 리스크 관리 구간.',en:'Partial exit. Risk management zone.',ja:'一部決済。リスク管理ゾーン。',es:'Salida parcial. Zona de gestión de riesgo.',de:'Teilausstieg. Risikomanagement-Zone.'}),
-        'EXIT LONG':    TT({ko:'전량 청산 고려. 고점 경고.',en:'Consider full exit. Top warning.',ja:'全量決済を検討。天井警告。',es:'Considerar salida total. Advertencia de techo.',de:'Vollständigen Ausstieg erwägen. Top-Warnung.'}),
+        'FULL LONG':    TT({ko:'최강 신호. 풀 롱 or 레버리지 진입.',en:'Max signal. Full long entry.',ja:'最強シグナル。フルロングまたはレバレッジエントリー。',es:'Señal máxima. Largo total o entrada apalancada.',de:'Maximales Signal. Voller Long oder gehebelter Einstieg.',fr:'Signal max. Entrée long totale.',pt:'Sinal máximo. Entrada long total.',tr:'Maks sinyal. Tam long girişi.',vi:'Tín hiệu tối đa. Vào long toàn phần.'}),
+        'ADD LONG':     TT({ko:'강한 신호. 목표 비중 70~100% 진입.',en:'Strong signal. 70~100% of target.',ja:'強いシグナル。目標比率70~100%でエントリー。',es:'Señal fuerte. Entrada 70~100% del objetivo.',de:'Starkes Signal. Einstieg 70~100% des Ziels.',fr:'Signal fort. 70~100% de l\'objectif.',pt:'Sinal forte. 70~100% do alvo.',tr:'Güçlü sinyal. Hedefin %70~100\'ü.',vi:'Tín hiệu mạnh. 70~100% mục tiêu.'}),
+        'SPLIT LONG':   TT({ko:'분할 시작. 목표 비중 30~50% 진입.',en:'Split entry. 30~50% of target.',ja:'分割開始。目標比率30~50%でエントリー。',es:'Inicio escalonado. Entrada 30~50% del objetivo.',de:'Staffelung startet. Einstieg 30~50% des Ziels.',fr:'Entrée échelonnée. 30~50% de l\'objectif.',pt:'Entrada escalonada. 30~50% do alvo.',tr:'Kademeli giriş. Hedefin %30~50\'si.',vi:'Vào từng phần. 30~50% mục tiêu.'}),
+        'WATCH':        TT({ko:'관찰 구간. 소량 선진입 or 트리거 대기.',en:'Watch. Small entry or await trigger.',ja:'様子見ゾーン。少量の先行エントリーまたはトリガー待ち。',es:'Zona de observación. Entrada pequeña o esperar disparador.',de:'Beobachtungszone. Kleiner Voreinstieg oder auf Trigger warten.',fr:'Surveiller. Petite entrée ou attendre le déclencheur.',pt:'Observar. Entrada pequena ou aguardar gatilho.',tr:'İzle. Küçük giriş veya tetikleyici bekle.',vi:'Quan sát. Vào nhỏ hoặc chờ kích hoạt.'}),
+        'SPLIT EXIT':   TT({ko:'일부 정리. 리스크 관리 구간.',en:'Partial exit. Risk management zone.',ja:'一部決済。リスク管理ゾーン。',es:'Salida parcial. Zona de gestión de riesgo.',de:'Teilausstieg. Risikomanagement-Zone.',fr:'Sortie partielle. Zone de gestion du risque.',pt:'Saída parcial. Zona de gestão de risco.',tr:'Kısmi çıkış. Risk yönetimi bölgesi.',vi:'Thoát một phần. Vùng quản lý rủi ro.'}),
+        'EXIT LONG':    TT({ko:'전량 청산 고려. 고점 경고.',en:'Consider full exit. Top warning.',ja:'全量決済を検討。天井警告。',es:'Considerar salida total. Advertencia de techo.',de:'Vollständigen Ausstieg erwägen. Top-Warnung.',fr:'Envisager une sortie totale. Alerte de sommet.',pt:'Considere saída total. Aviso de topo.',tr:'Tam çıkışı düşün. Tepe uyarısı.',vi:'Cân nhắc thoát toàn bộ. Cảnh báo đỉnh.'}),
       };
       descTxt = buyDescMap[result.action] || (currentLang==='ko' ? (result.actionDesc || '') : '');
     } else {
       // 백엔드(score_calc.php)는 한글 설명만 내려주므로, 영어/일본어 모드에서는 별도 번역 맵을 사용
       const sellDescMap = {
-        'FULL SHORT':    TT({ko:'극단 과열. 풀 숏 진입.',en:'Extreme overheat. Full short entry.',ja:'極端な過熱。フルショートエントリー。',es:'Sobrecalentamiento extremo. Entrada corta total.',de:'Extreme Überhitzung. Vollständiger Short-Einstieg.'}),
-        'ADD SHORT':     TT({ko:'강한 과열. 숏 비중 확대.',en:'Strong overheat. Increase short.',ja:'強い過熱。ショート比率拡大。',es:'Sobrecalentamiento fuerte. Aumentar posición corta.',de:'Starke Überhitzung. Short-Position erhöhen.'}),
-        'PREPARE SHORT': TT({ko:'과열 시작. 숏 준비.',en:'Overheat starting. Prepare short.',ja:'過熱開始。ショート準備。',es:'Inicio de sobrecalentamiento. Preparar corto.',de:'Überhitzung beginnt. Short vorbereiten.'}),
-        'WATCH':         TT({ko:'중립 관찰.',en:'Neutral watch.',ja:'中立の様子見。',es:'Observación neutral.',de:'Neutrale Beobachtung.'}),
-        'SPLIT EXIT':    TT({ko:'저점 근접. 숏 분할 청산.',en:'Near bottom. Scale out of short.',ja:'底値接近。ショート分割決済。',es:'Cerca del suelo. Salida escalonada del corto.',de:'Nahe am Tief. Gestaffelter Short-Ausstieg.'}),
-        'EXIT SHORT':    TT({ko:'바닥. 숏 즉시 청산.',en:'Bottom zone. Exit short immediately.',ja:'底値圏。ショート即時決済。',es:'Suelo. Cerrar corto inmediatamente.',de:'Boden. Short sofort schließen.'}),
+        'FULL SHORT':    TT({ko:'극단 과열. 풀 숏 진입.',en:'Extreme overheat. Full short entry.',ja:'極端な過熱。フルショートエントリー。',es:'Sobrecalentamiento extremo. Entrada corta total.',de:'Extreme Überhitzung. Vollständiger Short-Einstieg.',fr:'Surchauffe extrême. Entrée short totale.',pt:'Sobreaquecimento extremo. Entrada short total.',tr:'Aşırı ısınma. Tam short girişi.',vi:'Quá nóng cực độ. Vào short toàn phần.'}),
+        'ADD SHORT':     TT({ko:'강한 과열. 숏 비중 확대.',en:'Strong overheat. Increase short.',ja:'強い過熱。ショート比率拡大。',es:'Sobrecalentamiento fuerte. Aumentar posición corta.',de:'Starke Überhitzung. Short-Position erhöhen.',fr:'Forte surchauffe. Augmenter le short.',pt:'Sobreaquecimento forte. Aumentar short.',tr:'Güçlü ısınma. Short artır.',vi:'Quá nóng mạnh. Tăng short.'}),
+        'PREPARE SHORT': TT({ko:'과열 시작. 숏 준비.',en:'Overheat starting. Prepare short.',ja:'過熱開始。ショート準備。',es:'Inicio de sobrecalentamiento. Preparar corto.',de:'Überhitzung beginnt. Short vorbereiten.',fr:'Surchauffe naissante. Préparer le short.',pt:'Sobreaquecimento começando. Preparar short.',tr:'Isınma başlıyor. Short hazırla.',vi:'Bắt đầu quá nóng. Chuẩn bị short.'}),
+        'WATCH':         TT({ko:'중립 관찰.',en:'Neutral watch.',ja:'中立の様子見。',es:'Observación neutral.',de:'Neutrale Beobachtung.',fr:'Surveillance neutre.',pt:'Observação neutra.',tr:'Nötr izleme.',vi:'Quan sát trung lập.'}),
+        'SPLIT EXIT':    TT({ko:'저점 근접. 숏 분할 청산.',en:'Near bottom. Scale out of short.',ja:'底値接近。ショート分割決済。',es:'Cerca del suelo. Salida escalonada del corto.',de:'Nahe am Tief. Gestaffelter Short-Ausstieg.',fr:'Proche du creux. Réduire le short.',pt:'Perto do fundo. Reduzir short.',tr:'Dibe yakın. Short azalt.',vi:'Gần đáy. Giảm short.'}),
+        'EXIT SHORT':    TT({ko:'바닥. 숏 즉시 청산.',en:'Bottom zone. Exit short immediately.',ja:'底値圏。ショート即時決済。',es:'Suelo. Cerrar corto inmediatamente.',de:'Boden. Short sofort schließen.',fr:'Zone de creux. Sortir du short immédiatement.',pt:'Zona de fundo. Sair do short imediatamente.',tr:'Dip bölgesi. Short\'tan hemen çık.',vi:'Vùng đáy. Thoát short ngay.'}),
       };
       descTxt = sellDescMap[result.shortSignal] || (currentLang==='ko' ? (result.shortDesc || '') : '');
     }
@@ -851,20 +1304,20 @@ function renderAll(ind) {
     const makeRow = (segs) => segs.map((seg) => {
       const active = sc >= seg.min && sc < seg.max;
       const segLabel = seg[currentLang] || seg.en;
-      return `<div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
-        background:${seg.bg};color:#f5f5f5;font-size:9px;gap:1px;padding:4px 2px;
-        cursor:default;border-radius:0;border-bottom:3px solid ${seg.color};
-        ${active?'outline:2px solid rgba(255,255,255,.55);outline-offset:-2px;font-weight:700;font-size:10px':''}">
-        <span style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center;color:#f5f5f5">${segLabel}</span>
-        <span style="font-size:7px;opacity:.75;color:#f5f5f5">${seg.s}</span>
+      return `<div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+        background:${seg.bg};border-radius:8px;padding:8px 3px;
+        border:1.5px solid ${active?'var(--orange)':'transparent'};${active?'':'opacity:.9'}">
+        <span style="font-size:9px;font-weight:600;color:rgba(255,255,255,.7)">${seg.s}</span>
+        <span style="font-size:10.5px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center">${segLabel}</span>
       </div>`;
     }).join('');
+    abarEl.style.display = 'flex';
     abarEl.style.flexDirection = 'column';
     abarEl.style.height = 'auto';
     abarEl.style.overflow = 'visible';
     abarEl.innerHTML =
-      `<div style="display:flex;border-radius:6px 6px 0 0;overflow:hidden;height:38px">${makeRow(top4)}</div>` +
-      `<div style="display:flex;border-radius:0 0 6px 6px;overflow:hidden;height:38px;margin-top:1px">${makeRow(bot3)}</div>`;
+      `<div style="display:flex;gap:5px">${makeRow(top4)}</div>` +
+      `<div style="display:flex;gap:5px;margin-top:12px">${makeRow(bot3)}</div>`;
   }
 
   // Mini stats
@@ -904,58 +1357,58 @@ function renderAll(ind) {
     let stMain,stDesc,gAction,gDesc,exitSig,exitDesc;
 
     if(sc>=8.0){
-      stMain=TT({ko:'🔴 극단 과열 — 역대 고점 수준',en:'🔴 Extreme Overheat — Historical Top',ja:'🔴 極端な過熱 — 歴代高値水準',es:'🔴 Sobrecalentamiento Extremo — Nivel de Techo Histórico',de:'🔴 Extreme Überhitzung — Historisches Hoch-Niveau'});
-      stDesc=TT({ko:'모든 과열 지표가 위험 구간. 2021년 11월 ATH 직전과 유사한 패턴.',en:'All overheat indicators in danger zone.',ja:'全ての過熱指標が危険水準。2021年11月のATH直前と類似したパターン。',es:'Todos los indicadores de sobrecalentamiento en zona de peligro. Patrón similar al justo antes del ATH de noviembre 2021.',de:'Alle Überhitzungsindikatoren im Gefahrenbereich. Ähnliches Muster wie kurz vor dem ATH im November 2021.'});
-      gAction=TT({ko:'FULL SHORT — 풀 숏 진입',en:'FULL SHORT — Full short entry',ja:'FULL SHORT — フルショートエントリー',es:'SHORT TOTAL — Entrada corta total',de:'VOLL-SHORT — Vollständiger Short-Einstieg'});
-      gDesc=TT({ko:'목표 비중 100% 숏 진입. 레버리지 숏 고려 가능. 스탑로스: ATH +5% 위 설정.',en:'Enter 100% short. Leverage possible. Stop loss: 5% above ATH.',ja:'目標比率100%でショートエントリー。レバレッジショートも検討可。ストップロス: ATH+5%上に設定。',es:'Entrada corta 100% del objetivo. Corto apalancado posible. Stop loss: 5% por encima del ATH.',de:'Short-Einstieg 100% des Ziels. Gehebelter Short möglich. Stop-Loss: 5% über ATH.'});
-      exitSig=TT({ko:'청산 조건 (중요)',en:'Exit Conditions (Important)',ja:'決済条件 (重要)',es:'Condiciones de Salida (Importante)',de:'Ausstiegsbedingungen (Wichtig)'});
-      exitDesc=TT({ko:'• MVRV Z 2.5 이하 하락\n• Fear & Greed 50 이하\n• 선물 갭 0.05% 이하로 축소',en:'• MVRV Z drops below 2.5\n• Fear & Greed below 50\n• Futures gap shrinks below 0.05%',ja:'• MVRV Zが2.5以下に低下\n• Fear & Greedが50以下\n• 先物ギャップが0.05%以下に縮小',es:'• MVRV Z cae por debajo de 2.5\n• Fear & Greed por debajo de 50\n• Brecha de futuros se reduce por debajo de 0.05%',de:'• MVRV Z fällt unter 2,5\n• Angst & Gier unter 50\n• Futures-Spread schrumpft unter 0,05%'});
+      stMain=TT({ko:'극단 과열 — 역대 고점 수준',en:'Extreme Overheat — Historical Top',ja:'極端な過熱 — 歴代高値水準',es:'Sobrecalentamiento Extremo — Nivel de Techo Histórico',de:'Extreme Überhitzung — Historisches Hoch-Niveau',fr:'Surchauffe Extrême — Sommet Historique',pt:'Sobreaquecimento Extremo — Topo Histórico',tr:'Aşırı Isınma — Tarihsel Tepe',vi:'Quá Nóng Cực Độ — Đỉnh Lịch Sử'});
+      stDesc=TT({ko:'모든 과열 지표가 위험 구간. 2021년 11월 ATH 직전과 유사한 패턴.',en:'All overheat indicators in danger zone.',ja:'全ての過熱指標が危険水準。2021年11月のATH直前と類似したパターン。',es:'Todos los indicadores de sobrecalentamiento en zona de peligro. Patrón similar al justo antes del ATH de noviembre 2021.',de:'Alle Überhitzungsindikatoren im Gefahrenbereich. Ähnliches Muster wie kurz vor dem ATH im November 2021.',fr:'Tous les indicateurs de surchauffe en zone de danger. Schéma similaire à juste avant l\'ATH de novembre 2021.',pt:'Todos os indicadores de sobreaquecimento em zona de perigo. Padrão semelhante ao anterior ao ATH de novembro de 2021.',tr:'Tüm aşırı ısınma göstergeleri tehlike bölgesinde. Kasım 2021 ATH öncesine benzer bir desen.',vi:'Tất cả chỉ báo quá nóng ở vùng nguy hiểm. Mô hình tương tự ngay trước ATH tháng 11/2021.'});
+      gAction=TT({ko:'FULL SHORT — 풀 숏 진입',en:'FULL SHORT — Full short entry',ja:'FULL SHORT — フルショートエントリー',es:'SHORT TOTAL — Entrada corta total',de:'VOLL-SHORT — Vollständiger Short-Einstieg',fr:'SHORT TOTAL — Entrée short totale',pt:'SHORT TOTAL — Entrada short total',tr:'TAM SHORT — Tam short girişi',vi:'SHORT TOÀN PHẦN — Vào short toàn phần'});
+      gDesc=TT({ko:'목표 비중 100% 숏 진입. 레버리지 숏 고려 가능. 스탑로스: ATH +5% 위 설정.',en:'Enter 100% short. Leverage possible. Stop loss: 5% above ATH.',ja:'目標比率100%でショートエントリー。レバレッジショートも検討可。ストップロス: ATH+5%上に設定。',es:'Entrada corta 100% del objetivo. Corto apalancado posible. Stop loss: 5% por encima del ATH.',de:'Short-Einstieg 100% des Ziels. Gehebelter Short möglich. Stop-Loss: 5% über ATH.',fr:'Entrez 100% en short. Levier possible. Stop loss : 5% au-dessus de l\'ATH.',pt:'Entre 100% short. Alavancagem possível. Stop loss: 5% acima do ATH.',tr:'%100 short gir. Kaldıraç mümkün. Stop loss: ATH\'nin %5 üstü.',vi:'Vào 100% short. Có thể đòn bẩy. Cắt lỗ: 5% trên ATH.'});
+      exitSig=TT({ko:'청산 조건 (중요)',en:'Exit Conditions (Important)',ja:'決済条件 (重要)',es:'Condiciones de Salida (Importante)',de:'Ausstiegsbedingungen (Wichtig)',fr:'Conditions de sortie (Important)',pt:'Condições de saída (Importante)',tr:'Çıkış Koşulları (Önemli)',vi:'Điều kiện thoát (Quan trọng)'});
+      exitDesc=TT({ko:'• MVRV Z 2.5 이하 하락\n• Fear & Greed 50 이하\n• 선물 갭 0.05% 이하로 축소',en:'• MVRV Z drops below 2.5\n• Fear & Greed below 50\n• Futures gap shrinks below 0.05%',ja:'• MVRV Zが2.5以下に低下\n• Fear & Greedが50以下\n• 先物ギャップが0.05%以下に縮小',es:'• MVRV Z cae por debajo de 2.5\n• Fear & Greed por debajo de 50\n• Brecha de futuros se reduce por debajo de 0.05%',de:'• MVRV Z fällt unter 2,5\n• Angst & Gier unter 50\n• Futures-Spread schrumpft unter 0,05%',fr:'• MVRV Z passe sous 2,5\n• Fear & Greed sous 50\n• L\'écart des futures se réduit sous 0,05%',pt:'• MVRV Z cai abaixo de 2,5\n• Fear & Greed abaixo de 50\n• Gap de futuros encolhe abaixo de 0,05%',tr:'• MVRV Z 2,5 altına düşer\n• Fear & Greed 50 altında\n• Vadeli farkı %0,05 altına iner',vi:'• MVRV Z xuống dưới 2,5\n• Fear & Greed dưới 50\n• Chênh lệch futures co dưới 0,05%'});
     } else if(sc>=7.0){
-      stMain=TT({ko:'🔴 강한 과열 신호',en:'🔴 Strong Overheat Signal',ja:'🔴 強い過熱シグナル',es:'🔴 Señal de Sobrecalentamiento Fuerte',de:'🔴 Starkes Überhitzungssignal'});
-      stDesc=TT({ko:'주요 과열 지표들이 경고 수준. 탐욕 지수와 선물 포지션이 과도하게 롱 쏠림.',en:'Key overheat indicators at warning levels. Extreme long bias.',ja:'主要な過熱指標が警告水準。強欲指数と先物ポジションが過度にロングに偏っています。',es:'Los principales indicadores de sobrecalentamiento en nivel de advertencia. Índice de codicia y posiciones de futuros muy sesgados a largo.',de:'Wichtige Überhitzungsindikatoren auf Warnstufe. Gier-Index und Futures-Positionen stark long-lastig.'});
-      gAction=TT({ko:'ADD SHORT — 숏 비중 확대',en:'ADD SHORT — Increase short',ja:'ADD SHORT — ショート比率拡大',es:'SHORT+ — Ampliar posición corta',de:'SHORT+ — Short-Position erhöhen'});
-      gDesc=TT({ko:'기존 숏 있다면 목표 비중의 70~100%로 확대. 신규 진입은 분할로.',en:'If holding short, scale to 70~100%. New entry: split in.',ja:'既存ショートがあれば目標比率の70~100%まで拡大。新規エントリーは分割で。',es:'Si mantiene un corto, ampliar al 70~100% del objetivo. Nueva entrada de forma escalonada.',de:'Bei bestehendem Short auf 70~100% des Ziels erhöhen. Neueinstieg gestaffelt.'});
-      exitSig=TT({ko:'숏 청산 조건',en:'Short Exit Conditions',ja:'ショート決済条件',es:'Condiciones de Salida Corta',de:'Short-Ausstiegsbedingungen'});
-      exitDesc=TT({ko:'• NUPL 50% 이하\n• Fear & Greed 60 이하\n• Coinbase Premium 음수 전환',en:'• NUPL drops below 50%\n• Fear & Greed below 60\n• Coinbase Premium turns negative',ja:'• NUPLが50%以下\n• Fear & Greedが60以下\n• Coinbaseプレミアムがマイナスに転換',es:'• NUPL cae por debajo de 50%\n• Fear & Greed por debajo de 60\n• Coinbase Premium se vuelve negativo',de:'• NUPL fällt unter 50%\n• Angst & Gier unter 60\n• Coinbase Premium wird negativ'});
+      stMain=TT({ko:'강한 과열 신호',en:'Strong Overheat Signal',ja:'強い過熱シグナル',es:'Señal de Sobrecalentamiento Fuerte',de:'Starkes Überhitzungssignal',fr:'Signal de Surchauffe Fort',pt:'Sinal de Sobreaquecimento Forte',tr:'Güçlü Isınma Sinyali',vi:'Tín Hiệu Quá Nóng Mạnh'});
+      stDesc=TT({ko:'주요 과열 지표들이 경고 수준. 탐욕 지수와 선물 포지션이 과도하게 롱 쏠림.',en:'Key overheat indicators at warning levels. Extreme long bias.',ja:'主要な過熱指標が警告水準。強欲指数と先物ポジションが過度にロングに偏っています。',es:'Los principales indicadores de sobrecalentamiento en nivel de advertencia. Índice de codicia y posiciones de futuros muy sesgados a largo.',de:'Wichtige Überhitzungsindikatoren auf Warnstufe. Gier-Index und Futures-Positionen stark long-lastig.',fr:'Indicateurs de surchauffe clés à des niveaux d\'alerte. Biais long extrême, positions futures et avidité excessives.',pt:'Principais indicadores de sobreaquecimento em níveis de alerta. Viés long extremo, ganância e futuros excessivos.',tr:'Ana ısınma göstergeleri uyarı seviyesinde. Aşırı long eğilim, açgözlülük ve vadeli aşırı.',vi:'Các chỉ báo quá nóng chính ở mức cảnh báo. Thiên hướng long cực độ, tham lam và futures quá mức.'});
+      gAction=TT({ko:'ADD SHORT — 숏 비중 확대',en:'ADD SHORT — Increase short',ja:'ADD SHORT — ショート比率拡大',es:'SHORT+ — Ampliar posición corta',de:'SHORT+ — Short-Position erhöhen',fr:'AUGMENTER SHORT — Augmenter le short',pt:'AUMENTAR SHORT — Aumentar short',tr:'SHORT ARTIR — Short\'u artır',vi:'TĂNG SHORT — Tăng short'});
+      gDesc=TT({ko:'기존 숏 있다면 목표 비중의 70~100%로 확대. 신규 진입은 분할로.',en:'If holding short, scale to 70~100%. New entry: split in.',ja:'既存ショートがあれば目標比率の70~100%まで拡大。新規エントリーは分割で。',es:'Si mantiene un corto, ampliar al 70~100% del objetivo. Nueva entrada de forma escalonada.',de:'Bei bestehendem Short auf 70~100% des Ziels erhöhen. Neueinstieg gestaffelt.',fr:'Si vous détenez un short, montez à 70~100%. Nouvelle entrée : échelonnée.',pt:'Se está short, aumente para 70~100%. Nova entrada: escalonada.',tr:'Short\'un varsa %70~100\'e çıkar. Yeni giriş: kademeli.',vi:'Nếu đang short, tăng lên 70~100%. Vào mới: từng phần.'});
+      exitSig=TT({ko:'숏 청산 조건',en:'Short Exit Conditions',ja:'ショート決済条件',es:'Condiciones de Salida Corta',de:'Short-Ausstiegsbedingungen',fr:'Conditions de sortie du short',pt:'Condições de saída do short',tr:'Short Çıkış Koşulları',vi:'Điều kiện thoát short'});
+      exitDesc=TT({ko:'• NUPL 50% 이하\n• Fear & Greed 60 이하\n• Coinbase Premium 음수 전환',en:'• NUPL drops below 50%\n• Fear & Greed below 60\n• Coinbase Premium turns negative',ja:'• NUPLが50%以下\n• Fear & Greedが60以下\n• Coinbaseプレミアムがマイナスに転換',es:'• NUPL cae por debajo de 50%\n• Fear & Greed por debajo de 60\n• Coinbase Premium se vuelve negativo',de:'• NUPL fällt unter 50%\n• Angst & Gier unter 60\n• Coinbase Premium wird negativ',fr:'• NUPL passe sous 50%\n• Fear & Greed sous 60\n• Coinbase Premium devient négatif',pt:'• NUPL cai abaixo de 50%\n• Fear & Greed abaixo de 60\n• Coinbase Premium fica negativo',tr:'• NUPL %50 altına düşer\n• Fear & Greed 60 altında\n• Coinbase Premium negatife döner',vi:'• NUPL xuống dưới 50%\n• Fear & Greed dưới 60\n• Coinbase Premium thành âm'});
     } else if(sc>=6.0){
-      stMain=TT({ko:'🟠 과열 시작 — 준비 구간',en:'🟠 Overheat Beginning — Prepare',ja:'🟠 過熱開始 — 準備ゾーン',es:'🟠 Inicio de Sobrecalentamiento — Zona de Preparación',de:'🟠 Überhitzung beginnt — Vorbereitungszone'});
-      stDesc=TT({ko:'일부 지표가 과열 신호. 아직 확정은 아니지만 숏 준비할 타이밍.',en:'Some overheat signals. Not confirmed but time to prepare.',ja:'一部の指標が過熱シグナル。まだ確定ではないもののショート準備のタイミング。',es:'Algunos indicadores muestran sobrecalentamiento. Aún no confirmado, pero es momento de preparar corto.',de:'Einige Indikatoren zeigen Überhitzung. Noch nicht bestätigt, aber Zeit, Short vorzubereiten.'});
-      gAction=TT({ko:'PREPARE SHORT — 소량 선진입',en:'PREPARE SHORT — Small entry',ja:'PREPARE SHORT — 少量の先行エントリー',es:'PREPARAR — Entrada pequeña anticipada',de:'BEREIT — Kleiner Voreinstieg'});
-      gDesc=TT({ko:'목표 비중의 30~50% 소량 선진입. 추가 과열 확인 후 비중 확대.',en:'Enter 30~50% of target. Wait for confirmation to add.',ja:'目標比率の30~50%を少量先行エントリー。さらなる過熱確認後に拡大。',es:'Entrada pequeña anticipada 30~50% del objetivo. Ampliar tras confirmar más sobrecalentamiento.',de:'Kleiner Voreinstieg 30~50% des Ziels. Nach Bestätigung weiterer Überhitzung erhöhen.'});
-      exitSig=TT({ko:'추가 확인 조건',en:'Confirmation needed',ja:'追加確認条件',es:'Confirmación necesaria',de:'Bestätigung erforderlich'});
-      exitDesc=TT({ko:'• 다음 추가 조건 대기:\n• NUPL 60% 이상\n• Fear & Greed 75 이상',en:'• Wait for:\n• NUPL above 60%\n• Fear & Greed above 75',ja:'• 次の条件を待機:\n• NUPLが60%以上\n• Fear & Greedが75以上',es:'• Esperar próxima condición:\n• NUPL por encima de 60%\n• Fear & Greed por encima de 75',de:'• Warten auf nächste Bedingung:\n• NUPL über 60%\n• Angst & Gier über 75'});
+      stMain=TT({ko:'과열 시작 — 준비 구간',en:'Overheat Beginning — Prepare',ja:'過熱開始 — 準備ゾーン',es:'Inicio de Sobrecalentamiento — Zona de Preparación',de:'Überhitzung beginnt — Vorbereitungszone',fr:'Surchauffe Naissante — Préparer',pt:'Sobreaquecimento Iniciando — Preparar',tr:'Isınma Başlıyor — Hazırlan',vi:'Bắt Đầu Quá Nóng — Chuẩn Bị'});
+      stDesc=TT({ko:'일부 지표가 과열 신호. 아직 확정은 아니지만 숏 준비할 타이밍.',en:'Some overheat signals. Not confirmed but time to prepare.',ja:'一部の指標が過熱シグナル。まだ確定ではないもののショート準備のタイミング。',es:'Algunos indicadores muestran sobrecalentamiento. Aún no confirmado, pero es momento de preparar corto.',de:'Einige Indikatoren zeigen Überhitzung. Noch nicht bestätigt, aber Zeit, Short vorzubereiten.',fr:'Quelques signaux de surchauffe. Non confirmé mais le moment de préparer le short.',pt:'Alguns sinais de sobreaquecimento. Não confirmado mas hora de preparar o short.',tr:'Bazı ısınma sinyalleri. Onaylanmadı ama short hazırlama zamanı.',vi:'Một số tín hiệu quá nóng. Chưa xác nhận nhưng là lúc chuẩn bị short.'});
+      gAction=TT({ko:'PREPARE SHORT — 소량 선진입',en:'PREPARE SHORT — Small entry',ja:'PREPARE SHORT — 少量の先行エントリー',es:'PREPARAR — Entrada pequeña anticipada',de:'BEREIT — Kleiner Voreinstieg',fr:'PRÉPARER SHORT — Petite entrée',pt:'PREPARAR SHORT — Entrada pequena',tr:'SHORT HAZIRLA — Küçük giriş',vi:'CHUẨN BỊ SHORT — Vào nhỏ'});
+      gDesc=TT({ko:'목표 비중의 30~50% 소량 선진입. 추가 과열 확인 후 비중 확대.',en:'Enter 30~50% of target. Wait for confirmation to add.',ja:'目標比率の30~50%を少量先行エントリー。さらなる過熱確認後に拡大。',es:'Entrada pequeña anticipada 30~50% del objetivo. Ampliar tras confirmar más sobrecalentamiento.',de:'Kleiner Voreinstieg 30~50% des Ziels. Nach Bestätigung weiterer Überhitzung erhöhen.',fr:'Entrez 30~50% de l\'objectif. Attendez confirmation pour ajouter.',pt:'Entre 30~50% do alvo. Aguarde confirmação para adicionar.',tr:'Hedefin %30~50\'sini gir. Eklemek için onay bekle.',vi:'Vào 30~50% mục tiêu. Chờ xác nhận để thêm.'});
+      exitSig=TT({ko:'추가 확인 조건',en:'Confirmation needed',ja:'追加確認条件',es:'Confirmación necesaria',de:'Bestätigung erforderlich',fr:'Confirmation nécessaire',pt:'Confirmação necessária',tr:'Onay gerekli',vi:'Cần xác nhận'});
+      exitDesc=TT({ko:'• 다음 추가 조건 대기:\n• NUPL 60% 이상\n• Fear & Greed 75 이상',en:'• Wait for:\n• NUPL above 60%\n• Fear & Greed above 75',ja:'• 次の条件を待機:\n• NUPLが60%以上\n• Fear & Greedが75以上',es:'• Esperar próxima condición:\n• NUPL por encima de 60%\n• Fear & Greed por encima de 75',de:'• Warten auf nächste Bedingung:\n• NUPL über 60%\n• Angst & Gier über 75',fr:'• Attendez :\n• NUPL au-dessus de 60%\n• Fear & Greed au-dessus de 75',pt:'• Aguarde:\n• NUPL acima de 60%\n• Fear & Greed acima de 75',tr:'• Bekle:\n• NUPL %60 üstü\n• Fear & Greed 75 üstü',vi:'• Chờ:\n• NUPL trên 60%\n• Fear & Greed trên 75'});
     } else if(sc>=5.0){
-      stMain=TT({ko:'🟡 중립 관찰 구간',en:'🟡 Neutral Watch Zone',ja:'🟡 中立の様子見ゾーン',es:'🟡 Zona de Observación Neutral',de:'🟡 Neutrale Beobachtungszone'});
-      stDesc=TT({ko:'뚜렷한 방향성 없음. 과열도 저점도 아닌 중간 구간. 서두르지 마세요.',en:'No clear direction. Neither overheat nor bottom.',ja:'明確な方向性なし。過熱でも底値でもない中間ゾーン。焦らないでください。',es:'Sin dirección clara. Ni sobrecalentado ni en suelo, zona intermedia. No se apresure.',de:'Keine klare Richtung. Weder überhitzt noch am Tief, mittlere Zone. Nicht überstürzen.'});
-      gAction=TT({ko:'WATCH — 진입 대기',en:'WATCH — Wait for signal',ja:'WATCH — エントリー待機',es:'ESPERAR — Esperar señal',de:'WARTEN — Auf Signal warten'});
-      gDesc=TT({ko:'숏 진입 서두르지 마세요. 6.0점 이상 도달 시 행동. 현 시장 모니터링 지속.',en:'Do not rush. Act when score reaches 6.0+. Keep monitoring.',ja:'ショートエントリーを急がないでください。スコア6.0以上で行動。現市場を継続監視。',es:'No se apresure a entrar en corto. Actuar al alcanzar 6.0+. Seguir monitoreando el mercado actual.',de:'Nicht überstürzt short gehen. Bei Erreichen von 6,0+ handeln. Markt weiter beobachten.'});
-      exitSig=TT({ko:'기존 숏 보유 중이라면',en:'If holding short position',ja:'既存ショート保有中の場合',es:'Si mantiene posición corta',de:'Bei bestehender Short-Position'});
-      exitDesc=TT({ko:'• 목표 수익 50% 달성 시 절반 청산\n• 손절: 진입가 대비 +5%',en:'• Close 50% at 50% profit target\n• Stop loss: +5% from entry',ja:'• 目標利益50%達成時に半分決済\n• 損切り: エントリー価格比+5%',es:'• Cerrar la mitad al alcanzar 50% de ganancia objetivo\n• Stop loss: +5% desde entrada',de:'• Bei 50% Zielgewinn die Hälfte schließen\n• Stop-Loss: +5% vom Einstieg'});
+      stMain=TT({ko:'중립 관찰 구간',en:'Neutral Watch Zone',ja:'中立の様子見ゾーン',es:'Zona de Observación Neutral',de:'Neutrale Beobachtungszone',fr:'Zone de Surveillance Neutre',pt:'Zona de Observação Neutra',tr:'Nötr İzleme Bölgesi',vi:'Vùng Quan Sát Trung Lập'});
+      stDesc=TT({ko:'뚜렷한 방향성 없음. 과열도 저점도 아닌 중간 구간. 서두르지 마세요.',en:'No clear direction. Neither overheat nor bottom.',ja:'明確な方向性なし。過熱でも底値でもない中間ゾーン。焦らないでください。',es:'Sin dirección clara. Ni sobrecalentado ni en suelo, zona intermedia. No se apresure.',de:'Keine klare Richtung. Weder überhitzt noch am Tief, mittlere Zone. Nicht überstürzen.',fr:'Aucune direction claire. Ni surchauffe ni creux, zone intermédiaire. Ne vous précipitez pas.',pt:'Sem direção clara. Nem sobreaquecimento nem fundo, zona intermediária. Não tenha pressa.',tr:'Net yön yok. Ne aşırı ısınma ne dip, ara bölge. Acele etme.',vi:'Không có hướng rõ. Không quá nóng cũng không đáy, vùng trung gian. Đừng vội.'});
+      gAction=TT({ko:'WATCH — 진입 대기',en:'WATCH — Wait for signal',ja:'WATCH — エントリー待機',es:'ESPERAR — Esperar señal',de:'WARTEN — Auf Signal warten',fr:'SURVEILLER — Attendre le signal',pt:'OBSERVAR — Aguardar sinal',tr:'İZLE — Sinyal bekle',vi:'QUAN SÁT — Chờ tín hiệu'});
+      gDesc=TT({ko:'숏 진입 서두르지 마세요. 6.0점 이상 도달 시 행동. 현 시장 모니터링 지속.',en:'Do not rush. Act when score reaches 6.0+. Keep monitoring.',ja:'ショートエントリーを急がないでください。スコア6.0以上で行動。現市場を継続監視。',es:'No se apresure a entrar en corto. Actuar al alcanzar 6.0+. Seguir monitoreando el mercado actual.',de:'Nicht überstürzt short gehen. Bei Erreichen von 6,0+ handeln. Markt weiter beobachten.',fr:'Ne vous précipitez pas sur le short. Agissez quand le score atteint 6,0+. Continuez à surveiller.',pt:'Não tenha pressa no short. Aja quando a pontuação chegar a 6,0+. Continue monitorando.',tr:'Short\'ta acele etme. Puan 6,0+ olunca hareket et. İzlemeye devam et.',vi:'Đừng vội short. Hành động khi điểm đạt 6,0+. Tiếp tục theo dõi.'});
+      exitSig=TT({ko:'기존 숏 보유 중이라면',en:'If holding short position',ja:'既存ショート保有中の場合',es:'Si mantiene posición corta',de:'Bei bestehender Short-Position',fr:'Si vous détenez une position short',pt:'Se está com posição short',tr:'Short pozisyonun varsa',vi:'Nếu đang giữ vị thế short'});
+      exitDesc=TT({ko:'• 목표 수익 50% 달성 시 절반 청산\n• 손절: 진입가 대비 +5%',en:'• Close 50% at 50% profit target\n• Stop loss: +5% from entry',ja:'• 目標利益50%達成時に半分決済\n• 損切り: エントリー価格比+5%',es:'• Cerrar la mitad al alcanzar 50% de ganancia objetivo\n• Stop loss: +5% desde entrada',de:'• Bei 50% Zielgewinn die Hälfte schließen\n• Stop-Loss: +5% vom Einstieg',fr:'• Fermez 50% à 50% de l\'objectif de profit\n• Stop loss : +5% depuis l\'entrée',pt:'• Feche 50% ao atingir 50% da meta de lucro\n• Stop loss: +5% da entrada',tr:'• %50 kâr hedefinde %50 kapat\n• Stop loss: girişten +%5',vi:'• Đóng 50% khi đạt 50% mục tiêu lãi\n• Cắt lỗ: +5% từ điểm vào'});
     } else if(sc>=3.5){
-      stMain=TT({ko:'🟢 과열 신호 부재 — 숏 위험',en:'🟢 No Overheat Signals — Short Risky',ja:'🟢 過熱シグナル不在 — ショートリスク高',es:'🟢 Sin Señales de Sobrecalentamiento — Corto Riesgoso',de:'🟢 Keine Überhitzungssignale — Short riskant'});
-      stDesc=TT({ko:'현재 과열·고점 신호가 거의 없는 구간. 숏 포지션 보유 중이라면 일부 청산 권고. (※ 이 점수는 "지금 가격이 비싸 보이지 않는다"는 뜻이지, 실제 역사적 저점이라는 의미는 아닙니다.)',en:'Few overheat signals present right now. Partial exit recommended for shorts. (※ This means current price doesn\'t look overextended — not that it\'s an actual historical low.)',ja:'現在過熱・天井シグナルがほとんどないゾーン。ショートポジション保有中なら一部決済を推奨。(※このスコアは「今の価格が割高に見えない」という意味であり、実際の歴史的底値という意味ではありません。)',es:'Zona con casi ninguna señal de sobrecalentamiento o techo actualmente. Se recomienda salida parcial si mantiene posición corta. (※ Esta puntuación significa que "el precio actual no parece caro", no que sea un suelo histórico real.)',de:'Zone mit derzeit kaum Überhitzungs- oder Top-Signalen. Bei bestehender Short-Position wird Teilausstieg empfohlen. (※ Dieser Score bedeutet "aktueller Preis wirkt nicht teuer", nicht dass es sich um ein echtes historisches Tief handelt.)'});
-      gAction=TT({ko:'SPLIT EXIT — 분할 청산',en:'SPLIT EXIT — Scale out',ja:'SPLIT EXIT — 分割決済',es:'PARCIAL — Salida escalonada',de:'TEIL-EXIT — Gestaffelter Ausstieg'});
-      gDesc=TT({ko:'기존 숏의 50% 청산. 나머지는 추가 하락 관찰 후 판단. 신규 숏 진입 절대 금지.',en:'Close 50% of short. Hold rest carefully. No new short entries.',ja:'既存ショートの50%を決済。残りはさらなる下落を観察して判断。新規ショートエントリーは厳禁。',es:'Cerrar el 50% del corto existente. Decidir el resto tras observar más caídas. Prohibido abrir nuevos cortos.',de:'50% der bestehenden Short-Position schließen. Rest nach weiterer Beobachtung entscheiden. Keine neuen Short-Einstiege.'});
-      exitSig=TT({ko:'전량 청산 조건',en:'Full exit conditions',ja:'全量決済条件',es:'Condiciones de salida total',de:'Vollständige Ausstiegsbedingungen'});
-      exitDesc=TT({ko:'• MVRV Z 0.5 이하\n• Fear & Greed 20 이하\n• 선물 갭 음수 전환',en:'• MVRV Z below 0.5\n• Fear & Greed below 20\n• Futures gap turns negative',ja:'• MVRV Zが0.5以下\n• Fear & Greedが20以下\n• 先物ギャップがマイナスに転換',es:'• MVRV Z por debajo de 0.5\n• Fear & Greed por debajo de 20\n• Brecha de futuros se vuelve negativa',de:'• MVRV Z unter 0,5\n• Angst & Gier unter 20\n• Futures-Spread wird negativ'});
+      stMain=TT({ko:'과열 신호 부재 — 숏 위험',en:'No Overheat Signals — Short Risky',ja:'過熱シグナル不在 — ショートリスク高',es:'Sin Señales de Sobrecalentamiento — Corto Riesgoso',de:'Keine Überhitzungssignale — Short riskant',fr:'Aucun Signal de Surchauffe — Short Risqué',pt:'Sem Sinais de Sobreaquecimento — Short Arriscado',tr:'Isınma Sinyali Yok — Short Riskli',vi:'Không Có Tín Hiệu Quá Nóng — Short Rủi Ro'});
+      stDesc=TT({ko:'현재 과열·고점 신호가 거의 없는 구간. 숏 포지션 보유 중이라면 일부 청산 권고. (※ 이 점수는 "지금 가격이 비싸 보이지 않는다"는 뜻이지, 실제 역사적 저점이라는 의미는 아닙니다.)',en:'Few overheat signals present right now. Partial exit recommended for shorts. (※ This means current price doesn\'t look overextended — not that it\'s an actual historical low.)',ja:'現在過熱・天井シグナルがほとんどないゾーン。ショートポジション保有中なら一部決済を推奨。(※このスコアは「今の価格が割高に見えない」という意味であり、実際の歴史的底値という意味ではありません。)',es:'Zona con casi ninguna señal de sobrecalentamiento o techo actualmente. Se recomienda salida parcial si mantiene posición corta. (※ Esta puntuación significa que "el precio actual no parece caro", no que sea un suelo histórico real.)',de:'Zone mit derzeit kaum Überhitzungs- oder Top-Signalen. Bei bestehender Short-Position wird Teilausstieg empfohlen. (※ Dieser Score bedeutet "aktueller Preis wirkt nicht teuer", nicht dass es sich um ein echtes historisches Tief handelt.)',fr:'Peu de signaux de surchauffe actuellement. Sortie partielle recommandée pour les shorts. (※ Cela signifie que le prix actuel ne semble pas surétendu — pas qu\'il s\'agit d\'un creux historique réel.)',pt:'Poucos sinais de sobreaquecimento agora. Saída parcial recomendada para shorts. (※ Isso significa que o preço atual não parece esticado — não que seja um fundo histórico real.)',tr:'Şu an az ısınma sinyali var. Short\'lar için kısmi çıkış önerilir. (※ Bu, mevcut fiyatın aşırı uzamış görünmediği anlamına gelir — gerçek tarihsel dip olduğu değil.)',vi:'Hiện ít tín hiệu quá nóng. Khuyến nghị thoát một phần với short. (※ Điều này nghĩa là giá hiện tại không có vẻ bị kéo căng — không phải là đáy lịch sử thực sự.)'});
+      gAction=TT({ko:'SPLIT EXIT — 분할 청산',en:'SPLIT EXIT — Scale out',ja:'SPLIT EXIT — 分割決済',es:'PARCIAL — Salida escalonada',de:'TEIL-EXIT — Gestaffelter Ausstieg',fr:'SORTIE ÉCHELONNÉE — Réduire',pt:'SAÍDA ESCALONADA — Reduzir',tr:'KADEMELİ ÇIKIŞ — Azalt',vi:'THOÁT TỪNG PHẦN — Giảm dần'});
+      gDesc=TT({ko:'기존 숏의 50% 청산. 나머지는 추가 하락 관찰 후 판단. 신규 숏 진입 절대 금지.',en:'Close 50% of short. Hold rest carefully. No new short entries.',ja:'既存ショートの50%を決済。残りはさらなる下落を観察して判断。新規ショートエントリーは厳禁。',es:'Cerrar el 50% del corto existente. Decidir el resto tras observar más caídas. Prohibido abrir nuevos cortos.',de:'50% der bestehenden Short-Position schließen. Rest nach weiterer Beobachtung entscheiden. Keine neuen Short-Einstiege.',fr:'Fermez 50% du short. Gardez le reste prudemment. Aucune nouvelle entrée short.',pt:'Feche 50% do short. Segure o resto com cuidado. Sem novas entradas short.',tr:'Short\'un %50\'sini kapat. Kalanı dikkatli tut. Yeni short girişi yok.',vi:'Đóng 50% short. Giữ phần còn lại cẩn thận. Không vào short mới.'});
+      exitSig=TT({ko:'전량 청산 조건',en:'Full exit conditions',ja:'全量決済条件',es:'Condiciones de salida total',de:'Vollständige Ausstiegsbedingungen',fr:'Conditions de sortie totale',pt:'Condições de saída total',tr:'Tam çıkış koşulları',vi:'Điều kiện thoát toàn bộ'});
+      exitDesc=TT({ko:'• MVRV Z 0.5 이하\n• Fear & Greed 20 이하\n• 선물 갭 음수 전환',en:'• MVRV Z below 0.5\n• Fear & Greed below 20\n• Futures gap turns negative',ja:'• MVRV Zが0.5以下\n• Fear & Greedが20以下\n• 先物ギャップがマイナスに転換',es:'• MVRV Z por debajo de 0.5\n• Fear & Greed por debajo de 20\n• Brecha de futuros se vuelve negativa',de:'• MVRV Z unter 0,5\n• Angst & Gier unter 20\n• Futures-Spread wird negativ',fr:'• MVRV Z sous 0,5\n• Fear & Greed sous 20\n• L\'écart des futures devient négatif',pt:'• MVRV Z abaixo de 0,5\n• Fear & Greed abaixo de 20\n• Gap de futuros fica negativo',tr:'• MVRV Z 0,5 altında\n• Fear & Greed 20 altında\n• Vadeli farkı negatife döner',vi:'• MVRV Z dưới 0,5\n• Fear & Greed dưới 20\n• Chênh lệch futures thành âm'});
     } else {
-      stMain=TT({ko:'🟢 과열 신호 전무 — 숏 즉시 청산',en:'🟢 Zero Overheat Signals — Exit Short Now',ja:'🟢 過熱シグナル皆無 — ショート即時決済',es:'🟢 Cero Señales de Sobrecalentamiento — Cerrar Corto Ahora',de:'🟢 Keine Überhitzungssignale — Short sofort schließen'});
-      stDesc=TT({ko:'고점·과열 신호가 전혀 없는 구간. 숏 포지션 유지는 위험하니 손실이더라도 즉시 청산을 고려하세요. (※ 차트가 실제로 상승 추세 중이어도 뜰 수 있는 메시지입니다 — 이 점수는 "역사적 저점"이 아니라 "지금은 과열되지 않았다"만 의미합니다. 차트와 함께 직접 판단하세요.)',en:'No overheat or top signals present at all. Holding a short here is risky — consider exiting even at a loss. (※ This can appear even while the chart is in a clear uptrend — the score means "not currently overheated," not "historical low." Always check the chart yourself.)',ja:'天井・過熱シグナルが全くないゾーン。ショートポジション維持はリスクが高いため、損失が出ていても即時決済を検討してください。(※チャートが実際に上昇トレンド中でも表示されうるメッセージです — このスコアは「歴史的底値」ではなく「今は過熱していない」という意味だけです。チャートと合わせてご自身で判断してください。)',es:'Zona sin ninguna señal de techo o sobrecalentamiento. Mantener una posición corta aquí es arriesgado — considere salir incluso con pérdida. (※ Este mensaje puede aparecer incluso con el gráfico en clara tendencia alcista — la puntuación significa "no sobrecalentado actualmente", no "suelo histórico". Siempre revise el gráfico usted mismo.)',de:'Zone ohne jegliche Top- oder Überhitzungssignale. Eine Short-Position hier zu halten ist riskant — Ausstieg auch bei Verlust erwägen. (※ Diese Meldung kann auch bei klarem Aufwärtstrend im Chart erscheinen — der Score bedeutet "aktuell nicht überhitzt", nicht "historisches Tief". Chart immer selbst prüfen.)'});
-      gAction=TT({ko:'EXIT SHORT — 전량 즉시 청산',en:'EXIT SHORT — Close all immediately',ja:'EXIT SHORT — 全量即時決済',es:'SALIR — Cerrar todo de inmediato',de:'EXIT — Alles sofort schließen'});
-      gDesc=TT({ko:'모든 숏 즉시 청산. 손실 감수하더라도 추가 손실 방지 최우선. 롱 전환 검토.',en:'Close ALL shorts now. Prevent further losses. Consider switching to long.',ja:'全てのショートを即時決済。損失を受け入れてでもさらなる損失防止を最優先。ロング転換を検討。',es:'Cerrar TODOS los cortos ahora. Priorizar evitar más pérdidas incluso asumiendo pérdida. Considerar cambiar a largo.',de:'ALLE Short-Positionen sofort schließen. Weitere Verluste vermeiden hat Priorität, auch bei Verlust. Wechsel zu Long erwägen.'});
-      exitSig=TT({ko:'⚠️ 지금 즉시 행동',en:'⚠️ Act right now',ja:'⚠️ 今すぐ行動',es:'⚠️ Actuar ahora mismo',de:'⚠️ Sofort handeln'});
-      exitDesc=TT({ko:'• 현재 시장가로 전량 청산\n• 숏 재진입은 6.0점 이상에서만\n• 롱 진입 적극 검토',en:'• Close at market price now\n• Only re-short above 6.0\n• Strongly consider going long',ja:'• 現在の市場価格で全量決済\n• ショート再エントリーはスコア6.0以上でのみ\n• ロングエントリーを積極的に検討',es:'• Cerrar todo al precio de mercado actual\n• Reingresar corto solo por encima de 6.0\n• Considerar seriamente entrada larga',de:'• Alles zum aktuellen Marktpreis schließen\n• Short-Wiedereinstieg nur über 6,0\n• Long-Einstieg stark erwägen'});
+      stMain=TT({ko:'과열 신호 전무 — 숏 즉시 청산',en:'Zero Overheat Signals — Exit Short Now',ja:'過熱シグナル皆無 — ショート即時決済',es:'Cero Señales de Sobrecalentamiento — Cerrar Corto Ahora',de:'Keine Überhitzungssignale — Short sofort schließen',fr:'Zéro Signal de Surchauffe — Sortez du Short Maintenant',pt:'Zero Sinal de Sobreaquecimento — Saia do Short Agora',tr:'Sıfır Isınma Sinyali — Short\'tan Şimdi Çık',vi:'Không Tín Hiệu Quá Nóng — Thoát Short Ngay'});
+      stDesc=TT({ko:'고점·과열 신호가 전혀 없는 구간. 숏 포지션 유지는 위험하니 손실이더라도 즉시 청산을 고려하세요. (※ 차트가 실제로 상승 추세 중이어도 뜰 수 있는 메시지입니다 — 이 점수는 "역사적 저점"이 아니라 "지금은 과열되지 않았다"만 의미합니다. 차트와 함께 직접 판단하세요.)',en:'No overheat or top signals present at all. Holding a short here is risky — consider exiting even at a loss. (※ This can appear even while the chart is in a clear uptrend — the score means "not currently overheated," not "historical low." Always check the chart yourself.)',ja:'天井・過熱シグナルが全くないゾーン。ショートポジション維持はリスクが高いため、損失が出ていても即時決済を検討してください。(※チャートが実際に上昇トレンド中でも表示されうるメッセージです — このスコアは「歴史的底値」ではなく「今は過熱していない」という意味だけです。チャートと合わせてご自身で判断してください。)',es:'Zona sin ninguna señal de techo o sobrecalentamiento. Mantener una posición corta aquí es arriesgado — considere salir incluso con pérdida. (※ Este mensaje puede aparecer incluso con el gráfico en clara tendencia alcista — la puntuación significa "no sobrecalentado actualmente", no "suelo histórico". Siempre revise el gráfico usted mismo.)',de:'Zone ohne jegliche Top- oder Überhitzungssignale. Eine Short-Position hier zu halten ist riskant — Ausstieg auch bei Verlust erwägen. (※ Diese Meldung kann auch bei klarem Aufwärtstrend im Chart erscheinen — der Score bedeutet "aktuell nicht überhitzt", nicht "historisches Tief". Chart immer selbst prüfen.)',fr:'Aucun signal de surchauffe ou de sommet. Détenir un short ici est risqué — envisagez de sortir même à perte. (※ Cela peut apparaître même en tendance haussière claire — le score signifie « pas actuellement en surchauffe », pas « creux historique ». Vérifiez toujours le graphique vous-même.)',pt:'Nenhum sinal de sobreaquecimento ou topo. Manter short aqui é arriscado — considere sair mesmo com prejuízo. (※ Isso pode aparecer mesmo em tendência de alta clara — a pontuação significa "não sobreaquecido agora", não "fundo histórico". Sempre confira o gráfico.)',tr:'Hiç ısınma veya tepe sinyali yok. Burada short tutmak riskli — zararına bile çıkışı düşün. (※ Bu, grafik net yükselişteyken bile görünebilir — puan "şu an aşırı ısınmamış" demek, "tarihsel dip" değil. Grafiği hep kendin kontrol et.)',vi:'Không có tín hiệu quá nóng hay đỉnh. Giữ short ở đây rủi ro — cân nhắc thoát dù lỗ. (※ Điều này có thể xuất hiện ngay cả khi biểu đồ đang tăng rõ — điểm nghĩa là "hiện không quá nóng", không phải "đáy lịch sử". Luôn tự kiểm tra biểu đồ.)'});
+      gAction=TT({ko:'EXIT SHORT — 전량 즉시 청산',en:'EXIT SHORT — Close all immediately',ja:'EXIT SHORT — 全量即時決済',es:'SALIR — Cerrar todo de inmediato',de:'EXIT — Alles sofort schließen',fr:'SORTIR DU SHORT — Fermez tout immédiatement',pt:'SAIR DO SHORT — Feche tudo imediatamente',tr:'SHORT ÇIK — Hepsini hemen kapat',vi:'THOÁT SHORT — Đóng tất cả ngay'});
+      gDesc=TT({ko:'모든 숏 즉시 청산. 손실 감수하더라도 추가 손실 방지 최우선. 롱 전환 검토.',en:'Close ALL shorts now. Prevent further losses. Consider switching to long.',ja:'全てのショートを即時決済。損失を受け入れてでもさらなる損失防止を最優先。ロング転換を検討。',es:'Cerrar TODOS los cortos ahora. Priorizar evitar más pérdidas incluso asumiendo pérdida. Considerar cambiar a largo.',de:'ALLE Short-Positionen sofort schließen. Weitere Verluste vermeiden hat Priorität, auch bei Verlust. Wechsel zu Long erwägen.',fr:'Fermez TOUS les shorts maintenant. Évitez d\'autres pertes. Envisagez de passer en long.',pt:'Feche TODOS os shorts agora. Evite mais perdas. Considere mudar para long.',tr:'TÜM short\'ları şimdi kapat. Daha fazla zararı önle. Long\'a geçmeyi düşün.',vi:'Đóng TẤT CẢ short ngay. Ngăn lỗ thêm. Cân nhắc chuyển sang long.'});
+      exitSig=TT({ko:'⚠️ 지금 즉시 행동',en:'⚠️ Act right now',ja:'⚠️ 今すぐ行動',es:'⚠️ Actuar ahora mismo',de:'⚠️ Sofort handeln',fr:'⚠️ Agissez maintenant',pt:'⚠️ Aja agora',tr:'⚠️ Şimdi hareket et',vi:'⚠️ Hành động ngay'});
+      exitDesc=TT({ko:'• 현재 시장가로 전량 청산\n• 숏 재진입은 6.0점 이상에서만\n• 롱 진입 적극 검토',en:'• Close at market price now\n• Only re-short above 6.0\n• Strongly consider going long',ja:'• 現在の市場価格で全量決済\n• ショート再エントリーはスコア6.0以上でのみ\n• ロングエントリーを積極的に検討',es:'• Cerrar todo al precio de mercado actual\n• Reingresar corto solo por encima de 6.0\n• Considerar seriamente entrada larga',de:'• Alles zum aktuellen Marktpreis schließen\n• Short-Wiedereinstieg nur über 6,0\n• Long-Einstieg stark erwägen',fr:'• Fermez au prix du marché maintenant\n• Re-short uniquement au-dessus de 6,0\n• Envisagez fortement le long',pt:'• Feche a preço de mercado agora\n• Re-short apenas acima de 6,0\n• Considere fortemente ir long',tr:'• Şimdi piyasa fiyatından kapat\n• Sadece 6,0 üstünde tekrar short\n• Long\'a geçmeyi ciddi düşün',vi:'• Đóng theo giá thị trường ngay\n• Chỉ short lại trên 6,0\n• Cân nhắc mạnh việc vào long'});
     }
 
-    if(el('sStatusTitle')) el('sStatusTitle').textContent=TT({ko:'📊 현재 시장 상태',en:'📊 MARKET STATUS',ja:'📊 現在の市場状況',es:'📊 ESTADO DEL MERCADO',de:'📊 MARKTSTATUS'});
+    if(el('sStatusTitle')) el('sStatusTitle').textContent=TT({ko:'현재 시장 상태',en:'MARKET STATUS',ja:'現在の市場状況',es:'ESTADO DEL MERCADO',de:'MARKTSTATUS',fr:'ÉTAT DU MARCHÉ',pt:'STATUS DO MERCADO',tr:'PİYASA DURUMU',vi:'TRẠNG THÁI THỊ TRƯỜNG'});
     if(el('sStatusMain'))  {el('sStatusMain').textContent=stMain;el('sStatusMain').style.color=result.acolor;}
     if(el('sStatusDesc'))  el('sStatusDesc').textContent=stDesc;
-    if(el('sGuideTitle'))  el('sGuideTitle').textContent=TT({ko:'💡 숏 포지션 가이드',en:'💡 SHORT GUIDE',ja:'💡 ショートポジションガイド',es:'💡 GUÍA CORTO',de:'💡 SHORT-ANLEITUNG'});
+    if(el('sGuideTitle'))  el('sGuideTitle').textContent=TT({ko:'숏 포지션 가이드',en:'SHORT GUIDE',ja:'ショートポジションガイド',es:'GUÍA CORTO',de:'SHORT-ANLEITUNG',fr:'GUIDE SHORT',pt:'GUIA SHORT',tr:'SHORT KILAVUZU',vi:'HƯỚNG DẪN SHORT'});
     if(el('sGuideAction')) {el('sGuideAction').textContent=gAction;el('sGuideAction').style.color=result.acolor;}
     if(el('sGuideDesc'))   el('sGuideDesc').textContent=gDesc;
-    if(el('sExitTitle'))   el('sExitTitle').textContent=TT({ko:'🎯 숏 청산 조건',en:'🎯 SHORT EXIT',ja:'🎯 ショート決済条件',es:'🎯 SALIDA CORTA',de:'🎯 SHORT-AUSSTIEG'});
+    if(el('sExitTitle'))   el('sExitTitle').textContent=TT({ko:'숏 청산 조건',en:'SHORT EXIT',ja:'ショート決済条件',es:'SALIDA CORTA',de:'SHORT-AUSSTIEG',fr:'SORTIE SHORT',pt:'SAÍDA SHORT',tr:'SHORT ÇIKIŞ',vi:'THOÁT SHORT'});
     if(el('sExitSig'))     el('sExitSig').textContent=exitSig;
-    if(el('sExitDesc'))    el('sExitDesc').textContent=exitDesc;
+    if(el('sExitDesc'))    el('sExitDesc').innerHTML=_emphArrow(exitDesc);
 
   } else {
     const sc=result.final;
@@ -963,56 +1416,56 @@ function renderAll(ind) {
     let stMain,stDesc,gAction,gDesc,nextDesc;
 
     if(sc>=8.0){
-      stMain=TT({ko:'🟢 저점형 신호 다수 — 매수 타이밍',en:'🟢 Multiple Bottom Signals — Buy Timing',ja:'🟢 底値型シグナル多数 — 買いタイミング',es:'🟢 Múltiples Señales de Suelo — Momento de Compra',de:'🟢 Mehrere Tiefsignale — Kaufzeitpunkt'});
-      stDesc=TT({ko:'현재 온체인·기술 지표 대부분이 저평가 구간을 가리킴. (※ 2018·2022년 바닥과 "비슷한 신호 조합"일 뿐, 정확히 같은 패턴이 반복된다는 보장은 아닙니다.)',en:'Most on-chain/technical indicators currently point to undervaluation. (※ A similar signal combination to 2018/2022 bottoms — not a guarantee the exact pattern repeats.)',ja:'現在オンチェーン・テクニカル指標の大半が割安ゾーンを示唆。(※2018・2022年の底値と「似たシグナルの組み合わせ」であるだけで、正確に同じパターンが繰り返される保証ではありません。)',es:'La mayoría de los indicadores on-chain y técnicos actuales apuntan a una zona de infravaloración. (※ Solo es una "combinación de señales similar" a los suelos de 2018/2022 — no garantiza que se repita exactamente el mismo patrón.)',de:'Die meisten aktuellen On-Chain- und technischen Indikatoren deuten auf eine Unterbewertungszone hin. (※ Nur eine "ähnliche Signalkombination" wie die Tiefs 2018/2022 — keine Garantie, dass sich genau dasselbe Muster wiederholt.)'});
-      gAction=TT({ko:'FULL LONG — 전량 진입',en:'FULL LONG — Enter full position',ja:'FULL LONG — 全量エントリー',es:'LONG TOTAL — Entrada total',de:'VOLL-LONG — Vollständiger Einstieg'});
-      gDesc=TT({ko:'목표 비중 100% 진입. 레버리지 고려 가능. 스탑로스: 현재가 -15%. 장기 보유 전략.',en:'Enter 100%. Leverage possible. Stop loss -15%. Long-term hold.',ja:'目標比率100%でエントリー。レバレッジも検討可。ストップロス: 現在価格-15%。長期保有戦略。',es:'Entrada 100% del objetivo. Apalancamiento posible. Stop loss -15% del precio actual. Estrategia de largo plazo.',de:'Einstieg 100% des Ziels. Hebel möglich. Stop-Loss -15% vom aktuellen Preis. Langfristige Halte-Strategie.'});
-      nextDesc=TT({ko:'✓ 모든 트리거 달성\n목표: 다음 반감기 후 12~18개월',en:'✓ All triggers achieved\nTarget: 12~18mo after next halving',ja:'✓ 全トリガー達成\n目標: 次回半減期後12~18ヶ月',es:'✓ Todos los disparadores logrados\nObjetivo: 12~18 meses tras el próximo halving',de:'✓ Alle Trigger erreicht\nZiel: 12~18 Monate nach dem nächsten Halving'});
+      stMain=TT({ko:'저점형 신호 다수 — 매수 타이밍',en:'Multiple Bottom Signals — Buy Timing',ja:'底値型シグナル多数 — 買いタイミング',es:'Múltiples Señales de Suelo — Momento de Compra',de:'Mehrere Tiefsignale — Kaufzeitpunkt',fr:'Signaux de Creux Multiples — Moment d\'Achat',pt:'Múltiplos Sinais de Fundo — Momento de Compra',tr:'Çoklu Dip Sinyali — Alım Zamanı',vi:'Nhiều Tín Hiệu Đáy — Thời Điểm Mua'});
+      stDesc=TT({ko:'현재 온체인·기술 지표 대부분이 저평가 구간을 가리킴. (※ 2018·2022년 바닥과 "비슷한 신호 조합"일 뿐, 정확히 같은 패턴이 반복된다는 보장은 아닙니다.)',en:'Most on-chain/technical indicators currently point to undervaluation. (※ A similar signal combination to 2018/2022 bottoms — not a guarantee the exact pattern repeats.)',ja:'現在オンチェーン・テクニカル指標の大半が割安ゾーンを示唆。(※2018・2022年の底値と「似たシグナルの組み合わせ」であるだけで、正確に同じパターンが繰り返される保証ではありません。)',es:'La mayoría de los indicadores on-chain y técnicos actuales apuntan a una zona de infravaloración. (※ Solo es una "combinación de señales similar" a los suelos de 2018/2022 — no garantiza que se repita exactamente el mismo patrón.)',de:'Die meisten aktuellen On-Chain- und technischen Indikatoren deuten auf eine Unterbewertungszone hin. (※ Nur eine "ähnliche Signalkombination" wie die Tiefs 2018/2022 — keine Garantie, dass sich genau dasselbe Muster wiederholt.)',fr:'La plupart des indicateurs on-chain/techniques pointent vers une sous-valorisation. (※ Une combinaison de signaux similaire aux creux de 2018/2022 — pas une garantie que le schéma exact se répète.)',pt:'A maioria dos indicadores on-chain/técnicos aponta subvalorização. (※ Combinação de sinais semelhante aos fundos de 2018/2022 — sem garantia de que o padrão exato se repita.)',tr:'Çoğu zincir üstü/teknik gösterge düşük değerlemeye işaret ediyor. (※ 2018/2022 diplerine benzer bir sinyal kombinasyonu — aynı desenin tekrarı garanti değil.)',vi:'Hầu hết chỉ báo on-chain/kỹ thuật đang chỉ định giá thấp. (※ Tổ hợp tín hiệu tương tự đáy 2018/2022 — không đảm bảo mô hình lặp lại y hệt.)'});
+      gAction=TT({ko:'FULL LONG — 전량 진입',en:'FULL LONG — Enter full position',ja:'FULL LONG — 全量エントリー',es:'LONG TOTAL — Entrada total',de:'VOLL-LONG — Vollständiger Einstieg',fr:'LONG TOTAL — Entrée position totale',pt:'LONG TOTAL — Entrada posição total',tr:'TAM LONG — Tam pozisyon gir',vi:'LONG TOÀN PHẦN — Vào vị thế toàn phần'});
+      gDesc=TT({ko:'목표 비중 100% 진입. 레버리지 고려 가능. 스탑로스: 현재가 -15%. 장기 보유 전략.',en:'Enter 100%. Leverage possible. Stop loss -15%. Long-term hold.',ja:'目標比率100%でエントリー。レバレッジも検討可。ストップロス: 現在価格-15%。長期保有戦略。',es:'Entrada 100% del objetivo. Apalancamiento posible. Stop loss -15% del precio actual. Estrategia de largo plazo.',de:'Einstieg 100% des Ziels. Hebel möglich. Stop-Loss -15% vom aktuellen Preis. Langfristige Halte-Strategie.',fr:'Entrez 100%. Levier possible. Stop loss -15%. Détention long terme.',pt:'Entre 100%. Alavancagem possível. Stop loss -15%. Manter longo prazo.',tr:'%100 gir. Kaldıraç mümkün. Stop loss -%15. Uzun vadeli tut.',vi:'Vào 100%. Có thể đòn bẩy. Cắt lỗ -15%. Giữ dài hạn.'});
+      nextDesc=TT({ko:'✓ 모든 트리거 달성\n목표: 다음 반감기 후 12~18개월',en:'✓ All triggers achieved\nTarget: 12~18mo after next halving',ja:'✓ 全トリガー達成\n目標: 次回半減期後12~18ヶ月',es:'✓ Todos los disparadores logrados\nObjetivo: 12~18 meses tras el próximo halving',de:'✓ Alle Trigger erreicht\nZiel: 12~18 Monate nach dem nächsten Halving',fr:'✓ Tous les déclencheurs atteints\nObjectif : 12~18 mois après le prochain halving',pt:'✓ Todos os gatilhos atingidos\nAlvo: 12~18 meses após o próximo halving',tr:'✓ Tüm tetikleyiciler tamam\nHedef: sonraki yarılanmadan 12~18 ay sonra',vi:'✓ Đạt tất cả kích hoạt\nMục tiêu: 12~18 tháng sau halving kế tiếp'});
     } else if(sc>=7.0){
-      stMain=TT({ko:'🟢 강한 저점 신호',en:'🟢 Strong Bottom Signal',ja:'🟢 強い底値シグナル',es:'🟢 Señal de Suelo Fuerte',de:'🟢 Starkes Tiefsignal'});
-      stDesc=TT({ko:'MVRV Z, NUPL 등 핵심 지표가 저점 구간. 역사적으로 최고의 매수 기회 중 하나.',en:'Core indicators in bottom zone. One of the best historical buy opportunities.',ja:'MVRV Z、NUPLなど主要指標が底値ゾーン。歴史的に最良の買い場の一つ。',es:'Indicadores clave como MVRV Z y NUPL en zona de suelo. Una de las mejores oportunidades de compra históricas.',de:'Kernindikatoren wie MVRV Z und NUPL in der Tiefzone. Eine der historisch besten Kaufgelegenheiten.'});
-      gAction=TT({ko:'ADD LONG — 비중 70~100% 확대',en:'ADD LONG — Scale to 70~100%',ja:'ADD LONG — 比率70~100%に拡大',es:'LONG+ — Ampliar a 70~100%',de:'LONG+ — Auf 70~100% erhöhen'});
-      gDesc=TT({ko:'목표 비중 70~100% 분할 진입. 1~2차 진입 후 추가 하락 시 나머지 투입.',en:'Split entry 70~100%. Enter 1st tranche, add rest on dips.',ja:'目標比率70~100%を分割エントリー。1~2回目のエントリー後、さらなる下落時に残りを投入。',es:'Entrada escalonada 70~100% del objetivo. Tras la 1ª-2ª entrada, invertir el resto en más caídas.',de:'Gestaffelter Einstieg 70~100% des Ziels. Nach 1.-2. Tranche bei weiterem Rückgang den Rest investieren.'});
-      nextDesc=TT({ko:'• Hash Ribbon 회복 전환 → FULL LONG\n• Coinbase Premium 양전환 → 기관 진입 신호',en:'• Hash Ribbon recovery → FULL LONG\n• Coinbase Premium positive → institutional signal',ja:'• Hash Ribbon回復転換 → FULL LONG\n• Coinbaseプレミアムがプラス転換 → 機関エントリーシグナル',es:'• Recuperación Hash Ribbon → FULL LONG\n• Coinbase Premium positivo → señal institucional',de:'• Hash-Ribbon-Erholung → FULL LONG\n• Coinbase Premium positiv → institutionelles Signal'});
+      stMain=TT({ko:'강한 저점 신호',en:'Strong Bottom Signal',ja:'強い底値シグナル',es:'Señal de Suelo Fuerte',de:'Starkes Tiefsignal',fr:'Signal de Creux Fort',pt:'Sinal de Fundo Forte',tr:'Güçlü Dip Sinyali',vi:'Tín Hiệu Đáy Mạnh'});
+      stDesc=TT({ko:'MVRV Z, NUPL 등 핵심 지표가 저점 구간. 역사적으로 최고의 매수 기회 중 하나.',en:'Core indicators in bottom zone. One of the best historical buy opportunities.',ja:'MVRV Z、NUPLなど主要指標が底値ゾーン。歴史的に最良の買い場の一つ。',es:'Indicadores clave como MVRV Z y NUPL en zona de suelo. Una de las mejores oportunidades de compra históricas.',de:'Kernindikatoren wie MVRV Z und NUPL in der Tiefzone. Eine der historisch besten Kaufgelegenheiten.',fr:'Indicateurs clés en zone de creux. L\'une des meilleures opportunités d\'achat historiques.',pt:'Indicadores-chave em zona de fundo. Uma das melhores oportunidades de compra históricas.',tr:'Ana göstergeler dip bölgesinde. Tarihsel en iyi alım fırsatlarından biri.',vi:'Chỉ báo cốt lõi ở vùng đáy. Một trong những cơ hội mua tốt nhất lịch sử.'});
+      gAction=TT({ko:'ADD LONG — 비중 70~100% 확대',en:'ADD LONG — Scale to 70~100%',ja:'ADD LONG — 比率70~100%に拡大',es:'LONG+ — Ampliar a 70~100%',de:'LONG+ — Auf 70~100% erhöhen',fr:'AUGMENTER LONG — Monter à 70~100%',pt:'AUMENTAR LONG — Subir para 70~100%',tr:'LONG ARTIR — %70~100\'e çıkar',vi:'TĂNG LONG — Lên 70~100%'});
+      gDesc=TT({ko:'목표 비중 70~100% 분할 진입. 1~2차 진입 후 추가 하락 시 나머지 투입.',en:'Split entry 70~100%. Enter 1st tranche, add rest on dips.',ja:'目標比率70~100%を分割エントリー。1~2回目のエントリー後、さらなる下落時に残りを投入。',es:'Entrada escalonada 70~100% del objetivo. Tras la 1ª-2ª entrada, invertir el resto en más caídas.',de:'Gestaffelter Einstieg 70~100% des Ziels. Nach 1.-2. Tranche bei weiterem Rückgang den Rest investieren.',fr:'Entrée échelonnée 70~100%. 1ère tranche, ajoutez le reste sur les baisses.',pt:'Entrada escalonada 70~100%. 1ª parte, adicione o resto nas quedas.',tr:'Kademeli giriş %70~100. 1. dilim, kalanı düşüşlerde ekle.',vi:'Vào từng phần 70~100%. Phần 1, thêm phần còn lại khi giảm.'});
+      nextDesc=TT({ko:'• Hash Ribbon 회복 전환 → FULL LONG\n• Coinbase Premium 양전환 → 기관 진입 신호',en:'• Hash Ribbon recovery → FULL LONG\n• Coinbase Premium positive → institutional signal',ja:'• Hash Ribbon回復転換 → FULL LONG\n• Coinbaseプレミアムがプラス転換 → 機関エントリーシグナル',es:'• Recuperación Hash Ribbon → FULL LONG\n• Coinbase Premium positivo → señal institucional',de:'• Hash-Ribbon-Erholung → FULL LONG\n• Coinbase Premium positiv → institutionelles Signal',fr:'• Reprise Hash Ribbon → LONG TOTAL\n• Coinbase Premium positif → signal institutionnel',pt:'• Recuperação Hash Ribbon → LONG TOTAL\n• Coinbase Premium positivo → sinal institucional',tr:'• Hash Ribbon toparlanması → TAM LONG\n• Coinbase Premium pozitif → kurumsal sinyal',vi:'• Hash Ribbon phục hồi → LONG TOÀN PHẦN\n• Coinbase Premium dương → tín hiệu tổ chức'});
     } else if(sc>=6.0){
-      stMain=TT({ko:'🟡 분할 진입 시작 구간',en:'🟡 Split Entry Zone',ja:'🟡 分割エントリー開始ゾーン',es:'🟡 Zona de Inicio de Entrada Escalonada',de:'🟡 Gestaffelte Einstiegszone'});
-      stDesc=TT({ko:'저점 신호가 나타나고 있지만 확정 전. 분할 매수로 리스크 분산 권고.',en:'Bottom signals emerging, not confirmed. Spread risk with split entries.',ja:'底値シグナルが出始めていますが確定前。分割買いでリスク分散を推奨。',es:'Aparecen señales de suelo, aún sin confirmar. Se recomienda dispersar el riesgo con entradas escalonadas.',de:'Tiefsignale erscheinen, noch unbestätigt. Risikostreuung mit gestaffelten Einstiegen empfohlen.'});
-      gAction=TT({ko:'SPLIT LONG — 30~50% 분할 진입',en:'SPLIT LONG — 30~50% split entry',ja:'SPLIT LONG — 30~50%分割エントリー',es:'LONG PARCIAL — Entrada escalonada 30~50%',de:'TEIL-LONG — Gestaffelter Einstieg 30~50%'});
-      gDesc=TT({ko:'목표 비중 30~50% 1차 진입. 트리거 달성 시마다 추가 진입. 한 번에 올인 금지.',en:'Enter 30~50% first. Add more at each trigger. No all-in.',ja:'目標比率30~50%を1回目エントリー。トリガー達成ごとに追加エントリー。一括投入は禁止。',es:'Primera entrada 30~50% del objetivo. Añadir en cada disparador. No invertir todo de una vez.',de:'Erster Einstieg 30~50% des Ziels. Bei jedem Trigger nachlegen. Kein All-in auf einmal.'});
-      nextDesc=TT({ko:'• MVRV Z 0 이하 → ADD LONG\n• Hash Ribbon 회복 전환\n• Coinbase Premium 양전환',en:'• MVRV Z below 0 → ADD LONG\n• Hash Ribbon recovery\n• Coinbase Premium turns positive',ja:'• MVRV Zが0以下 → ADD LONG\n• Hash Ribbon回復転換\n• Coinbaseプレミアムがプラス転換',es:'• MVRV Z por debajo de 0 → ADD LONG\n• Recuperación Hash Ribbon\n• Coinbase Premium se vuelve positivo',de:'• MVRV Z unter 0 → ADD LONG\n• Hash-Ribbon-Erholung\n• Coinbase Premium wird positiv'});
+      stMain=TT({ko:'분할 진입 시작 구간',en:'Split Entry Zone',ja:'分割エントリー開始ゾーン',es:'Zona de Inicio de Entrada Escalonada',de:'Gestaffelte Einstiegszone',fr:'Zone d\'Entrée Échelonnée',pt:'Zona de Entrada Escalonada',tr:'Kademeli Giriş Bölgesi',vi:'Vùng Vào Từng Phần'});
+      stDesc=TT({ko:'저점 신호가 나타나고 있지만 확정 전. 분할 매수로 리스크 분산 권고.',en:'Bottom signals emerging, not confirmed. Spread risk with split entries.',ja:'底値シグナルが出始めていますが確定前。分割買いでリスク分散を推奨。',es:'Aparecen señales de suelo, aún sin confirmar. Se recomienda dispersar el riesgo con entradas escalonadas.',de:'Tiefsignale erscheinen, noch unbestätigt. Risikostreuung mit gestaffelten Einstiegen empfohlen.',fr:'Signaux de creux émergents, non confirmés. Répartissez le risque avec des entrées échelonnées.',pt:'Sinais de fundo surgindo, não confirmados. Distribua o risco com entradas escalonadas.',tr:'Dip sinyalleri beliriyor, onaylanmadı. Kademeli girişlerle riski dağıt.',vi:'Tín hiệu đáy đang xuất hiện, chưa xác nhận. Phân tán rủi ro bằng vào từng phần.'});
+      gAction=TT({ko:'SPLIT LONG — 30~50% 분할 진입',en:'SPLIT LONG — 30~50% split entry',ja:'SPLIT LONG — 30~50%分割エントリー',es:'LONG PARCIAL — Entrada escalonada 30~50%',de:'TEIL-LONG — Gestaffelter Einstieg 30~50%',fr:'LONG ÉCHELONNÉ — Entrée échelonnée 30~50%',pt:'LONG ESCALONADO — Entrada escalonada 30~50%',tr:'KADEMELİ LONG — %30~50 kademeli giriş',vi:'LONG TỪNG PHẦN — Vào 30~50% từng phần'});
+      gDesc=TT({ko:'목표 비중 30~50% 1차 진입. 트리거 달성 시마다 추가 진입. 한 번에 올인 금지.',en:'Enter 30~50% first. Add more at each trigger. No all-in.',ja:'目標比率30~50%を1回目エントリー。トリガー達成ごとに追加エントリー。一括投入は禁止。',es:'Primera entrada 30~50% del objetivo. Añadir en cada disparador. No invertir todo de una vez.',de:'Erster Einstieg 30~50% des Ziels. Bei jedem Trigger nachlegen. Kein All-in auf einmal.',fr:'Entrez 30~50% d\'abord. Ajoutez à chaque déclencheur. Pas de tout-en-un.',pt:'Entre 30~50% primeiro. Adicione a cada gatilho. Sem all-in.',tr:'Önce %30~50 gir. Her tetikleyicide ekle. All-in yok.',vi:'Vào 30~50% trước. Thêm mỗi khi kích hoạt. Không all-in.'});
+      nextDesc=TT({ko:'• MVRV Z 0 이하 → ADD LONG\n• Hash Ribbon 회복 전환\n• Coinbase Premium 양전환',en:'• MVRV Z below 0 → ADD LONG\n• Hash Ribbon recovery\n• Coinbase Premium turns positive',ja:'• MVRV Zが0以下 → ADD LONG\n• Hash Ribbon回復転換\n• Coinbaseプレミアムがプラス転換',es:'• MVRV Z por debajo de 0 → ADD LONG\n• Recuperación Hash Ribbon\n• Coinbase Premium se vuelve positivo',de:'• MVRV Z unter 0 → ADD LONG\n• Hash-Ribbon-Erholung\n• Coinbase Premium wird positiv',fr:'• MVRV Z sous 0 → AUGMENTER LONG\n• Reprise Hash Ribbon\n• Coinbase Premium devient positif',pt:'• MVRV Z abaixo de 0 → AUMENTAR LONG\n• Recuperação Hash Ribbon\n• Coinbase Premium fica positivo',tr:'• MVRV Z 0 altında → LONG ARTIR\n• Hash Ribbon toparlanması\n• Coinbase Premium pozitife döner',vi:'• MVRV Z dưới 0 → TĂNG LONG\n• Hash Ribbon phục hồi\n• Coinbase Premium thành dương'});
     } else if(sc>=5.0){
-      stMain=TT({ko:'🟡 관찰 구간 — 트리거 대기',en:'🟡 Watch Zone — Await Triggers',ja:'🟡 様子見ゾーン — トリガー待ち',es:'🟡 Zona de Observación — Esperando Disparadores',de:'🟡 Beobachtungszone — Warten auf Trigger'});
-      stDesc=TT({ko:'일부 저점 신호 있으나 확신 부족. 핵심 트리거 발생 전까지 소량만 허용.',en:'Some signals but not enough. Small entry only before key triggers.',ja:'一部底値シグナルはあるが確信不足。主要トリガー発生前は少量のみ許可。',es:'Hay algunas señales de suelo pero falta confianza. Solo se permite entrada pequeña hasta el disparador clave.',de:'Einige Tiefsignale vorhanden, aber unzureichend. Nur kleiner Einstieg bis zum Haupttrigger erlaubt.'});
-      gAction=TT({ko:'WATCH — 소량 선진입 10~20%',en:'WATCH — Small entry 10~20%',ja:'WATCH — 少量先行エントリー10~20%',es:'ESPERAR — Entrada pequeña 10~20%',de:'WARTEN — Kleiner Voreinstieg 10~20%'});
-      gDesc=TT({ko:'성급한 진입 금지. 전체 계획의 10~20%만 선진입 허용. 손절 명확히 설정.',en:'No rush. 10~20% entry max. Set clear stop loss.',ja:'拙速なエントリーは禁止。全体計画の10~20%のみ先行エントリー許可。損切りを明確に設定。',es:'No entrar apresuradamente. Solo se permite 10~20% del plan total como entrada anticipada. Fijar stop loss claramente.',de:'Keine überstürzten Einstiege. Nur 10~20% des Gesamtplans als Voreinstieg erlaubt. Stop-Loss klar festlegen.'});
-      nextDesc=TT({ko:'• Coinbase Premium 양전환\n• NUPL 0% 이하\n• 선물 갭 음수 전환',en:'• Coinbase Premium turns positive\n• NUPL drops below 0%\n• Futures gap turns negative',ja:'• Coinbaseプレミアムがプラス転換\n• NUPLが0%以下\n• 先物ギャップがマイナスに転換',es:'• Coinbase Premium se vuelve positivo\n• NUPL cae por debajo de 0%\n• Brecha de futuros se vuelve negativa',de:'• Coinbase Premium wird positiv\n• NUPL fällt unter 0%\n• Futures-Spread wird negativ'});
+      stMain=TT({ko:'관찰 구간 — 트리거 대기',en:'Watch Zone — Await Triggers',ja:'様子見ゾーン — トリガー待ち',es:'Zona de Observación — Esperando Disparadores',de:'Beobachtungszone — Warten auf Trigger',fr:'Zone de Surveillance — Attendre les Déclencheurs',pt:'Zona de Observação — Aguardar Gatilhos',tr:'İzleme Bölgesi — Tetikleyici Bekle',vi:'Vùng Quan Sát — Chờ Kích Hoạt'});
+      stDesc=TT({ko:'일부 저점 신호 있으나 확신 부족. 핵심 트리거 발생 전까지 소량만 허용.',en:'Some signals but not enough. Small entry only before key triggers.',ja:'一部底値シグナルはあるが確信不足。主要トリガー発生前は少量のみ許可。',es:'Hay algunas señales de suelo pero falta confianza. Solo se permite entrada pequeña hasta el disparador clave.',de:'Einige Tiefsignale vorhanden, aber unzureichend. Nur kleiner Einstieg bis zum Haupttrigger erlaubt.',fr:'Quelques signaux mais insuffisants. Petite entrée seulement avant les déclencheurs clés.',pt:'Alguns sinais mas insuficientes. Entrada pequena apenas antes dos gatilhos-chave.',tr:'Bazı sinyaller var ama yetersiz. Ana tetikleyicilerden önce sadece küçük giriş.',vi:'Có vài tín hiệu nhưng chưa đủ. Chỉ vào nhỏ trước các kích hoạt chính.'});
+      gAction=TT({ko:'WATCH — 소량 선진입 10~20%',en:'WATCH — Small entry 10~20%',ja:'WATCH — 少量先行エントリー10~20%',es:'ESPERAR — Entrada pequeña 10~20%',de:'WARTEN — Kleiner Voreinstieg 10~20%',fr:'SURVEILLER — Petite entrée 10~20%',pt:'OBSERVAR — Entrada pequena 10~20%',tr:'İZLE — Küçük giriş %10~20',vi:'QUAN SÁT — Vào nhỏ 10~20%'});
+      gDesc=TT({ko:'성급한 진입 금지. 전체 계획의 10~20%만 선진입 허용. 손절 명확히 설정.',en:'No rush. 10~20% entry max. Set clear stop loss.',ja:'拙速なエントリーは禁止。全体計画の10~20%のみ先行エントリー許可。損切りを明確に設定。',es:'No entrar apresuradamente. Solo se permite 10~20% del plan total como entrada anticipada. Fijar stop loss claramente.',de:'Keine überstürzten Einstiege. Nur 10~20% des Gesamtplans als Voreinstieg erlaubt. Stop-Loss klar festlegen.',fr:'Pas de précipitation. Entrée 10~20% max. Fixez un stop loss clair.',pt:'Sem pressa. Entrada 10~20% máx. Defina stop loss claro.',tr:'Acele yok. Maks %10~20 giriş. Net stop loss koy.',vi:'Không vội. Vào tối đa 10~20%. Đặt cắt lỗ rõ ràng.'});
+      nextDesc=TT({ko:'• Coinbase Premium 양전환\n• NUPL 0% 이하\n• 선물 갭 음수 전환',en:'• Coinbase Premium turns positive\n• NUPL drops below 0%\n• Futures gap turns negative',ja:'• Coinbaseプレミアムがプラス転換\n• NUPLが0%以下\n• 先物ギャップがマイナスに転換',es:'• Coinbase Premium se vuelve positivo\n• NUPL cae por debajo de 0%\n• Brecha de futuros se vuelve negativa',de:'• Coinbase Premium wird positiv\n• NUPL fällt unter 0%\n• Futures-Spread wird negativ',fr:'• Coinbase Premium devient positif\n• NUPL passe sous 0%\n• L\'écart des futures devient négatif',pt:'• Coinbase Premium fica positivo\n• NUPL cai abaixo de 0%\n• Gap de futuros fica negativo',tr:'• Coinbase Premium pozitife döner\n• NUPL %0 altına düşer\n• Vadeli farkı negatife döner',vi:'• Coinbase Premium thành dương\n• NUPL xuống dưới 0%\n• Chênh lệch futures thành âm'});
     } else if(sc>=3.5){
-      stMain=TT({ko:'🟠 조정 진행 중 — 진입 이름',en:'🟠 Correction In Progress — Too Early',ja:'🟠 調整進行中 — エントリーには早い',es:'🟠 Corrección en Curso — Muy Pronto',de:'🟠 Korrektur im Gange — Zu früh'});
-      stDesc=TT({ko:'시장 조정 진행 중. 기존 롱 포지션 일부 정리 고려. 신규 진입은 아직 이름.',en:'Market correcting. Consider trimming longs. Too early for new entry.',ja:'市場調整が進行中。既存ロングポジションの一部整理を検討。新規エントリーはまだ早い。',es:'Corrección de mercado en curso. Considerar reducir parcialmente posiciones largas. Aún es pronto para nueva entrada.',de:'Marktkorrektur im Gange. Teilweise Reduzierung bestehender Long-Positionen erwägen. Für Neueinstieg noch zu früh.'});
-      gAction=TT({ko:'SPLIT EXIT — 30~50% 일부 정리',en:'SPLIT EXIT — Trim 30~50%',ja:'SPLIT EXIT — 30~50%一部整理',es:'PARCIAL — Reducir 30~50%',de:'TEIL-EXIT — 30~50% teilweise reduzieren'});
-      gDesc=TT({ko:'기존 롱의 30~50% 정리. 현금 비중 확보. 5.0점 이상 회복 시 재진입.',en:'Trim 30~50% of long. Build cash. Re-enter when score recovers to 5.0+.',ja:'既存ロングの30~50%を整理。現金比率を確保。スコア5.0以上に回復時に再エントリー。',es:'Reducir 30~50% del largo. Asegurar liquidez. Reingresar si la puntuación recupera 5.0+.',de:'Long-Position um 30~50% reduzieren. Cash-Anteil sichern. Bei Erholung auf 5,0+ wiedereinsteigen.'});
-      nextDesc=TT({ko:'재진입 조건:\n• 점수 5.0 이상 회복\n• Coinbase Premium 개선\n• STH-SOPR 0.97 이하',en:'Re-entry:\n• Score above 5.0\n• Coinbase Premium improves\n• STH-SOPR below 0.97',ja:'再エントリー条件:\n• スコア5.0以上に回復\n• Coinbaseプレミアム改善\n• STH-SOPRが0.97以下',es:'Condiciones de reingreso:\n• Puntuación recupera 5.0+\n• Coinbase Premium mejora\n• STH-SOPR por debajo de 0.97',de:'Wiedereinstiegsbedingungen:\n• Score erholt sich auf 5,0+\n• Coinbase Premium verbessert sich\n• STH-SOPR unter 0,97'});
+      stMain=TT({ko:'조정 진행 중 — 진입 이름',en:'Correction In Progress — Too Early',ja:'調整進行中 — エントリーには早い',es:'Corrección en Curso — Muy Pronto',de:'Korrektur im Gange — Zu früh',fr:'Correction en Cours — Trop Tôt',pt:'Correção em Andamento — Cedo Demais',tr:'Düzeltme Sürüyor — Çok Erken',vi:'Đang Điều Chỉnh — Quá Sớm'});
+      stDesc=TT({ko:'시장 조정 진행 중. 기존 롱 포지션 일부 정리 고려. 신규 진입은 아직 이름.',en:'Market correcting. Consider trimming longs. Too early for new entry.',ja:'市場調整が進行中。既存ロングポジションの一部整理を検討。新規エントリーはまだ早い。',es:'Corrección de mercado en curso. Considerar reducir parcialmente posiciones largas. Aún es pronto para nueva entrada.',de:'Marktkorrektur im Gange. Teilweise Reduzierung bestehender Long-Positionen erwägen. Für Neueinstieg noch zu früh.',fr:'Le marché corrige. Envisagez de réduire les longs. Trop tôt pour une nouvelle entrée.',pt:'Mercado corrigindo. Considere reduzir longs. Cedo demais para nova entrada.',tr:'Piyasa düzeltiliyor. Long\'ları azaltmayı düşün. Yeni giriş için çok erken.',vi:'Thị trường đang điều chỉnh. Cân nhắc giảm long. Quá sớm để vào mới.'});
+      gAction=TT({ko:'SPLIT EXIT — 30~50% 일부 정리',en:'SPLIT EXIT — Trim 30~50%',ja:'SPLIT EXIT — 30~50%一部整理',es:'PARCIAL — Reducir 30~50%',de:'TEIL-EXIT — 30~50% teilweise reduzieren',fr:'SORTIE ÉCHELONNÉE — Réduire 30~50%',pt:'SAÍDA ESCALONADA — Reduzir 30~50%',tr:'KADEMELİ ÇIKIŞ — %30~50 azalt',vi:'THOÁT TỪNG PHẦN — Giảm 30~50%'});
+      gDesc=TT({ko:'기존 롱의 30~50% 정리. 현금 비중 확보. 5.0점 이상 회복 시 재진입.',en:'Trim 30~50% of long. Build cash. Re-enter when score recovers to 5.0+.',ja:'既存ロングの30~50%を整理。現金比率を確保。スコア5.0以上に回復時に再エントリー。',es:'Reducir 30~50% del largo. Asegurar liquidez. Reingresar si la puntuación recupera 5.0+.',de:'Long-Position um 30~50% reduzieren. Cash-Anteil sichern. Bei Erholung auf 5,0+ wiedereinsteigen.',fr:'Réduisez 30~50% du long. Constituez du cash. Rentrez quand le score remonte à 5,0+.',pt:'Reduza 30~50% do long. Acumule caixa. Reentre quando a pontuação voltar a 5,0+.',tr:'Long\'un %30~50\'sini azalt. Nakit biriktir. Puan 5,0+\'a dönünce tekrar gir.',vi:'Giảm 30~50% long. Tích lũy tiền mặt. Vào lại khi điểm hồi về 5,0+.'});
+      nextDesc=TT({ko:'재진입 조건:\n• 점수 5.0 이상 회복\n• Coinbase Premium 개선\n• STH-SOPR 0.97 이하',en:'Re-entry:\n• Score above 5.0\n• Coinbase Premium improves\n• STH-SOPR below 0.97',ja:'再エントリー条件:\n• スコア5.0以上に回復\n• Coinbaseプレミアム改善\n• STH-SOPRが0.97以下',es:'Condiciones de reingreso:\n• Puntuación recupera 5.0+\n• Coinbase Premium mejora\n• STH-SOPR por debajo de 0.97',de:'Wiedereinstiegsbedingungen:\n• Score erholt sich auf 5,0+\n• Coinbase Premium verbessert sich\n• STH-SOPR unter 0,97',fr:'Réentrée :\n• Score au-dessus de 5,0\n• Coinbase Premium s\'améliore\n• STH-SOPR sous 0,97',pt:'Reentrada:\n• Pontuação acima de 5,0\n• Coinbase Premium melhora\n• STH-SOPR abaixo de 0,97',tr:'Tekrar giriş:\n• Puan 5,0 üstü\n• Coinbase Premium iyileşir\n• STH-SOPR 0,97 altında',vi:'Vào lại:\n• Điểm trên 5,0\n• Coinbase Premium cải thiện\n• STH-SOPR dưới 0,97'});
     } else {
-      stMain=TT({ko:'🔴 고점/과열 — 즉시 청산',en:'🔴 Top/Overheat — Exit Now',ja:'🔴 天井/過熱 — 即時決済',es:'🔴 Techo/Sobrecalentamiento — Salir Ahora',de:'🔴 Top/Überhitzung — Sofort aussteigen'});
-      stDesc=TT({ko:'시장 고점 신호. 롱 포지션 매우 위험. 수익 있다면 즉시 확보.',en:'Top signals. Long position very risky. Take profit immediately.',ja:'市場天井シグナル。ロングポジションは非常に危険。利益があれば即時確保。',es:'Señal de techo de mercado. Posición larga muy riesgosa. Asegurar ganancias de inmediato si las hay.',de:'Marktsignal für Hoch. Long-Position sehr riskant. Gewinne sofort sichern, falls vorhanden.'});
-      gAction=TT({ko:'EXIT LONG — 전량 즉시 청산',en:'EXIT LONG — Exit all immediately',ja:'EXIT LONG — 全量即時決済',es:'SALIR — Cerrar todo de inmediato',de:'EXIT — Alles sofort schließen'});
-      gDesc=TT({ko:'모든 롱 청산. 수익 확보 우선. 손실 발생 시에도 추가 손실 방지 최우선.',en:'Close all longs. Protect profits. Prevent further losses.',ja:'全てのロングを決済。利益確保を優先。損失発生時もさらなる損失防止を最優先。',es:'Cerrar todos los largos. Priorizar asegurar ganancias. Priorizar evitar más pérdidas incluso con pérdida actual.',de:'Alle Long-Positionen schließen. Gewinnsicherung priorisieren. Auch bei Verlust weitere Verluste vermeiden.'});
-      nextDesc=TT({ko:'재진입 조건:\n• 점수 6.0 이상\n• 온체인 지표 저점 진입 확인',en:'Re-entry:\n• Score above 6.0\n• On-chain confirms bottom',ja:'再エントリー条件:\n• スコア6.0以上\n• オンチェーン指標が底値を確認',es:'Condiciones de reingreso:\n• Puntuación por encima de 6.0\n• On-chain confirma suelo',de:'Wiedereinstiegsbedingungen:\n• Score über 6,0\n• On-Chain bestätigt Tief'});
+      stMain=TT({ko:'고점/과열 — 즉시 청산',en:'Top/Overheat — Exit Now',ja:'天井/過熱 — 即時決済',es:'Techo/Sobrecalentamiento — Salir Ahora',de:'Top/Überhitzung — Sofort aussteigen',fr:'Sommet/Surchauffe — Sortez Maintenant',pt:'Topo/Sobreaquecimento — Saia Agora',tr:'Tepe/Isınma — Şimdi Çık',vi:'Đỉnh/Quá Nóng — Thoát Ngay'});
+      stDesc=TT({ko:'시장 고점 신호. 롱 포지션 매우 위험. 수익 있다면 즉시 확보.',en:'Top signals. Long position very risky. Take profit immediately.',ja:'市場天井シグナル。ロングポジションは非常に危険。利益があれば即時確保。',es:'Señal de techo de mercado. Posición larga muy riesgosa. Asegurar ganancias de inmediato si las hay.',de:'Marktsignal für Hoch. Long-Position sehr riskant. Gewinne sofort sichern, falls vorhanden.',fr:'Signaux de sommet. Position long très risquée. Prenez vos profits immédiatement.',pt:'Sinais de topo. Posição long muito arriscada. Realize lucro imediatamente.',tr:'Tepe sinyalleri. Long pozisyon çok riskli. Hemen kâr al.',vi:'Tín hiệu đỉnh. Vị thế long rất rủi ro. Chốt lời ngay.'});
+      gAction=TT({ko:'EXIT LONG — 전량 즉시 청산',en:'EXIT LONG — Exit all immediately',ja:'EXIT LONG — 全量即時決済',es:'SALIR — Cerrar todo de inmediato',de:'EXIT — Alles sofort schließen',fr:'SORTIR DU LONG — Sortez tout immédiatement',pt:'SAIR DO LONG — Saia de tudo imediatamente',tr:'LONG ÇIK — Hepsinden hemen çık',vi:'THOÁT LONG — Thoát tất cả ngay'});
+      gDesc=TT({ko:'모든 롱 청산. 수익 확보 우선. 손실 발생 시에도 추가 손실 방지 최우선.',en:'Close all longs. Protect profits. Prevent further losses.',ja:'全てのロングを決済。利益確保を優先。損失発生時もさらなる損失防止を最優先。',es:'Cerrar todos los largos. Priorizar asegurar ganancias. Priorizar evitar más pérdidas incluso con pérdida actual.',de:'Alle Long-Positionen schließen. Gewinnsicherung priorisieren. Auch bei Verlust weitere Verluste vermeiden.',fr:'Fermez tous les longs. Protégez les profits. Évitez d\'autres pertes.',pt:'Feche todos os longs. Proteja lucros. Evite mais perdas.',tr:'Tüm long\'ları kapat. Kârı koru. Daha fazla zararı önle.',vi:'Đóng tất cả long. Bảo vệ lợi nhuận. Ngăn lỗ thêm.'});
+      nextDesc=TT({ko:'재진입 조건:\n• 점수 6.0 이상\n• 온체인 지표 저점 진입 확인',en:'Re-entry:\n• Score above 6.0\n• On-chain confirms bottom',ja:'再エントリー条件:\n• スコア6.0以上\n• オンチェーン指標が底値を確認',es:'Condiciones de reingreso:\n• Puntuación por encima de 6.0\n• On-chain confirma suelo',de:'Wiedereinstiegsbedingungen:\n• Score über 6,0\n• On-Chain bestätigt Tief',fr:'Réentrée :\n• Score au-dessus de 6,0\n• L\'on-chain confirme le creux',pt:'Reentrada:\n• Pontuação acima de 6,0\n• On-chain confirma o fundo',tr:'Tekrar giriş:\n• Puan 6,0 üstü\n• Zincir üstü dibi onaylar',vi:'Vào lại:\n• Điểm trên 6,0\n• On-chain xác nhận đáy'});
     }
 
-    if(el('lStatusTitle')) el('lStatusTitle').textContent=TT({ko:'📊 현재 시장 상태',en:'📊 MARKET STATUS',ja:'📊 現在の市場状況',es:'📊 ESTADO DEL MERCADO',de:'📊 MARKTSTATUS'});
+    if(el('lStatusTitle')) el('lStatusTitle').textContent=TT({ko:'현재 시장 상태',en:'MARKET STATUS',ja:'現在の市場状況',es:'ESTADO DEL MERCADO',de:'MARKTSTATUS',fr:'ÉTAT DU MARCHÉ',pt:'STATUS DO MERCADO',tr:'PİYASA DURUMU',vi:'TRẠNG THÁI THỊ TRƯỜNG'});
     if(el('lStatusMain'))  {el('lStatusMain').textContent=stMain;el('lStatusMain').style.color=result.acolor;}
     if(el('lStatusDesc'))  el('lStatusDesc').textContent=stDesc;
-    if(el('lGuideTitle'))  el('lGuideTitle').textContent=TT({ko:'💡 롱 포지션 가이드',en:'💡 LONG GUIDE',ja:'💡 ロングポジションガイド',es:'💡 GUÍA LARGO',de:'💡 LONG-ANLEITUNG'});
+    if(el('lGuideTitle'))  el('lGuideTitle').textContent=TT({ko:'롱 포지션 가이드',en:'LONG GUIDE',ja:'ロングポジションガイド',es:'GUÍA LARGO',de:'LONG-ANLEITUNG',fr:'GUIDE LONG',pt:'GUIA LONG',tr:'LONG KILAVUZU',vi:'HƯỚNG DẪN LONG'});
     if(el('lGuideAction')) {el('lGuideAction').textContent=gAction;el('lGuideAction').style.color=result.acolor;}
     if(el('lGuideDesc'))   el('lGuideDesc').textContent=gDesc;
-    if(el('lNextTitle'))   el('lNextTitle').textContent=TT({ko:'🎯 다음 진입 조건',en:'🎯 NEXT TRIGGER',ja:'🎯 次のエントリー条件',es:'🎯 SIGUIENTE DISPARADOR',de:'🎯 NÄCHSTER TRIGGER'});
-    if(el('lNextDesc'))    el('lNextDesc').textContent=nextDesc;
-    if(el('lSplitTitle'))  el('lSplitTitle').textContent=TT({ko:'💰 분할 매수 계획',en:'💰 SPLIT ENTRY PLAN',ja:'💰 分割エントリー計画',es:'💰 PLAN DE ENTRADA ESCALONADA',de:'💰 GESTAFFELTER EINSTIEGSPLAN'});
+    if(el('lNextTitle'))   el('lNextTitle').textContent=TT({ko:'다음 진입 조건',en:'NEXT TRIGGER',ja:'次のエントリー条件',es:'SIGUIENTE DISPARADOR',de:'NÄCHSTER TRIGGER',fr:'PROCHAIN DÉCLENCHEUR',pt:'PRÓXIMO GATILHO',tr:'SONRAKİ TETİKLEYİCİ',vi:'KÍCH HOẠT TIẾP THEO'});
+    if(el('lNextDesc'))    el('lNextDesc').innerHTML=_emphArrow(nextDesc);
+    if(el('lSplitTitle'))  el('lSplitTitle').textContent=TT({ko:'분할 매수 계획',en:'SPLIT ENTRY PLAN',ja:'分割エントリー計画',es:'PLAN DE ENTRADA ESCALONADA',de:'GESTAFFELTER EINSTIEGSPLAN',fr:'PLAN D\'ENTRÉE ÉCHELONNÉE',pt:'PLANO DE ENTRADA ESCALONADA',tr:'KADEMELİ GİRİŞ PLANI',vi:'KẾ HOẠCH VÀO TỪNG PHẦN'});
   const assetInput = document.getElementById('userAsset');
   if(assetInput && document.activeElement !== assetInput) assetInput.value = TOTAL_USDT;
   const assetLbl = document.getElementById('lAssetLabel');
-  if(assetLbl) assetLbl.textContent = TT({ko:'투자 자산',en:'Investment',ja:'投資資産',es:'Inversión',de:'Investition'});
+  if(assetLbl) assetLbl.textContent = TT({ko:'투자 자산',en:'Investment',ja:'投資資産',es:'Inversión',de:'Investition',fr:'Investissement',pt:'Investimento',tr:'Yatırım',vi:'Đầu tư'});
   }
 
   // Grids — buy: 고정 키 배분, sell: 동적 배분
@@ -1078,12 +1531,12 @@ function renderAll(ind) {
   document.getElementById('bkTot').style.color=scoreColor;
   // 점수합산 헤더 한글화
   const bkHd=document.querySelector('.bk-hd');
-  if(bkHd) bkHd.textContent=TT({ko:`점수 합산 (${result.max}pt → 10점 환산)`,en:`Score Breakdown (${result.max}pt → 10pt)`,ja:`スコア内訳 (${result.max}pt → 10pt換算)`,es:`Desglose de puntuación (${result.max}pt → convertido a 10pt)`,de:`Score-Aufschlüsselung (${result.max}pt → auf 10pt umgerechnet)`});
+  if(bkHd) bkHd.textContent=TT({ko:`점수 합산 (${result.max}pt → 10점 환산)`,en:`Score Breakdown (${result.max}pt → 10pt)`,ja:`スコア内訳 (${result.max}pt → 10pt換算)`,es:`Desglose de puntuación (${result.max}pt → convertido a 10pt)`,de:`Score-Aufschlüsselung (${result.max}pt → auf 10pt umgerechnet)`,fr:`Détail du score (${result.max}pt → converti sur 10)`,pt:`Detalhamento (${result.max}pt → convertido para 10)`,tr:`Puan dökümü (${result.max}pt → 10'a çevrildi)`,vi:`Phân tích điểm (${result.max}pt → quy về 10)`});
   // 트리거 헤더
   const trigTitleEl=document.getElementById('trigTitle');
   if(trigTitleEl) {
-    if(currentMode==='buy') trigTitleEl.textContent=TT({ko:'다음 단계 트리거',en:'Next Level Triggers',ja:'次段階トリガー',es:'Próximos Disparadores',de:'Nächste Trigger'});
-    else trigTitleEl.textContent=TT({ko:'숏 신호 트리거',en:'Short Signal Triggers',ja:'ショートシグナルトリガー',es:'Disparadores de Señal de Venta',de:'Verkaufssignal-Trigger'});
+    if(currentMode==='buy') trigTitleEl.textContent=TT({ko:'다음 단계 트리거',en:'Next Level Triggers',ja:'次段階トリガー',es:'Próximos Disparadores',de:'Nächste Trigger',fr:'Déclencheurs du Niveau Suivant',pt:'Gatilhos do Próximo Nível',tr:'Sonraki Seviye Tetikleyicileri',vi:'Kích hoạt Cấp tiếp theo'});
+    else trigTitleEl.textContent=TT({ko:'숏 신호 트리거',en:'Short Signal Triggers',ja:'ショートシグナルトリガー',es:'Disparadores de Señal de Venta',de:'Verkaufssignal-Trigger',fr:'Déclencheurs de Signal Short',pt:'Gatilhos de Sinal Short',tr:'Short Sinyal Tetikleyicileri',vi:'Kích hoạt Tín hiệu Short'});
   }
   // 분할계획 단계 라벨
   const stepNow=document.querySelector('.step-now');
@@ -1096,10 +1549,10 @@ function renderAll(ind) {
   if(currentMode==='buy') {
     const canEnter = sc >= 6.0; // SPLIT LONG 이상이어야 분할 진입 시작
     const steps=[
-      {pct:25,cond:canEnter?TT({ko:`지금 진입 (${sc.toFixed(1)}점)`,en:`Now (${sc.toFixed(1)}pt)`,ja:`今すぐ (${sc.toFixed(1)}pt)`,es:`Ahora (${sc.toFixed(1)}pt)`,de:`Jetzt (${sc.toFixed(1)}pt)`}):TT({ko:`점수 6.0 이상 대기 (현재 ${sc.toFixed(1)}점)`,en:`Await 6.0+ (now ${sc.toFixed(1)}pt)`,ja:`スコア6.0以上を待機 (現在${sc.toFixed(1)}pt)`,es:`Esperando 6.0+ (actual ${sc.toFixed(1)}pt)`,de:`Warten auf 6,0+ (aktuell ${sc.toFixed(1)}pt)`}),
+      {pct:25,cond:canEnter?TT({ko:`지금 진입 (${sc.toFixed(1)}점)`,en:`Now (${sc.toFixed(1)}pt)`,ja:`今すぐ (${sc.toFixed(1)}pt)`,es:`Ahora (${sc.toFixed(1)}pt)`,de:`Jetzt (${sc.toFixed(1)}pt)`,fr:`Maintenant (${sc.toFixed(1)}pt)`,pt:`Agora (${sc.toFixed(1)}pt)`,tr:`Şimdi (${sc.toFixed(1)}pt)`,vi:`Bây giờ (${sc.toFixed(1)}pt)`}):TT({ko:`점수 6.0 이상 대기 (현재 ${sc.toFixed(1)}점)`,en:`Await 6.0+ (now ${sc.toFixed(1)}pt)`,ja:`スコア6.0以上を待機 (現在${sc.toFixed(1)}pt)`,es:`Esperando 6.0+ (actual ${sc.toFixed(1)}pt)`,de:`Warten auf 6,0+ (aktuell ${sc.toFixed(1)}pt)`,fr:`Attendre 6,0+ (actuel ${sc.toFixed(1)}pt)`,pt:`Aguardar 6,0+ (atual ${sc.toFixed(1)}pt)`,tr:`6,0+ bekle (şu an ${sc.toFixed(1)}pt)`,vi:`Chờ 6,0+ (hiện ${sc.toFixed(1)}pt)`}),
        price:livePrice||p, now:canEnter, waiting:!canEnter},
-      {pct:30,cond:TT({ko:'Hash Ribbon 회복 전환',en:'Hash Ribbon Recovery Cross',ja:'Hash Ribbon 回復転換',es:'Cruce de Recuperación Hash Ribbon',de:'Hash-Ribbon-Erholungscross'}),price:null,range:'$50K~$58K'},
-      {pct:25,cond:TT({ko:'Coinbase Premium 양전환',en:'Coinbase Premium Turns Positive',ja:'Coinbaseプレミアムがプラス転換',es:'Coinbase Premium se vuelve positivo',de:'Coinbase Premium wird positiv'}),price:null,range:'$52K~$62K'},
+      {pct:30,cond:TT({ko:'Hash Ribbon 회복 전환',en:'Hash Ribbon Recovery Cross',ja:'Hash Ribbon 回復転換',es:'Cruce de Recuperación Hash Ribbon',de:'Hash-Ribbon-Erholungscross',fr:'Croisement de Reprise Hash Ribbon',pt:'Cruzamento de Recuperação Hash Ribbon',tr:'Hash Ribbon Toparlanma Kesişimi',vi:'Giao cắt Phục hồi Hash Ribbon'}),price:null,range:'$50K~$58K'},
+      {pct:25,cond:TT({ko:'Coinbase Premium 양전환',en:'Coinbase Premium Turns Positive',ja:'Coinbaseプレミアムがプラス転換',es:'Coinbase Premium se vuelve positivo',de:'Coinbase Premium wird positiv',fr:'Coinbase Premium Devient Positif',pt:'Coinbase Premium Fica Positivo',tr:'Coinbase Premium Pozitife Döner',vi:'Coinbase Premium Thành Dương'}),price:null,range:'$52K~$62K'},
       {pct:20,cond:'NUPL 0% + MVRV Z ≤ 0',price:null,range:'$45K~$55K'},
     ];
     document.getElementById('splitRows').innerHTML=steps.map((s,i)=>{
@@ -1140,8 +1593,8 @@ function renderAll(ind) {
 // ═══════════════════════════════════════════════════════
 function renderTriggers(result, ind) {
   const sc=result.final;
-  const ach=TT({ko:'달성',en:'Achieved',ja:'達成',es:'Logrado',de:'Erreicht'});
-  const trig_ko=TT({ko:'발생',en:'Triggered!',ja:'発生!',es:'¡Activado!',de:'Ausgelöst!'});
+  const ach=TT({ko:'달성',en:'Achieved',ja:'達成',es:'Logrado',de:'Erreicht',fr:'Atteint',pt:'Atingido',tr:'Tamamlandı',vi:'Đã đạt'});
+  const trig_ko=TT({ko:'발생',en:'Triggered!',ja:'発生!',es:'¡Activado!',de:'Ausgelöst!',fr:'Déclenché !',pt:'Acionado!',tr:'Tetiklendi!',vi:'Đã kích hoạt!'});
   const pick = (t) => t[currentLang] || t.en;
   let rows=[];
   if(currentMode==='buy') {
@@ -1234,18 +1687,17 @@ function saveHistoryToServer(coin, modeKey, t, score) {
   }).catch(e => console.error('[history] save FAILED (DB 규칙/권한 확인 필요):', e && e.message ? e.message : e));
 }
 
-// 서버 히스토리도 일정 개수 넘으면 오래된 것부터 삭제 (코인당 최대 2000개)
-const HISTORY_MAX_POINTS = 2000;
+// 서버 히스토리: 31일보다 오래된 포인트만 삭제(30일 뷰 지원).
+// 저장마다 하지 않고 ~1/16 확률로만, 오래된 것 소량만 조회해 부하를 줄인다.
+const HISTORY_RETAIN_DAYS = 31;
 function pruneOldHistory(path) {
   if(!chatDB) return;
-  chatDB.ref(path).orderByChild('t').once('value', (snap) => {
+  if(Math.random() > 0.06) return;
+  const cutoff = Date.now() - HISTORY_RETAIN_DAYS*24*60*60*1000;
+  chatDB.ref(path).orderByChild('t').endAt(cutoff).limitToFirst(300).once('value', (snap) => {
     const data = snap.val();
     if(!data) return;
-    const entries = Object.entries(data).sort((a,b) => a[1].t - b[1].t);
-    if(entries.length > HISTORY_MAX_POINTS) {
-      const toDelete = entries.slice(0, entries.length - HISTORY_MAX_POINTS);
-      toDelete.forEach(([key]) => chatDB.ref(path + '/' + key).remove());
-    }
+    Object.keys(data).forEach(key => chatDB.ref(path + '/' + key).remove());
   });
 }
 
@@ -1253,7 +1705,7 @@ function pruneOldHistory(path) {
 function loadHistoryFromServer(coin, modeKey, callback) {
   if(!ensureHistoryDB()) { callback(null); return; }
   const path = `scoreHistory/${coin}_${modeKey}`;
-  chatDB.ref(path).orderByChild('t').limitToLast(500).once('value', (snap) => {
+  chatDB.ref(path).orderByChild('t').limitToLast(12000).once('value', (snap) => {
     const data = snap.val();
     if(!data) { callback(null); return; }
     const points = Object.values(data).sort((a,b) => a.t - b.t);
@@ -1264,7 +1716,8 @@ function loadHistoryFromServer(coin, modeKey, callback) {
   });
 }
 
-let serverHistoryLoaded = {}; // 코인+모드별 서버 로드 여부 캐시
+let serverHistoryLoaded = {};
+let fullHistoryCache = {}; // 서버에서 받은 전체(최대 12000) — 그래프가 이걸 사용(localStorage 2000 제한 우회) // 코인+모드별 서버 로드 여부 캐시
 
 function drawHistory() {
   // 서버 히스토리 최초 1회 로드 (코인+모드별)
@@ -1287,6 +1740,7 @@ function drawHistory() {
           seen.add(k);
           return true;
         }).sort((a,b)=>a.t-b.t);
+        fullHistoryCache[localKey] = dedup;
         try { localStorage.setItem(localKey, JSON.stringify(dedup.slice(-2000))); } catch(e){}
         drawHistory(); // 데이터 갱신 후 재렌더
       }
@@ -1320,6 +1774,7 @@ function drawHistory() {
   ctx.scale(dpr,dpr);
 
   if(data.length < 2) {
+    historyPlotState = null; // 데이터 부족 시 호버 상태도 비워 이전 코인 값이 안 뜨게
     ctx.fillStyle='rgba(255,255,255,0.15)';
     ctx.font='11px system-ui'; ctx.textAlign='center';
     ctx.fillText('Score history will appear after multiple data points', w/2, h/2);
@@ -1327,29 +1782,40 @@ function drawHistory() {
   }
 
   const scores = data.map(x=>x.s);
-  const minS = Math.min(...scores, 6);
-  const maxS = Math.max(...scores, 10);
+  // Y축을 데이터 실제 범위에 맞춰 동적으로 (위/아래 여백이 과하게 남지 않게).
+  // 변동이 너무 작으면 최소 범위(1.5)를 보장해 선이 납작해지지 않게 함.
+  let dataMin = Math.min(...scores);
+  let dataMax = Math.max(...scores);
+  let span = dataMax - dataMin;
+  const MIN_SPAN = 1.5;
+  if (span < MIN_SPAN) { const mid=(dataMin+dataMax)/2; dataMin=mid-MIN_SPAN/2; dataMax=mid+MIN_SPAN/2; span=MIN_SPAN; }
+  const yPad = span * 0.15;              // 위아래 15% 여백
+  const minS = Math.max(0, dataMin - yPad);
+  const maxS = Math.min(10, dataMax + yPad);
   const pad = {l:28,r:10,t:10,b:20};
   const pw = w-pad.l-pad.r;
   const ph = h-pad.t-pad.b;
 
-  // X축을 '선택한 기간' 전체로 고정 (예: 24H면 지금-24h ~ 지금).
-  // 데이터가 일부 구간만 있어도 축은 전체를 보여주고, 포인트는 실제 시각 위치에 찍힘.
-  const rangeMsMap = {'1d':86400000,'7d':7*86400000,'30d':30*86400000};
+  // X축을 '선택한 기간' 전체로 고정하되, 사용자의 팬(좌우 이동)·줌(확대)을 반영.
+  // chartZoom: 1이면 기간 전체, >1이면 확대. chartPan: 오른쪽 끝 기준 과거로 밀어낸 ms.
+  const rangeMsMap = {'1h':3600000,'4h':4*3600000,'6h':6*3600000,'12h':12*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000};
   const nowT = Date.now();
-  const spanMs = rangeMsMap[histPeriod] || (data[data.length-1].t - data[0].t) || 86400000;
-  const tEnd = nowT;
-  const tStart = (histPeriod === 'all') ? data[0].t : (tEnd - spanMs);
+  const fullSpan = rangeMsMap[histPeriod] || (data[data.length-1].t - data[0].t) || 86400000;
+  const spanMs = fullSpan / chartZoom;              // 줌인하면 보이는 폭이 좁아짐
+  const maxPan = Math.max(0, fullSpan - spanMs);     // 과거로 밀 수 있는 최대치
+  chartPan = Math.max(0, Math.min(chartPan, maxPan)); // 범위 밖으로 못 나가게
+  const tEnd = nowT - chartPan;
+  const tStart = tEnd - spanMs;
   const tSpan = Math.max(tEnd - tStart, 1);
   // 시각 → X좌표 (시간 비례)
   const xAt = (t) => pad.l + Math.max(0, Math.min(1, (t - tStart)/tSpan)) * pw;
   const zones = [
-    {min:8.0,max:10,color:'rgba(34,197,94,0.07)',label:'FULL LONG'},
-    {min:7.0,max:8.0,color:'rgba(74,222,128,0.05)',label:'ADD LONG'},
-    {min:6.0,max:7.0,color:'rgba(134,239,172,0.04)',label:'SPLIT LONG'},
-    {min:5.0,max:6.0,color:'rgba(163,230,53,0.03)',label:'WATCH'},
-    {min:3.5,max:5.0,color:'rgba(251,191,36,0.03)',label:'SPLIT EXIT'},
-    {min:0,max:3.5,color:'rgba(239,68,68,0.03)',label:'EXIT LONG'},
+    {min:8.0,max:10,color:'rgba(34,197,94,0.15)',label:'FULL LONG'},
+    {min:7.0,max:8.0,color:'rgba(34,197,94,0.10)',label:'ADD LONG'},
+    {min:6.0,max:7.0,color:'rgba(134,239,172,0.06)',label:'SPLIT LONG'},
+    {min:5.0,max:6.0,color:'rgba(245,158,11,0.05)',label:'WATCH'},
+    {min:3.5,max:5.0,color:'rgba(245,158,11,0.08)',label:'SPLIT EXIT'},
+    {min:0,max:3.5,color:'rgba(239,68,68,0.12)',label:'EXIT LONG'},
   ];
   zones.forEach(z=>{
     const y1=pad.t+ph-(z.max-minS)/(maxS-minS)*ph;
@@ -1370,10 +1836,16 @@ function drawHistory() {
     ctx.fillText(v.toFixed(1),pad.l-3,y+3);
   });
 
-  // Gradient fill
+  // 최신 점수에 따라 라인 색상 결정 (롱/숏 강도 시각화)
+  const lastScore = data[data.length-1].s;
+  const lineColor = lastScore >= 7 ? '#5b9d78' : lastScore >= 5 ? '#8a9a5b' : lastScore >= 3.5 ? '#c99a52' : '#bd6b6b';
+  const lineRGB = lastScore >= 7 ? '91,157,120' : lastScore >= 5 ? '138,154,91' : lastScore >= 3.5 ? '201,154,82' : '189,107,107';
+
+  // Gradient fill (라인 색상과 연동)
   const grad=ctx.createLinearGradient(0,pad.t,0,h-pad.b);
-  grad.addColorStop(0,'rgba(74,222,128,0.25)');
-  grad.addColorStop(1,'rgba(74,222,128,0)');
+  grad.addColorStop(0,`rgba(${lineRGB},0.28)`);
+  grad.addColorStop(0.7,`rgba(${lineRGB},0.06)`);
+  grad.addColorStop(1,`rgba(${lineRGB},0)`);
   ctx.beginPath();
   data.forEach((p,i)=>{
     const x=xAt(p.t);
@@ -1385,8 +1857,9 @@ function drawHistory() {
   ctx.closePath();
   ctx.fillStyle=grad; ctx.fill();
 
-  // Line
-  ctx.beginPath(); ctx.strokeStyle='#4ade80'; ctx.lineWidth=1.5;
+  // Line — 부드러운 연결 (글로우 없이 차분하게)
+  ctx.beginPath(); ctx.strokeStyle=lineColor; ctx.lineWidth=1.75;
+  ctx.lineJoin='round'; ctx.lineCap='round';
   data.forEach((p,i)=>{
     const x=xAt(p.t);
     const y=pad.t+ph-(p.s-minS)/(maxS-minS)*ph;
@@ -1394,22 +1867,24 @@ function drawHistory() {
   });
   ctx.stroke();
 
-  // Latest dot + value
+  // Latest dot — 은은한 링 + 코어 (발광 최소화)
   const last=data[data.length-1];
   const lx=xAt(last.t);
   const ly=pad.t+ph-(last.s-minS)/(maxS-minS)*ph;
-  ctx.beginPath();ctx.arc(lx,ly,4,0,Math.PI*2);
-  ctx.fillStyle='#4ade80';ctx.fill();
-  ctx.fillStyle='rgba(255,255,255,0.8)';ctx.font='bold 9px system-ui';ctx.textAlign='right';
-  ctx.fillText(last.s.toFixed(1),lx-7,ly-5);
+  ctx.beginPath();ctx.arc(lx,ly,4.5,0,Math.PI*2);
+  ctx.fillStyle=`rgba(${lineRGB},0.2)`;ctx.fill();
+  ctx.beginPath();ctx.arc(lx,ly,3,0,Math.PI*2);
+  ctx.fillStyle=lineColor;ctx.fill();
+  ctx.fillStyle='rgba(255,255,255,0.75)';ctx.font='bold 10px system-ui';ctx.textAlign='right';
+  ctx.fillText(last.s.toFixed(1),lx-8,ly-6);
 
   // Time labels (x-axis, 5 labels) — 데이터가 아니라 '기간 전체' 기준 균등 시각 + 언어별 타임존
-  const TZ = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin'};
+  const TZ = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin', fr:'Europe/Paris', pt:'America/Sao_Paulo', tr:'Europe/Istanbul', vi:'Asia/Ho_Chi_Minh'};
   const tz = TZ[currentLang] || undefined;
   const loc = SUPPORTED_LANG_CODES.includes(currentLang)?currentLang:'en';
   ctx.fillStyle='rgba(255,255,255,0.2)';ctx.font='8px system-ui';ctx.textAlign='center';
   const steps=[0,0.25,0.5,0.75,1];
-  const shortR=['1d'].includes(histPeriod);
+  const shortR=['1h','4h','6h','12h','1d'].includes(histPeriod);
   steps.forEach(r=>{
     const t = tStart + r*tSpan;          // 기간 전체를 균등 분할한 시각
     const x = pad.l + r*pw;
@@ -1437,12 +1912,16 @@ function drawHistory() {
       '1h':'최근 7일','4h':'최근 14일','1d':'최근 30일','1w':'최근 90일','1M':'전체'
     };
     const pLabels={
-      '1d': TT({ko:'최근 24시간',en:'Last 24h',ja:'直近24時間',es:'Últimas 24h',de:'Letzte 24 Std.'}),
-      '7d': TT({ko:'최근 7일',en:'Last 7d',ja:'直近7日間',es:'Últimos 7d',de:'Letzte 7 Tage'}),
-      '30d': TT({ko:'최근 30일',en:'Last 30d',ja:'直近30日間',es:'Últimos 30d',de:'Letzte 30 Tage'}),
-      'all': TT({ko:'전체',en:'All time',ja:'全期間',es:'Todo el tiempo',de:'Gesamter Zeitraum'}),
+      '1h': TT({ko:'최근 1시간',en:'Last 1h',ja:'直近1時間',es:'Última 1h',de:'Letzte 1 Std.',fr:'Dernière 1h',pt:'Última 1h',tr:'Son 1s',vi:'1g qua'}),
+      '4h': TT({ko:'최근 4시간',en:'Last 4h',ja:'直近4時間',es:'Últimas 4h',de:'Letzte 4 Std.',fr:'Dernières 4h',pt:'Últimas 4h',tr:'Son 4s',vi:'4g qua'}),
+      '6h': TT({ko:'최근 6시간',en:'Last 6h',ja:'直近6時間',es:'Últimas 6h',de:'Letzte 6 Std.',fr:'Dernières 6h',pt:'Últimas 6h',tr:'Son 6s',vi:'6g qua'}),
+      '12h': TT({ko:'최근 12시간',en:'Last 12h',ja:'直近12時間',es:'Últimas 12h',de:'Letzte 12 Std.',fr:'Dernières 12h',pt:'Últimas 12h',tr:'Son 12s',vi:'12g qua'}),
+      '1d': TT({ko:'최근 24시간',en:'Last 24h',ja:'直近24時間',es:'Últimas 24h',de:'Letzte 24 Std.',fr:'Dernières 24h',pt:'Últimas 24h',tr:'Son 24s',vi:'24g qua'}),
+      '7d': TT({ko:'최근 7일',en:'Last 7d',ja:'直近7日間',es:'Últimos 7d',de:'Letzte 7 Tage',fr:'Derniers 7j',pt:'Últimos 7d',tr:'Son 7g',vi:'7n qua'}),
+      '30d': TT({ko:'최근 30일',en:'Last 30d',ja:'直近30日間',es:'Últimos 30d',de:'Letzte 30 Tage',fr:'Derniers 30j',pt:'Últimos 30d',tr:'Son 30g',vi:'30n qua'}),
+      'all': TT({ko:'전체',en:'All time',ja:'全期間',es:'Todo el tiempo',de:'Gesamter Zeitraum',fr:'Tout l\'historique',pt:'Todo o período',tr:'Tüm zamanlar',vi:'Toàn bộ'}),
     };
-    sub.textContent=`${pLabels[histPeriod]||histPeriod} · ${data.length} ${TT({ko:'포인트',en:'points',ja:'ポイント',es:'puntos',de:'Punkte'})}`;
+    sub.textContent=`${pLabels[histPeriod]||histPeriod} · ${data.length} ${TT({ko:'포인트',en:'points',ja:'ポイント',es:'puntos',de:'Punkte',fr:'points',pt:'pontos',tr:'puan',vi:'điểm'})}`;
     // 통계 업데이트
     if(data.length > 0) {
       const scores = data.map(x=>x.s);
@@ -1525,9 +2004,9 @@ function attachHistoryHover() {
     drawCrosshair(x, y);
 
     // 툴팁 텍스트: 점수 + 날짜/시각 (기간이 짧으면 시각, 길면 날짜) — 언어별 타임존 적용
-    const shortR = ['1d'].includes(histPeriod);
+    const shortR = ['1h','4h','6h','12h','1d'].includes(histPeriod);
     const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-    const TZ2 = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin'};
+    const TZ2 = {ko:'Asia/Seoul', ja:'Asia/Tokyo', en:'America/New_York', es:'Europe/Madrid', de:'Europe/Berlin', fr:'Europe/Paris', pt:'America/Sao_Paulo', tr:'Europe/Istanbul', vi:'Asia/Ho_Chi_Minh'};
     const dtz = TZ2[currentLang] || undefined;
     let timeStr;
     try {
@@ -1539,7 +2018,7 @@ function attachHistoryHover() {
         ? new Date(nearest.point.t).toLocaleTimeString(dLoc,{hour:'2-digit',minute:'2-digit'})
         : new Date(nearest.point.t).toLocaleDateString(dLoc,{year:'numeric',month:'short',day:'numeric'});
     }
-    tScore.textContent = TT({ko:`점수 ${nearest.point.s.toFixed(2)}`,en:`Score ${nearest.point.s.toFixed(2)}`,ja:`スコア ${nearest.point.s.toFixed(2)}`,es:`Puntuación ${nearest.point.s.toFixed(2)}`,de:`Score ${nearest.point.s.toFixed(2)}`});
+    tScore.textContent = TT({ko:`점수 ${nearest.point.s.toFixed(2)}`,en:`Score ${nearest.point.s.toFixed(2)}`,ja:`スコア ${nearest.point.s.toFixed(2)}`,es:`Puntuación ${nearest.point.s.toFixed(2)}`,de:`Score ${nearest.point.s.toFixed(2)}`,fr:`Score ${nearest.point.s.toFixed(2)}`,pt:`Pontuação ${nearest.point.s.toFixed(2)}`,tr:`Puan ${nearest.point.s.toFixed(2)}`,vi:`Điểm ${nearest.point.s.toFixed(2)}`});
     tTime.textContent = timeStr;
 
     // 툴팁 위치 (캔버스 좌상단 기준 오프셋)
@@ -1561,6 +2040,63 @@ function attachHistoryHover() {
     if(e.touches && e.touches[0]) { handleMove(e.touches[0].clientX, e.touches[0].clientY); e.preventDefault(); }
   }, {passive:false});
   hoverCanvas.addEventListener('touchend', hideTooltip);
+
+  // ── 좌우 드래그(팬) ──────────────────────────────
+  let dragging=false, dragStartX=0, dragStartPan=0;
+  const pxToMs = () => {
+    // 화면 1px이 몇 ms인지 (현재 보이는 폭 기준)
+    const st = historyPlotState;
+    if(!st || !st.pw) return 0;
+    return st.tSpan / st.pw;
+  };
+  const startDrag = (x) => { dragging=true; dragStartX=x; dragStartPan=chartPan; hoverCanvas.style.cursor='grabbing'; };
+  const moveDrag = (x) => {
+    if(!dragging) return;
+    const dx = x - dragStartX;               // 오른쪽으로 끌면 +
+    chartPan = dragStartPan + dx * pxToMs();  // 오른쪽 드래그 = 과거로
+    drawHistory();
+  };
+  const endDrag = () => { dragging=false; hoverCanvas.style.cursor='crosshair'; };
+
+  hoverCanvas.addEventListener('mousedown', (e) => { startDrag(e.clientX); e.preventDefault(); });
+  window.addEventListener('mousemove', (e) => { if(dragging) moveDrag(e.clientX); });
+  window.addEventListener('mouseup', endDrag);
+
+  // ── 휠 줌 (확대/축소) ────────────────────────────
+  hoverCanvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const factor = e.deltaY < 0 ? 1.2 : 1/1.2;   // 위로 굴리면 확대
+    const newZoom = Math.max(1, Math.min(50, chartZoom * factor));
+    chartZoom = newZoom;
+    drawHistory();
+  }, {passive:false});
+
+  // ── 터치: 한 손가락 팬 + 두 손가락 핀치 줌 ──────────
+  let pinchStartDist=0, pinchStartZoom=1, touchPanStartX=0, touchPanStartPan=0, touchMode='';
+  hoverCanvas.addEventListener('touchstart', (e) => {
+    if(e.touches.length===2){
+      touchMode='pinch';
+      const dx=e.touches[0].clientX-e.touches[1].clientX, dy=e.touches[0].clientY-e.touches[1].clientY;
+      pinchStartDist=Math.hypot(dx,dy); pinchStartZoom=chartZoom;
+    } else if(e.touches.length===1){
+      touchMode='pan'; touchPanStartX=e.touches[0].clientX; touchPanStartPan=chartPan;
+    }
+  }, {passive:true});
+  hoverCanvas.addEventListener('touchmove', (e) => {
+    if(touchMode==='pinch' && e.touches.length===2){
+      const dx=e.touches[0].clientX-e.touches[1].clientX, dy=e.touches[0].clientY-e.touches[1].clientY;
+      const dist=Math.hypot(dx,dy);
+      if(pinchStartDist>0){ chartZoom=Math.max(1,Math.min(50,pinchStartZoom*(dist/pinchStartDist))); drawHistory(); }
+      e.preventDefault();
+    } else if(touchMode==='pan' && e.touches.length===1){
+      const dx=e.touches[0].clientX-touchPanStartX;
+      chartPan=touchPanStartPan + dx*pxToMs(); drawHistory();
+    }
+  }, {passive:false});
+  hoverCanvas.addEventListener('touchend', () => { touchMode=''; });
+
+  // 더블클릭: 확대/이동 초기화
+  hoverCanvas.addEventListener('dblclick', () => { chartZoom=1; chartPan=0; drawHistory(); });
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1598,19 +2134,19 @@ function loadAlertSettings(){
 async function requestNotif() {
   const statusEl = document.getElementById('notifStatus');
   if(!('Notification' in window)) {
-    if(statusEl) { statusEl.textContent = TT({ko:'이 브라우저는 알림을 지원하지 않습니다.',en:'This browser does not support notifications.',ja:'このブラウザは通知に対応していません。',es:'Este navegador no admite notificaciones.',de:'Dieser Browser unterstützt keine Benachrichtigungen.'}); statusEl.style.color='var(--red)'; }
+    if(statusEl) { statusEl.textContent = TT({ko:'이 브라우저는 알림을 지원하지 않습니다.',en:'This browser does not support notifications.',ja:'このブラウザは通知に対応していません。',es:'Este navegador no admite notificaciones.',de:'Dieser Browser unterstützt keine Benachrichtigungen.',fr:'Ce navigateur ne prend pas en charge les notifications.',pt:'Este navegador não suporta notificações.',tr:'Bu tarayıcı bildirimleri desteklemiyor.',vi:'Trình duyệt này không hỗ trợ thông báo.'}); statusEl.style.color='var(--red)'; }
     return;
   }
   try {
     const p = await Notification.requestPermission();
     notifGranted = (p === 'granted');
     if(statusEl) {
-      if(notifGranted) { statusEl.textContent = TT({ko:'✓ 알림이 활성화되었습니다',en:'✓ Notifications enabled',ja:'✓ 通知が有効になりました',es:'✓ Notificaciones activadas',de:'✓ Benachrichtigungen aktiviert'}); statusEl.style.color='var(--green)'; }
-      else { statusEl.textContent = TT({ko:'알림 권한이 거부되었습니다.',en:'Notification permission denied.',ja:'通知の許可が拒否されました。',es:'Permiso de notificación denegado.',de:'Benachrichtigungsberechtigung verweigert.'}); statusEl.style.color='var(--red)'; }
+      if(notifGranted) { statusEl.textContent = TT({ko:'✓ 알림이 활성화되었습니다',en:'✓ Notifications enabled',ja:'✓ 通知が有効になりました',es:'✓ Notificaciones activadas',de:'✓ Benachrichtigungen aktiviert',fr:'✓ Notifications activées',pt:'✓ Notificações ativadas',tr:'✓ Bildirimler etkin',vi:'✓ Đã bật thông báo'}); statusEl.style.color='var(--green)'; }
+      else { statusEl.textContent = TT({ko:'알림 권한이 거부되었습니다.',en:'Notification permission denied.',ja:'通知の許可が拒否されました。',es:'Permiso de notificación denegado.',de:'Benachrichtigungsberechtigung verweigert.',fr:'Autorisation de notification refusée.',pt:'Permissão de notificação negada.',tr:'Bildirim izni reddedildi.',vi:'Quyền thông báo bị từ chối.'}); statusEl.style.color='var(--red)'; }
     }
   } catch(e) {
     console.error('[notif] permission request failed:', e);
-    if(statusEl) { statusEl.textContent = TT({ko:'알림 설정 중 오류 발생',en:'Error setting up notifications',ja:'通知設定中にエラーが発生しました',es:'Error al configurar notificaciones',de:'Fehler bei der Benachrichtigungseinrichtung'}); statusEl.style.color='var(--red)'; }
+    if(statusEl) { statusEl.textContent = TT({ko:'알림 설정 중 오류 발생',en:'Error setting up notifications',ja:'通知設定中にエラーが発生しました',es:'Error al configurar notificaciones',de:'Fehler bei der Benachrichtigungseinrichtung',fr:'Erreur lors de la configuration des notifications',pt:'Erro ao configurar notificações',tr:'Bildirim ayarlanırken hata',vi:'Lỗi khi thiết lập thông báo'}); statusEl.style.color='var(--red)'; }
   }
 }
 
@@ -1632,13 +2168,13 @@ function checkAlerts(score, ind) {
 
   const on=id=>document.getElementById(id)?.classList.contains('on');
   const rules = currentMode === 'buy' ? [
-    {id:'a2', th:6.0, color:'var(--green2)', msg:TT({ko:`${currentCoin} 롱 점수 ${score.toFixed(1)} — 분할 매수 시작`,en:`${currentCoin} Long score ${score.toFixed(1)} — Split Long`,ja:`${currentCoin} ロングスコア ${score.toFixed(1)} — 分割買い開始`,es:`Puntuación larga de ${currentCoin} ${score.toFixed(1)} — Inicio de entrada escalonada`,de:`${currentCoin} Long-Score ${score.toFixed(1)} — Gestaffelter Einstieg startet`})},
-    {id:'a3', th:7.0, color:'var(--green)', msg:TT({ko:`${currentCoin} 롱 점수 ${score.toFixed(1)} — 비중 확대`,en:`${currentCoin} Long score ${score.toFixed(1)} — Add Long`,ja:`${currentCoin} ロングスコア ${score.toFixed(1)} — 比率拡大`,es:`Puntuación larga de ${currentCoin} ${score.toFixed(1)} — Ampliar posición`,de:`${currentCoin} Long-Score ${score.toFixed(1)} — Position erhöhen`})},
-    {id:'a4', th:8.0, color:'#22c55e', msg:TT({ko:`${currentCoin} 롱 점수 ${score.toFixed(1)} — 풀 롱!`,en:`${currentCoin} Long score ${score.toFixed(1)} — Full Long!`,ja:`${currentCoin} ロングスコア ${score.toFixed(1)} — フルロング!`,es:`Puntuación larga de ${currentCoin} ${score.toFixed(1)} — ¡Largo total!`,de:`${currentCoin} Long-Score ${score.toFixed(1)} — Voller Long!`})},
+    {id:'a2', th:6.0, color:'var(--green2)', msg:TT({ko:`${currentCoin} 롱 점수 ${score.toFixed(1)} — 분할 매수 시작`,en:`${currentCoin} Long score ${score.toFixed(1)} — Split Long`,ja:`${currentCoin} ロングスコア ${score.toFixed(1)} — 分割買い開始`,es:`Puntuación larga de ${currentCoin} ${score.toFixed(1)} — Inicio de entrada escalonada`,de:`${currentCoin} Long-Score ${score.toFixed(1)} — Gestaffelter Einstieg startet`,fr:`Score long ${currentCoin} ${score.toFixed(1)} — Entrée échelonnée`,pt:`Pontuação long ${currentCoin} ${score.toFixed(1)} — Entrada escalonada`,tr:`${currentCoin} Long puanı ${score.toFixed(1)} — Kademeli giriş`,vi:`Điểm long ${currentCoin} ${score.toFixed(1)} — Vào từng phần`})},
+    {id:'a3', th:7.0, color:'var(--green)', msg:TT({ko:`${currentCoin} 롱 점수 ${score.toFixed(1)} — 비중 확대`,en:`${currentCoin} Long score ${score.toFixed(1)} — Add Long`,ja:`${currentCoin} ロングスコア ${score.toFixed(1)} — 比率拡大`,es:`Puntuación larga de ${currentCoin} ${score.toFixed(1)} — Ampliar posición`,de:`${currentCoin} Long-Score ${score.toFixed(1)} — Position erhöhen`,fr:`Score long ${currentCoin} ${score.toFixed(1)} — Augmenter position`,pt:`Pontuação long ${currentCoin} ${score.toFixed(1)} — Aumentar posição`,tr:`${currentCoin} Long puanı ${score.toFixed(1)} — Pozisyon artır`,vi:`Điểm long ${currentCoin} ${score.toFixed(1)} — Tăng vị thế`})},
+    {id:'a4', th:8.0, color:'#22c55e', msg:TT({ko:`${currentCoin} 롱 점수 ${score.toFixed(1)} — 풀 롱!`,en:`${currentCoin} Long score ${score.toFixed(1)} — Full Long!`,ja:`${currentCoin} ロングスコア ${score.toFixed(1)} — フルロング!`,es:`Puntuación larga de ${currentCoin} ${score.toFixed(1)} — ¡Largo total!`,de:`${currentCoin} Long-Score ${score.toFixed(1)} — Voller Long!`,fr:`Score long ${currentCoin} ${score.toFixed(1)} — Long total !`,pt:`Pontuação long ${currentCoin} ${score.toFixed(1)} — Long total!`,tr:`${currentCoin} Long puanı ${score.toFixed(1)} — Tam long!`,vi:`Điểm long ${currentCoin} ${score.toFixed(1)} — Long toàn phần!`})},
   ] : [
-    {id:'b1', th:6.0, color:'var(--orange)', msg:TT({ko:`${currentCoin} 숏 점수 ${score.toFixed(1)} — 숏 준비`,en:`${currentCoin} Short score ${score.toFixed(1)} — Prepare Short`,ja:`${currentCoin} ショートスコア ${score.toFixed(1)} — ショート準備`,es:`Puntuación corta de ${currentCoin} ${score.toFixed(1)} — Preparar corto`,de:`${currentCoin} Short-Score ${score.toFixed(1)} — Short vorbereiten`})},
-    {id:'b2', th:7.0, color:'var(--red)', msg:TT({ko:`${currentCoin} 숏 점수 ${score.toFixed(1)} — 숏 추가`,en:`${currentCoin} Short score ${score.toFixed(1)} — Add Short`,ja:`${currentCoin} ショートスコア ${score.toFixed(1)} — ショート追加`,es:`Puntuación corta de ${currentCoin} ${score.toFixed(1)} — Añadir corto`,de:`${currentCoin} Short-Score ${score.toFixed(1)} — Short erhöhen`})},
-    {id:'b3', th:8.0, color:'#dc2626', msg:TT({ko:`${currentCoin} 숏 점수 ${score.toFixed(1)} — 풀 숏!`,en:`${currentCoin} Short score ${score.toFixed(1)} — Full Short!`,ja:`${currentCoin} ショートスコア ${score.toFixed(1)} — フルショート!`,es:`Puntuación corta de ${currentCoin} ${score.toFixed(1)} — ¡Corto total!`,de:`${currentCoin} Short-Score ${score.toFixed(1)} — Voller Short!`})},
+    {id:'b1', th:6.0, color:'var(--orange)', msg:TT({ko:`${currentCoin} 숏 점수 ${score.toFixed(1)} — 숏 준비`,en:`${currentCoin} Short score ${score.toFixed(1)} — Prepare Short`,ja:`${currentCoin} ショートスコア ${score.toFixed(1)} — ショート準備`,es:`Puntuación corta de ${currentCoin} ${score.toFixed(1)} — Preparar corto`,de:`${currentCoin} Short-Score ${score.toFixed(1)} — Short vorbereiten`,fr:`Score short ${currentCoin} ${score.toFixed(1)} — Préparer short`,pt:`Pontuação short ${currentCoin} ${score.toFixed(1)} — Preparar short`,tr:`${currentCoin} Short puanı ${score.toFixed(1)} — Short hazırla`,vi:`Điểm short ${currentCoin} ${score.toFixed(1)} — Chuẩn bị short`})},
+    {id:'b2', th:7.0, color:'var(--red)', msg:TT({ko:`${currentCoin} 숏 점수 ${score.toFixed(1)} — 숏 추가`,en:`${currentCoin} Short score ${score.toFixed(1)} — Add Short`,ja:`${currentCoin} ショートスコア ${score.toFixed(1)} — ショート追加`,es:`Puntuación corta de ${currentCoin} ${score.toFixed(1)} — Añadir corto`,de:`${currentCoin} Short-Score ${score.toFixed(1)} — Short erhöhen`,fr:`Score short ${currentCoin} ${score.toFixed(1)} — Augmenter short`,pt:`Pontuação short ${currentCoin} ${score.toFixed(1)} — Aumentar short`,tr:`${currentCoin} Short puanı ${score.toFixed(1)} — Short artır`,vi:`Điểm short ${currentCoin} ${score.toFixed(1)} — Tăng short`})},
+    {id:'b3', th:8.0, color:'#dc2626', msg:TT({ko:`${currentCoin} 숏 점수 ${score.toFixed(1)} — 풀 숏!`,en:`${currentCoin} Short score ${score.toFixed(1)} — Full Short!`,ja:`${currentCoin} ショートスコア ${score.toFixed(1)} — フルショート!`,es:`Puntuación corta de ${currentCoin} ${score.toFixed(1)} — ¡Corto total!`,de:`${currentCoin} Short-Score ${score.toFixed(1)} — Voller Short!`,fr:`Score short ${currentCoin} ${score.toFixed(1)} — Short total !`,pt:`Pontuação short ${currentCoin} ${score.toFixed(1)} — Short total!`,tr:`${currentCoin} Short puanı ${score.toFixed(1)} — Tam short!`,vi:`Điểm short ${currentCoin} ${score.toFixed(1)} — Short toàn phần!`})},
   ];
 
   if(isFirstView) {
@@ -1674,7 +2210,7 @@ async function loadAll() {
 
   try {
     const loadingCoin = currentCoin; // 로드 시작 시점의 코인
-    document.getElementById('ovTxt').textContent=`Fetching ${currentCoin} data...`;
+    document.getElementById('ovTxt').textContent=TT({ko:`${currentCoin} 데이터 불러오는 중...`,en:`Fetching ${currentCoin} data...`,ja:`${currentCoin} データ取得中...`,es:`Obteniendo datos de ${currentCoin}...`,de:`${currentCoin}-Daten werden geladen...`,fr:`Chargement des données ${currentCoin}...`,pt:`Carregando dados de ${currentCoin}...`,tr:`${currentCoin} verileri yükleniyor...`,vi:`Đang tải dữ liệu ${currentCoin}...`});
 
     // 서버(PHP)에서 LONG/SHORT 점수를 동시에 받아옴 — 계산 로직은 서버에서만 실행됨
     const [buyData, sellData] = await Promise.all([
@@ -1742,29 +2278,27 @@ async function loadAll() {
 
 
 
-let currentLang = (function() {
-  // 언어 우선순위: URL ?lang= (사이트맵·구글 검색결과·공유링크로 특정 언어 진입) > localStorage(마지막 선택) > 브라우저 언어 > ko.
-  // URL에 lang이 명시돼 있으면 그 의도를 최우선으로 존중한다. (사용자가 페이지 안에서 언어를 바꾸면
-  //  setLang이 URL의 ?lang=도 함께 갱신하므로, 이후 저장값 기반 동작과 충돌하지 않는다.)
-  try {
-    const p = new URLSearchParams(location.search).get('lang');
-    if (SUPPORTED_LANG_CODES.includes(p)) return p;
-  } catch(e) {}
-  try {
-    const saved = localStorage.getItem('blogLang');
-    if (SUPPORTED_LANG_CODES.includes(saved)) return saved;
-  } catch(e) {}
-  // 첫 방문(저장값·URL 모두 없음)이면 브라우저 언어를 감지해 시작. 지원 언어가 아니면 ko.
-  try {
-    const nav = (navigator.languages && navigator.languages[0]) || navigator.language || '';
-    const code = nav.toLowerCase().split('-')[0]; // 'en-US' → 'en'
-    if (SUPPORTED_LANG_CODES.includes(code)) return code;
-  } catch(e) {}
+let currentLang = (function(){
+  // 언어는 서버가 URL 기준으로 렌더한 값(BT_SERVER_LANG)을 그대로 따른다 = 화면과 항상 일치.
+  // 이래야 뒤로가기로 온 페이지(URL의 언어)와 JS 동작 언어가 어긋나지 않고, 저장값에 오염되지 않는다.
+  if (window.BT_SERVER_LANG && SUPPORTED_LANG_CODES.includes(window.BT_SERVER_LANG)) return window.BT_SERVER_LANG;
+  // 폴백: URL ?lang
+  try{var p=new URLSearchParams(location.search).get('lang');if(SUPPORTED_LANG_CODES.includes(p))return p;}catch(e){}
   return 'ko';
 })();
 
+// 페이지 진입 시: 현재 언어를 이 페이지 URL에 반영(?lang=xx). 뒤로가기로 이 페이지에 돌아오면
+// 그때의 URL(언어)로 정확히 복원되게 하기 위함. (서버는 URL ?lang만 보므로 URL에 언어가 있어야 함)
+// ※ 저장(쿠키/localStorage)은 언어를 '바꿀 때'(setLang)만. 진입 시엔 저장 안 함 → 뒤로가기 언어 오염 방지.
+try {
+  var _u = new URL(location.href);
+  var _cur = (typeof currentLang !== 'undefined') ? currentLang : 'ko';
+  if (_cur === 'ko') _u.searchParams.delete('lang'); else _u.searchParams.set('lang', _cur);
+  history.replaceState(null, '', _u);
+} catch(e) {}
+
 /** 코드 곳곳에 흩어진 'ko ? A : B' 삼항연산자들을 여러 언어로 확장하기 위한 헬퍼.
- *  기존 사용법(하위호환, ko/en/ja 3개 고정): TT({ko:'한국어',en:'English',ja:'日本語',es:'Español',de:'Deutsch'})
+ *  기존 사용법(하위호환, ko/en/ja 3개 고정): TT({ko:'한국어',en:'English',ja:'日本語',es:'Español',de:'Deutsch',fr:'Français',pt:'Português',tr:'Türkçe',vi:'Tiếng Việt'})
  *    → 신규 언어(스페인어 등)로 전환 시 이 형태의 호출은 자동으로 en 텍스트가 뜸(디그레이드).
  *  신규 사용법(언어 무제한 확장): TT({ko:'한국어', en:'English', ja:'日本語', es:'Español'})
  *    → 이 객체 형태를 쓰면 SUPPORTED_LANGS에 언어가 추가될 때마다 자연스럽게 대응됨.
@@ -1791,12 +2325,14 @@ function T(key, args) {
 // ═══════════════════════════════════════════════════════
 // HISTORY TAB
 // ═══════════════════════════════════════════════════════
-let histPeriod = '1d'; // 1d, 7d, 30d, all
+let histPeriod = '1d'; // 1h, 6h, 1d, 7d, 30d
+let chartZoom = 1;     // 1=기간 전체, >1=확대
+let chartPan = 0;      // 오른쪽(현재) 기준 과거로 밀어낸 ms
 
 function setHistPeriod(p) {
   histPeriod = p;
-  // 버튼 ID 매핑: 1d/7d/30d는 소문자, all은 'htpAll'(대문자 A)라 직접 매핑해야 active가 정상 토글됨
-  const idMap = {'1d':'htp1d','7d':'htp7d','30d':'htp30d','all':'htpAll'};
+  chartZoom = 1; chartPan = 0; // 기간 바꾸면 확대/이동 초기화
+  const idMap = {'1h':'htp1h','4h':'htp4h','6h':'htp6h','12h':'htp12h','1d':'htp1d','7d':'htp7d','30d':'htp30d'};
   Object.entries(idMap).forEach(([t, id]) => {
     const el = document.getElementById(id);
     if(el) el.classList.toggle('active', t===p);
@@ -1875,10 +2411,10 @@ function renderMiniHistory() {
 function getHistoryData() {
   const modeKey = currentMode === 'buy' ? 'long' : 'short';
   const key = `history_${currentCoin}_${modeKey}`;
-  let h = [];
-  try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) {}
+  let h = fullHistoryCache[key];
+  if(!h || !h.length){ try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) { h=[]; } }
   const now = Date.now();
-  const rangeMap = {'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
+  const rangeMap = {'1h':3600000,'4h':4*3600000,'6h':6*3600000,'12h':12*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
   const range = rangeMap[histPeriod] || rangeMap['1d'];
   const filtered = range===Infinity ? h : h.filter(x=>now-x.t<range);
   // 최대 300포인트
@@ -1913,13 +2449,19 @@ function flashAlert(msg, color='#fbbf24') {
   const topOffset = 70 + activeToastCount * 54;
   activeToastCount++;
   const toast = document.createElement('div');
-  toast.style.cssText = `position:fixed;top:${topOffset}px;right:16px;background:${color};color:#000;padding:10px 16px;border-radius:10px;font-size:12px;font-weight:600;z-index:9999;max-width:min(280px, calc(100vw - 32px));box-shadow:0 4px 20px rgba(0,0,0,.4);animation:slideIn .3s ease;transition:top .25s ease`;
+  toast.style.cssText = `position:fixed;top:${topOffset}px;right:16px;background:${color};color:#000;padding:10px 16px;border-radius:10px;font-size:12px;font-weight:600;z-index:9999;max-width:min(280px, calc(100vw - 32px));box-shadow:0 4px 20px rgba(0,0,0,.4);animation:slideIn .3s ease;transition:top .25s ease;cursor:pointer`;
   toast.innerHTML = `<style>@keyframes slideIn{from{transform:translateX(120%)}to{transform:translateX(0)}}</style>🔔 ${msg}`;
   document.body.appendChild(toast);
-  setTimeout(()=>{
+  // 클릭하면 즉시 닫기 (언어 선택 등 다른 UI를 가리는 문제 해소)
+  let toastTimer;
+  const removeToast = () => {
+    if(!toast.parentNode) return;
+    clearTimeout(toastTimer);
     toast.remove();
     activeToastCount = Math.max(0, activeToastCount - 1);
-  }, 5000);
+  };
+  toast.addEventListener('click', removeToast);
+  toastTimer = setTimeout(removeToast, 1000);
 
   // 브라우저 알림
   if(notifGranted) {
@@ -1945,8 +2487,18 @@ function isOn(id) { return document.getElementById(id)?.classList.contains('on')
 // ═══════════════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════════════
-// TradingView: iframe 방식 (스크립트 불필요)
-initChart();
+// TradingView 차트는 무겁다(≈550KB). 초기 렌더를 막지 않도록 뷰포트에 들어올 때 로드한다.
+(function lazyChart(){
+  var el = document.getElementById('tvChart');
+  if(!el || !('IntersectionObserver' in window)){ initChart(); return; }  // 폴백: 그냥 로드
+  var io = new IntersectionObserver(function(entries){
+    if(entries.some(function(e){ return e.isIntersecting; })){
+      io.disconnect();
+      initChart();
+    }
+  }, { rootMargin: '300px' });   // 화면에 들어오기 300px 전 미리 로드
+  io.observe(el);
+})();
 
 initTabs();
 connectWS();
@@ -1967,6 +2519,7 @@ function refreshLangDependentUI() {
   loadInsightWidget();
   loadBlogTicker();
   loadTicker(); // bfcache 복원 시에도 언어에 맞는 통화(KRW/USD/JPY/EUR)로 티커 재조회
+  renderChatUserCount(); // 채팅창을 열어둔 채 언어를 바꿔도 '· N명 접속중' 문구가 새 언어로 갱신되도록
 }
 refreshLangDependentUI(); // 최초 로딩 (단, footer 등 이 <script> 뒤에 오는 요소는 아직 DOM에 없음)
 // ⚠ 이 스크립트는 문서 중간(footer 앞)에서 실행되므로, footer의 [data-i](개인정보처리방침/이용약관/
@@ -1995,18 +2548,19 @@ function syncLangFromStorage() {
 }
 window.addEventListener('pageshow', function(e) {
   if (e.persisted) {
-    // bfcache 복원: 스냅샷 일부 텍스트(footer 등)가 어긋날 수 있으므로 언어를 다시 읽어 전체 UI 재적용.
-    // URL에 lang이 명시돼 있으면 그것을 우선(사이트맵·검색결과 진입), 아니면 저장값.
+    // bfcache 복원(뒤로가기/앞으로가기): 언어는 "이 페이지를 원래 보던 언어" 그대로 둔다.
+    // ★ 저장값(localStorage/최근 선택 언어)을 읽지 않는다 — 읽으면 뒤로가기로 온 대시보드가
+    //   최근 방문 언어로 오염됨(다른 페이지에서 언어 바꾸고 대시보드로 뒤로가기 시 그 언어로 뜨던 버그).
+    //   URL의 ?lang= 만 신뢰한다. (서버 resolveLang도 URL만 보므로 화면과 일치)
     try {
       const urlLang = new URLSearchParams(location.search).get('lang');
-      const desired = SUPPORTED_LANG_CODES.includes(urlLang) ? urlLang : localStorage.getItem('blogLang');
-      if (SUPPORTED_LANG_CODES.includes(desired)) currentLang = desired;
+      const desired = SUPPORTED_LANG_CODES.includes(urlLang) ? urlLang : 'ko';
+      currentLang = desired;
     } catch(err) {}
     refreshLangDependentUI();
     loadAll();
   } else {
-    // 일반 표시(fresh load 등): 저장 언어와 다르면만 재동기화
-    syncLangFromStorage();
+    // 일반 fresh load: 서버가 URL로 렌더한 언어(currentLang)를 그대로 쓴다. 저장값으로 덮지 않음.
   }
 });
 loadAlertSettings(); // 저장된 알림 토글 설정 복원 (새로고침해도 유지)
@@ -2025,7 +2579,7 @@ function updateLiveTag(updatedAt){
   } else {
     tag.style.color='var(--orange)'; tag.style.borderColor='rgba(251,146,60,.3)'; tag.style.background='rgba(251,146,60,.08)';
     if(dot){ dot.style.background='var(--orange)'; dot.style.animation='none'; }
-    tag.childNodes[tag.childNodes.length-1].nodeValue='DELAYED';
+    tag.childNodes[tag.childNodes.length-1].nodeValue='LIVE';
   }
 }
 
@@ -2042,7 +2596,7 @@ function renderOnboardText(){
       en:'👋 <b>New here?</b> This 0–10 score shows how good the <b>sell / short (bet on a drop) timing</b> is — higher is better. It combines the indicators below.',
       ja:'👋 <b>初めてですか?</b> このスコアは0〜10で、<b>高いほど売り・ショート(下落ベット)のタイミング</b>が良いことを示します。下の指標を総合した値です。',
       es:'👋 <b>¿Primera vez?</b> Esta puntuación de 0 a 10 indica qué tan buen <b>momento de venta / corto (apostar a la baja)</b> es — más alto es mejor. Combina los indicadores de abajo.',
-      de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Verkaufs-/Short-Timing (auf fallende Kurse setzen)</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.'
+      de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Verkaufs-/Short-Timing (auf fallende Kurse setzen)</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.',fr:'👋 <b>Nouveau ici ?</b> Ce score de 0 à 10 indique la qualité du <b>timing de vente / short (pari sur une baisse)</b> — plus c\'est haut, mieux c\'est. Il combine les indicateurs ci-dessous.',pt:'👋 <b>Novo por aqui?</b> Esta pontuação de 0 a 10 mostra a qualidade do <b>timing de venda / short (aposta na queda)</b> — quanto maior, melhor. Combina os indicadores abaixo.',tr:'👋 <b>Yeni misiniz?</b> Bu 0–10 puanı <b>satış / short (düşüşe bahis) zamanlamasının</b> ne kadar iyi olduğunu gösterir — yüksek olması daha iyi. Aşağıdaki göstergeleri birleştirir.',vi:'👋 <b>Mới ở đây?</b> Điểm 0–10 này cho biết <b>thời điểm bán / short (đặt cược giảm)</b> tốt đến đâu — càng cao càng tốt. Nó kết hợp các chỉ báo bên dưới.'
     });
   } else {
     txt.innerHTML = TT({
@@ -2050,7 +2604,7 @@ function renderOnboardText(){
       en:'👋 <b>New here?</b> This 0–10 score shows how good the <b>buy / long (bet on a rise) timing</b> is — higher is better. It combines the indicators below.',
       ja:'👋 <b>初めてですか?</b> このスコアは0〜10で、<b>高いほど買い・ロング(上昇ベット)のタイミング</b>が良いことを示します。下の指標を総合した値です。',
       es:'👋 <b>¿Primera vez?</b> Esta puntuación de 0 a 10 indica qué tan buen <b>momento de compra / largo (apostar a la subida)</b> es — más alto es mejor. Combina los indicadores de abajo.',
-      de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Kauf-/Long-Timing (auf steigende Kurse setzen)</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.'
+      de:'👋 <b>Neu hier?</b> Dieser Wert von 0–10 zeigt, wie gut das <b>Kauf-/Long-Timing (auf steigende Kurse setzen)</b> ist — höher ist besser. Er fasst die Indikatoren unten zusammen.',fr:'👋 <b>Nouveau ici ?</b> Ce score de 0 à 10 indique la qualité du <b>timing d\'achat / long (pari sur une hausse)</b> — plus c\'est haut, mieux c\'est. Il combine les indicateurs ci-dessous.',pt:'👋 <b>Novo por aqui?</b> Esta pontuação de 0 a 10 mostra a qualidade do <b>timing de compra / long (aposta na alta)</b> — quanto maior, melhor. Combina os indicadores abaixo.',tr:'👋 <b>Yeni misiniz?</b> Bu 0–10 puanı <b>alım / long (yükselişe bahis) zamanlamasının</b> ne kadar iyi olduğunu gösterir — yüksek olması daha iyi. Aşağıdaki göstergeleri birleştirir.',vi:'👋 <b>Mới ở đây?</b> Điểm 0–10 này cho biết <b>thời điểm mua / long (đặt cược tăng)</b> tốt đến đâu — càng cao càng tốt. Nó kết hợp các chỉ báo bên dưới.'
     });
   }
 }
@@ -2077,10 +2631,44 @@ setInterval(() => {
 
 // Redraw history on resize
 window.addEventListener('resize', drawHistory);
+// 리사이즈 시 상단바 노출 개수도 재계산 (디바운스)
+let _tabResizeTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(_tabResizeTimer);
+  _tabResizeTimer = setTimeout(() => { try { initTabs(); } catch(e){} }, 200);
+});
+
+// ── 스크롤 방향에 따라 모바일 하단바 표시/숨김 ──
+// 아래로 스크롤(콘텐츠 읽는 중) → 숨김, 위로 스크롤 또는 멈춤 → 표시.
+(function(){
+  const bar = document.getElementById('mobileTabbar');
+  if (!bar) return;
+  let lastY = window.scrollY || 0;
+  let idleTimer = null;
+  const SHOW = () => bar.classList.remove('tabbar-hidden');
+  const HIDE = () => bar.classList.add('tabbar-hidden');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY || 0;
+    const dy = y - lastY;
+    // 최상단 근처면 항상 표시
+    if (y < 60) { SHOW(); }
+    else if (dy > 6) { HIDE(); }        // 아래로 스크롤 → 숨김
+    else if (dy < -6) { SHOW(); }       // 위로 스크롤 → 표시
+    lastY = y;
+    // 스크롤 멈추고 잠시 지나면 표시
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(SHOW, 900);
+  }, { passive: true });
+})();
 
 function setLang(lang) {
   currentLang = lang;
-  try { localStorage.setItem('blogLang', lang); } catch(e) {}
+  // 언어 저장은 공통 유틸(lang-common.js)에 위임: 쿠키+localStorage 동시 저장.
+  if (window.BTLang) BTLang.save(lang);
+  else { try { localStorage.setItem('blogLang', lang); } catch(e) {} }
+  // 쿠키에도 저장 → 서버(index.php)가 URL ?lang 없을 때 이걸 읽어 마지막 선택 언어로 렌더.
+  // 그래서 뒤로가기로 대시보드에 와도, 새 페이지로 이동해도 마지막 언어가 유지된다.
+
   // 2026-07 수정: 여기서 URL을 안 바꿔주고 있어서, 언어를 바꾼 뒤 URL은 계속 예전 언어(?lang=ja 등)로
   // 남아있었음. 이 상태에서 다른 페이지로 갔다가 "뒤로가기"가 bfcache 복원이 아니라 진짜 새로고침으로
   // 처리되면, 그 오래된 URL 기준으로 서버가 다시 렌더링하면서 방금 바꾼 언어가 원래대로 되돌아갔음.
@@ -2095,6 +2683,7 @@ function setLang(lang) {
   renderCategoryLinks();
   renderInsightWidget();
   renderBlogTicker();
+  renderChatUserCount(); // 채팅창을 열어둔 채 언어를 바꿔도 '· N명 접속중' 문구가 새 언어로 갱신되도록
   loadTicker(); // 언어가 바뀌면 상단 티커의 기준 통화(KRW/USD/JPY/EUR)도 다시 불러옴
   if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
   else loadAll();
@@ -2111,6 +2700,8 @@ function updateLangUI(lang) {
   document.documentElement.lang = lang;
   const navBlog = document.getElementById('navBlogLink');
   if(navBlog) navBlog.href = '/blog/' + blogSuffix(lang);
+  const navGlossary = document.getElementById('navGlossaryLink');
+  if(navGlossary) navGlossary.href = '/glossary' + blogSuffix(lang);
   const privacyLink = document.getElementById('footerPrivacyLink');
   if(privacyLink) privacyLink.href = '/privacy' + blogSuffix(lang);
   const termsLink = document.getElementById('footerTermsLink');
@@ -2156,9 +2747,9 @@ function renderBlogTicker() {
   if(!el || !tickerArticles.length) return;
   const ko = currentLang === 'ko';
   const suffix = blogSuffix(currentLang);
-  if(label) label.textContent = TT({ko:'📰 블로그:',en:'📰 Blog:',ja:'📰 ブログ:',es:'📰 Blog:',de:'📰 Blog:'});
+  if(label) label.textContent = TT({ko:'블로그:',en:'Blog:',ja:'ブログ:',es:'Blog:',de:'Blog:',fr:'Blog :',pt:'Blog:',tr:'Blog:',vi:'Blog:'});
   if(allLink) {
-    allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →'});
+    allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →',fr:'Voir tout →',pt:'Ver tudo →',tr:'Tümünü gör →',vi:'Xem tất cả →'});
     allLink.href = '/blog/' + suffix;
   }
   el.innerHTML = tickerArticles.map(a => {
@@ -2217,6 +2808,10 @@ function formatBlogCardDate(dateStr, lang) {
     en: { tz:'UTC',           label:'UTC' },
     es: { tz:'Europe/Madrid', label:null },
     de: { tz:'Europe/Berlin', label:null },
+    fr: { tz:'Europe/Paris',  label:null },
+    pt: { tz:'America/Sao_Paulo', label:'BRT' },
+    tr: { tz:'Europe/Istanbul',   label:'TRT' },
+    vi: { tz:'Asia/Ho_Chi_Minh',  label:'ICT' },
   };
   const c = CONF[lang] || CONF.en;
   const p = new Intl.DateTimeFormat('en-CA', { timeZone: c.tz, hourCycle: 'h23',
@@ -2239,6 +2834,10 @@ function formatUpdatedStamp(lang) {
     en: { tz:'UTC',           label:'UTC' },
     es: { tz:'Europe/Madrid', label:null },
     de: { tz:'Europe/Berlin', label:null },
+    fr: { tz:'Europe/Paris',  label:null },
+    pt: { tz:'America/Sao_Paulo', label:'BRT' },
+    tr: { tz:'Europe/Istanbul',   label:'TRT' },
+    vi: { tz:'Asia/Ho_Chi_Minh',  label:'ICT' },
   };
   const c = CONF[lang] || CONF.en;
   const dLoc = (typeof SUPPORTED_LANG_CODES !== 'undefined' && SUPPORTED_LANG_CODES.includes(lang)) ? lang : 'en';
@@ -2256,9 +2855,9 @@ function renderInsightCards(containerId, articles, ko, suffix) {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
     return `<a href="${a.url}${suffix}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
-      <div class="insight-icon">${a.icon}</div>
+      
       <div class="insight-body">
-        <div class="insight-cat">${cat}</div>
+        <div class="insight-cat">${pickLangField(a,'tag',currentLang)||cat}</div>
         <div class="insight-title">${title}</div>
         <div class="insight-date">${formatBlogCardDate(a.date, currentLang)}</div>
       </div>
@@ -2333,9 +2932,9 @@ function renderSidebarBlogList(articles, ko, suffix) {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
     return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color}">
-      <span class="sb-blog-icon">${a.icon}</span>
+      
       <span class="sb-blog-main">
-        <span class="sb-blog-cat">${cat}</span>
+        <span class="sb-blog-cat">${pickLangField(a,'tag',currentLang)||cat}</span>
         <span class="sb-blog-title">${title}</span>
         <span class="sb-blog-date">${formatBlogCardDate(a.date, currentLang)}</span>
       </span>
@@ -2368,7 +2967,7 @@ function renderCategoryLinks() {
   if(!el || !categoryFooterArticles.length) return;
   const suffix = blogSuffix(currentLang);
   const label = document.getElementById('blogGuideLabel');
-  if(label) label.textContent = TT({ko:'📖 카테고리별 최신 글:',en:'📖 Latest by Category:',ja:'📖 カテゴリー別最新記事:',es:'📖 Últimas por Categoría:',de:'📖 Neueste nach Kategorie:'});
+  if(label) label.textContent = TT({ko:'카테고리별 최신 글:',en:'Latest by Category:',ja:'カテゴリー別最新記事:',es:'Últimas por Categoría:',de:'Neueste nach Kategorie:',fr:'Derniers par catégorie :',pt:'Recentes por categoria:',tr:'Kategoriye göre son:',vi:'Mới nhất theo danh mục:'});
   el.innerHTML = categoryFooterArticles.map(a => {
     const cat = pickLangField(a, 'category', currentLang);
     const title = pickLangField(a, 'title', currentLang);
@@ -2380,13 +2979,13 @@ function renderCategoryLinks() {
   const allLink = document.getElementById('blogCategoryAllLink');
   if(allLink) {
     allLink.href = '/blog/' + suffix;
-    allLink.textContent = TT({ko:'전체 블로그 보기 →',en:'All Posts →',ja:'全ての記事を見る →',es:'Ver Todas las Publicaciones →',de:'Alle Beiträge ansehen →'});
+    allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →',fr:'Voir tout →',pt:'Ver tudo →',tr:'Tümünü gör →',vi:'Xem tất cả →'});
   }
 }
 
 function applyStaticI18n() {
   const ko = currentLang === 'ko';
-  const allLbl = TT({ko:'전체',en:'All',ja:'全期間',es:'Todo',de:'Alle'});
+  const allLbl = TT({ko:'전체',en:'All',ja:'全期間',es:'Todo',de:'Alle',fr:'Tout',pt:'Todos',tr:'Tümü',vi:'Tất cả'});
   const tabMap = {'1m':ko?'1h':'1h','5m':ko?'6h':'5m','15m':ko?'1d':'15m',
     '30m':ko?'3d':'30m','1h':ko?'7d':'1h','4h':ko?'14d':'4h',
     '1d':ko?'30d':'1d','1w':ko?'90d':'1w','1M':ko?allLbl:'1M'};
@@ -2426,13 +3025,13 @@ function applyStaticI18n() {
 // 라이브 채팅 UI 문구를 현재 언어로 갱신 (applyStaticI18n + 채팅 열 때 공용)
 function syncChatLang() {
   const _chatTitle = document.getElementById('chatTitle');
-  if(_chatTitle) _chatTitle.textContent = TT({ko:'실시간 채팅',en:'LIVE CHAT',ja:'ライブチャット',es:'CHAT EN VIVO',de:'LIVE-CHAT'});
+  if(_chatTitle) _chatTitle.textContent = TT({ko:'실시간 채팅',en:'LIVE CHAT',ja:'ライブチャット',es:'CHAT EN VIVO',de:'LIVE-CHAT',fr:'CHAT EN DIRECT',pt:'CHAT AO VIVO',tr:'CANLI SOHBET',vi:'CHAT TRỰC TIẾP'});
   const _chatInput = document.getElementById('chatInput');
-  if(_chatInput) _chatInput.setAttribute('placeholder', TT({ko:'메시지 입력...',en:'Type a message...',ja:'メッセージを入力...',es:'Escribe un mensaje...',de:'Nachricht eingeben...'}));
+  if(_chatInput) _chatInput.setAttribute('placeholder', TT({ko:'메시지 입력...',en:'Type a message...',ja:'メッセージを入力...',es:'Escribe un mensaje...',de:'Nachricht eingeben...',fr:'Écrivez un message...',pt:'Digite uma mensagem...',tr:'Mesaj yazın...',vi:'Nhập tin nhắn...'}));
   const _chatSend = document.getElementById('chatSendBtn');
-  if(_chatSend) _chatSend.textContent = TT({ko:'전송',en:'Send',ja:'送信',es:'Enviar',de:'Senden'});
+  if(_chatSend) _chatSend.textContent = TT({ko:'전송',en:'Send',ja:'送信',es:'Enviar',de:'Senden',fr:'Envoyer',pt:'Enviar',tr:'Gönder',vi:'Gửi'});
   const _chatNick = document.getElementById('chatNickBtn');
-  if(_chatNick) _chatNick.setAttribute('title', TT({ko:'닉네임 변경',en:'Change nickname',ja:'ニックネーム変更',es:'Cambiar apodo',de:'Spitznamen ändern'}));
+  if(_chatNick) _chatNick.setAttribute('title', TT({ko:'닉네임 변경',en:'Change nickname',ja:'ニックネーム変更',es:'Cambiar apodo',de:'Spitznamen ändern',fr:'Changer de pseudo',pt:'Mudar apelido',tr:'Takma ad değiştir',vi:'Đổi biệt danh'}));
 }
 // ═══════════════════════════════════════════════════════
 // LIVE CHAT (Firebase Realtime Database)
@@ -2557,7 +3156,7 @@ function showChatSetupNeeded() {
   const msgsEl = document.getElementById('chatMessages');
   if(msgsEl) {
     msgsEl.innerHTML = `<div style="text-align:center;color:var(--t2);font-size:11px;padding:20px;line-height:1.7">
-      ${TT({ko:'⚙️ 채팅 기능을 사용하려면 Firebase 설정이 필요합니다.<br><br>코드 상단 주석을 참고해 무료 Firebase 프로젝트를 생성하고<br>firebaseConfig 값을 입력해주세요.<br><br>(5분이면 완료됩니다)',en:'⚙️ Chat requires Firebase setup.<br><br>See code comments to create a free Firebase project<br>and fill in firebaseConfig.<br><br>(Takes about 5 minutes)',ja:'⚙️ チャット機能を使用するにはFirebaseの設定が必要です。<br><br>コード上部のコメントを参考に無料のFirebaseプロジェクトを作成し<br>firebaseConfigの値を入力してください。<br><br>(5分ほどで完了します)',es:'⚙️ El chat requiere configuración de Firebase.<br><br>Consulta los comentarios del código para crear un proyecto Firebase gratuito<br>y completar firebaseConfig.<br><br>(Toma unos 5 minutos)',de:'⚙️ Der Chat erfordert eine Firebase-Einrichtung.<br><br>Siehe Codekommentare, um ein kostenloses Firebase-Projekt zu erstellen<br>und firebaseConfig auszufüllen.<br><br>(Dauert etwa 5 Minuten)'})}
+      ${TT({ko:'⚙️ 채팅 기능을 사용하려면 Firebase 설정이 필요합니다.<br><br>코드 상단 주석을 참고해 무료 Firebase 프로젝트를 생성하고<br>firebaseConfig 값을 입력해주세요.<br><br>(5분이면 완료됩니다)',en:'⚙️ Chat requires Firebase setup.<br><br>See code comments to create a free Firebase project<br>and fill in firebaseConfig.<br><br>(Takes about 5 minutes)',ja:'⚙️ チャット機能を使用するにはFirebaseの設定が必要です。<br><br>コード上部のコメントを参考に無料のFirebaseプロジェクトを作成し<br>firebaseConfigの値を入力してください。<br><br>(5分ほどで完了します)',es:'⚙️ El chat requiere configuración de Firebase.<br><br>Consulta los comentarios del código para crear un proyecto Firebase gratuito<br>y completar firebaseConfig.<br><br>(Toma unos 5 minutos)',de:'⚙️ Der Chat erfordert eine Firebase-Einrichtung.<br><br>Siehe Codekommentare, um ein kostenloses Firebase-Projekt zu erstellen<br>und firebaseConfig auszufüllen.<br><br>(Dauert etwa 5 Minuten)',fr:'⚙️ Le chat nécessite une configuration Firebase.<br><br>Voir les commentaires du code pour créer un projet Firebase gratuit<br>et remplir firebaseConfig.<br><br>(Environ 5 minutes)',pt:'⚙️ O chat requer configuração do Firebase.<br><br>Veja os comentários do código para criar um projeto Firebase gratuito<br>e preencher firebaseConfig.<br><br>(Leva cerca de 5 minutos)',tr:'⚙️ Sohbet Firebase kurulumu gerektirir.<br><br>Ücretsiz Firebase projesi oluşturmak için kod yorumlarına bakın<br>ve firebaseConfig\'i doldurun.<br><br>(Yaklaşık 5 dakika)',vi:'⚙️ Chat cần thiết lập Firebase.<br><br>Xem chú thích mã để tạo dự án Firebase miễn phí<br>và điền firebaseConfig.<br><br>(Khoảng 5 phút)'})}
     </div>`;
   }
 }
@@ -2566,7 +3165,7 @@ function showChatError(detail) {
   const msgsEl = document.getElementById('chatMessages');
   if(msgsEl) {
     msgsEl.innerHTML = `<div style="text-align:center;color:var(--t3);font-size:11px;padding:20px;line-height:1.6">
-      ${TT({ko:'채팅 서버 연결 실패.',en:'Chat server connection failed.',ja:'チャットサーバーへの接続に失敗しました。',es:'Falló la conexión al servidor de chat.',de:'Verbindung zum Chat-Server fehlgeschlagen.'})}<br>
+      ${TT({ko:'채팅 서버 연결 실패.',en:'Chat server connection failed.',ja:'チャットサーバーへの接続に失敗しました。',es:'Falló la conexión al servidor de chat.',de:'Verbindung zum Chat-Server fehlgeschlagen.',fr:'Échec de connexion au serveur de chat.',pt:'Falha na conexão com o servidor de chat.',tr:'Sohbet sunucusu bağlantısı başarısız.',vi:'Kết nối máy chủ chat thất bại.'})}<br>
       ${detail ? `<span style="color:var(--red);font-size:10px">${escapeHtml(detail)}</span>` : ''}
     </div>`;
   }
@@ -2590,7 +3189,7 @@ function renderChatMessages(data) {
   const msgsEl = document.getElementById('chatMessages');
   if(!msgsEl) { console.error('[chat] chatMessages element not found!'); return; }
   if(!data) {
-    msgsEl.innerHTML = `<div style="text-align:center;color:var(--t3);font-size:11px;padding:20px">${TT({ko:'첫 메시지를 남겨보세요!',en:'Be the first to chat!',ja:'最初のメッセージを送ってみましょう!',es:'¡Sé el primero en chatear!',de:'Sei der Erste im Chat!'})}</div>`;
+    msgsEl.innerHTML = `<div style="text-align:center;color:var(--t3);font-size:11px;padding:20px">${TT({ko:'첫 메시지를 남겨보세요!',en:'Be the first to chat!',ja:'最初のメッセージを送ってみましょう!',es:'¡Sé el primero en chatear!',de:'Sei der Erste im Chat!',fr:'Soyez le premier à discuter !',pt:'Seja o primeiro a conversar!',tr:'İlk sohbet eden siz olun!',vi:'Hãy là người chat đầu tiên!'})}</div>`;
     return;
   }
   const entries = Object.entries(data).sort((a,b)=>a[1].t-b[1].t);
@@ -2643,13 +3242,19 @@ function trackPresence() {
   chatDB.ref('presence').on('value', (snap) => {
     const data = snap.val();
     const count = data ? Object.keys(data).length : 0;
-    const cEl = document.getElementById('chatUserCount');
-    // 접속자 수 표시는 사람이 적을 때 숨김. 다시 켜려면 아래 주석 줄을 되살리면 됨.
-    // if(cEl) cEl.textContent = '· ' + TT({ko:`${count}명 접속중`, en:`${count} online`, ja:`${count}人 接続中`, es:`${count} en línea`, de:`${count} online`});
-    if(cEl) cEl.textContent = '';
+    lastPresenceCount = count; // 언어 변경 시 재렌더할 수 있도록 마지막 접속자 수를 보관
+    renderChatUserCount();
   }, (error) => {
     console.error('[chat] presence listener ERROR:', error.message);
   });
+}
+/** 접속자 수 문구를 현재 언어로 다시 그림. presence 리스너와 언어 변경 시 모두 호출된다.
+ *  (리스너는 접속자 수가 바뀔 때만 발동하므로, 언어만 바꾸면 이 함수를 따로 불러줘야 한다.) */
+function renderChatUserCount() {
+  const cEl = document.getElementById('chatUserCount');
+  if (!cEl || lastPresenceCount == null) return;
+  const count = lastPresenceCount;
+  cEl.textContent = '· ' + TT({ko:`${count}명 접속중`, en:`${count} online`, ja:`${count}人 接続中`, es:`${count} en línea`, de:`${count} online`,fr:`${count} en ligne`,pt:`${count} online`,tr:`${count} çevrimiçi`,vi:`${count} trực tuyến`});
 }
 
 function escapeHtml(str) {
@@ -2671,7 +3276,7 @@ function sendChatMsg() {
       if(chatDB && input.value.trim() === text) {
         sendChatMsg();
       } else if(!chatDB) {
-        alert(TT({ko:'채팅 연결 실패. 새로고침 후 다시 시도해주세요.',en:'Chat connection failed. Please refresh and try again.',ja:'チャット接続に失敗しました。更新して再度お試しください。',es:'Conexión de chat fallida. Actualiza e inténtalo de nuevo.',de:'Chat-Verbindung fehlgeschlagen. Bitte aktualisieren und erneut versuchen.'}));
+        alert(TT({ko:'채팅 연결 실패. 새로고침 후 다시 시도해주세요.',en:'Chat connection failed. Please refresh and try again.',ja:'チャット接続に失敗しました。更新して再度お試しください。',es:'Conexión de chat fallida. Actualiza e inténtalo de nuevo.',de:'Chat-Verbindung fehlgeschlagen. Bitte aktualisieren und erneut versuchen.',fr:'Échec de connexion au chat. Veuillez rafraîchir et réessayer.',pt:'Falha na conexão do chat. Atualize e tente novamente.',tr:'Sohbet bağlantısı başarısız. Yenileyip tekrar deneyin.',vi:'Kết nối chat thất bại. Vui lòng tải lại và thử lại.'}));
       }
     }, 1200);
     return;
@@ -2685,7 +3290,7 @@ function sendChatMsg() {
     pruneOldMessages();
   }).catch((err) => {
     console.error('Send failed:', err);
-    alert(TT({ko:'전송 실패: ',en:'Send failed: ',ja:'送信失敗: ',es:'Error al enviar: ',de:'Senden fehlgeschlagen: '}) + err.message);
+    alert(TT({ko:'전송 실패: ',en:'Send failed: ',ja:'送信失敗: ',es:'Error al enviar: ',de:'Senden fehlgeschlagen: ',fr:'Échec de l\'envoi : ',pt:'Falha no envio: ',tr:'Gönderme başarısız: ',vi:'Gửi thất bại: '}) + err.message);
   });
   input.value = '';
 }
@@ -2739,7 +3344,7 @@ function updateChatBadge() {
 
 // 닉네임 최초 설정 (선택적)
 function promptNickname() {
-  const newNick = prompt(TT({ko:'채팅 닉네임을 입력하세요:',en:'Enter your chat nickname:',ja:'チャットニックネームを入力してください:',es:'Ingresa tu apodo de chat:',de:'Gib deinen Chat-Spitznamen ein:'}), chatNickname);
+  const newNick = prompt(TT({ko:'채팅 닉네임을 입력하세요:',en:'Enter your chat nickname:',ja:'チャットニックネームを入力してください:',es:'Ingresa tu apodo de chat:',de:'Gib deinen Chat-Spitznamen ein:',fr:'Entrez votre pseudo de chat :',pt:'Digite seu apelido no chat:',tr:'Sohbet takma adınızı girin:',vi:'Nhập biệt danh chat của bạn:'}), chatNickname);
   if(newNick && newNick.trim()) {
     const oldNick = chatNickname;
     chatNickname = newNick.trim().slice(0, 20);
