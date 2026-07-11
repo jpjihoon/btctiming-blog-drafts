@@ -1041,8 +1041,8 @@ function makeCard(d,mode='buy'){
       <span>${targetLbl} <b>${localTarget}</b></span>
     </div>
     <div class="icard-note">
-      <div style="font-size:9px;color:var(--t3);margin-bottom:6px">${detailLbl}</div>
-      <div style="white-space:pre-line;line-height:1.6;color:var(--t2);font-size:10px">${detDesc}</div>
+      <div style="font-size:10px;color:var(--t3);margin-bottom:7px;font-weight:600">${detailLbl}</div>
+      <div style="white-space:pre-line;line-height:1.65;color:var(--t2);font-size:11.5px">${detDesc}</div>
       ${guideBtn}${glossaryBtn}
     </div>
   </div>`;
