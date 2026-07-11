@@ -1314,7 +1314,7 @@ function renderAll(ind) {
     abarEl.style.flexDirection = 'column';
     abarEl.style.height = 'auto';
     abarEl.style.overflow = 'visible';
-    abarEl.style.gap = '8px';
+    abarEl.style.gap = '12px';
     abarEl.innerHTML =
       `<div style="display:flex;gap:5px">${makeRow(top4)}</div>` +
       `<div style="display:flex;gap:5px">${makeRow(bot3)}</div>`;
