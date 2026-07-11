@@ -1678,18 +1678,17 @@ function saveHistoryToServer(coin, modeKey, t, score) {
   }).catch(e => console.error('[history] save FAILED (DB 규칙/권한 확인 필요):', e && e.message ? e.message : e));
 }
 
-// 서버 히스토리도 일정 개수 넘으면 오래된 것부터 삭제 (코인당 최대 2000개)
-const HISTORY_MAX_POINTS = 2000;
+// 서버 히스토리: 31일보다 오래된 포인트만 삭제(30일 뷰 지원).
+// 저장마다 하지 않고 ~1/16 확률로만, 오래된 것 소량만 조회해 부하를 줄인다.
+const HISTORY_RETAIN_DAYS = 31;
 function pruneOldHistory(path) {
   if(!chatDB) return;
-  chatDB.ref(path).orderByChild('t').once('value', (snap) => {
+  if(Math.random() > 0.06) return;
+  const cutoff = Date.now() - HISTORY_RETAIN_DAYS*24*60*60*1000;
+  chatDB.ref(path).orderByChild('t').endAt(cutoff).limitToFirst(300).once('value', (snap) => {
     const data = snap.val();
     if(!data) return;
-    const entries = Object.entries(data).sort((a,b) => a[1].t - b[1].t);
-    if(entries.length > HISTORY_MAX_POINTS) {
-      const toDelete = entries.slice(0, entries.length - HISTORY_MAX_POINTS);
-      toDelete.forEach(([key]) => chatDB.ref(path + '/' + key).remove());
-    }
+    Object.keys(data).forEach(key => chatDB.ref(path + '/' + key).remove());
   });
 }
 
@@ -1697,7 +1696,7 @@ function pruneOldHistory(path) {
 function loadHistoryFromServer(coin, modeKey, callback) {
   if(!ensureHistoryDB()) { callback(null); return; }
   const path = `scoreHistory/${coin}_${modeKey}`;
-  chatDB.ref(path).orderByChild('t').limitToLast(2000).once('value', (snap) => {
+  chatDB.ref(path).orderByChild('t').limitToLast(12000).once('value', (snap) => {
     const data = snap.val();
     if(!data) { callback(null); return; }
     const points = Object.values(data).sort((a,b) => a.t - b.t);
