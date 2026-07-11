@@ -591,7 +591,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .main{grid-area:mainrest}
 @media(max-width:900px){.layout{grid-template-columns:1fr;grid-template-areas:"chart" "sidebar" "mainrest"}}
 .sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:16px}
-@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;padding:16px}}
+@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;padding:16px 16px 0}}
 .main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
 /* ── SCORE CARD ── */
@@ -735,7 +735,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .insight-icon{flex-shrink:0;width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;
   font-size:16px;background:var(--icard-accent-bg,rgba(247,147,26,.15))}
 .insight-body{min-width:0;flex:1}
-.insight-cat{font-size:10px;font-weight:700;letter-spacing:.01em;color:var(--icard-accent,var(--orange));margin-bottom:3px}
+.insight-cat{font-size:10px;font-weight:700;letter-spacing:.01em;color:var(--t2);margin-bottom:3px}
 .cat-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}
 .insight-title{font-size:11px;font-weight:600;color:var(--t1);line-height:1.4;margin-bottom:2px;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -758,7 +758,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .sb-blog-icon{flex-shrink:0;font-size:16px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;
   background:rgba(255,255,255,.05);background:color-mix(in srgb, var(--sb-accent, var(--orange)) 14%, transparent);border-radius:7px;margin-top:1px}
 .sb-blog-main{display:flex;flex-direction:column;gap:3px;min-width:0}
-.sb-blog-cat{font-size:10px;font-weight:700;letter-spacing:.02em;color:var(--sb-accent, var(--t3));text-transform:uppercase;opacity:.85}
+.sb-blog-cat{font-size:10px;font-weight:700;letter-spacing:.01em;color:var(--t2);margin-bottom:3px}
 .sb-blog-title{font-size:13.5px;color:var(--t1);line-height:1.5;font-weight:600;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .sb-blog-date{font-size:10.5px;color:var(--t3);font-variant-numeric:tabular-nums;margin-top:1px}

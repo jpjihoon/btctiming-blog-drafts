@@ -875,7 +875,7 @@ function connectWS() {
       const el = document.getElementById('mPrice');
       if(el) {
         el.textContent = fmtP(livePrice);
-        el.style.color = chg >= 0 ? 'var(--green)' : 'var(--red)';
+        el.style.color = 'var(--t1)';
         document.getElementById('mPriceSub').textContent = `${chg>=0?'+':''}${chg.toFixed(2)}% 24h`;
       }
     };
