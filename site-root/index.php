@@ -441,7 +441,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-more-menu.open{display:block}
 .coin-more-item{display:flex;align-items:center;gap:8px;padding:9px 11px;border-radius:7px;font-size:12px;font-weight:600;color:var(--t2);cursor:pointer;white-space:nowrap}
 .coin-more-item:hover{background:#1f1f24;color:var(--t1)}
-.coin-more-item.active{background:rgba(251,146,60,.14);color:var(--orange)}
+.coin-more-item.active{background:rgba(247,147,26,.14);color:var(--orange)}
 .cm-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 .cm-name{color:var(--t3);font-weight:400;font-size:11px}
 /* 코인 검색 오버레이 */
@@ -480,7 +480,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .coin-sw-sub{display:block;font-size:11px;color:#888;margin-top:2px}
 .coin-sw-item{display:flex;align-items:center;gap:10px;padding:13px 14px;border-radius:10px;cursor:pointer;transition:background .1s}
 .coin-sw-item:hover{background:#1c1c20}
-.coin-sw-item.current{background:rgba(251,146,60,.1)}
+.coin-sw-item.current{background:rgba(247,147,26,.1)}
 .coin-sw-item.current .coin-ov-id{color:var(--orange)}
 .coin-sw-cur{margin-left:auto;font-size:10px;font-weight:700;color:var(--orange);flex-shrink:0}
 .coin-sw-manage{margin:6px 12px 12px;padding:12px;background:#1c1c20;border:1px solid rgba(255,255,255,.1);border-radius:10px;color:#bbb;font-size:13px;font-weight:600;cursor:pointer;width:calc(100% - 24px)}
@@ -674,7 +674,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .p-g{background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2)}
 .p-y{background:rgba(251,191,36,.1);color:var(--yellow);border:1px solid rgba(251,191,36,.2)}
 .p-r{background:rgba(248,113,113,.1);color:var(--red);border:1px solid rgba(248,113,113,.2)}
-.p-o{background:rgba(251,146,60,.1);color:var(--orange);border:1px solid rgba(251,146,60,.2)}
+.p-o{background:rgba(247,147,26,.1);color:var(--orange);border:1px solid rgba(247,147,26,.2)}
 
 /* ── HISTORY CHART ── */
 .history-wrap{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:14px}
@@ -688,7 +688,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .bk{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:14px}
 .bk-hd{font-size:11px;font-weight:600;margin-bottom:10px;color:var(--t2)}
 .bk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:3px 14px}
-.bk-row{display:flex;justify-content:space-between;align-items:center;padding:3px 0;font-size:11px;border-bottom:1px solid rgba(255,255,255,.03)}
+.bk-row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;font-size:11px;border-bottom:1px solid var(--b1)}
 .bk-n{color:var(--t2);font-size:12px}
 .bk-r{display:flex;align-items:center;gap:5px;font-weight:600}
 .mbar{width:28px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;display:inline-block;vertical-align:middle}
@@ -823,11 +823,11 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .hist-tab:hover{color:var(--t2);background:var(--bg3)}
 .hist-tab.active{background:var(--orange);color:#000;border-color:transparent;font-weight:700}
 /* 거래소 제휴 배너 — 눈에 띄는 골드 톤 */
-.exch-banner{display:flex;align-items:center;gap:12px;text-decoration:none;background:linear-gradient(135deg,rgba(240,185,11,.16),rgba(251,146,60,.12));border:1px solid rgba(240,185,11,.45);border-radius:14px;padding:14px 15px;margin:12px 0;position:relative;overflow:hidden;box-shadow:0 0 0 rgba(240,185,11,.4);animation:exchGlow 2.6s ease-in-out infinite;transition:transform .1s}
-@keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(240,185,11,.0)}50%{box-shadow:0 0 16px 1px rgba(240,185,11,.22)}}
+.exch-banner{display:flex;align-items:center;gap:12px;text-decoration:none;background:linear-gradient(135deg,rgba(247,147,26,.16),rgba(247,147,26,.12));border:1px solid rgba(247,147,26,.45);border-radius:14px;padding:14px 15px;margin:12px 0;position:relative;overflow:hidden;box-shadow:0 0 0 rgba(247,147,26,.4);animation:exchGlow 2.6s ease-in-out infinite;transition:transform .1s}
+@keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(247,147,26,.0)}50%{box-shadow:0 0 16px 1px rgba(247,147,26,.22)}}
 .exch-banner::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.13),transparent);transform:skewX(-18deg);animation:exchShine 3.6s ease-in-out infinite}
 @keyframes exchShine{0%{left:-60%}45%,100%{left:130%}}
-.exch-banner:hover{border-color:rgba(240,185,11,.7)}
+.exch-banner:hover{border-color:rgba(247,147,26,.7)}
 .exch-banner:active{transform:scale(.99)}
 .exch-banner-ic{font-size:23px;flex-shrink:0;position:relative;z-index:1}
 .exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0;position:relative;z-index:1}
@@ -1111,12 +1111,12 @@ $__seoSub = [
 
     <!-- Position Guide (Long/Short 공통 위치) -->
     <div id="sellPanel" style="display:none">
-      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sStatusTitle">📊 MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sStatusDesc">—</div>
       </div>
-      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sGuideTitle">💡 SHORT GUIDE</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sGuideAction">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sGuideDesc">—</div>
@@ -1132,12 +1132,12 @@ $__seoSub = [
     </div>
     <!-- LONG Guide Panel -->
     <div id="longGuidePanel">
-      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lStatusTitle">📊 MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lStatusDesc">—</div>
       </div>
-      <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lGuideTitle">💡 LONG GUIDE</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lGuideAction">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lGuideDesc">—</div>
