@@ -1716,7 +1716,8 @@ function loadHistoryFromServer(coin, modeKey, callback) {
   });
 }
 
-let serverHistoryLoaded = {}; // 코인+모드별 서버 로드 여부 캐시
+let serverHistoryLoaded = {};
+let fullHistoryCache = {}; // 서버에서 받은 전체(최대 12000) — 그래프가 이걸 사용(localStorage 2000 제한 우회) // 코인+모드별 서버 로드 여부 캐시
 
 function drawHistory() {
   // 서버 히스토리 최초 1회 로드 (코인+모드별)
@@ -1739,6 +1740,7 @@ function drawHistory() {
           seen.add(k);
           return true;
         }).sort((a,b)=>a.t-b.t);
+        fullHistoryCache[localKey] = dedup;
         try { localStorage.setItem(localKey, JSON.stringify(dedup.slice(-2000))); } catch(e){}
         drawHistory(); // 데이터 갱신 후 재렌더
       }
@@ -2409,8 +2411,8 @@ function renderMiniHistory() {
 function getHistoryData() {
   const modeKey = currentMode === 'buy' ? 'long' : 'short';
   const key = `history_${currentCoin}_${modeKey}`;
-  let h = [];
-  try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) {}
+  let h = fullHistoryCache[key];
+  if(!h || !h.length){ try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) { h=[]; } }
   const now = Date.now();
   const rangeMap = {'1h':3600000,'4h':4*3600000,'6h':6*3600000,'12h':12*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
   const range = rangeMap[histPeriod] || rangeMap['1d'];
