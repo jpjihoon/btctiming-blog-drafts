@@ -825,8 +825,8 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 /* 거래소 제휴 배너 — 눈에 띄는 골드 톤 */
 .exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 16px;margin:12px 0;transition:border-color .15s}
 @keyframes exchGlow{0%,100%{box-shadow:0 0 0 0 rgba(247,147,26,.0)}50%{box-shadow:0 0 16px 1px rgba(247,147,26,.22)}}
-.exch-banner::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.13),transparent);transform:skewX(-18deg);animation:exchShine 3.6s ease-in-out infinite}
-@keyframes exchShine{0%{left:-60%}45%,100%{left:130%}}
+
+
 .exch-banner:hover{border-color:rgba(247,147,26,.7)}
 .exch-banner:active{transform:scale(.99)}
 .exch-banner-ic{font-size:23px;flex-shrink:0;position:relative;z-index:1}
@@ -1005,8 +1005,8 @@ $__seoSub = [
   </div>
   <div class="nav-r">
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
-    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><span data-i="navInsights">Blog</span></a>
-    <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary">📚 <span data-i="navGlossary">용어사전</span></a>
+    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg><span data-i="navInsights" style="margin-left:6px">Blog</span></a>
+    <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span data-i="navGlossary" style="margin-left:6px">용어사전</span></a>
     <div class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSettings();}">⚙️</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
@@ -1123,8 +1123,8 @@ $__seoSub = [
       </div>
       <div style="background:var(--bg3);border:1px solid rgba(74,222,128,.2);border-radius:var(--rad-sm);padding:13px 15px">
         <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
-          <div style="width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite"></div>
-          <div style="font-size:10px;color:var(--green);font-weight:600" id="sExitTitle">SHORT EXIT</div>
+          
+          <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="sExitTitle">SHORT EXIT</div>
         </div>
         <div style="font-size:13px;font-weight:700;margin-bottom:4px" id="sExitSig">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6;white-space:pre-line" id="sExitDesc">—</div>
@@ -1144,17 +1144,17 @@ $__seoSub = [
       </div>
       <div style="background:var(--bg3);border:1px solid rgba(251,191,36,.2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
         <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
-          <div style="width:6px;height:6px;border-radius:50%;background:var(--yellow);animation:pulse 1.5s infinite"></div>
-          <div style="font-size:10px;color:var(--yellow);font-weight:600" id="lNextTitle">NEXT TRIGGER</div>
+          
+          <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lNextTitle">NEXT TRIGGER</div>
         </div>
         <div style="font-size:11px;color:var(--t2);line-height:1.8;white-space:pre-line" id="lNextDesc">—</div>
       </div>
-      <div style="background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px">
-        <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:13px 15px;margin:-13px -15px 0;border-radius:var(--rad-sm)" onclick="toggleSplitPlan()" role="button" tabindex="0" aria-label="Toggle split entry plan" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSplitPlan();}">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm)">
+        <div style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:14px 15px" onclick="toggleSplitPlan()" role="button" tabindex="0" aria-label="Toggle split entry plan" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSplitPlan();}">
           <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lSplitTitle">SPLIT ENTRY PLAN</div>
           <span id="splitPlanChevron" style="font-size:10px;color:var(--t3);transition:transform .2s;transform:rotate(-90deg)">▾</span>
         </div>
-        <div id="splitPlanBody" style="display:none;margin-top:10px">
+        <div id="splitPlanBody" style="display:none;padding:0 15px 14px">
           <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px">
             <span style="font-size:11px;color:var(--t2);flex-shrink:0" id="lAssetLabel">투자 자산</span>
             <input type="number" id="userAsset" placeholder="10000"
