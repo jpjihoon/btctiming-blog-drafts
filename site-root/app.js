@@ -1697,7 +1697,7 @@ function pruneOldHistory(path) {
 function loadHistoryFromServer(coin, modeKey, callback) {
   if(!ensureHistoryDB()) { callback(null); return; }
   const path = `scoreHistory/${coin}_${modeKey}`;
-  chatDB.ref(path).orderByChild('t').limitToLast(500).once('value', (snap) => {
+  chatDB.ref(path).orderByChild('t').limitToLast(2000).once('value', (snap) => {
     const data = snap.val();
     if(!data) { callback(null); return; }
     const points = Object.values(data).sort((a,b) => a.t - b.t);
