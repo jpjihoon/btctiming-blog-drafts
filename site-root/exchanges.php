@@ -209,7 +209,7 @@ foreach (SUPPORTED_LANGS as $__lc => $__m) { $LNG[$__lc] = ($__m['flag'] ?? '') 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#080808">
+<meta name="theme-color" content="#0a0a0c">
 <title><?= h($t['title']) ?></title>
 <meta name="description" content="<?= h($t['desc']) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
@@ -223,47 +223,47 @@ foreach (SUPPORTED_LANGS as $__lc => $__m) { $LNG[$__lc] = ($__m['flag'] ?? '') 
 <meta property="og:url" content="<?= h($canonical) ?>">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-body{background:#080808;color:#f0f0f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
 a{color:inherit}
 /* ── 헤더 (블로그 리스트와 동일) ── */
-nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
+nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0;text-decoration:none}.logo span{color:#fbbf24}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;text-decoration:none}.logo span{color:#f59e0b}
 .back{font-size:13px;color:#666666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .back a{color:#666666;text-decoration:none}
 .lang-dropdown{position:relative;flex-shrink:0}
-.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#151515;border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f0f0f0;font-size:11px;font-weight:700;letter-spacing:.02em;cursor:pointer;transition:all .15s}
-.lang-trigger:hover{background:#1a1a1a}
+.lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#1b1b21;border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f2f2f5;font-size:11px;font-weight:700;letter-spacing:.02em;cursor:pointer;transition:all .15s}
+.lang-trigger:hover{background:#24242b}
 .lang-caret{font-size:9px;color:#666666;transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
-.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#0f0f0f;border:1px solid rgba(255,255,255,0.06);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
+.lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#141418;border:1px solid rgba(255,255,255,0.06);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
-.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:none;color:#aaaaaa;font-size:12px;font-weight:600;text-align:left;text-decoration:none;cursor:pointer;transition:all .1s}
-.lang-menu-item:hover{background:#151515;color:#f0f0f0}
-.lang-menu-item.active{color:#fb923c;background:rgba(247,147,26,.08)}
+.lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;text-decoration:none;cursor:pointer;transition:all .1s}
+.lang-menu-item:hover{background:#1b1b21;color:#f2f2f5}
+.lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 /* ── 본문 ── */
 .wrap{max-width:840px;margin:0 auto;width:100%;padding:32px 16px;flex:1}
 h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
-.lead{color:#a1a1aa;margin-bottom:28px;font-size:14px}
+.lead{color:#9a9aa4;margin-bottom:28px;font-size:14px}
 .cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:640px){.cards{grid-template-columns:1fr}}
-.card{background:#0f0f0f;border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:22px;display:flex;flex-direction:column}
+.card{background:#141418;border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:22px;display:flex;flex-direction:column}
 .card h2{font-size:20px;font-weight:800;margin-bottom:6px}
 .tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:12px;width:fit-content}
 .tag.b{background:rgba(240,185,11,.12);color:#f0b90b;border:1px solid rgba(240,185,11,.3)}
-.tag.y{background:rgba(251,146,60,.12);color:#fb923c;border:1px solid rgba(251,146,60,.3)}
-.card p.d{color:#a1a1aa;font-size:13px;margin-bottom:16px}
+.tag.y{background:rgba(251,146,60,.12);color:#f7931a;border:1px solid rgba(251,146,60,.3)}
+.card p.d{color:#9a9aa4;font-size:13px;margin-bottom:16px}
 .feat{font-size:11px;color:#71717a;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
 .card ul{list-style:none;margin-bottom:20px;flex-grow:1}
-.card li{font-size:13px;color:#f0f0f0;padding:5px 0 5px 22px;position:relative}
-.card li::before{content:"✓";position:absolute;left:0;color:#4ade80;font-weight:700}
+.card li{font-size:13px;color:#f2f2f5;padding:5px 0 5px 22px;position:relative}
+.card li::before{content:"✓";position:absolute;left:0;color:#22c55e;font-weight:700}
 .cta{display:block;text-align:center;text-decoration:none;font-weight:700;font-size:14px;padding:13px 16px;border-radius:12px;transition:transform .1s,opacity .15s}
 .cta:active{transform:scale(.98)}
 .cta.b{background:linear-gradient(135deg,#f0b90b,#f8d33a);color:#000}
-.cta.y{background:linear-gradient(135deg,#fb923c,#fdba74);color:#000}
+.cta.y{background:linear-gradient(135deg,#f7931a,#fdba74);color:#000}
 .cta:hover{opacity:.92}
 .note{font-size:12px;color:#71717a;margin-top:22px;line-height:1.6}
-.risk{font-size:12px;color:#f87171;background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.2);border-radius:12px;padding:12px 14px;margin-top:14px;line-height:1.55}
+.risk{font-size:12px;color:#ef4444;background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.2);border-radius:12px;padding:12px 14px;margin-top:14px;line-height:1.55}
 /* ── 푸터 (블로그 리스트와 동일) ── */
 footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:11px;color:#666666}
 footer a{color:#666666;text-decoration:underline}
