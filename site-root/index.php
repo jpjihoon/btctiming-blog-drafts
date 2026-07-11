@@ -426,6 +426,10 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:600px){
   .coin-tabs{display:none!important}
   #coinDrop{display:block!important}
+  nav{height:auto;min-height:52px;padding:5px 0}
+  .nav-inner{flex-wrap:wrap;row-gap:5px}
+  #coinDrop{order:5;flex:1 0 100%;width:100%;margin-top:2px}
+  .nav-r{margin-left:auto}
 }
 .coin-tab{flex-shrink:0;padding:5px 12px;border-radius:99px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--b1);background:transparent;color:var(--t2);transition:all .15s;white-space:nowrap}
 .coin-tab.active{background:var(--yellow);color:#000;border-color:var(--yellow)}
@@ -1173,7 +1177,7 @@ $__seoSub = [
     </div>
 
     <!-- Timestamp -->
-    <div style="font-size:9px;color:var(--t3);text-align:center;flex-shrink:0" id="tsLabel">—</div>
+    <div style="display:none" id="tsLabel">—</div>
   </div>
 
 
