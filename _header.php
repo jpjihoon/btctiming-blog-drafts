@@ -407,7 +407,38 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   <h1 class="<?= $__l ?>"><?= $M["h1_{$__l}"] ?? $M['h1_en'] ?></h1>
   <?php endforeach; ?>
   <div class="meta">
-    <span>📅 <?= h(str_replace('-', '.', $M['date'])) ?></span>
+    <?php
+    // 작성 시각: 언어별 형식으로 렌더 (언어 전환 시 함께 바뀜)
+    $__ts = strtotime($M['date']);
+    $__hasTime = (strpos((string)$M['date'], ':') !== false);
+    $__Y = date('Y', $__ts); $__n = (int)date('n', $__ts); $__j = (int)date('j', $__ts);
+    $__Hi = $__hasTime ? date('H:i', $__ts) : '';
+    $__MON = [
+      'en'=>['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+      'es'=>['','ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'],
+      'de'=>['','Jan.','Feb.','März','Apr.','Mai','Juni','Juli','Aug.','Sep.','Okt.','Nov.','Dez.'],
+      'fr'=>['','janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'],
+      'pt'=>['','jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'],
+      'tr'=>['','Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'],
+      'vi'=>['','thg 1','thg 2','thg 3','thg 4','thg 5','thg 6','thg 7','thg 8','thg 9','thg 10','thg 11','thg 12'],
+    ];
+    $__DATE = [
+      'ko' => "{$__Y}년 {$__n}월 {$__j}일",
+      'ja' => "{$__Y}年{$__n}月{$__j}日",
+      'en' => $__MON['en'][$__n]." {$__j}, {$__Y}",
+      'es' => "{$__j} ".$__MON['es'][$__n]." {$__Y}",
+      'de' => "{$__j}. ".$__MON['de'][$__n]." {$__Y}",
+      'fr' => "{$__j} ".$__MON['fr'][$__n]." {$__Y}",
+      'pt' => "{$__j} ".$__MON['pt'][$__n]." {$__Y}",
+      'tr' => "{$__j} ".$__MON['tr'][$__n]." {$__Y}",
+      'vi' => "{$__j} ".$__MON['vi'][$__n]." {$__Y}",
+    ];
+    foreach ($__langKeys as $__l):
+      $__d = $__DATE[$__l] ?? $__DATE['en'];
+      if ($__hasTime) $__d .= ' ' . $__Hi;
+    ?>
+    <span class="<?= $__l ?>">📅 <?= h($__d) ?></span>
+    <?php endforeach; ?>
     <?php
     // 작성자 byline — 브랜드 리서치팀 명의. 언어별 "작성/By" 표기 + 브랜드명은 공통.
     $__byLabel = ['ko'=>'글','en'=>'By','ja'=>'文','es'=>'Por','de'=>'Von','fr'=>'Par','pt'=>'Por','tr'=>'Yazan','vi'=>'Bởi'];
