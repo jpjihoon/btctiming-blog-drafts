@@ -2847,7 +2847,7 @@ function renderInsightCards(containerId, articles, ko, suffix) {
     return `<a href="${a.url}${suffix}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
       
       <div class="insight-body">
-        <div class="insight-cat"><span class="cat-dot" style="background:${a.color}"></span>${cat}</div>
+        <div class="insight-cat">${pickLangField(a,'tag',currentLang)||cat}</div>
         <div class="insight-title">${title}</div>
         <div class="insight-date">${formatBlogCardDate(a.date, currentLang)}</div>
       </div>
@@ -2924,7 +2924,7 @@ function renderSidebarBlogList(articles, ko, suffix) {
     return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color}">
       
       <span class="sb-blog-main">
-        <span class="sb-blog-cat"><span class="cat-dot" style="background:${a.color}"></span>${cat}</span>
+        <span class="sb-blog-cat">${pickLangField(a,'tag',currentLang)||cat}</span>
         <span class="sb-blog-title">${title}</span>
         <span class="sb-blog-date">${formatBlogCardDate(a.date, currentLang)}</span>
       </span>
