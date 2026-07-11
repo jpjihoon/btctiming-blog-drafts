@@ -557,7 +557,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
   border:none;color:var(--t2);font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
 .lang-menu-item:hover{background:var(--bg3);color:var(--t1)}
 .lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}
-.nav-insight{height:34px;padding:0 11px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);
+.nav-insight{height:34px;padding:0 11px;gap:6px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);
   display:flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:var(--t2);text-decoration:none;
   flex-shrink:0;transition:all .15s;white-space:nowrap}
 .nav-insight:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
@@ -595,7 +595,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
 /* ── SCORE CARD ── */
-.score-card{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:22px;position:relative;overflow:hidden;z-index:1;flex-shrink:0}
+.score-card{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:18px 15px;position:relative;overflow:hidden;z-index:1;flex-shrink:0}
 .score-card::before{content:'';position:absolute;z-index:0;inset:0;background:radial-gradient(ellipse at top left, rgba(251,191,36,.05) 0%, transparent 60%);pointer-events:none}
 .score-label{font-size:10px;color:var(--t3);letter-spacing:.06em;margin-bottom:4px}
 .score-num{font-size:64px;font-weight:800;line-height:1;letter-spacing:-3px}
@@ -621,7 +621,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 
 /* ── MINI STATS ── */
 .mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;flex-shrink:0}
-.mini-stat{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad);padding:13px 14px}
+.mini-stat{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad);padding:14px 15px}
 .mini-stat .lbl{font-size:10px;color:var(--t3);margin-bottom:4px}
 .mini-stat .val{font-size:21px;font-weight:700;line-height:1}
 .mini-stat .sub{font-size:10px;color:var(--t3);margin-top:3px}
@@ -746,7 +746,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .insight-more:hover{background:rgba(247,147,26,.08);text-decoration:none}
 
 /* ── Sidebar Blog List (좌측 하단 컴팩트 목록) ── */
-.sb-blog{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:12px 13px;flex-shrink:0}
+.sb-blog{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;flex-shrink:0}
 .sb-blog-hd{display:flex;align-items:center;font-size:11px;font-weight:700;letter-spacing:.07em;color:var(--t3);margin-bottom:8px}
 .sb-blog-hd a{font-size:10px;padding:2px 7px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
   font-weight:700;text-decoration:none;margin-left:auto}
@@ -1005,8 +1005,8 @@ $__seoSub = [
   </div>
   <div class="nav-r">
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
-    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg><span data-i="navInsights" style="margin-left:6px">Blog</span></a>
-    <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span data-i="navGlossary" style="margin-left:6px">용어사전</span></a>
+    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg><span data-i="navInsights">Blog</span></a>
+    <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span data-i="navGlossary">용어사전</span></a>
     <div class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSettings();}">⚙️</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
@@ -1111,12 +1111,12 @@ $__seoSub = [
 
     <!-- Position Guide (Long/Short 공통 위치) -->
     <div id="sellPanel" style="display:none">
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sStatusTitle">MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sStatusDesc">—</div>
       </div>
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="sGuideTitle">💡 SHORT GUIDE</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="sGuideAction">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="sGuideDesc">—</div>
@@ -1132,17 +1132,17 @@ $__seoSub = [
     </div>
     <!-- LONG Guide Panel -->
     <div id="longGuidePanel">
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lStatusTitle">MARKET STATUS</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lStatusMain">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lStatusDesc">—</div>
       </div>
-      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:8px">
         <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em;margin-bottom:6px" id="lGuideTitle">💡 LONG GUIDE</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:5px" id="lGuideAction">—</div>
         <div style="font-size:11px;color:var(--t2);line-height:1.6" id="lGuideDesc">—</div>
       </div>
-      <div style="background:var(--bg3);border:1px solid rgba(251,191,36,.2);border-radius:var(--rad-sm);padding:13px 15px;margin-bottom:8px">
+      <div style="background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-sm);padding:14px 15px;margin-bottom:8px">
         <div style="display:flex;align-items:center;gap:5px;margin-bottom:6px">
           
           <div style="font-size:10px;color:var(--t3);font-weight:600;letter-spacing:.07em" id="lNextTitle">NEXT TRIGGER</div>

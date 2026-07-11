@@ -385,6 +385,7 @@ function initTabs() {
   const cpLabel = document.getElementById('coinPickerLabel');
   if(cpLabel) cpLabel.textContent = currentCoin;
 }
+function _emphArrow(s){return String(s).split('\n').map(function(l){return l.replace(/(\u2192\s*)(.+)$/,'$1<b style="color:var(--green);font-weight:700">$2</b>');}).join('<br>');}
 function toggleCoinPicker(e){ if(e) e.stopPropagation(); var p=document.getElementById('coinPickerPanel'); if(p) p.style.display=(p.style.display==='block'?'none':'block'); }
 function pickCoin(id){ var p=document.getElementById('coinPickerPanel'); if(p) p.style.display='none'; switchCoin(id); }
 document.addEventListener('click', function(ev){ var w=document.getElementById('coinPicker'); var p=document.getElementById('coinPickerPanel'); if(p && p.style.display==='block' && w && !w.contains(ev.target)) p.style.display='none'; });
@@ -1407,7 +1408,7 @@ function renderAll(ind) {
     if(el('sGuideDesc'))   el('sGuideDesc').textContent=gDesc;
     if(el('sExitTitle'))   el('sExitTitle').textContent=TT({ko:'숏 청산 조건',en:'SHORT EXIT',ja:'ショート決済条件',es:'SALIDA CORTA',de:'SHORT-AUSSTIEG',fr:'SORTIE SHORT',pt:'SAÍDA SHORT',tr:'SHORT ÇIKIŞ',vi:'THOÁT SHORT'});
     if(el('sExitSig'))     el('sExitSig').textContent=exitSig;
-    if(el('sExitDesc'))    el('sExitDesc').textContent=exitDesc;
+    if(el('sExitDesc'))    el('sExitDesc').innerHTML=_emphArrow(exitDesc);
 
   } else {
     const sc=result.final;
@@ -1459,7 +1460,7 @@ function renderAll(ind) {
     if(el('lGuideAction')) {el('lGuideAction').textContent=gAction;el('lGuideAction').style.color=result.acolor;}
     if(el('lGuideDesc'))   el('lGuideDesc').textContent=gDesc;
     if(el('lNextTitle'))   el('lNextTitle').textContent=TT({ko:'다음 진입 조건',en:'NEXT TRIGGER',ja:'次のエントリー条件',es:'SIGUIENTE DISPARADOR',de:'NÄCHSTER TRIGGER',fr:'PROCHAIN DÉCLENCHEUR',pt:'PRÓXIMO GATILHO',tr:'SONRAKİ TETİKLEYİCİ',vi:'KÍCH HOẠT TIẾP THEO'});
-    if(el('lNextDesc'))    el('lNextDesc').textContent=nextDesc;
+    if(el('lNextDesc'))    el('lNextDesc').innerHTML=_emphArrow(nextDesc);
     if(el('lSplitTitle'))  el('lSplitTitle').textContent=TT({ko:'분할 매수 계획',en:'SPLIT ENTRY PLAN',ja:'分割エントリー計画',es:'PLAN DE ENTRADA ESCALONADA',de:'GESTAFFELTER EINSTIEGSPLAN',fr:'PLAN D\'ENTRÉE ÉCHELONNÉE',pt:'PLANO DE ENTRADA ESCALONADA',tr:'KADEMELİ GİRİŞ PLANI',vi:'KẾ HOẠCH VÀO TỪNG PHẦN'});
   const assetInput = document.getElementById('userAsset');
   if(assetInput && document.activeElement !== assetInput) assetInput.value = TOTAL_USDT;
