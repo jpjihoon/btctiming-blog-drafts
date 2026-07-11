@@ -57,7 +57,8 @@ echo implode(',', $__ghRules) . "{display:none}\n";
 /* ── NAV (대시보드와 동일) ── */
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
 .nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px;gap:12px}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;color:var(--t1)}
+.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;color:var(--t1)}
+.logo-ic{flex-shrink:0}
 .logo:hover{opacity:.8;text-decoration:none}
 .logo span{color:var(--yellow)}
 .nav-back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -85,7 +86,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 </head>
 <body>
 <nav><div class="nav-inner">
-  <a href="/" class="logo">BTC<span>timing</span></a>
+  <a href="/" class="logo"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <span class="nav-back"><a href="/"><span class="l-ko">← 실시간 분석으로 돌아가기</span><span class="l-en">← Back to Live Analysis</span><span class="l-ja">← リアルタイム分析に戻る</span><span class="l-es">← Volver al Análisis en Vivo</span><span class="l-de">← Zurück zur Live-Analyse</span><span class="l-fr">← Retour à l'analyse en direct</span><span class="l-pt">← Voltar à análise ao vivo</span><span class="l-tr">← Canlı analize dön</span><span class="l-vi">← Quay lại phân tích trực tiếp</span></a></span>
   <div class="nav-r">
     <div class="lang-dropdown" id="langDropdown">
