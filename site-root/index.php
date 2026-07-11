@@ -592,7 +592,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:900px){.layout{grid-template-columns:1fr;grid-template-areas:"chart" "sidebar" "mainrest"}}
 .sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:16px}
 @media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;padding:16px 16px 0}}
-.main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.main{padding:0 16px 16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
 /* ── SCORE CARD ── */
 .score-card{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:18px 15px;position:relative;overflow:hidden;z-index:1;flex-shrink:0}
@@ -720,7 +720,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .sec-link:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
 .insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .insight-card.hidden{display:none}
-.load-more{display:block;width:100%;margin-top:10px;padding:11px;background:#111113;
+.load-more{display:block;width:100%;padding:11px;background:#111113;
   border:1px solid rgba(255,255,255,.08);border-radius:var(--rad-sm,8px);color:var(--t3,#71717a);
   font-size:12px;font-weight:600;cursor:pointer;text-align:center;transition:all .15s;
   font-family:inherit;box-sizing:border-box}

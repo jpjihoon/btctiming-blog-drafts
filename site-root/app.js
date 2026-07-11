@@ -1311,13 +1311,13 @@ function renderAll(ind) {
         <span style="font-size:10.5px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center">${segLabel}</span>
       </div>`;
     }).join('');
+    abarEl.style.display = 'flex';
     abarEl.style.flexDirection = 'column';
     abarEl.style.height = 'auto';
     abarEl.style.overflow = 'visible';
-    abarEl.style.gap = '12px';
     abarEl.innerHTML =
       `<div style="display:flex;gap:5px">${makeRow(top4)}</div>` +
-      `<div style="display:flex;gap:5px">${makeRow(bot3)}</div>`;
+      `<div style="display:flex;gap:5px;margin-top:12px">${makeRow(bot3)}</div>`;
   }
 
   // Mini stats
