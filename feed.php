@@ -42,6 +42,7 @@ $out = array_map(function($a) {
         $row['title_' . $lc]    = $a['title_' . $lc]    ?? ($a['title_en'] ?? ($a['title_ko'] ?? ''));
         $row['desc_' . $lc]     = $a['desc_' . $lc]     ?? ($a['desc_en'] ?? ($a['desc_ko'] ?? ''));
         $row['category_' . $lc] = CATEGORY_META[$cat][$lc] ?? (CATEGORY_META[$cat]['en'] ?? (CATEGORY_META[$cat]['ko'] ?? $cat));
+        $row['tag_' . $lc]      = $a['tag_' . $lc]      ?? ($a['tag_en'] ?? ($a['tag_ko'] ?? ''));
     }
     return $row;
 }, $articles);
