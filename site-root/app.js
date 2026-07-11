@@ -2411,8 +2411,10 @@ function renderMiniHistory() {
 function getHistoryData() {
   const modeKey = currentMode === 'buy' ? 'long' : 'short';
   const key = `history_${currentCoin}_${modeKey}`;
-  let h = fullHistoryCache[key];
-  if(!h || !h.length){ try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) { h=[]; } }
+  let h = fullHistoryCache[key];
+
+  if(!h || !h.length){ try { h = JSON.parse(localStorage.getItem(key)||'[]'); } catch(e) { h=[]; } }
+
   const now = Date.now();
   const rangeMap = {'1h':3600000,'4h':4*3600000,'6h':6*3600000,'12h':12*3600000,'1d':86400000,'7d':7*86400000,'30d':30*86400000,'all':Infinity};
   const range = rangeMap[histPeriod] || rangeMap['1d'];
@@ -2764,8 +2766,8 @@ function renderBlogTicker() {
  *  더보기 버튼으로 트래픽을 늘리기 위해 사이드바용 5개 + 그리드용 최대 25개를 한 번에 받아두고,
  *  그리드는 8개씩 점진적으로 공개한다. */
 let insightGridPool = [];
-let insightGridVisible = 8;
-const INSIGHT_PAGE_SIZE = 8;
+let insightGridVisible = 6;
+const INSIGHT_PAGE_SIZE = 6;
 
 function loadInsightWidget() {
   fetch('/blog/feed.php?limit=30')
@@ -2855,7 +2857,7 @@ function renderInsightCards(containerId, articles, ko, suffix) {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
     return `<a href="${a.url}${suffix}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
-      
+      <div class="insight-icon">${a.icon || '📄'}</div>
       <div class="insight-body">
         <div class="insight-cat">${pickLangField(a,'tag',currentLang)||cat}</div>
         <div class="insight-title">${title}</div>
@@ -2870,22 +2872,20 @@ function updateInsightMoreButton() {
   const countEl = document.getElementById('insightMoreCount');
   const actions = document.getElementById('insightExpandedActions');
   if(!btn) return;
-  if(insightGridVisible > INSIGHT_PAGE_SIZE) {
-    // 한 번이라도 펼친 상태 — "더보기" 대신 "접기 / 전체 보기"로 전환
-    btn.style.display = 'none';
-    if(actions) actions.style.display = 'flex';
-    return;
-  }
-  if(actions) actions.style.display = 'none';
   const remaining = insightGridPool.length - insightGridVisible;
-  if(remaining <= 0) { btn.style.display = 'none'; return; }
-  btn.style.display = '';
-  if(countEl) countEl.textContent = `(${Math.min(remaining, INSIGHT_PAGE_SIZE)})`;
+  if(remaining > 0) {
+    btn.style.display = '';
+    if(actions) actions.style.display = 'none';
+    if(countEl) countEl.textContent = `(${Math.min(remaining, INSIGHT_PAGE_SIZE)})`;
+  } else {
+    btn.style.display = 'none';
+    if(actions) actions.style.display = insightGridVisible > INSIGHT_PAGE_SIZE ? 'flex' : 'none';
+  }
 }
 
 function loadMoreInsights() {
   // 한 번 누르면 8개만 추가로 펼침(총 16개) — 그 뒤엔 접기/전체보기 두 버튼으로 전환
-  insightGridVisible = Math.min(insightGridPool.length, INSIGHT_PAGE_SIZE * 2);
+  insightGridVisible = Math.min(insightGridPool.length, insightGridVisible + INSIGHT_PAGE_SIZE);
   const ko = currentLang === 'ko';
   const suffix = blogSuffix(currentLang);
   renderInsightCards('insightGrid2', insightGridPool.slice(0, insightGridVisible), ko, suffix);
@@ -2931,8 +2931,8 @@ function renderSidebarBlogList(articles, ko, suffix) {
   list.innerHTML = articles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
-    return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color}">
-      
+    return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color};--icard-accent-bg:${a.color}26">
+      <span class="sb-blog-icon">${a.icon || '📄'}</span>
       <span class="sb-blog-main">
         <span class="sb-blog-cat">${pickLangField(a,'tag',currentLang)||cat}</span>
         <span class="sb-blog-title">${title}</span>

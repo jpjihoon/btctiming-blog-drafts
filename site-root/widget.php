@@ -241,7 +241,7 @@ body{overflow-x:hidden}
 <?php endforeach; ?>
 </div>
 <?php if ($showBlog): ?>
-<div class="wg-body" id="bodyBlog" style="display:none;max-height:168px;overflow-y:auto">
+<div class="wg-body" id="bodyBlog" style="display:none;max-height:256px;overflow-y:auto">
   <?php if (empty($blogPosts)): ?>
     <div style="padding:20px;text-align:center;color:var(--t3);font-size:11px">No articles available</div>
   <?php else: foreach ($blogPosts as $p): ?>

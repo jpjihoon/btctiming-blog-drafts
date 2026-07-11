@@ -719,7 +719,8 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .sec-link{font-size:9px;padding:1px 6px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
   font-weight:700;letter-spacing:.02em;text-decoration:none;margin-left:auto;transition:all .15s}
 .sec-link:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
-.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:640px){.insight-grid{grid-template-columns:1fr}}
 .insight-card.hidden{display:none}
 .load-more{display:block;width:100%;padding:11px;background:#111113;
   border:1px solid rgba(255,255,255,.08);border-radius:var(--rad-sm,8px);color:var(--t3,#71717a);
@@ -732,9 +733,8 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 #insightAllLink2:hover{color:#f7931a}
 .insight-card{background:var(--bg2);border:1px solid var(--b1);border-left:3px solid var(--b2);border-radius:var(--rad-sm);padding:12px;
   display:flex;gap:10px;align-items:flex-start;text-decoration:none;color:inherit;transition:all .15s}
-.insight-card:hover{border-color:var(--icard-accent,var(--orange));background:var(--bg3);text-decoration:none}
-.insight-icon{flex-shrink:0;width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;
-  font-size:16px;background:var(--icard-accent-bg,rgba(247,147,26,.15))}
+.insight-card:hover{border-color:var(--icard-accent,var(--orange));background:var(--bg3);text-decoration:none;transform:translateY(-2px)}
+.insight-icon{flex-shrink:0;width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:17px;background:var(--icard-accent-bg,rgba(247,147,26,.15))}
 .insight-body{min-width:0;flex:1}
 .insight-cat{font-size:10px;font-weight:700;letter-spacing:.01em;color:var(--t2);margin-bottom:3px}
 .cat-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}
@@ -752,20 +752,19 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .sb-blog-hd a{font-size:10px;padding:2px 7px;border-radius:4px;background:var(--bg3);border:1px solid var(--b1);color:var(--t2);
   font-weight:700;text-decoration:none;margin-left:auto}
 .sb-blog-hd a:hover{background:var(--bg4);color:var(--t1);text-decoration:none}
-.sb-blog-item{display:flex;gap:10px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--b1);text-decoration:none;color:inherit}
-.sb-blog-item:first-child{border-top:none;padding-top:4px}
-.sb-blog-item:hover{padding-left:3px}
-.sb-blog-item:hover .sb-blog-title{color:var(--orange)}
-.sb-blog-icon{flex-shrink:0;font-size:16px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;
-  background:rgba(255,255,255,.05);background:color-mix(in srgb, var(--sb-accent, var(--orange)) 14%, transparent);border-radius:7px;margin-top:1px}
+.sb-blog-item{display:flex;gap:10px;align-items:flex-start;padding:11px 12px;background:var(--bg3);border:1px solid var(--b1);border-left:3px solid var(--b2);border-radius:var(--rad-sm);text-decoration:none;color:inherit;margin-bottom:8px;transition:transform .12s,background .12s}
+.sb-blog-item:last-child{margin-bottom:0}
+.sb-blog-item:hover{transform:translateY(-2px);background:#191920}
+.sb-blog-item:hover .sb-blog-title{color:var(--t1)}
+.sb-blog-icon{flex-shrink:0;font-size:17px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:var(--icard-accent-bg,rgba(247,147,26,.14));border-radius:8px}
 .sb-blog-main{display:flex;flex-direction:column;gap:3px;min-width:0}
 .sb-blog-cat{font-size:10px;font-weight:700;letter-spacing:.01em;color:var(--t2);margin-bottom:3px}
 .sb-blog-title{font-size:11px;color:var(--t1);line-height:1.4;font-weight:600;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .sb-blog-date{font-size:9px;color:var(--t3);font-variant-numeric:tabular-nums;margin-top:1px}
 @media(max-width:768px){
-  .sb-blog-item{padding:16px 0;gap:11px}
-  .sb-blog-icon{font-size:17px;width:28px;height:28px}
+  .sb-blog-item{gap:10px}
+  .sb-blog-icon{font-size:15px;width:34px;height:34px}
   .sb-blog-title{font-size:11px;line-height:1.4}
   .sb-blog-cat{font-size:10px}
   .sb-blog-date{font-size:9px}
