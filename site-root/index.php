@@ -574,21 +574,22 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .seo-hero p{font-size:11px;color:var(--t3);line-height:1.4;margin:0}
 @media(max-width:900px){.seo-hero{padding:0 2px 8px}}
 @media(max-width:600px){.seo-hero h1{font-size:13px}.seo-hero p{font-size:10.5px}}
-.layout{display:grid;grid-template-columns:280px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:0;align-items:start}
+.layout{display:grid;grid-template-columns:300px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:16px 18px;align-items:start}
 .sidebar{grid-area:sidebar}
 .chart-wrap-cell{grid-area:chart;padding:16px 16px 0}
 @media(max-width:900px){.chart-wrap-cell{padding:16px 16px 0}}
 .main{grid-area:mainrest}
 @media(max-width:900px){.layout{grid-template-columns:1fr;grid-template-areas:"chart" "sidebar" "mainrest"}}
-.sidebar{background:var(--bg2);border-right:1px solid var(--b1);padding:16px;display:flex;flex-direction:column;gap:12px;align-self:start}
+.sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:2px}
 @media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--b1)}}
 .main{padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
 /* ── SCORE CARD ── */
-.score-card{background:var(--bg3);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:18px;position:relative;overflow:hidden;z-index:1;flex-shrink:0}
+.score-card{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:22px;position:relative;overflow:hidden;z-index:1;flex-shrink:0}
 .score-card::before{content:'';position:absolute;z-index:0;inset:0;background:radial-gradient(ellipse at top left, rgba(251,191,36,.05) 0%, transparent 60%);pointer-events:none}
 .score-label{font-size:10px;color:var(--t3);letter-spacing:.06em;margin-bottom:4px}
 .score-num{font-size:64px;font-weight:800;line-height:1;letter-spacing:-3px}
+.coin-badge{width:44px;height:44px;border-radius:50%;background:var(--bg4);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:var(--orange);flex-shrink:0;letter-spacing:-.02em}
 /* 로딩 스켈레톤 — 데이터 오기 전 회색 깜빡임으로 "불러오는 중"임을 알림 */
 @keyframes skShimmer{0%{opacity:.35}50%{opacity:.75}100%{opacity:.35}}
 .sk-load{position:relative;color:transparent!important}
@@ -1040,9 +1041,12 @@ $__seoSub = [
         <span onclick="dismissOnboard()" role="button" tabindex="0" aria-label="Dismiss guide" style="float:right;cursor:pointer;color:var(--t3);font-weight:700;margin-left:8px">✕</span>
       </div>
       <div class="score-label" id="scoreLabel">ENTRY SCORE</div>
-      <div style="display:flex;align-items:baseline;gap:4px">
-        <span class="score-num" id="scoreNum">—</span>
-        <span class="score-den">/10</span>
+      <div style="display:flex;align-items:center;gap:12px">
+        <span class="coin-badge" id="scoreCoin">—</span>
+        <div style="display:flex;align-items:baseline;gap:4px">
+          <span class="score-num" id="scoreNum">—</span>
+          <span class="score-den">/10</span>
+        </div>
       </div>
       <div class="reach-bar"><div class="reach-fill" id="reachBar" style="width:0%"></div></div>
       <div class="reach-pct" id="reachPct">—</div>

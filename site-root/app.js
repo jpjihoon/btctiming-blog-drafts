@@ -1207,6 +1207,7 @@ function renderAll(ind) {
     snEl.style.fontWeight='800';
     snEl.style.display='inline';
   }
+  const scEl=document.getElementById('scoreCoin'); if(scEl){ scEl.textContent=(currentCoin||'').toUpperCase(); }
   // 액션 코드(FULL LONG, WATCH 등)는 백엔드(score_calc.php)가 영어 코드로만 내려주므로,
   // 화면에 보여줄 땐 언어별로 번역해서 표시. (이전엔 result.action을 그대로 찍어서 모든 언어에서 항상 영어로만 보였음)
   const actionLabelMap = {
