@@ -1807,12 +1807,12 @@ function drawHistory() {
   // 시각 → X좌표 (시간 비례)
   const xAt = (t) => pad.l + Math.max(0, Math.min(1, (t - tStart)/tSpan)) * pw;
   const zones = [
-    {min:8.0,max:10,color:'rgba(34,197,94,0.07)',label:'FULL LONG'},
-    {min:7.0,max:8.0,color:'rgba(74,222,128,0.05)',label:'ADD LONG'},
-    {min:6.0,max:7.0,color:'rgba(134,239,172,0.04)',label:'SPLIT LONG'},
-    {min:5.0,max:6.0,color:'rgba(163,230,53,0.03)',label:'WATCH'},
-    {min:3.5,max:5.0,color:'rgba(251,191,36,0.03)',label:'SPLIT EXIT'},
-    {min:0,max:3.5,color:'rgba(239,68,68,0.03)',label:'EXIT LONG'},
+    {min:8.0,max:10,color:'rgba(34,197,94,0.15)',label:'FULL LONG'},
+    {min:7.0,max:8.0,color:'rgba(34,197,94,0.10)',label:'ADD LONG'},
+    {min:6.0,max:7.0,color:'rgba(134,239,172,0.06)',label:'SPLIT LONG'},
+    {min:5.0,max:6.0,color:'rgba(245,158,11,0.05)',label:'WATCH'},
+    {min:3.5,max:5.0,color:'rgba(245,158,11,0.08)',label:'SPLIT EXIT'},
+    {min:0,max:3.5,color:'rgba(239,68,68,0.12)',label:'EXIT LONG'},
   ];
   zones.forEach(z=>{
     const y1=pad.t+ph-(z.max-minS)/(maxS-minS)*ph;
