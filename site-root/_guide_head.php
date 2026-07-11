@@ -31,10 +31,10 @@ $__ghLangKeys = array_keys(SUPPORTED_LANGS);
 <style>
 /* ── 대시보드와 동일한 디자인 토큰 ── */
 :root{
-  --bg:#080808;--bg2:#0f0f0f;--bg3:#151515;--bg4:#1a1a1a;
-  --b1:rgba(255,255,255,0.06);--b2:rgba(255,255,255,0.11);--b3:rgba(255,255,255,0.18);
-  --t1:#f0f0f0;--t2:#aaaaaa;--t3:#666666;--t4:#252525;
-  --green:#4ade80;--yellow:#fbbf24;--orange:#fb923c;--red:#f87171;--blue:#60a5fa;
+  --bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;
+  --b1:rgba(255,255,255,0.07);--b2:rgba(255,255,255,0.12);--b3:rgba(255,255,255,0.18);
+  --t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;
+  --green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;
   --rad:12px;--rad-sm:8px;--rad-lg:16px;color-scheme:dark
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
