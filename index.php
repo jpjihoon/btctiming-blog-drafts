@@ -73,7 +73,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5}.logo span{color:#f59e0b}
+.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}
 .back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#1b1b21;
@@ -175,7 +175,7 @@ foreach ($__langKeys as $__l) {
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/" class="logo" id="logoLink">BTC<span>timing</span></a>
+  <a href="/" class="logo" id="logoLink"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <span class="back ko">← <a href="/" style="color:#71717a">실시간 분석으로 돌아가기</a></span>
   <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:#71717a">Back to Live Analysis</a></span>
   <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:#71717a">リアルタイム分析に戻る</a></span>
