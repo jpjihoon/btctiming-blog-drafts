@@ -1189,8 +1189,8 @@ function renderAll(ind) {
   // 모드 버튼 (언어 무관하게 동일 표기)
   const modeBuyEl=document.getElementById('modeBuy');
   const modeSellEl=document.getElementById('modeSell');
-  if(modeBuyEl) modeBuyEl.textContent='📈 LONG';
-  if(modeSellEl) modeSellEl.textContent='📉 SHORT';
+  if(modeBuyEl) modeBuyEl.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>LONG';
+  if(modeSellEl) modeSellEl.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>SHORT';
 
   // 사이드바 라벨 다국어화
   // 사이드바 라벨은 LANGS 사전(livePriceLabel/fgLabel/rpLabel/maLabel) 기반 → 전 언어 지원
@@ -1304,20 +1304,20 @@ function renderAll(ind) {
     const makeRow = (segs) => segs.map((seg) => {
       const active = sc >= seg.min && sc < seg.max;
       const segLabel = seg[currentLang] || seg.en;
-      return `<div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
-        background:${seg.bg};color:#f5f5f5;font-size:9px;gap:1px;padding:4px 2px;
-        cursor:default;border-radius:0;border-bottom:3px solid ${seg.color};
-        ${active?'outline:2px solid rgba(255,255,255,.55);outline-offset:-2px;font-weight:700;font-size:10px':''}">
-        <span style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center;color:#f5f5f5">${segLabel}</span>
-        <span style="font-size:7px;opacity:.75;color:#f5f5f5">${seg.s}</span>
+      return `<div style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+        background:${seg.bg};border-radius:8px;padding:8px 3px;
+        border:1.5px solid ${active?'var(--orange)':'transparent'};${active?'':'opacity:.9'}">
+        <span style="font-size:9px;font-weight:600;opacity:.9;color:${seg.color}">${seg.s}</span>
+        <span style="font-size:10.5px;font-weight:700;color:${seg.color};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-align:center">${segLabel}</span>
       </div>`;
     }).join('');
     abarEl.style.flexDirection = 'column';
     abarEl.style.height = 'auto';
     abarEl.style.overflow = 'visible';
+    abarEl.style.gap = '5px';
     abarEl.innerHTML =
-      `<div style="display:flex;border-radius:6px 6px 0 0;overflow:hidden;height:38px">${makeRow(top4)}</div>` +
-      `<div style="display:flex;border-radius:0 0 6px 6px;overflow:hidden;height:38px;margin-top:1px">${makeRow(bot3)}</div>`;
+      `<div style="display:flex;gap:5px">${makeRow(top4)}</div>` +
+      `<div style="display:flex;gap:5px">${makeRow(bot3)}</div>`;
   }
 
   // Mini stats

@@ -614,7 +614,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 
 /* ── MODE TOGGLE ── */
 .mode-toggle{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--bg4);border-radius:var(--rad-sm);padding:3px;flex-shrink:0}
-.mode-btn{padding:7px;border-radius:6px;text-align:center;cursor:pointer;font-size:11px;font-weight:600;color:var(--t2);transition:all .15s}
+.mode-btn{padding:7px;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;font-size:11px;font-weight:600;color:var(--t2);transition:all .15s}
 .mode-btn.active{background:var(--bg2);color:var(--t1)}
 .mode-btn.buy.active{color:var(--green)}
 .mode-btn.sell.active{color:var(--red)}
