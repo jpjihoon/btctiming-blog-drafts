@@ -267,7 +267,7 @@ foreach ($__langKeys as $__l) {
     $descVal  = fn($l) => $a["desc_{$l}"]  ?? ($a['desc_en']  ?? '');
     $readVal  = fn($l) => $a["read_{$l}"]  ?? ($a['read_en']  ?? '');
     // read 단위 표기 (언어별)
-    $readFmt = ['ko'=>fn($r)=>" · 약 {$r}분",'en'=>fn($r)=>" · ~{$r} min read",'ja'=>fn($r)=>" · 約{$r}分",'es'=>fn($r)=>" · ~{$r} min",'de'=>fn($r)=>" · ~{$r} Min.",'fr'=>fn($r)=>" · ~{$r} min",'pt'=>fn($r)=>" · ~{$r} min",'tr'=>fn($r)=>" · ~{$r} dk",'vi'=>fn($r)=>" · ~{$r} phút"];
+    $readFmt = ['ko'=>fn($r)=>$r===''?'':"📖 {$r}분 읽기",'en'=>fn($r)=>$r===''?'':"📖 {$r} min read",'ja'=>fn($r)=>$r===''?'':"📖 {$r}分で読める",'es'=>fn($r)=>$r===''?'':"📖 {$r} min de lectura",'de'=>fn($r)=>$r===''?'':"📖 {$r} Min. Lesezeit",'fr'=>fn($r)=>$r===''?'':"📖 {$r} min de lecture",'pt'=>fn($r)=>$r===''?'':"📖 {$r} min de leitura",'tr'=>fn($r)=>$r===''?'':"📖 {$r} dk okuma",'vi'=>fn($r)=>$r===''?'':"📖 {$r} phút đọc"];
     // 각 언어의 표시 클래스: ko는 "ko", 나머지는 "{lang}-show"
     $clsOf = fn($l) => ($l === 'ko') ? 'ko' : ($l . '-show');
     // 인라인 숨김: 서버가 렌더한 현재 언어($__blLang)면 숨기지 않는다(첫 화면부터 보이도록, 깜빡임 방지).
@@ -284,7 +284,7 @@ foreach ($__langKeys as $__l) {
         <?php foreach ($cardLangs as $l) echo '<div class="card-title '.$clsOf($l).'"'.$styOf($l).'>'.h($titleVal($l)).'</div>'; ?>
         <?php foreach ($cardLangs as $l) echo '<div class="card-desc '.$clsOf($l).'"'.$styOf($l).'>'.h($descVal($l)).'</div>'; ?>
         <div class="card-meta">
-          <span>📅 <?= h(displayDate($a['date'] ?? '')) ?></span>
+          <span class="card-date" data-date="<?= h($a['date'] ?? '') ?>">📅 <?= h(displayDate($a['date'] ?? '')) ?></span>
           <?php foreach ($cardLangs as $l) { $fmt = $readFmt[$l] ?? $readFmt['en']; echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($fmt($readVal($l))).'</span>'; } ?>
         </div>
       </div>
@@ -332,10 +332,32 @@ foreach ($__langKeys as $__l) {
 <script>window.BT_SUPPORTED_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;</script>
 <script src="/lang-common.js"></script>
 <script>
+function relTimeText(dateStr, lang){
+  try{
+    if(!dateStr) return null;
+    var d = new Date(dateStr.replace(' ','T')+'+09:00'); // KST 기준
+    if(isNaN(d.getTime())) return null;
+    var diff = (Date.now() - d.getTime())/1000; if(diff<0) diff=0;
+    if(!(typeof Intl!=='undefined' && Intl.RelativeTimeFormat)) return null;
+    var rtf = new Intl.RelativeTimeFormat(lang||'ko',{numeric:'auto'});
+    if(diff<60)       return '🕒 '+rtf.format(-Math.round(diff),'second');
+    if(diff<3600)     return '🕒 '+rtf.format(-Math.round(diff/60),'minute');
+    if(diff<86400)    return '🕒 '+rtf.format(-Math.round(diff/3600),'hour');
+    if(diff<7*86400)  return '🕒 '+rtf.format(-Math.round(diff/86400),'day');
+    return '📅 '+d.toLocaleDateString(lang||'ko',{year:'numeric',month:'2-digit',day:'2-digit'}); // 오래되면 날짜
+  }catch(e){ return null; }
+}
+function applyRelTimes(lang){
+  document.querySelectorAll('.card-date[data-date]').forEach(function(el){
+    var txt = relTimeText(el.getAttribute('data-date'), lang);
+    if(txt) el.textContent = txt;
+  });
+}
 function setLang(lang, doSave) {
   const root = document.getElementById('html-root');
   root.className = lang;
   root.lang = lang;
+  applyRelTimes(lang);
   const trigLabel = document.getElementById('langTriggerLabel');
   if(trigLabel) trigLabel.textContent = lang.toUpperCase();
   document.querySelectorAll('.lang-menu-item').forEach(el => {
@@ -607,5 +629,6 @@ try{
   },{passive:true});
 })();
 </script>
+<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');applyRelTimes((r&&r.className)||'ko');});</script>
 </body>
 </html>
