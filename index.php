@@ -618,11 +618,7 @@ function filterCat(cat){
   else if(cat!=='all') url+='?cat='+encodeURIComponent(cat);
   else if(ls) url+='?'+ls;
   location.href=url;
-} // 최초 로드 시 12개만 노출
-try {
-  const initCat = new URLSearchParams(location.search).get('cat');
-  if (initCat) filterCat(initCat);
-} catch(e){}
+} // 카테고리는 서버가 ?cat= 로 필터+활성탭 표시 (로드 시 filterCat 자동호출 금지 — 무한이동 방지)
 </script>
 <style>
 .blog-tabbar{display:none}
