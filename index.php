@@ -15,6 +15,7 @@
 // ═══════════════════════════════════════════════════════
 
 header('Content-Type: text/html; charset=utf-8');
+if(!headers_sent()){ header('Cache-Control: no-cache, must-revalidate'); }
 require_once __DIR__ . '/_articles.php';
 require_once __DIR__ . '/../config.php';
 @include_once __DIR__ . '/../coin_meta.php';
@@ -144,7 +145,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 <meta property="og:site_name" content="BTCtiming.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
-<style>
+<style>:root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
 .exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
 .exch-banner:hover{border-color:rgba(247,147,26,.7)}
 .exch-banner:active{transform:scale(.99)}
@@ -195,7 +196,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 .card-date{transition:opacity .12s}
 
 
-:root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
+
 
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
