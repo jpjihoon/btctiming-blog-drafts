@@ -280,15 +280,15 @@ $__footerShow = array_map(fn($l)=>'[lang="'.$l.'"] footer .'.$l, $__langKeys);
 echo implode(',', $__footerShow) . "{display:inline}\n";
 // 본문: body(html-root) className이 현재 언어. ko 외 언어일 때 .ko 숨김 + 해당 .{lang}-show 표시.
 // -show 스팬 기본 숨김(활성 언어만 아래에서 표시). inline display:none 제거해도 ko 뷰에서 안 새게.
-echo implode(',', array_map(fn($l)=>'.'.$l.'-show', array_filter($__langKeys, fn($l)=>$l!=='ko'))) . "{display:none}\n";
+echo implode(',', array_map(fn($l)=>'.'.$l.'-show', array_filter($__langKeys, fn($l)=>$l!=='ko'))) . "{display:none!important}\n";
 foreach ($__langKeys as $__l) {
     if ($__l === 'ko') continue;
-    echo '.' . $__l . ' .ko{display:none}';
-    echo '.' . $__l . ' .' . $__l . '-show{display:block}';
+    echo '.' . $__l . ' .ko{display:none!important}';
+    echo '.' . $__l . ' .' . $__l . '-show{display:block!important}';
     // 다른 언어의 -show는 숨김
     foreach ($__langKeys as $__o) {
         if ($__o === 'ko' || $__o === $__l) continue;
-        echo '.' . $__l . ' .' . $__o . '-show{display:none}';
+        echo '.' . $__l . ' .' . $__o . '-show{display:none!important}';
     }
     echo "\n";
 }
