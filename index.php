@@ -239,7 +239,7 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 .side-exch h4{font-size:14px;margin:0 0 4px}.side-exch p{font-size:11.5px;color:var(--t2);margin:0 0 10px}
 .side-exch .pct{color:var(--orange);font-weight:800}
 .side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
-@media(max-width:860px){.blog-side{margin-top:34px}}
+@media(max-width:860px){.wrap{display:flex;flex-direction:column}.blog-main{order:1}.blog-side{order:2;margin-top:34px}}
 
 .blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
 .blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
