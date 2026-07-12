@@ -317,10 +317,11 @@ body{overflow-anchor:none}
 .load-more:hover{border-color:rgba(247,147,26,.4);color:#f7931a;background:#1b1b21}
 #loadMoreCount{color:var(--t3);font-weight:400;margin-left:4px}
 
-.cta-main{background:linear-gradient(135deg,#1a1008,#141418);border:1px solid rgba(247,147,26,.25);border-radius:14px;padding:32px;margin-top:40px;text-align:center}
-.cta-main h2{font-size:1.15rem;margin-bottom:8px;color:#f2f2f5}
-.cta-main p{color:var(--t2);font-size:14px;margin-bottom:20px}
-.cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
+.cta-main{background:var(--bg2);border:1px solid var(--b1);border-radius:12px;padding:20px 24px;margin-top:40px;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.cta-tx{min-width:0}.cta-main h2{font-size:1rem;margin:0 0 4px;color:var(--t1);font-weight:700;line-height:1.35}
+.cta-main p{color:var(--t3);font-size:13px;margin:0;line-height:1.5}
+.cta-main a{flex-shrink:0;color:var(--orange);font-weight:700;font-size:13px;text-decoration:none;white-space:nowrap;padding:9px 16px;border:1px solid rgba(247,147,26,.3);border-radius:8px;transition:background .12s,border-color .12s}.cta-main a:hover{background:rgba(247,147,26,.1);border-color:rgba(247,147,26,.55)}
+@media(max-width:600px){.cta-main{flex-direction:column;align-items:flex-start;gap:14px}.cta-main a{align-self:stretch;text-align:center}}
 footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;font-size:11px;color:#666}
 /* 언어 전환 — [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 통일.
    푸터·본문 공통. SUPPORTED_LANGS 기반 자동 생성 → 언어 추가 시 이 파일 불변. */
@@ -472,6 +473,7 @@ endif; ?>
   
 
   <div class="cta-main">
+    <div class="cta-tx">
     <h2 class="ko">지금 비트코인 타이밍 실시간 확인하기</h2>
     <h2 class="en-show">Check Bitcoin Timing Score Live</h2>
     <h2 class="ja-show">今すぐビットコインタイミングをリアルタイムで確認</h2>
@@ -490,6 +492,7 @@ endif; ?>
     <p class="pt-show">Obtenha ao vivo uma pontuação de compra/venda de 0-10 combinando todos os indicadores acima — grátis.</p>
     <p class="tr-show">Yukarıdaki tüm göstergeleri birleştiren 0-10 alım/satım puanını canlı ve ücretsiz alın.</p>
     <p class="vi-show">Nhận điểm mua/bán 0–10 trực tiếp kết hợp tất cả các chỉ báo trên — miễn phí.</p>
+    </div>
     <a href="/" class="ko">실시간 분석 보러가기 →</a>
     <a href="/?lang=en" class="en-show">Go to Live Analysis →</a>
     <a href="/?lang=ja" class="ja-show">リアルタイム分析を見る →</a>
