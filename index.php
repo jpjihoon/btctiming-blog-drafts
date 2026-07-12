@@ -106,8 +106,6 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 
 .blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
 .blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
-/* 5-2 호버 시 살짝 확장(일반 카드만, 1줄 추가) */
-#articleGrid .article-card:not([data-idx="0"]):hover .card-desc{-webkit-line-clamp:4}
 /* FOUC 완화: 날짜는 JS 포맷 전 살짝 흐리게 → 적용되면 선명 */
 .card-date{transition:opacity .12s}
 
@@ -169,7 +167,7 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
   background:color-mix(in srgb, var(--cat-color,#f7931a) 16%, transparent);border-radius:5px;padding:2px 7px}
 .card-tag{font-size:11px;font-weight:700;color:var(--accent,#f7931a);letter-spacing:.06em;text-transform:uppercase}
 .card-title{font-size:1.08rem;font-weight:700;color:#f2f2f5;margin-bottom:6px;line-height:1.4}
-.card-desc{font-size:13.5px;color:var(--t2);line-height:1.6;margin-bottom:12px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;transition:-webkit-line-clamp .15s}
+.card-desc{font-size:13.5px;color:var(--t2);line-height:1.6;margin-bottom:12px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
 .card-meta{font-size:12px;color:var(--t3);display:flex;gap:12px;align-items:center}
 .card-arrow{flex-shrink:0;color:#3f3f46;font-size:18px;align-self:center;transition:transform .18s,color .18s}
 .article-card:hover .card-arrow{transform:translateX(3px);color:var(--accent,#f7931a)}
