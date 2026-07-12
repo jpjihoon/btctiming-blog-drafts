@@ -1,0 +1,420 @@
+<?php $slug = 'ripple-garlinghouse-near-shutdown-sec-lawsuit'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">브래드 갈링하우스 리플랩스 최고경영자(CEO)가 2020년 12월 미국 증권거래위원회(SEC)가 리플을 제소한 직후, 회사를 아예 청산하고 보유 중이던 XRP를 주주들에게 분배하는 방안을 공동창업자 크리스 라슨과 함께 진지하게 검토했다고 밝혔다. 코인데스크가 7월 12일 보도했다. 갈링하우스는 결국 SEC와 정면으로 맞서 싸우는 길을 택했다고 말했다. 이 결정 덕분에 수백 명의 일자리는 지켜냈지만, 4년에 걸친 소송에서 회사는 약 1억5000만 달러의 법률비용을 치러야 했다고 밝혔다.</p>
+<p class="en">Ripple Labs CEO Brad Garlinghouse said he and co-founder Chris Larsen seriously discussed shutting the company down entirely and distributing its XRP holdings directly to shareholders immediately after the U.S. Securities and Exchange Commission sued Ripple in December 2020, CoinDesk reported on July 12. Garlinghouse said the two ultimately chose to fight the SEC in court instead. That decision preserved hundreds of jobs, he said, but cost the company roughly $150 million in legal fees over four years of litigation.</p>
+<p class="ja">ブラッド・ガーリングハウス、リップル・ラボ最高経営責任者(CEO)は、2020年12月に米証券取引委員会(SEC)がリップルを提訴した直後、共同創業者クリス・ラーセンとともに、会社を清算して保有するXRPを株主に直接分配する案を真剣に検討していたと明らかにした。コインデスクが7月12日に報じた。ガーリングハウス氏は、最終的にSECと法廷で正面から争う道を選んだと語った。この決断により数百人分の雇用は守られたが、4年に及ぶ訴訟で会社は約1億5000万ドルの法務費用を負担することになったという。</p>
+<p class="es">El consejero delegado de Ripple Labs, Brad Garlinghouse, afirmó que él y el cofundador Chris Larsen debatieron seriamente cerrar la empresa por completo y repartir directamente sus tenencias de XRP entre los accionistas, justo después de que la Comisión de Bolsa y Valores de EE. UU. (SEC) demandara a Ripple en diciembre de 2020. CoinDesk informó de ello el 12 de julio. Garlinghouse dijo que finalmente optaron por enfrentarse a la SEC en los tribunales. Esa decisión preservó cientos de empleos, según afirmó, pero le costó a la empresa unos 150 millones de dólares en honorarios legales a lo largo de cuatro años de litigio.</p>
+<p class="de">Ripple-Labs-CEO Brad Garlinghouse erklärte, er und Mitgründer Chris Larsen hätten unmittelbar nach der Klage der US-Börsenaufsicht SEC gegen Ripple im Dezember 2020 ernsthaft erwogen, das Unternehmen vollständig zu schließen und seine XRP-Bestände direkt an die Aktionäre zu verteilen. Das berichtete CoinDesk am 12. Juli. Garlinghouse sagte, die beiden hätten sich letztlich entschieden, die SEC vor Gericht zu bekämpfen. Diese Entscheidung habe Hunderte Arbeitsplätze erhalten, so Garlinghouse, das Unternehmen aber im Laufe von vier Jahren Rechtsstreit rund 150 Millionen Dollar an Anwaltskosten gekostet.</p>
+<p class="fr">Le directeur général de Ripple Labs, Brad Garlinghouse, a déclaré que lui et le cofondateur Chris Larsen avaient sérieusement envisagé de fermer complètement l'entreprise et de distribuer directement ses avoirs en XRP aux actionnaires, juste après que la Securities and Exchange Commission (SEC) américaine a poursuivi Ripple en justice en décembre 2020. CoinDesk l'a rapporté le 12 juillet. Garlinghouse a indiqué qu'ils avaient finalement choisi d'affronter la SEC devant les tribunaux. Cette décision a permis de préserver des centaines d'emplois, a-t-il précisé, mais a coûté à l'entreprise environ 150 millions de dollars en frais juridiques sur quatre ans de procédure.</p>
+<p class="pt">O CEO da Ripple Labs, Brad Garlinghouse, afirmou que ele e o cofundador Chris Larsen discutiram seriamente encerrar totalmente a empresa e distribuir suas participações em XRP diretamente aos acionistas, logo após a Comissão de Valores Mobiliários dos EUA (SEC) processar a Ripple em dezembro de 2020. A CoinDesk noticiou o fato em 12 de julho. Garlinghouse disse que os dois acabaram optando por enfrentar a SEC na Justiça. Essa decisão preservou centenas de empregos, segundo ele, mas custou à empresa cerca de US$ 150 milhões em honorários advocatícios ao longo de quatro anos de litígio.</p>
+<p class="tr">Ripple Labs CEO'su Brad Garlinghouse, ABD Menkul Kıymetler ve Borsa Komisyonu'nun (SEC) Aralık 2020'de Ripple'a dava açmasının hemen ardından, kurucu ortağı Chris Larsen ile birlikte şirketi tamamen kapatıp elindeki XRP varlıklarını doğrudan hissedarlara dağıtmayı ciddi şekilde değerlendirdiklerini açıkladı. Haberi 12 Temmuz'da CoinDesk duyurdu. Garlinghouse, sonunda SEC'e karşı mahkemede mücadele etmeyi seçtiklerini söyledi. Bu kararın yüzlerce iş yerini koruduğunu ancak dört yıl süren dava sürecinde şirkete yaklaşık 150 milyon dolar hukuki masraf getirdiğini belirtti.</p>
+<p class="vi">Giám đốc điều hành Ripple Labs, Brad Garlinghouse, cho biết ông và đồng sáng lập Chris Larsen đã nghiêm túc cân nhắc việc đóng cửa hoàn toàn công ty và phân phối trực tiếp số XRP nắm giữ cho các cổ đông, ngay sau khi Ủy ban Chứng khoán và Giao dịch Mỹ (SEC) kiện Ripple vào tháng 12/2020. CoinDesk đưa tin này vào ngày 12/7. Garlinghouse nói rằng cuối cùng cả hai đã chọn cách đối đầu với SEC tại tòa án. Quyết định đó đã giữ được hàng trăm việc làm, ông cho biết, nhưng khiến công ty phải chi khoảng 150 triệu đô la phí pháp lý trong suốt bốn năm tranh tụng.</p>
+
+<h2 class="ko">왜 '청산'이 선택지에 올랐나 — SEC 제소가 던진 실존적 위협</h2>
+<h2 class="en">Why liquidation was even on the table — the existential threat of the SEC complaint</h2>
+<h2 class="ja">なぜ「清算」が選択肢に上ったのか — SEC提訴が突きつけた存亡の危機</h2>
+<h2 class="es">Por qué la liquidación llegó a estar sobre la mesa: la amenaza existencial de la demanda de la SEC</h2>
+<h2 class="de">Warum eine Liquidation überhaupt zur Debatte stand — die existenzielle Bedrohung durch die SEC-Klage</h2>
+<h2 class="fr">Pourquoi la liquidation était sur la table : la menace existentielle de la plainte de la SEC</h2>
+<h2 class="pt">Por que a liquidação chegou a ser cogitada — a ameaça existencial da ação da SEC</h2>
+<h2 class="tr">Tasfiye neden gündeme geldi — SEC davasının varoluşsal tehdidi</h2>
+<h2 class="vi">Vì sao thanh lý từng được cân nhắc — mối đe dọa sống còn từ đơn kiện của SEC</h2>
+
+<p class="ko">SEC는 2020년 12월 22일 리플랩스와 갈링하우스, 라슨을 상대로 소송을 제기하면서, 리플이 2013년부터 등록 절차 없이 XRP를 판매해 13억 달러 이상을 조달했으며 이는 미등록 증권 발행에 해당한다고 주장했다. 제소 직후 코인베이스와 크라켄 등 주요 미국 거래소들이 잇달아 XRP 거래를 정지하거나 상장폐지했고, XRP 시가총액은 단기간에 급락했다. 스타트업이 정부 기관을 상대로 이 정도 규모의 소송에서 패소하면 회사 자체가 문을 닫아야 하는 경우가 드물지 않다는 점에서, 청산이라는 선택지는 결코 과장된 위기의식이 아니었다.</p>
+<p class="en">The SEC's Dec. 22, 2020 complaint against Ripple Labs, Garlinghouse and Larsen alleged the company had raised more than $1.3 billion since 2013 through unregistered sales of XRP, characterizing the token sales as an unregistered securities offering. Within days, major U.S. exchanges including Coinbase and Kraken suspended or delisted XRP trading, and the token's market capitalization dropped sharply. For a startup, losing a case of this scale against a federal regulator is often an existential event that ends the company outright — which is why liquidation was never a far-fetched contingency to have on the table.</p>
+<p class="ja">SECは2020年12月22日、リップル・ラボとガーリングハウス氏、ラーセン氏を相手取り訴訟を提起し、リップルが2013年以降、登録手続きを経ずにXRPを販売して13億ドル以上を調達したとし、これを未登録証券発行に該当すると主張した。提訴から数日のうちに、コインベースやクラーケンなど米国の主要取引所が相次いでXRP取引を停止・上場廃止し、XRPの時価総額は急落した。スタートアップが連邦規制当局を相手にこの規模の訴訟に敗れれば、そのまま会社が消滅することも珍しくない。清算という選択肢は決して大げさな危機感などではなかった。</p>
+<p class="es">La demanda de la SEC del 22 de diciembre de 2020 contra Ripple Labs, Garlinghouse y Larsen alegaba que la empresa había recaudado más de 1.300 millones de dólares desde 2013 mediante ventas no registradas de XRP, calificando esas ventas como una oferta de valores no registrada. En cuestión de días, importantes exchanges estadounidenses como Coinbase y Kraken suspendieron o retiraron el listado del XRP, y la capitalización de mercado del token cayó de forma abrupta. Para una startup, perder un caso de esta magnitud frente a un regulador federal suele ser un hecho existencial que acaba directamente con la empresa, razón por la cual la liquidación nunca fue una posibilidad descabellada.</p>
+<p class="de">Die SEC-Klage vom 22. Dezember 2020 gegen Ripple Labs, Garlinghouse und Larsen behauptete, das Unternehmen habe seit 2013 durch nicht registrierte Verkäufe von XRP mehr als 1,3 Milliarden Dollar eingenommen, und stufte diese Verkäufe als nicht registriertes Wertpapierangebot ein. Innerhalb weniger Tage setzten große US-Börsen wie Coinbase und Kraken den XRP-Handel aus oder delisteten das Token, und die Marktkapitalisierung brach stark ein. Für ein Start-up ist der Verlust eines Verfahrens dieser Größenordnung gegen eine Bundesbehörde oft ein existenzieller Vorgang, der das Unternehmen unmittelbar beendet — weshalb eine Liquidation keineswegs eine weit hergeholte Option war.</p>
+<p class="fr">La plainte déposée par la SEC le 22 décembre 2020 contre Ripple Labs, Garlinghouse et Larsen alléguait que l'entreprise avait levé plus de 1,3 milliard de dollars depuis 2013 grâce à des ventes non enregistrées de XRP, qualifiant ces ventes d'offre de titres non enregistrée. En quelques jours, de grandes bourses américaines comme Coinbase et Kraken ont suspendu ou retiré le XRP de leurs plateformes, et la capitalisation boursière du jeton a chuté fortement. Pour une start-up, perdre une affaire de cette ampleur face à un régulateur fédéral met souvent un terme pur et simple à l'entreprise — c'est pourquoi la liquidation n'était en rien une hypothèse exagérée.</p>
+<p class="pt">A ação movida pela SEC em 22 de dezembro de 2020 contra a Ripple Labs, Garlinghouse e Larsen alegava que a empresa havia arrecadado mais de US$ 1,3 bilhão desde 2013 por meio de vendas não registradas de XRP, classificando essas vendas como uma oferta de valores mobiliários não registrada. Em poucos dias, grandes corretoras americanas como Coinbase e Kraken suspenderam ou retiraram o XRP de listagem, e a capitalização de mercado do token despencou. Para uma startup, perder um caso dessa magnitude contra um órgão regulador federal costuma ser um evento existencial capaz de encerrar a empresa por completo — por isso a liquidação nunca foi uma hipótese exagerada.</p>
+<p class="tr">SEC'in 22 Aralık 2020'de Ripple Labs, Garlinghouse ve Larsen'e karşı açtığı davada, şirketin 2013'ten bu yana kayıt dışı XRP satışları yoluyla 1,3 milyar dolardan fazla fon topladığı ve bu satışların kayıt dışı bir menkul kıymet arzı niteliğinde olduğu iddia edildi. Dava açıldıktan birkaç gün sonra Coinbase ve Kraken gibi büyük ABD borsaları XRP işlemlerini durdurdu veya listeden kaldırdı, tokenin piyasa değeri sert şekilde düştü. Bir girişimin federal bir düzenleyiciye karşı bu ölçekte bir davayı kaybetmesi genellikle şirketin doğrudan kapanmasıyla sonuçlanan varoluşsal bir olaydır — bu yüzden tasfiye hiçbir zaman abartılı bir ihtimal değildi.</p>
+<p class="vi">Đơn kiện của SEC ngày 22/12/2020 nhắm vào Ripple Labs, Garlinghouse và Larsen cáo buộc công ty đã huy động hơn 1,3 tỷ đô la kể từ năm 2013 thông qua các đợt bán XRP chưa đăng ký, coi các đợt bán token này là một hình thức chào bán chứng khoán chưa đăng ký. Chỉ trong vài ngày, các sàn giao dịch lớn của Mỹ như Coinbase và Kraken đã tạm dừng hoặc hủy niêm yết giao dịch XRP, khiến vốn hóa thị trường của token này sụt giảm mạnh. Đối với một startup, việc thua một vụ kiện có quy mô như vậy trước một cơ quan quản lý liên bang thường là sự kiện mang tính sống còn, có thể khiến công ty đóng cửa hoàn toàn — đó là lý do vì sao thanh lý chưa bao giờ là một khả năng viển vông.</p>
+
+<p class="ko">이런 우려가 과장이 아니었다는 점은 비슷한 시기 텔레그램의 사례가 뒷받침한다. SEC는 2020년 텔레그램의 토큰 프로젝트 TON에 대해 긴급 금지명령을 받아냈고, 텔레그램은 결국 법정 다툼을 포기하고 12억 달러 넘는 투자금을 환불한 뒤 프로젝트를 완전히 접었다. 리플의 상황은 텔레그램보다 복잡했다. XRP는 이미 수백 개 거래소에 상장돼 유통되고 있었고, 리플 네트워크 위에서 실제 결제 서비스를 운영하는 은행·송금업체 고객들이 존재했기 때문에, 회사를 접는다는 것은 단순한 사업 철수가 아니라 이미 시장에 풀린 자산과 인프라를 어떻게 처리할지에 대한 훨씬 복잡한 문제였다. 그럼에도 두 창업자가 '청산 후 XRP 분배'를 하나의 실행 가능한 시나리오로 검토했다는 사실은, SEC의 미등록 증권 소송이 실제로 기업의 생사를 가르는 무기로 쓰였다는 것을 보여준다.</p>
+<p class="en">The concern was not overblown — Telegram's experience around the same period underscores that. The SEC won an emergency injunction against Telegram's TON token project in 2020, and Telegram ultimately abandoned the legal fight, refunded more than $1.2 billion to investors, and shut the project down entirely. Ripple's situation was more complicated than Telegram's: XRP was already listed and trading across hundreds of exchanges, and banks and remittance companies were running live payment services on top of the Ripple network. Winding the company down would not have been a simple business exit but a far messier question of what to do with an asset and infrastructure already loose in the market. Even so, the fact that the two founders treated "liquidate and distribute XRP" as a workable scenario shows how the SEC's unregistered-securities lawsuit functioned, in practice, as a weapon capable of deciding a company's survival.</p>
+<p class="ja">この懸念が誇張ではなかったことは、ほぼ同時期のテレグラムの事例が裏付けている。SECは2020年、テレグラムのトークンプロジェクトTONに対して緊急差し止め命令を勝ち取り、テレグラムは結局法廷闘争を諦め、12億ドル超の投資金を返還したうえでプロジェクトを完全に畳んだ。リップルの状況はテレグラムより複雑だった。XRPはすでに数百の取引所に上場・流通しており、リップルのネットワーク上で実際に決済サービスを運営する銀行や送金業者の顧客が存在していたからだ。会社を畳むということは単なる事業撤退ではなく、すでに市場に出回っている資産とインフラをどう処理するかという、はるかに複雑な問題だった。それでも、二人の創業者が「清算後にXRPを分配する」という案を実行可能なシナリオとして検討していたという事実は、SECの未登録証券訴訟が実際に企業の存亡を左右する武器として機能していたことを示している。</p>
+<p class="es">Esta preocupación no era exagerada, algo que respalda el caso de Telegram por las mismas fechas. La SEC obtuvo una orden judicial de emergencia contra el proyecto de token TON de Telegram en 2020, y Telegram finalmente abandonó la batalla legal, devolvió más de 1.200 millones de dólares a los inversores y cerró el proyecto por completo. La situación de Ripple era más compleja que la de Telegram: XRP ya cotizaba en cientos de exchanges, y existían bancos y empresas de remesas que operaban servicios de pago reales sobre la red de Ripple. Cerrar la empresa no habría sido una simple salida de negocio, sino una cuestión mucho más enrevesada sobre qué hacer con un activo e infraestructura ya presentes en el mercado. Aun así, el hecho de que ambos fundadores consideraran "liquidar y distribuir XRP" como un escenario viable demuestra que la demanda de valores no registrados de la SEC funcionó, en la práctica, como un arma capaz de decidir la supervivencia de una empresa.</p>
+<p class="de">Diese Sorge war nicht übertrieben, wie der Fall Telegram aus derselben Zeit zeigt. Die SEC erwirkte 2020 eine einstweilige Verfügung gegen Telegrams Token-Projekt TON, und Telegram gab den Rechtsstreit schließlich auf, erstattete Investoren mehr als 1,2 Milliarden Dollar und stellte das Projekt vollständig ein. Ripples Situation war komplizierter als die von Telegram: XRP war bereits an Hunderten von Börsen gelistet und im Umlauf, und Banken sowie Zahlungsdienstleister betrieben reale Zahlungsdienste auf dem Ripple-Netzwerk. Das Unternehmen abzuwickeln wäre kein einfacher Geschäftsausstieg gewesen, sondern eine weit kompliziertere Frage, was mit einem bereits im Markt zirkulierenden Vermögenswert und der zugehörigen Infrastruktur geschehen sollte. Dennoch zeigt die Tatsache, dass die beiden Gründer „liquidieren und XRP verteilen" als machbares Szenario in Betracht zogen, wie die SEC-Klage wegen nicht registrierter Wertpapiere in der Praxis als eine Waffe fungierte, die über das Überleben eines Unternehmens entscheiden konnte.</p>
+<p class="fr">Cette inquiétude n'était pas exagérée, comme le confirme le cas de Telegram à la même époque. La SEC a obtenu une injonction d'urgence contre le projet de jeton TON de Telegram en 2020, et Telegram a finalement abandonné la bataille juridique, remboursé plus de 1,2 milliard de dollars aux investisseurs et fermé complètement le projet. La situation de Ripple était plus complexe que celle de Telegram : le XRP était déjà coté et échangé sur des centaines de bourses, et des banques ainsi que des sociétés de transfert d'argent exploitaient de véritables services de paiement sur le réseau Ripple. Fermer l'entreprise n'aurait pas été une simple sortie d'activité, mais une question bien plus complexe de gestion d'un actif et d'une infrastructure déjà en circulation sur le marché. Malgré tout, le fait que les deux fondateurs aient envisagé « liquider et distribuer le XRP » comme un scénario viable montre que la plainte de la SEC pour titres non enregistrés a, dans les faits, servi d'arme capable de décider de la survie d'une entreprise.</p>
+<p class="pt">Essa preocupação não era exagerada — o caso do Telegram, na mesma época, confirma isso. A SEC obteve uma liminar de emergência contra o projeto de token TON do Telegram em 2020, e o Telegram acabou desistindo da batalha judicial, devolveu mais de US$ 1,2 bilhão aos investidores e encerrou o projeto por completo. A situação da Ripple era mais complexa do que a do Telegram: o XRP já estava listado e sendo negociado em centenas de corretoras, e havia bancos e empresas de remessas operando serviços reais de pagamento sobre a rede Ripple. Encerrar a empresa não seria uma simples saída de negócio, mas uma questão bem mais complicada sobre o que fazer com um ativo e uma infraestrutura já em circulação no mercado. Ainda assim, o fato de os dois fundadores terem considerado "liquidar e distribuir o XRP" como um cenário viável mostra como a ação da SEC por valores não registrados funcionou, na prática, como uma arma capaz de decidir a sobrevivência de uma empresa.</p>
+<p class="tr">Bu endişenin abartı olmadığını, aynı döneme denk gelen Telegram örneği de doğruluyor. SEC, 2020'de Telegram'ın TON token projesine karşı acil bir tedbir kararı aldı ve Telegram sonunda hukuki mücadeleden vazgeçerek yatırımcılara 1,2 milyar dolardan fazla para iade etti ve projeyi tamamen kapattı. Ripple'ın durumu Telegram'a göre daha karmaşıktı: XRP zaten yüzlerce borsada listelenmiş ve işlem görüyordu, bankalar ve para transfer şirketleri Ripple ağı üzerinde gerçek ödeme hizmetleri yürütüyordu. Şirketi kapatmak basit bir işten çekilme değil, piyasaya çoktan yayılmış bir varlık ve altyapıyla ne yapılacağına dair çok daha karmaşık bir sorun olurdu. Yine de iki kurucunun "tasfiye edip XRP'yi dağıtmayı" uygulanabilir bir senaryo olarak değerlendirmiş olması, SEC'in kayıt dışı menkul kıymet davasının pratikte bir şirketin hayatta kalıp kalamayacağını belirleyen bir silah olarak işlediğini gösteriyor.</p>
+<p class="vi">Mối lo ngại này không hề bị thổi phồng — trường hợp của Telegram cùng thời điểm đó đã chứng minh điều đó. SEC đã giành được lệnh cấm khẩn cấp đối với dự án token TON của Telegram vào năm 2020, và cuối cùng Telegram từ bỏ cuộc chiến pháp lý, hoàn trả hơn 1,2 tỷ đô la cho nhà đầu tư và đóng cửa hoàn toàn dự án. Tình huống của Ripple phức tạp hơn Telegram: XRP đã được niêm yết và giao dịch trên hàng trăm sàn, và có các ngân hàng, công ty chuyển tiền đang vận hành dịch vụ thanh toán thực tế trên nền mạng lưới Ripple. Đóng cửa công ty sẽ không phải là một cuộc rút lui kinh doanh đơn giản, mà là một vấn đề phức tạp hơn nhiều về việc xử lý một tài sản và hạ tầng đã lưu hành sẵn trên thị trường. Dù vậy, việc hai nhà sáng lập từng cân nhắc "thanh lý và phân phối XRP" như một kịch bản khả thi cho thấy vụ kiện chứng khoán chưa đăng ký của SEC, trên thực tế, đã hoạt động như một vũ khí có khả năng quyết định sự sống còn của một công ty.</p>
+
+<h2 class="ko">토레스 판사의 '반쪽 승리'와 2년 더 이어진 불확실성</h2>
+<h2 class="en">Judge Torres's split ruling — and two more years of uncertainty</h2>
+<h2 class="ja">トレス判事の「半分の勝利」と、さらに2年続いた不確実性</h2>
+<h2 class="es">El fallo dividido de la jueza Torres, y dos años más de incertidumbre</h2>
+<h2 class="de">Richterin Torres' geteiltes Urteil — und zwei weitere Jahre der Unsicherheit</h2>
+<h2 class="fr">Le jugement partagé de la juge Torres, et deux années d'incertitude supplémentaires</h2>
+<h2 class="pt">A decisão dividida da juíza Torres — e mais dois anos de incerteza</h2>
+<h2 class="tr">Yargıç Torres'in 'yarım zafer' kararı ve iki yıl daha süren belirsizlik</h2>
+<h2 class="vi">Phán quyết chia đôi của thẩm phán Torres — và thêm hai năm bất định</h2>
+
+<p class="ko">2023년 7월, 뉴욕남부지방법원의 애널리사 토레스 판사는 절반의 승리와 절반의 패배가 뒤섞인 판결을 내렸다. 리플이 코인베이스 등 거래소를 통해 일반 투자자에게 판매한 '프로그래매틱 세일'은 투자자가 리플이라는 특정 판매자로부터 직접 구매한 것이 아니어서 하위 테스트(Howey test)의 '공동사업에 대한 투자' 요건을 충족하지 못한다며 증권이 아니라고 판단했다. 반면 리플이 헤지펀드 등 기관투자자에게 직접 판매한 XRP는 계약을 통해 리플의 사업 성과에 대한 기대를 명시적으로 형성했다는 점에서 미등록 증권 판매에 해당한다고 봤다. XRP 자체가 아니라 '어떻게 팔았는가'에 따라 증권 여부가 갈린다는 이 구분은 이후 다른 크립토 소송에서도 널리 인용되는 판례가 됐다.</p>
+<p class="en">In July 2023, Judge Analisa Torres of the Southern District of New York issued a mixed ruling. She found that Ripple's "programmatic sales" of XRP to retail investors through exchanges like Coinbase were not securities, because buyers had not purchased directly from Ripple and so did not satisfy the Howey test's requirement of an investment in a common enterprise. But she ruled that XRP sold directly to institutional buyers such as hedge funds did constitute an unregistered securities offering, since those contracts explicitly created an expectation tied to Ripple's business efforts. That distinction — that whether a token counts as a security can hinge on how it was sold rather than on the token itself — became a widely cited precedent in subsequent crypto litigation.</p>
+<p class="ja">2023年7月、ニューヨーク南部地区連邦地方裁判所のアナリサ・トレス判事は、勝敗が入り混じった判決を下した。同判事は、リップルがコインベースなどの取引所を通じて一般投資家に販売した「プログラマティックセール」については、購入者がリップルという特定の売り手から直接購入したわけではないため、ハウィーテストの「共同事業への投資」要件を満たさず、証券には当たらないと判断した。一方で、ヘッジファンドなど機関投資家に直接販売したXRPについては、契約を通じてリップルの事業成果への期待が明示的に形成されたとして、未登録証券の販売に該当すると判断した。トークン自体ではなく「どう売られたか」によって証券該当性が分かれるというこの区分は、その後の他の暗号資産訴訟でも広く引用される判例となった。</p>
+<p class="es">En julio de 2023, la jueza Analisa Torres, del Distrito Sur de Nueva York, emitió un fallo mixto. Determinó que las "ventas programáticas" de XRP de Ripple a inversores minoristas a través de exchanges como Coinbase no constituían valores, porque los compradores no habían comprado directamente a Ripple y, por tanto, no cumplían el requisito de "inversión en una empresa común" del test de Howey. Sin embargo, dictaminó que el XRP vendido directamente a compradores institucionales, como fondos de cobertura, sí constituía una oferta de valores no registrada, ya que esos contratos generaban explícitamente una expectativa vinculada al desempeño empresarial de Ripple. Esa distinción —que la condición de valor de un token puede depender de cómo se vendió, y no del token en sí— se convirtió en un precedente ampliamente citado en litigios cripto posteriores.</p>
+<p class="de">Im Juli 2023 fällte Richterin Analisa Torres vom Southern District of New York ein gemischtes Urteil. Sie befand, dass Ripples „programmatische Verkäufe" von XRP an Kleinanleger über Börsen wie Coinbase keine Wertpapiere seien, da die Käufer nicht direkt von Ripple gekauft hatten und somit das Erfordernis einer „Investition in ein gemeinsames Unternehmen" des Howey-Tests nicht erfüllten. Direkt an institutionelle Käufer wie Hedgefonds verkaufte XRP stufte sie hingegen als nicht registriertes Wertpapierangebot ein, da diese Verträge ausdrücklich eine an Ripples Geschäftserfolg gekoppelte Erwartung schufen. Diese Unterscheidung — dass die Einordnung als Wertpapier von der Verkaufsart und nicht vom Token selbst abhängen kann — wurde zu einem in späteren Krypto-Verfahren häufig zitierten Präzedenzfall.</p>
+<p class="fr">En juillet 2023, la juge Analisa Torres, du district sud de New York, a rendu une décision mitigée. Elle a jugé que les « ventes programmatiques » de XRP de Ripple à des investisseurs particuliers via des bourses comme Coinbase ne constituaient pas des titres, les acheteurs n'ayant pas acheté directement auprès de Ripple et ne remplissant donc pas l'exigence d'« investissement dans une entreprise commune » du test de Howey. En revanche, elle a estimé que le XRP vendu directement à des acheteurs institutionnels, comme des fonds spéculatifs, constituait bien une offre de titres non enregistrée, ces contrats créant explicitement une attente liée aux performances commerciales de Ripple. Cette distinction — selon laquelle le statut de titre d'un jeton peut dépendre de la manière dont il a été vendu plutôt que du jeton lui-même — est devenue un précédent largement cité dans des litiges cryptographiques ultérieurs.</p>
+<p class="pt">Em julho de 2023, a juíza Analisa Torres, do Distrito Sul de Nova York, proferiu uma decisão mista. Ela considerou que as "vendas programáticas" de XRP feitas pela Ripple a investidores de varejo por meio de corretoras como a Coinbase não constituíam valores mobiliários, pois os compradores não haviam comprado diretamente da Ripple e, portanto, não atendiam ao requisito de "investimento em um empreendimento comum" do teste de Howey. Já o XRP vendido diretamente a compradores institucionais, como fundos de hedge, foi considerado uma oferta de valores mobiliários não registrada, já que esses contratos criavam explicitamente uma expectativa vinculada ao desempenho comercial da Ripple. Essa distinção — de que a classificação de um token como valor mobiliário pode depender de como ele foi vendido, e não do token em si — tornou-se um precedente amplamente citado em litígios cripto posteriores.</p>
+<p class="tr">Temmuz 2023'te New York Güney Bölgesi Federal Mahkemesi'nden Yargıç Analisa Torres, karışık bir karar verdi. Ripple'ın Coinbase gibi borsalar aracılığıyla perakende yatırımcılara yaptığı "programatik satışların" menkul kıymet sayılmayacağına hükmetti; çünkü alıcılar doğrudan Ripple'dan satın almamıştı ve bu da Howey testinin "ortak bir girişime yatırım" şartını karşılamıyordu. Buna karşılık, hedge fonlar gibi kurumsal alıcılara doğrudan satılan XRP'nin, bu sözleşmelerin Ripple'ın iş performansına açıkça bağlı bir beklenti yarattığı gerekçesiyle kayıt dışı bir menkul kıymet arzı teşkil ettiğine karar verdi. Bir tokenin menkul kıymet sayılıp sayılmayacağının tokenin kendisinden çok nasıl satıldığına bağlı olabileceğine dair bu ayrım, sonraki kripto davalarında sıkça atıfta bulunulan bir emsal haline geldi.</p>
+<p class="vi">Vào tháng 7/2023, thẩm phán Analisa Torres thuộc Tòa án Liên bang Khu vực Nam New York đã đưa ra một phán quyết pha trộn. Bà cho rằng các "đợt bán theo chương trình" (programmatic sales) XRP của Ripple cho nhà đầu tư cá nhân qua các sàn như Coinbase không phải là chứng khoán, vì người mua không mua trực tiếp từ Ripple nên không đáp ứng yêu cầu "đầu tư vào một doanh nghiệp chung" của bài kiểm tra Howey. Tuy nhiên, bà phán quyết rằng XRP bán trực tiếp cho các nhà đầu tư tổ chức như quỹ đầu cơ là một hình thức chào bán chứng khoán chưa đăng ký, vì các hợp đồng đó tạo ra kỳ vọng rõ ràng gắn với kết quả kinh doanh của Ripple. Sự phân biệt đó — rằng việc một token có bị coi là chứng khoán hay không có thể phụ thuộc vào cách nó được bán chứ không phải bản thân token — đã trở thành tiền lệ được viện dẫn rộng rãi trong các vụ kiện tiền mã hóa sau này.</p>
+
+<p class="ko">그러나 이 판결이 곧바로 리플의 완전한 승리를 의미하지는 않았다. SEC는 즉시 항소 의사를 밝혔고, 리플 역시 기관 판매 부분에 대한 패소를 다투며 교차항소에 나서면서 소송은 2년 가까이 더 이어졌다. 이 기간 동안 리플은 여전히 미확정 벌금 규모와 항소심 결과라는 불확실성을 안은 채 사업을 운영해야 했다. 결국 2025년 들어 SEC 지도부 교체 이후 새 위원회가 항소를 철회하기로 하면서 소송은 최종적으로 마무리됐고, 리플은 애초 SEC가 요구했던 20억 달러에 크게 못 미치는 1억2500만 달러의 민사벌금에 합의했다. 즉 시장이 '리플이 이겼다'고 받아들인 2023년 판결 이후에도, 회사는 완전한 법적 종결까지 2년 가까운 시간과 추가 소송 비용을 더 감당해야 했던 셈이다. 이는 크립토 기업이 규제당국과의 소송에서 1심 승소가 곧 사업 불확실성의 종료를 의미하지 않는다는 점을 보여주는 사례이기도 하다.</p>
+<p class="en">The ruling did not immediately mean a clean win for Ripple. The SEC signaled it would appeal, and Ripple filed a cross-appeal disputing the loss on institutional sales, keeping the case alive for nearly two more years. Throughout that period, Ripple had to keep operating under the unresolved uncertainty of an undetermined penalty and a pending appeal. The case was only finally closed after the SEC's leadership changed in 2025 and the new commission decided to drop the appeal, with Ripple agreeing to a $125 million civil penalty — far below the roughly $2 billion the SEC had originally sought. In other words, even after the 2023 ruling the market widely read as a Ripple win, the company still had to absorb nearly two more years of legal costs and uncertainty before the case was truly over. That gap is itself a reminder that a first-instance win in a crypto company's fight with a regulator doesn't automatically end the business uncertainty.</p>
+<p class="ja">しかし、この判決が直ちにリップルの完全勝利を意味したわけではない。SECは直ちに控訴の意向を示し、リップルも機関投資家向け販売部分での敗訴を争って交差控訴に踏み切ったため、訴訟はさらに2年近く続いた。この間、リップルは未確定の罰金額と控訴審の行方という不確実性を抱えたまま事業を続けなければならなかった。結局、2025年にSEC指導部が交代した後、新体制が控訴を取り下げることを決め訴訟はようやく終結し、リップルは当初SECが求めていた20億ドルを大きく下回る1億2500万ドルの民事罰金で合意した。つまり、市場が「リップルの勝利」と受け止めた2023年判決の後も、会社は完全な法的決着まで2年近い時間と追加の訴訟費用を負担し続けなければならなかったということだ。これは、暗号資産企業が規制当局との訴訟で一審に勝っても、それがそのまま事業上の不確実性の終わりを意味するわけではないことを示す事例でもある。</p>
+<p class="es">El fallo no significó de inmediato una victoria clara para Ripple. La SEC anunció que apelaría, y Ripple también presentó una apelación cruzada disputando su derrota en las ventas institucionales, lo que mantuvo el caso abierto casi dos años más. Durante ese periodo, Ripple tuvo que seguir operando bajo la incertidumbre no resuelta de una sanción indeterminada y una apelación pendiente. El caso solo se cerró definitivamente después de que la dirección de la SEC cambiara en 2025 y la nueva comisión decidiera retirar la apelación, con Ripple aceptando una sanción civil de 125 millones de dólares, muy por debajo de los cerca de 2.000 millones que la SEC había pedido originalmente. Es decir, incluso después del fallo de 2023, que el mercado interpretó ampliamente como una victoria de Ripple, la empresa tuvo que absorber casi dos años más de costos legales e incertidumbre antes de que el caso realmente terminara. Ese desfase es en sí mismo un recordatorio de que ganar en primera instancia frente a un regulador no pone fin automáticamente a la incertidumbre de un negocio cripto.</p>
+<p class="de">Das Urteil bedeutete nicht sofort einen klaren Sieg für Ripple. Die SEC signalisierte, Berufung einzulegen, und auch Ripple legte eine Anschlussberufung gegen die Niederlage bei den institutionellen Verkäufen ein, wodurch der Fall fast zwei weitere Jahre offen blieb. In dieser Zeit musste Ripple weiter unter der ungelösten Unsicherheit einer noch nicht festgelegten Strafe und eines anhängigen Berufungsverfahrens operieren. Der Fall wurde erst endgültig abgeschlossen, nachdem sich die SEC-Führung 2025 änderte und die neue Kommission entschied, die Berufung fallen zu lassen; Ripple stimmte einer Zivilstrafe von 125 Millionen Dollar zu — weit unter den ursprünglich von der SEC geforderten rund 2 Milliarden Dollar. Mit anderen Worten: Selbst nach dem Urteil von 2023, das der Markt weithin als Ripple-Sieg wertete, musste das Unternehmen noch fast zwei weitere Jahre Rechtskosten und Unsicherheit tragen, bevor der Fall wirklich beendet war. Diese Lücke erinnert daran, dass ein erstinstanzlicher Sieg im Streit eines Krypto-Unternehmens mit einer Regulierungsbehörde die geschäftliche Unsicherheit nicht automatisch beendet.</p>
+<p class="fr">Le jugement n'a pas immédiatement signifié une victoire nette pour Ripple. La SEC a annoncé qu'elle ferait appel, et Ripple a également déposé un appel incident contestant sa défaite sur les ventes institutionnelles, prolongeant l'affaire de près de deux années supplémentaires. Pendant cette période, Ripple a dû continuer à fonctionner sous l'incertitude non résolue d'une sanction encore indéterminée et d'un appel en instance. L'affaire ne s'est définitivement conclue qu'après le changement de direction de la SEC en 2025, lorsque la nouvelle commission a décidé de retirer son appel, Ripple acceptant alors une sanction civile de 125 millions de dollars, bien en deçà des quelque 2 milliards de dollars initialement réclamés par la SEC. Autrement dit, même après le jugement de 2023 largement perçu par le marché comme une victoire de Ripple, l'entreprise a dû absorber près de deux années supplémentaires de frais juridiques et d'incertitude avant que l'affaire ne soit véritablement close. Cet écart rappelle qu'une victoire en première instance face à un régulateur ne met pas automatiquement fin à l'incertitude commerciale d'une entreprise crypto.</p>
+<p class="pt">A decisão não representou de imediato uma vitória clara para a Ripple. A SEC sinalizou que recorreria, e a própria Ripple entrou com um recurso cruzado contestando a derrota nas vendas institucionais, mantendo o caso aberto por quase mais dois anos. Durante esse período, a Ripple teve de continuar operando sob a incerteza não resolvida de uma multa ainda indefinida e de um recurso pendente. O caso só foi definitivamente encerrado depois que a liderança da SEC mudou em 2025 e a nova comissão decidiu retirar o recurso, com a Ripple concordando com uma multa civil de US$ 125 milhões — bem abaixo dos cerca de US$ 2 bilhões originalmente exigidos pela SEC. Ou seja, mesmo após a decisão de 2023, amplamente interpretada pelo mercado como uma vitória da Ripple, a empresa ainda teve de arcar com quase dois anos a mais de custos legais e incerteza até o caso realmente se encerrar. Esse intervalo é, em si, um lembrete de que uma vitória em primeira instância contra um regulador não encerra automaticamente a incerteza de um negócio cripto.</p>
+<p class="tr">Karar, Ripple için hemen net bir zafer anlamına gelmedi. SEC temyize gideceğini belirtti, Ripple da kurumsal satışlardaki kaybına itiraz ederek karşı temyiz başvurusunda bulundu ve böylece dava neredeyse iki yıl daha sürdü. Bu süre boyunca Ripple, henüz belirlenmemiş bir ceza ve bekleyen bir temyiz sürecinin yarattığı çözülmemiş belirsizlik altında faaliyetlerini sürdürmek zorunda kaldı. Dava, ancak 2025'te SEC yönetimi değiştikten ve yeni komisyon temyizi geri çekmeye karar verdikten sonra nihayet kapandı; Ripple, SEC'in başlangıçta talep ettiği yaklaşık 2 milyar doların çok altında, 125 milyon dolarlık bir hukuki cezayı kabul etti. Başka bir deyişle, piyasanın Ripple'ın zaferi olarak yorumladığı 2023 kararından sonra bile şirket, dava gerçekten kapanana kadar yaklaşık iki yıl daha hukuki masraf ve belirsizlik yükünü taşımak zorunda kaldı. Bu boşluk, bir kripto şirketinin düzenleyiciyle olan davasında ilk derece zaferinin, iş belirsizliğinin otomatik olarak sona ermesi anlamına gelmediğini hatırlatıyor.</p>
+<p class="vi">Phán quyết này không đồng nghĩa ngay với chiến thắng trọn vẹn cho Ripple. SEC tuyên bố sẽ kháng cáo, còn Ripple cũng nộp đơn kháng cáo ngược lại phần thua liên quan đến bán cho tổ chức, khiến vụ kiện kéo dài thêm gần hai năm nữa. Trong suốt giai đoạn đó, Ripple vẫn phải vận hành công ty trong tình trạng bất định chưa được giải quyết về mức phạt chưa xác định và kháng cáo còn treo lơ lửng. Vụ việc chỉ thực sự khép lại sau khi ban lãnh đạo SEC thay đổi vào năm 2025 và ủy ban mới quyết định rút đơn kháng cáo, với việc Ripple đồng ý nộp khoản phạt dân sự 125 triệu đô la — thấp hơn nhiều so với khoảng 2 tỷ đô la mà SEC ban đầu yêu cầu. Nói cách khác, ngay cả sau phán quyết năm 2023 mà thị trường rộng rãi xem là chiến thắng của Ripple, công ty vẫn phải gánh chịu gần hai năm chi phí pháp lý và bất định nữa trước khi vụ kiện thực sự kết thúc. Khoảng cách đó tự nó là lời nhắc nhở rằng một chiến thắng ở cấp sơ thẩm trong cuộc chiến giữa một công ty tiền mã hóa và cơ quan quản lý không tự động chấm dứt sự bất định trong kinh doanh.</p>
+
+<h2 class="ko">1억5000만 달러의 대가 — 그리고 지금 이 얘기를 꺼낸 이유</h2>
+<h2 class="en">The $150 million price of survival — and why this story is surfacing now</h2>
+<h2 class="ja">1億5000万ドルの代償 — そして今この話が語られる理由</h2>
+<h2 class="es">El precio de 150 millones de dólares por sobrevivir — y por qué esta historia sale a la luz ahora</h2>
+<h2 class="de">Der Preis des Überlebens: 150 Millionen Dollar — und warum diese Geschichte jetzt auftaucht</h2>
+<h2 class="fr">Le prix de la survie : 150 millions de dollars — et pourquoi cette histoire ressort maintenant</h2>
+<h2 class="pt">O preço de US$ 150 milhões pela sobrevivência — e por que essa história vem à tona agora</h2>
+<h2 class="tr">Hayatta kalmanın 150 milyon dolarlık bedeli — ve bu hikaye neden şimdi gündeme geldi</h2>
+<h2 class="vi">Cái giá 150 triệu đô la của sự sống sót — và vì sao câu chuyện này được kể lúc này</h2>
+
+<p class="ko">갈링하우스가 밝힌 수치를 나란히 놓아보면 이 결정의 손익계산이 뚜렷해진다. 4년의 소송에 약 1억5000만 달러의 법률비용을 쓴 끝에, 최종 합의금은 1억2500만 달러였다. 즉 리플은 소송을 치르는 데 든 비용과 거의 맞먹는 금액을 벌금으로도 지불한 셈이다. 반대로 청산 시나리오를 택했다면 이 비용 자체는 아꼈겠지만, 수백 명의 일자리가 사라지고 리플랩스라는 기업과 리플 네트워크 위에 이미 구축된 결제 인프라, RLUSD 스테이블코인 사업 등 이후 몇 년간 쌓아 올린 모든 것이 애초에 존재하지 않았을 것이다. 갈링하우스의 발언은 결국 '버티는 데 든 값'을 사후적으로 계량화해 보여준 셈이다.</p>
+<p class="en">Placing Garlinghouse's numbers side by side makes the calculus of that decision concrete. Ripple spent roughly $150 million in legal fees over four years of litigation, only to then pay a $125 million settlement — meaning the company paid out a penalty nearly as large as what it spent simply fighting the case. Had it chosen liquidation instead, it would have avoided that cost, but hundreds of jobs would have disappeared, and Ripple Labs as a company — along with the payment infrastructure built on the Ripple network and, later, its RLUSD stablecoin business — would never have existed in the years since. Garlinghouse's comments essentially quantify, after the fact, the price of holding on.</p>
+<p class="ja">ガーリングハウス氏が明かした数字を並べてみると、この決断の損得勘定がはっきりする。4年間の訴訟に約1億5000万ドルの法務費用を投じた末、最終的な和解金は1億2500万ドルだった。つまりリップルは、訴訟遂行にかかった費用とほぼ同額を罰金としても支払ったことになる。逆に清算という選択肢を取っていれば、この費用自体は節約できただろうが、数百人分の雇用が失われ、リップル・ラボという企業や、リップルのネットワーク上にすでに構築されていた決済インフラ、その後のRLUSDステーブルコイン事業など、その後数年間で積み上げてきたものすべてが最初から存在しなかったことになる。ガーリングハウス氏の発言は結局、「持ちこたえるためにかかったコスト」を事後的に数値化して示したものだといえる。</p>
+<p class="es">Al poner en paralelo las cifras reveladas por Garlinghouse, el cálculo de esa decisión se vuelve concreto. Ripple gastó unos 150 millones de dólares en honorarios legales a lo largo de cuatro años de litigio, para acabar pagando un acuerdo de 125 millones de dólares, es decir, la empresa pagó una sanción casi tan grande como lo que gastó simplemente en librar el caso. Si hubiera optado por la liquidación, se habría ahorrado ese coste, pero cientos de empleos habrían desaparecido, y Ripple Labs como empresa —junto con la infraestructura de pagos construida sobre la red de Ripple y, más tarde, su negocio de la stablecoin RLUSD— nunca habría existido en los años posteriores. Las declaraciones de Garlinghouse cuantifican, a posteriori, el precio de haber aguantado.</p>
+<p class="de">Stellt man Garlinghouses Zahlen nebeneinander, wird die Kalkulation dieser Entscheidung greifbar. Ripple gab über vier Jahre Rechtsstreit rund 150 Millionen Dollar an Anwaltskosten aus, um am Ende einen Vergleich über 125 Millionen Dollar zu zahlen — das Unternehmen zahlte also eine Strafe, die fast so hoch war wie das, was es allein für die Führung des Verfahrens ausgab. Hätte man sich stattdessen für die Liquidation entschieden, wäre diese Kosten vermieden worden, doch Hunderte Arbeitsplätze wären verschwunden, und Ripple Labs als Unternehmen — samt der auf dem Ripple-Netzwerk aufgebauten Zahlungsinfrastruktur und später des RLUSD-Stablecoin-Geschäfts — hätte es in den folgenden Jahren nie gegeben. Garlinghouses Aussagen beziffern im Nachhinein im Grunde den Preis des Durchhaltens.</p>
+<p class="fr">En mettant en parallèle les chiffres révélés par Garlinghouse, le calcul de cette décision devient concret. Ripple a dépensé environ 150 millions de dollars en frais juridiques sur quatre ans de procédure, pour finalement payer un règlement de 125 millions de dollars — l'entreprise a donc versé une amende presque aussi élevée que ce qu'elle a dépensé simplement pour mener l'affaire. En optant pour la liquidation, elle aurait évité ce coût, mais des centaines d'emplois auraient disparu, et Ripple Labs en tant qu'entreprise — avec l'infrastructure de paiement bâtie sur le réseau Ripple et, plus tard, son activité de stablecoin RLUSD — n'aurait jamais existé au cours des années suivantes. Les propos de Garlinghouse quantifient donc, a posteriori, le prix de la persévérance.</p>
+<p class="pt">Colocando os números revelados por Garlinghouse lado a lado, o cálculo dessa decisão fica concreto. A Ripple gastou cerca de US$ 150 milhões em honorários advocatícios ao longo de quatro anos de litígio, apenas para depois pagar um acordo de US$ 125 milhões — ou seja, a empresa pagou uma multa quase tão alta quanto o que gastou simplesmente para litigar o caso. Se tivesse optado pela liquidação, teria evitado esse custo, mas centenas de empregos teriam desaparecido, e a Ripple Labs como empresa — junto com a infraestrutura de pagamentos construída sobre a rede Ripple e, mais tarde, seu negócio de stablecoin RLUSD — nunca teria existido nos anos seguintes. As declarações de Garlinghouse basicamente quantificam, a posteriori, o preço de ter resistido.</p>
+<p class="tr">Garlinghouse'un açıkladığı rakamları yan yana koyduğumuzda bu kararın hesabı somutlaşıyor. Ripple, dört yıllık dava sürecinde yaklaşık 150 milyon dolar hukuki masraf harcadı, ardından 125 milyon dolarlık bir uzlaşma bedeli ödedi — yani şirket, davayı yürütmek için harcadığı miktara neredeyse eşit büyüklükte bir ceza da ödemiş oldu. Tasfiyeyi seçmiş olsaydı bu maliyetten kaçınabilirdi, ancak yüzlerce iş yeri ortadan kalkar ve Ripple Labs şirketi — Ripple ağı üzerine kurulan ödeme altyapısı ve daha sonraki RLUSD stabilcoin işi dahil — sonraki yıllarda hiç var olmazdı. Garlinghouse'un sözleri sonuç olarak "dayanmanın bedelini" geriye dönük olarak sayısallaştırıyor.</p>
+<p class="vi">Khi đặt các con số mà Garlinghouse tiết lộ cạnh nhau, phép tính của quyết định đó trở nên cụ thể. Ripple đã chi khoảng 150 triệu đô la phí pháp lý trong bốn năm tranh tụng, để rồi sau đó trả một khoản dàn xếp 125 triệu đô la — nghĩa là công ty đã trả một khoản phạt gần bằng số tiền họ chi chỉ để theo đuổi vụ kiện. Nếu chọn thanh lý, họ đã tránh được chi phí đó, nhưng hàng trăm việc làm sẽ biến mất, và Ripple Labs với tư cách một công ty — cùng hạ tầng thanh toán xây dựng trên mạng lưới Ripple và sau này là mảng kinh doanh stablecoin RLUSD — sẽ chưa từng tồn tại trong những năm sau đó. Phát biểu của Garlinghouse về cơ bản đã lượng hóa, sau khi mọi chuyện đã qua, cái giá của việc trụ vững.</p>
+
+<p class="ko">이 일화가 지금 다시 조명받는 배경에는 달라진 규제 환경이 있다. SEC는 지난 3월 17일 상품선물거래위원회(CFTC)와 공동으로 비트코인·이더리움·솔라나와 함께 XRP를 '디지털 상품'으로 분류하는 해석지침을 발표하며 입장을 크게 선회했다. 4년 전만 해도 회사의 존속 여부를 걸어야 했던 것과 같은 종류의 규제 리스크가, 지금은 명확한 상품 분류를 통해 상당 부분 해소된 셈이다. 갈링하우스의 회고는 단순한 무용담이 아니라, 규제 리스크가 크립토 기업의 생존을 실제로 좌우할 수 있다는 경고이자, 동시에 지금 SEC나 다른 당국을 상대로 소송 중인 크립토 기업들에게 '버티면 결국 규제 환경이 바뀔 수 있다'는 메시지로도 읽힌다. 다만 이런 유리한 국면이 향후 행정부나 SEC 지도부 교체에 따라 다시 뒤집힐 수 있다는 점은, 이 이야기가 남긴 낙관과 별개로 여전히 지켜봐야 할 변수다.</p>
+<p class="en">The reason this anecdote is drawing attention now lies in how much the regulatory environment has shifted. On March 17, the SEC jointly issued an interpretive release with the Commodity Futures Trading Commission classifying XRP as a "digital commodity" alongside bitcoin, ether and solana — a major reversal from its earlier posture. The kind of regulatory risk that once put the company's survival on the line has, in large part, been resolved through that clear commodity classification. Garlinghouse's recollection reads as more than a war story: it's a warning that regulatory risk can genuinely determine whether a crypto company survives, and at the same time a message to companies currently fighting the SEC or other regulators that holding on may eventually be rewarded by a shifting regulatory landscape. That said, this favorable turn could still reverse with a future change in administration or SEC leadership — a variable worth watching regardless of the optimism this story carries.</p>
+<p class="ja">この逸話が今あらためて注目される背景には、規制環境の大きな変化がある。SECは3月17日、商品先物取引委員会(CFTC)と共同で、ビットコイン・イーサリアム・ソラナとともにXRPを「デジタル商品」に分類する解釈指針を発表し、従来の立場から大きく方向転換した。4年前には会社の存続そのものを賭けなければならなかった類の規制リスクは、今や明確な商品分類によってかなりの部分が解消されたことになる。ガーリングハウス氏の回顧は単なる武勇伝ではなく、規制リスクが暗号資産企業の存続を実際に左右し得るという警鐘であり、同時に現在SECや他の当局と係争中の暗号資産企業に対して「持ちこたえれば規制環境がやがて変わり得る」というメッセージとしても読める。もっとも、こうした有利な局面が今後の政権交代やSEC指導部の交代によって再び覆される可能性がある点は、この話がもたらす楽観とは別に、依然として注視すべき変数である。</p>
+<p class="es">El motivo por el que esta anécdota atrae ahora la atención radica en cuánto ha cambiado el entorno regulatorio. El 17 de marzo, la SEC emitió conjuntamente con la Comisión de Negociación de Futuros de Materias Primas (CFTC) una guía interpretativa que clasifica al XRP como "mercancía digital" junto con bitcoin, ether y solana, un giro importante respecto a su postura anterior. El tipo de riesgo regulatorio que en su día puso en juego la supervivencia de la empresa se ha resuelto, en gran medida, gracias a esa clara clasificación como mercancía. El recuerdo de Garlinghouse se lee como algo más que una anécdota de guerra: es una advertencia de que el riesgo regulatorio puede determinar de verdad si una empresa cripto sobrevive, y a la vez un mensaje para las empresas que hoy litigan contra la SEC u otros reguladores de que aguantar puede acabar siendo recompensado por un panorama regulatorio cambiante. Dicho esto, este giro favorable podría revertirse con un futuro cambio de administración o de liderazgo en la SEC, una variable que sigue mereciendo atención más allá del optimismo que transmite esta historia.</p>
+<p class="de">Der Grund, warum diese Anekdote jetzt Aufmerksamkeit erregt, liegt darin, wie sehr sich das regulatorische Umfeld verändert hat. Am 17. März veröffentlichte die SEC gemeinsam mit der Commodity Futures Trading Commission (CFTC) eine Auslegungsmitteilung, die XRP neben Bitcoin, Ether und Solana als „digitales Rohstoffgut" einstuft — eine deutliche Kehrtwende gegenüber ihrer früheren Haltung. Die Art von regulatorischem Risiko, die einst das Überleben des Unternehmens aufs Spiel setzte, ist durch diese klare Warenklassifizierung inzwischen größtenteils aufgelöst. Garlinghouses Rückblick liest sich als mehr als nur eine Kriegsgeschichte: Er ist eine Warnung, dass regulatorisches Risiko tatsächlich über das Überleben eines Krypto-Unternehmens entscheiden kann, und zugleich eine Botschaft an Unternehmen, die aktuell gegen die SEC oder andere Behörden kämpfen, dass Durchhalten sich letztlich durch ein sich wandelndes regulatorisches Umfeld auszahlen kann. Allerdings könnte sich diese günstige Wendung mit einem künftigen Regierungs- oder SEC-Führungswechsel wieder umkehren — eine Variable, die unabhängig vom Optimismus dieser Geschichte im Blick zu behalten ist.</p>
+<p class="fr">Si cette anecdote attire l'attention aujourd'hui, c'est en raison de l'ampleur du changement du contexte réglementaire. Le 17 mars, la SEC a publié conjointement avec la Commodity Futures Trading Commission (CFTC) une note interprétative classant le XRP comme une « marchandise numérique », aux côtés du bitcoin, de l'ether et du solana — un virage majeur par rapport à sa position antérieure. Le type de risque réglementaire qui mettait autrefois en jeu la survie de l'entreprise a été, en grande partie, résolu par cette classification claire en tant que marchandise. Le récit de Garlinghouse se lit comme bien plus qu'une simple anecdote de guerre : c'est un avertissement selon lequel le risque réglementaire peut réellement déterminer la survie d'une entreprise crypto, et en même temps un message adressé aux entreprises actuellement en conflit avec la SEC ou d'autres régulateurs, selon lequel tenir bon peut finir par être récompensé par l'évolution du paysage réglementaire. Cela dit, ce virage favorable pourrait encore s'inverser avec un futur changement d'administration ou de direction à la SEC — une variable à surveiller malgré l'optimisme que dégage cette histoire.</p>
+<p class="pt">O motivo pelo qual esse relato está chamando atenção agora está relacionado à intensidade da mudança no ambiente regulatório. Em 17 de março, a SEC emitiu, em conjunto com a Commodity Futures Trading Commission (CFTC), uma diretriz interpretativa classificando o XRP como uma "mercadoria digital", ao lado de bitcoin, ether e solana — uma guinada significativa em relação à sua postura anterior. O tipo de risco regulatório que uma vez colocou a sobrevivência da empresa em jogo foi, em grande parte, resolvido por essa classificação clara como mercadoria. A lembrança de Garlinghouse soa como algo mais do que uma história de guerra: é um alerta de que o risco regulatório pode, de fato, determinar se uma empresa cripto sobrevive, e ao mesmo tempo uma mensagem para empresas atualmente em litígio com a SEC ou outros reguladores de que resistir pode acabar sendo recompensado por um cenário regulatório em mudança. Dito isso, essa guinada favorável ainda pode ser revertida com uma futura mudança de governo ou de liderança na SEC — uma variável que merece atenção, independentemente do otimismo que essa história carrega.</p>
+<p class="tr">Bu anekdotun şimdi yeniden dikkat çekmesinin arkasında, düzenleyici ortamın ne kadar değiştiği yatıyor. SEC, 17 Mart'ta Emtia Vadeli İşlemler Ticaret Komisyonu (CFTC) ile birlikte XRP'yi bitcoin, ether ve solana ile birlikte "dijital emtia" olarak sınıflandıran bir yorum genelgesi yayımlayarak önceki tutumundan büyük bir dönüş yaptı. Bir zamanlar şirketin varlığını tehlikeye atan türden düzenleyici risk, bu net emtia sınıflandırmasıyla büyük ölçüde çözülmüş oldu. Garlinghouse'un anlattıkları sadece bir savaş hikayesinden fazlası: düzenleyici riskin bir kripto şirketinin hayatta kalıp kalmayacağını gerçekten belirleyebileceğine dair bir uyarı ve aynı zamanda şu anda SEC veya diğer düzenleyicilerle mücadele eden şirketlere, dayanmanın sonunda değişen düzenleyici ortam tarafından ödüllendirilebileceğine dair bir mesaj olarak da okunabilir. Yine de bu olumlu dönüşün gelecekte bir yönetim veya SEC liderliği değişikliğiyle tekrar tersine dönebileceği, bu hikayenin taşıdığı iyimserlikten bağımsız olarak izlenmesi gereken bir değişken olarak duruyor.</p>
+<p class="vi">Lý do câu chuyện này thu hút sự chú ý ngay lúc này nằm ở mức độ thay đổi của môi trường pháp lý. Vào ngày 17/3, SEC đã cùng Ủy ban Giao dịch Hàng hóa Tương lai (CFTC) ban hành một hướng dẫn diễn giải xếp XRP vào nhóm "hàng hóa số" cùng với bitcoin, ether và solana — một sự đảo chiều lớn so với lập trường trước đây. Loại rủi ro pháp lý từng đặt sự sống còn của công ty lên bàn cân giờ đây phần lớn đã được giải quyết nhờ việc phân loại hàng hóa rõ ràng đó. Hồi tưởng của Garlinghouse không chỉ đơn thuần là một câu chuyện chiến trận: đó là lời cảnh báo rằng rủi ro pháp lý thực sự có thể quyết định một công ty tiền mã hóa có tồn tại hay không, đồng thời cũng là thông điệp gửi đến các công ty hiện đang đấu tranh với SEC hay các cơ quan quản lý khác rằng việc trụ vững cuối cùng có thể được đền đáp khi bối cảnh pháp lý thay đổi. Tuy vậy, bước ngoặt thuận lợi này vẫn có thể đảo ngược nếu chính quyền hoặc ban lãnh đạo SEC thay đổi trong tương lai — một biến số vẫn cần được theo dõi, bất kể sự lạc quan mà câu chuyện này mang lại.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">SEC 대 리플 소송 타임라인 (2020~2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2020.12</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC 제소</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">청산 검토 시작</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2023.7</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">토레스 판사</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">'반쪽 승리' 판결</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC 항소 철회</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">$1.25억 벌금 합의</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2026.3</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">디지털 상품</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">공식 분류</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">$1.5억</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">4년간 소송 비용</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(갈링하우스 밝힘)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">$1.25억</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">최종 민사벌금</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC 최초 요구 $20억)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">코인데스크·SEC 공개 자료 기준. 소송비용은 갈링하우스 CEO가 인터뷰에서 언급한 근사치.</p>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Timeline: SEC v. Ripple (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Dec 2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC sues</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">shutdown weighed</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Jul 2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Judge Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">split ruling</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC drops appeal</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">$125M settlement</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Mar 2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Digital commodity</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">classification</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">$150M</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">4-year legal cost</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(per Garlinghouse)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">$125M</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">final civil penalty</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC sought $2B)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Based on CoinDesk reporting and public SEC records. Legal-cost figure is Garlinghouse's approximation from the interview.</p>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">SEC対リップル訴訟タイムライン (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2020.12</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC提訴</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">清算検討開始</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2023.7</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">トレス判事</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">「半分の勝利」判決</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC控訴取り下げ</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">1.25億ドル和解</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2026.3</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">デジタル商品</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">正式分類</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">1.5億ドル</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">4年間の訴訟費用</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(ガーリングハウス氏発言)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">1.25億ドル</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">最終民事罰金</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC当初要求は20億ドル)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">コインデスク報道およびSEC公開資料に基づく。訴訟費用はガーリングハウス氏がインタビューで述べた概算値。</p>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronología: SEC contra Ripple (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Dic 2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC demanda</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">se evalúa cierre</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Jul 2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Jueza Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">fallo mixto</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC retira apelación</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">acuerdo $125M</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Mar 2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Mercancía digital</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">clasificación</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">$150M</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">costo legal (4 años)</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(según Garlinghouse)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">$125M</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">sanción civil final</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC pidió $2.000M)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Basado en la cobertura de CoinDesk y registros públicos de la SEC. La cifra de costo legal es la aproximación de Garlinghouse en la entrevista.</p>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Zeitleiste: SEC gegen Ripple (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Dez 2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC klagt</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">Liquidation erwogen</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Jul 2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Richterin Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">geteiltes Urteil</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC zieht Berufung zurück</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">125-Mio.-$-Vergleich</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Mär 2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Digitales Rohstoffgut</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">Einstufung</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">150 Mio. $</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">Rechtskosten (4 Jahre)</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(laut Garlinghouse)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">125 Mio. $</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">finale Zivilstrafe</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC forderte 2 Mrd. $)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Basierend auf CoinDesk-Berichterstattung und öffentlichen SEC-Unterlagen. Die Rechtskosten sind Garlinghouses Näherungswert aus dem Interview.</p>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Chronologie : SEC contre Ripple (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Déc 2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">La SEC poursuit</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">fermeture envisagée</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Juil 2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Juge Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">jugement partagé</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">La SEC abandonne l'appel</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">règlement 125M$</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Mar 2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Marchandise numérique</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">classification</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">150 M$</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">frais juridiques (4 ans)</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(selon Garlinghouse)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">125 M$</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">sanction civile finale</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(la SEC réclamait 2 Mds$)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">D'après les informations de CoinDesk et les dossiers publics de la SEC. Le coût juridique est l'approximation donnée par Garlinghouse lors de l'entretien.</p>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Linha do tempo: SEC vs. Ripple (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Dez 2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC processa</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">cogita encerramento</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Jul 2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Juíza Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">decisão dividida</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC retira recurso</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">acordo de US$ 125M</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Mar 2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Mercadoria digital</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">classificação</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">US$ 150M</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">custo legal (4 anos)</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(segundo Garlinghouse)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">US$ 125M</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">multa civil final</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC pediu US$ 2 bi)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Com base na reportagem da CoinDesk e em registros públicos da SEC. O custo legal é a aproximação de Garlinghouse na entrevista.</p>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Zaman çizelgesi: SEC - Ripple davası (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Ara 2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC dava açtı</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">tasfiye değerlendirildi</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Tem 2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Yargıç Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">bölünmüş karar</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC temyizi geri çekti</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">125M$ uzlaşma</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">Mar 2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Dijital emtia</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">sınıflandırması</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">150M$</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">4 yıllık hukuki masraf</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(Garlinghouse'a göre)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">125M$</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">nihai hukuki ceza</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC 2 milyar $ istemişti)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">CoinDesk haberleri ve kamuya açık SEC kayıtlarına dayanmaktadır. Hukuki masraf rakamı Garlinghouse'un röportajdaki tahminidir.</p>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Dòng thời gian: SEC kiện Ripple (2020-2025)</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="120" x2="640" y2="120" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="90" cy="120" r="9" fill="#f87171"/>
+    <text x="90" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">T12/2020</text>
+    <text x="90" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC khởi kiện</text>
+    <text x="90" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">cân nhắc đóng cửa</text>
+    <circle cx="290" cy="120" r="9" fill="#fbbf24"/>
+    <text x="290" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">T7/2023</text>
+    <text x="290" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Thẩm phán Torres</text>
+    <text x="290" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">phán quyết chia đôi</text>
+    <circle cx="470" cy="120" r="9" fill="#38bdf8"/>
+    <text x="470" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">2025</text>
+    <text x="470" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">SEC rút kháng cáo</text>
+    <text x="470" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">dàn xếp 125 triệu $</text>
+    <circle cx="620" cy="120" r="9" fill="#4ade80"/>
+    <text x="620" y="90" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">T3/2026</text>
+    <text x="620" y="150" fill="#d4d4d8" font-size="13" text-anchor="middle">Hàng hóa số</text>
+    <text x="620" y="168" fill="#a1a1aa" font-size="12" text-anchor="middle">được phân loại</text>
+    <rect x="90" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="200" y="260" fill="#f87171" font-size="26" font-weight="800" text-anchor="middle">150 triệu $</text>
+    <text x="200" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">chi phí pháp lý (4 năm)</text>
+    <text x="200" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(theo Garlinghouse)</text>
+    <rect x="390" y="230" width="220" height="90" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="500" y="260" fill="#fbbf24" font-size="26" font-weight="800" text-anchor="middle">125 triệu $</text>
+    <text x="500" y="285" fill="#d4d4d8" font-size="13" text-anchor="middle">khoản phạt dân sự cuối cùng</text>
+    <text x="500" y="303" fill="#a1a1aa" font-size="12" text-anchor="middle">(SEC yêu cầu 2 tỷ $)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Dựa trên tường thuật của CoinDesk và hồ sơ công khai của SEC. Số liệu chi phí pháp lý là ước tính của Garlinghouse trong buổi phỏng vấn.</p>
+</div>
+
+<div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 규제당국을 상대로 여전히 소송 중인 다른 크립토 기업들(코인베이스 관련 소송 등)이 이번 사례처럼 '버티기' 전략을 택할지, (2) 향후 미국 행정부나 SEC 지도부 교체 시 '디지털 상품' 분류가 다시 뒤집힐 가능성이 있는지, (3) 리플이 절약한 자원을 RLUSD 스테이블코인과 XRPL 결제 인프라 확장에 얼마나 더 투입하는지 여부다.</div>
+<div class="box en">💡 <strong>What to watch now:</strong> (1) whether other crypto companies still litigating against regulators choose a similarly stubborn "fight it out" strategy; (2) whether the "digital commodity" classification could be reversed by a future change in the U.S. administration or SEC leadership; and (3) how much of the resources Ripple no longer has to spend on litigation get redirected into expanding its RLUSD stablecoin and XRPL payment infrastructure.</div>
+<div class="box ja">💡 <strong>今後注視すべきこと:</strong> (1) 規制当局と依然係争中の他の暗号資産企業(コインベース関連訴訟など)が今回と同様の「持久戦」戦略を選ぶかどうか、(2) 今後の米政権交代やSEC指導部交代によって「デジタル商品」分類が再び覆される可能性があるか、(3) リップルが浮いた資源をRLUSDステーブルコインやXRPL決済インフラの拡大にどれだけ振り向けるか、である。</div>
+<div class="box es">💡 <strong>Qué vigilar ahora:</strong> (1) si otras empresas cripto que aún litigan contra reguladores (como el caso de Coinbase) optan por una estrategia igual de tenaz de "aguantar hasta el final"; (2) si la clasificación de "mercancía digital" podría revertirse con un futuro cambio de administración o de liderazgo en la SEC; y (3) cuánto de los recursos que Ripple ya no destina a litigios se redirige a expandir su stablecoin RLUSD y su infraestructura de pagos XRPL.</div>
+<div class="box de">💡 <strong>Worauf jetzt zu achten ist:</strong> (1) ob andere Krypto-Unternehmen, die noch gegen Regulierungsbehörden prozessieren (etwa im Coinbase-Fall), eine ähnlich hartnäckige „Durchhalte"-Strategie wählen; (2) ob die Einstufung als „digitales Rohstoffgut" durch einen künftigen Regierungs- oder SEC-Führungswechsel wieder gekippt werden könnte; und (3) wie viel der bei Ripple frei gewordenen Ressourcen in den Ausbau des RLUSD-Stablecoins und der XRPL-Zahlungsinfrastruktur fließt.</div>
+<div class="box fr">💡 <strong>À surveiller maintenant :</strong> (1) si d'autres entreprises crypto encore en procès contre des régulateurs (comme dans l'affaire Coinbase) adoptent une stratégie tout aussi tenace de « résistance jusqu'au bout » ; (2) si la classification en « marchandise numérique » pourrait être inversée par un futur changement d'administration ou de direction à la SEC ; et (3) dans quelle mesure les ressources que Ripple ne consacre plus au contentieux sont réorientées vers l'expansion de son stablecoin RLUSD et de son infrastructure de paiement XRPL.</div>
+<div class="box pt">💡 <strong>O que observar agora:</strong> (1) se outras empresas cripto ainda em litígio contra reguladores (como no caso da Coinbase) optam por uma estratégia igualmente obstinada de "resistir até o fim"; (2) se a classificação como "mercadoria digital" pode ser revertida por uma futura mudança de governo ou de liderança na SEC; e (3) quanto dos recursos que a Ripple deixou de gastar em litígios está sendo redirecionado para expandir sua stablecoin RLUSD e sua infraestrutura de pagamentos XRPL.</div>
+<div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) düzenleyicilerle hâlâ dava süren diğer kripto şirketlerinin (Coinbase davası gibi) benzer bir inatçı "sonuna kadar mücadele et" stratejisini seçip seçmeyeceği; (2) "dijital emtia" sınıflandırmasının gelecekte bir ABD yönetimi veya SEC liderliği değişikliğiyle tersine dönüp dönmeyeceği; ve (3) Ripple'ın artık davaya harcamadığı kaynakların ne kadarının RLUSD stabilcoin'i ve XRPL ödeme altyapısını genişletmeye yönlendirileceğidir.</div>
+<div class="box vi">💡 <strong>Điều cần theo dõi lúc này:</strong> (1) liệu các công ty tiền mã hóa khác vẫn đang kiện tụng với cơ quan quản lý (như vụ Coinbase) có chọn chiến lược "chiến đấu đến cùng" ngoan cường tương tự hay không; (2) liệu việc phân loại "hàng hóa số" có thể bị đảo ngược khi chính quyền Mỹ hoặc ban lãnh đạo SEC thay đổi trong tương lai hay không; và (3) bao nhiêu phần nguồn lực mà Ripple không còn phải chi cho kiện tụng sẽ được chuyển hướng sang mở rộng stablecoin RLUSD và hạ tầng thanh toán XRPL.</div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">관련 배경은 <a href="/sec-digital-commodity-interpretive-release.php">SEC "대부분 크립토는 증권 아니다" 공식 해석 발표</a> 기사에서도 다뤘다. 출처: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive, SEC.gov 소송 기록.</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Related background: <a href="/sec-digital-commodity-interpretive-release.php">SEC's "Most Crypto Isn't a Security" Interpretive Release</a>. Sources: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive, and SEC.gov litigation records.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">関連背景は<a href="/sec-digital-commodity-interpretive-release.php">SEC「暗号資産の大半は証券でない」公式解釈発表</a>でも取り上げた。出典: CoinDesk、Coinpedia、CoinGape、CNBC、Banking Dive、SEC.gov訴訟記録。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Contexto relacionado: <a href="/sec-digital-commodity-interpretive-release.php">La SEC declara que "la mayoría de las criptomonedas no son valores"</a>. Fuentes: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive y los registros judiciales de SEC.gov.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Verwandter Hintergrund: <a href="/sec-digital-commodity-interpretive-release.php">SECs Auslegung „Die meisten Kryptowerte sind keine Wertpapiere"</a>. Quellen: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive und Gerichtsunterlagen von SEC.gov.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Contexte connexe : <a href="/sec-digital-commodity-interpretive-release.php">La SEC déclare que « la plupart des cryptos ne sont pas des titres »</a>. Sources : CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive et les dossiers judiciaires de SEC.gov.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Contexto relacionado: <a href="/sec-digital-commodity-interpretive-release.php">SEC declara que "a maioria das criptomoedas não é valor mobiliário"</a>. Fontes: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive e registros judiciais da SEC.gov.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">İlgili arka plan: <a href="/sec-digital-commodity-interpretive-release.php">SEC'in "Kriptoların Çoğu Menkul Kıymet Değildir" Yorum Genelgesi</a>. Kaynaklar: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive ve SEC.gov dava kayıtları.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Bối cảnh liên quan: <a href="/sec-digital-commodity-interpretive-release.php">Thông báo diễn giải "Phần lớn tiền mã hóa không phải chứng khoán" của SEC</a>. Nguồn: CoinDesk, Coinpedia, CoinGape, CNBC, Banking Dive và hồ sơ tố tụng trên SEC.gov.</p>
+<?php require __DIR__.'/_footer.php'; ?>
