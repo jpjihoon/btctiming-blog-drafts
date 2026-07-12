@@ -243,6 +243,7 @@ foreach ($__langKeys as $__l) {
 </div>
 
 <div class="wrap">
+  <div class="blog-main">
   <div class="article-grid" id="articleGrid">
 <?php if (empty($articles)): ?>
     <div class="empty ko">아직 등록된 글이 없습니다.</div>
@@ -297,6 +298,14 @@ foreach ($__langKeys as $__l) {
     <span class="ko">더 보기</span><span class="en-show" style="display:none">Load More</span><span class="ja-show" style="display:none">もっと見る</span><span class="es-show" style="display:none">Ver Más</span><span class="de-show" style="display:none">Mehr laden</span><span class="fr-show" style="display:none">Voir plus</span><span class="pt-show" style="display:none">Ver mais</span><span class="tr-show" style="display:none">Daha fazla</span><span class="vi-show" style="display:none">Xem thêm</span>
     <span id="loadMoreCount"></span>
   </button>
+  </div><!-- /blog-main -->
+
+  <aside class="blog-side">
+    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show" style="display:none">Most Read</span><span class="ja-show" style="display:none">よく読まれた記事</span><span class="es-show" style="display:none">Más leídos</span><span class="de-show" style="display:none">Meistgelesen</span><span class="fr-show" style="display:none">Les plus lus</span><span class="pt-show" style="display:none">Mais lidos</span><span class="tr-show" style="display:none">En çok okunan</span><span class="vi-show" style="display:none">Đọc nhiều nhất</span></h3><div id="popularList"></div></div>
+    <div class="side-card side-score"><div class="lab"><span class="ko">실시간 매수·매도 타이밍 점수</span><span class="en-show" style="display:none">Live buy/sell timing score</span><span class="ja-show" style="display:none">リアルタイム売買タイミングスコア</span><span class="es-show" style="display:none">Puntuación de timing en vivo</span><span class="de-show" style="display:none">Live-Timing-Score</span><span class="fr-show" style="display:none">Score de timing en direct</span><span class="pt-show" style="display:none">Pontuação de timing ao vivo</span><span class="tr-show" style="display:none">Canlı zamanlama puanı</span><span class="vi-show" style="display:none">Điểm thời điểm trực tiếp</span></div><a class="cta" href="/"><span class="ko">대시보드 열기 →</span><span class="en-show" style="display:none">Open dashboard →</span><span class="ja-show" style="display:none">ダッシュボードを開く →</span><span class="es-show" style="display:none">Abrir panel →</span><span class="de-show" style="display:none">Dashboard öffnen →</span><span class="fr-show" style="display:none">Ouvrir le tableau →</span><span class="pt-show" style="display:none">Abrir painel →</span><span class="tr-show" style="display:none">Panoyu aç →</span><span class="vi-show" style="display:none">Mở bảng điều khiển →</span></a></div>
+    <div><h3 class="sec-h"><span class="ko">지표 용어사전</span><span class="en-show" style="display:none">Glossary</span><span class="ja-show" style="display:none">用語集</span><span class="es-show" style="display:none">Glosario</span><span class="de-show" style="display:none">Glossar</span><span class="fr-show" style="display:none">Glossaire</span><span class="pt-show" style="display:none">Glossário</span><span class="tr-show" style="display:none">Terimler</span><span class="vi-show" style="display:none">Thuật ngữ</span></h3><div class="side-terms"><a href="/glossary.php">MVRV Z</a><a href="/glossary.php">NUPL</a><a href="/glossary.php">Hash Ribbon</a><a href="/glossary.php">STH-SOPR</a><a href="/glossary.php">Coinbase Premium</a><a href="/glossary.php">Funding Rate</a><a href="/glossary.php">200W MA</a><a href="/glossary.php">Fear &amp; Greed</a></div><a class="side-more" href="/glossary.php"><span class="ko">전체 보기 →</span><span class="en-show" style="display:none">View all →</span><span class="ja-show" style="display:none">すべて見る →</span><span class="es-show" style="display:none">Ver todo →</span><span class="de-show" style="display:none">Alle →</span><span class="fr-show" style="display:none">Tout voir →</span><span class="pt-show" style="display:none">Ver tudo →</span><span class="tr-show" style="display:none">Tümü →</span><span class="vi-show" style="display:none">Xem tất cả →</span></a></div>
+    <div class="side-exch"><h4><span class="ko">거래소, 어디서 시작할까?</span><span class="en-show" style="display:none">Where to start trading?</span><span class="ja-show" style="display:none">取引所はどこから?</span><span class="es-show" style="display:none">¿Dónde empezar?</span><span class="de-show" style="display:none">Wo starten?</span><span class="fr-show" style="display:none">Où commencer ?</span><span class="pt-show" style="display:none">Por onde começar?</span><span class="tr-show" style="display:none">Nereden başlamalı?</span><span class="vi-show" style="display:none">Bắt đầu ở đâu?</span></h4><p><span class="ko">추천 링크로 <span class="pct">최대 20% 수수료 할인</span></span><span class="en-show" style="display:none"><span class="pct">Up to 20% fee discount</span></span><span class="ja-show" style="display:none"><span class="pct">最大20%手数料割引</span></span><span class="es-show" style="display:none"><span class="pct">Hasta 20% de descuento</span></span><span class="de-show" style="display:none"><span class="pct">Bis zu 20% Rabatt</span></span><span class="fr-show" style="display:none"><span class="pct">Jusqu'à 20% de réduction</span></span><span class="pt-show" style="display:none"><span class="pct">Até 20% de desconto</span></span><span class="tr-show" style="display:none"><span class="pct">%20'ye varan indirim</span></span><span class="vi-show" style="display:none"><span class="pct">Giảm phí tới 20%</span></span></p><a href="/exchanges.php"><span class="ko">바이낸스 · 바이비트 비교 →</span><span class="en-show" style="display:none">Compare Binance · Bybit →</span><span class="ja-show" style="display:none">Binance · Bybit 比較 →</span><span class="es-show" style="display:none">Comparar →</span><span class="de-show" style="display:none">Vergleichen →</span><span class="fr-show" style="display:none">Comparer →</span><span class="pt-show" style="display:none">Comparar →</span><span class="tr-show" style="display:none">Karşılaştır →</span><span class="vi-show" style="display:none">So sánh →</span></a></div>
+  </aside>
 
   <div class="cta-main">
     <h2 class="ko">지금 비트코인 타이밍 실시간 확인하기</h2>
@@ -347,6 +356,35 @@ function relTimeText(dateStr, lang){
     return '📅 '+d.toLocaleDateString(lang||'ko',{year:'numeric',month:'2-digit',day:'2-digit'}); // 오래되면 날짜
   }catch(e){ return null; }
 }
+function initPopular(){
+  var box=document.getElementById('popularList'); if(!box) return;
+  var cards=[].slice.call(document.querySelectorAll('#articleGrid .article-card'));
+  var bySlug={};
+  cards.forEach(function(c){ var h=c.getAttribute('href')||''; var m=h.match(/\/blog\/([^\/?#]+?)(?:\.php)?(?:[?#]|$)/); if(m) bySlug[m[1]]=c; });
+  function activeText(c,sel){ var el=c.querySelector(sel+':not([style*="display:none"])')||c.querySelector(sel); return el?el.textContent.trim():''; }
+  function render(list){
+    box.innerHTML='';
+    list.slice(0,5).forEach(function(c,i){ if(!c) return;
+      var a=document.createElement('a'); a.href=c.getAttribute('href'); a.className='pop-item';
+      var n=document.createElement('span'); n.className='pop-n'; n.textContent=(i+1);
+      var tt=document.createElement('span'); tt.className='pop-t'; tt.textContent=activeText(c,'.card-title');
+      a.appendChild(n); a.appendChild(tt); box.appendChild(a);
+    });
+  }
+  function fallback(){ render(cards.slice(0,5)); }
+  function bucket(hAgo){ var d=new Date(Date.now()-hAgo*3600000); function p(n){return(n<10?'0':'')+n;} return ''+d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+p(d.getUTCHours()); }
+  function sumWin(hours,data){ var ok={}; for(var i=0;i<hours;i++) ok[bucket(i)]=1; var out=[]; for(var s in data){ var b=data[s],sum=0; for(var k in b){ if(ok[k]) sum+=(+b[k]||0); } if(sum>0) out.push([s,sum]); } out.sort(function(a,b){return b[1]-a[1];}); return out; }
+  var DB='https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
+  fetch(DB+'/blogViewsHourly.json').then(function(r){return r.json();}).then(function(data){
+    if(!data){ fallback(); return; }
+    var ranked=sumWin(24,data); if(ranked.length<5) ranked=sumWin(48,data);
+    if(!ranked.length){ fallback(); return; }
+    var picked=ranked.map(function(x){return bySlug[x[0]];}).filter(Boolean);
+    for(var i=0;i<cards.length && picked.length<5;i++){ if(picked.indexOf(cards[i])<0) picked.push(cards[i]); }
+    render(picked);
+  }).catch(fallback);
+}
+
 function applyRelTimes(lang){
   document.querySelectorAll('.card-date[data-date]').forEach(function(el){
     var txt = relTimeText(el.getAttribute('data-date'), lang);
@@ -556,7 +594,43 @@ try {
 .bcs-id{font-size:13px;font-weight:700;color:#f2f2f5}
 .bcs-name{font-size:12px;color:#888}
 .bcs-empty{padding:30px;text-align:center;color:#666;font-size:13px}
+
+/* ===== 뉴스허브 레이아웃 (목록) ===== */
+.wrap{max-width:1120px}
+@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
+.cat-tabs{max-width:1120px}
+/* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
+#articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
+#articleGrid .article-card[data-idx="0"] .card-icon{width:46px;height:46px;font-size:23px;margin-bottom:14px}
+#articleGrid .article-card[data-idx="0"] .card-tagrow{margin-bottom:11px}
+#articleGrid .article-card[data-idx="0"] .card-cat span{color:var(--orange);font-weight:800}
+#articleGrid .article-card[data-idx="0"] .card-title{font-size:1.6rem;line-height:1.25;margin-bottom:12px}
+#articleGrid .article-card[data-idx="0"] .card-desc{font-size:15px;line-height:1.7;margin-bottom:12px;-webkit-line-clamp:3}
+#articleGrid .article-card[data-idx="0"] .card-arrow{display:none}
+.side-more{display:block;text-align:center;margin-top:10px;font-size:12px;font-weight:700;color:var(--orange);border:1px solid var(--b1);border-radius:6px;padding:8px;text-decoration:none}
+.side-more:hover{border-color:rgba(247,147,26,.4)}
+@media(max-width:560px){#articleGrid .article-card[data-idx="0"] .card-title{font-size:1.3rem}}
+.blog-side{display:flex;flex-direction:column;gap:26px}
+.blog-side .sec-h{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--b1)}
+.pop-item{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--b1);align-items:baseline;text-decoration:none;color:inherit}
+.pop-item:last-child{border-bottom:none}
+.pop-n{flex-shrink:0;width:20px;text-align:center;font-size:16px;font-weight:800;color:var(--t3)}
+.pop-item:nth-child(1) .pop-n{color:var(--orange)}
+.pop-t{font-size:13px;font-weight:600;line-height:1.4;color:var(--t1)}
+.pop-item:hover .pop-t{color:var(--orange)}
+.side-card{background:var(--bg2);border:1px solid var(--b1);border-radius:10px;padding:16px}
+.side-score{text-align:center}.side-score .lab{font-size:11px;color:var(--t2);margin-bottom:8px}
+.side-score .cta{display:block;background:var(--orange);color:#0a0a0a;font-weight:700;font-size:13px;border-radius:6px;padding:10px;text-decoration:none}
+.side-terms{display:flex;flex-wrap:wrap;gap:7px}
+.side-terms a{font-size:12px;color:var(--t2);background:var(--bg2);border:1px solid var(--b1);border-radius:6px;padding:6px 10px;text-decoration:none}
+.side-terms a:hover{color:var(--orange);border-color:rgba(247,147,26,.4)}
+.side-exch{background:linear-gradient(135deg,rgba(247,147,26,.13),rgba(247,147,26,.04));border:1px solid rgba(247,147,26,.35);border-radius:10px;padding:15px}
+.side-exch h4{font-size:14px;margin:0 0 4px}.side-exch p{font-size:11.5px;color:var(--t2);margin:0 0 10px}
+.side-exch .pct{color:var(--orange);font-weight:800}
+.side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
+@media(max-width:860px){.blog-side{margin-top:34px}}
 </style>
+
 <script>
 window.__BLOG_COINS = <?= $__blogCoinsJson ?>;
 window.__BLOG_DEFAULT_FAVS = ['BTC','ETH','BNB','SOL','XRP','DOGE','ADA','TRX'];
@@ -629,6 +703,6 @@ try{
   },{passive:true});
 })();
 </script>
-<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');applyRelTimes((r&&r.className)||'ko');});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');applyRelTimes((r&&r.className)||'ko');initPopular();});</script>
 </body>
 </html>
