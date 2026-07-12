@@ -32,6 +32,40 @@ $__blogCoinsJson = json_encode($__blogCoins, JSON_UNESCAPED_UNICODE);
 
 $articles = collectArticles(__DIR__);
 // 목록 날짜: 24h 이내는 언어별 상대시간(서버 렌더 → 깜빡임 없음), 그 이상은 절대날짜.
+function renderCardHtml(array $a, int $idx, string $blLang): string {
+    $icon = $a['icon'] ?? '📄';
+    $color = $a['color'] ?? '#f7931a';
+    $cat = $a['category'];
+    $catColor = CATEGORY_META[$cat]['color'] ?? '#f7931a';
+    $cardLangs = array_keys(SUPPORTED_LANGS);
+    $catVal   = fn($l) => CATEGORY_META[$cat][$l] ?? (CATEGORY_META[$cat]['en'] ?? $cat);
+    $tagVal   = fn($l) => $a["tag_{$l}"]   ?? ($a['tag_en']   ?? '');
+    $titleVal = fn($l) => $a["title_{$l}"] ?? ($a['title_en'] ?? '');
+    $descVal  = fn($l) => $a["desc_{$l}"]  ?? ($a['desc_en']  ?? '');
+    $readVal  = fn($l) => $a["read_{$l}"]  ?? ($a['read_en']  ?? '');
+    $readFmt = ['ko'=>fn($r)=>$r===''?'':"📖 {$r}분 읽기",'en'=>fn($r)=>$r===''?'':"📖 {$r} min read",'ja'=>fn($r)=>$r===''?'':"📖 {$r}分で読める",'es'=>fn($r)=>$r===''?'':"📖 {$r} min de lectura",'de'=>fn($r)=>$r===''?'':"📖 {$r} Min. Lesezeit",'fr'=>fn($r)=>$r===''?'':"📖 {$r} min de lecture",'pt'=>fn($r)=>$r===''?'':"📖 {$r} min de leitura",'tr'=>fn($r)=>$r===''?'':"📖 {$r} dk okuma",'vi'=>fn($r)=>$r===''?'':"📖 {$r} phút đọc"];
+    $clsOf = fn($l) => ($l === 'ko') ? 'ko' : ($l . '-show');
+    $styOf = fn($l) => ''; // 표시는 CSS(!important)가 제어 → AJAX 카드도 언어전환 정상
+    ob_start(); ?>
+    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $idx ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+      <div class="card-icon"><?= $icon ?></div>
+      <div class="card-body">
+        <div class="card-tagrow">
+          <span class="card-cat"><?php foreach ($cardLangs as $l) echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($catVal($l)).'</span>'; ?></span>
+          <?php foreach ($cardLangs as $l) echo '<span class="card-tag '.$clsOf($l).'"'.$styOf($l).'>'.h($tagVal($l)).'</span>'; ?>
+        </div>
+        <?php foreach ($cardLangs as $l) echo '<div class="card-title '.$clsOf($l).'"'.$styOf($l).'>'.h($titleVal($l)).'</div>'; ?>
+        <?php foreach ($cardLangs as $l) echo '<div class="card-desc '.$clsOf($l).'"'.$styOf($l).'>'.h($descVal($l)).'</div>'; ?>
+        <div class="card-meta">
+          <?= relDateSpans($a['date'] ?? '', $blLang) ?>
+          <?php foreach ($cardLangs as $l) { $fmt = $readFmt[$l] ?? $readFmt['en']; echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($fmt($readVal($l))).'</span>'; } ?>
+        </div>
+      </div>
+      <div class="card-arrow">→</div>
+    </a>
+    <?php return ob_get_clean();
+}
+
 function getPopularSlugs(array $articles, int $need = 5): array {
     $cacheFile = sys_get_temp_dir() . '/btc_blog_popular.json';
     if (is_readable($cacheFile) && (time() - @filemtime($cacheFile) < 180)) {
@@ -98,7 +132,7 @@ function relDateSpans(string $iso, string $curLang): string {
     $out='';
     foreach (array_keys(SUPPORTED_LANGS) as $l) {
         $cls = ($l==='ko') ? 'ko' : ($l.'-show');
-        $sty = ($l===$curLang) ? '' : ' style="display:none"';
+        $sty = ''; // CSS 제어
         $txt = $L[$l] ?? $L['en'];
         $out .= '<span class="card-date '.$cls.'"'.$sty.'>🕒 '.h($txt).'</span>';
     }
@@ -116,6 +150,13 @@ $__cat = (isset($_GET['cat']) && in_array($_GET['cat'], $presentCats, true)) ? $
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
 // 언어 결정: URL ?lang 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
 $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
+// 더보기 AJAX: 해당 카테고리의 offset부터 12개 카드 HTML만 반환
+if (($_GET['ajax'] ?? '') === 'cards') {
+    $__f = ($__cat === 'all') ? array_values($articles) : array_values(array_filter($articles, fn($x) => ($x['category'] ?? '') === $__cat));
+    $__off = max(0, (int)($_GET['offset'] ?? 0));
+    foreach (array_slice($__f, $__off, 12) as $__k => $__a) { echo renderCardHtml($__a, $__off + $__k, $__blLang); }
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?= h($__blLang) ?>"<?= $__blLang !== 'ko' ? ' class="'.h($__blLang).'"' : '' ?> id="html-root">
@@ -157,7 +198,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 
 /* ===== 뉴스허브 레이아웃 (목록) ===== */
 .wrap{max-width:1120px}
-@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
+@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{grid-column:1;grid-row:1}.blog-side{grid-column:2;grid-row:1}.blog-main{min-width:0}}
 .cat-tabs{max-width:1120px}
 /* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
 #articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
@@ -352,63 +393,6 @@ foreach ($__langKeys as $__l) {
 </div>
 
 <div class="wrap">
-  <div class="blog-main">
-  <div class="article-grid" id="articleGrid">
-<?php if (empty($articles)): ?>
-    <div class="empty ko">아직 등록된 글이 없습니다.</div>
-    <div class="empty en-show">No articles yet.</div>
-    <div class="empty ja-show">まだ記事がありません。</div>
-    <div class="empty es-show">Aún no hay artículos.</div>
-    <div class="empty de-show">Noch keine Artikel vorhanden.</div>
-    <div class="empty fr-show">Aucun article pour le moment.</div>
-    <div class="empty pt-show">Ainda não há artigos.</div>
-    <div class="empty tr-show">Henüz yazı yok.</div>
-    <div class="empty vi-show">Chưa có bài viết nào.</div>
-<?php else: foreach ($articles as $i => $a):
-    $icon = $a['icon'] ?? '📄';
-    $color = $a['color'] ?? '#f7931a';
-    $cat = $a['category'];
-    $catColor = CATEGORY_META[$cat]['color'] ?? '#f7931a';
-    $cardLangs = array_keys(SUPPORTED_LANGS);
-    // 언어별 값 헬퍼: 번역 없으면 영어로 폴백 (개별 페이지와 동일 정책)
-    $catVal   = fn($l) => CATEGORY_META[$cat][$l] ?? (CATEGORY_META[$cat]['en'] ?? $cat);
-    $tagVal   = fn($l) => $a["tag_{$l}"]   ?? ($a['tag_en']   ?? '');
-    $titleVal = fn($l) => $a["title_{$l}"] ?? ($a['title_en'] ?? '');
-    $descVal  = fn($l) => $a["desc_{$l}"]  ?? ($a['desc_en']  ?? '');
-    $readVal  = fn($l) => $a["read_{$l}"]  ?? ($a['read_en']  ?? '');
-    // read 단위 표기 (언어별)
-    $readFmt = ['ko'=>fn($r)=>$r===''?'':"📖 {$r}분 읽기",'en'=>fn($r)=>$r===''?'':"📖 {$r} min read",'ja'=>fn($r)=>$r===''?'':"📖 {$r}分で読める",'es'=>fn($r)=>$r===''?'':"📖 {$r} min de lectura",'de'=>fn($r)=>$r===''?'':"📖 {$r} Min. Lesezeit",'fr'=>fn($r)=>$r===''?'':"📖 {$r} min de lecture",'pt'=>fn($r)=>$r===''?'':"📖 {$r} min de leitura",'tr'=>fn($r)=>$r===''?'':"📖 {$r} dk okuma",'vi'=>fn($r)=>$r===''?'':"📖 {$r} phút đọc"];
-    // 각 언어의 표시 클래스: ko는 "ko", 나머지는 "{lang}-show"
-    $clsOf = fn($l) => ($l === 'ko') ? 'ko' : ($l . '-show');
-    // 인라인 숨김: 서버가 렌더한 현재 언어($__blLang)면 숨기지 않는다(첫 화면부터 보이도록, 깜빡임 방지).
-    // 그 외 언어는 display:none으로 숨겨두고, 언어 전환 시 JS(setLang)가 인라인 style을 조정한다.
-    $styOf = fn($l) => ($l === $__blLang) ? '' : ' style="display:none"';
-?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card<?= (($__cat!=='all' && $cat!==$__cat) || ($__cat==='all' && $i>=12))?' hidden':'' ?>" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
-      <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
-      <div class="card-body">
-        <div class="card-tagrow">
-          <span class="card-cat"><?php foreach ($cardLangs as $l) echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($catVal($l)).'</span>'; ?></span>
-          <?php foreach ($cardLangs as $l) echo '<span class="card-tag '.$clsOf($l).'"'.$styOf($l).'>'.h($tagVal($l)).'</span>'; ?>
-        </div>
-        <?php foreach ($cardLangs as $l) echo '<div class="card-title '.$clsOf($l).'"'.$styOf($l).'>'.h($titleVal($l)).'</div>'; ?>
-        <?php foreach ($cardLangs as $l) echo '<div class="card-desc '.$clsOf($l).'"'.$styOf($l).'>'.h($descVal($l)).'</div>'; ?>
-        <div class="card-meta">
-          <?= relDateSpans($a['date'] ?? '', $__blLang) ?>
-          <?php foreach ($cardLangs as $l) { $fmt = $readFmt[$l] ?? $readFmt['en']; echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($fmt($readVal($l))).'</span>'; } ?>
-        </div>
-      </div>
-      <div class="card-arrow">→</div>
-    </a>
-<?php endforeach; endif; ?>
-  </div>
-
-  <?php $__more = ($__cat==='all') ? max(0, count($articles)-12) : 0; ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
-    <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
-    <span id="loadMoreCount"><?= $__more>0 ? '('.min($__more,12).')' : '' ?></span>
-  </button>
-  </div><!-- /blog-main -->
-
   <aside class="blog-side">
     <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"><?php
       $__popSlugs = getPopularSlugs($articles, 5);
@@ -435,6 +419,31 @@ foreach ($__langKeys as $__l) {
       <span class="exch-banner-ar">›</span>
     </a>
   </aside>
+  <div class="blog-main">
+  <div class="article-grid" id="articleGrid">
+<?php if (empty($articles)): ?>
+    <div class="empty ko">아직 등록된 글이 없습니다.</div>
+    <div class="empty en-show">No articles yet.</div>
+    <div class="empty ja-show">まだ記事がありません。</div>
+    <div class="empty es-show">Aún no hay artículos.</div>
+    <div class="empty de-show">Noch keine Artikel vorhanden.</div>
+    <div class="empty fr-show">Aucun article pour le moment.</div>
+    <div class="empty pt-show">Ainda não há artigos.</div>
+    <div class="empty tr-show">Henüz yazı yok.</div>
+    <div class="empty vi-show">Chưa có bài viết nào.</div>
+<?php else:
+    $__filtered = ($__cat === 'all') ? array_values($articles) : array_values(array_filter($articles, fn($x) => ($x['category'] ?? '') === $__cat));
+    foreach (array_slice($__filtered, 0, 12) as $__k => $a) { echo renderCardHtml($a, $__k, $__blLang); }
+endif; ?>
+  </div>
+
+  <?php $__totalFiltered = ($__cat==='all') ? count($articles) : count(array_filter($articles, fn($x)=>($x['category']??'')===$__cat)); $__more = max(0, $__totalFiltered - 12); ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
+    <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
+    <span id="loadMoreCount"><?= $__more>0 ? '('.min($__more,12).')' : '' ?></span>
+  </button>
+  </div><!-- /blog-main -->
+
+  
 
   <div class="cta-main">
     <h2 class="ko">지금 비트코인 타이밍 실시간 확인하기</h2>
@@ -570,64 +579,46 @@ window.addEventListener('pageshow', function(e){
   restoreBlogLang();
 });
 
+<?php ?>
+window.__blogTotal = <?= (int)($__totalFiltered ?? count($articles)) ?>;
 const PAGE_SIZE = 12;
 // URL ?cat= 을 읽어 초기 카테고리 결정(사이트맵·공유링크로 특정 카테고리 진입 존중).
 // 유효한 카테고리 탭이 실제로 있을 때만 적용, 아니면 'all'.
 let currentCat = (function(){
-  try {
-    const c = new URLSearchParams(location.search).get('cat');
-    if (c && document.querySelector('.cat-tab[data-cat="' + c + '"]')) return c;
-  } catch(e){}
+  try { const c = new URLSearchParams(location.search).get('cat'); if (c && document.querySelector('.cat-tab[data-cat="'+c+'"]')) return c; } catch(e){}
   return 'all';
 })();
-let visibleCount = PAGE_SIZE;
-const allCards = Array.from(document.querySelectorAll('#articleGrid .article-card'));
-
-function updateVisibility() {
-  let shownInCat = 0;
-  allCards.forEach(card => {
-    const matchesCat = currentCat === 'all' || card.dataset.cat === currentCat;
-    let show = matchesCat;
-    if (matchesCat && currentCat === 'all') {
-      // 전체 탭에서만 페이지네이션 적용 — 특정 카테고리 필터 중엔 전부 노출
-      show = shownInCat < visibleCount;
-      shownInCat++;
-    }
-    card.classList.toggle('hidden', !show);
-  });
-  updateMoreButton();
+let __loaded = 12; // 서버가 첫 12개 렌더
+function __curLangMore(){ var r=document.getElementById('html-root'); return ((r&&r.className)||'ko').trim().split(/\s+/)[0]||'ko'; }
+function __updMoreBtn(){
+  var btn=document.getElementById('loadMoreBtn'), cE=document.getElementById('loadMoreCount');
+  if(!btn) return;
+  var remain=(window.__blogTotal||0)-__loaded;
+  if(remain<=0){ btn.style.display='none'; return; }
+  btn.style.display=''; if(cE) cE.textContent='('+Math.min(remain,12)+')';
 }
-
-function updateMoreButton() {
-  const btn = document.getElementById('loadMoreBtn');
-  const countEl = document.getElementById('loadMoreCount');
-  if (!btn) return;
-  if (currentCat !== 'all') { btn.style.display = 'none'; return; }
-  const total = allCards.length;
-  const remaining = total - visibleCount;
-  if (remaining <= 0) { btn.style.display = 'none'; return; }
-  btn.style.display = '';
-  if (countEl) countEl.textContent = `(${Math.min(remaining, PAGE_SIZE)})`;
+function loadMore(){
+  var btn=document.getElementById('loadMoreBtn'); if(btn) btn.style.pointerEvents='none';
+  var lang=__curLangMore();
+  var cp = currentCat==='all' ? '' : ('&cat='+encodeURIComponent(currentCat));
+  fetch('/blog/?ajax=cards&offset='+__loaded+cp+(lang==='ko'?'':('&lang='+lang)))
+    .then(function(r){return r.text();}).then(function(html){
+      var grid=document.getElementById('articleGrid');
+      if(grid && html.trim()) grid.insertAdjacentHTML('beforeend', html);
+      var added=(html.match(/class="article-card"/g)||[]).length;
+      __loaded += added;
+      if(btn) btn.style.pointerEvents='';
+      __updMoreBtn();
+    }).catch(function(){ if(btn) btn.style.pointerEvents=''; });
 }
-
-function loadMore() {
-  visibleCount += PAGE_SIZE;
-  updateVisibility();
-}
-
-function filterCat(cat) {
-  currentCat = cat;
-  if (cat === 'all') visibleCount = PAGE_SIZE; // 전체로 돌아오면 페이지네이션 리셋
-  document.querySelectorAll('.cat-tab').forEach(t => t.classList.toggle('active', t.dataset.cat === cat));
-  updateVisibility();
-  try {
-    const url = new URL(location.href);
-    if (cat === 'all') url.searchParams.delete('cat');
-    else url.searchParams.set('cat', cat);
-    history.replaceState(null, '', url);
-  } catch(e){}
-}
-updateVisibility(); // 최초 로드 시 12개만 노출
+function filterCat(cat){
+  var lang=__curLangMore(); var ls=(lang==='ko'?'':('lang='+lang));
+  var url='/blog/';
+  if(cat!=='all' && ls) url+='?cat='+encodeURIComponent(cat)+'&'+ls;
+  else if(cat!=='all') url+='?cat='+encodeURIComponent(cat);
+  else if(ls) url+='?'+ls;
+  location.href=url;
+} // 최초 로드 시 12개만 노출
 try {
   const initCat = new URLSearchParams(location.search).get('cat');
   if (initCat) filterCat(initCat);
