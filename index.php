@@ -69,6 +69,49 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
 <style>
+/* ===== 뉴스허브 레이아웃 (목록) ===== */
+.wrap{max-width:1120px}
+@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
+.cat-tabs{max-width:1120px}
+/* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
+#articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
+#articleGrid .article-card[data-idx="0"] .card-icon{width:46px;height:46px;font-size:23px;margin-bottom:14px}
+#articleGrid .article-card[data-idx="0"] .card-tagrow{margin-bottom:11px}
+#articleGrid .article-card[data-idx="0"] .card-cat span{color:var(--orange);font-weight:800}
+#articleGrid .article-card[data-idx="0"] .card-title{font-size:1.6rem;line-height:1.25;margin-bottom:12px}
+#articleGrid .article-card[data-idx="0"] .card-desc{font-size:15px;line-height:1.7;margin-bottom:12px;-webkit-line-clamp:5}
+#articleGrid .article-card[data-idx="0"] .card-arrow{display:none}
+.side-more{display:block;text-align:center;margin-top:10px;font-size:12px;font-weight:700;color:var(--orange);border:1px solid var(--b1);border-radius:6px;padding:8px;text-decoration:none}
+.side-more:hover{border-color:rgba(247,147,26,.4)}
+@media(max-width:560px){#articleGrid .article-card[data-idx="0"] .card-title{font-size:1.3rem}}
+.blog-side{display:flex;flex-direction:column;gap:26px}
+.blog-side .sec-h{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--b1)}
+.pop-item{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--b1);align-items:baseline;text-decoration:none;color:inherit}
+.pop-item:last-child{border-bottom:none}
+.pop-n{flex-shrink:0;width:20px;text-align:center;font-size:16px;font-weight:800;color:var(--t3)}
+.pop-item:nth-child(1) .pop-n{color:var(--orange)}
+.pop-t{font-size:13px;font-weight:600;line-height:1.4;color:var(--t1)}
+.pop-item:hover .pop-t{color:var(--orange)}
+.side-card{background:var(--bg2);border:1px solid var(--b1);border-radius:10px;padding:16px}
+.side-score{text-align:center}.side-score .lab{font-size:11px;color:var(--t2);margin-bottom:8px}
+.side-score .cta{display:block;background:var(--orange);color:#0a0a0a;font-weight:700;font-size:13px;border-radius:6px;padding:10px;text-decoration:none}
+.side-terms{display:flex;flex-wrap:wrap;gap:7px}
+.side-terms a{font-size:12px;color:var(--t2);background:var(--bg2);border:1px solid var(--b1);border-radius:6px;padding:6px 10px;text-decoration:none}
+.side-terms a:hover{color:var(--orange);border-color:rgba(247,147,26,.4)}
+.side-exch{background:linear-gradient(135deg,rgba(247,147,26,.13),rgba(247,147,26,.04));border:1px solid rgba(247,147,26,.35);border-radius:10px;padding:15px}
+.side-exch h4{font-size:14px;margin:0 0 4px}.side-exch p{font-size:11.5px;color:var(--t2);margin:0 0 10px}
+.side-exch .pct{color:var(--orange);font-weight:800}
+.side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
+@media(max-width:860px){.blog-side{margin-top:34px}}
+
+.blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
+.blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
+/* 5-2 호버 시 살짝 확장(일반 카드만, 1줄 추가) */
+#articleGrid .article-card:not([data-idx="0"]):hover .card-desc{-webkit-line-clamp:4}
+/* FOUC 완화: 날짜는 JS 포맷 전 살짝 흐리게 → 적용되면 선명 */
+.card-date{transition:opacity .12s}
+
+
 :root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -334,35 +377,40 @@ function relTimeText(dateStr, lang){
     return '📅 '+d.toLocaleDateString(lang||'ko',{year:'numeric',month:'2-digit',day:'2-digit'}); // 오래되면 날짜
   }catch(e){ return null; }
 }
+var __popCards=[];
+function __activeText(c,sel){
+  var els=c.querySelectorAll(sel);
+  for(var i=0;i<els.length;i++){ if(els[i].offsetParent!==null){ var x=els[i].textContent.trim(); if(x) return x; } }
+  return (els[0]?els[0].textContent.trim():'');
+}
+function renderPopular(){
+  var box=document.getElementById('popularList'); if(!box) return;
+  box.innerHTML='';
+  __popCards.slice(0,5).forEach(function(c,i){ if(!c) return;
+    var a=document.createElement('a'); a.href=c.getAttribute('href'); a.className='pop-item';
+    var n=document.createElement('span'); n.className='pop-n'; n.textContent=(i+1);
+    var tt=document.createElement('span'); tt.className='pop-t'; tt.textContent=__activeText(c,'.card-title');
+    a.appendChild(n); a.appendChild(tt); box.appendChild(a);
+  });
+}
 function initPopular(){
   var box=document.getElementById('popularList'); if(!box) return;
   var cards=[].slice.call(document.querySelectorAll('#articleGrid .article-card'));
   var bySlug={};
   cards.forEach(function(c){ var h=c.getAttribute('href')||''; var m=h.match(/\/blog\/([^\/?#]+?)(?:\.php)?(?:[?#]|$)/); if(m) bySlug[m[1]]=c; });
-  function activeText(c,sel){ var el=c.querySelector(sel+':not([style*="display:none"])')||c.querySelector(sel); return el?el.textContent.trim():''; }
-  function render(list){
-    box.innerHTML='';
-    list.slice(0,5).forEach(function(c,i){ if(!c) return;
-      var a=document.createElement('a'); a.href=c.getAttribute('href'); a.className='pop-item';
-      var n=document.createElement('span'); n.className='pop-n'; n.textContent=(i+1);
-      var tt=document.createElement('span'); tt.className='pop-t'; tt.textContent=activeText(c,'.card-title');
-      a.appendChild(n); a.appendChild(tt); box.appendChild(a);
-    });
-  }
-  function fallback(){ render(cards.slice(0,5)); }
   function bucket(hAgo){ var d=new Date(Date.now()-hAgo*3600000); function p(n){return(n<10?'0':'')+n;} return ''+d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+p(d.getUTCHours()); }
   function sumWin(hours,data){ var ok={}; for(var i=0;i<hours;i++) ok[bucket(i)]=1; var out=[]; for(var s in data){ var b=data[s],sum=0; for(var k in b){ if(ok[k]) sum+=(+b[k]||0); } if(sum>0) out.push([s,sum]); } out.sort(function(a,b){return b[1]-a[1];}); return out; }
+  function finish(picked){ __popCards=picked; renderPopular(); }
   var DB='https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
   fetch(DB+'/blogViewsHourly.json').then(function(r){return r.json();}).then(function(data){
-    if(!data){ fallback(); return; }
+    if(!data){ finish(cards.slice(0,5)); return; }
     var ranked=sumWin(24,data); if(ranked.length<5) ranked=sumWin(48,data);
-    if(!ranked.length){ fallback(); return; }
+    if(!ranked.length){ finish(cards.slice(0,5)); return; }
     var picked=ranked.map(function(x){return bySlug[x[0]];}).filter(Boolean);
     for(var i=0;i<cards.length && picked.length<5;i++){ if(picked.indexOf(cards[i])<0) picked.push(cards[i]); }
-    render(picked);
-  }).catch(fallback);
+    finish(picked);
+  }).catch(function(){ finish(cards.slice(0,5)); });
 }
-
 function applyRelTimes(lang){
   document.querySelectorAll('.card-date[data-date]').forEach(function(el){
     var txt = relTimeText(el.getAttribute('data-date'), lang);
@@ -374,6 +422,7 @@ function setLang(lang, doSave) {
   root.className = lang;
   root.lang = lang;
   applyRelTimes(lang);
+  if(typeof renderPopular==='function') renderPopular();
   const trigLabel = document.getElementById('langTriggerLabel');
   if(trigLabel) trigLabel.textContent = lang.toUpperCase();
   document.querySelectorAll('.lang-menu-item').forEach(el => {
@@ -572,48 +621,6 @@ try {
 .bcs-id{font-size:13px;font-weight:700;color:#f2f2f5}
 .bcs-name{font-size:12px;color:#888}
 .bcs-empty{padding:30px;text-align:center;color:#666;font-size:13px}
-
-/* ===== 뉴스허브 레이아웃 (목록) ===== */
-.wrap{max-width:1120px}
-@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
-.cat-tabs{max-width:1120px}
-/* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
-#articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
-#articleGrid .article-card[data-idx="0"] .card-icon{width:46px;height:46px;font-size:23px;margin-bottom:14px}
-#articleGrid .article-card[data-idx="0"] .card-tagrow{margin-bottom:11px}
-#articleGrid .article-card[data-idx="0"] .card-cat span{color:var(--orange);font-weight:800}
-#articleGrid .article-card[data-idx="0"] .card-title{font-size:1.6rem;line-height:1.25;margin-bottom:12px}
-#articleGrid .article-card[data-idx="0"] .card-desc{font-size:15px;line-height:1.7;margin-bottom:12px;-webkit-line-clamp:5}
-#articleGrid .article-card[data-idx="0"] .card-arrow{display:none}
-.side-more{display:block;text-align:center;margin-top:10px;font-size:12px;font-weight:700;color:var(--orange);border:1px solid var(--b1);border-radius:6px;padding:8px;text-decoration:none}
-.side-more:hover{border-color:rgba(247,147,26,.4)}
-@media(max-width:560px){#articleGrid .article-card[data-idx="0"] .card-title{font-size:1.3rem}}
-.blog-side{display:flex;flex-direction:column;gap:26px}
-.blog-side .sec-h{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--b1)}
-.pop-item{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--b1);align-items:baseline;text-decoration:none;color:inherit}
-.pop-item:last-child{border-bottom:none}
-.pop-n{flex-shrink:0;width:20px;text-align:center;font-size:16px;font-weight:800;color:var(--t3)}
-.pop-item:nth-child(1) .pop-n{color:var(--orange)}
-.pop-t{font-size:13px;font-weight:600;line-height:1.4;color:var(--t1)}
-.pop-item:hover .pop-t{color:var(--orange)}
-.side-card{background:var(--bg2);border:1px solid var(--b1);border-radius:10px;padding:16px}
-.side-score{text-align:center}.side-score .lab{font-size:11px;color:var(--t2);margin-bottom:8px}
-.side-score .cta{display:block;background:var(--orange);color:#0a0a0a;font-weight:700;font-size:13px;border-radius:6px;padding:10px;text-decoration:none}
-.side-terms{display:flex;flex-wrap:wrap;gap:7px}
-.side-terms a{font-size:12px;color:var(--t2);background:var(--bg2);border:1px solid var(--b1);border-radius:6px;padding:6px 10px;text-decoration:none}
-.side-terms a:hover{color:var(--orange);border-color:rgba(247,147,26,.4)}
-.side-exch{background:linear-gradient(135deg,rgba(247,147,26,.13),rgba(247,147,26,.04));border:1px solid rgba(247,147,26,.35);border-radius:10px;padding:15px}
-.side-exch h4{font-size:14px;margin:0 0 4px}.side-exch p{font-size:11.5px;color:var(--t2);margin:0 0 10px}
-.side-exch .pct{color:var(--orange);font-weight:800}
-.side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
-@media(max-width:860px){.blog-side{margin-top:34px}}
-
-.blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
-.blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
-/* 5-2 호버 시 살짝 확장(일반 카드만, 1줄 추가) */
-#articleGrid .article-card:not([data-idx="0"]):hover .card-desc{-webkit-line-clamp:4}
-/* FOUC 완화: 날짜는 JS 포맷 전 살짝 흐리게 → 적용되면 선명 */
-.card-date{transition:opacity .12s}
 </style>
 
 <script>
