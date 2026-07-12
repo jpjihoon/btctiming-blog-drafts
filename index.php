@@ -31,6 +31,47 @@ $__blogCoinsJson = json_encode($__blogCoins, JSON_UNESCAPED_UNICODE);
 
 $articles = collectArticles(__DIR__);
 // 목록 날짜: 24h 이내는 언어별 상대시간(서버 렌더 → 깜빡임 없음), 그 이상은 절대날짜.
+function getPopularSlugs(array $articles, int $need = 5): array {
+    $cacheFile = sys_get_temp_dir() . '/btc_blog_popular.json';
+    if (is_readable($cacheFile) && (time() - @filemtime($cacheFile) < 180)) {
+        $c = json_decode(@file_get_contents($cacheFile), true);
+        if (is_array($c) && count($c) >= 1) return array_slice($c, 0, $need);
+    }
+    $result = [];
+    $url = 'https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app/blogViewsHourly.json';
+    if (function_exists('curl_init')) {
+        $ch = curl_init($url);
+        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER=>true, CURLOPT_TIMEOUT_MS=>700, CURLOPT_CONNECTTIMEOUT_MS=>400, CURLOPT_SSL_VERIFYPEER=>false]);
+        $raw = curl_exec($ch); curl_close($ch);
+        $data = $raw ? json_decode($raw, true) : null;
+        if (is_array($data)) {
+            $sumWin = function(int $hours) use ($data): array {
+                $ok = []; for ($x=0; $x<$hours; $x++) { $ok[gmdate('YmdH', time()-$x*3600)] = 1; }
+                $out = [];
+                foreach ($data as $slug=>$buckets) {
+                    if (!is_array($buckets)) continue;
+                    $s = 0; foreach ($buckets as $b=>$c) { if (isset($ok[$b])) $s += (int)$c; }
+                    if ($s > 0) $out[$slug] = $s;
+                }
+                arsort($out); return array_keys($out);
+            };
+            $ranked = $sumWin(24);
+            if (count($ranked) < $need) $ranked = $sumWin(48);
+            $result = $ranked;
+        }
+    }
+    // 부족하면 최신글로 채움
+    if (count($result) < $need) {
+        foreach ($articles as $a) {
+            $slug = basename($a['file'] ?? '', '.php');
+            if ($slug !== '' && !in_array($slug, $result, true)) $result[] = $slug;
+            if (count($result) >= $need) break;
+        }
+    }
+    $result = array_slice($result, 0, $need);
+    @file_put_contents($cacheFile, json_encode($result));
+    return $result;
+}
 function relDateSpans(string $iso, string $curLang): string {
     $iso = trim($iso);
     if ($iso === '') return '';
@@ -103,10 +144,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 <meta property="og:site_name" content="BTCtiming.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
-<style>
-.pop-skel{height:15px;margin:13px 0;border-radius:4px;background:linear-gradient(90deg,var(--bg3) 25%,var(--bg2) 37%,var(--bg3) 63%);background-size:400% 100%;animation:popShimmer 1.3s ease-in-out infinite}
-.pop-skel:nth-child(1){width:92%}.pop-skel:nth-child(2){width:78%}.pop-skel:nth-child(3){width:85%}.pop-skel:nth-child(4){width:70%}.pop-skel:nth-child(5){width:80%}
-@keyframes popShimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
+<style>100%{background-position:-100% 0}}
 .exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
 .exch-banner:hover{border-color:rgba(247,147,26,.7)}
 .exch-banner:active{transform:scale(.99)}
@@ -371,7 +409,22 @@ foreach ($__langKeys as $__l) {
   </div><!-- /blog-main -->
 
   <aside class="blog-side">
-    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"><div class="pop-skel"></div><div class="pop-skel"></div><div class="pop-skel"></div><div class="pop-skel"></div><div class="pop-skel"></div></div></div>
+    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"><?php
+      $__popSlugs = getPopularSlugs($articles, 5);
+      $__bySlug = [];
+      foreach ($articles as $__a2) { $__bySlug[basename($__a2['file'] ?? '', '.php')] = $__a2; }
+      $__pn = 0;
+      foreach ($__popSlugs as $__ps) {
+          $__pa = $__bySlug[$__ps] ?? null; if (!$__pa) continue; $__pn++;
+          echo '<a href="/blog/'.h($__pa['file']).'" class="pop-item"><span class="pop-n">'.$__pn.'</span><span class="pop-t">';
+          foreach (array_keys(SUPPORTED_LANGS) as $__pl) {
+              $__cls = ($__pl==='ko')?'ko':($__pl.'-show');
+              $__tt = $__pa["title_{$__pl}"] ?? ($__pa['title_en'] ?? '');
+              echo '<span class="'.$__cls.'">'.h($__tt).'</span>';
+          }
+          echo '</span></a>';
+      }
+      ?></div></div>
     <a href="/exchanges.php<?= h(langSuffix($__blLang)) ?>" class="exch-banner">
       <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
       <span class="exch-banner-tx">
@@ -430,42 +483,7 @@ function relTimeText(dateStr, lang){
     return '📅 '+d.toLocaleDateString(lang||'ko',{year:'numeric',month:'2-digit',day:'2-digit'}); // 오래되면 날짜
   }catch(e){ return null; }
 }
-var __popCards=[];
-function __curLang(){ var r=document.getElementById('html-root'); return ((r&&r.className)||'ko').trim().split(/\s+/)[0]||'ko'; }
-function __activeText(c){
-  var lang=__curLang();
-  var sel=(lang==='ko')?'.card-title.ko':('.card-title.'+lang+'-show');
-  var el=c.querySelector(sel)||c.querySelector('.card-title');
-  return el?el.textContent.trim():'';
-}
-function renderPopular(){
-  var box=document.getElementById('popularList'); if(!box) return;
-  box.innerHTML='';
-  __popCards.slice(0,5).forEach(function(c,i){ if(!c) return;
-    var a=document.createElement('a'); a.href=c.getAttribute('href'); a.className='pop-item';
-    var n=document.createElement('span'); n.className='pop-n'; n.textContent=(i+1);
-    var tt=document.createElement('span'); tt.className='pop-t'; tt.textContent=__activeText(c);
-    a.appendChild(n); a.appendChild(tt); box.appendChild(a);
-  });
-}
-function initPopular(){
-  var box=document.getElementById('popularList'); if(!box) return;
-  var cards=[].slice.call(document.querySelectorAll('#articleGrid .article-card'));
-  var bySlug={};
-  cards.forEach(function(c){ var h=c.getAttribute('href')||''; var m=h.match(/\/blog\/([^\/?#]+?)(?:\.php)?(?:[?#]|$)/); if(m) bySlug[m[1]]=c; });
-  function bucket(hAgo){ var d=new Date(Date.now()-hAgo*3600000); function p(n){return(n<10?'0':'')+n;} return ''+d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+p(d.getUTCHours()); }
-  function sumWin(hours,data){ var ok={}; for(var i=0;i<hours;i++) ok[bucket(i)]=1; var out=[]; for(var s in data){ var b=data[s],sum=0; for(var k in b){ if(ok[k]) sum+=(+b[k]||0); } if(sum>0) out.push([s,sum]); } out.sort(function(a,b){return b[1]-a[1];}); return out; }
-  function finish(picked){ __popCards=picked; renderPopular(); }
-  var DB='https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
-  fetch(DB+'/blogViewsHourly.json').then(function(r){return r.json();}).then(function(data){
-    if(!data){ finish(cards.slice(0,5)); return; }
-    var ranked=sumWin(24,data); if(ranked.length<5) ranked=sumWin(48,data);
-    if(!ranked.length){ finish(cards.slice(0,5)); return; }
-    var picked=ranked.map(function(x){return bySlug[x[0]];}).filter(Boolean);
-    for(var i=0;i<cards.length && picked.length<5;i++){ if(picked.indexOf(cards[i])<0) picked.push(cards[i]); }
-    finish(picked);
-  }).catch(function(){ finish(cards.slice(0,5)); });
-}
+
 function applyRelTimes(lang){
   document.querySelectorAll('.card-date[data-date]').forEach(function(el){
     var txt = relTimeText(el.getAttribute('data-date'), lang);
@@ -476,7 +494,6 @@ function setLang(lang, doSave) {
   const root = document.getElementById('html-root');
   root.className = lang;
   root.lang = lang;
-  if(typeof renderPopular==='function') renderPopular();
   const trigLabel = document.getElementById('langTriggerLabel');
   if(trigLabel) trigLabel.textContent = lang.toUpperCase();
   document.querySelectorAll('.lang-menu-item').forEach(el => {
@@ -749,6 +766,6 @@ try{
   },{passive:true});
 })();
 </script>
-<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');initPopular();});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');});</script>
 </body>
 </html>
