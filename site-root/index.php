@@ -586,14 +586,14 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .seo-hero p{font-size:11px;color:var(--t3);line-height:1.4;margin:0}
 @media(max-width:900px){.seo-hero{padding:0 2px 8px}}
 @media(max-width:600px){.seo-hero h1{font-size:13px}.seo-hero p{font-size:10.5px}}
-.layout{display:grid;grid-template-columns:340px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:16px 16px;align-items:start}
+.layout{display:grid;grid-template-columns:340px 1fr;grid-template-areas:"sidebar chart" "sidebar mainrest";gap:16px 16px;align-items:start;padding:0 16px}
 .sidebar{grid-area:sidebar}
-.chart-wrap-cell{grid-area:chart;padding:16px 16px 0}
-@media(max-width:900px){.chart-wrap-cell{padding:16px 16px 0}}
+.chart-wrap-cell{grid-area:chart;padding:16px 0 0}
+@media(max-width:900px){.chart-wrap-cell{padding:16px 0 0}}
 .main{grid-area:mainrest}
 @media(max-width:900px){.layout{grid-template-columns:1fr;grid-template-areas:"chart" "sidebar" "mainrest"}}
 .sidebar{display:flex;flex-direction:column;gap:14px;align-self:start;padding-top:16px}
-@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;padding:16px 16px 0}}
+@media(max-width:900px){.sidebar{position:static;height:auto;border-right:none;padding:16px 0 0}}
 .main{padding:0 16px 16px;display:flex;flex-direction:column;gap:14px;min-width:0}
 
 /* ── SCORE CARD ── */
@@ -835,7 +835,7 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
 .exch-banner-tx span{font-size:11px;color:var(--t3)}
 .exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;position:relative;z-index:1;line-height:1}
-footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
+footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 0;border-top:1px solid var(--b1);grid-column:1/-1}
 #blogTickerScroll::-webkit-scrollbar{display:none}
 
 #blogCategoryScroll::-webkit-scrollbar{display:none}
@@ -1280,7 +1280,7 @@ $__seoSub = [
     </div>
   </div>
 </div>
-<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
+<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 0;font-size:10px;color:var(--t3)">
       <span data-i="footerSources">Auto-fetched</span>: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
       <span data-i="footerDisclaimer2">On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.</span><br><br>
       <div id="blogCategoryBar" style="display:flex;align-items:center;gap:0;max-width:100%;overflow:hidden">
