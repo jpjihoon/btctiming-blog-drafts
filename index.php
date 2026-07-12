@@ -216,9 +216,9 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 .blog-side{display:flex;flex-direction:column;gap:26px}
 .blog-side .sec-h{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--b1)}
 .pop-item{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--b1);align-items:baseline;text-decoration:none;color:inherit}
-.pop-card{display:flex;gap:10px;align-items:flex-start;padding:11px 12px;background:var(--bg3);border:1px solid var(--b1);border-left:3px solid var(--b2);border-radius:8px;text-decoration:none;color:inherit;margin-bottom:8px;transition:transform .12s,background .12s}
+.pop-card{display:flex;gap:10px;align-items:flex-start;padding:12px;background:var(--bg2);border:1px solid var(--b1);border-left:3px solid var(--b2);border-radius:8px;text-decoration:none;color:inherit;margin-bottom:8px;transition:border-color .12s,background .12s,transform .12s}
 .pop-card:last-child{margin-bottom:0}
-.pop-card:hover{transform:translateY(-2px);background:#191920}
+.pop-card:hover{border-color:var(--icard-accent,var(--orange));background:var(--bg3);transform:translateY(-2px)}
 .pop-card-icon{flex-shrink:0;font-size:16px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:var(--icard-accent-bg,rgba(247,147,26,.14));border-radius:8px}
 .pop-card-main{display:flex;flex-direction:column;gap:3px;min-width:0}
 .pop-card-cat{font-size:10px;font-weight:700;color:var(--t2)}
@@ -413,7 +413,7 @@ foreach ($__langKeys as $__l) {
           $__pi = $__pa['icon'] ?? '📄';
           $__pc = $__pa['color'] ?? '#f7931a';
           $__pcat = $__pa['category'] ?? '';
-          echo '<a href="/blog/'.h($__pa['file']).'" class="pop-card" style="--icard-accent-bg:'.h($__pc).'26">';
+          echo '<a href="/blog/'.h($__pa['file']).'" class="pop-card" style="--icard-accent-bg:'.h($__pc).'26;--icard-accent:'.h($__pc).'">';
           echo '<span class="pop-card-icon">'.$__pi.'</span>';
           echo '<span class="pop-card-main">';
           echo '<span class="pop-card-cat">';
