@@ -404,6 +404,15 @@ foreach ($__langKeys as $__l) {
 
 <div class="wrap">
   <aside class="blog-side">
+    <a href="/exchanges.php<?= h(langSuffix($__blLang)) ?>" class="exch-banner">
+      <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
+      <span class="exch-banner-tx">
+        <b><span class="ko">어떤 거래소로 시작할까?</span><span class="en-show">Which exchange to start with?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Qué exchange elegir?</span><span class="de-show">Welche Börse?</span><span class="fr-show">Quelle plateforme ?</span><span class="pt-show">Qual corretora?</span><span class="tr-show">Hangi borsa?</span><span class="vi-show">Sàn nào để bắt đầu?</span></b>
+        <span><span class="ko">바이낸스·바이비트 비교 + 최대 20% 수수료 할인</span><span class="en-show">Compare Binance & Bybit + up to 20% fee discount</span><span class="ja-show">Binance・Bybit 比較 + 最大20%割引</span><span class="es-show">Binance y Bybit + hasta 20% descuento</span><span class="de-show">Binance & Bybit + bis zu 20% Rabatt</span><span class="fr-show">Binance & Bybit + jusqu’à 20% de réduction</span><span class="pt-show">Binance e Bybit + até 20% de desconto</span><span class="tr-show">Binance & Bybit + %20’ye varan indirim</span><span class="vi-show">Binance & Bybit + giảm phí tới 20%</span></span>
+      </span>
+      <span class="exch-banner-ar">›</span>
+    </a>
+    
     <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"><?php
       $__popSlugs = getPopularSlugs($articles, 5);
       $__bySlug = [];
@@ -434,14 +443,6 @@ foreach ($__langKeys as $__l) {
           echo '</span></a>';
       }
       ?></div></div>
-    <a href="/exchanges.php<?= h(langSuffix($__blLang)) ?>" class="exch-banner">
-      <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
-      <span class="exch-banner-tx">
-        <b><span class="ko">어떤 거래소로 시작할까?</span><span class="en-show">Which exchange to start with?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Qué exchange elegir?</span><span class="de-show">Welche Börse?</span><span class="fr-show">Quelle plateforme ?</span><span class="pt-show">Qual corretora?</span><span class="tr-show">Hangi borsa?</span><span class="vi-show">Sàn nào để bắt đầu?</span></b>
-        <span><span class="ko">바이낸스·바이비트 비교 + 최대 20% 수수료 할인</span><span class="en-show">Compare Binance & Bybit + up to 20% fee discount</span><span class="ja-show">Binance・Bybit 比較 + 最大20%割引</span><span class="es-show">Binance y Bybit + hasta 20% descuento</span><span class="de-show">Binance & Bybit + bis zu 20% Rabatt</span><span class="fr-show">Binance & Bybit + jusqu’à 20% de réduction</span><span class="pt-show">Binance e Bybit + até 20% de desconto</span><span class="tr-show">Binance & Bybit + %20’ye varan indirim</span><span class="vi-show">Binance & Bybit + giảm phí tới 20%</span></span>
-      </span>
-      <span class="exch-banner-ar">›</span>
-    </a>
   </aside>
   <div class="blog-main">
   <div class="article-grid" id="articleGrid">
