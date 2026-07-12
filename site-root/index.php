@@ -576,7 +576,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
 /* ── LAYOUT ── */
-.page-wrap{max-width:1280px;margin:0 auto;width:100%;padding:0 16px}
+.page-wrap{max-width:1280px;margin:0 auto;width:100%}
 /* SEO 대표 제목(h1) — 티커바 오른쪽 끝에 작게. 모바일에선 공간이 좁아 숨김 */
 .ticker-h1{overflow:hidden;text-overflow:ellipsis;max-width:340px}
 @media(max-width:900px){.ticker-h1{display:none}}
