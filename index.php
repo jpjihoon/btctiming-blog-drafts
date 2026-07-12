@@ -107,7 +107,6 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 /* ===== 뉴스허브 레이아웃 (목록) ===== */
 .wrap{max-width:1120px}
 @media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
-#articleGrid .article-card.cat-hidden{display:none}
 .cat-tabs{max-width:1120px}
 /* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
 #articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
@@ -332,7 +331,7 @@ foreach ($__langKeys as $__l) {
     // 그 외 언어는 display:none으로 숨겨두고, 언어 전환 시 JS(setLang)가 인라인 style을 조정한다.
     $styOf = fn($l) => ($l === $__blLang) ? '' : ' style="display:none"';
 ?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card<?= ($__cat!=='all' && $cat!==$__cat)?' cat-hidden':'' ?>" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+    <a href="/blog/<?= h($a['file']) ?>" class="article-card<?= ($__cat!=='all' && $cat!==$__cat)?' hidden':'' ?>" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
       <div class="card-body">
         <div class="card-tagrow">
@@ -412,10 +411,12 @@ function relTimeText(dateStr, lang){
   }catch(e){ return null; }
 }
 var __popCards=[];
-function __activeText(c,sel){
-  var els=c.querySelectorAll(sel);
-  for(var i=0;i<els.length;i++){ if(els[i].offsetParent!==null){ var x=els[i].textContent.trim(); if(x) return x; } }
-  return (els[0]?els[0].textContent.trim():'');
+function __curLang(){ var r=document.getElementById('html-root'); return ((r&&r.className)||'ko').trim().split(/\s+/)[0]||'ko'; }
+function __activeText(c){
+  var lang=__curLang();
+  var sel=(lang==='ko')?'.card-title.ko':('.card-title.'+lang+'-show');
+  var el=c.querySelector(sel)||c.querySelector('.card-title');
+  return el?el.textContent.trim():'';
 }
 function renderPopular(){
   var box=document.getElementById('popularList'); if(!box) return;
@@ -423,7 +424,7 @@ function renderPopular(){
   __popCards.slice(0,5).forEach(function(c,i){ if(!c) return;
     var a=document.createElement('a'); a.href=c.getAttribute('href'); a.className='pop-item';
     var n=document.createElement('span'); n.className='pop-n'; n.textContent=(i+1);
-    var tt=document.createElement('span'); tt.className='pop-t'; tt.textContent=__activeText(c,'.card-title');
+    var tt=document.createElement('span'); tt.className='pop-t'; tt.textContent=__activeText(c);
     a.appendChild(n); a.appendChild(tt); box.appendChild(a);
   });
 }
@@ -435,6 +436,7 @@ function initPopular(){
   function bucket(hAgo){ var d=new Date(Date.now()-hAgo*3600000); function p(n){return(n<10?'0':'')+n;} return ''+d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+p(d.getUTCHours()); }
   function sumWin(hours,data){ var ok={}; for(var i=0;i<hours;i++) ok[bucket(i)]=1; var out=[]; for(var s in data){ var b=data[s],sum=0; for(var k in b){ if(ok[k]) sum+=(+b[k]||0); } if(sum>0) out.push([s,sum]); } out.sort(function(a,b){return b[1]-a[1];}); return out; }
   function finish(picked){ __popCards=picked; renderPopular(); }
+  finish(cards.slice(0,5)); // 즉시 최신글 렌더(빈 상태·지연 방지)
   var DB='https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
   fetch(DB+'/blogViewsHourly.json').then(function(r){return r.json();}).then(function(data){
     if(!data){ finish(cards.slice(0,5)); return; }
