@@ -228,6 +228,8 @@ echo 'footer ' . implode(',footer ', array_map(fn($l)=>'.'.$l, $__langKeys)) . "
 $__footerShow = array_map(fn($l)=>'[lang="'.$l.'"] footer .'.$l, $__langKeys);
 echo implode(',', $__footerShow) . "{display:inline}\n";
 // 본문: body(html-root) className이 현재 언어. ko 외 언어일 때 .ko 숨김 + 해당 .{lang}-show 표시.
+// -show 스팬 기본 숨김(활성 언어만 아래에서 표시). inline display:none 제거해도 ko 뷰에서 안 새게.
+echo implode(',', array_map(fn($l)=>'.'.$l.'-show', array_filter($__langKeys, fn($l)=>$l!=='ko'))) . "{display:none}\n";
 foreach ($__langKeys as $__l) {
     if ($__l === 'ko') continue;
     echo '.' . $__l . ' .ko{display:none}';
@@ -255,14 +257,14 @@ foreach ($__langKeys as $__l) {
 <nav><div class="nav-w">
   <a href="/" class="logo" id="logoLink"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <span class="back ko">← <a href="/" style="color:var(--t2)">실시간 분석으로 돌아가기</a></span>
-  <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:var(--t2)">Back to Live Analysis</a></span>
-  <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:var(--t2)">リアルタイム分析に戻る</a></span>
-  <span class="back es-show" style="display:none">← <a href="/?lang=es" style="color:var(--t2)">Volver al Análisis en Vivo</a></span>
-  <span class="back de-show" style="display:none">← <a href="/?lang=de" style="color:var(--t2)">Zurück zur Live-Analyse</a></span>
-  <span class="back fr-show" style="display:none">← <a href="/?lang=fr" style="color:var(--t2)">Retour à l'analyse en direct</a></span>
-  <span class="back pt-show" style="display:none">← <a href="/?lang=pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
-  <span class="back tr-show" style="display:none">← <a href="/?lang=tr" style="color:var(--t2)">Canlı analize dön</a></span>
-  <span class="back vi-show" style="display:none">← <a href="/?lang=vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
+  <span class="back en-show">← <a href="/?lang=en" style="color:var(--t2)">Back to Live Analysis</a></span>
+  <span class="back ja-show">← <a href="/?lang=ja" style="color:var(--t2)">リアルタイム分析に戻る</a></span>
+  <span class="back es-show">← <a href="/?lang=es" style="color:var(--t2)">Volver al Análisis en Vivo</a></span>
+  <span class="back de-show">← <a href="/?lang=de" style="color:var(--t2)">Zurück zur Live-Analyse</a></span>
+  <span class="back fr-show">← <a href="/?lang=fr" style="color:var(--t2)">Retour à l'analyse en direct</a></span>
+  <span class="back pt-show">← <a href="/?lang=pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
+  <span class="back tr-show">← <a href="/?lang=tr" style="color:var(--t2)">Canlı analize dön</a></span>
+  <span class="back vi-show">← <a href="/?lang=vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
       <span id="langTriggerLabel"><?= h(strtoupper($__blLang)) ?></span><span class="lang-caret">▾</span>
@@ -277,23 +279,23 @@ foreach ($__langKeys as $__l) {
 
 <div class="blog-head">
   <h1 class="ko">블로그</h1>
-  <h1 class="en-show" style="display:none">Blog</h1>
-  <h1 class="ja-show" style="display:none">ブログ</h1>
-  <h1 class="es-show" style="display:none">Blog</h1>
-  <h1 class="de-show" style="display:none">Blog</h1>
-  <h1 class="fr-show" style="display:none">Blog</h1>
-  <h1 class="pt-show" style="display:none">Blog</h1>
-  <h1 class="tr-show" style="display:none">Blog</h1>
-  <h1 class="vi-show" style="display:none">Blog</h1>
+  <h1 class="en-show">Blog</h1>
+  <h1 class="ja-show">ブログ</h1>
+  <h1 class="es-show">Blog</h1>
+  <h1 class="de-show">Blog</h1>
+  <h1 class="fr-show">Blog</h1>
+  <h1 class="pt-show">Blog</h1>
+  <h1 class="tr-show">Blog</h1>
+  <h1 class="vi-show">Blog</h1>
 </div>
 
 <div class="cat-tabs" id="catTabs">
   <button class="cat-tab<?= $__cat==='all'?' active':'' ?>" data-cat="all" onclick="filterCat('all')">
-    <span class="ko">전체</span><span class="en-show" style="display:none">All</span><span class="ja-show" style="display:none">全て</span><span class="es-show" style="display:none">Todo</span><span class="de-show" style="display:none">Alle</span><span class="fr-show" style="display:none">Tout</span><span class="pt-show" style="display:none">Todos</span><span class="tr-show" style="display:none">Tümü</span><span class="vi-show" style="display:none">Tất cả</span>
+    <span class="ko">전체</span><span class="en-show">All</span><span class="ja-show">全て</span><span class="es-show">Todo</span><span class="de-show">Alle</span><span class="fr-show">Tout</span><span class="pt-show">Todos</span><span class="tr-show">Tümü</span><span class="vi-show">Tất cả</span>
   </button>
 <?php foreach ($tabs as $cat): $cm = CATEGORY_META[$cat]; ?>
   <button class="cat-tab<?= $__cat===$cat?' active':'' ?>" data-cat="<?= h($cat) ?>" style="--cat-color:<?= h($cm['color']) ?>" onclick="filterCat('<?= h($cat) ?>')">
-    <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show" style="display:none"><?= h($cm['en']) ?></span><span class="ja-show" style="display:none"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show" style="display:none"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show" style="display:none"><?= h($cm['de'] ?? $cm['en']) ?></span><span class="fr-show" style="display:none"><?= h($cm['fr'] ?? $cm['en']) ?></span><span class="pt-show" style="display:none"><?= h($cm['pt'] ?? $cm['en']) ?></span><span class="tr-show" style="display:none"><?= h($cm['tr'] ?? $cm['en']) ?></span><span class="vi-show" style="display:none"><?= h($cm['vi'] ?? $cm['en']) ?></span>
+    <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show"><?= h($cm['en']) ?></span><span class="ja-show"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show"><?= h($cm['de'] ?? $cm['en']) ?></span><span class="fr-show"><?= h($cm['fr'] ?? $cm['en']) ?></span><span class="pt-show"><?= h($cm['pt'] ?? $cm['en']) ?></span><span class="tr-show"><?= h($cm['tr'] ?? $cm['en']) ?></span><span class="vi-show"><?= h($cm['vi'] ?? $cm['en']) ?></span>
   </button>
 <?php endforeach; ?>
 </div>
@@ -303,14 +305,14 @@ foreach ($__langKeys as $__l) {
   <div class="article-grid" id="articleGrid">
 <?php if (empty($articles)): ?>
     <div class="empty ko">아직 등록된 글이 없습니다.</div>
-    <div class="empty en-show" style="display:none">No articles yet.</div>
-    <div class="empty ja-show" style="display:none">まだ記事がありません。</div>
-    <div class="empty es-show" style="display:none">Aún no hay artículos.</div>
-    <div class="empty de-show" style="display:none">Noch keine Artikel vorhanden.</div>
-    <div class="empty fr-show" style="display:none">Aucun article pour le moment.</div>
-    <div class="empty pt-show" style="display:none">Ainda não há artigos.</div>
-    <div class="empty tr-show" style="display:none">Henüz yazı yok.</div>
-    <div class="empty vi-show" style="display:none">Chưa có bài viết nào.</div>
+    <div class="empty en-show">No articles yet.</div>
+    <div class="empty ja-show">まだ記事がありません。</div>
+    <div class="empty es-show">Aún no hay artículos.</div>
+    <div class="empty de-show">Noch keine Artikel vorhanden.</div>
+    <div class="empty fr-show">Aucun article pour le moment.</div>
+    <div class="empty pt-show">Ainda não há artigos.</div>
+    <div class="empty tr-show">Henüz yazı yok.</div>
+    <div class="empty vi-show">Chưa có bài viết nào.</div>
 <?php else: foreach ($articles as $i => $a):
     $icon = $a['icon'] ?? '📄';
     $color = $a['color'] ?? '#f7931a';
@@ -351,45 +353,45 @@ foreach ($__langKeys as $__l) {
   </div>
 
   <button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="display:none">
-    <span class="ko">더 보기</span><span class="en-show" style="display:none">Load More</span><span class="ja-show" style="display:none">もっと見る</span><span class="es-show" style="display:none">Ver Más</span><span class="de-show" style="display:none">Mehr laden</span><span class="fr-show" style="display:none">Voir plus</span><span class="pt-show" style="display:none">Ver mais</span><span class="tr-show" style="display:none">Daha fazla</span><span class="vi-show" style="display:none">Xem thêm</span>
+    <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
     <span id="loadMoreCount"></span>
   </button>
   </div><!-- /blog-main -->
 
   <aside class="blog-side">
-    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show" style="display:none">Most Read</span><span class="ja-show" style="display:none">よく読まれた記事</span><span class="es-show" style="display:none">Más leídos</span><span class="de-show" style="display:none">Meistgelesen</span><span class="fr-show" style="display:none">Les plus lus</span><span class="pt-show" style="display:none">Mais lidos</span><span class="tr-show" style="display:none">En çok okunan</span><span class="vi-show" style="display:none">Đọc nhiều nhất</span></h3><div id="popularList"></div></div>
-    <div><h3 class="sec-h"><span class="ko">지표 용어사전</span><span class="en-show" style="display:none">Glossary</span><span class="ja-show" style="display:none">用語集</span><span class="es-show" style="display:none">Glosario</span><span class="de-show" style="display:none">Glossar</span><span class="fr-show" style="display:none">Glossaire</span><span class="pt-show" style="display:none">Glossário</span><span class="tr-show" style="display:none">Terimler</span><span class="vi-show" style="display:none">Thuật ngữ</span></h3><div class="side-terms"><a href="/glossary.php">MVRV Z</a><a href="/glossary.php">NUPL</a><a href="/glossary.php">Hash Ribbon</a><a href="/glossary.php">STH-SOPR</a><a href="/glossary.php">Coinbase Premium</a><a href="/glossary.php">Funding Rate</a><a href="/glossary.php">200W MA</a><a href="/glossary.php">Fear &amp; Greed</a></div><a class="side-more" href="/glossary.php"><span class="ko">전체 보기 →</span><span class="en-show" style="display:none">View all →</span><span class="ja-show" style="display:none">すべて見る →</span><span class="es-show" style="display:none">Ver todo →</span><span class="de-show" style="display:none">Alle →</span><span class="fr-show" style="display:none">Tout voir →</span><span class="pt-show" style="display:none">Ver tudo →</span><span class="tr-show" style="display:none">Tümü →</span><span class="vi-show" style="display:none">Xem tất cả →</span></a></div>
-    <div class="side-exch"><h4><span class="ko">거래소, 어디서 시작할까?</span><span class="en-show" style="display:none">Where to start trading?</span><span class="ja-show" style="display:none">取引所はどこから?</span><span class="es-show" style="display:none">¿Dónde empezar?</span><span class="de-show" style="display:none">Wo starten?</span><span class="fr-show" style="display:none">Où commencer ?</span><span class="pt-show" style="display:none">Por onde começar?</span><span class="tr-show" style="display:none">Nereden başlamalı?</span><span class="vi-show" style="display:none">Bắt đầu ở đâu?</span></h4><p><span class="ko">추천 링크로 <span class="pct">최대 20% 수수료 할인</span></span><span class="en-show" style="display:none"><span class="pct">Up to 20% fee discount</span></span><span class="ja-show" style="display:none"><span class="pct">最大20%手数料割引</span></span><span class="es-show" style="display:none"><span class="pct">Hasta 20% de descuento</span></span><span class="de-show" style="display:none"><span class="pct">Bis zu 20% Rabatt</span></span><span class="fr-show" style="display:none"><span class="pct">Jusqu'à 20% de réduction</span></span><span class="pt-show" style="display:none"><span class="pct">Até 20% de desconto</span></span><span class="tr-show" style="display:none"><span class="pct">%20'ye varan indirim</span></span><span class="vi-show" style="display:none"><span class="pct">Giảm phí tới 20%</span></span></p><a href="/exchanges.php"><span class="ko">바이낸스 · 바이비트 비교 →</span><span class="en-show" style="display:none">Compare Binance · Bybit →</span><span class="ja-show" style="display:none">Binance · Bybit 比較 →</span><span class="es-show" style="display:none">Comparar →</span><span class="de-show" style="display:none">Vergleichen →</span><span class="fr-show" style="display:none">Comparer →</span><span class="pt-show" style="display:none">Comparar →</span><span class="tr-show" style="display:none">Karşılaştır →</span><span class="vi-show" style="display:none">So sánh →</span></a></div>
+    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"></div></div>
+    <div><h3 class="sec-h"><span class="ko">지표 용어사전</span><span class="en-show">Glossary</span><span class="ja-show">用語集</span><span class="es-show">Glosario</span><span class="de-show">Glossar</span><span class="fr-show">Glossaire</span><span class="pt-show">Glossário</span><span class="tr-show">Terimler</span><span class="vi-show">Thuật ngữ</span></h3><div class="side-terms"><a href="/glossary.php">MVRV Z</a><a href="/glossary.php">NUPL</a><a href="/glossary.php">Hash Ribbon</a><a href="/glossary.php">STH-SOPR</a><a href="/glossary.php">Coinbase Premium</a><a href="/glossary.php">Funding Rate</a><a href="/glossary.php">200W MA</a><a href="/glossary.php">Fear &amp; Greed</a></div><a class="side-more" href="/glossary.php"><span class="ko">전체 보기 →</span><span class="en-show">View all →</span><span class="ja-show">すべて見る →</span><span class="es-show">Ver todo →</span><span class="de-show">Alle →</span><span class="fr-show">Tout voir →</span><span class="pt-show">Ver tudo →</span><span class="tr-show">Tümü →</span><span class="vi-show">Xem tất cả →</span></a></div>
+    <div class="side-exch"><h4><span class="ko">거래소, 어디서 시작할까?</span><span class="en-show">Where to start trading?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Dónde empezar?</span><span class="de-show">Wo starten?</span><span class="fr-show">Où commencer ?</span><span class="pt-show">Por onde começar?</span><span class="tr-show">Nereden başlamalı?</span><span class="vi-show">Bắt đầu ở đâu?</span></h4><p><span class="ko">추천 링크로 <span class="pct">최대 20% 수수료 할인</span></span><span class="en-show"><span class="pct">Up to 20% fee discount</span></span><span class="ja-show"><span class="pct">最大20%手数料割引</span></span><span class="es-show"><span class="pct">Hasta 20% de descuento</span></span><span class="de-show"><span class="pct">Bis zu 20% Rabatt</span></span><span class="fr-show"><span class="pct">Jusqu'à 20% de réduction</span></span><span class="pt-show"><span class="pct">Até 20% de desconto</span></span><span class="tr-show"><span class="pct">%20'ye varan indirim</span></span><span class="vi-show"><span class="pct">Giảm phí tới 20%</span></span></p><a href="/exchanges.php"><span class="ko">바이낸스 · 바이비트 비교 →</span><span class="en-show">Compare Binance · Bybit →</span><span class="ja-show">Binance · Bybit 比較 →</span><span class="es-show">Comparar →</span><span class="de-show">Vergleichen →</span><span class="fr-show">Comparer →</span><span class="pt-show">Comparar →</span><span class="tr-show">Karşılaştır →</span><span class="vi-show">So sánh →</span></a></div>
   </aside>
 
   <div class="cta-main">
     <h2 class="ko">지금 비트코인 타이밍 실시간 확인하기</h2>
-    <h2 class="en-show" style="display:none">Check Bitcoin Timing Score Live</h2>
-    <h2 class="ja-show" style="display:none">今すぐビットコインタイミングをリアルタイムで確認</h2>
-    <h2 class="es-show" style="display:none">Consulta el Timing de Bitcoin en Vivo</h2>
-    <h2 class="de-show" style="display:none">Bitcoin-Timing jetzt live prüfen</h2>
-    <h2 class="fr-show" style="display:none">Vérifiez le timing Bitcoin en direct</h2>
-    <h2 class="pt-show" style="display:none">Confira o timing do Bitcoin ao vivo</h2>
-    <h2 class="tr-show" style="display:none">Bitcoin zamanlamasını şimdi canlı kontrol et</h2>
-    <h2 class="vi-show" style="display:none">Kiểm tra thời điểm Bitcoin trực tiếp</h2>
+    <h2 class="en-show">Check Bitcoin Timing Score Live</h2>
+    <h2 class="ja-show">今すぐビットコインタイミングをリアルタイムで確認</h2>
+    <h2 class="es-show">Consulta el Timing de Bitcoin en Vivo</h2>
+    <h2 class="de-show">Bitcoin-Timing jetzt live prüfen</h2>
+    <h2 class="fr-show">Vérifiez le timing Bitcoin en direct</h2>
+    <h2 class="pt-show">Confira o timing do Bitcoin ao vivo</h2>
+    <h2 class="tr-show">Bitcoin zamanlamasını şimdi canlı kontrol et</h2>
+    <h2 class="vi-show">Kiểm tra thời điểm Bitcoin trực tiếp</h2>
     <p class="ko">위 지표들을 종합한 0~10점 매수·매도 점수를 실시간으로 무료로 확인하세요.</p>
-    <p class="en-show" style="display:none">Get a live 0–10 buy/sell score combining all the indicators above — free.</p>
-    <p class="ja-show" style="display:none">上記の指標を統合した0〜10点の売買スコアをリアルタイムで無料確認できます。</p>
-    <p class="es-show" style="display:none">Consulta en tiempo real la puntuación de compra/venta de 0-10 combinando todos los indicadores anteriores — gratis.</p>
-    <p class="de-show" style="display:none">Erhalte in Echtzeit einen 0-10-Kauf-/Verkaufs-Score, der alle obigen Indikatoren kombiniert — kostenlos.</p>
-    <p class="fr-show" style="display:none">Obtenez en direct un score d'achat/vente de 0 à 10 combinant tous les indicateurs ci-dessus — gratuit.</p>
-    <p class="pt-show" style="display:none">Obtenha ao vivo uma pontuação de compra/venda de 0-10 combinando todos os indicadores acima — grátis.</p>
-    <p class="tr-show" style="display:none">Yukarıdaki tüm göstergeleri birleştiren 0-10 alım/satım puanını canlı ve ücretsiz alın.</p>
-    <p class="vi-show" style="display:none">Nhận điểm mua/bán 0–10 trực tiếp kết hợp tất cả các chỉ báo trên — miễn phí.</p>
+    <p class="en-show">Get a live 0–10 buy/sell score combining all the indicators above — free.</p>
+    <p class="ja-show">上記の指標を統合した0〜10点の売買スコアをリアルタイムで無料確認できます。</p>
+    <p class="es-show">Consulta en tiempo real la puntuación de compra/venta de 0-10 combinando todos los indicadores anteriores — gratis.</p>
+    <p class="de-show">Erhalte in Echtzeit einen 0-10-Kauf-/Verkaufs-Score, der alle obigen Indikatoren kombiniert — kostenlos.</p>
+    <p class="fr-show">Obtenez en direct un score d'achat/vente de 0 à 10 combinant tous les indicateurs ci-dessus — gratuit.</p>
+    <p class="pt-show">Obtenha ao vivo uma pontuação de compra/venda de 0-10 combinando todos os indicadores acima — grátis.</p>
+    <p class="tr-show">Yukarıdaki tüm göstergeleri birleştiren 0-10 alım/satım puanını canlı ve ücretsiz alın.</p>
+    <p class="vi-show">Nhận điểm mua/bán 0–10 trực tiếp kết hợp tất cả các chỉ báo trên — miễn phí.</p>
     <a href="/" class="ko">실시간 분석 보러가기 →</a>
-    <a href="/?lang=en" class="en-show" style="display:none">Go to Live Analysis →</a>
-    <a href="/?lang=ja" class="ja-show" style="display:none">リアルタイム分析を見る →</a>
-    <a href="/?lang=es" class="es-show" style="display:none">Ver Análisis en Vivo →</a>
-    <a href="/?lang=de" class="de-show" style="display:none">Live-Analyse ansehen →</a>
-    <a href="/?lang=fr" class="fr-show" style="display:none">Voir l'analyse en direct →</a>
-    <a href="/?lang=pt" class="pt-show" style="display:none">Ver análise ao vivo →</a>
-    <a href="/?lang=tr" class="tr-show" style="display:none">Canlı analizi gör →</a>
-    <a href="/?lang=vi" class="vi-show" style="display:none">Xem phân tích trực tiếp →</a>
+    <a href="/?lang=en" class="en-show">Go to Live Analysis →</a>
+    <a href="/?lang=ja" class="ja-show">リアルタイム分析を見る →</a>
+    <a href="/?lang=es" class="es-show">Ver Análisis en Vivo →</a>
+    <a href="/?lang=de" class="de-show">Live-Analyse ansehen →</a>
+    <a href="/?lang=fr" class="fr-show">Voir l'analyse en direct →</a>
+    <a href="/?lang=pt" class="pt-show">Ver análise ao vivo →</a>
+    <a href="/?lang=tr" class="tr-show">Canlı analizi gör →</a>
+    <a href="/?lang=vi" class="vi-show">Xem phân tích trực tiếp →</a>
   </div>
 </div>
 <?php require __DIR__ . '/../_shared_footer.php'; ?>
