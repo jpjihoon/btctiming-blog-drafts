@@ -30,6 +30,39 @@ if (defined('COIN_SYMBOLS')) {
 $__blogCoinsJson = json_encode($__blogCoins, JSON_UNESCAPED_UNICODE);
 
 $articles = collectArticles(__DIR__);
+// 목록 날짜: 24h 이내는 언어별 상대시간(서버 렌더 → 깜빡임 없음), 그 이상은 절대날짜.
+function relDateSpans(string $iso, string $curLang): string {
+    $iso = trim($iso);
+    if ($iso === '') return '';
+    $ts = strtotime($iso . ' +0900');
+    if ($ts === false) $ts = strtotime($iso);
+    $now = time();
+    $diff = ($ts === false) ? PHP_INT_MAX : ($now - $ts);
+    if ($ts === false || $diff >= 86400 || $diff < -3600) {
+        return '<span class="card-date">📅 ' . h(displayDate($iso)) . '</span>';
+    }
+    $m = intdiv($diff, 60); $hh = intdiv($diff, 3600);
+    $L = [
+        'ko'=>($m<1?'방금':($hh<1?"{$m}분 전":"{$hh}시간 전")),
+        'en'=>($m<1?'just now':($hh<1?"{$m}m ago":"{$hh}h ago")),
+        'ja'=>($m<1?'たった今':($hh<1?"{$m}分前":"{$hh}時間前")),
+        'es'=>($m<1?'ahora':($hh<1?"hace {$m} min":"hace {$hh} h")),
+        'de'=>($m<1?'gerade':($hh<1?"vor {$m} Min.":"vor {$hh} Std.")),
+        'fr'=>($m<1?'à l’instant':($hh<1?"il y a {$m} min":"il y a {$hh} h")),
+        'pt'=>($m<1?'agora':($hh<1?"há {$m} min":"há {$hh} h")),
+        'tr'=>($m<1?'az önce':($hh<1?"{$m} dk önce":"{$hh} sa önce")),
+        'vi'=>($m<1?'vừa xong':($hh<1?"{$m} phút trước":"{$hh} giờ trước")),
+    ];
+    $out='';
+    foreach (array_keys(SUPPORTED_LANGS) as $l) {
+        $cls = ($l==='ko') ? 'ko' : ($l.'-show');
+        $sty = ($l===$curLang) ? '' : ' style="display:none"';
+        $txt = $L[$l] ?? $L['en'];
+        $out .= '<span class="card-date '.$cls.'"'.$sty.'>🕒 '.h($txt).'</span>';
+    }
+    return $out;
+}
+
 
 // 실제 존재하는 카테고리만 탭으로 노출 (CATEGORY_META 순서를 따름)
 $presentCats = array_unique(array_column($articles, 'category'));
@@ -145,13 +178,13 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
 .sub{font-size:15px;color:var(--t2);max-width:520px}
 
 /* ── 카테고리 필터 탭 ── */
-.cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:1120px;margin:0 auto;padding:0 24px;position:relative;top:18px}
+.cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:1120px;margin:10px auto 0;padding:0 24px}
 .cat-tab{font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.1);
   background:#141418;color:#9a9aa4;cursor:pointer;transition:all .15s;white-space:nowrap}
 .cat-tab:hover{border-color:rgba(255,255,255,.25);color:#f2f2f5}
 .cat-tab.active{background:var(--cat-color,#f7931a);border-color:var(--cat-color,#f7931a);color:#000}
 
-.wrap{max-width:1120px;margin:0 auto;padding:16px 24px 80px}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 24px 80px}
 .article-grid{display:grid;gap:14px}
 .article-card{background:#141418;border:1px solid rgba(255,255,255,.07);border-radius:14px;
   padding:22px;transition:border-color .18s,transform .18s,background .18s;
@@ -209,7 +242,7 @@ foreach ($__langKeys as $__l) {
 @media(max-width:480px){
   .hero-inner{padding:40px 20px 28px}
   h1{font-size:1.6rem}
-  .cat-tabs{top:14px}
+  .cat-tabs{margin-top:8px}
   .article-card{padding:16px;gap:12px}
   .card-icon{width:42px;height:42px;font-size:19px;border-radius:10px}
   .card-arrow{display:none}
@@ -306,7 +339,7 @@ foreach ($__langKeys as $__l) {
         <?php foreach ($cardLangs as $l) echo '<div class="card-title '.$clsOf($l).'"'.$styOf($l).'>'.h($titleVal($l)).'</div>'; ?>
         <?php foreach ($cardLangs as $l) echo '<div class="card-desc '.$clsOf($l).'"'.$styOf($l).'>'.h($descVal($l)).'</div>'; ?>
         <div class="card-meta">
-          <span class="card-date" data-date="<?= h($a['date'] ?? '') ?>">📅 <?= h(displayDate($a['date'] ?? '')) ?></span>
+          <?= relDateSpans($a['date'] ?? '', $__blLang) ?>
           <?php foreach ($cardLangs as $l) { $fmt = $readFmt[$l] ?? $readFmt['en']; echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($fmt($readVal($l))).'</span>'; } ?>
         </div>
       </div>
@@ -419,7 +452,6 @@ function setLang(lang, doSave) {
   const root = document.getElementById('html-root');
   root.className = lang;
   root.lang = lang;
-  applyRelTimes(lang);
   if(typeof renderPopular==='function') renderPopular();
   const trigLabel = document.getElementById('langTriggerLabel');
   if(trigLabel) trigLabel.textContent = lang.toUpperCase();
@@ -693,6 +725,6 @@ try{
   },{passive:true});
 })();
 </script>
-<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');applyRelTimes((r&&r.className)||'ko');initPopular();});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var r=document.getElementById('html-root');initPopular();});</script>
 </body>
 </html>
