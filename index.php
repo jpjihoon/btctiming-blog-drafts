@@ -126,7 +126,7 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
   background:color-mix(in srgb, var(--cat-color,#f7931a) 16%, transparent);border-radius:5px;padding:2px 7px}
 .card-tag{font-size:11px;font-weight:700;color:var(--accent,#f7931a);letter-spacing:.06em;text-transform:uppercase}
 .card-title{font-size:1.08rem;font-weight:700;color:#f2f2f5;margin-bottom:6px;line-height:1.4}
-.card-desc{font-size:13.5px;color:var(--t2);line-height:1.6;margin-bottom:12px}
+.card-desc{font-size:13.5px;color:var(--t2);line-height:1.6;margin-bottom:12px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;transition:-webkit-line-clamp .15s}
 .card-meta{font-size:12px;color:var(--t3);display:flex;gap:12px;align-items:center}
 .card-arrow{flex-shrink:0;color:#3f3f46;font-size:18px;align-self:center;transition:transform .18s,color .18s}
 .article-card:hover .card-arrow{transform:translateX(3px);color:var(--accent,#f7931a)}
@@ -199,36 +199,16 @@ foreach ($__langKeys as $__l) {
   </div>
 </div></nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <span class="hero-badge ko">📚 <?= count($articles) ?>개의 글</span>
-    <span class="hero-badge en-show" style="display:none">📚 <?= count($articles) ?> articles</span>
-    <span class="hero-badge ja-show" style="display:none">📚 <?= count($articles) ?>件の記事</span>
-    <span class="hero-badge es-show" style="display:none">📚 <?= count($articles) ?> artículos</span>
-    <span class="hero-badge de-show" style="display:none">📚 <?= count($articles) ?> Artikel</span>
-    <span class="hero-badge fr-show" style="display:none">📚 <?= count($articles) ?> articles</span>
-    <span class="hero-badge pt-show" style="display:none">📚 <?= count($articles) ?> artigos</span>
-    <span class="hero-badge tr-show" style="display:none">📚 <?= count($articles) ?> yazı</span>
-    <span class="hero-badge vi-show" style="display:none">📚 <?= count($articles) ?> bài viết</span>
-    <h1 class="ko">블로그</h1>
-    <h1 class="en-show" style="display:none">Blog</h1>
-    <h1 class="ja-show" style="display:none">ブログ</h1>
-    <h1 class="es-show" style="display:none">Blog</h1>
-    <h1 class="de-show" style="display:none">Blog</h1>
-    <h1 class="fr-show" style="display:none">Blog</h1>
-    <h1 class="pt-show" style="display:none">Blog</h1>
-    <h1 class="tr-show" style="display:none">Blog</h1>
-    <h1 class="vi-show" style="display:none">Blog</h1>
-    <p class="sub ko">온체인 지표 가이드부터 시황분석, 칼럼까지 — 비트코인 타이밍에 필요한 모든 글.</p>
-    <p class="sub en-show" style="display:none">From on-chain indicator guides to market watch and columns — everything for Bitcoin timing.</p>
-    <p class="sub ja-show" style="display:none">オンチェーン指標ガイドから市況分析、コラムまで — ビットコインタイミングに必要なすべての記事。</p>
-    <p class="sub es-show" style="display:none">Desde guías de indicadores on-chain hasta análisis de mercado y columnas — todo para el timing de Bitcoin.</p>
-    <p class="sub de-show" style="display:none">Von On-Chain-Indikator-Anleitungen bis zu Marktanalysen und Kolumnen — alles für Bitcoin-Timing.</p>
-    <p class="sub fr-show" style="display:none">Des guides d'indicateurs on-chain aux analyses de marché et chroniques — tout pour le timing du Bitcoin.</p>
-    <p class="sub pt-show" style="display:none">De guias de indicadores on-chain a análises de mercado e colunas — tudo para o timing do Bitcoin.</p>
-    <p class="sub tr-show" style="display:none">Zincir üstü gösterge kılavuzlarından piyasa analizlerine ve köşe yazılarına — Bitcoin zamanlaması için her şey.</p>
-    <p class="sub vi-show" style="display:none">Từ hướng dẫn chỉ báo on-chain đến phân tích thị trường và chuyên mục — mọi thứ cho thời điểm Bitcoin.</p>
-  </div>
+<div class="blog-head">
+  <h1 class="ko">블로그</h1>
+  <h1 class="en-show" style="display:none">Blog</h1>
+  <h1 class="ja-show" style="display:none">ブログ</h1>
+  <h1 class="es-show" style="display:none">Blog</h1>
+  <h1 class="de-show" style="display:none">Blog</h1>
+  <h1 class="fr-show" style="display:none">Blog</h1>
+  <h1 class="pt-show" style="display:none">Blog</h1>
+  <h1 class="tr-show" style="display:none">Blog</h1>
+  <h1 class="vi-show" style="display:none">Blog</h1>
 </div>
 
 <div class="cat-tabs" id="catTabs">
@@ -302,7 +282,6 @@ foreach ($__langKeys as $__l) {
 
   <aside class="blog-side">
     <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show" style="display:none">Most Read</span><span class="ja-show" style="display:none">よく読まれた記事</span><span class="es-show" style="display:none">Más leídos</span><span class="de-show" style="display:none">Meistgelesen</span><span class="fr-show" style="display:none">Les plus lus</span><span class="pt-show" style="display:none">Mais lidos</span><span class="tr-show" style="display:none">En çok okunan</span><span class="vi-show" style="display:none">Đọc nhiều nhất</span></h3><div id="popularList"></div></div>
-    <div class="side-card side-score"><div class="lab"><span class="ko">실시간 매수·매도 타이밍 점수</span><span class="en-show" style="display:none">Live buy/sell timing score</span><span class="ja-show" style="display:none">リアルタイム売買タイミングスコア</span><span class="es-show" style="display:none">Puntuación de timing en vivo</span><span class="de-show" style="display:none">Live-Timing-Score</span><span class="fr-show" style="display:none">Score de timing en direct</span><span class="pt-show" style="display:none">Pontuação de timing ao vivo</span><span class="tr-show" style="display:none">Canlı zamanlama puanı</span><span class="vi-show" style="display:none">Điểm thời điểm trực tiếp</span></div><a class="cta" href="/"><span class="ko">대시보드 열기 →</span><span class="en-show" style="display:none">Open dashboard →</span><span class="ja-show" style="display:none">ダッシュボードを開く →</span><span class="es-show" style="display:none">Abrir panel →</span><span class="de-show" style="display:none">Dashboard öffnen →</span><span class="fr-show" style="display:none">Ouvrir le tableau →</span><span class="pt-show" style="display:none">Abrir painel →</span><span class="tr-show" style="display:none">Panoyu aç →</span><span class="vi-show" style="display:none">Mở bảng điều khiển →</span></a></div>
     <div><h3 class="sec-h"><span class="ko">지표 용어사전</span><span class="en-show" style="display:none">Glossary</span><span class="ja-show" style="display:none">用語集</span><span class="es-show" style="display:none">Glosario</span><span class="de-show" style="display:none">Glossar</span><span class="fr-show" style="display:none">Glossaire</span><span class="pt-show" style="display:none">Glossário</span><span class="tr-show" style="display:none">Terimler</span><span class="vi-show" style="display:none">Thuật ngữ</span></h3><div class="side-terms"><a href="/glossary.php">MVRV Z</a><a href="/glossary.php">NUPL</a><a href="/glossary.php">Hash Ribbon</a><a href="/glossary.php">STH-SOPR</a><a href="/glossary.php">Coinbase Premium</a><a href="/glossary.php">Funding Rate</a><a href="/glossary.php">200W MA</a><a href="/glossary.php">Fear &amp; Greed</a></div><a class="side-more" href="/glossary.php"><span class="ko">전체 보기 →</span><span class="en-show" style="display:none">View all →</span><span class="ja-show" style="display:none">すべて見る →</span><span class="es-show" style="display:none">Ver todo →</span><span class="de-show" style="display:none">Alle →</span><span class="fr-show" style="display:none">Tout voir →</span><span class="pt-show" style="display:none">Ver tudo →</span><span class="tr-show" style="display:none">Tümü →</span><span class="vi-show" style="display:none">Xem tất cả →</span></a></div>
     <div class="side-exch"><h4><span class="ko">거래소, 어디서 시작할까?</span><span class="en-show" style="display:none">Where to start trading?</span><span class="ja-show" style="display:none">取引所はどこから?</span><span class="es-show" style="display:none">¿Dónde empezar?</span><span class="de-show" style="display:none">Wo starten?</span><span class="fr-show" style="display:none">Où commencer ?</span><span class="pt-show" style="display:none">Por onde começar?</span><span class="tr-show" style="display:none">Nereden başlamalı?</span><span class="vi-show" style="display:none">Bắt đầu ở đâu?</span></h4><p><span class="ko">추천 링크로 <span class="pct">최대 20% 수수료 할인</span></span><span class="en-show" style="display:none"><span class="pct">Up to 20% fee discount</span></span><span class="ja-show" style="display:none"><span class="pct">最大20%手数料割引</span></span><span class="es-show" style="display:none"><span class="pct">Hasta 20% de descuento</span></span><span class="de-show" style="display:none"><span class="pct">Bis zu 20% Rabatt</span></span><span class="fr-show" style="display:none"><span class="pct">Jusqu'à 20% de réduction</span></span><span class="pt-show" style="display:none"><span class="pct">Até 20% de desconto</span></span><span class="tr-show" style="display:none"><span class="pct">%20'ye varan indirim</span></span><span class="vi-show" style="display:none"><span class="pct">Giảm phí tới 20%</span></span></p><a href="/exchanges.php"><span class="ko">바이낸스 · 바이비트 비교 →</span><span class="en-show" style="display:none">Compare Binance · Bybit →</span><span class="ja-show" style="display:none">Binance · Bybit 比較 →</span><span class="es-show" style="display:none">Comparar →</span><span class="de-show" style="display:none">Vergleichen →</span><span class="fr-show" style="display:none">Comparer →</span><span class="pt-show" style="display:none">Comparar →</span><span class="tr-show" style="display:none">Karşılaştır →</span><span class="vi-show" style="display:none">So sánh →</span></a></div>
   </aside>
@@ -352,7 +331,6 @@ function relTimeText(dateStr, lang){
     if(diff<60)       return '🕒 '+rtf.format(-Math.round(diff),'second');
     if(diff<3600)     return '🕒 '+rtf.format(-Math.round(diff/60),'minute');
     if(diff<86400)    return '🕒 '+rtf.format(-Math.round(diff/3600),'hour');
-    if(diff<7*86400)  return '🕒 '+rtf.format(-Math.round(diff/86400),'day');
     return '📅 '+d.toLocaleDateString(lang||'ko',{year:'numeric',month:'2-digit',day:'2-digit'}); // 오래되면 날짜
   }catch(e){ return null; }
 }
@@ -605,7 +583,7 @@ try {
 #articleGrid .article-card[data-idx="0"] .card-tagrow{margin-bottom:11px}
 #articleGrid .article-card[data-idx="0"] .card-cat span{color:var(--orange);font-weight:800}
 #articleGrid .article-card[data-idx="0"] .card-title{font-size:1.6rem;line-height:1.25;margin-bottom:12px}
-#articleGrid .article-card[data-idx="0"] .card-desc{font-size:15px;line-height:1.7;margin-bottom:12px;-webkit-line-clamp:3}
+#articleGrid .article-card[data-idx="0"] .card-desc{font-size:15px;line-height:1.7;margin-bottom:12px;-webkit-line-clamp:5}
 #articleGrid .article-card[data-idx="0"] .card-arrow{display:none}
 .side-more{display:block;text-align:center;margin-top:10px;font-size:12px;font-weight:700;color:var(--orange);border:1px solid var(--b1);border-radius:6px;padding:8px;text-decoration:none}
 .side-more:hover{border-color:rgba(247,147,26,.4)}
@@ -629,6 +607,13 @@ try {
 .side-exch .pct{color:var(--orange);font-weight:800}
 .side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
 @media(max-width:860px){.blog-side{margin-top:34px}}
+
+.blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
+.blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
+/* 5-2 호버 시 살짝 확장(일반 카드만, 1줄 추가) */
+#articleGrid .article-card:not([data-idx="0"]):hover .card-desc{-webkit-line-clamp:4}
+/* FOUC 완화: 날짜는 JS 포맷 전 살짝 흐리게 → 적용되면 선명 */
+.card-date{transition:opacity .12s}
 </style>
 
 <script>
