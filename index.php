@@ -359,9 +359,15 @@ foreach ($__langKeys as $__l) {
   </div><!-- /blog-main -->
 
   <aside class="blog-side">
-    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"></div></div>
-    <div><h3 class="sec-h"><span class="ko">지표 용어사전</span><span class="en-show">Glossary</span><span class="ja-show">用語集</span><span class="es-show">Glosario</span><span class="de-show">Glossar</span><span class="fr-show">Glossaire</span><span class="pt-show">Glossário</span><span class="tr-show">Terimler</span><span class="vi-show">Thuật ngữ</span></h3><div class="side-terms"><a href="/glossary.php">MVRV Z</a><a href="/glossary.php">NUPL</a><a href="/glossary.php">Hash Ribbon</a><a href="/glossary.php">STH-SOPR</a><a href="/glossary.php">Coinbase Premium</a><a href="/glossary.php">Funding Rate</a><a href="/glossary.php">200W MA</a><a href="/glossary.php">Fear &amp; Greed</a></div><a class="side-more" href="/glossary.php"><span class="ko">전체 보기 →</span><span class="en-show">View all →</span><span class="ja-show">すべて見る →</span><span class="es-show">Ver todo →</span><span class="de-show">Alle →</span><span class="fr-show">Tout voir →</span><span class="pt-show">Ver tudo →</span><span class="tr-show">Tümü →</span><span class="vi-show">Xem tất cả →</span></a></div>
-    <div class="side-exch"><h4><span class="ko">거래소, 어디서 시작할까?</span><span class="en-show">Where to start trading?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Dónde empezar?</span><span class="de-show">Wo starten?</span><span class="fr-show">Où commencer ?</span><span class="pt-show">Por onde começar?</span><span class="tr-show">Nereden başlamalı?</span><span class="vi-show">Bắt đầu ở đâu?</span></h4><p><span class="ko">추천 링크로 <span class="pct">최대 20% 수수료 할인</span></span><span class="en-show"><span class="pct">Up to 20% fee discount</span></span><span class="ja-show"><span class="pct">最大20%手数料割引</span></span><span class="es-show"><span class="pct">Hasta 20% de descuento</span></span><span class="de-show"><span class="pct">Bis zu 20% Rabatt</span></span><span class="fr-show"><span class="pct">Jusqu'à 20% de réduction</span></span><span class="pt-show"><span class="pct">Até 20% de desconto</span></span><span class="tr-show"><span class="pct">%20'ye varan indirim</span></span><span class="vi-show"><span class="pct">Giảm phí tới 20%</span></span></p><a href="/exchanges.php"><span class="ko">바이낸스 · 바이비트 비교 →</span><span class="en-show">Compare Binance · Bybit →</span><span class="ja-show">Binance · Bybit 比較 →</span><span class="es-show">Comparar →</span><span class="de-show">Vergleichen →</span><span class="fr-show">Comparer →</span><span class="pt-show">Comparar →</span><span class="tr-show">Karşılaştır →</span><span class="vi-show">So sánh →</span></a></div>
+    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"><div class="pop-skel"></div><div class="pop-skel"></div><div class="pop-skel"></div><div class="pop-skel"></div><div class="pop-skel"></div></div></div>
+    <a href="/exchanges.php<?= h(langSuffix($__blLang)) ?>" class="exch-banner">
+      <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
+      <span class="exch-banner-tx">
+        <b><span class="ko">어떤 거래소로 시작할까?</span><span class="en-show">Which exchange to start with?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Qué exchange elegir?</span><span class="de-show">Welche Börse?</span><span class="fr-show">Quelle plateforme ?</span><span class="pt-show">Qual corretora?</span><span class="tr-show">Hangi borsa?</span><span class="vi-show">Sàn nào để bắt đầu?</span></b>
+        <span><span class="ko">바이낸스·바이비트 비교 + 최대 20% 수수료 할인</span><span class="en-show">Compare Binance & Bybit + up to 20% fee discount</span><span class="ja-show">Binance・Bybit 比較 + 最大20%割引</span><span class="es-show">Binance y Bybit + hasta 20% descuento</span><span class="de-show">Binance & Bybit + bis zu 20% Rabatt</span><span class="fr-show">Binance & Bybit + jusqu’à 20% de réduction</span><span class="pt-show">Binance e Bybit + até 20% de desconto</span><span class="tr-show">Binance & Bybit + %20’ye varan indirim</span><span class="vi-show">Binance & Bybit + giảm phí tới 20%</span></span>
+      </span>
+      <span class="exch-banner-ar">›</span>
+    </a>
   </aside>
 
   <div class="cta-main">
@@ -438,7 +444,6 @@ function initPopular(){
   function bucket(hAgo){ var d=new Date(Date.now()-hAgo*3600000); function p(n){return(n<10?'0':'')+n;} return ''+d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+p(d.getUTCHours()); }
   function sumWin(hours,data){ var ok={}; for(var i=0;i<hours;i++) ok[bucket(i)]=1; var out=[]; for(var s in data){ var b=data[s],sum=0; for(var k in b){ if(ok[k]) sum+=(+b[k]||0); } if(sum>0) out.push([s,sum]); } out.sort(function(a,b){return b[1]-a[1];}); return out; }
   function finish(picked){ __popCards=picked; renderPopular(); }
-  finish(cards.slice(0,5)); // 즉시 최신글 렌더(빈 상태·지연 방지)
   var DB='https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
   fetch(DB+'/blogViewsHourly.json').then(function(r){return r.json();}).then(function(data){
     if(!data){ finish(cards.slice(0,5)); return; }
@@ -658,6 +663,17 @@ try {
 .bcs-id{font-size:13px;font-weight:700;color:#f2f2f5}
 .bcs-name{font-size:12px;color:#888}
 .bcs-empty{padding:30px;text-align:center;color:#666;font-size:13px}
+
+.pop-skel{height:15px;margin:13px 0;border-radius:4px;background:linear-gradient(90deg,var(--bg3) 25%,var(--bg2) 37%,var(--bg3) 63%);background-size:400% 100%;animation:popShimmer 1.3s ease-in-out infinite}
+.pop-skel:nth-child(1){width:92%}.pop-skel:nth-child(2){width:78%}.pop-skel:nth-child(3){width:85%}.pop-skel:nth-child(4){width:70%}.pop-skel:nth-child(5){width:80%}
+@keyframes popShimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
+.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
+.exch-banner:hover{border-color:rgba(247,147,26,.7)}
+.exch-banner:active{transform:scale(.99)}
+.exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0}
+.exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
+.exch-banner-tx span{font-size:11px;color:var(--t3)}
+.exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;line-height:1}
 </style>
 
 <script>
