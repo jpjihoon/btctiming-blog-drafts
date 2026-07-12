@@ -1717,6 +1717,8 @@ function loadHistoryFromServer(coin, modeKey, callback) {
 }
 
 let serverHistoryLoaded = {};
+let historyLoadRetries = {}; // 최초 접속 시 Firebase 지연 대비 자동 재시도
+let historyRetryPending = {};
 let fullHistoryCache = {}; // 서버에서 받은 전체(최대 12000) — 그래프가 이걸 사용(localStorage 2000 제한 우회) // 코인+모드별 서버 로드 여부 캐시
 
 function drawHistory() {
@@ -1743,6 +1745,13 @@ function drawHistory() {
         fullHistoryCache[localKey] = dedup;
         try { localStorage.setItem(localKey, JSON.stringify(dedup.slice(-2000))); } catch(e){}
         drawHistory(); // 데이터 갱신 후 재렌더
+      } else {
+        // Firebase 미준비/데이터 아직 없음 → 외부 트리거 없이 자동 재시도(최초 접속 빈 그래프 방지)
+        if(!historyRetryPending[loadKey] && (historyLoadRetries[loadKey]||0) < 10) {
+          historyRetryPending[loadKey] = true;
+          historyLoadRetries[loadKey] = (historyLoadRetries[loadKey]||0) + 1;
+          setTimeout(function(){ historyRetryPending[loadKey] = false; if(!serverHistoryLoaded[loadKey]) drawHistory(); }, 700);
+        }
       }
     });
   }
