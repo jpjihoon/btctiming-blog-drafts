@@ -415,7 +415,7 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 
 /* ── NAV ── */
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
-.nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px 0 0;gap:12px}
+.nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px 0 16px;gap:12px}
 @media(max-width:900px){.nav-inner{padding:0 14px}}
 .logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;display:inline-flex;align-items:center;gap:6px}
 .logo .logo-ic{flex-shrink:0}
@@ -576,7 +576,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
 /* ── LAYOUT ── */
-.page-wrap{max-width:1280px;margin:0 auto;width:100%}
+.page-wrap{max-width:1280px;margin:0 auto;width:100%;padding:0 16px}
 /* SEO 대표 제목(h1) — 티커바 오른쪽 끝에 작게. 모바일에선 공간이 좁아 숨김 */
 .ticker-h1{overflow:hidden;text-overflow:ellipsis;max-width:340px}
 @media(max-width:900px){.ticker-h1{display:none}}
@@ -836,10 +836,7 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;position:relative;z-index:1;line-height:1}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
 #blogTickerScroll::-webkit-scrollbar{display:none}
-@media(max-width:600px){
-  #blogTickerBar{margin-top:7px}
-  #blogTickerBar > div{padding-top:9px !important;padding-bottom:9px !important}
-}
+
 #blogCategoryScroll::-webkit-scrollbar{display:none}
 </style>
 </head>
@@ -983,7 +980,7 @@ $__seoSub = [
 ];
 ?>
 <div id="tickerBar" class="ticker-bar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
-  <div class="ticker-scroll" style="max-width:1280px;margin:0 auto;padding:6px 16px 6px 0;
+  <div class="ticker-scroll" style="max-width:1280px;margin:0 auto;padding:6px 16px 6px 16px;
     font-size:11px;color:var(--t2);display:flex;align-items:center;gap:20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch">
     <span id="tkFiatItem1"><span id="tkFiatLabel1">USD/KRW</span> <b id="tkUsdKrw" style="color:var(--t1)">—</b> <span id="tkUsdKrwChg"></span></span>
     <span><span id="tkFiatLabel2">USDT/KRW</span> <b id="tkUsdtKrw" style="color:var(--t1)">—</b> <span id="tkUsdtKrwChg"></span></span>
@@ -1029,7 +1026,7 @@ $__seoSub = [
 
 <!-- Blog Ticker: 최신 블로그 글을 아주 작은 글씨로 노출. 개별 링크는 말줄임 처리, 모바일에서 좌우 스와이프 가능, 오른쪽 끝에 흐림 효과로 "더 있음"을 암시 -->
 <div id="blogTickerBar" style="background:#0a0a0a;border-bottom:1px solid var(--b1)">
-  <div style="max-width:1280px;margin:0 auto;padding:6px 16px 6px 0;font-size:12px;color:var(--t2);
+  <div style="max-width:1280px;margin:0 auto;padding:6px 16px 6px 16px;font-size:12px;color:var(--t2);
     display:flex;align-items:center;gap:0;overflow:hidden">
     
     <div id="blogTickerScroll" style="flex:1;min-width:0;overflow-x:auto;white-space:nowrap;
