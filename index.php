@@ -23,7 +23,7 @@ $__blogCoins = [];
 if (defined('COIN_SYMBOLS')) {
     foreach (COIN_SYMBOLS as $__id => $__sym) {
         if (function_exists('coinMeta')) { $__m = coinMeta($__id); }
-        else { $__m = ['name' => $__id, 'color' => '#888888']; }
+        else { $__m = ['name' => $__id, 'color' => 'var(--t2)']; }
         $__blogCoins[] = ['id' => $__id, 'name' => $__m['name'], 'color' => $__m['color']];
     }
 }
@@ -69,18 +69,20 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
 <style>
+:root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
+
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
 .logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}
-.back{font-size:13px;color:#71717a;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.back{font-size:13px;color:var(--t2);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#1b1b21;
   border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#f2f2f5;font-size:11px;font-weight:600;
   letter-spacing:.02em;cursor:pointer;transition:all .15s}
 .lang-trigger:hover{background:#24242b}
-.lang-caret{font-size:9px;color:#71717a;transition:transform .15s}
+.lang-caret{font-size:9px;color:var(--t2);transition:transform .15s}
 .lang-dropdown.open .lang-caret{transform:rotate(180deg)}
 .lang-menu{position:absolute;top:calc(100% + 6px);right:0;min-width:130px;background:#1b1b21;
   border:1px solid rgba(255,255,255,.15);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);
@@ -99,7 +101,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
 .hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#f7931a;
   background:rgba(247,147,26,.1);border:1px solid rgba(247,147,26,.25);border-radius:999px;padding:5px 12px;margin-bottom:18px}
 h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spacing:-.5px}
-.sub{font-size:15px;color:#8b8b93;max-width:520px}
+.sub{font-size:15px;color:var(--t2);max-width:520px}
 
 /* ── 카테고리 필터 탭 ── */
 .cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:800px;margin:0 auto;padding:0 24px;position:relative;top:18px}
@@ -124,8 +126,8 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
   background:color-mix(in srgb, var(--cat-color,#f7931a) 16%, transparent);border-radius:5px;padding:2px 7px}
 .card-tag{font-size:11px;font-weight:700;color:var(--accent,#f7931a);letter-spacing:.06em;text-transform:uppercase}
 .card-title{font-size:1.08rem;font-weight:700;color:#f2f2f5;margin-bottom:6px;line-height:1.4}
-.card-desc{font-size:13.5px;color:#71717a;line-height:1.6;margin-bottom:12px}
-.card-meta{font-size:12px;color:#52525b;display:flex;gap:12px;align-items:center}
+.card-desc{font-size:13.5px;color:var(--t2);line-height:1.6;margin-bottom:12px}
+.card-meta{font-size:12px;color:var(--t3);display:flex;gap:12px;align-items:center}
 .card-arrow{flex-shrink:0;color:#3f3f46;font-size:18px;align-self:center;transition:transform .18s,color .18s}
 .article-card:hover .card-arrow{transform:translateX(3px);color:var(--accent,#f7931a)}
 .article-card.hidden{display:none}
@@ -134,11 +136,11 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
   border:1px dashed rgba(255,255,255,.15);border-radius:12px;color:#9a9aa4;font-size:13px;
   font-weight:600;cursor:pointer;transition:all .15s}
 .load-more:hover{border-color:rgba(247,147,26,.4);color:#f7931a;background:#1b1b21}
-#loadMoreCount{color:#52525b;font-weight:400;margin-left:4px}
+#loadMoreCount{color:var(--t3);font-weight:400;margin-left:4px}
 
 .cta-main{background:linear-gradient(135deg,#1a1008,#141418);border:1px solid rgba(247,147,26,.25);border-radius:14px;padding:32px;margin-top:40px;text-align:center}
 .cta-main h2{font-size:1.15rem;margin-bottom:8px;color:#f2f2f5}
-.cta-main p{color:#71717a;font-size:14px;margin-bottom:20px}
+.cta-main p{color:var(--t2);font-size:14px;margin-bottom:20px}
 .cta-main a{display:inline-block;background:#f7931a;color:#000;font-weight:700;padding:11px 26px;border-radius:8px;font-size:14px}
 footer{border-top:1px solid rgba(255,255,255,.06);padding:20px 16px 90px;text-align:center;font-size:11px;color:#666}
 /* 언어 전환 — [lang] CSS 선택자 방식(개별 아티클 _header.php와 동일)으로 통일.
@@ -162,7 +164,7 @@ foreach ($__langKeys as $__l) {
     echo "\n";
 }
 ?>
-.empty{color:#52525b;font-size:14px;padding:24px 0}
+.empty{color:var(--t3);font-size:14px;padding:24px 0}
 @media(max-width:480px){
   .hero-inner{padding:40px 20px 28px}
   h1{font-size:1.6rem}
@@ -176,15 +178,15 @@ foreach ($__langKeys as $__l) {
 <body>
 <nav><div class="nav-w">
   <a href="/" class="logo" id="logoLink"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
-  <span class="back ko">← <a href="/" style="color:#71717a">실시간 분석으로 돌아가기</a></span>
-  <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:#71717a">Back to Live Analysis</a></span>
-  <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:#71717a">リアルタイム分析に戻る</a></span>
-  <span class="back es-show" style="display:none">← <a href="/?lang=es" style="color:#71717a">Volver al Análisis en Vivo</a></span>
-  <span class="back de-show" style="display:none">← <a href="/?lang=de" style="color:#71717a">Zurück zur Live-Analyse</a></span>
-  <span class="back fr-show" style="display:none">← <a href="/?lang=fr" style="color:#71717a">Retour à l'analyse en direct</a></span>
-  <span class="back pt-show" style="display:none">← <a href="/?lang=pt" style="color:#71717a">Voltar à análise ao vivo</a></span>
-  <span class="back tr-show" style="display:none">← <a href="/?lang=tr" style="color:#71717a">Canlı analize dön</a></span>
-  <span class="back vi-show" style="display:none">← <a href="/?lang=vi" style="color:#71717a">Quay lại phân tích trực tiếp</a></span>
+  <span class="back ko">← <a href="/" style="color:var(--t2)">실시간 분석으로 돌아가기</a></span>
+  <span class="back en-show" style="display:none">← <a href="/?lang=en" style="color:var(--t2)">Back to Live Analysis</a></span>
+  <span class="back ja-show" style="display:none">← <a href="/?lang=ja" style="color:var(--t2)">リアルタイム分析に戻る</a></span>
+  <span class="back es-show" style="display:none">← <a href="/?lang=es" style="color:var(--t2)">Volver al Análisis en Vivo</a></span>
+  <span class="back de-show" style="display:none">← <a href="/?lang=de" style="color:var(--t2)">Zurück zur Live-Analyse</a></span>
+  <span class="back fr-show" style="display:none">← <a href="/?lang=fr" style="color:var(--t2)">Retour à l'analyse en direct</a></span>
+  <span class="back pt-show" style="display:none">← <a href="/?lang=pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
+  <span class="back tr-show" style="display:none">← <a href="/?lang=tr" style="color:var(--t2)">Canlı analize dön</a></span>
+  <span class="back vi-show" style="display:none">← <a href="/?lang=vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
       <span id="langTriggerLabel"><?= h(strtoupper($__blLang)) ?></span><span class="lang-caret">▾</span>
@@ -481,7 +483,7 @@ try {
     transition:transform .25s ease}
   .blog-tabbar.tabbar-hidden{transform:translateY(110%)}
   .blog-tabbar .btab{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
-    background:transparent;border:none;color:#6b6b72;font-size:9.5px;font-weight:600;text-decoration:none;
+    background:transparent;border:none;color:var(--t3);font-size:9.5px;font-weight:600;text-decoration:none;
     -webkit-tap-highlight-color:transparent}
   .blog-tabbar .btab.active{color:#f7931a}
   .blog-tabbar .btab.active::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
