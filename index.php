@@ -289,7 +289,8 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
 .cat-tab.active{background:var(--cat-color,#f7931a);border-color:var(--cat-color,#f7931a);color:#000}
 
 .wrap{max-width:1120px;margin:0 auto;padding:28px 24px 80px}
-.article-grid{display:grid;gap:14px}
+.article-grid{display:grid;gap:14px;overflow-anchor:none}
+body{overflow-anchor:none}
 .article-card{background:#141418;border:1px solid rgba(255,255,255,.07);border-radius:14px;
   padding:22px;transition:border-color .18s,transform .18s,background .18s;
   display:flex;gap:18px;align-items:flex-start;color:inherit}
@@ -629,7 +630,9 @@ function loadMore(){
   fetch('/blog/?ajax=cards&offset='+__loaded+cp+(lang==='ko'?'':('&lang='+lang)))
     .then(function(r){return r.text();}).then(function(html){
       var grid=document.getElementById('articleGrid');
+      var __sy=window.scrollY;
       if(grid && html.trim()) grid.insertAdjacentHTML('beforeend', html);
+      window.scrollTo(0, __sy);
       var added=(html.match(/class="article-card"/g)||[]).length;
       __loaded += added;
       try{ var pg=Math.max(1,Math.ceil(__loaded/12)); var u=new URL(location.href); u.searchParams.set('page', pg); history.replaceState(null,'',u); }catch(e){}
