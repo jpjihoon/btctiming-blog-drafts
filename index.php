@@ -67,6 +67,8 @@ function relDateSpans(string $iso, string $curLang): string {
 // 실제 존재하는 카테고리만 탭으로 노출 (CATEGORY_META 순서를 따름)
 $presentCats = array_unique(array_column($articles, 'category'));
 $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentCats, true));
+// URL ?cat= 을 서버가 읽어 첫 렌더부터 해당 카테고리만 표시(전체→카테고리 깜빡임 방지)
+$__cat = (isset($_GET['cat']) && in_array($_GET['cat'], $presentCats, true)) ? $_GET['cat'] : 'all';
 
 // 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
@@ -105,6 +107,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 /* ===== 뉴스허브 레이아웃 (목록) ===== */
 .wrap{max-width:1120px}
 @media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
+#articleGrid .article-card.cat-hidden{display:none}
 .cat-tabs{max-width:1120px}
 /* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
 #articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
@@ -151,7 +154,7 @@ a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
 .logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}
 .back{font-size:13px;color:var(--t2);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.lang-dropdown{position:relative;flex-shrink:0}
+.lang-dropdown{position:relative;flex-shrink:0;margin-left:auto}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:32px;padding:0 10px;background:#1b1b21;
   border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#f2f2f5;font-size:11px;font-weight:600;
   letter-spacing:.02em;cursor:pointer;transition:all .15s}
@@ -286,11 +289,11 @@ foreach ($__langKeys as $__l) {
 </div>
 
 <div class="cat-tabs" id="catTabs">
-  <button class="cat-tab active" data-cat="all" onclick="filterCat('all')">
+  <button class="cat-tab<?= $__cat==='all'?' active':'' ?>" data-cat="all" onclick="filterCat('all')">
     <span class="ko">전체</span><span class="en-show" style="display:none">All</span><span class="ja-show" style="display:none">全て</span><span class="es-show" style="display:none">Todo</span><span class="de-show" style="display:none">Alle</span><span class="fr-show" style="display:none">Tout</span><span class="pt-show" style="display:none">Todos</span><span class="tr-show" style="display:none">Tümü</span><span class="vi-show" style="display:none">Tất cả</span>
   </button>
 <?php foreach ($tabs as $cat): $cm = CATEGORY_META[$cat]; ?>
-  <button class="cat-tab" data-cat="<?= h($cat) ?>" style="--cat-color:<?= h($cm['color']) ?>" onclick="filterCat('<?= h($cat) ?>')">
+  <button class="cat-tab<?= $__cat===$cat?' active':'' ?>" data-cat="<?= h($cat) ?>" style="--cat-color:<?= h($cm['color']) ?>" onclick="filterCat('<?= h($cat) ?>')">
     <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show" style="display:none"><?= h($cm['en']) ?></span><span class="ja-show" style="display:none"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show" style="display:none"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show" style="display:none"><?= h($cm['de'] ?? $cm['en']) ?></span><span class="fr-show" style="display:none"><?= h($cm['fr'] ?? $cm['en']) ?></span><span class="pt-show" style="display:none"><?= h($cm['pt'] ?? $cm['en']) ?></span><span class="tr-show" style="display:none"><?= h($cm['tr'] ?? $cm['en']) ?></span><span class="vi-show" style="display:none"><?= h($cm['vi'] ?? $cm['en']) ?></span>
   </button>
 <?php endforeach; ?>
@@ -329,7 +332,7 @@ foreach ($__langKeys as $__l) {
     // 그 외 언어는 display:none으로 숨겨두고, 언어 전환 시 JS(setLang)가 인라인 style을 조정한다.
     $styOf = fn($l) => ($l === $__blLang) ? '' : ' style="display:none"';
 ?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+    <a href="/blog/<?= h($a['file']) ?>" class="article-card<?= ($__cat!=='all' && $cat!==$__cat)?' cat-hidden':'' ?>" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
       <div class="card-body">
         <div class="card-tagrow">
