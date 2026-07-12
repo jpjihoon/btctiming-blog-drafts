@@ -145,6 +145,8 @@ $presentCats = array_unique(array_column($articles, 'category'));
 $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentCats, true));
 // URL ?cat= 을 서버가 읽어 첫 렌더부터 해당 카테고리만 표시(전체→카테고리 깜빡임 방지)
 $__cat = (isset($_GET['cat']) && in_array($_GET['cat'], $presentCats, true)) ? $_GET['cat'] : 'all';
+$__page = max(1, (int)($_GET['page'] ?? 1));
+$__initCount = $__page * 12; // 새로고침 시 봤던 만큼 유지
 
 // 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
@@ -214,6 +216,14 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 .blog-side{display:flex;flex-direction:column;gap:26px}
 .blog-side .sec-h{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--b1)}
 .pop-item{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--b1);align-items:baseline;text-decoration:none;color:inherit}
+.pop-card{display:flex;gap:10px;align-items:flex-start;padding:11px 12px;background:var(--bg3);border:1px solid var(--b1);border-left:3px solid var(--b2);border-radius:8px;text-decoration:none;color:inherit;margin-bottom:8px;transition:transform .12s,background .12s}
+.pop-card:last-child{margin-bottom:0}
+.pop-card:hover{transform:translateY(-2px);background:#191920}
+.pop-card-icon{flex-shrink:0;font-size:16px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:var(--icard-accent-bg,rgba(247,147,26,.14));border-radius:8px}
+.pop-card-main{display:flex;flex-direction:column;gap:3px;min-width:0}
+.pop-card-cat{font-size:10px;font-weight:700;color:var(--t2)}
+.pop-card-title{font-size:11.5px;color:var(--t1);line-height:1.4;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pop-card-date{font-size:9px;color:var(--t3);margin-top:1px}
 .pop-item:last-child{border-bottom:none}
 .pop-n{flex-shrink:0;width:20px;text-align:center;font-size:16px;font-weight:800;color:var(--t3)}
 .pop-item:nth-child(1) .pop-n{color:var(--orange)}
@@ -398,15 +408,29 @@ foreach ($__langKeys as $__l) {
       $__popSlugs = getPopularSlugs($articles, 5);
       $__bySlug = [];
       foreach ($articles as $__a2) { $__bySlug[basename($__a2['file'] ?? '', '.php')] = $__a2; }
-      $__pn = 0;
       foreach ($__popSlugs as $__ps) {
-          $__pa = $__bySlug[$__ps] ?? null; if (!$__pa) continue; $__pn++;
-          echo '<a href="/blog/'.h($__pa['file']).'" class="pop-item"><span class="pop-n">'.$__pn.'</span><span class="pop-t">';
+          $__pa = $__bySlug[$__ps] ?? null; if (!$__pa) continue;
+          $__pi = $__pa['icon'] ?? '📄';
+          $__pc = $__pa['color'] ?? '#f7931a';
+          $__pcat = $__pa['category'] ?? '';
+          echo '<a href="/blog/'.h($__pa['file']).'" class="pop-card" style="--icard-accent-bg:'.h($__pc).'26">';
+          echo '<span class="pop-card-icon">'.$__pi.'</span>';
+          echo '<span class="pop-card-main">';
+          echo '<span class="pop-card-cat">';
+          foreach (array_keys(SUPPORTED_LANGS) as $__pl) {
+              $__cls = ($__pl==='ko')?'ko':($__pl.'-show');
+              $__cv = CATEGORY_META[$__pcat][$__pl] ?? (CATEGORY_META[$__pcat]['en'] ?? $__pcat);
+              echo '<span class="'.$__cls.'">'.h($__cv).'</span>';
+          }
+          echo '</span>';
+          echo '<span class="pop-card-title">';
           foreach (array_keys(SUPPORTED_LANGS) as $__pl) {
               $__cls = ($__pl==='ko')?'ko':($__pl.'-show');
               $__tt = $__pa["title_{$__pl}"] ?? ($__pa['title_en'] ?? '');
               echo '<span class="'.$__cls.'">'.h($__tt).'</span>';
           }
+          echo '</span>';
+          echo '<span class="pop-card-date">'.h(displayDate($__pa['date'] ?? '')).'</span>';
           echo '</span></a>';
       }
       ?></div></div>
@@ -433,11 +457,11 @@ foreach ($__langKeys as $__l) {
     <div class="empty vi-show">Chưa có bài viết nào.</div>
 <?php else:
     $__filtered = ($__cat === 'all') ? array_values($articles) : array_values(array_filter($articles, fn($x) => ($x['category'] ?? '') === $__cat));
-    foreach (array_slice($__filtered, 0, 12) as $__k => $a) { echo renderCardHtml($a, $__k, $__blLang); }
+    foreach (array_slice($__filtered, 0, $__initCount) as $__k => $a) { echo renderCardHtml($a, $__k, $__blLang); }
 endif; ?>
   </div>
 
-  <?php $__totalFiltered = ($__cat==='all') ? count($articles) : count(array_filter($articles, fn($x)=>($x['category']??'')===$__cat)); $__more = max(0, $__totalFiltered - 12); ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
+  <?php $__totalFiltered = ($__cat==='all') ? count($articles) : count(array_filter($articles, fn($x)=>($x['category']??'')===$__cat)); $__more = max(0, $__totalFiltered - $__initCount); ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
     <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
     <span id="loadMoreCount"><?= $__more>0 ? '('.min($__more,12).')' : '' ?></span>
   </button>
@@ -588,7 +612,7 @@ let currentCat = (function(){
   try { const c = new URLSearchParams(location.search).get('cat'); if (c && document.querySelector('.cat-tab[data-cat="'+c+'"]')) return c; } catch(e){}
   return 'all';
 })();
-let __loaded = 12; // 서버가 첫 12개 렌더
+let __loaded = <?= (int)($__initCount ?? 12) ?>; // 서버 렌더 개수(page 반영)
 function __curLangMore(){ var r=document.getElementById('html-root'); return ((r&&r.className)||'ko').trim().split(/\s+/)[0]||'ko'; }
 function __updMoreBtn(){
   var btn=document.getElementById('loadMoreBtn'), cE=document.getElementById('loadMoreCount');
@@ -607,6 +631,7 @@ function loadMore(){
       if(grid && html.trim()) grid.insertAdjacentHTML('beforeend', html);
       var added=(html.match(/class="article-card"/g)||[]).length;
       __loaded += added;
+      try{ var pg=Math.max(1,Math.ceil(__loaded/12)); var u=new URL(location.href); u.searchParams.set('page', pg); history.replaceState(null,'',u); }catch(e){}
       if(btn) btn.style.pointerEvents='';
       __updMoreBtn();
     }).catch(function(){ if(btn) btn.style.pointerEvents=''; });
