@@ -38,8 +38,8 @@ $ordered = $ARTICLES;
 uasort($ordered, fn($a, $b) => strcmp($a['date'] ?? '', $b['date'] ?? ''));
 $orderedSlugs = array_keys($ordered);
 $curPos = array_search($slug, $orderedSlugs, true);
-$prevSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 더 과거 글
-$nextSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 더 최신 글
+$prevSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 이전 글 = 더 최신 글
+$nextSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 다음 글 = 더 과거 글
 
 // 추천 카드 하나를 그리는 헬퍼
 $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
