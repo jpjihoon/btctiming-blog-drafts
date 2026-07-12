@@ -169,6 +169,10 @@ function resolveLang(): string {
     if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
         return $_GET['lang'];
     }
+    // URL에 ?lang= 이 없으면 저장 쿠키(blogLang)를 존중 → 서버가 사용자의 언어로 바로 렌더(FOUC 방지)
+    if (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
+        return $_COOKIE['blogLang'];
+    }
     return 'ko';
 }
 
