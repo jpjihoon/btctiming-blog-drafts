@@ -104,6 +104,18 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
 <style>
+.pop-skel{height:15px;margin:13px 0;border-radius:4px;background:linear-gradient(90deg,var(--bg3) 25%,var(--bg2) 37%,var(--bg3) 63%);background-size:400% 100%;animation:popShimmer 1.3s ease-in-out infinite}
+.pop-skel:nth-child(1){width:92%}.pop-skel:nth-child(2){width:78%}.pop-skel:nth-child(3){width:85%}.pop-skel:nth-child(4){width:70%}.pop-skel:nth-child(5){width:80%}
+@keyframes popShimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
+.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
+.exch-banner:hover{border-color:rgba(247,147,26,.7)}
+.exch-banner:active{transform:scale(.99)}
+.exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0}
+.exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
+.exch-banner-tx span{font-size:11px;color:var(--t3)}
+.exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;line-height:1}
+
+
 /* ===== 뉴스허브 레이아웃 (목록) ===== */
 .wrap{max-width:1120px}
 @media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{min-width:0}}
@@ -663,17 +675,6 @@ try {
 .bcs-id{font-size:13px;font-weight:700;color:#f2f2f5}
 .bcs-name{font-size:12px;color:#888}
 .bcs-empty{padding:30px;text-align:center;color:#666;font-size:13px}
-
-.pop-skel{height:15px;margin:13px 0;border-radius:4px;background:linear-gradient(90deg,var(--bg3) 25%,var(--bg2) 37%,var(--bg3) 63%);background-size:400% 100%;animation:popShimmer 1.3s ease-in-out infinite}
-.pop-skel:nth-child(1){width:92%}.pop-skel:nth-child(2){width:78%}.pop-skel:nth-child(3){width:85%}.pop-skel:nth-child(4){width:70%}.pop-skel:nth-child(5){width:80%}
-@keyframes popShimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
-.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
-.exch-banner:hover{border-color:rgba(247,147,26,.7)}
-.exch-banner:active{transform:scale(.99)}
-.exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0}
-.exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
-.exch-banner-tx span{font-size:11px;color:var(--t3)}
-.exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;line-height:1}
 </style>
 
 <script>
