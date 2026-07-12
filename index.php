@@ -200,7 +200,7 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 
 /* ===== 뉴스허브 레이아웃 (목록) ===== */
 .wrap{max-width:1120px}
-@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{grid-column:1;grid-row:1}.blog-side{grid-column:2;grid-row:1}.blog-main{min-width:0}}
+@media(min-width:861px){.wrap{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}.blog-main{grid-column:1;grid-row:1}.blog-side{grid-column:2;grid-row:1}.cta-main{grid-column:1/-1}.blog-main{min-width:0}}
 .cat-tabs{max-width:1120px}
 /* 리드 스토리 = 세로 미리보기(킥커→제목→발췌→메타) */
 #articleGrid .article-card[data-idx="0"]{flex-direction:column;align-items:stretch;padding:26px;gap:0}
@@ -239,7 +239,7 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 .side-exch h4{font-size:14px;margin:0 0 4px}.side-exch p{font-size:11.5px;color:var(--t2);margin:0 0 10px}
 .side-exch .pct{color:var(--orange);font-weight:800}
 .side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
-@media(max-width:860px){.wrap{display:flex;flex-direction:column}.blog-main{order:1}.blog-side{order:2;margin-top:34px}}
+@media(max-width:860px){.wrap{display:flex;flex-direction:column}.blog-main{order:1}.blog-side{order:2;margin-top:34px}.cta-main{order:3}}
 
 .blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
 .blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
