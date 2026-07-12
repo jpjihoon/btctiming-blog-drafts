@@ -836,6 +836,10 @@ body.sell-mode .score-card::before{background:radial-gradient(ellipse at top lef
 .exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;position:relative;z-index:1;line-height:1}
 footer{font-size:9px;color:var(--t3);line-height:1.8;padding:12px 16px;border-top:1px solid var(--b1);grid-column:1/-1}
 #blogTickerScroll::-webkit-scrollbar{display:none}
+@media(max-width:600px){
+  #blogTickerBar{margin-top:7px}
+  #blogTickerBar > div{padding-top:9px !important;padding-bottom:9px !important}
+}
 #blogCategoryScroll::-webkit-scrollbar{display:none}
 </style>
 </head>
