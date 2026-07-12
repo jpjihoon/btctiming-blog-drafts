@@ -145,13 +145,13 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
 .sub{font-size:15px;color:var(--t2);max-width:520px}
 
 /* ── 카테고리 필터 탭 ── */
-.cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:800px;margin:0 auto;padding:0 24px;position:relative;top:18px}
+.cat-tabs{display:flex;gap:8px;flex-wrap:wrap;max-width:1120px;margin:0 auto;padding:0 24px;position:relative;top:18px}
 .cat-tab{font-size:13px;font-weight:600;padding:7px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.1);
   background:#141418;color:#9a9aa4;cursor:pointer;transition:all .15s;white-space:nowrap}
 .cat-tab:hover{border-color:rgba(255,255,255,.25);color:#f2f2f5}
 .cat-tab.active{background:var(--cat-color,#f7931a);border-color:var(--cat-color,#f7931a);color:#000}
 
-.wrap{max-width:800px;margin:0 auto;padding:36px 24px 80px}
+.wrap{max-width:1120px;margin:0 auto;padding:16px 24px 80px}
 .article-grid{display:grid;gap:14px}
 .article-card{background:#141418;border:1px solid rgba(255,255,255,.07);border-radius:14px;
   padding:22px;transition:border-color .18s,transform .18s,background .18s;
