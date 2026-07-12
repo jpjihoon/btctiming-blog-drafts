@@ -2882,7 +2882,9 @@ function updateInsightMoreButton() {
   const actions = document.getElementById('insightExpandedActions');
   if(!btn) return;
   const remaining = insightGridPool.length - insightGridVisible;
-  if(remaining > 0) {
+  // 더보기는 초기 6개에서 딱 1번(→12)만. 12개(=PAGE_SIZE*2) 도달 또는 더 없으면 접기/전체보기로.
+  const canLoadMore = (insightGridVisible < INSIGHT_PAGE_SIZE * 2) && (remaining > 0);
+  if(canLoadMore) {
     btn.style.display = '';
     if(actions) actions.style.display = 'none';
     if(countEl) countEl.textContent = `(${Math.min(remaining, INSIGHT_PAGE_SIZE)})`;
