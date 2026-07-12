@@ -349,7 +349,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
 </style>
 </head>
 <body>
-<!-- 조회수 집계: 세션당 1회, Firebase RTDB REST 원자적 증가 -->
+<!-- 조회수 집계: 세션당 1회. 누적 + 시간버킷(24h 인기 계산용) 원자적 증가 -->
 <script>
 (function(){try{
   var s=<?= json_encode($slug, JSON_HEX_TAG|JSON_HEX_APOS|JSON_HEX_QUOT|JSON_HEX_AMP) ?>;
@@ -357,7 +357,16 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   var k='bv_'+s;
   if(sessionStorage.getItem(k)) return;
   sessionStorage.setItem(k,'1');
-  fetch('https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app/blogViews/'+encodeURIComponent(s)+'.json',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({'.sv':{increment:1}})}).catch(function(){});
+  var DB='https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
+  var INC=JSON.stringify({'.sv':{increment:1}});
+  function put(path){ fetch(DB+'/'+path+'.json',{method:'PUT',headers:{'Content-Type':'application/json'},body:INC}).catch(function(){}); }
+  // UTC 기준 시간 버킷 YYYYMMDDHH (24개 합산 = 최근 24시간)
+  var d=new Date();
+  function p2(n){return (n<10?'0':'')+n;}
+  var bucket=''+d.getUTCFullYear()+p2(d.getUTCMonth()+1)+p2(d.getUTCDate())+p2(d.getUTCHours());
+  var es=encodeURIComponent(s);
+  put('blogViews/'+es);                       // 누적(역대)
+  put('blogViewsHourly/'+es+'/'+bucket);      // 시간버킷(최근 24h/48h 인기)
 }catch(e){}})();
 </script>
 <nav><div class="nav-w">
