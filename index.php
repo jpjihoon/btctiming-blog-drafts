@@ -144,7 +144,7 @@ $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 <meta property="og:site_name" content="BTCtiming.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
-<style>100%{background-position:-100% 0}}
+<style>
 .exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
 .exch-banner:hover{border-color:rgba(247,147,26,.7)}
 .exch-banner:active{transform:scale(.99)}
