@@ -384,7 +384,7 @@ foreach ($__langKeys as $__l) {
     // 그 외 언어는 display:none으로 숨겨두고, 언어 전환 시 JS(setLang)가 인라인 style을 조정한다.
     $styOf = fn($l) => ($l === $__blLang) ? '' : ' style="display:none"';
 ?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card<?= ($__cat!=='all' && $cat!==$__cat)?' hidden':'' ?>" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+    <a href="/blog/<?= h($a['file']) ?>" class="article-card<?= (($__cat!=='all' && $cat!==$__cat) || ($__cat==='all' && $i>=12))?' hidden':'' ?>" data-cat="<?= h($cat) ?>" data-idx="<?= $i ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon /* 이모지는 이스케이프하지 않음 */ ?></div>
       <div class="card-body">
         <div class="card-tagrow">
@@ -403,9 +403,9 @@ foreach ($__langKeys as $__l) {
 <?php endforeach; endif; ?>
   </div>
 
-  <button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="display:none">
+  <?php $__more = ($__cat==='all') ? max(0, count($articles)-12) : 0; ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
     <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
-    <span id="loadMoreCount"></span>
+    <span id="loadMoreCount"><?= $__more>0 ? '('.min($__more,12).')' : '' ?></span>
   </button>
   </div><!-- /blog-main -->
 
