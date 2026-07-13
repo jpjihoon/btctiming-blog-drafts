@@ -1,0 +1,357 @@
+<?php $slug = 'leverage-flush-liquidation-window-flip-gap'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">비트코인은 7월13일 낮(한국시간) 기준 6만2,800달러 안팎에서 거래되고 있다. 지난 24시간 1.4% 내렸고, 이날 아시아 세션 오전 한때 6만4,300달러대에서 미끄러지며 코인데스크가 "레버리지 플러시"라 부른 되돌림을 겪었다. 6월30일 저점 5만7,900달러대에서 반등한 이후 한 달 가까이 5만9,000~6만6,000달러 박스권을 벗어나지 못하고 있는 흐름의 연장선이다. 트럼프 대통령이 이란 휴전 기조에서 한발 물러서며 지정학 리스크가 되살아났고, 유가는 배럴당 75달러를 향해 5% 넘게 뛰며 위험자산 전반의 투자심리를 눌렀다.</p>
+<p class="en">Bitcoin is trading around $62,800 as of midday July 13 (KST). It's down 1.4% over the past 24 hours, having slipped from the mid-$64,300s during the Asian morning session in what CoinDesk called a "leverage flush." That's an extension of a pattern running for nearly a month now: since bouncing off a June 30 low near $57,900, price hasn't broken out of a $59,000-$66,000 box. Renewed geopolitical risk added pressure after President Trump stepped back from an Iran ceasefire stance, and oil jumped more than 5% toward $75 a barrel, weighing on risk appetite across assets broadly.</p>
+<p class="ja">ビットコインは7月13日昼(韓国時間)時点で6万2,800ドル前後で取引されている。過去24時間で1.4%下落し、この日のアジアセッション午前には一時6万4,300ドル台から滑り落ち、コインデスクが「レバレッジフラッシュ」と呼ぶ巻き戻しに見舞われた。6月30日の安値5万7,900ドル台から反発して以降、1カ月近く5万9,000~6万6,000ドルのボックス圏を抜け出せていない流れの延長線上にある。トランプ大統領がイラン停戦の姿勢から一歩後退し地政学リスクが再燃したほか、原油価格が1バレル75ドルに向けて5%超上昇し、リスク資産全般の投資心理を圧迫した。</p>
+<p class="es">Bitcoin cotiza alrededor de $62,800 a mediodía del 13 de julio (hora de Corea). Cayó 1.4% en las últimas 24 horas, tras deslizarse desde la zona media de $64,300 durante la sesión asiática matutina en lo que CoinDesk llamó un "leverage flush" (purga de apalancamiento). Es una extensión de un patrón que dura casi un mes: desde que rebotó desde un mínimo cercano a $57,900 el 30 de junio, el precio no ha logrado salir de una banda de $59,000-$66,000. El riesgo geopolítico se reavivó después de que el presidente Trump diera un paso atrás en su postura sobre el alto el fuego con Irán, y el petróleo saltó más del 5% hacia los $75 por barril, presionando el apetito de riesgo en general.</p>
+<p class="de">Bitcoin notiert am Mittag des 13. Juli (KST) bei rund 62.800 Dollar. In den vergangenen 24 Stunden fiel der Kurs um 1,4 Prozent, nachdem er während der asiatischen Morgensitzung von den mittleren 64.300ern abrutschte — was CoinDesk als „Leverage Flush" bezeichnete. Das setzt ein seit fast einem Monat laufendes Muster fort: Seit der Erholung von einem Tief nahe 57.900 Dollar am 30. Juni hat der Kurs die Spanne von 59.000 bis 66.000 Dollar nicht verlassen. Geopolitisches Risiko flammte neu auf, nachdem Präsident Trump von seiner Haltung zu einem Waffenstillstand mit dem Iran abrückte, und der Ölpreis sprang um mehr als 5 Prozent auf rund 75 Dollar pro Barrel zu, was die Risikobereitschaft über alle Anlageklassen hinweg belastete.</p>
+<p class="fr">Le bitcoin s'échange autour de 62 800 dollars en milieu de journée le 13 juillet (heure de Corée). Il a reculé de 1,4 % au cours des dernières 24 heures, glissant depuis la zone des 64 300 dollars pendant la séance asiatique du matin, dans ce que CoinDesk a qualifié de « leverage flush » (purge de levier). C'est le prolongement d'un schéma qui dure depuis près d'un mois : depuis son rebond depuis un plus bas proche de 57 900 dollars le 30 juin, le prix n'est pas sorti d'une fourchette de 59 000 à 66 000 dollars. Le risque géopolitique s'est ravivé après que le président Trump a reculé sur sa position concernant un cessez-le-feu avec l'Iran, et le pétrole a bondi de plus de 5 % vers 75 dollars le baril, pesant sur l'appétit pour le risque à travers les actifs.</p>
+<p class="pt">O bitcoin é negociado em torno de US$ 62.800 ao meio-dia de 13 de julho (horário da Coreia). Caiu 1,4% nas últimas 24 horas, deslizando da faixa de US$ 64.300 durante a sessão asiática da manhã, no que a CoinDesk chamou de "leverage flush" (purga de alavancagem). É a extensão de um padrão que já dura quase um mês: desde que saltou de uma mínima próxima de US$ 57.900 em 30 de junho, o preço não rompeu a faixa de US$ 59.000-66.000. O risco geopolítico se reacendeu depois que o presidente Trump recuou de sua postura sobre um cessar-fogo com o Irã, e o petróleo saltou mais de 5% em direção a US$ 75 o barril, pressionando o apetite por risco em geral.</p>
+<p class="tr">Bitcoin, 13 Temmuz öğle saatleri (KST) itibarıyla 62.800 dolar civarında işlem görüyor. Son 24 saatte yüzde 1,4 geriledi; Asya seansı sabahında 64.300 dolar seviyelerinden kayarak CoinDesk'in "kaldıraç temizliği" (leverage flush) olarak adlandırdığı bir geri çekilme yaşadı. Bu, neredeyse bir aydır süren bir örüntünün devamı: 30 Haziran'daki 57.900 dolar civarındaki dipten toparlandığından beri fiyat 59.000-66.000 dolar aralığından çıkamadı. Trump'ın İran ateşkesi konusundaki tutumundan geri adım atmasıyla jeopolitik risk yeniden alevlendi ve petrol yüzde 5'in üzerinde sıçrayarak varil başına 75 dolara yaklaştı; bu da risk iştahını genel olarak baskıladı.</p>
+<p class="vi">Bitcoin đang giao dịch quanh mức 62.800 đô la vào trưa ngày 13 tháng 7 (giờ Hàn Quốc). Giá giảm 1,4% trong 24 giờ qua, trượt từ vùng 64.300 đô la trong phiên buổi sáng châu Á, trong cái mà CoinDesk gọi là một đợt "xả đòn bẩy" (leverage flush). Đây là phần tiếp nối của một mô hình đã kéo dài gần một tháng: kể từ khi bật lên từ đáy gần 57.900 đô la vào ngày 30 tháng 6, giá vẫn chưa thoát khỏi vùng 59.000-66.000 đô la. Rủi ro địa chính trị bùng lên trở lại sau khi Tổng thống Trump lùi bước khỏi lập trường ngừng bắn với Iran, và giá dầu tăng vọt hơn 5% hướng tới 75 đô la một thùng, đè nặng lên khẩu vị rủi ro nói chung.</p>
+
+<p class="ko">이 사이트는 앞서 <a href="/leverage-ratio-long-short-conviction-gap.php">추정 레버리지 비율과 롱숏비율의 방향 차이</a>를 다뤘다. 이번 점검은 총량이나 계정 비중이 아니라, 청산이라는 같은 데이터 안에서 어느 창(window)을 보느냐에 따라 결론이 뒤집히는 지점과, 펀딩비가 그중 어느 쪽 이야기에 힘을 싣는지를 짚는다.</p>
+<p class="en">This site previously covered <a href="/leverage-ratio-long-short-conviction-gap.php">the diverging directions of the Estimated Leverage Ratio and the long/short ratio</a>. This check looks at something different: not the total amount of leverage or account positioning shares, but the point within the same liquidation data where the conclusion flips depending on which window you look at — and which side the funding rate is currently backing.</p>
+<p class="ja">当サイトは以前、<a href="/leverage-ratio-long-short-conviction-gap.php">推定レバレッジ比率とロングショート比率の方向の食い違い</a>を取り上げた。今回の点検は総量や口座比率ではなく、清算という同じデータの中でどの窓(期間)を見るかによって結論が逆転する点、そして資金調達率がそのどちら側の話を後押ししているかを追う。</p>
+<p class="es">Este sitio cubrió anteriormente <a href="/leverage-ratio-long-short-conviction-gap.php">la divergencia entre el Ratio de Apalancamiento Estimado y el ratio long/short</a>. Este análisis observa algo distinto: no la cantidad total de apalancamiento ni la proporción de posiciones por cuenta, sino el punto dentro de los mismos datos de liquidación donde la conclusión se invierte según la ventana que se observe — y de qué lado se está inclinando la tasa de financiación en este momento.</p>
+<p class="de">Diese Seite behandelte zuvor <a href="/leverage-ratio-long-short-conviction-gap.php">die auseinanderlaufenden Richtungen von geschätzter Leverage Ratio und Long/Short-Ratio</a>. Diese Prüfung betrachtet etwas anderes: nicht die Gesamtmenge an Leverage oder Kontopositionierungsanteile, sondern den Punkt innerhalb derselben Liquidationsdaten, an dem sich die Schlussfolgerung je nach betrachtetem Zeitfenster umkehrt — und welche Seite die Finanzierungsrate gerade stützt.</p>
+<p class="fr">Ce site a précédemment couvert <a href="/leverage-ratio-long-short-conviction-gap.php">la divergence de direction entre le ratio de levier estimé et le ratio long/short</a>. Cette vérification observe autre chose : non pas la quantité totale de levier ni la part de positionnement des comptes, mais le point à l'intérieur des mêmes données de liquidation où la conclusion s'inverse selon la fenêtre observée — et de quel côté penche actuellement le taux de financement.</p>
+<p class="pt">Este site cobriu anteriormente <a href="/leverage-ratio-long-short-conviction-gap.php">a divergência de direção entre o Índice de Alavancagem Estimada e o índice long/short</a>. Esta verificação observa algo diferente: não o volume total de alavancagem nem a fatia de posicionamento das contas, mas o ponto dentro dos mesmos dados de liquidação onde a conclusão se inverte dependendo da janela observada — e para qual lado a taxa de financiamento está pendendo agora.</p>
+<p class="tr">Bu site daha önce <a href="/leverage-ratio-long-short-conviction-gap.php">Tahmini Kaldıraç Oranı ile long/short oranı arasındaki yön farkını</a> ele almıştı. Bu inceleme farklı bir şeye bakıyor: toplam kaldıraç miktarına veya hesap konumlanma paylarına değil, aynı tasfiye verisi içinde hangi pencereye bakıldığına göre sonucun tersine döndüğü noktaya — ve fonlama oranının şu anda hangi tarafı desteklediğine.</p>
+<p class="vi">Trang này trước đây đã đề cập đến <a href="/leverage-ratio-long-short-conviction-gap.php">sự phân kỳ hướng đi giữa Tỷ Lệ Đòn Bẩy Ước Tính và tỷ lệ long/short</a>. Lần kiểm tra này nhìn vào một điều khác: không phải tổng lượng đòn bẩy hay tỷ trọng vị thế theo tài khoản, mà là điểm bên trong cùng một dữ liệu thanh lý nơi kết luận bị đảo ngược tùy theo khung thời gian được xem xét — và lãi suất tài trợ hiện đang nghiêng về phía nào.</p>
+
+<h2 class="ko">청산 데이터, 24시간과 12시간이 다른 이야기를 한다</h2>
+<h2 class="en">Liquidation Data Tells a Different Story at 24 Hours Than at 12</h2>
+<h2 class="ja">清算データは24時間と12時間で異なる話をする</h2>
+<h2 class="es">Los Datos de Liquidación Cuentan una Historia Distinta a 24 Horas y a 12</h2>
+<h2 class="de">Liquidationsdaten Erzählen bei 24 Stunden eine Andere Geschichte als bei 12</h2>
+<h2 class="fr">Les Données de Liquidation Racontent une Histoire Différente à 24 Heures qu'à 12</h2>
+<h2 class="pt">Os Dados de Liquidação Contam uma História Diferente em 24 Horas e em 12</h2>
+<h2 class="tr">Tasfiye Verileri 24 Saatte Farklı, 12 Saatte Farklı Bir Hikaye Anlatıyor</h2>
+<h2 class="vi">Dữ Liệu Thanh Lý Kể Một Câu Chuyện Khác Ở Mốc 24 Giờ So Với 12 Giờ</h2>
+
+<p class="ko">코인글래스 집계 기준 지난 24시간 비트코인 선물 청산 규모는 총 6,157만 달러다. 이 가운데 롱 청산이 4,791만 달러(약 78%)로 숏 청산 1,366만 달러를 크게 웃돈다. 아시아 세션에 가격이 6만4,300달러대에서 미끄러진 흐름과 맞아떨어지는 그림으로, 24시간이라는 창으로만 보면 "이번 되돌림에서 다친 쪽은 롱"이라는 결론이 자연스럽다. 청산 총액 자체는 최근 30일 중 가장 심했던 날의 6분의 1 수준에 그쳐, 격렬한 붕괴라기보다는 되돌림 수준의 정리로 읽힌다.</p>
+<p class="en">Per CoinGlass, total Bitcoin futures liquidations over the past 24 hours came to $61.57 million. Of that, longs accounted for $47.91 million (about 78%), far outweighing $13.66 million in short liquidations — consistent with the price sliding from the mid-$64,300s during the Asian session. Looking only at the 24-hour window, the natural conclusion is that longs took the hit this time. The total is only about a sixth of the worst single day over the past 30 days, so this reads more like a routine flush than a violent unwind.</p>
+<p class="ja">コイングラス集計によると、過去24時間のビットコイン先物清算総額は6,157万ドルだ。うちロング清算が4,791万ドル(約78%)で、ショート清算1,366万ドルを大きく上回る。アジアセッションで価格が6万4,300ドル台から滑り落ちた流れと符合する構図で、24時間という窓だけで見れば「今回の巻き戻しで傷ついたのはロング」という結論が自然に導かれる。清算総額自体は過去30日で最悪だった日の6分の1程度にとどまり、激しい崩壊というより巻き戻し程度の整理と読める。</p>
+<p class="es">Según CoinGlass, las liquidaciones totales de futuros de bitcoin en las últimas 24 horas ascendieron a $61.57 millones. De eso, los largos representaron $47.91 millones (alrededor del 78%), superando ampliamente los $13.66 millones en liquidaciones cortas — coherente con el deslizamiento del precio desde la zona media de $64,300 durante la sesión asiática. Mirando solo la ventana de 24 horas, la conclusión natural es que los largos recibieron el golpe esta vez. El total es apenas una sexta parte del peor día individual de los últimos 30 días, por lo que se lee más como una purga rutinaria que como un desplome violento.</p>
+<p class="de">Laut CoinGlass beliefen sich die gesamten Bitcoin-Futures-Liquidationen der vergangenen 24 Stunden auf 61,57 Millionen Dollar. Davon entfielen 47,91 Millionen Dollar (etwa 78%) auf Longs — weit mehr als die 13,66 Millionen Dollar an Short-Liquidationen. Das passt zum Kursrutsch von den mittleren 64.300ern während der asiatischen Sitzung. Betrachtet man nur das 24-Stunden-Fenster, liegt der naheliegende Schluss nahe, dass diesmal Longs getroffen wurden. Die Gesamtsumme entspricht nur etwa einem Sechstel des schlimmsten Einzeltags der vergangenen 30 Tage, was eher nach einer routinemäßigen Bereinigung als nach einem heftigen Ausverkauf aussieht.</p>
+<p class="fr">Selon CoinGlass, le total des liquidations de futures bitcoin sur les dernières 24 heures s'est élevé à 61,57 millions de dollars. Sur ce total, les positions longues représentaient 47,91 millions de dollars (environ 78 %), dépassant largement les 13,66 millions de dollars de liquidations courtes — cohérent avec le glissement du prix depuis la zone des 64 300 dollars pendant la séance asiatique. En ne regardant que la fenêtre de 24 heures, la conclusion naturelle est que ce sont les positions longues qui ont été touchées cette fois. Le total ne représente qu'environ un sixième de la pire journée des 30 derniers jours, ce qui ressemble davantage à un nettoyage de routine qu'à un effondrement violent.</p>
+<p class="pt">Segundo a CoinGlass, o total de liquidações de futuros de bitcoin nas últimas 24 horas somou US$ 61,57 milhões. Desse total, as posições compradas responderam por US$ 47,91 milhões (cerca de 78%), superando amplamente os US$ 13,66 milhões em liquidações vendidas — condizente com o deslize do preço da faixa de US$ 64.300 durante a sessão asiática. Olhando apenas para a janela de 24 horas, a conclusão natural é que as compradas levaram o golpe desta vez. O total é apenas cerca de um sexto do pior dia único dos últimos 30 dias, o que soa mais como uma limpeza de rotina do que um colapso violento.</p>
+<p class="tr">CoinGlass verilerine göre, son 24 saatteki toplam bitcoin vadeli işlem tasfiyeleri 61,57 milyon dolara ulaştı. Bunun 47,91 milyon doları (yaklaşık yüzde 78) long pozisyonlardan geldi ve 13,66 milyon dolarlık short tasfiyelerini büyük ölçüde geride bıraktı — bu, fiyatın Asya seansında 64.300 dolar seviyelerinden kaymasıyla örtüşüyor. Sadece 24 saatlik pencereye bakıldığında, doğal sonuç bu kez darbeyi long'ların yediği yönünde. Toplam, son 30 günün en kötü tek gününün yaklaşık altıda biri kadar, bu da şiddetli bir çöküşten çok rutin bir temizliğe benziyor.</p>
+<p class="vi">Theo CoinGlass, tổng giá trị thanh lý hợp đồng tương lai bitcoin trong 24 giờ qua đạt 61,57 triệu đô la. Trong đó, vị thế long chiếm 47,91 triệu đô la (khoảng 78%), vượt xa mức 13,66 triệu đô la thanh lý ở vị thế short — phù hợp với việc giá trượt từ vùng 64.300 đô la trong phiên châu Á. Chỉ nhìn vào khung 24 giờ, kết luận tự nhiên là lần này long là bên chịu thiệt. Tổng giá trị chỉ bằng khoảng một phần sáu ngày tồi tệ nhất trong 30 ngày qua, nên nó giống một đợt dọn dẹp thông thường hơn là một sự sụp đổ dữ dội.</p>
+
+<p class="ko">그런데 창을 좁혀 최근 12시간만 보면 그림이 뒤집힌다. 같은 코인글래스 집계에서 숏 청산이 2,539만 달러로, 롱 청산 1,272만 달러의 두 배에 가깝다. 즉 하루 전체로 보면 롱이 더 많이 다쳤지만, 가장 최근 반나절만 떼어 보면 손실을 보는 쪽은 숏이라는 뜻이다. 청산 데이터 자체는 하나인데, 그 데이터를 어느 구간에서 자르느냐에 따라 "이번 조정은 롱을 향한 경고"와 "이번 조정은 숏 스퀴즈로 되돌아가는 중"이라는 정반대 진단이 모두 성립하는 셈이다.</p>
+<p class="en">Narrow the window to just the last 12 hours, though, and the picture flips. In the same CoinGlass data, short liquidations reached $25.39 million — nearly double the $12.72 million in long liquidations. In other words, over the full day longs took the bigger hit, but over just the most recent half-day, it's shorts losing money. The underlying data source is the same; it's simply where you cut the window that determines whether you conclude "this pullback is a warning shot at longs" or "this pullback is swinging back into a short squeeze" — both readable from the same tape.</p>
+<p class="ja">しかし窓を最近12時間だけに絞ると図が逆転する。同じコイングラス集計で、ショート清算は2,539万ドルに達し、ロング清算1,272万ドルのほぼ2倍だ。つまり丸一日で見ればロングの方が多く傷ついたが、直近半日だけを切り出せば、損失を出しているのはショートということになる。元となるデータは一つなのに、どの区間で切るかによって「今回の調整はロングへの警告」と「今回の調整はショートスクイーズへ戻りつつある」という正反対の診断がどちらも成り立つわけだ。</p>
+<p class="es">Sin embargo, si se acota la ventana a las últimas 12 horas solamente, la imagen se invierte. En los mismos datos de CoinGlass, las liquidaciones cortas alcanzaron $25.39 millones — casi el doble de los $12.72 millones en liquidaciones largas. En otras palabras, en el día completo los largos recibieron el golpe mayor, pero en solo la media jornada más reciente, son los cortos los que pierden dinero. La fuente de datos subyacente es la misma; simplemente el punto donde se corta la ventana determina si se concluye que "esta corrección es una advertencia para los largos" o que "esta corrección está virando hacia un short squeeze" — ambas lecturas posibles a partir de la misma cinta.</p>
+<p class="de">Verengt man das Fenster jedoch auf nur die letzten 12 Stunden, kehrt sich das Bild um. In denselben CoinGlass-Daten erreichten Short-Liquidationen 25,39 Millionen Dollar — fast doppelt so viel wie die 12,72 Millionen Dollar an Long-Liquidationen. Anders gesagt: Über den ganzen Tag betrachtet traf es Longs stärker, doch über nur die letzte Tageshälfte verlieren Shorts Geld. Die zugrunde liegende Datenquelle ist dieselbe; es kommt einzig darauf an, wo man das Fenster ansetzt, um zu dem Schluss zu kommen, dass „dieser Rücksetzer ein Warnschuss für Longs" ist — oder dass „dieser Rücksetzer sich zurück in einen Short Squeeze dreht" — beides aus demselben Datenstrom ablesbar.</p>
+<p class="fr">Cependant, si l'on réduit la fenêtre aux 12 dernières heures seulement, l'image s'inverse. Dans les mêmes données CoinGlass, les liquidations courtes ont atteint 25,39 millions de dollars — près du double des 12,72 millions de dollars de liquidations longues. Autrement dit, sur la journée entière, ce sont les positions longues qui ont été le plus touchées, mais sur la seule dernière demi-journée, ce sont les positions courtes qui perdent de l'argent. La source de données sous-jacente est la même ; c'est simplement l'endroit où l'on découpe la fenêtre qui détermine si l'on conclut que « cette correction est un avertissement pour les longs » ou que « cette correction est en train de basculer vers un short squeeze » — les deux lectures étant possibles à partir de la même donnée.</p>
+<p class="pt">No entanto, ao estreitar a janela para apenas as últimas 12 horas, a imagem se inverte. Nos mesmos dados da CoinGlass, as liquidações vendidas atingiram US$ 25,39 milhões — quase o dobro dos US$ 12,72 milhões em liquidações compradas. Em outras palavras, no dia inteiro as compradas levaram o golpe maior, mas apenas na meia diária mais recente, são as vendidas que perdem dinheiro. A fonte de dados subjacente é a mesma; é simplesmente onde se corta a janela que determina se conclui que "esta correção é um aviso às compradas" ou que "esta correção está virando para um short squeeze" — ambas as leituras possíveis a partir dos mesmos dados.</p>
+<p class="tr">Ancak pencereyi yalnızca son 12 saate daraltınca tablo tersine dönüyor. Aynı CoinGlass verilerinde, short tasfiyeleri 25,39 milyon dolara ulaştı — bu, 12,72 milyon dolarlık long tasfiyelerinin neredeyse iki katı. Başka bir deyişle, tüm gün boyunca long'lar daha büyük darbeyi yerken, sadece en son yarım günde para kaybeden taraf short'lar. Altta yatan veri kaynağı aynı; pencerenin nereden kesildiği, "bu düzeltme long'lara bir uyarı atışı" mı yoksa "bu düzeltme bir short sıkışmasına doğru dönüyor" mu sonucuna varılacağını belirliyor — ikisi de aynı veriden okunabiliyor.</p>
+<p class="vi">Tuy nhiên, khi thu hẹp khung xuống chỉ còn 12 giờ gần nhất, bức tranh đảo ngược. Trong cùng dữ liệu CoinGlass, thanh lý short đạt 25,39 triệu đô la — gần gấp đôi mức 12,72 triệu đô la thanh lý long. Nói cách khác, xét cả ngày thì long chịu thiệt nhiều hơn, nhưng chỉ trong nửa ngày gần nhất, bên mất tiền lại là short. Nguồn dữ liệu cơ bản là như nhau; chỉ là việc cắt khung ở đâu sẽ quyết định kết luận là "đợt điều chỉnh này là một lời cảnh báo dành cho long" hay "đợt điều chỉnh này đang xoay chuyển trở lại thành một cú short squeeze" — cả hai cách đọc đều có thể rút ra từ cùng một dữ liệu.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">청산 데이터의 두 얼굴 — 24시간 vs 12시간</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">롱 청산</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">숏 청산</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24시간 (전체)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12시간 (최근)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">※ 두 구간 모두 코인글래스 동일 데이터 기준, 7월13일 스냅샷</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">출처: 코인글래스</text>
+</svg>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Two Faces of the Same Liquidation Data — 24H vs. 12H</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Longs Liquidated</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Shorts Liquidated</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24H (full day)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12H (most recent)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Both windows drawn from the same CoinGlass dataset, July 13 snapshot</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Source: CoinGlass</text>
+</svg>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">同じ清算データの二つの顔 — 24時間 vs 12時間</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">ロング清算</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">ショート清算</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24時間(全体)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12時間(直近)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">※ 両区間とも同一のコイングラスデータ、7月13日時点のスナップショット</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">出典: コイングラス</text>
+</svg>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Dos Caras de los Mismos Datos de Liquidación — 24H vs. 12H</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Largos Liquidados</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Cortos Liquidados</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24H (día completo)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12H (más reciente)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Ambas ventanas provienen del mismo conjunto de datos de CoinGlass, instantánea del 13 de julio</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Fuente: CoinGlass</text>
+</svg>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Zwei Gesichter Derselben Liquidationsdaten — 24H vs. 12H</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Longs Liquidiert</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Shorts Liquidiert</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24H (ganzer Tag)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12H (jüngste)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Beide Fenster stammen aus demselben CoinGlass-Datensatz, Momentaufnahme vom 13. Juli</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Quelle: CoinGlass</text>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Deux Visages des Mêmes Données de Liquidation — 24H vs. 12H</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Longs Liquidés</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Shorts Liquidés</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24H (jour entier)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12H (plus récent)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Les deux fenêtres proviennent du même jeu de données CoinGlass, instantané du 13 juillet</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Source : CoinGlass</text>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Duas Faces dos Mesmos Dados de Liquidação — 24H vs. 12H</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Compradas Liquidadas</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Vendidas Liquidadas</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24H (dia inteiro)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12H (mais recente)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Ambas as janelas vêm do mesmo conjunto de dados da CoinGlass, instantâneo de 13 de julho</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Fonte: CoinGlass</text>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Aynı Tasfiye Verisinin İki Yüzü — 24 Saat vs. 12 Saat</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Tasfiye Edilen Long</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Tasfiye Edilen Short</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24 Saat (tüm gün)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12 Saat (en son)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Her iki pencere de aynı CoinGlass veri setinden, 13 Temmuz anlık görüntüsü</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Kaynak: CoinGlass</text>
+</svg>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Hai Bộ Mặt Của Cùng Một Dữ Liệu Thanh Lý — 24 Giờ so với 12 Giờ</text>
+  <rect x="470" y="14" width="14" height="14" fill="#fb923c"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Long Bị Thanh Lý</text>
+  <rect x="470" y="34" width="14" height="14" fill="#22d3ee"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Short Bị Thanh Lý</text>
+  <line x1="70" y1="340" x2="650" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="340" stroke="#3f3f46" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="650" y2="100" stroke="#27272a" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="45" y="104" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$50M</text>
+  <text x="45" y="344" fill="#71717a" font-family="sans-serif" font-size="13" text-anchor="end">$0</text>
+  <rect x="110" y="110" width="70" height="230" fill="#fb923c"/>
+  <text x="145" y="100" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$47.91M</text>
+  <rect x="200" y="274" width="70" height="66" fill="#22d3ee"/>
+  <text x="235" y="264" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$13.66M</text>
+  <text x="185" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">24 Giờ (cả ngày)</text>
+  <rect x="420" y="279" width="70" height="61" fill="#fb923c"/>
+  <text x="455" y="269" fill="#fb923c" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$12.72M</text>
+  <rect x="510" y="218" width="70" height="122" fill="#22d3ee"/>
+  <text x="545" y="208" fill="#22d3ee" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">$25.39M</text>
+  <text x="495" y="365" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">12 Giờ (gần nhất)</text>
+  <text x="20" y="380" fill="#71717a" font-family="sans-serif" font-size="12">Cả hai khung đều lấy từ cùng bộ dữ liệu CoinGlass, ảnh chụp nhanh ngày 13 tháng 7</text>
+  <text x="20" y="396" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: CoinGlass</text>
+</svg>
+</div>
+
+<h2 class="ko">펀딩비는 숏 쪽으로 기울었는데, 그 숏이 지금 이기고 있진 않다</h2>
+<h2 class="en">Funding Has Tilted Toward Shorts — But Shorts Aren't Winning Yet</h2>
+<h2 class="ja">資金調達率はショート寄りに傾いたが、そのショートが今勝っているわけではない</h2>
+<h2 class="es">La Financiación se Inclinó Hacia los Cortos — Pero los Cortos Aún No Están Ganando</h2>
+<h2 class="de">Die Finanzierung Hat Sich Richtung Shorts Geneigt — Doch Shorts Gewinnen Noch Nicht</h2>
+<h2 class="fr">Le Financement a Penché Vers les Positions Courtes — Mais Elles ne Gagnent pas Encore</h2>
+<h2 class="pt">O Financiamento Pendeu Para as Vendidas — Mas Elas Ainda Não Estão Vencendo</h2>
+<h2 class="tr">Fonlama Short'lara Doğru Eğildi — Ama Short'lar Henüz Kazanmıyor</h2>
+<h2 class="vi">Lãi Suất Tài Trợ Đã Nghiêng Về Short — Nhưng Short Vẫn Chưa Thắng</h2>
+
+<p class="ko">펀딩비도 최근 방향을 바꿨다. 위엑스(WEEX)·코인알라이즈 집계 기준 가장 최근 표본에서 바이낸스 펀딩비는 -0.0011%, OKX는 -0.0059%, 네트워크 8시간 평균은 -0.0015%로 모두 마이너스다. 숏 포지션 보유자가 롱에게 프리미엄을 받는 구도로, 이번 주 초 이 사이트가 확인했던 4시간당 +0.0087%(연환산 약 19%)의 롱 우위 펀딩비에서 방향이 뒤집힌 셈이다. 총량 기준 레버리지가 재건되는 동안 그 레버리지가 향하는 방향에 대한 시장의 표(펀딩비)가 숏 쪽으로 넘어간 것으로 읽힌다.</p>
+<p class="en">Funding has also changed direction recently. In the latest samples aggregated via WEEX and Coinalyze, Binance's funding rate reads -0.0011%, OKX's -0.0059%, and the network's 8-hour average -0.0015% — all negative. That means short holders are collecting a premium from longs, a reversal from the long-tilted funding rate of roughly +0.0087% per four hours (about 19% annualized) this site noted earlier in the week. While the total amount of leverage keeps rebuilding, the market's vote on which direction that leverage points — funding — has swung toward shorts.</p>
+<p class="ja">資金調達率も最近方向を変えた。WEEX・コインアライズ集計による最新のサンプルでは、バイナンスの資金調達率は-0.0011%、OKXは-0.0059%、ネットワーク8時間平均は-0.0015%と、いずれもマイナスだ。ショート保有者がロングからプレミアムを受け取る構図で、当サイトが今週初めに確認した4時間あたり+0.0087%(年換算約19%)というロング優位の資金調達率から方向が反転したことになる。レバレッジの総量が再構築される一方で、そのレバレッジがどちらを向いているかについての市場の投票(資金調達率)はショート側に傾いたと読める。</p>
+<p class="es">La financiación también cambió de dirección recientemente. En las muestras más recientes agregadas por WEEX y Coinalyze, la tasa de financiación de Binance marca -0.0011%, la de OKX -0.0059%, y el promedio de 8 horas de la red -0.0015% — todas negativas. Eso significa que los tenedores de posiciones cortas cobran una prima de los largos, una reversión respecto a la tasa de financiación inclinada hacia largos de aproximadamente +0.0087% por cada cuatro horas (cerca del 19% anualizado) que este sitio señaló a principios de esta semana. Mientras la cantidad total de apalancamiento sigue reconstruyéndose, el voto del mercado sobre hacia dónde apunta ese apalancamiento — la financiación — ha virado hacia los cortos.</p>
+<p class="de">Auch die Finanzierung hat kürzlich die Richtung gewechselt. In den jüngsten, über WEEX und Coinalyze aggregierten Stichproben liegt Binances Finanzierungsrate bei -0,0011%, die von OKX bei -0,0059% und der 8-Stunden-Netzwerkdurchschnitt bei -0,0015% — allesamt negativ. Das bedeutet, Short-Halter kassieren eine Prämie von Longs, eine Umkehr gegenüber der long-lastigen Finanzierungsrate von rund +0,0087% pro vier Stunden (etwa 19% annualisiert), die diese Seite Anfang der Woche vermerkte. Während die Gesamtmenge an Leverage weiter wächst, hat sich das Marktvotum darüber, wohin dieser Leverage zeigt — die Finanzierung — in Richtung Shorts verschoben.</p>
+<p class="fr">Le financement a également changé de direction récemment. Dans les derniers échantillons agrégés via WEEX et Coinalyze, le taux de financement de Binance s'affiche à -0,0011 %, celui d'OKX à -0,0059 %, et la moyenne réseau sur 8 heures à -0,0015 % — tous négatifs. Cela signifie que les détenteurs de positions courtes perçoivent une prime des positions longues, un renversement par rapport au taux de financement penché vers les longs d'environ +0,0087 % par tranche de quatre heures (environ 19 % annualisé) relevé par ce site plus tôt dans la semaine. Alors que la quantité totale de levier continue de se reconstruire, le vote du marché quant à la direction que pointe ce levier — le financement — a basculé vers les positions courtes.</p>
+<p class="pt">O financiamento também mudou de direção recentemente. Nas amostras mais recentes agregadas via WEEX e Coinalyze, a taxa de financiamento da Binance está em -0,0011%, a da OKX em -0,0059%, e a média de 8 horas da rede em -0,0015% — todas negativas. Isso significa que os detentores de posições vendidas estão recebendo um prêmio das compradas, uma reversão em relação à taxa de financiamento inclinada para compradas de cerca de +0,0087% a cada quatro horas (cerca de 19% anualizado) que este site observou no início da semana. Enquanto o volume total de alavancagem continua se reconstruindo, o voto do mercado sobre para onde essa alavancagem aponta — o financiamento — pendeu para as vendidas.</p>
+<p class="tr">Fonlama da yakın zamanda yön değiştirdi. WEEX ve Coinalyze üzerinden derlenen en son örneklerde, Binance'ın fonlama oranı -0,0011, OKX'inki -0,0059 ve ağın 8 saatlik ortalaması -0,0015 — hepsi negatif. Bu, short pozisyon sahiplerinin long'lardan prim topladığı anlamına geliyor; bu sitenin hafta başında not ettiği dört saatte yüzde +0,0087 (yıllıklandırılmış yaklaşık yüzde 19) long ağırlıklı fonlama oranından bir tersine dönüş. Toplam kaldıraç miktarı yeniden inşa edilmeye devam ederken, bu kaldıracın hangi yöne işaret ettiğine dair piyasanın oyu — fonlama — short'lara doğru kaydı.</p>
+<p class="vi">Lãi suất tài trợ cũng đã đổi hướng gần đây. Trong các mẫu mới nhất được tổng hợp qua WEEX và Coinalyze, lãi suất tài trợ của Binance ở mức -0,0011%, của OKX là -0,0059%, và mức trung bình 8 giờ của mạng lưới là -0,0015% — tất cả đều âm. Điều đó có nghĩa là những người giữ vị thế short đang thu phí bảo hiểm từ long, một sự đảo chiều so với mức lãi suất tài trợ nghiêng về long khoảng +0,0087% mỗi bốn giờ (khoảng 19% quy đổi theo năm) mà trang này đã ghi nhận đầu tuần. Trong khi tổng lượng đòn bẩy tiếp tục được tái xây dựng, lá phiếu của thị trường về hướng mà đòn bẩy đó chỉ tới — lãi suất tài trợ — đã nghiêng về phía short.</p>
+
+<p class="ko">문제는 그 표가 아직 실제 손익으로 확인되지 않았다는 점이다. 앞서 본 최근 12시간 청산에서 손실을 더 크게 본 쪽은 롱이 아니라 숏이었다 — 펀딩비가 숏에 프리미엄을 주기 시작한 바로 그 구간에, 실제로 청산당하는 쪽도 숏이라는 뜻이다. 코인데스크는 이번 레버리지 재건이 건강한지 판단하려는 트레이더들이 "펀딩비가 얌전한지, 베이시스가 비명을 지르지 않는지, 코인마진 선물에 쏠림 없이 미결제약정이 재건되는지"를 지켜본다고 전한다. 지금 데이터는 그 세 조건 중 어느 쪽으로도 뚜렷하게 기울지 않았다.</p>
+<p class="en">The trouble is that vote hasn't yet been confirmed by actual profit and loss. In the same 12-hour liquidation window described above, the side taking the bigger loss wasn't longs — it was shorts, meaning that in the very stretch where funding started paying shorts a premium, shorts are also the ones getting liquidated. CoinDesk reports that traders trying to judge whether this leverage rebuild is healthy are watching for "funding rates to behave, basis not to scream, and open interest to rebuild without clustering in coin-margined perps." Right now, the data doesn't clearly lean toward any one of those three conditions being met.</p>
+<p class="ja">問題は、その投票がまだ実際の損益で裏付けられていない点だ。前述の直近12時間の清算では、より大きな損失を出したのはロングではなくショートだった——資金調達率がショートにプレミアムを支払い始めたまさにその区間で、実際に清算されているのもショートだということだ。コインデスクによれば、今回のレバレッジ再構築が健全かどうかを判断しようとするトレーダーは「資金調達率が落ち着いているか、ベーシスが悲鳴を上げていないか、コインマージン先物への偏りなく未決済建玉が再構築されているか」を見ているという。今のデータは、その3条件のいずれにも明確には傾いていない。</p>
+<p class="es">El problema es que ese voto aún no ha sido confirmado por pérdidas y ganancias reales. En la misma ventana de 12 horas de liquidaciones descrita antes, el lado que sufrió la pérdida mayor no fueron los largos — fueron los cortos, lo que significa que justo en el tramo en que la financiación empezó a pagar una prima a los cortos, son también los cortos los que están siendo liquidados. CoinDesk informa que los traders que intentan juzgar si esta reconstrucción del apalancamiento es saludable observan que "las tasas de financiación se comporten, la base no grite, y el interés abierto se reconstruya sin concentrarse en futuros con margen en criptomonedas". Ahora mismo, los datos no se inclinan claramente hacia ninguna de esas tres condiciones.</p>
+<p class="de">Das Problem ist, dass dieses Votum noch nicht durch tatsächliche Gewinne und Verluste bestätigt wurde. Im selben oben beschriebenen 12-Stunden-Liquidationsfenster war es nicht Longs, die den größeren Verlust erlitten — es waren Shorts, was bedeutet, dass genau in dem Zeitraum, in dem die Finanzierung begann, Shorts eine Prämie zu zahlen, auch Shorts diejenigen sind, die liquidiert werden. CoinDesk berichtet, dass Trader, die beurteilen wollen, ob dieser Leverage-Wiederaufbau gesund ist, darauf achten, „dass sich Finanzierungsraten benehmen, die Basis nicht schreit und Open Interest sich wieder aufbaut, ohne sich in coin-marginierten Perpetuals zu ballen." Im Moment neigen die Daten klar zu keiner dieser drei Bedingungen.</p>
+<p class="fr">Le problème est que ce vote n'a pas encore été confirmé par des pertes et profits réels. Dans la même fenêtre de liquidation de 12 heures décrite plus haut, ce ne sont pas les positions longues qui ont subi la plus grosse perte — ce sont les positions courtes, ce qui signifie que précisément dans la période où le financement a commencé à verser une prime aux positions courtes, ce sont aussi elles qui se font liquider. CoinDesk rapporte que les traders cherchant à juger si cette reconstruction du levier est saine surveillent que « les taux de financement se comportent bien, que la base ne hurle pas, et que l'open interest se reconstruise sans se concentrer sur les futures à marge en cryptomonnaie ». En ce moment, les données ne penchent clairement vers aucune de ces trois conditions.</p>
+<p class="pt">O problema é que esse voto ainda não foi confirmado por lucros e perdas reais. Na mesma janela de liquidação de 12 horas descrita acima, o lado que sofreu a perda maior não foram as compradas — foram as vendidas, o que significa que justamente no trecho em que o financiamento começou a pagar um prêmio às vendidas, são também as vendidas que estão sendo liquidadas. A CoinDesk relata que os traders que tentam julgar se essa reconstrução da alavancagem é saudável observam se "as taxas de financiamento se comportam, a base não grita, e o open interest se reconstrói sem se concentrar em futuros de margem em cripto". No momento, os dados não pendem claramente para nenhuma dessas três condições.</p>
+<p class="tr">Sorun şu ki bu oy henüz gerçek kâr-zararla doğrulanmadı. Yukarıda açıklanan aynı 12 saatlik tasfiye penceresinde daha büyük zararı çeken taraf long'lar değildi — short'lardı; bu da fonlamanın short'lara prim ödemeye başladığı tam da o dönemde, tasfiye edilen tarafın da short'lar olduğu anlamına geliyor. CoinDesk, bu kaldıraç yeniden yapılanmasının sağlıklı olup olmadığını değerlendirmeye çalışan traderların "fonlama oranlarının uslu durup durmadığını, bazisin çığlık atmadığını ve açık pozisyonun coin marjinli vadeli işlemlerde yığılma olmadan yeniden inşa edilip edilmediğini" izlediğini bildiriyor. Şu anda veriler bu üç koşuldan hiçbirine net biçimde eğilim göstermiyor.</p>
+<p class="vi">Vấn đề là lá phiếu đó vẫn chưa được xác nhận bằng lãi lỗ thực tế. Trong cùng khung thanh lý 12 giờ đã mô tả ở trên, bên chịu tổn thất lớn hơn không phải là long — mà là short, nghĩa là ngay trong giai đoạn mà lãi suất tài trợ bắt đầu trả phí bảo hiểm cho short, thì short cũng chính là bên đang bị thanh lý. CoinDesk cho biết các trader đang cố đánh giá liệu đợt tái xây dựng đòn bẩy này có lành mạnh hay không đang theo dõi xem "lãi suất tài trợ có cư xử đúng mực, cơ sở (basis) có không gào thét, và khối lượng hợp đồng mở có được tái xây dựng mà không dồn cục vào các hợp đồng tương lai ký quỹ bằng coin hay không." Hiện tại, dữ liệu không nghiêng rõ ràng về bất kỳ điều kiện nào trong ba điều kiện đó.</p>
+
+<h2 class="ko">지금 국면에서 지켜볼 지점</h2>
+<h2 class="en">What to Watch From Here</h2>
+<h2 class="ja">今の局面で注視すべき点</h2>
+<h2 class="es">Qué Vigilar a Partir de Aquí</h2>
+<h2 class="de">Worauf Von Hier Aus zu Achten Ist</h2>
+<h2 class="fr">Ce Qu'il Faut Surveiller à Partir de Maintenant</h2>
+<h2 class="pt">O Que Observar a Partir Daqui</h2>
+<h2 class="tr">Buradan İtibaren Nelere Dikkat Edilmeli</h2>
+<h2 class="vi">Những Điều Cần Theo Dõi Từ Đây</h2>
+
+<p class="ko">이 글은 다음 가격이 오를지 내릴지를 점치지 않는다. 다만 지금 국면에서는 청산 데이터의 방향과 펀딩비의 방향이, 어느 시간 창을 고르느냐에 따라 서로 다른 이야기를 할 수 있다는 점 자체가 확인해야 할 지점이다. 첫째, 다음 24시간 청산 집계에서 숏 손실 비중이 계속 늘어나 펀딩비의 숏 프리미엄과 방향이 맞아떨어지는지, 아니면 다시 롱 쪽으로 되돌아가 오늘의 12시간 반전이 일시적 노이즈였는지다.</p>
+<p class="en">This piece isn't forecasting whether price goes up or down next. What's worth confirming in this phase is the fact itself: liquidation direction and funding direction can tell different stories depending on which window is chosen. First is whether the next 24-hour liquidation tally keeps tilting toward short losses — lining up with funding's short premium — or swings back toward longs, making today's 12-hour reversal look like temporary noise.</p>
+<p class="ja">本稿は次の価格が上がるか下がるかを占うものではない。今の局面で確認すべきなのは、清算データの方向と資金調達率の方向が、どの時間窓を選ぶかによって異なる話をしうるという事実そのものだ。第一に、次の24時間の清算集計でショート側の損失比率が増え続け、資金調達率のショートプレミアムと方向が一致するのか、それとも再びロング側に戻り、今日の12時間の反転が一時的なノイズだったことになるのかだ。</p>
+<p class="es">Este texto no pronostica si el precio subirá o bajará a continuación. Lo que vale la pena confirmar en esta fase es el hecho mismo: la dirección de la liquidación y la dirección de la financiación pueden contar historias distintas según la ventana elegida. Primero, si el próximo recuento de liquidaciones de 24 horas sigue inclinándose hacia pérdidas cortas — alineándose con la prima corta de la financiación — o vuelve a virar hacia los largos, haciendo que la reversión de 12 horas de hoy parezca ruido temporal.</p>
+<p class="de">Dieser Beitrag prognostiziert nicht, ob der Kurs als Nächstes steigt oder fällt. Was in dieser Phase zu bestätigen bleibt, ist die Tatsache selbst: Liquidationsrichtung und Finanzierungsrichtung können je nach gewähltem Zeitfenster unterschiedliche Geschichten erzählen. Erstens, ob die nächste 24-Stunden-Liquidationsbilanz weiter zu Short-Verlusten tendiert — im Einklang mit der Short-Prämie der Finanzierung — oder wieder zu Longs zurückschwenkt, wodurch die heutige 12-Stunden-Umkehr wie vorübergehendes Rauschen wirken würde.</p>
+<p class="fr">Cet article ne prédit pas si le prix montera ou baissera ensuite. Ce qui mérite d'être confirmé dans cette phase, c'est le fait lui-même : la direction de la liquidation et celle du financement peuvent raconter des histoires différentes selon la fenêtre choisie. Premièrement, si le prochain décompte de liquidations sur 24 heures continue de pencher vers des pertes courtes — s'alignant sur la prime courte du financement — ou repart vers les positions longues, faisant apparaître le renversement de 12 heures d'aujourd'hui comme un bruit temporaire.</p>
+<p class="pt">Este texto não prevê se o preço vai subir ou cair a seguir. O que vale a pena confirmar nesta fase é o próprio fato: a direção da liquidação e a direção do financiamento podem contar histórias diferentes dependendo da janela escolhida. Primeiro, se a próxima contagem de liquidações de 24 horas continua pendendo para perdas vendidas — alinhando-se com o prêmio vendido do financiamento — ou volta a pender para compradas, fazendo a reversão de 12 horas de hoje parecer ruído temporário.</p>
+<p class="tr">Bu yazı fiyatın bundan sonra yükselip yükselmeyeceğini öngörmüyor. Bu aşamada doğrulanmaya değer olan şey, olgunun kendisi: tasfiye yönü ve fonlama yönü, hangi pencere seçildiğine bağlı olarak farklı hikayeler anlatabiliyor. Birincisi, bir sonraki 24 saatlik tasfiye toplamının short zararlarına doğru eğilmeye devam edip etmeyeceği — fonlamanın short primiyle uyumlu biçimde — yoksa yeniden long'lara mı döneceği, bu da bugünkü 12 saatlik tersine dönüşü geçici bir gürültü gibi gösterir.</p>
+<p class="vi">Bài viết này không dự đoán liệu giá sẽ tăng hay giảm tiếp theo. Điều đáng để xác nhận trong giai đoạn này chính là bản thân sự việc: hướng thanh lý và hướng lãi suất tài trợ có thể kể những câu chuyện khác nhau tùy vào khung thời gian được chọn. Thứ nhất, liệu tổng thanh lý 24 giờ tiếp theo có tiếp tục nghiêng về tổn thất phía short — khớp với mức phí bảo hiểm short của lãi suất tài trợ — hay quay trở lại nghiêng về long, khiến sự đảo chiều 12 giờ của hôm nay trông giống như nhiễu tạm thời.</p>
+
+<p class="ko">둘째, 6월30일 이후 한 달 가까이 유지된 5만9,000~6만6,000달러 박스권이 이번 되돌림에서도 그대로 지켜지는지다. 이 사이트가 앞서 짚은 <a href="/leverage-ratio-long-short-conviction-gap.php">레버리지 재건과 롱숏비율 간 괴리</a>, <a href="/futures-basis-contango-crowding-mirror.php">선물 베이시스 쏠림 점검</a>의 연장선에서, 지금은 총량 지표(레버리지·미결제약정)와 방향 지표(청산·펀딩비) 중 어느 하나만으로 국면을 단정하기보다, 이 신호들이 서로 수렴하는 시점을 함께 기다려야 할 국면으로 보인다.</p>
+<p class="en">Second is whether the $59,000-$66,000 box that's held for nearly a month since June 30 keeps holding through this pullback as well. Building on this site's earlier looks at <a href="/leverage-ratio-long-short-conviction-gap.php">the gap between the leverage rebuild and the long/short ratio</a> and <a href="/futures-basis-contango-crowding-mirror.php">futures basis crowding</a>, this looks like a phase where no single reading — total-amount indicators like leverage and open interest, or directional ones like liquidations and funding — should be treated as decisive on its own. It's worth waiting for these signals to actually converge.</p>
+<p class="ja">第二に、6月30日以降ほぼ1カ月維持されてきた5万9,000~6万6,000ドルのボックス圏が、今回の巻き戻しでも保たれるかどうかだ。当サイトが先に取り上げた<a href="/leverage-ratio-long-short-conviction-gap.php">レバレッジ再構築とロングショート比率の間隙</a>、<a href="/futures-basis-contango-crowding-mirror.php">先物ベーシスの偏り点検</a>の延長線上で、今は総量指標(レバレッジ・未決済建玉)と方向指標(清算・資金調達率)のどれか一つだけで局面を断定するより、これらのシグナルが収束する時点を併せて待つべき局面に見える。</p>
+<p class="es">Segundo, si la banda de $59,000-$66,000 que se ha mantenido durante casi un mes desde el 30 de junio también aguanta en esta corrección. Sobre la base de análisis anteriores de este sitio como <a href="/leverage-ratio-long-short-conviction-gap.php">la brecha entre la reconstrucción del apalancamiento y el ratio long/short</a> y <a href="/futures-basis-contango-crowding-mirror.php">la concentración en la base de futuros</a>, esta parece una fase en la que ninguna lectura aislada — indicadores de cantidad total como apalancamiento e interés abierto, o direccionales como liquidaciones y financiación — debería tratarse como decisiva por sí sola. Vale la pena esperar a que estas señales converjan realmente.</p>
+<p class="de">Zweitens, ob die seit dem 30. Juni fast einen Monat gehaltene Spanne von 59.000 bis 66.000 Dollar auch diesen Rücksetzer übersteht. Aufbauend auf früheren Betrachtungen dieser Seite wie <a href="/leverage-ratio-long-short-conviction-gap.php">der Lücke zwischen Leverage-Wiederaufbau und Long/Short-Ratio</a> und <a href="/futures-basis-contango-crowding-mirror.php">der Überfüllung bei der Futures-Basis</a> wirkt dies wie eine Phase, in der keine einzelne Kennzahl — weder Gesamtmengenindikatoren wie Leverage und Open Interest noch Richtungsindikatoren wie Liquidationen und Finanzierung — für sich allein als entscheidend gelten sollte. Es lohnt sich abzuwarten, bis diese Signale tatsächlich konvergieren.</p>
+<p class="fr">Deuxièmement, si la fourchette de 59 000 à 66 000 dollars, maintenue depuis près d'un mois depuis le 30 juin, tient également face à ce repli. En s'appuyant sur les analyses antérieures de ce site telles que <a href="/leverage-ratio-long-short-conviction-gap.php">l'écart entre la reconstruction du levier et le ratio long/short</a> et <a href="/futures-basis-contango-crowding-mirror.php">la concentration sur la base des futures</a>, cette phase semble être celle où aucune lecture isolée — indicateurs de quantité totale comme le levier et l'open interest, ou directionnels comme les liquidations et le financement — ne devrait être considérée comme décisive à elle seule. Il vaut la peine d'attendre que ces signaux convergent réellement.</p>
+<p class="pt">Segundo, se a faixa de US$ 59.000-66.000, mantida por quase um mês desde 30 de junho, também resiste a esse recuo. Com base em análises anteriores deste site, como <a href="/leverage-ratio-long-short-conviction-gap.php">a lacuna entre a reconstrução da alavancagem e o índice long/short</a> e <a href="/futures-basis-contango-crowding-mirror.php">a concentração na base de futuros</a>, esta parece uma fase em que nenhuma leitura isolada — indicadores de volume total como alavancagem e open interest, ou direcionais como liquidações e financiamento — deve ser tratada como decisiva por si só. Vale a pena esperar que esses sinais realmente convirjam.</p>
+<p class="tr">İkincisi, 30 Haziran'dan bu yana neredeyse bir aydır korunan 59.000-66.000 dolar aralığının bu geri çekilmede de tutup tutmayacağı. Bu sitenin daha önceki <a href="/leverage-ratio-long-short-conviction-gap.php">kaldıraç yeniden yapılanması ile long/short oranı arasındaki fark</a> ve <a href="/futures-basis-contango-crowding-mirror.php">vadeli işlem bazisindeki yığılma</a> incelemelerine dayanarak, şu an tek başına hiçbir okumanın — kaldıraç ve açık pozisyon gibi toplam miktar göstergelerinin ya da tasfiye ve fonlama gibi yönlü göstergelerin — belirleyici sayılmaması gereken bir aşama gibi görünüyor. Bu sinyallerin gerçekten birleştiği anı beklemek daha mantıklı.</p>
+<p class="vi">Thứ hai, liệu vùng 59.000-66.000 đô la đã được duy trì gần một tháng kể từ ngày 30 tháng 6 có tiếp tục được giữ vững qua đợt điều chỉnh này hay không. Dựa trên những phân tích trước đó của trang này như <a href="/leverage-ratio-long-short-conviction-gap.php">khoảng cách giữa việc tái xây dựng đòn bẩy và tỷ lệ long/short</a> và <a href="/futures-basis-contango-crowding-mirror.php">sự dồn cục trong cơ sở hợp đồng tương lai</a>, đây có vẻ là giai đoạn mà không một chỉ số đơn lẻ nào — dù là chỉ số tổng lượng như đòn bẩy và khối lượng hợp đồng mở, hay chỉ số định hướng như thanh lý và lãi suất tài trợ — nên được xem là quyết định một mình. Đáng để chờ các tín hiệu này thực sự hội tụ với nhau.</p>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 코인데스크(CoinDesk, "Bitcoin slips below $63,000 in an Asian-session leverage flush", 7월13일 및 유가·이란 정세 보도), 코인글래스(CoinGlass, 청산·미결제약정 데이터), 위엑스(WEEX, 펀딩비), 코인알라이즈(Coinalyze, 펀딩비 참고), 이 사이트의 이전 기사(추정 레버리지 비율·롱숏비율·선물 베이시스 점검). 수치는 각 데이터 제공처 기준 근사치이며 소스·집계 시점에 따라 편차가 있을 수 있다.</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: CoinDesk ("Bitcoin slips below $63,000 in an Asian-session leverage flush," July 13, plus its reporting on oil and Iran tensions), CoinGlass (liquidation and open-interest data), WEEX (funding rate), Coinalyze (funding rate reference), this site's earlier coverage (Estimated Leverage Ratio, long/short ratio, and futures basis checks). Figures are approximate per each data provider and may vary by source and timing.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: コインデスク(CoinDesk、「Bitcoin slips below $63,000 in an Asian-session leverage flush」7月13日および原油・イラン情勢報道)、コイングラス(CoinGlass、清算・未決済建玉データ)、ウィークス(WEEX、資金調達率)、コインアライズ(Coinalyze、資金調達率参考)、当サイトの過去記事(推定レバレッジ比率・ロングショート比率・先物ベーシス点検)。数値は各データ提供元に基づく近似値であり、情報源や集計時点により差異がある場合がある。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: CoinDesk ("Bitcoin slips below $63,000 in an Asian-session leverage flush", 13 de julio, además de su cobertura sobre el petróleo y las tensiones con Irán), CoinGlass (datos de liquidaciones e interés abierto), WEEX (tasa de financiación), Coinalyze (referencia de tasa de financiación), cobertura anterior de este sitio (Ratio de Apalancamiento Estimado, ratio long/short y revisión de la base de futuros). Las cifras son aproximadas según cada proveedor de datos y pueden variar según la fuente y el momento.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: CoinDesk („Bitcoin slips below $63,000 in an Asian-session leverage flush", 13. Juli, sowie Berichterstattung zu Öl und Iran-Spannungen), CoinGlass (Liquidations- und Open-Interest-Daten), WEEX (Finanzierungsrate), Coinalyze (Referenz zur Finanzierungsrate), frühere Berichterstattung dieser Seite (geschätzte Leverage Ratio, Long/Short-Ratio und Futures-Basis-Prüfung). Zahlen sind Näherungswerte je nach Datenanbieter und können je nach Quelle und Zeitpunkt variieren.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : CoinDesk (« Bitcoin slips below $63,000 in an Asian-session leverage flush », 13 juillet, ainsi que sa couverture sur le pétrole et les tensions avec l'Iran), CoinGlass (données de liquidation et d'open interest), WEEX (taux de financement), Coinalyze (référence du taux de financement), couverture antérieure de ce site (ratio de levier estimé, ratio long/short et vérification de la base des futures). Les chiffres sont approximatifs selon chaque fournisseur de données et peuvent varier selon la source et le moment.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CoinDesk ("Bitcoin slips below $63,000 in an Asian-session leverage flush", 13 de julho, além de sua cobertura sobre petróleo e tensões com o Irã), CoinGlass (dados de liquidação e open interest), WEEX (taxa de financiamento), Coinalyze (referência de taxa de financiamento), cobertura anterior deste site (Índice de Alavancagem Estimada, índice long/short e verificação da base de futuros). Os números são aproximados conforme cada provedor de dados e podem variar conforme a fonte e o momento.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CoinDesk ("Bitcoin slips below $63,000 in an Asian-session leverage flush", 13 Temmuz, ayrıca petrol ve İran gerilimleri hakkındaki haberleri), CoinGlass (tasfiye ve açık pozisyon verileri), WEEX (fonlama oranı), Coinalyze (fonlama oranı referansı), bu sitenin önceki içerikleri (Tahmini Kaldıraç Oranı, long/short oranı ve vadeli işlem bazisi incelemesi). Rakamlar her veri sağlayıcısına göre yaklaşık değerlerdir ve kaynağa ve zamana göre değişebilir.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CoinDesk ("Bitcoin slips below $63,000 in an Asian-session leverage flush", ngày 13 tháng 7, cùng các bài viết về dầu mỏ và căng thẳng Iran), CoinGlass (dữ liệu thanh lý và khối lượng hợp đồng mở), WEEX (lãi suất tài trợ), Coinalyze (tham chiếu lãi suất tài trợ), các bài viết trước đó của trang này (Tỷ Lệ Đòn Bẩy Ước Tính, tỷ lệ long/short và kiểm tra cơ sở hợp đồng tương lai). Các số liệu là giá trị gần đúng theo từng nhà cung cấp dữ liệu và có thể thay đổi tùy theo nguồn và thời điểm.</p>
+<?php require __DIR__.'/_footer.php'; ?>
