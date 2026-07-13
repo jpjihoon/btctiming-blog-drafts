@@ -314,6 +314,14 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
 .bs-result{max-width:1120px;margin:12px auto 0;padding:0 24px;font-size:12.5px;color:#8b8b93}
 .bs-result b{color:#f7931a;font-weight:700}
 .bs-noresult{padding:44px 0;text-align:center;color:#71717a;font-size:14px}
+/* 카테고리 탭 + 검색을 한 행으로: 좌 카테고리(flex) / 우 검색(고정폭), 모바일은 세로 스택 */
+.cat-row{display:flex;align-items:center;gap:16px;max-width:1120px;margin:14px auto 0;padding:0 24px}
+.cat-row .cat-tabs{flex:1 1 auto;min-width:0;max-width:none;margin:0;padding:0}
+.cat-row .blog-search{flex:0 0 auto;width:260px;max-width:none;margin:0;padding:0}
+@media(max-width:640px){
+  .cat-row{flex-direction:column-reverse;align-items:stretch;gap:10px}
+  .cat-row .blog-search{width:100%}
+}
 
 .wrap{max-width:1120px;margin:0 auto;padding:28px 24px 80px}
 .article-grid{display:grid;gap:14px;overflow-anchor:none}
@@ -422,6 +430,18 @@ foreach ($__langKeys as $__l) {
   <h1 class="vi-show">Blog</h1>
 </div>
 
+
+<div class="cat-row">
+<div class="cat-tabs" id="catTabs">
+  <button class="cat-tab<?= $__cat==='all'?' active':'' ?>" data-cat="all" onclick="filterCat('all')">
+    <span class="ko">전체</span><span class="en-show">All</span><span class="ja-show">全て</span><span class="es-show">Todo</span><span class="de-show">Alle</span><span class="fr-show">Tout</span><span class="pt-show">Todos</span><span class="tr-show">Tümü</span><span class="vi-show">Tất cả</span>
+  </button>
+<?php foreach ($tabs as $cat): $cm = CATEGORY_META[$cat]; ?>
+  <button class="cat-tab<?= $__cat===$cat?' active':'' ?>" data-cat="<?= h($cat) ?>" style="--cat-color:<?= h($cm['color']) ?>" onclick="filterCat('<?= h($cat) ?>')">
+    <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show"><?= h($cm['en']) ?></span><span class="ja-show"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show"><?= h($cm['de'] ?? $cm['en']) ?></span><span class="fr-show"><?= h($cm['fr'] ?? $cm['en']) ?></span><span class="pt-show"><?= h($cm['pt'] ?? $cm['en']) ?></span><span class="tr-show"><?= h($cm['tr'] ?? $cm['en']) ?></span><span class="vi-show"><?= h($cm['vi'] ?? $cm['en']) ?></span>
+  </button>
+<?php endforeach; ?>
+</div>
 <form class="blog-search" action="/blog/" method="get" role="search">
   <div class="bs-box">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -433,16 +453,6 @@ foreach ($__langKeys as $__l) {
   <?php if ($__cat !== 'all'): ?><input type="hidden" name="cat" value="<?= h($__cat) ?>"><?php endif; ?>
   <?php if ($__blLang !== 'ko'): ?><input type="hidden" name="lang" value="<?= h($__blLang) ?>"><?php endif; ?>
 </form>
-
-<div class="cat-tabs" id="catTabs">
-  <button class="cat-tab<?= $__cat==='all'?' active':'' ?>" data-cat="all" onclick="filterCat('all')">
-    <span class="ko">전체</span><span class="en-show">All</span><span class="ja-show">全て</span><span class="es-show">Todo</span><span class="de-show">Alle</span><span class="fr-show">Tout</span><span class="pt-show">Todos</span><span class="tr-show">Tümü</span><span class="vi-show">Tất cả</span>
-  </button>
-<?php foreach ($tabs as $cat): $cm = CATEGORY_META[$cat]; ?>
-  <button class="cat-tab<?= $__cat===$cat?' active':'' ?>" data-cat="<?= h($cat) ?>" style="--cat-color:<?= h($cm['color']) ?>" onclick="filterCat('<?= h($cat) ?>')">
-    <span class="ko"><?= h($cm['ko']) ?></span><span class="en-show"><?= h($cm['en']) ?></span><span class="ja-show"><?= h($cm['ja'] ?? $cm['en']) ?></span><span class="es-show"><?= h($cm['es'] ?? $cm['en']) ?></span><span class="de-show"><?= h($cm['de'] ?? $cm['en']) ?></span><span class="fr-show"><?= h($cm['fr'] ?? $cm['en']) ?></span><span class="pt-show"><?= h($cm['pt'] ?? $cm['en']) ?></span><span class="tr-show"><?= h($cm['tr'] ?? $cm['en']) ?></span><span class="vi-show"><?= h($cm['vi'] ?? $cm['en']) ?></span>
-  </button>
-<?php endforeach; ?>
 </div>
 
 <?php if ($__q !== ''): ?>
