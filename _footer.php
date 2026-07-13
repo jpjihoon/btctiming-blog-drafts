@@ -629,15 +629,17 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
     if(S.sentinel&&S.sentinel.parentNode) S.sentinel.parentNode.removeChild(S.sentinel);
     S={det:null,rail:null,items:[],onScroll:null,onResize:null,io:null,sentinel:null};
   }
+  var lastLang=null;
   function build(){
-    cleanup();
     var endEl=main.querySelector('.share-bottom, .blog-ad, .prevnext, .other-articles, .cta');
     var hs=[].slice.call(main.querySelectorAll('h2,h3')).filter(function(h){
       if(h.closest(EX)) return false;
       if(endEl && !(h.compareDocumentPosition(endEl) & Node.DOCUMENT_POSITION_FOLLOWING)) return false;
       return h.offsetParent!==null && txt(h).length;
     });
-    if(hs.length<3) return;
+    if(hs.length<3) return;   // 헤딩 부족: 기존 목차 유지(제거 안 함) — 언어 전환 중 깜빡임 방지
+    cleanup();
+    lastLang=(document.documentElement.getAttribute('lang')||'ko').slice(0,2);
     var items=hs.map(function(h,i){ if(!h.id) h.id=slugify(txt(h),i);
       var a=document.createElement('a'); a.className='bt-anchor'; a.href='#'+h.id; a.textContent='#'; a.setAttribute('aria-label','anchor'); h.appendChild(a);
       return {id:h.id, text:txt(h), lv:(h.tagName==='H3'?3:2), el:h}; });
@@ -678,7 +680,7 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
     window.addEventListener('scroll',spy,{passive:true}); window.addEventListener('resize',place);
   }
   build();
-  var __t; var mo=new MutationObserver(function(){ clearTimeout(__t); __t=setTimeout(build,80); });
+  var __t; var mo=new MutationObserver(function(){ clearTimeout(__t); __t=setTimeout(function(){ var cur=(document.documentElement.getAttribute('lang')||'ko').slice(0,2); if(cur!==lastLang) build(); },120); });
   mo.observe(document.documentElement,{attributes:true,attributeFilter:['class','lang']});
 })();
 </script>
