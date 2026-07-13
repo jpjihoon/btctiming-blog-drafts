@@ -111,14 +111,34 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <?php endif; ?>
 
 <?php // ── 추천: 같은 카테고리 ── ?>
+<?php
+// ── '함께 보면 좋은 글' 자동 보완: 본문에 저자 큐레이션이 없을 때만 별도 섹션으로 추가 (관련 주제의 글은 손대지 않음) ──
+if (!$__hasCombined):
+  $__combSource = array_diff_key($otherPool, $sameTop);  // 관련 주제의 글과 겹치지 않게(중복 방지)
+  uasort($__combSource, function($a, $b) use ($relScore){ $d = $relScore($b) - $relScore($a); return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? ''); });
+  $__combTop = array_slice($__combSource, 0, 4, true);
+  if (!empty($__combTop)):
+    $__combHead = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
+?>
+<div class="other-articles">
+  <?php foreach (array_keys(SUPPORTED_LANGS) as $__cl) echo '  <h3 class="'.$__cl.'">'.h($__combHead[$__cl] ?? $__combHead['en']).'</h3>'."\n"; ?>
+  <div class="other-grid">
+    <?php foreach ($__combTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
+  </div>
+</div>
+<?php endif; endif; ?>
+
 <?php if (!empty($sameTop)): ?>
 <div class="other-articles">
-  <?php
-  $__relHead = $__hasCombined
-    ? ['ko'=>'관련 주제의 글','en'=>'Related Topics','ja'=>'関連トピックの記事','es'=>'Temas Relacionados','de'=>'Verwandte Themen','fr'=>'Sujets connexes','pt'=>'Tópicos relacionados','tr'=>'İlgili konular','vi'=>'Chủ đề liên quan']
-    : ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
-  foreach (array_keys(SUPPORTED_LANGS) as $__rl) echo '  <h3 class="'.$__rl.'">'.h($__relHead[$__rl] ?? $__relHead['en']).'</h3>'."\n";
-  ?>
+  <h3 class="ko">관련 주제의 글</h3>
+  <h3 class="en">Related Topics</h3>
+  <h3 class="ja">関連トピックの記事</h3>
+  <h3 class="es">Temas Relacionados</h3>
+  <h3 class="de">Verwandte Themen</h3>
+  <h3 class="fr">Sujets connexes</h3>
+  <h3 class="pt">Tópicos relacionados</h3>
+  <h3 class="tr">İlgili konular</h3>
+  <h3 class="vi">Chủ đề liên quan</h3>
   <div class="other-grid">
     <?php foreach ($sameTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>
