@@ -551,7 +551,7 @@ function bcsPick(id){
   function prog(){ if(!bar) return; var h=document.documentElement, st=h.scrollTop||document.body.scrollTop, sh=(h.scrollHeight-h.clientHeight)||1; bar.style.width=Math.min(100,Math.max(0, st/sh*100))+'%'; }
   window.addEventListener('scroll',prog,{passive:true}); window.addEventListener('resize',prog); prog();
 
-  var EX='.other-articles,.prevnext,nav,.blog-ad,.share,.share-bar,.sharebar,.bt-toc,#btTocRail,.coin-sheet,.bcs,.bc';
+  var EX='.other-articles,.prevnext,nav,.blog-ad,.share,.share-bar,.sharebar,.bt-toc,#btTocRail,.coin-sheet,.bcs,.bc,.cta';
   var LBL={ko:'목차',ja:'目次',en:'Contents',es:'Contenido',de:'Inhalt',fr:'Sommaire',pt:'Conteúdo',tr:'İçindekiler',vi:'Mục lục'};
   function slugify(t,i){ var s=(t||'').trim().toLowerCase().replace(/[#\s]+/g,'-').replace(/[^\w\uac00-\ud7a3\u3040-\u30ff\u4e00-\u9fff-]+/g,'').replace(/-+/g,'-').replace(/^-|-$/g,''); return (s||'sec')+'-'+i; }
   function txt(h){ return (h.textContent||'').replace(/#\s*$/,'').trim(); }
@@ -570,7 +570,12 @@ function bcsPick(id){
   }
   function build(){
     cleanup();
-    var hs=[].slice.call(main.querySelectorAll('h2,h3')).filter(function(h){ return !h.closest(EX) && h.offsetParent!==null && txt(h).length; });
+    var endEl=main.querySelector('.share-bottom, .blog-ad, .prevnext, .other-articles, .cta');
+    var hs=[].slice.call(main.querySelectorAll('h2,h3')).filter(function(h){
+      if(h.closest(EX)) return false;
+      if(endEl && !(h.compareDocumentPosition(endEl) & Node.DOCUMENT_POSITION_FOLLOWING)) return false;
+      return h.offsetParent!==null && txt(h).length;
+    });
     if(hs.length<3) return;
     var items=hs.map(function(h,i){ if(!h.id) h.id=slugify(txt(h),i);
       var a=document.createElement('a'); a.className='bt-anchor'; a.href='#'+h.id; a.textContent='#'; a.setAttribute('aria-label','anchor'); h.appendChild(a);
@@ -600,7 +605,11 @@ function bcsPick(id){
       else { rail.style.display='none'; det.style.display=''; } }
     place();
     var links=[].slice.call(document.querySelectorAll('.bt-toc a[data-tid], #btTocRail a[data-tid]'));
-    function spy(){ var pos=window.pageYOffset+120, cur=items[0].id;
+    function spy(){
+      var past = endEl && (endEl.getBoundingClientRect().top <= 90);
+      if(rail) rail.style.visibility = past ? 'hidden' : '';
+      det.style.visibility = past ? 'hidden' : '';
+      var pos=window.pageYOffset+120, cur=items[0].id;
       items.forEach(function(it){ if(it.el.getBoundingClientRect().top+window.pageYOffset<=pos) cur=it.id; });
       links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('data-tid')===cur); }); }
     spy();
