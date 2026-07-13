@@ -48,7 +48,9 @@ $T_RANGES  = ['ko'=>'지금은 어느 구간일까?','en'=>'Which zone are we in
 $T_HOWUSE  = ['ko'=>'실전에서 어떻게 쓰나','en'=>'How to use it','ja'=>'実戦での使い方','es'=>'Cómo usarlo','de'=>'Wie man ihn nutzt','fr'=>'Comment l\'utiliser','pt'=>'Como usar','tr'=>'Nasıl kullanılır','vi'=>'Cách sử dụng'];
 $T_LIMITS  = ['ko'=>'맹신하면 안 되는 이유','en'=>'Why not to rely on it blindly','ja'=>'盲信してはいけない理由','es'=>'Por qué no confiar ciegamente','de'=>'Warum nicht blind vertrauen','fr'=>'Pourquoi ne pas s\'y fier aveuglément','pt'=>'Por que não confiar cegamente','tr'=>'Neden körü körüne güvenilmemeli','vi'=>'Vì sao không nên tin tưởng mù quáng'];
 $T_RELATED = ['ko'=>'관련 지표','en'=>'Related Indicators','ja'=>'関連指標','es'=>'Indicadores relacionados','de'=>'Verwandte Indikatoren','fr'=>'Indicateurs liés','pt'=>'Indicadores relacionados','tr'=>'İlgili göstergeler','vi'=>'Chỉ báo liên quan'];
-$T_CTA     = ['ko'=>'📊 실시간 점수 대시보드에서 보기 →','en'=>'📊 See it on the live score dashboard →','ja'=>'📊 リアルタイムスコアのダッシュボードで見る →','es'=>'📊 Verlo en el panel de puntuación en vivo →','de'=>'📊 Im Live-Score-Dashboard ansehen →','fr'=>'📊 Le voir sur le tableau de bord des scores en direct →','pt'=>'📊 Ver no painel de pontuação ao vivo →','tr'=>'📊 Canlı skor panosunda gör →','vi'=>'📊 Xem trên bảng điểm trực tiếp →'];
+$T_CTA     = ['ko'=>'실시간 분석 보러가기 →','en'=>'Go to Live Analysis →','ja'=>'リアルタイム分析を見る →','es'=>'Ver Análisis en Vivo →','de'=>'Live-Analyse ansehen →','fr'=>'Voir l\'analyse en direct →','pt'=>'Ver análise ao vivo →','tr'=>'Canlı analizi gör →','vi'=>'Xem phân tích trực tiếp →'];
+$T_CTA_H   = ['ko'=>'실시간 타이밍 점수 대시보드','en'=>'The live timing score dashboard','ja'=>'リアルタイム・タイミングスコア ダッシュボード','es'=>'Panel de puntuación de timing en vivo','de'=>'Das Live-Timing-Score-Dashboard','fr'=>'Le tableau de bord des scores de timing en direct','pt'=>'O painel de pontuação de timing ao vivo','tr'=>'Canlı zamanlama puanı panosu','vi'=>'Bảng điểm thời điểm trực tiếp'];
+$T_CTA_P   = ['ko'=>'온체인·기술 지표를 종합해 비트코인과 알트코인의 매수·매도 타이밍을 0~10점으로 산출합니다. 지금 시장이 어느 국면에 있는지 대시보드에서 볼 수 있습니다.','en'=>'It combines on-chain and technical indicators into a 0–10 buy/sell timing score for Bitcoin and major altcoins, so you can see which phase the market is in right now.','ja'=>'オンチェーン・テクニカル指標を統合し、ビットコインと主要アルトコインの売買タイミングを0〜10点で算出します。今の市場がどの局面かをダッシュボードで確認できます。','es'=>'Combina indicadores on-chain y técnicos en una puntuación de compra/venta de 0 a 10 para Bitcoin y las principales altcoins, para ver en qué fase está el mercado ahora.','de'=>'Es fasst On-Chain- und technische Indikatoren zu einem Kauf-/Verkaufs-Timing-Score von 0 bis 10 für Bitcoin und große Altcoins zusammen, damit du siehst, in welcher Phase sich der Markt gerade befindet.','fr'=>'Il combine des indicateurs on-chain et techniques en un score de timing d\'achat/vente de 0 à 10 pour le Bitcoin et les principales altcoins, pour voir dans quelle phase se trouve le marché.','pt'=>'Combina indicadores on-chain e técnicos em uma pontuação de compra/venda de 0 a 10 para Bitcoin e as principais altcoins, para ver em que fase o mercado está agora.','tr'=>'Zincir üstü ve teknik göstergeleri Bitcoin ve başlıca altcoinler için 0–10 alım/satım zamanlama puanında birleştirir; piyasanın şu an hangi aşamada olduğunu görebilirsiniz.','vi'=>'Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.'];
 $T_LIVELABEL = ['ko'=>'현재 값','en'=>'Current value','ja'=>'現在値','es'=>'Valor actual','de'=>'Aktueller Wert','fr'=>'Valeur actuelle','pt'=>'Valor atual','tr'=>'Güncel değer','vi'=>'Giá trị hiện tại'];
 $T_LOADING = ['ko'=>'불러오는 중…','en'=>'Loading…','ja'=>'読み込み中…','es'=>'Cargando…','de'=>'Laden…','fr'=>'Chargement…','pt'=>'Carregando…','tr'=>'Yükleniyor…','vi'=>'Đang tải…'];
 $T_COL_ZONE = ['ko'=>'구간','en'=>'Zone','ja'=>'レンジ','es'=>'Zona','de'=>'Zone','fr'=>'Zone','pt'=>'Zona','tr'=>'Bölge','vi'=>'Vùng'];
@@ -100,8 +102,13 @@ h1{font-size:1.8rem;font-weight:800;line-height:1.28;margin-bottom:8px;color:#f2
 .warn-box{background:rgba(220,38,38,.05);border:1px solid rgba(220,38,38,.2);border-radius:12px;padding:14px 18px;margin:12px 0}
 .warn-item{font-size:14.5px;color:#d4b0b0;padding:8px 0 8px 24px;position:relative;line-height:1.75}
 .warn-item:before{content:'\\26A0';position:absolute;left:0;color:#ef4444}
-.gcta{display:inline-block;margin:24px 0 6px;padding:13px 22px;background:#f7931a;color:#000;font-weight:700;font-size:14.5px;border-radius:10px;text-decoration:none}
-.gcta:hover{background:#ffa733}
+.gcta-box{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:24px 0 6px;padding:20px 24px;background:#16161b;border:1px solid rgba(255,255,255,.08);border-radius:12px}
+.gcta-tx{min-width:0}
+.gcta-h{font-size:1rem;font-weight:700;color:#f2f2f5;line-height:1.35;margin:0 0 4px}
+.gcta-p{font-size:13px;color:#8b8b93;line-height:1.5;margin:0}
+.gcta-link{flex-shrink:0;color:#f7931a;font-weight:700;font-size:13px;text-decoration:none;white-space:nowrap;padding:9px 16px;border:1px solid rgba(247,147,26,.3);border-radius:8px;transition:background .12s,border-color .12s}
+.gcta-link:hover{background:rgba(247,147,26,.1);border-color:rgba(247,147,26,.55);text-decoration:none}
+@media(max-width:600px){.gcta-box{flex-direction:column;align-items:flex-start;gap:14px}.gcta-link{align-self:stretch;text-align:center}}
 .gother{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .gother a{font-size:12.5px;color:#c4c4cc;background:#1b1b21;border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:6px 12px;text-decoration:none}
 .gother a:hover{border-color:#f7931a;color:#f7931a}
@@ -226,7 +233,13 @@ require __DIR__ . '/_guide_head.php';
     <?php foreach ($limits as $p): ?><div class="warn-item"><?= gh($p) ?></div><?php endforeach; ?>
   </div>
 
-  <a class="gcta" href="/<?= gh($termSuffix) ?>"><?= gh($L($T_CTA)) ?></a>
+  <div class="gcta-box">
+    <div class="gcta-tx">
+      <div class="gcta-h"><?= gh($L($T_CTA_H)) ?></div>
+      <div class="gcta-p"><?= gh($L($T_CTA_P)) ?></div>
+    </div>
+    <a class="gcta-link" href="/<?= gh($termSuffix) ?>"><?= gh($L($T_CTA)) ?></a>
+  </div>
 
   <h2 class="gh2"><?= gh($L($T_RELATED)) ?></h2>
   <div class="gother">
