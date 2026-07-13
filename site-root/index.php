@@ -652,7 +652,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 @media(max-width:600px){.chart-wrap{height:280px}}
 
 /* ── INDICATOR GRID ── */
-.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-items:stretch}
+.ind-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;align-items:start}
 @media(max-width:600px){.ind-grid{grid-template-columns:1fr 1fr}}
 .icard{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--rad-lg);padding:15px 16px;cursor:pointer;display:flex;flex-direction:column;transition:border-color .15s}
 .icard-meta{display:flex;justify-content:space-between;gap:12px;font-size:10.5px;color:var(--t3);margin-top:6px;flex-wrap:wrap}
