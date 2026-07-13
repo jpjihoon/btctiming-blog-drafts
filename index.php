@@ -338,6 +338,8 @@ foreach ($__langKeys as $__l) {
     if ($__l === 'ko') continue;
     echo '.' . $__l . ' .ko{display:none!important}';
     echo '.' . $__l . ' .' . $__l . '-show{display:block!important}';
+    // .card-desc는 -webkit-box여야 line-clamp(설명 3줄/리드 5줄)가 작동. block!important가 덮어써 clamp가 깨지는 것 방지.
+    echo '.' . $__l . ' .card-desc.' . $__l . '-show{display:-webkit-box!important}';
     // 다른 언어의 -show는 숨김
     foreach ($__langKeys as $__o) {
         if ($__o === 'ko' || $__o === $__l) continue;
@@ -529,9 +531,23 @@ function applyRelTimes(lang){
     if(txt) el.textContent = txt;
   });
 }
+// 언어 전환 시 스크롤 유지용: 뷰포트 상단에 걸린(또는 바로 아래) 카드를 앵커로 잡는다.
+// 언어마다 카드 높이(설명 줄 수 등)가 달라 숫자 scrollY 복원으론 부족 → 요소 위치 기준으로 복원.
+function __blogPickAnchor(){
+  var cs=document.querySelectorAll('#articleGrid .article-card, .cta-main');
+  var belowEl=null, belowTop=Infinity, strEl=null, vh=window.innerHeight||document.documentElement.clientHeight;
+  for(var i=0;i<cs.length;i++){
+    var r=cs[i].getBoundingClientRect();
+    if(r.height<=0) continue;
+    if(r.top>=0){ if(r.top<belowTop && r.top<vh){ belowTop=r.top; belowEl=cs[i]; } }
+    else if(r.bottom>0){ strEl=cs[i]; }
+  }
+  var el=belowEl||strEl;
+  return el?{el:el, top:el.getBoundingClientRect().top}:null;
+}
 function setLang(lang, doSave) {
   // 사용자가 언어를 직접 바꿀 때만 스크롤 유지용으로 현재 위치 저장(진입/복원 시엔 브라우저에 맡김)
-  var __langScrollY = doSave ? (window.scrollY || window.pageYOffset || 0) : null;
+  var __langAnchor = doSave ? __blogPickAnchor() : null;
   const root = document.getElementById('html-root');
   root.className = lang;
   root.lang = lang;
@@ -576,9 +592,13 @@ function setLang(lang, doSave) {
   } catch(e){}
   // .ko/.{lang}-show 표시 전환으로 뷰포트 위쪽 높이가 바뀌어 스크롤이 밀리는 것 방지.
   // overflow-anchor:none이라 브라우저 자동 앵커링이 없으므로 원래 위치로 명시 복원.
-  if(doSave && __langScrollY !== null){
-    window.scrollTo(0, __langScrollY);
-    requestAnimationFrame(function(){ window.scrollTo(0, __langScrollY); });
+  if(doSave && __langAnchor){
+    var __d=__langAnchor.el.getBoundingClientRect().top-__langAnchor.top;
+    if(__d) window.scrollBy(0,__d);
+    requestAnimationFrame(function(){
+      var __d2=__langAnchor.el.getBoundingClientRect().top-__langAnchor.top;
+      if(__d2) window.scrollBy(0,__d2);
+    });
   }
 }
 function toggleLangMenu(e){
