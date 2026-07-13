@@ -474,24 +474,24 @@ endif; ?>
 
   <div class="cta-main">
     <div class="cta-tx">
-    <h2 class="ko">지금 비트코인 타이밍 실시간 확인하기</h2>
-    <h2 class="en-show">Check Bitcoin Timing Score Live</h2>
-    <h2 class="ja-show">今すぐビットコインタイミングをリアルタイムで確認</h2>
-    <h2 class="es-show">Consulta el Timing de Bitcoin en Vivo</h2>
-    <h2 class="de-show">Bitcoin-Timing jetzt live prüfen</h2>
-    <h2 class="fr-show">Vérifiez le timing Bitcoin en direct</h2>
-    <h2 class="pt-show">Confira o timing do Bitcoin ao vivo</h2>
-    <h2 class="tr-show">Bitcoin zamanlamasını şimdi canlı kontrol et</h2>
-    <h2 class="vi-show">Kiểm tra thời điểm Bitcoin trực tiếp</h2>
-    <p class="ko">위 지표들을 종합한 0~10점 매수·매도 점수를 실시간으로 무료로 확인하세요.</p>
-    <p class="en-show">Get a live 0–10 buy/sell score combining all the indicators above — free.</p>
-    <p class="ja-show">上記の指標を統合した0〜10点の売買スコアをリアルタイムで無料確認できます。</p>
-    <p class="es-show">Consulta en tiempo real la puntuación de compra/venta de 0-10 combinando todos los indicadores anteriores — gratis.</p>
-    <p class="de-show">Erhalte in Echtzeit einen 0-10-Kauf-/Verkaufs-Score, der alle obigen Indikatoren kombiniert — kostenlos.</p>
-    <p class="fr-show">Obtenez en direct un score d'achat/vente de 0 à 10 combinant tous les indicateurs ci-dessus — gratuit.</p>
-    <p class="pt-show">Obtenha ao vivo uma pontuação de compra/venda de 0-10 combinando todos os indicadores acima — grátis.</p>
-    <p class="tr-show">Yukarıdaki tüm göstergeleri birleştiren 0-10 alım/satım puanını canlı ve ücretsiz alın.</p>
-    <p class="vi-show">Nhận điểm mua/bán 0–10 trực tiếp kết hợp tất cả các chỉ báo trên — miễn phí.</p>
+    <h2 class="ko">실시간 타이밍 점수 대시보드</h2>
+    <h2 class="en-show">The live timing score dashboard</h2>
+    <h2 class="ja-show">リアルタイム・タイミングスコア ダッシュボード</h2>
+    <h2 class="es-show">Panel de puntuación de timing en vivo</h2>
+    <h2 class="de-show">Das Live-Timing-Score-Dashboard</h2>
+    <h2 class="fr-show">Le tableau de bord des scores de timing en direct</h2>
+    <h2 class="pt-show">O painel de pontuação de timing ao vivo</h2>
+    <h2 class="tr-show">Canlı zamanlama puanı panosu</h2>
+    <h2 class="vi-show">Bảng điểm thời điểm trực tiếp</h2>
+    <p class="ko">온체인·기술 지표를 종합해 비트코인과 알트코인의 매수·매도 타이밍을 0~10점으로 산출합니다. 지금 시장이 어느 국면에 있는지 대시보드에서 볼 수 있습니다.</p>
+    <p class="en-show">It combines on-chain and technical indicators into a 0–10 buy/sell timing score for Bitcoin and major altcoins, so you can see which phase the market is in right now.</p>
+    <p class="ja-show">オンチェーン・テクニカル指標を統合し、ビットコインと主要アルトコインの売買タイミングを0〜10点で算出します。今の市場がどの局面かをダッシュボードで確認できます。</p>
+    <p class="es-show">Combina indicadores on-chain y técnicos en una puntuación de timing de compra/venta de 0 a 10 para Bitcoin y las principales altcoins, para ver en qué fase está el mercado ahora.</p>
+    <p class="de-show">Es fasst On-Chain- und technische Indikatoren zu einem Kauf-/Verkaufs-Timing-Score von 0 bis 10 für Bitcoin und große Altcoins zusammen, damit du siehst, in welcher Phase sich der Markt gerade befindet.</p>
+    <p class="fr-show">Il combine des indicateurs on-chain et techniques en un score de timing d'achat/vente de 0 à 10 pour le Bitcoin et les principales altcoins, pour voir dans quelle phase se trouve le marché.</p>
+    <p class="pt-show">Combina indicadores on-chain e técnicos em uma pontuação de timing de compra/venda de 0 a 10 para Bitcoin e as principais altcoins, para ver em que fase o mercado está agora.</p>
+    <p class="tr-show">Zincir üstü ve teknik göstergeleri Bitcoin ve başlıca altcoinler için 0–10 alım/satım zamanlama puanında birleştirir; piyasanın şu an hangi aşamada olduğunu görebilirsiniz.</p>
+    <p class="vi-show">Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.</p>
     </div>
     <a href="/" class="ko">실시간 분석 보러가기 →</a>
     <a href="/?lang=en" class="en-show">Go to Live Analysis →</a>
