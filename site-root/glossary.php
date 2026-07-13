@@ -113,26 +113,42 @@ h1{font-size:1.8rem;font-weight:800;line-height:1.28;margin-bottom:8px;color:#f2
 .gother a{font-size:12.5px;color:#c4c4cc;background:#1b1b21;border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:6px 12px;text-decoration:none}
 .gother a:hover{border-color:#f7931a;color:#f7931a}
 .gsec{margin:34px 0 12px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#f7931a}
-/* ── 허브 리디자인 ── */
-.ghub-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:4px}
-.ghub-stats{display:flex;gap:10px;flex-shrink:0}
-.ghub-stat{text-align:center;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:12px 16px}
-.ghub-stat b{display:block;font-size:24px;font-weight:800;color:#f2f2f5;line-height:1}
-.ghub-stat span{font-size:10.5px;color:#71717a;margin-top:4px;letter-spacing:.03em;display:block}
-.gcatsec{margin-top:30px}
-.gcathead{display:flex;align-items:center;gap:9px;margin-bottom:13px}
-.gcatdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.gcatname{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#f2f2f5}
-.gcatnum{font-size:11px;color:#52525b;background:rgba(255,255,255,.04);border-radius:20px;padding:2px 9px}
+/* ── 허브 리디자인 (단색) ── */
+.ghub-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.ghub-stats{display:flex;gap:8px;flex-shrink:0}
+.ghub-stat{text-align:center;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:9px 15px}
+.ghub-stat b{display:block;font-size:22px;font-weight:700;color:#f2f2f5;line-height:1}
+.ghub-stat span{font-size:10px;color:#71717a;margin-top:4px;display:block}
+.gsearch{position:relative;margin:2px 0 14px}
+.gsearch .gs-ic{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#6b6b73;display:flex}
+.gsearch input{width:100%;box-sizing:border-box;background:#15151a;border:1px solid rgba(255,255,255,.1);border-radius:9px;padding:10px 12px 10px 36px;color:#e5e5ea;font-size:13.5px;outline:none}
+.gsearch input:focus{border-color:rgba(247,147,26,.55)}
+.gchips{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:22px}
+.gchip{font-size:12.5px;color:#a1a1aa;background:transparent;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:6px 14px;cursor:pointer;transition:.12s;user-select:none}
+.gchip:hover{color:#e5e5ea;border-color:rgba(255,255,255,.28)}
+.gchip.on{background:rgba(247,147,26,.14);border-color:#f7931a;color:#f7931a}
+.gcatsec{margin-bottom:22px}
+.gcathead{display:flex;align-items:center;gap:9px;margin-bottom:12px}
+.gcatname{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#9a9aa2}
+.gcatnum{font-size:11px;color:#55555c}
 .gcatline{flex:1;height:1px;background:rgba(255,255,255,.06)}
-.gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:11px}
-.gcard{display:block;position:relative;background:#1b1b21;border:1px solid rgba(255,255,255,.07);border-left:3px solid #f7931a;border-radius:0 11px 11px 0;padding:14px 15px 15px;text-decoration:none;transition:background .15s,transform .12s}
-.gcard:hover{background:#24242b;transform:translateX(2px)}
+.gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;align-items:start}
+.gcard{display:block;background:#15151a;border:1px solid rgba(255,255,255,.07);border-radius:11px;padding:13px 14px;text-decoration:none;transition:background .14s,border-color .14s}
+.gcard:hover{background:#1d1d24;border-color:rgba(255,255,255,.16)}
 .gcard-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
-.gcard b{color:#f2f2f5;font-size:14px;font-weight:600}
-.gcard .garw{font-size:15px;opacity:0;transform:translateX(-4px);transition:opacity .15s,transform .15s}
-.gcard:hover .garw{opacity:1;transform:translateX(0)}
-.gcard span{display:block;color:#8b8b93;font-size:12px;line-height:1.55;margin-top:5px}
+.gcard-top b{color:#f2f2f5;font-size:14px;font-weight:600}
+.gc-live{font-size:10px;letter-spacing:.03em;color:#8a8a93;display:inline-flex;align-items:center;gap:4px;white-space:nowrap;flex-shrink:0}
+.gc-live i{width:5px;height:5px;border-radius:50%;background:#f7931a;display:inline-block}
+.gc-concept{font-size:10px;color:#6b6b73;border:1px solid rgba(255,255,255,.1);border-radius:5px;padding:2px 7px;white-space:nowrap;flex-shrink:0}
+.gcard-one{display:block;color:#82828b;font-size:12px;line-height:1.5;margin-top:4px}
+.gc-foot{display:flex;align-items:center;gap:11px;margin-top:9px;min-height:16px}
+.gc-val{font-size:15px;font-weight:600;color:#e9e9ee;font-variant-numeric:tabular-nums;white-space:nowrap}
+.gc-track{position:relative;flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.09)}
+.gc-fill{position:absolute;left:0;top:0;height:100%;border-radius:3px;background:rgba(247,147,26,.35)}
+.gc-mark{position:absolute;top:-3px;width:2px;height:11px;border-radius:2px;background:#f7931a;transform:translateX(-50%)}
+.gc-state{font-size:11px;font-weight:500;color:#c9c9d0;border:1px solid rgba(255,255,255,.14);padding:3px 9px;border-radius:6px}
+.gc-hint{font-size:11px;color:#55555c}
+.gcard.gc-hidden,.gcatsec.gc-hidden{display:none}
 CSS;
 
 // 개념도 라벨 치환
@@ -253,6 +269,15 @@ require __DIR__ . '/_guide_head.php';
   <?php
     $__liveCount = 0;
     foreach ($GLOSSARY as $__g) { if (!empty($__g['live_field'])) $__liveCount++; }
+    $__ui = [
+      'n_ind'  => ['ko'=>'지표','en'=>'indicators','ja'=>'指標','es'=>'indicadores','de'=>'Indikatoren','fr'=>'indicateurs','pt'=>'indicadores','tr'=>'gösterge','vi'=>'chỉ báo'],
+      'n_live' => ['ko'=>'실시간','en'=>'live','ja'=>'リアルタイム','es'=>'en vivo','de'=>'live','fr'=>'en direct','pt'=>'ao vivo','tr'=>'canlı','vi'=>'trực tiếp'],
+      'all'    => ['ko'=>'전체','en'=>'All','ja'=>'すべて','es'=>'Todos','de'=>'Alle','fr'=>'Tous','pt'=>'Todos','tr'=>'Tümü','vi'=>'Tất cả'],
+      'live'   => ['ko'=>'실시간','en'=>'Live','ja'=>'リアルタイム','es'=>'En vivo','de'=>'Live','fr'=>'En direct','pt'=>'Ao vivo','tr'=>'Canlı','vi'=>'Trực tiếp'],
+      'concept'=> ['ko'=>'개념','en'=>'Concept','ja'=>'概念','es'=>'Concepto','de'=>'Konzept','fr'=>'Concept','pt'=>'Conceito','tr'=>'Kavram','vi'=>'Khái niệm'],
+      'more'   => ['ko'=>'게이지 · 개념도 · 활용법','en'=>'Gauge · diagram · how-to','ja'=>'ゲージ · 概念図 · 使い方','es'=>'Medidor · diagrama · uso','de'=>'Anzeige · Diagramm · Nutzung','fr'=>'Jauge · schéma · usage','pt'=>'Medidor · diagrama · uso','tr'=>'Gösterge · şema · kullanım','vi'=>'Đồng hồ · sơ đồ · cách dùng'],
+      'search' => ['ko'=>'지표 검색 — MVRV, 도미넌스, RSI…','en'=>'Search indicators — MVRV, dominance, RSI…','ja'=>'指標を検索 — MVRV, ドミナンス, RSI…','es'=>'Buscar — MVRV, dominancia, RSI…','de'=>'Suchen — MVRV, Dominanz, RSI…','fr'=>'Rechercher — MVRV, dominance, RSI…','pt'=>'Buscar — MVRV, dominância, RSI…','tr'=>'Ara — MVRV, dominans, RSI…','vi'=>'Tìm — MVRV, thống trị, RSI…'],
+    ];
   ?>
   <div class="ghub-head">
     <div>
@@ -260,37 +285,110 @@ require __DIR__ . '/_guide_head.php';
       <p class="lead" style="margin-bottom:0"><?= gh($L($HUB_DESC)) ?></p>
     </div>
     <div class="ghub-stats">
-      <div class="ghub-stat"><b><?= count($GLOSSARY) ?></b><span class="l-ko">지표</span><span class="l-en">indicators</span><span class="l-ja">指標</span><span class="l-es">indicadores</span><span class="l-de">Indikatoren</span><span class="l-fr">indicateurs</span><span class="l-pt">indicadores</span><span class="l-tr">gösterge</span><span class="l-vi">chỉ báo</span></div>
-      <?php if ($__liveCount > 0): ?>
-      <div class="ghub-stat"><b><?= $__liveCount ?></b><span class="l-ko">실시간 값</span><span class="l-en">live values</span><span class="l-ja">リアルタイム値</span><span class="l-es">valores en vivo</span><span class="l-de">Live-Werte</span><span class="l-fr">valeurs en direct</span><span class="l-pt">valores ao vivo</span><span class="l-tr">canlı değer</span><span class="l-vi">giá trị trực tiếp</span></div>
-      <?php endif; ?>
+      <div class="ghub-stat"><b><?= count($GLOSSARY) ?></b><span><?= gh($L($__ui['n_ind'])) ?></span></div>
+      <?php if ($__liveCount > 0): ?><div class="ghub-stat"><b><?= $__liveCount ?></b><span><?= gh($L($__ui['n_live'])) ?></span></div><?php endif; ?>
     </div>
   </div>
-  <?php foreach ($CAT_ORDER as $cat):
-    $inCat = array_filter($GLOSSARY, fn($g) => $g['category'] === $cat);
-    if (!$inCat) continue;
-    $__cc = $CAT_COLOR[$cat] ?? '#f7931a'; ?>
-    <div class="gcatsec">
+
+  <div class="gsearch">
+    <span class="gs-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
+    <input id="gSearch" type="text" autocomplete="off" placeholder="<?= gh($L($__ui['search'])) ?>">
+  </div>
+
+  <div class="gchips" id="gChips">
+    <span class="gchip on" data-f="all"><?= gh($L($__ui['all'])) ?></span>
+    <?php foreach ($CAT_ORDER as $cat): if (!array_filter($GLOSSARY, fn($g) => $g['category'] === $cat)) continue; ?>
+      <span class="gchip" data-f="<?= gh($cat) ?>"><?= gh($L($CAT_LABEL[$cat])) ?></span>
+    <?php endforeach; ?>
+  </div>
+
+  <div id="gHub">
+  <?php
+    $__live_js = [];
+    foreach ($CAT_ORDER as $cat):
+      $inCat = array_filter($GLOSSARY, fn($g) => $g['category'] === $cat);
+      if (!$inCat) continue; ?>
+    <div class="gcatsec" data-cat="<?= gh($cat) ?>">
       <div class="gcathead">
-        <span class="gcatdot" style="background:<?= gh($__cc) ?>"></span>
         <span class="gcatname"><?= gh($L($CAT_LABEL[$cat])) ?></span>
         <span class="gcatnum"><?= count($inCat) ?></span>
         <span class="gcatline"></span>
       </div>
       <div class="gcards">
         <?php foreach ($inCat as $s => $g):
-          $gi = $g['i18n'][$__gLang] ?? $g['i18n']['en']; ?>
-          <a class="gcard" style="border-left-color:<?= gh($__cc) ?>" href="/glossary/<?= gh($s) ?><?= gh($termSuffix) ?>">
+          $gi = $g['i18n'][$__gLang] ?? $g['i18n']['en'];
+          $isLive = !empty($g['live_field']);
+          if ($isLive) {
+            $gg = $g['gauge'];
+            $__live_js[$s] = [
+              'field'  => $g['live_field'],
+              'min'    => $gg['min'],
+              'max'    => $gg['max'],
+              'pct'    => !empty($g['live_pct']) ? 1 : 0,
+              'dec'    => $g['live_decimals'] ?? 2,
+              'unit'   => $gg['unit'] ?? '',
+              'status' => $g['status_map'] ?? null,
+            ];
+          } ?>
+          <a class="gcard" data-name="<?= gh(mb_strtolower($gi['term_full'], 'UTF-8')) ?>" data-cat="<?= gh($cat) ?>" href="/glossary/<?= gh($s) ?><?= gh($termSuffix) ?>">
             <span class="gcard-top">
               <b><?= gh($gi['term_full']) ?></b>
-              <i class="garw" style="color:<?= gh($__cc) ?>;font-style:normal">→</i>
+              <?php if ($isLive): ?><span class="gc-live"><i></i><?= gh($L($__ui['live'])) ?></span><?php else: ?><span class="gc-concept"><?= gh($L($__ui['concept'])) ?></span><?php endif; ?>
             </span>
-            <span><?= gh(mb_substr($gi['one_liner'], 0, 72)) ?></span>
+            <span class="gcard-one"><?= gh(mb_substr($gi['one_liner'], 0, 80)) ?></span>
+            <?php if ($isLive): ?><span class="gc-foot" data-live="<?= gh($s) ?>"><span class="gc-val" style="color:#55555c">…</span></span><?php else: ?><span class="gc-foot"><span class="gc-hint"><?= gh($L($__ui['more'])) ?> →</span></span><?php endif; ?>
           </a>
         <?php endforeach; ?>
       </div>
     </div>
   <?php endforeach; ?>
+  </div>
+  <script>window.GLOSSARY_LIVE = <?= json_encode($__live_js, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;</script>
+  <script>
+  (function(){
+    var HUB=document.getElementById('gHub'); if(!HUB||!window.GLOSSARY_LIVE) return;
+    var LIVE=window.GLOSSARY_LIVE, curF='all', curQ='';
+    function apply(){
+      HUB.querySelectorAll('.gcard').forEach(function(c){
+        var okF=curF==='all'||c.getAttribute('data-cat')===curF;
+        var okQ=!curQ||c.getAttribute('data-name').indexOf(curQ)>=0;
+        c.classList.toggle('gc-hidden', !(okF&&okQ));
+      });
+      HUB.querySelectorAll('.gcatsec').forEach(function(sec){
+        sec.classList.toggle('gc-hidden', sec.querySelectorAll('.gcard:not(.gc-hidden)').length===0);
+      });
+    }
+    var chips=document.getElementById('gChips');
+    if(chips) chips.addEventListener('click', function(e){
+      var ch=e.target.closest('.gchip'); if(!ch) return;
+      chips.querySelectorAll('.gchip').forEach(function(x){x.classList.remove('on')});
+      ch.classList.add('on'); curF=ch.getAttribute('data-f'); apply();
+    });
+    var si=document.getElementById('gSearch');
+    if(si) si.addEventListener('input', function(e){ curQ=(e.target.value||'').toLowerCase().trim(); apply(); });
+    function pick(d,p){ return p.split('.').reduce(function(o,k){return (o==null)?null:o[k];}, d); }
+    function fill(d){
+      Object.keys(LIVE).forEach(function(slug){
+        var m=LIVE[slug], foot=HUB.querySelector('.gc-foot[data-live="'+slug+'"]'); if(!foot) return;
+        var val;
+        if(m.field==='computed.realized_premium'){ val=(d.price&&d.realized_price)?((d.price-d.realized_price)/d.realized_price*100):null; }
+        else if(m.field==='computed.mayer'){ val=(d.price&&d.ma200w)?(d.price/d.ma200w):null; }
+        else { val=pick(d, m.field); }
+        if(m.status){
+          var st=m.status[(''+val).toLowerCase()];
+          foot.innerHTML='<span class="gc-state">'+(st?st[0]:(val==null?'\u2013':val))+'</span>'; return;
+        }
+        var num=(typeof val==='number')?val:parseFloat(val);
+        if(val==null||isNaN(num)){ foot.innerHTML='<span class="gc-val" style="color:#55555c">\u2013</span>'; return; }
+        var suf=m.pct?'%':(m.unit==='x'?'x':'');
+        var disp=num.toFixed(m.dec)+suf;
+        var pos=Math.max(0,Math.min(100,(num-m.min)/((m.max-m.min)||1)*100));
+        foot.innerHTML='<span class="gc-val">'+disp+'</span><span class="gc-track"><span class="gc-fill" style="width:'+pos.toFixed(1)+'%"></span><span class="gc-mark" style="left:'+pos.toFixed(1)+'%"></span></span>';
+      });
+    }
+    fetch('/api.php?coin=BTC&mode=buy').then(function(r){return r.json();}).then(fill).catch(function(){});
+  })();
+  </script>
 <?php endif; ?>
 </div>
 
