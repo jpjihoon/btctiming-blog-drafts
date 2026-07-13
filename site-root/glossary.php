@@ -134,9 +134,12 @@ h1{font-size:1.8rem;font-weight:800;line-height:1.28;margin-bottom:8px;color:#f2
 .gcatline{flex:1;height:1px;background:rgba(255,255,255,.06)}
 .gcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;align-items:start}
 .gcard{display:block;background:#15151a;border:1px solid rgba(255,255,255,.07);border-radius:11px;padding:13px 14px;text-decoration:none;transition:background .14s,border-color .14s}
-.gcard:hover{background:#1d1d24;border-color:rgba(255,255,255,.16)}
+.gcard:hover{background:#1a1a20;border-color:rgba(247,147,26,.4);text-decoration:none}
 .gcard-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .gcard-top b{color:#f2f2f5;font-size:14px;font-weight:600}
+.gc-right{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.garw{color:#f7931a;font-style:normal;font-size:15px;line-height:1;opacity:0;transform:translateX(-3px);transition:opacity .15s,transform .15s}
+.gcard:hover .garw{opacity:1;transform:translateX(0)}
 .gc-live{font-size:10px;letter-spacing:.03em;color:#8a8a93;display:inline-flex;align-items:center;gap:4px;white-space:nowrap;flex-shrink:0}
 .gc-live i{width:5px;height:5px;border-radius:50%;background:#f7931a;display:inline-block}
 .gc-concept{font-size:10px;color:#6b6b73;border:1px solid rgba(255,255,255,.1);border-radius:5px;padding:2px 7px;white-space:nowrap;flex-shrink:0}
@@ -333,7 +336,7 @@ require __DIR__ . '/_guide_head.php';
           <a class="gcard" data-name="<?= gh(mb_strtolower($gi['term_full'], 'UTF-8')) ?>" data-cat="<?= gh($cat) ?>" href="/glossary/<?= gh($s) ?><?= gh($termSuffix) ?>">
             <span class="gcard-top">
               <b><?= gh($gi['term_full']) ?></b>
-              <?php if ($isLive): ?><span class="gc-live"><i></i><?= gh($L($__ui['live'])) ?></span><?php else: ?><span class="gc-concept"><?= gh($L($__ui['concept'])) ?></span><?php endif; ?>
+              <span class="gc-right"><?php if ($isLive): ?><span class="gc-live"><i></i><?= gh($L($__ui['live'])) ?></span><?php else: ?><span class="gc-concept"><?= gh($L($__ui['concept'])) ?></span><?php endif; ?><i class="garw">→</i></span>
             </span>
             <span class="gcard-one"><?= gh(mb_substr($gi['one_liner'], 0, 80)) ?></span>
             <?php if ($isLive): ?><span class="gc-foot" data-live="<?= gh($s) ?>"><span class="gc-val" style="color:#55555c">…</span></span><?php else: ?><span class="gc-foot"><span class="gc-hint"><?= gh($L($__ui['more'])) ?> →</span></span><?php endif; ?>
