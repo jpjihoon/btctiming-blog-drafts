@@ -1027,7 +1027,7 @@ function makeCard(d,mode='buy'){
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
       text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
       ${TT({ko:'용어 설명',en:'Definition',ja:'用語解説',es:'Definición',de:'Definition',fr:'Définition',pt:'Definição',tr:'Tanım',vi:'Định nghĩa'})} →</a>`:'';
-  return`<div class="icard" onclick="this.classList.toggle('expanded')">
+  return`<div class="icard" data-ik="${d.key}" onclick="this.classList.toggle('expanded')">
     <div class="icard-top">
       <span class="icard-name">${localLabel}<span class="pill ${pc}">${localSignal}</span></span>
       <span class="icard-wt">${d.max}pt</span>
@@ -1501,10 +1501,16 @@ function renderAll(ind) {
     const restSell = keys.filter(k=>!usedSell.includes(k));
     g4k = [...g4k, ...restSell];
   }
+  // [자동갱신] 펼쳐둔 지표 카드가 접히지 않도록 펼침 상태를 보존
+  const __openInd = new Set();
+  document.querySelectorAll('.ind-grid .icard.expanded[data-ik]').forEach(el => __openInd.add(el.getAttribute('data-ik')));
   document.getElementById('g1').innerHTML=(g1k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
   document.getElementById('g2').innerHTML=(g2k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
   document.getElementById('g3').innerHTML=(g3k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
   document.getElementById('g4').innerHTML=(g4k||[]).filter(k=>det[k]).map(k=>makeCard(det[k],currentMode)).join('');
+  if(__openInd.size){
+    __openInd.forEach(k => { const c = document.querySelector('.ind-grid .icard[data-ik="'+k+'"]'); if(c) c.classList.add('expanded'); });
+  }
 
   // 빈 섹션은 헤더까지 함께 숨김 (알트코인 SHORT처럼 카드가 없는 섹션 대응)
   [['g1',(g1k||[]).filter(k=>det[k])],['g2',(g2k||[]).filter(k=>det[k])],
@@ -2629,8 +2635,14 @@ function showOnboardIfFirst(){
 showOnboardIfFirst();
 loadAll();
 
-// Auto-refresh every 5 minutes
-setInterval(loadAll, 5*60*1000);
+// Auto-refresh — 60초마다 점수·롱진입·히스토리 자동 갱신 (새로고침 불필요)
+let __lastAutoLoad = Date.now();
+function __autoRefresh(){ __lastAutoLoad = Date.now(); loadAll(); }
+setInterval(__autoRefresh, 60*1000);
+// 백그라운드 탭에서는 타이머가 느려지거나 멈추므로, 화면으로 돌아오면 즉시 갱신
+document.addEventListener('visibilitychange', () => {
+  if(document.visibilityState === 'visible' && (Date.now() - __lastAutoLoad) > 20000) { __autoRefresh(); }
+});
 
 // 1분마다 현재 점수 히스토리 저장 (탭 변경 시 데이터 축적)
 setInterval(() => {
