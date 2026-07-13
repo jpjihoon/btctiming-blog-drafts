@@ -350,8 +350,36 @@ foreach ($__allLangs as $__cur) {
 echo implode(",\n", $__rules) . "{display:none}\n";
 ?>
 </style>
+<style>
+/* ── 뷰페이지 개선: 읽기 진행바 · 목차 · 차트 figure ── */
+#btReadBar{position:fixed;top:0;left:0;height:3px;width:0;background:#f7931a;z-index:9999;transition:width .1s linear}
+.bt-toc{margin:16px 0 22px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.03)}
+.bt-toc summary{list-style:none;cursor:pointer;padding:11px 14px;font-size:13px;font-weight:600;color:var(--t1,#e5e5ea);display:flex;align-items:center;gap:8px;user-select:none}
+.bt-toc summary::-webkit-details-marker{display:none}
+.bt-toc-ic{color:#f7931a;font-size:16px;line-height:1;transition:transform .15s}
+.bt-toc[open] .bt-toc-ic{transform:rotate(90deg)}
+.bt-toc ol{list-style:none;margin:0;padding:2px 12px 12px}
+.bt-toc li{margin:0}
+.bt-toc a{display:block;padding:5px 0 5px 14px;font-size:13px;line-height:1.45;color:var(--t2,#8b8b93);text-decoration:none;border-left:2px solid transparent}
+.bt-toc a:hover{color:var(--t1,#e5e5ea)}
+.bt-toc a.h3{padding-left:28px;font-size:12.5px}
+.bt-toc a.active{color:#f7931a;border-left-color:#f7931a}
+.bt-anchor{opacity:0;margin-left:8px;color:#f7931a;text-decoration:none;font-weight:400}
+h2:hover>.bt-anchor,h3:hover>.bt-anchor{opacity:.65}
+.bt-anchor:hover{opacity:1}
+#btTocRail{position:fixed;top:120px;width:210px;max-height:72vh;overflow-y:auto;display:none;z-index:50}
+#btTocRail .bt-rail-h{font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--t2,#71717a);margin-bottom:10px}
+#btTocRail ol{list-style:none;margin:0;padding:0;border-left:1px solid rgba(255,255,255,.09)}
+#btTocRail a{display:block;padding:4px 0 4px 12px;margin-left:-1px;border-left:2px solid transparent;font-size:12.5px;line-height:1.4;color:var(--t2,#8b8b93);text-decoration:none}
+#btTocRail a:hover{color:var(--t1,#e5e5ea)}
+#btTocRail a.h3{padding-left:22px;font-size:12px}
+#btTocRail a.active{color:#f7931a;border-left-color:#f7931a}
+.wrap-main figure.bt-fig{margin:20px 0;padding:0}
+.wrap-main figure.bt-fig figcaption{font-size:11.5px;color:var(--t2,#71717a);margin-top:7px;line-height:1.5}
+</style>
 </head>
 <body>
+<div id="btReadBar" aria-hidden="true"></div>
 <!-- 조회수 집계: 세션당 1회. 누적 + 시간버킷(24h 인기 계산용) 원자적 증가 -->
 <script>
 (function(){try{
@@ -428,6 +456,22 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     ?>
   </div>
 
+  <?php
+    // ── BreadcrumbList 구조화 데이터 (시각 breadcrumb과 동일 경로) ──
+    $__bcHomeName = ['ko'=>'홈','en'=>'Home','ja'=>'ホーム','es'=>'Inicio','de'=>'Startseite','fr'=>'Accueil','pt'=>'Início','tr'=>'Ana Sayfa','vi'=>'Trang chủ'];
+    $__bcBlogName = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog'];
+    $__bcLang = $lang;
+    $__bcSfx  = ($__bcLang !== 'ko') ? ('?lang=' . $__bcLang) : '';
+    $__bcLd = ['@context'=>'https://schema.org','@type'=>'BreadcrumbList','itemListElement'=>[
+      ['@type'=>'ListItem','position'=>1,'name'=>($__bcHomeName[$__bcLang] ?? $__bcHomeName['en']),'item'=>('https://btctiming.com/'.$__bcSfx)],
+      ['@type'=>'ListItem','position'=>2,'name'=>($__bcBlogName[$__bcLang] ?? 'Blog'),'item'=>('https://btctiming.com/blog/'.$__bcSfx)],
+      ['@type'=>'ListItem','position'=>3,'name'=>($catLabel[$__bcLang] ?? $catLabel['en']),'item'=>('https://btctiming.com'.$bcCatHref)],
+      ['@type'=>'ListItem','position'=>4,'name'=>($M['title'.$suf] ?? $M['title_en']),'item'=>$canonical],
+    ]];
+  ?>
+  <script type="application/ld+json">
+<?= json_encode($__bcLd, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>
+  </script>
   <?php foreach ($__langKeys as $__l): ?>
   <h1 class="<?= $__l ?>"><?= $M["h1_{$__l}"] ?? $M['h1_en'] ?></h1>
   <?php endforeach; ?>

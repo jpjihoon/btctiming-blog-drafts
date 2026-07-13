@@ -147,6 +147,21 @@ $tabs = array_filter(array_keys(CATEGORY_META), fn($c) => in_array($c, $presentC
 $__cat = (isset($_GET['cat']) && in_array($_GET['cat'], $presentCats, true)) ? $_GET['cat'] : 'all';
 $__page = max(1, (int)($_GET['page'] ?? 1));
 $__initCount = $__page * 12; // 새로고침 시 봤던 만큼 유지
+// ── 검색(?q=): 제목·설명·태그·slug를 전 언어 대상으로 서버 필터 (전체 글 검색) ──
+$__q = trim((string)($_GET['q'] ?? ''));
+$__contains = function(string $h, string $n): bool { return function_exists('mb_stripos') ? (mb_stripos($h, $n) !== false) : (stripos($h, $n) !== false); };
+$__matchQ = function(array $a) use ($__q, $__contains): bool {
+    if ($__q === '') return true;
+    $hay = (string)($a['slug'] ?? '');
+    foreach ($a as $k => $v) { if (is_string($v) && (strncmp($k,'title_',6)===0 || strncmp($k,'desc_',5)===0 || strncmp($k,'tag_',4)===0)) $hay .= ' ' . $v; }
+    return $__contains($hay, $__q);
+};
+$__filterFn = function(array $x) use ($__cat, $__matchQ): bool { return ($__cat === 'all' || ($x['category'] ?? '') === $__cat) && $__matchQ($x); };
+$__filtered = array_values(array_filter($articles, $__filterFn));
+$__totalFiltered = count($__filtered);
+$__searchPh = ['ko'=>'글 검색 — 지표, 코인, 키워드…','en'=>'Search posts — indicators, coins, keywords…','ja'=>'記事を検索 — 指標, コイン, キーワード…','es'=>'Buscar — indicadores, monedas, palabras…','de'=>'Suchen — Indikatoren, Coins, Begriffe…','fr'=>'Rechercher — indicateurs, cryptos, mots…','pt'=>'Buscar — indicadores, moedas, palavras…','tr'=>'Ara — göstergeler, coinler, kelimeler…','vi'=>'Tìm bài — chỉ báo, coin, từ khóa…'];
+$__resWord  = ['ko'=>'검색 결과','en'=>'results','ja'=>'検索結果','es'=>'resultados','de'=>'Ergebnisse','fr'=>'résultats','pt'=>'resultados','tr'=>'sonuç','vi'=>'kết quả'];
+$__noRes    = ['ko'=>'검색 결과가 없습니다.','en'=>'No results found.','ja'=>'検索結果がありません。','es'=>'Sin resultados.','de'=>'Keine Ergebnisse.','fr'=>'Aucun résultat.','pt'=>'Nenhum resultado.','tr'=>'Sonuç bulunamadı.','vi'=>'Không có kết quả.'];
 
 // 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
@@ -154,9 +169,8 @@ $__initCount = $__page * 12; // 새로고침 시 봤던 만큼 유지
 $__blLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 // 더보기 AJAX: 해당 카테고리의 offset부터 12개 카드 HTML만 반환
 if (($_GET['ajax'] ?? '') === 'cards') {
-    $__f = ($__cat === 'all') ? array_values($articles) : array_values(array_filter($articles, fn($x) => ($x['category'] ?? '') === $__cat));
     $__off = max(0, (int)($_GET['offset'] ?? 0));
-    foreach (array_slice($__f, $__off, 12) as $__k => $__a) { echo renderCardHtml($__a, $__off + $__k, $__blLang); }
+    foreach (array_slice($__filtered, $__off, 12) as $__k => $__a) { echo renderCardHtml($__a, $__off + $__k, $__blLang); }
     exit;
 }
 ?>
@@ -287,6 +301,19 @@ h1{font-size:2.1rem;font-weight:800;margin-bottom:10px;color:#f2f2f5;letter-spac
   background:#141418;color:#9a9aa4;cursor:pointer;transition:all .15s;white-space:nowrap}
 .cat-tab:hover{border-color:rgba(255,255,255,.25);color:#f2f2f5}
 .cat-tab.active{background:var(--cat-color,#f7931a);border-color:var(--cat-color,#f7931a);color:#000}
+/* ── 글 검색 ── */
+.blog-search{max-width:1120px;margin:14px auto 0;padding:0 24px}
+.bs-box{position:relative;display:flex;align-items:center}
+.bs-box>svg{position:absolute;left:15px;width:16px;height:16px;color:#71717a;pointer-events:none}
+.blog-search input{width:100%;box-sizing:border-box;background:#141418;border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:11px 42px;color:#e5e5ea;font-size:14px;outline:none}
+.blog-search input:focus{border-color:rgba(247,147,26,.6)}
+.blog-search input::placeholder{color:#6b6b73}
+.blog-search input::-webkit-search-cancel-button{display:none}
+.bs-clear{position:absolute;right:12px;width:22px;height:22px;display:flex;align-items:center;justify-content:center;border-radius:50%;color:#9a9aa4;text-decoration:none;font-size:12px;background:rgba(255,255,255,.07)}
+.bs-clear:hover{color:#fff;background:rgba(255,255,255,.14)}
+.bs-result{max-width:1120px;margin:12px auto 0;padding:0 24px;font-size:12.5px;color:#8b8b93}
+.bs-result b{color:#f7931a;font-weight:700}
+.bs-noresult{padding:44px 0;text-align:center;color:#71717a;font-size:14px}
 
 .wrap{max-width:1120px;margin:0 auto;padding:28px 24px 80px}
 .article-grid{display:grid;gap:14px;overflow-anchor:none}
@@ -395,6 +422,18 @@ foreach ($__langKeys as $__l) {
   <h1 class="vi-show">Blog</h1>
 </div>
 
+<form class="blog-search" action="/blog/" method="get" role="search">
+  <div class="bs-box">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <input type="search" name="q" value="<?= h($__q) ?>" placeholder="<?= h($__searchPh[$__blLang] ?? $__searchPh['en']) ?>" autocomplete="off" enterkeyhint="search" aria-label="Search posts">
+    <?php if ($__q !== ''): $__clr = '/blog/' . ($__cat!=='all' ? ('?cat='.rawurlencode($__cat).($__blLang!=='ko'?('&lang='.$__blLang):'')) : ($__blLang!=='ko'?('?lang='.$__blLang):'')); ?>
+    <a class="bs-clear" href="<?= h($__clr) ?>" aria-label="Clear search">✕</a>
+    <?php endif; ?>
+  </div>
+  <?php if ($__cat !== 'all'): ?><input type="hidden" name="cat" value="<?= h($__cat) ?>"><?php endif; ?>
+  <?php if ($__blLang !== 'ko'): ?><input type="hidden" name="lang" value="<?= h($__blLang) ?>"><?php endif; ?>
+</form>
+
 <div class="cat-tabs" id="catTabs">
   <button class="cat-tab<?= $__cat==='all'?' active':'' ?>" data-cat="all" onclick="filterCat('all')">
     <span class="ko">전체</span><span class="en-show">All</span><span class="ja-show">全て</span><span class="es-show">Todo</span><span class="de-show">Alle</span><span class="fr-show">Tout</span><span class="pt-show">Todos</span><span class="tr-show">Tümü</span><span class="vi-show">Tất cả</span>
@@ -405,6 +444,10 @@ foreach ($__langKeys as $__l) {
   </button>
 <?php endforeach; ?>
 </div>
+
+<?php if ($__q !== ''): ?>
+<div class="bs-result"><b><?= (int)$__totalFiltered ?></b> <?= h($__resWord[$__blLang] ?? $__resWord['en']) ?> · “<?= h($__q) ?>”</div>
+<?php endif; ?>
 
 <div class="wrap">
   <aside class="blog-side">
@@ -461,12 +504,12 @@ foreach ($__langKeys as $__l) {
     <div class="empty tr-show">Henüz yazı yok.</div>
     <div class="empty vi-show">Chưa có bài viết nào.</div>
 <?php else:
-    $__filtered = ($__cat === 'all') ? array_values($articles) : array_values(array_filter($articles, fn($x) => ($x['category'] ?? '') === $__cat));
     foreach (array_slice($__filtered, 0, $__initCount) as $__k => $a) { echo renderCardHtml($a, $__k, $__blLang); }
+    if ($__q !== '' && $__totalFiltered === 0) { echo '<div class="bs-noresult">' . h($__noRes[$__blLang] ?? $__noRes['en']) . '</div>'; }
 endif; ?>
   </div>
 
-  <?php $__totalFiltered = ($__cat==='all') ? count($articles) : count(array_filter($articles, fn($x)=>($x['category']??'')===$__cat)); $__more = max(0, $__totalFiltered - $__initCount); ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
+  <?php $__more = max(0, $__totalFiltered - $__initCount); ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
     <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
     <span id="loadMoreCount"><?= $__more>0 ? '('.min($__more,12).')' : '' ?></span>
   </button>
@@ -645,6 +688,7 @@ let currentCat = (function(){
   try { const c = new URLSearchParams(location.search).get('cat'); if (c && document.querySelector('.cat-tab[data-cat="'+c+'"]')) return c; } catch(e){}
   return 'all';
 })();
+var currentQ = (function(){ try{ return new URLSearchParams(location.search).get('q')||''; }catch(e){ return ''; } })();
 let __loaded = <?= (int)($__initCount ?? 12) ?>; // 서버 렌더 개수(page 반영)
 function __curLangMore(){ var r=document.getElementById('html-root'); return ((r&&r.className)||'ko').trim().split(/\s+/)[0]||'ko'; }
 function __updMoreBtn(){
@@ -658,7 +702,7 @@ function loadMore(){
   var btn=document.getElementById('loadMoreBtn'); if(btn) btn.style.pointerEvents='none';
   var lang=__curLangMore();
   var cp = currentCat==='all' ? '' : ('&cat='+encodeURIComponent(currentCat));
-  fetch('/blog/?ajax=cards&offset='+__loaded+cp+(lang==='ko'?'':('&lang='+lang)))
+  fetch('/blog/?ajax=cards&offset='+__loaded+cp+(currentQ?('&q='+encodeURIComponent(currentQ)):'')+(lang==='ko'?'':('&lang='+lang)))
     .then(function(r){return r.text();}).then(function(html){
       var grid=document.getElementById('articleGrid');
       var __sy=window.scrollY;
@@ -672,12 +716,12 @@ function loadMore(){
     }).catch(function(){ if(btn) btn.style.pointerEvents=''; });
 }
 function filterCat(cat){
-  var lang=__curLangMore(); var ls=(lang==='ko'?'':('lang='+lang));
-  var url='/blog/';
-  if(cat!=='all' && ls) url+='?cat='+encodeURIComponent(cat)+'&'+ls;
-  else if(cat!=='all') url+='?cat='+encodeURIComponent(cat);
-  else if(ls) url+='?'+ls;
-  location.href=url;
+  var lang=__curLangMore();
+  var u=new URL('/blog/', location.origin);
+  if(cat!=='all') u.searchParams.set('cat',cat);
+  if(currentQ) u.searchParams.set('q',currentQ);
+  if(lang!=='ko') u.searchParams.set('lang',lang);
+  location.href=u.pathname+(u.search||'');
 } // 카테고리는 서버가 ?cat= 로 필터+활성탭 표시 (로드 시 filterCat 자동호출 금지 — 무한이동 방지)
 </script>
 <style>

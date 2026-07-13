@@ -543,5 +543,60 @@ function bcsPick(id){
   },{passive:true});
 })();
 </script>
+<script>
+/* ── 뷰페이지 개선: 목차 · 헤딩 앵커 · 스크롤 스파이 · 읽기 진행바 ── */
+(function(){
+  var main=document.querySelector('.wrap-main'); if(!main) return;
+  var bar=document.getElementById('btReadBar');
+  function prog(){ if(!bar) return; var h=document.documentElement, st=h.scrollTop||document.body.scrollTop, sh=(h.scrollHeight-h.clientHeight)||1; bar.style.width=Math.min(100,Math.max(0, st/sh*100))+'%'; }
+  window.addEventListener('scroll',prog,{passive:true}); window.addEventListener('resize',prog); prog();
+
+  var EX='.other-articles,.prevnext,nav,.blog-ad,.share,.share-bar,.sharebar,.bt-toc,#btTocRail,.coin-sheet,.bcs,.bc';
+  var hs=[].slice.call(main.querySelectorAll('h2,h3')).filter(function(h){ return !h.closest(EX) && (h.textContent||'').trim().length; });
+  if(hs.length<3) return;
+
+  function slugify(t,i){ var s=(t||'').trim().toLowerCase().replace(/[#\s]+/g,'-').replace(/[^\w\uac00-\ud7a3\u3040-\u30ff\u4e00-\u9fff-]+/g,'').replace(/-+/g,'-').replace(/^-|-$/g,''); return (s||'sec')+'-'+i; }
+  var items=hs.map(function(h,i){
+    if(!h.id) h.id=slugify(h.textContent,i);
+    var txt=(h.textContent||'').trim();
+    var a=document.createElement('a'); a.className='bt-anchor'; a.href='#'+h.id; a.textContent='#'; a.setAttribute('aria-label','anchor');
+    h.appendChild(a);
+    return {id:h.id, text:txt, lv:(h.tagName==='H3'?3:2), el:h};
+  });
+
+  function jump(id){ var t=document.getElementById(id); if(!t) return; var y=t.getBoundingClientRect().top+window.pageYOffset-80; window.scrollTo({top:y,behavior:'smooth'}); if(history.replaceState) history.replaceState(null,'','#'+id); }
+  function buildList(){ var ol=document.createElement('ol');
+    items.forEach(function(it){ var li=document.createElement('li'); var a=document.createElement('a');
+      a.href='#'+it.id; a.textContent=it.text; if(it.lv===3) a.className='h3'; a.setAttribute('data-tid',it.id);
+      a.addEventListener('click',function(e){ e.preventDefault(); jump(it.id); });
+      li.appendChild(a); ol.appendChild(li);
+    }); return ol; }
+
+  var L=(document.documentElement.getAttribute('lang')||'ko').slice(0,2);
+  var LBL={ko:'목차',ja:'目次',en:'Contents',es:'Contenido',de:'Inhalt',fr:'Sommaire',pt:'Conteúdo',tr:'İçindekiler',vi:'Mục lục'};
+  var lbl=LBL[L]||LBL.en;
+
+  var det=document.createElement('details'); det.className='bt-toc'; det.open=window.matchMedia('(min-width:768px)').matches; /* 모바일은 접힌 채 시작 */
+  var sm=document.createElement('summary'); sm.innerHTML='<span class="bt-toc-ic">\u203a</span><span>'+lbl+'</span>';
+  det.appendChild(sm); det.appendChild(buildList());
+  var anchor=main.querySelector('.meta')||main.firstElementChild;
+  if(anchor&&anchor.parentNode) anchor.parentNode.insertBefore(det, anchor.nextSibling); else main.insertBefore(det, main.firstChild);
+
+  var rail=document.createElement('div'); rail.id='btTocRail';
+  var rh=document.createElement('div'); rh.className='bt-rail-h'; rh.textContent=lbl; rail.appendChild(rh);
+  rail.appendChild(buildList()); document.body.appendChild(rail);
+
+  function place(){ var r=main.getBoundingClientRect(); var gut=r.left;
+    if(gut>=236){ rail.style.display='block'; rail.style.left=Math.round(gut-226)+'px'; det.style.display='none'; }
+    else { rail.style.display='none'; det.style.display=''; } }
+  place(); window.addEventListener('resize',place);
+
+  var links=[].slice.call(document.querySelectorAll('.bt-toc a[data-tid], #btTocRail a[data-tid]'));
+  function spy(){ var pos=window.pageYOffset+120, cur=items.length?items[0].id:null;
+    items.forEach(function(it){ if(it.el.getBoundingClientRect().top+window.pageYOffset<=pos) cur=it.id; });
+    links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('data-tid')===cur); }); }
+  window.addEventListener('scroll',spy,{passive:true}); spy();
+})();
+</script>
 </body>
 </html>
