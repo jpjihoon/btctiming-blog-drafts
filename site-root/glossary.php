@@ -144,6 +144,13 @@ function glossary_range_color(int $idx, array $zones): string {
   return $fallback[$idx % count($fallback)];
 }
 
+// 개별 지표 뷰페이지: 상단 nav-back을 '용어사전 목록'으로 (허브/기타 안내 페이지는 기본값 유지)
+if ($isDetail) {
+  $GUIDE_NAVBACK = [
+    'href' => '/glossary' . $termSuffix,
+    'labels' => ['ko'=>'← 용어사전 목록','en'=>'← Glossary','ja'=>'← 用語集','es'=>'← Glosario','de'=>'← Glossar','fr'=>'← Glossaire','pt'=>'← Glossário','tr'=>'← Sözlük','vi'=>'← Từ điển'],
+  ];
+}
 require __DIR__ . '/_guide_head.php';
 ?>
 
