@@ -166,7 +166,6 @@ require __DIR__ . '/_guide_head.php';
   $liveLabel = $G['live_label_ko'] ?? '';
   if ($__gLang !== 'ko' || $liveLabel === '') $liveLabel = $L($T_LIVELABEL) . ' · ' . $nm;
 ?>
-  <div class="dtop"><a href="/glossary<?= gh($termSuffix) ?>"><?= gh($L($T_BACKHUB)) ?></a></div>
   <div class="dcat"><?= gh($L($CAT_LABEL[$G['category']])) ?></div>
   <h1><?= gh(sprintf($L($TITLE_PAT), $nm)) ?></h1>
   <div class="oneliner"><?= gh($i['one_liner']) ?></div>
