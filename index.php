@@ -193,7 +193,7 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 .exch-banner:hover{border-color:rgba(247,147,26,.7)}
 .exch-banner:active{transform:scale(.99)}
 .exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0}
-.exch-banner-tx b{font-size:13px;color:var(--t1);font-weight:700;letter-spacing:-.2px}
+.exch-banner-tx b{font-size:13.5px;color:#f2f2f5;font-weight:800;letter-spacing:-.2px}.exch-banner-tx b span{color:#f2f2f5}
 .exch-banner-tx span{font-size:11px;color:var(--t3)}
 .exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;line-height:1}
 
