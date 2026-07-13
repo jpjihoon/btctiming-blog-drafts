@@ -577,10 +577,17 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
       li.appendChild(st); li.appendChild(document.createTextNode(' '+((it.d&&(it.d[lg]||it.d.en))||'')));
       ul.appendChild(li); });
     frag.appendChild(ul); });
+  var endEl=main.querySelector('.share-bottom, .blog-ad, .prevnext, .other-articles, .cta'); // 본문 끝(이전글/공유/관련글/CTA) 경계
   var mk=['출처:','Sources:','出典:','Fuentes:','Quellen:','Fontes:','Kaynaklar:','Nguồn:'];
   var ps=[].slice.call(main.querySelectorAll('p')), srcP=null;
-  for(var j=0;j<ps.length;j++){ var t=(ps[j].textContent||'').trim(); if(mk.some(function(m){return t.indexOf(m)===0;})){ srcP=ps[j]; break; } }
-  if(srcP&&srcP.parentNode) srcP.parentNode.insertBefore(frag, srcP); else main.appendChild(frag);
+  for(var j=0;j<ps.length;j++){
+    if(endEl && !(ps[j].compareDocumentPosition(endEl) & Node.DOCUMENT_POSITION_FOLLOWING)) break; // 본문 끝 이후 문단은 무시
+    var t=(ps[j].textContent||'').trim();
+    if(mk.some(function(m){return t.indexOf(m)===0;})){ srcP=ps[j]; break; }
+  }
+  if(srcP&&srcP.parentNode) srcP.parentNode.insertBefore(frag, srcP);        // 출처 있으면 그 앞
+  else if(endEl&&endEl.parentNode) endEl.parentNode.insertBefore(frag, endEl); // 없으면 본문 끝(관련글/이전글 앞)
+  else main.appendChild(frag);
 })();
 </script>
 <script>
