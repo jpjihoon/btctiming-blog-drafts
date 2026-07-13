@@ -1,11 +1,5 @@
 
 <?php
-// ── 본문 캡처 후, 저자가 쓴 '함께 보면 좋은 글' 섹션 유무 감지 ──
-$__combinedHeads = ['함께 보면 좋은 글','Best Combined With','併せて見るべき記事','Mejor Combinado Con','Am besten kombiniert mit','À Combiner Avec','Melhor Combinado Com','En İyi Şununla Birlikte','Kết Hợp Tốt Nhất Với'];
-$__body = ob_get_level() ? ob_get_clean() : '';
-$__hasCombined = false;
-if ($__body !== '') { foreach ($__combinedHeads as $__ch) { if (mb_stripos($__body, $__ch) !== false) { $__hasCombined = true; break; } } }
-
 // ── 다른 글 목록: 내부 트래픽 유도용. 같은 카테고리 / 다른 카테고리를 시각적으로 분리해서 노출 ──
 $otherPool = array_filter($ARTICLES, fn($k) => $k !== $slug, ARRAY_FILTER_USE_KEY);
 $sameCategory = array_filter($otherPool, fn($a) => ($a['category'] ?? '') === $catKey);
@@ -37,41 +31,6 @@ uasort($otherCategory, function($a, $b) use ($relScore) {
 });
 $sameTop  = array_slice($sameCategory, 0, 4, true);   // 같은 카테고리 · 관련도순
 $otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 · 관련도순
-
-// ── '함께 보면 좋은 글' 자동 보완: 저자본이 없으면 본문 끝(출처 앞)에 저자본과 같은 스타일(<h2>+<ul>)로 주입 ──
-if (!$__hasCombined) {
-    $__combSource = array_diff_key($otherPool, $sameTop);  // 관련 주제의 글과 겹치지 않게
-    uasort($__combSource, function($a, $b) use ($relScore){ $d = $relScore($b) - $relScore($a); return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? ''); });
-    $__combTop = array_slice($__combSource, 0, 4, true);
-    if (!empty($__combTop)) {
-        $__combHead = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
-        $__cut = function($t){ $t = trim((string)$t); return (mb_strlen($t) > 110) ? (mb_substr($t, 0, 110) . '…') : $t; };
-        $__cbHtml = "\n";
-        foreach (array_keys(SUPPORTED_LANGS) as $__cl) { $__cbHtml .= '  <h2 class="'.$__cl.'">'.h($__combHead[$__cl] ?? $__combHead['en']).'</h2>'."\n"; }
-        foreach (array_keys(SUPPORTED_LANGS) as $__cl) {
-            $__cbHtml .= '  <ul class="'.$__cl.'">'."\n";
-            foreach ($__combTop as $__rSlug => $__rA) {
-                $__t = $__rA["title_{$__cl}"] ?? ($__rA['title_en'] ?? '');
-                $__d = $__rA["desc_{$__cl}"] ?? ($__rA['desc_en'] ?? '');
-                $__cbHtml .= '    <li><strong><a href="/blog/'.h($__rSlug).'.php'.h($blogSuffix).'">'.h($__t).'</a>:</strong> '.h($__cut($__d)).'</li>'."\n";
-            }
-            $__cbHtml .= '  </ul>'."\n";
-        }
-        // 출처 문단 앞에 주입(없으면 본문 끝)
-        $__srcPos = -1;
-        foreach (['출처:','Sources:','出典:','Fuentes:','Quellen:','Fontes:','Kaynaklar:','Nguồn:'] as $__sm) {
-            $__p = strpos($__body, $__sm);
-            if ($__p !== false && ($__srcPos < 0 || $__p < $__srcPos)) $__srcPos = $__p;
-        }
-        if ($__srcPos >= 0) {
-            $__pTag = strrpos(substr($__body, 0, $__srcPos), '<p');
-            $__body = ($__pTag !== false) ? (substr($__body, 0, $__pTag) . $__cbHtml . substr($__body, $__pTag)) : ($__body . $__cbHtml);
-        } else {
-            $__body .= $__cbHtml;
-        }
-    }
-}
-echo $__body;
 $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
 
 // ── 이전 글 / 다음 글: 전체 글을 날짜순(오름차순)으로 세워 현재 글의 앞뒤를 찾음 ──
@@ -582,6 +541,46 @@ function bcsPick(id){
     clearTimeout(idle);
     idle=setTimeout(function(){bar.classList.remove('tabbar-hidden');},900);
   },{passive:true});
+})();
+</script>
+<?php
+// ── '함께 보면 좋은 글' 후보 데이터: 본문에 저자본이 없을 때 JS가 본문 '출처' 앞에 주입 (서버 본문 렌더에는 영향 없음) ──
+$__combSource = array_diff_key($otherPool, $sameTop);
+uasort($__combSource, function($a, $b) use ($relScore){ $d = $relScore($b) - $relScore($a); return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? ''); });
+$__combItems = [];
+foreach (array_slice($__combSource, 0, 4, true) as $__rSlug => $__rA) {
+    $__it = ['url' => '/blog/'.$__rSlug.'.php'.$blogSuffix, 't' => [], 'd' => []];
+    foreach (array_keys(SUPPORTED_LANGS) as $__L) {
+        $__it['t'][$__L] = $__rA["title_{$__L}"] ?? ($__rA['title_en'] ?? '');
+        $__dd = trim((string)($__rA["desc_{$__L}"] ?? ($__rA['desc_en'] ?? '')));
+        $__it['d'][$__L] = (mb_strlen($__dd) > 110) ? (mb_substr($__dd, 0, 110).'…') : $__dd;
+    }
+    $__combItems[] = $__it;
+}
+$__combHeads2 = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
+?>
+<script>
+window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combItems], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;
+(function(){
+  var main=document.querySelector('.wrap-main'); if(!main||!window.__combReads) return;
+  var data=window.__combReads; if(!data.items||!data.items.length) return;
+  var heads=data.heads, langs=Object.keys(heads);
+  var hv=langs.map(function(k){return (heads[k]||'').trim();});
+  var h2s=[].slice.call(main.querySelectorAll('h2'));
+  for(var i=0;i<h2s.length;i++){ if(hv.indexOf((h2s[i].textContent||'').trim())!==-1) return; } // 저자본 있으면 스킵
+  var frag=document.createDocumentFragment();
+  langs.forEach(function(lg){ var h=document.createElement('h2'); h.className=lg; h.textContent=heads[lg]||heads.en; frag.appendChild(h); });
+  langs.forEach(function(lg){ var ul=document.createElement('ul'); ul.className=lg;
+    data.items.forEach(function(it){ var li=document.createElement('li');
+      var st=document.createElement('strong'), a=document.createElement('a');
+      a.href=it.url; a.textContent=(it.t&&(it.t[lg]||it.t.en))||''; st.appendChild(a); st.appendChild(document.createTextNode(':'));
+      li.appendChild(st); li.appendChild(document.createTextNode(' '+((it.d&&(it.d[lg]||it.d.en))||'')));
+      ul.appendChild(li); });
+    frag.appendChild(ul); });
+  var mk=['출처:','Sources:','出典:','Fuentes:','Quellen:','Fontes:','Kaynaklar:','Nguồn:'];
+  var ps=[].slice.call(main.querySelectorAll('p')), srcP=null;
+  for(var j=0;j<ps.length;j++){ var t=(ps[j].textContent||'').trim(); if(mk.some(function(m){return t.indexOf(m)===0;})){ srcP=ps[j]; break; } }
+  if(srcP&&srcP.parentNode) srcP.parentNode.insertBefore(frag, srcP); else main.appendChild(frag);
 })();
 </script>
 <script>
