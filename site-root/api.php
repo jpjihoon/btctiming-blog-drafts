@@ -277,6 +277,7 @@ echo json_encode([
     'estimated' => $ind['estimated'] ?? [],
     'puell' => $ind['puell'] ?? null,
     'chg24h' => $ind['chg24h'] ?? null,
+    'lth_sopr' => $ind['lth_sopr'] ?? null,
     'result' => $result,
     'updated_at' => date('c'),
 ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
