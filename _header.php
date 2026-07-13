@@ -534,4 +534,5 @@ h2:hover>.bt-anchor,h3:hover>.bt-anchor{opacity:.65}
   </div>
 
   <?php renderShareBar('top'); ?>
+  <?php ob_start(); // 본문 캡처: '함께 보면 좋은 글' 저자본 유무 감지용 ?>
 

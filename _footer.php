@@ -1,5 +1,12 @@
 
 <?php
+// ── 본문 캡처 후, 저자가 쓴 '함께 보면 좋은 글' 섹션 유무 감지 ──
+$__combinedHeads = ['함께 보면 좋은 글','Best Combined With','併せて見るべき記事','Mejor Combinado Con','Am besten kombiniert mit','À Combiner Avec','Melhor Combinado Com','En İyi Şununla Birlikte','Kết Hợp Tốt Nhất Với'];
+$__body = ob_get_level() ? ob_get_clean() : '';
+$__hasCombined = false;
+if ($__body !== '') { foreach ($__combinedHeads as $__ch) { if (mb_stripos($__body, $__ch) !== false) { $__hasCombined = true; break; } } }
+echo $__body;
+
 // ── 다른 글 목록: 내부 트래픽 유도용. 같은 카테고리 / 다른 카테고리를 시각적으로 분리해서 노출 ──
 $otherPool = array_filter($ARTICLES, fn($k) => $k !== $slug, ARRAY_FILTER_USE_KEY);
 $sameCategory = array_filter($otherPool, fn($a) => ($a['category'] ?? '') === $catKey);
@@ -106,15 +113,12 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <?php // ── 추천: 같은 카테고리 ── ?>
 <?php if (!empty($sameTop)): ?>
 <div class="other-articles">
-  <h3 class="ko">관련 주제의 글</h3>
-  <h3 class="en">Related Topics</h3>
-  <h3 class="ja">関連トピックの記事</h3>
-  <h3 class="es">Temas Relacionados</h3>
-  <h3 class="de">Verwandte Themen</h3>
-  <h3 class="fr">Sujets connexes</h3>
-  <h3 class="pt">Tópicos relacionados</h3>
-  <h3 class="tr">İlgili konular</h3>
-  <h3 class="vi">Chủ đề liên quan</h3>
+  <?php
+  $__relHead = $__hasCombined
+    ? ['ko'=>'관련 주제의 글','en'=>'Related Topics','ja'=>'関連トピックの記事','es'=>'Temas Relacionados','de'=>'Verwandte Themen','fr'=>'Sujets connexes','pt'=>'Tópicos relacionados','tr'=>'İlgili konular','vi'=>'Chủ đề liên quan']
+    : ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
+  foreach (array_keys(SUPPORTED_LANGS) as $__rl) echo '  <h3 class="'.$__rl.'">'.h($__relHead[$__rl] ?? $__relHead['en']).'</h3>'."\n";
+  ?>
   <div class="other-grid">
     <?php foreach ($sameTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>
