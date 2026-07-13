@@ -141,24 +141,26 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 
 
   <div class="cta">
-    <h3 class="ko">지금 실시간 지표로 직접 확인하기</h3>
-    <h3 class="en">Check This Indicator Live Now</h3>
-    <h3 class="ja">今すぐリアルタイム指標で確認する</h3>
-    <h3 class="es">Consulta Este Indicador en Vivo Ahora</h3>
-    <h3 class="de">Diesen Indikator jetzt live prüfen</h3>
-    <h3 class="fr">Vérifiez cet indicateur en direct</h3>
-    <h3 class="pt">Confira este indicador ao vivo agora</h3>
-    <h3 class="tr">Bu göstergeyi şimdi canlı kontrol et</h3>
-    <h3 class="vi">Kiểm tra chỉ báo này trực tiếp ngay</h3>
-    <p class="ko">BTCtiming.com에서 이 글의 지표를 포함한 13개 온체인 지표를 실시간으로 확인하고, 종합 매수·매도 점수를 무료로 받아보세요.</p>
-    <p class="en">See this indicator alongside 12 other on-chain indicators in real time, combined into a single 0–10 buy/sell score — free.</p>
-    <p class="ja">BTCtiming.comでこの指標を含む13個のオンチェーン指標をリアルタイムで確認し、総合買い・売りスコアを無料で受け取りましょう。</p>
-    <p class="es">Consulta este indicador junto a otros 12 indicadores on-chain en tiempo real, combinados en una sola puntuación de compra/venta de 0-10 — gratis.</p>
-    <p class="de">Sieh dir diesen Indikator zusammen mit 12 weiteren On-Chain-Indikatoren in Echtzeit an, kombiniert zu einem einzigen Kauf-/Verkaufs-Score von 0-10 — kostenlos.</p>
-    <p class="fr">Consultez cet indicateur avec 12 autres indicateurs on-chain en temps réel, combinés en un seul score d'achat/vente de 0 à 10 — gratuit.</p>
-    <p class="pt">Veja este indicador junto a outros 12 indicadores on-chain em tempo real, combinados em uma única pontuação de compra/venda de 0-10 — grátis.</p>
-    <p class="tr">Bu göstergeyi 12 diğer zincir üstü göstergeyle gerçek zamanlı görün, tek bir 0-10 alım/satım puanında birleştirilmiş — ücretsiz.</p>
-    <p class="vi">Xem chỉ báo này cùng 12 chỉ báo on-chain khác theo thời gian thực, kết hợp thành một điểm mua/bán 0-10 duy nhất — miễn phí.</p>
+      <div class="cta-tx">
+      <h3 class="ko">실시간 타이밍 점수 대시보드</h3>
+      <h3 class="en">The live timing score dashboard</h3>
+      <h3 class="ja">リアルタイム・タイミングスコア ダッシュボード</h3>
+      <h3 class="es">Panel de puntuación de timing en vivo</h3>
+      <h3 class="de">Das Live-Timing-Score-Dashboard</h3>
+      <h3 class="fr">Le tableau de bord des scores de timing en direct</h3>
+      <h3 class="pt">O painel de pontuação de timing ao vivo</h3>
+      <h3 class="tr">Canlı zamanlama puanı panosu</h3>
+      <h3 class="vi">Bảng điểm thời điểm trực tiếp</h3>
+      <p class="ko">온체인·기술 지표를 종합해 비트코인과 알트코인의 매수·매도 타이밍을 0~10점으로 산출합니다. 지금 시장이 어느 국면에 있는지 대시보드에서 볼 수 있습니다.</p>
+      <p class="en">It combines on-chain and technical indicators into a 0–10 buy/sell timing score for Bitcoin and major altcoins, so you can see which phase the market is in right now.</p>
+      <p class="ja">オンチェーン・テクニカル指標を統合し、ビットコインと主要アルトコインの売買タイミングを0〜10点で算出します。今の市場がどの局面かをダッシュボードで確認できます。</p>
+      <p class="es">Combina indicadores on-chain y técnicos en una puntuación de timing de compra/venta de 0 a 10 para Bitcoin y las principales altcoins, para ver en qué fase está el mercado ahora.</p>
+      <p class="de">Es fasst On-Chain- und technische Indikatoren zu einem Kauf-/Verkaufs-Timing-Score von 0 bis 10 für Bitcoin und große Altcoins zusammen, damit du siehst, in welcher Phase sich der Markt gerade befindet.</p>
+      <p class="fr">Il combine des indicateurs on-chain et techniques en un score de timing d'achat/vente de 0 à 10 pour le Bitcoin et les principales altcoins, pour voir dans quelle phase se trouve le marché.</p>
+      <p class="pt">Combina indicadores on-chain e técnicos em uma pontuação de timing de compra/venda de 0 a 10 para Bitcoin e as principais altcoins, para ver em que fase o mercado está agora.</p>
+      <p class="tr">Zincir üstü ve teknik göstergeleri Bitcoin ve başlıca altcoinler için 0–10 alım/satım zamanlama puanında birleştirir; piyasanın şu an hangi aşamada olduğunu görebilirsiniz.</p>
+      <p class="vi">Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.</p>
+      </div>
     <?php
     // 2026-07 수정: <html lang="...">이 $lang(이 글에서 실제 렌더링된 언어, 번역 없으면 en 폴백) 기준이라
     // 어떤 텍스트 변형이 보일지도 $lang을 따름. 하지만 href는 $requestedLang(사용자가 진짜 요청한 언어)을
