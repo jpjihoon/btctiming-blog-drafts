@@ -1653,6 +1653,10 @@ function saveHistory(score) {
     try { localStorage.setItem(key,JSON.stringify(h)); } catch(e){}
     // 서버(Firebase)에도 비동기 저장 — 모든 사용자가 공유하는 히스토리
     saveHistoryToServer(currentCoin, modeKey, now, score);
+    // [실시간 갱신] 그래프가 읽는 fullHistoryCache에도 즉시 반영 → 열어둔 채로도 새 점이 그려짐
+    if(Array.isArray(fullHistoryCache[key])) {
+      fullHistoryCache[key] = [...fullHistoryCache[key], {t:now, s:parseFloat(score.toFixed(2))}].slice(-12000);
+    }
   }
   scoreHistory=h;
   currentScore = score;
@@ -2651,6 +2655,14 @@ setInterval(() => {
     drawHistory();
   }
 }, 60*1000);
+
+// 점수 히스토리를 3분마다 서버와 재동기화 — 열어둔 채로도 크론/타 사용자 점까지 반영
+setInterval(() => {
+  if(document.hidden) return; // 백그라운드 탭에서는 서버 조회 생략
+  const __mk = currentMode === 'buy' ? 'long' : 'short';
+  serverHistoryLoaded[`${currentCoin}_${__mk}`] = false; // 다음 drawHistory에서 서버 재조회+병합
+  drawHistory();
+}, 3*60*1000);
 
 // Redraw history on resize
 window.addEventListener('resize', drawHistory);
