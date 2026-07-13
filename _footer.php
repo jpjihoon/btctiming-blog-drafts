@@ -565,9 +565,21 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
   var main=document.querySelector('.wrap-main'); if(!main||!window.__combReads) return;
   var data=window.__combReads; if(!data.items||!data.items.length) return;
   var heads=data.heads, langs=Object.keys(heads);
-  var hv=langs.map(function(k){return (heads[k]||'').trim();});
-  var h2s=[].slice.call(main.querySelectorAll('h2'));
-  for(var i=0;i<h2s.length;i++){ if(hv.indexOf((h2s[i].textContent||'').trim())!==-1) return; } // 저자본 있으면 스킵
+  var endEl=main.querySelector('.share-bottom, .blog-ad, .prevnext, .other-articles, .cta'); // 본문 끝 경계
+  function beforeEnd(el){ return !endEl || !!(el.compareDocumentPosition(endEl) & Node.DOCUMENT_POSITION_FOLLOWING); }
+
+  // 1) 기존 저자 추천글 섹션 제거 — 제목 문구가 글마다 달라 '구조'로 감지
+  //    (본문 끝 이전에서 /blog/ 링크 2개 이상 든 목록 블록 = h2 헤딩들 + ul들)
+  var blogUls=[].slice.call(main.querySelectorAll('ul')).filter(function(u){ return beforeEnd(u) && u.querySelectorAll('a[href*="/blog/"]').length>=2; });
+  if(blogUls.length){
+    var last=blogUls[blogUls.length-1], start=last, pv=last.previousElementSibling;
+    while(pv && (pv.tagName==='UL' || pv.tagName==='H2')){ start=pv; pv=pv.previousElementSibling; }
+    var e=start, rm=[];
+    while(e){ rm.push(e); if(e===last) break; e=e.nextElementSibling; }
+    rm.forEach(function(x){ x.parentNode && x.parentNode.removeChild(x); });
+  }
+
+  // 2) 공통 '함께 보면 좋은 글' 하나만 생성 (항상)
   var frag=document.createDocumentFragment();
   langs.forEach(function(lg){ var h=document.createElement('h2'); h.className=lg; h.textContent=heads[lg]||heads.en; frag.appendChild(h); });
   langs.forEach(function(lg){ var ul=document.createElement('ul'); ul.className=lg;
@@ -577,16 +589,17 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
       li.appendChild(st); li.appendChild(document.createTextNode(' '+((it.d&&(it.d[lg]||it.d.en))||'')));
       ul.appendChild(li); });
     frag.appendChild(ul); });
-  var endEl=main.querySelector('.share-bottom, .blog-ad, .prevnext, .other-articles, .cta'); // 본문 끝(이전글/공유/관련글/CTA) 경계
+
+  // 3) 본문 끝(출처 앞)에 삽입
   var mk=['출처:','Sources:','出典:','Fuentes:','Quellen:','Fontes:','Kaynaklar:','Nguồn:'];
   var ps=[].slice.call(main.querySelectorAll('p')), srcP=null;
   for(var j=0;j<ps.length;j++){
-    if(endEl && !(ps[j].compareDocumentPosition(endEl) & Node.DOCUMENT_POSITION_FOLLOWING)) break; // 본문 끝 이후 문단은 무시
+    if(endEl && !(ps[j].compareDocumentPosition(endEl) & Node.DOCUMENT_POSITION_FOLLOWING)) break;
     var t=(ps[j].textContent||'').trim();
     if(mk.some(function(m){return t.indexOf(m)===0;})){ srcP=ps[j]; break; }
   }
-  if(srcP&&srcP.parentNode) srcP.parentNode.insertBefore(frag, srcP);        // 출처 있으면 그 앞
-  else if(endEl&&endEl.parentNode) endEl.parentNode.insertBefore(frag, endEl); // 없으면 본문 끝(관련글/이전글 앞)
+  if(srcP&&srcP.parentNode) srcP.parentNode.insertBefore(frag, srcP);
+  else if(endEl&&endEl.parentNode) endEl.parentNode.insertBefore(frag, endEl);
   else main.appendChild(frag);
 })();
 </script>
