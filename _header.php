@@ -353,7 +353,8 @@ echo implode(",\n", $__rules) . "{display:none}\n";
 <style>
 /* ── 뷰페이지 개선: 읽기 진행바 · 목차 · 차트 figure ── */
 #btReadBar{position:fixed;top:0;left:0;height:3px;width:0;background:#f7931a;z-index:9999;transition:width .1s linear}
-.bt-toc{margin:16px 0 22px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.03)}
+.bt-toc{margin:16px 0 22px;border:1px solid rgba(255,255,255,.1);border-radius:10px;background:#141418;position:sticky;top:56px;z-index:100}
+.bt-toc:not([open]){box-shadow:0 6px 16px rgba(0,0,0,.35)}
 .bt-toc summary{list-style:none;cursor:pointer;padding:11px 14px;font-size:13px;font-weight:600;color:var(--t1,#e5e5ea);display:flex;align-items:center;gap:8px;user-select:none}
 .bt-toc summary::-webkit-details-marker{display:none}
 .bt-toc-ic{color:#f7931a;font-size:16px;line-height:1;transition:transform .15s}
