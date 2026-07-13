@@ -547,6 +547,7 @@ function bcsPick(id){
 /* ── 뷰페이지 개선: 목차 · 헤딩 앵커 · 스크롤 스파이 · 읽기 진행바 (현재 언어로 보이는 헤딩만) ── */
 (function(){
   var main=document.querySelector('.wrap-main'); if(!main) return;
+  [].slice.call(main.querySelectorAll('h1 br')).forEach(function(b){ if(b.parentNode) b.parentNode.replaceChild(document.createTextNode(' '), b); }); /* 제목 강제 줄바꿈 제거 → 폭 따라 자연 흐름 */
   var bar=document.getElementById('btReadBar');
   function prog(){ if(!bar) return; var h=document.documentElement, st=h.scrollTop||document.body.scrollTop, sh=(h.scrollHeight-h.clientHeight)||1; bar.style.width=Math.min(100,Math.max(0, st/sh*100))+'%'; }
   window.addEventListener('scroll',prog,{passive:true}); window.addEventListener('resize',prog); prog();

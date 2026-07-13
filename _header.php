@@ -218,7 +218,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
   .wrap{padding:32px 14px 64px}
   /* 모바일: SVG를 최소 520px로 유지(글씨 가독성 확보), 넘치면 래퍼가 가로 스크롤 */
   .svg-scroll svg{min-width:520px;width:520px}
-  h1{font-size:1.6rem;line-height:1.3}
+  h1{font-size:1.45rem;line-height:1.3}
   h2{font-size:1.2rem;margin:32px 0 10px}
   h3{font-size:1rem}
   .box{padding:12px 14px}
@@ -227,9 +227,9 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
 }
 @media(max-width:400px){
   .wrap{padding:28px 10px 56px}
-  h1{font-size:1.45rem}
+  h1{font-size:1.3rem;line-height:1.32}
 }
-h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#f2f2f5}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:12px;color:#f2f2f5;word-break:keep-all;overflow-wrap:break-word;text-wrap:balance}
 .meta{font-size:13px;color:var(--t2);margin-bottom:20px;display:flex;gap:16px;flex-wrap:wrap}
 /* SNS 공유 버튼 */
 .share-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 32px}
