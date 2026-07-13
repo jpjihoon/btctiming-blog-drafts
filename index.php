@@ -530,6 +530,8 @@ function applyRelTimes(lang){
   });
 }
 function setLang(lang, doSave) {
+  // 사용자가 언어를 직접 바꿀 때만 스크롤 유지용으로 현재 위치 저장(진입/복원 시엔 브라우저에 맡김)
+  var __langScrollY = doSave ? (window.scrollY || window.pageYOffset || 0) : null;
   const root = document.getElementById('html-root');
   root.className = lang;
   root.lang = lang;
@@ -572,6 +574,12 @@ function setLang(lang, doSave) {
     if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
     history.replaceState(null, '', url);
   } catch(e){}
+  // .ko/.{lang}-show 표시 전환으로 뷰포트 위쪽 높이가 바뀌어 스크롤이 밀리는 것 방지.
+  // overflow-anchor:none이라 브라우저 자동 앵커링이 없으므로 원래 위치로 명시 복원.
+  if(doSave && __langScrollY !== null){
+    window.scrollTo(0, __langScrollY);
+    requestAnimationFrame(function(){ window.scrollTo(0, __langScrollY); });
+  }
 }
 function toggleLangMenu(e){
   if(e) e.stopPropagation();
