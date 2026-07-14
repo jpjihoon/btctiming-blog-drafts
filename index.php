@@ -46,8 +46,10 @@ function renderCardHtml(array $a, int $idx, string $blLang): string {
     $readFmt = ['ko'=>fn($r)=>$r===''?'':"📖 {$r}분 읽기",'en'=>fn($r)=>$r===''?'':"📖 {$r} min read",'ja'=>fn($r)=>$r===''?'':"📖 {$r}分で読める",'es'=>fn($r)=>$r===''?'':"📖 {$r} min de lectura",'de'=>fn($r)=>$r===''?'':"📖 {$r} Min. Lesezeit",'fr'=>fn($r)=>$r===''?'':"📖 {$r} min de lecture",'pt'=>fn($r)=>$r===''?'':"📖 {$r} min de leitura",'tr'=>fn($r)=>$r===''?'':"📖 {$r} dk okuma",'vi'=>fn($r)=>$r===''?'':"📖 {$r} phút đọc"];
     $clsOf = fn($l) => ($l === 'ko') ? 'ko' : ($l . '-show');
     $styOf = fn($l) => ''; // 표시는 CSS(!important)가 제어 → AJAX 카드도 언어전환 정상
+    $__cardSlug = preg_replace('/\.php$/', '', $a['file']);
+    $__cardHref = ($blLang === 'ko') ? ('/blog/' . $__cardSlug) : ('/' . $blLang . '/blog/' . $__cardSlug); // 언어별 clean
     ob_start(); ?>
-    <a href="/blog/<?= h($a['file']) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $idx ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
+    <a href="<?= h($__cardHref) ?>" class="article-card" data-cat="<?= h($cat) ?>" data-idx="<?= $idx ?>" style="--accent:<?= h($color) ?>;--cat-color:<?= h($catColor) ?>">
       <div class="card-icon"><?= $icon ?></div>
       <div class="card-body">
         <div class="card-tagrow">
