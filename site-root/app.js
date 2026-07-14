@@ -736,7 +736,7 @@ async function loadTicker() {
   const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
   if(rate != null) {
     const el = document.getElementById('tkUsdKrw');
-    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='JPY'||cur==='KRW') ? 1 : 2});
+    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='VND') ? 0 : ((cur==='JPY'||cur==='KRW') ? 1 : 2)});
   }
 
   // USDT/{통화}: 서버가 내려준 실제 테더 시세(usdt_prices) 사용. 원화는 업비트 정밀값 우선.
@@ -749,7 +749,7 @@ async function loadTicker() {
   const elU = document.getElementById('tkUsdtKrw');
   const chgEl = document.getElementById('tkUsdtKrwChg');
   if(price != null && elU){
-    const digits = (cur==='JPY') ? 0 : (cur==='KRW' ? 1 : 4);
+    const digits = (cur==='JPY'||cur==='VND') ? 0 : (cur==='KRW' ? 1 : 4);
     elU.textContent = price.toLocaleString(dLoc, {maximumFractionDigits: digits, minimumFractionDigits: (cur==='USD'||cur==='EUR')?4:0});
   }
   if(chgEl){
