@@ -209,7 +209,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
 .csn{white-space:nowrap;padding:10px 12px;font-size:13px;font-weight:600;color:var(--t2,#8b8b93);border-bottom:2px solid transparent;text-decoration:none;display:inline-flex;align-items:center;transition:color .15s}
 .csn:hover{color:var(--t1,#e5e5ea)}
 .csn.on{color:var(--t1,#e5e5ea);border-bottom-color:var(--csn-c,#f7931a)}
-.csn-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--csn-c,#f7931a);margin-right:6px;flex-shrink:0}
+@media(max-width:600px){.csn-w{gap:0;padding:0 10px}.csn{padding:9px 9px;font-size:12.5px}}
 /* ── 하단 모듈: 더 보기 / 많이 본 글 ── */
 .mod-block{margin-top:34px}
 .mod-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:9px;margin-bottom:14px}
@@ -475,7 +475,7 @@ $__csnAll   = ['ko'=>'전체','en'=>'All','ja'=>'すべて','es'=>'Todo','de'=>'
 <div class="cat-subnav"><div class="csn-w">
   <a class="csn" href="/blog/<?= $__csnAllQ ?>"><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__csnAll[$__l] ?? $__csnAll['en']).'</span>'; ?></a>
 <?php foreach (CATEGORY_META as $__ck => $__cm): if (!isset($__cm['ko'])) continue; ?>
-  <a class="csn<?= $catKey === $__ck ? ' on' : '' ?>" style="--csn-c:<?= h($__cm['color'] ?? '#f7931a') ?>" href="/blog/?cat=<?= h($__ck) ?><?= $__csnLangQ ?>"><span class="csn-dot"></span><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__cm[$__l] ?? $__cm['en']).'</span>'; ?></a>
+  <a class="csn<?= $catKey === $__ck ? ' on' : '' ?>" style="--csn-c:<?= h($__cm['color'] ?? '#f7931a') ?>" href="/blog/?cat=<?= h($__ck) ?><?= $__csnLangQ ?>"><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__cm[$__l] ?? $__cm['en']).'</span>'; ?></a>
 <?php endforeach; ?>
 </div></div>
 <div class="wrap">
