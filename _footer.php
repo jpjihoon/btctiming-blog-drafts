@@ -296,11 +296,7 @@ function L(l){
   // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
   if(window.BTLang){BTLang.save(l);}
   else{try{localStorage.setItem('blogLang',l);document.cookie='blogLang='+encodeURIComponent(l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
-  try{
-    const url = new URL(location.href);
-    if(l==='ko') url.searchParams.delete('lang'); else url.searchParams.set('lang',l);
-    history.replaceState(null,'',url);
-  }catch(e){}
+  try{ if(window.BTLang && BTLang.i18nHref) history.replaceState(null,'',BTLang.i18nHref(location.pathname+location.search+location.hash, l)); }catch(e){}  // 경로형 URL(?lang= 안 붙임)
 }
 function toggleLangMenu(e){
   if(e) e.stopPropagation();
