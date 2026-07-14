@@ -96,7 +96,7 @@ foreach ($articles as $slug => $M) {
     if ($title === '') continue;
 
     // 5) 언어별 URL — ko는 접미사 없음, 그 외 ?lang=xx (langSuffix)
-    $loc = "{$baseUrl}/blog/{$slug}.php" . langSuffix($LANG);
+    $loc = i18nUrl("/blog/{$slug}.php", $LANG);  // 경로형 clean (ko=/blog/slug, en=/en/blog/slug)
 
     // 6) 발행일 W3C 형식 (KST 명시 — 서버 타임존 무관하게 일관)
     $dt = new DateTime("@{$pubTs}");

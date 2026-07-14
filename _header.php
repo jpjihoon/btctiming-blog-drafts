@@ -434,14 +434,14 @@ echo implode(",\n", $__rules) . "{display:none}\n";
 }catch(e){}})();
 </script>
 <nav><div class="nav-w">
-  <a href="/<?= h(langSuffix($lang)) ?>" class="logo"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
+  <a href="<?= h(i18nPath('/', $lang)) ?>" class="logo"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <?php
   // "블로그 목록으로" 링크: 언어별 라벨 + 영어 폴백. ko는 접미사 없음.
   $__backLabel = ['ko'=>'← 블로그 목록','en'=>'← All Posts','ja'=>'← 記事一覧','es'=>'← Todas las Publicaciones','de'=>'← Alle Beiträge','fr'=>'← Tous les articles','pt'=>'← Todos os posts','tr'=>'← Tüm Yazılar','vi'=>'← Tất cả bài viết'];
   foreach (array_keys(SUPPORTED_LANGS) as $__bl):
     // ko·en은 항상, 그 외는 이 글에 번역 있을 때만 (드롭다운 노출 언어와 일치)
     if ($__bl !== 'ko' && $__bl !== 'en' && !isset($M["title_{$__bl}"])) continue;
-    $__blHref = ($__bl === 'ko') ? '/blog/' : ('/blog/?lang=' . $__bl);
+    $__blHref = i18nPath('/blog/', $__bl);
   ?>
   <span class="back <?= $__bl ?>"><a href="<?= h($__blHref) ?>" style="color:var(--t2)"><?= h($__backLabel[$__bl] ?? $__backLabel['en']) ?></a></span>
   <?php endforeach; ?>
@@ -472,11 +472,11 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     $__bcBlog = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog'];
     $__langKeys = array_keys(SUPPORTED_LANGS);
     // 홈
-    echo '<a href="/' . h($bcSuffix) . '" id="bcHomeLink">';
+    echo '<a href="' . h(i18nPath('/', $requestedLang)) . '" id="bcHomeLink">';
     foreach ($__langKeys as $__l) echo '<span class="' . $__l . '">' . h($__bcHome[$__l] ?? $__bcHome['en']) . '</span>';
     echo '</a><span class="bc-sep">›</span>';
     // 블로그
-    echo '<a href="/blog/' . h($bcSuffix) . '" id="bcBlogLink">';
+    echo '<a href="' . h(i18nPath('/blog/', $requestedLang)) . '" id="bcBlogLink">';
     foreach ($__langKeys as $__l) echo '<span class="' . $__l . '">' . h($__bcBlog[$__l] ?? $__bcBlog['en']) . '</span>';
     echo '</a><span class="bc-sep">›</span>';
     // 카테고리 라벨 (CATEGORY_META 기반 + 영어 폴백)
@@ -497,8 +497,8 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     $__bcLang = $lang;
     $__bcSfx  = ($__bcLang !== 'ko') ? ('?lang=' . $__bcLang) : '';
     $__bcLd = ['@context'=>'https://schema.org','@type'=>'BreadcrumbList','itemListElement'=>[
-      ['@type'=>'ListItem','position'=>1,'name'=>($__bcHomeName[$__bcLang] ?? $__bcHomeName['en']),'item'=>('https://btctiming.com/'.$__bcSfx)],
-      ['@type'=>'ListItem','position'=>2,'name'=>($__bcBlogName[$__bcLang] ?? 'Blog'),'item'=>('https://btctiming.com/blog/'.$__bcSfx)],
+      ['@type'=>'ListItem','position'=>1,'name'=>($__bcHomeName[$__bcLang] ?? $__bcHomeName['en']),'item'=>i18nUrl('/', $__bcLang)],
+      ['@type'=>'ListItem','position'=>2,'name'=>($__bcBlogName[$__bcLang] ?? 'Blog'),'item'=>i18nUrl('/blog/', $__bcLang)],
       ['@type'=>'ListItem','position'=>3,'name'=>($catLabel[$__bcLang] ?? $catLabel['en']),'item'=>('https://btctiming.com'.$bcCatHref)],
       ['@type'=>'ListItem','position'=>4,'name'=>($M['title'.$suf] ?? $M['title_en']),'item'=>$canonical],
     ]];

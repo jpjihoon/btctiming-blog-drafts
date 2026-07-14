@@ -405,14 +405,14 @@ foreach ($__langKeys as $__l) {
 <nav><div class="nav-w">
   <a href="/" class="logo" id="logoLink"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <span class="back ko">← <a href="/" style="color:var(--t2)">실시간 분석으로 돌아가기</a></span>
-  <span class="back en-show">← <a href="/?lang=en" style="color:var(--t2)">Back to Live Analysis</a></span>
-  <span class="back ja-show">← <a href="/?lang=ja" style="color:var(--t2)">リアルタイム分析に戻る</a></span>
-  <span class="back es-show">← <a href="/?lang=es" style="color:var(--t2)">Volver al Análisis en Vivo</a></span>
-  <span class="back de-show">← <a href="/?lang=de" style="color:var(--t2)">Zurück zur Live-Analyse</a></span>
-  <span class="back fr-show">← <a href="/?lang=fr" style="color:var(--t2)">Retour à l'analyse en direct</a></span>
-  <span class="back pt-show">← <a href="/?lang=pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
-  <span class="back tr-show">← <a href="/?lang=tr" style="color:var(--t2)">Canlı analize dön</a></span>
-  <span class="back vi-show">← <a href="/?lang=vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
+  <span class="back en-show">← <a href="/en" style="color:var(--t2)">Back to Live Analysis</a></span>
+  <span class="back ja-show">← <a href="/ja" style="color:var(--t2)">リアルタイム分析に戻る</a></span>
+  <span class="back es-show">← <a href="/es" style="color:var(--t2)">Volver al Análisis en Vivo</a></span>
+  <span class="back de-show">← <a href="/de" style="color:var(--t2)">Zurück zur Live-Analyse</a></span>
+  <span class="back fr-show">← <a href="/fr" style="color:var(--t2)">Retour à l'analyse en direct</a></span>
+  <span class="back pt-show">← <a href="/pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
+  <span class="back tr-show">← <a href="/tr" style="color:var(--t2)">Canlı analize dön</a></span>
+  <span class="back vi-show">← <a href="/vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
       <span id="langTriggerLabel"><?= h(strtoupper($__blLang)) ?></span><span class="lang-caret">▾</span>
@@ -446,7 +446,7 @@ foreach ($__langKeys as $__l) {
 
 <div class="wrap">
   <aside class="blog-side">
-    <a href="/exchanges.php<?= h(langSuffix($__blLang)) ?>" class="exch-banner">
+    <a href="<?= h(i18nPath('/exchanges.php', $__blLang)) ?>" class="exch-banner">
       <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
       <span class="exch-banner-tx">
         <b><span class="ko">어떤 거래소로 시작할까?</span><span class="en-show">Which exchange to start with?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Qué exchange elegir?</span><span class="de-show">Welche Börse?</span><span class="fr-show">Quelle plateforme ?</span><span class="pt-show">Qual corretora?</span><span class="tr-show">Hangi borsa?</span><span class="vi-show">Sàn nào để bắt đầu?</span></b>
@@ -534,14 +534,14 @@ endif; ?>
     <p class="vi-show">Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.</p>
     </div>
     <a href="/" class="ko">실시간 분석 보러가기 →</a>
-    <a href="/?lang=en" class="en-show">Go to Live Analysis →</a>
-    <a href="/?lang=ja" class="ja-show">リアルタイム分析を見る →</a>
-    <a href="/?lang=es" class="es-show">Ver Análisis en Vivo →</a>
-    <a href="/?lang=de" class="de-show">Live-Analyse ansehen →</a>
-    <a href="/?lang=fr" class="fr-show">Voir l'analyse en direct →</a>
-    <a href="/?lang=pt" class="pt-show">Ver análise ao vivo →</a>
-    <a href="/?lang=tr" class="tr-show">Canlı analizi gör →</a>
-    <a href="/?lang=vi" class="vi-show">Xem phân tích trực tiếp →</a>
+    <a href="/en" class="en-show">Go to Live Analysis →</a>
+    <a href="/ja" class="ja-show">リアルタイム分析を見る →</a>
+    <a href="/es" class="es-show">Ver Análisis en Vivo →</a>
+    <a href="/de" class="de-show">Live-Analyse ansehen →</a>
+    <a href="/fr" class="fr-show">Voir l'analyse en direct →</a>
+    <a href="/pt" class="pt-show">Ver análise ao vivo →</a>
+    <a href="/tr" class="tr-show">Canlı analizi gör →</a>
+    <a href="/vi" class="vi-show">Xem phân tích trực tiếp →</a>
   </div>
 </div>
 <?php require __DIR__ . '/../_shared_footer.php'; ?>

@@ -613,7 +613,7 @@ $__combSource = array_diff_key($otherPool, $sameTop);
 uasort($__combSource, function($a, $b) use ($relScore){ $d = $relScore($b) - $relScore($a); return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? ''); });
 $__combItems = [];
 foreach (array_slice($__combSource, 0, 4, true) as $__rSlug => $__rA) {
-    $__it = ['url' => '/blog/'.$__rSlug.'.php'.$blogSuffix, 't' => [], 'd' => []];
+    $__it = ['url' => i18nUrl('/blog/'.$__rSlug.'.php', $requestedLang), 't' => [], 'd' => []];
     foreach (array_keys(SUPPORTED_LANGS) as $__L) {
         $__it['t'][$__L] = $__rA["title_{$__L}"] ?? ($__rA['title_en'] ?? '');
         $__dd = trim((string)($__rA["desc_{$__L}"] ?? ($__rA['desc_en'] ?? '')));

@@ -83,7 +83,7 @@ $rfc822 = function(?string $raw): string {
 };
 
 $selfUrl = $baseUrl . '/blog/rss.php' . ($lang === 'ko' ? '' : ('?lang=' . $lang));
-$blogUrl = $baseUrl . '/blog/' . $suffix;
+$blogUrl = i18nUrl('/blog/', $lang);
 
 // 가장 최근 글 날짜를 채널 lastBuildDate로
 $latestTs = time();
@@ -105,7 +105,7 @@ echo '    <atom:link href="' . htmlspecialchars($selfUrl, ENT_XML1) . '" rel="se
 foreach ($articles as $a) {
     $slug = basename((string)($a['file'] ?? ''), '.php');
     if ($slug === '') continue;
-    $url = $baseUrl . '/blog/' . $slug . '.php' . $suffix;
+    $url = i18nUrl('/blog/' . $slug . '.php', $lang);  // 경로형 clean
     $title = $pick($a, 'title');
     $desc  = $pick($a, 'desc');
     $catKey = $a['category'] ?? '';
