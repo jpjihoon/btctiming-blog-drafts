@@ -683,5 +683,30 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
   mo.observe(document.documentElement,{attributes:true,attributeFilter:['class','lang']});
 })();
 </script>
+<script>
+/* ── 새로고침 시 스크롤 점프 방지: 리로드일 때만 수동 복원(뒤로/앞으로가기는 브라우저 bfcache에 맡김) ── */
+(function(){
+  try{
+    if(!('scrollRestoration' in history)) return;
+    var KEY='bt_vs_'+location.pathname;
+    var nav=(window.performance&&performance.getEntriesByType&&performance.getEntriesByType('navigation')[0])||null;
+    var isReload = nav ? (nav.type==='reload') : (performance&&performance.navigation&&performance.navigation.type===1);
+    var saveNow=function(){ try{ sessionStorage.setItem(KEY, String(window.scrollY||window.pageYOffset||0)); }catch(e){} };
+    if(isReload){
+      history.scrollRestoration='manual';
+      var y=0; try{ y=parseInt(sessionStorage.getItem(KEY)||'0',10)||0; }catch(e){}
+      if(y>0){
+        // 이 시점(본문·함께·목차 DOM 확정 후)에서 즉시 복원 → 첫 페인트부터 제 위치
+        window.scrollTo(0,y);
+        // 이미지·차트 로드로 높이가 늘어난 경우 대비해 load 후 한 번 더
+        window.addEventListener('load',function(){ window.scrollTo(0,y); });
+      }
+    }
+    var t; window.addEventListener('scroll',function(){ clearTimeout(t); t=setTimeout(saveNow,120); },{passive:true});
+    window.addEventListener('pagehide',saveNow);
+    window.addEventListener('beforeunload',saveNow);
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
