@@ -38,3 +38,7 @@ RewriteRule ^sitemap\.xml$ /sitemap.php [L]
 # 예: /blog/mvrv-z-score.html → /blog/mvrv-z-score.php
 # 새 글이 추가돼도 이 규칙 하나로 전부 자동 처리됩니다 (수정 불필요)
 RewriteRule ^blog/([a-z0-9-]+)\.html$ /blog/$1.php [R=301,L]
+
+# 블로그 다국어 경로형 URL: /blog/{언어}/{슬러그} → 내부적으로 /blog/{슬러그}.php?lang={언어}
+# (URL은 경로형으로 보이되 실제 렌더는 기존 .php가 처리 = 파일 구조 불변, ?lang= 도 그대로 동작)
+RewriteRule ^blog/(en|ja|es|de|fr|pt|tr|vi)/([a-z0-9-]+)/?$ /blog/$2.php?lang=$1 [L,QSA]
