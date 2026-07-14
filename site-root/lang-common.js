@@ -1,3 +1,21 @@
+// ── 과거 사이트 전체(scope:/)로 잘못 등록된 서비스 워커 정리 (전 페이지 공통) ──
+// 대시보드가 예전에 SW를 사이트 전체에 등록해, 방문자 브라우저가 옛 목록/글을 캐시해 보여주는 문제.
+// 모든 페이지에서 이 코드가 돌아 잘못된 SW를 해제 + 옛 캐시 삭제한다(위젯 scope:/widget.php는 유지).
+(function(){
+  try {
+    if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+      navigator.serviceWorker.getRegistrations().then(function(regs){
+        regs.forEach(function(r){
+          try { if (r.scope && new URL(r.scope).pathname === '/') r.unregister(); } catch(e){}
+        });
+      }).catch(function(){});
+    }
+    if (window.caches && caches.keys) {
+      caches.keys().then(function(keys){ keys.forEach(function(k){ try{caches.delete(k);}catch(e){} }); }).catch(function(){});
+    }
+  } catch(e){}
+})();
+
 /*
  * BTCtiming 공통 언어 유틸 — 사이트 전역 단일 소스.
  * 대시보드·용어집·블로그·안내 페이지가 모두 이 파일을 로드해서 같은 규칙을 쓴다.
