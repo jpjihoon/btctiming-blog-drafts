@@ -1029,7 +1029,7 @@ function makeCard(d,mode='buy'){
   const guideSlug=GUIDE_LINK_MAP[d.key];
   const glossarySlug=GLOSSARY_LINK_MAP[d.key];
   const blogSuffixVal = blogSuffix(currentLang);
-  const guideBtn=guideSlug?`<a href="/blog/${guideSlug}.php${blogSuffixVal}"
+  const guideBtn=guideSlug?`<a href="${langHref('/blog/'+guideSlug+'.php', currentLang)}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
@@ -2539,6 +2539,7 @@ connectWS();
 // 저장된/URL 언어 설정을 드롭다운과 html 태그에도 반영
 /** 블로그/페이지 URL 언어 접미사 생성. 'ko'는 접미사 없음(fallback 언어). SUPPORTED_LANGS 기반이라 새 언어 추가시 코드 수정 불필요. */
 function blogSuffix(lang) { return lang === 'ko' ? '' : '?lang=' + lang; }
+function langHref(koPath, lang){ return (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(koPath, lang) : koPath; }  // 내부링크 경로형 clean
 /** feed.php가 내려주는 title_xx/category_xx 등 언어별 필드에서 현재 언어 값을 꺼내되, 없으면 영어→한국어 순으로 폴백. */
 function pickLangField(obj, prefix, lang) { return obj[prefix + '_' + lang] || obj[prefix + '_en'] || obj[prefix + '_ko'] || ''; }
 /** 언어에 의존하는 위젯/링크/정적 라벨을 전부 다시 그림.
@@ -2749,13 +2750,13 @@ function updateLangUI(lang) {
   });
   document.documentElement.lang = lang;
   const navBlog = document.getElementById('navBlogLink');
-  if(navBlog) navBlog.href = '/blog/' + blogSuffix(lang);
+  if(navBlog) navBlog.href = langHref('/blog/', lang);
   const navGlossary = document.getElementById('navGlossaryLink');
-  if(navGlossary) navGlossary.href = '/glossary' + blogSuffix(lang);
+  if(navGlossary) navGlossary.href = langHref('/glossary', lang);
   const privacyLink = document.getElementById('footerPrivacyLink');
-  if(privacyLink) privacyLink.href = '/privacy' + blogSuffix(lang);
+  if(privacyLink) privacyLink.href = langHref('/privacy', lang);
   const termsLink = document.getElementById('footerTermsLink');
-  if(termsLink) termsLink.href = '/terms' + blogSuffix(lang);
+  if(termsLink) termsLink.href = langHref('/terms', lang);
 }
 
 function toggleLangMenu(e) {
@@ -2800,11 +2801,11 @@ function renderBlogTicker() {
   if(label) label.textContent = TT({ko:'블로그:',en:'Blog:',ja:'ブログ:',es:'Blog:',de:'Blog:',fr:'Blog :',pt:'Blog:',tr:'Blog:',vi:'Blog:'});
   if(allLink) {
     allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →',fr:'Voir tout →',pt:'Ver tudo →',tr:'Tümünü gör →',vi:'Xem tất cả →'});
-    allLink.href = '/blog/' + suffix;
+    allLink.href = langHref('/blog/', currentLang);
   }
   el.innerHTML = tickerArticles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
-    return `<a href="${a.url}${suffix}" style="color:var(--t2);text-decoration:none;margin-right:16px;
+    return `<a href="${langHref(a.url, currentLang)}" style="color:var(--t2);text-decoration:none;margin-right:16px;
       display:inline-block;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
       vertical-align:bottom;border-bottom:1px solid var(--b1)" title="${title.replace(/"/g,'&quot;')}">${title}</a>`;
   }).join('');
@@ -2904,7 +2905,7 @@ function renderInsightCards(containerId, articles, ko, suffix) {
   grid.innerHTML = articles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
-    return `<a href="${a.url}${suffix}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
+    return `<a href="${langHref(a.url, currentLang)}" class="insight-card" style="--icard-accent:${a.color};--icard-accent-bg:${a.color}26">
       <div class="insight-icon">${a.icon || '📄'}</div>
       <div class="insight-body">
         <div class="insight-cat">${pickLangField(a,'tag',currentLang)||cat}</div>
@@ -2967,11 +2968,11 @@ function renderInsightWidget() {
   renderInsightCards('insightGrid2', insightGridPool.slice(0, insightGridVisible), ko, suffix);
   updateInsightMoreButton();
   const allLink = document.getElementById('insightAllLink');
-  if(allLink) allLink.href = '/blog/' + suffix;
+  if(allLink) allLink.href = langHref('/blog/', currentLang);
   const allLink2 = document.getElementById('insightAllLink2');
-  if(allLink2) allLink2.href = '/blog/' + suffix;
+  if(allLink2) allLink2.href = langHref('/blog/', currentLang);
   const sbAllLink = document.getElementById('sbBlogAllLink');
-  if(sbAllLink) sbAllLink.href = '/blog/' + suffix;
+  if(sbAllLink) sbAllLink.href = langHref('/blog/', currentLang);
 }
 
 /** 사이드바 좌측 블로그 리스트 — 카테고리·제목·발행시각까지 표시 (우측 카드 수준 가독성) */
@@ -2981,7 +2982,7 @@ function renderSidebarBlogList(articles, ko, suffix) {
   list.innerHTML = articles.map(a => {
     const title = pickLangField(a, 'title', currentLang);
     const cat = pickLangField(a, 'category', currentLang);
-    return `<a href="${a.url}${suffix}" class="sb-blog-item" style="--sb-accent:${a.color};--icard-accent-bg:${a.color}26">
+    return `<a href="${langHref(a.url, currentLang)}" class="sb-blog-item" style="--sb-accent:${a.color};--icard-accent-bg:${a.color}26">
       <span class="sb-blog-icon">${a.icon || '📄'}</span>
       <span class="sb-blog-main">
         <span class="sb-blog-cat">${pickLangField(a,'tag',currentLang)||cat}</span>
@@ -3021,14 +3022,14 @@ function renderCategoryLinks() {
   el.innerHTML = categoryFooterArticles.map(a => {
     const cat = pickLangField(a, 'category', currentLang);
     const title = pickLangField(a, 'title', currentLang);
-    return `<a href="${a.url}${suffix}" title="[${cat}] ${title.replace(/"/g,'&quot;')}" style="color:var(--t2);text-decoration:none;margin-right:14px;font-size:12px;
+    return `<a href="${langHref(a.url, currentLang)}" title="[${cat}] ${title.replace(/"/g,'&quot;')}" style="color:var(--t2);text-decoration:none;margin-right:14px;font-size:12px;
       display:inline-block;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
       vertical-align:bottom;border-bottom:1px solid var(--b1)"><b style="color:var(--t3);font-weight:600">[${cat}]</b> ${title}</a>`;
   }).join('');
   // "전체 블로그 보기"는 오른쪽 끝 고정 요소로 분리 (한 줄 유지, 스크롤 밖)
   const allLink = document.getElementById('blogCategoryAllLink');
   if(allLink) {
-    allLink.href = '/blog/' + suffix;
+    allLink.href = langHref('/blog/', currentLang);
     allLink.textContent = TT({ko:'전체 보기 →',en:'View All →',ja:'全て見る →',es:'Ver Todo →',de:'Alle ansehen →',fr:'Voir tout →',pt:'Ver tudo →',tr:'Tümünü gör →',vi:'Xem tất cả →'});
   }
 }
