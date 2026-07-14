@@ -203,7 +203,8 @@ body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFo
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
 /* ── GNB 카테고리 서브내비 (글 읽다가 다른 카테고리로 이동) ── */
-.cat-subnav{background:#0f0f12;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:52px;z-index:199}
+.cat-subnav{background:#0f0f12;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:52px;z-index:199;transition:transform .25s ease;will-change:transform}
+.cat-subnav.csn-hidden{transform:translateY(-100%)}
 .csn-w{max-width:1280px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .csn-w::-webkit-scrollbar{display:none}
 .csn{white-space:nowrap;padding:10px 12px;font-size:13px;font-weight:600;color:var(--t2,#8b8b93);border-bottom:2px solid transparent;text-decoration:none;display:inline-flex;align-items:center;transition:color .15s}
