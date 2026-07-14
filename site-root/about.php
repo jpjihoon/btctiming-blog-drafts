@@ -1,9 +1,13 @@
 <?php
 // BTCtiming.com — 소개 / 편집정책 / 연락처 (About, .php, 공용 헤더/푸터 include)
 header('Content-Type: text/html; charset=utf-8');
+require_once __DIR__ . '/config.php';  // resolveLang, SUPPORTED_LANGS
 $baseUrl = 'https://btctiming.com';
-$GUIDE_TITLE = 'BTCtiming.com 소개 · 편집정책 · 연락처';
-$GUIDE_DESC = 'BTCtiming.com은 비트코인·알트코인의 온체인 지표를 종합해 매수·매도 타이밍 점수를 제공하는 분석 사이트입니다. 운영 주체, 편집 원칙, 데이터 출처, 연락처를 안내합니다.';
+$__gl = resolveLang();
+$__gT = ['ko'=>'BTCtiming.com 소개 · 편집정책 · 연락처','en'=>'About BTCtiming.com · Editorial Policy · Contact','ja'=>'BTCtiming.comについて · 編集方針 · お問い合わせ','es'=>'Acerca de BTCtiming.com · Política Editorial · Contacto','de'=>'Über BTCtiming.com · Redaktionsrichtlinien · Kontakt','fr'=>'À propos de BTCtiming.com · Politique éditoriale · Contact','pt'=>'Sobre o BTCtiming.com · Política Editorial · Contato','tr'=>'BTCtiming.com Hakkında · Editoryal Politika · İletişim','vi'=>'Giới thiệu BTCtiming.com · Chính sách biên tập · Liên hệ'];
+$__gD = ['ko'=>'BTCtiming.com은 비트코인·알트코인의 온체인 지표를 종합해 매수·매도 타이밍 점수를 제공하는 분석 사이트입니다. 운영 주체, 편집 원칙, 데이터 출처, 연락처를 안내합니다.','en'=>'BTCtiming.com is an analysis site that aggregates on-chain indicators for Bitcoin and altcoins to provide buy/sell timing scores. Learn about our operator, editorial principles, data sources, and contact.','ja'=>'BTCtiming.comは、ビットコインとアルトコインのオンチェーン指標を統合し、売買タイミングスコアを提供する分析サイトです。運営主体、編集方針、データソース、連絡先をご案内します。','es'=>'BTCtiming.com es un sitio de análisis que agrega indicadores on-chain de Bitcoin y altcoins para ofrecer puntuaciones de timing de compra/venta. Conozca nuestro operador, principios editoriales, fuentes de datos y contacto.','de'=>'BTCtiming.com ist eine Analyse-Website, die On-Chain-Indikatoren für Bitcoin und Altcoins zusammenführt, um Kauf-/Verkaufs-Timing-Scores bereitzustellen. Erfahren Sie mehr über Betreiber, redaktionelle Grundsätze, Datenquellen und Kontakt.','fr'=>'BTCtiming.com est un site d\'analyse qui agrège les indicateurs on-chain de Bitcoin et des altcoins pour fournir des scores de timing d\'achat/vente. Découvrez notre exploitant, nos principes éditoriaux, nos sources de données et nos contacts.','pt'=>'BTCtiming.com é um site de análise que agrega indicadores on-chain de Bitcoin e altcoins para fornecer pontuações de timing de compra/venda. Conheça nosso operador, princípios editoriais, fontes de dados e contato.','tr'=>'BTCtiming.com, alım/satım zamanlama puanları sağlamak için Bitcoin ve altcoinlerin zincir üstü göstergelerini bir araya getiren bir analiz sitesidir. Operatör, editoryal ilkeler, veri kaynakları ve iletişim bilgileri hakkında bilgi verir.','vi'=>'BTCtiming.com là trang phân tích tổng hợp các chỉ báo on-chain của Bitcoin và altcoin để cung cấp điểm thời điểm mua/bán. Tìm hiểu về đơn vị vận hành, nguyên tắc biên tập, nguồn dữ liệu và liên hệ.'];
+$GUIDE_TITLE = $__gT[$__gl] ?? $__gT['ko'];
+$GUIDE_DESC = $__gD[$__gl] ?? $__gD['ko'];
 $GUIDE_CANONICAL = $baseUrl . '/about';
 $GUIDE_KOPATH = '/about';
 $GUIDE_EXTRA_CSS = <<<CSS

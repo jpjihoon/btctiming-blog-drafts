@@ -1,9 +1,13 @@
 <?php
 // BTCtiming.com — 개인정보처리방침 (.php, 공용 헤더/푸터 include)
 header('Content-Type: text/html; charset=utf-8');
+require_once __DIR__ . '/config.php';  // resolveLang, SUPPORTED_LANGS
 $baseUrl = 'https://btctiming.com';
-$GUIDE_TITLE = '개인정보처리방침 · BTCtiming.com';
-$GUIDE_DESC = 'BTCtiming.com 개인정보처리방침.';
+$__gl = resolveLang();
+$__gT = ['ko'=>'개인정보처리방침 · BTCtiming.com','en'=>'Privacy Policy · BTCtiming.com','ja'=>'プライバシーポリシー · BTCtiming.com','es'=>'Política de Privacidad · BTCtiming.com','de'=>'Datenschutzerklärung · BTCtiming.com','fr'=>'Politique de confidentialité · BTCtiming.com','pt'=>'Política de Privacidade · BTCtiming.com','tr'=>'Gizlilik Politikası · BTCtiming.com','vi'=>'Chính sách bảo mật · BTCtiming.com'];
+$__gD = ['ko'=>'BTCtiming.com 개인정보처리방침.','en'=>'BTCtiming.com Privacy Policy.','ja'=>'BTCtiming.com プライバシーポリシー。','es'=>'Política de Privacidad de BTCtiming.com.','de'=>'Datenschutzerklärung von BTCtiming.com.','fr'=>'Politique de confidentialité de BTCtiming.com.','pt'=>'Política de Privacidade do BTCtiming.com.','tr'=>'BTCtiming.com Gizlilik Politikası.','vi'=>'Chính sách bảo mật của BTCtiming.com.'];
+$GUIDE_TITLE = $__gT[$__gl] ?? $__gT['ko'];
+$GUIDE_DESC = $__gD[$__gl] ?? $__gD['ko'];
 $GUIDE_CANONICAL = $baseUrl . '/privacy';
 $GUIDE_KOPATH = '/privacy';
 $GUIDE_EXTRA_CSS = <<<CSS

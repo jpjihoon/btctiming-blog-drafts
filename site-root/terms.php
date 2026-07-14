@@ -1,9 +1,13 @@
 <?php
 // BTCtiming.com — 이용약관 (.php, 공용 헤더/푸터 include)
 header('Content-Type: text/html; charset=utf-8');
+require_once __DIR__ . '/config.php';  // resolveLang, SUPPORTED_LANGS
 $baseUrl = 'https://btctiming.com';
-$GUIDE_TITLE = '이용약관 · BTCtiming.com';
-$GUIDE_DESC = 'BTCtiming.com 이용약관.';
+$__gl = resolveLang();
+$__gT = ['ko'=>'이용약관 · BTCtiming.com','en'=>'Terms of Service · BTCtiming.com','ja'=>'利用規約 · BTCtiming.com','es'=>'Términos de Servicio · BTCtiming.com','de'=>'Nutzungsbedingungen · BTCtiming.com','fr'=>'Conditions d\'utilisation · BTCtiming.com','pt'=>'Termos de Serviço · BTCtiming.com','tr'=>'Hizmet Şartları · BTCtiming.com','vi'=>'Điều khoản dịch vụ · BTCtiming.com'];
+$__gD = ['ko'=>'BTCtiming.com 이용약관.','en'=>'BTCtiming.com Terms of Service.','ja'=>'BTCtiming.com 利用規約。','es'=>'Términos de Servicio de BTCtiming.com.','de'=>'Nutzungsbedingungen von BTCtiming.com.','fr'=>'Conditions d\'utilisation de BTCtiming.com.','pt'=>'Termos de Serviço do BTCtiming.com.','tr'=>'BTCtiming.com Hizmet Şartları.','vi'=>'Điều khoản dịch vụ của BTCtiming.com.'];
+$GUIDE_TITLE = $__gT[$__gl] ?? $__gT['ko'];
+$GUIDE_DESC = $__gD[$__gl] ?? $__gD['ko'];
 $GUIDE_CANONICAL = $baseUrl . '/terms';
 $GUIDE_KOPATH = '/terms';
 $GUIDE_EXTRA_CSS = <<<CSS
