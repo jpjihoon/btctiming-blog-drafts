@@ -2325,10 +2325,8 @@ let currentLang = (function(){
 // 그때의 URL(언어)로 정확히 복원되게 하기 위함. (서버는 URL ?lang만 보므로 URL에 언어가 있어야 함)
 // ※ 저장(쿠키/localStorage)은 언어를 '바꿀 때'(setLang)만. 진입 시엔 저장 안 함 → 뒤로가기 언어 오염 방지.
 try {
-  var _u = new URL(location.href);
   var _cur = (typeof currentLang !== 'undefined') ? currentLang : 'ko';
-  if (_cur === 'ko') _u.searchParams.delete('lang'); else _u.searchParams.set('lang', _cur);
-  history.replaceState(null, '', _u);
+  if (window.BTLang && BTLang.stampUrl) BTLang.stampUrl(_cur);  // 경로형 URL이면 ?lang= 안 붙임
 } catch(e) {}
 
 /** 코드 곳곳에 흩어진 'ko ? A : B' 삼항연산자들을 여러 언어로 확장하기 위한 헬퍼.
@@ -2727,9 +2725,7 @@ function setLang(lang) {
   // 남아있었음. 이 상태에서 다른 페이지로 갔다가 "뒤로가기"가 bfcache 복원이 아니라 진짜 새로고침으로
   // 처리되면, 그 오래된 URL 기준으로 서버가 다시 렌더링하면서 방금 바꾼 언어가 원래대로 되돌아갔음.
   try {
-    const url = new URL(location.href);
-    if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
-    history.replaceState(null, '', url);
+    if (window.BTLang && BTLang.i18nHref) history.replaceState(null, '', BTLang.i18nHref(location.pathname + location.search + location.hash, lang));  // 경로형으로(?lang= 안 붙임)
   } catch(e) {}
   updateLangUI(lang);
   closeLangMenu();
