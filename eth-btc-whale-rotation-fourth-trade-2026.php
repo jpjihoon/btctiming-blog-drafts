@@ -1,0 +1,292 @@
+<?php $slug = 'eth-btc-whale-rotation-fourth-trade-2026'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">한 온체인 고래 지갑이 7월14일 이더리움(ETH) 17,385개(약 3,100만 달러)를 비트코인(BTC) 496.3개로 전환하며 올해 들어 네 번째 'ETH→BTC 로테이션'을 실행했다고 온체인 분석가 엠버씨엔(EmberCN)의 데이터를 인용해 비트코인닷컴(Bitcoin.com)이 14일 보도했다. 이번 전환은 몇 시간 간격을 두고 이뤄진 두 차례 거래로 구성됐다 — 먼저 ETH/BTC 환율이 이달 저점인 0.02524에서 반등한 직후 13,708 ETH(약 2,500만 달러)를 0.02855 비율로 바꿨고, 이어 나머지 물량을 0.0285 부근에서 처리해 누적 전환량이 17,385 ETH에 달했다. 온체인 모니터링 플랫폼 온체인렌즈(Onchain Lens)도 이 움직임을 별도로 포착해 추적 중이라고 밝혔다.</p>
+<p class="en">An on-chain whale wallet converted 17,385 ETH (about $31 million) into 496.3 BTC on July 14, executing its fourth ETH-to-BTC rotation of the year, according to data from on-chain analyst EmberCN cited by Bitcoin.com on July 14. The conversion came in two tranches hours apart — first 13,708 ETH (about $25 million) swapped at a rate of 0.02855 just after the ETH/BTC ratio rebounded off its monthly low of 0.02524, followed by the remainder near 0.0285, bringing the cumulative total to 17,385 ETH. On-chain monitoring platform Onchain Lens separately flagged and is tracking the same wallet's activity.</p>
+<p class="ja">あるオンチェーンのクジラ・ウォレットが7月14日、イーサリアム(ETH)17,385枚(約3,100万ドル)をビットコイン(BTC)496.3枚に転換し、今年に入って4回目となる「ETH→BTCローテーション」を実行したと、オンチェーン分析家エンバーシーエヌ(EmberCN)のデータを引用してビットコイン・ドットコム(Bitcoin.com)が14日に報じた。今回の転換は数時間の間隔を空けた2回の取引で構成されている――まずETH/BTCレートが今月の安値である0.02524から反発した直後に13,708 ETH(約2,500万ドル)を0.02855の比率で交換し、続いて残りを0.0285付近で処理し、累計転換量は17,385 ETHに達した。オンチェーン監視プラットフォームのオンチェーンレンズ(Onchain Lens)も、この動きを別途捕捉して追跡していると明らかにした。</p>
+<p class="es">Una billetera ballena on-chain convirtió 17.385 ETH (unos 31 millones de dólares) en 496,3 BTC el 14 de julio, ejecutando su cuarta rotación de ETH a BTC del año, según datos del analista on-chain EmberCN citados por Bitcoin.com el 14 de julio. La conversión llegó en dos tramos separados por horas — primero 13.708 ETH (unos 25 millones de dólares) se cambiaron a una tasa de 0,02855 justo después de que la ratio ETH/BTC rebotara desde su mínimo mensual de 0,02524, seguido del resto cerca de 0,0285, llevando el total acumulado a 17.385 ETH. La plataforma de monitoreo on-chain Onchain Lens marcó por separado y está rastreando la actividad de la misma billetera.</p>
+<p class="de">Eine On-Chain-Whale-Wallet wandelte am 14. Juli 17.385 ETH (rund 31 Millionen US-Dollar) in 496,3 BTC um und führte damit ihre vierte ETH-zu-BTC-Rotation des Jahres durch, wie aus Daten des On-Chain-Analysten EmberCN hervorgeht, die von Bitcoin.com am 14. Juli zitiert wurden. Die Umwandlung erfolgte in zwei Tranchen im Abstand von Stunden — zunächst wurden 13.708 ETH (rund 25 Millionen US-Dollar) zu einem Kurs von 0,02855 getauscht, kurz nachdem sich das ETH/BTC-Verhältnis von seinem Monatstief von 0,02524 erholt hatte, gefolgt vom Rest nahe 0,0285, was die kumulierte Summe auf 17.385 ETH brachte. Die On-Chain-Überwachungsplattform Onchain Lens erfasste die Aktivität derselben Wallet separat und verfolgt sie weiter.</p>
+<p class="fr">Un portefeuille baleine on-chain a converti 17 385 ETH (environ 31 millions de dollars) en 496,3 BTC le 14 juillet, exécutant sa quatrième rotation ETH-vers-BTC de l'année, selon des données de l'analyste on-chain EmberCN citées par Bitcoin.com le 14 juillet. La conversion s'est faite en deux tranches espacées de quelques heures — d'abord 13 708 ETH (environ 25 millions de dollars) échangés à un taux de 0,02855 juste après que le ratio ETH/BTC a rebondi depuis son plus bas mensuel de 0,02524, puis le reste autour de 0,0285, portant le total cumulé à 17 385 ETH. La plateforme de surveillance on-chain Onchain Lens a signalé séparément et suit l'activité du même portefeuille.</p>
+<p class="pt">Uma carteira baleia on-chain converteu 17.385 ETH (cerca de US$ 31 milhões) em 496,3 BTC em 14 de julho, executando sua quarta rotação de ETH para BTC do ano, segundo dados do analista on-chain EmberCN citados pelo Bitcoin.com em 14 de julho. A conversão veio em duas parcelas com horas de diferença — primeiro 13.708 ETH (cerca de US$ 25 milhões) trocados a uma taxa de 0,02855 logo após a razão ETH/BTC se recuperar de sua mínima mensal de 0,02524, seguido do restante perto de 0,0285, levando o total acumulado a 17.385 ETH. A plataforma de monitoramento on-chain Onchain Lens sinalizou separadamente e está rastreando a atividade da mesma carteira.</p>
+<p class="tr">Zincir üstü bir balina cüzdanı, 14 Temmuz'da 17.385 ETH'yi (yaklaşık 31 milyon dolar) 496,3 BTC'ye dönüştürerek yılın dördüncü ETH-BTC rotasyonunu gerçekleştirdi; bu bilgi, Bitcoin.com'un 14 Temmuz'da aktardığı zincir üstü analist EmberCN verilerine dayanıyor. Dönüşüm saatler arayla gerçekleşen iki dilimden oluştu — önce ETH/BTC oranı aylık dibi olan 0,02524'ten toparlandıktan hemen sonra 13.708 ETH (yaklaşık 25 milyon dolar) 0,02855 oranında takas edildi, ardından kalan kısım 0,0285 civarında işlendi ve kümülatif toplam 17.385 ETH'ye ulaştı. Zincir üstü izleme platformu Onchain Lens de aynı cüzdanın hareketini ayrıca tespit edip takip ettiğini belirtti.</p>
+<p class="vi">Một ví cá voi on-chain đã chuyển đổi 17.385 ETH (khoảng 31 triệu đô la) thành 496,3 BTC vào ngày 14/7, thực hiện lần xoay vòng ETH sang BTC thứ tư trong năm, theo dữ liệu từ nhà phân tích on-chain EmberCN được Bitcoin.com dẫn lại ngày 14/7. Việc chuyển đổi diễn ra qua hai đợt cách nhau vài giờ — đầu tiên 13.708 ETH (khoảng 25 triệu đô la) được hoán đổi ở tỷ lệ 0,02855 ngay sau khi tỷ lệ ETH/BTC phục hồi từ mức đáy trong tháng là 0,02524, tiếp theo là phần còn lại quanh mức 0,0285, đưa tổng số lũy kế lên 17.385 ETH. Nền tảng giám sát on-chain Onchain Lens cũng ghi nhận riêng và đang theo dõi hoạt động của cùng ví này.</p>
+
+<p class="ko">이 지갑의 매매 이력을 되짚어보면 패턴이 뚜렷하다. 올해 1월 22,345 ETH를 774 BTC로 바꿨다가 같은 달 말 24,564 ETH를 다시 사들여 2,219 ETH의 이익을 남겼고, 4월에는 24,564 ETH를 784.7 BTC로 바꾼 뒤 6월 초 28,734 ETH를 재매수해 4,170 ETH를 추가로 벌었다. 지난 7월5일에는 세 번째 로테이션으로 4,695 ETH를 133.8 BTC로 전환했다. 이번이 벌써 올해 네 번째 회전매매로, 이 트레이더는 ETH/BTC 비율이 반등할 때마다 강도를 이용해 매도하는 동일한 패턴을 반복해왔다.</p>
+<p class="en">A look back at this wallet's trading history shows a distinct pattern. In January, it swapped 22,345 ETH for 774 BTC, then repurchased 24,564 ETH later that month for a profit of 2,219 ETH; in April, it swapped 24,564 ETH for 784.7 BTC and repurchased 28,734 ETH in early June, netting an additional 4,170 ETH. On July 5, in what was its third rotation of the year, it converted 4,695 ETH into 133.8 BTC. This latest move marks the wallet's fourth rotation of 2026, with the trader repeatedly selling into strength each time the ETH/BTC ratio bounces.</p>
+<p class="ja">このウォレットの取引履歴を振り返ると、明確なパターンが浮かび上がる。今年1月には22,345 ETHを774 BTCに交換し、同月末に24,564 ETHを再び買い戻して2,219 ETHの利益を得た。4月には24,564 ETHを784.7 BTCに交換し、6月初めに28,734 ETHを買い戻してさらに4,170 ETHを稼いだ。7月5日には今年3回目のローテーションとして4,695 ETHを133.8 BTCに転換した。今回は2026年に入って早くも4回目のローテーションであり、このトレーダーはETH/BTC比率が反発するたびに強さを利用して売却するという同じパターンを繰り返してきた。</p>
+<p class="es">Un vistazo al historial de operaciones de esta billetera revela un patrón claro. En enero, cambió 22.345 ETH por 774 BTC y luego recompró 24.564 ETH a fines de ese mes con una ganancia de 2.219 ETH; en abril, cambió 24.564 ETH por 784,7 BTC y recompró 28.734 ETH a principios de junio, obteniendo otros 4.170 ETH. El 5 de julio, en lo que fue su tercera rotación del año, convirtió 4.695 ETH en 133,8 BTC. Este último movimiento marca la cuarta rotación de la billetera en 2026, con el operador vendiendo repetidamente en la fortaleza cada vez que la ratio ETH/BTC rebota.</p>
+<p class="de">Ein Blick auf die Handelshistorie dieser Wallet zeigt ein klares Muster. Im Januar tauschte sie 22.345 ETH gegen 774 BTC und kaufte später im selben Monat 24.564 ETH mit einem Gewinn von 2.219 ETH zurück; im April tauschte sie 24.564 ETH gegen 784,7 BTC und kaufte Anfang Juni 28.734 ETH zurück, was weitere 4.170 ETH einbrachte. Am 5. Juli wandelte sie im Rahmen ihrer dritten Rotation des Jahres 4.695 ETH in 133,8 BTC um. Dieser jüngste Schritt markiert die vierte Rotation der Wallet im Jahr 2026, wobei der Trader wiederholt in die Stärke hinein verkauft, sobald das ETH/BTC-Verhältnis nach oben ausschlägt.</p>
+<p class="fr">Un examen de l'historique des transactions de ce portefeuille révèle un schéma clair. En janvier, il a échangé 22 345 ETH contre 774 BTC, puis a racheté 24 564 ETH plus tard dans le mois pour un gain de 2 219 ETH ; en avril, il a échangé 24 564 ETH contre 784,7 BTC et racheté 28 734 ETH début juin, engrangeant 4 170 ETH supplémentaires. Le 5 juillet, lors de sa troisième rotation de l'année, il a converti 4 695 ETH en 133,8 BTC. Ce dernier mouvement marque la quatrième rotation du portefeuille en 2026, le trader vendant systématiquement dans la force à chaque rebond du ratio ETH/BTC.</p>
+<p class="pt">Um retrospecto do histórico de negociação dessa carteira revela um padrão nítido. Em janeiro, trocou 22.345 ETH por 774 BTC e depois recomprou 24.564 ETH no final daquele mês com lucro de 2.219 ETH; em abril, trocou 24.564 ETH por 784,7 BTC e recomprou 28.734 ETH no início de junho, lucrando mais 4.170 ETH. Em 5 de julho, em sua terceira rotação do ano, converteu 4.695 ETH em 133,8 BTC. Esse movimento mais recente marca a quarta rotação da carteira em 2026, com o trader vendendo repetidamente na força cada vez que a razão ETH/BTC dá um salto.</p>
+<p class="tr">Bu cüzdanın işlem geçmişine bakıldığında belirgin bir örüntü ortaya çıkıyor. Ocak ayında 22.345 ETH'yi 774 BTC ile takas etti, ardından aynı ayın sonunda 24.564 ETH'yi geri alarak 2.219 ETH kâr elde etti; nisanda 24.564 ETH'yi 784,7 BTC ile takas etti ve haziran başında 28.734 ETH'yi geri alarak 4.170 ETH daha kazandı. 5 Temmuz'da, yılın üçüncü rotasyonunda 4.695 ETH'yi 133,8 BTC'ye dönüştürdü. Bu son hareket, cüzdanın 2026'daki dördüncü rotasyonunu işaret ediyor; trader, ETH/BTC oranı her sıçradığında gücü kullanarak satış yapma örüntüsünü tekrarlıyor.</p>
+<p class="vi">Nhìn lại lịch sử giao dịch của ví này cho thấy một mô hình rõ rệt. Vào tháng 1, ví này hoán đổi 22.345 ETH lấy 774 BTC, sau đó mua lại 24.564 ETH vào cuối tháng đó với khoản lãi 2.219 ETH; vào tháng 4, hoán đổi 24.564 ETH lấy 784,7 BTC và mua lại 28.734 ETH vào đầu tháng 6, thu thêm 4.170 ETH. Vào ngày 5/7, trong lần xoay vòng thứ ba của năm, ví này đã chuyển đổi 4.695 ETH thành 133,8 BTC. Động thái mới nhất này đánh dấu lần xoay vòng thứ tư của ví trong năm 2026, với nhà giao dịch liên tục bán ra khi mạnh mỗi khi tỷ lệ ETH/BTC bật lên.</p>
+
+<h2 class="ko">메커니즘 — 왜 '가격'이 아니라 'ETH/BTC 비율'을 거래하는가</h2>
+<h2 class="en">The Mechanism: Why Trade the ETH/BTC Ratio, Not the Price</h2>
+<h2 class="ja">メカニズム — なぜ「価格」ではなく「ETH/BTC比率」を取引するのか</h2>
+<h2 class="es">El mecanismo: por qué operar la ratio ETH/BTC y no el precio</h2>
+<h2 class="de">Der Mechanismus: Warum das ETH/BTC-Verhältnis gehandelt wird, nicht der Preis</h2>
+<h2 class="fr">Le mécanisme : pourquoi trader le ratio ETH/BTC plutôt que le prix</h2>
+<h2 class="pt">O mecanismo: por que negociar a razão ETH/BTC, não o preço</h2>
+<h2 class="tr">Mekanizma — Neden 'fiyat' değil 'ETH/BTC oranı' işlem görüyor</h2>
+<h2 class="vi">Cơ chế — Vì sao giao dịch tỷ lệ ETH/BTC thay vì giá</h2>
+
+<p class="ko">ETH/BTC 비율 거래는 두 자산의 절대 가격이 오르내리는 방향과 무관하게, 어느 쪽이 상대적으로 더 강한지에만 베팅하는 전략이다. 이 지갑의 전략은 단순하다 — ETH/BTC 비율이 단기 반등으로 상승할 때(즉 ETH가 BTC 대비 일시적으로 강세를 보일 때) 보유한 ETH를 팔아 더 많은 BTC를 확보하고, 비율이 다시 하락하면 그 BTC로 ETH를 더 싸게 되사들이는 식이다. 이렇게 하면 설령 두 자산의 달러 가격이 모두 오르거나 모두 내리더라도, 비율의 방향만 맞으면 코인 개수 기준으로 이익을 낼 수 있다 — 실제로 이 지갑이 매 라운드마다 회수한 ETH 수량이 이전 라운드에 판 수량보다 많았다는 점이 이를 보여준다.</p>
+<p class="en">Trading the ETH/BTC ratio is a strategy that bets purely on which asset is relatively stronger, independent of whether both assets' dollar prices are rising or falling. This wallet's strategy is simple: when the ETH/BTC ratio rises on a short-term bounce (meaning ether is temporarily outperforming bitcoin), it sells its ETH for more BTC; when the ratio falls again, it uses that BTC to buy back ETH more cheaply. This means the trader can profit in coin-count terms even if both assets' dollar prices rise or fall together — as long as the direction of the ratio is correct. Indeed, the wallet has recovered more ETH than it sold in each prior round, evidence the strategy has been working.</p>
+<p class="ja">ETH/BTC比率取引とは、両資産のドル建て価格が上下するかどうかとは無関係に、どちらが相対的に強いかにのみ賭ける戦略だ。このウォレットの戦略は単純である――ETH/BTC比率が短期的な反発で上昇するとき(すなわちイーサリアムが一時的にビットコインに対して優勢なとき)、保有するETHを売ってより多くのBTCを確保し、比率が再び下落すればそのBTCでETHをより安く買い戻す。こうすることで、両資産のドル価格がともに上昇しても下落しても、比率の方向さえ正しければコインの枚数ベースで利益を出せる――実際にこのウォレットが各ラウンドで回収したETH数量が前回売った数量を上回っていた事実が、それを裏付けている。</p>
+<p class="es">Operar la ratio ETH/BTC es una estrategia que apuesta puramente a qué activo es relativamente más fuerte, independientemente de si los precios en dólares de ambos activos suben o bajan. La estrategia de esta billetera es simple: cuando la ratio ETH/BTC sube en un rebote a corto plazo (es decir, ether supera temporalmente a bitcoin), vende su ETH por más BTC; cuando la ratio vuelve a caer, usa ese BTC para recomprar ETH más barato. Esto significa que el operador puede obtener ganancias en términos de cantidad de monedas incluso si los precios en dólares de ambos activos suben o bajan juntos — siempre que la dirección de la ratio sea correcta. De hecho, la billetera ha recuperado más ETH del que vendió en cada ronda anterior, evidencia de que la estrategia ha funcionado.</p>
+<p class="de">Das Handeln des ETH/BTC-Verhältnisses ist eine Strategie, die rein darauf wettet, welcher Vermögenswert relativ stärker ist, unabhängig davon, ob die Dollarpreise beider Assets steigen oder fallen. Die Strategie dieser Wallet ist einfach: Steigt das ETH/BTC-Verhältnis bei einer kurzfristigen Erholung (d. h. Ether übertrifft Bitcoin vorübergehend), verkauft sie ihre ETH gegen mehr BTC; fällt das Verhältnis wieder, nutzt sie diese BTC, um ETH günstiger zurückzukaufen. Das bedeutet, der Trader kann in Coin-Mengen profitieren, selbst wenn die Dollarpreise beider Assets gemeinsam steigen oder fallen — solange die Richtung des Verhältnisses stimmt. Tatsächlich hat die Wallet in jeder vorherigen Runde mehr ETH zurückerhalten, als sie verkauft hatte, ein Beleg dafür, dass die Strategie funktioniert hat.</p>
+<p class="fr">Trader le ratio ETH/BTC est une stratégie qui parie purement sur l'actif relativement le plus fort, indépendamment du fait que les prix en dollars des deux actifs montent ou baissent. La stratégie de ce portefeuille est simple : lorsque le ratio ETH/BTC monte lors d'un rebond à court terme (c'est-à-dire quand l'ether surperforme temporairement le bitcoin), il vend ses ETH contre plus de BTC ; lorsque le ratio rebaisse, il utilise ce BTC pour racheter de l'ETH moins cher. Cela signifie que le trader peut réaliser un profit en nombre de pièces même si les prix en dollars des deux actifs montent ou baissent ensemble — tant que la direction du ratio est correcte. En effet, le portefeuille a récupéré plus d'ETH qu'il n'en a vendu à chaque cycle précédent, preuve que la stratégie a fonctionné.</p>
+<p class="pt">Negociar a razão ETH/BTC é uma estratégia que aposta puramente em qual ativo é relativamente mais forte, independentemente de os preços em dólares de ambos os ativos subirem ou caírem. A estratégia dessa carteira é simples: quando a razão ETH/BTC sobe em um salto de curto prazo (ou seja, o ether supera temporariamente o bitcoin), ela vende seu ETH por mais BTC; quando a razão cai novamente, usa esse BTC para recomprar ETH mais barato. Isso significa que o trader pode lucrar em termos de quantidade de moedas mesmo que os preços em dólares de ambos os ativos subam ou caiam juntos — desde que a direção da razão esteja correta. De fato, a carteira recuperou mais ETH do que vendeu em cada rodada anterior, evidência de que a estratégia tem funcionado.</p>
+<p class="tr">ETH/BTC oranını işlem yapmak, her iki varlığın dolar fiyatlarının artıp artmadığından bağımsız olarak, hangi varlığın göreceli olarak daha güçlü olduğuna saf bir şekilde bahis oynayan bir stratejidir. Bu cüzdanın stratejisi basit: ETH/BTC oranı kısa vadeli bir sıçramayla yükseldiğinde (yani ether geçici olarak bitcoin'i geride bıraktığında), sahip olduğu ETH'yi daha fazla BTC karşılığında satar; oran tekrar düştüğünde ise bu BTC'yi kullanarak ETH'yi daha ucuza geri satın alır. Bu, her iki varlığın dolar fiyatları birlikte yükselse veya düşse bile, oranın yönü doğru olduğu sürece, trader'ın coin sayısı bazında kâr edebileceği anlamına gelir — nitekim cüzdan, önceki her turda sattığından daha fazla ETH geri kazanmıştır; bu da stratejinin işe yaradığının kanıtıdır.</p>
+<p class="vi">Giao dịch tỷ lệ ETH/BTC là một chiến lược đặt cược thuần túy vào việc tài sản nào tương đối mạnh hơn, bất kể giá đô la của cả hai tài sản đang tăng hay giảm. Chiến lược của ví này rất đơn giản: khi tỷ lệ ETH/BTC tăng trong một đợt phục hồi ngắn hạn (nghĩa là ether tạm thời vượt trội hơn bitcoin), ví này bán ETH để lấy nhiều BTC hơn; khi tỷ lệ giảm trở lại, nó dùng BTC đó để mua lại ETH với giá rẻ hơn. Điều này có nghĩa là nhà giao dịch có thể thu lợi tính theo số lượng coin ngay cả khi giá đô la của cả hai tài sản cùng tăng hoặc cùng giảm — miễn là hướng đi của tỷ lệ là đúng. Thực tế, ví này đã thu hồi được nhiều ETH hơn số đã bán trong mỗi vòng trước đó, bằng chứng cho thấy chiến lược đã hiệu quả.</p>
+
+<p class="ko">이런 회전매매가 가능한 이유는 2026년 내내 ETH/BTC 비율이 뚜렷한 하락 추세를 그려왔기 때문이다. 5월에는 이 비율이 10개월 만의 최저치로 떨어졌다는 코인데스크(CoinDesk) 보도가 있었을 만큼, 이더리움은 비트코인 대비 구조적으로 약세를 보여왔다. 이런 환경에서는 '반등 시 매도, 급락 시 매수'라는 단순한 역추세 전략이 반복적으로 통할 수 있다 — 다만 이는 추세가 지속되는 한에서만 유효하며, 추세가 꺾이는 순간 그동안 쌓은 수익을 단번에 반납할 위험을 동반한다.</p>
+<p class="en">This kind of rotation has been viable because the ETH/BTC ratio has traced a clear downtrend through 2026. In May, CoinDesk reported the ratio had fallen to a 10-month low, underscoring ether's structural underperformance against bitcoin. In such an environment, a simple counter-trend strategy — sell on bounces, buy on dips — can work repeatedly. But that logic holds only as long as the trend persists; the moment it reverses, the accumulated gains could be given back in a single round.</p>
+<p class="ja">このような回転売買が成立してきたのは、2026年を通じてETH/BTC比率が明確な下降トレンドを描いてきたためだ。5月にはこの比率が10カ月ぶりの安値まで下落したとコインデスク(CoinDesk)が報じたほど、イーサリアムはビットコインに対して構造的な弱さを示してきた。こうした環境では、「反発時に売り、急落時に買う」という単純な逆張り戦略が繰り返し機能しうる――ただしこれはトレンドが持続する限りにおいてのみ有効であり、トレンドが反転した瞬間、それまで積み上げた利益を一度に失うリスクを伴う。</p>
+<p class="es">Este tipo de rotación ha sido viable porque la ratio ETH/BTC ha trazado una clara tendencia bajista a lo largo de 2026. En mayo, CoinDesk informó que la ratio había caído a un mínimo de 10 meses, subrayando el bajo rendimiento estructural del ether frente al bitcoin. En un entorno así, una estrategia simple de contratendencia —vender en los rebotes, comprar en las caídas— puede funcionar repetidamente. Pero esa lógica solo se sostiene mientras persista la tendencia; en el momento en que se revierta, las ganancias acumuladas podrían devolverse de golpe.</p>
+<p class="de">Diese Art der Rotation war praktikabel, weil das ETH/BTC-Verhältnis im Verlauf von 2026 einen klaren Abwärtstrend gezeichnet hat. Im Mai berichtete CoinDesk, dass das Verhältnis auf ein 10-Monats-Tief gefallen sei, was die strukturelle Underperformance von Ether gegenüber Bitcoin unterstreicht. In einem solchen Umfeld kann eine einfache Gegentrend-Strategie — bei Erholungen verkaufen, bei Rückgängen kaufen — wiederholt funktionieren. Diese Logik gilt jedoch nur, solange der Trend anhält; sobald er sich umkehrt, könnten die angesammelten Gewinne in einer einzigen Runde zunichte gemacht werden.</p>
+<p class="fr">Ce type de rotation a été viable parce que le ratio ETH/BTC a suivi une tendance baissière claire tout au long de 2026. En mai, CoinDesk a rapporté que le ratio était tombé à un plus bas de 10 mois, soulignant la sous-performance structurelle de l'ether face au bitcoin. Dans un tel environnement, une stratégie simple de contre-tendance — vendre lors des rebonds, acheter lors des baisses — peut fonctionner de façon répétée. Mais cette logique ne tient que tant que la tendance persiste ; dès qu'elle s'inverse, les gains accumulés pourraient être rendus en un seul cycle.</p>
+<p class="pt">Esse tipo de rotação tem sido viável porque a razão ETH/BTC traçou uma clara tendência de baixa ao longo de 2026. Em maio, a CoinDesk relatou que a razão havia caído para uma mínima de 10 meses, ressaltando o baixo desempenho estrutural do ether frente ao bitcoin. Em tal ambiente, uma estratégia simples de contratendência — vender nos saltos, comprar nas quedas — pode funcionar repetidamente. Mas essa lógica só se sustenta enquanto a tendência persistir; no momento em que ela se reverter, os ganhos acumulados poderiam ser devolvidos de uma só vez.</p>
+<p class="tr">Bu tür bir rotasyon uygulanabilir olmuştur çünkü ETH/BTC oranı 2026 boyunca net bir düşüş eğilimi çizmiştir. Mayıs ayında CoinDesk, oranın 10 aylık bir dibe düştüğünü bildirerek ether'in bitcoin karşısındaki yapısal zayıf performansını vurguladı. Böyle bir ortamda, basit bir ters trend stratejisi — sıçramalarda sat, düşüşlerde al — tekrar tekrar işe yarayabilir. Ancak bu mantık yalnızca trend sürdüğü sürece geçerlidir; trend tersine döndüğü anda, birikmiş kazançlar tek bir turda geri verilebilir.</p>
+<p class="vi">Kiểu xoay vòng này khả thi vì tỷ lệ ETH/BTC đã vẽ nên một xu hướng giảm rõ rệt xuyên suốt năm 2026. Vào tháng 5, CoinDesk đưa tin tỷ lệ này đã giảm xuống mức thấp nhất trong 10 tháng, nhấn mạnh sự kém hiệu quả mang tính cấu trúc của ether so với bitcoin. Trong môi trường như vậy, một chiến lược ngược xu hướng đơn giản — bán khi bật lên, mua khi giảm sâu — có thể hiệu quả lặp đi lặp lại. Nhưng logic đó chỉ đứng vững khi xu hướng còn tiếp diễn; ngay khi nó đảo chiều, các khoản lãi tích lũy có thể bị trả lại chỉ trong một vòng.</p>
+
+<h2 class="ko">반박 가능한 해석 — 고래 한 마리의 베팅을 시장 신호로 볼 수 있는가</h2>
+<h2 class="en">A Refutable Read: Can One Whale's Bet Be Read as a Market Signal?</h2>
+<h2 class="ja">反証可能な見方 — 一匹のクジラの賭けを市場シグナルと見なせるか</h2>
+<h2 class="es">Una lectura refutable: ¿puede la apuesta de una sola ballena leerse como una señal de mercado?</h2>
+<h2 class="de">Eine widerlegbare Lesart: Kann die Wette einer einzelnen Wal als Marktsignal gelten?</h2>
+<h2 class="fr">Une lecture réfutable : le pari d'une seule baleine peut-il être lu comme un signal de marché ?</h2>
+<h2 class="pt">Uma leitura refutável: a aposta de uma única baleia pode ser lida como um sinal de mercado?</h2>
+<h2 class="tr">Çürütülebilir bir yorum — tek bir balinanın bahsi bir piyasa sinyali olarak okunabilir mi?</h2>
+<h2 class="vi">Một cách diễn giải có thể bị bác bỏ — Liệu cược của một cá voi có thể được xem là tín hiệu thị trường?</h2>
+
+<p class="ko">이 지갑의 회전매매를 광범위한 시장 신호로 확대 해석하는 데는 신중해야 할 이유가 있다. 우선 이번 전환 규모는 약 3,100만 달러로, 이더리움의 하루 평균 현물 거래대금(통상 수십억 달러 규모)에 비하면 미미한 수준이다. 한 지갑의 반복적 행태는 그 트레이더 개인의 전술일 뿐, 기관 자금 전반의 포지셔닝 변화를 대변한다고 보기는 어렵다. 실제로 온체인 데이터는 다른 각도에서도 'ETH 비중 축소' 흐름을 보여주는데, 비트코인 고래 주소 수가 2026년 최고치를 기록하는 동안 대형 보유자들이 이더 노출을 줄이고 있다는 별도 분석도 있었다 — 이 지갑의 행보가 그 흐름과 일치하는 사례일 수는 있지만, 그 자체가 원인이라고 볼 근거는 없다.</p>
+<p class="en">There is reason for caution before reading this wallet's rotation as a broad market signal. First, the size of this conversion — roughly $31 million — is minor next to ether's average daily spot trading volume, typically in the billions of dollars. One wallet's repeated behavior reflects that trader's individual tactic, not necessarily a shift in broader institutional positioning. Separate on-chain data has shown an 'ether de-weighting' pattern from another angle — bitcoin whale address counts hitting 2026 highs while large holders trim ether exposure — and this wallet's activity may simply be one example consistent with that pattern rather than evidence that it is driving it.</p>
+<p class="ja">このウォレットの回転売買を広範な市場シグナルとして拡大解釈することには慎重であるべき理由がある。まず、今回の転換規模は約3,100万ドルで、イーサリアムの平均的な1日当たり現物取引高(通常は数十億ドル規模)に比べれば微々たるものだ。一つのウォレットの反復行動は、そのトレーダー個人の戦術を反映しているにすぎず、必ずしも機関投資家全体のポジショニングの変化を代表するものではない。実際、オンチェーンデータは別の角度からも「ETH比重縮小」の流れを示しており、ビットコインのクジラ・アドレス数が2026年の最高値を記録する一方で大口保有者がイーサへのエクスポージャーを減らしているとの分析もあった――このウォレットの動きはその流れと一致する一例である可能性はあるが、それ自体が原因であるとみなす根拠はない。</p>
+<p class="es">Hay motivos para la cautela antes de leer la rotación de esta billetera como una señal de mercado amplia. Primero, el tamaño de esta conversión —unos 31 millones de dólares— es menor frente al volumen promedio diario de operaciones spot de ether, típicamente en miles de millones de dólares. El comportamiento repetido de una sola billetera refleja la táctica individual de ese operador, no necesariamente un cambio en el posicionamiento institucional más amplio. Datos on-chain separados han mostrado un patrón de 'reducción de peso en ETH' desde otro ángulo —el número de direcciones ballena de bitcoin alcanzando máximos de 2026 mientras los grandes tenedores recortan su exposición a ether— y la actividad de esta billetera puede ser simplemente un ejemplo consistente con ese patrón, no evidencia de que lo esté impulsando.</p>
+<p class="de">Es gibt Grund zur Vorsicht, bevor man die Rotation dieser Wallet als breites Marktsignal deutet. Erstens ist die Größe dieser Umwandlung — rund 31 Millionen US-Dollar — gering im Vergleich zum durchschnittlichen täglichen Spot-Handelsvolumen von Ether, das typischerweise im Milliardenbereich liegt. Das wiederholte Verhalten einer einzelnen Wallet spiegelt die individuelle Taktik dieses Traders wider, nicht zwangsläufig eine Verschiebung der breiteren institutionellen Positionierung. Separate On-Chain-Daten haben aus einem anderen Blickwinkel ein Muster der 'Ether-Untergewichtung' gezeigt — die Zahl der Bitcoin-Whale-Adressen erreicht 2026-Höchststände, während große Halter ihr Ether-Engagement reduzieren — und die Aktivität dieser Wallet könnte einfach ein Beispiel sein, das mit diesem Muster übereinstimmt, kein Beweis dafür, dass sie es antreibt.</p>
+<p class="fr">Il y a lieu d'être prudent avant de lire la rotation de ce portefeuille comme un signal de marché large. D'abord, la taille de cette conversion — environ 31 millions de dollars — est mineure face au volume quotidien moyen des échanges spot de l'ether, typiquement de plusieurs milliards de dollars. Le comportement répété d'un seul portefeuille reflète la tactique individuelle de ce trader, pas nécessairement un changement dans le positionnement institutionnel plus large. Des données on-chain distinctes ont montré un schéma de « sous-pondération de l'ether » sous un autre angle — le nombre d'adresses baleines de bitcoin atteignant des sommets de 2026 tandis que les grands détenteurs réduisent leur exposition à l'ether — et l'activité de ce portefeuille pourrait simplement être un exemple cohérent avec ce schéma, non une preuve qu'il en est le moteur.</p>
+<p class="pt">Há motivo para cautela antes de ler a rotação dessa carteira como um sinal de mercado amplo. Primeiro, o tamanho dessa conversão — cerca de US$ 31 milhões — é pequeno diante do volume médio diário de negociação à vista do ether, tipicamente na casa dos bilhões de dólares. O comportamento repetido de uma única carteira reflete a tática individual daquele trader, não necessariamente uma mudança no posicionamento institucional mais amplo. Dados on-chain separados mostraram um padrão de 'redução de peso em ETH' de outro ângulo — o número de endereços baleia de bitcoin atingindo máximas de 2026 enquanto grandes detentores reduzem a exposição ao ether — e a atividade dessa carteira pode ser simplesmente um exemplo consistente com esse padrão, não evidência de que a está impulsionando.</p>
+<p class="tr">Bu cüzdanın rotasyonunu geniş bir piyasa sinyali olarak okumadan önce dikkatli olmak için nedenler var. Birincisi, bu dönüşümün boyutu — yaklaşık 31 milyon dolar — ether'in genellikle milyarlarca dolar olan ortalama günlük spot işlem hacmine kıyasla küçüktür. Tek bir cüzdanın tekrarlanan davranışı, o trader'ın bireysel taktiğini yansıtır; mutlaka daha geniş kurumsal pozisyonlamada bir değişimi göstermez. Ayrı zincir üstü veriler başka bir açıdan bir 'ETH ağırlık azaltma' örüntüsü göstermiştir — bitcoin balina adres sayıları 2026 zirvelerine ulaşırken büyük sahiplerin ether maruziyetini azaltması gibi — ve bu cüzdanın hareketi bu örüntüyle tutarlı bir örnek olabilir, ancak onu yönlendirdiğine dair bir kanıt değildir.</p>
+<p class="vi">Có lý do để thận trọng trước khi xem việc xoay vòng của ví này là một tín hiệu thị trường rộng lớn. Thứ nhất, quy mô của lần chuyển đổi này — khoảng 31 triệu đô la — là nhỏ so với khối lượng giao dịch giao ngay trung bình hàng ngày của ether, thường lên đến hàng tỷ đô la. Hành vi lặp lại của một ví đơn lẻ phản ánh chiến thuật cá nhân của nhà giao dịch đó, không nhất thiết là sự thay đổi trong định vị của các tổ chức nói chung. Dữ liệu on-chain riêng biệt đã cho thấy một mô hình 'giảm tỷ trọng ETH' từ một góc độ khác — số lượng địa chỉ cá voi bitcoin đạt đỉnh năm 2026 trong khi các holder lớn cắt giảm tiếp xúc với ether — và hoạt động của ví này có thể chỉ là một ví dụ phù hợp với mô hình đó, không phải bằng chứng cho thấy nó đang thúc đẩy xu hướng.</p>
+
+<p class="ko">또한 이 트레이더가 매번 이익을 낸 것도 아니다. 4월 로테이션에서 되찾은 ETH 수량과 매도 시점 대비 매수 시점까지 걸린 시간을 보면, 반등 타이밍을 놓쳐 손실 구간에서 재매수했을 가능성도 배제할 수 없다 — 공개된 수치는 매 라운드의 순이익만 보여줄 뿐, 그 사이 발생했을 수 있는 미실현 손실 구간은 드러내지 않는다. 다음으로 지켜봐야 할 것은 이 지갑이 이번에 확보한 496.3 BTC를 다시 ETH로 되돌리는 시점과 비율이다. 만약 ETH/BTC가 0.0285보다 낮은 수준에서 재매수가 이뤄진다면 패턴은 계속 유효한 것이고, 반대로 비율이 추가로 반등해 매수 시점을 놓친다면 이번 로테이션이 처음으로 손실을 내는 라운드가 될 수 있다.</p>
+<p class="en">Nor has this trader profited every round. Looking at the gap between the timing of each sale and the subsequent repurchase, it cannot be ruled out that some rounds involved buying back at a worse level after missing the bounce — the published net figures show only each round's final outcome, not any unrealized drawdown along the way. What to watch next is when, and at what ratio, this wallet rotates the 496.3 BTC it just acquired back into ETH. If the repurchase happens below 0.0285, the pattern holds; if the ratio instead keeps climbing and the wallet misses its window, this rotation could become the first round to post a loss.</p>
+<p class="ja">また、このトレーダーが毎回利益を出してきたわけでもない。各売却のタイミングとその後の買い戻しまでの間隔を見ると、反発のタイミングを逃してより悪い水準で買い戻した回があった可能性も排除できない――公表されている純利益の数値は各ラウンドの最終結果を示すのみで、その間に発生し得た含み損の局面は示していない。次に注目すべきは、このウォレットが今回獲得した496.3 BTCをいつ、どの比率で再びETHに回転させるかである。もし0.0285より低い水準で買い戻しが行われれば、このパターンは維持される。逆に比率がさらに反発し、買い時を逃せば、今回のローテーションが初めて損失を出すラウンドになる可能性がある。</p>
+<p class="es">Tampoco este operador ha obtenido ganancias en todas las rondas. Al observar el intervalo entre el momento de cada venta y la recompra posterior, no se puede descartar que en algunas rondas haya recomprado en un nivel peor tras perderse el rebote — las cifras netas publicadas solo muestran el resultado final de cada ronda, no ninguna pérdida no realizada en el camino. Lo próximo a observar es cuándo, y a qué ratio, esta billetera vuelve a rotar los 496,3 BTC que acaba de adquirir de nuevo hacia ETH. Si la recompra ocurre por debajo de 0,0285, el patrón se mantiene; si, en cambio, la ratio sigue subiendo y la billetera pierde su ventana, esta rotación podría convertirse en la primera ronda en registrar una pérdida.</p>
+<p class="de">Auch hat dieser Trader nicht in jeder Runde profitiert. Betrachtet man die Zeitspanne zwischen dem Zeitpunkt jedes Verkaufs und dem anschließenden Rückkauf, lässt sich nicht ausschließen, dass in manchen Runden nach einem verpassten Rebound zu einem schlechteren Niveau zurückgekauft wurde — die veröffentlichten Nettozahlen zeigen nur das Endergebnis jeder Runde, nicht etwaige nicht realisierte Verluste auf dem Weg dorthin. Als Nächstes zu beobachten ist, wann und zu welchem Verhältnis diese Wallet die gerade erworbenen 496,3 BTC wieder in ETH zurückdreht. Erfolgt der Rückkauf unter 0,0285, bleibt das Muster bestehen; steigt das Verhältnis dagegen weiter und verpasst die Wallet ihr Fenster, könnte diese Rotation die erste Runde mit einem Verlust werden.</p>
+<p class="fr">Ce trader n'a pas non plus profité à chaque cycle. En observant l'écart entre le moment de chaque vente et le rachat qui a suivi, on ne peut exclure que certains cycles aient impliqué un rachat à un niveau moins favorable après avoir manqué le rebond — les chiffres nets publiés ne montrent que le résultat final de chaque cycle, pas une éventuelle perte latente en cours de route. La prochaine chose à surveiller est le moment, et à quel ratio, ce portefeuille fera à nouveau tourner les 496,3 BTC qu'il vient d'acquérir vers l'ETH. Si le rachat se produit sous 0,0285, le schéma se maintient ; si en revanche le ratio continue de grimper et que le portefeuille rate sa fenêtre, cette rotation pourrait devenir le premier cycle à enregistrer une perte.</p>
+<p class="pt">Esse trader também não lucrou em todas as rodadas. Observando o intervalo entre o momento de cada venda e a recompra subsequente, não se pode descartar que algumas rodadas tenham envolvido recomprar em um nível pior após perder o salto — os números líquidos publicados mostram apenas o resultado final de cada rodada, não qualquer perda não realizada ao longo do caminho. O que observar a seguir é quando, e em que razão, essa carteira gira os 496,3 BTC que acabou de adquirir de volta para ETH. Se a recompra ocorrer abaixo de 0,0285, o padrão se mantém; se, em vez disso, a razão continuar subindo e a carteira perder sua janela, essa rotação pode se tornar a primeira rodada a registrar uma perda.</p>
+<p class="tr">Bu trader her turda kâr da etmemiştir. Her satışın zamanlaması ile sonraki geri alım arasındaki boşluğa bakıldığında, bazı turlarda sıçramayı kaçırdıktan sonra daha kötü bir seviyeden geri alım yapılmış olabileceği göz ardı edilemez — yayınlanan net rakamlar yalnızca her turun nihai sonucunu gösterir, yol boyunca oluşabilecek gerçekleşmemiş kayıpları göstermez. Bundan sonra izlenmesi gereken, bu cüzdanın az önce edindiği 496,3 BTC'yi ne zaman ve hangi oranda tekrar ETH'ye döndüreceğidir. Geri alım 0,0285'in altında gerçekleşirse örüntü devam eder; oran bunun yerine yükselmeye devam eder ve cüzdan penceresini kaçırırsa, bu rotasyon zarar kaydeden ilk tur olabilir.</p>
+<p class="vi">Nhà giao dịch này cũng không có lãi ở mọi vòng. Nhìn vào khoảng cách giữa thời điểm mỗi lần bán và lần mua lại sau đó, không thể loại trừ khả năng một số vòng đã phải mua lại ở mức tệ hơn sau khi bỏ lỡ đợt bật lên — các con số ròng được công bố chỉ cho thấy kết quả cuối cùng của mỗi vòng, không cho thấy bất kỳ khoản lỗ chưa hiện thực hóa nào trên đường đi. Điều cần theo dõi tiếp theo là khi nào, và ở tỷ lệ nào, ví này sẽ xoay 496,3 BTC vừa có được trở lại thành ETH. Nếu việc mua lại diễn ra dưới mức 0,0285, mô hình này vẫn đứng vững; nếu tỷ lệ tiếp tục tăng và ví bỏ lỡ thời điểm, lần xoay vòng này có thể trở thành vòng đầu tiên ghi nhận thua lỗ.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">한 고래 지갑의 2026년 ETH→BTC 로테이션 4회</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">1월: 22,345 ETH → 774 BTC (재매수 시 +2,219 ETH 이익)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">4월: 24,564 ETH → 784.7 BTC (재매수 시 +4,170 ETH 이익)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">7월5일: 4,695 ETH → 133.8 BTC (3회차)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">7월14일(오늘): 17,385 ETH → 496.3 BTC (4회차, 비율 ~0.0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">전략 흐름: ETH/BTC 비율 반등(강세) → ETH 매도·BTC 확보 → 비율 하락(약세) → ETH 재매수</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">반복 조건: 2026년 내내 이어진 ETH/BTC 하락 추세 (5월 10개월래 최저)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">자료: 비트코인닷컴(Bitcoin.com), 엠버씨엔(EmberCN), 쿠코인(KuCoin) (2026.7.14 보도 기준)</text>
+  </g>
+</svg>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">One Whale Wallet's 4 ETH→BTC Rotations in 2026</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Jan: 22,345 ETH → 774 BTC (repurchase netted +2,219 ETH)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Apr: 24,564 ETH → 784.7 BTC (repurchase netted +4,170 ETH)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">Jul 5: 4,695 ETH → 133.8 BTC (3rd rotation)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">Jul 14 (today): 17,385 ETH → 496.3 BTC (4th, ratio ~0.0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Strategy loop: ETH/BTC bounces (strength) → sell ETH, get BTC → ratio falls (weakness) → buy back ETH</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Enabling condition: ETH/BTC's sustained 2026 downtrend (10-month low hit in May)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Source: Bitcoin.com, EmberCN, KuCoin (as of Jul 14, 2026 reporting)</text>
+  </g>
+</svg>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">あるクジラ・ウォレットの2026年ETH→BTCローテーション4回</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">1月: 22,345 ETH → 774 BTC(買い戻しで+2,219 ETH利益)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">4月: 24,564 ETH → 784.7 BTC(買い戻しで+4,170 ETH利益)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">7月5日: 4,695 ETH → 133.8 BTC(3回目)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">7月14日(今日): 17,385 ETH → 496.3 BTC(4回目、比率~0.0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">戦略ループ: ETH/BTC反発(強気)→ETH売却・BTC確保→比率下落(弱気)→ETH買い戻し</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">成立条件: 2026年を通じて続くETH/BTCの下降トレンド(5月に10カ月ぶり安値)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">出典: ビットコイン・ドットコム(Bitcoin.com)、エンバーシーエヌ(EmberCN)、クーコイン(KuCoin)(2026.7.14報道時点)</text>
+  </g>
+</svg>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">4 Rotaciones ETH→BTC de una Billetera Ballena en 2026</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Ene: 22.345 ETH → 774 BTC (recompra: +2.219 ETH de ganancia)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Abr: 24.564 ETH → 784,7 BTC (recompra: +4.170 ETH de ganancia)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">5 jul: 4.695 ETH → 133,8 BTC (3ª rotación)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">14 jul (hoy): 17.385 ETH → 496,3 BTC (4ª, ratio ~0,0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Bucle de estrategia: ETH/BTC rebota (fuerza) → vender ETH, obtener BTC → ratio cae (debilidad) → recomprar ETH</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Condición habilitante: tendencia bajista sostenida de ETH/BTC en 2026 (mínimo de 10 meses en mayo)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Fuente: Bitcoin.com, EmberCN, KuCoin (según reporte del 14/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">4 ETH→BTC-Rotationen einer Whale-Wallet in 2026</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Jan: 22.345 ETH → 774 BTC (Rückkauf brachte +2.219 ETH)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Apr: 24.564 ETH → 784,7 BTC (Rückkauf brachte +4.170 ETH)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">5. Jul: 4.695 ETH → 133,8 BTC (3. Rotation)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">14. Jul (heute): 17.385 ETH → 496,3 BTC (4., Verhältnis ~0,0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Strategie-Schleife: ETH/BTC erholt sich (Stärke) → ETH verkaufen, BTC erhalten → Verhältnis fällt (Schwäche) → ETH zurückkaufen</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Voraussetzung: anhaltender ETH/BTC-Abwärtstrend 2026 (10-Monats-Tief im Mai)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Quelle: Bitcoin.com, EmberCN, KuCoin (Stand Berichterstattung 14.7.2026)</text>
+  </g>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">4 Rotations ETH→BTC d'un Portefeuille Baleine en 2026</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Jan : 22 345 ETH → 774 BTC (rachat : +2 219 ETH de gain)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Avr : 24 564 ETH → 784,7 BTC (rachat : +4 170 ETH de gain)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">5 juil : 4 695 ETH → 133,8 BTC (3e rotation)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">14 juil (aujourd'hui) : 17 385 ETH → 496,3 BTC (4e, ratio ~0,0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Boucle stratégique : ETH/BTC rebondit (force) → vendre ETH, obtenir BTC → ratio baisse (faiblesse) → racheter ETH</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Condition : tendance baissière soutenue de l'ETH/BTC en 2026 (plus bas de 10 mois en mai)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Source : Bitcoin.com, EmberCN, KuCoin (selon rapport du 14/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">4 Rotações ETH→BTC de uma Carteira Baleia em 2026</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Jan: 22.345 ETH → 774 BTC (recompra: +2.219 ETH de lucro)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Abr: 24.564 ETH → 784,7 BTC (recompra: +4.170 ETH de lucro)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">5 jul: 4.695 ETH → 133,8 BTC (3ª rotação)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">14 jul (hoje): 17.385 ETH → 496,3 BTC (4ª, razão ~0,0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Ciclo da estratégia: ETH/BTC sobe (força) → vender ETH, obter BTC → razão cai (fraqueza) → recomprar ETH</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Condição habilitante: tendência de baixa sustentada do ETH/BTC em 2026 (mínima de 10 meses em maio)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Fonte: Bitcoin.com, EmberCN, KuCoin (conforme reportado em 14/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Bir Balina Cüzdanının 2026'daki 4 ETH→BTC Rotasyonu</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Oca: 22.345 ETH → 774 BTC (geri alım: +2.219 ETH kâr)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Nis: 24.564 ETH → 784,7 BTC (geri alım: +4.170 ETH kâr)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">5 Tem: 4.695 ETH → 133,8 BTC (3. rotasyon)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">14 Tem (bugün): 17.385 ETH → 496,3 BTC (4., oran ~0,0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Strateji döngüsü: ETH/BTC sıçrar (güç) → ETH sat, BTC al → oran düşer (zayıflık) → ETH geri al</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Koşul: 2026 boyunca süren ETH/BTC düşüş trendi (mayısta 10 aylık dip)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Kaynak: Bitcoin.com, EmberCN, KuCoin (14.7.2026 haberine göre)</text>
+  </g>
+</svg>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">4 Lần Xoay Vòng ETH→BTC Của Một Ví Cá Voi Trong Năm 2026</text>
+  <g font-family="sans-serif">
+    <text x="20" y="58" fill="#a1a1aa" font-size="13">Th1: 22.345 ETH → 774 BTC (mua lại: lãi +2.219 ETH)</text>
+    <rect x="20" y="70" width="500" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13">Th4: 24.564 ETH → 784,7 BTC (mua lại: lãi +4.170 ETH)</text>
+    <rect x="20" y="132" width="560" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="182" fill="#a1a1aa" font-size="13">5/7: 4.695 ETH → 133,8 BTC (lần 3)</text>
+    <rect x="20" y="194" width="200" height="30" rx="6" fill="#3f3f46"/>
+    <text x="20" y="244" fill="#38bdf8" font-size="13" font-weight="700">14/7 (hôm nay): 17.385 ETH → 496,3 BTC (lần 4, tỷ lệ ~0,0285)</text>
+    <rect x="20" y="256" width="660" height="34" rx="6" fill="#38bdf8" opacity="0.9"/>
+
+    <text x="20" y="325" fill="#a1a1aa" font-size="13">Vòng lặp chiến lược: ETH/BTC bật lên (mạnh) → bán ETH, nhận BTC → tỷ lệ giảm (yếu) → mua lại ETH</text>
+    <rect x="20" y="337" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="365" fill="#e4e4e7" font-size="13" text-anchor="middle">Điều kiện: xu hướng giảm ETH/BTC kéo dài suốt 2026 (đáy 10 tháng vào tháng 5)</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Nguồn: Bitcoin.com, EmberCN, KuCoin (theo báo cáo ngày 14/7/2026)</text>
+  </g>
+</svg>
+</div>
+
+<div class="box ko">💡 <strong>시사점:</strong> 온체인 분석가 엠버씨엔의 데이터를 인용한 비트코인닷컴 7월14일 보도에 따르면, 한 고래 지갑이 17,385 ETH(약 3,100만 달러)를 496.3 BTC로 전환하며 올해 네 번째 ETH→BTC 로테이션을 실행했다. 1월과 4월에도 같은 패턴으로 각각 2,219 ETH, 4,170 ETH의 이익을 남겼고, 지난 7월5일에는 세 번째 로테이션을 진행했다. 다만 전환 규모(3,100만 달러)가 이더리움의 하루 평균 거래대금에 비하면 미미해, 이를 시장 전반의 신호로 확대 해석하기는 어렵다. 다음 관전 포인트는 이 지갑이 새로 확보한 496.3 BTC를 언제, 어떤 비율로 다시 ETH로 되돌리는지다.</div>
+<div class="box en">💡 <strong>Takeaway:</strong> According to Bitcoin.com's July 14 report citing on-chain analyst EmberCN, a whale wallet converted 17,385 ETH (about $31 million) into 496.3 BTC, marking its fourth ETH-to-BTC rotation of the year. The same pattern in January and April netted 2,219 ETH and 4,170 ETH in profit respectively, and a third rotation took place on July 5. However, the size of this conversion ($31 million) is minor relative to ether's average daily trading volume, making it hard to read as a broad market signal. What to watch next is when, and at what ratio, this wallet rotates its newly acquired 496.3 BTC back into ETH.</div>
+<div class="box ja">💡 <strong>示唆:</strong> オンチェーン分析家エンバーシーエヌのデータを引用したビットコイン・ドットコムの7月14日の報道によれば、あるクジラ・ウォレットが17,385 ETH(約3,100万ドル)を496.3 BTCに転換し、今年4回目のETH→BTCローテーションを実行した。1月と4月にも同じパターンでそれぞれ2,219 ETH、4,170 ETHの利益を残し、7月5日には3回目のローテーションを行った。ただし転換規模(3,100万ドル)はイーサリアムの平均的な1日取引高に比べれば微々たるもので、これを市場全体のシグナルとして拡大解釈するのは難しい。次に注目すべきは、このウォレットが新たに獲得した496.3 BTCをいつ、どの比率で再びETHに戻すかである。</div>
+<div class="box es">💡 <strong>Conclusión:</strong> Según el informe de Bitcoin.com del 14 de julio que cita al analista on-chain EmberCN, una billetera ballena convirtió 17.385 ETH (unos 31 millones de dólares) en 496,3 BTC, marcando su cuarta rotación de ETH a BTC del año. El mismo patrón en enero y abril generó 2.219 ETH y 4.170 ETH de ganancia respectivamente, y una tercera rotación tuvo lugar el 5 de julio. Sin embargo, el tamaño de esta conversión (31 millones de dólares) es menor frente al volumen promedio diario de negociación de ether, lo que dificulta leerlo como una señal de mercado amplia. Lo próximo a observar es cuándo, y a qué ratio, esta billetera rota de nuevo hacia ETH los 496,3 BTC recién adquiridos.</div>
+<div class="box de">💡 <strong>Fazit:</strong> Laut dem Bericht von Bitcoin.com vom 14. Juli, der sich auf den On-Chain-Analysten EmberCN beruft, wandelte eine Whale-Wallet 17.385 ETH (rund 31 Millionen US-Dollar) in 496,3 BTC um — ihre vierte ETH-zu-BTC-Rotation des Jahres. Dasselbe Muster brachte im Januar und April 2.219 bzw. 4.170 ETH Gewinn, und am 5. Juli fand eine dritte Rotation statt. Die Größe dieser Umwandlung (31 Millionen US-Dollar) ist jedoch gering im Vergleich zum durchschnittlichen täglichen Handelsvolumen von Ether, weshalb es schwerfällt, dies als breites Marktsignal zu deuten. Als Nächstes zu beobachten ist, wann und zu welchem Verhältnis diese Wallet ihre neu erworbenen 496,3 BTC wieder in ETH zurückdreht.</div>
+<div class="box fr">💡 <strong>À retenir :</strong> Selon le rapport de Bitcoin.com du 14 juillet citant l'analyste on-chain EmberCN, un portefeuille baleine a converti 17 385 ETH (environ 31 millions de dollars) en 496,3 BTC, marquant sa quatrième rotation ETH-vers-BTC de l'année. Le même schéma en janvier et avril a rapporté respectivement 2 219 ETH et 4 170 ETH de gains, et une troisième rotation a eu lieu le 5 juillet. Cependant, la taille de cette conversion (31 millions de dollars) est mineure face au volume d'échange quotidien moyen de l'ether, ce qui rend difficile d'y voir un signal de marché large. La prochaine chose à surveiller est le moment, et à quel ratio, ce portefeuille fera tourner ses 496,3 BTC nouvellement acquis à nouveau vers l'ETH.</div>
+<div class="box pt">💡 <strong>Conclusão:</strong> Segundo o relatório do Bitcoin.com de 14 de julho citando o analista on-chain EmberCN, uma carteira baleia converteu 17.385 ETH (cerca de US$ 31 milhões) em 496,3 BTC, marcando sua quarta rotação de ETH para BTC do ano. O mesmo padrão em janeiro e abril rendeu 2.219 ETH e 4.170 ETH de lucro, respectivamente, e uma terceira rotação ocorreu em 5 de julho. No entanto, o tamanho dessa conversão (US$ 31 milhões) é pequeno diante do volume médio diário de negociação do ether, dificultando lê-lo como um sinal de mercado amplo. O que observar a seguir é quando, e em que razão, essa carteira gira os 496,3 BTC recém-adquiridos de volta para ETH.</div>
+<div class="box tr">💡 <strong>Sonuç:</strong> Zincir üstü analist EmberCN'in verilerine atıfta bulunan Bitcoin.com'un 14 Temmuz raporuna göre, bir balina cüzdanı 17.385 ETH'yi (yaklaşık 31 milyon dolar) 496,3 BTC'ye dönüştürerek yılın dördüncü ETH-BTC rotasyonunu gerçekleştirdi. Ocak ve nisanda aynı örüntü sırasıyla 2.219 ETH ve 4.170 ETH kâr getirmişti ve 5 Temmuz'da üçüncü rotasyon gerçekleşmişti. Ancak bu dönüşümün boyutu (31 milyon dolar), ether'in ortalama günlük işlem hacmine kıyasla küçük olduğundan, bunu geniş bir piyasa sinyali olarak okumak zor. Bundan sonra izlenmesi gereken, bu cüzdanın yeni edindiği 496,3 BTC'yi ne zaman ve hangi oranda tekrar ETH'ye döndüreceğidir.</div>
+<div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Theo báo cáo ngày 14/7 của Bitcoin.com dẫn lời nhà phân tích on-chain EmberCN, một ví cá voi đã chuyển đổi 17.385 ETH (khoảng 31 triệu đô la) thành 496,3 BTC, đánh dấu lần xoay vòng ETH sang BTC thứ tư trong năm. Cùng mô hình đó vào tháng 1 và tháng 4 đã mang lại lần lượt 2.219 ETH và 4.170 ETH lợi nhuận, và lần xoay vòng thứ ba diễn ra vào ngày 5/7. Tuy nhiên, quy mô của lần chuyển đổi này (31 triệu đô la) là nhỏ so với khối lượng giao dịch trung bình hàng ngày của ether, khiến khó có thể xem đây là tín hiệu thị trường rộng lớn. Điều cần theo dõi tiếp theo là khi nào, và ở tỷ lệ nào, ví này sẽ xoay 496,3 BTC vừa có được trở lại thành ETH.</div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 비트코인닷컴(Bitcoin.com), 엠버씨엔(EmberCN), 온체인렌즈(Onchain Lens), 쿠코인(KuCoin), 코인데스크(CoinDesk). 이 글은 투자 조언이 아니다.</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. This article is not investment advice.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: ビットコイン・ドットコム(Bitcoin.com)、エンバーシーエヌ(EmberCN)、オンチェーンレンズ(Onchain Lens)、クーコイン(KuCoin)、コインデスク(CoinDesk)。本記事は投資助言ではない。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. Este artículo no es asesoramiento de inversión.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. Dieser Artikel ist keine Anlageberatung.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. Cet article ne constitue pas un conseil en investissement.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. Este artigo não é aconselhamento de investimento.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. Bu yazı yatırım tavsiyesi değildir.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Bitcoin.com, EmberCN, Onchain Lens, KuCoin, CoinDesk. Bài viết này không phải là lời khuyên đầu tư.</p>
+<?php require __DIR__.'/_footer.php'; ?>
