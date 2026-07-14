@@ -96,6 +96,31 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <!DOCTYPE html>
 <html lang="<?= $htmlLang ?>" id="hr">
 <head>
+<script>
+/* 새로고침 시 스크롤 덜컹임 + 목차 팝인 방지:
+   리로드일 때만 DOM/스크롤 확정까지 화면을 숨겼다가 위치 잡고 한 번에 표시.
+   (본문 끝쪽에서 함께 섹션 주입 등으로 높이가 바뀌어 스크롤 복원이 어긋나는 문제를 근본 차단) */
+(function(){
+  try{
+    if(!('scrollRestoration' in history)) return;
+    var de=document.documentElement, KEY='bt_vs_'+location.pathname;
+    var _n=(window.performance&&performance.getEntriesByType&&performance.getEntriesByType('navigation')[0]);
+    var reload=_n?(_n.type==='reload'):(window.performance&&performance.navigation&&performance.navigation.type===1);
+    var save=function(){ try{ sessionStorage.setItem(KEY,String(window.scrollY||window.pageYOffset||0)); }catch(e){} };
+    var st; window.addEventListener('scroll',function(){ clearTimeout(st); st=setTimeout(save,150); },{passive:true});
+    window.addEventListener('pagehide',save);
+    if(reload){
+      history.scrollRestoration='manual';
+      de.style.visibility='hidden';                 // 로드 중 숨김(레이아웃은 계산됨)
+      var reveal=function(){ de.style.visibility=''; };
+      var restore=function(){ var y=0; try{ y=parseInt(sessionStorage.getItem(KEY)||'0',10)||0; }catch(e){} if(y>0) window.scrollTo(0,y); reveal(); };
+      if(document.readyState!=='loading') restore();
+      else document.addEventListener('DOMContentLoaded', restore);  // 함께/목차 DOM 확정 후
+      setTimeout(reveal, 700);                        // 안전장치: 무슨 일 있어도 표시
+    }
+  }catch(e){ try{ document.documentElement.style.visibility=''; }catch(_){} }
+})();
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
 <script>
