@@ -139,4 +139,21 @@
   }
 
   w.BTLang = { get: get, save: save, stampUrl: stampUrl, readCookie: readCookie, isValid: isValid, i18nHref: i18nHref, pathify: pathify };
+
+  // ── 언어 기억(전 페이지 공통) ──
+  // 접두어 없는(ko 기본) URL로 들어왔는데 저장된 선호 언어가 비-ko면 그 언어 경로로 즉시 이동.
+  // 예: 대시보드에서 en 선택(쿠키 저장) → /blog/ 클릭 → 여기서 /en/blog/ 로 replace.
+  // resolveLang이 쿠키를 안 읽으므로(경로가 언어 결정), 이 클라 리다이렉트가 '언어 유지'를 담당한다.
+  // 크롤러(쿠키·JS 없음)는 ko 그대로 → SEO 정상. 경로에 언어가 있으면(pathLang) skip = 무한루프 없음.
+  (function(){
+    try {
+      if (pathLang()) return;                 // 이미 /en/... → skip
+      if (urlLang()) return;                  // ?lang= 있음 → skip
+      var saved = readCookie();
+      if (!isValid(saved) || saved === 'ko') return;
+      var cur = location.pathname + location.search + location.hash;
+      var to  = i18nHref(cur, saved);
+      if (to && to !== cur) location.replace(to);
+    } catch (e) {}
+  })();
 })(window);

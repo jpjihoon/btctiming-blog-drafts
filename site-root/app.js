@@ -2328,18 +2328,6 @@ try {
   var _cur = (typeof currentLang !== 'undefined') ? currentLang : 'ko';
   if (window.BTLang && BTLang.stampUrl) BTLang.stampUrl(_cur);  // 경로형 URL이면 ?lang= 안 붙임
 } catch(e) {}
-// 언어 기억 복원: 접두어 없는(ko 기본) URL로 들어왔는데 저장된 선호 언어가 비-ko면
-// 그 언어 경로로 즉시 이동(예: / 에 왔는데 저장이 de → /de). ?lang= 안 거치고 clean.
-// (경로에 이미 언어가 있으면 __btPathLang()이 값을 반환 → 이동 안 함 = 루프 없음)
-try {
-  if (!__btPathLang() && !new URLSearchParams(location.search).get('lang') && window.BTLang && BTLang.readCookie && BTLang.i18nHref) {
-    var __sv = BTLang.readCookie();
-    if (__sv && __sv !== 'ko' && SUPPORTED_LANG_CODES.includes(__sv)) {
-      var __to = BTLang.i18nHref(location.pathname + location.search + location.hash, __sv);
-      if (__to && __to !== location.pathname + location.search + location.hash) location.replace(__to);
-    }
-  }
-} catch(e) {}
 
 /** 코드 곳곳에 흩어진 'ko ? A : B' 삼항연산자들을 여러 언어로 확장하기 위한 헬퍼.
  *  기존 사용법(하위호환, ko/en/ja 3개 고정): TT({ko:'한국어',en:'English',ja:'日本語',es:'Español',de:'Deutsch',fr:'Français',pt:'Português',tr:'Türkçe',vi:'Tiếng Việt'})
