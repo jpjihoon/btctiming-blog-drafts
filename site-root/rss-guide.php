@@ -15,7 +15,8 @@ function cn($ci,$lc){ return $ci[$lc] ?? ($ci['ko'] ?? ($ci['en'] ?? '')); }
 
 $GUIDE_TITLE = 'RSS · BTCtiming.com';
 $GUIDE_DESC = 'BTCtiming.com 블로그 RSS 피드. 전체·카테고리별·언어별 구독.';
-$GUIDE_CANONICAL = $baseUrl . '/rss-guide.php';
+$GUIDE_KOPATH = '/rss-guide.php';                    // _guide_head가 i18nUrl로 경로형 canonical·hreflang 생성
+$GUIDE_CANONICAL = $baseUrl . '/rss-guide.php';   // 폴백(GUIDE_KOPATH 우선)
 $GUIDE_EXTRA_CSS = '
 .hero{border-bottom:1px solid rgba(255,255,255,.08)}
 .hero-in{max-width:800px;margin:0 auto;padding:38px 16px 26px}

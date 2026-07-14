@@ -52,7 +52,7 @@ $T = [
 ];
 $t = $T[$lang] ?? $T['en'];
 $LNG = ['ko'=>'🇰🇷 한국어','en'=>'🇺🇸 English','ja'=>'🇯🇵 日本語','es'=>'🇪🇸 Español','de'=>'🇩🇪 Deutsch'];
-$canonical = 'https://btctiming.com/coins.php' . $urlSuffix;
+$canonical = i18nUrl('/coins.php', $lang);
 ?>
 <!DOCTYPE html>
 <html lang="<?= $htmlLang ?>">
@@ -62,6 +62,10 @@ $canonical = 'https://btctiming.com/coins.php' . $urlSuffix;
 <title><?= h($t['h1']) ?> | BTCtiming.com</title>
 <meta name="description" content="<?= h($t['lead']) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
+<?php foreach (array_keys(SUPPORTED_LANGS) as $lc): ?>
+<link rel="alternate" hreflang="<?= h($lc) ?>" href="<?= h(i18nUrl('/coins.php', $lc)) ?>">
+<?php endforeach; ?>
+<link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/coins.php', 'ko')) ?>">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5}
@@ -103,18 +107,19 @@ h1{font-size:22px;font-weight:700;color:#fafafa;margin-bottom:6px}
 footer{border-top:1px solid rgba(255,255,255,.06);padding:24px;text-align:center;font-size:11px;color:#666}
 footer a{color:#666;text-decoration:underline}
 </style>
+<script src="/lang-common.js"></script>
 </head>
 <body>
 <nav><div class="nav-w">
-  <a href="/<?= h($urlSuffix) ?>" class="logo">BTC<span>timing</span></a>
-  <span class="back">← <a href="/<?= h($urlSuffix) ?>"><?= h($t['back']) ?></a></span>
+  <a href="<?= h(i18nPath('/', $lang)) ?>" class="logo">BTC<span>timing</span></a>
+  <span class="back">← <a href="<?= h(i18nPath('/', $lang)) ?>"><?= h($t['back']) ?></a></span>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" onclick="document.getElementById('langDropdown').classList.toggle('open');event.stopPropagation()">
       <span><?= strtoupper($lang) ?></span><span class="lang-caret">▾</span>
     </button>
     <div class="lang-menu">
       <?php foreach (array_keys(SUPPORTED_LANGS) as $lc): ?>
-      <a class="lang-menu-item<?= $lc===$lang ? ' active' : '' ?>" href="/coins.php<?= h(langSuffix($lc)) ?>"><?= h($LNG[$lc] ?? strtoupper($lc)) ?></a>
+      <a class="lang-menu-item<?= $lc===$lang ? ' active' : '' ?>" href="<?= h(i18nPath('/coins.php', $lc)) ?>"><?= h($LNG[$lc] ?? strtoupper($lc)) ?></a>
       <?php endforeach; ?>
     </div>
   </div>
@@ -137,9 +142,9 @@ footer a{color:#666;text-decoration:underline}
 <footer>
   © 2026 BTCtiming.com ·
   <a href="/rss-guide.php">RSS</a> ·
-  <a href="/sitemap-guide.php<?= h($urlSuffix) ?>"><?= h($t['sitemap']) ?></a> ·
-  <a href="/privacy<?= h($urlSuffix) ?>"><?= h($t['privacy']) ?></a> ·
-  <a href="/terms<?= h($urlSuffix) ?>"><?= h($t['terms']) ?></a> ·
+  <a href="<?= h(i18nPath('/sitemap-guide.php', $lang)) ?>"><?= h($t['sitemap']) ?></a> ·
+  <a href="<?= h(i18nPath('/privacy', $lang)) ?>"><?= h($t['privacy']) ?></a> ·
+  <a href="<?= h(i18nPath('/terms', $lang)) ?>"><?= h($t['terms']) ?></a> ·
   <?= h($t['disclaimer']) ?>
 </footer>
 

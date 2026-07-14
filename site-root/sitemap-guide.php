@@ -42,7 +42,8 @@ $latest = $hasArticles ? array_key_first($byDate) : '';
 
 $GUIDE_TITLE = 'Sitemap · BTCtiming.com';
 $GUIDE_DESC = 'BTCtiming.com 블로그 글을 날짜별로 조회하는 사이트맵.';
-$GUIDE_CANONICAL = $baseUrl . '/sitemap-guide.php';
+$GUIDE_KOPATH = '/sitemap-guide.php';                    // _guide_head가 i18nUrl로 경로형 canonical·hreflang 생성
+$GUIDE_CANONICAL = $baseUrl . '/sitemap-guide.php';   // 폴백(GUIDE_KOPATH 우선)
 $GUIDE_EXTRA_CSS = '
 .hero{border-bottom:1px solid rgba(255,255,255,.08)}
 .hero-in{max-width:800px;margin:0 auto;padding:38px 16px 26px}
