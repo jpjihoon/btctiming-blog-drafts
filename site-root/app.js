@@ -1035,7 +1035,7 @@ function makeCard(d,mode='buy'){
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
       ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
   const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
-  const glossaryBtn=glossarySlug?`<a href="/glossary/${glossarySlug}${glossarySuffixVal}"
+  const glossaryBtn=glossarySlug?`<a href="${langHref('/glossary/'+glossarySlug, currentLang)}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
       text-decoration:none;border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px">
@@ -2328,6 +2328,18 @@ try {
   var _cur = (typeof currentLang !== 'undefined') ? currentLang : 'ko';
   if (window.BTLang && BTLang.stampUrl) BTLang.stampUrl(_cur);  // 경로형 URL이면 ?lang= 안 붙임
 } catch(e) {}
+// 언어 기억 복원: 접두어 없는(ko 기본) URL로 들어왔는데 저장된 선호 언어가 비-ko면
+// 그 언어 경로로 즉시 이동(예: / 에 왔는데 저장이 de → /de). ?lang= 안 거치고 clean.
+// (경로에 이미 언어가 있으면 __btPathLang()이 값을 반환 → 이동 안 함 = 루프 없음)
+try {
+  if (!__btPathLang() && !new URLSearchParams(location.search).get('lang') && window.BTLang && BTLang.readCookie && BTLang.i18nHref) {
+    var __sv = BTLang.readCookie();
+    if (__sv && __sv !== 'ko' && SUPPORTED_LANG_CODES.includes(__sv)) {
+      var __to = BTLang.i18nHref(location.pathname + location.search + location.hash, __sv);
+      if (__to && __to !== location.pathname + location.search + location.hash) location.replace(__to);
+    }
+  }
+} catch(e) {}
 
 /** 코드 곳곳에 흩어진 'ko ? A : B' 삼항연산자들을 여러 언어로 확장하기 위한 헬퍼.
  *  기존 사용법(하위호환, ko/en/ja 3개 고정): TT({ko:'한국어',en:'English',ja:'日本語',es:'Español',de:'Deutsch',fr:'Français',pt:'Português',tr:'Türkçe',vi:'Tiếng Việt'})
@@ -2738,6 +2750,8 @@ function setLang(lang) {
   loadTicker(); // 언어가 바뀌면 상단 티커의 기준 통화(KRW/USD/JPY/EUR)도 다시 불러옴
   if(indCache[currentCoin]) renderAll(indCache[currentCoin]);
   else loadAll();
+  // 모든 내부 링크를 경로형으로(서버가 ?lang=로 렌더한 것도 여기서 정리). 비동기 렌더분은 지연 재호출.
+  if(window.BTLang && BTLang.pathify){ BTLang.pathify(lang); setTimeout(function(){ BTLang.pathify(lang); }, 400); }
 }
 
 /** 드롭다운 트리거 라벨 + 메뉴 항목 active 상태 + <html lang> + nav Blog 링크를 한 번에 갱신 */
@@ -3067,7 +3081,7 @@ function applyStaticI18n() {
   if(_tip && _tip.style.display !== 'none' && typeof renderOnboardText === 'function') renderOnboardText();
   // 거래소 배너 링크도 현재 언어를 따라가게 (한국어는 접미사 없음)
   const _bn = document.getElementById('exchBanner');
-  if(_bn){ _bn.setAttribute('href', '/exchanges.php' + (currentLang && currentLang!=='ko' ? ('?lang='+currentLang) : '')); }
+  if(_bn){ _bn.setAttribute('href', langHref('/exchanges.php', currentLang)); }
 
   // 라이브 채팅 UI 문구도 현재 언어로 갱신 (data-i가 없어 일괄 번역에서 빠지므로 별도 함수로)
   if(typeof syncChatLang === 'function') syncChatLang();

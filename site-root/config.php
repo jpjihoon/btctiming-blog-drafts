@@ -180,12 +180,10 @@ function langSuffix(string $lang): string {
  * @return string SUPPORTED_LANGS에 존재하는 언어 코드 (기본 'ko')
  */
 function resolveLang(): string {
+    // 경로형 구조: 언어는 URL이 결정한다. (/=ko, /de=de … rewrite가 ?lang= 로 넘겨줌)
+    // 쿠키는 읽지 않는다 — 읽으면 / 가 마지막 선택 언어로 렌더돼 경로(/)와 어긋난다.
     if (isset($_GET['lang']) && array_key_exists($_GET['lang'], SUPPORTED_LANGS)) {
         return $_GET['lang'];
-    }
-    // URL에 ?lang= 이 없으면 저장 쿠키(blogLang)를 존중 → 서버가 사용자의 언어로 바로 렌더(FOUC 방지)
-    if (isset($_COOKIE['blogLang']) && array_key_exists($_COOKIE['blogLang'], SUPPORTED_LANGS)) {
-        return $_COOKIE['blogLang'];
     }
     return 'ko';
 }
