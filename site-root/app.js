@@ -1034,7 +1034,6 @@ function makeCard(d,mode='buy'){
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;font-size:10px;color:var(--orange);
       text-decoration:none;border:1px solid rgba(247,147,26,.3);border-radius:6px;padding:4px 8px">
       ${TT({ko:'가이드 보기',en:'Read Guide',ja:'ガイドを見る',es:'Ver Guía',de:'Anleitung ansehen',fr:'Lire le guide',pt:'Ler o guia',tr:'Kılavuzu oku',vi:'Đọc hướng dẫn'})} →</a>`:'';
-  const glossarySuffixVal = (currentLang==='ko')?'':('?lang='+currentLang);
   const glossaryBtn=glossarySlug?`<a href="${langHref('/glossary/'+glossarySlug, currentLang)}"
       onclick="event.stopPropagation()"
       style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;margin-left:6px;font-size:10px;color:var(--t2);
