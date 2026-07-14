@@ -336,8 +336,10 @@ function applySavedLang() {
     var SUP = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
     var picked = false;
     try{ picked = localStorage.getItem('blogLangPicked') === '1'; }catch(e){}
-    const urlLang = new URLSearchParams(location.search).get('lang');
-    if(!picked && SUP.indexOf(urlLang)!==-1) return;
+    var __plm = location.pathname.match(/^\/([a-z]{2})(?:\/|$)/);
+    var __pathLang = (__plm && SUP.indexOf(__plm[1])!==-1) ? __plm[1] : null;
+    const urlLang = __pathLang || new URLSearchParams(location.search).get('lang');
+    if((__pathLang || !picked) && SUP.indexOf(urlLang)!==-1) return;
     const saved = getBlogLang();
     const current = document.getElementById('hr').lang;
     if(saved === current) return;

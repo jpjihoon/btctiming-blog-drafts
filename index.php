@@ -264,6 +264,7 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 
 
 *{box-sizing:border-box;margin:0;padding:0}
+html{overflow-y:scroll}
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
@@ -656,7 +657,8 @@ function restoreBlogLang() {
     // (저장값을 보면 뒤로가기로 온 목록이 최근 방문 언어로 오염됨.)
     // 목록은 카드에 인라인 style이 남아 있어 CSS만으론 표시 안 되므로, setLang으로 화면을 정리한다.
     // 단 저장은 하지 않는다(두 번째 인자 생략 = doSave false).
-    const urlLang = new URLSearchParams(location.search).get('lang');
+    var __plm = location.pathname.match(/^\/([a-z]{2})(?:\/|$)/);
+    const urlLang = (__plm && VALID.includes(__plm[1])) ? __plm[1] : new URLSearchParams(location.search).get('lang');
     const pick = VALID.includes(urlLang) ? urlLang : 'ko';
     setLang(pick);
   } catch(e){}
