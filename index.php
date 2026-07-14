@@ -203,12 +203,12 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
 <style>:root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
-.exch-banner{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s}
-.exch-banner:hover{border-color:rgba(247,147,26,.7)}
+.exch-banner{display:flex;align-items:center;gap:11px;text-decoration:none;background:var(--bg2);border:1px solid var(--b2);border-radius:12px;padding:14px 15px;transition:border-color .15s,background .15s,transform .15s}
+.exch-banner:hover{border-color:rgba(247,147,26,.7);background:var(--bg3,#1a1a1f);transform:translateY(-2px)}
 .exch-banner:active{transform:scale(.99)}
 .exch-banner-tx{display:flex;flex-direction:column;gap:2px;line-height:1.3;flex:1;min-width:0}
-.exch-banner-tx b{font-size:13.5px;color:#f2f2f5;font-weight:800;letter-spacing:-.2px}.exch-banner-tx b span{color:#f2f2f5}
-.exch-banner-tx span{font-size:11px;color:var(--t3)}
+.exch-banner-tx b{font-size:14.5px;color:#f2f2f5;font-weight:800;letter-spacing:-.2px;line-height:1.35}.exch-banner-tx b span{color:#f2f2f5}
+.exch-banner-tx span{font-size:12px;color:var(--t2)}
 .exch-banner-ar{color:var(--t3);font-weight:700;font-size:18px;flex-shrink:0;line-height:1}
 
 

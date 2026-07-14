@@ -363,13 +363,13 @@ ul,ol{margin:0 0 14px 22px;color:#9a9aa4}li{margin-bottom:6px}
 /* 이전 글 / 다음 글 바로가기 */
 .prevnext{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:48px 0 44px}
 /* 블로그 본문 광고 배너 (거래소 비교로 연결) */
-.blog-ad{display:flex;align-items:center;gap:13px;text-decoration:none;margin:44px 0 8px;padding:16px 18px;border-radius:14px;position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(240,185,11,.14),rgba(251,146,60,.08));border:1px solid rgba(240,185,11,.4);transition:border-color .2s}
-.blog-ad:hover{border-color:rgba(240,185,11,.65);text-decoration:none}
-.blog-ad-ic{font-size:24px;flex-shrink:0}
-.blog-ad-tx{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}
-.blog-ad-tx b{font-size:15px;font-weight:800;color:#fff;line-height:1.3}
-.blog-ad-tx span{font-size:12.5px;color:rgba(255,255,255,.72)}
-.blog-ad-ar{color:#f0b90b;font-weight:700;font-size:22px;flex-shrink:0;line-height:1}
+.blog-ad{display:flex;align-items:center;gap:12px;text-decoration:none;margin:36px 0 8px;padding:15px 16px;border-radius:12px;background:var(--bg2,#141418);border:1px solid var(--b2,rgba(255,255,255,.12));transition:border-color .2s,background .2s}
+.blog-ad:hover{border-color:rgba(247,147,26,.6);background:#1a1a1f;text-decoration:none}
+.blog-ad-bar{width:3px;align-self:stretch;background:#f7931a;border-radius:2px;flex-shrink:0}
+.blog-ad-tx{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0;line-height:1.35}
+.blog-ad-tx b{font-size:14px;font-weight:800;color:var(--t1,#f2f2f5);line-height:1.3;letter-spacing:-.2px}
+.blog-ad-tx span{font-size:12px;color:var(--t3,#63636d)}
+.blog-ad-ar{color:var(--t3,#63636d);font-weight:700;font-size:18px;flex-shrink:0;line-height:1}
 .pn-link{display:flex;flex-direction:column;gap:5px;padding:14px 16px;background:#1b1b21;border:1px solid rgba(255,255,255,.07);border-radius:12px;text-decoration:none;transition:border-color .15s,background .15s,transform .15s;min-width:0}
 .pn-link:hover{border-color:rgba(247,147,26,.4);background:#1b1b21;transform:translateY(-1px)}
 .pn-next{text-align:right;align-items:flex-end}
