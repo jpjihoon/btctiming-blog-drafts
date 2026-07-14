@@ -439,10 +439,10 @@ require __DIR__ . '/_guide_head.php';
     if (lang === RENDERED) return;                   // 이미 이 언어면 리로드 불필요
     navigating = true;
     try { sessionStorage.setItem(SCROLL_KEY, String(window.pageYOffset || 0)); } catch(_){}
-    var url = new URL(location.href);
-    if (lang === 'ko') url.searchParams.delete('lang');
-    else url.searchParams.set('lang', lang);
-    location.replace(url.toString());               // 지금 이 페이지만 새 언어로 다시 렌더
+    var target = (window.BTLang && BTLang.i18nHref)
+      ? BTLang.i18nHref(location.pathname + location.search + location.hash, lang)  // 경로형(/en/glossary/term)
+      : location.href;
+    location.replace(target);                        // 새 언어 경로로 이동(?lang= 안 붙음)
   };
 
   // 진입 시: 현재 언어를 URL에 반영(뒤로가기로 이 페이지에 오면 그때 언어로 복원되게).

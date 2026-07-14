@@ -27,9 +27,9 @@ if (!function_exists('h')) {
       <span class="sf-sep">·</span>
       <a href="/glossary" class="sf-link sf-legal" data-base="/glossary"><span class="ko">용어사전</span><span class="en">Glossary</span><span class="ja">用語集</span><span class="es">Glosario</span><span class="de">Glossar</span><span class="fr">Glossaire</span><span class="pt">Glossário</span><span class="tr">Sözlük</span><span class="vi">Từ điển</span></a>
       <span class="sf-sep">·</span>
-      <a href="/rss-guide.php" class="sf-link">RSS</a>
+      <a href="/rss-guide" class="sf-link sf-legal" data-base="/rss-guide">RSS</a>
       <span class="sf-sep">·</span>
-      <a href="/sitemap-guide.php" class="sf-link sf-legal" data-base="/sitemap-guide.php"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span><span class="fr">Plan du site</span><span class="pt">Mapa do site</span><span class="tr">Site haritası</span><span class="vi">Sơ đồ trang</span></a>
+      <a href="/sitemap-guide" class="sf-link sf-legal" data-base="/sitemap-guide"><span class="ko">사이트맵</span><span class="en">Sitemap</span><span class="ja">サイトマップ</span><span class="es">Mapa del sitio</span><span class="de">Sitemap</span><span class="fr">Plan du site</span><span class="pt">Mapa do site</span><span class="tr">Site haritası</span><span class="vi">Sơ đồ trang</span></a>
     </span>
     <span class="sf-div">|</span>
     <span class="sf-group">
@@ -134,9 +134,9 @@ html:not([lang]) .site-footer .ko{display:inline}
 (function(){
   function sfApplyLang(){
     var lang=(document.documentElement.getAttribute('lang')||'ko');
-    var suf=(lang==='ko'?'':'?lang='+lang);
     document.querySelectorAll('.site-footer a.sf-legal').forEach(function(a){
-      var base=a.getAttribute('data-base'); if(base) a.setAttribute('href', base+suf);
+      var base=a.getAttribute('data-base'); if(!base) return;
+      a.setAttribute('href', (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(base, lang) : base);
     });
   }
   sfApplyLang();

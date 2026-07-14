@@ -43,6 +43,16 @@ RewriteRule ^glossary$ /%1/glossary? [R=301,L]
 RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
 RewriteRule ^(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)$ /%2/%1? [R=301,L]
 
+# (7b) 정적/안내 .php → clean : /rss-guide.php → /rss-guide , .php?lang=xx → /xx/page
+RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteRule ^(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php$ /%2/%1? [R=301,L]
+RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php\s [NC]
+RewriteRule ^(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php$ /%1 [R=301,L]
+
+# (8) 경로에 이미 언어가 있는데 ?lang= 이 중복으로 붙은 경우 → ?lang= 제거 (예: /pt?lang=pt → /pt)
+RewriteCond %{THE_REQUEST} \s/(en|ja|es|de|fr|pt|tr|vi)(?:/[^\s?]*)?\?lang=[a-z]{2}[\s&] [NC]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)(/.*)?$ /$1$2? [R=301,L]
+
 RewriteRule ^privacy/?$ /privacy.php [L]
 RewriteRule ^about/?$ /about.php [L]
 RewriteRule ^glossary/([a-z0-9-]+)/?$ /glossary.php?term=$1 [L,QSA]
