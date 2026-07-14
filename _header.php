@@ -250,7 +250,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
   overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
-  border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+  border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}.lm-flag{display:none}@media (hover:none) and (pointer:coarse){.lm-flag{display:inline}}
 .lang-menu-item:hover{background:#1b1b21;color:#f2f2f5}
 .lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
@@ -457,7 +457,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
       <?php foreach (SUPPORTED_LANGS as $__lc => $__meta):
         // ko·en은 항상 노출, 그 외 언어는 이 글에 번역(title_xx)이 있을 때만 노출
         if ($__lc !== 'ko' && $__lc !== 'en' && !isset($M["title_{$__lc}"])) continue; ?>
-      <button type="button" class="lang-menu-item<?= $lang===$__lc ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="Lpick('<?= h($__lc) ?>')"><?= $__meta['flag'] ?> <?= h($__meta['name']) ?></button>
+      <button type="button" class="lang-menu-item<?= $lang===$__lc ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="Lpick('<?= h($__lc) ?>')"><span class="lm-flag"><?= $__meta['flag'] ?></span><?= h($__meta['name']) ?></button>
       <?php endforeach; ?>
     </div>
   </div>
