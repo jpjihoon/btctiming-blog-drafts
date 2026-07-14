@@ -107,5 +107,36 @@
     } catch (e) {}
   }
 
-  w.BTLang = { get: get, save: save, stampUrl: stampUrl, readCookie: readCookie, isValid: isValid };
+  // 내부 경로를 언어별 경로형 URL로 변환(서버 i18nUrl과 동일 규칙). ko는 그대로, 비-ko는 /{lang}+.php제거.
+  // 화이트리스트(블로그/용어집/안내 등)만 손대고, 자산·API·외부·앵커는 건드리지 않는다.
+  function _pathifiable(p) {
+    return p === '/' ||
+      /^\/(?:blog(?:\/|$)|glossary(?:\/|$)|about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)/.test(p);
+  }
+  function i18nHref(href, lang) {
+    if (!href || href.charAt(0) !== '/') return href;      // 내부 절대경로만
+    try {
+      var u = new URL(href, location.origin);
+      var p = u.pathname.replace(/^\/(en|ja|es|de|fr|pt|tr|vi)(?=\/|$)/, '') || '/'; // 기존 언어접두어 제거
+      if (!_pathifiable(p)) return href;                   // 화이트리스트 밖은 그대로
+      if (/^\/blog\/[a-z0-9-]+$/.test(p)) p += '.php';    // ko 글 형태(.php)로 정규화
+      u.searchParams.delete('lang');
+      var rest = u.search + u.hash;
+      if (lang === 'ko') return p + rest;
+      return '/' + lang + (p === '/' ? '' : p.replace(/\.php$/, '')) + rest;
+    } catch (e) { return href; }
+  }
+  // 페이지 내 모든 내부 링크를 현재 언어의 경로형으로 일괄 변환.
+  function pathify(lang) {
+    if (!isValid(lang)) return;
+    try {
+      var as = document.querySelectorAll('a[href^="/"]');
+      for (var i = 0; i < as.length; i++) {
+        var h = as[i].getAttribute('href'); var nh = i18nHref(h, lang);
+        if (nh !== h) as[i].setAttribute('href', nh);
+      }
+    } catch (e) {}
+  }
+
+  w.BTLang = { get: get, save: save, stampUrl: stampUrl, readCookie: readCookie, isValid: isValid, i18nHref: i18nHref, pathify: pathify };
 })(window);

@@ -402,6 +402,7 @@ require __DIR__ . '/_guide_head.php';
 // → JS가 location.replace로 다시 로드해 고칠 필요가 없다(그게 히스토리를 꼬았던 원인).
 (function(){
   var RENDERED = <?= json_encode($__gLang) ?>;      // 지금 화면에 렌더된 언어
+  try{ if(window.BTLang && BTLang.pathify) BTLang.pathify(RENDERED); }catch(_){}  // 모든 내부 링크를 경로형으로
   var SCROLL_KEY = 'glossaryScroll';
   var navigating = false;
 

@@ -2556,6 +2556,8 @@ function refreshLangDependentUI() {
   loadBlogTicker();
   loadTicker(); // bfcache 복원 시에도 언어에 맞는 통화(KRW/USD/JPY/EUR)로 티커 재조회
   renderChatUserCount(); // 채팅창을 열어둔 채 언어를 바꿔도 '· N명 접속중' 문구가 새 언어로 갱신되도록
+  // 모든 내부 링크를 경로형으로. 비동기로 로드되는 블로그/인사이트 링크까지 잡으려 약간 지연 호출도 병행.
+  if(window.BTLang && BTLang.pathify){ BTLang.pathify(currentLang); setTimeout(function(){ BTLang.pathify(currentLang); }, 1200); }
 }
 refreshLangDependentUI(); // 최초 로딩 (단, footer 등 이 <script> 뒤에 오는 요소는 아직 DOM에 없음)
 // ⚠ 이 스크립트는 문서 중간(footer 앞)에서 실행되므로, footer의 [data-i](개인정보처리방침/이용약관/
