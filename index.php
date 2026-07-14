@@ -310,7 +310,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
   overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
-  border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}.lm-flag{display:none}@media(max-width:640px){.lm-flag{display:inline}}
+  border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}.lm-flag{display:none}@media (hover:none) and (pointer:coarse){.lm-flag{display:inline}}
 .lang-menu-item:hover{background:#24242b;color:#f2f2f5}
 .lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 

@@ -264,16 +264,8 @@ function L(l){
   closeLangMenu();
   // 브레드크럼(홈/블로그/카테고리) 링크는 하나의 <a>에 언어별 텍스트만 들어있는 구조라
   // 언어를 바꿔도 href는 그대로였음 — 여기서 href도 같이 갱신
-  const bcSuffix = l === 'ko' ? '' : ('?lang=' + l);
-  const bcHome = document.getElementById('bcHomeLink');
-  if(bcHome) bcHome.setAttribute('href', '/' + bcSuffix);
-  const bcBlog = document.getElementById('bcBlogLink');
-  if(bcBlog) bcBlog.setAttribute('href', '/blog/' + bcSuffix);
   const bcCat = document.getElementById('bcCatLink');
-  if(bcCat){
-    const cat = bcCat.dataset.cat || '';
-    bcCat.setAttribute('href', '/blog/?cat=' + cat + (l === 'ko' ? '' : ('&lang=' + l)));
-  }
+  if(bcCat){ const cat = bcCat.dataset.cat || ''; bcCat.setAttribute('href', (l==='ko'?'':'/'+l) + '/blog/?cat=' + cat); }
   if(window.cbSyncLang) cbSyncLang(l);  // 카테고리 바(드롭다운) 링크·검색폼도 현재 언어 유지
   if(window.BTLang && BTLang.pathify) BTLang.pathify(l);  // 모든 내부 링크를 경로형으로
   try{ // 브라우저 탭 제목·설명도 언어별로 갱신
@@ -284,20 +276,7 @@ function L(l){
   try{ if(window.BTLang && BTLang.i18nHref) history.replaceState(null,'',BTLang.i18nHref(location.pathname+location.search+location.hash, l)); }catch(e){}  // URL도 경로형으로
   // 로고·하단 정책(개인정보/약관)·CTA 링크도 현재 언어를 유지하도록 href 갱신
   // (예전엔 서버 렌더 시점 언어에 고정돼, 언어를 바꿔도 예전 언어 페이지로 이동했음)
-  const _logo = document.querySelector('a.logo');
-  if(_logo) _logo.setAttribute('href', '/' + bcSuffix);
-  document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + bcSuffix));
-  document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + bcSuffix));
-  document.querySelectorAll('.cta a').forEach(a => a.setAttribute('href', '/' + bcSuffix));
-  // "실시간 분석 보러가기"(대시보드행) 링크도 현재 언어 유지 — 서버는 렌더 시점 언어로
-  // href를 넣으므로, JS로 언어를 바꾼 뒤엔 대시보드가 옛 언어로 떴음. 여기서 갱신.
-  document.querySelectorAll('a.main-live-link').forEach(a => a.setAttribute('href', '/' + bcSuffix));
-  // 이전글/다음글 + 추천글 카드 링크도 현재 언어를 유지 (서버는 렌더 시점 언어로
-  // 접미사를 넣기 때문에, JS로 언어가 바뀐 상태에선 접미사가 안 맞아 이동 시 한글로 깜빡였음)
-  document.querySelectorAll('a[data-base^="/blog/"]').forEach(a => {
-    const base = a.getAttribute('data-base');
-    if(base) a.setAttribute('href', base + (l === 'ko' ? '' : ('?lang=' + l)));
-  });
+  // (로고·정책·CTA·이전다음·추천 링크는 위 BTLang.pathify(l)가 경로형으로 일괄 처리)
   // 저장은 공통 유틸에 위임(쿠키+localStorage). 미로드 시 폴백.
   if(window.BTLang){BTLang.save(l);}
   else{try{localStorage.setItem('blogLang',l);document.cookie='blogLang='+encodeURIComponent(l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
@@ -372,7 +351,7 @@ function syncPrevNextLang(){
     const cur = document.getElementById('hr').lang || 'ko';
     document.querySelectorAll('a[data-base^="/blog/"]').forEach(a => {
       const base = a.getAttribute('data-base');
-      if(base) a.setAttribute('href', base + (cur === 'ko' ? '' : ('?lang=' + cur)));
+      if(base) a.setAttribute('href', base);  // ko형 그대로 → 아래 pathify가 경로형으로
     });
     if(window.BTLang && BTLang.pathify) BTLang.pathify(cur);  // 모든 내부 링크를 경로형으로(로드·뒤로가기 공통)
   }catch(e){}
@@ -593,7 +572,7 @@ function bcsPick(id){
   try{ localStorage.setItem('selectedCoin', id); }catch(e){}
   // 대시보드로 이동 (현재 언어 유지)
   var lang='<?= h($lang) ?>';
-  location.href = '/' + (lang==='ko'?'':'?lang='+lang);
+  location.href = (lang==='ko' ? '/' : '/'+lang);
 }
 </script>
 <script>
