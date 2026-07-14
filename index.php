@@ -255,7 +255,7 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 .side-exch a{display:block;text-align:center;background:var(--bg3);color:var(--t1);font-weight:700;font-size:12.5px;border:1px solid var(--b2);border-radius:6px;padding:8px;text-decoration:none}
 @media(max-width:860px){.wrap{display:flex;flex-direction:column}.blog-main{order:1}.blog-side{order:2;margin-top:34px}.cta-main{order:3}}
 
-.blog-head{max-width:1120px;margin:0 auto;padding:26px 24px 2px;text-align:left}
+.blog-head{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .blog-head h1{font-size:1.5rem;font-weight:800;letter-spacing:-.3px;color:var(--t1);margin:0}
 /* FOUC 완화: 날짜는 JS 포맷 전 살짝 흐리게 → 적용되면 선명 */
 .card-date{transition:opacity .12s}

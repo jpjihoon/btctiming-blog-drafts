@@ -17,6 +17,15 @@ $__cbKeys   = array_keys(SUPPORTED_LANGS);
 $__cbLangQ  = ($__cbLang !== 'ko') ? ('&lang=' . rawurlencode($__cbLang)) : '';
 $__cbAllQ   = ($__cbLang !== 'ko') ? ('?lang=' . rawurlencode($__cbLang)) : '';
 $__cbAll    = ['ko'=>'전체','en'=>'All','ja'=>'すべて','es'=>'Todo','de'=>'Alle','fr'=>'Tout','pt'=>'Tudo','tr'=>'Tümü','vi'=>'Tất cả'];
+// 언어 라벨 스팬: 목록은 .{lang}-show, 뷰는 [lang] .{lang} 방식이라 양쪽 클래스를 다 부여
+$__cbSpan = function(array $lab) use ($__cbKeys) {
+    $o = '';
+    foreach ($__cbKeys as $l) {
+        $cls = ($l === 'ko') ? 'ko' : ($l . ' ' . $l . '-show');
+        $o .= '<span class="' . $cls . '">' . h($lab[$l] ?? $lab['en']) . '</span>';
+    }
+    return $o;
+};
 $__cbPh     = ['ko'=>'글 검색 — 지표·코인·키워드','en'=>'Search posts…','ja'=>'記事を検索…','es'=>'Buscar…','de'=>'Suchen…','fr'=>'Rechercher…','pt'=>'Buscar…','tr'=>'Ara…','vi'=>'Tìm bài…'];
 $__cbSvg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>';
 ?>
@@ -64,19 +73,19 @@ $__cbSvg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-wi
 <?php if ($__cbMode === 'view'):
       $__cbCur = CATEGORY_META[$__cbActive] ?? CATEGORY_META['guide']; ?>
       <div class="cb-drop" id="cbDrop">
-        <button class="cb-dropbtn" type="button" onclick="cbToggleDrop(event)"><span><?php foreach ($__cbKeys as $l) echo '<span class="'.$l.'">'.h($__cbCur[$l] ?? $__cbCur['en']).'</span>'; ?></span><span class="car">▼</span></button>
+        <button class="cb-dropbtn" type="button" onclick="cbToggleDrop(event)"><span><?= $__cbSpan($__cbCur) ?></span><span class="car">▼</span></button>
         <div class="cb-menu">
-          <a href="/blog/<?= $__cbAllQ ?>"><?php foreach ($__cbKeys as $l) echo '<span class="'.$l.'">'.h($__cbAll[$l] ?? $__cbAll['en']).'</span>'; ?></a>
+          <a href="/blog/<?= $__cbAllQ ?>"><?= $__cbSpan($__cbAll) ?></a>
 <?php foreach (CATEGORY_META as $ck => $cm): if (!isset($cm['ko'])) continue; ?>
-          <a class="<?= $__cbActive === $ck ? 'on' : '' ?>" href="/blog/?cat=<?= h($ck) ?><?= $__cbLangQ ?>"><?php foreach ($__cbKeys as $l) echo '<span class="'.$l.'">'.h($cm[$l] ?? $cm['en']).'</span>'; ?></a>
+          <a class="<?= $__cbActive === $ck ? 'on' : '' ?>" href="/blog/?cat=<?= h($ck) ?><?= $__cbLangQ ?>"><?= $__cbSpan($cm) ?></a>
 <?php endforeach; ?>
         </div>
       </div>
 <?php else: ?>
       <div class="cb-tabs">
-        <a class="cb-tab <?= $__cbActive === 'all' ? 'on' : '' ?>" style="--tabc:#f7931a" href="/blog/<?= $__cbAllQ ?>"><?php foreach ($__cbKeys as $l) echo '<span class="'.$l.'">'.h($__cbAll[$l] ?? $__cbAll['en']).'</span>'; ?></a>
+        <a class="cb-tab <?= $__cbActive === 'all' ? 'on' : '' ?>" style="--tabc:#f7931a" href="/blog/<?= $__cbAllQ ?>"><?= $__cbSpan($__cbAll) ?></a>
 <?php foreach (CATEGORY_META as $ck => $cm): if (!isset($cm['ko'])) continue; ?>
-        <a class="cb-tab <?= $__cbActive === $ck ? 'on' : '' ?>" style="--tabc:<?= h($cm['color'] ?? '#f7931a') ?>" href="/blog/?cat=<?= h($ck) ?><?= $__cbLangQ ?>"><?php foreach ($__cbKeys as $l) echo '<span class="'.$l.'">'.h($cm[$l] ?? $cm['en']).'</span>'; ?></a>
+        <a class="cb-tab <?= $__cbActive === $ck ? 'on' : '' ?>" style="--tabc:<?= h($cm['color'] ?? '#f7931a') ?>" href="/blog/?cat=<?= h($ck) ?><?= $__cbLangQ ?>"><?= $__cbSpan($cm) ?></a>
 <?php endforeach; ?>
       </div>
 <?php endif; ?>
