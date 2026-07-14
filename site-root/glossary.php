@@ -173,7 +173,7 @@ function glossary_range_color(int $idx, array $zones): string {
 // 개별 지표 뷰페이지: 상단 nav-back을 '용어사전 목록'으로 (허브/기타 안내 페이지는 기본값 유지)
 if ($isDetail) {
   $GUIDE_NAVBACK = [
-    'href' => '/glossary' . $termSuffix,
+    'href' => i18nPath('/glossary', $__gLang),
     'labels' => ['ko'=>'← 용어사전 목록','en'=>'← Glossary','ja'=>'← 用語集','es'=>'← Glosario','de'=>'← Glossar','fr'=>'← Glossaire','pt'=>'← Glossário','tr'=>'← Sözlük','vi'=>'← Từ điển'],
   ];
 }
@@ -257,14 +257,14 @@ require __DIR__ . '/_guide_head.php';
       <div class="gcta-h"><?= gh($L($T_CTA_H)) ?></div>
       <div class="gcta-p"><?= gh($L($T_CTA_P)) ?></div>
     </div>
-    <a class="gcta-link" href="/<?= gh($termSuffix) ?>"><?= gh($L($T_CTA)) ?></a>
+    <a class="gcta-link" href="<?= gh(i18nPath('/', $__gLang)) ?>"><?= gh($L($T_CTA)) ?></a>
   </div>
 
   <h2 class="gh2"><?= gh($L($T_RELATED)) ?></h2>
   <div class="gother">
     <?php foreach ($i['related'] as $rs): if (!isset($GLOSSARY[$rs])) continue;
       $rn = $GLOSSARY[$rs]['i18n'][$__gLang]['term_full'] ?? $GLOSSARY[$rs]['i18n']['en']['term_full']; ?>
-      <a href="/glossary/<?= gh($rs) ?><?= gh($termSuffix) ?>"><?= gh($rn) ?></a>
+      <a href="<?= gh(i18nPath('/glossary/' . $rs, $__gLang)) ?>"><?= gh($rn) ?></a>
     <?php endforeach; ?>
   </div>
 
@@ -333,7 +333,7 @@ require __DIR__ . '/_guide_head.php';
               'status' => $g['status_map'] ?? null,
             ];
           } ?>
-          <a class="gcard" data-name="<?= gh(mb_strtolower($gi['term_full'], 'UTF-8')) ?>" data-cat="<?= gh($cat) ?>" href="/glossary/<?= gh($s) ?><?= gh($termSuffix) ?>">
+          <a class="gcard" data-name="<?= gh(mb_strtolower($gi['term_full'], 'UTF-8')) ?>" data-cat="<?= gh($cat) ?>" href="<?= gh(i18nPath('/glossary/' . $s, $__gLang)) ?>">
             <span class="gcard-top">
               <b><?= gh($gi['term_full']) ?></b>
               <span class="gc-right"><?php if ($isLive): ?><span class="gc-live"><i></i><?= gh($L($__ui['live'])) ?></span><?php else: ?><span class="gc-concept"><?= gh($L($__ui['concept'])) ?></span><?php endif; ?><i class="garw">→</i></span>

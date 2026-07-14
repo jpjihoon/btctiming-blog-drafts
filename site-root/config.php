@@ -153,6 +153,10 @@ const SUPPORTED_LANGS = [
  * @param string $lang   언어 코드
  * @return string 전체 URL (https://btctiming.com...)
  */
+/** i18nUrl의 상대경로 버전(도메인 제외). 내부 링크 href 용. */
+function i18nPath(string $koPath, string $lang): string {
+    return substr(i18nUrl($koPath, $lang), 21); // strlen('https://btctiming.com')=21
+}
 function i18nUrl(string $koPath, string $lang): string {
     $base = 'https://btctiming.com';
     $p = preg_replace('/\.php$/', '', $koPath);          // 전 언어 clean(.php 제거)

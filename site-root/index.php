@@ -1007,8 +1007,8 @@ $__seoSub = [
   </div>
   <div class="nav-r">
     <div id="liveTag"><div class="live-dot"></div>LIVE</div>
-    <a href="/blog/<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg><span data-i="navInsights">Blog</span></a>
-    <a href="/glossary<?= h(langSuffix($lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span data-i="navGlossary">용어사전</span></a>
+    <a href="<?= h(i18nPath('/blog/', $lang)) ?>" class="nav-insight" id="navBlogLink" title="Blog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg><span data-i="navInsights">Blog</span></a>
+    <a href="<?= h(i18nPath('/glossary', $lang)) ?>" class="nav-insight" id="navGlossaryLink" title="Glossary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span data-i="navGlossary">용어사전</span></a>
     <div class="icon-btn" id="settingsBtn" onclick="openSettings()" title="Settings" role="button" tabindex="0" aria-label="Settings" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSettings();}">⚙️</div>
     <div class="icon-btn" id="refreshBtn" onclick="loadAll()" title="Refresh" role="button" tabindex="0" aria-label="Refresh data" style="display:none">↻</div>
     <div class="lang-dropdown" id="langDropdown">
@@ -1036,7 +1036,7 @@ $__seoSub = [
       <div style="position:absolute;top:0;right:0;bottom:0;width:24px;pointer-events:none;
         background:linear-gradient(to right,transparent,#0a0a0a)"></div>
     </div>
-    <a id="blogTickerAllLink" aria-label="View all blog posts" href="/blog/<?= h(langSuffix($lang)) ?>" style="flex-shrink:0;color:var(--orange);text-decoration:underline;
+    <a id="blogTickerAllLink" aria-label="View all blog posts" href="<?= h(i18nPath('/blog/', $lang)) ?>" style="flex-shrink:0;color:var(--orange);text-decoration:underline;
       margin-left:12px;padding-left:12px;border-left:1px solid var(--b1);white-space:nowrap"></a>
   </div>
 </div>
@@ -1171,7 +1171,7 @@ $__seoSub = [
     </div>
 
     <!-- Exchange referral banner → 전용 비교 페이지로 이동 (data-i로 언어 즉시 전환) -->
-    <a href="/exchanges.php<?= h(langSuffix($lang)) ?>" class="exch-banner" id="exchBanner">
+    <a href="<?= h(i18nPath('/exchanges.php', $lang)) ?>" class="exch-banner" id="exchBanner">
       <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
       <span class="exch-banner-tx">
         <b data-i="exchBannerT">Which exchange to start with?</b>
@@ -1182,7 +1182,7 @@ $__seoSub = [
 
     <!-- Sidebar Blog List: 좌측 하단 여백 채우는 컴팩트 블로그 리스트 -->
     <div class="sb-blog">
-      <div class="sb-blog-hd"><span data-i="sec_insights2">BLOG</span><a href="/blog/<?= h(langSuffix($lang)) ?>" id="sbBlogAllLink" data-i="viewAllInsights">ALL →</a></div>
+      <div class="sb-blog-hd"><span data-i="sec_insights2">BLOG</span><a href="<?= h(i18nPath('/blog/', $lang)) ?>" id="sbBlogAllLink" data-i="viewAllInsights">ALL →</a></div>
       <div id="sbBlogList"><div style="color:var(--t3);font-size:11px;padding:6px 0" data-i="loadingInsights">Loading...</div></div>
     </div>
 
@@ -1235,7 +1235,7 @@ $__seoSub = [
     </div>
 
     <!-- Blog widget: 점수 히스토리 바로 아래, 8개 박스(2행) + 더보기(펼침) → 접기(큰 버튼)/전체(우측하단 작은 링크) -->
-    <div class="sec-hd" data-i="sec_insights2">BLOG <a href="/blog/<?= h(langSuffix($lang)) ?>" class="sec-link" id="insightAllLink" data-i="viewAllInsights">ALL →</a></div>
+    <div class="sec-hd" data-i="sec_insights2">BLOG <a href="<?= h(i18nPath('/blog/', $lang)) ?>" class="sec-link" id="insightAllLink" data-i="viewAllInsights">ALL →</a></div>
     <div class="insight-grid" id="insightGrid2">
       <div style="grid-column:1/-1;color:var(--t3);font-size:12px;padding:12px 0" data-i="loadingInsights">Loading...</div>
     </div>
@@ -1247,7 +1247,7 @@ $__seoSub = [
       <button class="load-more" style="flex:1;margin-top:10px" onclick="collapseInsights()">
         <span data-i="collapseInsights">접기</span>
       </button>
-      <a href="/blog/<?= h(langSuffix($lang)) ?>" id="insightAllLink2" data-i="viewAllInsights">전체 →</a>
+      <a href="<?= h(i18nPath('/blog/', $lang)) ?>" id="insightAllLink2" data-i="viewAllInsights">전체 →</a>
     </div>
 
     <!-- Indicators -->
