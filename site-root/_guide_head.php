@@ -11,6 +11,7 @@ require_once __DIR__ . '/config.php';
 if (!function_exists('gh')) { function gh($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); } }
 $__title = $GUIDE_TITLE ?? 'BTCtiming.com';
 $__desc  = $GUIDE_DESC ?? '';
+$__ghLang = resolveLang();                         // ★ i18nUrl보다 먼저 언어 결정(500 방지)
 $__koPath = $GUIDE_KOPATH ?? null;
 $__canon = $__koPath ? i18nUrl($__koPath, $__ghLang) : ($GUIDE_CANONICAL ?? 'https://btctiming.com/');
 // 언어 결정: URL ?lang= 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
