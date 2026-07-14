@@ -1332,11 +1332,20 @@ function btcIsMobileOrApp(){
   window._btcApplyTabVisibility = apply;
 })();
 
-// PWA: service worker 등록 (앱 설치 조건 충족)
+// PWA: 서비스 워커는 위젯 페이지(/widget.php)에서만 등록한다("위젯만 앱" 기획).
+// 대시보드에서 사이트 전체(scope:/)로 등록하면 모든 페이지를 가로채 옛 캐시를 서빙 →
+// ?lang= 잔존·글 캐시 확인 불가·배포 반영 안 됨 등의 문제가 생김. 그래서 여기선 등록하지 않고,
+// 과거에 잘못 등록된 '사이트 전체(scope:/)' SW가 남아있으면 제거한다(위젯 scope는 유지).
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function(){
-    navigator.serviceWorker.register('/sw.js').catch(function(){});
-  });
+  navigator.serviceWorker.getRegistrations().then(function(regs){
+    regs.forEach(function(r){
+      try { if (new URL(r.scope).pathname === '/') r.unregister(); } catch(e){}
+    });
+  }).catch(function(){});
+  // 잘못된 SW가 캐시해둔 옛 자원도 정리
+  if (window.caches && caches.keys) {
+    caches.keys().then(function(keys){ keys.forEach(function(k){ caches.delete(k); }); }).catch(function(){});
+  }
 }
 // 앱 설치 프롬프트 캡처 (버튼 누를 때 사용)
 let btcInstallPrompt = null;
