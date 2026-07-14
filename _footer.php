@@ -675,21 +675,6 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'eyebrow'=>$__combE
 })();
 </script>
 <script>
-/* ── 카테고리 서브내비: 스크롤 내리면 닫힘, 올리면 펼침 ── */
-(function(){
-  var sn=document.querySelector('.cat-subnav'); if(!sn) return;
-  var lastY=window.scrollY||window.pageYOffset||0, ticking=false;
-  function upd(){
-    var y=window.scrollY||window.pageYOffset||0;
-    if(y<70) sn.classList.remove('csn-hidden');            // 상단 근처: 항상 펼침
-    else if(y>lastY+5) sn.classList.add('csn-hidden');      // 내려감: 닫힘
-    else if(y<lastY-5) sn.classList.remove('csn-hidden');   // 올라감: 펼침
-    lastY=y; ticking=false;
-  }
-  window.addEventListener('scroll',function(){ if(!ticking){ requestAnimationFrame(upd); ticking=true; } },{passive:true});
-})();
-</script>
-<script>
 /* ── 많이 본 글 탭 토글 ── */
 (function(){
   var tabs=document.querySelectorAll('.pop-tab'); if(!tabs.length) return;

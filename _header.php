@@ -203,14 +203,6 @@ body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFo
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
 /* ── GNB 카테고리 서브내비 (글 읽다가 다른 카테고리로 이동) ── */
-.cat-subnav{background:#0f0f12;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:52px;z-index:199;transition:transform .25s ease;will-change:transform}
-.cat-subnav.csn-hidden{transform:translateY(-100%)}
-.csn-w{max-width:1280px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-.csn-w::-webkit-scrollbar{display:none}
-.csn{white-space:nowrap;padding:10px 12px;font-size:13px;font-weight:600;color:var(--t2,#8b8b93);border-bottom:2px solid transparent;text-decoration:none;display:inline-flex;align-items:center;transition:color .15s}
-.csn:hover{color:var(--t1,#e5e5ea)}
-.csn.on{color:var(--t1,#e5e5ea);border-bottom-color:var(--csn-c,#f7931a)}
-@media(max-width:600px){.csn-w{gap:0;padding:0 10px}.csn{padding:9px 9px;font-size:12.5px}}
 /* ── 하단 모듈: 더 보기 / 많이 본 글 ── */
 .mod-block{margin-top:34px}
 .mod-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:9px;margin-bottom:14px}
@@ -466,19 +458,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     </div>
   </div>
 </div></nav>
-<?php
-// ── 카테고리 서브내비: 전체 + CATEGORY_META 순서, 현재 카테고리 강조 ──
-$__csnLangQ = ($requestedLang !== 'ko') ? ('&lang=' . h($requestedLang)) : '';
-$__csnAllQ  = ($requestedLang !== 'ko') ? ('?lang=' . h($requestedLang)) : '';
-$__csnKeys  = array_keys(SUPPORTED_LANGS);
-$__csnAll   = ['ko'=>'전체','en'=>'All','ja'=>'すべて','es'=>'Todo','de'=>'Alle','fr'=>'Tout','pt'=>'Tudo','tr'=>'Tümü','vi'=>'Tất cả'];
-?>
-<div class="cat-subnav"><div class="csn-w">
-  <a class="csn" href="/blog/<?= $__csnAllQ ?>"><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__csnAll[$__l] ?? $__csnAll['en']).'</span>'; ?></a>
-<?php foreach (CATEGORY_META as $__ck => $__cm): if (!isset($__cm['ko'])) continue; ?>
-  <a class="csn<?= $catKey === $__ck ? ' on' : '' ?>" style="--csn-c:<?= h($__cm['color'] ?? '#f7931a') ?>" href="/blog/?cat=<?= h($__ck) ?><?= $__csnLangQ ?>"><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__cm[$__l] ?? $__cm['en']).'</span>'; ?></a>
-<?php endforeach; ?>
-</div></div>
+<?php $__cbMode = 'view'; $__cbActive = $catKey; $__cbLang = $requestedLang; include __DIR__ . '/_cat_bar.php'; ?>
 <div class="wrap">
 <div class="wrap-main">
   <?php
