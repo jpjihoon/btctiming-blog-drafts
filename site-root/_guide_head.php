@@ -89,7 +89,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
   border:none;color:var(--t2);font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
 .lang-menu-item:hover{background:var(--bg3);color:var(--t1)}
-.lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}.lm-flag{display:none}@media(max-width:640px){.lm-flag{display:inline}}
+.lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}.lm-flag{display:none}@media (hover:none) and (pointer:coarse){.lm-flag{display:inline}}
 /* ── 공용 히어로/본문 폭 ── */
 .guide-wrap{max-width:1280px;margin:0 auto;padding:0 16px}
 <?= $GUIDE_EXTRA_CSS ?? '' ?>

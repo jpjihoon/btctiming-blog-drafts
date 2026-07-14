@@ -557,7 +557,7 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
   border:none;color:var(--t2);font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
 .lang-menu-item:hover{background:var(--bg3);color:var(--t1)}
-.lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}.lm-flag{display:none}@media(max-width:640px){.lm-flag{display:inline}}
+.lang-menu-item.active{color:var(--orange);background:rgba(247,147,26,.08)}.lm-flag{display:none}@media (hover:none) and (pointer:coarse){.lm-flag{display:inline}}
 .nav-insight{height:34px;padding:0 11px;gap:6px;border-radius:var(--rad-sm);background:var(--bg3);border:1px solid var(--b1);
   display:flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:var(--t2);text-decoration:none;
   flex-shrink:0;transition:all .15s;white-space:nowrap}
