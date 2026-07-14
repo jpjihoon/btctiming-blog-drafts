@@ -474,7 +474,7 @@ h2:hover>.bt-anchor,h3:hover>.bt-anchor{opacity:.65}
 <?= json_encode($__bcLd, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>
   </script>
   <?php foreach ($__langKeys as $__l): ?>
-  <h1 class="<?= $__l ?>"><?= $M["h1_{$__l}"] ?? $M['h1_en'] ?></h1>
+  <h1 class="<?= $__l ?>"><?= trim(preg_replace('/\s+/u', ' ', preg_replace('/<br\s*\/?>/i', ' ', $M["h1_{$__l}"] ?? $M['h1_en']))) ?></h1>
   <?php endforeach; ?>
   <div class="meta">
     <?php
