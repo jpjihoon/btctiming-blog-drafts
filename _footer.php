@@ -275,6 +275,8 @@ function L(l){
     bcCat.setAttribute('href', '/blog/?cat=' + cat + (l === 'ko' ? '' : ('&lang=' + l)));
   }
   if(window.cbSyncLang) cbSyncLang(l);  // 카테고리 바(드롭다운) 링크·검색폼도 현재 언어 유지
+  if(window.BTLang && BTLang.pathify) BTLang.pathify(l);  // 모든 내부 링크를 경로형으로
+  try{ if(window.BTLang && BTLang.i18nHref) history.replaceState(null,'',BTLang.i18nHref(location.pathname+location.search+location.hash, l)); }catch(e){}  // URL도 경로형으로
   // 로고·하단 정책(개인정보/약관)·CTA 링크도 현재 언어를 유지하도록 href 갱신
   // (예전엔 서버 렌더 시점 언어에 고정돼, 언어를 바꿔도 예전 언어 페이지로 이동했음)
   const _logo = document.querySelector('a.logo');
@@ -371,6 +373,7 @@ function syncPrevNextLang(){
       const base = a.getAttribute('data-base');
       if(base) a.setAttribute('href', base + (cur === 'ko' ? '' : ('?lang=' + cur)));
     });
+    if(window.BTLang && BTLang.pathify) BTLang.pathify(cur);  // 모든 내부 링크를 경로형으로(로드·뒤로가기 공통)
   }catch(e){}
 }
 syncPrevNextLang();

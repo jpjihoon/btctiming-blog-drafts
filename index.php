@@ -616,6 +616,7 @@ function setLang(lang, doSave) {
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
   if(window.cbSyncLang) cbSyncLang(lang);  // 카테고리 바 링크도 현재 언어 유지
+  if(window.BTLang && BTLang.pathify) BTLang.pathify(lang);  // 모든 내부 링크를 경로형으로
   // 저장은 사용자가 "직접 언어를 고를 때"(doSave=true)만 한다. 진입/뒤로가기 복원 시엔 저장 안 함.
   // (진입 시 저장하면 뒤로가기로 온 페이지가 최근 방문 언어로 오염됨.)
   if(doSave){
@@ -623,9 +624,9 @@ function setLang(lang, doSave) {
     else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
   }
   try {
-    const url = new URL(location.href);
-    if(lang === 'ko') url.searchParams.delete('lang'); else url.searchParams.set('lang', lang);
-    history.replaceState(null, '', url);
+    // 언어 전환 시 URL을 경로형으로 맞춘다(스무스 전환 유지 + 새로고침해도 같은 언어).
+    var __t = (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(location.pathname + location.search + location.hash, lang) : location.href;
+    history.replaceState(null, '', __t);
   } catch(e){}
   // .ko/.{lang}-show 표시 전환으로 뷰포트 위쪽 높이가 바뀌어 스크롤이 밀리는 것 방지.
   // overflow-anchor:none이라 브라우저 자동 앵커링이 없으므로 원래 위치로 명시 복원.
@@ -702,6 +703,7 @@ function loadMore(){
       var grid=document.getElementById('articleGrid');
       var __sy=window.scrollY;
       if(grid && html.trim()) grid.insertAdjacentHTML('beforeend', html);
+      if(window.BTLang && BTLang.pathify) BTLang.pathify(lang);  // 새로 불러온 카드도 경로형 링크로
       window.scrollTo(0, __sy);
       var added=(html.match(/class="article-card"/g)||[]).length;
       __loaded += added;
