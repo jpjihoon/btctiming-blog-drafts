@@ -53,14 +53,14 @@ function renderCardHtml(array $a, int $idx, string $blLang): string {
       <div class="card-icon"><?= $icon ?></div>
       <div class="card-body">
         <div class="card-tagrow">
-          <span class="card-cat"><?php foreach ($cardLangs as $l) echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($catVal($l)).'</span>'; ?></span>
-          <?php foreach ($cardLangs as $l) echo '<span class="card-tag '.$clsOf($l).'"'.$styOf($l).'>'.h($tagVal($l)).'</span>'; ?>
+          <span class="card-cat"><span><?= h($catVal($blLang)) ?></span></span>
+          <span class="card-tag"><?= h($tagVal($blLang)) ?></span>
         </div>
-        <?php foreach ($cardLangs as $l) echo '<div class="card-title '.$clsOf($l).'"'.$styOf($l).'>'.h($titleVal($l)).'</div>'; ?>
-        <?php foreach ($cardLangs as $l) echo '<div class="card-desc '.$clsOf($l).'"'.$styOf($l).'>'.h($descVal($l)).'</div>'; ?>
+        <div class="card-title"><?= h($titleVal($blLang)) ?></div>
+        <div class="card-desc"><?= h($descVal($blLang)) ?></div>
         <div class="card-meta">
           <?= relDateSpans($a['date'] ?? '', $blLang) ?>
-          <?php foreach ($cardLangs as $l) { $fmt = $readFmt[$l] ?? $readFmt['en']; echo '<span class="'.$clsOf($l).'"'.$styOf($l).'>'.h($fmt($readVal($l))).'</span>'; } ?>
+          <?php $fmt = $readFmt[$blLang] ?? $readFmt['en']; echo '<span>'.h($fmt($readVal($blLang))).'</span>'; ?>
         </div>
       </div>
       <div class="card-arrow">→</div>
@@ -131,13 +131,8 @@ function relDateSpans(string $iso, string $curLang): string {
         'tr'=>($m<1?'az önce':($hh<1?"{$m} dk önce":"{$hh} sa önce")),
         'vi'=>($m<1?'vừa xong':($hh<1?"{$m} phút trước":"{$hh} giờ trước")),
     ];
-    $out='';
-    foreach (array_keys(SUPPORTED_LANGS) as $l) {
-        $cls = ($l==='ko') ? 'ko' : ($l.'-show');
-        $sty = ''; // CSS 제어
-        $txt = $L[$l] ?? $L['en'];
-        $out .= '<span class="card-date '.$cls.'"'.$sty.'>🕒 '.h($txt).'</span>';
-    }
+    $txt = $L[$curLang] ?? $L['en'];
+    $out = '<span class="card-date">🕒 '.h($txt).'</span>';
     return $out;
 }
 
@@ -490,20 +485,10 @@ foreach ($__langKeys as $__l) {
           echo '<a href="/blog/'.h($__pa['file']).'" class="pop-card" style="--icard-accent-bg:'.h($__pc).'26;--icard-accent:'.h($__pc).'">';
           echo '<span class="pop-card-icon">'.$__pi.'</span>';
           echo '<span class="pop-card-main">';
-          echo '<span class="pop-card-cat">';
-          foreach (array_keys(SUPPORTED_LANGS) as $__pl) {
-              $__cls = ($__pl==='ko')?'ko':($__pl.'-show');
-              $__cv = CATEGORY_META[$__pcat][$__pl] ?? (CATEGORY_META[$__pcat]['en'] ?? $__pcat);
-              echo '<span class="'.$__cls.'">'.h($__cv).'</span>';
-          }
-          echo '</span>';
-          echo '<span class="pop-card-title">';
-          foreach (array_keys(SUPPORTED_LANGS) as $__pl) {
-              $__cls = ($__pl==='ko')?'ko':($__pl.'-show');
-              $__tt = $__pa["title_{$__pl}"] ?? ($__pa['title_en'] ?? '');
-              echo '<span class="'.$__cls.'">'.h($__tt).'</span>';
-          }
-          echo '</span>';
+          $__cv = CATEGORY_META[$__pcat][$__blLang] ?? (CATEGORY_META[$__pcat]['en'] ?? $__pcat);
+          echo '<span class="pop-card-cat">'.h($__cv).'</span>';
+          $__tt = $__pa["title_{$__blLang}"] ?? ($__pa['title_en'] ?? '');
+          echo '<span class="pop-card-title">'.h($__tt).'</span>';
           echo '<span class="pop-card-date">'.h(displayDate($__pa['date'] ?? '')).'</span>';
           echo '</span></a>';
       }
