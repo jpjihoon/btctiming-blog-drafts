@@ -274,6 +274,7 @@ function L(l){
     const cat = bcCat.dataset.cat || '';
     bcCat.setAttribute('href', '/blog/?cat=' + cat + (l === 'ko' ? '' : ('&lang=' + l)));
   }
+  if(window.cbSyncLang) cbSyncLang(l);  // 카테고리 바(드롭다운) 링크·검색폼도 현재 언어 유지
   // 로고·하단 정책(개인정보/약관)·CTA 링크도 현재 언어를 유지하도록 href 갱신
   // (예전엔 서버 렌더 시점 언어에 고정돼, 언어를 바꿔도 예전 언어 페이지로 이동했음)
   const _logo = document.querySelector('a.logo');

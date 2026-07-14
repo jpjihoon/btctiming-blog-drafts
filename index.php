@@ -610,6 +610,7 @@ function setLang(lang, doSave) {
   const _suf = (lang === 'ko' ? '' : '?lang=' + lang);
   document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
   document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
+  if(window.cbSyncLang) cbSyncLang(lang);  // 카테고리 바 링크도 현재 언어 유지
   // 저장은 사용자가 "직접 언어를 고를 때"(doSave=true)만 한다. 진입/뒤로가기 복원 시엔 저장 안 함.
   // (진입 시 저장하면 뒤로가기로 온 페이지가 최근 방문 언어로 오염됨.)
   if(doSave){

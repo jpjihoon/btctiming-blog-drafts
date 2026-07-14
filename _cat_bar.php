@@ -112,6 +112,21 @@ $__cbSvg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-wi
     if(bar.classList.contains('cb-searching')){ var i=bar.querySelector('input[name=q]'); if(i) setTimeout(function(){i.focus();},60); }
   };
   window.cbToggleDrop=function(e){ if(e) e.stopPropagation(); var d=document.getElementById('cbDrop'); if(d) d.classList.toggle('open'); };
+  // 언어 전환 시 카테고리 링크·검색폼의 lang 파라미터를 현재 언어로 동기화 (setLang/L에서 호출)
+  window.cbSyncLang=function(lang){
+    try{
+      [].forEach.call(document.querySelectorAll('#btCatbar a[href*="/blog/"]'),function(a){
+        var u=new URL(a.getAttribute('href'), location.origin);
+        if(lang==='ko') u.searchParams.delete('lang'); else u.searchParams.set('lang', lang);
+        a.setAttribute('href', u.pathname + (u.search||''));
+      });
+      var f=document.querySelector('#btCatbar form.cb-searchbox');
+      if(f){ var li=f.querySelector('input[name=lang]');
+        if(lang==='ko'){ if(li && li.parentNode) li.parentNode.removeChild(li); }
+        else { if(!li){ li=document.createElement('input'); li.type='hidden'; li.name='lang'; f.appendChild(li); } li.value=lang; }
+      }
+    }catch(e){}
+  };
   document.addEventListener('click',function(e){ var d=document.getElementById('cbDrop'); if(d && !d.contains(e.target)) d.classList.remove('open'); });
   // auto-hide: 스크롤 내리면 접힘, 올리면 펼침 (상단 근처는 항상 펼침)
   var lastY=window.scrollY||window.pageYOffset||0, ticking=false;
