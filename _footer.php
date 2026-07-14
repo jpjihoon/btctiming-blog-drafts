@@ -281,6 +281,7 @@ function L(l){
   if(window.BTLang){BTLang.save(l);}
   else{try{localStorage.setItem('blogLang',l);document.cookie='blogLang='+encodeURIComponent(l)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
   try{ if(window.BTLang && BTLang.i18nHref) history.replaceState(null,'',BTLang.i18nHref(location.pathname+location.search+location.hash, l)); }catch(e){}  // 경로형 URL(?lang= 안 붙임)
+  try{ if(window.__refreshShare) window.__refreshShare(); }catch(e){}  // 공유 링크도 새 언어 URL로 갱신
 }
 function toggleLangMenu(e){
   if(e) e.stopPropagation();
@@ -366,18 +367,27 @@ window.addEventListener('pageshow', function(e){ syncPrevNextLang(); });
 // ── SNS 공유 버튼 ──
 (function initShare(){
   try {
-    const pageUrl = location.href;
-    const title = document.title || 'BTCtiming.com';
-    const u = encodeURIComponent(pageUrl);
-    const t = encodeURIComponent(title);
-    const shareUrls = {
-      x:    `https://twitter.com/intent/tweet?url=${u}&text=${t}`,
-      fb:   `https://www.facebook.com/sharer/sharer.php?u=${u}`,
-      in:   `https://www.linkedin.com/sharing/share-offsite/?url=${u}`,
-      tg:   `https://t.me/share/url?url=${u}&text=${t}`,
-      line: `https://social-plugins.line.me/lineit/share?url=${u}`,
-      wa:   `https://api.whatsapp.com/send?text=${t}%20${u}`
-    };
+    // 현재 URL·제목으로 공유 링크 재계산+적용 (언어 변경 시 다시 호출 → 새 언어 URL 공유)
+    function buildShareUrls(){
+      const u = encodeURIComponent(location.href);
+      const t = encodeURIComponent(document.title || 'BTCtiming.com');
+      return {
+        x:    `https://twitter.com/intent/tweet?url=${u}&text=${t}`,
+        fb:   `https://www.facebook.com/sharer/sharer.php?u=${u}`,
+        in:   `https://www.linkedin.com/sharing/share-offsite/?url=${u}`,
+        tg:   `https://t.me/share/url?url=${u}&text=${t}`,
+        line: `https://social-plugins.line.me/lineit/share?url=${u}`,
+        wa:   `https://api.whatsapp.com/send?text=${t}%20${u}`
+      };
+    }
+    function applyShareUrls(){
+      const map = buildShareUrls();
+      document.querySelectorAll('[data-share] .share-btn[data-net]').forEach(function(b){
+        const n=b.getAttribute('data-net'); if(map[n]) b.setAttribute('href', map[n]);
+      });
+    }
+    window.__refreshShare = applyShareUrls;   // 언어 변경 시 L()에서 호출
+    let shareUrls = buildShareUrls();
 
     // 열려있는 팝오버 전부 닫기
     function closeAllPops(){
