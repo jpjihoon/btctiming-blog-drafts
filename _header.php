@@ -96,6 +96,8 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <!DOCTYPE html>
 <html lang="<?= $htmlLang ?>" id="hr">
 <head>
+<script>/* 새로고침 스크롤 덜컹임 방지: 브라우저 자동 복원을 '가장 먼저' 끔(리로드만). 실제 위치 복원은 본문 하단 스크립트가 수행 */
+try{if('scrollRestoration' in history){var _n=(window.performance&&performance.getEntriesByType&&performance.getEntriesByType('navigation')[0]);var _r=_n?(_n.type==='reload'):(window.performance&&performance.navigation&&performance.navigation.type===1);if(_r)history.scrollRestoration='manual';}}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
 <script>
