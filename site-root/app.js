@@ -2658,7 +2658,7 @@ loadAll();
 
 // Auto-refresh — 60초마다 점수·롱진입·히스토리 자동 갱신 (새로고침 불필요)
 let __lastAutoLoad = Date.now();
-function __autoRefresh(){ __lastAutoLoad = Date.now(); loadAll(); }
+function __autoRefresh(){ if(document.visibilityState === 'hidden') return; __lastAutoLoad = Date.now(); loadAll(); }  // 백그라운드 탭에선 폴링 안 함(트래픽 절감)
 setInterval(__autoRefresh, 60*1000);
 // 백그라운드 탭에서는 타이머가 느려지거나 멈추므로, 화면으로 돌아오면 즉시 갱신
 document.addEventListener('visibilitychange', () => {

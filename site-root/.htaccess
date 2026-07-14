@@ -9,6 +9,48 @@ AddDefaultCharset UTF-8
 AddType application/xml .xml
 AddType text/plain .txt
 
+# ═══════════════════════════════════════════════════════════════
+#  정적 자산 캐시 (트래픽 절감 핵심)
+#  - 지금까지 캐시 헤더가 없어 app.js(94KB)·아이콘 등이 페이지마다 재다운로드됐음.
+#  - 이미지·폰트: 거의 안 바뀌므로 30일 캐시(immutable).
+#  - JS·CSS: 배포 반영 위해 1일. (즉시 반영 필요하면 파일 참조에 ?v=날짜 붙이기)
+#  - PHP/HTML: 동적이라 여기서 건드리지 않음(각 PHP가 알아서 처리, gzip은 서버가 자동).
+# ═══════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
+#  동적 응답 gzip 압축 (api.php JSON·sitemap XML·RSS 등)
+#  - Cafe24 기본 gzip은 text/html만 걸려서, api.php(JSON 4.3KB)가 비압축으로 나갔음.
+#  - JSON·XML·RSS 압축 시 api.php ~4배↓ (136MB → ~34MB 수준).
+# ═══════════════════════════════════════════════════════════════
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/json application/javascript text/javascript text/css application/xml text/xml application/rss+xml application/atom+xml image/svg+xml text/plain
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/png              "access plus 30 days"
+  ExpiresByType image/jpeg             "access plus 30 days"
+  ExpiresByType image/gif              "access plus 30 days"
+  ExpiresByType image/webp             "access plus 30 days"
+  ExpiresByType image/svg+xml          "access plus 30 days"
+  ExpiresByType image/x-icon           "access plus 30 days"
+  ExpiresByType font/woff2             "access plus 30 days"
+  ExpiresByType font/woff              "access plus 30 days"
+  ExpiresByType application/font-woff  "access plus 30 days"
+  ExpiresByType application/javascript "access plus 1 day"
+  ExpiresByType text/javascript        "access plus 1 day"
+  ExpiresByType text/css               "access plus 1 day"
+</IfModule>
+<IfModule mod_headers.c>
+  # 이미지·폰트·아이콘: 오래 + immutable (재검증도 안 함)
+  <FilesMatch "\.(png|jpe?g|gif|webp|svg|ico|woff2?)$">
+    Header set Cache-Control "public, max-age=2592000, immutable"
+  </FilesMatch>
+  # JS·CSS: 1일 캐시 (세션 내 여러 페이지에서 app.js 재다운로드 방지)
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
+
 # /privacy, /terms → 내부적으로 .php가 응답 (URL은 그대로 유지)
 # (구 버전은 privacy.html로 301 리다이렉트했으나, .php 전환으로 rewrite 처리)
 RewriteEngine On
