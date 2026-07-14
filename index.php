@@ -191,14 +191,18 @@ if (($_GET['ajax'] ?? '') === 'cards') {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>블로그 — 비트코인 분석 인사이트 | BTCtiming.com</title>
 <meta name="description" content="비트코인 온체인 지표 가이드, 시황분석, 칼럼을 한곳에서. MVRV Z-Score, Hash Ribbon, 반감기 타이밍 등 실전 투자에 바로 활용할 수 있는 분석 글을 제공합니다.">
-<link rel="canonical" href="https://btctiming.com/blog/">
+<link rel="canonical" href="<?= h(i18nUrl('/blog/', $__blLang)) ?>">
+<?php foreach (array_keys(SUPPORTED_LANGS) as $__hl): ?>
+<link rel="alternate" hreflang="<?= h($__hl) ?>" href="<?= h(i18nUrl('/blog/', $__hl)) ?>">
+<?php endforeach; ?>
+<link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/blog/', 'ko')) ?>">
 <!-- Open Graph (언어별 OG 이미지) -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?= h('블로그 — 비트코인 분석 인사이트 | BTCtiming.com') ?>">
 <meta property="og:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://btctiming.com/blog/">
+<meta property="og:url" content="<?= h(i18nUrl('/blog/', $__blLang)) ?>">
 <meta property="og:site_name" content="BTCtiming.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($__blLang) ?>.png">

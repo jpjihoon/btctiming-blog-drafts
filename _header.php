@@ -59,7 +59,8 @@ $suf = $LANG_FIELD[$lang] ?? '_en';
 $pageTitle = ($M['title' . $suf] ?? $M['title_en']) . ' | BTCtiming.com';
 $pageDesc  = $M['desc' . $suf] ?? $M['desc_en'];
 $baseUrl   = "https://btctiming.com/blog/{$slug}.php";
-$canonical = ($lang === 'ko') ? $baseUrl : "{$baseUrl}?lang={$lang}"; // 언어별로 각각 자기 자신을 정식 URL로 지정
+$__koPath  = "/blog/{$slug}.php";                 // ko 기준 경로 (i18nUrl 입력)
+$canonical = i18nUrl($__koPath, $lang);           // 경로형 self-canonical (ko는 .php, 비-ko는 /{lang}/blog/{slug})
 
 // SNS 공유바 렌더 (상단·하단 공용). $variant = 'top' | 'bottom'
 if (!function_exists('renderShareBar')) {
@@ -137,12 +138,10 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <link rel="canonical" href="<?= h($canonical) ?>">
 <link rel="alternate" type="application/rss+xml" title="BTCtiming.com Blog RSS" href="https://btctiming.com/blog/rss.php<?= $lang === 'ko' ? '' : '?lang=' . h($lang) ?>">
 <!-- hreflang: 실제로 번역이 존재하는 언어만 대응 URL로 알림 (미번역 언어는 넣지 않음 — 오도 방지) -->
-<link rel="alternate" hreflang="ko" href="<?= h($baseUrl) ?>">
-<link rel="alternate" hreflang="en" href="<?= h($baseUrl) ?>?lang=en">
-<?php foreach (array_keys(SUPPORTED_LANGS) as $extraLang): if ($extraLang === 'ko' || $extraLang === 'en') continue; if (isset($M["title_{$extraLang}"])): ?>
-<link rel="alternate" hreflang="<?= $extraLang ?>" href="<?= h($baseUrl) ?>?lang=<?= $extraLang ?>">
-<?php endif; endforeach; ?>
-<link rel="alternate" hreflang="x-default" href="<?= h($baseUrl) ?>">
+<?php foreach (array_keys(SUPPORTED_LANGS) as $__hl): if ($__hl !== 'ko' && $__hl !== 'en' && !isset($M["title_{$__hl}"])) continue; ?>
+<link rel="alternate" hreflang="<?= h($__hl) ?>" href="<?= h(i18nUrl($__koPath, $__hl)) ?>">
+<?php endforeach; ?>
+<link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl($__koPath, 'ko')) ?>">
 <meta property="og:title" content="<?= h($M['title' . $suf] ?? $M['title_en']) ?> | BTCtiming.com">
 <meta property="og:description" content="<?= h($pageDesc) ?>">
 <meta property="og:url" content="<?= h($canonical) ?>">
@@ -199,6 +198,7 @@ $__dateMod = $M['dateModified'] ?? $M['date'];
 :root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
 
 *{box-sizing:border-box;margin:0;padding:0}
+html{overflow-y:scroll}@supports(scrollbar-gutter:stable){html{overflow-y:auto;scrollbar-gutter:stable}}
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
