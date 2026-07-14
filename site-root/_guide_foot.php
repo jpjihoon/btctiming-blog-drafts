@@ -27,7 +27,7 @@ function applyLang(lang){
   //   여기서 저장하면 뒤로가기로 온 페이지가 최근 언어로 오염됨. 저장은 L()(사용자 선택)에서만.
   if(typeof window.onGuideLang==='function'){try{window.onGuideLang(lang);}catch(e){}}
 }
-function L(lang){applyLang(lang);if(window.BTLang)BTLang.save(lang);closeLangMenu();const url=new URL(location.href);if(lang==='ko')url.searchParams.delete('lang');else url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());}
+function L(lang){applyLang(lang);if(window.BTLang)BTLang.save(lang);closeLangMenu();try{if(window.BTLang&&BTLang.i18nHref)history.replaceState(null,'',BTLang.i18nHref(location.pathname+location.search+location.hash,lang));if(window.BTLang&&BTLang.pathify)BTLang.pathify(lang);}catch(e){}}
 function toggleLangMenu(e){e.stopPropagation();document.getElementById('langDropdown').classList.toggle('open');}
 function closeLangMenu(){const d=document.getElementById('langDropdown');if(d)d.classList.remove('open');}
 document.addEventListener('click',(e)=>{const dd=document.getElementById('langDropdown');if(dd&&dd.classList.contains('open')&&!dd.contains(e.target))closeLangMenu();});
@@ -39,6 +39,7 @@ document.addEventListener('click',(e)=>{const dd=document.getElementById('langDr
   var _rendered = <?= json_encode($__ghLang) ?>;
   applyLang(_rendered);
   if (window.BTLang) window.BTLang.stampUrl(_rendered);
+  if (window.BTLang && window.BTLang.pathify) window.BTLang.pathify(_rendered);  // 모든 내부 링크(로고·푸터 등) 경로형으로
 })();
 </script>
 </body>
