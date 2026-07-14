@@ -13,7 +13,16 @@
 // ═══════════════════════════════════════════════════════
 
 header('Content-Type: application/json; charset=utf-8');
-header('Cache-Control: public, max-age=120'); // 2분 캐싱 — 매 페이지뷰마다 디스크 스캔하지 않도록
+header('Cache-Control: public, max-age=30'); // 30초 — 대시보드가 새 글을 30초 내 반영
+
+// ── 서버측 30초 캐시 ── 매 요청 788개 메타 스캔을 막고, 대시보드 갱신도 30초로 단축.
+$__ck = 'btcfeed_' . md5(($_GET['category'] ?? '') . '|' . ($_GET['limit'] ?? '3'));
+$__cf = sys_get_temp_dir() . '/' . $__ck . '.json';
+if (is_file($__cf) && (time() - filemtime($__cf)) < 30) {
+    readfile($__cf);
+    exit;
+}
+
 require_once __DIR__ . '/_articles.php';
 
 $articles = collectArticles(__DIR__);
@@ -47,4 +56,6 @@ $out = array_map(function($a) {
     return $row;
 }, $articles);
 
-echo json_encode(['articles' => $out], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+$__json = json_encode(['articles' => $out], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+@file_put_contents($__cf, $__json);   // 서버측 캐시 저장(30초)
+echo $__json;
