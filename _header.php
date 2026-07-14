@@ -202,6 +202,14 @@ $__dateMod = $M['dateModified'] ?? $M['date'];
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
+/* ── GNB 카테고리 서브내비 (글 읽다가 다른 카테고리로 이동) ── */
+.cat-subnav{background:#0f0f12;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:52px;z-index:199}
+.csn-w{max-width:1280px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.csn-w::-webkit-scrollbar{display:none}
+.csn{white-space:nowrap;padding:10px 12px;font-size:13px;font-weight:600;color:var(--t2,#8b8b93);border-bottom:2px solid transparent;text-decoration:none;display:inline-flex;align-items:center;transition:color .15s}
+.csn:hover{color:var(--t1,#e5e5ea)}
+.csn.on{color:var(--t1,#e5e5ea);border-bottom-color:var(--csn-c,#f7931a)}
+.csn-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--csn-c,#f7931a);margin-right:6px;flex-shrink:0}
 .logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;cursor:pointer;transition:opacity .15s}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}.logo:hover{opacity:.8;text-decoration:none}
 .back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .back a{color:var(--t3)}
@@ -429,6 +437,19 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     </div>
   </div>
 </div></nav>
+<?php
+// ── 카테고리 서브내비: 전체 + CATEGORY_META 순서, 현재 카테고리 강조 ──
+$__csnLangQ = ($requestedLang !== 'ko') ? ('&lang=' . h($requestedLang)) : '';
+$__csnAllQ  = ($requestedLang !== 'ko') ? ('?lang=' . h($requestedLang)) : '';
+$__csnKeys  = array_keys(SUPPORTED_LANGS);
+$__csnAll   = ['ko'=>'전체','en'=>'All','ja'=>'すべて','es'=>'Todo','de'=>'Alle','fr'=>'Tout','pt'=>'Tudo','tr'=>'Tümü','vi'=>'Tất cả'];
+?>
+<div class="cat-subnav"><div class="csn-w">
+  <a class="csn" href="/blog/<?= $__csnAllQ ?>"><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__csnAll[$__l] ?? $__csnAll['en']).'</span>'; ?></a>
+<?php foreach (CATEGORY_META as $__ck => $__cm): if (!isset($__cm['ko'])) continue; ?>
+  <a class="csn<?= $catKey === $__ck ? ' on' : '' ?>" style="--csn-c:<?= h($__cm['color'] ?? '#f7931a') ?>" href="/blog/?cat=<?= h($__ck) ?><?= $__csnLangQ ?>"><span class="csn-dot"></span><?php foreach ($__csnKeys as $__l) echo '<span class="'.$__l.'">'.h($__cm[$__l] ?? $__cm['en']).'</span>'; ?></a>
+<?php endforeach; ?>
+</div></div>
 <div class="wrap">
 <div class="wrap-main">
   <?php
