@@ -627,7 +627,7 @@ function setLang(lang, doSave) {
   });
   document.querySelectorAll('.ko').forEach(el => el.style.display = (lang!=='ko') ? 'none' : '');
   const logoLink = document.getElementById('logoLink');
-  if(logoLink) logoLink.href = '/' + (lang==='ko' ? '' : '?lang=' + lang);
+  if(logoLink) logoLink.href = (window.BTLang&&BTLang.i18nHref)?BTLang.i18nHref('/', lang):'/';
   // 카드 클릭 시 개별 글로 이동해도 같은 언어가 유지되도록 href에 lang 파라미터를 반영
   document.querySelectorAll('#articleGrid .article-card').forEach(a => {
     try {
@@ -637,9 +637,10 @@ function setLang(lang, doSave) {
     } catch(e){}
   });
   // 하단 정책(개인정보/약관) 링크도 현재 언어 유지 (예전엔 /privacy·/terms로 하드코딩돼 한국어로 셌음)
-  const _suf = (lang === 'ko' ? '' : '?lang=' + lang);
-  document.querySelectorAll('footer a[href^="/privacy"]').forEach(a => a.setAttribute('href', '/privacy' + _suf));
-  document.querySelectorAll('footer a[href^="/terms"]').forEach(a => a.setAttribute('href', '/terms' + _suf));
+  if(window.BTLang&&BTLang.i18nHref){
+    document.querySelectorAll('footer a[href^="/privacy"],footer a[href^="/en/privacy"],footer a[href^="/ja/privacy"]').forEach(a => a.setAttribute('href', BTLang.i18nHref('/privacy', lang)));
+    document.querySelectorAll('footer a[href^="/terms"],footer a[href^="/en/terms"],footer a[href^="/ja/terms"]').forEach(a => a.setAttribute('href', BTLang.i18nHref('/terms', lang)));
+  }
   if(window.cbSyncLang) cbSyncLang(lang);  // 카테고리 바 링크도 현재 언어 유지
   if(window.BTLang && BTLang.pathify) BTLang.pathify(lang);  // 모든 내부 링크를 경로형으로
   try{ // 브라우저 탭 제목·설명도 언어별로 갱신
@@ -846,7 +847,7 @@ function closeBlogCoinSwitcher(){ document.getElementById('blogCoinSheet').class
 function bcsPick(id){
   try{ localStorage.setItem('selectedCoin', id); }catch(e){}
   var lang=bcsLang();
-  location.href='/'+(lang==='ko'?'':'?lang='+lang);
+  location.href=(lang==='ko'?'/':'/'+lang);
 }
 </script>
 <script>
@@ -856,9 +857,9 @@ function applyTabbarLang(lang){
     try{ const m=JSON.parse(a.getAttribute('data-tb')); const tx=a.querySelector('.btab-tx'); if(tx&&m[lang]) tx.textContent=m[lang]; }catch(e){}
   });
   // 링크에도 언어 반영 (live만; coins는 버튼이라 제외)
-  const suf = (lang==='ko'?'':'?lang='+lang);
+  const _lh = (p)=>(window.BTLang&&BTLang.i18nHref)?BTLang.i18nHref(p,lang):p;
   const live=document.querySelector('.blog-tabbar a.btab[href="/"], .blog-tabbar a.btab[href^="/?"]');
-  if(live) live.setAttribute('href','/'+suf);
+  if(live) live.setAttribute('href', _lh('/'));
 }
 try{
   const _l = document.getElementById('html-root').lang || 'ko';

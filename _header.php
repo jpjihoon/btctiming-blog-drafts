@@ -467,7 +467,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
 <div class="wrap-main">
   <?php
     $bcSuffix = langSuffix($requestedLang); // 브레드크럼 링크도 현재 보고 있는 언어를 유지하도록
-    $bcCatHref = '/blog/?cat=' . h($catKey) . ($requestedLang !== 'ko' ? '&lang=' . h($requestedLang) : '');
+    $bcCatHref = ($requestedLang === 'ko' ? '' : '/' . h($requestedLang)) . '/blog/?cat=' . h($catKey);  // 경로형
   ?>
   <div class="bc">
     <?php
@@ -499,7 +499,6 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     $__bcHomeName = ['ko'=>'홈','en'=>'Home','ja'=>'ホーム','es'=>'Inicio','de'=>'Startseite','fr'=>'Accueil','pt'=>'Início','tr'=>'Ana Sayfa','vi'=>'Trang chủ'];
     $__bcBlogName = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog'];
     $__bcLang = $lang;
-    $__bcSfx  = ($__bcLang !== 'ko') ? ('?lang=' . $__bcLang) : '';
     $__bcLd = ['@context'=>'https://schema.org','@type'=>'BreadcrumbList','itemListElement'=>[
       ['@type'=>'ListItem','position'=>1,'name'=>($__bcHomeName[$__bcLang] ?? $__bcHomeName['en']),'item'=>i18nUrl('/', $__bcLang)],
       ['@type'=>'ListItem','position'=>2,'name'=>($__bcBlogName[$__bcLang] ?? 'Blog'),'item'=>i18nUrl('/blog/', $__bcLang)],
