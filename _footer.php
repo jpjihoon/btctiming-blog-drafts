@@ -34,12 +34,61 @@ $otherTop = array_slice($otherCategory, 0, 4, true);  // 다른 글 · 관련도
 $blogSuffix = ($lang === 'ko') ? '' : "?lang={$lang}";
 
 // ── 이전 글 / 다음 글: 전체 글을 날짜순(오름차순)으로 세워 현재 글의 앞뒤를 찾음 ──
-$ordered = $ARTICLES;
+$ordered = array_filter($ARTICLES, fn($a) => ($a['category'] ?? '') === $catKey);  // 이전/다음은 같은 카테고리 내에서만
 uasort($ordered, fn($a, $b) => strcmp($a['date'] ?? '', $b['date'] ?? ''));
 $orderedSlugs = array_keys($ordered);
 $curPos = array_search($slug, $orderedSlugs, true);
 $prevSlug = ($curPos !== false && $curPos < count($orderedSlugs) - 1) ? $orderedSlugs[$curPos + 1] : null; // 이전 글 = 더 최신 글
 $nextSlug = ($curPos !== false && $curPos > 0) ? $orderedSlugs[$curPos - 1] : null;               // 다음 글 = 더 과거 글
+
+// ── 인기글(조회수) — Firebase blogViewsHourly, 180초 캐시. 목록 캐시와 별도 키(더 많은 순위 저장) ──
+if (!function_exists('ftGetPopularRanked')) {
+    function ftGetPopularRanked(int $need = 40): array {
+        $cacheFile = sys_get_temp_dir() . '/btc_blog_popular_full.json';
+        if (is_readable($cacheFile) && (time() - @filemtime($cacheFile) < 180)) {
+            $c = json_decode(@file_get_contents($cacheFile), true);
+            if (is_array($c)) return $c;
+        }
+        $result = [];
+        if (function_exists('curl_init')) {
+            $ch = curl_init('https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app/blogViewsHourly.json');
+            curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER=>true, CURLOPT_TIMEOUT_MS=>700, CURLOPT_CONNECTTIMEOUT_MS=>400, CURLOPT_SSL_VERIFYPEER=>false]);
+            $raw = curl_exec($ch); curl_close($ch);
+            $data = $raw ? json_decode($raw, true) : null;
+            if (is_array($data)) {
+                $sumWin = function(int $hours) use ($data): array {
+                    $ok = []; for ($x=0; $x<$hours; $x++) $ok[gmdate('YmdH', time()-$x*3600)] = 1;
+                    $out = [];
+                    foreach ($data as $slug=>$buckets) {
+                        if (!is_array($buckets)) continue;
+                        $ssum = 0; foreach ($buckets as $b=>$c) if (isset($ok[$b])) $ssum += (int)$c;
+                        if ($ssum > 0) $out[$slug] = $ssum;
+                    }
+                    arsort($out); return array_keys($out);
+                };
+                $ranked = $sumWin(24);
+                if (count($ranked) < $need) $ranked = $sumWin(48);
+                $result = array_slice($ranked, 0, $need);
+            }
+        }
+        @file_put_contents($cacheFile, json_encode($result));
+        return $result;
+    }
+}
+$__popRanked = ftGetPopularRanked(40);
+$popAll = []; $popCat = [];
+foreach ($__popRanked as $ps) {
+    if (!isset($ARTICLES[$ps]) || $ps === $slug) continue;
+    if (count($popAll) < 5) $popAll[$ps] = $ARTICLES[$ps];
+    if (count($popCat) < 5 && ($ARTICLES[$ps]['category'] ?? '') === $catKey) $popCat[$ps] = $ARTICLES[$ps];
+}
+// 부족하면 최신글로 보충
+if (count($popAll) < 5) foreach ($ARTICLES as $ps=>$pa) { if ($ps!==$slug && !isset($popAll[$ps])) { $popAll[$ps]=$pa; if (count($popAll)>=5) break; } }
+if (count($popCat) < 3) foreach ($sameCategory as $ps=>$pa) { if (!isset($popCat[$ps])) { $popCat[$ps]=$pa; if (count($popCat)>=5) break; } }
+// "카테고리에서 더 보기" = 같은 카테고리 최신 4
+$moreInCat = $sameCategory;
+uasort($moreInCat, fn($a,$b)=>strcmp($b['date']??'', $a['date']??''));
+$moreInCat = array_slice($moreInCat, 0, 4, true);
 
 // 추천 카드 하나를 그리는 헬퍼
 $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
@@ -103,39 +152,52 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 </div>
 <?php endif; ?>
 
-<?php // ── 추천: 같은 카테고리 ── ?>
-<?php if (!empty($sameTop)): ?>
-<div class="other-articles">
-  <h3 class="ko">관련 주제의 글</h3>
-  <h3 class="en">Related Topics</h3>
-  <h3 class="ja">関連トピックの記事</h3>
-  <h3 class="es">Temas Relacionados</h3>
-  <h3 class="de">Verwandte Themen</h3>
-  <h3 class="fr">Sujets connexes</h3>
-  <h3 class="pt">Tópicos relacionados</h3>
-  <h3 class="tr">İlgili konular</h3>
-  <h3 class="vi">Chủ đề liên quan</h3>
+<?php // ── 카테고리에서 더 보기 (같은 카테고리 · 최신) ── ?>
+<?php if (!empty($moreInCat)):
+  $__catNm  = CATEGORY_META[$catKey] ?? CATEGORY_META['guide'];
+  $__moreH  = ['ko'=>'%s에서 더 보기','en'=>'More in %s','ja'=>'%sをもっと見る','es'=>'Más en %s','de'=>'Mehr aus %s','fr'=>'Plus dans %s','pt'=>'Mais em %s','tr'=>'%s: daha fazla','vi'=>'Xem thêm trong %s'];
+  $__moreN  = ['ko'=>'같은 카테고리 · 최신','en'=>'Same category · Latest','ja'=>'同カテゴリ · 最新','es'=>'Misma categoría · Reciente','de'=>'Gleiche Kategorie · Neueste','fr'=>'Même catégorie · Récent','pt'=>'Mesma categoria · Recente','tr'=>'Aynı kategori · En yeni','vi'=>'Cùng chuyên mục · Mới nhất']; ?>
+<div class="other-articles mod-block">
+  <div class="mod-head">
+    <?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<h3 class="'.$__l.'">'.h(sprintf($__moreH[$__l] ?? $__moreH['en'], $__catNm[$__l] ?? $__catNm['en'])).'</h3>'; ?>
+    <span class="mod-note"><?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($__moreN[$__l] ?? $__moreN['en']).'</span>'; ?></span>
+  </div>
   <div class="other-grid">
-    <?php foreach ($sameTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
+    <?php foreach ($moreInCat as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
   </div>
 </div>
 <?php endif; ?>
 
-<?php // ── 추천: 다른 카테고리 ── ?>
-<?php if (!empty($otherTop)): ?>
-<div class="other-articles">
-  <h3 class="ko">이런 글도 읽어보세요</h3>
-  <h3 class="en">You Might Also Like</h3>
-  <h3 class="ja">こちらの記事もどうぞ</h3>
-  <h3 class="es">También Te Puede Interesar</h3>
-  <h3 class="de">Das könnte dich auch interessieren</h3>
-  <h3 class="fr">Vous aimerez aussi</h3>
-  <h3 class="pt">Você também pode gostar</h3>
-  <h3 class="tr">Bunları da beğenebilirsiniz</h3>
-  <h3 class="vi">Bạn cũng có thể thích</h3>
-  <div class="other-grid">
-    <?php foreach ($otherTop as $rSlug => $rA) $renderOtherCard($rSlug, $rA); ?>
+<?php // ── 많이 본 글 (조회수 · 전체/카테고리 탭) ── ?>
+<?php if (!empty($popAll)):
+  $__popH = ['ko'=>'많이 본 글','en'=>'Most Read','ja'=>'よく読まれている記事','es'=>'Más Leídos','de'=>'Meistgelesen','fr'=>'Les plus lus','pt'=>'Mais Lidos','tr'=>'En Çok Okunanlar','vi'=>'Đọc nhiều nhất'];
+  $__popN = ['ko'=>'최근 24시간 조회수','en'=>'Last 24h views','ja'=>'直近24時間の閲覧数','es'=>'Vistas últimas 24h','de'=>'Aufrufe (24h)','fr'=>'Vues sur 24h','pt'=>'Views (24h)','tr'=>'Son 24s görüntülenme','vi'=>'Lượt xem 24h'];
+  $__tabAll = ['ko'=>'전체 인기','en'=>'Overall','ja'=>'全体','es'=>'General','de'=>'Gesamt','fr'=>'Général','pt'=>'Geral','tr'=>'Genel','vi'=>'Tổng thể'];
+  $__catNm2 = CATEGORY_META[$catKey] ?? CATEGORY_META['guide'];
+  $__rank = function($list) use ($blogSuffix) {
+    $i = 0;
+    foreach ($list as $rSlug => $rA) { $i++;
+      $rCatM = CATEGORY_META[$rA['category'] ?? 'guide'] ?? CATEGORY_META['guide'];
+      echo '<a class="pop-item" href="/blog/'.h($rSlug).'.php'.h($blogSuffix).'"><span class="pop-rk">'.$i.'</span><span class="pop-body"><span class="pop-t">';
+      foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($rA["title_{$__l}"] ?? ($rA['title_en'] ?? '')).'</span>';
+      echo '</span><span class="pop-cat" style="color:'.h($rCatM['color'] ?? '#f7931a').'">';
+      foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($rCatM[$__l] ?? $rCatM['en']).'</span>';
+      echo '</span></span></a>';
+    }
+  }; ?>
+<div class="other-articles mod-block">
+  <div class="mod-head">
+    <?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<h3 class="'.$__l.'">'.h($__popH[$__l] ?? $__popH['en']).'</h3>'; ?>
+    <span class="mod-note"><?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($__popN[$__l] ?? $__popN['en']).'</span>'; ?></span>
   </div>
+  <?php if (!empty($popCat)): ?>
+  <div class="pop-tabs">
+    <button type="button" class="pop-tab on" data-pop="all"><?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($__tabAll[$__l] ?? $__tabAll['en']).'</span>'; ?></button>
+    <button type="button" class="pop-tab" data-pop="cat"><?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($__catNm2[$__l] ?? $__catNm2['en']).'</span>'; ?></button>
+  </div>
+  <?php endif; ?>
+  <div class="pop-list" data-pop-panel="all"><?php $__rank($popAll); ?></div>
+  <?php if (!empty($popCat)): ?><div class="pop-list" data-pop-panel="cat" style="display:none"><?php $__rank($popCat); ?></div><?php endif; ?>
 </div>
 <?php endif; ?>
 
@@ -558,9 +620,11 @@ foreach (array_slice($__combSource, 0, 4, true) as $__rSlug => $__rA) {
     $__combItems[] = $__it;
 }
 $__combHeads2 = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
+$__combEye  = ['ko'=>'이어서 읽기','en'=>'Read Next','ja'=>'次に読む','es'=>'Sigue leyendo','de'=>'Weiterlesen','fr'=>'À lire ensuite','pt'=>'Leia a seguir','tr'=>'Sıradaki','vi'=>'Đọc tiếp'];
+$__combNote = ['ko'=>'이 글과 연관성이 높은 글','en'=>'Closely related to this article','ja'=>'この記事と関連性の高い記事','es'=>'Muy relacionados con este artículo','de'=>'Eng verwandt mit diesem Artikel','fr'=>'Étroitement liés à cet article','pt'=>'Muito relacionados a este artigo','tr'=>'Bu yazıyla yakından ilgili','vi'=>'Liên quan chặt chẽ đến bài này'];
 ?>
 <script>
-window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combItems], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;
+window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'eyebrow'=>$__combEye,'note'=>$__combNote,'items'=>$__combItems], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;
 (function(){
   var main=document.querySelector('.wrap-main'); if(!main||!window.__combReads) return;
   var data=window.__combReads; if(!data.items||!data.items.length) return;
@@ -580,8 +644,15 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
   }
 
   // 2) 공통 '함께 보면 좋은 글' 하나만 생성 (항상)
-  var frag=document.createDocumentFragment();
-  langs.forEach(function(lg){ var h=document.createElement('h2'); h.className=lg; h.textContent=heads[lg]||heads.en; frag.appendChild(h); });
+  var frag=document.createElement('div'); frag.className='comb-box';
+  var eye=data.eyebrow||{}, note=data.note||{};
+  var eb=document.createElement('div'); eb.className='comb-eyebrow';
+  langs.forEach(function(lg){ var sp=document.createElement('span'); sp.className=lg; sp.textContent=eye[lg]||eye.en||''; eb.appendChild(sp); });
+  frag.appendChild(eb);
+  langs.forEach(function(lg){ var h=document.createElement('h2'); h.className=lg+' comb-h'; h.textContent=heads[lg]||heads.en; frag.appendChild(h); });
+  var nt=document.createElement('div'); nt.className='comb-note';
+  langs.forEach(function(lg){ var sp=document.createElement('span'); sp.className=lg; sp.textContent=note[lg]||note.en||''; nt.appendChild(sp); });
+  frag.appendChild(nt);
   langs.forEach(function(lg){ var ul=document.createElement('ul'); ul.className=lg;
     data.items.forEach(function(it){ var li=document.createElement('li');
       var st=document.createElement('strong'), a=document.createElement('a');
@@ -601,6 +672,18 @@ window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'items'=>$__combIte
   if(srcP&&srcP.parentNode) srcP.parentNode.insertBefore(frag, srcP);
   else if(endEl&&endEl.parentNode) endEl.parentNode.insertBefore(frag, endEl);
   else main.appendChild(frag);
+})();
+</script>
+<script>
+/* ── 많이 본 글 탭 토글 ── */
+(function(){
+  var tabs=document.querySelectorAll('.pop-tab'); if(!tabs.length) return;
+  [].forEach.call(tabs,function(t){ t.addEventListener('click',function(){
+    [].forEach.call(document.querySelectorAll('.pop-tab'),function(x){x.classList.remove('on')});
+    t.classList.add('on');
+    var w=t.getAttribute('data-pop');
+    [].forEach.call(document.querySelectorAll('.pop-list'),function(p){ p.style.display=(p.getAttribute('data-pop-panel')===w)?'':'none'; });
+  }); });
 })();
 </script>
 <script>

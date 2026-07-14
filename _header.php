@@ -210,6 +210,34 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
 .csn:hover{color:var(--t1,#e5e5ea)}
 .csn.on{color:var(--t1,#e5e5ea);border-bottom-color:var(--csn-c,#f7931a)}
 .csn-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--csn-c,#f7931a);margin-right:6px;flex-shrink:0}
+/* ── 하단 모듈: 더 보기 / 많이 본 글 ── */
+.mod-block{margin-top:34px}
+.mod-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:9px;margin-bottom:14px}
+.mod-head h3{font-size:1.02rem;font-weight:800;margin:0}
+.mod-note{font-size:11.5px;color:#71717a;white-space:nowrap;flex-shrink:0}
+.pop-tabs{display:flex;gap:6px;margin-bottom:12px}
+.pop-tab{padding:6px 13px;border-radius:999px;font-size:12.5px;font-weight:600;color:#8b8b93;border:1px solid rgba(255,255,255,.14);background:transparent;cursor:pointer}
+.pop-tab.on{background:#f7931a;border-color:#f7931a;color:#0a0a0a}
+.pop-list{display:flex;flex-direction:column}
+.pop-item{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-top:1px solid rgba(255,255,255,.07);text-decoration:none}
+.pop-item:first-child{border-top:0}
+.pop-rk{font-size:1.1rem;font-weight:800;color:#6d6d76;min-width:20px;font-variant-numeric:tabular-nums;line-height:1.35}
+.pop-item:nth-child(-n+3) .pop-rk{color:#f7931a}
+.pop-body{display:flex;flex-direction:column;gap:3px;min-width:0}
+.pop-t{font-size:.94rem;font-weight:600;color:#e5e5ea;line-height:1.4}
+.pop-item:hover .pop-t{color:#f7931a}
+.pop-cat{font-size:11.5px;font-weight:600}
+/* ── 함께 보면 좋은 글 (기준 라벨 + 축소 폰트) ── */
+.comb-box{margin:38px 0 8px;padding:16px 18px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:#0f0f12}
+.comb-eyebrow{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#f7931a;margin-bottom:5px}
+.comb-h{font-size:1.02rem !important;font-weight:700 !important;margin:0 0 2px !important;line-height:1.3 !important}
+.comb-note{font-size:12px;color:#71717a;margin-bottom:13px}
+.comb-box ul{list-style:none;margin:0;padding:0}
+.comb-box li{padding:8px 0;border-top:1px solid rgba(255,255,255,.06);font-size:.8rem;color:#71717a;line-height:1.5}
+.comb-box li:first-child{border-top:0;padding-top:0}
+.comb-box li a{font-size:.9rem;font-weight:600;color:#dcdce2}
+.comb-box li a:hover{color:#f7931a}
+.comb-box li strong{font-weight:600;color:inherit}
 .logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;cursor:pointer;transition:opacity .15s}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}.logo:hover{opacity:.8;text-decoration:none}
 .back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .back a{color:var(--t3)}
