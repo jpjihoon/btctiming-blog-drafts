@@ -155,10 +155,11 @@ const SUPPORTED_LANGS = [
  */
 function i18nUrl(string $koPath, string $lang): string {
     $base = 'https://btctiming.com';
-    if ($lang === 'ko') return $base . $koPath;
-    if ($koPath === '/' || $koPath === '') return $base . '/' . $lang;           // 홈: /en
-    $p = preg_replace('/\.php$/', '', $koPath);  // 비-ko: 끝의 .php 제거(경로형)
-    return $base . '/' . $lang . $p;
+    $p = preg_replace('/\.php$/', '', $koPath);          // 전 언어 clean(.php 제거)
+    if ($p === '') $p = '/';
+    if ($lang === 'ko') return $base . $p;                // ko: 접두어 없이 clean
+    if ($p === '/') return $base . '/' . $lang;           // 홈: /en
+    return $base . '/' . $lang . $p;                      // 비-ko: /{lang}/... clean
 }
 function langSuffix(string $lang): string {
     return $lang === 'ko' ? '' : "?lang={$lang}";

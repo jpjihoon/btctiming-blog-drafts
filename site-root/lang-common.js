@@ -119,11 +119,11 @@
       var u = new URL(href, location.origin);
       var p = u.pathname.replace(/^\/(en|ja|es|de|fr|pt|tr|vi)(?=\/|$)/, '') || '/'; // 기존 언어접두어 제거
       if (!_pathifiable(p)) return href;                   // 화이트리스트 밖은 그대로
-      if (/^\/blog\/[a-z0-9-]+$/.test(p)) p += '.php';    // ko 글 형태(.php)로 정규화
+      p = p.replace(/\.php$/, '') || '/';                 // 전 언어 clean(.php 제거)
       u.searchParams.delete('lang');
       var rest = u.search + u.hash;
-      if (lang === 'ko') return p + rest;
-      return '/' + lang + (p === '/' ? '' : p.replace(/\.php$/, '')) + rest;
+      if (lang === 'ko') return p + rest;                  // ko: 접두어 없이 clean
+      return '/' + lang + (p === '/' ? '' : p) + rest;     // 비-ko: /{lang}/... clean
     } catch (e) { return href; }
   }
   // 페이지 내 모든 내부 링크를 현재 언어의 경로형으로 일괄 변환.
