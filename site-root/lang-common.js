@@ -43,6 +43,13 @@
   }
   function writeLocal(l) { try { localStorage.setItem(COOKIE, l); } catch (e) {} }
 
+  function pathLang() {
+    try {
+      var m = location.pathname.match(/^\/([a-z]{2})(?:\/|$)/);
+      return (m && isValid(m[1])) ? m[1] : null;
+    } catch (e) { return null; }
+  }
+
   function urlLang() {
     try {
       var p = new URLSearchParams(location.search).get('lang');
@@ -63,6 +70,7 @@
    * @param {boolean} useBrowser true면 마지막에 브라우저 언어까지 감지(첫 방문용). 기본 false.
    */
   function get(useBrowser) {
+    var pth = pathLang();       if (pth) return pth;
     var u = urlLang();          if (u) return u;
     var c = readCookie();       if (isValid(c)) return c;
     var s = readLocal();        if (isValid(s)) return s;
@@ -90,6 +98,7 @@
    */
   function stampUrl(rendered) {
     try {
+      if (pathLang()) return;
       var u = new URL(location.href);
       if (rendered === 'ko') u.searchParams.delete('lang');
       else if (isValid(rendered)) u.searchParams.set('lang', rendered);

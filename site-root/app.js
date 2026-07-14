@@ -2310,11 +2310,13 @@ async function loadAll() {
 
 
 
+function __btPathLang(){ try{ var m=location.pathname.match(/^\/([a-z]{2})(?:\/|$)/); return (m && SUPPORTED_LANG_CODES.includes(m[1])) ? m[1] : null; }catch(e){ return null; } }
 let currentLang = (function(){
   // 언어는 서버가 URL 기준으로 렌더한 값(BT_SERVER_LANG)을 그대로 따른다 = 화면과 항상 일치.
   // 이래야 뒤로가기로 온 페이지(URL의 언어)와 JS 동작 언어가 어긋나지 않고, 저장값에 오염되지 않는다.
   if (window.BT_SERVER_LANG && SUPPORTED_LANG_CODES.includes(window.BT_SERVER_LANG)) return window.BT_SERVER_LANG;
-  // 폴백: URL ?lang
+  // 폴백: 경로형(/en/...) > URL ?lang
+  var __pli=__btPathLang(); if(__pli) return __pli;
   try{var p=new URLSearchParams(location.search).get('lang');if(SUPPORTED_LANG_CODES.includes(p))return p;}catch(e){}
   return 'ko';
 })();
@@ -2570,7 +2572,8 @@ if (document.readyState === 'loading') {
 function syncLangFromStorage() {
   try {
     // URL에 lang이 명시돼 있으면 그것을 최우선으로 존중(사이트맵·검색결과 진입).
-    const urlLang = new URLSearchParams(location.search).get('lang');
+    var __pl = __btPathLang();
+    const urlLang = __pl || new URLSearchParams(location.search).get('lang');
     const desired = SUPPORTED_LANG_CODES.includes(urlLang)
       ? urlLang
       : localStorage.getItem('blogLang');
@@ -2587,7 +2590,8 @@ window.addEventListener('pageshow', function(e) {
     //   최근 방문 언어로 오염됨(다른 페이지에서 언어 바꾸고 대시보드로 뒤로가기 시 그 언어로 뜨던 버그).
     //   URL의 ?lang= 만 신뢰한다. (서버 resolveLang도 URL만 보므로 화면과 일치)
     try {
-      const urlLang = new URLSearchParams(location.search).get('lang');
+      var __pl = __btPathLang();
+      const urlLang = __pl || new URLSearchParams(location.search).get('lang');
       const desired = SUPPORTED_LANG_CODES.includes(urlLang) ? urlLang : 'ko';
       currentLang = desired;
     } catch(err) {}
