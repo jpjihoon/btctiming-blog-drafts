@@ -39,6 +39,15 @@ RewriteRule ^sitemap\.xml$ /sitemap.php [L]
 # 새 글이 추가돼도 이 규칙 하나로 전부 자동 처리됩니다 (수정 불필요)
 RewriteRule ^blog/([a-z0-9-]+)\.html$ /blog/$1.php [R=301,L]
 
-# 블로그 다국어 경로형 URL: /blog/{언어}/{슬러그} → 내부적으로 /blog/{슬러그}.php?lang={언어}
-# (URL은 경로형으로 보이되 실제 렌더는 기존 .php가 처리 = 파일 구조 불변, ?lang= 도 그대로 동작)
-RewriteRule ^blog/(en|ja|es|de|fr|pt|tr|vi)/([a-z0-9-]+)/?$ /blog/$2.php?lang=$1 [L,QSA]
+# ═══ 언어 최상위 경로형 URL (비-ko). 내부적으로 ?lang= 를 넘겨 기존 렌더가 처리 ═══
+#   /en, /en/blog/, /en/blog/{slug}, /en/glossary/{term} … (ko는 접두어 없이 기존 그대로)
+#   ?lang= 도 계속 동작 → 아무것도 안 깨짐. 구체 규칙(blog/glossary)을 홈 규칙보다 먼저 둔다.
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/blog/([a-z0-9-]+)/?$ /blog/$2.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/blog/?$ /blog/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/glossary/([a-z0-9-]+)/?$ /glossary.php?term=$2&lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/glossary/?$ /glossary.php?lang=$1 [L,QSA]
+# 홈: /en, /ja … (실제 파일/폴더가 아닐 때만)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/?$ /index.php?lang=$1 [L,QSA]
+
