@@ -91,13 +91,13 @@ uasort($moreInCat, fn($a,$b)=>strcmp($b['date']??'', $a['date']??''));
 $moreInCat = array_slice($moreInCat, 0, 4, true);
 
 // 추천 카드 하나를 그리는 헬퍼
-$renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
+$renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
     $rCat = $rA['category'] ?? 'guide';
     $rColor = $rA['color'] ?? '#f7931a';
     $rIcon = $rA['icon'] ?? '📄';
     $rLangKeys = array_keys(SUPPORTED_LANGS);
     ?>
-    <a data-base="/blog/<?= htmlspecialchars($rSlug) ?>.php" href="/blog/<?= htmlspecialchars($rSlug) ?>.php<?= htmlspecialchars($blogSuffix) ?>" class="other-card" style="--oc-accent:<?= htmlspecialchars($rColor) ?>">
+    <a data-base="/blog/<?= htmlspecialchars($rSlug) ?>.php" href="<?= htmlspecialchars(i18nPath('/blog/'.$rSlug.'.php', $lang)) ?>" class="other-card" style="--oc-accent:<?= htmlspecialchars($rColor) ?>">
       <div class="oc-icon"><?= $rIcon ?></div>
       <div class="oc-body">
         <div class="oc-cat"><?php foreach ($rLangKeys as $rL) {
@@ -123,7 +123,7 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 
 
 <?php // ── 광고 배너: 거래소 비교(바이낸스·바이비트) 페이지로 ── ?>
-<a class="blog-ad" href="/exchanges.php<?= h($blogSuffix) ?>">
+<a class="blog-ad" href="<?= h(i18nPath('/exchanges.php', $lang)) ?>">
   <span class="blog-ad-bar" aria-hidden="true"></span>
   <span class="blog-ad-tx">
     <b class="ko">비트코인 선물, 어디서 거래할까?</b><b class="en">Where to trade Bitcoin futures?</b><b class="ja">ビットコイン先物、どこで取引?</b><b class="es">¿Dónde operar futuros de Bitcoin?</b><b class="de">Wo Bitcoin-Futures handeln?</b><b class="fr">Où trader les futures Bitcoin ?</b><b class="pt">Onde negociar futuros de Bitcoin?</b><b class="tr">Bitcoin vadeli işlemleri nerede?</b><b class="vi">Giao dịch futures Bitcoin ở đâu?</b>
@@ -137,14 +137,14 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
 <div class="prevnext">
   <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
     $pnPrev = ['ko'=>'← 이전 글','en'=>'← Previous','ja'=>'← 前の記事','es'=>'← Anterior','de'=>'← Zurück','fr'=>'← Précédent','pt'=>'← Anterior','tr'=>'← Önceki','vi'=>'← Trước']; ?>
-    <a class="pn-link pn-prev" data-base="/blog/<?= h($prevSlug) ?>.php" href="/blog/<?= h($prevSlug) ?>.php<?= h($blogSuffix) ?>">
+    <a class="pn-link pn-prev" data-base="/blog/<?= h($prevSlug) ?>.php" href="<?= h(i18nPath('/blog/'.$prevSlug.'.php', $lang)) ?>">
       <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnPrev[$pl] ?? $pnPrev['en']).'</span>'; ?></span>
       <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pA["title_{$pl}"] ?? ($pA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
   <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
   <?php if ($nextSlug): $nA = $ARTICLES[$nextSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
     $pnNext = ['ko'=>'다음 글 →','en'=>'Next →','ja'=>'次の記事 →','es'=>'Siguiente →','de'=>'Weiter →','fr'=>'Suivant →','pt'=>'Próximo →','tr'=>'Sonraki →','vi'=>'Tiếp →']; ?>
-    <a class="pn-link pn-next" data-base="/blog/<?= h($nextSlug) ?>.php" href="/blog/<?= h($nextSlug) ?>.php<?= h($blogSuffix) ?>">
+    <a class="pn-link pn-next" data-base="/blog/<?= h($nextSlug) ?>.php" href="<?= h(i18nPath('/blog/'.$nextSlug.'.php', $lang)) ?>">
       <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnNext[$pl] ?? $pnNext['en']).'</span>'; ?></span>
       <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($nA["title_{$pl}"] ?? ($nA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
@@ -174,11 +174,11 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
   $__popN = ['ko'=>'최근 24시간 조회수','en'=>'Last 24h views','ja'=>'直近24時間の閲覧数','es'=>'Vistas últimas 24h','de'=>'Aufrufe (24h)','fr'=>'Vues sur 24h','pt'=>'Views (24h)','tr'=>'Son 24s görüntülenme','vi'=>'Lượt xem 24h'];
   $__tabAll = ['ko'=>'전체 인기','en'=>'Overall','ja'=>'全体','es'=>'General','de'=>'Gesamt','fr'=>'Général','pt'=>'Geral','tr'=>'Genel','vi'=>'Tổng thể'];
   $__catNm2 = CATEGORY_META[$catKey] ?? CATEGORY_META['guide'];
-  $__rank = function($list) use ($blogSuffix) {
+  $__rank = function($list) use ($blogSuffix, $lang) {
     $i = 0;
     foreach ($list as $rSlug => $rA) { $i++;
       $rCatM = CATEGORY_META[$rA['category'] ?? 'guide'] ?? CATEGORY_META['guide'];
-      echo '<a class="pop-item" href="/blog/'.h($rSlug).'.php'.h($blogSuffix).'"><span class="pop-rk">'.$i.'</span><span class="pop-body"><span class="pop-t">';
+      echo '<a class="pop-item" href="'.h(i18nPath('/blog/'.$rSlug.'.php', $lang)).'"><span class="pop-rk">'.$i.'</span><span class="pop-body"><span class="pop-t">';
       foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($rA["title_{$__l}"] ?? ($rA['title_en'] ?? '')).'</span>';
       echo '</span><span class="pop-cat" style="color:'.h($rCatM['color'] ?? '#f7931a').'">';
       foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<span class="'.$__l.'">'.h($rCatM[$__l] ?? $rCatM['en']).'</span>';
@@ -228,7 +228,7 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix) {
     // 어떤 텍스트 변형이 보일지도 $lang을 따름. 하지만 href는 $requestedLang(사용자가 진짜 요청한 언어)을
     // 써야 함 — 독일어 요청인데 이 글만 번역이 없어 영어 텍스트가 보이는 상황이어도, 클릭하면 메인
     // 사이트로는 독일어로 정확히 돌아가야 함(메인은 5개 언어 다 지원하므로 이 글의 번역 여부와 무관).
-    $mainHref = '/' . langSuffix($requestedLang);
+    $mainHref = i18nPath('/', $requestedLang);
     ?>
     <a href="<?= h($mainHref) ?>" class="ko main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">실시간 분석 보러가기 →</a>
     <a href="<?= h($mainHref) ?>" class="en main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Go to Live Analysis →</a>
@@ -499,7 +499,7 @@ $__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'
 }
 </style>
 <nav class="blog-tabbar">
-  <a class="btab" href="/<?= h($tbSuffix) ?>">
+  <a class="btab" href="<?= h(i18nPath('/', $requestedLang ?? $lang ?? 'ko')) ?>">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
     <span><?= h($tbt['live']) ?></span>
   </a>
@@ -507,7 +507,7 @@ $__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
     <span><?= h($tbt['coin']) ?></span>
   </button>
-  <a class="btab active" href="/blog/<?= h($blogSuffix) ?>">
+  <a class="btab active" href="<?= h(i18nPath('/blog/', $lang)) ?>">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
     <span><?= h($tbt['blog']) ?></span>
   </a>
