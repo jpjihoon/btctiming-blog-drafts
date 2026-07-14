@@ -310,7 +310,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
   overflow:hidden;z-index:200;opacity:0;pointer-events:none;transform:translateY(-4px);transition:all .15s}
 .lang-dropdown.open .lang-menu{opacity:1;pointer-events:auto;transform:translateY(0)}
 .lang-menu-item{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;
-  border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}
+  border:none;color:#9a9aa4;font-size:12px;font-weight:600;text-align:left;cursor:pointer;transition:all .1s}.lm-flag{display:none}@media(max-width:640px){.lm-flag{display:inline}}
 .lang-menu-item:hover{background:#24242b;color:#f2f2f5}
 .lang-menu-item.active{color:#f7931a;background:rgba(247,147,26,.08)}
 
@@ -442,7 +442,7 @@ foreach ($__langKeys as $__l) {
     </button>
     <div class="lang-menu" id="langMenu">
       <?php foreach (SUPPORTED_LANGS as $__lc => $__meta): ?>
-      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>', true)"><?= $__meta['flag'] ?? '' ?> <?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
+      <button type="button" class="lang-menu-item<?= $__lc===$__blLang ? ' active' : '' ?>" data-lang="<?= h($__lc) ?>" onclick="setLang('<?= h($__lc) ?>', true)"><span class="lm-flag"><?= $__meta['flag'] ?? '' ?></span><?= h($__meta['name'] ?? strtoupper($__lc)) ?></button>
       <?php endforeach; ?>
     </div>
   </div>
