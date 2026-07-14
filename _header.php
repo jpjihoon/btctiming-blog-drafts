@@ -134,6 +134,10 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title><?= h($pageTitle) ?></title>
+<script>
+window.__ART_TITLE = <?= json_encode(array_combine(array_keys(SUPPORTED_LANGS), array_map(fn($lc)=>(($M['title_'.$lc] ?? $M['title_en']).' | BTCtiming.com'), array_keys(SUPPORTED_LANGS))), JSON_UNESCAPED_UNICODE) ?>;
+window.__ART_DESC = <?= json_encode(array_combine(array_keys(SUPPORTED_LANGS), array_map(fn($lc)=>($M['desc_'.$lc] ?? $M['desc_en']), array_keys(SUPPORTED_LANGS))), JSON_UNESCAPED_UNICODE) ?>;
+</script>
 <meta name="description" content="<?= h($pageDesc) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
 <link rel="alternate" type="application/rss+xml" title="BTCtiming.com Blog RSS" href="https://btctiming.com/blog/rss.php<?= $lang === 'ko' ? '' : '?lang=' . h($lang) ?>">
