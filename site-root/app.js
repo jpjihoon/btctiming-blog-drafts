@@ -711,46 +711,51 @@ const TICKER_CURRENCY_MAP = {ko:'KRW', en:'USD', ja:'JPY', es:'EUR', de:'EUR', f
 function getTickerCurrency() { return TICKER_CURRENCY_MAP[currentLang] || 'USD'; }
 
 async function loadTicker() {
+  // 레이스 방지: 이 호출의 순번. await 뒤 더 최신 호출이 있으면 이 호출은 폐기(라벨/값 뒤섞임 방지).
+  const seq = (loadTicker._seq = (loadTicker._seq || 0) + 1);
   const cur = getTickerCurrency();
   const curLower = cur.toLowerCase();
-  // 라벨 갱신 (USD/USD처럼 같은 통화가 겹치는 경우 — 예: 영어 사용자에게 USD/USD — 는
-  // 굳이 환율이 항상 1.00이라 정보가 없으므로, 이 경우엔 "USD 기준"임을 자연스럽게 보여주는
-  // USDT 페그 확인용 정보로도 여전히 유효함(디페깅 감시).
-  const l1 = document.getElementById('tkFiatLabel1');
-  const l2 = document.getElementById('tkFiatLabel2');
-  const item1 = document.getElementById('tkFiatItem1');
-  // USD/USD는 항상 1.000이라 정보값이 없으므로 통째로 숨기고, USDT/USD(테더 페그 감시)만 남김.
-  if(item1) item1.style.display = (cur === 'USD') ? 'none' : '';
-  if(l1) l1.textContent = `USD/${cur}`;
-  if(l2) l2.textContent = `USDT/${cur}`;
+  const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
 
-  // USD/{통화} 환율: 서버(api.php fx_rates)를 우선 사용. 서버값 없으면 exchangerate-api 직접호출로 폴백.
+  // USD/{통화} 환율: 서버(api.php fx_rates) 우선. 없으면 exchangerate-api 폴백.
   const cacheForFx = (typeof indCache !== 'undefined') ? indCache[currentCoin] : null;
   let rate = (cur === 'USD') ? 1 : (cacheForFx && cacheForFx.fx_rates && cacheForFx.fx_rates[cur]);
   if(rate == null && cur !== 'USD') {
     const r1 = await fetch('https://api.exchangerate-api.com/v4/latest/USD', {signal:AbortSignal.timeout(4000)})
       .then(r=>r.json()).catch(()=>null);
-    rate = r1?.rates?.[cur];
+    if(seq !== loadTicker._seq) return;   // 더 최신 호출이 시작됨 → 폐기
+    rate = r1 && r1.rates ? r1.rates[cur] : null;
   }
 
-  const dLoc = SUPPORTED_LANG_CODES.includes(currentLang) ? currentLang : 'en';
-  if(rate != null) {
-    const el = document.getElementById('tkUsdKrw');
-    if(el) el.textContent = rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='VND') ? 0 : ((cur==='JPY'||cur==='KRW') ? 1 : 2)});
-  }
-
-  // USDT/{통화}: 서버가 내려준 실제 테더 시세(usdt_prices) 사용. 원화는 업비트 정밀값 우선.
+  // USDT/{통화}: 서버 usdt_prices. 원화는 업비트 정밀값 우선.
   const src = (typeof indCache !== 'undefined') ? indCache[currentCoin] : null;
   let price = null, chg = null;
   if(cur === 'KRW' && src){ const v = Number(src.usdt_krw); if(v>=500 && v<=3000){ price=v; chg=src.usdt_chg; } }
   if(price == null && src && src.usdt_prices && src.usdt_prices[curLower]){
     price = src.usdt_prices[curLower].p; chg = src.usdt_prices[curLower].c;
   }
+
+  // ── DOM 일괄 갱신: 라벨·값을 '항상 같은 통화(cur)'로 원자적으로 씀 ──
+  if(seq !== loadTicker._seq) return;
+  const l1 = document.getElementById('tkFiatLabel1');
+  const l2 = document.getElementById('tkFiatLabel2');
+  const item1 = document.getElementById('tkFiatItem1');
+  if(item1) item1.style.display = (cur === 'USD') ? 'none' : '';   // USD/USD는 항상 1.0이라 숨김
+  if(l1) l1.textContent = `USD/${cur}`;
+  if(l2) l2.textContent = `USDT/${cur}`;
+
+  const el = document.getElementById('tkUsdKrw');
+  if(el) el.textContent = (rate != null)
+    ? rate.toLocaleString(dLoc, {maximumFractionDigits: (cur==='VND') ? 0 : ((cur==='JPY'||cur==='KRW') ? 1 : 2)})
+    : '—';
+
   const elU = document.getElementById('tkUsdtKrw');
   const chgEl = document.getElementById('tkUsdtKrwChg');
-  if(price != null && elU){
-    const digits = (cur==='JPY'||cur==='VND') ? 0 : (cur==='KRW' ? 1 : 4);
-    elU.textContent = price.toLocaleString(dLoc, {maximumFractionDigits: digits, minimumFractionDigits: (cur==='USD'||cur==='EUR')?4:0});
+  if(elU){
+    if(price != null){
+      const digits = (cur==='JPY'||cur==='VND') ? 0 : (cur==='KRW' ? 1 : 4);
+      elU.textContent = price.toLocaleString(dLoc, {maximumFractionDigits: digits, minimumFractionDigits: (cur==='USD'||cur==='EUR')?4:0});
+    } else elU.textContent = '—';
   }
   if(chgEl){
     if(chg != null){ const s=chg>=0?'+':''; chgEl.textContent=`${s}${Number(chg).toFixed(2)}%`; chgEl.style.color=chg>=0?'var(--green)':'var(--red)'; }
