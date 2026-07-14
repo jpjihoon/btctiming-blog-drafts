@@ -56,7 +56,7 @@ $homeFile = file_exists($root . '/index.php') ? $root . '/index.php' : $root . '
 $homeLastmod = file_exists($homeFile) ? date('Y-m-d', filemtime($homeFile)) : date('Y-m-d');
 $homeHreflangs = ['x-default' => $baseUrl . '/'];
 foreach (SUPPORTED_LANGS as $lc => $li) {
-    $homeHreflangs[$lc] = $baseUrl . '/' . $smSuffix($lc);
+    $homeHreflangs[$lc] = i18nUrl('/', $lc);
 }
 foreach (SUPPORTED_LANGS as $lc => $li) {
     $priority = $lc === 'ko' ? '1.0' : '0.9';
@@ -75,7 +75,7 @@ if (file_exists($blogIndexFile)) {
     $blogLastmod = date('Y-m-d', filemtime($blogIndexFile));
     $blogHreflangs = ['x-default' => $baseUrl . '/blog/'];
     foreach (SUPPORTED_LANGS as $lc => $li) {
-        $blogHreflangs[$lc] = $baseUrl . '/blog/' . $smSuffix($lc);
+        $blogHreflangs[$lc] = i18nUrl('/blog/', $lc);
     }
     foreach (SUPPORTED_LANGS as $lc => $li) {
         $priority = $lc === 'ko' ? '0.8' : '0.7';
@@ -109,7 +109,7 @@ if (file_exists($catMetaFile) && file_exists($metaFileForCats)) {
         // 언어별 URL: /blog/?cat=key&lang=xx (ko 포함 항상 명시)
         $catHreflangs = ['x-default' => $baseUrl . '/blog/?cat=' . $catKey];
         foreach (SUPPORTED_LANGS as $lc => $li) {
-            $catHreflangs[$lc] = $baseUrl . '/blog/?cat=' . $catKey . $smSuffixCat($lc);
+            $catHreflangs[$lc] = i18nUrl('/blog/?cat=' . $catKey, $lc);
         }
         foreach (SUPPORTED_LANGS as $lc => $li) {
             $priority = $lc === 'ko' ? '0.7' : '0.6';
@@ -131,7 +131,7 @@ if (file_exists($metaFile)) {
         $availableLangs = array_filter(array_keys(SUPPORTED_LANGS), fn($lc) => $lc === 'ko' || isset($a["title_{$lc}"]));
         $hreflangs = ['x-default' => $baseArticleUrl];
         foreach ($availableLangs as $lc) {
-            $hreflangs[$lc] = $baseArticleUrl . $smSuffix($lc);
+            $hreflangs[$lc] = i18nUrl('/blog/' . $slug . '.php', $lc);
         }
         // lastmod는 반드시 YYYY-MM-DD 형식이어야 함 (Search Console 규칙).
         // $a['date']는 "2026-07-05" 또는 "2026-07-05 15:00:00"(시간 포함)일 수 있으므로 날짜 부분만 추출.
@@ -171,7 +171,7 @@ foreach ($staticPages as $sp) {
     // 9개 언어 + x-default 상호 hreflang 구성
     $spHreflangs = ['x-default' => $baseUrl . $sp['route']];
     foreach (SUPPORTED_LANGS as $lc => $li) {
-        $spHreflangs[$lc] = $baseUrl . $sp['route'] . $smSuffix($lc);
+        $spHreflangs[$lc] = i18nUrl($sp['route'], $lc);
     }
     foreach (SUPPORTED_LANGS as $lc => $li) {
         $priority = $lc === 'ko' ? $sp['priority'] : number_format((float)$sp['priority'] - 0.1, 1);
@@ -188,7 +188,7 @@ if (file_exists($__glossaryFile)) {
         $__route = '/glossary/' . $__gslug;
         $__glHreflangs = ['x-default' => $baseUrl . $__route];
         foreach (SUPPORTED_LANGS as $lc => $li) {
-            $__glHreflangs[$lc] = $baseUrl . $__route . $smSuffix($lc);
+            $__glHreflangs[$lc] = i18nUrl($__route, $lc);
         }
         foreach (SUPPORTED_LANGS as $lc => $li) {
             $priority = $lc === 'ko' ? '0.5' : '0.4';

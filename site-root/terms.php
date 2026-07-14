@@ -5,6 +5,7 @@ $baseUrl = 'https://btctiming.com';
 $GUIDE_TITLE = '이용약관 · BTCtiming.com';
 $GUIDE_DESC = 'BTCtiming.com 이용약관.';
 $GUIDE_CANONICAL = $baseUrl . '/terms';
+$GUIDE_KOPATH = '/terms';
 $GUIDE_EXTRA_CSS = <<<CSS
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 100px}
 h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:8px;color:#fafafa}

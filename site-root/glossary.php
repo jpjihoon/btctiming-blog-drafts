@@ -66,11 +66,11 @@ if ($isDetail) {
   $nm = $i['term_full'];
   $GUIDE_TITLE = sprintf($L($TITLE_PAT), $nm) . ' | BTCtiming.com';
   $GUIDE_DESC = mb_substr($i['one_liner'], 0, 150);
-  $GUIDE_CANONICAL = $baseUrl . '/glossary/' . $term . $termSuffix;
+  $GUIDE_KOPATH = '/glossary/' . $term;
 } else {
   $GUIDE_TITLE = $L($HUB_TITLE) . ' | BTCtiming.com';
   $GUIDE_DESC = $L($HUB_DESC);
-  $GUIDE_CANONICAL = $baseUrl . '/glossary' . $termSuffix;
+  $GUIDE_KOPATH = '/glossary';
 }
 
 $GUIDE_EXTRA_CSS = <<<CSS

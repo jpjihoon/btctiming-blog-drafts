@@ -169,10 +169,10 @@ function h(string $s): string {
 <meta name="language" content="<?= h($m['language']) ?>">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="BTCtiming.com">
-<link rel="canonical" href="https://btctiming.com/<?= h($urlSuffix) ?>">
+<link rel="canonical" href="<?= h(i18nUrl('/', $lang)) ?>">
 <!-- hreflang: 홈페이지의 언어별 버전이 서로 대응 관계라는 걸 구글에 명시. SUPPORTED_LANGS 기반이라 새 언어 추가시 자동 반영됨. -->
 <?php foreach (SUPPORTED_LANGS as $hlLang => $hlInfo): ?>
-<link rel="alternate" hreflang="<?= $hlLang ?>" href="https://btctiming.com/<?= h(langSuffix($hlLang)) ?>">
+<link rel="alternate" hreflang="<?= $hlLang ?>" href="<?= h(i18nUrl('/', $hlLang)) ?>">
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="https://btctiming.com/">
 
@@ -184,7 +184,7 @@ function h(string $s): string {
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="<?= h($m['og_image_alt']) ?>">
-<meta property="og:url" content="https://btctiming.com/<?= h($urlSuffix) ?>">
+<meta property="og:url" content="<?= h(i18nUrl('/', $lang)) ?>">
 <meta property="og:site_name" content="BTCtiming.com">
 <meta property="og:locale" content="<?= h($m['locale']) ?>">
 <?php foreach ($META as $otherLang => $otherM): if ($otherLang === $lang) continue; ?>

@@ -11,7 +11,8 @@ require_once __DIR__ . '/config.php';
 if (!function_exists('gh')) { function gh($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); } }
 $__title = $GUIDE_TITLE ?? 'BTCtiming.com';
 $__desc  = $GUIDE_DESC ?? '';
-$__canon = $GUIDE_CANONICAL ?? 'https://btctiming.com/';
+$__koPath = $GUIDE_KOPATH ?? null;
+$__canon = $__koPath ? i18nUrl($__koPath, $__ghLang) : ($GUIDE_CANONICAL ?? 'https://btctiming.com/');
 // 언어 결정: URL ?lang= 우선 → 없으면 쿠키(blogLang, 마지막 선택) → ko.
 // 쿠키를 읽으므로 뒤로가기로 lang 없는 URL에 와도 서버가 마지막 선택 언어로 렌더한다.
 // (JS로 다시 로드해 고칠 필요가 없어 히스토리가 꼬이지 않는다.)
@@ -32,6 +33,11 @@ $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
 <title><?= gh($__title) ?></title>
 <?php if ($__desc): ?><meta name="description" content="<?= gh($__desc) ?>"><?php endif; ?>
 <link rel="canonical" href="<?= gh($__canon) ?>">
+<?php if (!empty($__koPath)): foreach (array_keys(SUPPORTED_LANGS) as $__hl): ?>
+<link rel="alternate" hreflang="<?= gh($__hl) ?>" href="<?= gh(i18nUrl($__koPath, $__hl)) ?>">
+<?php endforeach; ?>
+<link rel="alternate" hreflang="x-default" href="<?= gh(i18nUrl($__koPath, 'ko')) ?>">
+<?php endif; ?>
 <style>
 /* ── 대시보드와 동일한 디자인 토큰 ── */
 :root{

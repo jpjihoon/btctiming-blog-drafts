@@ -5,6 +5,7 @@ $baseUrl = 'https://btctiming.com';
 $GUIDE_TITLE = 'BTCtiming.com 소개 · 편집정책 · 연락처';
 $GUIDE_DESC = 'BTCtiming.com은 비트코인·알트코인의 온체인 지표를 종합해 매수·매도 타이밍 점수를 제공하는 분석 사이트입니다. 운영 주체, 편집 원칙, 데이터 출처, 연락처를 안내합니다.';
 $GUIDE_CANONICAL = $baseUrl . '/about';
+$GUIDE_KOPATH = '/about';
 $GUIDE_EXTRA_CSS = <<<CSS
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 100px}
 h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:8px;color:#fafafa}

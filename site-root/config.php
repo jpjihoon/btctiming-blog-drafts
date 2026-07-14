@@ -147,6 +147,19 @@ const SUPPORTED_LANGS = [
 ];
 
 /** 언어 코드로 블로그/페이지 URL suffix 생성. 'ko'는 접미사 없음(fallback). */
+/**
+ * 경로형 다국어 URL 빌더 — 언어를 최상위 경로로. ko는 접두어 없음(대표 언어).
+ * @param string $koPath ko 기준 경로 (예: '/', '/blog/', '/blog/slug.php', '/glossary/term', '/glossary')
+ * @param string $lang   언어 코드
+ * @return string 전체 URL (https://btctiming.com...)
+ */
+function i18nUrl(string $koPath, string $lang): string {
+    $base = 'https://btctiming.com';
+    if ($lang === 'ko') return $base . $koPath;
+    if ($koPath === '/' || $koPath === '') return $base . '/' . $lang;           // 홈: /en
+    $p = preg_replace('/\.php$/', '', $koPath);  // 비-ko: 끝의 .php 제거(경로형)
+    return $base . '/' . $lang . $p;
+}
 function langSuffix(string $lang): string {
     return $lang === 'ko' ? '' : "?lang={$lang}";
 }
