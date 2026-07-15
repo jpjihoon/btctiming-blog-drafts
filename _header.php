@@ -202,9 +202,13 @@ $__dateMod = $M['dateModified'] ?? $M['date'];
 :root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--b3:rgba(255,255,255,.18);--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--t4:#2a2a30;--green:#22c55e;--yellow:#f59e0b;--orange:#f7931a;--red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;--pink:#f472b6;--rad:12px;--rad-sm:8px;--rad-lg:16px}
 
 *{box-sizing:border-box;margin:0;padding:0}
-html{scrollbar-gutter:stable}  /* 스크롤바 자리 항상 예약 → 글 개수·페이지 길이와 무관하게 헤더 위치 고정 */
+/* 스크롤바 4px — 대시보드·용어집과 동일. 기본 스크롤바(15px)를 쓰면 가용폭이 11px 좁아져
+   헤더가 다른 페이지보다 왼쪽으로 밀린다. */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:2px}
 
-body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8;overflow-x:clip;min-height:100vh}
+body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8;overflow-x:hidden;min-height:100vh}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
 /* ── GNB 카테고리 서브내비 (글 읽다가 다른 카테고리로 이동) ── */
