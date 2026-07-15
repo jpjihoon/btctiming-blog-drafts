@@ -49,8 +49,6 @@ $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
   --rad:12px;--rad-sm:8px;--rad-lg:16px;color-scheme:dark
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{overflow-y:scroll}  /* 스크롤바 유무로 중앙정렬이 흔들리지 않게 항상 자리 확보 */
-@supports(scrollbar-gutter:stable){html{overflow-y:auto;scrollbar-gutter:stable}}
 
 body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;min-height:100vh;overflow-x:hidden;line-height:1.7}
 a{color:var(--orange);text-decoration:none}a:hover{text-decoration:underline}

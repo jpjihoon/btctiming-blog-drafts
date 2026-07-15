@@ -68,8 +68,6 @@ $canonical = i18nUrl('/coins.php', $lang);
 <link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/coins.php', 'ko')) ?>">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html{overflow-y:scroll}  /* 스크롤바 유무로 중앙정렬이 흔들리지 않게 항상 자리 확보 */
-@supports(scrollbar-gutter:stable){html{overflow-y:auto;scrollbar-gutter:stable}}
 
 body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5}
 :root{--orange:#fb923c}
