@@ -42,7 +42,9 @@ $out = array_map(function($a) {
     $row = [
         'url'      => '/blog/' . $a['file'],
         'icon'     => $a['icon'] ?? '📄',
-        'color'    => $a['color'] ?? '#f7931a',
+        // ★ 2026-07-15: 글마다 제각각이던 meta json 의 color 대신 카테고리 색으로 통일.
+        //    (대시보드 인사이트 카드 --icard-accent / 사이드바 --sb-accent 호버 테두리 색)
+        'color'    => CATEGORY_META[$cat]['color'] ?? ($a['color'] ?? '#f7931a'),
         'category' => $cat,
         'date'     => $a['date'] ?? '',
         'has_ja'   => isset($a['title_ja']),
