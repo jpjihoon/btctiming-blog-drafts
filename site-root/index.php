@@ -1445,6 +1445,13 @@ function showInstallGuide(mode){
   ov.onclick = function(e){ if(e.target === ov) ov.remove(); };
   document.body.appendChild(ov);
 }
+// 다른 페이지(블로그·용어사전 등)의 ⚙️ 버튼은 대시보드로 이동하며 #settings 해시를 붙인다.
+// 설정 모달이 대시보드에만 있기 때문. 여기서 해시를 감지해 자동으로 열고, 주소는 원래대로 되돌린다.
+window.addEventListener('load', function(){
+  if (location.hash !== '#settings') return;
+  try { openSettings(); } catch(e){}
+  try { history.replaceState(null, '', location.pathname + location.search); } catch(e){}
+});
 function openSettings(){
   openModal();                 // app.js의 모달 열기
   if(window._btcApplyTabVisibility) window._btcApplyTabVisibility();

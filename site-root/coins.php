@@ -113,6 +113,7 @@ footer a{color:#666;text-decoration:underline}
 <nav><div class="nav-w">
   <a href="<?= h(i18nPath('/', $lang)) ?>" class="logo">BTC<span>timing</span></a>
   <span class="back">← <a href="<?= h(i18nPath('/', $lang)) ?>"><?= h($t['back']) ?></a></span>
+  <?php $__nbLang = $lang; $__nbHide = ''; include __DIR__ . '/_nav_btns.php'; ?>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" onclick="document.getElementById('langDropdown').classList.toggle('open');event.stopPropagation()">
       <span><?= strtoupper($lang) ?></span><span class="lang-caret">▾</span>

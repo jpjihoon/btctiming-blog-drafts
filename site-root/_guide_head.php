@@ -100,6 +100,12 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
   <a href="<?= $__ghLang === 'ko' ? '/' : '/' . gh($__ghLang) ?>" class="logo"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <span class="nav-back"><a href="<?= gh($__navBackHref) ?>"><?php foreach ($__ghLangKeys as $__lc): ?><span class="l-<?= gh($__lc) ?>"><?= gh($__navBackLabels[$__lc] ?? $__navBackLabels['en']) ?></span><?php endforeach; ?></a></span>
   <div class="nav-r">
+    <?php
+      // 공용 내비 버튼(블로그·용어사전·설정). 용어사전 페이지에선 용어사전 버튼을 숨긴다.
+      $__nbLang = $__ghLang;
+      $__nbHide = (strpos((string)($GUIDE_KOPATH ?? ''), '/glossary') === 0) ? 'glossary' : '';
+      include __DIR__ . '/_nav_btns.php';
+    ?>
     <div class="lang-dropdown" id="langDropdown">
       <button type="button" class="lang-trigger" onclick="toggleLangMenu(event)" aria-haspopup="true"><span id="langTriggerLabel"><?= gh(strtoupper($__ghLang)) ?></span><span class="lang-caret">▾</span></button>
       <div class="lang-menu">
