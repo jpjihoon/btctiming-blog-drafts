@@ -352,8 +352,8 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 a{color:inherit}
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{display:flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:var(--t1);text-decoration:none}
-.logo span{color:var(--orange)}
+.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;text-decoration:none;line-height:1;margin-right:4px;white-space:nowrap;outline:none}
+.logo span{color:#f59e0b}
 .logo svg{flex-shrink:0}
 .back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .back a{color:var(--t3);text-decoration:none}

@@ -69,7 +69,7 @@ echo implode(',', $__ghRules) . "{display:none}\n";
 /* ── NAV (대시보드와 동일) ── */
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
 .nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px;gap:12px}
-.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;color:var(--t1)}
+.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;color:#f2f2f5;line-height:1}
 .logo-ic{flex-shrink:0}
 .logo:hover{opacity:.8;text-decoration:none}
 .logo span{color:var(--yellow)}

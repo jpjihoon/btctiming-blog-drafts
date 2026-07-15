@@ -73,7 +73,7 @@ body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFo
 :root{--orange:#fb923c}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0;text-decoration:none}.logo span{color:#fbbf24}
+.logo{display:inline-flex;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;text-decoration:none;line-height:1;margin-right:4px;gap:7px;align-items:center;white-space:nowrap;outline:none}.logo span{color:#f59e0b}
 .back{font-size:13px;color:#666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .back a{color:#666;text-decoration:none}
 .lang-dropdown{position:relative;flex-shrink:0}

@@ -418,7 +418,7 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:flex;align-items:center;padding:0;gap:0;position:sticky;top:0;z-index:200}
 .nav-inner{max-width:1280px;margin:0 auto;width:100%;display:flex;align-items:center;padding:0 16px 0 16px;gap:12px}
 @media(max-width:900px){.nav-inner{padding:0 14px}}
-.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;display:inline-flex;align-items:center;gap:7px}
+.logo{font-size:15px;font-weight:700;letter-spacing:-.5px;white-space:nowrap;margin-right:4px;cursor:pointer;transition:opacity .15s;outline:none;display:inline-flex;align-items:center;gap:7px;line-height:1;color:#f2f2f5}
 .logo .logo-ic{flex-shrink:0}
 .logo:hover{opacity:.8}
 .logo:focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:3px}
