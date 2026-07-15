@@ -68,14 +68,15 @@ $canonical = i18nUrl('/coins.php', $lang);
 <link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/coins.php', 'ko')) ?>">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
+html{scrollbar-gutter:stable}  /* 스크롤바 유무와 무관하게 가용폭 고정 → 전 페이지 헤더 위치 동일 (overflow는 건드리지 않음: sticky 유지) */
 
 body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5}
 :root{--orange:#fb923c}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
 .logo{display:inline-flex;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;text-decoration:none;line-height:1;margin-right:4px;gap:7px;align-items:center;white-space:nowrap;outline:none}.logo span{color:#f59e0b}
-.back{font-size:13px;color:#666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.back a{color:#666;text-decoration:none}
+.back{font-size:13px;color:var(--t2,#9a9aa4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.back a{color:var(--t2,#9a9aa4);text-decoration:none}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:#151515;border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:#f0f0f0;font-size:11px;font-weight:700;cursor:pointer}
 .lang-caret{font-size:9px;color:#666}

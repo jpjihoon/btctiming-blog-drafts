@@ -49,6 +49,7 @@ $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
   --rad:12px;--rad-sm:8px;--rad-lg:16px;color-scheme:dark
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scrollbar-gutter:stable}  /* 스크롤바 유무와 무관하게 가용폭 고정 → 전 페이지 헤더 위치 동일 (overflow는 건드리지 않음: sticky 유지) */
 
 body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;min-height:100vh;overflow-x:hidden;line-height:1.7}
 a{color:var(--orange);text-decoration:none}a:hover{text-decoration:underline}
@@ -73,8 +74,8 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);height:52px;display:
 .logo-ic{flex-shrink:0}
 .logo:hover{opacity:.8;text-decoration:none}
 .logo span{color:var(--yellow)}
-.nav-back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.nav-back a{color:var(--t3)}
+.nav-back{font-size:13px;color:var(--t2,#9a9aa4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-back a{color:var(--t2,#9a9aa4)}
 .nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:var(--bg3);

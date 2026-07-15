@@ -347,6 +347,7 @@ $discY = sprintf($t['disc'], $DISCOUNT_BYBIT);
 <style>
 :root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--green:#22c55e;--red:#ef4444;--orange:#f7931a;--gold:#f0b90b}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scrollbar-gutter:stable}  /* 스크롤바 유무와 무관하게 가용폭 고정 → 전 페이지 헤더 위치 동일 (overflow는 건드리지 않음: sticky 유지) */
 
 body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
 a{color:inherit}
@@ -355,8 +356,8 @@ nav{background:var(--bg2);border-bottom:1px solid var(--b1);position:sticky;top:
 .logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;text-decoration:none;line-height:1;margin-right:4px;white-space:nowrap;outline:none}
 .logo span{color:#f59e0b}
 .logo svg{flex-shrink:0}
-.back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.back a{color:var(--t3);text-decoration:none}
+.back{font-size:13px;color:var(--t2,#9a9aa4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.back a{color:var(--t2,#9a9aa4);text-decoration:none}
 .lang-dropdown{position:relative;flex-shrink:0}
 .lang-trigger{display:flex;align-items:center;gap:4px;height:34px;padding:0 10px;background:var(--bg3);border:1px solid var(--b1);border-radius:8px;color:var(--t1);font-size:11px;font-weight:700;letter-spacing:.02em;cursor:pointer;transition:all .15s}
 .lang-trigger:hover{background:var(--bg4)}
