@@ -68,9 +68,9 @@ $canonical = i18nUrl('/coins.php', $lang);
 <link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/coins.php', 'ko')) ?>">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html{scrollbar-gutter:stable}  /* 스크롤바 유무와 무관하게 가용폭 고정 → 전 페이지 헤더 위치 동일 (overflow는 건드리지 않음: sticky 유지) */
+html{scrollbar-gutter:stable}  /* 스크롤바 자리 항상 예약 → 글 개수·페이지 길이와 무관하게 헤더 위치 고정 */
 
-body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5}
+body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5;overflow-x:clip;min-height:100vh}
 :root{--orange:#fb923c}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
