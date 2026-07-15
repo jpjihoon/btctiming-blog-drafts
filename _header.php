@@ -235,7 +235,7 @@ nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:s
 .comb-box li a{font-size:.9rem;font-weight:600;color:#dcdce2}
 .comb-box li a:hover{color:#f7931a}
 .comb-box li strong{font-weight:600;color:inherit}
-.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;cursor:pointer;transition:opacity .15s}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}.logo:hover{opacity:.8;text-decoration:none}
+.logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;cursor:pointer;transition:opacity .15s;line-height:1;margin-right:4px;white-space:nowrap;outline:none}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}.logo:hover{opacity:.8;text-decoration:none}
 .back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .back a{color:var(--t3)}
 .lang-dropdown{position:relative;flex-shrink:0}
