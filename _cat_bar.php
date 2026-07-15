@@ -65,7 +65,7 @@ $__cbSvg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-wi
 .cb-menu a{display:block;padding:9px 12px;border-radius:8px;font-size:13.5px;font-weight:600;color:#9a9aa3;text-decoration:none}
 .cb-menu a:hover{background:rgba(255,255,255,.06);color:#e9e9ee}
 .cb-menu a.on{color:#e9e9ee;background:rgba(255,255,255,.04)}
-@media(max-width:600px){.cb-in,.cb-searchrow{padding:0 12px}.cb-tab{padding:10px 9px;font-size:12.5px}}
+@media(max-width:600px){.cb-in,.cb-searchrow{padding:0 24px}.cb-tab{padding:10px 9px;font-size:12.5px}}
 </style>
 <div class="catbar<?= ($__cbQ !== '') ? ' cb-searching' : '' ?>" id="btCatbar">
   <div class="cb-in">
