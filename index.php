@@ -431,6 +431,7 @@ foreach ($__langKeys as $__l) {
   <span class="back pt-show">← <a href="/pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
   <span class="back tr-show">← <a href="/tr" style="color:var(--t2)">Canlı analize dön</a></span>
   <span class="back vi-show">← <a href="/vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
+  <?php $__nbLang = $__blLang; $__nbHide = 'blog'; include __DIR__ . '/../_nav_btns.php'; ?>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
       <span id="langTriggerLabel"><?= h(strtoupper($__blLang)) ?></span><span class="lang-caret">▾</span>

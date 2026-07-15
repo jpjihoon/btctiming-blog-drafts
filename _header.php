@@ -449,6 +449,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   ?>
   <span class="back <?= $__bl ?>"><a href="<?= h($__blHref) ?>" style="color:var(--t2)"><?= h($__backLabel[$__bl] ?? $__backLabel['en']) ?></a></span>
   <?php endforeach; ?>
+  <?php $__nbLang = $lang; $__nbHide = 'blog'; include __DIR__ . '/../_nav_btns.php'; ?>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
       <span id="langTriggerLabel"><?= strtoupper($lang) ?></span><span class="lang-caret">▾</span>
