@@ -203,7 +203,7 @@ $__dateMod = $M['dateModified'] ?? $M['date'];
 
 *{box-sizing:border-box;margin:0;padding:0}
 
-body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8;overflow-x:hidden}
+body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8;overflow-x:hidden;min-height:100vh}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
 nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px;display:flex;align-items:center}.nav-w{max-width:1280px;margin:0 auto;width:100%;padding:0 16px;display:flex;align-items:center;gap:12px}
 /* ── GNB 카테고리 서브내비 (글 읽다가 다른 카테고리로 이동) ── */
