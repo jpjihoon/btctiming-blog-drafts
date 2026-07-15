@@ -1,0 +1,57 @@
+# 열려있는 PR을 한 번에 전부 병합한다.
+# 실행: GitHub 레포 → Actions 탭 → 왼쪽 "Merge all open PRs" → 오른쪽 "Run workflow" 버튼
+# (자동으로 돌지 않는다. 버튼을 눌렀을 때만 실행된다.)
+name: Merge all open PRs
+
+on:
+  workflow_dispatch:        # 수동 실행 전용
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: merge-all-prs
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge every open PR (oldest first)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -u
+          # 열린 PR 번호를 오래된 순으로 가져온다(번호 오름차순 = 먼저 만든 것부터)
+          PRS=$(gh pr list --repo "$REPO" --state open --limit 200 \
+                 --json number --jq 'sort_by(.number) | .[].number')
+
+          if [ -z "$PRS" ]; then
+            echo "열린 PR이 없습니다."
+            exit 0
+          fi
+
+          echo "대상 PR: $(echo $PRS | tr '\n' ' ')"
+          OK=0; FAIL=0; FAILED_LIST=""
+
+          for N in $PRS; do
+            echo "──────── PR #$N 병합 시도 ────────"
+            # --merge: 머지 커밋 방식(기존 방식과 동일)
+            # 충돌 등으로 실패해도 멈추지 않고 다음 PR로 넘어간다
+            if gh pr merge "$N" --repo "$REPO" --merge; then
+              echo "  ✅ #$N 병합 완료"
+              OK=$((OK+1))
+            else
+              echo "  ⚠️ #$N 병합 실패(충돌·체크 대기 등) — 건너뜀"
+              FAIL=$((FAIL+1)); FAILED_LIST="$FAILED_LIST #$N"
+            fi
+            sleep 3   # GitHub API 속도 제한 회피
+          done
+
+          echo ""
+          echo "════════ 결과 ════════"
+          echo "  병합 성공: $OK 건"
+          echo "  실패/건너뜀: $FAIL 건$FAILED_LIST"
+          echo "  (실패한 PR은 GitHub 웹에서 개별 확인 — 보통 충돌 때문)"
