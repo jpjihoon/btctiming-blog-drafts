@@ -351,7 +351,7 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 a{color:inherit}
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
-.logo{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:var(--t1);text-decoration:none}
+.logo{display:flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:var(--t1);text-decoration:none}
 .logo span{color:var(--orange)}
 .logo svg{flex-shrink:0}
 .back{font-size:13px;color:var(--t3);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -515,5 +515,7 @@ document.addEventListener('click', function(e){
   if(dd && !dd.contains(e.target)) dd.classList.remove('open');
 });
 </script>
+<?php /* 설정 모달(⚙️) — 이 페이지는 _shared_footer 를 쓰지 않으므로 직접 include */
+   include __DIR__ . '/_settings_modal.php'; ?>
 </body>
 </html>

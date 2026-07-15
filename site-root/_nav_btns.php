@@ -10,9 +10,8 @@
 
    config.php 의 i18nPath() 필요.
 
-   ⚙️ 설정: 설정 모달(openSettings)은 대시보드에만 있으므로, 다른 페이지에서는
-   대시보드로 이동하면서 해시(#settings)를 붙인다. 대시보드가 로드되며 모달을 자동으로 연다.
-   (쿼리 ?settings=1 대신 해시를 쓰는 이유: 서버 rewrite·캐시 키에 영향을 주지 않는다)
+   ⚙️ 설정: 설정 모달은 _shared_footer.php → _settings_modal.php 가 전 페이지에 넣어주므로
+   openSettings() 를 그대로 호출하면 '그 페이지에서' 바로 열린다(대시보드로 이동하지 않는다).
    ══════════════════════════════════════════════════════ */
 $__nbLang = $__nbLang ?? 'ko';
 $__nbHide = $__nbHide ?? '';
@@ -43,4 +42,4 @@ $__nbT = function(string $k) use ($__nbL, $__nbLang) { return $__nbL[$k][$__nbLa
 <?php if ($__nbHide !== 'glossary'): ?>
 <a href="<?= nbh(i18nPath('/glossary', $__nbLang)) ?>" class="nb-btn" title="Glossary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span><?= nbh($__nbT('glos')) ?></span></a>
 <?php endif; ?>
-<a href="<?= nbh(i18nPath('/', $__nbLang)) ?>#settings" class="nb-btn nb-ico" title="<?= nbh($__nbT('set')) ?>" aria-label="<?= nbh($__nbT('set')) ?>">⚙️</a>
+<button type="button" onclick="openSettings()" class="nb-btn nb-ico" title="<?= nbh($__nbT('set')) ?>" aria-label="<?= nbh($__nbT('set')) ?>">⚙️</button>

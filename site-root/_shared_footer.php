@@ -101,6 +101,9 @@ html[lang="tr"] .site-footer .tr,
 html[lang="vi"] .site-footer .vi{display:inline}
 html:not([lang]) .site-footer .ko{display:inline}
 </style>
+<?php /* 설정 모달(⚙️) — 전 페이지 공통 단일 소스.
+   이 푸터가 대시보드·블로그(목록/글)·용어사전·안내페이지 전부에 들어가므로 여기서 한 번만 출력한다. */
+   include __DIR__ . '/_settings_modal.php'; ?>
 <script>
 (function(){
   // 앱 다운로드 배너: TWA(껍데기) 앱 내부에서는 숨기고, 일반 브라우저(PC·모바일)에서만 노출.

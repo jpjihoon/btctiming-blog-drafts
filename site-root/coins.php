@@ -70,7 +70,7 @@ $canonical = i18nUrl('/coins.php', $lang);
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0a0a0a;color:#e4e4e7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5}
 :root{--orange:#fb923c}
-nav{background:#0f0f0f;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
+nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}
 .nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
 .logo{font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f0f0f0;text-decoration:none}.logo span{color:#fbbf24}
 .back{font-size:13px;color:#666;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -218,5 +218,7 @@ document.getElementById('searchIn').addEventListener('input', e=>render(e.target
 document.addEventListener('click', e=>{ if(!e.target.closest('#langDropdown')) document.getElementById('langDropdown').classList.remove('open'); });
 render('');
 </script>
+<?php /* 설정 모달(⚙️) — 이 페이지는 _shared_footer 를 쓰지 않으므로 직접 include */
+   include __DIR__ . '/_settings_modal.php'; ?>
 </body>
 </html>
