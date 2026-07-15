@@ -13,6 +13,24 @@ jobs:
       - name: 레포 체크아웃
         uses: actions/checkout@v4
 
+      # ★ 2026-07-15 추가 ─────────────────────────────────────────
+      # 이 레포는 Public 이라 비밀번호(SNAPSHOT_TOKEN)를 파일에 적어두면
+      # 전 세계에 공개된다. 그래서 레포에는 안 넣고,
+      # GitHub Secrets(암호화돼서 Public 레포에서도 안 보임)에 넣어두고
+      # 배포하는 순간에만 꺼내서 config_secret.php 를 만들어 서버로 보낸다.
+      # → 만들어진 파일은 서버에만 있고, 레포에는 영원히 남지 않는다.
+      # ───────────────────────────────────────────────────────────
+      - name: config_secret.php 생성 (레포에 커밋되지 않음)
+        env:
+          SNAPSHOT_TOKEN: ${{ secrets.SNAPSHOT_TOKEN }}
+        run: |
+          if [ -z "$SNAPSHOT_TOKEN" ]; then
+            echo "::error::SNAPSHOT_TOKEN 시크릿이 등록돼 있지 않습니다. 레포 Settings → Secrets and variables → Actions 에서 추가하세요."
+            exit 1
+          fi
+          printf '<?php\nreturn [\n    "SNAPSHOT_TOKEN" => "%s",\n];\n' "$SNAPSHOT_TOKEN" > ./site-root/config_secret.php
+          echo "config_secret.php 생성 완료 ($(wc -c < ./site-root/config_secret.php) bytes)"
+
       - name: FTP로 사이트 루트 업로드
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
