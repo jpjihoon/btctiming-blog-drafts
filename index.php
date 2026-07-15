@@ -288,9 +288,10 @@ $__blD = $__BL_DESC[$__blLang] ?? $__BL_DESC['en'];
 
 *{box-sizing:border-box;margin:0;padding:0}
 html{overflow-y:scroll}
+@supports(scrollbar-gutter:stable){html{overflow-y:auto;scrollbar-gutter:stable}}
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
-nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1120px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;gap:12px}
+nav{background:#141418;border-bottom:1px solid rgba(255,255,255,0.06);position:sticky;top:0;z-index:200;height:52px}.nav-w{max-width:1280px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:12px}
 .logo{display:inline-flex;align-items:center;gap:7px;font-size:15px;font-weight:700;letter-spacing:-.5px;color:#f2f2f5;cursor:pointer;transition:opacity .15s}.logo span{color:#f59e0b}.logo-ic{flex-shrink:0}.logo:hover{opacity:.8;text-decoration:none}
 .back{font-size:13px;color:var(--t2);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lang-dropdown{position:relative;flex-shrink:0;margin-left:auto}
