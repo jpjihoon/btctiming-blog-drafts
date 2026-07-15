@@ -287,6 +287,7 @@ $__blD = $__BL_DESC[$__blLang] ?? $__BL_DESC['en'];
 
 
 *{box-sizing:border-box;margin:0;padding:0}
+html{scrollbar-gutter:stable}  /* 스크롤바 유무와 무관하게 가용폭 고정 → 전 페이지 헤더 위치 동일 (overflow는 건드리지 않음: sticky 유지) */
 
 body{background:#0a0a0c;color:#f2f2f5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:16px;line-height:1.8}
 a{color:#f7931a;text-decoration:none}a:hover{text-decoration:underline}
