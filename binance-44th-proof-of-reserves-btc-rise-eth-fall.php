@@ -1,0 +1,399 @@
+<?php $slug = 'binance-44th-proof-of-reserves-btc-rise-eth-fall'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">바이낸스가 7월 14일 공개한 44차 준비금 증명(Proof-of-Reserves) 보고서에서 이용자 비트코인 보유량이 한 달 새 7715 BTC 늘어난 반면 이더리움과 테더(USDT) 보유량은 오히려 줄어든 것으로 나타났다고 크립토뉴스(crypto.news)가 보도했다. 7월 1일 스냅샷을 전달인 6월 1일과 비교한 이번 보고서에 따르면 이용자 비트코인 잔고는 1.22% 증가한 약 64만 BTC를 기록했고, 이더리움 잔고는 1.41% 감소한 약 408만 ETH(5만8591 ETH 감소), 테더 잔고는 1.51% 감소한 약 337억 달러(약 5억1000만 달러 감소)로 나타났다.</p>
+<p class="en">Binance's 44th Proof-of-Reserves report, released July 14, showed customer Bitcoin holdings rising by 7,715 BTC over the past month even as Ethereum and Tether (USDT) balances declined, crypto.news reported. Comparing a July 1 snapshot with the prior June 1 reading, the report found customer Bitcoin balances up 1.22% to roughly 640,000 BTC, Ethereum balances down 1.41% to about 4.08 million ETH (a drop of 58,591 ETH), and Tether balances down 1.51% to roughly $33.7 billion (a decline of about $510 million).</p>
+<p class="ja">バイナンスが7月14日に公表した第44回準備金証明(Proof-of-Reserves)報告書で、利用者のビットコイン保有量が1カ月で7715BTC増加した一方、イーサリアムとテザー(USDT)の保有量は減少したことが分かったとクリプトニュース(crypto.news)が報じた。7月1日時点のスナップショットを前月の6月1日と比較したこの報告書によると、利用者のビットコイン残高は1.22%増の約64万BTC、イーサリアム残高は1.41%減の約408万ETH(5万8591ETH減)、テザー残高は1.51%減の約337億ドル(約5億1000万ドル減)となった。</p>
+<p class="es">El 44.º informe de Prueba de Reservas (Proof-of-Reserves) de Binance, publicado el 14 de julio, mostró que las tenencias de bitcoin de los clientes aumentaron en 7.715 BTC durante el último mes, mientras que los saldos de Ethereum y Tether (USDT) cayeron, según informó crypto.news. Al comparar una instantánea del 1 de julio con la lectura anterior del 1 de junio, el informe encontró que los saldos de bitcoin de los clientes subieron un 1,22% hasta unos 640.000 BTC, los saldos de Ethereum cayeron un 1,41% hasta unos 4,08 millones de ETH (una caída de 58.591 ETH), y los saldos de Tether cayeron un 1,51% hasta unos 33.700 millones de dólares (un descenso de unos 510 millones de dólares).</p>
+<p class="de">Binances 44. Proof-of-Reserves-Bericht, veröffentlicht am 14. Juli, zeigte laut crypto.news, dass die Bitcoin-Bestände der Kunden im vergangenen Monat um 7.715 BTC gestiegen sind, während die Ethereum- und Tether-Bestände (USDT) zurückgingen. Der Bericht vergleicht eine Momentaufnahme vom 1. Juli mit dem vorherigen Stand vom 1. Juni und stellt fest, dass die Bitcoin-Guthaben der Kunden um 1,22 Prozent auf rund 640.000 BTC stiegen, während die Ethereum-Guthaben um 1,41 Prozent auf etwa 4,08 Millionen ETH fielen (ein Rückgang um 58.591 ETH) und die Tether-Guthaben um 1,51 Prozent auf rund 33,7 Milliarden US-Dollar sanken (ein Rückgang von etwa 510 Millionen US-Dollar).</p>
+<p class="fr">Le 44e rapport de preuve de réserves (Proof-of-Reserves) de Binance, publié le 14 juillet, a montré que les avoirs en bitcoin des clients ont augmenté de 7 715 BTC au cours du mois écoulé, tandis que les soldes en Ethereum et en Tether (USDT) ont diminué, selon crypto.news. En comparant un instantané du 1er juillet à celui du 1er juin précédent, le rapport indique que les soldes en bitcoin des clients ont progressé de 1,22 % pour atteindre environ 640 000 BTC, que les soldes en Ethereum ont reculé de 1,41 % à environ 4,08 millions d'ETH (une baisse de 58 591 ETH), et que les soldes en Tether ont chuté de 1,51 % à environ 33,7 milliards de dollars (une baisse d'environ 510 millions de dollars).</p>
+<p class="pt">O 44º relatório de Prova de Reservas (Proof-of-Reserves) da Binance, divulgado em 14 de julho, mostrou que as participações em bitcoin dos clientes aumentaram em 7.715 BTC no último mês, enquanto os saldos de Ethereum e Tether (USDT) caíram, segundo a crypto.news. Comparando uma captura de 1º de julho com a leitura anterior de 1º de junho, o relatório constatou que os saldos de bitcoin dos clientes subiram 1,22%, para cerca de 640 mil BTC, os saldos de Ethereum caíram 1,41%, para cerca de 4,08 milhões de ETH (uma queda de 58.591 ETH), e os saldos de Tether caíram 1,51%, para cerca de 33,7 bilhões de dólares (uma queda de cerca de 510 milhões de dólares).</p>
+<p class="tr">Binance'in 14 Temmuz'da yayımlanan 44. Rezerv Kanıtı (Proof-of-Reserves) raporu, müşteri Bitcoin varlıklarının geçtiğimiz ay boyunca 7.715 BTC arttığını, buna karşın Ethereum ve Tether (USDT) bakiyelerinin düştüğünü gösterdi; crypto.news bu bilgiyi aktardı. 1 Temmuz anlık görüntüsünü bir önceki 1 Haziran verisiyle karşılaştıran rapora göre, müşteri Bitcoin bakiyeleri yüzde 1,22 artışla yaklaşık 640.000 BTC'ye yükseldi, Ethereum bakiyeleri yüzde 1,41 düşüşle yaklaşık 4,08 milyon ETH'ye geriledi (58.591 ETH azalış) ve Tether bakiyeleri yüzde 1,51 düşüşle yaklaşık 33,7 milyar dolara indi (yaklaşık 510 milyon dolar azalış).</p>
+<p class="vi">Báo cáo Bằng chứng Dự trữ (Proof-of-Reserves) lần thứ 44 của Binance, công bố ngày 14/7, cho thấy lượng bitcoin nắm giữ của khách hàng tăng 7.715 BTC trong tháng qua, trong khi số dư Ethereum và Tether (USDT) lại giảm, theo crypto.news. So sánh ảnh chụp nhanh ngày 1/7 với số liệu ngày 1/6 trước đó, báo cáo cho thấy số dư bitcoin của khách hàng tăng 1,22% lên khoảng 640.000 BTC, số dư Ethereum giảm 1,41% xuống khoảng 4,08 triệu ETH (giảm 58.591 ETH), và số dư Tether giảm 1,51% xuống khoảng 33,7 tỷ đô la (giảm khoảng 510 triệu đô la).</p>
+
+<h2 class="ko">숫자로 본 44차 보고서 — 상승세는 확연히 둔화됐다</h2>
+<h2 class="en">The Numbers Behind Report 44 — a Clearly Slower Pace of Growth</h2>
+<h2 class="ja">数字で見る第44回報告書 — 増加ペースは明らかに鈍化した</h2>
+<h2 class="es">Las cifras del informe 44 — un ritmo de crecimiento claramente más lento</h2>
+<h2 class="de">Die Zahlen hinter Bericht 44 — ein deutlich langsameres Wachstumstempo</h2>
+<h2 class="fr">Les chiffres du rapport 44 — un rythme de croissance nettement plus lent</h2>
+<h2 class="pt">Os números por trás do relatório 44 — um ritmo de crescimento claramente mais lento</h2>
+<h2 class="tr">44. Raporun Ardındaki Rakamlar — Belirgin Şekilde Yavaşlayan Bir Büyüme Hızı</h2>
+<h2 class="vi">Những con số đằng sau báo cáo thứ 44 — tốc độ tăng trưởng rõ ràng đã chậm lại</h2>
+
+<p class="ko">이번 증가폭은 전월 대비 뚜렷하게 줄었다. 앞선 6월 1일 보고서(5월 스냅샷 비교)에서는 이용자 비트코인 보유량이 2만5838 BTC 늘어 이번 7월 보고서 증가분의 세 배가 넘었는데, 7월 보고서의 증가분은 그 속도의 약 30%에 그친다. 두 달 연속 비트코인 잔고가 늘어나는 방향성 자체는 유지됐지만, 증가 속도가 눈에 띄게 꺾인 셈이다. 반면 이더리움과 테더는 두 달 연속 감소세를 이어갔는데, 특히 테더의 5억1000만 달러 감소는 스테이블코인 보유 축소가 일회성이 아니라 추세로 굳어지고 있음을 시사한다.</p>
+<p class="ko">준비금 증명은 바이낸스가 독립적으로 산출한 이용자 잔고 데이터를 머클 트리(Merkle Tree) 방식으로 해시화해 공개하는 구조다. 각 이용자의 계정 잔고는 익명화된 상태로 잎(leaf) 노드에 담기고, 이를 순차적으로 결합한 최상위 해시값인 '머클 루트'가 공개돼 누구나 자신의 잔고가 전체 집합에 포함됐는지 검증할 수 있다. 바이낸스는 여기에 영지식 증명(zk-SNARK)까지 더해 개별 잔고를 노출하지 않고도 총합이 신고된 준비금과 일치한다는 사실을 수학적으로 입증한다고 밝히고 있다. 다만 이 방식이 검증하는 것은 특정 시점의 '자산' 스냅샷일 뿐, 부채나 자금 출처까지 보증하지는 않는다는 점은 뒤에서 짚는다.</p>
+<p class="en">The increase this cycle is notably smaller than the one before it. The prior report — comparing the June 1 snapshot with May — found customer Bitcoin holdings up 25,838 BTC, more than triple the size of the increase seen in July's report, which captured only about 30% of that pace. The direction held for a second straight month, but the momentum clearly cooled. Ethereum and Tether, meanwhile, extended their declines for a second consecutive month; the $510 million drop in Tether balances in particular suggests the pullback in stablecoin holdings is becoming a trend rather than a one-off.</p>
+<p class="en">A Proof-of-Reserves report works by hashing independently compiled customer-balance data into a Merkle tree. Each account balance is anonymized and placed in a leaf node, and those leaves are combined sequentially into a single top-level hash — the "Merkle root" — that anyone can use to verify their own balance was included in the overall set. Binance says it layers a zero-knowledge proof (zk-SNARK) on top, mathematically demonstrating that the sum of all balances matches the reserves it claims to hold without exposing any individual account. What this method verifies, though, is only a snapshot of "assets" at a single point in time — it does not, on its own, vouch for liabilities or the source of funds, a limitation addressed later in this piece.</p>
+<p class="ja">今回の増加幅は前回に比べて明らかに小さい。前回の報告書(6月1日のスナップショットを5月と比較)では利用者のビットコイン保有量が2万5838BTC増加しており、これは7月の報告書の増加分の3倍を超える規模だった。7月の増加はその約30%にとどまる。増加という方向性自体は2カ月連続で維持されたが、勢いは明らかに鈍化した。一方イーサリアムとテザーは2カ月連続で減少を続けており、特にテザーの5億1000万ドル減少は、ステーブルコイン保有の縮小が一過性ではなく傾向として定着しつつあることを示唆する。</p>
+<p class="ja">準備金証明は、バイナンスが独自に集計した利用者残高データをマークルツリー(Merkle Tree)方式でハッシュ化して公開する仕組みだ。各利用者の口座残高は匿名化された状態で葉(リーフ)ノードに格納され、それらを順次結合した最上位のハッシュ値である「マークルルート」が公開されることで、誰でも自分の残高が全体の集合に含まれているかを検証できる。バイナンスはさらにゼロ知識証明(zk-SNARK)を組み合わせ、個々の残高を明かすことなく、合計額が申告した準備金と一致することを数学的に証明していると説明する。ただしこの手法が検証するのは、ある時点における「資産」のスナップショットに過ぎず、負債や資金の出所までは保証しない。この点は後段で扱う。</p>
+<p class="es">El aumento de este ciclo es notablemente menor que el anterior. El informe previo —que comparaba la instantánea del 1 de junio con mayo— encontró que las tenencias de bitcoin de los clientes subieron en 25.838 BTC, más del triple del tamaño del incremento observado en el informe de julio, que capturó solo alrededor del 30% de ese ritmo. La dirección se mantuvo por segundo mes consecutivo, pero el impulso se enfrió claramente. Ethereum y Tether, por su parte, extendieron sus caídas por segundo mes consecutivo; la caída de 510 millones de dólares en los saldos de Tether sugiere en particular que el retroceso en las tenencias de stablecoins se está convirtiendo en una tendencia y no en un hecho aislado.</p>
+<p class="es">Un informe de prueba de reservas funciona mediante el hash de datos de saldos de clientes recopilados de forma independiente en un árbol de Merkle. El saldo de cada cuenta se anonimiza y se coloca en un nodo hoja, y esas hojas se combinan secuencialmente en un único hash de nivel superior —la "raíz de Merkle"— que cualquiera puede usar para verificar que su propio saldo se incluyó en el conjunto general. Binance afirma añadir además una prueba de conocimiento cero (zk-SNARK), demostrando matemáticamente que la suma de todos los saldos coincide con las reservas que dice poseer sin exponer ninguna cuenta individual. Sin embargo, lo que este método verifica es solo una instantánea de los "activos" en un momento dado: por sí solo no da fe de los pasivos ni del origen de los fondos, una limitación que se aborda más adelante en este texto.</p>
+<p class="de">Der Anstieg in diesem Zyklus fällt deutlich kleiner aus als im vorherigen. Der vorangegangene Bericht — der die Momentaufnahme vom 1. Juni mit Mai verglich — zeigte einen Anstieg der Kunden-Bitcoin-Bestände um 25.838 BTC, mehr als das Dreifache des im Juli-Bericht verzeichneten Zuwachses, der nur etwa 30 Prozent dieses Tempos erreichte. Die Richtung hielt sich den zweiten Monat in Folge, doch die Dynamik kühlte sich merklich ab. Ethereum und Tether setzten ihre Rückgänge derweil den zweiten Monat in Folge fort; besonders der Rückgang der Tether-Bestände um 510 Millionen US-Dollar deutet darauf hin, dass sich der Rückzug aus Stablecoin-Beständen zu einem Trend statt zu einem Einzelereignis entwickelt.</p>
+<p class="de">Ein Proof-of-Reserves-Bericht funktioniert, indem unabhängig zusammengestellte Kundenguthabendaten in einem Merkle-Baum gehasht werden. Jeder Kontostand wird anonymisiert und in einen Blattknoten gesetzt, und diese Blätter werden nacheinander zu einem einzigen übergeordneten Hash kombiniert — der „Merkle-Wurzel" — mit dem jeder überprüfen kann, ob sein eigenes Guthaben in der Gesamtmenge enthalten war. Binance gibt an, zusätzlich einen Zero-Knowledge-Beweis (zk-SNARK) einzusetzen, der mathematisch nachweist, dass die Summe aller Guthaben mit den beanspruchten Reserven übereinstimmt, ohne einzelne Konten offenzulegen. Was diese Methode jedoch verifiziert, ist lediglich eine Momentaufnahme der „Vermögenswerte" zu einem bestimmten Zeitpunkt — sie bürgt allein nicht für Verbindlichkeiten oder die Herkunft der Mittel, eine Einschränkung, die später in diesem Beitrag behandelt wird.</p>
+<p class="fr">La hausse de ce cycle est nettement inférieure à celle du précédent. Le rapport précédent — comparant l'instantané du 1er juin à celui de mai — avait révélé une progression des avoirs en bitcoin des clients de 25 838 BTC, soit plus du triple de la hausse constatée dans le rapport de juillet, qui n'en capture qu'environ 30 %. La direction s'est maintenue pour un deuxième mois consécutif, mais l'élan s'est nettement refroidi. Ethereum et Tether, de leur côté, ont prolongé leur baisse pour un deuxième mois d'affilée ; la chute de 510 millions de dollars des soldes en Tether suggère notamment que le recul des avoirs en stablecoins devient une tendance plutôt qu'un événement isolé.</p>
+<p class="fr">Un rapport de preuve de réserves fonctionne en hachant des données de soldes clients compilées de manière indépendante dans un arbre de Merkle. Le solde de chaque compte est anonymisé et placé dans un nœud feuille, et ces feuilles sont combinées séquentiellement en un hachage unique de niveau supérieur — la « racine de Merkle » — que chacun peut utiliser pour vérifier que son propre solde a été inclus dans l'ensemble global. Binance affirme y superposer une preuve à divulgation nulle de connaissance (zk-SNARK), démontrant mathématiquement que la somme de tous les soldes correspond aux réserves qu'elle prétend détenir, sans exposer aucun compte individuel. Ce que cette méthode vérifie, cependant, n'est qu'un instantané des « actifs » à un instant donné — elle ne garantit pas, à elle seule, le passif ni l'origine des fonds, une limite abordée plus loin dans cet article.</p>
+<p class="pt">O aumento deste ciclo é notavelmente menor do que o anterior. O relatório anterior — que comparava a captura de 1º de junho com maio — constatou que as participações em bitcoin dos clientes subiram 25.838 BTC, mais do triplo do tamanho do aumento observado no relatório de julho, que capturou apenas cerca de 30% desse ritmo. A direção se manteve pelo segundo mês consecutivo, mas o ímpeto esfriou claramente. Ethereum e Tether, por sua vez, estenderam suas quedas pelo segundo mês consecutivo; a queda de 510 milhões de dólares nos saldos de Tether sugere, em particular, que o recuo nas participações em stablecoins está se tornando uma tendência, e não um evento isolado.</p>
+<p class="pt">Um relatório de prova de reservas funciona ao transformar em hash, por meio de uma árvore de Merkle, dados de saldos de clientes compilados de forma independente. O saldo de cada conta é anonimizado e colocado em um nó-folha, e essas folhas são combinadas sequencialmente em um único hash de nível superior — a "raiz de Merkle" — que qualquer pessoa pode usar para verificar se seu próprio saldo foi incluído no conjunto geral. A Binance afirma sobrepor a isso uma prova de conhecimento zero (zk-SNARK), demonstrando matematicamente que a soma de todos os saldos corresponde às reservas que alega possuir, sem expor nenhuma conta individual. O que esse método verifica, porém, é apenas uma captura dos "ativos" em um único momento — por si só, não comprova passivos nem a origem dos fundos, uma limitação abordada mais adiante neste texto.</p>
+<p class="tr">Bu döngüdeki artış, bir öncekine kıyasla belirgin şekilde daha küçük. 1 Haziran anlık görüntüsünü Mayıs ile karşılaştıran önceki rapor, müşteri Bitcoin varlıklarının 25.838 BTC arttığını göstermişti; bu, Temmuz raporundaki artışın üç katından fazlaydı ve Temmuz raporu bu hızın yalnızca yaklaşık yüzde 30'unu yakaladı. Yön ikinci ay üst üste korunsa da ivme belirgin şekilde soğudu. Ethereum ve Tether ise düşüşlerini ikinci ay üst üste sürdürdü; özellikle Tether bakiyelerindeki 510 milyon dolarlık düşüş, stablecoin varlıklarındaki gerilemenin tek seferlik değil, bir eğilime dönüştüğünü düşündürüyor.</p>
+<p class="tr">Bir Rezerv Kanıtı raporu, bağımsız olarak derlenen müşteri bakiye verilerinin bir Merkle ağacında hash'lenmesiyle çalışır. Her hesap bakiyesi anonimleştirilerek bir yaprak düğüme yerleştirilir ve bu yapraklar sırayla birleştirilerek, herkesin kendi bakiyesinin genel kümeye dahil edilip edilmediğini doğrulamak için kullanabileceği tek bir üst düzey hash olan "Merkle kökü" oluşturulur. Binance, bunun üzerine bireysel hesapları açığa çıkarmadan tüm bakiyelerin toplamının iddia ettiği rezervlerle eşleştiğini matematiksel olarak kanıtlayan bir sıfır bilgi kanıtı (zk-SNARK) eklediğini belirtiyor. Ancak bu yöntemin doğruladığı şey, yalnızca belirli bir andaki "varlıkların" anlık görüntüsüdür — tek başına yükümlülükleri veya fonların kaynağını garanti etmez; bu sınırlama yazının ilerleyen bölümünde ele alınıyor.</p>
+<p class="vi">Mức tăng trong chu kỳ này thấp hơn đáng kể so với chu kỳ trước. Báo cáo trước đó — so sánh ảnh chụp nhanh ngày 1/6 với tháng 5 — cho thấy lượng bitcoin nắm giữ của khách hàng tăng 25.838 BTC, gấp hơn ba lần mức tăng ghi nhận trong báo cáo tháng 7, vốn chỉ đạt khoảng 30% tốc độ đó. Xu hướng vẫn được duy trì trong tháng thứ hai liên tiếp, nhưng đà tăng rõ ràng đã nguội đi. Trong khi đó, Ethereum và Tether tiếp tục giảm sang tháng thứ hai liên tiếp; mức giảm 510 triệu đô la trong số dư Tether đặc biệt cho thấy sự sụt giảm lượng nắm giữ stablecoin đang trở thành một xu hướng chứ không phải sự kiện đơn lẻ.</p>
+<p class="vi">Một báo cáo bằng chứng dự trữ hoạt động bằng cách băm dữ liệu số dư khách hàng được tổng hợp độc lập vào một cây Merkle. Số dư mỗi tài khoản được ẩn danh và đặt vào một nút lá, và các nút lá này được kết hợp tuần tự thành một mã băm cấp cao nhất duy nhất — "gốc Merkle" — mà bất kỳ ai cũng có thể dùng để xác minh số dư của chính mình đã được đưa vào tập hợp chung. Binance cho biết họ bổ sung thêm bằng chứng không tiết lộ thông tin (zk-SNARK), chứng minh về mặt toán học rằng tổng tất cả số dư khớp với lượng dự trữ mà họ tuyên bố nắm giữ mà không tiết lộ bất kỳ tài khoản riêng lẻ nào. Tuy nhiên, những gì phương pháp này xác minh chỉ là ảnh chụp nhanh "tài sản" tại một thời điểm — bản thân nó không đảm bảo về nợ phải trả hay nguồn gốc của số tiền, một hạn chế sẽ được đề cập ở phần sau của bài viết.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">3대 거래소 준비금 증명 — 최신 스냅샷 증감률</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">비트코인(BTC) 보유량 변화</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">바이낸스 (7/1)</text>
+    <rect x="140" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="207" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1.22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">바이비트 (6/24)</text>
+    <rect x="140" y="104" width="507" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10.22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (6/19)</text>
+    <rect x="140" y="136" width="530" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10.67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">테더(USDT) 보유량 변화</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">바이낸스</text>
+    <rect x="140" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="223" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1.51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">바이비트</text>
+    <rect x="140" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="353" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4.12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="140" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="623" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9.52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">3개 거래소 모두 'BTC↑ · USDT↓' 방향성 일치 · 바이낸스 6월 증가분(7715 BTC)은 5월(2만5838 BTC)의 약 30% 수준</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">출처: 크립토뉴스(crypto.news), 우블록체인(Wu Blockchain)</text>
+  </g>
+</svg>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Three exchanges' latest Proof-of-Reserves snapshots</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Bitcoin (BTC) balance change</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (Jul 1)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1.22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (Jun 24)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10.22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (Jun 19)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10.67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Tether (USDT) balance change</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1.51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4.12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9.52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">All three exchanges: BTC up, USDT down · Binance's June gain (7,715 BTC) is ~30% of May's (25,838 BTC)</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Sources: crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">3大取引所 準備金証明 — 最新スナップショット増減率</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">ビットコイン(BTC)残高の変化</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">バイナンス(7/1)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1.22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">バイビット(6/24)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10.22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX(6/19)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10.67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">テザー(USDT)残高の変化</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">バイナンス</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1.51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">バイビット</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4.12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9.52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">3取引所すべて「BTC↑・USDT↓」の方向一致・バイナンス6月増加分(7715BTC)は5月(2万5838BTC)の約30%</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">出典: クリプトニュース(crypto.news)、ウーブロックチェーン(Wu Blockchain)</text>
+  </g>
+</svg>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Últimas instantáneas de Prueba de Reservas de tres exchanges</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Cambio en saldos de Bitcoin (BTC)</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (1/7)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1,22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (24/6)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (19/6)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Cambio en saldos de Tether (USDT)</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1,51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4,12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9,52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">Los tres exchanges: BTC sube, USDT baja · Ganancia de junio de Binance (7.715 BTC) es ~30% de la de mayo (25.838 BTC)</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Fuentes: crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Aktuelle Proof-of-Reserves-Momentaufnahmen dreier Börsen</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Veränderung Bitcoin-Guthaben (BTC)</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (1.7.)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1,22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (24.6.)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (19.6.)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Veränderung Tether-Guthaben (USDT)</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1,51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4,12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9,52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">Alle drei Börsen: BTC steigt, USDT fällt · Binances Juni-Zuwachs (7.715 BTC) ist ~30% des Mai-Werts (25.838 BTC)</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Quellen: crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Derniers instantanés de preuve de réserves de trois plateformes</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Variation des soldes Bitcoin (BTC)</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (1/7)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1,22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (24/6)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (19/6)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Variation des soldes Tether (USDT)</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1,51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4,12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9,52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">Les trois plateformes : BTC en hausse, USDT en baisse · Le gain de juin de Binance (7 715 BTC) = ~30% de celui de mai (25 838 BTC)</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Sources : crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Últimas capturas de Prova de Reservas de três corretoras</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Variação do saldo de Bitcoin (BTC)</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (1/7)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1,22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (24/6)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (19/6)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Variação do saldo de Tether (USDT)</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1,51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4,12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9,52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">As três corretoras: BTC sobe, USDT cai · Ganho de junho da Binance (7.715 BTC) é ~30% do de maio (25.838 BTC)</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Fontes: crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Üç borsanın en güncel Rezerv Kanıtı anlık görüntüleri</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Bitcoin (BTC) bakiye değişimi</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (1/7)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+%1,22</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (24/6)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+%10,22</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (19/6)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+%10,67</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Tether (USDT) bakiye değişimi</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-%1,51</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-%4,12</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-%9,52</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">Üç borsada da yön aynı: BTC↑ · USDT↓ · Binance'in Haziran artışı (7.715 BTC), Mayıs'ın (25.838 BTC) ~%30'u</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Kaynaklar: crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Ảnh chụp nhanh Bằng chứng Dự trữ mới nhất của ba sàn</text>
+  <g font-family="sans-serif">
+    <text x="20" y="60" fill="#e4e4e7" font-size="14" font-weight="700">Thay đổi số dư Bitcoin (BTC)</text>
+    <text x="20" y="86" fill="#a1a1aa" font-size="13">Binance (1/7)</text>
+    <rect x="150" y="72" width="61" height="22" rx="5" fill="#f7931a"/>
+    <text x="217" y="88" fill="#fbbf24" font-size="13" font-weight="700">+1,22%</text>
+    <text x="20" y="118" fill="#a1a1aa" font-size="13">Bybit (24/6)</text>
+    <rect x="150" y="104" width="497" height="22" rx="5" fill="#f7931a"/>
+    <text x="653" y="120" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,22%</text>
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">OKX (19/6)</text>
+    <rect x="150" y="136" width="520" height="22" rx="5" fill="#f7931a"/>
+    <text x="676" y="152" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">+10,67%</text>
+    <line x1="20" y1="180" x2="680" y2="180" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="206" fill="#e4e4e7" font-size="14" font-weight="700">Thay đổi số dư Tether (USDT)</text>
+    <text x="20" y="232" fill="#a1a1aa" font-size="13">Binance</text>
+    <rect x="150" y="218" width="76" height="22" rx="5" fill="#38bdf8"/>
+    <text x="233" y="234" fill="#7dd3fc" font-size="13" font-weight="700">-1,51%</text>
+    <text x="20" y="264" fill="#a1a1aa" font-size="13">Bybit</text>
+    <rect x="150" y="250" width="206" height="22" rx="5" fill="#38bdf8"/>
+    <text x="363" y="266" fill="#7dd3fc" font-size="13" font-weight="700">-4,12%</text>
+    <text x="20" y="296" fill="#a1a1aa" font-size="13">OKX</text>
+    <rect x="150" y="282" width="476" height="22" rx="5" fill="#38bdf8"/>
+    <text x="633" y="298" fill="#7dd3fc" font-size="13" font-weight="700">-9,52%</text>
+    <line x1="20" y1="322" x2="680" y2="322" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="348" fill="#a1a1aa" font-size="13">Cả ba sàn đều cùng hướng: BTC tăng, USDT giảm · Mức tăng tháng 6 của Binance (7.715 BTC) ~30% mức tháng 5 (25.838 BTC)</text>
+    <text x="20" y="374" fill="#52525b" font-size="12">Nguồn: crypto.news, Wu Blockchain</text>
+  </g>
+</svg>
+</div>
+
+<h2 class="ko">바이비트·OKX도 같은 흐름 — 거래소 전반의 패턴인가</h2>
+<h2 class="en">Bybit and OKX Show the Same Pattern — an Exchange-Wide Trend?</h2>
+<h2 class="ja">バイビット・OKXも同じ流れ — 取引所全体のパターンか</h2>
+<h2 class="es">Bybit y OKX muestran el mismo patrón — ¿una tendencia en todo el sector?</h2>
+<h2 class="de">Bybit und OKX zeigen dasselbe Muster — ein börsenweiter Trend?</h2>
+<h2 class="fr">Bybit et OKX affichent le même schéma — une tendance à l'échelle du secteur ?</h2>
+<h2 class="pt">Bybit e OKX mostram o mesmo padrão — uma tendência em todas as corretoras?</h2>
+<h2 class="tr">Bybit ve OKX de Aynı Örüntüyü Gösteriyor — Borsa Genelinde Bir Eğilim mi?</h2>
+<h2 class="vi">Bybit và OKX cũng cho thấy mô hình tương tự — một xu hướng toàn ngành?</h2>
+
+<p class="ko">유사한 패턴은 바이낸스에 국한되지 않는다. 크립토뉴스에 따르면 바이비트는 6월 24일 스냅샷 기준 이용자 비트코인 보유량이 4만9309 BTC로 10.22% 늘었고, OKX는 6월 19일 스냅샷에서 12만3056 BTC로 10.67% 증가했다. 두 거래소 모두 오히려 바이낸스보다 증가율이 훨씬 가팔랐다. 반대로 테더 보유량은 바이비트가 4.12%, OKX가 9.52% 각각 줄어 감소폭도 바이낸스보다 컸다. 세 거래소 모두 '비트코인은 늘고 스테이블코인은 준다'는 같은 방향성을 공유한 것이다.</p>
+<p class="ko">이 패턴을 곧바로 '매수 심리 회복'으로 해석하는 것은 성급하다. 거래소 잔고는 이용자가 스테이블코인을 팔아 비트코인을 산 결과일 수도 있지만, 기관 투자자가 옵션 담보나 마진 계좌 용도로 비트코인을 거래소에 예치했거나, 장외거래(OTC) 데스크가 결제 전 일시적으로 코인을 보관한 결과일 수도 있다. 실제로 준비금 증명 스냅샷은 매수·매도·입출금 중 무엇이 잔고 변화를 만들었는지는 구분해주지 않는다. 다만 세 개 대형 거래소에서 동시에 같은 방향의 변화가 나타났다는 사실 자체는, 적어도 개별 거래소의 일회성 이벤트는 아니라는 점을 시사한다.</p>
+<p class="en">The pattern is not unique to Binance. According to crypto.news, Bybit's June 24 snapshot showed customer Bitcoin holdings of 49,309 BTC, up 10.22%, while OKX's June 19 snapshot showed 123,056 BTC, up 10.67% — both far steeper increases than Binance's. Tether holdings moved the other way at both venues, falling 4.12% at Bybit and 9.52% at OKX, declines larger in percentage terms than Binance's own. All three major exchanges shared the same direction: Bitcoin balances up, stablecoin balances down.</p>
+<p class="en">Reading this pattern as a simple rebound in buying appetite would be premature. Rising exchange balances could reflect users selling stablecoins to buy Bitcoin, but they could just as easily reflect institutional investors parking Bitcoin on exchanges as options collateral or margin, or OTC desks temporarily warehousing coins ahead of settlement. A Proof-of-Reserves snapshot cannot distinguish which of those — buying, selling, or simple deposits and withdrawals — actually drove the balance change. What the simultaneous, same-direction shift across three major exchanges does suggest is that this is not an isolated, single-exchange event.</p>
+<p class="ja">このパターンはバイナンスに限った話ではない。クリプトニュースによると、バイビットの6月24日のスナップショットでは利用者のビットコイン保有量が4万9309BTCと10.22%増加し、OKXの6月19日のスナップショットでは12万3056BTCと10.67%増加した——いずれもバイナンスよりはるかに急な伸びだった。テザー保有量は両取引所とも逆方向に動き、バイビットは4.12%、OKXは9.52%それぞれ減少しており、割合で見るとバイナンス自体より大きな減少幅だった。3大取引所すべてが「ビットコインは増え、ステーブルコインは減る」という同じ方向性を共有していたことになる。</p>
+<p class="ja">このパターンを単純な「買い意欲の回復」と解釈するのは早計だ。取引所残高の増加は、利用者がステーブルコインを売ってビットコインを買った結果かもしれないが、機関投資家がオプション担保やマージン口座用にビットコインを取引所に預けた結果、あるいは店頭取引(OTC)デスクが決済前に一時的にコインを保管した結果である可能性も同様にある。準備金証明のスナップショットは、買い・売り・単なる入出金のいずれが残高変化を生んだのかを区別してくれない。ただし3つの大手取引所で同時に同方向の変化が現れたという事実自体は、少なくとも単一取引所限りの一過性の出来事ではないことを示唆している。</p>
+<p class="es">El patrón no es exclusivo de Binance. Según crypto.news, la instantánea de Bybit del 24 de junio mostró tenencias de bitcoin de clientes de 49.309 BTC, un aumento del 10,22%, mientras que la instantánea de OKX del 19 de junio mostró 123.056 BTC, un incremento del 10,67%, ambos aumentos mucho más pronunciados que el de Binance. Las tenencias de Tether se movieron en sentido contrario en ambas plataformas, cayendo un 4,12% en Bybit y un 9,52% en OKX, descensos porcentualmente mayores que el propio de Binance. Las tres grandes casas de cambio compartieron la misma dirección: los saldos de bitcoin subieron y los de stablecoins bajaron.</p>
+<p class="es">Interpretar este patrón como un simple repunte del apetito comprador sería prematuro. El aumento de los saldos en los exchanges podría reflejar a usuarios vendiendo stablecoins para comprar bitcoin, pero igualmente podría reflejar a inversores institucionales colocando bitcoin en los exchanges como garantía de opciones o margen, o a mesas OTC almacenando temporalmente monedas antes de una liquidación. Una instantánea de prueba de reservas no puede distinguir cuál de esos factores —compra, venta o simples depósitos y retiros— impulsó realmente el cambio de saldo. Lo que sí sugiere el cambio simultáneo y en la misma dirección en tres grandes exchanges es que no se trata de un evento aislado en una sola plataforma.</p>
+<p class="de">Das Muster ist nicht auf Binance beschränkt. Laut crypto.news zeigte die Momentaufnahme von Bybit vom 24. Juni Kunden-Bitcoin-Bestände von 49.309 BTC, ein Plus von 10,22 Prozent, während die Momentaufnahme von OKX vom 19. Juni 123.056 BTC zeigte, ein Anstieg von 10,67 Prozent — beides deutlich steilere Zuwächse als bei Binance. Die Tether-Bestände bewegten sich bei beiden Börsen in die entgegengesetzte Richtung: Bei Bybit fielen sie um 4,12 Prozent, bei OKX um 9,52 Prozent — prozentual größere Rückgänge als bei Binance selbst. Alle drei großen Börsen zeigten dieselbe Richtung: steigende Bitcoin-Guthaben, sinkende Stablecoin-Guthaben.</p>
+<p class="de">Dieses Muster als einfache Erholung der Kauflust zu deuten, wäre verfrüht. Steigende Börsenguthaben könnten widerspiegeln, dass Nutzer Stablecoins verkaufen, um Bitcoin zu kaufen — sie könnten aber genauso gut bedeuten, dass institutionelle Anleger Bitcoin als Optionssicherheit oder Margin auf Börsen parken, oder dass OTC-Desks Coins vor der Abwicklung vorübergehend lagern. Eine Proof-of-Reserves-Momentaufnahme kann nicht unterscheiden, was die Guthabenänderung tatsächlich verursacht hat — Kauf, Verkauf oder einfache Ein- und Auszahlungen. Was die gleichzeitige, gleichgerichtete Verschiebung bei drei großen Börsen jedoch nahelegt: Es handelt sich nicht um ein isoliertes Einzelbörsen-Ereignis.</p>
+<p class="fr">Ce schéma n'est pas propre à Binance. Selon crypto.news, l'instantané de Bybit du 24 juin a montré des avoirs en bitcoin des clients de 49 309 BTC, en hausse de 10,22 %, tandis que celui d'OKX du 19 juin affichait 123 056 BTC, en hausse de 10,67 % — des progressions bien plus marquées que celle de Binance. Les avoirs en Tether ont évolué en sens inverse sur les deux plateformes, chutant de 4,12 % chez Bybit et de 9,52 % chez OKX, des baisses proportionnellement plus fortes que celle de Binance. Les trois grandes plateformes ont partagé la même orientation : hausse des soldes en bitcoin, baisse des soldes en stablecoins.</p>
+<p class="fr">Interpréter ce schéma comme un simple regain d'appétit acheteur serait prématuré. La hausse des soldes sur les plateformes pourrait refléter des utilisateurs vendant des stablecoins pour acheter du bitcoin, mais tout aussi bien des investisseurs institutionnels plaçant du bitcoin sur les plateformes en garantie d'options ou de marge, ou des bureaux OTC entreposant temporairement des pièces avant règlement. Un instantané de preuve de réserves ne peut pas distinguer laquelle de ces causes — achat, vente ou simples dépôts et retraits — a réellement provoqué la variation du solde. Ce que suggère en revanche le mouvement simultané et de même sens observé sur trois grandes plateformes, c'est qu'il ne s'agit pas d'un événement isolé propre à une seule plateforme.</p>
+<p class="pt">Interpretar esse padrão como uma simples retomada do apetite comprador seria prematuro. O aumento nos saldos das corretoras pode refletir usuários vendendo stablecoins para comprar bitcoin, mas pode igualmente refletir investidores institucionais estacionando bitcoin nas corretoras como garantia de opções ou margem, ou mesas OTC armazenando temporariamente moedas antes da liquidação. Uma captura de prova de reservas não consegue distinguir qual desses fatores — compra, venda ou simples depósitos e saques — de fato provocou a mudança no saldo. O que a mudança simultânea e na mesma direção em três grandes corretoras sugere, no entanto, é que não se trata de um evento isolado de uma única corretora.</p>
+<p class="pt">O padrão não é exclusivo da Binance. Segundo a crypto.news, a captura da Bybit de 24 de junho mostrou participações em bitcoin dos clientes de 49.309 BTC, alta de 10,22%, enquanto a captura da OKX de 19 de junho mostrou 123.056 BTC, alta de 10,67% — ambas altas muito mais acentuadas do que a da Binance. As participações em Tether se moveram na direção oposta em ambas as corretoras, caindo 4,12% na Bybit e 9,52% na OKX, quedas percentualmente maiores do que a da própria Binance. As três grandes corretoras compartilharam a mesma direção: saldos de bitcoin em alta, saldos de stablecoins em queda.</p>
+<p class="tr">Bu örüntü yalnızca Binance'e özgü değil. crypto.news'e göre Bybit'in 24 Haziran anlık görüntüsü, müşteri Bitcoin varlıklarının yüzde 10,22 artışla 49.309 BTC'ye ulaştığını gösterirken, OKX'in 19 Haziran anlık görüntüsü yüzde 10,67 artışla 123.056 BTC'yi gösterdi — her ikisi de Binance'den çok daha dik artışlar. Tether varlıkları her iki platformda da ters yönde hareket etti; Bybit'te yüzde 4,12, OKX'te yüzde 9,52 düştü ve bu düşüşler yüzdesel olarak Binance'in kendisinden daha büyüktü. Üç büyük borsa da aynı yönü paylaştı: Bitcoin bakiyeleri yükseldi, stabilcoin bakiyeleri düştü.</p>
+<p class="tr">Bu örüntüyü basitçe alım iştahının geri dönüşü olarak okumak henüz erken olur. Artan borsa bakiyeleri, kullanıcıların bitcoin almak için stabilcoin sattığını yansıtabilir, ancak aynı şekilde kurumsal yatırımcıların opsiyon teminatı veya marj için bitcoini borsalarda park ettiğini ya da OTC masalarının mutabakat öncesinde coinleri geçici olarak depoladığını da yansıtabilir. Bir Rezerv Kanıtı anlık görüntüsü, bakiye değişimini gerçekte neyin — alım, satım veya basit para yatırma-çekme işlemlerinin — tetiklediğini ayırt edemez. Ancak üç büyük borsada eş zamanlı ve aynı yönde gerçekleşen bu değişim, en azından tek bir borsaya özgü, tek seferlik bir olay olmadığını düşündürüyor.</p>
+<p class="vi">Mô hình này không chỉ riêng ở Binance. Theo crypto.news, ảnh chụp nhanh ngày 24/6 của Bybit cho thấy lượng bitcoin khách hàng nắm giữ đạt 49.309 BTC, tăng 10,22%, trong khi ảnh chụp nhanh ngày 19/6 của OKX cho thấy 123.056 BTC, tăng 10,67% — cả hai đều tăng mạnh hơn nhiều so với Binance. Lượng nắm giữ Tether tại cả hai sàn di chuyển theo hướng ngược lại, giảm 4,12% tại Bybit và 9,52% tại OKX, mức giảm tính theo phần trăm lớn hơn cả của Binance. Cả ba sàn giao dịch lớn đều có chung một hướng: số dư bitcoin tăng, số dư stablecoin giảm.</p>
+<p class="vi">Diễn giải mô hình này đơn giản là sự phục hồi của khẩu vị mua sẽ là quá vội vàng. Số dư sàn giao dịch tăng có thể phản ánh việc người dùng bán stablecoin để mua bitcoin, nhưng cũng có thể phản ánh việc các nhà đầu tư tổ chức gửi bitcoin vào sàn làm tài sản thế chấp quyền chọn hoặc ký quỹ, hoặc các bàn giao dịch OTC tạm thời lưu trữ coin trước khi thanh toán. Một ảnh chụp nhanh bằng chứng dự trữ không thể phân biệt được yếu tố nào — mua, bán, hay đơn thuần là gửi và rút tiền — thực sự đã tạo ra sự thay đổi số dư đó. Tuy nhiên, điều mà sự thay đổi đồng thời, cùng hướng tại ba sàn giao dịch lớn gợi ý là đây không phải là một sự kiện đơn lẻ chỉ xảy ra ở một sàn.</p>
+
+<h2 class="ko">준비금 증명이 말해주지 않는 것 — FTX가 남긴 교훈과 한계</h2>
+<h2 class="en">What Proof-of-Reserves Doesn't Tell You — the Lesson FTX Left Behind</h2>
+<h2 class="ja">準備金証明が語らないこと — FTXが残した教訓と限界</h2>
+<h2 class="es">Lo que la prueba de reservas no revela — la lección que dejó FTX</h2>
+<h2 class="de">Was Proof-of-Reserves nicht verrät — die Lehre aus dem FTX-Kollaps</h2>
+<h2 class="fr">Ce que la preuve de réserves ne révèle pas — la leçon laissée par FTX</h2>
+<h2 class="pt">O que a prova de reservas não revela — a lição deixada pela FTX</h2>
+<h2 class="tr">Rezerv Kanıtının Söylemediği Şey — FTX'in Bıraktığı Ders</h2>
+<h2 class="vi">Điều bằng chứng dự trữ không cho bạn biết — bài học mà FTX để lại</h2>
+
+<p class="ko">준비금 증명이라는 개념이 업계 표준으로 자리 잡은 계기는 2022년 11월 FTX 파산이다. 당시 FTX는 고객 예치 자산을 자매 회사 알라메다리서치의 트레이딩에 무단으로 유용한 사실이 드러나며 붕괴했고, 이후 바이낸스를 비롯한 주요 거래소들은 신뢰 회복을 위해 정기적인 준비금 증명 공개를 시작했다. 그러나 업계 전문가들은 이 방식의 근본적 한계를 반복적으로 지적해왔다. 머클 트리 증명은 특정 시점에 거래소가 보유한 '자산'만 보여줄 뿐, 그 자산이 차입금인지 여부나 이용자에게 갚아야 할 '부채' 규모는 함께 공개하지 않으면 지급 능력을 증명하지 못한다. FTX 역시 파산 직전까지는 자산이 존재하는 것처럼 보였다는 점에서, 스냅샷 한 장만으로는 안심할 수 없다는 교훈이 남았다.</p>
+<p class="ko">결국 이번 44차 보고서가 보여주는 것은 '이용자들이 무엇을 했는가'가 아니라 '거래소에 무엇이 쌓였는가'에 가깝다. 진짜 매수 심리를 확인하려면 온체인 거래소 순유출입 데이터, 즉 코인이 실제로 거래소 지갑에서 개인 지갑으로 빠져나가는지(자기보관 선호, 매도 압력 완화 신호) 혹은 거래소로 계속 유입되는지(매도 대기 물량 증가 가능성)를 함께 봐야 한다. 다음 달 보고서에서 증가세가 이어지는지, 혹은 5월의 급증세로 되돌아가는지가 첫 번째 관찰 포인트이고, 온체인 순유출입 지표와의 정합성 여부가 두 번째 관찰 포인트다.</p>
+<p class="en">Proof-of-Reserves became an industry norm after FTX's collapse in November 2022, when it emerged the exchange had improperly funneled customer deposits into trading at its sister firm, Alameda Research. In the aftermath, Binance and other major exchanges began publishing regular Proof-of-Reserves reports to rebuild trust. Industry experts, however, have repeatedly flagged the method's core limitation: a Merkle tree proof shows only the "assets" an exchange holds at a given moment — unless matched against disclosed liabilities, it cannot prove solvency. FTX itself appeared to hold assets right up until its collapse, a reminder that a single snapshot offers no real assurance on its own.</p>
+<p class="en">What the 44th report ultimately captures, then, is less "what customers did" than "what piled up on the exchange." Confirming genuine buying conviction requires cross-checking on-chain exchange netflow data — whether coins are actually leaving exchange wallets for personal custody, a sign of reduced selling pressure, or continuing to flow in, which could point to a growing overhang of coins waiting to be sold. Whether next month's report extends this slower growth or snaps back toward May's surge is the first thing worth watching; whether it lines up with on-chain netflow readings is the second.</p>
+<p class="ja">準備金証明が業界標準として定着した契機は、2022年11月のFTX破綻だ。当時FTXは、顧客の預け入れ資産を無断で姉妹会社アラメダ・リサーチのトレーディングに流用していたことが発覚し、崩壊した。その後、バイナンスをはじめとする主要取引所は信頼回復のため定期的な準備金証明の公表を始めた。しかし業界の専門家たちは、この手法の根本的な限界を繰り返し指摘してきた。マークルツリー証明が示すのは、ある時点で取引所が保有する「資産」だけであり、開示された負債と突き合わせない限り、支払い能力を証明することはできない。FTX自体も破綻直前まで資産があるように見えていたという事実は、スナップショット一枚だけでは安心できないという教訓を残した。</p>
+<p class="ja">つまり第44回報告書が最終的に示しているのは「利用者が何をしたか」というより「取引所に何が積み上がったか」に近い。本当の買い意欲を確認するには、オンチェーンの取引所純流出入データ、すなわちコインが実際に取引所ウォレットから個人ウォレットへ流出しているか(自己保管志向、売り圧力の緩和シグナル)、あるいは取引所への流入が続いているか(売り待ち残高の増加の可能性)を併せて見る必要がある。来月の報告書でこの鈍化した増勢が続くのか、あるいは5月の急増ペースに戻るのかが第一の観察点であり、オンチェーンの純流出入指標との整合性が第二の観察点だ。</p>
+<p class="es">La prueba de reservas se convirtió en una norma del sector tras el colapso de FTX en noviembre de 2022, cuando salió a la luz que el exchange había desviado indebidamente los depósitos de los clientes hacia las operaciones de su empresa hermana, Alameda Research. Tras ello, Binance y otros grandes exchanges comenzaron a publicar informes periódicos de prueba de reservas para reconstruir la confianza. Sin embargo, los expertos del sector han señalado repetidamente la limitación fundamental de este método: una prueba de árbol de Merkle solo muestra los "activos" que un exchange posee en un momento dado; a menos que se contraste con los pasivos declarados, no puede demostrar solvencia. La propia FTX parecía poseer activos hasta justo antes de su colapso, un recordatorio de que una sola instantánea no ofrece, por sí sola, ninguna garantía real.</p>
+<p class="es">Lo que en última instancia captura el 44.º informe, entonces, es menos "lo que hicieron los clientes" que "lo que se acumuló en el exchange". Confirmar una convicción de compra genuina requiere cotejarla con datos de flujo neto on-chain de los exchanges: si las monedas realmente están saliendo de las carteras del exchange hacia la autocustodia, señal de menor presión vendedora, o si siguen entrando, lo que podría indicar un creciente excedente de monedas a la espera de ser vendidas. Si el informe del próximo mes prolonga este crecimiento más lento o vuelve al repunte de mayo es lo primero a vigilar; si coincide con las lecturas de flujo neto on-chain es lo segundo.</p>
+<p class="de">Proof-of-Reserves wurde nach dem Zusammenbruch von FTX im November 2022 zur Branchennorm, als bekannt wurde, dass die Börse Kundeneinlagen unrechtmäßig in den Handel ihrer Schwesterfirma Alameda Research umgeleitet hatte. In der Folge begannen Binance und andere große Börsen, regelmäßig Proof-of-Reserves-Berichte zu veröffentlichen, um Vertrauen zurückzugewinnen. Branchenexperten haben jedoch wiederholt auf die grundlegende Einschränkung dieser Methode hingewiesen: Ein Merkle-Baum-Beweis zeigt nur die „Vermögenswerte", die eine Börse zu einem bestimmten Zeitpunkt hält — ohne einen Abgleich mit offengelegten Verbindlichkeiten kann er die Zahlungsfähigkeit nicht belegen. FTX selbst schien bis kurz vor dem Zusammenbruch über Vermögenswerte zu verfügen — eine Erinnerung daran, dass eine einzelne Momentaufnahme allein keine echte Sicherheit bietet.</p>
+<p class="de">Was der 44. Bericht letztlich zeigt, ist also weniger „was Kunden getan haben" als „was sich auf der Börse angesammelt hat". Um echte Kaufüberzeugung zu bestätigen, müssen On-Chain-Nettofluss-Daten der Börsen herangezogen werden — ob Coins tatsächlich Börsen-Wallets in Richtung Eigenverwahrung verlassen, ein Zeichen für nachlassenden Verkaufsdruck, oder weiterhin zufließen, was auf einen wachsenden Überhang verkaufsbereiter Coins hindeuten könnte. Ob der Bericht des nächsten Monats dieses langsamere Wachstum fortsetzt oder zum Mai-Anstieg zurückkehrt, ist als Erstes zu beobachten; ob er mit den On-Chain-Nettofluss-Werten übereinstimmt, als Zweites.</p>
+<p class="fr">La preuve de réserves est devenue une norme du secteur après l'effondrement de FTX en novembre 2022, lorsqu'il est apparu que la plateforme avait détourné de manière irrégulière les dépôts des clients vers les activités de trading de sa société sœur, Alameda Research. Dans la foulée, Binance et d'autres grandes plateformes ont commencé à publier régulièrement des rapports de preuve de réserves pour restaurer la confiance. Les experts du secteur ont toutefois signalé à plusieurs reprises la limite fondamentale de cette méthode : une preuve par arbre de Merkle ne montre que les « actifs » détenus par une plateforme à un instant donné — sans confrontation avec un passif divulgué, elle ne peut pas prouver la solvabilité. FTX elle-même semblait détenir des actifs jusqu'à juste avant son effondrement, un rappel qu'un seul instantané n'offre, à lui seul, aucune véritable garantie.</p>
+<p class="fr">Ce que le 44e rapport capture finalement, c'est donc moins « ce que les clients ont fait » que « ce qui s'est accumulé sur la plateforme ». Confirmer une véritable conviction d'achat exige de croiser les données de flux net on-chain des plateformes — les pièces quittent-elles réellement les portefeuilles de la plateforme pour une autoconservation, signe d'une pression vendeuse allégée, ou continuent-elles d'affluer, ce qui pourrait indiquer un excédent croissant de pièces en attente d'être vendues. Le premier point à surveiller est de savoir si le rapport du mois prochain prolonge cette croissance ralentie ou renoue avec la poussée de mai ; le second est sa cohérence avec les indicateurs de flux net on-chain.</p>
+<p class="pt">A prova de reservas se tornou uma norma do setor após o colapso da FTX em novembro de 2022, quando veio à tona que a corretora havia desviado indevidamente depósitos de clientes para operações de negociação de sua empresa irmã, a Alameda Research. Na sequência, a Binance e outras grandes corretoras passaram a publicar relatórios regulares de prova de reservas para reconstruir a confiança. Especialistas do setor, no entanto, têm repetidamente apontado a limitação central do método: uma prova por árvore de Merkle mostra apenas os "ativos" que uma corretora detém em determinado momento — sem confrontá-la com passivos divulgados, ela não consegue provar solvência. A própria FTX parecia deter ativos até pouco antes de seu colapso, um lembrete de que uma única captura, por si só, não oferece garantia real.</p>
+<p class="pt">O que o 44º relatório de fato captura, portanto, é menos "o que os clientes fizeram" do que "o que se acumulou na corretora". Confirmar uma convicção genuína de compra exige cruzar dados de fluxo líquido on-chain das corretoras — se as moedas estão de fato saindo das carteiras da corretora para autocustódia, sinal de menor pressão vendedora, ou continuam entrando, o que poderia indicar um excedente crescente de moedas à espera de venda. Se o relatório do próximo mês prolonga esse crescimento mais lento ou retoma o salto de maio é o primeiro ponto a observar; se ele condiz com as leituras de fluxo líquido on-chain é o segundo.</p>
+<p class="tr">Rezerv Kanıtı, kasım 2022'de FTX'in çöküşünün ardından sektör normu haline geldi; o dönemde borsanın müşteri mevduatlarını usulsüz biçimde kardeş şirketi Alameda Research'ün ticaretine aktardığı ortaya çıkmıştı. Bunun ardından Binance ve diğer büyük borsalar, güveni yeniden inşa etmek için düzenli Rezerv Kanıtı raporları yayımlamaya başladı. Ancak sektör uzmanları bu yöntemin temel sınırlamasını defalarca dile getirdi: bir Merkle ağacı kanıtı yalnızca bir borsanın belirli bir andaki "varlıklarını" gösterir — açıklanan yükümlülüklerle karşılaştırılmadıkça ödeme gücünü kanıtlayamaz. FTX'in kendisi de çöküşünden hemen öncesine kadar varlıklara sahip görünüyordu; bu da tek bir anlık görüntünün tek başına gerçek bir güvence sunmadığının bir hatırlatıcısı.</p>
+<p class="tr">Dolayısıyla 44. raporun nihayetinde yakaladığı şey, "müşterilerin ne yaptığından" çok "borsada neyin biriktiğidir". Gerçek bir alım kanaatini doğrulamak, zincir üstü borsa net akış verileriyle çapraz kontrol yapmayı gerektirir — coinlerin gerçekten borsa cüzdanlarından kişisel saklamaya mı çıktığı (satış baskısının azaldığının işareti) yoksa girişin sürüp sürmediği (satışa hazır bekleyen coin fazlasının büyüdüğüne işaret edebilir). Gelecek ayki raporun bu yavaşlayan büyümeyi sürdürüp sürdürmeyeceği ya da Mayıs'taki sıçramaya geri dönüp dönmeyeceği izlenmesi gereken ilk şey; zincir üstü net akış verileriyle örtüşüp örtüşmediği ise ikinci şey.</p>
+<p class="vi">Bằng chứng dự trữ trở thành chuẩn mực ngành sau sự sụp đổ của FTX vào tháng 11/2022, khi lộ ra rằng sàn giao dịch này đã chuyển tiền gửi của khách hàng một cách sai trái vào hoạt động giao dịch của công ty chị em Alameda Research. Sau đó, Binance và các sàn lớn khác bắt đầu công bố báo cáo bằng chứng dự trữ định kỳ để khôi phục niềm tin. Tuy nhiên, các chuyên gia trong ngành đã nhiều lần chỉ ra hạn chế cốt lõi của phương pháp này: một bằng chứng cây Merkle chỉ cho thấy "tài sản" mà một sàn giao dịch nắm giữ tại một thời điểm nhất định — nếu không đối chiếu với các khoản nợ được công bố, nó không thể chứng minh khả năng thanh toán. Chính FTX cũng có vẻ như đang nắm giữ tài sản cho đến ngay trước khi sụp đổ, một lời nhắc nhở rằng một ảnh chụp nhanh đơn lẻ tự nó không mang lại sự đảm bảo thực sự nào.</p>
+<p class="vi">Vì vậy, những gì báo cáo thứ 44 thực sự ghi nhận ít mang tính "khách hàng đã làm gì" hơn là "điều gì đã tích tụ trên sàn giao dịch". Để xác nhận niềm tin mua thực sự, cần đối chiếu với dữ liệu dòng chảy ròng on-chain của sàn giao dịch — liệu coin có thực sự rời khỏi ví sàn để chuyển sang tự lưu trữ hay không, dấu hiệu của áp lực bán giảm, hay vẫn tiếp tục chảy vào, điều có thể cho thấy lượng coin chờ bán đang tăng lên. Việc báo cáo tháng tới có tiếp tục đà tăng chậm này hay quay lại mức tăng vọt của tháng 5 là điều đáng theo dõi đầu tiên; việc nó có khớp với các chỉ số dòng chảy ròng on-chain hay không là điều thứ hai.</p>
+
+<div class="box ko">💡 <strong>시사점:</strong> 바이낸스·바이비트·OKX 3대 거래소가 동시에 '비트코인 증가, 스테이블코인 감소' 패턴을 보였다는 점은 개별 거래소의 우연이 아닐 가능성을 시사한다. 다만 준비금 증명은 매수·매도를 구분하지 못하는 자산 스냅샷일 뿐이라는 한계가 있는 만큼, 온체인 순유출입 데이터와 다음 달 보고서를 함께 확인해야 한다.</div>
+<div class="box en">💡 <strong>Takeaway:</strong> Three major exchanges — Binance, Bybit and OKX — showing the same "Bitcoin up, stablecoins down" pattern at once suggests this isn't a single-exchange coincidence. But because Proof-of-Reserves is only an asset snapshot that can't distinguish buying from selling, it's worth checking on-chain netflow data and next month's report before drawing firmer conclusions.</div>
+<div class="box ja">💡 <strong>示唆:</strong> バイナンス・バイビット・OKXという3大取引所が同時に「ビットコイン増加、ステーブルコイン減少」というパターンを示したことは、単一取引所の偶然ではない可能性を示唆する。ただし準備金証明は買いと売りを区別できない資産スナップショットに過ぎないという限界があるため、オンチェーンの純流出入データと来月の報告書を併せて確認する必要がある。</div>
+<div class="box es">💡 <strong>Conclusión:</strong> que tres grandes exchanges —Binance, Bybit y OKX— muestren a la vez el mismo patrón de "bitcoin al alza, stablecoins a la baja" sugiere que no se trata de una coincidencia de un solo exchange. Pero como la prueba de reservas es solo una instantánea de activos que no distingue compra de venta, conviene contrastarla con los datos de flujo neto on-chain y el informe del próximo mes antes de sacar conclusiones más firmes.</div>
+<div class="box de">💡 <strong>Fazit:</strong> Dass drei große Börsen — Binance, Bybit und OKX — gleichzeitig dasselbe Muster „Bitcoin steigt, Stablecoins sinken" zeigen, deutet darauf hin, dass es sich nicht um einen Zufall bei einer einzelnen Börse handelt. Da Proof-of-Reserves jedoch nur eine Vermögens-Momentaufnahme ist, die Kauf nicht von Verkauf unterscheiden kann, lohnt es sich, On-Chain-Nettofluss-Daten und den Bericht des nächsten Monats zu prüfen, bevor man festere Schlüsse zieht.</div>
+<div class="box fr">💡 <strong>À retenir :</strong> le fait que trois grandes plateformes — Binance, Bybit et OKX — affichent simultanément le même schéma « bitcoin en hausse, stablecoins en baisse » suggère qu'il ne s'agit pas d'une coïncidence propre à une seule plateforme. Mais comme la preuve de réserves n'est qu'un instantané d'actifs incapable de distinguer achat et vente, il convient de vérifier les données de flux net on-chain et le rapport du mois prochain avant d'en tirer des conclusions plus fermes.</div>
+<div class="box pt">💡 <strong>Conclusão:</strong> o fato de três grandes corretoras — Binance, Bybit e OKX — mostrarem simultaneamente o mesmo padrão de "bitcoin em alta, stablecoins em queda" sugere que não se trata de coincidência de uma única corretora. Mas, como a prova de reservas é apenas uma captura de ativos incapaz de distinguir compra de venda, vale conferir os dados de fluxo líquido on-chain e o relatório do próximo mês antes de tirar conclusões mais firmes.</div>
+<div class="box tr">💡 <strong>Sonuç:</strong> Binance, Bybit ve OKX gibi üç büyük borsanın aynı anda "Bitcoin artıyor, stabilcoinler düşüyor" örüntüsünü göstermesi, bunun tek bir borsaya özgü bir rastlantı olmadığını düşündürüyor. Ancak Rezerv Kanıtı, alımı satımdan ayırt edemeyen yalnızca bir varlık anlık görüntüsü olduğundan, daha kesin sonuçlara varmadan önce zincir üstü net akış verilerini ve gelecek ayki raporu kontrol etmekte fayda var.</div>
+<div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Việc ba sàn giao dịch lớn — Binance, Bybit và OKX — cùng lúc cho thấy mô hình "bitcoin tăng, stablecoin giảm" cho thấy đây không phải là sự trùng hợp ở một sàn đơn lẻ. Nhưng vì bằng chứng dự trữ chỉ là ảnh chụp nhanh tài sản không thể phân biệt mua và bán, nên cần kiểm tra dữ liệu dòng chảy ròng on-chain và báo cáo tháng tới trước khi đưa ra kết luận chắc chắn hơn.</div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 크립토뉴스(crypto.news), 트론위클리(TronWeekly), 야후파이낸스(Yahoo Finance), 우블록체인(Wu Blockchain), 바이낸스 공식 준비금 증명 페이지</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, Binance Proof-of-Reserves page</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: クリプトニュース(crypto.news)、トロンウィークリー(TronWeekly)、ヤフーファイナンス(Yahoo Finance)、ウーブロックチェーン(Wu Blockchain)、バイナンス公式準備金証明ページ</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, página oficial de Prueba de Reservas de Binance</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, offizielle Proof-of-Reserves-Seite von Binance</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, page officielle de preuve de réserves de Binance</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, página oficial de Prova de Reservas da Binance</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, Binance resmi Rezerv Kanıtı sayfası</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: crypto.news, TronWeekly, Yahoo Finance, Wu Blockchain, trang Bằng chứng Dự trữ chính thức của Binance</p>
+<?php require __DIR__.'/_footer.php'; ?>
