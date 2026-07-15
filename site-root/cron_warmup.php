@@ -18,8 +18,36 @@
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/data_sources.php';
 
-header('Content-Type: application/json; charset=utf-8');
-header('Cache-Control: no-cache');
+// ═══════════════════════════════════════════════════════
+// ★ 2026-07-15 보안 패치 — 무인증 실행 차단
+//   이 파일은 인증이 없어 URL만 알면 누구나 실행할 수 있었다.
+//   1회 실행 = 코인 50개 × 외부 API 다중 curl = 실측 36.6초.
+//   그동안 PHP 프로세스 1개를 통째로 점유한다.
+//   공유호스팅 동시 PHP 프로세스는 10~20개 → 동시 20회면 사이트 전체가 멈춘다.
+//   게다가 robots.txt Disallow 에 적혀 있어 나쁜 봇에겐 안내판이었다.
+//   → update_coins.php 와 동일하게 SNAPSHOT_TOKEN 으로 보호.
+//   CLI(카페24 크론: php /경로/cron_warmup.php)는 토큰 없이 그대로 통과.
+// ═══════════════════════════════════════════════════════
+if (PHP_SAPI !== 'cli') {
+    header('Content-Type: text/plain; charset=utf-8');
+    header('Cache-Control: no-store');
+    header('X-Robots-Tag: noindex, nofollow');
+    $__tok = $_GET['token'] ?? '';
+    if (!defined('SNAPSHOT_TOKEN') || SNAPSHOT_TOKEN === '' || !hash_equals(SNAPSHOT_TOKEN, (string)$__tok)) {
+        http_response_code(403);
+        echo "forbidden\n";
+        exit;
+    }
+    // 토큰이 맞아도 동시 실행은 1개만 — 프로세스가 쌓이지 않게
+    $__gl = @fopen(sys_get_temp_dir() . '/btc_warmup.lock', 'c');
+    if ($__gl && !flock($__gl, LOCK_EX | LOCK_NB)) {
+        http_response_code(429);
+        echo "already running\n";
+        exit;
+    }
+    @ignore_user_abort(true);
+    @set_time_limit(120);
+}
 
 // 사이트에서 쓰는 모든 코인을 순회하며 캐시를 미리 채워둠
 foreach (array_keys(COIN_SYMBOLS) as $coin) {

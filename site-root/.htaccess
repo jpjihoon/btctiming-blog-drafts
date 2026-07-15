@@ -51,6 +51,29 @@ AddType text/plain .txt
   </FilesMatch>
 </IfModule>
 
+# ═══════════════════════════════════════════════════════════════
+#  ★ 2026-07-15 보안 패치
+# ═══════════════════════════════════════════════════════════════
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=()"
+</IfModule>
+
+# include 전용 PHP — 웹에서 직접 호출할 이유가 없다(require_once 로만 쓰임).
+# 지금은 빈 200 을 주지만, 서버가 PHP 파싱에 실패하는 순간 소스가 그대로 노출된다.
+# (플로팅 위젯은 same-origin iframe 이라 X-Frame-Options SAMEORIGIN 에 영향 없음)
+<FilesMatch "^(config|config_secret|data_sources|score_calc|glossary_data|_category_meta|_settings_modal|_nav_btns|_shared_footer|_guide_head|_guide_foot)\.php$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
 # /privacy, /terms → 내부적으로 .php가 응답 (URL은 그대로 유지)
 # (구 버전은 privacy.html로 301 리다이렉트했으나, .php 전환으로 rewrite 처리)
 RewriteEngine On

@@ -12,7 +12,17 @@
 // ── 점수 히스토리 스냅샷 설정 ──────────────────────
 // snapshot.php 를 크론에서 호출할 때 쓰는 인증 토큰. 아무나 호출해 데이터를
 // 늘리지 못하게 막는 용도. 노출되면 config.php에서 이 값만 바꾸면 된다.
-const SNAPSHOT_TOKEN = 'e8028ae26b0fd3d47f30c9748255a6964a9ab1db433b8093';
+// ★ 2026-07-15 보안 패치 — 시크릿 분리
+//   기존 토큰은 이 파일에 하드코딩돼 있었고 이 레포는 Public 이다.
+//   → 누구나 raw.githubusercontent.com 에서 읽어
+//     /snapshot.php?key=... , /update_coins.php?token=... 을 실행할 수 있었다.
+//   이제 토큰은 레포에 없는 config_secret.php 에만 존재한다. (FTP 1회 업로드, git 금지)
+$__btcSecret = [];
+if (is_file(__DIR__ . '/config_secret.php')) {
+    $__loaded = require __DIR__ . '/config_secret.php';
+    if (is_array($__loaded)) $__btcSecret = $__loaded;
+}
+define('SNAPSHOT_TOKEN', (string)($__btcSecret['SNAPSHOT_TOKEN'] ?? ''));
 // Firebase Realtime DB URL (scoreHistory 저장 위치)
 const FIREBASE_DB_URL = 'https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
 
@@ -312,12 +322,22 @@ function cache_set(string $key, $data): void {
  *
  * @return resource|false 락 파일 핸들 (cache_unlock에 그대로 넘길 것)
  */
-function cache_lock(string $key) {
+function cache_lock(string $key, float $maxWaitSec = 5.0) {
+    // ★ 2026-07-15: 기존엔 flock(LOCK_EX) = 무한 대기였다.
+    //   외부 API(바이낸스·코인게코)가 느려지면 락을 쥔 요청이 수십 초를 붙잡고,
+    //   뒤따라온 요청 전부가 무한 대기 → PHP 프로세스 고갈 → 사이트 전체 다운.
+    //   LOCK_NB 로 최대 5초까지만 재시도하고 못 잡으면 false 반환.
+    //   호출부(api.php)는 이미 $lock===false 경로를 처리하므로 동작은 그대로다.
     $path = cache_path($key) . '.lock';
     $fh = @fopen($path, 'c');
     if (!$fh) return false;
-    $acquired = flock($fh, LOCK_EX);
-    return $acquired ? $fh : false;
+    $deadline = microtime(true) + $maxWaitSec;
+    do {
+        if (@flock($fh, LOCK_EX | LOCK_NB)) return $fh;
+        usleep(100000); // 0.1초
+    } while (microtime(true) < $deadline);
+    fclose($fh);
+    return false;
 }
 
 function cache_unlock($fh): void {
