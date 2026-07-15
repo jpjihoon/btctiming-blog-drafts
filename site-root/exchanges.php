@@ -347,6 +347,9 @@ $discY = sprintf($t['disc'], $DISCOUNT_BYBIT);
 <style>
 :root{--bg:#0a0a0c;--bg2:#141418;--bg3:#1b1b21;--bg4:#24242b;--t1:#f2f2f5;--t2:#9a9aa4;--t3:#63636d;--b1:rgba(255,255,255,.07);--b2:rgba(255,255,255,.12);--green:#22c55e;--red:#ef4444;--orange:#f7931a;--gold:#f0b90b}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{overflow-y:scroll}  /* 스크롤바 유무로 중앙정렬이 흔들리지 않게 항상 자리 확보 */
+@supports(scrollbar-gutter:stable){html{overflow-y:auto;scrollbar-gutter:stable}}
+
 body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
 a{color:inherit}
 nav{background:var(--bg2);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:200;height:52px}
