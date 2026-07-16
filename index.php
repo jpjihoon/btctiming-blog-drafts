@@ -656,7 +656,21 @@ function setLang(lang, doSave) {
     //   히어로·버튼·푸터 같은 껍데기(.{lang}-show)만 바뀌고 카드는 서버가 준 언어 그대로 남았다.
     //   사용자가 언어를 직접 고른 경우(doSave=true)엔 해당 언어 URL로 이동해야 카드까지 바뀐다.
     //   ⚠ doSave가 없을 때(진입·뒤로가기 복원)는 절대 이동하면 안 된다 — 무한루프.
-    if (doSave && __t !== __cur) { location.href = __t; return; }
+    if (doSave && __t !== __cur) {
+      // 이동하면 스크롤이 맨 위로 간다. 읽던 자리를 넘겨준다.
+      // ⚠ scrollY(픽셀)를 저장하면 안 된다 — 언어마다 카드 높이가 달라(한국어 2줄 vs 독일어 4줄)
+      //   같은 픽셀이 다른 카드를 가리킨다. 글 순번(data-idx)은 언어와 무관하게 같다.
+      try {
+        var __a = __langAnchor;
+        if (__a && __a.el && __a.el.getAttribute && __a.el.getAttribute('data-idx') !== null) {
+          sessionStorage.setItem('btBlogScroll', JSON.stringify({
+            idx: __a.el.getAttribute('data-idx'),
+            top: Math.round(__a.top)
+          }));
+        }
+      } catch(e){}
+      location.href = __t; return;
+    }
     history.replaceState(null, '', __t);
   } catch(e){}
   // .ko/.{lang}-show 표시 전환으로 뷰포트 위쪽 높이가 바뀌어 스크롤이 밀리는 것 방지.
@@ -700,6 +714,28 @@ function restoreBlogLang() {
   } catch(e){}
 }
 restoreBlogLang(); // 진입: URL ?lang= 기준(사이트맵·공유링크·뒤로가기 모두 URL의 언어를 따름)
+
+// ★ 2026-07-16: 언어 전환으로 이동해 온 경우, 읽던 카드 위치로 되돌린다.
+//   ?page=N 은 서버가 N*12개를 누적 렌더하므로 그 카드가 반드시 존재한다.
+//   sessionStorage 는 1회용 — 지우고 시작해서 일반 새로고침엔 안 걸린다.
+(function __btRestoreBlogScroll(){
+  var raw = null;
+  try { raw = sessionStorage.getItem('btBlogScroll'); sessionStorage.removeItem('btBlogScroll'); } catch(e){ return; }
+  if (!raw) return;
+  var st; try { st = JSON.parse(raw); } catch(e){ return; }
+  if (!st || st.idx == null) return;
+  var go = function(){
+    var el = document.querySelector('#articleGrid [data-idx="' + st.idx + '"]');
+    if (!el) return;
+    var d = el.getBoundingClientRect().top - st.top;
+    if (Math.abs(d) > 1) window.scrollBy(0, d);
+  };
+  go();
+  requestAnimationFrame(go);                                   // 레이아웃 확정 후 1차 보정
+  window.addEventListener('load', function(){                  // 폰트·이미지 로드로 밀린 것 2차 보정
+    requestAnimationFrame(function(){ requestAnimationFrame(go); });
+  });
+})();
 // 뒤로가기/앞으로가기(bfcache) 복원 시: 언어는 브라우저가 복원한 그대로 둔다.
 // URL이 바뀌었을 수 있으니 화면만 URL 기준으로 재정리(저장은 안 함).
 window.addEventListener('pageshow', function(e){
