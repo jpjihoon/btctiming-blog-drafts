@@ -161,7 +161,7 @@ if ($ok === false) {
 //   - 이미 있고 30일 안 지난 로고는 건너뛴다 (매일 50장씩 받지 않는다)
 //   - 실패해도 update_coins 본래 기능(coins-auto.json)에는 영향 없다
 // ═══════════════════════════════════════════════════════════════
-$logoStat = ['dir' => false, 'skipped' => 0, 'downloaded' => 0, 'failed' => 0];
+$logoStat = ['dir' => false, 'skipped' => 0, 'downloaded' => 0, 'converted' => 0, 'failed' => 0, 'badfmt' => []];
 $logoDir = __DIR__ . '/oglogo';
 if (!is_dir($logoDir)) @mkdir($logoDir, 0755, true);
 if (is_dir($logoDir) && is_writable($logoDir)) {
@@ -171,7 +171,10 @@ if (is_dir($logoDir) && is_writable($logoDir)) {
         $id = strtoupper((string)($c['id'] ?? ''));
         if (!preg_match('/^[A-Z0-9_\-]{1,20}$/', $id)) continue;   // 경로 탈출 차단
         $f = $logoDir . '/' . $id . '.png';
-        if (is_file($f) && (time() - filemtime($f)) < 30 * 86400) { $logoStat['skipped']++; continue; }
+        // ?relogo=1 을 붙이면 30일 캐시를 무시하고 전부 다시 받는다.
+        // (로직을 고쳤을 때 옛날에 실패했던 것들을 재시도하기 위함)
+        $force = isset($_GET['relogo']);
+        if (!$force && is_file($f) && (time() - filemtime($f)) < 30 * 86400) { $logoStat['skipped']++; continue; }
         $need[$id] = true;
     }
     if ($need) {
@@ -202,11 +205,29 @@ if (is_dir($logoDir) && is_writable($logoDir)) {
                 curl_setopt_array($c2, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 20,
                                         CURLOPT_FOLLOWLOCATION => true, CURLOPT_USERAGENT => 'btctiming-og/1.0']);
                 $img = curl_exec($c2); $code = curl_getinfo($c2, CURLINFO_HTTP_CODE); curl_close($c2);
-                // PNG 시그니처 확인 후에만 저장
-                if ($img && $code === 200 && substr($img, 0, 8) === "\x89PNG\r\n\x1a\n" && strlen($img) < 2000000) {
+                // ★ 2026-07-16: CoinGecko 는 일부 코인을 JPEG 로 준다(실측: NEAR .jpg, PEPE .jpeg).
+                //   PNG 시그니처만 통과시켰더니 그것들이 전부 버려졌다(14 failed 중 8건).
+                //   og.php 는 /oglogo/{티커}.png 를 기대하므로, PNG 가 아니면 Imagick 으로 변환해 저장한다.
+                if (!$img || $code !== 200 || strlen($img) >= 2000000) { $logoStat['failed']++; continue; }
+                $isPng  = substr($img, 0, 8) === "\x89PNG\r\n\x1a\n";
+                $isJpg  = substr($img, 0, 3) === "\xff\xd8\xff";
+                $isGif  = substr($img, 0, 4) === 'GIF8';
+                $isWebp = substr($img, 0, 4) === 'RIFF' && substr($img, 8, 4) === 'WEBP';
+                if ($isPng) {
                     @file_put_contents($logoDir . '/' . $id . '.png', $img);
                     $logoStat['downloaded']++;
-                } else { $logoStat['failed']++; }
+                } elseif (($isJpg || $isGif || $isWebp) && extension_loaded('imagick')) {
+                    try {
+                        $cv = new Imagick();
+                        $cv->readImageBlob($img);
+                        $cv->setImageFormat('png');
+                        @file_put_contents($logoDir . '/' . $id . '.png', $cv->getImageBlob());
+                        $cv->clear();
+                        $logoStat['converted']++;
+                    } catch (Throwable $e) { $logoStat['failed']++; $logoStat['badfmt'][] = $id; }
+                } else {
+                    $logoStat['failed']++; $logoStat['badfmt'][] = $id;
+                }
             }
         }
     }
