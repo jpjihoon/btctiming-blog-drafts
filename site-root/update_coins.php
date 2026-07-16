@@ -150,8 +150,61 @@ if ($ok === false) {
     exit;
 }
 
+// ═══════════════════════════════════════════════════════════════
+// ★ 2026-07-16: 표지 OG 용 코인 로고 캐시
+//
+//   og.php 가 글의 표지 SVG 안 <image href="/oglogo/ETH.png"> 를 읽어
+//   Imagick 으로 합성한다. 그 PNG 를 여기서 미리 받아둔다.
+//   (이 파일은 이미 매일 크론으로 도니 크론을 새로 만들 필요가 없다)
+//
+//   - CoinGecko markets 1회 호출로 symbol→image 매핑을 받는다
+//   - 이미 있고 30일 안 지난 로고는 건너뛴다 (매일 50장씩 받지 않는다)
+//   - 실패해도 update_coins 본래 기능(coins-auto.json)에는 영향 없다
+// ═══════════════════════════════════════════════════════════════
+$logoStat = ['dir' => false, 'skipped' => 0, 'downloaded' => 0, 'failed' => 0];
+$logoDir = __DIR__ . '/oglogo';
+if (!is_dir($logoDir)) @mkdir($logoDir, 0755, true);
+if (is_dir($logoDir) && is_writable($logoDir)) {
+    $logoStat['dir'] = true;
+    $need = [];
+    foreach ($out as $c) {
+        $id = strtoupper((string)($c['id'] ?? ''));
+        if (!preg_match('/^[A-Z0-9_\-]{1,20}$/', $id)) continue;   // 경로 탈출 차단
+        $f = $logoDir . '/' . $id . '.png';
+        if (is_file($f) && (time() - filemtime($f)) < 30 * 86400) { $logoStat['skipped']++; continue; }
+        $need[$id] = true;
+    }
+    if ($need) {
+        $ch = curl_init('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1');
+        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 25,
+                                CURLOPT_USERAGENT => 'btctiming-og/1.0']);
+        $mk = curl_exec($ch); curl_close($ch);
+        $rows = $mk ? json_decode($mk, true) : null;
+        if (is_array($rows)) {
+            $map = [];
+            foreach ($rows as $r) {
+                $sy = strtoupper((string)($r['symbol'] ?? ''));
+                if ($sy !== '' && !isset($map[$sy]) && !empty($r['image'])) $map[$sy] = $r['image'];
+            }
+            foreach (array_keys($need) as $id) {
+                if (empty($map[$id])) { $logoStat['failed']++; continue; }
+                $c2 = curl_init($map[$id]);
+                curl_setopt_array($c2, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 20,
+                                        CURLOPT_FOLLOWLOCATION => true, CURLOPT_USERAGENT => 'btctiming-og/1.0']);
+                $img = curl_exec($c2); $code = curl_getinfo($c2, CURLINFO_HTTP_CODE); curl_close($c2);
+                // PNG 시그니처 확인 후에만 저장
+                if ($img && $code === 200 && substr($img, 0, 8) === "\x89PNG\r\n\x1a\n" && strlen($img) < 2000000) {
+                    @file_put_contents($logoDir . '/' . $id . '.png', $img);
+                    $logoStat['downloaded']++;
+                } else { $logoStat['failed']++; }
+            }
+        }
+    }
+}
+
 echo json_encode([
     'ok'      => true,
+    'logos'   => $logoStat,
     'count'   => count($out),
     'updated' => $payload['updated'],
     'sample'  => array_slice(array_column($out, 'id'), 0, 12),

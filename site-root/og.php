@@ -133,10 +133,33 @@ function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8
 //   나눈 경우 → 현재 언어 아닌 요소 제거. (C) 언어 구분 없는 공용 SVG → 그대로.
 // og.php는 Imagick으로 정적 렌더하므로 CSS display:none이 적용되지 않는다.
 // 따라서 현재 $lang이 아닌 요소를 문자열 단계에서 직접 골라내거나 제거해야 한다.
+// ═══════════════════════════════════════════════════════════════
+// ★ 2026-07-16 표지 SVG (F안) — 최우선
+//
+// 왜:
+//   SNS 는 카드 '아래'에 og:title / og:description / 도메인을 자동으로 붙인다.
+//   그래서 이미지 안에 제목을 또 그리면 같은 글이 두 번 노출되고, 630px 을 중복 정보로 낭비한다.
+//   또 1200×630 은 SNS 에서 30~42% 로 줄어든다(트위터 42/페북 39/카톡 35/슬랙 30).
+//   24px 글자 → 8~10px = 못 읽음. 차트 라벨 12px → 4~5px = 무의미.
+//   → 이미지는 '시각물'만 담당하고, 글자는 SNS 가 붙이는 걸 쓴다.
+//
+// 표지 규칙:
+//   글 본문에 <div class="og-cover"><svg viewBox="0 0 1200 630">…</svg></div> 를 두면 그걸 쓴다.
+//   ★ 표지에는 '단어'를 쓰지 않는다. 숫자·기호·티커(BTC, ETH, %, ↑, 0.0283)만 쓴다.
+//     그래서 9개 언어 변형이 필요 없다. 한 벌이면 전 언어 공용이다.
+//     덤으로 터키어 ğşı 가 깨지던 문제(서버 MSVG 가 폰트를 무시)도 표지엔 해당 없음.
+//
+// 없으면 기존 차트 → 텍스트 카드 순으로 폴백한다. 옛 글 1,061편은 동작이 안 바뀐다.
+// ═══════════════════════════════════════════════════════════════
+$coverSvg = null;
 $chartSvg = null; $chartW = 0; $chartH = 0;
 if ($bodyMtime > 0) {
     $body = file_get_contents($bodyFile);
     if ($body !== false) {
+        // 표지가 있으면 그걸 최우선으로 (언어 무관 — 글자가 없으므로)
+        if (preg_match('/<div\b[^>]*\bclass="[^"]*\bog-cover\b[^"]*"[^>]*>\s*(<svg\b[^>]*>.*?<\/svg>)/is', $body, $__cm)) {
+            $coverSvg = $__cm[1];
+        }
         $raw = og_pick_svg_for_lang($body, $lang);
         if ($raw !== null) {
             // viewBox에서 원본 크기
@@ -235,7 +258,53 @@ function og_strip_other_langs(string $svg, string $lang): string {
 }
 
 // ── OG SVG 구성 ──
-if ($chartSvg !== null) {
+if ($coverSvg !== null) {
+    // [표지형 OG] 글이 직접 만든 1200×630 표지를 그대로 쓴다.
+    // og.php 는 카테고리색 상단바 + 작은 로고만 얹는다(브랜드 일관성).
+    // 표지는 우하단 260×64(로고)와 상단 8px(카테고리 바)를 비워둬야 한다.
+    //
+    // ★ 코인 로고: 표지 안의 <image href="/oglogo/ETH.png" x y width height> 를
+    //   여기서 '떼어내고', SVG→PNG 렌더 뒤에 Imagick 으로 그 좌표에 합성한다.
+    //   왜 이렇게 하나:
+    //     - 브라우저(본문)는 <image> 를 그대로 렌더한다 → 글 안에서도 로고가 보인다
+    //     - 서버 MSVG 는 <image> 지원이 불확실하다 → 떼어내고 Imagick 코어로 합성
+    //   즉 표지 소스는 한 벌인데 본문과 OG 가 각자 방식으로 그린다.
+    $OG_CAT_COLOR = [
+        'patch' => '#f97316', 'weekly' => '#22c55e', 'news' => '#38bdf8',
+        'coinnews' => '#06b6d4', 'column' => '#a78bfa', 'guide' => '#f7931a',
+    ];
+    $accent = $OG_CAT_COLOR[$meta['category'] ?? ''] ?? '#f7931a';
+    $inner = preg_replace('/^<svg\b[^>]*>/i', '', $coverSvg);
+    $inner = preg_replace('/<\/svg>$/i', '', $inner);
+
+    // <image> 수집 후 SVG 에서 제거
+    $ogImgs = [];
+    if (preg_match_all('/<image\b[^>]*>/i', $inner, $ims)) {
+        foreach ($ims[0] as $tag) {
+            $href = ''; $ix = $iy = $iw = $ih = 0;
+            if (preg_match('/(?:xlink:href|href)\s*=\s*"([^"]+)"/i', $tag, $m1)) $href = $m1[1];
+            if (preg_match('/\bx\s*=\s*"([\d.\-]+)"/i', $tag, $m2)) $ix = (float)$m2[1];
+            if (preg_match('/\by\s*=\s*"([\d.\-]+)"/i', $tag, $m3)) $iy = (float)$m3[1];
+            if (preg_match('/\bwidth\s*=\s*"([\d.]+)"/i', $tag, $m4)) $iw = (float)$m4[1];
+            if (preg_match('/\bheight\s*=\s*"([\d.]+)"/i', $tag, $m5)) $ih = (float)$m5[1];
+            // 경로 검증: /oglogo/{영숫자}.png 만 허용 (경로 탈출 차단)
+            if (preg_match('#^/oglogo/([A-Za-z0-9_\-]{1,20})\.png$#', $href, $m6) && $iw > 0 && $ih > 0) {
+                $f = __DIR__ . '/oglogo/' . $m6[1] . '.png';
+                if (is_readable($f)) $ogImgs[] = ['f' => $f, 'x' => (int)round($ix), 'y' => (int)round($iy),
+                                                 'w' => (int)round($iw), 'h' => (int)round($ih)];
+            }
+        }
+        $inner = preg_replace('/<image\b[^>]*>/i', '', $inner);
+    }
+    $svg = '<?xml version="1.0" encoding="UTF-8"?>'
+    . '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">'
+    . '<rect width="1200" height="630" fill="#0d0d0f"/>'
+    . $inner
+    . '<rect x="0" y="0" width="1200" height="8" fill="' . $accent . '"/>'
+    . '<text x="1150" y="596" fill="#6b6b75" font-size="24" font-weight="bold" text-anchor="end">'
+    .   'BTC<tspan fill="#fbbf24">timing</tspan></text>'
+    . '</svg>';
+} elseif ($chartSvg !== null) {
     // [차트형 OG — C안] 차트를 위쪽 대부분에 크게, 하단 바에 로고 + 제목 한 줄
     // 하단 바 높이 82px. 차트 배치 영역은 상단바(6) 아래 ~ 하단바 위.
     $barY = 548; $barH = 82;
@@ -283,6 +352,9 @@ if ($chartSvg !== null) {
     . '</svg>';
 }
 
+// 표지 외 경로에서는 합성할 로고가 없다
+if (!isset($ogImgs)) $ogImgs = [];
+
 // ── 렌더: Imagick 우선 ──
 $pngData = null;
 if (extension_loaded('imagick')) {
@@ -290,6 +362,17 @@ if (extension_loaded('imagick')) {
         $im = new Imagick();
         $im->setBackgroundColor(new ImagickPixel('transparent'));
         $im->readImageBlob($svg);
+        // ★ 코인 로고 합성 — Imagick 코어 기능(readImage/compositeImage). MSVG 를 안 거친다.
+        foreach ($ogImgs as $g) {
+            try {
+                $lg = new Imagick();
+                $lg->readImage($g['f']);
+                $lg->setImageFormat('png');
+                $lg->resizeImage($g['w'], $g['h'], Imagick::FILTER_LANCZOS, 1);
+                $im->compositeImage($lg, Imagick::COMPOSITE_OVER, $g['x'], $g['y']);
+                $lg->clear();
+            } catch (Throwable $e) { /* 로고 하나 실패해도 OG 는 나가야 한다 */ }
+        }
         $im->setImageFormat('png');
         $pngData = $im->getImageBlob();
         $im->clear();
