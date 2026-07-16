@@ -175,19 +175,29 @@ if (is_dir($logoDir) && is_writable($logoDir)) {
         $need[$id] = true;
     }
     if ($need) {
-        $ch = curl_init('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1');
-        curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 25,
-                                CURLOPT_USERAGENT => 'btctiming-og/1.0']);
-        $mk = curl_exec($ch); curl_close($ch);
-        $rows = $mk ? json_decode($mk, true) : null;
-        if (is_array($rows)) {
-            $map = [];
+        // ★ 2026-07-16: 1페이지(상위 250위)만 보면 27/50 밖에 못 잡았다(실측).
+        //   우리 코인 목록은 '바이낸스 거래량' 기준이라 시총 상위와 다르다.
+        //   실측: 상위250 → 32/50, 상위500 → 38/50, 상위750 → 40/50.
+        //   3페이지까지 본다. 나머지 10개(OPN/TREE/ZBT/UTK/TOWNS/SKHYB/PORTO/SXT/TON/VANRY)는
+        //   시총 750위 밖이라 못 찾는다 — 그런 코인으로 글을 쓸 일이 없으므로 로고 없이 간다.
+        $map = [];
+        for ($pg = 1; $pg <= 3; $pg++) {
+            $ch = curl_init('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=' . $pg);
+            curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 25,
+                                    CURLOPT_USERAGENT => 'btctiming-og/1.0']);
+            $mk = curl_exec($ch); curl_close($ch);
+            $rows = $mk ? json_decode($mk, true) : null;
+            if (!is_array($rows)) break;
             foreach ($rows as $r) {
                 $sy = strtoupper((string)($r['symbol'] ?? ''));
                 if ($sy !== '' && !isset($map[$sy]) && !empty($r['image'])) $map[$sy] = $r['image'];
             }
+            if ($pg < 3) sleep(2);   // CoinGecko 무료 레이트리밋 배려
+        }
+        if ($map) {
+            $logoStat['notfound'] = [];
             foreach (array_keys($need) as $id) {
-                if (empty($map[$id])) { $logoStat['failed']++; continue; }
+                if (empty($map[$id])) { $logoStat['failed']++; $logoStat['notfound'][] = $id; continue; }
                 $c2 = curl_init($map[$id]);
                 curl_setopt_array($c2, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 20,
                                         CURLOPT_FOLLOWLOCATION => true, CURLOPT_USERAGENT => 'btctiming-og/1.0']);
