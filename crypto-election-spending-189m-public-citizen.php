@@ -333,57 +333,57 @@
 
   <p class="ko" style="margin-top:28px">관련해 함께 읽어볼 만한 글:</p>
   <ul class="ko">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">SEC의 '레귤레이션 크립토' 토큰 세이프하버</a>:</strong> 정치자금이 겨냥하는 규제 입법의 실제 내용</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC 2026 어젠다와 레귤레이션 크립토</a>:</strong> 규제 지형이 어디로 향하는지에 대한 배경</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">지니어스법 스테이블코인 시한</a>:</strong> 이미 통과된 연방 규율이 남긴 후속 일정</li>
+    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor">SEC의 '레귤레이션 크립토' 토큰 세이프하버</a>:</strong> 정치자금이 겨냥하는 규제 입법의 실제 내용</li>
+    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC 2026 어젠다와 레귤레이션 크립토</a>:</strong> 규제 지형이 어디로 향하는지에 대한 배경</li>
+    <li><strong><a href="/blog/genius-act-stablecoin-deadline">지니어스법 스테이블코인 시한</a>:</strong> 이미 통과된 연방 규율이 남긴 후속 일정</li>
   </ul>
   <p class="en" style="margin-top:28px">Related reading:</p>
   <ul class="en">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">The SEC's 'Regulation Crypto' token safe harbor</a>:</strong> The actual substance of the regulatory legislation this political money targets</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">The SEC's 2026 agenda and Regulation Crypto</a>:</strong> Background on where the regulatory landscape is heading</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">The GENIUS Act stablecoin deadline</a>:</strong> The follow-on timetable left by the federal framework already passed</li>
+    <li><strong><a href="/en/blog/sec-regulation-crypto-token-safe-harbor">The SEC's 'Regulation Crypto' token safe harbor</a>:</strong> The actual substance of the regulatory legislation this political money targets</li>
+    <li><strong><a href="/en/blog/sec-2026-agenda-reg-crypto-safe-harbor">The SEC's 2026 agenda and Regulation Crypto</a>:</strong> Background on where the regulatory landscape is heading</li>
+    <li><strong><a href="/en/blog/genius-act-stablecoin-deadline">The GENIUS Act stablecoin deadline</a>:</strong> The follow-on timetable left by the federal framework already passed</li>
   </ul>
   <p class="ja" style="margin-top:28px">関連して読むと良い記事:</p>
   <ul class="ja">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">SECの「レギュレーション・クリプト」トークンセーフハーバー</a>:</strong> 政治資金が狙う規制立法の実際の中身</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC2026アジェンダとレギュレーション・クリプト</a>:</strong> 規制地形がどこへ向かうかの背景</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">ジーニアス法ステーブルコインの期限</a>:</strong> すでに成立した連邦規律が残した後続の日程</li>
+    <li><strong><a href="/ja/blog/sec-regulation-crypto-token-safe-harbor">SECの「レギュレーション・クリプト」トークンセーフハーバー</a>:</strong> 政治資金が狙う規制立法の実際の中身</li>
+    <li><strong><a href="/ja/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC2026アジェンダとレギュレーション・クリプト</a>:</strong> 規制地形がどこへ向かうかの背景</li>
+    <li><strong><a href="/ja/blog/genius-act-stablecoin-deadline">ジーニアス法ステーブルコインの期限</a>:</strong> すでに成立した連邦規律が残した後続の日程</li>
   </ul>
   <p class="es" style="margin-top:28px">Lecturas relacionadas:</p>
   <ul class="es">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">El puerto seguro de tokens 'Regulation Crypto' de la SEC</a>:</strong> El contenido real de la legislación regulatoria a la que apunta este dinero político</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">La agenda 2026 de la SEC y Regulation Crypto</a>:</strong> Contexto sobre hacia dónde se dirige el panorama regulatorio</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">El plazo de stablecoins de la Ley GENIUS</a>:</strong> El calendario posterior que dejó el marco federal ya aprobado</li>
+    <li><strong><a href="/es/blog/sec-regulation-crypto-token-safe-harbor">El puerto seguro de tokens 'Regulation Crypto' de la SEC</a>:</strong> El contenido real de la legislación regulatoria a la que apunta este dinero político</li>
+    <li><strong><a href="/es/blog/sec-2026-agenda-reg-crypto-safe-harbor">La agenda 2026 de la SEC y Regulation Crypto</a>:</strong> Contexto sobre hacia dónde se dirige el panorama regulatorio</li>
+    <li><strong><a href="/es/blog/genius-act-stablecoin-deadline">El plazo de stablecoins de la Ley GENIUS</a>:</strong> El calendario posterior que dejó el marco federal ya aprobado</li>
   </ul>
   <p class="de" style="margin-top:28px">Verwandte Lektüre:</p>
   <ul class="de">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">Der 'Regulation Crypto'-Token-Safe-Harbor der SEC</a>:</strong> Der tatsächliche Inhalt der Regulierungsgesetzgebung, auf die dieses Politikgeld zielt</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">Die 2026-Agenda der SEC und Regulation Crypto</a>:</strong> Hintergrund dazu, wohin sich die Regulierungslandschaft bewegt</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">Die Stablecoin-Frist des GENIUS Act</a>:</strong> Der Folgezeitplan, den der bereits verabschiedete Bundesrahmen hinterließ</li>
+    <li><strong><a href="/de/blog/sec-regulation-crypto-token-safe-harbor">Der 'Regulation Crypto'-Token-Safe-Harbor der SEC</a>:</strong> Der tatsächliche Inhalt der Regulierungsgesetzgebung, auf die dieses Politikgeld zielt</li>
+    <li><strong><a href="/de/blog/sec-2026-agenda-reg-crypto-safe-harbor">Die 2026-Agenda der SEC und Regulation Crypto</a>:</strong> Hintergrund dazu, wohin sich die Regulierungslandschaft bewegt</li>
+    <li><strong><a href="/de/blog/genius-act-stablecoin-deadline">Die Stablecoin-Frist des GENIUS Act</a>:</strong> Der Folgezeitplan, den der bereits verabschiedete Bundesrahmen hinterließ</li>
   </ul>
   <p class="fr" style="margin-top:28px">À lire également :</p>
   <ul class="fr">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">Le « safe harbor » de jetons 'Regulation Crypto' de la SEC</a>:</strong> Le contenu réel de la législation réglementaire visée par cet argent politique</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">L'agenda 2026 de la SEC et Regulation Crypto</a>:</strong> Le contexte de l'orientation du paysage réglementaire</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">L'échéance stablecoin de la loi GENIUS</a>:</strong> Le calendrier de suivi laissé par le cadre fédéral déjà adopté</li>
+    <li><strong><a href="/fr/blog/sec-regulation-crypto-token-safe-harbor">Le « safe harbor » de jetons 'Regulation Crypto' de la SEC</a>:</strong> Le contenu réel de la législation réglementaire visée par cet argent politique</li>
+    <li><strong><a href="/fr/blog/sec-2026-agenda-reg-crypto-safe-harbor">L'agenda 2026 de la SEC et Regulation Crypto</a>:</strong> Le contexte de l'orientation du paysage réglementaire</li>
+    <li><strong><a href="/fr/blog/genius-act-stablecoin-deadline">L'échéance stablecoin de la loi GENIUS</a>:</strong> Le calendrier de suivi laissé par le cadre fédéral déjà adopté</li>
   </ul>
   <p class="pt" style="margin-top:28px">Leitura relacionada:</p>
   <ul class="pt">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">O 'safe harbor' de tokens 'Regulation Crypto' da SEC</a>:</strong> O conteúdo real da legislação regulatória visada por esse dinheiro político</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">A agenda 2026 da SEC e a Regulation Crypto</a>:</strong> Contexto sobre para onde caminha o cenário regulatório</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">O prazo de stablecoins da Lei GENIUS</a>:</strong> O cronograma seguinte deixado pelo marco federal já aprovado</li>
+    <li><strong><a href="/pt/blog/sec-regulation-crypto-token-safe-harbor">O 'safe harbor' de tokens 'Regulation Crypto' da SEC</a>:</strong> O conteúdo real da legislação regulatória visada por esse dinheiro político</li>
+    <li><strong><a href="/pt/blog/sec-2026-agenda-reg-crypto-safe-harbor">A agenda 2026 da SEC e a Regulation Crypto</a>:</strong> Contexto sobre para onde caminha o cenário regulatório</li>
+    <li><strong><a href="/pt/blog/genius-act-stablecoin-deadline">O prazo de stablecoins da Lei GENIUS</a>:</strong> O cronograma seguinte deixado pelo marco federal já aprovado</li>
   </ul>
   <p class="tr" style="margin-top:28px">İlgili okuma:</p>
   <ul class="tr">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">SEC'in 'Regulation Crypto' token güvenli limanı</a>:</strong> Bu siyasi paranın hedeflediği düzenleme yasasının gerçek içeriği</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC'in 2026 gündemi ve Regulation Crypto</a>:</strong> Düzenleyici manzaranın nereye gittiğine dair arka plan</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">GENIUS Yasası stabilcoin son tarihi</a>:</strong> Halihazırda kabul edilen federal çerçevenin bıraktığı takip takvimi</li>
+    <li><strong><a href="/tr/blog/sec-regulation-crypto-token-safe-harbor">SEC'in 'Regulation Crypto' token güvenli limanı</a>:</strong> Bu siyasi paranın hedeflediği düzenleme yasasının gerçek içeriği</li>
+    <li><strong><a href="/tr/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC'in 2026 gündemi ve Regulation Crypto</a>:</strong> Düzenleyici manzaranın nereye gittiğine dair arka plan</li>
+    <li><strong><a href="/tr/blog/genius-act-stablecoin-deadline">GENIUS Yasası stabilcoin son tarihi</a>:</strong> Halihazırda kabul edilen federal çerçevenin bıraktığı takip takvimi</li>
   </ul>
   <p class="vi" style="margin-top:28px">Bài liên quan nên đọc:</p>
   <ul class="vi">
-    <li><strong><a href="/blog/sec-regulation-crypto-token-safe-harbor.php">'Bến an toàn' token 'Regulation Crypto' của SEC</a>:</strong> Nội dung thực chất của đạo luật quản lý mà đồng tiền chính trị này nhắm tới</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">Nghị trình 2026 của SEC và Regulation Crypto</a>:</strong> Bối cảnh về hướng đi của cảnh quan quản lý</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">Thời hạn stablecoin của Đạo luật GENIUS</a>:</strong> Lịch trình tiếp theo mà khuôn khổ liên bang đã thông qua để lại</li>
+    <li><strong><a href="/vi/blog/sec-regulation-crypto-token-safe-harbor">'Bến an toàn' token 'Regulation Crypto' của SEC</a>:</strong> Nội dung thực chất của đạo luật quản lý mà đồng tiền chính trị này nhắm tới</li>
+    <li><strong><a href="/vi/blog/sec-2026-agenda-reg-crypto-safe-harbor">Nghị trình 2026 của SEC và Regulation Crypto</a>:</strong> Bối cảnh về hướng đi của cảnh quan quản lý</li>
+    <li><strong><a href="/vi/blog/genius-act-stablecoin-deadline">Thời hạn stablecoin của Đạo luật GENIUS</a>:</strong> Lịch trình tiếp theo mà khuôn khổ liên bang đã thông qua để lại</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더 블록(The Block, 2026년 7월 8일 보도), 벤징가(Benzinga), 감시단체 퍼블릭 시티즌(Public Citizen) 집계. 지출액·기부처 수치는 이들 보도 기준. 2024년 주기 비교(페어셰이크 약 1억 3,300만 달러 지출·2억 6,000만 달러 모금)와 2026년 실탄 규모는 오픈시크릿(OpenSecrets)·CNBC·블룸버그·디크립트 등 보도 기준의 근사치. 본 글은 특정 정당·후보에 대한 지지나 투자 조언이 아니다.</p>

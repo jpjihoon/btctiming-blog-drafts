@@ -290,49 +290,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">스테이블코인 거래량 사상 최대와 USDC의 USDT 역전</a>:</strong> 같은 6월 데이터를 발행사(USDC 대 USDT) 관점에서 본 글</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">이더리움 L2 토큰 최저치와 수수료 수익 재편</a>:</strong> 레이어2 시대 가치 포착 문제의 배경</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">아비트럼 스테이블코인 이탈과 하이퍼EVM 유동성</a>:</strong> 체인 간 스테이블코인 자금 이동의 또 다른 사례</li>
+    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip">스테이블코인 거래량 사상 최대와 USDC의 USDT 역전</a>:</strong> 같은 6월 데이터를 발행사(USDC 대 USDT) 관점에서 본 글</li>
+    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">이더리움 L2 토큰 최저치와 수수료 수익 재편</a>:</strong> 레이어2 시대 가치 포착 문제의 배경</li>
+    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">아비트럼 스테이블코인 이탈과 하이퍼EVM 유동성</a>:</strong> 체인 간 스테이블코인 자금 이동의 또 다른 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Record stablecoin volume and USDC's flip over USDT</a>:</strong> The same June data seen from the issuer side (USDC vs USDT)</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Ethereum L2 tokens at record lows and the fee-revenue shakeout</a>:</strong> The backdrop to the Layer-2-era value-capture problem</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Arbitrum's stablecoin exodus and HyperEVM liquidity</a>:</strong> Another case of stablecoin capital moving between chains</li>
+    <li><strong><a href="/en/blog/stablecoin-volume-record-usdc-flip">Record stablecoin volume and USDC's flip over USDT</a>:</strong> The same June data seen from the issuer side (USDC vs USDT)</li>
+    <li><strong><a href="/en/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Ethereum L2 tokens at record lows and the fee-revenue shakeout</a>:</strong> The backdrop to the Layer-2-era value-capture problem</li>
+    <li><strong><a href="/en/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Arbitrum's stablecoin exodus and HyperEVM liquidity</a>:</strong> Another case of stablecoin capital moving between chains</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">ステーブルコイン取引高過去最高とUSDCのUSDT逆転</a>:</strong> 同じ6月データを発行元(USDC対USDT)の観点で見た記事</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">イーサリアムL2トークン最安値と手数料収益の再編</a>:</strong> レイヤー2時代の価値捕捉問題の背景</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">アービトラムのステーブルコイン流出とハイパーEVM流動性</a>:</strong> チェーン間のステーブルコイン資金移動のもう一つの事例</li>
+    <li><strong><a href="/ja/blog/stablecoin-volume-record-usdc-flip">ステーブルコイン取引高過去最高とUSDCのUSDT逆転</a>:</strong> 同じ6月データを発行元(USDC対USDT)の観点で見た記事</li>
+    <li><strong><a href="/ja/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">イーサリアムL2トークン最安値と手数料収益の再編</a>:</strong> レイヤー2時代の価値捕捉問題の背景</li>
+    <li><strong><a href="/ja/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">アービトラムのステーブルコイン流出とハイパーEVM流動性</a>:</strong> チェーン間のステーブルコイン資金移動のもう一つの事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Volumen récord de stablecoins y el sorpasso de USDC sobre USDT</a>:</strong> Los mismos datos de junio vistos desde el emisor (USDC vs USDT)</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Tokens L2 de Ethereum en mínimos y la reconfiguración de ingresos por comisiones</a>:</strong> El trasfondo del problema de captura de valor en la era Layer-2</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">El éxodo de stablecoins de Arbitrum y la liquidez de HyperEVM</a>:</strong> Otro caso de capital en stablecoins moviéndose entre cadenas</li>
+    <li><strong><a href="/es/blog/stablecoin-volume-record-usdc-flip">Volumen récord de stablecoins y el sorpasso de USDC sobre USDT</a>:</strong> Los mismos datos de junio vistos desde el emisor (USDC vs USDT)</li>
+    <li><strong><a href="/es/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Tokens L2 de Ethereum en mínimos y la reconfiguración de ingresos por comisiones</a>:</strong> El trasfondo del problema de captura de valor en la era Layer-2</li>
+    <li><strong><a href="/es/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">El éxodo de stablecoins de Arbitrum y la liquidez de HyperEVM</a>:</strong> Otro caso de capital en stablecoins moviéndose entre cadenas</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Rekord-Stablecoin-Volumen und USDCs Überholen von USDT</a>:</strong> Dieselben Juni-Daten aus Sicht des Emittenten (USDC vs USDT)</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Ethereum-L2-Token auf Rekordtiefs und die Gebührenerlös-Neuordnung</a>:</strong> Der Hintergrund des Wertabschöpfungsproblems der Layer-2-Ära</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Arbitrums Stablecoin-Exodus und HyperEVM-Liquidität</a>:</strong> Ein weiterer Fall von Stablecoin-Kapital, das zwischen Chains wandert</li>
+    <li><strong><a href="/de/blog/stablecoin-volume-record-usdc-flip">Rekord-Stablecoin-Volumen und USDCs Überholen von USDT</a>:</strong> Dieselben Juni-Daten aus Sicht des Emittenten (USDC vs USDT)</li>
+    <li><strong><a href="/de/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Ethereum-L2-Token auf Rekordtiefs und die Gebührenerlös-Neuordnung</a>:</strong> Der Hintergrund des Wertabschöpfungsproblems der Layer-2-Ära</li>
+    <li><strong><a href="/de/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Arbitrums Stablecoin-Exodus und HyperEVM-Liquidität</a>:</strong> Ein weiterer Fall von Stablecoin-Kapital, das zwischen Chains wandert</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Volume record de stablecoins et le dépassement de l'USDT par l'USDC</a>:</strong> Les mêmes données de juin vues du côté émetteur (USDC vs USDT)</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Les tokens L2 d'Ethereum au plus bas et la refonte des revenus de frais</a>:</strong> Le contexte du problème de captation de valeur de l'ère Layer-2</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">L'exode des stablecoins d'Arbitrum et la liquidité d'HyperEVM</a>:</strong> Un autre cas de capital en stablecoins circulant entre chaînes</li>
+    <li><strong><a href="/fr/blog/stablecoin-volume-record-usdc-flip">Volume record de stablecoins et le dépassement de l'USDT par l'USDC</a>:</strong> Les mêmes données de juin vues du côté émetteur (USDC vs USDT)</li>
+    <li><strong><a href="/fr/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Les tokens L2 d'Ethereum au plus bas et la refonte des revenus de frais</a>:</strong> Le contexte du problème de captation de valeur de l'ère Layer-2</li>
+    <li><strong><a href="/fr/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">L'exode des stablecoins d'Arbitrum et la liquidité d'HyperEVM</a>:</strong> Un autre cas de capital en stablecoins circulant entre chaînes</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Volume recorde de stablecoins e a virada do USDC sobre o USDT</a>:</strong> Os mesmos dados de junho vistos do lado do emissor (USDC vs USDT)</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Tokens L2 da Ethereum em mínimas e a reconfiguração da receita de taxas</a>:</strong> O pano de fundo do problema de captura de valor da era Layer-2</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">O êxodo de stablecoins da Arbitrum e a liquidez da HyperEVM</a>:</strong> Outro caso de capital em stablecoins migrando entre cadeias</li>
+    <li><strong><a href="/pt/blog/stablecoin-volume-record-usdc-flip">Volume recorde de stablecoins e a virada do USDC sobre o USDT</a>:</strong> Os mesmos dados de junho vistos do lado do emissor (USDC vs USDT)</li>
+    <li><strong><a href="/pt/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Tokens L2 da Ethereum em mínimas e a reconfiguração da receita de taxas</a>:</strong> O pano de fundo do problema de captura de valor da era Layer-2</li>
+    <li><strong><a href="/pt/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">O êxodo de stablecoins da Arbitrum e a liquidez da HyperEVM</a>:</strong> Outro caso de capital em stablecoins migrando entre cadeias</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Rekor stablecoin hacmi ve USDC'nin USDT'yi geçmesi</a>:</strong> Aynı haziran verileri ihraççı (USDC'ye karşı USDT) açısından</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Ethereum L2 tokenleri rekor düşükte ve ücret geliri yeniden şekillenmesi</a>:</strong> Layer-2 çağı değer yakalama sorununun arka planı</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Arbitrum'un stablecoin çıkışı ve HyperEVM likiditesi</a>:</strong> Stablecoin sermayesinin zincirler arası hareketine bir başka örnek</li>
+    <li><strong><a href="/tr/blog/stablecoin-volume-record-usdc-flip">Rekor stablecoin hacmi ve USDC'nin USDT'yi geçmesi</a>:</strong> Aynı haziran verileri ihraççı (USDC'ye karşı USDT) açısından</li>
+    <li><strong><a href="/tr/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Ethereum L2 tokenleri rekor düşükte ve ücret geliri yeniden şekillenmesi</a>:</strong> Layer-2 çağı değer yakalama sorununun arka planı</li>
+    <li><strong><a href="/tr/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Arbitrum'un stablecoin çıkışı ve HyperEVM likiditesi</a>:</strong> Stablecoin sermayesinin zincirler arası hareketine bir başka örnek</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Khối lượng stablecoin kỷ lục và cú lật USDC vượt USDT</a>:</strong> Cùng dữ liệu tháng 6 nhìn từ phía tổ chức phát hành (USDC vs USDT)</li>
-    <li><strong><a href="/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout.php">Token L2 của Ethereum ở mức thấp kỷ lục và sự tái cấu trúc doanh thu phí</a>:</strong> Bối cảnh của vấn đề thu giá trị thời đại Layer-2</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Dòng stablecoin rời Arbitrum và thanh khoản HyperEVM</a>:</strong> Một trường hợp khác của vốn stablecoin di chuyển giữa các chuỗi</li>
+    <li><strong><a href="/vi/blog/stablecoin-volume-record-usdc-flip">Khối lượng stablecoin kỷ lục và cú lật USDC vượt USDT</a>:</strong> Cùng dữ liệu tháng 6 nhìn từ phía tổ chức phát hành (USDC vs USDT)</li>
+    <li><strong><a href="/vi/blog/ethereum-l2-token-record-lows-fee-revenue-shakeout">Token L2 của Ethereum ở mức thấp kỷ lục và sự tái cấu trúc doanh thu phí</a>:</strong> Bối cảnh của vấn đề thu giá trị thời đại Layer-2</li>
+    <li><strong><a href="/vi/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Dòng stablecoin rời Arbitrum và thanh khoản HyperEVM</a>:</strong> Một trường hợp khác của vốn stablecoin di chuyển giữa các chuỗi</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 비자 온체인 애널리틱스(6월 조정 스테이블코인 결제량, 베이스 약 5,650억 달러·이더리움 약 5,620억 달러, 전체 1조 7,900억 달러), 크립토슬레이트(베이스의 이더리움 결제층 추월 분석), 크립토뉴스(관련 보도), 파이낸스피즈·솔라나컴퍼스(비자 6월 총 결제량·USDC 67%), 블랙록(이더리움 결제 표준 진단), EIP-4844/덴쿤 업그레이드 자료. 수치는 조정 방식·집계 시점에 따라 변동할 수 있으며, 본 글은 투자 조언이 아니다.</p>

@@ -466,49 +466,49 @@
   <h2 class="tr">Birlikte Okunması Önerilir</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCC의 스텔라 기반 토큰화 전략</a>:</strong> 이번 파일럿이 올라탈 다중 체인 인프라의 첫 공개 블록체인</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">토큰화 주식은 진짜 주식이 아니다</a>:</strong> 합성·래핑형 모델과 DTC 커스터디 모델의 결정적 차이를 짚은 글</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">IMF의 토큰화 시스템 리스크 경고</a>:</strong> 즉시 정산이 새로운 형태의 시스템 리스크를 낳을 수 있다는 반론</li>
+    <li><strong><a href="/blog/dtcc-stellar-tokenization">DTCC의 스텔라 기반 토큰화 전략</a>:</strong> 이번 파일럿이 올라탈 다중 체인 인프라의 첫 공개 블록체인</li>
+    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks">토큰화 주식은 진짜 주식이 아니다</a>:</strong> 합성·래핑형 모델과 DTC 커스터디 모델의 결정적 차이를 짚은 글</li>
+    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning">IMF의 토큰화 시스템 리스크 경고</a>:</strong> 즉시 정산이 새로운 형태의 시스템 리스크를 낳을 수 있다는 반론</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCC's Stellar-Based Tokenization Strategy</a>:</strong> The first public blockchain of the multi-chain infrastructure this pilot rides on</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenized Stocks Are Not Real Stocks</a>:</strong> A piece drawing the decisive line between synthetic/wrapped models and the DTC-custody model</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">The IMF's Tokenization Systemic-Risk Warning</a>:</strong> The counterargument that instant settlement could breed new forms of systemic risk</li>
+    <li><strong><a href="/en/blog/dtcc-stellar-tokenization">DTCC's Stellar-Based Tokenization Strategy</a>:</strong> The first public blockchain of the multi-chain infrastructure this pilot rides on</li>
+    <li><strong><a href="/en/blog/tokenized-stocks-not-real-stocks">Tokenized Stocks Are Not Real Stocks</a>:</strong> A piece drawing the decisive line between synthetic/wrapped models and the DTC-custody model</li>
+    <li><strong><a href="/en/blog/imf-tokenization-systemic-risk-warning">The IMF's Tokenization Systemic-Risk Warning</a>:</strong> The counterargument that instant settlement could breed new forms of systemic risk</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCCのステラ基盤トークン化戦略</a>:</strong> 今回のパイロットが乗る多チェーンインフラの最初の公開ブロックチェーン</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">トークン化株式は本物の株式ではない</a>:</strong> 合成・ラップ型モデルとDTCカストディモデルの決定的な違いを指摘した記事</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">IMFのトークン化システミックリスク警告</a>:</strong> 即時決済が新たな形のシステミックリスクを生みうるという反論</li>
+    <li><strong><a href="/ja/blog/dtcc-stellar-tokenization">DTCCのステラ基盤トークン化戦略</a>:</strong> 今回のパイロットが乗る多チェーンインフラの最初の公開ブロックチェーン</li>
+    <li><strong><a href="/ja/blog/tokenized-stocks-not-real-stocks">トークン化株式は本物の株式ではない</a>:</strong> 合成・ラップ型モデルとDTCカストディモデルの決定的な違いを指摘した記事</li>
+    <li><strong><a href="/ja/blog/imf-tokenization-systemic-risk-warning">IMFのトークン化システミックリスク警告</a>:</strong> 即時決済が新たな形のシステミックリスクを生みうるという反論</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">La Estrategia de Tokenización de DTCC Basada en Stellar</a>:</strong> La primera blockchain pública de la infraestructura multicadena sobre la que corre este piloto</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Las Acciones Tokenizadas No Son Acciones Reales</a>:</strong> Un texto que traza la línea decisiva entre los modelos sintéticos/envueltos y el modelo de custodia DTC</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">La Advertencia del FMI sobre el Riesgo Sistémico de la Tokenización</a>:</strong> El contraargumento de que la liquidación instantánea podría generar nuevas formas de riesgo sistémico</li>
+    <li><strong><a href="/es/blog/dtcc-stellar-tokenization">La Estrategia de Tokenización de DTCC Basada en Stellar</a>:</strong> La primera blockchain pública de la infraestructura multicadena sobre la que corre este piloto</li>
+    <li><strong><a href="/es/blog/tokenized-stocks-not-real-stocks">Las Acciones Tokenizadas No Son Acciones Reales</a>:</strong> Un texto que traza la línea decisiva entre los modelos sintéticos/envueltos y el modelo de custodia DTC</li>
+    <li><strong><a href="/es/blog/imf-tokenization-systemic-risk-warning">La Advertencia del FMI sobre el Riesgo Sistémico de la Tokenización</a>:</strong> El contraargumento de que la liquidación instantánea podría generar nuevas formas de riesgo sistémico</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCCs Stellar-basierte Tokenisierungsstrategie</a>:</strong> Die erste öffentliche Blockchain der Multi-Chain-Infrastruktur, auf der dieser Pilot aufsetzt</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenisierte Aktien Sind Keine Echten Aktien</a>:</strong> Ein Beitrag, der die entscheidende Grenze zwischen synthetischen/gewrappten Modellen und dem DTC-Verwahrmodell zieht</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">Die Warnung des IWF vor Systemrisiko durch Tokenisierung</a>:</strong> Das Gegenargument, dass Sofortabwicklung neue Formen von Systemrisiko hervorbringen könnte</li>
+    <li><strong><a href="/de/blog/dtcc-stellar-tokenization">DTCCs Stellar-basierte Tokenisierungsstrategie</a>:</strong> Die erste öffentliche Blockchain der Multi-Chain-Infrastruktur, auf der dieser Pilot aufsetzt</li>
+    <li><strong><a href="/de/blog/tokenized-stocks-not-real-stocks">Tokenisierte Aktien Sind Keine Echten Aktien</a>:</strong> Ein Beitrag, der die entscheidende Grenze zwischen synthetischen/gewrappten Modellen und dem DTC-Verwahrmodell zieht</li>
+    <li><strong><a href="/de/blog/imf-tokenization-systemic-risk-warning">Die Warnung des IWF vor Systemrisiko durch Tokenisierung</a>:</strong> Das Gegenargument, dass Sofortabwicklung neue Formen von Systemrisiko hervorbringen könnte</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">La Stratégie de Tokenisation de la DTCC Basée sur Stellar</a>:</strong> La première blockchain publique de l'infrastructure multi-chaînes sur laquelle s'appuie ce pilote</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Les Actions Tokenisées Ne Sont Pas de Vraies Actions</a>:</strong> Un article qui trace la ligne décisive entre les modèles synthétiques/enveloppés et le modèle de garde DTC</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">L'Avertissement du FMI sur le Risque Systémique de la Tokenisation</a>:</strong> Le contre-argument selon lequel le règlement instantané pourrait engendrer de nouvelles formes de risque systémique</li>
+    <li><strong><a href="/fr/blog/dtcc-stellar-tokenization">La Stratégie de Tokenisation de la DTCC Basée sur Stellar</a>:</strong> La première blockchain publique de l'infrastructure multi-chaînes sur laquelle s'appuie ce pilote</li>
+    <li><strong><a href="/fr/blog/tokenized-stocks-not-real-stocks">Les Actions Tokenisées Ne Sont Pas de Vraies Actions</a>:</strong> Un article qui trace la ligne décisive entre les modèles synthétiques/enveloppés et le modèle de garde DTC</li>
+    <li><strong><a href="/fr/blog/imf-tokenization-systemic-risk-warning">L'Avertissement du FMI sur le Risque Systémique de la Tokenisation</a>:</strong> Le contre-argument selon lequel le règlement instantané pourrait engendrer de nouvelles formes de risque systémique</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">A Estratégia de Tokenização da DTCC Baseada em Stellar</a>:</strong> A primeira blockchain pública da infraestrutura multi-cadeia sobre a qual este piloto se apoia</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Ações Tokenizadas Não São Ações Reais</a>:</strong> Um texto que traça a linha decisiva entre os modelos sintéticos/wrapped e o modelo de custódia DTC</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">O Alerta do FMI sobre o Risco Sistêmico da Tokenização</a>:</strong> O contra-argumento de que a liquidação instantânea poderia gerar novas formas de risco sistêmico</li>
+    <li><strong><a href="/pt/blog/dtcc-stellar-tokenization">A Estratégia de Tokenização da DTCC Baseada em Stellar</a>:</strong> A primeira blockchain pública da infraestrutura multi-cadeia sobre a qual este piloto se apoia</li>
+    <li><strong><a href="/pt/blog/tokenized-stocks-not-real-stocks">Ações Tokenizadas Não São Ações Reais</a>:</strong> Um texto que traça a linha decisiva entre os modelos sintéticos/wrapped e o modelo de custódia DTC</li>
+    <li><strong><a href="/pt/blog/imf-tokenization-systemic-risk-warning">O Alerta do FMI sobre o Risco Sistêmico da Tokenização</a>:</strong> O contra-argumento de que a liquidação instantânea poderia gerar novas formas de risco sistêmico</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCC'nin Stellar Tabanlı Tokenizasyon Stratejisi</a>:</strong> Bu pilotun üzerinde yükseldiği çok zincirli altyapının ilk kamu blok zinciri</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenize Hisseler Gerçek Hisse Değildir</a>:</strong> Sentetik/sarmalanmış modeller ile DTC saklama modeli arasındaki belirleyici çizgiyi çeken bir yazı</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">IMF'nin Tokenizasyon Sistemik Risk Uyarısı</a>:</strong> Anlık mutabakatın yeni sistemik risk biçimleri doğurabileceği yönündeki karşı argüman</li>
+    <li><strong><a href="/tr/blog/dtcc-stellar-tokenization">DTCC'nin Stellar Tabanlı Tokenizasyon Stratejisi</a>:</strong> Bu pilotun üzerinde yükseldiği çok zincirli altyapının ilk kamu blok zinciri</li>
+    <li><strong><a href="/tr/blog/tokenized-stocks-not-real-stocks">Tokenize Hisseler Gerçek Hisse Değildir</a>:</strong> Sentetik/sarmalanmış modeller ile DTC saklama modeli arasındaki belirleyici çizgiyi çeken bir yazı</li>
+    <li><strong><a href="/tr/blog/imf-tokenization-systemic-risk-warning">IMF'nin Tokenizasyon Sistemik Risk Uyarısı</a>:</strong> Anlık mutabakatın yeni sistemik risk biçimleri doğurabileceği yönündeki karşı argüman</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">Chiến Lược Token Hóa Dựa Trên Stellar của DTCC</a>:</strong> Blockchain công khai đầu tiên của hạ tầng đa chuỗi mà chương trình thí điểm này dựa vào</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Cổ Phiếu Token Hóa Không Phải Cổ Phiếu Thật</a>:</strong> Bài viết vạch ra ranh giới quyết định giữa mô hình tổng hợp/bọc và mô hình lưu ký DTC</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">Cảnh Báo Rủi Ro Hệ Thống của IMF về Token Hóa</a>:</strong> Luận điểm phản biện rằng thanh toán tức thì có thể sinh ra các hình thức rủi ro hệ thống mới</li>
+    <li><strong><a href="/vi/blog/dtcc-stellar-tokenization">Chiến Lược Token Hóa Dựa Trên Stellar của DTCC</a>:</strong> Blockchain công khai đầu tiên của hạ tầng đa chuỗi mà chương trình thí điểm này dựa vào</li>
+    <li><strong><a href="/vi/blog/tokenized-stocks-not-real-stocks">Cổ Phiếu Token Hóa Không Phải Cổ Phiếu Thật</a>:</strong> Bài viết vạch ra ranh giới quyết định giữa mô hình tổng hợp/bọc và mô hình lưu ký DTC</li>
+    <li><strong><a href="/vi/blog/imf-tokenization-systemic-risk-warning">Cảnh Báo Rủi Ro Hệ Thống của IMF về Token Hóa</a>:</strong> Luận điểm phản biện rằng thanh toán tức thì có thể sinh ra các hình thức rủi ro hệ thống mới</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: DTCC 발표 및 SEC 무행동의견서(2025년 12월 11일, 나딘 샤카르·브라이언 스틸 서명), 크립토브리핑·CCN·코인데스크(러셀1000·ETF·국채 파일럿 및 10월 출시 보도), 국채 담보 네트워크 파일럿 관련 보도자료(원자적 정산·마진콜 시연), 코인데스크(DTC 약 140만 종 증권 디지털화 목표). 파일럿 단계의 계획이며 규모·채택은 미확정이고, 본 글은 투자 조언이 아니다.</p>

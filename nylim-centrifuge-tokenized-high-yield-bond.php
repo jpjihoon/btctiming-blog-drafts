@@ -459,49 +459,49 @@
   <div class="box vi">💡 <strong>Điều cần theo dõi ngay:</strong> tài sản quản lý của HYB và bất kỳ thanh khoản thị trường thứ cấp nào; việc hạ bậc hay vỡ nợ được xử lý trên chuỗi ra sao; liệu quyền tiếp cận của Mỹ có mở ra dưới các quy tắc rõ ràng hơn (ví dụ Đạo luật CLARITY) hay không; và liệu các nhà quản lý lớn khác có nối gót lên các chuỗi công khai hay không. Câu hỏi cốt lõi không phải là một trái phiếu có thể được token hóa hay không, mà là token giao dịch 24/7 có giữ được sự trung thực với danh mục tín dụng chậm chạp, kém thanh khoản bên dưới nó hay không.</div>
 
   <ul class="ko">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC 러셀1000 토큰화 파일럿</a>:</strong> 실물자산 토큰화가 미국 정산 인프라의 심장부까지 들어간 사례</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">토큰화 주식은 진짜 주식이 아니다</a>:</strong> '포장'과 기초자산의 법적 권리 사이 간극을 짚은 글</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">IMF의 토큰화 시스템 리스크 경고</a>:</strong> 즉시 정산과 유동성 불일치가 낳는 새로운 취약성에 대한 반론</li>
+    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC 러셀1000 토큰화 파일럿</a>:</strong> 실물자산 토큰화가 미국 정산 인프라의 심장부까지 들어간 사례</li>
+    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks">토큰화 주식은 진짜 주식이 아니다</a>:</strong> '포장'과 기초자산의 법적 권리 사이 간극을 짚은 글</li>
+    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning">IMF의 토큰화 시스템 리스크 경고</a>:</strong> 즉시 정산과 유동성 불일치가 낳는 새로운 취약성에 대한 반론</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Russell 1000 tokenization pilot</a>:</strong> when RWA tokenization reaches the heart of U.S. settlement infrastructure</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenized stocks are not real stocks</a>:</strong> a piece on the gap between the 'wrapper' and legal rights to the underlying</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">The IMF's tokenization systemic-risk warning</a>:</strong> the counterargument on new fragilities from instant settlement and liquidity mismatch</li>
+    <li><strong><a href="/en/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Russell 1000 tokenization pilot</a>:</strong> when RWA tokenization reaches the heart of U.S. settlement infrastructure</li>
+    <li><strong><a href="/en/blog/tokenized-stocks-not-real-stocks">Tokenized stocks are not real stocks</a>:</strong> a piece on the gap between the 'wrapper' and legal rights to the underlying</li>
+    <li><strong><a href="/en/blog/imf-tokenization-systemic-risk-warning">The IMF's tokenization systemic-risk warning</a>:</strong> the counterargument on new fragilities from instant settlement and liquidity mismatch</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCCラッセル1000トークン化パイロット</a>:</strong> 実物資産トークン化が米国決済インフラの心臓部にまで入った事例</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">トークン化株式は本物の株式ではない</a>:</strong> 「包み」と基礎資産の法的権利の間の隙間を突いた記事</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">IMFのトークン化システミックリスク警告</a>:</strong> 即時決済と流動性の不一致が生む新たな脆弱性への反論</li>
+    <li><strong><a href="/ja/blog/dtcc-russell-1000-tokenization-pilot-live">DTCCラッセル1000トークン化パイロット</a>:</strong> 実物資産トークン化が米国決済インフラの心臓部にまで入った事例</li>
+    <li><strong><a href="/ja/blog/tokenized-stocks-not-real-stocks">トークン化株式は本物の株式ではない</a>:</strong> 「包み」と基礎資産の法的権利の間の隙間を突いた記事</li>
+    <li><strong><a href="/ja/blog/imf-tokenization-systemic-risk-warning">IMFのトークン化システミックリスク警告</a>:</strong> 即時決済と流動性の不一致が生む新たな脆弱性への反論</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">Piloto de tokenización Russell 1000 de DTCC</a>:</strong> cuando la tokenización de RWA llega al corazón de la infraestructura de liquidación de EE. UU.</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Las acciones tokenizadas no son acciones reales</a>:</strong> un texto sobre la brecha entre el 'envoltorio' y los derechos legales sobre el subyacente</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">La advertencia de riesgo sistémico del FMI sobre la tokenización</a>:</strong> el contraargumento sobre nuevas fragilidades por liquidación instantánea y desajuste de liquidez</li>
+    <li><strong><a href="/es/blog/dtcc-russell-1000-tokenization-pilot-live">Piloto de tokenización Russell 1000 de DTCC</a>:</strong> cuando la tokenización de RWA llega al corazón de la infraestructura de liquidación de EE. UU.</li>
+    <li><strong><a href="/es/blog/tokenized-stocks-not-real-stocks">Las acciones tokenizadas no son acciones reales</a>:</strong> un texto sobre la brecha entre el 'envoltorio' y los derechos legales sobre el subyacente</li>
+    <li><strong><a href="/es/blog/imf-tokenization-systemic-risk-warning">La advertencia de riesgo sistémico del FMI sobre la tokenización</a>:</strong> el contraargumento sobre nuevas fragilidades por liquidación instantánea y desajuste de liquidez</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC-Russell-1000-Tokenisierungspilot</a>:</strong> wenn RWA-Tokenisierung das Herz der US-Abwicklungsinfrastruktur erreicht</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenisierte Aktien sind keine echten Aktien</a>:</strong> ein Beitrag über die Lücke zwischen der 'Hülle' und den rechtlichen Ansprüchen auf den Basiswert</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">Die IWF-Warnung vor systemischem Risiko der Tokenisierung</a>:</strong> das Gegenargument zu neuen Fragilitäten durch Sofortabwicklung und Liquiditätslücke</li>
+    <li><strong><a href="/de/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC-Russell-1000-Tokenisierungspilot</a>:</strong> wenn RWA-Tokenisierung das Herz der US-Abwicklungsinfrastruktur erreicht</li>
+    <li><strong><a href="/de/blog/tokenized-stocks-not-real-stocks">Tokenisierte Aktien sind keine echten Aktien</a>:</strong> ein Beitrag über die Lücke zwischen der 'Hülle' und den rechtlichen Ansprüchen auf den Basiswert</li>
+    <li><strong><a href="/de/blog/imf-tokenization-systemic-risk-warning">Die IWF-Warnung vor systemischem Risiko der Tokenisierung</a>:</strong> das Gegenargument zu neuen Fragilitäten durch Sofortabwicklung und Liquiditätslücke</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">Pilote de tokenisation Russell 1000 de la DTCC</a>:</strong> quand la tokenisation des RWA atteint le cœur de l'infrastructure de règlement américaine</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Les actions tokenisées ne sont pas de vraies actions</a>:</strong> un texte sur l'écart entre l'« enveloppe » et les droits légaux sur le sous-jacent</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">L'avertissement du FMI sur le risque systémique de la tokenisation</a>:</strong> le contre-argument sur les nouvelles fragilités du règlement instantané et du décalage de liquidité</li>
+    <li><strong><a href="/fr/blog/dtcc-russell-1000-tokenization-pilot-live">Pilote de tokenisation Russell 1000 de la DTCC</a>:</strong> quand la tokenisation des RWA atteint le cœur de l'infrastructure de règlement américaine</li>
+    <li><strong><a href="/fr/blog/tokenized-stocks-not-real-stocks">Les actions tokenisées ne sont pas de vraies actions</a>:</strong> un texte sur l'écart entre l'« enveloppe » et les droits légaux sur le sous-jacent</li>
+    <li><strong><a href="/fr/blog/imf-tokenization-systemic-risk-warning">L'avertissement du FMI sur le risque systémique de la tokenisation</a>:</strong> le contre-argument sur les nouvelles fragilités du règlement instantané et du décalage de liquidité</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">Piloto de tokenização Russell 1000 da DTCC</a>:</strong> quando a tokenização de RWA chega ao coração da infraestrutura de liquidação dos EUA</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Ações tokenizadas não são ações reais</a>:</strong> um texto sobre a lacuna entre o 'invólucro' e os direitos legais sobre o subjacente</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">O alerta de risco sistêmico do FMI sobre tokenização</a>:</strong> o contra-argumento sobre novas fragilidades da liquidação instantânea e do descasamento de liquidez</li>
+    <li><strong><a href="/pt/blog/dtcc-russell-1000-tokenization-pilot-live">Piloto de tokenização Russell 1000 da DTCC</a>:</strong> quando a tokenização de RWA chega ao coração da infraestrutura de liquidação dos EUA</li>
+    <li><strong><a href="/pt/blog/tokenized-stocks-not-real-stocks">Ações tokenizadas não são ações reais</a>:</strong> um texto sobre a lacuna entre o 'invólucro' e os direitos legais sobre o subjacente</li>
+    <li><strong><a href="/pt/blog/imf-tokenization-systemic-risk-warning">O alerta de risco sistêmico do FMI sobre tokenização</a>:</strong> o contra-argumento sobre novas fragilidades da liquidação instantânea e do descasamento de liquidez</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Russell 1000 tokenizasyon pilotu</a>:</strong> RWA tokenizasyonu ABD mutabakat altyapısının kalbine ulaştığında</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenize hisseler gerçek hisse değildir</a>:</strong> 'ambalaj' ile dayanağa ilişkin yasal haklar arasındaki boşluğu ele alan bir yazı</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">IMF'nin tokenizasyon sistemik risk uyarısı</a>:</strong> anlık mutabakat ve likidite uyumsuzluğundan doğan yeni kırılganlıklara dair karşı argüman</li>
+    <li><strong><a href="/tr/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Russell 1000 tokenizasyon pilotu</a>:</strong> RWA tokenizasyonu ABD mutabakat altyapısının kalbine ulaştığında</li>
+    <li><strong><a href="/tr/blog/tokenized-stocks-not-real-stocks">Tokenize hisseler gerçek hisse değildir</a>:</strong> 'ambalaj' ile dayanağa ilişkin yasal haklar arasındaki boşluğu ele alan bir yazı</li>
+    <li><strong><a href="/tr/blog/imf-tokenization-systemic-risk-warning">IMF'nin tokenizasyon sistemik risk uyarısı</a>:</strong> anlık mutabakat ve likidite uyumsuzluğundan doğan yeni kırılganlıklara dair karşı argüman</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">Chương trình thí điểm token hóa Russell 1000 của DTCC</a>:</strong> khi token hóa RWA chạm tới trái tim của hạ tầng thanh toán Mỹ</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Cổ phiếu token hóa không phải cổ phiếu thật</a>:</strong> một bài viết về khoảng cách giữa 'lớp vỏ' và quyền pháp lý đối với tài sản cơ sở</li>
-    <li><strong><a href="/blog/imf-tokenization-systemic-risk-warning.php">Cảnh báo rủi ro hệ thống của IMF về token hóa</a>:</strong> luận điểm phản biện về những mong manh mới từ thanh toán tức thì và lệch thanh khoản</li>
+    <li><strong><a href="/vi/blog/dtcc-russell-1000-tokenization-pilot-live">Chương trình thí điểm token hóa Russell 1000 của DTCC</a>:</strong> khi token hóa RWA chạm tới trái tim của hạ tầng thanh toán Mỹ</li>
+    <li><strong><a href="/vi/blog/tokenized-stocks-not-real-stocks">Cổ phiếu token hóa không phải cổ phiếu thật</a>:</strong> một bài viết về khoảng cách giữa 'lớp vỏ' và quyền pháp lý đối với tài sản cơ sở</li>
+    <li><strong><a href="/vi/blog/imf-tokenization-systemic-risk-warning">Cảnh báo rủi ro hệ thống của IMF về token hóa</a>:</strong> luận điểm phản biện về những mong manh mới từ thanh toán tức thì và lệch thanh khoản</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(2026년 6월 29일), 더블록, 디크립트, 크립토브리핑, 더디파이언트(NYLIM 아네모이 미국 하이일드 회사채 분리형 포트폴리오·ticker HYB 보도), 센트리퓨지–뉴욕라이프 인베스트먼트 매니지먼트 파트너십 발표(2026년 6월 30일). NYLIM 운용자산 약 8,070억 달러는 회사 공시 기준. HYB는 미국 투자자에게 제공되지 않는다. 본 글은 투자 조언이 아니다.</p>

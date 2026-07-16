@@ -427,49 +427,49 @@
   <h2 class="tr">Yanında Okunması İyi Olan</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">이더리움 업그레이드 로드맵 타임라인</a>:</strong> 글램스테르담이 4년간 여섯 번째 포크로서 어디에 위치하는지</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">린 이더리움 양자 내성 로드맵</a>:</strong> 같은 로드맵의 더 먼 지평에 있는 과제</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">솔라나 알펜글로우 합의 재작성</a>:</strong> 이더리움이 따라잡으려는 병렬·고속 진영의 반대편 움직임</li>
+    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline">이더리움 업그레이드 로드맵 타임라인</a>:</strong> 글램스테르담이 4년간 여섯 번째 포크로서 어디에 위치하는지</li>
+    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap">린 이더리움 양자 내성 로드맵</a>:</strong> 같은 로드맵의 더 먼 지평에 있는 과제</li>
+    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite">솔라나 알펜글로우 합의 재작성</a>:</strong> 이더리움이 따라잡으려는 병렬·고속 진영의 반대편 움직임</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">Ethereum's Upgrade Roadmap Timeline</a>:</strong> Where Glamsterdam sits as the sixth fork in four years</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">The Lean Ethereum Quantum-Resistance Roadmap</a>:</strong> The longer-horizon work on the same roadmap</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana's Alpenglow Consensus Rewrite</a>:</strong> The opposite-side move from the fast, parallel camp Ethereum is chasing</li>
+    <li><strong><a href="/en/blog/ethereum-upgrade-roadmap-timeline">Ethereum's Upgrade Roadmap Timeline</a>:</strong> Where Glamsterdam sits as the sixth fork in four years</li>
+    <li><strong><a href="/en/blog/lean-ethereum-quantum-stark-roadmap">The Lean Ethereum Quantum-Resistance Roadmap</a>:</strong> The longer-horizon work on the same roadmap</li>
+    <li><strong><a href="/en/blog/solana-alpenglow-consensus-rewrite">Solana's Alpenglow Consensus Rewrite</a>:</strong> The opposite-side move from the fast, parallel camp Ethereum is chasing</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">イーサリアムアップグレードロードマップの時系列</a>:</strong> グラムステルダムが4年で6回目のフォークとしてどこに位置するか</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">リーン・イーサリアム 量子耐性ロードマップ</a>:</strong> 同じロードマップのより遠い地平にある課題</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">ソラナ アルペングロー合意の再設計</a>:</strong> イーサリアムが追う高速・並列陣営の反対側の動き</li>
+    <li><strong><a href="/ja/blog/ethereum-upgrade-roadmap-timeline">イーサリアムアップグレードロードマップの時系列</a>:</strong> グラムステルダムが4年で6回目のフォークとしてどこに位置するか</li>
+    <li><strong><a href="/ja/blog/lean-ethereum-quantum-stark-roadmap">リーン・イーサリアム 量子耐性ロードマップ</a>:</strong> 同じロードマップのより遠い地平にある課題</li>
+    <li><strong><a href="/ja/blog/solana-alpenglow-consensus-rewrite">ソラナ アルペングロー合意の再設計</a>:</strong> イーサリアムが追う高速・並列陣営の反対側の動き</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">La Cronología de la Hoja de Ruta de Actualizaciones de Ethereum</a>:</strong> Dónde se sitúa Glamsterdam como la sexta bifurcación en cuatro años</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">La Hoja de Ruta de Resistencia Cuántica de Lean Ethereum</a>:</strong> El trabajo de horizonte más largo en la misma hoja de ruta</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">La Reescritura del Consenso Alpenglow de Solana</a>:</strong> El movimiento del lado opuesto, el bando rápido y paralelo que Ethereum persigue</li>
+    <li><strong><a href="/es/blog/ethereum-upgrade-roadmap-timeline">La Cronología de la Hoja de Ruta de Actualizaciones de Ethereum</a>:</strong> Dónde se sitúa Glamsterdam como la sexta bifurcación en cuatro años</li>
+    <li><strong><a href="/es/blog/lean-ethereum-quantum-stark-roadmap">La Hoja de Ruta de Resistencia Cuántica de Lean Ethereum</a>:</strong> El trabajo de horizonte más largo en la misma hoja de ruta</li>
+    <li><strong><a href="/es/blog/solana-alpenglow-consensus-rewrite">La Reescritura del Consenso Alpenglow de Solana</a>:</strong> El movimiento del lado opuesto, el bando rápido y paralelo que Ethereum persigue</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">Ethereums Upgrade-Roadmap-Zeitleiste</a>:</strong> Wo Glamsterdam als sechste Fork in vier Jahren steht</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">Die Lean-Ethereum-Roadmap zur Quantenresistenz</a>:</strong> Die längerfristige Arbeit auf derselben Roadmap</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solanas Alpenglow-Konsens-Neuschrieb</a>:</strong> Der Gegenzug aus dem schnellen, parallelen Lager, dem Ethereum nacheifert</li>
+    <li><strong><a href="/de/blog/ethereum-upgrade-roadmap-timeline">Ethereums Upgrade-Roadmap-Zeitleiste</a>:</strong> Wo Glamsterdam als sechste Fork in vier Jahren steht</li>
+    <li><strong><a href="/de/blog/lean-ethereum-quantum-stark-roadmap">Die Lean-Ethereum-Roadmap zur Quantenresistenz</a>:</strong> Die längerfristige Arbeit auf derselben Roadmap</li>
+    <li><strong><a href="/de/blog/solana-alpenglow-consensus-rewrite">Solanas Alpenglow-Konsens-Neuschrieb</a>:</strong> Der Gegenzug aus dem schnellen, parallelen Lager, dem Ethereum nacheifert</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">La Chronologie de la Feuille de Route des Mises à Niveau d'Ethereum</a>:</strong> Où se situe Glamsterdam comme sixième fork en quatre ans</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">La Feuille de Route de Résistance Quantique de Lean Ethereum</a>:</strong> Les travaux à plus long horizon sur la même feuille de route</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">La Réécriture du Consensus Alpenglow de Solana</a>:</strong> Le mouvement du camp rapide et parallèle qu'Ethereum poursuit</li>
+    <li><strong><a href="/fr/blog/ethereum-upgrade-roadmap-timeline">La Chronologie de la Feuille de Route des Mises à Niveau d'Ethereum</a>:</strong> Où se situe Glamsterdam comme sixième fork en quatre ans</li>
+    <li><strong><a href="/fr/blog/lean-ethereum-quantum-stark-roadmap">La Feuille de Route de Résistance Quantique de Lean Ethereum</a>:</strong> Les travaux à plus long horizon sur la même feuille de route</li>
+    <li><strong><a href="/fr/blog/solana-alpenglow-consensus-rewrite">La Réécriture du Consensus Alpenglow de Solana</a>:</strong> Le mouvement du camp rapide et parallèle qu'Ethereum poursuit</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">A Linha do Tempo do Roteiro de Atualizações do Ethereum</a>:</strong> Onde a Glamsterdam se situa como o sexto fork em quatro anos</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">O Roteiro de Resistência Quântica do Lean Ethereum</a>:</strong> O trabalho de horizonte mais longo no mesmo roteiro</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">A Reescrita do Consenso Alpenglow da Solana</a>:</strong> O movimento do lado oposto, o campo rápido e paralelo que o Ethereum persegue</li>
+    <li><strong><a href="/pt/blog/ethereum-upgrade-roadmap-timeline">A Linha do Tempo do Roteiro de Atualizações do Ethereum</a>:</strong> Onde a Glamsterdam se situa como o sexto fork em quatro anos</li>
+    <li><strong><a href="/pt/blog/lean-ethereum-quantum-stark-roadmap">O Roteiro de Resistência Quântica do Lean Ethereum</a>:</strong> O trabalho de horizonte mais longo no mesmo roteiro</li>
+    <li><strong><a href="/pt/blog/solana-alpenglow-consensus-rewrite">A Reescrita do Consenso Alpenglow da Solana</a>:</strong> O movimento do lado oposto, o campo rápido e paralelo que o Ethereum persegue</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">Ethereum'un Yükseltme Yol Haritası Zaman Çizelgesi</a>:</strong> Glamsterdam'ın dört yılda altıncı çatallanma olarak nerede durduğu</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">Lean Ethereum Kuantum Direnci Yol Haritası</a>:</strong> Aynı yol haritasındaki daha uzun vadeli çalışma</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana'nın Alpenglow Konsensüs Yeniden Yazımı</a>:</strong> Ethereum'un yakaladığı hızlı, paralel kamptan gelen karşı taraf hamlesi</li>
+    <li><strong><a href="/tr/blog/ethereum-upgrade-roadmap-timeline">Ethereum'un Yükseltme Yol Haritası Zaman Çizelgesi</a>:</strong> Glamsterdam'ın dört yılda altıncı çatallanma olarak nerede durduğu</li>
+    <li><strong><a href="/tr/blog/lean-ethereum-quantum-stark-roadmap">Lean Ethereum Kuantum Direnci Yol Haritası</a>:</strong> Aynı yol haritasındaki daha uzun vadeli çalışma</li>
+    <li><strong><a href="/tr/blog/solana-alpenglow-consensus-rewrite">Solana'nın Alpenglow Konsensüs Yeniden Yazımı</a>:</strong> Ethereum'un yakaladığı hızlı, paralel kamptan gelen karşı taraf hamlesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/ethereum-upgrade-roadmap-timeline.php">Dòng Thời Gian Lộ Trình Nâng Cấp Của Ethereum</a>:</strong> Glamsterdam đứng ở đâu với tư cách bản fork thứ sáu trong bốn năm</li>
-    <li><strong><a href="/blog/lean-ethereum-quantum-stark-roadmap.php">Lộ Trình Kháng Lượng Tử Của Lean Ethereum</a>:</strong> Công việc dài hạn hơn trên cùng lộ trình</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Bản Viết Lại Đồng Thuận Alpenglow Của Solana</a>:</strong> Động thái ở phía đối diện từ phe nhanh, song song mà Ethereum đang đuổi theo</li>
+    <li><strong><a href="/vi/blog/ethereum-upgrade-roadmap-timeline">Dòng Thời Gian Lộ Trình Nâng Cấp Của Ethereum</a>:</strong> Glamsterdam đứng ở đâu với tư cách bản fork thứ sáu trong bốn năm</li>
+    <li><strong><a href="/vi/blog/lean-ethereum-quantum-stark-roadmap">Lộ Trình Kháng Lượng Tử Của Lean Ethereum</a>:</strong> Công việc dài hạn hơn trên cùng lộ trình</li>
+    <li><strong><a href="/vi/blog/solana-alpenglow-consensus-rewrite">Bản Viết Lại Đồng Thuận Alpenglow Của Solana</a>:</strong> Động thái ở phía đối diện từ phe nhanh, song song mà Ethereum đang đuổi theo</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 이더리움 공식 EIP-7928 명세(eips.ethereum.org)와 이더리움 매지션스 포럼 논의, 글램스테르담 로드맵(ethereum.org, EIP-7732 제안자-생성자 분리 포함), 에버스테이크·빙엑스의 글램스테르담·EIP-7928 해설, 역사적 참고로 EIP-2930(2021년 베를린 업그레이드)와 솔라나 Sealevel 병렬 런타임 문서. 활성화 시기, 가스 한도, 성능 수치는 확정되지 않은 계획·목표이며, 본 글은 투자 조언이 아니다.</p>

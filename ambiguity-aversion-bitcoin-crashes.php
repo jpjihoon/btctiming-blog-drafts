@@ -238,49 +238,49 @@
   <h2 class="vi">Nên Đọc Cùng Với Bài Này</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">BVIV 변동성 지수</a>:</strong> '알려진 위험'이 옵션 가격에 실시간으로 반영되는 과정</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">거래소 잔고 지표의 사각지대</a>:</strong> 숫자만으로는 완전히 지워지지 않는 커스터디 리스크</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">정상성 편향</a>:</strong> 앰비귀티 앞에서 몸이 얼어붙는 또 다른 이유</li>
+    <li><strong><a href="/blog/bviv-fear-index-emerges">BVIV 변동성 지수</a>:</strong> '알려진 위험'이 옵션 가격에 실시간으로 반영되는 과정</li>
+    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot">거래소 잔고 지표의 사각지대</a>:</strong> 숫자만으로는 완전히 지워지지 않는 커스터디 리스크</li>
+    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze">정상성 편향</a>:</strong> 앰비귀티 앞에서 몸이 얼어붙는 또 다른 이유</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">The BVIV Volatility Index</a>:</strong> How "known risk" gets priced into options in real time</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">The Exchange Reserve Blind Spot</a>:</strong> The custody risk a single number can't fully erase</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Normalcy Bias</a>:</strong> Another reason the body freezes in the face of ambiguity</li>
+    <li><strong><a href="/en/blog/bviv-fear-index-emerges">The BVIV Volatility Index</a>:</strong> How "known risk" gets priced into options in real time</li>
+    <li><strong><a href="/en/blog/exchange-reserve-custody-blind-spot">The Exchange Reserve Blind Spot</a>:</strong> The custody risk a single number can't fully erase</li>
+    <li><strong><a href="/en/blog/normalcy-bias-bitcoin-crash-freeze">Normalcy Bias</a>:</strong> Another reason the body freezes in the face of ambiguity</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">BVIVボラティリティ指数</a>:</strong> 『既知のリスク』がオプション価格にリアルタイムで織り込まれる過程</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">取引所残高指標の死角</a>:</strong> 数字だけでは完全には消せないカストディリスク</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">正常性バイアス</a>:</strong> 曖昧さを前に身体が凍りつくもう一つの理由</li>
+    <li><strong><a href="/ja/blog/bviv-fear-index-emerges">BVIVボラティリティ指数</a>:</strong> 『既知のリスク』がオプション価格にリアルタイムで織り込まれる過程</li>
+    <li><strong><a href="/ja/blog/exchange-reserve-custody-blind-spot">取引所残高指標の死角</a>:</strong> 数字だけでは完全には消せないカストディリスク</li>
+    <li><strong><a href="/ja/blog/normalcy-bias-bitcoin-crash-freeze">正常性バイアス</a>:</strong> 曖昧さを前に身体が凍りつくもう一つの理由</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">Índice de Volatilidad BVIV</a>:</strong> Cómo el "riesgo conocido" se incorpora a los precios de las opciones en tiempo real</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">El Punto Ciego de las Reservas de Exchanges</a>:</strong> El riesgo de custodia que un número no puede borrar del todo</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Sesgo de Normalidad</a>:</strong> Otra razón por la que el cuerpo se congela ante la ambigüedad</li>
+    <li><strong><a href="/es/blog/bviv-fear-index-emerges">Índice de Volatilidad BVIV</a>:</strong> Cómo el "riesgo conocido" se incorpora a los precios de las opciones en tiempo real</li>
+    <li><strong><a href="/es/blog/exchange-reserve-custody-blind-spot">El Punto Ciego de las Reservas de Exchanges</a>:</strong> El riesgo de custodia que un número no puede borrar del todo</li>
+    <li><strong><a href="/es/blog/normalcy-bias-bitcoin-crash-freeze">Sesgo de Normalidad</a>:</strong> Otra razón por la que el cuerpo se congela ante la ambigüedad</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">Der BVIV-Volatilitätsindex</a>:</strong> Wie "bekanntes Risiko" in Echtzeit in Optionspreise einfließt</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">Der blinde Fleck der Börsenreserven</a>:</strong> Das Verwahrungsrisiko, das eine einzelne Zahl nicht vollständig auflöst</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Normalcy Bias</a>:</strong> Ein weiterer Grund, warum der Körper angesichts von Ambiguität erstarrt</li>
+    <li><strong><a href="/de/blog/bviv-fear-index-emerges">Der BVIV-Volatilitätsindex</a>:</strong> Wie "bekanntes Risiko" in Echtzeit in Optionspreise einfließt</li>
+    <li><strong><a href="/de/blog/exchange-reserve-custody-blind-spot">Der blinde Fleck der Börsenreserven</a>:</strong> Das Verwahrungsrisiko, das eine einzelne Zahl nicht vollständig auflöst</li>
+    <li><strong><a href="/de/blog/normalcy-bias-bitcoin-crash-freeze">Normalcy Bias</a>:</strong> Ein weiterer Grund, warum der Körper angesichts von Ambiguität erstarrt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">L'Indice de Volatilité BVIV</a>:</strong> Comment le « risque connu » s'intègre en temps réel dans les prix des options</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">L'Angle Mort des Réserves d'Exchange</a>:</strong> Le risque de garde qu'un simple chiffre ne peut effacer entièrement</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Le Biais de Normalité</a>:</strong> Une autre raison pour laquelle le corps se fige face à l'ambiguïté</li>
+    <li><strong><a href="/fr/blog/bviv-fear-index-emerges">L'Indice de Volatilité BVIV</a>:</strong> Comment le « risque connu » s'intègre en temps réel dans les prix des options</li>
+    <li><strong><a href="/fr/blog/exchange-reserve-custody-blind-spot">L'Angle Mort des Réserves d'Exchange</a>:</strong> Le risque de garde qu'un simple chiffre ne peut effacer entièrement</li>
+    <li><strong><a href="/fr/blog/normalcy-bias-bitcoin-crash-freeze">Le Biais de Normalité</a>:</strong> Une autre raison pour laquelle le corps se fige face à l'ambiguïté</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">O Índice de Volatilidade BVIV</a>:</strong> Como o "risco conhecido" é precificado em tempo real nas opções</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">O Ponto Cego das Reservas das Corretoras</a>:</strong> O risco de custódia que um número sozinho não apaga por completo</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Viés de Normalidade</a>:</strong> Outra razão pela qual o corpo congela diante da ambiguidade</li>
+    <li><strong><a href="/pt/blog/bviv-fear-index-emerges">O Índice de Volatilidade BVIV</a>:</strong> Como o "risco conhecido" é precificado em tempo real nas opções</li>
+    <li><strong><a href="/pt/blog/exchange-reserve-custody-blind-spot">O Ponto Cego das Reservas das Corretoras</a>:</strong> O risco de custódia que um número sozinho não apaga por completo</li>
+    <li><strong><a href="/pt/blog/normalcy-bias-bitcoin-crash-freeze">Viés de Normalidade</a>:</strong> Outra razão pela qual o corpo congela diante da ambiguidade</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">BVIV Oynaklık Endeksi</a>:</strong> 'Bilinen risk' opsiyon fiyatlarına gerçek zamanlı nasıl yansır</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">Borsa Rezerv Göstergesinin Kör Noktası</a>:</strong> Tek bir sayının tam olarak silemediği saklama riski</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Normallik Yanlılığı</a>:</strong> Belirsizlik karşısında bedenin donmasının bir başka nedeni</li>
+    <li><strong><a href="/tr/blog/bviv-fear-index-emerges">BVIV Oynaklık Endeksi</a>:</strong> 'Bilinen risk' opsiyon fiyatlarına gerçek zamanlı nasıl yansır</li>
+    <li><strong><a href="/tr/blog/exchange-reserve-custody-blind-spot">Borsa Rezerv Göstergesinin Kör Noktası</a>:</strong> Tek bir sayının tam olarak silemediği saklama riski</li>
+    <li><strong><a href="/tr/blog/normalcy-bias-bitcoin-crash-freeze">Normallik Yanlılığı</a>:</strong> Belirsizlik karşısında bedenin donmasının bir başka nedeni</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/bviv-fear-index-emerges.php">Chỉ Số Biến Động BVIV</a>:</strong> Cách "rủi ro đã biết" được định giá vào quyền chọn theo thời gian thực</li>
-    <li><strong><a href="/blog/exchange-reserve-custody-blind-spot.php">Điểm Mù Của Chỉ Số Dự Trữ Sàn</a>:</strong> Rủi ro lưu ký mà một con số không thể xóa bỏ hoàn toàn</li>
-    <li><strong><a href="/blog/normalcy-bias-bitcoin-crash-freeze.php">Thiên Kiến Bình Thường Hóa</a>:</strong> Một lý do khác khiến cơ thể đông cứng trước sự mơ hồ</li>
+    <li><strong><a href="/vi/blog/bviv-fear-index-emerges">Chỉ Số Biến Động BVIV</a>:</strong> Cách "rủi ro đã biết" được định giá vào quyền chọn theo thời gian thực</li>
+    <li><strong><a href="/vi/blog/exchange-reserve-custody-blind-spot">Điểm Mù Của Chỉ Số Dự Trữ Sàn</a>:</strong> Rủi ro lưu ký mà một con số không thể xóa bỏ hoàn toàn</li>
+    <li><strong><a href="/vi/blog/normalcy-bias-bitcoin-crash-freeze">Thiên Kiến Bình Thường Hóa</a>:</strong> Một lý do khác khiến cơ thể đông cứng trước sự mơ hồ</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">참고: Ellsberg, "Risk, Ambiguity, and the Savage Axioms"(Quarterly Journal of Economics, 1961); "Bitcoin Ambiguity" 연구(ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies"(Journal of International Financial Markets, Institutions and Money); Forbes, CoinDesk, CNBC, Yahoo Finance의 마운트곡스·테라·루나·FTX·2022년 약세장 관련 보도. 본 글은 투자 조언이 아니다.</p>

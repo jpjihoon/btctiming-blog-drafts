@@ -379,40 +379,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">테라울프-앤스로픽 AI 데이터센터 임대 계약</a>:</strong> 확정 임차인이 있는 AI 리스 구조를 MARA의 마일스톤 방식과 비교해보기</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">비트코인 채굴기업의 AI 전환과 HBM 가격 역풍</a>:</strong> 업계 전반의 AI 전환 흐름과 비용 구조상 리스크를 폭넓게 살펴보기</li>
+    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease">테라울프-앤스로픽 AI 데이터센터 임대 계약</a>:</strong> 확정 임차인이 있는 AI 리스 구조를 MARA의 마일스톤 방식과 비교해보기</li>
+    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">비트코인 채굴기업의 AI 전환과 HBM 가격 역풍</a>:</strong> 업계 전반의 AI 전환 흐름과 비용 구조상 리스크를 폭넓게 살펴보기</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">TeraWulf's Anthropic AI Data-Center Lease</a>:</strong> Compare a confirmed-tenant AI lease structure with MARA's milestone-based approach</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Bitcoin Miners' AI Pivot and the HBM Cost Headwind</a>:</strong> A broader look at the sector-wide AI pivot and its cost-structure risks</li>
+    <li><strong><a href="/en/blog/terawulf-anthropic-ai-datacenter-lease">TeraWulf's Anthropic AI Data-Center Lease</a>:</strong> Compare a confirmed-tenant AI lease structure with MARA's milestone-based approach</li>
+    <li><strong><a href="/en/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Bitcoin Miners' AI Pivot and the HBM Cost Headwind</a>:</strong> A broader look at the sector-wide AI pivot and its cost-structure risks</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">テラウルフ-アンスロピックAIデータセンター賃貸契約</a>:</strong> 確定テナントがあるAIリース構造とMARAのマイルストーン方式を比較する</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">ビットコイン採掘企業のAI転換とHBM価格の逆風</a>:</strong> 業界全体のAI転換の流れとコスト構造上のリスクを幅広く見る</li>
+    <li><strong><a href="/ja/blog/terawulf-anthropic-ai-datacenter-lease">テラウルフ-アンスロピックAIデータセンター賃貸契約</a>:</strong> 確定テナントがあるAIリース構造とMARAのマイルストーン方式を比較する</li>
+    <li><strong><a href="/ja/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">ビットコイン採掘企業のAI転換とHBM価格の逆風</a>:</strong> 業界全体のAI転換の流れとコスト構造上のリスクを幅広く見る</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">El Contrato de Arrendamiento de Centro de Datos de IA de TeraWulf con Anthropic</a>:</strong> Comparar una estructura de arrendamiento de IA con inquilino confirmado frente al enfoque de hitos de MARA</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">El Pivote hacia la IA de los Mineros de Bitcoin y el Viento en Contra del Costo de HBM</a>:</strong> Una mirada más amplia al pivote hacia IA en todo el sector y sus riesgos de estructura de costos</li>
+    <li><strong><a href="/es/blog/terawulf-anthropic-ai-datacenter-lease">El Contrato de Arrendamiento de Centro de Datos de IA de TeraWulf con Anthropic</a>:</strong> Comparar una estructura de arrendamiento de IA con inquilino confirmado frente al enfoque de hitos de MARA</li>
+    <li><strong><a href="/es/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">El Pivote hacia la IA de los Mineros de Bitcoin y el Viento en Contra del Costo de HBM</a>:</strong> Una mirada más amplia al pivote hacia IA en todo el sector y sus riesgos de estructura de costos</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">TeraWulfs KI-Rechenzentrums-Leasing mit Anthropic</a>:</strong> Eine KI-Leasingstruktur mit bestätigtem Mieter mit MARAs Meilenstein-Ansatz vergleichen</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Der KI-Kurswechsel der Bitcoin-Miner und der HBM-Kostengegenwind</a>:</strong> Ein breiterer Blick auf den branchenweiten KI-Kurswechsel und seine Kostenrisiken</li>
+    <li><strong><a href="/de/blog/terawulf-anthropic-ai-datacenter-lease">TeraWulfs KI-Rechenzentrums-Leasing mit Anthropic</a>:</strong> Eine KI-Leasingstruktur mit bestätigtem Mieter mit MARAs Meilenstein-Ansatz vergleichen</li>
+    <li><strong><a href="/de/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Der KI-Kurswechsel der Bitcoin-Miner und der HBM-Kostengegenwind</a>:</strong> Ein breiterer Blick auf den branchenweiten KI-Kurswechsel und seine Kostenrisiken</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Le Bail de Centre de Données IA de TeraWulf avec Anthropic</a> :</strong> Comparer une structure de bail IA avec locataire confirmé à l'approche par jalons de MARA</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Le Virage IA des Mineurs de Bitcoin et le Vent Contraire des Coûts HBM</a> :</strong> Un regard plus large sur le virage IA à l'échelle du secteur et ses risques de structure de coûts</li>
+    <li><strong><a href="/fr/blog/terawulf-anthropic-ai-datacenter-lease">Le Bail de Centre de Données IA de TeraWulf avec Anthropic</a> :</strong> Comparer une structure de bail IA avec locataire confirmé à l'approche par jalons de MARA</li>
+    <li><strong><a href="/fr/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Le Virage IA des Mineurs de Bitcoin et le Vent Contraire des Coûts HBM</a> :</strong> Un regard plus large sur le virage IA à l'échelle du secteur et ses risques de structure de coûts</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">O Contrato de Locação de Data Center de IA da TeraWulf com a Anthropic</a>:</strong> Comparar uma estrutura de locação de IA com inquilino confirmado com a abordagem de marcos da MARA</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">A Guinada para IA das Mineradoras de Bitcoin e o Vento Contrário dos Custos de HBM</a>:</strong> Uma visão mais ampla da guinada para IA em todo o setor e seus riscos de estrutura de custos</li>
+    <li><strong><a href="/pt/blog/terawulf-anthropic-ai-datacenter-lease">O Contrato de Locação de Data Center de IA da TeraWulf com a Anthropic</a>:</strong> Comparar uma estrutura de locação de IA com inquilino confirmado com a abordagem de marcos da MARA</li>
+    <li><strong><a href="/pt/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">A Guinada para IA das Mineradoras de Bitcoin e o Vento Contrário dos Custos de HBM</a>:</strong> Uma visão mais ampla da guinada para IA em todo o setor e seus riscos de estrutura de custos</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">TeraWulf'un Anthropic AI Veri Merkezi Kiralama Sözleşmesi</a>:</strong> Onaylanmış kiracısı olan bir yapay zeka kiralama yapısını MARA'nın kilometre taşı yaklaşımıyla karşılaştırma</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Bitcoin Madencilerinin Yapay Zeka Dönüşümü ve HBM Maliyet Rüzgarı</a>:</strong> Sektör genelindeki yapay zeka dönüşümüne ve maliyet yapısı risklerine daha geniş bir bakış</li>
+    <li><strong><a href="/tr/blog/terawulf-anthropic-ai-datacenter-lease">TeraWulf'un Anthropic AI Veri Merkezi Kiralama Sözleşmesi</a>:</strong> Onaylanmış kiracısı olan bir yapay zeka kiralama yapısını MARA'nın kilometre taşı yaklaşımıyla karşılaştırma</li>
+    <li><strong><a href="/tr/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Bitcoin Madencilerinin Yapay Zeka Dönüşümü ve HBM Maliyet Rüzgarı</a>:</strong> Sektör genelindeki yapay zeka dönüşümüne ve maliyet yapısı risklerine daha geniş bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Hợp Đồng Thuê Trung Tâm Dữ Liệu AI Của TeraWulf Với Anthropic</a>:</strong> So sánh cấu trúc thuê AI với khách thuê đã xác nhận với cách tiếp cận theo cột mốc của MARA</li>
-    <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Bước Chuyển Hướng AI Của Các Công Ty Khai Thác Bitcoin và Trở Ngại Chi Phí HBM</a>:</strong> Cái nhìn rộng hơn về bước chuyển hướng AI trên toàn ngành và rủi ro cấu trúc chi phí</li>
+    <li><strong><a href="/vi/blog/terawulf-anthropic-ai-datacenter-lease">Hợp Đồng Thuê Trung Tâm Dữ Liệu AI Của TeraWulf Với Anthropic</a>:</strong> So sánh cấu trúc thuê AI với khách thuê đã xác nhận với cách tiếp cận theo cột mốc của MARA</li>
+    <li><strong><a href="/vi/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Bước Chuyển Hướng AI Của Các Công Ty Khai Thác Bitcoin và Trở Ngại Chi Phí HBM</a>:</strong> Cái nhìn rộng hơn về bước chuyển hướng AI trên toàn ngành và rủi ro cấu trúc chi phí</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 디크립트, 크립토타임스, 트론위클리, 더블록, 야후파이낸스, 코인텔레그래프(트레이딩뷰 경유), 블록스페이스, 스탁타이틴(2026년 7월 10일 보도), MARA홀딩스 및 스타우드 디지털벤처스 발표 자료, BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

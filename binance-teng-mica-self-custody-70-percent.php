@@ -320,40 +320,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스, 그리스發 MiCA 라이선스 좌절</a>:</strong> 이번 70% 통계의 배경이 된 그리스 인가 무산 사태 자체를 다룬 글</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA 전면 시행에 BNB체인, 자기수탁 이전 안내서 공개</a>:</strong> 같은 자기수탁 트렌드를 업계가 어떻게 기회로 활용하는지 보여주는 사례</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스, 그리스發 MiCA 라이선스 좌절</a>:</strong> 이번 70% 통계의 배경이 된 그리스 인가 무산 사태 자체를 다룬 글</li>
+    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide">MiCA 전면 시행에 BNB체인, 자기수탁 이전 안내서 공개</a>:</strong> 같은 자기수탁 트렌드를 업계가 어떻게 기회로 활용하는지 보여주는 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance's Greek MiCA License Bid Falls Apart</a>:</strong> The failed Greek authorization that set the stage for this 70% statistic</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">As MiCA Kicks In, BNB Chain Publishes a Self-Custody Migration Guide</a>:</strong> How another part of the industry is turning the same self-custody trend into an opportunity</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance's Greek MiCA License Bid Falls Apart</a>:</strong> The failed Greek authorization that set the stage for this 70% statistic</li>
+    <li><strong><a href="/en/blog/bnb-chain-self-custody-mica-migration-guide">As MiCA Kicks In, BNB Chain Publishes a Self-Custody Migration Guide</a>:</strong> How another part of the industry is turning the same self-custody trend into an opportunity</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance、ギリシャ経由のMiCAライセンス取得が頓挫</a>:</strong> 今回の70%統計の背景となったギリシャ認可挫折そのものを扱った記事</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA全面施行、BNBチェーンが自己保管への移行ガイドを公開</a>:</strong> 同じ自己保管トレンドを業界が別の形で機会として活用する事例</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">Binance、ギリシャ経由のMiCAライセンス取得が頓挫</a>:</strong> 今回の70%統計の背景となったギリシャ認可挫折そのものを扱った記事</li>
+    <li><strong><a href="/ja/blog/bnb-chain-self-custody-mica-migration-guide">MiCA全面施行、BNBチェーンが自己保管への移行ガイドを公開</a>:</strong> 同じ自己保管トレンドを業界が別の形で機会として活用する事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">El Revés de la Licencia MiCA de Binance en la UE</a>:</strong> El fallido trámite de autorización en Grecia que dio origen a esta estadística del 70%</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Con la plena aplicación de MiCA, BNB Chain publica una guía de migración a la autocustodia</a>:</strong> Cómo otra parte de la industria convierte la misma tendencia de autocustodia en una oportunidad</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">El Revés de la Licencia MiCA de Binance en la UE</a>:</strong> El fallido trámite de autorización en Grecia que dio origen a esta estadística del 70%</li>
+    <li><strong><a href="/es/blog/bnb-chain-self-custody-mica-migration-guide">Con la plena aplicación de MiCA, BNB Chain publica una guía de migración a la autocustodia</a>:</strong> Cómo otra parte de la industria convierte la misma tendencia de autocustodia en una oportunidad</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binances MiCA-Lizenz-Rückschlag in der EU</a>:</strong> Der gescheiterte griechische Genehmigungsversuch, der den Rahmen für diese 70%-Statistik bildete</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Mit dem vollen MiCA-Start veröffentlicht BNB Chain einen Self-Custody-Migrationsleitfaden</a>:</strong> Wie ein anderer Teil der Branche denselben Self-Custody-Trend in eine Chance verwandelt</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binances MiCA-Lizenz-Rückschlag in der EU</a>:</strong> Der gescheiterte griechische Genehmigungsversuch, der den Rahmen für diese 70%-Statistik bildete</li>
+    <li><strong><a href="/de/blog/bnb-chain-self-custody-mica-migration-guide">Mit dem vollen MiCA-Start veröffentlicht BNB Chain einen Self-Custody-Migrationsleitfaden</a>:</strong> Wie ein anderer Teil der Branche denselben Self-Custody-Trend in eine Chance verwandelt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Le Revers de la Licence MiCA de Binance en Europe</a> :</strong> L'échec de l'autorisation grecque à l'origine de cette statistique de 70%</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA entrant en vigueur, BNB Chain publie un guide de migration vers l'auto-conservation</a> :</strong> Comment une autre partie du secteur transforme la même tendance en opportunité</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">Le Revers de la Licence MiCA de Binance en Europe</a> :</strong> L'échec de l'autorisation grecque à l'origine de cette statistique de 70%</li>
+    <li><strong><a href="/fr/blog/bnb-chain-self-custody-mica-migration-guide">MiCA entrant en vigueur, BNB Chain publie un guide de migration vers l'auto-conservation</a> :</strong> Comment une autre partie du secteur transforme la même tendance en opportunité</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">O Revés da Licença MiCA da Binance na UE</a>:</strong> O fracasso da autorização grega que deu origem a esta estatística de 70%</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Com a plena vigência do MiCA, a BNB Chain publica um guia de migração para a autocustódia</a>:</strong> Como outra parte do setor transforma a mesma tendência em oportunidade</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">O Revés da Licença MiCA da Binance na UE</a>:</strong> O fracasso da autorização grega que deu origem a esta estatística de 70%</li>
+    <li><strong><a href="/pt/blog/bnb-chain-self-custody-mica-migration-guide">Com a plena vigência do MiCA, a BNB Chain publica um guia de migração para a autocustódia</a>:</strong> Como outra parte do setor transforma a mesma tendência em oportunidade</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance'in AB MiCA Lisansı Girişiminde Aksaklık</a>:</strong> Bu %70'lik istatistiğin zeminini oluşturan başarısız Yunanistan yetkilendirmesi</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA tam yürürlüğe girerken BNB Chain öz-saklamaya geçiş kılavuzu yayımladı</a>:</strong> Sektörün başka bir kesiminin aynı trendi nasıl fırsata çevirdiği</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance'in AB MiCA Lisansı Girişiminde Aksaklık</a>:</strong> Bu %70'lik istatistiğin zeminini oluşturan başarısız Yunanistan yetkilendirmesi</li>
+    <li><strong><a href="/tr/blog/bnb-chain-self-custody-mica-migration-guide">MiCA tam yürürlüğe girerken BNB Chain öz-saklamaya geçiş kılavuzu yayımladı</a>:</strong> Sektörün başka bir kesiminin aynı trendi nasıl fırsata çevirdiği</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Gặp Trở Ngại Với Giấy Phép MiCA Tại EU</a>:</strong> Nỗ lực cấp phép thất bại tại Hy Lạp đã tạo tiền đề cho thống kê 70% này</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Khi MiCA có hiệu lực, BNB Chain công bố hướng dẫn chuyển sang tự lưu ký</a>:</strong> Cách một phần khác của ngành biến cùng một xu hướng thành cơ hội</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Binance Gặp Trở Ngại Với Giấy Phép MiCA Tại EU</a>:</strong> Nỗ lực cấp phép thất bại tại Hy Lạp đã tạo tiền đề cho thống kê 70% này</li>
+    <li><strong><a href="/vi/blog/bnb-chain-self-custody-mica-migration-guide">Khi MiCA có hiệu lực, BNB Chain công bố hướng dẫn chuyển sang tự lưu ký</a>:</strong> Cách một phần khác của ngành biến cùng một xu hướng thành cơ hội</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 로이터(NEXT 아시아 발언), 크립토타임스, 코인트리뷴, 코인텔레그래프(트레이딩뷰 경유), 비인크립토, 야후파이낸스, 워처구루, 크립(Cryip), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 이후 공식 통계로 변경될 수 있다. 본 글은 투자 조언이 아니다.</p>

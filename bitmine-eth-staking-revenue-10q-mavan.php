@@ -328,31 +328,31 @@
 <div class="box vi">💡 <strong>Chốt lại:</strong> Báo cáo 10-Q của Bitmine cho quý kết thúc vào tháng 5 cho thấy doanh thu staking ETH đạt 45,7 triệu USD, chiếm 98% tổng doanh số. Nhưng trong cùng cấu trúc kế toán đó, các khoản lỗ chưa thực hiện từ việc giá ETH giảm đã dao động ở mức hàng tỷ USD — doanh thu staking là có thật, nhưng hướng đi giá ETH vẫn chi phối giá trị tài sản ròng của công ty.</div>
 
 <ul class="ko">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">비트마인의 '5% 연금술' 전략</a>:</strong> 톰 리 회장이 밝힌 유통량 5% 확보 목표와 이번 스테이킹 매출의 배경</li>
+  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent">비트마인의 '5% 연금술' 전략</a>:</strong> 톰 리 회장이 밝힌 유통량 5% 확보 목표와 이번 스테이킹 매출의 배경</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">Bitmine's "5% alchemy" strategy</a>:</strong> Chairman Tom Lee's target of controlling 5% of ETH supply, and the backdrop for this staking revenue</li>
+  <li><strong><a href="/en/blog/bitmine-ethereum-treasury-alchemy-5-percent">Bitmine's "5% alchemy" strategy</a>:</strong> Chairman Tom Lee's target of controlling 5% of ETH supply, and the backdrop for this staking revenue</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">ビットマインの「5%錬金術」戦略</a>:</strong> トム・リー会長が掲げるETH流通量5%確保という目標と、今回のステーキング収益の背景</li>
+  <li><strong><a href="/ja/blog/bitmine-ethereum-treasury-alchemy-5-percent">ビットマインの「5%錬金術」戦略</a>:</strong> トム・リー会長が掲げるETH流通量5%確保という目標と、今回のステーキング収益の背景</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">La estrategia de "alquimia del 5%" de Bitmine</a>:</strong> El objetivo del presidente Tom Lee de controlar el 5% del suministro de ETH, y el contexto de estos ingresos por staking</li>
+  <li><strong><a href="/es/blog/bitmine-ethereum-treasury-alchemy-5-percent">La estrategia de "alquimia del 5%" de Bitmine</a>:</strong> El objetivo del presidente Tom Lee de controlar el 5% del suministro de ETH, y el contexto de estos ingresos por staking</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">Bitmines „5%-Alchemie"-Strategie</a>:</strong> Chairman Tom Lees Ziel, 5% des ETH-Angebots zu kontrollieren, und der Hintergrund dieses Staking-Umsatzes</li>
+  <li><strong><a href="/de/blog/bitmine-ethereum-treasury-alchemy-5-percent">Bitmines „5%-Alchemie"-Strategie</a>:</strong> Chairman Tom Lees Ziel, 5% des ETH-Angebots zu kontrollieren, und der Hintergrund dieses Staking-Umsatzes</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">La stratégie « alchimie des 5% » de Bitmine</a>:</strong> L'objectif du président Tom Lee de contrôler 5% de l'offre d'ETH, et le contexte de ces revenus de staking</li>
+  <li><strong><a href="/fr/blog/bitmine-ethereum-treasury-alchemy-5-percent">La stratégie « alchimie des 5% » de Bitmine</a>:</strong> L'objectif du président Tom Lee de contrôler 5% de l'offre d'ETH, et le contexte de ces revenus de staking</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">A estratégia de "alquimia dos 5%" da Bitmine</a>:</strong> A meta do presidente Tom Lee de controlar 5% da oferta de ETH, e o contexto por trás dessa receita de staking</li>
+  <li><strong><a href="/pt/blog/bitmine-ethereum-treasury-alchemy-5-percent">A estratégia de "alquimia dos 5%" da Bitmine</a>:</strong> A meta do presidente Tom Lee de controlar 5% da oferta de ETH, e o contexto por trás dessa receita de staking</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">Bitmine'ın "%5 simyası" stratejisi</a>:</strong> Başkan Tom Lee'nin ETH arzının %5'ini kontrol etme hedefi ve bu staking gelirinin arka planı</li>
+  <li><strong><a href="/tr/blog/bitmine-ethereum-treasury-alchemy-5-percent">Bitmine'ın "%5 simyası" stratejisi</a>:</strong> Başkan Tom Lee'nin ETH arzının %5'ini kontrol etme hedefi ve bu staking gelirinin arka planı</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/bitmine-ethereum-treasury-alchemy-5-percent.php">Chiến lược "giả kim 5%" của Bitmine</a>:</strong> Mục tiêu của Chủ tịch Tom Lee kiểm soát 5% nguồn cung ETH, và bối cảnh của khoản doanh thu staking này</li>
+  <li><strong><a href="/vi/blog/bitmine-ethereum-treasury-alchemy-5-percent">Chiến lược "giả kim 5%" của Bitmine</a>:</strong> Mục tiêu của Chủ tịch Tom Lee kiểm soát 5% nguồn cung ETH, và bối cảnh của khoản doanh thu staking này</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 비트마인 이머전 테크놀로지스 SEC 10-Q 공시, 코인텔레그래프(Cointelegraph), 스톡타이탄(StockTitan), 크립토타임스(CryptoTimes), 코인데스크(CoinDesk). 매출·손실 등 수치는 각 공시·보도 시점 기준이며 향후 바뀔 수 있다.</p>

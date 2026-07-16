@@ -290,40 +290,40 @@
   <p class="vi">Kinh nghiệm trong quá khứ khuyên nên thận trọng. Những nỗ lực gắn công nghệ thanh toán mới vào các chương trình tiền tệ địa phương và phiếu mua hàng công không có gì mới đối với các chính quyền địa phương Hàn Quốc — hầu hết đều bị đình trệ ở giai đoạn thí điểm quy mô nhỏ mà không tiến xa hơn. Các thử nghiệm khái niệm stablecoin won do ngân hàng dẫn dắt cũng không ngoại lệ, đều dừng lại ở "chứng minh khái niệm", chưa có trường hợp nào được chuyển đổi thành dịch vụ thương mại. Quyết định của Gyeonggi khi ấn định một ngày kết thúc chắc chắn vào tháng 2 năm 2027 và tách riêng một giai đoạn "đánh giá tính phù hợp để triển khai" đọc như một nỗ lực nhằm tránh khuôn mẫu quen thuộc của các thí điểm vô tận — nhưng nó cũng để ngỏ khả năng rằng thí điểm này cũng có thể bị đình trệ ở giai đoạn đánh giá giống như nhiều thí điểm khác. Điều thực sự đáng theo dõi, do đó, không phải là thành công hay thất bại trừu tượng của công nghệ, mà là liệu môi trường thử nghiệm từ tháng 10 đến tháng 12 có thể xử lý các giao dịch ở quy mô của người nhận thực tế mà không gặp trở ngại hay không, và liệu kết quả đó có thực sự chuyển thành một khoản mục ngân sách hay không.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">원화 스테이블코인, 누가 발행하나 — 한국은행 vs 금융위 '51% 은행 지분' 대치</a>:</strong> 경기도 실증의 배경이 되는 발행 주체 논쟁</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">토스, 옵티미즘·선사이드랩스와 손잡고 원화 스테이블코인 인프라 PoC 착수</a>:</strong> 은행권과 별개로 진행 중인 핀테크발 원화 스테이블코인 PoC</li>
+    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff">원화 스테이블코인, 누가 발행하나 — 한국은행 vs 금융위 '51% 은행 지분' 대치</a>:</strong> 경기도 실증의 배경이 되는 발행 주체 논쟁</li>
+    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc">토스, 옵티미즘·선사이드랩스와 손잡고 원화 스테이블코인 인프라 PoC 착수</a>:</strong> 은행권과 별개로 진행 중인 핀테크발 원화 스테이블코인 PoC</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Who Issues a Won Stablecoin — Bank of Korea vs FSC Clash Over the '51% Bank Stake'</a>:</strong> The issuer-authority dispute forming the backdrop to Gyeonggi's pilot</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss Partners With Optimism and Sunnyside Labs to Test KRW Stablecoin Infrastructure</a>:</strong> A separate, fintech-led won stablecoin PoC running alongside the bank-led wave</li>
+    <li><strong><a href="/en/blog/korea-won-stablecoin-bank-issuance-standoff">Who Issues a Won Stablecoin — Bank of Korea vs FSC Clash Over the '51% Bank Stake'</a>:</strong> The issuer-authority dispute forming the backdrop to Gyeonggi's pilot</li>
+    <li><strong><a href="/en/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss Partners With Optimism and Sunnyside Labs to Test KRW Stablecoin Infrastructure</a>:</strong> A separate, fintech-led won stablecoin PoC running alongside the bank-led wave</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">ウォンステーブルコイン、誰が発行するのか — 韓国銀行 対 金融委「51%銀行持分」対峙</a>:</strong> 京畿道実証の背景にある発行主体論争</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">トス、オプティミズム・サンサイドラボと組みウォンステーブルコインインフラPoCに着手</a>:</strong> 銀行圏とは別に進む、フィンテック発のウォンステーブルコインPoC</li>
+    <li><strong><a href="/ja/blog/korea-won-stablecoin-bank-issuance-standoff">ウォンステーブルコイン、誰が発行するのか — 韓国銀行 対 金融委「51%銀行持分」対峙</a>:</strong> 京畿道実証の背景にある発行主体論争</li>
+    <li><strong><a href="/ja/blog/toss-optimism-sunnyside-krw-stablecoin-poc">トス、オプティミズム・サンサイドラボと組みウォンステーブルコインインフラPoCに着手</a>:</strong> 銀行圏とは別に進む、フィンテック発のウォンステーブルコインPoC</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Quién Emite una Stablecoin en Wones — Banco de Corea vs FSC por la 'Participación Bancaria del 51%'</a>:</strong> La disputa sobre la autoridad emisora que enmarca el piloto de Gyeonggi</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss se Asocia con Optimism y Sunnyside Labs para Probar la Infraestructura de Stablecoin en KRW</a>:</strong> Una PoC de stablecoin en wones liderada por fintech, separada de la ola bancaria</li>
+    <li><strong><a href="/es/blog/korea-won-stablecoin-bank-issuance-standoff">Quién Emite una Stablecoin en Wones — Banco de Corea vs FSC por la 'Participación Bancaria del 51%'</a>:</strong> La disputa sobre la autoridad emisora que enmarca el piloto de Gyeonggi</li>
+    <li><strong><a href="/es/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss se Asocia con Optimism y Sunnyside Labs para Probar la Infraestructura de Stablecoin en KRW</a>:</strong> Una PoC de stablecoin en wones liderada por fintech, separada de la ola bancaria</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Wer Gibt Einen Won-Stablecoin Aus — Bank of Korea vs. FSC im Streit um den '51%-Bankanteil'</a>:</strong> Der Streit um die Emissionsbefugnis, vor dessen Hintergrund Gyeonggis Pilot steht</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss Testet mit Optimism und Sunnyside Labs eine KRW-Stablecoin-Infrastruktur</a>:</strong> Eine separate, fintech-geführte Won-Stablecoin-PoC neben der bankgeführten Welle</li>
+    <li><strong><a href="/de/blog/korea-won-stablecoin-bank-issuance-standoff">Wer Gibt Einen Won-Stablecoin Aus — Bank of Korea vs. FSC im Streit um den '51%-Bankanteil'</a>:</strong> Der Streit um die Emissionsbefugnis, vor dessen Hintergrund Gyeonggis Pilot steht</li>
+    <li><strong><a href="/de/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss Testet mit Optimism und Sunnyside Labs eine KRW-Stablecoin-Infrastruktur</a>:</strong> Eine separate, fintech-geführte Won-Stablecoin-PoC neben der bankgeführten Welle</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Qui Émet un Stablecoin en Wons — La Banque de Corée contre la FSC sur la 'Participation Bancaire de 51 %'</a>:</strong> Le différend sur l'autorité d'émission qui sert de toile de fond au pilote de Gyeonggi</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss S'associe à Optimism et Sunnyside Labs pour Tester une Infrastructure de Stablecoin en KRW</a>:</strong> Une PoC de stablecoin en wons menée par la fintech, distincte de la vague bancaire</li>
+    <li><strong><a href="/fr/blog/korea-won-stablecoin-bank-issuance-standoff">Qui Émet un Stablecoin en Wons — La Banque de Corée contre la FSC sur la 'Participation Bancaire de 51 %'</a>:</strong> Le différend sur l'autorité d'émission qui sert de toile de fond au pilote de Gyeonggi</li>
+    <li><strong><a href="/fr/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss S'associe à Optimism et Sunnyside Labs pour Tester une Infrastructure de Stablecoin en KRW</a>:</strong> Une PoC de stablecoin en wons menée par la fintech, distincte de la vague bancaire</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Quem Emite uma Stablecoin em Won — Banco da Coreia vs FSC no Embate pela 'Participação Bancária de 51%'</a>:</strong> A disputa sobre a autoridade emissora que serve de pano de fundo ao piloto de Gyeonggi</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss se Associa à Optimism e Sunnyside Labs para Testar Infraestrutura de Stablecoin em KRW</a>:</strong> Uma PoC de stablecoin em won liderada por fintech, separada da onda bancária</li>
+    <li><strong><a href="/pt/blog/korea-won-stablecoin-bank-issuance-standoff">Quem Emite uma Stablecoin em Won — Banco da Coreia vs FSC no Embate pela 'Participação Bancária de 51%'</a>:</strong> A disputa sobre a autoridade emissora que serve de pano de fundo ao piloto de Gyeonggi</li>
+    <li><strong><a href="/pt/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss se Associa à Optimism e Sunnyside Labs para Testar Infraestrutura de Stablecoin em KRW</a>:</strong> Uma PoC de stablecoin em won liderada por fintech, separada da onda bancária</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Won Stabilcoinini Kim İhraç Ediyor — Kore Bankası ile FSC 'Yüzde 51 Banka Payı' Konusunda Çatışıyor</a>:</strong> Gyeonggi pilotunun arka planını oluşturan ihraç yetkisi anlaşmazlığı</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss, KRW Stabilcoin Altyapısını Test Etmek İçin Optimism ve Sunnyside Labs İle Ortak Oldu</a>:</strong> Banka öncülüğündeki dalgadan ayrı yürüyen, fintek öncülüğünde bir won stabilcoin kavram kanıtı</li>
+    <li><strong><a href="/tr/blog/korea-won-stablecoin-bank-issuance-standoff">Won Stabilcoinini Kim İhraç Ediyor — Kore Bankası ile FSC 'Yüzde 51 Banka Payı' Konusunda Çatışıyor</a>:</strong> Gyeonggi pilotunun arka planını oluşturan ihraç yetkisi anlaşmazlığı</li>
+    <li><strong><a href="/tr/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss, KRW Stabilcoin Altyapısını Test Etmek İçin Optimism ve Sunnyside Labs İle Ortak Oldu</a>:</strong> Banka öncülüğündeki dalgadan ayrı yürüyen, fintek öncülüğünde bir won stabilcoin kavram kanıtı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/korea-won-stablecoin-bank-issuance-standoff.php">Ai Phát Hành Stablecoin Won — Ngân Hàng Trung Ương Hàn Quốc và FSC Đối Đầu Về 'Tỷ Lệ Sở Hữu Ngân Hàng 51%'</a>:</strong> Tranh chấp về thẩm quyền phát hành làm bối cảnh cho thí điểm của Gyeonggi</li>
-    <li><strong><a href="/blog/toss-optimism-sunnyside-krw-stablecoin-poc.php">Toss Hợp Tác Với Optimism và Sunnyside Labs Để Thử Nghiệm Hạ Tầng Stablecoin KRW</a>:</strong> Một thử nghiệm khái niệm stablecoin won riêng biệt do fintech dẫn dắt, song song với làn sóng do ngân hàng dẫn dắt</li>
+    <li><strong><a href="/vi/blog/korea-won-stablecoin-bank-issuance-standoff">Ai Phát Hành Stablecoin Won — Ngân Hàng Trung Ương Hàn Quốc và FSC Đối Đầu Về 'Tỷ Lệ Sở Hữu Ngân Hàng 51%'</a>:</strong> Tranh chấp về thẩm quyền phát hành làm bối cảnh cho thí điểm của Gyeonggi</li>
+    <li><strong><a href="/vi/blog/toss-optimism-sunnyside-krw-stablecoin-poc">Toss Hợp Tác Với Optimism và Sunnyside Labs Để Thử Nghiệm Hạ Tầng Stablecoin KRW</a>:</strong> Một thử nghiệm khái niệm stablecoin won riêng biệt do fintech dẫn dắt, song song với làn sóng do ngân hàng dẫn dắt</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토타임스(경기도 스테이블코인 실증사업 보도), 크립토뉴스(정부 파일럿 실증 배경 보도), 크립토브리핑(8월 실증 일정 보도), 블루밍빗(지크립토 선정·기술 상세 보도), 다음뉴스(4월 청년기본소득 적용 검토 타당성조사 보도). 이 글은 투자 조언이 아니다.</p>

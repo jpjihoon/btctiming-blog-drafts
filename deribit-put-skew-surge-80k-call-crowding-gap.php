@@ -469,58 +469,58 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">오일은 급등하고 금은 등을 돌렸다 — 비트코인 파생시장은 이미 롱에 쏠려 있지 않았다</a>:</strong> 이번 글의 배경이 된 매크로 충격과 펀딩비·청산 데이터</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">CME 옵션시장은 6분의 1로 쪼그라들었는데, 디리빗은 12만 달러 콜에 7,527 BTC를 걸었다</a>:</strong> 같은 '옵션 낙관 vs 현물 방어' 구도를 장기물·거래소간 비교로</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">비트코인 $63,000 회복, 그런데 옵션 시장은 아직도 풋에 웃돈을 준다</a>:</strong> 이번에 다시 상승한 스큐가 어디서 출발했는지</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">선물 오픈 인터레스트 빠르게 복귀 — 그런데 롱숏비율은 아직 안 쏠렸다</a>:</strong> 선물 쪽 디레버리징 배경</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap">오일은 급등하고 금은 등을 돌렸다 — 비트코인 파생시장은 이미 롱에 쏠려 있지 않았다</a>:</strong> 이번 글의 배경이 된 매크로 충격과 펀딩비·청산 데이터</li>
+    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap">CME 옵션시장은 6분의 1로 쪼그라들었는데, 디리빗은 12만 달러 콜에 7,527 BTC를 걸었다</a>:</strong> 같은 '옵션 낙관 vs 현물 방어' 구도를 장기물·거래소간 비교로</li>
+    <li><strong><a href="/blog/options-skew-not-confirming-rebound">비트코인 $63,000 회복, 그런데 옵션 시장은 아직도 풋에 웃돈을 준다</a>:</strong> 이번에 다시 상승한 스큐가 어디서 출발했는지</li>
+    <li><strong><a href="/blog/oi-rebuild-balanced-positioning">선물 오픈 인터레스트 빠르게 복귀 — 그런데 롱숏비율은 아직 안 쏠렸다</a>:</strong> 선물 쪽 디레버리징 배경</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Oil Spiked and Gold Turned Its Back — Bitcoin's Derivatives Market Wasn't Crowded Long to Begin With</a>:</strong> The macro shock and funding/liquidation backdrop behind this piece</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">CME's Options Market Has Shrunk to a Sixth of Its Size — While Deribit Just Piled 7,527 BTC Into a $120K Call</a>:</strong> The same optimism-vs-caution split, seen through long-dated strikes and venue comparison</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Reclaimed $63,000 — Options Traders Are Still Paying Up for Puts</a>:</strong> Where this week's renewed skew climb started from</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Futures Open Interest Is Rebuilding Fast — But Long/Short Positioning Isn't Yet</a>:</strong> The backdrop to the futures-side deleveraging</li>
+    <li><strong><a href="/en/blog/iran-shock-derivatives-positioning-gap">Oil Spiked and Gold Turned Its Back — Bitcoin's Derivatives Market Wasn't Crowded Long to Begin With</a>:</strong> The macro shock and funding/liquidation backdrop behind this piece</li>
+    <li><strong><a href="/en/blog/cme-options-collapse-120k-call-speculation-gap">CME's Options Market Has Shrunk to a Sixth of Its Size — While Deribit Just Piled 7,527 BTC Into a $120K Call</a>:</strong> The same optimism-vs-caution split, seen through long-dated strikes and venue comparison</li>
+    <li><strong><a href="/en/blog/options-skew-not-confirming-rebound">Bitcoin Reclaimed $63,000 — Options Traders Are Still Paying Up for Puts</a>:</strong> Where this week's renewed skew climb started from</li>
+    <li><strong><a href="/en/blog/oi-rebuild-balanced-positioning">Futures Open Interest Is Rebuilding Fast — But Long/Short Positioning Isn't Yet</a>:</strong> The backdrop to the futures-side deleveraging</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">原油は急騰し金は背を向けた — ビットコインのデリバティブ市場はもともとロングに偏っていなかった</a>:</strong> この記事の背景となったマクロショックと資金調達率・清算データ</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">CMEのオプション市場は6分の1に縮小、ディリビットは12万ドルコールに7,527 BTCを賭けた</a>:</strong> 同じ「オプションの楽観 vs 現物の防御」構図を長期物・取引所間比較で</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">ビットコイン6万3,000ドル回復、それでもオプション市場は依然プットに割増料金を払う</a>:</strong> 今回再上昇したスキューの出発点</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">先物オープンインタレストは急速に回復 — しかしロングショート比率はまだ偏っていない</a>:</strong> 先物側のデレバレッジの背景</li>
+    <li><strong><a href="/ja/blog/iran-shock-derivatives-positioning-gap">原油は急騰し金は背を向けた — ビットコインのデリバティブ市場はもともとロングに偏っていなかった</a>:</strong> この記事の背景となったマクロショックと資金調達率・清算データ</li>
+    <li><strong><a href="/ja/blog/cme-options-collapse-120k-call-speculation-gap">CMEのオプション市場は6分の1に縮小、ディリビットは12万ドルコールに7,527 BTCを賭けた</a>:</strong> 同じ「オプションの楽観 vs 現物の防御」構図を長期物・取引所間比較で</li>
+    <li><strong><a href="/ja/blog/options-skew-not-confirming-rebound">ビットコイン6万3,000ドル回復、それでもオプション市場は依然プットに割増料金を払う</a>:</strong> 今回再上昇したスキューの出発点</li>
+    <li><strong><a href="/ja/blog/oi-rebuild-balanced-positioning">先物オープンインタレストは急速に回復 — しかしロングショート比率はまだ偏っていない</a>:</strong> 先物側のデレバレッジの背景</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">El Petróleo Se Disparó y el Oro Le Dio la Espalda — El Mercado de Derivados de Bitcoin No Estaba Abarrotado de Largos</a>:</strong> El shock macro y los datos de financiación/liquidaciones detrás de este artículo</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">El Mercado de Opciones de CME Se Redujo a una Sexta Parte — Mientras Deribit Apiló 7.527 BTC en una Call de 120K</a>:</strong> La misma división optimismo-vs-cautela, vista a través de strikes de largo plazo y comparación entre plataformas</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Recuperó los 63.000 $, Pero los Operadores de Opciones Siguen Pagando de Más por Puts</a>:</strong> De dónde partió el nuevo repunte del sesgo esta semana</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">El Interés Abierto de Futuros Se Reconstruye Rápido — Pero el Posicionamiento Largo/Corto Aún No</a>:</strong> El contexto del desapalancamiento en futuros</li>
+    <li><strong><a href="/es/blog/iran-shock-derivatives-positioning-gap">El Petróleo Se Disparó y el Oro Le Dio la Espalda — El Mercado de Derivados de Bitcoin No Estaba Abarrotado de Largos</a>:</strong> El shock macro y los datos de financiación/liquidaciones detrás de este artículo</li>
+    <li><strong><a href="/es/blog/cme-options-collapse-120k-call-speculation-gap">El Mercado de Opciones de CME Se Redujo a una Sexta Parte — Mientras Deribit Apiló 7.527 BTC en una Call de 120K</a>:</strong> La misma división optimismo-vs-cautela, vista a través de strikes de largo plazo y comparación entre plataformas</li>
+    <li><strong><a href="/es/blog/options-skew-not-confirming-rebound">Bitcoin Recuperó los 63.000 $, Pero los Operadores de Opciones Siguen Pagando de Más por Puts</a>:</strong> De dónde partió el nuevo repunte del sesgo esta semana</li>
+    <li><strong><a href="/es/blog/oi-rebuild-balanced-positioning">El Interés Abierto de Futuros Se Reconstruye Rápido — Pero el Posicionamiento Largo/Corto Aún No</a>:</strong> El contexto del desapalancamiento en futuros</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Öl Schoss Hoch und Gold Kehrte den Rücken — Bitcoins Derivatemarkt War Nicht Mit Long-Positionen Überfüllt</a>:</strong> Der Makroschock und die Funding-/Liquidations-Daten hinter diesem Beitrag</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">CMEs Optionsmarkt Ist Auf Ein Sechstel Geschrumpft — Während Deribit Gerade 7.527 BTC in Einen 120K-Call Steckte</a>:</strong> Dieselbe Optimismus-vs-Vorsicht-Spaltung, gesehen über langfristige Strikes und Börsenvergleich</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Holte Sich 63.000 $ Zurück — Optionshändler Zahlen Immer Noch Aufpreis für Puts</a>:</strong> Wo der erneute Skew-Anstieg dieser Woche seinen Ursprung hatte</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Futures-Open-Interest Baut Sich Schnell Wieder Auf — Aber Long/Short-Positionierung Noch Nicht</a>:</strong> Der Hintergrund zur Entschuldung auf der Futures-Seite</li>
+    <li><strong><a href="/de/blog/iran-shock-derivatives-positioning-gap">Öl Schoss Hoch und Gold Kehrte den Rücken — Bitcoins Derivatemarkt War Nicht Mit Long-Positionen Überfüllt</a>:</strong> Der Makroschock und die Funding-/Liquidations-Daten hinter diesem Beitrag</li>
+    <li><strong><a href="/de/blog/cme-options-collapse-120k-call-speculation-gap">CMEs Optionsmarkt Ist Auf Ein Sechstel Geschrumpft — Während Deribit Gerade 7.527 BTC in Einen 120K-Call Steckte</a>:</strong> Dieselbe Optimismus-vs-Vorsicht-Spaltung, gesehen über langfristige Strikes und Börsenvergleich</li>
+    <li><strong><a href="/de/blog/options-skew-not-confirming-rebound">Bitcoin Holte Sich 63.000 $ Zurück — Optionshändler Zahlen Immer Noch Aufpreis für Puts</a>:</strong> Wo der erneute Skew-Anstieg dieser Woche seinen Ursprung hatte</li>
+    <li><strong><a href="/de/blog/oi-rebuild-balanced-positioning">Futures-Open-Interest Baut Sich Schnell Wieder Auf — Aber Long/Short-Positionierung Noch Nicht</a>:</strong> Der Hintergrund zur Entschuldung auf der Futures-Seite</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Le Pétrole a Flambé et l'Or a Tourné le Dos — Le Marché des Dérivés Bitcoin N'était Pas Encombré de Positions Longues</a>:</strong> Le choc macro et les données de funding/liquidations derrière cet article</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">Le Marché des Options du CME S'est Réduit au Sixième de Sa Taille — Pendant Que Deribit Empilait 7 527 BTC Dans un Call à 120K</a>:</strong> La même division optimisme-vs-prudence, vue à travers les strikes longs et la comparaison entre plateformes</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Le Bitcoin a Repris les 63 000 $, Mais les Traders d'Options Paient Toujours une Surprime sur les Puts</a>:</strong> D'où est parti le regain du skew cette semaine</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">L'Open Interest des Futures Se Reconstitue Vite — Mais Pas Encore le Positionnement Long/Short</a>:</strong> Le contexte du désendettement côté futures</li>
+    <li><strong><a href="/fr/blog/iran-shock-derivatives-positioning-gap">Le Pétrole a Flambé et l'Or a Tourné le Dos — Le Marché des Dérivés Bitcoin N'était Pas Encombré de Positions Longues</a>:</strong> Le choc macro et les données de funding/liquidations derrière cet article</li>
+    <li><strong><a href="/fr/blog/cme-options-collapse-120k-call-speculation-gap">Le Marché des Options du CME S'est Réduit au Sixième de Sa Taille — Pendant Que Deribit Empilait 7 527 BTC Dans un Call à 120K</a>:</strong> La même division optimisme-vs-prudence, vue à travers les strikes longs et la comparaison entre plateformes</li>
+    <li><strong><a href="/fr/blog/options-skew-not-confirming-rebound">Le Bitcoin a Repris les 63 000 $, Mais les Traders d'Options Paient Toujours une Surprime sur les Puts</a>:</strong> D'où est parti le regain du skew cette semaine</li>
+    <li><strong><a href="/fr/blog/oi-rebuild-balanced-positioning">L'Open Interest des Futures Se Reconstitue Vite — Mais Pas Encore le Positionnement Long/Short</a>:</strong> Le contexte du désendettement côté futures</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">O Petróleo Disparou e o Ouro Virou as Costas — O Mercado de Derivativos do Bitcoin Não Estava Lotado de Posições Compradas</a>:</strong> O choque macro e os dados de funding/liquidações por trás deste texto</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">O Mercado de Opções da CME Encolheu para um Sexto do Tamanho — Enquanto a Deribit Empilhou 7.527 BTC em uma Call de 120K</a>:</strong> A mesma divisão otimismo-vs-cautela, vista por strikes de longo prazo e comparação entre corretoras</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Recuperou os US$ 63.000, Mas os Traders de Opções Ainda Pagam Mais Caro pelas Puts</a>:</strong> De onde partiu a nova alta do skew nesta semana</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">O Open Interest de Futuros Está se Reconstruindo Rápido — Mas o Posicionamento Comprado/Vendido Ainda Não</a>:</strong> O contexto da desalavancagem do lado dos futuros</li>
+    <li><strong><a href="/pt/blog/iran-shock-derivatives-positioning-gap">O Petróleo Disparou e o Ouro Virou as Costas — O Mercado de Derivativos do Bitcoin Não Estava Lotado de Posições Compradas</a>:</strong> O choque macro e os dados de funding/liquidações por trás deste texto</li>
+    <li><strong><a href="/pt/blog/cme-options-collapse-120k-call-speculation-gap">O Mercado de Opções da CME Encolheu para um Sexto do Tamanho — Enquanto a Deribit Empilhou 7.527 BTC em uma Call de 120K</a>:</strong> A mesma divisão otimismo-vs-cautela, vista por strikes de longo prazo e comparação entre corretoras</li>
+    <li><strong><a href="/pt/blog/options-skew-not-confirming-rebound">Bitcoin Recuperou os US$ 63.000, Mas os Traders de Opções Ainda Pagam Mais Caro pelas Puts</a>:</strong> De onde partiu a nova alta do skew nesta semana</li>
+    <li><strong><a href="/pt/blog/oi-rebuild-balanced-positioning">O Open Interest de Futuros Está se Reconstruindo Rápido — Mas o Posicionamento Comprado/Vendido Ainda Não</a>:</strong> O contexto da desalavancagem do lado dos futuros</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Petrol Fırladı, Altın Sırtını Döndü — Bitcoin'in Türev Piyasası Zaten Long'a Sıkışmamıştı</a>:</strong> Bu yazının arka planındaki makro şok ve fonlama/tasfiye verileri</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">CME'nin Opsiyon Piyasası Altıda Birine Küçüldü — Deribit ise 120K'lık Call'a 7.527 BTC Yığdı</a>:</strong> Aynı iyimserlik-vs-temkin ayrımı, uzun vadeli strike'lar ve borsa karşılaştırmasıyla</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin 63.000 Doları Geri Aldı, Ama Opsiyon Yatırımcıları Hâlâ Put'lara Fazla Ödüyor</a>:</strong> Bu haftaki yeniden yükselişin skew açısından nereden başladığı</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Vadeli İşlem Açık Pozisyonu Hızla Toparlanıyor — Ama Long/Short Pozisyonlanması Henüz Değil</a>:</strong> Vadeli işlem tarafındaki kaldıraç azaltmanın arka planı</li>
+    <li><strong><a href="/tr/blog/iran-shock-derivatives-positioning-gap">Petrol Fırladı, Altın Sırtını Döndü — Bitcoin'in Türev Piyasası Zaten Long'a Sıkışmamıştı</a>:</strong> Bu yazının arka planındaki makro şok ve fonlama/tasfiye verileri</li>
+    <li><strong><a href="/tr/blog/cme-options-collapse-120k-call-speculation-gap">CME'nin Opsiyon Piyasası Altıda Birine Küçüldü — Deribit ise 120K'lık Call'a 7.527 BTC Yığdı</a>:</strong> Aynı iyimserlik-vs-temkin ayrımı, uzun vadeli strike'lar ve borsa karşılaştırmasıyla</li>
+    <li><strong><a href="/tr/blog/options-skew-not-confirming-rebound">Bitcoin 63.000 Doları Geri Aldı, Ama Opsiyon Yatırımcıları Hâlâ Put'lara Fazla Ödüyor</a>:</strong> Bu haftaki yeniden yükselişin skew açısından nereden başladığı</li>
+    <li><strong><a href="/tr/blog/oi-rebuild-balanced-positioning">Vadeli İşlem Açık Pozisyonu Hızla Toparlanıyor — Ama Long/Short Pozisyonlanması Henüz Değil</a>:</strong> Vadeli işlem tarafındaki kaldıraç azaltmanın arka planı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Dầu Tăng Vọt, Vàng Quay Lưng — Thị Trường Phái Sinh Bitcoin Vốn Không Chật Cứng Vị Thế Mua</a>:</strong> Cú sốc vĩ mô và dữ liệu funding/thanh lý làm nền cho bài viết này</li>
-    <li><strong><a href="/blog/cme-options-collapse-120k-call-speculation-gap.php">Thị Trường Quyền Chọn CME Thu Hẹp Còn Một Phần Sáu — Trong Khi Deribit Vừa Dồn 7.527 BTC Vào Call 120K</a>:</strong> Cùng thế phân hóa lạc quan-vs-thận trọng, nhìn qua các strike kỳ hạn dài và so sánh giữa các sàn</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Lấy Lại Mốc 63.000 USD, Nhưng Nhà Giao Dịch Quyền Chọn Vẫn Trả Giá Cao Cho Put</a>:</strong> Đợt tăng trở lại của độ lệch tuần này bắt đầu từ đâu</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Open Interest Hợp Đồng Tương Lai Đang Phục Hồi Nhanh — Nhưng Vị Thế Long/Short Thì Chưa</a>:</strong> Bối cảnh giảm đòn bẩy ở phía hợp đồng tương lai</li>
+    <li><strong><a href="/vi/blog/iran-shock-derivatives-positioning-gap">Dầu Tăng Vọt, Vàng Quay Lưng — Thị Trường Phái Sinh Bitcoin Vốn Không Chật Cứng Vị Thế Mua</a>:</strong> Cú sốc vĩ mô và dữ liệu funding/thanh lý làm nền cho bài viết này</li>
+    <li><strong><a href="/vi/blog/cme-options-collapse-120k-call-speculation-gap">Thị Trường Quyền Chọn CME Thu Hẹp Còn Một Phần Sáu — Trong Khi Deribit Vừa Dồn 7.527 BTC Vào Call 120K</a>:</strong> Cùng thế phân hóa lạc quan-vs-thận trọng, nhìn qua các strike kỳ hạn dài và so sánh giữa các sàn</li>
+    <li><strong><a href="/vi/blog/options-skew-not-confirming-rebound">Bitcoin Lấy Lại Mốc 63.000 USD, Nhưng Nhà Giao Dịch Quyền Chọn Vẫn Trả Giá Cao Cho Put</a>:</strong> Đợt tăng trở lại của độ lệch tuần này bắt đầu từ đâu</li>
+    <li><strong><a href="/vi/blog/oi-rebuild-balanced-positioning">Open Interest Hợp Đồng Tương Lai Đang Phục Hồi Nhanh — Nhưng Vị Thế Long/Short Thì Chưa</a>:</strong> Bối cảnh giảm đòn bẩy ở phía hợp đồng tương lai</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CoinDesk(옵션 스큐·가격 흐름·Daybook), Deribit Insights(스큐 방법론), Yahoo Finance, Fortune, cryptonews.com·cryptonews.net, Kavout Market Lens(옵션 만기·미결제약정), Bitget News·CryptoRank(8만 달러 콜 포지셔닝), CoinGlass(선물 미결제약정·공포탐욕지수), Farside Investors 경유 CoinDesk(ETF 자금 흐름 배경), BTCtiming.com 자체 분석. 수치는 2026년 7월 8일 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 시장 상태를 진단하는 콘텐츠이며 투자 조언이 아니다.</p>

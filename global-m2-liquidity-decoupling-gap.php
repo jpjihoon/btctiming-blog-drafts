@@ -463,58 +463,58 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">달러 인덱스 101.15 — 비트코인이 힘을 못 쓴 진짜 이유</a>:</strong> DXY-비트코인 관계의 기초를 다진 글</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 나스닥·금·달러 상관관계를 레버리지와 함께 짚은 글</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">ETF 자금, 사흘 만에 또 손바뀜</a>:</strong> 발행사별 ETF 자금 흐름을 더 자세히 다룬 글</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">아직 확인되지 않은 반등</a>:</strong> 공포지수·ETF·레버리지로 본 반등의 취약성 체크리스트</li>
+    <li><strong><a href="/blog/dxy-bitcoin-relationship">달러 인덱스 101.15 — 비트코인이 힘을 못 쓴 진짜 이유</a>:</strong> DXY-비트코인 관계의 기초를 다진 글</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 나스닥·금·달러 상관관계를 레버리지와 함께 짚은 글</li>
+    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap">ETF 자금, 사흘 만에 또 손바뀜</a>:</strong> 발행사별 ETF 자금 흐름을 더 자세히 다룬 글</li>
+    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026">아직 확인되지 않은 반등</a>:</strong> 공포지수·ETF·레버리지로 본 반등의 취약성 체크리스트</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Dollar Index at 101.15 — The Real Reason Bitcoin Struggled</a>:</strong> The foundational piece on the DXY-Bitcoin relationship</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> Nasdaq, gold and dollar correlations checked alongside leverage</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Bitcoin ETF Flows Flip Again in Three Days</a>:</strong> A closer look at issuer-by-issuer ETF flows</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">The Bounce That Hasn't Been Confirmed Yet</a>:</strong> A fragility checklist via sentiment, ETF flows, and leverage</li>
+    <li><strong><a href="/en/blog/dxy-bitcoin-relationship">Dollar Index at 101.15 — The Real Reason Bitcoin Struggled</a>:</strong> The foundational piece on the DXY-Bitcoin relationship</li>
+    <li><strong><a href="/en/blog/correlation-vacuum-oi-gap">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> Nasdaq, gold and dollar correlations checked alongside leverage</li>
+    <li><strong><a href="/en/blog/etf-issuer-flip-short-liquidation-gap">Bitcoin ETF Flows Flip Again in Three Days</a>:</strong> A closer look at issuer-by-issuer ETF flows</li>
+    <li><strong><a href="/en/blog/rebound-not-yet-confirmed-2026">The Bounce That Hasn't Been Confirmed Yet</a>:</strong> A fragility checklist via sentiment, ETF flows, and leverage</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">ドルインデックス101.15 — ビットコインが力を出せなかった本当の理由</a>:</strong> DXY-ビットコイン関係の基礎を築いた記事</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ビットコインの三つの羅針盤がバラバラを指す</a>:</strong> ナスダック・金・ドル相関をレバレッジと共に検証した記事</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">ETF資金、三日でまた入れ替わる</a>:</strong> 発行体別ETF資金の流れをより詳しく扱った記事</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">まだ確認されていない反発</a>:</strong> 恐怖指数・ETF・レバレッジで見る反発の脆弱性チェックリスト</li>
+    <li><strong><a href="/ja/blog/dxy-bitcoin-relationship">ドルインデックス101.15 — ビットコインが力を出せなかった本当の理由</a>:</strong> DXY-ビットコイン関係の基礎を築いた記事</li>
+    <li><strong><a href="/ja/blog/correlation-vacuum-oi-gap">ビットコインの三つの羅針盤がバラバラを指す</a>:</strong> ナスダック・金・ドル相関をレバレッジと共に検証した記事</li>
+    <li><strong><a href="/ja/blog/etf-issuer-flip-short-liquidation-gap">ETF資金、三日でまた入れ替わる</a>:</strong> 発行体別ETF資金の流れをより詳しく扱った記事</li>
+    <li><strong><a href="/ja/blog/rebound-not-yet-confirmed-2026">まだ確認されていない反発</a>:</strong> 恐怖指数・ETF・レバレッジで見る反発の脆弱性チェックリスト</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Índice del Dólar en 101,15 — La Razón Real por la que Bitcoin no Pudo Avanzar</a>:</strong> La pieza fundacional sobre la relación DXY-Bitcoin</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas</a>:</strong> Correlaciones con Nasdaq, oro y dólar revisadas junto al apalancamiento</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Los Flujos de ETF de Bitcoin Vuelven a Cambiar en Tres Días</a>:</strong> Un vistazo más detallado a los flujos de ETF por emisor</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">El Rebote Que Aún No se Ha Confirmado</a>:</strong> Una lista de fragilidad vía sentimiento, flujos de ETF y apalancamiento</li>
+    <li><strong><a href="/es/blog/dxy-bitcoin-relationship">Índice del Dólar en 101,15 — La Razón Real por la que Bitcoin no Pudo Avanzar</a>:</strong> La pieza fundacional sobre la relación DXY-Bitcoin</li>
+    <li><strong><a href="/es/blog/correlation-vacuum-oi-gap">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas</a>:</strong> Correlaciones con Nasdaq, oro y dólar revisadas junto al apalancamiento</li>
+    <li><strong><a href="/es/blog/etf-issuer-flip-short-liquidation-gap">Los Flujos de ETF de Bitcoin Vuelven a Cambiar en Tres Días</a>:</strong> Un vistazo más detallado a los flujos de ETF por emisor</li>
+    <li><strong><a href="/es/blog/rebound-not-yet-confirmed-2026">El Rebote Que Aún No se Ha Confirmado</a>:</strong> Una lista de fragilidad vía sentimiento, flujos de ETF y apalancamiento</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Dollarindex bei 101,15 — Der wahre Grund, warum Bitcoin keinen Halt fand</a>:</strong> Der Grundlagenartikel zur DXY-Bitcoin-Beziehung</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Nasdaq-, Gold- und Dollar-Korrelationen zusammen mit dem Hebel geprüft</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Bitcoin-ETF-Zuflüsse Drehen Sich in Drei Tagen Erneut</a>:</strong> Ein genauerer Blick auf die ETF-Zuflüsse nach Emittent</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Die Erholung, die noch nicht bestätigt ist</a>:</strong> Eine Fragilitäts-Checkliste über Stimmung, ETF-Zuflüsse und Hebel</li>
+    <li><strong><a href="/de/blog/dxy-bitcoin-relationship">Dollarindex bei 101,15 — Der wahre Grund, warum Bitcoin keinen Halt fand</a>:</strong> Der Grundlagenartikel zur DXY-Bitcoin-Beziehung</li>
+    <li><strong><a href="/de/blog/correlation-vacuum-oi-gap">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Nasdaq-, Gold- und Dollar-Korrelationen zusammen mit dem Hebel geprüft</li>
+    <li><strong><a href="/de/blog/etf-issuer-flip-short-liquidation-gap">Bitcoin-ETF-Zuflüsse Drehen Sich in Drei Tagen Erneut</a>:</strong> Ein genauerer Blick auf die ETF-Zuflüsse nach Emittent</li>
+    <li><strong><a href="/de/blog/rebound-not-yet-confirmed-2026">Die Erholung, die noch nicht bestätigt ist</a>:</strong> Eine Fragilitäts-Checkliste über Stimmung, ETF-Zuflüsse und Hebel</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Indice Dollar à 101,15 — La Vraie Raison pour Laquelle le Bitcoin n'a pas Décollé</a>:</strong> L'article fondateur sur la relation DXY-Bitcoin</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a>:</strong> Corrélations Nasdaq, or et dollar vérifiées avec l'effet de levier</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Les Flux ETF Bitcoin Rebasculent en Trois Jours</a>:</strong> Un regard plus approfondi sur les flux ETF par émetteur</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Le Rebond Qui N'a Pas Encore Été Confirmé</a>:</strong> Une liste de fragilité via le sentiment, les flux ETF et l'effet de levier</li>
+    <li><strong><a href="/fr/blog/dxy-bitcoin-relationship">Indice Dollar à 101,15 — La Vraie Raison pour Laquelle le Bitcoin n'a pas Décollé</a>:</strong> L'article fondateur sur la relation DXY-Bitcoin</li>
+    <li><strong><a href="/fr/blog/correlation-vacuum-oi-gap">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a>:</strong> Corrélations Nasdaq, or et dollar vérifiées avec l'effet de levier</li>
+    <li><strong><a href="/fr/blog/etf-issuer-flip-short-liquidation-gap">Les Flux ETF Bitcoin Rebasculent en Trois Jours</a>:</strong> Un regard plus approfondi sur les flux ETF par émetteur</li>
+    <li><strong><a href="/fr/blog/rebound-not-yet-confirmed-2026">Le Rebond Qui N'a Pas Encore Été Confirmé</a>:</strong> Une liste de fragilité via le sentiment, les flux ETF et l'effet de levier</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Índice do Dólar em 101,15 — A Razão Real Pela Qual o Bitcoin Não Conseguiu Tração</a>:</strong> O artigo fundacional sobre a relação DXY-Bitcoin</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> Correlações com Nasdaq, ouro e dólar checadas junto à alavancagem</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Fluxos de ETF de Bitcoin Viram de Novo em Três Dias</a>:</strong> Um olhar mais detalhado sobre os fluxos de ETF por emissor</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">O Repique Que Ainda Não Foi Confirmado</a>:</strong> Uma lista de fragilidade via sentimento, fluxos de ETF e alavancagem</li>
+    <li><strong><a href="/pt/blog/dxy-bitcoin-relationship">Índice do Dólar em 101,15 — A Razão Real Pela Qual o Bitcoin Não Conseguiu Tração</a>:</strong> O artigo fundacional sobre a relação DXY-Bitcoin</li>
+    <li><strong><a href="/pt/blog/correlation-vacuum-oi-gap">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> Correlações com Nasdaq, ouro e dólar checadas junto à alavancagem</li>
+    <li><strong><a href="/pt/blog/etf-issuer-flip-short-liquidation-gap">Fluxos de ETF de Bitcoin Viram de Novo em Três Dias</a>:</strong> Um olhar mais detalhado sobre os fluxos de ETF por emissor</li>
+    <li><strong><a href="/pt/blog/rebound-not-yet-confirmed-2026">O Repique Que Ainda Não Foi Confirmado</a>:</strong> Uma lista de fragilidade via sentimento, fluxos de ETF e alavancagem</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Dolar Endeksi 101,15'te — Bitcoin'in Güç Bulamamasının Gerçek Nedeni</a>:</strong> DXY-Bitcoin ilişkisinin temelini atan yazı</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Nasdaq, altın ve dolar korelasyonlarının kaldıraçla birlikte incelendiği yazı</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Bitcoin ETF Akışları Üç Günde Yeniden Döndü</a>:</strong> İhraççı bazında ETF akışlarına daha yakından bakış</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Henüz Doğrulanmamış Yükseliş</a>:</strong> Duygu durumu, ETF akışları ve kaldıraç üzerinden bir kırılganlık kontrol listesi</li>
+    <li><strong><a href="/tr/blog/dxy-bitcoin-relationship">Dolar Endeksi 101,15'te — Bitcoin'in Güç Bulamamasının Gerçek Nedeni</a>:</strong> DXY-Bitcoin ilişkisinin temelini atan yazı</li>
+    <li><strong><a href="/tr/blog/correlation-vacuum-oi-gap">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Nasdaq, altın ve dolar korelasyonlarının kaldıraçla birlikte incelendiği yazı</li>
+    <li><strong><a href="/tr/blog/etf-issuer-flip-short-liquidation-gap">Bitcoin ETF Akışları Üç Günde Yeniden Döndü</a>:</strong> İhraççı bazında ETF akışlarına daha yakından bakış</li>
+    <li><strong><a href="/tr/blog/rebound-not-yet-confirmed-2026">Henüz Doğrulanmamış Yükseliş</a>:</strong> Duygu durumu, ETF akışları ve kaldıraç üzerinden bir kırılganlık kontrol listesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Chỉ Số Đô La ở Mức 101,15 — Lý Do Thực Sự Khiến Bitcoin Không Bứt Phá</a>:</strong> Bài viết nền tảng về mối quan hệ DXY-Bitcoin</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Tương quan Nasdaq, vàng và đô la được kiểm tra cùng đòn bẩy</li>
-    <li><strong><a href="/blog/etf-issuer-flip-short-liquidation-gap.php">Dòng Vốn ETF Bitcoin Lại Đổi Chiều Trong Ba Ngày</a>:</strong> Cái nhìn sâu hơn về dòng vốn ETF theo từng quỹ phát hành</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Đợt Phục Hồi Chưa Được Xác Nhận</a>:</strong> Danh sách kiểm tra độ mong manh qua tâm lý, dòng vốn ETF và đòn bẩy</li>
+    <li><strong><a href="/vi/blog/dxy-bitcoin-relationship">Chỉ Số Đô La ở Mức 101,15 — Lý Do Thực Sự Khiến Bitcoin Không Bứt Phá</a>:</strong> Bài viết nền tảng về mối quan hệ DXY-Bitcoin</li>
+    <li><strong><a href="/vi/blog/correlation-vacuum-oi-gap">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Tương quan Nasdaq, vàng và đô la được kiểm tra cùng đòn bẩy</li>
+    <li><strong><a href="/vi/blog/etf-issuer-flip-short-liquidation-gap">Dòng Vốn ETF Bitcoin Lại Đổi Chiều Trong Ba Ngày</a>:</strong> Cái nhìn sâu hơn về dòng vốn ETF theo từng quỹ phát hành</li>
+    <li><strong><a href="/vi/blog/rebound-not-yet-confirmed-2026">Đợt Phục Hồi Chưa Được Xác Nhận</a>:</strong> Danh sách kiểm tra độ mong manh qua tâm lý, dòng vốn ETF và đòn bẩy</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Yahoo Finance·Fortune·Sunday Guardian Live(비트코인 가격), CoinGlass(펀딩비·미결제약정), Tech Times·Coindesk(ETF 자금흐름), FRED·StreetStats(연준 대차대조표·순유동성·RRP·TGA), MacroMicro·BingX(글로벌 M2 증가율), FRED·연준(미국 M2), Mises Institute(2026년 통화량 증가 분석), CFBenchmarks·CryptoRank.io(M2-비트코인 관계·공적분 탄력성), bgeometrics(글로벌 M2 10주 선행 모델), Vantage Markets·TradingEconomics(달러인덱스), 247wallst·Coindesk(비트코인 ATH $126,272, 2025년 10월 14일), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

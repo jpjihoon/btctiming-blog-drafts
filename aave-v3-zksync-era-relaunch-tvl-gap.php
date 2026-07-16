@@ -273,31 +273,31 @@
   <p class="vi">Cũng có một lập luận phản bác: đối với loại hình ra mắt đặc thù này, các con số ngày đầu là chỉ báo dự đoán yếu. 100 triệu USD trong 48 giờ của Monad phần lớn là vốn chạy theo khuyến khích, được hậu thuẫn bởi gói chung 15,5 triệu USD từ Quỹ Monad và DAO của Aave được thiết kế rõ ràng để di chuyển nhanh; đợt tái ra mắt của zkSync Era không được xây dựng theo cách tương tự, và lời chào hàng của nó — hạ tầng lưu ký cho tổ chức, thanh toán RWA, quan hệ đối tác doanh nghiệp — nhắm đến một loại vốn di chuyển chậm hơn, thường không xuất hiện trong 24 giờ đầu của một đợt ra mắt DeFi. Nếu giả thuyết đó đúng, con số cần theo dõi không phải là TVL tuần này mà là đường cong tăng trưởng trong hai đến ba tháng tới, và cụ thể là liệu những người gửi tiền trên zkSync Era có giống với dòng vốn lính đánh thuê chạy theo khuyến khích từng rời bỏ chuỗi này lần trước, hay giống với dòng vốn tổ chức ổn định hơn mà chuỗi này đã theo đuổi suốt năm 2026. Dù theo cách nào, quy tắc doanh thu 2 triệu USD do chính DAO đặt ra có nghĩa là đây không phải một thử nghiệm không giới hạn: đây là một đợt triển khai có đồng hồ đếm ngược, được đo lường dựa trên một ngưỡng mà Aave đã tự đặt ra bằng văn bản cho chính mình.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave, Monad에 V3.7 배포</a>:</strong> 같은 달, 정반대 결과를 낳은 또 다른 체인 베팅</li>
+    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis">Aave, Monad에 V3.7 배포</a>:</strong> 같은 달, 정반대 결과를 낳은 또 다른 체인 베팅</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave deploys V3.7 on Monad</a>:</strong> The other chain bet from the same month, with the opposite result</li>
+    <li><strong><a href="/en/blog/aave-v3-monad-appchain-thesis">Aave deploys V3.7 on Monad</a>:</strong> The other chain bet from the same month, with the opposite result</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">AaveがMonadにV3.7配備</a>:</strong> 同じ月に正反対の結果を生んだもう一つのチェーン賭け</li>
+    <li><strong><a href="/ja/blog/aave-v3-monad-appchain-thesis">AaveがMonadにV3.7配備</a>:</strong> 同じ月に正反対の結果を生んだもう一つのチェーン賭け</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave despliega V3.7 en Monad</a>:</strong> La otra apuesta de cadena del mismo mes, con el resultado opuesto</li>
+    <li><strong><a href="/es/blog/aave-v3-monad-appchain-thesis">Aave despliega V3.7 en Monad</a>:</strong> La otra apuesta de cadena del mismo mes, con el resultado opuesto</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave bringt V3.7 auf Monad</a>:</strong> Die andere Chain-Wette desselben Monats, mit dem gegenteiligen Ergebnis</li>
+    <li><strong><a href="/de/blog/aave-v3-monad-appchain-thesis">Aave bringt V3.7 auf Monad</a>:</strong> Die andere Chain-Wette desselben Monats, mit dem gegenteiligen Ergebnis</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave déploie V3.7 sur Monad</a>:</strong> L'autre pari de chaîne du même mois, avec le résultat opposé</li>
+    <li><strong><a href="/fr/blog/aave-v3-monad-appchain-thesis">Aave déploie V3.7 sur Monad</a>:</strong> L'autre pari de chaîne du même mois, avec le résultat opposé</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave implanta V3.7 na Monad</a>:</strong> A outra aposta de cadeia do mesmo mês, com o resultado oposto</li>
+    <li><strong><a href="/pt/blog/aave-v3-monad-appchain-thesis">Aave implanta V3.7 na Monad</a>:</strong> A outra aposta de cadeia do mesmo mês, com o resultado oposto</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave, Monad'a V3.7'yi konuşlandırdı</a>:</strong> Aynı aydan, tam tersi sonuç veren diğer zincir bahsi</li>
+    <li><strong><a href="/tr/blog/aave-v3-monad-appchain-thesis">Aave, Monad'a V3.7'yi konuşlandırdı</a>:</strong> Aynı aydan, tam tersi sonuç veren diğer zincir bahsi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave triển khai V3.7 trên Monad</a>:</strong> Canh bạc chuỗi khác cùng tháng, với kết quả trái ngược</li>
+    <li><strong><a href="/vi/blog/aave-v3-monad-appchain-thesis">Aave triển khai V3.7 trên Monad</a>:</strong> Canh bạc chuỗi khác cùng tháng, với kết quả trái ngược</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: The Block(Aave V3 zkSync Era 재배포, 2025년 12월 zkSync·Metis·Soneium 동결 제안과 200만 달러 수익 기준), Avara(공식 출시 발표 및 기술적 설명), CoinGape(AAVE 가격 반응), Aave 거버넌스 포럼(제안 166호, BGD Labs 기술 평가, Chaos Labs 리스크 파라미터), DeFiLlama(Aave zkSync Era 시장 TVL), Token Terminal·L2BEAT(zkSync Era 및 Elastic Network 생태계 TVL), Cryptopolitan(비교를 위한 Aave Monad 예치금 수치). 이는 투자 조언이 아니다.</p>

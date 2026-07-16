@@ -514,67 +514,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">이란, 호르무즈 해협 공격 재개 — '비트코인 통행료' 스킴도 다시 도마 위</a>:</strong> 같은 지정학 이벤트를 제재 회피 스킴 각도에서</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">가격은 오르는데 금은 등을 돌렸다</a>:</strong> 이번에 일시적으로 좁혀진 비트코인-금 디커플링의 배경</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">선물 오픈 인터레스트 빠르게 복귀 — 롱숏비율은 아직 안 쏠렸다</a>:</strong> 이번 글의 파생 포지셔닝 배경</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">매수벽이 반토막 났다 — 그런데 ETF는 열흘 만에 돌아왔다</a>:</strong> ETF 자금 흐름의 배경</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">이익 방석은 아직 안 채워졌다</a>:</strong> 같은 반등을 온체인 이익 여력 관점에서</li>
+    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">이란, 호르무즈 해협 공격 재개 — '비트코인 통행료' 스킴도 다시 도마 위</a>:</strong> 같은 지정학 이벤트를 제재 회피 스킴 각도에서</li>
+    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap">가격은 오르는데 금은 등을 돌렸다</a>:</strong> 이번에 일시적으로 좁혀진 비트코인-금 디커플링의 배경</li>
+    <li><strong><a href="/blog/oi-rebuild-balanced-positioning">선물 오픈 인터레스트 빠르게 복귀 — 롱숏비율은 아직 안 쏠렸다</a>:</strong> 이번 글의 파생 포지셔닝 배경</li>
+    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap">매수벽이 반토막 났다 — 그런데 ETF는 열흘 만에 돌아왔다</a>:</strong> ETF 자금 흐름의 배경</li>
+    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap">이익 방석은 아직 안 채워졌다</a>:</strong> 같은 반등을 온체인 이익 여력 관점에서</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">Iran Resumes Hormuz Attacks — The 'Bitcoin Toll' Sanctions-Evasion Scheme Is Back Under Scrutiny</a>:</strong> The same geopolitical event from a sanctions-evasion angle</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Price Is Up But Gold Turned Its Back</a>:</strong> The backdrop to the Bitcoin-gold decoupling this shock temporarily narrowed</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Futures Open Interest Rebuilds Fast — Long/Short Hasn't Tilted Yet</a>:</strong> The derivatives-positioning backdrop for this piece</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">The Buy Wall Got Cut in Half — Yet ETFs Came Back in Ten Days</a>:</strong> The ETF flow backdrop</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">The Profit Cushion Hasn't Refilled</a>:</strong> The same bounce from an on-chain profit-cushion angle</li>
+    <li><strong><a href="/en/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">Iran Resumes Hormuz Attacks — The 'Bitcoin Toll' Sanctions-Evasion Scheme Is Back Under Scrutiny</a>:</strong> The same geopolitical event from a sanctions-evasion angle</li>
+    <li><strong><a href="/en/blog/btc-gold-decoupling-fear-greed-gap">Price Is Up But Gold Turned Its Back</a>:</strong> The backdrop to the Bitcoin-gold decoupling this shock temporarily narrowed</li>
+    <li><strong><a href="/en/blog/oi-rebuild-balanced-positioning">Futures Open Interest Rebuilds Fast — Long/Short Hasn't Tilted Yet</a>:</strong> The derivatives-positioning backdrop for this piece</li>
+    <li><strong><a href="/en/blog/market-depth-etf-inflow-fragility-gap">The Buy Wall Got Cut in Half — Yet ETFs Came Back in Ten Days</a>:</strong> The ETF flow backdrop</li>
+    <li><strong><a href="/en/blog/nupl-taker-sell-hollow-bounce-gap">The Profit Cushion Hasn't Refilled</a>:</strong> The same bounce from an on-chain profit-cushion angle</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">イラン、ホルムズ海峡攻撃を再開 — 「ビットコイン通行料」スキームも再び俎上に</a>:</strong> 同じ地政学イベントを制裁回避スキームの角度から</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">価格は上がるのに金は背を向けた</a>:</strong> 今回一時的に縮小したビットコイン-金のデカップリングの背景</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">先物オープンインタレスト急速に復帰 — ロングショート比率はまだ偏っていない</a>:</strong> この記事のデリバティブ・ポジショニングの背景</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">買い板が半減した — それでもETFは10日ぶりに戻ってきた</a>:</strong> ETF資金フローの背景</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">利益クッションはまだ埋まっていない</a>:</strong> 同じ反発をオンチェーンの利益余力の観点から</li>
+    <li><strong><a href="/ja/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">イラン、ホルムズ海峡攻撃を再開 — 「ビットコイン通行料」スキームも再び俎上に</a>:</strong> 同じ地政学イベントを制裁回避スキームの角度から</li>
+    <li><strong><a href="/ja/blog/btc-gold-decoupling-fear-greed-gap">価格は上がるのに金は背を向けた</a>:</strong> 今回一時的に縮小したビットコイン-金のデカップリングの背景</li>
+    <li><strong><a href="/ja/blog/oi-rebuild-balanced-positioning">先物オープンインタレスト急速に復帰 — ロングショート比率はまだ偏っていない</a>:</strong> この記事のデリバティブ・ポジショニングの背景</li>
+    <li><strong><a href="/ja/blog/market-depth-etf-inflow-fragility-gap">買い板が半減した — それでもETFは10日ぶりに戻ってきた</a>:</strong> ETF資金フローの背景</li>
+    <li><strong><a href="/ja/blog/nupl-taker-sell-hollow-bounce-gap">利益クッションはまだ埋まっていない</a>:</strong> 同じ反発をオンチェーンの利益余力の観点から</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">Irán Reanuda los Ataques en Ormuz — El Esquema de 'Peaje en Bitcoin' Vuelve a Estar Bajo Escrutinio</a>:</strong> El mismo evento geopolítico desde el ángulo de la evasión de sanciones</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">El Precio Sube Pero el Oro Le Dio la Espalda</a>:</strong> El contexto del desacople Bitcoin-oro que este shock estrechó temporalmente</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">El Interés Abierto en Futuros se Reconstruye Rápido — El Largo/Corto Aún No se Ha Inclinado</a>:</strong> El contexto de posicionamiento de derivados de esta pieza</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">El Muro de Compra se Redujo a la Mitad — Aun Así los ETF Volvieron en Diez Días</a>:</strong> El contexto de los flujos de ETF</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">El Colchón de Beneficios Aún No Se Ha Rellenado</a>:</strong> El mismo rebote desde el ángulo del colchón de beneficios on-chain</li>
+    <li><strong><a href="/es/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">Irán Reanuda los Ataques en Ormuz — El Esquema de 'Peaje en Bitcoin' Vuelve a Estar Bajo Escrutinio</a>:</strong> El mismo evento geopolítico desde el ángulo de la evasión de sanciones</li>
+    <li><strong><a href="/es/blog/btc-gold-decoupling-fear-greed-gap">El Precio Sube Pero el Oro Le Dio la Espalda</a>:</strong> El contexto del desacople Bitcoin-oro que este shock estrechó temporalmente</li>
+    <li><strong><a href="/es/blog/oi-rebuild-balanced-positioning">El Interés Abierto en Futuros se Reconstruye Rápido — El Largo/Corto Aún No se Ha Inclinado</a>:</strong> El contexto de posicionamiento de derivados de esta pieza</li>
+    <li><strong><a href="/es/blog/market-depth-etf-inflow-fragility-gap">El Muro de Compra se Redujo a la Mitad — Aun Así los ETF Volvieron en Diez Días</a>:</strong> El contexto de los flujos de ETF</li>
+    <li><strong><a href="/es/blog/nupl-taker-sell-hollow-bounce-gap">El Colchón de Beneficios Aún No Se Ha Rellenado</a>:</strong> El mismo rebote desde el ángulo del colchón de beneficios on-chain</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">Iran Nimmt Hormus-Angriffe Wieder Auf — Das 'Bitcoin-Maut'-Sanktionsumgehungsschema Steht Wieder Unter Beobachtung</a>:</strong> Dasselbe geopolitische Ereignis aus dem Blickwinkel der Sanktionsumgehung</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Der Preis Steigt, Doch Gold Hat Sich Abgewandt</a>:</strong> Der Hintergrund der Bitcoin-Gold-Entkopplung, die dieser Schock vorübergehend verengte</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Futures-Open-Interest Baut Sich Schnell Wieder Auf — Long/Short Hat Sich Noch Nicht Geneigt</a>:</strong> Der Derivate-Positionierungshintergrund dieses Beitrags</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Die Kaufmauer Wurde Halbiert — Doch ETFs Kamen Nach Zehn Tagen Zurück</a>:</strong> Der ETF-Fluss-Hintergrund</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Das Gewinnpolster Ist Noch Nicht Wieder Aufgefüllt</a>:</strong> Dieselbe Erholung aus der Perspektive des On-Chain-Gewinnpolsters</li>
+    <li><strong><a href="/de/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">Iran Nimmt Hormus-Angriffe Wieder Auf — Das 'Bitcoin-Maut'-Sanktionsumgehungsschema Steht Wieder Unter Beobachtung</a>:</strong> Dasselbe geopolitische Ereignis aus dem Blickwinkel der Sanktionsumgehung</li>
+    <li><strong><a href="/de/blog/btc-gold-decoupling-fear-greed-gap">Der Preis Steigt, Doch Gold Hat Sich Abgewandt</a>:</strong> Der Hintergrund der Bitcoin-Gold-Entkopplung, die dieser Schock vorübergehend verengte</li>
+    <li><strong><a href="/de/blog/oi-rebuild-balanced-positioning">Futures-Open-Interest Baut Sich Schnell Wieder Auf — Long/Short Hat Sich Noch Nicht Geneigt</a>:</strong> Der Derivate-Positionierungshintergrund dieses Beitrags</li>
+    <li><strong><a href="/de/blog/market-depth-etf-inflow-fragility-gap">Die Kaufmauer Wurde Halbiert — Doch ETFs Kamen Nach Zehn Tagen Zurück</a>:</strong> Der ETF-Fluss-Hintergrund</li>
+    <li><strong><a href="/de/blog/nupl-taker-sell-hollow-bounce-gap">Das Gewinnpolster Ist Noch Nicht Wieder Aufgefüllt</a>:</strong> Dieselbe Erholung aus der Perspektive des On-Chain-Gewinnpolsters</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">L'Iran Reprend les Attaques à Ormuz — Le Stratagème du « Péage en Bitcoin » Refait Surface</a> :</strong> Le même événement géopolitique sous l'angle du contournement des sanctions</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Le Prix Monte Mais l'Or a Tourné le Dos</a> :</strong> Le contexte du découplage bitcoin-or que ce choc a temporairement resserré</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">L'Open Interest des Contrats à Terme se Reconstruit Vite — Le Long/Short N'a Pas Encore Penché</a> :</strong> Le contexte de positionnement des dérivés de cet article</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Le Mur d'Achat a Été Réduit de Moitié — Pourtant les ETF Sont Revenus en Dix Jours</a> :</strong> Le contexte des flux d'ETF</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Le Coussin de Profit N'est Pas Encore Reconstitué</a> :</strong> Le même rebond sous l'angle du coussin de profit on-chain</li>
+    <li><strong><a href="/fr/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">L'Iran Reprend les Attaques à Ormuz — Le Stratagème du « Péage en Bitcoin » Refait Surface</a> :</strong> Le même événement géopolitique sous l'angle du contournement des sanctions</li>
+    <li><strong><a href="/fr/blog/btc-gold-decoupling-fear-greed-gap">Le Prix Monte Mais l'Or a Tourné le Dos</a> :</strong> Le contexte du découplage bitcoin-or que ce choc a temporairement resserré</li>
+    <li><strong><a href="/fr/blog/oi-rebuild-balanced-positioning">L'Open Interest des Contrats à Terme se Reconstruit Vite — Le Long/Short N'a Pas Encore Penché</a> :</strong> Le contexte de positionnement des dérivés de cet article</li>
+    <li><strong><a href="/fr/blog/market-depth-etf-inflow-fragility-gap">Le Mur d'Achat a Été Réduit de Moitié — Pourtant les ETF Sont Revenus en Dix Jours</a> :</strong> Le contexte des flux d'ETF</li>
+    <li><strong><a href="/fr/blog/nupl-taker-sell-hollow-bounce-gap">Le Coussin de Profit N'est Pas Encore Reconstitué</a> :</strong> Le même rebond sous l'angle du coussin de profit on-chain</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">Irã Retoma Ataques em Ormuz — Esquema de 'Pedágio em Bitcoin' Volta ao Radar</a>:</strong> O mesmo evento geopolítico sob o ângulo da evasão de sanções</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">O Preço Sobe Mas o Ouro Virou as Costas</a>:</strong> O contexto do descolamento bitcoin-ouro que este choque estreitou temporariamente</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Interesse em Aberto de Futuros se Reconstrói Rápido — Comprado/Vendido Ainda Não Se Inclinou</a>:</strong> O contexto de posicionamento em derivativos desta matéria</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">O Muro de Compra Foi Reduzido pela Metade — Mesmo Assim os ETFs Voltaram em Dez Dias</a>:</strong> O contexto dos fluxos de ETF</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">O Colchão de Lucro Ainda Não Foi Reabastecido</a>:</strong> O mesmo repique sob o ângulo do colchão de lucro on-chain</li>
+    <li><strong><a href="/pt/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">Irã Retoma Ataques em Ormuz — Esquema de 'Pedágio em Bitcoin' Volta ao Radar</a>:</strong> O mesmo evento geopolítico sob o ângulo da evasão de sanções</li>
+    <li><strong><a href="/pt/blog/btc-gold-decoupling-fear-greed-gap">O Preço Sobe Mas o Ouro Virou as Costas</a>:</strong> O contexto do descolamento bitcoin-ouro que este choque estreitou temporariamente</li>
+    <li><strong><a href="/pt/blog/oi-rebuild-balanced-positioning">Interesse em Aberto de Futuros se Reconstrói Rápido — Comprado/Vendido Ainda Não Se Inclinou</a>:</strong> O contexto de posicionamento em derivativos desta matéria</li>
+    <li><strong><a href="/pt/blog/market-depth-etf-inflow-fragility-gap">O Muro de Compra Foi Reduzido pela Metade — Mesmo Assim os ETFs Voltaram em Dez Dias</a>:</strong> O contexto dos fluxos de ETF</li>
+    <li><strong><a href="/pt/blog/nupl-taker-sell-hollow-bounce-gap">O Colchão de Lucro Ainda Não Foi Reabastecido</a>:</strong> O mesmo repique sob o ângulo do colchão de lucro on-chain</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">İran, Hürmüz Saldırılarını Yeniden Başlattı — 'Bitcoin Geçiş Ücreti' Şeması Yeniden Mercek Altında</a>:</strong> Aynı jeopolitik olay yaptırım kaçırma açısından</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Fiyat Yükseliyor Ama Altın Sırtını Döndü</a>:</strong> Bu şokun geçici olarak daralttığı Bitcoin-altın ayrışmasının arka planı</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Vadeli İşlem Açık Pozisyonu Hızla Toparlanıyor — Long/Short Henüz Yönelmedi</a>:</strong> Bu yazının türev pozisyonlanma arka planı</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Alım Duvarı Yarıya İndi — Yine de ETF'ler On Günde Geri Döndü</a>:</strong> ETF akış arka planı</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Kâr Yastığı Henüz Yeniden Dolmadı</a>:</strong> Aynı toparlanma zincir üstü kâr yastığı açısından</li>
+    <li><strong><a href="/tr/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">İran, Hürmüz Saldırılarını Yeniden Başlattı — 'Bitcoin Geçiş Ücreti' Şeması Yeniden Mercek Altında</a>:</strong> Aynı jeopolitik olay yaptırım kaçırma açısından</li>
+    <li><strong><a href="/tr/blog/btc-gold-decoupling-fear-greed-gap">Fiyat Yükseliyor Ama Altın Sırtını Döndü</a>:</strong> Bu şokun geçici olarak daralttığı Bitcoin-altın ayrışmasının arka planı</li>
+    <li><strong><a href="/tr/blog/oi-rebuild-balanced-positioning">Vadeli İşlem Açık Pozisyonu Hızla Toparlanıyor — Long/Short Henüz Yönelmedi</a>:</strong> Bu yazının türev pozisyonlanma arka planı</li>
+    <li><strong><a href="/tr/blog/market-depth-etf-inflow-fragility-gap">Alım Duvarı Yarıya İndi — Yine de ETF'ler On Günde Geri Döndü</a>:</strong> ETF akış arka planı</li>
+    <li><strong><a href="/tr/blog/nupl-taker-sell-hollow-bounce-gap">Kâr Yastığı Henüz Yeniden Dolmadı</a>:</strong> Aynı toparlanma zincir üstü kâr yastığı açısından</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown.php">Iran Nối Lại Các Cuộc Tấn Công Ở Hormuz — Chiêu Trò 'Phí Cầu Đường Bitcoin' Lại Bị Soi Xét</a>:</strong> Cùng sự kiện địa chính trị nhìn từ góc độ né tránh trừng phạt</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Giá Tăng Nhưng Vàng Đã Quay Lưng</a>:</strong> Bối cảnh của sự phân kỳ Bitcoin-vàng mà cú sốc này đã tạm thời thu hẹp</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Hợp Đồng Mở Tương Lai Phục Hồi Nhanh — Long/Short Vẫn Chưa Nghiêng</a>:</strong> Bối cảnh vị thế phái sinh của bài viết này</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Bức Tường Mua Đã Giảm Một Nửa — Nhưng ETF Đã Quay Lại Sau Mười Ngày</a>:</strong> Bối cảnh dòng vốn ETF</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Lớp Đệm Lợi Nhuận Vẫn Chưa Được Lấp Đầy</a>:</strong> Cùng đợt phục hồi nhìn từ góc độ lớp đệm lợi nhuận on-chain</li>
+    <li><strong><a href="/vi/blog/iran-hormuz-attacks-bitcoin-toll-sanctions-clampdown">Iran Nối Lại Các Cuộc Tấn Công Ở Hormuz — Chiêu Trò 'Phí Cầu Đường Bitcoin' Lại Bị Soi Xét</a>:</strong> Cùng sự kiện địa chính trị nhìn từ góc độ né tránh trừng phạt</li>
+    <li><strong><a href="/vi/blog/btc-gold-decoupling-fear-greed-gap">Giá Tăng Nhưng Vàng Đã Quay Lưng</a>:</strong> Bối cảnh của sự phân kỳ Bitcoin-vàng mà cú sốc này đã tạm thời thu hẹp</li>
+    <li><strong><a href="/vi/blog/oi-rebuild-balanced-positioning">Hợp Đồng Mở Tương Lai Phục Hồi Nhanh — Long/Short Vẫn Chưa Nghiêng</a>:</strong> Bối cảnh vị thế phái sinh của bài viết này</li>
+    <li><strong><a href="/vi/blog/market-depth-etf-inflow-fragility-gap">Bức Tường Mua Đã Giảm Một Nửa — Nhưng ETF Đã Quay Lại Sau Mười Ngày</a>:</strong> Bối cảnh dòng vốn ETF</li>
+    <li><strong><a href="/vi/blog/nupl-taker-sell-hollow-bounce-gap">Lớp Đệm Lợi Nhuận Vẫn Chưa Được Lấp Đầy</a>:</strong> Cùng đợt phục hồi nhìn từ góc độ lớp đệm lợi nhuận on-chain</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CoinDesk(가격 흐름·Daybook·이란 충격), Yahoo Finance, Fortune, cryptonews.com·cryptonews.net·crypto.news, CryptoBriefing, OANDA(오일·금·DXY), TradingView 경유 Cointelegraph(금-비트코인 반응), IG UK(나스닥 상관계수), CoinGlass(펀딩비·롱숏비율·청산), Farside Investors 경유 CoinDesk(ETF 자금 흐름), BTCtiming.com 자체 분석. 수치는 2026년 7월 8일 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 시장 상태를 진단하는 콘텐츠이며 투자 조언이 아니다.</p>

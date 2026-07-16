@@ -307,40 +307,40 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">서클 주가 급락과 오픈 USD</a>:</strong> 규제 준수 발행사가 짊어진 비용과 시장 기대의 간극</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">크레디아그리콜의 유로 스테이블코인 EURXT</a>:</strong> 은행이 직접 발행사로 들어오는 유럽 미카(MiCA) 모델과의 비교</li>
+    <li><strong><a href="/blog/circle-stock-crash-open-usd">서클 주가 급락과 오픈 USD</a>:</strong> 규제 준수 발행사가 짊어진 비용과 시장 기대의 간극</li>
+    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin">크레디아그리콜의 유로 스테이블코인 EURXT</a>:</strong> 은행이 직접 발행사로 들어오는 유럽 미카(MiCA) 모델과의 비교</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle's Stock Crash and Open USD</a>:</strong> The gap between the cost a compliant issuer bears and the market's expectations</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">Crédit Agricole's Euro Stablecoin EURXT</a>:</strong> A comparison with Europe's MiCA model, where banks step in as issuers directly</li>
+    <li><strong><a href="/en/blog/circle-stock-crash-open-usd">Circle's Stock Crash and Open USD</a>:</strong> The gap between the cost a compliant issuer bears and the market's expectations</li>
+    <li><strong><a href="/en/blog/credit-agricole-eurxt-euro-stablecoin">Crédit Agricole's Euro Stablecoin EURXT</a>:</strong> A comparison with Europe's MiCA model, where banks step in as issuers directly</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">サークルの株価急落とオープンUSD</a>:</strong> 規制準拠の発行体が負う費用と市場の期待とのギャップ</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">クレディ・アグリコルのユーロ・ステーブルコインEURXT</a>:</strong> 銀行が自ら発行体として参入する欧州MiCAモデルとの比較</li>
+    <li><strong><a href="/ja/blog/circle-stock-crash-open-usd">サークルの株価急落とオープンUSD</a>:</strong> 規制準拠の発行体が負う費用と市場の期待とのギャップ</li>
+    <li><strong><a href="/ja/blog/credit-agricole-eurxt-euro-stablecoin">クレディ・アグリコルのユーロ・ステーブルコインEURXT</a>:</strong> 銀行が自ら発行体として参入する欧州MiCAモデルとの比較</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">La Caída de Circle y Open USD</a>:</strong> La brecha entre el coste que soporta un emisor conforme y las expectativas del mercado</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">La Stablecoin en Euros EURXT de Crédit Agricole</a>:</strong> Una comparación con el modelo MiCA europeo, donde los bancos entran como emisores directos</li>
+    <li><strong><a href="/es/blog/circle-stock-crash-open-usd">La Caída de Circle y Open USD</a>:</strong> La brecha entre el coste que soporta un emisor conforme y las expectativas del mercado</li>
+    <li><strong><a href="/es/blog/credit-agricole-eurxt-euro-stablecoin">La Stablecoin en Euros EURXT de Crédit Agricole</a>:</strong> Una comparación con el modelo MiCA europeo, donde los bancos entran como emisores directos</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circles Kurssturz und Open USD</a>:</strong> Die Lücke zwischen den Kosten eines regelkonformen Emittenten und den Markterwartungen</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">Crédit Agricoles Euro-Stablecoin EURXT</a>:</strong> Ein Vergleich mit Europas MiCA-Modell, in dem Banken direkt als Emittenten auftreten</li>
+    <li><strong><a href="/de/blog/circle-stock-crash-open-usd">Circles Kurssturz und Open USD</a>:</strong> Die Lücke zwischen den Kosten eines regelkonformen Emittenten und den Markterwartungen</li>
+    <li><strong><a href="/de/blog/credit-agricole-eurxt-euro-stablecoin">Crédit Agricoles Euro-Stablecoin EURXT</a>:</strong> Ein Vergleich mit Europas MiCA-Modell, in dem Banken direkt als Emittenten auftreten</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">La chute de l'action Circle et Open USD</a>:</strong> L'écart entre le coût que supporte un émetteur conforme et les attentes du marché</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">Le stablecoin en euros EURXT de Crédit Agricole</a>:</strong> Une comparaison avec le modèle MiCA européen, où les banques entrent directement comme émetteurs</li>
+    <li><strong><a href="/fr/blog/circle-stock-crash-open-usd">La chute de l'action Circle et Open USD</a>:</strong> L'écart entre le coût que supporte un émetteur conforme et les attentes du marché</li>
+    <li><strong><a href="/fr/blog/credit-agricole-eurxt-euro-stablecoin">Le stablecoin en euros EURXT de Crédit Agricole</a>:</strong> Une comparaison avec le modèle MiCA européen, où les banques entrent directement comme émetteurs</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">A Queda das Ações da Circle e o Open USD</a>:</strong> A lacuna entre o custo que um emissor conforme suporta e as expectativas do mercado</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">A Stablecoin em Euros EURXT do Crédit Agricole</a>:</strong> Uma comparação com o modelo MiCA europeu, onde os bancos entram como emissores diretos</li>
+    <li><strong><a href="/pt/blog/circle-stock-crash-open-usd">A Queda das Ações da Circle e o Open USD</a>:</strong> A lacuna entre o custo que um emissor conforme suporta e as expectativas do mercado</li>
+    <li><strong><a href="/pt/blog/credit-agricole-eurxt-euro-stablecoin">A Stablecoin em Euros EURXT do Crédit Agricole</a>:</strong> Uma comparação com o modelo MiCA europeu, onde os bancos entram como emissores diretos</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle Hisse Çöküşü ve Open USD</a>:</strong> Uyumlu bir ihraççının taşıdığı maliyet ile piyasa beklentileri arasındaki uçurum</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">Crédit Agricole'ün Euro Stablecoin'i EURXT</a>:</strong> Bankaların doğrudan ihraççı olarak girdiği Avrupa MiCA modeliyle bir karşılaştırma</li>
+    <li><strong><a href="/tr/blog/circle-stock-crash-open-usd">Circle Hisse Çöküşü ve Open USD</a>:</strong> Uyumlu bir ihraççının taşıdığı maliyet ile piyasa beklentileri arasındaki uçurum</li>
+    <li><strong><a href="/tr/blog/credit-agricole-eurxt-euro-stablecoin">Crédit Agricole'ün Euro Stablecoin'i EURXT</a>:</strong> Bankaların doğrudan ihraççı olarak girdiği Avrupa MiCA modeliyle bir karşılaştırma</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Cú Sụp Cổ Phiếu Circle và Open USD</a>:</strong> Khoảng cách giữa chi phí một nhà phát hành tuân thủ gánh chịu và kỳ vọng của thị trường</li>
-    <li><strong><a href="/blog/credit-agricole-eurxt-euro-stablecoin.php">Stablecoin Euro EURXT Của Crédit Agricole</a>:</strong> So sánh với mô hình MiCA của châu Âu, nơi ngân hàng trực tiếp làm nhà phát hành</li>
+    <li><strong><a href="/vi/blog/circle-stock-crash-open-usd">Cú Sụp Cổ Phiếu Circle và Open USD</a>:</strong> Khoảng cách giữa chi phí một nhà phát hành tuân thủ gánh chịu và kỳ vọng của thị trường</li>
+    <li><strong><a href="/vi/blog/credit-agricole-eurxt-euro-stablecoin">Stablecoin Euro EURXT Của Crédit Agricole</a>:</strong> So sánh với mô hình MiCA của châu Âu, nơi ngân hàng trực tiếp làm nhà phát hành</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 페더럴레지스터(PPSI 고객식별프로그램 규칙안 원문), 미 재무부·FinCEN(규칙 제안 및 은행비밀법 적용 보도자료), OCC 회보 2026-24·FDIC·NCUA(각 기관 공동 규칙 안내), KPMG(지니어스법 이행 규칙 분석), 트레이시그룹·트라우트먼페퍼(발행 시점 KYC와 경계 공백 분석), 코인페이퍼(발행사 KYC 부담 보도). 의견 수렴 결과와 최종 규칙 문언은 확정 전이며, 본 글은 투자 조언이 아니다.</p>

@@ -294,49 +294,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC, 러셀1000 토큰화 프로덕션 테스트 개시</a>:</strong> 전통 금융 인프라가 토큰화 파일럿에서 실운영으로 넘어가는 흐름</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">시큐리타이즈, 토큰화 인프라 기업 최초 뉴욕증시 상장</a>:</strong> RWA 인프라 기업의 제도권 진입 사례</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">토큰화 주식은 진짜 주식이 아니다</a>:</strong> 온체인 자산이 실제로 무엇을 표상하는지에 대한 비판적 점검</li>
+    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC, 러셀1000 토큰화 프로덕션 테스트 개시</a>:</strong> 전통 금융 인프라가 토큰화 파일럿에서 실운영으로 넘어가는 흐름</li>
+    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock">시큐리타이즈, 토큰화 인프라 기업 최초 뉴욕증시 상장</a>:</strong> RWA 인프라 기업의 제도권 진입 사례</li>
+    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks">토큰화 주식은 진짜 주식이 아니다</a>:</strong> 온체인 자산이 실제로 무엇을 표상하는지에 대한 비판적 점검</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Begins Production Testing of a Tokenized Russell 1000</a>:</strong> Traditional financial infrastructure moving from tokenization pilots to live operation</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize Becomes the First Tokenization Infrastructure Firm to List on the NYSE</a>:</strong> An RWA infrastructure firm entering mainstream markets</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenized Stocks Are Not Real Stocks</a>:</strong> A critical check on what on-chain assets actually represent</li>
+    <li><strong><a href="/en/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Begins Production Testing of a Tokenized Russell 1000</a>:</strong> Traditional financial infrastructure moving from tokenization pilots to live operation</li>
+    <li><strong><a href="/en/blog/securitize-nyse-debut-tokenized-stock">Securitize Becomes the First Tokenization Infrastructure Firm to List on the NYSE</a>:</strong> An RWA infrastructure firm entering mainstream markets</li>
+    <li><strong><a href="/en/blog/tokenized-stocks-not-real-stocks">Tokenized Stocks Are Not Real Stocks</a>:</strong> A critical check on what on-chain assets actually represent</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC、ラッセル1000トークン化の本番テストを開始</a>:</strong> 伝統的金融インフラがトークン化パイロットから実運用へ移る流れ</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize、トークン化インフラ企業として初のニューヨーク証券取引所上場</a>:</strong> RWAインフラ企業の制度圏参入の事例</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">トークン化株式は本物の株式ではない</a>:</strong> オンチェーン資産が実際に何を表象するかについての批判的点検</li>
+    <li><strong><a href="/ja/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC、ラッセル1000トークン化の本番テストを開始</a>:</strong> 伝統的金融インフラがトークン化パイロットから実運用へ移る流れ</li>
+    <li><strong><a href="/ja/blog/securitize-nyse-debut-tokenized-stock">Securitize、トークン化インフラ企業として初のニューヨーク証券取引所上場</a>:</strong> RWAインフラ企業の制度圏参入の事例</li>
+    <li><strong><a href="/ja/blog/tokenized-stocks-not-real-stocks">トークン化株式は本物の株式ではない</a>:</strong> オンチェーン資産が実際に何を表象するかについての批判的点検</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Inicia Pruebas de Producción de un Russell 1000 Tokenizado</a>:</strong> La infraestructura financiera tradicional pasa de los pilotos de tokenización a la operación en vivo</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize se Convierte en la Primera Firma de Infraestructura de Tokenización en Cotizar en la NYSE</a>:</strong> Una empresa de infraestructura RWA que entra en los mercados institucionales</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Las Acciones Tokenizadas No Son Acciones Reales</a>:</strong> Un examen crítico de lo que los activos on-chain realmente representan</li>
+    <li><strong><a href="/es/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Inicia Pruebas de Producción de un Russell 1000 Tokenizado</a>:</strong> La infraestructura financiera tradicional pasa de los pilotos de tokenización a la operación en vivo</li>
+    <li><strong><a href="/es/blog/securitize-nyse-debut-tokenized-stock">Securitize se Convierte en la Primera Firma de Infraestructura de Tokenización en Cotizar en la NYSE</a>:</strong> Una empresa de infraestructura RWA que entra en los mercados institucionales</li>
+    <li><strong><a href="/es/blog/tokenized-stocks-not-real-stocks">Las Acciones Tokenizadas No Son Acciones Reales</a>:</strong> Un examen crítico de lo que los activos on-chain realmente representan</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Beginnt Produktionstests eines Tokenisierten Russell 1000</a>:</strong> Traditionelle Finanzinfrastruktur wechselt von Tokenisierungs-Pilotprojekten zum Livebetrieb</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize Wird als Erste Tokenisierungs-Infrastrukturfirma an der NYSE Notiert</a>:</strong> Ein RWA-Infrastrukturunternehmen tritt in die etablierten Märkte ein</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenisierte Aktien Sind Keine Echten Aktien</a>:</strong> Eine kritische Prüfung dessen, was On-Chain-Vermögenswerte tatsächlich abbilden</li>
+    <li><strong><a href="/de/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Beginnt Produktionstests eines Tokenisierten Russell 1000</a>:</strong> Traditionelle Finanzinfrastruktur wechselt von Tokenisierungs-Pilotprojekten zum Livebetrieb</li>
+    <li><strong><a href="/de/blog/securitize-nyse-debut-tokenized-stock">Securitize Wird als Erste Tokenisierungs-Infrastrukturfirma an der NYSE Notiert</a>:</strong> Ein RWA-Infrastrukturunternehmen tritt in die etablierten Märkte ein</li>
+    <li><strong><a href="/de/blog/tokenized-stocks-not-real-stocks">Tokenisierte Aktien Sind Keine Echten Aktien</a>:</strong> Eine kritische Prüfung dessen, was On-Chain-Vermögenswerte tatsächlich abbilden</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">La DTCC Lance des Tests de Production d'un Russell 1000 Tokenisé</a>:</strong> L'infrastructure financière traditionnelle passe des projets pilotes de tokenisation à l'exploitation réelle</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize Devient la Première Entreprise d'Infrastructure de Tokenisation Cotée au NYSE</a>:</strong> Une entreprise d'infrastructure RWA qui entre sur les marchés établis</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Les Actions Tokenisées Ne Sont Pas de Vraies Actions</a>:</strong> Un examen critique de ce que les actifs on-chain représentent réellement</li>
+    <li><strong><a href="/fr/blog/dtcc-russell-1000-tokenization-pilot-live">La DTCC Lance des Tests de Production d'un Russell 1000 Tokenisé</a>:</strong> L'infrastructure financière traditionnelle passe des projets pilotes de tokenisation à l'exploitation réelle</li>
+    <li><strong><a href="/fr/blog/securitize-nyse-debut-tokenized-stock">Securitize Devient la Première Entreprise d'Infrastructure de Tokenisation Cotée au NYSE</a>:</strong> Une entreprise d'infrastructure RWA qui entre sur les marchés établis</li>
+    <li><strong><a href="/fr/blog/tokenized-stocks-not-real-stocks">Les Actions Tokenisées Ne Sont Pas de Vraies Actions</a>:</strong> Un examen critique de ce que les actifs on-chain représentent réellement</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Inicia Testes de Produção de um Russell 1000 Tokenizado</a>:</strong> A infraestrutura financeira tradicional passa de pilotos de tokenização para a operação ao vivo</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize se Torna a Primeira Empresa de Infraestrutura de Tokenização a Listar na NYSE</a>:</strong> Uma empresa de infraestrutura RWA entrando nos mercados institucionais</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Ações Tokenizadas Não São Ações Reais</a>:</strong> Uma verificação crítica do que os ativos on-chain realmente representam</li>
+    <li><strong><a href="/pt/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Inicia Testes de Produção de um Russell 1000 Tokenizado</a>:</strong> A infraestrutura financeira tradicional passa de pilotos de tokenização para a operação ao vivo</li>
+    <li><strong><a href="/pt/blog/securitize-nyse-debut-tokenized-stock">Securitize se Torna a Primeira Empresa de Infraestrutura de Tokenização a Listar na NYSE</a>:</strong> Uma empresa de infraestrutura RWA entrando nos mercados institucionais</li>
+    <li><strong><a href="/pt/blog/tokenized-stocks-not-real-stocks">Ações Tokenizadas Não São Ações Reais</a>:</strong> Uma verificação crítica do que os ativos on-chain realmente representam</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC, Tokenize Bir Russell 1000'in Üretim Testlerine Başladı</a>:</strong> Geleneksel finans altyapısının tokenizasyon pilotlarından canlı operasyona geçişi</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize, NYSE'de İşlem Gören İlk Tokenizasyon Altyapısı Şirketi Oldu</a>:</strong> Bir RWA altyapı şirketinin kurumsal piyasalara girişi</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenize Hisseler Gerçek Hisse Değildir</a>:</strong> Zincir üstü varlıkların gerçekte neyi temsil ettiğine dair eleştirel bir inceleme</li>
+    <li><strong><a href="/tr/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC, Tokenize Bir Russell 1000'in Üretim Testlerine Başladı</a>:</strong> Geleneksel finans altyapısının tokenizasyon pilotlarından canlı operasyona geçişi</li>
+    <li><strong><a href="/tr/blog/securitize-nyse-debut-tokenized-stock">Securitize, NYSE'de İşlem Gören İlk Tokenizasyon Altyapısı Şirketi Oldu</a>:</strong> Bir RWA altyapı şirketinin kurumsal piyasalara girişi</li>
+    <li><strong><a href="/tr/blog/tokenized-stocks-not-real-stocks">Tokenize Hisseler Gerçek Hisse Değildir</a>:</strong> Zincir üstü varlıkların gerçekte neyi temsil ettiğine dair eleştirel bir inceleme</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/dtcc-russell-1000-tokenization-pilot-live.php">DTCC Bắt Đầu Thử Nghiệm Sản Xuất Russell 1000 Token Hóa</a>:</strong> Hạ tầng tài chính truyền thống chuyển từ thử nghiệm token hóa sang vận hành thực tế</li>
-    <li><strong><a href="/blog/securitize-nyse-debut-tokenized-stock.php">Securitize Trở Thành Công Ty Hạ Tầng Token Hóa Đầu Tiên Niêm Yết Trên NYSE</a>:</strong> Một công ty hạ tầng RWA bước vào thị trường chính thống</li>
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Cổ Phiếu Token Hóa Không Phải Là Cổ Phiếu Thật</a>:</strong> Một sự kiểm tra phản biện về việc tài sản on-chain thực sự đại diện cho điều gì</li>
+    <li><strong><a href="/vi/blog/dtcc-russell-1000-tokenization-pilot-live">DTCC Bắt Đầu Thử Nghiệm Sản Xuất Russell 1000 Token Hóa</a>:</strong> Hạ tầng tài chính truyền thống chuyển từ thử nghiệm token hóa sang vận hành thực tế</li>
+    <li><strong><a href="/vi/blog/securitize-nyse-debut-tokenized-stock">Securitize Trở Thành Công Ty Hạ Tầng Token Hóa Đầu Tiên Niêm Yết Trên NYSE</a>:</strong> Một công ty hạ tầng RWA bước vào thị trường chính thống</li>
+    <li><strong><a href="/vi/blog/tokenized-stocks-not-real-stocks">Cổ Phiếu Token Hóa Không Phải Là Cổ Phiếu Thật</a>:</strong> Một sự kiểm tra phản biện về việc tài sản on-chain thực sự đại diện cho điều gì</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더블록(The Block, 패러다임 주도 550만 달러 시드 라운드·토큰화 국채 플랫폼 확장 보도), PR뉴스와이어(누적 850만 달러 조달 공식 발표), 크립토브리핑(라운드 세부·투자자 구성), 페멕스 뉴스·Cryip(라운드 및 USDM1 세부), 비즈니스와이어(2026년 3월 300만 달러 엔젤 라운드·공개 출범), M1X글로벌 공식 자료(USDM1 담보·네트워크 구조). 마셜제도 SOV 관련 이력은 과거 IMF 경고 보도에 근거한다. 본 글은 투자 조언이 아니다.</p>

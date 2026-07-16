@@ -289,49 +289,49 @@
 <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
 <h2 class="vi">Nên Đọc Cùng Với</h2>
 <ul class="ko">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">솔라나의 디스인플레이션·수수료 소각 SIMD 논쟁</a>:</strong> 비슷한 시기 다른 L1이 벌이는 토크노믹스 개편 논의</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">솔라나 온체인 거버넌스 SGP 출범</a>:</strong> 니어의 하우스 오브 스테이크와 나란히 놓고 볼 거버넌스 공식화 흐름</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">베라체인 PoL 다음 하드포크와 BGT 선셋</a>:</strong> 다른 L1이 자체 인센티브 토큰 구조를 손보는 사례</li>
+  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd">솔라나의 디스인플레이션·수수료 소각 SIMD 논쟁</a>:</strong> 비슷한 시기 다른 L1이 벌이는 토크노믹스 개편 논의</li>
+  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch">솔라나 온체인 거버넌스 SGP 출범</a>:</strong> 니어의 하우스 오브 스테이크와 나란히 놓고 볼 거버넌스 공식화 흐름</li>
+  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset">베라체인 PoL 다음 하드포크와 BGT 선셋</a>:</strong> 다른 L1이 자체 인센티브 토큰 구조를 손보는 사례</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">Solana's Disinflation and Fee-Burn SIMD Debate</a>:</strong> Another L1 reworking its tokenomics around the same time</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Solana's On-Chain Governance (SGP) Launch</a>:</strong> A parallel formalization of governance worth reading alongside NEAR's House of Stake</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">Berachain's Next PoL Hard Fork and the BGT Sunset</a>:</strong> Another L1 overhauling its own incentive-token structure</li>
+  <li><strong><a href="/en/blog/solana-disinflation-fee-burn-simd">Solana's Disinflation and Fee-Burn SIMD Debate</a>:</strong> Another L1 reworking its tokenomics around the same time</li>
+  <li><strong><a href="/en/blog/solana-onchain-governance-sgp-launch">Solana's On-Chain Governance (SGP) Launch</a>:</strong> A parallel formalization of governance worth reading alongside NEAR's House of Stake</li>
+  <li><strong><a href="/en/blog/berachain-pol-next-hardfork-bgt-sunset">Berachain's Next PoL Hard Fork and the BGT Sunset</a>:</strong> Another L1 overhauling its own incentive-token structure</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">ソラナのディスインフレーション・手数料焼却SIMD論争</a>:</strong> ほぼ同時期に別のL1が進めるトークノミクス再編の議論</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">ソラナのオンチェーンガバナンス(SGP)始動</a>:</strong> NEARのハウス・オブ・ステークと並べて読みたいガバナンス正式化の流れ</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">ベラチェーンPoL次期ハードフォークとBGTサンセット</a>:</strong> 別のL1が自らのインセンティブトークン構造に手を入れる事例</li>
+  <li><strong><a href="/ja/blog/solana-disinflation-fee-burn-simd">ソラナのディスインフレーション・手数料焼却SIMD論争</a>:</strong> ほぼ同時期に別のL1が進めるトークノミクス再編の議論</li>
+  <li><strong><a href="/ja/blog/solana-onchain-governance-sgp-launch">ソラナのオンチェーンガバナンス(SGP)始動</a>:</strong> NEARのハウス・オブ・ステークと並べて読みたいガバナンス正式化の流れ</li>
+  <li><strong><a href="/ja/blog/berachain-pol-next-hardfork-bgt-sunset">ベラチェーンPoL次期ハードフォークとBGTサンセット</a>:</strong> 別のL1が自らのインセンティブトークン構造に手を入れる事例</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">El Debate de Desinflación y Quema de Comisiones SIMD de Solana</a>:</strong> Otra L1 reformulando su tokenómica por las mismas fechas</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">El Lanzamiento de la Gobernanza On-Chain de Solana (SGP)</a>:</strong> Una formalización paralela de gobernanza para leer junto al House of Stake de NEAR</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">El Próximo Hard Fork de PoL de Berachain y el Ocaso de BGT</a>:</strong> Otra L1 revisando su propia estructura de token de incentivos</li>
+  <li><strong><a href="/es/blog/solana-disinflation-fee-burn-simd">El Debate de Desinflación y Quema de Comisiones SIMD de Solana</a>:</strong> Otra L1 reformulando su tokenómica por las mismas fechas</li>
+  <li><strong><a href="/es/blog/solana-onchain-governance-sgp-launch">El Lanzamiento de la Gobernanza On-Chain de Solana (SGP)</a>:</strong> Una formalización paralela de gobernanza para leer junto al House of Stake de NEAR</li>
+  <li><strong><a href="/es/blog/berachain-pol-next-hardfork-bgt-sunset">El Próximo Hard Fork de PoL de Berachain y el Ocaso de BGT</a>:</strong> Otra L1 revisando su propia estructura de token de incentivos</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">Solanas Desinflations- und Gebührenverbrennungs-Debatte (SIMD)</a>:</strong> Ein weiteres L1, das zur gleichen Zeit seine Tokenomics überarbeitet</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Solanas Start der On-Chain-Governance (SGP)</a>:</strong> Eine parallele Formalisierung der Governance, lesenswert neben NEARs House of Stake</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">Berachains Nächster PoL-Hard-Fork und der BGT-Sunset</a>:</strong> Ein weiteres L1, das seine eigene Incentive-Token-Struktur überarbeitet</li>
+  <li><strong><a href="/de/blog/solana-disinflation-fee-burn-simd">Solanas Desinflations- und Gebührenverbrennungs-Debatte (SIMD)</a>:</strong> Ein weiteres L1, das zur gleichen Zeit seine Tokenomics überarbeitet</li>
+  <li><strong><a href="/de/blog/solana-onchain-governance-sgp-launch">Solanas Start der On-Chain-Governance (SGP)</a>:</strong> Eine parallele Formalisierung der Governance, lesenswert neben NEARs House of Stake</li>
+  <li><strong><a href="/de/blog/berachain-pol-next-hardfork-bgt-sunset">Berachains Nächster PoL-Hard-Fork und der BGT-Sunset</a>:</strong> Ein weiteres L1, das seine eigene Incentive-Token-Struktur überarbeitet</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">Le Débat de Désinflation et de Combustion des Frais SIMD de Solana</a>:</strong> Une autre L1 remaniant sa tokenomics à la même période</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Le Lancement de la Gouvernance On-Chain de Solana (SGP)</a>:</strong> Une formalisation parallèle de la gouvernance à lire aux côtés du House of Stake de NEAR</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">Le Prochain Hard Fork PoL de Berachain et le Coucher du BGT</a>:</strong> Une autre L1 refondant sa propre structure de jeton d'incitation</li>
+  <li><strong><a href="/fr/blog/solana-disinflation-fee-burn-simd">Le Débat de Désinflation et de Combustion des Frais SIMD de Solana</a>:</strong> Une autre L1 remaniant sa tokenomics à la même période</li>
+  <li><strong><a href="/fr/blog/solana-onchain-governance-sgp-launch">Le Lancement de la Gouvernance On-Chain de Solana (SGP)</a>:</strong> Une formalisation parallèle de la gouvernance à lire aux côtés du House of Stake de NEAR</li>
+  <li><strong><a href="/fr/blog/berachain-pol-next-hardfork-bgt-sunset">Le Prochain Hard Fork PoL de Berachain et le Coucher du BGT</a>:</strong> Une autre L1 refondant sa propre structure de jeton d'incitation</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">O Debate de Desinflação e Queima de Taxas SIMD da Solana</a>:</strong> Outra L1 reformulando sua tokenomics na mesma época</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">O Lançamento da Governança On-Chain da Solana (SGP)</a>:</strong> Uma formalização paralela de governança para ler ao lado do House of Stake da NEAR</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">O Próximo Hard Fork PoL da Berachain e o Sunset do BGT</a>:</strong> Outra L1 reformulando sua própria estrutura de token de incentivo</li>
+  <li><strong><a href="/pt/blog/solana-disinflation-fee-burn-simd">O Debate de Desinflação e Queima de Taxas SIMD da Solana</a>:</strong> Outra L1 reformulando sua tokenomics na mesma época</li>
+  <li><strong><a href="/pt/blog/solana-onchain-governance-sgp-launch">O Lançamento da Governança On-Chain da Solana (SGP)</a>:</strong> Uma formalização paralela de governança para ler ao lado do House of Stake da NEAR</li>
+  <li><strong><a href="/pt/blog/berachain-pol-next-hardfork-bgt-sunset">O Próximo Hard Fork PoL da Berachain e o Sunset do BGT</a>:</strong> Outra L1 reformulando sua própria estrutura de token de incentivo</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">Solana'nın Dezenflasyon ve Ücret Yakımı SIMD Tartışması</a>:</strong> Aynı dönemde tokenomiğini yeniden düzenleyen başka bir L1</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Solana'nın Zincir Üstü Yönetişim (SGP) Lansmanı</a>:</strong> NEAR'ın House of Stake'i ile yan yana okunmaya değer paralel bir yönetişim resmileştirmesi</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">Berachain'in Sonraki PoL Sert Çatalı ve BGT Gün Batımı</a>:</strong> Kendi teşvik token yapısını elden geçiren başka bir L1</li>
+  <li><strong><a href="/tr/blog/solana-disinflation-fee-burn-simd">Solana'nın Dezenflasyon ve Ücret Yakımı SIMD Tartışması</a>:</strong> Aynı dönemde tokenomiğini yeniden düzenleyen başka bir L1</li>
+  <li><strong><a href="/tr/blog/solana-onchain-governance-sgp-launch">Solana'nın Zincir Üstü Yönetişim (SGP) Lansmanı</a>:</strong> NEAR'ın House of Stake'i ile yan yana okunmaya değer paralel bir yönetişim resmileştirmesi</li>
+  <li><strong><a href="/tr/blog/berachain-pol-next-hardfork-bgt-sunset">Berachain'in Sonraki PoL Sert Çatalı ve BGT Gün Batımı</a>:</strong> Kendi teşvik token yapısını elden geçiren başka bir L1</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/solana-disinflation-fee-burn-simd.php">Cuộc Tranh Luận Giảm Phát Và Đốt Phí SIMD Của Solana</a>:</strong> Một L1 khác đang tái cấu trúc tokenomics cùng thời điểm</li>
-  <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Sự Ra Mắt Quản Trị On-Chain (SGP) Của Solana</a>:</strong> Một quá trình chính thức hóa quản trị song song đáng đọc cùng House of Stake của NEAR</li>
-  <li><strong><a href="/blog/berachain-pol-next-hardfork-bgt-sunset.php">Hard Fork PoL Tiếp Theo Của Berachain Và Sự Kết Thúc Của BGT</a>:</strong> Một L1 khác đang cải tổ cấu trúc token khuyến khích của chính mình</li>
+  <li><strong><a href="/vi/blog/solana-disinflation-fee-burn-simd">Cuộc Tranh Luận Giảm Phát Và Đốt Phí SIMD Của Solana</a>:</strong> Một L1 khác đang tái cấu trúc tokenomics cùng thời điểm</li>
+  <li><strong><a href="/vi/blog/solana-onchain-governance-sgp-launch">Sự Ra Mắt Quản Trị On-Chain (SGP) Của Solana</a>:</strong> Một quá trình chính thức hóa quản trị song song đáng đọc cùng House of Stake của NEAR</li>
+  <li><strong><a href="/vi/blog/berachain-pol-next-hardfork-bgt-sunset">Hard Fork PoL Tiếp Theo Của Berachain Và Sự Kết Thúc Của BGT</a>:</strong> Một L1 khác đang cải tổ cấu trúc token khuyến khích của chính mình</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: NEAR 거버넌스 포럼, "HSP-027: Remove the NEAR Developer Gas Rebate"(2026.7.8). The Defiant, "NEAR Governance Votes to Scrap Developer Gas Rebate". Cryptonomist, "NEAR Developer Gas Rebate Ends With Governance Vote"(2026.7.9). Blockworks/Techtimes, "Solana Governance Activates: Stakers Can Override Validator Votes for First Time"(2026.7.2). NEAR 공식 문서, 토크노믹스 및 인플레이션율 관련 자료.</p>

@@ -407,49 +407,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스 EU MiCA 라이선스 차질</a>:</strong> 대형 거래소조차 겪은 CASP 인가의 문턱</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">리플, 룩셈부르크서 MiCA CASP 정식 인가 획득</a>:</strong> 같은 규칙을 통과한 반대편 사례</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">레볼루트, MiCA 이유로 USDT 상장폐지</a>:</strong> 규제가 만든 또 다른 이용자 이동</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스 EU MiCA 라이선스 차질</a>:</strong> 대형 거래소조차 겪은 CASP 인가의 문턱</li>
+    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg">리플, 룩셈부르크서 MiCA CASP 정식 인가 획득</a>:</strong> 같은 규칙을 통과한 반대편 사례</li>
+    <li><strong><a href="/blog/revolut-usdt-delisting-mica">레볼루트, MiCA 이유로 USDT 상장폐지</a>:</strong> 규제가 만든 또 다른 이용자 이동</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance's EU MiCA license setback</a>:</strong> The CASP bar that even a top exchange stumbled on</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple wins full MiCA CASP license in Luxembourg</a>:</strong> The opposite case, of clearing the same rule</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut delists USDT over MiCA</a>:</strong> Another regulation-driven user shift</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance's EU MiCA license setback</a>:</strong> The CASP bar that even a top exchange stumbled on</li>
+    <li><strong><a href="/en/blog/ripple-mica-casp-full-license-luxembourg">Ripple wins full MiCA CASP license in Luxembourg</a>:</strong> The opposite case, of clearing the same rule</li>
+    <li><strong><a href="/en/blog/revolut-usdt-delisting-mica">Revolut delists USDT over MiCA</a>:</strong> Another regulation-driven user shift</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">バイナンスのEU MiCAライセンスの難航</a>:</strong> 大手取引所さえつまずいたCASP認可の敷居</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">リップル、ルクセンブルクでMiCA CASP正式認可を取得</a>:</strong> 同じ規則を通過した反対側の事例</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">レボリュート、MiCAを理由にUSDTを上場廃止</a>:</strong> 規制が生んだもう一つの利用者移動</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">バイナンスのEU MiCAライセンスの難航</a>:</strong> 大手取引所さえつまずいたCASP認可の敷居</li>
+    <li><strong><a href="/ja/blog/ripple-mica-casp-full-license-luxembourg">リップル、ルクセンブルクでMiCA CASP正式認可を取得</a>:</strong> 同じ規則を通過した反対側の事例</li>
+    <li><strong><a href="/ja/blog/revolut-usdt-delisting-mica">レボリュート、MiCAを理由にUSDTを上場廃止</a>:</strong> 規制が生んだもう一つの利用者移動</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">El revés de Binance con la licencia MiCA de la UE</a>:</strong> El listón CASP en el que tropezó incluso un exchange líder</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple obtiene la licencia CASP plena de MiCA en Luxemburgo</a>:</strong> El caso opuesto, el de superar la misma norma</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut retira USDT por MiCA</a>:</strong> Otro desplazamiento de usuarios impulsado por la regulación</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">El revés de Binance con la licencia MiCA de la UE</a>:</strong> El listón CASP en el que tropezó incluso un exchange líder</li>
+    <li><strong><a href="/es/blog/ripple-mica-casp-full-license-luxembourg">Ripple obtiene la licencia CASP plena de MiCA en Luxemburgo</a>:</strong> El caso opuesto, el de superar la misma norma</li>
+    <li><strong><a href="/es/blog/revolut-usdt-delisting-mica">Revolut retira USDT por MiCA</a>:</strong> Otro desplazamiento de usuarios impulsado por la regulación</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binances Rückschlag bei der EU-MiCA-Lizenz</a>:</strong> Die CASP-Hürde, an der selbst eine Top-Börse strauchelte</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple erhält volle MiCA-CASP-Lizenz in Luxemburg</a>:</strong> Der Gegenfall, dieselbe Regel zu bestehen</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut delistet USDT wegen MiCA</a>:</strong> Eine weitere regulierungsgetriebene Nutzerverschiebung</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binances Rückschlag bei der EU-MiCA-Lizenz</a>:</strong> Die CASP-Hürde, an der selbst eine Top-Börse strauchelte</li>
+    <li><strong><a href="/de/blog/ripple-mica-casp-full-license-luxembourg">Ripple erhält volle MiCA-CASP-Lizenz in Luxemburg</a>:</strong> Der Gegenfall, dieselbe Regel zu bestehen</li>
+    <li><strong><a href="/de/blog/revolut-usdt-delisting-mica">Revolut delistet USDT wegen MiCA</a>:</strong> Eine weitere regulierungsgetriebene Nutzerverschiebung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Le revers de Binance sur la licence MiCA de l'UE</a>:</strong> La barre CASP sur laquelle même un exchange de premier plan a trébuché</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple obtient la licence CASP complète MiCA au Luxembourg</a>:</strong> Le cas inverse, celui de franchir la même règle</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut retire USDT à cause de MiCA</a>:</strong> Un autre déplacement d'utilisateurs induit par la réglementation</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">Le revers de Binance sur la licence MiCA de l'UE</a>:</strong> La barre CASP sur laquelle même un exchange de premier plan a trébuché</li>
+    <li><strong><a href="/fr/blog/ripple-mica-casp-full-license-luxembourg">Ripple obtient la licence CASP complète MiCA au Luxembourg</a>:</strong> Le cas inverse, celui de franchir la même règle</li>
+    <li><strong><a href="/fr/blog/revolut-usdt-delisting-mica">Revolut retire USDT à cause de MiCA</a>:</strong> Un autre déplacement d'utilisateurs induit par la réglementation</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">O revés da Binance com a licença MiCA da UE</a>:</strong> A barra CASP em que até uma exchange de topo tropeçou</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple obtém licença CASP plena do MiCA em Luxemburgo</a>:</strong> O caso oposto, o de superar a mesma regra</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut retira USDT por causa do MiCA</a>:</strong> Outro deslocamento de usuários impulsionado pela regulação</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">O revés da Binance com a licença MiCA da UE</a>:</strong> A barra CASP em que até uma exchange de topo tropeçou</li>
+    <li><strong><a href="/pt/blog/ripple-mica-casp-full-license-luxembourg">Ripple obtém licença CASP plena do MiCA em Luxemburgo</a>:</strong> O caso oposto, o de superar a mesma regra</li>
+    <li><strong><a href="/pt/blog/revolut-usdt-delisting-mica">Revolut retira USDT por causa do MiCA</a>:</strong> Outro deslocamento de usuários impulsionado pela regulação</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance'in AB MiCA lisansı aksaklığı</a>:</strong> Üst düzey bir borsanın bile takıldığı CASP eşiği</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple, Lüksemburg'da tam MiCA CASP lisansı aldı</a>:</strong> Aynı kuralı geçmenin zıt örneği</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut, MiCA nedeniyle USDT'yi listeden çıkardı</a>:</strong> Düzenlemenin yol açtığı bir başka kullanıcı kayması</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance'in AB MiCA lisansı aksaklığı</a>:</strong> Üst düzey bir borsanın bile takıldığı CASP eşiği</li>
+    <li><strong><a href="/tr/blog/ripple-mica-casp-full-license-luxembourg">Ripple, Lüksemburg'da tam MiCA CASP lisansı aldı</a>:</strong> Aynı kuralı geçmenin zıt örneği</li>
+    <li><strong><a href="/tr/blog/revolut-usdt-delisting-mica">Revolut, MiCA nedeniyle USDT'yi listeden çıkardı</a>:</strong> Düzenlemenin yol açtığı bir başka kullanıcı kayması</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Trở ngại giấy phép MiCA EU của Binance</a>:</strong> Ngưỡng CASP mà ngay cả một sàn hàng đầu cũng vấp phải</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple giành giấy phép CASP MiCA đầy đủ tại Luxembourg</a>:</strong> Trường hợp ngược lại, vượt qua cùng một quy tắc</li>
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut hủy niêm yết USDT vì MiCA</a>:</strong> Một sự dịch chuyển người dùng khác do quy định thúc đẩy</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Trở ngại giấy phép MiCA EU của Binance</a>:</strong> Ngưỡng CASP mà ngay cả một sàn hàng đầu cũng vấp phải</li>
+    <li><strong><a href="/vi/blog/ripple-mica-casp-full-license-luxembourg">Ripple giành giấy phép CASP MiCA đầy đủ tại Luxembourg</a>:</strong> Trường hợp ngược lại, vượt qua cùng một quy tắc</li>
+    <li><strong><a href="/vi/blog/revolut-usdt-delisting-mica">Revolut hủy niêm yết USDT vì MiCA</a>:</strong> Một sự dịch chuyển người dùng khác do quy định thúc đẩy</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토뉴스(crypto.news, BNB체인 자기수탁 안내서 보도), 크립토타임스(CryptoTimes, MiCA 자기수탁 캠페인), CCN(BNB체인·MiCA 유럽 시장 분석), 라이브비트코인뉴스·MEXC(BNB체인 MiCA 마이그레이션 가이드), 비트겟뉴스(EU 규제 시행·커스터디 선택). MiCA 전환기간은 7월 1일 종료됐으며, 본 글은 투자 조언이 아니다.</p>

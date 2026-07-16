@@ -348,49 +348,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">'온체인이라 투명하다'는 착각</a>:</strong> 온체인 데이터가 곧 투명성을 보장하지 않는다는 근본 문제의식</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">온체인 지표를 너무 믿으면 안 되는 이유</a>:</strong> 온체인 데이터 해석의 한계를 다루는 자매 아티클</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">비트코인 레버리지 기업들, 다음 하락장의 도미노가 될 수 있을까</a>:</strong> 담보 비중이 높은 트레저리 기업 전반의 구조적 리스크</li>
+    <li><strong><a href="/blog/onchain-transparency-paradox">'온체인이라 투명하다'는 착각</a>:</strong> 온체인 데이터가 곧 투명성을 보장하지 않는다는 근본 문제의식</li>
+    <li><strong><a href="/blog/dont-over-trust-onchain">온체인 지표를 너무 믿으면 안 되는 이유</a>:</strong> 온체인 데이터 해석의 한계를 다루는 자매 아티클</li>
+    <li><strong><a href="/blog/dat-companies-domino-risk">비트코인 레버리지 기업들, 다음 하락장의 도미노가 될 수 있을까</a>:</strong> 담보 비중이 높은 트레저리 기업 전반의 구조적 리스크</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">The Illusion That 'On-Chain Means Transparent'</a>:</strong> The core problem that on-chain data alone doesn't guarantee transparency</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Why You Shouldn't Over-Trust On-Chain Indicators</a>:</strong> A companion piece on the limits of interpreting on-chain data</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Could Bitcoin-Leveraged Companies Be the Next Domino</a>:</strong> The structural risk across heavily collateralized treasury companies</li>
+    <li><strong><a href="/en/blog/onchain-transparency-paradox">The Illusion That 'On-Chain Means Transparent'</a>:</strong> The core problem that on-chain data alone doesn't guarantee transparency</li>
+    <li><strong><a href="/en/blog/dont-over-trust-onchain">Why You Shouldn't Over-Trust On-Chain Indicators</a>:</strong> A companion piece on the limits of interpreting on-chain data</li>
+    <li><strong><a href="/en/blog/dat-companies-domino-risk">Could Bitcoin-Leveraged Companies Be the Next Domino</a>:</strong> The structural risk across heavily collateralized treasury companies</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">「オンチェーンだから透明」という錯覚</a>:</strong> オンチェーンデータだけでは透明性が保証されないという根本的な問題意識</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">オンチェーン指標を過信してはいけない理由</a>:</strong> オンチェーンデータ解釈の限界を扱う姉妹記事</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">ビットコイン・レバレッジ企業は次の下落相場のドミノになり得るか</a>:</strong> 担保比率の高いトレジャリー企業全般の構造的リスク</li>
+    <li><strong><a href="/ja/blog/onchain-transparency-paradox">「オンチェーンだから透明」という錯覚</a>:</strong> オンチェーンデータだけでは透明性が保証されないという根本的な問題意識</li>
+    <li><strong><a href="/ja/blog/dont-over-trust-onchain">オンチェーン指標を過信してはいけない理由</a>:</strong> オンチェーンデータ解釈の限界を扱う姉妹記事</li>
+    <li><strong><a href="/ja/blog/dat-companies-domino-risk">ビットコイン・レバレッジ企業は次の下落相場のドミノになり得るか</a>:</strong> 担保比率の高いトレジャリー企業全般の構造的リスク</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">La Ilusión de que 'On-Chain Significa Transparente'</a>:</strong> El problema central de que los datos on-chain por sí solos no garantizan la transparencia</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Por Qué No Deberías Confiar Demasiado en los Indicadores On-Chain</a>:</strong> Un artículo complementario sobre los límites de interpretar datos on-chain</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">¿Podrían las Empresas Apalancadas en Bitcoin Ser la Próxima Ficha de Dominó?</a>:</strong> El riesgo estructural en empresas de tesorería fuertemente colateralizadas</li>
+    <li><strong><a href="/es/blog/onchain-transparency-paradox">La Ilusión de que 'On-Chain Significa Transparente'</a>:</strong> El problema central de que los datos on-chain por sí solos no garantizan la transparencia</li>
+    <li><strong><a href="/es/blog/dont-over-trust-onchain">Por Qué No Deberías Confiar Demasiado en los Indicadores On-Chain</a>:</strong> Un artículo complementario sobre los límites de interpretar datos on-chain</li>
+    <li><strong><a href="/es/blog/dat-companies-domino-risk">¿Podrían las Empresas Apalancadas en Bitcoin Ser la Próxima Ficha de Dominó?</a>:</strong> El riesgo estructural en empresas de tesorería fuertemente colateralizadas</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">Die Illusion, dass 'On-Chain Transparent Bedeutet'</a>:</strong> Das Kernproblem, dass On-Chain-Daten allein keine Transparenz garantieren</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Warum Sie On-Chain-Indikatoren Nicht Zu Sehr Vertrauen Sollten</a>:</strong> Ein Begleitartikel über die Grenzen der Interpretation von On-Chain-Daten</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Könnten Bitcoin-Fremdfinanzierte Unternehmen der Nächste Dominostein Sein</a>:</strong> Das strukturelle Risiko bei stark besicherten Treasury-Unternehmen</li>
+    <li><strong><a href="/de/blog/onchain-transparency-paradox">Die Illusion, dass 'On-Chain Transparent Bedeutet'</a>:</strong> Das Kernproblem, dass On-Chain-Daten allein keine Transparenz garantieren</li>
+    <li><strong><a href="/de/blog/dont-over-trust-onchain">Warum Sie On-Chain-Indikatoren Nicht Zu Sehr Vertrauen Sollten</a>:</strong> Ein Begleitartikel über die Grenzen der Interpretation von On-Chain-Daten</li>
+    <li><strong><a href="/de/blog/dat-companies-domino-risk">Könnten Bitcoin-Fremdfinanzierte Unternehmen der Nächste Dominostein Sein</a>:</strong> Das strukturelle Risiko bei stark besicherten Treasury-Unternehmen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">L'Illusion que 'On-Chain Signifie Transparent'</a>:</strong> Le problème central selon lequel les données on-chain seules ne garantissent pas la transparence</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Pourquoi Vous Ne Devriez Pas Trop Faire Confiance aux Indicateurs On-Chain</a>:</strong> Un article complémentaire sur les limites de l'interprétation des données on-chain</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Les Entreprises à Effet de Levier Bitcoin Pourraient-elles Être le Prochain Domino</a>:</strong> Le risque structurel des entreprises de trésorerie fortement garanties</li>
+    <li><strong><a href="/fr/blog/onchain-transparency-paradox">L'Illusion que 'On-Chain Signifie Transparent'</a>:</strong> Le problème central selon lequel les données on-chain seules ne garantissent pas la transparence</li>
+    <li><strong><a href="/fr/blog/dont-over-trust-onchain">Pourquoi Vous Ne Devriez Pas Trop Faire Confiance aux Indicateurs On-Chain</a>:</strong> Un article complémentaire sur les limites de l'interprétation des données on-chain</li>
+    <li><strong><a href="/fr/blog/dat-companies-domino-risk">Les Entreprises à Effet de Levier Bitcoin Pourraient-elles Être le Prochain Domino</a>:</strong> Le risque structurel des entreprises de trésorerie fortement garanties</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">A Ilusão de que 'On-Chain Significa Transparente'</a>:</strong> O problema central de que dados on-chain sozinhos não garantem transparência</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Por Que Você Não Deveria Confiar Demais em Indicadores On-Chain</a>:</strong> Um artigo complementar sobre os limites de interpretar dados on-chain</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">As Empresas Alavancadas em Bitcoin Podem Ser a Próxima Peça do Dominó</a>:</strong> O risco estrutural em empresas de tesouraria fortemente colateralizadas</li>
+    <li><strong><a href="/pt/blog/onchain-transparency-paradox">A Ilusão de que 'On-Chain Significa Transparente'</a>:</strong> O problema central de que dados on-chain sozinhos não garantem transparência</li>
+    <li><strong><a href="/pt/blog/dont-over-trust-onchain">Por Que Você Não Deveria Confiar Demais em Indicadores On-Chain</a>:</strong> Um artigo complementar sobre os limites de interpretar dados on-chain</li>
+    <li><strong><a href="/pt/blog/dat-companies-domino-risk">As Empresas Alavancadas em Bitcoin Podem Ser a Próxima Peça do Dominó</a>:</strong> O risco estrutural em empresas de tesouraria fortemente colateralizadas</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">'Zincir Üstü Şeffaf Demektir' Yanılsaması</a>:</strong> Zincir üstü verilerin tek başına şeffaflığı garanti etmediği temel sorun</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Zincir Üstü Göstergelere Neden Fazla Güvenmemelisiniz</a>:</strong> Zincir üstü veri yorumlamanın sınırlarını ele alan tamamlayıcı bir yazı</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Kaldıraçlı Bitcoin Şirketleri Bir Sonraki Domino Olabilir mi</a>:</strong> Yüksek oranda teminatlı hazine şirketleri genelindeki yapısal risk</li>
+    <li><strong><a href="/tr/blog/onchain-transparency-paradox">'Zincir Üstü Şeffaf Demektir' Yanılsaması</a>:</strong> Zincir üstü verilerin tek başına şeffaflığı garanti etmediği temel sorun</li>
+    <li><strong><a href="/tr/blog/dont-over-trust-onchain">Zincir Üstü Göstergelere Neden Fazla Güvenmemelisiniz</a>:</strong> Zincir üstü veri yorumlamanın sınırlarını ele alan tamamlayıcı bir yazı</li>
+    <li><strong><a href="/tr/blog/dat-companies-domino-risk">Kaldıraçlı Bitcoin Şirketleri Bir Sonraki Domino Olabilir mi</a>:</strong> Yüksek oranda teminatlı hazine şirketleri genelindeki yapısal risk</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">Ảo Tưởng Rằng 'On-Chain Nghĩa Là Minh Bạch'</a>:</strong> Vấn đề cốt lõi rằng riêng dữ liệu on-chain không đảm bảo tính minh bạch</li>
-    <li><strong><a href="/blog/dont-over-trust-onchain.php">Vì Sao Không Nên Quá Tin Vào Các Chỉ Số On-Chain</a>:</strong> Bài viết đồng hành về giới hạn của việc diễn giải dữ liệu on-chain</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Liệu Các Công Ty Sử Dụng Đòn Bẩy Bitcoin Có Thể Là Quân Domino Tiếp Theo</a>:</strong> Rủi ro cấu trúc trên diện rộng ở các công ty ngân quỹ thế chấp nặng</li>
+    <li><strong><a href="/vi/blog/onchain-transparency-paradox">Ảo Tưởng Rằng 'On-Chain Nghĩa Là Minh Bạch'</a>:</strong> Vấn đề cốt lõi rằng riêng dữ liệu on-chain không đảm bảo tính minh bạch</li>
+    <li><strong><a href="/vi/blog/dont-over-trust-onchain">Vì Sao Không Nên Quá Tin Vào Các Chỉ Số On-Chain</a>:</strong> Bài viết đồng hành về giới hạn của việc diễn giải dữ liệu on-chain</li>
+    <li><strong><a href="/vi/blog/dat-companies-domino-risk">Liệu Các Công Ty Sử Dụng Đòn Bẩy Bitcoin Có Thể Là Quân Domino Tiếp Theo</a>:</strong> Rủi ro cấu trúc trên diện rộng ở các công ty ngân quỹ thế chấp nặng</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 디지털투데이(온체인 매집 정황 최초 보도), 스톡티탄(10-K 공시 및 담보·부채 세부사항 보도), 비트코인월드(과거 매도 이력·리브랜딩 배경), 크립토폴리탄(AI 데이터센터 계약 관련 후속 피벗 보도), 비트코인트레저리스닷넷(제3자 보유량 집계). 온체인 주소의 회사 귀속은 제3자 분석에 근거하며 회사의 공식 확인은 없었다. 본 글은 투자 조언이 아니다.</p>

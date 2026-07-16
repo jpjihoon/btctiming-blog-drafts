@@ -307,40 +307,40 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">토네이도 캐시 제재, 영구 금지명령으로</a>:</strong> 코드·소프트웨어를 어디까지 규제할 수 있는가라는 같은 질문의 다른 전선</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">영국 FCA 최종 크립토 규정집</a>:</strong> 집행이 아닌 성문 규칙으로 경계를 긋는 대조적 접근</li>
+    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction">토네이도 캐시 제재, 영구 금지명령으로</a>:</strong> 코드·소프트웨어를 어디까지 규제할 수 있는가라는 같은 질문의 다른 전선</li>
+    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook">영국 FCA 최종 크립토 규정집</a>:</strong> 집행이 아닌 성문 규칙으로 경계를 긋는 대조적 접근</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Tornado Cash Sanctions Turn Into a Permanent Injunction</a>:</strong> Another front of the same question — how far can code and software be regulated</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">The UK FCA's Final Crypto Rulebook</a>:</strong> The contrasting approach of drawing lines through written rules rather than enforcement</li>
+    <li><strong><a href="/en/blog/tornado-cash-sanctions-permanent-injunction">Tornado Cash Sanctions Turn Into a Permanent Injunction</a>:</strong> Another front of the same question — how far can code and software be regulated</li>
+    <li><strong><a href="/en/blog/uk-fca-final-crypto-rulebook">The UK FCA's Final Crypto Rulebook</a>:</strong> The contrasting approach of drawing lines through written rules rather than enforcement</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">トルネードキャッシュ制裁、恒久的差止命令へ</a>:</strong> コード・ソフトウェアをどこまで規制できるかという同じ問いの別の戦線</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">英FCAの最終暗号資産ルールブック</a>:</strong> 執行ではなく成文ルールで境界を引く対照的アプローチ</li>
+    <li><strong><a href="/ja/blog/tornado-cash-sanctions-permanent-injunction">トルネードキャッシュ制裁、恒久的差止命令へ</a>:</strong> コード・ソフトウェアをどこまで規制できるかという同じ問いの別の戦線</li>
+    <li><strong><a href="/ja/blog/uk-fca-final-crypto-rulebook">英FCAの最終暗号資産ルールブック</a>:</strong> 執行ではなく成文ルールで境界を引く対照的アプローチ</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Las Sanciones a Tornado Cash se Convierten en Mandato Permanente</a>:</strong> Otro frente de la misma pregunta: hasta dónde se puede regular el código y el software</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">El Reglamento Cripto Final de la FCA del Reino Unido</a>:</strong> El enfoque opuesto de trazar líneas con normas escritas en lugar de cumplimiento</li>
+    <li><strong><a href="/es/blog/tornado-cash-sanctions-permanent-injunction">Las Sanciones a Tornado Cash se Convierten en Mandato Permanente</a>:</strong> Otro frente de la misma pregunta: hasta dónde se puede regular el código y el software</li>
+    <li><strong><a href="/es/blog/uk-fca-final-crypto-rulebook">El Reglamento Cripto Final de la FCA del Reino Unido</a>:</strong> El enfoque opuesto de trazar líneas con normas escritas en lugar de cumplimiento</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Tornado-Cash-Sanktionen werden zur dauerhaften Verfügung</a>:</strong> Eine weitere Front derselben Frage — wie weit lassen sich Code und Software regulieren</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">Das finale Krypto-Regelwerk der britischen FCA</a>:</strong> Der gegensätzliche Ansatz, Grenzen durch geschriebene Regeln statt durch Vollzug zu ziehen</li>
+    <li><strong><a href="/de/blog/tornado-cash-sanctions-permanent-injunction">Tornado-Cash-Sanktionen werden zur dauerhaften Verfügung</a>:</strong> Eine weitere Front derselben Frage — wie weit lassen sich Code und Software regulieren</li>
+    <li><strong><a href="/de/blog/uk-fca-final-crypto-rulebook">Das finale Krypto-Regelwerk der britischen FCA</a>:</strong> Der gegensätzliche Ansatz, Grenzen durch geschriebene Regeln statt durch Vollzug zu ziehen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Les sanctions contre Tornado Cash deviennent une injonction permanente</a>:</strong> Un autre front de la même question — jusqu'où peut-on réguler le code et le logiciel</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">Le règlement crypto final de la FCA britannique</a>:</strong> L'approche inverse consistant à tracer des limites par des règles écrites plutôt que par la coercition</li>
+    <li><strong><a href="/fr/blog/tornado-cash-sanctions-permanent-injunction">Les sanctions contre Tornado Cash deviennent une injonction permanente</a>:</strong> Un autre front de la même question — jusqu'où peut-on réguler le code et le logiciel</li>
+    <li><strong><a href="/fr/blog/uk-fca-final-crypto-rulebook">Le règlement crypto final de la FCA britannique</a>:</strong> L'approche inverse consistant à tracer des limites par des règles écrites plutôt que par la coercition</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Sanções ao Tornado Cash Viram Liminar Permanente</a>:</strong> Outra frente da mesma pergunta — até onde se pode regular código e software</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">O Regulamento Cripto Final da FCA do Reino Unido</a>:</strong> A abordagem oposta de traçar limites por normas escritas em vez de fiscalização</li>
+    <li><strong><a href="/pt/blog/tornado-cash-sanctions-permanent-injunction">Sanções ao Tornado Cash Viram Liminar Permanente</a>:</strong> Outra frente da mesma pergunta — até onde se pode regular código e software</li>
+    <li><strong><a href="/pt/blog/uk-fca-final-crypto-rulebook">O Regulamento Cripto Final da FCA do Reino Unido</a>:</strong> A abordagem oposta de traçar limites por normas escritas em vez de fiscalização</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Tornado Cash Yaptırımları Kalıcı İhtiyati Tedbire Dönüşüyor</a>:</strong> Aynı sorunun başka bir cephesi — kod ve yazılım ne kadar düzenlenebilir</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">İngiltere FCA'nın Nihai Kripto Kural Kitabı</a>:</strong> Sınırları icrayla değil yazılı kurallarla çizmenin zıt yaklaşımı</li>
+    <li><strong><a href="/tr/blog/tornado-cash-sanctions-permanent-injunction">Tornado Cash Yaptırımları Kalıcı İhtiyati Tedbire Dönüşüyor</a>:</strong> Aynı sorunun başka bir cephesi — kod ve yazılım ne kadar düzenlenebilir</li>
+    <li><strong><a href="/tr/blog/uk-fca-final-crypto-rulebook">İngiltere FCA'nın Nihai Kripto Kural Kitabı</a>:</strong> Sınırları icrayla değil yazılı kurallarla çizmenin zıt yaklaşımı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/tornado-cash-sanctions-permanent-injunction.php">Lệnh Trừng Phạt Tornado Cash Thành Lệnh Cấm Vĩnh Viễn</a>:</strong> Một mặt trận khác của cùng câu hỏi — mã và phần mềm có thể bị quản lý đến đâu</li>
-    <li><strong><a href="/blog/uk-fca-final-crypto-rulebook.php">Cuốn Quy Tắc Tiền Mã Hóa Cuối Cùng Của FCA Anh</a>:</strong> Cách tiếp cận trái ngược: vạch ranh giới bằng quy tắc thành văn thay vì thực thi</li>
+    <li><strong><a href="/vi/blog/tornado-cash-sanctions-permanent-injunction">Lệnh Trừng Phạt Tornado Cash Thành Lệnh Cấm Vĩnh Viễn</a>:</strong> Một mặt trận khác của cùng câu hỏi — mã và phần mềm có thể bị quản lý đến đâu</li>
+    <li><strong><a href="/vi/blog/uk-fca-final-crypto-rulebook">Cuốn Quy Tắc Tiền Mã Hóa Cuối Cùng Của FCA Anh</a>:</strong> Cách tiếp cận trái ngược: vạch ranh giới bằng quy tắc thành văn thay vì thực thi</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(SEC 조사 종결 보도), 더블록(컨센시스 관련 사건 경과), 크립토뉴스(무벌금·무인정 종결 및 컨센시스 입장), 크립토브리핑(2025년 2월 소송 취하 합의), 코인마켓캡·야후파이낸스(사건 배경 및 IPO 준비), 컨센시스 공식 블로그(자사 입장). 조사 종결의 세부 문언과 향후 규칙 제정 일정은 유동적이며, 본 글은 투자 조언이 아니다.</p>

@@ -281,49 +281,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">RWA 토큰화 시총 636억 달러 돌파</a>:</strong> 발행 잔고 관점에서 본 토큰화 시장 전체의 지형</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">온체인 토큰화 주식 거래량 사상 최대, 스페이스X가 31%</a>:</strong> 토큰화 주식 거래량 급증의 또 다른 단면</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">로빈후드 체인 메인넷과 토큰화 주식</a>:</strong> 자체 체인으로 향하는 토큰화 경쟁의 확장</li>
+    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record">RWA 토큰화 시총 636억 달러 돌파</a>:</strong> 발행 잔고 관점에서 본 토큰화 시장 전체의 지형</li>
+    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record">온체인 토큰화 주식 거래량 사상 최대, 스페이스X가 31%</a>:</strong> 토큰화 주식 거래량 급증의 또 다른 단면</li>
+    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks">로빈후드 체인 메인넷과 토큰화 주식</a>:</strong> 자체 체인으로 향하는 토큰화 경쟁의 확장</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">RWA tokenization market cap tops $63.6B</a>:</strong> The whole tokenized market seen from the issuance side</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">On-chain tokenized-equity volume hits a record, SpaceX drives 31%</a>:</strong> Another facet of surging tokenized-stock volume</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood Chain mainnet and tokenized stocks</a>:</strong> The tokenization race expanding toward proprietary chains</li>
+    <li><strong><a href="/en/blog/rwa-tokenization-63b-market-cap-record">RWA tokenization market cap tops $63.6B</a>:</strong> The whole tokenized market seen from the issuance side</li>
+    <li><strong><a href="/en/blog/spacex-tokenized-equity-volume-record">On-chain tokenized-equity volume hits a record, SpaceX drives 31%</a>:</strong> Another facet of surging tokenized-stock volume</li>
+    <li><strong><a href="/en/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood Chain mainnet and tokenized stocks</a>:</strong> The tokenization race expanding toward proprietary chains</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">RWAトークン化時価総額636億ドル突破</a>:</strong> 発行残高の観点で見たトークン化市場全体の地形</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">オンチェーン・トークン化株式取引高が過去最高、スペースXが31%</a>:</strong> トークン化株式取引高急増のもう一つの断面</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">ロビンフッド・チェーン・メインネットとトークン化株式</a>:</strong> 自前チェーンへ向かうトークン化競争の拡大</li>
+    <li><strong><a href="/ja/blog/rwa-tokenization-63b-market-cap-record">RWAトークン化時価総額636億ドル突破</a>:</strong> 発行残高の観点で見たトークン化市場全体の地形</li>
+    <li><strong><a href="/ja/blog/spacex-tokenized-equity-volume-record">オンチェーン・トークン化株式取引高が過去最高、スペースXが31%</a>:</strong> トークン化株式取引高急増のもう一つの断面</li>
+    <li><strong><a href="/ja/blog/robinhood-chain-mainnet-tokenized-stocks">ロビンフッド・チェーン・メインネットとトークン化株式</a>:</strong> 自前チェーンへ向かうトークン化競争の拡大</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">La capitalización de tokenización de RWA supera los 63.600 millones</a>:</strong> Todo el mercado tokenizado visto desde el lado de la emisión</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">El volumen de acciones tokenizadas marca récord, SpaceX aporta el 31%</a>:</strong> Otra faceta del auge del volumen de acciones tokenizadas</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">La mainnet de Robinhood Chain y las acciones tokenizadas</a>:</strong> La carrera de la tokenización expandiéndose hacia cadenas propias</li>
+    <li><strong><a href="/es/blog/rwa-tokenization-63b-market-cap-record">La capitalización de tokenización de RWA supera los 63.600 millones</a>:</strong> Todo el mercado tokenizado visto desde el lado de la emisión</li>
+    <li><strong><a href="/es/blog/spacex-tokenized-equity-volume-record">El volumen de acciones tokenizadas marca récord, SpaceX aporta el 31%</a>:</strong> Otra faceta del auge del volumen de acciones tokenizadas</li>
+    <li><strong><a href="/es/blog/robinhood-chain-mainnet-tokenized-stocks">La mainnet de Robinhood Chain y las acciones tokenizadas</a>:</strong> La carrera de la tokenización expandiéndose hacia cadenas propias</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">RWA-Tokenisierungs-Marktkapitalisierung übersteigt 63,6 Mrd. $</a>:</strong> Der gesamte tokenisierte Markt aus Sicht der Emission</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">On-Chain-Volumen tokenisierter Aktien auf Rekord, SpaceX treibt 31%</a>:</strong> Eine weitere Facette des steigenden Volumens tokenisierter Aktien</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood-Chain-Mainnet und tokenisierte Aktien</a>:</strong> Das Tokenisierungsrennen weitet sich auf eigene Chains aus</li>
+    <li><strong><a href="/de/blog/rwa-tokenization-63b-market-cap-record">RWA-Tokenisierungs-Marktkapitalisierung übersteigt 63,6 Mrd. $</a>:</strong> Der gesamte tokenisierte Markt aus Sicht der Emission</li>
+    <li><strong><a href="/de/blog/spacex-tokenized-equity-volume-record">On-Chain-Volumen tokenisierter Aktien auf Rekord, SpaceX treibt 31%</a>:</strong> Eine weitere Facette des steigenden Volumens tokenisierter Aktien</li>
+    <li><strong><a href="/de/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood-Chain-Mainnet und tokenisierte Aktien</a>:</strong> Das Tokenisierungsrennen weitet sich auf eigene Chains aus</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">La capitalisation de la tokenisation des RWA dépasse 63,6 Md$</a>:</strong> L'ensemble du marché tokenisé vu du côté de l'émission</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">Le volume d'actions tokenisées on-chain bat un record, SpaceX pèse 31%</a>:</strong> Une autre facette de la flambée du volume d'actions tokenisées</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Le mainnet Robinhood Chain et les actions tokenisées</a>:</strong> La course à la tokenisation s'étend vers des chaînes propriétaires</li>
+    <li><strong><a href="/fr/blog/rwa-tokenization-63b-market-cap-record">La capitalisation de la tokenisation des RWA dépasse 63,6 Md$</a>:</strong> L'ensemble du marché tokenisé vu du côté de l'émission</li>
+    <li><strong><a href="/fr/blog/spacex-tokenized-equity-volume-record">Le volume d'actions tokenisées on-chain bat un record, SpaceX pèse 31%</a>:</strong> Une autre facette de la flambée du volume d'actions tokenisées</li>
+    <li><strong><a href="/fr/blog/robinhood-chain-mainnet-tokenized-stocks">Le mainnet Robinhood Chain et les actions tokenisées</a>:</strong> La course à la tokenisation s'étend vers des chaînes propriétaires</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">Capitalização da tokenização de RWA supera US$ 63,6 bi</a>:</strong> Todo o mercado tokenizado visto do lado da emissão</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">Volume de ações tokenizadas on-chain bate recorde, SpaceX puxa 31%</a>:</strong> Outra faceta da disparada do volume de ações tokenizadas</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">A mainnet da Robinhood Chain e as ações tokenizadas</a>:</strong> A corrida da tokenização se expandindo rumo a cadeias próprias</li>
+    <li><strong><a href="/pt/blog/rwa-tokenization-63b-market-cap-record">Capitalização da tokenização de RWA supera US$ 63,6 bi</a>:</strong> Todo o mercado tokenizado visto do lado da emissão</li>
+    <li><strong><a href="/pt/blog/spacex-tokenized-equity-volume-record">Volume de ações tokenizadas on-chain bate recorde, SpaceX puxa 31%</a>:</strong> Outra faceta da disparada do volume de ações tokenizadas</li>
+    <li><strong><a href="/pt/blog/robinhood-chain-mainnet-tokenized-stocks">A mainnet da Robinhood Chain e as ações tokenizadas</a>:</strong> A corrida da tokenização se expandindo rumo a cadeias próprias</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">RWA tokenizasyon piyasa değeri 63,6 milyar doları aştı</a>:</strong> İhraç tarafından görülen tüm tokenize piyasa</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">Zincir üstü tokenize hisse hacmi rekor kırdı, SpaceX %31 taşıdı</a>:</strong> Artan tokenize hisse hacminin bir başka yüzü</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood Chain ana ağı ve tokenize hisseler</a>:</strong> Kendi zincirlerine yönelen tokenizasyon yarışının genişlemesi</li>
+    <li><strong><a href="/tr/blog/rwa-tokenization-63b-market-cap-record">RWA tokenizasyon piyasa değeri 63,6 milyar doları aştı</a>:</strong> İhraç tarafından görülen tüm tokenize piyasa</li>
+    <li><strong><a href="/tr/blog/spacex-tokenized-equity-volume-record">Zincir üstü tokenize hisse hacmi rekor kırdı, SpaceX %31 taşıdı</a>:</strong> Artan tokenize hisse hacminin bir başka yüzü</li>
+    <li><strong><a href="/tr/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood Chain ana ağı ve tokenize hisseler</a>:</strong> Kendi zincirlerine yönelen tokenizasyon yarışının genişlemesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/rwa-tokenization-63b-market-cap-record.php">Vốn hóa tokenized RWA vượt 63,6 tỷ USD</a>:</strong> Toàn bộ thị trường mã hóa nhìn từ phía phát hành</li>
-    <li><strong><a href="/blog/spacex-tokenized-equity-volume-record.php">Khối lượng cổ phiếu mã hóa trên chuỗi lập kỷ lục, SpaceX chiếm 31%</a>:</strong> Một khía cạnh khác của cú tăng vọt khối lượng cổ phiếu mã hóa</li>
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Mainnet Robinhood Chain và cổ phiếu mã hóa</a>:</strong> Cuộc đua mã hóa mở rộng sang các chuỗi riêng</li>
+    <li><strong><a href="/vi/blog/rwa-tokenization-63b-market-cap-record">Vốn hóa tokenized RWA vượt 63,6 tỷ USD</a>:</strong> Toàn bộ thị trường mã hóa nhìn từ phía phát hành</li>
+    <li><strong><a href="/vi/blog/spacex-tokenized-equity-volume-record">Khối lượng cổ phiếu mã hóa trên chuỗi lập kỷ lục, SpaceX chiếm 31%</a>:</strong> Một khía cạnh khác của cú tăng vọt khối lượng cổ phiếu mã hóa</li>
+    <li><strong><a href="/vi/blog/robinhood-chain-mainnet-tokenized-stocks">Mainnet Robinhood Chain và cổ phiếu mã hóa</a>:</strong> Cuộc đua mã hóa mở rộng sang các chuỗi riêng</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 샘 슈베르트(7월 1일 2분기 집계), 크립토뉴스·젠피니티·크립토이코노미(솔라나 2분기 토큰화 자산 거래량 57.7억 달러), 크립토브리핑·코이노미디어·솔라나플로어(솔라나 RWA 총가치 34억 달러 역대 최고), 크라켄(xStocks 누적 거래량 250억 달러), 레이디움(7월 1일 자체 발표), RWA.xyz(체인별 RWA 발행 데이터), 블랙록(이더리움 결제 표준 진단). 수치는 집계 시점에 따라 변동할 수 있으며, 본 글은 투자 조언이 아니다.</p>

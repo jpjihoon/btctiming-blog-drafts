@@ -374,49 +374,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">한국, 가상자산 트래블룰 기준 100만원→0원</a>:</strong> 국내 이전 추적을 강화한 앞선 조치가 국경간 이전 감시망과 어떻게 맞물리는지</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">미국 재무부, 이란 최대 거래소 노비텍스 등 4곳 제재</a>:</strong> 가상자산이 국가 단위 제재 회피에 쓰이는 경우와의 대조</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">한국 5대 거래소, 신규 상장 74% 급감·상장폐지 258% 폭증</a>:</strong> 같은 시기 한국 거래소를 조여온 다른 규제 압박</li>
+    <li><strong><a href="/blog/korea-travel-rule-zero-threshold">한국, 가상자산 트래블룰 기준 100만원→0원</a>:</strong> 국내 이전 추적을 강화한 앞선 조치가 국경간 이전 감시망과 어떻게 맞물리는지</li>
+    <li><strong><a href="/blog/us-treasury-sanctions-nobitex">미국 재무부, 이란 최대 거래소 노비텍스 등 4곳 제재</a>:</strong> 가상자산이 국가 단위 제재 회피에 쓰이는 경우와의 대조</li>
+    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1">한국 5대 거래소, 신규 상장 74% 급감·상장폐지 258% 폭증</a>:</strong> 같은 시기 한국 거래소를 조여온 다른 규제 압박</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">Korea Scraps Crypto Travel Rule Threshold to Zero</a>:</strong> How the earlier domestic-transfer tracking measure feeds into this cross-border surveillance push</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">US Treasury Sanctions Iran's Largest Exchange Nobitex and 3 Others</a>:</strong> A contrasting case of crypto used for state-level sanctions evasion</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Korea's Five Exchanges: New Listings Down 74%, Delistings Up 258%</a>:</strong> The other regulatory pressure squeezing Korean exchanges this same period</li>
+    <li><strong><a href="/en/blog/korea-travel-rule-zero-threshold">Korea Scraps Crypto Travel Rule Threshold to Zero</a>:</strong> How the earlier domestic-transfer tracking measure feeds into this cross-border surveillance push</li>
+    <li><strong><a href="/en/blog/us-treasury-sanctions-nobitex">US Treasury Sanctions Iran's Largest Exchange Nobitex and 3 Others</a>:</strong> A contrasting case of crypto used for state-level sanctions evasion</li>
+    <li><strong><a href="/en/blog/korea-exchange-delisting-surge-2026h1">Korea's Five Exchanges: New Listings Down 74%, Delistings Up 258%</a>:</strong> The other regulatory pressure squeezing Korean exchanges this same period</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">韓国、仮想資産トラベルルール基準を100万ウォン→0ウォンに</a>:</strong> 国内移転の追跡強化が国境間の監視網とどうつながるか</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">米財務省、イラン最大の取引所ノビテックスなど4社を制裁</a>:</strong> 仮想資産が国家単位の制裁回避に使われる対照的な事例</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">韓国5大取引所、新規上場74%急減・上場廃止258%急増</a>:</strong> 同時期に韓国の取引所を締め付けた別の規制圧力</li>
+    <li><strong><a href="/ja/blog/korea-travel-rule-zero-threshold">韓国、仮想資産トラベルルール基準を100万ウォン→0ウォンに</a>:</strong> 国内移転の追跡強化が国境間の監視網とどうつながるか</li>
+    <li><strong><a href="/ja/blog/us-treasury-sanctions-nobitex">米財務省、イラン最大の取引所ノビテックスなど4社を制裁</a>:</strong> 仮想資産が国家単位の制裁回避に使われる対照的な事例</li>
+    <li><strong><a href="/ja/blog/korea-exchange-delisting-surge-2026h1">韓国5大取引所、新規上場74%急減・上場廃止258%急増</a>:</strong> 同時期に韓国の取引所を締め付けた別の規制圧力</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">Corea Reduce a Cero el Umbral de la Regla de Viaje Cripto</a>:</strong> Cómo la medida previa de rastreo de transferencias nacionales se conecta con esta ofensiva de vigilancia transfronteriza</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">EE.UU. Sanciona a Nobitex, el Mayor Exchange de Irán, y a Otros 3</a>:</strong> Un caso contrastante de cripto usado para evadir sanciones a nivel estatal</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Los Cinco Exchanges de Corea: Nuevos Listados Caen 74%, Deslistados Suben 258%</a>:</strong> La otra presión regulatoria que aprieta a los exchanges coreanos en el mismo período</li>
+    <li><strong><a href="/es/blog/korea-travel-rule-zero-threshold">Corea Reduce a Cero el Umbral de la Regla de Viaje Cripto</a>:</strong> Cómo la medida previa de rastreo de transferencias nacionales se conecta con esta ofensiva de vigilancia transfronteriza</li>
+    <li><strong><a href="/es/blog/us-treasury-sanctions-nobitex">EE.UU. Sanciona a Nobitex, el Mayor Exchange de Irán, y a Otros 3</a>:</strong> Un caso contrastante de cripto usado para evadir sanciones a nivel estatal</li>
+    <li><strong><a href="/es/blog/korea-exchange-delisting-surge-2026h1">Los Cinco Exchanges de Corea: Nuevos Listados Caen 74%, Deslistados Suben 258%</a>:</strong> La otra presión regulatoria que aprieta a los exchanges coreanos en el mismo período</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">Korea Senkt Krypto-Travel-Rule-Schwelle auf Null</a>:</strong> Wie die frühere Verfolgung inländischer Transfers mit diesem grenzüberschreitenden Überwachungsvorstoß zusammenhängt</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">US-Finanzministerium sanktioniert Irans größte Börse Nobitex und 3 weitere</a>:</strong> Ein gegensätzlicher Fall von Krypto zur staatlichen Sanktionsumgehung</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Koreas Fünf Börsen: Neue Listings Minus 74 %, Delistings Plus 258 %</a>:</strong> Der andere regulatorische Druck, der koreanische Börsen im selben Zeitraum unter Beschuss nahm</li>
+    <li><strong><a href="/de/blog/korea-travel-rule-zero-threshold">Korea Senkt Krypto-Travel-Rule-Schwelle auf Null</a>:</strong> Wie die frühere Verfolgung inländischer Transfers mit diesem grenzüberschreitenden Überwachungsvorstoß zusammenhängt</li>
+    <li><strong><a href="/de/blog/us-treasury-sanctions-nobitex">US-Finanzministerium sanktioniert Irans größte Börse Nobitex und 3 weitere</a>:</strong> Ein gegensätzlicher Fall von Krypto zur staatlichen Sanktionsumgehung</li>
+    <li><strong><a href="/de/blog/korea-exchange-delisting-surge-2026h1">Koreas Fünf Börsen: Neue Listings Minus 74 %, Delistings Plus 258 %</a>:</strong> Der andere regulatorische Druck, der koreanische Börsen im selben Zeitraum unter Beschuss nahm</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">La Corée Ramène le Seuil de la Règle de Voyage Crypto à Zéro</a>:</strong> Comment la mesure antérieure de suivi des transferts nationaux s'articule avec cette poussée de surveillance transfrontalière</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">Les États-Unis Sanctionnent Nobitex, le Plus Grand Exchange d'Iran, et 3 Autres</a>:</strong> Un cas contrastant de crypto utilisée pour contourner des sanctions étatiques</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Les Cinq Exchanges Coréens : Nouvelles Cotations en Baisse de 74 %, Radiations en Hausse de 258 %</a>:</strong> L'autre pression réglementaire qui a comprimé les exchanges coréens sur la même période</li>
+    <li><strong><a href="/fr/blog/korea-travel-rule-zero-threshold">La Corée Ramène le Seuil de la Règle de Voyage Crypto à Zéro</a>:</strong> Comment la mesure antérieure de suivi des transferts nationaux s'articule avec cette poussée de surveillance transfrontalière</li>
+    <li><strong><a href="/fr/blog/us-treasury-sanctions-nobitex">Les États-Unis Sanctionnent Nobitex, le Plus Grand Exchange d'Iran, et 3 Autres</a>:</strong> Un cas contrastant de crypto utilisée pour contourner des sanctions étatiques</li>
+    <li><strong><a href="/fr/blog/korea-exchange-delisting-surge-2026h1">Les Cinq Exchanges Coréens : Nouvelles Cotations en Baisse de 74 %, Radiations en Hausse de 258 %</a>:</strong> L'autre pression réglementaire qui a comprimé les exchanges coréens sur la même période</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">Coreia Reduz a Zero o Limite da Regra de Viagem Cripto</a>:</strong> Como a medida anterior de rastreamento de transferências domésticas se conecta a essa ofensiva de vigilância transfronteiriça</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">EUA Sancionam a Nobitex, Maior Exchange do Irã, e Outras 3</a>:</strong> Um caso contrastante de cripto usado para driblar sanções em nível estatal</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">As Cinco Exchanges da Coreia: Novas Listagens Caem 74%, Deslistagens Sobem 258%</a>:</strong> A outra pressão regulatória que apertou as exchanges coreanas no mesmo período</li>
+    <li><strong><a href="/pt/blog/korea-travel-rule-zero-threshold">Coreia Reduz a Zero o Limite da Regra de Viagem Cripto</a>:</strong> Como a medida anterior de rastreamento de transferências domésticas se conecta a essa ofensiva de vigilância transfronteiriça</li>
+    <li><strong><a href="/pt/blog/us-treasury-sanctions-nobitex">EUA Sancionam a Nobitex, Maior Exchange do Irã, e Outras 3</a>:</strong> Um caso contrastante de cripto usado para driblar sanções em nível estatal</li>
+    <li><strong><a href="/pt/blog/korea-exchange-delisting-surge-2026h1">As Cinco Exchanges da Coreia: Novas Listagens Caem 74%, Deslistagens Sobem 258%</a>:</strong> A outra pressão regulatória que apertou as exchanges coreanas no mesmo período</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">Kore, Kripto Seyahat Kuralı Eşiğini Sıfıra İndiriyor</a>:</strong> Yurt içi transfer takibine yönelik önceki önlemin bu sınır ötesi gözetim hamlesiyle nasıl örtüştüğü</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">ABD Hazinesi, İran'ın En Büyük Borsası Nobitex ve Diğer 3'ünü Yaptırıma Tabi Tutuyor</a>:</strong> Kripto paranın devlet düzeyinde yaptırım kaçınması için kullanıldığı zıt bir örnek</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Kore'nin Beş Borsası: Yeni Kotasyonlar Yüzde 74 Düştü, Kottan Çıkarmalar Yüzde 258 Arttı</a>:</strong> Aynı dönemde Kore borsalarını sıkıştıran diğer düzenleyici baskı</li>
+    <li><strong><a href="/tr/blog/korea-travel-rule-zero-threshold">Kore, Kripto Seyahat Kuralı Eşiğini Sıfıra İndiriyor</a>:</strong> Yurt içi transfer takibine yönelik önceki önlemin bu sınır ötesi gözetim hamlesiyle nasıl örtüştüğü</li>
+    <li><strong><a href="/tr/blog/us-treasury-sanctions-nobitex">ABD Hazinesi, İran'ın En Büyük Borsası Nobitex ve Diğer 3'ünü Yaptırıma Tabi Tutuyor</a>:</strong> Kripto paranın devlet düzeyinde yaptırım kaçınması için kullanıldığı zıt bir örnek</li>
+    <li><strong><a href="/tr/blog/korea-exchange-delisting-surge-2026h1">Kore'nin Beş Borsası: Yeni Kotasyonlar Yüzde 74 Düştü, Kottan Çıkarmalar Yüzde 258 Arttı</a>:</strong> Aynı dönemde Kore borsalarını sıkıştıran diğer düzenleyici baskı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/korea-travel-rule-zero-threshold.php">Hàn Quốc Đưa Ngưỡng Quy Tắc Du Lịch Tiền Mã Hóa Về 0</a>:</strong> Biện pháp theo dõi chuyển tiền trong nước trước đó liên hệ thế nào với đợt giám sát xuyên biên giới này</li>
-    <li><strong><a href="/blog/us-treasury-sanctions-nobitex.php">Bộ Tài chính Mỹ Trừng Phạt Sàn Giao Dịch Lớn Nhất Iran Nobitex và 3 Sàn Khác</a>:</strong> Một trường hợp trái ngược khi tiền mã hóa được dùng để né tránh trừng phạt cấp nhà nước</li>
-    <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Năm Sàn Giao Dịch Hàn Quốc: Niêm Yết Mới Giảm 74%, Hủy Niêm Yết Tăng 258%</a>:</strong> Áp lực quản lý khác đang siết chặt các sàn giao dịch Hàn Quốc trong cùng giai đoạn</li>
+    <li><strong><a href="/vi/blog/korea-travel-rule-zero-threshold">Hàn Quốc Đưa Ngưỡng Quy Tắc Du Lịch Tiền Mã Hóa Về 0</a>:</strong> Biện pháp theo dõi chuyển tiền trong nước trước đó liên hệ thế nào với đợt giám sát xuyên biên giới này</li>
+    <li><strong><a href="/vi/blog/us-treasury-sanctions-nobitex">Bộ Tài chính Mỹ Trừng Phạt Sàn Giao Dịch Lớn Nhất Iran Nobitex và 3 Sàn Khác</a>:</strong> Một trường hợp trái ngược khi tiền mã hóa được dùng để né tránh trừng phạt cấp nhà nước</li>
+    <li><strong><a href="/vi/blog/korea-exchange-delisting-surge-2026h1">Năm Sàn Giao Dịch Hàn Quốc: Niêm Yết Mới Giảm 74%, Hủy Niêm Yết Tăng 258%</a>:</strong> Áp lực quản lý khác đang siết chặt các sàn giao dịch Hàn Quốc trong cùng giai đoạn</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 아시아경제(환치기 적발 및 과태료 징수율 10% 단독 보도), EBN금융포럼(불법 외환거래 규모 및 가상자산 통행 구조 분석), 더퍼블릭·서울타임즈뉴스(5년간 환치기 통계 및 특별단속 계획 보도), BeInCrypto Korea(관세청 126명 추적팀 편성 및 수사 착수 보도), 관세청 발표(외국환거래법 개정 및 3대 중점 단속 유형), Chainalysis 2026 Cryptocurrency Crime Report(글로벌 불법 암호화폐 거래 규모). 본 글은 투자 조언이 아니다.</p>

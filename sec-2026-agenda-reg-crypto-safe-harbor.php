@@ -437,49 +437,49 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC "대부분 크립토는 증권 아니다" 공식 해석 발표</a>:</strong> 이번 레그 크립토의 전제가 된 3월 17일 토큰 분류 해석</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">클래리티법, 7월 4일 시한 넘겼다 — 8월 7일 앞 세 갈래 쟁점</a>:</strong> 규정 제정과 별도로 진행 중인 입법 트랙의 현재 상황</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC, '노벌 ETF'에 27개 질문 던지다</a>:</strong> 같은 시기 진행 중인 SEC의 또 다른 크립토 규칙 재검토</li>
+    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release">SEC "대부분 크립토는 증권 아니다" 공식 해석 발표</a>:</strong> 이번 레그 크립토의 전제가 된 3월 17일 토큰 분류 해석</li>
+    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes">클래리티법, 7월 4일 시한 넘겼다 — 8월 7일 앞 세 갈래 쟁점</a>:</strong> 규정 제정과 별도로 진행 중인 입법 트랙의 현재 상황</li>
+    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto">SEC, '노벌 ETF'에 27개 질문 던지다</a>:</strong> 같은 시기 진행 중인 SEC의 또 다른 크립토 규칙 재검토</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Formally States "Most Crypto Assets Are Not Securities"</a>:</strong> The March 17 token taxonomy that underpins Reg Crypto</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">CLARITY Act Blows Past July 4 — Three Disputes Before the Aug 7 Cliff</a>:</strong> Where the parallel legislative track currently stands</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC Poses 27 Questions on 'Novel ETFs'</a>:</strong> Another crypto rule review underway at the SEC in the same period</li>
+    <li><strong><a href="/en/blog/sec-digital-commodity-interpretive-release">SEC Formally States "Most Crypto Assets Are Not Securities"</a>:</strong> The March 17 token taxonomy that underpins Reg Crypto</li>
+    <li><strong><a href="/en/blog/clarity-act-august-recess-three-disputes">CLARITY Act Blows Past July 4 — Three Disputes Before the Aug 7 Cliff</a>:</strong> Where the parallel legislative track currently stands</li>
+    <li><strong><a href="/en/blog/sec-novel-etf-comment-period-crypto">SEC Poses 27 Questions on 'Novel ETFs'</a>:</strong> Another crypto rule review underway at the SEC in the same period</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC「大半の暗号資産は証券ではない」公式解釈を発表</a>:</strong> 今回のレグ・クリプトの前提となった3月17日のトークン分類解釈</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">クラリティ法、7月4日の期限超過——8月7日を前にした3つの争点</a>:</strong> 規則制定とは別に進む立法トラックの現状</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC、「ノベルETF」に27の質問を投げかける</a>:</strong> 同時期に進行中のSECの別の暗号資産規則見直し</li>
+    <li><strong><a href="/ja/blog/sec-digital-commodity-interpretive-release">SEC「大半の暗号資産は証券ではない」公式解釈を発表</a>:</strong> 今回のレグ・クリプトの前提となった3月17日のトークン分類解釈</li>
+    <li><strong><a href="/ja/blog/clarity-act-august-recess-three-disputes">クラリティ法、7月4日の期限超過——8月7日を前にした3つの争点</a>:</strong> 規則制定とは別に進む立法トラックの現状</li>
+    <li><strong><a href="/ja/blog/sec-novel-etf-comment-period-crypto">SEC、「ノベルETF」に27の質問を投げかける</a>:</strong> 同時期に進行中のSECの別の暗号資産規則見直し</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La SEC Declara Formalmente que "La Mayoría de los Activos Cripto No Son Valores"</a>:</strong> La taxonomía de tokens del 17 de marzo que sustenta Reg Crypto</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">La Ley CLARITY Supera el Plazo del 4 de Julio</a>:</strong> Dónde está el trámite legislativo paralelo</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">La SEC Plantea 27 Preguntas Sobre los 'ETF Novedosos'</a>:</strong> Otra revisión de reglas cripto en curso en la SEC en el mismo período</li>
+    <li><strong><a href="/es/blog/sec-digital-commodity-interpretive-release">La SEC Declara Formalmente que "La Mayoría de los Activos Cripto No Son Valores"</a>:</strong> La taxonomía de tokens del 17 de marzo que sustenta Reg Crypto</li>
+    <li><strong><a href="/es/blog/clarity-act-august-recess-three-disputes">La Ley CLARITY Supera el Plazo del 4 de Julio</a>:</strong> Dónde está el trámite legislativo paralelo</li>
+    <li><strong><a href="/es/blog/sec-novel-etf-comment-period-crypto">La SEC Plantea 27 Preguntas Sobre los 'ETF Novedosos'</a>:</strong> Otra revisión de reglas cripto en curso en la SEC en el mismo período</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Erklärt Offiziell: "Die Meisten Krypto-Assets Sind Keine Wertpapiere"</a>:</strong> Die Token-Taxonomie vom 17. März, auf der Reg Crypto aufbaut</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">CLARITY Act Verpasst die Frist vom 4. Juli</a>:</strong> Der aktuelle Stand der parallelen Gesetzgebungsspur</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC Stellt 27 Fragen zu 'Novel ETFs'</a>:</strong> Eine weitere Krypto-Regelüberprüfung, die im selben Zeitraum bei der SEC läuft</li>
+    <li><strong><a href="/de/blog/sec-digital-commodity-interpretive-release">SEC Erklärt Offiziell: "Die Meisten Krypto-Assets Sind Keine Wertpapiere"</a>:</strong> Die Token-Taxonomie vom 17. März, auf der Reg Crypto aufbaut</li>
+    <li><strong><a href="/de/blog/clarity-act-august-recess-three-disputes">CLARITY Act Verpasst die Frist vom 4. Juli</a>:</strong> Der aktuelle Stand der parallelen Gesetzgebungsspur</li>
+    <li><strong><a href="/de/blog/sec-novel-etf-comment-period-crypto">SEC Stellt 27 Fragen zu 'Novel ETFs'</a>:</strong> Eine weitere Krypto-Regelüberprüfung, die im selben Zeitraum bei der SEC läuft</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La SEC Déclare Officiellement que « La Plupart des Cryptoactifs Ne Sont Pas des Valeurs Mobilières »</a>:</strong> La taxonomie des tokens du 17 mars sur laquelle repose Reg Crypto</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">Le CLARITY Act Dépasse l'Échéance du 4 Juillet</a>:</strong> Où en est le chantier législatif parallèle</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">La SEC Pose 27 Questions sur les « ETF Novateurs »</a>:</strong> Un autre réexamen de règles crypto en cours à la SEC sur la même période</li>
+    <li><strong><a href="/fr/blog/sec-digital-commodity-interpretive-release">La SEC Déclare Officiellement que « La Plupart des Cryptoactifs Ne Sont Pas des Valeurs Mobilières »</a>:</strong> La taxonomie des tokens du 17 mars sur laquelle repose Reg Crypto</li>
+    <li><strong><a href="/fr/blog/clarity-act-august-recess-three-disputes">Le CLARITY Act Dépasse l'Échéance du 4 Juillet</a>:</strong> Où en est le chantier législatif parallèle</li>
+    <li><strong><a href="/fr/blog/sec-novel-etf-comment-period-crypto">La SEC Pose 27 Questions sur les « ETF Novateurs »</a>:</strong> Un autre réexamen de règles crypto en cours à la SEC sur la même période</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Declara Formalmente que "A Maioria dos Ativos Cripto Não São Valores Mobiliários"</a>:</strong> A taxonomia de tokens de 17 de março que sustenta a Reg Crypto</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">Lei CLARITY Ultrapassa o Prazo de 4 de Julho</a>:</strong> Onde está o trâmite legislativo paralelo</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC Faz 27 Perguntas Sobre 'ETFs Inéditos'</a>:</strong> Outra revisão de regras cripto em curso na SEC no mesmo período</li>
+    <li><strong><a href="/pt/blog/sec-digital-commodity-interpretive-release">SEC Declara Formalmente que "A Maioria dos Ativos Cripto Não São Valores Mobiliários"</a>:</strong> A taxonomia de tokens de 17 de março que sustenta a Reg Crypto</li>
+    <li><strong><a href="/pt/blog/clarity-act-august-recess-three-disputes">Lei CLARITY Ultrapassa o Prazo de 4 de Julho</a>:</strong> Onde está o trâmite legislativo paralelo</li>
+    <li><strong><a href="/pt/blog/sec-novel-etf-comment-period-crypto">SEC Faz 27 Perguntas Sobre 'ETFs Inéditos'</a>:</strong> Outra revisão de regras cripto em curso na SEC no mesmo período</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Resmi Olarak 'Kripto Varlıkların Çoğu Menkul Kıymet Değildir' Dedi</a>:</strong> Reg Crypto'nun dayandığı 17 Mart token taksonomisi</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">CLARITY Yasası 4 Temmuz Son Tarihini Geçti</a>:</strong> Paralel yasama sürecinin şu anki durumu</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC, 'Yeni Nesil ETF'lere 27 Soru Yöneltiyor</a>:</strong> Aynı dönemde SEC'de süren başka bir kripto kural incelemesi</li>
+    <li><strong><a href="/tr/blog/sec-digital-commodity-interpretive-release">SEC Resmi Olarak 'Kripto Varlıkların Çoğu Menkul Kıymet Değildir' Dedi</a>:</strong> Reg Crypto'nun dayandığı 17 Mart token taksonomisi</li>
+    <li><strong><a href="/tr/blog/clarity-act-august-recess-three-disputes">CLARITY Yasası 4 Temmuz Son Tarihini Geçti</a>:</strong> Paralel yasama sürecinin şu anki durumu</li>
+    <li><strong><a href="/tr/blog/sec-novel-etf-comment-period-crypto">SEC, 'Yeni Nesil ETF'lere 27 Soru Yöneltiyor</a>:</strong> Aynı dönemde SEC'de süren başka bir kripto kural incelemesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Tuyên Bố Chính Thức "Hầu Hết Tài Sản Tiền Mã Hóa Không Phải Chứng Khoán"</a>:</strong> Cách phân loại token ngày 17/3 làm nền tảng cho Reg Crypto</li>
-    <li><strong><a href="/blog/clarity-act-august-recess-three-disputes.php">Đạo Luật CLARITY Vượt Qua Hạn Chót 4/7</a>:</strong> Tình trạng hiện tại của tiến trình lập pháp song song</li>
-    <li><strong><a href="/blog/sec-novel-etf-comment-period-crypto.php">SEC Đặt 27 Câu Hỏi Về 'ETF Kiểu Mới'</a>:</strong> Một đợt rà soát quy định tiền mã hóa khác đang diễn ra tại SEC cùng thời điểm</li>
+    <li><strong><a href="/vi/blog/sec-digital-commodity-interpretive-release">SEC Tuyên Bố Chính Thức "Hầu Hết Tài Sản Tiền Mã Hóa Không Phải Chứng Khoán"</a>:</strong> Cách phân loại token ngày 17/3 làm nền tảng cho Reg Crypto</li>
+    <li><strong><a href="/vi/blog/clarity-act-august-recess-three-disputes">Đạo Luật CLARITY Vượt Qua Hạn Chót 4/7</a>:</strong> Tình trạng hiện tại của tiến trình lập pháp song song</li>
+    <li><strong><a href="/vi/blog/sec-novel-etf-comment-period-crypto">SEC Đặt 27 Câu Hỏi Về 'ETF Kiểu Mới'</a>:</strong> Một đợt rà soát quy định tiền mã hóa khác đang diễn ra tại SEC cùng thời điểm</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: SEC.gov('2026 규제 아젠다' 성명, 3월 17일 토큰 분류 해석 원문), CFTC.gov(공동 보도자료), 코인데스크(레그 크립토·아젠다 보도), 크립토타임스(앳킨스 2026 아젠다 보도), 더블록(브로커딜러·거래소 규정 보도), 크립토브리핑(앳킨스 발언 정리), 블룸버그로(SEC·리플 항소 관련 배경), 제너앤드블록·노튼로즈풀브라이트(토큰 분류 해석 법률 분석). 레그 크립토는 아직 정식 발의 전 초안 단계이며, 세부 조항은 발의 시 변경될 수 있다. 본 글은 투자 조언이 아니다.</p>

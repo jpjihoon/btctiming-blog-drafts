@@ -348,49 +348,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">테라울프, 앤트로픽과 190억 달러 20년 임대 계약</a>:</strong> 크립토 기업이 AI 인프라로 방향을 튼 또 다른 사례</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">서사에도 반감기가 있다 — 그리고 점점 짧아지고 있다</a>:</strong> P2E에서 AI로 옮겨가는 크립토 서사 교체 주기를 이해하는 틀</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">밈코인 열풍은 크립토 산업에 득인가 실인가</a>:</strong> 투기적 크립토 하위 부문의 지속가능성을 둘러싼 비슷한 질문</li>
+    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease">테라울프, 앤트로픽과 190억 달러 20년 임대 계약</a>:</strong> 크립토 기업이 AI 인프라로 방향을 튼 또 다른 사례</li>
+    <li><strong><a href="/blog/narrative-decay-half-life">서사에도 반감기가 있다 — 그리고 점점 짧아지고 있다</a>:</strong> P2E에서 AI로 옮겨가는 크립토 서사 교체 주기를 이해하는 틀</li>
+    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry">밈코인 열풍은 크립토 산업에 득인가 실인가</a>:</strong> 투기적 크립토 하위 부문의 지속가능성을 둘러싼 비슷한 질문</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Bitcoin Miner TeraWulf Signs a $19 Billion, 20-Year Lease With Anthropic</a>:</strong> Another crypto firm pivoting toward AI infrastructure</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Narratives Have a Half-Life — And It's Getting Shorter</a>:</strong> A framework for understanding crypto's shift from P2E to AI narratives</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Are Meme Coins Good or Bad for the Crypto Industry</a>:</strong> A similar question about the sustainability of speculative crypto subsectors</li>
+    <li><strong><a href="/en/blog/terawulf-anthropic-ai-datacenter-lease">Bitcoin Miner TeraWulf Signs a $19 Billion, 20-Year Lease With Anthropic</a>:</strong> Another crypto firm pivoting toward AI infrastructure</li>
+    <li><strong><a href="/en/blog/narrative-decay-half-life">Narratives Have a Half-Life — And It's Getting Shorter</a>:</strong> A framework for understanding crypto's shift from P2E to AI narratives</li>
+    <li><strong><a href="/en/blog/meme-coins-good-or-bad-for-industry">Are Meme Coins Good or Bad for the Crypto Industry</a>:</strong> A similar question about the sustainability of speculative crypto subsectors</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">ビットコイン採掘企業テラウルフ、アンソロピックと190億ドル・20年のリース契約</a>:</strong> AIインフラへ転換した別の暗号資産企業の事例</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">物語にも半減期がある — そしてそれは短くなっている</a>:</strong> P2EからAIへ移り変わる暗号資産の物語サイクルを理解する枠組み</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">ミームコイン熱狂は暗号資産業界にとって得か損か</a>:</strong> 投機的な暗号資産サブセクターの持続可能性をめぐる似た問い</li>
+    <li><strong><a href="/ja/blog/terawulf-anthropic-ai-datacenter-lease">ビットコイン採掘企業テラウルフ、アンソロピックと190億ドル・20年のリース契約</a>:</strong> AIインフラへ転換した別の暗号資産企業の事例</li>
+    <li><strong><a href="/ja/blog/narrative-decay-half-life">物語にも半減期がある — そしてそれは短くなっている</a>:</strong> P2EからAIへ移り変わる暗号資産の物語サイクルを理解する枠組み</li>
+    <li><strong><a href="/ja/blog/meme-coins-good-or-bad-for-industry">ミームコイン熱狂は暗号資産業界にとって得か損か</a>:</strong> 投機的な暗号資産サブセクターの持続可能性をめぐる似た問い</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">El Minero de Bitcoin TeraWulf Firma un Arrendamiento de 19.000 Millones de Dólares a 20 Años con Anthropic</a>:</strong> Otra empresa cripto que gira hacia la infraestructura de IA</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Las Narrativas Tienen una Vida Media — Y Cada Vez es Más Corta</a>:</strong> Un marco para entender el paso de las narrativas cripto del P2E a la IA</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">¿Son las Meme Coins Buenas o Malas para la Industria Cripto?</a>:</strong> Una pregunta similar sobre la sostenibilidad de subsectores cripto especulativos</li>
+    <li><strong><a href="/es/blog/terawulf-anthropic-ai-datacenter-lease">El Minero de Bitcoin TeraWulf Firma un Arrendamiento de 19.000 Millones de Dólares a 20 Años con Anthropic</a>:</strong> Otra empresa cripto que gira hacia la infraestructura de IA</li>
+    <li><strong><a href="/es/blog/narrative-decay-half-life">Las Narrativas Tienen una Vida Media — Y Cada Vez es Más Corta</a>:</strong> Un marco para entender el paso de las narrativas cripto del P2E a la IA</li>
+    <li><strong><a href="/es/blog/meme-coins-good-or-bad-for-industry">¿Son las Meme Coins Buenas o Malas para la Industria Cripto?</a>:</strong> Una pregunta similar sobre la sostenibilidad de subsectores cripto especulativos</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Bitcoin-Miner TeraWulf Unterschreibt 19-Milliarden-Dollar-Leasingvertrag mit Anthropic über 20 Jahre</a>:</strong> Ein weiteres Krypto-Unternehmen, das zur KI-Infrastruktur wechselt</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Narrative Haben eine Halbwertszeit — Und Sie Wird Kürzer</a>:</strong> Ein Rahmen, um Kryptos Wechsel von P2E- zu KI-Narrativen zu verstehen</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Sind Meme-Coins Gut oder Schlecht für die Krypto-Branche</a>:</strong> Eine ähnliche Frage zur Tragfähigkeit spekulativer Krypto-Teilsektoren</li>
+    <li><strong><a href="/de/blog/terawulf-anthropic-ai-datacenter-lease">Bitcoin-Miner TeraWulf Unterschreibt 19-Milliarden-Dollar-Leasingvertrag mit Anthropic über 20 Jahre</a>:</strong> Ein weiteres Krypto-Unternehmen, das zur KI-Infrastruktur wechselt</li>
+    <li><strong><a href="/de/blog/narrative-decay-half-life">Narrative Haben eine Halbwertszeit — Und Sie Wird Kürzer</a>:</strong> Ein Rahmen, um Kryptos Wechsel von P2E- zu KI-Narrativen zu verstehen</li>
+    <li><strong><a href="/de/blog/meme-coins-good-or-bad-for-industry">Sind Meme-Coins Gut oder Schlecht für die Krypto-Branche</a>:</strong> Eine ähnliche Frage zur Tragfähigkeit spekulativer Krypto-Teilsektoren</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Le Mineur de Bitcoin TeraWulf Signe un Bail de 19 Milliards de Dollars sur 20 Ans avec Anthropic</a>:</strong> Une autre entreprise crypto qui bascule vers l'infrastructure IA</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Les Récits Ont une Demi-Vie — Et Elle se Raccourcit</a>:</strong> Un cadre pour comprendre le passage des récits crypto du P2E à l'IA</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Les Meme Coins Sont-ils Bons ou Mauvais pour l'Industrie Crypto</a>:</strong> Une question similaire sur la viabilité des sous-secteurs crypto spéculatifs</li>
+    <li><strong><a href="/fr/blog/terawulf-anthropic-ai-datacenter-lease">Le Mineur de Bitcoin TeraWulf Signe un Bail de 19 Milliards de Dollars sur 20 Ans avec Anthropic</a>:</strong> Une autre entreprise crypto qui bascule vers l'infrastructure IA</li>
+    <li><strong><a href="/fr/blog/narrative-decay-half-life">Les Récits Ont une Demi-Vie — Et Elle se Raccourcit</a>:</strong> Un cadre pour comprendre le passage des récits crypto du P2E à l'IA</li>
+    <li><strong><a href="/fr/blog/meme-coins-good-or-bad-for-industry">Les Meme Coins Sont-ils Bons ou Mauvais pour l'Industrie Crypto</a>:</strong> Une question similaire sur la viabilité des sous-secteurs crypto spéculatifs</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Mineradora de Bitcoin TeraWulf Assina Contrato de Arrendamento de US$ 19 Bilhões por 20 Anos com a Anthropic</a>:</strong> Outra empresa cripto migrando para a infraestrutura de IA</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Narrativas Têm Meia-Vida — E Ela Está Ficando Mais Curta</a>:</strong> Um framework para entender a mudança das narrativas cripto do P2E para a IA</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">As Meme Coins São Boas ou Ruins para a Indústria Cripto</a>:</strong> Uma pergunta semelhante sobre a sustentabilidade de subsetores cripto especulativos</li>
+    <li><strong><a href="/pt/blog/terawulf-anthropic-ai-datacenter-lease">Mineradora de Bitcoin TeraWulf Assina Contrato de Arrendamento de US$ 19 Bilhões por 20 Anos com a Anthropic</a>:</strong> Outra empresa cripto migrando para a infraestrutura de IA</li>
+    <li><strong><a href="/pt/blog/narrative-decay-half-life">Narrativas Têm Meia-Vida — E Ela Está Ficando Mais Curta</a>:</strong> Um framework para entender a mudança das narrativas cripto do P2E para a IA</li>
+    <li><strong><a href="/pt/blog/meme-coins-good-or-bad-for-industry">As Meme Coins São Boas ou Ruins para a Indústria Cripto</a>:</strong> Uma pergunta semelhante sobre a sustentabilidade de subsetores cripto especulativos</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Bitcoin Madencisi TeraWulf, Anthropic ile 19 Milyar Dolarlık 20 Yıllık Kira Sözleşmesi İmzaladı</a>:</strong> Yapay zeka altyapısına yönelen bir başka kripto şirketi</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Anlatıların da Bir Yarı Ömrü Var — Ve Gitgide Kısalıyor</a>:</strong> Kriptonun P2E'den yapay zeka anlatılarına geçişini anlamak için bir çerçeve</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Meme Coinler Kripto Sektörü İçin İyi mi Kötü mü</a>:</strong> Spekülatif kripto alt sektörlerinin sürdürülebilirliği üzerine benzer bir soru</li>
+    <li><strong><a href="/tr/blog/terawulf-anthropic-ai-datacenter-lease">Bitcoin Madencisi TeraWulf, Anthropic ile 19 Milyar Dolarlık 20 Yıllık Kira Sözleşmesi İmzaladı</a>:</strong> Yapay zeka altyapısına yönelen bir başka kripto şirketi</li>
+    <li><strong><a href="/tr/blog/narrative-decay-half-life">Anlatıların da Bir Yarı Ömrü Var — Ve Gitgide Kısalıyor</a>:</strong> Kriptonun P2E'den yapay zeka anlatılarına geçişini anlamak için bir çerçeve</li>
+    <li><strong><a href="/tr/blog/meme-coins-good-or-bad-for-industry">Meme Coinler Kripto Sektörü İçin İyi mi Kötü mü</a>:</strong> Spekülatif kripto alt sektörlerinin sürdürülebilirliği üzerine benzer bir soru</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/terawulf-anthropic-ai-datacenter-lease.php">Thợ Đào Bitcoin TeraWulf Ký Hợp Đồng Thuê 19 Tỷ USD, 20 Năm Với Anthropic</a>:</strong> Một công ty tiền mã hóa khác chuyển hướng sang hạ tầng AI</li>
-    <li><strong><a href="/blog/narrative-decay-half-life.php">Các Câu Chuyện Cũng Có Chu Kỳ Bán Rã — Và Nó Đang Ngắn Lại</a>:</strong> Một khung nhìn để hiểu sự chuyển dịch câu chuyện tiền mã hóa từ P2E sang AI</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Cơn Sốt Meme Coin Có Lợi Hay Có Hại Cho Ngành Tiền Mã Hóa</a>:</strong> Một câu hỏi tương tự về tính bền vững của các phân khúc tiền mã hóa mang tính đầu cơ</li>
+    <li><strong><a href="/vi/blog/terawulf-anthropic-ai-datacenter-lease">Thợ Đào Bitcoin TeraWulf Ký Hợp Đồng Thuê 19 Tỷ USD, 20 Năm Với Anthropic</a>:</strong> Một công ty tiền mã hóa khác chuyển hướng sang hạ tầng AI</li>
+    <li><strong><a href="/vi/blog/narrative-decay-half-life">Các Câu Chuyện Cũng Có Chu Kỳ Bán Rã — Và Nó Đang Ngắn Lại</a>:</strong> Một khung nhìn để hiểu sự chuyển dịch câu chuyện tiền mã hóa từ P2E sang AI</li>
+    <li><strong><a href="/vi/blog/meme-coins-good-or-bad-for-industry">Cơn Sốt Meme Coin Có Lợi Hay Có Hại Cho Ngành Tiền Mã Hóa</a>:</strong> Một câu hỏi tương tự về tính bền vững của các phân khúc tiền mã hóa mang tính đầu cơ</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 디크립트(YGG 게임 퍼블리싱 종료·AI 피벗 보도), 코인데스크(직원 감원·트레저리 세부사항), 코인텔레그래프(사업부 종료 발표), 비트코인닷컴 뉴스(감원 규모·게임 서비스 종료 상세), 크립토노미스트(구조조정 배경), 크립토타임스(토큰 가격·시장 반응), 옐드길드게임즈 공식 X 계정(회사 성명 원문). 일부 세부 재무 수치는 3자 보도에 근거하며, 본 글은 투자 조언이 아니다.</p>

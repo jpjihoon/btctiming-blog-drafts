@@ -445,31 +445,31 @@
 <div class="box vi">💡 <strong>Chốt lại:</strong> Blockchain.com đã bắt tay với Polymarket để nhúng trực tiếp thị trường dự đoán vào ứng dụng dành cho 43 triệu người dùng EU. Khác với Coinbase và Robinhood, những công ty ra mắt hợp đồng sự kiện tại Mỹ thông qua các sàn được CFTC cấp phép, Blockchain.com đã tích hợp trực tiếp Polymarket, tận dụng việc EU chưa có khung pháp lý riêng. Khoảng trống đó sẽ kéo dài bao lâu mới là câu hỏi quan trọng.</div>
 
 <ul class="ko">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">칼시·폴리마켓 월드컵 거래량 기록</a>:</strong> 이벤트 중심 유동성이 크립토 현물 거래량에 필적할 수 있음을 보여준 사례</li>
+  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record">칼시·폴리마켓 월드컵 거래량 기록</a>:</strong> 이벤트 중심 유동성이 크립토 현물 거래량에 필적할 수 있음을 보여준 사례</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">Kalshi and Polymarket's World Cup volume record</a>:</strong> The case that showed event-driven liquidity can rival crypto spot volumes</li>
+  <li><strong><a href="/en/blog/kalshi-polymarket-worldcup-volume-record">Kalshi and Polymarket's World Cup volume record</a>:</strong> The case that showed event-driven liquidity can rival crypto spot volumes</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">カルシ・ポリマーケットのワールドカップ取引量記録</a>:</strong> イベント主導の流動性が暗号資産現物取引量に匹敵しうることを示した事例</li>
+  <li><strong><a href="/ja/blog/kalshi-polymarket-worldcup-volume-record">カルシ・ポリマーケットのワールドカップ取引量記録</a>:</strong> イベント主導の流動性が暗号資産現物取引量に匹敵しうることを示した事例</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">El récord de volumen del Mundial de Kalshi y Polymarket</a>:</strong> El caso que mostró que la liquidez impulsada por eventos puede rivalizar con los volúmenes al contado de cripto</li>
+  <li><strong><a href="/es/blog/kalshi-polymarket-worldcup-volume-record">El récord de volumen del Mundial de Kalshi y Polymarket</a>:</strong> El caso que mostró que la liquidez impulsada por eventos puede rivalizar con los volúmenes al contado de cripto</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">Kalshis und Polymarkets WM-Volumenrekord</a>:</strong> Der Fall, der zeigte, dass ereignisgetriebene Liquidität mit Krypto-Spot-Volumina konkurrieren kann</li>
+  <li><strong><a href="/de/blog/kalshi-polymarket-worldcup-volume-record">Kalshis und Polymarkets WM-Volumenrekord</a>:</strong> Der Fall, der zeigte, dass ereignisgetriebene Liquidität mit Krypto-Spot-Volumina konkurrieren kann</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">Le record de volume de Kalshi et Polymarket pour la Coupe du monde</a>:</strong> Le cas qui a montré que la liquidité pilotée par des événements peut rivaliser avec les volumes crypto au comptant</li>
+  <li><strong><a href="/fr/blog/kalshi-polymarket-worldcup-volume-record">Le record de volume de Kalshi et Polymarket pour la Coupe du monde</a>:</strong> Le cas qui a montré que la liquidité pilotée par des événements peut rivaliser avec les volumes crypto au comptant</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">Recorde de volume da Copa do Mundo da Kalshi e Polymarket</a>:</strong> O caso que mostrou que a liquidez impulsionada por eventos pode rivalizar com os volumes à vista de cripto</li>
+  <li><strong><a href="/pt/blog/kalshi-polymarket-worldcup-volume-record">Recorde de volume da Copa do Mundo da Kalshi e Polymarket</a>:</strong> O caso que mostrou que a liquidez impulsionada por eventos pode rivalizar com os volumes à vista de cripto</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">Kalshi ve Polymarket'in Dünya Kupası hacim rekoru</a>:</strong> Olay odaklı likiditenin kripto spot hacimleriyle yarışabileceğini gösteren örnek</li>
+  <li><strong><a href="/tr/blog/kalshi-polymarket-worldcup-volume-record">Kalshi ve Polymarket'in Dünya Kupası hacim rekoru</a>:</strong> Olay odaklı likiditenin kripto spot hacimleriyle yarışabileceğini gösteren örnek</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/kalshi-polymarket-worldcup-volume-record.php">Kỷ lục khối lượng World Cup của Kalshi và Polymarket</a>:</strong> Trường hợp cho thấy thanh khoản theo sự kiện có thể sánh ngang khối lượng giao ngay crypto</li>
+  <li><strong><a href="/vi/blog/kalshi-polymarket-worldcup-volume-record">Kỷ lục khối lượng World Cup của Kalshi và Polymarket</a>:</strong> Trường hợp cho thấy thanh khoản theo sự kiện có thể sánh ngang khối lượng giao ngay crypto</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 체인와이어(Chainwire), PR뉴스와이어(PR Newswire), 파이낸스매그네이츠(Finance Magnates), 매니라타임즈(The Manila Times), 트레이딩뷰 뉴스(TradingView News). 거래량·이용자 수 등 수치는 각 매체 보도 시점 기준이며 향후 바뀔 수 있다.</p>

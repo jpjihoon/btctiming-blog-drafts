@@ -322,40 +322,40 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">비트고 CEO의 MiCA 은행 집중 경고</a>:</strong> 같은 30% 조항이 낳을 수 있는 시스템 리스크를 먼저 짚은 글</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">인도 RBI의 은행-스테이블코인 완전 차단 권고</a>:</strong> 케냐·EU와 정반대 극단에 선 규제 철학</li>
+    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning">비트고 CEO의 MiCA 은행 집중 경고</a>:</strong> 같은 30% 조항이 낳을 수 있는 시스템 리스크를 먼저 짚은 글</li>
+    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment">인도 RBI의 은행-스테이블코인 완전 차단 권고</a>:</strong> 케냐·EU와 정반대 극단에 선 규제 철학</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">BitGo's CEO Warns on MiCA's Bank Concentration</a>:</strong> The systemic risk this same 30% provision could create</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">India's RBI Urges a Total Bank-Stablecoin Wall</a>:</strong> The opposite regulatory philosophy from Kenya and the EU</li>
+    <li><strong><a href="/en/blog/bitgo-mica-stablecoin-systemic-risk-warning">BitGo's CEO Warns on MiCA's Bank Concentration</a>:</strong> The systemic risk this same 30% provision could create</li>
+    <li><strong><a href="/en/blog/india-rbi-stablecoin-banking-containment">India's RBI Urges a Total Bank-Stablecoin Wall</a>:</strong> The opposite regulatory philosophy from Kenya and the EU</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">BitGo CEOのMiCA銀行集中警告</a>:</strong> 同じ30%条項が生みかねないシステミックリスクを先に指摘した記事</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">インドRBIの銀行・ステーブルコイン完全遮断勧告</a>:</strong> ケニア・EUとは正反対の規制哲学</li>
+    <li><strong><a href="/ja/blog/bitgo-mica-stablecoin-systemic-risk-warning">BitGo CEOのMiCA銀行集中警告</a>:</strong> 同じ30%条項が生みかねないシステミックリスクを先に指摘した記事</li>
+    <li><strong><a href="/ja/blog/india-rbi-stablecoin-banking-containment">インドRBIの銀行・ステーブルコイン完全遮断勧告</a>:</strong> ケニア・EUとは正反対の規制哲学</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">El CEO de BitGo Advierte sobre la Concentración Bancaria de MiCA</a>:</strong> El riesgo sistémico que la misma disposición del 30% podría crear</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">El RBI de India Pide un Muro Total Banco-Stablecoin</a>:</strong> La filosofía regulatoria opuesta a la de Kenia y la UE</li>
+    <li><strong><a href="/es/blog/bitgo-mica-stablecoin-systemic-risk-warning">El CEO de BitGo Advierte sobre la Concentración Bancaria de MiCA</a>:</strong> El riesgo sistémico que la misma disposición del 30% podría crear</li>
+    <li><strong><a href="/es/blog/india-rbi-stablecoin-banking-containment">El RBI de India Pide un Muro Total Banco-Stablecoin</a>:</strong> La filosofía regulatoria opuesta a la de Kenia y la UE</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">BitGos CEO Warnt vor MiCAs Bankenkonzentration</a>:</strong> Das systemische Risiko, das dieselbe 30%-Vorschrift schaffen könnte</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">Indiens RBI Fordert eine Vollständige Bank-Stablecoin-Mauer</a>:</strong> Die entgegengesetzte regulatorische Philosophie zu Kenia und der EU</li>
+    <li><strong><a href="/de/blog/bitgo-mica-stablecoin-systemic-risk-warning">BitGos CEO Warnt vor MiCAs Bankenkonzentration</a>:</strong> Das systemische Risiko, das dieselbe 30%-Vorschrift schaffen könnte</li>
+    <li><strong><a href="/de/blog/india-rbi-stablecoin-banking-containment">Indiens RBI Fordert eine Vollständige Bank-Stablecoin-Mauer</a>:</strong> Die entgegengesetzte regulatorische Philosophie zu Kenia und der EU</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">Le PDG de BitGo Alerte sur la Concentration Bancaire de MiCA</a>:</strong> Le risque systémique que cette même disposition de 30% pourrait créer</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">La RBI Indienne Prône un Mur Total Banque-Stablecoin</a>:</strong> La philosophie réglementaire opposée à celle du Kenya et de l'UE</li>
+    <li><strong><a href="/fr/blog/bitgo-mica-stablecoin-systemic-risk-warning">Le PDG de BitGo Alerte sur la Concentration Bancaire de MiCA</a>:</strong> Le risque systémique que cette même disposition de 30% pourrait créer</li>
+    <li><strong><a href="/fr/blog/india-rbi-stablecoin-banking-containment">La RBI Indienne Prône un Mur Total Banque-Stablecoin</a>:</strong> La philosophie réglementaire opposée à celle du Kenya et de l'UE</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">CEO da BitGo Alerta sobre a Concentração Bancária da MiCA</a>:</strong> O risco sistêmico que essa mesma disposição de 30% poderia criar</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">RBI da Índia Defende um Muro Total Banco-Stablecoin</a>:</strong> A filosofia regulatória oposta à do Quênia e da UE</li>
+    <li><strong><a href="/pt/blog/bitgo-mica-stablecoin-systemic-risk-warning">CEO da BitGo Alerta sobre a Concentração Bancária da MiCA</a>:</strong> O risco sistêmico que essa mesma disposição de 30% poderia criar</li>
+    <li><strong><a href="/pt/blog/india-rbi-stablecoin-banking-containment">RBI da Índia Defende um Muro Total Banco-Stablecoin</a>:</strong> A filosofia regulatória oposta à do Quênia e da UE</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">BitGo CEO'su MiCA'nın Banka Yoğunlaşmasına Karşı Uyarıyor</a>:</strong> Aynı %30 hükmünün yaratabileceği sistemik risk</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">Hindistan RBI Tam Bir Banka-Stabil Kripto Para Duvarı İstiyor</a>:</strong> Kenya ve AB'nin tam tersi bir düzenleyici felsefe</li>
+    <li><strong><a href="/tr/blog/bitgo-mica-stablecoin-systemic-risk-warning">BitGo CEO'su MiCA'nın Banka Yoğunlaşmasına Karşı Uyarıyor</a>:</strong> Aynı %30 hükmünün yaratabileceği sistemik risk</li>
+    <li><strong><a href="/tr/blog/india-rbi-stablecoin-banking-containment">Hindistan RBI Tam Bir Banka-Stabil Kripto Para Duvarı İstiyor</a>:</strong> Kenya ve AB'nin tam tersi bir düzenleyici felsefe</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/bitgo-mica-stablecoin-systemic-risk-warning.php">CEO BitGo Cảnh Báo Về Tập Trung Ngân Hàng Của MiCA</a>:</strong> Rủi ro hệ thống mà chính điều khoản 30% này có thể tạo ra</li>
-    <li><strong><a href="/blog/india-rbi-stablecoin-banking-containment.php">RBI Ấn Độ Kêu Gọi Bức Tường Hoàn Toàn Giữa Ngân Hàng Và Stablecoin</a>:</strong> Triết lý quản lý trái ngược với Kenya và EU</li>
+    <li><strong><a href="/vi/blog/bitgo-mica-stablecoin-systemic-risk-warning">CEO BitGo Cảnh Báo Về Tập Trung Ngân Hàng Của MiCA</a>:</strong> Rủi ro hệ thống mà chính điều khoản 30% này có thể tạo ra</li>
+    <li><strong><a href="/vi/blog/india-rbi-stablecoin-banking-containment">RBI Ấn Độ Kêu Gọi Bức Tường Hoàn Toàn Giữa Ngân Hàng Và Stablecoin</a>:</strong> Triết lý quản lý trái ngược với Kenya và EU</li>
   </ul>
 
   <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 비트코인닷컴 뉴스(Bitcoin.com News), Business Daily Africa, TechCabal, CoinEdition, GNCrypto News, FinanceFeeds, EU 미카(MiCA) 36조 공식 조문(ESMA), 비트고(BitGo) CEO 발언 보도. 본 글은 투자 조언이 아니다.</p>

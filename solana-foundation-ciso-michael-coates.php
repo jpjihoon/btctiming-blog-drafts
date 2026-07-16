@@ -297,57 +297,57 @@
 
   <p class="ko" style="margin-top:28px">관련해 함께 읽어볼 만한 글:</p>
   <ul class="ko">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">2026년 상반기 크립토 해킹: 건수는 최다, 손실은 감소</a>:</strong> 이번 인사의 배경이 된 올해 상반기 공격 통계를 상세히 다룬 글</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">3,000달러 서버로 700억 달러를 위협할 뻔한 앱토스 결함</a>:</strong> 코드·합의 계층 취약점이라는 다른 유형의 위험을 보여주는 사례</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">솔라나 알펜글로우: 합의 재설계</a>:</strong> 솔라나 네트워크 자체의 최근 기술 변화 맥락</li>
+    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses">2026년 상반기 크립토 해킹: 건수는 최다, 손실은 감소</a>:</strong> 이번 인사의 배경이 된 올해 상반기 공격 통계를 상세히 다룬 글</li>
+    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b">3,000달러 서버로 700억 달러를 위협할 뻔한 앱토스 결함</a>:</strong> 코드·합의 계층 취약점이라는 다른 유형의 위험을 보여주는 사례</li>
+    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite">솔라나 알펜글로우: 합의 재설계</a>:</strong> 솔라나 네트워크 자체의 최근 기술 변화 맥락</li>
   </ul>
   <p class="en" style="margin-top:28px">Related reading:</p>
   <ul class="en">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">H1 2026 crypto hacks: record count, lower losses</a>:</strong> A detailed look at the first-half attack statistics that form the backdrop to this hire</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">The $3,000 server that could have threatened $70 billion — Aptos's flaw</a>:</strong> A case of the other kind of risk: a code and consensus-layer vulnerability</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow: a consensus rewrite</a>:</strong> Context on recent technical change to the Solana network itself</li>
+    <li><strong><a href="/en/blog/crypto-hacks-h1-2026-record-count-lower-losses">H1 2026 crypto hacks: record count, lower losses</a>:</strong> A detailed look at the first-half attack statistics that form the backdrop to this hire</li>
+    <li><strong><a href="/en/blog/aptos-consensus-vulnerability-70b">The $3,000 server that could have threatened $70 billion — Aptos's flaw</a>:</strong> A case of the other kind of risk: a code and consensus-layer vulnerability</li>
+    <li><strong><a href="/en/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow: a consensus rewrite</a>:</strong> Context on recent technical change to the Solana network itself</li>
   </ul>
   <p class="ja" style="margin-top:28px">関連して読むと良い記事:</p>
   <ul class="ja">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">2026年上半期の暗号資産ハッキング: 件数は最多、損失は減少</a>:</strong> 今回の人事の背景となった上半期の攻撃統計を詳しく扱った記事</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">3,000ドルのサーバーで700億ドルを脅かしかけたアプトスの欠陥</a>:</strong> コード・合意層の脆弱性という別種の危険を示す事例</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">ソラナ・アルペングロー: 合意の再設計</a>:</strong> ソラナネットワーク自体の最近の技術変化の文脈</li>
+    <li><strong><a href="/ja/blog/crypto-hacks-h1-2026-record-count-lower-losses">2026年上半期の暗号資産ハッキング: 件数は最多、損失は減少</a>:</strong> 今回の人事の背景となった上半期の攻撃統計を詳しく扱った記事</li>
+    <li><strong><a href="/ja/blog/aptos-consensus-vulnerability-70b">3,000ドルのサーバーで700億ドルを脅かしかけたアプトスの欠陥</a>:</strong> コード・合意層の脆弱性という別種の危険を示す事例</li>
+    <li><strong><a href="/ja/blog/solana-alpenglow-consensus-rewrite">ソラナ・アルペングロー: 合意の再設計</a>:</strong> ソラナネットワーク自体の最近の技術変化の文脈</li>
   </ul>
   <p class="es" style="margin-top:28px">Lecturas relacionadas:</p>
   <ul class="es">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Hackeos cripto del 1er sem. de 2026: cifra récord, menores pérdidas</a>:</strong> Un vistazo detallado a las estadísticas de ataques del primer semestre que sirven de telón de fondo a este fichaje</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">El servidor de 3.000 dólares que pudo amenazar 70.000 millones — la falla de Aptos</a>:</strong> Un caso del otro tipo de riesgo: una vulnerabilidad en la capa de código y consenso</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow: un rediseño del consenso</a>:</strong> Contexto sobre el reciente cambio técnico en la propia red Solana</li>
+    <li><strong><a href="/es/blog/crypto-hacks-h1-2026-record-count-lower-losses">Hackeos cripto del 1er sem. de 2026: cifra récord, menores pérdidas</a>:</strong> Un vistazo detallado a las estadísticas de ataques del primer semestre que sirven de telón de fondo a este fichaje</li>
+    <li><strong><a href="/es/blog/aptos-consensus-vulnerability-70b">El servidor de 3.000 dólares que pudo amenazar 70.000 millones — la falla de Aptos</a>:</strong> Un caso del otro tipo de riesgo: una vulnerabilidad en la capa de código y consenso</li>
+    <li><strong><a href="/es/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow: un rediseño del consenso</a>:</strong> Contexto sobre el reciente cambio técnico en la propia red Solana</li>
   </ul>
   <p class="de" style="margin-top:28px">Verwandte Lektüre:</p>
   <ul class="de">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Krypto-Hacks im 1. HJ 2026: Rekordzahl, geringere Verluste</a>:</strong> Ein detaillierter Blick auf die Angriffsstatistik des ersten Halbjahres, die den Hintergrund dieser Einstellung bildet</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">Der 3.000-Dollar-Server, der 70 Milliarden hätte bedrohen können — Aptos' Fehler</a>:</strong> Ein Fall der anderen Art von Risiko: eine Schwachstelle auf der Code- und Konsensebene</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow: eine Neugestaltung des Konsens</a>:</strong> Kontext zum jüngsten technischen Wandel des Solana-Netzwerks selbst</li>
+    <li><strong><a href="/de/blog/crypto-hacks-h1-2026-record-count-lower-losses">Krypto-Hacks im 1. HJ 2026: Rekordzahl, geringere Verluste</a>:</strong> Ein detaillierter Blick auf die Angriffsstatistik des ersten Halbjahres, die den Hintergrund dieser Einstellung bildet</li>
+    <li><strong><a href="/de/blog/aptos-consensus-vulnerability-70b">Der 3.000-Dollar-Server, der 70 Milliarden hätte bedrohen können — Aptos' Fehler</a>:</strong> Ein Fall der anderen Art von Risiko: eine Schwachstelle auf der Code- und Konsensebene</li>
+    <li><strong><a href="/de/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow: eine Neugestaltung des Konsens</a>:</strong> Kontext zum jüngsten technischen Wandel des Solana-Netzwerks selbst</li>
   </ul>
   <p class="fr" style="margin-top:28px">À lire également :</p>
   <ul class="fr">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Piratages crypto du 1er sem. 2026 : nombre record, pertes en baisse</a>:</strong> Un regard détaillé sur les statistiques d'attaques du premier semestre qui forment la toile de fond de cette embauche</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">Le serveur de 3 000 dollars qui aurait pu menacer 70 milliards — la faille d'Aptos</a>:</strong> Un cas de l'autre type de risque : une vulnérabilité de la couche code et consensus</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow : une refonte du consensus</a>:</strong> Le contexte du récent changement technique du réseau Solana lui-même</li>
+    <li><strong><a href="/fr/blog/crypto-hacks-h1-2026-record-count-lower-losses">Piratages crypto du 1er sem. 2026 : nombre record, pertes en baisse</a>:</strong> Un regard détaillé sur les statistiques d'attaques du premier semestre qui forment la toile de fond de cette embauche</li>
+    <li><strong><a href="/fr/blog/aptos-consensus-vulnerability-70b">Le serveur de 3 000 dollars qui aurait pu menacer 70 milliards — la faille d'Aptos</a>:</strong> Un cas de l'autre type de risque : une vulnérabilité de la couche code et consensus</li>
+    <li><strong><a href="/fr/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow : une refonte du consensus</a>:</strong> Le contexte du récent changement technique du réseau Solana lui-même</li>
   </ul>
   <p class="pt" style="margin-top:28px">Leitura relacionada:</p>
   <ul class="pt">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Hacks de cripto no 1º sem. de 2026: número recorde, perdas menores</a>:</strong> Um olhar detalhado sobre as estatísticas de ataques do primeiro semestre que formam o pano de fundo desta contratação</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">O servidor de US$ 3.000 que poderia ter ameaçado US$ 70 bilhões — a falha da Aptos</a>:</strong> Um caso do outro tipo de risco: uma vulnerabilidade na camada de código e consenso</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow: uma reformulação do consenso</a>:</strong> Contexto sobre a recente mudança técnica na própria rede Solana</li>
+    <li><strong><a href="/pt/blog/crypto-hacks-h1-2026-record-count-lower-losses">Hacks de cripto no 1º sem. de 2026: número recorde, perdas menores</a>:</strong> Um olhar detalhado sobre as estatísticas de ataques do primeiro semestre que formam o pano de fundo desta contratação</li>
+    <li><strong><a href="/pt/blog/aptos-consensus-vulnerability-70b">O servidor de US$ 3.000 que poderia ter ameaçado US$ 70 bilhões — a falha da Aptos</a>:</strong> Um caso do outro tipo de risco: uma vulnerabilidade na camada de código e consenso</li>
+    <li><strong><a href="/pt/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow: uma reformulação do consenso</a>:</strong> Contexto sobre a recente mudança técnica na própria rede Solana</li>
   </ul>
   <p class="tr" style="margin-top:28px">İlgili okuma:</p>
   <ul class="tr">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">2026 ilk yarı kripto saldırıları: rekor sayı, daha düşük kayıp</a>:</strong> Bu atamanın arka planını oluşturan ilk yarı saldırı istatistiklerine ayrıntılı bir bakış</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">70 milyar doları tehdit edebilecek 3.000 dolarlık sunucu — Aptos'un açığı</a>:</strong> Diğer tür riskin bir örneği: kod ve mutabakat katmanı açığı</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow: mutabakatın yeniden tasarımı</a>:</strong> Solana ağının kendisindeki son teknik değişimin bağlamı</li>
+    <li><strong><a href="/tr/blog/crypto-hacks-h1-2026-record-count-lower-losses">2026 ilk yarı kripto saldırıları: rekor sayı, daha düşük kayıp</a>:</strong> Bu atamanın arka planını oluşturan ilk yarı saldırı istatistiklerine ayrıntılı bir bakış</li>
+    <li><strong><a href="/tr/blog/aptos-consensus-vulnerability-70b">70 milyar doları tehdit edebilecek 3.000 dolarlık sunucu — Aptos'un açığı</a>:</strong> Diğer tür riskin bir örneği: kod ve mutabakat katmanı açığı</li>
+    <li><strong><a href="/tr/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow: mutabakatın yeniden tasarımı</a>:</strong> Solana ağının kendisindeki son teknik değişimin bağlamı</li>
   </ul>
   <p class="vi" style="margin-top:28px">Bài liên quan nên đọc:</p>
   <ul class="vi">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Các vụ hack crypto nửa đầu 2026: số vụ kỷ lục, thiệt hại giảm</a>:</strong> Cái nhìn chi tiết về thống kê tấn công nửa đầu năm làm nền cho việc tuyển dụng này</li>
-    <li><strong><a href="/blog/aptos-consensus-vulnerability-70b.php">Máy chủ 3.000 USD suýt đe dọa 70 tỷ USD — lỗ hổng của Aptos</a>:</strong> Một trường hợp thuộc loại rủi ro khác: lỗ hổng ở tầng mã và đồng thuận</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow: thiết kế lại cơ chế đồng thuận</a>:</strong> Bối cảnh về thay đổi kỹ thuật gần đây của chính mạng Solana</li>
+    <li><strong><a href="/vi/blog/crypto-hacks-h1-2026-record-count-lower-losses">Các vụ hack crypto nửa đầu 2026: số vụ kỷ lục, thiệt hại giảm</a>:</strong> Cái nhìn chi tiết về thống kê tấn công nửa đầu năm làm nền cho việc tuyển dụng này</li>
+    <li><strong><a href="/vi/blog/aptos-consensus-vulnerability-70b">Máy chủ 3.000 USD suýt đe dọa 70 tỷ USD — lỗ hổng của Aptos</a>:</strong> Một trường hợp thuộc loại rủi ro khác: lỗ hổng ở tầng mã và đồng thuận</li>
+    <li><strong><a href="/vi/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow: thiết kế lại cơ chế đồng thuận</a>:</strong> Bối cảnh về thay đổi kỹ thuật gần đây của chính mạng Solana</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 마이클 코츠 X(구 트위터) 발표(7월 6~7일), 더 블록(The Block)·디크립트(Decrypt)·야후 파이낸스·크립토뉴스넷(cryptonews.net)의 솔라나 재단 CISO 선임 보도, 코츠 링크트인 프로필(트위터·모질라·코인리스트 이력, 앨티튜드 네트웍스 2022년 코인리스트 인수), OWASP 의장 이력. 2026년 상반기 도난 규모·북한 연계 비중은 TRM 랩스·체이널리시스 2026 리포트, 공격 유형 변화는 Koinly 분석 기준의 근사치. 본 글은 투자 조언이 아니다.</p>

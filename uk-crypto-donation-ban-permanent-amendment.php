@@ -334,40 +334,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">테더 억만장자의 500만 파운드 선물 — 파라지, 크립토 스캔들 속 하원의원직 사퇴</a>:</strong> 이번 영구화 개정안의 직접적 계기가 된 스캔들 자체를 다룬 글</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">바이낸스 텅 CEO "MiCA 이탈 자금 70%가 자기수탁행"</a>:</strong> 특정 자금 경로를 규제로 막았을 때 자금이 이동하는 패턴을 보여주는 비교 사례</li>
+    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation">테더 억만장자의 500만 파운드 선물 — 파라지, 크립토 스캔들 속 하원의원직 사퇴</a>:</strong> 이번 영구화 개정안의 직접적 계기가 된 스캔들 자체를 다룬 글</li>
+    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent">바이낸스 텅 CEO "MiCA 이탈 자금 70%가 자기수탁행"</a>:</strong> 특정 자금 경로를 규제로 막았을 때 자금이 이동하는 패턴을 보여주는 비교 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">A Tether Billionaire's £5 Million Gift — Farage Resigns Amid Crypto Scandal</a>:</strong> The scandal that directly triggered this push for permanence</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Binance's Teng: '70% of Funds That Left After MiCA Went Self-Custody'</a>:</strong> A comparable case showing how money migrates when a specific channel gets regulated shut</li>
+    <li><strong><a href="/en/blog/farage-harborne-tether-gift-resignation">A Tether Billionaire's £5 Million Gift — Farage Resigns Amid Crypto Scandal</a>:</strong> The scandal that directly triggered this push for permanence</li>
+    <li><strong><a href="/en/blog/binance-teng-mica-self-custody-70-percent">Binance's Teng: '70% of Funds That Left After MiCA Went Self-Custody'</a>:</strong> A comparable case showing how money migrates when a specific channel gets regulated shut</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">テザー億万長者の500万ポンドの贈与 — ファラージ、暗号資産スキャンダルの中で下院議員辞職</a>:</strong> 今回の恒久化改正案の直接の引き金となったスキャンダルそのものを扱った記事</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Binance共同CEOテン氏「MiCA離脱資金の70%が自己保管へ」</a>:</strong> 特定の資金経路が規制で封じられた際の資金移動パターンを示す比較事例</li>
+    <li><strong><a href="/ja/blog/farage-harborne-tether-gift-resignation">テザー億万長者の500万ポンドの贈与 — ファラージ、暗号資産スキャンダルの中で下院議員辞職</a>:</strong> 今回の恒久化改正案の直接の引き金となったスキャンダルそのものを扱った記事</li>
+    <li><strong><a href="/ja/blog/binance-teng-mica-self-custody-70-percent">Binance共同CEOテン氏「MiCA離脱資金の70%が自己保管へ」</a>:</strong> 特定の資金経路が規制で封じられた際の資金移動パターンを示す比較事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">El Regalo de £5 Millones de un Multimillonario de Tether — Farage Dimite en Medio de un Escándalo Cripto</a>:</strong> El escándalo que impulsó directamente este empuje hacia la permanencia</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Teng de Binance: 'El 70% de los fondos que salieron tras MiCA fue a autocustodia'</a>:</strong> Un caso comparable que muestra cómo migra el dinero cuando se regula el cierre de un canal específico</li>
+    <li><strong><a href="/es/blog/farage-harborne-tether-gift-resignation">El Regalo de £5 Millones de un Multimillonario de Tether — Farage Dimite en Medio de un Escándalo Cripto</a>:</strong> El escándalo que impulsó directamente este empuje hacia la permanencia</li>
+    <li><strong><a href="/es/blog/binance-teng-mica-self-custody-70-percent">Teng de Binance: 'El 70% de los fondos que salieron tras MiCA fue a autocustodia'</a>:</strong> Un caso comparable que muestra cómo migra el dinero cuando se regula el cierre de un canal específico</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">Das 5-Millionen-Pfund-Geschenk eines Tether-Milliardärs — Farage tritt inmitten eines Krypto-Skandals zurück</a>:</strong> Der Skandal, der diesen Vorstoß zur Verstetigung direkt ausgelöst hat</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Binances Teng: 'Nach MiCA gingen 70% der abgeflossenen Gelder in Self-Custody'</a>:</strong> Ein vergleichbarer Fall, der zeigt, wie Geld abwandert, wenn ein bestimmter Kanal regulatorisch geschlossen wird</li>
+    <li><strong><a href="/de/blog/farage-harborne-tether-gift-resignation">Das 5-Millionen-Pfund-Geschenk eines Tether-Milliardärs — Farage tritt inmitten eines Krypto-Skandals zurück</a>:</strong> Der Skandal, der diesen Vorstoß zur Verstetigung direkt ausgelöst hat</li>
+    <li><strong><a href="/de/blog/binance-teng-mica-self-custody-70-percent">Binances Teng: 'Nach MiCA gingen 70% der abgeflossenen Gelder in Self-Custody'</a>:</strong> Ein vergleichbarer Fall, der zeigt, wie Geld abwandert, wenn ein bestimmter Kanal regulatorisch geschlossen wird</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">Le Don de 5 Millions de Livres d'un Milliardaire de Tether — Farage Démissionne au Milieu d'un Scandale Crypto</a> :</strong> Le scandale qui a directement déclenché cette poussée vers la permanence</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Teng de Binance : « 70% des fonds sortis après MiCA sont allés en auto-conservation »</a> :</strong> Un cas comparable montrant comment l'argent migre quand un canal précis est fermé par la réglementation</li>
+    <li><strong><a href="/fr/blog/farage-harborne-tether-gift-resignation">Le Don de 5 Millions de Livres d'un Milliardaire de Tether — Farage Démissionne au Milieu d'un Scandale Crypto</a> :</strong> Le scandale qui a directement déclenché cette poussée vers la permanence</li>
+    <li><strong><a href="/fr/blog/binance-teng-mica-self-custody-70-percent">Teng de Binance : « 70% des fonds sortis après MiCA sont allés en auto-conservation »</a> :</strong> Un cas comparable montrant comment l'argent migre quand un canal précis est fermé par la réglementation</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">O Presente de £5 Milhões de um Bilionário da Tether — Farage Renuncia em Meio a Escândalo Cripto</a>:</strong> O escândalo que impulsionou diretamente esse esforço pela permanência</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Teng, da Binance: '70% dos fundos que saíram após o MiCA foram para autocustódia'</a>:</strong> Um caso comparável que mostra como o dinheiro migra quando um canal específico é fechado por regulamentação</li>
+    <li><strong><a href="/pt/blog/farage-harborne-tether-gift-resignation">O Presente de £5 Milhões de um Bilionário da Tether — Farage Renuncia em Meio a Escândalo Cripto</a>:</strong> O escândalo que impulsionou diretamente esse esforço pela permanência</li>
+    <li><strong><a href="/pt/blog/binance-teng-mica-self-custody-70-percent">Teng, da Binance: '70% dos fundos que saíram após o MiCA foram para autocustódia'</a>:</strong> Um caso comparável que mostra como o dinheiro migra quando um canal específico é fechado por regulamentação</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">Bir Tether Milyarderinin 5 Milyon Sterlinlik Hediyesi — Farage Kripto Skandalı Ortasında İstifa Ediyor</a>:</strong> Bu kalıcılık girişimini doğrudan tetikleyen skandal</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Binance'ten Teng: 'MiCA Sonrası Çıkan Fonların %70'i Öz-Saklamaya Gitti'</a>:</strong> Belirli bir kanal düzenlemeyle kapatıldığında paranın nasıl göç ettiğini gösteren karşılaştırılabilir bir örnek</li>
+    <li><strong><a href="/tr/blog/farage-harborne-tether-gift-resignation">Bir Tether Milyarderinin 5 Milyon Sterlinlik Hediyesi — Farage Kripto Skandalı Ortasında İstifa Ediyor</a>:</strong> Bu kalıcılık girişimini doğrudan tetikleyen skandal</li>
+    <li><strong><a href="/tr/blog/binance-teng-mica-self-custody-70-percent">Binance'ten Teng: 'MiCA Sonrası Çıkan Fonların %70'i Öz-Saklamaya Gitti'</a>:</strong> Belirli bir kanal düzenlemeyle kapatıldığında paranın nasıl göç ettiğini gösteren karşılaştırılabilir bir örnek</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/farage-harborne-tether-gift-resignation.php">Món Quà 5 Triệu Bảng Anh Của Tỷ Phú Tether — Farage Từ Chức Giữa Bê Bối Tiền Mã Hóa</a>:</strong> Vụ bê bối đã trực tiếp thúc đẩy nỗ lực vĩnh viễn hóa này</li>
-    <li><strong><a href="/blog/binance-teng-mica-self-custody-70-percent.php">Teng Của Binance Nói 70% Số Tiền Rời Đi Sau MiCA Đã Chuyển Sang Tự Lưu Ký</a>:</strong> Một trường hợp tương tự cho thấy tiền di chuyển thế nào khi một kênh cụ thể bị đóng lại bởi quy định</li>
+    <li><strong><a href="/vi/blog/farage-harborne-tether-gift-resignation">Món Quà 5 Triệu Bảng Anh Của Tỷ Phú Tether — Farage Từ Chức Giữa Bê Bối Tiền Mã Hóa</a>:</strong> Vụ bê bối đã trực tiếp thúc đẩy nỗ lực vĩnh viễn hóa này</li>
+    <li><strong><a href="/vi/blog/binance-teng-mica-self-custody-70-percent">Teng Của Binance Nói 70% Số Tiền Rời Đi Sau MiCA Đã Chuyển Sang Tự Lưu Ký</a>:</strong> Một trường hợp tương tự cho thấy tiền di chuyển thế nào khi một kênh cụ thể bị đóng lại bởi quy định</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 디크립트, 크립토타임스, 코인텔레그래프, 크립토이코노미, 블록노미, 언체인드(7월 9일 보도), 영국 정부(GOV.UK) 라이코프트 검토 답변서, 영국 하원도서관(House of Commons Library) 브리핑, 선거관리위원회(Electoral Commission), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 7월 14일 표결 결과에 따라 달라질 수 있다. 본 글은 투자 조언이 아니다.</p>

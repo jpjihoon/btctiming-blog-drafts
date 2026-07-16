@@ -484,49 +484,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">15년 만에 깨어난 30 BTC — 뉴욕 법정의 소유권 실험</a>:</strong> 이 소송의 배경과 최초 신청 내용을 다룬 전편</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">오래된 코인이 움직였다고, 매도라는 뜻은 아니다</a>:</strong> 휴면 코인의 이동을 해석할 때 흔히 저지르는 오류</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">11년 중 다섯 번은 맞았다 — 그리고 여섯 번째, 열 달이 일렀다</a>:</strong> 휴면 공급량 지표 자체의 신뢰도를 다룬 글</li>
+    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit">15년 만에 깨어난 30 BTC — 뉴욕 법정의 소유권 실험</a>:</strong> 이 소송의 배경과 최초 신청 내용을 다룬 전편</li>
+    <li><strong><a href="/blog/coin-days-destroyed">오래된 코인이 움직였다고, 매도라는 뜻은 아니다</a>:</strong> 휴면 코인의 이동을 해석할 때 흔히 저지르는 오류</li>
+    <li><strong><a href="/blog/dormancy-flow-early-signal">11년 중 다섯 번은 맞았다 — 그리고 여섯 번째, 열 달이 일렀다</a>:</strong> 휴면 공급량 지표 자체의 신뢰도를 다룬 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">30 Dormant BTC Moved After 15 Years — Inside New York's Ownership Experiment</a>:</strong> Our earlier piece on the suit's background and the original filing</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Old Coins Moving Doesn't Mean Someone Sold</a>:</strong> A common error in reading dormant-coin movement</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">Right Five Times in Eleven Years — Then Ten Months Too Early</a>:</strong> How reliable the dormancy-supply indicator itself really is</li>
+    <li><strong><a href="/en/blog/dormant-bitcoin-new-york-ownership-lawsuit">30 Dormant BTC Moved After 15 Years — Inside New York's Ownership Experiment</a>:</strong> Our earlier piece on the suit's background and the original filing</li>
+    <li><strong><a href="/en/blog/coin-days-destroyed">Old Coins Moving Doesn't Mean Someone Sold</a>:</strong> A common error in reading dormant-coin movement</li>
+    <li><strong><a href="/en/blog/dormancy-flow-early-signal">Right Five Times in Eleven Years — Then Ten Months Too Early</a>:</strong> How reliable the dormancy-supply indicator itself really is</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">15年ぶりに目覚めた30 BTC — ニューヨーク法廷の所有権実験</a>:</strong> この訴訟の背景と最初の申立てを扱った前編</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">古いコインが動いたからといって、売却とは限らない</a>:</strong> 休眠コインの移動を解釈する際によくある誤り</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">11年中5回は的中 — そして6回目、10カ月早かった</a>:</strong> 休眠供給量指標そのものの信頼性を扱った記事</li>
+    <li><strong><a href="/ja/blog/dormant-bitcoin-new-york-ownership-lawsuit">15年ぶりに目覚めた30 BTC — ニューヨーク法廷の所有権実験</a>:</strong> この訴訟の背景と最初の申立てを扱った前編</li>
+    <li><strong><a href="/ja/blog/coin-days-destroyed">古いコインが動いたからといって、売却とは限らない</a>:</strong> 休眠コインの移動を解釈する際によくある誤り</li>
+    <li><strong><a href="/ja/blog/dormancy-flow-early-signal">11年中5回は的中 — そして6回目、10カ月早かった</a>:</strong> 休眠供給量指標そのものの信頼性を扱った記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">30 BTC Latentes se Movieron Tras 15 Años — el Experimento de Nueva York</a>:</strong> Nuestro artículo anterior sobre los antecedentes de la demanda y la presentación original</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Que Monedas Viejas se Muevan no Significa que Alguien Vendió</a>:</strong> Un error común al interpretar el movimiento de monedas latentes</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">Cinco Aciertos en Once Años — y la Sexta Vez, Diez Meses Antes</a>:</strong> Qué tan fiable es en realidad el indicador de oferta latente</li>
+    <li><strong><a href="/es/blog/dormant-bitcoin-new-york-ownership-lawsuit">30 BTC Latentes se Movieron Tras 15 Años — el Experimento de Nueva York</a>:</strong> Nuestro artículo anterior sobre los antecedentes de la demanda y la presentación original</li>
+    <li><strong><a href="/es/blog/coin-days-destroyed">Que Monedas Viejas se Muevan no Significa que Alguien Vendió</a>:</strong> Un error común al interpretar el movimiento de monedas latentes</li>
+    <li><strong><a href="/es/blog/dormancy-flow-early-signal">Cinco Aciertos en Once Años — y la Sexta Vez, Diez Meses Antes</a>:</strong> Qué tan fiable es en realidad el indicador de oferta latente</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">30 Ruhende BTC Bewegten Sich Nach 15 Jahren — New Yorks Eigentumsexperiment</a>:</strong> Unser früherer Artikel zum Hintergrund der Klage und der ursprünglichen Einreichung</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Alte Coins in Bewegung Bedeutet Nicht, Dass Jemand Verkauft Hat</a>:</strong> Ein häufiger Fehler bei der Deutung ruhender Coin-Bewegungen</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">Fünf von Elf Jahren Richtig — Dann Zehn Monate zu Früh</a>:</strong> Wie zuverlässig der Ruhe-Angebots-Indikator selbst wirklich ist</li>
+    <li><strong><a href="/de/blog/dormant-bitcoin-new-york-ownership-lawsuit">30 Ruhende BTC Bewegten Sich Nach 15 Jahren — New Yorks Eigentumsexperiment</a>:</strong> Unser früherer Artikel zum Hintergrund der Klage und der ursprünglichen Einreichung</li>
+    <li><strong><a href="/de/blog/coin-days-destroyed">Alte Coins in Bewegung Bedeutet Nicht, Dass Jemand Verkauft Hat</a>:</strong> Ein häufiger Fehler bei der Deutung ruhender Coin-Bewegungen</li>
+    <li><strong><a href="/de/blog/dormancy-flow-early-signal">Fünf von Elf Jahren Richtig — Dann Zehn Monate zu Früh</a>:</strong> Wie zuverlässig der Ruhe-Angebots-Indikator selbst wirklich ist</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">30 BTC Dormants Bougent Après 15 Ans — l'Expérience de Propriété de New York</a>:</strong> Notre article précédent sur le contexte du procès et le dépôt initial</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Que de Vieilles Pièces Bougent ne Signifie pas Qu'on les a Vendues</a>:</strong> Une erreur courante dans l'interprétation du mouvement des pièces dormantes</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">Juste Cinq Fois sur Onze Ans — Puis Dix Mois Trop Tôt</a>:</strong> À quel point l'indicateur de dormance de l'offre est-il vraiment fiable</li>
+    <li><strong><a href="/fr/blog/dormant-bitcoin-new-york-ownership-lawsuit">30 BTC Dormants Bougent Après 15 Ans — l'Expérience de Propriété de New York</a>:</strong> Notre article précédent sur le contexte du procès et le dépôt initial</li>
+    <li><strong><a href="/fr/blog/coin-days-destroyed">Que de Vieilles Pièces Bougent ne Signifie pas Qu'on les a Vendues</a>:</strong> Une erreur courante dans l'interprétation du mouvement des pièces dormantes</li>
+    <li><strong><a href="/fr/blog/dormancy-flow-early-signal">Juste Cinq Fois sur Onze Ans — Puis Dix Mois Trop Tôt</a>:</strong> À quel point l'indicateur de dormance de l'offre est-il vraiment fiable</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">30 BTC Dormentes se Movem Após 15 Anos — o Experimento de Propriedade de Nova York</a>:</strong> Nosso artigo anterior sobre o contexto da ação e o pedido original</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Moedas Antigas se Moverem não Significa que Alguém Vendeu</a>:</strong> Um erro comum ao interpretar o movimento de moedas dormentes</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">Certo Cinco Vezes em Onze Anos — Depois, Dez Meses Cedo Demais</a>:</strong> Quão confiável é de fato o indicador de oferta dormente</li>
+    <li><strong><a href="/pt/blog/dormant-bitcoin-new-york-ownership-lawsuit">30 BTC Dormentes se Movem Após 15 Anos — o Experimento de Propriedade de Nova York</a>:</strong> Nosso artigo anterior sobre o contexto da ação e o pedido original</li>
+    <li><strong><a href="/pt/blog/coin-days-destroyed">Moedas Antigas se Moverem não Significa que Alguém Vendeu</a>:</strong> Um erro comum ao interpretar o movimento de moedas dormentes</li>
+    <li><strong><a href="/pt/blog/dormancy-flow-early-signal">Certo Cinco Vezes em Onze Anos — Depois, Dez Meses Cedo Demais</a>:</strong> Quão confiável é de fato o indicador de oferta dormente</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">15 Yıl Sonra Hareket Eden 30 BTC — New York'un Sahiplik Deneyi</a>:</strong> Bu davanın arka planını ve ilk başvuruyu ele aldığımız önceki yazımız</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Eski Coinlerin Hareket Etmesi Birinin Sattığı Anlamına Gelmez</a>:</strong> Durgun coin hareketini yorumlarken yapılan yaygın bir hata</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">On Bir Yılda Beş Kez Doğru — Sonra Altıncısında On Ay Erken</a>:</strong> Durgunluk-arz göstergesinin kendisi ne kadar güvenilir</li>
+    <li><strong><a href="/tr/blog/dormant-bitcoin-new-york-ownership-lawsuit">15 Yıl Sonra Hareket Eden 30 BTC — New York'un Sahiplik Deneyi</a>:</strong> Bu davanın arka planını ve ilk başvuruyu ele aldığımız önceki yazımız</li>
+    <li><strong><a href="/tr/blog/coin-days-destroyed">Eski Coinlerin Hareket Etmesi Birinin Sattığı Anlamına Gelmez</a>:</strong> Durgun coin hareketini yorumlarken yapılan yaygın bir hata</li>
+    <li><strong><a href="/tr/blog/dormancy-flow-early-signal">On Bir Yılda Beş Kez Doğru — Sonra Altıncısında On Ay Erken</a>:</strong> Durgunluk-arz göstergesinin kendisi ne kadar güvenilir</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">30 BTC Ngủ Đông Di Chuyển Sau 15 Năm — Thí Nghiệm Sở Hữu Của New York</a>:</strong> Bài viết trước của chúng tôi về bối cảnh vụ kiện và đơn kiện ban đầu</li>
-    <li><strong><a href="/blog/coin-days-destroyed.php">Coin Cũ Di Chuyển Không Có Nghĩa Là Ai Đó Đã Bán</a>:</strong> Một sai lầm phổ biến khi diễn giải sự di chuyển của coin ngủ đông</li>
-    <li><strong><a href="/blog/dormancy-flow-early-signal.php">Đúng Năm Lần Trong Mười Một Năm — Rồi Lần Thứ Sáu, Sớm Mười Tháng</a>:</strong> Độ tin cậy thực sự của chính chỉ báo nguồn cung ngủ đông</li>
+    <li><strong><a href="/vi/blog/dormant-bitcoin-new-york-ownership-lawsuit">30 BTC Ngủ Đông Di Chuyển Sau 15 Năm — Thí Nghiệm Sở Hữu Của New York</a>:</strong> Bài viết trước của chúng tôi về bối cảnh vụ kiện và đơn kiện ban đầu</li>
+    <li><strong><a href="/vi/blog/coin-days-destroyed">Coin Cũ Di Chuyển Không Có Nghĩa Là Ai Đó Đã Bán</a>:</strong> Một sai lầm phổ biến khi diễn giải sự di chuyển của coin ngủ đông</li>
+    <li><strong><a href="/vi/blog/dormancy-flow-early-signal">Đúng Năm Lần Trong Mười Một Năm — Rồi Lần Thứ Sáu, Sớm Mười Tháng</a>:</strong> Độ tin cậy thực sự của chính chỉ báo nguồn cung ngủ đông</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토타임스(CryptoTimes) "Digital Chamber Seeks Dismissal of 39,069 Dormant BTC Lawsuit", 크립토어드벤처(CryptoAdventure) "Second Amicus Brief Hits Noah Doe Bid For Satoshi-Era Bitcoin", 야후파이낸스(Yahoo Finance/Stocktwits) "A Crypto Trade Group Just Joined The Fight To Stop Someone From Claiming Satoshi-Linked Bitcoin", 블루밍빗(Bloomingbit) "Digital Chamber Urges Court to Reject Claims on Dormant Bitcoin Wallets". 본 글은 법률 자문이 아니며, 소송은 7월 14일 심리를 앞두고 진행 중이다.</p>

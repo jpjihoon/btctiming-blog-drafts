@@ -309,49 +309,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'낮은 리스크, 연 30%' 크립토 헤지펀드, 420만 달러 투자자 소송</a>:</strong> '안정 고수익'을 미끼로 한 또 다른 사기 소송 사례</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC "대부분 크립토는 증권 아니다" 공식 해석</a>:</strong> 크립토를 상품으로 보는 관할 구도의 배경</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">DCG·배리 실버트 사기 청구 부활</a>:</strong> 크립토 수익 상품을 둘러싼 사기·증권성 다툼</li>
+    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'낮은 리스크, 연 30%' 크립토 헤지펀드, 420만 달러 투자자 소송</a>:</strong> '안정 고수익'을 미끼로 한 또 다른 사기 소송 사례</li>
+    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release">SEC "대부분 크립토는 증권 아니다" 공식 해석</a>:</strong> 크립토를 상품으로 보는 관할 구도의 배경</li>
+    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived">DCG·배리 실버트 사기 청구 부활</a>:</strong> 크립토 수익 상품을 둘러싼 사기·증권성 다툼</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Low Risk, 30% a Year' — Crypto Hedge Fund Fehu Hit With a $4.2M Fraud Suit</a>:</strong> Another fraud case baited with "safe high yield"</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Formally States 'Most Crypto Assets Are Not Securities'</a>:</strong> The backdrop to treating crypto as a commodity</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">DCG and Barry Silbert's Fraud Claim Is Revived</a>:</strong> A dispute over fraud and security status around a crypto yield product</li>
+    <li><strong><a href="/en/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Low Risk, 30% a Year' — Crypto Hedge Fund Fehu Hit With a $4.2M Fraud Suit</a>:</strong> Another fraud case baited with "safe high yield"</li>
+    <li><strong><a href="/en/blog/sec-digital-commodity-interpretive-release">SEC Formally States 'Most Crypto Assets Are Not Securities'</a>:</strong> The backdrop to treating crypto as a commodity</li>
+    <li><strong><a href="/en/blog/dcg-genesis-yield-fraud-claim-revived">DCG and Barry Silbert's Fraud Claim Is Revived</a>:</strong> A dispute over fraud and security status around a crypto yield product</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">「低リスク・年30%」暗号資産ヘッジファンド、420万ドルの詐欺訴訟</a>:</strong> 「安全な高利回り」を餌にした別の詐欺訴訟の事例</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC「大半の暗号資産は証券ではない」公式解釈</a>:</strong> 暗号資産を商品とみなす管轄構図の背景</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">DCG・バリー・シルバート氏の詐欺請求が復活</a>:</strong> 暗号資産の利回り商品をめぐる詐欺・証券性の争い</li>
+    <li><strong><a href="/ja/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">「低リスク・年30%」暗号資産ヘッジファンド、420万ドルの詐欺訴訟</a>:</strong> 「安全な高利回り」を餌にした別の詐欺訴訟の事例</li>
+    <li><strong><a href="/ja/blog/sec-digital-commodity-interpretive-release">SEC「大半の暗号資産は証券ではない」公式解釈</a>:</strong> 暗号資産を商品とみなす管轄構図の背景</li>
+    <li><strong><a href="/ja/blog/dcg-genesis-yield-fraud-claim-revived">DCG・バリー・シルバート氏の詐欺請求が復活</a>:</strong> 暗号資産の利回り商品をめぐる詐欺・証券性の争い</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Bajo Riesgo, 30% Anual' — Demanda de Fraude de 4,2 M$ contra el Fondo Fehu</a>:</strong> Otro caso de fraude cebado con "alto rendimiento seguro"</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La SEC Declara Formalmente que 'la Mayoría de las Cripto No Son Valores'</a>:</strong> El trasfondo de tratar la cripto como materia prima</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">Se Revive la Demanda de Fraude contra DCG y Barry Silbert</a>:</strong> Una disputa sobre fraude y carácter de valor en un producto de rendimiento cripto</li>
+    <li><strong><a href="/es/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Bajo Riesgo, 30% Anual' — Demanda de Fraude de 4,2 M$ contra el Fondo Fehu</a>:</strong> Otro caso de fraude cebado con "alto rendimiento seguro"</li>
+    <li><strong><a href="/es/blog/sec-digital-commodity-interpretive-release">La SEC Declara Formalmente que 'la Mayoría de las Cripto No Son Valores'</a>:</strong> El trasfondo de tratar la cripto como materia prima</li>
+    <li><strong><a href="/es/blog/dcg-genesis-yield-fraud-claim-revived">Se Revive la Demanda de Fraude contra DCG y Barry Silbert</a>:</strong> Una disputa sobre fraude y carácter de valor en un producto de rendimiento cripto</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Geringes Risiko, 30% pro Jahr' — 4,2-Mio.-Dollar-Betrugsklage gegen Fonds Fehu</a>:</strong> Ein weiterer mit „sicherer Hochrendite" geköderter Betrugsfall</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Stellt Förmlich Fest: 'Die Meisten Kryptowerte Sind Keine Wertpapiere'</a>:</strong> Der Hintergrund, Krypto als Rohstoff zu behandeln</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">Betrugsvorwurf gegen DCG und Barry Silbert Wiederbelebt</a>:</strong> Ein Streit über Betrug und Wertpapiercharakter eines Krypto-Renditeprodukts</li>
+    <li><strong><a href="/de/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Geringes Risiko, 30% pro Jahr' — 4,2-Mio.-Dollar-Betrugsklage gegen Fonds Fehu</a>:</strong> Ein weiterer mit „sicherer Hochrendite" geköderter Betrugsfall</li>
+    <li><strong><a href="/de/blog/sec-digital-commodity-interpretive-release">SEC Stellt Förmlich Fest: 'Die Meisten Kryptowerte Sind Keine Wertpapiere'</a>:</strong> Der Hintergrund, Krypto als Rohstoff zu behandeln</li>
+    <li><strong><a href="/de/blog/dcg-genesis-yield-fraud-claim-revived">Betrugsvorwurf gegen DCG und Barry Silbert Wiederbelebt</a>:</strong> Ein Streit über Betrug und Wertpapiercharakter eines Krypto-Renditeprodukts</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Faible Risque, 30% par An' — Poursuite pour Fraude de 4,2 M$ contre le Fonds Fehu</a>:</strong> Une autre affaire de fraude appâtée par un « haut rendement sûr »</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La SEC Déclare Officiellement que 'la Plupart des Cryptoactifs Ne Sont Pas des Titres'</a>:</strong> La toile de fond du traitement de la crypto comme matière première</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">La Plainte pour Fraude contre DCG et Barry Silbert Est Relancée</a>:</strong> Un litige sur la fraude et le caractère de titre d'un produit de rendement crypto</li>
+    <li><strong><a href="/fr/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Faible Risque, 30% par An' — Poursuite pour Fraude de 4,2 M$ contre le Fonds Fehu</a>:</strong> Une autre affaire de fraude appâtée par un « haut rendement sûr »</li>
+    <li><strong><a href="/fr/blog/sec-digital-commodity-interpretive-release">La SEC Déclare Officiellement que 'la Plupart des Cryptoactifs Ne Sont Pas des Titres'</a>:</strong> La toile de fond du traitement de la crypto comme matière première</li>
+    <li><strong><a href="/fr/blog/dcg-genesis-yield-fraud-claim-revived">La Plainte pour Fraude contre DCG et Barry Silbert Est Relancée</a>:</strong> Un litige sur la fraude et le caractère de titre d'un produit de rendement crypto</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Baixo Risco, 30% ao Ano' — Ação de Fraude de US$ 4,2 mi contra o Fundo Fehu</a>:</strong> Outro caso de fraude iscado com "alto rendimento seguro"</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Declara Formalmente que 'a Maioria dos Criptoativos Não São Valores Mobiliários'</a>:</strong> O pano de fundo de tratar cripto como commodity</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">Ação de Fraude contra DCG e Barry Silbert é Reativada</a>:</strong> Uma disputa sobre fraude e caráter de valor mobiliário em um produto de rendimento cripto</li>
+    <li><strong><a href="/pt/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Baixo Risco, 30% ao Ano' — Ação de Fraude de US$ 4,2 mi contra o Fundo Fehu</a>:</strong> Outro caso de fraude iscado com "alto rendimento seguro"</li>
+    <li><strong><a href="/pt/blog/sec-digital-commodity-interpretive-release">SEC Declara Formalmente que 'a Maioria dos Criptoativos Não São Valores Mobiliários'</a>:</strong> O pano de fundo de tratar cripto como commodity</li>
+    <li><strong><a href="/pt/blog/dcg-genesis-yield-fraud-claim-revived">Ação de Fraude contra DCG e Barry Silbert é Reativada</a>:</strong> Uma disputa sobre fraude e caráter de valor mobiliário em um produto de rendimento cripto</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Düşük Risk, Yılda %30' — Fehu Kripto Hedge Fonuna 4,2 Milyon Dolarlık Dolandırıcılık Davası</a>:</strong> "Güvenli yüksek getiri" ile yemlenen bir başka dolandırıcılık davası</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Resmen Açıkladı: 'Kripto Varlıkların Çoğu Menkul Kıymet Değil'</a>:</strong> Kriptoyu emtia olarak görmenin arka planı</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">DCG ve Barry Silbert'e Karşı Dolandırıcılık İddiası Yeniden Canlandı</a>:</strong> Bir kripto getiri ürünü etrafında dolandırıcılık ve menkul kıymet niteliği tartışması</li>
+    <li><strong><a href="/tr/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Düşük Risk, Yılda %30' — Fehu Kripto Hedge Fonuna 4,2 Milyon Dolarlık Dolandırıcılık Davası</a>:</strong> "Güvenli yüksek getiri" ile yemlenen bir başka dolandırıcılık davası</li>
+    <li><strong><a href="/tr/blog/sec-digital-commodity-interpretive-release">SEC Resmen Açıkladı: 'Kripto Varlıkların Çoğu Menkul Kıymet Değil'</a>:</strong> Kriptoyu emtia olarak görmenin arka planı</li>
+    <li><strong><a href="/tr/blog/dcg-genesis-yield-fraud-claim-revived">DCG ve Barry Silbert'e Karşı Dolandırıcılık İddiası Yeniden Canlandı</a>:</strong> Bir kripto getiri ürünü etrafında dolandırıcılık ve menkul kıymet niteliği tartışması</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Rủi Ro Thấp, 30% Mỗi Năm' — Quỹ Đầu Cơ Tiền Mã Hóa Fehu Bị Kiện Gian Lận 4,2 Triệu USD</a>:</strong> Một vụ gian lận khác lấy "lợi suất cao an toàn" làm mồi nhử</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Chính Thức Tuyên Bố 'Phần Lớn Tài Sản Mã Hóa Không Phải Chứng Khoán'</a>:</strong> Bối cảnh của việc coi tiền mã hóa là hàng hóa</li>
-    <li><strong><a href="/blog/dcg-genesis-yield-fraud-claim-revived.php">Cáo Buộc Gian Lận Nhằm Vào DCG và Barry Silbert Được Khôi Phục</a>:</strong> Một tranh chấp về gian lận và tính chứng khoán quanh một sản phẩm lợi suất tiền mã hóa</li>
+    <li><strong><a href="/vi/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Rủi Ro Thấp, 30% Mỗi Năm' — Quỹ Đầu Cơ Tiền Mã Hóa Fehu Bị Kiện Gian Lận 4,2 Triệu USD</a>:</strong> Một vụ gian lận khác lấy "lợi suất cao an toàn" làm mồi nhử</li>
+    <li><strong><a href="/vi/blog/sec-digital-commodity-interpretive-release">SEC Chính Thức Tuyên Bố 'Phần Lớn Tài Sản Mã Hóa Không Phải Chứng Khoán'</a>:</strong> Bối cảnh của việc coi tiền mã hóa là hàng hóa</li>
+    <li><strong><a href="/vi/blog/dcg-genesis-yield-fraud-claim-revived">Cáo Buộc Gian Lận Nhằm Vào DCG và Barry Silbert Được Khôi Phục</a>:</strong> Một tranh chấp về gian lận và tính chứng khoán quanh một sản phẩm lợi suất tiền mã hóa</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CFTC(제소 사실·혐의 내용), 코인데스크·디크립트(사건 개요 및 피해 규모 보도), 코인니스·코인가바르(제소 법원·투자자 수·손실액 세부), FX뉴스그룹(상품풀 운용 구조), 오데일리(SEC 2026 규제 어젠다 및 관할 맥락). 일부 세부 수치는 소장 및 3자 보도에 근거하며, 혐의는 아직 법원에서 확정되지 않았다. 본 글은 투자 조언이 아니다.</p>

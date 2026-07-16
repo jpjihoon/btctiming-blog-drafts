@@ -420,40 +420,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">테더 2분기 준비금 증명 공개</a>:</strong> 다른 발행사의 준비금·투명성 정책과 비교해보기</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">GENIUS법 스테이블코인 KYC 규정</a>:</strong> 발행사 규제 프레임워크가 어디까지 왔는지</li>
+    <li><strong><a href="/blog/tether-reserve-attestation-update">테더 2분기 준비금 증명 공개</a>:</strong> 다른 발행사의 준비금·투명성 정책과 비교해보기</li>
+    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act">GENIUS법 스테이블코인 KYC 규정</a>:</strong> 발행사 규제 프레임워크가 어디까지 왔는지</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether's Q2 Reserve Report</a>:</strong> Comparing reserve transparency practices across issuers</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">GENIUS Act Stablecoin KYC Rule</a>:</strong> How far issuer regulation has progressed</li>
+    <li><strong><a href="/en/blog/tether-reserve-attestation-update">Tether's Q2 Reserve Report</a>:</strong> Comparing reserve transparency practices across issuers</li>
+    <li><strong><a href="/en/blog/stablecoin-issuer-cip-kyc-genius-act">GENIUS Act Stablecoin KYC Rule</a>:</strong> How far issuer regulation has progressed</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">テザー第2四半期準備金証明</a>:</strong> 発行体ごとの準備金・透明性方針を比較する</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">GENIUS法ステーブルコインKYC規定</a>:</strong> 発行体規制の枠組みがどこまで進んだか</li>
+    <li><strong><a href="/ja/blog/tether-reserve-attestation-update">テザー第2四半期準備金証明</a>:</strong> 発行体ごとの準備金・透明性方針を比較する</li>
+    <li><strong><a href="/ja/blog/stablecoin-issuer-cip-kyc-genius-act">GENIUS法ステーブルコインKYC規定</a>:</strong> 発行体規制の枠組みがどこまで進んだか</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Informe de reservas del segundo trimestre de Tether</a>:</strong> Comparando las prácticas de transparencia de reservas entre emisores</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">Regla KYC de stablecoins de la Ley GENIUS</a>:</strong> Hasta dónde ha avanzado la regulación de los emisores</li>
+    <li><strong><a href="/es/blog/tether-reserve-attestation-update">Informe de reservas del segundo trimestre de Tether</a>:</strong> Comparando las prácticas de transparencia de reservas entre emisores</li>
+    <li><strong><a href="/es/blog/stablecoin-issuer-cip-kyc-genius-act">Regla KYC de stablecoins de la Ley GENIUS</a>:</strong> Hasta dónde ha avanzado la regulación de los emisores</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tethers Q2-Reservebericht</a>:</strong> Ein Vergleich der Reserve-Transparenzpraktiken der Emittenten</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">GENIUS-Act-Stablecoin-KYC-Regel</a>:</strong> Wie weit die Emittentenregulierung fortgeschritten ist</li>
+    <li><strong><a href="/de/blog/tether-reserve-attestation-update">Tethers Q2-Reservebericht</a>:</strong> Ein Vergleich der Reserve-Transparenzpraktiken der Emittenten</li>
+    <li><strong><a href="/de/blog/stablecoin-issuer-cip-kyc-genius-act">GENIUS-Act-Stablecoin-KYC-Regel</a>:</strong> Wie weit die Emittentenregulierung fortgeschritten ist</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Rapport de réserves T2 de Tether</a> :</strong> Comparer les pratiques de transparence des réserves entre émetteurs</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">Règle KYC stablecoin de la loi GENIUS</a> :</strong> Où en est la réglementation des émetteurs</li>
+    <li><strong><a href="/fr/blog/tether-reserve-attestation-update">Rapport de réserves T2 de Tether</a> :</strong> Comparer les pratiques de transparence des réserves entre émetteurs</li>
+    <li><strong><a href="/fr/blog/stablecoin-issuer-cip-kyc-genius-act">Règle KYC stablecoin de la loi GENIUS</a> :</strong> Où en est la réglementation des émetteurs</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Relatório de reservas do 2º trimestre da Tether</a>:</strong> Comparando práticas de transparência de reservas entre emissoras</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">Regra de KYC de stablecoins da Lei GENIUS</a>:</strong> Até onde avançou a regulação das emissoras</li>
+    <li><strong><a href="/pt/blog/tether-reserve-attestation-update">Relatório de reservas do 2º trimestre da Tether</a>:</strong> Comparando práticas de transparência de reservas entre emissoras</li>
+    <li><strong><a href="/pt/blog/stablecoin-issuer-cip-kyc-genius-act">Regra de KYC de stablecoins da Lei GENIUS</a>:</strong> Até onde avançou a regulação das emissoras</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether'in 2. Çeyrek Rezerv Raporu</a>:</strong> İhraççılar arasında rezerv şeffaflığı uygulamalarını karşılaştırma</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">GENIUS Yasası Stabilcoin KYC Kuralı</a>:</strong> İhraççı düzenlemesi ne kadar ilerledi</li>
+    <li><strong><a href="/tr/blog/tether-reserve-attestation-update">Tether'in 2. Çeyrek Rezerv Raporu</a>:</strong> İhraççılar arasında rezerv şeffaflığı uygulamalarını karşılaştırma</li>
+    <li><strong><a href="/tr/blog/stablecoin-issuer-cip-kyc-genius-act">GENIUS Yasası Stabilcoin KYC Kuralı</a>:</strong> İhraççı düzenlemesi ne kadar ilerledi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Báo Cáo Dự Trữ Quý 2 Của Tether</a>:</strong> So sánh các thực tiễn minh bạch dự trữ giữa các nhà phát hành</li>
-    <li><strong><a href="/blog/stablecoin-issuer-cip-kyc-genius-act.php">Quy Định KYC Stablecoin Của Đạo Luật GENIUS</a>:</strong> Quy định đối với nhà phát hành đã tiến xa đến đâu</li>
+    <li><strong><a href="/vi/blog/tether-reserve-attestation-update">Báo Cáo Dự Trữ Quý 2 Của Tether</a>:</strong> So sánh các thực tiễn minh bạch dự trữ giữa các nhà phát hành</li>
+    <li><strong><a href="/vi/blog/stablecoin-issuer-cip-kyc-genius-act">Quy Định KYC Stablecoin Của Đạo Luật GENIUS</a>:</strong> Quy định đối với nhà phát hành đã tiến xa đến đâu</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: ICIJ("Crypto giant Circle rebuffed efforts to help scam victims, police say", 7월 8일), BeInCrypto·CryptoTimes·AmbCrypto·Protos·CoinPedia(위스콘신 형사 모독죄 기소 보도, 7월 9일), 블록체인 조사관 유리 세로프(동결 규모 추산), 뉴욕주 당국 서한, 서클 공식 입장, BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

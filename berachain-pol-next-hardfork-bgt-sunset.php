@@ -513,67 +513,67 @@
   <h2 class="tr">En İyi Şununla Birlikte Okunur</h2>
   <h2 class="vi">Nên Đọc Kèm Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">카스파 토카타 스마트컨트랙트 하드포크</a>:</strong> 실행 계층을 다시 쓴 또 다른 레이어1 사례</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">카르다노 반로셈 온체인 거버넌스 하드포크</a>:</strong> 거버넌스 계층 재설계의 비교 사례</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">솔라나 온체인 거버넌스 SGP</a>:</strong> 배출·인플레이션 결정을 둘러싼 거버넌스 논쟁</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">베이스 베릴 B20 네이티브 토큰 하드포크</a>:</strong> 네이티브 토큰 경제를 손댄 하드포크</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">이더리움 공급·인플레이션 논쟁</a>:</strong> 배출을 무엇에 연동하느냐의 장기 사례</li>
+    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork">카스파 토카타 스마트컨트랙트 하드포크</a>:</strong> 실행 계층을 다시 쓴 또 다른 레이어1 사례</li>
+    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork">카르다노 반로셈 온체인 거버넌스 하드포크</a>:</strong> 거버넌스 계층 재설계의 비교 사례</li>
+    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch">솔라나 온체인 거버넌스 SGP</a>:</strong> 배출·인플레이션 결정을 둘러싼 거버넌스 논쟁</li>
+    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork">베이스 베릴 B20 네이티브 토큰 하드포크</a>:</strong> 네이티브 토큰 경제를 손댄 하드포크</li>
+    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money">이더리움 공급·인플레이션 논쟁</a>:</strong> 배출을 무엇에 연동하느냐의 장기 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Kaspa Toccata Smart-Contract Hard Fork</a>:</strong> Another layer-1 that rewrote its execution layer</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Cardano Van Rossem On-Chain Governance Hard Fork</a>:</strong> A comparison case for governance-layer redesign</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Solana On-Chain Governance (SGP)</a>:</strong> The governance fight over emissions and inflation</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Base Beryl B20 Native-Token Hard Fork</a>:</strong> A hard fork that reworked native-token economics</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Ethereum Supply &amp; Inflation Debate</a>:</strong> A long-run case on what emissions are tied to</li>
+    <li><strong><a href="/en/blog/kaspa-toccata-smart-contract-hardfork">Kaspa Toccata Smart-Contract Hard Fork</a>:</strong> Another layer-1 that rewrote its execution layer</li>
+    <li><strong><a href="/en/blog/cardano-van-rossem-onchain-governed-hardfork">Cardano Van Rossem On-Chain Governance Hard Fork</a>:</strong> A comparison case for governance-layer redesign</li>
+    <li><strong><a href="/en/blog/solana-onchain-governance-sgp-launch">Solana On-Chain Governance (SGP)</a>:</strong> The governance fight over emissions and inflation</li>
+    <li><strong><a href="/en/blog/base-beryl-b20-native-token-hardfork">Base Beryl B20 Native-Token Hard Fork</a>:</strong> A hard fork that reworked native-token economics</li>
+    <li><strong><a href="/en/blog/ethereum-supply-inflationary-ultrasound-money">Ethereum Supply &amp; Inflation Debate</a>:</strong> A long-run case on what emissions are tied to</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">カスパ トッカータ スマートコントラクトハードフォーク</a>:</strong> 実行層を書き換えた別のレイヤー1の事例</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">カルダノ ヴァンロッセム オンチェーンガバナンスハードフォーク</a>:</strong> ガバナンス層再設計の比較事例</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">ソラナ オンチェーンガバナンス(SGP)</a>:</strong> 排出・インフレ決定をめぐるガバナンス論争</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">ベース ベリル B20 ネイティブトークンハードフォーク</a>:</strong> ネイティブトークン経済に手を入れたハードフォーク</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">イーサリアム供給・インフレ論争</a>:</strong> 排出を何に連動させるかの長期事例</li>
+    <li><strong><a href="/ja/blog/kaspa-toccata-smart-contract-hardfork">カスパ トッカータ スマートコントラクトハードフォーク</a>:</strong> 実行層を書き換えた別のレイヤー1の事例</li>
+    <li><strong><a href="/ja/blog/cardano-van-rossem-onchain-governed-hardfork">カルダノ ヴァンロッセム オンチェーンガバナンスハードフォーク</a>:</strong> ガバナンス層再設計の比較事例</li>
+    <li><strong><a href="/ja/blog/solana-onchain-governance-sgp-launch">ソラナ オンチェーンガバナンス(SGP)</a>:</strong> 排出・インフレ決定をめぐるガバナンス論争</li>
+    <li><strong><a href="/ja/blog/base-beryl-b20-native-token-hardfork">ベース ベリル B20 ネイティブトークンハードフォーク</a>:</strong> ネイティブトークン経済に手を入れたハードフォーク</li>
+    <li><strong><a href="/ja/blog/ethereum-supply-inflationary-ultrasound-money">イーサリアム供給・インフレ論争</a>:</strong> 排出を何に連動させるかの長期事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Hard Fork de Contratos Inteligentes Toccata de Kaspa</a>:</strong> Otra layer-1 que reescribió su capa de ejecución</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Hard Fork de Gobernanza en Cadena Van Rossem de Cardano</a>:</strong> Un caso comparativo de rediseño de la capa de gobernanza</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Gobernanza en Cadena de Solana (SGP)</a>:</strong> La disputa de gobernanza sobre emisiones e inflación</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Hard Fork del Token Nativo B20 Beryl de Base</a>:</strong> Un hard fork que rehízo la economía del token nativo</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Debate de Oferta e Inflación de Ethereum</a>:</strong> Un caso a largo plazo sobre a qué se atan las emisiones</li>
+    <li><strong><a href="/es/blog/kaspa-toccata-smart-contract-hardfork">Hard Fork de Contratos Inteligentes Toccata de Kaspa</a>:</strong> Otra layer-1 que reescribió su capa de ejecución</li>
+    <li><strong><a href="/es/blog/cardano-van-rossem-onchain-governed-hardfork">Hard Fork de Gobernanza en Cadena Van Rossem de Cardano</a>:</strong> Un caso comparativo de rediseño de la capa de gobernanza</li>
+    <li><strong><a href="/es/blog/solana-onchain-governance-sgp-launch">Gobernanza en Cadena de Solana (SGP)</a>:</strong> La disputa de gobernanza sobre emisiones e inflación</li>
+    <li><strong><a href="/es/blog/base-beryl-b20-native-token-hardfork">Hard Fork del Token Nativo B20 Beryl de Base</a>:</strong> Un hard fork que rehízo la economía del token nativo</li>
+    <li><strong><a href="/es/blog/ethereum-supply-inflationary-ultrasound-money">Debate de Oferta e Inflación de Ethereum</a>:</strong> Un caso a largo plazo sobre a qué se atan las emisiones</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Kaspa Toccata Smart-Contract-Hard-Fork</a>:</strong> Eine weitere Layer-1, die ihre Ausführungsschicht neu schrieb</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Cardano Van-Rossem On-Chain-Governance-Hard-Fork</a>:</strong> Ein Vergleichsfall für die Neugestaltung der Governance-Schicht</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Solana On-Chain-Governance (SGP)</a>:</strong> Der Governance-Streit um Emissionen und Inflation</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Base Beryl B20 Native-Token-Hard-Fork</a>:</strong> Ein Hard Fork, der die Native-Token-Ökonomie überarbeitete</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Ethereum-Angebots- und Inflationsdebatte</a>:</strong> Ein Langzeitfall dazu, woran Emissionen gekoppelt sind</li>
+    <li><strong><a href="/de/blog/kaspa-toccata-smart-contract-hardfork">Kaspa Toccata Smart-Contract-Hard-Fork</a>:</strong> Eine weitere Layer-1, die ihre Ausführungsschicht neu schrieb</li>
+    <li><strong><a href="/de/blog/cardano-van-rossem-onchain-governed-hardfork">Cardano Van-Rossem On-Chain-Governance-Hard-Fork</a>:</strong> Ein Vergleichsfall für die Neugestaltung der Governance-Schicht</li>
+    <li><strong><a href="/de/blog/solana-onchain-governance-sgp-launch">Solana On-Chain-Governance (SGP)</a>:</strong> Der Governance-Streit um Emissionen und Inflation</li>
+    <li><strong><a href="/de/blog/base-beryl-b20-native-token-hardfork">Base Beryl B20 Native-Token-Hard-Fork</a>:</strong> Ein Hard Fork, der die Native-Token-Ökonomie überarbeitete</li>
+    <li><strong><a href="/de/blog/ethereum-supply-inflationary-ultrasound-money">Ethereum-Angebots- und Inflationsdebatte</a>:</strong> Ein Langzeitfall dazu, woran Emissionen gekoppelt sind</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Hard Fork des Contrats Intelligents Toccata de Kaspa</a> :</strong> Une autre layer-1 qui a réécrit sa couche d'exécution</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Hard Fork de Gouvernance On-Chain Van Rossem de Cardano</a> :</strong> Un cas comparatif de refonte de la couche de gouvernance</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Gouvernance On-Chain de Solana (SGP)</a> :</strong> La bataille de gouvernance autour des émissions et de l'inflation</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Hard Fork du Jeton Natif B20 Beryl de Base</a> :</strong> Un hard fork qui a remanié l'économie du jeton natif</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Débat sur l'Offre et l'Inflation d'Ethereum</a> :</strong> Un cas de long terme sur ce à quoi les émissions sont liées</li>
+    <li><strong><a href="/fr/blog/kaspa-toccata-smart-contract-hardfork">Hard Fork des Contrats Intelligents Toccata de Kaspa</a> :</strong> Une autre layer-1 qui a réécrit sa couche d'exécution</li>
+    <li><strong><a href="/fr/blog/cardano-van-rossem-onchain-governed-hardfork">Hard Fork de Gouvernance On-Chain Van Rossem de Cardano</a> :</strong> Un cas comparatif de refonte de la couche de gouvernance</li>
+    <li><strong><a href="/fr/blog/solana-onchain-governance-sgp-launch">Gouvernance On-Chain de Solana (SGP)</a> :</strong> La bataille de gouvernance autour des émissions et de l'inflation</li>
+    <li><strong><a href="/fr/blog/base-beryl-b20-native-token-hardfork">Hard Fork du Jeton Natif B20 Beryl de Base</a> :</strong> Un hard fork qui a remanié l'économie du jeton natif</li>
+    <li><strong><a href="/fr/blog/ethereum-supply-inflationary-ultrasound-money">Débat sur l'Offre et l'Inflation d'Ethereum</a> :</strong> Un cas de long terme sur ce à quoi les émissions sont liées</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Hard Fork de Contrato Inteligente Toccata da Kaspa</a>:</strong> Outra layer-1 que reescreveu sua camada de execução</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Hard Fork de Governança On-Chain Van Rossem da Cardano</a>:</strong> Um caso comparativo de reformulação da camada de governança</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Governança On-Chain da Solana (SGP)</a>:</strong> A disputa de governança sobre emissões e inflação</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Hard Fork do Token Nativo B20 Beryl da Base</a>:</strong> Um hard fork que reformulou a economia do token nativo</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Debate sobre Oferta e Inflação do Ethereum</a>:</strong> Um caso de longo prazo sobre a que as emissões estão atreladas</li>
+    <li><strong><a href="/pt/blog/kaspa-toccata-smart-contract-hardfork">Hard Fork de Contrato Inteligente Toccata da Kaspa</a>:</strong> Outra layer-1 que reescreveu sua camada de execução</li>
+    <li><strong><a href="/pt/blog/cardano-van-rossem-onchain-governed-hardfork">Hard Fork de Governança On-Chain Van Rossem da Cardano</a>:</strong> Um caso comparativo de reformulação da camada de governança</li>
+    <li><strong><a href="/pt/blog/solana-onchain-governance-sgp-launch">Governança On-Chain da Solana (SGP)</a>:</strong> A disputa de governança sobre emissões e inflação</li>
+    <li><strong><a href="/pt/blog/base-beryl-b20-native-token-hardfork">Hard Fork do Token Nativo B20 Beryl da Base</a>:</strong> Um hard fork que reformulou a economia do token nativo</li>
+    <li><strong><a href="/pt/blog/ethereum-supply-inflationary-ultrasound-money">Debate sobre Oferta e Inflação do Ethereum</a>:</strong> Um caso de longo prazo sobre a que as emissões estão atreladas</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Kaspa Toccata Akıllı Sözleşme Hard Fork'u</a>:</strong> Yürütme katmanını yeniden yazan başka bir katman-1 ağı</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Cardano Van Rossem On-Chain Yönetişim Hard Fork'u</a>:</strong> Yönetişim katmanı yeniden tasarımı için karşılaştırmalı bir örnek</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Solana On-Chain Yönetişimi (SGP)</a>:</strong> Emisyonlar ve enflasyon üzerine yönetişim mücadelesi</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Base Beryl B20 Yerel Token Hard Fork'u</a>:</strong> Yerel token ekonomisini yeniden düzenleyen bir hard fork</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Ethereum Arz ve Enflasyon Tartışması</a>:</strong> Emisyonların neye bağlı olduğuna dair uzun vadeli bir örnek</li>
+    <li><strong><a href="/tr/blog/kaspa-toccata-smart-contract-hardfork">Kaspa Toccata Akıllı Sözleşme Hard Fork'u</a>:</strong> Yürütme katmanını yeniden yazan başka bir katman-1 ağı</li>
+    <li><strong><a href="/tr/blog/cardano-van-rossem-onchain-governed-hardfork">Cardano Van Rossem On-Chain Yönetişim Hard Fork'u</a>:</strong> Yönetişim katmanı yeniden tasarımı için karşılaştırmalı bir örnek</li>
+    <li><strong><a href="/tr/blog/solana-onchain-governance-sgp-launch">Solana On-Chain Yönetişimi (SGP)</a>:</strong> Emisyonlar ve enflasyon üzerine yönetişim mücadelesi</li>
+    <li><strong><a href="/tr/blog/base-beryl-b20-native-token-hardfork">Base Beryl B20 Yerel Token Hard Fork'u</a>:</strong> Yerel token ekonomisini yeniden düzenleyen bir hard fork</li>
+    <li><strong><a href="/tr/blog/ethereum-supply-inflationary-ultrasound-money">Ethereum Arz ve Enflasyon Tartışması</a>:</strong> Emisyonların neye bağlı olduğuna dair uzun vadeli bir örnek</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/kaspa-toccata-smart-contract-hardfork.php">Hard Fork Hợp Đồng Thông Minh Toccata của Kaspa</a>:</strong> Một layer-1 khác đã viết lại tầng thực thi của mình</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Hard Fork Quản Trị On-Chain Van Rossem của Cardano</a>:</strong> Một trường hợp so sánh cho việc tái thiết kế tầng quản trị</li>
-    <li><strong><a href="/blog/solana-onchain-governance-sgp-launch.php">Quản Trị On-Chain của Solana (SGP)</a>:</strong> Cuộc tranh đấu quản trị xoay quanh phát hành và lạm phát</li>
-    <li><strong><a href="/blog/base-beryl-b20-native-token-hardfork.php">Hard Fork Token Gốc B20 Beryl của Base</a>:</strong> Một hard fork đã cải tổ kinh tế token gốc</li>
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Tranh Luận về Cung và Lạm Phát của Ethereum</a>:</strong> Một trường hợp dài hạn về việc phát hành được gắn với điều gì</li>
+    <li><strong><a href="/vi/blog/kaspa-toccata-smart-contract-hardfork">Hard Fork Hợp Đồng Thông Minh Toccata của Kaspa</a>:</strong> Một layer-1 khác đã viết lại tầng thực thi của mình</li>
+    <li><strong><a href="/vi/blog/cardano-van-rossem-onchain-governed-hardfork">Hard Fork Quản Trị On-Chain Van Rossem của Cardano</a>:</strong> Một trường hợp so sánh cho việc tái thiết kế tầng quản trị</li>
+    <li><strong><a href="/vi/blog/solana-onchain-governance-sgp-launch">Quản Trị On-Chain của Solana (SGP)</a>:</strong> Cuộc tranh đấu quản trị xoay quanh phát hành và lạm phát</li>
+    <li><strong><a href="/vi/blog/base-beryl-b20-native-token-hardfork">Hard Fork Token Gốc B20 Beryl của Base</a>:</strong> Một hard fork đã cải tổ kinh tế token gốc</li>
+    <li><strong><a href="/vi/blog/ethereum-supply-inflationary-ultrasound-money">Tranh Luận về Cung và Lạm Phát của Ethereum</a>:</strong> Một trường hợp dài hạn về việc phát hành được gắn với điều gì</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 베라체인 재단 블로그(Introducing PoL v2·PoL Next 공지), 베라체인 재단 X(활성화 일정), 우블록체인(WuBlockchain, 주간 프로젝트 업데이트), GitHub bera-reth 릴리스(클라이언트 버전), 코인마켓캡·블록웍스·디크립트(메인넷 출범·BERA 상장 기록), 메사리(토큰 이코노미). 수치와 일정은 인용 시점 기준이며 변동될 수 있다. 본 글은 투자 조언이 아니다.</p>

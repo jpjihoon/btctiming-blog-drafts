@@ -466,49 +466,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle 주가 -17% — 스트라이프·비자·블랙록 연합군의 첫 일격</a>:</strong> USDT의 경쟁자 USDC를 흔든 신규 스테이블코인 연합의 배경</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">美 비트코인 ETF, 사흘 순유입으로 8주 유출 끊었다</a>:</strong> 이번 도미넌스 반전과 겹치는 ETF 자금 흐름의 상세 내막</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">가격은 오르는데 실탄은 준다 — 스테이블코인 공급 위축과 거래소 잔고 저점</a>:</strong> 스테이블코인 대기자금 해석을 둘러싼 또 다른 시각</li>
+    <li><strong><a href="/blog/circle-stock-crash-open-usd">Circle 주가 -17% — 스트라이프·비자·블랙록 연합군의 첫 일격</a>:</strong> USDT의 경쟁자 USDC를 흔든 신규 스테이블코인 연합의 배경</li>
+    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal">美 비트코인 ETF, 사흘 순유입으로 8주 유출 끊었다</a>:</strong> 이번 도미넌스 반전과 겹치는 ETF 자금 흐름의 상세 내막</li>
+    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">가격은 오르는데 실탄은 준다 — 스테이블코인 공급 위축과 거래소 잔고 저점</a>:</strong> 스테이블코인 대기자금 해석을 둘러싼 또 다른 시각</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle Stock -17% — The First Blow From the Stripe-Visa-BlackRock Alliance</a>:</strong> The backstory of the rival stablecoin coalition rattling USDT's competitor USDC</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">US Bitcoin ETFs Snap an Eight-Week Outflow Streak with Three Days of Inflows</a>:</strong> A closer look at the ETF flows overlapping with this dominance reversal</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Price Is Rising, But the Ammo Is Shrinking</a>:</strong> Another lens on how to read stablecoin dry powder</li>
+    <li><strong><a href="/en/blog/circle-stock-crash-open-usd">Circle Stock -17% — The First Blow From the Stripe-Visa-BlackRock Alliance</a>:</strong> The backstory of the rival stablecoin coalition rattling USDT's competitor USDC</li>
+    <li><strong><a href="/en/blog/btc-etf-inflows-return-june-outflow-reversal">US Bitcoin ETFs Snap an Eight-Week Outflow Streak with Three Days of Inflows</a>:</strong> A closer look at the ETF flows overlapping with this dominance reversal</li>
+    <li><strong><a href="/en/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Price Is Rising, But the Ammo Is Shrinking</a>:</strong> Another lens on how to read stablecoin dry powder</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle株価-17% — Stripe・Visa・BlackRockの新ステーブルコイン連合の衝撃</a>:</strong> USDTの競合USDCを揺るがす新連合の背景</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">米ビットコインETF、3日間の純流入で8週連続流出を止めた</a>:</strong> 今回のドミナンス反転と重なるETF資金フローの詳細</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">価格は上昇するのに弾薬は減る — ステーブルコイン供給縮小と取引所残高の低下</a>:</strong> ステーブルコイン待機資金の解釈をめぐる別の視点</li>
+    <li><strong><a href="/ja/blog/circle-stock-crash-open-usd">Circle株価-17% — Stripe・Visa・BlackRockの新ステーブルコイン連合の衝撃</a>:</strong> USDTの競合USDCを揺るがす新連合の背景</li>
+    <li><strong><a href="/ja/blog/btc-etf-inflows-return-june-outflow-reversal">米ビットコインETF、3日間の純流入で8週連続流出を止めた</a>:</strong> 今回のドミナンス反転と重なるETF資金フローの詳細</li>
+    <li><strong><a href="/ja/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">価格は上昇するのに弾薬は減る — ステーブルコイン供給縮小と取引所残高の低下</a>:</strong> ステーブルコイン待機資金の解釈をめぐる別の視点</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">La Acción de Circle Cae -17% — La Amenaza de "Open USD"</a>:</strong> El trasfondo de la coalición rival de stablecoins que sacude al competidor de USDT, USDC</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">Los ETF de Bitcoin en EE. UU. Rompen una Racha de Ocho Semanas de Salidas</a>:</strong> Un vistazo más de cerca a los flujos de ETF que coinciden con esta reversión de dominancia</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">El Precio Sube, Pero la Munición se Reduce</a>:</strong> Otra mirada sobre cómo interpretar la pólvora seca de las stablecoins</li>
+    <li><strong><a href="/es/blog/circle-stock-crash-open-usd">La Acción de Circle Cae -17% — La Amenaza de "Open USD"</a>:</strong> El trasfondo de la coalición rival de stablecoins que sacude al competidor de USDT, USDC</li>
+    <li><strong><a href="/es/blog/btc-etf-inflows-return-june-outflow-reversal">Los ETF de Bitcoin en EE. UU. Rompen una Racha de Ocho Semanas de Salidas</a>:</strong> Un vistazo más de cerca a los flujos de ETF que coinciden con esta reversión de dominancia</li>
+    <li><strong><a href="/es/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">El Precio Sube, Pero la Munición se Reduce</a>:</strong> Otra mirada sobre cómo interpretar la pólvora seca de las stablecoins</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle-Aktie fällt -17% — Die "Open USD"-Bedrohung</a>:</strong> Der Hintergrund der rivalisierenden Stablecoin-Allianz, die USDTs Konkurrenten USDC erschüttert</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">US-Bitcoin-ETFs Durchbrechen Achtwöchige Abfluss-Serie</a>:</strong> Ein genauerer Blick auf die ETF-Flüsse, die sich mit dieser Dominanz-Umkehr überschneiden</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Der Preis Steigt, Doch die Munition Schwindet</a>:</strong> Eine weitere Perspektive darauf, wie man trockenes Pulver bei Stablecoins interpretiert</li>
+    <li><strong><a href="/de/blog/circle-stock-crash-open-usd">Circle-Aktie fällt -17% — Die "Open USD"-Bedrohung</a>:</strong> Der Hintergrund der rivalisierenden Stablecoin-Allianz, die USDTs Konkurrenten USDC erschüttert</li>
+    <li><strong><a href="/de/blog/btc-etf-inflows-return-june-outflow-reversal">US-Bitcoin-ETFs Durchbrechen Achtwöchige Abfluss-Serie</a>:</strong> Ein genauerer Blick auf die ETF-Flüsse, die sich mit dieser Dominanz-Umkehr überschneiden</li>
+    <li><strong><a href="/de/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Der Preis Steigt, Doch die Munition Schwindet</a>:</strong> Eine weitere Perspektive darauf, wie man trockenes Pulver bei Stablecoins interpretiert</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">L'Action Circle Chute de -17 % — La Menace « Open USD »</a>:</strong> Le contexte de la coalition rivale de stablecoins qui ébranle l'USDC, concurrent de l'USDT</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">Les ETF Bitcoin US Mettent Fin à Huit Semaines de Sorties</a>:</strong> Un regard plus approfondi sur les flux d'ETF qui coïncident avec ce retournement de dominance</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Le Prix Monte, Mais les Munitions s'Amenuisent</a>:</strong> Un autre regard sur la façon d'interpréter les réserves de liquidités des stablecoins</li>
+    <li><strong><a href="/fr/blog/circle-stock-crash-open-usd">L'Action Circle Chute de -17 % — La Menace « Open USD »</a>:</strong> Le contexte de la coalition rivale de stablecoins qui ébranle l'USDC, concurrent de l'USDT</li>
+    <li><strong><a href="/fr/blog/btc-etf-inflows-return-june-outflow-reversal">Les ETF Bitcoin US Mettent Fin à Huit Semaines de Sorties</a>:</strong> Un regard plus approfondi sur les flux d'ETF qui coïncident avec ce retournement de dominance</li>
+    <li><strong><a href="/fr/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Le Prix Monte, Mais les Munitions s'Amenuisent</a>:</strong> Un autre regard sur la façon d'interpréter les réserves de liquidités des stablecoins</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Ação da Circle Cai -17% — A Ameaça do "Open USD"</a>:</strong> O contexto da coalizão rival de stablecoins que abala a concorrente do USDT, a USDC</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">ETFs de Bitcoin dos EUA Encerram Sequência de Oito Semanas de Saídas</a>:</strong> Um olhar mais atento sobre os fluxos de ETF que coincidem com essa reversão de dominância</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">O Preço Sobe, Mas a Munição Diminui</a>:</strong> Outra perspectiva sobre como interpretar o caixa parado das stablecoins</li>
+    <li><strong><a href="/pt/blog/circle-stock-crash-open-usd">Ação da Circle Cai -17% — A Ameaça do "Open USD"</a>:</strong> O contexto da coalizão rival de stablecoins que abala a concorrente do USDT, a USDC</li>
+    <li><strong><a href="/pt/blog/btc-etf-inflows-return-june-outflow-reversal">ETFs de Bitcoin dos EUA Encerram Sequência de Oito Semanas de Saídas</a>:</strong> Um olhar mais atento sobre os fluxos de ETF que coincidem com essa reversão de dominância</li>
+    <li><strong><a href="/pt/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">O Preço Sobe, Mas a Munição Diminui</a>:</strong> Outra perspectiva sobre como interpretar o caixa parado das stablecoins</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle Hissesi %17 Düştü — "Open USD" Tehdidi</a>:</strong> USDT'nin rakibi USDC'yi sarsan rakip stabil para ittifakının arka planı</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">ABD Bitcoin ETF'leri Sekiz Haftalık Çıkış Serisini Kırdı</a>:</strong> Bu hakimiyet tersine dönüşüyle örtüşen ETF akışlarına daha yakından bakış</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Fiyat Yükseliyor Ama Cephane Azalıyor</a>:</strong> Stabil para bekleyen fonlarının nasıl yorumlanacağına dair bir başka bakış açısı</li>
+    <li><strong><a href="/tr/blog/circle-stock-crash-open-usd">Circle Hissesi %17 Düştü — "Open USD" Tehdidi</a>:</strong> USDT'nin rakibi USDC'yi sarsan rakip stabil para ittifakının arka planı</li>
+    <li><strong><a href="/tr/blog/btc-etf-inflows-return-june-outflow-reversal">ABD Bitcoin ETF'leri Sekiz Haftalık Çıkış Serisini Kırdı</a>:</strong> Bu hakimiyet tersine dönüşüyle örtüşen ETF akışlarına daha yakından bakış</li>
+    <li><strong><a href="/tr/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Fiyat Yükseliyor Ama Cephane Azalıyor</a>:</strong> Stabil para bekleyen fonlarının nasıl yorumlanacağına dair bir başka bakış açısı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Cổ Phiếu Circle Giảm -17% — Mối Đe Dọa Mang Tên "Open USD"</a>:</strong> Bối cảnh liên minh stablecoin đối thủ đang làm chao đảo USDC, đối thủ của USDT</li>
-    <li><strong><a href="/blog/btc-etf-inflows-return-june-outflow-reversal.php">ETF Bitcoin Mỹ Chấm Dứt Chuỗi Rút Vốn Tám Tuần</a>:</strong> Cái nhìn sâu hơn về dòng vốn ETF trùng với sự đảo chiều độ thống trị này</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Giá Tăng Nhưng Đạn Dược Cạn Dần</a>:</strong> Một góc nhìn khác về cách diễn giải nguồn vốn chờ của stablecoin</li>
+    <li><strong><a href="/vi/blog/circle-stock-crash-open-usd">Cổ Phiếu Circle Giảm -17% — Mối Đe Dọa Mang Tên "Open USD"</a>:</strong> Bối cảnh liên minh stablecoin đối thủ đang làm chao đảo USDC, đối thủ của USDT</li>
+    <li><strong><a href="/vi/blog/btc-etf-inflows-return-june-outflow-reversal">ETF Bitcoin Mỹ Chấm Dứt Chuỗi Rút Vốn Tám Tuần</a>:</strong> Cái nhìn sâu hơn về dòng vốn ETF trùng với sự đảo chiều độ thống trị này</li>
+    <li><strong><a href="/vi/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Giá Tăng Nhưng Đạn Dược Cạn Dần</a>:</strong> Một góc nhìn khác về cách diễn giải nguồn vốn chờ của stablecoin</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(CoinDesk) — "USDT's Flashing a Golden Cross"(6월 9일), "Live Markets: Bitcoin and Ether ETFs Drew Inflows on Monday"(7월 7일), "Finally, $221 Million Flow Into Bitcoin ETFs"(7월 3일), Crypto Daybook Americas 시리즈. 도미넌스·이동평균 수치는 코인데스크 및 관련 데이터 제공업체 집계 기준이며, 본 글은 투자 조언이 아니다.</p>

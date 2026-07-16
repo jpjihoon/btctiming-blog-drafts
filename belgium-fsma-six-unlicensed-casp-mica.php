@@ -282,49 +282,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA 유예 절벽 — 미인가 사업자 80%의 실체</a>:</strong> 이번 경고의 배경이 된 경과규정 만료를 더 깊이 이해하는 글</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">리플, 룩셈부르크서 MiCA CASP 정식 인가 취득</a>:</strong> 인가 절차를 정상적으로 통과한 대조 사례</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스, EU MiCA 인가에서 제동</a>:</strong> 대형 거래소의 인가 지연 문제와 이번 사기성 업체 문제의 차이</li>
+    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA 유예 절벽 — 미인가 사업자 80%의 실체</a>:</strong> 이번 경고의 배경이 된 경과규정 만료를 더 깊이 이해하는 글</li>
+    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg">리플, 룩셈부르크서 MiCA CASP 정식 인가 취득</a>:</strong> 인가 절차를 정상적으로 통과한 대조 사례</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스, EU MiCA 인가에서 제동</a>:</strong> 대형 거래소의 인가 지연 문제와 이번 사기성 업체 문제의 차이</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">The MiCA Grandfathering Cliff — The Reality Behind 80% Unlicensed</a>:</strong> A deeper look at the transitional expiry behind this warning</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Secures a Full MiCA CASP License in Luxembourg</a>:</strong> A contrasting case of clearing the authorization process properly</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Hits a Setback in EU MiCA Licensing</a>:</strong> The difference between large-exchange licensing delays and this fraudulent-operator issue</li>
+    <li><strong><a href="/en/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">The MiCA Grandfathering Cliff — The Reality Behind 80% Unlicensed</a>:</strong> A deeper look at the transitional expiry behind this warning</li>
+    <li><strong><a href="/en/blog/ripple-mica-casp-full-license-luxembourg">Ripple Secures a Full MiCA CASP License in Luxembourg</a>:</strong> A contrasting case of clearing the authorization process properly</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance Hits a Setback in EU MiCA Licensing</a>:</strong> The difference between large-exchange licensing delays and this fraudulent-operator issue</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA猶予の崖 — 無認可業者80%の実態</a>:</strong> 今回の警告の背景となった経過規定の終了をより深く理解する記事</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">リップル、ルクセンブルクでMiCA CASP正式認可を取得</a>:</strong> 認可手続きを正常に通過した対照的な事例</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">バイナンス、EU MiCA認可で足踏み</a>:</strong> 大手取引所の認可遅延問題と今回の詐欺的業者問題の違い</li>
+    <li><strong><a href="/ja/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA猶予の崖 — 無認可業者80%の実態</a>:</strong> 今回の警告の背景となった経過規定の終了をより深く理解する記事</li>
+    <li><strong><a href="/ja/blog/ripple-mica-casp-full-license-luxembourg">リップル、ルクセンブルクでMiCA CASP正式認可を取得</a>:</strong> 認可手続きを正常に通過した対照的な事例</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">バイナンス、EU MiCA認可で足踏み</a>:</strong> 大手取引所の認可遅延問題と今回の詐欺的業者問題の違い</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">El Precipicio de Transición de MiCA — La Realidad Tras el 80% Sin Licencia</a>:</strong> Una mirada más profunda a la expiración transitoria detrás de esta advertencia</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Obtiene una Licencia CASP Completa de MiCA en Luxemburgo</a>:</strong> Un caso contrastante de superar correctamente el proceso de autorización</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Sufre un Revés en la Licencia MiCA de la UE</a>:</strong> La diferencia entre los retrasos de licencia de grandes exchanges y este problema de operadores fraudulentos</li>
+    <li><strong><a href="/es/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">El Precipicio de Transición de MiCA — La Realidad Tras el 80% Sin Licencia</a>:</strong> Una mirada más profunda a la expiración transitoria detrás de esta advertencia</li>
+    <li><strong><a href="/es/blog/ripple-mica-casp-full-license-luxembourg">Ripple Obtiene una Licencia CASP Completa de MiCA en Luxemburgo</a>:</strong> Un caso contrastante de superar correctamente el proceso de autorización</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">Binance Sufre un Revés en la Licencia MiCA de la UE</a>:</strong> La diferencia entre los retrasos de licencia de grandes exchanges y este problema de operadores fraudulentos</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">Die MiCA-Bestandsschutz-Klippe — Die Realität Hinter 80% ohne Lizenz</a>:</strong> Ein tieferer Blick auf das Übergangsende hinter dieser Warnung</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Erhält in Luxemburg eine Vollständige MiCA-CASP-Lizenz</a>:</strong> Ein Gegenbeispiel für das ordnungsgemäße Durchlaufen des Zulassungsverfahrens</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Erleidet Rückschlag bei der EU-MiCA-Lizenzierung</a>:</strong> Der Unterschied zwischen Lizenzverzögerungen großer Börsen und diesem Problem betrügerischer Betreiber</li>
+    <li><strong><a href="/de/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">Die MiCA-Bestandsschutz-Klippe — Die Realität Hinter 80% ohne Lizenz</a>:</strong> Ein tieferer Blick auf das Übergangsende hinter dieser Warnung</li>
+    <li><strong><a href="/de/blog/ripple-mica-casp-full-license-luxembourg">Ripple Erhält in Luxemburg eine Vollständige MiCA-CASP-Lizenz</a>:</strong> Ein Gegenbeispiel für das ordnungsgemäße Durchlaufen des Zulassungsverfahrens</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binance Erleidet Rückschlag bei der EU-MiCA-Lizenzierung</a>:</strong> Der Unterschied zwischen Lizenzverzögerungen großer Börsen und diesem Problem betrügerischer Betreiber</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">La Falaise de Transition de MiCA — La Réalité Derrière 80 % Sans Agrément</a>:</strong> Un regard plus approfondi sur l'expiration transitoire à l'origine de cette mise en garde</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Obtient un Agrément CASP Complet MiCA au Luxembourg</a>:</strong> Un cas contrasté de franchissement correct du processus d'agrément</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Subit un Revers dans l'Agrément MiCA de l'UE</a>:</strong> La différence entre les retards d'agrément des grandes plateformes et ce problème d'opérateurs frauduleux</li>
+    <li><strong><a href="/fr/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">La Falaise de Transition de MiCA — La Réalité Derrière 80 % Sans Agrément</a>:</strong> Un regard plus approfondi sur l'expiration transitoire à l'origine de cette mise en garde</li>
+    <li><strong><a href="/fr/blog/ripple-mica-casp-full-license-luxembourg">Ripple Obtient un Agrément CASP Complet MiCA au Luxembourg</a>:</strong> Un cas contrasté de franchissement correct du processus d'agrément</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">Binance Subit un Revers dans l'Agrément MiCA de l'UE</a>:</strong> La différence entre les retards d'agrément des grandes plateformes et ce problème d'opérateurs frauduleux</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">O Precipício de Transição do MiCA — A Realidade Por Trás dos 80% Sem Licença</a>:</strong> Um olhar mais profundo sobre a expiração transitória por trás deste alerta</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Obtém Licença CASP Completa do MiCA em Luxemburgo</a>:</strong> Um caso contrastante de passar corretamente pelo processo de autorização</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Sofre Revés no Licenciamento MiCA da UE</a>:</strong> A diferença entre atrasos de licença de grandes exchanges e este problema de operadores fraudulentos</li>
+    <li><strong><a href="/pt/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">O Precipício de Transição do MiCA — A Realidade Por Trás dos 80% Sem Licença</a>:</strong> Um olhar mais profundo sobre a expiração transitória por trás deste alerta</li>
+    <li><strong><a href="/pt/blog/ripple-mica-casp-full-license-luxembourg">Ripple Obtém Licença CASP Completa do MiCA em Luxemburgo</a>:</strong> Um caso contrastante de passar corretamente pelo processo de autorização</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">Binance Sofre Revés no Licenciamento MiCA da UE</a>:</strong> A diferença entre atrasos de licença de grandes exchanges e este problema de operadores fraudulentos</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA Geçiş Uçurumu — Yüzde 80 Lisanssızın Gerçeği</a>:</strong> Bu uyarının arka planındaki geçiş süresi bitişine daha derin bir bakış</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple, Lüksemburg'da Tam MiCA CASP Lisansı Aldı</a>:</strong> Yetkilendirme sürecini düzgün biçimde geçmenin karşıt bir örneği</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance, AB MiCA Lisansında Aksilikle Karşılaştı</a>:</strong> Büyük borsaların lisans gecikmeleri ile bu hileli operatör sorunu arasındaki fark</li>
+    <li><strong><a href="/tr/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA Geçiş Uçurumu — Yüzde 80 Lisanssızın Gerçeği</a>:</strong> Bu uyarının arka planındaki geçiş süresi bitişine daha derin bir bakış</li>
+    <li><strong><a href="/tr/blog/ripple-mica-casp-full-license-luxembourg">Ripple, Lüksemburg'da Tam MiCA CASP Lisansı Aldı</a>:</strong> Yetkilendirme sürecini düzgün biçimde geçmenin karşıt bir örneği</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance, AB MiCA Lisansında Aksilikle Karşılaştı</a>:</strong> Büyük borsaların lisans gecikmeleri ile bu hileli operatör sorunu arasındaki fark</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">Vách Đá Chuyển Tiếp MiCA — Thực Tế Đằng Sau 80% Không Có Giấy Phép</a>:</strong> Một cái nhìn sâu hơn về việc kết thúc giai đoạn chuyển tiếp đằng sau cảnh báo này</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Có Giấy Phép CASP MiCA Đầy Đủ Tại Luxembourg</a>:</strong> Một trường hợp đối chiếu về việc vượt qua đúng quy trình cấp phép</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Gặp Trở Ngại Trong Việc Cấp Phép MiCA Của EU</a>:</strong> Sự khác biệt giữa chậm trễ cấp phép của sàn lớn và vấn đề đơn vị gian lận này</li>
+    <li><strong><a href="/vi/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">Vách Đá Chuyển Tiếp MiCA — Thực Tế Đằng Sau 80% Không Có Giấy Phép</a>:</strong> Một cái nhìn sâu hơn về việc kết thúc giai đoạn chuyển tiếp đằng sau cảnh báo này</li>
+    <li><strong><a href="/vi/blog/ripple-mica-casp-full-license-luxembourg">Ripple Có Giấy Phép CASP MiCA Đầy Đủ Tại Luxembourg</a>:</strong> Một trường hợp đối chiếu về việc vượt qua đúng quy trình cấp phép</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Binance Gặp Trở Ngại Trong Việc Cấp Phép MiCA Của EU</a>:</strong> Sự khác biệt giữa chậm trễ cấp phép của sàn lớn và vấn đề đơn vị gian lận này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토뉴스(crypto.news, 벨기에 FSMA의 6개 비인가 CASP 경고 보도), 코인텔레그래프(사기 목록 추가·MiCA 마감 맥락), 립레이트(LeapRate, 지목 업체 명단·규제 요건), 블록오노미(Blockonomi, 집행 배경), 크립토이코노미(Crypto Economy)·크립토타임스(CryptoTimes, MiCA 경과규정·소비자 경고 상세), 벨기에 FSMA 공식 CASP 등록부. 일부 세부는 3자 보도에 근거한다. 본 글은 투자 조언이 아니다.</p>

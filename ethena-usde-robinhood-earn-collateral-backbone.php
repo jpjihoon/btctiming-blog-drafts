@@ -380,49 +380,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">로빈후드 체인 메인넷과 토큰화 주식</a>:</strong> 같은 7월 1일 출범한 로빈후드 체인의 다른 축</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">아비트럼 스테이블코인 이탈과 하이퍼EVM</a>:</strong> 인센티브에 묶인 온체인 유동성의 취약성</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">테더 준비금 어테스테이션 업데이트</a>:</strong> 달러 연동 자산의 뒷받침을 읽는 관점</li>
+    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks">로빈후드 체인 메인넷과 토큰화 주식</a>:</strong> 같은 7월 1일 출범한 로빈후드 체인의 다른 축</li>
+    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">아비트럼 스테이블코인 이탈과 하이퍼EVM</a>:</strong> 인센티브에 묶인 온체인 유동성의 취약성</li>
+    <li><strong><a href="/blog/tether-reserve-attestation-update">테더 준비금 어테스테이션 업데이트</a>:</strong> 달러 연동 자산의 뒷받침을 읽는 관점</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood Chain's mainnet and tokenized stocks</a>:</strong> The other axis of the Robinhood Chain launched the same July 1</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Arbitrum's stablecoin drain and HyperEVM</a>:</strong> The fragility of on-chain liquidity tethered to incentives</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether's reserve attestation update</a>:</strong> A lens on how to read the backing of dollar-pegged assets</li>
+    <li><strong><a href="/en/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood Chain's mainnet and tokenized stocks</a>:</strong> The other axis of the Robinhood Chain launched the same July 1</li>
+    <li><strong><a href="/en/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Arbitrum's stablecoin drain and HyperEVM</a>:</strong> The fragility of on-chain liquidity tethered to incentives</li>
+    <li><strong><a href="/en/blog/tether-reserve-attestation-update">Tether's reserve attestation update</a>:</strong> A lens on how to read the backing of dollar-pegged assets</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood Chainのメインネットとトークン化株式</a>:</strong> 同じ7月1日に始動したRobinhood Chainのもう一つの軸</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">アービトラムのステーブルコイン流出とハイパーEVM</a>:</strong> インセンティブに縛られたオンチェーン流動性の脆弱性</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">テダーの準備金アテステーション更新</a>:</strong> ドル連動資産の裏付けを読む視点</li>
+    <li><strong><a href="/ja/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood Chainのメインネットとトークン化株式</a>:</strong> 同じ7月1日に始動したRobinhood Chainのもう一つの軸</li>
+    <li><strong><a href="/ja/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">アービトラムのステーブルコイン流出とハイパーEVM</a>:</strong> インセンティブに縛られたオンチェーン流動性の脆弱性</li>
+    <li><strong><a href="/ja/blog/tether-reserve-attestation-update">テダーの準備金アテステーション更新</a>:</strong> ドル連動資産の裏付けを読む視点</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">El mainnet de Robinhood Chain y las acciones tokenizadas</a>:</strong> El otro eje de la Robinhood Chain lanzada el mismo 1 de julio</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">La fuga de stablecoins de Arbitrum y HyperEVM</a>:</strong> La fragilidad de la liquidez on-chain atada a incentivos</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">La actualización de la atestación de reservas de Tether</a>:</strong> Un prisma sobre cómo leer el respaldo de los activos anclados al dólar</li>
+    <li><strong><a href="/es/blog/robinhood-chain-mainnet-tokenized-stocks">El mainnet de Robinhood Chain y las acciones tokenizadas</a>:</strong> El otro eje de la Robinhood Chain lanzada el mismo 1 de julio</li>
+    <li><strong><a href="/es/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">La fuga de stablecoins de Arbitrum y HyperEVM</a>:</strong> La fragilidad de la liquidez on-chain atada a incentivos</li>
+    <li><strong><a href="/es/blog/tether-reserve-attestation-update">La actualización de la atestación de reservas de Tether</a>:</strong> Un prisma sobre cómo leer el respaldo de los activos anclados al dólar</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood Chains Mainnet und tokenisierte Aktien</a>:</strong> Die andere Achse der am selben 1. Juli gestarteten Robinhood Chain</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Arbitrums Stablecoin-Abfluss und HyperEVM</a>:</strong> Die Fragilität von an Anreize gebundener On-Chain-Liquidität</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tethers Update zur Reserve-Attestierung</a>:</strong> Ein Blick darauf, wie man die Deckung dollargebundener Assets liest</li>
+    <li><strong><a href="/de/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood Chains Mainnet und tokenisierte Aktien</a>:</strong> Die andere Achse der am selben 1. Juli gestarteten Robinhood Chain</li>
+    <li><strong><a href="/de/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Arbitrums Stablecoin-Abfluss und HyperEVM</a>:</strong> Die Fragilität von an Anreize gebundener On-Chain-Liquidität</li>
+    <li><strong><a href="/de/blog/tether-reserve-attestation-update">Tethers Update zur Reserve-Attestierung</a>:</strong> Ein Blick darauf, wie man die Deckung dollargebundener Assets liest</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Le mainnet de Robinhood Chain et les actions tokenisées</a>:</strong> L'autre axe de la Robinhood Chain lancée le même 1er juillet</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">La fuite des stablecoins d'Arbitrum et HyperEVM</a>:</strong> La fragilité de la liquidité on-chain liée aux incitations</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">La mise à jour de l'attestation de réserves de Tether</a>:</strong> Un prisme sur la lecture de l'adossement des actifs indexés sur le dollar</li>
+    <li><strong><a href="/fr/blog/robinhood-chain-mainnet-tokenized-stocks">Le mainnet de Robinhood Chain et les actions tokenisées</a>:</strong> L'autre axe de la Robinhood Chain lancée le même 1er juillet</li>
+    <li><strong><a href="/fr/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">La fuite des stablecoins d'Arbitrum et HyperEVM</a>:</strong> La fragilité de la liquidité on-chain liée aux incitations</li>
+    <li><strong><a href="/fr/blog/tether-reserve-attestation-update">La mise à jour de l'attestation de réserves de Tether</a>:</strong> Un prisme sur la lecture de l'adossement des actifs indexés sur le dollar</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">O mainnet da Robinhood Chain e as ações tokenizadas</a>:</strong> O outro eixo da Robinhood Chain lançada no mesmo 1º de julho</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">A fuga de stablecoins da Arbitrum e a HyperEVM</a>:</strong> A fragilidade da liquidez on-chain atrelada a incentivos</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">A atualização da atestação de reservas da Tether</a>:</strong> Uma lente sobre como ler o lastro de ativos atrelados ao dólar</li>
+    <li><strong><a href="/pt/blog/robinhood-chain-mainnet-tokenized-stocks">O mainnet da Robinhood Chain e as ações tokenizadas</a>:</strong> O outro eixo da Robinhood Chain lançada no mesmo 1º de julho</li>
+    <li><strong><a href="/pt/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">A fuga de stablecoins da Arbitrum e a HyperEVM</a>:</strong> A fragilidade da liquidez on-chain atrelada a incentivos</li>
+    <li><strong><a href="/pt/blog/tether-reserve-attestation-update">A atualização da atestação de reservas da Tether</a>:</strong> Uma lente sobre como ler o lastro de ativos atrelados ao dólar</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Robinhood Chain'in ana ağı ve tokenlaştırılmış hisseler</a>:</strong> Aynı 1 Temmuz'da başlayan Robinhood Chain'in diğer ekseni</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Arbitrum'un stablecoin çıkışı ve HyperEVM</a>:</strong> Teşviklere bağlı on-chain likiditenin kırılganlığı</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether'in rezerv beyanı güncellemesi</a>:</strong> Dolara sabit varlıkların dayanağını okumaya dair bir bakış</li>
+    <li><strong><a href="/tr/blog/robinhood-chain-mainnet-tokenized-stocks">Robinhood Chain'in ana ağı ve tokenlaştırılmış hisseler</a>:</strong> Aynı 1 Temmuz'da başlayan Robinhood Chain'in diğer ekseni</li>
+    <li><strong><a href="/tr/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Arbitrum'un stablecoin çıkışı ve HyperEVM</a>:</strong> Teşviklere bağlı on-chain likiditenin kırılganlığı</li>
+    <li><strong><a href="/tr/blog/tether-reserve-attestation-update">Tether'in rezerv beyanı güncellemesi</a>:</strong> Dolara sabit varlıkların dayanağını okumaya dair bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/robinhood-chain-mainnet-tokenized-stocks.php">Mainnet của Robinhood Chain và cổ phiếu token hóa</a>:</strong> Trục còn lại của Robinhood Chain ra mắt cùng ngày 1/7</li>
-    <li><strong><a href="/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity.php">Dòng stablecoin rời Arbitrum và HyperEVM</a>:</strong> Sự mong manh của thanh khoản on-chain bị ràng buộc vào ưu đãi</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Bản cập nhật chứng thực dự trữ của Tether</a>:</strong> Một lăng kính về cách đọc phần hậu thuẫn của tài sản neo theo đô la</li>
+    <li><strong><a href="/vi/blog/robinhood-chain-mainnet-tokenized-stocks">Mainnet của Robinhood Chain và cổ phiếu token hóa</a>:</strong> Trục còn lại của Robinhood Chain ra mắt cùng ngày 1/7</li>
+    <li><strong><a href="/vi/blog/arbitrum-stablecoin-exodus-hyperevm-liquidity">Dòng stablecoin rời Arbitrum và HyperEVM</a>:</strong> Sự mong manh của thanh khoản on-chain bị ràng buộc vào ưu đãi</li>
+    <li><strong><a href="/vi/blog/tether-reserve-attestation-update">Bản cập nhật chứng thực dự trữ của Tether</a>:</strong> Một lăng kính về cách đọc phần hậu thuẫn của tài sản neo theo đô la</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: The Defiant(이더나가 스테이크하우스에 의해 로빈후드 첫 언 상품의 주 담보 자산 발행자로 선정), cryptobriefing(이더나-로빈후드 체인 제휴), Robinhood 뉴스룸(로빈후드 체인 메인넷·언·USDG 7% APY·Lloyd's·RELM 보험), MEXC(USDe가 로빈후드 언에 합류), KuCoin(로빈후드 체인 생태계 개관), BanklessTimes 및 Bitcoinist(코인베이스 USDe·모르포 고수익 볼트 1억 달러 돌파), DefiLlama(로빈후드 체인 TVL). 수치는 시점에 따라 변동할 수 있으며, 본 글은 투자 조언이 아니다.</p>

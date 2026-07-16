@@ -377,49 +377,49 @@
   <div class="box vi">💡 <strong>Điều cần theo dõi ngay:</strong> tiến trình giai đoạn Musashi Dojo → Void và mức TPS duy trì dưới tải thực, đối kháng (không phải bài đo chuẩn tổng hợp); cuộc bỏ phiếu quản trị hard fork mainnet và liệu mục tiêu quý 4 năm 2026 có giữ được; và trên hết, liệu dung lượng tăng thêm có thu hút nhà phát triển và thanh khoản hay không. Thông lượng thì dễ công bố; cái khó là nhu cầu.</div>
 
   <ul class="ko">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">카르다노 리얼파이 테스트넷 개시</a>:</strong> 같은 시기 카르다노가 유휴 스테이블코인을 신용시장에 연결하려는 또 다른 시도</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">솔라나 알펜글로 합의 재작성</a>:</strong> 100~150밀리초 최종성을 노리는 경쟁 레이어1의 확장 접근</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">카르다노 온체인 거버넌스 하드포크</a>:</strong> 레이오스 메인넷 적용이 거쳐야 할 커뮤니티 승인 구조</li>
+    <li><strong><a href="/blog/cardano-realfi-testnet-launch">카르다노 리얼파이 테스트넷 개시</a>:</strong> 같은 시기 카르다노가 유휴 스테이블코인을 신용시장에 연결하려는 또 다른 시도</li>
+    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite">솔라나 알펜글로 합의 재작성</a>:</strong> 100~150밀리초 최종성을 노리는 경쟁 레이어1의 확장 접근</li>
+    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork">카르다노 온체인 거버넌스 하드포크</a>:</strong> 레이오스 메인넷 적용이 거쳐야 할 커뮤니티 승인 구조</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Cardano RealFi testnet launch</a>:</strong> Cardano's other current attempt, to wire idle stablecoins into credit markets</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow consensus rewrite</a>:</strong> a rival Layer 1's scaling approach, chasing 100–150ms finality</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Cardano's on-chain-governed hard fork</a>:</strong> the community sign-off that a Leios mainnet rollout must pass through</li>
+    <li><strong><a href="/en/blog/cardano-realfi-testnet-launch">Cardano RealFi testnet launch</a>:</strong> Cardano's other current attempt, to wire idle stablecoins into credit markets</li>
+    <li><strong><a href="/en/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow consensus rewrite</a>:</strong> a rival Layer 1's scaling approach, chasing 100–150ms finality</li>
+    <li><strong><a href="/en/blog/cardano-van-rossem-onchain-governed-hardfork">Cardano's on-chain-governed hard fork</a>:</strong> the community sign-off that a Leios mainnet rollout must pass through</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">カルダノ・リアルファイ・テストネット開始</a>:</strong> 同時期にカルダノが遊休ステーブルコインを信用市場につなごうとするもう一つの試み</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">ソラナ・アルペングロー合意の書き換え</a>:</strong> 100〜150ミリ秒の最終性を狙う競合レイヤー1の拡張アプローチ</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">カルダノのオンチェーンガバナンス・ハードフォーク</a>:</strong> レイオスのメインネット適用が通過すべきコミュニティ承認の仕組み</li>
+    <li><strong><a href="/ja/blog/cardano-realfi-testnet-launch">カルダノ・リアルファイ・テストネット開始</a>:</strong> 同時期にカルダノが遊休ステーブルコインを信用市場につなごうとするもう一つの試み</li>
+    <li><strong><a href="/ja/blog/solana-alpenglow-consensus-rewrite">ソラナ・アルペングロー合意の書き換え</a>:</strong> 100〜150ミリ秒の最終性を狙う競合レイヤー1の拡張アプローチ</li>
+    <li><strong><a href="/ja/blog/cardano-van-rossem-onchain-governed-hardfork">カルダノのオンチェーンガバナンス・ハードフォーク</a>:</strong> レイオスのメインネット適用が通過すべきコミュニティ承認の仕組み</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Lanzamiento de la testnet RealFi de Cardano</a>:</strong> el otro intento actual de Cardano, conectar stablecoins ociosas a los mercados de crédito</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Reescritura del consenso Alpenglow de Solana</a>:</strong> el enfoque de escalado de una Layer 1 rival, persiguiendo finalidad de 100–150ms</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">El hard fork con gobernanza on-chain de Cardano</a>:</strong> la aprobación comunitaria por la que debe pasar un despliegue de Leios en mainnet</li>
+    <li><strong><a href="/es/blog/cardano-realfi-testnet-launch">Lanzamiento de la testnet RealFi de Cardano</a>:</strong> el otro intento actual de Cardano, conectar stablecoins ociosas a los mercados de crédito</li>
+    <li><strong><a href="/es/blog/solana-alpenglow-consensus-rewrite">Reescritura del consenso Alpenglow de Solana</a>:</strong> el enfoque de escalado de una Layer 1 rival, persiguiendo finalidad de 100–150ms</li>
+    <li><strong><a href="/es/blog/cardano-van-rossem-onchain-governed-hardfork">El hard fork con gobernanza on-chain de Cardano</a>:</strong> la aprobación comunitaria por la que debe pasar un despliegue de Leios en mainnet</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Start der Cardano-RealFi-Testnet</a>:</strong> Cardanos anderer aktueller Versuch, ungenutzte Stablecoins mit Kreditmärkten zu verbinden</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solanas Alpenglow-Konsensneuschreibung</a>:</strong> der Skalierungsansatz einer rivalisierenden Layer 1, die 100–150ms Finalität anstrebt</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Cardanos on-chain-gesteuerter Hard Fork</a>:</strong> die Community-Zustimmung, die ein Leios-Mainnet-Rollout durchlaufen muss</li>
+    <li><strong><a href="/de/blog/cardano-realfi-testnet-launch">Start der Cardano-RealFi-Testnet</a>:</strong> Cardanos anderer aktueller Versuch, ungenutzte Stablecoins mit Kreditmärkten zu verbinden</li>
+    <li><strong><a href="/de/blog/solana-alpenglow-consensus-rewrite">Solanas Alpenglow-Konsensneuschreibung</a>:</strong> der Skalierungsansatz einer rivalisierenden Layer 1, die 100–150ms Finalität anstrebt</li>
+    <li><strong><a href="/de/blog/cardano-van-rossem-onchain-governed-hardfork">Cardanos on-chain-gesteuerter Hard Fork</a>:</strong> die Community-Zustimmung, die ein Leios-Mainnet-Rollout durchlaufen muss</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Lancement de la testnet RealFi de Cardano</a>:</strong> l'autre tentative actuelle de Cardano, relier des stablecoins inactifs aux marchés du crédit</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Réécriture du consensus Alpenglow de Solana</a>:</strong> l'approche de mise à l'échelle d'une Layer 1 rivale, visant une finalité de 100–150ms</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Le hard fork à gouvernance on-chain de Cardano</a>:</strong> l'aval communautaire par lequel un déploiement de Leios en mainnet doit passer</li>
+    <li><strong><a href="/fr/blog/cardano-realfi-testnet-launch">Lancement de la testnet RealFi de Cardano</a>:</strong> l'autre tentative actuelle de Cardano, relier des stablecoins inactifs aux marchés du crédit</li>
+    <li><strong><a href="/fr/blog/solana-alpenglow-consensus-rewrite">Réécriture du consensus Alpenglow de Solana</a>:</strong> l'approche de mise à l'échelle d'une Layer 1 rivale, visant une finalité de 100–150ms</li>
+    <li><strong><a href="/fr/blog/cardano-van-rossem-onchain-governed-hardfork">Le hard fork à gouvernance on-chain de Cardano</a>:</strong> l'aval communautaire par lequel un déploiement de Leios en mainnet doit passer</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Lançamento da testnet RealFi da Cardano</a>:</strong> a outra tentativa atual da Cardano, conectar stablecoins ociosas aos mercados de crédito</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Reescrita do consenso Alpenglow da Solana</a>:</strong> a abordagem de escalonamento de uma Layer 1 rival, perseguindo finalidade de 100–150ms</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">O hard fork com governança on-chain da Cardano</a>:</strong> a aprovação da comunidade pela qual um lançamento do Leios em mainnet deve passar</li>
+    <li><strong><a href="/pt/blog/cardano-realfi-testnet-launch">Lançamento da testnet RealFi da Cardano</a>:</strong> a outra tentativa atual da Cardano, conectar stablecoins ociosas aos mercados de crédito</li>
+    <li><strong><a href="/pt/blog/solana-alpenglow-consensus-rewrite">Reescrita do consenso Alpenglow da Solana</a>:</strong> a abordagem de escalonamento de uma Layer 1 rival, perseguindo finalidade de 100–150ms</li>
+    <li><strong><a href="/pt/blog/cardano-van-rossem-onchain-governed-hardfork">O hard fork com governança on-chain da Cardano</a>:</strong> a aprovação da comunidade pela qual um lançamento do Leios em mainnet deve passar</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Cardano RealFi test ağı lansmanı</a>:</strong> Cardano'nun aynı dönemdeki diğer girişimi: atıl stablecoin'leri kredi piyasalarına bağlamak</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana Alpenglow uzlaşı yeniden yazımı</a>:</strong> 100–150ms kesinlik kovalayan rakip bir Layer 1'in ölçekleme yaklaşımı</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Cardano'nun zincir üstü yönetişimli hard fork'u</a>:</strong> Leios ana ağ dağıtımının geçmesi gereken topluluk onayı</li>
+    <li><strong><a href="/tr/blog/cardano-realfi-testnet-launch">Cardano RealFi test ağı lansmanı</a>:</strong> Cardano'nun aynı dönemdeki diğer girişimi: atıl stablecoin'leri kredi piyasalarına bağlamak</li>
+    <li><strong><a href="/tr/blog/solana-alpenglow-consensus-rewrite">Solana Alpenglow uzlaşı yeniden yazımı</a>:</strong> 100–150ms kesinlik kovalayan rakip bir Layer 1'in ölçekleme yaklaşımı</li>
+    <li><strong><a href="/tr/blog/cardano-van-rossem-onchain-governed-hardfork">Cardano'nun zincir üstü yönetişimli hard fork'u</a>:</strong> Leios ana ağ dağıtımının geçmesi gereken topluluk onayı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/cardano-realfi-testnet-launch.php">Ra mắt testnet RealFi của Cardano</a>:</strong> nỗ lực hiện tại khác của Cardano, kết nối stablecoin nhàn rỗi vào các thị trường tín dụng</li>
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Viết lại đồng thuận Alpenglow của Solana</a>:</strong> cách tiếp cận mở rộng của một Layer 1 đối thủ, đuổi theo độ chung cuộc 100–150ms</li>
-    <li><strong><a href="/blog/cardano-van-rossem-onchain-governed-hardfork.php">Hard fork quản trị trên chuỗi của Cardano</a>:</strong> sự chấp thuận cộng đồng mà việc triển khai Leios mainnet phải vượt qua</li>
+    <li><strong><a href="/vi/blog/cardano-realfi-testnet-launch">Ra mắt testnet RealFi của Cardano</a>:</strong> nỗ lực hiện tại khác của Cardano, kết nối stablecoin nhàn rỗi vào các thị trường tín dụng</li>
+    <li><strong><a href="/vi/blog/solana-alpenglow-consensus-rewrite">Viết lại đồng thuận Alpenglow của Solana</a>:</strong> cách tiếp cận mở rộng của một Layer 1 đối thủ, đuổi theo độ chung cuộc 100–150ms</li>
+    <li><strong><a href="/vi/blog/cardano-van-rossem-onchain-governed-hardfork">Hard fork quản trị trên chuỗi của Cardano</a>:</strong> sự chấp thuận cộng đồng mà việc triển khai Leios mainnet phải vượt qua</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더크립토베이직·유투데이(호스킨슨 2026년 7월 4일 발언 및 무사시 도조 테스트넷), 우로보로스 레이오스 로드맵(leios.cardano-scaling.org) 및 카르다노 재단 자료(테스트넷 6월 23일 개시, 목표 1,000+ TPS·현재 대비 최대 약 60배, 메인넷 2026년 4분기 목표), 코인마켓캡·오픈PR 보도. 테스트넷 성능 수치는 실험 조건의 목표치이며 메인넷에서 보장되지 않는다. 본 글은 투자 조언이 아니다.</p>

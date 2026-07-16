@@ -383,49 +383,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">솔라나 알펜글로우 합의 재설계</a>:</strong> 같은 시기 다른 체인에서 진행되는 프로토콜 코어 업그레이드</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">XRPL 배치 어멘드먼트와 원자적 트랜잭션</a>:</strong> 결제 특화 체인의 또 다른 프로토콜 개정 사례</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCC의 스텔라 기반 토큰화</a>:</strong> 이 업그레이드가 놓이는 스텔라 생태계의 기관 활용 맥락</li>
+    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite">솔라나 알펜글로우 합의 재설계</a>:</strong> 같은 시기 다른 체인에서 진행되는 프로토콜 코어 업그레이드</li>
+    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions">XRPL 배치 어멘드먼트와 원자적 트랜잭션</a>:</strong> 결제 특화 체인의 또 다른 프로토콜 개정 사례</li>
+    <li><strong><a href="/blog/dtcc-stellar-tokenization">DTCC의 스텔라 기반 토큰화</a>:</strong> 이 업그레이드가 놓이는 스텔라 생태계의 기관 활용 맥락</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana's Alpenglow Consensus Rewrite</a>:</strong> A protocol-core upgrade underway on another chain around the same time</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">XRPL's Batch Amendment and Atomic Transactions</a>:</strong> Another protocol amendment on a payments-focused chain</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCC's Stellar-Based Tokenization</a>:</strong> The institutional-usage context of the Stellar ecosystem this upgrade lands in</li>
+    <li><strong><a href="/en/blog/solana-alpenglow-consensus-rewrite">Solana's Alpenglow Consensus Rewrite</a>:</strong> A protocol-core upgrade underway on another chain around the same time</li>
+    <li><strong><a href="/en/blog/xrpl-batch-amendment-atomic-transactions">XRPL's Batch Amendment and Atomic Transactions</a>:</strong> Another protocol amendment on a payments-focused chain</li>
+    <li><strong><a href="/en/blog/dtcc-stellar-tokenization">DTCC's Stellar-Based Tokenization</a>:</strong> The institutional-usage context of the Stellar ecosystem this upgrade lands in</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">ソラナのアルペングロー合意再設計</a>:</strong> 同時期に別のチェーンで進むプロトコルコアのアップグレード</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">XRPLのバッチ・アメンドメントと原子的取引</a>:</strong> 決済特化チェーンのもう一つのプロトコル改定事例</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCCのステラベースのトークン化</a>:</strong> このアップグレードが置かれるステラ生態系の機関活用の文脈</li>
+    <li><strong><a href="/ja/blog/solana-alpenglow-consensus-rewrite">ソラナのアルペングロー合意再設計</a>:</strong> 同時期に別のチェーンで進むプロトコルコアのアップグレード</li>
+    <li><strong><a href="/ja/blog/xrpl-batch-amendment-atomic-transactions">XRPLのバッチ・アメンドメントと原子的取引</a>:</strong> 決済特化チェーンのもう一つのプロトコル改定事例</li>
+    <li><strong><a href="/ja/blog/dtcc-stellar-tokenization">DTCCのステラベースのトークン化</a>:</strong> このアップグレードが置かれるステラ生態系の機関活用の文脈</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">La Reescritura de Consenso Alpenglow de Solana</a>:</strong> Una actualización del núcleo de protocolo en curso en otra cadena por la misma época</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">La Enmienda Batch y las Transacciones Atómicas de XRPL</a>:</strong> Otro caso de enmienda de protocolo en una cadena centrada en pagos</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">La Tokenización de DTCC Basada en Stellar</a>:</strong> El contexto de uso institucional del ecosistema Stellar en el que aterriza esta actualización</li>
+    <li><strong><a href="/es/blog/solana-alpenglow-consensus-rewrite">La Reescritura de Consenso Alpenglow de Solana</a>:</strong> Una actualización del núcleo de protocolo en curso en otra cadena por la misma época</li>
+    <li><strong><a href="/es/blog/xrpl-batch-amendment-atomic-transactions">La Enmienda Batch y las Transacciones Atómicas de XRPL</a>:</strong> Otro caso de enmienda de protocolo en una cadena centrada en pagos</li>
+    <li><strong><a href="/es/blog/dtcc-stellar-tokenization">La Tokenización de DTCC Basada en Stellar</a>:</strong> El contexto de uso institucional del ecosistema Stellar en el que aterriza esta actualización</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solanas Alpenglow-Konsens-Neuschrieb</a>:</strong> Ein Protokollkern-Upgrade, das um dieselbe Zeit auf einer anderen Chain läuft</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">XRPLs Batch-Amendment und atomare Transaktionen</a>:</strong> Ein weiteres Protokoll-Amendment auf einer zahlungsorientierten Chain</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCCs Stellar-basierte Tokenisierung</a>:</strong> Der institutionelle Nutzungskontext des Stellar-Ökosystems, in dem dieses Upgrade landet</li>
+    <li><strong><a href="/de/blog/solana-alpenglow-consensus-rewrite">Solanas Alpenglow-Konsens-Neuschrieb</a>:</strong> Ein Protokollkern-Upgrade, das um dieselbe Zeit auf einer anderen Chain läuft</li>
+    <li><strong><a href="/de/blog/xrpl-batch-amendment-atomic-transactions">XRPLs Batch-Amendment und atomare Transaktionen</a>:</strong> Ein weiteres Protokoll-Amendment auf einer zahlungsorientierten Chain</li>
+    <li><strong><a href="/de/blog/dtcc-stellar-tokenization">DTCCs Stellar-basierte Tokenisierung</a>:</strong> Der institutionelle Nutzungskontext des Stellar-Ökosystems, in dem dieses Upgrade landet</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">La Réécriture du Consensus Alpenglow de Solana</a>:</strong> Une mise à niveau du cœur de protocole en cours sur une autre chaîne à la même période</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">L'Amendement Batch et les Transactions Atomiques de XRPL</a>:</strong> Un autre amendement de protocole sur une chaîne axée sur les paiements</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">La Tokenisation de DTCC Basée sur Stellar</a>:</strong> Le contexte d'usage institutionnel de l'écosystème Stellar dans lequel s'inscrit cette mise à niveau</li>
+    <li><strong><a href="/fr/blog/solana-alpenglow-consensus-rewrite">La Réécriture du Consensus Alpenglow de Solana</a>:</strong> Une mise à niveau du cœur de protocole en cours sur une autre chaîne à la même période</li>
+    <li><strong><a href="/fr/blog/xrpl-batch-amendment-atomic-transactions">L'Amendement Batch et les Transactions Atomiques de XRPL</a>:</strong> Un autre amendement de protocole sur une chaîne axée sur les paiements</li>
+    <li><strong><a href="/fr/blog/dtcc-stellar-tokenization">La Tokenisation de DTCC Basée sur Stellar</a>:</strong> Le contexte d'usage institutionnel de l'écosystème Stellar dans lequel s'inscrit cette mise à niveau</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">A Reescrita de Consenso Alpenglow da Solana</a>:</strong> Uma atualização do núcleo do protocolo em curso em outra cadeia na mesma época</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">A Emenda Batch e as Transações Atômicas do XRPL</a>:</strong> Outro caso de emenda de protocolo em uma cadeia focada em pagamentos</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">A Tokenização da DTCC Baseada em Stellar</a>:</strong> O contexto de uso institucional do ecossistema Stellar em que esta atualização se insere</li>
+    <li><strong><a href="/pt/blog/solana-alpenglow-consensus-rewrite">A Reescrita de Consenso Alpenglow da Solana</a>:</strong> Uma atualização do núcleo do protocolo em curso em outra cadeia na mesma época</li>
+    <li><strong><a href="/pt/blog/xrpl-batch-amendment-atomic-transactions">A Emenda Batch e as Transações Atômicas do XRPL</a>:</strong> Outro caso de emenda de protocolo em uma cadeia focada em pagamentos</li>
+    <li><strong><a href="/pt/blog/dtcc-stellar-tokenization">A Tokenização da DTCC Baseada em Stellar</a>:</strong> O contexto de uso institucional do ecossistema Stellar em que esta atualização se insere</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Solana'nın Alpenglow Konsensüs Yeniden Yazımı</a>:</strong> Aynı dönemde başka bir zincirde süren bir protokol çekirdeği yükseltmesi</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">XRPL'nin Batch Değişikliği ve Atomik İşlemler</a>:</strong> Ödeme odaklı bir zincirde bir başka protokol değişikliği örneği</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">DTCC'nin Stellar Tabanlı Tokenizasyonu</a>:</strong> Bu yükseltmenin yer aldığı Stellar ekosisteminin kurumsal kullanım bağlamı</li>
+    <li><strong><a href="/tr/blog/solana-alpenglow-consensus-rewrite">Solana'nın Alpenglow Konsensüs Yeniden Yazımı</a>:</strong> Aynı dönemde başka bir zincirde süren bir protokol çekirdeği yükseltmesi</li>
+    <li><strong><a href="/tr/blog/xrpl-batch-amendment-atomic-transactions">XRPL'nin Batch Değişikliği ve Atomik İşlemler</a>:</strong> Ödeme odaklı bir zincirde bir başka protokol değişikliği örneği</li>
+    <li><strong><a href="/tr/blog/dtcc-stellar-tokenization">DTCC'nin Stellar Tabanlı Tokenizasyonu</a>:</strong> Bu yükseltmenin yer aldığı Stellar ekosisteminin kurumsal kullanım bağlamı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/solana-alpenglow-consensus-rewrite.php">Việc Viết Lại Đồng Thuận Alpenglow của Solana</a>:</strong> Một bản nâng cấp lõi giao thức đang diễn ra trên một chuỗi khác cùng thời điểm</li>
-    <li><strong><a href="/blog/xrpl-batch-amendment-atomic-transactions.php">Batch Amendment và Giao Dịch Nguyên Tử của XRPL</a>:</strong> Một trường hợp sửa đổi giao thức khác trên chuỗi chuyên về thanh toán</li>
-    <li><strong><a href="/blog/dtcc-stellar-tokenization.php">Việc Token Hóa Dựa Trên Stellar của DTCC</a>:</strong> Bối cảnh sử dụng của tổ chức trong hệ sinh thái Stellar mà bản nâng cấp này đặt vào</li>
+    <li><strong><a href="/vi/blog/solana-alpenglow-consensus-rewrite">Việc Viết Lại Đồng Thuận Alpenglow của Solana</a>:</strong> Một bản nâng cấp lõi giao thức đang diễn ra trên một chuỗi khác cùng thời điểm</li>
+    <li><strong><a href="/vi/blog/xrpl-batch-amendment-atomic-transactions">Batch Amendment và Giao Dịch Nguyên Tử của XRPL</a>:</strong> Một trường hợp sửa đổi giao thức khác trên chuỗi chuyên về thanh toán</li>
+    <li><strong><a href="/vi/blog/dtcc-stellar-tokenization">Việc Token Hóa Dựa Trên Stellar của DTCC</a>:</strong> Bối cảnh sử dụng của tổ chức trong hệ sinh thái Stellar mà bản nâng cấp này đặt vào</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 스텔라 개발재단(지퍼·프로토콜 27 업그레이드 가이드), 크립토 이코노미·라이브비트코인뉴스(검증자 투표 일정 및 기능 개요), GitHub 스텔라 저장소 CAP-0071 논의(delegate_account_auth·get_delegated_signers_for_current_auth_check 호스트 함수 및 SOROBAN_CREDENTIALS_ADDRESS_WITH_DELEGATES 크리덴셜 명세), 스텔라 개발자 문서(소로반 커스텀 계정·__check_auth 인증 모델). 프로토콜 27은 8일 검증자 투표를 통과해야 발효되는 제안 단계이며, 본 글은 투자 조언이 아니다.</p>

@@ -393,40 +393,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">서머파이 600만 달러 플래시론 공격</a>:</strong> 온체인 신용·금고 설계가 노출하는 또 다른 위험 유형</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">서클의 Arc, 체인링크 스케일 합류</a>:</strong> 플라즈마와 경쟁하는 또 다른 스테이블코인 전용 L1</li>
+    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit">서머파이 600만 달러 플래시론 공격</a>:</strong> 온체인 신용·금고 설계가 노출하는 또 다른 위험 유형</li>
+    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1">서클의 Arc, 체인링크 스케일 합류</a>:</strong> 플라즈마와 경쟁하는 또 다른 스테이블코인 전용 L1</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">Summer.fi's $6M Flash Loan Exploit</a>:</strong> A different risk profile exposed in on-chain credit and vault design</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">Circle's Arc Joins Chainlink Scale</a>:</strong> Another stablecoin-focused L1 competing with Plasma</li>
+    <li><strong><a href="/en/blog/summerfi-lazy-summer-flash-loan-exploit">Summer.fi's $6M Flash Loan Exploit</a>:</strong> A different risk profile exposed in on-chain credit and vault design</li>
+    <li><strong><a href="/en/blog/circle-arc-chainlink-scale-stablecoin-l1">Circle's Arc Joins Chainlink Scale</a>:</strong> Another stablecoin-focused L1 competing with Plasma</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">サマーファイ600万ドルのフラッシュローン攻撃</a>:</strong> オンチェーン信用・金庫設計が露呈させた別のリスク類型</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">サークルのArc、チェーンリンク・スケールに参加</a>:</strong> プラズマと競合する別のステーブルコイン専用L1</li>
+    <li><strong><a href="/ja/blog/summerfi-lazy-summer-flash-loan-exploit">サマーファイ600万ドルのフラッシュローン攻撃</a>:</strong> オンチェーン信用・金庫設計が露呈させた別のリスク類型</li>
+    <li><strong><a href="/ja/blog/circle-arc-chainlink-scale-stablecoin-l1">サークルのArc、チェーンリンク・スケールに参加</a>:</strong> プラズマと競合する別のステーブルコイン専用L1</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">El Exploit de Préstamo Flash de 6M$ de Summer.fi</a>:</strong> Otro tipo de riesgo expuesto en el diseño de crédito y bóvedas on-chain</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">El Arc de Circle se Une a Chainlink Scale</a>:</strong> Otra L1 centrada en stablecoins que compite con Plasma</li>
+    <li><strong><a href="/es/blog/summerfi-lazy-summer-flash-loan-exploit">El Exploit de Préstamo Flash de 6M$ de Summer.fi</a>:</strong> Otro tipo de riesgo expuesto en el diseño de crédito y bóvedas on-chain</li>
+    <li><strong><a href="/es/blog/circle-arc-chainlink-scale-stablecoin-l1">El Arc de Circle se Une a Chainlink Scale</a>:</strong> Otra L1 centrada en stablecoins que compite con Plasma</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">Summer.fis 6-Mio.-Dollar-Flashloan-Exploit</a>:</strong> Ein anderes Risikoprofil, das On-Chain-Kredit- und Tresordesign offenlegt</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">Circles Arc tritt Chainlink Scale bei</a>:</strong> Eine weitere auf Stablecoins fokussierte L1, die mit Plasma konkurriert</li>
+    <li><strong><a href="/de/blog/summerfi-lazy-summer-flash-loan-exploit">Summer.fis 6-Mio.-Dollar-Flashloan-Exploit</a>:</strong> Ein anderes Risikoprofil, das On-Chain-Kredit- und Tresordesign offenlegt</li>
+    <li><strong><a href="/de/blog/circle-arc-chainlink-scale-stablecoin-l1">Circles Arc tritt Chainlink Scale bei</a>:</strong> Eine weitere auf Stablecoins fokussierte L1, die mit Plasma konkurriert</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">L'exploit de prêt flash de 6 M$ de Summer.fi</a> :</strong> Un autre profil de risque exposé dans la conception du crédit et des coffres on-chain</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">L'Arc de Circle rejoint Chainlink Scale</a> :</strong> Une autre L1 dédiée aux stablecoins concurrente de Plasma</li>
+    <li><strong><a href="/fr/blog/summerfi-lazy-summer-flash-loan-exploit">L'exploit de prêt flash de 6 M$ de Summer.fi</a> :</strong> Un autre profil de risque exposé dans la conception du crédit et des coffres on-chain</li>
+    <li><strong><a href="/fr/blog/circle-arc-chainlink-scale-stablecoin-l1">L'Arc de Circle rejoint Chainlink Scale</a> :</strong> Une autre L1 dédiée aux stablecoins concurrente de Plasma</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">O Exploit de Flash Loan de US$ 6M da Summer.fi</a>:</strong> Outro perfil de risco exposto no design de crédito e cofres on-chain</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">A Arc da Circle se Junta ao Chainlink Scale</a>:</strong> Outra L1 focada em stablecoins que compete com a Plasma</li>
+    <li><strong><a href="/pt/blog/summerfi-lazy-summer-flash-loan-exploit">O Exploit de Flash Loan de US$ 6M da Summer.fi</a>:</strong> Outro perfil de risco exposto no design de crédito e cofres on-chain</li>
+    <li><strong><a href="/pt/blog/circle-arc-chainlink-scale-stablecoin-l1">A Arc da Circle se Junta ao Chainlink Scale</a>:</strong> Outra L1 focada em stablecoins que compete com a Plasma</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">Summer.fi'nin 6 Milyon Dolarlık Flash Loan Açığı</a>:</strong> Zincir üstü kredi ve kasa tasarımında ortaya çıkan farklı bir risk türü</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">Circle'ın Arc'ı Chainlink Scale'e Katılıyor</a>:</strong> Plasma ile rekabet eden başka bir stabilcoin odaklı L1</li>
+    <li><strong><a href="/tr/blog/summerfi-lazy-summer-flash-loan-exploit">Summer.fi'nin 6 Milyon Dolarlık Flash Loan Açığı</a>:</strong> Zincir üstü kredi ve kasa tasarımında ortaya çıkan farklı bir risk türü</li>
+    <li><strong><a href="/tr/blog/circle-arc-chainlink-scale-stablecoin-l1">Circle'ın Arc'ı Chainlink Scale'e Katılıyor</a>:</strong> Plasma ile rekabet eden başka bir stabilcoin odaklı L1</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/summerfi-lazy-summer-flash-loan-exploit.php">Vụ Khai Thác Flash Loan 6 Triệu Đô La Của Summer.fi</a>:</strong> Một dạng rủi ro khác lộ ra trong thiết kế tín dụng và kho on-chain</li>
-    <li><strong><a href="/blog/circle-arc-chainlink-scale-stablecoin-l1.php">Arc Của Circle Gia Nhập Chainlink Scale</a>:</strong> Một L1 tập trung vào stablecoin khác cạnh tranh với Plasma</li>
+    <li><strong><a href="/vi/blog/summerfi-lazy-summer-flash-loan-exploit">Vụ Khai Thác Flash Loan 6 Triệu Đô La Của Summer.fi</a>:</strong> Một dạng rủi ro khác lộ ra trong thiết kế tín dụng và kho on-chain</li>
+    <li><strong><a href="/vi/blog/circle-arc-chainlink-scale-stablecoin-l1">Arc Của Circle Gia Nhập Chainlink Scale</a>:</strong> Một L1 tập trung vào stablecoin khác cạnh tranh với Plasma</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더블록(라이노파이 USDT 신용시장 개설 보도), Metaverse Post·mpost.io(라이노파이·와일드캣 발표), 와일드캣 공식 문서·더블록(킨토 부도 보도), 코인스팟·99비트코인스·코인데스크(플라즈마 TVL·XPL 가격 추이 분석), 플라즈마 대시보드, BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

@@ -320,49 +320,49 @@
   <p class="vi">Bài học cho nhà đầu tư là hoạt động giao dịch tại các công ty ngân quỹ nhỏ như thế này chỉ trở nên rõ ràng qua các hồ sơ định kỳ (8-K, 10-Q), vốn có độ trễ so với thời gian thực. Phân tích on-chain cố gắng lấp đầy khoảng trống đó, nhưng như sự việc này cho thấy, nó mang rủi ro thực sự là chỉ sai hướng. Đối với bất kỳ ai đặt cược vào cổ phiếu hoặc phái sinh của một công ty DAT (ngân quỹ tài sản số) nhỏ, có đòn bẩy, bài học là nên ưu tiên các mục đã công bố — tỷ lệ thế chấp, kỳ hạn nợ, điều kiện gọi ký quỹ — hơn là suy luận on-chain, chứ không phải ngược lại.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">나스닥 상장 엠퍼리 디지털, 6일 새 1,200 BTC 매집 정황</a>:</strong> 같은 회사를 다룬 지난 기사 — 온체인 매집 정황과 공식 정책의 충돌</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">비트코인 레버리지 기업들, 다음 하락장의 도미노가 될 수 있을까</a>:</strong> 레버리지를 쓴 비트코인 트레저리 기업들 전반의 구조적 리스크</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">'온체인이라 투명하다'는 착각</a>:</strong> 온체인 데이터만으로는 소유권을 확정할 수 없다는 근본 문제</li>
+    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap">나스닥 상장 엠퍼리 디지털, 6일 새 1,200 BTC 매집 정황</a>:</strong> 같은 회사를 다룬 지난 기사 — 온체인 매집 정황과 공식 정책의 충돌</li>
+    <li><strong><a href="/blog/dat-companies-domino-risk">비트코인 레버리지 기업들, 다음 하락장의 도미노가 될 수 있을까</a>:</strong> 레버리지를 쓴 비트코인 트레저리 기업들 전반의 구조적 리스크</li>
+    <li><strong><a href="/blog/onchain-transparency-paradox">'온체인이라 투명하다'는 착각</a>:</strong> 온체인 데이터만으로는 소유권을 확정할 수 없다는 근본 문제</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Nasdaq-Listed Empery Digital Shows Signs of Buying 1,200 BTC in 6 Days</a>:</strong> Our earlier piece on this company — an on-chain buying signal that clashed with its stated policy</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Could Bitcoin-Leveraged Companies Be the Next Domino</a>:</strong> The structural risk across leveraged bitcoin treasury companies more broadly</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">The Illusion That "On-Chain Means Transparent"</a>:</strong> The core problem that on-chain data alone cannot establish ownership</li>
+    <li><strong><a href="/en/blog/empery-digital-btc-accumulation-policy-gap">Nasdaq-Listed Empery Digital Shows Signs of Buying 1,200 BTC in 6 Days</a>:</strong> Our earlier piece on this company — an on-chain buying signal that clashed with its stated policy</li>
+    <li><strong><a href="/en/blog/dat-companies-domino-risk">Could Bitcoin-Leveraged Companies Be the Next Domino</a>:</strong> The structural risk across leveraged bitcoin treasury companies more broadly</li>
+    <li><strong><a href="/en/blog/onchain-transparency-paradox">The Illusion That "On-Chain Means Transparent"</a>:</strong> The core problem that on-chain data alone cannot establish ownership</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">ナスダック上場エンパリー・デジタル、6日間で1,200BTC買い集めの兆候</a>:</strong> 同社を扱った前回の記事 — オンチェーン買い集めの兆候と公式方針の矛盾</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">DAT企業のmNAV0.63 — レバレッジ構造のドミノリスク</a>:</strong> レバレッジを使うビットコイン・トレジャリー企業全般の構造的リスク</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">オンチェーンの透明性が、むしろ恐怖を作る逆説</a>:</strong> オンチェーンデータだけでは所有権を確定できないという根本問題</li>
+    <li><strong><a href="/ja/blog/empery-digital-btc-accumulation-policy-gap">ナスダック上場エンパリー・デジタル、6日間で1,200BTC買い集めの兆候</a>:</strong> 同社を扱った前回の記事 — オンチェーン買い集めの兆候と公式方針の矛盾</li>
+    <li><strong><a href="/ja/blog/dat-companies-domino-risk">DAT企業のmNAV0.63 — レバレッジ構造のドミノリスク</a>:</strong> レバレッジを使うビットコイン・トレジャリー企業全般の構造的リスク</li>
+    <li><strong><a href="/ja/blog/onchain-transparency-paradox">オンチェーンの透明性が、むしろ恐怖を作る逆説</a>:</strong> オンチェーンデータだけでは所有権を確定できないという根本問題</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Empery Digital, que Cotiza en Nasdaq, Muestra Señales de Comprar 1.200 BTC en 6 Días</a>:</strong> Nuestro artículo anterior sobre esta empresa — una señal de compra on-chain que chocó con su política declarada</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">El Riesgo de Dominó de las Empresas DAT</a>:</strong> El riesgo estructural en las empresas de tesorería de bitcoin apalancadas en general</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">La Paradoja de la Transparencia On-Chain</a>:</strong> El problema central de que los datos on-chain por sí solos no pueden establecer la propiedad</li>
+    <li><strong><a href="/es/blog/empery-digital-btc-accumulation-policy-gap">Empery Digital, que Cotiza en Nasdaq, Muestra Señales de Comprar 1.200 BTC en 6 Días</a>:</strong> Nuestro artículo anterior sobre esta empresa — una señal de compra on-chain que chocó con su política declarada</li>
+    <li><strong><a href="/es/blog/dat-companies-domino-risk">El Riesgo de Dominó de las Empresas DAT</a>:</strong> El riesgo estructural en las empresas de tesorería de bitcoin apalancadas en general</li>
+    <li><strong><a href="/es/blog/onchain-transparency-paradox">La Paradoja de la Transparencia On-Chain</a>:</strong> El problema central de que los datos on-chain por sí solos no pueden establecer la propiedad</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Nasdaq-Notierte Empery Digital Zeigt Anzeichen für den Kauf von 1.200 BTC in 6 Tagen</a>:</strong> Unser früherer Artikel über dieses Unternehmen — ein On-Chain-Kaufsignal im Widerspruch zur erklärten Politik</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Das Dominorisiko der DAT-Unternehmen</a>:</strong> Das strukturelle Risiko bei fremdfinanzierten Bitcoin-Treasury-Unternehmen im Allgemeinen</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">Das Paradox der On-Chain-Transparenz</a>:</strong> Das Kernproblem, dass On-Chain-Daten allein den Besitz nicht belegen können</li>
+    <li><strong><a href="/de/blog/empery-digital-btc-accumulation-policy-gap">Nasdaq-Notierte Empery Digital Zeigt Anzeichen für den Kauf von 1.200 BTC in 6 Tagen</a>:</strong> Unser früherer Artikel über dieses Unternehmen — ein On-Chain-Kaufsignal im Widerspruch zur erklärten Politik</li>
+    <li><strong><a href="/de/blog/dat-companies-domino-risk">Das Dominorisiko der DAT-Unternehmen</a>:</strong> Das strukturelle Risiko bei fremdfinanzierten Bitcoin-Treasury-Unternehmen im Allgemeinen</li>
+    <li><strong><a href="/de/blog/onchain-transparency-paradox">Das Paradox der On-Chain-Transparenz</a>:</strong> Das Kernproblem, dass On-Chain-Daten allein den Besitz nicht belegen können</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Empery Digital, Cotée au Nasdaq, Montre des Signes d'Achat de 1 200 BTC en 6 Jours</a>:</strong> Notre article précédent sur cette entreprise — un signal d'achat on-chain en contradiction avec sa politique déclarée</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Les Entreprises à Effet de Levier Bitcoin Pourraient-elles Être le Prochain Domino</a>:</strong> Le risque structurel des entreprises de trésorerie bitcoin à effet de levier en général</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">Le Paradoxe de la Transparence On-Chain</a>:</strong> Le problème central selon lequel les données on-chain seules ne peuvent établir la propriété</li>
+    <li><strong><a href="/fr/blog/empery-digital-btc-accumulation-policy-gap">Empery Digital, Cotée au Nasdaq, Montre des Signes d'Achat de 1 200 BTC en 6 Jours</a>:</strong> Notre article précédent sur cette entreprise — un signal d'achat on-chain en contradiction avec sa politique déclarée</li>
+    <li><strong><a href="/fr/blog/dat-companies-domino-risk">Les Entreprises à Effet de Levier Bitcoin Pourraient-elles Être le Prochain Domino</a>:</strong> Le risque structurel des entreprises de trésorerie bitcoin à effet de levier en général</li>
+    <li><strong><a href="/fr/blog/onchain-transparency-paradox">Le Paradoxe de la Transparence On-Chain</a>:</strong> Le problème central selon lequel les données on-chain seules ne peuvent établir la propriété</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Empery Digital, Listada na Nasdaq, Mostra Sinais de Compra de 1.200 BTC em 6 Dias</a>:</strong> Nosso artigo anterior sobre esta empresa — um sinal de compra on-chain que contradisse sua política declarada</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">As Empresas Alavancadas em Bitcoin Poderiam Ser o Próximo Dominó</a>:</strong> O risco estrutural nas empresas de tesouraria de bitcoin alavancadas em geral</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">O Paradoxo da Transparência On-Chain</a>:</strong> O problema central de que dados on-chain sozinhos não conseguem estabelecer a propriedade</li>
+    <li><strong><a href="/pt/blog/empery-digital-btc-accumulation-policy-gap">Empery Digital, Listada na Nasdaq, Mostra Sinais de Compra de 1.200 BTC em 6 Dias</a>:</strong> Nosso artigo anterior sobre esta empresa — um sinal de compra on-chain que contradisse sua política declarada</li>
+    <li><strong><a href="/pt/blog/dat-companies-domino-risk">As Empresas Alavancadas em Bitcoin Poderiam Ser o Próximo Dominó</a>:</strong> O risco estrutural nas empresas de tesouraria de bitcoin alavancadas em geral</li>
+    <li><strong><a href="/pt/blog/onchain-transparency-paradox">O Paradoxo da Transparência On-Chain</a>:</strong> O problema central de que dados on-chain sozinhos não conseguem estabelecer a propriedade</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Nasdaq'ta İşlem Gören Empery Digital, 6 Günde 1.200 BTC Aldığına Dair İşaretler Gösteriyor</a>:</strong> Bu şirket hakkındaki önceki yazımız — resmi politikayla çelişen bir zincir üstü alım sinyali</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Bitcoin Kaldıraçlı Şirketler Bir Sonraki Domino Olabilir mi</a>:</strong> Kaldıraçlı bitcoin hazine şirketleri genelindeki yapısal risk</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">On-Chain Şeffaflık Paradoksu</a>:</strong> Zincir üstü verilerin tek başına sahipliği kanıtlayamaması sorunu</li>
+    <li><strong><a href="/tr/blog/empery-digital-btc-accumulation-policy-gap">Nasdaq'ta İşlem Gören Empery Digital, 6 Günde 1.200 BTC Aldığına Dair İşaretler Gösteriyor</a>:</strong> Bu şirket hakkındaki önceki yazımız — resmi politikayla çelişen bir zincir üstü alım sinyali</li>
+    <li><strong><a href="/tr/blog/dat-companies-domino-risk">Bitcoin Kaldıraçlı Şirketler Bir Sonraki Domino Olabilir mi</a>:</strong> Kaldıraçlı bitcoin hazine şirketleri genelindeki yapısal risk</li>
+    <li><strong><a href="/tr/blog/onchain-transparency-paradox">On-Chain Şeffaflık Paradoksu</a>:</strong> Zincir üstü verilerin tek başına sahipliği kanıtlayamaması sorunu</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/empery-digital-btc-accumulation-policy-gap.php">Empery Digital, Niêm Yết Trên Nasdaq, Có Dấu Hiệu Mua 1.200 BTC Trong 6 Ngày</a>:</strong> Bài viết trước của chúng tôi về công ty này — tín hiệu mua on-chain mâu thuẫn với chính sách đã công bố</li>
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Liệu Các Công Ty Đòn Bẩy Bitcoin Có Thể Là Quân Domino Tiếp Theo</a>:</strong> Rủi ro cấu trúc trên diện rộng ở các công ty ngân quỹ bitcoin sử dụng đòn bẩy</li>
-    <li><strong><a href="/blog/onchain-transparency-paradox.php">Nghịch Lý Minh Bạch On-Chain</a>:</strong> Vấn đề cốt lõi rằng riêng dữ liệu on-chain không thể xác định quyền sở hữu</li>
+    <li><strong><a href="/vi/blog/empery-digital-btc-accumulation-policy-gap">Empery Digital, Niêm Yết Trên Nasdaq, Có Dấu Hiệu Mua 1.200 BTC Trong 6 Ngày</a>:</strong> Bài viết trước của chúng tôi về công ty này — tín hiệu mua on-chain mâu thuẫn với chính sách đã công bố</li>
+    <li><strong><a href="/vi/blog/dat-companies-domino-risk">Liệu Các Công Ty Đòn Bẩy Bitcoin Có Thể Là Quân Domino Tiếp Theo</a>:</strong> Rủi ro cấu trúc trên diện rộng ở các công ty ngân quỹ bitcoin sử dụng đòn bẩy</li>
+    <li><strong><a href="/vi/blog/onchain-transparency-paradox">Nghịch Lý Minh Bạch On-Chain</a>:</strong> Vấn đề cốt lõi rằng riêng dữ liệu on-chain không thể xác định quyền sở hữu</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 스톡티탄(8-K 공시 보도 및 매도 세부사항), 팁랭크스(AI 데이터센터 투자 계약 세부사항), 크립토폴리탄(AI 데이터센터 피벗 보도), 야후 파이낸스·더스트리트(매도 요약 보도), 디지털투데이(7월 초 온체인 매집 정황 보도), 크립토타임스(SEC 공시 요약 보도). 이 글은 투자 조언이 아니다.</p>

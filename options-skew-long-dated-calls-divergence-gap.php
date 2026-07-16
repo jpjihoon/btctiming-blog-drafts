@@ -429,49 +429,49 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">이란발 충격에 금까지 팔렸다 — 그런데 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 같은 충격을 펀딩비·롱숏비율·청산 데이터로 진단한 글</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">가격은 반등했는데 옵션시장은 아직도 풋에 웃돈을 준다</a>:</strong> 이번 스큐 재확대의 배경이 된 6월 23일~7월 3일 흐름</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 같은 시기 크라우드 심리 지표가 보여준 또 다른 간극</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap">이란발 충격에 금까지 팔렸다 — 그런데 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 같은 충격을 펀딩비·롱숏비율·청산 데이터로 진단한 글</li>
+    <li><strong><a href="/blog/options-skew-not-confirming-rebound">가격은 반등했는데 옵션시장은 아직도 풋에 웃돈을 준다</a>:</strong> 이번 스큐 재확대의 배경이 된 6월 23일~7월 3일 흐름</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 같은 시기 크라우드 심리 지표가 보여준 또 다른 간극</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> the same shock diagnosed through funding, long/short ratio, and liquidation data</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Bounced Back, Yet Options Traders Are Still Paying Up for Puts</a>:</strong> the June 23-July 3 backdrop behind this skew's re-widening</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> a different gap, seen in crowd sentiment over the same stretch</li>
+    <li><strong><a href="/en/blog/iran-shock-derivatives-positioning-gap">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> the same shock diagnosed through funding, long/short ratio, and liquidation data</li>
+    <li><strong><a href="/en/blog/options-skew-not-confirming-rebound">Bitcoin Bounced Back, Yet Options Traders Are Still Paying Up for Puts</a>:</strong> the June 23-July 3 backdrop behind this skew's re-widening</li>
+    <li><strong><a href="/en/blog/quiet-rebound-sentiment-attention-gap">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> a different gap, seen in crowd sentiment over the same stretch</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">イランショックで金まで売られた — しかしデリバティブ市場はロングに偏っていなかった</a>:</strong> 同じ衝撃を資金調達率・ロングショート比率・清算データで診断した記事</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">価格は反発したのに、オプション市場は今もプットに割高な値をつけている</a>:</strong> 今回のスキュー再拡大の背景となった6月23日~7月3日の流れ</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> 同時期の大衆心理指標が示したもう一つの間隙</li>
+    <li><strong><a href="/ja/blog/iran-shock-derivatives-positioning-gap">イランショックで金まで売られた — しかしデリバティブ市場はロングに偏っていなかった</a>:</strong> 同じ衝撃を資金調達率・ロングショート比率・清算データで診断した記事</li>
+    <li><strong><a href="/ja/blog/options-skew-not-confirming-rebound">価格は反発したのに、オプション市場は今もプットに割高な値をつけている</a>:</strong> 今回のスキュー再拡大の背景となった6月23日~7月3日の流れ</li>
+    <li><strong><a href="/ja/blog/quiet-rebound-sentiment-attention-gap">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> 同時期の大衆心理指標が示したもう一つの間隙</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> el mismo shock diagnosticado mediante financiación, ratio largo/corto y datos de liquidación</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Rebotó, Pero los Operadores de Opciones Siguen Pagando de Más por las Puts</a>:</strong> el contexto del 23 de junio al 3 de julio detrás de esta reampliación del skew</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> otra brecha distinta, vista en el sentimiento de la multitud durante el mismo periodo</li>
+    <li><strong><a href="/es/blog/iran-shock-derivatives-positioning-gap">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> el mismo shock diagnosticado mediante financiación, ratio largo/corto y datos de liquidación</li>
+    <li><strong><a href="/es/blog/options-skew-not-confirming-rebound">Bitcoin Rebotó, Pero los Operadores de Opciones Siguen Pagando de Más por las Puts</a>:</strong> el contexto del 23 de junio al 3 de julio detrás de esta reampliación del skew</li>
+    <li><strong><a href="/es/blog/quiet-rebound-sentiment-attention-gap">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> otra brecha distinta, vista en el sentimiento de la multitud durante el mismo periodo</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> derselbe Schock, diagnostiziert über Funding, Long/Short-Verhältnis und Liquidationsdaten</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Erholte Sich, Doch Optionshändler Zahlen Weiterhin Aufpreis für Puts</a>:</strong> der Hintergrund vom 23. Juni bis 3. Juli hinter dieser erneuten Skew-Ausweitung</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> eine andere Lücke, sichtbar in der Massenstimmung im selben Zeitraum</li>
+    <li><strong><a href="/de/blog/iran-shock-derivatives-positioning-gap">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> derselbe Schock, diagnostiziert über Funding, Long/Short-Verhältnis und Liquidationsdaten</li>
+    <li><strong><a href="/de/blog/options-skew-not-confirming-rebound">Bitcoin Erholte Sich, Doch Optionshändler Zahlen Weiterhin Aufpreis für Puts</a>:</strong> der Hintergrund vom 23. Juni bis 3. Juli hinter dieser erneuten Skew-Ausweitung</li>
+    <li><strong><a href="/de/blog/quiet-rebound-sentiment-attention-gap">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> eine andere Lücke, sichtbar in der Massenstimmung im selben Zeitraum</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a>:</strong> le même choc diagnostiqué via le funding, le ratio long/short et les données de liquidation</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Le Bitcoin a Rebondi, Pourtant les Traders d'Options Paient Toujours une Prime pour les Puts</a>:</strong> le contexte du 23 juin au 3 juillet derrière ce réélargissement du skew</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> un autre écart, observé dans le sentiment de la foule sur la même période</li>
+    <li><strong><a href="/fr/blog/iran-shock-derivatives-positioning-gap">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a>:</strong> le même choc diagnostiqué via le funding, le ratio long/short et les données de liquidation</li>
+    <li><strong><a href="/fr/blog/options-skew-not-confirming-rebound">Le Bitcoin a Rebondi, Pourtant les Traders d'Options Paient Toujours une Prime pour les Puts</a>:</strong> le contexte du 23 juin au 3 juillet derrière ce réélargissement du skew</li>
+    <li><strong><a href="/fr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> un autre écart, observé dans le sentiment de la foule sur la même période</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> o mesmo choque diagnosticado via funding, razão comprado/vendido e dados de liquidação</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Repicou, Mas os Traders de Opções Ainda Pagam Mais Caro pelas Puts</a>:</strong> o contexto de 23 de junho a 3 de julho por trás dessa reamplição do skew</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> outra lacuna, vista no sentimento da multidão no mesmo período</li>
+    <li><strong><a href="/pt/blog/iran-shock-derivatives-positioning-gap">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> o mesmo choque diagnosticado via funding, razão comprado/vendido e dados de liquidação</li>
+    <li><strong><a href="/pt/blog/options-skew-not-confirming-rebound">Bitcoin Repicou, Mas os Traders de Opções Ainda Pagam Mais Caro pelas Puts</a>:</strong> o contexto de 23 de junho a 3 de julho por trás dessa reamplição do skew</li>
+    <li><strong><a href="/pt/blog/quiet-rebound-sentiment-attention-gap">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> outra lacuna, vista no sentimento da multidão no mesmo período</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> aynı şokun funding, long/short oranı ve tasfiye verileriyle teşhisi</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Toparlandı, Ama Opsiyon Yatırımcıları Hâlâ Put'lar İçin Fazla Ödüyor</a>:</strong> bu skew yeniden genişlemesinin arkasındaki 23 Haziran-3 Temmuz arka planı</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> aynı dönemde kalabalık psikolojisinde görülen başka bir boşluk</li>
+    <li><strong><a href="/tr/blog/iran-shock-derivatives-positioning-gap">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> aynı şokun funding, long/short oranı ve tasfiye verileriyle teşhisi</li>
+    <li><strong><a href="/tr/blog/options-skew-not-confirming-rebound">Bitcoin Toparlandı, Ama Opsiyon Yatırımcıları Hâlâ Put'lar İçin Fazla Ödüyor</a>:</strong> bu skew yeniden genişlemesinin arkasındaki 23 Haziran-3 Temmuz arka planı</li>
+    <li><strong><a href="/tr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> aynı dönemde kalabalık psikolojisinde görülen başka bir boşluk</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> cùng cú sốc được chẩn đoán qua funding, tỷ lệ long/short và dữ liệu thanh lý</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Đã Phục Hồi, Nhưng Nhà Giao Dịch Quyền Chọn Vẫn Trả Giá Cao Cho Put</a>:</strong> bối cảnh 23/6-3/7 đứng sau đợt nới rộng độ lệch này</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> một khoảng cách khác, thấy được trong tâm lý đám đông cùng giai đoạn</li>
+    <li><strong><a href="/vi/blog/iran-shock-derivatives-positioning-gap">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> cùng cú sốc được chẩn đoán qua funding, tỷ lệ long/short và dữ liệu thanh lý</li>
+    <li><strong><a href="/vi/blog/options-skew-not-confirming-rebound">Bitcoin Đã Phục Hồi, Nhưng Nhà Giao Dịch Quyền Chọn Vẫn Trả Giá Cao Cho Put</a>:</strong> bối cảnh 23/6-3/7 đứng sau đợt nới rộng độ lệch này</li>
+    <li><strong><a href="/vi/blog/quiet-rebound-sentiment-attention-gap">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> một khoảng cách khác, thấy được trong tâm lý đám đông cùng giai đoạn</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CoinDesk(옵션 스큐·BVIV/EVIV·이란 충격), news.bitcoin.com(12월 $120,000 콜·CME OI), Deribit 자체 통계, Farside Investors 경유 ETF 자금 흐름 보도, Yahoo Finance·Fortune·cryptonews.com(가격 흐름), BTCtiming.com 자체 분석. 수치는 2026년 7월 8일 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 시장 상태를 진단하는 콘텐츠이며 투자 조언이 아니다.</p>

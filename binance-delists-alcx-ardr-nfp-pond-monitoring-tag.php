@@ -271,49 +271,49 @@
 <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
 <h2 class="vi">Nên Đọc Cùng Với</h2>
 <ul class="ko">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">2026년 상반기 한국 거래소 상장폐지 급증</a>:</strong> 다른 지역 거래소에서도 비슷한 시기에 나타난 유동성 정리 흐름</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">바이낸스US 시장점유율 회복</a>:</strong> 같은 거래소가 컴플라이언스를 강화하며 걷고 있는 다른 궤적</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">알트코인 10개로도 분산투자가 안 되는 이유</a>:</strong> 이번 상장폐지가 다시 일깨운 소형 토큰 포트폴리오 리스크</li>
+  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1">2026년 상반기 한국 거래소 상장폐지 급증</a>:</strong> 다른 지역 거래소에서도 비슷한 시기에 나타난 유동성 정리 흐름</li>
+  <li><strong><a href="/blog/binance-us-market-share-recovery">바이낸스US 시장점유율 회복</a>:</strong> 같은 거래소가 컴플라이언스를 강화하며 걷고 있는 다른 궤적</li>
+  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio">알트코인 10개로도 분산투자가 안 되는 이유</a>:</strong> 이번 상장폐지가 다시 일깨운 소형 토큰 포트폴리오 리스크</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Korea's 2026 H1 Exchange Delisting Surge</a>:</strong> A similar liquidity cleanup wave that hit exchanges in another region around the same time</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">Binance US's Market Share Recovery</a>:</strong> The same exchange walking a different path as it tightens compliance</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">Why Ten Altcoins Still Isn't Diversification</a>:</strong> The small-cap portfolio risk this delisting brings back into focus</li>
+  <li><strong><a href="/en/blog/korea-exchange-delisting-surge-2026h1">Korea's 2026 H1 Exchange Delisting Surge</a>:</strong> A similar liquidity cleanup wave that hit exchanges in another region around the same time</li>
+  <li><strong><a href="/en/blog/binance-us-market-share-recovery">Binance US's Market Share Recovery</a>:</strong> The same exchange walking a different path as it tightens compliance</li>
+  <li><strong><a href="/en/blog/diversification-illusion-altcoin-portfolio">Why Ten Altcoins Still Isn't Diversification</a>:</strong> The small-cap portfolio risk this delisting brings back into focus</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">2026年上半期の韓国取引所上場廃止急増</a>:</strong> ほぼ同時期に別地域の取引所で見られた同様の流動性整理の流れ</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">バイナンスUSの市場シェア回復</a>:</strong> 同じ取引所がコンプライアンス強化の中で歩む別の軌跡</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">アルトコイン10銘柄でも分散投資にならない理由</a>:</strong> 今回の上場廃止が改めて示した小型銘柄ポートフォリオのリスク</li>
+  <li><strong><a href="/ja/blog/korea-exchange-delisting-surge-2026h1">2026年上半期の韓国取引所上場廃止急増</a>:</strong> ほぼ同時期に別地域の取引所で見られた同様の流動性整理の流れ</li>
+  <li><strong><a href="/ja/blog/binance-us-market-share-recovery">バイナンスUSの市場シェア回復</a>:</strong> 同じ取引所がコンプライアンス強化の中で歩む別の軌跡</li>
+  <li><strong><a href="/ja/blog/diversification-illusion-altcoin-portfolio">アルトコイン10銘柄でも分散投資にならない理由</a>:</strong> 今回の上場廃止が改めて示した小型銘柄ポートフォリオのリスク</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">El Aumento de Exclusiones en Exchanges de Corea en el Primer Semestre de 2026</a>:</strong> Una ola similar de limpieza de liquidez en exchanges de otra región por las mismas fechas</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">La Recuperación de Cuota de Mercado de Binance US</a>:</strong> El mismo exchange recorriendo otro camino al endurecer su cumplimiento</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">Por Qué Diez Altcoins Todavía No Es Diversificación</a>:</strong> El riesgo de carteras de tokens pequeños que esta exclusión vuelve a poner sobre la mesa</li>
+  <li><strong><a href="/es/blog/korea-exchange-delisting-surge-2026h1">El Aumento de Exclusiones en Exchanges de Corea en el Primer Semestre de 2026</a>:</strong> Una ola similar de limpieza de liquidez en exchanges de otra región por las mismas fechas</li>
+  <li><strong><a href="/es/blog/binance-us-market-share-recovery">La Recuperación de Cuota de Mercado de Binance US</a>:</strong> El mismo exchange recorriendo otro camino al endurecer su cumplimiento</li>
+  <li><strong><a href="/es/blog/diversification-illusion-altcoin-portfolio">Por Qué Diez Altcoins Todavía No Es Diversificación</a>:</strong> El riesgo de carteras de tokens pequeños que esta exclusión vuelve a poner sobre la mesa</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Koreas Delisting-Welle im ersten Halbjahr 2026</a>:</strong> Eine ähnliche Liquiditätsbereinigung, die etwa zeitgleich Börsen in einer anderen Region traf</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">Binance US' Marktanteils-Erholung</a>:</strong> Derselbe Börsenbetreiber auf einem anderen Weg bei verschärfter Compliance</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">Warum Zehn Altcoins Immer Noch Keine Diversifikation Sind</a>:</strong> Das Small-Cap-Portfoliorisiko, das dieses Delisting wieder ins Blickfeld rückt</li>
+  <li><strong><a href="/de/blog/korea-exchange-delisting-surge-2026h1">Koreas Delisting-Welle im ersten Halbjahr 2026</a>:</strong> Eine ähnliche Liquiditätsbereinigung, die etwa zeitgleich Börsen in einer anderen Region traf</li>
+  <li><strong><a href="/de/blog/binance-us-market-share-recovery">Binance US' Marktanteils-Erholung</a>:</strong> Derselbe Börsenbetreiber auf einem anderen Weg bei verschärfter Compliance</li>
+  <li><strong><a href="/de/blog/diversification-illusion-altcoin-portfolio">Warum Zehn Altcoins Immer Noch Keine Diversifikation Sind</a>:</strong> Das Small-Cap-Portfoliorisiko, das dieses Delisting wieder ins Blickfeld rückt</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">La Vague de Retraits sur les Bourses Coréennes au S1 2026</a>:</strong> Une vague similaire de nettoyage de liquidité sur des bourses d'une autre région à la même période</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">Le Redressement de Part de Marché de Binance US</a>:</strong> La même bourse suivant une autre trajectoire en renforçant sa conformité</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">Pourquoi Dix Altcoins Ne Constituent Toujours Pas une Diversification</a>:</strong> Le risque des portefeuilles de petits jetons que ce retrait remet en lumière</li>
+  <li><strong><a href="/fr/blog/korea-exchange-delisting-surge-2026h1">La Vague de Retraits sur les Bourses Coréennes au S1 2026</a>:</strong> Une vague similaire de nettoyage de liquidité sur des bourses d'une autre région à la même période</li>
+  <li><strong><a href="/fr/blog/binance-us-market-share-recovery">Le Redressement de Part de Marché de Binance US</a>:</strong> La même bourse suivant une autre trajectoire en renforçant sa conformité</li>
+  <li><strong><a href="/fr/blog/diversification-illusion-altcoin-portfolio">Pourquoi Dix Altcoins Ne Constituent Toujours Pas une Diversification</a>:</strong> Le risque des portefeuilles de petits jetons que ce retrait remet en lumière</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">A Onda de Remoções nas Exchanges Coreanas no 1º Semestre de 2026</a>:</strong> Uma onda semelhante de limpeza de liquidez em exchanges de outra região na mesma época</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">A Recuperação de Participação de Mercado da Binance US</a>:</strong> A mesma exchange seguindo outro caminho ao reforçar a conformidade</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">Por Que Dez Altcoins Ainda Não É Diversificação</a>:</strong> O risco de carteiras de tokens pequenos que esta remoção reacende</li>
+  <li><strong><a href="/pt/blog/korea-exchange-delisting-surge-2026h1">A Onda de Remoções nas Exchanges Coreanas no 1º Semestre de 2026</a>:</strong> Uma onda semelhante de limpeza de liquidez em exchanges de outra região na mesma época</li>
+  <li><strong><a href="/pt/blog/binance-us-market-share-recovery">A Recuperação de Participação de Mercado da Binance US</a>:</strong> A mesma exchange seguindo outro caminho ao reforçar a conformidade</li>
+  <li><strong><a href="/pt/blog/diversification-illusion-altcoin-portfolio">Por Que Dez Altcoins Ainda Não É Diversificação</a>:</strong> O risco de carteiras de tokens pequenos que esta remoção reacende</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Kore Borsalarında 2026 İlk Yarı Listeden Kaldırma Dalgası</a>:</strong> Aynı dönemde başka bir bölgedeki borsalarda görülen benzer likidite temizliği</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">Binance US'in Pazar Payı Toparlanması</a>:</strong> Aynı borsanın uyumu sıkılaştırırken izlediği farklı bir rota</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">On Altcoin Neden Hâlâ Çeşitlendirme Sayılmıyor</a>:</strong> Bu listeden kaldırmanın yeniden hatırlattığı küçük jeton portföy riski</li>
+  <li><strong><a href="/tr/blog/korea-exchange-delisting-surge-2026h1">Kore Borsalarında 2026 İlk Yarı Listeden Kaldırma Dalgası</a>:</strong> Aynı dönemde başka bir bölgedeki borsalarda görülen benzer likidite temizliği</li>
+  <li><strong><a href="/tr/blog/binance-us-market-share-recovery">Binance US'in Pazar Payı Toparlanması</a>:</strong> Aynı borsanın uyumu sıkılaştırırken izlediği farklı bir rota</li>
+  <li><strong><a href="/tr/blog/diversification-illusion-altcoin-portfolio">On Altcoin Neden Hâlâ Çeşitlendirme Sayılmıyor</a>:</strong> Bu listeden kaldırmanın yeniden hatırlattığı küçük jeton portföy riski</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/korea-exchange-delisting-surge-2026h1.php">Làn Sóng Hủy Niêm Yết Tại Các Sàn Hàn Quốc Nửa Đầu 2026</a>:</strong> Làn sóng dọn dẹp thanh khoản tương tự diễn ra ở sàn giao dịch khu vực khác cùng thời điểm</li>
-  <li><strong><a href="/blog/binance-us-market-share-recovery.php">Sự Phục Hồi Thị Phần Của Binance US</a>:</strong> Cùng một sàn giao dịch nhưng đi theo hướng khác khi siết chặt tuân thủ</li>
-  <li><strong><a href="/blog/diversification-illusion-altcoin-portfolio.php">Vì Sao Mười Altcoin Vẫn Chưa Phải Là Đa Dạng Hóa</a>:</strong> Rủi ro danh mục token nhỏ mà lần hủy niêm yết này một lần nữa nhắc nhở</li>
+  <li><strong><a href="/vi/blog/korea-exchange-delisting-surge-2026h1">Làn Sóng Hủy Niêm Yết Tại Các Sàn Hàn Quốc Nửa Đầu 2026</a>:</strong> Làn sóng dọn dẹp thanh khoản tương tự diễn ra ở sàn giao dịch khu vực khác cùng thời điểm</li>
+  <li><strong><a href="/vi/blog/binance-us-market-share-recovery">Sự Phục Hồi Thị Phần Của Binance US</a>:</strong> Cùng một sàn giao dịch nhưng đi theo hướng khác khi siết chặt tuân thủ</li>
+  <li><strong><a href="/vi/blog/diversification-illusion-altcoin-portfolio">Vì Sao Mười Altcoin Vẫn Chưa Phải Là Đa Dạng Hóa</a>:</strong> Rủi ro danh mục token nhỏ mà lần hủy niêm yết này một lần nữa nhắc nhở</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Crypto Economy, "Binance to Delist 4 Tokens as Exchange Tightens Listing Standards"(2026년 7월). CryptoAdventure, "Binance To Delist ALCX, ARDR, NFP And POND On July 10"(2026.7.9). U.Today, "Binance Unveils Next Delisting Wave as Four Crypto Tokens Lose Support". Value The Markets, "Binance Delists Four Tokens: What Investors Need to Know". Yahoo Finance, "4 Binance Delisting Targets Tumble as Traders Rush for the Exit"(2026.7.10). Binance TH 공식 공지, "Will Delist ALCX, NFP and POND on 10 July 2026".</p>

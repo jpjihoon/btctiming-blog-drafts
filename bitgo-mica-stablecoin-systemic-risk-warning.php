@@ -427,49 +427,49 @@
   <h2 class="tr">Yanında Okunması İyi Olan</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">레볼루트의 MiCA발 USDT 상장 폐지</a>:</strong> 이번 준비금 규정이 실제 플랫폼에서 어떻게 상장 폐지로 이어졌는지</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">MiCA 2차 라이선스 승인 물결</a>:</strong> 어떤 발행사가 규정을 통과했고 누가 뒤처졌는지</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">서클 주가 급락과 오픈 USD</a>:</strong> MiCA를 먼저 통과한 발행사의 반대편 위험</li>
+    <li><strong><a href="/blog/revolut-usdt-delisting-mica">레볼루트의 MiCA발 USDT 상장 폐지</a>:</strong> 이번 준비금 규정이 실제 플랫폼에서 어떻게 상장 폐지로 이어졌는지</li>
+    <li><strong><a href="/blog/mica-second-wave-license-approvals">MiCA 2차 라이선스 승인 물결</a>:</strong> 어떤 발행사가 규정을 통과했고 누가 뒤처졌는지</li>
+    <li><strong><a href="/blog/circle-stock-crash-open-usd">서클 주가 급락과 오픈 USD</a>:</strong> MiCA를 먼저 통과한 발행사의 반대편 위험</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut's MiCA-Driven USDT Delisting</a>:</strong> How this reserve rule translated into an actual delisting on a real platform</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">MiCA's Second Wave of License Approvals</a>:</strong> Which issuers cleared the rules and who fell behind</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle's Stock Crash and Open USD</a>:</strong> The opposite-side risk for the issuer that cleared MiCA first</li>
+    <li><strong><a href="/en/blog/revolut-usdt-delisting-mica">Revolut's MiCA-Driven USDT Delisting</a>:</strong> How this reserve rule translated into an actual delisting on a real platform</li>
+    <li><strong><a href="/en/blog/mica-second-wave-license-approvals">MiCA's Second Wave of License Approvals</a>:</strong> Which issuers cleared the rules and who fell behind</li>
+    <li><strong><a href="/en/blog/circle-stock-crash-open-usd">Circle's Stock Crash and Open USD</a>:</strong> The opposite-side risk for the issuer that cleared MiCA first</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">レボリュートのMiCA発USDT上場廃止</a>:</strong> この準備金規則が実際のプラットフォームでどう上場廃止につながったか</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">MiCA第2波のライセンス承認</a>:</strong> どの発行体が規則を通過し、誰が遅れたか</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">サークルの株価急落とオープンUSD</a>:</strong> MiCAを最初に通過した発行体の反対側のリスク</li>
+    <li><strong><a href="/ja/blog/revolut-usdt-delisting-mica">レボリュートのMiCA発USDT上場廃止</a>:</strong> この準備金規則が実際のプラットフォームでどう上場廃止につながったか</li>
+    <li><strong><a href="/ja/blog/mica-second-wave-license-approvals">MiCA第2波のライセンス承認</a>:</strong> どの発行体が規則を通過し、誰が遅れたか</li>
+    <li><strong><a href="/ja/blog/circle-stock-crash-open-usd">サークルの株価急落とオープンUSD</a>:</strong> MiCAを最初に通過した発行体の反対側のリスク</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">La Retirada de USDT en Revolut por MiCA</a>:</strong> Cómo esta regla de reservas se tradujo en una retirada real en una plataforma</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">La Segunda Ola de Licencias de MiCA</a>:</strong> Qué emisores superaron las reglas y quién se quedó atrás</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">El Desplome de la Acción de Circle y Open USD</a>:</strong> El riesgo del otro lado para el emisor que superó MiCA primero</li>
+    <li><strong><a href="/es/blog/revolut-usdt-delisting-mica">La Retirada de USDT en Revolut por MiCA</a>:</strong> Cómo esta regla de reservas se tradujo en una retirada real en una plataforma</li>
+    <li><strong><a href="/es/blog/mica-second-wave-license-approvals">La Segunda Ola de Licencias de MiCA</a>:</strong> Qué emisores superaron las reglas y quién se quedó atrás</li>
+    <li><strong><a href="/es/blog/circle-stock-crash-open-usd">El Desplome de la Acción de Circle y Open USD</a>:</strong> El riesgo del otro lado para el emisor que superó MiCA primero</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revoluts MiCA-getriebenes USDT-Delisting</a>:</strong> Wie diese Reserveregel sich in ein echtes Delisting auf einer Plattform übersetzte</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">MiCAs Zweite Welle der Lizenzzulassungen</a>:</strong> Welche Emittenten die Regeln meisterten und wer zurückfiel</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circles Aktiencrash und Open USD</a>:</strong> Das Gegenseiten-Risiko für den Emittenten, der MiCA zuerst meisterte</li>
+    <li><strong><a href="/de/blog/revolut-usdt-delisting-mica">Revoluts MiCA-getriebenes USDT-Delisting</a>:</strong> Wie diese Reserveregel sich in ein echtes Delisting auf einer Plattform übersetzte</li>
+    <li><strong><a href="/de/blog/mica-second-wave-license-approvals">MiCAs Zweite Welle der Lizenzzulassungen</a>:</strong> Welche Emittenten die Regeln meisterten und wer zurückfiel</li>
+    <li><strong><a href="/de/blog/circle-stock-crash-open-usd">Circles Aktiencrash und Open USD</a>:</strong> Das Gegenseiten-Risiko für den Emittenten, der MiCA zuerst meisterte</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Le Retrait de l'USDT chez Revolut lié à MiCA</a>:</strong> Comment cette règle de réserves s'est traduite par un retrait réel sur une plateforme</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">La Deuxième Vague d'Agréments MiCA</a>:</strong> Quels émetteurs ont franchi les règles et qui a pris du retard</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">L'Effondrement de l'Action Circle et Open USD</a>:</strong> Le risque de l'autre côté pour l'émetteur qui a franchi MiCA le premier</li>
+    <li><strong><a href="/fr/blog/revolut-usdt-delisting-mica">Le Retrait de l'USDT chez Revolut lié à MiCA</a>:</strong> Comment cette règle de réserves s'est traduite par un retrait réel sur une plateforme</li>
+    <li><strong><a href="/fr/blog/mica-second-wave-license-approvals">La Deuxième Vague d'Agréments MiCA</a>:</strong> Quels émetteurs ont franchi les règles et qui a pris du retard</li>
+    <li><strong><a href="/fr/blog/circle-stock-crash-open-usd">L'Effondrement de l'Action Circle et Open USD</a>:</strong> Le risque de l'autre côté pour l'émetteur qui a franchi MiCA le premier</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">A Remoção do USDT na Revolut por Causa da MiCA</a>:</strong> Como esta regra de reservas se traduziu em uma remoção real em uma plataforma</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">A Segunda Onda de Aprovações de Licença da MiCA</a>:</strong> Quais emissores passaram nas regras e quem ficou para trás</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">A Queda da Ação da Circle e o Open USD</a>:</strong> O risco do outro lado para o emissor que passou pela MiCA primeiro</li>
+    <li><strong><a href="/pt/blog/revolut-usdt-delisting-mica">A Remoção do USDT na Revolut por Causa da MiCA</a>:</strong> Como esta regra de reservas se traduziu em uma remoção real em uma plataforma</li>
+    <li><strong><a href="/pt/blog/mica-second-wave-license-approvals">A Segunda Onda de Aprovações de Licença da MiCA</a>:</strong> Quais emissores passaram nas regras e quem ficou para trás</li>
+    <li><strong><a href="/pt/blog/circle-stock-crash-open-usd">A Queda da Ação da Circle e o Open USD</a>:</strong> O risco do outro lado para o emissor que passou pela MiCA primeiro</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Revolut'un MiCA Kaynaklı USDT Çıkarması</a>:</strong> Bu rezerv kuralının gerçek bir platformda nasıl fiili bir listeden çıkarmaya dönüştüğü</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">MiCA'nın İkinci Lisans Onayı Dalgası</a>:</strong> Hangi ihraççıların kuralları geçtiği ve kimin geride kaldığı</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle'ın Hisse Çöküşü ve Open USD</a>:</strong> MiCA'yı ilk geçen ihraççı için diğer taraftaki risk</li>
+    <li><strong><a href="/tr/blog/revolut-usdt-delisting-mica">Revolut'un MiCA Kaynaklı USDT Çıkarması</a>:</strong> Bu rezerv kuralının gerçek bir platformda nasıl fiili bir listeden çıkarmaya dönüştüğü</li>
+    <li><strong><a href="/tr/blog/mica-second-wave-license-approvals">MiCA'nın İkinci Lisans Onayı Dalgası</a>:</strong> Hangi ihraççıların kuralları geçtiği ve kimin geride kaldığı</li>
+    <li><strong><a href="/tr/blog/circle-stock-crash-open-usd">Circle'ın Hisse Çöküşü ve Open USD</a>:</strong> MiCA'yı ilk geçen ihraççı için diğer taraftaki risk</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/revolut-usdt-delisting-mica.php">Việc Revolut Hủy Niêm Yết USDT Do MiCA</a>:</strong> Cách quy tắc dự trữ này chuyển thành một vụ hủy niêm yết thực tế trên nền tảng</li>
-    <li><strong><a href="/blog/mica-second-wave-license-approvals.php">Làn Sóng Cấp Phép Thứ Hai Của MiCA</a>:</strong> Tổ chức phát hành nào vượt qua quy tắc và ai bị tụt lại</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Cú Sập Cổ Phiếu Circle và Open USD</a>:</strong> Rủi ro ở phía đối diện cho tổ chức phát hành vượt qua MiCA đầu tiên</li>
+    <li><strong><a href="/vi/blog/revolut-usdt-delisting-mica">Việc Revolut Hủy Niêm Yết USDT Do MiCA</a>:</strong> Cách quy tắc dự trữ này chuyển thành một vụ hủy niêm yết thực tế trên nền tảng</li>
+    <li><strong><a href="/vi/blog/mica-second-wave-license-approvals">Làn Sóng Cấp Phép Thứ Hai Của MiCA</a>:</strong> Tổ chức phát hành nào vượt qua quy tắc và ai bị tụt lại</li>
+    <li><strong><a href="/vi/blog/circle-stock-crash-open-usd">Cú Sập Cổ Phiếu Circle và Open USD</a>:</strong> Rủi ro ở phía đối diện cho tổ chức phát hành vượt qua MiCA đầu tiên</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 마이크 벨시 비트고 CEO 발언(cryptonews.com·news.bitcoin.com·야후파이낸스 보도), MiCA 규정 및 EBA·ESMA 스테이블코인 준비금·예금 요건, 유럽 예금보호제도(예금자당 10만 유로 한도), 2023년 3월 USDC-SVB 디페그 사건 보도, 크립토브리핑(EU 스테이블코인 규제 최고 강도 분석). 인가·상장 폐지 일정과 시장 영향은 진행 중인 사안이며, 본 글은 투자 조언이 아니다.</p>

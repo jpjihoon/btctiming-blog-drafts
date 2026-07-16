@@ -446,49 +446,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">코인베이스, 기관 커스터디 지원 자산 12종 추가</a>:</strong> EDX가 맞서야 할 기존 강자의 최근 행보</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">앵커리지, 커스터디 안에서 리도 스테이킹 개방</a>:</strong> OCC 신탁 인가를 먼저 받은 경쟁사의 사례</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">JP모건 토큰화 국채펀드 JLTXX 급성장</a>:</strong> 같은 시기 가속하는 기관 토큰화 인프라의 또 다른 축</li>
+    <li><strong><a href="/blog/coinbase-institutional-custody-expansion">코인베이스, 기관 커스터디 지원 자산 12종 추가</a>:</strong> EDX가 맞서야 할 기존 강자의 최근 행보</li>
+    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody">앵커리지, 커스터디 안에서 리도 스테이킹 개방</a>:</strong> OCC 신탁 인가를 먼저 받은 경쟁사의 사례</li>
+    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">JP모건 토큰화 국채펀드 JLTXX 급성장</a>:</strong> 같은 시기 가속하는 기관 토큰화 인프라의 또 다른 축</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase Adds 12 Assets to Institutional Custody Support</a>:</strong> The recent move from the incumbent EDX has to compete with</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage Opens Lido Staking Inside Custody</a>:</strong> The rival that got its OCC trust charter first</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">JPMorgan's Tokenized Treasury Fund JLTXX Jumps 250%</a>:</strong> Another axis of the institutional tokenization infrastructure accelerating at the same time</li>
+    <li><strong><a href="/en/blog/coinbase-institutional-custody-expansion">Coinbase Adds 12 Assets to Institutional Custody Support</a>:</strong> The recent move from the incumbent EDX has to compete with</li>
+    <li><strong><a href="/en/blog/anchorage-lido-institutional-wsteth-custody">Anchorage Opens Lido Staking Inside Custody</a>:</strong> The rival that got its OCC trust charter first</li>
+    <li><strong><a href="/en/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">JPMorgan's Tokenized Treasury Fund JLTXX Jumps 250%</a>:</strong> Another axis of the institutional tokenization infrastructure accelerating at the same time</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">コインベース、機関カストディ対応資産を12種追加</a>:</strong> EDXが対抗すべき既存最大手の最近の動き</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">アンカレッジ、カストディ内でリドステーキングを開放</a>:</strong> 先にOCC信託免許を取得したライバルの事例</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">JPモルガンのトークン化国債ファンドJLTXXが急伸</a>:</strong> 同時期に加速する機関向けトークン化インフラの別の軸</li>
+    <li><strong><a href="/ja/blog/coinbase-institutional-custody-expansion">コインベース、機関カストディ対応資産を12種追加</a>:</strong> EDXが対抗すべき既存最大手の最近の動き</li>
+    <li><strong><a href="/ja/blog/anchorage-lido-institutional-wsteth-custody">アンカレッジ、カストディ内でリドステーキングを開放</a>:</strong> 先にOCC信託免許を取得したライバルの事例</li>
+    <li><strong><a href="/ja/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">JPモルガンのトークン化国債ファンドJLTXXが急伸</a>:</strong> 同時期に加速する機関向けトークン化インフラの別の軸</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase Añade 12 Activos a su Soporte de Custodia Institucional</a>:</strong> El movimiento reciente del líder establecido al que EDX debe enfrentarse</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage Abre el Staking de Lido Dentro de la Custodia</a>:</strong> El rival que obtuvo primero su licencia fiduciaria de la OCC</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">El Fondo Tokenizado del Tesoro JLTXX de JPMorgan Sube 250%</a>:</strong> Otro eje de la infraestructura institucional de tokenización que se acelera al mismo tiempo</li>
+    <li><strong><a href="/es/blog/coinbase-institutional-custody-expansion">Coinbase Añade 12 Activos a su Soporte de Custodia Institucional</a>:</strong> El movimiento reciente del líder establecido al que EDX debe enfrentarse</li>
+    <li><strong><a href="/es/blog/anchorage-lido-institutional-wsteth-custody">Anchorage Abre el Staking de Lido Dentro de la Custodia</a>:</strong> El rival que obtuvo primero su licencia fiduciaria de la OCC</li>
+    <li><strong><a href="/es/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">El Fondo Tokenizado del Tesoro JLTXX de JPMorgan Sube 250%</a>:</strong> Otro eje de la infraestructura institucional de tokenización que se acelera al mismo tiempo</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase Fügt 12 Assets zur Institutionellen Verwahrung Hinzu</a>:</strong> Der jüngste Schritt des etablierten Akteurs, gegen den EDX antreten muss</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage Öffnet Lido-Staking Innerhalb der Verwahrung</a>:</strong> Der Rivale, der seine OCC-Trust-Lizenz zuerst erhielt</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">JPMorgans Tokenisierter Treasury-Fonds JLTXX Springt um 250%</a>:</strong> Eine weitere Achse der sich zeitgleich beschleunigenden institutionellen Tokenisierungs-Infrastruktur</li>
+    <li><strong><a href="/de/blog/coinbase-institutional-custody-expansion">Coinbase Fügt 12 Assets zur Institutionellen Verwahrung Hinzu</a>:</strong> Der jüngste Schritt des etablierten Akteurs, gegen den EDX antreten muss</li>
+    <li><strong><a href="/de/blog/anchorage-lido-institutional-wsteth-custody">Anchorage Öffnet Lido-Staking Innerhalb der Verwahrung</a>:</strong> Der Rivale, der seine OCC-Trust-Lizenz zuerst erhielt</li>
+    <li><strong><a href="/de/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">JPMorgans Tokenisierter Treasury-Fonds JLTXX Springt um 250%</a>:</strong> Eine weitere Achse der sich zeitgleich beschleunigenden institutionellen Tokenisierungs-Infrastruktur</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase Ajoute 12 Actifs à Son Offre de Conservation Institutionnelle</a>:</strong> Le mouvement récent de l'acteur établi qu'EDX doit affronter</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage Ouvre le Staking Lido au Sein de la Conservation</a>:</strong> Le rival qui a obtenu sa licence fiduciaire de l'OCC en premier</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">Le Fonds Tokenisé du Trésor JLTXX de JPMorgan Bondit de 250%</a>:</strong> Un autre axe de l'infrastructure institutionnelle de tokenisation qui s'accélère au même moment</li>
+    <li><strong><a href="/fr/blog/coinbase-institutional-custody-expansion">Coinbase Ajoute 12 Actifs à Son Offre de Conservation Institutionnelle</a>:</strong> Le mouvement récent de l'acteur établi qu'EDX doit affronter</li>
+    <li><strong><a href="/fr/blog/anchorage-lido-institutional-wsteth-custody">Anchorage Ouvre le Staking Lido au Sein de la Conservation</a>:</strong> Le rival qui a obtenu sa licence fiduciaire de l'OCC en premier</li>
+    <li><strong><a href="/fr/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">Le Fonds Tokenisé du Trésor JLTXX de JPMorgan Bondit de 250%</a>:</strong> Un autre axe de l'infrastructure institutionnelle de tokenisation qui s'accélère au même moment</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase Adiciona 12 Ativos ao Suporte de Custódia Institucional</a>:</strong> O movimento recente do líder estabelecido que a EDX precisa enfrentar</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage Abre o Staking da Lido Dentro da Custódia</a>:</strong> O rival que obteve sua licença fiduciária da OCC primeiro</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">Fundo Tokenizado do Tesouro JLTXX do JPMorgan Salta 250%</a>:</strong> Outro eixo da infraestrutura institucional de tokenização que acelera ao mesmo tempo</li>
+    <li><strong><a href="/pt/blog/coinbase-institutional-custody-expansion">Coinbase Adiciona 12 Ativos ao Suporte de Custódia Institucional</a>:</strong> O movimento recente do líder estabelecido que a EDX precisa enfrentar</li>
+    <li><strong><a href="/pt/blog/anchorage-lido-institutional-wsteth-custody">Anchorage Abre o Staking da Lido Dentro da Custódia</a>:</strong> O rival que obteve sua licença fiduciária da OCC primeiro</li>
+    <li><strong><a href="/pt/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">Fundo Tokenizado do Tesouro JLTXX do JPMorgan Salta 250%</a>:</strong> Outro eixo da infraestrutura institucional de tokenização que acelera ao mesmo tempo</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase, Kurumsal Saklama Desteğine 12 Varlık Ekliyor</a>:</strong> EDX'in rekabet etmesi gereken yerleşik oyuncunun son hamlesi</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage, Saklama İçinde Lido Stake'ini Açıyor</a>:</strong> OCC güven lisansını önce alan rakip</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">JPMorgan'ın Tokenleştirilmiş Hazine Fonu JLTXX %250 Sıçradı</a>:</strong> Aynı dönemde hızlanan kurumsal tokenleştirme altyapısının bir başka ekseni</li>
+    <li><strong><a href="/tr/blog/coinbase-institutional-custody-expansion">Coinbase, Kurumsal Saklama Desteğine 12 Varlık Ekliyor</a>:</strong> EDX'in rekabet etmesi gereken yerleşik oyuncunun son hamlesi</li>
+    <li><strong><a href="/tr/blog/anchorage-lido-institutional-wsteth-custody">Anchorage, Saklama İçinde Lido Stake'ini Açıyor</a>:</strong> OCC güven lisansını önce alan rakip</li>
+    <li><strong><a href="/tr/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">JPMorgan'ın Tokenleştirilmiş Hazine Fonu JLTXX %250 Sıçradı</a>:</strong> Aynı dönemde hızlanan kurumsal tokenleştirme altyapısının bir başka ekseni</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/coinbase-institutional-custody-expansion.php">Coinbase Bổ Sung 12 Tài Sản Vào Dịch Vụ Lưu Ký Tổ Chức</a>:</strong> Động thái gần đây của đối thủ đã có chỗ đứng mà EDX phải cạnh tranh</li>
-    <li><strong><a href="/blog/anchorage-lido-institutional-wsteth-custody.php">Anchorage Mở Staking Lido Bên Trong Dịch Vụ Lưu Ký</a>:</strong> Đối thủ đã có được giấy phép ủy thác OCC trước</li>
-    <li><strong><a href="/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve.php">Quỹ Trái Phiếu Kho Bạc Token Hóa JLTXX của JPMorgan Tăng 250%</a>:</strong> Một trục khác của hạ tầng token hóa cấp tổ chức đang tăng tốc cùng thời điểm</li>
+    <li><strong><a href="/vi/blog/coinbase-institutional-custody-expansion">Coinbase Bổ Sung 12 Tài Sản Vào Dịch Vụ Lưu Ký Tổ Chức</a>:</strong> Động thái gần đây của đối thủ đã có chỗ đứng mà EDX phải cạnh tranh</li>
+    <li><strong><a href="/vi/blog/anchorage-lido-institutional-wsteth-custody">Anchorage Mở Staking Lido Bên Trong Dịch Vụ Lưu Ký</a>:</strong> Đối thủ đã có được giấy phép ủy thác OCC trước</li>
+    <li><strong><a href="/vi/blog/jpmorgan-jltxx-tokenized-treasury-genius-reserve">Quỹ Trái Phiếu Kho Bạc Token Hóa JLTXX của JPMorgan Tăng 250%</a>:</strong> Một trục khác của hạ tầng token hóa cấp tổ chức đang tăng tốc cùng thời điểm</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(EDX 시리즈C·SBI 주도 보도), PR뉴스와이어(EDX 공식 보도자료), 크립토브리핑(EDX OCC 신탁 인가 신청 보도), 렛저인사이츠(OCC 신탁 인가 세부사항), 위키피디아(EDX 설립·배경 연혁), 핀테크옵저버·비트코인파운데이션(SBI JPYSC 출시 보도). 거래량·인가 승인 시점 등은 아직 확정되지 않았으며, 본 글은 투자 조언이 아니다.</p>

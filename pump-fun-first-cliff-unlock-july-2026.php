@@ -272,49 +272,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">하이퍼리퀴드 HYPE 언락과 지원기금의 물량 흡수</a>:</strong> 또 다른 대형 토큰 언락을 흡수하는 메커니즘 비교</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">봉크 DAO 거버넌스 국고 공격</a>:</strong> 솔라나 밈코인 생태계의 구조적 취약성</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">밈코인은 산업에 득인가 실인가</a>:</strong> 온체인 활동의 동력이자 위험이라는 밈코인의 양면성</li>
+    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption">하이퍼리퀴드 HYPE 언락과 지원기금의 물량 흡수</a>:</strong> 또 다른 대형 토큰 언락을 흡수하는 메커니즘 비교</li>
+    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack">봉크 DAO 거버넌스 국고 공격</a>:</strong> 솔라나 밈코인 생태계의 구조적 취약성</li>
+    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry">밈코인은 산업에 득인가 실인가</a>:</strong> 온체인 활동의 동력이자 위험이라는 밈코인의 양면성</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Hyperliquid's HYPE unlock and the assistance fund's absorption</a>:</strong> A comparison of mechanisms for absorbing another large token unlock</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">The BONK DAO governance treasury attack</a>:</strong> Structural fragility in the Solana memecoin ecosystem</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Are memecoins good or bad for the industry</a>:</strong> The double-edged nature of memecoins as a driver of on-chain activity</li>
+    <li><strong><a href="/en/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Hyperliquid's HYPE unlock and the assistance fund's absorption</a>:</strong> A comparison of mechanisms for absorbing another large token unlock</li>
+    <li><strong><a href="/en/blog/bonk-dao-governance-treasury-attack">The BONK DAO governance treasury attack</a>:</strong> Structural fragility in the Solana memecoin ecosystem</li>
+    <li><strong><a href="/en/blog/meme-coins-good-or-bad-for-industry">Are memecoins good or bad for the industry</a>:</strong> The double-edged nature of memecoins as a driver of on-chain activity</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">ハイパーリキッドのHYPEアンロックと支援基金の数量吸収</a>:</strong> もう一つの大型トークンアンロックを吸収するメカニズムの比較</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">BONK DAOガバナンス国庫攻撃</a>:</strong> ソラナ・ミームコイン生態系の構造的脆弱性</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">ミームコインは業界に益か害か</a>:</strong> オンチェーン活動の原動力でありリスクでもあるミームコインの両面性</li>
+    <li><strong><a href="/ja/blog/hyperliquid-hype-unlock-assistance-fund-absorption">ハイパーリキッドのHYPEアンロックと支援基金の数量吸収</a>:</strong> もう一つの大型トークンアンロックを吸収するメカニズムの比較</li>
+    <li><strong><a href="/ja/blog/bonk-dao-governance-treasury-attack">BONK DAOガバナンス国庫攻撃</a>:</strong> ソラナ・ミームコイン生態系の構造的脆弱性</li>
+    <li><strong><a href="/ja/blog/meme-coins-good-or-bad-for-industry">ミームコインは業界に益か害か</a>:</strong> オンチェーン活動の原動力でありリスクでもあるミームコインの両面性</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">El desbloqueo de HYPE de Hyperliquid y la absorción del fondo de asistencia</a>:</strong> Comparación de mecanismos para absorber otro gran desbloqueo de tokens</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">El ataque a la tesorería de gobernanza de BONK DAO</a>:</strong> Fragilidad estructural en el ecosistema de memecoins de Solana</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">¿Son las memecoins buenas o malas para la industria?</a>:</strong> La naturaleza de doble filo de las memecoins como motor de la actividad on-chain</li>
+    <li><strong><a href="/es/blog/hyperliquid-hype-unlock-assistance-fund-absorption">El desbloqueo de HYPE de Hyperliquid y la absorción del fondo de asistencia</a>:</strong> Comparación de mecanismos para absorber otro gran desbloqueo de tokens</li>
+    <li><strong><a href="/es/blog/bonk-dao-governance-treasury-attack">El ataque a la tesorería de gobernanza de BONK DAO</a>:</strong> Fragilidad estructural en el ecosistema de memecoins de Solana</li>
+    <li><strong><a href="/es/blog/meme-coins-good-or-bad-for-industry">¿Son las memecoins buenas o malas para la industria?</a>:</strong> La naturaleza de doble filo de las memecoins como motor de la actividad on-chain</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Hyperliquids HYPE-Freischaltung und die Absorption des Hilfsfonds</a>:</strong> Ein Vergleich der Mechanismen zur Absorption einer weiteren großen Token-Freischaltung</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">Der Angriff auf die Governance-Schatzkammer von BONK DAO</a>:</strong> Strukturelle Fragilität im Solana-Memecoin-Ökosystem</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Sind Memecoins gut oder schlecht für die Branche</a>:</strong> Die zweischneidige Natur von Memecoins als Treiber der On-Chain-Aktivität</li>
+    <li><strong><a href="/de/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Hyperliquids HYPE-Freischaltung und die Absorption des Hilfsfonds</a>:</strong> Ein Vergleich der Mechanismen zur Absorption einer weiteren großen Token-Freischaltung</li>
+    <li><strong><a href="/de/blog/bonk-dao-governance-treasury-attack">Der Angriff auf die Governance-Schatzkammer von BONK DAO</a>:</strong> Strukturelle Fragilität im Solana-Memecoin-Ökosystem</li>
+    <li><strong><a href="/de/blog/meme-coins-good-or-bad-for-industry">Sind Memecoins gut oder schlecht für die Branche</a>:</strong> Die zweischneidige Natur von Memecoins als Treiber der On-Chain-Aktivität</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Le déblocage de HYPE de Hyperliquid et l'absorption du fonds d'assistance</a>:</strong> Une comparaison des mécanismes pour absorber un autre grand déblocage de tokens</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">L'attaque de la trésorerie de gouvernance de BONK DAO</a>:</strong> Fragilité structurelle de l'écosystème des memecoins Solana</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Les memecoins sont-elles bonnes ou mauvaises pour le secteur</a>:</strong> La nature à double tranchant des memecoins comme moteur de l'activité on-chain</li>
+    <li><strong><a href="/fr/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Le déblocage de HYPE de Hyperliquid et l'absorption du fonds d'assistance</a>:</strong> Une comparaison des mécanismes pour absorber un autre grand déblocage de tokens</li>
+    <li><strong><a href="/fr/blog/bonk-dao-governance-treasury-attack">L'attaque de la trésorerie de gouvernance de BONK DAO</a>:</strong> Fragilité structurelle de l'écosystème des memecoins Solana</li>
+    <li><strong><a href="/fr/blog/meme-coins-good-or-bad-for-industry">Les memecoins sont-elles bonnes ou mauvaises pour le secteur</a>:</strong> La nature à double tranchant des memecoins comme moteur de l'activité on-chain</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">O desbloqueio de HYPE da Hyperliquid e a absorção do fundo de assistência</a>:</strong> Uma comparação de mecanismos para absorver outro grande desbloqueio de tokens</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">O ataque à tesouraria de governança da BONK DAO</a>:</strong> Fragilidade estrutural no ecossistema de memecoins da Solana</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">As memecoins são boas ou más para o setor</a>:</strong> A natureza de dois gumes das memecoins como motor da atividade on-chain</li>
+    <li><strong><a href="/pt/blog/hyperliquid-hype-unlock-assistance-fund-absorption">O desbloqueio de HYPE da Hyperliquid e a absorção do fundo de assistência</a>:</strong> Uma comparação de mecanismos para absorver outro grande desbloqueio de tokens</li>
+    <li><strong><a href="/pt/blog/bonk-dao-governance-treasury-attack">O ataque à tesouraria de governança da BONK DAO</a>:</strong> Fragilidade estrutural no ecossistema de memecoins da Solana</li>
+    <li><strong><a href="/pt/blog/meme-coins-good-or-bad-for-industry">As memecoins são boas ou más para o setor</a>:</strong> A natureza de dois gumes das memecoins como motor da atividade on-chain</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Hyperliquid'in HYPE kilit açılışı ve yardım fonunun emişi</a>:</strong> Başka bir büyük token kilit açılışını emme mekanizmalarının karşılaştırması</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">BONK DAO yönetişim hazine saldırısı</a>:</strong> Solana memecoin ekosistemindeki yapısal kırılganlık</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Memecoinler sektör için iyi mi kötü mü</a>:</strong> On-chain aktivitenin itici gücü olan memecoinlerin iki yönlü doğası</li>
+    <li><strong><a href="/tr/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Hyperliquid'in HYPE kilit açılışı ve yardım fonunun emişi</a>:</strong> Başka bir büyük token kilit açılışını emme mekanizmalarının karşılaştırması</li>
+    <li><strong><a href="/tr/blog/bonk-dao-governance-treasury-attack">BONK DAO yönetişim hazine saldırısı</a>:</strong> Solana memecoin ekosistemindeki yapısal kırılganlık</li>
+    <li><strong><a href="/tr/blog/meme-coins-good-or-bad-for-industry">Memecoinler sektör için iyi mi kötü mü</a>:</strong> On-chain aktivitenin itici gücü olan memecoinlerin iki yönlü doğası</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Đợt mở khóa HYPE của Hyperliquid và sự hấp thụ của quỹ hỗ trợ</a>:</strong> So sánh các cơ chế hấp thụ một đợt mở khóa token lớn khác</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">Cuộc tấn công kho bạc quản trị BONK DAO</a>:</strong> Sự mong manh cấu trúc trong hệ sinh thái memecoin Solana</li>
-    <li><strong><a href="/blog/meme-coins-good-or-bad-for-industry.php">Memecoin tốt hay xấu cho ngành</a>:</strong> Bản chất hai lưỡi của memecoin như một động lực của hoạt động on-chain</li>
+    <li><strong><a href="/vi/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Đợt mở khóa HYPE của Hyperliquid và sự hấp thụ của quỹ hỗ trợ</a>:</strong> So sánh các cơ chế hấp thụ một đợt mở khóa token lớn khác</li>
+    <li><strong><a href="/vi/blog/bonk-dao-governance-treasury-attack">Cuộc tấn công kho bạc quản trị BONK DAO</a>:</strong> Sự mong manh cấu trúc trong hệ sinh thái memecoin Solana</li>
+    <li><strong><a href="/vi/blog/meme-coins-good-or-bad-for-industry">Memecoin tốt hay xấu cho ngành</a>:</strong> Bản chất hai lưỡi của memecoin như một động lực của hoạt động on-chain</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: The Block(펌프펀 수익 홀더 분배·바이백 계획), CoinMarketCal 및 TradingView(7월 12일 825억 PUMP 언락 일정), Tokenomist(PUMP 베스팅 스케줄·유통량), BeInCrypto(안셈의 2억5,000만~3억 달러 에어드롭 제안), KuCoin(2026년 7월 토큰 언락 정리), Bitget(안셈·바이백 초점), CoinMarketCap(언락 공포 3.4% 하락·ANSEM 6.39% 상승), Yahoo Finance(3억5,000만 달러 바이백 가격 부진), Pump.fun 공식 발표(3억7,000만 달러 소각·수익 50% 바이백). 수치는 시점에 따라 변동할 수 있으며, 본 글은 투자 조언이 아니다.</p>

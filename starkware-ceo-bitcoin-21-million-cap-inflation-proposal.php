@@ -302,40 +302,40 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">이더리움 순공급 30일간 +8만3550개, '초음속 화폐' 서사의 흔들림</a>:</strong> 고정형이 아닌 유연한 공급 모델을 이미 택한 체인의 현재 상황</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">비트코인 반감기 이후 최적 매수 시점은 언제인가</a>:</strong> 보조금이 줄어드는 반감기 스케줄의 배경 지식</li>
+    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money">이더리움 순공급 30일간 +8만3550개, '초음속 화폐' 서사의 흔들림</a>:</strong> 고정형이 아닌 유연한 공급 모델을 이미 택한 체인의 현재 상황</li>
+    <li><strong><a href="/blog/bitcoin-halving-timing">비트코인 반감기 이후 최적 매수 시점은 언제인가</a>:</strong> 보조금이 줄어드는 반감기 스케줄의 배경 지식</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Ethereum's Net Supply +83,550 ETH in 30 Days — the 'Ultrasound Money' Thesis Wobbles</a>:</strong> How a chain that already chose a flexible supply model is faring now</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">When Is the Best Time to Buy After a Bitcoin Halving?</a>:</strong> Background on the subsidy-shrinking halving schedule</li>
+    <li><strong><a href="/en/blog/ethereum-supply-inflationary-ultrasound-money">Ethereum's Net Supply +83,550 ETH in 30 Days — the 'Ultrasound Money' Thesis Wobbles</a>:</strong> How a chain that already chose a flexible supply model is faring now</li>
+    <li><strong><a href="/en/blog/bitcoin-halving-timing">When Is the Best Time to Buy After a Bitcoin Halving?</a>:</strong> Background on the subsidy-shrinking halving schedule</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">イーサリアム純供給30日間で+8万3550ETH、「ウルトラサウンド・マネー」論の揺らぎ</a>:</strong> 固定型でなく柔軟な供給モデルをすでに選んだチェーンの現状</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">ビットコイン半減期後、最適な購入時期はいつか</a>:</strong> 補助金が減っていく半減期スケジュールの背景知識</li>
+    <li><strong><a href="/ja/blog/ethereum-supply-inflationary-ultrasound-money">イーサリアム純供給30日間で+8万3550ETH、「ウルトラサウンド・マネー」論の揺らぎ</a>:</strong> 固定型でなく柔軟な供給モデルをすでに選んだチェーンの現状</li>
+    <li><strong><a href="/ja/blog/bitcoin-halving-timing">ビットコイン半減期後、最適な購入時期はいつか</a>:</strong> 補助金が減っていく半減期スケジュールの背景知識</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">La oferta neta de Ethereum sube +83.550 ETH en 30 días — la tesis del 'dinero ultrasónico' se tambalea</a>:</strong> Cómo le va ahora a una cadena que ya eligió un modelo de suministro flexible</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">¿Cuál es el mejor momento para comprar después de un halving de Bitcoin?</a>:</strong> Contexto sobre el calendario de halving y la reducción del subsidio</li>
+    <li><strong><a href="/es/blog/ethereum-supply-inflationary-ultrasound-money">La oferta neta de Ethereum sube +83.550 ETH en 30 días — la tesis del 'dinero ultrasónico' se tambalea</a>:</strong> Cómo le va ahora a una cadena que ya eligió un modelo de suministro flexible</li>
+    <li><strong><a href="/es/blog/bitcoin-halving-timing">¿Cuál es el mejor momento para comprar después de un halving de Bitcoin?</a>:</strong> Contexto sobre el calendario de halving y la reducción del subsidio</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Ethereums Nettoangebot +83.550 ETH in 30 Tagen — die 'Ultrasound-Money'-These wackelt</a>:</strong> Wie es einer Chain ergeht, die sich bereits für ein flexibles Angebotsmodell entschieden hat</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">Wann ist der beste Zeitpunkt zum Kaufen nach einem Bitcoin-Halving?</a>:</strong> Hintergrundwissen zum schrumpfenden Halving-Zeitplan</li>
+    <li><strong><a href="/de/blog/ethereum-supply-inflationary-ultrasound-money">Ethereums Nettoangebot +83.550 ETH in 30 Tagen — die 'Ultrasound-Money'-These wackelt</a>:</strong> Wie es einer Chain ergeht, die sich bereits für ein flexibles Angebotsmodell entschieden hat</li>
+    <li><strong><a href="/de/blog/bitcoin-halving-timing">Wann ist der beste Zeitpunkt zum Kaufen nach einem Bitcoin-Halving?</a>:</strong> Hintergrundwissen zum schrumpfenden Halving-Zeitplan</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">L'offre nette d'Ethereum +83 550 ETH en 30 jours — la thèse de la 'monnaie ultrasonique' vacille</a>:</strong> Où en est une chaîne qui a déjà choisi un modèle d'offre flexible</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">Quel est le meilleur moment pour acheter après un halving Bitcoin ?</a>:</strong> Contexte sur le calendrier de halving et la réduction de la subvention</li>
+    <li><strong><a href="/fr/blog/ethereum-supply-inflationary-ultrasound-money">L'offre nette d'Ethereum +83 550 ETH en 30 jours — la thèse de la 'monnaie ultrasonique' vacille</a>:</strong> Où en est une chaîne qui a déjà choisi un modèle d'offre flexible</li>
+    <li><strong><a href="/fr/blog/bitcoin-halving-timing">Quel est le meilleur moment pour acheter après un halving Bitcoin ?</a>:</strong> Contexte sur le calendrier de halving et la réduction de la subvention</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Oferta líquida da Ethereum +83.550 ETH em 30 dias — a tese do 'dinheiro ultrassônico' vacila</a>:</strong> Como está uma rede que já escolheu um modelo de oferta flexível</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">Qual é o melhor momento para comprar após um halving do Bitcoin?</a>:</strong> Contexto sobre o cronograma de halving e a redução do subsídio</li>
+    <li><strong><a href="/pt/blog/ethereum-supply-inflationary-ultrasound-money">Oferta líquida da Ethereum +83.550 ETH em 30 dias — a tese do 'dinheiro ultrassônico' vacila</a>:</strong> Como está uma rede que já escolheu um modelo de oferta flexível</li>
+    <li><strong><a href="/pt/blog/bitcoin-halving-timing">Qual é o melhor momento para comprar após um halving do Bitcoin?</a>:</strong> Contexto sobre o cronograma de halving e a redução do subsídio</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Ethereum'un Net Arzı 30 Günde +83.550 ETH — 'Ultrasonik Para' Tezi Sarsılıyor</a>:</strong> Zaten esnek bir arz modeli seçmiş bir zincirin şu anki durumu</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">Bitcoin Yarılanmasından Sonra Alım İçin En İyi Zaman Ne Zaman?</a>:</strong> Sübvansiyonun küçüldüğü yarılanma takviminin arka planı</li>
+    <li><strong><a href="/tr/blog/ethereum-supply-inflationary-ultrasound-money">Ethereum'un Net Arzı 30 Günde +83.550 ETH — 'Ultrasonik Para' Tezi Sarsılıyor</a>:</strong> Zaten esnek bir arz modeli seçmiş bir zincirin şu anki durumu</li>
+    <li><strong><a href="/tr/blog/bitcoin-halving-timing">Bitcoin Yarılanmasından Sonra Alım İçin En İyi Zaman Ne Zaman?</a>:</strong> Sübvansiyonun küçüldüğü yarılanma takviminin arka planı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/ethereum-supply-inflationary-ultrasound-money.php">Cung ròng Ethereum +83.550 ETH trong 30 ngày — luận điểm 'tiền siêu âm' lung lay</a>:</strong> Tình hình hiện tại của một chuỗi đã chọn mô hình cung linh hoạt</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.php">Thời điểm tốt nhất để mua sau halving Bitcoin là khi nào?</a>:</strong> Kiến thức nền về lịch trình halving làm giảm phần thưởng</li>
+    <li><strong><a href="/vi/blog/ethereum-supply-inflationary-ultrasound-money">Cung ròng Ethereum +83.550 ETH trong 30 ngày — luận điểm 'tiền siêu âm' lung lay</a>:</strong> Tình hình hiện tại của một chuỗi đã chọn mô hình cung linh hoạt</li>
+    <li><strong><a href="/vi/blog/bitcoin-halving-timing">Thời điểm tốt nhất để mua sau halving Bitcoin là khi nào?</a>:</strong> Kiến thức nền về lịch trình halving làm giảm phần thưởng</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인텔레그래프(스타크웨어 CEO 4% 비트코인 인플레이션 모델 제안), 크립토타임스(스타크웨어 CEO "2100만 개 상한, 말이 안 된다"), 트레이더스유니언(스타크웨어 4% 발행 제안 보도), 코인데스크(2026년 4월 스타크웨어 구조조정·스타크넷 매출 급감 보도), 레저·리버 파이낸셜(손실 비트코인 추정치). 수치는 추정치이며 본 글은 투자 조언이 아니다.</p>

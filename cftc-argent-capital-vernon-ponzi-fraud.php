@@ -492,40 +492,40 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">"낮은 리스크, 연 30%" 크립토 헤지펀드, 420만弗 투자자 소송에 휘말리다</a>:</strong> 비슷한 '가짜 실적' 구조로 투자자를 속인 또 다른 크립토 헤지펀드 소송</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">미국 퍼페추얼의 상륙 — 콜쉬 BTCPERP와 '지침'이라는 취약한 기반</a>:</strong> CFTC가 크립토 파생상품을 어떻게 규율하려 하는지 보여주는 글</li>
+    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">"낮은 리스크, 연 30%" 크립토 헤지펀드, 420만弗 투자자 소송에 휘말리다</a>:</strong> 비슷한 '가짜 실적' 구조로 투자자를 속인 또 다른 크립토 헤지펀드 소송</li>
+    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals">미국 퍼페추얼의 상륙 — 콜쉬 BTCPERP와 '지침'이라는 취약한 기반</a>:</strong> CFTC가 크립토 파생상품을 어떻게 규율하려 하는지 보여주는 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">"Low Risk, 30% a Year" — Crypto Hedge Fund Fehu Hit With $4.2M Investor Fraud Suit</a>:</strong> Another crypto hedge fund accused of deceiving investors with a similar fake-performance structure</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Perpetuals Come Onshore — Kalshi's BTCPERP and the Fragile Foundation of 'Guidance'</a>:</strong> How the CFTC is trying to bring crypto derivatives under its regulatory umbrella</li>
+    <li><strong><a href="/en/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">"Low Risk, 30% a Year" — Crypto Hedge Fund Fehu Hit With $4.2M Investor Fraud Suit</a>:</strong> Another crypto hedge fund accused of deceiving investors with a similar fake-performance structure</li>
+    <li><strong><a href="/en/blog/kalshi-btcperp-cftc-onshore-perpetuals">Perpetuals Come Onshore — Kalshi's BTCPERP and the Fragile Foundation of 'Guidance'</a>:</strong> How the CFTC is trying to bring crypto derivatives under its regulatory umbrella</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">「低リスク、年利30%」暗号資産ヘッジファンド、420万ドルの投資家訴訟に巻き込まれる</a>:</strong> 同様の偽装実績で投資家を欺いた別の暗号資産ヘッジファンド訴訟</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">米国パーペチュアルの上陸 — コルシのBTCPERPと「指針」という脆い基盤</a>:</strong> CFTCが暗号資産デリバティブをどう規律しようとしているかを示す記事</li>
+    <li><strong><a href="/ja/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">「低リスク、年利30%」暗号資産ヘッジファンド、420万ドルの投資家訴訟に巻き込まれる</a>:</strong> 同様の偽装実績で投資家を欺いた別の暗号資産ヘッジファンド訴訟</li>
+    <li><strong><a href="/ja/blog/kalshi-btcperp-cftc-onshore-perpetuals">米国パーペチュアルの上陸 — コルシのBTCPERPと「指針」という脆い基盤</a>:</strong> CFTCが暗号資産デリバティブをどう規律しようとしているかを示す記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">"Bajo Riesgo, 30% Anual" — El Fondo de Cobertura Cripto Fehu Recibe Demanda de Inversores por $4,2M</a>:</strong> Otro fondo de cobertura cripto acusado de engañar a inversores con una estructura de rendimiento falso similar</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Los Perpetuos Llegan a Suelo Estadounidense — El BTCPERP de Kalshi y la Frágil Base de la 'Guía'</a>:</strong> Cómo la CFTC intenta traer los derivados cripto bajo su paraguas regulatorio</li>
+    <li><strong><a href="/es/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">"Bajo Riesgo, 30% Anual" — El Fondo de Cobertura Cripto Fehu Recibe Demanda de Inversores por $4,2M</a>:</strong> Otro fondo de cobertura cripto acusado de engañar a inversores con una estructura de rendimiento falso similar</li>
+    <li><strong><a href="/es/blog/kalshi-btcperp-cftc-onshore-perpetuals">Los Perpetuos Llegan a Suelo Estadounidense — El BTCPERP de Kalshi y la Frágil Base de la 'Guía'</a>:</strong> Cómo la CFTC intenta traer los derivados cripto bajo su paraguas regulatorio</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">"Niedriges Risiko, 30% pro Jahr" — Krypto-Hedgefonds Fehu von 4,2-Mio.-Dollar-Anlegerklage getroffen</a>:</strong> Ein weiterer Krypto-Hedgefonds, dem vorgeworfen wird, Anleger mit einer ähnlichen Fake-Performance-Struktur getäuscht zu haben</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Perpetuals Kommen Onshore — Kalshis BTCPERP und das Brüchige Fundament der 'Guidance'</a>:</strong> Wie die CFTC versucht, Krypto-Derivate unter ihre Regulierungsaufsicht zu bringen</li>
+    <li><strong><a href="/de/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">"Niedriges Risiko, 30% pro Jahr" — Krypto-Hedgefonds Fehu von 4,2-Mio.-Dollar-Anlegerklage getroffen</a>:</strong> Ein weiterer Krypto-Hedgefonds, dem vorgeworfen wird, Anleger mit einer ähnlichen Fake-Performance-Struktur getäuscht zu haben</li>
+    <li><strong><a href="/de/blog/kalshi-btcperp-cftc-onshore-perpetuals">Perpetuals Kommen Onshore — Kalshis BTCPERP und das Brüchige Fundament der 'Guidance'</a>:</strong> Wie die CFTC versucht, Krypto-Derivate unter ihre Regulierungsaufsicht zu bringen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">« Faible Risque, 30 % par An » — Le Fonds Spéculatif Crypto Fehu Visé par une Plainte d'Investisseurs de 4,2 M$</a>:</strong> Un autre fonds spéculatif crypto accusé d'avoir trompé des investisseurs avec une structure de fausse performance similaire</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Les Perpétuels Arrivent Onshore — Le BTCPERP de Kalshi et la Base Fragile de la « Guidance »</a>:</strong> Comment la CFTC tente de faire entrer les dérivés crypto sous son parapluie réglementaire</li>
+    <li><strong><a href="/fr/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">« Faible Risque, 30 % par An » — Le Fonds Spéculatif Crypto Fehu Visé par une Plainte d'Investisseurs de 4,2 M$</a>:</strong> Un autre fonds spéculatif crypto accusé d'avoir trompé des investisseurs avec une structure de fausse performance similaire</li>
+    <li><strong><a href="/fr/blog/kalshi-btcperp-cftc-onshore-perpetuals">Les Perpétuels Arrivent Onshore — Le BTCPERP de Kalshi et la Base Fragile de la « Guidance »</a>:</strong> Comment la CFTC tente de faire entrer les dérivés crypto sous son parapluie réglementaire</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">"Baixo Risco, 30% ao Ano" — Fundo de Hedge Cripto Fehu é Alvo de Ação de Investidores de US$ 4,2M</a>:</strong> Outro fundo de hedge cripto acusado de enganar investidores com uma estrutura de desempenho falso semelhante</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Os Perpétuos Chegam ao Território Americano — O BTCPERP da Kalshi e a Base Frágil da 'Orientação'</a>:</strong> Como a CFTC está tentando trazer os derivativos cripto para sua supervisão regulatória</li>
+    <li><strong><a href="/pt/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">"Baixo Risco, 30% ao Ano" — Fundo de Hedge Cripto Fehu é Alvo de Ação de Investidores de US$ 4,2M</a>:</strong> Outro fundo de hedge cripto acusado de enganar investidores com uma estrutura de desempenho falso semelhante</li>
+    <li><strong><a href="/pt/blog/kalshi-btcperp-cftc-onshore-perpetuals">Os Perpétuos Chegam ao Território Americano — O BTCPERP da Kalshi e a Base Frágil da 'Orientação'</a>:</strong> Como a CFTC está tentando trazer os derivativos cripto para sua supervisão regulatória</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Düşük Risk, Yılda %30' — Kripto Hedge Fonu Fehu, 4,2 Milyon Dolarlık Yatırımcı Davasıyla Karşı Karşıya</a>:</strong> Benzer sahte performans yapısıyla yatırımcıları kandırmakla suçlanan başka bir kripto hedge fonu davası</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Perpetual'lar Karaya Çıkıyor — Kalshi'nin BTCPERP'i ve 'Kılavuzun' Kırılgan Temeli</a>:</strong> CFTC'nin kripto türevlerini düzenleyici şemsiyesi altına almaya nasıl çalıştığını gösteren yazı</li>
+    <li><strong><a href="/tr/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Düşük Risk, Yılda %30' — Kripto Hedge Fonu Fehu, 4,2 Milyon Dolarlık Yatırımcı Davasıyla Karşı Karşıya</a>:</strong> Benzer sahte performans yapısıyla yatırımcıları kandırmakla suçlanan başka bir kripto hedge fonu davası</li>
+    <li><strong><a href="/tr/blog/kalshi-btcperp-cftc-onshore-perpetuals">Perpetual'lar Karaya Çıkıyor — Kalshi'nin BTCPERP'i ve 'Kılavuzun' Kırılgan Temeli</a>:</strong> CFTC'nin kripto türevlerini düzenleyici şemsiyesi altına almaya nasıl çalıştığını gösteren yazı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/flexfills-fehu-hedge-fund-fraud-lawsuit.php">'Rủi Ro Thấp, 30% Mỗi Năm' — Quỹ Phòng Hộ Tiền Mã Hóa Fehu Dính Đơn Kiện Gian Lận Nhà Đầu Tư 4,2 Triệu USD</a>:</strong> Một quỹ phòng hộ tiền mã hóa khác bị cáo buộc lừa dối nhà đầu tư bằng cấu trúc hiệu suất giả tương tự</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Hợp Đồng Vĩnh Cửu Cập Bến Mỹ — BTCPERP của Kalshi và Nền Tảng Mong Manh Mang Tên 'Hướng Dẫn'</a>:</strong> Bài viết cho thấy CFTC đang cố gắng đưa các phái sinh tiền mã hóa vào khuôn khổ quản lý của mình như thế nào</li>
+    <li><strong><a href="/vi/blog/flexfills-fehu-hedge-fund-fraud-lawsuit">'Rủi Ro Thấp, 30% Mỗi Năm' — Quỹ Phòng Hộ Tiền Mã Hóa Fehu Dính Đơn Kiện Gian Lận Nhà Đầu Tư 4,2 Triệu USD</a>:</strong> Một quỹ phòng hộ tiền mã hóa khác bị cáo buộc lừa dối nhà đầu tư bằng cấu trúc hiệu suất giả tương tự</li>
+    <li><strong><a href="/vi/blog/kalshi-btcperp-cftc-onshore-perpetuals">Hợp Đồng Vĩnh Cửu Cập Bến Mỹ — BTCPERP của Kalshi và Nền Tảng Mong Manh Mang Tên 'Hướng Dẫn'</a>:</strong> Bài viết cho thấy CFTC đang cố gắng đưa các phái sinh tiền mã hóa vào khuôn khổ quản lý của mình như thế nào</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CFTC(소장 및 과거 집행 보도자료), CoinNess, 전미선물협회(NFA) BASIC 데이터베이스. 수치는 소장 및 보도 시점 기준이며 소송 절차에 따라 달라질 수 있다. 본 글은 투자 조언이 아니며 법적 판단이 확정되기 전까지 모든 혐의는 '주장'임을 밝힌다.</p>

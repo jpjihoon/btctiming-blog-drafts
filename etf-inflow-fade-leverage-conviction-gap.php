@@ -469,67 +469,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 이번 유입 감속 직후 닥친 지정학 충격의 배경</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">매수벽이 반토막 났다 — 그런데 ETF는 열흘 만에 돌아왔다</a>:</strong> ETF 유출 스트릭이 끊기기 전 시장 유동성 배경</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">펀딩비, 11일 만에 처음 플러스 전환 — 그런데 거래소에서는 여전히 비트코인이 빠져나간다</a>:</strong> 파생 레버리지 회복 신호를 앞서 짚은 글</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">이익 방석은 아직 안 채워졌다 — NUPL 0.15, 미결제약정은 반등 속에서도 줄었다</a>:</strong> 같은 반등을 온체인 이익 여력 관점에서</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 글의 공포탐욕지수 배경</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 이번 유입 감속 직후 닥친 지정학 충격의 배경</li>
+    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap">매수벽이 반토막 났다 — 그런데 ETF는 열흘 만에 돌아왔다</a>:</strong> ETF 유출 스트릭이 끊기기 전 시장 유동성 배경</li>
+    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap">펀딩비, 11일 만에 처음 플러스 전환 — 그런데 거래소에서는 여전히 비트코인이 빠져나간다</a>:</strong> 파생 레버리지 회복 신호를 앞서 짚은 글</li>
+    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap">이익 방석은 아직 안 채워졌다 — NUPL 0.15, 미결제약정은 반등 속에서도 줄었다</a>:</strong> 같은 반등을 온체인 이익 여력 관점에서</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 글의 공포탐욕지수 배경</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> The geopolitical shock that hit right after this flow deceleration</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">The Order Book Lost Half Its Depth — Yet ETFs Just Turned Around After Ten Days</a>:</strong> The liquidity backdrop before the ETF outflow streak broke</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Funding Rate Turns Positive for the First Time in 11 Days — But Bitcoin Keeps Leaving Exchanges</a>:</strong> An earlier look at derivatives-leverage recovery signals</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">The Profit Cushion Hasn't Refilled — NUPL Sits at 0.15 While Open Interest Fell Through the Bounce</a>:</strong> The same bounce from an on-chain profit-cushion angle</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The Fear & Greed Index backdrop for this piece</li>
+    <li><strong><a href="/en/blog/iran-shock-derivatives-positioning-gap">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> The geopolitical shock that hit right after this flow deceleration</li>
+    <li><strong><a href="/en/blog/market-depth-etf-inflow-fragility-gap">The Order Book Lost Half Its Depth — Yet ETFs Just Turned Around After Ten Days</a>:</strong> The liquidity backdrop before the ETF outflow streak broke</li>
+    <li><strong><a href="/en/blog/funding-rate-turns-positive-exchange-outflow-gap">Funding Rate Turns Positive for the First Time in 11 Days — But Bitcoin Keeps Leaving Exchanges</a>:</strong> An earlier look at derivatives-leverage recovery signals</li>
+    <li><strong><a href="/en/blog/nupl-taker-sell-hollow-bounce-gap">The Profit Cushion Hasn't Refilled — NUPL Sits at 0.15 While Open Interest Fell Through the Bounce</a>:</strong> The same bounce from an on-chain profit-cushion angle</li>
+    <li><strong><a href="/en/blog/quiet-rebound-sentiment-attention-gap">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The Fear & Greed Index backdrop for this piece</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> この資金流入減速の直後に襲った地政学ショックの背景</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">板が半分に薄くなった — それでもETFは10日ぶりに反転した</a>:</strong> ETF流出記録が途切れる前の市場流動性の背景</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">ファンディングレート、11日ぶりにプラス転換 — だが取引所からはビットコインが流出し続けている</a>:</strong> デリバティブ・レバレッジ回復シグナルを先に取り上げた記事</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">利益クッションはまだ埋まっていない — NUPLは0.15、未決済建玉は反発の中でも減少した</a>:</strong> 同じ反発をオンチェーンの利益余力の観点から</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この記事の恐怖強欲指数の背景</li>
+    <li><strong><a href="/ja/blog/iran-shock-derivatives-positioning-gap">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> この資金流入減速の直後に襲った地政学ショックの背景</li>
+    <li><strong><a href="/ja/blog/market-depth-etf-inflow-fragility-gap">板が半分に薄くなった — それでもETFは10日ぶりに反転した</a>:</strong> ETF流出記録が途切れる前の市場流動性の背景</li>
+    <li><strong><a href="/ja/blog/funding-rate-turns-positive-exchange-outflow-gap">ファンディングレート、11日ぶりにプラス転換 — だが取引所からはビットコインが流出し続けている</a>:</strong> デリバティブ・レバレッジ回復シグナルを先に取り上げた記事</li>
+    <li><strong><a href="/ja/blog/nupl-taker-sell-hollow-bounce-gap">利益クッションはまだ埋まっていない — NUPLは0.15、未決済建玉は反発の中でも減少した</a>:</strong> 同じ反発をオンチェーンの利益余力の観点から</li>
+    <li><strong><a href="/ja/blog/quiet-rebound-sentiment-attention-gap">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この記事の恐怖強欲指数の背景</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> El shock geopolítico que golpeó justo después de esta desaceleración de flujo</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">El Libro de Órdenes Perdió la Mitad de su Profundidad — Pero los ETF Acaban de Revertirse Tras Diez Días</a>:</strong> El contexto de liquidez antes de que se rompiera la racha de salidas de los ETF</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">La Tasa de Financiación Vuelve a Ser Positiva por Primera Vez en 11 Días — Pero Bitcoin Sigue Saliendo de los Exchanges</a>:</strong> Una mirada anterior a las señales de recuperación del apalancamiento en derivados</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">El Colchón de Beneficios Aún No Se Ha Rellenado — El NUPL Está en 0,15 Mientras el Interés Abierto Cayó Durante el Rebote</a>:</strong> El mismo rebote desde el ángulo del colchón de beneficios on-chain</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> El contexto del Índice de Miedo y Codicia de esta pieza</li>
+    <li><strong><a href="/es/blog/iran-shock-derivatives-positioning-gap">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> El shock geopolítico que golpeó justo después de esta desaceleración de flujo</li>
+    <li><strong><a href="/es/blog/market-depth-etf-inflow-fragility-gap">El Libro de Órdenes Perdió la Mitad de su Profundidad — Pero los ETF Acaban de Revertirse Tras Diez Días</a>:</strong> El contexto de liquidez antes de que se rompiera la racha de salidas de los ETF</li>
+    <li><strong><a href="/es/blog/funding-rate-turns-positive-exchange-outflow-gap">La Tasa de Financiación Vuelve a Ser Positiva por Primera Vez en 11 Días — Pero Bitcoin Sigue Saliendo de los Exchanges</a>:</strong> Una mirada anterior a las señales de recuperación del apalancamiento en derivados</li>
+    <li><strong><a href="/es/blog/nupl-taker-sell-hollow-bounce-gap">El Colchón de Beneficios Aún No Se Ha Rellenado — El NUPL Está en 0,15 Mientras el Interés Abierto Cayó Durante el Rebote</a>:</strong> El mismo rebote desde el ángulo del colchón de beneficios on-chain</li>
+    <li><strong><a href="/es/blog/quiet-rebound-sentiment-attention-gap">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> El contexto del Índice de Miedo y Codicia de esta pieza</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Der geopolitische Schock, der direkt nach dieser Fluss-Verlangsamung einschlug</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Das Orderbuch Verlor die Hälfte Seiner Tiefe — Doch ETFs Drehten Gerade nach Zehn Tagen</a>:</strong> Der Liquiditätshintergrund, bevor die ETF-Abfluss-Serie brach</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Funding Rate wird nach 11 Tagen erstmals wieder positiv — doch Bitcoin verlässt weiterhin die Börsen</a>:</strong> Ein früherer Blick auf Signale der Derivate-Hebel-Erholung</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Das Gewinnpolster Ist Noch Nicht Wieder Aufgefüllt — NUPL Liegt bei 0,15, Während das Open Interest Während der Erholung Fiel</a>:</strong> Dieselbe Erholung aus der Perspektive des On-Chain-Gewinnpolsters</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Der Fear-&-Greed-Index-Hintergrund dieses Beitrags</li>
+    <li><strong><a href="/de/blog/iran-shock-derivatives-positioning-gap">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Der geopolitische Schock, der direkt nach dieser Fluss-Verlangsamung einschlug</li>
+    <li><strong><a href="/de/blog/market-depth-etf-inflow-fragility-gap">Das Orderbuch Verlor die Hälfte Seiner Tiefe — Doch ETFs Drehten Gerade nach Zehn Tagen</a>:</strong> Der Liquiditätshintergrund, bevor die ETF-Abfluss-Serie brach</li>
+    <li><strong><a href="/de/blog/funding-rate-turns-positive-exchange-outflow-gap">Funding Rate wird nach 11 Tagen erstmals wieder positiv — doch Bitcoin verlässt weiterhin die Börsen</a>:</strong> Ein früherer Blick auf Signale der Derivate-Hebel-Erholung</li>
+    <li><strong><a href="/de/blog/nupl-taker-sell-hollow-bounce-gap">Das Gewinnpolster Ist Noch Nicht Wieder Aufgefüllt — NUPL Liegt bei 0,15, Während das Open Interest Während der Erholung Fiel</a>:</strong> Dieselbe Erholung aus der Perspektive des On-Chain-Gewinnpolsters</li>
+    <li><strong><a href="/de/blog/quiet-rebound-sentiment-attention-gap">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Der Fear-&-Greed-Index-Hintergrund dieses Beitrags</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a> :</strong> Le choc géopolitique survenu juste après ce ralentissement des flux</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Le Carnet d'Ordres a Perdu la Moitié de sa Profondeur — Pourtant les ETF Viennent de se Retourner Après Dix Jours</a> :</strong> Le contexte de liquidité avant la rupture de la série de sorties des ETF</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Le Taux de Financement Devient Positif pour la Première Fois en 11 Jours — Mais le Bitcoin Continue de Quitter les Exchanges</a> :</strong> Un précédent regard sur les signaux de reprise de l'effet de levier des dérivés</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Le Coussin de Profit N'est Pas Encore Reconstitué — Le NUPL est à 0,15 Alors que l'Open Interest a Chuté Pendant le Rebond</a> :</strong> Le même rebond sous l'angle du coussin de profit on-chain</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a> :</strong> Le contexte de l'Indice de Peur et de Cupidité de cet article</li>
+    <li><strong><a href="/fr/blog/iran-shock-derivatives-positioning-gap">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a> :</strong> Le choc géopolitique survenu juste après ce ralentissement des flux</li>
+    <li><strong><a href="/fr/blog/market-depth-etf-inflow-fragility-gap">Le Carnet d'Ordres a Perdu la Moitié de sa Profondeur — Pourtant les ETF Viennent de se Retourner Après Dix Jours</a> :</strong> Le contexte de liquidité avant la rupture de la série de sorties des ETF</li>
+    <li><strong><a href="/fr/blog/funding-rate-turns-positive-exchange-outflow-gap">Le Taux de Financement Devient Positif pour la Première Fois en 11 Jours — Mais le Bitcoin Continue de Quitter les Exchanges</a> :</strong> Un précédent regard sur les signaux de reprise de l'effet de levier des dérivés</li>
+    <li><strong><a href="/fr/blog/nupl-taker-sell-hollow-bounce-gap">Le Coussin de Profit N'est Pas Encore Reconstitué — Le NUPL est à 0,15 Alors que l'Open Interest a Chuté Pendant le Rebond</a> :</strong> Le même rebond sous l'angle du coussin de profit on-chain</li>
+    <li><strong><a href="/fr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a> :</strong> Le contexte de l'Indice de Peur et de Cupidité de cet article</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> O choque geopolítico que atingiu logo após essa desaceleração de fluxo</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">O Livro de Ofertas Perdeu Metade da Profundidade — Mas os ETFs Acabaram de Virar Depois de Dez Dias</a>:</strong> O contexto de liquidez antes de a sequência de saídas dos ETFs se romper</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Taxa de Financiamento Vira Positiva pela Primeira Vez em 11 Dias — Mas o Bitcoin Continua Saindo dos Exchanges</a>:</strong> Um olhar anterior sobre sinais de recuperação da alavancagem em derivativos</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">O Colchão de Lucro Ainda Não Foi Reabastecido — O NUPL Está em 0,15 Enquanto o Interesse em Aberto Caiu Durante o Repique</a>:</strong> O mesmo repique sob o ângulo do colchão de lucro on-chain</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> O contexto do Índice de Medo e Ganância desta matéria</li>
+    <li><strong><a href="/pt/blog/iran-shock-derivatives-positioning-gap">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> O choque geopolítico que atingiu logo após essa desaceleração de fluxo</li>
+    <li><strong><a href="/pt/blog/market-depth-etf-inflow-fragility-gap">O Livro de Ofertas Perdeu Metade da Profundidade — Mas os ETFs Acabaram de Virar Depois de Dez Dias</a>:</strong> O contexto de liquidez antes de a sequência de saídas dos ETFs se romper</li>
+    <li><strong><a href="/pt/blog/funding-rate-turns-positive-exchange-outflow-gap">Taxa de Financiamento Vira Positiva pela Primeira Vez em 11 Dias — Mas o Bitcoin Continua Saindo dos Exchanges</a>:</strong> Um olhar anterior sobre sinais de recuperação da alavancagem em derivativos</li>
+    <li><strong><a href="/pt/blog/nupl-taker-sell-hollow-bounce-gap">O Colchão de Lucro Ainda Não Foi Reabastecido — O NUPL Está em 0,15 Enquanto o Interesse em Aberto Caiu Durante o Repique</a>:</strong> O mesmo repique sob o ângulo do colchão de lucro on-chain</li>
+    <li><strong><a href="/pt/blog/quiet-rebound-sentiment-attention-gap">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> O contexto do Índice de Medo e Ganância desta matéria</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> Bu akış yavaşlamasının hemen ardından gelen jeopolitik şok</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Emir Defteri Derinliğinin Yarısını Kaybetti — Yine de ETF'ler On Günün Ardından Az Önce Döndü</a>:</strong> ETF çıkış serisi kırılmadan önceki likidite arka planı</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Fonlama Oranı 11 Günde İlk Kez Pozitife Döndü — Ama Bitcoin Borsalardan Çıkmaya Devam Ediyor</a>:</strong> Türev kaldıraç toparlanma sinyallerine daha önceki bir bakış</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Kâr Yastığı Henüz Yeniden Dolmadı — NUPL 0,15'te Otururken Açık Pozisyon Toparlanma Sırasında Düştü</a>:</strong> Aynı toparlanma zincir üstü kâr yastığı açısından</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yazının Korku ve Açgözlülük Endeksi arka planı</li>
+    <li><strong><a href="/tr/blog/iran-shock-derivatives-positioning-gap">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> Bu akış yavaşlamasının hemen ardından gelen jeopolitik şok</li>
+    <li><strong><a href="/tr/blog/market-depth-etf-inflow-fragility-gap">Emir Defteri Derinliğinin Yarısını Kaybetti — Yine de ETF'ler On Günün Ardından Az Önce Döndü</a>:</strong> ETF çıkış serisi kırılmadan önceki likidite arka planı</li>
+    <li><strong><a href="/tr/blog/funding-rate-turns-positive-exchange-outflow-gap">Fonlama Oranı 11 Günde İlk Kez Pozitife Döndü — Ama Bitcoin Borsalardan Çıkmaya Devam Ediyor</a>:</strong> Türev kaldıraç toparlanma sinyallerine daha önceki bir bakış</li>
+    <li><strong><a href="/tr/blog/nupl-taker-sell-hollow-bounce-gap">Kâr Yastığı Henüz Yeniden Dolmadı — NUPL 0,15'te Otururken Açık Pozisyon Toparlanma Sırasında Düştü</a>:</strong> Aynı toparlanma zincir üstü kâr yastığı açısından</li>
+    <li><strong><a href="/tr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yazının Korku ve Açgözlülük Endeksi arka planı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Cú sốc địa chính trị ập đến ngay sau đợt giảm tốc dòng vốn này</li>
-    <li><strong><a href="/blog/market-depth-etf-inflow-fragility-gap.php">Sổ Lệnh Đã Mất Một Nửa Độ Sâu — Nhưng ETF Vừa Đảo Chiều Sau Mười Ngày</a>:</strong> Bối cảnh thanh khoản trước khi chuỗi rút vốn ETF bị phá vỡ</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Tỷ Lệ Tài Trợ Chuyển Dương Lần Đầu Sau 11 Ngày — Nhưng Bitcoin Vẫn Tiếp Tục Rời Khỏi Các Sàn</a>:</strong> Một góc nhìn trước đó về tín hiệu phục hồi đòn bẩy phái sinh</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Lớp Đệm Lợi Nhuận Vẫn Chưa Được Lấp Đầy — NUPL Ở Mức 0,15 Trong Khi Hợp Đồng Mở Giảm Suốt Đợt Phục Hồi</a>:</strong> Cùng đợt phục hồi nhìn từ góc độ lớp đệm lợi nhuận on-chain</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Bối cảnh Chỉ số Sợ hãi và Tham lam của bài viết này</li>
+    <li><strong><a href="/vi/blog/iran-shock-derivatives-positioning-gap">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Cú sốc địa chính trị ập đến ngay sau đợt giảm tốc dòng vốn này</li>
+    <li><strong><a href="/vi/blog/market-depth-etf-inflow-fragility-gap">Sổ Lệnh Đã Mất Một Nửa Độ Sâu — Nhưng ETF Vừa Đảo Chiều Sau Mười Ngày</a>:</strong> Bối cảnh thanh khoản trước khi chuỗi rút vốn ETF bị phá vỡ</li>
+    <li><strong><a href="/vi/blog/funding-rate-turns-positive-exchange-outflow-gap">Tỷ Lệ Tài Trợ Chuyển Dương Lần Đầu Sau 11 Ngày — Nhưng Bitcoin Vẫn Tiếp Tục Rời Khỏi Các Sàn</a>:</strong> Một góc nhìn trước đó về tín hiệu phục hồi đòn bẩy phái sinh</li>
+    <li><strong><a href="/vi/blog/nupl-taker-sell-hollow-bounce-gap">Lớp Đệm Lợi Nhuận Vẫn Chưa Được Lấp Đầy — NUPL Ở Mức 0,15 Trong Khi Hợp Đồng Mở Giảm Suốt Đợt Phục Hồi</a>:</strong> Cùng đợt phục hồi nhìn từ góc độ lớp đệm lợi nhuận on-chain</li>
+    <li><strong><a href="/vi/blog/quiet-rebound-sentiment-attention-gap">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Bối cảnh Chỉ số Sợ hãi và Tham lam của bài viết này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Farside Investors 경유 CoinDesk·KuCoin News(ETF 일별 자금 흐름), TechTimes(역대 유출 스트릭 기록), Intellectia.ai(2026년 ETF 자금 흐름 분석), CoinDesk(이란 충격·시장 동향), Coinalyze·CoinGlass(미결제약정·펀딩비·청산), CryptoDaily.co.uk(미결제약정 맥락), Milkroad·Alternative.me(공포탐욕지수), BTCtiming.com 자체 분석. 수치는 2026년 7월 8일 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 시장 상태를 진단하는 콘텐츠이며 투자 조언이 아니다.</p>

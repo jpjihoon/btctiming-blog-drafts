@@ -576,67 +576,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">알트시즌·도미넌스 반전 감시</a>:</strong> 도미넌스와 알트시즌지수를 처음 짚은 글</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">이더리움 거래소 잔고 8년 최저 vs ETF 자금 유출</a>:</strong> 같은 ETH 반등을 공급·ETF 수요 측면에서 본 진단</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">코인베이스 프리미엄 역대 최장 마이너스 vs 도미넌스 상승</a>:</strong> 하루 전 도미넌스가 오르던 국면과의 비교</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">비트코인 도미넌스란 무엇인가</a>:</strong> 도미넌스 지표의 기초</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">비트코인 상관관계 가이드</a>:</strong> 자산 간 상관관계를 읽는 법</li>
+    <li><strong><a href="/blog/altseason-dominance-flip-watch">알트시즌·도미넌스 반전 감시</a>:</strong> 도미넌스와 알트시즌지수를 처음 짚은 글</li>
+    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag">이더리움 거래소 잔고 8년 최저 vs ETF 자금 유출</a>:</strong> 같은 ETH 반등을 공급·ETF 수요 측면에서 본 진단</li>
+    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap">코인베이스 프리미엄 역대 최장 마이너스 vs 도미넌스 상승</a>:</strong> 하루 전 도미넌스가 오르던 국면과의 비교</li>
+    <li><strong><a href="/blog/bitcoin-dominance">비트코인 도미넌스란 무엇인가</a>:</strong> 도미넌스 지표의 기초</li>
+    <li><strong><a href="/blog/btc-correlation-guide">비트코인 상관관계 가이드</a>:</strong> 자산 간 상관관계를 읽는 법</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Watching the Altseason-Dominance Flip</a>:</strong> The earlier piece that first flagged dominance and the Altcoin Season Index</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Ether's Exchange Reserves at an 8-Year Low vs ETF Outflows</a>:</strong> The same ETH bounce diagnosed through supply and ETF demand</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">Coinbase Premium's Record Negative Streak vs Rising Dominance</a>:</strong> A comparison with the moment, a day earlier, when dominance was still climbing</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">What Is Bitcoin Dominance</a>:</strong> The fundamentals of the dominance metric</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Bitcoin Correlation Guide</a>:</strong> How to read cross-asset correlations</li>
+    <li><strong><a href="/en/blog/altseason-dominance-flip-watch">Watching the Altseason-Dominance Flip</a>:</strong> The earlier piece that first flagged dominance and the Altcoin Season Index</li>
+    <li><strong><a href="/en/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Ether's Exchange Reserves at an 8-Year Low vs ETF Outflows</a>:</strong> The same ETH bounce diagnosed through supply and ETF demand</li>
+    <li><strong><a href="/en/blog/coinbase-premium-record-streak-btc-dominance-gap">Coinbase Premium's Record Negative Streak vs Rising Dominance</a>:</strong> A comparison with the moment, a day earlier, when dominance was still climbing</li>
+    <li><strong><a href="/en/blog/bitcoin-dominance">What Is Bitcoin Dominance</a>:</strong> The fundamentals of the dominance metric</li>
+    <li><strong><a href="/en/blog/btc-correlation-guide">Bitcoin Correlation Guide</a>:</strong> How to read cross-asset correlations</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">アルトシーズン・ドミナンス反転の監視</a>:</strong> ドミナンスとアルトシーズン指数を最初に取り上げた記事</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">イーサリアム取引所残高8年ぶり最低 対 ETF資金流出</a>:</strong> 同じETH反発を供給とETF需要の観点から見た診断</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">コインベース・プレミアム歴代最長マイナス 対 ドミナンス上昇</a>:</strong> 1日前、ドミナンスが上昇していた局面との比較</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">ビットコインドミナンスとは何か</a>:</strong> ドミナンス指標の基礎</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">ビットコイン相関ガイド</a>:</strong> 資産間の相関の読み方</li>
+    <li><strong><a href="/ja/blog/altseason-dominance-flip-watch">アルトシーズン・ドミナンス反転の監視</a>:</strong> ドミナンスとアルトシーズン指数を最初に取り上げた記事</li>
+    <li><strong><a href="/ja/blog/eth-exchange-reserve-squeeze-etf-demand-lag">イーサリアム取引所残高8年ぶり最低 対 ETF資金流出</a>:</strong> 同じETH反発を供給とETF需要の観点から見た診断</li>
+    <li><strong><a href="/ja/blog/coinbase-premium-record-streak-btc-dominance-gap">コインベース・プレミアム歴代最長マイナス 対 ドミナンス上昇</a>:</strong> 1日前、ドミナンスが上昇していた局面との比較</li>
+    <li><strong><a href="/ja/blog/bitcoin-dominance">ビットコインドミナンスとは何か</a>:</strong> ドミナンス指標の基礎</li>
+    <li><strong><a href="/ja/blog/btc-correlation-guide">ビットコイン相関ガイド</a>:</strong> 資産間の相関の読み方</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Vigilando el Giro Altseason-Dominancia</a>:</strong> El artículo anterior que señaló por primera vez el dominio y el Índice de Temporada de Altcoins</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Reservas de Ether en Exchanges en Mínimo de 8 Años vs Salidas de ETF</a>:</strong> El mismo rebote de ETH diagnosticado a través de la oferta y la demanda de ETF</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">La Racha Negativa Récord de la Prima de Coinbase vs el Dominio en Alza</a>:</strong> Una comparación con el momento, un día antes, cuando el dominio aún subía</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">Qué es el Dominio de Bitcoin</a>:</strong> Los fundamentos de la métrica de dominio</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Guía de Correlación de Bitcoin</a>:</strong> Cómo leer las correlaciones entre activos</li>
+    <li><strong><a href="/es/blog/altseason-dominance-flip-watch">Vigilando el Giro Altseason-Dominancia</a>:</strong> El artículo anterior que señaló por primera vez el dominio y el Índice de Temporada de Altcoins</li>
+    <li><strong><a href="/es/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Reservas de Ether en Exchanges en Mínimo de 8 Años vs Salidas de ETF</a>:</strong> El mismo rebote de ETH diagnosticado a través de la oferta y la demanda de ETF</li>
+    <li><strong><a href="/es/blog/coinbase-premium-record-streak-btc-dominance-gap">La Racha Negativa Récord de la Prima de Coinbase vs el Dominio en Alza</a>:</strong> Una comparación con el momento, un día antes, cuando el dominio aún subía</li>
+    <li><strong><a href="/es/blog/bitcoin-dominance">Qué es el Dominio de Bitcoin</a>:</strong> Los fundamentos de la métrica de dominio</li>
+    <li><strong><a href="/es/blog/btc-correlation-guide">Guía de Correlación de Bitcoin</a>:</strong> Cómo leer las correlaciones entre activos</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Die Altseason-Dominanz-Wende im Blick</a>:</strong> Der frühere Artikel, der Dominanz und Altcoin-Season-Index erstmals aufgriff</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Ethers Börsenreserven auf 8-Jahres-Tief vs. ETF-Abflüsse</a>:</strong> Dieselbe ETH-Erholung, diagnostiziert über Angebot und ETF-Nachfrage</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">Coinbase-Prämies Rekord-Negativserie vs. steigende Dominanz</a>:</strong> Ein Vergleich mit dem Moment, einen Tag zuvor, als die Dominanz noch stieg</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">Was ist Bitcoin-Dominanz</a>:</strong> Die Grundlagen der Dominanzkennzahl</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Bitcoin-Korrelationsleitfaden</a>:</strong> Wie man Asset-übergreifende Korrelationen liest</li>
+    <li><strong><a href="/de/blog/altseason-dominance-flip-watch">Die Altseason-Dominanz-Wende im Blick</a>:</strong> Der frühere Artikel, der Dominanz und Altcoin-Season-Index erstmals aufgriff</li>
+    <li><strong><a href="/de/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Ethers Börsenreserven auf 8-Jahres-Tief vs. ETF-Abflüsse</a>:</strong> Dieselbe ETH-Erholung, diagnostiziert über Angebot und ETF-Nachfrage</li>
+    <li><strong><a href="/de/blog/coinbase-premium-record-streak-btc-dominance-gap">Coinbase-Prämies Rekord-Negativserie vs. steigende Dominanz</a>:</strong> Ein Vergleich mit dem Moment, einen Tag zuvor, als die Dominanz noch stieg</li>
+    <li><strong><a href="/de/blog/bitcoin-dominance">Was ist Bitcoin-Dominanz</a>:</strong> Die Grundlagen der Dominanzkennzahl</li>
+    <li><strong><a href="/de/blog/btc-correlation-guide">Bitcoin-Korrelationsleitfaden</a>:</strong> Wie man Asset-übergreifende Korrelationen liest</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Surveiller le Retournement Altseason-Dominance</a>:</strong> L'article précédent qui a d'abord signalé la dominance et l'indice de saison des altcoins</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Réserves d'Ether sur les Exchanges à un Plus Bas de 8 Ans vs Sorties d'ETF</a>:</strong> Le même rebond de l'ETH diagnostiqué via l'offre et la demande d'ETF</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">La Série Négative Record de la Prime Coinbase vs la Dominance en Hausse</a>:</strong> Une comparaison avec le moment, la veille, où la dominance montait encore</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">Qu'est-ce que la Dominance du Bitcoin</a>:</strong> Les fondamentaux de cette métrique</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Guide des Corrélations du Bitcoin</a>:</strong> Comment lire les corrélations entre actifs</li>
+    <li><strong><a href="/fr/blog/altseason-dominance-flip-watch">Surveiller le Retournement Altseason-Dominance</a>:</strong> L'article précédent qui a d'abord signalé la dominance et l'indice de saison des altcoins</li>
+    <li><strong><a href="/fr/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Réserves d'Ether sur les Exchanges à un Plus Bas de 8 Ans vs Sorties d'ETF</a>:</strong> Le même rebond de l'ETH diagnostiqué via l'offre et la demande d'ETF</li>
+    <li><strong><a href="/fr/blog/coinbase-premium-record-streak-btc-dominance-gap">La Série Négative Record de la Prime Coinbase vs la Dominance en Hausse</a>:</strong> Une comparaison avec le moment, la veille, où la dominance montait encore</li>
+    <li><strong><a href="/fr/blog/bitcoin-dominance">Qu'est-ce que la Dominance du Bitcoin</a>:</strong> Les fondamentaux de cette métrique</li>
+    <li><strong><a href="/fr/blog/btc-correlation-guide">Guide des Corrélations du Bitcoin</a>:</strong> Comment lire les corrélations entre actifs</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Observando a Virada Altseason-Dominância</a>:</strong> O artigo anterior que primeiro sinalizou a dominância e o Índice de Temporada das Altcoins</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Reservas de Ether em Exchanges em Mínima de 8 Anos vs Saídas de ETF</a>:</strong> O mesmo repique do ETH diagnosticado pela oferta e demanda de ETF</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">A Sequência Negativa Recorde da Prêmio Coinbase vs a Dominância em Alta</a>:</strong> Uma comparação com o momento, um dia antes, em que a dominância ainda subia</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">O Que é a Dominância do Bitcoin</a>:</strong> Os fundamentos da métrica de dominância</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Guia de Correlação do Bitcoin</a>:</strong> Como ler correlações entre ativos</li>
+    <li><strong><a href="/pt/blog/altseason-dominance-flip-watch">Observando a Virada Altseason-Dominância</a>:</strong> O artigo anterior que primeiro sinalizou a dominância e o Índice de Temporada das Altcoins</li>
+    <li><strong><a href="/pt/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Reservas de Ether em Exchanges em Mínima de 8 Anos vs Saídas de ETF</a>:</strong> O mesmo repique do ETH diagnosticado pela oferta e demanda de ETF</li>
+    <li><strong><a href="/pt/blog/coinbase-premium-record-streak-btc-dominance-gap">A Sequência Negativa Recorde da Prêmio Coinbase vs a Dominância em Alta</a>:</strong> Uma comparação com o momento, um dia antes, em que a dominância ainda subia</li>
+    <li><strong><a href="/pt/blog/bitcoin-dominance">O Que é a Dominância do Bitcoin</a>:</strong> Os fundamentos da métrica de dominância</li>
+    <li><strong><a href="/pt/blog/btc-correlation-guide">Guia de Correlação do Bitcoin</a>:</strong> Como ler correlações entre ativos</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Altseason-Dominans Dönüşünü İzlemek</a>:</strong> Dominansı ve Altcoin Sezonu Endeksi'ni ilk ele alan önceki yazı</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Ether'in Borsa Rezervleri 8 Yıllık Dipte vs ETF Çıkışları</a>:</strong> Aynı ETH yükselişinin arz ve ETF talebi açısından teşhisi</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">Coinbase Priminin Rekor Negatif Serisi vs Yükselen Dominans</a>:</strong> Bir gün önce dominansın hâlâ yükseldiği anla karşılaştırma</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">Bitcoin Dominansı Nedir</a>:</strong> Dominans göstergesinin temelleri</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Bitcoin Korelasyon Rehberi</a>:</strong> Varlıklar arası korelasyonları okuma yöntemi</li>
+    <li><strong><a href="/tr/blog/altseason-dominance-flip-watch">Altseason-Dominans Dönüşünü İzlemek</a>:</strong> Dominansı ve Altcoin Sezonu Endeksi'ni ilk ele alan önceki yazı</li>
+    <li><strong><a href="/tr/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Ether'in Borsa Rezervleri 8 Yıllık Dipte vs ETF Çıkışları</a>:</strong> Aynı ETH yükselişinin arz ve ETF talebi açısından teşhisi</li>
+    <li><strong><a href="/tr/blog/coinbase-premium-record-streak-btc-dominance-gap">Coinbase Priminin Rekor Negatif Serisi vs Yükselen Dominans</a>:</strong> Bir gün önce dominansın hâlâ yükseldiği anla karşılaştırma</li>
+    <li><strong><a href="/tr/blog/bitcoin-dominance">Bitcoin Dominansı Nedir</a>:</strong> Dominans göstergesinin temelleri</li>
+    <li><strong><a href="/tr/blog/btc-correlation-guide">Bitcoin Korelasyon Rehberi</a>:</strong> Varlıklar arası korelasyonları okuma yöntemi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Theo Dõi Sự Đảo Chiều Altseason-Thống Trị</a>:</strong> Bài viết trước đó đầu tiên chỉ ra sự thống trị và Chỉ số Mùa Altcoin</li>
-    <li><strong><a href="/blog/eth-exchange-reserve-squeeze-etf-demand-lag.php">Dự Trữ Ether Trên Sàn Chạm Đáy 8 Năm vs Dòng Rút ETF</a>:</strong> Cùng đợt phục hồi ETH được chẩn đoán qua nguồn cung và nhu cầu ETF</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-btc-dominance-gap.php">Chuỗi Âm Kỷ Lục của Coinbase Premium vs Sự Thống Trị Đang Tăng</a>:</strong> So sánh với thời điểm, một ngày trước đó, khi sự thống trị vẫn đang tăng</li>
-    <li><strong><a href="/blog/bitcoin-dominance.php">Sự Thống Trị Của Bitcoin Là Gì</a>:</strong> Kiến thức nền tảng về chỉ số thống trị</li>
-    <li><strong><a href="/blog/btc-correlation-guide.php">Hướng Dẫn Tương Quan Bitcoin</a>:</strong> Cách đọc tương quan giữa các tài sản</li>
+    <li><strong><a href="/vi/blog/altseason-dominance-flip-watch">Theo Dõi Sự Đảo Chiều Altseason-Thống Trị</a>:</strong> Bài viết trước đó đầu tiên chỉ ra sự thống trị và Chỉ số Mùa Altcoin</li>
+    <li><strong><a href="/vi/blog/eth-exchange-reserve-squeeze-etf-demand-lag">Dự Trữ Ether Trên Sàn Chạm Đáy 8 Năm vs Dòng Rút ETF</a>:</strong> Cùng đợt phục hồi ETH được chẩn đoán qua nguồn cung và nhu cầu ETF</li>
+    <li><strong><a href="/vi/blog/coinbase-premium-record-streak-btc-dominance-gap">Chuỗi Âm Kỷ Lục của Coinbase Premium vs Sự Thống Trị Đang Tăng</a>:</strong> So sánh với thời điểm, một ngày trước đó, khi sự thống trị vẫn đang tăng</li>
+    <li><strong><a href="/vi/blog/bitcoin-dominance">Sự Thống Trị Của Bitcoin Là Gì</a>:</strong> Kiến thức nền tảng về chỉ số thống trị</li>
+    <li><strong><a href="/vi/blog/btc-correlation-guide">Hướng Dẫn Tương Quan Bitcoin</a>:</strong> Cách đọc tương quan giữa các tài sản</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Yahoo Finance·CoinDesk·Fortune·Sunday Guardian Live(가격), CoinGecko·CoinMarketCap(ETH/BTC 비율), TradingView·tv-hub.org·CoinGecko·CryptoRank.io·CryptoSlate(비트코인 도미넌스·알트코인 시총 비중), CoinMarketCap·Bitget(알트시즌지수), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있고 트래커·집계 방식에 따라 절대값에 차이가 있을 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

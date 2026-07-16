@@ -522,58 +522,58 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETF는 8주 유출을 끝냈다는데 — 파생시장은 아직 베팅하지 않았다</a>:</strong> ETF 흐름과 파생시장 포지셔닝의 시차를 다룬 글</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">달러는 왕복했는데 비트코인은 반등을 지켰다</a>:</strong> 같은 주 매크로 채널과 비트코인 파생시장 지표를 다룬 글</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 미결제약정과 자산군 간 상관관계를 다룬 글</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 반등을 촉발한 심리 지표를 다룬 글</li>
+    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap">ETF는 8주 유출을 끝냈다는데 — 파생시장은 아직 베팅하지 않았다</a>:</strong> ETF 흐름과 파생시장 포지셔닝의 시차를 다룬 글</li>
+    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap">달러는 왕복했는데 비트코인은 반등을 지켰다</a>:</strong> 같은 주 매크로 채널과 비트코인 파생시장 지표를 다룬 글</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 미결제약정과 자산군 간 상관관계를 다룬 글</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 반등을 촉발한 심리 지표를 다룬 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETFs Say the Eight-Week Outflow Streak Is Over — Derivatives Haven't Placed That Bet Yet</a>:</strong> The lag between ETF flows and derivatives positioning</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">The Dollar Round-Tripped, Bitcoin Held Its Bounce</a>:</strong> Macro channels and Bitcoin's derivatives metrics in the same week</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> Open interest and cross-asset correlation regime</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The sentiment metrics behind this bounce</li>
+    <li><strong><a href="/en/blog/etf-inflow-fade-leverage-conviction-gap">ETFs Say the Eight-Week Outflow Streak Is Over — Derivatives Haven't Placed That Bet Yet</a>:</strong> The lag between ETF flows and derivatives positioning</li>
+    <li><strong><a href="/en/blog/dxy-round-trip-fed-odds-btc-lag-gap">The Dollar Round-Tripped, Bitcoin Held Its Bounce</a>:</strong> Macro channels and Bitcoin's derivatives metrics in the same week</li>
+    <li><strong><a href="/en/blog/correlation-vacuum-oi-gap">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> Open interest and cross-asset correlation regime</li>
+    <li><strong><a href="/en/blog/quiet-rebound-sentiment-attention-gap">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The sentiment metrics behind this bounce</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETFは8週間の流出を終えたというが、デリバティブ市場はまだ賭けていない</a>:</strong> ETF資金フローとデリバティブ市場ポジショニングの時差を扱った記事</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">ドルは往復したのにビットコインは反発を守った</a>:</strong> 同じ週のマクロ経路とビットコイン・デリバティブ指標を扱った記事</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ビットコインの三つの羅針盤がバラバラを指す</a>:</strong> 未決済建玉と資産間相関を扱った記事</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この反発を後押しした心理指標を扱った記事</li>
+    <li><strong><a href="/ja/blog/etf-inflow-fade-leverage-conviction-gap">ETFは8週間の流出を終えたというが、デリバティブ市場はまだ賭けていない</a>:</strong> ETF資金フローとデリバティブ市場ポジショニングの時差を扱った記事</li>
+    <li><strong><a href="/ja/blog/dxy-round-trip-fed-odds-btc-lag-gap">ドルは往復したのにビットコインは反発を守った</a>:</strong> 同じ週のマクロ経路とビットコイン・デリバティブ指標を扱った記事</li>
+    <li><strong><a href="/ja/blog/correlation-vacuum-oi-gap">ビットコインの三つの羅針盤がバラバラを指す</a>:</strong> 未決済建玉と資産間相関を扱った記事</li>
+    <li><strong><a href="/ja/blog/quiet-rebound-sentiment-attention-gap">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この反発を後押しした心理指標を扱った記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">Los ETF Dicen Que la Racha de Ocho Semanas de Salidas Terminó — los Derivados Aún No Han Hecho Esa Apuesta</a>:</strong> El desfase entre los flujos de ETF y el posicionamiento en derivados</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">El Dólar Hizo un Viaje de Ida y Vuelta, Bitcoin Mantuvo Su Rebote</a>:</strong> Canales macro e indicadores de derivados de Bitcoin en la misma semana</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas</a>:</strong> Interés abierto y régimen de correlación entre activos</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> Los indicadores de sentimiento detrás de este rebote</li>
+    <li><strong><a href="/es/blog/etf-inflow-fade-leverage-conviction-gap">Los ETF Dicen Que la Racha de Ocho Semanas de Salidas Terminó — los Derivados Aún No Han Hecho Esa Apuesta</a>:</strong> El desfase entre los flujos de ETF y el posicionamiento en derivados</li>
+    <li><strong><a href="/es/blog/dxy-round-trip-fed-odds-btc-lag-gap">El Dólar Hizo un Viaje de Ida y Vuelta, Bitcoin Mantuvo Su Rebote</a>:</strong> Canales macro e indicadores de derivados de Bitcoin en la misma semana</li>
+    <li><strong><a href="/es/blog/correlation-vacuum-oi-gap">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas</a>:</strong> Interés abierto y régimen de correlación entre activos</li>
+    <li><strong><a href="/es/blog/quiet-rebound-sentiment-attention-gap">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> Los indicadores de sentimiento detrás de este rebote</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETFs Sagen, die Achtwöchige Abflussserie Sei Vorbei — Derivate Haben Diese Wette Noch Nicht Platziert</a>:</strong> Die Verzögerung zwischen ETF-Flüssen und Derivate-Positionierung</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">Der Dollar Machte eine Rundreise, Bitcoin Hielt Seine Erholung</a>:</strong> Makrokanäle und Bitcoin-Derivatekennzahlen in derselben Woche</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Open Interest und das Korrelationsregime über Anlageklassen hinweg</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Die Stimmungsindikatoren hinter dieser Erholung</li>
+    <li><strong><a href="/de/blog/etf-inflow-fade-leverage-conviction-gap">ETFs Sagen, die Achtwöchige Abflussserie Sei Vorbei — Derivate Haben Diese Wette Noch Nicht Platziert</a>:</strong> Die Verzögerung zwischen ETF-Flüssen und Derivate-Positionierung</li>
+    <li><strong><a href="/de/blog/dxy-round-trip-fed-odds-btc-lag-gap">Der Dollar Machte eine Rundreise, Bitcoin Hielt Seine Erholung</a>:</strong> Makrokanäle und Bitcoin-Derivatekennzahlen in derselben Woche</li>
+    <li><strong><a href="/de/blog/correlation-vacuum-oi-gap">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Open Interest und das Korrelationsregime über Anlageklassen hinweg</li>
+    <li><strong><a href="/de/blog/quiet-rebound-sentiment-attention-gap">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Die Stimmungsindikatoren hinter dieser Erholung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">Les ETF Disent que la Série de Huit Semaines de Sorties Est Terminée — les Dérivés N'ont Pas Encore Fait Ce Pari</a>:</strong> Le décalage entre les flux d'ETF et le positionnement en dérivés</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">Le Dollar a Fait un Aller-Retour, le Bitcoin a Tenu Son Rebond</a>:</strong> Canaux macro et indicateurs de dérivés du bitcoin la même semaine</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a>:</strong> Open interest et régime de corrélation entre classes d'actifs</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> Les indicateurs de sentiment derrière ce rebond</li>
+    <li><strong><a href="/fr/blog/etf-inflow-fade-leverage-conviction-gap">Les ETF Disent que la Série de Huit Semaines de Sorties Est Terminée — les Dérivés N'ont Pas Encore Fait Ce Pari</a>:</strong> Le décalage entre les flux d'ETF et le positionnement en dérivés</li>
+    <li><strong><a href="/fr/blog/dxy-round-trip-fed-odds-btc-lag-gap">Le Dollar a Fait un Aller-Retour, le Bitcoin a Tenu Son Rebond</a>:</strong> Canaux macro et indicateurs de dérivés du bitcoin la même semaine</li>
+    <li><strong><a href="/fr/blog/correlation-vacuum-oi-gap">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a>:</strong> Open interest et régime de corrélation entre classes d'actifs</li>
+    <li><strong><a href="/fr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> Les indicateurs de sentiment derrière ce rebond</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETFs Dizem Que a Sequência de Oito Semanas de Saídas Acabou — Derivativos Ainda Não Fizeram Essa Aposta</a>:</strong> O atraso entre os fluxos de ETF e o posicionamento em derivativos</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">O Dólar Fez Ida e Volta, o Bitcoin Manteve Seu Repique</a>:</strong> Canais macro e indicadores de derivativos do bitcoin na mesma semana</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> Interesse em aberto e regime de correlação entre classes de ativos</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> Os indicadores de sentimento por trás desse repique</li>
+    <li><strong><a href="/pt/blog/etf-inflow-fade-leverage-conviction-gap">ETFs Dizem Que a Sequência de Oito Semanas de Saídas Acabou — Derivativos Ainda Não Fizeram Essa Aposta</a>:</strong> O atraso entre os fluxos de ETF e o posicionamento em derivativos</li>
+    <li><strong><a href="/pt/blog/dxy-round-trip-fed-odds-btc-lag-gap">O Dólar Fez Ida e Volta, o Bitcoin Manteve Seu Repique</a>:</strong> Canais macro e indicadores de derivativos do bitcoin na mesma semana</li>
+    <li><strong><a href="/pt/blog/correlation-vacuum-oi-gap">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> Interesse em aberto e regime de correlação entre classes de ativos</li>
+    <li><strong><a href="/pt/blog/quiet-rebound-sentiment-attention-gap">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> Os indicadores de sentimento por trás desse repique</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETF'ler Sekiz Haftalık Çıkış Serisinin Bittiğini Söylüyor — Türevler Henüz Bu Bahse Girmedi</a>:</strong> ETF akışları ile türev piyasası konumlanması arasındaki gecikme</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">Dolar Gidiş-Dönüş Yaptı, Bitcoin Yükselişini Korudu</a>:</strong> Aynı haftadaki makro kanallar ve Bitcoin türev piyasası göstergeleri</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Açık pozisyon ve varlık sınıfları arası korelasyon rejimi</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yükselişin arkasındaki psikolojik göstergeler</li>
+    <li><strong><a href="/tr/blog/etf-inflow-fade-leverage-conviction-gap">ETF'ler Sekiz Haftalık Çıkış Serisinin Bittiğini Söylüyor — Türevler Henüz Bu Bahse Girmedi</a>:</strong> ETF akışları ile türev piyasası konumlanması arasındaki gecikme</li>
+    <li><strong><a href="/tr/blog/dxy-round-trip-fed-odds-btc-lag-gap">Dolar Gidiş-Dönüş Yaptı, Bitcoin Yükselişini Korudu</a>:</strong> Aynı haftadaki makro kanallar ve Bitcoin türev piyasası göstergeleri</li>
+    <li><strong><a href="/tr/blog/correlation-vacuum-oi-gap">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Açık pozisyon ve varlık sınıfları arası korelasyon rejimi</li>
+    <li><strong><a href="/tr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yükselişin arkasındaki psikolojik göstergeler</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/etf-inflow-fade-leverage-conviction-gap.php">ETF Nói Chuỗi Rút Vốn Tám Tuần Đã Kết Thúc — Phái Sinh Vẫn Chưa Đặt Cược Đó</a>:</strong> Độ trễ giữa dòng vốn ETF và vị thế phái sinh</li>
-    <li><strong><a href="/blog/dxy-round-trip-fed-odds-btc-lag-gap.php">Đồng Đô La Đi Vòng Về, Bitcoin Giữ Vững Đà Phục Hồi</a>:</strong> Các kênh vĩ mô và chỉ số phái sinh Bitcoin trong cùng tuần</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Hợp đồng mở và chế độ tương quan giữa các loại tài sản</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Các chỉ số tâm lý đằng sau đợt phục hồi này</li>
+    <li><strong><a href="/vi/blog/etf-inflow-fade-leverage-conviction-gap">ETF Nói Chuỗi Rút Vốn Tám Tuần Đã Kết Thúc — Phái Sinh Vẫn Chưa Đặt Cược Đó</a>:</strong> Độ trễ giữa dòng vốn ETF và vị thế phái sinh</li>
+    <li><strong><a href="/vi/blog/dxy-round-trip-fed-odds-btc-lag-gap">Đồng Đô La Đi Vòng Về, Bitcoin Giữ Vững Đà Phục Hồi</a>:</strong> Các kênh vĩ mô và chỉ số phái sinh Bitcoin trong cùng tuần</li>
+    <li><strong><a href="/vi/blog/correlation-vacuum-oi-gap">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Hợp đồng mở và chế độ tương quan giữa các loại tài sản</li>
+    <li><strong><a href="/vi/blog/quiet-rebound-sentiment-attention-gap">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Các chỉ số tâm lý đằng sau đợt phục hồi này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CME Group(CME 비트코인 선물), CryptoQuant(CME 선물 연환산 베이시스), CF Benchmarks(CF Rolling CME Bitcoin Futures), Coindesk·Odaily·KuCoin·99bitcoins·TechTimes(캐리 트레이드 붕괴·ETF 자금흐름 보도), Walletpilot·Yahoo Finance·KuCoin(ETF AUM·IBIT 순유입), BASIS.pro(교차거래소 스프레드 리포트), CoinGlass·Coinalyze·MacroMicro(펀딩비·미결제약정), Alternative.me·CFGI(공포탐욕지수), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

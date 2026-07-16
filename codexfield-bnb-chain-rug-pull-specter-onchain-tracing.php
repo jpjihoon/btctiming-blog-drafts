@@ -372,40 +372,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">코인베이스 AI가 만들어낸 가짜 월드컵 경보</a>:</strong> 자동화·개인 분석 도구가 틀릴 수 있다는 반증 사례</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK 2026년 상반기 보고서, 지갑 침해 대응 방식의 변화</a>:</strong> 온체인 위협 탐지 생태계 전반의 구조적 맥락</li>
+    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert">코인베이스 AI가 만들어낸 가짜 월드컵 경보</a>:</strong> 자동화·개인 분석 도구가 틀릴 수 있다는 반증 사례</li>
+    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift">CertiK 2026년 상반기 보고서, 지갑 침해 대응 방식의 변화</a>:</strong> 온체인 위협 탐지 생태계 전반의 구조적 맥락</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">The Fake World Cup Alert Coinbase's AI Invented</a>:</strong> A counter-example showing automated and individual analysis tools can be wrong</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK's H1 2026 Report on Shifting Wallet-Compromise Response</a>:</strong> Broader structural context for on-chain threat detection</li>
+    <li><strong><a href="/en/blog/coinbase-ai-hallucinated-world-cup-alert">The Fake World Cup Alert Coinbase's AI Invented</a>:</strong> A counter-example showing automated and individual analysis tools can be wrong</li>
+    <li><strong><a href="/en/blog/certik-h1-2026-wallet-compromise-playbook-shift">CertiK's H1 2026 Report on Shifting Wallet-Compromise Response</a>:</strong> Broader structural context for on-chain threat detection</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">CoinbaseのAIが作り出した偽のワールドカップ警報</a>:</strong> 自動化・個人分析ツールが誤ることもある反証事例</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK 2026年上半期報告書、ウォレット侵害対応方式の変化</a>:</strong> オンチェーン脅威検知の生態系全体の構造的背景</li>
+    <li><strong><a href="/ja/blog/coinbase-ai-hallucinated-world-cup-alert">CoinbaseのAIが作り出した偽のワールドカップ警報</a>:</strong> 自動化・個人分析ツールが誤ることもある反証事例</li>
+    <li><strong><a href="/ja/blog/certik-h1-2026-wallet-compromise-playbook-shift">CertiK 2026年上半期報告書、ウォレット侵害対応方式の変化</a>:</strong> オンチェーン脅威検知の生態系全体の構造的背景</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">La Falsa Alerta del Mundial que Inventó la IA de Coinbase</a>:</strong> Un contraejemplo que muestra que las herramientas de análisis automatizado e individual pueden equivocarse</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">El Informe de CertiK del Primer Semestre de 2026 sobre el Cambio en la Respuesta a Compromisos de Billeteras</a>:</strong> Contexto estructural más amplio para la detección de amenazas on-chain</li>
+    <li><strong><a href="/es/blog/coinbase-ai-hallucinated-world-cup-alert">La Falsa Alerta del Mundial que Inventó la IA de Coinbase</a>:</strong> Un contraejemplo que muestra que las herramientas de análisis automatizado e individual pueden equivocarse</li>
+    <li><strong><a href="/es/blog/certik-h1-2026-wallet-compromise-playbook-shift">El Informe de CertiK del Primer Semestre de 2026 sobre el Cambio en la Respuesta a Compromisos de Billeteras</a>:</strong> Contexto estructural más amplio para la detección de amenazas on-chain</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">Der falsche WM-Alarm, den Coinbases KI erfand</a>:</strong> Ein Gegenbeispiel dafür, dass automatisierte und individuelle Analysetools falsch liegen können</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiKs Bericht zum ersten Halbjahr 2026 über den Wandel bei der Reaktion auf Wallet-Kompromittierungen</a>:</strong> Breiterer struktureller Kontext für die On-Chain-Bedrohungserkennung</li>
+    <li><strong><a href="/de/blog/coinbase-ai-hallucinated-world-cup-alert">Der falsche WM-Alarm, den Coinbases KI erfand</a>:</strong> Ein Gegenbeispiel dafür, dass automatisierte und individuelle Analysetools falsch liegen können</li>
+    <li><strong><a href="/de/blog/certik-h1-2026-wallet-compromise-playbook-shift">CertiKs Bericht zum ersten Halbjahr 2026 über den Wandel bei der Reaktion auf Wallet-Kompromittierungen</a>:</strong> Breiterer struktureller Kontext für die On-Chain-Bedrohungserkennung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">La Fausse Alerte Coupe du Monde Inventée par l'IA de Coinbase</a> :</strong> Un contre-exemple montrant que les outils d'analyse automatisée et individuelle peuvent se tromper</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">Le Rapport de CertiK sur le Premier Semestre 2026 sur l'Évolution de la Réponse aux Compromissions de Portefeuilles</a> :</strong> Contexte structurel plus large pour la détection des menaces on-chain</li>
+    <li><strong><a href="/fr/blog/coinbase-ai-hallucinated-world-cup-alert">La Fausse Alerte Coupe du Monde Inventée par l'IA de Coinbase</a> :</strong> Un contre-exemple montrant que les outils d'analyse automatisée et individuelle peuvent se tromper</li>
+    <li><strong><a href="/fr/blog/certik-h1-2026-wallet-compromise-playbook-shift">Le Rapport de CertiK sur le Premier Semestre 2026 sur l'Évolution de la Réponse aux Compromissions de Portefeuilles</a> :</strong> Contexte structurel plus large pour la détection des menaces on-chain</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">O Falso Alerta da Copa do Mundo Inventado pela IA da Coinbase</a>:</strong> Um contraexemplo mostrando que ferramentas de análise automatizada e individual podem errar</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">O Relatório da CertiK sobre o Primeiro Semestre de 2026 sobre a Mudança na Resposta a Comprometimentos de Carteiras</a>:</strong> Contexto estrutural mais amplo para a detecção de ameaças on-chain</li>
+    <li><strong><a href="/pt/blog/coinbase-ai-hallucinated-world-cup-alert">O Falso Alerta da Copa do Mundo Inventado pela IA da Coinbase</a>:</strong> Um contraexemplo mostrando que ferramentas de análise automatizada e individual podem errar</li>
+    <li><strong><a href="/pt/blog/certik-h1-2026-wallet-compromise-playbook-shift">O Relatório da CertiK sobre o Primeiro Semestre de 2026 sobre a Mudança na Resposta a Comprometimentos de Carteiras</a>:</strong> Contexto estrutural mais amplo para a detecção de ameaças on-chain</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">Coinbase'in Yapay Zekasının İcat Ettiği Sahte Dünya Kupası Uyarısı</a>:</strong> Otomatik ve bireysel analiz araçlarının yanılabileceğini gösteren bir karşı örnek</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">CertiK'in Cüzdan İhlali Yanıtındaki Değişime İlişkin 2026 İlk Yarı Raporu</a>:</strong> Zincir üstü tehdit tespiti için daha geniş yapısal bağlam</li>
+    <li><strong><a href="/tr/blog/coinbase-ai-hallucinated-world-cup-alert">Coinbase'in Yapay Zekasının İcat Ettiği Sahte Dünya Kupası Uyarısı</a>:</strong> Otomatik ve bireysel analiz araçlarının yanılabileceğini gösteren bir karşı örnek</li>
+    <li><strong><a href="/tr/blog/certik-h1-2026-wallet-compromise-playbook-shift">CertiK'in Cüzdan İhlali Yanıtındaki Değişime İlişkin 2026 İlk Yarı Raporu</a>:</strong> Zincir üstü tehdit tespiti için daha geniş yapısal bağlam</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/coinbase-ai-hallucinated-world-cup-alert.php">Cảnh Báo World Cup Giả Mà AI Của Coinbase Đã Tạo Ra</a>:</strong> Một ví dụ phản bác cho thấy các công cụ phân tích tự động và cá nhân có thể sai</li>
-    <li><strong><a href="/blog/certik-h1-2026-wallet-compromise-playbook-shift.php">Báo Cáo Nửa Đầu Năm 2026 Của CertiK Về Sự Thay Đổi Trong Ứng Phó Xâm Phạm Ví</a>:</strong> Bối cảnh cấu trúc rộng hơn cho việc phát hiện mối đe dọa on-chain</li>
+    <li><strong><a href="/vi/blog/coinbase-ai-hallucinated-world-cup-alert">Cảnh Báo World Cup Giả Mà AI Của Coinbase Đã Tạo Ra</a>:</strong> Một ví dụ phản bác cho thấy các công cụ phân tích tự động và cá nhân có thể sai</li>
+    <li><strong><a href="/vi/blog/certik-h1-2026-wallet-compromise-playbook-shift">Báo Cáo Nửa Đầu Năm 2026 Của CertiK Về Sự Thay Đổi Trong Ứng Phó Xâm Phạm Ví</a>:</strong> Bối cảnh cấu trúc rộng hơn cho việc phát hiện mối đe dọa on-chain</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 온체인 분석가 스펙터(X 게시물, 2026-07-09~10), 크립(Cryip), 크립토뉴스닷넷(Cryptonews.net), 비트코인시스테미(Bitcoin Sistemi). 본 기사에서 다룬 자금 이동 내역은 스펙터 개인의 온체인 추적에 근거한 것으로, 2026년 7월 10일 기준 코덱스필드·BNB체인·바이낸스·CZ의 공식 확인이나 반박은 없었다. 본 글은 투자 조언이 아니다.</p>

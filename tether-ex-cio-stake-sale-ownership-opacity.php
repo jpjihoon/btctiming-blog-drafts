@@ -500,58 +500,58 @@
   <h2 class="tr">Birlikte Okumak İçin</h2>
   <h2 class="vi">Nên Đọc Kèm</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">테더 준비자산 증명 업데이트</a>:</strong> 테더가 정기적으로 공개하는 유일한 재무 정보</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스 EU MiCA 인가 좌절</a>:</strong> 유럽 스테이블코인·거래소 규제 압박의 다른 사례</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">리플의 MiCA 완전 인가</a>:</strong> 같은 규제 전환기에 정반대로 성공한 인가 사례</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">서클 주가 급락과 오픈 USD</a>:</strong> 상장 스테이블코인 발행사의 투명성과 대비되는 사례</li>
+    <li><strong><a href="/blog/tether-reserve-attestation-update">테더 준비자산 증명 업데이트</a>:</strong> 테더가 정기적으로 공개하는 유일한 재무 정보</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스 EU MiCA 인가 좌절</a>:</strong> 유럽 스테이블코인·거래소 규제 압박의 다른 사례</li>
+    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg">리플의 MiCA 완전 인가</a>:</strong> 같은 규제 전환기에 정반대로 성공한 인가 사례</li>
+    <li><strong><a href="/blog/circle-stock-crash-open-usd">서클 주가 급락과 오픈 USD</a>:</strong> 상장 스테이블코인 발행사의 투명성과 대비되는 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Reserve Attestation Update</a>:</strong> The only financial information Tether regularly discloses</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance's EU MiCA License Setback</a>:</strong> Another case of European regulatory pressure on stablecoins and exchanges</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple's Full MiCA License</a>:</strong> The opposite outcome in the same regulatory transition</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle's Stock Crash and Open USD</a>:</strong> A contrast with a listed stablecoin issuer's transparency</li>
+    <li><strong><a href="/en/blog/tether-reserve-attestation-update">Tether Reserve Attestation Update</a>:</strong> The only financial information Tether regularly discloses</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance's EU MiCA License Setback</a>:</strong> Another case of European regulatory pressure on stablecoins and exchanges</li>
+    <li><strong><a href="/en/blog/ripple-mica-casp-full-license-luxembourg">Ripple's Full MiCA License</a>:</strong> The opposite outcome in the same regulatory transition</li>
+    <li><strong><a href="/en/blog/circle-stock-crash-open-usd">Circle's Stock Crash and Open USD</a>:</strong> A contrast with a listed stablecoin issuer's transparency</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">テザー準備資産証明アップデート</a>:</strong> テザーが定期的に開示する唯一の財務情報</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">バイナンスEU MiCA認可の挫折</a>:</strong> 欧州のステーブルコイン・取引所規制圧力の別事例</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">リップルのMiCA完全認可</a>:</strong> 同じ規制移行期に対照的に成功した認可事例</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">サークル株急落とオープンUSD</a>:</strong> 上場ステーブルコイン発行体の透明性との対比</li>
+    <li><strong><a href="/ja/blog/tether-reserve-attestation-update">テザー準備資産証明アップデート</a>:</strong> テザーが定期的に開示する唯一の財務情報</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">バイナンスEU MiCA認可の挫折</a>:</strong> 欧州のステーブルコイン・取引所規制圧力の別事例</li>
+    <li><strong><a href="/ja/blog/ripple-mica-casp-full-license-luxembourg">リップルのMiCA完全認可</a>:</strong> 同じ規制移行期に対照的に成功した認可事例</li>
+    <li><strong><a href="/ja/blog/circle-stock-crash-open-usd">サークル株急落とオープンUSD</a>:</strong> 上場ステーブルコイン発行体の透明性との対比</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Actualización de Certificación de Reservas de Tether</a>:</strong> La única información financiera que Tether divulga regularmente</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">El Revés de Binance con la Licencia MiCA de la UE</a>:</strong> Otro caso de presión regulatoria europea sobre stablecoins y exchanges</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">La Licencia MiCA Completa de Ripple</a>:</strong> El resultado opuesto en la misma transición regulatoria</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">El Desplome de Circle y Open USD</a>:</strong> Un contraste con la transparencia de un emisor de stablecoin cotizado</li>
+    <li><strong><a href="/es/blog/tether-reserve-attestation-update">Actualización de Certificación de Reservas de Tether</a>:</strong> La única información financiera que Tether divulga regularmente</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">El Revés de Binance con la Licencia MiCA de la UE</a>:</strong> Otro caso de presión regulatoria europea sobre stablecoins y exchanges</li>
+    <li><strong><a href="/es/blog/ripple-mica-casp-full-license-luxembourg">La Licencia MiCA Completa de Ripple</a>:</strong> El resultado opuesto en la misma transición regulatoria</li>
+    <li><strong><a href="/es/blog/circle-stock-crash-open-usd">El Desplome de Circle y Open USD</a>:</strong> Un contraste con la transparencia de un emisor de stablecoin cotizado</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether-Reserve-Attestierungs-Update</a>:</strong> Die einzige Finanzinformation, die Tether regelmäßig offenlegt</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binances Rückschlag bei der EU-MiCA-Lizenz</a>:</strong> Ein weiterer Fall europäischen Regulierungsdrucks auf Stablecoins und Börsen</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripples Vollständige MiCA-Lizenz</a>:</strong> Das gegenteilige Ergebnis im selben Regulierungsübergang</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circles Aktiencrash und Open USD</a>:</strong> Ein Kontrast zur Transparenz eines börsennotierten Stablecoin-Emittenten</li>
+    <li><strong><a href="/de/blog/tether-reserve-attestation-update">Tether-Reserve-Attestierungs-Update</a>:</strong> Die einzige Finanzinformation, die Tether regelmäßig offenlegt</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binances Rückschlag bei der EU-MiCA-Lizenz</a>:</strong> Ein weiterer Fall europäischen Regulierungsdrucks auf Stablecoins und Börsen</li>
+    <li><strong><a href="/de/blog/ripple-mica-casp-full-license-luxembourg">Ripples Vollständige MiCA-Lizenz</a>:</strong> Das gegenteilige Ergebnis im selben Regulierungsübergang</li>
+    <li><strong><a href="/de/blog/circle-stock-crash-open-usd">Circles Aktiencrash und Open USD</a>:</strong> Ein Kontrast zur Transparenz eines börsennotierten Stablecoin-Emittenten</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Mise à Jour de l'Attestation des Réserves de Tether</a> :</strong> La seule information financière que Tether divulgue régulièrement</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Le Revers de Binance sur la Licence MiCA de l'UE</a> :</strong> Un autre cas de pression réglementaire européenne sur les stablecoins et les bourses</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">La Licence MiCA Complète de Ripple</a> :</strong> Le résultat inverse dans la même transition réglementaire</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Le Crash Boursier de Circle et Open USD</a> :</strong> Un contraste avec la transparence d'un émetteur de stablecoin coté en bourse</li>
+    <li><strong><a href="/fr/blog/tether-reserve-attestation-update">Mise à Jour de l'Attestation des Réserves de Tether</a> :</strong> La seule information financière que Tether divulgue régulièrement</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">Le Revers de Binance sur la Licence MiCA de l'UE</a> :</strong> Un autre cas de pression réglementaire européenne sur les stablecoins et les bourses</li>
+    <li><strong><a href="/fr/blog/ripple-mica-casp-full-license-luxembourg">La Licence MiCA Complète de Ripple</a> :</strong> Le résultat inverse dans la même transition réglementaire</li>
+    <li><strong><a href="/fr/blog/circle-stock-crash-open-usd">Le Crash Boursier de Circle et Open USD</a> :</strong> Un contraste avec la transparence d'un émetteur de stablecoin coté en bourse</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Atualização da Atestação de Reservas da Tether</a>:</strong> A única informação financeira que a Tether divulga regularmente</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">O Revés da Binance com a Licença MiCA da UE</a>:</strong> Outro caso de pressão regulatória europeia sobre stablecoins e corretoras</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">A Licença MiCA Completa da Ripple</a>:</strong> O resultado oposto na mesma transição regulatória</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">O Colapso das Ações da Circle e a Open USD</a>:</strong> Um contraste com a transparência de uma emissora de stablecoin listada</li>
+    <li><strong><a href="/pt/blog/tether-reserve-attestation-update">Atualização da Atestação de Reservas da Tether</a>:</strong> A única informação financeira que a Tether divulga regularmente</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">O Revés da Binance com a Licença MiCA da UE</a>:</strong> Outro caso de pressão regulatória europeia sobre stablecoins e corretoras</li>
+    <li><strong><a href="/pt/blog/ripple-mica-casp-full-license-luxembourg">A Licença MiCA Completa da Ripple</a>:</strong> O resultado oposto na mesma transição regulatória</li>
+    <li><strong><a href="/pt/blog/circle-stock-crash-open-usd">O Colapso das Ações da Circle e a Open USD</a>:</strong> Um contraste com a transparência de uma emissora de stablecoin listada</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Rezerv Doğrulama Güncellemesi</a>:</strong> Tether'in düzenli olarak açıkladığı tek finansal bilgi</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance'in AB MiCA Lisansındaki Aksilik</a>:</strong> Stabilcoinler ve borsalar üzerindeki Avrupa düzenleyici baskısının bir başka örneği</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple'ın Tam MiCA Lisansı</a>:</strong> Aynı düzenleyici geçiş döneminde tam tersi bir sonuç</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Circle'ın Hisse Çöküşü ve Open USD</a>:</strong> Halka açık bir stabilcoin ihraççısının şeffaflığıyla bir karşıtlık</li>
+    <li><strong><a href="/tr/blog/tether-reserve-attestation-update">Tether Rezerv Doğrulama Güncellemesi</a>:</strong> Tether'in düzenli olarak açıkladığı tek finansal bilgi</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance'in AB MiCA Lisansındaki Aksilik</a>:</strong> Stabilcoinler ve borsalar üzerindeki Avrupa düzenleyici baskısının bir başka örneği</li>
+    <li><strong><a href="/tr/blog/ripple-mica-casp-full-license-luxembourg">Ripple'ın Tam MiCA Lisansı</a>:</strong> Aynı düzenleyici geçiş döneminde tam tersi bir sonuç</li>
+    <li><strong><a href="/tr/blog/circle-stock-crash-open-usd">Circle'ın Hisse Çöküşü ve Open USD</a>:</strong> Halka açık bir stabilcoin ihraççısının şeffaflığıyla bir karşıtlık</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Cập Nhật Xác Nhận Dự Trữ Của Tether</a>:</strong> Thông tin tài chính duy nhất mà Tether công bố định kỳ</li>
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Trở Ngại Về Giấy Phép MiCA Tại EU Của Binance</a>:</strong> Một trường hợp khác về áp lực quản lý của châu Âu đối với stablecoin và các sàn giao dịch</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Giấy Phép MiCA Toàn Diện Của Ripple</a>:</strong> Kết quả trái ngược trong cùng giai đoạn chuyển tiếp quản lý</li>
-    <li><strong><a href="/blog/circle-stock-crash-open-usd.php">Cổ Phiếu Circle Lao Dốc và Open USD</a>:</strong> Một sự tương phản với tính minh bạch của một tổ chức phát hành stablecoin niêm yết</li>
+    <li><strong><a href="/vi/blog/tether-reserve-attestation-update">Cập Nhật Xác Nhận Dự Trữ Của Tether</a>:</strong> Thông tin tài chính duy nhất mà Tether công bố định kỳ</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Trở Ngại Về Giấy Phép MiCA Tại EU Của Binance</a>:</strong> Một trường hợp khác về áp lực quản lý của châu Âu đối với stablecoin và các sàn giao dịch</li>
+    <li><strong><a href="/vi/blog/ripple-mica-casp-full-license-luxembourg">Giấy Phép MiCA Toàn Diện Của Ripple</a>:</strong> Kết quả trái ngược trong cùng giai đoạn chuyển tiếp quản lý</li>
+    <li><strong><a href="/vi/blog/circle-stock-crash-open-usd">Cổ Phiếu Circle Lao Dốc và Open USD</a>:</strong> Một sự tương phản với tính minh bạch của một tổ chức phát hành stablecoin niêm yết</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 블룸버그(히스코트 지분 매각·PJT 파트너스 자문 보도), 코인데스크(블룸버그 보도 재확인), 크립토타임스·크립토뉴스(테더 소유구조 추정치·매각 배경), 포브스·PANews(테더 주요 주주 지분율 추정), 디파이라마(스테이블코인 시가총액·USDT 점유율). 수치는 인용 시점 기준이며 테더가 공식 확인하지 않은 추정치를 포함한다. 본 글은 투자 조언이 아니다.</p>

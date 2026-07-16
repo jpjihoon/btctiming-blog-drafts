@@ -340,49 +340,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">비트코인 재무 전략의 분기 — K웨이브는 청산, 메타플래닛은 매집</a>:</strong> 같은 mNAV 압박 속에서도 트레저리 기업들의 전략이 어떻게 갈리는지 보여주는 사례</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">AVAX 트레저리 두 곳 동시 흔들 — AVAX원 CEO 사임, 아발란체 트레저리는 '존속능력 의문' 경고</a>:</strong> 다른 자산의 트레저리 기업들도 겪고 있는 존속가능성 문제</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive, SEC 8-K 공시로 759 BTC 추가 매수 확인 — 평단 $65,850</a>:</strong> 같은 시기 다른 비트코인 트레저리 기업의 SEC 공시 사례</li>
+    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet">비트코인 재무 전략의 분기 — K웨이브는 청산, 메타플래닛은 매집</a>:</strong> 같은 mNAV 압박 속에서도 트레저리 기업들의 전략이 어떻게 갈리는지 보여주는 사례</li>
+    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern">AVAX 트레저리 두 곳 동시 흔들 — AVAX원 CEO 사임, 아발란체 트레저리는 '존속능력 의문' 경고</a>:</strong> 다른 자산의 트레저리 기업들도 겪고 있는 존속가능성 문제</li>
+    <li><strong><a href="/blog/strive-8k-filing-759btc">Strive, SEC 8-K 공시로 759 BTC 추가 매수 확인 — 평단 $65,850</a>:</strong> 같은 시기 다른 비트코인 트레저리 기업의 SEC 공시 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">The Bitcoin-Treasury Split — K Wave Liquidates, Metaplanet Accumulates</a>:</strong> How treasury companies' strategies are diverging under the same mNAV pressure</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">Two Avalanche Treasury Firms Wobble at Once — AVAX One's CEO Exits as Avalanche Treasury Co. Warns It May Not Survive</a>:</strong> A similar going-concern problem hitting treasury firms built around a different asset</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive Confirms 759 BTC Purchase via SEC 8-K — Average Price $65,850</a>:</strong> Another bitcoin treasury company's SEC disclosure from the same period</li>
+    <li><strong><a href="/en/blog/bitcoin-treasury-divergence-kwave-metaplanet">The Bitcoin-Treasury Split — K Wave Liquidates, Metaplanet Accumulates</a>:</strong> How treasury companies' strategies are diverging under the same mNAV pressure</li>
+    <li><strong><a href="/en/blog/avalanche-treasury-firms-ceo-exit-going-concern">Two Avalanche Treasury Firms Wobble at Once — AVAX One's CEO Exits as Avalanche Treasury Co. Warns It May Not Survive</a>:</strong> A similar going-concern problem hitting treasury firms built around a different asset</li>
+    <li><strong><a href="/en/blog/strive-8k-filing-759btc">Strive Confirms 759 BTC Purchase via SEC 8-K — Average Price $65,850</a>:</strong> Another bitcoin treasury company's SEC disclosure from the same period</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">ビットコイン財務戦略の分岐 — Kウェーブは清算、メタプラネットは買い増し</a>:</strong> 同じmNAV圧力の下でトレジャリー企業の戦略がどう分かれるか</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">アバランチ・トレジャリー2社が同時に動揺 — AVAXワンのCEOが退任、アバランチ・トレジャリーは『存続能力に疑義』と警告</a>:</strong> 別資産のトレジャリー企業が抱える同様の存続可能性問題</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive、SEC 8-K開示で759BTC追加購入を確認 — 平均取得単価65,850ドル</a>:</strong> 同時期の別のビットコイン・トレジャリー企業によるSEC開示事例</li>
+    <li><strong><a href="/ja/blog/bitcoin-treasury-divergence-kwave-metaplanet">ビットコイン財務戦略の分岐 — Kウェーブは清算、メタプラネットは買い増し</a>:</strong> 同じmNAV圧力の下でトレジャリー企業の戦略がどう分かれるか</li>
+    <li><strong><a href="/ja/blog/avalanche-treasury-firms-ceo-exit-going-concern">アバランチ・トレジャリー2社が同時に動揺 — AVAXワンのCEOが退任、アバランチ・トレジャリーは『存続能力に疑義』と警告</a>:</strong> 別資産のトレジャリー企業が抱える同様の存続可能性問題</li>
+    <li><strong><a href="/ja/blog/strive-8k-filing-759btc">Strive、SEC 8-K開示で759BTC追加購入を確認 — 平均取得単価65,850ドル</a>:</strong> 同時期の別のビットコイン・トレジャリー企業によるSEC開示事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">La División de las Tesorerías de Bitcoin — K Wave Liquida, Metaplanet Acumula</a>:</strong> Cómo divergen las estrategias de las tesorerías bajo la misma presión de mNAV</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">Dos Firmas de Tesorería de Avalanche Tambalean a la Vez — El CEO de AVAX One Sale Mientras Avalanche Treasury Advierte que Podría No Sobrevivir</a>:</strong> Un problema similar de continuidad en tesorerías construidas en torno a otro activo</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive Confirma la Compra de 759 BTC vía SEC 8-K — Precio Promedio de $65.850</a>:</strong> Otra divulgación ante la SEC de una empresa de tesorería de bitcoin en el mismo período</li>
+    <li><strong><a href="/es/blog/bitcoin-treasury-divergence-kwave-metaplanet">La División de las Tesorerías de Bitcoin — K Wave Liquida, Metaplanet Acumula</a>:</strong> Cómo divergen las estrategias de las tesorerías bajo la misma presión de mNAV</li>
+    <li><strong><a href="/es/blog/avalanche-treasury-firms-ceo-exit-going-concern">Dos Firmas de Tesorería de Avalanche Tambalean a la Vez — El CEO de AVAX One Sale Mientras Avalanche Treasury Advierte que Podría No Sobrevivir</a>:</strong> Un problema similar de continuidad en tesorerías construidas en torno a otro activo</li>
+    <li><strong><a href="/es/blog/strive-8k-filing-759btc">Strive Confirma la Compra de 759 BTC vía SEC 8-K — Precio Promedio de $65.850</a>:</strong> Otra divulgación ante la SEC de una empresa de tesorería de bitcoin en el mismo período</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">Die Spaltung der Bitcoin-Treasuries — K Wave Verkauft, Metaplanet Kauft Zu</a>:</strong> Wie sich die Strategien von Treasury-Unternehmen unter demselben mNAV-Druck auseinanderentwickeln</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">Zwei Avalanche-Treasury-Firmen Geraten Gleichzeitig ins Wanken — CEO von AVAX One Tritt Zurück, Während Avalanche Treasury vor Fortbestandsrisiko Warnt</a>:</strong> Ein ähnliches Fortbestandsproblem bei Treasury-Firmen rund um einen anderen Vermögenswert</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive Bestätigt Kauf von 759 BTC per SEC-8-K-Meldung — Durchschnittspreis 65.850 $</a>:</strong> Eine weitere SEC-Meldung eines Bitcoin-Treasury-Unternehmens aus demselben Zeitraum</li>
+    <li><strong><a href="/de/blog/bitcoin-treasury-divergence-kwave-metaplanet">Die Spaltung der Bitcoin-Treasuries — K Wave Verkauft, Metaplanet Kauft Zu</a>:</strong> Wie sich die Strategien von Treasury-Unternehmen unter demselben mNAV-Druck auseinanderentwickeln</li>
+    <li><strong><a href="/de/blog/avalanche-treasury-firms-ceo-exit-going-concern">Zwei Avalanche-Treasury-Firmen Geraten Gleichzeitig ins Wanken — CEO von AVAX One Tritt Zurück, Während Avalanche Treasury vor Fortbestandsrisiko Warnt</a>:</strong> Ein ähnliches Fortbestandsproblem bei Treasury-Firmen rund um einen anderen Vermögenswert</li>
+    <li><strong><a href="/de/blog/strive-8k-filing-759btc">Strive Bestätigt Kauf von 759 BTC per SEC-8-K-Meldung — Durchschnittspreis 65.850 $</a>:</strong> Eine weitere SEC-Meldung eines Bitcoin-Treasury-Unternehmens aus demselben Zeitraum</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">La Divergence des Trésoreries Bitcoin — K Wave Liquide, Metaplanet Accumule</a>:</strong> Comment les stratégies des trésoreries divergent sous la même pression de mNAV</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">Deux Sociétés de Trésorerie Avalanche Chancellent en Même Temps — Le PDG d'AVAX One Démissionne Alors qu'Avalanche Treasury Évoque un Risque de Continuité</a>:</strong> Un problème de continuité similaire chez des trésoreries bâties autour d'un autre actif</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive Confirme l'Achat de 759 BTC via un Dépôt SEC 8-K — Prix Moyen de 65 850 $</a>:</strong> Une autre déclaration SEC d'une société de trésorerie bitcoin sur la même période</li>
+    <li><strong><a href="/fr/blog/bitcoin-treasury-divergence-kwave-metaplanet">La Divergence des Trésoreries Bitcoin — K Wave Liquide, Metaplanet Accumule</a>:</strong> Comment les stratégies des trésoreries divergent sous la même pression de mNAV</li>
+    <li><strong><a href="/fr/blog/avalanche-treasury-firms-ceo-exit-going-concern">Deux Sociétés de Trésorerie Avalanche Chancellent en Même Temps — Le PDG d'AVAX One Démissionne Alors qu'Avalanche Treasury Évoque un Risque de Continuité</a>:</strong> Un problème de continuité similaire chez des trésoreries bâties autour d'un autre actif</li>
+    <li><strong><a href="/fr/blog/strive-8k-filing-759btc">Strive Confirme l'Achat de 759 BTC via un Dépôt SEC 8-K — Prix Moyen de 65 850 $</a>:</strong> Une autre déclaration SEC d'une société de trésorerie bitcoin sur la même période</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">A Divisão das Tesourarias de Bitcoin — K Wave Liquida, Metaplanet Acumula</a>:</strong> Como as estratégias das tesourarias divergem sob a mesma pressão de mNAV</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">Duas Empresas de Tesouraria da Avalanche Tremem ao Mesmo Tempo — CEO da AVAX One Sai Enquanto a Avalanche Treasury Alerta que Pode Não Sobreviver</a>:</strong> Um problema semelhante de continuidade em tesourarias construídas em torno de outro ativo</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive Confirma Compra de 759 BTC via Formulário 8-K da SEC — Preço Médio de US$ 65.850</a>:</strong> Outra divulgação à SEC de uma empresa de tesouraria de bitcoin no mesmo período</li>
+    <li><strong><a href="/pt/blog/bitcoin-treasury-divergence-kwave-metaplanet">A Divisão das Tesourarias de Bitcoin — K Wave Liquida, Metaplanet Acumula</a>:</strong> Como as estratégias das tesourarias divergem sob a mesma pressão de mNAV</li>
+    <li><strong><a href="/pt/blog/avalanche-treasury-firms-ceo-exit-going-concern">Duas Empresas de Tesouraria da Avalanche Tremem ao Mesmo Tempo — CEO da AVAX One Sai Enquanto a Avalanche Treasury Alerta que Pode Não Sobreviver</a>:</strong> Um problema semelhante de continuidade em tesourarias construídas em torno de outro ativo</li>
+    <li><strong><a href="/pt/blog/strive-8k-filing-759btc">Strive Confirma Compra de 759 BTC via Formulário 8-K da SEC — Preço Médio de US$ 65.850</a>:</strong> Outra divulgação à SEC de uma empresa de tesouraria de bitcoin no mesmo período</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">Bitcoin Hazine Stratejilerinde Ayrışma — K Wave Tasfiye Ediyor, Metaplanet Biriktiriyor</a>:</strong> Aynı mNAV baskısı altında hazine şirketlerinin stratejilerinin nasıl ayrıştığı</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">İki Avalanche Hazine Şirketi Aynı Anda Sarsılıyor — AVAX One CEO'su Ayrılırken Avalanche Treasury 'Süreklilik Şüphesi' Uyarısı Yapıyor</a>:</strong> Farklı bir varlık etrafında kurulan hazine şirketlerinde görülen benzer bir süreklilik sorunu</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive, SEC 8-K Beyanıyla 759 BTC Alımını Doğruladı — Ortalama Fiyat 65.850 Dolar</a>:</strong> Aynı dönemden başka bir bitcoin hazine şirketinin SEC beyanı</li>
+    <li><strong><a href="/tr/blog/bitcoin-treasury-divergence-kwave-metaplanet">Bitcoin Hazine Stratejilerinde Ayrışma — K Wave Tasfiye Ediyor, Metaplanet Biriktiriyor</a>:</strong> Aynı mNAV baskısı altında hazine şirketlerinin stratejilerinin nasıl ayrıştığı</li>
+    <li><strong><a href="/tr/blog/avalanche-treasury-firms-ceo-exit-going-concern">İki Avalanche Hazine Şirketi Aynı Anda Sarsılıyor — AVAX One CEO'su Ayrılırken Avalanche Treasury 'Süreklilik Şüphesi' Uyarısı Yapıyor</a>:</strong> Farklı bir varlık etrafında kurulan hazine şirketlerinde görülen benzer bir süreklilik sorunu</li>
+    <li><strong><a href="/tr/blog/strive-8k-filing-759btc">Strive, SEC 8-K Beyanıyla 759 BTC Alımını Doğruladı — Ortalama Fiyat 65.850 Dolar</a>:</strong> Aynı dönemden başka bir bitcoin hazine şirketinin SEC beyanı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/bitcoin-treasury-divergence-kwave-metaplanet.php">Sự Phân Hóa Chiến Lược Ngân Quỹ Bitcoin — K Wave Thanh Lý, Metaplanet Tích Lũy</a>:</strong> Cách các chiến lược của công ty ngân quỹ phân hóa dưới cùng áp lực mNAV</li>
-    <li><strong><a href="/blog/avalanche-treasury-firms-ceo-exit-going-concern.php">Hai Công Ty Ngân Quỹ Avalanche Cùng Lung Lay — CEO Của AVAX One Từ Chức Trong Khi Avalanche Treasury Cảnh Báo Có Thể Không Trụ Vững</a>:</strong> Một vấn đề về khả năng tồn tại tương tự ở các công ty ngân quỹ xây dựng quanh một tài sản khác</li>
-    <li><strong><a href="/blog/strive-8k-filing-759btc.php">Strive Xác Nhận Mua 759 BTC Qua Hồ Sơ 8-K Của SEC — Giá Trung Bình 65.850 USD</a>:</strong> Một hồ sơ SEC khác của một công ty ngân quỹ bitcoin trong cùng giai đoạn</li>
+    <li><strong><a href="/vi/blog/bitcoin-treasury-divergence-kwave-metaplanet">Sự Phân Hóa Chiến Lược Ngân Quỹ Bitcoin — K Wave Thanh Lý, Metaplanet Tích Lũy</a>:</strong> Cách các chiến lược của công ty ngân quỹ phân hóa dưới cùng áp lực mNAV</li>
+    <li><strong><a href="/vi/blog/avalanche-treasury-firms-ceo-exit-going-concern">Hai Công Ty Ngân Quỹ Avalanche Cùng Lung Lay — CEO Của AVAX One Từ Chức Trong Khi Avalanche Treasury Cảnh Báo Có Thể Không Trụ Vững</a>:</strong> Một vấn đề về khả năng tồn tại tương tự ở các công ty ngân quỹ xây dựng quanh một tài sản khác</li>
+    <li><strong><a href="/vi/blog/strive-8k-filing-759btc">Strive Xác Nhận Mua 759 BTC Qua Hồ Sơ 8-K Của SEC — Giá Trung Bình 65.850 USD</a>:</strong> Một hồ sơ SEC khác của một công ty ngân quỹ bitcoin trong cùng giai đoạn</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 블룸버그(재협상 보도), 코인데스크(딜 구조·mNAV 분석), 코인텔레그래프·비트코인매거진(협상 경위 보도), 비즈니스와이어(캔터에쿼티파트너스·BSTR 공동 보도자료 원문), 야후파이낸스(경위 종합), 스톡티탄(SEC 8-K 공시). 일부 세부 수치는 3자 보도에 근거하며, 본 글은 투자 조언이 아니다.</p>

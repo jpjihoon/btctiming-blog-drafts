@@ -491,49 +491,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">테더 준비자산 증명 업데이트</a>:</strong> 테더가 정기적으로 공개하는 유일한 재무 정보</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">라이트닝 네트워크 채널 용량 사상 최고치</a>:</strong> RGB가 올라탈 결제 레일의 현재 규모</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">비트코인 코어 31.1rc1 프라이버시 개선</a>:</strong> 같은 시기 비트코인 프로토콜 층에서 벌어지는 또 다른 프라이버시 강화</li>
+    <li><strong><a href="/blog/tether-reserve-attestation-update">테더 준비자산 증명 업데이트</a>:</strong> 테더가 정기적으로 공개하는 유일한 재무 정보</li>
+    <li><strong><a href="/blog/lightning-network-capacity-milestone">라이트닝 네트워크 채널 용량 사상 최고치</a>:</strong> RGB가 올라탈 결제 레일의 현재 규모</li>
+    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release">비트코인 코어 31.1rc1 프라이버시 개선</a>:</strong> 같은 시기 비트코인 프로토콜 층에서 벌어지는 또 다른 프라이버시 강화</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether's Reserve Attestation Update</a>:</strong> The only financial information Tether regularly discloses</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">Lightning Network Capacity Hits All-Time High</a>:</strong> The current scale of the payment rail RGB is riding on</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">Bitcoin Core 31.1rc1's Privacy Fix</a>:</strong> Another privacy push happening at Bitcoin's protocol layer around the same time</li>
+    <li><strong><a href="/en/blog/tether-reserve-attestation-update">Tether's Reserve Attestation Update</a>:</strong> The only financial information Tether regularly discloses</li>
+    <li><strong><a href="/en/blog/lightning-network-capacity-milestone">Lightning Network Capacity Hits All-Time High</a>:</strong> The current scale of the payment rail RGB is riding on</li>
+    <li><strong><a href="/en/blog/bitcoin-core-31-1-privacy-release">Bitcoin Core 31.1rc1's Privacy Fix</a>:</strong> Another privacy push happening at Bitcoin's protocol layer around the same time</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">テザー準備資産証明アップデート</a>:</strong> テザーが定期的に開示する唯一の財務情報</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">ライトニングネットワーク容量が過去最高に</a>:</strong> RGBが乗る決済レールの現在の規模</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">ビットコインコア31.1rc1のプライバシー修正</a>:</strong> 同時期にビットコインのプロトコル層で進む別のプライバシー強化</li>
+    <li><strong><a href="/ja/blog/tether-reserve-attestation-update">テザー準備資産証明アップデート</a>:</strong> テザーが定期的に開示する唯一の財務情報</li>
+    <li><strong><a href="/ja/blog/lightning-network-capacity-milestone">ライトニングネットワーク容量が過去最高に</a>:</strong> RGBが乗る決済レールの現在の規模</li>
+    <li><strong><a href="/ja/blog/bitcoin-core-31-1-privacy-release">ビットコインコア31.1rc1のプライバシー修正</a>:</strong> 同時期にビットコインのプロトコル層で進む別のプライバシー強化</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Actualización de Certificación de Reservas de Tether</a>:</strong> La única información financiera que Tether divulga regularmente</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">La Capacidad de Lightning Network Marca un Máximo Histórico</a>:</strong> La escala actual del riel de pagos sobre el que corre RGB</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">La Corrección de Privacidad de Bitcoin Core 31.1rc1</a>:</strong> Otro avance de privacidad en la capa de protocolo de Bitcoin en la misma época</li>
+    <li><strong><a href="/es/blog/tether-reserve-attestation-update">Actualización de Certificación de Reservas de Tether</a>:</strong> La única información financiera que Tether divulga regularmente</li>
+    <li><strong><a href="/es/blog/lightning-network-capacity-milestone">La Capacidad de Lightning Network Marca un Máximo Histórico</a>:</strong> La escala actual del riel de pagos sobre el que corre RGB</li>
+    <li><strong><a href="/es/blog/bitcoin-core-31-1-privacy-release">La Corrección de Privacidad de Bitcoin Core 31.1rc1</a>:</strong> Otro avance de privacidad en la capa de protocolo de Bitcoin en la misma época</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tethers Reserve-Attestierungs-Update</a>:</strong> Die einzige Finanzinformation, die Tether regelmäßig offenlegt</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">Lightning-Network-Kapazität Erreicht Allzeithoch</a>:</strong> Die aktuelle Größe der Zahlungsschiene, auf der RGB aufsetzt</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">Bitcoin Core 31.1rc1s Privatsphäre-Fix</a>:</strong> Ein weiterer Privatsphäre-Vorstoß auf Bitcoins Protokollebene zur gleichen Zeit</li>
+    <li><strong><a href="/de/blog/tether-reserve-attestation-update">Tethers Reserve-Attestierungs-Update</a>:</strong> Die einzige Finanzinformation, die Tether regelmäßig offenlegt</li>
+    <li><strong><a href="/de/blog/lightning-network-capacity-milestone">Lightning-Network-Kapazität Erreicht Allzeithoch</a>:</strong> Die aktuelle Größe der Zahlungsschiene, auf der RGB aufsetzt</li>
+    <li><strong><a href="/de/blog/bitcoin-core-31-1-privacy-release">Bitcoin Core 31.1rc1s Privatsphäre-Fix</a>:</strong> Ein weiterer Privatsphäre-Vorstoß auf Bitcoins Protokollebene zur gleichen Zeit</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Mise à Jour de l'Attestation de Réserves de Tether</a>:</strong> La seule information financière que Tether divulgue régulièrement</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">La Capacité du Lightning Network Atteint un Sommet Historique</a>:</strong> L'échelle actuelle du rail de paiement sur lequel RGB s'appuie</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">Le Correctif de Confidentialité de Bitcoin Core 31.1rc1</a>:</strong> Une autre avancée en matière de confidentialité au niveau du protocole Bitcoin à la même période</li>
+    <li><strong><a href="/fr/blog/tether-reserve-attestation-update">Mise à Jour de l'Attestation de Réserves de Tether</a>:</strong> La seule information financière que Tether divulgue régulièrement</li>
+    <li><strong><a href="/fr/blog/lightning-network-capacity-milestone">La Capacité du Lightning Network Atteint un Sommet Historique</a>:</strong> L'échelle actuelle du rail de paiement sur lequel RGB s'appuie</li>
+    <li><strong><a href="/fr/blog/bitcoin-core-31-1-privacy-release">Le Correctif de Confidentialité de Bitcoin Core 31.1rc1</a>:</strong> Une autre avancée en matière de confidentialité au niveau du protocole Bitcoin à la même période</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Atualização da Certificação de Reservas da Tether</a>:</strong> A única informação financeira que a Tether divulga regularmente</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">Capacidade da Lightning Network Atinge Máxima Histórica</a>:</strong> A escala atual do trilho de pagamento sobre o qual o RGB se apoia</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">A Correção de Privacidade do Bitcoin Core 31.1rc1</a>:</strong> Outro avanço de privacidade na camada de protocolo do Bitcoin no mesmo período</li>
+    <li><strong><a href="/pt/blog/tether-reserve-attestation-update">Atualização da Certificação de Reservas da Tether</a>:</strong> A única informação financeira que a Tether divulga regularmente</li>
+    <li><strong><a href="/pt/blog/lightning-network-capacity-milestone">Capacidade da Lightning Network Atinge Máxima Histórica</a>:</strong> A escala atual do trilho de pagamento sobre o qual o RGB se apoia</li>
+    <li><strong><a href="/pt/blog/bitcoin-core-31-1-privacy-release">A Correção de Privacidade do Bitcoin Core 31.1rc1</a>:</strong> Outro avanço de privacidade na camada de protocolo do Bitcoin no mesmo período</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether'in Rezerv Doğrulama Güncellemesi</a>:</strong> Tether'in düzenli olarak açıkladığı tek finansal bilgi</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">Lightning Network Kapasitesi Tüm Zamanların Zirvesinde</a>:</strong> RGB'nin üzerinde yükseldiği ödeme rayının mevcut ölçeği</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">Bitcoin Core 31.1rc1'in Gizlilik Düzeltmesi</a>:</strong> Aynı dönemde Bitcoin protokol katmanında yaşanan bir başka gizlilik gelişmesi</li>
+    <li><strong><a href="/tr/blog/tether-reserve-attestation-update">Tether'in Rezerv Doğrulama Güncellemesi</a>:</strong> Tether'in düzenli olarak açıkladığı tek finansal bilgi</li>
+    <li><strong><a href="/tr/blog/lightning-network-capacity-milestone">Lightning Network Kapasitesi Tüm Zamanların Zirvesinde</a>:</strong> RGB'nin üzerinde yükseldiği ödeme rayının mevcut ölçeği</li>
+    <li><strong><a href="/tr/blog/bitcoin-core-31-1-privacy-release">Bitcoin Core 31.1rc1'in Gizlilik Düzeltmesi</a>:</strong> Aynı dönemde Bitcoin protokol katmanında yaşanan bir başka gizlilik gelişmesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Cập Nhật Chứng Thực Dự Trữ của Tether</a>:</strong> Thông tin tài chính duy nhất mà Tether công bố định kỳ</li>
-    <li><strong><a href="/blog/lightning-network-capacity-milestone.php">Dung Lượng Lightning Network Đạt Đỉnh Mọi Thời Đại</a>:</strong> Quy mô hiện tại của tuyến thanh toán mà RGB đang dựa vào</li>
-    <li><strong><a href="/blog/bitcoin-core-31-1-privacy-release.php">Bản Vá Quyền Riêng Tư của Bitcoin Core 31.1rc1</a>:</strong> Một nỗ lực tăng cường quyền riêng tư khác ở tầng giao thức Bitcoin cùng thời điểm</li>
+    <li><strong><a href="/vi/blog/tether-reserve-attestation-update">Cập Nhật Chứng Thực Dự Trữ của Tether</a>:</strong> Thông tin tài chính duy nhất mà Tether công bố định kỳ</li>
+    <li><strong><a href="/vi/blog/lightning-network-capacity-milestone">Dung Lượng Lightning Network Đạt Đỉnh Mọi Thời Đại</a>:</strong> Quy mô hiện tại của tuyến thanh toán mà RGB đang dựa vào</li>
+    <li><strong><a href="/vi/blog/bitcoin-core-31-1-privacy-release">Bản Vá Quyền Riêng Tư của Bitcoin Core 31.1rc1</a>:</strong> Một nỗ lực tăng cường quyền riêng tư khác ở tầng giao thức Bitcoin cùng thời điểm</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 테더 공식 발표(RGB 기반 USDT 재발행 계획), 크립토브리핑·crypto.news·크립토슬레이트(RGB·UTEXO 롤아웃 상세 보도), 왐다(UTEXO 750만 달러 시드 투자 보도), rgb.info·RGB 공식 문서(RGB 프로토콜 기술 사양), 비트코인매거진(RGB 역사·컬러드코인 배경). 출시 일정과 채택 규모는 아직 확정되지 않은 계획 단계이며, 본 글은 투자 조언이 아니다.</p>

@@ -313,40 +313,40 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC "대부분 크립토는 증권 아니다" 공식 해석</a>:</strong> 미국이 국제 표준과 별도로 걷고 있는 또 다른 규제 노선</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC의 2026년 '레그 크립토' 발의 예고</a>:</strong> 프리스크립티브 규칙 대신 세이프하버를 택한 미국식 접근</li>
+    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release">SEC "대부분 크립토는 증권 아니다" 공식 해석</a>:</strong> 미국이 국제 표준과 별도로 걷고 있는 또 다른 규제 노선</li>
+    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC의 2026년 '레그 크립토' 발의 예고</a>:</strong> 프리스크립티브 규칙 대신 세이프하버를 택한 미국식 접근</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Formally States "Most Crypto Assets Are Not Securities"</a>:</strong> Another regulatory track the US is walking independently of international standards</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Previews 'Reg Crypto' for This Month</a>:</strong> The US approach favoring safe harbors over prescriptive rules</li>
+    <li><strong><a href="/en/blog/sec-digital-commodity-interpretive-release">SEC Formally States "Most Crypto Assets Are Not Securities"</a>:</strong> Another regulatory track the US is walking independently of international standards</li>
+    <li><strong><a href="/en/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Previews 'Reg Crypto' for This Month</a>:</strong> The US approach favoring safe harbors over prescriptive rules</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC「大部分の暗号資産は証券ではない」公式解釈</a>:</strong> 米国が国際基準とは別に歩む、もう一つの規制路線</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SECの2026年「レグ・クリプト」発議予告</a>:</strong> 規定型ルールよりセーフハーバーを選んだ米国式アプローチ</li>
+    <li><strong><a href="/ja/blog/sec-digital-commodity-interpretive-release">SEC「大部分の暗号資産は証券ではない」公式解釈</a>:</strong> 米国が国際基準とは別に歩む、もう一つの規制路線</li>
+    <li><strong><a href="/ja/blog/sec-2026-agenda-reg-crypto-safe-harbor">SECの2026年「レグ・クリプト」発議予告</a>:</strong> 規定型ルールよりセーフハーバーを選んだ米国式アプローチ</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La SEC Declara Formalmente que "La Mayoría de los Cripto Activos No Son Valores"</a>:</strong> Otra vía regulatoria que EE. UU. recorre al margen de los estándares internacionales</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">La SEC Anticipa su 'Reg Crypto' para Este Mes</a>:</strong> El enfoque estadounidense que favorece los refugios seguros sobre las reglas prescriptivas</li>
+    <li><strong><a href="/es/blog/sec-digital-commodity-interpretive-release">La SEC Declara Formalmente que "La Mayoría de los Cripto Activos No Son Valores"</a>:</strong> Otra vía regulatoria que EE. UU. recorre al margen de los estándares internacionales</li>
+    <li><strong><a href="/es/blog/sec-2026-agenda-reg-crypto-safe-harbor">La SEC Anticipa su 'Reg Crypto' para Este Mes</a>:</strong> El enfoque estadounidense que favorece los refugios seguros sobre las reglas prescriptivas</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Erklärt Offiziell: "Die Meisten Krypto-Assets Sind Keine Wertpapiere"</a>:</strong> Ein weiterer regulatorischer Weg, den die USA unabhängig von internationalen Standards gehen</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Kündigt 'Reg Crypto' für Diesen Monat An</a>:</strong> Der US-Ansatz, der Safe Harbors gegenüber präskriptiven Regeln bevorzugt</li>
+    <li><strong><a href="/de/blog/sec-digital-commodity-interpretive-release">SEC Erklärt Offiziell: "Die Meisten Krypto-Assets Sind Keine Wertpapiere"</a>:</strong> Ein weiterer regulatorischer Weg, den die USA unabhängig von internationalen Standards gehen</li>
+    <li><strong><a href="/de/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Kündigt 'Reg Crypto' für Diesen Monat An</a>:</strong> Der US-Ansatz, der Safe Harbors gegenüber präskriptiven Regeln bevorzugt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La SEC Déclare Officiellement que « La Plupart des Cryptoactifs ne Sont pas des Valeurs Mobilières »</a>:</strong> Une autre voie réglementaire que les États-Unis empruntent indépendamment des normes internationales</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">La SEC Annonce son 'Reg Crypto' pour ce Mois-ci</a>:</strong> L'approche américaine privilégiant les refuges sûrs aux règles prescriptives</li>
+    <li><strong><a href="/fr/blog/sec-digital-commodity-interpretive-release">La SEC Déclare Officiellement que « La Plupart des Cryptoactifs ne Sont pas des Valeurs Mobilières »</a>:</strong> Une autre voie réglementaire que les États-Unis empruntent indépendamment des normes internationales</li>
+    <li><strong><a href="/fr/blog/sec-2026-agenda-reg-crypto-safe-harbor">La SEC Annonce son 'Reg Crypto' pour ce Mois-ci</a>:</strong> L'approche américaine privilégiant les refuges sûrs aux règles prescriptives</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Declara Formalmente que "A Maioria dos Criptoativos Não São Valores Mobiliários"</a>:</strong> Outra via regulatória que os EUA trilham à parte dos padrões internacionais</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Antecipa seu 'Reg Crypto' para Este Mês</a>:</strong> A abordagem americana que favorece portos seguros em vez de regras prescritivas</li>
+    <li><strong><a href="/pt/blog/sec-digital-commodity-interpretive-release">SEC Declara Formalmente que "A Maioria dos Criptoativos Não São Valores Mobiliários"</a>:</strong> Outra via regulatória que os EUA trilham à parte dos padrões internacionais</li>
+    <li><strong><a href="/pt/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Antecipa seu 'Reg Crypto' para Este Mês</a>:</strong> A abordagem americana que favorece portos seguros em vez de regras prescritivas</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Resmen "Kripto Varlıkların Çoğu Menkul Kıymet Değildir" Diyor</a>:</strong> ABD'nin uluslararası standartlardan bağımsız yürüdüğü başka bir düzenleyici hat</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Bu Ay İçin 'Reg Crypto' Sinyali Veriyor</a>:</strong> Kural koyucu yaklaşım yerine güvenli limanı tercih eden ABD yaklaşımı</li>
+    <li><strong><a href="/tr/blog/sec-digital-commodity-interpretive-release">SEC Resmen "Kripto Varlıkların Çoğu Menkul Kıymet Değildir" Diyor</a>:</strong> ABD'nin uluslararası standartlardan bağımsız yürüdüğü başka bir düzenleyici hat</li>
+    <li><strong><a href="/tr/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Bu Ay İçin 'Reg Crypto' Sinyali Veriyor</a>:</strong> Kural koyucu yaklaşım yerine güvenli limanı tercih eden ABD yaklaşımı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC Chính Thức Tuyên Bố "Hầu Hết Tài Sản Tiền Mã Hóa Không Phải Chứng Khoán"</a>:</strong> Một hướng quản lý khác mà Mỹ đang đi độc lập với các tiêu chuẩn quốc tế</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Báo Trước 'Reg Crypto' Cho Tháng Này</a>:</strong> Cách tiếp cận của Mỹ ưu tiên vùng an toàn hơn là quy tắc áp đặt</li>
+    <li><strong><a href="/vi/blog/sec-digital-commodity-interpretive-release">SEC Chính Thức Tuyên Bố "Hầu Hết Tài Sản Tiền Mã Hóa Không Phải Chứng Khoán"</a>:</strong> Một hướng quản lý khác mà Mỹ đang đi độc lập với các tiêu chuẩn quốc tế</li>
+    <li><strong><a href="/vi/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Báo Trước 'Reg Crypto' Cho Tháng Này</a>:</strong> Cách tiếp cận của Mỹ ưu tiên vùng an toàn hơn là quy tắc áp đặt</li>
   </ul>
 
   <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 국제결제은행(BIS) 바젤은행감독위원회 보도자료(2025년 11월, 2026년 2월 25일, 2026년 5월 20일), 크립토슬레이트(CryptoSlate) SCO60 해설, ISDA·GFMA 2025년 8월 서한, 미국 행정명령 14178호 및 2025년 7월 디지털자산 보고서. 본 글은 투자 조언이 아니다.</p>

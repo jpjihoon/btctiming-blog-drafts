@@ -706,67 +706,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">비트코인-나스닥 상관계수, 4월 +0.96에서 지금 −0.84로 뒤집혔다</a>:</strong> 나스닥 상관관계 붕괴를 단독으로 다룬 글</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">가격은 오르는데 금은 등을 돌렸다</a>:</strong> 금 디커플링을 공포탐욕지수와 함께 다룬 글</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">달러 인덱스 101.15 — 비트코인이 힘을 못 쓴 진짜 이유</a>:</strong> DXY-비트코인 관계의 기초를 다진 글</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">코인베이스 프리미엄 역대 최장 마이너스 vs 선물 OI 감소</a>:</strong> 같은 반등을 미국 수요·레버리지 측면에서 본 진단</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">아직 확인되지 않은 반등</a>:</strong> 이번 반등의 취약성 체크리스트</li>
+    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative">비트코인-나스닥 상관계수, 4월 +0.96에서 지금 −0.84로 뒤집혔다</a>:</strong> 나스닥 상관관계 붕괴를 단독으로 다룬 글</li>
+    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap">가격은 오르는데 금은 등을 돌렸다</a>:</strong> 금 디커플링을 공포탐욕지수와 함께 다룬 글</li>
+    <li><strong><a href="/blog/dxy-bitcoin-relationship">달러 인덱스 101.15 — 비트코인이 힘을 못 쓴 진짜 이유</a>:</strong> DXY-비트코인 관계의 기초를 다진 글</li>
+    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap">코인베이스 프리미엄 역대 최장 마이너스 vs 선물 OI 감소</a>:</strong> 같은 반등을 미국 수요·레버리지 측면에서 본 진단</li>
+    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026">아직 확인되지 않은 반등</a>:</strong> 이번 반등의 취약성 체크리스트</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Bitcoin-Nasdaq Correlation Flips From +0.96 in April to -0.84 Now</a>:</strong> A dedicated look at the Nasdaq correlation breakdown</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Price Rises While Gold Turns Its Back</a>:</strong> The gold decoupling paired with the Fear &amp; Greed Index</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Dollar Index at 101.15 — The Real Reason Bitcoin Couldn't Get Traction</a>:</strong> The foundational piece on the DXY-Bitcoin relationship</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Coinbase Premium's Record Negative Streak vs Shrinking Futures OI</a>:</strong> The same bounce diagnosed through U.S. demand and leverage</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">The Bounce That Hasn't Been Confirmed Yet</a>:</strong> A fragility checklist for this rally</li>
+    <li><strong><a href="/en/blog/btc-nasdaq-correlation-flips-negative">Bitcoin-Nasdaq Correlation Flips From +0.96 in April to -0.84 Now</a>:</strong> A dedicated look at the Nasdaq correlation breakdown</li>
+    <li><strong><a href="/en/blog/btc-gold-decoupling-fear-greed-gap">Price Rises While Gold Turns Its Back</a>:</strong> The gold decoupling paired with the Fear &amp; Greed Index</li>
+    <li><strong><a href="/en/blog/dxy-bitcoin-relationship">Dollar Index at 101.15 — The Real Reason Bitcoin Couldn't Get Traction</a>:</strong> The foundational piece on the DXY-Bitcoin relationship</li>
+    <li><strong><a href="/en/blog/coinbase-premium-record-streak-oi-btc-gap">Coinbase Premium's Record Negative Streak vs Shrinking Futures OI</a>:</strong> The same bounce diagnosed through U.S. demand and leverage</li>
+    <li><strong><a href="/en/blog/rebound-not-yet-confirmed-2026">The Bounce That Hasn't Been Confirmed Yet</a>:</strong> A fragility checklist for this rally</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">ビットコイン-ナスダック相関係数、4月+0.96から今は-0.84へ反転</a>:</strong> ナスダック相関崩壊を単独で扱った記事</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">価格は上がるのに金は背を向けた</a>:</strong> 金のデカップリングを恐怖強欲指数と併せて扱った記事</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">ドルインデックス101.15 — ビットコインが力を出せなかった本当の理由</a>:</strong> DXY-ビットコイン関係の基礎を築いた記事</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">コインベースプレミアム歴代最長マイナス 対 先物OI減少</a>:</strong> 米国需要とレバレッジの観点から見た同じ反発</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">まだ確認されていない反発</a>:</strong> 今回の反発の脆弱性チェックリスト</li>
+    <li><strong><a href="/ja/blog/btc-nasdaq-correlation-flips-negative">ビットコイン-ナスダック相関係数、4月+0.96から今は-0.84へ反転</a>:</strong> ナスダック相関崩壊を単独で扱った記事</li>
+    <li><strong><a href="/ja/blog/btc-gold-decoupling-fear-greed-gap">価格は上がるのに金は背を向けた</a>:</strong> 金のデカップリングを恐怖強欲指数と併せて扱った記事</li>
+    <li><strong><a href="/ja/blog/dxy-bitcoin-relationship">ドルインデックス101.15 — ビットコインが力を出せなかった本当の理由</a>:</strong> DXY-ビットコイン関係の基礎を築いた記事</li>
+    <li><strong><a href="/ja/blog/coinbase-premium-record-streak-oi-btc-gap">コインベースプレミアム歴代最長マイナス 対 先物OI減少</a>:</strong> 米国需要とレバレッジの観点から見た同じ反発</li>
+    <li><strong><a href="/ja/blog/rebound-not-yet-confirmed-2026">まだ確認されていない反発</a>:</strong> 今回の反発の脆弱性チェックリスト</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">La Correlación Bitcoin-Nasdaq Pasa de +0,96 en Abril a -0,84 Ahora</a>:</strong> Un análisis dedicado a la ruptura de la correlación con el Nasdaq</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">El Precio Sube Mientras el Oro Da la Espalda</a>:</strong> El desacoplamiento del oro junto al Índice de Miedo y Codicia</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Índice del Dólar en 101,15 — La Razón Real por la que Bitcoin no Pudo Avanzar</a>:</strong> La pieza fundacional sobre la relación DXY-Bitcoin</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">La Racha Negativa Récord de la Prima de Coinbase vs la Caída del OI de Futuros</a>:</strong> El mismo rebote diagnosticado a través de la demanda estadounidense y el apalancamiento</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">El Rebote Que Aún No se Ha Confirmado</a>:</strong> Una lista de fragilidad para este repunte</li>
+    <li><strong><a href="/es/blog/btc-nasdaq-correlation-flips-negative">La Correlación Bitcoin-Nasdaq Pasa de +0,96 en Abril a -0,84 Ahora</a>:</strong> Un análisis dedicado a la ruptura de la correlación con el Nasdaq</li>
+    <li><strong><a href="/es/blog/btc-gold-decoupling-fear-greed-gap">El Precio Sube Mientras el Oro Da la Espalda</a>:</strong> El desacoplamiento del oro junto al Índice de Miedo y Codicia</li>
+    <li><strong><a href="/es/blog/dxy-bitcoin-relationship">Índice del Dólar en 101,15 — La Razón Real por la que Bitcoin no Pudo Avanzar</a>:</strong> La pieza fundacional sobre la relación DXY-Bitcoin</li>
+    <li><strong><a href="/es/blog/coinbase-premium-record-streak-oi-btc-gap">La Racha Negativa Récord de la Prima de Coinbase vs la Caída del OI de Futuros</a>:</strong> El mismo rebote diagnosticado a través de la demanda estadounidense y el apalancamiento</li>
+    <li><strong><a href="/es/blog/rebound-not-yet-confirmed-2026">El Rebote Que Aún No se Ha Confirmado</a>:</strong> Una lista de fragilidad para este repunte</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Bitcoin-Nasdaq-Korrelation kippt von +0,96 im April auf -0,84 jetzt</a>:</strong> Eine eigene Betrachtung des Nasdaq-Korrelationszusammenbruchs</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Preis steigt, während Gold den Rücken kehrt</a>:</strong> Die Gold-Entkopplung gepaart mit dem Fear-&amp;-Greed-Index</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Dollarindex bei 101,15 — Der wahre Grund, warum Bitcoin keinen Halt fand</a>:</strong> Der Grundlagenartikel zur DXY-Bitcoin-Beziehung</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Coinbase-Prämies Rekord-Negativserie vs. schrumpfendes Futures-OI</a>:</strong> Dieselbe Erholung, diagnostiziert über US-Nachfrage und Hebel</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Die Erholung, die noch nicht bestätigt ist</a>:</strong> Eine Fragilitäts-Checkliste für diese Rally</li>
+    <li><strong><a href="/de/blog/btc-nasdaq-correlation-flips-negative">Bitcoin-Nasdaq-Korrelation kippt von +0,96 im April auf -0,84 jetzt</a>:</strong> Eine eigene Betrachtung des Nasdaq-Korrelationszusammenbruchs</li>
+    <li><strong><a href="/de/blog/btc-gold-decoupling-fear-greed-gap">Preis steigt, während Gold den Rücken kehrt</a>:</strong> Die Gold-Entkopplung gepaart mit dem Fear-&amp;-Greed-Index</li>
+    <li><strong><a href="/de/blog/dxy-bitcoin-relationship">Dollarindex bei 101,15 — Der wahre Grund, warum Bitcoin keinen Halt fand</a>:</strong> Der Grundlagenartikel zur DXY-Bitcoin-Beziehung</li>
+    <li><strong><a href="/de/blog/coinbase-premium-record-streak-oi-btc-gap">Coinbase-Prämies Rekord-Negativserie vs. schrumpfendes Futures-OI</a>:</strong> Dieselbe Erholung, diagnostiziert über US-Nachfrage und Hebel</li>
+    <li><strong><a href="/de/blog/rebound-not-yet-confirmed-2026">Die Erholung, die noch nicht bestätigt ist</a>:</strong> Eine Fragilitäts-Checkliste für diese Rally</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">La Corrélation Bitcoin-Nasdaq Passe de +0,96 en Avril à -0,84 Maintenant</a>:</strong> Une analyse dédiée à l'effondrement de la corrélation avec le Nasdaq</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Le Prix Monte Pendant que l'Or Tourne le Dos</a>:</strong> Le découplage de l'or associé à l'indice Fear &amp; Greed</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Indice Dollar à 101,15 — La Vraie Raison pour Laquelle le Bitcoin n'a pas Décollé</a>:</strong> L'article fondateur sur la relation DXY-Bitcoin</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">La Série Négative Record de la Prime Coinbase vs la Baisse de l'OI Futures</a>:</strong> Le même rebond diagnostiqué via la demande américaine et l'effet de levier</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Le Rebond Qui N'a Pas Encore Été Confirmé</a>:</strong> Une liste de fragilité pour ce rallye</li>
+    <li><strong><a href="/fr/blog/btc-nasdaq-correlation-flips-negative">La Corrélation Bitcoin-Nasdaq Passe de +0,96 en Avril à -0,84 Maintenant</a>:</strong> Une analyse dédiée à l'effondrement de la corrélation avec le Nasdaq</li>
+    <li><strong><a href="/fr/blog/btc-gold-decoupling-fear-greed-gap">Le Prix Monte Pendant que l'Or Tourne le Dos</a>:</strong> Le découplage de l'or associé à l'indice Fear &amp; Greed</li>
+    <li><strong><a href="/fr/blog/dxy-bitcoin-relationship">Indice Dollar à 101,15 — La Vraie Raison pour Laquelle le Bitcoin n'a pas Décollé</a>:</strong> L'article fondateur sur la relation DXY-Bitcoin</li>
+    <li><strong><a href="/fr/blog/coinbase-premium-record-streak-oi-btc-gap">La Série Négative Record de la Prime Coinbase vs la Baisse de l'OI Futures</a>:</strong> Le même rebond diagnostiqué via la demande américaine et l'effet de levier</li>
+    <li><strong><a href="/fr/blog/rebound-not-yet-confirmed-2026">Le Rebond Qui N'a Pas Encore Été Confirmé</a>:</strong> Une liste de fragilité pour ce rallye</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">A Correlação Bitcoin-Nasdaq Vira de +0,96 em Abril para -0,84 Agora</a>:</strong> Uma análise dedicada ao colapso da correlação com o Nasdaq</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">O Preço Sobe Enquanto o Ouro Vira as Costas</a>:</strong> O desacoplamento do ouro junto ao Índice de Medo e Ganância</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Índice do Dólar em 101,15 — A Razão Real Pela Qual o Bitcoin Não Conseguiu Tração</a>:</strong> O artigo fundacional sobre a relação DXY-Bitcoin</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">A Sequência Negativa Recorde da Prêmio Coinbase vs a Queda do OI de Futuros</a>:</strong> O mesmo repique diagnosticado pela demanda dos EUA e alavancagem</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">O Repique Que Ainda Não Foi Confirmado</a>:</strong> Uma lista de fragilidade para esse rali</li>
+    <li><strong><a href="/pt/blog/btc-nasdaq-correlation-flips-negative">A Correlação Bitcoin-Nasdaq Vira de +0,96 em Abril para -0,84 Agora</a>:</strong> Uma análise dedicada ao colapso da correlação com o Nasdaq</li>
+    <li><strong><a href="/pt/blog/btc-gold-decoupling-fear-greed-gap">O Preço Sobe Enquanto o Ouro Vira as Costas</a>:</strong> O desacoplamento do ouro junto ao Índice de Medo e Ganância</li>
+    <li><strong><a href="/pt/blog/dxy-bitcoin-relationship">Índice do Dólar em 101,15 — A Razão Real Pela Qual o Bitcoin Não Conseguiu Tração</a>:</strong> O artigo fundacional sobre a relação DXY-Bitcoin</li>
+    <li><strong><a href="/pt/blog/coinbase-premium-record-streak-oi-btc-gap">A Sequência Negativa Recorde da Prêmio Coinbase vs a Queda do OI de Futuros</a>:</strong> O mesmo repique diagnosticado pela demanda dos EUA e alavancagem</li>
+    <li><strong><a href="/pt/blog/rebound-not-yet-confirmed-2026">O Repique Que Ainda Não Foi Confirmado</a>:</strong> Uma lista de fragilidade para esse rali</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Bitcoin-Nasdaq Korelasyonu Nisanda +0,96'dan Şimdi -0,84'e Döndü</a>:</strong> Nasdaq korelasyon çöküşünü tek başına ele alan yazı</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Fiyat Yükselirken Altın Sırtını Döndü</a>:</strong> Altın ayrışmasını Korku ve Açgözlülük Endeksi ile birlikte ele alan yazı</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Dolar Endeksi 101,15'te — Bitcoin'in Güç Bulamamasının Gerçek Nedeni</a>:</strong> DXY-Bitcoin ilişkisinin temelini atan yazı</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Coinbase Priminin Rekor Negatif Serisi vs Daralan Vadeli İşlem OI'si</a>:</strong> Aynı yükselişin ABD talebi ve kaldıraç açısından teşhisi</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Henüz Doğrulanmamış Yükseliş</a>:</strong> Bu ralli için bir kırılganlık kontrol listesi</li>
+    <li><strong><a href="/tr/blog/btc-nasdaq-correlation-flips-negative">Bitcoin-Nasdaq Korelasyonu Nisanda +0,96'dan Şimdi -0,84'e Döndü</a>:</strong> Nasdaq korelasyon çöküşünü tek başına ele alan yazı</li>
+    <li><strong><a href="/tr/blog/btc-gold-decoupling-fear-greed-gap">Fiyat Yükselirken Altın Sırtını Döndü</a>:</strong> Altın ayrışmasını Korku ve Açgözlülük Endeksi ile birlikte ele alan yazı</li>
+    <li><strong><a href="/tr/blog/dxy-bitcoin-relationship">Dolar Endeksi 101,15'te — Bitcoin'in Güç Bulamamasının Gerçek Nedeni</a>:</strong> DXY-Bitcoin ilişkisinin temelini atan yazı</li>
+    <li><strong><a href="/tr/blog/coinbase-premium-record-streak-oi-btc-gap">Coinbase Priminin Rekor Negatif Serisi vs Daralan Vadeli İşlem OI'si</a>:</strong> Aynı yükselişin ABD talebi ve kaldıraç açısından teşhisi</li>
+    <li><strong><a href="/tr/blog/rebound-not-yet-confirmed-2026">Henüz Doğrulanmamış Yükseliş</a>:</strong> Bu ralli için bir kırılganlık kontrol listesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Tương Quan Bitcoin-Nasdaq Đảo Từ +0,96 Tháng 4 Xuống -0,84 Hiện Tại</a>:</strong> Bài viết riêng về sự sụp đổ tương quan với Nasdaq</li>
-    <li><strong><a href="/blog/btc-gold-decoupling-fear-greed-gap.php">Giá Tăng Trong Khi Vàng Quay Lưng</a>:</strong> Sự tách rời của vàng kết hợp với Chỉ số Sợ hãi &amp; Tham lam</li>
-    <li><strong><a href="/blog/dxy-bitcoin-relationship.php">Chỉ Số Đô La ở Mức 101,15 — Lý Do Thực Sự Khiến Bitcoin Không Bứt Phá</a>:</strong> Bài viết nền tảng về mối quan hệ DXY-Bitcoin</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Chuỗi Âm Kỷ Lục của Coinbase Premium vs OI Hợp Đồng Tương Lai Suy Giảm</a>:</strong> Cùng đợt phục hồi được chẩn đoán qua nhu cầu Mỹ và đòn bẩy</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Đợt Phục Hồi Chưa Được Xác Nhận</a>:</strong> Danh sách kiểm tra độ mong manh cho đợt tăng này</li>
+    <li><strong><a href="/vi/blog/btc-nasdaq-correlation-flips-negative">Tương Quan Bitcoin-Nasdaq Đảo Từ +0,96 Tháng 4 Xuống -0,84 Hiện Tại</a>:</strong> Bài viết riêng về sự sụp đổ tương quan với Nasdaq</li>
+    <li><strong><a href="/vi/blog/btc-gold-decoupling-fear-greed-gap">Giá Tăng Trong Khi Vàng Quay Lưng</a>:</strong> Sự tách rời của vàng kết hợp với Chỉ số Sợ hãi &amp; Tham lam</li>
+    <li><strong><a href="/vi/blog/dxy-bitcoin-relationship">Chỉ Số Đô La ở Mức 101,15 — Lý Do Thực Sự Khiến Bitcoin Không Bứt Phá</a>:</strong> Bài viết nền tảng về mối quan hệ DXY-Bitcoin</li>
+    <li><strong><a href="/vi/blog/coinbase-premium-record-streak-oi-btc-gap">Chuỗi Âm Kỷ Lục của Coinbase Premium vs OI Hợp Đồng Tương Lai Suy Giảm</a>:</strong> Cùng đợt phục hồi được chẩn đoán qua nhu cầu Mỹ và đòn bẩy</li>
+    <li><strong><a href="/vi/blog/rebound-not-yet-confirmed-2026">Đợt Phục Hồi Chưa Được Xác Nhận</a>:</strong> Danh sách kiểm tra độ mong manh cho đợt tăng này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Yahoo Finance·Fortune·Sunday Guardian Live(가격), CoinGlass(펀딩비·미결제약정), TheStreet·CNBC·Yahoo Finance(나스닥·S&amp;P500·다우존스), Forex.com·Phemex·ainvest·MEXC·VaaSBlock(나스닥·S&amp;P500 상관관계), Coindesk(JPMorgan 달러인덱스 분석, 미결제약정·ETF 유출 보도), OSL·247wallst·intellectia.ai(DXY-비트코인 관계), Yellow.com·cryptonews.net(금-비트코인 상관관계), Alternative.me(공포탐욕지수), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

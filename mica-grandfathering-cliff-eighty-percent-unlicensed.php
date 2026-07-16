@@ -294,40 +294,40 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스의 EU MiCA 라이선스 좌절</a>:</strong> 세계 최대 거래소조차 겪은 그리스발 패스포팅 실패 사례</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">리플의 룩셈부르크 MiCA 전면 승인</a>:</strong> 같은 규제 아래 정반대의 결과를 낸 사례</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스의 EU MiCA 라이선스 좌절</a>:</strong> 세계 최대 거래소조차 겪은 그리스발 패스포팅 실패 사례</li>
+    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg">리플의 룩셈부르크 MiCA 전면 승인</a>:</strong> 같은 규제 아래 정반대의 결과를 낸 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance's EU MiCA License Setback</a>:</strong> Even the world's largest exchange stumbled on Greek passporting</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple's Full MiCA Approval in Luxembourg</a>:</strong> The opposite outcome under the very same regulation</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance's EU MiCA License Setback</a>:</strong> Even the world's largest exchange stumbled on Greek passporting</li>
+    <li><strong><a href="/en/blog/ripple-mica-casp-full-license-luxembourg">Ripple's Full MiCA Approval in Luxembourg</a>:</strong> The opposite outcome under the very same regulation</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">BinanceのEU MiCAライセンス頓挫</a>:</strong> 世界最大の取引所さえ経験したギリシャ発パスポーティング失敗の事例</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Rippleのルクセンブルク MiCA全面承認</a>:</strong> 同じ規制の下で正反対の結果を出した事例</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">BinanceのEU MiCAライセンス頓挫</a>:</strong> 世界最大の取引所さえ経験したギリシャ発パスポーティング失敗の事例</li>
+    <li><strong><a href="/ja/blog/ripple-mica-casp-full-license-luxembourg">Rippleのルクセンブルク MiCA全面承認</a>:</strong> 同じ規制の下で正反対の結果を出した事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">El Revés de Binance con la Licencia MiCA de la UE</a>:</strong> Incluso el exchange más grande del mundo tropezó con el pasaporte griego</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">La Aprobación MiCA Completa de Ripple en Luxemburgo</a>:</strong> El resultado opuesto bajo el mismo reglamento</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">El Revés de Binance con la Licencia MiCA de la UE</a>:</strong> Incluso el exchange más grande del mundo tropezó con el pasaporte griego</li>
+    <li><strong><a href="/es/blog/ripple-mica-casp-full-license-luxembourg">La Aprobación MiCA Completa de Ripple en Luxemburgo</a>:</strong> El resultado opuesto bajo el mismo reglamento</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binances Rückschlag bei der EU-MiCA-Lizenz</a>:</strong> Selbst die größte Börse der Welt scheiterte am griechischen Passporting</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripples volle MiCA-Genehmigung in Luxemburg</a>:</strong> Das gegenteilige Ergebnis unter derselben Verordnung</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binances Rückschlag bei der EU-MiCA-Lizenz</a>:</strong> Selbst die größte Börse der Welt scheiterte am griechischen Passporting</li>
+    <li><strong><a href="/de/blog/ripple-mica-casp-full-license-luxembourg">Ripples volle MiCA-Genehmigung in Luxemburg</a>:</strong> Das gegenteilige Ergebnis unter derselben Verordnung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Le Revers de Binance sur la Licence MiCA de l'UE</a>:</strong> Même le plus grand exchange au monde a trébuché sur le passeport grec</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">L'Approbation MiCA Complète de Ripple au Luxembourg</a>:</strong> Le résultat inverse sous le même règlement</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">Le Revers de Binance sur la Licence MiCA de l'UE</a>:</strong> Même le plus grand exchange au monde a trébuché sur le passeport grec</li>
+    <li><strong><a href="/fr/blog/ripple-mica-casp-full-license-luxembourg">L'Approbation MiCA Complète de Ripple au Luxembourg</a>:</strong> Le résultat inverse sous le même règlement</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">O Revés da Binance com a Licença MiCA da UE</a>:</strong> Até a maior exchange do mundo tropeçou no passaporte grego</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">A Aprovação MiCA Completa da Ripple em Luxemburgo</a>:</strong> O resultado oposto sob o mesmo regulamento</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">O Revés da Binance com a Licença MiCA da UE</a>:</strong> Até a maior exchange do mundo tropeçou no passaporte grego</li>
+    <li><strong><a href="/pt/blog/ripple-mica-casp-full-license-luxembourg">A Aprovação MiCA Completa da Ripple em Luxemburgo</a>:</strong> O resultado oposto sob o mesmo regulamento</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance'in AB MiCA Lisansı Aksiliği</a>:</strong> Dünyanın en büyük borsası bile Yunanistan pasaportlamasında tökezledi</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple'ın Lüksemburg'da Tam MiCA Onayı</a>:</strong> Aynı düzenleme altında tam tersi bir sonuç</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance'in AB MiCA Lisansı Aksiliği</a>:</strong> Dünyanın en büyük borsası bile Yunanistan pasaportlamasında tökezledi</li>
+    <li><strong><a href="/tr/blog/ripple-mica-casp-full-license-luxembourg">Ripple'ın Lüksemburg'da Tam MiCA Onayı</a>:</strong> Aynı düzenleme altında tam tersi bir sonuç</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Trở Ngại Giấy Phép MiCA EU Của Binance</a>:</strong> Ngay cả sàn giao dịch lớn nhất thế giới cũng vấp ngã với việc chuyển hộ chiếu qua Hy Lạp</li>
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Phê Duyệt MiCA Đầy Đủ Của Ripple Tại Luxembourg</a>:</strong> Kết quả trái ngược dưới cùng một quy định</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Trở Ngại Giấy Phép MiCA EU Của Binance</a>:</strong> Ngay cả sàn giao dịch lớn nhất thế giới cũng vấp ngã với việc chuyển hộ chiếu qua Hy Lạp</li>
+    <li><strong><a href="/vi/blog/ripple-mica-casp-full-license-luxembourg">Phê Duyệt MiCA Đầy Đủ Của Ripple Tại Luxembourg</a>:</strong> Kết quả trái ngược dưới cùng một quy định</li>
   </ul>
 
   <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: ESMA(MiCA 공식 자료), 유럽집행위원회(미카 재검토 표적 협의, 2026년 5월 20일 개시), 유럽의회 ECON 위원회(2026년 5월 5일 공개 청문회, 6월 11일 초안 보고서), Elliptic·Zyphe·Compliora·Citium Tech(유예기간 종료 분석), 코인데스크(바이낸스·리플 MiCA 사례). 본 글은 투자 조언이 아니다.</p>

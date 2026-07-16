@@ -316,49 +316,49 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/round-number-magnets.php">라운드 넘버 매그넷 — 왜 시장은 반올림된 숫자에 멈추는가</a>:</strong> 6만·7만달러 경계 자체가 왜 특별해 보이는지에 대한 배경</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">백테스트 과최적화의 함정</a>:</strong> 표본 3개짜리 통계에서 패턴을 읽는 것의 위험을 다룬 글</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">장기보유자 물량, 다시 축적 국면으로</a>:</strong> 낙관적 해석의 근거가 되는 온체인 데이터</li>
+    <li><strong><a href="/blog/round-number-magnets">라운드 넘버 매그넷 — 왜 시장은 반올림된 숫자에 멈추는가</a>:</strong> 6만·7만달러 경계 자체가 왜 특별해 보이는지에 대한 배경</li>
+    <li><strong><a href="/blog/backtest-overfitting-trap">백테스트 과최적화의 함정</a>:</strong> 표본 3개짜리 통계에서 패턴을 읽는 것의 위험을 다룬 글</li>
+    <li><strong><a href="/blog/lth-supply-returns-to-accumulation">장기보유자 물량, 다시 축적 국면으로</a>:</strong> 낙관적 해석의 근거가 되는 온체인 데이터</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/round-number-magnets.php">Round-Number Magnets — Why Markets Stall at Rounded Figures</a>:</strong> Background on why the $60K/$70K boundaries look special in the first place</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">The Backtest Overfitting Trap</a>:</strong> On the risk of reading a pattern into a three-item sample</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Long-Term Holder Supply Returns to Accumulation</a>:</strong> The on-chain data behind the optimistic reading</li>
+    <li><strong><a href="/en/blog/round-number-magnets">Round-Number Magnets — Why Markets Stall at Rounded Figures</a>:</strong> Background on why the $60K/$70K boundaries look special in the first place</li>
+    <li><strong><a href="/en/blog/backtest-overfitting-trap">The Backtest Overfitting Trap</a>:</strong> On the risk of reading a pattern into a three-item sample</li>
+    <li><strong><a href="/en/blog/lth-supply-returns-to-accumulation">Long-Term Holder Supply Returns to Accumulation</a>:</strong> The on-chain data behind the optimistic reading</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/round-number-magnets.php">ラウンドナンバー・マグネット — 市場が丸められた数字で止まる理由</a>:</strong> 6万・7万ドルの境界がそもそもなぜ特別に見えるのかという背景</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">バックテスト過最適化の罠</a>:</strong> 標本3つの統計からパターンを読むことの危険性を扱った記事</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">長期保有者の物量、再び蓄積局面へ</a>:</strong> 楽観的解釈の根拠となるオンチェーンデータ</li>
+    <li><strong><a href="/ja/blog/round-number-magnets">ラウンドナンバー・マグネット — 市場が丸められた数字で止まる理由</a>:</strong> 6万・7万ドルの境界がそもそもなぜ特別に見えるのかという背景</li>
+    <li><strong><a href="/ja/blog/backtest-overfitting-trap">バックテスト過最適化の罠</a>:</strong> 標本3つの統計からパターンを読むことの危険性を扱った記事</li>
+    <li><strong><a href="/ja/blog/lth-supply-returns-to-accumulation">長期保有者の物量、再び蓄積局面へ</a>:</strong> 楽観的解釈の根拠となるオンチェーンデータ</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/round-number-magnets.php">Imanes de Números Redondos — Por Qué los Mercados se Detienen en Cifras Redondas</a>:</strong> Contexto sobre por qué los límites de $60K/$70K parecen especiales</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">La Trampa del Sobreajuste en Backtesting</a>:</strong> Sobre el riesgo de leer un patrón en una muestra de tres elementos</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">La Oferta de Tenedores a Largo Plazo Regresa a la Acumulación</a>:</strong> Los datos on-chain detrás de la lectura optimista</li>
+    <li><strong><a href="/es/blog/round-number-magnets">Imanes de Números Redondos — Por Qué los Mercados se Detienen en Cifras Redondas</a>:</strong> Contexto sobre por qué los límites de $60K/$70K parecen especiales</li>
+    <li><strong><a href="/es/blog/backtest-overfitting-trap">La Trampa del Sobreajuste en Backtesting</a>:</strong> Sobre el riesgo de leer un patrón en una muestra de tres elementos</li>
+    <li><strong><a href="/es/blog/lth-supply-returns-to-accumulation">La Oferta de Tenedores a Largo Plazo Regresa a la Acumulación</a>:</strong> Los datos on-chain detrás de la lectura optimista</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/round-number-magnets.php">Rundzahl-Magnete — Warum Märkte an Gerundeten Zahlen Stocken</a>:</strong> Hintergrund dazu, warum die 60K-/70K-Dollar-Grenzen überhaupt besonders wirken</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">Die Backtest-Overfitting-Falle</a>:</strong> Zum Risiko, ein Muster in eine Stichprobe von drei Fällen hineinzulesen</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Das Angebot der Langzeithalter Kehrt zur Akkumulation Zurück</a>:</strong> Die On-Chain-Daten hinter der optimistischen Lesart</li>
+    <li><strong><a href="/de/blog/round-number-magnets">Rundzahl-Magnete — Warum Märkte an Gerundeten Zahlen Stocken</a>:</strong> Hintergrund dazu, warum die 60K-/70K-Dollar-Grenzen überhaupt besonders wirken</li>
+    <li><strong><a href="/de/blog/backtest-overfitting-trap">Die Backtest-Overfitting-Falle</a>:</strong> Zum Risiko, ein Muster in eine Stichprobe von drei Fällen hineinzulesen</li>
+    <li><strong><a href="/de/blog/lth-supply-returns-to-accumulation">Das Angebot der Langzeithalter Kehrt zur Akkumulation Zurück</a>:</strong> Die On-Chain-Daten hinter der optimistischen Lesart</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/round-number-magnets.php">Aimants à Nombres Ronds — Pourquoi les Marchés Bloquent sur des Chiffres Ronds</a> :</strong> Le contexte expliquant pourquoi les limites de 60K/70K$ semblent spéciales</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">Le Piège du Surajustement des Backtests</a> :</strong> Sur le risque de lire un schéma dans un échantillon de trois éléments</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">L'Offre des Détenteurs à Long Terme Revient à l'Accumulation</a> :</strong> Les données on-chain derrière la lecture optimiste</li>
+    <li><strong><a href="/fr/blog/round-number-magnets">Aimants à Nombres Ronds — Pourquoi les Marchés Bloquent sur des Chiffres Ronds</a> :</strong> Le contexte expliquant pourquoi les limites de 60K/70K$ semblent spéciales</li>
+    <li><strong><a href="/fr/blog/backtest-overfitting-trap">Le Piège du Surajustement des Backtests</a> :</strong> Sur le risque de lire un schéma dans un échantillon de trois éléments</li>
+    <li><strong><a href="/fr/blog/lth-supply-returns-to-accumulation">L'Offre des Détenteurs à Long Terme Revient à l'Accumulation</a> :</strong> Les données on-chain derrière la lecture optimiste</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/round-number-magnets.php">Ímãs de Números Redondos — Por Que os Mercados Travam em Números Arredondados</a>:</strong> Contexto sobre por que os limites de $60K/$70K parecem especiais</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">A Armadilha do Overfitting em Backtests</a>:</strong> Sobre o risco de ler um padrão em uma amostra de três itens</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">A Oferta de Detentores de Longo Prazo Retorna à Acumulação</a>:</strong> Os dados on-chain por trás da leitura otimista</li>
+    <li><strong><a href="/pt/blog/round-number-magnets">Ímãs de Números Redondos — Por Que os Mercados Travam em Números Arredondados</a>:</strong> Contexto sobre por que os limites de $60K/$70K parecem especiais</li>
+    <li><strong><a href="/pt/blog/backtest-overfitting-trap">A Armadilha do Overfitting em Backtests</a>:</strong> Sobre o risco de ler um padrão em uma amostra de três itens</li>
+    <li><strong><a href="/pt/blog/lth-supply-returns-to-accumulation">A Oferta de Detentores de Longo Prazo Retorna à Acumulação</a>:</strong> Os dados on-chain por trás da leitura otimista</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/round-number-magnets.php">Yuvarlak Sayı Mıknatısları — Piyasalar Neden Yuvarlak Rakamlarda Duraksar</a>:</strong> 60K/70K dolar sınırlarının neden özel göründüğüne dair arka plan</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">Geriye Dönük Test Aşırı Uyum Tuzağı</a>:</strong> Üç öğelik bir örneklemde örüntü okuma riski hakkında</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Uzun Vadeli Sahip Arzı Yeniden Birikime Dönüyor</a>:</strong> Optimist okumanın ardındaki zincir üstü veriler</li>
+    <li><strong><a href="/tr/blog/round-number-magnets">Yuvarlak Sayı Mıknatısları — Piyasalar Neden Yuvarlak Rakamlarda Duraksar</a>:</strong> 60K/70K dolar sınırlarının neden özel göründüğüne dair arka plan</li>
+    <li><strong><a href="/tr/blog/backtest-overfitting-trap">Geriye Dönük Test Aşırı Uyum Tuzağı</a>:</strong> Üç öğelik bir örneklemde örüntü okuma riski hakkında</li>
+    <li><strong><a href="/tr/blog/lth-supply-returns-to-accumulation">Uzun Vadeli Sahip Arzı Yeniden Birikime Dönüyor</a>:</strong> Optimist okumanın ardındaki zincir üstü veriler</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/round-number-magnets.php">Nam Châm Số Tròn — Vì Sao Thị Trường Dừng Lại Ở Các Số Tròn</a>:</strong> Bối cảnh vì sao các ngưỡng 60K/70K đô la trông có vẻ đặc biệt</li>
-    <li><strong><a href="/blog/backtest-overfitting-trap.php">Cái Bẫy Overfitting Khi Kiểm Thử Lại</a>:</strong> Về rủi ro đọc ra một khuôn mẫu từ mẫu chỉ có ba trường hợp</li>
-    <li><strong><a href="/blog/lth-supply-returns-to-accumulation.php">Nguồn Cung Người Nắm Giữ Dài Hạn Quay Lại Tích Lũy</a>:</strong> Dữ liệu on-chain đằng sau cách hiểu lạc quan</li>
+    <li><strong><a href="/vi/blog/round-number-magnets">Nam Châm Số Tròn — Vì Sao Thị Trường Dừng Lại Ở Các Số Tròn</a>:</strong> Bối cảnh vì sao các ngưỡng 60K/70K đô la trông có vẻ đặc biệt</li>
+    <li><strong><a href="/vi/blog/backtest-overfitting-trap">Cái Bẫy Overfitting Khi Kiểm Thử Lại</a>:</strong> Về rủi ro đọc ra một khuôn mẫu từ mẫu chỉ có ba trường hợp</li>
+    <li><strong><a href="/vi/blog/lth-supply-returns-to-accumulation">Nguồn Cung Người Nắm Giữ Dài Hạn Quay Lại Tích Lũy</a>:</strong> Dữ liệu on-chain đằng sau cách hiểu lạc quan</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 글래스노드(Glassnode), 코인데스크, 팁랭크스(TipRanks), 야후파이낸스, 비트코인시츠(BitcoinSeats), 크립토월드헤드라인(Crypto World Headline). 통계는 2026년 7월 10일 보도 기준이며 이후 갱신될 수 있다. 본 글은 투자 조언이 아니다.</p>

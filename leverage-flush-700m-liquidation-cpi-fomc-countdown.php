@@ -403,67 +403,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 이번 글의 역사적 비교 기준이 된 7월 8일 파생 포지셔닝 데이터</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">$57,900이 무너지면 정확히 무슨 일이 일어나는가</a>:</strong> 레버리지 청산 도미노가 실제로 이어지는 과정을 시뮬레이션</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">매집·분배 라인이 답하지 못하는 질문</a>:</strong> 청산 캐스케이드를 사전에 못 잡아내는 지표의 사각지대</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">코인베이스 프리미엄은 역대 최장 마이너스 스트릭</a>:</strong> 이번 글이 언급한 미국발 수요 약세 신호</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">선물 오픈 인터레스트 빠르게 복귀 — 롱숏비율은 아직 안 쏠렸다</a>:</strong> 이번 플러시 이후 포지셔닝 재구축을 추적할 배경</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 이번 글의 역사적 비교 기준이 된 7월 8일 파생 포지셔닝 데이터</li>
+    <li><strong><a href="/blog/57900-breakdown-cascade-simulation">$57,900이 무너지면 정확히 무슨 일이 일어나는가</a>:</strong> 레버리지 청산 도미노가 실제로 이어지는 과정을 시뮬레이션</li>
+    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot">매집·분배 라인이 답하지 못하는 질문</a>:</strong> 청산 캐스케이드를 사전에 못 잡아내는 지표의 사각지대</li>
+    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">코인베이스 프리미엄은 역대 최장 마이너스 스트릭</a>:</strong> 이번 글이 언급한 미국발 수요 약세 신호</li>
+    <li><strong><a href="/blog/oi-rebuild-balanced-positioning">선물 오픈 인터레스트 빠르게 복귀 — 롱숏비율은 아직 안 쏠렸다</a>:</strong> 이번 플러시 이후 포지셔닝 재구축을 추적할 배경</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> The July 8 derivatives-positioning data used as this piece's historical benchmark</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Here's Exactly What Happens If $57,900 Breaks</a>:</strong> A simulation of how the leverage-liquidation domino actually plays out</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">The Question the Accumulation/Distribution Line Can't Answer</a>:</strong> The blind spot that keeps indicators from catching liquidation cascades early</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">Coinbase Premium's Longest Negative Streak on Record</a>:</strong> The weak U.S.-demand signal referenced in this piece</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Futures Open Interest Rebuilds Fast — Long/Short Hasn't Tilted Yet</a>:</strong> Background for tracking how positioning rebuilds after this flush</li>
+    <li><strong><a href="/en/blog/iran-shock-derivatives-positioning-gap">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> The July 8 derivatives-positioning data used as this piece's historical benchmark</li>
+    <li><strong><a href="/en/blog/57900-breakdown-cascade-simulation">Here's Exactly What Happens If $57,900 Breaks</a>:</strong> A simulation of how the leverage-liquidation domino actually plays out</li>
+    <li><strong><a href="/en/blog/ad-line-liquidation-cascade-blind-spot">The Question the Accumulation/Distribution Line Can't Answer</a>:</strong> The blind spot that keeps indicators from catching liquidation cascades early</li>
+    <li><strong><a href="/en/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">Coinbase Premium's Longest Negative Streak on Record</a>:</strong> The weak U.S.-demand signal referenced in this piece</li>
+    <li><strong><a href="/en/blog/oi-rebuild-balanced-positioning">Futures Open Interest Rebuilds Fast — Long/Short Hasn't Tilted Yet</a>:</strong> Background for tracking how positioning rebuilds after this flush</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> 本記事の歴史的比較基準となった7月8日のデリバティブ・ポジショニング・データ</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">6万7,900ドルが崩れたら正確に何が起きるか</a>:</strong> レバレッジ清算ドミノが実際にどう連鎖するかのシミュレーション</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">蓄積・分配ラインが答えられない問い</a>:</strong> 清算カスケードを事前に捉えられない指標の死角</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">コインベース・プレミアムは史上最長のマイナス・ストリーク</a>:</strong> 本記事が言及した米国発需要の弱さのシグナル</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">先物オープンインタレスト急速に復帰 — ロングショート比率はまだ偏っていない</a>:</strong> 今回のフラッシュ後のポジション再構築を追う背景</li>
+    <li><strong><a href="/ja/blog/iran-shock-derivatives-positioning-gap">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> 本記事の歴史的比較基準となった7月8日のデリバティブ・ポジショニング・データ</li>
+    <li><strong><a href="/ja/blog/57900-breakdown-cascade-simulation">6万7,900ドルが崩れたら正確に何が起きるか</a>:</strong> レバレッジ清算ドミノが実際にどう連鎖するかのシミュレーション</li>
+    <li><strong><a href="/ja/blog/ad-line-liquidation-cascade-blind-spot">蓄積・分配ラインが答えられない問い</a>:</strong> 清算カスケードを事前に捉えられない指標の死角</li>
+    <li><strong><a href="/ja/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">コインベース・プレミアムは史上最長のマイナス・ストリーク</a>:</strong> 本記事が言及した米国発需要の弱さのシグナル</li>
+    <li><strong><a href="/ja/blog/oi-rebuild-balanced-positioning">先物オープンインタレスト急速に復帰 — ロングショート比率はまだ偏っていない</a>:</strong> 今回のフラッシュ後のポジション再構築を追う背景</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> Los datos de posicionamiento en derivados del 8 de julio usados como referencia histórica de este artículo</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Esto es Exactamente lo que Pasa si se Rompen los 57.900 $</a>:</strong> Una simulación de cómo se desarrolla realmente el dominó de liquidación por apalancamiento</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">La Pregunta que la Línea de Acumulación/Distribución No Puede Responder</a>:</strong> El punto ciego que impide a los indicadores detectar cascadas de liquidación a tiempo</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">La Racha Negativa Más Larga Registrada de la Prima de Coinbase</a>:</strong> La señal de demanda estadounidense débil referenciada en este artículo</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">El Interés Abierto en Futuros se Reconstruye Rápido — El Largo/Corto Aún No se Ha Inclinado</a>:</strong> Contexto para seguir cómo se reconstruye el posicionamiento tras este flush</li>
+    <li><strong><a href="/es/blog/iran-shock-derivatives-positioning-gap">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> Los datos de posicionamiento en derivados del 8 de julio usados como referencia histórica de este artículo</li>
+    <li><strong><a href="/es/blog/57900-breakdown-cascade-simulation">Esto es Exactamente lo que Pasa si se Rompen los 57.900 $</a>:</strong> Una simulación de cómo se desarrolla realmente el dominó de liquidación por apalancamiento</li>
+    <li><strong><a href="/es/blog/ad-line-liquidation-cascade-blind-spot">La Pregunta que la Línea de Acumulación/Distribución No Puede Responder</a>:</strong> El punto ciego que impide a los indicadores detectar cascadas de liquidación a tiempo</li>
+    <li><strong><a href="/es/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">La Racha Negativa Más Larga Registrada de la Prima de Coinbase</a>:</strong> La señal de demanda estadounidense débil referenciada en este artículo</li>
+    <li><strong><a href="/es/blog/oi-rebuild-balanced-positioning">El Interés Abierto en Futuros se Reconstruye Rápido — El Largo/Corto Aún No se Ha Inclinado</a>:</strong> Contexto para seguir cómo se reconstruye el posicionamiento tras este flush</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Die Derivate-Positionierungsdaten vom 8. Juli, die als historischer Maßstab dieses Beitrags dienen</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Das Passiert Genau, Wenn die 57.900-$-Marke Bricht</a>:</strong> Eine Simulation, wie sich das Liquidations-Domino tatsächlich abspielt</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">Die Frage, die die Accumulation/Distribution-Linie Nicht Beantworten Kann</a>:</strong> Der blinde Fleck, der Indikatoren daran hindert, Liquidationskaskaden frühzeitig zu erfassen</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">Coinbases Längste Negative Serie Aller Zeiten</a>:</strong> Das schwache US-Nachfragesignal, auf das dieser Beitrag verweist</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Futures-Open-Interest Baut Sich Schnell Wieder Auf — Long/Short Hat Sich Noch Nicht Geneigt</a>:</strong> Hintergrund, um zu verfolgen, wie sich die Positionierung nach diesem Flush wieder aufbaut</li>
+    <li><strong><a href="/de/blog/iran-shock-derivatives-positioning-gap">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Die Derivate-Positionierungsdaten vom 8. Juli, die als historischer Maßstab dieses Beitrags dienen</li>
+    <li><strong><a href="/de/blog/57900-breakdown-cascade-simulation">Das Passiert Genau, Wenn die 57.900-$-Marke Bricht</a>:</strong> Eine Simulation, wie sich das Liquidations-Domino tatsächlich abspielt</li>
+    <li><strong><a href="/de/blog/ad-line-liquidation-cascade-blind-spot">Die Frage, die die Accumulation/Distribution-Linie Nicht Beantworten Kann</a>:</strong> Der blinde Fleck, der Indikatoren daran hindert, Liquidationskaskaden frühzeitig zu erfassen</li>
+    <li><strong><a href="/de/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">Coinbases Längste Negative Serie Aller Zeiten</a>:</strong> Das schwache US-Nachfragesignal, auf das dieser Beitrag verweist</li>
+    <li><strong><a href="/de/blog/oi-rebuild-balanced-positioning">Futures-Open-Interest Baut Sich Schnell Wieder Auf — Long/Short Hat Sich Noch Nicht Geneigt</a>:</strong> Hintergrund, um zu verfolgen, wie sich die Positionierung nach diesem Flush wieder aufbaut</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a> :</strong> Les données de positionnement des dérivés du 8 juillet utilisées comme référence historique de cet article</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Voici Exactement ce qui se Passe si les 57 900 $ Cèdent</a> :</strong> Une simulation de la façon dont le dominos de liquidation à effet de levier se déroule réellement</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">La Question à Laquelle la Ligne d'Accumulation/Distribution Ne Peut Pas Répondre</a> :</strong> L'angle mort qui empêche les indicateurs de détecter tôt les cascades de liquidation</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">La Plus Longue Série Négative Jamais Enregistrée de la Prime Coinbase</a> :</strong> Le signal de faible demande américaine référencé dans cet article</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">L'Open Interest des Contrats à Terme se Reconstruit Vite — Le Long/Short N'a Pas Encore Penché</a> :</strong> Le contexte pour suivre comment le positionnement se reconstruit après ce flush</li>
+    <li><strong><a href="/fr/blog/iran-shock-derivatives-positioning-gap">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a> :</strong> Les données de positionnement des dérivés du 8 juillet utilisées comme référence historique de cet article</li>
+    <li><strong><a href="/fr/blog/57900-breakdown-cascade-simulation">Voici Exactement ce qui se Passe si les 57 900 $ Cèdent</a> :</strong> Une simulation de la façon dont le dominos de liquidation à effet de levier se déroule réellement</li>
+    <li><strong><a href="/fr/blog/ad-line-liquidation-cascade-blind-spot">La Question à Laquelle la Ligne d'Accumulation/Distribution Ne Peut Pas Répondre</a> :</strong> L'angle mort qui empêche les indicateurs de détecter tôt les cascades de liquidation</li>
+    <li><strong><a href="/fr/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">La Plus Longue Série Négative Jamais Enregistrée de la Prime Coinbase</a> :</strong> Le signal de faible demande américaine référencé dans cet article</li>
+    <li><strong><a href="/fr/blog/oi-rebuild-balanced-positioning">L'Open Interest des Contrats à Terme se Reconstruit Vite — Le Long/Short N'a Pas Encore Penché</a> :</strong> Le contexte pour suivre comment le positionnement se reconstruit après ce flush</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> Os dados de posicionamento em derivativos de 8 de julho usados como referência histórica desta matéria</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Isto é Exatamente o que Acontece se os US$ 57.900 Romperem</a>:</strong> Uma simulação de como o dominó de liquidação por alavancagem realmente se desenrola</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">A Pergunta que a Linha de Acumulação/Distribuição Não Consegue Responder</a>:</strong> O ponto cego que impede indicadores de captar cascatas de liquidação com antecedência</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">A Mais Longa Sequência Negativa Já Registrada do Prêmio da Coinbase</a>:</strong> O sinal de demanda fraca dos EUA referenciado nesta matéria</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Interesse em Aberto de Futuros se Reconstrói Rápido — Comprado/Vendido Ainda Não Se Inclinou</a>:</strong> Contexto para acompanhar como o posicionamento se reconstrói após esse flush</li>
+    <li><strong><a href="/pt/blog/iran-shock-derivatives-positioning-gap">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> Os dados de posicionamento em derivativos de 8 de julho usados como referência histórica desta matéria</li>
+    <li><strong><a href="/pt/blog/57900-breakdown-cascade-simulation">Isto é Exatamente o que Acontece se os US$ 57.900 Romperem</a>:</strong> Uma simulação de como o dominó de liquidação por alavancagem realmente se desenrola</li>
+    <li><strong><a href="/pt/blog/ad-line-liquidation-cascade-blind-spot">A Pergunta que a Linha de Acumulação/Distribuição Não Consegue Responder</a>:</strong> O ponto cego que impede indicadores de captar cascatas de liquidação com antecedência</li>
+    <li><strong><a href="/pt/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">A Mais Longa Sequência Negativa Já Registrada do Prêmio da Coinbase</a>:</strong> O sinal de demanda fraca dos EUA referenciado nesta matéria</li>
+    <li><strong><a href="/pt/blog/oi-rebuild-balanced-positioning">Interesse em Aberto de Futuros se Reconstrói Rápido — Comprado/Vendido Ainda Não Se Inclinou</a>:</strong> Contexto para acompanhar como o posicionamento se reconstrói após esse flush</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> Bu yazının tarihsel karşılaştırma ölçütü olarak kullandığı 8 Temmuz türev pozisyonlanma verisi</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">57.900 Dolar Kırılırsa Tam Olarak Ne Olur</a>:</strong> Kaldıraçlı tasfiye dominosunun gerçekte nasıl işlediğinin simülasyonu</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">Birikim/Dağıtım Çizgisinin Yanıtlayamadığı Soru</a>:</strong> Göstergelerin tasfiye çığlarını erken yakalayamamasının kör noktası</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">Coinbase Premium'un Kayıtlardaki En Uzun Negatif Serisi</a>:</strong> Bu yazının atıfta bulunduğu zayıf ABD talebi sinyali</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Vadeli İşlem Açık Pozisyonu Hızla Toparlanıyor — Long/Short Henüz Yönelmedi</a>:</strong> Bu temizlik sonrası pozisyonlanmanın nasıl yeniden kurulduğunu izlemek için arka plan</li>
+    <li><strong><a href="/tr/blog/iran-shock-derivatives-positioning-gap">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> Bu yazının tarihsel karşılaştırma ölçütü olarak kullandığı 8 Temmuz türev pozisyonlanma verisi</li>
+    <li><strong><a href="/tr/blog/57900-breakdown-cascade-simulation">57.900 Dolar Kırılırsa Tam Olarak Ne Olur</a>:</strong> Kaldıraçlı tasfiye dominosunun gerçekte nasıl işlediğinin simülasyonu</li>
+    <li><strong><a href="/tr/blog/ad-line-liquidation-cascade-blind-spot">Birikim/Dağıtım Çizgisinin Yanıtlayamadığı Soru</a>:</strong> Göstergelerin tasfiye çığlarını erken yakalayamamasının kör noktası</li>
+    <li><strong><a href="/tr/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">Coinbase Premium'un Kayıtlardaki En Uzun Negatif Serisi</a>:</strong> Bu yazının atıfta bulunduğu zayıf ABD talebi sinyali</li>
+    <li><strong><a href="/tr/blog/oi-rebuild-balanced-positioning">Vadeli İşlem Açık Pozisyonu Hızla Toparlanıyor — Long/Short Henüz Yönelmedi</a>:</strong> Bu temizlik sonrası pozisyonlanmanın nasıl yeniden kurulduğunu izlemek için arka plan</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Dữ liệu vị thế phái sinh ngày 8/7 được dùng làm chuẩn so sánh lịch sử cho bài này</li>
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Đây Chính Xác Là Điều Xảy Ra Nếu Mốc 57.900 USD Bị Phá Vỡ</a>:</strong> Mô phỏng cách domino thanh lý đòn bẩy thực sự diễn ra</li>
-    <li><strong><a href="/blog/ad-line-liquidation-cascade-blind-spot.php">Câu Hỏi Mà Đường Tích Lũy/Phân Phối Không Thể Trả Lời</a>:</strong> Điểm mù khiến các chỉ báo không thể nắm bắt sớm các đợt thanh lý dây chuyền</li>
-    <li><strong><a href="/blog/coinbase-premium-negative-streak-reserve-squeeze-gap.php">Chuỗi Âm Dài Nhất Từng Ghi Nhận Của Phần Bù Coinbase</a>:</strong> Tín hiệu nhu cầu yếu từ Mỹ được nhắc đến trong bài này</li>
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Hợp Đồng Mở Tương Lai Phục Hồi Nhanh — Long/Short Vẫn Chưa Nghiêng</a>:</strong> Bối cảnh để theo dõi vị thế được xây dựng lại sau đợt xả này</li>
+    <li><strong><a href="/vi/blog/iran-shock-derivatives-positioning-gap">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Dữ liệu vị thế phái sinh ngày 8/7 được dùng làm chuẩn so sánh lịch sử cho bài này</li>
+    <li><strong><a href="/vi/blog/57900-breakdown-cascade-simulation">Đây Chính Xác Là Điều Xảy Ra Nếu Mốc 57.900 USD Bị Phá Vỡ</a>:</strong> Mô phỏng cách domino thanh lý đòn bẩy thực sự diễn ra</li>
+    <li><strong><a href="/vi/blog/ad-line-liquidation-cascade-blind-spot">Câu Hỏi Mà Đường Tích Lũy/Phân Phối Không Thể Trả Lời</a>:</strong> Điểm mù khiến các chỉ báo không thể nắm bắt sớm các đợt thanh lý dây chuyền</li>
+    <li><strong><a href="/vi/blog/coinbase-premium-negative-streak-reserve-squeeze-gap">Chuỗi Âm Dài Nhất Từng Ghi Nhận Của Phần Bù Coinbase</a>:</strong> Tín hiệu nhu cầu yếu từ Mỹ được nhắc đến trong bài này</li>
+    <li><strong><a href="/vi/blog/oi-rebuild-balanced-positioning">Hợp Đồng Mở Tương Lai Phục Hồi Nhanh — Long/Short Vẫn Chưa Nghiêng</a>:</strong> Bối cảnh để theo dõi vị thế được xây dựng lại sau đợt xả này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CoinDesk("Bitcoin slips below $63,000 in an Asian-session leverage flush", 2026년 7월 13일), Bitcoinist("Bitcoin Drop Sparks $700M Liquidation Wave As Leverage Gets Flushed"), Coinpedia·TradingView 경유("Crypto Liquidations Top $700M as Bitcoin, Ethereum and Altcoins Extend Selloff"), CoinGlass(청산 데이터), en.Cryptonomist(6월 25일 청산 웨이브 보도), BTCtiming.com 자체 분석(7월 8일 이란 충격 파생 포지셔닝 수치는 자사 기존 보도 인용). 수치는 2026년 7월 13일 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 시장 상태를 진단하는 콘텐츠이며 투자 조언이 아니다.</p>

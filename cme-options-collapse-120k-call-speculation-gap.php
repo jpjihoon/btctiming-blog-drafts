@@ -524,67 +524,67 @@
   <p class="vi">Thứ ba, liệu khối lượng hợp đồng mở của lệnh call 120.000 USD trên Deribit có tiếp tục tăng hay sẽ âm thầm được đóng lại khi ngày đáo hạn đến gần. Các vị thế ngoài tiền sâu (OTM) với kỳ đáo hạn xa như vậy thường được đóng dọc đường thay vì giữ đến khi đáo hạn, vì vậy quy mô hiện tại tự nó không phải là tín hiệu về giá trong tương lai. Cuối cùng, giai đoạn hiện tại là giai đoạn mà hai khung thời gian khác nhau — tổ chức phòng thủ, bán lẻ đặt cược vào sự lạc quan dài hạn — cùng tồn tại mà không hội tụ thành một câu chuyện chung. Việc sự chia rẽ này thu hẹp lại hay mở rộng thêm sẽ là điểm mấu chốt để đọc thị trường quyền chọn trong vài tuần tới.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">가격은 6만 3,000달러로 반등했는데, CME 선물에서는 기관이 계속 짐을 싸고 있다</a>:</strong> CME 선물 미결제약정·베이시스 축소를 다룬 앞선 글</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">드리비트 옵션은 콜에 베팅하는데, 바이낸스 선물 롱숏비율은 반대로 기운다</a>:</strong> 오늘의 근월물 풋콜비율·롱숏비율 수치 출처</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">비트코인 $63,000 회복, 그런데 옵션 시장은 아직도 풋에 웃돈을 준다</a>:</strong> 디리빗 25델타 스큐를 단독으로 다룬 글</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">옵션 만기 맥스 페인, 실제로 얼마나 신뢰할 만한가</a>:</strong> 맥스페인 지표 자체의 한계를 짚은 글</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">가격은 $63,000을 다시 찍었는데, 공포지수·ETF·레버리지는 아직 안 따라왔다</a>:</strong> 이번 반등에 대한 기존 취약성 체크리스트</li>
+    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap">가격은 6만 3,000달러로 반등했는데, CME 선물에서는 기관이 계속 짐을 싸고 있다</a>:</strong> CME 선물 미결제약정·베이시스 축소를 다룬 앞선 글</li>
+    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap">드리비트 옵션은 콜에 베팅하는데, 바이낸스 선물 롱숏비율은 반대로 기운다</a>:</strong> 오늘의 근월물 풋콜비율·롱숏비율 수치 출처</li>
+    <li><strong><a href="/blog/options-skew-not-confirming-rebound">비트코인 $63,000 회복, 그런데 옵션 시장은 아직도 풋에 웃돈을 준다</a>:</strong> 디리빗 25델타 스큐를 단독으로 다룬 글</li>
+    <li><strong><a href="/blog/options-expiry-max-pain-analysis">옵션 만기 맥스 페인, 실제로 얼마나 신뢰할 만한가</a>:</strong> 맥스페인 지표 자체의 한계를 짚은 글</li>
+    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026">가격은 $63,000을 다시 찍었는데, 공포지수·ETF·레버리지는 아직 안 따라왔다</a>:</strong> 이번 반등에 대한 기존 취약성 체크리스트</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">Bitcoin Rebounded to $63,000 — Institutions Are Still Packing Up on CME Futures</a>:</strong> An earlier piece on CME futures open interest and basis compression</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">Deribit Options Are Betting on Calls, While Binance Futures Long/Short Ratio Tilts the Other Way</a>:</strong> Source for today's near-term put/call and long/short figures</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Reclaimed $63,000 — Options Traders Are Still Paying Up for Puts</a>:</strong> A dedicated look at Deribit's 25-delta skew</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">How Reliable Is Options Expiry Max Pain, Really</a>:</strong> On the limits of the max-pain indicator itself</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Price Reclaimed $63,000 — Sentiment, ETF Flows, and Leverage Haven't Caught Up</a>:</strong> An existing fragility checklist for this bounce</li>
+    <li><strong><a href="/en/blog/cme-basis-unwind-implied-vol-gap">Bitcoin Rebounded to $63,000 — Institutions Are Still Packing Up on CME Futures</a>:</strong> An earlier piece on CME futures open interest and basis compression</li>
+    <li><strong><a href="/en/blog/options-call-heavy-futures-short-tilt-gap">Deribit Options Are Betting on Calls, While Binance Futures Long/Short Ratio Tilts the Other Way</a>:</strong> Source for today's near-term put/call and long/short figures</li>
+    <li><strong><a href="/en/blog/options-skew-not-confirming-rebound">Bitcoin Reclaimed $63,000 — Options Traders Are Still Paying Up for Puts</a>:</strong> A dedicated look at Deribit's 25-delta skew</li>
+    <li><strong><a href="/en/blog/options-expiry-max-pain-analysis">How Reliable Is Options Expiry Max Pain, Really</a>:</strong> On the limits of the max-pain indicator itself</li>
+    <li><strong><a href="/en/blog/rebound-not-yet-confirmed-2026">Price Reclaimed $63,000 — Sentiment, ETF Flows, and Leverage Haven't Caught Up</a>:</strong> An existing fragility checklist for this bounce</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">価格は6.3万ドルまで反発したが、CME先物では機関投資家が撤退を続けている</a>:</strong> CME先物未決済建玉・ベーシス縮小を扱った先の記事</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">デリビットオプションはコールに賭けるのに、バイナンス先物ロングショート比率は逆に傾く</a>:</strong> 本日の近月物プットコール比率・ロングショート比率の出典</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">ビットコインは6.3万ドルを回復したが、オプション市場はまだプットに割高を払っている</a>:</strong> デリビット25デルタスキューを単独で扱った記事</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">オプション満期マックスペイン、実際どれだけ信頼できるか</a>:</strong> マックスペイン指標自体の限界を扱った記事</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">価格は6.3万ドルを回復したが、恐怖指数・ETF・レバレッジはまだ追いついていない</a>:</strong> 今回の反発に対する既存の脆弱性チェックリスト</li>
+    <li><strong><a href="/ja/blog/cme-basis-unwind-implied-vol-gap">価格は6.3万ドルまで反発したが、CME先物では機関投資家が撤退を続けている</a>:</strong> CME先物未決済建玉・ベーシス縮小を扱った先の記事</li>
+    <li><strong><a href="/ja/blog/options-call-heavy-futures-short-tilt-gap">デリビットオプションはコールに賭けるのに、バイナンス先物ロングショート比率は逆に傾く</a>:</strong> 本日の近月物プットコール比率・ロングショート比率の出典</li>
+    <li><strong><a href="/ja/blog/options-skew-not-confirming-rebound">ビットコインは6.3万ドルを回復したが、オプション市場はまだプットに割高を払っている</a>:</strong> デリビット25デルタスキューを単独で扱った記事</li>
+    <li><strong><a href="/ja/blog/options-expiry-max-pain-analysis">オプション満期マックスペイン、実際どれだけ信頼できるか</a>:</strong> マックスペイン指標自体の限界を扱った記事</li>
+    <li><strong><a href="/ja/blog/rebound-not-yet-confirmed-2026">価格は6.3万ドルを回復したが、恐怖指数・ETF・レバレッジはまだ追いついていない</a>:</strong> 今回の反発に対する既存の脆弱性チェックリスト</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">Bitcoin Rebotó a $63,000 — las Instituciones Siguen Retirándose de los Futuros de CME</a>:</strong> Un artículo anterior sobre el interés abierto de futuros de CME y la compresión de la base</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">Las Opciones de Deribit Apuestan por Calls, Mientras el Ratio Long/Short de Futuros de Binance Va al Revés</a>:</strong> Fuente de las cifras de put/call y long/short de corto plazo de hoy</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Recuperó los $63,000 — los Traders de Opciones Aún Pagan de Más por las Puts</a>:</strong> Un análisis dedicado al skew de 25 delta de Deribit</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">Qué Tan Fiable Es Realmente el Máximo Dolor del Vencimiento de Opciones</a>:</strong> Sobre los límites del propio indicador de max pain</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">El Precio Recuperó los $63,000 — el Sentimiento, los ETF y el Apalancamiento Aún No Lo Confirman</a>:</strong> Una lista de fragilidad existente para este rebote</li>
+    <li><strong><a href="/es/blog/cme-basis-unwind-implied-vol-gap">Bitcoin Rebotó a $63,000 — las Instituciones Siguen Retirándose de los Futuros de CME</a>:</strong> Un artículo anterior sobre el interés abierto de futuros de CME y la compresión de la base</li>
+    <li><strong><a href="/es/blog/options-call-heavy-futures-short-tilt-gap">Las Opciones de Deribit Apuestan por Calls, Mientras el Ratio Long/Short de Futuros de Binance Va al Revés</a>:</strong> Fuente de las cifras de put/call y long/short de corto plazo de hoy</li>
+    <li><strong><a href="/es/blog/options-skew-not-confirming-rebound">Bitcoin Recuperó los $63,000 — los Traders de Opciones Aún Pagan de Más por las Puts</a>:</strong> Un análisis dedicado al skew de 25 delta de Deribit</li>
+    <li><strong><a href="/es/blog/options-expiry-max-pain-analysis">Qué Tan Fiable Es Realmente el Máximo Dolor del Vencimiento de Opciones</a>:</strong> Sobre los límites del propio indicador de max pain</li>
+    <li><strong><a href="/es/blog/rebound-not-yet-confirmed-2026">El Precio Recuperó los $63,000 — el Sentimiento, los ETF y el Apalancamiento Aún No Lo Confirman</a>:</strong> Una lista de fragilidad existente para este rebote</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">Bitcoin Erholte Sich auf 63.000 $ — Institutionelle Ziehen Sich Weiter aus CME-Futures Zurück</a>:</strong> Ein früherer Artikel über CME-Futures-Open-Interest und Basis-Kompression</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">Deribit-Optionen Setzen auf Calls, Während Sich Binances Futures-Long/Short-Verhältnis Umgekehrt Neigt</a>:</strong> Quelle für die heutigen kurzfristigen Put/Call- und Long/Short-Werte</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Hat 63.000 $ Zurückerobert — Optionshändler Zahlen Noch Immer Aufpreis für Puts</a>:</strong> Ein eigener Blick auf Deribits 25-Delta-Skew</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">Wie Zuverlässig Ist Max Pain beim Optionsverfall Wirklich</a>:</strong> Über die Grenzen des Max-Pain-Indikators selbst</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Der Preis Hat 63.000 $ Zurückerobert — Sentiment, ETF-Flüsse und Hebel Haben Noch Nicht Aufgeholt</a>:</strong> Eine bestehende Fragilitäts-Checkliste für diese Erholung</li>
+    <li><strong><a href="/de/blog/cme-basis-unwind-implied-vol-gap">Bitcoin Erholte Sich auf 63.000 $ — Institutionelle Ziehen Sich Weiter aus CME-Futures Zurück</a>:</strong> Ein früherer Artikel über CME-Futures-Open-Interest und Basis-Kompression</li>
+    <li><strong><a href="/de/blog/options-call-heavy-futures-short-tilt-gap">Deribit-Optionen Setzen auf Calls, Während Sich Binances Futures-Long/Short-Verhältnis Umgekehrt Neigt</a>:</strong> Quelle für die heutigen kurzfristigen Put/Call- und Long/Short-Werte</li>
+    <li><strong><a href="/de/blog/options-skew-not-confirming-rebound">Bitcoin Hat 63.000 $ Zurückerobert — Optionshändler Zahlen Noch Immer Aufpreis für Puts</a>:</strong> Ein eigener Blick auf Deribits 25-Delta-Skew</li>
+    <li><strong><a href="/de/blog/options-expiry-max-pain-analysis">Wie Zuverlässig Ist Max Pain beim Optionsverfall Wirklich</a>:</strong> Über die Grenzen des Max-Pain-Indikators selbst</li>
+    <li><strong><a href="/de/blog/rebound-not-yet-confirmed-2026">Der Preis Hat 63.000 $ Zurückerobert — Sentiment, ETF-Flüsse und Hebel Haben Noch Nicht Aufgeholt</a>:</strong> Eine bestehende Fragilitäts-Checkliste für diese Erholung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">Le Bitcoin a Rebondi à 63 000 $ — les Institutions Continuent de Plier Bagage sur les Futures du CME</a>:</strong> Un article précédent sur l'open interest des futures du CME et la compression de la base</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">Les Options Deribit Parient sur les Calls, Tandis que le Ratio Long/Short des Futures Binance Penche dans l'Autre Sens</a>:</strong> Source des chiffres put/call et long/short à court terme d'aujourd'hui</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Le Bitcoin a Repris les 63 000 $ — les Traders d'Options Paient Encore une Prime pour les Puts</a>:</strong> Un examen dédié au skew à 25 delta de Deribit</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">À Quel Point le Max Pain à l'Échéance des Options Est-il Vraiment Fiable</a>:</strong> Sur les limites de l'indicateur de max pain lui-même</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Le Prix a Repris les 63 000 $ — Sentiment, Flux ETF et Levier n'ont Pas Encore Suivi</a>:</strong> Une liste de fragilité existante pour ce rebond</li>
+    <li><strong><a href="/fr/blog/cme-basis-unwind-implied-vol-gap">Le Bitcoin a Rebondi à 63 000 $ — les Institutions Continuent de Plier Bagage sur les Futures du CME</a>:</strong> Un article précédent sur l'open interest des futures du CME et la compression de la base</li>
+    <li><strong><a href="/fr/blog/options-call-heavy-futures-short-tilt-gap">Les Options Deribit Parient sur les Calls, Tandis que le Ratio Long/Short des Futures Binance Penche dans l'Autre Sens</a>:</strong> Source des chiffres put/call et long/short à court terme d'aujourd'hui</li>
+    <li><strong><a href="/fr/blog/options-skew-not-confirming-rebound">Le Bitcoin a Repris les 63 000 $ — les Traders d'Options Paient Encore une Prime pour les Puts</a>:</strong> Un examen dédié au skew à 25 delta de Deribit</li>
+    <li><strong><a href="/fr/blog/options-expiry-max-pain-analysis">À Quel Point le Max Pain à l'Échéance des Options Est-il Vraiment Fiable</a>:</strong> Sur les limites de l'indicateur de max pain lui-même</li>
+    <li><strong><a href="/fr/blog/rebound-not-yet-confirmed-2026">Le Prix a Repris les 63 000 $ — Sentiment, Flux ETF et Levier n'ont Pas Encore Suivi</a>:</strong> Une liste de fragilité existante pour ce rebond</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">O Bitcoin Voltou para US$ 63.000 — as Instituições Continuam Fazendo as Malas nos Futuros da CME</a>:</strong> Um artigo anterior sobre o open interest de futuros da CME e a compressão da base</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">As Opções da Deribit Apostam em Calls, Enquanto o Índice Long/Short de Futuros da Binance Inclina para o Outro Lado</a>:</strong> Fonte dos números de put/call e long/short de curto prazo de hoje</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">O Bitcoin Recuperou os US$ 63.000 — os Traders de Opções Ainda Pagam Caro pelas Puts</a>:</strong> Uma análise dedicada ao skew de 25 delta da Deribit</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">Quão Confiável É Realmente o Max Pain do Vencimento de Opções</a>:</strong> Sobre os limites do próprio indicador de max pain</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">O Preço Recuperou os US$ 63.000 — Sentimento, Fluxos de ETF e Alavancagem Ainda Não Acompanharam</a>:</strong> Uma checklist de fragilidade existente para esse repique</li>
+    <li><strong><a href="/pt/blog/cme-basis-unwind-implied-vol-gap">O Bitcoin Voltou para US$ 63.000 — as Instituições Continuam Fazendo as Malas nos Futuros da CME</a>:</strong> Um artigo anterior sobre o open interest de futuros da CME e a compressão da base</li>
+    <li><strong><a href="/pt/blog/options-call-heavy-futures-short-tilt-gap">As Opções da Deribit Apostam em Calls, Enquanto o Índice Long/Short de Futuros da Binance Inclina para o Outro Lado</a>:</strong> Fonte dos números de put/call e long/short de curto prazo de hoje</li>
+    <li><strong><a href="/pt/blog/options-skew-not-confirming-rebound">O Bitcoin Recuperou os US$ 63.000 — os Traders de Opções Ainda Pagam Caro pelas Puts</a>:</strong> Uma análise dedicada ao skew de 25 delta da Deribit</li>
+    <li><strong><a href="/pt/blog/options-expiry-max-pain-analysis">Quão Confiável É Realmente o Max Pain do Vencimento de Opções</a>:</strong> Sobre os limites do próprio indicador de max pain</li>
+    <li><strong><a href="/pt/blog/rebound-not-yet-confirmed-2026">O Preço Recuperou os US$ 63.000 — Sentimento, Fluxos de ETF e Alavancagem Ainda Não Acompanharam</a>:</strong> Uma checklist de fragilidade existente para esse repique</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">Bitcoin 63.000 Dolara Sıçradı — Kurumlar CME Vadeli İşlemlerinde Toparlanmaya Devam Ediyor</a>:</strong> CME vadeli işlem açık pozisyonu ve baz daralmasını ele alan önceki bir yazı</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">Deribit Opsiyonları Call'a Bahse Giriyor, Binance Vadeli İşlem Long/Short Oranı Ters Yöne Eğiliyor</a>:</strong> Bugünün yakın vadeli put/call ve long/short rakamlarının kaynağı</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin 63.000 Doları Geri Aldı — Opsiyon Yatırımcıları Hâlâ Put İçin Fazla Ödüyor</a>:</strong> Deribit'in 25 delta skew'ine özel bir bakış</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">Opsiyon Vadesi Max Pain Gerçekte Ne Kadar Güvenilir</a>:</strong> Max pain göstergesinin kendi sınırları üzerine</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Fiyat 63.000 Doları Geri Aldı — Duyarlılık, ETF Akışları ve Kaldıraç Henüz Yetişmedi</a>:</strong> Bu yükseliş için mevcut bir kırılganlık kontrol listesi</li>
+    <li><strong><a href="/tr/blog/cme-basis-unwind-implied-vol-gap">Bitcoin 63.000 Dolara Sıçradı — Kurumlar CME Vadeli İşlemlerinde Toparlanmaya Devam Ediyor</a>:</strong> CME vadeli işlem açık pozisyonu ve baz daralmasını ele alan önceki bir yazı</li>
+    <li><strong><a href="/tr/blog/options-call-heavy-futures-short-tilt-gap">Deribit Opsiyonları Call'a Bahse Giriyor, Binance Vadeli İşlem Long/Short Oranı Ters Yöne Eğiliyor</a>:</strong> Bugünün yakın vadeli put/call ve long/short rakamlarının kaynağı</li>
+    <li><strong><a href="/tr/blog/options-skew-not-confirming-rebound">Bitcoin 63.000 Doları Geri Aldı — Opsiyon Yatırımcıları Hâlâ Put İçin Fazla Ödüyor</a>:</strong> Deribit'in 25 delta skew'ine özel bir bakış</li>
+    <li><strong><a href="/tr/blog/options-expiry-max-pain-analysis">Opsiyon Vadesi Max Pain Gerçekte Ne Kadar Güvenilir</a>:</strong> Max pain göstergesinin kendi sınırları üzerine</li>
+    <li><strong><a href="/tr/blog/rebound-not-yet-confirmed-2026">Fiyat 63.000 Doları Geri Aldı — Duyarlılık, ETF Akışları ve Kaldıraç Henüz Yetişmedi</a>:</strong> Bu yükseliş için mevcut bir kırılganlık kontrol listesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/cme-basis-unwind-implied-vol-gap.php">Bitcoin Đã Phục Hồi Lên 63.000 USD — Các Tổ Chức Vẫn Đang Dọn Đồ Khỏi Hợp Đồng Tương Lai CME</a>:</strong> Bài viết trước về khối lượng hợp đồng mở tương lai CME và sự nén cơ sở</li>
-    <li><strong><a href="/blog/options-call-heavy-futures-short-tilt-gap.php">Quyền Chọn Deribit Đặt Cược Vào Lệnh Mua, Trong Khi Tỷ Lệ Long/Short Hợp Đồng Tương Lai Binance Nghiêng Về Hướng Khác</a>:</strong> Nguồn số liệu put/call và long/short ngắn hạn của hôm nay</li>
-    <li><strong><a href="/blog/options-skew-not-confirming-rebound.php">Bitcoin Đã Lấy Lại Mốc 63.000 USD — Nhà Giao Dịch Quyền Chọn Vẫn Trả Giá Cao Cho Lệnh Bán</a>:</strong> Một bài phân tích riêng về độ lệch delta 25 trên Deribit</li>
-    <li><strong><a href="/blog/options-expiry-max-pain-analysis.php">Max Pain Khi Đáo Hạn Quyền Chọn Thực Sự Đáng Tin Đến Đâu</a>:</strong> Về giới hạn của chính chỉ báo max pain</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Giá Đã Lấy Lại Mốc 63.000 USD — Tâm Lý, Dòng Vốn ETF và Đòn Bẩy Vẫn Chưa Theo Kịp</a>:</strong> Một danh sách kiểm tra độ mong manh hiện có cho đợt phục hồi này</li>
+    <li><strong><a href="/vi/blog/cme-basis-unwind-implied-vol-gap">Bitcoin Đã Phục Hồi Lên 63.000 USD — Các Tổ Chức Vẫn Đang Dọn Đồ Khỏi Hợp Đồng Tương Lai CME</a>:</strong> Bài viết trước về khối lượng hợp đồng mở tương lai CME và sự nén cơ sở</li>
+    <li><strong><a href="/vi/blog/options-call-heavy-futures-short-tilt-gap">Quyền Chọn Deribit Đặt Cược Vào Lệnh Mua, Trong Khi Tỷ Lệ Long/Short Hợp Đồng Tương Lai Binance Nghiêng Về Hướng Khác</a>:</strong> Nguồn số liệu put/call và long/short ngắn hạn của hôm nay</li>
+    <li><strong><a href="/vi/blog/options-skew-not-confirming-rebound">Bitcoin Đã Lấy Lại Mốc 63.000 USD — Nhà Giao Dịch Quyền Chọn Vẫn Trả Giá Cao Cho Lệnh Bán</a>:</strong> Một bài phân tích riêng về độ lệch delta 25 trên Deribit</li>
+    <li><strong><a href="/vi/blog/options-expiry-max-pain-analysis">Max Pain Khi Đáo Hạn Quyền Chọn Thực Sự Đáng Tin Đến Đâu</a>:</strong> Về giới hạn của chính chỉ báo max pain</li>
+    <li><strong><a href="/vi/blog/rebound-not-yet-confirmed-2026">Giá Đã Lấy Lại Mốc 63.000 USD — Tâm Lý, Dòng Vốn ETF và Đòn Bẩy Vẫn Chưa Theo Kịp</a>:</strong> Một danh sách kiểm tra độ mong manh hiện có cho đợt phục hồi này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Yahoo Finance·Fortune·Sunday Guardian Live(가격), news.bitcoin.com·cryptonews.net·gncrypto.news·CryptoBreak.net("CME Puts Dominate Bitcoin Options" 보도, 리스크리버설·풋콜 데이터), thecurrencyanalytics.com·Pluang·news.bitcoin.com("$120K Strike" 보도, CME 옵션 미결제약정 붕괴·디리빗 12만 달러 콜 데이터), CME Group·TheBlock(CME 옵션 만기별 미결제약정 공식 집계), CoinDesk(맥스페인·6월 28일 가격 보도), techtimes.com·KuCoin(ETF 자금 흐름 맥락), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 트래커·소스에 따라 절대값이 다를 수 있고 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

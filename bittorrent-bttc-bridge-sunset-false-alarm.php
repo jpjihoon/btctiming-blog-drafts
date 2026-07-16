@@ -318,49 +318,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">2026 상반기 크립토 해킹 사상 최다 207건 — 피해액은 절반 이하로</a>:</strong> 브리지가 왜 최대 표적인지 보여주는 통계</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">프라이버시 프로토콜 힌칼, '무증명 예치'로 82만 달러 탈취</a>:</strong> 이번 오경보와 대비되는 '진짜' 익스플로잇 사례</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">테더, ISIS-K 제재 트론 지갑 131개 몇 분 만에 동결</a>:</strong> 트론 생태계에서의 또 다른 온체인 대응 사례</li>
+    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses">2026 상반기 크립토 해킹 사상 최다 207건 — 피해액은 절반 이하로</a>:</strong> 브리지가 왜 최대 표적인지 보여주는 통계</li>
+    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit">프라이버시 프로토콜 힌칼, '무증명 예치'로 82만 달러 탈취</a>:</strong> 이번 오경보와 대비되는 '진짜' 익스플로잇 사례</li>
+    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze">테더, ISIS-K 제재 트론 지갑 131개 몇 분 만에 동결</a>:</strong> 트론 생태계에서의 또 다른 온체인 대응 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Record 207 Crypto Hacks in H1 2026 — Losses Cut to Below Half</a>:</strong> The statistics showing why bridges are the top target</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">Privacy Protocol Hinkal Drained of $820K via a 'Proofless Deposit'</a>:</strong> A 'real' exploit that contrasts with this false alarm</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether Freezes 131 Sanctioned ISIS-K TRON Wallets in Minutes</a>:</strong> Another on-chain response within the Tron ecosystem</li>
+    <li><strong><a href="/en/blog/crypto-hacks-h1-2026-record-count-lower-losses">Record 207 Crypto Hacks in H1 2026 — Losses Cut to Below Half</a>:</strong> The statistics showing why bridges are the top target</li>
+    <li><strong><a href="/en/blog/hinkal-proofless-deposit-exploit">Privacy Protocol Hinkal Drained of $820K via a 'Proofless Deposit'</a>:</strong> A 'real' exploit that contrasts with this false alarm</li>
+    <li><strong><a href="/en/blog/tether-isis-k-tron-wallet-freeze">Tether Freezes 131 Sanctioned ISIS-K TRON Wallets in Minutes</a>:</strong> Another on-chain response within the Tron ecosystem</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">2026年上半期の暗号資産ハッキング過去最多207件 — 被害額は半分以下に</a>:</strong> ブリッジがなぜ最大の標的なのかを示す統計</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">プライバシープロトコル・ヒンカル、「無証明預入」で82万ドル奪取</a>:</strong> 今回の誤警報と対照的な「本物」のエクスプロイト事例</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">テザー、ISIS-K制裁トロンウォレット131個を数分で凍結</a>:</strong> トロン生態系におけるもう一つのオンチェーン対応の事例</li>
+    <li><strong><a href="/ja/blog/crypto-hacks-h1-2026-record-count-lower-losses">2026年上半期の暗号資産ハッキング過去最多207件 — 被害額は半分以下に</a>:</strong> ブリッジがなぜ最大の標的なのかを示す統計</li>
+    <li><strong><a href="/ja/blog/hinkal-proofless-deposit-exploit">プライバシープロトコル・ヒンカル、「無証明預入」で82万ドル奪取</a>:</strong> 今回の誤警報と対照的な「本物」のエクスプロイト事例</li>
+    <li><strong><a href="/ja/blog/tether-isis-k-tron-wallet-freeze">テザー、ISIS-K制裁トロンウォレット131個を数分で凍結</a>:</strong> トロン生態系におけるもう一つのオンチェーン対応の事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Récord de 207 Hackeos Cripto en el 1S de 2026 — Pérdidas Reducidas a Menos de la Mitad</a>:</strong> Las estadísticas que muestran por qué los puentes son el mayor objetivo</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">El Protocolo de Privacidad Hinkal, Vaciado de 820.000 $ vía un 'Depósito sin Prueba'</a>:</strong> Un exploit 'real' que contrasta con esta falsa alarma</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether Congela en Minutos 131 Billeteras TRON Sancionadas de ISIS-K</a>:</strong> Otro caso de respuesta on-chain dentro del ecosistema Tron</li>
+    <li><strong><a href="/es/blog/crypto-hacks-h1-2026-record-count-lower-losses">Récord de 207 Hackeos Cripto en el 1S de 2026 — Pérdidas Reducidas a Menos de la Mitad</a>:</strong> Las estadísticas que muestran por qué los puentes son el mayor objetivo</li>
+    <li><strong><a href="/es/blog/hinkal-proofless-deposit-exploit">El Protocolo de Privacidad Hinkal, Vaciado de 820.000 $ vía un 'Depósito sin Prueba'</a>:</strong> Un exploit 'real' que contrasta con esta falsa alarma</li>
+    <li><strong><a href="/es/blog/tether-isis-k-tron-wallet-freeze">Tether Congela en Minutos 131 Billeteras TRON Sancionadas de ISIS-K</a>:</strong> Otro caso de respuesta on-chain dentro del ecosistema Tron</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Rekord von 207 Krypto-Hacks im 1. Halbjahr 2026 — Verluste auf Unter die Hälfte Gesenkt</a>:</strong> Die Statistik, warum Bridges das Hauptziel sind</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">Privacy-Protokoll Hinkal um 820.000 $ per 'Proofless Deposit' Erleichtert</a>:</strong> Ein 'echter' Exploit als Kontrast zu diesem Fehlalarm</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether Friert 131 Sanktionierte ISIS-K-TRON-Wallets in Minuten Ein</a>:</strong> Ein weiterer On-Chain-Eingriff im Tron-Ökosystem</li>
+    <li><strong><a href="/de/blog/crypto-hacks-h1-2026-record-count-lower-losses">Rekord von 207 Krypto-Hacks im 1. Halbjahr 2026 — Verluste auf Unter die Hälfte Gesenkt</a>:</strong> Die Statistik, warum Bridges das Hauptziel sind</li>
+    <li><strong><a href="/de/blog/hinkal-proofless-deposit-exploit">Privacy-Protokoll Hinkal um 820.000 $ per 'Proofless Deposit' Erleichtert</a>:</strong> Ein 'echter' Exploit als Kontrast zu diesem Fehlalarm</li>
+    <li><strong><a href="/de/blog/tether-isis-k-tron-wallet-freeze">Tether Friert 131 Sanktionierte ISIS-K-TRON-Wallets in Minuten Ein</a>:</strong> Ein weiterer On-Chain-Eingriff im Tron-Ökosystem</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Record de 207 Piratages Crypto au 1er Semestre 2026 — Pertes Réduites à Moins de la Moitié</a>:</strong> Les statistiques montrant pourquoi les ponts sont la cible première</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">Le Protocole de Confidentialité Hinkal Vidé de 820 000 $ via un 'Dépôt sans Preuve'</a>:</strong> Un exploit 'réel' qui contraste avec cette fausse alerte</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether Gèle en Quelques Minutes 131 Portefeuilles TRON Sanctionnés d'ISIS-K</a>:</strong> Un autre cas de réponse on-chain au sein de l'écosystème Tron</li>
+    <li><strong><a href="/fr/blog/crypto-hacks-h1-2026-record-count-lower-losses">Record de 207 Piratages Crypto au 1er Semestre 2026 — Pertes Réduites à Moins de la Moitié</a>:</strong> Les statistiques montrant pourquoi les ponts sont la cible première</li>
+    <li><strong><a href="/fr/blog/hinkal-proofless-deposit-exploit">Le Protocole de Confidentialité Hinkal Vidé de 820 000 $ via un 'Dépôt sans Preuve'</a>:</strong> Un exploit 'réel' qui contraste avec cette fausse alerte</li>
+    <li><strong><a href="/fr/blog/tether-isis-k-tron-wallet-freeze">Tether Gèle en Quelques Minutes 131 Portefeuilles TRON Sanctionnés d'ISIS-K</a>:</strong> Un autre cas de réponse on-chain au sein de l'écosystème Tron</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Recorde de 207 Hacks Cripto no 1º Semestre de 2026 — Perdas Reduzidas a Menos da Metade</a>:</strong> As estatísticas que mostram por que as pontes são o maior alvo</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">Protocolo de Privacidade Hinkal Drenado em US$ 820 mil via 'Depósito sem Prova'</a>:</strong> Um exploit 'real' que contrasta com este alarme falso</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether Congela em Minutos 131 Carteiras TRON Sancionadas do ISIS-K</a>:</strong> Outro caso de resposta on-chain dentro do ecossistema Tron</li>
+    <li><strong><a href="/pt/blog/crypto-hacks-h1-2026-record-count-lower-losses">Recorde de 207 Hacks Cripto no 1º Semestre de 2026 — Perdas Reduzidas a Menos da Metade</a>:</strong> As estatísticas que mostram por que as pontes são o maior alvo</li>
+    <li><strong><a href="/pt/blog/hinkal-proofless-deposit-exploit">Protocolo de Privacidade Hinkal Drenado em US$ 820 mil via 'Depósito sem Prova'</a>:</strong> Um exploit 'real' que contrasta com este alarme falso</li>
+    <li><strong><a href="/pt/blog/tether-isis-k-tron-wallet-freeze">Tether Congela em Minutos 131 Carteiras TRON Sancionadas do ISIS-K</a>:</strong> Outro caso de resposta on-chain dentro do ecossistema Tron</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">2026 İlk Yarısında Rekor 207 Kripto Hack'i — Zararlar Yarının Altına İndi</a>:</strong> Köprülerin neden en büyük hedef olduğunu gösteren istatistikler</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">Gizlilik Protokolü Hinkal, 'Kanıtsız Yatırma' ile 820 Bin Dolar Boşaltıldı</a>:</strong> Bu yanlış alarmla tezat oluşturan 'gerçek' bir istismar</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether, Yaptırımlı 131 ISIS-K TRON Cüzdanını Dakikalar İçinde Dondurdu</a>:</strong> Tron ekosisteminde bir başka zincir üstü müdahale örneği</li>
+    <li><strong><a href="/tr/blog/crypto-hacks-h1-2026-record-count-lower-losses">2026 İlk Yarısında Rekor 207 Kripto Hack'i — Zararlar Yarının Altına İndi</a>:</strong> Köprülerin neden en büyük hedef olduğunu gösteren istatistikler</li>
+    <li><strong><a href="/tr/blog/hinkal-proofless-deposit-exploit">Gizlilik Protokolü Hinkal, 'Kanıtsız Yatırma' ile 820 Bin Dolar Boşaltıldı</a>:</strong> Bu yanlış alarmla tezat oluşturan 'gerçek' bir istismar</li>
+    <li><strong><a href="/tr/blog/tether-isis-k-tron-wallet-freeze">Tether, Yaptırımlı 131 ISIS-K TRON Cüzdanını Dakikalar İçinde Dondurdu</a>:</strong> Tron ekosisteminde bir başka zincir üstü müdahale örneği</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses.php">Kỷ Lục 207 Vụ Hack Tiền Mã Hóa Nửa Đầu 2026 — Thiệt Hại Giảm Còn Chưa Đến Một Nửa</a>:</strong> Thống kê cho thấy vì sao cầu nối là mục tiêu hàng đầu</li>
-    <li><strong><a href="/blog/hinkal-proofless-deposit-exploit.php">Giao Thức Riêng Tư Hinkal Bị Rút 820 Nghìn USD Qua 'Nạp Tiền Không Bằng Chứng'</a>:</strong> Một vụ khai thác 'thật' tương phản với báo động giả này</li>
-    <li><strong><a href="/blog/tether-isis-k-tron-wallet-freeze.php">Tether Đóng Băng 131 Ví TRON Bị Trừng Phạt Của ISIS-K Trong Vài Phút</a>:</strong> Một trường hợp ứng phó on-chain khác trong hệ sinh thái Tron</li>
+    <li><strong><a href="/vi/blog/crypto-hacks-h1-2026-record-count-lower-losses">Kỷ Lục 207 Vụ Hack Tiền Mã Hóa Nửa Đầu 2026 — Thiệt Hại Giảm Còn Chưa Đến Một Nửa</a>:</strong> Thống kê cho thấy vì sao cầu nối là mục tiêu hàng đầu</li>
+    <li><strong><a href="/vi/blog/hinkal-proofless-deposit-exploit">Giao Thức Riêng Tư Hinkal Bị Rút 820 Nghìn USD Qua 'Nạp Tiền Không Bằng Chứng'</a>:</strong> Một vụ khai thác 'thật' tương phản với báo động giả này</li>
+    <li><strong><a href="/vi/blog/tether-isis-k-tron-wallet-freeze">Tether Đóng Băng 131 Ví TRON Bị Trừng Phạt Của ISIS-K Trong Vài Phút</a>:</strong> Một trường hợp ứng phó on-chain khác trong hệ sinh thái Tron</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 블록에이드(자금 이동이 정상 절차임을 확인), 코인가바르(7월 8일 시장·온체인 동향 정리), 비트토렌트 공식 공지 및 저스틴 선 X 게시물(브리지 선셋 일정·AI 전환 발표), 트레이딩뷰·코인다르(6월 13일 입금·18일 출금 마감 일정), 페멕스·CCN(2026년 브리지 익스플로잇 피해 규모 통계). 일부 세부 사항은 공식 공지와 3자 보도에 근거하며, 본 글은 투자 조언이 아니다.</p>

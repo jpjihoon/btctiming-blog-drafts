@@ -840,58 +840,58 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">호가창의 두꺼운 물량, 실제로 존재할까</a>:</strong> 마켓 뎁스라는 개념 자체를 다진 글</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">고래는 2주간 27만 BTC 매집, ETF는 사상 최악 40억 달러 유출</a>:</strong> 이번 글의 고래 매집·ETF 유출 데이터의 원출처 격 진단</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">가격은 반등을 되돌리는데, ETF 자금은 8주째 순유출에서 못 벗어났다</a>:</strong> ETF 순유출 흐름의 배경을 다진 글</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">공포탐욕지수, 일주일 만에 탐욕(69)에서 공포(26)로</a>:</strong> 지금의 심리 지표를 시계열로 짚은 글</li>
+    <li><strong><a href="/blog/liquidity-illusion-order-books">호가창의 두꺼운 물량, 실제로 존재할까</a>:</strong> 마켓 뎁스라는 개념 자체를 다진 글</li>
+    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow">고래는 2주간 27만 BTC 매집, ETF는 사상 최악 40억 달러 유출</a>:</strong> 이번 글의 고래 매집·ETF 유출 데이터의 원출처 격 진단</li>
+    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback">가격은 반등을 되돌리는데, ETF 자금은 8주째 순유출에서 못 벗어났다</a>:</strong> ETF 순유출 흐름의 배경을 다진 글</li>
+    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact">공포탐욕지수, 일주일 만에 탐욕(69)에서 공포(26)로</a>:</strong> 지금의 심리 지표를 시계열로 짚은 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">Does That Thick Order Book Depth Actually Exist?</a>:</strong> The foundational piece on the market depth concept itself</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Whales Bought 270K BTC in Two Weeks as ETFs Bled a Record $4B</a>:</strong> The original diagnosis behind this piece's whale-accumulation and ETF-outflow data</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Bitcoin Is Giving Back the Bounce — ETF Flows Still Haven't Escaped an 8-Week Losing Streak</a>:</strong> The background on the ETF net-outflow trend</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Swings From Greed (69) to Fear (26) in a Week</a>:</strong> A closer look at today's sentiment gauge over time</li>
+    <li><strong><a href="/en/blog/liquidity-illusion-order-books">Does That Thick Order Book Depth Actually Exist?</a>:</strong> The foundational piece on the market depth concept itself</li>
+    <li><strong><a href="/en/blog/whales-buy-270k-btc-etf-record-outflow">Whales Bought 270K BTC in Two Weeks as ETFs Bled a Record $4B</a>:</strong> The original diagnosis behind this piece's whale-accumulation and ETF-outflow data</li>
+    <li><strong><a href="/en/blog/etf-eight-week-streak-price-giveback">Bitcoin Is Giving Back the Bounce — ETF Flows Still Haven't Escaped an 8-Week Losing Streak</a>:</strong> The background on the ETF net-outflow trend</li>
+    <li><strong><a href="/en/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Swings From Greed (69) to Fear (26) in a Week</a>:</strong> A closer look at today's sentiment gauge over time</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">気配値の厚い物量、実際に存在するのか</a>:</strong> マーケットデプスという概念自体を掘り下げた記事</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">クジラは2週間で27万BTC買い集め、ETFは過去最悪40億ドル流出</a>:</strong> 本稿のクジラ買い集め・ETF流出データの元となる診断</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">価格は反発を打ち消しているのに、ETF資金は8週連続の純流出から抜け出せていない</a>:</strong> ETF純流出トレンドの背景を扱った記事</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">恐怖強欲指数、1週間で強欲(69)から恐怖(26)へ</a>:</strong> 今の心理指標を時系列で追った記事</li>
+    <li><strong><a href="/ja/blog/liquidity-illusion-order-books">気配値の厚い物量、実際に存在するのか</a>:</strong> マーケットデプスという概念自体を掘り下げた記事</li>
+    <li><strong><a href="/ja/blog/whales-buy-270k-btc-etf-record-outflow">クジラは2週間で27万BTC買い集め、ETFは過去最悪40億ドル流出</a>:</strong> 本稿のクジラ買い集め・ETF流出データの元となる診断</li>
+    <li><strong><a href="/ja/blog/etf-eight-week-streak-price-giveback">価格は反発を打ち消しているのに、ETF資金は8週連続の純流出から抜け出せていない</a>:</strong> ETF純流出トレンドの背景を扱った記事</li>
+    <li><strong><a href="/ja/blog/fear-greed-whiplash-btc-range-intact">恐怖強欲指数、1週間で強欲(69)から恐怖(26)へ</a>:</strong> 今の心理指標を時系列で追った記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">¿Esa Profundidad Gruesa del Libro de Órdenes Realmente Existe?</a>:</strong> El artículo fundacional sobre el propio concepto de profundidad de mercado</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Ballenas Compran 270K BTC en Dos Semanas Mientras los ETF Pierden un Récord de $4.000M</a>:</strong> El diagnóstico original detrás de los datos de acumulación de ballenas y salidas de ETF de este artículo</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">El Precio Está Deshaciendo el Rebote — los Flujos de ETF Aún No Escapan de 8 Semanas de Salidas</a>:</strong> El trasfondo de la tendencia de salida neta de los ETF</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Miedo y Codicia Pasa de Codicia (69) a Miedo (26) en una Semana</a>:</strong> Un vistazo más de cerca al indicador de sentimiento actual a lo largo del tiempo</li>
+    <li><strong><a href="/es/blog/liquidity-illusion-order-books">¿Esa Profundidad Gruesa del Libro de Órdenes Realmente Existe?</a>:</strong> El artículo fundacional sobre el propio concepto de profundidad de mercado</li>
+    <li><strong><a href="/es/blog/whales-buy-270k-btc-etf-record-outflow">Ballenas Compran 270K BTC en Dos Semanas Mientras los ETF Pierden un Récord de $4.000M</a>:</strong> El diagnóstico original detrás de los datos de acumulación de ballenas y salidas de ETF de este artículo</li>
+    <li><strong><a href="/es/blog/etf-eight-week-streak-price-giveback">El Precio Está Deshaciendo el Rebote — los Flujos de ETF Aún No Escapan de 8 Semanas de Salidas</a>:</strong> El trasfondo de la tendencia de salida neta de los ETF</li>
+    <li><strong><a href="/es/blog/fear-greed-whiplash-btc-range-intact">Miedo y Codicia Pasa de Codicia (69) a Miedo (26) en una Semana</a>:</strong> Un vistazo más de cerca al indicador de sentimiento actual a lo largo del tiempo</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">Existiert diese dicke Orderbuch-Tiefe wirklich?</a>:</strong> Der Grundlagenartikel zum Konzept der Marktiefe selbst</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Wale kauften 270K BTC in zwei Wochen, während ETFs rekordhafte 4 Mrd. Dollar verloren</a>:</strong> Die ursprüngliche Diagnose hinter den Wal-Akkumulations- und ETF-Abfluss-Daten dieses Beitrags</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Der Preis Macht die Erholung Zunichte — ETF-Flüsse Stecken Weiter in der 8-Wochen-Abflussserie</a>:</strong> Der Hintergrund zum ETF-Nettoabfluss-Trend</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Springt in Einer Woche von Gier (69) zu Angst (26)</a>:</strong> Ein genauerer Blick auf den aktuellen Stimmungsindikator im Zeitverlauf</li>
+    <li><strong><a href="/de/blog/liquidity-illusion-order-books">Existiert diese dicke Orderbuch-Tiefe wirklich?</a>:</strong> Der Grundlagenartikel zum Konzept der Marktiefe selbst</li>
+    <li><strong><a href="/de/blog/whales-buy-270k-btc-etf-record-outflow">Wale kauften 270K BTC in zwei Wochen, während ETFs rekordhafte 4 Mrd. Dollar verloren</a>:</strong> Die ursprüngliche Diagnose hinter den Wal-Akkumulations- und ETF-Abfluss-Daten dieses Beitrags</li>
+    <li><strong><a href="/de/blog/etf-eight-week-streak-price-giveback">Der Preis Macht die Erholung Zunichte — ETF-Flüsse Stecken Weiter in der 8-Wochen-Abflussserie</a>:</strong> Der Hintergrund zum ETF-Nettoabfluss-Trend</li>
+    <li><strong><a href="/de/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Springt in Einer Woche von Gier (69) zu Angst (26)</a>:</strong> Ein genauerer Blick auf den aktuellen Stimmungsindikator im Zeitverlauf</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">Cette Épaisse Profondeur de Carnet d'Ordres Existe-t-elle Vraiment ?</a>:</strong> L'article fondateur sur le concept même de profondeur de marché</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Les Baleines Achètent 270K BTC en Deux Semaines Pendant que les ETF Perdent un Record de 4 Md$</a>:</strong> Le diagnostic original derrière les données d'accumulation des baleines et de sorties ETF de cet article</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Le Prix Efface le Rebond — les Flux ETF n'Ont Toujours Pas Échappé à une Série de 8 Semaines de Sorties</a>:</strong> Le contexte de la tendance de sortie nette des ETF</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Passe de la Cupidité (69) à la Peur (26) en une Semaine</a>:</strong> Un examen plus approfondi de l'indicateur de sentiment actuel dans le temps</li>
+    <li><strong><a href="/fr/blog/liquidity-illusion-order-books">Cette Épaisse Profondeur de Carnet d'Ordres Existe-t-elle Vraiment ?</a>:</strong> L'article fondateur sur le concept même de profondeur de marché</li>
+    <li><strong><a href="/fr/blog/whales-buy-270k-btc-etf-record-outflow">Les Baleines Achètent 270K BTC en Deux Semaines Pendant que les ETF Perdent un Record de 4 Md$</a>:</strong> Le diagnostic original derrière les données d'accumulation des baleines et de sorties ETF de cet article</li>
+    <li><strong><a href="/fr/blog/etf-eight-week-streak-price-giveback">Le Prix Efface le Rebond — les Flux ETF n'Ont Toujours Pas Échappé à une Série de 8 Semaines de Sorties</a>:</strong> Le contexte de la tendance de sortie nette des ETF</li>
+    <li><strong><a href="/fr/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Passe de la Cupidité (69) à la Peur (26) en une Semaine</a>:</strong> Un examen plus approfondi de l'indicateur de sentiment actuel dans le temps</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">Essa Profundidade Espessa do Livro de Ofertas Realmente Existe?</a>:</strong> O artigo fundacional sobre o próprio conceito de profundidade de mercado</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Baleias Compram 270 Mil BTC em Duas Semanas Enquanto ETFs Perdem Recorde de US$ 4B</a>:</strong> O diagnóstico original por trás dos dados de acumulação de baleias e saídas de ETF deste texto</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">O Preço Está Devolvendo o Repique — os Fluxos de ETF Ainda Não Escaparam de 8 Semanas de Saídas</a>:</strong> O pano de fundo da tendência de saída líquida dos ETFs</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Medo e Ganância Vai de Ganância (69) a Medo (26) em Uma Semana</a>:</strong> Um olhar mais atento sobre o indicador de sentimento atual ao longo do tempo</li>
+    <li><strong><a href="/pt/blog/liquidity-illusion-order-books">Essa Profundidade Espessa do Livro de Ofertas Realmente Existe?</a>:</strong> O artigo fundacional sobre o próprio conceito de profundidade de mercado</li>
+    <li><strong><a href="/pt/blog/whales-buy-270k-btc-etf-record-outflow">Baleias Compram 270 Mil BTC em Duas Semanas Enquanto ETFs Perdem Recorde de US$ 4B</a>:</strong> O diagnóstico original por trás dos dados de acumulação de baleias e saídas de ETF deste texto</li>
+    <li><strong><a href="/pt/blog/etf-eight-week-streak-price-giveback">O Preço Está Devolvendo o Repique — os Fluxos de ETF Ainda Não Escaparam de 8 Semanas de Saídas</a>:</strong> O pano de fundo da tendência de saída líquida dos ETFs</li>
+    <li><strong><a href="/pt/blog/fear-greed-whiplash-btc-range-intact">Medo e Ganância Vai de Ganância (69) a Medo (26) em Uma Semana</a>:</strong> Um olhar mais atento sobre o indicador de sentimento atual ao longo do tempo</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">O Kalın Emir Defteri Derinliği Gerçekten Var mı?</a>:</strong> Piyasa derinliği kavramının kendisini ele alan temel yazı</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Balinalar İki Haftada 270 Bin BTC Alırken ETF'ler Rekor 4 Milyar Dolar Kaybetti</a>:</strong> Bu yazıdaki balina birikimi ve ETF çıkışı verilerinin arkasındaki orijinal teşhis</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Fiyat Yükselişi Geri Veriyor — ETF Akışları Hâlâ 8 Haftalık Çıkış Serisinden Kurtulamadı</a>:</strong> ETF net çıkış eğiliminin arka planı</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Korku ve Açgözlülük Bir Haftada Açgözlülükten (69) Korkuya (26) Döndü</a>:</strong> Bugünkü duyarlılık göstergesine zaman içinde daha yakından bir bakış</li>
+    <li><strong><a href="/tr/blog/liquidity-illusion-order-books">O Kalın Emir Defteri Derinliği Gerçekten Var mı?</a>:</strong> Piyasa derinliği kavramının kendisini ele alan temel yazı</li>
+    <li><strong><a href="/tr/blog/whales-buy-270k-btc-etf-record-outflow">Balinalar İki Haftada 270 Bin BTC Alırken ETF'ler Rekor 4 Milyar Dolar Kaybetti</a>:</strong> Bu yazıdaki balina birikimi ve ETF çıkışı verilerinin arkasındaki orijinal teşhis</li>
+    <li><strong><a href="/tr/blog/etf-eight-week-streak-price-giveback">Fiyat Yükselişi Geri Veriyor — ETF Akışları Hâlâ 8 Haftalık Çıkış Serisinden Kurtulamadı</a>:</strong> ETF net çıkış eğiliminin arka planı</li>
+    <li><strong><a href="/tr/blog/fear-greed-whiplash-btc-range-intact">Korku ve Açgözlülük Bir Haftada Açgözlülükten (69) Korkuya (26) Döndü</a>:</strong> Bugünkü duyarlılık göstergesine zaman içinde daha yakından bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/liquidity-illusion-order-books.php">Độ Sâu Sổ Lệnh Dày Đó Có Thực Sự Tồn Tại?</a>:</strong> Bài viết nền tảng về chính khái niệm độ sâu thị trường</li>
-    <li><strong><a href="/blog/whales-buy-270k-btc-etf-record-outflow.php">Cá Voi Mua 270K BTC Trong Hai Tuần Trong Khi ETF Mất Kỷ Lục 4 Tỷ USD</a>:</strong> Chẩn đoán gốc đằng sau dữ liệu tích lũy cá voi và dòng rút ETF trong bài này</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Giá Đang Trả Lại Đà Tăng — Dòng Vốn ETF Vẫn Chưa Thoát Chuỗi Rút Vốn 8 Tuần</a>:</strong> Bối cảnh của xu hướng rút ròng ETF</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Sợ Hãi &amp; Tham Lam Chuyển Từ Tham Lam (69) Sang Sợ Hãi (26) Trong Một Tuần</a>:</strong> Cái nhìn sâu hơn về chỉ báo tâm lý hiện tại theo thời gian</li>
+    <li><strong><a href="/vi/blog/liquidity-illusion-order-books">Độ Sâu Sổ Lệnh Dày Đó Có Thực Sự Tồn Tại?</a>:</strong> Bài viết nền tảng về chính khái niệm độ sâu thị trường</li>
+    <li><strong><a href="/vi/blog/whales-buy-270k-btc-etf-record-outflow">Cá Voi Mua 270K BTC Trong Hai Tuần Trong Khi ETF Mất Kỷ Lục 4 Tỷ USD</a>:</strong> Chẩn đoán gốc đằng sau dữ liệu tích lũy cá voi và dòng rút ETF trong bài này</li>
+    <li><strong><a href="/vi/blog/etf-eight-week-streak-price-giveback">Giá Đang Trả Lại Đà Tăng — Dòng Vốn ETF Vẫn Chưa Thoát Chuỗi Rút Vốn 8 Tuần</a>:</strong> Bối cảnh của xu hướng rút ròng ETF</li>
+    <li><strong><a href="/vi/blog/fear-greed-whiplash-btc-range-intact">Sợ Hãi &amp; Tham Lam Chuyển Từ Tham Lam (69) Sang Sợ Hãi (26) Trong Một Tuần</a>:</strong> Cái nhìn sâu hơn về chỉ báo tâm lý hiện tại theo thời gian</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Yahoo Finance·Fortune·Sunday Guardian Live(가격), Kaiko·CryptoSlate(마켓 뎁스·거래량), CryptoQuant·Memeburn(거래소 잔고·고래 매집), Farside Investors·KuCoin·Techtimes·Coindesk·Yahoo Finance(ETF 자금 흐름), Alternative.me·CoinMarketCap·Feargreedmeter·Milkroad(공포탐욕지수), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

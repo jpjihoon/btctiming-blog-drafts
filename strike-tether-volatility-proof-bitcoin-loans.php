@@ -492,40 +492,40 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">크라켄, 토큰화 주식을 레버리지 담보로 — 자본 효율인가 새 위험 사슬인가</a>:</strong> 다른 거래소가 만들어낸 또 다른 레버리지·담보 위험 사슬을 다룬 글</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">테더, 2026년 2분기 준비금 보고서 발표 — 초과 준비금 사상 최고치</a>:</strong> 이번 대출 상품의 신용을 뒷받침하는 테더의 재무 여력을 짚은 글</li>
+    <li><strong><a href="/blog/kraken-tokenized-stock-collateral">크라켄, 토큰화 주식을 레버리지 담보로 — 자본 효율인가 새 위험 사슬인가</a>:</strong> 다른 거래소가 만들어낸 또 다른 레버리지·담보 위험 사슬을 다룬 글</li>
+    <li><strong><a href="/blog/tether-reserve-attestation-update">테더, 2026년 2분기 준비금 보고서 발표 — 초과 준비금 사상 최고치</a>:</strong> 이번 대출 상품의 신용을 뒷받침하는 테더의 재무 여력을 짚은 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Turns Tokenized Stocks Into Leverage Collateral — Capital Efficiency or a New Risk Chain?</a>:</strong> A different exchange creating its own new leverage and collateral risk chain</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Releases Q2 2026 Reserve Report — Excess Reserves Hit ATH</a>:</strong> The reserve strength behind the credit backing this loan product</li>
+    <li><strong><a href="/en/blog/kraken-tokenized-stock-collateral">Kraken Turns Tokenized Stocks Into Leverage Collateral — Capital Efficiency or a New Risk Chain?</a>:</strong> A different exchange creating its own new leverage and collateral risk chain</li>
+    <li><strong><a href="/en/blog/tether-reserve-attestation-update">Tether Releases Q2 2026 Reserve Report — Excess Reserves Hit ATH</a>:</strong> The reserve strength behind the credit backing this loan product</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">クラケン、トークン化株式をレバレッジ担保に — 資本効率か新たなリスクの連鎖か</a>:</strong> 別の取引所が生み出した新たなレバレッジ・担保リスクの連鎖を扱った記事</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">テザー、2026年第2四半期準備金報告書を発表 — 超過準備金が過去最高に</a>:</strong> 今回の融資商品の信用を支えるテザーの財務余力を扱った記事</li>
+    <li><strong><a href="/ja/blog/kraken-tokenized-stock-collateral">クラケン、トークン化株式をレバレッジ担保に — 資本効率か新たなリスクの連鎖か</a>:</strong> 別の取引所が生み出した新たなレバレッジ・担保リスクの連鎖を扱った記事</li>
+    <li><strong><a href="/ja/blog/tether-reserve-attestation-update">テザー、2026年第2四半期準備金報告書を発表 — 超過準備金が過去最高に</a>:</strong> 今回の融資商品の信用を支えるテザーの財務余力を扱った記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Convierte Acciones Tokenizadas en Garantía de Apalancamiento — ¿Eficiencia de Capital o una Nueva Cadena de Riesgo?</a>:</strong> Otro exchange que crea su propia cadena de riesgo de apalancamiento y garantías</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Publica su Informe de Reservas del 2T de 2026 — Las Reservas Excedentes Alcanzan un Máximo Histórico</a>:</strong> La fortaleza de reservas detrás del respaldo crediticio de este préstamo</li>
+    <li><strong><a href="/es/blog/kraken-tokenized-stock-collateral">Kraken Convierte Acciones Tokenizadas en Garantía de Apalancamiento — ¿Eficiencia de Capital o una Nueva Cadena de Riesgo?</a>:</strong> Otro exchange que crea su propia cadena de riesgo de apalancamiento y garantías</li>
+    <li><strong><a href="/es/blog/tether-reserve-attestation-update">Tether Publica su Informe de Reservas del 2T de 2026 — Las Reservas Excedentes Alcanzan un Máximo Histórico</a>:</strong> La fortaleza de reservas detrás del respaldo crediticio de este préstamo</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Macht aus Tokenisierten Aktien Hebel-Sicherheiten — Kapitaleffizienz oder Neue Risikokette?</a>:</strong> Eine andere Börse schafft ihre eigene neue Hebel- und Sicherheitenrisikokette</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Veröffentlicht Reservebericht für Q2 2026 — Überschussreserven auf Allzeithoch</a>:</strong> Die Reservestärke hinter der Kreditabsicherung dieses Kreditprodukts</li>
+    <li><strong><a href="/de/blog/kraken-tokenized-stock-collateral">Kraken Macht aus Tokenisierten Aktien Hebel-Sicherheiten — Kapitaleffizienz oder Neue Risikokette?</a>:</strong> Eine andere Börse schafft ihre eigene neue Hebel- und Sicherheitenrisikokette</li>
+    <li><strong><a href="/de/blog/tether-reserve-attestation-update">Tether Veröffentlicht Reservebericht für Q2 2026 — Überschussreserven auf Allzeithoch</a>:</strong> Die Reservestärke hinter der Kreditabsicherung dieses Kreditprodukts</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Transforme des Actions Tokenisées en Garantie à Effet de Levier — Efficience du Capital ou Nouvelle Chaîne de Risque ?</a>:</strong> Une autre plateforme crée sa propre nouvelle chaîne de risque de levier et de garanties</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Publie son Rapport sur les Réserves du T2 2026 — Les Réserves Excédentaires Atteignent un Sommet Historique</a>:</strong> La solidité des réserves qui soutient le crédit derrière ce produit de prêt</li>
+    <li><strong><a href="/fr/blog/kraken-tokenized-stock-collateral">Kraken Transforme des Actions Tokenisées en Garantie à Effet de Levier — Efficience du Capital ou Nouvelle Chaîne de Risque ?</a>:</strong> Une autre plateforme crée sa propre nouvelle chaîne de risque de levier et de garanties</li>
+    <li><strong><a href="/fr/blog/tether-reserve-attestation-update">Tether Publie son Rapport sur les Réserves du T2 2026 — Les Réserves Excédentaires Atteignent un Sommet Historique</a>:</strong> La solidité des réserves qui soutient le crédit derrière ce produit de prêt</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Transforma Ações Tokenizadas em Garantia de Alavancagem — Eficiência de Capital ou Nova Cadeia de Risco?</a>:</strong> Outra exchange criando sua própria nova cadeia de risco de alavancagem e garantias</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Divulga Relatório de Reservas do 2T de 2026 — Reservas Excedentes Atingem Máxima Histórica</a>:</strong> A força das reservas por trás do lastro de crédito deste produto de empréstimo</li>
+    <li><strong><a href="/pt/blog/kraken-tokenized-stock-collateral">Kraken Transforma Ações Tokenizadas em Garantia de Alavancagem — Eficiência de Capital ou Nova Cadeia de Risco?</a>:</strong> Outra exchange criando sua própria nova cadeia de risco de alavancagem e garantias</li>
+    <li><strong><a href="/pt/blog/tether-reserve-attestation-update">Tether Divulga Relatório de Reservas do 2T de 2026 — Reservas Excedentes Atingem Máxima Histórica</a>:</strong> A força das reservas por trás do lastro de crédito deste produto de empréstimo</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken, Tokenleştirilmiş Hisseleri Kaldıraç Teminatına Dönüştürüyor — Sermaye Verimliliği mi, Yeni Bir Risk Zinciri mi?</a>:</strong> Başka bir borsanın kendi yeni kaldıraç ve teminat risk zincirini yaratması</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether 2026 2. Çeyrek Rezerv Raporunu Yayımladı — Fazla Rezervler Tarihi Zirvede</a>:</strong> Bu kredi ürününün kredi desteğinin arkasındaki rezerv gücü</li>
+    <li><strong><a href="/tr/blog/kraken-tokenized-stock-collateral">Kraken, Tokenleştirilmiş Hisseleri Kaldıraç Teminatına Dönüştürüyor — Sermaye Verimliliği mi, Yeni Bir Risk Zinciri mi?</a>:</strong> Başka bir borsanın kendi yeni kaldıraç ve teminat risk zincirini yaratması</li>
+    <li><strong><a href="/tr/blog/tether-reserve-attestation-update">Tether 2026 2. Çeyrek Rezerv Raporunu Yayımladı — Fazla Rezervler Tarihi Zirvede</a>:</strong> Bu kredi ürününün kredi desteğinin arkasındaki rezerv gücü</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Biến Cổ Phiếu Token Hóa Thành Tài Sản Thế Chấp Đòn Bẩy — Hiệu Quả Vốn Hay Chuỗi Rủi Ro Mới?</a>:</strong> Một sàn giao dịch khác tạo ra chuỗi rủi ro đòn bẩy và thế chấp mới của riêng mình</li>
-    <li><strong><a href="/blog/tether-reserve-attestation-update.php">Tether Công Bố Báo Cáo Dự Trữ Quý 2/2026 — Dự Trữ Vượt Mức Đạt Đỉnh Lịch Sử</a>:</strong> Sức mạnh dự trữ đứng sau khoản hậu thuẫn tín dụng cho sản phẩm cho vay này</li>
+    <li><strong><a href="/vi/blog/kraken-tokenized-stock-collateral">Kraken Biến Cổ Phiếu Token Hóa Thành Tài Sản Thế Chấp Đòn Bẩy — Hiệu Quả Vốn Hay Chuỗi Rủi Ro Mới?</a>:</strong> Một sàn giao dịch khác tạo ra chuỗi rủi ro đòn bẩy và thế chấp mới của riêng mình</li>
+    <li><strong><a href="/vi/blog/tether-reserve-attestation-update">Tether Công Bố Báo Cáo Dự Trữ Quý 2/2026 — Dự Trữ Vượt Mức Đạt Đỉnh Lịch Sử</a>:</strong> Sức mạnh dự trữ đứng sau khoản hậu thuẫn tín dụng cho sản phẩm cho vay này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Bitcoin Magazine, CryptoBriefing, The Currency Analytics, Crypto Economy, KuCoin News, Pluang, 스트라이크 공식 사이트(strike.me/lending). 수치는 보도 시점 기준이며 상품 조건은 지역·시점에 따라 달라질 수 있다. 본 글은 투자 조언이 아니다.</p>

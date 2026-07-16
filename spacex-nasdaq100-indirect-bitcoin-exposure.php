@@ -301,49 +301,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">스트래티지, 2022년 이후 최대 규모 비트코인 매각</a>:</strong> 나스닥100에 먼저 들어간 최대 비트코인 보유 기업의 최근 행보</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">아메리칸 비트코인, 액면병합으로 나스닥 상장 요건 방어</a>:</strong> 비트코인 기업과 나스닥 상장 구조의 또 다른 사례</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">비트코인·나스닥 상관계수가 음(-)으로 뒤집혔다</a>:</strong> 비트코인과 주식지수의 관계를 데이터로 다시 보기</li>
+    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends">스트래티지, 2022년 이후 최대 규모 비트코인 매각</a>:</strong> 나스닥100에 먼저 들어간 최대 비트코인 보유 기업의 최근 행보</li>
+    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq">아메리칸 비트코인, 액면병합으로 나스닥 상장 요건 방어</a>:</strong> 비트코인 기업과 나스닥 상장 구조의 또 다른 사례</li>
+    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative">비트코인·나스닥 상관계수가 음(-)으로 뒤집혔다</a>:</strong> 비트코인과 주식지수의 관계를 데이터로 다시 보기</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">Strategy's Largest Bitcoin Sale Since 2022</a>:</strong> The recent move of the biggest bitcoin holder that entered the Nasdaq-100 first</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">American Bitcoin's Reverse Split to Defend Its Nasdaq Listing</a>:</strong> Another case of a bitcoin firm and the mechanics of a Nasdaq listing</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Bitcoin-Nasdaq Correlation Flips Negative</a>:</strong> A data-driven look at the relationship between bitcoin and equity indices</li>
+    <li><strong><a href="/en/blog/strategy-largest-btc-sale-preferred-dividends">Strategy's Largest Bitcoin Sale Since 2022</a>:</strong> The recent move of the biggest bitcoin holder that entered the Nasdaq-100 first</li>
+    <li><strong><a href="/en/blog/american-bitcoin-abtc-reverse-split-nasdaq">American Bitcoin's Reverse Split to Defend Its Nasdaq Listing</a>:</strong> Another case of a bitcoin firm and the mechanics of a Nasdaq listing</li>
+    <li><strong><a href="/en/blog/btc-nasdaq-correlation-flips-negative">Bitcoin-Nasdaq Correlation Flips Negative</a>:</strong> A data-driven look at the relationship between bitcoin and equity indices</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">ストラテジー、2022年以降で最大のビットコイン売却</a>:</strong> ナスダック100に先に入った最大のビットコイン保有企業の最近の動き</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">アメリカン・ビットコイン、株式併合でナスダック上場要件を防衛</a>:</strong> ビットコイン企業とナスダック上場構造のもう一つの事例</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">ビットコインとナスダックの相関がマイナスに反転</a>:</strong> ビットコインと株価指数の関係をデータで見直す</li>
+    <li><strong><a href="/ja/blog/strategy-largest-btc-sale-preferred-dividends">ストラテジー、2022年以降で最大のビットコイン売却</a>:</strong> ナスダック100に先に入った最大のビットコイン保有企業の最近の動き</li>
+    <li><strong><a href="/ja/blog/american-bitcoin-abtc-reverse-split-nasdaq">アメリカン・ビットコイン、株式併合でナスダック上場要件を防衛</a>:</strong> ビットコイン企業とナスダック上場構造のもう一つの事例</li>
+    <li><strong><a href="/ja/blog/btc-nasdaq-correlation-flips-negative">ビットコインとナスダックの相関がマイナスに反転</a>:</strong> ビットコインと株価指数の関係をデータで見直す</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">La Mayor Venta de Bitcoin de Strategy Desde 2022</a>:</strong> El movimiento reciente del mayor tenedor de bitcoin que entró primero al Nasdaq-100</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">El Contrasplit de American Bitcoin para Defender su Cotización en Nasdaq</a>:</strong> Otro caso de una empresa de bitcoin y la mecánica de una cotización en Nasdaq</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">La Correlación Bitcoin-Nasdaq se Vuelve Negativa</a>:</strong> Una mirada basada en datos a la relación entre bitcoin y los índices bursátiles</li>
+    <li><strong><a href="/es/blog/strategy-largest-btc-sale-preferred-dividends">La Mayor Venta de Bitcoin de Strategy Desde 2022</a>:</strong> El movimiento reciente del mayor tenedor de bitcoin que entró primero al Nasdaq-100</li>
+    <li><strong><a href="/es/blog/american-bitcoin-abtc-reverse-split-nasdaq">El Contrasplit de American Bitcoin para Defender su Cotización en Nasdaq</a>:</strong> Otro caso de una empresa de bitcoin y la mecánica de una cotización en Nasdaq</li>
+    <li><strong><a href="/es/blog/btc-nasdaq-correlation-flips-negative">La Correlación Bitcoin-Nasdaq se Vuelve Negativa</a>:</strong> Una mirada basada en datos a la relación entre bitcoin y los índices bursátiles</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">Strategys Größter Bitcoin-Verkauf Seit 2022</a>:</strong> Der jüngste Schritt des größten Bitcoin-Halters, der zuerst in den Nasdaq-100 kam</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">American Bitcoins Reverse Split zur Verteidigung der Nasdaq-Notierung</a>:</strong> Ein weiterer Fall eines Bitcoin-Unternehmens und der Mechanik einer Nasdaq-Notierung</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Bitcoin-Nasdaq-Korrelation Kippt ins Negative</a>:</strong> Ein datengestützter Blick auf das Verhältnis von Bitcoin und Aktienindizes</li>
+    <li><strong><a href="/de/blog/strategy-largest-btc-sale-preferred-dividends">Strategys Größter Bitcoin-Verkauf Seit 2022</a>:</strong> Der jüngste Schritt des größten Bitcoin-Halters, der zuerst in den Nasdaq-100 kam</li>
+    <li><strong><a href="/de/blog/american-bitcoin-abtc-reverse-split-nasdaq">American Bitcoins Reverse Split zur Verteidigung der Nasdaq-Notierung</a>:</strong> Ein weiterer Fall eines Bitcoin-Unternehmens und der Mechanik einer Nasdaq-Notierung</li>
+    <li><strong><a href="/de/blog/btc-nasdaq-correlation-flips-negative">Bitcoin-Nasdaq-Korrelation Kippt ins Negative</a>:</strong> Ein datengestützter Blick auf das Verhältnis von Bitcoin und Aktienindizes</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">La Plus Grande Vente de Bitcoin de Strategy Depuis 2022</a>:</strong> Le mouvement récent du plus gros détenteur de bitcoin entré le premier dans le Nasdaq-100</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">Le Regroupement d'Actions d'American Bitcoin pour Défendre sa Cotation au Nasdaq</a>:</strong> Un autre cas d'entreprise bitcoin et la mécanique d'une cotation au Nasdaq</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">La Corrélation Bitcoin-Nasdaq Passe en Négatif</a>:</strong> Un regard fondé sur les données sur la relation entre le bitcoin et les indices boursiers</li>
+    <li><strong><a href="/fr/blog/strategy-largest-btc-sale-preferred-dividends">La Plus Grande Vente de Bitcoin de Strategy Depuis 2022</a>:</strong> Le mouvement récent du plus gros détenteur de bitcoin entré le premier dans le Nasdaq-100</li>
+    <li><strong><a href="/fr/blog/american-bitcoin-abtc-reverse-split-nasdaq">Le Regroupement d'Actions d'American Bitcoin pour Défendre sa Cotation au Nasdaq</a>:</strong> Un autre cas d'entreprise bitcoin et la mécanique d'une cotation au Nasdaq</li>
+    <li><strong><a href="/fr/blog/btc-nasdaq-correlation-flips-negative">La Corrélation Bitcoin-Nasdaq Passe en Négatif</a>:</strong> Un regard fondé sur les données sur la relation entre le bitcoin et les indices boursiers</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">A Maior Venda de Bitcoin da Strategy Desde 2022</a>:</strong> O movimento recente do maior detentor de bitcoin que entrou primeiro no Nasdaq-100</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">O Grupamento de Ações da American Bitcoin para Defender sua Listagem na Nasdaq</a>:</strong> Outro caso de uma empresa de bitcoin e a mecânica de uma listagem na Nasdaq</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">A Correlação Bitcoin-Nasdaq Vira Negativa</a>:</strong> Um olhar baseado em dados sobre a relação entre bitcoin e os índices acionários</li>
+    <li><strong><a href="/pt/blog/strategy-largest-btc-sale-preferred-dividends">A Maior Venda de Bitcoin da Strategy Desde 2022</a>:</strong> O movimento recente do maior detentor de bitcoin que entrou primeiro no Nasdaq-100</li>
+    <li><strong><a href="/pt/blog/american-bitcoin-abtc-reverse-split-nasdaq">O Grupamento de Ações da American Bitcoin para Defender sua Listagem na Nasdaq</a>:</strong> Outro caso de uma empresa de bitcoin e a mecânica de uma listagem na Nasdaq</li>
+    <li><strong><a href="/pt/blog/btc-nasdaq-correlation-flips-negative">A Correlação Bitcoin-Nasdaq Vira Negativa</a>:</strong> Um olhar baseado em dados sobre a relação entre bitcoin e os índices acionários</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">Strategy'nin 2022'den Bu Yana En Büyük Bitcoin Satışı</a>:</strong> Nasdaq-100'e önce giren en büyük bitcoin sahibinin son hamlesi</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">American Bitcoin'in Nasdaq Kotasyonunu Savunmak İçin Ters Bölünmesi</a>:</strong> Bir bitcoin şirketi ve Nasdaq kotasyonunun mekaniğine dair başka bir vaka</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Bitcoin-Nasdaq Korelasyonu Negatife Döndü</a>:</strong> Bitcoin ile hisse endeksleri arasındaki ilişkiye veriye dayalı bir bakış</li>
+    <li><strong><a href="/tr/blog/strategy-largest-btc-sale-preferred-dividends">Strategy'nin 2022'den Bu Yana En Büyük Bitcoin Satışı</a>:</strong> Nasdaq-100'e önce giren en büyük bitcoin sahibinin son hamlesi</li>
+    <li><strong><a href="/tr/blog/american-bitcoin-abtc-reverse-split-nasdaq">American Bitcoin'in Nasdaq Kotasyonunu Savunmak İçin Ters Bölünmesi</a>:</strong> Bir bitcoin şirketi ve Nasdaq kotasyonunun mekaniğine dair başka bir vaka</li>
+    <li><strong><a href="/tr/blog/btc-nasdaq-correlation-flips-negative">Bitcoin-Nasdaq Korelasyonu Negatife Döndü</a>:</strong> Bitcoin ile hisse endeksleri arasındaki ilişkiye veriye dayalı bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/strategy-largest-btc-sale-preferred-dividends.php">Đợt Bán Bitcoin Lớn Nhất của Strategy Kể Từ 2022</a>:</strong> Động thái gần đây của bên nắm giữ bitcoin lớn nhất đã vào Nasdaq-100 trước</li>
-    <li><strong><a href="/blog/american-bitcoin-abtc-reverse-split-nasdaq.php">American Bitcoin Gộp Cổ Phiếu Để Bảo Vệ Niêm Yết Nasdaq</a>:</strong> Một trường hợp khác về công ty bitcoin và cơ chế niêm yết Nasdaq</li>
-    <li><strong><a href="/blog/btc-nasdaq-correlation-flips-negative.php">Tương Quan Bitcoin-Nasdaq Đảo Sang Âm</a>:</strong> Góc nhìn dựa trên dữ liệu về quan hệ giữa bitcoin và các chỉ số cổ phiếu</li>
+    <li><strong><a href="/vi/blog/strategy-largest-btc-sale-preferred-dividends">Đợt Bán Bitcoin Lớn Nhất của Strategy Kể Từ 2022</a>:</strong> Động thái gần đây của bên nắm giữ bitcoin lớn nhất đã vào Nasdaq-100 trước</li>
+    <li><strong><a href="/vi/blog/american-bitcoin-abtc-reverse-split-nasdaq">American Bitcoin Gộp Cổ Phiếu Để Bảo Vệ Niêm Yết Nasdaq</a>:</strong> Một trường hợp khác về công ty bitcoin và cơ chế niêm yết Nasdaq</li>
+    <li><strong><a href="/vi/blog/btc-nasdaq-correlation-flips-negative">Tương Quan Bitcoin-Nasdaq Đảo Sang Âm</a>:</strong> Góc nhìn dựa trên dữ liệu về quan hệ giữa bitcoin và các chỉ số cổ phiếu</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(스페이스X IPO 서류상 18,712 BTC·공정가치 보도), 포브스(공개기업 비트코인 보유 순위), 포춘(FASB 시가평가 회계 영향), 크립토타임스(나스닥100 편입 간접 노출), CNBC·야후파이낸스(JP모건 패시브 유입·지수 비중 추산), 비트코인트레저리스(기업 보유 데이터). 지수 비중·패시브 유입 규모는 추정치이며, 본 글은 투자 조언이 아니다.</p>

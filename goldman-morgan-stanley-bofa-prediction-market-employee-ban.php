@@ -384,40 +384,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">폴리마켓 마진거래 신청과 CFTC 조사</a>:</strong> 예측시장 업계를 향한 다면적 규제 압박의 또 다른 사례</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">칼시 SDNY 소송 — 뉴욕 패소가 갖는 의미</a>:</strong> 예측시장 관할권 다툼이 규제 지형을 어떻게 바꾸는지</li>
+    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe">폴리마켓 마진거래 신청과 CFTC 조사</a>:</strong> 예측시장 업계를 향한 다면적 규제 압박의 또 다른 사례</li>
+    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption">칼시 SDNY 소송 — 뉴욕 패소가 갖는 의미</a>:</strong> 예측시장 관할권 다툼이 규제 지형을 어떻게 바꾸는지</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">Polymarket's Margin-Trading Filing Amid a CFTC Probe</a>:</strong> Another front in the multi-pronged regulatory pressure facing prediction markets</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">Kalshi's SDNY Loss and What It Means for Crypto Derivatives</a>:</strong> How the jurisdictional fight over prediction markets is reshaping the regulatory map</li>
+    <li><strong><a href="/en/blog/polymarket-margin-trading-cftc-probe">Polymarket's Margin-Trading Filing Amid a CFTC Probe</a>:</strong> Another front in the multi-pronged regulatory pressure facing prediction markets</li>
+    <li><strong><a href="/en/blog/kalshi-sdny-torres-injunction-preemption">Kalshi's SDNY Loss and What It Means for Crypto Derivatives</a>:</strong> How the jurisdictional fight over prediction markets is reshaping the regulatory map</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">ポリマーケットのマージン取引申請とCFTC調査</a>:</strong> 予測市場業界に向けられた多面的な規制圧力のもう一つの事例</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">カルシのSDNY敗訴が意味するもの</a>:</strong> 予測市場を巡る管轄権争いが規制の地図をどう塗り替えるか</li>
+    <li><strong><a href="/ja/blog/polymarket-margin-trading-cftc-probe">ポリマーケットのマージン取引申請とCFTC調査</a>:</strong> 予測市場業界に向けられた多面的な規制圧力のもう一つの事例</li>
+    <li><strong><a href="/ja/blog/kalshi-sdny-torres-injunction-preemption">カルシのSDNY敗訴が意味するもの</a>:</strong> 予測市場を巡る管轄権争いが規制の地図をどう塗り替えるか</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">La Solicitud de Margen de Polymarket en Medio de una Investigación de la CFTC</a>:</strong> Otro frente en la presión regulatoria multifacética sobre los mercados de predicción</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">La Derrota de Kalshi en el SDNY y su Significado</a>:</strong> Cómo la disputa jurisdiccional sobre los mercados de predicción está remodelando el mapa regulatorio</li>
+    <li><strong><a href="/es/blog/polymarket-margin-trading-cftc-probe">La Solicitud de Margen de Polymarket en Medio de una Investigación de la CFTC</a>:</strong> Otro frente en la presión regulatoria multifacética sobre los mercados de predicción</li>
+    <li><strong><a href="/es/blog/kalshi-sdny-torres-injunction-preemption">La Derrota de Kalshi en el SDNY y su Significado</a>:</strong> Cómo la disputa jurisdiccional sobre los mercados de predicción está remodelando el mapa regulatorio</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">Polymarkets Margin-Antrag Inmitten einer CFTC-Untersuchung</a>:</strong> Eine weitere Front im vielschichtigen regulatorischen Druck auf Prognosemärkte</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">Kalshis SDNY-Niederlage und ihre Bedeutung</a>:</strong> Wie der Zuständigkeitsstreit um Prognosemärkte die Regulierungslandkarte neu zeichnet</li>
+    <li><strong><a href="/de/blog/polymarket-margin-trading-cftc-probe">Polymarkets Margin-Antrag Inmitten einer CFTC-Untersuchung</a>:</strong> Eine weitere Front im vielschichtigen regulatorischen Druck auf Prognosemärkte</li>
+    <li><strong><a href="/de/blog/kalshi-sdny-torres-injunction-preemption">Kalshis SDNY-Niederlage und ihre Bedeutung</a>:</strong> Wie der Zuständigkeitsstreit um Prognosemärkte die Regulierungslandkarte neu zeichnet</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">La Demande de Marge de Polymarket au Milieu d'une Enquête de la CFTC</a> :</strong> Un autre front dans la pression réglementaire multiforme sur les marchés de prédiction</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">La Défaite de Kalshi au SDNY et sa Signification</a> :</strong> Comment la bataille juridictionnelle sur les marchés de prédiction redessine la carte réglementaire</li>
+    <li><strong><a href="/fr/blog/polymarket-margin-trading-cftc-probe">La Demande de Marge de Polymarket au Milieu d'une Enquête de la CFTC</a> :</strong> Un autre front dans la pression réglementaire multiforme sur les marchés de prédiction</li>
+    <li><strong><a href="/fr/blog/kalshi-sdny-torres-injunction-preemption">La Défaite de Kalshi au SDNY et sa Signification</a> :</strong> Comment la bataille juridictionnelle sur les marchés de prédiction redessine la carte réglementaire</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">O Pedido de Margem da Polymarket em Meio a uma Investigação da CFTC</a>:</strong> Outra frente na pressão regulatória multifacetada sobre os mercados de previsão</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">A Derrota da Kalshi no SDNY e seu Significado</a>:</strong> Como a disputa jurisdicional sobre os mercados de previsão está remodelando o mapa regulatório</li>
+    <li><strong><a href="/pt/blog/polymarket-margin-trading-cftc-probe">O Pedido de Margem da Polymarket em Meio a uma Investigação da CFTC</a>:</strong> Outra frente na pressão regulatória multifacetada sobre os mercados de previsão</li>
+    <li><strong><a href="/pt/blog/kalshi-sdny-torres-injunction-preemption">A Derrota da Kalshi no SDNY e seu Significado</a>:</strong> Como a disputa jurisdicional sobre os mercados de previsão está remodelando o mapa regulatório</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">CFTC Soruşturması Ortasında Polymarket'in Marj Başvurusu</a>:</strong> Tahmin piyasaları üzerindeki çok yönlü düzenleyici baskının bir başka cephesi</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">Kalshi'nin SDNY Kaybı ve Anlamı</a>:</strong> Tahmin piyasaları üzerindeki yargı yetkisi mücadelesi düzenleyici haritayı nasıl yeniden şekillendiriyor</li>
+    <li><strong><a href="/tr/blog/polymarket-margin-trading-cftc-probe">CFTC Soruşturması Ortasında Polymarket'in Marj Başvurusu</a>:</strong> Tahmin piyasaları üzerindeki çok yönlü düzenleyici baskının bir başka cephesi</li>
+    <li><strong><a href="/tr/blog/kalshi-sdny-torres-injunction-preemption">Kalshi'nin SDNY Kaybı ve Anlamı</a>:</strong> Tahmin piyasaları üzerindeki yargı yetkisi mücadelesi düzenleyici haritayı nasıl yeniden şekillendiriyor</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/polymarket-margin-trading-cftc-probe.php">Đơn Xin Ký Quỹ Của Polymarket Giữa Cuộc Điều Tra CFTC</a>:</strong> Một mặt trận khác trong áp lực pháp lý đa chiều đối với thị trường dự đoán</li>
-    <li><strong><a href="/blog/kalshi-sdny-torres-injunction-preemption.php">Thất Bại SDNY Của Kalshi Và Ý Nghĩa Của Nó</a>:</strong> Cuộc tranh chấp thẩm quyền về thị trường dự đoán đang định hình lại bản đồ pháp lý như thế nào</li>
+    <li><strong><a href="/vi/blog/polymarket-margin-trading-cftc-probe">Đơn Xin Ký Quỹ Của Polymarket Giữa Cuộc Điều Tra CFTC</a>:</strong> Một mặt trận khác trong áp lực pháp lý đa chiều đối với thị trường dự đoán</li>
+    <li><strong><a href="/vi/blog/kalshi-sdny-torres-injunction-preemption">Thất Bại SDNY Của Kalshi Và Ý Nghĩa Của Nó</a>:</strong> Cuộc tranh chấp thẩm quyền về thị trường dự đoán đang định hình lại bản đồ pháp lý như thế nào</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CNBC·야후파이낸스·qz.com·crypto.news·Finimize(월가 예측시장 제한 보도, 7월 9일), 골드만삭스·모건스탠리·뱅크오브아메리카 내부 정책 관련 보도, 50개 기업 대상 컴플라이언스 업계 설문조사, BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

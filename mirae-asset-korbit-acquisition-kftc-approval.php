@@ -308,40 +308,40 @@
   <p class="vi">Thời điểm cũng đáng chú ý: thông báo này đến đúng lúc việc tái cấu trúc sở hữu của chính Dunamu vẫn tiếp tục bị đình trệ. Việc Naver Financial thâu tóm Dunamu đã bị hoãn ba lần và giờ bị đẩy lùi đến ngày 31 tháng 12. Điều đó cho thấy Mirae Asset-Korbit chỉ đơn giản là thương vụ đầu tiên về đích trong một làn sóng rộng lớn hơn trên toàn ngành công nghiệp tiền điện tử Hàn Quốc nhằm sáp nhập với tài chính truyền thống và các hãng công nghệ lớn. Tuy nhiên, vẫn còn một quan điểm phản biện quan trọng: một khi một công ty chứng khoán duy nhất sở hữu cả môi giới, nghiên cứu, quản lý tài sản và một sàn giao dịch dưới cùng một mái nhà, những lo ngại về bất cân xứng thông tin và xung đột lợi ích có xu hướng gia tăng — và các nhà quản lý vẫn có thể yêu cầu thêm các bức tường lửa giữa các đơn vị này.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">키움증권, 빗썸 지분 인수 협상 개시 — 34% 상한이 만든 한국 크립토 지배구조 재편</a>:</strong> 34% 소유상한 규제가 증권사의 거래소 인수 시도에 미치는 구조적 한계</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">두나무 인수, 또 미뤄졌다 — 네이버파이낸셜 합병 12월 31일로 재연기</a>:</strong> 업비트 운영사 두나무의 지배구조 재편이 지연되고 있는 배경</li>
+    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap">키움증권, 빗썸 지분 인수 협상 개시 — 34% 상한이 만든 한국 크립토 지배구조 재편</a>:</strong> 34% 소유상한 규제가 증권사의 거래소 인수 시도에 미치는 구조적 한계</li>
+    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss">두나무 인수, 또 미뤄졌다 — 네이버파이낸셜 합병 12월 31일로 재연기</a>:</strong> 업비트 운영사 두나무의 지배구조 재편이 지연되고 있는 배경</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom Opens Bithumb Stake Talks — How a 34% Cap Is Reshaping Korean Crypto Ownership</a>:</strong> The structural limits a 34% ownership cap places on brokerages trying to acquire exchanges</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">Dunamu Takeover Slips Again — Naver Financial Merger Pushed to Dec. 31</a>:</strong> Why Upbit operator Dunamu's own ownership overhaul keeps stalling</li>
+    <li><strong><a href="/en/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom Opens Bithumb Stake Talks — How a 34% Cap Is Reshaping Korean Crypto Ownership</a>:</strong> The structural limits a 34% ownership cap places on brokerages trying to acquire exchanges</li>
+    <li><strong><a href="/en/blog/naver-financial-dunamu-merger-third-delay-fss">Dunamu Takeover Slips Again — Naver Financial Merger Pushed to Dec. 31</a>:</strong> Why Upbit operator Dunamu's own ownership overhaul keeps stalling</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">キウム証券、ビットサム株取得交渉開始 — 34%上限が生んだ韓国クリプト支配構造再編</a>:</strong> 34%所有上限規制が証券会社の取引所買収に及ぼす構造的制約</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">双子木買収、また延期 — ネイバーファイナンシャル合併12月31日に再延期</a>:</strong> 業ビット運営元・双子木の支配構造再編が遅延している背景</li>
+    <li><strong><a href="/ja/blog/kiwoom-bithumb-stake-ownership-cap">キウム証券、ビットサム株取得交渉開始 — 34%上限が生んだ韓国クリプト支配構造再編</a>:</strong> 34%所有上限規制が証券会社の取引所買収に及ぼす構造的制約</li>
+    <li><strong><a href="/ja/blog/naver-financial-dunamu-merger-third-delay-fss">双子木買収、また延期 — ネイバーファイナンシャル合併12月31日に再延期</a>:</strong> 業ビット運営元・双子木の支配構造再編が遅延している背景</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom Abre Conversaciones de Participación con Bithumb — Cómo un Límite del 34% Está Remodelando la Propiedad Cripto Coreana</a>:</strong> Los límites estructurales que un tope del 34% impone a las correduras que buscan adquirir exchanges</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">La Adquisición de Dunamu Se Retrasa de Nuevo — La Fusión con Naver Financial se Pospone al 31 de Diciembre</a>:</strong> Por qué la propia reestructuración de propiedad de Dunamu, operador de Upbit, sigue estancada</li>
+    <li><strong><a href="/es/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom Abre Conversaciones de Participación con Bithumb — Cómo un Límite del 34% Está Remodelando la Propiedad Cripto Coreana</a>:</strong> Los límites estructurales que un tope del 34% impone a las correduras que buscan adquirir exchanges</li>
+    <li><strong><a href="/es/blog/naver-financial-dunamu-merger-third-delay-fss">La Adquisición de Dunamu Se Retrasa de Nuevo — La Fusión con Naver Financial se Pospone al 31 de Diciembre</a>:</strong> Por qué la propia reestructuración de propiedad de Dunamu, operador de Upbit, sigue estancada</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom Eröffnet Beteiligungsgespräche mit Bithumb — Wie eine 34%-Obergrenze Koreas Krypto-Eigentümerstruktur Umgestaltet</a>:</strong> Die strukturellen Grenzen, die eine 34%-Obergrenze Brokern beim Börsenkauf setzt</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">Dunamu-Übernahme Verzögert Sich Erneut — Naver-Financial-Fusion auf 31. Dezember Verschoben</a>:</strong> Warum die eigene Eigentümerumstrukturierung von Upbit-Betreiber Dunamu weiter stockt</li>
+    <li><strong><a href="/de/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom Eröffnet Beteiligungsgespräche mit Bithumb — Wie eine 34%-Obergrenze Koreas Krypto-Eigentümerstruktur Umgestaltet</a>:</strong> Die strukturellen Grenzen, die eine 34%-Obergrenze Brokern beim Börsenkauf setzt</li>
+    <li><strong><a href="/de/blog/naver-financial-dunamu-merger-third-delay-fss">Dunamu-Übernahme Verzögert Sich Erneut — Naver-Financial-Fusion auf 31. Dezember Verschoben</a>:</strong> Warum die eigene Eigentümerumstrukturierung von Upbit-Betreiber Dunamu weiter stockt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom Ouvre des Discussions de Participation avec Bithumb — Comment un Plafond de 34% Remodèle l'Actionnariat Crypto Coréen</a>:</strong> Les limites structurelles qu'un plafond de 34% impose aux courtiers cherchant à acquérir des bourses</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">Le Rachat de Dunamu Repoussé à Nouveau — La Fusion avec Naver Financial Reportée au 31 Décembre</a>:</strong> Pourquoi la restructuration de l'actionnariat de Dunamu, opérateur d'Upbit, continue de piétiner</li>
+    <li><strong><a href="/fr/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom Ouvre des Discussions de Participation avec Bithumb — Comment un Plafond de 34% Remodèle l'Actionnariat Crypto Coréen</a>:</strong> Les limites structurelles qu'un plafond de 34% impose aux courtiers cherchant à acquérir des bourses</li>
+    <li><strong><a href="/fr/blog/naver-financial-dunamu-merger-third-delay-fss">Le Rachat de Dunamu Repoussé à Nouveau — La Fusion avec Naver Financial Reportée au 31 Décembre</a>:</strong> Pourquoi la restructuration de l'actionnariat de Dunamu, opérateur d'Upbit, continue de piétiner</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom Abre Negociações de Participação com a Bithumb — Como um Limite de 34% Está Remodelando a Propriedade Cripto Coreana</a>:</strong> Os limites estruturais que um teto de 34% impõe às corretoras que buscam adquirir exchanges</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">Aquisição da Dunamu Atrasa de Novo — Fusão com a Naver Financial Adiada para 31 de Dezembro</a>:</strong> Por que a própria reestruturação acionária da Dunamu, operadora da Upbit, continua travada</li>
+    <li><strong><a href="/pt/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom Abre Negociações de Participação com a Bithumb — Como um Limite de 34% Está Remodelando a Propriedade Cripto Coreana</a>:</strong> Os limites estruturais que um teto de 34% impõe às corretoras que buscam adquirir exchanges</li>
+    <li><strong><a href="/pt/blog/naver-financial-dunamu-merger-third-delay-fss">Aquisição da Dunamu Atrasa de Novo — Fusão com a Naver Financial Adiada para 31 de Dezembro</a>:</strong> Por que a própria reestruturação acionária da Dunamu, operadora da Upbit, continua travada</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom, Bithumb Hisse Görüşmelerini Başlattı — %34'lük Bir Sınır Kore Kripto Sahipliğini Nasıl Yeniden Şekillendiriyor</a>:</strong> %34 sahiplik sınırının borsa satın almaya çalışan aracı kurumlara getirdiği yapısal sınırlar</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">Dunamu Satın Alımı Yine Kaydı — Naver Financial Birleşmesi 31 Aralık'a Ertelendi</a>:</strong> Upbit operatörü Dunamu'nun kendi sahiplik yeniden yapılanmasının neden tıkanmaya devam ettiği</li>
+    <li><strong><a href="/tr/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom, Bithumb Hisse Görüşmelerini Başlattı — %34'lük Bir Sınır Kore Kripto Sahipliğini Nasıl Yeniden Şekillendiriyor</a>:</strong> %34 sahiplik sınırının borsa satın almaya çalışan aracı kurumlara getirdiği yapısal sınırlar</li>
+    <li><strong><a href="/tr/blog/naver-financial-dunamu-merger-third-delay-fss">Dunamu Satın Alımı Yine Kaydı — Naver Financial Birleşmesi 31 Aralık'a Ertelendi</a>:</strong> Upbit operatörü Dunamu'nun kendi sahiplik yeniden yapılanmasının neden tıkanmaya devam ettiği</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/kiwoom-bithumb-stake-ownership-cap.php">Kiwoom Mở Đàm Phán Cổ Phần Với Bithumb — Giới Hạn 34% Đang Định Hình Lại Quyền Sở Hữu Crypto Hàn Quốc Như Thế Nào</a>:</strong> Những giới hạn cấu trúc mà mức trần 34% đặt ra cho các công ty môi giới muốn mua lại sàn giao dịch</li>
-    <li><strong><a href="/blog/naver-financial-dunamu-merger-third-delay-fss.php">Thương Vụ Thâu Tóm Dunamu Lại Trễ Hẹn — Sáp Nhập Với Naver Financial Dời Đến 31/12</a>:</strong> Vì sao việc tái cấu trúc sở hữu của chính Dunamu, đơn vị vận hành Upbit, tiếp tục bị đình trệ</li>
+    <li><strong><a href="/vi/blog/kiwoom-bithumb-stake-ownership-cap">Kiwoom Mở Đàm Phán Cổ Phần Với Bithumb — Giới Hạn 34% Đang Định Hình Lại Quyền Sở Hữu Crypto Hàn Quốc Như Thế Nào</a>:</strong> Những giới hạn cấu trúc mà mức trần 34% đặt ra cho các công ty môi giới muốn mua lại sàn giao dịch</li>
+    <li><strong><a href="/vi/blog/naver-financial-dunamu-merger-third-delay-fss">Thương Vụ Thâu Tóm Dunamu Lại Trễ Hẹn — Sáp Nhập Với Naver Financial Dời Đến 31/12</a>:</strong> Vì sao việc tái cấu trúc sở hữu của chính Dunamu, đơn vị vận hành Upbit, tiếp tục bị đình trệ</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 이비엔뉴스(공정위 기업결합 승인 보도), 블록체인투데이(코빗 지분 인수 완료 및 시장점유율 데이터), 파이낸셜뉴스(미래에셋 디지털자산 사업 확장 계획 보도), 코리아타임스(공정위 반독점 승인 보도), 크립토브리핑·UPI·렛저인사이트(영문권 보도). 이 글은 투자 조언이 아니다.</p>

@@ -299,49 +299,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">ESMA의 예측시장·이진옵션 규제</a>:</strong> 예측시장을 둘러싼 유럽 규제 흐름</li>
+    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban">ESMA의 예측시장·이진옵션 규제</a>:</strong> 예측시장을 둘러싼 유럽 규제 흐름</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">World·솔라나 예측시장 논란</a>:</strong> 예측시장 확장을 둘러싼 또 다른 사례</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">에델 파이낸스 오라클 익스플로잇</a>:</strong> 오라클이 흔들릴 때 무슨 일이 생기는가</li>
+    <li><strong><a href="/blog/edel-finance-oracle-exploit">에델 파이낸스 오라클 익스플로잇</a>:</strong> 오라클이 흔들릴 때 무슨 일이 생기는가</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">ESMA's prediction-market and binary-options rules</a>:</strong> The European regulatory current around prediction markets</li>
+    <li><strong><a href="/en/blog/esma-prediction-market-binary-options-ban">ESMA's prediction-market and binary-options rules</a>:</strong> The European regulatory current around prediction markets</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">The World and Solana prediction-market controversy</a>:</strong> Another case in the expansion of prediction markets</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">The Edel Finance oracle exploit</a>:</strong> What happens when an oracle is compromised</li>
+    <li><strong><a href="/en/blog/edel-finance-oracle-exploit">The Edel Finance oracle exploit</a>:</strong> What happens when an oracle is compromised</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">ESMAの予測市場・二進オプション規制</a>:</strong> 予測市場を巡る欧州の規制の流れ</li>
+    <li><strong><a href="/ja/blog/esma-prediction-market-binary-options-ban">ESMAの予測市場・二進オプション規制</a>:</strong> 予測市場を巡る欧州の規制の流れ</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">World・ソラナ予測市場の論争</a>:</strong> 予測市場拡張を巡るもう一つの事例</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">エデル・ファイナンスのオラクル・エクスプロイト</a>:</strong> オラクルが揺らぐと何が起きるか</li>
+    <li><strong><a href="/ja/blog/edel-finance-oracle-exploit">エデル・ファイナンスのオラクル・エクスプロイト</a>:</strong> オラクルが揺らぐと何が起きるか</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Las reglas de ESMA sobre mercados de predicción y opciones binarias</a>:</strong> La corriente regulatoria europea en torno a los mercados de predicción</li>
+    <li><strong><a href="/es/blog/esma-prediction-market-binary-options-ban">Las reglas de ESMA sobre mercados de predicción y opciones binarias</a>:</strong> La corriente regulatoria europea en torno a los mercados de predicción</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">La polémica del mercado de predicción de World y Solana</a>:</strong> Otro caso en la expansión de los mercados de predicción</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">El exploit de oráculo de Edel Finance</a>:</strong> Qué ocurre cuando un oráculo se ve comprometido</li>
+    <li><strong><a href="/es/blog/edel-finance-oracle-exploit">El exploit de oráculo de Edel Finance</a>:</strong> Qué ocurre cuando un oráculo se ve comprometido</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Die ESMA-Regeln zu Prognosemärkten und Binäroptionen</a>:</strong> Die europäische Regulierungsströmung rund um Prognosemärkte</li>
+    <li><strong><a href="/de/blog/esma-prediction-market-binary-options-ban">Die ESMA-Regeln zu Prognosemärkten und Binäroptionen</a>:</strong> Die europäische Regulierungsströmung rund um Prognosemärkte</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">Die Prognosemarkt-Kontroverse um World und Solana</a>:</strong> Ein weiterer Fall in der Expansion der Prognosemärkte</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">Der Edel-Finance-Orakel-Exploit</a>:</strong> Was passiert, wenn ein Orakel kompromittiert wird</li>
+    <li><strong><a href="/de/blog/edel-finance-oracle-exploit">Der Edel-Finance-Orakel-Exploit</a>:</strong> Was passiert, wenn ein Orakel kompromittiert wird</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Les règles de l'ESMA sur les marchés de prédiction et les options binaires</a>:</strong> Le courant réglementaire européen autour des marchés de prédiction</li>
+    <li><strong><a href="/fr/blog/esma-prediction-market-binary-options-ban">Les règles de l'ESMA sur les marchés de prédiction et les options binaires</a>:</strong> Le courant réglementaire européen autour des marchés de prédiction</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">La controverse du marché de prédiction World et Solana</a>:</strong> Un autre cas dans l'expansion des marchés de prédiction</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">L'exploit d'oracle d'Edel Finance</a>:</strong> Ce qui se passe quand un oracle est compromis</li>
+    <li><strong><a href="/fr/blog/edel-finance-oracle-exploit">L'exploit d'oracle d'Edel Finance</a>:</strong> Ce qui se passe quand un oracle est compromis</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">As regras da ESMA sobre mercados de previsão e opções binárias</a>:</strong> A corrente regulatória europeia em torno dos mercados de previsão</li>
+    <li><strong><a href="/pt/blog/esma-prediction-market-binary-options-ban">As regras da ESMA sobre mercados de previsão e opções binárias</a>:</strong> A corrente regulatória europeia em torno dos mercados de previsão</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">A polêmica do mercado de previsão da World e da Solana</a>:</strong> Outro caso na expansão dos mercados de previsão</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">O exploit de oráculo da Edel Finance</a>:</strong> O que acontece quando um oráculo é comprometido</li>
+    <li><strong><a href="/pt/blog/edel-finance-oracle-exploit">O exploit de oráculo da Edel Finance</a>:</strong> O que acontece quando um oráculo é comprometido</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">ESMA'nın tahmin piyasası ve ikili opsiyon kuralları</a>:</strong> Tahmin piyasaları etrafındaki Avrupa düzenleme akımı</li>
+    <li><strong><a href="/tr/blog/esma-prediction-market-binary-options-ban">ESMA'nın tahmin piyasası ve ikili opsiyon kuralları</a>:</strong> Tahmin piyasaları etrafındaki Avrupa düzenleme akımı</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">World ve Solana tahmin piyasası tartışması</a>:</strong> Tahmin piyasalarının genişlemesinde bir başka örnek</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">Edel Finance oracle istismarı</a>:</strong> Bir oracle sarsıldığında ne olur</li>
+    <li><strong><a href="/tr/blog/edel-finance-oracle-exploit">Edel Finance oracle istismarı</a>:</strong> Bir oracle sarsıldığında ne olur</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Quy định của ESMA về thị trường dự đoán và quyền chọn nhị phân</a>:</strong> Dòng chảy quản lý của châu Âu quanh thị trường dự đoán</li>
+    <li><strong><a href="/vi/blog/esma-prediction-market-binary-options-ban">Quy định của ESMA về thị trường dự đoán và quyền chọn nhị phân</a>:</strong> Dòng chảy quản lý của châu Âu quanh thị trường dự đoán</li>
     <li><strong><a href="/blog/world-solana-prediction-market-phantom.php">Tranh cãi thị trường dự đoán của World và Solana</a>:</strong> Một trường hợp khác trong sự mở rộng của thị trường dự đoán</li>
-    <li><strong><a href="/blog/edel-finance-oracle-exploit.php">Vụ khai thác oracle của Edel Finance</a>:</strong> Điều gì xảy ra khi một oracle bị xâm phạm</li>
+    <li><strong><a href="/vi/blog/edel-finance-oracle-exploit">Vụ khai thác oracle của Edel Finance</a>:</strong> Điều gì xảy ra khi một oracle bị xâm phạm</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: ADI 프레딕트스트리트/PR 뉴스와이어(체인링크 독점 오라클 채택 발표, CRE 활용), 체인링크(오라클·CRE 역할), 코인텔레그래프·크립토브리핑·비인크립토(월드컵 예측시장 및 체인링크 계약 보도), 업계 집계(스포츠 부문 거래량 칼시 약 28억 달러·폴리마켓 약 18억 달러, 미국 추정 거래액 약 23.7억 달러, 대회 개막 후 일간 +약 75%). 수치는 집계 시점·방식에 따라 달라질 수 있으며, 본 글은 투자 조언이 아니다.</p>

@@ -301,49 +301,49 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">비트코인 레버리지 기업들, 다음 하락장의 도미노가 될 수 있을까</a>:</strong> DAT 모델의 mNAV 붕괴 메커니즘을 먼저 다진 글</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">세일러의 '팔지 않는다'가 깨졌다 — 스트래티지는 파는데 ETF·MSTR 주가는 반대로 움직인다</a>:</strong> 같은 mNAV 개념을 최대 비트코인 트레저리 기업에 적용한 사례</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">한국거래소, 코스닥 규정 강화 — 크립토 트레저리 기업 무더기 상장폐지 위기</a>:</strong> 트레저리 스트레스가 아시아 상장 규정으로 번진 사례</li>
+    <li><strong><a href="/blog/dat-companies-domino-risk">비트코인 레버리지 기업들, 다음 하락장의 도미노가 될 수 있을까</a>:</strong> DAT 모델의 mNAV 붕괴 메커니즘을 먼저 다진 글</li>
+    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap">세일러의 '팔지 않는다'가 깨졌다 — 스트래티지는 파는데 ETF·MSTR 주가는 반대로 움직인다</a>:</strong> 같은 mNAV 개념을 최대 비트코인 트레저리 기업에 적용한 사례</li>
+    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting">한국거래소, 코스닥 규정 강화 — 크립토 트레저리 기업 무더기 상장폐지 위기</a>:</strong> 트레저리 스트레스가 아시아 상장 규정으로 번진 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Could Bitcoin-Leveraged Companies Be the Next Domino</a>:</strong> The foundational piece on the DAT model's mNAV-collapse mechanism</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">Saylor's 'Never Sell' Just Broke — Strategy Is Selling While ETFs and MSTR Stock Move the Other Way</a>:</strong> The same mNAV concept applied to the largest Bitcoin treasury firm</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">Korea Exchange Tightens KOSDAQ Rules, Putting Crypto Treasury Firms at Delisting Risk</a>:</strong> How treasury stress has spread into Asian listing rules</li>
+    <li><strong><a href="/en/blog/dat-companies-domino-risk">Could Bitcoin-Leveraged Companies Be the Next Domino</a>:</strong> The foundational piece on the DAT model's mNAV-collapse mechanism</li>
+    <li><strong><a href="/en/blog/strategy-forced-seller-etf-mnav-gap">Saylor's 'Never Sell' Just Broke — Strategy Is Selling While ETFs and MSTR Stock Move the Other Way</a>:</strong> The same mNAV concept applied to the largest Bitcoin treasury firm</li>
+    <li><strong><a href="/en/blog/korea-kosdaq-crypto-treasury-delisting">Korea Exchange Tightens KOSDAQ Rules, Putting Crypto Treasury Firms at Delisting Risk</a>:</strong> How treasury stress has spread into Asian listing rules</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">DAT企業のmNAV0.63 — レバレッジ構造のドミノリスク</a>:</strong> DATモデルのmNAV崩壊メカニズムを扱った基礎記事</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">セイラーの「売らない」が崩れた — ストラテジーは売るのに、ETFとMSTR株価は逆に動く</a>:</strong> 同じmNAVの概念を最大のビットコイントレジャリー企業に当てはめた事例</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">韓国取引所、コスダック規定を強化 — 暗号資産トレジャリー企業に上場廃止リスク</a>:</strong> トレジャリーのストレスがアジアの上場規定に波及した事例</li>
+    <li><strong><a href="/ja/blog/dat-companies-domino-risk">DAT企業のmNAV0.63 — レバレッジ構造のドミノリスク</a>:</strong> DATモデルのmNAV崩壊メカニズムを扱った基礎記事</li>
+    <li><strong><a href="/ja/blog/strategy-forced-seller-etf-mnav-gap">セイラーの「売らない」が崩れた — ストラテジーは売るのに、ETFとMSTR株価は逆に動く</a>:</strong> 同じmNAVの概念を最大のビットコイントレジャリー企業に当てはめた事例</li>
+    <li><strong><a href="/ja/blog/korea-kosdaq-crypto-treasury-delisting">韓国取引所、コスダック規定を強化 — 暗号資産トレジャリー企業に上場廃止リスク</a>:</strong> トレジャリーのストレスがアジアの上場規定に波及した事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">El Riesgo de Dominó de las Empresas DAT — Cuando el mNAV Cae Bajo 1</a>:</strong> El artículo fundacional sobre el mecanismo de colapso del mNAV en el modelo DAT</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">Se Rompió el 'Nunca Vender' de Saylor — Strategy Vende Mientras los ETF y la Acción de MSTR Van al Revés</a>:</strong> El mismo concepto de mNAV aplicado a la mayor firma de tesorería de Bitcoin</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">La Bolsa de Corea Endurece las Reglas del KOSDAQ y Pone en Riesgo de Exclusión a las Firmas de Tesorería Cripto</a>:</strong> Cómo el estrés de tesorería se extendió a las reglas de cotización en Asia</li>
+    <li><strong><a href="/es/blog/dat-companies-domino-risk">El Riesgo de Dominó de las Empresas DAT — Cuando el mNAV Cae Bajo 1</a>:</strong> El artículo fundacional sobre el mecanismo de colapso del mNAV en el modelo DAT</li>
+    <li><strong><a href="/es/blog/strategy-forced-seller-etf-mnav-gap">Se Rompió el 'Nunca Vender' de Saylor — Strategy Vende Mientras los ETF y la Acción de MSTR Van al Revés</a>:</strong> El mismo concepto de mNAV aplicado a la mayor firma de tesorería de Bitcoin</li>
+    <li><strong><a href="/es/blog/korea-kosdaq-crypto-treasury-delisting">La Bolsa de Corea Endurece las Reglas del KOSDAQ y Pone en Riesgo de Exclusión a las Firmas de Tesorería Cripto</a>:</strong> Cómo el estrés de tesorería se extendió a las reglas de cotización en Asia</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Das Dominorisiko der DAT-Unternehmen — Wenn mNAV unter 1 fällt</a>:</strong> Der Grundlagenartikel zum mNAV-Kollapsmechanismus des DAT-Modells</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">Saylors 'Niemals Verkaufen' Ist Gebrochen — Strategy Verkauft, Während ETFs und die MSTR-Aktie das Gegenteil Tun</a>:</strong> Dasselbe mNAV-Konzept, angewendet auf die größte Bitcoin-Treasury-Firma</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">Koreas Börse verschärft KOSDAQ-Regeln — Krypto-Treasury-Firmen droht Delisting</a>:</strong> Wie sich Treasury-Stress auf asiatische Notierungsregeln ausgeweitet hat</li>
+    <li><strong><a href="/de/blog/dat-companies-domino-risk">Das Dominorisiko der DAT-Unternehmen — Wenn mNAV unter 1 fällt</a>:</strong> Der Grundlagenartikel zum mNAV-Kollapsmechanismus des DAT-Modells</li>
+    <li><strong><a href="/de/blog/strategy-forced-seller-etf-mnav-gap">Saylors 'Niemals Verkaufen' Ist Gebrochen — Strategy Verkauft, Während ETFs und die MSTR-Aktie das Gegenteil Tun</a>:</strong> Dasselbe mNAV-Konzept, angewendet auf die größte Bitcoin-Treasury-Firma</li>
+    <li><strong><a href="/de/blog/korea-kosdaq-crypto-treasury-delisting">Koreas Börse verschärft KOSDAQ-Regeln — Krypto-Treasury-Firmen droht Delisting</a>:</strong> Wie sich Treasury-Stress auf asiatische Notierungsregeln ausgeweitet hat</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Les Entreprises à Effet de Levier Bitcoin Pourraient-elles Être le Prochain Domino</a>:</strong> L'article fondateur sur le mécanisme d'effondrement du mNAV dans le modèle DAT</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">Le 'Ne Jamais Vendre' de Saylor Vient de se Briser — Strategy Vend Pendant que les ETF et l'Action MSTR Font l'Inverse</a>:</strong> Le même concept de mNAV appliqué à la plus grande société de trésorerie Bitcoin</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">La Bourse de Corée Durcit les Règles du KOSDAQ, Exposant les Sociétés de Trésorerie Crypto à un Risque de Radiation</a>:</strong> Comment le stress de trésorerie s'est propagé aux règles de cotation asiatiques</li>
+    <li><strong><a href="/fr/blog/dat-companies-domino-risk">Les Entreprises à Effet de Levier Bitcoin Pourraient-elles Être le Prochain Domino</a>:</strong> L'article fondateur sur le mécanisme d'effondrement du mNAV dans le modèle DAT</li>
+    <li><strong><a href="/fr/blog/strategy-forced-seller-etf-mnav-gap">Le 'Ne Jamais Vendre' de Saylor Vient de se Briser — Strategy Vend Pendant que les ETF et l'Action MSTR Font l'Inverse</a>:</strong> Le même concept de mNAV appliqué à la plus grande société de trésorerie Bitcoin</li>
+    <li><strong><a href="/fr/blog/korea-kosdaq-crypto-treasury-delisting">La Bourse de Corée Durcit les Règles du KOSDAQ, Exposant les Sociétés de Trésorerie Crypto à un Risque de Radiation</a>:</strong> Comment le stress de trésorerie s'est propagé aux règles de cotation asiatiques</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">As Empresas Alavancadas em Bitcoin Poderiam Ser o Próximo Dominó</a>:</strong> O artigo fundamental sobre o mecanismo de colapso do mNAV no modelo DAT</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">O 'Nunca Vender' de Saylor Acabou de Quebrar — A Strategy Vende Enquanto ETFs e a Ação da MSTR Vão na Direção Oposta</a>:</strong> O mesmo conceito de mNAV aplicado à maior empresa de tesouraria de Bitcoin</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">Bolsa da Coreia Aperta Regras da KOSDAQ, Colocando Empresas de Tesouraria Cripto em Risco de Exclusão</a>:</strong> Como o estresse de tesouraria se espalhou para as regras de listagem na Ásia</li>
+    <li><strong><a href="/pt/blog/dat-companies-domino-risk">As Empresas Alavancadas em Bitcoin Poderiam Ser o Próximo Dominó</a>:</strong> O artigo fundamental sobre o mecanismo de colapso do mNAV no modelo DAT</li>
+    <li><strong><a href="/pt/blog/strategy-forced-seller-etf-mnav-gap">O 'Nunca Vender' de Saylor Acabou de Quebrar — A Strategy Vende Enquanto ETFs e a Ação da MSTR Vão na Direção Oposta</a>:</strong> O mesmo conceito de mNAV aplicado à maior empresa de tesouraria de Bitcoin</li>
+    <li><strong><a href="/pt/blog/korea-kosdaq-crypto-treasury-delisting">Bolsa da Coreia Aperta Regras da KOSDAQ, Colocando Empresas de Tesouraria Cripto em Risco de Exclusão</a>:</strong> Como o estresse de tesouraria se espalhou para as regras de listagem na Ásia</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Bitcoin Kaldıraçlı Şirketler Bir Sonraki Domino Olabilir mi</a>:</strong> DAT modelindeki mNAV çöküş mekanizmasını ele alan temel yazı</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">Saylor'ın 'Asla Satma'sı Kırıldı — Strategy Satarken ETF'ler ve MSTR Hissesi Ters Yönde Hareket Ediyor</a>:</strong> Aynı mNAV kavramının en büyük Bitcoin hazine şirketine uygulanması</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">Kore Borsası KOSDAQ Kurallarını Sıkılaştırıyor, Kripto Hazine Şirketlerini Listeden Çıkarılma Riskiyle Karşı Karşıya Bırakıyor</a>:</strong> Hazine stresinin Asya'daki listeleme kurallarına nasıl yayıldığı</li>
+    <li><strong><a href="/tr/blog/dat-companies-domino-risk">Bitcoin Kaldıraçlı Şirketler Bir Sonraki Domino Olabilir mi</a>:</strong> DAT modelindeki mNAV çöküş mekanizmasını ele alan temel yazı</li>
+    <li><strong><a href="/tr/blog/strategy-forced-seller-etf-mnav-gap">Saylor'ın 'Asla Satma'sı Kırıldı — Strategy Satarken ETF'ler ve MSTR Hissesi Ters Yönde Hareket Ediyor</a>:</strong> Aynı mNAV kavramının en büyük Bitcoin hazine şirketine uygulanması</li>
+    <li><strong><a href="/tr/blog/korea-kosdaq-crypto-treasury-delisting">Kore Borsası KOSDAQ Kurallarını Sıkılaştırıyor, Kripto Hazine Şirketlerini Listeden Çıkarılma Riskiyle Karşı Karşıya Bırakıyor</a>:</strong> Hazine stresinin Asya'daki listeleme kurallarına nasıl yayıldığı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/dat-companies-domino-risk.php">Liệu Các Công Ty Đòn Bẩy Bitcoin Có Thể Là Quân Domino Tiếp Theo</a>:</strong> Bài viết nền tảng về cơ chế sụp đổ mNAV trong mô hình DAT</li>
-    <li><strong><a href="/blog/strategy-forced-seller-etf-mnav-gap.php">Nguyên Tắc 'Không Bao Giờ Bán' của Saylor Vừa Sụp Đổ — Strategy Đang Bán Trong Khi ETF và Cổ Phiếu MSTR Lại Đi Ngược Chiều</a>:</strong> Cùng khái niệm mNAV áp dụng cho công ty kho bạc Bitcoin lớn nhất</li>
-    <li><strong><a href="/blog/korea-kosdaq-crypto-treasury-delisting.php">Sàn Giao Dịch Hàn Quốc Siết Chặt Quy Định KOSDAQ, Đẩy Các Công Ty Kho Bạc Tiền Mã Hóa Vào Rủi Ro Hủy Niêm Yết</a>:</strong> Áp lực kho bạc đã lan sang các quy định niêm yết ở châu Á như thế nào</li>
+    <li><strong><a href="/vi/blog/dat-companies-domino-risk">Liệu Các Công Ty Đòn Bẩy Bitcoin Có Thể Là Quân Domino Tiếp Theo</a>:</strong> Bài viết nền tảng về cơ chế sụp đổ mNAV trong mô hình DAT</li>
+    <li><strong><a href="/vi/blog/strategy-forced-seller-etf-mnav-gap">Nguyên Tắc 'Không Bao Giờ Bán' của Saylor Vừa Sụp Đổ — Strategy Đang Bán Trong Khi ETF và Cổ Phiếu MSTR Lại Đi Ngược Chiều</a>:</strong> Cùng khái niệm mNAV áp dụng cho công ty kho bạc Bitcoin lớn nhất</li>
+    <li><strong><a href="/vi/blog/korea-kosdaq-crypto-treasury-delisting">Sàn Giao Dịch Hàn Quốc Siết Chặt Quy Định KOSDAQ, Đẩy Các Công Ty Kho Bạc Tiền Mã Hóa Vào Rủi Ro Hủy Niêm Yết</a>:</strong> Áp lực kho bạc đã lan sang các quy định niêm yết ở châu Á như thế nào</li>
   </ul>
 
   <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: crypto.news, The Block, CryptoBriefing, KuCoin 플래시뉴스, AVAX 원 테크놀로지·아발란체 트레저리 SEC 공시. 수치는 각 매체 보도 및 공시 시점 기준이며 변경될 수 있다. 이 글은 투자 조언이 아니다.</p>

@@ -341,40 +341,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">리플, 룩셈부르크 MiCA 정식 라이선스 취득</a>:</strong> 같은 신뢰 구축 흐름 위에 있는 규제 측면의 앞선 행보 확인하기</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">리플-은행 파트너십 확대</a>:</strong> 리플이 소비자 대상이 아닌 기관·은행 채널을 통해 신뢰를 쌓아온 배경 살펴보기</li>
+    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg">리플, 룩셈부르크 MiCA 정식 라이선스 취득</a>:</strong> 같은 신뢰 구축 흐름 위에 있는 규제 측면의 앞선 행보 확인하기</li>
+    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion">리플-은행 파트너십 확대</a>:</strong> 리플이 소비자 대상이 아닌 기관·은행 채널을 통해 신뢰를 쌓아온 배경 살펴보기</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Secures Full MiCA License in Luxembourg</a>:</strong> The regulatory leg of the same trust-building pattern, one step earlier</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">Ripple's Expanding Bank Partnerships</a>:</strong> How Ripple has built trust through institutional and banking channels rather than retail marketing</li>
+    <li><strong><a href="/en/blog/ripple-mica-casp-full-license-luxembourg">Ripple Secures Full MiCA License in Luxembourg</a>:</strong> The regulatory leg of the same trust-building pattern, one step earlier</li>
+    <li><strong><a href="/en/blog/ripple-xrp-bank-partnership-expansion">Ripple's Expanding Bank Partnerships</a>:</strong> How Ripple has built trust through institutional and banking channels rather than retail marketing</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">リップル、ルクセンブルクでMiCA正式ライセンス取得</a>:</strong> 同じ信頼構築の流れにある、一足早い規制面での動きを確認する</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">リップル・銀行パートナーシップの拡大</a>:</strong> リップルが消費者向けではなく機関・銀行チャネルを通じて信頼を築いてきた背景を見る</li>
+    <li><strong><a href="/ja/blog/ripple-mica-casp-full-license-luxembourg">リップル、ルクセンブルクでMiCA正式ライセンス取得</a>:</strong> 同じ信頼構築の流れにある、一足早い規制面での動きを確認する</li>
+    <li><strong><a href="/ja/blog/ripple-xrp-bank-partnership-expansion">リップル・銀行パートナーシップの拡大</a>:</strong> リップルが消費者向けではなく機関・銀行チャネルを通じて信頼を築いてきた背景を見る</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Obtiene la Licencia MiCA Completa en Luxemburgo</a>:</strong> El lado regulatorio del mismo patrón de construcción de confianza, un paso antes</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">La Expansión de las Asociaciones Bancarias de Ripple</a>:</strong> Cómo Ripple ha construido confianza a través de canales institucionales y bancarios en lugar de marketing minorista</li>
+    <li><strong><a href="/es/blog/ripple-mica-casp-full-license-luxembourg">Ripple Obtiene la Licencia MiCA Completa en Luxemburgo</a>:</strong> El lado regulatorio del mismo patrón de construcción de confianza, un paso antes</li>
+    <li><strong><a href="/es/blog/ripple-xrp-bank-partnership-expansion">La Expansión de las Asociaciones Bancarias de Ripple</a>:</strong> Cómo Ripple ha construido confianza a través de canales institucionales y bancarios en lugar de marketing minorista</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Sichert Sich Volle MiCA-Lizenz in Luxemburg</a>:</strong> Der regulatorische Teil desselben Vertrauensaufbau-Musters, einen Schritt früher</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">Ripples Wachsende Bankpartnerschaften</a>:</strong> Wie Ripple Vertrauen über institutionelle und Bankkanäle statt über Privatkunden-Marketing aufgebaut hat</li>
+    <li><strong><a href="/de/blog/ripple-mica-casp-full-license-luxembourg">Ripple Sichert Sich Volle MiCA-Lizenz in Luxemburg</a>:</strong> Der regulatorische Teil desselben Vertrauensaufbau-Musters, einen Schritt früher</li>
+    <li><strong><a href="/de/blog/ripple-xrp-bank-partnership-expansion">Ripples Wachsende Bankpartnerschaften</a>:</strong> Wie Ripple Vertrauen über institutionelle und Bankkanäle statt über Privatkunden-Marketing aufgebaut hat</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Obtient la Licence MiCA Complète au Luxembourg</a> :</strong> Le volet réglementaire du même schéma de construction de confiance, une étape plus tôt</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">L'Expansion des Partenariats Bancaires de Ripple</a> :</strong> Comment Ripple a construit la confiance via des canaux institutionnels et bancaires plutôt que le marketing grand public</li>
+    <li><strong><a href="/fr/blog/ripple-mica-casp-full-license-luxembourg">Ripple Obtient la Licence MiCA Complète au Luxembourg</a> :</strong> Le volet réglementaire du même schéma de construction de confiance, une étape plus tôt</li>
+    <li><strong><a href="/fr/blog/ripple-xrp-bank-partnership-expansion">L'Expansion des Partenariats Bancaires de Ripple</a> :</strong> Comment Ripple a construit la confiance via des canaux institutionnels et bancaires plutôt que le marketing grand public</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Garante Licença MiCA Completa em Luxemburgo</a>:</strong> O lado regulatório do mesmo padrão de construção de confiança, um passo antes</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">A Expansão das Parcerias Bancárias da Ripple</a>:</strong> Como a Ripple construiu confiança por canais institucionais e bancários em vez de marketing de varejo</li>
+    <li><strong><a href="/pt/blog/ripple-mica-casp-full-license-luxembourg">Ripple Garante Licença MiCA Completa em Luxemburgo</a>:</strong> O lado regulatório do mesmo padrão de construção de confiança, um passo antes</li>
+    <li><strong><a href="/pt/blog/ripple-xrp-bank-partnership-expansion">A Expansão das Parcerias Bancárias da Ripple</a>:</strong> Como a Ripple construiu confiança por canais institucionais e bancários em vez de marketing de varejo</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple, Lüksemburg'da Tam MiCA Lisansı Alıyor</a>:</strong> Aynı güven inşa etme modelinin bir adım önceki düzenleyici bacağı</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">Ripple'ın Genişleyen Banka Ortaklıkları</a>:</strong> Ripple'ın perakende pazarlama yerine kurumsal ve bankacılık kanalları üzerinden nasıl güven inşa ettiği</li>
+    <li><strong><a href="/tr/blog/ripple-mica-casp-full-license-luxembourg">Ripple, Lüksemburg'da Tam MiCA Lisansı Alıyor</a>:</strong> Aynı güven inşa etme modelinin bir adım önceki düzenleyici bacağı</li>
+    <li><strong><a href="/tr/blog/ripple-xrp-bank-partnership-expansion">Ripple'ın Genişleyen Banka Ortaklıkları</a>:</strong> Ripple'ın perakende pazarlama yerine kurumsal ve bankacılık kanalları üzerinden nasıl güven inşa ettiği</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg.php">Ripple Giành Giấy Phép MiCA Đầy Đủ Tại Luxembourg</a>:</strong> Khía cạnh pháp lý của cùng mô hình xây dựng niềm tin, một bước trước đó</li>
-    <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion.php">Sự Mở Rộng Quan Hệ Đối Tác Ngân Hàng Của Ripple</a>:</strong> Cách Ripple xây dựng niềm tin qua các kênh tổ chức và ngân hàng thay vì tiếp thị bán lẻ</li>
+    <li><strong><a href="/vi/blog/ripple-mica-casp-full-license-luxembourg">Ripple Giành Giấy Phép MiCA Đầy Đủ Tại Luxembourg</a>:</strong> Khía cạnh pháp lý của cùng mô hình xây dựng niềm tin, một bước trước đó</li>
+    <li><strong><a href="/vi/blog/ripple-xrp-bank-partnership-expansion">Sự Mở Rộng Quan Hệ Đối Tác Ngân Hàng Của Ripple</a>:</strong> Cách Ripple xây dựng niềm tin qua các kênh tổ chức và ngân hàng thay vì tiếp thị bán lẻ</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: KCTV5, 더블록, 온3(On3), 247스포츠, 뉴스BTC, 스톡트위츠(2026년 7월 8~9일 보도), 캔자스대 애슬레틱스 및 리플 발표 자료, BTCtiming.com 자체 분석. 계약 금액 등 세부 수치는 공식 공개되지 않았으며 보도 인용 시점 기준이다. 본 글은 투자 조언이 아니다.</p>

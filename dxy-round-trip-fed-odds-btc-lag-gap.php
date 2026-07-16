@@ -476,58 +476,58 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">글로벌 M2는 사상 최대 속도로 불어나는데 — 비트코인은 여전히 사상 최고가의 반토막이다</a>:</strong> 유동성이라는 더 넓은 매크로 배경을 짚은 글</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 반등을 촉발한 고용지표·크라우드 심리를 다룬 글</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">비트코인의 세 나침반이 서로 다른 곳을 가리킨다 — 나스닥·금은 깨지고 달러만 '정상' 복귀</a>:</strong> 같은 주 달러와의 상관관계 자체를 다룬 글</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 7월 8일 지정학 충격 당시의 파생시장 포지셔닝을 다룬 글</li>
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap">글로벌 M2는 사상 최대 속도로 불어나는데 — 비트코인은 여전히 사상 최고가의 반토막이다</a>:</strong> 유동성이라는 더 넓은 매크로 배경을 짚은 글</li>
+    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap">비트코인·이더리움 동반 반등에도 공포탐욕지수는 더 내려갔다</a>:</strong> 이번 반등을 촉발한 고용지표·크라우드 심리를 다룬 글</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap">비트코인의 세 나침반이 서로 다른 곳을 가리킨다 — 나스닥·금은 깨지고 달러만 '정상' 복귀</a>:</strong> 같은 주 달러와의 상관관계 자체를 다룬 글</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 7월 8일 지정학 충격 당시의 파생시장 포지셔닝을 다룬 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Global M2 Is Expanding at a Record Pace — Bitcoin Is Still Half Its All-Time High</a>:</strong> The broader liquidity backdrop behind this macro narrative</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The jobs-data trigger and crowd sentiment behind this bounce</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin's Three Compasses Point in Three Directions — Nasdaq and Gold Break Down, Only the Dollar Comes Back to 'Normal'</a>:</strong> The correlation regime with the dollar itself, same week</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> Derivatives positioning during the July 8 geopolitical shock</li>
+    <li><strong><a href="/en/blog/global-m2-liquidity-decoupling-gap">Global M2 Is Expanding at a Record Pace — Bitcoin Is Still Half Its All-Time High</a>:</strong> The broader liquidity backdrop behind this macro narrative</li>
+    <li><strong><a href="/en/blog/quiet-rebound-sentiment-attention-gap">Bitcoin and Ethereum Bounced Together, Yet the Fear & Greed Index Fell Further</a>:</strong> The jobs-data trigger and crowd sentiment behind this bounce</li>
+    <li><strong><a href="/en/blog/correlation-vacuum-oi-gap">Bitcoin's Three Compasses Point in Three Directions — Nasdaq and Gold Break Down, Only the Dollar Comes Back to 'Normal'</a>:</strong> The correlation regime with the dollar itself, same week</li>
+    <li><strong><a href="/en/blog/iran-shock-derivatives-positioning-gap">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> Derivatives positioning during the July 8 geopolitical shock</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">グローバルM2は史上最速で膨らむのに — ビットコインはいまだ史上最高値の半分だ</a>:</strong> このマクロ物語の背景にある、より広い流動性の状況を扱った記事</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この反発の引き金となった雇用統計と大衆心理を扱った記事</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ビットコインの三つの羅針盤がバラバラを指す — ナスダック・金は崩れ、ドルだけが「正常」に戻った</a>:</strong> 同じ週のドルとの相関そのものを扱った記事</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> 7月8日の地政学ショック時のデリバティブ市場ポジショニングを扱った記事</li>
+    <li><strong><a href="/ja/blog/global-m2-liquidity-decoupling-gap">グローバルM2は史上最速で膨らむのに — ビットコインはいまだ史上最高値の半分だ</a>:</strong> このマクロ物語の背景にある、より広い流動性の状況を扱った記事</li>
+    <li><strong><a href="/ja/blog/quiet-rebound-sentiment-attention-gap">ビットコイン・イーサリアム同時反発でも恐怖強欲指数はさらに下落</a>:</strong> この反発の引き金となった雇用統計と大衆心理を扱った記事</li>
+    <li><strong><a href="/ja/blog/correlation-vacuum-oi-gap">ビットコインの三つの羅針盤がバラバラを指す — ナスダック・金は崩れ、ドルだけが「正常」に戻った</a>:</strong> 同じ週のドルとの相関そのものを扱った記事</li>
+    <li><strong><a href="/ja/blog/iran-shock-derivatives-positioning-gap">イラン発ショックで金まで売られた — しかしビットコイン・デリバティブ市場はロングに偏っていなかった</a>:</strong> 7月8日の地政学ショック時のデリバティブ市場ポジショニングを扱った記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">La M2 Global se Expande a un Ritmo Récord — Bitcoin Sigue en la Mitad de su Máximo Histórico</a>:</strong> El trasfondo más amplio de liquidez detrás de esta narrativa macro</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> El detonante de los datos de empleo y el sentimiento de la multitud detrás de este rebote</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas — Nasdaq y Oro se Rompen, Solo el Dólar Vuelve a lo 'Normal'</a>:</strong> El régimen de correlación con el propio dólar, la misma semana</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> El posicionamiento en derivados durante el shock geopolítico del 8 de julio</li>
+    <li><strong><a href="/es/blog/global-m2-liquidity-decoupling-gap">La M2 Global se Expande a un Ritmo Récord — Bitcoin Sigue en la Mitad de su Máximo Histórico</a>:</strong> El trasfondo más amplio de liquidez detrás de esta narrativa macro</li>
+    <li><strong><a href="/es/blog/quiet-rebound-sentiment-attention-gap">Bitcoin y Ethereum Rebotaron Juntos, Pero el Índice de Miedo y Codicia Cayó Más</a>:</strong> El detonante de los datos de empleo y el sentimiento de la multitud detrás de este rebote</li>
+    <li><strong><a href="/es/blog/correlation-vacuum-oi-gap">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas — Nasdaq y Oro se Rompen, Solo el Dólar Vuelve a lo 'Normal'</a>:</strong> El régimen de correlación con el propio dólar, la misma semana</li>
+    <li><strong><a href="/es/blog/iran-shock-derivatives-positioning-gap">Hasta el Oro Cayó en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Abarrotado de Posiciones Largas</a>:</strong> El posicionamiento en derivados durante el shock geopolítico del 8 de julio</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Die Globale M2 Wächst in Rekordtempo — Bitcoin Liegt Noch Immer bei der Hälfte Seines Allzeithochs</a>:</strong> Der breitere Liquiditätshintergrund hinter dieser Makro-Erzählung</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Der Arbeitsmarktdaten-Auslöser und die Stimmung der Masse hinter dieser Erholung</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoins Drei Kompasse Zeigen in Drei Richtungen — Nasdaq und Gold Brechen Weg, Nur der Dollar Kehrt zur 'Normalität' Zurück</a>:</strong> Das Korrelationsregime mit dem Dollar selbst, dieselbe Woche</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Derivate-Positionierung während des geopolitischen Schocks am 8. Juli</li>
+    <li><strong><a href="/de/blog/global-m2-liquidity-decoupling-gap">Die Globale M2 Wächst in Rekordtempo — Bitcoin Liegt Noch Immer bei der Hälfte Seines Allzeithochs</a>:</strong> Der breitere Liquiditätshintergrund hinter dieser Makro-Erzählung</li>
+    <li><strong><a href="/de/blog/quiet-rebound-sentiment-attention-gap">Bitcoin und Ethereum Erholten Sich Gemeinsam, Doch der Fear-&-Greed-Index Fiel Weiter</a>:</strong> Der Arbeitsmarktdaten-Auslöser und die Stimmung der Masse hinter dieser Erholung</li>
+    <li><strong><a href="/de/blog/correlation-vacuum-oi-gap">Bitcoins Drei Kompasse Zeigen in Drei Richtungen — Nasdaq und Gold Brechen Weg, Nur der Dollar Kehrt zur 'Normalität' Zurück</a>:</strong> Das Korrelationsregime mit dem Dollar selbst, dieselbe Woche</li>
+    <li><strong><a href="/de/blog/iran-shock-derivatives-positioning-gap">Selbst Gold Verkaufte Sich Im Iran-Schock Ab — Doch Bitcoins Derivatemarkt War Nicht Long-Überfüllt</a>:</strong> Derivate-Positionierung während des geopolitischen Schocks am 8. Juli</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">La M2 Mondiale se Développe à un Rythme Record — le Bitcoin Reste à la Moitié de son Sommet Historique</a>:</strong> La toile de fond de liquidité plus large derrière ce récit macro</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> Le déclencheur des données d'emploi et le sentiment de la foule derrière ce rebond</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions — Nasdaq et Or Décrochent, Seul le Dollar Redevient 'Normal'</a>:</strong> Le régime de corrélation avec le dollar lui-même, la même semaine</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a>:</strong> Le positionnement en dérivés pendant le choc géopolitique du 8 juillet</li>
+    <li><strong><a href="/fr/blog/global-m2-liquidity-decoupling-gap">La M2 Mondiale se Développe à un Rythme Record — le Bitcoin Reste à la Moitié de son Sommet Historique</a>:</strong> La toile de fond de liquidité plus large derrière ce récit macro</li>
+    <li><strong><a href="/fr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin et Ethereum ont Rebondi Ensemble, Pourtant l'Indice Fear & Greed a Encore Reculé</a>:</strong> Le déclencheur des données d'emploi et le sentiment de la foule derrière ce rebond</li>
+    <li><strong><a href="/fr/blog/correlation-vacuum-oi-gap">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions — Nasdaq et Or Décrochent, Seul le Dollar Redevient 'Normal'</a>:</strong> Le régime de corrélation avec le dollar lui-même, la même semaine</li>
+    <li><strong><a href="/fr/blog/iran-shock-derivatives-positioning-gap">Même l'Or a Chuté Dans le Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Encombré de Long</a>:</strong> Le positionnement en dérivés pendant le choc géopolitique du 8 juillet</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">A M2 Global Está se Expandindo em Ritmo Recorde — o Bitcoin Ainda Está na Metade de sua Máxima Histórica</a>:</strong> O pano de fundo de liquidez mais amplo por trás dessa narrativa macro</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> O gatilho dos dados de emprego e o sentimento da multidão por trás desse repique</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">As Três Bússolas do Bitcoin Apontam em Três Direções — Nasdaq e Ouro se Rompem, Só o Dólar Volta ao 'Normal'</a>:</strong> O regime de correlação com o próprio dólar, na mesma semana</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> O posicionamento em derivativos durante o choque geopolítico de 8 de julho</li>
+    <li><strong><a href="/pt/blog/global-m2-liquidity-decoupling-gap">A M2 Global Está se Expandindo em Ritmo Recorde — o Bitcoin Ainda Está na Metade de sua Máxima Histórica</a>:</strong> O pano de fundo de liquidez mais amplo por trás dessa narrativa macro</li>
+    <li><strong><a href="/pt/blog/quiet-rebound-sentiment-attention-gap">Bitcoin e Ethereum Repicaram Juntos, Mas o Índice de Medo e Ganância Caiu Mais</a>:</strong> O gatilho dos dados de emprego e o sentimento da multidão por trás desse repique</li>
+    <li><strong><a href="/pt/blog/correlation-vacuum-oi-gap">As Três Bússolas do Bitcoin Apontam em Três Direções — Nasdaq e Ouro se Rompem, Só o Dólar Volta ao 'Normal'</a>:</strong> O regime de correlação com o próprio dólar, na mesma semana</li>
+    <li><strong><a href="/pt/blog/iran-shock-derivatives-positioning-gap">Até o Ouro Caiu no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Compras</a>:</strong> O posicionamento em derivativos durante o choque geopolítico de 8 de julho</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Küresel M2 Rekor Hızda Genişliyor — Bitcoin Hâlâ Tüm Zamanların Zirvesinin Yarısında</a>:</strong> Bu makro anlatının arkasındaki daha geniş likidite arka planı</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yükselişin arkasındaki istihdam verisi tetikleyicisi ve kalabalık psikolojisi</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor — Nasdaq ve Altın Kırılıyor, Sadece Dolar 'Normale' Dönüyor</a>:</strong> Aynı haftada doların kendisiyle olan korelasyon rejimi</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> 8 Temmuz'daki jeopolitik şok sırasındaki türev piyasası konumlanması</li>
+    <li><strong><a href="/tr/blog/global-m2-liquidity-decoupling-gap">Küresel M2 Rekor Hızda Genişliyor — Bitcoin Hâlâ Tüm Zamanların Zirvesinin Yarısında</a>:</strong> Bu makro anlatının arkasındaki daha geniş likidite arka planı</li>
+    <li><strong><a href="/tr/blog/quiet-rebound-sentiment-attention-gap">Bitcoin ve Ethereum Birlikte Toparlandı, Ama Korku ve Açgözlülük Endeksi Daha da Düştü</a>:</strong> Bu yükselişin arkasındaki istihdam verisi tetikleyicisi ve kalabalık psikolojisi</li>
+    <li><strong><a href="/tr/blog/correlation-vacuum-oi-gap">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor — Nasdaq ve Altın Kırılıyor, Sadece Dolar 'Normale' Dönüyor</a>:</strong> Aynı haftada doların kendisiyle olan korelasyon rejimi</li>
+    <li><strong><a href="/tr/blog/iran-shock-derivatives-positioning-gap">İran Şokunda Altın Bile Satıldı — Ama Bitcoin'in Türev Piyasası Long'a Sıkışmamıştı</a>:</strong> 8 Temmuz'daki jeopolitik şok sırasındaki türev piyasası konumlanması</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">M2 Toàn Cầu Đang Mở Rộng Với Tốc Độ Kỷ Lục — Bitcoin Vẫn Chỉ Bằng Một Nửa Đỉnh Lịch Sử</a>:</strong> Bối cảnh thanh khoản rộng hơn đằng sau câu chuyện vĩ mô này</li>
-    <li><strong><a href="/blog/quiet-rebound-sentiment-attention-gap.php">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Chất xúc tác từ dữ liệu việc làm và tâm lý đám đông đằng sau đợt phục hồi này</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau — Nasdaq và Vàng Đứt Gãy, Chỉ Đồng Đô La Trở Lại 'Bình Thường'</a>:</strong> Chế độ tương quan với chính đồng đô la, cùng tuần</li>
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Vị thế phái sinh trong cú sốc địa chính trị ngày 8/7</li>
+    <li><strong><a href="/vi/blog/global-m2-liquidity-decoupling-gap">M2 Toàn Cầu Đang Mở Rộng Với Tốc Độ Kỷ Lục — Bitcoin Vẫn Chỉ Bằng Một Nửa Đỉnh Lịch Sử</a>:</strong> Bối cảnh thanh khoản rộng hơn đằng sau câu chuyện vĩ mô này</li>
+    <li><strong><a href="/vi/blog/quiet-rebound-sentiment-attention-gap">Bitcoin và Ethereum Cùng Phục Hồi, Nhưng Chỉ Số Sợ Hãi & Tham Lam Lại Giảm Sâu Hơn</a>:</strong> Chất xúc tác từ dữ liệu việc làm và tâm lý đám đông đằng sau đợt phục hồi này</li>
+    <li><strong><a href="/vi/blog/correlation-vacuum-oi-gap">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau — Nasdaq và Vàng Đứt Gãy, Chỉ Đồng Đô La Trở Lại 'Bình Thường'</a>:</strong> Chế độ tương quan với chính đồng đô la, cùng tuần</li>
+    <li><strong><a href="/vi/blog/iran-shock-derivatives-positioning-gap">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Chật Cứng Vị Thế Mua</a>:</strong> Vị thế phái sinh trong cú sốc địa chính trị ngày 8/7</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CME Group·CME FedWatch(연준 금리 인하 확률), Investing.com·TradingEconomics·Vantage Markets·ICE(달러인덱스 DXY), FRED·미국 재무부(10년물 국채금리), Yahoo Finance·TheStreet·Fortune·CoinGecko(비트코인 가격·24시간 변동), CoinGlass(선물 미결제약정·펀딩비), Farside Investors·SoSoValue(현물 ETF 자금흐름), Alternative.me·CFGI(공포탐욕지수), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

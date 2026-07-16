@@ -502,76 +502,76 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 오늘 저점을 만든 지정학 충격과 파생 포지셔닝</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">고용 둔화·2년 기대인플레 2% 붕괴 — 비트코인, 3월 이후 최고의 한 주</a>:</strong> 이번 반등을 이끈 거시 재평가</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">일본 국채금리 30년래 최고치…엔캐리 청산 리스크</a>:</strong> 또 다른 신용·금리발 리스크 채널</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">AI·반도체로 쏠린 돈, 비트코인에겐 무슨 뜻인가</a>:</strong> 이 글의 ETP→AI ETF 로테이션 배경</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 나스닥·금·달러와의 상관관계 점검</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">글로벌 M2는 사상 최대 속도로 불어나는데 — 비트코인은 반토막</a>:</strong> 또 다른 거시 유동성 괴리</li>
+    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap">이란발 충격에 금까지 팔렸다 — 그런데 비트코인 파생시장은 롱에 쏠려 있지 않았다</a>:</strong> 오늘 저점을 만든 지정학 충격과 파생 포지셔닝</li>
+    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing">고용 둔화·2년 기대인플레 2% 붕괴 — 비트코인, 3월 이후 최고의 한 주</a>:</strong> 이번 반등을 이끈 거시 재평가</li>
+    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk">일본 국채금리 30년래 최고치…엔캐리 청산 리스크</a>:</strong> 또 다른 신용·금리발 리스크 채널</li>
+    <li><strong><a href="/blog/capital-rotation-ai-semiconductors">AI·반도체로 쏠린 돈, 비트코인에겐 무슨 뜻인가</a>:</strong> 이 글의 ETP→AI ETF 로테이션 배경</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 나스닥·금·달러와의 상관관계 점검</li>
+    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap">글로벌 M2는 사상 최대 속도로 불어나는데 — 비트코인은 반토막</a>:</strong> 또 다른 거시 유동성 괴리</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> The geopolitical shock and derivatives positioning behind today's low</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">Cooling Jobs and a Sub-2% Inflation Breakeven — Bitcoin's Best Week Since March</a>:</strong> The macro repricing driving this bounce</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Japan's Bond Yields Hit a 30-Year High — Is a Yen Carry Trade Unwind the Next Threat?</a>:</strong> Another credit- and rate-driven risk channel</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">Capital Is Flowing Into AI and Chips — What That Means for Bitcoin</a>:</strong> The background on this piece's ETP-to-AI-ETF rotation</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> Checking correlations with Nasdaq, gold, and the dollar</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Global M2 Is Expanding at a Record Pace — Bitcoin Is Still Half Its ATH</a>:</strong> Another macro-liquidity gap</li>
+    <li><strong><a href="/en/blog/iran-shock-derivatives-positioning-gap">Even Gold Sold Off in the Iran Shock — But Bitcoin's Derivatives Market Wasn't Crowded Long</a>:</strong> The geopolitical shock and derivatives positioning behind today's low</li>
+    <li><strong><a href="/en/blog/payrolls-miss-inflation-breakeven-fed-repricing">Cooling Jobs and a Sub-2% Inflation Breakeven — Bitcoin's Best Week Since March</a>:</strong> The macro repricing driving this bounce</li>
+    <li><strong><a href="/en/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Japan's Bond Yields Hit a 30-Year High — Is a Yen Carry Trade Unwind the Next Threat?</a>:</strong> Another credit- and rate-driven risk channel</li>
+    <li><strong><a href="/en/blog/capital-rotation-ai-semiconductors">Capital Is Flowing Into AI and Chips — What That Means for Bitcoin</a>:</strong> The background on this piece's ETP-to-AI-ETF rotation</li>
+    <li><strong><a href="/en/blog/correlation-vacuum-oi-gap">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> Checking correlations with Nasdaq, gold, and the dollar</li>
+    <li><strong><a href="/en/blog/global-m2-liquidity-decoupling-gap">Global M2 Is Expanding at a Record Pace — Bitcoin Is Still Half Its ATH</a>:</strong> Another macro-liquidity gap</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">イラン発の衝撃で金まで売られた — しかしビットコインのデリバティブ市場はロングに偏っていなかった</a>:</strong> 今日の安値を作った地政学ショックと派生ポジショニング</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">雇用鈍化・2年期待インフレ2%割れ — ビットコイン、3月以来最高の一週間</a>:</strong> 今回の反発を導いたマクロ再評価</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">日本国債利回り30年ぶり高値…円キャリー解消リスク</a>:</strong> もう一つの信用・金利発リスクチャネル</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">AI・半導体に向かう資金、ビットコインへの意味</a>:</strong> 本記事のETP→AI ETFローテーションの背景</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ビットコインの三つの羅針盤が別々の方向を指す</a>:</strong> ナスダック・金・ドルとの相関点検</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">グローバルM2は過去最速で膨張するが — ビットコインは史上最高値の半分</a>:</strong> もう一つのマクロ流動性の乖離</li>
+    <li><strong><a href="/ja/blog/iran-shock-derivatives-positioning-gap">イラン発の衝撃で金まで売られた — しかしビットコインのデリバティブ市場はロングに偏っていなかった</a>:</strong> 今日の安値を作った地政学ショックと派生ポジショニング</li>
+    <li><strong><a href="/ja/blog/payrolls-miss-inflation-breakeven-fed-repricing">雇用鈍化・2年期待インフレ2%割れ — ビットコイン、3月以来最高の一週間</a>:</strong> 今回の反発を導いたマクロ再評価</li>
+    <li><strong><a href="/ja/blog/japan-jgb-yield-carry-trade-bitcoin-risk">日本国債利回り30年ぶり高値…円キャリー解消リスク</a>:</strong> もう一つの信用・金利発リスクチャネル</li>
+    <li><strong><a href="/ja/blog/capital-rotation-ai-semiconductors">AI・半導体に向かう資金、ビットコインへの意味</a>:</strong> 本記事のETP→AI ETFローテーションの背景</li>
+    <li><strong><a href="/ja/blog/correlation-vacuum-oi-gap">ビットコインの三つの羅針盤が別々の方向を指す</a>:</strong> ナスダック・金・ドルとの相関点検</li>
+    <li><strong><a href="/ja/blog/global-m2-liquidity-decoupling-gap">グローバルM2は過去最速で膨張するが — ビットコインは史上最高値の半分</a>:</strong> もう一つのマクロ流動性の乖離</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Hasta el Oro Se Vendió en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Cargado de Largos</a>:</strong> El shock geopolítico y el posicionamiento en derivados detrás del mínimo de hoy</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">Enfriamiento del Empleo y Break-even de Inflación Bajo el 2% — La Mejor Semana de Bitcoin Desde Marzo</a>:</strong> El reajuste macro detrás de este rebote</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Los Rendimientos de los Bonos de Japón Tocan un Máximo de 30 Años</a>:</strong> Otro canal de riesgo crediticio y de tipos</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">El Capital Está Fluyendo Hacia la IA y los Chips</a>:</strong> El trasfondo de la rotación ETP-a-ETF de IA de este artículo</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Las Tres Brújulas de Bitcoin Apuntan en Tres Direcciones</a>:</strong> Revisando las correlaciones con Nasdaq, oro y dólar</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">La M2 Global Se Expande a un Ritmo Récord — Bitcoin Sigue en la Mitad de Su Máximo Histórico</a>:</strong> Otra brecha de liquidez macro</li>
+    <li><strong><a href="/es/blog/iran-shock-derivatives-positioning-gap">Hasta el Oro Se Vendió en el Shock de Irán — Pero el Mercado de Derivados de Bitcoin No Estaba Cargado de Largos</a>:</strong> El shock geopolítico y el posicionamiento en derivados detrás del mínimo de hoy</li>
+    <li><strong><a href="/es/blog/payrolls-miss-inflation-breakeven-fed-repricing">Enfriamiento del Empleo y Break-even de Inflación Bajo el 2% — La Mejor Semana de Bitcoin Desde Marzo</a>:</strong> El reajuste macro detrás de este rebote</li>
+    <li><strong><a href="/es/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Los Rendimientos de los Bonos de Japón Tocan un Máximo de 30 Años</a>:</strong> Otro canal de riesgo crediticio y de tipos</li>
+    <li><strong><a href="/es/blog/capital-rotation-ai-semiconductors">El Capital Está Fluyendo Hacia la IA y los Chips</a>:</strong> El trasfondo de la rotación ETP-a-ETF de IA de este artículo</li>
+    <li><strong><a href="/es/blog/correlation-vacuum-oi-gap">Las Tres Brújulas de Bitcoin Apuntan en Tres Direcciones</a>:</strong> Revisando las correlaciones con Nasdaq, oro y dólar</li>
+    <li><strong><a href="/es/blog/global-m2-liquidity-decoupling-gap">La M2 Global Se Expande a un Ritmo Récord — Bitcoin Sigue en la Mitad de Su Máximo Histórico</a>:</strong> Otra brecha de liquidez macro</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Selbst Gold Wurde Beim Iran-Schock Verkauft — Doch Bitcoins Derivatemarkt War Nicht Long Überfüllt</a>:</strong> Der geopolitische Schock und das Derivate-Positioning hinter dem heutigen Tief</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">Abkühlende Jobs und Eine Inflations-Breakeven Unter 2% — Bitcoins Beste Woche Seit März</a>:</strong> Die makroökonomische Neubewertung hinter dieser Erholung</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Japans Anleiherenditen Erreichen ein 30-Jahres-Hoch</a>:</strong> Ein weiterer kredit- und zinsgetriebener Risikokanal</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">Kapital Fließt in KI und Chips</a>:</strong> Der Hintergrund zur ETP-zu-KI-ETF-Rotation in diesem Beitrag</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Korrelationen mit Nasdaq, Gold und Dollar im Check</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Die Globale M2 Wächst so Schnell wie Nie — Bitcoin Bleibt bei der Hälfte Seines Allzeithochs</a>:</strong> Eine weitere Makro-Liquiditätslücke</li>
+    <li><strong><a href="/de/blog/iran-shock-derivatives-positioning-gap">Selbst Gold Wurde Beim Iran-Schock Verkauft — Doch Bitcoins Derivatemarkt War Nicht Long Überfüllt</a>:</strong> Der geopolitische Schock und das Derivate-Positioning hinter dem heutigen Tief</li>
+    <li><strong><a href="/de/blog/payrolls-miss-inflation-breakeven-fed-repricing">Abkühlende Jobs und Eine Inflations-Breakeven Unter 2% — Bitcoins Beste Woche Seit März</a>:</strong> Die makroökonomische Neubewertung hinter dieser Erholung</li>
+    <li><strong><a href="/de/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Japans Anleiherenditen Erreichen ein 30-Jahres-Hoch</a>:</strong> Ein weiterer kredit- und zinsgetriebener Risikokanal</li>
+    <li><strong><a href="/de/blog/capital-rotation-ai-semiconductors">Kapital Fließt in KI und Chips</a>:</strong> Der Hintergrund zur ETP-zu-KI-ETF-Rotation in diesem Beitrag</li>
+    <li><strong><a href="/de/blog/correlation-vacuum-oi-gap">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Korrelationen mit Nasdaq, Gold und Dollar im Check</li>
+    <li><strong><a href="/de/blog/global-m2-liquidity-decoupling-gap">Die Globale M2 Wächst so Schnell wie Nie — Bitcoin Bleibt bei der Hälfte Seines Allzeithochs</a>:</strong> Eine weitere Makro-Liquiditätslücke</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Même l'Or a Chuté Lors du Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Surchargé en Long</a> :</strong> Le choc géopolitique et le positionnement dérivés derrière le plus bas du jour</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">Emploi en Ralentissement et Point Mort d'Inflation Sous 2 % — La Meilleure Semaine du Bitcoin Depuis Mars</a> :</strong> Le réajustement macro derrière ce rebond</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Les Rendements Obligataires Japonais Atteignent un Sommet de 30 Ans</a> :</strong> Un autre canal de risque lié au crédit et aux taux</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">Les Capitaux Affluent Vers l'IA et les Semi-conducteurs</a> :</strong> Le contexte de la rotation ETP vers ETF IA de cet article</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a> :</strong> Vérification des corrélations avec le Nasdaq, l'or et le dollar</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">La M2 Mondiale S'étend à un Rythme Record — Le Bitcoin Reste à la Moitié de Son Sommet Historique</a> :</strong> Un autre écart de liquidité macro</li>
+    <li><strong><a href="/fr/blog/iran-shock-derivatives-positioning-gap">Même l'Or a Chuté Lors du Choc Iranien — Mais le Marché des Dérivés Bitcoin N'était Pas Surchargé en Long</a> :</strong> Le choc géopolitique et le positionnement dérivés derrière le plus bas du jour</li>
+    <li><strong><a href="/fr/blog/payrolls-miss-inflation-breakeven-fed-repricing">Emploi en Ralentissement et Point Mort d'Inflation Sous 2 % — La Meilleure Semaine du Bitcoin Depuis Mars</a> :</strong> Le réajustement macro derrière ce rebond</li>
+    <li><strong><a href="/fr/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Les Rendements Obligataires Japonais Atteignent un Sommet de 30 Ans</a> :</strong> Un autre canal de risque lié au crédit et aux taux</li>
+    <li><strong><a href="/fr/blog/capital-rotation-ai-semiconductors">Les Capitaux Affluent Vers l'IA et les Semi-conducteurs</a> :</strong> Le contexte de la rotation ETP vers ETF IA de cet article</li>
+    <li><strong><a href="/fr/blog/correlation-vacuum-oi-gap">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a> :</strong> Vérification des corrélations avec le Nasdaq, l'or et le dollar</li>
+    <li><strong><a href="/fr/blog/global-m2-liquidity-decoupling-gap">La M2 Mondiale S'étend à un Rythme Record — Le Bitcoin Reste à la Moitié de Son Sommet Historique</a> :</strong> Un autre écart de liquidité macro</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Até o Ouro Foi Vendido no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Comprados</a>:</strong> O choque geopolítico e o posicionamento em derivativos por trás da mínima de hoje</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">Empregos em Resfriamento e Breakeven de Inflação Abaixo de 2% — A Melhor Semana do Bitcoin Desde Março</a>:</strong> A reprecificação macro por trás deste repique</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Rendimentos dos Títulos do Japão Atingem Máxima de 30 Anos</a>:</strong> Outro canal de risco de crédito e juros</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">O Capital Está Fluindo Para IA e Chips</a>:</strong> O contexto da rotação de ETP para ETF de IA deste artigo</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> Verificando correlações com Nasdaq, ouro e dólar</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">O M2 Global Está se Expandindo em Ritmo Recorde — O Bitcoin Ainda Está na Metade de Sua Máxima Histórica</a>:</strong> Outra lacuna de liquidez macro</li>
+    <li><strong><a href="/pt/blog/iran-shock-derivatives-positioning-gap">Até o Ouro Foi Vendido no Choque do Irã — Mas o Mercado de Derivativos do Bitcoin Não Estava Lotado de Comprados</a>:</strong> O choque geopolítico e o posicionamento em derivativos por trás da mínima de hoje</li>
+    <li><strong><a href="/pt/blog/payrolls-miss-inflation-breakeven-fed-repricing">Empregos em Resfriamento e Breakeven de Inflação Abaixo de 2% — A Melhor Semana do Bitcoin Desde Março</a>:</strong> A reprecificação macro por trás deste repique</li>
+    <li><strong><a href="/pt/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Rendimentos dos Títulos do Japão Atingem Máxima de 30 Anos</a>:</strong> Outro canal de risco de crédito e juros</li>
+    <li><strong><a href="/pt/blog/capital-rotation-ai-semiconductors">O Capital Está Fluindo Para IA e Chips</a>:</strong> O contexto da rotação de ETP para ETF de IA deste artigo</li>
+    <li><strong><a href="/pt/blog/correlation-vacuum-oi-gap">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> Verificando correlações com Nasdaq, ouro e dólar</li>
+    <li><strong><a href="/pt/blog/global-m2-liquidity-decoupling-gap">O M2 Global Está se Expandindo em Ritmo Recorde — O Bitcoin Ainda Está na Metade de Sua Máxima Histórica</a>:</strong> Outra lacuna de liquidez macro</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">İran Şokunda Altın Bile Satıldı — Ama Bitcoin Türev Piyasası Long'a Yığılmamıştı</a>:</strong> Bugünkü dibin arkasındaki jeopolitik şok ve türev pozisyonlanması</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">İstihdamda Soğuma ve %2 Altı Enflasyon Beklentisi — Bitcoin'in Mart'tan Bu Yana En İyi Haftası</a>:</strong> Bu toparlanmanın arkasındaki makro yeniden fiyatlama</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Japonya Tahvil Getirileri 30 Yılın Zirvesinde</a>:</strong> Bir başka kredi ve faiz kaynaklı risk kanalı</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">Sermaye AI ve Çip Sektörüne Akıyor</a>:</strong> Bu yazının ETP'den AI ETF'e rotasyonunun arka planı</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Nasdaq, altın ve dolarla korelasyon kontrolü</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">Küresel M2 Rekor Hızda Genişliyor — Bitcoin Hâlâ Zirvesinin Yarısında</a>:</strong> Başka bir makro likidite uçurumu</li>
+    <li><strong><a href="/tr/blog/iran-shock-derivatives-positioning-gap">İran Şokunda Altın Bile Satıldı — Ama Bitcoin Türev Piyasası Long'a Yığılmamıştı</a>:</strong> Bugünkü dibin arkasındaki jeopolitik şok ve türev pozisyonlanması</li>
+    <li><strong><a href="/tr/blog/payrolls-miss-inflation-breakeven-fed-repricing">İstihdamda Soğuma ve %2 Altı Enflasyon Beklentisi — Bitcoin'in Mart'tan Bu Yana En İyi Haftası</a>:</strong> Bu toparlanmanın arkasındaki makro yeniden fiyatlama</li>
+    <li><strong><a href="/tr/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Japonya Tahvil Getirileri 30 Yılın Zirvesinde</a>:</strong> Bir başka kredi ve faiz kaynaklı risk kanalı</li>
+    <li><strong><a href="/tr/blog/capital-rotation-ai-semiconductors">Sermaye AI ve Çip Sektörüne Akıyor</a>:</strong> Bu yazının ETP'den AI ETF'e rotasyonunun arka planı</li>
+    <li><strong><a href="/tr/blog/correlation-vacuum-oi-gap">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Nasdaq, altın ve dolarla korelasyon kontrolü</li>
+    <li><strong><a href="/tr/blog/global-m2-liquidity-decoupling-gap">Küresel M2 Rekor Hızda Genişliyor — Bitcoin Hâlâ Zirvesinin Yarısında</a>:</strong> Başka bir makro likidite uçurumu</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/iran-shock-derivatives-positioning-gap.php">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Nghiêng Về Long</a>:</strong> Cú sốc địa chính trị và vị thế phái sinh đằng sau đáy hôm nay</li>
-    <li><strong><a href="/blog/payrolls-miss-inflation-breakeven-fed-repricing.php">Việc Làm Hạ Nhiệt và Kỳ Vọng Lạm Phát 2 Năm Dưới 2% — Tuần Tốt Nhất Của Bitcoin Kể Từ Tháng 3</a>:</strong> Sự định giá lại vĩ mô đằng sau đợt phục hồi này</li>
-    <li><strong><a href="/blog/japan-jgb-yield-carry-trade-bitcoin-risk.php">Lợi Suất Trái Phiếu Nhật Bản Chạm Đỉnh 30 Năm</a>:</strong> Một kênh rủi ro khác từ tín dụng và lãi suất</li>
-    <li><strong><a href="/blog/capital-rotation-ai-semiconductors.php">Dòng Vốn Đang Chảy Vào AI và Chip</a>:</strong> Bối cảnh của sự xoay vòng ETP sang ETF AI trong bài viết này</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Kiểm tra tương quan với Nasdaq, vàng và đô la</li>
-    <li><strong><a href="/blog/global-m2-liquidity-decoupling-gap.php">M2 Toàn Cầu Đang Mở Rộng Với Tốc Độ Kỷ Lục — Bitcoin Vẫn Chỉ Bằng Một Nửa Đỉnh Lịch Sử</a>:</strong> Một khoảng cách thanh khoản vĩ mô khác</li>
+    <li><strong><a href="/vi/blog/iran-shock-derivatives-positioning-gap">Ngay Cả Vàng Cũng Bị Bán Tháo Trong Cú Sốc Iran — Nhưng Thị Trường Phái Sinh Bitcoin Không Nghiêng Về Long</a>:</strong> Cú sốc địa chính trị và vị thế phái sinh đằng sau đáy hôm nay</li>
+    <li><strong><a href="/vi/blog/payrolls-miss-inflation-breakeven-fed-repricing">Việc Làm Hạ Nhiệt và Kỳ Vọng Lạm Phát 2 Năm Dưới 2% — Tuần Tốt Nhất Của Bitcoin Kể Từ Tháng 3</a>:</strong> Sự định giá lại vĩ mô đằng sau đợt phục hồi này</li>
+    <li><strong><a href="/vi/blog/japan-jgb-yield-carry-trade-bitcoin-risk">Lợi Suất Trái Phiếu Nhật Bản Chạm Đỉnh 30 Năm</a>:</strong> Một kênh rủi ro khác từ tín dụng và lãi suất</li>
+    <li><strong><a href="/vi/blog/capital-rotation-ai-semiconductors">Dòng Vốn Đang Chảy Vào AI và Chip</a>:</strong> Bối cảnh của sự xoay vòng ETP sang ETF AI trong bài viết này</li>
+    <li><strong><a href="/vi/blog/correlation-vacuum-oi-gap">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Kiểm tra tương quan với Nasdaq, vàng và đô la</li>
+    <li><strong><a href="/vi/blog/global-m2-liquidity-decoupling-gap">M2 Toàn Cầu Đang Mở Rộng Với Tốc Độ Kỷ Lục — Bitcoin Vẫn Chỉ Bằng Một Nửa Đỉnh Lịch Sử</a>:</strong> Một khoảng cách thanh khoản vĩ mô khác</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: FRED(세인트루이스 연은)·ycharts·Convex·마크로트렌즈(하이일드 OAS 스프레드), 캐피털플로스리서치·스톤엑스(신용시장 해설), CoinDesk·Fortune·Yahoo Finance(가격 흐름·연준 발언), CoinGlass(미결제약정·펀딩비), 코인쉐어즈(ETP·AI ETF 자금 흐름), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

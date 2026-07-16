@@ -491,49 +491,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC 디지털 상품 해석 릴리스</a>:</strong> 이번 규칙의 토대가 된 다섯 갈래 토큰 분류 체계</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">클래리티법 교착</a>:</strong> 규칙에 법적 뒷받침을 줄 수 있는 시장구조 입법의 현주소</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC 메타마스크 조사 종결</a>:</strong> 집행에서 규칙 제정으로 전환한 SEC 기조의 또 다른 신호</li>
+    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release">SEC 디지털 상품 해석 릴리스</a>:</strong> 이번 규칙의 토대가 된 다섯 갈래 토큰 분류 체계</li>
+    <li><strong><a href="/blog/clarity-act-stalled">클래리티법 교착</a>:</strong> 규칙에 법적 뒷받침을 줄 수 있는 시장구조 입법의 현주소</li>
+    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys">SEC 메타마스크 조사 종결</a>:</strong> 집행에서 규칙 제정으로 전환한 SEC 기조의 또 다른 신호</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC's Digital-Commodity Interpretive Release</a>:</strong> The five-category token taxonomy this rule builds on</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">The CLARITY Act Stalls</a>:</strong> Where the market-structure legislation that could back the rule now stands</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC Closes Its MetaMask Investigation</a>:</strong> Another signal of the SEC's shift from enforcement to rulemaking</li>
+    <li><strong><a href="/en/blog/sec-digital-commodity-interpretive-release">SEC's Digital-Commodity Interpretive Release</a>:</strong> The five-category token taxonomy this rule builds on</li>
+    <li><strong><a href="/en/blog/clarity-act-stalled">The CLARITY Act Stalls</a>:</strong> Where the market-structure legislation that could back the rule now stands</li>
+    <li><strong><a href="/en/blog/sec-closes-metamask-investigation-consensys">SEC Closes Its MetaMask Investigation</a>:</strong> Another signal of the SEC's shift from enforcement to rulemaking</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SECデジタル商品解釈リリース</a>:</strong> 今回の規則の土台となった五分類のトークン分類体系</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">クラリティ法の膠着</a>:</strong> 規則に法的裏づけを与えうる市場構造立法の現状</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SECメタマスク調査の終結</a>:</strong> 執行から規則制定へ転換したSEC基調のもう一つの兆候</li>
+    <li><strong><a href="/ja/blog/sec-digital-commodity-interpretive-release">SECデジタル商品解釈リリース</a>:</strong> 今回の規則の土台となった五分類のトークン分類体系</li>
+    <li><strong><a href="/ja/blog/clarity-act-stalled">クラリティ法の膠着</a>:</strong> 規則に法的裏づけを与えうる市場構造立法の現状</li>
+    <li><strong><a href="/ja/blog/sec-closes-metamask-investigation-consensys">SECメタマスク調査の終結</a>:</strong> 執行から規則制定へ転換したSEC基調のもう一つの兆候</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La Interpretación de Commodities Digitales de la SEC</a>:</strong> La taxonomía de cinco categorías sobre la que se apoya esta norma</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">La Ley CLARITY se Estanca</a>:</strong> En qué punto está la legislación de estructura de mercado que podría respaldar la norma</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">La SEC Cierra su Investigación sobre MetaMask</a>:</strong> Otra señal del giro de la SEC de la aplicación a la reglamentación</li>
+    <li><strong><a href="/es/blog/sec-digital-commodity-interpretive-release">La Interpretación de Commodities Digitales de la SEC</a>:</strong> La taxonomía de cinco categorías sobre la que se apoya esta norma</li>
+    <li><strong><a href="/es/blog/clarity-act-stalled">La Ley CLARITY se Estanca</a>:</strong> En qué punto está la legislación de estructura de mercado que podría respaldar la norma</li>
+    <li><strong><a href="/es/blog/sec-closes-metamask-investigation-consensys">La SEC Cierra su Investigación sobre MetaMask</a>:</strong> Otra señal del giro de la SEC de la aplicación a la reglamentación</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">Die Digital-Commodity-Interpretation der SEC</a>:</strong> Die Fünf-Kategorien-Token-Taxonomie, auf der diese Regel aufbaut</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">Der CLARITY Act stockt</a>:</strong> Wo die Marktstrukturgesetzgebung steht, die die Regel stützen könnte</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC schließt MetaMask-Untersuchung</a>:</strong> Ein weiteres Signal für den Wandel der SEC von Durchsetzung zu Regelsetzung</li>
+    <li><strong><a href="/de/blog/sec-digital-commodity-interpretive-release">Die Digital-Commodity-Interpretation der SEC</a>:</strong> Die Fünf-Kategorien-Token-Taxonomie, auf der diese Regel aufbaut</li>
+    <li><strong><a href="/de/blog/clarity-act-stalled">Der CLARITY Act stockt</a>:</strong> Wo die Marktstrukturgesetzgebung steht, die die Regel stützen könnte</li>
+    <li><strong><a href="/de/blog/sec-closes-metamask-investigation-consensys">SEC schließt MetaMask-Untersuchung</a>:</strong> Ein weiteres Signal für den Wandel der SEC von Durchsetzung zu Regelsetzung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">Le Communiqué Interprétatif de la SEC sur les Commodités Numériques</a>:</strong> La taxonomie des tokens en cinq catégories sur laquelle repose cette règle</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">Le CLARITY Act au Point Mort</a>:</strong> Où en est la législation de structure de marché susceptible d'appuyer la règle</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">La SEC Clôt son Enquête sur MetaMask</a>:</strong> Un autre signe du virage de la SEC de l'application vers la réglementation</li>
+    <li><strong><a href="/fr/blog/sec-digital-commodity-interpretive-release">Le Communiqué Interprétatif de la SEC sur les Commodités Numériques</a>:</strong> La taxonomie des tokens en cinq catégories sur laquelle repose cette règle</li>
+    <li><strong><a href="/fr/blog/clarity-act-stalled">Le CLARITY Act au Point Mort</a>:</strong> Où en est la législation de structure de marché susceptible d'appuyer la règle</li>
+    <li><strong><a href="/fr/blog/sec-closes-metamask-investigation-consensys">La SEC Clôt son Enquête sur MetaMask</a>:</strong> Un autre signe du virage de la SEC de l'application vers la réglementation</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">O Comunicado Interpretativo da SEC sobre Commodities Digitais</a>:</strong> A taxonomia de cinco categorias sobre a qual esta regra se apoia</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">A Lei CLARITY Emperra</a>:</strong> Em que ponto está a legislação de estrutura de mercado que poderia respaldar a regra</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">A SEC Encerra sua Investigação sobre a MetaMask</a>:</strong> Outro sinal da virada da SEC da aplicação para a regulamentação</li>
+    <li><strong><a href="/pt/blog/sec-digital-commodity-interpretive-release">O Comunicado Interpretativo da SEC sobre Commodities Digitais</a>:</strong> A taxonomia de cinco categorias sobre a qual esta regra se apoia</li>
+    <li><strong><a href="/pt/blog/clarity-act-stalled">A Lei CLARITY Emperra</a>:</strong> Em que ponto está a legislação de estrutura de mercado que poderia respaldar a regra</li>
+    <li><strong><a href="/pt/blog/sec-closes-metamask-investigation-consensys">A SEC Encerra sua Investigação sobre a MetaMask</a>:</strong> Outro sinal da virada da SEC da aplicação para a regulamentação</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC'in Dijital Emtia Yorum Açıklaması</a>:</strong> Bu kuralın üzerine kurulduğu beş kategorili token sınıflandırması</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">CLARITY Yasası Tıkanıyor</a>:</strong> Kurala hukuki dayanak sağlayabilecek piyasa yapısı yasasının geldiği nokta</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC MetaMask Soruşturmasını Kapatıyor</a>:</strong> SEC'in yaptırımdan kural yapımına geçişinin bir başka işareti</li>
+    <li><strong><a href="/tr/blog/sec-digital-commodity-interpretive-release">SEC'in Dijital Emtia Yorum Açıklaması</a>:</strong> Bu kuralın üzerine kurulduğu beş kategorili token sınıflandırması</li>
+    <li><strong><a href="/tr/blog/clarity-act-stalled">CLARITY Yasası Tıkanıyor</a>:</strong> Kurala hukuki dayanak sağlayabilecek piyasa yapısı yasasının geldiği nokta</li>
+    <li><strong><a href="/tr/blog/sec-closes-metamask-investigation-consensys">SEC MetaMask Soruşturmasını Kapatıyor</a>:</strong> SEC'in yaptırımdan kural yapımına geçişinin bir başka işareti</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">Thông Cáo Diễn Giải về Hàng Hóa Số của SEC</a>:</strong> Hệ phân loại token năm nhóm mà quy tắc này dựa vào</li>
-    <li><strong><a href="/blog/clarity-act-stalled.php">Đạo Luật CLARITY Bế Tắc</a>:</strong> Hiện trạng của lập pháp cấu trúc thị trường có thể hậu thuẫn cho quy tắc</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC Khép Lại Cuộc Điều Tra MetaMask</a>:</strong> Một tín hiệu khác về sự chuyển hướng của SEC từ cưỡng chế sang ban hành quy tắc</li>
+    <li><strong><a href="/vi/blog/sec-digital-commodity-interpretive-release">Thông Cáo Diễn Giải về Hàng Hóa Số của SEC</a>:</strong> Hệ phân loại token năm nhóm mà quy tắc này dựa vào</li>
+    <li><strong><a href="/vi/blog/clarity-act-stalled">Đạo Luật CLARITY Bế Tắc</a>:</strong> Hiện trạng của lập pháp cấu trúc thị trường có thể hậu thuẫn cho quy tắc</li>
+    <li><strong><a href="/vi/blog/sec-closes-metamask-investigation-consensys">SEC Khép Lại Cuộc Điều Tra MetaMask</a>:</strong> Một tín hiệu khác về sự chuyển hướng của SEC từ cưỡng chế sang ban hành quy tắc</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(SEC의 크립토 규칙 이달 중 제안 계획 보도), 더스트리트(2026년 규제 어젠다 개요), 더블록·크립토브리핑(브로커딜러·거래소·수탁 규칙, RIN 3235-AN48), 레저인사이트(앳킨스 위원장의 자금 조달 면제·토큰 세이프하버 프레임워크), SEC.gov(앳킨스 위원장의 '레귤레이션 크립토 애셋: 토큰 세이프하버' 발언 및 3월 다섯 갈래 토큰 분류 해석 릴리스). 규칙안은 아직 OIRA 심사 단계이며 최종 규칙에서 세부 내용이 바뀔 수 있다. 본 글은 투자 조언이 아니다.</p>

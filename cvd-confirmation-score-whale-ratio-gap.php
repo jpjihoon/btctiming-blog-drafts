@@ -522,67 +522,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">6/30 고래 입금 급증 vs USDT 매수력 Z-스코어</a>:</strong> 이번 고래비율 상승의 배경이 된 단일 일자 이벤트</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">코인베이스 프리미엄 역대 최장 마이너스 vs 선물 OI 감소</a>:</strong> 같은 반등을 미국 수요·레버리지 측면에서 본 진단</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">ETF 8주 연속 유출과 반등 되돌림</a>:</strong> 기관 자금 흐름 쪽에서 본 같은 국면</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">공포탐욕지수 급변 vs 가격 박스권</a>:</strong> 심리 지표로 본 같은 반등</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">아직 확인되지 않은 반등</a>:</strong> 이번 반등의 취약성 체크리스트</li>
+    <li><strong><a href="/blog/whale-deposit-spike-demand-gap">6/30 고래 입금 급증 vs USDT 매수력 Z-스코어</a>:</strong> 이번 고래비율 상승의 배경이 된 단일 일자 이벤트</li>
+    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap">코인베이스 프리미엄 역대 최장 마이너스 vs 선물 OI 감소</a>:</strong> 같은 반등을 미국 수요·레버리지 측면에서 본 진단</li>
+    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback">ETF 8주 연속 유출과 반등 되돌림</a>:</strong> 기관 자금 흐름 쪽에서 본 같은 국면</li>
+    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact">공포탐욕지수 급변 vs 가격 박스권</a>:</strong> 심리 지표로 본 같은 반등</li>
+    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026">아직 확인되지 않은 반등</a>:</strong> 이번 반등의 취약성 체크리스트</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">The June 30 Whale Deposit Spike vs USDT Buying-Power Z-Score</a>:</strong> The single-day event behind this whale-ratio rise</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Coinbase Premium's Record Negative Streak vs Shrinking Futures OI</a>:</strong> The same bounce diagnosed through U.S. demand and leverage</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">The 8-Week ETF Outflow Streak and the Bounce Reversal</a>:</strong> The same phase seen through institutional capital flows</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Whiplash vs Price Range</a>:</strong> The same bounce diagnosed through sentiment</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">The Bounce That Hasn't Been Confirmed Yet</a>:</strong> A fragility checklist for this rally</li>
+    <li><strong><a href="/en/blog/whale-deposit-spike-demand-gap">The June 30 Whale Deposit Spike vs USDT Buying-Power Z-Score</a>:</strong> The single-day event behind this whale-ratio rise</li>
+    <li><strong><a href="/en/blog/coinbase-premium-record-streak-oi-btc-gap">Coinbase Premium's Record Negative Streak vs Shrinking Futures OI</a>:</strong> The same bounce diagnosed through U.S. demand and leverage</li>
+    <li><strong><a href="/en/blog/etf-eight-week-streak-price-giveback">The 8-Week ETF Outflow Streak and the Bounce Reversal</a>:</strong> The same phase seen through institutional capital flows</li>
+    <li><strong><a href="/en/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Whiplash vs Price Range</a>:</strong> The same bounce diagnosed through sentiment</li>
+    <li><strong><a href="/en/blog/rebound-not-yet-confirmed-2026">The Bounce That Hasn't Been Confirmed Yet</a>:</strong> A fragility checklist for this rally</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">6/30クジラ入金急増 対 USDT買い余力Zスコア</a>:</strong> 今回のクジラ比率上昇の背景となった単日イベント</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">コインベースプレミアム歴代最長マイナス 対 先物OI減少</a>:</strong> 米国需要とレバレッジの観点から見た同じ反発</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">ETF8週連続流出と反発の巻き戻し</a>:</strong> 機関投資家の資金フローから見た同じ局面</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">恐怖強欲指数急変 対 価格レンジ</a>:</strong> 心理指標で見た同じ反発</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">まだ確認されていない反発</a>:</strong> 今回の反発の脆弱性チェックリスト</li>
+    <li><strong><a href="/ja/blog/whale-deposit-spike-demand-gap">6/30クジラ入金急増 対 USDT買い余力Zスコア</a>:</strong> 今回のクジラ比率上昇の背景となった単日イベント</li>
+    <li><strong><a href="/ja/blog/coinbase-premium-record-streak-oi-btc-gap">コインベースプレミアム歴代最長マイナス 対 先物OI減少</a>:</strong> 米国需要とレバレッジの観点から見た同じ反発</li>
+    <li><strong><a href="/ja/blog/etf-eight-week-streak-price-giveback">ETF8週連続流出と反発の巻き戻し</a>:</strong> 機関投資家の資金フローから見た同じ局面</li>
+    <li><strong><a href="/ja/blog/fear-greed-whiplash-btc-range-intact">恐怖強欲指数急変 対 価格レンジ</a>:</strong> 心理指標で見た同じ反発</li>
+    <li><strong><a href="/ja/blog/rebound-not-yet-confirmed-2026">まだ確認されていない反発</a>:</strong> 今回の反発の脆弱性チェックリスト</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">El Pico de Depósitos de Ballenas del 30/6 vs el Z-Score de Poder de Compra de USDT</a>:</strong> El evento de un solo día detrás de esta subida del ratio de ballenas</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">La Racha Negativa Récord de la Prima de Coinbase vs la Caída del OI de Futuros</a>:</strong> El mismo rebote diagnosticado a través de la demanda estadounidense y el apalancamiento</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">La Racha de 8 Semanas de Salidas de ETF y la Reversión del Rebote</a>:</strong> La misma fase vista a través de los flujos de capital institucional</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Vaivén de Miedo y Codicia vs Rango de Precio</a>:</strong> El mismo rebote diagnosticado a través del sentimiento</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">El Rebote Que Aún No se Ha Confirmado</a>:</strong> Una lista de fragilidad para este repunte</li>
+    <li><strong><a href="/es/blog/whale-deposit-spike-demand-gap">El Pico de Depósitos de Ballenas del 30/6 vs el Z-Score de Poder de Compra de USDT</a>:</strong> El evento de un solo día detrás de esta subida del ratio de ballenas</li>
+    <li><strong><a href="/es/blog/coinbase-premium-record-streak-oi-btc-gap">La Racha Negativa Récord de la Prima de Coinbase vs la Caída del OI de Futuros</a>:</strong> El mismo rebote diagnosticado a través de la demanda estadounidense y el apalancamiento</li>
+    <li><strong><a href="/es/blog/etf-eight-week-streak-price-giveback">La Racha de 8 Semanas de Salidas de ETF y la Reversión del Rebote</a>:</strong> La misma fase vista a través de los flujos de capital institucional</li>
+    <li><strong><a href="/es/blog/fear-greed-whiplash-btc-range-intact">Vaivén de Miedo y Codicia vs Rango de Precio</a>:</strong> El mismo rebote diagnosticado a través del sentimiento</li>
+    <li><strong><a href="/es/blog/rebound-not-yet-confirmed-2026">El Rebote Que Aún No se Ha Confirmado</a>:</strong> Una lista de fragilidad para este repunte</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">Der Wal-Einzahlungs-Spitzenwert vom 30.6. vs. USDT-Kaufkraft-Z-Score</a>:</strong> Das Eintagesereignis hinter diesem Anstieg der Whale Ratio</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Coinbase-Prämies Rekord-Negativserie vs. schrumpfendes Futures-OI</a>:</strong> Dieselbe Erholung, diagnostiziert über US-Nachfrage und Hebel</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Die 8-Wochen-ETF-Abfluss-Serie und die Erholungs-Umkehr</a>:</strong> Dieselbe Phase, gesehen über institutionelle Kapitalflüsse</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear-&amp;-Greed-Ausschlag vs. Preisspanne</a>:</strong> Dieselbe Erholung, diagnostiziert über die Stimmung</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Die Erholung, die Noch Nicht Bestätigt Ist</a>:</strong> Eine Fragilitäts-Checkliste für diese Rally</li>
+    <li><strong><a href="/de/blog/whale-deposit-spike-demand-gap">Der Wal-Einzahlungs-Spitzenwert vom 30.6. vs. USDT-Kaufkraft-Z-Score</a>:</strong> Das Eintagesereignis hinter diesem Anstieg der Whale Ratio</li>
+    <li><strong><a href="/de/blog/coinbase-premium-record-streak-oi-btc-gap">Coinbase-Prämies Rekord-Negativserie vs. schrumpfendes Futures-OI</a>:</strong> Dieselbe Erholung, diagnostiziert über US-Nachfrage und Hebel</li>
+    <li><strong><a href="/de/blog/etf-eight-week-streak-price-giveback">Die 8-Wochen-ETF-Abfluss-Serie und die Erholungs-Umkehr</a>:</strong> Dieselbe Phase, gesehen über institutionelle Kapitalflüsse</li>
+    <li><strong><a href="/de/blog/fear-greed-whiplash-btc-range-intact">Fear-&amp;-Greed-Ausschlag vs. Preisspanne</a>:</strong> Dieselbe Erholung, diagnostiziert über die Stimmung</li>
+    <li><strong><a href="/de/blog/rebound-not-yet-confirmed-2026">Die Erholung, die Noch Nicht Bestätigt Ist</a>:</strong> Eine Fragilitäts-Checkliste für diese Rally</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">Le Pic de Dépôts de Baleines du 30/6 vs le Z-Score de Pouvoir d'Achat USDT</a>:</strong> L'événement d'une seule journée à l'origine de cette hausse du ratio des baleines</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">La Série Négative Record de la Prime Coinbase vs la Baisse de l'OI Futures</a>:</strong> Le même rebond diagnostiqué via la demande américaine et l'effet de levier</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">La Série de 8 Semaines de Sorties d'ETF et le Retournement du Rebond</a>:</strong> La même phase vue via les flux de capitaux institutionnels</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">L'Oscillation de Fear &amp; Greed vs Fourchette de Prix</a>:</strong> Le même rebond diagnostiqué via le sentiment</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Le Rebond Qui N'a Pas Encore Été Confirmé</a>:</strong> Une liste de fragilité pour ce rallye</li>
+    <li><strong><a href="/fr/blog/whale-deposit-spike-demand-gap">Le Pic de Dépôts de Baleines du 30/6 vs le Z-Score de Pouvoir d'Achat USDT</a>:</strong> L'événement d'une seule journée à l'origine de cette hausse du ratio des baleines</li>
+    <li><strong><a href="/fr/blog/coinbase-premium-record-streak-oi-btc-gap">La Série Négative Record de la Prime Coinbase vs la Baisse de l'OI Futures</a>:</strong> Le même rebond diagnostiqué via la demande américaine et l'effet de levier</li>
+    <li><strong><a href="/fr/blog/etf-eight-week-streak-price-giveback">La Série de 8 Semaines de Sorties d'ETF et le Retournement du Rebond</a>:</strong> La même phase vue via les flux de capitaux institutionnels</li>
+    <li><strong><a href="/fr/blog/fear-greed-whiplash-btc-range-intact">L'Oscillation de Fear &amp; Greed vs Fourchette de Prix</a>:</strong> Le même rebond diagnostiqué via le sentiment</li>
+    <li><strong><a href="/fr/blog/rebound-not-yet-confirmed-2026">Le Rebond Qui N'a Pas Encore Été Confirmé</a>:</strong> Une liste de fragilité pour ce rallye</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">O Pico de Depósitos de Baleias de 30/6 vs o Z-Score de Poder de Compra de USDT</a>:</strong> O evento de um único dia por trás dessa alta no whale ratio</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">A Sequência Negativa Recorde da Prêmio Coinbase vs a Queda do OI de Futuros</a>:</strong> O mesmo repique diagnosticado pela demanda dos EUA e alavancagem</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">A Sequência de 8 Semanas de Saídas de ETF e a Reversão do Repique</a>:</strong> A mesma fase vista pelos fluxos de capital institucional</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Oscilação do Medo e Ganância vs Faixa de Preço</a>:</strong> O mesmo repique diagnosticado pelo sentimento</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">O Repique Que Ainda Não Foi Confirmado</a>:</strong> Uma lista de fragilidade para esse rali</li>
+    <li><strong><a href="/pt/blog/whale-deposit-spike-demand-gap">O Pico de Depósitos de Baleias de 30/6 vs o Z-Score de Poder de Compra de USDT</a>:</strong> O evento de um único dia por trás dessa alta no whale ratio</li>
+    <li><strong><a href="/pt/blog/coinbase-premium-record-streak-oi-btc-gap">A Sequência Negativa Recorde da Prêmio Coinbase vs a Queda do OI de Futuros</a>:</strong> O mesmo repique diagnosticado pela demanda dos EUA e alavancagem</li>
+    <li><strong><a href="/pt/blog/etf-eight-week-streak-price-giveback">A Sequência de 8 Semanas de Saídas de ETF e a Reversão do Repique</a>:</strong> A mesma fase vista pelos fluxos de capital institucional</li>
+    <li><strong><a href="/pt/blog/fear-greed-whiplash-btc-range-intact">Oscilação do Medo e Ganância vs Faixa de Preço</a>:</strong> O mesmo repique diagnosticado pelo sentimento</li>
+    <li><strong><a href="/pt/blog/rebound-not-yet-confirmed-2026">O Repique Que Ainda Não Foi Confirmado</a>:</strong> Uma lista de fragilidade para esse rali</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">30 Haziran Balina Yatırım Sıçraması vs USDT Alım Gücü Z-Skoru</a>:</strong> Bu balina oranı yükselişinin arkasındaki tek günlük olay</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Coinbase Priminin Rekor Negatif Serisi vs Daralan Vadeli İşlem OI'si</a>:</strong> Aynı yükselişin ABD talebi ve kaldıraç açısından teşhisi</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">8 Haftalık ETF Çıkış Serisi ve Yükselişin Tersine Dönüşü</a>:</strong> Aynı evrenin kurumsal sermaye akışları açısından görünümü</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Korku ve Açgözlülük Salınımı vs Fiyat Aralığı</a>:</strong> Aynı yükselişin duygu durumu açısından teşhisi</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Henüz Doğrulanmamış Yükseliş</a>:</strong> Bu ralli için bir kırılganlık kontrol listesi</li>
+    <li><strong><a href="/tr/blog/whale-deposit-spike-demand-gap">30 Haziran Balina Yatırım Sıçraması vs USDT Alım Gücü Z-Skoru</a>:</strong> Bu balina oranı yükselişinin arkasındaki tek günlük olay</li>
+    <li><strong><a href="/tr/blog/coinbase-premium-record-streak-oi-btc-gap">Coinbase Priminin Rekor Negatif Serisi vs Daralan Vadeli İşlem OI'si</a>:</strong> Aynı yükselişin ABD talebi ve kaldıraç açısından teşhisi</li>
+    <li><strong><a href="/tr/blog/etf-eight-week-streak-price-giveback">8 Haftalık ETF Çıkış Serisi ve Yükselişin Tersine Dönüşü</a>:</strong> Aynı evrenin kurumsal sermaye akışları açısından görünümü</li>
+    <li><strong><a href="/tr/blog/fear-greed-whiplash-btc-range-intact">Korku ve Açgözlülük Salınımı vs Fiyat Aralığı</a>:</strong> Aynı yükselişin duygu durumu açısından teşhisi</li>
+    <li><strong><a href="/tr/blog/rebound-not-yet-confirmed-2026">Henüz Doğrulanmamış Yükseliş</a>:</strong> Bu ralli için bir kırılganlık kontrol listesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/whale-deposit-spike-demand-gap.php">Đợt Tăng Vọt Nạp Tiền Cá Voi Ngày 30/6 vs Điểm Z Sức Mua USDT</a>:</strong> Sự kiện một ngày đứng sau đà tăng của tỷ lệ cá voi lần này</li>
-    <li><strong><a href="/blog/coinbase-premium-record-streak-oi-btc-gap.php">Chuỗi Âm Kỷ Lục của Coinbase Premium vs OI Hợp Đồng Tương Lai Suy Giảm</a>:</strong> Cùng đợt phục hồi được chẩn đoán qua nhu cầu Mỹ và đòn bẩy</li>
-    <li><strong><a href="/blog/etf-eight-week-streak-price-giveback.php">Chuỗi Rút Vốn ETF 8 Tuần và Sự Đảo Chiều của Đợt Phục Hồi</a>:</strong> Cùng giai đoạn nhìn qua dòng vốn tổ chức</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Biến Động Mạnh Chỉ Số Sợ Hãi &amp; Tham Lam vs Biên Độ Giá</a>:</strong> Cùng đợt phục hồi được chẩn đoán qua tâm lý</li>
-    <li><strong><a href="/blog/rebound-not-yet-confirmed-2026.php">Đợt Phục Hồi Chưa Được Xác Nhận</a>:</strong> Danh sách kiểm tra độ mong manh cho đợt tăng này</li>
+    <li><strong><a href="/vi/blog/whale-deposit-spike-demand-gap">Đợt Tăng Vọt Nạp Tiền Cá Voi Ngày 30/6 vs Điểm Z Sức Mua USDT</a>:</strong> Sự kiện một ngày đứng sau đà tăng của tỷ lệ cá voi lần này</li>
+    <li><strong><a href="/vi/blog/coinbase-premium-record-streak-oi-btc-gap">Chuỗi Âm Kỷ Lục của Coinbase Premium vs OI Hợp Đồng Tương Lai Suy Giảm</a>:</strong> Cùng đợt phục hồi được chẩn đoán qua nhu cầu Mỹ và đòn bẩy</li>
+    <li><strong><a href="/vi/blog/etf-eight-week-streak-price-giveback">Chuỗi Rút Vốn ETF 8 Tuần và Sự Đảo Chiều của Đợt Phục Hồi</a>:</strong> Cùng giai đoạn nhìn qua dòng vốn tổ chức</li>
+    <li><strong><a href="/vi/blog/fear-greed-whiplash-btc-range-intact">Biến Động Mạnh Chỉ Số Sợ Hãi &amp; Tham Lam vs Biên Độ Giá</a>:</strong> Cùng đợt phục hồi được chẩn đoán qua tâm lý</li>
+    <li><strong><a href="/vi/blog/rebound-not-yet-confirmed-2026">Đợt Phục Hồi Chưa Được Xác Nhận</a>:</strong> Danh sách kiểm tra độ mong manh cho đợt tăng này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CryptoQuant(거래소 고래비율), Binance Square·NewsBTC·Mitrade·XT·FastBull(CVD 확인점수 보도), Cryptopolitan·cryptonews.net(고래 지갑 이체 보도), SpotedCrypto·BeInCrypto·TheCoinRepublic(고래비율·ETF 유출 맥락), Yahoo Finance·Fortune(가격), Alternative.me·CoinMarketCap(공포탐욕지수), Farside Investors(ETF 자금 흐름), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

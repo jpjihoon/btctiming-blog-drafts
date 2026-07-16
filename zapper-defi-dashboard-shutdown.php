@@ -400,31 +400,31 @@
 <div class="box vi">💡 <strong>Chốt lại:</strong> Zapper, từng được Mark Cuban hậu thuẫn, sẽ đóng cửa website, ứng dụng và API vào ngày 3/8, khép lại bảy năm và hơn 13 tỷ USD khối lượng lũy kế. TapTools và Botanix cũng đóng cửa cùng mùa hè này, nhưng điều này ít giống với việc hoạt động on-chain thu hẹp mà giống với việc các ví như MetaMask và Coinbase Wallet hấp thụ chức năng tổng hợp, loại bỏ vai trò trung gian của lớp dashboard middleware.</div>
 
 <ul class="ko">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">비트코인 L2 보타닉스 종료</a>:</strong> 가동률 100%인데도 TVL이 99% 증발하며 문을 닫은 같은 여름의 사례</li>
+  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">비트코인 L2 보타닉스 종료</a>:</strong> 가동률 100%인데도 TVL이 99% 증발하며 문을 닫은 같은 여름의 사례</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">Bitcoin L2 Botanix shuts down</a>:</strong> The same-summer case where 100% uptime didn't stop a 99% TVL evaporation</li>
+  <li><strong><a href="/en/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">Bitcoin L2 Botanix shuts down</a>:</strong> The same-summer case where 100% uptime didn't stop a 99% TVL evaporation</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">ビットコインL2ボタニクス終了</a>:</strong> 稼働率100%でもTVLが99%蒸発して閉鎖した、同じ夏の事例</li>
+  <li><strong><a href="/ja/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">ビットコインL2ボタニクス終了</a>:</strong> 稼働率100%でもTVLが99%蒸発して閉鎖した、同じ夏の事例</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">Cierre del L2 de Bitcoin Botanix</a>:</strong> El caso del mismo verano donde el 100% de actividad no evitó que el TVL se evaporara un 99%</li>
+  <li><strong><a href="/es/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">Cierre del L2 de Bitcoin Botanix</a>:</strong> El caso del mismo verano donde el 100% de actividad no evitó que el TVL se evaporara un 99%</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">Bitcoin-L2 Botanix schließt</a>:</strong> Der Fall aus demselben Sommer, bei dem 100% Verfügbarkeit eine TVL-Verdampfung um 99% nicht verhinderte</li>
+  <li><strong><a href="/de/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">Bitcoin-L2 Botanix schließt</a>:</strong> Der Fall aus demselben Sommer, bei dem 100% Verfügbarkeit eine TVL-Verdampfung um 99% nicht verhinderte</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">Le L2 Bitcoin Botanix ferme</a>:</strong> Le cas du même été où 100 % de disponibilité n'a pas empêché une évaporation du TVL de 99 %</li>
+  <li><strong><a href="/fr/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">Le L2 Bitcoin Botanix ferme</a>:</strong> Le cas du même été où 100 % de disponibilité n'a pas empêché une évaporation du TVL de 99 %</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">L2 de Bitcoin Botanix encerra</a>:</strong> O caso do mesmo verão em que 100% de disponibilidade não impediu uma evaporação de 99% do TVL</li>
+  <li><strong><a href="/pt/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">L2 de Bitcoin Botanix encerra</a>:</strong> O caso do mesmo verão em que 100% de disponibilidade não impediu uma evaporação de 99% do TVL</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">Bitcoin L2'si Botanix kapanıyor</a>:</strong> %100 çalışma süresinin %99 TVL buharlaşmasını önleyemediği, aynı yaz yaşanan örnek</li>
+  <li><strong><a href="/tr/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">Bitcoin L2'si Botanix kapanıyor</a>:</strong> %100 çalışma süresinin %99 TVL buharlaşmasını önleyemediği, aynı yaz yaşanan örnek</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis.php">Botanix, L2 của Bitcoin, đóng cửa</a>:</strong> Trường hợp cùng mùa hè khi hoạt động 100% vẫn không ngăn được TVL bốc hơi 99%</li>
+  <li><strong><a href="/vi/blog/botanix-bitcoin-l2-shutdown-tokenless-thesis">Botanix, L2 của Bitcoin, đóng cửa</a>:</strong> Trường hợp cùng mùa hè khi hoạt động 100% vẫn không ngăn được TVL bốc hơi 99%</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 더블록(The Block), 코인텔레그래프(Cointelegraph), 디크립트(Decrypt), 테크크런치(TechCrunch), 코인센트럴(CoinCentral), 그라운드뉴스(Ground News). 이용자 수·거래량 등 수치는 각 매체 보도 시점 기준이며 향후 바뀔 수 있다.</p>

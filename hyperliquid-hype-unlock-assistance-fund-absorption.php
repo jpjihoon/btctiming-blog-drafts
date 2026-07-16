@@ -385,49 +385,49 @@
   <h2 class="tr">Birlikte Okunması Önerilir</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">칼시의 CFTC 승인 온쇼어 무기한 선물</a>:</strong> 하이퍼리퀴드가 지배해온 무기한 선물 시장에 규제권 경쟁자가 진입하는 맥락</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA의 무기한 선물·CFD 레버리지 규제</a>:</strong> 무기한 선물이라는 상품 자체를 둘러싼 규제 환경</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">스테이블코인 드라이파우더 고갈과 거래소 준비금 격차</a>:</strong> 신규 물량을 흡수할 시장 유동성의 현주소</li>
+    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals">칼시의 CFTC 승인 온쇼어 무기한 선물</a>:</strong> 하이퍼리퀴드가 지배해온 무기한 선물 시장에 규제권 경쟁자가 진입하는 맥락</li>
+    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage">ESMA의 무기한 선물·CFD 레버리지 규제</a>:</strong> 무기한 선물이라는 상품 자체를 둘러싼 규제 환경</li>
+    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">스테이블코인 드라이파우더 고갈과 거래소 준비금 격차</a>:</strong> 신규 물량을 흡수할 시장 유동성의 현주소</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Kalshi's CFTC-Approved Onshore Perpetuals</a>:</strong> The context of a regulated rival entering the perpetuals market Hyperliquid has dominated</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA on Perpetual Futures and CFD Leverage</a>:</strong> The regulatory environment around the perpetuals product itself</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Stablecoin Dry-Powder Drought and the Exchange Reserve Gap</a>:</strong> The current state of the market liquidity that absorbs new supply</li>
+    <li><strong><a href="/en/blog/kalshi-btcperp-cftc-onshore-perpetuals">Kalshi's CFTC-Approved Onshore Perpetuals</a>:</strong> The context of a regulated rival entering the perpetuals market Hyperliquid has dominated</li>
+    <li><strong><a href="/en/blog/esma-perpetual-futures-cfd-leverage">ESMA on Perpetual Futures and CFD Leverage</a>:</strong> The regulatory environment around the perpetuals product itself</li>
+    <li><strong><a href="/en/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Stablecoin Dry-Powder Drought and the Exchange Reserve Gap</a>:</strong> The current state of the market liquidity that absorbs new supply</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">カルシのCFTC承認オンショア無期限先物</a>:</strong> ハイパーリキッドが支配してきた無期限先物市場に規制圏の競合が参入する文脈</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMAの無期限先物・CFDレバレッジ規制</a>:</strong> 無期限先物という商品自体を巡る規制環境</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">ステーブルコインのドライパウダー枯渇と取引所準備金の格差</a>:</strong> 新規物量を吸収する市場流動性の現状</li>
+    <li><strong><a href="/ja/blog/kalshi-btcperp-cftc-onshore-perpetuals">カルシのCFTC承認オンショア無期限先物</a>:</strong> ハイパーリキッドが支配してきた無期限先物市場に規制圏の競合が参入する文脈</li>
+    <li><strong><a href="/ja/blog/esma-perpetual-futures-cfd-leverage">ESMAの無期限先物・CFDレバレッジ規制</a>:</strong> 無期限先物という商品自体を巡る規制環境</li>
+    <li><strong><a href="/ja/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">ステーブルコインのドライパウダー枯渇と取引所準備金の格差</a>:</strong> 新規物量を吸収する市場流動性の現状</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Los Perpetuos Onshore de Kalshi Aprobados por la CFTC</a>:</strong> El contexto de un rival regulado entrando en el mercado de perpetuos que Hyperliquid ha dominado</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">La ESMA sobre Futuros Perpetuos y Apalancamiento CFD</a>:</strong> El entorno regulatorio en torno al propio producto de perpetuos</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">La Sequía de Pólvora Seca en Stablecoins y la Brecha de Reservas de los Exchanges</a>:</strong> El estado actual de la liquidez de mercado que absorbe la nueva oferta</li>
+    <li><strong><a href="/es/blog/kalshi-btcperp-cftc-onshore-perpetuals">Los Perpetuos Onshore de Kalshi Aprobados por la CFTC</a>:</strong> El contexto de un rival regulado entrando en el mercado de perpetuos que Hyperliquid ha dominado</li>
+    <li><strong><a href="/es/blog/esma-perpetual-futures-cfd-leverage">La ESMA sobre Futuros Perpetuos y Apalancamiento CFD</a>:</strong> El entorno regulatorio en torno al propio producto de perpetuos</li>
+    <li><strong><a href="/es/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">La Sequía de Pólvora Seca en Stablecoins y la Brecha de Reservas de los Exchanges</a>:</strong> El estado actual de la liquidez de mercado que absorbe la nueva oferta</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Kalshis CFTC-Genehmigte Onshore-Perpetuals</a>:</strong> Der Kontext eines regulierten Rivalen, der in den von Hyperliquid dominierten Perpetuals-Markt eintritt</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA zu Perpetual Futures und CFD-Hebel</a>:</strong> Das regulatorische Umfeld rund um das Perpetuals-Produkt selbst</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Stablecoin-Dry-Powder-Dürre und die Reservelücke der Börsen</a>:</strong> Der aktuelle Stand der Marktliquidität, die neues Angebot aufnimmt</li>
+    <li><strong><a href="/de/blog/kalshi-btcperp-cftc-onshore-perpetuals">Kalshis CFTC-Genehmigte Onshore-Perpetuals</a>:</strong> Der Kontext eines regulierten Rivalen, der in den von Hyperliquid dominierten Perpetuals-Markt eintritt</li>
+    <li><strong><a href="/de/blog/esma-perpetual-futures-cfd-leverage">ESMA zu Perpetual Futures und CFD-Hebel</a>:</strong> Das regulatorische Umfeld rund um das Perpetuals-Produkt selbst</li>
+    <li><strong><a href="/de/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Stablecoin-Dry-Powder-Dürre und die Reservelücke der Börsen</a>:</strong> Der aktuelle Stand der Marktliquidität, die neues Angebot aufnimmt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Les Perpétuels Onshore de Kalshi Approuvés par la CFTC</a>:</strong> Le contexte d'un rival régulé entrant sur le marché des perpétuels que Hyperliquid a dominé</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">L'ESMA sur les Futures Perpétuels et l'Effet de Levier des CFD</a>:</strong> L'environnement réglementaire autour du produit perpétuel lui-même</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">La Sécheresse de Poudre Sèche des Stablecoins et l'Écart de Réserves des Exchanges</a>:</strong> L'état actuel de la liquidité de marché qui absorbe la nouvelle offre</li>
+    <li><strong><a href="/fr/blog/kalshi-btcperp-cftc-onshore-perpetuals">Les Perpétuels Onshore de Kalshi Approuvés par la CFTC</a>:</strong> Le contexte d'un rival régulé entrant sur le marché des perpétuels que Hyperliquid a dominé</li>
+    <li><strong><a href="/fr/blog/esma-perpetual-futures-cfd-leverage">L'ESMA sur les Futures Perpétuels et l'Effet de Levier des CFD</a>:</strong> L'environnement réglementaire autour du produit perpétuel lui-même</li>
+    <li><strong><a href="/fr/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">La Sécheresse de Poudre Sèche des Stablecoins et l'Écart de Réserves des Exchanges</a>:</strong> L'état actuel de la liquidité de marché qui absorbe la nouvelle offre</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Os Perpétuos Onshore da Kalshi Aprovados pela CFTC</a>:</strong> O contexto de um rival regulado entrando no mercado de perpétuos que a Hyperliquid dominou</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">A ESMA sobre Futuros Perpétuos e Alavancagem de CFD</a>:</strong> O ambiente regulatório em torno do próprio produto de perpétuos</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">A Seca de Pólvora Seca das Stablecoins e a Lacuna de Reservas das Corretoras</a>:</strong> O estado atual da liquidez de mercado que absorve a nova oferta</li>
+    <li><strong><a href="/pt/blog/kalshi-btcperp-cftc-onshore-perpetuals">Os Perpétuos Onshore da Kalshi Aprovados pela CFTC</a>:</strong> O contexto de um rival regulado entrando no mercado de perpétuos que a Hyperliquid dominou</li>
+    <li><strong><a href="/pt/blog/esma-perpetual-futures-cfd-leverage">A ESMA sobre Futuros Perpétuos e Alavancagem de CFD</a>:</strong> O ambiente regulatório em torno do próprio produto de perpétuos</li>
+    <li><strong><a href="/pt/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">A Seca de Pólvora Seca das Stablecoins e a Lacuna de Reservas das Corretoras</a>:</strong> O estado atual da liquidez de mercado que absorve a nova oferta</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Kalshi'nin CFTC Onaylı Yurt İçi Süresiz İşlemleri</a>:</strong> Hyperliquid'in hâkim olduğu süresiz işlemler pazarına düzenlemeye tabi bir rakibin girmesi bağlamı</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA'nın Süresiz Vadeli İşlemler ve CFD Kaldıraç Düzenlemesi</a>:</strong> Süresiz işlemler ürününün kendisini çevreleyen düzenleyici ortam</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Stabil Para Kuru Barut Kıtlığı ve Borsa Rezerv Açığı</a>:</strong> Yeni arzı emen piyasa likiditesinin mevcut durumu</li>
+    <li><strong><a href="/tr/blog/kalshi-btcperp-cftc-onshore-perpetuals">Kalshi'nin CFTC Onaylı Yurt İçi Süresiz İşlemleri</a>:</strong> Hyperliquid'in hâkim olduğu süresiz işlemler pazarına düzenlemeye tabi bir rakibin girmesi bağlamı</li>
+    <li><strong><a href="/tr/blog/esma-perpetual-futures-cfd-leverage">ESMA'nın Süresiz Vadeli İşlemler ve CFD Kaldıraç Düzenlemesi</a>:</strong> Süresiz işlemler ürününün kendisini çevreleyen düzenleyici ortam</li>
+    <li><strong><a href="/tr/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Stabil Para Kuru Barut Kıtlığı ve Borsa Rezerv Açığı</a>:</strong> Yeni arzı emen piyasa likiditesinin mevcut durumu</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Hợp Đồng Vĩnh Cửu Nội Địa Được CFTC Phê Duyệt của Kalshi</a>:</strong> Bối cảnh một đối thủ được quản lý gia nhập thị trường perpetual mà Hyperliquid từng thống trị</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA về Hợp Đồng Tương Lai Vĩnh Cửu và Đòn Bẩy CFD</a>:</strong> Môi trường pháp lý xung quanh chính sản phẩm perpetual</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Cạn Kiệt Vốn Chờ của Stablecoin và Khoảng Trống Dự Trữ Sàn</a>:</strong> Hiện trạng thanh khoản thị trường hấp thụ nguồn cung mới</li>
+    <li><strong><a href="/vi/blog/kalshi-btcperp-cftc-onshore-perpetuals">Hợp Đồng Vĩnh Cửu Nội Địa Được CFTC Phê Duyệt của Kalshi</a>:</strong> Bối cảnh một đối thủ được quản lý gia nhập thị trường perpetual mà Hyperliquid từng thống trị</li>
+    <li><strong><a href="/vi/blog/esma-perpetual-futures-cfd-leverage">ESMA về Hợp Đồng Tương Lai Vĩnh Cửu và Đòn Bẩy CFD</a>:</strong> Môi trường pháp lý xung quanh chính sản phẩm perpetual</li>
+    <li><strong><a href="/vi/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Cạn Kiệt Vốn Chờ của Stablecoin và Khoảng Trống Dự Trữ Sàn</a>:</strong> Hiện trạng thanh khoản thị trường hấp thụ nguồn cung mới</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: DEXTools(어시스턴스 펀드 온체인 보유량·분기별 매입 데이터), 코인마켓캡·코인스탯(HYPE 언락 규모·가격), tokenomist·DefiLlama(HYPE 베스팅 일정·최대 공급량·팀 배분), 하이퍼리퀴드 온체인 주소(수수료 재투입 구조). 온체인 수치는 조회 시점에 따라 달라질 수 있으며, 본 글은 투자 조언이 아니다.</p>

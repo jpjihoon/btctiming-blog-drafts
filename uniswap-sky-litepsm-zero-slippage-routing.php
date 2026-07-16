@@ -233,40 +233,40 @@
   <p class="vi">Việc tích hợp này cũng khớp với một bối cảnh rộng hơn. Uniswap được cho là đang cân nhắc cắt giảm tới 33% phần thưởng cho nhà cung cấp thanh khoản (LP), một động thái được đọc như tín hiệu cho thấy họ muốn bảo vệ khối lượng giao dịch bằng chất lượng thực thi — tốc độ khớp lệnh và độ chính xác giá — thay vì chỉ đơn giản mua thanh khoản bằng khuyến khích. Việc định tuyến LitePSM khớp chính xác với hướng đi đó: mà không cần thêm phần thưởng cho các LP của riêng mình, Uniswap có thể cung cấp mức khớp lệnh đã tối ưu cho các cặp tài sản cụ thể chỉ bằng cách khai thác dự trữ của Sky. Nhưng điều đó cũng có nghĩa là các LP hiện tại từng hoạt động trong các pool stablecoin đó có thể thấy doanh thu phí của mình co lại. Cuối cùng, động thái này là một lợi ích rõ ràng cho nhà giao dịch, trong khi bên trong hệ sinh thái của chính Uniswap, nó lại đặt ra câu hỏi ai vẫn còn là nhà cung cấp thanh khoản thực sự.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap, UNI 소각을 v4 풀로 확대 — PFDA 경매 가동</a>:</strong> Uniswap의 최근 수수료·MEV 구조 개편 흐름</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave의 스테이블 볼트 출시</a>:</strong> '고정' 수익률 이면의 스프레드 리스크를 다룬 관련 분석</li>
+    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap, UNI 소각을 v4 풀로 확대 — PFDA 경매 가동</a>:</strong> Uniswap의 최근 수수료·MEV 구조 개편 흐름</li>
+    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech">Aave의 스테이블 볼트 출시</a>:</strong> '고정' 수익률 이면의 스프레드 리스크를 다룬 관련 분석</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap Votes to Extend UNI Burns to v4 Pools</a>:</strong> Uniswap's recent overhaul of its fee and MEV structure</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave Launches Stable Vaults</a>:</strong> A related look at the spread risk hiding behind "fixed" yield</li>
+    <li><strong><a href="/en/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap Votes to Extend UNI Burns to v4 Pools</a>:</strong> Uniswap's recent overhaul of its fee and MEV structure</li>
+    <li><strong><a href="/en/blog/aave-stable-vaults-fixed-yield-fintech">Aave Launches Stable Vaults</a>:</strong> A related look at the spread risk hiding behind "fixed" yield</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap、UNI焼却をv4プールに拡大——PFDAオークション稼働</a>:</strong> Uniswapの最近の手数料・MEV構造改革の流れ</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aaveのステーブル・ボールト開始</a>:</strong> 『固定』利回りの裏に潜むスプレッドリスクを扱う関連分析</li>
+    <li><strong><a href="/ja/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap、UNI焼却をv4プールに拡大——PFDAオークション稼働</a>:</strong> Uniswapの最近の手数料・MEV構造改革の流れ</li>
+    <li><strong><a href="/ja/blog/aave-stable-vaults-fixed-yield-fintech">Aaveのステーブル・ボールト開始</a>:</strong> 『固定』利回りの裏に潜むスプレッドリスクを扱う関連分析</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap vota extender las quemas de UNI a los pools v4</a>:</strong> La reciente revisión de Uniswap de su estructura de comisiones y MEV</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave lanza Stable Vaults</a>:</strong> Un análisis relacionado del riesgo de spread oculto tras el rendimiento "fijo"</li>
+    <li><strong><a href="/es/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap vota extender las quemas de UNI a los pools v4</a>:</strong> La reciente revisión de Uniswap de su estructura de comisiones y MEV</li>
+    <li><strong><a href="/es/blog/aave-stable-vaults-fixed-yield-fintech">Aave lanza Stable Vaults</a>:</strong> Un análisis relacionado del riesgo de spread oculto tras el rendimiento "fijo"</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap stimmt für UNI-Burns auch in v4-Pools</a>:</strong> Uniswaps jüngste Überarbeitung seiner Gebühren- und MEV-Struktur</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave startet Stable Vaults</a>:</strong> Eine verwandte Betrachtung des Spread-Risikos hinter "fester" Rendite</li>
+    <li><strong><a href="/de/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap stimmt für UNI-Burns auch in v4-Pools</a>:</strong> Uniswaps jüngste Überarbeitung seiner Gebühren- und MEV-Struktur</li>
+    <li><strong><a href="/de/blog/aave-stable-vaults-fixed-yield-fintech">Aave startet Stable Vaults</a>:</strong> Eine verwandte Betrachtung des Spread-Risikos hinter "fester" Rendite</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap vote l'extension des burns d'UNI aux pools v4</a>:</strong> La récente refonte par Uniswap de sa structure de frais et de MEV</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave lance les Stable Vaults</a>:</strong> Un regard connexe sur le risque de spread caché derrière un rendement « fixe »</li>
+    <li><strong><a href="/fr/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap vote l'extension des burns d'UNI aux pools v4</a>:</strong> La récente refonte par Uniswap de sa structure de frais et de MEV</li>
+    <li><strong><a href="/fr/blog/aave-stable-vaults-fixed-yield-fintech">Aave lance les Stable Vaults</a>:</strong> Un regard connexe sur le risque de spread caché derrière un rendement « fixe »</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap vota estender as queimas de UNI aos pools v4</a>:</strong> A recente reformulação da Uniswap em sua estrutura de taxas e MEV</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave lança os Stable Vaults</a>:</strong> Uma análise relacionada sobre o risco de spread escondido atrás do rendimento "fixo"</li>
+    <li><strong><a href="/pt/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap vota estender as queimas de UNI aos pools v4</a>:</strong> A recente reformulação da Uniswap em sua estrutura de taxas e MEV</li>
+    <li><strong><a href="/pt/blog/aave-stable-vaults-fixed-yield-fintech">Aave lança os Stable Vaults</a>:</strong> Uma análise relacionada sobre o risco de spread escondido atrás do rendimento "fixo"</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap, UNI Yakımlarını v4 Havuzlarına Genişletmek İçin Oy Kullandı</a>:</strong> Uniswap'in ücret ve MEV yapısındaki son revizyonu</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave Stable Vaults'u Başlatıyor</a>:</strong> "Sabit" getirinin arkasındaki spread riskine dair ilgili bir bakış</li>
+    <li><strong><a href="/tr/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap, UNI Yakımlarını v4 Havuzlarına Genişletmek İçin Oy Kullandı</a>:</strong> Uniswap'in ücret ve MEV yapısındaki son revizyonu</li>
+    <li><strong><a href="/tr/blog/aave-stable-vaults-fixed-yield-fintech">Aave Stable Vaults'u Başlatıyor</a>:</strong> "Sabit" getirinin arkasındaki spread riskine dair ilgili bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/uniswap-unification-v4-fee-pfda-vote.php">Uniswap bỏ phiếu mở rộng đốt UNI sang các pool v4</a>:</strong> Đợt cải tổ gần đây của Uniswap đối với cấu trúc phí và MEV</li>
-    <li><strong><a href="/blog/aave-stable-vaults-fixed-yield-fintech.php">Aave ra mắt Stable Vaults</a>:</strong> Một góc nhìn liên quan về rủi ro chênh lệch ẩn sau lợi suất "cố định"</li>
+    <li><strong><a href="/vi/blog/uniswap-unification-v4-fee-pfda-vote">Uniswap bỏ phiếu mở rộng đốt UNI sang các pool v4</a>:</strong> Đợt cải tổ gần đây của Uniswap đối với cấu trúc phí và MEV</li>
+    <li><strong><a href="/vi/blog/aave-stable-vaults-fixed-yield-fintech">Aave ra mắt Stable Vaults</a>:</strong> Một góc nhìn liên quan về rủi ro chênh lệch ẩn sau lợi suất "cố định"</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Cointrust(LitePSM 라우팅 통합 발표), Tronweekly·Bitget(DAI·USDS·USDC 1대1 스왑 구조), Sky Protocol 공식 문서(LitePSM 메커니즘 설명), Blockanalitica(Sky 담보 포트폴리오 맥락), Bloomingbit·Cryptonews(LP 보상 최대 33% 삭감 검토), Spark 관련 보도(6월 25일 1억 5,000만 달러 USDS 유동성 이전). 온체인 수치는 시점에 따라 변동할 수 있으며, 본 글은 투자 조언이 아니다.</p>

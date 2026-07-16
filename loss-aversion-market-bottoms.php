@@ -143,49 +143,49 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score 가이드</a>:</strong> 감정과 무관하게 저평가를 판단하는 기준</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon 지표</a>:</strong> 매수를 선행하는 규칙 기반 신호</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> 항복의 온체인 흔적을 읽는 법</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score 가이드</a>:</strong> 감정과 무관하게 저평가를 판단하는 기준</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon 지표</a>:</strong> 매수를 선행하는 규칙 기반 신호</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR</a>:</strong> 항복의 온체인 흔적을 읽는 법</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score Guide</a>:</strong> A yardstick for undervaluation independent of emotion</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> A rule-based signal that leads buying</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> How to read the on-chain footprint of capitulation</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score Guide</a>:</strong> A yardstick for undervaluation independent of emotion</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> A rule-based signal that leads buying</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR</a>:</strong> How to read the on-chain footprint of capitulation</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Zスコア ガイド</a>:</strong> 感情に左右されず割安を判断する基準</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> 買いに先行するルールベースのシグナル</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> 降伏のオンチェーンの痕跡を読む方法</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア ガイド</a>:</strong> 感情に左右されず割安を判断する基準</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> 買いに先行するルールベースのシグナル</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR</a>:</strong> 降伏のオンチェーンの痕跡を読む方法</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mvrv-z-score.php">Guía MVRV Z-Score</a>:</strong> Un criterio de infravaloración independiente de la emoción</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Una señal basada en reglas que anticipa la compra</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Cómo leer la huella on-chain de la capitulación</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">Guía MVRV Z-Score</a>:</strong> Un criterio de infravaloración independiente de la emoción</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Una señal basada en reglas que anticipa la compra</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR</a>:</strong> Cómo leer la huella on-chain de la capitulación</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV-Z-Score-Anleitung</a>:</strong> Ein Maßstab für Unterbewertung unabhängig von Emotion</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Ein regelbasiertes Signal, das dem Kauf vorausgeht</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Wie man die On-Chain-Spur der Kapitulation liest</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV-Z-Score-Anleitung</a>:</strong> Ein Maßstab für Unterbewertung unabhängig von Emotion</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Ein regelbasiertes Signal, das dem Kauf vorausgeht</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR</a>:</strong> Wie man die On-Chain-Spur der Kapitulation liest</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mvrv-z-score.php">Guide du MVRV Z-Score</a>:</strong> Un repère de sous-évaluation indépendant de l'émotion</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Un signal basé sur des règles qui précède l'achat</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Comment lire la trace on-chain de la capitulation</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">Guide du MVRV Z-Score</a>:</strong> Un repère de sous-évaluation indépendant de l'émotion</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Un signal basé sur des règles qui précède l'achat</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR</a>:</strong> Comment lire la trace on-chain de la capitulation</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mvrv-z-score.php">Guia do MVRV Z-Score</a>:</strong> Uma régua de subvalorização independente da emoção</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Um sinal baseado em regras que antecede a compra</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Como ler o rastro on-chain da capitulação</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">Guia do MVRV Z-Score</a>:</strong> Uma régua de subvalorização independente da emoção</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Um sinal baseado em regras que antecede a compra</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR</a>:</strong> Como ler o rastro on-chain da capitulação</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score Rehberi</a>:</strong> Duygudan bağımsız bir değer düşüklüğü ölçütü</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Alımdan önce gelen kural tabanlı bir sinyal</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Teslimiyetin on-chain izini okuma yöntemi</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Score Rehberi</a>:</strong> Duygudan bağımsız bir değer düşüklüğü ölçütü</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Alımdan önce gelen kural tabanlı bir sinyal</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR</a>:</strong> Teslimiyetin on-chain izini okuma yöntemi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mvrv-z-score.php">Hướng dẫn MVRV Z-Score</a>:</strong> Thước đo định giá thấp không phụ thuộc vào cảm xúc</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Tín hiệu dựa trên quy tắc đi trước hành động mua</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Cách đọc dấu vết on-chain của sự đầu hàng</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">Hướng dẫn MVRV Z-Score</a>:</strong> Thước đo định giá thấp không phụ thuộc vào cảm xúc</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Tín hiệu dựa trên quy tắc đi trước hành động mua</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR</a>:</strong> Cách đọc dấu vết on-chain của sự đầu hàng</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">참고: Kahneman &amp; Tversky, "Prospect Theory: An Analysis of Decision under Risk"(Econometrica, 1979); Shefrin &amp; Statman, "The Disposition to Sell Winners Too Early and Ride Losers Too Long"(Journal of Finance, 1985). 본 글은 투자 조언이 아니다.</p>

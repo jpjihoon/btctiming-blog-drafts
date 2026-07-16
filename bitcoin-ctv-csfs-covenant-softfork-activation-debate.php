@@ -263,49 +263,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">BIP-110 데이터 축소 소프트포크 신호</a>:</strong> 또 다른 비트코인 소프트포크 신호 국면을 다룬 글</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">블록스트림의 새 오프코드 제안</a>:</strong> 비트코인 스크립트 확장을 둘러싼 또 다른 논의</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">비트코인 양자 마이그레이션 논쟁</a>:</strong> 합의 규칙 변경을 둘러싼 또 다른 첨예한 갈등</li>
+    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling">BIP-110 데이터 축소 소프트포크 신호</a>:</strong> 또 다른 비트코인 소프트포크 신호 국면을 다룬 글</li>
+    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode">블록스트림의 새 오프코드 제안</a>:</strong> 비트코인 스크립트 확장을 둘러싼 또 다른 논의</li>
+    <li><strong><a href="/blog/bitcoin-quantum-migration-debate">비트코인 양자 마이그레이션 논쟁</a>:</strong> 합의 규칙 변경을 둘러싼 또 다른 첨예한 갈등</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">BIP-110 reduced-data soft fork signaling</a>:</strong> Another Bitcoin soft-fork signaling episode</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">Blockstream's new opcode proposal</a>:</strong> Another debate over extending Bitcoin Script</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">Bitcoin's quantum migration debate</a>:</strong> Another sharp conflict over changing consensus rules</li>
+    <li><strong><a href="/en/blog/bip110-reduced-data-soft-fork-signaling">BIP-110 reduced-data soft fork signaling</a>:</strong> Another Bitcoin soft-fork signaling episode</li>
+    <li><strong><a href="/en/blog/blockstream-op-checkshrincs-quantum-opcode">Blockstream's new opcode proposal</a>:</strong> Another debate over extending Bitcoin Script</li>
+    <li><strong><a href="/en/blog/bitcoin-quantum-migration-debate">Bitcoin's quantum migration debate</a>:</strong> Another sharp conflict over changing consensus rules</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">BIP-110データ削減ソフトフォークの信号</a>:</strong> もう一つのビットコイン・ソフトフォーク信号局面</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">ブロックストリームの新オペコード提案</a>:</strong> ビットコイン・スクリプト拡張を巡るもう一つの議論</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">ビットコインの量子マイグレーション論争</a>:</strong> 合意ルール変更を巡るもう一つの先鋭な対立</li>
+    <li><strong><a href="/ja/blog/bip110-reduced-data-soft-fork-signaling">BIP-110データ削減ソフトフォークの信号</a>:</strong> もう一つのビットコイン・ソフトフォーク信号局面</li>
+    <li><strong><a href="/ja/blog/blockstream-op-checkshrincs-quantum-opcode">ブロックストリームの新オペコード提案</a>:</strong> ビットコイン・スクリプト拡張を巡るもう一つの議論</li>
+    <li><strong><a href="/ja/blog/bitcoin-quantum-migration-debate">ビットコインの量子マイグレーション論争</a>:</strong> 合意ルール変更を巡るもう一つの先鋭な対立</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">Señalización del soft fork de datos reducidos BIP-110</a>:</strong> Otro episodio de señalización de soft fork en Bitcoin</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">La nueva propuesta de opcode de Blockstream</a>:</strong> Otro debate sobre extender el Script de Bitcoin</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">El debate de la migración cuántica de Bitcoin</a>:</strong> Otro conflicto agudo sobre cambiar las reglas de consenso</li>
+    <li><strong><a href="/es/blog/bip110-reduced-data-soft-fork-signaling">Señalización del soft fork de datos reducidos BIP-110</a>:</strong> Otro episodio de señalización de soft fork en Bitcoin</li>
+    <li><strong><a href="/es/blog/blockstream-op-checkshrincs-quantum-opcode">La nueva propuesta de opcode de Blockstream</a>:</strong> Otro debate sobre extender el Script de Bitcoin</li>
+    <li><strong><a href="/es/blog/bitcoin-quantum-migration-debate">El debate de la migración cuántica de Bitcoin</a>:</strong> Otro conflicto agudo sobre cambiar las reglas de consenso</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">BIP-110-Signalisierung des Reduced-Data-Softforks</a>:</strong> Eine weitere Bitcoin-Softfork-Signalisierungsepisode</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">Blockstreams neuer Opcode-Vorschlag</a>:</strong> Eine weitere Debatte über die Erweiterung des Bitcoin-Scripts</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">Bitcoins Quanten-Migrationsdebatte</a>:</strong> Ein weiterer scharfer Konflikt über die Änderung der Konsensregeln</li>
+    <li><strong><a href="/de/blog/bip110-reduced-data-soft-fork-signaling">BIP-110-Signalisierung des Reduced-Data-Softforks</a>:</strong> Eine weitere Bitcoin-Softfork-Signalisierungsepisode</li>
+    <li><strong><a href="/de/blog/blockstream-op-checkshrincs-quantum-opcode">Blockstreams neuer Opcode-Vorschlag</a>:</strong> Eine weitere Debatte über die Erweiterung des Bitcoin-Scripts</li>
+    <li><strong><a href="/de/blog/bitcoin-quantum-migration-debate">Bitcoins Quanten-Migrationsdebatte</a>:</strong> Ein weiterer scharfer Konflikt über die Änderung der Konsensregeln</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">Signalisation du soft fork à données réduites BIP-110</a>:</strong> Un autre épisode de signalisation de soft fork Bitcoin</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">La nouvelle proposition d'opcode de Blockstream</a>:</strong> Un autre débat sur l'extension du Script Bitcoin</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">Le débat sur la migration quantique de Bitcoin</a>:</strong> Un autre conflit aigu sur la modification des règles de consensus</li>
+    <li><strong><a href="/fr/blog/bip110-reduced-data-soft-fork-signaling">Signalisation du soft fork à données réduites BIP-110</a>:</strong> Un autre épisode de signalisation de soft fork Bitcoin</li>
+    <li><strong><a href="/fr/blog/blockstream-op-checkshrincs-quantum-opcode">La nouvelle proposition d'opcode de Blockstream</a>:</strong> Un autre débat sur l'extension du Script Bitcoin</li>
+    <li><strong><a href="/fr/blog/bitcoin-quantum-migration-debate">Le débat sur la migration quantique de Bitcoin</a>:</strong> Un autre conflit aigu sur la modification des règles de consensus</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">Sinalização do soft fork de dados reduzidos BIP-110</a>:</strong> Outro episódio de sinalização de soft fork no Bitcoin</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">A nova proposta de opcode da Blockstream</a>:</strong> Outro debate sobre estender o Script do Bitcoin</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">O debate da migração quântica do Bitcoin</a>:</strong> Outro conflito agudo sobre mudar as regras de consenso</li>
+    <li><strong><a href="/pt/blog/bip110-reduced-data-soft-fork-signaling">Sinalização do soft fork de dados reduzidos BIP-110</a>:</strong> Outro episódio de sinalização de soft fork no Bitcoin</li>
+    <li><strong><a href="/pt/blog/blockstream-op-checkshrincs-quantum-opcode">A nova proposta de opcode da Blockstream</a>:</strong> Outro debate sobre estender o Script do Bitcoin</li>
+    <li><strong><a href="/pt/blog/bitcoin-quantum-migration-debate">O debate da migração quântica do Bitcoin</a>:</strong> Outro conflito agudo sobre mudar as regras de consenso</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">BIP-110 azaltılmış veri yazılım çatalı sinyali</a>:</strong> Bir başka Bitcoin yazılım çatalı sinyal dönemi</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">Blockstream'in yeni opcode önerisi</a>:</strong> Bitcoin Script'ini genişletmeye dair bir başka tartışma</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">Bitcoin'in kuantum göçü tartışması</a>:</strong> Konsensüs kurallarını değiştirmeye dair bir başka keskin çatışma</li>
+    <li><strong><a href="/tr/blog/bip110-reduced-data-soft-fork-signaling">BIP-110 azaltılmış veri yazılım çatalı sinyali</a>:</strong> Bir başka Bitcoin yazılım çatalı sinyal dönemi</li>
+    <li><strong><a href="/tr/blog/blockstream-op-checkshrincs-quantum-opcode">Blockstream'in yeni opcode önerisi</a>:</strong> Bitcoin Script'ini genişletmeye dair bir başka tartışma</li>
+    <li><strong><a href="/tr/blog/bitcoin-quantum-migration-debate">Bitcoin'in kuantum göçü tartışması</a>:</strong> Konsensüs kurallarını değiştirmeye dair bir başka keskin çatışma</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/bip110-reduced-data-soft-fork-signaling.php">Phát tín hiệu soft fork giảm dữ liệu BIP-110</a>:</strong> Một đợt phát tín hiệu soft fork khác của Bitcoin</li>
-    <li><strong><a href="/blog/blockstream-op-checkshrincs-quantum-opcode.php">Đề xuất opcode mới của Blockstream</a>:</strong> Một cuộc tranh luận khác về việc mở rộng Bitcoin Script</li>
-    <li><strong><a href="/blog/bitcoin-quantum-migration-debate.php">Cuộc tranh luận di trú lượng tử của Bitcoin</a>:</strong> Một xung đột gay gắt khác về việc thay đổi quy tắc đồng thuận</li>
+    <li><strong><a href="/vi/blog/bip110-reduced-data-soft-fork-signaling">Phát tín hiệu soft fork giảm dữ liệu BIP-110</a>:</strong> Một đợt phát tín hiệu soft fork khác của Bitcoin</li>
+    <li><strong><a href="/vi/blog/blockstream-op-checkshrincs-quantum-opcode">Đề xuất opcode mới của Blockstream</a>:</strong> Một cuộc tranh luận khác về việc mở rộng Bitcoin Script</li>
+    <li><strong><a href="/vi/blog/bitcoin-quantum-migration-debate">Cuộc tranh luận di trú lượng tử của Bitcoin</a>:</strong> Một xung đột gay gắt khác về việc thay đổi quy tắc đồng thuận</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 비트코인 옵테크(OP_CHECKTEMPLATEVERIFY 항목), covenants.info(CTV 제안·2026 배포 파라미터), 비트코인 매거진(BIP-119 논쟁 및 스피디 트라이얼 분석), 프로토스(BIP-119 해설), 언체인드(CTV와 커스터디), 제러미 루빈 저술(rubin.io). 활성화 파라미터는 제안 단계이며 실제 신호·활성화 여부는 확정되지 않았다. 본 글은 투자 조언이 아니다.</p>

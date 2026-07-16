@@ -179,67 +179,67 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score 가이드</a>:</strong> 저점을 포착하는 온체인 지표의 원리</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon 지표</a>:</strong> 채굴자 항복과 회복 전환의 해석</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> 단기 보유자의 손익과 항복 신호</li>
-    <li><strong><a href="/blog/coinbase-premium.php">코인베이스 프리미엄</a>:</strong> 미국 기관 수급의 방향</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">선물-현물 갭</a>:</strong> 파생 레버리지의 청산 국면</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score 가이드</a>:</strong> 저점을 포착하는 온체인 지표의 원리</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon 지표</a>:</strong> 채굴자 항복과 회복 전환의 해석</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR</a>:</strong> 단기 보유자의 손익과 항복 신호</li>
+    <li><strong><a href="/blog/coinbase-premium">코인베이스 프리미엄</a>:</strong> 미국 기관 수급의 방향</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap">선물-현물 갭</a>:</strong> 파생 레버리지의 청산 국면</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score Guide</a>:</strong> How this on-chain gauge catches bottoms</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Reading miner capitulation and recovery</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Short-term holder profit, loss, and capitulation</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> The direction of U.S. institutional flow</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Futures-Spot Gap</a>:</strong> The liquidation phase of leverage</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score Guide</a>:</strong> How this on-chain gauge catches bottoms</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Reading miner capitulation and recovery</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR</a>:</strong> Short-term holder profit, loss, and capitulation</li>
+    <li><strong><a href="/en/blog/coinbase-premium">Coinbase Premium</a>:</strong> The direction of U.S. institutional flow</li>
+    <li><strong><a href="/en/blog/funding-rate-futures-gap">Futures-Spot Gap</a>:</strong> The liquidation phase of leverage</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Zスコア ガイド</a>:</strong> 底値を捉えるオンチェーン指標の原理</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> マイナー降伏と回復転換の読み方</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> 短期保有者の損益と降伏シグナル</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbaseプレミアム</a>:</strong> 米国機関の需給の方向</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">先物-現物ギャップ</a>:</strong> デリバティブのレバレッジ清算局面</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア ガイド</a>:</strong> 底値を捉えるオンチェーン指標の原理</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> マイナー降伏と回復転換の読み方</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR</a>:</strong> 短期保有者の損益と降伏シグナル</li>
+    <li><strong><a href="/ja/blog/coinbase-premium">Coinbaseプレミアム</a>:</strong> 米国機関の需給の方向</li>
+    <li><strong><a href="/ja/blog/funding-rate-futures-gap">先物-現物ギャップ</a>:</strong> デリバティブのレバレッジ清算局面</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mvrv-z-score.php">Guía MVRV Z-Score</a>:</strong> Cómo este indicador on-chain detecta suelos</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Leer la capitulación y recuperación de mineros</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Ganancia, pérdida y capitulación de tenedores a corto plazo</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> La dirección del flujo institucional de EE. UU.</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Brecha Futuros-Spot</a>:</strong> La fase de liquidación del apalancamiento</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">Guía MVRV Z-Score</a>:</strong> Cómo este indicador on-chain detecta suelos</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Leer la capitulación y recuperación de mineros</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR</a>:</strong> Ganancia, pérdida y capitulación de tenedores a corto plazo</li>
+    <li><strong><a href="/es/blog/coinbase-premium">Coinbase Premium</a>:</strong> La dirección del flujo institucional de EE. UU.</li>
+    <li><strong><a href="/es/blog/funding-rate-futures-gap">Brecha Futuros-Spot</a>:</strong> La fase de liquidación del apalancamiento</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV-Z-Score-Anleitung</a>:</strong> Wie dieser On-Chain-Indikator Tiefs erkennt</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Miner-Kapitulation und Erholung lesen</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Gewinn, Verlust und Kapitulation kurzfristiger Halter</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> Die Richtung des US-institutionellen Flusses</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Futures-Spot-Lücke</a>:</strong> Die Liquidationsphase der Hebelwirkung</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV-Z-Score-Anleitung</a>:</strong> Wie dieser On-Chain-Indikator Tiefs erkennt</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Miner-Kapitulation und Erholung lesen</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR</a>:</strong> Gewinn, Verlust und Kapitulation kurzfristiger Halter</li>
+    <li><strong><a href="/de/blog/coinbase-premium">Coinbase Premium</a>:</strong> Die Richtung des US-institutionellen Flusses</li>
+    <li><strong><a href="/de/blog/funding-rate-futures-gap">Futures-Spot-Lücke</a>:</strong> Die Liquidationsphase der Hebelwirkung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mvrv-z-score.php">Guide MVRV Z-Score</a>:</strong> Comment cet indicateur on-chain détecte les creux</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Lire la capitulation et la reprise des mineurs</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Profit, perte et capitulation des détenteurs à court terme</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> La direction du flux institutionnel américain</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Écart Futures-Spot</a>:</strong> La phase de liquidation de l'effet de levier</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">Guide MVRV Z-Score</a>:</strong> Comment cet indicateur on-chain détecte les creux</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Lire la capitulation et la reprise des mineurs</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR</a>:</strong> Profit, perte et capitulation des détenteurs à court terme</li>
+    <li><strong><a href="/fr/blog/coinbase-premium">Coinbase Premium</a>:</strong> La direction du flux institutionnel américain</li>
+    <li><strong><a href="/fr/blog/funding-rate-futures-gap">Écart Futures-Spot</a>:</strong> La phase de liquidation de l'effet de levier</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mvrv-z-score.php">Guia MVRV Z-Score</a>:</strong> Como esse indicador on-chain identifica fundos</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Lendo a capitulação e a recuperação dos mineradores</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Lucro, prejuízo e capitulação dos detentores de curto prazo</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> A direção do fluxo institucional dos EUA</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Gap Futuros-à Vista</a>:</strong> A fase de liquidação da alavancagem</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">Guia MVRV Z-Score</a>:</strong> Como esse indicador on-chain identifica fundos</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Lendo a capitulação e a recuperação dos mineradores</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR</a>:</strong> Lucro, prejuízo e capitulação dos detentores de curto prazo</li>
+    <li><strong><a href="/pt/blog/coinbase-premium">Coinbase Premium</a>:</strong> A direção do fluxo institucional dos EUA</li>
+    <li><strong><a href="/pt/blog/funding-rate-futures-gap">Gap Futuros-à Vista</a>:</strong> A fase de liquidação da alavancagem</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mvrv-z-score.php">MVRV Z-Score Rehberi</a>:</strong> Bu on-chain gösterge dipleri nasıl yakalar</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Madenci teslimiyeti ve toparlanmasını okumak</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Kısa vadeli yatırımcı kâr, zarar ve teslimiyeti</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> ABD kurumsal akışının yönü</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Vadeli-Spot Farkı</a>:</strong> Kaldıracın tasfiye aşaması</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Score Rehberi</a>:</strong> Bu on-chain gösterge dipleri nasıl yakalar</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Madenci teslimiyeti ve toparlanmasını okumak</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR</a>:</strong> Kısa vadeli yatırımcı kâr, zarar ve teslimiyeti</li>
+    <li><strong><a href="/tr/blog/coinbase-premium">Coinbase Premium</a>:</strong> ABD kurumsal akışının yönü</li>
+    <li><strong><a href="/tr/blog/funding-rate-futures-gap">Vadeli-Spot Farkı</a>:</strong> Kaldıracın tasfiye aşaması</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mvrv-z-score.php">Hướng dẫn MVRV Z-Score</a>:</strong> Chỉ số on-chain này bắt đáy như thế nào</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.php">Hash Ribbon</a>:</strong> Đọc hiểu sự đầu hàng và phục hồi của thợ đào</li>
-    <li><strong><a href="/blog/sth-sopr.php">STH-SOPR</a>:</strong> Lãi, lỗ và sự đầu hàng của người nắm giữ ngắn hạn</li>
-    <li><strong><a href="/blog/coinbase-premium.php">Coinbase Premium</a>:</strong> Hướng đi của dòng vốn tổ chức Mỹ</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.php">Chênh Lệch Hợp Đồng Tương Lai-Giao Ngay</a>:</strong> Giai đoạn thanh lý đòn bẩy</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">Hướng dẫn MVRV Z-Score</a>:</strong> Chỉ số on-chain này bắt đáy như thế nào</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Đọc hiểu sự đầu hàng và phục hồi của thợ đào</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR</a>:</strong> Lãi, lỗ và sự đầu hàng của người nắm giữ ngắn hạn</li>
+    <li><strong><a href="/vi/blog/coinbase-premium">Coinbase Premium</a>:</strong> Hướng đi của dòng vốn tổ chức Mỹ</li>
+    <li><strong><a href="/vi/blog/funding-rate-futures-gap">Chênh Lệch Hợp Đồng Tương Lai-Giao Ngay</a>:</strong> Giai đoạn thanh lý đòn bẩy</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Investing.com·MetaMask(가격), CoinDesk·CryptoQuant(자본 효율), Capriole Investments·Charles Edwards(생산원가), BTCtiming 자체 온체인 지표. 본 글은 투자 조언이 아니다.</p>

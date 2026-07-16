@@ -468,58 +468,58 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">공포탐욕지수가 5를 찍었다, 그런데 두 달 넘게 풀리지 않았다</a>:</strong> 오늘 다룬 공포탐욕지수가 왜 극단적 공포에 오래 머무는지를 다진 배경 글</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">단기 보유자는 손실 중에 파는데, 장기 보유자는 태연하다</a>:</strong> 같은 반등을 온체인 보유자 구조로 짚은 글</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">비트코인은 $64,500까지 반등했지만, NUPL과 미결제약정은 아직 이를 확인해주지 않았다</a>:</strong> 이번 반등을 파생상품·NUPL 렌즈로 본 글</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">나스닥과는 갈라서고, 금과는 등 돌리고, 달러와는 다시 붙었다</a>:</strong> 이번 매크로 재료의 배경이 된 상관관계 반전 글</li>
+    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal">공포탐욕지수가 5를 찍었다, 그런데 두 달 넘게 풀리지 않았다</a>:</strong> 오늘 다룬 공포탐욕지수가 왜 극단적 공포에 오래 머무는지를 다진 배경 글</li>
+    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground">단기 보유자는 손실 중에 파는데, 장기 보유자는 태연하다</a>:</strong> 같은 반등을 온체인 보유자 구조로 짚은 글</li>
+    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap">비트코인은 $64,500까지 반등했지만, NUPL과 미결제약정은 아직 이를 확인해주지 않았다</a>:</strong> 이번 반등을 파생상품·NUPL 렌즈로 본 글</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap">나스닥과는 갈라서고, 금과는 등 돌리고, 달러와는 다시 붙었다</a>:</strong> 이번 매크로 재료의 배경이 된 상관관계 반전 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">The Fear &amp; Greed Index Hit 5, and Stayed That Way for Two Months</a>:</strong> Background on why this index has lingered in extreme fear for so long</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Short-Term Holders Are Selling at a Loss While Long-Term Holders Barely Blink</a>:</strong> The same bounce, viewed through on-chain holder cohorts</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Bitcoin Bounced to $64,500, But NUPL and Open Interest Haven't Confirmed It</a>:</strong> This bounce viewed through derivatives and NUPL</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">It Has Split from Nasdaq, Turned Its Back on Gold, and Reunited with the Dollar</a>:</strong> The correlation flip behind this macro narrative</li>
+    <li><strong><a href="/en/blog/fear-greed-extreme-fear-duration-signal">The Fear &amp; Greed Index Hit 5, and Stayed That Way for Two Months</a>:</strong> Background on why this index has lingered in extreme fear for so long</li>
+    <li><strong><a href="/en/blog/sopr-cohort-split-cost-basis-battleground">Short-Term Holders Are Selling at a Loss While Long-Term Holders Barely Blink</a>:</strong> The same bounce, viewed through on-chain holder cohorts</li>
+    <li><strong><a href="/en/blog/nupl-taker-sell-hollow-bounce-gap">Bitcoin Bounced to $64,500, But NUPL and Open Interest Haven't Confirmed It</a>:</strong> This bounce viewed through derivatives and NUPL</li>
+    <li><strong><a href="/en/blog/correlation-vacuum-oi-gap">It Has Split from Nasdaq, Turned Its Back on Gold, and Reunited with the Dollar</a>:</strong> The correlation flip behind this macro narrative</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">恐怖強欲指数が5を記録した、だが2ヶ月以上解けなかった</a>:</strong> 本稿の指数がなぜ長く極端な恐怖にとどまるのかを扱った背景記事</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">短期保有者は損失中に売るのに、長期保有者は動じない</a>:</strong> 同じ反発をオンチェーン保有者構造から見た記事</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">ビットコインは6万4,500ドルまで反発したが、NUPLと未決済建玉はそれを裏付けていない</a>:</strong> 今回の反発をデリバティブ・NUPLの視点で見た記事</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ナスダックとは分かれ、金には背を向け、ドルとはまた結びついた</a>:</strong> 今回のマクロ材料の背景となった相関反転の記事</li>
+    <li><strong><a href="/ja/blog/fear-greed-extreme-fear-duration-signal">恐怖強欲指数が5を記録した、だが2ヶ月以上解けなかった</a>:</strong> 本稿の指数がなぜ長く極端な恐怖にとどまるのかを扱った背景記事</li>
+    <li><strong><a href="/ja/blog/sopr-cohort-split-cost-basis-battleground">短期保有者は損失中に売るのに、長期保有者は動じない</a>:</strong> 同じ反発をオンチェーン保有者構造から見た記事</li>
+    <li><strong><a href="/ja/blog/nupl-taker-sell-hollow-bounce-gap">ビットコインは6万4,500ドルまで反発したが、NUPLと未決済建玉はそれを裏付けていない</a>:</strong> 今回の反発をデリバティブ・NUPLの視点で見た記事</li>
+    <li><strong><a href="/ja/blog/correlation-vacuum-oi-gap">ナスダックとは分かれ、金には背を向け、ドルとはまた結びついた</a>:</strong> 今回のマクロ材料の背景となった相関反転の記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">El Índice de Miedo y Codicia Marcó 5, Y Se Mantuvo Así Durante Dos Meses</a>:</strong> Por qué este índice lleva tanto tiempo en miedo extremo</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Los Tenedores a Corto Plazo Venden con Pérdidas Mientras los de Largo Plazo Apenas Reaccionan</a>:</strong> El mismo rebote visto a través de las cohortes de tenedores on-chain</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Bitcoin Rebotó a 64.500 $, Pero el NUPL y el Interés Abierto No Lo Han Confirmado</a>:</strong> Este rebote visto a través de derivados y NUPL</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Se Separó del Nasdaq, le Dio la Espalda al Oro y se Reencontró con el Dólar</a>:</strong> El giro de correlación detrás de esta narrativa macro</li>
+    <li><strong><a href="/es/blog/fear-greed-extreme-fear-duration-signal">El Índice de Miedo y Codicia Marcó 5, Y Se Mantuvo Así Durante Dos Meses</a>:</strong> Por qué este índice lleva tanto tiempo en miedo extremo</li>
+    <li><strong><a href="/es/blog/sopr-cohort-split-cost-basis-battleground">Los Tenedores a Corto Plazo Venden con Pérdidas Mientras los de Largo Plazo Apenas Reaccionan</a>:</strong> El mismo rebote visto a través de las cohortes de tenedores on-chain</li>
+    <li><strong><a href="/es/blog/nupl-taker-sell-hollow-bounce-gap">Bitcoin Rebotó a 64.500 $, Pero el NUPL y el Interés Abierto No Lo Han Confirmado</a>:</strong> Este rebote visto a través de derivados y NUPL</li>
+    <li><strong><a href="/es/blog/correlation-vacuum-oi-gap">Se Separó del Nasdaq, le Dio la Espalda al Oro y se Reencontró con el Dólar</a>:</strong> El giro de correlación detrás de esta narrativa macro</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">Der Angst-und-Gier-Index Fiel auf 5, Und Blieb Zwei Monate Lang So</a>:</strong> Warum dieser Index so lange in extremer Angst verharrt</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Kurzfristige Halter Verkaufen mit Verlust, Langfristige Zucken Kaum</a>:</strong> Dieselbe Erholung, betrachtet durch On-Chain-Halterkohorten</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Bitcoin Erholte Sich auf 64.500 $, Doch NUPL und Open Interest Haben Das Nicht Bestätigt</a>:</strong> Diese Erholung durch die Brille von Derivaten und NUPL</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Von Nasdaq Getrennt, dem Gold den Rücken Gekehrt und mit dem Dollar Wiedervereint</a>:</strong> Die Korrelationswende hinter dieser Makro-Erzählung</li>
+    <li><strong><a href="/de/blog/fear-greed-extreme-fear-duration-signal">Der Angst-und-Gier-Index Fiel auf 5, Und Blieb Zwei Monate Lang So</a>:</strong> Warum dieser Index so lange in extremer Angst verharrt</li>
+    <li><strong><a href="/de/blog/sopr-cohort-split-cost-basis-battleground">Kurzfristige Halter Verkaufen mit Verlust, Langfristige Zucken Kaum</a>:</strong> Dieselbe Erholung, betrachtet durch On-Chain-Halterkohorten</li>
+    <li><strong><a href="/de/blog/nupl-taker-sell-hollow-bounce-gap">Bitcoin Erholte Sich auf 64.500 $, Doch NUPL und Open Interest Haben Das Nicht Bestätigt</a>:</strong> Diese Erholung durch die Brille von Derivaten und NUPL</li>
+    <li><strong><a href="/de/blog/correlation-vacuum-oi-gap">Von Nasdaq Getrennt, dem Gold den Rücken Gekehrt und mit dem Dollar Wiedervereint</a>:</strong> Die Korrelationswende hinter dieser Makro-Erzählung</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">L'Indice de Peur et de Cupidité a Touché 5, Et C'est Resté Ainsi Pendant Deux Mois</a>:</strong> Pourquoi cet indice est resté si longtemps en peur extrême</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Les Détenteurs à Court Terme Vendent à Perte Pendant que Ceux à Long Terme Restent Impassibles</a>:</strong> Le même rebond vu à travers les cohortes de détenteurs on-chain</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Le Bitcoin a Rebondi à 64 500 $, Mais le NUPL et l'Open Interest ne l'ont Pas Confirmé</a>:</strong> Ce rebond vu à travers les dérivés et le NUPL</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Séparé du Nasdaq, il a Tourné le Dos à l'Or et s'est Réuni avec le Dollar</a>:</strong> Le retournement de corrélation derrière ce récit macro</li>
+    <li><strong><a href="/fr/blog/fear-greed-extreme-fear-duration-signal">L'Indice de Peur et de Cupidité a Touché 5, Et C'est Resté Ainsi Pendant Deux Mois</a>:</strong> Pourquoi cet indice est resté si longtemps en peur extrême</li>
+    <li><strong><a href="/fr/blog/sopr-cohort-split-cost-basis-battleground">Les Détenteurs à Court Terme Vendent à Perte Pendant que Ceux à Long Terme Restent Impassibles</a>:</strong> Le même rebond vu à travers les cohortes de détenteurs on-chain</li>
+    <li><strong><a href="/fr/blog/nupl-taker-sell-hollow-bounce-gap">Le Bitcoin a Rebondi à 64 500 $, Mais le NUPL et l'Open Interest ne l'ont Pas Confirmé</a>:</strong> Ce rebond vu à travers les dérivés et le NUPL</li>
+    <li><strong><a href="/fr/blog/correlation-vacuum-oi-gap">Séparé du Nasdaq, il a Tourné le Dos à l'Or et s'est Réuni avec le Dollar</a>:</strong> Le retournement de corrélation derrière ce récit macro</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">O Índice de Medo e Ganância Atingiu 5, E Assim Permaneceu por Dois Meses</a>:</strong> Por que esse índice ficou tanto tempo em medo extremo</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Detentores de Curto Prazo Vendem com Prejuízo Enquanto os de Longo Prazo Mal Reagem</a>:</strong> O mesmo repique visto pelas coortes de detentores on-chain</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">O Bitcoin Repicou para US$ 64.500, Mas o NUPL e o Interesse em Aberto Não Confirmaram Isso</a>:</strong> Esse repique visto por derivativos e NUPL</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Separou-se do Nasdaq, Virou as Costas para o Ouro e se Reencontrou com o Dólar</a>:</strong> A virada de correlação por trás dessa narrativa macro</li>
+    <li><strong><a href="/pt/blog/fear-greed-extreme-fear-duration-signal">O Índice de Medo e Ganância Atingiu 5, E Assim Permaneceu por Dois Meses</a>:</strong> Por que esse índice ficou tanto tempo em medo extremo</li>
+    <li><strong><a href="/pt/blog/sopr-cohort-split-cost-basis-battleground">Detentores de Curto Prazo Vendem com Prejuízo Enquanto os de Longo Prazo Mal Reagem</a>:</strong> O mesmo repique visto pelas coortes de detentores on-chain</li>
+    <li><strong><a href="/pt/blog/nupl-taker-sell-hollow-bounce-gap">O Bitcoin Repicou para US$ 64.500, Mas o NUPL e o Interesse em Aberto Não Confirmaram Isso</a>:</strong> Esse repique visto por derivativos e NUPL</li>
+    <li><strong><a href="/pt/blog/correlation-vacuum-oi-gap">Separou-se do Nasdaq, Virou as Costas para o Ouro e se Reencontrou com o Dólar</a>:</strong> A virada de correlação por trás dessa narrativa macro</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">Korku ve Açgözlülük Endeksi 5'e Düştü, Ve İki Ay Boyunca Öyle Kaldı</a>:</strong> Bu endeksin neden bu kadar uzun süre aşırı korkuda kaldığına dair arka plan</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Kısa Vadeli Yatırımcılar Zararına Satarken Uzun Vadeliler Neredeyse Hiç Tepki Vermiyor</a>:</strong> Aynı yükseliş on-chain yatırımcı kohortları üzerinden</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Bitcoin 64.500 Dolara Toparlandı, Ama NUPL ve Açık Pozisyon Bunu Doğrulamadı</a>:</strong> Bu yükseliş türev ürünler ve NUPL merceğinden</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Nasdaq'tan Ayrıldı, Altına Sırtını Döndü ve Dolarla Yeniden Buluştu</a>:</strong> Bu makro anlatının arkasındaki korelasyon dönüşü</li>
+    <li><strong><a href="/tr/blog/fear-greed-extreme-fear-duration-signal">Korku ve Açgözlülük Endeksi 5'e Düştü, Ve İki Ay Boyunca Öyle Kaldı</a>:</strong> Bu endeksin neden bu kadar uzun süre aşırı korkuda kaldığına dair arka plan</li>
+    <li><strong><a href="/tr/blog/sopr-cohort-split-cost-basis-battleground">Kısa Vadeli Yatırımcılar Zararına Satarken Uzun Vadeliler Neredeyse Hiç Tepki Vermiyor</a>:</strong> Aynı yükseliş on-chain yatırımcı kohortları üzerinden</li>
+    <li><strong><a href="/tr/blog/nupl-taker-sell-hollow-bounce-gap">Bitcoin 64.500 Dolara Toparlandı, Ama NUPL ve Açık Pozisyon Bunu Doğrulamadı</a>:</strong> Bu yükseliş türev ürünler ve NUPL merceğinden</li>
+    <li><strong><a href="/tr/blog/correlation-vacuum-oi-gap">Nasdaq'tan Ayrıldı, Altına Sırtını Döndü ve Dolarla Yeniden Buluştu</a>:</strong> Bu makro anlatının arkasındaki korelasyon dönüşü</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/fear-greed-extreme-fear-duration-signal.php">Chỉ Số Sợ Hãi &amp; Tham Lam Chạm Mức 5, Và Duy Trì Như Vậy Suốt Hai Tháng</a>:</strong> Bối cảnh vì sao chỉ số này neo ở vùng sợ hãi cực độ quá lâu</li>
-    <li><strong><a href="/blog/sopr-cohort-split-cost-basis-battleground.php">Người Nắm Giữ Ngắn Hạn Bán Lỗ Trong Khi Người Nắm Giữ Dài Hạn Gần Như Không Phản Ứng</a>:</strong> Cùng đợt phục hồi nhìn qua các nhóm người nắm giữ on-chain</li>
-    <li><strong><a href="/blog/nupl-taker-sell-hollow-bounce-gap.php">Bitcoin Đã Phục Hồi Lên 64.500 USD, Nhưng NUPL và Hợp Đồng Mở Chưa Xác Nhận Điều Đó</a>:</strong> Đợt phục hồi này nhìn qua lăng kính phái sinh và NUPL</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Đã Tách Khỏi Nasdaq, Quay Lưng Với Vàng và Tái Hợp Với Đồng Đô La</a>:</strong> Sự đảo chiều tương quan đằng sau câu chuyện vĩ mô này</li>
+    <li><strong><a href="/vi/blog/fear-greed-extreme-fear-duration-signal">Chỉ Số Sợ Hãi &amp; Tham Lam Chạm Mức 5, Và Duy Trì Như Vậy Suốt Hai Tháng</a>:</strong> Bối cảnh vì sao chỉ số này neo ở vùng sợ hãi cực độ quá lâu</li>
+    <li><strong><a href="/vi/blog/sopr-cohort-split-cost-basis-battleground">Người Nắm Giữ Ngắn Hạn Bán Lỗ Trong Khi Người Nắm Giữ Dài Hạn Gần Như Không Phản Ứng</a>:</strong> Cùng đợt phục hồi nhìn qua các nhóm người nắm giữ on-chain</li>
+    <li><strong><a href="/vi/blog/nupl-taker-sell-hollow-bounce-gap">Bitcoin Đã Phục Hồi Lên 64.500 USD, Nhưng NUPL và Hợp Đồng Mở Chưa Xác Nhận Điều Đó</a>:</strong> Đợt phục hồi này nhìn qua lăng kính phái sinh và NUPL</li>
+    <li><strong><a href="/vi/blog/correlation-vacuum-oi-gap">Đã Tách Khỏi Nasdaq, Quay Lưng Với Vàng và Tái Hợp Với Đồng Đô La</a>:</strong> Sự đảo chiều tương quan đằng sau câu chuyện vĩ mô này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Yahoo Finance·Fortune·Sunday Guardian·CoinGecko(가격·24시간 변동), Alternative.me·CFGI(공포탐욕지수), Altrady·AltIndex·Google Trends(구글 검색 관심도), CoinGlass·SoSoValue·CryptoRank(이더리움 ETF 자금흐름), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

@@ -377,40 +377,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">BNB체인 2026 하반기 처리량 로드맵</a>:</strong> 새 AI 레이어1이 등장한 배경이 된 BSC 자체의 처리량 확대 계획과 그 대가를 살펴보기</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">동일 블록 내 백런 방식의 MEV 추출</a>:</strong> TxStream이 없애려는 것과 같은 시퀀싱 게임이 실제로 어떻게 작동하는지 확인하기</li>
+    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap">BNB체인 2026 하반기 처리량 로드맵</a>:</strong> 새 AI 레이어1이 등장한 배경이 된 BSC 자체의 처리량 확대 계획과 그 대가를 살펴보기</li>
+    <li><strong><a href="/blog/same-block-backrun-mev-extraction">동일 블록 내 백런 방식의 MEV 추출</a>:</strong> TxStream이 없애려는 것과 같은 시퀀싱 게임이 실제로 어떻게 작동하는지 확인하기</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">BNB Chain's H2 2026 Throughput Roadmap</a>:</strong> The BSC-side scaling plan this new AI Layer-1 emerged alongside, and its trade-offs</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">Same-Block Backrun MEV Extraction</a>:</strong> See how the same sequencing game TxStream aims to eliminate actually plays out</li>
+    <li><strong><a href="/en/blog/bnb-chain-h2-2026-throughput-roadmap">BNB Chain's H2 2026 Throughput Roadmap</a>:</strong> The BSC-side scaling plan this new AI Layer-1 emerged alongside, and its trade-offs</li>
+    <li><strong><a href="/en/blog/same-block-backrun-mev-extraction">Same-Block Backrun MEV Extraction</a>:</strong> See how the same sequencing game TxStream aims to eliminate actually plays out</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">BNBチェーン2026年下半期処理速度ロードマップ</a>:</strong> 新AIレイヤー1が生まれた背景にあるBSC自体の拡張計画とその代償</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">同一ブロック内バックラン方式のMEV抽出</a>:</strong> TxStreamが排除しようとしているのと同じシーケンシングゲームが実際にどう機能するかを見る</li>
+    <li><strong><a href="/ja/blog/bnb-chain-h2-2026-throughput-roadmap">BNBチェーン2026年下半期処理速度ロードマップ</a>:</strong> 新AIレイヤー1が生まれた背景にあるBSC自体の拡張計画とその代償</li>
+    <li><strong><a href="/ja/blog/same-block-backrun-mev-extraction">同一ブロック内バックラン方式のMEV抽出</a>:</strong> TxStreamが排除しようとしているのと同じシーケンシングゲームが実際にどう機能するかを見る</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">Hoja de Ruta de Rendimiento de BNB Chain para el 2S 2026</a>:</strong> El plan de escalado del lado de BSC junto al que surgió esta nueva Layer-1 de IA, y sus compensaciones</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">Extracción de MEV por Backrunning en el Mismo Bloque</a>:</strong> Vea cómo se desarrolla realmente el mismo juego de secuenciación que TxStream busca eliminar</li>
+    <li><strong><a href="/es/blog/bnb-chain-h2-2026-throughput-roadmap">Hoja de Ruta de Rendimiento de BNB Chain para el 2S 2026</a>:</strong> El plan de escalado del lado de BSC junto al que surgió esta nueva Layer-1 de IA, y sus compensaciones</li>
+    <li><strong><a href="/es/blog/same-block-backrun-mev-extraction">Extracción de MEV por Backrunning en el Mismo Bloque</a>:</strong> Vea cómo se desarrolla realmente el mismo juego de secuenciación que TxStream busca eliminar</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">BNB Chains H2-2026-Durchsatz-Roadmap</a>:</strong> Der BSC-seitige Skalierungsplan, neben dem diese neue KI-Layer-1 entstand, und seine Kompromisse</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">MEV-Extraktion per Backrunning im selben Block</a>:</strong> Sehen, wie dasselbe Sequenzierungsspiel, das TxStream eliminieren soll, tatsächlich abläuft</li>
+    <li><strong><a href="/de/blog/bnb-chain-h2-2026-throughput-roadmap">BNB Chains H2-2026-Durchsatz-Roadmap</a>:</strong> Der BSC-seitige Skalierungsplan, neben dem diese neue KI-Layer-1 entstand, und seine Kompromisse</li>
+    <li><strong><a href="/de/blog/same-block-backrun-mev-extraction">MEV-Extraktion per Backrunning im selben Block</a>:</strong> Sehen, wie dasselbe Sequenzierungsspiel, das TxStream eliminieren soll, tatsächlich abläuft</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">Feuille de Route de Débit S2 2026 de la BNB Chain</a> :</strong> Le plan de scaling côté BSC aux côtés duquel cette nouvelle Layer-1 IA est apparue, et ses compromis</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">Extraction de MEV par Backrunning dans le Même Bloc</a> :</strong> Voir comment se déroule réellement le même jeu de séquençage que TxStream cherche à éliminer</li>
+    <li><strong><a href="/fr/blog/bnb-chain-h2-2026-throughput-roadmap">Feuille de Route de Débit S2 2026 de la BNB Chain</a> :</strong> Le plan de scaling côté BSC aux côtés duquel cette nouvelle Layer-1 IA est apparue, et ses compromis</li>
+    <li><strong><a href="/fr/blog/same-block-backrun-mev-extraction">Extraction de MEV par Backrunning dans le Même Bloc</a> :</strong> Voir comment se déroule réellement le même jeu de séquençage que TxStream cherche à éliminer</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">Roteiro de Desempenho da BNB Chain para o 2S 2026</a>:</strong> O plano de escalonamento do lado da BSC ao qual esta nova Layer-1 de IA surgiu junto, e suas contrapartidas</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">Extração de MEV por Backrunning no Mesmo Bloco</a>:</strong> Veja como o mesmo jogo de sequenciamento que o TxStream busca eliminar realmente se desenrola</li>
+    <li><strong><a href="/pt/blog/bnb-chain-h2-2026-throughput-roadmap">Roteiro de Desempenho da BNB Chain para o 2S 2026</a>:</strong> O plano de escalonamento do lado da BSC ao qual esta nova Layer-1 de IA surgiu junto, e suas contrapartidas</li>
+    <li><strong><a href="/pt/blog/same-block-backrun-mev-extraction">Extração de MEV por Backrunning no Mesmo Bloco</a>:</strong> Veja como o mesmo jogo de sequenciamento que o TxStream busca eliminar realmente se desenrola</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">BNB Chain'in 2026 2. Yarı Verim Yol Haritası</a>:</strong> Bu yeni yapay zeka Layer-1'in yanında ortaya çıktığı BSC tarafındaki ölçeklendirme planı ve ödünleşimleri</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">Aynı Blok İçinde Backrunning ile MEV Çıkarımı</a>:</strong> TxStream'in ortadan kaldırmayı hedeflediği aynı sıralama oyununun gerçekte nasıl işlediğini görün</li>
+    <li><strong><a href="/tr/blog/bnb-chain-h2-2026-throughput-roadmap">BNB Chain'in 2026 2. Yarı Verim Yol Haritası</a>:</strong> Bu yeni yapay zeka Layer-1'in yanında ortaya çıktığı BSC tarafındaki ölçeklendirme planı ve ödünleşimleri</li>
+    <li><strong><a href="/tr/blog/same-block-backrun-mev-extraction">Aynı Blok İçinde Backrunning ile MEV Çıkarımı</a>:</strong> TxStream'in ortadan kaldırmayı hedeflediği aynı sıralama oyununun gerçekte nasıl işlediğini görün</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap.php">Lộ Trình Thông Lượng Nửa Cuối 2026 Của BNB Chain</a>:</strong> Kế hoạch mở rộng phía BSC mà Layer-1 AI mới này xuất hiện cùng, và những đánh đổi của nó</li>
-    <li><strong><a href="/blog/same-block-backrun-mev-extraction.php">Khai Thác MEV Bằng Backrunning Trong Cùng Một Khối</a>:</strong> Xem trò chơi sắp xếp trình tự mà TxStream muốn loại bỏ thực sự diễn ra như thế nào</li>
+    <li><strong><a href="/vi/blog/bnb-chain-h2-2026-throughput-roadmap">Lộ Trình Thông Lượng Nửa Cuối 2026 Của BNB Chain</a>:</strong> Kế hoạch mở rộng phía BSC mà Layer-1 AI mới này xuất hiện cùng, và những đánh đổi của nó</li>
+    <li><strong><a href="/vi/blog/same-block-backrun-mev-extraction">Khai Thác MEV Bằng Backrunning Trong Cùng Một Khối</a>:</strong> Xem trò chơi sắp xếp trình tự mà TxStream muốn loại bỏ thực sự diễn ra như thế nào</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크, 디크립트, 블록헤드, 코인트러스트, MEXC뉴스, 블룸빙빗, 더블록(2026년 7월 8~10일 보도), BNB체인 공식 발표 자료, BTCtiming.com 자체 분석. 수치는 회사가 제시한 목표치이며 메인넷 출시 전까지 실측치와 다를 수 있다. 본 글은 투자 조언이 아니다.</p>

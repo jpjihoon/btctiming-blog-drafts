@@ -433,49 +433,49 @@
   <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
   <h2 class="vi">Nên Đọc Cùng Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/clarity-act-stalled.php">시장구조 입법 '클래리티 법'이 교착에 빠진 이유</a>:</strong> 규정과 나란히 가야 할 의회 입법의 현주소</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC의 디지털 상품 해석 릴리스</a>:</strong> 같은 방향의 사전 규칙화 흐름을 보여주는 또 다른 조치</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">'규제 명확성'은 정말 좋기만 한가</a>:</strong> 명료성이 가진 이면을 짚는 비판적 시각</li>
+    <li><strong><a href="/blog/clarity-act-stalled">시장구조 입법 '클래리티 법'이 교착에 빠진 이유</a>:</strong> 규정과 나란히 가야 할 의회 입법의 현주소</li>
+    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release">SEC의 디지털 상품 해석 릴리스</a>:</strong> 같은 방향의 사전 규칙화 흐름을 보여주는 또 다른 조치</li>
+    <li><strong><a href="/blog/is-regulatory-clarity-actually-good">'규제 명확성'은 정말 좋기만 한가</a>:</strong> 명료성이 가진 이면을 짚는 비판적 시각</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Why the Market-Structure 'Clarity Act' Has Stalled</a>:</strong> Where the congressional legislation that must run alongside the rule now stands</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">The SEC's Digital-Commodity Interpretive Release</a>:</strong> Another step showing the same move toward rules set in advance</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">Is Regulatory Clarity Actually a Good Thing?</a>:</strong> A critical look at the flip side of clarity</li>
+    <li><strong><a href="/en/blog/clarity-act-stalled">Why the Market-Structure 'Clarity Act' Has Stalled</a>:</strong> Where the congressional legislation that must run alongside the rule now stands</li>
+    <li><strong><a href="/en/blog/sec-digital-commodity-interpretive-release">The SEC's Digital-Commodity Interpretive Release</a>:</strong> Another step showing the same move toward rules set in advance</li>
+    <li><strong><a href="/en/blog/is-regulatory-clarity-actually-good">Is Regulatory Clarity Actually a Good Thing?</a>:</strong> A critical look at the flip side of clarity</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/clarity-act-stalled.php">市場構造立法『クラリティ法』が停滞する理由</a>:</strong> 規則と並走すべき議会立法の現在地</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SECのデジタル商品解釈リリース</a>:</strong> 同じ方向の事前ルール化の流れを示すもう一つの措置</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">『規制の明瞭性』は本当に良いことばかりか</a>:</strong> 明瞭性の裏面を突く批判的視点</li>
+    <li><strong><a href="/ja/blog/clarity-act-stalled">市場構造立法『クラリティ法』が停滞する理由</a>:</strong> 規則と並走すべき議会立法の現在地</li>
+    <li><strong><a href="/ja/blog/sec-digital-commodity-interpretive-release">SECのデジタル商品解釈リリース</a>:</strong> 同じ方向の事前ルール化の流れを示すもう一つの措置</li>
+    <li><strong><a href="/ja/blog/is-regulatory-clarity-actually-good">『規制の明瞭性』は本当に良いことばかりか</a>:</strong> 明瞭性の裏面を突く批判的視点</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Por Qué se Ha Estancado la 'Ley Clarity' de Estructura de Mercado</a>:</strong> En qué punto está la legislación del Congreso que debe acompañar a la norma</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La Publicación Interpretativa de la SEC sobre Materias Primas Digitales</a>:</strong> Otro paso que muestra el mismo giro hacia reglas fijadas de antemano</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">¿La Claridad Regulatoria es Realmente Algo Bueno?</a>:</strong> Una mirada crítica al reverso de la claridad</li>
+    <li><strong><a href="/es/blog/clarity-act-stalled">Por Qué se Ha Estancado la 'Ley Clarity' de Estructura de Mercado</a>:</strong> En qué punto está la legislación del Congreso que debe acompañar a la norma</li>
+    <li><strong><a href="/es/blog/sec-digital-commodity-interpretive-release">La Publicación Interpretativa de la SEC sobre Materias Primas Digitales</a>:</strong> Otro paso que muestra el mismo giro hacia reglas fijadas de antemano</li>
+    <li><strong><a href="/es/blog/is-regulatory-clarity-actually-good">¿La Claridad Regulatoria es Realmente Algo Bueno?</a>:</strong> Una mirada crítica al reverso de la claridad</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Warum der Marktstruktur-'Clarity Act' Ins Stocken Geraten Ist</a>:</strong> Wo die Kongress-Gesetzgebung steht, die neben der Regel laufen muss</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">Die Digital-Commodity-Auslegungsmitteilung der SEC</a>:</strong> Ein weiterer Schritt, der dieselbe Bewegung hin zu vorab gesetzten Regeln zeigt</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">Ist Regulatorische Klarheit Wirklich Gut?</a>:</strong> Ein kritischer Blick auf die Kehrseite der Klarheit</li>
+    <li><strong><a href="/de/blog/clarity-act-stalled">Warum der Marktstruktur-'Clarity Act' Ins Stocken Geraten Ist</a>:</strong> Wo die Kongress-Gesetzgebung steht, die neben der Regel laufen muss</li>
+    <li><strong><a href="/de/blog/sec-digital-commodity-interpretive-release">Die Digital-Commodity-Auslegungsmitteilung der SEC</a>:</strong> Ein weiterer Schritt, der dieselbe Bewegung hin zu vorab gesetzten Regeln zeigt</li>
+    <li><strong><a href="/de/blog/is-regulatory-clarity-actually-good">Ist Regulatorische Klarheit Wirklich Gut?</a>:</strong> Ein kritischer Blick auf die Kehrseite der Klarheit</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Pourquoi le 'Clarity Act' sur la Structure de Marché est au Point Mort</a>:</strong> Où en est la législation du Congrès qui doit accompagner la règle</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">La Publication Interprétative de la SEC sur les Matières Premières Numériques</a>:</strong> Une autre étape montrant le même virage vers des règles fixées à l'avance</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">La Clarté Réglementaire est-elle Vraiment une Bonne Chose ?</a>:</strong> Un regard critique sur le revers de la clarté</li>
+    <li><strong><a href="/fr/blog/clarity-act-stalled">Pourquoi le 'Clarity Act' sur la Structure de Marché est au Point Mort</a>:</strong> Où en est la législation du Congrès qui doit accompagner la règle</li>
+    <li><strong><a href="/fr/blog/sec-digital-commodity-interpretive-release">La Publication Interprétative de la SEC sur les Matières Premières Numériques</a>:</strong> Une autre étape montrant le même virage vers des règles fixées à l'avance</li>
+    <li><strong><a href="/fr/blog/is-regulatory-clarity-actually-good">La Clarté Réglementaire est-elle Vraiment une Bonne Chose ?</a>:</strong> Un regard critique sur le revers de la clarté</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Por Que a 'Lei Clarity' de Estrutura de Mercado Emperrou</a>:</strong> Em que ponto está a legislação do Congresso que deve caminhar ao lado da regra</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">A Publicação Interpretativa da SEC sobre Commodities Digitais</a>:</strong> Outro passo que mostra o mesmo movimento rumo a regras definidas de antemão</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">A Clareza Regulatória é Realmente Algo Bom?</a>:</strong> Um olhar crítico sobre o outro lado da clareza</li>
+    <li><strong><a href="/pt/blog/clarity-act-stalled">Por Que a 'Lei Clarity' de Estrutura de Mercado Emperrou</a>:</strong> Em que ponto está a legislação do Congresso que deve caminhar ao lado da regra</li>
+    <li><strong><a href="/pt/blog/sec-digital-commodity-interpretive-release">A Publicação Interpretativa da SEC sobre Commodities Digitais</a>:</strong> Outro passo que mostra o mesmo movimento rumo a regras definidas de antemão</li>
+    <li><strong><a href="/pt/blog/is-regulatory-clarity-actually-good">A Clareza Regulatória é Realmente Algo Bom?</a>:</strong> Um olhar crítico sobre o outro lado da clareza</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Piyasa Yapısı 'Clarity Yasası' Neden Tıkandı</a>:</strong> Kuralla birlikte yürümesi gereken Kongre mevzuatının bugünkü durumu</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">SEC'in Dijital Emtia Yorum Açıklaması</a>:</strong> Önceden belirlenmiş kurallara doğru aynı yönelimi gösteren bir başka adım</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">Düzenleyici Açıklık Gerçekten İyi Bir Şey mi?</a>:</strong> Açıklığın öteki yüzüne eleştirel bir bakış</li>
+    <li><strong><a href="/tr/blog/clarity-act-stalled">Piyasa Yapısı 'Clarity Yasası' Neden Tıkandı</a>:</strong> Kuralla birlikte yürümesi gereken Kongre mevzuatının bugünkü durumu</li>
+    <li><strong><a href="/tr/blog/sec-digital-commodity-interpretive-release">SEC'in Dijital Emtia Yorum Açıklaması</a>:</strong> Önceden belirlenmiş kurallara doğru aynı yönelimi gösteren bir başka adım</li>
+    <li><strong><a href="/tr/blog/is-regulatory-clarity-actually-good">Düzenleyici Açıklık Gerçekten İyi Bir Şey mi?</a>:</strong> Açıklığın öteki yüzüne eleştirel bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/clarity-act-stalled.php">Vì Sao 'Đạo Luật Clarity' Về Cấu Trúc Thị Trường Bế Tắc</a>:</strong> Luật của Quốc hội cần song hành với quy tắc đang ở đâu</li>
-    <li><strong><a href="/blog/sec-digital-commodity-interpretive-release.php">Bản Giải Thích Về Hàng Hóa Số của SEC</a>:</strong> Một bước khác cho thấy cùng một hướng đi tới quy tắc đặt ra trước</li>
-    <li><strong><a href="/blog/is-regulatory-clarity-actually-good.php">Sự Rõ Ràng Về Quản Lý Có Thực Sự Tốt?</a>:</strong> Một góc nhìn phản biện về mặt trái của sự rõ ràng</li>
+    <li><strong><a href="/vi/blog/clarity-act-stalled">Vì Sao 'Đạo Luật Clarity' Về Cấu Trúc Thị Trường Bế Tắc</a>:</strong> Luật của Quốc hội cần song hành với quy tắc đang ở đâu</li>
+    <li><strong><a href="/vi/blog/sec-digital-commodity-interpretive-release">Bản Giải Thích Về Hàng Hóa Số của SEC</a>:</strong> Một bước khác cho thấy cùng một hướng đi tới quy tắc đặt ra trước</li>
+    <li><strong><a href="/vi/blog/is-regulatory-clarity-actually-good">Sự Rõ Ràng Về Quản Lý Có Thực Sự Tốt?</a>:</strong> Một góc nhìn phản biện về mặt trái của sự rõ ràng</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(7월 7일 'SEC 이달 내 크립토 규정 제안' 보도 및 커미셔너 피어스 관련 분석), 비트코인닷컴뉴스(앳킨스 '레귤레이션 크립토, 발표 한 단계 전' 발언), SEC.gov(앳킨스 위원장 발언 및 토큰 세이프하버 관련 성명), 크립토닷뉴스(면제 프레임워크 세부). 규정 문구·시행 시점은 확정되지 않았으며, 본 글은 법률·투자 조언이 아니다.</p>

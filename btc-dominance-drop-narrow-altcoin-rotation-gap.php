@@ -453,49 +453,49 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">알트시즌 체크리스트 2단계, 지금 시장에 적용해보니</a>:</strong> 도미넌스 50%대 후반 박스권 진단의 이전 기록</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">비트코인 랠리와 도미넌스·ETF·심리지수의 괴리</a>:</strong> 7월 초 같은 도미넌스 하락을 ETF 자금 관점에서 짚은 글</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">이더리움 ETF가 비트코인 ETF를 앞선 사흘</a>:</strong> 기관 자금이 이더리움으로 쏠리는 흐름을 다룬 글</li>
+    <li><strong><a href="/blog/altseason-dominance-flip-watch">알트시즌 체크리스트 2단계, 지금 시장에 적용해보니</a>:</strong> 도미넌스 50%대 후반 박스권 진단의 이전 기록</li>
+    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap">비트코인 랠리와 도미넌스·ETF·심리지수의 괴리</a>:</strong> 7월 초 같은 도미넌스 하락을 ETF 자금 관점에서 짚은 글</li>
+    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">이더리움 ETF가 비트코인 ETF를 앞선 사흘</a>:</strong> 기관 자금이 이더리움으로 쏠리는 흐름을 다룬 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Applying the Altseason Checklist's Step 2 to the Current Market</a>:</strong> The earlier read on dominance stuck in the high-50s box</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">BTC's Rally vs. Dominance, ETF Flows, and Sentiment</a>:</strong> The early-July version of this dominance decline, seen through ETF flows</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">The Three Days Ether's ETF Outpaced Bitcoin's</a>:</strong> On institutional money concentrating into ether</li>
+    <li><strong><a href="/en/blog/altseason-dominance-flip-watch">Applying the Altseason Checklist's Step 2 to the Current Market</a>:</strong> The earlier read on dominance stuck in the high-50s box</li>
+    <li><strong><a href="/en/blog/btc-rally-dominance-etf-sentiment-gap">BTC's Rally vs. Dominance, ETF Flows, and Sentiment</a>:</strong> The early-July version of this dominance decline, seen through ETF flows</li>
+    <li><strong><a href="/en/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">The Three Days Ether's ETF Outpaced Bitcoin's</a>:</strong> On institutional money concentrating into ether</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">アルトシーズンチェックリスト2段階目、今の市場に当てはめると</a>:</strong> ドミナンスが50%台後半のボックス圏にとどまっていた頃の診断</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">ビットコインの反発とドミナンス・ETF・心理指数の乖離</a>:</strong> 7月初旬の同じドミナンス下落をETF資金の観点から扱った記事</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">イーサリアムETFがビットコインETFを上回った3日間</a>:</strong> 機関投資家の資金がイーサリアムに集中する流れを扱った記事</li>
+    <li><strong><a href="/ja/blog/altseason-dominance-flip-watch">アルトシーズンチェックリスト2段階目、今の市場に当てはめると</a>:</strong> ドミナンスが50%台後半のボックス圏にとどまっていた頃の診断</li>
+    <li><strong><a href="/ja/blog/btc-rally-dominance-etf-sentiment-gap">ビットコインの反発とドミナンス・ETF・心理指数の乖離</a>:</strong> 7月初旬の同じドミナンス下落をETF資金の観点から扱った記事</li>
+    <li><strong><a href="/ja/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">イーサリアムETFがビットコインETFを上回った3日間</a>:</strong> 機関投資家の資金がイーサリアムに集中する流れを扱った記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Aplicando el Paso 2 de la Lista de Altseason al Mercado Actual</a>:</strong> La lectura anterior de la dominancia estancada en la banda alta de los 50</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">El Repunte de BTC vs Dominancia, Flujos de ETF y Sentimiento</a>:</strong> La versión de principios de julio de esta misma caída de dominancia, vista a través de los flujos de ETF</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">Los Tres Días en que el ETF de Ether Superó al de Bitcoin</a>:</strong> Sobre la concentración del dinero institucional en ether</li>
+    <li><strong><a href="/es/blog/altseason-dominance-flip-watch">Aplicando el Paso 2 de la Lista de Altseason al Mercado Actual</a>:</strong> La lectura anterior de la dominancia estancada en la banda alta de los 50</li>
+    <li><strong><a href="/es/blog/btc-rally-dominance-etf-sentiment-gap">El Repunte de BTC vs Dominancia, Flujos de ETF y Sentimiento</a>:</strong> La versión de principios de julio de esta misma caída de dominancia, vista a través de los flujos de ETF</li>
+    <li><strong><a href="/es/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Los Tres Días en que el ETF de Ether Superó al de Bitcoin</a>:</strong> Sobre la concentración del dinero institucional en ether</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Schritt 2 der Altseason-Checkliste auf den aktuellen Markt angewendet</a>:</strong> Die frühere Einschätzung zur Dominanz in der hohen 50er-Box</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">BTC-Rally vs. Dominanz, ETF-Flüsse und Sentiment</a>:</strong> Die Anfang-Juli-Version dieses Dominanzrückgangs, betrachtet über ETF-Flüsse</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">Die Drei Tage, an Denen Ethers ETF Bitcoins ETF Übertraf</a>:</strong> Zur Konzentration institutionellen Geldes auf Ether</li>
+    <li><strong><a href="/de/blog/altseason-dominance-flip-watch">Schritt 2 der Altseason-Checkliste auf den aktuellen Markt angewendet</a>:</strong> Die frühere Einschätzung zur Dominanz in der hohen 50er-Box</li>
+    <li><strong><a href="/de/blog/btc-rally-dominance-etf-sentiment-gap">BTC-Rally vs. Dominanz, ETF-Flüsse und Sentiment</a>:</strong> Die Anfang-Juli-Version dieses Dominanzrückgangs, betrachtet über ETF-Flüsse</li>
+    <li><strong><a href="/de/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Die Drei Tage, an Denen Ethers ETF Bitcoins ETF Übertraf</a>:</strong> Zur Konzentration institutionellen Geldes auf Ether</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Application de l'Étape 2 de la Checklist Altseason au Marché Actuel</a> :</strong> La précédente lecture de la dominance bloquée dans la fourchette haute des 50 %</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">Le Rallye du BTC vs Dominance, Flux ETF et Sentiment</a> :</strong> La version du début juillet de cette même baisse de dominance, vue à travers les flux ETF</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">Les Trois Jours où l'ETF de l'Ether a Devancé Celui du Bitcoin</a> :</strong> Sur la concentration de l'argent institutionnel dans l'ether</li>
+    <li><strong><a href="/fr/blog/altseason-dominance-flip-watch">Application de l'Étape 2 de la Checklist Altseason au Marché Actuel</a> :</strong> La précédente lecture de la dominance bloquée dans la fourchette haute des 50 %</li>
+    <li><strong><a href="/fr/blog/btc-rally-dominance-etf-sentiment-gap">Le Rallye du BTC vs Dominance, Flux ETF et Sentiment</a> :</strong> La version du début juillet de cette même baisse de dominance, vue à travers les flux ETF</li>
+    <li><strong><a href="/fr/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Les Trois Jours où l'ETF de l'Ether a Devancé Celui du Bitcoin</a> :</strong> Sur la concentration de l'argent institutionnel dans l'ether</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Aplicando a Etapa 2 da Checklist de Altseason ao Mercado Atual</a>:</strong> A leitura anterior da dominância presa na faixa alta dos 50%</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">O Rali do BTC vs Dominância, Fluxos de ETF e Sentimento</a>:</strong> A versão do início de julho desta mesma queda de dominância, vista pelos fluxos de ETF</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">Os Três Dias em que o ETF do Ether Superou o do Bitcoin</a>:</strong> Sobre a concentração de dinheiro institucional em ether</li>
+    <li><strong><a href="/pt/blog/altseason-dominance-flip-watch">Aplicando a Etapa 2 da Checklist de Altseason ao Mercado Atual</a>:</strong> A leitura anterior da dominância presa na faixa alta dos 50%</li>
+    <li><strong><a href="/pt/blog/btc-rally-dominance-etf-sentiment-gap">O Rali do BTC vs Dominância, Fluxos de ETF e Sentimento</a>:</strong> A versão do início de julho desta mesma queda de dominância, vista pelos fluxos de ETF</li>
+    <li><strong><a href="/pt/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Os Três Dias em que o ETF do Ether Superou o do Bitcoin</a>:</strong> Sobre a concentração de dinheiro institucional em ether</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Altseason Kontrol Listesinin 2. Adımını Mevcut Piyasaya Uygulamak</a>:</strong> Dominansın 50'lerin üst bandında sıkışıp kaldığına dair önceki değerlendirme</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">BTC'nin Yükselişi vs Dominans, ETF Akışları ve Duyarlılık</a>:</strong> Bu aynı dominans düşüşünün ETF akışları açısından temmuz başındaki versiyonu</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">Ether ETF'sinin Bitcoin ETF'sini Geçtiği Üç Gün</a>:</strong> Kurumsal paranın ether'de yoğunlaşması hakkında</li>
+    <li><strong><a href="/tr/blog/altseason-dominance-flip-watch">Altseason Kontrol Listesinin 2. Adımını Mevcut Piyasaya Uygulamak</a>:</strong> Dominansın 50'lerin üst bandında sıkışıp kaldığına dair önceki değerlendirme</li>
+    <li><strong><a href="/tr/blog/btc-rally-dominance-etf-sentiment-gap">BTC'nin Yükselişi vs Dominans, ETF Akışları ve Duyarlılık</a>:</strong> Bu aynı dominans düşüşünün ETF akışları açısından temmuz başındaki versiyonu</li>
+    <li><strong><a href="/tr/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Ether ETF'sinin Bitcoin ETF'sini Geçtiği Üç Gün</a>:</strong> Kurumsal paranın ether'de yoğunlaşması hakkında</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/altseason-dominance-flip-watch.php">Áp Dụng Bước 2 Của Danh Sách Kiểm Tra Altseason Vào Thị Trường Hiện Tại</a>:</strong> Nhận định trước đó về mức thống trị mắc kẹt trong biên độ cao của 50%</li>
-    <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap.php">Đà Tăng Của BTC vs Thống Trị, Dòng Vốn ETF và Tâm Lý</a>:</strong> Phiên bản đầu tháng 7 của cùng đợt giảm thống trị này, nhìn qua dòng vốn ETF</li>
-    <li><strong><a href="/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap.php">Ba Ngày ETF Ether Vượt Qua ETF Bitcoin</a>:</strong> Về việc dòng tiền tổ chức tập trung vào ether</li>
+    <li><strong><a href="/vi/blog/altseason-dominance-flip-watch">Áp Dụng Bước 2 Của Danh Sách Kiểm Tra Altseason Vào Thị Trường Hiện Tại</a>:</strong> Nhận định trước đó về mức thống trị mắc kẹt trong biên độ cao của 50%</li>
+    <li><strong><a href="/vi/blog/btc-rally-dominance-etf-sentiment-gap">Đà Tăng Của BTC vs Thống Trị, Dòng Vốn ETF và Tâm Lý</a>:</strong> Phiên bản đầu tháng 7 của cùng đợt giảm thống trị này, nhìn qua dòng vốn ETF</li>
+    <li><strong><a href="/vi/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Ba Ngày ETF Ether Vượt Qua ETF Bitcoin</a>:</strong> Về việc dòng tiền tổ chức tập trung vào ether</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(CoinDesk), 코인게코(CoinGecko), 크립토슬레이트(CryptoSlate), 크립토랭크(CryptoRank), 트레이딩키(TradingKey), 크립토뉴스(Cryptonews), 애널리틱스인사이트(Analytics Insight), 코인개버(CoinGabbar), FX스트리트(FXStreet), 멕스씨(MEXC). 수치는 2026년 7월 7~10일 사이 보도 기준이며 이후 갱신될 수 있다. 본 글은 투자 조언이 아니다.</p>

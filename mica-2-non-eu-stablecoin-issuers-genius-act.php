@@ -340,49 +340,49 @@
   <h2 class="vi">Nên Đọc Cùng</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스, 그리스發 MiCA 라이선스 좌절 — 유럽 사업 재정비 나서</a>:</strong> 기존 MiCA 체제 안에서도 라이선스 확보가 얼마나 험난한지 보여주는 사례</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA 유예기간 종료 — 7월 1일 이후 유럽 크립토 기업 80%가 여전히 정식 라이선스 없어</a>:</strong> 이번 개정 논의의 배경이 되는 기존 라이선스 이행 공백 실태</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">GENIUS 법안 스테이블코인 규정, 7월 18일 마감 다가온다</a>:</strong> 이번 EU 대응을 촉발한 미국측 규제 원문</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스, 그리스發 MiCA 라이선스 좌절 — 유럽 사업 재정비 나서</a>:</strong> 기존 MiCA 체제 안에서도 라이선스 확보가 얼마나 험난한지 보여주는 사례</li>
+    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA 유예기간 종료 — 7월 1일 이후 유럽 크립토 기업 80%가 여전히 정식 라이선스 없어</a>:</strong> 이번 개정 논의의 배경이 되는 기존 라이선스 이행 공백 실태</li>
+    <li><strong><a href="/blog/genius-act-stablecoin-deadline">GENIUS 법안 스테이블코인 규정, 7월 18일 마감 다가온다</a>:</strong> 이번 EU 대응을 촉발한 미국측 규제 원문</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance's Greek MiCA License Bid Falls Apart — Regrouping in Europe</a>:</strong> How hard licensing already is even under the existing MiCA regime</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA's Grandfathering Cliff — Over 80% of Europe's Crypto Firms Still Lack Full Authorization After July 1</a>:</strong> The existing licensing gap that forms the backdrop for this revision debate</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">GENIUS Act Stablecoin Rules Face July 18 Deadline</a>:</strong> The US regulation on the other side of this transatlantic response</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance's Greek MiCA License Bid Falls Apart — Regrouping in Europe</a>:</strong> How hard licensing already is even under the existing MiCA regime</li>
+    <li><strong><a href="/en/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA's Grandfathering Cliff — Over 80% of Europe's Crypto Firms Still Lack Full Authorization After July 1</a>:</strong> The existing licensing gap that forms the backdrop for this revision debate</li>
+    <li><strong><a href="/en/blog/genius-act-stablecoin-deadline">GENIUS Act Stablecoin Rules Face July 18 Deadline</a>:</strong> The US regulation on the other side of this transatlantic response</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">バイナンス、ギリシャ発MiCAライセンス取得が頓挫 — 欧州事業を再編へ</a>:</strong> 既存のMiCA体制下でもライセンス取得がいかに困難かを示す事例</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA経過措置終了 — 7月1日以降も欧州暗号資産企業の80%が正式ライセンス未取得</a>:</strong> 今回の改正論議の背景にある既存のライセンス履行ギャップの実態</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">GENIUS法のステーブルコイン規定、7月18日の期限迫る</a>:</strong> 今回のEU対応の引き金となった米国側の規制原文</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">バイナンス、ギリシャ発MiCAライセンス取得が頓挫 — 欧州事業を再編へ</a>:</strong> 既存のMiCA体制下でもライセンス取得がいかに困難かを示す事例</li>
+    <li><strong><a href="/ja/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA経過措置終了 — 7月1日以降も欧州暗号資産企業の80%が正式ライセンス未取得</a>:</strong> 今回の改正論議の背景にある既存のライセンス履行ギャップの実態</li>
+    <li><strong><a href="/ja/blog/genius-act-stablecoin-deadline">GENIUS法のステーブルコイン規定、7月18日の期限迫る</a>:</strong> 今回のEU対応の引き金となった米国側の規制原文</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">El Intento de Binance de Obtener Licencia MiCA en Grecia se Desmorona — Reorganización en Europa</a>:</strong> Un ejemplo de lo difícil que ya es obtener una licencia incluso bajo el régimen actual de MiCA</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">El Precipicio del Período de Transición de MiCA — Más del 80% de las Empresas Cripto de Europa Sigue sin Autorización Plena tras el 1 de Julio</a>:</strong> La brecha de licencias existente que da contexto a este debate de revisión</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">Las Normas de Stablecoins de la Ley GENIUS Enfrentan el Plazo del 18 de Julio</a>:</strong> La normativa estadounidense al otro lado de esta respuesta transatlántica</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">El Intento de Binance de Obtener Licencia MiCA en Grecia se Desmorona — Reorganización en Europa</a>:</strong> Un ejemplo de lo difícil que ya es obtener una licencia incluso bajo el régimen actual de MiCA</li>
+    <li><strong><a href="/es/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">El Precipicio del Período de Transición de MiCA — Más del 80% de las Empresas Cripto de Europa Sigue sin Autorización Plena tras el 1 de Julio</a>:</strong> La brecha de licencias existente que da contexto a este debate de revisión</li>
+    <li><strong><a href="/es/blog/genius-act-stablecoin-deadline">Las Normas de Stablecoins de la Ley GENIUS Enfrentan el Plazo del 18 de Julio</a>:</strong> La normativa estadounidense al otro lado de esta respuesta transatlántica</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance Scheitert mit Griechischem MiCA-Lizenzantrag — Neuaufstellung in Europa</a>:</strong> Ein Beispiel dafür, wie schwierig eine Lizenzierung selbst unter dem bestehenden MiCA-Regime bereits ist</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCAs Übergangsfrist-Klippe — Über 80% der Europäischen Krypto-Firmen Weiterhin ohne Vollständige Zulassung nach dem 1. Juli</a>:</strong> Die bestehende Lizenzierungslücke, die den Hintergrund dieser Überarbeitungsdebatte bildet</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">GENIUS-Act-Stablecoin-Regeln Stehen vor der Frist am 18. Juli</a>:</strong> Die US-Regulierung auf der anderen Seite dieser transatlantischen Reaktion</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binance Scheitert mit Griechischem MiCA-Lizenzantrag — Neuaufstellung in Europa</a>:</strong> Ein Beispiel dafür, wie schwierig eine Lizenzierung selbst unter dem bestehenden MiCA-Regime bereits ist</li>
+    <li><strong><a href="/de/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCAs Übergangsfrist-Klippe — Über 80% der Europäischen Krypto-Firmen Weiterhin ohne Vollständige Zulassung nach dem 1. Juli</a>:</strong> Die bestehende Lizenzierungslücke, die den Hintergrund dieser Überarbeitungsdebatte bildet</li>
+    <li><strong><a href="/de/blog/genius-act-stablecoin-deadline">GENIUS-Act-Stablecoin-Regeln Stehen vor der Frist am 18. Juli</a>:</strong> Die US-Regulierung auf der anderen Seite dieser transatlantischen Reaktion</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">La Demande de Licence MiCA de Binance en Grèce Échoue — Réorganisation en Europe</a>:</strong> Un exemple de la difficulté d'obtenir un agrément même sous le régime MiCA actuel</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">La Falaise de la Période Transitoire de MiCA — Plus de 80% des Entreprises Crypto Européennes Toujours sans Agrément Complet après le 1er Juillet</a>:</strong> La lacune d'agrément existante qui sert de toile de fond à ce débat de révision</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">Les Règles sur les Stablecoins de la Loi GENIUS Face à l'Échéance du 18 Juillet</a>:</strong> La réglementation américaine de l'autre côté de cette réponse transatlantique</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">La Demande de Licence MiCA de Binance en Grèce Échoue — Réorganisation en Europe</a>:</strong> Un exemple de la difficulté d'obtenir un agrément même sous le régime MiCA actuel</li>
+    <li><strong><a href="/fr/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">La Falaise de la Période Transitoire de MiCA — Plus de 80% des Entreprises Crypto Européennes Toujours sans Agrément Complet après le 1er Juillet</a>:</strong> La lacune d'agrément existante qui sert de toile de fond à ce débat de révision</li>
+    <li><strong><a href="/fr/blog/genius-act-stablecoin-deadline">Les Règles sur les Stablecoins de la Loi GENIUS Face à l'Échéance du 18 Juillet</a>:</strong> La réglementation américaine de l'autre côté de cette réponse transatlantique</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Tentativa da Binance de Licença MiCA na Grécia Fracassa — Reorganização na Europa</a>:</strong> Um exemplo de como já é difícil obter licença mesmo sob o regime atual da MiCA</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">O Precipício da Transição da MiCA — Mais de 80% das Empresas Cripto da Europa Ainda sem Autorização Completa após 1º de Julho</a>:</strong> A lacuna de licenciamento existente que serve de pano de fundo para este debate de revisão</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">Regras de Stablecoin da Lei GENIUS Enfrentam Prazo de 18 de Julho</a>:</strong> A regulamentação americana do outro lado desta resposta transatlântica</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">Tentativa da Binance de Licença MiCA na Grécia Fracassa — Reorganização na Europa</a>:</strong> Um exemplo de como já é difícil obter licença mesmo sob o regime atual da MiCA</li>
+    <li><strong><a href="/pt/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">O Precipício da Transição da MiCA — Mais de 80% das Empresas Cripto da Europa Ainda sem Autorização Completa após 1º de Julho</a>:</strong> A lacuna de licenciamento existente que serve de pano de fundo para este debate de revisão</li>
+    <li><strong><a href="/pt/blog/genius-act-stablecoin-deadline">Regras de Stablecoin da Lei GENIUS Enfrentam Prazo de 18 de Julho</a>:</strong> A regulamentação americana do outro lado desta resposta transatlântica</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance'in Yunanistan Kaynaklı MiCA Lisansı Girişimi Çöktü — Avrupa'da Yeniden Yapılanma</a>:</strong> Mevcut MiCA rejimi altında bile lisans almanın ne kadar zor olduğuna dair bir örnek</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA'nın Geçiş Süresi Uçurumu — 1 Temmuz'dan Sonra Avrupa Kripto Şirketlerinin Yüzde 80'inden Fazlası Hâlâ Tam Yetkiye Sahip Değil</a>:</strong> Bu revizyon tartışmasının arka planını oluşturan mevcut lisanslama boşluğu</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">GENIUS Yasası Stablecoin Kuralları 18 Temmuz Son Tarihiyle Karşı Karşıya</a>:</strong> Bu transatlantik yanıtın diğer tarafındaki ABD düzenlemesi</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance'in Yunanistan Kaynaklı MiCA Lisansı Girişimi Çöktü — Avrupa'da Yeniden Yapılanma</a>:</strong> Mevcut MiCA rejimi altında bile lisans almanın ne kadar zor olduğuna dair bir örnek</li>
+    <li><strong><a href="/tr/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA'nın Geçiş Süresi Uçurumu — 1 Temmuz'dan Sonra Avrupa Kripto Şirketlerinin Yüzde 80'inden Fazlası Hâlâ Tam Yetkiye Sahip Değil</a>:</strong> Bu revizyon tartışmasının arka planını oluşturan mevcut lisanslama boşluğu</li>
+    <li><strong><a href="/tr/blog/genius-act-stablecoin-deadline">GENIUS Yasası Stablecoin Kuralları 18 Temmuz Son Tarihiyle Karşı Karşıya</a>:</strong> Bu transatlantik yanıtın diğer tarafındaki ABD düzenlemesi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Nỗ Lực Xin Giấy Phép MiCA Từ Hy Lạp Của Binance Sụp Đổ — Tái Cơ Cấu Tại Châu Âu</a>:</strong> Một ví dụ cho thấy việc xin cấp phép khó khăn thế nào ngay cả trong chế độ MiCA hiện hành</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">Vách Đá Chuyển Tiếp Của MiCA — Hơn 80% Công Ty Tiền Mã Hóa Châu Âu Vẫn Chưa Được Cấp Phép Đầy Đủ Sau Ngày 1/7</a>:</strong> Khoảng trống cấp phép hiện có tạo nên bối cảnh cho cuộc tranh luận sửa đổi này</li>
-    <li><strong><a href="/blog/genius-act-stablecoin-deadline.php">Quy Định Stablecoin Của Đạo Luật GENIUS Đối Mặt Hạn Chót 18/7</a>:</strong> Quy định phía Mỹ ở phía bên kia của phản ứng xuyên Đại Tây Dương này</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Nỗ Lực Xin Giấy Phép MiCA Từ Hy Lạp Của Binance Sụp Đổ — Tái Cơ Cấu Tại Châu Âu</a>:</strong> Một ví dụ cho thấy việc xin cấp phép khó khăn thế nào ngay cả trong chế độ MiCA hiện hành</li>
+    <li><strong><a href="/vi/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">Vách Đá Chuyển Tiếp Của MiCA — Hơn 80% Công Ty Tiền Mã Hóa Châu Âu Vẫn Chưa Được Cấp Phép Đầy Đủ Sau Ngày 1/7</a>:</strong> Khoảng trống cấp phép hiện có tạo nên bối cảnh cho cuộc tranh luận sửa đổi này</li>
+    <li><strong><a href="/vi/blog/genius-act-stablecoin-deadline">Quy Định Stablecoin Của Đạo Luật GENIUS Đối Mặt Hạn Chót 18/7</a>:</strong> Quy định phía Mỹ ở phía bên kia của phản ứng xuyên Đại Tây Dương này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더블록(집행위 검토 단독 보도), 코인텔레그래프(역외 발행사 이슈 보도), 크립토타임스(자문 세부사항), 코인데스크(MiCA 3주년 재점검 분석), 스캐든 아프스 슬레이트 미거 & 플롬(법률 자문 메모). 일부 시점·마감일은 매체별로 다소 차이가 있어 확인이 필요하며, 본 글은 투자 조언이 아니다.</p>

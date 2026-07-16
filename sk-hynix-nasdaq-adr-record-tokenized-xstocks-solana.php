@@ -290,40 +290,40 @@
   <p class="vi">Tuy nhiên, cần nói rõ rằng việc nắm giữ token không khiến ai đó trở thành cổ đông thực sự. Người nắm giữ xStocks không có quyền biểu quyết tại SK Hynix, cổ tức có thể không được chuyển tự động ngay cả khi được công bố, và sản phẩm này không được đăng ký với Ủy ban Chứng khoán và Giao dịch Mỹ (SEC). Khả năng đổi lại token cuối cùng phụ thuộc vào khả năng thanh toán của đơn vị phát hành và tổ chức lưu ký, đây là một cấu trúc rủi ro về cơ bản khác với việc sở hữu trực tiếp cổ phiếu cơ sở. Không có điều nào trong số này là mối lo ngại mới — khi khối lượng giao dịch tài sản token hóa của Solana đạt mức kỷ lục 5,77 tỷ đô la trong quý trước, các nhà quan sát đã lưu ý rằng khối lượng giao dịch vượt xa việc phát hành thực tế, và cùng sự bất cân xứng cấu trúc đó — tăng trưởng giao dịch bùng nổ so với một chuỗi phát hành mới tương đối chậm hơn — lặp lại trong trường hợp của SK Hynix. Vậy điều mà sự kết hợp này thực sự cho thấy là hạ tầng crypto đang nhanh chóng hấp thụ "lớp giao dịch" của thị trường vốn truyền thống — chứ không phải là nó đã hấp thụ các quyền pháp lý đi kèm với quyền sở hữu chứng khoán truyền thống.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">토큰화 주식, 사실은 '진짜 주식'이 아니라는 걸 아는 사람이 몇이나 될까</a>:</strong> xStocks 등 토큰화 주식이 법적으로 실제 주식과 어떻게 다른지 더 깊이 다룬 글</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">솔라나 토큰화 자산 거래량 57억 달러 사상 최대 — 거래는 앞서고 발행은 뒤진다</a>:</strong> 이번 SK하이닉스 사례가 그대로 반복하는, 거래량과 발행량 간 구조적 비대칭</li>
+    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks">토큰화 주식, 사실은 '진짜 주식'이 아니라는 걸 아는 사람이 몇이나 될까</a>:</strong> xStocks 등 토큰화 주식이 법적으로 실제 주식과 어떻게 다른지 더 깊이 다룬 글</li>
+    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026">솔라나 토큰화 자산 거래량 57억 달러 사상 최대 — 거래는 앞서고 발행은 뒤진다</a>:</strong> 이번 SK하이닉스 사례가 그대로 반복하는, 거래량과 발행량 간 구조적 비대칭</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenized Stocks Aren't Real Stocks — How Many People Actually Know That</a>:</strong> A deeper look at how tokenized shares like xStocks legally differ from real stock ownership</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">Solana's Tokenized-Asset Volume Hits Record $5.77B — Ahead on Trading, Behind on Issuance</a>:</strong> The trading-versus-issuance asymmetry that the SK Hynix case repeats</li>
+    <li><strong><a href="/en/blog/tokenized-stocks-not-real-stocks">Tokenized Stocks Aren't Real Stocks — How Many People Actually Know That</a>:</strong> A deeper look at how tokenized shares like xStocks legally differ from real stock ownership</li>
+    <li><strong><a href="/en/blog/solana-tokenized-asset-settlement-record-q2-2026">Solana's Tokenized-Asset Volume Hits Record $5.77B — Ahead on Trading, Behind on Issuance</a>:</strong> The trading-versus-issuance asymmetry that the SK Hynix case repeats</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">トークン化株式、実は「本物の株式」ではないと知っている人はどれだけいるか</a>:</strong> xStocksなどのトークン化株式が法的に実際の株式所有とどう異なるかを深掘りした記事</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">ソラナのトークン化資産取引高57億ドルで史上最大 — 取引は先行し発行は遅れる</a>:</strong> 今回のSKハイニックス事例がそのまま繰り返す、取引量と発行量の構造的非対称性</li>
+    <li><strong><a href="/ja/blog/tokenized-stocks-not-real-stocks">トークン化株式、実は「本物の株式」ではないと知っている人はどれだけいるか</a>:</strong> xStocksなどのトークン化株式が法的に実際の株式所有とどう異なるかを深掘りした記事</li>
+    <li><strong><a href="/ja/blog/solana-tokenized-asset-settlement-record-q2-2026">ソラナのトークン化資産取引高57億ドルで史上最大 — 取引は先行し発行は遅れる</a>:</strong> 今回のSKハイニックス事例がそのまま繰り返す、取引量と発行量の構造的非対称性</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Las Acciones Tokenizadas No Son Acciones Reales — Cuántas Personas Realmente lo Saben</a>:</strong> Un análisis más profundo de cómo las acciones tokenizadas como xStocks difieren legalmente de la propiedad accionaria real</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">El Volumen de Activos Tokenizados de Solana Alcanza un Récord de 5.770 Millones de Dólares — Adelante en Negociación, Atrás en Emisión</a>:</strong> La asimetría entre negociación y emisión que el caso de SK Hynix repite</li>
+    <li><strong><a href="/es/blog/tokenized-stocks-not-real-stocks">Las Acciones Tokenizadas No Son Acciones Reales — Cuántas Personas Realmente lo Saben</a>:</strong> Un análisis más profundo de cómo las acciones tokenizadas como xStocks difieren legalmente de la propiedad accionaria real</li>
+    <li><strong><a href="/es/blog/solana-tokenized-asset-settlement-record-q2-2026">El Volumen de Activos Tokenizados de Solana Alcanza un Récord de 5.770 Millones de Dólares — Adelante en Negociación, Atrás en Emisión</a>:</strong> La asimetría entre negociación y emisión que el caso de SK Hynix repite</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenisierte Aktien Sind Keine Echten Aktien — Wie Viele Wissen das Wirklich</a>:</strong> Ein tieferer Blick darauf, wie sich tokenisierte Aktien wie xStocks rechtlich vom echten Aktienbesitz unterscheiden</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">Solanas Tokenisiertes-Vermögen-Volumen Erreicht Rekord von 5,77 Mrd. Dollar — Vorn im Handel, Hinten bei der Emission</a>:</strong> Die Handel-gegen-Emission-Asymmetrie, die sich im SK-Hynix-Fall wiederholt</li>
+    <li><strong><a href="/de/blog/tokenized-stocks-not-real-stocks">Tokenisierte Aktien Sind Keine Echten Aktien — Wie Viele Wissen das Wirklich</a>:</strong> Ein tieferer Blick darauf, wie sich tokenisierte Aktien wie xStocks rechtlich vom echten Aktienbesitz unterscheiden</li>
+    <li><strong><a href="/de/blog/solana-tokenized-asset-settlement-record-q2-2026">Solanas Tokenisiertes-Vermögen-Volumen Erreicht Rekord von 5,77 Mrd. Dollar — Vorn im Handel, Hinten bei der Emission</a>:</strong> Die Handel-gegen-Emission-Asymmetrie, die sich im SK-Hynix-Fall wiederholt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Les Actions Tokenisées ne Sont Pas de Vraies Actions — Combien de Gens le Savent Vraiment</a>:</strong> Un examen approfondi de la façon dont les actions tokenisées comme xStocks diffèrent juridiquement de la propriété réelle d'actions</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">Le Volume d'Actifs Tokenisés de Solana Atteint un Record de 5,77 Milliards de Dollars — En Avance sur les Échanges, en Retard sur l'Émission</a>:</strong> L'asymétrie entre échanges et émission que reproduit le cas SK Hynix</li>
+    <li><strong><a href="/fr/blog/tokenized-stocks-not-real-stocks">Les Actions Tokenisées ne Sont Pas de Vraies Actions — Combien de Gens le Savent Vraiment</a>:</strong> Un examen approfondi de la façon dont les actions tokenisées comme xStocks diffèrent juridiquement de la propriété réelle d'actions</li>
+    <li><strong><a href="/fr/blog/solana-tokenized-asset-settlement-record-q2-2026">Le Volume d'Actifs Tokenisés de Solana Atteint un Record de 5,77 Milliards de Dollars — En Avance sur les Échanges, en Retard sur l'Émission</a>:</strong> L'asymétrie entre échanges et émission que reproduit le cas SK Hynix</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Ações Tokenizadas Não São Ações Reais — Quantas Pessoas Realmente Sabem Disso</a>:</strong> Uma análise mais profunda de como ações tokenizadas como a xStocks diferem legalmente da propriedade real de ações</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">Volume de Ativos Tokenizados da Solana Atinge Recorde de US$ 5,77 Bi — À Frente na Negociação, Atrás na Emissão</a>:</strong> A assimetria entre negociação e emissão que o caso da SK Hynix repete</li>
+    <li><strong><a href="/pt/blog/tokenized-stocks-not-real-stocks">Ações Tokenizadas Não São Ações Reais — Quantas Pessoas Realmente Sabem Disso</a>:</strong> Uma análise mais profunda de como ações tokenizadas como a xStocks diferem legalmente da propriedade real de ações</li>
+    <li><strong><a href="/pt/blog/solana-tokenized-asset-settlement-record-q2-2026">Volume de Ativos Tokenizados da Solana Atinge Recorde de US$ 5,77 Bi — À Frente na Negociação, Atrás na Emissão</a>:</strong> A assimetria entre negociação e emissão que o caso da SK Hynix repete</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Tokenize Hisseler Gerçek Hisse Değildir — Kaç Kişi Bunu Gerçekten Biliyor</a>:</strong> xStocks gibi tokenize hisselerin gerçek hisse sahipliğinden yasal olarak nasıl farklı olduğuna daha derin bir bakış</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">Solana'nın Tokenize Varlık Hacmi Rekor 5,77 Milyar Dolara Ulaştı — İşlemde Önde, İhraçta Geride</a>:</strong> SK Hynix örneğinin tekrarladığı işlem-ihraç asimetrisi</li>
+    <li><strong><a href="/tr/blog/tokenized-stocks-not-real-stocks">Tokenize Hisseler Gerçek Hisse Değildir — Kaç Kişi Bunu Gerçekten Biliyor</a>:</strong> xStocks gibi tokenize hisselerin gerçek hisse sahipliğinden yasal olarak nasıl farklı olduğuna daha derin bir bakış</li>
+    <li><strong><a href="/tr/blog/solana-tokenized-asset-settlement-record-q2-2026">Solana'nın Tokenize Varlık Hacmi Rekor 5,77 Milyar Dolara Ulaştı — İşlemde Önde, İhraçta Geride</a>:</strong> SK Hynix örneğinin tekrarladığı işlem-ihraç asimetrisi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/tokenized-stocks-not-real-stocks.php">Cổ Phiếu Token Hóa Không Phải Là Cổ Phiếu Thật — Có Bao Nhiêu Người Thực Sự Biết Điều Đó</a>:</strong> Một cái nhìn sâu hơn về việc cổ phiếu token hóa như xStocks khác biệt về mặt pháp lý so với quyền sở hữu cổ phiếu thực như thế nào</li>
-    <li><strong><a href="/blog/solana-tokenized-asset-settlement-record-q2-2026.php">Khối Lượng Tài Sản Token Hóa Của Solana Đạt Kỷ Lục 5,77 Tỷ USD — Dẫn Đầu Về Giao Dịch, Tụt Hậu Về Phát Hành</a>:</strong> Sự bất cân xứng giữa giao dịch và phát hành mà trường hợp SK Hynix lặp lại</li>
+    <li><strong><a href="/vi/blog/tokenized-stocks-not-real-stocks">Cổ Phiếu Token Hóa Không Phải Là Cổ Phiếu Thật — Có Bao Nhiêu Người Thực Sự Biết Điều Đó</a>:</strong> Một cái nhìn sâu hơn về việc cổ phiếu token hóa như xStocks khác biệt về mặt pháp lý so với quyền sở hữu cổ phiếu thực như thế nào</li>
+    <li><strong><a href="/vi/blog/solana-tokenized-asset-settlement-record-q2-2026">Khối Lượng Tài Sản Token Hóa Của Solana Đạt Kỷ Lục 5,77 Tỷ USD — Dẫn Đầu Về Giao Dịch, Tụt Hậu Về Phát Hành</a>:</strong> Sự bất cân xứng giữa giao dịch và phát hành mà trường hợp SK Hynix lặp lại</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 블룸버그(SK하이닉스 265억달러 조달 및 청약 수요 보도), 빅고파이낸스(공모가·상장 첫날 주가 보도), 크립토브리핑(xStocks 솔라나 상장 및 토큰화 메커니즘 보도), 크라켄 공식 블로그(xStocks 발행·수탁 구조 설명), 카운터포인트리서치(SK하이닉스 HBM 시장 점유율 데이터). 이 글은 투자 조언이 아니다.</p>

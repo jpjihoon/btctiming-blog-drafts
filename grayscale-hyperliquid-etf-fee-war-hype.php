@@ -437,49 +437,49 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">블랙록 스테이킹 이더리움 ETF, 첫날 1억 달러로 데뷔</a>:</strong> 스테이킹 수익을 ETF에 담는 구조가 처음 시도된 사례</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">미국 퍼페추얼의 상륙 — 콜쉬 BTCPERP와 '지침'이라는 취약한 기반</a>:</strong> 무기한선물이 미국 규제 체계로 들어오는 또 다른 경로</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA, 크립토 무기한 선물을 CFD로 — 레버리지 2:1 상한 적용</a>:</strong> 유럽에서는 같은 상품군을 정반대로 규제하는 사례</li>
+    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut">블랙록 스테이킹 이더리움 ETF, 첫날 1억 달러로 데뷔</a>:</strong> 스테이킹 수익을 ETF에 담는 구조가 처음 시도된 사례</li>
+    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals">미국 퍼페추얼의 상륙 — 콜쉬 BTCPERP와 '지침'이라는 취약한 기반</a>:</strong> 무기한선물이 미국 규제 체계로 들어오는 또 다른 경로</li>
+    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage">ESMA, 크립토 무기한 선물을 CFD로 — 레버리지 2:1 상한 적용</a>:</strong> 유럽에서는 같은 상품군을 정반대로 규제하는 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">BlackRock's Staked Ethereum ETF Debuts with $100M</a>:</strong> Where the staking-inside-an-ETF structure was first tried</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Perpetuals Come Onshore — Kalshi's BTCPERP and the Fragile Foundation of 'Guidance'</a>:</strong> Another path perpetual futures are taking into the US regulatory system</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA Treats Crypto Perpetual Futures as CFDs — 2:1 Leverage Cap Applies</a>:</strong> The opposite regulatory approach to the same product category in Europe</li>
+    <li><strong><a href="/en/blog/blackrock-staked-eth-etf-debut">BlackRock's Staked Ethereum ETF Debuts with $100M</a>:</strong> Where the staking-inside-an-ETF structure was first tried</li>
+    <li><strong><a href="/en/blog/kalshi-btcperp-cftc-onshore-perpetuals">Perpetuals Come Onshore — Kalshi's BTCPERP and the Fragile Foundation of 'Guidance'</a>:</strong> Another path perpetual futures are taking into the US regulatory system</li>
+    <li><strong><a href="/en/blog/esma-perpetual-futures-cfd-leverage">ESMA Treats Crypto Perpetual Futures as CFDs — 2:1 Leverage Cap Applies</a>:</strong> The opposite regulatory approach to the same product category in Europe</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">ブラックロック ステーキングイーサリアムETF、初日1億ドルでデビュー</a>:</strong> ステーキング収益をETFに組み込む構造が最初に試された事例</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">米国パーペチュアルの上陸 — コルシBTCPERPと「指針」という脆い土台</a>:</strong> 無期限先物が米国規制体系に入るもう一つの経路</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA、暗号資産無期限先物をCFDとして扱う — レバレッジ2:1上限適用</a>:</strong> 欧州では同じ商品群を正反対に規制する事例</li>
+    <li><strong><a href="/ja/blog/blackrock-staked-eth-etf-debut">ブラックロック ステーキングイーサリアムETF、初日1億ドルでデビュー</a>:</strong> ステーキング収益をETFに組み込む構造が最初に試された事例</li>
+    <li><strong><a href="/ja/blog/kalshi-btcperp-cftc-onshore-perpetuals">米国パーペチュアルの上陸 — コルシBTCPERPと「指針」という脆い土台</a>:</strong> 無期限先物が米国規制体系に入るもう一つの経路</li>
+    <li><strong><a href="/ja/blog/esma-perpetual-futures-cfd-leverage">ESMA、暗号資産無期限先物をCFDとして扱う — レバレッジ2:1上限適用</a>:</strong> 欧州では同じ商品群を正反対に規制する事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">El ETF de Ethereum en Staking de BlackRock Debuta con $100M</a>:</strong> Donde se probó por primera vez la estructura de staking dentro de un ETF</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Los Perpetuos Llegan a EE.UU. — El BTCPERP de Kalshi y la Frágil Base de la 'Guía'</a>:</strong> Otra vía por la que los futuros perpetuos entran al sistema regulatorio estadounidense</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA Trata los Futuros Perpetuos Cripto como CFDs</a>:</strong> El enfoque regulatorio opuesto para la misma categoría de producto en Europa</li>
+    <li><strong><a href="/es/blog/blackrock-staked-eth-etf-debut">El ETF de Ethereum en Staking de BlackRock Debuta con $100M</a>:</strong> Donde se probó por primera vez la estructura de staking dentro de un ETF</li>
+    <li><strong><a href="/es/blog/kalshi-btcperp-cftc-onshore-perpetuals">Los Perpetuos Llegan a EE.UU. — El BTCPERP de Kalshi y la Frágil Base de la 'Guía'</a>:</strong> Otra vía por la que los futuros perpetuos entran al sistema regulatorio estadounidense</li>
+    <li><strong><a href="/es/blog/esma-perpetual-futures-cfd-leverage">ESMA Trata los Futuros Perpetuos Cripto como CFDs</a>:</strong> El enfoque regulatorio opuesto para la misma categoría de producto en Europa</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">BlackRocks Staked-Ethereum-ETF Startet mit 100 Mio. Dollar</a>:</strong> Wo die Struktur "Staking in einem ETF" erstmals erprobt wurde</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Perpetuals Kommen Onshore — Kalshis BTCPERP und das Brüchige Fundament der 'Guidance'</a>:</strong> Ein weiterer Weg, auf dem Perpetual Futures ins US-Regulierungssystem gelangen</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA Behandelt Krypto-Perpetuals als CFDs</a>:</strong> Der gegenteilige regulatorische Ansatz für dieselbe Produktkategorie in Europa</li>
+    <li><strong><a href="/de/blog/blackrock-staked-eth-etf-debut">BlackRocks Staked-Ethereum-ETF Startet mit 100 Mio. Dollar</a>:</strong> Wo die Struktur "Staking in einem ETF" erstmals erprobt wurde</li>
+    <li><strong><a href="/de/blog/kalshi-btcperp-cftc-onshore-perpetuals">Perpetuals Kommen Onshore — Kalshis BTCPERP und das Brüchige Fundament der 'Guidance'</a>:</strong> Ein weiterer Weg, auf dem Perpetual Futures ins US-Regulierungssystem gelangen</li>
+    <li><strong><a href="/de/blog/esma-perpetual-futures-cfd-leverage">ESMA Behandelt Krypto-Perpetuals als CFDs</a>:</strong> Der gegenteilige regulatorische Ansatz für dieselbe Produktkategorie in Europa</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">L'ETF Ethereum Staké de BlackRock Débute avec 100 M$</a>:</strong> Où la structure du staking intégré à un ETF a été testée pour la première fois</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Les Perpétuels Arrivent aux États-Unis — Le BTCPERP de Kalshi et le Fragile Fondement de la « Guidance »</a>:</strong> Une autre voie par laquelle les contrats perpétuels intègrent le système réglementaire américain</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">L'ESMA Traite les Perpétuels Crypto comme des CFD</a>:</strong> L'approche réglementaire opposée pour la même catégorie de produit en Europe</li>
+    <li><strong><a href="/fr/blog/blackrock-staked-eth-etf-debut">L'ETF Ethereum Staké de BlackRock Débute avec 100 M$</a>:</strong> Où la structure du staking intégré à un ETF a été testée pour la première fois</li>
+    <li><strong><a href="/fr/blog/kalshi-btcperp-cftc-onshore-perpetuals">Les Perpétuels Arrivent aux États-Unis — Le BTCPERP de Kalshi et le Fragile Fondement de la « Guidance »</a>:</strong> Une autre voie par laquelle les contrats perpétuels intègrent le système réglementaire américain</li>
+    <li><strong><a href="/fr/blog/esma-perpetual-futures-cfd-leverage">L'ESMA Traite les Perpétuels Crypto comme des CFD</a>:</strong> L'approche réglementaire opposée pour la même catégorie de produit en Europe</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">ETF de Ethereum em Staking da BlackRock Estreia com US$ 100M</a>:</strong> Onde a estrutura de staking dentro de um ETF foi testada pela primeira vez</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Perpétuos Chegam aos EUA — O BTCPERP da Kalshi e a Frágil Base da 'Orientação'</a>:</strong> Outro caminho pelo qual os futuros perpétuos entram no sistema regulatório dos EUA</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA Trata Futuros Perpétuos Cripto como CFDs</a>:</strong> A abordagem regulatória oposta para a mesma categoria de produto na Europa</li>
+    <li><strong><a href="/pt/blog/blackrock-staked-eth-etf-debut">ETF de Ethereum em Staking da BlackRock Estreia com US$ 100M</a>:</strong> Onde a estrutura de staking dentro de um ETF foi testada pela primeira vez</li>
+    <li><strong><a href="/pt/blog/kalshi-btcperp-cftc-onshore-perpetuals">Perpétuos Chegam aos EUA — O BTCPERP da Kalshi e a Frágil Base da 'Orientação'</a>:</strong> Outro caminho pelo qual os futuros perpétuos entram no sistema regulatório dos EUA</li>
+    <li><strong><a href="/pt/blog/esma-perpetual-futures-cfd-leverage">ESMA Trata Futuros Perpétuos Cripto como CFDs</a>:</strong> A abordagem regulatória oposta para a mesma categoria de produto na Europa</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">BlackRock'un Stake Edilmiş Ethereum ETF'i 100 Milyon Dolarla Açıldı</a>:</strong> Stake'i bir ETF içine yerleştirme yapısının ilk denendiği örnek</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Vadeli İşlemler ABD'ye Giriyor — Kalshi'nin BTCPERP'i ve 'Kılavuz'un Kırılgan Temeli</a>:</strong> Vadeli işlemlerin ABD düzenleyici sistemine girdiği bir başka yol</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA, Kripto Vadeli İşlemlerini CFD Olarak Ele Alıyor</a>:</strong> Avrupa'da aynı ürün kategorisine tam tersi bir düzenleyici yaklaşım</li>
+    <li><strong><a href="/tr/blog/blackrock-staked-eth-etf-debut">BlackRock'un Stake Edilmiş Ethereum ETF'i 100 Milyon Dolarla Açıldı</a>:</strong> Stake'i bir ETF içine yerleştirme yapısının ilk denendiği örnek</li>
+    <li><strong><a href="/tr/blog/kalshi-btcperp-cftc-onshore-perpetuals">Vadeli İşlemler ABD'ye Giriyor — Kalshi'nin BTCPERP'i ve 'Kılavuz'un Kırılgan Temeli</a>:</strong> Vadeli işlemlerin ABD düzenleyici sistemine girdiği bir başka yol</li>
+    <li><strong><a href="/tr/blog/esma-perpetual-futures-cfd-leverage">ESMA, Kripto Vadeli İşlemlerini CFD Olarak Ele Alıyor</a>:</strong> Avrupa'da aynı ürün kategorisine tam tersi bir düzenleyici yaklaşım</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/blackrock-staked-eth-etf-debut.php">ETF Ethereum Staking Của BlackRock Ra Mắt Với 100 Triệu USD</a>:</strong> Nơi cấu trúc staking bên trong ETF được thử nghiệm lần đầu</li>
-    <li><strong><a href="/blog/kalshi-btcperp-cftc-onshore-perpetuals.php">Hợp Đồng Vĩnh Viễn Tiến Vào Hoa Kỳ — BTCPERP Của Kalshi Và Nền Tảng Mong Manh Mang Tên 'Hướng Dẫn'</a>:</strong> Một con đường khác đưa hợp đồng vĩnh viễn vào hệ thống quản lý của Hoa Kỳ</li>
-    <li><strong><a href="/blog/esma-perpetual-futures-cfd-leverage.php">ESMA Xem Hợp Đồng Vĩnh Viễn Tiền Mã Hóa Như CFD</a>:</strong> Cách tiếp cận quản lý trái ngược cho cùng danh mục sản phẩm tại châu Âu</li>
+    <li><strong><a href="/vi/blog/blackrock-staked-eth-etf-debut">ETF Ethereum Staking Của BlackRock Ra Mắt Với 100 Triệu USD</a>:</strong> Nơi cấu trúc staking bên trong ETF được thử nghiệm lần đầu</li>
+    <li><strong><a href="/vi/blog/kalshi-btcperp-cftc-onshore-perpetuals">Hợp Đồng Vĩnh Viễn Tiến Vào Hoa Kỳ — BTCPERP Của Kalshi Và Nền Tảng Mong Manh Mang Tên 'Hướng Dẫn'</a>:</strong> Một con đường khác đưa hợp đồng vĩnh viễn vào hệ thống quản lý của Hoa Kỳ</li>
+    <li><strong><a href="/vi/blog/esma-perpetual-futures-cfd-leverage">ESMA Xem Hợp Đồng Vĩnh Viễn Tiền Mã Hóa Như CFD</a>:</strong> Cách tiếp cận quản lý trái ngược cho cùng danh mục sản phẩm tại châu Âu</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토이코노미(그레이스케일 수수료 0.29% 확정 보도), 언체인드(비트와이즈 수수료 인하 보도), SEC.gov(그레이스케일 S-1/A 6차 수정신청서 원문), 하이퍼리퀴드 공식 문서(스테이킹·검증인 구조), 데이터월렛·이코(하이퍼리퀴드·HYPE 토큰 설명), 원세이프·인덱스박스(검증인 집중·젤리 사태 분석). 유입액·흡수율 등 수치는 집계 시점 기준이며 이후 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

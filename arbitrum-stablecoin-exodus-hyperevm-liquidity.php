@@ -353,49 +353,49 @@
   <h3 class="vi">Bài đọc liên quan</h3>
 
   <ul class="ko">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">스테이블코인 공급 증가라는 신호</a>:</strong> 공급량 지표를 읽는 법과 그 한계</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">스테이블코인 거래량 사상 최대와 USDC 역전</a>:</strong> 스테이블코인 지형 변화의 또 다른 축</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">스테이블코인 마른 화약고와 거래소 준비금 격차</a>:</strong> 대기 자금의 향방을 읽는 관점</li>
+    <li><strong><a href="/blog/stablecoin-supply-growth-signal">스테이블코인 공급 증가라는 신호</a>:</strong> 공급량 지표를 읽는 법과 그 한계</li>
+    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip">스테이블코인 거래량 사상 최대와 USDC 역전</a>:</strong> 스테이블코인 지형 변화의 또 다른 축</li>
+    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">스테이블코인 마른 화약고와 거래소 준비금 격차</a>:</strong> 대기 자금의 향방을 읽는 관점</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">The signal of stablecoin supply growth</a>:</strong> How to read the supply metric and its limits</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Record stablecoin volume and the USDC flip</a>:</strong> Another axis of the shifting stablecoin landscape</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Stablecoin dry-powder drought and the exchange-reserve gap</a>:</strong> A lens on where waiting capital heads</li>
+    <li><strong><a href="/en/blog/stablecoin-supply-growth-signal">The signal of stablecoin supply growth</a>:</strong> How to read the supply metric and its limits</li>
+    <li><strong><a href="/en/blog/stablecoin-volume-record-usdc-flip">Record stablecoin volume and the USDC flip</a>:</strong> Another axis of the shifting stablecoin landscape</li>
+    <li><strong><a href="/en/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Stablecoin dry-powder drought and the exchange-reserve gap</a>:</strong> A lens on where waiting capital heads</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">ステーブルコイン供給増加というシグナル</a>:</strong> 供給量指標の読み方とその限界</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">ステーブルコイン取引量過去最大とUSDC逆転</a>:</strong> ステーブルコイン地形変化のもう一つの軸</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">ステーブルコインの乾いた火薬と取引所準備金の格差</a>:</strong> 待機資金の行方を読む視点</li>
+    <li><strong><a href="/ja/blog/stablecoin-supply-growth-signal">ステーブルコイン供給増加というシグナル</a>:</strong> 供給量指標の読み方とその限界</li>
+    <li><strong><a href="/ja/blog/stablecoin-volume-record-usdc-flip">ステーブルコイン取引量過去最大とUSDC逆転</a>:</strong> ステーブルコイン地形変化のもう一つの軸</li>
+    <li><strong><a href="/ja/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">ステーブルコインの乾いた火薬と取引所準備金の格差</a>:</strong> 待機資金の行方を読む視点</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">La señal del crecimiento del suministro de stablecoins</a>:</strong> Cómo leer la métrica de suministro y sus límites</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Volumen récord de stablecoins y el sorpasso de USDC</a>:</strong> Otro eje del cambiante panorama de stablecoins</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">La sequía de pólvora seca en stablecoins y la brecha de reservas de exchanges</a>:</strong> Una lente sobre adónde va el capital en espera</li>
+    <li><strong><a href="/es/blog/stablecoin-supply-growth-signal">La señal del crecimiento del suministro de stablecoins</a>:</strong> Cómo leer la métrica de suministro y sus límites</li>
+    <li><strong><a href="/es/blog/stablecoin-volume-record-usdc-flip">Volumen récord de stablecoins y el sorpasso de USDC</a>:</strong> Otro eje del cambiante panorama de stablecoins</li>
+    <li><strong><a href="/es/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">La sequía de pólvora seca en stablecoins y la brecha de reservas de exchanges</a>:</strong> Una lente sobre adónde va el capital en espera</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">Das Signal des Stablecoin-Angebotswachstums</a>:</strong> Wie man die Angebotskennzahl liest und ihre Grenzen</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Rekord-Stablecoin-Volumen und der USDC-Flip</a>:</strong> Eine weitere Achse der sich wandelnden Stablecoin-Landschaft</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Stablecoin-Dürre an trockenem Pulver und die Börsenreserve-Lücke</a>:</strong> Ein Blick darauf, wohin wartendes Kapital fließt</li>
+    <li><strong><a href="/de/blog/stablecoin-supply-growth-signal">Das Signal des Stablecoin-Angebotswachstums</a>:</strong> Wie man die Angebotskennzahl liest und ihre Grenzen</li>
+    <li><strong><a href="/de/blog/stablecoin-volume-record-usdc-flip">Rekord-Stablecoin-Volumen und der USDC-Flip</a>:</strong> Eine weitere Achse der sich wandelnden Stablecoin-Landschaft</li>
+    <li><strong><a href="/de/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Stablecoin-Dürre an trockenem Pulver und die Börsenreserve-Lücke</a>:</strong> Ein Blick darauf, wohin wartendes Kapital fließt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">Le signal de la croissance de l'offre de stablecoins</a>:</strong> Comment lire l'indicateur d'offre et ses limites</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Volume record de stablecoins et le renversement de l'USDC</a>:</strong> Un autre axe du paysage changeant des stablecoins</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">La sécheresse de poudre sèche en stablecoins et l'écart de réserves d'exchanges</a>:</strong> Un prisme sur la direction du capital en attente</li>
+    <li><strong><a href="/fr/blog/stablecoin-supply-growth-signal">Le signal de la croissance de l'offre de stablecoins</a>:</strong> Comment lire l'indicateur d'offre et ses limites</li>
+    <li><strong><a href="/fr/blog/stablecoin-volume-record-usdc-flip">Volume record de stablecoins et le renversement de l'USDC</a>:</strong> Un autre axe du paysage changeant des stablecoins</li>
+    <li><strong><a href="/fr/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">La sécheresse de poudre sèche en stablecoins et l'écart de réserves d'exchanges</a>:</strong> Un prisme sur la direction du capital en attente</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">O sinal do crescimento do suprimento de stablecoins</a>:</strong> Como ler a métrica de suprimento e seus limites</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Volume recorde de stablecoins e a virada do USDC</a>:</strong> Outro eixo da mudança do cenário de stablecoins</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">A seca de pólvora seca em stablecoins e a lacuna de reservas de exchanges</a>:</strong> Uma lente sobre para onde vai o capital em espera</li>
+    <li><strong><a href="/pt/blog/stablecoin-supply-growth-signal">O sinal do crescimento do suprimento de stablecoins</a>:</strong> Como ler a métrica de suprimento e seus limites</li>
+    <li><strong><a href="/pt/blog/stablecoin-volume-record-usdc-flip">Volume recorde de stablecoins e a virada do USDC</a>:</strong> Outro eixo da mudança do cenário de stablecoins</li>
+    <li><strong><a href="/pt/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">A seca de pólvora seca em stablecoins e a lacuna de reservas de exchanges</a>:</strong> Uma lente sobre para onde vai o capital em espera</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">Stablecoin arz büyümesi sinyali</a>:</strong> Arz metriği nasıl okunur ve sınırları nedir</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Rekor stablecoin hacmi ve USDC dönüşü</a>:</strong> Değişen stablecoin manzarasının bir başka ekseni</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Stablecoin kuru barut kıtlığı ve borsa rezervi açığı</a>:</strong> Bekleyen sermayenin nereye gittiğine dair bir bakış</li>
+    <li><strong><a href="/tr/blog/stablecoin-supply-growth-signal">Stablecoin arz büyümesi sinyali</a>:</strong> Arz metriği nasıl okunur ve sınırları nedir</li>
+    <li><strong><a href="/tr/blog/stablecoin-volume-record-usdc-flip">Rekor stablecoin hacmi ve USDC dönüşü</a>:</strong> Değişen stablecoin manzarasının bir başka ekseni</li>
+    <li><strong><a href="/tr/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Stablecoin kuru barut kıtlığı ve borsa rezervi açığı</a>:</strong> Bekleyen sermayenin nereye gittiğine dair bir bakış</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/stablecoin-supply-growth-signal.php">Tín hiệu tăng trưởng nguồn cung stablecoin</a>:</strong> Cách đọc chỉ số nguồn cung và giới hạn của nó</li>
-    <li><strong><a href="/blog/stablecoin-volume-record-usdc-flip.php">Khối lượng stablecoin kỷ lục và cú lật USDC</a>:</strong> Một trục khác của bức tranh stablecoin đang thay đổi</li>
-    <li><strong><a href="/blog/stablecoin-dry-powder-drought-exchange-reserve-gap.php">Cơn hạn thuốc súng khô stablecoin và khoảng cách dự trữ sàn</a>:</strong> Một lăng kính về hướng đi của vốn chờ</li>
+    <li><strong><a href="/vi/blog/stablecoin-supply-growth-signal">Tín hiệu tăng trưởng nguồn cung stablecoin</a>:</strong> Cách đọc chỉ số nguồn cung và giới hạn của nó</li>
+    <li><strong><a href="/vi/blog/stablecoin-volume-record-usdc-flip">Khối lượng stablecoin kỷ lục và cú lật USDC</a>:</strong> Một trục khác của bức tranh stablecoin đang thay đổi</li>
+    <li><strong><a href="/vi/blog/stablecoin-dry-powder-drought-exchange-reserve-gap">Cơn hạn thuốc súng khô stablecoin và khoảng cách dự trữ sàn</a>:</strong> Một lăng kính về hướng đi của vốn chờ</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토어드벤처(아르테미스 대시보드 인용, 아비트럼 77억→44억 달러), 암비크립토(아비트럼 10억 달러 유출·ARB 가격), 디파이라마(L2 TVL·스테이블코인 데이터), CEX.IO(2026년 2분기 스테이블코인 로테이션·수축 보고서), 아르테미스(온체인 스테이블코인 공급 지표). 수치는 대시보드 갱신 시점에 따라 변동할 수 있으며, 본 글은 투자 조언이 아니다.</p>

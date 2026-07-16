@@ -510,40 +510,40 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">크라켄, 리투아니아에서 '은행'이 되려 한다 — 미국 IPO 앞두고 전면 은행 라이선스 추진</a>:</strong> 같은 시기 크라켄의 규제 확장 행보를 다룬 글</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">크라켄, 토큰화 주식을 레버리지 담보로 — 자본 효율인가 새 위험 사슬인가</a>:</strong> 크라켄의 또 다른 리스크 구조를 짚은 글</li>
+    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid">크라켄, 리투아니아에서 '은행'이 되려 한다 — 미국 IPO 앞두고 전면 은행 라이선스 추진</a>:</strong> 같은 시기 크라켄의 규제 확장 행보를 다룬 글</li>
+    <li><strong><a href="/blog/kraken-tokenized-stock-collateral">크라켄, 토큰화 주식을 레버리지 담보로 — 자본 효율인가 새 위험 사슬인가</a>:</strong> 크라켄의 또 다른 리스크 구조를 짚은 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken Wants to Become a Bank in Lithuania — Ahead of a Planned U.S. IPO</a>:</strong> Kraken's parallel regulatory-expansion push from the same period</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Turns Tokenized Stocks Into Leverage Collateral — Capital Efficiency or a New Risk Chain?</a>:</strong> Another risk structure at Kraken worth watching</li>
+    <li><strong><a href="/en/blog/kraken-lithuania-banking-charter-bid">Kraken Wants to Become a Bank in Lithuania — Ahead of a Planned U.S. IPO</a>:</strong> Kraken's parallel regulatory-expansion push from the same period</li>
+    <li><strong><a href="/en/blog/kraken-tokenized-stock-collateral">Kraken Turns Tokenized Stocks Into Leverage Collateral — Capital Efficiency or a New Risk Chain?</a>:</strong> Another risk structure at Kraken worth watching</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">クラケン、リトアニアで「銀行」になろうとしている — 米国IPOを前に全面銀行免許を推進</a>:</strong> 同時期のクラケンの規制拡張の動きを扱った記事</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">クラケン、トークン化株式をレバレッジ担保に — 資本効率か新たなリスクの連鎖か</a>:</strong> クラケンの別のリスク構造を取り上げた記事</li>
+    <li><strong><a href="/ja/blog/kraken-lithuania-banking-charter-bid">クラケン、リトアニアで「銀行」になろうとしている — 米国IPOを前に全面銀行免許を推進</a>:</strong> 同時期のクラケンの規制拡張の動きを扱った記事</li>
+    <li><strong><a href="/ja/blog/kraken-tokenized-stock-collateral">クラケン、トークン化株式をレバレッジ担保に — 資本効率か新たなリスクの連鎖か</a>:</strong> クラケンの別のリスク構造を取り上げた記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken Quiere Convertirse en un Banco en Lituania — Antes de una Planeada OPI en EE. UU.</a>:</strong> El impulso paralelo de expansión regulatoria de Kraken en el mismo período</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Convierte Acciones Tokenizadas en Garantía de Apalancamiento — ¿Eficiencia de Capital o una Nueva Cadena de Riesgo?</a>:</strong> Otra estructura de riesgo de Kraken a vigilar</li>
+    <li><strong><a href="/es/blog/kraken-lithuania-banking-charter-bid">Kraken Quiere Convertirse en un Banco en Lituania — Antes de una Planeada OPI en EE. UU.</a>:</strong> El impulso paralelo de expansión regulatoria de Kraken en el mismo período</li>
+    <li><strong><a href="/es/blog/kraken-tokenized-stock-collateral">Kraken Convierte Acciones Tokenizadas en Garantía de Apalancamiento — ¿Eficiencia de Capital o una Nueva Cadena de Riesgo?</a>:</strong> Otra estructura de riesgo de Kraken a vigilar</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken Will in Litauen zur 'Bank' Werden — Vor Geplantem US-Börsengang</a>:</strong> Krakens parallele Vorstöße zur regulatorischen Expansion im selben Zeitraum</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Macht aus Tokenisierten Aktien Hebel-Sicherheiten — Kapitaleffizienz oder Neue Risikokette?</a>:</strong> Eine weitere beobachtenswerte Risikostruktur bei Kraken</li>
+    <li><strong><a href="/de/blog/kraken-lithuania-banking-charter-bid">Kraken Will in Litauen zur 'Bank' Werden — Vor Geplantem US-Börsengang</a>:</strong> Krakens parallele Vorstöße zur regulatorischen Expansion im selben Zeitraum</li>
+    <li><strong><a href="/de/blog/kraken-tokenized-stock-collateral">Kraken Macht aus Tokenisierten Aktien Hebel-Sicherheiten — Kapitaleffizienz oder Neue Risikokette?</a>:</strong> Eine weitere beobachtenswerte Risikostruktur bei Kraken</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken Veut Devenir une Banque en Lituanie — Avant une Introduction en Bourse Prévue aux États-Unis</a>:</strong> La poussée d'expansion réglementaire parallèle de Kraken sur la même période</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Transforme des Actions Tokenisées en Garantie à Effet de Levier — Efficience du Capital ou Nouvelle Chaîne de Risque ?</a>:</strong> Une autre structure de risque de Kraken à surveiller</li>
+    <li><strong><a href="/fr/blog/kraken-lithuania-banking-charter-bid">Kraken Veut Devenir une Banque en Lituanie — Avant une Introduction en Bourse Prévue aux États-Unis</a>:</strong> La poussée d'expansion réglementaire parallèle de Kraken sur la même période</li>
+    <li><strong><a href="/fr/blog/kraken-tokenized-stock-collateral">Kraken Transforme des Actions Tokenisées en Garantie à Effet de Levier — Efficience du Capital ou Nouvelle Chaîne de Risque ?</a>:</strong> Une autre structure de risque de Kraken à surveiller</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken Quer se Tornar um Banco na Lituânia — Antes de um IPO Planejado nos EUA</a>:</strong> O avanço paralelo de expansão regulatória da Kraken no mesmo período</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Transforma Ações Tokenizadas em Garantia de Alavancagem — Eficiência de Capital ou Nova Cadeia de Risco?</a>:</strong> Outra estrutura de risco da Kraken a observar</li>
+    <li><strong><a href="/pt/blog/kraken-lithuania-banking-charter-bid">Kraken Quer se Tornar um Banco na Lituânia — Antes de um IPO Planejado nos EUA</a>:</strong> O avanço paralelo de expansão regulatória da Kraken no mesmo período</li>
+    <li><strong><a href="/pt/blog/kraken-tokenized-stock-collateral">Kraken Transforma Ações Tokenizadas em Garantia de Alavancagem — Eficiência de Capital ou Nova Cadeia de Risco?</a>:</strong> Outra estrutura de risco da Kraken a observar</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken, Litvanya'da 'Banka' Olmak İstiyor — Planlanan ABD Halka Arzı Öncesinde</a>:</strong> Kraken'in aynı dönemdeki paralel düzenleyici genişleme hamlesi</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken, Tokenleştirilmiş Hisseleri Kaldıraç Teminatına Dönüştürüyor — Sermaye Verimliliği mi, Yeni Bir Risk Zinciri mi?</a>:</strong> Kraken'in izlenmesi gereken başka bir risk yapısı</li>
+    <li><strong><a href="/tr/blog/kraken-lithuania-banking-charter-bid">Kraken, Litvanya'da 'Banka' Olmak İstiyor — Planlanan ABD Halka Arzı Öncesinde</a>:</strong> Kraken'in aynı dönemdeki paralel düzenleyici genişleme hamlesi</li>
+    <li><strong><a href="/tr/blog/kraken-tokenized-stock-collateral">Kraken, Tokenleştirilmiş Hisseleri Kaldıraç Teminatına Dönüştürüyor — Sermaye Verimliliği mi, Yeni Bir Risk Zinciri mi?</a>:</strong> Kraken'in izlenmesi gereken başka bir risk yapısı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/kraken-lithuania-banking-charter-bid.php">Kraken Muốn Trở Thành 'Ngân Hàng' Tại Lithuania — Trước Kế Hoạch IPO Tại Mỹ</a>:</strong> Bước đi mở rộng pháp lý song song của Kraken trong cùng giai đoạn</li>
-    <li><strong><a href="/blog/kraken-tokenized-stock-collateral.php">Kraken Biến Cổ Phiếu Token Hóa Thành Tài Sản Thế Chấp Đòn Bẩy — Hiệu Quả Vốn Hay Chuỗi Rủi Ro Mới?</a>:</strong> Một cấu trúc rủi ro khác của Kraken đáng theo dõi</li>
+    <li><strong><a href="/vi/blog/kraken-lithuania-banking-charter-bid">Kraken Muốn Trở Thành 'Ngân Hàng' Tại Lithuania — Trước Kế Hoạch IPO Tại Mỹ</a>:</strong> Bước đi mở rộng pháp lý song song của Kraken trong cùng giai đoạn</li>
+    <li><strong><a href="/vi/blog/kraken-tokenized-stock-collateral">Kraken Biến Cổ Phiếu Token Hóa Thành Tài Sản Thế Chấp Đòn Bẩy — Hiệu Quả Vốn Hay Chuỗi Rủi Ro Mới?</a>:</strong> Một cấu trúc rủi ro khác của Kraken đáng theo dõi</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CryptoTimes, Law360, CryptoBriefing, Cointelegraph(TradingView 경유), TFTC, Bitcoin Magazine, FXNewsGroup, Dealroom.co, 크라켄 공식 블로그("Setting the record straight"), Bloomberg Tax(마컴·프레이거 메티스), SEC 보도자료(BF 보거스). 수치는 보도 및 소장 제출 시점 기준이며 소송 절차에 따라 달라질 수 있다. 본 글은 투자 조언이 아니다.</p>

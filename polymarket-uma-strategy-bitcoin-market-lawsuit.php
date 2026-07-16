@@ -510,40 +510,40 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">"이벤트 계약은 결국 바이너리 옵션" — ESMA, EU 예측시장에 소매 판매 금지선 긋다</a>:</strong> 미국이 예측시장을 제도화하려는 흐름과 정반대로 움직인 EU 규제당국의 대응을 다룬 글</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">봉크다오 국고 2,000만 달러 탈취 — '정상 작동하는' 거버넌스가 무기가 됐다</a>:</strong> 토큰 보유량에 비례한 투표가 어떻게 소수에게 악용될 수 있는지 보여준 같은 구조적 취약점 사례</li>
+    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban">"이벤트 계약은 결국 바이너리 옵션" — ESMA, EU 예측시장에 소매 판매 금지선 긋다</a>:</strong> 미국이 예측시장을 제도화하려는 흐름과 정반대로 움직인 EU 규제당국의 대응을 다룬 글</li>
+    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack">봉크다오 국고 2,000만 달러 탈취 — '정상 작동하는' 거버넌스가 무기가 됐다</a>:</strong> 토큰 보유량에 비례한 투표가 어떻게 소수에게 악용될 수 있는지 보여준 같은 구조적 취약점 사례</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">An Event Contract Is Still a Binary Option — ESMA Draws a Retail Ban Line Across EU Prediction Markets</a>:</strong> The EU regulator's mirror-image move against prediction markets, made at the same time the U.S. is trying to legitimize them</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">BonkDAO Treasury Drained of $20M — When 'As-Designed' Governance Becomes the Weapon</a>:</strong> The same token-weighted governance vulnerability, seen here draining a treasury rather than swaying a market resolution</li>
+    <li><strong><a href="/en/blog/esma-prediction-market-binary-options-ban">An Event Contract Is Still a Binary Option — ESMA Draws a Retail Ban Line Across EU Prediction Markets</a>:</strong> The EU regulator's mirror-image move against prediction markets, made at the same time the U.S. is trying to legitimize them</li>
+    <li><strong><a href="/en/blog/bonk-dao-governance-treasury-attack">BonkDAO Treasury Drained of $20M — When 'As-Designed' Governance Becomes the Weapon</a>:</strong> The same token-weighted governance vulnerability, seen here draining a treasury rather than swaying a market resolution</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">「イベント契約は結局バイナリーオプション」 — ESMA、EU予測市場に個人販売禁止線を引く</a>:</strong> 米国が予測市場を制度化しようとする流れと正反対に動いたEU規制当局の対応を扱った記事</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">BonkDAO国庫2,000万ドル奪取 — 「設計通り機能する」ガバナンスが武器になった</a>:</strong> トークン保有量に比例した投票がいかに少数に悪用され得るかを示した、同じ構造的脆弱性の事例</li>
+    <li><strong><a href="/ja/blog/esma-prediction-market-binary-options-ban">「イベント契約は結局バイナリーオプション」 — ESMA、EU予測市場に個人販売禁止線を引く</a>:</strong> 米国が予測市場を制度化しようとする流れと正反対に動いたEU規制当局の対応を扱った記事</li>
+    <li><strong><a href="/ja/blog/bonk-dao-governance-treasury-attack">BonkDAO国庫2,000万ドル奪取 — 「設計通り機能する」ガバナンスが武器になった</a>:</strong> トークン保有量に比例した投票がいかに少数に悪用され得るかを示した、同じ構造的脆弱性の事例</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">"Un Contrato por Evento Sigue Siendo una Opción Binaria" — ESMA Traza una Línea de Prohibición Minorista en los Mercados de Predicción de la UE</a>:</strong> La respuesta especular del regulador de la UE, justo cuando EE. UU. intenta legitimar estos mercados</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">El Tesoro de BonkDAO Vaciado de $20M — Cuando la Gobernanza 'Tal Como Fue Diseñada' se Convierte en el Arma</a>:</strong> La misma vulnerabilidad de gobernanza ponderada por tokens, aquí vaciando un tesoro en lugar de inclinar la resolución de un mercado</li>
+    <li><strong><a href="/es/blog/esma-prediction-market-binary-options-ban">"Un Contrato por Evento Sigue Siendo una Opción Binaria" — ESMA Traza una Línea de Prohibición Minorista en los Mercados de Predicción de la UE</a>:</strong> La respuesta especular del regulador de la UE, justo cuando EE. UU. intenta legitimar estos mercados</li>
+    <li><strong><a href="/es/blog/bonk-dao-governance-treasury-attack">El Tesoro de BonkDAO Vaciado de $20M — Cuando la Gobernanza 'Tal Como Fue Diseñada' se Convierte en el Arma</a>:</strong> La misma vulnerabilidad de gobernanza ponderada por tokens, aquí vaciando un tesoro en lugar de inclinar la resolución de un mercado</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Ein Event-Kontrakt Bleibt eine Binäre Option — ESMA Zieht eine Verbotslinie für Kleinanleger bei EU-Prognosemärkten</a>:</strong> Die spiegelbildliche Reaktion der EU-Regulierungsbehörde, genau als die USA versuchen, diese Märkte zu legitimieren</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">BonkDAO-Schatzkammer um 20 Mio. Dollar Geplündert — Wenn 'Wie Vorgesehen' Funktionierende Governance zur Waffe Wird</a>:</strong> Dieselbe tokengewichtete Governance-Schwachstelle, hier zur Plünderung einer Schatzkammer statt zur Beeinflussung eines Marktergebnisses genutzt</li>
+    <li><strong><a href="/de/blog/esma-prediction-market-binary-options-ban">Ein Event-Kontrakt Bleibt eine Binäre Option — ESMA Zieht eine Verbotslinie für Kleinanleger bei EU-Prognosemärkten</a>:</strong> Die spiegelbildliche Reaktion der EU-Regulierungsbehörde, genau als die USA versuchen, diese Märkte zu legitimieren</li>
+    <li><strong><a href="/de/blog/bonk-dao-governance-treasury-attack">BonkDAO-Schatzkammer um 20 Mio. Dollar Geplündert — Wenn 'Wie Vorgesehen' Funktionierende Governance zur Waffe Wird</a>:</strong> Dieselbe tokengewichtete Governance-Schwachstelle, hier zur Plünderung einer Schatzkammer statt zur Beeinflussung eines Marktergebnisses genutzt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Un Contrat Événementiel Reste une Option Binaire — l'ESMA Trace une Ligne d'Interdiction pour les Particuliers sur les Marchés Prédictifs de l'UE</a>:</strong> La réponse en miroir du régulateur européen, survenue au moment même où les États-Unis tentent de légitimer ces marchés</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">Le Trésor de BonkDAO Vidé de 20 M$ — Quand une Gouvernance 'Fonctionnant Comme Prévu' Devient l'Arme</a>:</strong> La même vulnérabilité de gouvernance pondérée par jetons, ici utilisée pour vider un trésor plutôt que pour influencer une résolution de marché</li>
+    <li><strong><a href="/fr/blog/esma-prediction-market-binary-options-ban">Un Contrat Événementiel Reste une Option Binaire — l'ESMA Trace une Ligne d'Interdiction pour les Particuliers sur les Marchés Prédictifs de l'UE</a>:</strong> La réponse en miroir du régulateur européen, survenue au moment même où les États-Unis tentent de légitimer ces marchés</li>
+    <li><strong><a href="/fr/blog/bonk-dao-governance-treasury-attack">Le Trésor de BonkDAO Vidé de 20 M$ — Quand une Gouvernance 'Fonctionnant Comme Prévu' Devient l'Arme</a>:</strong> La même vulnérabilité de gouvernance pondérée par jetons, ici utilisée pour vider un trésor plutôt que pour influencer une résolution de marché</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Um Contrato de Evento Ainda É uma Opção Binária — ESMA Traça uma Linha de Proibição para Varejo nos Mercados de Previsão da UE</a>:</strong> A resposta espelhada do regulador da UE, no exato momento em que os EUA tentam legitimar esses mercados</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">Tesouro da BonkDAO Esvaziado em US$ 20M — Quando a Governança 'Como Projetada' Vira a Arma</a>:</strong> A mesma vulnerabilidade de governança ponderada por tokens, aqui esvaziando um tesouro em vez de inclinar a resolução de um mercado</li>
+    <li><strong><a href="/pt/blog/esma-prediction-market-binary-options-ban">Um Contrato de Evento Ainda É uma Opção Binária — ESMA Traça uma Linha de Proibição para Varejo nos Mercados de Previsão da UE</a>:</strong> A resposta espelhada do regulador da UE, no exato momento em que os EUA tentam legitimar esses mercados</li>
+    <li><strong><a href="/pt/blog/bonk-dao-governance-treasury-attack">Tesouro da BonkDAO Esvaziado em US$ 20M — Quando a Governança 'Como Projetada' Vira a Arma</a>:</strong> A mesma vulnerabilidade de governança ponderada por tokens, aqui esvaziando um tesouro em vez de inclinar a resolução de um mercado</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Bir Olay Sözleşmesi Yine de İkili Opsiyondur — ESMA, AB Tahmin Piyasalarında Perakendeye Yasak Çizgisi Çiziyor</a>:</strong> ABD bu piyasaları meşrulaştırmaya çalışırken, AB düzenleyicisinin tam tersi yöndeki hamlesi</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">BonkDAO Hazinesi 20 Milyon Dolar Boşaltıldı — 'Tasarlandığı Gibi' İşleyen Yönetişim Silaha Dönüştüğünde</a>:</strong> Aynı token ağırlıklı yönetişim zafiyeti, burada bir piyasa sonucunu etkilemek yerine bir hazineyi boşaltmak için kullanıldı</li>
+    <li><strong><a href="/tr/blog/esma-prediction-market-binary-options-ban">Bir Olay Sözleşmesi Yine de İkili Opsiyondur — ESMA, AB Tahmin Piyasalarında Perakendeye Yasak Çizgisi Çiziyor</a>:</strong> ABD bu piyasaları meşrulaştırmaya çalışırken, AB düzenleyicisinin tam tersi yöndeki hamlesi</li>
+    <li><strong><a href="/tr/blog/bonk-dao-governance-treasury-attack">BonkDAO Hazinesi 20 Milyon Dolar Boşaltıldı — 'Tasarlandığı Gibi' İşleyen Yönetişim Silaha Dönüştüğünde</a>:</strong> Aynı token ağırlıklı yönetişim zafiyeti, burada bir piyasa sonucunu etkilemek yerine bir hazineyi boşaltmak için kullanıldı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/esma-prediction-market-binary-options-ban.php">Hợp Đồng Sự Kiện Vẫn Là Quyền Chọn Nhị Phân — ESMA Vạch Ranh Giới Cấm Bán Lẻ Trên Thị Trường Dự Đoán EU</a>:</strong> Phản ứng đối lập của cơ quan quản lý EU, đúng vào lúc Mỹ đang cố hợp pháp hóa các thị trường này</li>
-    <li><strong><a href="/blog/bonk-dao-governance-treasury-attack.php">Kho Bạc BonkDAO Bị Rút Cạn 20 Triệu USD — Khi Cơ Chế Quản Trị 'Đúng Như Thiết Kế' Trở Thành Vũ Khí</a>:</strong> Cùng một lỗ hổng quản trị theo trọng số token, ở đây dùng để rút cạn kho bạc thay vì chi phối kết quả thị trường</li>
+    <li><strong><a href="/vi/blog/esma-prediction-market-binary-options-ban">Hợp Đồng Sự Kiện Vẫn Là Quyền Chọn Nhị Phân — ESMA Vạch Ranh Giới Cấm Bán Lẻ Trên Thị Trường Dự Đoán EU</a>:</strong> Phản ứng đối lập của cơ quan quản lý EU, đúng vào lúc Mỹ đang cố hợp pháp hóa các thị trường này</li>
+    <li><strong><a href="/vi/blog/bonk-dao-governance-treasury-attack">Kho Bạc BonkDAO Bị Rút Cạn 20 Triệu USD — Khi Cơ Chế Quản Trị 'Đúng Như Thiết Kế' Trở Thành Vũ Khí</a>:</strong> Cùng một lỗ hổng quản trị theo trọng số token, ở đây dùng để rút cạn kho bạc thay vì chi phối kết quả thị trường</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더 디파이언트(The Defiant), 디크립트(Decrypt), 크립토폴리탄(Cryptopolitan), 크립토뉴스(crypto.news), 데일리코인(DailyCoin), 갬블링 인사이더(Gambling Insider), 카지노닷오알지(Casino.org), 월스트리트저널(인용된 조사 보도), 폴리마켓 공식 문서(docs.polymarket.com). 소송은 진행 중이며 사실관계는 절차에 따라 달라질 수 있다. 본 글은 투자 조언이 아니다.</p>

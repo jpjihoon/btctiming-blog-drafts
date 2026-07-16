@@ -283,49 +283,49 @@
   <h2 class="vi">Bài Viết Liên Quan</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">바이낸스, 그리스發 MiCA 라이선스 좌절 — 유럽 사업 재정비 나서</a>:</strong> 이번 서비스 정지로 이어진 그리스 라이선스 좌절을 다진 전편</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA 유예기간 종료 — 7월 1일 이후 유럽 크립토 기업 80%가 여전히 정식 라이선스 없어</a>:</strong> 8% 승인율이 나온 배경을 짚은 글</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA 전면 시행에 BNB체인, 자기수탁 이전 안내서 공개 — 규제가 밀어낸 이용자는 어디로</a>:</strong> 바이낸스 생태계가 규제 압박에 대응하는 또 다른 방식</li>
+    <li><strong><a href="/blog/binance-eu-mica-license-setback">바이낸스, 그리스發 MiCA 라이선스 좌절 — 유럽 사업 재정비 나서</a>:</strong> 이번 서비스 정지로 이어진 그리스 라이선스 좌절을 다진 전편</li>
+    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA 유예기간 종료 — 7월 1일 이후 유럽 크립토 기업 80%가 여전히 정식 라이선스 없어</a>:</strong> 8% 승인율이 나온 배경을 짚은 글</li>
+    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide">MiCA 전면 시행에 BNB체인, 자기수탁 이전 안내서 공개 — 규제가 밀어낸 이용자는 어디로</a>:</strong> 바이낸스 생태계가 규제 압박에 대응하는 또 다른 방식</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance's Greek MiCA License Bid Falls Apart — Regrouping in Europe</a>:</strong> The earlier piece on the Greek license setback that led to this suspension</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA's Grandfathering Cliff — Over 80% of Europe's Crypto Firms Still Lack Full Authorization After July 1</a>:</strong> The background behind the 8% approval rate</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">As MiCA Kicks In, BNB Chain Publishes a Self-Custody Migration Guide — Where Do Displaced Users Go</a>:</strong> Another way the Binance ecosystem is responding to regulatory pressure</li>
+    <li><strong><a href="/en/blog/binance-eu-mica-license-setback">Binance's Greek MiCA License Bid Falls Apart — Regrouping in Europe</a>:</strong> The earlier piece on the Greek license setback that led to this suspension</li>
+    <li><strong><a href="/en/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA's Grandfathering Cliff — Over 80% of Europe's Crypto Firms Still Lack Full Authorization After July 1</a>:</strong> The background behind the 8% approval rate</li>
+    <li><strong><a href="/en/blog/bnb-chain-self-custody-mica-migration-guide">As MiCA Kicks In, BNB Chain Publishes a Self-Custody Migration Guide — Where Do Displaced Users Go</a>:</strong> Another way the Binance ecosystem is responding to regulatory pressure</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance、ギリシャ経由のMiCAライセンス取得が頓挫</a>:</strong> 今回の停止につながったギリシャでのライセンス挫折を扱った前編</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA猶予期間終了 — 7月1日以降も欧州暗号資産企業の80%が正式ライセンス未取得</a>:</strong> 8%という承認率の背景を扱った記事</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA全面施行、BNBチェーンが自己保管への移行ガイドを公開 — 規制が押し出す利用者はどこへ</a>:</strong> バイナンス系エコシステムが規制圧力に対応するもう一つの方法</li>
+    <li><strong><a href="/ja/blog/binance-eu-mica-license-setback">Binance、ギリシャ経由のMiCAライセンス取得が頓挫</a>:</strong> 今回の停止につながったギリシャでのライセンス挫折を扱った前編</li>
+    <li><strong><a href="/ja/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA猶予期間終了 — 7月1日以降も欧州暗号資産企業の80%が正式ライセンス未取得</a>:</strong> 8%という承認率の背景を扱った記事</li>
+    <li><strong><a href="/ja/blog/bnb-chain-self-custody-mica-migration-guide">MiCA全面施行、BNBチェーンが自己保管への移行ガイドを公開 — 規制が押し出す利用者はどこへ</a>:</strong> バイナンス系エコシステムが規制圧力に対応するもう一つの方法</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">El Revés de la Licencia MiCA de Binance en la UE</a>:</strong> El artículo anterior sobre el revés de la licencia griega que condujo a esta suspensión</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">El Precipicio del Período de Gracia de MiCA — Más del 80% de las Firmas Cripto de Europa Aún Sin Autorización Completa Tras el 1 de Julio</a>:</strong> El trasfondo detrás de la tasa de aprobación del 8%</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Con la plena aplicación de MiCA, BNB Chain publica una guía de migración a la autocustodia: ¿adónde van los usuarios desplazados?</a>:</strong> Otra forma en que el ecosistema de Binance responde a la presión regulatoria</li>
+    <li><strong><a href="/es/blog/binance-eu-mica-license-setback">El Revés de la Licencia MiCA de Binance en la UE</a>:</strong> El artículo anterior sobre el revés de la licencia griega que condujo a esta suspensión</li>
+    <li><strong><a href="/es/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">El Precipicio del Período de Gracia de MiCA — Más del 80% de las Firmas Cripto de Europa Aún Sin Autorización Completa Tras el 1 de Julio</a>:</strong> El trasfondo detrás de la tasa de aprobación del 8%</li>
+    <li><strong><a href="/es/blog/bnb-chain-self-custody-mica-migration-guide">Con la plena aplicación de MiCA, BNB Chain publica una guía de migración a la autocustodia: ¿adónde van los usuarios desplazados?</a>:</strong> Otra forma en que el ecosistema de Binance responde a la presión regulatoria</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binances MiCA-Lizenz-Rückschlag in der EU</a>:</strong> Der frühere Artikel über den griechischen Lizenzrückschlag, der zu dieser Aussetzung führte</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCAs Übergangsklippe — Über 80% der europäischen Krypto-Firmen Haben Nach dem 1. Juli Immer Noch Keine Vollzulassung</a>:</strong> Der Hintergrund zur 8-Prozent-Genehmigungsquote</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Mit dem vollen MiCA-Start veröffentlicht BNB Chain einen Self-Custody-Migrationsleitfaden — wohin gehen verdrängte Nutzer</a>:</strong> Eine weitere Art, wie das Binance-Ökosystem auf regulatorischen Druck reagiert</li>
+    <li><strong><a href="/de/blog/binance-eu-mica-license-setback">Binances MiCA-Lizenz-Rückschlag in der EU</a>:</strong> Der frühere Artikel über den griechischen Lizenzrückschlag, der zu dieser Aussetzung führte</li>
+    <li><strong><a href="/de/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCAs Übergangsklippe — Über 80% der europäischen Krypto-Firmen Haben Nach dem 1. Juli Immer Noch Keine Vollzulassung</a>:</strong> Der Hintergrund zur 8-Prozent-Genehmigungsquote</li>
+    <li><strong><a href="/de/blog/bnb-chain-self-custody-mica-migration-guide">Mit dem vollen MiCA-Start veröffentlicht BNB Chain einen Self-Custody-Migrationsleitfaden — wohin gehen verdrängte Nutzer</a>:</strong> Eine weitere Art, wie das Binance-Ökosystem auf regulatorischen Druck reagiert</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">L'Échec de la Licence MiCA de Binance en Grèce — Réorganisation en Europe</a>:</strong> L'article précédent sur l'échec de la licence grecque à l'origine de cette suspension</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">La Falaise du Régime Transitoire de MiCA — Plus de 80% des Entreprises Crypto Européennes Toujours Sans Agrément Complet Après le 1er Juillet</a>:</strong> Le contexte derrière le taux d'approbation de 8 %</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA entrant en vigueur, BNB Chain publie un guide de migration vers l'auto-conservation : où vont les utilisateurs déplacés</a>:</strong> Une autre façon dont l'écosystème Binance répond à la pression réglementaire</li>
+    <li><strong><a href="/fr/blog/binance-eu-mica-license-setback">L'Échec de la Licence MiCA de Binance en Grèce — Réorganisation en Europe</a>:</strong> L'article précédent sur l'échec de la licence grecque à l'origine de cette suspension</li>
+    <li><strong><a href="/fr/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">La Falaise du Régime Transitoire de MiCA — Plus de 80% des Entreprises Crypto Européennes Toujours Sans Agrément Complet Après le 1er Juillet</a>:</strong> Le contexte derrière le taux d'approbation de 8 %</li>
+    <li><strong><a href="/fr/blog/bnb-chain-self-custody-mica-migration-guide">MiCA entrant en vigueur, BNB Chain publie un guide de migration vers l'auto-conservation : où vont les utilisateurs déplacés</a>:</strong> Une autre façon dont l'écosystème Binance répond à la pression réglementaire</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">O Fracasso da Licença MiCA da Binance via Grécia — Reorganização na Europa</a>:</strong> O artigo anterior sobre o fracasso da licença grega que levou a esta suspensão</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">O Precipício da Carência da MiCA — Mais de 80% das Empresas Cripto da Europa Ainda Sem Autorização Completa Após 1º de Julho</a>:</strong> O contexto por trás da taxa de aprovação de 8%</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Com a plena vigência do MiCA, a BNB Chain publica um guia de migração para a autocustódia — para onde vão os usuários deslocados</a>:</strong> Outra forma como o ecossistema Binance responde à pressão regulatória</li>
+    <li><strong><a href="/pt/blog/binance-eu-mica-license-setback">O Fracasso da Licença MiCA da Binance via Grécia — Reorganização na Europa</a>:</strong> O artigo anterior sobre o fracasso da licença grega que levou a esta suspensão</li>
+    <li><strong><a href="/pt/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">O Precipício da Carência da MiCA — Mais de 80% das Empresas Cripto da Europa Ainda Sem Autorização Completa Após 1º de Julho</a>:</strong> O contexto por trás da taxa de aprovação de 8%</li>
+    <li><strong><a href="/pt/blog/bnb-chain-self-custody-mica-migration-guide">Com a plena vigência do MiCA, a BNB Chain publica um guia de migração para a autocustódia — para onde vão os usuários deslocados</a>:</strong> Outra forma como o ecossistema Binance responde à pressão regulatória</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Binance'in Yunanistan Üzerinden MiCA Lisansı Girişimi Çöktü — Avrupa'da Yeniden Yapılanma</a>:</strong> Bu askıya almaya yol açan Yunanistan lisans girişimini ele alan önceki yazı</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">MiCA'nın Geçiş Uçurumu — 1 Temmuz'dan Sonra Avrupa'daki Kripto Şirketlerinin %80'inden Fazlası Hâlâ Tam Yetkilendirmeden Yoksun</a>:</strong> Yüzde 8'lik onay oranının ardındaki arka plan</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">MiCA tam yürürlüğe girerken BNB Chain öz-saklamaya geçiş kılavuzu yayımladı — dışlanan kullanıcılar nereye gidiyor</a>:</strong> Binance ekosisteminin düzenleyici baskıya yanıt verdiği bir başka yol</li>
+    <li><strong><a href="/tr/blog/binance-eu-mica-license-setback">Binance'in Yunanistan Üzerinden MiCA Lisansı Girişimi Çöktü — Avrupa'da Yeniden Yapılanma</a>:</strong> Bu askıya almaya yol açan Yunanistan lisans girişimini ele alan önceki yazı</li>
+    <li><strong><a href="/tr/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">MiCA'nın Geçiş Uçurumu — 1 Temmuz'dan Sonra Avrupa'daki Kripto Şirketlerinin %80'inden Fazlası Hâlâ Tam Yetkilendirmeden Yoksun</a>:</strong> Yüzde 8'lik onay oranının ardındaki arka plan</li>
+    <li><strong><a href="/tr/blog/bnb-chain-self-custody-mica-migration-guide">MiCA tam yürürlüğe girerken BNB Chain öz-saklamaya geçiş kılavuzu yayımladı — dışlanan kullanıcılar nereye gidiyor</a>:</strong> Binance ekosisteminin düzenleyici baskıya yanıt verdiği bir başka yol</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/binance-eu-mica-license-setback.php">Nỗ Lực Xin Giấy Phép MiCA Của Binance Qua Hy Lạp Sụp Đổ — Tái Cơ Cấu Tại Châu Âu</a>:</strong> Bài viết trước về thất bại giấy phép tại Hy Lạp dẫn đến lệnh đình chỉ này</li>
-    <li><strong><a href="/blog/mica-grandfathering-cliff-eighty-percent-unlicensed.php">Vách Đá Chuyển Tiếp Của MiCA — Hơn 80% Công Ty Tiền Mã Hóa Châu Âu Vẫn Chưa Có Giấy Phép Đầy Đủ Sau Ngày 1/7</a>:</strong> Bối cảnh đằng sau tỷ lệ chấp thuận 8%</li>
-    <li><strong><a href="/blog/bnb-chain-self-custody-mica-migration-guide.php">Khi MiCA có hiệu lực, BNB Chain công bố hướng dẫn chuyển sang tự lưu ký — người dùng bị đẩy ra đi đâu</a>:</strong> Một cách khác mà hệ sinh thái Binance đang phản ứng trước áp lực quản lý</li>
+    <li><strong><a href="/vi/blog/binance-eu-mica-license-setback">Nỗ Lực Xin Giấy Phép MiCA Của Binance Qua Hy Lạp Sụp Đổ — Tái Cơ Cấu Tại Châu Âu</a>:</strong> Bài viết trước về thất bại giấy phép tại Hy Lạp dẫn đến lệnh đình chỉ này</li>
+    <li><strong><a href="/vi/blog/mica-grandfathering-cliff-eighty-percent-unlicensed">Vách Đá Chuyển Tiếp Của MiCA — Hơn 80% Công Ty Tiền Mã Hóa Châu Âu Vẫn Chưa Có Giấy Phép Đầy Đủ Sau Ngày 1/7</a>:</strong> Bối cảnh đằng sau tỷ lệ chấp thuận 8%</li>
+    <li><strong><a href="/vi/blog/bnb-chain-self-custody-mica-migration-guide">Khi MiCA có hiệu lực, BNB Chain công bố hướng dẫn chuyển sang tự lưu ký — người dùng bị đẩy ra đi đâu</a>:</strong> Một cách khác mà hệ sinh thái Binance đang phản ứng trước áp lực quản lý</li>
   </ul>
 
   <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Yahoo Finance, CCN, crypto.news, BanklessTimes, Cryptonomist. 이용자 수·유출입 수치는 각 매체 보도 시점 기준이며 변경될 수 있다. 이 글은 투자 조언이 아니다.</p>

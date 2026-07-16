@@ -70,15 +70,15 @@
   <h2 class="tr">İki Gün Önce 'Dengeli' Olan Pozisyonlanma Kısa Tarafa Kaydı</h2>
   <h2 class="vi">Vị Thế Từng 'Cân Bằng' Hai Ngày Trước Nay Đã Nghiêng Về Phía Short</h2>
 
-  <p class="ko">본지는 지난 7월 5일, 6월 청산 이후 반토막 났던 오픈 인터레스트가 빠르게 재건되고 있지만 롱숏비율과 펀딩비, 청산 구성 어느 것도 한쪽으로 완전히 쏠리지 않은 <a href="/blog/oi-rebuild-balanced-positioning.php">"균형 상태"</a>라고 짚은 바 있다. 그 시점 오픈 인터레스트는 약 $45.6B로, 30일 전 $57.05B 대비 여전히 18.72% 낮은 수준이었다. 하루 반이 지난 지금, 오픈 인터레스트는 약 $48B까지 늘었다—숏스퀴즈로 가격이 올랐다가 다시 주저앉는 동안에도 계속 불어난 셈이다.</p>
-  <p class="en">On July 5, this site noted that <a href="/blog/oi-rebuild-balanced-positioning.php">open interest — which had been roughly halved by June's liquidation cascade — was rebuilding quickly, but that the long/short ratio, funding rate, and liquidation mix hadn't tilted decisively one way</a>. At that point, open interest sat around $45.6 billion, still 18.72% below the $57.05 billion level of 30 days earlier. A day and a half later, open interest has climbed further, to roughly $48 billion — continuing to build even through the squeeze's rise and its subsequent reversal.</p>
-  <p class="ja">本紙は7月5日、6月の清算で半減していたオープンインタレストが急速に再構築されているものの、<a href="/blog/oi-rebuild-balanced-positioning.php">ロングショート比率・ファンディングレート・清算構成のいずれも一方向に完全には傾いていない「均衡状態」</a>だと指摘した。その時点でオープンインタレストは約456億ドルで、30日前の570億5,000万ドルと比べて依然18.72%低い水準だった。1日半が経った今、オープンインタレストはさらに増加し約480億ドルに達している——ショートスクイーズによる上昇とその後の反落を通じても増え続けたことになる。</p>
-  <p class="es">El 5 de julio, este sitio señaló que <a href="/blog/oi-rebuild-balanced-positioning.php">el interés abierto — que se había reducido a la mitad tras la cascada de liquidaciones de junio — se estaba reconstruyendo rápido, pero que el ratio long/short, la tasa de financiación y la mezcla de liquidaciones no se habían inclinado de forma decisiva hacia un lado</a>. En ese momento, el interés abierto rondaba los 45.600 millones de dólares, todavía un 18,72% por debajo del nivel de 57.050 millones de dólares de 30 días antes. Un día y medio después, el interés abierto ha subido más, hasta unos 48.000 millones de dólares — siguiendo creciendo incluso durante la subida del squeeze y su posterior reversión.</p>
-  <p class="de">Am 5. Juli stellte diese Seite fest, dass sich <a href="/blog/oi-rebuild-balanced-positioning.php">das Open Interest — das durch die Liquidationskaskade im Juni etwa halbiert worden war — schnell wieder aufbaute, dass sich Long/Short-Verhältnis, Funding Rate und Liquidationsmischung aber noch nicht entscheidend zu einer Seite geneigt hatten</a>. Zu diesem Zeitpunkt lag das Open Interest bei rund 45,6 Milliarden Dollar, immer noch 18,72% unter dem Niveau von 57,05 Milliarden Dollar 30 Tage zuvor. Eineinhalb Tage später ist das Open Interest weiter gestiegen, auf rund 48 Milliarden Dollar — es baute sich sowohl während des Anstiegs durch den Squeeze als auch während dessen anschließender Umkehr weiter auf.</p>
-  <p class="fr">Le 5 juillet, ce site notait que <a href="/blog/oi-rebuild-balanced-positioning.php">l'open interest — qui avait été à peu près divisé par deux par la cascade de liquidations de juin — se reconstituait rapidement, mais que le ratio long/short, le taux de financement et la composition des liquidations ne penchaient pas encore nettement d'un côté</a>. À ce moment-là, l'open interest se situait autour de 45,6 milliards de dollars, encore 18,72 % en dessous du niveau de 57,05 milliards de dollars observé 30 jours plus tôt. Un jour et demi plus tard, l'open interest a encore progressé, à environ 48 milliards de dollars — continuant de croître même pendant la hausse du squeeze et son retournement ultérieur.</p>
-  <p class="pt">Em 5 de julho, este site observou que <a href="/blog/oi-rebuild-balanced-positioning.php">o open interest — que havia caído quase pela metade com a cascata de liquidações de junho — estava se reconstruindo rapidamente, mas que o índice long/short, a taxa de financiamento e a composição das liquidações ainda não haviam se inclinado decisivamente para um lado</a>. Naquele momento, o open interest estava em torno de $45,6 bilhões, ainda 18,72% abaixo do nível de $57,05 bilhões de 30 dias antes. Um dia e meio depois, o open interest subiu ainda mais, para cerca de $48 bilhões — continuando a crescer mesmo durante a alta do squeeze e sua reversão subsequente.</p>
-  <p class="tr">Bu site 5 Temmuz'da, <a href="/blog/oi-rebuild-balanced-positioning.php">Haziran'daki tasfiye dalgasıyla neredeyse yarı yarıya azalan açık pozisyonun hızla yeniden inşa edildiğini, ancak uzun/kısa oranının, fonlama oranının ve tasfiye bileşiminin henüz belirgin biçimde bir tarafa kaymadığını</a> belirtmişti. O noktada açık pozisyon yaklaşık 45,6 milyar dolar seviyesindeydi ve bu, 30 gün önceki 57,05 milyar dolarlık seviyenin hâlâ %18,72 altındaydı. Bir buçuk gün sonra açık pozisyon daha da yükselerek yaklaşık 48 milyar dolara ulaştı — sıkışmanın yükselişi ve ardından gelen tersine dönüşü boyunca bile büyümeye devam etti.</p>
-  <p class="vi">Vào ngày 5 tháng 7, trang này đã lưu ý rằng <a href="/blog/oi-rebuild-balanced-positioning.php">khối lượng hợp đồng mở (open interest) — vốn đã giảm gần một nửa do đợt thanh lý dây chuyền tháng 6 — đang phục hồi nhanh chóng, nhưng tỷ lệ long/short, tỷ lệ funding rate và cơ cấu thanh lý vẫn chưa nghiêng hẳn về một phía</a>. Vào thời điểm đó, open interest ở mức khoảng 45,6 tỷ đô la, vẫn thấp hơn 18,72% so với mức 57,05 tỷ đô la của 30 ngày trước đó. Một ngày rưỡi sau, open interest đã tăng thêm, lên khoảng 48 tỷ đô la — tiếp tục tăng ngay cả trong suốt đợt tăng do siết bán khống và sự đảo chiều sau đó.</p>
+  <p class="ko">본지는 지난 7월 5일, 6월 청산 이후 반토막 났던 오픈 인터레스트가 빠르게 재건되고 있지만 롱숏비율과 펀딩비, 청산 구성 어느 것도 한쪽으로 완전히 쏠리지 않은 <a href="/blog/oi-rebuild-balanced-positioning">"균형 상태"</a>라고 짚은 바 있다. 그 시점 오픈 인터레스트는 약 $45.6B로, 30일 전 $57.05B 대비 여전히 18.72% 낮은 수준이었다. 하루 반이 지난 지금, 오픈 인터레스트는 약 $48B까지 늘었다—숏스퀴즈로 가격이 올랐다가 다시 주저앉는 동안에도 계속 불어난 셈이다.</p>
+  <p class="en">On July 5, this site noted that <a href="/en/blog/oi-rebuild-balanced-positioning">open interest — which had been roughly halved by June's liquidation cascade — was rebuilding quickly, but that the long/short ratio, funding rate, and liquidation mix hadn't tilted decisively one way</a>. At that point, open interest sat around $45.6 billion, still 18.72% below the $57.05 billion level of 30 days earlier. A day and a half later, open interest has climbed further, to roughly $48 billion — continuing to build even through the squeeze's rise and its subsequent reversal.</p>
+  <p class="ja">本紙は7月5日、6月の清算で半減していたオープンインタレストが急速に再構築されているものの、<a href="/ja/blog/oi-rebuild-balanced-positioning">ロングショート比率・ファンディングレート・清算構成のいずれも一方向に完全には傾いていない「均衡状態」</a>だと指摘した。その時点でオープンインタレストは約456億ドルで、30日前の570億5,000万ドルと比べて依然18.72%低い水準だった。1日半が経った今、オープンインタレストはさらに増加し約480億ドルに達している——ショートスクイーズによる上昇とその後の反落を通じても増え続けたことになる。</p>
+  <p class="es">El 5 de julio, este sitio señaló que <a href="/es/blog/oi-rebuild-balanced-positioning">el interés abierto — que se había reducido a la mitad tras la cascada de liquidaciones de junio — se estaba reconstruyendo rápido, pero que el ratio long/short, la tasa de financiación y la mezcla de liquidaciones no se habían inclinado de forma decisiva hacia un lado</a>. En ese momento, el interés abierto rondaba los 45.600 millones de dólares, todavía un 18,72% por debajo del nivel de 57.050 millones de dólares de 30 días antes. Un día y medio después, el interés abierto ha subido más, hasta unos 48.000 millones de dólares — siguiendo creciendo incluso durante la subida del squeeze y su posterior reversión.</p>
+  <p class="de">Am 5. Juli stellte diese Seite fest, dass sich <a href="/de/blog/oi-rebuild-balanced-positioning">das Open Interest — das durch die Liquidationskaskade im Juni etwa halbiert worden war — schnell wieder aufbaute, dass sich Long/Short-Verhältnis, Funding Rate und Liquidationsmischung aber noch nicht entscheidend zu einer Seite geneigt hatten</a>. Zu diesem Zeitpunkt lag das Open Interest bei rund 45,6 Milliarden Dollar, immer noch 18,72% unter dem Niveau von 57,05 Milliarden Dollar 30 Tage zuvor. Eineinhalb Tage später ist das Open Interest weiter gestiegen, auf rund 48 Milliarden Dollar — es baute sich sowohl während des Anstiegs durch den Squeeze als auch während dessen anschließender Umkehr weiter auf.</p>
+  <p class="fr">Le 5 juillet, ce site notait que <a href="/fr/blog/oi-rebuild-balanced-positioning">l'open interest — qui avait été à peu près divisé par deux par la cascade de liquidations de juin — se reconstituait rapidement, mais que le ratio long/short, le taux de financement et la composition des liquidations ne penchaient pas encore nettement d'un côté</a>. À ce moment-là, l'open interest se situait autour de 45,6 milliards de dollars, encore 18,72 % en dessous du niveau de 57,05 milliards de dollars observé 30 jours plus tôt. Un jour et demi plus tard, l'open interest a encore progressé, à environ 48 milliards de dollars — continuant de croître même pendant la hausse du squeeze et son retournement ultérieur.</p>
+  <p class="pt">Em 5 de julho, este site observou que <a href="/pt/blog/oi-rebuild-balanced-positioning">o open interest — que havia caído quase pela metade com a cascata de liquidações de junho — estava se reconstruindo rapidamente, mas que o índice long/short, a taxa de financiamento e a composição das liquidações ainda não haviam se inclinado decisivamente para um lado</a>. Naquele momento, o open interest estava em torno de $45,6 bilhões, ainda 18,72% abaixo do nível de $57,05 bilhões de 30 dias antes. Um dia e meio depois, o open interest subiu ainda mais, para cerca de $48 bilhões — continuando a crescer mesmo durante a alta do squeeze e sua reversão subsequente.</p>
+  <p class="tr">Bu site 5 Temmuz'da, <a href="/tr/blog/oi-rebuild-balanced-positioning">Haziran'daki tasfiye dalgasıyla neredeyse yarı yarıya azalan açık pozisyonun hızla yeniden inşa edildiğini, ancak uzun/kısa oranının, fonlama oranının ve tasfiye bileşiminin henüz belirgin biçimde bir tarafa kaymadığını</a> belirtmişti. O noktada açık pozisyon yaklaşık 45,6 milyar dolar seviyesindeydi ve bu, 30 gün önceki 57,05 milyar dolarlık seviyenin hâlâ %18,72 altındaydı. Bir buçuk gün sonra açık pozisyon daha da yükselerek yaklaşık 48 milyar dolara ulaştı — sıkışmanın yükselişi ve ardından gelen tersine dönüşü boyunca bile büyümeye devam etti.</p>
+  <p class="vi">Vào ngày 5 tháng 7, trang này đã lưu ý rằng <a href="/vi/blog/oi-rebuild-balanced-positioning">khối lượng hợp đồng mở (open interest) — vốn đã giảm gần một nửa do đợt thanh lý dây chuyền tháng 6 — đang phục hồi nhanh chóng, nhưng tỷ lệ long/short, tỷ lệ funding rate và cơ cấu thanh lý vẫn chưa nghiêng hẳn về một phía</a>. Vào thời điểm đó, open interest ở mức khoảng 45,6 tỷ đô la, vẫn thấp hơn 18,72% so với mức 57,05 tỷ đô la của 30 ngày trước đó. Một ngày rưỡi sau, open interest đã tăng thêm, lên khoảng 48 tỷ đô la — tiếp tục tăng ngay cả trong suốt đợt tăng do siết bán khống và sự đảo chiều sau đó.</p>
 
   <p class="ko">더 눈에 띄는 변화는 롱숏비율이다. 바이낸스·OKX·바이비트 세 거래소를 종합한 비율은 현재 롱 49.71% 대 숏 50.29%로, 정확히 균형점이었던 이틀 전보다 소폭 숏 쪽으로 기울었다. 거래소별로는 바이낸스가 롱 48.01% 대 숏 51.99%로 가장 뚜렷하게 기울었고, OKX(48.52% 대 51.48%), 바이비트(49.41% 대 50.59%) 순으로 격차가 좁다. 기울기 자체는 1~2%포인트 수준으로 크지 않지만, 방향은 세 거래소 모두 같다—숏 쪽이다.</p>
   <p class="en">The more notable shift is in the long/short ratio. Blended across Binance, OKX, and Bybit, it now reads 49.71% long versus 50.29% short — a modest tilt toward shorts from the balanced reading two days ago. By exchange, Binance shows the clearest lean at 48.01% long versus 51.99% short, followed by OKX (48.52% vs. 51.48%) and Bybit (49.41% vs. 50.59%), the narrowest gap of the three. The tilt itself is only 1-2 percentage points, but the direction is consistent across all three venues — toward shorts.</p>
@@ -315,76 +315,76 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">OI 재구축·균형 포지셔닝</a>:</strong> 이틀 전 균형 상태였던 시점의 기록</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">숏스퀴즈·공포탐욕지수 괴리</a>:</strong> 이번 반등 초입의 심리-가격 괴리</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">선물 오픈 인터레스트 리셋</a>:</strong> 청산 직후 사이클 저점 배경</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">펀딩비·거래소 잔고 괴리</a>:</strong> 스퀴즈 직후 펀딩비 반전 흐름</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">펀딩비 반전·거래소 유출 괴리</a>:</strong> 레버리지 심리와 현물 자금 흐름의 괴리</li>
-    <li><strong><a href="/blog/open-interest-guide.php">오픈 인터레스트 가이드</a>:</strong> 지표를 읽는 기본기</li>
+    <li><strong><a href="/blog/oi-rebuild-balanced-positioning">OI 재구축·균형 포지셔닝</a>:</strong> 이틀 전 균형 상태였던 시점의 기록</li>
+    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap">숏스퀴즈·공포탐욕지수 괴리</a>:</strong> 이번 반등 초입의 심리-가격 괴리</li>
+    <li><strong><a href="/blog/futures-open-interest-reset">선물 오픈 인터레스트 리셋</a>:</strong> 청산 직후 사이클 저점 배경</li>
+    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap">펀딩비·거래소 잔고 괴리</a>:</strong> 스퀴즈 직후 펀딩비 반전 흐름</li>
+    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap">펀딩비 반전·거래소 유출 괴리</a>:</strong> 레버리지 심리와 현물 자금 흐름의 괴리</li>
+    <li><strong><a href="/blog/open-interest-guide">오픈 인터레스트 가이드</a>:</strong> 지표를 읽는 기본기</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">OI Rebuild & Balanced Positioning</a>:</strong> The reading from two days ago when it was still balanced</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Short-Squeeze & Fear-Greed Gap</a>:</strong> The sentiment-price gap at this bounce's start</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Futures Open Interest Reset</a>:</strong> The cycle-low backdrop right after the liquidation</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Funding Rate & Exchange Reserve Gap</a>:</strong> The funding-rate reversal right after the squeeze</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Funding Rate Flip & Exchange Outflow Gap</a>:</strong> The gap between leverage sentiment and spot flows</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Open Interest Guide</a>:</strong> The basics of reading this indicator</li>
+    <li><strong><a href="/en/blog/oi-rebuild-balanced-positioning">OI Rebuild & Balanced Positioning</a>:</strong> The reading from two days ago when it was still balanced</li>
+    <li><strong><a href="/en/blog/short-squeeze-rally-fear-greed-gap">Short-Squeeze & Fear-Greed Gap</a>:</strong> The sentiment-price gap at this bounce's start</li>
+    <li><strong><a href="/en/blog/futures-open-interest-reset">Futures Open Interest Reset</a>:</strong> The cycle-low backdrop right after the liquidation</li>
+    <li><strong><a href="/en/blog/funding-rate-reserve-outflow-gap">Funding Rate & Exchange Reserve Gap</a>:</strong> The funding-rate reversal right after the squeeze</li>
+    <li><strong><a href="/en/blog/funding-rate-turns-positive-exchange-outflow-gap">Funding Rate Flip & Exchange Outflow Gap</a>:</strong> The gap between leverage sentiment and spot flows</li>
+    <li><strong><a href="/en/blog/open-interest-guide">Open Interest Guide</a>:</strong> The basics of reading this indicator</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">OI再構築・均衡ポジショニング</a>:</strong> 2日前、まだ均衡状態だった時点の記録</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">ショートスクイーズ・恐怖強欲指数の乖離</a>:</strong> 今回の反発初期の心理-価格ギャップ</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">先物オープンインタレストのリセット</a>:</strong> 清算直後のサイクル底値の背景</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">ファンディングレート・取引所残高の乖離</a>:</strong> スクイーズ直後のファンディングレート反転</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">ファンディングレート反転・取引所流出の乖離</a>:</strong> レバレッジ心理と現物資金フローの乖離</li>
-    <li><strong><a href="/blog/open-interest-guide.php">オープンインタレストガイド</a>:</strong> 指標を読む基本</li>
+    <li><strong><a href="/ja/blog/oi-rebuild-balanced-positioning">OI再構築・均衡ポジショニング</a>:</strong> 2日前、まだ均衡状態だった時点の記録</li>
+    <li><strong><a href="/ja/blog/short-squeeze-rally-fear-greed-gap">ショートスクイーズ・恐怖強欲指数の乖離</a>:</strong> 今回の反発初期の心理-価格ギャップ</li>
+    <li><strong><a href="/ja/blog/futures-open-interest-reset">先物オープンインタレストのリセット</a>:</strong> 清算直後のサイクル底値の背景</li>
+    <li><strong><a href="/ja/blog/funding-rate-reserve-outflow-gap">ファンディングレート・取引所残高の乖離</a>:</strong> スクイーズ直後のファンディングレート反転</li>
+    <li><strong><a href="/ja/blog/funding-rate-turns-positive-exchange-outflow-gap">ファンディングレート反転・取引所流出の乖離</a>:</strong> レバレッジ心理と現物資金フローの乖離</li>
+    <li><strong><a href="/ja/blog/open-interest-guide">オープンインタレストガイド</a>:</strong> 指標を読む基本</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Reconstrucción del OI y Posicionamiento Equilibrado</a>:</strong> La lectura de hace dos días, cuando aún estaba equilibrado</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Brecha entre Short Squeeze y Miedo-Codicia</a>:</strong> La brecha sentimiento-precio al inicio de este rebote</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Reinicio del Interés Abierto en Futuros</a>:</strong> El contexto de mínimo de ciclo justo después de la liquidación</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Brecha entre Tasa de Financiación y Reservas de Exchanges</a>:</strong> La reversión de la tasa de financiación justo tras el squeeze</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Giro de la Tasa de Financiación y Brecha de Salidas</a>:</strong> La brecha entre el sentimiento de apalancamiento y los flujos al contado</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Guía del Interés Abierto</a>:</strong> Lo básico para leer este indicador</li>
+    <li><strong><a href="/es/blog/oi-rebuild-balanced-positioning">Reconstrucción del OI y Posicionamiento Equilibrado</a>:</strong> La lectura de hace dos días, cuando aún estaba equilibrado</li>
+    <li><strong><a href="/es/blog/short-squeeze-rally-fear-greed-gap">Brecha entre Short Squeeze y Miedo-Codicia</a>:</strong> La brecha sentimiento-precio al inicio de este rebote</li>
+    <li><strong><a href="/es/blog/futures-open-interest-reset">Reinicio del Interés Abierto en Futuros</a>:</strong> El contexto de mínimo de ciclo justo después de la liquidación</li>
+    <li><strong><a href="/es/blog/funding-rate-reserve-outflow-gap">Brecha entre Tasa de Financiación y Reservas de Exchanges</a>:</strong> La reversión de la tasa de financiación justo tras el squeeze</li>
+    <li><strong><a href="/es/blog/funding-rate-turns-positive-exchange-outflow-gap">Giro de la Tasa de Financiación y Brecha de Salidas</a>:</strong> La brecha entre el sentimiento de apalancamiento y los flujos al contado</li>
+    <li><strong><a href="/es/blog/open-interest-guide">Guía del Interés Abierto</a>:</strong> Lo básico para leer este indicador</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">OI-Wiederaufbau & Ausgeglichene Positionierung</a>:</strong> Die Ablesung von vor zwei Tagen, als es noch ausgeglichen war</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Short-Squeeze- & Fear-Greed-Kluft</a>:</strong> Die Stimmungs-Preis-Kluft zu Beginn dieser Erholung</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Futures-Open-Interest-Reset</a>:</strong> Der Zyklustief-Hintergrund direkt nach der Liquidation</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Funding-Rate- & Exchange-Reserve-Kluft</a>:</strong> Die Funding-Rate-Umkehr direkt nach dem Squeeze</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Funding-Rate-Umkehr & Abfluss-Kluft</a>:</strong> Die Kluft zwischen Leverage-Stimmung und Spot-Flüssen</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Open-Interest-Leitfaden</a>:</strong> Die Grundlagen zum Lesen dieses Indikators</li>
+    <li><strong><a href="/de/blog/oi-rebuild-balanced-positioning">OI-Wiederaufbau & Ausgeglichene Positionierung</a>:</strong> Die Ablesung von vor zwei Tagen, als es noch ausgeglichen war</li>
+    <li><strong><a href="/de/blog/short-squeeze-rally-fear-greed-gap">Short-Squeeze- & Fear-Greed-Kluft</a>:</strong> Die Stimmungs-Preis-Kluft zu Beginn dieser Erholung</li>
+    <li><strong><a href="/de/blog/futures-open-interest-reset">Futures-Open-Interest-Reset</a>:</strong> Der Zyklustief-Hintergrund direkt nach der Liquidation</li>
+    <li><strong><a href="/de/blog/funding-rate-reserve-outflow-gap">Funding-Rate- & Exchange-Reserve-Kluft</a>:</strong> Die Funding-Rate-Umkehr direkt nach dem Squeeze</li>
+    <li><strong><a href="/de/blog/funding-rate-turns-positive-exchange-outflow-gap">Funding-Rate-Umkehr & Abfluss-Kluft</a>:</strong> Die Kluft zwischen Leverage-Stimmung und Spot-Flüssen</li>
+    <li><strong><a href="/de/blog/open-interest-guide">Open-Interest-Leitfaden</a>:</strong> Die Grundlagen zum Lesen dieses Indikators</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Reconstruction de l'OI et positionnement équilibré</a> :</strong> La lecture d'il y a deux jours, lorsque le marché était encore équilibré</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Short Squeeze et écart peur-cupidité</a> :</strong> L'écart entre sentiment et prix au début de ce rebond</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Réinitialisation de l'open interest sur les contrats à terme</a> :</strong> Le contexte du plus bas de cycle juste après la liquidation</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Écart entre taux de financement et réserves des plateformes</a> :</strong> Le retournement du taux de financement juste après le squeeze</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Retournement du taux de financement et écart de sorties des plateformes</a> :</strong> L'écart entre le sentiment de levier et les flux au comptant</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Guide de l'open interest</a> :</strong> Les bases pour lire cet indicateur</li>
+    <li><strong><a href="/fr/blog/oi-rebuild-balanced-positioning">Reconstruction de l'OI et positionnement équilibré</a> :</strong> La lecture d'il y a deux jours, lorsque le marché était encore équilibré</li>
+    <li><strong><a href="/fr/blog/short-squeeze-rally-fear-greed-gap">Short Squeeze et écart peur-cupidité</a> :</strong> L'écart entre sentiment et prix au début de ce rebond</li>
+    <li><strong><a href="/fr/blog/futures-open-interest-reset">Réinitialisation de l'open interest sur les contrats à terme</a> :</strong> Le contexte du plus bas de cycle juste après la liquidation</li>
+    <li><strong><a href="/fr/blog/funding-rate-reserve-outflow-gap">Écart entre taux de financement et réserves des plateformes</a> :</strong> Le retournement du taux de financement juste après le squeeze</li>
+    <li><strong><a href="/fr/blog/funding-rate-turns-positive-exchange-outflow-gap">Retournement du taux de financement et écart de sorties des plateformes</a> :</strong> L'écart entre le sentiment de levier et les flux au comptant</li>
+    <li><strong><a href="/fr/blog/open-interest-guide">Guide de l'open interest</a> :</strong> Les bases pour lire cet indicateur</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Reconstrução do OI e Posicionamento Equilibrado</a>:</strong> A leitura de dois dias atrás, quando ainda estava equilibrado</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Short Squeeze e Lacuna de Medo-Ganância</a>:</strong> A lacuna entre sentimento e preço no início desta recuperação</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Reinício do Open Interest em Futuros</a>:</strong> O cenário de mínima de ciclo logo após a liquidação</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Lacuna entre Taxa de Financiamento e Reservas das Corretoras</a>:</strong> A reversão da taxa de financiamento logo após o squeeze</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Reversão da Taxa de Financiamento e Lacuna de Saídas das Corretoras</a>:</strong> A lacuna entre o sentimento de alavancagem e os fluxos à vista</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Guia do Open Interest</a>:</strong> O básico para ler esse indicador</li>
+    <li><strong><a href="/pt/blog/oi-rebuild-balanced-positioning">Reconstrução do OI e Posicionamento Equilibrado</a>:</strong> A leitura de dois dias atrás, quando ainda estava equilibrado</li>
+    <li><strong><a href="/pt/blog/short-squeeze-rally-fear-greed-gap">Short Squeeze e Lacuna de Medo-Ganância</a>:</strong> A lacuna entre sentimento e preço no início desta recuperação</li>
+    <li><strong><a href="/pt/blog/futures-open-interest-reset">Reinício do Open Interest em Futuros</a>:</strong> O cenário de mínima de ciclo logo após a liquidação</li>
+    <li><strong><a href="/pt/blog/funding-rate-reserve-outflow-gap">Lacuna entre Taxa de Financiamento e Reservas das Corretoras</a>:</strong> A reversão da taxa de financiamento logo após o squeeze</li>
+    <li><strong><a href="/pt/blog/funding-rate-turns-positive-exchange-outflow-gap">Reversão da Taxa de Financiamento e Lacuna de Saídas das Corretoras</a>:</strong> A lacuna entre o sentimento de alavancagem e os fluxos à vista</li>
+    <li><strong><a href="/pt/blog/open-interest-guide">Guia do Open Interest</a>:</strong> O básico para ler esse indicador</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">OI Yeniden İnşası ve Dengeli Pozisyonlanma</a>:</strong> İki gün önce, henüz dengeliyken yapılan okuma</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Kısa Pozisyon Sıkışması ve Korku-Açgözlülük Farkı</a>:</strong> Bu yükselişin başındaki duygu-fiyat farkı</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Vadeli İşlem Açık Pozisyon Sıfırlaması</a>:</strong> Tasfiyenin hemen ardından oluşan döngü dibi arka planı</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Fonlama Oranı ve Borsa Rezervi Farkı</a>:</strong> Sıkışmanın hemen ardından yaşanan fonlama oranı tersine dönüşü</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Fonlama Oranı Dönüşü ve Borsa Çıkışı Farkı</a>:</strong> Kaldıraç duyarlılığı ile spot akışları arasındaki fark</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Açık Pozisyon Rehberi</a>:</strong> Bu göstergeyi okumanın temelleri</li>
+    <li><strong><a href="/tr/blog/oi-rebuild-balanced-positioning">OI Yeniden İnşası ve Dengeli Pozisyonlanma</a>:</strong> İki gün önce, henüz dengeliyken yapılan okuma</li>
+    <li><strong><a href="/tr/blog/short-squeeze-rally-fear-greed-gap">Kısa Pozisyon Sıkışması ve Korku-Açgözlülük Farkı</a>:</strong> Bu yükselişin başındaki duygu-fiyat farkı</li>
+    <li><strong><a href="/tr/blog/futures-open-interest-reset">Vadeli İşlem Açık Pozisyon Sıfırlaması</a>:</strong> Tasfiyenin hemen ardından oluşan döngü dibi arka planı</li>
+    <li><strong><a href="/tr/blog/funding-rate-reserve-outflow-gap">Fonlama Oranı ve Borsa Rezervi Farkı</a>:</strong> Sıkışmanın hemen ardından yaşanan fonlama oranı tersine dönüşü</li>
+    <li><strong><a href="/tr/blog/funding-rate-turns-positive-exchange-outflow-gap">Fonlama Oranı Dönüşü ve Borsa Çıkışı Farkı</a>:</strong> Kaldıraç duyarlılığı ile spot akışları arasındaki fark</li>
+    <li><strong><a href="/tr/blog/open-interest-guide">Açık Pozisyon Rehberi</a>:</strong> Bu göstergeyi okumanın temelleri</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/oi-rebuild-balanced-positioning.php">Tái Thiết Open Interest và Vị Thế Cân Bằng</a>:</strong> Ghi nhận từ hai ngày trước, khi thị trường vẫn còn cân bằng</li>
-    <li><strong><a href="/blog/short-squeeze-rally-fear-greed-gap.php">Siết Bán Khống và Khoảng Cách Sợ Hãi-Tham Lam</a>:</strong> Khoảng cách giữa tâm lý và giá vào đầu đợt phục hồi này</li>
-    <li><strong><a href="/blog/futures-open-interest-reset.php">Tái Thiết Lập Open Interest Phái Sinh</a>:</strong> Bối cảnh đáy chu kỳ ngay sau đợt thanh lý</li>
-    <li><strong><a href="/blog/funding-rate-reserve-outflow-gap.php">Khoảng Cách Giữa Funding Rate và Dự Trữ Sàn Giao Dịch</a>:</strong> Sự đảo chiều funding rate ngay sau đợt siết bán khống</li>
-    <li><strong><a href="/blog/funding-rate-turns-positive-exchange-outflow-gap.php">Đảo Chiều Funding Rate và Khoảng Cách Dòng Rút Sàn</a>:</strong> Khoảng cách giữa tâm lý đòn bẩy và dòng vốn giao ngay</li>
-    <li><strong><a href="/blog/open-interest-guide.php">Hướng Dẫn Về Open Interest</a>:</strong> Kiến thức cơ bản để đọc chỉ số này</li>
+    <li><strong><a href="/vi/blog/oi-rebuild-balanced-positioning">Tái Thiết Open Interest và Vị Thế Cân Bằng</a>:</strong> Ghi nhận từ hai ngày trước, khi thị trường vẫn còn cân bằng</li>
+    <li><strong><a href="/vi/blog/short-squeeze-rally-fear-greed-gap">Siết Bán Khống và Khoảng Cách Sợ Hãi-Tham Lam</a>:</strong> Khoảng cách giữa tâm lý và giá vào đầu đợt phục hồi này</li>
+    <li><strong><a href="/vi/blog/futures-open-interest-reset">Tái Thiết Lập Open Interest Phái Sinh</a>:</strong> Bối cảnh đáy chu kỳ ngay sau đợt thanh lý</li>
+    <li><strong><a href="/vi/blog/funding-rate-reserve-outflow-gap">Khoảng Cách Giữa Funding Rate và Dự Trữ Sàn Giao Dịch</a>:</strong> Sự đảo chiều funding rate ngay sau đợt siết bán khống</li>
+    <li><strong><a href="/vi/blog/funding-rate-turns-positive-exchange-outflow-gap">Đảo Chiều Funding Rate và Khoảng Cách Dòng Rút Sàn</a>:</strong> Khoảng cách giữa tâm lý đòn bẩy và dòng vốn giao ngay</li>
+    <li><strong><a href="/vi/blog/open-interest-guide">Hướng Dẫn Về Open Interest</a>:</strong> Kiến thức cơ bản để đọc chỉ số này</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: CoinGlass(오픈 인터레스트·롱숏비율·청산), TheCryptoBasic·KuCoin·Cryptobriefing(숏스퀴즈·청산 규모), Yahoo Finance·Fortune(가격), CryptoTimes.io(기술적 판단), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니다.</p>

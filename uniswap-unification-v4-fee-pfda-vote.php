@@ -298,49 +298,49 @@
 <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
 <h2 class="vi">Nên Đọc Cùng Với</h2>
 <ul class="ko">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">하이퍼리퀴드 HYPE 언락과 어시스턴스 펀드 흡수</a>:</strong> 프로토콜 수수료로 자사 토큰을 되사들이는 또 다른 대형 사례</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">로빈후드체인 유니스왑 거래량 논쟁</a>:</strong> 같은 프로토콜을 둘러싼 거래량 관련 다른 논쟁</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">아베 v3의 모나드 앱체인 진출론</a>:</strong> 유사한 시기 다른 대형 디파이 프로토콜의 확장 전략</li>
+  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption">하이퍼리퀴드 HYPE 언락과 어시스턴스 펀드 흡수</a>:</strong> 프로토콜 수수료로 자사 토큰을 되사들이는 또 다른 대형 사례</li>
+  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">로빈후드체인 유니스왑 거래량 논쟁</a>:</strong> 같은 프로토콜을 둘러싼 거래량 관련 다른 논쟁</li>
+  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis">아베 v3의 모나드 앱체인 진출론</a>:</strong> 유사한 시기 다른 대형 디파이 프로토콜의 확장 전략</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Hyperliquid's HYPE Unlock and Assistance Fund Absorption</a>:</strong> Another major case of a protocol buying back its own token with fee revenue</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">The Robinhood Chain Uniswap Volume Dispute</a>:</strong> A separate volume controversy swirling around the same protocol</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave v3's Case for a Monad Appchain</a>:</strong> Another major DeFi protocol's expansion strategy around the same period</li>
+  <li><strong><a href="/en/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Hyperliquid's HYPE Unlock and Assistance Fund Absorption</a>:</strong> Another major case of a protocol buying back its own token with fee revenue</li>
+  <li><strong><a href="/en/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">The Robinhood Chain Uniswap Volume Dispute</a>:</strong> A separate volume controversy swirling around the same protocol</li>
+  <li><strong><a href="/en/blog/aave-v3-monad-appchain-thesis">Aave v3's Case for a Monad Appchain</a>:</strong> Another major DeFi protocol's expansion strategy around the same period</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">ハイパーリキッドHYPEアンロックとアシスタンスファンド吸収</a>:</strong> 手数料収入で自社トークンを買い戻す別の大型事例</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">ロビンフッドチェーン・ユニスワップ取引量論争</a>:</strong> 同じプロトコルをめぐる取引量に関する別の論争</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">アーベv3のモナドアプリチェーン進出論</a>:</strong> 同時期の別の大型DeFiプロトコルの拡張戦略</li>
+  <li><strong><a href="/ja/blog/hyperliquid-hype-unlock-assistance-fund-absorption">ハイパーリキッドHYPEアンロックとアシスタンスファンド吸収</a>:</strong> 手数料収入で自社トークンを買い戻す別の大型事例</li>
+  <li><strong><a href="/ja/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">ロビンフッドチェーン・ユニスワップ取引量論争</a>:</strong> 同じプロトコルをめぐる取引量に関する別の論争</li>
+  <li><strong><a href="/ja/blog/aave-v3-monad-appchain-thesis">アーベv3のモナドアプリチェーン進出論</a>:</strong> 同時期の別の大型DeFiプロトコルの拡張戦略</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">El Desbloqueo de HYPE de Hyperliquid y la Absorción del Assistance Fund</a>:</strong> Otro caso importante de un protocolo recomprando su propio token con ingresos por comisiones</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">La Disputa por el Volumen de Uniswap en Robinhood Chain</a>:</strong> Otra controversia sobre volumen en torno al mismo protocolo</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">La Tesis de Aave v3 sobre una Appchain en Monad</a>:</strong> La estrategia de expansión de otro gran protocolo DeFi por la misma época</li>
+  <li><strong><a href="/es/blog/hyperliquid-hype-unlock-assistance-fund-absorption">El Desbloqueo de HYPE de Hyperliquid y la Absorción del Assistance Fund</a>:</strong> Otro caso importante de un protocolo recomprando su propio token con ingresos por comisiones</li>
+  <li><strong><a href="/es/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">La Disputa por el Volumen de Uniswap en Robinhood Chain</a>:</strong> Otra controversia sobre volumen en torno al mismo protocolo</li>
+  <li><strong><a href="/es/blog/aave-v3-monad-appchain-thesis">La Tesis de Aave v3 sobre una Appchain en Monad</a>:</strong> La estrategia de expansión de otro gran protocolo DeFi por la misma época</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Hyperliquids HYPE-Freischaltung und Assistance-Fund-Absorption</a>:</strong> Ein weiterer großer Fall, in dem ein Protokoll seinen eigenen Token mit Gebühreneinnahmen zurückkauft</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">Der Uniswap-Volumenstreit auf Robinhood Chain</a>:</strong> Eine weitere Volumenkontroverse rund um dasselbe Protokoll</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave v3s These für eine Monad-Appchain</a>:</strong> Die Expansionsstrategie eines weiteren großen DeFi-Protokolls im gleichen Zeitraum</li>
+  <li><strong><a href="/de/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Hyperliquids HYPE-Freischaltung und Assistance-Fund-Absorption</a>:</strong> Ein weiterer großer Fall, in dem ein Protokoll seinen eigenen Token mit Gebühreneinnahmen zurückkauft</li>
+  <li><strong><a href="/de/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">Der Uniswap-Volumenstreit auf Robinhood Chain</a>:</strong> Eine weitere Volumenkontroverse rund um dasselbe Protokoll</li>
+  <li><strong><a href="/de/blog/aave-v3-monad-appchain-thesis">Aave v3s These für eine Monad-Appchain</a>:</strong> Die Expansionsstrategie eines weiteren großen DeFi-Protokolls im gleichen Zeitraum</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Le Déblocage de HYPE de Hyperliquid et l'Absorption par l'Assistance Fund</a>:</strong> Un autre cas majeur d'un protocole rachetant son propre jeton avec ses revenus de frais</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">Le Litige sur le Volume Uniswap de Robinhood Chain</a>:</strong> Une autre controverse sur le volume autour du même protocole</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">La Thèse d'Aave v3 pour une Appchain Monad</a>:</strong> La stratégie d'expansion d'un autre grand protocole DeFi à la même période</li>
+  <li><strong><a href="/fr/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Le Déblocage de HYPE de Hyperliquid et l'Absorption par l'Assistance Fund</a>:</strong> Un autre cas majeur d'un protocole rachetant son propre jeton avec ses revenus de frais</li>
+  <li><strong><a href="/fr/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">Le Litige sur le Volume Uniswap de Robinhood Chain</a>:</strong> Une autre controverse sur le volume autour du même protocole</li>
+  <li><strong><a href="/fr/blog/aave-v3-monad-appchain-thesis">La Thèse d'Aave v3 pour une Appchain Monad</a>:</strong> La stratégie d'expansion d'un autre grand protocole DeFi à la même période</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">O Desbloqueio de HYPE da Hyperliquid e a Absorção pelo Assistance Fund</a>:</strong> Outro grande caso de um protocolo recomprando seu próprio token com receita de taxas</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">A Disputa de Volume da Uniswap na Robinhood Chain</a>:</strong> Outra controvérsia de volume em torno do mesmo protocolo</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">A Tese da Aave v3 para uma Appchain na Monad</a>:</strong> A estratégia de expansão de outro grande protocolo DeFi no mesmo período</li>
+  <li><strong><a href="/pt/blog/hyperliquid-hype-unlock-assistance-fund-absorption">O Desbloqueio de HYPE da Hyperliquid e a Absorção pelo Assistance Fund</a>:</strong> Outro grande caso de um protocolo recomprando seu próprio token com receita de taxas</li>
+  <li><strong><a href="/pt/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">A Disputa de Volume da Uniswap na Robinhood Chain</a>:</strong> Outra controvérsia de volume em torno do mesmo protocolo</li>
+  <li><strong><a href="/pt/blog/aave-v3-monad-appchain-thesis">A Tese da Aave v3 para uma Appchain na Monad</a>:</strong> A estratégia de expansão de outro grande protocolo DeFi no mesmo período</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Hyperliquid'in HYPE Kilit Açması ve Yardım Fonu Emilimi</a>:</strong> Bir protokolün kendi tokenini ücret geliriyle geri aldığı başka bir büyük örnek</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">Robinhood Chain Uniswap Hacim Tartışması</a>:</strong> Aynı protokol etrafındaki başka bir hacim tartışması</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Aave v3'ün Monad Appchain Tezi</a>:</strong> Aynı dönemde başka bir büyük DeFi protokolünün genişleme stratejisi</li>
+  <li><strong><a href="/tr/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Hyperliquid'in HYPE Kilit Açması ve Yardım Fonu Emilimi</a>:</strong> Bir protokolün kendi tokenini ücret geliriyle geri aldığı başka bir büyük örnek</li>
+  <li><strong><a href="/tr/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">Robinhood Chain Uniswap Hacim Tartışması</a>:</strong> Aynı protokol etrafındaki başka bir hacim tartışması</li>
+  <li><strong><a href="/tr/blog/aave-v3-monad-appchain-thesis">Aave v3'ün Monad Appchain Tezi</a>:</strong> Aynı dönemde başka bir büyük DeFi protokolünün genişleme stratejisi</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/hyperliquid-hype-unlock-assistance-fund-absorption.php">Mở Khóa HYPE Của Hyperliquid Và Sự Hấp Thụ Từ Quỹ Hỗ Trợ</a>:</strong> Một trường hợp lớn khác về giao thức mua lại chính token của mình bằng doanh thu phí</li>
-  <li><strong><a href="/blog/robinhood-chain-uniswap-volume-wash-trading-dispute.php">Tranh Cãi Về Khối Lượng Uniswap Trên Robinhood Chain</a>:</strong> Một tranh cãi khác về khối lượng xoay quanh cùng giao thức này</li>
-  <li><strong><a href="/blog/aave-v3-monad-appchain-thesis.php">Luận Điểm Appchain Monad Của Aave v3</a>:</strong> Chiến lược mở rộng của một giao thức DeFi lớn khác trong cùng giai đoạn</li>
+  <li><strong><a href="/vi/blog/hyperliquid-hype-unlock-assistance-fund-absorption">Mở Khóa HYPE Của Hyperliquid Và Sự Hấp Thụ Từ Quỹ Hỗ Trợ</a>:</strong> Một trường hợp lớn khác về giao thức mua lại chính token của mình bằng doanh thu phí</li>
+  <li><strong><a href="/vi/blog/robinhood-chain-uniswap-volume-wash-trading-dispute">Tranh Cãi Về Khối Lượng Uniswap Trên Robinhood Chain</a>:</strong> Một tranh cãi khác về khối lượng xoay quanh cùng giao thức này</li>
+  <li><strong><a href="/vi/blog/aave-v3-monad-appchain-thesis">Luận Điểm Appchain Monad Của Aave v3</a>:</strong> Chiến lược mở rộng của một giao thức DeFi lớn khác trong cùng giai đoạn</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Uniswap Agora(vote.uniswapfoundation.org), 프로포절 #93 "UNIfication" 및 v4 프로토콜 수수료 확대 관련 후속 프로포절. Bitcoinworld.co.in, "Uniswap Labs Proposes Expanding UNI Burn Program With V4 Protocol Fees". Cryptopolitan, "Uniswap considers vote to expand UNIfication to v4 protocol fees". The Coin Republic, "Uniswap v4 Fee Switch, Robinhood Chain, and Token Auctions: A Big Week"(2026.7.9). PANews, "Uniswap Proposes Extending UNIfication Burn Program to v4 Liquidity Pools". CoinDesk, "Uniswap's UNI token burn, protocol fee 'UNIfication' proposal backed overwhelmingly by voters"(2025.12.26).</p>

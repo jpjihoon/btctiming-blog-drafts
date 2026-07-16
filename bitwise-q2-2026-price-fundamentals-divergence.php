@@ -484,40 +484,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">비트와이즈 10 크립토 인덱스, 하이퍼리퀴드·스텔라 편입 — 폴카닷·아발란체는 퇴출</a>:</strong> 같은 비트와이즈 10 지수의 구성 종목 교체 소식으로, 이번 하락률 논의의 배경이 되는 지수 자체를 더 깊이 이해할 수 있다.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">공개기업, 2분기에만 비트코인 11만개 매수 — 채굴량의 2배 속도</a>:</strong> 같은 2분기 동안 가격 약세에도 불구하고 이어진 기관·기업의 비트코인 매수 흐름을 다룬 글.</li>
+    <li><strong><a href="/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">비트와이즈 10 크립토 인덱스, 하이퍼리퀴드·스텔라 편입 — 폴카닷·아발란체는 퇴출</a>:</strong> 같은 비트와이즈 10 지수의 구성 종목 교체 소식으로, 이번 하락률 논의의 배경이 되는 지수 자체를 더 깊이 이해할 수 있다.</li>
+    <li><strong><a href="/blog/corporate-btc-q2-2026-outpaces-mined-supply">공개기업, 2분기에만 비트코인 11만개 매수 — 채굴량의 2배 속도</a>:</strong> 같은 2분기 동안 가격 약세에도 불구하고 이어진 기관·기업의 비트코인 매수 흐름을 다룬 글.</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">Bitwise's Flagship Crypto Index Adds Hyperliquid and Stellar — Polkadot and Avalanche Are Out</a>:</strong> Covers the same Bitwise 10 index's constituent reshuffle — useful background for understanding the index behind this quarter's numbers.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Public Companies Bought 110,000 Bitcoin in Q2 Alone — Twice the Mining Rate</a>:</strong> Covers institutional and corporate bitcoin buying that continued through the same second quarter, despite the price weakness.</li>
+    <li><strong><a href="/en/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Bitwise's Flagship Crypto Index Adds Hyperliquid and Stellar — Polkadot and Avalanche Are Out</a>:</strong> Covers the same Bitwise 10 index's constituent reshuffle — useful background for understanding the index behind this quarter's numbers.</li>
+    <li><strong><a href="/en/blog/corporate-btc-q2-2026-outpaces-mined-supply">Public Companies Bought 110,000 Bitcoin in Q2 Alone — Twice the Mining Rate</a>:</strong> Covers institutional and corporate bitcoin buying that continued through the same second quarter, despite the price weakness.</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">ビットワイズの主力クリプトインデックス、ハイパーリキッド・ステラを新規採用 — ポルカドットとアバランチは除外</a>:</strong> 同じビットワイズ10指数の構成銘柄入れ替えを扱った記事で、今回の下落率議論の背景となる指数そのものへの理解が深まる。</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">公開企業、第2四半期だけでビットコイン11万枚購入 — 採掘量の2倍のペース</a>:</strong> 同じ第2四半期に価格が弱かったにもかかわらず続いた機関投資家・企業のビットコイン購入の流れを扱った記事。</li>
+    <li><strong><a href="/ja/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">ビットワイズの主力クリプトインデックス、ハイパーリキッド・ステラを新規採用 — ポルカドットとアバランチは除外</a>:</strong> 同じビットワイズ10指数の構成銘柄入れ替えを扱った記事で、今回の下落率議論の背景となる指数そのものへの理解が深まる。</li>
+    <li><strong><a href="/ja/blog/corporate-btc-q2-2026-outpaces-mined-supply">公開企業、第2四半期だけでビットコイン11万枚購入 — 採掘量の2倍のペース</a>:</strong> 同じ第2四半期に価格が弱かったにもかかわらず続いた機関投資家・企業のビットコイン購入の流れを扱った記事。</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">El índice cripto insignia de Bitwise incorpora Hyperliquid y Stellar — Polkadot y Avalanche quedan fuera</a>:</strong> Cubre el mismo cambio de componentes del índice Bitwise 10 — un contexto útil para entender el índice detrás de las cifras de este trimestre.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Empresas públicas compraron 110.000 bitcoins solo en el 2T — el doble de la tasa de minería</a>:</strong> Cubre la compra institucional y corporativa de bitcoin que continuó durante el mismo segundo trimestre, a pesar de la debilidad de precios.</li>
+    <li><strong><a href="/es/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">El índice cripto insignia de Bitwise incorpora Hyperliquid y Stellar — Polkadot y Avalanche quedan fuera</a>:</strong> Cubre el mismo cambio de componentes del índice Bitwise 10 — un contexto útil para entender el índice detrás de las cifras de este trimestre.</li>
+    <li><strong><a href="/es/blog/corporate-btc-q2-2026-outpaces-mined-supply">Empresas públicas compraron 110.000 bitcoins solo en el 2T — el doble de la tasa de minería</a>:</strong> Cubre la compra institucional y corporativa de bitcoin que continuó durante el mismo segundo trimestre, a pesar de la debilidad de precios.</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">Bitwises Krypto-Flaggschiff-Index nimmt Hyperliquid und Stellar auf — Polkadot und Avalanche fliegen raus</a>:</strong> Behandelt dieselbe Umschichtung der Bestandteile des Bitwise-10-Index – nützlicher Hintergrund, um den Index hinter den Zahlen dieses Quartals zu verstehen.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Börsennotierte Unternehmen kauften allein im Q2 110.000 Bitcoin — doppelt so schnell wie gefördert</a>:</strong> Behandelt institutionelle und unternehmerische Bitcoin-Käufe, die trotz der Preisschwäche im selben zweiten Quartal anhielten.</li>
+    <li><strong><a href="/de/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Bitwises Krypto-Flaggschiff-Index nimmt Hyperliquid und Stellar auf — Polkadot und Avalanche fliegen raus</a>:</strong> Behandelt dieselbe Umschichtung der Bestandteile des Bitwise-10-Index – nützlicher Hintergrund, um den Index hinter den Zahlen dieses Quartals zu verstehen.</li>
+    <li><strong><a href="/de/blog/corporate-btc-q2-2026-outpaces-mined-supply">Börsennotierte Unternehmen kauften allein im Q2 110.000 Bitcoin — doppelt so schnell wie gefördert</a>:</strong> Behandelt institutionelle und unternehmerische Bitcoin-Käufe, die trotz der Preisschwäche im selben zweiten Quartal anhielten.</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">L'indice crypto phare de Bitwise ajoute Hyperliquid et Stellar — Polkadot et Avalanche exclus</a> :</strong> Traite du même remaniement des composants de l'indice Bitwise 10 — un contexte utile pour comprendre l'indice derrière les chiffres de ce trimestre.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Les entreprises publiques ont acheté 110 000 bitcoins au seul T2 — deux fois le rythme du minage</a> :</strong> Traite des achats institutionnels et corporatifs de bitcoin qui se sont poursuivis au cours du même deuxième trimestre, malgré la faiblesse des prix.</li>
+    <li><strong><a href="/fr/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">L'indice crypto phare de Bitwise ajoute Hyperliquid et Stellar — Polkadot et Avalanche exclus</a> :</strong> Traite du même remaniement des composants de l'indice Bitwise 10 — un contexte utile pour comprendre l'indice derrière les chiffres de ce trimestre.</li>
+    <li><strong><a href="/fr/blog/corporate-btc-q2-2026-outpaces-mined-supply">Les entreprises publiques ont acheté 110 000 bitcoins au seul T2 — deux fois le rythme du minage</a> :</strong> Traite des achats institutionnels et corporatifs de bitcoin qui se sont poursuivis au cours du même deuxième trimestre, malgré la faiblesse des prix.</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">Índice cripto principal da Bitwise adiciona Hyperliquid e Stellar — Polkadot e Avalanche são excluídos</a>:</strong> Aborda a mesma reformulação de componentes do índice Bitwise 10 — um contexto útil para entender o índice por trás dos números deste trimestre.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Empresas públicas compraram 110.000 bitcoins só no 2º tri. — o dobro do ritmo de mineração</a>:</strong> Aborda as compras institucionais e corporativas de bitcoin que continuaram ao longo do mesmo segundo trimestre, apesar da fraqueza dos preços.</li>
+    <li><strong><a href="/pt/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Índice cripto principal da Bitwise adiciona Hyperliquid e Stellar — Polkadot e Avalanche são excluídos</a>:</strong> Aborda a mesma reformulação de componentes do índice Bitwise 10 — um contexto útil para entender o índice por trás dos números deste trimestre.</li>
+    <li><strong><a href="/pt/blog/corporate-btc-q2-2026-outpaces-mined-supply">Empresas públicas compraram 110.000 bitcoins só no 2º tri. — o dobro do ritmo de mineração</a>:</strong> Aborda as compras institucionais e corporativas de bitcoin que continuaram ao longo do mesmo segundo trimestre, apesar da fraqueza dos preços.</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">Bitwise'ın amiral gemisi kripto endeksi Hyperliquid ve Stellar'ı ekliyor — Polkadot ve Avalanche endeksten çıkarıldı</a>:</strong> Aynı Bitwise 10 endeksinin bileşen değişikliğini ele alıyor — bu çeyreğin rakamlarının arkasındaki endeksi anlamak için faydalı bir arka plan.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Halka Açık Şirketler Sadece 2Ç'de 110.000 Bitcoin Aldı — Madencilik Hızının İki Katı</a>:</strong> Fiyat zayıflığına rağmen aynı ikinci çeyrek boyunca devam eden kurumsal ve şirket bitcoin alımlarını ele alıyor.</li>
+    <li><strong><a href="/tr/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Bitwise'ın amiral gemisi kripto endeksi Hyperliquid ve Stellar'ı ekliyor — Polkadot ve Avalanche endeksten çıkarıldı</a>:</strong> Aynı Bitwise 10 endeksinin bileşen değişikliğini ele alıyor — bu çeyreğin rakamlarının arkasındaki endeksi anlamak için faydalı bir arka plan.</li>
+    <li><strong><a href="/tr/blog/corporate-btc-q2-2026-outpaces-mined-supply">Halka Açık Şirketler Sadece 2Ç'de 110.000 Bitcoin Aldı — Madencilik Hızının İki Katı</a>:</strong> Fiyat zayıflığına rağmen aynı ikinci çeyrek boyunca devam eden kurumsal ve şirket bitcoin alımlarını ele alıyor.</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/bitwise-10-index-hype-xlm-dot-avax-reconstitution.php">Chỉ số crypto chủ lực của Bitwise thêm Hyperliquid và Stellar — Polkadot và Avalanche bị loại</a>:</strong> Đề cập đến việc tái cơ cấu thành phần của cùng chỉ số Bitwise 10 — bối cảnh hữu ích để hiểu chỉ số đằng sau các con số của quý này.</li>
-    <li><strong><a href="/corporate-btc-q2-2026-outpaces-mined-supply.php">Doanh Nghiệp Đại Chúng Mua 110.000 Bitcoin Chỉ Trong Quý 2 — Gấp Đôi Tốc Độ Đào</a>:</strong> Đề cập đến hoạt động mua bitcoin của tổ chức và doanh nghiệp vẫn tiếp diễn trong cùng quý 2, bất chấp giá yếu.</li>
+    <li><strong><a href="/vi/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Chỉ số crypto chủ lực của Bitwise thêm Hyperliquid và Stellar — Polkadot và Avalanche bị loại</a>:</strong> Đề cập đến việc tái cơ cấu thành phần của cùng chỉ số Bitwise 10 — bối cảnh hữu ích để hiểu chỉ số đằng sau các con số của quý này.</li>
+    <li><strong><a href="/vi/blog/corporate-btc-q2-2026-outpaces-mined-supply">Doanh Nghiệp Đại Chúng Mua 110.000 Bitcoin Chỉ Trong Quý 2 — Gấp Đôi Tốc Độ Đào</a>:</strong> Đề cập đến hoạt động mua bitcoin của tổ chức và doanh nghiệp vẫn tiếp diễn trong cùng quý 2, bất chấp giá yếu.</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 비트와이즈 '2026년 2분기 크립토 시장 리뷰', 크립토포테이토, 크립토이코노미(Crypto-Economy), 라이브비트코인뉴스, 더코인리퍼블릭, 블록체인뉴스(Blockchain.News), 트레이더스유니언(TradersUnion). 수치는 보고서 발표 시점 기준이며 이후 수정될 수 있다. 본 글은 투자 조언이 아니다.</p>

@@ -675,67 +675,67 @@
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
 
   <ul class="ko">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">$57,900이 무너지면 정확히 무슨 일이 일어나는가</a>:</strong> 이번 반등의 출발점이 된 6월 30일 저점 붕괴 시나리오를 다진 글</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">SOPR이 세 번이나 다시 설계돼야 했던 이유</a>:</strong> 오늘 다룬 SOPR 지표 자체의 계산 방식과 한계를 다진 글</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">3년 버틴 저항선과 몇 달 만에 뚫린 벽</a>:</strong> URPD 매물대 개념과 과거 사례를 다진 글</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">공포탐욕지수, 일주일 만에 탐욕(69)에서 공포(26)로</a>:</strong> 오늘의 심리 지표를 시계열로 짚은 글</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 나스닥·금·달러 상관계수 반전을 다진 배경 글</li>
+    <li><strong><a href="/blog/57900-breakdown-cascade-simulation">$57,900이 무너지면 정확히 무슨 일이 일어나는가</a>:</strong> 이번 반등의 출발점이 된 6월 30일 저점 붕괴 시나리오를 다진 글</li>
+    <li><strong><a href="/blog/sopr-value-weighting-illusion">SOPR이 세 번이나 다시 설계돼야 했던 이유</a>:</strong> 오늘 다룬 SOPR 지표 자체의 계산 방식과 한계를 다진 글</li>
+    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion">3년 버틴 저항선과 몇 달 만에 뚫린 벽</a>:</strong> URPD 매물대 개념과 과거 사례를 다진 글</li>
+    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact">공포탐욕지수, 일주일 만에 탐욕(69)에서 공포(26)로</a>:</strong> 오늘의 심리 지표를 시계열로 짚은 글</li>
+    <li><strong><a href="/blog/correlation-vacuum-oi-gap">비트코인의 세 나침반이 서로 다른 곳을 가리킨다</a>:</strong> 나스닥·금·달러 상관계수 반전을 다진 배경 글</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">If $57,900 Breaks, What Exactly Happens Next</a>:</strong> The June 30 breakdown scenario that became this bounce's starting point</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">Why SOPR Had to Be Rebuilt Three Times</a>:</strong> How the SOPR metric used today is actually calculated, and its limits</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">The Resistance That Held Three Years vs. the Wall Broken in Months</a>:</strong> The URPD cost-basis-band concept and past cases</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Swings From Greed (69) to Fear (26) in a Week</a>:</strong> A closer look at today's sentiment gauge over time</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> The background piece on the Nasdaq/gold/dollar correlation flip</li>
+    <li><strong><a href="/en/blog/57900-breakdown-cascade-simulation">If $57,900 Breaks, What Exactly Happens Next</a>:</strong> The June 30 breakdown scenario that became this bounce's starting point</li>
+    <li><strong><a href="/en/blog/sopr-value-weighting-illusion">Why SOPR Had to Be Rebuilt Three Times</a>:</strong> How the SOPR metric used today is actually calculated, and its limits</li>
+    <li><strong><a href="/en/blog/urpd-cost-basis-cluster-illusion">The Resistance That Held Three Years vs. the Wall Broken in Months</a>:</strong> The URPD cost-basis-band concept and past cases</li>
+    <li><strong><a href="/en/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Swings From Greed (69) to Fear (26) in a Week</a>:</strong> A closer look at today's sentiment gauge over time</li>
+    <li><strong><a href="/en/blog/correlation-vacuum-oi-gap">Bitcoin's Three Compasses Point in Three Directions</a>:</strong> The background piece on the Nasdaq/gold/dollar correlation flip</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">$57,900が崩れたら正確に何が起きるのか</a>:</strong> 今回の反発の出発点となった6月30日の安値崩壊シナリオを扱った記事</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">SOPRが3度も設計し直されなければならなかった理由</a>:</strong> 本稿で扱ったSOPR指標自体の計算方式と限界を扱った記事</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">3年持ちこたえた抵抗線と数ヶ月で破られた壁</a>:</strong> URPD売買帯の概念と過去の事例を扱った記事</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">恐怖強欲指数、1週間で強欲(69)から恐怖(26)へ</a>:</strong> 今の心理指標を時系列で追った記事</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">ビットコインの三つの羅針盤がバラバラを指す</a>:</strong> ナスダック・金・ドルとの相関係数反転を扱った背景記事</li>
+    <li><strong><a href="/ja/blog/57900-breakdown-cascade-simulation">$57,900が崩れたら正確に何が起きるのか</a>:</strong> 今回の反発の出発点となった6月30日の安値崩壊シナリオを扱った記事</li>
+    <li><strong><a href="/ja/blog/sopr-value-weighting-illusion">SOPRが3度も設計し直されなければならなかった理由</a>:</strong> 本稿で扱ったSOPR指標自体の計算方式と限界を扱った記事</li>
+    <li><strong><a href="/ja/blog/urpd-cost-basis-cluster-illusion">3年持ちこたえた抵抗線と数ヶ月で破られた壁</a>:</strong> URPD売買帯の概念と過去の事例を扱った記事</li>
+    <li><strong><a href="/ja/blog/fear-greed-whiplash-btc-range-intact">恐怖強欲指数、1週間で強欲(69)から恐怖(26)へ</a>:</strong> 今の心理指標を時系列で追った記事</li>
+    <li><strong><a href="/ja/blog/correlation-vacuum-oi-gap">ビットコインの三つの羅針盤がバラバラを指す</a>:</strong> ナスダック・金・ドルとの相関係数反転を扱った背景記事</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Qué Pasa Si Rompe $57,900 — Una Simulación de Cascada</a>:</strong> El escenario de ruptura del 30 de junio que se convirtió en el punto de partida de este rebote</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">Por Qué SOPR Tuvo Que Ser Rediseñado Tres Veces</a>:</strong> Cómo se calcula realmente el indicador SOPR usado hoy, y sus límites</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">La Resistencia que Aguantó Tres Años vs. el Muro Roto en Meses</a>:</strong> El concepto de banda de coste base URPD y casos anteriores</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Miedo y Codicia Pasa de Codicia (69) a Miedo (26) en una Semana</a>:</strong> Un vistazo más de cerca al indicador de sentimiento actual a lo largo del tiempo</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas</a>:</strong> El artículo de fondo sobre la inversión de correlación con Nasdaq/oro/dólar</li>
+    <li><strong><a href="/es/blog/57900-breakdown-cascade-simulation">Qué Pasa Si Rompe $57,900 — Una Simulación de Cascada</a>:</strong> El escenario de ruptura del 30 de junio que se convirtió en el punto de partida de este rebote</li>
+    <li><strong><a href="/es/blog/sopr-value-weighting-illusion">Por Qué SOPR Tuvo Que Ser Rediseñado Tres Veces</a>:</strong> Cómo se calcula realmente el indicador SOPR usado hoy, y sus límites</li>
+    <li><strong><a href="/es/blog/urpd-cost-basis-cluster-illusion">La Resistencia que Aguantó Tres Años vs. el Muro Roto en Meses</a>:</strong> El concepto de banda de coste base URPD y casos anteriores</li>
+    <li><strong><a href="/es/blog/fear-greed-whiplash-btc-range-intact">Miedo y Codicia Pasa de Codicia (69) a Miedo (26) en una Semana</a>:</strong> Un vistazo más de cerca al indicador de sentimiento actual a lo largo del tiempo</li>
+    <li><strong><a href="/es/blog/correlation-vacuum-oi-gap">Las Tres Brújulas de Bitcoin Apuntan en Direcciones Distintas</a>:</strong> El artículo de fondo sobre la inversión de correlación con Nasdaq/oro/dólar</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Was passiert, wenn $57.900 bricht — Eine Kaskadensimulation</a>:</strong> Das Ausbruchsszenario vom 30. Juni, das zum Ausgangspunkt dieser Erholung wurde</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">Warum SOPR Dreimal Neu Gebaut Werden Musste</a>:</strong> Wie die heute verwendete SOPR-Kennzahl tatsächlich berechnet wird, und ihre Grenzen</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">Der Widerstand, der Drei Jahre Hielt, vs. die in Monaten Gebrochene Mauer</a>:</strong> Das URPD-Kostenbasis-Band-Konzept und frühere Fälle</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Springt in Einer Woche von Gier (69) zu Angst (26)</a>:</strong> Ein genauerer Blick auf den aktuellen Stimmungsindikator im Zeitverlauf</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Der Hintergrundartikel zur Korrelationsumkehr mit Nasdaq/Gold/Dollar</li>
+    <li><strong><a href="/de/blog/57900-breakdown-cascade-simulation">Was passiert, wenn $57.900 bricht — Eine Kaskadensimulation</a>:</strong> Das Ausbruchsszenario vom 30. Juni, das zum Ausgangspunkt dieser Erholung wurde</li>
+    <li><strong><a href="/de/blog/sopr-value-weighting-illusion">Warum SOPR Dreimal Neu Gebaut Werden Musste</a>:</strong> Wie die heute verwendete SOPR-Kennzahl tatsächlich berechnet wird, und ihre Grenzen</li>
+    <li><strong><a href="/de/blog/urpd-cost-basis-cluster-illusion">Der Widerstand, der Drei Jahre Hielt, vs. die in Monaten Gebrochene Mauer</a>:</strong> Das URPD-Kostenbasis-Band-Konzept und frühere Fälle</li>
+    <li><strong><a href="/de/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Springt in Einer Woche von Gier (69) zu Angst (26)</a>:</strong> Ein genauerer Blick auf den aktuellen Stimmungsindikator im Zeitverlauf</li>
+    <li><strong><a href="/de/blog/correlation-vacuum-oi-gap">Bitcoins Drei Kompasse Zeigen in Drei Richtungen</a>:</strong> Der Hintergrundartikel zur Korrelationsumkehr mit Nasdaq/Gold/Dollar</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Que se Passe-t-il Exactement si $57 900 Casse</a>:</strong> Le scénario de rupture du 30 juin devenu le point de départ de ce rebond</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">Pourquoi le SOPR a Dû Être Reconstruit Trois Fois</a>:</strong> Comment l'indicateur SOPR utilisé aujourd'hui est réellement calculé, et ses limites</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">La Résistance qui a Tenu Trois Ans vs. le Mur Rompu en Quelques Mois</a>:</strong> Le concept de bande de coût de base URPD et des cas passés</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Fear &amp; Greed Passe de la Cupidité (69) à la Peur (26) en une Semaine</a>:</strong> Un examen plus approfondi de l'indicateur de sentiment actuel dans le temps</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a>:</strong> L'article de fond sur l'inversion de corrélation avec le Nasdaq/l'or/le dollar</li>
+    <li><strong><a href="/fr/blog/57900-breakdown-cascade-simulation">Que se Passe-t-il Exactement si $57 900 Casse</a>:</strong> Le scénario de rupture du 30 juin devenu le point de départ de ce rebond</li>
+    <li><strong><a href="/fr/blog/sopr-value-weighting-illusion">Pourquoi le SOPR a Dû Être Reconstruit Trois Fois</a>:</strong> Comment l'indicateur SOPR utilisé aujourd'hui est réellement calculé, et ses limites</li>
+    <li><strong><a href="/fr/blog/urpd-cost-basis-cluster-illusion">La Résistance qui a Tenu Trois Ans vs. le Mur Rompu en Quelques Mois</a>:</strong> Le concept de bande de coût de base URPD et des cas passés</li>
+    <li><strong><a href="/fr/blog/fear-greed-whiplash-btc-range-intact">Fear &amp; Greed Passe de la Cupidité (69) à la Peur (26) en une Semaine</a>:</strong> Un examen plus approfondi de l'indicateur de sentiment actuel dans le temps</li>
+    <li><strong><a href="/fr/blog/correlation-vacuum-oi-gap">Les Trois Boussoles du Bitcoin Pointent Dans Trois Directions</a>:</strong> L'article de fond sur l'inversion de corrélation avec le Nasdaq/l'or/le dollar</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">O Que Acontece Exatamente se $57.900 Quebrar</a>:</strong> O cenário de rompimento de 30 de junho que se tornou o ponto de partida deste repique</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">Por Que o SOPR Teve de Ser Reconstruído Três Vezes</a>:</strong> Como o indicador SOPR usado hoje é realmente calculado, e seus limites</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">A Resistência que Resistiu Três Anos vs. o Muro Rompido em Meses</a>:</strong> O conceito de faixa de custo-base URPD e casos anteriores</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Medo e Ganância Vai de Ganância (69) a Medo (26) em Uma Semana</a>:</strong> Um olhar mais atento sobre o indicador de sentimento atual ao longo do tempo</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> O artigo de fundo sobre a inversão de correlação com Nasdaq/ouro/dólar</li>
+    <li><strong><a href="/pt/blog/57900-breakdown-cascade-simulation">O Que Acontece Exatamente se $57.900 Quebrar</a>:</strong> O cenário de rompimento de 30 de junho que se tornou o ponto de partida deste repique</li>
+    <li><strong><a href="/pt/blog/sopr-value-weighting-illusion">Por Que o SOPR Teve de Ser Reconstruído Três Vezes</a>:</strong> Como o indicador SOPR usado hoje é realmente calculado, e seus limites</li>
+    <li><strong><a href="/pt/blog/urpd-cost-basis-cluster-illusion">A Resistência que Resistiu Três Anos vs. o Muro Rompido em Meses</a>:</strong> O conceito de faixa de custo-base URPD e casos anteriores</li>
+    <li><strong><a href="/pt/blog/fear-greed-whiplash-btc-range-intact">Medo e Ganância Vai de Ganância (69) a Medo (26) em Uma Semana</a>:</strong> Um olhar mais atento sobre o indicador de sentimento atual ao longo do tempo</li>
+    <li><strong><a href="/pt/blog/correlation-vacuum-oi-gap">As Três Bússolas do Bitcoin Apontam em Três Direções</a>:</strong> O artigo de fundo sobre a inversão de correlação com Nasdaq/ouro/dólar</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">$57.900 Kırılırsa Tam Olarak Ne Olur</a>:</strong> Bu yükselişin başlangıç noktası olan 30 Haziran kırılma senaryosu</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">SOPR Neden Üç Kez Yeniden İnşa Edilmek Zorunda Kaldı</a>:</strong> Bugün ele alınan SOPR göstergesinin gerçekte nasıl hesaplandığı ve sınırları</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">Üç Yıl Direnen Direnç ile Aylar İçinde Kırılan Duvar</a>:</strong> URPD maliyet tabanı bandı kavramı ve geçmiş örnekler</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Korku ve Açgözlülük Bir Haftada Açgözlülükten (69) Korkuya (26) Döndü</a>:</strong> Bugünkü duyarlılık göstergesine zaman içinde daha yakından bir bakış</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Nasdaq/altın/dolar korelasyon tersine dönüşü üzerine arka plan yazısı</li>
+    <li><strong><a href="/tr/blog/57900-breakdown-cascade-simulation">$57.900 Kırılırsa Tam Olarak Ne Olur</a>:</strong> Bu yükselişin başlangıç noktası olan 30 Haziran kırılma senaryosu</li>
+    <li><strong><a href="/tr/blog/sopr-value-weighting-illusion">SOPR Neden Üç Kez Yeniden İnşa Edilmek Zorunda Kaldı</a>:</strong> Bugün ele alınan SOPR göstergesinin gerçekte nasıl hesaplandığı ve sınırları</li>
+    <li><strong><a href="/tr/blog/urpd-cost-basis-cluster-illusion">Üç Yıl Direnen Direnç ile Aylar İçinde Kırılan Duvar</a>:</strong> URPD maliyet tabanı bandı kavramı ve geçmiş örnekler</li>
+    <li><strong><a href="/tr/blog/fear-greed-whiplash-btc-range-intact">Korku ve Açgözlülük Bir Haftada Açgözlülükten (69) Korkuya (26) Döndü</a>:</strong> Bugünkü duyarlılık göstergesine zaman içinde daha yakından bir bakış</li>
+    <li><strong><a href="/tr/blog/correlation-vacuum-oi-gap">Bitcoin'in Üç Pusulası Üç Farklı Yönü Gösteriyor</a>:</strong> Nasdaq/altın/dolar korelasyon tersine dönüşü üzerine arka plan yazısı</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/57900-breakdown-cascade-simulation.php">Nếu $57.900 Bị Phá Vỡ, Chuyện Gì Sẽ Xảy Ra Chính Xác</a>:</strong> Kịch bản phá vỡ ngày 30/6 trở thành điểm khởi đầu của đợt phục hồi này</li>
-    <li><strong><a href="/blog/sopr-value-weighting-illusion.php">Vì Sao SOPR Phải Được Xây Dựng Lại Ba Lần</a>:</strong> Cách chỉ số SOPR dùng hôm nay thực sự được tính toán, và giới hạn của nó</li>
-    <li><strong><a href="/blog/urpd-cost-basis-cluster-illusion.php">Ngưỡng Kháng Cự Trụ Ba Năm và Bức Tường Sụp Đổ Trong Vài Tháng</a>:</strong> Khái niệm dải cơ sở chi phí URPD và các trường hợp trong quá khứ</li>
-    <li><strong><a href="/blog/fear-greed-whiplash-btc-range-intact.php">Sợ Hãi &amp; Tham Lam Chuyển Từ Tham Lam (69) Sang Sợ Hãi (26) Trong Một Tuần</a>:</strong> Cái nhìn sâu hơn về chỉ báo tâm lý hiện tại theo thời gian</li>
-    <li><strong><a href="/blog/correlation-vacuum-oi-gap.php">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Bài viết nền về sự đảo chiều tương quan với Nasdaq/vàng/đô la</li>
+    <li><strong><a href="/vi/blog/57900-breakdown-cascade-simulation">Nếu $57.900 Bị Phá Vỡ, Chuyện Gì Sẽ Xảy Ra Chính Xác</a>:</strong> Kịch bản phá vỡ ngày 30/6 trở thành điểm khởi đầu của đợt phục hồi này</li>
+    <li><strong><a href="/vi/blog/sopr-value-weighting-illusion">Vì Sao SOPR Phải Được Xây Dựng Lại Ba Lần</a>:</strong> Cách chỉ số SOPR dùng hôm nay thực sự được tính toán, và giới hạn của nó</li>
+    <li><strong><a href="/vi/blog/urpd-cost-basis-cluster-illusion">Ngưỡng Kháng Cự Trụ Ba Năm và Bức Tường Sụp Đổ Trong Vài Tháng</a>:</strong> Khái niệm dải cơ sở chi phí URPD và các trường hợp trong quá khứ</li>
+    <li><strong><a href="/vi/blog/fear-greed-whiplash-btc-range-intact">Sợ Hãi &amp; Tham Lam Chuyển Từ Tham Lam (69) Sang Sợ Hãi (26) Trong Một Tuần</a>:</strong> Cái nhìn sâu hơn về chỉ báo tâm lý hiện tại theo thời gian</li>
+    <li><strong><a href="/vi/blog/correlation-vacuum-oi-gap">Ba La Bàn Của Bitcoin Chỉ Về Ba Hướng Khác Nhau</a>:</strong> Bài viết nền về sự đảo chiều tương quan với Nasdaq/vàng/đô la</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Coinbase·CoinGecko·Yahoo Finance·Bitcoin.com·247WallSt(가격·연초 대비 수익률), Alternative.me·Milk Road(공포탐욕지수), Glassnode·CryptoRank·CryptoQuant(STH/LTH-SOPR·장기 보유자 공급), Bitget(URPD 코스트베이시스), Altrady·AltIndex(구글 트렌드), CNBC·TheStreet·VaaSBlock(다우·나스닥·2분기 수익률), BTCtiming.com 자체 분석. 수치는 인용 시점 기준이며 실시간으로 변동할 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>

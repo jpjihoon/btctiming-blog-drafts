@@ -320,49 +320,49 @@
   <p class="vi">Vấn đề nằm ở tính bền vững. Hướng dẫn, thư miễn trừ hành động và việc xây dựng quy tắc của cơ quan quản lý có thể bị một ủy ban tương lai với ưu tiên khác đảo ngược theo cách mà một đạo luật của Quốc hội không thể — cùng khoảng trống về tính bền vững đã từng được nêu ra đối với chính "miễn trừ đổi mới" token hóa của SEC. Nếu CFTC chấp thuận một phần hoặc toàn bộ những gì Blockchain Association yêu cầu, điều đó có khả năng sẽ đến nhanh hơn bất cứ điều gì Quốc hội có thể thông qua trong năm nay — nhưng đồng thời cũng dễ bị đảo ngược hơn nhiều so với một đạo luật, khiến sự nới lỏng ngắn hạn của ngành đứng trên nền tảng tương đối bấp bênh.</p>
 
   <ul class="ko">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">하이퍼리퀴드·팬텀, CFTC에 요청 — "온체인 프로토콜을 증권거래소처럼 취급하지 말라"</a>:</strong> 같은 마감일에 제출된 더 좁고 표적화된 의견서 — 온체인 프로토콜의 브로커 등록 면제 요구</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">클래리티법 통합초안 다음주 등장 예고 — 7월20일 표결 목표</a>:</strong> 클래리티법의 통합 초안과 7월 20일 상원 표결 목표를 둘러싼 배경</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC, 이번 달 '레그 크립토' 발의 예고</a>:</strong> SEC가 병행 추진 중인 '레그 크립토' 2026 규제 아젠다</li>
+    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">하이퍼리퀴드·팬텀, CFTC에 요청 — "온체인 프로토콜을 증권거래소처럼 취급하지 말라"</a>:</strong> 같은 마감일에 제출된 더 좁고 표적화된 의견서 — 온체인 프로토콜의 브로커 등록 면제 요구</li>
+    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target">클래리티법 통합초안 다음주 등장 예고 — 7월20일 표결 목표</a>:</strong> 클래리티법의 통합 초안과 7월 20일 상원 표결 목표를 둘러싼 배경</li>
+    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC, 이번 달 '레그 크립토' 발의 예고</a>:</strong> SEC가 병행 추진 중인 '레그 크립토' 2026 규제 아젠다</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid and Phantom Ask the CFTC to Stop Treating Onchain Code Like a Broker</a>:</strong> A narrower, same-deadline letter — asking the CFTC not to treat on-chain protocols as brokers</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">New Merged CLARITY Act Draft Expected Next Week</a>:</strong> The background on CLARITY Act's merged draft and the targeted July 20 Senate vote</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Previews 'Reg Crypto' for This Month</a>:</strong> The SEC's parallel 'Regulation Crypto' 2026 rulemaking agenda</li>
+    <li><strong><a href="/en/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid and Phantom Ask the CFTC to Stop Treating Onchain Code Like a Broker</a>:</strong> A narrower, same-deadline letter — asking the CFTC not to treat on-chain protocols as brokers</li>
+    <li><strong><a href="/en/blog/clarity-act-merged-draft-july20-target">New Merged CLARITY Act Draft Expected Next Week</a>:</strong> The background on CLARITY Act's merged draft and the targeted July 20 Senate vote</li>
+    <li><strong><a href="/en/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Previews 'Reg Crypto' for This Month</a>:</strong> The SEC's parallel 'Regulation Crypto' 2026 rulemaking agenda</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">ハイパーリキッド・ファントム、CFTCに要請 ― 「オンチェーン・プロトコルを取引所扱いするな」</a>:</strong> 同じ締切に提出された、より狭く的を絞った意見書 — オンチェーン・プロトコルのブローカー登録免除を要求</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">クラリティ法の統合草案、来週にも登場</a>:</strong> クラリティ法の統合草案と7月20日の上院採決目標をめぐる背景</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC、今月にも「レグ・クリプト」発議へ</a>:</strong> SECが並行して進める「レグ・クリプト」2026規制アジェンダ</li>
+    <li><strong><a href="/ja/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">ハイパーリキッド・ファントム、CFTCに要請 ― 「オンチェーン・プロトコルを取引所扱いするな」</a>:</strong> 同じ締切に提出された、より狭く的を絞った意見書 — オンチェーン・プロトコルのブローカー登録免除を要求</li>
+    <li><strong><a href="/ja/blog/clarity-act-merged-draft-july20-target">クラリティ法の統合草案、来週にも登場</a>:</strong> クラリティ法の統合草案と7月20日の上院採決目標をめぐる背景</li>
+    <li><strong><a href="/ja/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC、今月にも「レグ・クリプト」発議へ</a>:</strong> SECが並行して進める「レグ・クリプト」2026規制アジェンダ</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid y Phantom piden a la CFTC que deje de tratar el código onchain como un corredor</a>:</strong> Una carta más estrecha, presentada el mismo plazo, pidiendo a la CFTC que no trate los protocolos on-chain como corredores</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">Nuevo borrador fusionado de la CLARITY Act llegaría la próxima semana</a>:</strong> El contexto sobre el borrador fusionado de la CLARITY Act y el objetivo de voto del Senado del 20 de julio</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">La SEC Adelanta 'Reg Crypto' Para Este Mes</a>:</strong> La agenda regulatoria paralela 'Regulation Crypto' 2026 de la SEC</li>
+    <li><strong><a href="/es/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid y Phantom piden a la CFTC que deje de tratar el código onchain como un corredor</a>:</strong> Una carta más estrecha, presentada el mismo plazo, pidiendo a la CFTC que no trate los protocolos on-chain como corredores</li>
+    <li><strong><a href="/es/blog/clarity-act-merged-draft-july20-target">Nuevo borrador fusionado de la CLARITY Act llegaría la próxima semana</a>:</strong> El contexto sobre el borrador fusionado de la CLARITY Act y el objetivo de voto del Senado del 20 de julio</li>
+    <li><strong><a href="/es/blog/sec-2026-agenda-reg-crypto-safe-harbor">La SEC Adelanta 'Reg Crypto' Para Este Mes</a>:</strong> La agenda regulatoria paralela 'Regulation Crypto' 2026 de la SEC</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid und Phantom fordern die CFTC auf, Onchain-Code nicht wie einen Broker zu behandeln</a>:</strong> Ein engeres Schreiben zur gleichen Frist — mit der Bitte, On-Chain-Protokolle nicht als Broker zu behandeln</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">Neuer fusionierter CLARITY-Act-Entwurf schon nächste Woche erwartet</a>:</strong> Der Hintergrund zum fusionierten CLARITY-Act-Entwurf und der anvisierten Senatsabstimmung am 20. Juli</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Kündigt 'Reg Crypto' Für Diesen Monat An</a>:</strong> Die parallele Regulierungsagenda 'Regulation Crypto' 2026 der SEC</li>
+    <li><strong><a href="/de/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid und Phantom fordern die CFTC auf, Onchain-Code nicht wie einen Broker zu behandeln</a>:</strong> Ein engeres Schreiben zur gleichen Frist — mit der Bitte, On-Chain-Protokolle nicht als Broker zu behandeln</li>
+    <li><strong><a href="/de/blog/clarity-act-merged-draft-july20-target">Neuer fusionierter CLARITY-Act-Entwurf schon nächste Woche erwartet</a>:</strong> Der Hintergrund zum fusionierten CLARITY-Act-Entwurf und der anvisierten Senatsabstimmung am 20. Juli</li>
+    <li><strong><a href="/de/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Kündigt 'Reg Crypto' Für Diesen Monat An</a>:</strong> Die parallele Regulierungsagenda 'Regulation Crypto' 2026 der SEC</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid et Phantom demandent à la CFTC de cesser de traiter le code onchain comme un courtier</a>:</strong> Une lettre plus étroite, déposée à la même échéance — demandant à la CFTC de ne pas traiter les protocoles on-chain comme des courtiers</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">Nouveau projet fusionné de la CLARITY Act attendu dès la semaine prochaine</a>:</strong> Le contexte sur le projet fusionné du CLARITY Act et le vote ciblé du Sénat du 20 juillet</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">La SEC Prévoit 'Reg Crypto' Pour Ce Mois-ci</a>:</strong> L'agenda réglementaire parallèle 'Regulation Crypto' 2026 de la SEC</li>
+    <li><strong><a href="/fr/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid et Phantom demandent à la CFTC de cesser de traiter le code onchain comme un courtier</a>:</strong> Une lettre plus étroite, déposée à la même échéance — demandant à la CFTC de ne pas traiter les protocoles on-chain comme des courtiers</li>
+    <li><strong><a href="/fr/blog/clarity-act-merged-draft-july20-target">Nouveau projet fusionné de la CLARITY Act attendu dès la semaine prochaine</a>:</strong> Le contexte sur le projet fusionné du CLARITY Act et le vote ciblé du Sénat du 20 juillet</li>
+    <li><strong><a href="/fr/blog/sec-2026-agenda-reg-crypto-safe-harbor">La SEC Prévoit 'Reg Crypto' Pour Ce Mois-ci</a>:</strong> L'agenda réglementaire parallèle 'Regulation Crypto' 2026 de la SEC</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid e Phantom pedem à CFTC que pare de tratar código onchain como corretora</a>:</strong> Uma carta mais estreita, no mesmo prazo — pedindo à CFTC que não trate protocolos on-chain como corretoras</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">Novo rascunho fusionado da CLARITY Act pode chegar na próxima semana</a>:</strong> O contexto sobre o rascunho fusionado do CLARITY Act e a votação-alvo do Senado em 20 de julho</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Antecipa 'Reg Crypto' Para Este Mês</a>:</strong> A agenda regulatória paralela 'Regulation Crypto' 2026 da SEC</li>
+    <li><strong><a href="/pt/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid e Phantom pedem à CFTC que pare de tratar código onchain como corretora</a>:</strong> Uma carta mais estreita, no mesmo prazo — pedindo à CFTC que não trate protocolos on-chain como corretoras</li>
+    <li><strong><a href="/pt/blog/clarity-act-merged-draft-july20-target">Novo rascunho fusionado da CLARITY Act pode chegar na próxima semana</a>:</strong> O contexto sobre o rascunho fusionado do CLARITY Act e a votação-alvo do Senado em 20 de julho</li>
+    <li><strong><a href="/pt/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Antecipa 'Reg Crypto' Para Este Mês</a>:</strong> A agenda regulatória paralela 'Regulation Crypto' 2026 da SEC</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid ve Phantom, CFTC'den Zincir Üstü Kodu Aracı Kurum Gibi Görmemesini İstedi</a>:</strong> Aynı son tarihte sunulan daha dar bir mektup — CFTC'den zincir üstü protokolleri aracı kurum saymamasını istiyor</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">CLARITY Act'in birleştirilmiş yeni taslağı önümüzdeki hafta gelebilir</a>:</strong> CLARITY Act'in birleştirilmiş taslağı ve hedeflenen 20 Temmuz Senato oylamasına dair arka plan</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Bu Ay İçin 'Reg Crypto'yu Duyurdu</a>:</strong> SEC'in paralel yürüttüğü 'Regulation Crypto' 2026 düzenleme gündemi</li>
+    <li><strong><a href="/tr/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid ve Phantom, CFTC'den Zincir Üstü Kodu Aracı Kurum Gibi Görmemesini İstedi</a>:</strong> Aynı son tarihte sunulan daha dar bir mektup — CFTC'den zincir üstü protokolleri aracı kurum saymamasını istiyor</li>
+    <li><strong><a href="/tr/blog/clarity-act-merged-draft-july20-target">CLARITY Act'in birleştirilmiş yeni taslağı önümüzdeki hafta gelebilir</a>:</strong> CLARITY Act'in birleştirilmiş taslağı ve hedeflenen 20 Temmuz Senato oylamasına dair arka plan</li>
+    <li><strong><a href="/tr/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Bu Ay İçin 'Reg Crypto'yu Duyurdu</a>:</strong> SEC'in paralel yürüttüğü 'Regulation Crypto' 2026 düzenleme gündemi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hyperliquid-phantom-cftc-onchain-exemption-letter.php">Hyperliquid và Phantom đề nghị CFTC ngừng coi mã onchain như một nhà môi giới</a>:</strong> Một bức thư hẹp hơn, cùng hạn chót — yêu cầu CFTC không coi các giao thức on-chain là nhà môi giới</li>
-    <li><strong><a href="/blog/clarity-act-merged-draft-july20-target.php">Bản dự thảo hợp nhất mới của CLARITY Act có thể xuất hiện ngay tuần tới</a>:</strong> Bối cảnh về bản dự thảo hợp nhất của CLARITY Act và cuộc bỏ phiếu mục tiêu của Thượng viện ngày 20/7</li>
-    <li><strong><a href="/blog/sec-2026-agenda-reg-crypto-safe-harbor.php">SEC Hé Lộ 'Reg Crypto' Cho Tháng Này</a>:</strong> Chương trình nghị sự quản lý song song 'Regulation Crypto' 2026 của SEC</li>
+    <li><strong><a href="/vi/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid và Phantom đề nghị CFTC ngừng coi mã onchain như một nhà môi giới</a>:</strong> Một bức thư hẹp hơn, cùng hạn chót — yêu cầu CFTC không coi các giao thức on-chain là nhà môi giới</li>
+    <li><strong><a href="/vi/blog/clarity-act-merged-draft-july20-target">Bản dự thảo hợp nhất mới của CLARITY Act có thể xuất hiện ngay tuần tới</a>:</strong> Bối cảnh về bản dự thảo hợp nhất của CLARITY Act và cuộc bỏ phiếu mục tiêu của Thượng viện ngày 20/7</li>
+    <li><strong><a href="/vi/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Hé Lộ 'Reg Crypto' Cho Tháng Này</a>:</strong> Chương trình nghị sự quản lý song song 'Regulation Crypto' 2026 của SEC</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토타임스(블록체인협회 11개 권고안 보도), 크립토뉴스닷넷(솔라나정책연구소 CFTC 의견서 보도), 크립토브리핑(하이퍼리퀴드·팬텀 공동의견서 보도), CFTC.gov(RFI 원문 및 절차 공지), 몬닥·내셔널로리뷰(RFI 배경 법률 해설). 이 글은 투자 조언이 아니다.</p>

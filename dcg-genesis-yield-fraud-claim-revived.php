@@ -336,49 +336,49 @@
   <h2 class="tr">Birlikte Okumak İçin</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">마운트곡스 채권자 상환</a>:</strong> 2022년 이전 거래소 붕괴가 몇 년째 시장에 그림자를 드리우는 또 다른 사례</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">뉴욕주 휴면 비트코인 소유권 소송</a>:</strong> 같은 뉴욕주 법정에서 진행 중인 또 다른 크립토 재산권 다툼</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC, 메타마스크 조사 종결</a>:</strong> 반대로 규제 완화 쪽으로 정리된 최근 사례와의 대비</li>
+    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment">마운트곡스 채권자 상환</a>:</strong> 2022년 이전 거래소 붕괴가 몇 년째 시장에 그림자를 드리우는 또 다른 사례</li>
+    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit">뉴욕주 휴면 비트코인 소유권 소송</a>:</strong> 같은 뉴욕주 법정에서 진행 중인 또 다른 크립토 재산권 다툼</li>
+    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys">SEC, 메타마스크 조사 종결</a>:</strong> 반대로 규제 완화 쪽으로 정리된 최근 사례와의 대비</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Mt. Gox Creditor Repayments</a>:</strong> Another case of a pre-2022 exchange collapse still casting a shadow on the market years later</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">New York's Dormant Bitcoin Ownership Lawsuit</a>:</strong> Another crypto property-rights fight playing out in the same New York courts</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC Closes Its MetaMask Investigation</a>:</strong> A recent case that resolved in the opposite direction, toward deregulation</li>
+    <li><strong><a href="/en/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Mt. Gox Creditor Repayments</a>:</strong> Another case of a pre-2022 exchange collapse still casting a shadow on the market years later</li>
+    <li><strong><a href="/en/blog/dormant-bitcoin-new-york-ownership-lawsuit">New York's Dormant Bitcoin Ownership Lawsuit</a>:</strong> Another crypto property-rights fight playing out in the same New York courts</li>
+    <li><strong><a href="/en/blog/sec-closes-metamask-investigation-consensys">SEC Closes Its MetaMask Investigation</a>:</strong> A recent case that resolved in the opposite direction, toward deregulation</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">マウントゴックス債権者への返済</a>:</strong> 2022年以前の取引所破綻が何年も市場に影を落とす別の事例</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">ニューヨーク州の休眠ビットコイン所有権訴訟</a>:</strong> 同じニューヨーク州の法廷で進行中の別の暗号資産財産権争い</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC、メタマスク調査を終結</a>:</strong> 逆に規制緩和の方向で決着した最近の事例との対比</li>
+    <li><strong><a href="/ja/blog/mtgox-47228-btc-bitstamp-creditor-repayment">マウントゴックス債権者への返済</a>:</strong> 2022年以前の取引所破綻が何年も市場に影を落とす別の事例</li>
+    <li><strong><a href="/ja/blog/dormant-bitcoin-new-york-ownership-lawsuit">ニューヨーク州の休眠ビットコイン所有権訴訟</a>:</strong> 同じニューヨーク州の法廷で進行中の別の暗号資産財産権争い</li>
+    <li><strong><a href="/ja/blog/sec-closes-metamask-investigation-consensys">SEC、メタマスク調査を終結</a>:</strong> 逆に規制緩和の方向で決着した最近の事例との対比</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Reembolsos a Acreedores de Mt. Gox</a>:</strong> Otro caso de un colapso de exchange previo a 2022 que aún proyecta sombra sobre el mercado años después</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">Demanda de Propiedad de Bitcoin Inactivo en Nueva York</a>:</strong> Otra disputa de derechos de propiedad cripto que se desarrolla en los mismos tribunales de Nueva York</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">La SEC Cierra su Investigación sobre MetaMask</a>:</strong> Un caso reciente resuelto en la dirección opuesta, hacia la desregulación</li>
+    <li><strong><a href="/es/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Reembolsos a Acreedores de Mt. Gox</a>:</strong> Otro caso de un colapso de exchange previo a 2022 que aún proyecta sombra sobre el mercado años después</li>
+    <li><strong><a href="/es/blog/dormant-bitcoin-new-york-ownership-lawsuit">Demanda de Propiedad de Bitcoin Inactivo en Nueva York</a>:</strong> Otra disputa de derechos de propiedad cripto que se desarrolla en los mismos tribunales de Nueva York</li>
+    <li><strong><a href="/es/blog/sec-closes-metamask-investigation-consensys">La SEC Cierra su Investigación sobre MetaMask</a>:</strong> Un caso reciente resuelto en la dirección opuesta, hacia la desregulación</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Mt.-Gox-Gläubigerrückzahlungen</a>:</strong> Ein weiterer Fall eines Börsenkollapses vor 2022, der Jahre später noch einen Schatten auf den Markt wirft</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">New Yorks Klage um Ruhende-Bitcoin-Eigentumsrechte</a>:</strong> Ein weiterer Krypto-Eigentumsstreit, der vor denselben New Yorker Gerichten ausgetragen wird</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC Schließt Ihre MetaMask-Untersuchung</a>:</strong> Ein aktueller Fall, der sich in die entgegengesetzte Richtung, hin zur Deregulierung, auflöste</li>
+    <li><strong><a href="/de/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Mt.-Gox-Gläubigerrückzahlungen</a>:</strong> Ein weiterer Fall eines Börsenkollapses vor 2022, der Jahre später noch einen Schatten auf den Markt wirft</li>
+    <li><strong><a href="/de/blog/dormant-bitcoin-new-york-ownership-lawsuit">New Yorks Klage um Ruhende-Bitcoin-Eigentumsrechte</a>:</strong> Ein weiterer Krypto-Eigentumsstreit, der vor denselben New Yorker Gerichten ausgetragen wird</li>
+    <li><strong><a href="/de/blog/sec-closes-metamask-investigation-consensys">SEC Schließt Ihre MetaMask-Untersuchung</a>:</strong> Ein aktueller Fall, der sich in die entgegengesetzte Richtung, hin zur Deregulierung, auflöste</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Remboursements des Créanciers de Mt. Gox</a> :</strong> Un autre cas d'effondrement d'une plateforme d'échange antérieur à 2022 qui projette encore une ombre sur le marché des années plus tard</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">Le Litige sur la Propriété des Bitcoins Dormants à New York</a> :</strong> Un autre conflit sur les droits de propriété crypto se déroulant devant les mêmes tribunaux new-yorkais</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">La SEC Clôture son Enquête sur MetaMask</a> :</strong> Une affaire récente résolue dans le sens inverse, vers la déréglementation</li>
+    <li><strong><a href="/fr/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Remboursements des Créanciers de Mt. Gox</a> :</strong> Un autre cas d'effondrement d'une plateforme d'échange antérieur à 2022 qui projette encore une ombre sur le marché des années plus tard</li>
+    <li><strong><a href="/fr/blog/dormant-bitcoin-new-york-ownership-lawsuit">Le Litige sur la Propriété des Bitcoins Dormants à New York</a> :</strong> Un autre conflit sur les droits de propriété crypto se déroulant devant les mêmes tribunaux new-yorkais</li>
+    <li><strong><a href="/fr/blog/sec-closes-metamask-investigation-consensys">La SEC Clôture son Enquête sur MetaMask</a> :</strong> Une affaire récente résolue dans le sens inverse, vers la déréglementation</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Reembolsos aos Credores da Mt. Gox</a>:</strong> Outro caso de colapso de uma exchange anterior a 2022 que ainda projeta sombra sobre o mercado anos depois</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">Ação sobre Propriedade de Bitcoin Inativo em Nova York</a>:</strong> Outra disputa de direitos de propriedade cripto que se desenrola nos mesmos tribunais de Nova York</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC Encerra sua Investigação sobre a MetaMask</a>:</strong> Um caso recente resolvido na direção oposta, rumo à desregulamentação</li>
+    <li><strong><a href="/pt/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Reembolsos aos Credores da Mt. Gox</a>:</strong> Outro caso de colapso de uma exchange anterior a 2022 que ainda projeta sombra sobre o mercado anos depois</li>
+    <li><strong><a href="/pt/blog/dormant-bitcoin-new-york-ownership-lawsuit">Ação sobre Propriedade de Bitcoin Inativo em Nova York</a>:</strong> Outra disputa de direitos de propriedade cripto que se desenrola nos mesmos tribunais de Nova York</li>
+    <li><strong><a href="/pt/blog/sec-closes-metamask-investigation-consensys">SEC Encerra sua Investigação sobre a MetaMask</a>:</strong> Um caso recente resolvido na direção oposta, rumo à desregulamentação</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Mt. Gox Alacaklı Geri Ödemeleri</a>:</strong> 2022 öncesi bir borsa çöküşünün yıllar sonra hâlâ piyasaya gölge düşürdüğü bir başka örnek</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">New York'un Uyuyan Bitcoin Mülkiyeti Davası</a>:</strong> Aynı New York mahkemelerinde görülen başka bir kripto mülkiyet hakları mücadelesi</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC MetaMask Soruşturmasını Kapatıyor</a>:</strong> Tam tersi yönde, deregülasyona doğru sonuçlanan yakın tarihli bir dava</li>
+    <li><strong><a href="/tr/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Mt. Gox Alacaklı Geri Ödemeleri</a>:</strong> 2022 öncesi bir borsa çöküşünün yıllar sonra hâlâ piyasaya gölge düşürdüğü bir başka örnek</li>
+    <li><strong><a href="/tr/blog/dormant-bitcoin-new-york-ownership-lawsuit">New York'un Uyuyan Bitcoin Mülkiyeti Davası</a>:</strong> Aynı New York mahkemelerinde görülen başka bir kripto mülkiyet hakları mücadelesi</li>
+    <li><strong><a href="/tr/blog/sec-closes-metamask-investigation-consensys">SEC MetaMask Soruşturmasını Kapatıyor</a>:</strong> Tam tersi yönde, deregülasyona doğru sonuçlanan yakın tarihli bir dava</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mtgox-47228-btc-bitstamp-creditor-repayment.php">Hoàn Trả Cho Chủ Nợ Mt. Gox</a>:</strong> Một trường hợp khác về sự sụp đổ của một sàn giao dịch trước năm 2022 vẫn còn phủ bóng lên thị trường nhiều năm sau</li>
-    <li><strong><a href="/blog/dormant-bitcoin-new-york-ownership-lawsuit.php">Vụ Kiện Quyền Sở Hữu Bitcoin Ngủ Đông Tại New York</a>:</strong> Một cuộc tranh chấp quyền sở hữu tiền mã hóa khác đang diễn ra tại cùng các tòa án New York</li>
-    <li><strong><a href="/blog/sec-closes-metamask-investigation-consensys.php">SEC Đóng Cuộc Điều Tra MetaMask</a>:</strong> Một vụ việc gần đây được giải quyết theo hướng ngược lại, hướng tới nới lỏng quản lý</li>
+    <li><strong><a href="/vi/blog/mtgox-47228-btc-bitstamp-creditor-repayment">Hoàn Trả Cho Chủ Nợ Mt. Gox</a>:</strong> Một trường hợp khác về sự sụp đổ của một sàn giao dịch trước năm 2022 vẫn còn phủ bóng lên thị trường nhiều năm sau</li>
+    <li><strong><a href="/vi/blog/dormant-bitcoin-new-york-ownership-lawsuit">Vụ Kiện Quyền Sở Hữu Bitcoin Ngủ Đông Tại New York</a>:</strong> Một cuộc tranh chấp quyền sở hữu tiền mã hóa khác đang diễn ra tại cùng các tòa án New York</li>
+    <li><strong><a href="/vi/blog/sec-closes-metamask-investigation-consensys">SEC Đóng Cuộc Điều Tra MetaMask</a>:</strong> Một vụ việc gần đây được giải quyết theo hướng ngược lại, hướng tới nới lỏng quản lý</li>
   </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 더블록(언더힐 판사 결정·중간항소 허가 보도), 크립토뉴스·크립토브리핑(CAFA 관할권 논거·소송 경과), 실버골룹앤타이텔 법률사무소(2월 1심 결정 배경), 뉴욕주 검찰총장실(별도 30억 달러 소송 관련 자료), SEC 2022년 블록파이 합의 발표(이자상품 증권성 선례). 수치·절차는 인용 시점 기준이며, 계속 진행 중인 소송의 세부 사항은 향후 달라질 수 있다. 본 글은 투자 조언이 아니다.</p>

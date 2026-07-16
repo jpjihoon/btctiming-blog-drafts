@@ -334,49 +334,49 @@
 <h2 class="tr">Bununla En İyi Şekilde Okunur</h2>
 <h2 class="vi">Nên Đọc Cùng Với</h2>
 <ul class="ko">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">채굴기업들의 AI 피벗과 HBM 비용 부담</a>:</strong> 비트퓨퓨가 역행하고 있는 업계 전반의 AI 전환 흐름</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">5년 최저 해시프라이스와 생산원가 붕괴</a>:</strong> 위탁 고객 이탈을 설명하는 채산성 배경</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">상장 채굴기업들의 사상 최대 BTC 매도</a>:</strong> 비트퓨퓨의 보유량 감소가 놓인 더 큰 그림</li>
+  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">채굴기업들의 AI 피벗과 HBM 비용 부담</a>:</strong> 비트퓨퓨가 역행하고 있는 업계 전반의 AI 전환 흐름</li>
+  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach">5년 최저 해시프라이스와 생산원가 붕괴</a>:</strong> 위탁 고객 이탈을 설명하는 채산성 배경</li>
+  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026">상장 채굴기업들의 사상 최대 BTC 매도</a>:</strong> 비트퓨퓨의 보유량 감소가 놓인 더 큰 그림</li>
 </ul>
 <ul class="en">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Miners' AI Pivot and the HBM Cost Burden</a>:</strong> The industry-wide AI shift that BitFuFu's June numbers run against</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">Hashprice's Five-Year Low and the Production-Cost Breach</a>:</strong> The economics behind why hosted customers are churning out</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">Public Miners' Record BTC Selling</a>:</strong> The broader picture behind BitFuFu's shrinking treasury</li>
+  <li><strong><a href="/en/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Miners' AI Pivot and the HBM Cost Burden</a>:</strong> The industry-wide AI shift that BitFuFu's June numbers run against</li>
+  <li><strong><a href="/en/blog/miner-hashprice-five-year-low-production-cost-breach">Hashprice's Five-Year Low and the Production-Cost Breach</a>:</strong> The economics behind why hosted customers are churning out</li>
+  <li><strong><a href="/en/blog/public-miners-record-btc-sale-q1-2026">Public Miners' Record BTC Selling</a>:</strong> The broader picture behind BitFuFu's shrinking treasury</li>
 </ul>
 <ul class="ja">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">採掘企業のAIピボットとHBMコスト負担</a>:</strong> ビットフフの6月の数字が逆行する業界全体のAI転換の流れ</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">5年最低ハッシュプライスと生産コストの崩壊</a>:</strong> 受託顧客の離脱を説明する採算性の背景</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">上場採掘企業の過去最大BTC売却</a>:</strong> ビットフフの保有量減少が置かれる大きな構図</li>
+  <li><strong><a href="/ja/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">採掘企業のAIピボットとHBMコスト負担</a>:</strong> ビットフフの6月の数字が逆行する業界全体のAI転換の流れ</li>
+  <li><strong><a href="/ja/blog/miner-hashprice-five-year-low-production-cost-breach">5年最低ハッシュプライスと生産コストの崩壊</a>:</strong> 受託顧客の離脱を説明する採算性の背景</li>
+  <li><strong><a href="/ja/blog/public-miners-record-btc-sale-q1-2026">上場採掘企業の過去最大BTC売却</a>:</strong> ビットフフの保有量減少が置かれる大きな構図</li>
 </ul>
 <ul class="es">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">El Pivote a IA de los Mineros y la Carga de Costos de HBM</a>:</strong> El giro sectorial hacia la IA contra el que van los números de junio de BitFuFu</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">El Mínimo de Cinco Años del Hashprice y la Ruptura del Costo de Producción</a>:</strong> La economía detrás de la fuga de clientes de hosting</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">La Venta Récord de BTC de los Mineros Públicos</a>:</strong> El panorama más amplio detrás de la tesorería menguante de BitFuFu</li>
+  <li><strong><a href="/es/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">El Pivote a IA de los Mineros y la Carga de Costos de HBM</a>:</strong> El giro sectorial hacia la IA contra el que van los números de junio de BitFuFu</li>
+  <li><strong><a href="/es/blog/miner-hashprice-five-year-low-production-cost-breach">El Mínimo de Cinco Años del Hashprice y la Ruptura del Costo de Producción</a>:</strong> La economía detrás de la fuga de clientes de hosting</li>
+  <li><strong><a href="/es/blog/public-miners-record-btc-sale-q1-2026">La Venta Récord de BTC de los Mineros Públicos</a>:</strong> El panorama más amplio detrás de la tesorería menguante de BitFuFu</li>
 </ul>
 <ul class="de">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Der KI-Pivot der Miner und die HBM-Kostenlast</a>:</strong> Der branchenweite KI-Wandel, gegen den BitFuFus Juni-Zahlen laufen</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">Das Fünfjahrestief des Hashpreises und der Bruch der Produktionskosten</a>:</strong> Die Ökonomie hinter der Abwanderung gehosteter Kunden</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">Der Rekordverkauf von BTC durch börsennotierte Miner</a>:</strong> Das größere Bild hinter BitFuFus schrumpfendem Bestand</li>
+  <li><strong><a href="/de/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Der KI-Pivot der Miner und die HBM-Kostenlast</a>:</strong> Der branchenweite KI-Wandel, gegen den BitFuFus Juni-Zahlen laufen</li>
+  <li><strong><a href="/de/blog/miner-hashprice-five-year-low-production-cost-breach">Das Fünfjahrestief des Hashpreises und der Bruch der Produktionskosten</a>:</strong> Die Ökonomie hinter der Abwanderung gehosteter Kunden</li>
+  <li><strong><a href="/de/blog/public-miners-record-btc-sale-q1-2026">Der Rekordverkauf von BTC durch börsennotierte Miner</a>:</strong> Das größere Bild hinter BitFuFus schrumpfendem Bestand</li>
 </ul>
 <ul class="fr">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Le Pivot IA des Mineurs et le Poids des Coûts HBM</a>:</strong> Le virage sectoriel vers l'IA à contre-courant duquel vont les chiffres de juin de BitFuFu</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">Le Plus Bas en Cinq Ans du Hashprice et la Rupture du Coût de Production</a>:</strong> L'économie derrière la fuite des clients hébergés</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">La Vente Record de BTC des Mineurs Cotés</a>:</strong> Le tableau plus large derrière la trésorerie en baisse de BitFuFu</li>
+  <li><strong><a href="/fr/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Le Pivot IA des Mineurs et le Poids des Coûts HBM</a>:</strong> Le virage sectoriel vers l'IA à contre-courant duquel vont les chiffres de juin de BitFuFu</li>
+  <li><strong><a href="/fr/blog/miner-hashprice-five-year-low-production-cost-breach">Le Plus Bas en Cinq Ans du Hashprice et la Rupture du Coût de Production</a>:</strong> L'économie derrière la fuite des clients hébergés</li>
+  <li><strong><a href="/fr/blog/public-miners-record-btc-sale-q1-2026">La Vente Record de BTC des Mineurs Cotés</a>:</strong> Le tableau plus large derrière la trésorerie en baisse de BitFuFu</li>
 </ul>
 <ul class="pt">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">O Pivô de IA das Mineradoras e o Custo de HBM</a>:</strong> A virada setorial para IA contra a qual os números de junho da BitFuFu vão</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">A Mínima de Cinco Anos do Hashprice e a Ruptura do Custo de Produção</a>:</strong> A economia por trás da fuga de clientes de hosting</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">A Venda Recorde de BTC das Mineradoras Listadas</a>:</strong> O panorama mais amplo por trás da tesouraria minguante da BitFuFu</li>
+  <li><strong><a href="/pt/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">O Pivô de IA das Mineradoras e o Custo de HBM</a>:</strong> A virada setorial para IA contra a qual os números de junho da BitFuFu vão</li>
+  <li><strong><a href="/pt/blog/miner-hashprice-five-year-low-production-cost-breach">A Mínima de Cinco Anos do Hashprice e a Ruptura do Custo de Produção</a>:</strong> A economia por trás da fuga de clientes de hosting</li>
+  <li><strong><a href="/pt/blog/public-miners-record-btc-sale-q1-2026">A Venda Recorde de BTC das Mineradoras Listadas</a>:</strong> O panorama mais amplo por trás da tesouraria minguante da BitFuFu</li>
 </ul>
 <ul class="tr">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Madencilerin AI Dönüşü ve HBM Maliyet Yükü</a>:</strong> BitFuFu'nun Haziran rakamlarının ters düştüğü sektör çapındaki AI geçişi</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">Hashprice'ın Beş Yılın En Düşüğü ve Üretim Maliyeti İhlali</a>:</strong> Barındırılan müşterilerin neden kaçtığını açıklayan ekonomi</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">Halka Açık Madencilerin Rekor BTC Satışı</a>:</strong> BitFuFu'nun küçülen hazinesinin arkasındaki daha büyük tablo</li>
+  <li><strong><a href="/tr/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Madencilerin AI Dönüşü ve HBM Maliyet Yükü</a>:</strong> BitFuFu'nun Haziran rakamlarının ters düştüğü sektör çapındaki AI geçişi</li>
+  <li><strong><a href="/tr/blog/miner-hashprice-five-year-low-production-cost-breach">Hashprice'ın Beş Yılın En Düşüğü ve Üretim Maliyeti İhlali</a>:</strong> Barındırılan müşterilerin neden kaçtığını açıklayan ekonomi</li>
+  <li><strong><a href="/tr/blog/public-miners-record-btc-sale-q1-2026">Halka Açık Madencilerin Rekor BTC Satışı</a>:</strong> BitFuFu'nun küçülen hazinesinin arkasındaki daha büyük tablo</li>
 </ul>
 <ul class="vi">
-  <li><strong><a href="/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind.php">Cuộc Chuyển Hướng AI Của Thợ Đào Và Gánh Nặng Chi Phí HBM</a>:</strong> Xu hướng chuyển sang AI toàn ngành mà số liệu tháng 6 của BitFuFu đi ngược lại</li>
-  <li><strong><a href="/blog/miner-hashprice-five-year-low-production-cost-breach.php">Hashprice Chạm Đáy 5 Năm Và Sự Phá Vỡ Chi Phí Sản Xuất</a>:</strong> Bài toán kinh tế lý giải vì sao khách hàng hosting rời bỏ</li>
-  <li><strong><a href="/blog/public-miners-record-btc-sale-q1-2026.php">Làn Sóng Bán BTC Kỷ Lục Của Các Thợ Đào Niêm Yết</a>:</strong> Bức tranh lớn hơn đằng sau lượng nắm giữ đang thu hẹp của BitFuFu</li>
+  <li><strong><a href="/vi/blog/bitcoin-miner-ai-pivot-hbm-cost-headwind">Cuộc Chuyển Hướng AI Của Thợ Đào Và Gánh Nặng Chi Phí HBM</a>:</strong> Xu hướng chuyển sang AI toàn ngành mà số liệu tháng 6 của BitFuFu đi ngược lại</li>
+  <li><strong><a href="/vi/blog/miner-hashprice-five-year-low-production-cost-breach">Hashprice Chạm Đáy 5 Năm Và Sự Phá Vỡ Chi Phí Sản Xuất</a>:</strong> Bài toán kinh tế lý giải vì sao khách hàng hosting rời bỏ</li>
+  <li><strong><a href="/vi/blog/public-miners-record-btc-sale-q1-2026">Làn Sóng Bán BTC Kỷ Lục Của Các Thợ Đào Niêm Yết</a>:</strong> Bức tranh lớn hơn đằng sau lượng nắm giữ đang thu hẹp của BitFuFu</li>
 </ul>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: GlobeNewswire, "BitFuFu Announces June 2026 Bitcoin Production and Operational Updates"(2026.7.10). Blockspace, "BitFuFu's June bitcoin production fell 29% as self-owned hashrate rose to 3.5 EH/s". TheEnergyMag, "BitFuFu Reports June 2026 Bitcoin Production and Hashrate Metrics". Investing.com, "BitFuFu reports June bitcoin production, expands hashrate"(2026.7.10). GlobeNewswire, "BitFuFu Announces May 2026 Bitcoin Production and Operational Updates"(2026.6.9). Bitcoin Mining Stock, BitFuFu(FUFU) 데이터 페이지.</p>
