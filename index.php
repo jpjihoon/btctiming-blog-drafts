@@ -647,8 +647,16 @@ function setLang(lang, doSave) {
     else{try{localStorage.setItem('blogLang',lang);document.cookie='blogLang='+encodeURIComponent(lang)+'; path=/; max-age=31536000; SameSite=Lax';}catch(e){}}
   }
   try {
-    // 언어 전환 시 URL을 경로형으로 맞춘다(스무스 전환 유지 + 새로고침해도 같은 언어).
-    var __t = (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(location.pathname + location.search + location.hash, lang) : location.href;
+    // 언어 전환 시 URL을 경로형으로 맞춘다.
+    var __cur = location.pathname + location.search + location.hash;
+    var __t = (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(__cur, lang) : __cur;
+    // ★ 2026-07-16 수정
+    //   카드(카테고리·태그·제목·요약·날짜·읽기시간)는 서버가 renderCardHtml($a,$idx,$blLang) 로
+    //   현재 언어 하나만 렌더한다. 그래서 CSS 토글로는 카드가 안 바뀐다 —
+    //   히어로·버튼·푸터 같은 껍데기(.{lang}-show)만 바뀌고 카드는 서버가 준 언어 그대로 남았다.
+    //   사용자가 언어를 직접 고른 경우(doSave=true)엔 해당 언어 URL로 이동해야 카드까지 바뀐다.
+    //   ⚠ doSave가 없을 때(진입·뒤로가기 복원)는 절대 이동하면 안 된다 — 무한루프.
+    if (doSave && __t !== __cur) { location.href = __t; return; }
     history.replaceState(null, '', __t);
   } catch(e){}
   // .ko/.{lang}-show 표시 전환으로 뷰포트 위쪽 높이가 바뀌어 스크롤이 밀리는 것 방지.
