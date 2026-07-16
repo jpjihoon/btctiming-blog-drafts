@@ -1,19 +1,19 @@
 <?php
 /**
- * OG 렌더 진단 v2 — 2026-07-16 (1회용. 확인 끝나면 삭제할 것)
+ * OG 렌더 진단 v3 — 2026-07-16 (1회용. 확인 끝나면 삭제할 것)
  *
- * v1 로 밝혀진 것:
- *   - Imagick 6.9.12-64, Delegates 에 rsvg 없음 → 내부 MSVG 렌더러 사용
- *   - MSVG 는 @font-face{src:url(file://…)} 를 무시한다 (두 폰트 → md5 동일로 증명)
- *   - 즉 우리가 올린 NotoSans/NotoCJK 는 SVG 렌더에 단 한 번도 안 쓰였다
- *   - GD(imagettftext)는 폰트 파일을 제대로 읽는다 (잉크 5132 vs 3233)
+ * v2 가 500 으로 죽은 이유: getPixelIterator 로 픽셀을 PHP 루프로 셌다.
+ *   500x110 = 55,000px × 462회 = 2,500만 번 → 시간/메모리 한도 초과.
+ * v3: 픽셀을 안 센다. 렌더 결과 PNG 의 md5 만 비교한다. 훨씬 빠르고 판정력은 같다.
  *
- * v2 가 답할 것:
- *   MSVG 는 @font-face 는 무시해도 '자기가 아는 폰트 이름'은 쓴다.
- *   서버 폰트 77개 중 터키어(ığşİ)·한국어·일본어·베트남어·키릴을
- *   제대로 그리는 게 있는지 전수로 찾는다.
- *   → 있으면 차트를 살린 채 font-family 만 바꿔서 해결
- *   → 없으면 렌더 방식을 바꿔야 한다 (차트 포기 등, 기획 판단 필요)
+ * v1 로 이미 밝혀진 것:
+ *   - Imagick 6.9.12-64, rsvg 델리게이트 없음 → 내부 MSVG 렌더러
+ *   - MSVG 는 @font-face{src:url(file://…)} 를 무시 (두 폰트 → md5 동일로 증명)
+ *   - GD 는 폰트 파일을 제대로 읽음
+ *
+ * v3 가 답할 것:
+ *   MSVG 도 '자기가 아는 폰트 이름'은 쓴다. 서버 폰트 중 터키어(ığşİ)를
+ *   제대로 그리는 게 있는지 찾는다. 있으면 차트를 살린 채 해결 가능.
  *
  * 사용:  https://btctiming.com/_ogdiag.php?token=<SNAPSHOT_TOKEN>
  */
@@ -23,78 +23,84 @@ require_once __DIR__ . '/config.php';
 header('Content-Type: text/plain; charset=utf-8');
 header('Cache-Control: no-store');
 header('X-Robots-Tag: noindex, nofollow');
-@set_time_limit(120);
+@set_time_limit(180);
+@ini_set('memory_limit', '256M');
+// 죽더라도 여기까지 나온 건 보이게 — v2 는 버퍼째 날아가서 0바이트였다
+while (@ob_get_level() > 0) @ob_end_flush();
+@ob_implicit_flush(true);
 
 $tok = $_GET['token'] ?? '';
 if (!defined('SNAPSHOT_TOKEN') || SNAPSHOT_TOKEN === '' || !hash_equals(SNAPSHOT_TOKEN, (string)$tok)) {
-    http_response_code(403);
-    echo "forbidden\n";
-    exit;
+    http_response_code(403); echo "forbidden\n"; exit;
 }
 if (!extension_loaded('imagick')) { echo "imagick 없음\n"; exit; }
 
-function h1(string $s): void { echo "\n" . str_repeat('=', 72) . "\n" . $s . "\n" . str_repeat('=', 72) . "\n"; }
+function h1(string $s): void { echo "\n" . str_repeat('=', 74) . "\n" . $s . "\n" . str_repeat('=', 74) . "\n"; }
 
-/** 지정한 font-family 이름으로 문자열을 MSVG 렌더해서 잉크 픽셀 수를 센다.
- *  글자가 제대로 그려지면 잉크가 크게 나오고, 빈칸이면 0, 빈네모면 특정 값으로 고정된다. */
-function ink(string $family, string $text): int {
+/** font-family 이름으로 문자열을 MSVG 렌더 → PNG md5 + 바이트수.
+ *  픽셀을 세지 않는다(v2 가 그것 때문에 죽었다). md5 가 다르면 다르게 그려진 것. */
+function sig(string $family, string $text): array {
     $svg = '<?xml version="1.0" encoding="UTF-8"?>'
-         . '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="110" viewBox="0 0 500 110">'
-         . '<rect width="500" height="110" fill="#000"/>'
-         . '<text x="8" y="75" fill="#fff" font-size="56" font-family="' . htmlspecialchars($family, ENT_QUOTES, 'UTF-8') . '">'
+         . '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="90" viewBox="0 0 420 90">'
+         . '<rect width="420" height="90" fill="#000"/>'
+         . '<text x="6" y="62" fill="#fff" font-size="46" font-family="' . htmlspecialchars($family, ENT_QUOTES, 'UTF-8') . '">'
          . htmlspecialchars($text, ENT_QUOTES, 'UTF-8') . '</text></svg>';
     try {
         $im = new Imagick();
         $im->setBackgroundColor(new ImagickPixel('black'));
         $im->readImageBlob($svg);
-        $n = 0;
-        $it = $im->getPixelIterator();
-        foreach ($it as $row) { foreach ($row as $px) { $c = $px->getColor(); if (($c['r']+$c['g']+$c['b']) > 200) $n++; } $it->syncIterator(); }
+        $im->setImageFormat('png');
+        $b = $im->getImageBlob();
         $im->clear();
-        return $n;
-    } catch (Throwable $e) { return -1; }
+        return ['md5' => substr(md5($b), 0, 10), 'len' => strlen($b)];
+    } catch (Throwable $e) { return ['md5' => 'ERR', 'len' => 0]; }
 }
 
-$TESTS = [
-    'tr' => 'ığşİ',        // 터키어 — 지금 깨지는 것
-    'ko' => '한글비트',
-    'ja' => 'ビット',
-    'vi' => 'ơưễệ',
-    'ru' => 'Привет',
-    'lat'=> 'Abcö',        // 대조군 — 어떤 폰트든 그려져야 함
-];
+$TESTS = ['tr' => 'ığşİ', 'ko' => '한글비트', 'ja' => 'ビット', 'vi' => 'ơưễệ', 'ru' => 'Привет', 'lat' => 'Abcox'];
 
-h1('0) 기준값 — 이 서버가 지금 실제로 쓰는 폰트 (font-family 미지정)');
+// 빈 문자열 렌더 = "아무것도 안 그려진" 상태의 기준
+$BLANK = sig('Whatever', '')['md5'];
+
+h1('0) 지금 차트에 실제로 쓰이는 폰트 (font-family 를 없는 이름으로 준 경우)');
 $base = [];
-foreach ($TESTS as $k => $t) { $base[$k] = ink('OG-does-not-exist', $t); }
-foreach ($TESTS as $k => $t) printf("  %-4s \"%s\"  잉크 %5d\n", $k, $t, $base[$k]);
-echo "\n  ★ 이게 지금 차트에 쓰이는 폰트다. tr 값이 lat 과 비슷하면 '뭔가' 그리고는 있다는 뜻\n";
-echo "    (지금 화면엔 ç→▶ 로 나오므로, 그려지긴 하지만 엉뚱한 글자다)\n";
+foreach ($TESTS as $k => $t) {
+    $base[$k] = sig('OG-nonexistent-font-name', $t);
+    printf("  %-4s \"%-8s\"  md5 %-10s  %s\n", $k, $t, $base[$k]['md5'],
+        $base[$k]['md5'] === $BLANK ? '← 아무것도 안 그려짐' : '(뭔가 그려짐)');
+}
+echo "\n  ★ 이게 지금 터키어 차트를 ▶/✔ 로 그리고 있는 폰트다.\n";
 
-h1('1) 서버 폰트 전수 테스트 — 터키어 ığşİ 를 제대로 그리는 폰트 찾기');
+h1('1) 서버 폰트 전수 — 터키어를 기본폰트와 다르게 그리는 게 있나');
 $fonts = Imagick::queryFonts('*');
-printf("  폰트 %d개 × 6개 언어 = %d회 렌더\n\n", count($fonts), count($fonts)*6);
-printf("  %-30s %6s %6s %6s %6s %6s %6s\n", '폰트', 'tr', 'ko', 'ja', 'vi', 'ru', 'lat');
-echo '  ' . str_repeat('-', 70) . "\n";
+printf("  폰트 %d개 × %d개 언어 = %d회 렌더\n\n", count($fonts), count($TESTS), count($fonts) * count($TESTS));
+printf("  %-28s %-11s %-11s %-11s %-11s %-11s %-11s\n", '폰트', 'tr', 'ko', 'ja', 'vi', 'ru', 'lat');
+echo '  ' . str_repeat('-', 106) . "\n";
 
-$good = [];
+$cand = [];
 foreach ($fonts as $f) {
-    $r = [];
-    foreach ($TESTS as $k => $t) $r[$k] = ink($f, $t);
-    // 대조군(lat)이 그려지고 tr 도 그려지며, tr 이 기본폰트와 다른 결과면 후보
-    $isCand = $r['lat'] > 100 && $r['tr'] > 100 && $r['tr'] !== $base['tr'];
-    if ($isCand) $good[] = $f;
-    printf("  %-30s %6d %6d %6d %6d %6d %6d%s\n", substr($f,0,30), $r['tr'], $r['ko'], $r['ja'], $r['vi'], $r['ru'], $r['lat'], $isCand ? '  ←후보' : '');
+    $r = []; $line = sprintf('  %-28s', substr($f, 0, 28));
+    foreach ($TESTS as $k => $t) {
+        $r[$k] = sig($f, $t);
+        $mark = ($r[$k]['md5'] === $BLANK) ? '·빈칸' : (($r[$k]['md5'] === $base[$k]['md5']) ? '=기본' : '★다름');
+        $line .= sprintf(' %-11s', $mark);
+    }
+    // 라틴이 그려지고, 터키어가 기본폰트와 다르게 그려지면 후보
+    $ok = $r['lat']['md5'] !== $BLANK
+       && $r['tr']['md5'] !== $BLANK
+       && $r['tr']['md5'] !== $base['tr']['md5'];
+    if ($ok) { $cand[] = $f; $line .= '  ←후보'; }
+    echo $line . "\n";
 }
 
 h1('2) 결론');
-if ($good) {
-    echo "  터키어를 기본폰트와 다르게(=제대로일 가능성) 그리는 폰트: " . count($good) . "개\n";
-    foreach ($good as $g) echo "    - $g\n";
-    echo "\n  → 이 중 ko/ja 도 되는 게 있으면 그걸로 통일, 없으면 언어별로 나눠 쓴다.\n";
+if ($cand) {
+    echo "  터키어를 기본폰트와 '다르게' 그리는 폰트: " . count($cand) . "개\n";
+    foreach ($cand as $c) echo "    - $c\n";
+    echo "\n  → 이 중 ko/ja 도 '다름'이면 전 언어 통일 가능. 아니면 언어별로 나눠 쓴다.\n";
+    echo "    (다르게 그린다 = 제대로일 가능성. 최종 확인은 실제 이미지를 봐야 한다)\n";
 } else {
-    echo "  ★ 터키어를 제대로 그리는 서버 폰트가 없다.\n";
-    echo "    → MSVG 로는 해결 불가. 렌더 방식을 바꿔야 한다(차트 포기 등).\n";
+    echo "  ★ 터키어를 다르게 그리는 서버 폰트가 없다.\n";
+    echo "    → MSVG 로는 해결 불가. 렌더 방식을 바꿔야 한다(차트 포기 등 기획 판단 필요).\n";
 }
 
 h1('끝 — 결과를 그대로 복사해서 주세요');
