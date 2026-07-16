@@ -69,9 +69,8 @@ $suf = $LANG_FIELD[$lang] ?? '_en';
 // ═══════════════════════════════════════════════════════════════
 if (!function_exists('bt_single_lang')) {
     function bt_single_lang(string $html, string $lang, array $all): string {
-        $others = array_values(array_diff($all, [$lang]));
-        if (!$others) return $html;
-        $flip = array_flip($others);
+        if (count($all) < 2) return $html;
+        $allFlip = array_flip($all);   // 전체 언어 집합 (현재 언어 포함)
         $out = ''; $pos = 0;
         // class 속성을 가진 여는 태그를 훑는다
         $re = '/<([a-zA-Z][a-zA-Z0-9]*)\b[^>]*?\bclass="([^"]*)"[^>]*?(\/?)>/';
@@ -80,10 +79,20 @@ if (!function_exists('bt_single_lang')) {
             $tagEnd   = $tagStart + strlen($m[0][0]);
             $tag      = $m[1][0];
             $selfClose= ($m[3][0] === '/');
-            $hit = false;
+            // ★ 2026-07-16 버그 수정
+            //   기존: class 에 '비-현재언어'가 하나라도 있으면 삭제 → 완전히 틀렸다.
+            //     class="en es de fr pt tr vi" (한 요소를 7개 언어가 공유) 를
+            //     영어로 볼 때 'es' 가 있다는 이유로 영어 콘텐츠를 통째로 지웠다.
+            //     실측 피해: 1,409개 요소 / 172편 (en 201개, pt 348개 …) — 9개 언어 전부.
+            //   올바른 규칙: class 안의 언어코드 목록을 보고
+            //     - 언어코드가 하나도 없으면        → 언어와 무관한 요소. 건드리지 않는다
+            //     - 현재 언어가 목록에 있으면        → 유지 ("en es de" 를 en 으로 볼 때)
+            //     - 현재 언어가 목록에 없으면        → 삭제 ("ko" 를 en 으로 볼 때)
+            $langsInClass = [];
             foreach (preg_split('/\s+/', trim($m[2][0])) as $c) {
-                if (isset($flip[$c])) { $hit = true; break; }   // class="en", "back en", "en en-show" 전부 잡힘
+                if (isset($allFlip[$c])) $langsInClass[] = $c;
             }
+            $hit = $langsInClass && !in_array($lang, $langsInClass, true);
             if (!$hit) { $out .= substr($html, $pos, $tagEnd - $pos); $pos = $tagEnd; continue; }
             $out .= substr($html, $pos, $tagStart - $pos);
             if ($selfClose) { $pos = $tagEnd; continue; }
