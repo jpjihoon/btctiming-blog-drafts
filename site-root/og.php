@@ -89,7 +89,24 @@ function og_wrap(string $text, int $max, int $maxLines): array {
     return array_slice($lines, 0, $maxLines);
 }
 
-$fontFile = __DIR__ . '/NotoCJK-Bold.otf';
+// ═══════════════════════════════════════════════════════════════
+// ★ 2026-07-16 폰트 분리 — 터키어 OG 이미지가 깨지던 문제
+//   NotoCJK-Bold.otf 에는 터키어 고유문자가 없다:
+//     ğ U+011F / ş U+015F / ı U+0131 / İ U+0130 / Ğ U+011E / Ş U+015E
+//   → OG 제목에서 그 글자가 통째로 빠져 나갔다. (실측: "Kıymeti" → "K ymeti")
+//     터키어 제목 1,061편 중 1,050편이 영향. ö/ü/ç 는 멀쩡해서 여태 안 들켰다.
+//   렌더러 폰트 폴백(@font-face 중첩, font-family 목록)은 Imagick/librsvg/GD 마다
+//   동작이 달라 믿을 수 없다. → 언어로 파일을 직접 고른다.
+//
+//   NotoSans-Bold.ttf (631KB) : 라틴 기본+확장A+확장추가+키릴
+//                               en es de fr pt tr vi + 향후 id ru 커버 (실측 확인)
+//   NotoCJK-Bold.otf  (17MB)  : 한/일/중 + 라틴 기본
+// ═══════════════════════════════════════════════════════════════
+$__ogCjkLangs  = ['ko', 'ja', 'zh'];
+$__ogLatinFont = __DIR__ . '/NotoSans-Bold.ttf';
+$fontFile = (!in_array($lang, $__ogCjkLangs, true) && is_readable($__ogLatinFont))
+    ? $__ogLatinFont                          // 라틴/키릴 언어
+    : __DIR__ . '/NotoCJK-Bold.otf';          // 한/일/중 + 라틴폰트 없을 때 폴백
 $fontUri = 'file://' . $fontFile;
 function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
