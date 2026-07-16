@@ -28,6 +28,26 @@ if (!is_readable($metaFile)) {
 $meta = json_decode(file_get_contents($metaFile), true);
 if (!is_array($meta)) { http_response_code(500); exit('bad meta'); }
 
+// ═══════════════════════════════════════════════════════════════
+// ★ 2026-07-16 폰트 분리 — 터키어 OG 이미지가 깨지던 문제
+//   NotoCJK-Bold.otf 에는 터키어 고유문자가 없다:
+//     ğ U+011F / ş U+015F / ı U+0131 / İ U+0130 / Ğ U+011E / Ş U+015E
+//   → OG 제목에서 그 글자가 통째로 빠져 나갔다. (실측: "Kıymeti" → "K ymeti")
+//     터키어 제목 1,061편 중 1,050편이 영향. ö/ü/ç 는 멀쩡해서 여태 안 들켰다.
+//   렌더러 폰트 폴백(@font-face 중첩, font-family 목록)은 Imagick/librsvg/GD 마다
+//   동작이 달라 믿을 수 없다. → 언어로 파일을 직접 고른다.
+//
+//   NotoSans-Bold.ttf (631KB) : 라틴 기본+확장A+확장추가+키릴
+//                               en es de fr pt tr vi + 향후 id ru 커버 (실측 확인)
+//   NotoCJK-Bold.otf  (17MB)  : 한/일/중 + 라틴 기본
+// ═══════════════════════════════════════════════════════════════
+$__ogCjkLangs  = ['ko', 'ja', 'zh'];
+$__ogLatinFont = __DIR__ . '/NotoSans-Bold.ttf';
+$fontFile = (!in_array($lang, $__ogCjkLangs, true) && is_readable($__ogLatinFont))
+    ? $__ogLatinFont                          // 라틴/키릴 언어
+    : __DIR__ . '/NotoCJK-Bold.otf';          // 한/일/중 + 라틴폰트 없을 때 폴백
+$fontUri = 'file://' . $fontFile;
+
 // 본문 파일 경로 (본문 안의 첫 차트 SVG를 OG로 쓰기 위함)
 $bodyFile = __DIR__ . '/blog/' . $slug . '.php';
 $bodyMtime = is_readable($bodyFile) ? filemtime($bodyFile) : 0;
@@ -37,7 +57,15 @@ $cacheDir = __DIR__ . '/og';
 if (!is_dir($cacheDir)) @mkdir($cacheDir, 0755, true);
 $cacheFile = $cacheDir . '/og-' . $slug . '-' . $lang . '.png';
 
-$srcMtime = max(filemtime($metaFile), $bodyMtime);
+// ★ 2026-07-16: og.php 자신과 폰트 파일의 mtime 도 캐시 기준에 넣는다.
+//   기존엔 meta/본문이 바뀔 때만 캐시를 버려서, og.php 나 폰트를 바꿔도
+//   이미 만들어진 PNG 가 영원히 그대로 나갔다. (터키어 폰트 수정이 안 먹은 원인)
+$srcMtime = max(
+    filemtime($metaFile),
+    $bodyMtime,
+    filemtime(__FILE__),
+    is_readable($fontFile) ? filemtime($fontFile) : 0
+);
 if (is_readable($cacheFile) && filemtime($cacheFile) >= $srcMtime) {
     header('Content-Type: image/png');
     header('Cache-Control: public, max-age=86400');
@@ -89,25 +117,6 @@ function og_wrap(string $text, int $max, int $maxLines): array {
     return array_slice($lines, 0, $maxLines);
 }
 
-// ═══════════════════════════════════════════════════════════════
-// ★ 2026-07-16 폰트 분리 — 터키어 OG 이미지가 깨지던 문제
-//   NotoCJK-Bold.otf 에는 터키어 고유문자가 없다:
-//     ğ U+011F / ş U+015F / ı U+0131 / İ U+0130 / Ğ U+011E / Ş U+015E
-//   → OG 제목에서 그 글자가 통째로 빠져 나갔다. (실측: "Kıymeti" → "K ymeti")
-//     터키어 제목 1,061편 중 1,050편이 영향. ö/ü/ç 는 멀쩡해서 여태 안 들켰다.
-//   렌더러 폰트 폴백(@font-face 중첩, font-family 목록)은 Imagick/librsvg/GD 마다
-//   동작이 달라 믿을 수 없다. → 언어로 파일을 직접 고른다.
-//
-//   NotoSans-Bold.ttf (631KB) : 라틴 기본+확장A+확장추가+키릴
-//                               en es de fr pt tr vi + 향후 id ru 커버 (실측 확인)
-//   NotoCJK-Bold.otf  (17MB)  : 한/일/중 + 라틴 기본
-// ═══════════════════════════════════════════════════════════════
-$__ogCjkLangs  = ['ko', 'ja', 'zh'];
-$__ogLatinFont = __DIR__ . '/NotoSans-Bold.ttf';
-$fontFile = (!in_array($lang, $__ogCjkLangs, true) && is_readable($__ogLatinFont))
-    ? $__ogLatinFont                          // 라틴/키릴 언어
-    : __DIR__ . '/NotoCJK-Bold.otf';          // 한/일/중 + 라틴폰트 없을 때 폴백
-$fontUri = 'file://' . $fontFile;
 function xml(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
 // ── 본문에서 현재 언어에 맞는 차트 SVG 추출 ──
@@ -142,6 +151,11 @@ if ($bodyMtime > 0) {
                 $inner = preg_replace('/<\/svg>\s*$/i', '', $inner);
                 // (B) 하나의 SVG 안에 언어별 텍스트가 섞여 있으면 현재 언어 아닌 요소 제거.
                 $inner = og_strip_other_langs($inner, $lang);
+                // ★ 2026-07-16: 글 본문 차트 SVG 는 font-family="sans-serif" 로 돼 있어
+                //   서버(카페24) 기본 폰트로 그려진다. 그 폰트가 터키어 ç/ö 를
+                //   엉뚱한 글자(▶/✔)로 그린다(실측). → 우리 폰트("OG")로 강제한다.
+                //   바깥 SVG 의 <defs> 에 @font-face{font-family:"OG"} 가 선언돼 있다.
+                $inner = preg_replace('/font-family\s*=\s*"[^"]*"/i', 'font-family="OG"', $inner);
                 $chartSvg = $inner;
             }
         }
