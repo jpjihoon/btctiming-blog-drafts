@@ -1,0 +1,328 @@
+<?php $slug = 'dormant-whale-2017-peak-383m-great-distribution-gap'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">2017년 말 비트코인 사상 첫 강세장 정점 무렵 형성된 지갑 하나가 8년 6개월간의 휴면을 깨고 7월 15일 저녁 5,908 BTC(약 3억8,300만 달러 상당)를 새로운 주소로 이체했다고 온체인 분석업체 룩온체인(Lookonchain)의 아캄 인텔리전스(Arkham) 데이터를 인용해 더블록(The Block)이 16일 보도했다. 이 지갑 "138EM…ReyiT"는 2017년 말 비트코인이 1만6,000~1만6,800달러 부근에서 거래되던 시점에 코인을 받았으며, 이체는 미 동부시간 오후 7시15분에 이뤄졌다. 자금은 거래소가 아닌 표식 없는 새 지갑으로 향했고, 보도 시점까지 추가 이동은 확인되지 않았다.</p>
+<p class="en">A wallet formed around bitcoin's first major bull-market peak in late 2017 broke an eight-and-a-half-year dormancy on the evening of July 15, transferring 5,908 BTC — worth roughly $383 million — to a new address, according to data from on-chain analytics firm Lookonchain, citing Arkham, reported by The Block on July 16. The wallet, "138EM…ReyiT," received the coins in late 2017 when bitcoin traded between about $16,000 and $16,800, and the transfer occurred at 7:15 p.m. ET. The funds moved to a new, unmarked wallet rather than an exchange, and no further movement had been observed as of this report.</p>
+<p class="ja">2017年末のビットコイン史上初の強気相場ピーク前後に形成されたウォレットが、8年6カ月の休眠を破り7月15日夜、5,908 BTC(約3億8,300万ドル相当)を新しいアドレスへ移動させたと、オンチェーン分析企業ルックオンチェーン(Lookonchain)のアーカム(Arkham)データを引用してザ・ブロック(The Block)が16日に報じた。このウォレット「138EM…ReyiT」は2017年末、ビットコインが1万6,000~1万6,800ドル前後で取引されていた時期にコインを受け取っており、移動は米東部時間午後7時15分に行われた。資金は取引所ではなく表示のない新規ウォレットへ向かい、本報道時点まで追加の移動は確認されていない。</p>
+<p class="es">Una billetera formada alrededor del primer gran pico de mercado alcista de bitcoin a finales de 2017 rompió una inactividad de ocho años y medio en la noche del 15 de julio, transfiriendo 5.908 BTC —unos 383 millones de dólares— a una nueva dirección, según datos de la firma de análisis on-chain Lookonchain, citando a Arkham, reportado por The Block el 16 de julio. La billetera, "138EM…ReyiT", recibió las monedas a finales de 2017 cuando el bitcoin cotizaba entre unos 16.000 y 16.800 dólares, y la transferencia se realizó a las 7:15 p.m. hora del Este. Los fondos se movieron a una billetera nueva y sin marcar en lugar de un exchange, y no se había observado ningún movimiento adicional al momento de este informe.</p>
+<p class="de">Eine Wallet, die sich rund um Bitcoins ersten großen Bullenmarkt-Höchststand Ende 2017 bildete, durchbrach am Abend des 15. Juli eine achteinhalbjährige Ruhephase und überwies 5.908 BTC — im Wert von rund 383 Millionen US-Dollar — an eine neue Adresse, wie Daten der On-Chain-Analysefirma Lookonchain unter Berufung auf Arkham zeigen, über die The Block am 16. Juli berichtete. Die Wallet "138EM…ReyiT" erhielt die Coins Ende 2017, als Bitcoin zwischen etwa 16.000 und 16.800 US-Dollar gehandelt wurde, und der Transfer erfolgte um 19:15 Uhr Ostküstenzeit. Die Gelder wanderten in eine neue, unmarkierte Wallet statt zu einer Börse, und bis zum Zeitpunkt dieses Berichts wurde keine weitere Bewegung beobachtet.</p>
+<p class="fr">Un portefeuille constitué autour du premier grand sommet de marché haussier du bitcoin fin 2017 a rompu une inactivité de huit ans et demi dans la soirée du 15 juillet, transférant 5 908 BTC — environ 383 millions de dollars — vers une nouvelle adresse, selon des données de la société d'analyse on-chain Lookonchain, citant Arkham, rapportées par The Block le 16 juillet. Le portefeuille « 138EM…ReyiT » a reçu les pièces fin 2017, lorsque le bitcoin s'échangeait entre environ 16 000 et 16 800 dollars, et le transfert a eu lieu à 19h15, heure de l'Est. Les fonds se sont dirigés vers un nouveau portefeuille non identifié plutôt qu'une plateforme d'échange, et aucun mouvement supplémentaire n'avait été observé à l'heure de cet article.</p>
+<p class="pt">Uma carteira formada em torno do primeiro grande pico do mercado em alta do bitcoin no final de 2017 rompeu uma dormência de oito anos e meio na noite de 15 de julho, transferindo 5.908 BTC — cerca de US$ 383 milhões — para um novo endereço, segundo dados da empresa de análise on-chain Lookonchain, citando a Arkham, divulgados pelo The Block em 16 de julho. A carteira "138EM…ReyiT" recebeu as moedas no final de 2017, quando o bitcoin era negociado entre cerca de US$ 16.000 e US$ 16.800, e a transferência ocorreu às 19h15 (horário do leste dos EUA). Os fundos foram para uma carteira nova e não identificada em vez de uma exchange, e nenhuma movimentação adicional havia sido observada até o momento desta reportagem.</p>
+<p class="tr">2017 sonundaki bitcoin'in ilk büyük boğa piyasası zirvesi civarında oluşturulan bir cüzdan, 15 Temmuz akşamı sekiz buçuk yıllık hareketsizliğini bozarak 5.908 BTC'yi — yaklaşık 383 milyon dolar değerinde — yeni bir adrese transfer etti; bu bilgi, The Block'un 16 Temmuz'da aktardığı, Arkham verilerine dayanan zincir üstü analiz firması Lookonchain'e dayanıyor. "138EM…ReyiT" cüzdanı, bitcoin'in yaklaşık 16.000 ila 16.800 dolar arasında işlem gördüğü 2017 sonunda coinleri almıştı ve transfer ABD doğu saatiyle 19:15'te gerçekleşti. Fonlar bir borsaya değil, yeni ve işaretsiz bir cüzdana gitti ve bu haberin yazıldığı ana kadar başka bir hareket gözlemlenmedi.</p>
+<p class="vi">Một ví được hình thành quanh đỉnh thị trường tăng giá lớn đầu tiên của bitcoin vào cuối năm 2017 đã phá vỡ trạng thái ngủ yên kéo dài tám năm rưỡi vào tối ngày 15/7, chuyển 5.908 BTC — trị giá khoảng 383 triệu đô la — sang một địa chỉ mới, theo dữ liệu từ công ty phân tích on-chain Lookonchain, dẫn nguồn từ Arkham, được The Block đưa tin ngày 16/7. Ví "138EM…ReyiT" nhận số coin này vào cuối năm 2017 khi bitcoin giao dịch trong khoảng 16.000 đến 16.800 đô la, và giao dịch diễn ra lúc 19h15 giờ miền Đông nước Mỹ. Số tiền được chuyển đến một ví mới, không gắn nhãn, thay vì một sàn giao dịch, và chưa có động thái di chuyển thêm nào được ghi nhận tính đến thời điểm đưa tin.</p>
+
+<p class="ko">공교롭게도 이 이체는 갤럭시디지털(Galaxy Digital)의 알렉스 손(Alex Thorn)이 <a href="/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">"2년간 이어진 고래 매도 행렬, 이른바 '거대한 분산(Great Distribution)'이 끝났다"</a>고 분석한 보고서가 나온 지 하루도 지나지 않은 시점에 발생했다. 해당 보고서는 2026년 들어 오래된 지갑이 '깨어나는' 빈도 자체가 전년 대비 절반 이상 줄었다고 밝혔는데, 공교롭게도 그 직후 8년 6개월 만에 깨어난 대형 지갑이 등장한 셈이다. 다만 이 지갑에 담긴 코인은 취득 시점이 2017년 말로, 갤럭시디지털이 분석 대상으로 삼은 '베테랑 홀더' 코호트(주로 2010~2015년 취득분)보다 상대적으로 젊은 축에 속해, 이번 사례를 곧바로 '분산 재개'의 증거로 보기는 어렵다.</p>
+<p class="en">Coincidentally, this transfer occurred less than a day after <a href="/en/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">a report from Galaxy Digital's Alex Thorn concluded that the two-year wave of whale selling — dubbed the 'Great Distribution' — had ended</a>. That report found the frequency at which old wallets 'wake up' had fallen by more than half in 2026 compared with the prior year, making it something of an irony that a large dormant wallet resurfaced within a day of its publication. That said, the coins in this wallet date to late 2017 — younger than the 'veteran holder' cohort Galaxy Digital's analysis focused on, largely acquired between 2010 and 2015 — making it a stretch to read this single case as evidence that distribution has resumed.</p>
+<p class="ja">偶然にも、この移動はギャラクシー・デジタル(Galaxy Digital)のアレックス・ソーン(Alex Thorn)氏が<a href="/ja/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">「2年間続いたクジラの売却行進、いわゆる『大分散(Great Distribution)』が終わった」</a>と分析したレポートが出てから1日も経たない時点で発生した。同レポートは2026年に入り、古いウォレットが「目覚める」頻度自体が前年比で半分以上減ったと指摘していたが、皮肉にもその直後に8年6カ月ぶりに目覚めた大型ウォレットが現れた形だ。ただしこのウォレットのコインは2017年末取得のもので、ギャラクシー・デジタルが分析対象とした「ベテラン保有者」コホート(主に2010~2015年取得分)よりも相対的に若い部類に入り、今回の事例を直ちに「分散再開」の証拠と見るのは難しい。</p>
+<p class="es">Casualmente, esta transferencia ocurrió menos de un día después de que <a href="/es/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">un informe de Alex Thorn, de Galaxy Digital, concluyera que la ola de dos años de ventas de ballenas —apodada la 'Gran Distribución'— había terminado</a>. Ese informe encontró que la frecuencia con la que las billeteras antiguas 'despiertan' había caído más de la mitad en 2026 respecto al año anterior, lo que resulta irónico dado que una billetera grande e inactiva resurgió a menos de un día de su publicación. Dicho esto, las monedas de esta billetera datan de finales de 2017 —más jóvenes que la cohorte de 'tenedores veteranos' en la que se centró el análisis de Galaxy Digital, adquiridas mayormente entre 2010 y 2015—, por lo que es exagerado leer este caso aislado como evidencia de que la distribución se ha reanudado.</p>
+<p class="de">Zufälligerweise erfolgte dieser Transfer weniger als einen Tag, nachdem <a href="/de/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">ein Bericht von Alex Thorn von Galaxy Digital zu dem Schluss kam, dass die zweijährige Welle von Whale-Verkäufen — die 'Great Distribution' genannt — beendet sei</a>. Dieser Bericht stellte fest, dass die Häufigkeit, mit der alte Wallets 'aufwachen', 2026 im Vergleich zum Vorjahr um mehr als die Hälfte gesunken war, was es zu einer gewissen Ironie macht, dass eine große ruhende Wallet innerhalb eines Tages nach der Veröffentlichung wieder auftauchte. Allerdings stammen die Coins in dieser Wallet aus Ende 2017 — jünger als die von Galaxy Digitals Analyse fokussierte Kohorte 'erfahrener Halter', die größtenteils zwischen 2010 und 2015 erworben wurde —, weshalb es weit hergeholt wäre, diesen Einzelfall als Beweis für eine wieder aufgenommene Distribution zu werten.</p>
+<p class="fr">Par coïncidence, ce transfert est survenu moins d'un jour après qu'<a href="/fr/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">un rapport d'Alex Thorn, de Galaxy Digital, a conclu que la vague de deux ans de ventes de baleines — surnommée la « Grande Distribution » — avait pris fin</a>. Ce rapport a révélé que la fréquence à laquelle les anciens portefeuilles « se réveillent » avait chuté de plus de moitié en 2026 par rapport à l'année précédente, ce qui rend quelque peu ironique la réapparition d'un grand portefeuille dormant moins d'un jour après sa publication. Cela dit, les pièces de ce portefeuille datent de fin 2017 — plus récentes que la cohorte de « détenteurs vétérans » sur laquelle s'est concentrée l'analyse de Galaxy Digital, acquises en grande partie entre 2010 et 2015 —, ce qui rend hasardeux de lire ce cas isolé comme la preuve d'une reprise de la distribution.</p>
+<p class="pt">Coincidentemente, essa transferência ocorreu menos de um dia depois que <a href="/pt/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">um relatório de Alex Thorn, da Galaxy Digital, concluiu que a onda de dois anos de vendas de baleias — apelidada de 'Grande Distribuição' — havia terminado</a>. Esse relatório constatou que a frequência com que carteiras antigas 'despertam' havia caído mais da metade em 2026 em comparação com o ano anterior, o que torna algo irônico o ressurgimento de uma grande carteira dormente menos de um dia após sua publicação. Dito isso, as moedas nessa carteira datam do final de 2017 — mais recentes do que a coorte de 'detentores veteranos' na qual a análise da Galaxy Digital se concentrou, adquiridas majoritariamente entre 2010 e 2015 —, o que torna precipitado ler esse caso isolado como evidência de que a distribuição foi retomada.</p>
+<p class="tr">Tesadüfen, bu transfer, <a href="/tr/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">Galaxy Digital'den Alex Thorn'un iki yıllık balina satış dalgasının — 'Büyük Dağılım' olarak adlandırılan — sona erdiği sonucuna vardığı bir raporun</a> yayımlanmasından bir günden az bir süre sonra gerçekleşti. Bu rapor, eski cüzdanların 'uyanma' sıklığının 2026'da bir önceki yıla göre yarıdan fazla düştüğünü tespit etmişti; bu da büyük, uykudaki bir cüzdanın yayından bir gün içinde yeniden ortaya çıkmasını bir tür ironi haline getiriyor. Bununla birlikte, bu cüzdandaki coinler 2017 sonuna ait — Galaxy Digital'ın analizinin odaklandığı, büyük ölçüde 2010-2015 arasında edinilmiş 'kıdemli sahip' kohortundan daha genç — bu da tek bir vakayı dağılımın yeniden başladığının kanıtı olarak okumayı zorlaştırıyor.</p>
+<p class="vi">Tình cờ, giao dịch này xảy ra chưa đầy một ngày sau khi <a href="/vi/blog/bitcoin-great-distribution-ends-galaxy-digital-onchain">một báo cáo của Alex Thorn thuộc Galaxy Digital kết luận rằng làn sóng bán ra của cá voi kéo dài hai năm — được gọi là 'Đại Phân Phối' — đã kết thúc</a>. Báo cáo đó phát hiện tần suất các ví cũ 'thức giấc' đã giảm hơn một nửa trong năm 2026 so với năm trước, khiến việc một ví lớn ngủ yên xuất hiện trở lại chỉ trong vòng chưa đầy một ngày sau khi công bố trở nên có phần trớ trêu. Tuy nhiên, số coin trong ví này có từ cuối năm 2017 — trẻ hơn so với nhóm 'người nắm giữ kỳ cựu' mà phân tích của Galaxy Digital tập trung vào, phần lớn được mua từ năm 2010 đến 2015 — khiến việc xem trường hợp đơn lẻ này là bằng chứng cho thấy việc phân phối đã tái diễn trở nên khiên cưỡng.</p>
+
+<h2 class="ko">메커니즘 — 코호트별로 다른 '휴면 자금'의 의미</h2>
+<h2 class="en">The Mechanism: Why 'Dormant Supply' Means Different Things by Cohort</h2>
+<h2 class="ja">メカニズム — コホートによって異なる「休眠資金」の意味</h2>
+<h2 class="es">El mecanismo: por qué la 'oferta inactiva' significa cosas distintas según la cohorte</h2>
+<h2 class="de">Der Mechanismus: Warum 'ruhendes Angebot' je nach Kohorte Unterschiedliches bedeutet</h2>
+<h2 class="fr">Le mécanisme : pourquoi « l'offre dormante » ne signifie pas la même chose selon la cohorte</h2>
+<h2 class="pt">O mecanismo: por que 'oferta dormente' significa coisas diferentes por coorte</h2>
+<h2 class="tr">Mekanizma — 'Uykudaki arz' neden kohorta göre farklı anlamlara gelir</h2>
+<h2 class="vi">Cơ chế — Vì sao 'nguồn cung ngủ yên' mang ý nghĩa khác nhau theo từng nhóm</h2>
+
+<p class="ko">온체인 분석에서 '휴면 공급(dormant supply)'은 흔히 UTXO(미사용 거래 출력)의 마지막 이동 시점을 기준으로 연령대별 '코호트'로 나뉜다. 갤럭시디지털의 '거대한 분산' 분석은 주로 사토시 시대~2015년 사이에 취득돼 10년 이상 잠들어 있던 코호트의 활동 감소에 초점을 맞췄다. 반면 이번에 움직인 지갑은 2017년 말, 즉 비트코인이 처음으로 대중적 관심을 받으며 2만 달러에 근접했던 시점에 형성된 코호트에 속한다. 이 코호트는 '베테랑 홀더'보다 젊지만, 그럼에도 8년 넘게 한 번도 움직이지 않았다는 점에서 장기 확신 보유자군으로 분류된다.</p>
+<p class="en">In on-chain analysis, 'dormant supply' is typically split into age-based cohorts, defined by when a UTXO (unspent transaction output) last moved. Galaxy Digital's 'Great Distribution' analysis focused mainly on the cohort acquired from the Satoshi era through 2015 and dormant for a decade or more, and on the decline in that cohort's activity. The wallet that moved this week, by contrast, belongs to a cohort formed in late 2017 — when bitcoin first drew mass public attention as it approached $20,000. That cohort is younger than the 'veteran holder' group, but its coins still hadn't moved in over eight years, placing it firmly among long-term conviction holders.</p>
+<p class="ja">オンチェーン分析において「休眠供給(dormant supply)」は通常、UTXO(未使用トランザクション出力)が最後に動いた時点を基準に年齢帯別の「コホート」に分けられる。ギャラクシー・デジタルの「大分散」分析は主に、サトシ時代~2015年の間に取得され10年以上眠っていたコホートの活動減少に焦点を当てていた。一方、今回動いたウォレットは2017年末、つまりビットコインが初めて大衆的関心を集め2万ドルに迫っていた時期に形成されたコホートに属する。このコホートは「ベテラン保有者」より若いが、それでも8年以上一度も動かなかった点で、長期確信保有者群に分類される。</p>
+<p class="es">En el análisis on-chain, la 'oferta inactiva' suele dividirse en cohortes por antigüedad, definidas por cuándo se movió por última vez un UTXO (salida de transacción no gastada). El análisis de la 'Gran Distribución' de Galaxy Digital se centró principalmente en la cohorte adquirida desde la era Satoshi hasta 2015 e inactiva durante una década o más, y en el declive de la actividad de esa cohorte. La billetera que se movió esta semana, en cambio, pertenece a una cohorte formada a finales de 2017 —cuando el bitcoin atrajo por primera vez la atención masiva del público al acercarse a los 20.000 dólares—. Esa cohorte es más joven que el grupo de 'tenedores veteranos', pero sus monedas aun así no se habían movido en más de ocho años, lo que la ubica firmemente entre los tenedores de convicción a largo plazo.</p>
+<p class="de">In der On-Chain-Analyse wird 'ruhendes Angebot' typischerweise in altersbasierte Kohorten unterteilt, definiert danach, wann ein UTXO (unspent transaction output) zuletzt bewegt wurde. Galaxy Digitals 'Great Distribution'-Analyse konzentrierte sich hauptsächlich auf die Kohorte, die von der Satoshi-Ära bis 2015 erworben wurde und seit einem Jahrzehnt oder länger ruht, sowie auf den Rückgang der Aktivität dieser Kohorte. Die diese Woche bewegte Wallet gehört dagegen zu einer Kohorte, die Ende 2017 entstand — als Bitcoin erstmals massenhafte öffentliche Aufmerksamkeit erregte, als es sich der 20.000-Dollar-Marke näherte. Diese Kohorte ist jünger als die Gruppe der 'erfahrenen Halter', doch ihre Coins hatten sich dennoch seit über acht Jahren nicht bewegt, was sie fest in die Gruppe der langfristigen Überzeugungshalter einordnet.</p>
+<p class="fr">Dans l'analyse on-chain, « l'offre dormante » est généralement divisée en cohortes par âge, définies selon le moment où un UTXO (sortie de transaction non dépensée) a bougé pour la dernière fois. L'analyse de la « Grande Distribution » de Galaxy Digital s'est principalement concentrée sur la cohorte acquise entre l'ère Satoshi et 2015, dormante depuis une décennie ou plus, et sur le déclin de l'activité de cette cohorte. Le portefeuille qui a bougé cette semaine appartient, lui, à une cohorte formée fin 2017 — lorsque le bitcoin a attiré pour la première fois l'attention massive du public en s'approchant des 20 000 dollars. Cette cohorte est plus jeune que le groupe des « détenteurs vétérans », mais ses pièces n'avaient pourtant pas bougé depuis plus de huit ans, ce qui la classe fermement parmi les détenteurs de conviction à long terme.</p>
+<p class="pt">Na análise on-chain, a 'oferta dormente' costuma ser dividida em coortes por idade, definidas por quando um UTXO (saída de transação não gasta) se moveu pela última vez. A análise da 'Grande Distribuição' da Galaxy Digital concentrou-se principalmente na coorte adquirida desde a era Satoshi até 2015 e dormente há uma década ou mais, e no declínio da atividade dessa coorte. A carteira que se moveu esta semana, por outro lado, pertence a uma coorte formada no final de 2017 — quando o bitcoin atraiu pela primeira vez atenção pública em massa ao se aproximar de US$ 20.000. Essa coorte é mais jovem do que o grupo de 'detentores veteranos', mas suas moedas ainda assim não haviam se movido por mais de oito anos, o que a coloca firmemente entre os detentores de convicção de longo prazo.</p>
+<p class="tr">Zincir üstü analizde 'uykudaki arz' genellikle bir UTXO'nun (harcanmamış işlem çıktısı) en son ne zaman hareket ettiğine göre tanımlanan yaş tabanlı kohortlara ayrılır. Galaxy Digital'ın 'Büyük Dağılım' analizi, esas olarak Satoshi döneminden 2015'e kadar edinilmiş ve on yıldır ya da daha uzun süredir uykuda olan kohorta ve bu kohortun aktivitesindeki düşüşe odaklandı. Bu hafta hareket eden cüzdan ise, bitcoin'in 20.000 dolara yaklaşırken ilk kez kitlesel kamu ilgisi çektiği 2017 sonunda oluşan bir kohorta ait. Bu kohort 'kıdemli sahip' grubundan daha genç, ancak coinleri yine de sekiz yıldan fazla süredir hareket etmemişti; bu da onu kesinlikle uzun vadeli inanç sahipleri arasına yerleştiriyor.</p>
+<p class="vi">Trong phân tích on-chain, 'nguồn cung ngủ yên' thường được chia thành các nhóm theo độ tuổi, xác định bởi thời điểm một UTXO (đầu ra giao dịch chưa sử dụng) di chuyển lần cuối. Phân tích 'Đại Phân Phối' của Galaxy Digital tập trung chủ yếu vào nhóm được mua từ thời kỳ Satoshi đến năm 2015 và ngủ yên trong một thập kỷ trở lên, cùng với sự suy giảm hoạt động của nhóm đó. Ngược lại, ví di chuyển trong tuần này thuộc về một nhóm hình thành vào cuối năm 2017 — khi bitcoin lần đầu tiên thu hút sự chú ý đại chúng khi tiến gần mức 20.000 đô la. Nhóm này trẻ hơn nhóm 'người nắm giữ kỳ cựu', nhưng số coin của nó vẫn chưa di chuyển trong hơn tám năm, khiến nó chắc chắn thuộc nhóm người nắm giữ dài hạn có niềm tin vững chắc.</p>
+
+<p class="ko">가격 측면에서 보면 이 코호트의 특징이 더 뚜렷해진다. 2017년 말 취득가(약 1만6,800달러)는 2022년 약세장 저점(약 1만5,500달러)보다 살짝 높아, 이 코인은 한때 짧게나마 '미실현 손실' 상태에 놓였던 적이 있다. 현재 가격(약 6만4,000~6만5,000달러) 기준으로는 취득가 대비 약 284%, 즉 약 3.8배의 미실현 이익을 안고 있다. 이는 사토시 시대 코호트가 흔히 안고 있는 수백~수천 배의 이익률과는 규모가 다르며, 오히려 2020~2021년 사이클에 진입한 홀더들의 수익 구조와 더 비슷하다.</p>
+<p class="en">The price angle sharpens this cohort's profile. The late-2017 acquisition price (about $16,800) sat just above the 2022 bear-market low (about $15,500), meaning this position was briefly, if narrowly, underwater at one point. At current prices (roughly $64,000-$65,000), it carries an unrealized gain of about 284%, or roughly 3.8 times the entry price — an order of magnitude smaller than the hundreds- or thousands-fold gains typical of Satoshi-era cohorts, and closer instead to the return profile of holders who entered during the 2020-2021 cycle.</p>
+<p class="ja">価格の観点から見ると、このコホートの特徴がより鮮明になる。2017年末の取得価格(約1万6,800ドル)は2022年の弱気相場の底値(約1万5,500ドル)をわずかに上回っており、このポジションは一時的にせよ、わずかながら「含み損」状態に置かれたことがある。現在の価格(約6万4,000~6万5,000ドル)基準では、取得価格に対して約284%、つまり約3.8倍の含み益を抱えている。これはサトシ時代のコホートが通常抱える数百~数千倍の利益率とは規模が異なり、むしろ2020~2021年サイクルに参入したホルダーの収益構造に近い。</p>
+<p class="es">Desde la perspectiva del precio, el perfil de esta cohorte se agudiza. El precio de adquisición de finales de 2017 (unos 16.800 dólares) se situó apenas por encima del mínimo del mercado bajista de 2022 (unos 15.500 dólares), lo que significa que esta posición estuvo brevemente, aunque por poco, en pérdidas no realizadas en algún momento. A los precios actuales (unos 64.000-65.000 dólares), tiene una ganancia no realizada de aproximadamente el 284%, o alrededor de 3,8 veces el precio de entrada, un orden de magnitud menor que las ganancias de cientos o miles de veces típicas de las cohortes de la era Satoshi, y más cercano al perfil de retorno de quienes entraron durante el ciclo 2020-2021.</p>
+<p class="de">Aus preislicher Sicht schärft sich das Profil dieser Kohorte. Der Erwerbspreis von Ende 2017 (etwa 16.800 US-Dollar) lag knapp über dem Bärenmarkt-Tief von 2022 (etwa 15.500 US-Dollar), was bedeutet, dass diese Position zeitweise, wenn auch nur knapp, im Minus lag. Zu aktuellen Preisen (etwa 64.000-65.000 US-Dollar) trägt sie einen nicht realisierten Gewinn von etwa 284 Prozent bzw. rund dem 3,8-Fachen des Einstiegspreises — eine Größenordnung kleiner als die hundert- bis tausendfachen Gewinne, die für Kohorten aus der Satoshi-Ära typisch sind, und näher am Renditeprofil von Haltern, die während des Zyklus 2020-2021 einstiegen.</p>
+<p class="fr">Du point de vue du prix, le profil de cette cohorte se précise. Le prix d'acquisition de fin 2017 (environ 16 800 dollars) se situait juste au-dessus du plus bas du marché baissier de 2022 (environ 15 500 dollars), ce qui signifie que cette position a été brièvement, quoique de justesse, en perte latente à un moment donné. Aux prix actuels (environ 64 000-65 000 dollars), elle affiche un gain latent d'environ 284 %, soit environ 3,8 fois le prix d'entrée — un ordre de grandeur bien inférieur aux gains de plusieurs centaines voire milliers de fois typiques des cohortes de l'ère Satoshi, et plus proche du profil de rendement des détenteurs entrés lors du cycle 2020-2021.</p>
+<p class="pt">Do ponto de vista do preço, o perfil dessa coorte fica mais nítido. O preço de aquisição no final de 2017 (cerca de US$ 16.800) ficou pouco acima da mínima do mercado em baixa de 2022 (cerca de US$ 15.500), o que significa que essa posição esteve brevemente, ainda que por pouco, em prejuízo não realizado em algum momento. Aos preços atuais (cerca de US$ 64.000-65.000), ela carrega um ganho não realizado de cerca de 284%, ou cerca de 3,8 vezes o preço de entrada — uma ordem de grandeza menor do que os ganhos de centenas ou milhares de vezes típicos das coortes da era Satoshi, e mais próximo do perfil de retorno de detentores que entraram durante o ciclo de 2020-2021.</p>
+<p class="tr">Fiyat açısından bakıldığında bu kohortun profili daha da netleşiyor. 2017 sonu edinim fiyatı (yaklaşık 16.800 dolar), 2022 ayı piyasası dibinin (yaklaşık 15.500 dolar) hemen üzerindeydi; bu da bu pozisyonun bir noktada kısa süreliğine de olsa gerçekleşmemiş zararda olduğu anlamına geliyor. Güncel fiyatlarla (yaklaşık 64.000-65.000 dolar) giriş fiyatına göre yaklaşık %284, yani yaklaşık 3,8 kat gerçekleşmemiş kâr taşıyor — bu, Satoshi dönemi kohortlarında tipik olan yüzlerce ila binlerce katlık kazançlardan çok daha küçük bir büyüklük ve daha çok 2020-2021 döngüsünde giriş yapan sahiplerin getiri profiline yakın.</p>
+<p class="vi">Xét về góc độ giá, hồ sơ của nhóm này càng rõ nét hơn. Giá mua vào cuối năm 2017 (khoảng 16.800 đô la) chỉ nhỉnh hơn một chút so với đáy thị trường giá xuống năm 2022 (khoảng 15.500 đô la), nghĩa là vị thế này đã từng có lúc, dù ngắn ngủi, rơi vào trạng thái lỗ chưa hiện thực hóa. Ở mức giá hiện tại (khoảng 64.000-65.000 đô la), nó mang khoản lãi chưa hiện thực hóa khoảng 284%, tức khoảng 3,8 lần giá vào — một mức độ nhỏ hơn nhiều so với mức lãi hàng trăm đến hàng nghìn lần thường thấy ở các nhóm thời kỳ Satoshi, và gần hơn với hồ sơ lợi nhuận của những người nắm giữ tham gia trong chu kỳ 2020-2021.</p>
+
+<h2 class="ko">반박 가능한 관점 — '분산 종료' 서사와 이번 사례는 모순되지 않는다</h2>
+<h2 class="en">A Refutable View: This Case Doesn't Actually Contradict the 'Distribution Is Over' Narrative</h2>
+<h2 class="ja">反証可能な視点 — 「分散終了」の物語と今回の事例は矛盾しない</h2>
+<h2 class="es">Una visión refutable: este caso no contradice realmente el relato de que 'la distribución terminó'</h2>
+<h2 class="de">Eine widerlegbare Sichtweise: Dieser Fall widerspricht der 'Distribution ist vorbei'-Erzählung nicht wirklich</h2>
+<h2 class="fr">Un point de vue réfutable : ce cas ne contredit pas vraiment le récit de « la distribution est terminée »</h2>
+<h2 class="pt">Uma visão refutável: este caso não contradiz de fato a narrativa de que 'a distribuição acabou'</h2>
+<h2 class="tr">Çürütülebilir bir bakış açısı — Bu vaka, 'dağılım sona erdi' anlatısıyla aslında çelişmiyor</h2>
+<h2 class="vi">Một góc nhìn có thể bị bác bỏ — Trường hợp này thực ra không mâu thuẫn với câu chuyện 'phân phối đã kết thúc'</h2>
+
+<p class="ko">이 사례를 갤럭시디지털의 '분산 종료' 결론에 대한 반증으로 보기는 어렵다는 게 통계적으로도 타당하다. 갤럭시디지털의 분석은 개별 사건이 아니라 수천~수만 개 지갑의 '깨어남 빈도'를 집계한 통계적 추세였으며, 단 한 건의 8년 6개월 만의 이체가 그 추세를 뒤집을 만한 표본 크기가 되지 못한다. 실제로 7월에만 이미 두 차례의 유사한 대형 지갑 이체(7년 만의 2,931 BTC, 이번의 5,908 BTC)가 있었지만, 이는 '이번 달에만 유독 많다'기보다 비트코인 가격이 6만4,000~6만5,000달러 부근에서 반등하며 오래된 코인 보유자들에게 이체를 재검토할 유인(보안 재정비, 상속 계획, OTC 거래 준비)이 동시에 커진 결과로 볼 수 있다.</p>
+<p class="en">It's statistically reasonable that this case shouldn't be read as a rebuttal of Galaxy Digital's 'distribution is over' conclusion. That analysis was a statistical trend aggregated across thousands of wallets' 'wake-up' frequency, not a single event — and one 8.5-year-dormant transfer isn't a large enough sample to reverse that trend. In fact, July alone has already seen two comparable large dormant-wallet transfers (2,931 BTC after seven years, and now 5,908 BTC), but that likely reflects bitcoin's rebound to the $64,000-$65,000 range simultaneously raising the incentive for old-coin holders to revisit their positions — security upgrades, estate planning, OTC preparation — rather than a sudden spike unique to this month.</p>
+<p class="ja">この事例をギャラクシー・デジタルの「分散終了」という結論への反証と見るのは統計的にも無理があるといえる。同社の分析は個別の出来事ではなく、数千~数万のウォレットの「目覚め頻度」を集計した統計的トレンドであり、たった1件の8年6カ月ぶりの移動がそのトレンドを覆すほどのサンプルサイズにはならない。実際、7月だけですでに2件の類似した大型ウォレット移動(7年ぶりの2,931 BTC、今回の5,908 BTC)があったが、これは「今月だけ特に多い」というより、ビットコイン価格が6万4,000~6万5,000ドル付近で反発したことで、古いコイン保有者にとって移動を再検討する誘因(セキュリティ再整備、相続計画、OTC取引準備)が同時に高まった結果と見ることができる。</p>
+<p class="es">Es razonable, desde un punto de vista estadístico, no leer este caso como una refutación de la conclusión de Galaxy Digital de que 'la distribución terminó'. Ese análisis era una tendencia estadística agregada a partir de la frecuencia de 'despertar' de miles de billeteras, no un evento aislado, y una sola transferencia tras 8,5 años de inactividad no constituye una muestra suficientemente grande como para revertir esa tendencia. De hecho, solo en julio ya se han visto dos transferencias comparables de billeteras inactivas de gran tamaño (2.931 BTC tras siete años, y ahora 5.908 BTC), pero eso probablemente refleja que el rebote del bitcoin hacia el rango de 64.000-65.000 dólares aumentó simultáneamente el incentivo de los poseedores de monedas antiguas para revisar sus posiciones —actualizaciones de seguridad, planificación patrimonial, preparación de operaciones OTC— más que un repunte repentino exclusivo de este mes.</p>
+<p class="de">Statistisch gesehen ist es vertretbar, diesen Fall nicht als Widerlegung von Galaxy Digitals Schlussfolgerung 'Distribution ist vorbei' zu lesen. Diese Analyse war ein statistischer Trend, aggregiert über die 'Aufwach'-Häufigkeit tausender Wallets, kein Einzelereignis — und ein einziger Transfer nach 8,5-jähriger Ruhe ist keine ausreichend große Stichprobe, um diesen Trend umzukehren. Tatsächlich gab es allein im Juli bereits zwei vergleichbare große Transfers ruhender Wallets (2.931 BTC nach sieben Jahren und nun 5.908 BTC), doch das spiegelt wahrscheinlich eher wider, dass Bitcoins Erholung in den Bereich von 64.000-65.000 US-Dollar gleichzeitig den Anreiz für Halter alter Coins erhöht hat, ihre Positionen zu überdenken — Sicherheitsupgrades, Nachlassplanung, OTC-Vorbereitung — statt eines plötzlichen, nur diesem Monat eigenen Anstiegs.</p>
+<p class="fr">Il est statistiquement raisonnable de ne pas lire ce cas comme une réfutation de la conclusion de Galaxy Digital selon laquelle « la distribution est terminée ». Cette analyse était une tendance statistique agrégée à partir de la fréquence de « réveil » de milliers de portefeuilles, et non un événement isolé — et un seul transfert après 8,5 ans de dormance ne constitue pas un échantillon suffisamment grand pour inverser cette tendance. En réalité, rien qu'en juillet, on a déjà observé deux transferts comparables de grands portefeuilles dormants (2 931 BTC après sept ans, et maintenant 5 908 BTC), mais cela reflète probablement le fait que le rebond du bitcoin vers la fourchette de 64 000-65 000 dollars a simultanément accru l'incitation des détenteurs de pièces anciennes à revoir leurs positions — mises à niveau de sécurité, planification successorale, préparation de transactions de gré à gré — plutôt qu'un pic soudain propre à ce mois-ci.</p>
+<p class="pt">É estatisticamente razoável não interpretar este caso como uma refutação da conclusão da Galaxy Digital de que 'a distribuição acabou'. Aquela análise era uma tendência estatística agregada a partir da frequência de 'despertar' de milhares de carteiras, não um evento isolado — e uma única transferência após 8,5 anos de dormência não é uma amostra grande o suficiente para reverter essa tendência. Na verdade, só em julho já houve duas transferências comparáveis de grandes carteiras dormentes (2.931 BTC após sete anos, e agora 5.908 BTC), mas isso provavelmente reflete o fato de a recuperação do bitcoin para a faixa de US$ 64.000-65.000 ter simultaneamente aumentado o incentivo para detentores de moedas antigas revisarem suas posições — atualizações de segurança, planejamento patrimonial, preparação para OTC — em vez de um pico repentino exclusivo deste mês.</p>
+<p class="tr">İstatistiksel olarak, bu vakayı Galaxy Digital'ın 'dağılım sona erdi' sonucuna bir çürütme olarak okumamak mantıklıdır. Söz konusu analiz, tek bir olay değil, binlerce cüzdanın 'uyanma' sıklığı üzerinden toplanmış istatistiksel bir eğilimdi — ve 8,5 yıllık uykunun ardından yapılan tek bir transfer, bu eğilimi tersine çevirecek kadar büyük bir örneklem değil. Nitekim yalnızca temmuz ayında bile benzer iki büyük uykudaki cüzdan transferi (yedi yıl sonra 2.931 BTC ve şimdi 5.908 BTC) yaşandı, ancak bu, "sadece bu ay özellikle çok" olmaktan çok, bitcoin'in 64.000-65.000 dolar aralığına doğru toparlanmasının, eski coin sahiplerinin pozisyonlarını yeniden gözden geçirme (güvenlik güncellemesi, miras planlaması, OTC hazırlığı) teşvikini eşzamanlı olarak artırmasının bir sonucu olarak görülebilir.</p>
+<p class="vi">Về mặt thống kê, việc không xem trường hợp này là sự bác bỏ kết luận 'phân phối đã kết thúc' của Galaxy Digital là hợp lý. Phân tích đó là một xu hướng thống kê được tổng hợp từ tần suất 'thức giấc' của hàng nghìn ví, không phải một sự kiện đơn lẻ — và một giao dịch duy nhất sau 8,5 năm ngủ yên không phải là một mẫu đủ lớn để đảo ngược xu hướng đó. Trên thực tế, chỉ riêng tháng 7 đã chứng kiến hai giao dịch ví ngủ yên lớn tương tự (2.931 BTC sau bảy năm, và giờ là 5.908 BTC), nhưng điều này nhiều khả năng phản ánh việc bitcoin phục hồi về vùng 64.000-65.000 đô la đồng thời làm tăng động lực để những người nắm giữ coin cũ xem xét lại vị thế của họ — nâng cấp bảo mật, hoạch định tài sản thừa kế, chuẩn bị giao dịch OTC — hơn là một đợt tăng đột biến chỉ riêng trong tháng này.</p>
+
+<p class="ko">그럼에도 이번 사례가 시사하는 바는 분명하다. '분산이 끝났다'는 집계 통계가 개별 대형 지갑의 갑작스러운 활동 가능성 자체를 없애는 것은 아니라는 점이다. 다음으로 지켜봐야 할 것은 이 신규 주소가 향후 며칠 안에 거래소로 자금을 옮기는지, 그리고 유사한 2017~2018년 코호트 지갑에서 추가적인 깨어남이 이어지는지 여부다. 만약 이런 흐름이 반복된다면, 이는 '분산 종료'가 아니라 '분산 주체의 세대교체'로 재해석될 필요가 있다.</p>
+<p class="en">Still, this case carries a clear lesson: an aggregate statistic showing 'distribution has ended' does not eliminate the possibility that any single large dormant wallet could suddenly reactivate. What to watch next is whether this new address moves funds to an exchange in the coming days, and whether further awakenings follow among similar 2017-2018 cohort wallets. If that pattern repeats, it may need to be reinterpreted not as 'distribution ending' but as 'a generational handoff among distributors.'</p>
+<p class="ja">それでもこの事例が示唆する点は明確だ。「分散が終わった」という集計統計は、個々の大型ウォレットが突然活動を再開する可能性そのものを消し去るわけではない。次に注目すべきは、この新規アドレスが今後数日以内に取引所へ資金を移すかどうか、そして類似した2017~2018年コホートのウォレットでさらなる「目覚め」が続くかどうかだ。もしこの流れが繰り返されるなら、それは「分散終了」ではなく「分散主体の世代交代」として再解釈される必要があるだろう。</p>
+<p class="es">Aun así, este caso deja una lección clara: una estadística agregada que muestra que 'la distribución ha terminado' no elimina la posibilidad de que cualquier billetera grande e inactiva se reactive de repente. Lo próximo a observar es si esta nueva dirección mueve fondos a un exchange en los próximos días, y si se producen más despertares entre billeteras similares de la cohorte 2017-2018. Si ese patrón se repite, quizá deba reinterpretarse no como el 'fin de la distribución', sino como 'un relevo generacional entre distribuidores'.</p>
+<p class="de">Dennoch trägt dieser Fall eine klare Lehre in sich: Eine aggregierte Statistik, die zeigt, dass 'die Distribution beendet ist', schließt nicht die Möglichkeit aus, dass eine einzelne große ruhende Wallet plötzlich reaktiviert wird. Als Nächstes zu beobachten ist, ob diese neue Adresse in den kommenden Tagen Gelder an eine Börse überweist und ob weitere Erwachen unter ähnlichen Wallets der Kohorte 2017-2018 folgen. Sollte sich dieses Muster wiederholen, müsste es möglicherweise nicht als 'Ende der Distribution', sondern als 'ein Generationswechsel unter Distributoren' neu interpretiert werden.</p>
+<p class="fr">Ce cas comporte néanmoins une leçon claire : une statistique agrégée montrant que « la distribution a pris fin » n'élimine pas la possibilité qu'un seul grand portefeuille dormant se réactive soudainement. La prochaine chose à surveiller est de savoir si cette nouvelle adresse transfère des fonds vers une plateforme d'échange dans les jours à venir, et si d'autres réveils suivent parmi des portefeuilles similaires de la cohorte 2017-2018. Si ce schéma se répète, il faudra peut-être le réinterpréter non pas comme « la fin de la distribution », mais comme « une relève générationnelle parmi les distributeurs ».</p>
+<p class="pt">Ainda assim, este caso carrega uma lição clara: uma estatística agregada mostrando que 'a distribuição terminou' não elimina a possibilidade de que qualquer carteira grande e dormente possa se reativar repentinamente. O que observar a seguir é se esse novo endereço move fundos para uma exchange nos próximos dias, e se novos despertares se seguem entre carteiras semelhantes da coorte 2017-2018. Se esse padrão se repetir, pode ser necessário reinterpretá-lo não como 'o fim da distribuição', mas como 'uma passagem geracional entre distribuidores'.</p>
+<p class="tr">Yine de bu vaka net bir ders taşıyor: 'dağılımın sona erdiğini' gösteren toplu bir istatistik, herhangi bir tek büyük uykudaki cüzdanın aniden yeniden etkinleşme olasılığını ortadan kaldırmaz. Bundan sonra izlenmesi gereken, bu yeni adresin önümüzdeki günlerde fonları bir borsaya taşıyıp taşımayacağı ve benzer 2017-2018 kohortu cüzdanları arasında başka uyanışların gelip gelmeyeceğidir. Bu örüntü tekrarlanırsa, bunun 'dağılımın sona ermesi' değil, 'dağıtıcılar arasında kuşak değişimi' olarak yeniden yorumlanması gerekebilir.</p>
+<p class="vi">Tuy nhiên, trường hợp này mang lại một bài học rõ ràng: một số liệu thống kê tổng hợp cho thấy 'phân phối đã kết thúc' không loại bỏ khả năng bất kỳ ví lớn ngủ yên nào cũng có thể đột ngột hoạt động trở lại. Điều cần theo dõi tiếp theo là liệu địa chỉ mới này có chuyển tiền tới một sàn giao dịch trong những ngày tới hay không, và liệu có thêm những lần 'thức giấc' khác trong số các ví tương tự thuộc nhóm 2017-2018 hay không. Nếu mô hình này lặp lại, có thể cần diễn giải lại không phải là 'phân phối đã kết thúc' mà là 'sự chuyển giao thế hệ giữa những người phân phối'.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">두 코호트 비교 — '베테랑 홀더'와 '2017년 코호트'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">갤럭시디지털 '거대한 분산' 분석 대상 (사토시~2015년 취득)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">2026년 깨어남 빈도 전년 대비 50%↓ · 미실현 이익 수백~수천 배</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">이번 이체 지갑 "138EM…ReyiT" (2017년 말 취득)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5,908 BTC (약 3.83억 달러) · 8.5년 만에 이동 · 미표시 개인 지갑</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">취득가 약 1.68만 달러 → 현재 약 284% 미실현 이익(약 3.8배)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">7월 중 유사 사례 (7년 만, 2,931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">약 1.88억 달러 · 미표시 개인 지갑 · 매도 신호 불명확</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">핵심 판단</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">단일 사건은 '분산 종료' 통계를 반증하기엔 표본이 작음</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">자료: The Block, Lookonchain, Arkham, Galaxy Digital (2026.7.16 보도 기준)</text>
+  </g>
+</svg>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Comparing Two Cohorts — 'Veteran Holders' vs. the '2017 Cohort'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Galaxy Digital's 'Great Distribution' focus (Satoshi era-2015 acquisition)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">2026 wake-up frequency down 50%+ YoY · Unrealized gains: 100s-1000s x</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">This transfer's wallet "138EM…ReyiT" (late-2017 acquisition)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5,908 BTC (~$383M) · Moved after 8.5 years · Unmarked personal wallet</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Entry ~$16,800 → now ~284% unrealized gain (~3.8x)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Comparable case, same month (7 years, 2,931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~$188M · Unmarked personal wallet · Sell signal unclear</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Key judgment</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">One event is too small a sample to rebut a 'distribution-over' statistic</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Source: The Block, Lookonchain, Arkham, Galaxy Digital (as of Jul 16, 2026 report)</text>
+  </g>
+</svg>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">2つのコホート比較 — 「ベテラン保有者」対「2017年コホート」</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">ギャラクシー・デジタル「大分散」分析対象(サトシ時代~2015年取得)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">2026年の目覚め頻度は前年比50%超↓ · 含み益は数百~数千倍</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">今回のウォレット「138EM…ReyiT」(2017年末取得)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5,908 BTC(約3.83億ドル)· 8.5年ぶりに移動 · 表示なし個人ウォレット</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">取得価格約1.68万ドル → 現在約284%の含み益(約3.8倍)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">同月内の類似事例(7年ぶり、2,931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">約1.88億ドル · 表示なし個人ウォレット · 売却シグナル不明確</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">重要な判断</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">単一事例は「分散終了」統計を反証するには標本が小さすぎる</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">出典: The Block, Lookonchain, Arkham, Galaxy Digital (2026年7月16日報道時点)</text>
+  </g>
+</svg>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Comparando Dos Cohortes — 'Tenedores Veteranos' vs. la 'Cohorte de 2017'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Foco de la 'Gran Distribución' de Galaxy Digital (adquirido era Satoshi-2015)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">Frecuencia de despertar 2026 baja 50%+ interanual · Ganancias: 100s-1000s x</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">Billetera de esta transferencia "138EM…ReyiT" (adquirida fines de 2017)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5.908 BTC (~383M$) · Movida tras 8,5 años · Billetera personal sin marcar</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Entrada ~16.800$ → ahora ~284% de ganancia no realizada (~3,8x)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Caso comparable, mismo mes (7 años, 2.931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~188M$ · Billetera personal sin marcar · Señal de venta poco clara</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Juicio clave</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">Un solo evento es una muestra demasiado pequeña para refutar 'distribución terminada'</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Fuente: The Block, Lookonchain, Arkham, Galaxy Digital (según informe del 16/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Zwei Kohorten im Vergleich — 'Erfahrene Halter' vs. die 'Kohorte 2017'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Fokus von Galaxy Digitals 'Great Distribution' (Erwerb Satoshi-Ära-2015)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">Aufwach-Häufigkeit 2026 um 50%+ ggü. Vorjahr gesunken · Gewinne: 100er-1000er x</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">Wallet dieses Transfers "138EM…ReyiT" (Erwerb Ende 2017)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5.908 BTC (~383 Mio. $) · Bewegt nach 8,5 Jahren · Unmarkierte private Wallet</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Einstieg ~16.800 $ → jetzt ~284% nicht realisierter Gewinn (~3,8x)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Vergleichbarer Fall, gleicher Monat (7 Jahre, 2.931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~188 Mio. $ · Unmarkierte private Wallet · Verkaufssignal unklar</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Kernaussage</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">Ein Ereignis ist zu kleine Stichprobe, um 'Distribution vorbei' zu widerlegen</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Quelle: The Block, Lookonchain, Arkham, Galaxy Digital (Stand: Bericht vom 16.7.2026)</text>
+  </g>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Comparaison de Deux Cohortes — « Détenteurs Vétérans » vs. la « Cohorte 2017 »</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Focus de la « Grande Distribution » de Galaxy Digital (acquis ère Satoshi-2015)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">Fréquence de réveil 2026 en baisse de 50%+ sur un an · Gains : centaines-milliers x</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">Portefeuille de ce transfert « 138EM…ReyiT » (acquis fin 2017)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5 908 BTC (~383M$) · Déplacé après 8,5 ans · Portefeuille personnel non identifié</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Entrée ~16 800$ → maintenant ~284% de gain latent (~3,8x)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Cas comparable, même mois (7 ans, 2 931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~188M$ · Portefeuille personnel non identifié · Signal de vente incertain</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Jugement clé</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">Un seul événement est un échantillon trop petit pour réfuter « distribution terminée »</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Source : The Block, Lookonchain, Arkham, Galaxy Digital (rapport du 16/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Comparando Duas Coortes — 'Detentores Veteranos' vs. a 'Coorte de 2017'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Foco da 'Grande Distribuição' da Galaxy Digital (adquirido era Satoshi-2015)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">Frequência de despertar 2026 cai 50%+ ano a ano · Ganhos: centenas-milhares x</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">Carteira desta transferência "138EM…ReyiT" (adquirida no final de 2017)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5.908 BTC (~US$ 383M) · Movida após 8,5 anos · Carteira pessoal não identificada</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Entrada ~US$ 16.800 → agora ~284% de ganho não realizado (~3,8x)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Caso comparável, mesmo mês (7 anos, 2.931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~US$ 188M · Carteira pessoal não identificada · Sinal de venda incerto</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Julgamento-chave</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">Um único evento é amostra pequena demais para refutar 'distribuição encerrada'</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Fonte: The Block, Lookonchain, Arkham, Galaxy Digital (conforme relatório de 16/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">İki Kohort Karşılaştırması — 'Kıdemli Sahipler' ve '2017 Kohortu'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Galaxy Digital'ın 'Büyük Dağılım' odağı (Satoshi dönemi-2015 edinim)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">2026 uyanma sıklığı yıllık %50+ düştü · Kazançlar: yüzlerce-binlerce kat</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">Bu transferin cüzdanı "138EM…ReyiT" (2017 sonu edinim)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5.908 BTC (~383M$) · 8,5 yıl sonra hareket · İşaretsiz kişisel cüzdan</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Giriş ~16.800$ → şimdi ~%284 gerçekleşmemiş kâr (~3,8 kat)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Aynı ay içinde benzer vaka (7 yıl, 2.931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~188M$ · İşaretsiz kişisel cüzdan · Satış sinyali belirsiz</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Temel değerlendirme</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">Tek bir olay 'dağılım sona erdi' istatistiğini çürütmek için çok küçük bir örneklem</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Kaynak: The Block, Lookonchain, Arkham, Galaxy Digital (16.7.2026 haberine göre)</text>
+  </g>
+</svg>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">So Sánh Hai Nhóm — 'Người Nắm Giữ Kỳ Cựu' và 'Nhóm 2017'</text>
+  <g font-family="sans-serif">
+    <text x="20" y="62" fill="#a1a1aa" font-size="13">Trọng tâm 'Đại Phân Phối' của Galaxy Digital (mua từ thời Satoshi-2015)</text>
+    <rect x="20" y="75" width="660" height="50" rx="8" fill="#3f3f46"/>
+    <text x="350" y="106" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">Tần suất thức giấc 2026 giảm hơn 50% so với năm trước · Lãi: hàng trăm-nghìn lần</text>
+
+    <text x="20" y="150" fill="#a1a1aa" font-size="13">Ví của giao dịch này "138EM…ReyiT" (mua cuối năm 2017)</text>
+    <rect x="20" y="163" width="660" height="56" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <text x="350" y="188" fill="#111113" font-size="14" font-weight="700" text-anchor="middle">5.908 BTC (~383 triệu $) · Di chuyển sau 8,5 năm · Ví cá nhân không gắn nhãn</text>
+    <text x="350" y="208" fill="#111113" font-size="13" font-weight="700" text-anchor="middle">Giá vào ~16.800$ → nay lãi chưa hiện thực hóa ~284% (~3,8 lần)</text>
+
+    <text x="20" y="255" fill="#a1a1aa" font-size="13">Trường hợp tương tự, cùng tháng (7 năm, 2.931 BTC)</text>
+    <rect x="20" y="268" width="660" height="46" rx="8" fill="#3f3f46"/>
+    <text x="350" y="296" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle">~188 triệu $ · Ví cá nhân không gắn nhãn · Tín hiệu bán không rõ ràng</text>
+
+    <text x="20" y="345" fill="#a1a1aa" font-size="13">Nhận định then chốt</text>
+    <rect x="20" y="358" width="660" height="46" rx="8" fill="#27272a"/>
+    <text x="350" y="386" fill="#a1a1aa" font-size="13" text-anchor="middle">Một sự kiện đơn lẻ là mẫu quá nhỏ để bác bỏ số liệu 'phân phối đã kết thúc'</text>
+
+    <text x="350" y="410" fill="#52525b" font-size="13" text-anchor="middle">Nguồn: The Block, Lookonchain, Arkham, Galaxy Digital (theo báo cáo ngày 16/7/2026)</text>
+  </g>
+</svg>
+</div>
+
+<div class="box ko">💡 <strong>시사점:</strong> 2017년 말 강세장 정점 무렵 형성된 지갑이 7월15일 8년6개월 만에 5,908 BTC(약 3.83억 달러)를 새 주소로 옮겼다고 더블록이 룩온체인·아캄 데이터를 인용해 보도했다. 공교롭게도 갤럭시디지털의 '거대한 분산 종료' 보고서가 나온 지 하루 만에 벌어진 일이지만, 해당 코호트(2017년 취득)는 보고서가 초점을 맞춘 '베테랑 홀더'(2010~2015년 취득)보다 젊어 직접 반박 근거로 보기는 어렵다. 자금은 거래소가 아닌 개인 지갑으로 향해 즉각적 매도 신호로 읽기도 힘들다. 다음 관전 포인트는 이 주소의 추가 이동 여부와, 유사 코호트에서 후속 사례가 이어지는지다.</div>
+<div class="box en">💡 <strong>Takeaway:</strong> A wallet formed around bitcoin's late-2017 bull-market peak moved 5,908 BTC (about $383 million) to a new address on July 15 after 8.5 years of dormancy, The Block reported citing Lookonchain and Arkham data. Coincidentally, this happened within a day of Galaxy Digital's report declaring the 'Great Distribution' over, but that cohort (2017 acquisition) is younger than the 'veteran holder' group (2010-2015 acquisition) the report focused on, making it a weak rebuttal at best. The funds went to a personal wallet rather than an exchange, making an immediate sell signal hard to read as well. What to watch next is whether this address moves again and whether further cases emerge from similar cohorts.</div>
+<div class="box ja">💡 <strong>示唆:</strong> 2017年末の強気相場ピーク前後に形成されたウォレットが7月15日、8年6カ月ぶりに5,908 BTC(約3.83億ドル)を新しいアドレスへ移動させたと、ザ・ブロックがルックオンチェーンとアーカムのデータを引用して報じた。偶然にもギャラクシー・デジタルの「大分散終了」レポートが出てから1日以内の出来事だが、当該コホート(2017年取得)はレポートが焦点を当てた「ベテラン保有者」(2010~2015年取得)より若く、直接的な反証根拠と見るのは難しい。資金は取引所ではなく個人ウォレットへ向かっており、即座に売却シグナルと読むのも難しい。次に注目すべきは、このアドレスがさらに動くかどうか、そして類似コホートで後続事例が続くかどうかだ。</div>
+<div class="box es">💡 <strong>Conclusión:</strong> Una billetera formada en torno al pico del mercado alcista de finales de 2017 movió 5.908 BTC (unos 383 millones de dólares) a una nueva dirección el 15 de julio, tras 8,5 años de inactividad, según reportó The Block citando datos de Lookonchain y Arkham. Casualmente, esto ocurrió a menos de un día del informe de Galaxy Digital que declaraba el fin de la 'Gran Distribución', pero esa cohorte (adquisición de 2017) es más joven que el grupo de 'tenedores veteranos' (adquisición 2010-2015) en el que se centró el informe, por lo que constituye, en el mejor de los casos, una refutación débil. Los fondos fueron a una billetera personal en lugar de a un exchange, lo que también dificulta leer una señal de venta inmediata. Lo próximo a observar es si esta dirección vuelve a moverse y si surgen más casos en cohortes similares.</div>
+<div class="box de">💡 <strong>Fazit:</strong> Eine Wallet, die sich rund um Bitcoins Bullenmarkt-Höchststand Ende 2017 bildete, bewegte am 15. Juli nach 8,5 Jahren Ruhe 5.908 BTC (rund 383 Millionen US-Dollar) zu einer neuen Adresse, wie The Block unter Berufung auf Daten von Lookonchain und Arkham berichtete. Zufällig geschah dies innerhalb eines Tages nach Galaxy Digitals Bericht, der die 'Great Distribution' für beendet erklärte, doch diese Kohorte (Erwerb 2017) ist jünger als die vom Bericht fokussierte Gruppe 'erfahrener Halter' (Erwerb 2010-2015), was es bestenfalls zu einer schwachen Widerlegung macht. Die Gelder gingen an eine private Wallet statt an eine Börse, was auch ein unmittelbares Verkaufssignal schwer lesbar macht. Als Nächstes zu beobachten: ob sich diese Adresse erneut bewegt und ob weitere Fälle aus ähnlichen Kohorten folgen.</div>
+<div class="box fr">💡 <strong>À retenir :</strong> Un portefeuille formé autour du sommet du marché haussier de fin 2017 a déplacé 5 908 BTC (environ 383 millions de dollars) vers une nouvelle adresse le 15 juillet, après 8,5 ans de dormance, selon The Block citant des données de Lookonchain et Arkham. Par coïncidence, cela s'est produit moins d'un jour après le rapport de Galaxy Digital déclarant la fin de la « Grande Distribution », mais cette cohorte (acquisition 2017) est plus jeune que le groupe de « détenteurs vétérans » (acquisition 2010-2015) sur lequel portait le rapport, ce qui en fait au mieux une faible réfutation. Les fonds sont allés vers un portefeuille personnel plutôt qu'une plateforme d'échange, rendant également difficile la lecture d'un signal de vente immédiat. La prochaine chose à surveiller est de savoir si cette adresse bouge à nouveau et si d'autres cas émergent parmi des cohortes similaires.</div>
+<div class="box pt">💡 <strong>Conclusão:</strong> Uma carteira formada em torno do pico do mercado em alta do final de 2017 moveu 5.908 BTC (cerca de US$ 383 milhões) para um novo endereço em 15 de julho, após 8,5 anos de dormência, segundo o The Block, citando dados da Lookonchain e da Arkham. Coincidentemente, isso ocorreu menos de um dia após o relatório da Galaxy Digital declarar o fim da 'Grande Distribuição', mas essa coorte (aquisição de 2017) é mais jovem do que o grupo de 'detentores veteranos' (aquisição 2010-2015) no qual o relatório se concentrou, tornando-a, na melhor das hipóteses, uma refutação fraca. Os fundos foram para uma carteira pessoal em vez de uma exchange, o que também dificulta a leitura de um sinal de venda imediato. O que observar a seguir é se esse endereço se move novamente e se surgem mais casos em coortes semelhantes.</div>
+<div class="box tr">💡 <strong>Sonuç:</strong> Bitcoin'in 2017 sonu boğa piyasası zirvesi civarında oluşan bir cüzdan, 8,5 yıllık hareketsizliğin ardından 15 Temmuz'da 5.908 BTC'yi (yaklaşık 383 milyon dolar) yeni bir adrese taşıdı; The Block, Lookonchain ve Arkham verilerine dayanarak bunu bildirdi. Tesadüfen bu, Galaxy Digital'ın 'Büyük Dağılım'ın sona erdiğini açıkladığı raporun yayımlanmasından bir günden az bir süre sonra gerçekleşti, ancak bu kohort (2017 edinimi), raporun odaklandığı 'kıdemli sahipler' grubundan (2010-2015 edinimi) daha genç, bu da onu en iyi ihtimalle zayıf bir çürütme yapıyor. Fonlar bir borsaya değil kişisel bir cüzdana gitti, bu da anlık bir satış sinyalini okumayı zorlaştırıyor. Bundan sonra izlenmesi gereken, bu adresin yeniden hareket edip etmeyeceği ve benzer kohortlardan başka vakaların gelip gelmeyeceğidir.</div>
+<div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Một ví hình thành quanh đỉnh thị trường tăng giá cuối năm 2017 đã chuyển 5.908 BTC (khoảng 383 triệu đô la) sang một địa chỉ mới vào ngày 15/7, sau 8,5 năm ngủ yên, theo The Block dẫn dữ liệu từ Lookonchain và Arkham. Tình cờ, điều này xảy ra chưa đầy một ngày sau báo cáo của Galaxy Digital tuyên bố 'Đại Phân Phối' đã kết thúc, nhưng nhóm này (mua năm 2017) trẻ hơn nhóm 'người nắm giữ kỳ cựu' (mua 2010-2015) mà báo cáo tập trung vào, khiến nó nhiều nhất chỉ là một sự bác bỏ yếu ớt. Số tiền được chuyển đến một ví cá nhân thay vì sàn giao dịch, khiến tín hiệu bán ngay lập tức cũng khó được xác nhận. Điều cần theo dõi tiếp theo là liệu địa chỉ này có di chuyển trở lại hay không và liệu có thêm các trường hợp khác từ những nhóm tương tự hay không.</div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 더블록(The Block), 룩온체인(Lookonchain), 아캄 인텔리전스(Arkham Intelligence), 갤럭시디지털(Galaxy Digital). 이 글은 투자 조언이 아니다.</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. This article is not investment advice.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: ザ・ブロック(The Block)、ルックオンチェーン(Lookonchain)、アーカム・インテリジェンス(Arkham Intelligence)、ギャラクシー・デジタル(Galaxy Digital)。本記事は投資助言ではない。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. Este artículo no es asesoramiento de inversión.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. Dieser Artikel ist keine Anlageberatung.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. Cet article ne constitue pas un conseil en investissement.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. Este artigo não é aconselhamento de investimento.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. Bu yazı yatırım tavsiyesi değildir.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: The Block, Lookonchain, Arkham Intelligence, Galaxy Digital. Bài viết này không phải là lời khuyên đầu tư.</p>
+<?php require __DIR__.'/_footer.php'; ?>
