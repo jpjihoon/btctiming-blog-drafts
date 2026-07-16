@@ -1,0 +1,85 @@
+# btctiming.com — 블로그 글 내부링크 경로형 교정 (수동 실행 전용)
+#
+# Actions 탭 → "블로그 내부링크 교정" → [Run workflow] 로만 돕니다.
+# 자동으로는 절대 안 돕니다.
+#
+#   1회차: mode = check  → 뭘 고칠지 보고만 함. 파일 안 건드림.
+#   2회차: mode = fix    → 실제 수정 + 커밋 + 서버 배포까지.
+
+name: 블로그 내부링크 교정
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '먼저 check 로 돌려 결과 확인 → 문제 없으면 fix'
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - fix
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 레포 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 링크 검사 (파일 안 건드림)
+        if: inputs.mode == 'check'
+        run: python3 .github/scripts/fix_blog_links.py
+
+      - name: 링크 교정
+        if: inputs.mode == 'fix'
+        run: python3 .github/scripts/fix_blog_links.py --write
+
+      - name: PHP 문법 전수 검사 (하나라도 깨지면 여기서 중단)
+        if: inputs.mode == 'fix'
+        run: |
+          set -e
+          err=0
+          for f in *.php; do
+            php -l "$f" > /dev/null 2>&1 || { echo "::error::문법 오류: $f"; err=$((err+1)); }
+          done
+          echo "검사 $(ls -1 *.php | wc -l) 개 / 오류 $err 개"
+          [ "$err" -eq 0 ]
+
+      - name: 커밋 & 푸시
+        if: inputs.mode == 'fix'
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo "변경 없음. 이미 교정돼 있습니다."
+            exit 0
+          fi
+          n=$(git diff --cached --name-only | wc -l)
+          git commit -m "블로그 글 내부링크 경로형 교정 (${n}편)"
+          git push
+          echo "커밋 완료: ${n}편"
+
+      # ★ GitHub Actions 가 만든 커밋은 다른 워크플로우(deploy.yml)를 자동으로 깨우지 않는다.
+      #   (무한루프 방지용 GitHub 정책) 그래서 배포를 여기서 직접 한다.
+      - name: FTP로 서버 배포
+        if: inputs.mode == 'fix'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./
+          server-dir: /www/blog/
+          dangerous-clean-slate: false
+          log-level: minimal
+          state-name: .ftp-deploy-sync-state.json
+          exclude: |
+            **/.github/**
+            **/.git/**
+            **/README.md
+            **/site-root/**
