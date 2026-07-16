@@ -4,7 +4,11 @@
 // $hasLive: 실시간 마커(JS로 위치 갱신)를 넣을지
 // $markerId: 이 게이지의 마커 고유 id (페이지 내 유일)
 if (!function_exists('render_gauge_svg')) {
-function render_gauge_svg(array $gauge, bool $hasLive, string $markerId = 'gaugeMarker'): string {
+// ★ 2026-07-16: $zoneLabels 추가.
+//   기존엔 zones[i][3] 의 한국어 라벨을 언어와 무관하게 그대로 그렸다.
+//   → 영어/일본어 등 모든 용어집 페이지의 게이지 바가 한국어로 나왔다(27개 용어 전부).
+//   ($zoneLabels 가 null 이면 예전처럼 zones[i][3] 을 쓴다 — 하위호환)
+function render_gauge_svg(array $gauge, bool $hasLive, string $markerId = 'gaugeMarker', ?array $zoneLabels = null): string {
     $W = 700; $H = $hasLive ? 172 : 150;
     $min = $gauge['min']; $max = $gauge['max'];
     $unit = $gauge['unit'] ?? '';
@@ -15,8 +19,12 @@ function render_gauge_svg(array $gauge, bool $hasLive, string $markerId = 'gauge
         return $pad + ($v - $min) / $span * ($W - 2 * $pad);
     };
     $segs = '';
-    foreach ($gauge['zones'] as $z) {
+    foreach ($gauge['zones'] as $zi => $z) {
         [$lo, $hi, $color, $label] = $z;
+        // 현재 언어 라벨이 있으면 그것을, 없으면 원본(한국어)을 쓴다
+        if ($zoneLabels !== null && isset($zoneLabels[$zi]) && $zoneLabels[$zi] !== '') {
+            $label = $zoneLabels[$zi];
+        }
         $x1 = $xOf($lo); $x2 = $xOf($hi); $w = $x2 - $x1;
         $segs .= sprintf('<rect x="%.0f" y="%d" width="%.0f" height="%d" fill="%s" opacity="0.85"/>', $x1, $barY, $w, $barH, $color);
         // 구간 라벨(막대 안)

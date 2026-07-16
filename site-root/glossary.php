@@ -187,7 +187,8 @@ require __DIR__ . '/_guide_head.php';
   $markerId = 'gm_' . preg_replace('/[^a-z0-9]/','_',$term);
   $what = $i['what']; $ranges = $i['ranges']; $howto = $i['how_to_use']; $limits = $i['limits'];
   $diagSvg = glossary_fill_diagram($G['diagram'], $i['diag']);
-  $gaugeSvg = render_gauge_svg($gauge, $hasLive, $markerId);
+  // ★ 2026-07-16: 현재 언어의 게이지 존 라벨을 넘긴다 (없으면 null → 원본 한국어 폴백)
+  $gaugeSvg = render_gauge_svg($gauge, $hasLive, $markerId, $i['zone_labels'] ?? null);
   // 실시간 라벨
   $liveLabel = $G['live_label_ko'] ?? '';
   if ($__gLang !== 'ko' || $liveLabel === '') $liveLabel = $L($T_LIVELABEL) . ' · ' . $nm;
