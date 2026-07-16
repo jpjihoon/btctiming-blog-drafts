@@ -159,40 +159,40 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 유입된 물량이 실제로 손실 매도되는지 확인</li>
-    <li><strong><a href="/blog/coinbase-premium.html">코인베이스 프리미엄</a>:</strong> 유출과 기관 매수가 겹치는지 확인</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR</a>:</strong> 유입된 물량이 실제로 손실 매도되는지 확인</li>
+    <li><strong><a href="/blog/coinbase-premium">코인베이스 프리미엄</a>:</strong> 유출과 기관 매수가 겹치는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Check whether inflowing supply is actually being sold at a loss</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Check whether outflows coincide with institutional buying</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR</a>:</strong> Check whether inflowing supply is actually being sold at a loss</li>
+    <li><strong><a href="/en/blog/coinbase-premium">Coinbase Premium</a>:</strong> Check whether outflows coincide with institutional buying</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 流入した物量が実際に損失を出しながら売却されているか確認</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbaseプレミアム</a>:</strong> 流出と機関の買いが重なっているか確認</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR</a>:</strong> 流入した物量が実際に損失を出しながら売却されているか確認</li>
+    <li><strong><a href="/ja/blog/coinbase-premium">Coinbaseプレミアム</a>:</strong> 流出と機関の買いが重なっているか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Verificar si el suministro entrante realmente se vende con pérdida</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Verificar si las salidas coinciden con compra institucional</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR</a>:</strong> Verificar si el suministro entrante realmente se vende con pérdida</li>
+    <li><strong><a href="/es/blog/coinbase-premium">Coinbase Premium</a>:</strong> Verificar si las salidas coinciden con compra institucional</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Prüfen, ob eingehendes Angebot tatsächlich mit Verlust verkauft wird</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Prüfen, ob Abflüsse mit institutionellem Kauf zusammenfallen</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR</a>:</strong> Prüfen, ob eingehendes Angebot tatsächlich mit Verlust verkauft wird</li>
+    <li><strong><a href="/de/blog/coinbase-premium">Coinbase Premium</a>:</strong> Prüfen, ob Abflüsse mit institutionellem Kauf zusammenfallen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a> :</strong> Vérifier si l'offre entrante est réellement vendue à perte</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a> :</strong> Vérifier si les sorties coïncident avec des achats institutionnels</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR</a> :</strong> Vérifier si l'offre entrante est réellement vendue à perte</li>
+    <li><strong><a href="/fr/blog/coinbase-premium">Coinbase Premium</a> :</strong> Vérifier si les sorties coïncident avec des achats institutionnels</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Verificar se o suprimento que está entrando realmente está sendo vendido com prejuízo</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Verificar se as saídas coincidem com compras institucionais</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR</a>:</strong> Verificar se o suprimento que está entrando realmente está sendo vendido com prejuízo</li>
+    <li><strong><a href="/pt/blog/coinbase-premium">Coinbase Premium</a>:</strong> Verificar se as saídas coincidem com compras institucionais</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Giriş yapan arzın gerçekten zararına satılıp satılmadığını kontrol edin</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Çıkışların kurumsal alımlarla örtüşüp örtüşmediğini kontrol edin</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR</a>:</strong> Giriş yapan arzın gerçekten zararına satılıp satılmadığını kontrol edin</li>
+    <li><strong><a href="/tr/blog/coinbase-premium">Coinbase Premium</a>:</strong> Çıkışların kurumsal alımlarla örtüşüp örtüşmediğini kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Kiểm tra xem lượng cung chảy vào có thực sự đang bị bán lỗ hay không</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Kiểm tra xem dòng ra có trùng với hoạt động mua của tổ chức hay không</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR</a>:</strong> Kiểm tra xem lượng cung chảy vào có thực sự đang bị bán lỗ hay không</li>
+    <li><strong><a href="/vi/blog/coinbase-premium">Coinbase Premium</a>:</strong> Kiểm tra xem dòng ra có trùng với hoạt động mua của tổ chức hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

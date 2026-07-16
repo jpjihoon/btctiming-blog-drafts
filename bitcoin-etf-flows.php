@@ -148,40 +148,40 @@
   <h2 class="tr">Birlikte İncelenmesi Gerekenler</h2>
   <h2 class="vi">Kết Hợp Tốt Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/coinbase-premium.html">코인베이스 프리미엄</a>:</strong> 미국 기관 매수세의 다른 측면과 교차 확인</li>
-    <li><strong><a href="/blog/exchange-netflow.html">거래소 순유입/유출량</a>:</strong> ETF 매수 물량이 실제 공급 감소로 이어지는지 확인</li>
+    <li><strong><a href="/blog/coinbase-premium">코인베이스 프리미엄</a>:</strong> 미국 기관 매수세의 다른 측면과 교차 확인</li>
+    <li><strong><a href="/blog/exchange-netflow">거래소 순유입/유출량</a>:</strong> ETF 매수 물량이 실제 공급 감소로 이어지는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Cross-check against another angle on US institutional buying</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Exchange Netflow</a>:</strong> Check whether ETF buying translates into an actual supply reduction</li>
+    <li><strong><a href="/en/blog/coinbase-premium">Coinbase Premium</a>:</strong> Cross-check against another angle on US institutional buying</li>
+    <li><strong><a href="/en/blog/exchange-netflow">Exchange Netflow</a>:</strong> Check whether ETF buying translates into an actual supply reduction</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbaseプレミアム</a>:</strong> 米国機関の買いを別の角度から相互確認</li>
-    <li><strong><a href="/blog/exchange-netflow.html">取引所純流入/流出量</a>:</strong> ETFの買いが実際の供給減少につながっているか確認</li>
+    <li><strong><a href="/ja/blog/coinbase-premium">Coinbaseプレミアム</a>:</strong> 米国機関の買いを別の角度から相互確認</li>
+    <li><strong><a href="/ja/blog/exchange-netflow">取引所純流入/流出量</a>:</strong> ETFの買いが実際の供給減少につながっているか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Verificación cruzada con otro ángulo de la compra institucional de EE.UU.</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Flujo Neto de Exchanges</a>:</strong> Verificar si la compra de ETF se traduce en una reducción real de suministro</li>
+    <li><strong><a href="/es/blog/coinbase-premium">Coinbase Premium</a>:</strong> Verificación cruzada con otro ángulo de la compra institucional de EE.UU.</li>
+    <li><strong><a href="/es/blog/exchange-netflow">Flujo Neto de Exchanges</a>:</strong> Verificar si la compra de ETF se traduce en una reducción real de suministro</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Abgleich mit einem weiteren Blickwinkel auf US-institutionellen Kauf</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Exchange Netflow</a>:</strong> Prüfen, ob ETF-Käufe sich in einer tatsächlichen Angebotsreduzierung niederschlagen</li>
+    <li><strong><a href="/de/blog/coinbase-premium">Coinbase Premium</a>:</strong> Abgleich mit einem weiteren Blickwinkel auf US-institutionellen Kauf</li>
+    <li><strong><a href="/de/blog/exchange-netflow">Exchange Netflow</a>:</strong> Prüfen, ob ETF-Käufe sich in einer tatsächlichen Angebotsreduzierung niederschlagen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a> :</strong> Vérification croisée avec un autre angle sur les achats institutionnels américains</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Flux net des exchanges</a> :</strong> Vérifier si les achats d'ETF se traduisent par une réduction réelle de l'offre</li>
+    <li><strong><a href="/fr/blog/coinbase-premium">Coinbase Premium</a> :</strong> Vérification croisée avec un autre angle sur les achats institutionnels américains</li>
+    <li><strong><a href="/fr/blog/exchange-netflow">Flux net des exchanges</a> :</strong> Vérifier si les achats d'ETF se traduisent par une réduction réelle de l'offre</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Verificação cruzada com outro ângulo sobre a compra institucional nos EUA</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Fluxo Líquido das Exchanges</a>:</strong> Verificar se a compra via ETF se traduz em uma redução real de oferta</li>
+    <li><strong><a href="/pt/blog/coinbase-premium">Coinbase Premium</a>:</strong> Verificação cruzada com outro ângulo sobre a compra institucional nos EUA</li>
+    <li><strong><a href="/pt/blog/exchange-netflow">Fluxo Líquido das Exchanges</a>:</strong> Verificar se a compra via ETF se traduz em uma redução real de oferta</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Primi</a>:</strong> ABD kurumsal alımına dair başka bir açıdan çapraz kontrol</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Borsa Net Akışı</a>:</strong> ETF alımlarının gerçek bir arz azalmasına dönüşüp dönüşmediğini kontrol edin</li>
+    <li><strong><a href="/tr/blog/coinbase-premium">Coinbase Primi</a>:</strong> ABD kurumsal alımına dair başka bir açıdan çapraz kontrol</li>
+    <li><strong><a href="/tr/blog/exchange-netflow">Borsa Net Akışı</a>:</strong> ETF alımlarının gerçek bir arz azalmasına dönüşüp dönüşmediğini kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Đối chiếu chéo với một góc nhìn khác về hoạt động mua của tổ chức tại Mỹ</li>
-    <li><strong><a href="/blog/exchange-netflow.html">Dòng Vốn Ròng Sàn Giao Dịch</a>:</strong> Kiểm tra xem việc mua ETF có chuyển thành sự sụt giảm nguồn cung thực tế hay không</li>
+    <li><strong><a href="/vi/blog/coinbase-premium">Coinbase Premium</a>:</strong> Đối chiếu chéo với một góc nhìn khác về hoạt động mua của tổ chức tại Mỹ</li>
+    <li><strong><a href="/vi/blog/exchange-netflow">Dòng Vốn Ròng Sàn Giao Dịch</a>:</strong> Kiểm tra xem việc mua ETF có chuyển thành sự sụt giảm nguồn cung thực tế hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

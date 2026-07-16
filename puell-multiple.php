@@ -148,40 +148,40 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 채굴자 항복 종료 시점과 교차 확인</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 채굴자 관점과 투자자 관점의 밸류에이션을 함께 확인</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> 채굴자 항복 종료 시점과 교차 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> 채굴자 관점과 투자자 관점의 밸류에이션을 함께 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Cross-check against the end of miner capitulation</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Compare valuation from both a miner and an investor perspective</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Cross-check against the end of miner capitulation</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Compare valuation from both a miner and an investor perspective</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> マイナーのキャピチュレーション終了時期と相互確認</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア</a>:</strong> マイナー視点と投資家視点のバリュエーションを併せて確認</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> マイナーのキャピチュレーション終了時期と相互確認</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア</a>:</strong> マイナー視点と投資家視点のバリュエーションを併せて確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Verificación cruzada con el fin de la capitulación de mineros</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Comparar valoración desde la perspectiva de mineros e inversores</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Verificación cruzada con el fin de la capitulación de mineros</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Comparar valoración desde la perspectiva de mineros e inversores</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Abgleich mit dem Ende der Miner-Kapitulation</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Bewertung aus Miner- und Investorensicht vergleichen</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Abgleich mit dem Ende der Miner-Kapitulation</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Bewertung aus Miner- und Investorensicht vergleichen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Vérification croisée avec la fin de la capitulation des mineurs</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Comparer la valorisation du point de vue des mineurs et des investisseurs</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Vérification croisée avec la fin de la capitulation des mineurs</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Comparer la valorisation du point de vue des mineurs et des investisseurs</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Verificação cruzada com o fim da capitulação dos mineradores</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Comparar a valorização sob a perspectiva dos mineradores e dos investidores</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Verificação cruzada com o fim da capitulação dos mineradores</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Comparar a valorização sob a perspectiva dos mineradores e dos investidores</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Madenci kapitülasyonunun sonuyla çapraz kontrol</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Hem madenci hem de yatırımcı perspektifinden değerlemeyi karşılaştırın</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Madenci kapitülasyonunun sonuyla çapraz kontrol</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Hem madenci hem de yatırımcı perspektifinden değerlemeyi karşılaştırın</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Đối chiếu chéo với thời điểm kết thúc sự đầu hàng của thợ đào</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> So sánh định giá từ góc nhìn của cả thợ đào và nhà đầu tư</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Đối chiếu chéo với thời điểm kết thúc sự đầu hàng của thợ đào</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> So sánh định giá từ góc nhìn của cả thợ đào và nhà đầu tư</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

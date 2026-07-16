@@ -369,49 +369,49 @@
   <h2 class="tr">En İyi Birlikte Kullanılacaklar</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 극단적 공포 속에서 프리미엄이 회복되면 저점 신호 강화</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">선물-현물 갭</a>:</strong> 레버리지 포지션 청산 여부와 함께 확인</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 저평가 구간에서 기관 매수까지 겹치면 신뢰도 상승</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수</a>:</strong> 극단적 공포 속에서 프리미엄이 회복되면 저점 신호 강화</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap">선물-현물 갭</a>:</strong> 레버리지 포지션 청산 여부와 함께 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> 저평가 구간에서 기관 매수까지 겹치면 신뢰도 상승</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed Index</a>:</strong> Premium recovering during extreme fear strengthens a bottom signal</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Futures-Spot Gap</a>:</strong> Confirms whether leveraged positions are being flushed out</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Institutional buying overlapping with undervaluation adds confidence</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear &amp; Greed Index</a>:</strong> Premium recovering during extreme fear strengthens a bottom signal</li>
+    <li><strong><a href="/en/blog/funding-rate-futures-gap">Futures-Spot Gap</a>:</strong> Confirms whether leveraged positions are being flushed out</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Institutional buying overlapping with undervaluation adds confidence</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数</a>:</strong> 極端な恐怖の中でプレミアムが回復すると底値シグナルが強化される</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">先物-現物ギャップ</a>:</strong> レバレッジポジションが清算されているかを併せて確認</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア</a>:</strong> 割安圏で機関買いまで重なると信頼度が上がる</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数</a>:</strong> 極端な恐怖の中でプレミアムが回復すると底値シグナルが強化される</li>
+    <li><strong><a href="/ja/blog/funding-rate-futures-gap">先物-現物ギャップ</a>:</strong> レバレッジポジションが清算されているかを併せて確認</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア</a>:</strong> 割安圏で機関買いまで重なると信頼度が上がる</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Miedo y Codicia</a>:</strong> La recuperación de la prima durante miedo extremo refuerza una señal de suelo</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Brecha Futuros-Spot</a>:</strong> Confirma si las posiciones apalancadas están siendo liquidadas</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> La compra institucional que coincide con infravaloración añade confianza</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Índice de Miedo y Codicia</a>:</strong> La recuperación de la prima durante miedo extremo refuerza una señal de suelo</li>
+    <li><strong><a href="/es/blog/funding-rate-futures-gap">Brecha Futuros-Spot</a>:</strong> Confirma si las posiciones apalancadas están siendo liquidadas</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> La compra institucional que coincide con infravaloración añade confianza</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a>:</strong> Erholung der Prämie während extremer Angst verstärkt ein Tiefsignal</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Futures-Spot-Spread</a>:</strong> Bestätigt, ob gehebelte Positionen ausgespült werden</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Institutioneller Kauf zusammen mit Unterbewertung erhöht die Zuversicht</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst-&amp;-Gier-Index</a>:</strong> Erholung der Prämie während extremer Angst verstärkt ein Tiefsignal</li>
+    <li><strong><a href="/de/blog/funding-rate-futures-gap">Futures-Spot-Spread</a>:</strong> Bestätigt, ob gehebelte Positionen ausgespült werden</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Institutioneller Kauf zusammen mit Unterbewertung erhöht die Zuversicht</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur et d'Avidité</a>:</strong> Une prime qui se redresse en pleine peur extrême renforce un signal de creux</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Écart Futures-Spot</a>:</strong> Confirme si les positions à effet de levier sont en train d'être liquidées</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> L'achat institutionnel combiné à une sous-évaluation renforce la confiance</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Indice de Peur et d'Avidité</a>:</strong> Une prime qui se redresse en pleine peur extrême renforce un signal de creux</li>
+    <li><strong><a href="/fr/blog/funding-rate-futures-gap">Écart Futures-Spot</a>:</strong> Confirme si les positions à effet de levier sont en train d'être liquidées</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> L'achat institutionnel combiné à une sous-évaluation renforce la confiance</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a>:</strong> A recuperação do prêmio durante medo extremo reforça um sinal de fundo</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Gap Futuros-à Vista</a>:</strong> Confirma se posições alavancadas estão sendo liquidadas</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Compras institucionais combinadas com subvalorização aumentam a confiança</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância</a>:</strong> A recuperação do prêmio durante medo extremo reforça um sinal de fundo</li>
+    <li><strong><a href="/pt/blog/funding-rate-futures-gap">Gap Futuros-à Vista</a>:</strong> Confirma se posições alavancadas estão sendo liquidadas</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Compras institucionais combinadas com subvalorização aumentam a confiança</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/fear-greed-index.html">Korku ve Açgözlülük Endeksi</a>:</strong> Aşırı korku döneminde primin toparlanması bir dip sinyalini güçlendirir</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Vadeli-Spot Farkı</a>:</strong> Kaldıraçlı pozisyonların tasfiye edilip edilmediğini teyit eder</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Skoru</a>:</strong> Değer altı bölgede kurumsal alımın da örtüşmesi güveni artırır</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">Korku ve Açgözlülük Endeksi</a>:</strong> Aşırı korku döneminde primin toparlanması bir dip sinyalini güçlendirir</li>
+    <li><strong><a href="/tr/blog/funding-rate-futures-gap">Vadeli-Spot Farkı</a>:</strong> Kaldıraçlı pozisyonların tasfiye edilip edilmediğini teyit eder</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Skoru</a>:</strong> Değer altı bölgede kurumsal alımın da örtüşmesi güveni artırır</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi và Tham lam</a>:</strong> Phần bù phục hồi trong giai đoạn sợ hãi cực độ củng cố tín hiệu đáy</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Chênh lệch Futures-Giao ngay</a>:</strong> Xác nhận liệu các vị thế đòn bẩy có đang bị thanh lý hay không</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Việc mua vào của tổ chức trùng với vùng định giá thấp làm tăng độ tin cậy</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi và Tham lam</a>:</strong> Phần bù phục hồi trong giai đoạn sợ hãi cực độ củng cố tín hiệu đáy</li>
+    <li><strong><a href="/vi/blog/funding-rate-futures-gap">Chênh lệch Futures-Giao ngay</a>:</strong> Xác nhận liệu các vị thế đòn bẩy có đang bị thanh lý hay không</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Việc mua vào của tổ chức trùng với vùng định giá thấp làm tăng độ tin cậy</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

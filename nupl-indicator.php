@@ -386,49 +386,49 @@
   <h2 class="tr">En İyi Kombinasyonlar</h2>
   <h2 class="vi">Kết hợp tốt nhất với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료와 시장 항복이 겹치는지 확인</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 1 미만</a>:</strong> 단기 보유자 패닉 매도가 동반되는지 확인</li>
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 20 이하</a>:</strong> 시장 심리 지표와 온체인 항복 신호가 일치하는지 확인</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료와 시장 항복이 겹치는지 확인</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR 1 미만</a>:</strong> 단기 보유자 패닉 매도가 동반되는지 확인</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수 20 이하</a>:</strong> 시장 심리 지표와 온체인 항복 신호가 일치하는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> Check if miner capitulation ends alongside market capitulation</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR below 1</a>:</strong> Confirm short-term holder panic selling is happening too</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed below 20</a>:</strong> Check whether sentiment and on-chain capitulation signals align</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon recovery cross</a>:</strong> Check if miner capitulation ends alongside market capitulation</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR below 1</a>:</strong> Confirm short-term holder panic selling is happening too</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear &amp; Greed below 20</a>:</strong> Check whether sentiment and on-chain capitulation signals align</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 回復転換</a>:</strong> マイナーのキャピチュレーション終了と市場のキャピチュレーションが重なるか確認</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 1未満</a>:</strong> 短期保有者のパニック売りが伴っているか確認</li>
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数 20以下</a>:</strong> 心理指標とオンチェーンのキャピチュレーションシグナルが一致するか確認</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon 回復転換</a>:</strong> マイナーのキャピチュレーション終了と市場のキャピチュレーションが重なるか確認</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR 1未満</a>:</strong> 短期保有者のパニック売りが伴っているか確認</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数 20以下</a>:</strong> 心理指標とオンチェーンのキャピチュレーションシグナルが一致するか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si la capitulación de mineros termina junto con la capitulación del mercado</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR por debajo de 1</a>:</strong> Confirmar si también hay venta de pánico de tenedores a corto plazo</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Miedo y Codicia por debajo de 20</a>:</strong> Verificar si el sentimiento y las señales de capitulación on-chain se alinean</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si la capitulación de mineros termina junto con la capitulación del mercado</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR por debajo de 1</a>:</strong> Confirmar si también hay venta de pánico de tenedores a corto plazo</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Miedo y Codicia por debajo de 20</a>:</strong> Verificar si el sentimiento y las señales de capitulación on-chain se alinean</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob die Miner-Kapitulation zusammen mit der Markt-Kapitulation endet</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR unter 1</a>:</strong> Bestätigen, ob auch Panikverkäufe kurzfristiger Halter stattfinden</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier unter 20</a>:</strong> Prüfen, ob Sentiment und On-Chain-Kapitulationssignale übereinstimmen</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob die Miner-Kapitulation zusammen mit der Markt-Kapitulation endet</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR unter 1</a>:</strong> Bestätigen, ob auch Panikverkäufe kurzfristiger Halter stattfinden</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst &amp; Gier unter 20</a>:</strong> Prüfen, ob Sentiment und On-Chain-Kapitulationssignale übereinstimmen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si la capitulation des mineurs se termine en même temps que la capitulation du marché</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR sous 1</a> :</strong> Confirmer si une vente de panique des détenteurs à court terme se produit également</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Indice de peur et de cupidité sous 20</a> :</strong> Vérifier si le sentiment et les signaux de capitulation on-chain concordent</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si la capitulation des mineurs se termine en même temps que la capitulation du marché</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR sous 1</a> :</strong> Confirmer si une vente de panique des détenteurs à court terme se produit également</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Indice de peur et de cupidité sous 20</a> :</strong> Vérifier si le sentiment et les signaux de capitulation on-chain concordent</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação dos mineradores termina junto com a capitulação do mercado</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR abaixo de 1</a>:</strong> Confirmar se também está havendo venda em pânico de detentores de curto prazo</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância abaixo de 20</a>:</strong> Verificar se o sentimento e os sinais de capitulação on-chain estão alinhados</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação dos mineradores termina junto com a capitulação do mercado</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR abaixo de 1</a>:</strong> Confirmar se também está havendo venda em pânico de detentores de curto prazo</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância abaixo de 20</a>:</strong> Verificar se o sentimento e os sinais de capitulação on-chain estão alinhados</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci kapitülasyonunun piyasa kapitülasyonuyla birlikte sona erip ermediğini kontrol edin</li>
-    <li><strong><a href="/blog/sth-sopr.html">1'in altında STH-SOPR</a>:</strong> Kısa vadeli yatırımcıların panik satışının da yaşanıp yaşanmadığını doğrulayın</li>
-    <li><strong><a href="/blog/fear-greed-index.html">20'nin altında Korku ve Açgözlülük Endeksi</a>:</strong> Piyasa duyarlılığı ile zincir üstü kapitülasyon sinyallerinin uyuşup uyuşmadığını kontrol edin</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci kapitülasyonunun piyasa kapitülasyonuyla birlikte sona erip ermediğini kontrol edin</li>
+    <li><strong><a href="/tr/blog/sth-sopr">1'in altında STH-SOPR</a>:</strong> Kısa vadeli yatırımcıların panik satışının da yaşanıp yaşanmadığını doğrulayın</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">20'nin altında Korku ve Açgözlülük Endeksi</a>:</strong> Piyasa duyarlılığı ile zincir üstü kapitülasyon sinyallerinin uyuşup uyuşmadığını kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem sự đầu hàng của thợ đào có kết thúc cùng với sự đầu hàng của thị trường hay không</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR dưới 1</a>:</strong> Xác nhận liệu có đang xảy ra bán tháo hoảng loạn của người nắm giữ ngắn hạn hay không</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi và Tham lam dưới 20</a>:</strong> Kiểm tra xem tâm lý thị trường và tín hiệu đầu hàng on-chain có khớp nhau hay không</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem sự đầu hàng của thợ đào có kết thúc cùng với sự đầu hàng của thị trường hay không</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR dưới 1</a>:</strong> Xác nhận liệu có đang xảy ra bán tháo hoảng loạn của người nắm giữ ngắn hạn hay không</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi và Tham lam dưới 20</a>:</strong> Kiểm tra xem tâm lý thị trường và tín hiệu đầu hàng on-chain có khớp nhau hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

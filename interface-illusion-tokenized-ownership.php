@@ -1,15 +1,15 @@
 <?php $slug = 'interface-illusion-tokenized-ownership'; require __DIR__.'/_header.php'; ?>
 
-<p class="ko"><a href="/blog/tokenized-stocks-not-real-stocks.html">토큰화 주식이 법적으로 진짜 주식이 아니라는 사실</a>을 알고 나서도, 실제로 화면 앞에 앉으면 그 사실이 잘 실감이 안 나요. 왜 이런 일이 벌어지는지 심리적으로 들여다봤습니다.</p>
-  <p class="en">Even after learning <a href="/blog/tokenized-stocks-not-real-stocks.html">that tokenized stocks aren't legally real stocks</a>, sitting in front of the screen makes that fact hard to actually feel. Worth looking into why, psychologically.</p>
-  <p class="ja"><a href="/blog/tokenized-stocks-not-real-stocks.html">トークン化株式が法的には本物の株式ではないという事実</a>を知った後でも、実際に画面の前に座るとその事実がなかなか実感できません。なぜこうなるのか心理的に掘り下げてみました。</p>
+<p class="ko"><a href="/blog/tokenized-stocks-not-real-stocks">토큰화 주식이 법적으로 진짜 주식이 아니라는 사실</a>을 알고 나서도, 실제로 화면 앞에 앉으면 그 사실이 잘 실감이 안 나요. 왜 이런 일이 벌어지는지 심리적으로 들여다봤습니다.</p>
+  <p class="en">Even after learning <a href="/en/blog/tokenized-stocks-not-real-stocks">that tokenized stocks aren't legally real stocks</a>, sitting in front of the screen makes that fact hard to actually feel. Worth looking into why, psychologically.</p>
+  <p class="ja"><a href="/ja/blog/tokenized-stocks-not-real-stocks">トークン化株式が法的には本物の株式ではないという事実</a>を知った後でも、実際に画面の前に座るとその事実がなかなか実感できません。なぜこうなるのか心理的に掘り下げてみました。</p>
 
-  <p class="es">Incluso después de aprender <a href="/blog/tokenized-stocks-not-real-stocks.html">que las acciones tokenizadas no son legalmente acciones reales</a>, sentarse frente a la pantalla hace que ese hecho sea difícil de sentir realmente. Vale la pena investigar por qué, psicológicamente.</p>
-  <p class="de">Selbst nachdem man gelernt hat, <a href="/blog/tokenized-stocks-not-real-stocks.html">dass tokenisierte Aktien rechtlich keine echten Aktien sind</a>, macht es das Sitzen vor dem Bildschirm schwer, diese Tatsache tatsächlich zu fühlen. Es lohnt sich, psychologisch zu untersuchen, warum.</p>
-  <p class="fr">Même après avoir appris <a href="/blog/tokenized-stocks-not-real-stocks.html">que les actions tokenisées ne sont pas légalement de véritables actions</a>, le fait de s'asseoir devant l'écran rend ce fait difficile à vraiment ressentir. Cela vaut la peine d'examiner pourquoi, sur le plan psychologique.</p>
-  <p class="pt">Mesmo depois de saber <a href="/blog/tokenized-stocks-not-real-stocks.html">que as ações tokenizadas não são legalmente ações reais</a>, sentar-se em frente à tela torna esse fato difícil de sentir de verdade. Vale a pena investigar o porquê, psicologicamente.</p>
-  <p class="tr"><a href="/blog/tokenized-stocks-not-real-stocks.html">Tokenize edilmiş hisselerin yasal olarak gerçek hisse senedi olmadığını</a> öğrendikten sonra bile, ekranın karşısına oturmak bu gerçeği fiilen hissetmeyi zorlaştırıyor. Psikolojik olarak nedenini incelemeye değer.</p>
-  <p class="vi">Ngay cả sau khi biết <a href="/blog/tokenized-stocks-not-real-stocks.html">rằng cổ phiếu token hóa về mặt pháp lý không phải là cổ phiếu thật</a>, việc ngồi trước màn hình vẫn khiến sự thật đó khó cảm nhận được. Đáng để tìm hiểu lý do tại sao, xét về mặt tâm lý.</p>
+  <p class="es">Incluso después de aprender <a href="/es/blog/tokenized-stocks-not-real-stocks">que las acciones tokenizadas no son legalmente acciones reales</a>, sentarse frente a la pantalla hace que ese hecho sea difícil de sentir realmente. Vale la pena investigar por qué, psicológicamente.</p>
+  <p class="de">Selbst nachdem man gelernt hat, <a href="/de/blog/tokenized-stocks-not-real-stocks">dass tokenisierte Aktien rechtlich keine echten Aktien sind</a>, macht es das Sitzen vor dem Bildschirm schwer, diese Tatsache tatsächlich zu fühlen. Es lohnt sich, psychologisch zu untersuchen, warum.</p>
+  <p class="fr">Même après avoir appris <a href="/fr/blog/tokenized-stocks-not-real-stocks">que les actions tokenisées ne sont pas légalement de véritables actions</a>, le fait de s'asseoir devant l'écran rend ce fait difficile à vraiment ressentir. Cela vaut la peine d'examiner pourquoi, sur le plan psychologique.</p>
+  <p class="pt">Mesmo depois de saber <a href="/pt/blog/tokenized-stocks-not-real-stocks">que as ações tokenizadas não são legalmente ações reais</a>, sentar-se em frente à tela torna esse fato difícil de sentir de verdade. Vale a pena investigar o porquê, psicologicamente.</p>
+  <p class="tr"><a href="/tr/blog/tokenized-stocks-not-real-stocks">Tokenize edilmiş hisselerin yasal olarak gerçek hisse senedi olmadığını</a> öğrendikten sonra bile, ekranın karşısına oturmak bu gerçeği fiilen hissetmeyi zorlaştırıyor. Psikolojik olarak nedenini incelemeye değer.</p>
+  <p class="vi">Ngay cả sau khi biết <a href="/vi/blog/tokenized-stocks-not-real-stocks">rằng cổ phiếu token hóa về mặt pháp lý không phải là cổ phiếu thật</a>, việc ngồi trước màn hình vẫn khiến sự thật đó khó cảm nhận được. Đáng để tìm hiểu lý do tại sao, xét về mặt tâm lý.</p>
 
   <h2 class="ko">텍스트보다 이미지가 훨씬 강하게 각인된다</h2>
   <h2 class="en">Images imprint far harder than text</h2>

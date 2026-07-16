@@ -225,40 +225,40 @@
   <h2 class="tr">En iyi şununla birlikte kullanılır</h2>
   <h2 class="vi">Kết hợp tốt nhất với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 온체인 밸류에이션까지 저평가인지 교차 확인</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료 시점과 겹치는지 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score 0 이하</a>:</strong> 온체인 밸류에이션까지 저평가인지 교차 확인</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon 회복 전환</a>:</strong> 채굴자 항복 종료 시점과 겹치는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score below 0</a>:</strong> Cross-check whether on-chain valuation is also undervalued</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> Check whether it coincides with the end of miner capitulation</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score below 0</a>:</strong> Cross-check whether on-chain valuation is also undervalued</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon recovery cross</a>:</strong> Check whether it coincides with the end of miner capitulation</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア 0以下</a>:</strong> オンチェーン評価も割安圏か併せて確認</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 回復転換</a>:</strong> マイナーのキャピチュレーション終了時期と重なるか確認</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア 0以下</a>:</strong> オンチェーン評価も割安圏か併せて確認</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon 回復転換</a>:</strong> マイナーのキャピチュレーション終了時期と重なるか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score por debajo de 0</a>:</strong> Verificación cruzada de si la valoración on-chain también está infravalorada</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si coincide con el fin de la capitulación de mineros</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score por debajo de 0</a>:</strong> Verificación cruzada de si la valoración on-chain también está infravalorada</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si coincide con el fin de la capitulación de mineros</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Abgleich, ob die On-Chain-Bewertung ebenfalls unterbewertet ist</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob dies mit dem Ende der Miner-Kapitulation zusammenfällt</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score unter 0</a>:</strong> Abgleich, ob die On-Chain-Bewertung ebenfalls unterbewertet ist</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob dies mit dem Ende der Miner-Kapitulation zusammenfällt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score inférieur à 0</a> :</strong> Vérifier si la valorisation on-chain est également sous-évaluée</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier s'il coïncide avec la fin de la capitulation des mineurs</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score inférieur à 0</a> :</strong> Vérifier si la valorisation on-chain est également sous-évaluée</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier s'il coïncide avec la fin de la capitulation des mineurs</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score abaixo de 0</a>:</strong> Verificação cruzada para saber se a avaliação on-chain também está subvalorizada</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se coincide com o fim da capitulação dos mineradores</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score abaixo de 0</a>:</strong> Verificação cruzada para saber se a avaliação on-chain também está subvalorizada</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se coincide com o fim da capitulação dos mineradores</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mvrv-z-score.html">0'ın altında MVRV Z-Score</a>:</strong> Zincir üstü değerlemenin de düşük olup olmadığını çapraz kontrol edin</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madencilerin teslimiyetinin sona ermesiyle örtüşüp örtüşmediğini kontrol edin</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">0'ın altında MVRV Z-Score</a>:</strong> Zincir üstü değerlemenin de düşük olup olmadığını çapraz kontrol edin</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon toparlanma kesişimi</a>:</strong> Madencilerin teslimiyetinin sona ermesiyle örtüşüp örtüşmediğini kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score dưới 0</a>:</strong> Đối chiếu xem định giá on-chain có đang bị định giá thấp hay không</li>
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem có trùng với thời điểm kết thúc giai đoạn đầu hàng của thợ đào hay không</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score dưới 0</a>:</strong> Đối chiếu xem định giá on-chain có đang bị định giá thấp hay không</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem có trùng với thời điểm kết thúc giai đoạn đầu hàng của thợ đào hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

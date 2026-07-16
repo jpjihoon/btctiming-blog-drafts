@@ -94,9 +94,9 @@
       <div class="pt ko">✅ 신뢰도가 높은 유출</div>
       <div class="pt en">✅ High-confidence outflow</div>
       <div class="pt ja">✅ 信頼度の高い流出</div>
-      <div class="pd ko">거래소 보유량 감소 + <a href="/blog/bitcoin-etf-flows.html">ETF 순유입 지속</a> + <a href="/blog/coinbase-premium.html">코인베이스 프리미엄 양전환</a>이 동시에 나타날 때. 여러 경로가 같은 방향을 가리키면 "진짜 공급 잠김"일 가능성이 높습니다.</div>
-      <div class="pd en">Reserve decline + sustained <a href="/blog/bitcoin-etf-flows.html">ETF net inflows</a> + <a href="/blog/coinbase-premium.html">Coinbase Premium turning positive</a>, all at once. Multiple channels pointing the same direction means the supply lock is more likely real.</div>
-      <div class="pd ja">取引所保有量減少 + <a href="/blog/bitcoin-etf-flows.html">ETF純流入の継続</a> + <a href="/blog/coinbase-premium.html">Coinbaseプレミアムのプラス転換</a>が同時に現れる場合。複数の経路が同じ方向を示せば「本当の供給ロック」である可能性が高いです。</div>
+      <div class="pd ko">거래소 보유량 감소 + <a href="/blog/bitcoin-etf-flows">ETF 순유입 지속</a> + <a href="/blog/coinbase-premium">코인베이스 프리미엄 양전환</a>이 동시에 나타날 때. 여러 경로가 같은 방향을 가리키면 "진짜 공급 잠김"일 가능성이 높습니다.</div>
+      <div class="pd en">Reserve decline + sustained <a href="/blog/bitcoin-etf-flows">ETF net inflows</a> + <a href="/blog/coinbase-premium">Coinbase Premium turning positive</a>, all at once. Multiple channels pointing the same direction means the supply lock is more likely real.</div>
+      <div class="pd ja">取引所保有量減少 + <a href="/blog/bitcoin-etf-flows">ETF純流入の継続</a> + <a href="/blog/coinbase-premium">Coinbaseプレミアムのプラス転換</a>が同時に現れる場合。複数の経路が同じ方向を示せば「本当の供給ロック」である可能性が高いです。</div>
     </div>
     <div class="pc y">
       <div class="pt ko">⚠️ 해석이 갈리는 유출</div>

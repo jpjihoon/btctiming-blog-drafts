@@ -34,15 +34,15 @@
   </div>
   <div class="cc">
     <h3>2. 도취 (Euphoria)</h3>
-    <p class="ko">뉴스에도 나오고, 안 하던 지인들도 물어보기 시작하는 시기. "이번엔 다르다"는 말이 제일 많이 나오는 구간이기도 하죠. <a href="/blog/fear-greed-index.html">공포탐욕지수</a>가 극단적 탐욕에 도달하는 시점이 대략 이때예요.</p>
-    <p class="en">It's in the news, and people who never asked before start asking you about it. This is also when "this time is different" gets said the most. Roughly when the <a href="/blog/fear-greed-index.html">Fear &amp; Greed Index</a> hits extreme greed.</p>
-    <p class="ja">ニュースにも出て、今まで聞かなかった知人も尋ねてくる時期。「今回は違う」という言葉が最も多く出る区間でもあります。<a href="/blog/fear-greed-index.html">恐怖・強欲指数</a>が極端な強欲に達する時点がおおよそこの頃です。</p>
-    <p class="es">Está en las noticias, y gente que nunca preguntó antes empieza a preguntarte al respecto. También es cuando más se dice "esta vez es diferente." Aproximadamente cuando el <a href="/blog/fear-greed-index.html">Índice de Miedo y Codicia</a> alcanza la codicia extrema.</p>
-    <p class="de">Es ist in den Nachrichten, und Leute, die nie zuvor gefragt haben, fangen an, dich danach zu fragen. Dies ist auch, wenn "diesmal ist es anders" am häufigsten gesagt wird. Ungefähr wenn der <a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a> extreme Gier erreicht.</p>
-    <p class="fr">C'est dans les actualités, et des gens qui ne vous en avaient jamais parlé se mettent à vous poser des questions à ce sujet. C'est aussi le moment où l'on entend le plus dire "cette fois, c'est différent". C'est à peu près à ce moment que l'<a href="/blog/fear-greed-index.html">Indice de Peur et de Cupidité</a> atteint la cupidité extrême.</p>
-    <p class="pt">Está nas notícias, e pessoas que nunca perguntaram antes começam a te perguntar sobre isso. Também é quando mais se ouve "desta vez é diferente." É mais ou menos quando o <a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a> atinge a ganância extrema.</p>
-    <p class="tr">Haberlere çıkar ve daha önce hiç sormayan insanlar bile size sormaya başlar. Ayrıca "bu sefer farklı" sözünün en çok duyulduğu dönemdir. Bu, aşağı yukarı <a href="/blog/fear-greed-index.html">Korku ve Açgözlülük Endeksi</a>'nin aşırı açgözlülüğe ulaştığı zamandır.</p>
-    <p class="vi">Nó xuất hiện trên tin tức, và những người trước đây chưa từng hỏi giờ bắt đầu hỏi bạn về nó. Đây cũng là lúc câu "lần này sẽ khác" được nói nhiều nhất. Đại khái đây là lúc <a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam</a> chạm mức tham lam cực độ.</p>
+    <p class="ko">뉴스에도 나오고, 안 하던 지인들도 물어보기 시작하는 시기. "이번엔 다르다"는 말이 제일 많이 나오는 구간이기도 하죠. <a href="/blog/fear-greed-index">공포탐욕지수</a>가 극단적 탐욕에 도달하는 시점이 대략 이때예요.</p>
+    <p class="en">It's in the news, and people who never asked before start asking you about it. This is also when "this time is different" gets said the most. Roughly when the <a href="/en/blog/fear-greed-index">Fear &amp; Greed Index</a> hits extreme greed.</p>
+    <p class="ja">ニュースにも出て、今まで聞かなかった知人も尋ねてくる時期。「今回は違う」という言葉が最も多く出る区間でもあります。<a href="/ja/blog/fear-greed-index">恐怖・強欲指数</a>が極端な強欲に達する時点がおおよそこの頃です。</p>
+    <p class="es">Está en las noticias, y gente que nunca preguntó antes empieza a preguntarte al respecto. También es cuando más se dice "esta vez es diferente." Aproximadamente cuando el <a href="/es/blog/fear-greed-index">Índice de Miedo y Codicia</a> alcanza la codicia extrema.</p>
+    <p class="de">Es ist in den Nachrichten, und Leute, die nie zuvor gefragt haben, fangen an, dich danach zu fragen. Dies ist auch, wenn "diesmal ist es anders" am häufigsten gesagt wird. Ungefähr wenn der <a href="/de/blog/fear-greed-index">Angst-&amp;-Gier-Index</a> extreme Gier erreicht.</p>
+    <p class="fr">C'est dans les actualités, et des gens qui ne vous en avaient jamais parlé se mettent à vous poser des questions à ce sujet. C'est aussi le moment où l'on entend le plus dire "cette fois, c'est différent". C'est à peu près à ce moment que l'<a href="/fr/blog/fear-greed-index">Indice de Peur et de Cupidité</a> atteint la cupidité extrême.</p>
+    <p class="pt">Está nas notícias, e pessoas que nunca perguntaram antes começam a te perguntar sobre isso. Também é quando mais se ouve "desta vez é diferente." É mais ou menos quando o <a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância</a> atinge a ganância extrema.</p>
+    <p class="tr">Haberlere çıkar ve daha önce hiç sormayan insanlar bile size sormaya başlar. Ayrıca "bu sefer farklı" sözünün en çok duyulduğu dönemdir. Bu, aşağı yukarı <a href="/tr/blog/fear-greed-index">Korku ve Açgözlülük Endeksi</a>'nin aşırı açgözlülüğe ulaştığı zamandır.</p>
+    <p class="vi">Nó xuất hiện trên tin tức, và những người trước đây chưa từng hỏi giờ bắt đầu hỏi bạn về nó. Đây cũng là lúc câu "lần này sẽ khác" được nói nhiều nhất. Đại khái đây là lúc <a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi &amp; Tham lam</a> chạm mức tham lam cực độ.</p>
   </div>
   <div class="cc">
     <h3>3. 공포 (Fear)</h3>
@@ -58,15 +58,15 @@
   </div>
   <div class="cc">
     <h3>4. 항복 (Capitulation)</h3>
-    <p class="ko">"이제 비트코인은 끝났다"는 말이 가장 많이 나오는 시기. 역설적으로 <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>, <a href="/blog/sth-sopr.html">STH-SOPR</a> 같은 지표들이 가장 강한 매수 신호를 보내는 구간도 바로 이때예요.</p>
-    <p class="en">This is when "Bitcoin is finished" gets said most often. Ironically, this is also exactly when indicators like <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> and <a href="/blog/sth-sopr.html">STH-SOPR</a> tend to flash their strongest buy signals.</p>
-    <p class="ja">「もうビットコインは終わった」という言葉が最も多く出る時期。皮肉にも<a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>、<a href="/blog/sth-sopr.html">STH-SOPR</a>のような指標が最も強い買いシグナルを出す区間もまさにこの時です。</p>
-    <p class="es">Aquí es cuando "Bitcoin está acabado" se dice más a menudo. Irónicamente, esto es también exactamente cuando indicadores como <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> y <a href="/blog/sth-sopr.html">STH-SOPR</a> tienden a mostrar sus señales de compra más fuertes.</p>
-    <p class="de">Dies ist, wenn "Bitcoin ist am Ende" am häufigsten gesagt wird. Ironischerweise ist dies auch genau dann, wenn Indikatoren wie <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> und <a href="/blog/sth-sopr.html">STH-SOPR</a> tendenziell ihre stärksten Kaufsignale zeigen.</p>
-    <p class="fr">C'est le moment où l'on entend le plus dire "le Bitcoin est fini". Ironiquement, c'est aussi exactement le moment où des indicateurs comme <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> et <a href="/blog/sth-sopr.html">STH-SOPR</a> tendent à envoyer leurs signaux d'achat les plus forts.</p>
-    <p class="pt">É nesse momento que mais se ouve "o Bitcoin acabou." Ironicamente, é também exatamente quando indicadores como o <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> e o <a href="/blog/sth-sopr.html">STH-SOPR</a> costumam emitir seus sinais de compra mais fortes.</p>
-    <p class="tr">Bu, "Bitcoin bitti" sözünün en sık duyulduğu dönemdir. İronik bir şekilde, bu aynı zamanda <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> ve <a href="/blog/sth-sopr.html">STH-SOPR</a> gibi göstergelerin en güçlü alım sinyallerini verdiği tam da o zamandır.</p>
-    <p class="vi">Đây là lúc câu "Bitcoin đã kết thúc" được nói nhiều nhất. Trớ trêu thay, đây cũng chính xác là lúc các chỉ báo như <a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> và <a href="/blog/sth-sopr.html">STH-SOPR</a> thường phát ra tín hiệu mua mạnh nhất.</p>
+    <p class="ko">"이제 비트코인은 끝났다"는 말이 가장 많이 나오는 시기. 역설적으로 <a href="/blog/hash-ribbon-indicator">Hash Ribbon</a>, <a href="/blog/sth-sopr">STH-SOPR</a> 같은 지표들이 가장 강한 매수 신호를 보내는 구간도 바로 이때예요.</p>
+    <p class="en">This is when "Bitcoin is finished" gets said most often. Ironically, this is also exactly when indicators like <a href="/en/blog/hash-ribbon-indicator">Hash Ribbon</a> and <a href="/en/blog/sth-sopr">STH-SOPR</a> tend to flash their strongest buy signals.</p>
+    <p class="ja">「もうビットコインは終わった」という言葉が最も多く出る時期。皮肉にも<a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon</a>、<a href="/ja/blog/sth-sopr">STH-SOPR</a>のような指標が最も強い買いシグナルを出す区間もまさにこの時です。</p>
+    <p class="es">Aquí es cuando "Bitcoin está acabado" se dice más a menudo. Irónicamente, esto es también exactamente cuando indicadores como <a href="/es/blog/hash-ribbon-indicator">Hash Ribbon</a> y <a href="/es/blog/sth-sopr">STH-SOPR</a> tienden a mostrar sus señales de compra más fuertes.</p>
+    <p class="de">Dies ist, wenn "Bitcoin ist am Ende" am häufigsten gesagt wird. Ironischerweise ist dies auch genau dann, wenn Indikatoren wie <a href="/de/blog/hash-ribbon-indicator">Hash Ribbon</a> und <a href="/de/blog/sth-sopr">STH-SOPR</a> tendenziell ihre stärksten Kaufsignale zeigen.</p>
+    <p class="fr">C'est le moment où l'on entend le plus dire "le Bitcoin est fini". Ironiquement, c'est aussi exactement le moment où des indicateurs comme <a href="/fr/blog/hash-ribbon-indicator">Hash Ribbon</a> et <a href="/fr/blog/sth-sopr">STH-SOPR</a> tendent à envoyer leurs signaux d'achat les plus forts.</p>
+    <p class="pt">É nesse momento que mais se ouve "o Bitcoin acabou." Ironicamente, é também exatamente quando indicadores como o <a href="/pt/blog/hash-ribbon-indicator">Hash Ribbon</a> e o <a href="/pt/blog/sth-sopr">STH-SOPR</a> costumam emitir seus sinais de compra mais fortes.</p>
+    <p class="tr">Bu, "Bitcoin bitti" sözünün en sık duyulduğu dönemdir. İronik bir şekilde, bu aynı zamanda <a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon</a> ve <a href="/tr/blog/sth-sopr">STH-SOPR</a> gibi göstergelerin en güçlü alım sinyallerini verdiği tam da o zamandır.</p>
+    <p class="vi">Đây là lúc câu "Bitcoin đã kết thúc" được nói nhiều nhất. Trớ trêu thay, đây cũng chính xác là lúc các chỉ báo như <a href="/vi/blog/hash-ribbon-indicator">Hash Ribbon</a> và <a href="/vi/blog/sth-sopr">STH-SOPR</a> thường phát ra tín hiệu mua mạnh nhất.</p>
   </div>
 
   <h2 class="ko">왜 이 4단계가 정확히 반복될까</h2>

@@ -173,40 +173,40 @@
   <h2 class="tr">En İyi Birlikte Kullanılanlar</h2>
   <h2 class="vi">Kết hợp Tốt nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 심리 지표와 함께 확인해 신뢰도 상승</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">200주 이동평균선</a>:</strong> 장기 추세 안에서 RSI 신호를 해석</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수</a>:</strong> 심리 지표와 함께 확인해 신뢰도 상승</li>
+    <li><strong><a href="/blog/200-week-moving-average">200주 이동평균선</a>:</strong> 장기 추세 안에서 RSI 신호를 해석</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed Index</a>:</strong> Cross-check with sentiment for added confidence</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">200-Week MA</a>:</strong> Interpret RSI signals within the broader long-term trend</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear &amp; Greed Index</a>:</strong> Cross-check with sentiment for added confidence</li>
+    <li><strong><a href="/en/blog/200-week-moving-average">200-Week MA</a>:</strong> Interpret RSI signals within the broader long-term trend</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数</a>:</strong> 心理指標と併せて確認し信頼度を上げる</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">200週移動平均線</a>:</strong> 長期トレンドの中でRSIシグナルを解釈する</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数</a>:</strong> 心理指標と併せて確認し信頼度を上げる</li>
+    <li><strong><a href="/ja/blog/200-week-moving-average">200週移動平均線</a>:</strong> 長期トレンドの中でRSIシグナルを解釈する</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Miedo y Codicia</a>:</strong> Verificación cruzada con el sentimiento para mayor confianza</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">MA de 200 Semanas</a>:</strong> Interpretar las señales del RSI dentro de la tendencia de largo plazo</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Índice de Miedo y Codicia</a>:</strong> Verificación cruzada con el sentimiento para mayor confianza</li>
+    <li><strong><a href="/es/blog/200-week-moving-average">MA de 200 Semanas</a>:</strong> Interpretar las señales del RSI dentro de la tendencia de largo plazo</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a>:</strong> Abgleich mit Sentiment für zusätzliche Zuversicht</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">200-Wochen-MA</a>:</strong> RSI-Signale innerhalb des breiteren langfristigen Trends interpretieren</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst-&amp;-Gier-Index</a>:</strong> Abgleich mit Sentiment für zusätzliche Zuversicht</li>
+    <li><strong><a href="/de/blog/200-week-moving-average">200-Wochen-MA</a>:</strong> RSI-Signale innerhalb des breiteren langfristigen Trends interpretieren</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur et de Cupidité</a> :</strong> Recouper avec le sentiment de marché pour plus de confiance</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">MM 200 semaines</a> :</strong> Interpréter les signaux du RSI dans le contexte de la tendance à long terme</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Indice de Peur et de Cupidité</a> :</strong> Recouper avec le sentiment de marché pour plus de confiance</li>
+    <li><strong><a href="/fr/blog/200-week-moving-average">MM 200 semaines</a> :</strong> Interpréter les signaux du RSI dans le contexte de la tendance à long terme</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a>:</strong> Verificação cruzada com o sentimento para mais confiança</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">MM de 200 Semanas</a>:</strong> Interpretar os sinais do RSI dentro da tendência de longo prazo</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância</a>:</strong> Verificação cruzada com o sentimento para mais confiança</li>
+    <li><strong><a href="/pt/blog/200-week-moving-average">MM de 200 Semanas</a>:</strong> Interpretar os sinais do RSI dentro da tendência de longo prazo</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/fear-greed-index.html">Korku ve Açgözlülük Endeksi</a>:</strong> Ek güven için piyasa duyarlılığıyla çapraz kontrol edin</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">200 Haftalık HO</a>:</strong> RSI sinyallerini daha geniş uzun vadeli trend içinde yorumlayın</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">Korku ve Açgözlülük Endeksi</a>:</strong> Ek güven için piyasa duyarlılığıyla çapraz kontrol edin</li>
+    <li><strong><a href="/tr/blog/200-week-moving-average">200 Haftalık HO</a>:</strong> RSI sinyallerini daha geniş uzun vadeli trend içinde yorumlayın</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi và Tham lam</a>:</strong> Đối chiếu với tâm lý thị trường để tăng độ tin cậy</li>
-    <li><strong><a href="/blog/200-week-moving-average.html">MA 200 Tuần</a>:</strong> Diễn giải tín hiệu RSI trong bối cảnh xu hướng dài hạn rộng hơn</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi và Tham lam</a>:</strong> Đối chiếu với tâm lý thị trường để tăng độ tin cậy</li>
+    <li><strong><a href="/vi/blog/200-week-moving-average">MA 200 Tuần</a>:</strong> Diễn giải tín hiệu RSI trong bối cảnh xu hướng dài hạn rộng hơn</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

@@ -390,58 +390,58 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết hợp Tốt nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 가장 강력한 매수 선행 신호</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 0.95 이하</a>:</strong> 단기 보유자들의 패닉 손절</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium 양전환</a>:</strong> 미국 기관투자자 재진입 신호</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">선물-현물 갭 음수</a>:</strong> 레버리지 롱 청산 완료</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon 회복 전환</a>:</strong> 가장 강력한 매수 선행 신호</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR 0.95 이하</a>:</strong> 단기 보유자들의 패닉 손절</li>
+    <li><strong><a href="/blog/coinbase-premium">Coinbase Premium 양전환</a>:</strong> 미국 기관투자자 재진입 신호</li>
+    <li><strong><a href="/blog/funding-rate-futures-gap">선물-현물 갭 음수</a>:</strong> 레버리지 롱 청산 완료</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> The strongest leading buy signal</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR below 0.95</a>:</strong> Short-term holders panic selling</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium turns positive</a>:</strong> US institutional re-entry signal</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Futures-Spot gap negative</a>:</strong> Leveraged longs flushed out</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon recovery cross</a>:</strong> The strongest leading buy signal</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR below 0.95</a>:</strong> Short-term holders panic selling</li>
+    <li><strong><a href="/en/blog/coinbase-premium">Coinbase Premium turns positive</a>:</strong> US institutional re-entry signal</li>
+    <li><strong><a href="/en/blog/funding-rate-futures-gap">Futures-Spot gap negative</a>:</strong> Leveraged longs flushed out</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 回復転換</a>:</strong> 最も強力な先行買いシグナル</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 0.95以下</a>:</strong> 短期保有者のパニック損切り</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbaseプレミアムのプラス転換</a>:</strong> 米国機関投資家の再参入シグナル</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">先物-現物ギャップのマイナス化</a>:</strong> レバレッジロングの清算完了</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon 回復転換</a>:</strong> 最も強力な先行買いシグナル</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR 0.95以下</a>:</strong> 短期保有者のパニック損切り</li>
+    <li><strong><a href="/ja/blog/coinbase-premium">Coinbaseプレミアムのプラス転換</a>:</strong> 米国機関投資家の再参入シグナル</li>
+    <li><strong><a href="/ja/blog/funding-rate-futures-gap">先物-現物ギャップのマイナス化</a>:</strong> レバレッジロングの清算完了</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruce de Recuperación de Hash Ribbon</a>:</strong> La señal de compra líder más fuerte</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR por debajo de 0.95</a>:</strong> Venta de pánico de tenedores a corto plazo</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium se vuelve positivo</a>:</strong> Señal de reingreso institucional de EE.UU.</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Brecha Futuros-Spot negativa</a>:</strong> Largos apalancados liquidados</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Cruce de Recuperación de Hash Ribbon</a>:</strong> La señal de compra líder más fuerte</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR por debajo de 0.95</a>:</strong> Venta de pánico de tenedores a corto plazo</li>
+    <li><strong><a href="/es/blog/coinbase-premium">Coinbase Premium se vuelve positivo</a>:</strong> Señal de reingreso institucional de EE.UU.</li>
+    <li><strong><a href="/es/blog/funding-rate-futures-gap">Brecha Futuros-Spot negativa</a>:</strong> Largos apalancados liquidados</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Das stärkste vorlaufende Kaufsignal</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR unter 0,95</a>:</strong> Panikverkäufe kurzfristiger Halter</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium wird positiv</a>:</strong> Signal für US-institutionellen Wiedereinstieg</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Futures-Spot-Spread negativ</a>:</strong> Gehebelte Longs ausgespült</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash-Ribbon-Erholungscross</a>:</strong> Das stärkste vorlaufende Kaufsignal</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR unter 0,95</a>:</strong> Panikverkäufe kurzfristiger Halter</li>
+    <li><strong><a href="/de/blog/coinbase-premium">Coinbase Premium wird positiv</a>:</strong> Signal für US-institutionellen Wiedereinstieg</li>
+    <li><strong><a href="/de/blog/funding-rate-futures-gap">Futures-Spot-Spread negativ</a>:</strong> Gehebelte Longs ausgespült</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise Hash Ribbon</a> :</strong> Le signal d'achat avancé le plus puissant</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR inférieur à 0,95</a> :</strong> Vente de panique des détenteurs à court terme</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium devient positif</a> :</strong> Signal de réentrée institutionnelle américaine</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Écart Futures-Spot négatif</a> :</strong> Positions longues à effet de levier liquidées</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Croisement de reprise Hash Ribbon</a> :</strong> Le signal d'achat avancé le plus puissant</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR inférieur à 0,95</a> :</strong> Vente de panique des détenteurs à court terme</li>
+    <li><strong><a href="/fr/blog/coinbase-premium">Coinbase Premium devient positif</a> :</strong> Signal de réentrée institutionnelle américaine</li>
+    <li><strong><a href="/fr/blog/funding-rate-futures-gap">Écart Futures-Spot négatif</a> :</strong> Positions longues à effet de levier liquidées</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> O sinal de compra antecedente mais forte</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR abaixo de 0,95</a>:</strong> Venda de pânico de detentores de curto prazo</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium torna-se positivo</a>:</strong> Sinal de reentrada institucional dos EUA</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Gap Futuros-Spot negativo</a>:</strong> Posições longas alavancadas liquidadas</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Cruzamento de recuperação do Hash Ribbon</a>:</strong> O sinal de compra antecedente mais forte</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR abaixo de 0,95</a>:</strong> Venda de pânico de detentores de curto prazo</li>
+    <li><strong><a href="/pt/blog/coinbase-premium">Coinbase Premium torna-se positivo</a>:</strong> Sinal de reentrada institucional dos EUA</li>
+    <li><strong><a href="/pt/blog/funding-rate-futures-gap">Gap Futuros-Spot negativo</a>:</strong> Posições longas alavancadas liquidadas</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> En güçlü öncü alım sinyali</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR 0,95'in altında</a>:</strong> Kısa vadeli sahiplerin panik satışı</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium pozitife dönüyor</a>:</strong> ABD kurumsal yeniden giriş sinyali</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Vadeli-Spot farkı negatif</a>:</strong> Kaldıraçlı long pozisyonlar temizlendi</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon toparlanma kesişimi</a>:</strong> En güçlü öncü alım sinyali</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR 0,95'in altında</a>:</strong> Kısa vadeli sahiplerin panik satışı</li>
+    <li><strong><a href="/tr/blog/coinbase-premium">Coinbase Premium pozitife dönüyor</a>:</strong> ABD kurumsal yeniden giriş sinyali</li>
+    <li><strong><a href="/tr/blog/funding-rate-futures-gap">Vadeli-Spot farkı negatif</a>:</strong> Kaldıraçlı long pozisyonlar temizlendi</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon chuyển sang phục hồi</a>:</strong> Tín hiệu mua dẫn dắt mạnh nhất</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR dưới 0,95</a>:</strong> Người nắm giữ ngắn hạn bán tháo hoảng loạn</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium chuyển sang dương</a>:</strong> Tín hiệu các tổ chức Mỹ quay lại thị trường</li>
-    <li><strong><a href="/blog/funding-rate-futures-gap.html">Chênh lệch Futures-Spot âm</a>:</strong> Các vị thế long đòn bẩy bị thanh lý</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Hash Ribbon chuyển sang phục hồi</a>:</strong> Tín hiệu mua dẫn dắt mạnh nhất</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR dưới 0,95</a>:</strong> Người nắm giữ ngắn hạn bán tháo hoảng loạn</li>
+    <li><strong><a href="/vi/blog/coinbase-premium">Coinbase Premium chuyển sang dương</a>:</strong> Tín hiệu các tổ chức Mỹ quay lại thị trường</li>
+    <li><strong><a href="/vi/blog/funding-rate-futures-gap">Chênh lệch Futures-Spot âm</a>:</strong> Các vị thế long đòn bẩy bị thanh lý</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

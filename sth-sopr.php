@@ -334,49 +334,49 @@
   <h2 class="tr">En İyi Bu Göstergelerle Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 회복 전환</a>:</strong> 채굴자와 트레이더 항복이 동시에 끝나는지 확인</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 0 이하</a>:</strong> 가격 자체가 저평가 구간인지 함께 확인</li>
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 20 이하</a>:</strong> 시장 전반의 극단적 공포와 일치하는지 확인</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon 회복 전환</a>:</strong> 채굴자와 트레이더 항복이 동시에 끝나는지 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score 0 이하</a>:</strong> 가격 자체가 저평가 구간인지 함께 확인</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수 20 이하</a>:</strong> 시장 전반의 극단적 공포와 일치하는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon recovery cross</a>:</strong> Check if miner and trader capitulation end together</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score below 0</a>:</strong> Confirm price itself is in the undervaluation zone</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed below 20</a>:</strong> Confirm alignment with broad market-wide extreme fear</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon recovery cross</a>:</strong> Check if miner and trader capitulation end together</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score below 0</a>:</strong> Confirm price itself is in the undervaluation zone</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear &amp; Greed below 20</a>:</strong> Confirm alignment with broad market-wide extreme fear</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon 回復転換</a>:</strong> マイナーとトレーダーのキャピチュレーションが同時に終わるか確認</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア 0以下</a>:</strong> 価格自体が割安圏にあるか併せて確認</li>
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数 20以下</a>:</strong> 市場全体の極端な恐怖と一致するか確認</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon 回復転換</a>:</strong> マイナーとトレーダーのキャピチュレーションが同時に終わるか確認</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア 0以下</a>:</strong> 価格自体が割安圏にあるか併せて確認</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数 20以下</a>:</strong> 市場全体の極端な恐怖と一致するか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si la capitulación de mineros y traders termina simultáneamente</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score por debajo de 0</a>:</strong> Confirmar que el precio mismo está en zona de infravaloración</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Miedo y Codicia por debajo de 20</a>:</strong> Confirmar alineación con el miedo extremo del mercado en general</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Cruce de Recuperación de Hash Ribbon</a>:</strong> Verificar si la capitulación de mineros y traders termina simultáneamente</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score por debajo de 0</a>:</strong> Confirmar que el precio mismo está en zona de infravaloración</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Miedo y Codicia por debajo de 20</a>:</strong> Confirmar alineación con el miedo extremo del mercado en general</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob Miner- und Trader-Kapitulation gleichzeitig enden</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score unter 0</a>:</strong> Bestätigen, dass der Preis selbst in der Unterbewertungszone ist</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier unter 20</a>:</strong> Übereinstimmung mit extremer marktweiter Angst bestätigen</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash-Ribbon-Erholungscross</a>:</strong> Prüfen, ob Miner- und Trader-Kapitulation gleichzeitig enden</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score unter 0</a>:</strong> Bestätigen, dass der Preis selbst in der Unterbewertungszone ist</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst &amp; Gier unter 20</a>:</strong> Übereinstimmung mit extremer marktweiter Angst bestätigen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si la capitulation des mineurs et des traders se termine simultanément</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score sous 0</a> :</strong> Confirmer que le prix lui-même est dans la zone de sous-évaluation</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Peur et Cupidité sous 20</a> :</strong> Confirmer l'alignement avec une peur extrême généralisée du marché</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Croisement de reprise du Hash Ribbon</a> :</strong> Vérifier si la capitulation des mineurs et des traders se termine simultanément</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score sous 0</a> :</strong> Confirmer que le prix lui-même est dans la zone de sous-évaluation</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Peur et Cupidité sous 20</a> :</strong> Confirmer l'alignement avec une peur extrême généralisée du marché</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação de mineradores e traders termina ao mesmo tempo</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score abaixo de 0</a>:</strong> Confirmar se o próprio preço está na zona de subvalorização</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância abaixo de 20</a>:</strong> Confirmar alinhamento com o medo extremo generalizado do mercado</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Cruzamento de recuperação do Hash Ribbon</a>:</strong> Verificar se a capitulação de mineradores e traders termina ao mesmo tempo</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score abaixo de 0</a>:</strong> Confirmar se o próprio preço está na zona de subvalorização</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância abaixo de 20</a>:</strong> Confirmar alinhamento com o medo extremo generalizado do mercado</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci ve yatırımcı kapitülasyonunun birlikte sona erip ermediğini kontrol edin</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score'un 0'ın altında olması</a>:</strong> Fiyatın kendisinin değer kaybı bölgesinde olup olmadığını doğrulayın</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Korku &amp; Açgözlülük Endeksi'nin 20'nin altında olması</a>:</strong> Genel piyasa çapındaki aşırı korkuyla uyumu doğrulayın</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon toparlanma kesişimi</a>:</strong> Madenci ve yatırımcı kapitülasyonunun birlikte sona erip ermediğini kontrol edin</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Score'un 0'ın altında olması</a>:</strong> Fiyatın kendisinin değer kaybı bölgesinde olup olmadığını doğrulayın</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">Korku &amp; Açgözlülük Endeksi'nin 20'nin altında olması</a>:</strong> Genel piyasa çapındaki aşırı korkuyla uyumu doğrulayın</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem sự đầu hàng của thợ đào và nhà giao dịch có kết thúc cùng lúc hay không</li>
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score dưới 0</a>:</strong> Xác nhận bản thân giá đang ở vùng định giá thấp</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam dưới 20</a>:</strong> Xác nhận sự phù hợp với tâm lý sợ hãi cực độ trên toàn thị trường</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Điểm giao phục hồi Hash Ribbon</a>:</strong> Kiểm tra xem sự đầu hàng của thợ đào và nhà giao dịch có kết thúc cùng lúc hay không</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score dưới 0</a>:</strong> Xác nhận bản thân giá đang ở vùng định giá thấp</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi &amp; Tham lam dưới 20</a>:</strong> Xác nhận sự phù hợp với tâm lý sợ hãi cực độ trên toàn thị trường</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

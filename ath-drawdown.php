@@ -334,40 +334,40 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 단순 낙폭이 아니라 온체인 밸류에이션까지 저평가인지 확인</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">반감기 사이클</a>:</strong> 현재 사이클 위치와 함께 판단</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> 단순 낙폭이 아니라 온체인 밸류에이션까지 저평가인지 확인</li>
+    <li><strong><a href="/blog/bitcoin-halving-timing">반감기 사이클</a>:</strong> 현재 사이클 위치와 함께 판단</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Confirm on-chain valuation is undervalued, not just price drawdown</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Halving Cycle</a>:</strong> Read alongside current cycle position</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Confirm on-chain valuation is undervalued, not just price drawdown</li>
+    <li><strong><a href="/en/blog/bitcoin-halving-timing">Halving Cycle</a>:</strong> Read alongside current cycle position</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア</a>:</strong> 単純な下落幅だけでなく、オンチェーン評価も割安かを確認</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">半減期サイクル</a>:</strong> 現在のサイクル位置と併せて判断</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア</a>:</strong> 単純な下落幅だけでなく、オンチェーン評価も割安かを確認</li>
+    <li><strong><a href="/ja/blog/bitcoin-halving-timing">半減期サイクル</a>:</strong> 現在のサイクル位置と併せて判断</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Confirmar que la valoración on-chain está infravalorada, no solo el drawdown de precio</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Ciclo de Halving</a>:</strong> Leer junto con la posición actual del ciclo</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Confirmar que la valoración on-chain está infravalorada, no solo el drawdown de precio</li>
+    <li><strong><a href="/es/blog/bitcoin-halving-timing">Ciclo de Halving</a>:</strong> Leer junto con la posición actual del ciclo</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Bestätigen, dass die On-Chain-Bewertung unterbewertet ist, nicht nur der Preis-Drawdown</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Halving-Zyklus</a>:</strong> Zusammen mit der aktuellen Zyklusposition lesen</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Bestätigen, dass die On-Chain-Bewertung unterbewertet ist, nicht nur der Preis-Drawdown</li>
+    <li><strong><a href="/de/blog/bitcoin-halving-timing">Halving-Zyklus</a>:</strong> Zusammen mit der aktuellen Zyklusposition lesen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a> :</strong> Confirmer que la valorisation on-chain est sous-évaluée, pas seulement le drawdown du prix</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Cycle du halving</a> :</strong> À lire en parallèle avec la position actuelle dans le cycle</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score</a> :</strong> Confirmer que la valorisation on-chain est sous-évaluée, pas seulement le drawdown du prix</li>
+    <li><strong><a href="/fr/blog/bitcoin-halving-timing">Cycle du halving</a> :</strong> À lire en parallèle avec la position actuelle dans le cycle</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Confirmar que a avaliação on-chain está subvalorizada, não apenas o drawdown de preço</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Ciclo de Halving</a>:</strong> Interpretar junto com a posição atual do ciclo</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Confirmar que a avaliação on-chain está subvalorizada, não apenas o drawdown de preço</li>
+    <li><strong><a href="/pt/blog/bitcoin-halving-timing">Ciclo de Halving</a>:</strong> Interpretar junto com a posição atual do ciclo</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Sadece fiyat düşüşünü değil, on-chain değerlemenin de düşük olup olmadığını doğrulayın</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Yarılanma Döngüsü</a>:</strong> Mevcut döngü konumuyla birlikte değerlendirin</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Sadece fiyat düşüşünü değil, on-chain değerlemenin de düşük olup olmadığını doğrulayın</li>
+    <li><strong><a href="/tr/blog/bitcoin-halving-timing">Yarılanma Döngüsü</a>:</strong> Mevcut döngü konumuyla birlikte değerlendirin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Xác nhận định giá on-chain đang bị định giá thấp, không chỉ dựa vào mức sụt giảm giá</li>
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Chu Kỳ Halving</a>:</strong> Đọc cùng với vị trí hiện tại trong chu kỳ</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Xác nhận định giá on-chain đang bị định giá thấp, không chỉ dựa vào mức sụt giảm giá</li>
+    <li><strong><a href="/vi/blog/bitcoin-halving-timing">Chu Kỳ Halving</a>:</strong> Đọc cùng với vị trí hiện tại trong chu kỳ</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

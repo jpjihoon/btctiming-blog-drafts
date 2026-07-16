@@ -31,55 +31,55 @@
   <h2 class="tr">Kategori 1 — Değerleme Göstergeleri (Fiyat ucuz mu?)</h2>
   <h2 class="vi">Danh mục 1 — Các chỉ báo định giá (Giá có rẻ không?)</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 0 이하면 역사적 저평가 구간</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> 0 이하면 역사적 저평가 구간</li>
     <li><strong>NUPL(미실현 순손익):</strong> 0 근처 또는 음수면 시장 전체가 평균적으로 손실 상태 — 항복 국면</li>
     <li><strong>ATH 대비 하락률:</strong> 역대 최고가 대비 -60% 이상이면 역사적 저점 구간과 유사</li>
     <li><strong>실현가(Realized Price) 대비 위치:</strong> 현재가가 실현가에 근접하거나 밑돌면 시장 평균 매수단가 수준</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Below 0 signals historical undervaluation</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Below 0 signals historical undervaluation</li>
     <li><strong>NUPL:</strong> Near zero or negative means the market is at an average loss — capitulation territory</li>
     <li><strong>Drawdown from ATH:</strong> -60% or more from the all-time high resembles past historical bottoms</li>
     <li><strong>Price vs. Realized Price:</strong> Trading near or below realized price means it's near the market's average cost basis</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア</a>:</strong> 0以下なら歴史的割安圏</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア</a>:</strong> 0以下なら歴史的割安圏</li>
     <li><strong>NUPL(未実現純損益):</strong> 0付近またはマイナスなら市場全体が平均的に含み損状態 — キャピチュレーション局面</li>
     <li><strong>ATH比下落率:</strong> 史上最高値から-60%以上なら過去の歴史的底値圏に類似</li>
     <li><strong>実現価格(Realized Price)との位置関係:</strong> 現在価格が実現価格に近いか下回れば市場平均取得単価の水準</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Por debajo de 0 señala infravaloración histórica</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Por debajo de 0 señala infravaloración histórica</li>
     <li><strong>NUPL:</strong> Cerca de cero o negativo significa que el mercado está en pérdida promedio — territorio de capitulación</li>
     <li><strong>Drawdown desde el ATH:</strong> -60% o más desde el máximo histórico se asemeja a suelos históricos pasados</li>
     <li><strong>Precio vs. Precio Realizado:</strong> Cotizar cerca o debajo del precio realizado significa que está cerca de la base de costo promedio del mercado</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Unter 0 signalisiert historische Unterbewertung</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Unter 0 signalisiert historische Unterbewertung</li>
     <li><strong>NUPL:</strong> Nahe null oder negativ bedeutet, der Markt ist im Durchschnittsverlust — Kapitulationsgebiet</li>
     <li><strong>Drawdown vom ATH:</strong> -60% oder mehr vom Allzeithoch ähnelt vergangenen historischen Tiefs</li>
     <li><strong>Preis vs. Realized Price:</strong> Handel nahe oder unter dem Realized Price bedeutet Nähe zur durchschnittlichen Kostenbasis des Marktes</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a> :</strong> En dessous de 0, cela signale une sous-évaluation historique</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score</a> :</strong> En dessous de 0, cela signale une sous-évaluation historique</li>
     <li><strong>NUPL :</strong> Proche de zéro ou négatif signifie que le marché est en perte moyenne — territoire de capitulation</li>
     <li><strong>Baisse depuis l'ATH :</strong> -60 % ou plus depuis le plus haut historique ressemble aux creux historiques passés</li>
     <li><strong>Prix vs. Prix réalisé (Realized Price) :</strong> Se négocier près ou en dessous du prix réalisé signifie être proche du coût de base moyen du marché</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Abaixo de 0 sinaliza subvalorização histórica</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Abaixo de 0 sinaliza subvalorização histórica</li>
     <li><strong>NUPL:</strong> Perto de zero ou negativo significa que o mercado está em perda média — território de capitulação</li>
     <li><strong>Queda desde a ATH:</strong> -60% ou mais em relação à máxima histórica se assemelha a fundos históricos passados</li>
     <li><strong>Preço vs. Preço Realizado:</strong> Negociar perto ou abaixo do preço realizado significa estar perto da base de custo média do mercado</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> 0'ın altı, tarihsel olarak düşük değerlemeye işaret eder</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> 0'ın altı, tarihsel olarak düşük değerlemeye işaret eder</li>
     <li><strong>NUPL:</strong> Sıfıra yakın veya negatif olması, piyasanın ortalama zararda olduğu — kapitülasyon bölgesi anlamına gelir</li>
     <li><strong>ATH'den Düşüş:</strong> Tüm zamanların en yükseğinden -%60 veya daha fazla düşüş, geçmiş tarihsel diplere benzer</li>
     <li><strong>Fiyat vs. Realized Price:</strong> Realized price'a yakın veya altında işlem görmek, piyasanın ortalama maliyet tabanına yakın olunduğu anlamına gelir</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score</a>:</strong> Dưới 0 cho thấy tình trạng định giá thấp mang tính lịch sử</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score</a>:</strong> Dưới 0 cho thấy tình trạng định giá thấp mang tính lịch sử</li>
     <li><strong>NUPL:</strong> Gần 0 hoặc âm nghĩa là thị trường đang lỗ trung bình — vùng capitulation (bán tháo đầu hàng)</li>
     <li><strong>Mức giảm từ đỉnh mọi thời đại (ATH):</strong> Giảm -60% trở lên so với đỉnh lịch sử tương tự các đáy lịch sử trước đây</li>
     <li><strong>Giá so với Realized Price:</strong> Giao dịch gần hoặc dưới realized price nghĩa là gần mức giá vốn trung bình của thị trường</li>
@@ -95,48 +95,48 @@
   <h2 class="tr">Kategori 2 — Madenci ve Arz Göstergeleri (Zayıf eller temizlendi mi?)</h2>
   <h2 class="vi">Danh mục 2 — Các chỉ báo về thợ đào & nguồn cung (Các bàn tay yếu đã bị loại bỏ chưa?)</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 30일 해시레이트 MA가 60일 MA를 상향 돌파하면 채굴자 항복 종료</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 1 아래로 급락 후 회복하면 단기 보유자 패닉 매도 소진</li>
+    <li><strong><a href="/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> 30일 해시레이트 MA가 60일 MA를 상향 돌파하면 채굴자 항복 종료</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR</a>:</strong> 1 아래로 급락 후 회복하면 단기 보유자 패닉 매도 소진</li>
     <li><strong>LTH 공급 비중:</strong> 장기 보유자 비중이 사이클 고점 수준으로 올라가면 "강한 손"이 코인을 흡수 중</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 30-day hashrate MA crossing above the 60-day MA signals capitulation has ended</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> A sharp drop below 1 followed by recovery means short-term panic selling has exhausted</li>
+    <li><strong><a href="/en/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> 30-day hashrate MA crossing above the 60-day MA signals capitulation has ended</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR</a>:</strong> A sharp drop below 1 followed by recovery means short-term panic selling has exhausted</li>
     <li><strong>LTH Supply Share:</strong> Rising toward cycle-high levels means "strong hands" are absorbing coins</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 30日ハッシュレートMAが60日MAを上抜けするとマイナーのキャピチュレーション終了</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 1を大きく下回った後の回復は短期保有者のパニック売りの枯渇</li>
+    <li><strong><a href="/ja/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> 30日ハッシュレートMAが60日MAを上抜けするとマイナーのキャピチュレーション終了</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR</a>:</strong> 1を大きく下回った後の回復は短期保有者のパニック売りの枯渇</li>
     <li><strong>LTH供給比率:</strong> 長期保有者比率がサイクル最高水準まで上昇すれば「強い手」がコインを吸収中</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> El MA de 30 días del hashrate cruzando sobre el MA de 60 días señala fin de capitulación</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Una caída brusca bajo 1 seguida de recuperación significa que la venta de pánico a corto plazo se agotó</li>
+    <li><strong><a href="/es/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> El MA de 30 días del hashrate cruzando sobre el MA de 60 días señala fin de capitulación</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR</a>:</strong> Una caída brusca bajo 1 seguida de recuperación significa que la venta de pánico a corto plazo se agotó</li>
     <li><strong>Participación de Suministro LTH:</strong> Subiendo hacia niveles máximos del ciclo significa que las "manos fuertes" están absorbiendo monedas</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Der 30-Tage-Hashrate-MA über dem 60-Tage-MA signalisiert das Ende der Kapitulation</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Ein starker Rückgang unter 1 gefolgt von Erholung bedeutet, kurzfristige Panikverkäufe sind erschöpft</li>
+    <li><strong><a href="/de/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Der 30-Tage-Hashrate-MA über dem 60-Tage-MA signalisiert das Ende der Kapitulation</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR</a>:</strong> Ein starker Rückgang unter 1 gefolgt von Erholung bedeutet, kurzfristige Panikverkäufe sind erschöpft</li>
     <li><strong>LTH-Angebotsanteil:</strong> Steigt Richtung Zyklushöchststände, bedeutet dies, "starke Hände" absorbieren Münzen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a> :</strong> Le MA du hashrate à 30 jours croisant au-dessus du MA à 60 jours signale la fin de la capitulation</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a> :</strong> Une chute brutale sous 1 suivie d'une reprise signifie que les ventes de panique à court terme se sont épuisées</li>
+    <li><strong><a href="/fr/blog/hash-ribbon-indicator">Hash Ribbon</a> :</strong> Le MA du hashrate à 30 jours croisant au-dessus du MA à 60 jours signale la fin de la capitulation</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR</a> :</strong> Une chute brutale sous 1 suivie d'une reprise signifie que les ventes de panique à court terme se sont épuisées</li>
     <li><strong>Part d'approvisionnement LTH :</strong> Une hausse vers les niveaux les plus élevés du cycle signifie que les « mains fortes » absorbent les pièces</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> A MM de 30 dias do hashrate cruzando acima da MM de 60 dias sinaliza o fim da capitulação</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Uma queda brusca abaixo de 1 seguida de recuperação significa que a venda em pânico de curto prazo se esgotou</li>
+    <li><strong><a href="/pt/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> A MM de 30 dias do hashrate cruzando acima da MM de 60 dias sinaliza o fim da capitulação</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR</a>:</strong> Uma queda brusca abaixo de 1 seguida de recuperação significa que a venda em pânico de curto prazo se esgotou</li>
     <li><strong>Participação de Suprimento LTH:</strong> Subindo em direção aos níveis mais altos do ciclo significa que as "mãos fortes" estão absorvendo moedas</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> 30 günlük hashrate hareketli ortalamasının 60 günlük ortalamanın üzerine çıkması, kapitülasyonun sona erdiğine işaret eder</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 1'in altına keskin bir düşüşün ardından toparlanma, kısa vadeli panik satışların tükendiği anlamına gelir</li>
+    <li><strong><a href="/tr/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> 30 günlük hashrate hareketli ortalamasının 60 günlük ortalamanın üzerine çıkması, kapitülasyonun sona erdiğine işaret eder</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR</a>:</strong> 1'in altına keskin bir düşüşün ardından toparlanma, kısa vadeli panik satışların tükendiği anlamına gelir</li>
     <li><strong>LTH Arz Payı:</strong> Döngü zirvesi seviyelerine doğru yükseliş, "güçlü ellerin" coin biriktirdiği anlamına gelir</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/hash-ribbon-indicator.html">Hash Ribbon</a>:</strong> Đường MA hashrate 30 ngày cắt lên trên đường MA 60 ngày báo hiệu capitulation đã kết thúc</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Giảm mạnh xuống dưới 1 rồi phục hồi nghĩa là làn sóng bán tháo hoảng loạn ngắn hạn đã cạn kiệt</li>
+    <li><strong><a href="/vi/blog/hash-ribbon-indicator">Hash Ribbon</a>:</strong> Đường MA hashrate 30 ngày cắt lên trên đường MA 60 ngày báo hiệu capitulation đã kết thúc</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR</a>:</strong> Giảm mạnh xuống dưới 1 rồi phục hồi nghĩa là làn sóng bán tháo hoảng loạn ngắn hạn đã cạn kiệt</li>
     <li><strong>Tỷ trọng nguồn cung LTH:</strong> Tăng lên mức cao của chu kỳ nghĩa là "bàn tay mạnh" đang gom coin</li>
   </ul>
 
@@ -150,48 +150,48 @@
   <h2 class="tr">Kategori 3 — Duyarlılık ve Akış Göstergeleri (Piyasa katılımcıları ne hissediyor?)</h2>
   <h2 class="vi">Danh mục 3 — Các chỉ báo tâm lý & dòng tiền (Người tham gia thị trường đang cảm thấy gì?)</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 20 이하 극단적 공포는 역사적으로 저점과 겹침</li>
-    <li><strong><a href="/blog/coinbase-premium.html">코인베이스 프리미엄</a>:</strong> 공포 국면에서 프리미엄이 회복되면 미국 기관의 저가 매수 신호</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수</a>:</strong> 20 이하 극단적 공포는 역사적으로 저점과 겹침</li>
+    <li><strong><a href="/blog/coinbase-premium">코인베이스 프리미엄</a>:</strong> 공포 국면에서 프리미엄이 회복되면 미국 기관의 저가 매수 신호</li>
     <li><strong>선물-현물 갭(펀딩비):</strong> 마이너스로 전환되면 과도한 레버리지 롱 포지션이 청산 완료됐다는 뜻</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/fear-greed-index.html">Fear & Greed Index</a>:</strong> Below 20 (extreme fear) historically overlaps with bottoms</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Recovering during fear signals US institutions buying the dip</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear & Greed Index</a>:</strong> Below 20 (extreme fear) historically overlaps with bottoms</li>
+    <li><strong><a href="/en/blog/coinbase-premium">Coinbase Premium</a>:</strong> Recovering during fear signals US institutions buying the dip</li>
     <li><strong>Futures-Spot Gap (funding rate):</strong> Turning negative means over-leveraged longs have been flushed out</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数</a>:</strong> 20以下の極端な恐怖は歴史的に底値と重なる</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbaseプレミアム</a>:</strong> 恐怖局面でプレミアムが回復すれば米国機関の押し目買いシグナル</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数</a>:</strong> 20以下の極端な恐怖は歴史的に底値と重なる</li>
+    <li><strong><a href="/ja/blog/coinbase-premium">Coinbaseプレミアム</a>:</strong> 恐怖局面でプレミアムが回復すれば米国機関の押し目買いシグナル</li>
     <li><strong>先物-現物ギャップ(ファンディングレート):</strong> マイナスに転じれば過度なレバレッジロングポジションの清算完了を意味する</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Miedo y Codicia</a>:</strong> Por debajo de 20 (miedo extremo) coincide históricamente con suelos</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Recuperándose durante el miedo señala instituciones de EE.UU. comprando la caída</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Índice de Miedo y Codicia</a>:</strong> Por debajo de 20 (miedo extremo) coincide históricamente con suelos</li>
+    <li><strong><a href="/es/blog/coinbase-premium">Coinbase Premium</a>:</strong> Recuperándose durante el miedo señala instituciones de EE.UU. comprando la caída</li>
     <li><strong>Brecha Futuros-Spot (tasa de financiación):</strong> Volverse negativa significa que los largos sobreapalancados fueron liquidados</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a>:</strong> Unter 20 (extreme Angst) überschneidet sich historisch mit Tiefs</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Erholung während Angst signalisiert US-Institutionen, die den Dip kaufen</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst-&amp;-Gier-Index</a>:</strong> Unter 20 (extreme Angst) überschneidet sich historisch mit Tiefs</li>
+    <li><strong><a href="/de/blog/coinbase-premium">Coinbase Premium</a>:</strong> Erholung während Angst signalisiert US-Institutionen, die den Dip kaufen</li>
     <li><strong>Futures-Spot-Spread (Funding Rate):</strong> Wird negativ, bedeutet überhebelte Longs wurden ausgespült</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/fear-greed-index.html">Indice de peur et de cupidité</a> :</strong> En dessous de 20 (peur extrême), cela coïncide historiquement avec les points bas</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a> :</strong> Une reprise pendant la peur signale que les institutions américaines achètent la baisse</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Indice de peur et de cupidité</a> :</strong> En dessous de 20 (peur extrême), cela coïncide historiquement avec les points bas</li>
+    <li><strong><a href="/fr/blog/coinbase-premium">Coinbase Premium</a> :</strong> Une reprise pendant la peur signale que les institutions américaines achètent la baisse</li>
     <li><strong>Écart Futures-Spot (taux de financement) :</strong> Devenir négatif signifie que les positions longues surendettées ont été purgées</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a>:</strong> Abaixo de 20 (medo extremo) historicamente coincide com fundos</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Recuperando-se durante o medo sinaliza que instituições dos EUA estão comprando a queda</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância</a>:</strong> Abaixo de 20 (medo extremo) historicamente coincide com fundos</li>
+    <li><strong><a href="/pt/blog/coinbase-premium">Coinbase Premium</a>:</strong> Recuperando-se durante o medo sinaliza que instituições dos EUA estão comprando a queda</li>
     <li><strong>Gap Futuros-Spot (taxa de financiamento):</strong> Tornar-se negativo significa que posições compradas alavancadas em excesso foram liquidadas</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/fear-greed-index.html">Korku & Açgözlülük Endeksi</a>:</strong> 20'nin altı (aşırı korku), tarihsel olarak diplerle örtüşür</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Korku döneminde toparlanması, ABD kurumlarının düşüşü satın aldığına işaret eder</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">Korku & Açgözlülük Endeksi</a>:</strong> 20'nin altı (aşırı korku), tarihsel olarak diplerle örtüşür</li>
+    <li><strong><a href="/tr/blog/coinbase-premium">Coinbase Premium</a>:</strong> Korku döneminde toparlanması, ABD kurumlarının düşüşü satın aldığına işaret eder</li>
     <li><strong>Vadeli-Spot Farkı (fonlama oranı):</strong> Negatife dönmesi, aşırı kaldıraçlı long pozisyonların tasfiye edildiği anlamına gelir</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi & Tham lam</a>:</strong> Dưới 20 (sợ hãi cực độ) về mặt lịch sử thường trùng với các đáy</li>
-    <li><strong><a href="/blog/coinbase-premium.html">Coinbase Premium</a>:</strong> Phục hồi trong giai đoạn sợ hãi báo hiệu các tổ chức Mỹ đang mua đáy</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi & Tham lam</a>:</strong> Dưới 20 (sợ hãi cực độ) về mặt lịch sử thường trùng với các đáy</li>
+    <li><strong><a href="/vi/blog/coinbase-premium">Coinbase Premium</a>:</strong> Phục hồi trong giai đoạn sợ hãi báo hiệu các tổ chức Mỹ đang mua đáy</li>
     <li><strong>Chênh lệch Futures-Spot (funding rate):</strong> Chuyển sang âm nghĩa là các vị thế long đòn bẩy quá mức đã bị thanh lý</li>
   </ul>
 
@@ -205,39 +205,39 @@
   <h2 class="tr">Kategori 4 — Döngü Göstergeleri (Döngünün neresindeyiz?)</h2>
   <h2 class="vi">Danh mục 4 — Các chỉ báo chu kỳ (Chúng ta đang ở đâu trong chu kỳ?)</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">반감기까지 남은 기간</a>:</strong> 다음 반감기 12~24개월 전이 역사적 매수 구간</li>
+    <li><strong><a href="/blog/bitcoin-halving-timing">반감기까지 남은 기간</a>:</strong> 다음 반감기 12~24개월 전이 역사적 매수 구간</li>
     <li><strong>BTC 도미넌스:</strong> 상승 추세면 리스크 회피 심리, 하락 추세면 알트코인 투기 과열 가능성</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Time to Next Halving</a>:</strong> 12–24 months before the next halving is the historical buy window</li>
+    <li><strong><a href="/en/blog/bitcoin-halving-timing">Time to Next Halving</a>:</strong> 12–24 months before the next halving is the historical buy window</li>
     <li><strong>BTC Dominance:</strong> Rising suggests risk-off behavior; falling can signal altcoin speculation overheating</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">次の半減期までの期間</a>:</strong> 次の半減期の12〜24ヶ月前が歴史的買いゾーン</li>
+    <li><strong><a href="/ja/blog/bitcoin-halving-timing">次の半減期までの期間</a>:</strong> 次の半減期の12〜24ヶ月前が歴史的買いゾーン</li>
     <li><strong>BTCドミナンス:</strong> 上昇トレンドならリスク回避心理、下降トレンドならアルトコイン投機過熱の可能性</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Tiempo Hasta el Próximo Halving</a>:</strong> 12-24 meses antes del próximo halving es la ventana histórica de compra</li>
+    <li><strong><a href="/es/blog/bitcoin-halving-timing">Tiempo Hasta el Próximo Halving</a>:</strong> 12-24 meses antes del próximo halving es la ventana histórica de compra</li>
     <li><strong>Dominancia BTC:</strong> Subiendo sugiere comportamiento de aversión al riesgo; bajando puede señalar sobrecalentamiento especulativo en altcoins</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Zeit bis zum nächsten Halving</a>:</strong> 12-24 Monate vor dem nächsten Halving ist das historische Kauffenster</li>
+    <li><strong><a href="/de/blog/bitcoin-halving-timing">Zeit bis zum nächsten Halving</a>:</strong> 12-24 Monate vor dem nächsten Halving ist das historische Kauffenster</li>
     <li><strong>BTC-Dominanz:</strong> Steigend deutet auf Risk-Off-Verhalten hin; fallend kann spekulative Überhitzung bei Altcoins signalisieren</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Temps avant le prochain halving</a> :</strong> 12 à 24 mois avant le prochain halving constitue la fenêtre d'achat historique</li>
+    <li><strong><a href="/fr/blog/bitcoin-halving-timing">Temps avant le prochain halving</a> :</strong> 12 à 24 mois avant le prochain halving constitue la fenêtre d'achat historique</li>
     <li><strong>Dominance BTC :</strong> Une hausse suggère un comportement d'aversion au risque ; une baisse peut signaler une surchauffe spéculative des altcoins</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Tempo até o Próximo Halving</a>:</strong> 12 a 24 meses antes do próximo halving é a janela histórica de compra</li>
+    <li><strong><a href="/pt/blog/bitcoin-halving-timing">Tempo até o Próximo Halving</a>:</strong> 12 a 24 meses antes do próximo halving é a janela histórica de compra</li>
     <li><strong>Dominância do BTC:</strong> Em alta sugere comportamento de aversão ao risco; em queda pode sinalizar superaquecimento especulativo em altcoins</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Bir Sonraki Halving'e Kalan Süre</a>:</strong> Bir sonraki halving'den 12-24 ay önce, tarihsel alım penceresidir</li>
+    <li><strong><a href="/tr/blog/bitcoin-halving-timing">Bir Sonraki Halving'e Kalan Süre</a>:</strong> Bir sonraki halving'den 12-24 ay önce, tarihsel alım penceresidir</li>
     <li><strong>BTC Dominansı:</strong> Yükselmesi risk-off davranışı düşündürür; düşmesi altcoin spekülasyonunun aşırı ısındığına işaret edebilir</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/bitcoin-halving-timing.html">Thời gian đến lần Halving tiếp theo</a>:</strong> 12–24 tháng trước lần halving tiếp theo là khung thời gian mua mang tính lịch sử</li>
+    <li><strong><a href="/vi/blog/bitcoin-halving-timing">Thời gian đến lần Halving tiếp theo</a>:</strong> 12–24 tháng trước lần halving tiếp theo là khung thời gian mua mang tính lịch sử</li>
     <li><strong>Sự thống trị của BTC (BTC Dominance):</strong> Tăng cho thấy tâm lý né tránh rủi ro; giảm có thể báo hiệu đầu cơ altcoin quá nóng</li>
   </ul>
 

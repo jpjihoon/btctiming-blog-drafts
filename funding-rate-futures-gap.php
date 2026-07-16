@@ -216,40 +216,40 @@
   <h2 class="tr">En İyi Şu Göstergelerle Birlikte Kullanılır</h2>
   <h2 class="vi">Kết hợp tốt nhất với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수</a>:</strong> 극단적 탐욕과 펀딩비 과열이 겹치는지 확인</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 레버리지 청산과 현물 매도가 동시에 일어나는지 확인</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수</a>:</strong> 극단적 탐욕과 펀딩비 과열이 겹치는지 확인</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR</a>:</strong> 레버리지 청산과 현물 매도가 동시에 일어나는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed Index</a>:</strong> Check whether extreme greed overlaps with funding overheating</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Check whether leverage flushes coincide with spot selling</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear &amp; Greed Index</a>:</strong> Check whether extreme greed overlaps with funding overheating</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR</a>:</strong> Check whether leverage flushes coincide with spot selling</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数</a>:</strong> 極端な強欲とファンディングレート過熱が重なるか確認</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> レバレッジ清算と現物売りが同時に起きているか確認</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数</a>:</strong> 極端な強欲とファンディングレート過熱が重なるか確認</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR</a>:</strong> レバレッジ清算と現物売りが同時に起きているか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Miedo y Codicia</a>:</strong> Verificar si la codicia extrema coincide con sobrecalentamiento de financiación</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Verificar si las liquidaciones de apalancamiento coinciden con ventas spot</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Índice de Miedo y Codicia</a>:</strong> Verificar si la codicia extrema coincide con sobrecalentamiento de financiación</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR</a>:</strong> Verificar si las liquidaciones de apalancamiento coinciden con ventas spot</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/fear-greed-index.html">Angst-&amp;-Gier-Index</a>:</strong> Prüfen, ob extreme Gier mit Funding-Überhitzung zusammenfällt</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Prüfen, ob Hebel-Ausspülungen mit Spot-Verkäufen zusammenfallen</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst-&amp;-Gier-Index</a>:</strong> Prüfen, ob extreme Gier mit Funding-Überhitzung zusammenfällt</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR</a>:</strong> Prüfen, ob Hebel-Ausspülungen mit Spot-Verkäufen zusammenfallen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur et d'Avidité</a>:</strong> Vérifier si une avidité extrême coïncide avec une surchauffe du taux de financement</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Vérifier si les purges de levier coïncident avec des ventes au comptant</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Indice de Peur et d'Avidité</a>:</strong> Vérifier si une avidité extrême coïncide avec une surchauffe du taux de financement</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR</a>:</strong> Vérifier si les purges de levier coïncident avec des ventes au comptant</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/fear-greed-index.html">Índice de Medo e Ganância</a>:</strong> Verificar se a ganância extrema coincide com o superaquecimento do financiamento</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Verificar se as liquidações de alavancagem coincidem com vendas no mercado à vista</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Índice de Medo e Ganância</a>:</strong> Verificar se a ganância extrema coincide com o superaquecimento do financiamento</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR</a>:</strong> Verificar se as liquidações de alavancagem coincidem com vendas no mercado à vista</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/fear-greed-index.html">Korku ve Açgözlülük Endeksi</a>:</strong> Aşırı açgözlülüğün fonlama aşırı ısınmasıyla çakışıp çakışmadığını kontrol edin</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Kaldıraç temizliklerinin spot satışlarla çakışıp çakışmadığını kontrol edin</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">Korku ve Açgözlülük Endeksi</a>:</strong> Aşırı açgözlülüğün fonlama aşırı ısınmasıyla çakışıp çakışmadığını kontrol edin</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR</a>:</strong> Kaldıraç temizliklerinin spot satışlarla çakışıp çakışmadığını kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam</a>:</strong> Kiểm tra xem tham lam cực độ có trùng với hiện tượng funding quá nhiệt hay không</li>
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Kiểm tra xem việc xả đòn bẩy có trùng với hoạt động bán spot hay không</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi &amp; Tham lam</a>:</strong> Kiểm tra xem tham lam cực độ có trùng với hiện tượng funding quá nhiệt hay không</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR</a>:</strong> Kiểm tra xem việc xả đòn bẩy có trùng với hoạt động bán spot hay không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

@@ -169,40 +169,40 @@
   <h2 class="tr">En İyi Şununla Birlikte Kullanılır</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 단기 보유자 행동과 대비해 시장 구조를 파악</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> 시장 전체 심리 단계와 LTH 축적/분산 국면을 함께 확인</li>
+    <li><strong><a href="/blog/sth-sopr">STH-SOPR</a>:</strong> 단기 보유자 행동과 대비해 시장 구조를 파악</li>
+    <li><strong><a href="/blog/nupl-indicator">NUPL</a>:</strong> 시장 전체 심리 단계와 LTH 축적/분산 국면을 함께 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Compare against short-term holder behavior to read market structure</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Cross-check overall sentiment stage against LTH accumulation/distribution phases</li>
+    <li><strong><a href="/en/blog/sth-sopr">STH-SOPR</a>:</strong> Compare against short-term holder behavior to read market structure</li>
+    <li><strong><a href="/en/blog/nupl-indicator">NUPL</a>:</strong> Cross-check overall sentiment stage against LTH accumulation/distribution phases</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> 短期保有者の行動と対比して市場構造を把握</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> 市場全体の心理段階とLTH蓄積/分配局面を併せて確認</li>
+    <li><strong><a href="/ja/blog/sth-sopr">STH-SOPR</a>:</strong> 短期保有者の行動と対比して市場構造を把握</li>
+    <li><strong><a href="/ja/blog/nupl-indicator">NUPL</a>:</strong> 市場全体の心理段階とLTH蓄積/分配局面を併せて確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Comparar con el comportamiento de tenedores a corto plazo para leer la estructura del mercado</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Verificar la etapa de sentimiento general junto con las fases de acumulación/distribución LTH</li>
+    <li><strong><a href="/es/blog/sth-sopr">STH-SOPR</a>:</strong> Comparar con el comportamiento de tenedores a corto plazo para leer la estructura del mercado</li>
+    <li><strong><a href="/es/blog/nupl-indicator">NUPL</a>:</strong> Verificar la etapa de sentimiento general junto con las fases de acumulación/distribución LTH</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Vergleich mit dem Verhalten kurzfristiger Halter zur Einschätzung der Marktstruktur</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Abgleich der allgemeinen Sentiment-Phase mit LTH-Akkumulations-/Distributionsphasen</li>
+    <li><strong><a href="/de/blog/sth-sopr">STH-SOPR</a>:</strong> Vergleich mit dem Verhalten kurzfristiger Halter zur Einschätzung der Marktstruktur</li>
+    <li><strong><a href="/de/blog/nupl-indicator">NUPL</a>:</strong> Abgleich der allgemeinen Sentiment-Phase mit LTH-Akkumulations-/Distributionsphasen</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a> :</strong> Comparer avec le comportement des détenteurs à court terme pour lire la structure du marché</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a> :</strong> Vérifier le stade de sentiment général au regard des phases d'accumulation/distribution LTH</li>
+    <li><strong><a href="/fr/blog/sth-sopr">STH-SOPR</a> :</strong> Comparer avec le comportement des détenteurs à court terme pour lire la structure du marché</li>
+    <li><strong><a href="/fr/blog/nupl-indicator">NUPL</a> :</strong> Vérifier le stade de sentiment général au regard des phases d'accumulation/distribution LTH</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Comparar com o comportamento dos detentores de curto prazo para interpretar a estrutura do mercado</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Cruzar o estágio geral de sentimento com as fases de acumulação/distribuição do LTH</li>
+    <li><strong><a href="/pt/blog/sth-sopr">STH-SOPR</a>:</strong> Comparar com o comportamento dos detentores de curto prazo para interpretar a estrutura do mercado</li>
+    <li><strong><a href="/pt/blog/nupl-indicator">NUPL</a>:</strong> Cruzar o estágio geral de sentimento com as fases de acumulação/distribuição do LTH</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> Piyasa yapısını okumak için kısa vadeli yatırımcı davranışıyla karşılaştırın</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Genel piyasa duyarlılığı aşamasını LTH birikim/dağıtım evreleriyle çapraz kontrol edin</li>
+    <li><strong><a href="/tr/blog/sth-sopr">STH-SOPR</a>:</strong> Piyasa yapısını okumak için kısa vadeli yatırımcı davranışıyla karşılaştırın</li>
+    <li><strong><a href="/tr/blog/nupl-indicator">NUPL</a>:</strong> Genel piyasa duyarlılığı aşamasını LTH birikim/dağıtım evreleriyle çapraz kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/sth-sopr.html">STH-SOPR</a>:</strong> So sánh với hành vi của người nắm giữ ngắn hạn để nắm bắt cấu trúc thị trường</li>
-    <li><strong><a href="/blog/nupl-indicator.html">NUPL</a>:</strong> Đối chiếu giai đoạn tâm lý chung của thị trường với các pha tích lũy/phân phối của LTH</li>
+    <li><strong><a href="/vi/blog/sth-sopr">STH-SOPR</a>:</strong> So sánh với hành vi của người nắm giữ ngắn hạn để nắm bắt cấu trúc thị trường</li>
+    <li><strong><a href="/vi/blog/nupl-indicator">NUPL</a>:</strong> Đối chiếu giai đoạn tâm lý chung của thị trường với các pha tích lũy/phân phối của LTH</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>

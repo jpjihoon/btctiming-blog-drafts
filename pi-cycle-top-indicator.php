@@ -178,40 +178,40 @@
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
   <ul class="ko">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score 3.5 이상</a>:</strong> 밸류에이션 과열과 겹치는지 확인</li>
-    <li><strong><a href="/blog/fear-greed-index.html">공포탐욕지수 80 이상</a>:</strong> 극단적 탐욕과 함께 나타나는지 확인</li>
+    <li><strong><a href="/blog/mvrv-z-score">MVRV Z-Score 3.5 이상</a>:</strong> 밸류에이션 과열과 겹치는지 확인</li>
+    <li><strong><a href="/blog/fear-greed-index">공포탐욕지수 80 이상</a>:</strong> 극단적 탐욕과 함께 나타나는지 확인</li>
   </ul>
   <ul class="en">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score above 3.5</a>:</strong> Check whether valuation overheating aligns too</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Fear &amp; Greed above 80</a>:</strong> Check whether extreme greed appears alongside it</li>
+    <li><strong><a href="/en/blog/mvrv-z-score">MVRV Z-Score above 3.5</a>:</strong> Check whether valuation overheating aligns too</li>
+    <li><strong><a href="/en/blog/fear-greed-index">Fear &amp; Greed above 80</a>:</strong> Check whether extreme greed appears alongside it</li>
   </ul>
   <ul class="ja">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Zスコア 3.5以上</a>:</strong> バリュエーションの過熱と重なるか確認</li>
-    <li><strong><a href="/blog/fear-greed-index.html">恐怖・強欲指数 80以上</a>:</strong> 極端な強欲と同時に現れるか確認</li>
+    <li><strong><a href="/ja/blog/mvrv-z-score">MVRV Zスコア 3.5以上</a>:</strong> バリュエーションの過熱と重なるか確認</li>
+    <li><strong><a href="/ja/blog/fear-greed-index">恐怖・強欲指数 80以上</a>:</strong> 極端な強欲と同時に現れるか確認</li>
   </ul>
   <ul class="es">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score por encima de 3.5</a>:</strong> Verificar si coincide con sobrecalentamiento de valoración</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Miedo y Codicia por encima de 80</a>:</strong> Verificar si aparece junto con codicia extrema</li>
+    <li><strong><a href="/es/blog/mvrv-z-score">MVRV Z-Score por encima de 3.5</a>:</strong> Verificar si coincide con sobrecalentamiento de valoración</li>
+    <li><strong><a href="/es/blog/fear-greed-index">Miedo y Codicia por encima de 80</a>:</strong> Verificar si aparece junto con codicia extrema</li>
   </ul>
   <ul class="de">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score über 3,5</a>:</strong> Prüfen, ob Bewertungsüberhitzung ebenfalls vorliegt</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Angst &amp; Gier über 80</a>:</strong> Prüfen, ob extreme Gier gleichzeitig auftritt</li>
+    <li><strong><a href="/de/blog/mvrv-z-score">MVRV Z-Score über 3,5</a>:</strong> Prüfen, ob Bewertungsüberhitzung ebenfalls vorliegt</li>
+    <li><strong><a href="/de/blog/fear-greed-index">Angst &amp; Gier über 80</a>:</strong> Prüfen, ob extreme Gier gleichzeitig auftritt</li>
   </ul>
   <ul class="fr">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score au-dessus de 3,5</a> :</strong> Vérifier si la surchauffe de valorisation coïncide également</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Indice de Peur et d'Avidité au-dessus de 80</a> :</strong> Vérifier si une avidité extrême apparaît en même temps</li>
+    <li><strong><a href="/fr/blog/mvrv-z-score">MVRV Z-Score au-dessus de 3,5</a> :</strong> Vérifier si la surchauffe de valorisation coïncide également</li>
+    <li><strong><a href="/fr/blog/fear-greed-index">Indice de Peur et d'Avidité au-dessus de 80</a> :</strong> Vérifier si une avidité extrême apparaît en même temps</li>
   </ul>
   <ul class="pt">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score acima de 3,5</a>:</strong> Verificar se o superaquecimento de valuation também coincide</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Medo e Ganância acima de 80</a>:</strong> Verificar se ganância extrema aparece junto</li>
+    <li><strong><a href="/pt/blog/mvrv-z-score">MVRV Z-Score acima de 3,5</a>:</strong> Verificar se o superaquecimento de valuation também coincide</li>
+    <li><strong><a href="/pt/blog/fear-greed-index">Medo e Ganância acima de 80</a>:</strong> Verificar se ganância extrema aparece junto</li>
   </ul>
   <ul class="tr">
-    <li><strong><a href="/blog/mvrv-z-score.html">3,5 üzerinde MVRV Z-Score</a>:</strong> Değerleme aşırı ısınmasının da örtüşüp örtüşmediğini kontrol edin</li>
-    <li><strong><a href="/blog/fear-greed-index.html">80 üzerinde Korku ve Açgözlülük</a>:</strong> Aşırı açgözlülüğün birlikte ortaya çıkıp çıkmadığını kontrol edin</li>
+    <li><strong><a href="/tr/blog/mvrv-z-score">3,5 üzerinde MVRV Z-Score</a>:</strong> Değerleme aşırı ısınmasının da örtüşüp örtüşmediğini kontrol edin</li>
+    <li><strong><a href="/tr/blog/fear-greed-index">80 üzerinde Korku ve Açgözlülük</a>:</strong> Aşırı açgözlülüğün birlikte ortaya çıkıp çıkmadığını kontrol edin</li>
   </ul>
   <ul class="vi">
-    <li><strong><a href="/blog/mvrv-z-score.html">MVRV Z-Score trên 3,5</a>:</strong> Kiểm tra xem tình trạng định giá quá nóng có xuất hiện đồng thời không</li>
-    <li><strong><a href="/blog/fear-greed-index.html">Chỉ số Sợ hãi &amp; Tham lam trên 80</a>:</strong> Kiểm tra xem lòng tham cực độ có xuất hiện cùng lúc không</li>
+    <li><strong><a href="/vi/blog/mvrv-z-score">MVRV Z-Score trên 3,5</a>:</strong> Kiểm tra xem tình trạng định giá quá nóng có xuất hiện đồng thời không</li>
+    <li><strong><a href="/vi/blog/fear-greed-index">Chỉ số Sợ hãi &amp; Tham lam trên 80</a>:</strong> Kiểm tra xem lòng tham cực độ có xuất hiện cùng lúc không</li>
   </ul>
 
 <?php require __DIR__.'/_footer.php'; ?>
