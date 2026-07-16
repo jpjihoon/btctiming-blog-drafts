@@ -1,0 +1,319 @@
+<?php $slug = 'revolut-vara-in-principle-crypto-license-dubai'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">영국 핀테크 레볼루트(Revolut)가 7월15일 두바이 가상자산규제청(VARA)으로부터 가상자산서비스제공자(VASP) 라이선스 '원칙적 승인(in-principle approval)'을 받았다고 걸프비즈니스(Gulf Business), 크립토뉴스(crypto.news) 등이 보도했다. 이번 승인으로 레볼루트는 브로커딜러, 자산관리·투자, 거래소 서비스를 UAE에서 제공할 수 있는 길이 열렸으며, 자사 리테일 앱과 독립형 거래소 레볼루트X(RevolutX)를 통해 UAE 고객이 디지털자산을 사고팔고 보관할 수 있도록 할 계획이다.</p>
+<p class="en">UK fintech Revolut received in-principle approval for a Virtual Asset Service Provider (VASP) license from Dubai's Virtual Assets Regulatory Authority (VARA) on July 15, Gulf Business, crypto.news and other outlets reported. The approval opens a path for Revolut to offer broker-dealer, management and investment, and exchange services in the UAE, with plans to let UAE customers buy, sell and hold digital assets through its retail app and standalone exchange, RevolutX.</p>
+<p class="ja">英国のフィンテック企業レボリュート(Revolut)が7月15日、ドバイの仮想資産規制庁(VARA)から仮想資産サービス提供者(VASP)ライセンスの「原則承認(in-principle approval)」を取得したと、ガルフ・ビジネス(Gulf Business)やクリプトニュース(crypto.news)などが報じた。この承認により、レボリュートはブローカーディーラー、資産管理・投資、取引所サービスをUAEで提供できる道が開かれ、リテールアプリと独立取引所レボリュートX(RevolutX)を通じてUAEの顧客がデジタル資産を売買・保有できるようにする計画だ。</p>
+<p class="es">La fintech británica Revolut recibió una aprobación de principio para una licencia de Proveedor de Servicios de Activos Virtuales (VASP) de la Autoridad Reguladora de Activos Virtuales de Dubái (VARA) el 15 de julio, informaron Gulf Business, crypto.news y otros medios. La aprobación abre el camino para que Revolut ofrezca servicios de corretaje, gestión e inversión, y de exchange en los EAU, con planes de permitir que los clientes emiratíes compren, vendan y mantengan activos digitales a través de su app minorista y su exchange independiente, RevolutX.</p>
+<p class="de">Das britische Fintech-Unternehmen Revolut hat am 15. Juli eine grundsätzliche Genehmigung (in-principle approval) für eine Virtual-Asset-Service-Provider-(VASP)-Lizenz von Dubais Aufsichtsbehörde für virtuelle Vermögenswerte (VARA) erhalten, berichteten Gulf Business, crypto.news und andere Medien. Die Genehmigung ebnet Revolut den Weg, in den VAE Broker-Dealer-, Verwaltungs- und Investment- sowie Börsendienstleistungen anzubieten, mit dem Plan, VAE-Kunden über die Retail-App und die eigenständige Börse RevolutX den Kauf, Verkauf und das Halten digitaler Vermögenswerte zu ermöglichen.</p>
+<p class="fr">La fintech britannique Revolut a reçu une approbation de principe pour une licence de Prestataire de Services sur Actifs Virtuels (VASP) de l'Autorité de Régulation des Actifs Virtuels de Dubaï (VARA) le 15 juillet, ont rapporté Gulf Business, crypto.news et d'autres médias. Cette approbation ouvre la voie à Revolut pour proposer des services de courtage, de gestion et d'investissement, ainsi que de bourse aux Émirats arabes unis, avec pour projet de permettre aux clients émiratis d'acheter, vendre et détenir des actifs numériques via son application grand public et sa bourse autonome, RevolutX.</p>
+<p class="pt">A fintech britânica Revolut recebeu aprovação em princípio para uma licença de Provedor de Serviços de Ativos Virtuais (VASP) da Autoridade Reguladora de Ativos Virtuais de Dubai (VARA) em 15 de julho, informaram Gulf Business, crypto.news e outros veículos. A aprovação abre caminho para a Revolut oferecer serviços de corretagem, gestão e investimento, e de exchange nos EAU, com planos de permitir que clientes emiradenses comprem, vendam e mantenham ativos digitais por meio de seu aplicativo de varejo e da exchange independente RevolutX.</p>
+<p class="tr">İngiliz fintek şirketi Revolut, 15 Temmuz'da Dubai Sanal Varlıklar Düzenleyici Kurumu'ndan (VARA) bir Sanal Varlık Hizmet Sağlayıcısı (VASP) lisansı için ilke onayı aldı; bunu Gulf Business, crypto.news ve diğer yayınlar bildirdi. Onay, Revolut'un BAE'de aracı kurumluk, varlık yönetimi ve yatırım ile borsa hizmetleri sunmasının önünü açıyor; şirket, perakende uygulaması ve bağımsız borsası RevolutX aracılığıyla BAE'deki müşterilerin dijital varlık alıp satmasını ve elinde tutmasını sağlamayı planlıyor.</p>
+<p class="vi">Công ty fintech Anh Revolut đã nhận được phê duyệt về nguyên tắc cho giấy phép Nhà Cung Cấp Dịch Vụ Tài Sản Ảo (VASP) từ Cơ quan Quản lý Tài sản Ảo Dubai (VARA) vào ngày 15/7, theo Gulf Business, crypto.news và các hãng tin khác. Sự phê duyệt này mở đường cho Revolut cung cấp dịch vụ môi giới, quản lý và đầu tư, cùng dịch vụ sàn giao dịch tại UAE, với kế hoạch cho phép khách hàng UAE mua, bán và nắm giữ tài sản số thông qua ứng dụng bán lẻ và sàn giao dịch độc lập RevolutX.</p>
+
+<p class="ko">다만 '원칙적 승인'은 조건부 단계로, 최종 규제 승인을 받기 전까지는 실제 서비스 개시가 불가능하다. 이번 승인은 레볼루트가 이미 확보한 라이선스 위에 쌓이는 구조라는 점도 눈에 띈다 — 레볼루트는 앞서 2025년 9월 UAE 중앙은행(CBUAE)으로부터 결제업 원칙적 승인을 받은 데 이어, 올해 6월17일에는 저장가치수단(SVF)·소매결제서비스(RPS) 라이선스를 최종 발급받아 UAE 내 결제 사업을 이미 승인받은 상태였다. 즉 이번 VARA 승인은 결제 라이선스 위에 크립토 거래 라이선스를 얹는 이중 구조의 최신 단계다.</p>
+<p class="en">Still, in-principle approval is a conditional step — actual services cannot launch until final regulatory sign-off is granted. Notably, this approval stacks on top of licenses Revolut already holds: the company received in-principle approval for payment services from the UAE Central Bank (CBUAE) in September 2025, then was granted final Stored Value Facilities (SVF) and Retail Payment Services (RPS) licenses on June 17 this year, already clearing it to run a payments business in the UAE. This VARA approval is thus the latest layer in a stacked structure — a crypto-trading license sitting on top of an already-approved payments license.</p>
+<p class="ja">ただし「原則承認」は条件付き段階であり、最終的な規制承認を受けるまで実際のサービス開始はできない。今回の承認が、レボリュートがすでに保有するライセンスの上に積み上がる構造である点も注目される——レボリュートは2025年9月にUAE中央銀行(CBUAE)から決済業務の原則承認を受けた後、今年6月17日には保管価値施設(SVF)・小売決済サービス(RPS)ライセンスを正式取得し、UAEでの決済事業をすでに承認されていた。つまり今回のVARA承認は、決済ライセンスの上に暗号資産取引ライセンスを重ねる二重構造の最新段階だ。</p>
+<p class="es">Aun así, la aprobación de principio es una etapa condicional: los servicios reales no pueden lanzarse hasta obtener la aprobación regulatoria final. Cabe destacar que esta aprobación se suma a licencias que Revolut ya posee: la empresa recibió aprobación de principio para servicios de pago del Banco Central de los EAU (CBUAE) en septiembre de 2025, y luego obtuvo las licencias finales de Instalaciones de Valor Almacenado (SVF) y Servicios de Pago Minorista (RPS) el 17 de junio de este año, quedando ya autorizada para operar un negocio de pagos en los EAU. Esta aprobación de VARA es, por tanto, la última capa de una estructura apilada: una licencia de trading cripto sobre una licencia de pagos ya aprobada.</p>
+<p class="de">Dennoch ist die grundsätzliche Genehmigung ein bedingter Schritt — tatsächliche Dienstleistungen können erst nach der endgültigen regulatorischen Freigabe starten. Bemerkenswert ist, dass diese Genehmigung auf bereits bestehenden Lizenzen von Revolut aufbaut: Das Unternehmen erhielt im September 2025 eine grundsätzliche Genehmigung für Zahlungsdienste von der Zentralbank der VAE (CBUAE) und erhielt dann am 17. Juni dieses Jahres die endgültigen Lizenzen für Stored Value Facilities (SVF) und Retail Payment Services (RPS), womit es bereits für den Betrieb eines Zahlungsgeschäfts in den VAE zugelassen war. Diese VARA-Genehmigung ist somit die jüngste Schicht einer gestapelten Struktur — eine Krypto-Handelslizenz oberhalb einer bereits genehmigten Zahlungslizenz.</p>
+<p class="fr">Néanmoins, l'approbation de principe est une étape conditionnelle : les services réels ne peuvent démarrer qu'après l'approbation réglementaire finale. Il convient de noter que cette approbation s'ajoute à des licences que Revolut détient déjà : l'entreprise a reçu une approbation de principe pour des services de paiement de la banque centrale des EAU (CBUAE) en septembre 2025, puis a obtenu les licences finales de Stored Value Facilities (SVF) et de Retail Payment Services (RPS) le 17 juin de cette année, étant déjà autorisée à exploiter une activité de paiement aux Émirats arabes unis. Cette approbation de la VARA constitue donc la dernière couche d'une structure empilée — une licence de trading crypto au-dessus d'une licence de paiement déjà approuvée.</p>
+<p class="pt">Ainda assim, a aprovação em princípio é uma etapa condicional — os serviços reais não podem ser lançados até que a aprovação regulatória final seja concedida. Vale notar que essa aprovação se soma a licenças que a Revolut já possui: a empresa recebeu aprovação em princípio para serviços de pagamento do Banco Central dos EAU (CBUAE) em setembro de 2025, e depois obteve as licenças finais de Instalações de Valor Armazenado (SVF) e Serviços de Pagamento de Varejo (RPS) em 17 de junho deste ano, já estando autorizada a operar um negócio de pagamentos nos EAU. Essa aprovação da VARA é, portanto, a camada mais recente de uma estrutura empilhada — uma licença de negociação cripto sobre uma licença de pagamentos já aprovada.</p>
+<p class="tr">Yine de ilke onayı koşullu bir aşamadır — nihai düzenleyici onay verilene kadar gerçek hizmetler başlatılamaz. Bu onayın, Revolut'un zaten sahip olduğu lisansların üzerine eklenmesi de dikkat çekici: Şirket, Eylül 2025'te BAE Merkez Bankası'ndan (CBUAE) ödeme hizmetleri için ilke onayı almış, ardından bu yılın 17 Haziran'ında Saklı Değer Tesisleri (SVF) ve Perakende Ödeme Hizmetleri (RPS) için nihai lisansları almıştı; böylece BAE'de bir ödeme işi yürütmeye zaten yetkilendirilmişti. Bu VARA onayı, dolayısıyla, halihazırda onaylanmış bir ödeme lisansının üzerine eklenen katmanlı bir yapının en son katmanıdır — ödeme lisansının üzerinde bir kripto ticaret lisansı.</p>
+<p class="vi">Tuy nhiên, phê duyệt về nguyên tắc chỉ là một bước có điều kiện — các dịch vụ thực tế không thể ra mắt cho đến khi có sự chấp thuận cuối cùng từ cơ quan quản lý. Đáng chú ý, sự phê duyệt này được chồng lên các giấy phép mà Revolut đã có: công ty đã nhận phê duyệt về nguyên tắc cho dịch vụ thanh toán từ Ngân hàng Trung ương UAE (CBUAE) vào tháng 9/2025, sau đó được cấp giấy phép cuối cùng cho Cơ sở Lưu trữ Giá trị (SVF) và Dịch vụ Thanh toán Bán lẻ (RPS) vào ngày 17/6 năm nay, đã được phép vận hành hoạt động kinh doanh thanh toán tại UAE. Do đó, phê duyệt VARA này là lớp mới nhất trong một cấu trúc xếp chồng — giấy phép giao dịch crypto nằm trên giấy phép thanh toán đã được phê duyệt.</p>
+
+<h2 class="ko">두바이의 라이선스 경쟁 — 이미 100개를 넘어선 UAE 가상자산 사업자</h2>
+<h2 class="en">Dubai's Licensing Race — More Than 100 Virtual-Asset Entities Already Registered</h2>
+<h2 class="ja">ドバイのライセンス競争 — すでに100社を超えたUAEの仮想資産事業者</h2>
+<h2 class="es">La Carrera de Licencias de Dubái — Más de 100 Entidades de Activos Virtuales Ya Registradas</h2>
+<h2 class="de">Dubais Lizenzwettlauf — Bereits Mehr Als 100 Registrierte Anbieter Virtueller Vermögenswerte</h2>
+<h2 class="fr">La Course aux Licences de Dubaï — Déjà Plus de 100 Entités d'Actifs Virtuels Enregistrées</h2>
+<h2 class="pt">A Corrida de Licenças de Dubai — Mais de 100 Entidades de Ativos Virtuais Já Registradas</h2>
+<h2 class="tr">Dubai'nin Lisans Yarışı — Şimdiden 100'den Fazla Kayıtlı Sanal Varlık Kuruluşu</h2>
+<h2 class="vi">Cuộc Đua Cấp Phép Của Dubai — Đã Có Hơn 100 Tổ Chức Tài Sản Ảo Đăng Ký</h2>
+
+<p class="ko">레볼루트의 승인은 두바이 VARA가 지난 6월29일 <a href="/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50번째 VASP 라이선스</a>를 실물자산(RWA) 토큰화 플랫폼 트라이브토크나이제이션(Tribe Tokenisation)에 발급한 지 약 2주 만에 나왔다. 7월 현재 UAE 전역에는 VARA(두바이 본토)·ADGM(아부다비)·DIFC(두바이국제금융센터)·CBUAE·연방 CMA 등 5개 규제 체계에 걸쳐 100곳이 넘는 가상자산 사업자가 라이선스를 보유하고 있다. 크라켄·바이낸스·OKX 등 주요 거래소는 이미 완전 라이선스를 획득해 두바이에 지역본부를 두고 있는 상태로, 레볼루트는 상대적으로 늦게 이 경쟁에 합류한 셈이다.</p>
+<p class="en">Revolut's approval comes roughly two weeks after Dubai's VARA issued its <a href="/en/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50th VASP license</a> to real-world-asset (RWA) tokenization platform Tribe Tokenisation on June 29. As of July, more than 100 virtual-asset entities hold active licenses across the UAE's five overlapping regulatory regimes — VARA (Dubai mainland), ADGM (Abu Dhabi), DIFC (the Dubai International Financial Centre), CBUAE, and the federal CMA. Major exchanges including Kraken, Binance and OKX have already secured full licenses and set up regional headquarters in Dubai, making Revolut a relatively late entrant to this race.</p>
+<p class="ja">レボリュートの承認は、ドバイのVARAが6月29日に実物資産(RWA)トークン化プラットフォームのトライブトークナイゼーション(Tribe Tokenisation)に<a href="/ja/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50番目のVASPライセンス</a>を発給してからおよそ2週間後に出た。7月現在、UAE全域ではVARA(ドバイ本土)・ADGM(アブダビ)・DIFC(ドバイ国際金融センター)・CBUAE・連邦CMAという5つの規制体系にまたがり、100社を超える仮想資産事業者がライセンスを保有している。クラーケン・バイナンス・OKXなど主要取引所はすでに完全ライセンスを取得しドバイに地域本部を構えており、レボリュートはこの競争に比較的遅れて参入した形だ。</p>
+<p class="es">La aprobación de Revolut llega unas dos semanas después de que la VARA de Dubái emitiera su <a href="/es/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50ª licencia VASP</a> a la plataforma de tokenización de activos del mundo real (RWA) Tribe Tokenisation el 29 de junio. En julio, más de 100 entidades de activos virtuales poseen licencias activas en los cinco regímenes regulatorios superpuestos de los EAU: VARA (Dubái continental), ADGM (Abu Dabi), DIFC (Centro Financiero Internacional de Dubái), CBUAE y la CMA federal. Grandes exchanges como Kraken, Binance y OKX ya han obtenido licencias completas y establecido sedes regionales en Dubái, lo que convierte a Revolut en un entrante relativamente tardío a esta carrera.</p>
+<p class="de">Revolusts Genehmigung erfolgt rund zwei Wochen, nachdem Dubais VARA am 29. Juni ihre <a href="/de/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50. VASP-Lizenz</a> an die Real-World-Asset-(RWA)-Tokenisierungsplattform Tribe Tokenisation vergeben hatte. Stand Juli halten mehr als 100 Anbieter virtueller Vermögenswerte aktive Lizenzen über die fünf sich überschneidenden Regulierungsregime der VAE hinweg — VARA (Dubai-Festland), ADGM (Abu Dhabi), DIFC (Dubai International Financial Centre), CBUAE und die föderale CMA. Große Börsen wie Kraken, Binance und OKX haben bereits vollständige Lizenzen gesichert und regionale Hauptsitze in Dubai eingerichtet, sodass Revolut relativ spät in diesen Wettlauf einsteigt.</p>
+<p class="fr">L'approbation de Revolut intervient environ deux semaines après que la VARA de Dubaï a délivré sa <a href="/fr/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50e licence VASP</a> à la plateforme de tokenisation d'actifs réels (RWA) Tribe Tokenisation, le 29 juin. En juillet, plus de 100 entités d'actifs virtuels détiennent des licences actives à travers les cinq régimes réglementaires qui se chevauchent aux Émirats arabes unis — VARA (Dubaï continentale), ADGM (Abou Dabi), DIFC (le centre financier international de Dubaï), CBUAE et la CMA fédérale. De grandes bourses comme Kraken, Binance et OKX ont déjà obtenu des licences complètes et établi des sièges régionaux à Dubaï, faisant de Revolut un entrant relativement tardif dans cette course.</p>
+<p class="pt">A aprovação da Revolut ocorre cerca de duas semanas após a VARA de Dubai emitir sua <a href="/pt/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50ª licença VASP</a> para a plataforma de tokenização de ativos do mundo real (RWA) Tribe Tokenisation, em 29 de junho. Em julho, mais de 100 entidades de ativos virtuais detêm licenças ativas nos cinco regimes regulatórios sobrepostos dos EAU — VARA (Dubai continental), ADGM (Abu Dhabi), DIFC (o centro financeiro internacional de Dubai), CBUAE e a CMA federal. Grandes exchanges como Kraken, Binance e OKX já garantiram licenças completas e estabeleceram sedes regionais em Dubai, tornando a Revolut uma entrante relativamente tardia nessa corrida.</p>
+<p class="tr">Revolut'un onayı, Dubai VARA'nın 29 Haziran'da gerçek dünya varlığı (RWA) tokenizasyon platformu Tribe Tokenisation'a <a href="/tr/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">50. VASP lisansını</a> vermesinden yaklaşık iki hafta sonra geldi. Temmuz itibarıyla, BAE genelinde VARA (Dubai anakara), ADGM (Abu Dabi), DIFC (Dubai Uluslararası Finans Merkezi), CBUAE ve federal CMA olmak üzere beş örtüşen düzenleyici rejimde 100'den fazla sanal varlık kuruluşu aktif lisansa sahip. Kraken, Binance ve OKX gibi büyük borsalar zaten tam lisans almış ve Dubai'de bölgesel merkezler kurmuş durumda; bu da Revolut'u bu yarışa görece geç katılan bir oyuncu yapıyor.</p>
+<p class="vi">Sự phê duyệt của Revolut đến khoảng hai tuần sau khi VARA Dubai cấp <a href="/vi/blog/dubai-vara-50th-vasp-license-tribe-tokenisation">giấy phép VASP thứ 50</a> cho nền tảng token hóa tài sản thực (RWA) Tribe Tokenisation vào ngày 29/6. Tính đến tháng 7, hơn 100 tổ chức tài sản ảo nắm giữ giấy phép đang hoạt động trên khắp 5 chế độ quản lý chồng chéo của UAE — VARA (Dubai đại lục), ADGM (Abu Dhabi), DIFC (Trung tâm Tài chính Quốc tế Dubai), CBUAE và CMA liên bang. Các sàn giao dịch lớn như Kraken, Binance và OKX đã có giấy phép đầy đủ và đặt trụ sở khu vực tại Dubai, khiến Revolut trở thành một người gia nhập tương đối muộn trong cuộc đua này.</p>
+
+<p class="ko">이렇게 많은 사업자가 두바이로 몰리는 배경에는 구조적 이유가 있다. UAE는 라이선스 발급 주체가 지리적 구역별로 다섯 곳이나 나뉘어 있어, 사업자 입장에서는 자신의 사업모델에 가장 유리한 규제기관을 골라 신청하는 '관할권 쇼핑(jurisdiction shopping)'이 사실상 가능하다. 이는 싱가포르 통화청(MAS)이나 홍콩 증권선물위원회(SFC)처럼 단일 규제기관이 모든 가상자산 라이선스를 관장하는 체제와 뚜렷이 대비된다. 단일 규제기관 체제는 심사 기준의 일관성은 높지만 신청자 입장에서 대안이 없는 반면, UAE식 다층 구조는 신청자에게 유연성을 주는 대신 규제기관 간 기준 차이나 감독 공백에 대한 우려도 함께 낳는다.</p>
+<p class="en">The structural reason so many operators flock to Dubai is that the UAE splits licensing authority across five separate geographic regimes, effectively allowing operators to engage in "jurisdiction shopping" — applying to whichever regulator best fits their business model. That stands in sharp contrast to a single-regulator model like Singapore's Monetary Authority (MAS) or Hong Kong's Securities and Futures Commission (SFC), which oversee all virtual-asset licensing centrally. A single-regulator system offers more consistent review standards but no alternative venue for applicants; the UAE's layered structure gives applicants flexibility, but also raises concerns about inconsistent standards and supervisory gaps between regulators.</p>
+<p class="ja">これほど多くの事業者がドバイに殺到する構造的な理由がある。UAEはライセンス発給当局が地理的区域ごとに5つに分かれており、事業者側は自社のビジネスモデルに最も有利な規制当局を選んで申請する「規制先漁り(jurisdiction shopping)」が事実上可能になっている。これはシンガポール金融管理局(MAS)や香港証券先物委員会(SFC)のように、単一の規制当局がすべての仮想資産ライセンスを一元的に管轄する体制と対照的だ。単一規制当局体制は審査基準の一貫性が高い一方で申請者には代替選択肢がないが、UAE式の多層構造は申請者に柔軟性を与える一方で、規制当局間の基準の違いや監督の空白への懸念も同時に生む。</p>
+<p class="es">La razón estructural por la que tantos operadores acuden en masa a Dubái es que los EAU dividen la autoridad de licenciamiento en cinco regímenes geográficos distintos, lo que permite en la práctica una "búsqueda de jurisdicción": solicitar la licencia al regulador que mejor se ajuste al modelo de negocio propio. Esto contrasta claramente con un modelo de regulador único, como la Autoridad Monetaria de Singapur (MAS) o la Comisión de Valores y Futuros de Hong Kong (SFC), que supervisan de forma centralizada todo el licenciamiento de activos virtuales. Un sistema de regulador único ofrece estándares de revisión más consistentes pero ninguna vía alternativa para los solicitantes; la estructura por capas de los EAU da flexibilidad a los solicitantes, pero también genera preocupación por estándares inconsistentes y vacíos de supervisión entre reguladores.</p>
+<p class="de">Der strukturelle Grund, warum so viele Anbieter nach Dubai strömen, liegt darin, dass die VAE die Lizenzierungsbefugnis auf fünf getrennte geografische Regime aufteilen, was Anbietern effektiv „Jurisdiction Shopping" ermöglicht — die Beantragung bei der Aufsichtsbehörde, die am besten zum eigenen Geschäftsmodell passt. Das steht in scharfem Kontrast zu einem Einzelaufsichtsmodell wie der Monetary Authority of Singapore (MAS) oder der Securities and Futures Commission (SFC) in Hongkong, die die gesamte Krypto-Lizenzierung zentral überwachen. Ein Einzelaufsichtssystem bietet konsistentere Prüfstandards, aber keine alternative Anlaufstelle für Antragsteller; die geschichtete Struktur der VAE gibt Antragstellern Flexibilität, wirft aber auch Bedenken hinsichtlich uneinheitlicher Standards und Aufsichtslücken zwischen den Behörden auf.</p>
+<p class="fr">La raison structurelle pour laquelle tant d'opérateurs affluent vers Dubaï tient au fait que les EAU répartissent l'autorité de délivrance des licences entre cinq régimes géographiques distincts, permettant de fait un « jurisdiction shopping » — solliciter le régulateur qui convient le mieux à son modèle économique. Cela contraste nettement avec un modèle à régulateur unique, comme la Monetary Authority of Singapore (MAS) ou la Securities and Futures Commission (SFC) de Hong Kong, qui supervisent de manière centralisée l'ensemble des licences d'actifs virtuels. Un système à régulateur unique offre des normes d'examen plus cohérentes mais aucune alternative pour les candidats ; la structure en couches des EAU offre de la flexibilité aux candidats, mais soulève aussi des inquiétudes quant à des normes incohérentes et à des lacunes de supervision entre régulateurs.</p>
+<p class="pt">A razão estrutural pela qual tantos operadores afluem a Dubai é que os EAU dividem a autoridade de licenciamento em cinco regimes geográficos distintos, permitindo efetivamente o "jurisdiction shopping" — solicitar ao regulador que melhor se adapte ao próprio modelo de negócio. Isso contrasta fortemente com um modelo de regulador único, como a Autoridade Monetária de Cingapura (MAS) ou a Comissão de Valores Mobiliários e Futuros de Hong Kong (SFC), que supervisionam de forma centralizada todo o licenciamento de ativos virtuais. Um sistema de regulador único oferece padrões de revisão mais consistentes, mas nenhuma alternativa para os candidatos; a estrutura em camadas dos EAU dá flexibilidade aos candidatos, mas também gera preocupações sobre padrões inconsistentes e lacunas de supervisão entre reguladores.</p>
+<p class="tr">Bu kadar çok işletmenin Dubai'ye akın etmesinin yapısal nedeni, BAE'nin lisanslama yetkisini beş ayrı coğrafi rejime bölmesi ve bunun işletmelere fiilen "yargı alışverişi" (jurisdiction shopping) yapma imkanı tanımasıdır — kendi iş modellerine en uygun düzenleyiciye başvurma. Bu durum, tüm kripto varlık lisanslamasını merkezi olarak denetleyen Singapur Para Otoritesi (MAS) veya Hong Kong Menkul Kıymetler ve Vadeli İşlemler Komisyonu (SFC) gibi tek düzenleyicili bir modelle keskin bir tezat oluşturuyor. Tek düzenleyicili bir sistem daha tutarlı inceleme standartları sunar ancak başvuranlara alternatif bir mercii bırakmaz; BAE'nin katmanlı yapısı başvuranlara esneklik sağlarken, düzenleyiciler arasındaki tutarsız standartlar ve denetim boşlukları konusunda endişelere de yol açar.</p>
+<p class="vi">Lý do mang tính cấu trúc khiến nhiều nhà vận hành đổ về Dubai là vì UAE chia thẩm quyền cấp phép thành năm chế độ địa lý riêng biệt, thực chất cho phép các nhà vận hành thực hiện "mua sắm thẩm quyền" (jurisdiction shopping) — nộp đơn lên cơ quan quản lý phù hợp nhất với mô hình kinh doanh của mình. Điều này trái ngược rõ rệt với mô hình một cơ quan quản lý duy nhất như Cơ quan Tiền tệ Singapore (MAS) hay Ủy ban Chứng khoán và Hợp đồng Tương lai Hồng Kông (SFC), nơi giám sát tập trung toàn bộ việc cấp phép tài sản ảo. Một hệ thống một cơ quan quản lý mang lại tiêu chuẩn xét duyệt nhất quán hơn nhưng không có lựa chọn thay thế cho người nộp đơn; cấu trúc phân lớp của UAE mang lại sự linh hoạt cho người nộp đơn, nhưng cũng làm dấy lên lo ngại về tiêu chuẩn không nhất quán và khoảng trống giám sát giữa các cơ quan quản lý.</p>
+
+<h2 class="ko">결제와 거래를 한 회사 안에 묶는 전략 — 그리고 그 위험</h2>
+<h2 class="en">Bundling Payments and Trading Inside One Company — and the Risk in That</h2>
+<h2 class="ja">決済と取引を一社に束ねる戦略 — そしてそのリスク</h2>
+<h2 class="es">Agrupar Pagos y Trading Dentro de una Sola Empresa — y el Riesgo que Conlleva</h2>
+<h2 class="de">Zahlungen und Handel in Einem Unternehmen Bündeln — und das Risiko Dabei</h2>
+<h2 class="fr">Regrouper Paiements et Trading au Sein d'une Seule Entreprise — et le Risque que Cela Comporte</h2>
+<h2 class="pt">Agrupar Pagamentos e Negociação Dentro de Uma Única Empresa — e o Risco Nisso</h2>
+<h2 class="tr">Ödemeleri ve İşlemleri Tek Bir Şirket İçinde Birleştirmek — ve Bunun Riski</h2>
+<h2 class="vi">Gộp Thanh Toán và Giao Dịch Trong Một Công Ty — Và Rủi Ro Của Điều Đó</h2>
+
+<p class="ko">레볼루트가 결제 라이선스와 크립토 라이선스를 자사 UAE 법인 아래 함께 쌓는 이유는 명확하다. 대부분의 크립토 거래소는 법정화폐 입출금(온·오프램프)을 위해 별도의 은행 파트너에 의존하지만, 레볼루트는 결제와 거래를 하나의 규제된 법인 안에 수직으로 결합해 고객 자금 흐름과 자금세탁방지(AML) 감시를 자체적으로 통제하려 한다. 이는 은행 파트너십이 끊기거나 규제 리스크로 갑자기 서비스가 중단되는 이른바 '뱅킹 리스크'를 줄이는 동시에, 결제 앱에서 크립토 거래로 이어지는 단일한 사용자 경험을 만들 수 있다는 장점이 있다.</p>
+<p class="en">Revolut's reason for stacking payment and crypto licenses within a single UAE entity is clear. Most crypto exchanges rely on separate banking partners for fiat on- and off-ramps, but Revolut is vertically integrating payments and trading inside one regulated entity to control customer fund flows and anti-money-laundering (AML) monitoring itself. That reduces so-called "banking risk" — the danger of a banking partnership being severed or service abruptly halted over regulatory concerns — while also creating a single user experience that flows from the payments app straight into crypto trading.</p>
+<p class="ja">レボリュートが決済ライセンスと暗号資産ライセンスを自社のUAE法人の下にまとめて積み上げる理由は明確だ。ほとんどの暗号資産取引所は法定通貨の入出金(オン・オフランプ)のために別個の銀行パートナーに依存しているが、レボリュートは決済と取引を一つの規制対象法人内で垂直統合し、顧客の資金の流れとマネーロンダリング防止(AML)監視を自ら統制しようとしている。これは銀行提携が打ち切られたり規制上の懸念で突然サービスが停止したりする、いわゆる「バンキングリスク」を減らすと同時に、決済アプリから暗号資産取引へとつながる一貫したユーザー体験を作り出せるという利点がある。</p>
+<p class="es">La razón por la que Revolut apila las licencias de pagos y cripto dentro de una única entidad en los EAU es clara. La mayoría de los exchanges cripto dependen de socios bancarios separados para las entradas y salidas en moneda fiduciaria, pero Revolut está integrando verticalmente pagos y trading dentro de una única entidad regulada para controlar por sí misma los flujos de fondos de los clientes y la vigilancia contra el lavado de dinero (AML). Eso reduce el llamado "riesgo bancario" —el peligro de que se corte una asociación bancaria o el servicio se detenga abruptamente por preocupaciones regulatorias— y crea además una experiencia de usuario única que fluye desde la app de pagos directamente al trading de cripto.</p>
+<p class="de">Der Grund, warum Revolut Zahlungs- und Krypto-Lizenzen innerhalb einer einzigen VAE-Einheit stapelt, ist klar. Die meisten Krypto-Börsen sind für Fiat-Ein- und Auszahlungen auf separate Bankpartner angewiesen, doch Revolut integriert Zahlungen und Handel vertikal innerhalb einer einzigen regulierten Einheit, um Kundengeldflüsse und die Geldwäscheprävention (AML) selbst zu kontrollieren. Das verringert das sogenannte „Bank-Risiko" — die Gefahr, dass eine Bankpartnerschaft gekappt oder der Dienst abrupt wegen regulatorischer Bedenken eingestellt wird — und schafft zugleich ein einheitliches Nutzererlebnis, das nahtlos von der Zahlungs-App in den Krypto-Handel übergeht.</p>
+<p class="fr">La raison pour laquelle Revolut empile les licences de paiement et de crypto au sein d'une seule entité aux EAU est claire. La plupart des bourses crypto dépendent de partenaires bancaires distincts pour les entrées et sorties en monnaie fiduciaire, mais Revolut intègre verticalement paiements et trading au sein d'une seule entité réglementée afin de contrôler elle-même les flux de fonds des clients et la surveillance anti-blanchiment (AML). Cela réduit ce qu'on appelle le « risque bancaire » — le danger qu'un partenariat bancaire soit rompu ou qu'un service soit brutalement interrompu pour des raisons réglementaires — tout en créant une expérience utilisateur unique qui va directement de l'application de paiement au trading crypto.</p>
+<p class="pt">A razão pela qual a Revolut empilha licenças de pagamento e cripto dentro de uma única entidade nos EAU é clara. A maioria das exchanges cripto depende de parceiros bancários separados para entradas e saídas em moeda fiduciária, mas a Revolut está integrando verticalmente pagamentos e negociação dentro de uma única entidade regulada para controlar ela mesma os fluxos de fundos dos clientes e a vigilância contra lavagem de dinheiro (AML). Isso reduz o chamado "risco bancário" — o perigo de uma parceria bancária ser cortada ou o serviço ser interrompido abruptamente por preocupações regulatórias — ao mesmo tempo em que cria uma experiência única de usuário que flui do aplicativo de pagamentos direto para a negociação de cripto.</p>
+<p class="tr">Revolut'un ödeme ve kripto lisanslarını tek bir BAE tüzel kişiliği altında birleştirmesinin nedeni açık. Çoğu kripto borsası fiat para giriş ve çıkışları için ayrı banka ortaklarına bağımlıyken, Revolut ödeme ve işlemleri tek bir düzenlenmiş tüzel kişilik içinde dikey olarak entegre ederek müşteri fon akışlarını ve kara para aklamayı önleme (AML) denetimini kendisi kontrol etmeye çalışıyor. Bu, bir banka ortaklığının kesilmesi veya hizmetin düzenleyici endişeler nedeniyle aniden durdurulması riskini azaltırken, ödeme uygulamasından doğrudan kripto işlemlerine akan tek bir kullanıcı deneyimi de yaratıyor.</p>
+<p class="vi">Lý do Revolut chồng giấy phép thanh toán và crypto trong một pháp nhân UAE duy nhất rất rõ ràng. Hầu hết các sàn giao dịch crypto đều phụ thuộc vào các đối tác ngân hàng riêng biệt để nạp/rút tiền pháp định, nhưng Revolut đang tích hợp theo chiều dọc thanh toán và giao dịch trong một pháp nhân được quản lý duy nhất để tự kiểm soát dòng tiền của khách hàng và giám sát chống rửa tiền (AML). Điều này làm giảm cái gọi là "rủi ro ngân hàng" — nguy cơ một quan hệ đối tác ngân hàng bị cắt đứt hoặc dịch vụ bị dừng đột ngột vì lo ngại quản lý — đồng thời tạo ra trải nghiệm người dùng liền mạch từ ứng dụng thanh toán chuyển thẳng sang giao dịch crypto.</p>
+
+<p class="ko">그러나 '원칙적 승인'이 최종 라이선스를 보장하지 않는다는 점은 비판적으로 볼 필요가 있다. 실제로 지난 6월 세계 최대 거래소 바이낸스는 그리스 금융감독당국에 신청했던 미카(MiCA) 라이선스를 최종 승인 문턱에서 스스로 철회한 바 있는데, 이는 예비 단계를 통과했다고 해서 최종 단계가 순조롭게 마무리된다는 보장이 없다는 점을 보여주는 사례다. 레볼루트 역시 VARA의 최종 승인까지는 추가 심사가 남아 있으며, 그 사이 UAE의 규제 강도나 요건이 달라질 가능성도 배제할 수 없다. 결국 이번 발표는 '두바이 진출 확정'이 아니라 '두바이 진출을 향한 다음 관문 통과'로 읽는 것이 정확하다.</p>
+<p class="en">Still, it's worth reading critically the fact that in-principle approval doesn't guarantee a final license. Just last June, Binance, the world's largest exchange, withdrew its own MiCA license application in Greece right at the threshold of final approval — a reminder that clearing a preliminary stage carries no guarantee that the final stage will go smoothly. Revolut, too, still faces further review before VARA grants final approval, and the possibility that UAE regulatory requirements or intensity shift in the meantime can't be ruled out. In the end, this announcement is more accurately read not as "Dubai entry confirmed" but as "the next gate on the way to Dubai entry cleared."</p>
+<p class="ja">とはいえ、「原則承認」が最終ライセンスを保証しないという点は批判的に見る必要がある。実際、この6月には世界最大の取引所バイナンスが、申請していたギリシャのMiCAライセンスを最終承認の一歩手前で自ら取り下げており、これは予備段階を通過したからといって最終段階が円滑に終わる保証はないことを示す事例だ。レボリュートもVARAの最終承認までにはさらなる審査が残っており、その間にUAEの規制の強度や要件が変わる可能性も排除できない。結局のところ、今回の発表は「ドバイ進出確定」ではなく「ドバイ進出に向けた次の関門を通過した」と読むのが正確だ。</p>
+<p class="es">Aun así, conviene leer críticamente el hecho de que la aprobación de principio no garantiza una licencia final. Precisamente en junio pasado, Binance, el mayor exchange del mundo, retiró su propia solicitud de licencia MiCA en Grecia justo en el umbral de la aprobación final, un recordatorio de que superar una etapa preliminar no garantiza que la etapa final se desarrolle sin problemas. Revolut también enfrenta una revisión adicional antes de que VARA otorgue la aprobación final, y no puede descartarse que los requisitos o la intensidad regulatoria de los EAU cambien mientras tanto. En definitiva, este anuncio se lee con más precisión no como "entrada a Dubái confirmada", sino como "superada la siguiente puerta hacia la entrada a Dubái".</p>
+<p class="de">Dennoch lohnt es sich, kritisch zu betrachten, dass eine grundsätzliche Genehmigung keine endgültige Lizenz garantiert. Erst im Juni zog Binance, die weltweit größte Börse, ihren eigenen MiCA-Lizenzantrag in Griechenland genau an der Schwelle zur endgültigen Genehmigung zurück — eine Erinnerung daran, dass das Bestehen einer vorläufigen Phase keine Garantie dafür ist, dass die letzte Phase reibungslos verläuft. Auch Revolut steht noch eine weitere Prüfung bevor, bevor VARA die endgültige Genehmigung erteilt, und es lässt sich nicht ausschließen, dass sich die regulatorischen Anforderungen oder deren Strenge in den VAE in der Zwischenzeit ändern. Letztlich ist diese Ankündigung präziser nicht als „Markteintritt in Dubai bestätigt", sondern als „nächstes Tor auf dem Weg zum Markteintritt in Dubai passiert" zu lesen.</p>
+<p class="fr">Il convient néanmoins de considérer d'un œil critique le fait qu'une approbation de principe ne garantit pas une licence finale. Pas plus tard qu'en juin dernier, Binance, la plus grande bourse au monde, a retiré sa propre demande de licence MiCA en Grèce, précisément au seuil de l'approbation finale — un rappel que franchir une étape préliminaire ne garantit en rien que l'étape finale se déroulera sans encombre. Revolut doit elle aussi encore passer par un examen supplémentaire avant que la VARA n'accorde son approbation finale, et on ne peut exclure que les exigences ou l'intensité réglementaire des EAU évoluent entre-temps. En définitive, cette annonce se lit plus justement non pas comme « l'entrée à Dubaï confirmée », mais comme « le prochain portail vers l'entrée à Dubaï franchi ».</p>
+<p class="pt">Ainda assim, vale a pena ler com olhar crítico o fato de que a aprovação em princípio não garante uma licença final. Ainda em junho passado, a Binance, a maior exchange do mundo, retirou seu próprio pedido de licença MiCA na Grécia bem no limiar da aprovação final — um lembrete de que superar uma etapa preliminar não garante que a etapa final transcorrerá sem problemas. A Revolut também ainda enfrenta revisão adicional antes que a VARA conceda a aprovação final, e não se pode descartar que os requisitos ou a intensidade regulatória dos EAU mudem nesse meio-tempo. No fim das contas, este anúncio é lido com mais precisão não como "entrada em Dubai confirmada", mas como "o próximo portão a caminho da entrada em Dubai foi ultrapassado".</p>
+<p class="tr">Yine de ilke onayının nihai bir lisansı garanti etmediği gerçeğini eleştirel bir gözle okumakta fayda var. Daha geçen Haziran'da dünyanın en büyük borsası Binance, Yunanistan'da başvurduğu MiCA lisansını tam da nihai onay eşiğinde kendisi geri çekmişti — bu da ön aşamayı geçmenin son aşamanın sorunsuz tamamlanacağı anlamına gelmediğinin bir hatırlatıcısı. Revolut da VARA'nın nihai onayını vermesinden önce ek incelemelerle karşı karşıya ve bu süreçte BAE'nin düzenleyici gerekliliklerinin ya da sıkılığının değişme ihtimali de göz ardı edilemez. Sonuçta bu duyuru, "Dubai'ye giriş kesinleşti" değil, daha doğru bir ifadeyle "Dubai'ye giden yoldaki bir sonraki kapı geçildi" olarak okunmalı.</p>
+<p class="vi">Tuy nhiên, cần nhìn nhận một cách phê phán việc phê duyệt về nguyên tắc không đảm bảo giấy phép cuối cùng. Ngay trong tháng 6 vừa qua, Binance, sàn giao dịch lớn nhất thế giới, đã tự rút đơn xin giấy phép MiCA tại Hy Lạp ngay trước ngưỡng phê duyệt cuối cùng — một lời nhắc nhở rằng vượt qua giai đoạn sơ bộ không đảm bảo giai đoạn cuối sẽ diễn ra suôn sẻ. Revolut cũng vẫn còn phải trải qua thêm các vòng xét duyệt trước khi VARA cấp phê duyệt cuối cùng, và không thể loại trừ khả năng các yêu cầu hoặc mức độ nghiêm ngặt về quản lý của UAE thay đổi trong lúc đó. Rốt cuộc, thông báo này nên được hiểu chính xác hơn không phải là "đã xác nhận gia nhập Dubai" mà là "đã vượt qua cánh cổng tiếp theo trên con đường gia nhập Dubai".</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">레볼루트의 UAE 이중 라이선스 타임라인</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">2025년 9월</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE, 결제서비스 원칙적 승인</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">2026년 6월17일</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE, SVF·RPS 라이선스 최종 발급</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">2026년 7월15일</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA, VASP 라이선스 원칙적 승인</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">브로커딜러·거래소 서비스, 레볼루트X 통한 제공 예정</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">진행 중</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">VARA 최종 승인 및 UAE 고객 대상 서비스 개시 — 시점 미정</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">타임라인은 시각적 배치를 위한 것으로 각 사건 간 실제 간격에 정확히 비례하지 않음.</p>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Revolut's Stacked UAE Licensing Timeline</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Sep 2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE in-principle approval for payment services</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">Jun 17, 2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE grants final SVF &amp; RPS licenses</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">Jul 15, 2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA grants in-principle VASP approval</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Broker-dealer &amp; exchange services planned via RevolutX</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">Pending</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">Final VARA approval &amp; launch to UAE customers — timing unknown</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Timeline spacing is for visual layout only and doesn't scale exactly to the real time gaps.</p>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">レボリュートのUAE二重ライセンス・タイムライン</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">2025年9月</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE、決済サービスの原則承認</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">2026年6月17日</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE、SVF・RPSライセンスを正式発給</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">2026年7月15日</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA、VASPライセンスの原則承認</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">ブローカーディーラー・取引所サービスをレボリュートXで提供予定</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">進行中</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">VARA最終承認とUAE顧客向けサービス開始 — 時期未定</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">タイムラインの間隔は視覚的配置のためのもので、実際の時間差に正確には比例していない。</p>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronología de la Doble Licencia de Revolut en los EAU</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Sep 2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE: aprobación de principio para pagos</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">17 jun 2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE otorga licencias finales SVF y RPS</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">15 jul 2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA otorga aprobación de principio VASP</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Servicios de corretaje y exchange previstos vía RevolutX</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">Pendiente</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">Aprobación final de VARA y lanzamiento a clientes — fecha desconocida</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">El espaciado de la cronología es solo para la disposición visual y no es proporcional a los intervalos reales.</p>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Revoluts Gestapelte Lizenz-Zeitleiste in den VAE</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Sep. 2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE: grundsätzliche Genehmigung für Zahlungen</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">17. Juni 2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE erteilt endgültige SVF- &amp; RPS-Lizenzen</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">15. Juli 2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA erteilt grundsätzliche VASP-Genehmigung</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Broker-Dealer- &amp; Börsendienste über RevolutX geplant</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">Offen</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">Endgültige VARA-Genehmigung &amp; Start für VAE-Kunden — Termin unklar</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Die Abstände der Zeitleiste dienen nur der visuellen Darstellung und sind nicht proportional zu den tatsächlichen Zeitspannen.</p>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Chronologie des Licences Empilées de Revolut aux EAU</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Sept. 2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE : approbation de principe pour les paiements</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">17 juin 2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">La CBUAE délivre les licences finales SVF et RPS</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">15 juil. 2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">La VARA délivre l'approbation de principe VASP</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Services de courtage et de bourse prévus via RevolutX</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">En attente</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">Approbation finale de la VARA et lancement aux clients — date inconnue</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">L'espacement de la chronologie est purement visuel et ne reflète pas exactement les écarts de temps réels.</p>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Linha do Tempo das Licenças Empilhadas da Revolut nos EAU</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Set. 2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE: aprovação em princípio para pagamentos</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">17 jun 2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE concede licenças finais SVF e RPS</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">15 jul 2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA concede aprovação em princípio VASP</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Serviços de corretagem e exchange previstos via RevolutX</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">Pendente</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">Aprovação final da VARA e lançamento a clientes — data desconhecida</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">O espaçamento da linha do tempo é apenas para disposição visual e não é proporcional aos intervalos reais.</p>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Revolut'un BAE'deki Katmanlı Lisans Zaman Çizelgesi</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Eyl 2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE: ödeme hizmetleri için ilke onayı</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">17 Haz 2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE, SVF ve RPS lisanslarını nihai olarak verdi</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">15 Tem 2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA, VASP için ilke onayı verdi</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Aracı kurumluk ve borsa hizmetleri RevolutX üzerinden planlanıyor</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">Beklemede</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">VARA'nın nihai onayı ve müşterilere lansman — tarih belirsiz</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Zaman çizelgesindeki boşluklar yalnızca görsel düzen içindir ve gerçek zaman aralıklarıyla tam olarak orantılı değildir.</p>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Dòng Thời Gian Giấy Phép Chồng Lớp Của Revolut Tại UAE</text>
+  <g font-family="sans-serif">
+    <line x1="65" y1="60" x2="65" y2="365" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="65" cy="75" r="7" fill="#71717a"/>
+    <text x="90" y="70" fill="#e4e4e7" font-size="13" font-weight="700">Tháng 9/2025</text>
+    <text x="90" y="90" fill="#a1a1aa" font-size="13">CBUAE: phê duyệt về nguyên tắc cho dịch vụ thanh toán</text>
+    <circle cx="65" cy="140" r="7" fill="#71717a"/>
+    <text x="90" y="135" fill="#e4e4e7" font-size="13" font-weight="700">17/6/2026</text>
+    <text x="90" y="155" fill="#a1a1aa" font-size="13">CBUAE cấp giấy phép cuối cùng SVF &amp; RPS</text>
+    <rect x="35" y="185" width="640" height="75" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <circle cx="65" cy="215" r="7" fill="#60a5fa"/>
+    <text x="90" y="210" fill="#93c5fd" font-size="13" font-weight="700">15/7/2026</text>
+    <text x="90" y="230" fill="#e4e4e7" font-size="13">VARA cấp phê duyệt về nguyên tắc cho VASP</text>
+    <text x="90" y="248" fill="#a1a1aa" font-size="12">Dịch vụ môi giới &amp; sàn giao dịch dự kiến qua RevolutX</text>
+    <rect x="35" y="275" width="640" height="55" rx="8" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="302" r="7" fill="#3f3f46" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="90" y="298" fill="#e4e4e7" font-size="13" font-weight="700">Chưa xong</text>
+    <text x="90" y="317" fill="#a1a1aa" font-size="13">Phê duyệt cuối cùng của VARA &amp; ra mắt cho khách hàng — chưa rõ thời điểm</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Khoảng cách trên dòng thời gian chỉ phục vụ bố cục trực quan, không tỷ lệ chính xác với khoảng thời gian thực tế.</p>
+</div>
+
+<div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) VARA의 최종 승인 여부와 시점, (2) 실제 UAE 고객을 대상으로 레볼루트X 서비스가 언제 개시되는지, (3) 크라켄·바이낸스·OKX 등 기존 라이선스 보유 거래소들이 레볼루트의 진입에 어떻게 대응하는지, (4) UAE의 5개 규제체계가 통합되거나 조율되는 방향으로 움직이는지 여부.</div>
+<div class="box en">💡 <strong>What to watch now:</strong> (1) whether and when VARA grants final approval; (2) when RevolutX services actually launch for UAE customers; (3) how incumbent licensed exchanges like Kraken, Binance and OKX respond to Revolut's entry; (4) whether the UAE's five overlapping regulatory regimes move toward consolidation or closer coordination.</div>
+<div class="box ja">💡 <strong>今後注視すべきこと:</strong> (1) VARAが最終承認を出すか、その時期はいつか、(2) UAEの顧客向けにレボリュートXのサービスが実際にいつ開始されるか、(3) クラーケン・バイナンス・OKXなど既存のライセンス保有取引所がレボリュートの参入にどう対応するか、(4) UAEの5つの規制体系が統合や連携強化に向かうかどうか。</div>
+<div class="box es">💡 <strong>Qué vigilar ahora:</strong> (1) si VARA otorga la aprobación final y cuándo; (2) cuándo se lanzan realmente los servicios de RevolutX para clientes de los EAU; (3) cómo responden los exchanges ya licenciados como Kraken, Binance y OKX a la entrada de Revolut; (4) si los cinco regímenes regulatorios superpuestos de los EAU avanzan hacia una consolidación o una coordinación más estrecha.</div>
+<div class="box de">💡 <strong>Worauf jetzt zu achten ist:</strong> (1) ob und wann VARA die endgültige Genehmigung erteilt; (2) wann die RevolutX-Dienste tatsächlich für VAE-Kunden starten; (3) wie etablierte lizenzierte Börsen wie Kraken, Binance und OKX auf Revoluts Markteintritt reagieren; (4) ob sich die fünf sich überschneidenden Regulierungsregime der VAE in Richtung Konsolidierung oder engerer Koordination bewegen.</div>
+<div class="box fr">💡 <strong>Ce qu'il faut surveiller maintenant :</strong> (1) si et quand la VARA accorde l'approbation finale ; (2) quand les services RevolutX seront réellement lancés pour les clients des EAU ; (3) comment les bourses déjà agréées comme Kraken, Binance et OKX réagissent à l'entrée de Revolut ; (4) si les cinq régimes réglementaires qui se chevauchent aux EAU évoluent vers une consolidation ou une coordination plus étroite.</div>
+<div class="box pt">💡 <strong>O que observar agora:</strong> (1) se e quando a VARA concederá a aprovação final; (2) quando os serviços da RevolutX realmente serão lançados para clientes dos EAU; (3) como as exchanges já licenciadas, como Kraken, Binance e OKX, reagirão à entrada da Revolut; (4) se os cinco regimes regulatórios sobrepostos dos EAU caminharão para uma consolidação ou coordenação mais estreita.</div>
+<div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) VARA'nın nihai onayı verip vermeyeceği ve zamanlaması; (2) RevolutX hizmetlerinin BAE'deki müşteriler için gerçekte ne zaman başlayacağı; (3) Kraken, Binance ve OKX gibi zaten lisanslı borsaların Revolut'un girişine nasıl tepki vereceği; (4) BAE'nin beş örtüşen düzenleyici rejiminin birleşme veya daha yakın koordinasyona doğru ilerleyip ilerlemeyeceği.</div>
+<div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> (1) liệu VARA có cấp phê duyệt cuối cùng hay không và khi nào; (2) khi nào dịch vụ RevolutX thực sự ra mắt cho khách hàng UAE; (3) các sàn giao dịch đã có giấy phép như Kraken, Binance và OKX phản ứng thế nào trước sự gia nhập của Revolut; (4) liệu 5 chế độ quản lý chồng chéo của UAE có tiến tới hợp nhất hoặc phối hợp chặt chẽ hơn hay không.</div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 걸프비즈니스(Gulf Business), 크립토뉴스(crypto.news), 핌츠(PYMNTS.com), 더내셔널(The National), 레볼루트(Revolut) 공식 발표, 두바이 VARA 공개 등록부(Public Register).</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Gulf Business, crypto.news, PYMNTS.com, The National, Revolut's official announcements, Dubai VARA's Public Register.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: ガルフ・ビジネス(Gulf Business)、クリプトニュース(crypto.news)、ピムンツ(PYMNTS.com)、ザ・ナショナル(The National)、レボリュート(Revolut)公式発表、ドバイVARA公開登録簿(Public Register)。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: Gulf Business, crypto.news, PYMNTS.com, The National, anuncios oficiales de Revolut, Registro Público de la VARA de Dubái.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: Gulf Business, crypto.news, PYMNTS.com, The National, offizielle Ankündigungen von Revolut, öffentliches Register der Dubai VARA.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : Gulf Business, crypto.news, PYMNTS.com, The National, annonces officielles de Revolut, registre public de la VARA de Dubaï.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Gulf Business, crypto.news, PYMNTS.com, The National, anúncios oficiais da Revolut, Registro Público da VARA de Dubai.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Gulf Business, crypto.news, PYMNTS.com, The National, Revolut'un resmi açıklamaları, Dubai VARA Kamu Sicili.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Gulf Business, crypto.news, PYMNTS.com, The National, thông báo chính thức từ Revolut, Sổ đăng ký công khai của VARA Dubai.</p>
+<?php require __DIR__.'/_footer.php'; ?>
