@@ -1,10 +1,5 @@
 User-agent: *
 Allow: /
-
-# 색인 불필요 경로.
-# ★ 2026-07-15: cron_warmup.php / config.php / data_sources.php / score_calc.php 를
-#   여기 적어두는 건 나쁜 봇에게 "여기 서버 스크립트 있다"고 알려주는 것과 같다.
-#   해당 파일들은 .htaccess 로 웹 접근 자체를 막았으므로 목록에서 뺀다.
 Disallow: /cache/
 Disallow: /api.php
 Disallow: /*.keystore
