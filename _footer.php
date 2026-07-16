@@ -252,7 +252,17 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
 // 사용자가 마지막에 고른 언어를 우선 적용한다(applySavedLang 참고).
 function Lpick(l){
   try{ localStorage.setItem('blogLangPicked','1'); }catch(e){}
-  L(l);
+  // ★ 2026-07-15 단일언어 렌더 대응
+  //   예전엔 9개 언어가 전부 HTML에 있어서 L(l)이 CSS만 토글하면 즉시 전환됐다.
+  //   이제 서버가 현재 언어 블록만 내려주므로, CSS를 토글하면 빈 화면이 된다.
+  //   → 해당 언어의 경로형 URL로 이동한다. (/blog/{slug} ↔ /en/blog/{slug})
+  if(window.BTLang && BTLang.save) BTLang.save(l);
+  try{
+    var cur = location.pathname + location.search + location.hash;
+    var to  = (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(cur, l) : null;
+    if(to && to !== cur){ location.href = to; return; }   // 이동 성공 → 여기서 끝
+  }catch(e){}
+  L(l);   // i18nHref를 못 쓰는 예외 상황에서만 기존 방식(폴백)
 }
 function L(l){
   document.getElementById('hr').lang=l;

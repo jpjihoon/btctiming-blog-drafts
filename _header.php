@@ -56,6 +56,56 @@ $htmlLang = $lang;
 $LANG_FIELD = [];
 foreach (array_keys(SUPPORTED_LANGS) as $__lc) { $LANG_FIELD[$__lc] = '_' . $__lc; }
 $suf = $LANG_FIELD[$lang] ?? '_en';
+
+// ═══════════════════════════════════════════════════════════════
+// ★ 2026-07-15 단일언어 렌더
+//   기존: 9개 언어를 전부 HTML에 인라인 → CSS([lang="ko"] .en{display:none})로 8개를 숨김.
+//        한국어로 보든 영어로 보든 9개 언어를 전부 다운로드한다. 받은 것의 89%를 버린다.
+//        실측: 글 1편 322,906 B (gzip 120,390 B)
+//   변경: 출력 버퍼를 가로채 현재 언어가 아닌 블록을 서버에서 제거하고 내려보낸다.
+//        실측: 144,781 B (gzip 52,713 B) → gzip 기준 -56%
+//   글 파일 1051편은 손대지 않는다. 이 파일 하나로 전부 처리된다.
+//   렌더 비용은 1.5~5ms. 개별 글은 Cloudflare가 2시간 캐시하므로 원본 부하는 미미하다.
+// ═══════════════════════════════════════════════════════════════
+if (!function_exists('bt_single_lang')) {
+    function bt_single_lang(string $html, string $lang, array $all): string {
+        $others = array_values(array_diff($all, [$lang]));
+        if (!$others) return $html;
+        $flip = array_flip($others);
+        $out = ''; $pos = 0;
+        // class 속성을 가진 여는 태그를 훑는다
+        $re = '/<([a-zA-Z][a-zA-Z0-9]*)\b[^>]*?\bclass="([^"]*)"[^>]*?(\/?)>/';
+        while (preg_match($re, $html, $m, PREG_OFFSET_CAPTURE, $pos)) {
+            $tagStart = $m[0][1];
+            $tagEnd   = $tagStart + strlen($m[0][0]);
+            $tag      = $m[1][0];
+            $selfClose= ($m[3][0] === '/');
+            $hit = false;
+            foreach (preg_split('/\s+/', trim($m[2][0])) as $c) {
+                if (isset($flip[$c])) { $hit = true; break; }   // class="en", "back en", "en en-show" 전부 잡힘
+            }
+            if (!$hit) { $out .= substr($html, $pos, $tagEnd - $pos); $pos = $tagEnd; continue; }
+            $out .= substr($html, $pos, $tagStart - $pos);
+            if ($selfClose) { $pos = $tagEnd; continue; }
+            // 같은 태그 중첩을 세면서 짝 닫는 태그를 찾는다
+            $depth = 1; $p = $tagEnd;
+            $tre = '#<(/?)' . preg_quote($tag, '#') . '\b[^>]*>#i';
+            while ($depth > 0 && preg_match($tre, $html, $mm, PREG_OFFSET_CAPTURE, $p)) {
+                $p = $mm[0][1] + strlen($mm[0][0]);
+                $depth += ($mm[1][0] === '/') ? -1 : 1;
+            }
+            // 짝을 못 찾으면 건드리지 않고 원본 유지 (안전 우선)
+            if ($depth !== 0) { $out .= substr($html, $tagStart, $tagEnd - $tagStart); $pos = $tagEnd; continue; }
+            $pos = $p;
+        }
+        return $out . substr($html, $pos);
+    }
+}
+$__btLangAll = array_keys(SUPPORTED_LANGS);
+$__btLang    = $lang;
+ob_start(function (string $buf) use ($__btLang, $__btLangAll): string {
+    return bt_single_lang($buf, $__btLang, $__btLangAll);
+});
 $pageTitle = ($M['title' . $suf] ?? $M['title_en']) . ' | BTCtiming.com';
 $pageDesc  = $M['desc' . $suf] ?? $M['desc_en'];
 $baseUrl   = "https://btctiming.com/blog/{$slug}.php";
