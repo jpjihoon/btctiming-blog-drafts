@@ -250,6 +250,29 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
 // 사용자가 언어 메뉴에서 직접 고른 경우: "명시적 선택" 플래그를 켜고 전환.
 // 이 플래그가 켜져 있으면 이후 뒤로가기 등으로 ?lang=이 다른 페이지에 도달해도
 // 사용자가 마지막에 고른 언어를 우선 적용한다(applySavedLang 참고).
+// ★ 2026-07-16 스크롤 복원용 앵커
+//   언어를 바꾸면 페이지가 이동하므로 스크롤이 맨 위로 간다. 읽던 자리를 넘긴다.
+//   ⚠ scrollY(픽셀)를 저장하면 안 된다 — 언어마다 문단 길이가 달라 엉뚱한 데로 간다.
+//     (실측: ko 본문 7,194자 vs es 15,670자)
+//   h2/h3 제목은 루틴이 섹션 병렬 작성을 강제하므로 언어와 무관하게 순서·개수가 같다.
+//   (실측 27편 × 9언어 중 26편 일치. 어긋나는 글을 대비해 개수를 같이 저장해 검사한다)
+function __btArtAnchor(){
+  var hs = document.querySelectorAll('.wrap-main h2, .wrap-main h3');
+  var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+  if (y < 4) return null;                                   // 맨 위 → 복원할 것 없음
+  var sh = document.documentElement.scrollHeight - window.innerHeight;
+  var docFrac = sh > 0 ? (y / sh) : 0;
+  if (!hs.length) return { i:-2, n:0, f:0, d:docFrac };      // 제목 없는 글 → 비율만
+  var dtop = function(el){ return el.getBoundingClientRect().top + y; };
+  var i = -1;
+  for (var k=0;k<hs.length;k++){ if (dtop(hs[k]) <= y + 1) i = k; else break; }
+  var start, end;
+  if (i < 0) { start = 0; end = dtop(hs[0]); }
+  else { start = dtop(hs[i]); end = (i+1 < hs.length) ? dtop(hs[i+1]) : document.documentElement.scrollHeight; }
+  var span = Math.max(1, end - start);
+  return { i:i, n:hs.length, f: Math.max(0, Math.min(1, (y - start)/span)), d:docFrac };
+}
+
 function Lpick(l){
   try{ localStorage.setItem('blogLangPicked','1'); }catch(e){}
   // ★ 2026-07-15 단일언어 렌더 대응
@@ -260,10 +283,45 @@ function Lpick(l){
   try{
     var cur = location.pathname + location.search + location.hash;
     var to  = (window.BTLang && BTLang.i18nHref) ? BTLang.i18nHref(cur, l) : null;
-    if(to && to !== cur){ location.href = to; return; }   // 이동 성공 → 여기서 끝
+    if(to && to !== cur){
+      try{ var a = __btArtAnchor(); if(a) sessionStorage.setItem('btArtScroll', JSON.stringify(a)); }catch(e){}
+      location.href = to; return;                            // 이동 성공 → 여기서 끝
+    }
   }catch(e){}
   L(l);   // i18nHref를 못 쓰는 예외 상황에서만 기존 방식(폴백)
 }
+
+// ★ 언어 전환으로 이동해 온 경우: 읽던 섹션 위치로 되돌린다.
+//   sessionStorage 는 1회용 — 읽자마자 지워서 일반 새로고침엔 안 걸린다.
+(function __btRestoreArtScroll(){
+  var raw = null;
+  try { raw = sessionStorage.getItem('btArtScroll'); sessionStorage.removeItem('btArtScroll'); } catch(e){ return; }
+  if (!raw) return;
+  var st; try { st = JSON.parse(raw); } catch(e){ return; }
+  if (!st) return;
+  var go = function(){
+    var hs = document.querySelectorAll('.wrap-main h2, .wrap-main h3');
+    var y  = window.pageYOffset || document.documentElement.scrollTop || 0;
+    var sh = document.documentElement.scrollHeight - window.innerHeight;
+    // 섹션 수가 다른 글(전체의 ~4%)이거나 제목이 없으면 → 문서 전체 비율로 근사
+    if (!hs.length || hs.length !== st.n || st.i === -2) {
+      if (sh > 0 && st.d != null) window.scrollTo(0, Math.round(st.d * sh));
+      return;
+    }
+    if (st.i >= hs.length) return;
+    var dtop = function(el){ return el.getBoundingClientRect().top + y; };
+    var start, end;
+    if (st.i < 0) { start = 0; end = dtop(hs[0]); }
+    else { start = dtop(hs[st.i]); end = (st.i+1 < hs.length) ? dtop(hs[st.i+1]) : document.documentElement.scrollHeight; }
+    var span = Math.max(1, end - start);
+    window.scrollTo(0, Math.round(start + st.f * span));
+  };
+  go();
+  requestAnimationFrame(go);                                  // 레이아웃 확정 후 1차 보정
+  window.addEventListener('load', function(){                 // 폰트·SVG 로드로 밀린 것 2차 보정
+    requestAnimationFrame(function(){ requestAnimationFrame(go); });
+  });
+})();
 function L(l){
   document.getElementById('hr').lang=l;
   const trigLabel = document.getElementById('langTriggerLabel');
