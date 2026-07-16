@@ -1,0 +1,521 @@
+<?php $slug = 'short-squeeze-cleanup-liquidation-heatmap-gap'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">비트코인은 7월16일 오후(한국시간) 기준 6만4,600~6만5,300달러에서 거래되고 있다. 7월14일 미국 6월 CPI 서프라이즈 이후 숏스퀴즈를 타고 오른 흐름이 이어지는 중이다. 코인글래스 집계 기준 최근 24시간 청산액 3,732만달러 가운데 3,166만달러(84.8%)가 숏 포지션에서 나왔다—숏이 대거 청산되며 가격을 밀어 올린 전형적인 숏스퀴즈 패턴이다.</p>
+<p class="en">Bitcoin is trading at $64,600-$65,300 as of the afternoon of July 16 (KST), continuing the short-squeeze-driven rally that began after the U.S. June CPI surprise on July 14. Per CoinGlass, of the $37.32 million liquidated across the crypto derivatives market in the past 24 hours, $31.66 million (84.8%) came from short positions — a textbook short-squeeze pattern where forced short closures push price higher.</p>
+<p class="ja">ビットコインは7月16日午後(韓国時間)時点で6万4,600~6万5,300ドルで取引されており、7月14日の米国6月CPIサプライズ後に始まったショートスクイーズ主導の上昇が続いている。コイングラスによれば、過去24時間で暗号資産デリバティブ市場全体で清算された3,732万ドルのうち、3,166万ドル(84.8%)がショートポジションから出た——強制的なショート決済が価格を押し上げる、典型的なショートスクイーズのパターンだ。</p>
+<p class="es">Bitcoin cotiza entre $64,600 y $65,300 en la tarde del 16 de julio (hora de Corea), continuando el repunte impulsado por el short squeeze que comenzó tras la sorpresa del IPC de junio en EE.UU. el 14 de julio. Según CoinGlass, de los $37.32 millones liquidados en el mercado de derivados cripto en las últimas 24 horas, $31.66 millones (84.8%) provinieron de posiciones cortas — un patrón clásico de short squeeze en el que los cierres forzados de cortos empujan el precio al alza.</p>
+<p class="de">Bitcoin notiert am Nachmittag des 16. Juli (KST) bei 64.600-65.300 Dollar und setzt damit die von einem Short Squeeze getriebene Rallye fort, die nach der Überraschung beim US-VPI für Juni am 14. Juli begann. Laut CoinGlass stammten von den in den vergangenen 24 Stunden am gesamten Krypto-Derivatemarkt liquidierten 37,32 Millionen Dollar 31,66 Millionen Dollar (84,8 %) aus Short-Positionen — ein klassisches Short-Squeeze-Muster, bei dem erzwungene Short-Schließungen den Preis nach oben treiben.</p>
+<p class="fr">Le bitcoin s'échange entre 64 600 et 65 300 dollars dans l'après-midi du 16 juillet (heure de Corée), prolongeant le rallye porté par le short squeeze amorcé après la surprise de l'IPC américain de juin le 14 juillet. Selon CoinGlass, sur les 37,32 millions de dollars liquidés sur l'ensemble du marché des dérivés crypto au cours des dernières 24 heures, 31,66 millions de dollars (84,8 %) provenaient de positions courtes — un schéma classique de short squeeze où les clôtures forcées de positions courtes poussent le prix à la hausse.</p>
+<p class="pt">O bitcoin é negociado entre US$ 64.600 e US$ 65.300 na tarde de 16 de julho (horário da Coreia), dando continuidade ao rali impulsionado pelo short squeeze que começou após a surpresa do CPI americano de junho em 14 de julho. Segundo a CoinGlass, dos US$ 37,32 milhões liquidados em todo o mercado de derivativos cripto nas últimas 24 horas, US$ 31,66 milhões (84,8%) vieram de posições vendidas — um padrão clássico de short squeeze, em que o fechamento forçado de vendidos empurra o preço para cima.</p>
+<p class="tr">Bitcoin, 16 Temmuz öğleden sonrası (KST) itibarıyla, 14 Temmuz'daki ABD Haziran TÜFE sürprizinin ardından başlayan short squeeze kaynaklı ralliyi sürdürerek 64.600-65.300 dolar aralığında işlem görüyor. CoinGlass'a göre, son 24 saatte kripto türev piyasasının genelinde tasfiye edilen 37,32 milyon doların 31,66 milyon dolarını (%84,8) short pozisyonlar oluşturdu — zorunlu short kapanışlarının fiyatı yukarı ittiği klasik bir short squeeze örneği.</p>
+<p class="vi">Bitcoin đang giao dịch ở mức 64.600-65.300 đô la tính đến chiều ngày 16 tháng 7 (giờ Hàn Quốc), tiếp nối đà tăng do short squeeze khởi động sau bất ngờ CPI tháng 6 của Mỹ vào ngày 14 tháng 7. Theo CoinGlass, trong số 37,32 triệu đô la bị thanh lý trên toàn thị trường phái sinh tiền mã hóa trong 24 giờ qua, 31,66 triệu đô la (84,8%) đến từ các vị thế short — một mô hình short squeeze kinh điển, nơi việc đóng short cưỡng bức đẩy giá lên cao.</p>
+
+<p class="ko">그런데 이 청산이 '정리'로 끝났는지, 아니면 시장 구조 자체를 바꿔놓았는지는 다른 문제다. 롱숏비율과 미결제약정은 청산 이후에도 거의 중립에 머물러 있고, 코인글래스 청산 히트맵에는 벌써 위아래로 새 매물대가 쌓였다. 숏이 청산된 지금 이 순간, 파생상품 시장이 정말 가벼워졌는지를 청산 데이터·포지셔닝 지표·청산 지도 세 갈래로 점검한다.</p>
+<p class="en">But whether this liquidation ended as a simple cleanup or actually changed the market's structure is a different question. The long/short ratio and open interest have stayed roughly neutral even after the flush, and CoinGlass's liquidation heatmap already shows new clusters rebuilding both above and below current price. Now that the shorts have been cleared out, this piece checks — through the liquidation data, positioning indicators, and the liquidation map — whether the derivatives market has actually gotten any lighter.</p>
+<p class="ja">ただし、この清算が単なる「片付け」で終わったのか、それとも市場構造そのものを変えたのかは別の問題だ。ロングショート比率と建玉は清算後も概ね中立にとどまっており、コイングラスの清算ヒートマップにはすでに現在価格の上下に新たな密集帯が積み上がっている。ショートが清算された今この瞬間、デリバティブ市場が本当に軽くなったのかを、清算データ・ポジショニング指標・清算マップの三方向から点検する。</p>
+<p class="es">Pero si esta liquidación terminó siendo una simple limpieza o si realmente cambió la estructura del mercado es otra cuestión. El ratio largo/corto y el interés abierto se han mantenido prácticamente neutrales incluso después de la purga, y el mapa de calor de liquidaciones de CoinGlass ya muestra nuevos cúmulos formándose tanto por encima como por debajo del precio actual. Ahora que los cortos han sido eliminados, este análisis revisa — a través de los datos de liquidación, los indicadores de posicionamiento y el mapa de liquidaciones — si el mercado de derivados realmente se ha aliviado.</p>
+<p class="de">Ob diese Liquidation jedoch nur eine schlichte Bereinigung war oder die Marktstruktur tatsächlich verändert hat, ist eine andere Frage. Das Long/Short-Verhältnis und das Open Interest sind auch nach der Flush-Welle weitgehend neutral geblieben, und CoinGlass' Liquidations-Heatmap zeigt bereits neue Cluster, die sich sowohl über als auch unter dem aktuellen Preis wieder aufbauen. Jetzt, da die Shorts bereinigt sind, prüft dieser Beitrag anhand der Liquidationsdaten, der Positionierungsindikatoren und der Liquidationskarte, ob der Derivatemarkt tatsächlich leichter geworden ist.</p>
+<p class="fr">Mais que cette liquidation se soit soldée par un simple nettoyage ou qu'elle ait réellement modifié la structure du marché est une autre question. Le ratio long/court et l'open interest sont restés globalement neutres même après la purge, et la carte de chaleur des liquidations de CoinGlass montre déjà de nouveaux amas se reformer au-dessus comme en dessous du prix actuel. Maintenant que les positions courtes ont été évacuées, cet article vérifie — à travers les données de liquidation, les indicateurs de positionnement et la carte de liquidation — si le marché des dérivés s'est réellement allégé.</p>
+<p class="pt">Mas se essa liquidação terminou como uma simples limpeza ou realmente mudou a estrutura do mercado é outra questão. A razão comprado/vendido e o open interest permaneceram praticamente neutros mesmo após a varredura, e o mapa de calor de liquidações da CoinGlass já mostra novos aglomerados se formando tanto acima quanto abaixo do preço atual. Agora que os vendidos foram eliminados, esta análise verifica — através dos dados de liquidação, dos indicadores de posicionamento e do mapa de liquidação — se o mercado de derivativos realmente ficou mais leve.</p>
+<p class="tr">Ancak bu tasfiyenin basit bir temizlikle mi sona erdiği, yoksa piyasa yapısını gerçekten değiştirip değiştirmediği ayrı bir konu. Long/short oranı ve açık pozisyon, temizlik sonrasında bile büyük ölçüde nötr kaldı ve CoinGlass'ın tasfiye ısı haritası şimdiden mevcut fiyatın hem üstünde hem altında yeni kümelerin oluştuğunu gösteriyor. Short'lar temizlendiğine göre, bu yazı tasfiye verileri, pozisyonlama göstergeleri ve tasfiye haritası olmak üzere üç açıdan türev piyasasının gerçekten hafiflediğini kontrol ediyor.</p>
+<p class="vi">Nhưng việc đợt thanh lý này chỉ là một cuộc dọn dẹp đơn thuần hay thực sự đã thay đổi cấu trúc thị trường lại là chuyện khác. Tỷ lệ long/short và open interest vẫn ở mức gần như trung lập ngay cả sau đợt quét, và bản đồ nhiệt thanh lý của CoinGlass đã cho thấy các cụm mới đang hình thành lại cả phía trên lẫn phía dưới giá hiện tại. Giờ khi các vị thế short đã bị quét sạch, bài viết này kiểm tra — thông qua dữ liệu thanh lý, các chỉ số vị thế và bản đồ thanh lý — liệu thị trường phái sinh có thực sự nhẹ nhõm hơn hay không.</p>
+
+<div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="175" fill="#f4f4f5" font-size="150" font-weight="bold">84.8%</text>
+  <rect x="60" y="330" width="1080" height="64" rx="8" fill="#1e1e26"/>
+  <rect x="60" y="330" width="916" height="64" rx="8" fill="#ef4444"/>
+  <text x="90" y="373" fill="#0d0d0f" font-size="34" font-weight="bold">$31.66M</text>
+  <rect x="976" y="330" width="164" height="64" rx="8" fill="#22c55e"/>
+  <text x="990" y="373" fill="#0d0d0f" font-size="26" font-weight="bold">$5.66M</text>
+  <text x="60" y="470" fill="#f4f4f5" font-size="80" font-weight="bold">1.10</text>
+  <text x="60" y="512" fill="#38bdf8" font-size="32" font-weight="bold">L÷S</text>
+  <text x="360" y="470" fill="#f4f4f5" font-size="80" font-weight="bold">0.0043%</text>
+  <text x="360" y="512" fill="#38bdf8" font-size="32" font-weight="bold">OI+3.92%</text>
+  <image href="/oglogo/BTC.png" x="960" y="40" width="150" height="150"/>
+</svg></div>
+
+<h2 class="ko">청산 데이터부터 — 숏이 84.8%를 차지했다</h2>
+<h2 class="en">The Liquidation Numbers First — Shorts Made Up 84.8%</h2>
+<h2 class="ja">まず清算データ——ショートが84.8%を占めた</h2>
+<h2 class="es">Primero los Datos de Liquidación — los Cortos Representaron el 84,8%</h2>
+<h2 class="de">Erst die Liquidationsdaten — Shorts Machten 84,8 % Aus</h2>
+<h2 class="fr">D'abord les Données de Liquidation — les Positions Courtes Représentaient 84,8 %</h2>
+<h2 class="pt">Primeiro os Dados de Liquidação — Vendidos Representaram 84,8%</h2>
+<h2 class="tr">Önce Tasfiye Verileri — Short'lar %84,8'ini Oluşturdu</h2>
+<h2 class="vi">Trước Tiên Là Dữ Liệu Thanh Lý — Short Chiếm 84,8%</h2>
+
+<p class="ko">코인글래스 기준으로 최근 24시간 동안 크립토 파생상품 시장 전체에서 3,732만달러가 청산됐고 이 중 3,166만달러(84.8%)가 숏 포지션, 566만달러(15.2%)가 롱 포지션이었다. 방향이 완전히 반대인 사례와 비교하면 차이가 뚜렷하다—7월6일 가격이 밀렸을 때는 24시간 청산액 6,157만달러 가운데 롱이 4,791만달러로 대부분을 차지해 매수 쪽이 강제로 정리됐었다. 열흘 사이 청산의 주도권이 롱에서 숏으로 완전히 뒤집힌 셈이다.</p>
+<p class="en">Per CoinGlass, $37.32 million was liquidated across the entire crypto derivatives market over the past 24 hours, with $31.66 million (84.8%) coming from short positions and $5.66 million (15.2%) from longs. The contrast with a case running in the opposite direction is stark: when price sold off on July 6, longs accounted for the bulk of that day's $61.57 million in liquidations at $47.91 million, meaning buyers were the ones forced out. In roughly ten days, who's getting liquidated flipped completely from longs to shorts.</p>
+<p class="ja">コイングラスによれば、過去24時間で暗号資産デリバティブ市場全体で3,732万ドルが清算され、うち3,166万ドル(84.8%)がショートポジション、566万ドル(15.2%)がロングポジションだった。方向が完全に逆のケースと比べるとその差は際立つ——7月6日に価格が下落した際は、その日の清算額6,157万ドルのうちロングが大半の4,791万ドルを占め、買い方が強制的に処理された。わずか10日ほどの間に、清算の主導権がロングからショートへ完全に入れ替わったことになる。</p>
+<p class="es">Según CoinGlass, se liquidaron $37.32 millones en todo el mercado de derivados cripto en las últimas 24 horas, con $31.66 millones (84.8%) provenientes de posiciones cortas y $5.66 millones (15.2%) de largas. El contraste con un caso en dirección opuesta es marcado: cuando el precio cayó el 6 de julio, los largos representaron la mayor parte de los $61.57 millones liquidados ese día, con $47.91 millones, lo que significa que los compradores fueron los expulsados por la fuerza. En apenas diez días, quién está siendo liquidado se invirtió por completo, de largos a cortos.</p>
+<p class="de">Laut CoinGlass wurden in den vergangenen 24 Stunden am gesamten Krypto-Derivatemarkt 37,32 Millionen Dollar liquidiert, davon 31,66 Millionen Dollar (84,8 %) aus Short-Positionen und 5,66 Millionen Dollar (15,2 %) aus Long-Positionen. Der Kontrast zu einem Fall in die entgegengesetzte Richtung ist deutlich: Als der Preis am 6. Juli einbrach, entfiel der Großteil der an diesem Tag liquidierten 61,57 Millionen Dollar mit 47,91 Millionen Dollar auf Longs — Käufer wurden also zwangsweise hinausgedrängt. Innerhalb von rund zehn Tagen hat sich, wer liquidiert wird, komplett von Long zu Short gedreht.</p>
+<p class="fr">Selon CoinGlass, 37,32 millions de dollars ont été liquidés sur l'ensemble du marché des dérivés crypto au cours des dernières 24 heures, dont 31,66 millions de dollars (84,8 %) provenant de positions courtes et 5,66 millions de dollars (15,2 %) de positions longues. Le contraste avec un cas allant dans la direction opposée est frappant : lorsque le prix a chuté le 6 juillet, les positions longues représentaient l'essentiel des 61,57 millions de dollars liquidés ce jour-là, avec 47,91 millions de dollars, signe que les acheteurs avaient été évacués de force. En une dizaine de jours, la position liquidée majoritaire est passée entièrement des longs aux courts.</p>
+<p class="pt">Segundo a CoinGlass, US$ 37,32 milhões foram liquidados em todo o mercado de derivativos cripto nas últimas 24 horas, com US$ 31,66 milhões (84,8%) vindos de posições vendidas e US$ 5,66 milhões (15,2%) de compradas. O contraste com um caso na direção oposta é nítido: quando o preço caiu em 6 de julho, as compradas responderam pela maior parte dos US$ 61,57 milhões liquidados naquele dia, com US$ 47,91 milhões, ou seja, os compradores foram expulsos à força. Em cerca de dez dias, quem está sendo liquidado se inverteu completamente, de compradas para vendidas.</p>
+<p class="tr">CoinGlass'a göre son 24 saatte kripto türev piyasasının genelinde 37,32 milyon dolar tasfiye edildi; bunun 31,66 milyon dolarını (%84,8) short pozisyonlar, 5,66 milyon dolarını (%15,2) ise long pozisyonlar oluşturdu. Ters yöndeki bir örnekle karşılaştırma çarpıcı: 6 Temmuz'da fiyat düştüğünde, o günkü 61,57 milyon dolarlık tasfiyenin büyük kısmını 47,91 milyon dolarla long'lar oluşturmuş, yani alıcılar zorla piyasadan çıkarılmıştı. Yaklaşık on gün içinde tasfiye edilen tarafın long'dan short'a tamamen döndüğü görülüyor.</p>
+<p class="vi">Theo CoinGlass, 37,32 triệu đô la đã bị thanh lý trên toàn thị trường phái sinh tiền mã hóa trong 24 giờ qua, trong đó 31,66 triệu đô la (84,8%) đến từ vị thế short và 5,66 triệu đô la (15,2%) từ vị thế long. Sự tương phản với một trường hợp diễn ra theo chiều ngược lại rất rõ rệt: khi giá bán tháo vào ngày 6 tháng 7, long chiếm phần lớn trong số 61,57 triệu đô la bị thanh lý hôm đó với 47,91 triệu đô la, nghĩa là bên mua mới là phía bị đẩy ra cưỡng bức. Chỉ trong khoảng mười ngày, phía bị thanh lý chủ đạo đã đảo ngược hoàn toàn từ long sang short.</p>
+
+<p class="ko">다만 이 숫자 자체를 '매수세 승리'로 읽는 데는 함정이 있다. 숏스퀴즈는 강제 청산이 매수 주문으로 전환되며 가격을 밀어 올리고, 오른 가격이 다시 다음 숏을 청산시키는 자기강화적 구조다. 청산가가 어떻게 계산되고 왜 한번 시작되면 연쇄적으로 번지는지는 <a href="/blog/liquidation-price-math">레버리지 청산가 계산 원리</a>에서 다룬 그대로다. 즉 84.8%라는 숫자는 '얼마나 많은 숏이 강제로 정리됐는가'를 보여줄 뿐, '얼마나 많은 새 매수가 들어왔는가'를 보여주지는 않는다.</p>
+<p class="en">Still, reading that number alone as "buyers won" has a trap built in. A short squeeze is a self-reinforcing structure: forced liquidations turn into buy orders that push price up, and the higher price triggers the next round of short liquidations. How liquidation prices are calculated, and why they cascade once triggered, is covered in this site's piece on <a href="/en/blog/liquidation-price-math">how leveraged liquidation prices work</a>. In other words, 84.8% only tells you how many shorts got forced out — not how much fresh buying actually came in.</p>
+<p class="ja">ただし、この数字だけを「買い方の勝利」と読むには落とし穴がある。ショートスクイーズは、強制清算が買い注文に転じて価格を押し上げ、上がった価格が次のショート清算を引き起こすという自己増幅的な構造だ。清算価格がどう計算され、一度始まるとなぜ連鎖するのかは、当サイトの<a href="/ja/blog/liquidation-price-math">レバレッジ清算価格の計算原理</a>で扱った通りだ。つまり84.8%という数字は「どれだけのショートが強制的に処理されたか」を示すだけで、「どれだけ新規の買いが入ったか」を示すものではない。</p>
+<p class="es">Aun así, leer esa cifra solo como "ganaron los compradores" tiene una trampa incorporada. Un short squeeze es una estructura autorreforzada: las liquidaciones forzadas se convierten en órdenes de compra que empujan el precio al alza, y ese precio más alto desencadena la siguiente ronda de liquidaciones de cortos. Cómo se calculan los precios de liquidación y por qué se producen en cascada una vez activados se explica en el análisis de este sitio sobre <a href="/es/blog/liquidation-price-math">cómo funcionan los precios de liquidación apalancados</a>. En otras palabras, el 84,8% solo indica cuántos cortos fueron expulsados por la fuerza, no cuánta compra nueva realmente entró.</p>
+<p class="de">Dennoch birgt es eine Falle, diese Zahl allein als "Sieg der Käufer" zu lesen. Ein Short Squeeze ist eine selbstverstärkende Struktur: Zwangsliquidationen werden zu Kauforders, die den Preis nach oben treiben, und der höhere Preis löst die nächste Runde von Short-Liquidationen aus. Wie Liquidationspreise berechnet werden und warum sie sich einmal ausgelöst kaskadenartig fortsetzen, behandelt dieser Beitrag zu <a href="/de/blog/liquidation-price-math">der Funktionsweise gehebelter Liquidationspreise</a>. Mit anderen Worten: 84,8 % sagt nur aus, wie viele Shorts zwangsweise hinausgedrängt wurden — nicht, wie viel frisches Kaufinteresse tatsächlich hinzukam.</p>
+<p class="fr">Pourtant, lire ce seul chiffre comme une « victoire des acheteurs » comporte un piège. Un short squeeze est une structure auto-renforçante : les liquidations forcées se transforment en ordres d'achat qui poussent le prix à la hausse, et ce prix plus élevé déclenche la prochaine vague de liquidations de positions courtes. La manière dont les prix de liquidation sont calculés, et pourquoi ils s'enchaînent une fois déclenchés, est détaillée dans l'article de ce site sur <a href="/fr/blog/liquidation-price-math">le fonctionnement des prix de liquidation à effet de levier</a>. Autrement dit, 84,8 % indique seulement combien de positions courtes ont été évacuées de force — pas combien de nouveaux achats sont réellement entrés.</p>
+<p class="pt">Ainda assim, ler esse número apenas como "os compradores venceram" tem uma armadilha embutida. Um short squeeze é uma estrutura autorreforçada: liquidações forçadas se transformam em ordens de compra que empurram o preço para cima, e o preço mais alto desencadeia a próxima rodada de liquidações de vendidos. Como os preços de liquidação são calculados, e por que eles se propagam em cascata uma vez acionados, está explicado no texto deste site sobre <a href="/pt/blog/liquidation-price-math">como funcionam os preços de liquidação alavancados</a>. Em outras palavras, 84,8% só mostra quantos vendidos foram expulsos à força — não quanta compra nova realmente entrou.</p>
+<p class="tr">Yine de bu rakamı yalnızca "alıcılar kazandı" olarak okumak bir tuzak barındırıyor. Short squeeze kendi kendini besleyen bir yapıdır: zorunlu tasfiyeler alım emirlerine dönüşerek fiyatı yukarı iter, yükselen fiyat da bir sonraki short tasfiye turunu tetikler. Tasfiye fiyatlarının nasıl hesaplandığı ve bir kez tetiklendiğinde neden zincirleme yayıldığı, bu sitenin <a href="/tr/blog/liquidation-price-math">kaldıraçlı tasfiye fiyatlarının nasıl işlediğine</a> dair yazısında ele alınıyor. Başka bir deyişle %84,8 yalnızca kaç short'un zorla piyasadan çıkarıldığını gösteriyor — ne kadar yeni alımın gerçekten girdiğini değil.</p>
+<p class="vi">Tuy nhiên, chỉ đọc con số đó là "bên mua đã thắng" thì ẩn chứa một cái bẫy. Short squeeze là một cấu trúc tự củng cố: các lệnh thanh lý cưỡng bức biến thành lệnh mua đẩy giá lên, và giá cao hơn lại kích hoạt vòng thanh lý short tiếp theo. Cách tính giá thanh lý và lý do vì sao chúng lan theo hiệu ứng domino một khi đã kích hoạt được trình bày trong bài viết của trang này về <a href="/vi/blog/liquidation-price-math">cách giá thanh lý đòn bẩy hoạt động</a>. Nói cách khác, con số 84,8% chỉ cho biết bao nhiêu short đã bị buộc phải đóng — chứ không cho biết thực sự có bao nhiêu lực mua mới đã vào.</p>
+
+<h2 class="ko">롱숏비율과 미결제약정 — 청산은 됐는데 포지셔닝은 그대로 중립</h2>
+<h2 class="en">Long/Short Ratio and Open Interest — Cleared Out, But Positioning Stayed Neutral</h2>
+<h2 class="ja">ロングショート比率と建玉——清算はされたが、ポジショニングは中立のまま</h2>
+<h2 class="es">Ratio Largo/Corto y Interés Abierto — Se Limpió, Pero el Posicionamiento Sigue Neutral</h2>
+<h2 class="de">Long/Short-Verhältnis und Open Interest — Bereinigt, aber Positionierung Bleibt Neutral</h2>
+<h2 class="fr">Ratio Long/Court et Open Interest — Nettoyé, Mais le Positionnement Reste Neutre</h2>
+<h2 class="pt">Razão Comprado/Vendido e Open Interest — Limpou, Mas o Posicionamento Segue Neutro</h2>
+<h2 class="tr">Long/Short Oranı ve Açık Pozisyon — Temizlendi Ama Pozisyonlama Nötr Kaldı</h2>
+<h2 class="vi">Tỷ Lệ Long/Short và Open Interest — Đã Dọn Dẹp, Nhưng Vị Thế Vẫn Trung Lập</h2>
+
+<p class="ko">코인알라이즈 기준 비트코인 전체 롱숏비율은 1.0986으로 롱이 살짝 우세할 뿐 사실상 중립에 가깝다. 개인 트레이더 비중이 큰 바이낸스 BTCUSDT 무기한선물만 떼어봐도 롱 54.1%·숏 45.9%(비율 1.18)로 '균형' 구간을 벗어나지 않는다. 미결제약정은 489억3,000만달러로 최근 30일간 3.92% 늘어나는 데 그쳤고, 펀딩비도 하루 0.0043%(연율 약 1.56%)로 롱도 숏도 뚜렷한 웃돈을 지불하지 않는 중립권이다.</p>
+<p class="en">Per Coinalyze, Bitcoin's overall long/short ratio sits at 1.0986 — longs hold only a slight edge, which is close to neutral in practice. Even isolating Binance's BTCUSDT perpetuals, where retail traders dominate, longs are 54.1% versus 45.9% shorts (a 1.18 ratio) — still within the "balanced" band. Open interest sits at $48.93 billion, up just 3.92% over the past 30 days, and funding is running at 0.0043% per day (about 1.56% annualized) — a neutral level where neither longs nor shorts are paying a clear premium.</p>
+<p class="ja">コインアライズによると、ビットコイン全体のロングショート比率は1.0986で、ロングがわずかに優勢なだけで実質的には中立に近い。個人トレーダーの比重が大きいバイナンスのBTCUSDT無期限先物だけを見ても、ロング54.1%・ショート45.9%(比率1.18)と「均衡」圏を出ていない。建玉は489億3,000万ドルで、過去30日間でわずか3.92%増にとどまり、ファンディングレートも1日0.0043%(年率約1.56%)と、ロングもショートも明確なプレミアムを払っていない中立水準だ。</p>
+<p class="es">Según Coinalyze, el ratio largo/corto general de Bitcoin se sitúa en 1,0986 — los largos tienen apenas una ligera ventaja, prácticamente neutral en la práctica. Incluso aislando los perpetuos BTCUSDT de Binance, donde dominan los traders minoristas, los largos son 54,1% frente a 45,9% de cortos (ratio de 1,18) — todavía dentro de la banda "equilibrada". El interés abierto se ubica en $48,930 millones, con apenas un 3,92% de aumento en los últimos 30 días, y el financiamiento corre al 0,0043% diario (cerca de 1,56% anualizado) — un nivel neutral donde ni largos ni cortos pagan una prima clara.</p>
+<p class="de">Laut Coinalyze liegt Bitcoins gesamtes Long/Short-Verhältnis bei 1,0986 — Longs haben nur einen leichten Vorsprung, praktisch nahe neutral. Selbst isoliert man Binances BTCUSDT-Perpetuals, wo Privatanleger dominieren, liegen Longs bei 54,1 % gegenüber 45,9 % Shorts (Verhältnis 1,18) — noch immer im "ausgeglichenen" Band. Das Open Interest liegt bei 48,93 Milliarden Dollar, in den vergangenen 30 Tagen nur um 3,92 % gestiegen, und die Finanzierung läuft bei 0,0043 % pro Tag (rund 1,56 % annualisiert) — ein neutrales Niveau, bei dem weder Longs noch Shorts eine klare Prämie zahlen.</p>
+<p class="fr">Selon Coinalyze, le ratio long/court global du bitcoin se situe à 1,0986 — les longs n'ont qu'une légère avance, ce qui est proche de la neutralité en pratique. Même en isolant les perpétuels BTCUSDT de Binance, dominés par les traders particuliers, les longs représentent 54,1 % contre 45,9 % de courts (ratio de 1,18) — toujours dans la bande « équilibrée ». L'open interest s'établit à 48,93 milliards de dollars, en hausse de seulement 3,92 % sur les 30 derniers jours, et le financement tourne à 0,0043 % par jour (environ 1,56 % annualisé) — un niveau neutre où ni les longs ni les courts ne paient de prime nette.</p>
+<p class="pt">Segundo a Coinalyze, a razão comprado/vendido geral do bitcoin está em 1,0986 — as compradas têm apenas uma leve vantagem, praticamente neutra na prática. Mesmo isolando os perpétuos BTCUSDT da Binance, onde predominam traders de varejo, as compradas somam 54,1% contra 45,9% de vendidas (razão de 1,18) — ainda dentro da faixa "equilibrada". O open interest está em US$ 48,93 bilhões, com alta de apenas 3,92% nos últimos 30 dias, e o financiamento corre a 0,0043% ao dia (cerca de 1,56% anualizado) — um nível neutro em que nem compradas nem vendidas pagam um prêmio claro.</p>
+<p class="tr">Coinalyze'a göre Bitcoin'in genel long/short oranı 1,0986 — long'lar yalnızca hafif bir üstünlüğe sahip, pratikte nötre yakın. Perakende yatırımcıların ağırlıkta olduğu Binance BTCUSDT sürekli vadeli işlemlerine bakıldığında bile long %54,1, short %45,9 (oran 1,18) ile hâlâ "dengeli" bandın içinde. Açık pozisyon 48,93 milyar dolar ile son 30 günde yalnızca %3,92 arttı, fonlama ise günlük %0,0043 (yıllıklandırılmış yaklaşık %1,56) ile ne long'ların ne de short'ların net bir prim ödemediği nötr bir seviyede.</p>
+<p class="vi">Theo Coinalyze, tỷ lệ long/short tổng thể của Bitcoin đang ở mức 1,0986 — long chỉ nhỉnh hơn một chút, gần như trung lập trên thực tế. Ngay cả khi chỉ xét riêng hợp đồng vĩnh cửu BTCUSDT trên Binance, nơi nhà giao dịch cá nhân chiếm ưu thế, long chiếm 54,1% so với 45,9% short (tỷ lệ 1,18) — vẫn nằm trong vùng "cân bằng". Open interest ở mức 48,93 tỷ đô la, chỉ tăng 3,92% trong 30 ngày qua, và funding đang ở mức 0,0043%/ngày (khoảng 1,56%/năm) — một mức trung lập nơi cả long lẫn short đều không trả phí bảo hiểm rõ rệt.</p>
+
+<p class="ko">전형적인 숏스퀴즈 이후 랠리라면 청산된 숏 자리를 추세추종형 신규 롱이 채우면서 롱숏비율이 뚜렷하게 롱 쪽으로 기울고 미결제약정도 함께 늘어나는 경우가 많다. <a href="/blog/open-interest-guide">미결제약정</a>이 시장에 걸린 베팅의 총량이라는 점을 감안하면, 지금처럼 청산 이후에도 그 총량이 거의 그대로라는 건 이번 상승에 새로 올라탄 레버리지가 많지 않다는 뜻으로 읽힌다. 숏은 빠졌는데 롱도 별로 안 들어온, '레버리지가 비켜서 있는' 국면이다.</p>
+<p class="en">In a typical post-short-squeeze rally, trend-following new longs fill the space left by liquidated shorts, tilting the long/short ratio clearly toward longs while open interest climbs alongside it. Given that <a href="/en/blog/open-interest-guide">open interest</a> represents the total amount of leveraged bets on the market, that total barely moving even after this liquidation suggests not much fresh leverage has actually climbed aboard the rally. Shorts left, but longs didn't really show up either — leverage, for now, is standing on the sidelines.</p>
+<p class="ja">典型的なショートスクイーズ後のラリーでは、清算されたショートの穴をトレンドフォロー型の新規ロングが埋め、ロングショート比率が明確にロング側に傾き、建玉も一緒に増えることが多い。<a href="/ja/blog/open-interest-guide">建玉</a>が市場に賭けられているベットの総量であることを踏まえると、今回のようにこの清算後もその総量がほぼ変わっていないのは、今回の上昇に新規レバレッジがあまり乗っていないことを示していると読める。ショートは抜けたがロングもさほど入ってこない、「レバレッジが様子見に回っている」局面だ。</p>
+<p class="es">En un repunte típico posterior a un short squeeze, nuevos largos que siguen la tendencia llenan el espacio dejado por los cortos liquidados, inclinando claramente el ratio largo/corto hacia los largos mientras el interés abierto sube junto con él. Dado que el <a href="/es/blog/open-interest-guide">interés abierto</a> representa el monto total de apuestas apalancadas en el mercado, que ese total apenas se mueva incluso después de esta liquidación sugiere que no ha entrado mucho apalancamiento nuevo al repunte. Los cortos se fueron, pero los largos tampoco aparecieron realmente — el apalancamiento, por ahora, se mantiene al margen.</p>
+<p class="de">Bei einer typischen Rallye nach einem Short Squeeze füllen trendfolgende neue Longs die von liquidierten Shorts hinterlassene Lücke, wodurch sich das Long/Short-Verhältnis klar zugunsten der Longs verschiebt, während das Open Interest mitwächst. Da das <a href="/de/blog/open-interest-guide">Open Interest</a> die Gesamtsumme der gehebelten Wetten am Markt darstellt, deutet die Tatsache, dass sich diese Summe auch nach dieser Liquidation kaum bewegt hat, darauf hin, dass nicht viel frisches Leverage tatsächlich in die Rallye eingestiegen ist. Shorts sind gegangen, aber Longs sind auch nicht wirklich aufgetaucht — Leverage steht vorerst am Spielfeldrand.</p>
+<p class="fr">Dans un rallye typique après un short squeeze, de nouveaux longs suiveurs de tendance comblent l'espace laissé par les positions courtes liquidées, faisant clairement pencher le ratio long/court vers les longs tandis que l'open interest grimpe en parallèle. Étant donné que l'<a href="/fr/blog/open-interest-guide">open interest</a> représente le montant total des paris à effet de levier sur le marché, le fait que ce total bouge à peine même après cette liquidation suggère que peu de nouveau levier a réellement embarqué dans le rallye. Les positions courtes sont parties, mais les longues ne sont pas vraiment arrivées non plus — le levier, pour l'instant, reste en touche.</p>
+<p class="pt">Em um rali típico pós-short squeeze, novos comprados que seguem a tendência preenchem o espaço deixado pelos vendidos liquidados, inclinando claramente a razão comprado/vendido para o lado comprado enquanto o open interest sobe junto. Considerando que o <a href="/pt/blog/open-interest-guide">open interest</a> representa o total de apostas alavancadas no mercado, esse total mal se mexer mesmo depois dessa liquidação sugere que pouca alavancagem nova de fato embarcou no rali. Os vendidos saíram, mas os comprados também não apareceram muito — a alavancagem, por ora, está de fora.</p>
+<p class="tr">Tipik bir short squeeze sonrası ralide, tasfiye edilen shortların bıraktığı boşluğu trend takip eden yeni longlar doldurur, long/short oranı belirgin biçimde long tarafına kayar ve açık pozisyon da birlikte artar. <a href="/tr/blog/open-interest-guide">Açık pozisyonun</a> piyasadaki kaldıraçlı bahislerin toplam tutarını temsil ettiği düşünüldüğünde, bu tasfiyeden sonra bile bu toplamın neredeyse hiç kıpırdamaması, ralliye pek fazla taze kaldıraç binmediğini gösteriyor. Shortlar çıktı ama longlar da pek gelmedi — kaldıraç şimdilik kenarda bekliyor.</p>
+<p class="vi">Trong một đợt tăng điển hình sau short squeeze, các vị thế long mới chạy theo xu hướng sẽ lấp đầy khoảng trống do short bị thanh lý để lại, khiến tỷ lệ long/short nghiêng rõ rệt về phía long trong khi open interest cũng tăng theo. Vì <a href="/vi/blog/open-interest-guide">open interest</a> đại diện cho tổng số tiền cược có đòn bẩy trên thị trường, việc tổng số này gần như không nhúc nhích ngay cả sau đợt thanh lý này cho thấy chưa có nhiều đòn bẩy mới thực sự tham gia vào đà tăng. Short đã rút, nhưng long cũng chưa thực sự xuất hiện — đòn bẩy, ít nhất lúc này, vẫn đứng ngoài cuộc.</p>
+
+<h2 class="ko">청산 히트맵 — 치워지자마자 다시 쌓인 매물대</h2>
+<h2 class="en">The Liquidation Heatmap — New Clusters Rebuilt as Soon as the Old Ones Cleared</h2>
+<h2 class="ja">清算ヒートマップ——片付いた直後にまた積み上がった密集帯</h2>
+<h2 class="es">El Mapa de Calor de Liquidaciones — Nuevos Cúmulos se Reconstruyeron Apenas se Limpiaron los Viejos</h2>
+<h2 class="de">Die Liquidations-Heatmap — Neue Cluster Bildeten Sich, Sobald die Alten Verschwanden</h2>
+<h2 class="fr">La Carte de Chaleur des Liquidations — de Nouveaux Amas se Sont Reformés Dès que les Anciens ont Disparu</h2>
+<h2 class="pt">O Mapa de Calor de Liquidações — Novos Aglomerados se Reformaram Assim que os Antigos Sumiram</h2>
+<h2 class="tr">Tasfiye Isı Haritası — Eskiler Temizlenir Temizlenmez Yeni Kümeler Oluştu</h2>
+<h2 class="vi">Bản Đồ Nhiệt Thanh Lý — Cụm Mới Hình Thành Ngay Khi Cụm Cũ Vừa Biến Mất</h2>
+
+<p class="ko">데일리포렉스 등이 인용한 코인글래스 청산 히트맵을 보면, 이번 청산으로 레버리지가 정리된 지 하루이틀 만에 벌써 새로운 밀집구간이 형성됐다. 위쪽으로는 6만5,000~6만5,500달러 구간에 청산 물량이 쌓였고, 아래쪽으로는 6만3,000달러 부근에 또 다른 밀집구간이 잡힌다. CME 7월물 선물도 6만5,090달러(전일比 +0.58%)로 현물과 큰 괴리 없이 같은 구간에서 움직이고 있다.</p>
+<p class="en">CoinGlass's liquidation heatmap, cited by outlets like DailyForex, shows new dense clusters have already formed just a day or two after this liquidation flush cleared leverage out. Above current price, liquidation-linked positions have piled up in the $65,000-$65,500 band; below it, another cluster sits around $63,000. CME's July futures contract is trading at $65,090 (+0.58% from the prior session), moving in roughly the same range as spot with no major gap.</p>
+<p class="ja">デイリーフォレックスなどが引用するコイングラスの清算ヒートマップを見ると、今回の清算でレバレッジが片付いてからわずか一、二日で、すでに新たな密集帯が形成されている。現在価格の上には6万5,000~6万5,500ドル圏に清算関連ポジションが積み上がり、下には6万3,000ドル付近にまた別の密集帯がある。CMEの7月物先物も6万5,090ドル(前セッション比+0.58%)と、現物と大きな乖離なく同じ圏内で動いている。</p>
+<p class="es">El mapa de calor de liquidaciones de CoinGlass, citado por medios como DailyForex, muestra que ya se han formado nuevos cúmulos densos apenas uno o dos días después de que esta purga de liquidación despejara el apalancamiento. Por encima del precio actual, posiciones vinculadas a liquidaciones se han acumulado en la banda de $65,000-$65,500; por debajo, otro cúmulo se sitúa alrededor de $63,000. El contrato de futuros de julio de CME cotiza en $65,090 (+0.58% respecto a la sesión anterior), moviéndose aproximadamente en el mismo rango que el spot sin una brecha importante.</p>
+<p class="de">CoinGlass' Liquidations-Heatmap, zitiert von Medien wie DailyForex, zeigt, dass sich bereits ein bis zwei Tage nach dieser Liquidationswelle neue dichte Cluster gebildet haben. Über dem aktuellen Preis haben sich liquidationsgebundene Positionen im Band von 65.000-65.500 Dollar aufgetürmt; darunter liegt ein weiterer Cluster bei rund 63.000 Dollar. Der CME-Juli-Futures-Kontrakt notiert bei 65.090 Dollar (+0,58 % gegenüber der Vorsitzung) und bewegt sich damit ohne größere Lücke etwa im selben Bereich wie der Spotpreis.</p>
+<p class="fr">La carte de chaleur des liquidations de CoinGlass, citée par des médias comme DailyForex, montre que de nouveaux amas denses se sont déjà formés à peine un ou deux jours après que cette purge a nettoyé le levier. Au-dessus du prix actuel, des positions liées aux liquidations se sont accumulées dans la bande 65 000-65 500 dollars ; en dessous, un autre amas se situe autour de 63 000 dollars. Le contrat à terme de juillet du CME s'échange à 65 090 dollars (+0,58 % par rapport à la séance précédente), évoluant à peu près dans la même fourchette que le comptant sans écart majeur.</p>
+<p class="pt">O mapa de calor de liquidações da CoinGlass, citado por veículos como o DailyForex, mostra que novos aglomerados densos já se formaram apenas um ou dois dias depois que essa varredura limpou a alavancagem. Acima do preço atual, posições ligadas a liquidações se acumularam na faixa de US$ 65.000-65.500; abaixo, outro aglomerado fica perto de US$ 63.000. O contrato futuro de julho da CME é negociado a US$ 65.090 (+0,58% em relação à sessão anterior), movendo-se aproximadamente na mesma faixa do mercado à vista, sem grande hiato.</p>
+<p class="tr">DailyForex gibi mecraların da aktardığı CoinGlass tasfiye ısı haritası, bu tasfiye dalgası kaldıracı temizledikten yalnızca bir iki gün sonra bile yeni yoğun kümelerin oluştuğunu gösteriyor. Mevcut fiyatın üzerinde, tasfiyeyle bağlantılı pozisyonlar 65.000-65.500 dolar bandında birikmiş durumda; altında ise 63.000 dolar civarında başka bir küme bulunuyor. CME'nin Temmuz vadeli sözleşmesi de 65.090 dolardan (önceki seansa göre +%0,58) işlem görüyor ve spot ile büyük bir fark olmadan aynı aralıkta hareket ediyor.</p>
+<p class="vi">Bản đồ nhiệt thanh lý của CoinGlass, được các trang như DailyForex trích dẫn, cho thấy các cụm dày đặc mới đã hình thành chỉ một hai ngày sau khi đợt quét thanh lý này dọn sạch đòn bẩy. Phía trên giá hiện tại, các vị thế liên quan đến thanh lý đã chất đống trong vùng 65.000-65.500 đô la; phía dưới, một cụm khác nằm quanh mức 63.000 đô la. Hợp đồng tương lai tháng 7 của CME đang giao dịch ở mức 65.090 đô la (+0,58% so với phiên trước), di chuyển gần như trong cùng biên độ với giá giao ngay mà không có khoảng cách lớn.</p>
+
+<p class="ko">이 구조가 의미하는 건 단순하다. 가격이 6만5,500달러를 뚫으면 그 위에 쌓인 숏들이 다시 강제 청산되며 또 한 차례 스퀴즈가 나올 수 있고, 반대로 6만3,000달러 아래로 밀리면 이번엔 최근 며칠 사이 올라탄 롱들이 청산되며 하락이 가속될 수 있다. 즉 7월14~15일의 청산은 레버리지를 시장에서 없앤 게 아니라, 그 자리를 비우자마자 다른 트레이더들이 비슷한 구간에 다시 채워 넣은 셈에 가깝다.</p>
+<p class="en">What this structure means is straightforward. If price breaks above $65,500, the shorts piled up there could get force-closed again, triggering another squeeze leg; if it instead slips below $63,000, the longs that climbed aboard over the past few days could get liquidated, accelerating the decline. In other words, the July 14-15 liquidation didn't remove leverage from the market — it emptied one spot only for other traders to refill roughly the same zones almost immediately.</p>
+<p class="ja">この構造が意味することは単純だ。価格が6万5,500ドルを上抜ければ、その上に積み上がったショートが再び強制決済され、もう一段のスクイーズが起きるかもしれない。逆に6万3,000ドルを下回れば、ここ数日で乗ってきたロングが清算され、下落が加速する可能性がある。つまり7月14~15日の清算は、市場からレバレッジを取り除いたのではなく、空いた場所に他のトレーダーがほぼ同じ水準へすぐに再び埋め込んだに近い。</p>
+<p class="es">Lo que significa esta estructura es sencillo. Si el precio rompe por encima de $65,500, los cortos acumulados allí podrían volver a ser cerrados por la fuerza, desencadenando otro tramo de squeeze; si en cambio cae por debajo de $63,000, los largos que se sumaron en los últimos días podrían ser liquidados, acelerando la caída. En otras palabras, la liquidación del 14-15 de julio no eliminó apalancamiento del mercado — vació un lugar solo para que otros traders volvieran a llenar prácticamente las mismas zonas casi de inmediato.</p>
+<p class="de">Was diese Struktur bedeutet, ist einfach. Bricht der Preis über 65.500 Dollar aus, könnten die dort aufgetürmten Shorts erneut zwangsweise geschlossen werden und eine weitere Squeeze-Welle auslösen; rutscht er stattdessen unter 63.000 Dollar, könnten die in den vergangenen Tagen eingestiegenen Longs liquidiert werden und den Rückgang beschleunigen. Anders gesagt: Die Liquidation vom 14./15. Juli hat dem Markt kein Leverage entzogen — sie hat lediglich eine Stelle geleert, damit andere Trader nahezu dieselben Zonen fast sofort wieder auffüllen.</p>
+<p class="fr">Ce que signifie cette structure est simple. Si le prix franchit 65 500 dollars à la hausse, les positions courtes qui s'y sont accumulées pourraient être à nouveau clôturées de force, déclenchant une nouvelle vague de squeeze ; s'il glisse plutôt sous 63 000 dollars, les longs qui se sont ajoutés ces derniers jours pourraient être liquidés, accélérant la baisse. Autrement dit, la liquidation des 14-15 juillet n'a pas retiré de levier du marché — elle a simplement vidé un endroit pour que d'autres traders remplissent presque aussitôt à peu près les mêmes zones.</p>
+<p class="pt">O que essa estrutura significa é simples. Se o preço romper acima de US$ 65.500, os vendidos acumulados ali poderiam ser fechados à força novamente, desencadeando mais uma etapa de squeeze; se, em vez disso, cair abaixo de US$ 63.000, os comprados que embarcaram nos últimos dias poderiam ser liquidados, acelerando a queda. Em outras palavras, a liquidação de 14-15 de julho não retirou alavancagem do mercado — apenas esvaziou um ponto para que outros traders preenchessem quase imediatamente praticamente as mesmas zonas.</p>
+<p class="tr">Bu yapının anlamı basit. Fiyat 65.500 doların üzerine çıkarsa, orada birikmiş shortlar yeniden zorla kapatılabilir ve yeni bir squeeze dalgası tetiklenebilir; bunun yerine 63.000 doların altına inerse, son birkaç günde binen longlar tasfiye edilerek düşüşü hızlandırabilir. Başka bir deyişle, 14-15 Temmuz tasfiyesi piyasadan kaldıracı kaldırmadı — sadece bir noktayı boşalttı ve diğer tüccarlar neredeyse aynı bölgeleri hemen hemen anında yeniden doldurdu.</p>
+<p class="vi">Ý nghĩa của cấu trúc này rất đơn giản. Nếu giá phá vỡ lên trên vùng 65.000-65.500 đô la, các vị thế short chất đống ở đó có thể bị đóng cưỡng bức lần nữa, kích hoạt thêm một đợt squeeze; ngược lại nếu giá trượt xuống dưới 63.000 đô la, các vị thế long mới tham gia trong vài ngày qua có thể bị thanh lý, khiến đà giảm tăng tốc. Nói cách khác, đợt thanh lý ngày 14-15 tháng 7 không loại bỏ đòn bẩy khỏi thị trường — nó chỉ dọn trống một chỗ để các nhà giao dịch khác gần như ngay lập tức lấp đầy lại gần đúng những vùng đó.</p>
+
+<div class="ko"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">청산은 숏 84.8%, 그런데 포지셔닝은 중립</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">7월16일 기준 청산·롱숏비율·청산 히트맵 점검</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">청산 비중 (최근 24시간, 코인글래스)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">숏 84.8% · $31.66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15.2%</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">롱 $5.66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* 7월6일엔 반대: 청산 $61.57M 중 롱이 $47.91M(78%)</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">포지셔닝 지표 — 청산 후에도 중립</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">롱숏비율</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1.10 (중립)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30일)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3.92% · $489억</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">펀딩비</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0.0043%/일</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">청산 히트맵 — 위아래 새 매물대 (코인글래스)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$63,000 부근</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">롱 청산 클러스터</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">뚫리면 하락 가속 가능</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">$64,600~65,300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">현재가 (7/16 오후)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$65,000~65,500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">숏 청산 클러스터</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">뚫리면 재스퀴즈 가능</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* 수치는 각 데이터 제공처 기준 근사치이며 소스·집계 시점에 따라 편차가 있을 수 있다. 투자 조언 아님.</text>
+</svg></div>
+<div class="en"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Shorts Made Up 84.8% of Liquidations — Yet Positioning Stayed Neutral</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Checking liquidations, long/short ratio, and the liquidation heatmap as of July 16</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Liquidation Split (Past 24h, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Short 84.8% · $31.66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15.2%</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long $5.66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* Reversed on July 6: longs made up $47.91M (78%) of that day's $61.57M in liquidations</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Positioning Indicators — Still Neutral After the Flush</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long/Short Ratio</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1.10 (neutral)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30d)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3.92% · $48.9B</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Funding</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0.0043%/day</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Liquidation Heatmap — New Clusters Above and Below (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$63,000 area</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Long liquidation cluster</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Break could accelerate decline</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">$64,600-65,300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Current price (afternoon 7/16)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$65,000-65,500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Short liquidation cluster</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Break could trigger re-squeeze</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Figures are approximate per data provider and may vary by source/timing. Not investment advice.</text>
+</svg></div>
+<div class="ja"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">清算はショート84.8%、でもポジショニングは中立のまま</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">7月16日時点の清算・ロングショート比率・清算ヒートマップ点検</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">清算比率(過去24時間、コイングラス)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">ショート84.8% · $31.66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15.2%</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">ロング $5.66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* 7月6日は逆——その日の清算$61.57M中、ロングが$47.91M(78%)</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">ポジショニング指標——清算後も中立</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">ロングショート比率</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1.10(中立)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI(30日)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3.92% · $489億</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">ファンディング</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0.0043%/日</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">清算ヒートマップ——上下に新たな密集帯(コイングラス)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$63,000付近</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">ロング清算クラスター</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">抜けると下落加速の可能性</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">$64,600~65,300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">現在価格(7/16午後)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$65,000~65,500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">ショート清算クラスター</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">抜けると再スクイーズの可能性</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* 数値は各データ提供元に基づく近似値。ソース・時点により差異あり。投資助言ではない。</text>
+</svg></div>
+<div class="es"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Los Cortos Representaron el 84,8% de las Liquidaciones — Pero el Posicionamiento Sigue Neutral</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Revisando liquidaciones, ratio largo/corto y el mapa de calor al 16 de julio</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Reparto de Liquidaciones (24h, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Corto 84,8% · $31,66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15,2%</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Largo $5,66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* Al revés el 6 de julio: los largos fueron $47,91M (78%) de los $61,57M liquidados ese día</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Indicadores de Posicionamiento — Aún Neutrales Tras la Purga</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Ratio Largo/Corto</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1,10 (neutral)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30d)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3,92% · $48.900M</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Financiamiento</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0,0043%/día</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Mapa de Calor de Liquidaciones — Nuevos Cúmulos Arriba y Abajo (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Zona $63.000</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Cúmulo de liquidación larga</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Romper podría acelerar la caída</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">$64.600-65.300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Precio actual (tarde 16/7)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$65.000-65.500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Cúmulo de liquidación corta</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Romper podría gatillar otro squeeze</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Cifras aproximadas según proveedor; pueden variar según fuente/momento. No es asesoramiento de inversión.</text>
+</svg></div>
+<div class="de"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Shorts Machten 84,8 % der Liquidationen Aus — Positionierung Blieb Trotzdem Neutral</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Liquidationen, Long/Short-Verhältnis und Heatmap zum 16. Juli im Check</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Liquidationsaufteilung (24h, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Short 84,8 % · 31,66 Mio.$</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15,2 %</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long 5,66 Mio.$</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* Am 6. Juli umgekehrt: Longs machten 47,91 Mio.$ (78 %) der 61,57 Mio.$ an diesem Tag aus</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Positionierungsindikatoren — Nach der Flush Weiterhin Neutral</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long/Short-Verhältnis</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1,10 (neutral)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30T)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3,92 % · 48,9 Mrd.$</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Finanzierung</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0,0043 %/Tag</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Liquidations-Heatmap — Neue Cluster Oben und Unten (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Bereich 63.000$</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Long-Liquidationscluster</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Bruch könnte Rückgang beschleunigen</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">64.600-65.300$</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Aktueller Preis (Nachmittag 16.7.)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">65.000-65.500$</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Short-Liquidationscluster</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Bruch könnte neuen Squeeze auslösen</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Zahlen sind Näherungswerte je nach Anbieter; können je nach Quelle/Zeitpunkt variieren. Keine Anlageberatung.</text>
+</svg></div>
+<div class="fr"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Les Positions Courtes Représentaient 84,8 % des Liquidations — Le Positionnement Reste Pourtant Neutre</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Liquidations, ratio long/court et carte de chaleur au 16 juillet</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Répartition des Liquidations (24h, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Court 84,8 % · 31,66 M$</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15,2 %</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long 5,66 M$</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* Inversé le 6 juillet : les longs représentaient 47,91 M$ (78 %) des 61,57 M$ liquidés ce jour-là</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Indicateurs de Positionnement — Toujours Neutres Après la Purge</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Ratio Long/Court</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1,10 (neutre)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30j)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3,92 % · 48,9 Md$</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Financement</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0,0043 %/jour</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Carte de Chaleur des Liquidations — Nouveaux Amas au-Dessus et en Dessous (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Zone 63 000 $</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Amas de liquidation longue</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Une cassure pourrait accélérer la baisse</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">64 600-65 300 $</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Prix actuel (après-midi 16/7)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">65 000-65 500 $</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Amas de liquidation courte</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Une cassure pourrait déclencher un squeeze</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Chiffres approximatifs selon le fournisseur ; peuvent varier selon la source/le moment. Pas un conseil en investissement.</text>
+</svg></div>
+<div class="pt"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Vendidos Foram 84,8% das Liquidações — Mas o Posicionamento Seguiu Neutro</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Checando liquidações, razão comprado/vendido e o mapa de calor em 16 de julho</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Divisão das Liquidações (24h, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Vendido 84,8% · US$ 31,66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15,2%</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Comprado US$ 5,66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* Invertido em 6 de julho: comprados foram US$ 47,91M (78%) dos US$ 61,57M liquidados naquele dia</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Indicadores de Posicionamento — Ainda Neutros Após a Varredura</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Razão Comprado/Vendido</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1,10 (neutro)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30d)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3,92% · US$ 48,9B</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Financiamento</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0,0043%/dia</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Mapa de Calor de Liquidações — Novos Aglomerados Acima e Abaixo (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Região de US$ 63.000</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Aglomerado de liquidação comprada</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Romper pode acelerar a queda</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">US$ 64.600-65.300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Preço atual (tarde de 16/7)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">US$ 65.000-65.500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Aglomerado de liquidação vendida</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Romper pode gerar novo squeeze</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Números aproximados conforme o provedor; podem variar por fonte/momento. Não é aconselhamento de investimento.</text>
+</svg></div>
+<div class="tr"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Tasfiyelerin %84,8'i Short'tan Geldi — Ama Pozisyonlama Nötr Kaldı</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">16 Temmuz itibarıyla tasfiyeler, long/short oranı ve ısı haritası kontrolü</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Tasfiye Dağılımı (24s, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Short %84,8 · $31,66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">%15,2</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long $5,66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* 6 Temmuz'da tam tersi: o günkü $61,57M tasfiyenin $47,91M'ini (%78) longlar oluşturdu</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Pozisyonlama Göstergeleri — Temizlik Sonrası Hâlâ Nötr</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long/Short Oranı</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1,10 (nötr)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30g)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+%3,92 · $48,9Mr</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Fonlama</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">%0,0043/gün</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Tasfiye Isı Haritası — Üstte ve Altta Yeni Kümeler (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$63.000 bölgesi</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Long tasfiye kümesi</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Kırılırsa düşüş hızlanabilir</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">$64.600-65.300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Güncel fiyat (16/7 öğleden sonra)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$65.000-65.500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Short tasfiye kümesi</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Kırılırsa yeni squeeze tetiklenebilir</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Rakamlar sağlayıcıya göre yaklaşık değerlerdir; kaynağa/zamana göre değişebilir. Yatırım tavsiyesi değildir.</text>
+</svg></div>
+<div class="vi"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Short Chiếm 84,8% Thanh Lý — Nhưng Vị Thế Vẫn Trung Lập</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kiểm tra thanh lý, tỷ lệ long/short và bản đồ nhiệt tính đến 16/7</text>
+  <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Tỷ Lệ Thanh Lý (24h qua, CoinGlass)</text>
+  <rect x="20" y="86" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="86" width="560" height="32" rx="6" fill="#f87171"/>
+  <text x="300" y="107" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="14" font-weight="800">Short 84,8% · $31,66M</text>
+  <rect x="20" y="128" width="660" height="32" rx="6" fill="#27272a"/>
+  <rect x="20" y="128" width="100" height="32" rx="6" fill="#34d399"/>
+  <text x="70" y="149" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">15,2%</text>
+  <text x="135" y="149" fill="#a1a1aa" font-family="sans-serif" font-size="13">Long $5,66M</text>
+  <text x="20" y="176" fill="#71717a" font-family="sans-serif" font-size="12">* Ngược lại vào 6/7: long chiếm $47,91M (78%) trong số $61,57M bị thanh lý hôm đó</text>
+  <text x="20" y="212" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Chỉ Số Vị Thế — Vẫn Trung Lập Sau Đợt Quét</text>
+  <rect x="20" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Tỷ Lệ Long/Short</text>
+  <text x="35" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">1,10 (trung lập)</text>
+  <rect x="248" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="263" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">OI (30 ngày)</text>
+  <text x="263" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">+3,92% · $48,9 tỷ</text>
+  <rect x="476" y="224" width="204" height="68" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="491" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="13">Funding</text>
+  <text x="491" y="274" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">0,0043%/ngày</text>
+  <text x="20" y="322" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Bản Đồ Nhiệt Thanh Lý — Cụm Mới Trên Và Dưới (CoinGlass)</text>
+  <rect x="20" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="35" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Vùng $63.000</text>
+  <text x="35" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Cụm thanh lý long</text>
+  <text x="35" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Phá vỡ có thể tăng tốc giảm giá</text>
+  <rect x="252" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#fbbf24"/>
+  <text x="267" y="360" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">$64.600-65.300</text>
+  <text x="267" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Giá hiện tại (chiều 16/7)</text>
+  <rect x="484" y="334" width="196" height="86" rx="8" fill="#18181b" stroke="#ef4444"/>
+  <text x="499" y="360" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">$65.000-65.500</text>
+  <text x="499" y="382" fill="#71717a" font-family="sans-serif" font-size="12">Cụm thanh lý short</text>
+  <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">Phá vỡ có thể kích hoạt squeeze mới</text>
+  <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* Số liệu gần đúng theo từng nhà cung cấp; có thể khác nhau tùy nguồn/thời điểm. Không phải lời khuyên đầu tư.</text>
+</svg></div>
+
+<h2 class="ko">세 데이터를 겹쳐보면 — 정리는 됐지만 구조는 그대로다</h2>
+<h2 class="en">Overlaying the Three — Cleaned Up, But the Structure Hasn't Changed</h2>
+<h2 class="ja">三つを重ねると——片付いたが、構造は変わっていない</h2>
+<h2 class="es">Superponiendo los Tres — Limpio, Pero la Estructura no Cambió</h2>
+<h2 class="de">Die Drei Übereinandergelegt — Bereinigt, aber die Struktur Hat Sich Nicht Geändert</h2>
+<h2 class="fr">En Superposant les Trois — Nettoyé, Mais la Structure n'a Pas Changé</h2>
+<h2 class="pt">Sobrepondo os Três — Limpou, Mas a Estrutura Não Mudou</h2>
+<h2 class="tr">Üçünü Üst Üste Koyunca — Temizlendi Ama Yapı Değişmedi</h2>
+<h2 class="vi">Chồng Ba Dữ Liệu Lên Nhau — Đã Dọn Dẹp, Nhưng Cấu Trúc Không Đổi</h2>
+
+<p class="ko">청산 데이터(이미 벌어진 일, 숏 84.8%), 포지셔닝 지표(롱숏비율·OI·펀딩비, 여전히 중립), 청산 히트맵(이미 다시 쌓인 매물대)은 서로 다른 시점을 가리킨다. 하나는 과거를, 하나는 현재를, 하나는 잠재적 미래를 보여주는데 셋을 합치면 결론은 하나다—이번 숏스퀴즈는 기존 숏을 청소했을 뿐, 시장의 레버리지 구조 자체를 안전하게 만들지는 못했다.</p>
+<p class="en">Liquidation data (something that already happened, 84.8% short), positioning indicators (long/short ratio, OI, funding — still neutral), and the liquidation heatmap (clusters already rebuilt) each point to a different point in time. One shows the past, one the present, one a potential future — but combine them and there's one conclusion: this short squeeze cleaned up existing shorts, but it didn't actually make the market's leverage structure any safer.</p>
+<p class="ja">清算データ(すでに起きたこと、ショート84.8%)、ポジショニング指標(ロングショート比率・OI・ファンディング、依然中立)、清算ヒートマップ(すでに再形成された密集帯)は、それぞれ異なる時点を指している。一つは過去を、一つは現在を、一つは潜在的な未来を示すが、三つを合わせると結論は一つだ——今回のショートスクイーズは既存のショートを片付けただけで、市場のレバレッジ構造そのものを安全にはしていない。</p>
+<p class="es">Los datos de liquidación (algo que ya ocurrió, 84.8% corto), los indicadores de posicionamiento (ratio largo/corto, OI, financiamiento — aún neutrales) y el mapa de calor de liquidaciones (cúmulos ya reconstruidos) apuntan cada uno a un momento distinto. Uno muestra el pasado, otro el presente, otro un futuro potencial — pero combinados, hay una sola conclusión: este short squeeze limpió los cortos existentes, pero en realidad no hizo más segura la estructura de apalancamiento del mercado.</p>
+<p class="de">Liquidationsdaten (etwas, das bereits geschehen ist, 84,8 % Short), Positionierungsindikatoren (Long/Short-Verhältnis, OI, Finanzierung — weiterhin neutral) und die Liquidations-Heatmap (bereits wieder aufgebaute Cluster) verweisen jeweils auf einen anderen Zeitpunkt. Einer zeigt die Vergangenheit, einer die Gegenwart, einer eine mögliche Zukunft — kombiniert man sie jedoch, gibt es eine Schlussfolgerung: Dieser Short Squeeze hat bestehende Shorts bereinigt, die Leverage-Struktur des Marktes aber nicht wirklich sicherer gemacht.</p>
+<p class="fr">Les données de liquidation (quelque chose qui s'est déjà produit, 84,8 % de courts), les indicateurs de positionnement (ratio long/court, OI, financement — toujours neutres) et la carte de chaleur des liquidations (amas déjà reconstitués) pointent chacun vers un moment différent. L'un montre le passé, l'un le présent, l'un un avenir potentiel — mais combinés, une seule conclusion s'impose : ce short squeeze a nettoyé les positions courtes existantes, mais n'a pas réellement rendu la structure de levier du marché plus sûre.</p>
+<p class="pt">Os dados de liquidação (algo que já aconteceu, 84,8% vendido), os indicadores de posicionamento (razão comprado/vendido, OI, financiamento — ainda neutros) e o mapa de calor de liquidações (aglomerados já reconstruídos) apontam cada um para um momento diferente. Um mostra o passado, outro o presente, outro um futuro potencial — mas combinados, há apenas uma conclusão: esse short squeeze limpou os vendidos existentes, mas não tornou a estrutura de alavancagem do mercado realmente mais segura.</p>
+<p class="tr">Tasfiye verileri (zaten olmuş bir şey, %84,8 short), pozisyonlama göstergeleri (long/short oranı, OI, fonlama — hâlâ nötr) ve tasfiye ısı haritası (zaten yeniden oluşmuş kümeler) her biri farklı bir zaman noktasına işaret ediyor. Biri geçmişi, biri şimdiyi, biri de olası bir geleceği gösteriyor — ama üçünü birleştirince tek bir sonuç çıkıyor: bu short squeeze mevcut shortları temizledi ama piyasanın kaldıraç yapısını gerçek anlamda daha güvenli hale getirmedi.</p>
+<p class="vi">Dữ liệu thanh lý (điều đã xảy ra, 84,8% short), các chỉ số vị thế (tỷ lệ long/short, OI, funding — vẫn trung lập) và bản đồ nhiệt thanh lý (các cụm đã tái hình thành) mỗi thứ chỉ về một thời điểm khác nhau. Một cho thấy quá khứ, một cho thấy hiện tại, một cho thấy tương lai tiềm tàng — nhưng kết hợp lại, chỉ có một kết luận: đợt short squeeze này đã dọn dẹp các vị thế short hiện có, nhưng thực sự chưa khiến cấu trúc đòn bẩy của thị trường an toàn hơn.</p>
+
+<p class="ko">이 사이트가 앞서 점검한 <a href="/blog/feargreed-funding-etf-conviction-gap">펀딩비·ETF·공포탐욕지수의 확신 괴리</a>가 '누가 아직 이 반등을 믿지 않는가'를 다뤘다면, 이번 점검은 한 걸음 더 나아가 '설령 모두가 믿기 시작하더라도 파생상품 구조 자체는 여전히 양쪽으로 취약하다'는 지점을 짚는다. 청산과 확신은 별개의 문제다.</p>
+<p class="en">If this site's earlier check on <a href="/en/blog/feargreed-funding-etf-conviction-gap">the conviction gap across funding, ETF flows, and the Fear & Greed Index</a> covered who still isn't convinced this rebound is real, this piece goes a step further: even if everyone eventually gets convinced, the derivatives structure itself remains fragile on both sides. Liquidation and conviction are separate questions.</p>
+<p class="ja">当サイトが以前点検した<a href="/ja/blog/feargreed-funding-etf-conviction-gap">ファンディング・ETF資金・恐怖強欲指数の確信ギャップ</a>が「誰がまだこの反発を信じていないか」を扱ったなら、今回はさらに一歩進めて「たとえ全員が確信し始めたとしても、デリバティブ構造そのものは依然として両方向に脆い」という点を指摘する。清算と確信は別の問題だ。</p>
+<p class="es">Si el análisis anterior de este sitio sobre <a href="/es/blog/feargreed-funding-etf-conviction-gap">la brecha de convicción entre el financiamiento, los flujos de ETF y el Índice de Miedo y Codicia</a> trataba sobre quién aún no está convencido de que este repunte sea real, este análisis va un paso más allá: incluso si todos terminan convenciéndose, la propia estructura de derivados sigue siendo frágil en ambos sentidos. Liquidación y convicción son cuestiones distintas.</p>
+<p class="de">Untersuchte diese Seite zuvor die <a href="/de/blog/feargreed-funding-etf-conviction-gap">Überzeugungslücke zwischen Finanzierung, ETF-Flüssen und dem Angst-&-Gier-Index</a> — wer diese Erholung noch nicht für echt hält —, geht dieser Beitrag einen Schritt weiter: Selbst wenn irgendwann alle überzeugt sind, bleibt die Derivatestruktur selbst nach beiden Seiten hin fragil. Liquidation und Überzeugung sind getrennte Fragen.</p>
+<p class="fr">Si l'examen précédent de ce site sur <a href="/fr/blog/feargreed-funding-etf-conviction-gap">l'écart de conviction entre le financement, les flux d'ETF et l'indice Peur & Cupidité</a> portait sur qui n'est pas encore convaincu que ce rebond est réel, cet article va un cran plus loin : même si tout le monde finit par être convaincu, la structure des dérivés elle-même reste fragile des deux côtés. Liquidation et conviction sont deux questions distinctes.</p>
+<p class="pt">Se a análise anterior deste site sobre <a href="/pt/blog/feargreed-funding-etf-conviction-gap">o hiato de convicção entre financiamento, fluxos de ETF e o Índice de Medo e Ganância</a> tratava de quem ainda não está convencido de que essa recuperação é real, esta vai um passo além: mesmo que todos acabem se convencendo, a própria estrutura de derivativos continua frágil dos dois lados. Liquidação e convicção são questões separadas.</p>
+<p class="tr">Bu sitenin daha önceki <a href="/tr/blog/feargreed-funding-etf-conviction-gap">fonlama, ETF akışları ve Korku-Açgözlülük Endeksi arasındaki inanç farkı</a> incelemesi bu toparlanmanın gerçek olduğuna kimin henüz ikna olmadığını ele alıyorsa, bu yazı bir adım daha ileri gidiyor: herkes sonunda ikna olsa bile, türev yapısının kendisi her iki yönde de kırılgan kalmaya devam ediyor. Tasfiye ve inanç ayrı meseleler.</p>
+<p class="vi">Nếu bài kiểm tra trước đây của trang này về <a href="/vi/blog/feargreed-funding-etf-conviction-gap">khoảng cách niềm tin giữa funding, dòng vốn ETF và Chỉ số Sợ Hãi & Tham Lam</a> đề cập đến việc ai vẫn chưa tin đợt phục hồi này là thật, thì bài viết này đi xa hơn một bước: ngay cả khi cuối cùng mọi người đều bị thuyết phục, bản thân cấu trúc phái sinh vẫn mong manh ở cả hai phía. Thanh lý và niềm tin là hai vấn đề khác nhau.</p>
+
+<h2 class="ko">지금부터 지켜볼 지점</h2>
+<h2 class="en">What to Watch From Here</h2>
+<h2 class="ja">これから注視すべき点</h2>
+<h2 class="es">Qué Observar a Partir de Ahora</h2>
+<h2 class="de">Worauf von Hier an zu Achten Ist</h2>
+<h2 class="fr">Ce Qu'il Faut Surveiller à Partir de Maintenant</h2>
+<h2 class="pt">O Que Observar a Partir de Agora</h2>
+<h2 class="tr">Buradan İtibaren Nelere Dikkat Edilmeli</h2>
+<h2 class="vi">Những Điều Cần Theo Dõi Từ Đây</h2>
+
+<p class="ko">첫째, 미결제약정이 방향성 있게 늘어나는지다. 가격이 6만5,000달러대에 머무는 동안 OI가 계속 3~4%대 증가율에 갇혀 있다면 이번 상승에 레버리지가 크게 붙지 않았다는 진단이 유지된다. 반대로 가격이 6만5,500달러를 뚫는 시점에 OI가 함께 튄다면 새로운 롱 레버리지가 진입했다는 뜻으로 읽을 수 있다.</p>
+<p class="en">First, whether open interest starts growing with clear direction. If OI stays capped in the 3-4% growth range while price hovers in the mid-$65,000s, the read that not much leverage has attached to this rally holds up. If instead OI jumps at the same moment price breaks above $65,500, that would suggest fresh long leverage has actually entered.</p>
+<p class="ja">第一に、建玉が方向性を持って増え始めるかどうかだ。価格が6万5,000ドル台にとどまる間、OIが3~4%台の増加率にとどまり続けるなら、今回の上昇にレバレッジがあまり付いていないという診断は維持される。逆に価格が6万5,500ドルを上抜けると同時にOIも跳ねれば、新規のロングレバレッジが実際に入ってきたことを示唆する。</p>
+<p class="es">Primero, si el interés abierto empieza a crecer con dirección clara. Si el OI se mantiene limitado en el rango de crecimiento del 3-4% mientras el precio ronda los $65,000, se sostiene la lectura de que no ha entrado mucho apalancamiento a este repunte. Si en cambio el OI salta en el mismo momento en que el precio rompe por encima de $65,500, eso sugeriría que ha entrado apalancamiento largo genuinamente nuevo.</p>
+<p class="de">Erstens, ob das Open Interest beginnt, sich gerichtet zu entwickeln. Bleibt das OI im Bereich von 3-4 % Wachstum gedeckelt, während der Preis um die 65.000-Dollar-Marke pendelt, bleibt die Einschätzung bestehen, dass sich nicht viel Leverage an diese Rallye geheftet hat. Springt das OI dagegen genau in dem Moment, in dem der Preis über 65.500 Dollar ausbricht, würde das darauf hindeuten, dass tatsächlich frisches Long-Leverage eingestiegen ist.</p>
+<p class="fr">Premièrement, si l'open interest commence à croître avec une direction claire. Si l'OI reste plafonné dans une fourchette de croissance de 3-4 % pendant que le prix évolue autour de 65 000 dollars, la lecture selon laquelle peu de levier s'est attaché à ce rallye tient toujours. Si au contraire l'OI bondit au moment même où le prix franchit 65 500 dollars à la hausse, cela suggérerait qu'un nouveau levier long est réellement entré.</p>
+<p class="pt">Primeiro, se o open interest começa a crescer com direção clara. Se o OI permanecer limitado na faixa de crescimento de 3-4% enquanto o preço paira na casa dos US$ 65.000, a leitura de que pouca alavancagem se juntou a esse rali se mantém. Se, em vez disso, o OI saltar no mesmo momento em que o preço rompe acima de US$ 65.500, isso sugeriria que uma nova alavancagem comprada de fato entrou.</p>
+<p class="tr">Birincisi, açık pozisyonun net bir yönde büyümeye başlayıp başlamayacağı. Fiyat 65.000 dolar bandında dolaşırken OI %3-4 aralığında sıkışık kalırsa, bu ralliye pek fazla kaldıraç binmediği teşhisi geçerliliğini korur. Bunun yerine fiyat 65.500 doların üzerine çıktığı anda OI da sıçrarsa, bu gerçekten yeni long kaldıracının girdiğini gösterir.</p>
+<p class="vi">Thứ nhất, liệu open interest có bắt đầu tăng theo hướng rõ ràng hay không. Nếu OI vẫn bị giới hạn trong mức tăng 3-4% trong khi giá loanh quanh vùng 65.000 đô la, thì nhận định rằng chưa có nhiều đòn bẩy tham gia vào đợt tăng này vẫn đứng vững. Ngược lại, nếu OI tăng vọt đúng lúc giá phá vỡ lên trên 65.500 đô la, điều đó sẽ cho thấy đòn bẩy long mới đã thực sự tham gia.</p>
+
+<p class="ko">둘째, 6만5,000~6만5,500달러와 6만3,000달러 두 청산 밀집구간 중 어느 쪽이 먼저 시험대에 오르는지다. 위쪽이 뚫리며 또 한 번 숏스퀴즈가 나오는지, 아래쪽이 뚫리며 이번엔 롱이 청산되는지에 따라 다음 며칠의 변동성 방향이 갈린다. 이 글은 투자 조언이 아니며, 지금 이 순간 파생상품 시장의 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>
+<p class="en">Second, which of the two liquidation clusters — $65,000-$65,500 above, $63,000 below — gets tested first. Whether the upper band breaks for another short squeeze, or the lower band breaks and longs get liquidated instead, will decide which direction volatility takes over the next few days. This piece is not investment advice — it's meant to diagnose the current state of the derivatives market, not to predict where price goes from here.</p>
+<p class="ja">第二に、6万5,000~6万5,500ドル(上)と6万3,000ドル(下)、二つの清算密集帯のどちらが先に試されるかだ。上が抜けてもう一段のショートスクイーズが起きるのか、下が抜けて今度はロングが清算されるのかによって、今後数日のボラティリティの方向が分かれる。本記事は投資助言ではなく、現時点のデリバティブ市場の状態を診断することを目的としており、価格の今後の方向を予測するものではない。</p>
+<p class="es">Segundo, cuál de los dos cúmulos de liquidación — $65,000-$65,500 arriba, $63,000 abajo — se pone a prueba primero. Que la banda superior se rompa provocando otro short squeeze, o que la banda inferior se rompa liquidando esta vez a los largos, decidirá qué dirección toma la volatilidad en los próximos días. Este artículo no es asesoramiento de inversión — su propósito es diagnosticar el estado actual del mercado de derivados, no predecir hacia dónde va el precio a partir de aquí.</p>
+<p class="de">Zweitens, welcher der beiden Liquidationscluster — 65.000-65.500 Dollar oben, 63.000 Dollar unten — zuerst getestet wird. Ob das obere Band durchbricht und eine weitere Short-Squeeze-Welle auslöst, oder ob das untere Band durchbricht und diesmal Longs liquidiert werden, entscheidet, in welche Richtung die Volatilität der nächsten Tage geht. Dieser Beitrag ist keine Anlageberatung; er soll den aktuellen Zustand des Derivatemarktes diagnostizieren, nicht vorhersagen, wohin sich der Preis von hier aus entwickelt.</p>
+<p class="fr">Deuxièmement, lequel des deux amas de liquidation — 65 000-65 500 dollars au-dessus, 63 000 dollars en dessous — sera testé en premier. Que la bande supérieure cède pour déclencher un autre short squeeze, ou que la bande inférieure cède et liquide cette fois des positions longues, déterminera la direction que prendra la volatilité dans les prochains jours. Cet article ne constitue pas un conseil en investissement ; il vise à diagnostiquer l'état actuel du marché des dérivés, pas à prédire vers où le prix se dirige à partir de maintenant.</p>
+<p class="pt">Segundo, qual dos dois aglomerados de liquidação — US$ 65.000-65.500 acima, US$ 63.000 abaixo — será testado primeiro. Se a banda superior romper e desencadear outro short squeeze, ou se a banda inferior romper e desta vez liquidar comprados, isso decidirá em que direção a volatilidade seguirá nos próximos dias. Este texto não é aconselhamento de investimento; destina-se a diagnosticar o estado atual do mercado de derivativos, não a prever para onde o preço vai a partir daqui.</p>
+<p class="tr">İkincisi, iki tasfiye kümesinden hangisinin önce test edileceği — üstte 65.000-65.500 dolar, altta 63.000 dolar. Üst bandın kırılıp bir short squeeze dalgası daha yaşanması mı, yoksa alt bandın kırılıp bu kez longların tasfiye olması mı gerçekleşeceği, önümüzdeki birkaç günün oynaklık yönünü belirleyecek. Bu yazı yatırım tavsiyesi değildir; amacı türev piyasasının şu anki durumunu teşhis etmektir, fiyatın buradan sonra nereye gideceğini tahmin etmek değildir.</p>
+<p class="vi">Thứ hai, cụm thanh lý nào trong hai cụm — 65.000-65.500 đô la phía trên, 63.000 đô la phía dưới — sẽ bị thử thách trước. Việc dải trên bị phá vỡ dẫn đến một đợt short squeeze khác, hay dải dưới bị phá vỡ khiến long bị thanh lý lần này, sẽ quyết định hướng biến động trong vài ngày tới. Bài viết này không phải là lời khuyên đầu tư — mục đích là chẩn đoán trạng thái hiện tại của thị trường phái sinh, không dự đoán hướng đi tiếp theo của giá.</p>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 코인글래스(청산 데이터·청산 히트맵, 7월16일 및 7월6일 비교), 코인알라이즈(롱숏비율·펀딩비), 뮤드렉스 런("Bitcoin Long-Short Ratio: What is it and How to Use It?", 바이낸스 BTCUSDT 리테일 롱숏 비중), 코인스탯츠 AI("Bitcoin (BTC) Daily Market Analysis 16 July 2026", 미결제약정·펀딩비), 데일리포렉스("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", 청산 밀집구간), 야후 파이낸스(현물가), CNBC·바차트(CME 7월물 선물가), CFGI.io(공포탐욕지수). 수치는 각 데이터 제공처 기준 근사치이며 소스·집계 시점에 따라 편차가 있을 수 있다. 본 글은 투자 조언이 아니며, 지금 이 순간의 시장 상태를 진단하기 위한 것으로 가격의 향후 방향을 예측하지 않는다.</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: CoinGlass (liquidation data and liquidation heatmap, July 16 vs. July 6 comparison), Coinalyze (long/short ratio, funding rate), Mudrex Learn ("Bitcoin Long-Short Ratio: What is it and How to Use It?", Binance BTCUSDT retail long/short split), CoinStats AI ("Bitcoin (BTC) Daily Market Analysis 16 July 2026", open interest and funding rate), DailyForex ("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", liquidation clusters), Yahoo Finance (spot price), CNBC and Barchart (CME July futures price), CFGI.io (Fear & Greed Index). Figures are approximate per each data provider and may vary by source and timing. This is not investment advice — it's meant to diagnose the market's current state, not to predict where price goes next.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: コイングラス(清算データ・清算ヒートマップ、7月16日と7月6日の比較)、コインアライズ(ロングショート比率・ファンディングレート)、ミュドレックス・ラーン(「Bitcoin Long-Short Ratio: What is it and How to Use It?」、バイナンスBTCUSDTリテールのロングショート比率)、コインスタッツAI(「Bitcoin (BTC) Daily Market Analysis 16 July 2026」、建玉・ファンディングレート)、デイリーフォレックス(「Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K」、清算密集帯)、ヤフーファイナンス(現物価格)、CNBC・バーチャート(CME7月物先物価格)、CFGI.io(恐怖強欲指数)。数値は各データ提供元に基づく近似値であり、情報源や集計時点により差異がある場合がある。本記事は投資助言ではなく、現時点の市場状態を診断することを目的としており、価格の今後の方向を予測するものではない。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: CoinGlass (datos de liquidación y mapa de calor de liquidaciones, comparación del 16 de julio con el 6 de julio), Coinalyze (ratio largo/corto, tasa de financiamiento), Mudrex Learn ("Bitcoin Long-Short Ratio: What is it and How to Use It?", proporción largo/corto minorista de BTCUSDT en Binance), CoinStats AI ("Bitcoin (BTC) Daily Market Analysis 16 July 2026", interés abierto y tasa de financiamiento), DailyForex ("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", cúmulos de liquidación), Yahoo Finance (precio spot), CNBC y Barchart (precio de futuros de julio de CME), CFGI.io (Índice de Miedo y Codicia). Las cifras son aproximadas según cada proveedor de datos y pueden variar según la fuente y el momento. Esto no es asesoramiento de inversión — su propósito es diagnosticar el estado actual del mercado, no predecir hacia dónde va el precio.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: CoinGlass (Liquidationsdaten und Liquidations-Heatmap, Vergleich 16. Juli vs. 6. Juli), Coinalyze (Long/Short-Verhältnis, Finanzierungssatz), Mudrex Learn ("Bitcoin Long-Short Ratio: What is it and How to Use It?", Binance-BTCUSDT-Privatanleger-Long/Short-Aufteilung), CoinStats AI ("Bitcoin (BTC) Daily Market Analysis 16 July 2026", Open Interest und Finanzierungssatz), DailyForex ("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", Liquidationscluster), Yahoo Finance (Spotpreis), CNBC und Barchart (CME-Juli-Futures-Preis), CFGI.io (Angst-&-Gier-Index). Zahlen sind Näherungswerte je nach Datenanbieter und können je nach Quelle und Zeitpunkt variieren. Dies ist keine Anlageberatung — sie soll den aktuellen Marktzustand diagnostizieren, nicht die künftige Preisrichtung vorhersagen.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : CoinGlass (données de liquidation et carte de chaleur des liquidations, comparaison 16 juillet vs 6 juillet), Coinalyze (ratio long/court, taux de financement), Mudrex Learn (« Bitcoin Long-Short Ratio: What is it and How to Use It? », répartition long/court des particuliers sur BTCUSDT Binance), CoinStats AI (« Bitcoin (BTC) Daily Market Analysis 16 July 2026 », open interest et taux de financement), DailyForex (« Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K », amas de liquidation), Yahoo Finance (prix au comptant), CNBC et Barchart (prix des futures de juillet du CME), CFGI.io (indice Peur & Cupidité). Les chiffres sont approximatifs selon chaque fournisseur de données et peuvent varier selon la source et le moment. Ceci n'est pas un conseil en investissement — il vise à diagnostiquer l'état actuel du marché, pas à prédire la direction future du prix.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CoinGlass (dados de liquidação e mapa de calor de liquidações, comparação 16 de julho vs. 6 de julho), Coinalyze (razão comprado/vendido, taxa de financiamento), Mudrex Learn ("Bitcoin Long-Short Ratio: What is it and How to Use It?", divisão comprado/vendido de varejo do BTCUSDT na Binance), CoinStats AI ("Bitcoin (BTC) Daily Market Analysis 16 July 2026", open interest e taxa de financiamento), DailyForex ("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", aglomerados de liquidação), Yahoo Finance (preço à vista), CNBC e Barchart (preço dos futuros de julho da CME), CFGI.io (Índice de Medo e Ganância). Os números são aproximados conforme cada provedor de dados e podem variar conforme a fonte e o momento. Isto não é aconselhamento de investimento — destina-se a diagnosticar o estado atual do mercado, não a prever para onde o preço vai a seguir.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CoinGlass (tasfiye verileri ve tasfiye ısı haritası, 16 Temmuz - 6 Temmuz karşılaştırması), Coinalyze (long/short oranı, fonlama oranı), Mudrex Learn ("Bitcoin Long-Short Ratio: What is it and How to Use It?", Binance BTCUSDT perakende long/short dağılımı), CoinStats AI ("Bitcoin (BTC) Daily Market Analysis 16 July 2026", açık pozisyon ve fonlama oranı), DailyForex ("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", tasfiye kümeleri), Yahoo Finance (spot fiyat), CNBC ve Barchart (CME Temmuz vadeli fiyatı), CFGI.io (Korku ve Açgözlülük Endeksi). Rakamlar her veri sağlayıcısına göre yaklaşık değerlerdir ve kaynağa ve zamana göre değişebilir. Bu yatırım tavsiyesi değildir — amacı piyasanın şu anki durumunu teşhis etmektir, fiyatın gelecekteki yönünü tahmin etmek değildir.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CoinGlass (dữ liệu thanh lý và bản đồ nhiệt thanh lý, so sánh 16 tháng 7 với 6 tháng 7), Coinalyze (tỷ lệ long/short, tỷ lệ funding), Mudrex Learn ("Bitcoin Long-Short Ratio: What is it and How to Use It?", tỷ lệ long/short bán lẻ của BTCUSDT trên Binance), CoinStats AI ("Bitcoin (BTC) Daily Market Analysis 16 July 2026", open interest và tỷ lệ funding), DailyForex ("Bitcoin Price Snubs Strategy's $216M BTC Sale as Bulls Defend $63K", các cụm thanh lý), Yahoo Finance (giá giao ngay), CNBC và Barchart (giá hợp đồng tương lai tháng 7 của CME), CFGI.io (Chỉ số Sợ Hãi & Tham Lam). Các số liệu là giá trị gần đúng theo từng nhà cung cấp dữ liệu và có thể thay đổi tùy theo nguồn và thời điểm. Đây không phải là lời khuyên đầu tư — mục đích là chẩn đoán trạng thái hiện tại của thị trường, không dự đoán hướng đi tiếp theo của giá.</p>
+<?php require __DIR__.'/_footer.php'; ?>
