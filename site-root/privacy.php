@@ -6,8 +6,11 @@ $baseUrl = 'https://btctiming.com';
 $__gl = resolveLang();
 $__gT = ['ko'=>'개인정보처리방침 · BTCtiming.com','en'=>'Privacy Policy · BTCtiming.com','ja'=>'プライバシーポリシー · BTCtiming.com','es'=>'Política de Privacidad · BTCtiming.com','de'=>'Datenschutzerklärung · BTCtiming.com','fr'=>'Politique de confidentialité · BTCtiming.com','pt'=>'Política de Privacidade · BTCtiming.com','tr'=>'Gizlilik Politikası · BTCtiming.com','vi'=>'Chính sách bảo mật · BTCtiming.com'];
 $__gD = ['ko'=>'BTCtiming.com 개인정보처리방침.','en'=>'BTCtiming.com Privacy Policy.','ja'=>'BTCtiming.com プライバシーポリシー。','es'=>'Política de Privacidad de BTCtiming.com.','de'=>'Datenschutzerklärung von BTCtiming.com.','fr'=>'Politique de confidentialité de BTCtiming.com.','pt'=>'Política de Privacidade do BTCtiming.com.','tr'=>'BTCtiming.com Gizlilik Politikası.','vi'=>'Chính sách bảo mật của BTCtiming.com.'];
-$GUIDE_TITLE = $__gT[$__gl] ?? $__gT['ko'];
-$GUIDE_DESC = $__gD[$__gl] ?? $__gD['ko'];
+// ★ 2026-07-17: 폴백을 ko → en 으로. 사이트 전역 규칙은 영어 폴백이다(_header.php:51
+//   \$lang = \$hasLangContent ? \$requestedLang : 'en'). 여기만 한국어로 떨어져서,
+//   번역 없는 언어(id/pl/it/ru/zh)에 한국어 제목·설명이 나갔다. 실측: /id/about → '소개 · 편집정책 · 연락처'
+$GUIDE_TITLE = $__gT[$__gl] ?? $__gT['en'];
+$GUIDE_DESC = $__gD[$__gl] ?? $__gD['en'];
 $GUIDE_CANONICAL = $baseUrl . '/privacy';
 $GUIDE_KOPATH = '/privacy';
 $GUIDE_EXTRA_CSS = <<<CSS
