@@ -68,6 +68,11 @@
   "desc_pt": "A bolsa de mercados de previsão Kalshi lançou, com a AppliedXL, um piloto que permite apostar em resultados de ensaios clínicos e decisões de aprovação da FDA, registrando mais de 100 mil dólares em negociações no primeiro dia. Os mercados se limitam a ensaios de fase 3 de grandes farmacêuticas e se liquidam por documentos públicos, mas não existe equivalente às regras de uso de informação privilegiada dos mercados de valores — examinamos o risco que os incentivos financeiros representam para a integridade dos ensaios clínicos.",
   "desc_tr": "Tahmin piyasası borsası Kalshi, AppliedXL ile birlikte klinik deneme sonuçlarına ve FDA onay kararlarına bahis yapılabilen bir pilot uygulama başlattı ve ilk günde 100.000 doların üzerinde işlem kaydetti. Piyasalar büyük ilaç şirketlerinin 3. faz denemeleriyle sınırlı olup kamuya açık belgeler üzerinden sonuçlandırılıyor, ancak menkul kıymet piyasalarındaki içeriden öğrenenlerin ticaretine ilişkin kurallara eşdeğer bir düzenleme yok — finansal teşviklerin klinik deneme bütünlüğüne yönelik riskini inceledik.",
   "desc_vi": "Sàn giao dịch thị trường dự đoán Kalshi đã hợp tác cùng AppliedXL ra mắt thí điểm cho phép đặt cược vào kết quả thử nghiệm lâm sàng và quyết định phê duyệt của FDA, ghi nhận hơn 100.000 đô la giao dịch ngay ngày đầu. Các thị trường này giới hạn ở các thử nghiệm giai đoạn 3 của các hãng dược lớn và được giải quyết bằng tài liệu công khai, nhưng không có quy định tương đương với luật giao dịch nội gián của thị trường chứng khoán — chúng tôi xem xét rủi ro mà động cơ tài chính đặt ra đối với tính toàn vẹn của thử nghiệm lâm sàng.",
+  "desc_id": "Kalshi dan AppliedXL meluncurkan pasar taruhan uji klinis dan persetujuan FDA, meraih $100rb+ transaksi hari pertama tanpa aturan anti-insider trading.",
+  "desc_pl": "Kalshi i AppliedXL uruchomiły rynek zakładów na badania kliniczne i decyzje FDA, obrót ponad 100 tys. dolarów pierwszego dnia, bez zasad insider tradingu.",
+  "desc_it": "Kalshi e AppliedXL lanciano scommesse su studi clinici e approvazioni FDA, oltre 100mila $ scambiati il primo giorno, senza regole anti insider trading.",
+  "desc_ru": "Kalshi и AppliedXL запустили ставки на клинические испытания и одобрения FDA — свыше 100 тыс. $ сделок в первый день без правил инсайдерской торговли.",
+  "desc_zh": "預測市場交易所Kalshi與臨床試驗數據公司AppliedXL合作，推出僅限大型藥廠第三期臨床試驗與FDA核准決定的賭注市場，首日交易額突破10萬美元。市場以公開文件結算，卻缺乏證券市場等級的內線交易監管規範，恐為臨床試驗誠信帶來潛在風險。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -76,5 +81,10 @@
   "read_fr": "7",
   "read_pt": "7",
   "read_tr": "7",
-  "read_vi": "7"
+  "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7"
 }
