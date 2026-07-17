@@ -231,4 +231,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: comunicados de imprensa da TON Strategy via GlobeNewswire (16 de julho, 1º de julho, 8 de junho), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: TON Strategy'nin GlobeNewswire basın açıklamaları (16 Temmuz, 1 Temmuz, 8 Haziran), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: thông cáo báo chí của TON Strategy qua GlobeNewswire (16/7, 1/7, 8/6), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: siaran pers TON Strategy melalui GlobeNewswire (16 Juli, 1 Juli, 8 Juni), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: komunikaty prasowe TON Strategy za pośrednictwem GlobeNewswire (16 lipca, 1 lipca, 8 czerwca), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: comunicati stampa di TON Strategy tramite GlobeNewswire (16 luglio, 1 luglio, 8 giugno), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: пресс-релизы TON Strategy через GlobeNewswire (16 июля, 1 июля, 8 июня), StockTitan, crypto.news, TronWeekly, The Manila Times.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：TON Strategy透過GlobeNewswire發布的新聞稿（7月16日、7月1日、6月8日）、StockTitan、crypto.news、TronWeekly、The Manila Times。</p>
 <?php require __DIR__.'/_footer.php'; ?>
