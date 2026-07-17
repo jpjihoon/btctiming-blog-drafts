@@ -92,7 +92,7 @@
   <text x="350" y="424" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">사람의 확신에서, 소수가 운용하는 배관으로</text>
 </svg>
 </div>
-<div class="en">
+<div class="en id pl it ru zh">
 <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">The Channel That Sets Price, 2017 → 2021 → 2026</text>
   <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">How the mechanism turning demand into price pressure has changed</text>
