@@ -1552,7 +1552,7 @@
     ]
    },
    "id": {
-    "term_full": "NUPL (Net Unrealized Profit/Loss)",
+    "term_full": "NUPL (Laba/Rugi Bersih Belum Terealisasi)",
     "one_liner": "Indikator sentimen yang merangkum, dalam satu rasio, apakah seluruh holder Bitcoin sedang untung atau rugi jika mereka menjual sekarang juga.",
     "what": [
      "NUPL adalah Net Unrealized Profit/Loss. Mengurangkan nilai tiap koin pada pergerakan on-chain terakhirnya dari nilai kininya memberi total profit/loss belum terealisasi pasar, dan membaginya dengan market cap menghasilkan NUPL. Nilai positif berarti pasar secara keseluruhan rata-rata untung; negatif berarti rugi.",
@@ -1615,7 +1615,7 @@
     ]
    },
    "pl": {
-    "term_full": "NUPL (Net Unrealized Profit/Loss)",
+    "term_full": "NUPL (Niezrealizowany Zysk/Strata Netto)",
     "one_liner": "Wskaźnik nastrojów, który zbiera w jeden współczynnik informację, czy wszyscy posiadacze Bitcoina są na zysku czy na stracie, gdyby sprzedali w tej chwili.",
     "what": [
      "NUPL to Net Unrealized Profit/Loss. Odjęcie od bieżącej wartości każdej monety jej wartości z ostatniego ruchu on-chain daje łączny niezrealizowany zysk/stratę rynku, a podzielenie tego przez kapitalizację rynkową daje NUPL. Wartość dodatnia oznacza, że rynek jako całość jest średnio na zysku; ujemna oznacza stratę.",
@@ -1678,7 +1678,7 @@
     ]
    },
    "it": {
-    "term_full": "NUPL (Net Unrealized Profit/Loss)",
+    "term_full": "NUPL (Profitto/Perdita Netta Non Realizzata)",
     "one_liner": "Un indicatore di sentiment che aggrega, in un unico rapporto, se tutti i possessori di Bitcoin siano in profitto o in perdita qualora vendessero in questo momento.",
     "what": [
      "NUPL sta per Net Unrealized Profit/Loss. Sottraendo dal valore attuale di ogni moneta il suo valore all'ultimo movimento on-chain si ottiene il profitto/perdita non realizzato totale del mercato, e dividendolo per la capitalizzazione di mercato si ottiene l'NUPL. Un valore positivo significa che il mercato nel complesso è mediamente in profitto; negativo significa che è in perdita.",
@@ -1741,7 +1741,7 @@
     ]
    },
    "ru": {
-    "term_full": "NUPL (Net Unrealized Profit/Loss)",
+    "term_full": "NUPL (Чистая нереализованная прибыль/убыток)",
     "one_liner": "Индикатор настроений, который сводит в единый коэффициент то, находятся ли все держатели Bitcoin в прибыли или убытке, если бы продали прямо сейчас.",
     "what": [
      "NUPL — это Net Unrealized Profit/Loss. Вычитание из текущей стоимости каждой монеты её стоимости на последнем on-chain движении даёт совокупную нереализованную прибыль/убыток рынка, а деление на market cap даёт NUPL. Положительное значение означает, что рынок в целом в среднем в прибыли; отрицательное — в убытке.",
@@ -1804,7 +1804,7 @@
     ]
    },
    "zh": {
-    "term_full": "NUPL (Net Unrealized Profit/Loss)",
+    "term_full": "NUPL (未實現淨損益)",
     "one_liner": "一種情緒指標，將全體比特幣持有者若此刻賣出是處於獲利還是虧損匯總為單一比率。",
     "what": [
      "NUPL 是 Net Unrealized Profit/Loss。以每枚幣目前的價值減去其最後一次鏈上移動時的價值，得出市場的總未實現獲利／虧損，再除以 market cap 即得 NUPL。正值代表市場整體平均處於獲利；負值代表虧損。",
@@ -2411,7 +2411,7 @@
     ]
    },
    "id": {
-    "term_full": "Realized Price",
+    "term_full": "Harga Realized (Realized Price)",
     "one_liner": "Rata-rata biaya perolehan setiap Bitcoin yang beredar. Ia berfungsi sebagai garis impas bagi seluruh pasar.",
     "what": [
      "Realized Price adalah realized capitalization dibagi suplai beredar. Karena ia merata-ratakan harga tiap koin pada pergerakan on-chain terakhirnya sebagai basis biaya, ia secara efektif adalah 'harga beli rata-rata seluruh pelaku pasar.'",
@@ -2467,7 +2467,7 @@
     ]
    },
    "pl": {
-    "term_full": "Realized Price",
+    "term_full": "Cena Realized (Realized Price)",
     "one_liner": "Średni koszt nabycia każdego Bitcoina w obiegu. Działa jak linia progu rentowności dla całego rynku.",
     "what": [
      "Realized Price to kapitalizacja realized podzielona przez podaż w obiegu. Ponieważ uśrednia cenę każdej monety z jej ostatniego ruchu on-chain jako bazę kosztową, jest w praktyce 'średnią ceną zakupu wszystkich uczestników rynku.'",
@@ -2523,7 +2523,7 @@
     ]
    },
    "it": {
-    "term_full": "Realized Price",
+    "term_full": "Prezzo Realized (Realized Price)",
     "one_liner": "Il costo medio di acquisto di ogni Bitcoin in circolazione. Funge da linea di pareggio per l'intero mercato.",
     "what": [
      "Il Realized Price è la capitalizzazione realized divisa per l'offerta circolante. Poiché media il prezzo di ogni moneta al suo ultimo movimento on-chain come base di costo, è di fatto 'il prezzo medio d'acquisto di tutti i partecipanti al mercato.'",
@@ -2579,7 +2579,7 @@
     ]
    },
    "ru": {
-    "term_full": "Realized Price",
+    "term_full": "Realized Price (Цена реализации)",
     "one_liner": "Средняя стоимость приобретения каждого Bitcoin в обращении. Служит линией безубыточности для всего рынка.",
     "what": [
      "Realized Price — это realized-капитализация, делённая на циркулирующее предложение. Поскольку она усредняет цену каждой монеты на её последнем on-chain движении как базовую стоимость, это по сути 'средняя цена покупки всех участников рынка.'",
@@ -2635,7 +2635,7 @@
     ]
    },
    "zh": {
-    "term_full": "Realized Price",
+    "term_full": "已實現價格 (Realized Price)",
     "one_liner": "所有流通中比特幣的平均取得成本。它作為整個市場的損益平衡線。",
     "what": [
      "Realized Price 是 realized capitalization 除以流通供給。由於它以每枚幣最後一次鏈上移動時的價格作為成本基礎取平均，實際上就是「所有市場參與者的平均買入價」。",
@@ -3287,7 +3287,7 @@
     ]
    },
    "id": {
-    "term_full": "STH-SOPR (Short-Term Holder SOPR)",
+    "term_full": "STH-SOPR (SOPR Holder Jangka Pendek)",
     "one_liner": "Menunjukkan apakah pembeli baru menjual dengan untung atau menerima rugi saat mereka menjual.",
     "what": [
      "SOPR adalah Spent Output Profit Ratio — ia menunjukkan untung atau rugi saat koin yang bergerak (terjual) dilepas relatif terhadap harga perolehannya. Ia adalah harga jual dibagi harga perolehan; di atas 1 berarti rata-rata ambil untung, di bawah 1 berarti ambil rugi.",
@@ -3349,7 +3349,7 @@
     ]
    },
    "pl": {
-    "term_full": "STH-SOPR (Short-Term Holder SOPR)",
+    "term_full": "STH-SOPR (SOPR Posiadaczy Krótkoterminowych)",
     "one_liner": "Pokazuje, czy niedawni kupujący sprzedają z zyskiem, czy godzą się na stratę przy sprzedaży.",
     "what": [
      "SOPR to Spent Output Profit Ratio — wskazuje zysk lub stratę, przy jakiej poruszone (sprzedane) monety są zbywane względem ceny nabycia. To cena sprzedaży podzielona przez cenę nabycia; powyżej 1 oznacza średnio realizację zysków, poniżej 1 realizację strat.",
@@ -3411,7 +3411,7 @@
     ]
    },
    "it": {
-    "term_full": "STH-SOPR (Short-Term Holder SOPR)",
+    "term_full": "STH-SOPR (SOPR Detentori a Breve Termine)",
     "one_liner": "Mostra se gli acquirenti recenti stanno vendendo in profitto o accettando una perdita quando vendono.",
     "what": [
      "SOPR sta per Spent Output Profit Ratio — indica il profitto o la perdita con cui le monete movimentate (vendute) vengono cedute rispetto al loro prezzo di acquisto. È il prezzo di vendita diviso per il prezzo di acquisto; sopra 1 significa in media presa di profitto, sotto 1 realizzo di perdite.",
@@ -3473,7 +3473,7 @@
     ]
    },
    "ru": {
-    "term_full": "STH-SOPR (Short-Term Holder SOPR)",
+    "term_full": "STH-SOPR (SOPR краткосрочных держателей)",
     "one_liner": "Показывает, продают ли недавние покупатели с прибылью или мирятся с убытком при продаже.",
     "what": [
      "SOPR — это Spent Output Profit Ratio — он указывает прибыль или убыток, с которыми перемещённые (проданные) монеты сбываются относительно цены их приобретения. Это цена продажи, делённая на цену приобретения; выше 1 означает в среднем фиксацию прибыли, ниже 1 — фиксацию убытка.",
@@ -3535,7 +3535,7 @@
     ]
    },
    "zh": {
-    "term_full": "STH-SOPR (Short-Term Holder SOPR)",
+    "term_full": "STH-SOPR (短期持有者 SOPR)",
     "one_liner": "顯示近期買家在賣出時是獲利了結還是認賠賣出。",
     "what": [
      "SOPR 是 Spent Output Profit Ratio — 它顯示移動（賣出）的幣相對其取得價格以何種獲利或虧損被處置。它是賣出價格除以取得價格；高於 1 代表平均獲利了結，低於 1 代表認賠。",
@@ -4089,7 +4089,7 @@
     ]
    },
    "id": {
-    "term_full": "Long-Term Holder Supply (LTH Supply)",
+    "term_full": "Suplai Holder Jangka Panjang (LTH Supply)",
     "one_liner": "Menunjukkan berapa banyak dari total suplai dipegang oleh investor jangka panjang yang belum menjual koin mereka selama lebih dari 155 hari.",
     "what": [
      "LTH adalah Long-Term Holder — biasanya didefinisikan sebagai holder yang tak memindahkan koin selama 155 hari atau lebih. Dalam analisis on-chain, 155 hari adalah garis pembagi empiris antara investor jangka pendek dan jangka panjang. LTH supply menunjukkan berapa banyak dari total suplai beredar yang dipegang para long-term holder ini.",
@@ -4140,7 +4140,7 @@
     ]
    },
    "pl": {
-    "term_full": "Long-Term Holder Supply (LTH Supply)",
+    "term_full": "Podaż Posiadaczy Długoterminowych (LTH Supply)",
     "one_liner": "Pokazuje, jaka część całkowitej podaży jest w rękach inwestorów długoterminowych, którzy nie sprzedali monet od ponad 155 dni.",
     "what": [
      "LTH to Long-Term Holder — zwykle definiowany jako posiadacz, który nie poruszał monet od 155 dni lub dłużej. W analizie on-chain 155 dni to empiryczna linia podziału między inwestorami krótko- i długoterminowymi. LTH supply wskazuje, jaką część całkowitej podaży w obiegu trzymają ci długoterminowi posiadacze.",
@@ -4191,7 +4191,7 @@
     ]
    },
    "it": {
-    "term_full": "Long-Term Holder Supply (LTH Supply)",
+    "term_full": "Offerta Detentori a Lungo Termine (LTH Supply)",
     "one_liner": "Mostra quanta parte dell'offerta totale è detenuta da investitori di lungo termine che non hanno venduto le proprie monete da oltre 155 giorni.",
     "what": [
      "LTH sta per Long-Term Holder — tipicamente definito come un possessore che non muove monete da 155 giorni o più. Nell'analisi on-chain, 155 giorni sono la linea di demarcazione empirica tra investitori di breve e lungo termine. La LTH supply indica quanta parte dell'offerta circolante totale detengono questi possessori di lungo termine.",
@@ -4242,7 +4242,7 @@
     ]
    },
    "ru": {
-    "term_full": "Long-Term Holder Supply (LTH Supply)",
+    "term_full": "Предложение долгосрочных держателей (LTH Supply)",
     "one_liner": "Показывает, какую долю всего предложения удерживают долгосрочные инвесторы, не продававшие свои монеты более 155 дней.",
     "what": [
      "LTH — это Long-Term Holder — обычно определяется как держатель, не перемещавший монеты 155 дней или более. В on-chain анализе 155 дней — эмпирическая разделительная линия между краткосрочными и долгосрочными инвесторами. LTH supply показывает, какую долю всего циркулирующего предложения удерживают эти долгосрочные держатели.",
@@ -4293,7 +4293,7 @@
     ]
    },
    "zh": {
-    "term_full": "Long-Term Holder Supply (LTH Supply)",
+    "term_full": "長期持有者供給 (LTH Supply)",
     "one_liner": "顯示總供給中有多少由超過 155 天未賣出其幣的長期投資者所持有。",
     "what": [
      "LTH 是 Long-Term Holder — 通常定義為 155 天或更久未移動幣的持有者。在鏈上分析中，155 天是短期與長期投資者之間的經驗分界線。LTH supply 顯示這些 long-term holder 持有總流通供給中的多少比例。",
@@ -5655,7 +5655,7 @@
     ]
    },
    "id": {
-    "term_full": "Funding Rate",
+    "term_full": "Funding Rate (Tarif Pendanaan)",
     "one_liner": "Termometer sentimen pasar derivatif yang menunjukkan apakah posisi long atau short lebih overheat di perpetual futures.",
     "what": [
      "Funding rate adalah biaya periodik yang menjaga harga perpetual futures tetap tertambat pada harga spot. Ketika long mendominasi dan harga futures di atas spot, funding rate menjadi positif dan long membayar short. Sebaliknya, ketika short mendominasi, funding rate menjadi negatif dan short membayar long.",
@@ -5711,7 +5711,7 @@
     ]
    },
    "pl": {
-    "term_full": "Funding Rate",
+    "term_full": "Funding Rate (Stopa Finansowania)",
     "one_liner": "Termometr nastrojów rynku instrumentów pochodnych pokazujący, czy pozycje long czy short są bardziej przegrzane w perpetual futures.",
     "what": [
      "Funding rate to okresowa opłata utrzymująca ceny perpetual futures zakotwiczone do cen spot. Gdy dominują longi, a cena futures jest powyżej spot, funding rate staje się dodatni i longi płacą shortom. Odwrotnie, gdy dominują shorty, funding rate staje się ujemny i shorty płacą longom.",
@@ -5767,7 +5767,7 @@
     ]
    },
    "it": {
-    "term_full": "Funding Rate",
+    "term_full": "Funding Rate (Tasso di Finanziamento)",
     "one_liner": "Un termometro del sentiment del mercato dei derivati che mostra se i long o gli short siano più surriscaldati nei perpetual futures.",
     "what": [
      "Il funding rate è una commissione periodica che mantiene i prezzi dei perpetual futures ancorati ai prezzi spot. Quando i long dominano e il prezzo futures è sopra lo spot, il funding rate diventa positivo e i long pagano gli short. Al contrario, quando dominano gli short, il funding rate diventa negativo e gli short pagano i long.",
@@ -5823,7 +5823,7 @@
     ]
    },
    "ru": {
-    "term_full": "Funding Rate",
+    "term_full": "Funding Rate (Ставка финансирования)",
     "one_liner": "Термометр настроений рынка деривативов, показывающий, чьи позиции сильнее перегреты в perpetual futures — long или short.",
     "what": [
      "Funding rate — это периодическая комиссия, удерживающая цены perpetual futures привязанными к спот-ценам. Когда доминируют long и цена futures выше спота, funding rate становится положительным и long платят short. Наоборот, когда доминируют short, funding rate становится отрицательным и short платят long.",
@@ -5879,7 +5879,7 @@
     ]
    },
    "zh": {
-    "term_full": "Funding Rate",
+    "term_full": "資金費率 (Funding Rate)",
     "one_liner": "衍生品市場的情緒溫度計，顯示 perpetual futures 中多頭或空頭何者更為過熱。",
     "what": [
      "Funding rate 是使 perpetual futures 價格錨定於 spot 價格的週期性費用。當多頭主導、futures 價格高於 spot 時，funding rate 轉為正值，由多頭支付空頭。反之，當空頭主導時，funding rate 轉為負值，由空頭支付多頭。",
@@ -6546,7 +6546,7 @@
     ]
    },
    "id": {
-    "term_full": "RSI (Relative Strength Index)",
+    "term_full": "RSI (Indeks Kekuatan Relatif)",
     "one_liner": "Indikator teknikal yang membandingkan kekuatan naik dan turun terkini untuk menunjukkan apakah aset overbought atau oversold pada skala 0–100.",
     "what": [
      "RSI adalah singkatan dari Relative Strength Index. Ia membandingkan besar kenaikan dan penurunan selama periode tertentu (biasanya 14 hari) untuk menyatakan kekuatan momentum harga sebagai nilai antara 0 dan 100. Makin kuat gaya naik, makin dekat ke 100; makin kuat gaya turun, makin dekat ke 0.",
@@ -6609,7 +6609,7 @@
     ]
    },
    "pl": {
-    "term_full": "RSI (Relative Strength Index)",
+    "term_full": "RSI (Wskaźnik Siły Względnej)",
     "one_liner": "Wskaźnik techniczny porównujący ostatnią siłę wzrostów i spadków, by pokazać, czy aktyw jest wykupiony czy wyprzedany w skali 0–100.",
     "what": [
      "RSI to skrót od Relative Strength Index. Porównuje wielkość zysków i strat w danym okresie (zwykle 14 dni), by wyrazić siłę momentum ceny jako wartość między 0 a 100. Im silniejsza siła wzrostowa, tym bliżej 100; im silniejsza siła spadkowa, tym bliżej 0.",
@@ -6672,7 +6672,7 @@
     ]
    },
    "it": {
-    "term_full": "RSI (Relative Strength Index)",
+    "term_full": "RSI (Indice di Forza Relativa)",
     "one_liner": "Un indicatore tecnico che confronta la forza recente di rialzi e ribassi per mostrare se un asset sia ipercomprato o ipervenduto su una scala 0–100.",
     "what": [
      "RSI sta per Relative Strength Index. Confronta l'entità di guadagni e perdite su un periodo definito (di solito 14 giorni) per esprimere la forza del momentum del prezzo come valore tra 0 e 100. Più forte è la spinta al rialzo, più vicino a 100; più forte quella al ribasso, più vicino a 0.",
@@ -6735,7 +6735,7 @@
     ]
    },
    "ru": {
-    "term_full": "RSI (Relative Strength Index)",
+    "term_full": "RSI (Индекс относительной силы)",
     "one_liner": "Технический индикатор, сравнивающий недавнюю силу роста и падения, чтобы показать перекупленность или перепроданность актива по шкале 0–100.",
     "what": [
      "RSI расшифровывается как Relative Strength Index. Он сравнивает величину роста и падения за заданный период (обычно 14 дней), чтобы выразить силу ценового импульса значением от 0 до 100. Чем сильнее движущая вверх сила, тем ближе к 100; чем сильнее вниз, тем ближе к 0.",
@@ -6798,7 +6798,7 @@
     ]
    },
    "zh": {
-    "term_full": "RSI (Relative Strength Index)",
+    "term_full": "RSI (相對強弱指標)",
     "one_liner": "一種技術指標，比較近期漲跌強度，以 0–100 的尺度顯示資產處於超買或超賣。",
     "what": [
      "RSI 是 Relative Strength Index 的縮寫。它比較一段期間（通常 14 天）內漲幅與跌幅的大小，將價格動能的強度表達為 0 到 100 之間的數值。向上的力道越強，越接近 100；向下的力道越強，越接近 0。",
@@ -7385,7 +7385,7 @@
     ]
    },
    "id": {
-    "term_full": "Volume Change",
+    "term_full": "Perubahan Volume (Volume Change)",
     "one_liner": "Menggunakan naik-turun volume perdagangan untuk menilai apakah pergerakan harga punya kekuatan nyata di baliknya atau pergerakan lemah.",
     "what": [
      "Volume adalah jumlah koin yang benar-benar dibeli dan dijual selama periode tertentu. Indikator volume-change melacak apakah volume ini naik atau turun dibanding biasanya, menunjukkan berapa banyak pelaku dan berapa besar modal mendukung pergerakan harga kini.",
@@ -7439,7 +7439,7 @@
     ]
    },
    "pl": {
-    "term_full": "Volume Change",
+    "term_full": "Zmiana Wolumenu (Volume Change)",
     "one_liner": "Wykorzystuje wzrost i spadek wolumenu obrotu, by ocenić, czy ruch ceny ma za sobą realną siłę, czy jest ruchem słabym.",
     "what": [
      "Wolumen to ilość monet faktycznie kupionych i sprzedanych w danym okresie. Wskaźnik volume-change śledzi, czy ten wolumen wzrósł czy spadł względem zwyczajnego, pokazując, ilu uczestników i ile kapitału stoi za bieżącym ruchem ceny.",
@@ -7493,7 +7493,7 @@
     ]
    },
    "it": {
-    "term_full": "Volume Change",
+    "term_full": "Variazione di Volume (Volume Change)",
     "one_liner": "Usa l'aumento e il calo del volume di scambio per giudicare se un movimento di prezzo abbia dietro una forza reale o sia un movimento debole.",
     "what": [
      "Il volume è la quantità di monete effettivamente comprate e vendute in un periodo definito. L'indicatore volume-change traccia se questo volume sia salito o sceso rispetto al solito, mostrando quanti partecipanti e quanto capitale sostengano l'attuale movimento di prezzo.",
@@ -7547,7 +7547,7 @@
     ]
    },
    "ru": {
-    "term_full": "Volume Change",
+    "term_full": "Изменение объёма (Volume Change)",
     "one_liner": "Использует рост и падение объёма торгов, чтобы оценить, стоит ли за движением цены реальная сила или это слабое движение.",
     "what": [
      "Объём — это количество монет, реально купленных и проданных за заданный период. Индикатор volume-change отслеживает, вырос ли этот объём или упал относительно обычного, показывая, сколько участников и сколько капитала стоят за текущим движением цены.",
@@ -7601,7 +7601,7 @@
     ]
    },
    "zh": {
-    "term_full": "Volume Change",
+    "term_full": "成交量變化 (Volume Change)",
     "one_liner": "利用成交量的升降，判斷價格走勢背後是否有真實力道，抑或只是疲弱的走勢。",
     "what": [
      "成交量是一段期間內實際買賣的幣量。volume-change 指標追蹤此成交量相對平常是上升或下降，顯示有多少參與者、多少資金支撐當前的價格走勢。",
@@ -8138,7 +8138,7 @@
     ]
    },
    "id": {
-    "term_full": "Buy Pressure",
+    "term_full": "Tekanan Beli (Buy Pressure)",
     "one_liner": "Membandingkan kekuatan transaksi beli dan jual selama periode untuk menunjukkan apakah pembeli atau penjual mendominasi pasar.",
     "what": [
      "Buy pressure mengukur keseimbangan transaksi tereksekusi yang dipilah menjadi dipimpin beli (taker buys) dan dipimpin jual (taker sells). Ketika market order yang agresif membeli mendominasi, buy pressure kuat; ketika market order yang dumping mendominasi, sell pressure kuat.",
@@ -8188,7 +8188,7 @@
     ]
    },
    "pl": {
-    "term_full": "Buy Pressure",
+    "term_full": "Presja Kupna (Buy Pressure)",
     "one_liner": "Porównuje siłę transakcji kupna i sprzedaży w danym okresie, by pokazać, czy na rynku dominują kupujący czy sprzedający.",
     "what": [
      "Buy pressure mierzy bilans zrealizowanych transakcji podzielonych na prowadzone kupnem (taker buys) i prowadzone sprzedażą (taker sells). Gdy dominują agresywnie kupujące zlecenia rynkowe, buy pressure jest silny; gdy dominują wyprzedające zlecenia rynkowe, sell pressure jest silny.",
@@ -8238,7 +8238,7 @@
     ]
    },
    "it": {
-    "term_full": "Buy Pressure",
+    "term_full": "Pressione d'Acquisto (Buy Pressure)",
     "one_liner": "Confronta la forza delle operazioni di acquisto e vendita su un periodo per mostrare se sul mercato dominino i compratori o i venditori.",
     "what": [
      "La buy pressure misura il bilancio delle operazioni eseguite suddivise in guidate dagli acquisti (taker buys) e guidate dalle vendite (taker sells). Quando dominano gli ordini a mercato che comprano aggressivamente, la buy pressure è forte; quando dominano gli ordini a mercato che scaricano, la sell pressure è forte.",
@@ -8288,7 +8288,7 @@
     ]
    },
    "ru": {
-    "term_full": "Buy Pressure",
+    "term_full": "Давление покупок (Buy Pressure)",
     "one_liner": "Сравнивает силу сделок на покупку и продажу за период, чтобы показать, кто доминирует на рынке — покупатели или продавцы.",
     "what": [
      "Buy pressure измеряет баланс исполненных сделок, разделённых на ведомые покупкой (taker buys) и ведомые продажей (taker sells). Когда доминируют агрессивно покупающие рыночные ордера, buy pressure сильна; когда доминируют сбрасывающие рыночные ордера, сильна sell pressure.",
@@ -8338,7 +8338,7 @@
     ]
    },
    "zh": {
-    "term_full": "Buy Pressure",
+    "term_full": "買盤壓力 (Buy Pressure)",
     "one_liner": "比較一段期間內買賣成交的力道，顯示市場由買方或賣方主導。",
     "what": [
      "Buy pressure 衡量已成交交易的平衡，區分為由買方主導（taker buys）與由賣方主導（taker sells）。當積極買進的 market order 主導時，buy pressure 強；當拋售的 market order 主導時，sell pressure 強。",
@@ -8919,7 +8919,7 @@
     ]
    },
    "id": {
-    "term_full": "Coinbase Premium",
+    "term_full": "Coinbase Premium (Premi Coinbase)",
     "one_liner": "Indikator yang mengukur kekuatan beli modal institusi AS, diukur dari selisih harga antara Coinbase dan Binance.",
     "what": [
      "Coinbase Premium menyatakan, sebagai rasio, selisih harga Bitcoin antara Coinbase (bursa AS terdepan) dan Binance (bursa global). Ketika Coinbase lebih mahal, premium positif; ketika lebih murah, negatif.",
@@ -8974,7 +8974,7 @@
     ]
    },
    "pl": {
-    "term_full": "Coinbase Premium",
+    "term_full": "Coinbase Premium (Premia Coinbase)",
     "one_liner": "Wskaźnik oceniający siłę kupna kapitału instytucjonalnego z USA, mierzony różnicą cen między Coinbase a Binance.",
     "what": [
      "Coinbase Premium wyraża jako stosunek różnicę ceny Bitcoina między Coinbase (wiodącą giełdą w USA) a Binance (giełdą globalną). Gdy Coinbase jest droższy, premium jest dodatnie; gdy tańszy, ujemne.",
@@ -9029,7 +9029,7 @@
     ]
    },
    "it": {
-    "term_full": "Coinbase Premium",
+    "term_full": "Coinbase Premium (Premio Coinbase)",
     "one_liner": "Un indicatore che misura la forza d'acquisto del capitale istituzionale statunitense, misurata dal divario di prezzo tra Coinbase e Binance.",
     "what": [
      "Il Coinbase Premium esprime, come rapporto, la differenza di prezzo di Bitcoin tra Coinbase (il principale exchange statunitense) e Binance (un exchange globale). Quando Coinbase è più caro, il premium è positivo; quando è più economico, negativo.",
@@ -9084,7 +9084,7 @@
     ]
    },
    "ru": {
-    "term_full": "Coinbase Premium",
+    "term_full": "Coinbase Premium (Премия Coinbase)",
     "one_liner": "Индикатор, оценивающий силу покупок институционального капитала США, измеряемую по разнице цен между Coinbase и Binance.",
     "what": [
      "Coinbase Premium выражает в виде отношения разницу цены Bitcoin между Coinbase (ведущей биржей США) и Binance (глобальной биржей). Когда Coinbase дороже, премия положительная; когда дешевле — отрицательная.",
@@ -9139,7 +9139,7 @@
     ]
    },
    "zh": {
-    "term_full": "Coinbase Premium",
+    "term_full": "Coinbase Premium (Coinbase 溢價)",
     "one_liner": "衡量美國機構資金買進力道的指標，以 Coinbase 與 Binance 之間的價差來測量。",
     "what": [
      "Coinbase Premium 以比率表達 Bitcoin 在 Coinbase（美國龍頭交易所）與 Binance（全球交易所）之間的價差。當 Coinbase 較貴時，premium 為正；較便宜時為負。",
@@ -9679,7 +9679,7 @@
     ]
    },
    "id": {
-    "term_full": "BTC Dominance",
+    "term_full": "Dominasi BTC (BTC Dominance)",
     "one_liner": "Porsi Bitcoin terhadap total market cap kripto. Menunjukkan apakah modal mengalir ke Bitcoin atau ke altcoin.",
     "what": [
      "BTC Dominance menyatakan porsi Bitcoin terhadap total market cap kripto dalam persen. Dominance tinggi berarti modal pasar terkonsentrasi di Bitcoin; dominance rendah berarti modal tersebar ke altcoin.",
@@ -9729,7 +9729,7 @@
     ]
    },
    "pl": {
-    "term_full": "BTC Dominance",
+    "term_full": "Dominacja BTC (BTC Dominance)",
     "one_liner": "Udział Bitcoina w całkowitej kapitalizacji rynku krypto. Pokazuje, czy kapitał płynie do Bitcoina, czy do altcoinów.",
     "what": [
      "BTC Dominance wyraża udział Bitcoina w całkowitej kapitalizacji rynku krypto w procentach. Wysoka dominacja oznacza, że kapitał rynku jest skoncentrowany w Bitcoinie; niska dominacja oznacza, że kapitał rozprasza się w altcoinach.",
@@ -9779,7 +9779,7 @@
     ]
    },
    "it": {
-    "term_full": "BTC Dominance",
+    "term_full": "Dominanza BTC (BTC Dominance)",
     "one_liner": "La quota di Bitcoin sulla market cap totale delle cripto. Mostra se il capitale sta affluendo verso Bitcoin o verso gli altcoin.",
     "what": [
      "La BTC Dominance esprime in percentuale la quota di Bitcoin sulla market cap totale delle cripto. Una dominance alta significa che il capitale del mercato è concentrato in Bitcoin; una dominance bassa significa che il capitale si disperde negli altcoin.",
@@ -9829,7 +9829,7 @@
     ]
    },
    "ru": {
-    "term_full": "BTC Dominance",
+    "term_full": "Доминация BTC (BTC Dominance)",
     "one_liner": "Доля Bitcoin в общей market cap крипторынка. Показывает, куда течёт капитал — в Bitcoin или в altcoin.",
     "what": [
      "BTC Dominance выражает долю Bitcoin в общей market cap крипторынка в процентах. Высокая доминация означает, что капитал рынка сосредоточен в Bitcoin; низкая доминация означает, что капитал рассеивается по altcoin.",
@@ -9879,7 +9879,7 @@
     ]
    },
    "zh": {
-    "term_full": "BTC Dominance",
+    "term_full": "BTC 市佔率 (BTC Dominance)",
     "one_liner": "比特幣占整體加密貨幣 market cap 的比重。顯示資金是流向 Bitcoin 還是 altcoin。",
     "what": [
      "BTC Dominance 以百分比表達比特幣占整體加密貨幣 market cap 的比重。dominance 高代表市場資金集中於 Bitcoin；dominance 低代表資金分散至 altcoin。",
@@ -10580,7 +10580,7 @@
     ]
    },
    "ru": {
-    "term_full": "Halving",
+    "term_full": "Халвинг (Halving)",
     "one_liner": "Событие примерно раз в 4 года, которое вдвое сокращает новую эмиссию Bitcoin. Фундаментальный двигатель, формирующий длинные циклы через шок предложения.",
     "what": [
      "Halving — это событие, при котором награда за майнинг Bitcoin сокращается вдвое, происходящее автоматически примерно каждые 210 000 блоков (около 4 лет). Число биткоинов, которое майнер получает за майнинг нового блока, уменьшается вдвое, поэтому и объём нового bitcoin, поступающего на рынок, уменьшается вдвое.",
@@ -10631,7 +10631,7 @@
     ]
    },
    "zh": {
-    "term_full": "Halving",
+    "term_full": "減半 (Halving)",
     "one_liner": "約每 4 年一次、將比特幣新發行量減半的事件。透過供給衝擊形塑長週期的根本引擎。",
     "what": [
      "Halving 是比特幣挖礦獎勵減半的事件，約每 210,000 個區塊（大約 4 年）自動發生。礦工挖出新區塊所獲得的比特幣數量減半，因此供應到市場的新比特幣數量也減半。",
@@ -11156,7 +11156,7 @@
     ]
    },
    "id": {
-    "term_full": "BTC Correlation",
+    "term_full": "Korelasi BTC (BTC Correlation)",
     "one_liner": "Menunjukkan seberapa banyak sebuah altcoin mengikuti pergerakan Bitcoin. Dipakai untuk menilai independensi dan risiko altcoin.",
     "what": [
      "BTC Correlation menyatakan seberapa erat harga sebuah altcoin bergerak bersama Bitcoin, sebagai nilai antara -1 dan +1. Dekat +1 berarti bergerak hampir identik dengan Bitcoin; dekat 0 berarti bergerak independen; negatif berarti bergerak berlawanan.",
@@ -11205,7 +11205,7 @@
     ]
    },
    "pl": {
-    "term_full": "BTC Correlation",
+    "term_full": "Korelacja z BTC (BTC Correlation)",
     "one_liner": "Pokazuje, jak bardzo altcoin podąża za ruchami Bitcoina. Służy do oceny niezależności i ryzyka altcoina.",
     "what": [
      "BTC Correlation wyraża, jak ściśle cena danego altcoina porusza się wraz z Bitcoinem, jako wartość między -1 a +1. Blisko +1 oznacza ruch niemal identyczny z Bitcoinem; blisko 0 oznacza ruch niezależny; wartość ujemna oznacza ruch przeciwny.",
@@ -11254,7 +11254,7 @@
     ]
    },
    "it": {
-    "term_full": "BTC Correlation",
+    "term_full": "Correlazione con BTC (BTC Correlation)",
     "one_liner": "Mostra quanto un altcoin segue i movimenti di Bitcoin. Si usa per giudicare l'indipendenza e il rischio di un altcoin.",
     "what": [
      "La BTC Correlation esprime quanto strettamente il prezzo di un dato altcoin si muove con Bitcoin, come valore tra -1 e +1. Vicino a +1 significa che si muove quasi in modo identico a Bitcoin; vicino a 0 che si muove in modo indipendente; negativo che si muove in senso opposto.",
@@ -11303,7 +11303,7 @@
     ]
    },
    "ru": {
-    "term_full": "BTC Correlation",
+    "term_full": "Корреляция с BTC (BTC Correlation)",
     "one_liner": "Показывает, насколько altcoin следует за движениями Bitcoin. Используется для оценки независимости и риска altcoin.",
     "what": [
      "BTC Correlation выражает, насколько тесно цена данного altcoin движется вместе с Bitcoin, значением от -1 до +1. Близко к +1 означает почти идентичное движение с Bitcoin; близко к 0 — независимое движение; отрицательное — противоположное движение.",
@@ -11352,7 +11352,7 @@
     ]
    },
    "zh": {
-    "term_full": "BTC Correlation",
+    "term_full": "BTC 相關性 (BTC Correlation)",
     "one_liner": "顯示一個 altcoin 跟隨 Bitcoin 走勢的程度。用於判斷 altcoin 的獨立性與風險。",
     "what": [
      "BTC Correlation 以 -1 到 +1 之間的數值，表達某 altcoin 價格與 Bitcoin 一同移動的緊密程度。接近 +1 代表與 Bitcoin 幾乎同步移動；接近 0 代表獨立移動；負值代表反向移動。",
@@ -11929,7 +11929,7 @@
     ]
    },
    "id": {
-    "term_full": "Altcoin Valuation (Price vs Estimated Realized)",
+    "term_full": "Valuasi Altcoin (Harga vs Estimasi Realized)",
     "one_liner": "Mengukur over/undervaluasi altcoin yang tak punya data on-chain lengkap, dengan estimasi harga realized sebagai acuan.",
     "what": [
      "Bitcoin memungkinkan indikator on-chain lengkap seperti MVRV dan NUPL, tapi sebagian besar altcoin tak mempublikasikan data on-chain sepresisi itu atau keandalannya rendah. Altcoin valuation mengisi celah ini dengan memakai alat seperti moving average harga untuk membangun estimasi harga realized dan mengukur seberapa jauh harga kini dari situ.",
@@ -11984,7 +11984,7 @@
     ]
    },
    "pl": {
-    "term_full": "Altcoin Valuation (Price vs Estimated Realized)",
+    "term_full": "Wycena Altcoinów (Cena vs Szacowany Realized)",
     "one_liner": "Ocenia prze/niedowartościowanie altcoinów, którym brakuje pełnych danych on-chain, używając szacowanej ceny realized jako punktu odniesienia.",
     "what": [
      "Bitcoin umożliwia pełne wskaźniki on-chain jak MVRV i NUPL, ale większość altcoinów nie publikuje tak precyzyjnych danych on-chain lub ich wiarygodność jest niska. Altcoin valuation wypełnia tę lukę, używając narzędzi jak średnie kroczące ceny do zbudowania szacowanej ceny realized i mierzenia, jak daleko obecna cena od niej leży.",
@@ -12039,7 +12039,7 @@
     ]
    },
    "it": {
-    "term_full": "Altcoin Valuation (Price vs Estimated Realized)",
+    "term_full": "Valutazione Altcoin (Prezzo vs Realized Stimato)",
     "one_liner": "Valuta la sopra/sottovalutazione degli altcoin privi di dati on-chain completi, usando un prezzo realized stimato come riferimento.",
     "what": [
      "Bitcoin consente indicatori on-chain completi come MVRV e NUPL, ma la maggior parte degli altcoin non pubblica dati on-chain così precisi o la loro affidabilità è bassa. L'altcoin valuation colma questa lacuna usando strumenti come le medie mobili del prezzo per costruire un prezzo realized stimato e misurare quanto il prezzo attuale disti da esso.",
@@ -12094,7 +12094,7 @@
     ]
    },
    "ru": {
-    "term_full": "Altcoin Valuation (Price vs Estimated Realized)",
+    "term_full": "Оценка альткоинов (Цена vs оценочный Realized)",
     "one_liner": "Оценивает пере-/недооценку altcoin, у которых нет полных on-chain данных, используя оценочную realized-цену как ориентир.",
     "what": [
      "Bitcoin допускает полные on-chain индикаторы, такие как MVRV и NUPL, но большинство altcoin не публикуют столь точных on-chain данных или их надёжность низка. Altcoin valuation заполняет этот пробел, используя такие инструменты, как скользящие средние цены, чтобы построить оценочную realized-цену и измерить, насколько текущая цена от неё отстоит.",
@@ -12149,7 +12149,7 @@
     ]
    },
    "zh": {
-    "term_full": "Altcoin Valuation (Price vs Estimated Realized)",
+    "term_full": "山寨幣估值 (價格 vs 估算 Realized)",
     "one_liner": "以估算的 realized 價格為基準，衡量缺乏完整 on-chain 數據的 altcoin 之高估／低估程度。",
     "what": [
      "Bitcoin 可支援 MVRV、NUPL 等完整的 on-chain 指標，但多數 altcoin 並不公開如此精確的 on-chain 數據，或其可靠性偏低。altcoin valuation 藉由價格移動平均等工具建構出估算的 realized 價格，並衡量目前價格距其多遠，以填補此空缺。",
@@ -12740,7 +12740,7 @@
     ]
    },
    "id": {
-    "term_full": "Altcoin Drawdown (Decline from ATH)",
+    "term_full": "Penurunan Altcoin (Penurunan dari ATH)",
     "one_liner": "Menunjukkan seberapa jauh sebuah altcoin telah jatuh dari all-time high (ATH). Dipakai untuk mengukur fase dasar dan potensi rebound.",
     "what": [
      "Drawdown adalah nilai yang menyatakan, dalam persen, seberapa jauh harga kini telah jatuh dari all-time high (ATH). Misalnya, jika sebuah altcoin ber-ATH $100 kini di $20, drawdown-nya -80%. Indikator ini secara intuitif menunjukkan seberapa dalam sebuah aset terkoreksi dari puncaknya.",
@@ -12795,7 +12795,7 @@
     ]
    },
    "pl": {
-    "term_full": "Altcoin Drawdown (Decline from ATH)",
+    "term_full": "Spadek Altcoinów (Spadek od ATH)",
     "one_liner": "Pokazuje, jak daleko altcoin spadł od historycznego szczytu (ATH). Służy do oceny faz dna i potencjału odbicia.",
     "what": [
      "Drawdown to wartość wyrażająca w procentach, jak daleko obecna cena spadła od historycznego szczytu (ATH). Na przykład, jeśli altcoin, którego ATH wynosił 100 USD, jest teraz na 20 USD, drawdown wynosi -80%. Ten wskaźnik intuicyjnie pokazuje, jak głęboko aktywo skorygowało się od szczytu.",
@@ -12850,7 +12850,7 @@
     ]
    },
    "it": {
-    "term_full": "Altcoin Drawdown (Decline from ATH)",
+    "term_full": "Drawdown Altcoin (Calo da ATH)",
     "one_liner": "Mostra quanto un altcoin è caduto dal suo massimo storico (ATH). Si usa per valutare le fasi di minimo e il potenziale di rimbalzo.",
     "what": [
      "Il drawdown è il valore che esprime, in percentuale, quanto il prezzo attuale è caduto dal massimo storico (ATH). Ad esempio, se un altcoin con ATH di 100 $ è ora a 20 $, il drawdown è -80%. Questo indicatore mostra intuitivamente quanto profondamente un asset si sia corretto dal suo picco.",
@@ -12905,7 +12905,7 @@
     ]
    },
    "ru": {
-    "term_full": "Altcoin Drawdown (Decline from ATH)",
+    "term_full": "Просадка альткоинов (Падение от ATH)",
     "one_liner": "Показывает, насколько altcoin упал от исторического максимума (ATH). Используется для оценки фаз дна и потенциала отскока.",
     "what": [
      "Drawdown — это значение, выражающее в процентах, насколько текущая цена упала от исторического максимума (ATH). Например, если altcoin с ATH 100 $ сейчас на 20 $, drawdown равен -80%. Этот индикатор наглядно показывает, насколько глубоко актив скорректировался от своей вершины.",
@@ -12960,7 +12960,7 @@
     ]
    },
    "zh": {
-    "term_full": "Altcoin Drawdown (Decline from ATH)",
+    "term_full": "山寨幣回檔 (距 ATH 跌幅)",
     "one_liner": "顯示一個 altcoin 自歷史高點（ATH）下跌的幅度。用於衡量底部階段與反彈潛力。",
     "what": [
      "drawdown 是以百分比表達目前價格自歷史高點（ATH）下跌幅度的數值。例如，某 altcoin 的 ATH 為 100 美元、現價 20 美元，drawdown 即為 -80%。此指標直觀地顯示一項資產自其頂部修正的深度。",
@@ -13617,7 +13617,7 @@
     ]
    },
    "id": {
-    "term_full": "Fear & Greed Index",
+    "term_full": "Indeks Fear & Greed (Fear & Greed Index)",
     "one_liner": "Satu angka 0–100 yang merangkum apakah sentimen pasar saat ini digerakkan oleh ketakutan atau keserakahan.",
     "what": [
      "Fear & Greed Index menggabungkan beberapa masukan — volatilitas, momentum pasar, volume, media sosial, survei, dan dominasi Bitcoin — menjadi satu nilai antara 0 dan 100. Nilai dekat 0 berarti ketakutan ekstrem; nilai dekat 100 berarti keserakahan ekstrem.",
@@ -13679,7 +13679,7 @@
     ]
    },
    "pl": {
-    "term_full": "Fear & Greed Index",
+    "term_full": "Indeks Fear & Greed (Fear & Greed Index)",
     "one_liner": "Jedna liczba 0–100 podsumowująca, czy nastrój rynku jest obecnie napędzany strachem czy chciwością.",
     "what": [
      "Fear & Greed Index łączy kilka danych wejściowych — zmienność, momentum rynku, wolumen, media społecznościowe, ankiety i dominację Bitcoina — w jedną wartość między 0 a 100. Wartości bliskie 0 oznaczają skrajny strach; wartości bliskie 100 oznaczają skrajną chciwość.",
@@ -13741,7 +13741,7 @@
     ]
    },
    "it": {
-    "term_full": "Fear & Greed Index",
+    "term_full": "Indice Fear & Greed (Fear & Greed Index)",
     "one_liner": "Un unico numero 0–100 che riassume se il sentiment di mercato è attualmente guidato dalla paura o dall'avidità.",
     "what": [
      "Il Fear & Greed Index combina diversi input — volatilità, momentum di mercato, volume, social media, sondaggi e dominance di Bitcoin — in un unico valore tra 0 e 100. Valori vicini a 0 indicano paura estrema; valori vicini a 100 indicano avidità estrema.",
@@ -13803,7 +13803,7 @@
     ]
    },
    "ru": {
-    "term_full": "Fear & Greed Index",
+    "term_full": "Индекс страха и жадности (Fear & Greed Index)",
     "one_liner": "Единое число 0–100, обобщающее, чем сейчас движим рыночный настрой — страхом или жадностью.",
     "what": [
      "Fear & Greed Index объединяет несколько входных данных — волатильность, рыночный моментум, объём, социальные сети, опросы и доминацию Bitcoin — в единое значение от 0 до 100. Значения около 0 означают крайний страх; значения около 100 — крайнюю жадность.",
@@ -13865,7 +13865,7 @@
     ]
    },
    "zh": {
-    "term_full": "Fear & Greed Index",
+    "term_full": "恐懼與貪婪指數 (Fear & Greed Index)",
     "one_liner": "以單一 0–100 數值概括目前市場情緒是由恐懼還是貪婪所主導。",
     "what": [
      "Fear & Greed Index 將多項輸入 — 波動率、市場動能、成交量、社群媒體、問卷調查與 Bitcoin 主導率 — 綜合為 0 到 100 之間的單一數值。接近 0 代表極度恐懼；接近 100 代表極度貪婪。",
@@ -14479,7 +14479,7 @@
     ]
    },
    "id": {
-    "term_full": "LTH-SOPR (Long-Term Holder SOPR)",
+    "term_full": "LTH-SOPR (SOPR Holder Jangka Panjang)",
     "one_liner": "Metrik sentimen horizon panjang yang menunjukkan pada profit atau rugi berapa holder jangka panjang menjual koin mereka saat ini.",
     "what": [
      "SOPR ('Spent Output Profit Ratio') mengukur profit atau rugi saat koin yang dipindahkan (dijual) dilepas, relatif terhadap harga perolehannya. Ini adalah harga jual dibagi harga perolehan: di atas 1 berarti rata-rata merealisasi profit, di bawah 1 berarti merealisasi rugi.",
@@ -14536,7 +14536,7 @@
     ]
    },
    "pl": {
-    "term_full": "LTH-SOPR (Long-Term Holder SOPR)",
+    "term_full": "LTH-SOPR (SOPR Posiadaczy Długoterminowych)",
     "one_liner": "Metryka nastroju o długim horyzoncie pokazująca, przy jakim zysku lub stracie długoterminowi posiadacze sprzedają swoje monety właśnie teraz.",
     "what": [
      "SOPR ('Spent Output Profit Ratio') mierzy zysk lub stratę, przy których przeniesione (sprzedane) monety są zbywane, względem ceny ich nabycia. To cena sprzedaży podzielona przez cenę nabycia: powyżej 1 oznacza średnio realizację zysku, poniżej 1 realizację straty.",
@@ -14593,7 +14593,7 @@
     ]
    },
    "it": {
-    "term_full": "LTH-SOPR (Long-Term Holder SOPR)",
+    "term_full": "LTH-SOPR (SOPR Detentori a Lungo Termine)",
     "one_liner": "Una metrica di sentiment di lungo orizzonte che mostra a quale profitto o perdita i detentori di lungo periodo stanno vendendo le loro monete in questo momento.",
     "what": [
      "SOPR ('Spent Output Profit Ratio') misura il profitto o la perdita a cui le monete movimentate (vendute) vengono cedute, rispetto al loro prezzo di acquisizione. È il prezzo di vendita diviso per il prezzo di acquisizione: sopra 1 significa realizzare in media un profitto, sotto 1 realizzare una perdita.",
@@ -14650,7 +14650,7 @@
     ]
    },
    "ru": {
-    "term_full": "LTH-SOPR (Long-Term Holder SOPR)",
+    "term_full": "LTH-SOPR (SOPR долгосрочных держателей)",
     "one_liner": "Метрика настроя на длинном горизонте, показывающая, с какой прибылью или убытком долгосрочные держатели продают свои монеты прямо сейчас.",
     "what": [
      "SOPR ('Spent Output Profit Ratio') измеряет прибыль или убыток, с которыми перемещённые (проданные) монеты выбывают, относительно цены их приобретения. Это цена продажи, делённая на цену приобретения: выше 1 означает в среднем фиксацию прибыли, ниже 1 — фиксацию убытка.",
@@ -14707,7 +14707,7 @@
     ]
    },
    "zh": {
-    "term_full": "LTH-SOPR (Long-Term Holder SOPR)",
+    "term_full": "LTH-SOPR (長期持有者 SOPR)",
     "one_liner": "一項長週期情緒指標，顯示長期持有者當前是以何種獲利或虧損水平賣出手中的幣。",
     "what": [
      "SOPR（'Spent Output Profit Ratio'）衡量被移動（賣出）的幣相對其取得價格所實現的獲利或虧損。它是賣出價格除以取得價格：高於 1 代表平均實現獲利，低於 1 代表實現虧損。",
@@ -15403,7 +15403,7 @@
     ]
    },
    "id": {
-    "term_full": "200-Week Moving Average / Mayer Multiple",
+    "term_full": "Rata-rata Bergerak 200 Minggu / Mayer Multiple",
     "one_liner": "Metrik yang mengukur over- atau undervaluasi siklus dari seberapa jauh harga kini berada dari rata-rata 200 minggunya (sekitar 4 tahun).",
     "what": [
      "200W MA adalah rata-rata harga penutupan selama 200 minggu terakhir — sekitar empat tahun. Selaras dengan siklus halving Bitcoin yang kira-kira empat tahun, garis ini bertindak sebagai baseline tren jangka panjang yang membentang sepanjang siklus. Secara historis, Bitcoin jarang jatuh di bawah 200W MA-nya, dan setiap periode seperti itu bertepatan dengan dasar siklus.",
@@ -15469,7 +15469,7 @@
     ]
    },
    "pl": {
-    "term_full": "200-Week Moving Average / Mayer Multiple",
+    "term_full": "200-tygodniowa Średnia Krocząca / Mayer Multiple",
     "one_liner": "Metryka oceniająca prze- lub niedowartościowanie cyklu na podstawie tego, jak daleko obecna cena znajduje się od swojej średniej 200-tygodniowej (około 4 lata).",
     "what": [
      "200W MA to średnia cen zamknięcia z ostatnich 200 tygodni — około czterech lat. Dopasowana do mniej więcej czteroletniego cyklu halvingu Bitcoina, linia ta działa jako długoterminowa baza trendu przebiegająca przez cały cykl. Historycznie Bitcoin rzadko spadał poniżej swojej 200W MA, a każdy taki okres zbiegał się z dnem cyklu.",
@@ -15535,7 +15535,7 @@
     ]
    },
    "it": {
-    "term_full": "200-Week Moving Average / Mayer Multiple",
+    "term_full": "Media Mobile a 200 Settimane / Mayer Multiple",
     "one_liner": "Una metrica che valuta la sopra- o sottovalutazione di ciclo in base a quanto il prezzo attuale si trovi lontano dalla sua media a 200 settimane (circa 4 anni).",
     "what": [
      "La 200W MA è la media dei prezzi di chiusura delle ultime 200 settimane — circa quattro anni. Allineata al ciclo di halving di Bitcoin di circa quattro anni, questa linea funge da baseline di trend di lungo periodo che attraversa l'intero ciclo. Storicamente, Bitcoin è raramente sceso sotto la sua 200W MA, e ogni periodo del genere ha coinciso con un minimo di ciclo.",
@@ -15601,7 +15601,7 @@
     ]
    },
    "ru": {
-    "term_full": "200-Week Moving Average / Mayer Multiple",
+    "term_full": "200-недельная скользящая средняя / Mayer Multiple",
     "one_liner": "Метрика, оценивающая пере- или недооценку цикла по тому, насколько текущая цена отстоит от своей 200-недельной (около 4 лет) средней.",
     "what": [
      "200W MA — это среднее цен закрытия за последние 200 недель, около четырёх лет. Согласуясь с примерно четырёхлетним циклом халвинга Bitcoin, эта линия служит долгосрочной базой тренда, проходящей через весь цикл. Исторически Bitcoin редко опускался ниже своей 200W MA, и каждый такой период совпадал с дном цикла.",
@@ -15667,7 +15667,7 @@
     ]
    },
    "zh": {
-    "term_full": "200-Week Moving Average / Mayer Multiple",
+    "term_full": "200 週移動平均 / Mayer Multiple",
     "one_liner": "一項指標，透過目前價格距離其 200W MA（約 4 年）平均值的遠近，衡量週期的高估或低估。",
     "what": [
      "200W MA 是過去 200 週 — 約四年 — 收盤價的平均。與 Bitcoin 大約四年的 halving 週期相契合，這條線作為貫穿整個週期的長期趨勢基準。歷史上，Bitcoin 鮮少跌破其 200W MA，而每一次跌破期間都與週期底部重合。",
@@ -16432,7 +16432,7 @@
     ]
    },
    "it": {
-    "term_full": "Puell Multiple",
+    "term_full": "Multiplo di Puell (Puell Multiple)",
     "one_liner": "Una metrica di ciclo basata su quanto sia alto o basso il ricavo giornaliero dei miner rispetto alla sua media dell'ultimo anno.",
     "what": [
      "Il Puell Multiple divide il valore delle monete di nuova emissione in un giorno (emissione giornaliera × prezzo) per il valore medio di emissione degli ultimi 365 giorni. In altre parole, mostra quante volte il ricavo dei miner di oggi vale rispetto a un anno tipico.",
@@ -16492,7 +16492,7 @@
     ]
    },
    "ru": {
-    "term_full": "Puell Multiple",
+    "term_full": "Множитель Пуэлла (Puell Multiple)",
     "one_liner": "Метрика цикла на основе того, насколько высок или низок дневной доход майнеров относительно его среднего за последний год.",
     "what": [
      "Puell Multiple делит стоимость монет, вновь выпущенных за день (дневная эмиссия × цена), на среднюю стоимость эмиссии за последние 365 дней. Иначе говоря, он показывает, во сколько раз сегодняшний доход майнеров отличается от типичного года.",
@@ -17158,7 +17158,7 @@
     ]
    },
    "id": {
-    "term_full": "Futures-Spot Gap (Basis)",
+    "term_full": "Selisih Futures-Spot (Basis)",
     "one_liner": "Membaca overheat atau ketakutan derivatif dari apakah futures diperdagangkan di atas spot (contango) atau di bawahnya (backwardation). Pada dashboard ini gap dilacak lewat funding perpetual.",
     "what": [
      "Futures-Spot Gap (basis) adalah selisih antara harga futures suatu aset dan harga spot-nya. Ketika futures lebih mahal daripada spot disebut contango; ketika lebih murah, backwardation. Dalam bull market normal yang mengharapkan harga lebih tinggi, contango ringan — futures sedikit di atas spot — bertahan.",
@@ -17214,7 +17214,7 @@
     ]
    },
    "pl": {
-    "term_full": "Futures-Spot Gap (Basis)",
+    "term_full": "Różnica Futures-Spot (Basis)",
     "one_liner": "Odczytuje przegrzanie lub strach na rynku instrumentów pochodnych na podstawie tego, czy futures notują się powyżej spot (contango) czy poniżej (backwardation). Na tym pulpicie luka jest śledzona przez funding perpetuali.",
     "what": [
      "Futures-Spot Gap (basis) to różnica między ceną futures aktywa a jego ceną spot. Gdy futures są droższe od spot, mówimy o contango; gdy tańsze — o backwardation. W normalnej hossie oczekującej wyższych cen utrzymuje się łagodne contango — futures nieco powyżej spot.",
@@ -17270,7 +17270,7 @@
     ]
    },
    "it": {
-    "term_full": "Futures-Spot Gap (Basis)",
+    "term_full": "Scarto Futures-Spot (Basis)",
     "one_liner": "Legge il surriscaldamento o la paura dei derivati dal fatto che i futures scambino sopra lo spot (contango) o sotto (backwardation). Su questa dashboard il gap è tracciato tramite il funding perpetual.",
     "what": [
      "Il Futures-Spot Gap (basis) è la differenza tra il prezzo futures di un asset e il suo prezzo spot. Quando i futures sono più cari dello spot si parla di contango; quando più economici, di backwardation. In un normale bull market che si attende prezzi più alti persiste un lieve contango — futures leggermente sopra lo spot.",
@@ -17326,7 +17326,7 @@
     ]
    },
    "ru": {
-    "term_full": "Futures-Spot Gap (Basis)",
+    "term_full": "Разрыв Futures-Spot (Basis)",
     "one_liner": "Считывает перегрев или страх на рынке деривативов по тому, торгуются ли futures выше spot (contango) или ниже (backwardation). На этой панели разрыв отслеживается через funding перпетуалов.",
     "what": [
      "Futures-Spot Gap (basis) — это разница между ценой futures актива и его ценой spot. Когда futures дороже spot, это называется contango; когда дешевле — backwardation. В нормальном бычьем рынке, ожидающем более высоких цен, сохраняется умеренное contango — futures немного выше spot.",
@@ -17382,7 +17382,7 @@
     ]
    },
    "zh": {
-    "term_full": "Futures-Spot Gap (Basis)",
+    "term_full": "期現差距 (Basis)",
     "one_liner": "從 futures 是否高於 spot（contango）或低於（backwardation），判讀衍生品的過熱或恐慌。本儀表板透過永續 funding 追蹤此價差。",
     "what": [
      "Futures-Spot Gap（basis）是資產的 futures 價格與其 spot 價格之間的差距。當 futures 比 spot 貴時稱為 contango；較便宜時則為 backwardation。在預期價格更高的正常牛市中，會維持輕微的 contango — futures 略高於 spot。",
@@ -17983,7 +17983,7 @@
     ]
    },
    "id": {
-    "term_full": "ATH Drawdown (Decline from All-Time High)",
+    "term_full": "Penurunan dari ATH (Penurunan dari Puncak Tertinggi)",
     "one_liner": "Mengukur seberapa dekat siklus ke dasar dari seberapa jauh Bitcoin telah jatuh dari harga tertinggi sepanjang masa (ATH). (Untuk BTC; altcoin memakai indikator terpisah.)",
     "what": [
      "ATH drawdown menunjukkan berapa persen harga kini telah jatuh dari ATH. -50% berarti separuh dari puncak; -80% berarti sekitar seperlima. Makin dekat ke 0, makin dekat ke puncak; makin negatif, makin dalam zona dasar.",
@@ -18039,7 +18039,7 @@
     ]
    },
    "pl": {
-    "term_full": "ATH Drawdown (Decline from All-Time High)",
+    "term_full": "Spadek od ATH (Spadek od Historycznego Szczytu)",
     "one_liner": "Mierzy, jak blisko dna jest cykl, na podstawie tego, jak daleko Bitcoin spadł od historycznego szczytu (ATH). (Dla BTC; altcoiny używają osobnego wskaźnika.)",
     "what": [
      "ATH drawdown pokazuje, o ile procent obecna cena spadła od historycznego szczytu. -50% oznacza połowę szczytu; -80% oznacza około jednej piątej. Im bliżej 0, tym bliżej szczytu; im bardziej ujemnie, tym głębsza strefa dna.",
@@ -18095,7 +18095,7 @@
     ]
    },
    "it": {
-    "term_full": "ATH Drawdown (Decline from All-Time High)",
+    "term_full": "Drawdown da ATH (Calo dal Massimo Storico)",
     "one_liner": "Misura quanto il ciclo è vicino a un minimo in base a quanto Bitcoin è sceso dal suo massimo storico (ATH). (Per BTC; le altcoin usano un indicatore separato.)",
     "what": [
      "L'ATH drawdown mostra di quale percentuale il prezzo attuale è sceso dal massimo storico. -50% significa metà del picco; -80% significa circa un quinto. Più è vicino a 0, più si è vicini al massimo; più è negativo, più profonda è la zona di minimo.",
@@ -18151,7 +18151,7 @@
     ]
    },
    "ru": {
-    "term_full": "ATH Drawdown (Decline from All-Time High)",
+    "term_full": "Просадка от ATH (Падение от исторического максимума)",
     "one_liner": "Оценивает, насколько цикл близок ко дну, по тому, как далеко Bitcoin упал от исторического максимума (ATH). (Для BTC; для альткоинов используется отдельный индикатор.)",
     "what": [
      "ATH drawdown показывает, на сколько процентов текущая цена упала от исторического максимума. -50% означает половину от пика; -80% — примерно пятую часть. Чем ближе к 0, тем ближе к вершине; чем отрицательнее, тем глубже зона дна.",
@@ -18207,7 +18207,7 @@
     ]
    },
    "zh": {
-    "term_full": "ATH Drawdown (Decline from All-Time High)",
+    "term_full": "ATH 回檔 (距歷史高點跌幅)",
     "one_liner": "以比特幣自歷史高點（ATH）跌落的幅度，衡量週期距離底部有多近。（適用於 BTC；山寨幣使用另一指標。）",
     "what": [
      "ATH drawdown 顯示目前價格自歷史高點跌落了百分之幾。-50% 代表高點的一半；-80% 代表約五分之一。越接近 0 越靠近頂部；越負則越深入底部區。",
@@ -18735,7 +18735,7 @@
     ]
    },
    "id": {
-    "term_full": "Stablecoin Supply Ratio (SSR)",
+    "term_full": "Rasio Suplai Stablecoin (SSR)",
     "one_liner": "Market cap Bitcoin dibagi market cap stablecoin — pengukur seberapa besar daya beli (dry powder) yang menunggu di pinggir lapangan.",
     "what": [
      "SSR (Stablecoin Supply Ratio) adalah BTC market cap ÷ stablecoin market cap. Stablecoin bisa dilihat sebagai daya beli yang siap dikerahkan kapan saja, jadi makin rendah rasionya (makin banyak stablecoin relatif terhadap BTC), makin besar amunisi yang bisa mengalir ke pasar.",
@@ -18784,7 +18784,7 @@
     ]
    },
    "pl": {
-    "term_full": "Stablecoin Supply Ratio (SSR)",
+    "term_full": "Wskaźnik Podaży Stablecoinów (SSR)",
     "one_liner": "Kapitalizacja rynkowa Bitcoina podzielona przez kapitalizację stablecoinów — miernik tego, jak duża siła nabywcza (dry powder) czeka na uboczu.",
     "what": [
      "SSR (Stablecoin Supply Ratio) to BTC market cap ÷ stablecoin market cap. Stablecoiny można postrzegać jako siłę nabywczą gotową do użycia w każdej chwili, więc im niższy wskaźnik (im więcej stablecoinów względem BTC), tym większa siła ognia mogąca wpłynąć na rynek.",
@@ -18833,7 +18833,7 @@
     ]
    },
    "it": {
-    "term_full": "Stablecoin Supply Ratio (SSR)",
+    "term_full": "Rapporto di Offerta di Stablecoin (SSR)",
     "one_liner": "Il market cap di Bitcoin diviso per il market cap delle stablecoin — un misuratore di quanto potere d'acquisto (dry powder) è in attesa a bordo campo.",
     "what": [
      "L'SSR (Stablecoin Supply Ratio) è BTC market cap ÷ stablecoin market cap. Le stablecoin possono essere viste come potere d'acquisto pronto a essere schierato in qualsiasi momento, quindi più basso è il rapporto (più stablecoin rispetto a BTC), maggiore è la potenza di fuoco che può affluire al mercato.",
@@ -18882,7 +18882,7 @@
     ]
    },
    "ru": {
-    "term_full": "Stablecoin Supply Ratio (SSR)",
+    "term_full": "Коэффициент предложения стейблкоинов (SSR)",
     "one_liner": "Market cap Bitcoin, делённая на market cap стейблкоинов — измеритель того, сколько покупательной способности (dry powder) ждёт в стороне.",
     "what": [
      "SSR (Stablecoin Supply Ratio) — это BTC market cap ÷ stablecoin market cap. Стейблкоины можно рассматривать как покупательную способность, готовую к развёртыванию в любой момент, поэтому чем ниже отношение (чем больше стейблкоинов относительно BTC), тем больше огневая мощь, способная влиться в рынок.",
@@ -18931,7 +18931,7 @@
     ]
    },
    "zh": {
-    "term_full": "Stablecoin Supply Ratio (SSR)",
+    "term_full": "穩定幣供給比率 (SSR)",
     "one_liner": "比特幣 market cap 除以 stablecoin market cap — 衡量有多少購買力（dry powder）在場邊等待的指標。",
     "what": [
      "SSR（Stablecoin Supply Ratio）為 BTC market cap ÷ stablecoin market cap。Stablecoin 可視為隨時可投入的購買力，故比率越低（相對 BTC 的 stablecoin 越多），能流入市場的火力就越大。",
@@ -19452,7 +19452,7 @@
     ]
    },
    "id": {
-    "term_full": "Open Interest",
+    "term_full": "Open Interest (Kontrak Terbuka)",
     "one_liner": "Total kontrak futures yang masih terbuka (belum ditutup) — menunjukkan seberapa banyak leverage yang telah menumpuk di pasar.",
     "what": [
      "Open interest (OI) adalah total ukuran kontrak futures yang terbuka di pasar. OI yang naik berarti uang dan leverage baru mengalir masuk; OI yang turun berarti posisi sedang dilepas (dilikuidasi atau ditutup). Ketika OI naik bersama harga, tren dipandang membawa kekuatan nyata.",
@@ -19501,7 +19501,7 @@
     ]
    },
    "pl": {
-    "term_full": "Open Interest",
+    "term_full": "Open Interest (Otwarte Pozycje)",
     "one_liner": "Łączna liczba kontraktów futures wciąż otwartych (jeszcze niezamkniętych) — pokazuje, ile lewara nagromadziło się na rynku.",
     "what": [
      "Open interest (OI) to łączny rozmiar kontraktów futures otwartych na rynku. Rosnący OI oznacza napływ świeżego kapitału i lewara; malejący OI oznacza rozwiązywanie pozycji (likwidacja lub zamknięcie). Gdy OI rośnie razem z ceną, uważa się, że trend niesie realną siłę.",
@@ -19550,7 +19550,7 @@
     ]
    },
    "it": {
-    "term_full": "Open Interest",
+    "term_full": "Open Interest (Posizioni Aperte)",
     "one_liner": "Il totale dei contratti futures ancora aperti (non ancora chiusi) — mostra quanta leva si è accumulata nel mercato.",
     "what": [
      "L'open interest (OI) è la dimensione totale dei contratti futures aperti nel mercato. Un OI in salita significa che denaro e leva freschi stanno affluendo; un OI in calo significa che le posizioni vengono sciolte (liquidate o chiuse). Quando l'OI sale insieme al prezzo, si ritiene che il trend abbia una forza reale.",
@@ -19599,7 +19599,7 @@
     ]
    },
    "ru": {
-    "term_full": "Open Interest",
+    "term_full": "Open Interest (Открытый интерес)",
     "one_liner": "Общий объём futures-контрактов, всё ещё открытых (не закрытых) — показывает, сколько плеча накопилось на рынке.",
     "what": [
      "Open interest (OI) — это общий размер открытых на рынке futures-контрактов. Растущий OI означает приток свежих денег и плеча; падающий OI означает, что позиции закрываются (ликвидируются или закрываются). Когда OI растёт вместе с ценой, считается, что тренд несёт реальную силу.",
@@ -19648,7 +19648,7 @@
     ]
    },
    "zh": {
-    "term_full": "Open Interest",
+    "term_full": "未平倉合約 (Open Interest)",
     "one_liner": "仍未平倉（尚未了結）的 futures 合約總量 — 顯示市場累積了多少槓桿。",
     "what": [
      "Open interest（OI）是市場上未平倉 futures 合約的總規模。OI 上升代表新資金與槓桿流入；OI 下降代表部位正在解除（被清算或平倉）。當 OI 與價格同步上升時，趨勢被視為帶有真實力道。",
@@ -20169,7 +20169,7 @@
     ]
    },
    "id": {
-    "term_full": "Exchange Netflow / Reserves",
+    "term_full": "Netflow Bursa / Cadangan",
     "one_liner": "Aliran bersih koin masuk dan keluar exchange — menunjukkan apakah suplai sisi jual sedang menumpuk (inflow) atau mengalir ke self-custody (outflow).",
     "what": [
      "Exchange netflow adalah 'koin masuk dikurangi koin keluar' dari exchange dalam suatu periode. Karena alasan utama memindahkan koin ke exchange adalah untuk menjual, net inflow besar (+) menandakan suplai sisi jual sedang menumpuk dan tekanan jual meningkat. Sebaliknya, net outflow (−) dibaca sebagai koin berpindah ke self-custody untuk disimpan jangka panjang (akumulasi).",
@@ -20218,7 +20218,7 @@
     ]
    },
    "pl": {
-    "term_full": "Exchange Netflow / Reserves",
+    "term_full": "Przepływ Netto Giełd / Rezerwy",
     "one_liner": "Przepływ netto monet do i z giełd — pokazuje, czy podaż po stronie sprzedaży się nawarstwia (inflow), czy odpływa do self-custody (outflow).",
     "what": [
      "Exchange netflow to 'monety wchodzące minus monety wychodzące' z giełd w danym okresie. Ponieważ głównym powodem przenoszenia monet na giełdę jest sprzedaż, duży net inflow (+) sygnalizuje narastanie podaży po stronie sprzedaży i rosnącą presję sprzedażową. Odwrotnie, net outflow (−) czyta się jako monety przenoszone do self-custody na długoterminowe trzymanie (akumulacja).",
@@ -20267,7 +20267,7 @@
     ]
    },
    "it": {
-    "term_full": "Exchange Netflow / Reserves",
+    "term_full": "Netflow degli Exchange / Riserve",
     "one_liner": "Il flusso netto di monete in entrata e uscita dagli exchange — mostra se l'offerta lato vendita si sta accumulando (inflow) o defluendo verso self-custody (outflow).",
     "what": [
      "L'exchange netflow è 'monete in entrata meno monete in uscita' dagli exchange in un periodo. Poiché il motivo principale per spostare monete su un exchange è vendere, un grande net inflow (+) segnala che l'offerta lato vendita si sta accumulando e la pressione di vendita cresce. Al contrario, un net outflow (−) si legge come monete che si spostano in self-custody per la detenzione a lungo termine (accumulo).",
@@ -20316,7 +20316,7 @@
     ]
    },
    "ru": {
-    "term_full": "Exchange Netflow / Reserves",
+    "term_full": "Чистый поток бирж / Резервы",
     "one_liner": "Чистый поток монет на биржи и с них — показывает, накапливается ли предложение со стороны продаж (inflow) или утекает в self-custody (outflow).",
     "what": [
      "Exchange netflow — это 'монеты входящие минус монеты исходящие' по биржам за период. Поскольку главная причина переводить монеты на биржу — продажа, крупный net inflow (+) сигнализирует о накоплении предложения со стороны продаж и росте давления продаж. Наоборот, net outflow (−) читается как перемещение монет в self-custody для долгосрочного хранения (накопление).",
@@ -20365,7 +20365,7 @@
     ]
    },
    "zh": {
-    "term_full": "Exchange Netflow / Reserves",
+    "term_full": "交易所淨流量 / 儲備",
     "one_liner": "幣進出交易所的淨流量 — 顯示賣方供給是否正在累積（inflow）或流向 self-custody（outflow）。",
     "what": [
      "Exchange netflow 是某段期間內交易所的「流入幣減去流出幣」。由於將幣移入交易所的主要理由是賣出，龐大的 net inflow（+）代表賣方供給正在累積、賣壓上升。反之，net outflow（−）解讀為幣移往 self-custody 長期持有（累積）。",
@@ -20886,7 +20886,7 @@
     ]
    },
    "id": {
-    "term_full": "Pi Cycle Top Indicator",
+    "term_full": "Indikator Pi Cycle Top",
     "one_liner": "Sinyal puncak yang akurat secara historis, menangkap puncak siklus dari hubungan antara moving average pendek (111 hari) dan panjang (350 hari ×2).",
     "what": [
      "Pi Cycle Top menganggap puncak siklus sudah dekat ketika moving average 111 hari mencapai dan melintasi dua kali moving average 350 hari. Di beberapa siklus lampau ia menandai puncak sebenarnya dalam hitungan hari, sehingga terkenal sebagai 'alarm puncak.' Dashboard ini membaca seberapa dekatnya lewat rasio dua garis (111 hari ÷ (2×350 hari)).",
@@ -20935,7 +20935,7 @@
     ]
    },
    "pl": {
-    "term_full": "Pi Cycle Top Indicator",
+    "term_full": "Wskaźnik Pi Cycle Top",
     "one_liner": "Historycznie trafny sygnał szczytu, który wychwytywał piki cykli z relacji między krótką (111-dniową) a długą (350-dniową ×2) średnią kroczącą.",
     "what": [
      "Pi Cycle Top traktuje pik cyklu jako bliski, gdy 111-dniowa średnia krocząca osiąga i przecina podwójną wartość 350-dniowej średniej kroczącej. W kilku minionych cyklach wskazał faktyczny szczyt z dokładnością do kilku dni, zyskując miano 'alarmu szczytu.' Ten dashboard odczytuje, jak blisko jest, poprzez stosunek dwóch linii (111 dni ÷ (2×350 dni)).",
@@ -20984,7 +20984,7 @@
     ]
    },
    "it": {
-    "term_full": "Pi Cycle Top Indicator",
+    "term_full": "Indicatore Pi Cycle Top",
     "one_liner": "Un segnale di massimo storicamente accurato che ha catturato i picchi di ciclo dalla relazione tra una media mobile breve (111 giorni) e una lunga (350 giorni ×2).",
     "what": [
      "Il Pi Cycle Top considera imminente un picco di ciclo quando la media mobile a 111 giorni raggiunge e incrocia il doppio della media mobile a 350 giorni. In diversi cicli passati ha individuato il massimo reale entro pochi giorni, guadagnandosi la fama di 'allarme di massimo.' Questa dashboard legge quanto sia vicino tramite il rapporto tra le due linee (111 giorni ÷ (2×350 giorni)).",
@@ -21033,7 +21033,7 @@
     ]
    },
    "ru": {
-    "term_full": "Pi Cycle Top Indicator",
+    "term_full": "Индикатор Pi Cycle Top",
     "one_liner": "Исторически точный сигнал вершины, ловивший пики циклов из соотношения короткой (111-дневной) и длинной (350-дневной ×2) скользящей средней.",
     "what": [
      "Pi Cycle Top считает пик цикла близким, когда 111-дневная скользящая средняя достигает и пересекает удвоенную 350-дневную скользящую среднюю. За несколько прошлых циклов он указывал реальную вершину с точностью до дней, заслужив славу 'сигнала тревоги о вершине.' Этот дашборд читает, насколько она близка, через отношение двух линий (111 дней ÷ (2×350 дней)).",
@@ -21082,7 +21082,7 @@
     ]
    },
    "zh": {
-    "term_full": "Pi Cycle Top Indicator",
+    "term_full": "Pi Cycle Top 指標",
     "one_liner": "歷史上準確的頂部訊號，從短期（111 日）與長期（350 日 ×2）MA 的關係捕捉週期高點。",
     "what": [
      "Pi Cycle Top 在 111 日 MA 達到並穿越 350 日 MA 兩倍時，視週期高點為迫在眉睫。在過去數個週期中它以數日之差精準點出實際頂部，因而以「頂部警報」聞名。此儀表板透過兩條線的比率（111 日 ÷（2×350 日））來判讀距離頂部有多近。",
@@ -21603,7 +21603,7 @@
     ]
    },
    "id": {
-    "term_full": "Liquidations",
+    "term_full": "Likuidasi (Liquidations)",
     "one_liner": "Penutupan paksa posisi berleverage saat margin tak cukup — likuidasi besar bertindak sebagai pemicu ayunan tajam dan pembalikan tren.",
     "what": [
      "Likuidasi adalah ketika exchange secara paksa menutup posisi futures atau margin dengan bertransaksi melawannya begitu kerugian menekan margin di bawah ambang yang disyaratkan. Long liquidations adalah penjualan paksa yang memicu penurunan tajam; short liquidations adalah pembelian paksa yang mendorong reli tajam (short squeeze). Ketika leverage sepihak menumpuk, likuidasi memicu likuidasi dalam kaskade.",
@@ -21652,7 +21652,7 @@
     ]
    },
    "pl": {
-    "term_full": "Liquidations",
+    "term_full": "Likwidacje (Liquidations)",
     "one_liner": "Przymusowe zamknięcie pozycji lewarowanych przy niewystarczającym depozycie — duże likwidacje działają jak wyzwalacz gwałtownych wahań i odwróceń trendu.",
     "what": [
      "Likwidacja to sytuacja, gdy giełda przymusowo zamyka pozycję futures lub margin, handlując przeciwko niej, gdy straty zepchną depozyt poniżej wymaganego progu. Long liquidations to przymusowa sprzedaż napędzająca gwałtowne spadki; short liquidations to przymusowy zakup napędzający gwałtowne wzrosty (short squeeze). Gdy nawarstwi się jednostronny lewar, likwidacje rodzą likwidacje w kaskadzie.",
@@ -21701,7 +21701,7 @@
     ]
    },
    "it": {
-    "term_full": "Liquidations",
+    "term_full": "Liquidazioni (Liquidations)",
     "one_liner": "La chiusura forzata di posizioni a leva per margine insufficiente — grandi liquidazioni agiscono da innesco di oscillazioni brusche e inversioni di trend.",
     "what": [
      "Una liquidazione avviene quando un exchange chiude forzatamente una posizione futures o margin operando contro di essa, una volta che le perdite spingono il margine sotto la soglia richiesta. Le long liquidations sono vendite forzate che alimentano cali bruschi; le short liquidations sono acquisti forzati che spingono rally bruschi (short squeeze). Quando si è accumulata leva unidirezionale, le liquidazioni generano liquidazioni a cascata.",
@@ -21750,7 +21750,7 @@
     ]
    },
    "ru": {
-    "term_full": "Liquidations",
+    "term_full": "Ликвидации (Liquidations)",
     "one_liner": "Принудительное закрытие позиций с плечом при недостатке маржи — крупные ликвидации служат триггером резких колебаний и разворотов тренда.",
     "what": [
      "Ликвидация — это когда биржа принудительно закрывает фьючерсную или маржинальную позицию, торгуя против неё, как только убытки опускают маржу ниже требуемого порога. Long liquidations — это вынужденные продажи, разгоняющие резкие падения; short liquidations — это вынужденные покупки, разгоняющие резкие ралли (short squeeze). Когда накопилось одностороннее плечо, ликвидации порождают ликвидации каскадом.",
@@ -21799,7 +21799,7 @@
     ]
    },
    "zh": {
-    "term_full": "Liquidations",
+    "term_full": "清算 (Liquidations)",
     "one_liner": "保證金不足時槓桿部位被強制平倉 — 大規模 Liquidations 是劇烈波動與趨勢反轉的觸發點。",
     "what": [
      "Liquidation 是指當虧損將保證金壓低至所需門檻以下時，交易所以反向成交強制平掉 futures 或 margin 部位。Long liquidations 是助長急跌的強制賣出；short liquidations 是推動急漲的強制買進（short squeeze）。當單邊槓桿堆積時，Liquidations 會以連鎖方式引發更多 Liquidations。",
