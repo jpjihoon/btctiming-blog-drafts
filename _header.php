@@ -515,7 +515,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   <a href="<?= h(i18nPath('/', $lang)) ?>" class="logo"><svg class="logo-ic" width="19" height="19" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="15" fill="#0d0d10"/><path d="M13 44 A19 19 0 0 1 51 44" fill="none" stroke="#6a6d75" stroke-width="6" stroke-linecap="round"/><path d="M13 44 A19 19 0 0 1 44 26" fill="none" stroke="#f7931a" stroke-width="6" stroke-linecap="round"/><circle cx="51" cy="44" r="3.6" fill="#6a6d75"/><circle cx="13" cy="44" r="3.6" fill="#f7931a"/><circle cx="44" cy="26" r="3.6" fill="#f7931a"/><polyline points="22,40 29,33 35,37 45,25" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39,25 45,25 45,31" fill="none" stroke="#fafafa" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>BTC<span>timing</span></a>
   <?php
   // "블로그 목록으로" 링크: 언어별 라벨 + 영어 폴백. ko는 접미사 없음.
-  $__backLabel = ['ko'=>'← 블로그 목록','en'=>'← All Posts','ja'=>'← 記事一覧','es'=>'← Todas las Publicaciones','de'=>'← Alle Beiträge','fr'=>'← Tous les articles','pt'=>'← Todos os posts','tr'=>'← Tüm Yazılar','vi'=>'← Tất cả bài viết'];
+  $__backLabel = ['ko'=>'← 블로그 목록','en'=>'← All Posts','ja'=>'← 記事一覧','es'=>'← Todas las Publicaciones','de'=>'← Alle Beiträge','fr'=>'← Tous les articles','pt'=>'← Todos os posts','tr'=>'← Tüm Yazılar','vi'=>'← Tất cả bài viết','id'=>'← Semua Postingan','pl'=>'← Wszystkie wpisy','it'=>'← Tutti gli articoli','ru'=>'← Все статьи','zh'=>'← 所有文章'];
   foreach (array_keys(SUPPORTED_LANGS) as $__bl):
     // ko·en은 항상, 그 외는 이 글에 번역 있을 때만 (드롭다운 노출 언어와 일치)
     if ($__bl !== 'ko' && $__bl !== 'en' && !isset($M["title_{$__bl}"])) continue;
@@ -547,8 +547,8 @@ echo implode(",\n", $__rules) . "{display:none}\n";
   <div class="bc">
     <?php
     // breadcrumb 고정 라벨(홈/블로그)은 언어별 사전, 나머지는 meta 필드 + 영어 폴백
-    $__bcHome = ['ko'=>'홈','en'=>'Home','ja'=>'ホーム','es'=>'Inicio','de'=>'Startseite','fr'=>'Accueil','pt'=>'Início','tr'=>'Ana Sayfa','vi'=>'Trang chủ'];
-    $__bcBlog = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog'];
+    $__bcHome = ['ko'=>'홈','en'=>'Home','ja'=>'ホーム','es'=>'Inicio','de'=>'Startseite','fr'=>'Accueil','pt'=>'Início','tr'=>'Ana Sayfa','vi'=>'Trang chủ','id'=>'Beranda','pl'=>'Strona główna','it'=>'Home','ru'=>'Главная','zh'=>'首頁'];
+    $__bcBlog = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog','id'=>'Blog','pl'=>'Blog','it'=>'Blog','ru'=>'Блог','zh'=>'部落格'];
     $__langKeys = array_keys(SUPPORTED_LANGS);
     // 홈
     echo '<a href="' . h(i18nPath('/', $requestedLang)) . '" id="bcHomeLink">';
@@ -571,8 +571,8 @@ echo implode(",\n", $__rules) . "{display:none}\n";
 
   <?php
     // ── BreadcrumbList 구조화 데이터 (시각 breadcrumb과 동일 경로) ──
-    $__bcHomeName = ['ko'=>'홈','en'=>'Home','ja'=>'ホーム','es'=>'Inicio','de'=>'Startseite','fr'=>'Accueil','pt'=>'Início','tr'=>'Ana Sayfa','vi'=>'Trang chủ'];
-    $__bcBlogName = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog'];
+    $__bcHomeName = ['ko'=>'홈','en'=>'Home','ja'=>'ホーム','es'=>'Inicio','de'=>'Startseite','fr'=>'Accueil','pt'=>'Início','tr'=>'Ana Sayfa','vi'=>'Trang chủ','id'=>'Beranda','pl'=>'Strona główna','it'=>'Home','ru'=>'Главная','zh'=>'首頁'];
+    $__bcBlogName = ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog','id'=>'Blog','pl'=>'Blog','it'=>'Blog','ru'=>'Блог','zh'=>'部落格'];
     $__bcLang = $lang;
     $__bcLd = ['@context'=>'https://schema.org','@type'=>'BreadcrumbList','itemListElement'=>[
       ['@type'=>'ListItem','position'=>1,'name'=>($__bcHomeName[$__bcLang] ?? $__bcHomeName['en']),'item'=>i18nUrl('/', $__bcLang)],
@@ -626,7 +626,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     <?php endforeach; ?>
     <?php
     // 작성자 byline — 브랜드 리서치팀 명의. 언어별 "작성/By" 표기 + 브랜드명은 공통.
-    $__byLabel = ['ko'=>'글','en'=>'By','ja'=>'文','es'=>'Por','de'=>'Von','fr'=>'Par','pt'=>'Por','tr'=>'Yazan','vi'=>'Bởi'];
+    $__byLabel = ['ko'=>'글','en'=>'By','ja'=>'文','es'=>'Por','de'=>'Von','fr'=>'Par','pt'=>'Por','tr'=>'Yazan','vi'=>'Bởi','id'=>'Oleh','pl'=>'Autor','it'=>'Di','ru'=>'Автор','zh'=>'作者'];
     foreach ($__langKeys as $__l):
       $__by = $__byLabel[$__l] ?? 'By';
     ?>
@@ -634,7 +634,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
     <?php endforeach; ?>
     <?php
     // 읽기 시간·태그: 언어별 단위 표기 + 영어 폴백
-    $__readUnit = ['ko'=>['pre'=>'⏱ 약 ','mid'=>'분 · 🏷 '],'en'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'ja'=>['pre'=>'⏱ 約','mid'=>'分 · 🏷 '],'es'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'de'=>['pre'=>'⏱ ~','mid'=>' Min. · 🏷 '],'fr'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'pt'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'tr'=>['pre'=>'⏱ ~','mid'=>' dk · 🏷 '],'vi'=>['pre'=>'⏱ ~','mid'=>' phút · 🏷 ']];
+    $__readUnit = ['ko'=>['pre'=>'⏱ 약 ','mid'=>'분 · 🏷 '],'en'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'ja'=>['pre'=>'⏱ 約','mid'=>'分 · 🏷 '],'es'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'de'=>['pre'=>'⏱ ~','mid'=>' Min. · 🏷 '],'fr'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'pt'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'tr'=>['pre'=>'⏱ ~','mid'=>' dk · 🏷 '],'vi'=>['pre'=>'⏱ ~','mid'=>' phút · 🏷 '],'id'=>['pre'=>'⏱ ~','mid'=>' mnt · 🏷 '],'pl'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'it'=>['pre'=>'⏱ ~','mid'=>' min · 🏷 '],'ru'=>['pre'=>'⏱ ~','mid'=>' мин · 🏷 '],'zh'=>['pre'=>'⏱ 約','mid'=>' 分鐘 · 🏷 ']];
     foreach ($__langKeys as $__l):
       $__u = $__readUnit[$__l] ?? $__readUnit['en'];
       $__read = $M["read_{$__l}"] ?? $M['read_en'];
