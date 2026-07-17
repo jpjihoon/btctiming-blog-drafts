@@ -209,6 +209,11 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Este artigo não é aconselhamento de investimento.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Bu yazı yatırım tavsiyesi değildir.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Bài viết này không phải là lời khuyên đầu tư.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Artikel ini bukan merupakan saran investasi.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Ten artykuł nie stanowi porady inwestycyjnej.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Questo articolo non costituisce consulenza di investimento.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Seoul Economic Daily, CoinGecko, Digital Times, Edaily, News1, Electronic Times, Newsworks. Эта статья не является инвестиционной консультацией.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Seoul Economic Daily、CoinGecko、Digital Times、Edaily、News1、Electronic Times、Newsworks。本文不構成投資建議。</p>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
     <text x="60" y="270" fill="#f4f4f5" font-size="150" font-weight="bold">-83.6%</text>
