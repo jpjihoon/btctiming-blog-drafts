@@ -337,7 +337,7 @@ $discY = sprintf($t['disc'], $DISCOUNT_BYBIT);
 <meta name="description" content="<?= h($t['desc']) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
 <?php foreach (array_keys(SUPPORTED_LANGS) as $lc): ?>
-<link rel="alternate" hreflang="<?= h($lc) ?>" href="<?= h(i18nUrl('/exchanges.php', $lc)) ?>">
+<link rel="alternate" hreflang="<?= h(hreflangOf($lc)) ?>" href="<?= h(i18nUrl('/exchanges.php', $lc)) ?>">
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/exchanges.php', 'ko')) ?>">
 <meta property="og:title" content="<?= h($t['title']) ?>">

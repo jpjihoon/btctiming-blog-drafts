@@ -629,7 +629,7 @@ function toggleWgBlog(el){
 
 function getWidgetLang(){
   // 홈 대시보드가 "실제로 표시 중인" 언어를 최우선으로 따라감.
-  const valid = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+  const valid = ['ko','en','ja','es','de','fr','pt','tr','vi','id','pl','it','ru','zh'];
   if(typeof currentLang !== 'undefined' && currentLang && valid.includes(currentLang)) return currentLang;
   const hl = document.documentElement.getAttribute('lang');
   if(hl && valid.includes(hl)) return hl;

@@ -63,7 +63,7 @@ $canonical = i18nUrl('/coins.php', $lang);
 <meta name="description" content="<?= h($t['lead']) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
 <?php foreach (array_keys(SUPPORTED_LANGS) as $lc): ?>
-<link rel="alternate" hreflang="<?= h($lc) ?>" href="<?= h(i18nUrl('/coins.php', $lc)) ?>">
+<link rel="alternate" hreflang="<?= h(hreflangOf($lc)) ?>" href="<?= h(i18nUrl('/coins.php', $lc)) ?>">
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/coins.php', 'ko')) ?>">
 <style>

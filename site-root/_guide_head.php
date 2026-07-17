@@ -35,7 +35,7 @@ $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
 <?php if ($__desc): ?><meta name="description" content="<?= gh($__desc) ?>"><?php endif; ?>
 <link rel="canonical" href="<?= gh($__canon) ?>">
 <?php if (!empty($__koPath)): foreach (array_keys(SUPPORTED_LANGS) as $__hl): ?>
-<link rel="alternate" hreflang="<?= gh($__hl) ?>" href="<?= gh(i18nUrl($__koPath, $__hl)) ?>">
+<link rel="alternate" hreflang="<?= gh(hreflangOf($__hl)) ?>" href="<?= gh(i18nUrl($__koPath, $__hl)) ?>">
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="<?= gh(i18nUrl($__koPath, 'ko')) ?>">
 <?php endif; ?>

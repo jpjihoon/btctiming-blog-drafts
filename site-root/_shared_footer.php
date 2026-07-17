@@ -163,7 +163,7 @@ html:not([lang]) .site-footer .ko{display:inline}
   if(window._btcFloatCommonLoaded) return;   // 중복 로드 방지
   window._btcFloatCommonLoaded = true;
 
-  var VALID=['ko','en','ja','es','de','fr','pt','tr','vi'];
+  var VALID=['ko','en','ja','es','de','fr','pt','tr','vi','id','pl','it','ru','zh'];
   function floatLang(){
     // 현재 페이지가 렌더 중인 언어를 따라감
     try{ if(typeof currentLang!=='undefined' && currentLang && VALID.indexOf(currentLang)>=0) return currentLang; }catch(e){}
