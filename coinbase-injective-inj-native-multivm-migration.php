@@ -130,6 +130,11 @@
 <h2 class="pt">O precedente da Kraken, e o que é diferente desta vez</h2>
 <h2 class="tr">Kraken'in emsali ve bu seferki farkı</h2>
 <h2 class="vi">Tiền lệ của Kraken, và điều khác biệt lần này</h2>
+<h2 class="id">Preseden Kraken, dan apa yang berbeda kali ini</h2>
+<h2 class="pl">Precedens Kraken i co jest inne tym razem</h2>
+<h2 class="it">Il precedente di Kraken, e cosa cambia questa volta</h2>
+<h2 class="ru">Прецедент Kraken и чем на этот раз всё отличается</h2>
+<h2 class="zh">Kraken的先例，以及這次有何不同</h2>
 
 <p class="ko">이런 전환이 처음은 아니다. 크라켄은 지난해 인젝티브의 네이티브 전환을 가장 먼저 수용한 주요 거래소로, 7월 27일을 기점으로 인출되지 않은 ERC-20 INJ를 자동으로 네이티브 토큰으로 바꾸고 이후 ERC-20 버전 입금 지원을 완전히 중단했다. 크라켄은 이 조치가 무비용·무조치로 이뤄진다고 안내했지만, 동시에 마감 이후 ERC-20 INJ를 잘못 입금하면 자금을 잃을 수 있다고 경고했다 — 표준 전환기에 흔히 나타나는 사용자 실수 위험이다.</p>
 <p class="en">This isn't the first such conversion. Kraken was the first major exchange to embrace Injective's native conversion last year, automatically converting un-withdrawn ERC-20 INJ to native tokens as of July 27 and afterward completely discontinuing support for ERC-20 deposits. Kraken said the move required no cost and no user action, but also warned that depositing ERC-20 INJ after the cutoff could result in lost funds — a user-error risk that commonly appears around standard-conversion events.</p>

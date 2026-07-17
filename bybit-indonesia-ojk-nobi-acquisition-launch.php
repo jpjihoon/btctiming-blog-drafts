@@ -39,6 +39,11 @@
 <h2 class="pt">Por que uma aquisição, não uma nova licença — como a barreira de entrada mudou de Bappebti para OJK</h2>
 <h2 class="tr">Neden Yeni Bir Lisans Değil de Satın Alma — Giriş Engeli Bappebti'den OJK'ya Nasıl Değişti</h2>
 <h2 class="vi">Vì Sao Là Mua Lại Chứ Không Phải Giấy Phép Mới — Rào Cản Gia Nhập Đã Thay Đổi Từ Bappebti Sang OJK Như Thế Nào</h2>
+<h2 class="id">Mengapa Akuisisi, Bukan Lisensi Baru — Bagaimana Hambatan Masuk Berubah Dari Bappebti ke OJK</h2>
+<h2 class="pl">Dlaczego Przejęcie, a Nie Nowa Licencja — Jak Zmieniła Się Bariera Wejścia z Bappebti na OJK</h2>
+<h2 class="it">Perché un'Acquisizione e Non una Nuova Licenza — Come è Cambiata la Barriera all'Ingresso da Bappebti a OJK</h2>
+<h2 class="ru">Почему Поглощение, а Не Новая Лицензия — Как Изменился Барьер Входа От Bappebti к OJK</h2>
+<h2 class="zh">為何選擇收購而非申請新牌照——進入障礙如何從Bappebti轉變為OJK</h2>
 
 <p class="ko">바페베티 체제에서는 크립토자산을 상품(commodity)으로 규제해, 상품거래 라이선스만 획득하면 비교적 단순하게 시장에 진입할 수 있었다. 그러나 OJK 체제로 넘어오면서 크립토자산은 자금세탁방지·투자자보호·금융안정성까지 아우르는 금융상품에 준하는 감독을 받게 됐고, 신규 라이선스 획득 절차 자체가 더 길고 까다로워졌다. 이런 상황에서 해외 거래소 입장에서는 이미 라이선스를 보유한 현지 사업자를 인수하는 편이, 처음부터 새로 심사를 받는 것보다 시장 진입 시간을 크게 단축하는 길이다.</p>
 <p class="en">Under the Bappebti regime, crypto assets were regulated as commodities, so obtaining a commodities-trading license was a relatively straightforward path into the market. Under OJK, however, crypto assets fall under oversight closer to that of financial instruments — spanning anti-money-laundering rules, investor protection and financial stability — and the process for winning a fresh license has grown longer and more demanding. In that environment, acquiring a local operator that already holds a license is, for a foreign exchange, a far faster route to market than starting a new review from scratch.</p>

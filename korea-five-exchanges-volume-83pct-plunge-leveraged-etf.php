@@ -24,6 +24,11 @@
 <p class="pt">Essa queda vai na direção oposta ao movimento de preços. O Bitcoin recuperou o patamar de US$ 60 mil novamente este mês e as principais altcoins recuperaram boa parte de suas perdas, mas o capital novo simplesmente não está voltando ao mercado cripto. Observadores do setor apontam como culpado um aumento incomum na volatilidade do mercado de ações sul-coreano.</p>
 <p class="tr">Bu düşüş, fiyat hareketinin tam tersi yönde ilerliyor. Bitcoin bu ay yeniden 60.000 dolar seviyesini geri kazandı ve büyük altcoinler kayıplarının büyük bölümünü telafi etti, ancak taze sermaye kripto piyasasına geri dönmüyor. Sektör gözlemcileri bunun suçlusu olarak Güney Kore borsasındaki alışılmadık oynaklık artışını gösteriyor.</p>
 <p class="vi">Đợt sụt giảm này đi ngược hướng với diễn biến giá. Bitcoin đã lấy lại mốc 60.000 đô la trong tháng này và các altcoin lớn đã bù đắp phần lớn khoản lỗ, nhưng dòng vốn mới đơn giản là không quay trở lại thị trường crypto. Giới quan sát ngành chỉ ra thủ phạm là mức tăng bất thường trong biến động của thị trường chứng khoán Hàn Quốc.</p>
+<p class="id">Kemerosotan ini berlawanan arah dengan pergerakan harga. Bitcoin kembali merebut level 60.000 dolar bulan ini dan altcoin utama telah memulihkan sebagian besar kerugiannya, namun modal segar tetap tidak kembali ke pasar kripto. Pengamat industri menunjuk lonjakan volatilitas pasar saham Korea Selatan yang tidak biasa sebagai penyebabnya.</p>
+<p class="pl">Ten spadek przebiega w kierunku przeciwnym do ruchu cen. Bitcoin w tym miesiącu ponownie odzyskał poziom 60 000 dolarów, a główne altcoiny odrobiły znaczną część strat, jednak świeży kapitał po prostu nie wraca na rynek kryptowalut. Obserwatorzy branży wskazują jako winowajcę niezwykły wzrost zmienności na południowokoreańskim rynku akcji.</p>
+<p class="it">Il crollo va in direzione opposta rispetto all'andamento dei prezzi. Il Bitcoin ha riconquistato il livello di 60.000 dollari questo mese e le principali altcoin hanno recuperato gran parte delle loro perdite, eppure il capitale fresco semplicemente non sta tornando sul mercato crypto. Gli osservatori del settore indicano come colpevole un'insolita impennata della volatilità del mercato azionario sudcoreano.</p>
+<p class="ru">Этот спад идёт вразрез с динамикой цен. Биткоин в этом месяце вновь вернулся к отметке 60 000 долларов, а основные альткоины отыграли значительную часть потерь, однако свежий капитал попросту не возвращается на криптовалютный рынок. Наблюдатели отрасли указывают на необычный всплеск волатильности южнокорейского фондового рынка как на причину.</p>
+<p class="zh">這波萎縮與價格走勢背道而馳。比特幣本月再度收復6萬美元關口,主要山寨幣也已彌補了大部分跌幅,但新資金卻遲遲未回流加密貨幣市場。業界觀察人士指出,罪魁禍首是南韓股市異常飆升的波動性。</p>
 
 <h2 class="ko">코스피 변동성이 비트코인을 앞지르면 벌어지는 일</h2>
 <h2 class="en">What Happens When Kospi Volatility Overtakes Bitcoin's</h2>
@@ -34,6 +39,11 @@
 <h2 class="pt">O que acontece quando a volatilidade do Kospi supera a do Bitcoin</h2>
 <h2 class="tr">Kospi Oynaklığı Bitcoin'i Geçtiğinde Ne Olur</h2>
 <h2 class="vi">Điều Gì Xảy Ra Khi Biến Động Kospi Vượt Qua Bitcoin</h2>
+<h2 class="id">Apa yang Terjadi Ketika Volatilitas Kospi Melampaui Bitcoin</h2>
+<h2 class="pl">Co się dzieje, gdy zmienność Kospi przewyższa zmienność Bitcoina</h2>
+<h2 class="it">Cosa succede quando la volatilità del Kospi supera quella del Bitcoin</h2>
+<h2 class="ru">Что происходит, когда волатильность Kospi превышает волатильность биткоина</h2>
+<h2 class="zh">當Kospi波動性超過比特幣時會發生什麼</h2>
 
 <p class="ko">최근 코스피의 연환산 변동성이 비트코인을 웃도는 역전 현상이 나타났다. 삼성전자·SK하이닉스 등을 기초자산으로 하는 국내 레버리지 ETF의 거래대금이 폭증하면서, 하루 안에 몇 배의 수익률을 노리는 단기 트레이더들의 자금이 증시로 쏠렸다. 변동성은 단기 트레이더에게 곧 기회다. 레버리지 상품은 기초자산의 등락폭을 인위적으로 증폭시키기 때문에, 상대적으로 덜 흔들리는 코인 시장은 그만큼 매력을 잃는다.</p>
 <p class="en">South Korea's annualized Kospi volatility recently overtook Bitcoin's, a rare inversion. As trading volume in domestic leveraged ETFs tracking Samsung Electronics and SK Hynix exploded, short-term traders chasing multiple-fold daily returns rotated their capital into the stock market. Volatility is opportunity for a short-term trader, and leveraged products artificially amplify the underlying asset's swings — making the comparatively calmer crypto market that much less attractive.</p>

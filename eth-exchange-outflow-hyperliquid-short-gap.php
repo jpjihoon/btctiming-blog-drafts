@@ -84,6 +84,11 @@
 <h2 class="pt">No Entanto, as Mesas de Derivativos Apostaram na Direção Oposta</h2>
 <h2 class="tr">Ama Türev Masaları Tam Tersi Yönde Bahis Oynadı</h2>
 <h2 class="vi">Nhưng Các Bàn Giao Dịch Phái Sinh Lại Đặt Cược Ngược Lại</h2>
+<h2 class="id">Namun Meja Derivatif Bertaruh ke Arah Sebaliknya</h2>
+<h2 class="pl">Jednak Biura Instrumentów Pochodnych Postawiły na Przeciwny Kierunek</h2>
+<h2 class="it">Eppure i Desk dei Derivati Hanno Scommesso in Direzione Opposta</h2>
+<h2 class="ru">Но Деск Деривативов Сделал Ставку в Противоположном Направлении</h2>
+<h2 class="zh">然而衍生性商品交易台卻反向下注</h2>
 
 <p class="ko">보통 '축적 국면'이라면 온체인 유출과 파생상품 포지션이 같은 방향을 가리켜야 자연스럽다. 그런데 이번엔 정확히 어긋났다. 하이퍼리퀴드 무기한선물에서 순숏 3,800만달러(스마트 트레이더)와 2,100만달러(고래)를 더하면 합산 순숏 규모는 5,900만달러에 이른다. 이는 레버리지를 쓰는 정교한 트레이더 집단이 'ETH가 단기적으로 오히려 하락할 것'에 실제 자금을 걸었다는 뜻이다. 상위 수익률 지갑의 현물 순매도 6,400만달러까지 더하면, 온체인에서는 물량이 빠지는데 파생·현물 양쪽에서 정교한 자금은 하락 쪽에 베팅한 셈이다.</p>
 <p class="en">In a typical "accumulation phase," on-chain outflows and derivatives positioning would naturally point the same direction. This time, they diverged squarely. Add Hyperliquid's perpetual net shorts of $38 million (smart traders) and $21 million (whales), and the combined net short comes to $59 million — meaning a cohort of leveraged, sophisticated traders put real money on ETH falling in the near term. Add the top-PnL wallets' $64 million in net spot selling, and on both the derivatives and spot side, sophisticated money was betting down even as the on-chain balance was draining out.</p>

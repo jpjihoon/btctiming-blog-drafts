@@ -286,6 +286,11 @@
 <h2 class="pt">O Que Observar a Partir de Agora</h2>
 <h2 class="tr">Buradan İtibaren Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Những Điều Cần Theo Dõi Từ Đây</h2>
+<h2 class="id">Yang Perlu Dipantau Selanjutnya</h2>
+<h2 class="pl">Co Obserwować Dalej</h2>
+<h2 class="it">Cosa Osservare da Qui in Poi</h2>
+<h2 class="ru">На Что Обратить Внимание Дальше</h2>
+<h2 class="zh">接下來需要關注什麼</h2>
 
 <p class="ko">일본은 스테이블코인·토큰화 증권 규제를 비교적 정교하게 정비해 온 시장으로 꼽힌다. 신탁은행이 발행을 뒷받침하는 JPYSC 구조 자체가 일본 자금결제법의 신탁형 스테이블코인 규정을 따른 것으로, 이는 미국의 GENIUS법 체계와는 결이 다른 규제 접근이다. 이번 제휴가 일본 금융청(FSA) 차원의 별도 승인 절차를 거치는지, 아니면 기존 JPYSC 인가 틀 안에서 진행되는지가 다음 확인 포인트다.</p>
 <p class="ko">더 큰 그림에서 이번 사례는 아시아 자본시장이 토큰화 경쟁에 본격적으로 뛰어들고 있음을 보여준다. 미국(Ondo·블랙록), 유럽(로빈후드체인), 그리고 이제 일본(SBI·JPYSC)까지 각기 다른 규제·통화 기반 위에서 병렬적으로 토큰화 인프라가 구축되는 흐름이다. 실제 거래가 시작되는 시점, 그리고 SBI증권 고객들이 토큰화 주식에 얼마나 반응하는지가 이 서사가 숫자로 증명되는 첫 시험대가 될 것이다.</p>
