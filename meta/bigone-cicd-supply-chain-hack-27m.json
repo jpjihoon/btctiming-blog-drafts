@@ -68,6 +68,11 @@
   "desc_pt": "A exchange de criptomoedas BigONE perdeu cerca de US$ 27 milhões em uma invasão detectada na madrugada de 16 de julho. A empresa de segurança Cyvers avaliou que o invasor se infiltrou em seu pipeline de CI/CD e desativou os controles de risco antes de esvaziar a hot wallet, segundo CoinDesk, The Block e Daily Security Review. O texto traça como uma violação na infraestrutura de build, e não uma falha de contrato inteligente, se conecta ao achado do relatório do 1º semestre de 2026 da CertiK de que os ataques estão migrando do código para chaves e infraestrutura, e se a promessa de reembolso total da BigONE realmente vai se sustentar.",
   "desc_tr": "Kripto borsası BigONE, 16 Temmuz sabahın erken saatlerinde tespit edilen bir ihlalde yaklaşık 27 milyon dolar kaybetti. Güvenlik firması Cyvers, saldırganın CI/CD hattına sızdığını ve sıcak cüzdanı boşaltmadan önce risk kontrollerini devre dışı bıraktığını değerlendirdi (CoinDesk, The Block, Daily Security Review). Bu yazı, bir akıllı kontrat hatası yerine bir build altyapısı ihlalinin, CertiK'in 2026 ilk yarı raporunun saldırıların koddan anahtarlara ve altyapıya kaydığı bulgusuyla nasıl örtüştüğünü ve BigONE'nin tam geri ödeme taahhüdünün gerçekten tutup tutmayacağını ele alıyor.",
   "desc_vi": "Sàn giao dịch tiền mã hóa BigONE đã mất khoảng 27 triệu đô la trong một vụ xâm nhập được phát hiện vào rạng sáng ngày 16 tháng 7. Công ty bảo mật Cyvers đánh giá rằng kẻ tấn công đã xâm nhập vào đường ống CI/CD và vô hiệu hóa các biện pháp kiểm soát rủi ro trước khi rút cạn ví nóng, theo CoinDesk, The Block và Daily Security Review. Bài viết này phân tích cách một lỗ hổng trong hạ tầng build, thay vì lỗi hợp đồng thông minh, khớp với phát hiện của báo cáo CertiK nửa đầu năm 2026 rằng các cuộc tấn công đang chuyển từ mã sang khóa và hạ tầng, và liệu lời hứa hoàn trả toàn bộ của BigONE có thực sự được giữ hay không.",
+  "desc_id": "BigONE kehilangan 27 juta dolar AS setelah peretas menyusup CI/CD dan melumpuhkan kontrol risiko sebelum mengosongkan hot wallet-nya, menurut Cyvers.",
+  "desc_pl": "BigONE straciło ok. 27 mln dolarów, gdy hakerzy włamali się do CI/CD i wyłączyli kontrolę ryzyka przed opróżnieniem portfela, ustalili analitycy Cyvers.",
+  "desc_it": "BigONE ha perso 27 milioni di dollari: hacker hanno violato la pipeline CI/CD e disattivato i controlli prima di svuotare il wallet, secondo Cyvers.",
+  "desc_ru": "Биржа BigONE потеряла около $27 млн после взлома CI/CD-пайплайна и отключения контроля рисков перед опустошением горячего кошелька, сообщает Cyvers.",
+  "desc_zh": "加密貨幣交易所BigONE表示,駭客於7月16日凌晨滲透其CI/CD建置流水線,竄改業務邏輯並停用關鍵風控機制,在掏空熱錢包前竊走約2,700萬美元加密資產,安全公司Cyvers分析指出,CoinDesk、The Block等媒體亦有報導,而非傳統智能合約漏洞所致。",
   "read_ko": "6",
   "read_en": "6",
   "read_ja": "6",
@@ -76,5 +81,10 @@
   "read_fr": "6",
   "read_pt": "6",
   "read_tr": "6",
-  "read_vi": "6"
+  "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6"
 }
