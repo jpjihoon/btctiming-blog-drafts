@@ -437,6 +437,11 @@ foreach ($__langKeys as $__l) {
   <span class="back pt-show">← <a href="/pt" style="color:var(--t2)">Voltar à análise ao vivo</a></span>
   <span class="back tr-show">← <a href="/tr" style="color:var(--t2)">Canlı analize dön</a></span>
   <span class="back vi-show">← <a href="/vi" style="color:var(--t2)">Quay lại phân tích trực tiếp</a></span>
+  <span class="back id-show">← <a href="/id" style="color:var(--t2)">Kembali ke Analisis Langsung</a></span>
+  <span class="back pl-show">← <a href="/pl" style="color:var(--t2)">Powrót do analizy na żywo</a></span>
+  <span class="back it-show">← <a href="/it" style="color:var(--t2)">Torna all'analisi dal vivo</a></span>
+  <span class="back ru-show">← <a href="/ru" style="color:var(--t2)">Назад к анализу в реальном времени</a></span>
+  <span class="back zh-show">← <a href="/zh" style="color:var(--t2)">返回即時分析</a></span>
   <?php $__nbLang = $__blLang; $__nbHide = 'blog'; include __DIR__ . '/../_nav_btns.php'; ?>
   <div class="lang-dropdown" id="langDropdown">
     <button type="button" class="lang-trigger" id="langTrigger" onclick="toggleLangMenu(event)">
@@ -556,7 +561,7 @@ endif; ?>
     <a href="/fr" class="fr-show">Voir l'analyse en direct →</a>
     <a href="/pt" class="pt-show">Ver análise ao vivo →</a>
     <a href="/tr" class="tr-show">Canlı analizi gör →</a>
-    <a href="/vi" class="vi-show">Xem phân tích trực tiếp →</a><a class="id-show">Ke Analisis Langsung →</a><a class="pl-show">Przejdź do analizy na żywo →</a><a class="it-show">Vai all'analisi dal vivo →</a><a class="ru-show">К анализу в реальном времени →</a><a class="zh-show">前往即時分析 →</a>
+    <a href="/vi" class="vi-show">Xem phân tích trực tiếp →</a><a href="/id" class="id-show">Ke Analisis Langsung →</a><a href="/pl" class="pl-show">Przejdź do analizy na żywo →</a><a href="/it" class="it-show">Vai all'analisi dal vivo →</a><a href="/ru" class="ru-show">К анализу в реальном времени →</a><a href="/zh" class="zh-show">前往即時分析 →</a>
   </div>
 </div>
 <?php require __DIR__ . '/../_shared_footer.php'; ?>
@@ -807,15 +812,15 @@ function filterCat(cat){
 }
 </style>
 <nav class="blog-tabbar">
-  <a class="btab" href="/" data-tb='{"ko":"실시간 지표","en":"Live","ja":"リアルタイム","es":"En vivo","de":"Live","fr":"En direct","pt":"Ao vivo","tr":"Canlı","vi":"Trực tiếp"}'>
+  <a class="btab" href="/" data-tb='{"ko":"실시간 지표","en":"Live","ja":"リアルタイム","es":"En vivo","de":"Live","fr":"En direct","pt":"Ao vivo","tr":"Canlı","vi":"Trực tiếp","id":"Langsung","pl":"Na żywo","it":"Dal vivo","ru":"Онлайн","zh":"即時"}'>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 4-6"/></svg>
     <span class="btab-tx">실시간 지표</span>
   </a>
-  <button type="button" class="btab" onclick="openBlogCoinSwitcher()" data-tb='{"ko":"코인 검색","en":"Find Coins","ja":"コイン検索","es":"Buscar","de":"Coins","fr":"Cryptos","pt":"Buscar","tr":"Coin ara","vi":"Tìm coin"}'>
+  <button type="button" class="btab" onclick="openBlogCoinSwitcher()" data-tb='{"ko":"코인 검색","en":"Find Coins","ja":"コイン検索","es":"Buscar","de":"Coins","fr":"Cryptos","pt":"Buscar","tr":"Coin ara","vi":"Tìm coin","id":"Cari Koin","pl":"Znajdź coiny","it":"Trova Coin","ru":"Найти монеты","zh":"找幣"}'>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 10h4a1.5 1.5 0 0 1 0 3h-3.5a1.5 1.5 0 0 0 0 3h4"/></svg>
     <span class="btab-tx">코인 검색</span>
   </button>
-  <a class="btab active" href="/blog/" data-tb='{"ko":"블로그","en":"Blog","ja":"ブログ","es":"Blog","de":"Blog","fr":"Blog","pt":"Blog","tr":"Blog","vi":"Blog"}'>
+  <a class="btab active" href="/blog/" data-tb='{"ko":"블로그","en":"Blog","ja":"ブログ","es":"Blog","de":"Blog","fr":"Blog","pt":"Blog","tr":"Blog","vi":"Blog","id":"Blog","pl":"Blog","it":"Blog","ru":"Блог","zh":"部落格"}'>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M14 3v5h5M8 13h8M8 17h6"/></svg>
     <span class="btab-tx">블로그</span>
   </a>
