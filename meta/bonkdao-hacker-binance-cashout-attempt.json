@@ -68,6 +68,11 @@
     "desc_pt": "O atacante por trás do roubo de 4,4 trilhões de BONK da tesouraria da BonkDAO depositou 1,19 trilhão de tokens (cerca de US$ 4,11M) na Binance, começando a converter em dinheiro. Um olhar sobre como funciona a lavagem de fundos roubados, os limites dos congelamentos das exchanges e comparações com Beanstalk e outros casos passados.",
     "desc_tr": "BonkDAO hazinesinden 4,4 trilyon BONK çalan saldırgan, bunun 1,19 trilyonunu (yaklaşık 4,11 milyon dolar) Binance'e yatırarak nakde çevirmeye başladı. Çalıntı fon aklama mekanizmasına, borsa dondurmalarının sınırlarına ve Beanstalk gibi geçmiş vakalarla karşılaştırmalara bir bakış.",
     "desc_vi": "Kẻ đứng sau vụ trộm 4,4 nghìn tỷ BONK từ ngân khố BonkDAO đã nạp 1,19 nghìn tỷ token (khoảng 4,11 triệu đô la) vào Binance, bắt đầu rút tiền mặt. Một góc nhìn về cách rửa tiền bị đánh cắp hoạt động, giới hạn của việc đóng băng tại sàn giao dịch, và so sánh với Beanstalk cùng các vụ việc trong quá khứ.",
+    "desc_id": "Peretas BonkDAO menyetor 1,19 triliun BONK (sekitar $4,11 juta) ke Binance, mulai mencairkan dana curian. Ulasan cara pencucian dana dan respons bursa.",
+    "desc_pl": "Atakujący BonkDAO wpłacił 1,19 biliona BONK (ok. 4,11 mln USD) na Binance, zaczynając wypłatę środków. Analiza mechanizmu prania i reakcji giełd.",
+    "desc_it": "L'aggressore di BonkDAO ha depositato 1,19 trilioni di BONK (circa 4,11 mln $) su Binance, iniziando a incassare fondi rubati e liquidità.",
+    "desc_ru": "Атакующий BonkDAO внёс 1,19 трлн BONK (около 4,11 млн долл.) на Binance, начав обналичивание. Разбор механизма отмывания средств и реакции бирж.",
+    "desc_zh": "根據鏈上分析公司Lookonchain報告，BonkDAO攻擊者已將1.19兆枚BONK(約411萬美元)存入幣安，開始進行資金現金化行動，導致BONK價格本週重挫逾19%。本文剖析被盜資金的洗錢機制、交易所凍結措施的實際限制，並與Beanstalk等過往類似駭客案例進行比較分析。",
     "read_ko": 5,
     "read_en": 5,
     "read_ja": 5,
@@ -76,5 +81,10 @@
     "read_fr": 5,
     "read_pt": 5,
     "read_tr": 5,
-    "read_vi": 5
+    "read_vi": 5,
+    "read_id": 5,
+    "read_pl": 5,
+    "read_it": 5,
+    "read_ru": 5,
+    "read_zh": 5
 }
