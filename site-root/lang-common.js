@@ -135,7 +135,7 @@
     if (!href || href.charAt(0) !== '/') return href;      // 내부 절대경로만
     try {
       var u = new URL(href, location.origin);
-      var p = u.pathname.replace(/^\/(en|ja|es|de|fr|pt|tr|vi)(?=\/|$)/, '') || '/'; // 기존 언어접두어 제거
+      var p = u.pathname.replace(/^\/(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)(?=\/|$)/, '') || '/'; // 기존 언어접두어 제거
       if (!_pathifiable(p)) return href;                   // 화이트리스트 밖은 그대로
       p = p.replace(/\.php$/, '') || '/';                 // 전 언어 clean(.php 제거)
       u.searchParams.delete('lang');

@@ -265,6 +265,71 @@ const SM_ALERT_I18N = {
   "b3": "Điểm Short ≥ 8.0 (Short toàn phần)",
   "enableNotif": "Bật Thông báo Trình duyệt",
   "alertTitle": "Cài đặt Cảnh báo"
+ },
+ "id": {
+  "alertDesc": "Dapatkan notifikasi via push browser + kilatan visual + suara saat kondisi terpenuhi.",
+  "alertBuySection": "📈 PEMICU LONG",
+  "alertSellSection": "📉 PEMICU SHORT",
+  "a2": "Skor Long ≥ 6.0 (Mulai bertahap)",
+  "a3": "Skor Long ≥ 7.0 (Tambah posisi)",
+  "a4": "Skor Long ≥ 8.0 (Beli agresif)",
+  "b1": "Skor Short ≥ 6.0 (Siapkan short)",
+  "b2": "Skor Short ≥ 7.0 (Tambah short)",
+  "b3": "Skor Short ≥ 8.0 (Short penuh)",
+  "enableNotif": "Aktifkan Notifikasi Browser",
+  "alertTitle": "Pengaturan Alarm"
+ },
+ "pl": {
+  "alertDesc": "Otrzymuj powiadomienia push przeglądarki + błysk wizualny + dźwięk po spełnieniu warunków.",
+  "alertBuySection": "📈 WYZWALACZE LONG",
+  "alertSellSection": "📉 WYZWALACZE SHORT",
+  "a2": "Wynik Long ≥ 6.0 (Zacznij etapami)",
+  "a3": "Wynik Long ≥ 7.0 (Zwiększ pozycję)",
+  "a4": "Wynik Long ≥ 8.0 (Agresywne kupno)",
+  "b1": "Wynik Short ≥ 6.0 (Przygotuj short)",
+  "b2": "Wynik Short ≥ 7.0 (Zwiększ short)",
+  "b3": "Wynik Short ≥ 8.0 (Pełny short)",
+  "enableNotif": "Włącz Powiadomienia Przeglądarki",
+  "alertTitle": "Ustawienia Alertów"
+ },
+ "it": {
+  "alertDesc": "Ricevi notifiche via push del browser + lampeggio visivo + suono al verificarsi delle condizioni.",
+  "alertBuySection": "📈 TRIGGER LONG",
+  "alertSellSection": "📉 TRIGGER SHORT",
+  "a2": "Punteggio Long ≥ 6.0 (Inizia scaglionamento)",
+  "a3": "Punteggio Long ≥ 7.0 (Aumenta posizione)",
+  "a4": "Punteggio Long ≥ 8.0 (Acquisto aggressivo)",
+  "b1": "Punteggio Short ≥ 6.0 (Prepara short)",
+  "b2": "Punteggio Short ≥ 7.0 (Aumenta short)",
+  "b3": "Punteggio Short ≥ 8.0 (Short pieno)",
+  "enableNotif": "Attiva Notifiche del Browser",
+  "alertTitle": "Impostazioni Avvisi"
+ },
+ "ru": {
+  "alertDesc": "Получайте уведомления через push браузера + визуальную вспышку + звук при выполнении условий.",
+  "alertBuySection": "📈 ТРИГГЕРЫ ЛОНГ",
+  "alertSellSection": "📉 ТРИГГЕРЫ ШОРТ",
+  "a2": "Оценка лонга ≥ 6.0 (Начать поэтапно)",
+  "a3": "Оценка лонга ≥ 7.0 (Увеличить позицию)",
+  "a4": "Оценка лонга ≥ 8.0 (Агрессивная покупка)",
+  "b1": "Оценка шорта ≥ 6.0 (Подготовить шорт)",
+  "b2": "Оценка шорта ≥ 7.0 (Увеличить шорт)",
+  "b3": "Оценка шорта ≥ 8.0 (Полный шорт)",
+  "enableNotif": "Включить уведомления браузера",
+  "alertTitle": "Настройки оповещений"
+ },
+ "zh": {
+  "alertDesc": "條件達成時透過瀏覽器推播 + 視覺閃爍 + 聲音通知你。",
+  "alertBuySection": "📈 做多觸發",
+  "alertSellSection": "📉 做空觸發",
+  "a2": "做多分數 ≥ 6.0（開始分批）",
+  "a3": "做多分數 ≥ 7.0（加碼部位）",
+  "a4": "做多分數 ≥ 8.0（積極買進）",
+  "b1": "做空分數 ≥ 6.0（準備做空）",
+  "b2": "做空分數 ≥ 7.0（加碼做空）",
+  "b3": "做空分數 ≥ 8.0（完全做空）",
+  "enableNotif": "啟用瀏覽器通知",
+  "alertTitle": "警報設定"
  }
 };
 
@@ -629,7 +694,7 @@ function toggleWgBlog(el){
 
 function getWidgetLang(){
   // 홈 대시보드가 "실제로 표시 중인" 언어를 최우선으로 따라감.
-  const valid = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+  const valid = ['ko','en','ja','es','de','fr','pt','tr','vi','id','pl','it','ru','zh'];
   if(typeof currentLang !== 'undefined' && currentLang && valid.includes(currentLang)) return currentLang;
   const hl = document.documentElement.getAttribute('lang');
   if(hl && valid.includes(hl)) return hl;
