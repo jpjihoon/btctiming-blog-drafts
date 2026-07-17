@@ -39,6 +39,11 @@
 <h2 class="pt">2017: Não Havia Canal Algum</h2>
 <h2 class="tr">2017: Hiçbir Kanal Yoktu</h2>
 <h2 class="vi">2017: Hoàn Toàn Không Có Kênh Nào</h2>
+<h2 class="id">2017: Sama Sekali Tidak Ada Saluran</h2>
+<h2 class="pl">2017: Nie Istniał Żaden Kanał</h2>
+<h2 class="it">2017: Non C'era Alcun Canale</h2>
+<h2 class="ru">2017 год: канала не существовало вовсе</h2>
+<h2 class="zh">2017年:根本沒有任何管道</h2>
 
 <p class="ko">2017년 12월 17일, 비트코인은 코인데스크 비트코인 가격지수(BPI) 기준 19,783.21달러로 사상 최고가를 찍었다. 바로 다음 날인 12월 18일, CME그룹은 역사상 최초의 규제된 비트코인 선물 계약 거래를 개시했다. 그 월요일 이전까지 공식적인 파생상품 통로는 아예 존재하지 않았다 — 선물도, 옵션도, ETF도 없었다. 규제받는 기관이 거래소에 코인을 직접 보유하지 않고 비트코인에 대한 견해를 표현할 방법 자체가 없었다는 뜻이다. 이듬해 5월 발표된 샌프란시스코 연방준비은행의 연구노트는 이 타이밍이 새로운 선물 시장이 도입될 때 전형적으로 나타나는 거래 행태와 일치한다고 결론지었다 — 쉽게 말해, 최초의 규제된 공매도 통로가 등장한 시점이 사이클 고점과 하루 차이였다는 것이다. 이 우연에 대해서는 이 사이트의 <a href="/blog/shorting-mechanism-arrival-signal-cycle-difference">다른 글</a>에서 더 깊이 다룬 바 있다.</p>
 <p class="en">On December 17, 2017, bitcoin hit an all-time high of $19,783.21 on the CoinDesk Bitcoin Price Index. The very next day, December 18, the CME Group opened trading on the first regulated bitcoin futures contract in history. Until that Monday, there was no official derivatives channel of any kind — no futures, no options, no ETF, nothing a regulated institution could use to express a view on bitcoin without holding the coins directly on an exchange. A Federal Reserve Bank of San Francisco research note published the following May concluded the timing was consistent with the kind of trading behavior that typically accompanies the introduction of a new futures market — in plainer terms, the arrival of the first regulated shorting mechanism landed within a day of the cycle top, a coincidence explored in more depth in <a href="/en/blog/shorting-mechanism-arrival-signal-cycle-difference">a companion piece on this site</a>.</p>
