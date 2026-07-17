@@ -1222,7 +1222,7 @@ function renderAll(ind) {
   // Score card
   const snEl=document.getElementById('scoreNum');
   if(snEl){
-    snEl.textContent=sc.toFixed(1);
+    __animateNum(snEl, sc); __lastDataAt = Date.now();
     snEl.style.setProperty('color', scoreColor, 'important');
     snEl.style.fontSize='64px';
     snEl.style.fontWeight='800';
@@ -2653,6 +2653,29 @@ function showOnboardIfFirst(){
   renderOnboardText();
   tip.style.display='block';
 }
+// --- 점수 부드러운 전환 + 최신성 표시 (2026-07-18) ---
+var __scoreAnim = {}, __lastDataAt = 0;
+function __animateNum(el, to){
+  if(!el) return;
+  to = Number(to); if(!isFinite(to)) return;
+  var from = parseFloat(el.getAttribute('data-shown'));
+  if(!isFinite(from) || Math.abs(to-from) < 0.05){ el.textContent = to.toFixed(1); el.setAttribute('data-shown', to); return; }
+  if(__scoreAnim.raf) cancelAnimationFrame(__scoreAnim.raf);
+  var dur = 700, t0 = performance.now();
+  function step(now){
+    var p = Math.min(1, (now-t0)/dur), e = 1-Math.pow(1-p,3);
+    el.textContent = (from + (to-from)*e).toFixed(1);
+    if(p<1){ __scoreAnim.raf = requestAnimationFrame(step); }
+    else { el.textContent = to.toFixed(1); el.setAttribute('data-shown', to); __scoreAnim.raf = 0; }
+  }
+  __scoreAnim.raf = requestAnimationFrame(step);
+}
+function __agoText(sec){
+  var mn = sec >= 60, n = mn ? Math.floor(sec/60) : sec;
+  var u = mn ? TT({ko:'분',en:'m',ja:'分',es:'min',de:'Min.',fr:'min',pt:'min',tr:'dk',vi:'phút',id:'mnt',pl:'min',it:'min',ru:'мин',zh:'分'})
+             : TT({ko:'초',en:'s',ja:'秒',es:'s',de:'Sek.',fr:'s',pt:'s',tr:'sn',vi:'giây',id:'dtk',pl:'s',it:'s',ru:'с',zh:'秒'});
+  return TT({ko:n+u+' 전 업데이트',en:'Updated '+n+u+' ago',ja:n+u+'前に更新',es:'Actualizado hace '+n+u,de:'Vor '+n+u+' aktualisiert',fr:'Mis à jour il y a '+n+u,pt:'Atualizado há '+n+u,tr:n+u+' önce güncellendi',vi:'Cập nhật '+n+u+' trước',id:'Diperbarui '+n+u+' lalu',pl:'Zaktualizowano '+n+u+' temu',it:'Aggiornato '+n+u+' fa',ru:'Обновлено '+n+u+' назад',zh:n+u+'前更新'});
+}
 showOnboardIfFirst();
 loadAll();
 
@@ -2662,8 +2685,24 @@ function __autoRefresh(){ if(document.visibilityState === 'hidden') return; __la
 setInterval(__autoRefresh, 60*1000);
 // 백그라운드 탭에서는 타이머가 느려지거나 멈추므로, 화면으로 돌아오면 즉시 갱신
 document.addEventListener('visibilitychange', () => {
-  if(document.visibilityState === 'visible' && (Date.now() - __lastAutoLoad) > 20000) { __autoRefresh(); }
+  if(document.visibilityState === 'visible' && (Date.now() - __lastAutoLoad) > 8000) { __autoRefresh(); }
 });
+
+// 점수 최신성 "N초 전 업데이트" 표시 (2026-07-18)
+(function(){
+  var lbl = document.getElementById('scoreLabel');
+  if(lbl && !document.getElementById('scoreFresh')){
+    var s = document.createElement('div');
+    s.id = 'scoreFresh';
+    s.style.cssText = 'font-size:10px;font-weight:600;color:var(--t3);margin-top:2px;letter-spacing:0;min-height:12px';
+    lbl.insertAdjacentElement('afterend', s);
+  }
+  setInterval(function(){
+    var s = document.getElementById('scoreFresh'); if(!s) return;
+    if(!__lastDataAt){ s.textContent=''; return; }
+    s.textContent = __agoText(Math.max(0, Math.floor((Date.now()-__lastDataAt)/1000)));
+  }, 1000);
+})();
 
 // 1분마다 현재 점수 히스토리 저장 (탭 변경 시 데이터 축적)
 setInterval(() => {
