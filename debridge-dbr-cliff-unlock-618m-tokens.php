@@ -1,0 +1,382 @@
+<?php $slug = 'debridge-dbr-cliff-unlock-618m-tokens'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">크로스체인 상호운용성 프로토콜 디브릿지(deBridge)의 거버넌스 토큰 DBR이 7월17일 총발행량의 약 6.2%에 해당하는 6억1833만개를 한꺼번에 언락했다. 달러 환산 약 1060만달러 규모다. 루트데이터(RootData) 집계를 인용한 비트겟뉴스(Bitget News)와 오데일리(Odaily), 크립토랭크(CryptoRank), 비인크립토(BeInCrypto) 등이 이를 보도했다.</p>
+<p class="en">DBR, the governance token of cross-chain interoperability protocol deBridge, unlocked 618.33 million tokens — about 6.2% of total supply — in a single release on July 17, worth roughly $10.6 million. Bitget News (citing RootData), Odaily, CryptoRank and BeInCrypto reported the release.</p>
+<p class="ja">クロスチェーン相互運用性プロトコル、ディーブリッジ(deBridge)のガバナンストークンDBRが7月17日、総発行量の約6.2%にあたる6億1833万個を一括でアンロックした。ドル換算で約1060万ドル規模だ。ルートデータ(RootData)の集計を引用したビットゲットニュース(Bitget News)やオデイリー(Odaily)、クリプトランク(CryptoRank)、ビーインクリプト(BeInCrypto)などが報じた。</p>
+<p class="es">DBR, el token de gobernanza del protocolo de interoperabilidad entre cadenas deBridge, desbloqueó 618,33 millones de tokens —cerca del 6,2% de la oferta total— en una sola liberación el 17 de julio, por un valor aproximado de 10,6 millones de dólares. Bitget News (citando a RootData), Odaily, CryptoRank y BeInCrypto informaron sobre la liberación.</p>
+<p class="de">DBR, das Governance-Token des Cross-Chain-Interoperabilitätsprotokolls deBridge, hat am 17. Juli 618,33 Millionen Token — etwa 6,2% des Gesamtangebots — in einer einzigen Freigabe freigeschaltet, im Wert von rund 10,6 Millionen Dollar. Bitget News (unter Berufung auf RootData), Odaily, CryptoRank und BeInCrypto berichteten über die Freigabe.</p>
+<p class="fr">DBR, le token de gouvernance du protocole d'interopérabilité inter-chaînes deBridge, a débloqué 618,33 millions de tokens — environ 6,2% de l'offre totale — en une seule libération le 17 juillet, pour une valeur d'environ 10,6 millions de dollars. Bitget News (citant RootData), Odaily, CryptoRank et BeInCrypto ont rapporté cette libération.</p>
+<p class="pt">O DBR, token de governança do protocolo de interoperabilidade entre cadeias deBridge, desbloqueou 618,33 milhões de tokens — cerca de 6,2% da oferta total — em uma única liberação em 17 de julho, no valor de aproximadamente US$ 10,6 milhões. Bitget News (citando a RootData), Odaily, CryptoRank e BeInCrypto noticiaram a liberação.</p>
+<p class="tr">Zincirler arası birlikte çalışabilirlik protokolü deBridge'in yönetişim token'ı DBR, 17 Temmuz'da toplam arzın yaklaşık %6,2'sine denk gelen 618,33 milyon token'ı tek seferde kilidini açtı; bu da yaklaşık 10,6 milyon dolar değerinde. Bitget News (RootData'ya atıfla), Odaily, CryptoRank ve BeInCrypto bu açılımı haberleştirdi.</p>
+<p class="vi">DBR, token quản trị của giao thức tương tác liên chuỗi deBridge, đã mở khóa 618,33 triệu token — khoảng 6,2% tổng nguồn cung — trong một đợt phát hành duy nhất vào ngày 17/7, trị giá khoảng 10,6 triệu USD. Bitget News (dẫn nguồn RootData), Odaily, CryptoRank và BeInCrypto đã đưa tin về đợt mở khóa này.</p>
+
+<p class="ko">이번 물량은 절벽형(클리프) 베스팅 방식으로 배분됐다. 오데일리 집계에 따르면 생태계(에코시스템) 몫이 1억9167만개로 가장 많았고, 핵심 기여자(코어 컨트리뷰터) 1억3333만개, 전략적 파트너 1억1333만개, 디브릿지 재단과 커뮤니티·런칭 몫이 각각 8333만개, 밸리데이터 몫이 1333만개로 뒤를 이었다.</p>
+<p class="en">The tokens were distributed under a cliff-vesting structure. Per Odaily's breakdown, the Ecosystem allocation released the largest share at 191.67 million tokens, followed by Core Contributors at 133.33 million, Strategic Partners at 113.33 million, the deBridge Foundation and the Community & Launch category at 83.33 million each, and Validators at 13.33 million.</p>
+<p class="ja">今回の物量は崖(クリフ)型ベスティング方式で配分された。オデイリーの集計によると、エコシステム分が1億9167万個で最も多く、コア・コントリビューター1億3333万個、戦略的パートナー1億1333万個、ディーブリッジ財団とコミュニティ・ローンチ分がそれぞれ8333万個、バリデーター分が1333万個と続いた。</p>
+<p class="es">Los tokens se distribuyeron bajo una estructura de vesting tipo cliff. Según el desglose de Odaily, la asignación del Ecosistema liberó la mayor parte con 191,67 millones de tokens, seguida por los Colaboradores Principales con 133,33 millones, los Socios Estratégicos con 113,33 millones, la Fundación deBridge y la categoría Comunidad y Lanzamiento con 83,33 millones cada una, y los Validadores con 13,33 millones.</p>
+<p class="de">Die Token wurden nach einer Cliff-Vesting-Struktur verteilt. Laut der Aufschlüsselung von Odaily gab die Ökosystem-Zuteilung mit 191,67 Millionen Token den größten Anteil frei, gefolgt von Core Contributors mit 133,33 Millionen, Strategischen Partnern mit 113,33 Millionen, der deBridge-Stiftung und der Kategorie Community & Launch mit je 83,33 Millionen sowie Validatoren mit 13,33 Millionen.</p>
+<p class="fr">Les tokens ont été distribués selon une structure de vesting de type cliff. Selon la ventilation d'Odaily, l'allocation Écosystème a libéré la plus grande part avec 191,67 millions de tokens, suivie par les Contributeurs Principaux avec 133,33 millions, les Partenaires Stratégiques avec 113,33 millions, la Fondation deBridge et la catégorie Communauté et Lancement avec 83,33 millions chacune, et les Validateurs avec 13,33 millions.</p>
+<p class="pt">Os tokens foram distribuídos sob uma estrutura de vesting tipo cliff. Segundo o detalhamento da Odaily, a alocação do Ecossistema liberou a maior parte, com 191,67 milhões de tokens, seguida pelos Contribuidores Principais com 133,33 milhões, Parceiros Estratégicos com 113,33 milhões, a Fundação deBridge e a categoria Comunidade e Lançamento com 83,33 milhões cada, e Validadores com 13,33 milhões.</p>
+<p class="tr">Token'lar cliff vesting yapısı altında dağıtıldı. Odaily'nin dökümüne göre, Ekosistem tahsisi 191,67 milyon token ile en büyük payı serbest bıraktı; onu 133,33 milyon ile Çekirdek Katkıcılar, 113,33 milyon ile Stratejik Ortaklar, 83,33 milyon ile deBridge Vakfı ve Topluluk & Lansman kategorisi, 13,33 milyon ile de Doğrulayıcılar izledi.</p>
+<p class="vi">Số token này được phân bổ theo cơ chế vesting kiểu cliff. Theo phân tích của Odaily, phần phân bổ cho Hệ sinh thái giải phóng nhiều nhất với 191,33 triệu token, tiếp theo là Người đóng góp cốt lõi với 133,33 triệu, Đối tác chiến lược với 113,33 triệu, Quỹ deBridge và hạng mục Cộng đồng & Ra mắt mỗi bên 83,33 triệu, và Validator với 13,33 triệu.</p>
+
+<h2 class="ko">클리프 언락이란 무엇인가 — WLD의 선형 구조와 다른 점</h2>
+<h2 class="en">What Is a Cliff Unlock — How It Differs From WLD's Linear Schedule</h2>
+<h2 class="ja">クリフ・アンロックとは何か — WLDの線形構造との違い</h2>
+<h2 class="es">Qué Es un Desbloqueo Tipo Cliff — En Qué Se Diferencia del Calendario Lineal de WLD</h2>
+<h2 class="de">Was Ist Eine Cliff-Freischaltung — Der Unterschied Zum Linearen Zeitplan Von WLD</h2>
+<h2 class="fr">Qu'est-ce Qu'un Déverrouillage Cliff — En Quoi Il Diffère Du Calendrier Linéaire De WLD</h2>
+<h2 class="pt">O Que É Um Desbloqueio Tipo Cliff — Como Difere Do Cronograma Linear Da WLD</h2>
+<h2 class="tr">Cliff Kilit Açma Nedir — WLD'nin Doğrusal Takviminden Farkı</h2>
+<h2 class="vi">Mở Khóa Kiểu Cliff Là Gì — Khác Gì So Với Lịch Trình Tuyến Tính Của WLD</h2>
+
+<p class="ko">클리프(cliff) 베스팅은 일정 대기 기간 동안 전혀 물량이 풀리지 않다가, 정해진 날짜에 한꺼번에 큰 덩어리가 시장에 풀리는 방식이다. 이는 매일 조금씩 정해진 양이 풀리는 선형(linear) 베스팅과 대비된다. 이 사이트가 지난주 다룬 <a href="/blog/worldcoin-wld-unlock-rate-43-percent-cut">월드코인(WLD)의 언락 감축</a> 기사에서 확인했듯, WLD는 절벽 없이 매일 일정량이 풀리는 선형 구조를 택했다. 디브릿지의 이번 6.2% 언락은 그와 정반대의 설계 철학을 보여주는 사례다.</p>
+<p class="en">Cliff vesting means no tokens release for a set waiting period, then a large block hits the market all at once on a fixed date. That contrasts with linear vesting, where a set amount unlocks incrementally every day. As this site noted last week in its coverage of <a href="/en/blog/worldcoin-wld-unlock-rate-43-percent-cut">World's WLD unlock cut</a>, WLD follows a no-cliff, linear schedule that releases a fixed amount daily. deBridge's 6.2% release is a case study in the opposite design philosophy.</p>
+<p class="ja">クリフ(崖)型ベスティングとは、一定の待機期間中は物量が全く放出されず、決められた日に大きな塊が一括で市場に放出される方式だ。これは、毎日決まった量が少しずつ放出される線形(リニア)ベスティングと対照的だ。本サイトが先週取り上げた<a href="/ja/blog/worldcoin-wld-unlock-rate-43-percent-cut">ワールドコイン(WLD)のアンロック削減</a>記事で確認した通り、WLDは崖なしで毎日一定量が放出される線形構造を採用している。ディーブリッジの今回の6.2%放出は、その正反対の設計思想を示す事例だ。</p>
+<p class="es">El vesting tipo cliff significa que no se liberan tokens durante un período de espera fijo, y luego un gran bloque llega al mercado de una sola vez en una fecha determinada. Esto contrasta con el vesting lineal, donde una cantidad fija se desbloquea de forma incremental cada día. Como señaló este sitio la semana pasada en su cobertura del <a href="/es/blog/worldcoin-wld-unlock-rate-43-percent-cut">recorte de desbloqueo de WLD de World</a>, WLD sigue un calendario lineal sin cliff que libera una cantidad fija diariamente. La liberación del 6,2% de deBridge es un caso de estudio de la filosofía de diseño opuesta.</p>
+<p class="de">Cliff-Vesting bedeutet, dass für einen festgelegten Wartezeitraum keine Token freigegeben werden und dann an einem festen Datum ein großer Block auf einmal auf den Markt trifft. Das steht im Gegensatz zum linearen Vesting, bei dem täglich eine feste Menge schrittweise freigeschaltet wird. Wie diese Seite letzte Woche in ihrer Berichterstattung über <a href="/de/blog/worldcoin-wld-unlock-rate-43-percent-cut">Worlds WLD-Freischaltungskürzung</a> feststellte, folgt WLD einem cliff-losen, linearen Zeitplan, der täglich eine feste Menge freigibt. Die 6,2%-Freigabe von deBridge ist ein Beispiel für die entgegengesetzte Design-Philosophie.</p>
+<p class="fr">Le vesting de type cliff signifie qu'aucun token n'est libéré pendant une période d'attente fixe, puis qu'un grand bloc arrive sur le marché d'un coup à une date fixe. Cela contraste avec le vesting linéaire, où une quantité fixe se déverrouille progressivement chaque jour. Comme ce site l'a noté la semaine dernière dans sa couverture de la <a href="/fr/blog/worldcoin-wld-unlock-rate-43-percent-cut">réduction du déverrouillage de WLD par World</a>, WLD suit un calendrier linéaire sans cliff qui libère une quantité fixe quotidiennement. La libération de 6,2% de deBridge illustre la philosophie de conception opposée.</p>
+<p class="pt">O vesting tipo cliff significa que nenhum token é liberado durante um período de espera fixo, e então um grande bloco chega ao mercado de uma só vez em uma data determinada. Isso contrasta com o vesting linear, em que uma quantidade fixa é desbloqueada incrementalmente todos os dias. Como este site observou na semana passada em sua cobertura do <a href="/pt/blog/worldcoin-wld-unlock-rate-43-percent-cut">corte no desbloqueio de WLD da World</a>, o WLD segue um cronograma linear sem cliff que libera uma quantidade fixa diariamente. A liberação de 6,2% da deBridge é um estudo de caso da filosofia de design oposta.</p>
+<p class="tr">Cliff vesting, belirli bir bekleme süresi boyunca hiç token serbest bırakılmaması, ardından sabit bir tarihte büyük bir bloğun piyasaya birden düşmesi anlamına gelir. Bu, her gün sabit bir miktarın kademeli olarak açıldığı doğrusal (linear) vesting ile tezat oluşturur. Bu sitenin geçen hafta <a href="/tr/blog/worldcoin-wld-unlock-rate-43-percent-cut">World'ün WLD kilit açma kesintisi</a> haberinde belirttiği gibi, WLD uçurumsuz, her gün sabit miktar açan doğrusal bir takvim izliyor. deBridge'in bu %6,2'lik açılımı, tam tersi bir tasarım felsefesinin örneği.</p>
+<p class="vi">Vesting kiểu cliff nghĩa là không có token nào được giải phóng trong một khoảng thời gian chờ cố định, sau đó một khối lượng lớn đổ vào thị trường cùng lúc vào một ngày ấn định. Điều này trái ngược với vesting tuyến tính, nơi một lượng cố định được mở khóa dần dần mỗi ngày. Như trang này đã đề cập tuần trước trong bài viết về <a href="/vi/blog/worldcoin-wld-unlock-rate-43-percent-cut">việc World cắt giảm mở khóa WLD</a>, WLD áp dụng lịch trình tuyến tính không có vách, giải phóng một lượng cố định mỗi ngày. Đợt phát hành 6,2% của deBridge là một ví dụ điển hình cho triết lý thiết kế hoàn toàn đối lập.</p>
+
+<p class="ko">디브릿지는 26개 이상의 블록체인을 연결하는 크로스체인 프로토콜로, 기존 브릿지들과 달리 유동성을 미리 락업해두지 않는다. 대신 경쟁하는 '솔버(solver)'들이 사용자의 크로스체인 주문을 직접 이행하는 인텐트(intent) 기반 모델을 쓴다. 피멕스 아카데미(Phemex Academy) 집계에 따르면 누적 전송액은 23억5000만달러를 넘어섰고, 이용자는 38만5000명, 일일 프로토콜 수수료는 약 10만달러 수준이다. 다만 DBR의 시가총액은 어느 유통량 기준을 쓰느냐에 따라 크게 갈린다 — 코인마켓캡은 유통량 약 19억2000만개를 기준으로 시총을 약 3140만달러로 집계하는 반면, 코인게코·토크노미스트는 이미 풀린 물량을 더 넓게 잡아 시총을 약 8600만달러(완전희석가치 1억6200만달러)로 계산한다.</p>
+<p class="en">deBridge is a cross-chain protocol connecting more than 26 blockchains that, unlike traditional bridges, doesn't lock liquidity in advance. Instead, it uses an intent-based model in which competing solvers directly fulfill users' cross-chain orders. Per Phemex Academy, cumulative transfer volume has topped $2.35 billion across 385,000 users, with daily protocol fees around $100,000. DBR's market cap, however, varies sharply depending on which circulating-supply figure is used — CoinMarketCap counts roughly 1.92 billion circulating tokens for a market cap near $31.4 million, while CoinGecko and Tokenomist count a broader pool of already-unlocked tokens, putting the market cap closer to $86.3 million (with a fully diluted valuation of $162.1 million).</p>
+<p class="ja">ディーブリッジは26以上のブロックチェーンを接続するクロスチェーンプロトコルで、従来のブリッジとは異なり流動性をあらかじめロックしない。代わりに、競合する「ソルバー(solver)」がユーザーのクロスチェーン注文を直接履行するインテント(intent)ベースのモデルを採用する。フェメックス・アカデミー(Phemex Academy)の集計によると、累計転送額は23億5000万ドルを超え、利用者は38万5000人、1日あたりのプロトコル手数料は約10万ドル規模だ。ただしDBRの時価総額は、どの流通量基準を使うかによって大きく異なる — コインマーケットキャップは流通量約19億2000万個を基準に時価総額を約3140万ドルと集計する一方、コインゲッコー・トークノミストは既に放出された物量をより広く含めて時価総額を約8600万ドル(完全希薄化評価額1億6200万ドル)と算出している。</p>
+<p class="es">deBridge es un protocolo entre cadenas que conecta más de 26 blockchains y que, a diferencia de los puentes tradicionales, no bloquea liquidez por adelantado. En su lugar, utiliza un modelo basado en intenciones en el que 'solvers' en competencia cumplen directamente las órdenes entre cadenas de los usuarios. Según Phemex Academy, el volumen acumulado de transferencias ha superado los 2.350 millones de dólares entre 385.000 usuarios, con comisiones diarias del protocolo de alrededor de 100.000 dólares. Sin embargo, la capitalización de mercado de DBR varía enormemente según la cifra de suministro circulante que se use: CoinMarketCap cuenta aproximadamente 1.920 millones de tokens en circulación para una capitalización cercana a 31,4 millones de dólares, mientras que CoinGecko y Tokenomist cuentan un conjunto más amplio de tokens ya desbloqueados, situando la capitalización más cerca de 86,3 millones de dólares (con una valoración totalmente diluida de 162,1 millones de dólares).</p>
+<p class="de">deBridge ist ein Cross-Chain-Protokoll, das mehr als 26 Blockchains verbindet und im Gegensatz zu herkömmlichen Bridges keine Liquidität im Voraus sperrt. Stattdessen nutzt es ein intent-basiertes Modell, bei dem konkurrierende „Solver" die Cross-Chain-Aufträge der Nutzer direkt ausführen. Laut Phemex Academy hat das kumulierte Transfervolumen 2,35 Milliarden Dollar bei 385.000 Nutzern überschritten, mit täglichen Protokollgebühren von rund 100.000 Dollar. Die Marktkapitalisierung von DBR variiert jedoch stark, je nachdem, welche Umlaufmengen-Zahl verwendet wird — CoinMarketCap zählt rund 1,92 Milliarden zirkulierende Token für eine Marktkapitalisierung von etwa 31,4 Millionen Dollar, während CoinGecko und Tokenomist einen breiteren Pool bereits freigeschalteter Token einbeziehen und die Marktkapitalisierung näher bei 86,3 Millionen Dollar ansetzen (bei einer vollständig verwässerten Bewertung von 162,1 Millionen Dollar).</p>
+<p class="fr">deBridge est un protocole inter-chaînes reliant plus de 26 blockchains qui, contrairement aux ponts traditionnels, ne bloque pas de liquidité à l'avance. Il utilise à la place un modèle basé sur l'intention, dans lequel des « solvers » concurrents exécutent directement les ordres inter-chaînes des utilisateurs. Selon Phemex Academy, le volume cumulé de transferts a dépassé 2,35 milliards de dollars auprès de 385 000 utilisateurs, avec des frais de protocole quotidiens d'environ 100 000 dollars. La capitalisation boursière de DBR varie cependant fortement selon le chiffre d'offre en circulation utilisé — CoinMarketCap comptabilise environ 1,92 milliard de tokens en circulation pour une capitalisation proche de 31,4 millions de dollars, tandis que CoinGecko et Tokenomist comptabilisent un ensemble plus large de tokens déjà déverrouillés, situant la capitalisation plus près de 86,3 millions de dollars (avec une valorisation entièrement diluée de 162,1 millions de dollars).</p>
+<p class="pt">A deBridge é um protocolo entre cadeias que conecta mais de 26 blockchains e que, ao contrário das pontes tradicionais, não bloqueia liquidez com antecedência. Em vez disso, usa um modelo baseado em intenção, no qual 'solvers' concorrentes cumprem diretamente as ordens entre cadeias dos usuários. Segundo a Phemex Academy, o volume acumulado de transferências ultrapassou US$ 2,35 bilhões entre 385 mil usuários, com taxas diárias de protocolo de cerca de US$ 100 mil. A capitalização de mercado do DBR, porém, varia bastante dependendo de qual número de oferta circulante é usado — a CoinMarketCap contabiliza cerca de 1,92 bilhão de tokens em circulação para uma capitalização próxima de US$ 31,4 milhões, enquanto CoinGecko e Tokenomist contabilizam um conjunto mais amplo de tokens já desbloqueados, situando a capitalização mais perto de US$ 86,3 milhões (com uma avaliação totalmente diluída de US$ 162,1 milhões).</p>
+<p class="tr">deBridge, 26'dan fazla blok zincirini birbirine bağlayan ve geleneksel köprülerin aksine likiditeyi önceden kilitlemeyen bir zincirler arası protokol. Bunun yerine, rakip 'solver'ların kullanıcıların zincirler arası emirlerini doğrudan yerine getirdiği niyet (intent) tabanlı bir model kullanıyor. Phemex Academy'ye göre, kümülatif transfer hacmi 385.000 kullanıcı arasında 2,35 milyar doları aştı ve günlük protokol ücretleri yaklaşık 100.000 dolar seviyesinde. Ancak DBR'nin piyasa değeri, hangi dolaşımdaki arz rakamının kullanıldığına göre büyük ölçüde değişiyor — CoinMarketCap yaklaşık 1,92 milyar dolaşımdaki token'a göre piyasa değerini yaklaşık 31,4 milyon dolar olarak hesaplarken, CoinGecko ve Tokenomist zaten kilidi açılmış daha geniş bir havuzu sayarak piyasa değerini 86,3 milyon dolara (162,1 milyon dolarlık tam seyreltilmiş değerlemeyle) yakın hesaplıyor.</p>
+<p class="vi">deBridge là giao thức liên chuỗi kết nối hơn 26 blockchain, và khác với các cầu nối truyền thống, không khóa thanh khoản trước. Thay vào đó, giao thức sử dụng mô hình dựa trên ý định (intent), trong đó các 'solver' cạnh tranh trực tiếp thực hiện các lệnh liên chuỗi của người dùng. Theo Phemex Academy, khối lượng chuyển tiền lũy kế đã vượt 2,35 tỷ USD với 385.000 người dùng, phí giao thức hàng ngày khoảng 100.000 USD. Tuy nhiên, vốn hóa thị trường của DBR biến động mạnh tùy theo con số nguồn cung lưu hành được sử dụng — CoinMarketCap tính khoảng 1,92 tỷ token lưu hành cho mức vốn hóa gần 31,4 triệu USD, trong khi CoinGecko và Tokenomist tính một lượng token đã mở khóa rộng hơn, đưa vốn hóa lên gần 86,3 triệu USD (với định giá pha loãng hoàn toàn là 162,1 triệu USD).</p>
+
+<h2 class="ko">숫자로 보는 유통량 논쟁 — '이미 풀린 물량'을 어떻게 셀 것인가</h2>
+<h2 class="en">The Circulating-Supply Debate, By the Numbers — How to Count Tokens That Are Already Unlocked</h2>
+<h2 class="ja">数字で見る流通量論争 — 「既に放出された物量」をどう数えるか</h2>
+<h2 class="es">El Debate del Suministro Circulante, en Números — Cómo Contar los Tokens Ya Desbloqueados</h2>
+<h2 class="de">Die Debatte Um Die Umlaufmenge in Zahlen — Wie Man Bereits Freigeschaltete Token Zählt</h2>
+<h2 class="fr">Le Débat Sur L'offre en Circulation, en Chiffres — Comment Compter Les Tokens Déjà Déverrouillés</h2>
+<h2 class="pt">O Debate Sobre a Oferta Circulante, em Números — Como Contar Tokens Já Desbloqueados</h2>
+<h2 class="tr">Sayılarla Dolaşımdaki Arz Tartışması — Zaten Kilidi Açılmış Token'lar Nasıl Sayılır</h2>
+<h2 class="vi">Cuộc Tranh Luận Về Nguồn Cung Lưu Hành, Bằng Số Liệu — Cách Đếm Token Đã Mở Khóa</h2>
+
+<p class="ko">이 시가총액 3배 가까운 격차는 우연이 아니다. 저유통·고완전희석가치(low float, high FDV) 토큰에서 반복되는 패턴으로, '언락된 것'과 '실제로 지갑을 옮겨 매도 가능한 것' 사이에 간극이 생기기 때문이다. 앞선 월드코인 기사에서도 짚었듯, 재단이나 초기 투자자가 이미 언락된 물량을 즉시 시장에 풀지 않고 보유하다가 필요할 때만 장외(OTC)로 매각하는 구조에서는 집계 기관이 그 '보유 중이지만 언락된' 물량을 유통량에 포함할지 여부를 놓고 판단이 갈릴 수밖에 없다. 디브릿지의 경우 코인마켓캡은 보수적으로, 코인게코·토크노미스트는 더 넓게 잡는 셈이다.</p>
+<p class="en">This near-threefold gap in market cap isn't a coincidence. It's a pattern that recurs across low-float, high-FDV tokens, arising from a gap between tokens that are "unlocked" and tokens that have actually moved into wallets that could sell them. As this site's earlier coverage of Worldcoin noted, when a foundation or early investors hold already-unlocked tokens rather than releasing them straight to market — selling over-the-counter only when they choose — data trackers inevitably disagree on whether to count that held-but-unlocked supply as circulating. In deBridge's case, CoinMarketCap takes the conservative view while CoinGecko and Tokenomist cast a wider net.</p>
+<p class="ja">この時価総額の3倍近い差は偶然ではない。低流通・高完全希薄化評価額(low float, high FDV)のトークンで繰り返し見られるパターンで、「アンロックされたもの」と「実際にウォレットに移され売却可能なもの」の間にギャップが生じるためだ。先のワールドコイン記事でも指摘した通り、財団や初期投資家が既にアンロックされた物量を即座に市場に出さず保有し、必要な時だけ相対(OTC)で売却する構造では、集計機関がその「保有中だがアンロック済み」の物量を流通量に含めるかどうかで判断が分かれざるを得ない。ディーブリッジの場合、コインマーケットキャップは保守的に、コインゲッコー・トークノミストはより広く見積もっている形だ。</p>
+<p class="es">Esta brecha de casi el triple en la capitalización de mercado no es casualidad. Es un patrón que se repite en tokens de bajo float y alto FDV, y surge de la diferencia entre los tokens que están 'desbloqueados' y los que realmente se han movido a billeteras desde las que podrían venderse. Como señaló la cobertura anterior de este sitio sobre Worldcoin, cuando una fundación o los primeros inversores retienen tokens ya desbloqueados en lugar de liberarlos directamente al mercado —vendiéndolos over-the-counter solo cuando lo eligen—, los rastreadores de datos inevitablemente discrepan sobre si contar ese suministro retenido pero desbloqueado como circulante. En el caso de deBridge, CoinMarketCap adopta la visión conservadora mientras que CoinGecko y Tokenomist amplían el criterio.</p>
+<p class="de">Diese fast dreifache Lücke bei der Marktkapitalisierung ist kein Zufall. Es ist ein Muster, das sich bei Token mit niedrigem Float und hohem FDV wiederholt und aus einer Lücke zwischen „freigeschalteten" Token und Token entsteht, die tatsächlich in Wallets verschoben wurden, aus denen sie verkauft werden könnten. Wie die frühere Berichterstattung dieser Seite über Worldcoin feststellte, sind sich Datenanbieter zwangsläufig uneinig darüber, ob bereits freigeschaltete, aber gehaltene Bestände als Umlaufmenge zu zählen sind, wenn eine Stiftung oder frühe Investoren bereits freigeschaltete Token halten, statt sie direkt auf den Markt zu bringen, und sie nur nach eigenem Ermessen außerbörslich verkaufen. Im Fall von deBridge nimmt CoinMarketCap die konservative Sichtweise ein, während CoinGecko und Tokenomist ein breiteres Netz auswerfen.</p>
+<p class="fr">Cet écart de capitalisation boursière presque triple n'est pas une coïncidence. C'est un schéma qui se répète parmi les tokens à faible flottant et FDV élevé, résultant d'un écart entre les tokens « déverrouillés » et ceux qui ont réellement été transférés vers des portefeuilles depuis lesquels ils pourraient être vendus. Comme l'a noté la couverture antérieure de ce site sur Worldcoin, lorsqu'une fondation ou des investisseurs précoces conservent des tokens déjà déverrouillés au lieu de les libérer directement sur le marché — les vendant de gré à gré uniquement lorsqu'ils le choisissent — les agrégateurs de données ne peuvent qu'être en désaccord sur la question de savoir s'il faut comptabiliser cette offre détenue mais déverrouillée comme étant en circulation. Dans le cas de deBridge, CoinMarketCap adopte la vision prudente tandis que CoinGecko et Tokenomist élargissent le filet.</p>
+<p class="pt">Essa diferença de quase três vezes na capitalização de mercado não é coincidência. É um padrão que se repete em tokens de baixo float e alto FDV, surgindo de uma lacuna entre tokens que estão 'desbloqueados' e tokens que realmente foram movidos para carteiras a partir das quais poderiam ser vendidos. Como observou a cobertura anterior deste site sobre a Worldcoin, quando uma fundação ou investidores iniciais retêm tokens já desbloqueados em vez de liberá-los diretamente ao mercado — vendendo no mercado de balcão apenas quando escolhem — os rastreadores de dados inevitavelmente discordam sobre se devem contar essa oferta retida mas desbloqueada como circulante. No caso da deBridge, a CoinMarketCap adota a visão conservadora enquanto CoinGecko e Tokenomist ampliam o critério.</p>
+<p class="tr">Piyasa değerindeki bu neredeyse üç katlık fark bir tesadüf değil. Düşük dolaşımlı, yüksek FDV'li token'larda tekrarlanan bir kalıp bu; 'kilidi açılmış' token'lar ile gerçekten satılabilecekleri cüzdanlara taşınmış token'lar arasındaki farktan kaynaklanıyor. Bu sitenin Worldcoin hakkındaki önceki haberinde belirtildiği gibi, bir vakıf veya erken yatırımcılar zaten kilidi açılmış token'ları doğrudan piyasaya sürmek yerine ellerinde tutup yalnızca istedikleri zaman tezgah üstü sattığında, veri takip kuruluşları bu 'elde tutulan ama kilidi açılmış' arzı dolaşımdaki arza dahil edip etmeme konusunda kaçınılmaz olarak anlaşamıyor. deBridge örneğinde CoinMarketCap muhafazakâr bir görüş benimserken, CoinGecko ve Tokenomist daha geniş bir ağ atıyor.</p>
+<p class="vi">Khoảng cách gần gấp ba lần này về vốn hóa thị trường không phải ngẫu nhiên. Đây là một mô hình lặp lại ở các token có tỷ lệ lưu hành thấp, FDV cao, phát sinh từ khoảng cách giữa token 'đã mở khóa' và token thực sự đã được chuyển vào ví có thể bán ra. Như bài viết trước đây của trang này về Worldcoin đã chỉ ra, khi một quỹ hoặc các nhà đầu tư sớm giữ lại token đã mở khóa thay vì đưa thẳng ra thị trường — chỉ bán qua kênh OTC khi họ chọn — các đơn vị theo dõi dữ liệu chắc chắn sẽ bất đồng về việc có nên tính lượng cung 'đang giữ nhưng đã mở khóa' đó là đang lưu hành hay không. Trong trường hợp của deBridge, CoinMarketCap có cách nhìn thận trọng trong khi CoinGecko và Tokenomist tính rộng hơn.</p>
+
+<p class="ko">다만 이번 6억1833만개 언락 자체가 곧바로 대규모 매도로 이어질지는 별개 문제다. 배분 내역을 보면 핵심 기여자·전략적 파트너·재단 몫이 전체의 절반이 넘는데, 이들은 대체로 장기 보유 유인(락업 해제 후에도 평판·거버넌스 참여 등을 고려)을 가진 주체들이어서 즉각 전량 매도 가능성은 제한적이라는 반론도 있다. 반대로 생태계 몫 1억9167만개는 인센티브 프로그램이나 유동성 공급 등에 상대적으로 빠르게 투입될 여지가 있어, 실제 매도압력은 항목별로 다르게 나타날 가능성이 크다.</p>
+<p class="en">Still, whether this 618.33-million-token release itself translates into heavy selling is a separate question. The breakdown shows Core Contributors, Strategic Partners and the Foundation together account for more than half the total, and these holders generally have incentives to hold long-term — reputational and governance considerations that persist even after unlock — which limits the likelihood of immediate, wholesale selling. The 191.67-million-token Ecosystem allocation, by contrast, could flow relatively quickly into incentive programs or liquidity provisioning, meaning actual sell pressure is likely to differ by category.</p>
+<p class="ja">ただし今回の6億1833万個の放出自体が直ちに大規模な売りにつながるかは別問題だ。内訳を見ると、コア・コントリビューター・戦略的パートナー・財団の分だけで全体の半分を超えており、これらは概ね長期保有のインセンティブ(アンロック後も評判やガバナンス参加を考慮する)を持つ主体であるため、即座の全量売却の可能性は限定的だとの反論もある。反対にエコシステム分の1億9167万個は、インセンティブプログラムや流動性供給に比較的早く投入される余地があり、実際の売り圧力は項目ごとに異なる形で現れる可能性が高い。</p>
+<p class="es">Aun así, si esta liberación de 618,33 millones de tokens en sí misma se traduce en ventas masivas es una cuestión aparte. El desglose muestra que los Colaboradores Principales, los Socios Estratégicos y la Fundación suman juntos más de la mitad del total, y estos titulares generalmente tienen incentivos para mantener a largo plazo —consideraciones de reputación y gobernanza que persisten incluso después del desbloqueo—, lo que limita la probabilidad de una venta inmediata y masiva. La asignación del Ecosistema de 191,67 millones de tokens, en cambio, podría fluir con relativa rapidez hacia programas de incentivos o provisión de liquidez, lo que significa que la presión de venta real probablemente difiera según la categoría.</p>
+<p class="de">Ob diese Freigabe von 618,33 Millionen Token selbst zu starken Verkäufen führt, ist jedoch eine andere Frage. Die Aufschlüsselung zeigt, dass Core Contributors, Strategische Partner und die Stiftung zusammen mehr als die Hälfte des Gesamtbetrags ausmachen, und diese Inhaber haben im Allgemeinen Anreize zum langfristigen Halten — Reputations- und Governance-Überlegungen, die auch nach der Freischaltung bestehen bleiben —, was die Wahrscheinlichkeit sofortiger Massenverkäufe begrenzt. Die 191,67-Millionen-Token-Ökosystem-Zuteilung könnte dagegen relativ schnell in Anreizprogramme oder Liquiditätsbereitstellung fließen, sodass sich der tatsächliche Verkaufsdruck je nach Kategorie wahrscheinlich unterscheidet.</p>
+<p class="fr">Reste à savoir si cette libération de 618,33 millions de tokens se traduira elle-même par de fortes ventes, ce qui est une autre question. La ventilation montre que les Contributeurs Principaux, les Partenaires Stratégiques et la Fondation représentent ensemble plus de la moitié du total, et ces détenteurs ont généralement des incitations à conserver à long terme — des considérations de réputation et de gouvernance qui persistent même après le déverrouillage — ce qui limite la probabilité d'une vente immédiate et massive. L'allocation Écosystème de 191,67 millions de tokens, en revanche, pourrait affluer relativement rapidement vers des programmes d'incitation ou l'apport de liquidité, ce qui signifie que la pression de vente réelle est susceptible de différer selon la catégorie.</p>
+<p class="pt">Ainda assim, se essa liberação de 618,33 milhões de tokens em si se traduzirá em vendas pesadas é uma questão à parte. O detalhamento mostra que Contribuidores Principais, Parceiros Estratégicos e a Fundação juntos respondem por mais da metade do total, e esses detentores geralmente têm incentivos para manter a longo prazo — considerações de reputação e governança que persistem mesmo após o desbloqueio —, o que limita a probabilidade de venda imediata e em massa. A alocação do Ecossistema de 191,67 milhões de tokens, por outro lado, poderia fluir relativamente rápido para programas de incentivo ou provisão de liquidez, o que significa que a pressão de venda real provavelmente será diferente por categoria.</p>
+<p class="tr">Yine de bu 618,33 milyon token'lık açılımın kendisinin doğrudan ağır satışlara dönüşüp dönüşmeyeceği ayrı bir mesele. Döküm, Çekirdek Katkıcılar, Stratejik Ortaklar ve Vakfın birlikte toplamın yarısından fazlasını oluşturduğunu gösteriyor ve bu sahipler genellikle uzun vadeli tutma teşviklerine sahip — kilit açıldıktan sonra bile devam eden itibar ve yönetişim kaygıları — bu da anında toptan satış olasılığını sınırlıyor. 191,67 milyon token'lık Ekosistem tahsisi ise, teşvik programlarına veya likidite sağlamaya nispeten hızlı akabilir; bu da gerçek satış baskısının kategoriye göre farklılık göstermesi muhtemel olduğu anlamına geliyor.</p>
+<p class="vi">Tuy nhiên, liệu đợt phát hành 618,33 triệu token này có tự nó dẫn đến bán tháo mạnh hay không lại là chuyện khác. Bảng phân bổ cho thấy Người đóng góp cốt lõi, Đối tác chiến lược và Quỹ cộng lại chiếm hơn một nửa tổng số, và những người nắm giữ này nhìn chung có động lực để giữ dài hạn — các cân nhắc về uy tín và quản trị vẫn tồn tại ngay cả sau khi mở khóa — điều này hạn chế khả năng bán tháo toàn bộ ngay lập tức. Ngược lại, phần phân bổ Hệ sinh thái 191,67 triệu token có thể được đưa vào các chương trình khuyến khích hoặc cung cấp thanh khoản tương đối nhanh, nghĩa là áp lực bán thực tế nhiều khả năng sẽ khác nhau tùy theo hạng mục.</p>
+
+<h2 class="ko">지켜볼 점 — 언락 시즌 한복판의 디브릿지</h2>
+<h2 class="en">What to Watch — deBridge Lands in the Middle of Unlock Season</h2>
+<h2 class="ja">注視点 — アンロックシーズン真っただ中のディーブリッジ</h2>
+<h2 class="es">Qué Vigilar — deBridge Llega en Plena Temporada de Desbloqueos</h2>
+<h2 class="de">Worauf Zu Achten Ist — deBridge Mitten in Der Freischaltungssaison</h2>
+<h2 class="fr">Ce Qu'il Faut Surveiller — deBridge Arrive En Pleine Saison De Déverrouillages</h2>
+<h2 class="pt">O Que Observar — A deBridge Chega Em Plena Temporada De Desbloqueios</h2>
+<h2 class="tr">İzlenmesi Gerekenler — deBridge Kilit Açma Sezonunun Tam Ortasında</h2>
+<h2 class="vi">Điều Cần Theo Dõi — deBridge Xuất Hiện Giữa Mùa Mở Khóa</h2>
+
+<p class="ko">디브릿지의 언락은 홀로 일어난 사건이 아니다. 비인크립토(BeInCrypto) 집계에 따르면 7월12일부터 19일까지 한 주간 시장 전체에서 6억6080만달러 규모의 토큰이 새로 풀리며, 콘넥스(CONX)·디브릿지(DBR)·아비트럼(ARB) 등이 그 물량을 나눠 방출한다. 바로 전날인 7월16일에는 아비트럼도 전체 공급량의 0.96%에 해당하는 9624만개(약 887만달러)를 풀었다. 여러 프로젝트의 언락 일정이 같은 주에 몰리면, 개별 토큰의 매도압력이 서로 얽히며 전체 알트코인 유동성에 대한 부담이 커질 수 있다는 것이 시장 참여자들의 공통된 우려다.</p>
+<p class="en">deBridge's unlock isn't an isolated event. Per BeInCrypto's tally, the market as a whole sees $660.8 million in newly released tokens across the week of July 12-19, with Connex (CONX), deBridge (DBR) and Arbitrum (ARB) among those releasing supply. Just a day earlier, on July 16, Arbitrum unlocked 96.24 million tokens — 0.96% of total supply, worth about $8.87 million. When multiple projects' unlock schedules cluster in the same week, market participants widely worry that overlapping sell pressure across individual tokens can compound strain on overall altcoin liquidity.</p>
+<p class="ja">ディーブリッジのアンロックは単独で起きた出来事ではない。ビーインクリプト(BeInCrypto)の集計によると、7月12日から19日までの1週間で市場全体で6億6080万ドル規模のトークンが新たに放出され、コネックス(CONX)・ディーブリッジ(DBR)・アービトラム(ARB)などがその物量を分けて放出する。ちょうど前日の7月16日にはアービトラムも全体供給量の0.96%にあたる9624万個(約887万ドル)を放出した。複数プロジェクトのアンロックスケジュールが同じ週に集中すると、個別トークンの売り圧力が互いに絡み合い、アルトコイン全体の流動性への負担が増す可能性があるというのが市場参加者に共通する懸念だ。</p>
+<p class="es">El desbloqueo de deBridge no es un hecho aislado. Según el recuento de BeInCrypto, el mercado en su conjunto ve 660,8 millones de dólares en tokens recién liberados durante la semana del 12 al 19 de julio, con Connex (CONX), deBridge (DBR) y Arbitrum (ARB) entre los que liberan oferta. Apenas un día antes, el 16 de julio, Arbitrum desbloqueó 96,24 millones de tokens —0,96% de la oferta total, por un valor de unos 8,87 millones de dólares—. Cuando los calendarios de desbloqueo de varios proyectos se agrupan en la misma semana, una preocupación común entre los participantes del mercado es que la presión de venta superpuesta entre tokens individuales pueda agravar la tensión sobre la liquidez general de las altcoins.</p>
+<p class="de">Die Freischaltung von deBridge ist kein isoliertes Ereignis. Laut der Zählung von BeInCrypto sieht der Markt insgesamt 660,8 Millionen Dollar an neu freigegebenen Token in der Woche vom 12. bis 19. Juli, wobei Connex (CONX), deBridge (DBR) und Arbitrum (ARB) zu denen gehören, die Angebot freigeben. Nur einen Tag zuvor, am 16. Juli, schaltete Arbitrum 96,24 Millionen Token frei — 0,96% des Gesamtangebots im Wert von etwa 8,87 Millionen Dollar. Wenn sich die Freischaltungspläne mehrerer Projekte in derselben Woche häufen, befürchten Marktteilnehmer verbreitet, dass sich überlappender Verkaufsdruck bei einzelnen Token verstärken und die Liquidität der Altcoins insgesamt belasten könnte.</p>
+<p class="fr">Le déverrouillage de deBridge n'est pas un événement isolé. Selon le décompte de BeInCrypto, le marché dans son ensemble voit 660,8 millions de dollars de tokens nouvellement libérés au cours de la semaine du 12 au 19 juillet, Connex (CONX), deBridge (DBR) et Arbitrum (ARB) figurant parmi ceux qui libèrent de l'offre. Un jour plus tôt seulement, le 16 juillet, Arbitrum a débloqué 96,24 millions de tokens — 0,96% de l'offre totale, d'une valeur d'environ 8,87 millions de dollars. Lorsque les calendriers de déverrouillage de plusieurs projets se concentrent la même semaine, une inquiétude largement partagée par les participants du marché est que la pression de vente qui se chevauche entre tokens individuels puisse aggraver la tension sur la liquidité globale des altcoins.</p>
+<p class="pt">O desbloqueio da deBridge não é um evento isolado. Segundo a contagem da BeInCrypto, o mercado como um todo vê US$ 660,8 milhões em tokens recém-liberados na semana de 12 a 19 de julho, com Connex (CONX), deBridge (DBR) e Arbitrum (ARB) entre os que liberam oferta. Apenas um dia antes, em 16 de julho, a Arbitrum desbloqueou 96,24 milhões de tokens — 0,96% da oferta total, no valor de cerca de US$ 8,87 milhões. Quando os cronogramas de desbloqueio de vários projetos se concentram na mesma semana, uma preocupação amplamente compartilhada pelos participantes do mercado é que a pressão de venda sobreposta entre tokens individuais possa agravar a tensão sobre a liquidez geral das altcoins.</p>
+<p class="tr">deBridge'in kilit açması tek başına bir olay değil. BeInCrypto'nun sayımına göre, piyasa genelinde 12-19 Temmuz haftasında 660,8 milyon dolarlık yeni token serbest bırakılıyor; Connex (CONX), deBridge (DBR) ve Arbitrum (ARB) bu arzı serbest bırakanlar arasında. Sadece bir gün önce, 16 Temmuz'da Arbitrum da toplam arzın %0,96'sına denk gelen 96,24 milyon token'ı (yaklaşık 8,87 milyon dolar) kilidini açtı. Birden fazla projenin kilit açma takvimi aynı haftada toplandığında, piyasa katılımcıları arasında yaygın bir endişe, bireysel token'lardaki çakışan satış baskısının genel altcoin likiditesi üzerindeki gerilimi artırabileceği yönünde.</p>
+<p class="vi">Đợt mở khóa của deBridge không phải là sự kiện đơn lẻ. Theo thống kê của BeInCrypto, toàn thị trường chứng kiến 660,8 triệu USD token mới được phát hành trong tuần từ 12-19/7, với Connex (CONX), deBridge (DBR) và Arbitrum (ARB) nằm trong số những dự án giải phóng nguồn cung. Chỉ một ngày trước đó, vào 16/7, Arbitrum cũng đã mở khóa 96,24 triệu token — 0,96% tổng nguồn cung, trị giá khoảng 8,87 triệu USD. Khi lịch trình mở khóa của nhiều dự án dồn vào cùng một tuần, mối lo ngại phổ biến trong giới tham gia thị trường là áp lực bán chồng chéo giữa các token riêng lẻ có thể làm trầm trọng thêm căng thẳng lên thanh khoản chung của altcoin.</p>
+
+<p class="ko">앞으로 확인할 지점은 세 가지다. 첫째, 이번 언락 직후 DBR의 거래소 입금량과 가격이 실제로 어떻게 움직이는지. 둘째, 코인마켓캡과 코인게코·토크노미스트 간 유통량 집계 차이가 좁혀지는지, 아니면 계속 벌어지는지. 셋째, 클리프형 언락을 채택한 다른 프로토콜들도 비슷한 시기에 몰릴 경우 알트코인 전반의 유동성에 미치는 누적 효과가 얼마나 큰지다. 아직까지 이번 언락에 따른 단기 가격 급락은 보고되지 않았지만, 클리프 구조 특성상 물량이 실제로 이동해 매도로 이어지기까지는 며칠에서 몇 주가 걸릴 수 있어 성급한 결론은 이르다.</p>
+<p class="en">Three things are worth watching from here. First, how DBR's exchange deposits and price actually move in the days immediately following this release. Second, whether the gap between CoinMarketCap's and CoinGecko/Tokenomist's circulating-supply counts narrows or keeps widening. Third, how large the cumulative effect on overall altcoin liquidity becomes if other protocols with cliff-style unlocks cluster around the same period. No sharp short-term price drop tied to this release has been reported so far, but given how cliff structures work, it can take days to weeks for tokens to actually move into wallets and translate into selling — making it too early to draw firm conclusions.</p>
+<p class="ja">今後確認すべき点は3つある。第一に、今回の放出直後にDBRの取引所入金量と価格が実際にどう動くか。第二に、コインマーケットキャップとコインゲッコー・トークノミストの間の流通量集計の差が縮まるのか、それとも広がり続けるのか。第三に、クリフ型アンロックを採用する他のプロトコルも同時期に集中した場合、アルトコイン全体の流動性に及ぶ累積効果がどれほど大きいかだ。今回の放出に伴う短期的な急落は今のところ報告されていないが、クリフ構造の性質上、物量が実際に移動し売却につながるまでには数日から数週間かかる可能性があり、性急な結論は時期尚早だ。</p>
+<p class="es">A partir de aquí hay tres cosas que vigilar. Primero, cómo se mueven realmente los depósitos en exchanges y el precio de DBR en los días inmediatamente posteriores a esta liberación. Segundo, si la brecha entre los recuentos de suministro circulante de CoinMarketCap y CoinGecko/Tokenomist se estrecha o sigue ampliándose. Tercero, cuán grande se vuelve el efecto acumulado sobre la liquidez general de las altcoins si otros protocolos con desbloqueos tipo cliff se agrupan en el mismo período. Hasta ahora no se ha reportado una caída brusca de precio a corto plazo vinculada a esta liberación, pero dado cómo funcionan las estructuras cliff, puede tardar días o semanas en que los tokens realmente se muevan a billeteras y se traduzcan en ventas, por lo que es demasiado pronto para sacar conclusiones firmes.</p>
+<p class="de">Drei Dinge sind von hier an zu beobachten. Erstens, wie sich die Börsen-Einzahlungen und der Preis von DBR in den Tagen unmittelbar nach dieser Freigabe tatsächlich entwickeln. Zweitens, ob sich die Lücke zwischen den Umlaufmengen-Zahlen von CoinMarketCap und CoinGecko/Tokenomist verringert oder weiter vergrößert. Drittens, wie groß der kumulative Effekt auf die allgemeine Altcoin-Liquidität wird, wenn sich andere Protokolle mit Cliff-Freischaltungen im selben Zeitraum häufen. Bisher wurde kein starker kurzfristiger Preisrückgang im Zusammenhang mit dieser Freigabe gemeldet, aber angesichts der Funktionsweise von Cliff-Strukturen kann es Tage bis Wochen dauern, bis Token tatsächlich in Wallets wandern und sich in Verkäufen niederschlagen — was voreilige Schlussfolgerungen verfrüht macht.</p>
+<p class="fr">Trois choses méritent d'être surveillées à partir de maintenant. Premièrement, comment les dépôts sur les exchanges et le prix de DBR évoluent réellement dans les jours suivant immédiatement cette libération. Deuxièmement, si l'écart entre les décomptes d'offre en circulation de CoinMarketCap et de CoinGecko/Tokenomist se réduit ou continue de se creuser. Troisièmement, quelle sera l'ampleur de l'effet cumulé sur la liquidité globale des altcoins si d'autres protocoles à déverrouillage de type cliff se regroupent sur la même période. Aucune chute de prix marquée à court terme liée à cette libération n'a été signalée jusqu'à présent, mais étant donné le fonctionnement des structures cliff, il peut falloir des jours, voire des semaines, pour que les tokens se déplacent réellement vers des portefeuilles et se traduisent en ventes — ce qui rend les conclusions hâtives prématurées.</p>
+<p class="pt">Três coisas merecem ser observadas daqui em diante. Primeiro, como os depósitos em exchanges e o preço do DBR realmente se movem nos dias imediatamente após essa liberação. Segundo, se a diferença entre as contagens de oferta circulante da CoinMarketCap e da CoinGecko/Tokenomist diminui ou continua aumentando. Terceiro, quão grande se torna o efeito cumulativo sobre a liquidez geral das altcoins se outros protocolos com desbloqueios tipo cliff se concentrarem no mesmo período. Nenhuma queda de preço acentuada de curto prazo ligada a essa liberação foi relatada até agora, mas, dado como as estruturas cliff funcionam, pode levar dias a semanas para que os tokens realmente se movam para carteiras e se traduzam em vendas — tornando conclusões precipitadas prematuras.</p>
+<p class="tr">Buradan itibaren izlenmesi gereken üç şey var. Birincisi, bu açılımın hemen sonrasındaki günlerde DBR'nin borsa yatırımlarının ve fiyatının gerçekte nasıl hareket ettiği. İkincisi, CoinMarketCap ile CoinGecko/Tokenomist arasındaki dolaşımdaki arz sayım farkının daralıp daralmayacağı ya da genişlemeye devam edip etmeyeceği. Üçüncüsü, cliff tarzı kilit açmalar benimseyen diğer protokoller de aynı döneme denk gelirse genel altcoin likiditesi üzerindeki kümülatif etkinin ne kadar büyük olacağı. Şimdiye kadar bu açılımla bağlantılı keskin bir kısa vadeli fiyat düşüşü bildirilmedi, ancak cliff yapılarının işleyiş biçimi göz önüne alındığında, token'ların gerçekten cüzdanlara taşınıp satışa dönüşmesi günler hatta haftalar sürebilir — bu da acele sonuçlar çıkarmayı erken kılıyor.</p>
+<p class="vi">Có ba điều đáng theo dõi từ đây. Thứ nhất, lượng nạp vào sàn giao dịch và giá DBR thực sự biến động ra sao trong những ngày ngay sau đợt phát hành này. Thứ hai, liệu khoảng cách giữa số liệu nguồn cung lưu hành của CoinMarketCap và CoinGecko/Tokenomist có thu hẹp hay tiếp tục nới rộng. Thứ ba, tác động tích lũy lên thanh khoản chung của altcoin sẽ lớn đến đâu nếu các giao thức khác áp dụng kiểu mở khóa cliff cũng dồn vào cùng giai đoạn này. Cho đến nay chưa có báo cáo về việc giá giảm mạnh trong ngắn hạn liên quan đến đợt phát hành này, nhưng xét theo cách hoạt động của cấu trúc cliff, có thể mất vài ngày đến vài tuần để token thực sự di chuyển vào ví và chuyển thành lệnh bán — khiến việc vội vàng kết luận là còn quá sớm.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">DBR 클리프 언락 배분 — 6억1833만개(6.2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">생태계</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191.67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">핵심 기여자</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133.33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">전략적 파트너</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113.33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">디브릿지 재단</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83.33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">커뮤니티·런칭</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83.33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">밸리데이터</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13.33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">총 6억1833만개 · 약 1060만달러 · 6.2%</text>
+  </g>
+</svg>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">DBR Cliff Unlock Breakdown — 618.33M Tokens (6.2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Ecosystem</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191.67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Core Contributors</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133.33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Strategic Partners</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113.33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">deBridge Foundation</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83.33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Community &amp; Launch</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83.33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Validators</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13.33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Total: 618.33M Tokens · ~$10.6M · 6.2% of Supply</text>
+  </g>
+</svg>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">DBRクリフアンロック内訳 — 6億1833万個(6.2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">エコシステム</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191.67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">コア・コントリビューター</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133.33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">戦略的パートナー</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113.33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">ディーブリッジ財団</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83.33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">コミュニティ・ローンチ</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83.33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">バリデーター</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13.33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">合計: 6億1833万個・約1060万ドル・6.2%</text>
+  </g>
+</svg>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Desglose del Desbloqueo Cliff de DBR — 618,33M Tokens (6,2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Ecosistema</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191,67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Colaboradores Principales</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133,33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Socios Estratégicos</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113,33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">Fundación deBridge</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Comunidad y Lanzamiento</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Validadores</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13,33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Total: 618,33M Tokens · ~$10,6M · 6,2% del Suministro</text>
+  </g>
+</svg>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">DBR-Cliff-Freischaltung Nach Kategorie — 618,33M Token (6,2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Ökosystem</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191,67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Core Contributors</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133,33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Strategische Partner</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113,33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">deBridge-Stiftung</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Community &amp; Launch</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Validatoren</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13,33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Gesamt: 618,33M Token · ~10,6 Mio. $ · 6,2% des Angebots</text>
+  </g>
+</svg>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Répartition Du Déverrouillage Cliff DBR — 618,33M Tokens (6,2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Écosystème</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191,67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Contributeurs Principaux</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133,33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Partenaires Stratégiques</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113,33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">Fondation deBridge</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Communauté et Lancement</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Validateurs</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13,33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Total : 618,33M Tokens · ~10,6M$ · 6,2% de l'Offre</text>
+  </g>
+</svg>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Detalhamento Do Desbloqueio Cliff DBR — 618,33M Tokens (6,2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Ecossistema</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191,67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Contribuidores Principais</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133,33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Parceiros Estratégicos</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113,33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">Fundação deBridge</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Comunidade e Lançamento</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Validadores</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13,33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Total: 618,33M Tokens · ~US$ 10,6M · 6,2% da Oferta</text>
+  </g>
+</svg>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">DBR Cliff Kilit Açma Dağılımı — 618,33M Token (%6,2)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Ekosistem</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191,67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Çekirdek Katkıcılar</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133,33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Stratejik Ortaklar</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113,33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">deBridge Vakfı</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Topluluk ve Lansman</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Doğrulayıcılar</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13,33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Toplam: 618,33M Token · ~10,6M$ · Arzın %6,2'si</text>
+  </g>
+</svg>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Phân Bổ Mở Khóa Cliff DBR — 618,33M Token (6,2%)</text>
+  <g font-family="sans-serif">
+    <text x="20" y="70" fill="#e4e4e7" font-size="13.5">Hệ sinh thái</text>
+    <rect x="20" y="78" width="500" height="24" rx="4" fill="#06b6d4"/>
+    <text x="530" y="95" fill="#f4f4f5" font-size="13.5" font-weight="700">191,67M</text>
+    <text x="20" y="128" fill="#e4e4e7" font-size="13.5">Người đóng góp cốt lõi</text>
+    <rect x="20" y="136" width="348" height="24" rx="4" fill="#22d3ee"/>
+    <text x="378" y="153" fill="#f4f4f5" font-size="13.5" font-weight="700">133,33M</text>
+    <text x="20" y="186" fill="#e4e4e7" font-size="13.5">Đối tác chiến lược</text>
+    <rect x="20" y="194" width="296" height="24" rx="4" fill="#38bdf8"/>
+    <text x="326" y="211" fill="#f4f4f5" font-size="13.5" font-weight="700">113,33M</text>
+    <text x="20" y="244" fill="#e4e4e7" font-size="13.5">Quỹ deBridge</text>
+    <rect x="20" y="252" width="217" height="24" rx="4" fill="#0ea5e9"/>
+    <text x="247" y="269" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="302" fill="#e4e4e7" font-size="13.5">Cộng đồng &amp; Ra mắt</text>
+    <rect x="20" y="310" width="217" height="24" rx="4" fill="#0284c7"/>
+    <text x="247" y="327" fill="#f4f4f5" font-size="13.5" font-weight="700">83,33M</text>
+    <text x="20" y="360" fill="#e4e4e7" font-size="13.5">Validator</text>
+    <rect x="20" y="368" width="35" height="24" rx="4" fill="#0369a1"/>
+    <text x="65" y="385" fill="#f4f4f5" font-size="13.5" font-weight="700">13,33M</text>
+    <rect x="20" y="410" width="660" height="36" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="35" y="433" fill="#93c5fd" font-size="14" font-weight="700">Tổng: 618,33M Token · ~10,6 Triệu USD · 6,2% Nguồn Cung</text>
+  </g>
+</svg>
+</div>
+
+<div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> 디브릿지(deBridge) DBR이 7월17일 총발행량의 6.2%(6억1833만개, 약 1060만달러)를 클리프 방식으로 한꺼번에 언락했다. (1) 언락 직후 거래소 입금량과 가격 변화, (2) 코인마켓캡과 코인게코·토크노미스트 간 유통량 집계 차이의 향방, (3) 같은 주 아비트럼 등 다른 프로젝트의 언락과 겹치며 알트코인 유동성에 미치는 누적 효과를 지켜봐야 한다.</div>
+<div class="box en">💡 <strong>What to watch now:</strong> deBridge's DBR unlocked 6.2% of total supply (618.33 million tokens, about $10.6 million) in a single cliff release on July 17. Watch (1) exchange deposits and price movement right after the unlock, (2) whether the circulating-supply gap between CoinMarketCap and CoinGecko/Tokenomist narrows or widens, and (3) the cumulative effect on altcoin liquidity as this overlaps with other projects' unlocks, including Arbitrum's the same week.</div>
+<div class="box ja">💡 <strong>今後注視すべきこと:</strong> ディーブリッジ(deBridge)のDBRが7月17日、総発行量の6.2%(6億1833万個、約1060万ドル)をクリフ方式で一括アンロックした。(1)アンロック直後の取引所入金量と価格変動、(2)コインマーケットキャップとコインゲッコー・トークノミスト間の流通量集計差の行方、(3)同じ週のアービトラムなど他プロジェクトのアンロックと重なることでアルトコイン流動性に及ぶ累積効果を注視すべきだ。</div>
+<div class="box es">💡 <strong>Qué vigilar ahora:</strong> El DBR de deBridge desbloqueó el 6,2% de la oferta total (618,33 millones de tokens, unos 10,6 millones de dólares) en una única liberación tipo cliff el 17 de julio. Vigile (1) los depósitos en exchanges y el movimiento del precio justo después del desbloqueo, (2) si la brecha de suministro circulante entre CoinMarketCap y CoinGecko/Tokenomist se estrecha o se amplía, y (3) el efecto acumulado sobre la liquidez de las altcoins a medida que esto se superpone con los desbloqueos de otros proyectos, incluido el de Arbitrum en la misma semana.</div>
+<div class="box de">💡 <strong>Worauf jetzt zu achten ist:</strong> DBR von deBridge hat am 17. Juli 6,2% des Gesamtangebots (618,33 Millionen Token, rund 10,6 Millionen Dollar) in einer einzigen Cliff-Freigabe freigeschaltet. Beobachten Sie (1) Börsen-Einzahlungen und Preisbewegungen direkt nach der Freischaltung, (2) ob sich die Umlaufmengen-Lücke zwischen CoinMarketCap und CoinGecko/Tokenomist verringert oder vergrößert, und (3) den kumulativen Effekt auf die Altcoin-Liquidität, da dies sich mit Freischaltungen anderer Projekte überschneidet, einschließlich der von Arbitrum in derselben Woche.</div>
+<div class="box fr">💡 <strong>Ce qu'il faut surveiller maintenant :</strong> Le DBR de deBridge a débloqué 6,2% de l'offre totale (618,33 millions de tokens, environ 10,6 millions de dollars) en une seule libération cliff le 17 juillet. Surveillez (1) les dépôts sur les exchanges et le mouvement du prix juste après le déverrouillage, (2) si l'écart d'offre en circulation entre CoinMarketCap et CoinGecko/Tokenomist se réduit ou s'élargit, et (3) l'effet cumulé sur la liquidité des altcoins alors que cela chevauche les déverrouillages d'autres projets, dont celui d'Arbitrum la même semaine.</div>
+<div class="box pt">💡 <strong>O que observar agora:</strong> O DBR da deBridge desbloqueou 6,2% da oferta total (618,33 milhões de tokens, cerca de US$ 10,6 milhões) em uma única liberação cliff em 17 de julho. Observe (1) os depósitos em exchanges e o movimento do preço logo após o desbloqueio, (2) se a diferença de oferta circulante entre CoinMarketCap e CoinGecko/Tokenomist diminui ou aumenta, e (3) o efeito cumulativo sobre a liquidez das altcoins à medida que isso se sobrepõe aos desbloqueios de outros projetos, incluindo o da Arbitrum na mesma semana.</div>
+<div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> deBridge'in DBR'si, 17 Temmuz'da toplam arzın %6,2'sini (618,33 milyon token, yaklaşık 10,6 milyon dolar) tek bir cliff açılımıyla kilidini açtı. (1) Kilit açmanın hemen ardından borsa yatırımlarını ve fiyat hareketini, (2) CoinMarketCap ile CoinGecko/Tokenomist arasındaki dolaşımdaki arz farkının daralıp daralmayacağını ve (3) bunun aynı hafta Arbitrum dahil diğer projelerin kilit açmalarıyla çakışmasının altcoin likiditesi üzerindeki kümülatif etkisini izleyin.</div>
+<div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> DBR của deBridge đã mở khóa 6,2% tổng nguồn cung (618,33 triệu token, khoảng 10,6 triệu USD) trong một đợt phát hành kiểu cliff duy nhất vào ngày 17/7. Hãy theo dõi (1) lượng nạp vào sàn giao dịch và biến động giá ngay sau khi mở khóa, (2) liệu khoảng cách nguồn cung lưu hành giữa CoinMarketCap và CoinGecko/Tokenomist có thu hẹp hay mở rộng, và (3) tác động tích lũy lên thanh khoản altcoin khi điều này trùng với đợt mở khóa của các dự án khác, bao gồm cả Arbitrum trong cùng tuần.</div>
+
+<div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="330" fill="#f4f4f5" font-size="150" font-weight="bold">$10.6M</text>
+  <text x="60" y="400" fill="#06b6d4" font-size="42" font-weight="bold">DBR UNLOCK</text>
+  <text x="60" y="460" fill="#a1a1aa" font-size="46" font-weight="bold">6.2%</text>
+</svg></div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 루트데이터(RootData), 비트겟뉴스(Bitget News), 오데일리(Odaily), 크립토랭크(CryptoRank), 비인크립토(BeInCrypto), 토크노미스트(Tokenomist), 코인마켓캡(CoinMarketCap), 코인게코(CoinGecko), 피멕스 아카데미(Phemex Academy).</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: ルートデータ(RootData)、ビットゲットニュース(Bitget News)、オデイリー(Odaily)、クリプトランク(CryptoRank)、ビーインクリプト(BeInCrypto)、トークノミスト(Tokenomist)、コインマーケットキャップ(CoinMarketCap)、コインゲッコー(CoinGecko)、フェメックス・アカデミー(Phemex Academy)。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: RootData, Bitget News, Odaily, CryptoRank, BeInCrypto, Tokenomist, CoinMarketCap, CoinGecko, Phemex Academy.</p>
+<?php require __DIR__.'/_footer.php'; ?>

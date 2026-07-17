@@ -972,4 +972,549 @@ Vùng an toàn: spread ≤ 0,02 (hành vi đồng nhất, không có tín hiệu
 Hiện tại: STH chốt lời đáng kể so với LTH → phân phối có thể đang bắt đầu.`,
     ind_sell_sopr:'STH-SOPR — Chốt lời', ind_sell_cbp:'Coinbase Premium — FOMO',
   },
+  id: {
+    exchBannerT:"Mulai dari bursa mana?", exchBannerD:"Bandingkan Binance & Bybit + diskon biaya",
+    // NAV
+    navInsights:'Blog',
+    navGlossary:'Glosarium',
+    footerPrivacy:'Kebijakan Privasi', footerTerms:'Ketentuan Layanan', footerDisclaimer:'Bukan nasihat keuangan',
+    whyBtnLabel:'Kenapa?', whyTopTitle:'Kontributor teratas', whyBottomTitle:'Faktor penahan', histToday:'Hari ini', histYesterday:'Kemarin', histWeekAgo:'Minggu lalu',
+    buyTiming:'📈 Timing LONG', sellTiming:'📉 Timing SHORT',
+    livePriceLabel:'Harga · Binance', fgLabel:'Fear & Greed',
+    rpLabel:'Selisih Realized Price', maLabel:'MA 200M (ref)',
+    splitPlan:'Rencana Entry Bertahap', splitTitle:'Alokasi per Tahap',
+    splitStep1:(s)=>`Sekarang (Skor ${s})`, splitStep2:'Pemulihan Hash Ribbon',
+    splitStep3:'Coinbase Premium → Positif', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Diperbarui',
+    footerSources:'Diambil otomatis', footerDisclaimer2:'Scraping on-chain dapat memakai nilai cadangan. Riwayat skor disimpan di localStorage browser. Bukan nasihat keuangan.',
+    tkDomLabel:'Dominasi BTC', tkMcapLabel:'Kapitalisasi Pasar', tkVolLabel:'Volume 24j', bkTotalLabel:'Total → /10',
+    seoH1:'Skor Timing Beli/Jual Bitcoin & Altcoin Real-Time', seoSub:'Sinyal timing 0–10 real-time gratis yang menggabungkan indikator on-chain.',
+    // Mode labels
+    modeTitle_buy:'SKOR TIMING LONG', modeTitle_sell:'PENGUKUR TEKANAN JUAL',
+    modeSub_buy:'Model entry long di dasar siklus', modeSub_sell:'Model timing entry short',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Cara membaca Skor Jual',
+    sellExplain_low:'🟢 RENDAH (0~3): Pasar di zona dasar. Tidak ada sinyal keluar. Tahan atau akumulasi.',
+    sellExplain_mid:'🟡 SEDANG (4~6): Pasar memanas. Pantau untuk pengurangan sebagian.',
+    sellExplain_high:'🔴 TINGGI (7~10): Sinyal jual kuat. Keluar dari long / Pertimbangkan entry short.',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Selisih Realized Price',
+    ind_alt_valuation:'Harga vs Realized Est. (200W MA)', ind_alt_drawdown:'Penurunan dari ATH',
+    tab_dashboard:'Langsung', tab_coins:'Cari Koin', tab_blog:'Blog',
+    ind_alt_short_val:'Harga vs Realized Est. (Short)', ind_alt_short_ath:'Kedekatan ATH — Overheat',
+    ind_rsi:'RSI (14h)', ind_vol_change:'Akselerasi Volume (15m vs 1j/4j)', ind_btc_corr_tech:'Korelasi BTC (30h)',
+    ind_buy_pressure:'Volume Live Dominasi Beli — FOMO', ind_sell_pressure:'Volume Live Dominasi Jual — Kapitulasi',
+    desc_buy_pressure:`Proporsi volume candle 15 menit terakhir yang didorong pembelian agresif. Rasio tinggi (65%+) dipadu lonjakan volume dan candle hijau bisa menandakan overheat karena FOMO dekat puncak lokal. Memakai data 15 menit alih-alih harian, sehingga mencerminkan kondisi hampir real-time (jeda 15mnt–1j vs. hingga 24j untuk volume harian).`,
+    desc_sell_pressure:`Proporsi volume candle 15 menit terakhir yang didorong penjualan agresif. Rasio tinggi (58%+) dipadu lonjakan volume dan candle merah bisa menandakan penjualan kapitulasi yang sering mendahului pembalikan dekat dasar lokal. Memakai data 15 menit alih-alih harian, sehingga mencerminkan kondisi hampir real-time.`,
+    desc_rsi:`Relative Strength Index selama 14 hari, osilator momentum yang mengukur kecepatan dan besarnya perubahan harga terkini. RSI di bawah 30 menandakan kondisi oversold (sering jadi sinyal dasar), sedangkan di atas 70 menandakan overbought (sering jadi sinyal puncak). Berlaku sama untuk semua koin karena murni berbasis harga.`,
+    desc_vol_change:`Membandingkan volume candle 15 menit terakhir dengan rata-rata 1 jam dan 4 jam. Lonjakan besar dipadu harga dekat titik rendah bisa menandakan penjualan kapitulasi yang sering mendahului pembalikan. Lonjakan dekat titik tinggi bisa menandakan distribusi oleh pemegang besar. Memakai data 15 menit alih-alih harian mencerminkan kondisi hampir real-time.`,
+    desc_btc_corr_tech:`Koefisien korelasi Pearson antara return harian koin ini dengan Bitcoin selama 30 hari terakhir. Korelasi rendah (di bawah 0,5) menunjukkan koin bergerak independen dari BTC, yang bisa mengindikasikan kekuatan atau kelemahan khas koin itu, bukan pergerakan pasar secara luas.`,
+    desc_alt_short_val:`Indikator estimasi overvaluasi untuk altcoin dalam mode SHORT. Mengukur seberapa jauh harga saat ini di atas realized price estimasi — makin tinggi, makin overheat dan mendukung SHORT. ⚠️ Realized price adalah estimasi, bukan data on-chain langsung.`,
+    desc_alt_short_ath:`Jarak dari all-time high (ATH), dipakai sebagai sinyal overheat untuk timing SHORT altcoin. Berada dekat ATH (dalam -15%) secara historis bertepatan dengan puncak lokal dan meningkatnya peluang SHORT.`,
+    ind_btc_corr:'Dominasi BTC — Siklus Alt', desc_btc_corr:`Melacak dominasi kapitalisasi pasar Bitcoin sebagai proksi posisi siklus altcoin yang lebih luas. Saat dominasi BTC tinggi (55%+), modal terkonsentrasi di Bitcoin dan altcoin cenderung tertinggal — sering menandakan siklus alt belum dimulai. Saat dominasi turun (di bawah 50%), modal berputar ke altcoin, secara historis dikaitkan dengan "alt season".`,
+    desc_alt_valuation:`Indikator valuasi estimasi untuk altcoin. Tidak seperti BTC/ETH/BNB, koin ini tidak punya data MVRV Z-Score on-chain yang andal, jadi kami memakai harga vs. realized price estimasi sebagai proksi.
+
+⚠️ Penting: realized price estimasi koin ini didekati memakai rata-rata bergerak 200 minggu (200W MA), bukan data on-chain langsung. 200W MA adalah proksi yang banyak dipakai dan mengikuti realized price on-chain secara dekat, tetapi berbeda dari data presisi. Pakai hanya sebagai sinyal arah.
+
+Di bawah realized price estimasi = potensi zona undervaluasi.`,
+    desc_alt_drawdown:`Jarak dari all-time high (ATH), dipakai sebagai pengganti NUPL pada altcoin tanpa data untung/rugi on-chain yang andal.
+
+Penurunan dalam (70%+) dari ATH secara historis bertepatan dengan dasar siklus untuk altcoin utama, meski ini sangat bervariasi per koin.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Selisih Futures-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% Suplai LTH', ind_dom:'Dominasi BTC',
+    ind_halving:'Siklus Halving',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Overheat', ind_sell_nupl:'NUPL — Tingkat Keserakahan',
+    ind_sell_funding:'Premium Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Spread SOPR LTH-STH mengukur jarak antara perilaku ambil untung pemegang jangka panjang dan jangka pendek.
+Spread positif besar berarti pemegang jangka pendek merealisasikan untung jauh lebih cepat daripada jangka panjang — sinyal awal distribusi.
+
+Zona SHORT: spread ≥ 0,15 (STH menjual agresif sementara LTH menahan)
+Zona aman: spread ≤ 0,02 (perilaku selaras, tanpa sinyal distribusi)
+
+Saat ini: STH merealisasikan untung signifikan dibanding LTH → distribusi mungkin mulai.`,
+    ind_sell_sopr:'STH-SOPR — Ambil Untung', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'VALUASI ON-CHAIN', sec_miner:'PENAMBANG / SENTIMEN',
+    sec_inst:'ALIRAN INSTITUSIONAL', sec_cycle:'POSISI SIKLUS',
+    sec_breakdown:'Rincian Skor', sec_triggers:'Pemicu Level Berikutnya',
+    sec_sellTriggers:'Pemicu Sinyal Jual', sec_macro:'PERINGATAN MAKRO',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'SEMUA →', loadingInsights:'Memuat...', loadMoreInsights:'Muat Lagi', collapseInsights:'Tutup',
+    sec_history:'Riwayat Skor', sec_histSub:'Disimpan lokal di browser',
+    histH:'Jam', histD:'Hari', histM:'Bulan',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"MVRV Z Score mengukur seberapa overvalued atau undervalued Bitcoin relatif terhadap realized value-nya. \n• < 0: Historis undervalued (zona dasar) → Beli kuat\n• 0~1: Sedikit undervalued → Zona akumulasi  \n• 1~3: Nilai wajar → Netral\n• > 3: Overvalued (zona puncak) → Pertimbangkan jual\nFase saat ini: 0,27 — Dekat dasar. Historis, nilai di bawah 0,5 mendahului bull run besar.",
+    desc_nupl:"NUPL (Net Unrealized Profit/Loss) menunjukkan kondisi untung/rugi keseluruhan semua pemegang BTC.\n• < 0% (Kapitulasi): Pemegang merugi → Sinyal beli ekstrem\n• 0~25% (Harapan/Takut): Pulih dari dasar → Zona beli  \n• 25~50% (Optimisme): Tengah siklus → Netral\n• 50~75% (Keyakinan/Serakah): Akhir siklus → Pantau\n• > 75% (Euforia): Puncak keserakahan → Sinyal jual",
+    desc_realized:"Menunjukkan seberapa jauh harga saat ini dari basis biaya rata-rata semua pemegang BTC (Realized Price).\n• Di bawah 0%: Harga di bawah biaya rata-rata → Zona panik, beli terkuat\n• 0~5%: Dekat realized price → Entry ideal\n• 5~20%: Premium sedang → Bisa diterima\n• > 20%: Premium tinggi → Hati-hati",
+    desc_hash:"Hash Ribbon melacak momentum hashrate penambangan Bitcoin (rata-rata bergerak 30 hari vs 60 hari).\n• Kapitulasi: Penambang lemah berhenti (30MA < 60MA) → Dasar terbentuk\n• Recovery Cross: 30MA memotong ke atas 60MA → Sinyal beli terdepan paling andal (2~4 minggu lebih awal)\nAkurasi historis: Menandai dengan tepat dasar 2016, 2018, 2020, 2022.",
+    desc_sopr:"SOPR Pemegang Jangka Pendek mengukur apakah pembeli baru menjual untung atau rugi.\n• < 0,95: Panik jual dengan rugi berat → Kapitulasi = sinyal beli\n• 0,95~1,0: Realisasi rugi ringan → Dekat dasar\n• 1,0~1,03: Ambil untung netral\n• > 1,05: Ambil untung kuat → Distribusi = sinyal puncak",
+    desc_funding:"Selisih Futures-Spot = (Harga Mark Futures - Harga Indeks Spot) / Harga Spot\nMenunjukkan posisi leverage real-time tanpa jeda settlement 8 jam.\n• Negatif (backwardation): Futures lebih murah dari spot → Short berlebih → Sinyal beli terdepan\n• ±0,01%: Netral (rentang normal BTC)\n• > 0,05%: Contango → Long berlebih → Hati-hati\n• > 0,15%: Contango ekstrem → Sinyal puncak",
+    desc_cbp:"Coinbase Premium = (Harga BTC Coinbase - Harga BTC Binance) / Harga Binance\nMencerminkan permintaan institusi AS real-time. Mendahului data aliran ETF 2~3 hari.\n• Positif: Institusi AS membeli → Bullish\n• Dekat nol: Mengamati/netral\n• Negatif: Institusi menepi → Bearish jangka pendek\nSaat ini: Negatif (46+ hari beruntun) → Institusi menunggu kejelasan makro.",
+    desc_lth:"% Suplai Pemegang Jangka Panjang = persentase suplai BTC di alamat tidak aktif 155+ hari.\n• > 75%: Whale akumulasi agresif → Sinyal beli kuat\n• 70~75%: Akumulasi normal\n• < 70%: Distribusi (whale menjual)\nLevel rekor (79%) berarti smart money tidak menjual — supply shock datang saat permintaan kembali.",
+    desc_dom:"Dominasi BTC = kapitalisasi pasar BTC / total kapitalisasi pasar kripto\nNaik saat modal mengalir dari altcoin ke Bitcoin — pola khas sebelum bull run besar.\n• 55~63% (basis CoinGecko): BTC season → Modal konsolidasi ke BTC → Zona beli\n• < 50%: Alt season → Risk on\n• > 65%: Dominasi BTC ekstrem → Bisa menandakan rotasi alt mendekat",
+    desc_halving:"Halving Bitcoin memangkas hadiah penambangan 50% tiap ~4 tahun, menciptakan supply shock.\nTiming dasar historis:\n• Dasar 2015: 18 bulan sebelum halving 2016\n• Dasar 2018: 17 bulan sebelum halving 2020  \n• Dasar 2022: 17 bulan sebelum halving 2024\n• Saat ini: ~22 bulan sebelum halving April 2028 → Di dalam jendela inti dasar.",
+    // Alert labels
+    alertTitle:'Pengaturan Alarm',
+    alertDesc:'Dapatkan notifikasi via push browser + kilatan visual + suara saat kondisi terpenuhi.',
+    alertBuySection:'📈 PEMICU LONG', alertSellSection:'📉 PEMICU SHORT',
+    a2:'Skor Long ≥ 6.0 (Mulai bertahap)',
+    a3:'Skor Long ≥ 7.0 (Tambah posisi)', a4:'Skor Long ≥ 8.0 (Beli agresif)',
+    a5:'MVRV Z ≤ 0 — Zona dasar penuh', a6:'NUPL di bawah 0% — Kapitulasi',
+    a7:'Selisih futures jadi negatif (backwardation)', a8:'Recovery cross Hash Ribbon',
+    a9:'Coinbase Premium jadi positif',
+    b1:'Skor Short ≥ 6.0 (Siapkan short)', b2:'Skor Short ≥ 7.0 (Tambah short)',
+    b3:'Skor Short ≥ 8.0 (Short penuh)', b4:'MVRV Z ≥ 3.5 — Zona euforia',
+    b5:'NUPL ≥ 75% — Serakah ekstrem', b6:'Fear & Greed ≥ 80',
+    b7:'Contango futures ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Alarm saat harga turun di bawah $', priceAbove:'Alarm saat harga naik di atas $',
+    enableNotif:'Aktifkan Notifikasi Browser',
+    ind_sell_lth:'Suplai LTH — Distribusi', ind_sell_dom:'Dominasi BTC — Risiko',
+    ind_sell_halving:'Halving — Fase Siklus', ind_sell_ath:'Kedekatan ATH — Risiko Puncak',
+    ind_sell_mvrv:'MVRV Z — Overheat', ind_sell_nupl:'NUPL — Keserakahan',
+    ind_sell_funding:'Premium Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Spread SOPR LTH-STH mengukur jarak antara perilaku ambil untung pemegang jangka panjang dan jangka pendek.
+Spread positif besar berarti pemegang jangka pendek merealisasikan untung jauh lebih cepat daripada jangka panjang — sinyal awal distribusi.
+
+Zona SHORT: spread ≥ 0,15 (STH menjual agresif sementara LTH menahan)
+Zona aman: spread ≤ 0,02 (perilaku selaras, tanpa sinyal distribusi)
+
+Saat ini: STH merealisasikan untung signifikan dibanding LTH → distribusi mungkin mulai.`,
+    ind_sell_sopr:'STH-SOPR — Ambil Untung', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  pl: {
+    exchBannerT:"Od której giełdy zacząć?", exchBannerD:"Porównaj Binance i Bybit + zniżka na prowizje",
+    // NAV
+    navInsights:'Blog',
+    navGlossary:'Słownik',
+    footerPrivacy:'Polityka Prywatności', footerTerms:'Warunki Usługi', footerDisclaimer:'To nie porada finansowa',
+    whyBtnLabel:'Dlaczego?', whyTopTitle:'Główni sprawcy wzrostu', whyBottomTitle:'Czynniki hamujące', histToday:'Dziś', histYesterday:'Wczoraj', histWeekAgo:'Tydzień temu',
+    buyTiming:'📈 Timing LONG', sellTiming:'📉 Timing SHORT',
+    livePriceLabel:'Cena · Binance', fgLabel:'Fear & Greed',
+    rpLabel:'Różnica Realized Price', maLabel:'MA 200T (ref)',
+    splitPlan:'Plan Wejścia Etapami', splitTitle:'Alokacja wg Etapu',
+    splitStep1:(s)=>`Teraz (Wynik ${s})`, splitStep2:'Odbicie Hash Ribbon',
+    splitStep3:'Coinbase Premium → Dodatni', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Zaktualizowano',
+    footerSources:'Pobierane automatycznie', footerDisclaimer2:'Scraping on-chain może używać wartości zapasowych. Historia wyników zapisana w localStorage przeglądarki. To nie porada finansowa.',
+    tkDomLabel:'Dominacja BTC', tkMcapLabel:'Kapitalizacja', tkVolLabel:'Wolumen 24h', bkTotalLabel:'Suma → /10',
+    seoH1:'Wynik Timingu Kupna/Sprzedaży Bitcoina i Altcoinów w Czasie Rzeczywistym', seoSub:'Darmowy sygnał timingu 0–10 w czasie rzeczywistym łączący wskaźniki on-chain.',
+    // Mode labels
+    modeTitle_buy:'WYNIK TIMINGU LONG', modeTitle_sell:'MIERNIK PRESJI SPRZEDAŻY',
+    modeSub_buy:'Model wejścia long na dnie cyklu', modeSub_sell:'Model timingu wejścia short',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Jak czytać Wynik Sprzedaży',
+    sellExplain_low:'🟢 NISKI (0~3): Rynek w strefie dna. Brak sygnału wyjścia. Trzymaj lub akumuluj.',
+    sellExplain_mid:'🟡 ŚREDNI (4~6): Rynek się rozgrzewa. Obserwuj pod kątem częściowej redukcji.',
+    sellExplain_high:'🔴 WYSOKI (7~10): Silny sygnał sprzedaży. Wyjdź z long / Rozważ wejście short.',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Różnica Realized Price',
+    ind_alt_valuation:'Cena vs Realized Szac. (200W MA)', ind_alt_drawdown:'Spadek od ATH',
+    tab_dashboard:'Na żywo', tab_coins:'Znajdź', tab_blog:'Blog',
+    ind_alt_short_val:'Cena vs Realized Szac. (Short)', ind_alt_short_ath:'Bliskość ATH — Przegrzanie',
+    ind_rsi:'RSI (14d)', ind_vol_change:'Przyspieszenie Wolumenu (15m vs 1h/4h)', ind_btc_corr_tech:'Korelacja z BTC (30d)',
+    ind_buy_pressure:'Wolumen na Żywo z Przewagą Kupna — FOMO', ind_sell_pressure:'Wolumen na Żywo z Przewagą Sprzedaży — Kapitulacja',
+    desc_buy_pressure:`Udział wolumenu najnowszych 15-minutowych świec napędzany agresywnym kupnem. Wysoki wskaźnik (65%+) w połączeniu ze skokiem wolumenu i zieloną świecą może sygnalizować przegrzanie napędzane FOMO blisko lokalnego szczytu. Używa danych 15-minutowych zamiast dziennych, więc odzwierciedla warunki niemal w czasie rzeczywistym (opóźnienie 15min–1h vs. do 24h dla wolumenu dziennego).`,
+    desc_sell_pressure:`Udział wolumenu najnowszych 15-minutowych świec napędzany agresywną sprzedażą. Wysoki wskaźnik (58%+) w połączeniu ze skokiem wolumenu i czerwoną świecą może sygnalizować sprzedaż kapitulacyjną, która często poprzedza odwrócenie blisko lokalnego dna. Używa danych 15-minutowych zamiast dziennych, więc odzwierciedla warunki niemal w czasie rzeczywistym.`,
+    desc_rsi:`Relative Strength Index z 14 dni, oscylator momentum mierzący prędkość i wielkość ostatnich zmian ceny. RSI poniżej 30 wskazuje wyprzedanie (często sygnał dna), a powyżej 70 wykupienie (często sygnał szczytu). Stosuje się jednakowo do wszystkich monet, bo opiera się wyłącznie na cenie.`,
+    desc_vol_change:`Porównuje wolumen najnowszej 15-minutowej świecy ze średnimi z 1 godziny i 4 godzin. Duży skok w połączeniu z ceną blisko minimum może sygnalizować sprzedaż kapitulacyjną poprzedzającą odwrócenie. Skok blisko maksimum może sygnalizować dystrybucję przez dużych posiadaczy. Użycie danych 15-minutowych zamiast dziennych odzwierciedla warunki niemal w czasie rzeczywistym.`,
+    desc_btc_corr_tech:`Współczynnik korelacji Pearsona między dziennymi zwrotami tej monety a Bitcoinem w ciągu ostatnich 30 dni. Niska korelacja (poniżej 0,5) sugeruje, że moneta porusza się niezależnie od BTC, co może wskazywać na siłę lub słabość specyficzną dla monety, a nie na szeroki ruch rynku.`,
+    desc_alt_short_val:`Szacunkowy wskaźnik przewartościowania altcoinów w trybie SHORT. Mierzy, jak daleko obecna cena znajduje się powyżej szacowanej realized price — im wyżej, tym bardziej przegrzane i sprzyjające SHORT. ⚠️ Realized price to szacunek, nie dane on-chain na żywo.`,
+    desc_alt_short_ath:`Odległość od all-time high (ATH), używana jako sygnał przegrzania dla timingu SHORT altcoinów. Bliskość ATH (w granicach -15%) historycznie zbiega się z lokalnymi szczytami i większą korzyścią dla SHORT.`,
+    ind_btc_corr:'Dominacja BTC — Cykl Alt', desc_btc_corr:`Śledzi dominację kapitalizacji Bitcoina jako wskaźnik zastępczy pozycji szerszego cyklu altcoinów. Gdy dominacja BTC jest wysoka (55%+), kapitał koncentruje się w Bitcoinie, a altcoiny zwykle radzą sobie gorzej — często oznaka, że cykl alt jeszcze się nie zaczął. Gdy dominacja spada (poniżej 50%), kapitał przepływa do altcoinów, co historycznie wiąże się z "alt season".`,
+    desc_alt_valuation:`Szacunkowy wskaźnik wyceny altcoinów. W przeciwieństwie do BTC/ETH/BNB, ta moneta nie ma wiarygodnych danych MVRV Z-Score on-chain, więc używamy ceny vs. szacowanej realized price jako wskaźnika zastępczego.
+
+⚠️ Ważne: szacowana realized price tej monety jest przybliżana za pomocą 200-tygodniowej średniej kroczącej (200W MA), a nie danych on-chain na żywo. 200W MA to szeroko stosowany wskaźnik zastępczy blisko śledzący realized price on-chain, ale różni się od danych precyzyjnych. Używaj tylko jako sygnału kierunkowego.
+
+Poniżej szacowanej realized price = potencjalna strefa niedowartościowania.`,
+    desc_alt_drawdown:`Odległość od all-time high (ATH), używana jako zamiennik NUPL dla altcoinów bez wiarygodnych danych zysk/strata on-chain.
+
+Głębokie spadki (70%+) od ATH historycznie zbiegały się z dnami cyklu dla głównych altcoinów, choć znacznie różni się to w zależności od monety.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Różnica Futures-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% Podaży LTH', ind_dom:'Dominacja BTC',
+    ind_halving:'Cykl Halvingu',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Przegrzanie', ind_sell_nupl:'NUPL — Poziom Chciwości',
+    ind_sell_funding:'Premia Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Spread SOPR LTH-STH mierzy różnicę między zachowaniem realizacji zysków posiadaczy długo- i krótkoterminowych.
+Duży dodatni spread oznacza, że posiadacze krótkoterminowi realizują zyski znacznie szybciej niż długoterminowi — wczesny sygnał dystrybucji.
+
+Strefa SHORT: spread ≥ 0,15 (STH sprzedaje agresywnie, gdy LTH trzyma)
+Strefa bezpieczna: spread ≤ 0,02 (spójne zachowanie, brak sygnału dystrybucji)
+
+Obecnie: STH realizuje znaczny zysk względem LTH → dystrybucja może się zaczynać.`,
+    ind_sell_sopr:'STH-SOPR — Realizacja Zysków', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'WYCENA ON-CHAIN', sec_miner:'GÓRNICY / SENTYMENT',
+    sec_inst:'PRZEPŁYW INSTYTUCJONALNY', sec_cycle:'POZYCJA CYKLU',
+    sec_breakdown:'Rozkład Wyniku', sec_triggers:'Wyzwalacze Kolejnego Poziomu',
+    sec_sellTriggers:'Wyzwalacze Sygnału Sprzedaży', sec_macro:'OSTRZEŻENIA MAKRO',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'WSZYSTKO →', loadingInsights:'Ładowanie...', loadMoreInsights:'Załaduj Więcej', collapseInsights:'Zwiń',
+    sec_history:'Historia Wyniku', sec_histSub:'Zapisana lokalnie w przeglądarce',
+    histH:'Godz.', histD:'Dzień', histM:'Miesiąc',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"MVRV Z Score mierzy, jak bardzo Bitcoin jest przewartościowany lub niedowartościowany względem swojej realized value. \n• < 0: Historycznie niedowartościowany (strefa dna) → Silne kupno\n• 0~1: Lekko niedowartościowany → Strefa akumulacji  \n• 1~3: Wartość godziwa → Neutralnie\n• > 3: Przewartościowany (strefa szczytu) → Rozważ sprzedaż\nObecna faza: 0,27 — Blisko dna. Historycznie wartości poniżej 0,5 poprzedzały wielkie hossy.",
+    desc_nupl:"NUPL (Net Unrealized Profit/Loss) pokazuje ogólny stan zysku/straty wszystkich posiadaczy BTC.\n• < 0% (Kapitulacja): Posiadacze na stracie → Ekstremalny sygnał kupna\n• 0~25% (Nadzieja/Strach): Odbicie od dna → Strefa kupna  \n• 25~50% (Optymizm): Środek cyklu → Neutralnie\n• 50~75% (Wiara/Chciwość): Późny cykl → Obserwuj\n• > 75% (Euforia): Szczyt chciwości → Sygnał sprzedaży",
+    desc_realized:"Pokazuje, jak daleko obecna cena jest od średniej bazy kosztowej wszystkich posiadaczy BTC (Realized Price).\n• Poniżej 0%: Cena poniżej średniego kosztu → Strefa paniki, najsilniejsze kupno\n• 0~5%: Blisko realized price → Idealne wejście\n• 5~20%: Umiarkowana premia → Akceptowalne\n• > 20%: Wysoka premia → Ostrożnie",
+    desc_hash:"Hash Ribbon śledzi momentum hashrate wydobycia Bitcoina (średnia 30-dniowa vs 60-dniowa).\n• Kapitulacja: Słabi górnicy wyłączają się (30MA < 60MA) → Tworzy się dno\n• Recovery Cross: 30MA przecina 60MA w górę → Najbardziej wiarygodny wyprzedzający sygnał kupna (2~4 tygodnie wcześniej)\nDokładność historyczna: Idealnie wskazał dna 2016, 2018, 2020, 2022.",
+    desc_sopr:"SOPR Posiadaczy Krótkoterminowych mierzy, czy niedawni kupujący sprzedają z zyskiem czy stratą.\n• < 0,95: Paniczna sprzedaż z dużymi stratami → Kapitulacja = sygnał kupna\n• 0,95~1,0: Lekka realizacja straty → Blisko dna\n• 1,0~1,03: Neutralna realizacja zysku\n• > 1,05: Silna realizacja zysku → Dystrybucja = sygnał szczytu",
+    desc_funding:"Różnica Futures-Spot = (Cena Mark Futures - Cena Indeksu Spot) / Cena Spot\nPokazuje pozycjonowanie dźwigni w czasie rzeczywistym bez 8-godzinnego opóźnienia rozliczenia.\n• Ujemna (backwardation): Futures tańsze niż spot → Przeciążenie shortów → Wyprzedzający sygnał kupna\n• ±0,01%: Neutralnie (normalny zakres dla BTC)\n• > 0,05%: Contango → Przeciążenie longów → Ostrożnie\n• > 0,15%: Ekstremalne contango → Sygnał szczytu",
+    desc_cbp:"Coinbase Premium = (Cena BTC Coinbase - Cena BTC Binance) / Cena Binance\nOdzwierciedla popyt instytucji USA w czasie rzeczywistym. Wyprzedza dane przepływów ETF o 2~3 dni.\n• Dodatni: Instytucje USA kupują → Byczo\n• Blisko zera: Obserwacja/neutralnie\n• Ujemny: Instytucje na uboczu → Niedźwiedzio krótkoterminowo\nObecnie: Ujemny (46+ dni z rzędu) → Instytucje czekają na jasność makro.",
+    desc_lth:"% Podaży Posiadaczy Długoterminowych = odsetek podaży BTC w adresach nieaktywnych 155+ dni.\n• > 75%: Wieloryby w agresywnej akumulacji → Silny sygnał kupna\n• 70~75%: Normalna akumulacja\n• < 70%: Dystrybucja (wieloryby sprzedają)\nRekordowe poziomy (79%) oznaczają, że smart money nie sprzedaje — supply shock nadejdzie, gdy wróci popyt.",
+    desc_dom:"Dominacja BTC = kapitalizacja BTC / całkowita kapitalizacja rynku krypto\nRośnie, gdy kapitał przepływa z altcoinów do Bitcoina — typowy wzorzec przed wielkimi hossami.\n• 55~63% (baza CoinGecko): BTC season → Kapitał konsoliduje się w BTC → Strefa kupna\n• < 50%: Alt season → Risk on\n• > 65%: Ekstremalna dominacja BTC → Może sygnalizować nadchodzącą rotację alt",
+    desc_halving:"Halvingi Bitcoina tną nagrody za wydobycie o 50% co ~4 lata, tworząc supply shocki.\nHistoryczny timing dna:\n• Dno 2015: 18 miesięcy przed halvingiem 2016\n• Dno 2018: 17 miesięcy przed halvingiem 2020  \n• Dno 2022: 17 miesięcy przed halvingiem 2024\n• Obecnie: ~22 miesiące przed halvingiem kwiecień 2028 → W centralnym oknie dna.",
+    // Alert labels
+    alertTitle:'Ustawienia Alertów',
+    alertDesc:'Otrzymuj powiadomienia push przeglądarki + błysk wizualny + dźwięk po spełnieniu warunków.',
+    alertBuySection:'📈 WYZWALACZE LONG', alertSellSection:'📉 WYZWALACZE SHORT',
+    a2:'Wynik Long ≥ 6.0 (Zacznij etapami)',
+    a3:'Wynik Long ≥ 7.0 (Zwiększ pozycję)', a4:'Wynik Long ≥ 8.0 (Agresywne kupno)',
+    a5:'MVRV Z ≤ 0 — Pełna strefa dna', a6:'NUPL poniżej 0% — Kapitulacja',
+    a7:'Różnica futures staje się ujemna (backwardation)', a8:'Recovery cross Hash Ribbon',
+    a9:'Coinbase Premium staje się dodatni',
+    b1:'Wynik Short ≥ 6.0 (Przygotuj short)', b2:'Wynik Short ≥ 7.0 (Zwiększ short)',
+    b3:'Wynik Short ≥ 8.0 (Pełny short)', b4:'MVRV Z ≥ 3.5 — Strefa euforii',
+    b5:'NUPL ≥ 75% — Ekstremalna chciwość', b6:'Fear & Greed ≥ 80',
+    b7:'Contango futures ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Alert, gdy cena spadnie poniżej $', priceAbove:'Alert, gdy cena wzrośnie powyżej $',
+    enableNotif:'Włącz Powiadomienia Przeglądarki',
+    ind_sell_lth:'Podaż LTH — Dystrybucja', ind_sell_dom:'Dominacja BTC — Ryzyko',
+    ind_sell_halving:'Halving — Faza Cyklu', ind_sell_ath:'Bliskość ATH — Ryzyko Szczytu',
+    ind_sell_mvrv:'MVRV Z — Przegrzanie', ind_sell_nupl:'NUPL — Chciwość',
+    ind_sell_funding:'Premia Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Spread SOPR LTH-STH mierzy różnicę między zachowaniem realizacji zysków posiadaczy długo- i krótkoterminowych.
+Duży dodatni spread oznacza, że posiadacze krótkoterminowi realizują zyski znacznie szybciej niż długoterminowi — wczesny sygnał dystrybucji.
+
+Strefa SHORT: spread ≥ 0,15 (STH sprzedaje agresywnie, gdy LTH trzyma)
+Strefa bezpieczna: spread ≤ 0,02 (spójne zachowanie, brak sygnału dystrybucji)
+
+Obecnie: STH realizuje znaczny zysk względem LTH → dystrybucja może się zaczynać.`,
+    ind_sell_sopr:'STH-SOPR — Realizacja Zysków', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  it: {
+    exchBannerT:"Da quale exchange iniziare?", exchBannerD:"Confronta Binance e Bybit + sconto commissioni",
+    // NAV
+    navInsights:'Blog',
+    navGlossary:'Glossario',
+    footerPrivacy:'Informativa sulla Privacy', footerTerms:'Termini di Servizio', footerDisclaimer:'Non è consulenza finanziaria',
+    whyBtnLabel:'Perché?', whyTopTitle:'Principali contributori', whyBottomTitle:'Fattori frenanti', histToday:'Oggi', histYesterday:'Ieri', histWeekAgo:'Settimana scorsa',
+    buyTiming:'📈 Timing LONG', sellTiming:'📉 Timing SHORT',
+    livePriceLabel:'Prezzo · Binance', fgLabel:'Fear & Greed',
+    rpLabel:'Scarto Realized Price', maLabel:'MA 200S (rif)',
+    splitPlan:'Piano di Ingresso Scaglionato', splitTitle:'Allocazione per Fase',
+    splitStep1:(s)=>`Ora (Punteggio ${s})`, splitStep2:'Recupero Hash Ribbon',
+    splitStep3:'Coinbase Premium → Positivo', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Aggiornato',
+    footerSources:'Recupero automatico', footerDisclaimer2:'Lo scraping on-chain può usare valori di riserva. Lo storico dei punteggi è salvato nel localStorage del browser. Non è consulenza finanziaria.',
+    tkDomLabel:'Dominanza BTC', tkMcapLabel:'Capitalizzazione', tkVolLabel:'Volume 24h', bkTotalLabel:'Totale → /10',
+    seoH1:'Punteggio di Timing Acquisto/Vendita di Bitcoin e Altcoin in Tempo Reale', seoSub:'Un segnale di timing 0–10 in tempo reale e gratuito che combina indicatori on-chain.',
+    // Mode labels
+    modeTitle_buy:'PUNTEGGIO TIMING LONG', modeTitle_sell:'INDICATORE PRESSIONE DI VENDITA',
+    modeSub_buy:'Modello di ingresso long sul minimo del ciclo', modeSub_sell:'Modello di timing di ingresso short',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Come leggere il Punteggio di Vendita',
+    sellExplain_low:'🟢 BASSO (0~3): Mercato in zona minimo. Nessun segnale di uscita. Mantieni o accumula.',
+    sellExplain_mid:'🟡 MEDIO (4~6): Mercato in surriscaldamento. Monitora per una riduzione parziale.',
+    sellExplain_high:'🔴 ALTO (7~10): Forte segnale di vendita. Esci dal long / Valuta ingresso short.',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Scarto Realized Price',
+    ind_alt_valuation:'Prezzo vs Realized Stim. (200W MA)', ind_alt_drawdown:'Calo da ATH',
+    tab_dashboard:'Live', tab_coins:'Cerca', tab_blog:'Blog',
+    ind_alt_short_val:'Prezzo vs Realized Stim. (Short)', ind_alt_short_ath:'Vicinanza ATH — Surriscaldamento',
+    ind_rsi:'RSI (14g)', ind_vol_change:'Accelerazione Volume (15m vs 1h/4h)', ind_btc_corr_tech:'Correlazione BTC (30g)',
+    ind_buy_pressure:'Volume Live a Prevalenza Acquisto — FOMO', ind_sell_pressure:'Volume Live a Prevalenza Vendita — Capitolazione',
+    desc_buy_pressure:`Quota del volume delle candele a 15 minuti più recenti guidata da acquisti aggressivi. Un rapporto elevato (65%+) unito a un picco di volume e a una candela verde può segnalare surriscaldamento da FOMO vicino a un massimo locale. Usa dati a 15 minuti anziché giornalieri, riflettendo condizioni quasi in tempo reale (ritardo 15min–1h vs. fino a 24h per il volume giornaliero).`,
+    desc_sell_pressure:`Quota del volume delle candele a 15 minuti più recenti guidata da vendite aggressive. Un rapporto elevato (58%+) unito a un picco di volume e a una candela rossa può segnalare vendite di capitolazione che spesso precedono un rimbalzo vicino a un minimo locale. Usa dati a 15 minuti anziché giornalieri, riflettendo condizioni quasi in tempo reale.`,
+    desc_rsi:`Relative Strength Index a 14 giorni, un oscillatore di momentum che misura velocità ed entità delle variazioni di prezzo recenti. RSI sotto 30 indica ipervenduto (spesso segnale di minimo), mentre sopra 70 indica ipercomprato (spesso segnale di massimo). Si applica allo stesso modo a tutte le monete perché è puramente basato sul prezzo.`,
+    desc_vol_change:`Confronta il volume della candela a 15 minuti più recente con le medie a 1 e 4 ore. Un grande picco unito a un prezzo vicino a un minimo può segnalare vendite di capitolazione che spesso precedono un rimbalzo. Un picco vicino a un massimo può segnalare distribuzione da parte di grandi detentori. Usare dati a 15 minuti anziché giornalieri riflette condizioni quasi in tempo reale.`,
+    desc_btc_corr_tech:`Coefficiente di correlazione di Pearson tra i rendimenti giornalieri di questa moneta e Bitcoin negli ultimi 30 giorni. Una correlazione bassa (sotto 0,5) suggerisce che la moneta si muove in modo indipendente da BTC, il che può indicare forza o debolezza specifica della moneta anziché un movimento ampio del mercato.`,
+    desc_alt_short_val:`Indicatore stimato di sopravvalutazione per le altcoin in modalità SHORT. Misura quanto il prezzo attuale è sopra la realized price stimata — più è alto, più è surriscaldato e favorevole allo SHORT. ⚠️ La realized price è una stima, non dati on-chain in tempo reale.`,
+    desc_alt_short_ath:`Distanza dal massimo storico (ATH), usata come segnale di surriscaldamento per il timing SHORT delle altcoin. Essere vicini all'ATH (entro -15%) storicamente coincide con massimi locali e maggiore favorevolezza allo SHORT.`,
+    ind_btc_corr:'Dominanza BTC — Ciclo Alt', desc_btc_corr:`Traccia la dominanza della capitalizzazione di Bitcoin come proxy della posizione del più ampio ciclo delle altcoin. Quando la dominanza BTC è alta (55%+), il capitale è concentrato in Bitcoin e le altcoin tendono a rendere meno — spesso segno che il ciclo alt non è ancora iniziato. Quando la dominanza scende (sotto 50%), il capitale ruota verso le altcoin, storicamente associato alla "alt season".`,
+    desc_alt_valuation:`Indicatore di valutazione stimato per le altcoin. A differenza di BTC/ETH/BNB, questa moneta non dispone di dati MVRV Z-Score on-chain affidabili, quindi usiamo il prezzo vs. una realized price stimata come proxy.
+
+⚠️ Importante: la realized price stimata di questa moneta è approssimata con la media mobile a 200 settimane (200W MA), non con dati on-chain in tempo reale. La 200W MA è un proxy molto usato che segue da vicino la realized price on-chain, ma differisce dai dati precisi. Usare solo come segnale direzionale.
+
+Sotto la realized price stimata = potenziale zona di sottovalutazione.`,
+    desc_alt_drawdown:`Distanza dal massimo storico (ATH), usata come sostituto del NUPL sulle altcoin senza dati profitto/perdita on-chain affidabili.
+
+Cali profondi (70%+) dall'ATH hanno storicamente coinciso con i minimi di ciclo per le principali altcoin, anche se varia molto da moneta a moneta.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Scarto Futures-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% Offerta LTH', ind_dom:'Dominanza BTC',
+    ind_halving:'Ciclo di Halving',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Surriscaldamento', ind_sell_nupl:'NUPL — Livello di Avidità',
+    ind_sell_funding:'Premio Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Lo Spread SOPR LTH-STH misura il divario tra il comportamento di presa di profitto dei detentori a lungo e a breve termine.
+Uno spread positivo ampio significa che i detentori a breve termine realizzano profitti molto più velocemente di quelli a lungo termine — un segnale precoce di distribuzione.
+
+Zona SHORT: spread ≥ 0,15 (STH vende aggressivamente mentre LTH mantiene)
+Zona sicura: spread ≤ 0,02 (comportamento allineato, nessun segnale di distribuzione)
+
+Attuale: STH realizza profitti significativi rispetto a LTH → la distribuzione potrebbe iniziare.`,
+    ind_sell_sopr:'STH-SOPR — Presa di Profitto', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'VALUTAZIONE ON-CHAIN', sec_miner:'MINER / SENTIMENT',
+    sec_inst:'FLUSSO ISTITUZIONALE', sec_cycle:'POSIZIONE DEL CICLO',
+    sec_breakdown:'Dettaglio Punteggio', sec_triggers:'Trigger Livello Successivo',
+    sec_sellTriggers:'Trigger Segnale di Vendita', sec_macro:'AVVISI MACRO',
+    sec_insights:'BLOG', sec_insights2:'BLOG', viewAllInsights:'TUTTI →', loadingInsights:'Caricamento...', loadMoreInsights:'Carica Altro', collapseInsights:'Comprimi',
+    sec_history:'Storico Punteggio', sec_histSub:'Salvato localmente nel browser',
+    histH:'Ora', histD:'Giorno', histM:'Mese',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"L'MVRV Z Score misura quanto Bitcoin sia sopravvalutato o sottovalutato rispetto al suo realized value. \n• < 0: Storicamente sottovalutato (zona minimo) → Acquisto forte\n• 0~1: Leggermente sottovalutato → Zona di accumulo  \n• 1~3: Valore equo → Neutrale\n• > 3: Sopravvalutato (zona massimo) → Valuta la vendita\nFase attuale: 0,27 — Vicino al minimo. Storicamente valori sotto 0,5 hanno preceduto grandi rialzi.",
+    desc_nupl:"Il NUPL (Net Unrealized Profit/Loss) mostra lo stato complessivo di profitto/perdita di tutti i detentori di BTC.\n• < 0% (Capitolazione): Detentori in perdita → Segnale di acquisto estremo\n• 0~25% (Speranza/Paura): Ripresa dal minimo → Zona di acquisto  \n• 25~50% (Ottimismo): Metà ciclo → Neutrale\n• 50~75% (Fiducia/Avidità): Fine ciclo → Osserva\n• > 75% (Euforia): Picco di avidità → Segnale di vendita",
+    desc_realized:"Mostra quanto il prezzo attuale sia lontano dalla base di costo media di tutti i detentori di BTC (Realized Price).\n• Sotto 0%: Prezzo sotto il costo medio → Zona di panico, acquisto più forte\n• 0~5%: Vicino alla realized price → Ingresso ideale\n• 5~20%: Premio moderato → Accettabile\n• > 20%: Premio elevato → Cautela",
+    desc_hash:"L'Hash Ribbon traccia il momentum dell'hashrate di mining di Bitcoin (media a 30 giorni vs 60 giorni).\n• Capitolazione: Miner deboli si spengono (30MA < 60MA) → Minimo in formazione\n• Recovery Cross: la 30MA incrocia sopra la 60MA → Segnale di acquisto anticipatore più affidabile (2~4 settimane di anticipo)\nAccuratezza storica: Ha marcato con precisione i minimi 2016, 2018, 2020, 2022.",
+    desc_sopr:"Lo SOPR dei detentori a breve termine misura se i compratori recenti vendono in profitto o in perdita.\n• < 0,95: Vendita di panico con forti perdite → Capitolazione = segnale di acquisto\n• 0,95~1,0: Lieve realizzo di perdita → Vicino al minimo\n• 1,0~1,03: Presa di profitto neutrale\n• > 1,05: Forte presa di profitto → Distribuzione = segnale di massimo",
+    desc_funding:"Scarto Futures-Spot = (Prezzo Mark Futures - Prezzo Indice Spot) / Prezzo Spot\nMostra il posizionamento della leva in tempo reale senza il ritardo di regolamento di 8 ore.\n• Negativo (backwardation): Futures più economici dello spot → Sovraccarico di short → Segnale di acquisto anticipatore\n• ±0,01%: Neutrale (range normale per BTC)\n• > 0,05%: Contango → Sovraccarico di long → Cautela\n• > 0,15%: Contango estremo → Segnale di massimo",
+    desc_cbp:"Coinbase Premium = (Prezzo BTC Coinbase - Prezzo BTC Binance) / Prezzo Binance\nRiflette la domanda istituzionale USA in tempo reale. Anticipa i dati di flusso ETF di 2~3 giorni.\n• Positivo: Istituzioni USA in acquisto → Rialzista\n• Vicino a zero: Osservazione/neutrale\n• Negativo: Istituzioni in disparte → Ribassista nel breve\nAttuale: Negativo (46+ giorni consecutivi) → Istituzioni in attesa di chiarezza macro.",
+    desc_lth:"% Offerta dei Detentori a Lungo Termine = percentuale dell'offerta di BTC in indirizzi inattivi da 155+ giorni.\n• > 75%: Whale in accumulo aggressivo → Segnale di acquisto forte\n• 70~75%: Accumulo normale\n• < 70%: Distribuzione (whale in vendita)\nLivelli record (79%) significano che gli smart money non vendono — supply shock in arrivo al ritorno della domanda.",
+    desc_dom:"Dominanza BTC = capitalizzazione BTC / capitalizzazione totale del mercato crypto\nSale quando il capitale passa dalle altcoin a Bitcoin — schema tipico prima di grandi rialzi.\n• 55~63% (base CoinGecko): BTC season → Capitale in consolidamento su BTC → Zona di acquisto\n• < 50%: Alt season → Risk on\n• > 65%: Dominanza BTC estrema → Può segnalare una rotazione alt in arrivo",
+    desc_halving:"Gli halving di Bitcoin dimezzano le ricompense di mining ogni ~4 anni, creando supply shock.\nTiming storico dei minimi:\n• Minimo 2015: 18 mesi prima dell'halving 2016\n• Minimo 2018: 17 mesi prima dell'halving 2020  \n• Minimo 2022: 17 mesi prima dell'halving 2024\n• Attuale: ~22 mesi prima dell'halving di aprile 2028 → Nella finestra centrale del minimo.",
+    // Alert labels
+    alertTitle:'Impostazioni Avvisi',
+    alertDesc:'Ricevi notifiche via push del browser + lampeggio visivo + suono al verificarsi delle condizioni.',
+    alertBuySection:'📈 TRIGGER LONG', alertSellSection:'📉 TRIGGER SHORT',
+    a2:'Punteggio Long ≥ 6.0 (Inizia scaglionamento)',
+    a3:'Punteggio Long ≥ 7.0 (Aumenta posizione)', a4:'Punteggio Long ≥ 8.0 (Acquisto aggressivo)',
+    a5:'MVRV Z ≤ 0 — Zona di minimo pieno', a6:'NUPL sotto 0% — Capitolazione',
+    a7:'Lo scarto futures diventa negativo (backwardation)', a8:'Recovery cross Hash Ribbon',
+    a9:'Coinbase Premium diventa positivo',
+    b1:'Punteggio Short ≥ 6.0 (Prepara short)', b2:'Punteggio Short ≥ 7.0 (Aumenta short)',
+    b3:'Punteggio Short ≥ 8.0 (Short pieno)', b4:'MVRV Z ≥ 3.5 — Zona di euforia',
+    b5:'NUPL ≥ 75% — Avidità estrema', b6:'Fear & Greed ≥ 80',
+    b7:'Contango futures ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Avvisa quando il prezzo scende sotto $', priceAbove:'Avvisa quando il prezzo sale sopra $',
+    enableNotif:'Attiva Notifiche del Browser',
+    ind_sell_lth:'Offerta LTH — Distribuzione', ind_sell_dom:'Dominanza BTC — Rischio',
+    ind_sell_halving:'Halving — Fase del Ciclo', ind_sell_ath:'Vicinanza ATH — Rischio Massimo',
+    ind_sell_mvrv:'MVRV Z — Surriscaldamento', ind_sell_nupl:'NUPL — Avidità',
+    ind_sell_funding:'Premio Futures', ind_sell_fg:'Spread SOPR LTH-STH',
+    desc_sell_fg:`Lo Spread SOPR LTH-STH misura il divario tra il comportamento di presa di profitto dei detentori a lungo e a breve termine.
+Uno spread positivo ampio significa che i detentori a breve termine realizzano profitti molto più velocemente di quelli a lungo termine — un segnale precoce di distribuzione.
+
+Zona SHORT: spread ≥ 0,15 (STH vende aggressivamente mentre LTH mantiene)
+Zona sicura: spread ≤ 0,02 (comportamento allineato, nessun segnale di distribuzione)
+
+Attuale: STH realizza profitti significativi rispetto a LTH → la distribuzione potrebbe iniziare.`,
+    ind_sell_sopr:'STH-SOPR — Presa di Profitto', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  ru: {
+    exchBannerT:"С какой биржи начать?", exchBannerD:"Сравните Binance и Bybit + скидка на комиссии",
+    // NAV
+    navInsights:'Блог',
+    navGlossary:'Глоссарий',
+    footerPrivacy:'Политика конфиденциальности', footerTerms:'Условия использования', footerDisclaimer:'Не финансовый совет',
+    whyBtnLabel:'Почему?', whyTopTitle:'Главные драйверы роста', whyBottomTitle:'Сдерживающие факторы', histToday:'Сегодня', histYesterday:'Вчера', histWeekAgo:'Неделю назад',
+    buyTiming:'📈 Тайминг ЛОНГ', sellTiming:'📉 Тайминг ШОРТ',
+    livePriceLabel:'Цена · Binance', fgLabel:'Индекс страха и жадности',
+    rpLabel:'Разрыв Realized Price', maLabel:'200-нед. MA (справ.)',
+    splitPlan:'План поэтапного входа', splitTitle:'Распределение по этапам',
+    splitStep1:(s)=>`Сейчас (Оценка ${s})`, splitStep2:'Восстановление Hash Ribbon',
+    splitStep3:'Coinbase Premium → Положительный', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'Обновлено',
+    footerSources:'Автозагрузка', footerDisclaimer2:'Сбор on-chain данных может использовать резервные значения. История оценок хранится в localStorage браузера. Не финансовый совет.',
+    tkDomLabel:'Доминация BTC', tkMcapLabel:'Капитализация', tkVolLabel:'Объём 24ч', bkTotalLabel:'Итого → /10',
+    seoH1:'Оценка тайминга покупки/продажи Bitcoin и альткоинов в реальном времени', seoSub:'Бесплатный сигнал тайминга 0–10 в реальном времени на основе on-chain индикаторов.',
+    // Mode labels
+    modeTitle_buy:'ОЦЕНКА ТАЙМИНГА ЛОНГ', modeTitle_sell:'ИЗМЕРИТЕЛЬ ДАВЛЕНИЯ ПРОДАЖ',
+    modeSub_buy:'Модель входа в лонг на дне цикла', modeSub_sell:'Модель тайминга входа в шорт',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ Как читать оценку продажи',
+    sellExplain_low:'🟢 НИЗКАЯ (0~3): Рынок в зоне дна. Нет сигнала на выход. Держите или накапливайте.',
+    sellExplain_mid:'🟡 СРЕДНЯЯ (4~6): Рынок разогревается. Наблюдайте за частичным сокращением.',
+    sellExplain_high:'🔴 ВЫСОКАЯ (7~10): Сильный сигнал на продажу. Выход из лонга / Рассмотрите вход в шорт.',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Разрыв Realized Price',
+    ind_alt_valuation:'Цена vs Realized оц. (200W MA)', ind_alt_drawdown:'Просадка от ATH',
+    tab_dashboard:'Онлайн', tab_coins:'Поиск', tab_blog:'Блог',
+    ind_alt_short_val:'Цена vs Realized оц. (Шорт)', ind_alt_short_ath:'Близость к ATH — Перегрев',
+    ind_rsi:'RSI (14д)', ind_vol_change:'Ускорение объёма (15м vs 1ч/4ч)', ind_btc_corr_tech:'Корреляция с BTC (30д)',
+    ind_buy_pressure:'Объём с преобладанием покупок — FOMO', ind_sell_pressure:'Объём с преобладанием продаж — Капитуляция',
+    desc_buy_pressure:`Доля объёма последних 15-минутных свечей, обусловленная агрессивными покупками. Высокое соотношение (65%+) вместе со всплеском объёма и зелёной свечой может сигнализировать о перегреве на волне FOMO вблизи локального максимума. Использует 15-минутные данные вместо дневных, отражая условия почти в реальном времени (задержка 15мин–1ч против до 24ч у дневного объёма).`,
+    desc_sell_pressure:`Доля объёма последних 15-минутных свечей, обусловленная агрессивными продажами. Высокое соотношение (58%+) вместе со всплеском объёма и красной свечой может сигнализировать о капитуляционных продажах, которые часто предшествуют развороту вблизи локального дна. Использует 15-минутные данные вместо дневных, отражая условия почти в реальном времени.`,
+    desc_rsi:`Relative Strength Index за 14 дней — осциллятор моментума, измеряющий скорость и величину недавних изменений цены. RSI ниже 30 указывает на перепроданность (часто сигнал дна), а выше 70 — на перекупленность (часто сигнал вершины). Применяется одинаково ко всем монетам, так как основан только на цене.`,
+    desc_vol_change:`Сравнивает объём последней 15-минутной свечи со средними за 1 час и 4 часа. Крупный всплеск вместе с ценой у минимума может сигнализировать о капитуляционных продажах, часто предшествующих развороту. Всплеск у максимума может сигнализировать о распределении крупными держателями. Использование 15-минутных данных вместо дневных отражает условия почти в реальном времени.`,
+    desc_btc_corr_tech:`Коэффициент корреляции Пирсона между дневной доходностью этой монеты и Bitcoin за последние 30 дней. Низкая корреляция (ниже 0,5) говорит о том, что монета движется независимо от BTC, что может указывать на силу или слабость самой монеты, а не на широкое движение рынка.`,
+    desc_alt_short_val:`Оценочный индикатор переоценённости альткоинов в режиме ШОРТ. Измеряет, насколько текущая цена выше оценочной realized price — чем выше, тем сильнее перегрев и благоприятнее для ШОРТА. ⚠️ Realized price — это оценка, а не on-chain данные в реальном времени.`,
+    desc_alt_short_ath:`Расстояние от исторического максимума (ATH), используется как сигнал перегрева для тайминга ШОРТА альткоинов. Близость к ATH (в пределах -15%) исторически совпадает с локальными вершинами и повышенной благоприятностью для ШОРТА.`,
+    ind_btc_corr:'Доминация BTC — Альт-цикл', desc_btc_corr:`Отслеживает доминацию рыночной капитализации Bitcoin как индикатор позиции более широкого альткоин-цикла. Когда доминация BTC высока (55%+), капитал сосредоточен в Bitcoin, а альткоины обычно отстают — часто признак того, что альт-цикл ещё не начался. Когда доминация падает (ниже 50%), капитал перетекает в альткоины, что исторически связано с "alt season".`,
+    desc_alt_valuation:`Оценочный индикатор стоимости альткоинов. В отличие от BTC/ETH/BNB, у этой монеты нет надёжных on-chain данных MVRV Z-Score, поэтому мы используем цену vs. оценочную realized price как приближение.
+
+⚠️ Важно: оценочная realized price этой монеты приближается 200-недельной скользящей средней (200W MA), а не on-chain данными в реальном времени. 200W MA — широко используемое приближение, близко отслеживающее on-chain realized price, но отличающееся от точных данных. Используйте только как сигнал направления.
+
+Ниже оценочной realized price = потенциальная зона недооценки.`,
+    desc_alt_drawdown:`Расстояние от исторического максимума (ATH), используется как замена NUPL для альткоинов без надёжных on-chain данных о прибыли/убытке.
+
+Глубокие просадки (70%+) от ATH исторически совпадали с днами цикла для крупных альткоинов, хотя это сильно варьируется от монеты к монете.`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'Разрыв Futures-Spot',
+    ind_cbp:'Coinbase Premium', ind_lth:'% предложения LTH', ind_dom:'Доминация BTC',
+    ind_halving:'Цикл халвинга',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — Перегрев', ind_sell_nupl:'NUPL — Уровень жадности',
+    ind_sell_funding:'Премия фьючерсов', ind_sell_fg:'Спред SOPR LTH-STH',
+    desc_sell_fg:`Спред SOPR LTH-STH измеряет разрыв в поведении фиксации прибыли между долгосрочными и краткосрочными держателями.
+Большой положительный спред означает, что краткосрочные держатели фиксируют прибыль намного быстрее долгосрочных — ранний признак распределения.
+
+Зона ШОРТ: спред ≥ 0,15 (STH агрессивно продают, пока LTH держат)
+Безопасная зона: спред ≤ 0,02 (согласованное поведение, нет сигнала распределения)
+
+Сейчас: STH фиксируют значительную прибыль относительно LTH → распределение может начинаться.`,
+    ind_sell_sopr:'STH-SOPR — Фиксация прибыли', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'ON-CHAIN ОЦЕНКА', sec_miner:'МАЙНЕРЫ / НАСТРОЕНИЯ',
+    sec_inst:'ИНСТИТУЦИОНАЛЬНЫЙ ПОТОК', sec_cycle:'ПОЗИЦИЯ ЦИКЛА',
+    sec_breakdown:'Разбор оценки', sec_triggers:'Триггеры следующего уровня',
+    sec_sellTriggers:'Триггеры сигнала продажи', sec_macro:'МАКРО-ПРЕДУПРЕЖДЕНИЯ',
+    sec_insights:'БЛОГ', sec_insights2:'БЛОГ', viewAllInsights:'ВСЕ →', loadingInsights:'Загрузка...', loadMoreInsights:'Показать ещё', collapseInsights:'Свернуть',
+    sec_history:'История оценок', sec_histSub:'Сохранено локально в браузере',
+    histH:'Час', histD:'День', histM:'Месяц',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"MVRV Z Score измеряет, насколько Bitcoin переоценён или недооценён относительно своей realized value. \n• < 0: Исторически недооценён (зона дна) → Сильная покупка\n• 0~1: Слегка недооценён → Зона накопления  \n• 1~3: Справедливая цена → Нейтрально\n• > 3: Переоценён (зона вершины) → Рассмотрите продажу\nТекущая фаза: 0,27 — Вблизи дна. Исторически значения ниже 0,5 предшествовали крупным бычьим ралли.",
+    desc_nupl:"NUPL (Net Unrealized Profit/Loss) показывает общее состояние прибыли/убытка всех держателей BTC.\n• < 0% (Капитуляция): Держатели в убытке → Экстремальный сигнал покупки\n• 0~25% (Надежда/Страх): Восстановление от дна → Зона покупки  \n• 25~50% (Оптимизм): Середина цикла → Нейтрально\n• 50~75% (Вера/Жадность): Поздний цикл → Наблюдайте\n• > 75% (Эйфория): Пик жадности → Сигнал продажи",
+    desc_realized:"Показывает, насколько текущая цена далека от средней себестоимости всех держателей BTC (Realized Price).\n• Ниже 0%: Цена ниже средней себестоимости → Зона паники, сильнейшая покупка\n• 0~5%: Вблизи realized price → Идеальный вход\n• 5~20%: Умеренная премия → Приемлемо\n• > 20%: Высокая премия → Осторожность",
+    desc_hash:"Hash Ribbon отслеживает моментум хешрейта майнинга Bitcoin (скользящая средняя 30 дней vs 60 дней).\n• Капитуляция: Слабые майнеры отключаются (30MA < 60MA) → Формируется дно\n• Recovery Cross: 30MA пересекает 60MA снизу вверх → Самый надёжный опережающий сигнал покупки (на 2~4 недели раньше)\nИсторическая точность: Точно отметил дна 2016, 2018, 2020, 2022.",
+    desc_sopr:"SOPR краткосрочных держателей измеряет, продают ли недавние покупатели с прибылью или убытком.\n• < 0,95: Паническая продажа с большими убытками → Капитуляция = сигнал покупки\n• 0,95~1,0: Лёгкая фиксация убытка → Вблизи дна\n• 1,0~1,03: Нейтральная фиксация прибыли\n• > 1,05: Сильная фиксация прибыли → Распределение = сигнал вершины",
+    desc_funding:"Разрыв Futures-Spot = (Цена Mark фьючерса - Цена индекса Spot) / Цена Spot\nПоказывает позиционирование по плечу в реальном времени без 8-часовой задержки расчёта.\n• Отрицательный (backwardation): Фьючерсы дешевле спота → Перегрузка шортов → Опережающий сигнал покупки\n• ±0,01%: Нейтрально (нормальный диапазон для BTC)\n• > 0,05%: Contango → Перегрузка лонгов → Осторожность\n• > 0,15%: Экстремальное contango → Сигнал вершины",
+    desc_cbp:"Coinbase Premium = (Цена BTC Coinbase - Цена BTC Binance) / Цена Binance\nОтражает спрос институтов США в реальном времени. Опережает данные потоков ETF на 2~3 дня.\n• Положительный: Институты США покупают → Бычий\n• Около нуля: Наблюдение/нейтрально\n• Отрицательный: Институты в стороне → Медвежий на короткий срок\nСейчас: Отрицательный (46+ дней подряд) → Институты ждут макро-ясности.",
+    desc_lth:"% предложения долгосрочных держателей = доля предложения BTC на адресах, неактивных 155+ дней.\n• > 75%: Киты в агрессивном накоплении → Сильный сигнал покупки\n• 70~75%: Обычное накопление\n• < 70%: Распределение (киты продают)\nРекордные уровни (79%) означают, что умные деньги не продают — supply shock придёт с возвращением спроса.",
+    desc_dom:"Доминация BTC = капитализация BTC / общая капитализация крипторынка\nРастёт, когда капитал перетекает из альткоинов в Bitcoin — типичная картина перед крупными ралли.\n• 55~63% (база CoinGecko): BTC season → Капитал консолидируется в BTC → Зона покупки\n• < 50%: Alt season → Risk on\n• > 65%: Экстремальная доминация BTC → Может сигнализировать о скорой ротации в альты",
+    desc_halving:"Халвинги Bitcoin сокращают награду за майнинг на 50% каждые ~4 года, создавая supply shock.\nИсторический тайминг дна:\n• Дно 2015: за 18 месяцев до халвинга 2016\n• Дно 2018: за 17 месяцев до халвинга 2020  \n• Дно 2022: за 17 месяцев до халвинга 2024\n• Сейчас: ~22 месяца до халвинга апреля 2028 → В центральном окне дна.",
+    // Alert labels
+    alertTitle:'Настройки оповещений',
+    alertDesc:'Получайте уведомления через push браузера + визуальную вспышку + звук при выполнении условий.',
+    alertBuySection:'📈 ТРИГГЕРЫ ЛОНГ', alertSellSection:'📉 ТРИГГЕРЫ ШОРТ',
+    a2:'Оценка лонга ≥ 6.0 (Начать поэтапно)',
+    a3:'Оценка лонга ≥ 7.0 (Увеличить позицию)', a4:'Оценка лонга ≥ 8.0 (Агрессивная покупка)',
+    a5:'MVRV Z ≤ 0 — Полная зона дна', a6:'NUPL ниже 0% — Капитуляция',
+    a7:'Разрыв фьючерсов становится отрицательным (backwardation)', a8:'Recovery cross Hash Ribbon',
+    a9:'Coinbase Premium становится положительным',
+    b1:'Оценка шорта ≥ 6.0 (Подготовить шорт)', b2:'Оценка шорта ≥ 7.0 (Увеличить шорт)',
+    b3:'Оценка шорта ≥ 8.0 (Полный шорт)', b4:'MVRV Z ≥ 3.5 — Зона эйфории',
+    b5:'NUPL ≥ 75% — Крайняя жадность', b6:'Fear & Greed ≥ 80',
+    b7:'Contango фьючерсов ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'Оповестить, когда цена упадёт ниже $', priceAbove:'Оповестить, когда цена вырастет выше $',
+    enableNotif:'Включить уведомления браузера',
+    ind_sell_lth:'Предложение LTH — Распределение', ind_sell_dom:'Доминация BTC — Риск',
+    ind_sell_halving:'Халвинг — Фаза цикла', ind_sell_ath:'Близость к ATH — Риск вершины',
+    ind_sell_mvrv:'MVRV Z — Перегрев', ind_sell_nupl:'NUPL — Жадность',
+    ind_sell_funding:'Премия фьючерсов', ind_sell_fg:'Спред SOPR LTH-STH',
+    desc_sell_fg:`Спред SOPR LTH-STH измеряет разрыв в поведении фиксации прибыли между долгосрочными и краткосрочными держателями.
+Большой положительный спред означает, что краткосрочные держатели фиксируют прибыль намного быстрее долгосрочных — ранний признак распределения.
+
+Зона ШОРТ: спред ≥ 0,15 (STH агрессивно продают, пока LTH держат)
+Безопасная зона: спред ≤ 0,02 (согласованное поведение, нет сигнала распределения)
+
+Сейчас: STH фиксируют значительную прибыль относительно LTH → распределение может начинаться.`,
+    ind_sell_sopr:'STH-SOPR — Фиксация прибыли', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
+  zh: {
+    exchBannerT:"該從哪個交易所開始？", exchBannerD:"比較 Binance 與 Bybit + 手續費折扣",
+    // NAV
+    navInsights:'部落格',
+    navGlossary:'術語表',
+    footerPrivacy:'隱私政策', footerTerms:'服務條款', footerDisclaimer:'非投資建議',
+    whyBtnLabel:'為什麼？', whyTopTitle:'主要貢獻因素', whyBottomTitle:'拖累因素', histToday:'今天', histYesterday:'昨天', histWeekAgo:'上週',
+    buyTiming:'📈 做多時機', sellTiming:'📉 做空時機',
+    livePriceLabel:'價格 · Binance', fgLabel:'恐懼與貪婪',
+    rpLabel:'Realized Price 差距', maLabel:'200週 MA（參考）',
+    splitPlan:'分批進場計畫', splitTitle:'各階段配置',
+    splitStep1:(s)=>`現在（分數 ${s}）`, splitStep2:'Hash Ribbon 復甦',
+    splitStep3:'Coinbase Premium → 轉正', splitStep4:'NUPL 0% + MVRV Z ≤ 0',
+    updated:'已更新',
+    footerSources:'自動抓取', footerDisclaimer2:'鏈上抓取可能使用備援數值。分數歷史儲存在瀏覽器 localStorage。非投資建議。',
+    tkDomLabel:'BTC 市佔率', tkMcapLabel:'市值', tkVolLabel:'24小時成交量', bkTotalLabel:'總計 → /10',
+    seoH1:'即時比特幣與山寨幣買賣時機分數', seoSub:'結合鏈上指標的免費即時 0–10 時機訊號。',
+    // Mode labels
+    modeTitle_buy:'做多時機分數', modeTitle_sell:'賣壓量表',
+    modeSub_buy:'週期底部做多進場模型', modeSub_sell:'做空進場時機模型',
+    // Sell mode explanation
+    sellExplainTitle:'ℹ️ 如何解讀賣出分數',
+    sellExplain_low:'🟢 低（0~3）：市場處於底部區。無出場訊號。持有或累積。',
+    sellExplain_mid:'🟡 中（4~6）：市場升溫。留意部分減倉。',
+    sellExplain_high:'🔴 高（7~10）：強烈賣出訊號。出清多單／考慮做空進場。',
+    // Indicator names (buy)
+    ind_mvrv_z:'MVRV Z Score', ind_nupl:'NUPL', ind_realized:'Realized Price 差距',
+    ind_alt_valuation:'價格 vs 估算 Realized（200W MA）', ind_alt_drawdown:'距 ATH 回檔',
+    tab_dashboard:'即時', tab_coins:'找幣', tab_blog:'部落格',
+    ind_alt_short_val:'價格 vs 估算 Realized（做空）', ind_alt_short_ath:'接近 ATH — 過熱',
+    ind_rsi:'RSI（14日）', ind_vol_change:'成交量加速（15分 vs 1時/4時）', ind_btc_corr_tech:'BTC 相關性（30日）',
+    ind_buy_pressure:'即時買方主導成交量 — FOMO', ind_sell_pressure:'即時賣方主導成交量 — 投降',
+    desc_buy_pressure:`最近 15 分鐘 K 線成交量中由積極買進推動的比例。高比例（65%+）搭配成交量暴增與綠 K，可能預示接近局部頂部的 FOMO 過熱。使用 15 分鐘數據而非日線，因此幾乎即時反映狀況（延遲 15分–1小時，相對日線成交量最高達 24 小時）。`,
+    desc_sell_pressure:`最近 15 分鐘 K 線成交量中由積極賣出推動的比例。高比例（58%+）搭配成交量暴增與紅 K，可能預示常先於接近局部底部反轉的投降式賣壓。使用 15 分鐘數據而非日線，因此幾乎即時反映狀況。`,
+    desc_rsi:`14 日相對強弱指標（Relative Strength Index），衡量近期價格變動速度與幅度的動能震盪指標。RSI 低於 30 表示超賣（常為底部訊號），高於 70 表示超買（常為頂部訊號）。因純粹以價格為基礎，適用於所有幣種。`,
+    desc_vol_change:`比較最近一根 15 分鐘 K 線成交量與 1 小時、4 小時均值。大幅暴增搭配價格接近低點，可能預示常先於反轉的投降式賣壓。接近高點的暴增可能預示大戶派發。使用 15 分鐘數據而非日線，可幾乎即時反映狀況。`,
+    desc_btc_corr_tech:`此幣種與比特幣過去 30 日每日報酬之間的皮爾森相關係數。低相關性（低於 0.5）表示該幣獨立於 BTC 波動，可能代表幣種自身的強弱，而非大盤整體走勢。`,
+    desc_alt_short_val:`做空模式下山寨幣的估算高估指標。衡量目前價格高於估算 Realized Price 的幅度——越高代表越過熱、越有利做空。⚠️ Realized Price 為估算值，非即時鏈上數據。`,
+    desc_alt_short_ath:`距歷史高點（ATH）的距離，用作山寨幣做空時機的過熱訊號。接近 ATH（-15% 以內）在歷史上常與局部頂部及較高的做空有利度重合。`,
+    ind_btc_corr:'BTC 市佔率 — 山寨週期', desc_btc_corr:`追蹤比特幣市值佔比，作為更廣泛山寨幣週期位置的代理指標。當 BTC 市佔率偏高（55%+），資金集中於比特幣，山寨幣往往表現落後——常代表山寨週期尚未開始。當市佔率下降（低於 50%），資金輪動進入山寨幣，歷史上與「alt season」相關。`,
+    desc_alt_valuation:`山寨幣的估算估值指標。與 BTC/ETH/BNB 不同，此幣種沒有可靠的鏈上 MVRV Z-Score 數據，因此我們以價格 vs. 估算 Realized Price 作為代理。
+
+⚠️ 重要：此幣種的估算 Realized Price 以 200 週移動平均線（200W MA）近似，而非即時鏈上數據。200W MA 是廣泛使用的代理，能貼近追蹤鏈上 Realized Price，但與精確數據有別。僅作方向性訊號使用。
+
+低於估算 Realized Price = 潛在低估區。`,
+    desc_alt_drawdown:`距歷史高點（ATH）的距離，用作缺乏可靠鏈上盈虧數據之山寨幣的 NUPL 替代指標。
+
+自 ATH 的深度回檔（70%+）在歷史上常與主要山寨幣的週期底部重合，惟因幣而異差異甚大。`,
+    ind_hash:'Hash Ribbon', ind_sth_sopr:'STH-SOPR', ind_funding:'期現差距',
+    ind_cbp:'Coinbase Premium', ind_lth:'LTH 供給 %', ind_dom:'BTC 市佔率',
+    ind_halving:'減半週期',
+    // Indicator names (sell)
+    ind_sell_mvrv:'MVRV Z — 過熱', ind_sell_nupl:'NUPL — 貪婪程度',
+    ind_sell_funding:'期貨溢價', ind_sell_fg:'SOPR LTH-STH 價差',
+    desc_sell_fg:`SOPR LTH-STH 價差衡量長期與短期持有者獲利了結行為之間的差距。
+較大的正價差代表短期持有者比長期持有者更快實現獲利——為派發的早期訊號。
+
+做空區：價差 ≥ 0.15（STH 積極賣出而 LTH 續抱）
+安全區：價差 ≤ 0.02（行為一致，無派發訊號）
+
+目前：STH 相對 LTH 實現可觀獲利 → 派發可能正在開始。`,
+    ind_sell_sopr:'STH-SOPR — 獲利了結', ind_sell_cbp:'Coinbase Premium — FOMO',
+    // Section headers
+    sec_onchain:'鏈上估值', sec_miner:'礦工／情緒',
+    sec_inst:'機構資金流', sec_cycle:'週期位置',
+    sec_breakdown:'分數拆解', sec_triggers:'下一級觸發條件',
+    sec_sellTriggers:'賣出訊號觸發條件', sec_macro:'總體經濟警示',
+    sec_insights:'部落格', sec_insights2:'部落格', viewAllInsights:'全部 →', loadingInsights:'載入中...', loadMoreInsights:'載入更多', collapseInsights:'收合',
+    sec_history:'分數歷史', sec_histSub:'儲存在瀏覽器本機',
+    histH:'時', histD:'日', histM:'月',
+    // Indicator detailed descriptions
+    desc_mvrv_z:"MVRV Z Score 衡量比特幣相對其 realized value 被高估或低估的程度。\n• < 0：歷史上低估（底部區）→ 強力買進\n• 0~1：略微低估 → 累積區\n• 1~3：合理價值 → 中性\n• > 3：高估（頂部區）→ 考慮賣出\n目前階段：0.27 — 接近底部。歷史上低於 0.5 的數值常先於大型牛市。",
+    desc_nupl:"NUPL（Net Unrealized Profit/Loss）顯示所有 BTC 持有者整體的盈虧狀態。\n• < 0%（投降）：持有者虧損 → 極度買進訊號\n• 0~25%（希望/恐懼）：自底部回升 → 買進區\n• 25~50%（樂觀）：週期中段 → 中性\n• 50~75%（信念/貪婪）：週期後段 → 觀望\n• > 75%（狂熱）：貪婪頂峰 → 賣出訊號",
+    desc_realized:"顯示目前價格距所有 BTC 持有者平均成本基礎（Realized Price）的幅度。\n• 低於 0%：價格低於平均成本 → 恐慌區，最強買進\n• 0~5%：接近 realized price → 理想進場\n• 5~20%：溫和溢價 → 可接受\n• > 20%：高溢價 → 謹慎",
+    desc_hash:"Hash Ribbon 追蹤比特幣挖礦算力的動能（30 日均線 vs 60 日均線）。\n• 投降：弱勢礦工關機（30MA < 60MA）→ 底部形成中\n• 復甦交叉：30MA 上穿 60MA → 最可靠的領先買進訊號（提前 2~4 週）\n歷史準確度：精準標記 2016、2018、2020、2022 年底部。",
+    desc_sopr:"短期持有者 SOPR 衡量近期買家賣出時是獲利還是虧損。\n• < 0.95：大幅虧損下的恐慌賣出 → 投降＝買進訊號\n• 0.95~1.0：輕微實現虧損 → 接近底部\n• 1.0~1.03：中性獲利了結\n• > 1.05：強力獲利了結 → 派發＝頂部訊號",
+    desc_funding:"期現差距 =（期貨標記價 - 現貨指數價）/ 現貨價\n無需等待 8 小時結算延遲即可即時顯示槓桿部位。\n• 負值（backwardation）：期貨較現貨便宜 → 空單過載 → 領先買進訊號\n• ±0.01%：中性（BTC 正常範圍）\n• > 0.05%：Contango → 多單過載 → 謹慎\n• > 0.15%：極端 Contango → 頂部訊號",
+    desc_cbp:"Coinbase Premium =（Coinbase BTC 價 - Binance BTC 價）/ Binance 價\n即時反映美國機構需求。領先 ETF 資金流數據 2~3 天。\n• 正值：美國機構買進 → 偏多\n• 接近零：觀望/中性\n• 負值：機構觀望 → 短期偏空\n目前：負值（連續 46+ 天）→ 機構等待總經明朗。",
+    desc_lth:"長期持有者供給 % ＝ 由閒置 155 天以上地址持有的 BTC 供給比例。\n• > 75%：巨鯨積極累積 → 強力買進訊號\n• 70~75%：正常累積\n• < 70%：派發（巨鯨賣出）\n創紀錄水準（79%）代表聰明錢並未賣出 — 需求回歸時將出現供給衝擊。",
+    desc_dom:"BTC 市佔率 ＝ BTC 市值 / 加密貨幣總市值\n當資金自山寨幣流向比特幣時上升 — 大型牛市前的典型型態。\n• 55~63%（CoinGecko 基準）：BTC season → 資金向 BTC 集中 → 買進區\n• < 50%：Alt season → 風險偏好\n• > 65%：極端 BTC 市佔率 → 可能預示山寨輪動將至",
+    desc_halving:"比特幣減半每 ~4 年將挖礦獎勵砍半，造成供給衝擊。\n歷史底部時機：\n• 2015 底部：2016 減半前 18 個月\n• 2018 底部：2020 減半前 17 個月\n• 2022 底部：2024 減半前 17 個月\n• 目前：2028 年 4 月減半前 ~22 個月 → 處於核心底部窗口。",
+    // Alert labels
+    alertTitle:'警報設定',
+    alertDesc:'條件達成時透過瀏覽器推播 + 視覺閃爍 + 聲音通知你。',
+    alertBuySection:'📈 做多觸發', alertSellSection:'📉 做空觸發',
+    a2:'做多分數 ≥ 6.0（開始分批）',
+    a3:'做多分數 ≥ 7.0（加碼部位）', a4:'做多分數 ≥ 8.0（積極買進）',
+    a5:'MVRV Z ≤ 0 — 完全底部區', a6:'NUPL 低於 0% — 投降',
+    a7:'期貨差距轉為負值（backwardation）', a8:'Hash Ribbon 復甦交叉',
+    a9:'Coinbase Premium 轉正',
+    b1:'做空分數 ≥ 6.0（準備做空）', b2:'做空分數 ≥ 7.0（加碼做空）',
+    b3:'做空分數 ≥ 8.0（完全做空）', b4:'MVRV Z ≥ 3.5 — 狂熱區',
+    b5:'NUPL ≥ 75% — 極度貪婪', b6:'Fear & Greed ≥ 80',
+    b7:'期貨 Contango ≥ 0.15%', b8:'Coinbase Premium ≥ 0.3% — FOMO',
+    priceBelow:'價格跌破時警報 $', priceAbove:'價格漲破時警報 $',
+    enableNotif:'啟用瀏覽器通知',
+    ind_sell_lth:'LTH 供給 — 派發', ind_sell_dom:'BTC 市佔率 — 風險',
+    ind_sell_halving:'減半 — 週期階段', ind_sell_ath:'接近 ATH — 頂部風險',
+    ind_sell_mvrv:'MVRV Z — 過熱', ind_sell_nupl:'NUPL — 貪婪',
+    ind_sell_funding:'期貨溢價', ind_sell_fg:'SOPR LTH-STH 價差',
+    desc_sell_fg:`SOPR LTH-STH 價差衡量長期與短期持有者獲利了結行為之間的差距。
+較大的正價差代表短期持有者比長期持有者更快實現獲利——為派發的早期訊號。
+
+做空區：價差 ≥ 0.15（STH 積極賣出而 LTH 續抱）
+安全區：價差 ≤ 0.02（行為一致，無派發訊號）
+
+目前：STH 相對 LTH 實現可觀獲利 → 派發可能正在開始。`,
+    ind_sell_sopr:'STH-SOPR — 獲利了結', ind_sell_cbp:'Coinbase Premium — FOMO',
+  },
 };

@@ -11,7 +11,7 @@
 <script src="/lang-common.js"></script>
 <script>
 var GUIDE_LANGS = <?= json_encode(array_keys(SUPPORTED_LANGS)) ?>;
-const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE',fr:'FR',pt:'PT',tr:'TR',vi:'VI'};
+const LANG_NAMES={ko:'KO',en:'EN',ja:'JA',es:'ES',de:'DE',fr:'FR',pt:'PT',tr:'TR',vi:'VI',id:'ID',pl:'PL',it:'IT',ru:'RU',zh:'ZH'};
 function currentLang(){
   if(window.BTLang) return BTLang.get(false);   // 공통 유틸에 위임
   try{const p=new URLSearchParams(location.search).get('lang');if(GUIDE_LANGS.includes(p))return p;}catch(e){}
@@ -21,7 +21,7 @@ function currentLang(){
 }
 function applyLang(lang){
   document.documentElement.lang=lang;
-  const l=document.getElementById('langTriggerLabel');if(l)l.textContent=LANG_NAMES[lang]||'KO';
+  const l=document.getElementById('langTriggerLabel');if(l)l.textContent=LANG_NAMES[lang]||(lang?String(lang).toUpperCase():'KO');
   document.querySelectorAll('.lang-menu-item').forEach(el=>el.classList.toggle('active',el.dataset.lang===lang));
   // ※ 저장(쿼키/localStorage)은 여기서 안 한다 — 진입 시에도 applyLang이 불리므로,
   //   여기서 저장하면 뒤로가기로 온 페이지가 최근 언어로 오염됨. 저장은 L()(사용자 선택)에서만.
