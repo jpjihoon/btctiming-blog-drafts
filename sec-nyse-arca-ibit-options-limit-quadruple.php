@@ -1,0 +1,324 @@
+<?php $slug = 'sec-nyse-arca-ibit-options-limit-quadruple'; require __DIR__.'/_header.php'; ?>
+
+<p class="ko">미국 증권거래위원회(SEC)가 7월15일 뉴욕증권거래소 알카(NYSE Arca)의 규정 변경을 즉시 발효로 승인해, 블랙록의 비트코인 현물 ETF 아이셰어즈 비트코인 트러스트(IBIT) 옵션의 포지션·행사 한도가 기존 25만계약에서 100만계약(동일 시장 방향 기준)으로 4배 늘었다. NYSE Arca는 지난 7월6일 증권거래법 19(b)(1)조에 따라 이 규정 변경안을 제출했고, SEC는 통상적인 30일 대기기간을 면제하며 곧바로 승인했다고 쿠코인·코인게이프 등이 전했다.</p>
+<p class="en">The U.S. Securities and Exchange Commission allowed a NYSE Arca rule change to take immediate effect on July 15, quadrupling the position and exercise limits on options tied to BlackRock's spot Bitcoin ETF, the iShares Bitcoin Trust (IBIT), from 250,000 to 1 million contracts on the same side of the market. NYSE Arca had filed the rule change on July 6 under Section 19(b)(1) of the Securities Exchange Act, and the SEC waived the standard 30-day operative delay to let it take effect right away, according to KuCoin, CoinGape and other outlets.</p>
+<p class="ja">米証券取引委員会(SEC)は7月15日、ニューヨーク証券取引所アルカ(NYSE Arca)の規則変更を即時発効で承認し、ブラックロックのビットコイン現物ETF「iシェアーズ・ビットコイン・トラスト(IBIT)」オプションのポジション・行使限度を、従来の25万契約から市場片側基準で100万契約へと4倍に引き上げた。NYSE Arcaは7月6日、証券取引法19(b)(1)条に基づきこの規則変更案を提出し、SECは通常の30日間の据置期間を免除して即座に承認したと、クーコインやコインゲイプなどが伝えた。</p>
+<p class="es">La Comisión de Bolsa y Valores de EE. UU. (SEC) permitió que un cambio de reglas de NYSE Arca entrara en vigor de inmediato el 15 de julio, cuadruplicando los límites de posición y ejercicio de las opciones vinculadas al ETF spot de Bitcoin de BlackRock, el iShares Bitcoin Trust (IBIT), de 250.000 a 1 millón de contratos en el mismo lado del mercado. NYSE Arca había presentado el cambio de reglas el 6 de julio conforme a la Sección 19(b)(1) de la Ley de Bolsa de Valores, y la SEC renunció al período de espera estándar de 30 días para que entrara en vigor de inmediato, según informaron KuCoin, CoinGape y otros medios.</p>
+<p class="de">Die US-Börsenaufsicht SEC ließ am 15. Juli eine Regeländerung der NYSE Arca sofort in Kraft treten, wodurch sich die Positions- und Ausübungslimits für Optionen auf BlackRocks Spot-Bitcoin-ETF, den iShares Bitcoin Trust (IBIT), von 250.000 auf 1 Million Kontrakte auf derselben Marktseite vervierfachten. NYSE Arca hatte die Regeländerung am 6. Juli gemäß Abschnitt 19(b)(1) des Securities Exchange Act eingereicht, und die SEC verzichtete auf die übliche 30-tägige Wartefrist, damit sie sofort in Kraft treten konnte, wie KuCoin, CoinGape und weitere Medien berichteten.</p>
+<p class="fr">La Securities and Exchange Commission (SEC) américaine a laissé entrer en vigueur immédiatement, le 15 juillet, un changement de règle de NYSE Arca qui quadruple les limites de position et d'exercice des options liées à l'ETF Bitcoin au comptant de BlackRock, l'iShares Bitcoin Trust (IBIT), les faisant passer de 250 000 à 1 million de contrats du même côté du marché. NYSE Arca avait déposé ce changement de règle le 6 juillet en vertu de la section 19(b)(1) du Securities Exchange Act, et la SEC a renoncé au délai d'attente standard de 30 jours pour le laisser entrer en vigueur immédiatement, selon KuCoin, CoinGape et d'autres médias.</p>
+<p class="pt">A Securities and Exchange Commission (SEC) dos EUA permitiu que uma mudança de regra da NYSE Arca entrasse em vigor imediatamente em 15 de julho, quadruplicando os limites de posição e exercício das opções vinculadas ao ETF spot de Bitcoin da BlackRock, o iShares Bitcoin Trust (IBIT), de 250 mil para 1 milhão de contratos do mesmo lado do mercado. A NYSE Arca havia protocolado a mudança de regra em 6 de julho, sob a Seção 19(b)(1) da Lei de Bolsa de Valores, e a SEC dispensou o período de espera padrão de 30 dias para que entrasse em vigor imediatamente, segundo KuCoin, CoinGape e outros veículos.</p>
+<p class="tr">ABD Menkul Kıymetler ve Borsa Komisyonu (SEC), 15 Temmuz'da NYSE Arca'nın kural değişikliğinin derhal yürürlüğe girmesine izin vererek, BlackRock'un spot Bitcoin ETF'si iShares Bitcoin Trust (IBIT) opsiyonlarının pozisyon ve kullanım limitlerini piyasanın aynı tarafında 250.000'den 1 milyon kontrata çıkararak dört katına çıkardı. NYSE Arca bu kural değişikliğini 6 Temmuz'da Menkul Kıymetler Borsası Kanunu'nun 19(b)(1) bölümü uyarınca sunmuş, SEC de derhal yürürlüğe girmesi için olağan 30 günlük bekleme süresinden feragat etmişti; bunu KuCoin, CoinGape ve diğer yayınlar aktardı.</p>
+<p class="vi">Ủy ban Chứng khoán và Giao dịch Hoa Kỳ (SEC) đã cho phép một thay đổi quy định của NYSE Arca có hiệu lực ngay lập tức vào ngày 15 tháng 7, tăng gấp bốn lần giới hạn vị thế và thực hiện quyền chọn gắn với ETF Bitcoin giao ngay của BlackRock, iShares Bitcoin Trust (IBIT), từ 250.000 lên 1 triệu hợp đồng ở cùng một phía thị trường. NYSE Arca đã nộp thay đổi quy định này vào ngày 6 tháng 7 theo Mục 19(b)(1) của Đạo luật Giao dịch Chứng khoán, và SEC đã miễn thời gian chờ tiêu chuẩn 30 ngày để nó có hiệu lực ngay, theo KuCoin, CoinGape và các hãng tin khác.</p>
+
+<h2 class="ko">왜 지금 늘렸나 — 4배 확대의 배경과 메커니즘</h2>
+<h2 class="en">Why now — the mechanics and backstory behind a 4x increase</h2>
+<h2 class="ja">なぜ今引き上げたのか — 4倍拡大の背景とメカニズム</h2>
+<h2 class="es">Por qué ahora — la mecánica y el trasfondo de una cuadruplicación</h2>
+<h2 class="de">Warum jetzt — Mechanik und Vorgeschichte einer Vervierfachung</h2>
+<h2 class="fr">Pourquoi maintenant — mécanique et contexte d'un quadruplement</h2>
+<h2 class="pt">Por que agora — a mecânica e os bastidores de uma quadruplicação</h2>
+<h2 class="tr">Neden şimdi — dört katına çıkışın mekaniği ve arka planı</h2>
+<h2 class="vi">Vì sao lại là lúc này — cơ chế và bối cảnh của việc tăng gấp bốn lần</h2>
+
+<p class="ko">이번 상향은 지난 8개월간 이어진 크립토 ETF 옵션 규제 완화의 최신 사례다. 2024년11월 비트코인·이더리움 현물 ETF 옵션이 처음 거래를 시작했을 때는 IBIT를 포함한 11개 ETF에 일괄적으로 2만5000계약의 포지션 한도가 적용됐다. 2026년3월10일 뉴욕증권거래소(NYSE) 계열의 NYSE Arca와 NYSE American이 이 2만5000계약 한도를 아예 철폐하고, 비표준 행사가·만기·행사방식을 허용하는 FLEX 옵션 거래까지 열어주는 규정 변경을 신청했고 SEC가 통상 30일 대기기간을 면제하며 즉시 승인했다. 이어 4월27일에는 나스닥ISE(Nasdaq ISE)가 별도로 신청한 'IBIT 옵션 한도를 시장 한쪽 방향 기준 100만계약으로 상향'하는 안이 SEC 승인을 받았다. 이번에 NYSE Arca가 받은 승인은 자사 거래소에서도 같은 100만계약 수준을 적용받기 위한 것으로, 같은 기초자산(IBIT)의 옵션이라도 거래소별로 별도의 규정 변경 절차를 거쳐야 한다는 점을 보여준다.</p>
+<p class="en">This latest increase is the newest step in eight months of loosening crypto ETF options rules. When Bitcoin and Ethereum spot ETF options first began trading in November 2024, a uniform position limit of 25,000 contracts applied across 11 ETFs, including IBIT. On March 10, 2026, NYSE-affiliated exchanges NYSE Arca and NYSE American filed rule changes eliminating that 25,000-contract cap entirely and opening up FLEX options trading — which allows non-standard strike prices, expiration dates and exercise styles — and the SEC again waived the 30-day wait to approve it immediately. Then, on April 27, the SEC separately approved a Nasdaq ISE proposal raising the IBIT options limit to 1 million contracts per side of the market. The approval NYSE Arca just received brings its own exchange up to that same 1-million level — a reminder that options on the same underlying asset (IBIT) require separate rule-change filings at each exchange where they're listed.</p>
+<p class="ja">今回の引き上げは、この8カ月続いてきた暗号資産ETFオプション規制緩和の最新事例だ。2024年11月にビットコイン・イーサリアム現物ETFオプションの取引が始まった当初は、IBITを含む11本のETFに一律で2万5000契約のポジション限度が適用されていた。2026年3月10日、NYSE系列のNYSE ArcaとNYSE Americanはこの2万5000契約の上限を全面的に撤廃し、非標準の行使価格・満期・行使方式を認めるFLEXオプション取引まで開放する規則変更を申請、SECは再び30日間の据置期間を免除して即座に承認した。続く4月27日には、ナスダックISE(Nasdaq ISE)が別途申請していた「IBITオプション限度を市場片側基準で100万契約に引き上げる」案がSEC承認を得た。今回NYSE Arcaが得た承認は、自社取引所でも同じ100万契約水準を適用するためのもので、同一の原資産(IBIT)のオプションであっても取引所ごとに別個の規則変更手続きを経る必要があることを示している。</p>
+<p class="es">Este último aumento es el paso más reciente en ocho meses de flexibilización de las reglas de opciones de ETF cripto. Cuando las opciones de ETF spot de Bitcoin y Ethereum comenzaron a cotizar en noviembre de 2024, se aplicó un límite de posición uniforme de 25.000 contratos en 11 ETF, incluido IBIT. El 10 de marzo de 2026, las bolsas afiliadas a NYSE, NYSE Arca y NYSE American, presentaron cambios de reglas que eliminaron por completo ese límite de 25.000 contratos y abrieron la negociación de opciones FLEX —que permite precios de ejercicio, fechas de vencimiento y estilos de ejercicio no estándar—, y la SEC nuevamente renunció al período de espera de 30 días para aprobarlo de inmediato. Luego, el 27 de abril, la SEC aprobó por separado una propuesta de Nasdaq ISE que elevaba el límite de opciones de IBIT a 1 millón de contratos por lado del mercado. La aprobación que NYSE Arca acaba de recibir lleva a su propia bolsa a ese mismo nivel de 1 millón — un recordatorio de que las opciones sobre el mismo activo subyacente (IBIT) requieren presentaciones separadas de cambio de reglas en cada bolsa donde cotizan.</p>
+<p class="de">Diese jüngste Erhöhung ist der neueste Schritt in acht Monaten Lockerung der Krypto-ETF-Optionsregeln. Als Bitcoin- und Ethereum-Spot-ETF-Optionen im November 2024 erstmals gehandelt wurden, galt für 11 ETFs, darunter IBIT, ein einheitliches Positionslimit von 25.000 Kontrakten. Am 10. März 2026 reichten die NYSE-verbundenen Börsen NYSE Arca und NYSE American Regeländerungen ein, die dieses 25.000-Kontrakte-Limit vollständig abschafften und den Handel mit FLEX-Optionen eröffneten — die nicht standardisierte Ausübungspreise, Verfallsdaten und Ausübungsstile erlauben —, und die SEC verzichtete erneut auf die 30-tägige Wartefrist, um dies sofort zu genehmigen. Am 27. April genehmigte die SEC dann separat einen Vorschlag der Nasdaq ISE, der das IBIT-Optionslimit auf 1 Million Kontrakte pro Marktseite anhob. Die Genehmigung, die NYSE Arca soeben erhalten hat, bringt die eigene Börse auf dasselbe 1-Millionen-Niveau — eine Erinnerung daran, dass Optionen auf denselben Basiswert (IBIT) an jeder Börse, an der sie notiert sind, separate Regeländerungsanträge erfordern.</p>
+<p class="fr">Cette dernière hausse est la nouvelle étape de huit mois d'assouplissement des règles sur les options d'ETF cryptos. Lorsque les options d'ETF au comptant Bitcoin et Ethereum ont commencé à être négociées en novembre 2024, une limite de position uniforme de 25 000 contrats s'appliquait à 11 ETF, dont IBIT. Le 10 mars 2026, les bourses affiliées à NYSE, NYSE Arca et NYSE American, ont déposé des changements de règles supprimant entièrement ce plafond de 25 000 contrats et ouvrant la négociation d'options FLEX — qui permettent des prix d'exercice, des dates d'expiration et des styles d'exercice non standards —, et la SEC a de nouveau renoncé au délai de 30 jours pour l'approuver immédiatement. Puis, le 27 avril, la SEC a séparément approuvé une proposition de Nasdaq ISE relevant la limite d'options IBIT à 1 million de contrats par côté du marché. L'approbation que NYSE Arca vient de recevoir porte sa propre bourse à ce même niveau d'un million — un rappel que les options sur un même actif sous-jacent (IBIT) nécessitent des dépôts de changement de règle distincts sur chaque bourse où elles sont cotées.</p>
+<p class="pt">Esse aumento mais recente é o passo mais novo em oito meses de flexibilização das regras de opções de ETFs cripto. Quando as opções de ETFs spot de Bitcoin e Ethereum começaram a ser negociadas em novembro de 2024, um limite de posição uniforme de 25 mil contratos se aplicava a 11 ETFs, incluindo o IBIT. Em 10 de março de 2026, as bolsas afiliadas à NYSE, NYSE Arca e NYSE American, protocolaram mudanças de regras eliminando totalmente esse teto de 25 mil contratos e abrindo a negociação de opções FLEX — que permitem preços de exercício, datas de vencimento e estilos de exercício não padronizados —, e a SEC novamente dispensou a espera de 30 dias para aprová-la imediatamente. Depois, em 27 de abril, a SEC aprovou separadamente uma proposta da Nasdaq ISE elevando o limite de opções do IBIT para 1 milhão de contratos por lado do mercado. A aprovação que a NYSE Arca acabou de receber leva sua própria bolsa a esse mesmo patamar de 1 milhão — um lembrete de que opções sobre o mesmo ativo-objeto (IBIT) exigem protocolos de mudança de regra separados em cada bolsa onde são listadas.</p>
+<p class="tr">Bu son artış, kripto ETF opsiyon kurallarında sekiz aydır süren gevşemenin en yeni adımı. Bitcoin ve Ethereum spot ETF opsiyonları Kasım 2024'te ilk kez işlem görmeye başladığında, IBIT dahil 11 ETF'ye tek tip 25.000 kontratlık pozisyon limiti uygulanıyordu. 10 Mart 2026'da NYSE'ye bağlı NYSE Arca ve NYSE American, bu 25.000 kontratlık üst sınırı tamamen kaldıran ve standart olmayan kullanım fiyatları, vade tarihleri ve kullanım biçimlerine izin veren FLEX opsiyon işlemlerini açan kural değişiklikleri sundu; SEC bunu onaylamak için yine 30 günlük bekleme süresinden feragat etti. Ardından 27 Nisan'da SEC, ayrı olarak sunulan ve IBIT opsiyon limitini piyasanın bir tarafı başına 1 milyon kontrata çıkaran Nasdaq ISE önerisini onayladı. NYSE Arca'nın az önce aldığı onay, kendi borsasını da aynı 1 milyon kontrat seviyesine getiriyor — bu da aynı dayanak varlığın (IBIT) opsiyonlarının bile listelendiği her borsada ayrı kural değişikliği başvurularına tabi olduğunu gösteriyor.</p>
+<p class="vi">Đợt tăng mới nhất này là bước tiếp theo trong tám tháng nới lỏng quy định về quyền chọn ETF tiền số. Khi quyền chọn ETF giao ngay Bitcoin và Ethereum lần đầu được giao dịch vào tháng 11 năm 2024, một giới hạn vị thế thống nhất 25.000 hợp đồng được áp dụng cho 11 quỹ ETF, bao gồm cả IBIT. Vào ngày 10 tháng 3 năm 2026, các sàn liên kết với NYSE là NYSE Arca và NYSE American đã nộp các thay đổi quy định xóa bỏ hoàn toàn mức trần 25.000 hợp đồng đó và mở ra giao dịch quyền chọn FLEX — cho phép giá thực hiện, ngày đáo hạn và kiểu thực hiện không chuẩn — và SEC một lần nữa miễn thời gian chờ 30 ngày để phê duyệt ngay lập tức. Sau đó, vào ngày 27 tháng 4, SEC đã phê duyệt riêng một đề xuất của Nasdaq ISE nâng giới hạn quyền chọn IBIT lên 1 triệu hợp đồng mỗi phía thị trường. Sự phê duyệt mà NYSE Arca vừa nhận được đưa chính sàn giao dịch của họ lên cùng mức 1 triệu đó — một lời nhắc rằng quyền chọn trên cùng một tài sản cơ sở (IBIT) đòi hỏi các đơn xin thay đổi quy định riêng biệt tại mỗi sàn nơi chúng được niêm yết.</p>
+
+<p class="ko">SEC는 이번 상향을 승인하며 100만계약이 2월 기준 IBIT 발행주식의 7.474%에 해당해 여전히 반조작(anti-manipulation) 안전장치와 부합한다고 판단했다고 밝혔다. NYSE Arca는 신청서에서 늘어난 한도가 기관 투자자들이 계좌를 여러 개로 쪼개지 않고도 대규모 포지션을 구축·헤지할 수 있게 해 유동성과 시장조성 역량을 뒷받침한다고 설명했다. 옵션 포지션 한도란 애초 한 투자자(또는 관련 그룹)가 특정 기초자산의 옵션을 지나치게 많이 보유해 가격을 조종하거나 시장을 왜곡할 위험을 막기 위해 거래소가 설정하는 상한선으로, 전통적으로 개별 주식·ETF의 시가총액·거래량이 커질수록 한도도 단계적으로 높아지는 구조를 갖는다.</p>
+<p class="en">In approving the increase, the SEC said 1 million contracts still equaled just 7.474% of IBIT's outstanding shares as of February data, and remained consistent with anti-manipulation safeguards. NYSE Arca argued in its filing that the higher limit supports liquidity and market-making capacity by letting institutional investors build and hedge large positions without having to split them across multiple accounts. Position limits exist in the first place because exchanges cap how many options contracts on a given underlying asset any single trader (or related group of traders) can hold, precisely to prevent that trader from cornering the market or distorting prices — and limits have traditionally scaled up in steps as an individual stock or ETF's market cap and trading volume grow.</p>
+<p class="ja">SECは今回の引き上げ承認にあたり、100万契約は2月時点のIBIT発行済み株式数の7.474%に相当し、なお反操作(アンチ・マニピュレーション)の安全装置と整合的だと判断したと説明した。NYSE Arcaは申請書の中で、限度拡大は機関投資家が複数口座に分割することなく大規模ポジションを構築・ヘッジできるようにし、流動性とマーケットメイキング能力を支えると主張している。そもそもオプションのポジション限度とは、単一の投資家(または関連グループ)が特定の原資産のオプションを過度に保有して価格操作や市場の歪みを引き起こすリスクを防ぐために取引所が設定する上限であり、伝統的に個別株やETFの時価総額・出来高が拡大するにつれて段階的に引き上げられる構造を持つ。</p>
+<p class="es">Al aprobar el aumento, la SEC señaló que 1 millón de contratos seguía equivaliendo a solo el 7,474% de las acciones en circulación de IBIT según datos de febrero, y que seguía siendo coherente con las salvaguardas contra la manipulación. NYSE Arca argumentó en su presentación que el límite más alto respalda la liquidez y la capacidad de creación de mercado al permitir que los inversores institucionales construyan y cubran grandes posiciones sin tener que dividirlas entre múltiples cuentas. Los límites de posición existen, en primer lugar, porque las bolsas limitan cuántos contratos de opciones sobre un determinado activo subyacente puede mantener un solo operador (o grupo relacionado de operadores), precisamente para evitar que ese operador acapare el mercado o distorsione los precios — y los límites tradicionalmente han aumentado por etapas a medida que crece la capitalización de mercado y el volumen de negociación de una acción o ETF.</p>
+<p class="de">Bei der Genehmigung der Erhöhung erklärte die SEC, dass 1 Million Kontrakte laut Februar-Daten weiterhin nur 7,474 Prozent der ausstehenden IBIT-Aktien entsprächen und mit den Vorkehrungen gegen Marktmanipulation vereinbar blieben. NYSE Arca argumentierte in seinem Antrag, das höhere Limit unterstütze Liquidität und Market-Making-Kapazität, indem es institutionellen Anlegern erlaube, große Positionen aufzubauen und abzusichern, ohne sie auf mehrere Konten aufteilen zu müssen. Positionslimits gibt es überhaupt deshalb, weil Börsen begrenzen, wie viele Optionskontrakte auf einen bestimmten Basiswert ein einzelner Händler (oder eine zusammenhängende Händlergruppe) halten darf — eben um zu verhindern, dass dieser Händler den Markt beherrscht oder Preise verzerrt —, und Limits wurden traditionell schrittweise angehoben, wenn Marktkapitalisierung und Handelsvolumen einer Aktie oder eines ETFs wachsen.</p>
+<p class="fr">En approuvant cette hausse, la SEC a indiqué que 1 million de contrats représentait toujours seulement 7,474 % des actions en circulation d'IBIT selon les données de février, et restait cohérent avec les garde-fous anti-manipulation. NYSE Arca a fait valoir dans son dépôt que la limite plus élevée soutient la liquidité et la capacité de tenue de marché en permettant aux investisseurs institutionnels de constituer et de couvrir de grandes positions sans avoir à les répartir sur plusieurs comptes. Les limites de position existent avant tout parce que les bourses plafonnent le nombre de contrats d'options sur un actif sous-jacent donné qu'un seul opérateur (ou groupe d'opérateurs lié) peut détenir, précisément pour empêcher cet opérateur d'accaparer le marché ou de fausser les prix — et ces limites ont traditionnellement été relevées par paliers à mesure que la capitalisation boursière et le volume de négociation d'une action ou d'un ETF augmentent.</p>
+<p class="pt">Ao aprovar o aumento, a SEC disse que 1 milhão de contratos ainda equivalia a apenas 7,474% das ações em circulação do IBIT, conforme dados de fevereiro, e permanecia consistente com as salvaguardas contra manipulação. A NYSE Arca argumentou em seu protocolo que o limite mais alto sustenta a liquidez e a capacidade de formação de mercado, permitindo que investidores institucionais construam e protejam grandes posições sem precisar dividi-las entre múltiplas contas. Limites de posição existem, antes de mais nada, porque as bolsas limitam quantos contratos de opções sobre determinado ativo-objeto um único operador (ou grupo relacionado de operadores) pode manter, justamente para impedir que esse operador monopolize o mercado ou distorça preços — e os limites tradicionalmente sobem em etapas à medida que a capitalização de mercado e o volume de negociação de uma ação ou ETF crescem.</p>
+<p class="tr">SEC bu artışı onaylarken, 1 milyon kontratın Şubat verilerine göre IBIT'in tedavüldeki paylarının yalnızca yüzde 7,474'üne denk geldiğini ve hâlâ manipülasyon karşıtı güvencelerle uyumlu olduğunu belirtti. NYSE Arca başvurusunda, daha yüksek limitin kurumsal yatırımcıların pozisyonlarını birden fazla hesaba bölmek zorunda kalmadan büyük pozisyonlar kurup korumasına olanak tanıyarak likiditeyi ve piyasa yapıcılık kapasitesini desteklediğini savundu. Pozisyon limitleri en başta, tek bir yatırımcının (veya ilişkili bir grubun) belirli bir dayanak varlığa ait opsiyonları aşırı miktarda elinde bulundurarak piyasayı ele geçirmesini veya fiyatları bozmasını önlemek amacıyla borsaların koyduğu üst sınırlar olarak var oluyor — ve limitler geleneksel olarak bir hissenin veya ETF'nin piyasa değeri ile işlem hacmi büyüdükçe kademeli olarak yükseltiliyor.</p>
+<p class="vi">Khi phê duyệt mức tăng này, SEC cho biết 1 triệu hợp đồng vẫn chỉ tương đương 7,474% số cổ phiếu đang lưu hành của IBIT theo dữ liệu tháng 2, và vẫn phù hợp với các biện pháp bảo vệ chống thao túng. NYSE Arca lập luận trong đơn nộp rằng giới hạn cao hơn hỗ trợ thanh khoản và năng lực tạo lập thị trường bằng cách cho phép các nhà đầu tư tổ chức xây dựng và phòng ngừa rủi ro cho các vị thế lớn mà không cần chia nhỏ chúng qua nhiều tài khoản. Giới hạn vị thế tồn tại trước hết vì các sàn giao dịch giới hạn số lượng hợp đồng quyền chọn trên một tài sản cơ sở nhất định mà một nhà giao dịch (hoặc nhóm nhà giao dịch liên quan) có thể nắm giữ, chính xác là để ngăn nhà giao dịch đó thao túng thị trường hoặc bóp méo giá — và các giới hạn theo truyền thống được nâng dần theo từng bậc khi vốn hóa thị trường và khối lượng giao dịch của một cổ phiếu hay ETF tăng lên.</p>
+
+<div class="ko">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">IBIT 옵션 한도 확대 타임라인</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">옵션 개시(2.5만)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca·American 한도 철폐</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">나스닥ISE 100만계약 승인</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca도 100만계약</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">SEC·연방관보, 코인마켓캡 아카데미, 코인텔레그래프 보도 기준.</p>
+</div>
+<div class="en">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Timeline of IBIT options limit increases</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Options launch (25K)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American scrap cap</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE approved 1M</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca matches 1M</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Based on SEC/Federal Register filings and CoinMarketCap Academy/Cointelegraph reporting.</p>
+</div>
+<div class="ja">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">IBITオプション限度拡大の年表</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">取引開始(2.5万)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca・American上限撤廃</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">ナスダックISE100万契約承認</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arcaも100万契約に</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">SEC・連邦官報、コインマーケットキャップ・アカデミー、コインテレグラフの報道に基づく。</p>
+</div>
+<div class="es">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Cronología del aumento del límite de opciones de IBIT</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Inicio opciones (25K)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American eliminan tope</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE aprueba 1M</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca iguala a 1M</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Según presentaciones de la SEC/Registro Federal y la cobertura de CoinMarketCap Academy/Cointelegraph.</p>
+</div>
+<div class="de">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Zeitleiste der IBIT-Optionslimit-Erhöhungen</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Optionsstart (25K)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American streichen Limit</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE genehmigt 1 Mio.</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca zieht auf 1 Mio. nach</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Basierend auf SEC-/Federal-Register-Einreichungen und Berichterstattung von CoinMarketCap Academy/Cointelegraph.</p>
+</div>
+<div class="fr">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Chronologie des hausses de la limite d'options IBIT</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Lancement options (25K)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American suppriment</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE approuve 1M</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca s'aligne à 1M</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">D'après les dépôts SEC/Federal Register et les articles de CoinMarketCap Academy/Cointelegraph.</p>
+</div>
+<div class="pt">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Linha do tempo dos aumentos do limite de opções da IBIT</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Início opções (25 mil)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American removem teto</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE aprova 1 milhão</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca também vai a 1M</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Com base em registros da SEC/Federal Register e reportagens da CoinMarketCap Academy/Cointelegraph.</p>
+</div>
+<div class="tr">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">IBIT opsiyon limiti artışlarının zaman çizelgesi</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Opsiyon başlangıcı (25B)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American limiti kaldırdı</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE 1M'yi onayladı</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca da 1M'ye ulaştı</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">SEC/Federal Register başvurularına ve CoinMarketCap Academy/Cointelegraph haberlerine dayanmaktadır.</p>
+</div>
+<div class="vi">
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Dòng thời gian tăng giới hạn quyền chọn IBIT</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="180" x2="655" y2="180" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="180" r="7" fill="#38bdf8"/>
+    <line x1="100" y1="180" x2="100" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="100" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2024.11</text>
+    <text x="100" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Bắt đầu (trần 25K)</text>
+    <circle cx="290" cy="180" r="7" fill="#fbbf24"/>
+    <line x1="290" y1="180" x2="290" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="290" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.3.10</text>
+    <text x="290" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca/American xóa trần</text>
+    <circle cx="480" cy="180" r="7" fill="#4ade80"/>
+    <line x1="480" y1="180" x2="480" y2="160" stroke="#3f3f46" stroke-width="1"/>
+    <text x="480" y="145" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.4.27</text>
+    <text x="480" y="125" fill="#d4d4d8" font-size="12" text-anchor="middle">Nasdaq ISE duyệt 1 triệu</text>
+    <circle cx="620" cy="180" r="8" fill="#a78bfa"/>
+    <line x1="620" y1="180" x2="620" y2="200" stroke="#3f3f46" stroke-width="1"/>
+    <text x="620" y="220" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle">2026.7.15</text>
+    <text x="620" y="240" fill="#d4d4d8" font-size="12" text-anchor="middle">NYSE Arca cũng đạt 1 triệu</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Dựa trên hồ sơ SEC/Federal Register và các bài viết từ CoinMarketCap Academy/Cointelegraph.</p>
+</div>
+
+<h2 class="ko">유동성이냐 집중위험이냐 — 엇갈리는 해석</h2>
+<h2 class="en">Liquidity or concentration risk — a split read</h2>
+<h2 class="ja">流動性か集中リスクか — 分かれる評価</h2>
+<h2 class="es">Liquidez o riesgo de concentración — una lectura dividida</h2>
+<h2 class="de">Liquidität oder Konzentrationsrisiko — eine gespaltene Lesart</h2>
+<h2 class="fr">Liquidité ou risque de concentration — une lecture partagée</h2>
+<h2 class="pt">Liquidez ou risco de concentração — uma leitura dividida</h2>
+<h2 class="tr">Likidite mi yoğunlaşma riski mi — ayrışan yorumlar</h2>
+<h2 class="vi">Thanh khoản hay rủi ro tập trung — cách nhìn nhận trái chiều</h2>
+
+<p class="ko">다만 이런 완화 흐름을 무조건적 호재로만 읽기는 어렵다. 애초 2만5000계약 한도가 2024년11월 크립토 ETF 옵션 거래 개시 시점에 도입된 이유는 시세조종과 과도한 변동성을 막기 위해서였다. 불과 8개월 만에 한도가 2만5000계약에서 100만계약으로, 즉 40배 늘어난 셈이다. SEC가 근거로 제시한 '100만계약이 IBIT 발행주식의 7.474%'라는 수치도 2월 시점 자료를 기준으로 한 것이어서, 그 사이 IBIT 발행주식이 계속 늘어난 현재 시점의 실제 비중과는 차이가 있을 수 있다.</p>
+<p class="en">Still, it would be premature to read this loosening trend as an unqualified positive. The original 25,000-contract cap was put in place in November 2024 specifically to prevent price manipulation and excessive volatility. In just eight months, the limit has grown from 25,000 to 1 million contracts — a 40-fold increase. The 7.474%-of-outstanding-shares figure the SEC cited as its justification was also based on February data, meaning the actual share of a continuously growing IBIT float today could look different.</p>
+<p class="ja">ただし、こうした緩和の流れを無条件の好材料とだけ読むのは早計だ。そもそも2万5000契約という上限が2024年11月の暗号資産ETFオプション取引開始時に導入されたのは、相場操縦と過度な変動を防ぐためだった。わずか8カ月で上限は2万5000契約から100万契約へ、すなわち40倍に拡大したことになる。SECが根拠として示した「100万契約はIBIT発行済み株式の7.474%」という数値も2月時点のデータに基づくもので、その後もIBITの発行済み株式が増え続けている現時点の実際の比率とは差が生じている可能性がある。</p>
+<p class="es">Aun así, sería prematuro leer esta tendencia de flexibilización como algo puramente positivo. El límite original de 25.000 contratos se estableció en noviembre de 2024 específicamente para prevenir la manipulación de precios y la volatilidad excesiva. En solo ocho meses, el límite ha pasado de 25.000 a 1 millón de contratos, un aumento de 40 veces. La cifra del 7,474% de las acciones en circulación que citó la SEC como justificación también se basó en datos de febrero, lo que significa que la proporción real de un float de IBIT en constante crecimiento hoy podría ser diferente.</p>
+<p class="de">Dennoch wäre es verfrüht, diesen Lockerungstrend als uneingeschränkt positiv zu lesen. Das ursprüngliche Limit von 25.000 Kontrakten wurde im November 2024 gezielt eingeführt, um Preismanipulation und übermäßige Volatilität zu verhindern. In nur acht Monaten ist das Limit von 25.000 auf 1 Million Kontrakte gestiegen — eine Ver40-fachung. Die von der SEC als Begründung angeführte Zahl von 7,474 Prozent der ausstehenden Aktien basierte ebenfalls auf Februar-Daten, was bedeutet, dass der tatsächliche Anteil an einem stetig wachsenden IBIT-Streubesitz heute anders aussehen könnte.</p>
+<p class="fr">Il serait néanmoins prématuré de considérer cette tendance à l'assouplissement comme purement positive. Le plafond initial de 25 000 contrats avait été instauré en novembre 2024 spécifiquement pour prévenir la manipulation des prix et une volatilité excessive. En seulement huit mois, la limite est passée de 25 000 à 1 million de contrats, soit une multiplication par 40. Le chiffre de 7,474 % des actions en circulation cité par la SEC comme justification reposait lui aussi sur des données de février, ce qui signifie que la part réelle d'un flottant d'IBIT en croissance continue pourrait aujourd'hui être différente.</p>
+<p class="pt">Ainda assim, seria prematuro ler essa tendência de flexibilização como algo puramente positivo. O teto original de 25 mil contratos foi estabelecido em novembro de 2024 especificamente para prevenir manipulação de preços e volatilidade excessiva. Em apenas oito meses, o limite passou de 25 mil para 1 milhão de contratos — um aumento de 40 vezes. O número de 7,474% das ações em circulação citado pela SEC como justificativa também se baseou em dados de fevereiro, o que significa que a proporção real de um float do IBIT em crescimento contínuo hoje pode ser diferente.</p>
+<p class="tr">Yine de bu gevşeme eğilimini koşulsuz bir olumlu gelişme olarak okumak erken olur. Orijinal 25.000 kontratlık üst sınır, Kasım 2024'te özellikle fiyat manipülasyonunu ve aşırı oynaklığı önlemek amacıyla getirilmişti. Sadece sekiz ayda limit 25.000'den 1 milyon kontrata, yani 40 katına çıktı. SEC'in gerekçe olarak gösterdiği "tedavüldeki payların yüzde 7,474'ü" rakamı da Şubat verilerine dayanıyordu; bu da sürekli büyüyen bir IBIT dolaşımdaki pay havuzunun bugünkü gerçek oranının farklı görünebileceği anlamına geliyor.</p>
+<p class="vi">Tuy nhiên, sẽ là quá sớm nếu coi xu hướng nới lỏng này hoàn toàn là tích cực. Mức trần 25.000 hợp đồng ban đầu được đặt ra vào tháng 11 năm 2024 với mục đích cụ thể là ngăn chặn thao túng giá và biến động quá mức. Chỉ trong tám tháng, giới hạn đã tăng từ 25.000 lên 1 triệu hợp đồng — tăng gấp 40 lần. Con số 7,474% cổ phiếu đang lưu hành mà SEC viện dẫn làm căn cứ cũng dựa trên dữ liệu tháng 2, nghĩa là tỷ lệ thực tế của lượng cổ phiếu IBIT đang lưu hành liên tục tăng lên hiện nay có thể khác đi.</p>
+
+<p class="ko">게다가 SEC는 이번에도 통상적인 30일 대기기간을 생략하고 즉시 발효를 허용했는데, 이런 신속 처리 관행은 절차의 효율성과 시장 안정성 검토의 충분성 사이에서 논쟁을 낳을 소지가 있다. 실제로 이 한도가 시장에 실질적 위험이 될지는 규정 자체보다 향후 소수의 대형 트레이더가 이 늘어난 여유분을 얼마나, 얼마나 빨리 채우는지에 달려 있다 — 즉 한도 상향은 '가능성의 문'을 여는 것일 뿐, 그 문을 실제로 얼마나 크게 이용할지는 아직 공개되지 않은 시장 데이터의 몫이다.</p>
+<p class="en">What's more, the SEC once again skipped its standard 30-day waiting period to let the rule take effect immediately — a fast-track practice that can raise questions about whether procedural speed and the adequacy of market-stability review are properly balanced. Whether this limit poses a real risk to the market will hinge less on the rule itself than on how much — and how quickly — a small number of large traders actually fill that newly opened headroom. In other words, raising the limit only opens a door; how wide it actually gets used is a matter for market data that hasn't been published yet.</p>
+<p class="ja">さらにSECは今回も通常の30日間据置期間を省略して即時発効を認めており、こうした迅速処理の慣行は、手続きの効率性と市場安定性審査の十分性との間で論争を生む余地がある。この限度が市場にとって実質的なリスクとなるかどうかは、規則そのものよりも、今後少数の大口トレーダーがこの拡大された余地をどれだけ、どれほど速く埋めていくかにかかっている — つまり限度引き上げは「可能性の扉」を開いたにすぎず、その扉が実際にどれほど大きく使われるかは、まだ公開されていない市場データ次第だ。</p>
+<p class="es">Además, la SEC volvió a saltarse su período de espera estándar de 30 días para permitir que la regla entrara en vigor de inmediato, una práctica de vía rápida que puede generar dudas sobre si la velocidad procesal y la suficiencia de la revisión de estabilidad del mercado están correctamente equilibradas. Que este límite represente un riesgo real para el mercado dependerá menos de la regla en sí que de cuánto —y con qué rapidez— un pequeño número de grandes operadores llegue a ocupar ese margen recién abierto. En otras palabras, elevar el límite solo abre una puerta; qué tan ampliamente se use en la práctica es algo que dependerá de datos de mercado aún no publicados.</p>
+<p class="de">Zudem verzichtete die SEC erneut auf ihre übliche 30-tägige Wartefrist, um die Regel sofort in Kraft treten zu lassen — eine Fast-Track-Praxis, die Fragen aufwerfen kann, ob verfahrensmäßige Geschwindigkeit und die Angemessenheit der Prüfung der Marktstabilität richtig ausbalanciert sind. Ob dieses Limit ein reales Risiko für den Markt darstellt, hängt weniger von der Regel selbst ab als davon, wie stark — und wie schnell — eine kleine Zahl großer Händler diesen neu geschaffenen Spielraum tatsächlich ausfüllt. Mit anderen Worten: Die Anhebung des Limits öffnet nur eine Tür; wie weit sie tatsächlich genutzt wird, ist eine Frage von Marktdaten, die noch nicht veröffentlicht wurden.</p>
+<p class="fr">De plus, la SEC a de nouveau contourné son délai d'attente standard de 30 jours pour laisser la règle entrer en vigueur immédiatement — une pratique accélérée qui peut soulever des questions sur le bon équilibre entre rapidité procédurale et rigueur de l'examen de la stabilité du marché. Que cette limite représente ou non un risque réel pour le marché dépendra moins de la règle elle-même que de la mesure — et de la rapidité — avec laquelle un petit nombre de gros opérateurs viendront effectivement occuper cette marge nouvellement ouverte. Autrement dit, relever la limite ne fait qu'ouvrir une porte ; l'ampleur de son utilisation réelle dépendra de données de marché qui n'ont pas encore été publiées.</p>
+<p class="pt">Além disso, a SEC mais uma vez dispensou seu período padrão de espera de 30 dias para permitir que a regra entrasse em vigor imediatamente — uma prática de via rápida que pode levantar questões sobre se a velocidade processual e a suficiência da revisão de estabilidade de mercado estão devidamente equilibradas. Se esse limite representa um risco real para o mercado dependerá menos da regra em si do que de quanto — e com que rapidez — um pequeno número de grandes operadores efetivamente ocupará essa margem recém-aberta. Em outras palavras, elevar o limite apenas abre uma porta; o quanto ela será realmente usada é uma questão que depende de dados de mercado ainda não publicados.</p>
+<p class="tr">Üstelik SEC, kuralın derhal yürürlüğe girmesine izin vermek için yine olağan 30 günlük bekleme süresini atladı — bu hızlandırılmış uygulama, prosedürel hızın piyasa istikrarı incelemesinin yeterliliğiyle doğru şekilde dengelenip dengelenmediği konusunda sorular doğurabilir. Bu limitin piyasa için gerçek bir risk oluşturup oluşturmayacağı, kuralın kendisinden çok, az sayıda büyük yatırımcının bu yeni açılan alanı ne kadar -ve ne hızda- dolduracağına bağlı olacak. Başka bir deyişle, limiti yükseltmek yalnızca bir kapı açıyor; o kapının gerçekte ne kadar geniş kullanılacağı henüz yayınlanmamış piyasa verilerine bağlı bir mesele.</p>
+<p class="vi">Hơn nữa, SEC một lần nữa bỏ qua thời gian chờ tiêu chuẩn 30 ngày để cho phép quy định có hiệu lực ngay lập tức — một cách xử lý nhanh có thể đặt ra câu hỏi liệu tốc độ thủ tục và mức độ đầy đủ của việc rà soát ổn định thị trường có được cân bằng đúng mức hay không. Liệu giới hạn này có gây ra rủi ro thực sự cho thị trường hay không sẽ phụ thuộc ít hơn vào bản thân quy định mà nhiều hơn vào việc một số ít nhà giao dịch lớn sẽ lấp đầy khoảng trống mới mở ra này nhiều đến đâu — và nhanh đến mức nào. Nói cách khác, việc nâng giới hạn chỉ mở ra một cánh cửa; cánh cửa đó thực sự được sử dụng rộng đến đâu còn phụ thuộc vào dữ liệu thị trường chưa được công bố.</p>
+
+<div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 시보(Cboe) 등 다른 거래소들도 같은 100만계약 한도를 신청하는지, (2) 실제 대형 트레이더들이 이 늘어난 한도를 채우기 시작하는지, (3) IBIT 옵션 시장의 미결제약정(open interest)이 한도 상향 이후 유의미하게 늘어나는지.</div>
+<div class="box en">💡 <strong>What to watch now:</strong> (1) whether other exchanges, such as Cboe, file for the same 1-million-contract limit; (2) whether large traders actually begin filling the expanded headroom; and (3) whether open interest in the IBIT options market rises meaningfully after the limit increase.</div>
+<div class="box ja">💡 <strong>今後注視すべきこと:</strong> (1) シカゴ・オプション取引所(Cboe)など他の取引所も同じ100万契約限度を申請するか、(2) 実際に大口トレーダーがこの拡大した限度を埋め始めるか、(3) IBITオプション市場の未決済建玉(オープンインタレスト)が限度引き上げ後に有意に増加するか。</div>
+<div class="box es">💡 <strong>Qué vigilar ahora:</strong> (1) si otras bolsas, como Cboe, solicitan el mismo límite de 1 millón de contratos; (2) si los grandes operadores realmente comienzan a ocupar el margen ampliado; y (3) si el interés abierto en el mercado de opciones de IBIT aumenta de forma significativa tras la subida del límite.</div>
+<div class="box de">💡 <strong>Worauf jetzt zu achten ist:</strong> (1) ob andere Börsen wie Cboe dasselbe 1-Millionen-Kontrakte-Limit beantragen; (2) ob große Händler tatsächlich beginnen, den erweiterten Spielraum auszufüllen; und (3) ob das Open Interest am IBIT-Optionsmarkt nach der Limiterhöhung spürbar steigt.</div>
+<div class="box fr">💡 <strong>À surveiller maintenant :</strong> (1) si d'autres bourses, comme Cboe, demandent la même limite d'un million de contrats ; (2) si de gros opérateurs commencent réellement à occuper la marge élargie ; et (3) si l'intérêt ouvert sur le marché des options IBIT augmente significativement après la hausse de la limite.</div>
+<div class="box pt">💡 <strong>O que observar agora:</strong> (1) se outras bolsas, como a Cboe, solicitam o mesmo limite de 1 milhão de contratos; (2) se grandes operadores realmente começam a ocupar a margem ampliada; e (3) se o interesse em aberto no mercado de opções do IBIT sobe de forma significativa após o aumento do limite.</div>
+<div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) Cboe gibi diğer borsaların da aynı 1 milyon kontratlık limiti başvurup başvurmayacağı; (2) büyük yatırımcıların genişletilmiş alanı gerçekten doldurmaya başlayıp başlamayacağı; ve (3) IBIT opsiyon piyasasındaki açık pozisyonun limit artışının ardından anlamlı ölçüde artıp artmayacağı.</div>
+<div class="box vi">💡 <strong>Điều cần theo dõi lúc này:</strong> (1) liệu các sàn khác như Cboe có xin cùng mức giới hạn 1 triệu hợp đồng hay không; (2) liệu các nhà giao dịch lớn có thực sự bắt đầu lấp đầy khoảng trống mở rộng hay không; và (3) liệu khối lượng hợp đồng mở (open interest) trên thị trường quyền chọn IBIT có tăng đáng kể sau khi nâng giới hạn hay không.</div>
+
+<div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="270" fill="#f4f4f5" font-size="150" font-weight="bold">1M</text>
+  <text x="60" y="330" fill="#06b6d4" font-size="42" font-weight="bold">IBIT</text>
+  <text x="60" y="420" fill="#a1a1aa" font-size="36" font-weight="bold">250K &#8594; 1,000,000</text>
+</svg></div>
+
+<p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 쿠코인(2026년7월16일, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), 코인게이프(2026년7월16일, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), 크립토닷뉴스(2026년7월16일, "BlackRock scores major SEC win as IBIT options cap quadruples"), 크립토브레이킹, 미국 증권거래위원회·연방관보(NYSE Arca 규정변경 공고, 2026년7월), 코인마켓캡 아카데미·코인텔레그래프(2026년3월10일 NYSE Arca·NYSE American 2만5000계약 한도 철폐 및 4월27일 나스닥ISE 승인 관련 기존 보도).</p>
+<p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: KuCoin (July 16, 2026, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), CoinGape (July 16, 2026, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), crypto.news (July 16, 2026, "BlackRock scores major SEC win as IBIT options cap quadruples"), CryptoBreaking, the U.S. SEC and Federal Register (NYSE Arca rule-change notice, July 2026), and prior CoinMarketCap Academy/Cointelegraph coverage of the March 10, 2026 removal of the 25,000-contract cap by NYSE Arca and NYSE American and the April 27, 2026 Nasdaq ISE approval.</p>
+<p class="ja" style="font-size:12px;color:#52525b;margin-top:24px">出典: クーコイン(2026年7月16日、"SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts")、コインゲイプ(2026年7月16日、"BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit")、クリプト・ドット・ニュース(2026年7月16日、"BlackRock scores major SEC win as IBIT options cap quadruples")、クリプトブレイキング、米SEC・連邦官報(NYSE Arca規則変更公告、2026年7月)、コインマーケットキャップ・アカデミー及びコインテレグラフによる2026年3月10日のNYSE Arca・NYSE Americanの2万5000契約上限撤廃と4月27日のナスダックISE承認に関する既存報道。</p>
+<p class="es" style="font-size:12px;color:#52525b;margin-top:24px">Fuentes: KuCoin (16 de julio de 2026, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), CoinGape (16 de julio de 2026, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), crypto.news (16 de julio de 2026, "BlackRock scores major SEC win as IBIT options cap quadruples"), CryptoBreaking, la SEC de EE. UU. y el Registro Federal (aviso de cambio de reglas de NYSE Arca, julio de 2026), y la cobertura previa de CoinMarketCap Academy/Cointelegraph sobre la eliminación del límite de 25.000 contratos por parte de NYSE Arca y NYSE American el 10 de marzo de 2026 y la aprobación de Nasdaq ISE del 27 de abril de 2026.</p>
+<p class="de" style="font-size:12px;color:#52525b;margin-top:24px">Quellen: KuCoin (16. Juli 2026, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), CoinGape (16. Juli 2026, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), crypto.news (16. Juli 2026, "BlackRock scores major SEC win as IBIT options cap quadruples"), CryptoBreaking, die US-SEC und das Federal Register (NYSE-Arca-Regeländerungsmitteilung, Juli 2026), sowie frühere Berichterstattung von CoinMarketCap Academy/Cointelegraph über die Abschaffung des 25.000-Kontrakte-Limits durch NYSE Arca und NYSE American am 10. März 2026 und die Genehmigung der Nasdaq ISE am 27. April 2026.</p>
+<p class="fr" style="font-size:12px;color:#52525b;margin-top:24px">Sources : KuCoin (16 juillet 2026, « SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts »), CoinGape (16 juillet 2026, « BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit »), crypto.news (16 juillet 2026, « BlackRock scores major SEC win as IBIT options cap quadruples »), CryptoBreaking, la SEC américaine et le Federal Register (avis de changement de règle de NYSE Arca, juillet 2026), et la couverture antérieure de CoinMarketCap Academy/Cointelegraph sur la suppression du plafond de 25 000 contrats par NYSE Arca et NYSE American le 10 mars 2026 et l'approbation de Nasdaq ISE du 27 avril 2026.</p>
+<p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: KuCoin (16 de julho de 2026, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), CoinGape (16 de julho de 2026, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), crypto.news (16 de julho de 2026, "BlackRock scores major SEC win as IBIT options cap quadruples"), CryptoBreaking, a SEC dos EUA e o Federal Register (aviso de mudança de regra da NYSE Arca, julho de 2026), e a cobertura anterior da CoinMarketCap Academy/Cointelegraph sobre a eliminação do teto de 25 mil contratos pela NYSE Arca e NYSE American em 10 de março de 2026 e a aprovação da Nasdaq ISE em 27 de abril de 2026.</p>
+<p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: KuCoin (16 Temmuz 2026, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), CoinGape (16 Temmuz 2026, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), crypto.news (16 Temmuz 2026, "BlackRock scores major SEC win as IBIT options cap quadruples"), CryptoBreaking, ABD SEC ve Federal Register (NYSE Arca kural değişikliği bildirimi, Temmuz 2026) ve CoinMarketCap Academy/Cointelegraph'ın 10 Mart 2026'da NYSE Arca ve NYSE American'ın 25.000 kontratlık üst sınırı kaldırmasına ve 27 Nisan 2026'daki Nasdaq ISE onayına ilişkin önceki haberleri.</p>
+<p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: KuCoin (16/7/2026, "SEC Approves BlackRock's IBIT Options Limit Increase to One Million Contracts"), CoinGape (16/7/2026, "BlackRock Bitcoin ETF (IBIT) Gets US SEC Approval to Increase Options Contract Limit"), crypto.news (16/7/2026, "BlackRock scores major SEC win as IBIT options cap quadruples"), CryptoBreaking, SEC Hoa Kỳ và Federal Register (thông báo thay đổi quy định của NYSE Arca, tháng 7/2026), và các bài viết trước đây của CoinMarketCap Academy/Cointelegraph về việc NYSE Arca và NYSE American xóa bỏ mức trần 25.000 hợp đồng vào ngày 10/3/2026 và sự phê duyệt của Nasdaq ISE vào ngày 27/4/2026.</p>
+<?php require __DIR__.'/_footer.php'; ?>
