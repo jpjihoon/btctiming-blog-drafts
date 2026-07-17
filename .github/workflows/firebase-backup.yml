@@ -51,8 +51,17 @@ jobs:
           if [ -n "$(git status --porcelain backups/)" ]; then
             git add backups/
             git commit -m "chore: firebase scoreHistory backup ($(date -u +%Y-%m-%d))"
-            git push
-            echo "백업 커밋 완료"
+            # ★ 블로그 루틴이 그 사이 main에 커밋하면 원격이 앞서가 push가 non-fast-forward로 거부된다
+            #   (실제로 Firebase Backup #13이 '! [rejected] (fetch first)' 로 실패).
+            #   push 실패 시 원격을 rebase로 얹고 재시도한다. 백업은 backups/ 만 건드려 rebase 충돌이 없다.
+            pushed=""
+            for i in 1 2 3 4 5; do
+              if git push; then pushed="1"; echo "백업 커밋 완료 (시도 $i)"; break; fi
+              echo "push 거부됨 — 원격 변경을 rebase 후 재시도 ($i/5)"
+              git pull --rebase origin main || git rebase --abort || true
+              sleep $(( (RANDOM % 6) + 2 ))
+            done
+            if [ -z "$pushed" ]; then echo "::error::5회 재시도 후에도 push 실패"; exit 1; fi
           else
             echo "변경 없음 — 커밋 생략"
           fi
