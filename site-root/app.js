@@ -2671,7 +2671,16 @@ function __animateNum(el, to){
   if(!el) return;
   to = Number(to); if(!isFinite(to)) return;
   var from = parseFloat(el.getAttribute('data-shown'));
-  if(!isFinite(from) || Math.abs(to-from) < 0.05){ el.textContent = to.toFixed(1); el.setAttribute('data-shown', to); return; }
+  // ★ 코인/모드가 바뀌면 애니메이션 없이 즉시 표시한다. 안 그러면 700ms 동안 이전 코인 점수가
+  //   숫자에 남아, 코인을 빠르게 전환할 때 "이전 코인 정보가 그대로 찍혀 보인다"(2026-07-18 지훈님).
+  //   애니메이션은 '같은 코인·같은 모드'의 60초 갱신일 때만 (그게 원래 의도).
+  var ctx = (typeof currentCoin !== 'undefined' ? currentCoin : '') + '_' + (typeof currentMode !== 'undefined' ? currentMode : '');
+  var sameCtx = (el.getAttribute('data-ctx') === ctx);
+  el.setAttribute('data-ctx', ctx);
+  if(!sameCtx || !isFinite(from) || Math.abs(to-from) < 0.05){
+    if(__scoreAnim.raf){ cancelAnimationFrame(__scoreAnim.raf); __scoreAnim.raf = 0; }
+    el.textContent = to.toFixed(1); el.setAttribute('data-shown', to); return;
+  }
   if(__scoreAnim.raf) cancelAnimationFrame(__scoreAnim.raf);
   var dur = 700, t0 = performance.now();
   function step(now){
