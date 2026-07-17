@@ -499,6 +499,11 @@
 <h2 class="pt">O Que 2025 Revelou — O Momento em Que a Amostra Se Esgotou</h2>
 <h2 class="tr">2025'in Gösterdiği — Örneklemin Tükendiği An</h2>
 <h2 class="vi">Điều Năm 2025 Cho Thấy — Khoảnh Khắc Mẫu Cạn Kiệt</h2>
+<h2 class="id">Apa yang Diungkap 2025 — Saat Sampel Kehabisan</h2>
+<h2 class="pl">Co Ujawnił 2025 Rok — Moment, Gdy Próba Się Wyczerpała</h2>
+<h2 class="it">Cosa Ha Rivelato il 2025 — Il Momento in Cui il Campione Si È Esaurito</h2>
+<h2 class="ru">Что Показал 2025 Год — Момент, Когда Выборка Иссякла</h2>
+<h2 class="zh">2025年揭示了什麼——樣本耗盡的那一刻</h2>
 
 <p class="ko">2025년 10월이 정확히 그 해였다. 2018년 이후 처음으로 10월이 마이너스(-3.69%)로 마감했고, 2019년부터 이어지던 6년 연속 상승 기록이 끊겼다. 흥미로운 점은 하락 자체보다 그 이전 몇 주간의 포지셔닝 데이터다. 옵션 시장의 콜 매수와 선물 미결제약정은 9월 말부터 이미 '업토버'를 가격에 반영한 상태로 쌓여 있었다. 실제 자금 유입이 그 기대를 따라오지 못하자, 이미 쌓인 롱 포지션은 청산 압력으로 전환됐고, 이는 오히려 하락 폭을 키우는 방향으로 작용했다. 계절성을 믿고 미리 들어간 포지션이, 계절성이 작동하지 않은 해에는 하락을 증폭시키는 연료가 된 셈이다.</p>
 <p class="en">October 2025 was exactly that year. For the first time since 2018, October closed negative (-3.69%), snapping the six-year green streak that had run from 2019 through 2024. What's more interesting than the decline itself is the positioning data from the weeks before it. Call buying in the options market and futures open interest had already been building since late September, pricing in "Uptober" before it arrived. When actual capital inflows failed to keep pace with that expectation, the long positioning already stacked up flipped into liquidation pressure — which amplified the decline rather than cushioning it. Positions opened in advance on the strength of belief in seasonality became, in the one year that seasonality didn't show up, fuel for a sharper drop.</p>
