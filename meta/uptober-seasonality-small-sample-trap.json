@@ -81,5 +81,10 @@
   "read_fr": "10",
   "read_pt": "10",
   "read_tr": "10",
-  "read_vi": "10"
+  "read_vi": "10",
+  "read_id": "10",
+  "read_pl": "10",
+  "read_it": "10",
+  "read_ru": "10",
+  "read_zh": "10"
 }
