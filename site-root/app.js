@@ -1081,7 +1081,19 @@ async function fetchScoreFromAPI(coin, mode) {
       if(data) {
         fetch(url, {signal: AbortSignal.timeout(20000)})
           .then(r => r.ok ? r.json() : null)
-          .then(fresh => { if(fresh) localStorage.setItem(cacheKey, JSON.stringify({data:fresh, ts:Date.now()})); })
+          .then(fresh => {
+            if(!fresh) return;
+            localStorage.setItem(cacheKey, JSON.stringify({data:fresh, ts:Date.now()}));
+            // 백그라운드로 받은 최신 점수가 화면에 표시된 값과 다르고, 아직 같은 코인을 보고 있으면
+            // 즉시 다시 렌더한다 (예전엔 캐시에만 저장하고 화면을 안 그려서, 새로고침 전까지 옛 점수가 남았음)
+            try {
+              var f0 = fresh.result && fresh.result.final, d0 = data.result && data.result.final;
+              if(f0 !== d0 && coin === currentCoin){
+                clearTimeout(__revalRender);
+                __revalRender = setTimeout(function(){ if(coin === currentCoin) loadAll(); }, 150);
+              }
+            } catch(e){}
+          })
           .catch(()=>{});
         return data;
       }
@@ -2654,7 +2666,7 @@ function showOnboardIfFirst(){
   tip.style.display='block';
 }
 // --- 점수 부드러운 전환 + 최신성 표시 (2026-07-18) ---
-var __scoreAnim = {}, __lastDataAt = 0;
+var __scoreAnim = {}, __lastDataAt = 0, __revalRender = 0;
 function __animateNum(el, to){
   if(!el) return;
   to = Number(to); if(!isFinite(to)) return;

@@ -21,7 +21,7 @@ $__canon = $__koPath ? i18nUrl($__koPath, $__ghLang) : ($GUIDE_CANONICAL ?? 'htt
 $__ghLang = resolveLang();   // 사이트 전역 단일 규칙(config.php)
 $__ghLangKeys = array_keys(SUPPORTED_LANGS);
 // nav-back: 기본은 대시보드(실시간 분석) 복귀. 페이지가 $GUIDE_NAVBACK로 재정의 가능.
-$__navBackDefault = ['ko'=>'← 실시간 분석으로 돌아가기','en'=>'← Back to Live Analysis','ja'=>'← リアルタイム分析に戻る','es'=>'← Volver al Análisis en Vivo','de'=>'← Zurück zur Live-Analyse','fr'=>"← Retour à l'analyse en direct",'pt'=>'← Voltar à análise ao vivo','tr'=>'← Canlı analize dön','vi'=>'← Quay lại phân tích trực tiếp'];
+$__navBackDefault = ['ko'=>'← 실시간 분석으로 돌아가기','en'=>'← Back to Live Analysis','ja'=>'← リアルタイム分析に戻る','es'=>'← Volver al Análisis en Vivo','de'=>'← Zurück zur Live-Analyse','fr'=>"← Retour à l'analyse en direct",'pt'=>'← Voltar à análise ao vivo','tr'=>'← Canlı analize dön','vi'=>'← Quay lại phân tích trực tiếp','id'=>'← Kembali ke Analisis Langsung','pl'=>'← Powrót do analizy na żywo','it'=>"← Torna all'analisi in diretta",'ru'=>'← Вернуться к анализу в реальном времени','zh'=>'← 返回即時分析'];
 $__navBackHref   = $GUIDE_NAVBACK['href']   ?? '/';
 $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
 ?>

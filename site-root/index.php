@@ -199,7 +199,7 @@ function h(string $s): string {
 <!DOCTYPE html>
 <html lang="<?= $htmlLang ?>">
 <head>
-<script src="/lang.js" defer></script>
+<script src="/lang.js?v=<?= @filemtime(__DIR__.'/lang.js') ?>" defer></script>
 <script src="https://s3.tradingview.com/tv.js" defer></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
@@ -1265,7 +1265,7 @@ window.BT_SUPPORTED_LANGS = SUPPORTED_LANG_CODES; // 공통 언어 유틸(lang-c
 window.BT_SERVER_LANG = <?= json_encode($lang) ?>; // 서버가 URL 기준으로 렌더한 언어(단일 진실)
 </script>
 <script>window.COINS_AUTO = <?= $__coinsJson ?>;</script>
-<script src="/lang-common.js" defer></script>
+<script src="/lang-common.js?v=<?= @filemtime(__DIR__.'/lang-common.js') ?>" defer></script>
 <script src="/app.js?v=<?= @filemtime(__DIR__.'/app.js') ?>" defer></script>
 <!-- 설정 모달(⚙️)의 HTML·CSS·위젯 JS 는 /_settings_modal.php 로 이전됨.
      _shared_footer.php 가 전 페이지에 include 하므로 블로그·용어사전 등에서도 그 자리에서 열린다. -->
