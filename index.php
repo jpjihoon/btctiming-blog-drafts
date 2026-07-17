@@ -156,9 +156,9 @@ $__matchQ = function(array $a) use ($__q, $__contains): bool {
 $__filterFn = function(array $x) use ($__cat, $__matchQ): bool { return ($__cat === 'all' || ($x['category'] ?? '') === $__cat) && $__matchQ($x); };
 $__filtered = array_values(array_filter($articles, $__filterFn));
 $__totalFiltered = count($__filtered);
-$__searchPh = ['ko'=>'글 검색 — 지표, 코인, 키워드…','en'=>'Search posts — indicators, coins, keywords…','ja'=>'記事を検索 — 指標, コイン, キーワード…','es'=>'Buscar — indicadores, monedas, palabras…','de'=>'Suchen — Indikatoren, Coins, Begriffe…','fr'=>'Rechercher — indicateurs, cryptos, mots…','pt'=>'Buscar — indicadores, moedas, palavras…','tr'=>'Ara — göstergeler, coinler, kelimeler…','vi'=>'Tìm bài — chỉ báo, coin, từ khóa…'];
-$__resWord  = ['ko'=>'검색 결과','en'=>'results','ja'=>'検索結果','es'=>'resultados','de'=>'Ergebnisse','fr'=>'résultats','pt'=>'resultados','tr'=>'sonuç','vi'=>'kết quả'];
-$__noRes    = ['ko'=>'검색 결과가 없습니다.','en'=>'No results found.','ja'=>'検索結果がありません。','es'=>'Sin resultados.','de'=>'Keine Ergebnisse.','fr'=>'Aucun résultat.','pt'=>'Nenhum resultado.','tr'=>'Sonuç bulunamadı.','vi'=>'Không có kết quả.'];
+$__searchPh = ['ko'=>'글 검색 — 지표, 코인, 키워드…','en'=>'Search posts — indicators, coins, keywords…','ja'=>'記事を検索 — 指標, コイン, キーワード…','es'=>'Buscar — indicadores, monedas, palabras…','de'=>'Suchen — Indikatoren, Coins, Begriffe…','fr'=>'Rechercher — indicateurs, cryptos, mots…','pt'=>'Buscar — indicadores, moedas, palavras…','tr'=>'Ara — göstergeler, coinler, kelimeler…','vi'=>'Tìm bài — chỉ báo, coin, từ khóa…','id'=>'Cari artikel — indikator, koin, kata kunci…','pl'=>'Szukaj wpisów — wskaźniki, coiny, słowa kluczowe…','it'=>'Cerca articoli — indicatori, coin, parole chiave…','ru'=>'Поиск статей — индикаторы, монеты, ключевые слова…','zh'=>'搜尋文章 — 指標、幣種、關鍵字…'];
+$__resWord  = ['ko'=>'검색 결과','en'=>'results','ja'=>'検索結果','es'=>'resultados','de'=>'Ergebnisse','fr'=>'résultats','pt'=>'resultados','tr'=>'sonuç','vi'=>'kết quả','id'=>'hasil','pl'=>'wyników','it'=>'risultati','ru'=>'результатов','zh'=>'筆結果'];
+$__noRes    = ['ko'=>'검색 결과가 없습니다.','en'=>'No results found.','ja'=>'検索結果がありません。','es'=>'Sin resultados.','de'=>'Keine Ergebnisse.','fr'=>'Aucun résultat.','pt'=>'Nenhum resultado.','tr'=>'Sonuç bulunamadı.','vi'=>'Không có kết quả.','id'=>'Tidak ada hasil.','pl'=>'Brak wyników.','it'=>'Nessun risultato.','ru'=>'Ничего не найдено.','zh'=>'找不到結果。'];
 
 // 초기 언어 결정: URL ?lang= 를 서버에서 읽어 <html>에 처음부터 반영(깜빡임 방지).
 // localStorage 기반 최종 복원은 아래 restoreBlogLang() JS가 담당한다.
@@ -459,7 +459,7 @@ foreach ($__langKeys as $__l) {
   <h1 class="fr-show">Blog</h1>
   <h1 class="pt-show">Blog</h1>
   <h1 class="tr-show">Blog</h1>
-  <h1 class="vi-show">Blog</h1>
+  <h1 class="vi-show">Blog</h1><h1 class="id-show">Blog</h1><h1 class="pl-show">Blog</h1><h1 class="it-show">Blog</h1><h1 class="ru-show">Блог</h1><h1 class="zh-show">部落格</h1>
 </div>
 
 
@@ -474,13 +474,13 @@ foreach ($__langKeys as $__l) {
     <a href="<?= h(i18nPath('/exchanges.php', $__blLang)) ?>" class="exch-banner">
       <span style="width:3px;align-self:stretch;background:var(--orange);border-radius:2px;flex-shrink:0"></span>
       <span class="exch-banner-tx">
-        <b><span class="ko">어떤 거래소로 시작할까?</span><span class="en-show">Which exchange to start with?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Qué exchange elegir?</span><span class="de-show">Welche Börse?</span><span class="fr-show">Quelle plateforme ?</span><span class="pt-show">Qual corretora?</span><span class="tr-show">Hangi borsa?</span><span class="vi-show">Sàn nào để bắt đầu?</span></b>
-        <span><span class="ko">바이낸스·바이비트 비교 + 최대 20% 수수료 할인</span><span class="en-show">Compare Binance & Bybit + up to 20% fee discount</span><span class="ja-show">Binance・Bybit 比較 + 最大20%割引</span><span class="es-show">Binance y Bybit + hasta 20% descuento</span><span class="de-show">Binance & Bybit + bis zu 20% Rabatt</span><span class="fr-show">Binance & Bybit + jusqu’à 20% de réduction</span><span class="pt-show">Binance e Bybit + até 20% de desconto</span><span class="tr-show">Binance & Bybit + %20’ye varan indirim</span><span class="vi-show">Binance & Bybit + giảm phí tới 20%</span></span>
+        <b><span class="ko">어떤 거래소로 시작할까?</span><span class="en-show">Which exchange to start with?</span><span class="ja-show">取引所はどこから?</span><span class="es-show">¿Qué exchange elegir?</span><span class="de-show">Welche Börse?</span><span class="fr-show">Quelle plateforme ?</span><span class="pt-show">Qual corretora?</span><span class="tr-show">Hangi borsa?</span><span class="vi-show">Sàn nào để bắt đầu?</span><span class="id-show">Mulai dari bursa mana?</span><span class="pl-show">Od której giełdy zacząć?</span><span class="it-show">Da quale exchange iniziare?</span><span class="ru-show">С какой биржи начать?</span><span class="zh-show">該從哪個交易所開始？</span></b>
+        <span><span class="ko">바이낸스·바이비트 비교 + 최대 20% 수수료 할인</span><span class="en-show">Compare Binance & Bybit + up to 20% fee discount</span><span class="ja-show">Binance・Bybit 比較 + 最大20%割引</span><span class="es-show">Binance y Bybit + hasta 20% descuento</span><span class="de-show">Binance & Bybit + bis zu 20% Rabatt</span><span class="fr-show">Binance & Bybit + jusqu’à 20% de réduction</span><span class="pt-show">Binance e Bybit + até 20% de desconto</span><span class="tr-show">Binance & Bybit + %20’ye varan indirim</span><span class="vi-show">Binance & Bybit + giảm phí tới 20%</span><span class="id-show">Bandingkan Binance & Bybit + diskon biaya hingga 20%</span><span class="pl-show">Porównaj Binance i Bybit + do 20% zniżki na prowizje</span><span class="it-show">Confronta Binance e Bybit + fino al 20% di sconto sulle commissioni</span><span class="ru-show">Сравните Binance и Bybit + скидка на комиссии до 20%</span><span class="zh-show">比較 Binance 與 Bybit + 最高 20% 手續費折扣</span></span>
       </span>
       <span class="exch-banner-ar">›</span>
     </a>
     
-    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span></h3><div id="popularList"><?php
+    <div><h3 class="sec-h"><span class="ko">많이 본 글</span><span class="en-show">Most Read</span><span class="ja-show">よく読まれた記事</span><span class="es-show">Más leídos</span><span class="de-show">Meistgelesen</span><span class="fr-show">Les plus lus</span><span class="pt-show">Mais lidos</span><span class="tr-show">En çok okunan</span><span class="vi-show">Đọc nhiều nhất</span><span class="id-show">Paling Banyak Dibaca</span><span class="pl-show">Najczęściej czytane</span><span class="it-show">Più letti</span><span class="ru-show">Популярное</span><span class="zh-show">熱門文章</span></h3><div id="popularList"><?php
       $__popSlugs = getPopularSlugs($articles, 5);
       $__bySlug = [];
       foreach ($articles as $__a2) { $__bySlug[basename($__a2['file'] ?? '', '.php')] = $__a2; }
@@ -520,7 +520,7 @@ endif; ?>
   </div>
 
   <?php $__more = max(0, $__totalFiltered - $__initCount); ?><button class="load-more" id="loadMoreBtn" onclick="loadMore()" style="<?= $__more>0?'':'display:none' ?>">
-    <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span>
+    <span class="ko">더 보기</span><span class="en-show">Load More</span><span class="ja-show">もっと見る</span><span class="es-show">Ver Más</span><span class="de-show">Mehr laden</span><span class="fr-show">Voir plus</span><span class="pt-show">Ver mais</span><span class="tr-show">Daha fazla</span><span class="vi-show">Xem thêm</span><span class="id-show">Muat Lagi</span><span class="pl-show">Załaduj więcej</span><span class="it-show">Carica altro</span><span class="ru-show">Показать ещё</span><span class="zh-show">載入更多</span>
     <span id="loadMoreCount"><?= $__more>0 ? '('.min($__more,12).')' : '' ?></span>
   </button>
   </div><!-- /blog-main -->
@@ -537,7 +537,7 @@ endif; ?>
     <h2 class="fr-show">Le tableau de bord des scores de timing en direct</h2>
     <h2 class="pt-show">O painel de pontuação de timing ao vivo</h2>
     <h2 class="tr-show">Canlı zamanlama puanı panosu</h2>
-    <h2 class="vi-show">Bảng điểm thời điểm trực tiếp</h2>
+    <h2 class="vi-show">Bảng điểm thời điểm trực tiếp</h2><h2 class="id-show">Dashboard skor timing langsung</h2><h2 class="pl-show">Panel wyników timingu na żywo</h2><h2 class="it-show">La dashboard dei punteggi di timing dal vivo</h2><h2 class="ru-show">Панель оценок тайминга в реальном времени</h2><h2 class="zh-show">即時時機分數儀表板</h2>
     <p class="ko">온체인·기술 지표를 종합해 비트코인과 알트코인의 매수·매도 타이밍을 0~10점으로 산출합니다. 지금 시장이 어느 국면에 있는지 대시보드에서 볼 수 있습니다.</p>
     <p class="en-show">It combines on-chain and technical indicators into a 0–10 buy/sell timing score for Bitcoin and major altcoins, so you can see which phase the market is in right now.</p>
     <p class="ja-show">オンチェーン・テクニカル指標を統合し、ビットコインと主要アルトコインの売買タイミングを0〜10点で算出します。今の市場がどの局面かをダッシュボードで確認できます。</p>
@@ -546,7 +546,7 @@ endif; ?>
     <p class="fr-show">Il combine des indicateurs on-chain et techniques en un score de timing d'achat/vente de 0 à 10 pour le Bitcoin et les principales altcoins, pour voir dans quelle phase se trouve le marché.</p>
     <p class="pt-show">Combina indicadores on-chain e técnicos em uma pontuação de timing de compra/venda de 0 a 10 para Bitcoin e as principais altcoins, para ver em que fase o mercado está agora.</p>
     <p class="tr-show">Zincir üstü ve teknik göstergeleri Bitcoin ve başlıca altcoinler için 0–10 alım/satım zamanlama puanında birleştirir; piyasanın şu an hangi aşamada olduğunu görebilirsiniz.</p>
-    <p class="vi-show">Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.</p>
+    <p class="vi-show">Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.</p><p class="id-show">Menggabungkan indikator on-chain dan teknikal menjadi skor timing beli/jual 0–10 untuk Bitcoin dan altcoin utama, sehingga Anda bisa melihat fase pasar saat ini.</p><p class="pl-show">Łączy wskaźniki on-chain i techniczne w wynik timingu kupna/sprzedaży 0–10 dla Bitcoina i głównych altcoinów, dzięki czemu widzisz, w jakiej fazie jest teraz rynek.</p><p class="it-show">Combina indicatori on-chain e tecnici in un punteggio di timing di acquisto/vendita 0–10 per Bitcoin e le principali altcoin, così puoi vedere in che fase si trova ora il mercato.</p><p class="ru-show">Объединяет on-chain и технические индикаторы в оценку тайминга покупки/продажи 0–10 для Bitcoin и основных альткоинов, чтобы вы видели, в какой фазе сейчас рынок.</p><p class="zh-show">將鏈上與技術指標整合為 0–10 的比特幣與主要山寨幣買賣時機分數，讓你看出市場目前處於哪個階段。</p>
     </div>
     <a href="/" class="ko">실시간 분석 보러가기 →</a>
     <a href="/en" class="en-show">Go to Live Analysis →</a>
@@ -556,7 +556,7 @@ endif; ?>
     <a href="/fr" class="fr-show">Voir l'analyse en direct →</a>
     <a href="/pt" class="pt-show">Ver análise ao vivo →</a>
     <a href="/tr" class="tr-show">Canlı analizi gör →</a>
-    <a href="/vi" class="vi-show">Xem phân tích trực tiếp →</a>
+    <a href="/vi" class="vi-show">Xem phân tích trực tiếp →</a><a class="id-show">Ke Analisis Langsung →</a><a class="pl-show">Przejdź do analizy na żywo →</a><a class="it-show">Vai all'analisi dal vivo →</a><a class="ru-show">К анализу в реальном времени →</a><a class="zh-show">前往即時分析 →</a>
   </div>
 </div>
 <?php require __DIR__ . '/../_shared_footer.php'; ?>
