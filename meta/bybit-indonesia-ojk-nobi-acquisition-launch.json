@@ -68,6 +68,11 @@
   "desc_pt": "A Bybit lançou em 15 de julho uma entidade licenciada localmente na Indonésia ao adquirir a NOBI, ficando sob a supervisão da autoridade financeira OJK. É a primeira grande exchange estrangeira a entrar via aquisição desde que a supervisão passou da Bappebti para a OJK em 2025, mirando um mercado de 22,4 milhões de investidores cripto. Examinamos o vácuo de confiança deixado pelo hack de US$ 22 milhões da Indodax em 2024 — e o contraponto de que a própria Bybit sofreu o maior hack cripto da história, uma violação de US$ 1,5 bilhão em 2025.",
   "desc_tr": "Bybit, 15 Temmuz'da NOBI'yi satın alarak Endonezya'da finans otoritesi OJK'nın denetimi altında yerel lisanslı bir kuruluş başlattı. 2025'te denetim yetkisi Bappebti'den OJK'ya devredildiğinden bu yana satın alma yoluyla giriş yapan ilk büyük yabancı borsa olarak 22,4 milyon kripto yatırımcısından oluşan bir pazarı hedefliyor. 2024'te Indodax'ın 22 milyon dolarlık hacklenmesinin bıraktığı güven boşluğunu — ve Bybit'in kendisinin de 2025'te 1,5 milyar dolarlık kripto tarihinin en büyük hacklenmesine maruz kaldığı karşı görüşü inceliyoruz.",
   "desc_vi": "Bybit đã ra mắt một pháp nhân được cấp phép tại địa phương ở Indonesia vào ngày 15 tháng 7 bằng cách mua lại NOBI, đặt dưới sự giám sát của cơ quan tài chính OJK. Đây là sàn giao dịch nước ngoài lớn đầu tiên gia nhập qua hình thức mua lại kể từ khi quyền giám sát chuyển từ Bappebti sang OJK vào năm 2025, nhắm đến thị trường 22,4 triệu nhà đầu tư crypto. Chúng tôi xem xét khoảng trống niềm tin mà vụ hack 22 triệu đô la của Indodax năm 2024 để lại — và quan điểm phản biện rằng chính Bybit cũng từng hứng chịu vụ hack crypto lớn nhất lịch sử, thiệt hại 1,5 tỷ đô la vào năm 2025.",
+  "desc_id": "Bybit meluncurkan entitas berlisensi lokal di Indonesia dengan mengakuisisi NOBI di bawah pengawasan OJK, menargetkan pasar 22,4 juta investor kripto.",
+  "desc_pl": "Bybit uruchomił lokalny podmiot w Indonezji, przejmując NOBI pod nadzorem OJK i celując w rynek 22,4 mln inwestorów kryptowalutowych w kraju.",
+  "desc_it": "Bybit ha lanciato un'entità con licenza locale in Indonesia acquisendo NOBI sotto la supervisione dell'OJK, puntando a 22,4 milioni di investitori crypto.",
+  "desc_ru": "Bybit запустила локальную структуру в Индонезии, поглотив NOBI под надзором OJK и нацелившись на рынок из 22,4 млн криптоинвесторов.",
+  "desc_zh": "Bybit透過收購NOBI在印尼推出受OJK監管的本地實體，鎖定2,240萬名加密貨幣投資者市場，這是自監管權由Bappebti移交OJK以來首家透過收購方式進入的大型海外交易所，儘管Bybit自身2025年也曾遭遇15億美元的史上最大規模駭客攻擊。",
   "read_ko": "6",
   "read_en": "6",
   "read_ja": "6",
@@ -76,5 +81,10 @@
   "read_fr": "6",
   "read_pt": "6",
   "read_tr": "6",
-  "read_vi": "6"
+  "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6"
 }

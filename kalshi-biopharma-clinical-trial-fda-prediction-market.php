@@ -475,6 +475,11 @@
   <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Este artigo não é aconselhamento de investimento.</p>
   <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Bu yazı yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Bài viết này không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Artikel ini bukan merupakan saran investasi.</p>
+  <p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Ten artykuł nie stanowi porady inwestycyjnej.</p>
+  <p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Questo articolo non costituisce consulenza di investimento.</p>
+  <p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: STAT News, Bloomberg, Forbes, The Boston Globe, Gizmodo, AppliedXL, FinanceFeeds, Fortune. Данная статья не является инвестиционной рекомендацией.</p>
+  <p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：STAT News、Bloomberg、Forbes、The Boston Globe、Gizmodo、AppliedXL、FinanceFeeds、Fortune。本文不構成投資建議。</p>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <text x="60" y="260" fill="#f4f4f5" font-size="140" font-weight="bold">$100K+</text>

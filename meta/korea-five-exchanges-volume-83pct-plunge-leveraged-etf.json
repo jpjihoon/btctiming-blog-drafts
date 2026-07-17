@@ -68,6 +68,11 @@
   "desc_pt": "As cinco maiores exchanges de cripto da Coreia viram o volume médio diário de julho despencar 83,6% em relação a junho, atingindo uma mínima de 33 meses. Com a volatilidade do Kospi superando a do Bitcoin e capital de curto prazo migrando para ETFs alavancados, os resultados do primeiro trimestre da Dunamu e da Bithumb desabaram igualmente — ainda que com estratégias opostas. Examinamos as variáveis por trás da queda, do erro de 620 mil BTC da Bithumb em fevereiro à votação da Lei CLARITY.",
   "desc_tr": "Kore'nin en büyük beş kripto borsasında Temmuz'daki günlük ortalama işlem hacmi Haziran'a göre %83,6 çökerek 33 ayın en düşük seviyesine geriledi. Kospi oynaklığı Bitcoin'i geçerken kısa vadeli sermaye kaldıraçlı ETF'lere yönelirken, Dunamu ve Bithumb'ın birinci çeyrek sonuçları birlikte çöktü — ancak ikisi de zıt stratejiler izledi. Şubat ayındaki Bithumb'ın 620.000 BTC'lik hatalı ödemesinden CLARITY Yasası oylamasına kadar düşüşün arkasındaki değişkenleri inceliyoruz.",
   "desc_vi": "Khối lượng giao dịch trung bình ngày trong tháng 7 của 5 sàn giao dịch lớn nhất Hàn Quốc sụt giảm 83,6% so với tháng 6, chạm mức thấp nhất trong 33 tháng. Khi biến động của chỉ số Kospi vượt qua Bitcoin và dòng vốn ngắn hạn chuyển sang ETF đòn bẩy, kết quả kinh doanh quý 1 của Dunamu và Bithumb đều sụp đổ — dù hai bên theo đuổi chiến lược trái ngược nhau. Chúng tôi xem xét các biến số đằng sau đợt sụt giảm, từ sự cố chi nhầm 620.000 BTC của Bithumb hồi tháng 2 đến cuộc bỏ phiếu Đạo luật CLARITY.",
+  "desc_id": "Volume harian 5 bursa kripto terbesar Korea anjlok 83,6% pada Juli, terendah 33 bulan, akibat volatilitas Kospi lampaui Bitcoin dan insiden Bithumb.",
+  "desc_pl": "Dzienny wolumen 5 największych giełd krypto Korei spadł o 83,6% w lipcu, minimum od 33 miesięcy, gdy zmienność Kospi przewyższyła Bitcoina.",
+  "desc_it": "Il volume giornaliero delle 5 maggiori borse crypto coreane è crollato dell'83,6% a luglio, minimo di 33 mesi, mentre il Kospi ha superato il Bitcoin.",
+  "desc_ru": "Дневной объём торгов на 5 крупнейших криптобиржах Кореи рухнул на 83,6% в июле, минимум за 33 месяца, пока волатильность Kospi превышала биткоин.",
+  "desc_zh": "南韓五大交易所7月1至16日日均交易量較6月暴跌83.6%,創33個月新低。Kospi波動性超越比特幣,短線資金轉向槓桿ETF,Dunamu與Bithumb第一季獲利雙雙崩跌,Bithumb失誤事件也加劇了投資人的信任危機,影響資金回流時機。",
   "read_ko": "6",
   "read_en": "6",
   "read_ja": "6",
@@ -76,5 +81,10 @@
   "read_fr": "6",
   "read_pt": "6",
   "read_tr": "6",
-  "read_vi": "6"
+  "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6"
 }
