@@ -136,14 +136,14 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
 <?php if ($prevSlug || $nextSlug): ?>
 <div class="prevnext">
   <?php if ($prevSlug): $pA = $ARTICLES[$prevSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
-    $pnPrev = ['ko'=>'← 이전 글','en'=>'← Previous','ja'=>'← 前の記事','es'=>'← Anterior','de'=>'← Zurück','fr'=>'← Précédent','pt'=>'← Anterior','tr'=>'← Önceki','vi'=>'← Trước']; ?>
+    $pnPrev = ['ko'=>'← 이전 글','en'=>'← Previous','ja'=>'← 前の記事','es'=>'← Anterior','de'=>'← Zurück','fr'=>'← Précédent','pt'=>'← Anterior','tr'=>'← Önceki','vi'=>'← Trước','id'=>'← Sebelumnya','pl'=>'← Poprzedni','it'=>'← Precedente','ru'=>'← Назад','zh'=>'← 上一篇']; ?>
     <a class="pn-link pn-prev" data-base="/blog/<?= h($prevSlug) ?>.php" href="<?= h(i18nPath('/blog/'.$prevSlug.'.php', $lang)) ?>">
       <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnPrev[$pl] ?? $pnPrev['en']).'</span>'; ?></span>
       <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pA["title_{$pl}"] ?? ($pA['title_en'] ?? '')).'</span>'; ?></span>
     </a>
   <?php else: ?><span class="pn-link pn-empty"></span><?php endif; ?>
   <?php if ($nextSlug): $nA = $ARTICLES[$nextSlug]; $pnKeys = array_keys(SUPPORTED_LANGS);
-    $pnNext = ['ko'=>'다음 글 →','en'=>'Next →','ja'=>'次の記事 →','es'=>'Siguiente →','de'=>'Weiter →','fr'=>'Suivant →','pt'=>'Próximo →','tr'=>'Sonraki →','vi'=>'Tiếp →']; ?>
+    $pnNext = ['ko'=>'다음 글 →','en'=>'Next →','ja'=>'次の記事 →','es'=>'Siguiente →','de'=>'Weiter →','fr'=>'Suivant →','pt'=>'Próximo →','tr'=>'Sonraki →','vi'=>'Tiếp →','id'=>'Berikutnya →','pl'=>'Następny →','it'=>'Successivo →','ru'=>'Далее →','zh'=>'下一篇 →']; ?>
     <a class="pn-link pn-next" data-base="/blog/<?= h($nextSlug) ?>.php" href="<?= h(i18nPath('/blog/'.$nextSlug.'.php', $lang)) ?>">
       <span class="pn-dir"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($pnNext[$pl] ?? $pnNext['en']).'</span>'; ?></span>
       <span class="pn-title"><?php foreach ($pnKeys as $pl) echo '<span class="'.$pl.'">'.h($nA["title_{$pl}"] ?? ($nA['title_en'] ?? '')).'</span>'; ?></span>
@@ -155,8 +155,8 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
 <?php // ── 카테고리에서 더 보기 (같은 카테고리 · 최신) ── ?>
 <?php if (!empty($moreInCat)):
   $__catNm  = CATEGORY_META[$catKey] ?? CATEGORY_META['guide'];
-  $__moreH  = ['ko'=>'%s에서 더 보기','en'=>'More in %s','ja'=>'%sをもっと見る','es'=>'Más en %s','de'=>'Mehr aus %s','fr'=>'Plus dans %s','pt'=>'Mais em %s','tr'=>'%s: daha fazla','vi'=>'Xem thêm trong %s'];
-  $__moreN  = ['ko'=>'같은 카테고리 · 최신','en'=>'Same category · Latest','ja'=>'同カテゴリ · 最新','es'=>'Misma categoría · Reciente','de'=>'Gleiche Kategorie · Neueste','fr'=>'Même catégorie · Récent','pt'=>'Mesma categoria · Recente','tr'=>'Aynı kategori · En yeni','vi'=>'Cùng chuyên mục · Mới nhất']; ?>
+  $__moreH  = ['ko'=>'%s에서 더 보기','en'=>'More in %s','ja'=>'%sをもっと見る','es'=>'Más en %s','de'=>'Mehr aus %s','fr'=>'Plus dans %s','pt'=>'Mais em %s','tr'=>'%s: daha fazla','vi'=>'Xem thêm trong %s','id'=>'Lainnya di %s','pl'=>'Więcej w %s','it'=>'Altro in %s','ru'=>'Ещё в %s','zh'=>'更多 %s'];
+  $__moreN  = ['ko'=>'같은 카테고리 · 최신','en'=>'Same category · Latest','ja'=>'同カテゴリ · 最新','es'=>'Misma categoría · Reciente','de'=>'Gleiche Kategorie · Neueste','fr'=>'Même catégorie · Récent','pt'=>'Mesma categoria · Recente','tr'=>'Aynı kategori · En yeni','vi'=>'Cùng chuyên mục · Mới nhất','id'=>'Kategori sama · Terbaru','pl'=>'Ta sama kategoria · Najnowsze','it'=>'Stessa categoria · Recenti','ru'=>'Та же категория · Свежее','zh'=>'同分類 · 最新']; ?>
 <div class="other-articles mod-block">
   <div class="mod-head">
     <?php foreach (array_keys(SUPPORTED_LANGS) as $__l) echo '<h3 class="'.$__l.'">'.h(sprintf($__moreH[$__l] ?? $__moreH['en'], $__catNm[$__l] ?? $__catNm['en'])).'</h3>'; ?>
@@ -170,9 +170,9 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
 
 <?php // ── 많이 본 글 (조회수 · 전체/카테고리 탭) ── ?>
 <?php if (!empty($popAll)):
-  $__popH = ['ko'=>'많이 본 글','en'=>'Most Read','ja'=>'よく読まれている記事','es'=>'Más Leídos','de'=>'Meistgelesen','fr'=>'Les plus lus','pt'=>'Mais Lidos','tr'=>'En Çok Okunanlar','vi'=>'Đọc nhiều nhất'];
-  $__popN = ['ko'=>'최근 24시간 조회수','en'=>'Last 24h views','ja'=>'直近24時間の閲覧数','es'=>'Vistas últimas 24h','de'=>'Aufrufe (24h)','fr'=>'Vues sur 24h','pt'=>'Views (24h)','tr'=>'Son 24s görüntülenme','vi'=>'Lượt xem 24h'];
-  $__tabAll = ['ko'=>'전체 인기','en'=>'Overall','ja'=>'全体','es'=>'General','de'=>'Gesamt','fr'=>'Général','pt'=>'Geral','tr'=>'Genel','vi'=>'Tổng thể'];
+  $__popH = ['ko'=>'많이 본 글','en'=>'Most Read','ja'=>'よく読まれている記事','es'=>'Más Leídos','de'=>'Meistgelesen','fr'=>'Les plus lus','pt'=>'Mais Lidos','tr'=>'En Çok Okunanlar','vi'=>'Đọc nhiều nhất','id'=>'Terpopuler','pl'=>'Najczęściej czytane','it'=>'Più letti','ru'=>'Популярное','zh'=>'熱門文章'];
+  $__popN = ['ko'=>'최근 24시간 조회수','en'=>'Last 24h views','ja'=>'直近24時間の閲覧数','es'=>'Vistas últimas 24h','de'=>'Aufrufe (24h)','fr'=>'Vues sur 24h','pt'=>'Views (24h)','tr'=>'Son 24s görüntülenme','vi'=>'Lượt xem 24h','id'=>'Dilihat 24 jam terakhir','pl'=>'Wyświetlenia z 24h','it'=>'Visite ultime 24h','ru'=>'Просмотры за 24ч','zh'=>'近24小時瀏覽'];
+  $__tabAll = ['ko'=>'전체 인기','en'=>'Overall','ja'=>'全体','es'=>'General','de'=>'Gesamt','fr'=>'Général','pt'=>'Geral','tr'=>'Genel','vi'=>'Tổng thể','id'=>'Keseluruhan','pl'=>'Ogółem','it'=>'Generale','ru'=>'Всего','zh'=>'整體'];
   $__catNm2 = CATEGORY_META[$catKey] ?? CATEGORY_META['guide'];
   $__rank = function($list) use ($blogSuffix, $lang) {
     $i = 0;
@@ -555,8 +555,8 @@ if (defined('COIN_SYMBOLS')) {
     }
 }
 $__blogCoinsJson = json_encode($__blogCoins, JSON_UNESCAPED_UNICODE);
-$__coinSheetTitle = ['ko'=>'코인 전환','en'=>'Switch coin','ja'=>'コイン切替','es'=>'Cambiar','de'=>'Coin wechseln','fr'=>'Changer de crypto','pt'=>'Trocar moeda','tr'=>'Coin değiştir','vi'=>'Đổi coin'][$lang] ?? 'Switch coin';
-$__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'お気に入り','es'=>'Favoritos','de'=>'Favoriten','fr'=>'Vos favoris','pt'=>'Seus favoritos','tr'=>'Favorileriniz','vi'=>'Yêu thích của bạn'][$lang] ?? 'Your favorites';
+$__coinSheetTitle = ['ko'=>'코인 전환','en'=>'Switch coin','ja'=>'コイン切替','es'=>'Cambiar','de'=>'Coin wechseln','fr'=>'Changer de crypto','pt'=>'Trocar moeda','tr'=>'Coin değiştir','vi'=>'Đổi coin','id'=>'Ganti koin','pl'=>'Zmień monetę','it'=>'Cambia coin','ru'=>'Сменить монету','zh'=>'切換幣種'][$lang] ?? 'Switch coin';
+$__coinSheetSub = ['ko'=>'즐겨찾기한 코인','en'=>'Your favorites','ja'=>'お気に入り','es'=>'Favoritos','de'=>'Favoriten','fr'=>'Vos favoris','pt'=>'Seus favoritos','tr'=>'Favorileriniz','vi'=>'Yêu thích của bạn','id'=>'Favorit Anda','pl'=>'Twoje ulubione','it'=>'I tuoi preferiti','ru'=>'Избранное','zh'=>'你的最愛'][$lang] ?? 'Your favorites';
 ?>
 <style>
 .blog-tabbar{display:none}
@@ -683,9 +683,9 @@ foreach (array_slice($__combSource, 0, 4, true) as $__rSlug => $__rA) {
     }
     $__combItems[] = $__it;
 }
-$__combHeads2 = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với'];
-$__combEye  = ['ko'=>'이어서 읽기','en'=>'Read Next','ja'=>'次に読む','es'=>'Sigue leyendo','de'=>'Weiterlesen','fr'=>'À lire ensuite','pt'=>'Leia a seguir','tr'=>'Sıradaki','vi'=>'Đọc tiếp'];
-$__combNote = ['ko'=>'이 글과 연관성이 높은 글','en'=>'Closely related to this article','ja'=>'この記事と関連性の高い記事','es'=>'Muy relacionados con este artículo','de'=>'Eng verwandt mit diesem Artikel','fr'=>'Étroitement liés à cet article','pt'=>'Muito relacionados a este artigo','tr'=>'Bu yazıyla yakından ilgili','vi'=>'Liên quan chặt chẽ đến bài này'];
+$__combHeads2 = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với','id'=>'Paling Cocok Dengan','pl'=>'Najlepiej w połączeniu z','it'=>'Meglio Combinato Con','ru'=>'Лучше всего вместе с','zh'=>'最佳搭配閱讀'];
+$__combEye  = ['ko'=>'이어서 읽기','en'=>'Read Next','ja'=>'次に読む','es'=>'Sigue leyendo','de'=>'Weiterlesen','fr'=>'À lire ensuite','pt'=>'Leia a seguir','tr'=>'Sıradaki','vi'=>'Đọc tiếp','id'=>'Baca Selanjutnya','pl'=>'Czytaj dalej','it'=>'Leggi dopo','ru'=>'Читать далее','zh'=>'接著閱讀'];
+$__combNote = ['ko'=>'이 글과 연관성이 높은 글','en'=>'Closely related to this article','ja'=>'この記事と関連性の高い記事','es'=>'Muy relacionados con este artículo','de'=>'Eng verwandt mit diesem Artikel','fr'=>'Étroitement liés à cet article','pt'=>'Muito relacionados a este artigo','tr'=>'Bu yazıyla yakından ilgili','vi'=>'Liên quan chặt chẽ đến bài này','id'=>'Sangat terkait dengan artikel ini','pl'=>'Ściśle powiązane z tym artykułem','it'=>'Strettamente correlati a questo articolo','ru'=>'Тесно связано с этой статьёй','zh'=>'與本文高度相關的文章'];
 ?>
 <script>
 window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'eyebrow'=>$__combEye,'note'=>$__combNote,'items'=>$__combItems], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;
