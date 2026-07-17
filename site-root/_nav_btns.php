@@ -18,9 +18,9 @@ $__nbHide = $__nbHide ?? '';
 if (!function_exists('nbh')) { function nbh($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); } }
 
 $__nbL = [
-  'blog' => ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog'],
-  'glos' => ['ko'=>'용어사전','en'=>'Glossary','ja'=>'用語集','es'=>'Glosario','de'=>'Glossar','fr'=>'Glossaire','pt'=>'Glossário','tr'=>'Sözlük','vi'=>'Thuật ngữ'],
-  'set'  => ['ko'=>'설정','en'=>'Settings','ja'=>'設定','es'=>'Ajustes','de'=>'Einstellungen','fr'=>'Paramètres','pt'=>'Configurações','tr'=>'Ayarlar','vi'=>'Cài đặt'],
+  'blog' => ['ko'=>'블로그','en'=>'Blog','ja'=>'ブログ','es'=>'Blog','de'=>'Blog','fr'=>'Blog','pt'=>'Blog','tr'=>'Blog','vi'=>'Blog','id'=>'Blog','pl'=>'Blog','it'=>'Blog','ru'=>'Блог','zh'=>'部落格'],
+  'glos' => ['ko'=>'용어사전','en'=>'Glossary','ja'=>'用語集','es'=>'Glosario','de'=>'Glossar','fr'=>'Glossaire','pt'=>'Glossário','tr'=>'Sözlük','vi'=>'Thuật ngữ','id'=>'Glosarium','pl'=>'Słownik','it'=>'Glossario','ru'=>'Глоссарий','zh'=>'術語表'],
+  'set'  => ['ko'=>'설정','en'=>'Settings','ja'=>'設定','es'=>'Ajustes','de'=>'Einstellungen','fr'=>'Paramètres','pt'=>'Configurações','tr'=>'Ayarlar','vi'=>'Cài đặt','id'=>'Pengaturan','pl'=>'Ustawienia','it'=>'Impostazioni','ru'=>'Настройки','zh'=>'設定'],
 ];
 $__nbT = function(string $k) use ($__nbL, $__nbLang) { return $__nbL[$k][$__nbLang] ?? $__nbL[$k]['en']; };
 ?>

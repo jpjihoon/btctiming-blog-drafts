@@ -144,17 +144,57 @@ const HALVING_MONTHS = 21;
 //   index.php의 LANGS 사전 문자열)는 이 배열 추가와 별개로 반드시 채워야 함 — 이건 배관이 아니라 콘텐츠라
 //   구조를 아무리 잘 짜도 언어당 번역량 자체는 줄지 않음.
 // 'ko' 값이 항상 fallback 언어(=URL 접미사 없음)이므로 배열 첫 번째 요소는 'ko' 유지.
+// ★ 2026-07-17: 언어 5개 추가 (id/pl/it/ru/zh) — 9개 → 14개
+//   근거(실측):
+//     인도네시아  Chainalysis 2025 채택 7위 / 투자자 2,019만 / 인구 2.8억 / 구글 우세 / 라틴
+//     러시아어    2.5억 화자(러·우크라·카자흐·벨라루스). 우크라이나 채택 최상위. 키릴이지만 LTR
+//                 AdSense 지원 언어다. 막힌 건 '러시아 소재 게시자'지 언어가 아니다
+//     폴란드      카페24 통계에 콘텐츠 0인데도 이미 잡힘(1.8MB/30회)
+//     이탈리아    라틴·LTR·AdSense 지원
+//     중국(번체)  홍콩이 콘텐츠 0인데 이미 5위(11.4MB/333회) — de(261회)·ja(179회)보다 많다
+//                 대만 2,300만 + 홍콩 750만 = 3,100만. 전부 구글 씀
+//
+//   ★ 'zh' 로 쓰는 이유 (zh-TW 가 아니라):
+//     코드베이스가 '언어코드 = 소문자 2글자'를 전제한 곳이 35곳 있다(실측).
+//       [a-z]{2} 정규식 9곳 / 길이2 전제 23곳 / og.php:15 preg_replace('/[^a-z]/') 1곳 / 경로조합 2곳
+//     하이픈이 들어가면 그게 전부 깨진다. URL 은 /zh/ 로 두고 hreflang 만 zh-TW 로 내보낸다.
+//
+//   ★ 안 넣은 것:
+//     아랍어 — RTL. 사이트 전체 레이아웃 재작업이라 별도 프로젝트다
+//     간체   — 본토는 구글 차단 + 크립토 금지 → 검색 트래픽 0.
+//              남는 건 싱가포르·말레이시아 화교 약 1,000만인데 그쪽은 영어로 금융을 읽는다
+//     힌디어 — 인도가 채택 1위지만 인도 크립토 사용자는 금융 콘텐츠를 영어로 본다
+//
+//   ★ hreflang 필드 신설:
+//     기존엔 배열 키를 그대로 hreflang 으로 썼다(8곳). 'zh' 를 그대로 쓰면 구글에 '중국어 전반'이
+//     되어 번체 신호가 약하다. 또 'pt' 는 콘텐츠가 브라질 포르투갈어인데 hreflang 이 'pt' 였다.
+//     키(URL용)와 hreflang(SEO용)을 분리한다. 나중에 간체를 넣어도 이 구조면 충돌이 없다.
+//
+// - 단, 실제 번역 콘텐츠(_meta.php의 title_xx, 각 .php의 <p class="xx"> 블록, UI 맵 506개,
+//   glossary_data.json)는 이 배열 추가와 별개로 반드시 채워야 함 — 배관과 콘텐츠는 다르다.
+//   배관만 넣은 시점에는 미번역 UI 가 영어로 폴백된다(기존 동작과 동일).
+// 'ko' 값이 항상 fallback 언어(=URL 접미사 없음)이므로 배열 첫 번째 요소는 'ko' 유지.
 const SUPPORTED_LANGS = [
-    'ko' => ['code' => 'KO', 'flag' => '🇰🇷', 'name' => '한국어'],
-    'en' => ['code' => 'EN', 'flag' => '🇺🇸', 'name' => 'English'],
-    'ja' => ['code' => 'JA', 'flag' => '🇯🇵', 'name' => '日本語'],
-    'es' => ['code' => 'ES', 'flag' => '🇪🇸', 'name' => 'Español'],
-    'de' => ['code' => 'DE', 'flag' => '🇩🇪', 'name' => 'Deutsch'],
-    'fr' => ['code' => 'FR', 'flag' => '🇫🇷', 'name' => 'Français'],
-    'pt' => ['code' => 'PT', 'flag' => '🇧🇷', 'name' => 'Português'],
-    'tr' => ['code' => 'TR', 'flag' => '🇹🇷', 'name' => 'Türkçe'],
-    'vi' => ['code' => 'VI', 'flag' => '🇻🇳', 'name' => 'Tiếng Việt'],
+    'ko' => ['code' => 'KO', 'flag' => '🇰🇷', 'name' => '한국어',     'hreflang' => 'ko'],
+    'en' => ['code' => 'EN', 'flag' => '🇺🇸', 'name' => 'English',    'hreflang' => 'en'],
+    'ja' => ['code' => 'JA', 'flag' => '🇯🇵', 'name' => '日本語',      'hreflang' => 'ja'],
+    'es' => ['code' => 'ES', 'flag' => '🇪🇸', 'name' => 'Español',    'hreflang' => 'es'],
+    'de' => ['code' => 'DE', 'flag' => '🇩🇪', 'name' => 'Deutsch',    'hreflang' => 'de'],
+    'fr' => ['code' => 'FR', 'flag' => '🇫🇷', 'name' => 'Français',   'hreflang' => 'fr'],
+    'pt' => ['code' => 'PT', 'flag' => '🇧🇷', 'name' => 'Português',  'hreflang' => 'pt-BR'],
+    'tr' => ['code' => 'TR', 'flag' => '🇹🇷', 'name' => 'Türkçe',     'hreflang' => 'tr'],
+    'vi' => ['code' => 'VI', 'flag' => '🇻🇳', 'name' => 'Tiếng Việt', 'hreflang' => 'vi'],
+    'id' => ['code' => 'ID', 'flag' => '🇮🇩', 'name' => 'Indonesia',  'hreflang' => 'id'],
+    'pl' => ['code' => 'PL', 'flag' => '🇵🇱', 'name' => 'Polski',     'hreflang' => 'pl'],
+    'it' => ['code' => 'IT', 'flag' => '🇮🇹', 'name' => 'Italiano',   'hreflang' => 'it'],
+    'ru' => ['code' => 'RU', 'flag' => '🇷🇺', 'name' => 'Русский',    'hreflang' => 'ru'],
+    'zh' => ['code' => 'ZH', 'flag' => '🇹🇼', 'name' => '繁體中文',    'hreflang' => 'zh-TW'],
 ];
+
+/** hreflang 값. SUPPORTED_LANGS 에 없으면 키를 그대로 쓴다(안전망). */
+function hreflangOf(string $lang): string {
+    return SUPPORTED_LANGS[$lang]['hreflang'] ?? $lang;
+}
 
 /** 언어 코드로 블로그/페이지 URL suffix 생성. 'ko'는 접미사 없음(fallback). */
 /**

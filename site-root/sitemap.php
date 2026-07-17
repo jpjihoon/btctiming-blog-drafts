@@ -210,7 +210,11 @@ foreach ($entries as $e) {
     echo "    <changefreq>" . $e['changefreq'] . "</changefreq>\n";
     echo "    <priority>" . $e['priority'] . "</priority>\n";
     foreach ($e['hreflangs'] as $lang => $url) {
-        echo '    <xhtml:link rel="alternate" hreflang="' . $lang . '" href="' . htmlspecialchars($url, ENT_XML1) . '"/>' . "\n";
+        // ★ 2026-07-17: 배열 키(URL용 코드)가 아니라 hreflang 값을 출력한다.
+        //   'x-default' 는 언어 코드가 아니므로 hreflangOf() 가 그대로 돌려준다(안전망).
+        //   이걸 안 하면 zh 가 'zh'(중국어 전반)로, pt 가 'pt'(유럽 포르투갈어)로 나간다.
+        $hl = ($lang === 'x-default') ? 'x-default' : hreflangOf($lang);
+        echo '    <xhtml:link rel="alternate" hreflang="' . $hl . '" href="' . htmlspecialchars($url, ENT_XML1) . '"/>' . "\n";
     }
     echo "  </url>\n";
 }

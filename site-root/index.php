@@ -128,8 +128,69 @@ $META = [
         'og_image_alt' => 'BTCtiming.com — Phân Tích Thời Điểm Vào Long/Short Bitcoin',
         'locale' => 'vi_VN',
     ],
+    'id' => [
+        'title' => 'Timing Beli/Jual Bitcoin | BTCtiming.com — Analisis Indikator On-Chain Real-Time',
+        'desc' => 'Analisis timing entry long/short real-time untuk Bitcoin, Ethereum, dan koin utama berbasis indikator on-chain — MVRV Z-Score, NUPL, STH-SOPR, Hash Ribbon, Coinbase Premium, dan 13 indikator digabung jadi satu skor beli/jual.',
+        'keywords' => 'timing beli bitcoin, timing jual bitcoin, sinyal entry crypto, bottom bitcoin, top bitcoin, indikator on-chain, MVRV, NUPL, SOPR, hash ribbon, coinbase premium, timing long short, timing altcoin, timing beli ethereum',
+        'language' => 'Indonesian',
+        'og_title' => 'Analisis Timing Beli/Jual Bitcoin | BTCtiming.com',
+        'og_desc' => 'Analisis timing long/short real-time untuk Bitcoin dan altcoin berbasis 13 indikator on-chain — MVRV, NUPL, STH-SOPR, Hash Ribbon, dan lainnya.',
+        'tw_title' => 'Timing Beli/Jual Bitcoin | BTCtiming.com',
+        'tw_desc' => 'Analisis timing long/short Bitcoin real-time bertenaga indikator on-chain.',
+        'og_image_alt' => 'BTCtiming.com — Analisis Timing Entry Long/Short Bitcoin',
+        'locale' => 'id_ID',
+    ],
+    'pl' => [
+        'title' => 'Timing kupna/sprzedaży Bitcoina | BTCtiming.com — Analiza wskaźników on-chain na żywo',
+        'desc' => 'Analiza czasu wejścia na pozycje long/short dla Bitcoina, Ethereum i głównych kryptowalut w czasie rzeczywistym w oparciu o wskaźniki on-chain — MVRV Z-Score, NUPL, STH-SOPR, Hash Ribbon, Coinbase Premium i 13 wskaźników połączonych w jeden wynik kupna/sprzedaży.',
+        'keywords' => 'timing kupna bitcoina, timing sprzedaży bitcoina, sygnał wejścia w krypto, dołek bitcoina, szczyt bitcoina, wskaźnik on-chain, MVRV, NUPL, SOPR, hash ribbon, coinbase premium, timing long short, timing altcoinów, timing kupna ethereum',
+        'language' => 'Polish',
+        'og_title' => 'Analiza timingu kupna/sprzedaży Bitcoina | BTCtiming.com',
+        'og_desc' => 'Analiza czasu wejścia long/short dla Bitcoina i altcoinów w czasie rzeczywistym w oparciu o 13 wskaźników on-chain — MVRV, NUPL, STH-SOPR, Hash Ribbon i więcej.',
+        'tw_title' => 'Timing kupna/sprzedaży Bitcoina | BTCtiming.com',
+        'tw_desc' => 'Analiza timingu long/short dla Bitcoina w czasie rzeczywistym w oparciu o wskaźniki on-chain.',
+        'og_image_alt' => 'BTCtiming.com — Analiza czasu wejścia long/short dla Bitcoina',
+        'locale' => 'pl_PL',
+    ],
+    'it' => [
+        'title' => 'Timing Acquisto/Vendita Bitcoin | BTCtiming.com — Analisi in Tempo Reale degli Indicatori On-Chain',
+        'desc' => 'Analisi in tempo reale del timing di ingresso long/short per Bitcoin, Ethereum e le principali crypto tramite indicatori on-chain — MVRV Z-Score, NUPL, STH-SOPR, Hash Ribbon, Coinbase Premium e 13 indicatori combinati in un unico punteggio di acquisto/vendita.',
+        'keywords' => 'timing acquisto bitcoin, timing vendita bitcoin, segnale di ingresso crypto, minimo bitcoin, massimo bitcoin, indicatore on-chain, MVRV, NUPL, SOPR, hash ribbon, coinbase premium, timing long short, timing altcoin, timing acquisto ethereum',
+        'language' => 'Italian',
+        'og_title' => 'Analisi del Timing di Acquisto/Vendita Bitcoin | BTCtiming.com',
+        'og_desc' => 'Analisi in tempo reale del timing long/short per Bitcoin e altcoin tramite 13 indicatori on-chain — MVRV, NUPL, STH-SOPR, Hash Ribbon e altro.',
+        'tw_title' => 'Timing Acquisto/Vendita Bitcoin | BTCtiming.com',
+        'tw_desc' => 'Analisi in tempo reale del timing long/short di Bitcoin basata sugli indicatori on-chain.',
+        'og_image_alt' => 'BTCtiming.com — Analisi del Timing di Ingresso Long/Short su Bitcoin',
+        'locale' => 'it_IT',
+    ],
+    'ru' => [
+        'title' => 'Тайминг покупки/продажи Bitcoin | BTCtiming.com — Анализ ончейн-индикаторов в реальном времени',
+        'desc' => 'Анализ тайминга входа в лонг/шорт по Bitcoin, Ethereum и топовым монетам в реальном времени на основе ончейн-индикаторов — MVRV Z-Score, NUPL, STH-SOPR, Hash Ribbon, Coinbase Premium и ещё 13 индикаторов, объединённых в единый сигнал покупки/продажи.',
+        'keywords' => 'когда покупать биткоин, когда продавать биткоин, сигнал входа в крипту, дно биткоина, вершина биткоина, ончейн-индикатор, MVRV, NUPL, SOPR, Hash Ribbon, Coinbase Premium, тайминг лонг шорт, тайминг альткоинов, когда покупать Ethereum',
+        'language' => 'Russian',
+        'og_title' => 'Анализ тайминга покупки/продажи Bitcoin | BTCtiming.com',
+        'og_desc' => 'Анализ тайминга лонг/шорт по Bitcoin и альткоинам в реальном времени на основе 13 ончейн-индикаторов — MVRV, NUPL, STH-SOPR, Hash Ribbon и других.',
+        'tw_title' => 'Тайминг покупки/продажи Bitcoin | BTCtiming.com',
+        'tw_desc' => 'Анализ тайминга лонг/шорт по Bitcoin в реальном времени на основе ончейн-индикаторов.',
+        'og_image_alt' => 'BTCtiming.com — Анализ тайминга входа в лонг/шорт по Bitcoin',
+        'locale' => 'ru_RU',
+    ],
+    'zh' => [
+        'title' => '比特幣買賣時機 | BTCtiming.com — 即時鏈上指標分析',
+        'desc' => '運用鏈上指標即時分析比特幣、以太坊與主流幣種的多空進場時機 — 整合 MVRV Z-Score、NUPL、STH-SOPR、Hash Ribbon、Coinbase Premium 等 13 項指標，濃縮成單一買賣時機分數。',
+        'keywords' => '比特幣買進時機, 比特幣賣出時機, 加密貨幣進場訊號, 比特幣底部, 比特幣頂部, 鏈上指標, MVRV, NUPL, SOPR, Hash Ribbon, Coinbase Premium, 多空時機, 山寨幣時機, 以太坊買進時機',
+        'language' => 'Chinese (Traditional)',
+        'og_title' => '比特幣買賣時機分析 | BTCtiming.com',
+        'og_desc' => '運用 13 項鏈上指標即時分析比特幣與山寨幣的多空時機 — MVRV、NUPL、STH-SOPR、Hash Ribbon 等一應俱全。',
+        'tw_title' => '比特幣買賣時機 | BTCtiming.com',
+        'tw_desc' => '鏈上指標驅動的比特幣多空時機即時分析。',
+        'og_image_alt' => 'BTCtiming.com — 比特幣多空進場時機分析',
+        'locale' => 'zh_TW',
+    ],
 ];
 $m = $META[$lang] ?? $META['en']; // SUPPORTED_LANGS에는 있지만 아직 META 콘텐츠를 안 채운 언어는 영어로 폴백
+$ogImg = is_file(__DIR__ . "/og-image-$lang.png") ? "og-image-$lang.png" : 'og-image-en.png'; // 언어별 OG 이미지가 없으면 영어본으로 폴백(깨진 미리보기 방지)
 
 function h(string $s): string {
     return htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
@@ -172,7 +233,7 @@ function h(string $s): string {
 <link rel="canonical" href="<?= h(i18nUrl('/', $lang)) ?>">
 <!-- hreflang: 홈페이지의 언어별 버전이 서로 대응 관계라는 걸 구글에 명시. SUPPORTED_LANGS 기반이라 새 언어 추가시 자동 반영됨. -->
 <?php foreach (SUPPORTED_LANGS as $hlLang => $hlInfo): ?>
-<link rel="alternate" hreflang="<?= $hlLang ?>" href="<?= h(i18nUrl('/', $hlLang)) ?>">
+<link rel="alternate" hreflang="<?= h(hreflangOf($hlLang)) ?>" href="<?= h(i18nUrl('/', $hlLang)) ?>">
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="https://btctiming.com/">
 
@@ -180,7 +241,7 @@ function h(string $s): string {
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?= h($m['og_title']) ?>">
 <meta property="og:description" content="<?= h($m['og_desc']) ?>">
-<meta property="og:image" content="https://btctiming.com/og-image-<?= h($lang) ?>.png">
+<meta property="og:image" content="https://btctiming.com/<?= h($ogImg) ?>">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="<?= h($m['og_image_alt']) ?>">
@@ -195,7 +256,7 @@ function h(string $s): string {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?= h($m['tw_title']) ?>">
 <meta name="twitter:description" content="<?= h($m['tw_desc']) ?>">
-<meta name="twitter:image" content="https://btctiming.com/og-image-<?= h($lang) ?>.png">
+<meta name="twitter:image" content="https://btctiming.com/<?= h($ogImg) ?>">
 
 <!-- 검색엔진 소유 확인 — 아래 코드는 각 콘솔에서 발급받은 값으로 교체 필요 -->
 <!-- 네이버 서치어드바이저: https://searchadvisor.naver.com -->
@@ -1182,7 +1243,7 @@ $__seoSub = [
     </div>
   </div>
 </div>
-<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 0;font-size:10px;color:var(--t3)">
+<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
       <span data-i="footerSources">Auto-fetched</span>: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
       <span data-i="footerDisclaimer2">On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.</span><br><br>
       <div id="blogCategoryBar" style="display:flex;align-items:center;gap:0;max-width:100%;overflow:hidden">

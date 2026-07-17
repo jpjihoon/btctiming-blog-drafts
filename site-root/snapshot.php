@@ -37,9 +37,26 @@ if (!hash_equals(SNAPSHOT_TOKEN, (string)$key)) {
 $FB_BASE  = defined('FIREBASE_DB_URL') && FIREBASE_DB_URL
     ? rtrim(FIREBASE_DB_URL, '/')
     : 'https://btctiming-chat-default-rtdb.asia-southeast1.firebasedatabase.app';
-// 자기 자신의 api.php 호출 (내부에서 localhost로 때려 외부 왕복 최소화; 실패 시 공개 도메인 폴백)
+// 자기 자신의 api.php 호출.
+//
+// ★ 2026-07-17 수정 — 2차 폴백이 Cloudflare 를 타서 '자기 레이트리밋에 자기가 차단'되고 있었다.
+//   실측(방화벽 로그 24시간): api-ratelimit 차단 165건이 전부 clientIP=222.122.198.186,
+//   즉 서버 자신이었다. 외부 공격은 0건.
+//   원인: 1차 127.0.0.1 이 실패하면 2차로 https://btctiming.com/api.php 를 부르는데,
+//         그건 Cloudflare 를 거치므로 클라이언트 IP 가 원본 서버로 잡힌다.
+//         snapshot 은 코인 50개 × buy/sell = 100회를 연달아 던지므로
+//         30회/10초 규칙에 정확히 걸려 그 뒤 70여 회가 통째로 차단된다.
+//         (09:00 에 46건, 21:00 에 53건 차단 = 그 시각 로컬 호출이 통째로 실패한 것)
+//   대응: 2차를 '원본 IP 직결'로 바꾼다. Host 헤더는 이미 붙이고 있어 vhost 매칭도 된다.
+//         Cloudflare 를 안 거치므로 레이트리밋에 안 걸린다.
+//         3차(공개 도메인)는 최후 수단으로 남긴다 — 원본 IP 가 바뀌었을 때의 안전망.
+//
+//   ※ Cloudflare 무료 플랜은 레이트리밋 식에 ip.src / http.request.uri.query 를 못 쓴다.
+//     (Advanced Rate Limiting 필요) 그래서 규칙 쪽에서 서버 IP 를 예외 처리할 수 없다.
+//     이 파일을 고치는 게 유일한 방법이다.
 $API_LOCAL  = 'http://127.0.0.1/api.php';
-$API_PUBLIC = 'https://btctiming.com/api.php';
+$API_ORIGIN = 'http://222.122.198.186/api.php';   // 원본 직결. Cloudflare 안 거침
+$API_PUBLIC = 'https://btctiming.com/api.php';    // 최후 수단(레이트리밋에 걸릴 수 있음)
 
 $coins = array_keys(COIN_SYMBOLS);
 $modes = [['buy', 'long'], ['sell', 'short']];
@@ -145,14 +162,28 @@ foreach ($coins as $coin) {
 // 1차: 로컬 병렬 호출
 $scoreMap = fetch_scores_parallel($API_LOCAL, array_map(fn($j) => [$j[0], $j[1]], $jobs));
 
-// 2차: 로컬에서 실패한 것만 공개 도메인으로 재시도 (병렬)
+// 2차: 로컬에서 실패한 것만 '원본 IP 직결'로 재시도 (병렬)
+//   Cloudflare 를 안 거치므로 레이트리밋에 안 걸린다.
 $retry = [];
 foreach ($jobs as [$coin, $mode, $modekey]) {
     if (($scoreMap["$coin|$mode"] ?? null) === null) $retry[] = [$coin, $mode];
 }
+$usedOrigin = 0; $usedPublic = 0;
 if ($retry) {
-    $retryMap = fetch_scores_parallel($API_PUBLIC, $retry);
+    $usedOrigin = count($retry);
+    $retryMap = fetch_scores_parallel($API_ORIGIN, $retry);
     foreach ($retryMap as $k => $v) { if ($v !== null) $scoreMap[$k] = $v; }
+}
+
+// 3차: 그래도 실패한 것만 공개 도메인 (최후 수단 — 레이트리밋에 걸릴 수 있다)
+$retry2 = [];
+foreach ($jobs as [$coin, $mode, $modekey]) {
+    if (($scoreMap["$coin|$mode"] ?? null) === null) $retry2[] = [$coin, $mode];
+}
+if ($retry2) {
+    $usedPublic = count($retry2);
+    $retryMap2 = fetch_scores_parallel($API_PUBLIC, $retry2);
+    foreach ($retryMap2 as $k => $v) { if ($v !== null) $scoreMap[$k] = $v; }
 }
 
 // Firebase 저장 (병렬 — 저장은 가벼우니 한 번에)
@@ -193,6 +224,9 @@ curl_multi_close($pushMh);
 
 echo json_encode([
     'ok'      => $ok,
+    // 어느 경로를 썼는지 — 0/0 이면 1차 로컬만으로 다 됐다는 뜻(정상)
+    // origin 이 크면 127.0.0.1 이 자주 실패하는 것, public 이 크면 원본 IP 직결도 안 되는 것
+    'fallback' => ['origin' => $usedOrigin, 'public' => $usedPublic],
     'fail'    => $fail,
     't'       => $nowMs,
     'at'      => gmdate('Y-m-d H:i:s', (int) ($nowMs / 1000)) . ' UTC',

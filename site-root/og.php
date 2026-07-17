@@ -13,7 +13,7 @@
 
 $slug = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['slug'] ?? ''));
 $lang = preg_replace('/[^a-z]/', '', strtolower($_GET['lang'] ?? 'ko'));
-$allowedLangs = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+$allowedLangs = ['ko','en','ja','es','de','fr','pt','tr','vi','id','pl','it','ru','zh'];
 if (!in_array($lang, $allowedLangs, true)) $lang = 'ko';
 if ($slug === '') { http_response_code(400); exit('bad slug'); }
 
@@ -237,7 +237,7 @@ function og_pick_svg_for_lang(string $body, string $lang): ?string {
 // class="xx" (xx = 지원 9개 언어 중 현재 언어가 아닌 것)를 가진 요소를,
 // 여는 태그~닫는 태그까지 통째로 삭제한다. 언어 클래스가 아예 없으면 그대로 둔다.
 function og_strip_other_langs(string $svg, string $lang): string {
-    $langs = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+    $langs = ['ko','en','ja','es','de','fr','pt','tr','vi','id','pl','it','ru','zh'];
     $others = array_diff($langs, [$lang]);
     foreach ($others as $ol) {
         // <tag ... class="ol" ...> ... </tag>  (같은 태그명끼리 매칭; 중첩 최소화 위해 non-greedy)
