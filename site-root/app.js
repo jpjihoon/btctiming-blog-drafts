@@ -707,7 +707,7 @@ function updateTickerFromAPI(data) {
 
 // 언어별 기준 통화 매핑 — 한국어면 원화(김치프리미엄 확인용), 그 외 언어는 각 지역에서 익숙한 통화로.
 // exchangerate-api/CoinGecko 둘 다 이 통화 코드들을 지원함.
-const TICKER_CURRENCY_MAP = {ko:'KRW', en:'USD', ja:'JPY', es:'EUR', de:'EUR', fr:'EUR', pt:'BRL', tr:'TRY', vi:'VND'};
+const TICKER_CURRENCY_MAP = {ko:'KRW', en:'USD', ja:'JPY', es:'EUR', de:'EUR', fr:'EUR', pt:'BRL', tr:'TRY', vi:'VND', id:'IDR', pl:'PLN', it:'EUR', ru:'RUB', zh:'TWD'};
 function getTickerCurrency() { return TICKER_CURRENCY_MAP[currentLang] || 'USD'; }
 
 async function loadTicker() {

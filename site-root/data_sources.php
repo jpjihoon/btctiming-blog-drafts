@@ -29,7 +29,7 @@ function buildDataUrls(string $coin, string $sym): array {
         'dom'        => 'https://api.coingecko.com/api/v3/global',
         'usdt_krw'   => 'https://api.upbit.com/v1/ticker?markets=KRW-USDT',
         // 실제 USDT 시세(법정환율이 아니라 테더 실거래가) — 4개 통화 한 번에. 디페깅/김치프리미엄 확인용.
-        'usdt_fx'    => 'https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=usd,krw,jpy,eur,try,vnd,brl&include_24hr_change=true',
+        'usdt_fx'    => 'https://api.coingecko.com/api/v3/simple/price?ids=tether&vs_currencies=usd,krw,jpy,eur,try,vnd,brl,idr,pln,rub,twd&include_24hr_change=true',
         // USD 기준 법정환율 (KRW/JPY/EUR). 클라이언트가 직접 부르던 걸 서버로 옮겨 CORS/쿼터 리스크 제거.
         'fx_rates'   => 'https://api.exchangerate-api.com/v4/latest/USD',
     ];
@@ -72,7 +72,7 @@ function parseUsdtFx(?string $body): array {
     $t = $d['tether'] ?? null;
     if (!is_array($t)) return [];
     $out = [];
-    foreach (['usd','krw','jpy','eur','try','vnd','brl'] as $cur) {
+    foreach (['usd','krw','jpy','eur','try','vnd','brl','idr','pln','rub','twd'] as $cur) {
         if (isset($t[$cur])) {
             $out[$cur] = [
                 'p' => (float)$t[$cur],
@@ -93,7 +93,7 @@ function parseFxRates(?string $body): array {
     $rates = $d['rates'] ?? null;
     if (!is_array($rates)) return [];
     $out = [];
-    foreach (['KRW','JPY','EUR','TRY','VND','BRL'] as $cur) {
+    foreach (['KRW','JPY','EUR','TRY','VND','BRL','IDR','PLN','RUB','TWD'] as $cur) {
         if (isset($rates[$cur]) && is_numeric($rates[$cur])) {
             $out[$cur] = (float)$rates[$cur];
         }
