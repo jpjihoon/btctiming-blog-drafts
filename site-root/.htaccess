@@ -86,37 +86,37 @@ RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 
 # ═══ 301: 기존 URL → 경로형 clean URL (THE_REQUEST로 외부 요청만 잡아 루프 방지) ═══
 # (1) 블로그 글 비-ko: /blog/slug.php?lang=xx → /xx/blog/slug
-RewriteCond %{THE_REQUEST} \s/blog/([a-z0-9-]+)\.php\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/blog/([a-z0-9-]+)\.php\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteRule ^blog/([a-z0-9-]+)\.php$ /%2/blog/%1? [R=301,L]
 # (2) 블로그 글 ko: /blog/slug.php → /blog/slug  (?lang= 없는 순수 .php만)
 RewriteCond %{THE_REQUEST} \s/blog/([a-z0-9-]+)\.php\s [NC]
 RewriteRule ^blog/([a-z0-9-]+)\.php$ /blog/%1 [R=301,L]
 # (3) 홈 비-ko: /?lang=xx → /xx
-RewriteCond %{THE_REQUEST} \s/\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteRule ^$ /%1? [R=301,L]
 # (4) 블로그 목록 비-ko: /blog/?lang=xx → /xx/blog/  (ajax 요청 제외)
-RewriteCond %{THE_REQUEST} \s/blog/\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/blog/\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteCond %{QUERY_STRING} !ajax=
 RewriteRule ^blog/$ /%1/blog/? [R=301,L]
 # (5) 용어집 지표 비-ko: /glossary/term?lang=xx → /xx/glossary/term
-RewriteCond %{THE_REQUEST} \s/glossary/([a-z0-9-]+)\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/glossary/([a-z0-9-]+)\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteRule ^glossary/([a-z0-9-]+)$ /%2/glossary/%1? [R=301,L]
 # (6) 용어집 허브 비-ko: /glossary?lang=xx → /xx/glossary
-RewriteCond %{THE_REQUEST} \s/glossary\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/glossary\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteRule ^glossary$ /%1/glossary? [R=301,L]
 # (7) 정적/안내 비-ko: /page?lang=xx → /xx/page
-RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteRule ^(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)$ /%2/%1? [R=301,L]
 
 # (7b) 정적/안내 .php → clean : /rss-guide.php → /rss-guide , .php?lang=xx → /xx/page
-RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php\?lang=(en|ja|es|de|fr|pt|tr|vi)[\s&] [NC]
+RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php\?lang=(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)[\s&] [NC]
 RewriteRule ^(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php$ /%2/%1? [R=301,L]
 RewriteCond %{THE_REQUEST} \s/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php\s [NC]
 RewriteRule ^(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide|glossary)\.php$ /%1 [R=301,L]
 
 # (8) 경로에 이미 언어가 있는데 ?lang= 이 중복으로 붙은 경우 → ?lang= 제거 (예: /pt?lang=pt → /pt)
-RewriteCond %{THE_REQUEST} \s/(en|ja|es|de|fr|pt|tr|vi)(?:/[^\s?]*)?\?lang=[a-z]{2}[\s&] [NC]
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)(/.*)?$ /$1$2? [R=301,L]
+RewriteCond %{THE_REQUEST} \s/(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)(?:/[^\s?]*)?\?lang=[a-z]{2}[\s&] [NC]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)(/.*)?$ /$1$2? [R=301,L]
 
 RewriteRule ^privacy/?$ /privacy.php [L]
 RewriteRule ^about/?$ /about.php [L]
@@ -141,17 +141,17 @@ RewriteRule ^blog/([a-z0-9-]+)\.html$ /blog/$1.php [R=301,L]
 # ═══ 언어 최상위 경로형 URL (비-ko). 내부적으로 ?lang= 를 넘겨 기존 렌더가 처리 ═══
 #   /en, /en/blog/, /en/blog/{slug}, /en/glossary/{term} … (ko는 접두어 없이 기존 그대로)
 #   ?lang= 도 계속 동작 → 아무것도 안 깨짐. 구체 규칙(blog/glossary)을 홈 규칙보다 먼저 둔다.
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/blog/([a-z0-9-]+)(?:\.php)?/?$ /blog/$2.php?lang=$1 [L,QSA]
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/blog/?$ /blog/index.php?lang=$1 [L,QSA]
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/glossary/([a-z0-9-]+)/?$ /glossary.php?term=$2&lang=$1 [L,QSA]
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/glossary/?$ /glossary.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/blog/([a-z0-9-]+)(?:\.php)?/?$ /blog/$2.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/blog/?$ /blog/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/glossary/([a-z0-9-]+)/?$ /glossary.php?term=$2&lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/glossary/?$ /glossary.php?lang=$1 [L,QSA]
 # 홈: /en, /ja … (실제 파일/폴더가 아닐 때만)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/?$ /index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/?$ /index.php?lang=$1 [L,QSA]
 
 # 언어 최상위 - 정적/안내 페이지 (about, privacy, terms, exchanges, coins, rss-guide, sitemap-guide)
-RewriteRule ^(en|ja|es|de|fr|pt|tr|vi)/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)/?$ /$2.php?lang=$1 [L,QSA]
+RewriteRule ^(en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/(about|privacy|terms|exchanges|coins|rss-guide|sitemap-guide)/?$ /$2.php?lang=$1 [L,QSA]
 
 # ═══ ko clean 내부 라우팅: /blog/slug → /blog/slug.php , /exchanges 등 → .php ═══
 # (.php·언어경로 아닌 순수 clean URL을 실제 파일로 매핑. about/privacy/terms/glossary는 위 기존 규칙 사용)
