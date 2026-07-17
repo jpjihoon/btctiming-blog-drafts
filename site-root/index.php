@@ -1243,7 +1243,7 @@ $__seoSub = [
     </div>
   </div>
 </div>
-<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 0;font-size:10px;color:var(--t3)">
+<footer style="max-width:1280px;margin:0 auto;width:100%;padding:12px 16px;font-size:10px;color:var(--t3)">
       <span data-i="footerSources">Auto-fetched</span>: Price·200wMA·Futures Gap (Binance API) · Fear&Greed (Alternative.me) · Dominance (CoinGecko) · MVRV·Puell (MacroMicro) · NUPL·SOPR (Newhedge) · Coinbase Premium (Coinbase API)<br>
       <span data-i="footerDisclaimer2">On-chain scraping may use fallback values. Score history saved in browser localStorage. Not financial advice.</span><br><br>
       <div id="blogCategoryBar" style="display:flex;align-items:center;gap:0;max-width:100%;overflow:hidden">
