@@ -234,6 +234,11 @@
 <h2 class="pt">O Salto de 15% da ONDO — Entre o Hype e o Ceticismo</h2>
 <h2 class="tr">ONDO'nun Yüzde 15'lik Sıçraması — Heyecan İle Şüphecilik Arasında</h2>
 <h2 class="vi">Cú Nhảy 15% Của ONDO — Giữa Hưng Phấn Và Hoài Nghi</h2>
+<h2 class="id">Lonjakan 15% ONDO — Antara Euforia dan Skeptisisme</h2>
+<h2 class="pl">15-procentowy Skok ONDO — Między Hype'em a Sceptycyzmem</h2>
+<h2 class="it">Il Balzo del 15% di ONDO — Tra Hype e Scetticismo</h2>
+<h2 class="ru">Скачок ONDO на 15% — Между Ажиотажем и Скептицизмом</h2>
+<h2 class="zh">ONDO飆漲15%——在炒作與懷疑之間</h2>
 
 <p class="ko">발표 소식에 ONDO는 0.32달러에서 0.393달러로 뛰며 시가총액 18억~19억 달러 선을 회복했다. 이런 '제휴 발표 → 토큰 급등' 패턴은 토큰화 섹터에서 낯설지 않다 — 실질적인 매출이나 예치자산(TVL) 증가로 이어지기 전에 시장이 먼저 서사에 반응하는 경우가 많다. 이번에도 일본이라는 상징성과 SBI의 대형 유통망이 맞물리며 투자자들이 선반영에 나선 것으로 풀이된다.</p>
 <p class="ko">회의적으로 볼 지점도 있다. 발표문 어디에도 실제 서비스 개시 시점이 적시돼 있지 않고, 어떤 개별 종목이 먼저 토큰화될지도 공개되지 않았다. Ondo가 앞서 <a href="/blog/ondo-tokenized-ivv-blackrock-etf">블랙록 ETF·마이크론 주식을 미국에서 토큰화</a>했을 때는 SEC 등록 이전대리인이라는 구체적 법적 장치가 함께 제시됐지만, 이번 일본 발표는 아직 그 수준의 규제·집행 디테일이 뒤따르지 않았다. '파트너십 발표'와 '실제 가동' 사이의 간극이 이번에도 재현될지 지켜볼 필요가 있다.</p>

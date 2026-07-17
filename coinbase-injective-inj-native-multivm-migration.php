@@ -30,7 +30,7 @@
 <p class="ru">Это первый случай, когда крупнейшая биржа США использует эту технологию как канал ликвидности с тех пор, как Injective в ноябре прошлого года запустила свой мейннет Ethereum Virtual Machine (EVM), сделав среду MultiVM, объединяющую EVM и WebAssembly (WASM), главным аргументом для разработчиков. Кроме того, 9 июня Injective выпустила обновление мейннета «Vulcan», оптимизированное для обработки деривативов, стейблкоинов и токенизированных активов.</p>
 <p class="zh">這是自Injective去年11月推出以太坊虛擬機(EVM)主網、將整合EVM與WebAssembly(WASM)的MultiVM環境作為吸引開發者的核心賣點以來，美國最大交易所首次採用該技術作為流動性通道。Injective也於6月9日推出了針對衍生品、穩定幣與代幣化資產處理進行優化的「Vulcan」主網升級。</p>
 
-<div class="ko en ja es de fr pt tr vi">
+<div class="ko en ja es de fr pt tr vi id pl it ru zh">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Injective MultiVM Timeline</text>
   <g font-family="sans-serif">
@@ -85,6 +85,11 @@
 <h2 class="pt">O que o MultiVM realmente faz</h2>
 <h2 class="tr">MultiVM gerçekte ne yapıyor</h2>
 <h2 class="vi">MultiVM thực sự làm gì</h2>
+<h2 class="id">Apa yang sebenarnya dilakukan MultiVM</h2>
+<h2 class="pl">Co tak naprawdę robi MultiVM</h2>
+<h2 class="it">Cosa fa realmente MultiVM</h2>
+<h2 class="ru">Что на самом деле делает MultiVM</h2>
+<h2 class="zh">MultiVM實際上做了什麼</h2>
 
 <p class="ko">기존에 이더리움에서 발행된 ERC-20 INJ는 사실 인젝티브 체인 자산을 '감싼(wrapped)' 대리 토큰이었다. 이 구조에서는 브릿지를 오갈 때마다 별도의 잠금·발행 절차가 필요했고, 두 토큰 간 시세 차이(디페그)나 브릿지 자체의 보안 취약점이 반복적으로 문제가 됐다. 인젝티브의 멀티VM 토큰 표준(MTS)은 '뱅크 프리컴파일(Bank precompile)'이라는 장치를 통해 EVM 위에서 발행된 ERC-20 컨트랙트가 인젝티브 네이티브 뱅크 모듈의 잔고를 그대로 반영하도록 만든다. 즉 별도의 브릿지 없이 하나의 잔고가 여러 가상머신에서 동시에 인식되는 구조다.</p>
 <p class="en">The ERC-20 INJ previously issued on Ethereum was, in effect, a "wrapped" proxy token standing in for the asset on the Injective chain. Under that structure, every trip across the bridge required a separate lock-and-mint step, and price divergence between the two tokens (a depeg) or vulnerabilities in the bridge itself were recurring problems. Injective's MultiVM Token Standard (MTS) uses a mechanism called the "Bank precompile" to make ERC-20 contracts deployed on the EVM directly mirror the balance held in Injective's native bank module. In other words, a single balance is recognized simultaneously across multiple virtual machines, with no separate bridge involved.</p>
