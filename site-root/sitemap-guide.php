@@ -76,13 +76,13 @@ require __DIR__ . '/_guide_head.php';
 
 <div class="hero"><div class="hero-in">
   <div class="hero-eyebrow">Sitemap</div>
-  <h1><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span></h1>
+  <h1><span class="l-ko">사이트맵</span><span class="l-en">Sitemap</span><span class="l-ja">サイトマップ</span><span class="l-es">Mapa del sitio</span><span class="l-de">Sitemap</span><span class="l-fr">Plan du site</span><span class="l-pt">Mapa do site</span><span class="l-tr">Site haritası</span><span class="l-vi">Sơ đồ trang</span><span class="l-id">Sitemap</span><span class="l-pl">Mapa witryny</span><span class="l-it">Sitemap</span><span class="l-ru">Карта сайта</span><span class="l-zh">網站地圖</span></h1>
   <p class="lead">
     <span class="l-ko">날짜를 선택하면 그날 발행된 블로그 글을 볼 수 있습니다.</span>
     <span class="l-en">Select a date to see blog posts published that day.</span>
     <span class="l-ja">日付を選ぶと、その日に公開されたブログ記事が表示されます。</span>
     <span class="l-es">Selecciona una fecha para ver las publicaciones de ese día.</span>
-    <span class="l-de">Wähle ein Datum, um die an diesem Tag veröffentlichten Beiträge zu sehen.</span><span class="l-fr">Sélectionnez une date pour voir les articles publiés ce jour-là.</span><span class="l-pt">Selecione uma data para ver os artigos publicados naquele dia.</span><span class="l-tr">O gün yayımlanan yazıları görmek için bir tarih seçin.</span><span class="l-vi">Chọn một ngày để xem các bài viết được đăng trong ngày đó.</span>
+    <span class="l-de">Wähle ein Datum, um die an diesem Tag veröffentlichten Beiträge zu sehen.</span><span class="l-fr">Sélectionnez une date pour voir les articles publiés ce jour-là.</span><span class="l-pt">Selecione uma data para ver os artigos publicados naquele dia.</span><span class="l-tr">O gün yayımlanan yazıları görmek için bir tarih seçin.</span><span class="l-vi">Chọn một ngày để xem các bài viết được đăng trong ngày đó.</span><span class="l-id">Pilih tanggal untuk melihat postingan blog yang diterbitkan pada hari itu.</span><span class="l-pl">Wybierz datę, aby zobaczyć wpisy na blogu opublikowane tego dnia.</span><span class="l-it">Seleziona una data per vedere i post del blog pubblicati quel giorno.</span><span class="l-ru">Выберите дату, чтобы увидеть записи блога, опубликованные в этот день.</span><span class="l-zh">選擇日期以查看當天發佈的網誌文章。</span>
   </p>
 </div></div>
 
@@ -98,7 +98,7 @@ require __DIR__ . '/_guide_head.php';
     <ul class="day-posts" id="dayPosts"></ul>
   </div>
   <?php else: ?>
-  <p class="lead"><span class="l-ko">아직 등록된 글이 없습니다.</span><span class="l-en">No posts yet.</span><span class="l-ja">記事はまだありません。</span><span class="l-es">Aún no hay publicaciones.</span><span class="l-de">Noch keine Beiträge.</span><span class="l-fr">Aucun article pour le moment.</span><span class="l-pt">Ainda não há artigos.</span><span class="l-tr">Henüz yazı yok.</span><span class="l-vi">Chưa có bài viết nào.</span></p>
+  <p class="lead"><span class="l-ko">아직 등록된 글이 없습니다.</span><span class="l-en">No posts yet.</span><span class="l-ja">記事はまだありません。</span><span class="l-es">Aún no hay publicaciones.</span><span class="l-de">Noch keine Beiträge.</span><span class="l-fr">Aucun article pour le moment.</span><span class="l-pt">Ainda não há artigos.</span><span class="l-tr">Henüz yazı yok.</span><span class="l-vi">Chưa có bài viết nào.</span><span class="l-id">Belum ada postingan.</span><span class="l-pl">Brak wpisów.</span><span class="l-it">Nessun post ancora.</span><span class="l-ru">Пока нет записей.</span><span class="l-zh">尚無文章。</span></p>
   <?php endif; ?>
 </div>
 
