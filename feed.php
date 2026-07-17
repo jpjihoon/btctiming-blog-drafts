@@ -38,7 +38,7 @@ $articles = array_slice($articles, 0, $limit);
 $out = array_map(function($a) {
     $cat = $a['category'] ?? 'guide';
     // 9개 언어 전부 내려준다. 미번역 언어는 en→ko 순으로 폴백(프론트 pickLangField와 동일 원칙).
-    $LANGS = ['ko','en','ja','es','de','fr','pt','tr','vi'];
+    $LANGS = ['ko','en','ja','es','de','fr','pt','tr','vi','id','pl','it','ru','zh'];
     $row = [
         'url'      => '/blog/' . $a['file'],
         'icon'     => $a['icon'] ?? '📄',

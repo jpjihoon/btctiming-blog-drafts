@@ -212,7 +212,7 @@ $__blD = $__BL_DESC[$__blLang] ?? $__BL_DESC['en'];
 <meta name="description" content="<?= h($__blD) ?>">
 <link rel="canonical" href="<?= h(i18nUrl('/blog/', $__blLang)) ?>">
 <?php foreach (array_keys(SUPPORTED_LANGS) as $__hl): ?>
-<link rel="alternate" hreflang="<?= h($__hl) ?>" href="<?= h(i18nUrl('/blog/', $__hl)) ?>">
+<link rel="alternate" hreflang="<?= h(hreflangOf($__hl)) ?>" href="<?= h(i18nUrl('/blog/', $__hl)) ?>">
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="<?= h(i18nUrl('/blog/', 'ko')) ?>">
 <!-- Open Graph (언어별 OG 이미지) -->
