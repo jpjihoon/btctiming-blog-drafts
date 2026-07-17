@@ -67,6 +67,11 @@
   <h2 class="pt">Incentivos financeiros e integridade dos ensaios clínicos</h2>
   <h2 class="tr">Finansal Teşvikler ve Klinik Deneme Bütünlüğü</h2>
   <h2 class="vi">Động Cơ Tài Chính Và Tính Toàn Vẹn Của Thử Nghiệm Lâm Sàng</h2>
+  <h2 class="id">Insentif Finansial dan Integritas Uji Klinis</h2>
+  <h2 class="pl">Zachęty Finansowe a Integralność Badań Klinicznych</h2>
+  <h2 class="it">Incentivi Finanziari e Integrità degli Studi Clinici</h2>
+  <h2 class="ru">Финансовые Стимулы и Целостность Клинических Испытаний</h2>
+  <h2 class="zh">金融誘因與臨床試驗的誠信</h2>
   <p class="ko">스탯뉴스에 따르면 생명윤리학자와 의사, 임상시험 연구자들은 이 시장이 시험 결과에 영향력을 행사할 수 있는 사람들에게 그 영향력을 돈으로 바꿀 유인을 만든다고 우려한다. 시험 결과에 영향을 미칠 수 있는 사람이 데이터를 조작하거나, 발표를 지연시키거나, 등록 속도를 조절해 사적 이득을 취할 가능성이 이론적으로 존재한다는 것이다. 증권시장이라면 이런 행위는 내부자거래·시세조종 금지 조항으로 명확히 다뤄지지만, 임상시험 데이터는 애초에 '증권'이 아니므로 증권거래위원회(SEC)의 내부자거래 규제 체계가 원천적으로 적용되지 않는다는 규제 공백이 존재한다.</p>
   <p class="en">According to STAT News, bioethicists, physicians and clinical trial researchers worry that these markets create an incentive for anyone with influence over a trial's outcome to convert that influence into money. The theoretical risk is that someone positioned to affect results could manipulate data, delay a disclosure, or adjust enrollment pace for private gain. In securities markets, such conduct would be squarely addressed by insider-trading and market-manipulation prohibitions — but clinical trial data was never a "security" to begin with, leaving a regulatory gap where the SEC's insider-trading framework simply does not reach.</p>
   <p class="ja">STATニュースによれば、生命倫理学者や医師、臨床試験研究者は、この市場が試験結果に影響力を行使できる人々に、その影響力を金銭に変える誘因を作り出すと懸念している。結果に影響を与えうる立場の人物がデータを操作したり、発表を遅らせたり、登録ペースを調整したりして私的利益を得る可能性が理論上存在するというのだ。証券市場であれば、こうした行為はインサイダー取引・相場操縦の禁止条項で明確に扱われるが、臨床試験データはそもそも「証券」ではないため、証券取引委員会(SEC)のインサイダー取引規制の枠組みが根本的に及ばないという規制の空白がある。</p>
