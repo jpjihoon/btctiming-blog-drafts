@@ -68,6 +68,11 @@
   "desc_pt": "No dia seguinte ao bitcoin atingir sua máxima histórica em 17 de dezembro de 2017, a CME abriu o primeiro mercado de futuros regulamentado — até então, não existia nenhum canal oficial que sequer formasse o preço. Em 2021, existia um canal, mas ele só funcionava pela metade. Agora, em 2026, menos de uma dezena de participantes autorizados controla um canal real que movimenta 6-7% de toda a oferta. Essa é a verdadeira razão pela qual este ciclo é estruturalmente diferente.",
   "desc_tr": "Bitcoin'in 17 Aralık 2017'de tüm zamanların en yüksek seviyesine ulaşmasından bir gün sonra, CME ilk düzenlenmiş vadeli işlemler piyasasını açtı — o zamana kadar, fiyatı oluşturan resmi bir kanal dahi yoktu. 2021'de bir kanal vardı ama sadece yarı yarıya işliyordu. Şimdi, 2026'da, bir düzineden az yetkili katılımcı, toplam arzın %6-7'sini hareket ettiren gerçek bir kanalı kontrol ediyor. Bu döngünün yapısal olarak farklı olmasının gerçek nedeni budur.",
   "desc_vi": "Một ngày sau khi bitcoin lập đỉnh mọi thời đại vào ngày 17/12/2017, CME đã mở thị trường tương lai được quản lý đầu tiên — trước đó, không hề tồn tại một kênh chính thức nào tạo nên mức giá này cả. Đến năm 2021, một kênh đã tồn tại nhưng chỉ hoạt động được một nửa. Còn giờ đây, năm 2026, chưa đến một chục nhà tham gia được ủy quyền đang kiểm soát một kênh thực sự, dịch chuyển 6-7% tổng nguồn cung. Đó chính là lý do thực sự khiến chu kỳ này khác biệt về mặt cấu trúc.",
+  "desc_id": "Sehari setelah ATH bitcoin 2017, CME buka pasar futures pertama — dulu tak ada kanal harga resmi. Kini kurang dari 12 AP kendalikan 6-7% suplai bitcoin.",
+  "desc_pl": "Dzień po ATH bitcoina w 2017 CME otworzyło pierwszy rynek futures — wcześniej brak kanału cenowego. Dziś mniej niż tuzin AP kontroluje 6-7% podaży.",
+  "desc_it": "Il giorno dopo l'ATH di bitcoin nel 2017, il CME aprì il primo mercato future — prima non c'era alcun canale. Oggi meno di 12 AP controllano il 6-7%.",
+  "desc_ru": "На следующий день после ATH биткоина в 2017 CME открыла первый фьючерсный рынок. Сегодня менее дюжины AP контролируют 6-7% предложения биткоина.",
+  "desc_zh": "2017年比特幣創下歷史最高價的隔天,CME開設了史上首個受監管的比特幣期貨市場,在此之前根本不存在任何官方定價通路。如今到了2026年,不到十二家授權參與者掌控著佔總供應量約6%至7%的真實流動通路,這正是本輪週期結構性差異的關鍵所在之處。",
   "read_ko": "11",
   "read_en": "11",
   "read_ja": "11",
@@ -76,5 +81,10 @@
   "read_fr": "11",
   "read_pt": "11",
   "read_tr": "11",
-  "read_vi": "11"
+  "read_vi": "11",
+  "read_id": "11",
+  "read_pl": "11",
+  "read_it": "11",
+  "read_ru": "11",
+  "read_zh": "11"
 }
