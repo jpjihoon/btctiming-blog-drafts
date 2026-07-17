@@ -32,7 +32,12 @@ foreach ($byDate as $ymd => $list) {
             'fr'=>$a['title_fr']??($a['title_en']??($a['title_ko']??$slug)),
             'pt'=>$a['title_pt']??($a['title_en']??($a['title_ko']??$slug)),
             'tr'=>$a['title_tr']??($a['title_en']??($a['title_ko']??$slug)),
-            'vi'=>$a['title_vi']??($a['title_en']??($a['title_ko']??$slug))]];
+            'vi'=>$a['title_vi']??($a['title_en']??($a['title_ko']??$slug)),
+            'id'=>$a['title_id']??($a['title_en']??($a['title_ko']??$slug)),
+            'pl'=>$a['title_pl']??($a['title_en']??($a['title_ko']??$slug)),
+            'it'=>$a['title_it']??($a['title_en']??($a['title_ko']??$slug)),
+            'ru'=>$a['title_ru']??($a['title_en']??($a['title_ko']??$slug)),
+            'zh'=>$a['title_zh']??($a['title_en']??($a['title_ko']??$slug))]];
     }
     $postsData[$ymd]=$arr;
 }
@@ -143,7 +148,7 @@ function renderPosts(){
   const posts=POSTS[ymd]||[]; if(cnt)cnt.textContent=posts.length; ul.innerHTML='';
   if(posts.length===0){ ul.innerHTML='<li class=\"empty-day\">—</li>'; return; }
   posts.forEach(p=>{ const li=document.createElement('li');
-    const a=document.createElement('a');a.href='/blog/'+p.slug+'.php'+(lang==='ko'?'':('?lang='+lang));a.textContent=p.title[lang]||p.title.ko;
+    const a=document.createElement('a');a.href=(window.BTLang&&BTLang.i18nHref)?BTLang.i18nHref('/blog/'+p.slug,lang):('/blog/'+p.slug+'.php'+(lang==='ko'?'':('?lang='+lang)));a.textContent=p.title[lang]||p.title.en||p.title.ko;
     li.appendChild(a);ul.appendChild(li); });
 }
 function renderAll(){ renderYears(); renderMonths(); renderDays(); renderPosts(); }
