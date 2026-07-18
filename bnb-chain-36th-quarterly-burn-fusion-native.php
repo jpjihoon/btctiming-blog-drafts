@@ -69,6 +69,11 @@
 <h2 class="pt">O número de tokens subiu e o valor em dólares caiu — o que a comparação de dois trimestres mostra</h2>
 <h2 class="tr">Jeton Sayısı Arttı, Dolar Değeri Düştü — İki Çeyreğin Karşılaştırması Ne Gösteriyor</h2>
 <h2 class="vi">Số lượng token tăng, giá trị đô la giảm — so sánh hai quý cho thấy điều gì</h2>
+<h2 class="id">Jumlah Token Naik, Nilai Dolar Turun — Apa yang Ditunjukkan Perbandingan Dua Kuartal</h2>
+<h2 class="pl">Liczba tokenów wzrosła, wartość w dolarach spadła — co pokazuje porównanie dwóch kwartałów</h2>
+<h2 class="it">Il numero di token è salito, il valore in dollari è sceso — cosa mostra il confronto tra due trimestri</h2>
+<h2 class="ru">Количество токенов выросло, долларовая стоимость упала — что показывает сравнение двух кварталов</h2>
+<h2 class="zh">代幣數量上升,美元價值下降——兩季比較揭示了什麼</h2>
 
 <p class="ko">직전 35차 소각(4월15일)에서는 1,569,307.34 BNB(약 10억2,000만달러)가 소각돼 공급량이 1억3,479만개로 줄었다. 이번 36차 소각은 토큰 개수로는 약 3% 늘어난 1,615,827.795 BNB를 태웠지만, 달러가치로는 오히려 9%가량 줄어든 9억3,200만달러에 그쳤다. 공식대로라면 이 분기 BNB의 평균 가격이 직전 분기보다 낮았다는 뜻이고, 오토번의 역방향 조정이 정확히 설계된 대로 작동했음을 숫자로 보여주는 사례다.</p>
 <p class="en">The prior 35th burn (April 15) destroyed 1,569,307.34 BNB (about $1.02 billion), cutting supply to 134.79 million. This 36th burn destroyed roughly 3% more tokens by count — 1,615,827.795 BNB — yet its dollar value came in about 9% lower, at $932 million. Per the formula, that gap implies BNB's average price was lower this quarter than last, and it's a numeric demonstration that the Auto-Burn's inverse adjustment worked exactly as designed.</p>
