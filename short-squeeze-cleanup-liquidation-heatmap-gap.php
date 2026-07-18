@@ -98,6 +98,11 @@
 <h2 class="pt">Razão Comprado/Vendido e Open Interest — Limpou, Mas o Posicionamento Segue Neutro</h2>
 <h2 class="tr">Long/Short Oranı ve Açık Pozisyon — Temizlendi Ama Pozisyonlama Nötr Kaldı</h2>
 <h2 class="vi">Tỷ Lệ Long/Short và Open Interest — Đã Dọn Dẹp, Nhưng Vị Thế Vẫn Trung Lập</h2>
+<h2 class="id">Rasio Long/Short dan Open Interest — Sudah Dibersihkan, Tapi Posisi Tetap Netral</h2>
+<h2 class="pl">Wskaźnik Long/Short i Otwarte Pozycje — Wyczyszczone, ale Pozycjonowanie Pozostało Neutralne</h2>
+<h2 class="it">Rapporto Long/Short e Open Interest — Ripulito, Ma il Posizionamento Resta Neutrale</h2>
+<h2 class="ru">Соотношение Long/Short и Открытый Интерес — Чисто, Но Позиционирование Осталось Нейтральным</h2>
+<h2 class="zh">多空比與未平倉合約——清算了,但部位仍維持中性</h2>
 
 <p class="ko">코인알라이즈 기준 비트코인 전체 롱숏비율은 1.0986으로 롱이 살짝 우세할 뿐 사실상 중립에 가깝다. 개인 트레이더 비중이 큰 바이낸스 BTCUSDT 무기한선물만 떼어봐도 롱 54.1%·숏 45.9%(비율 1.18)로 '균형' 구간을 벗어나지 않는다. 미결제약정은 489억3,000만달러로 최근 30일간 3.92% 늘어나는 데 그쳤고, 펀딩비도 하루 0.0043%(연율 약 1.56%)로 롱도 숏도 뚜렷한 웃돈을 지불하지 않는 중립권이다.</p>
 <p class="en">Per Coinalyze, Bitcoin's overall long/short ratio sits at 1.0986 — longs hold only a slight edge, which is close to neutral in practice. Even isolating Binance's BTCUSDT perpetuals, where retail traders dominate, longs are 54.1% versus 45.9% shorts (a 1.18 ratio) — still within the "balanced" band. Open interest sits at $48.93 billion, up just 3.92% over the past 30 days, and funding is running at 0.0043% per day (about 1.56% annualized) — a neutral level where neither longs nor shorts are paying a clear premium.</p>

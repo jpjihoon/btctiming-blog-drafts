@@ -123,6 +123,11 @@
 <h2 class="pt">A aposta da controladora da NYSE por trás disso</h2>
 <h2 class="tr">Arkasındaki NYSE Ana Şirketinin Bahsi</h2>
 <h2 class="vi">Ván cược của công ty mẹ NYSE đằng sau việc này</h2>
+<h2 class="id">Taruhan Induk NYSE di Baliknya</h2>
+<h2 class="pl">Zakład Spółki Macierzystej NYSE Stojący za Tym</h2>
+<h2 class="it">La Scommessa della Controllante del NYSE Dietro Tutto Questo</h2>
+<h2 class="ru">Ставка материнской компании NYSE, стоящая за этим</h2>
+<h2 class="zh">背後紐約證交所母公司的賭注</h2>
 
 <p class="ko">ICE는 지난 3월 OKX에 지분을 투자하며 회사 가치를 250억 달러로 평가했고, 6월에는 토큰화 증권 시장 확대를 위한 합작 파트너십을 발표했다. 뉴욕증권거래소를 소유한 회사가 자사 상장기업의 주식을 자사의 정규 거래시간·규칙 밖에서 24시간 거래되는 토큰으로 유통하는 크립토 네이티브 플랫폼에 자본을 대는 형국이다. 이는 나스닥이 암호자산 커스터디 사업에 진출하거나, 2017년 시카고상품거래소(CME)가 비트코인 선물을 상장했던 것과 같은 패턴의 연장선으로 읽을 수 있다 — 전통 금융의 기존 강자들이 파괴적 기술을 배척하기보다 직접 흡수해 통제권을 쥐려는 흐름이다.</p>
 <p class="en">ICE invested in OKX in March at a $25 billion valuation, then announced a joint venture in June to expand tokenized-securities markets. That leaves the company that owns the New York Stock Exchange backing a crypto-native platform that distributes the shares of its own listed companies as tokens trading 24/7, outside its own venue's hours and rules. It reads as an extension of the same pattern seen when Nasdaq pushed into crypto custody, or when CME listed bitcoin futures back in 2017 - incumbent finance absorbing disruptive rails directly rather than fighting them, to keep a hand on the wheel.</p>
