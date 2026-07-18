@@ -203,6 +203,11 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Este artigo não é aconselhamento de investimento.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Bu yazı yatırım tavsiyesi değildir.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Bài viết này không phải là lời khuyên đầu tư.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Artikel ini bukan nasihat investasi.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Ten artykuł nie stanowi porady inwestycyjnej.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Questo articolo non costituisce consulenza di investimento.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Visa Newsroom (investor.visa.com), Artemis Research (research.artemis.ai), Cointelegraph, crypto.news, Coin-Turk, Bloomingbit, PYMNTS, Yahoo Finance. Эта статья не является инвестиционной рекомендацией.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Visa Newsroom(investor.visa.com)、Artemis Research(research.artemis.ai)、Cointelegraph、crypto.news、Coin-Turk、Bloomingbit、PYMNTS、Yahoo Finance。本文非投資建議。</p>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <text x="60" y="290" fill="#f4f4f5" font-size="140" font-weight="bold">$3.5B</text>

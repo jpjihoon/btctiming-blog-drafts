@@ -180,7 +180,7 @@
   </g>
 </svg>
 </div>
-<div class="en">
+<div class="en id pl it ru zh">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Aave's New-Chain Deployment Scorecard</text>
   <g font-family="sans-serif">

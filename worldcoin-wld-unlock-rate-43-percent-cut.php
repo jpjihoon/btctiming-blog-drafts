@@ -538,4 +538,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Blog oficial da World (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: World'ün resmi blogu (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Blog chính thức của World (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Blog resmi World (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Oficjalny blog World (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Blog ufficiale di World (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: официальный блог World (world.org), crypto.news, CoinMarketCap Academy, TECHi, Yahoo Finance, AMBCrypto, Tokenomist, KuCoin News, BeInCrypto.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:World官方部落格(world.org)、crypto.news、CoinMarketCap Academy、TECHi、Yahoo Finance、AMBCrypto、Tokenomist、KuCoin News、BeInCrypto。</p>
 <?php require __DIR__.'/_footer.php'; ?>
