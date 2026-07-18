@@ -552,6 +552,241 @@
 </svg>
 <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Minh họa khái niệm; không theo tỷ lệ giá/khối lượng thực tế.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Setup yang Sama, Hasil yang Berlawanan</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">ATH baru + peluncuran derivatif besar, hari yang sama · konseptual</text>
+
+  <text x="40" y="72" fill="#71717a" font-size="12" font-family="sans-serif">2017.12.17 → 18</text>
+  <line x1="80" y1="110" x2="660" y2="110" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="110" r="5" fill="#fbbf24"/>
+  <text x="120" y="92" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $19,783</text>
+  <line x1="120" y1="110" x2="340" y2="110" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="340" cy="110" r="5" fill="#fbbf24"/>
+  <text x="340" y="92" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Peluncuran futures CME</text>
+  <line x1="340" y1="110" x2="560" y2="160" stroke="#f87171" stroke-width="2.5" marker-end="url(#arrowdown)"/>
+  <text x="560" y="182" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">-84% (titik terendah 2018)</text>
+
+  <text x="40" y="232" fill="#71717a" font-size="12" font-family="sans-serif">2024.11.19</text>
+  <line x1="80" y1="300" x2="660" y2="300" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="300" r="5" fill="#38bdf8"/>
+  <text x="120" y="282" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $93,980</text>
+  <line x1="120" y1="300" x2="340" y2="300" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="340" cy="300" r="5" fill="#38bdf8"/>
+  <text x="340" y="282" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Peluncuran opsi IBIT (hari yang sama)</text>
+  <line x1="340" y1="300" x2="560" y2="250" stroke="#4ade80" stroke-width="2.5" marker-end="url(#arrowup)"/>
+  <text x="560" y="272" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">+$100.000 (16 hari kemudian)</text>
+
+  <defs>
+    <marker id="arrowdown" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f87171"/>
+    </marker>
+    <marker id="arrowup" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4ade80"/>
+    </marker>
+  </defs>
+
+  <line x1="20" y1="330" x2="680" y2="330" stroke="rgba(255,255,255,.08)"/>
+  <text x="20" y="352" fill="#e4e4e7" font-size="13.5" font-weight="700" font-family="sans-serif">Komposisi hari pertama opsi IBIT (354.000 kontrak)</text>
+
+  <rect x="140" y="364" width="394" height="16" rx="3" fill="#fbbf24"/>
+  <text x="544" y="377" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">Call 289.000 · 82%</text>
+  <rect x="140" y="392" width="86" height="16" rx="3" fill="#52525b"/>
+  <text x="236" y="405" fill="#a1a1aa" font-size="13" font-weight="700" font-family="sans-serif">Put 65.000 · 18%</text>
+
+  <line x1="20" y1="422" x2="680" y2="422" stroke="rgba(255,255,255,.08)"/>
+  <text x="350" y="444" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Yang menentukan hasil bukanlah keberadaannya, melainkan cara penggunaannya</text>
+</svg>
+<p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustrasi konseptual; tidak sesuai skala harga/volume sebenarnya.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Ten Sam Układ, Przeciwny Wynik</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Nowy ATH + uruchomienie dużego instrumentu pochodnego, ten sam dzień · poglądowo</text>
+
+  <text x="40" y="72" fill="#71717a" font-size="12" font-family="sans-serif">2017.12.17 → 18</text>
+  <line x1="80" y1="110" x2="660" y2="110" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="110" r="5" fill="#fbbf24"/>
+  <text x="120" y="92" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $19,783</text>
+  <line x1="120" y1="110" x2="340" y2="110" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="340" cy="110" r="5" fill="#fbbf24"/>
+  <text x="340" y="92" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Uruchomienie futures CME</text>
+  <line x1="340" y1="110" x2="560" y2="160" stroke="#f87171" stroke-width="2.5" marker-end="url(#arrowdown)"/>
+  <text x="560" y="182" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">-84% (dołek 2018)</text>
+
+  <text x="40" y="232" fill="#71717a" font-size="12" font-family="sans-serif">2024.11.19</text>
+  <line x1="80" y1="300" x2="660" y2="300" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="300" r="5" fill="#38bdf8"/>
+  <text x="120" y="282" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $93,980</text>
+  <line x1="120" y1="300" x2="340" y2="300" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="340" cy="300" r="5" fill="#38bdf8"/>
+  <text x="340" y="282" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Uruchomienie opcji IBIT (ten sam dzień)</text>
+  <line x1="340" y1="300" x2="560" y2="250" stroke="#4ade80" stroke-width="2.5" marker-end="url(#arrowup)"/>
+  <text x="560" y="272" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">+100 000 $ (16 dni później)</text>
+
+  <defs>
+    <marker id="arrowdown" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f87171"/>
+    </marker>
+    <marker id="arrowup" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4ade80"/>
+    </marker>
+  </defs>
+
+  <line x1="20" y1="330" x2="680" y2="330" stroke="rgba(255,255,255,.08)"/>
+  <text x="20" y="352" fill="#e4e4e7" font-size="13.5" font-weight="700" font-family="sans-serif">Struktura pierwszego dnia opcji IBIT (354 000 kontraktów)</text>
+
+  <rect x="140" y="364" width="394" height="16" rx="3" fill="#fbbf24"/>
+  <text x="544" y="377" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">Opcje kupna 289 000 · 82%</text>
+  <rect x="140" y="392" width="86" height="16" rx="3" fill="#52525b"/>
+  <text x="236" y="405" fill="#a1a1aa" font-size="13" font-weight="700" font-family="sans-serif">Opcje sprzedaży 65 000 · 18%</text>
+
+  <line x1="20" y1="422" x2="680" y2="422" stroke="rgba(255,255,255,.08)"/>
+  <text x="350" y="444" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">O wyniku zadecydował sposób użycia, a nie sam fakt istnienia</text>
+</svg>
+<p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustracja poglądowa; nie w rzeczywistej skali ceny/wolumenu.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Stessa Configurazione, Esito Opposto</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Nuovo ATH + lancio di un importante derivato, stesso giorno · concettuale</text>
+
+  <text x="40" y="72" fill="#71717a" font-size="12" font-family="sans-serif">2017.12.17 → 18</text>
+  <line x1="80" y1="110" x2="660" y2="110" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="110" r="5" fill="#fbbf24"/>
+  <text x="120" y="92" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $19,783</text>
+  <line x1="120" y1="110" x2="340" y2="110" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="340" cy="110" r="5" fill="#fbbf24"/>
+  <text x="340" y="92" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Lancio dei futures CME</text>
+  <line x1="340" y1="110" x2="560" y2="160" stroke="#f87171" stroke-width="2.5" marker-end="url(#arrowdown)"/>
+  <text x="560" y="182" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">-84% (minimo del 2018)</text>
+
+  <text x="40" y="232" fill="#71717a" font-size="12" font-family="sans-serif">2024.11.19</text>
+  <line x1="80" y1="300" x2="660" y2="300" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="300" r="5" fill="#38bdf8"/>
+  <text x="120" y="282" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $93,980</text>
+  <line x1="120" y1="300" x2="340" y2="300" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="340" cy="300" r="5" fill="#38bdf8"/>
+  <text x="340" y="282" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Lancio delle opzioni IBIT (stesso giorno)</text>
+  <line x1="340" y1="300" x2="560" y2="250" stroke="#4ade80" stroke-width="2.5" marker-end="url(#arrowup)"/>
+  <text x="560" y="272" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">+$100.000 (16 giorni dopo)</text>
+
+  <defs>
+    <marker id="arrowdown" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f87171"/>
+    </marker>
+    <marker id="arrowup" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4ade80"/>
+    </marker>
+  </defs>
+
+  <line x1="20" y1="330" x2="680" y2="330" stroke="rgba(255,255,255,.08)"/>
+  <text x="20" y="352" fill="#e4e4e7" font-size="13.5" font-weight="700" font-family="sans-serif">Composizione del primo giorno delle opzioni IBIT (354.000 contratti)</text>
+
+  <rect x="140" y="364" width="394" height="16" rx="3" fill="#fbbf24"/>
+  <text x="544" y="377" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">Call 289.000 · 82%</text>
+  <rect x="140" y="392" width="86" height="16" rx="3" fill="#52525b"/>
+  <text x="236" y="405" fill="#a1a1aa" font-size="13" font-weight="700" font-family="sans-serif">Put 65.000 · 18%</text>
+
+  <line x1="20" y1="422" x2="680" y2="422" stroke="rgba(255,255,255,.08)"/>
+  <text x="350" y="444" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">A decidere l'esito è stato l'uso, non l'esistenza</text>
+</svg>
+<p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Illustrazione concettuale; non in scala reale di prezzo/volume.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Та Же Схема — Противоположный Результат</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Новый ATH + запуск крупного дериватива, тот же день · концептуально</text>
+
+  <text x="40" y="72" fill="#71717a" font-size="12" font-family="sans-serif">2017.12.17 → 18</text>
+  <line x1="80" y1="110" x2="660" y2="110" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="110" r="5" fill="#fbbf24"/>
+  <text x="120" y="92" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $19,783</text>
+  <line x1="120" y1="110" x2="340" y2="110" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="340" cy="110" r="5" fill="#fbbf24"/>
+  <text x="340" y="92" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Запуск фьючерсов CME</text>
+  <line x1="340" y1="110" x2="560" y2="160" stroke="#f87171" stroke-width="2.5" marker-end="url(#arrowdown)"/>
+  <text x="560" y="182" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">-84% (минимум 2018)</text>
+
+  <text x="40" y="232" fill="#71717a" font-size="12" font-family="sans-serif">2024.11.19</text>
+  <line x1="80" y1="300" x2="660" y2="300" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="300" r="5" fill="#38bdf8"/>
+  <text x="120" y="282" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $93,980</text>
+  <line x1="120" y1="300" x2="340" y2="300" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="340" cy="300" r="5" fill="#38bdf8"/>
+  <text x="340" y="282" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Запуск опционов IBIT (тот же день)</text>
+  <line x1="340" y1="300" x2="560" y2="250" stroke="#4ade80" stroke-width="2.5" marker-end="url(#arrowup)"/>
+  <text x="560" y="272" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">+100 000 $ (через 16 дней)</text>
+
+  <defs>
+    <marker id="arrowdown" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f87171"/>
+    </marker>
+    <marker id="arrowup" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4ade80"/>
+    </marker>
+  </defs>
+
+  <line x1="20" y1="330" x2="680" y2="330" stroke="rgba(255,255,255,.08)"/>
+  <text x="20" y="352" fill="#e4e4e7" font-size="13.5" font-weight="700" font-family="sans-serif">Структура опционов IBIT в первый день (354 000 контрактов)</text>
+
+  <rect x="140" y="364" width="394" height="16" rx="3" fill="#fbbf24"/>
+  <text x="544" y="377" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">Коллы 289 000 · 82%</text>
+  <rect x="140" y="392" width="86" height="16" rx="3" fill="#52525b"/>
+  <text x="236" y="405" fill="#a1a1aa" font-size="13" font-weight="700" font-family="sans-serif">Путы 65 000 · 18%</text>
+
+  <line x1="20" y1="422" x2="680" y2="422" stroke="rgba(255,255,255,.08)"/>
+  <text x="350" y="444" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Итог определило не наличие механизма, а то, как он был использован</text>
+</svg>
+<p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Концептуальная иллюстрация; не в реальном масштабе цены/объёма.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">同樣的局面,截然相反的結果</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">創歷史新高 + 大型衍生品上市,同一天‧概念圖</text>
+
+  <text x="40" y="72" fill="#71717a" font-size="12" font-family="sans-serif">2017.12.17 → 18</text>
+  <line x1="80" y1="110" x2="660" y2="110" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="110" r="5" fill="#fbbf24"/>
+  <text x="120" y="92" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $19,783</text>
+  <line x1="120" y1="110" x2="340" y2="110" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="340" cy="110" r="5" fill="#fbbf24"/>
+  <text x="340" y="92" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">CME期貨上市</text>
+  <line x1="340" y1="110" x2="560" y2="160" stroke="#f87171" stroke-width="2.5" marker-end="url(#arrowdown)"/>
+  <text x="560" y="182" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">-84%(2018年低點)</text>
+
+  <text x="40" y="232" fill="#71717a" font-size="12" font-family="sans-serif">2024.11.19</text>
+  <line x1="80" y1="300" x2="660" y2="300" stroke="rgba(255,255,255,.14)" stroke-dasharray="4,4"/>
+  <circle cx="120" cy="300" r="5" fill="#38bdf8"/>
+  <text x="120" y="282" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">ATH $93,980</text>
+  <line x1="120" y1="300" x2="340" y2="300" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="340" cy="300" r="5" fill="#38bdf8"/>
+  <text x="340" y="282" fill="#e4e4e7" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">IBIT選擇權上市(同一天)</text>
+  <line x1="340" y1="300" x2="560" y2="250" stroke="#4ade80" stroke-width="2.5" marker-end="url(#arrowup)"/>
+  <text x="560" y="272" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">+10萬美元(16天後)</text>
+
+  <defs>
+    <marker id="arrowdown" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f87171"/>
+    </marker>
+    <marker id="arrowup" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#4ade80"/>
+    </marker>
+  </defs>
+
+  <line x1="20" y1="330" x2="680" y2="330" stroke="rgba(255,255,255,.08)"/>
+  <text x="20" y="352" fill="#e4e4e7" font-size="13.5" font-weight="700" font-family="sans-serif">IBIT選擇權首日交易組成(35萬4,000口合約)</text>
+
+  <rect x="140" y="364" width="394" height="16" rx="3" fill="#fbbf24"/>
+  <text x="544" y="377" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif">買權28萬9,000口·82%</text>
+  <rect x="140" y="392" width="86" height="16" rx="3" fill="#52525b"/>
+  <text x="236" y="405" fill="#a1a1aa" font-size="13" font-weight="700" font-family="sans-serif">賣權6萬5,000口·18%</text>
+
+  <line x1="20" y1="422" x2="680" y2="422" stroke="rgba(255,255,255,.08)"/>
+  <text x="350" y="444" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">決定結果的不是機制是否存在,而是它被如何使用</text>
+</svg>
+<p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ 概念示意圖,並非實際價格/成交量比例。</p>
+</div>
   <h2 class="ko">메커니즘의 존재가 아니라 쓰임새를 봐야 한다</h2>
   <h2 class="en">What Matters Is Not Whether the Mechanism Exists, But How It's Used</h2>
   <h2 class="ja">見るべきはメカニズムの有無ではなく使われ方だ</h2>
@@ -561,6 +796,11 @@
   <h2 class="pt">O Que Importa Não É Se o Mecanismo Existe, Mas Como Ele É Usado</h2>
   <h2 class="tr">Önemli Olan Mekanizmanın Var Olup Olmadığı Değil, Nasıl Kullanıldığıdır</h2>
   <h2 class="vi">Điều Quan Trọng Không Phải Là Cơ Chế Có Tồn Tại Hay Không, Mà Là Cách Nó Được Sử Dụng</h2>
+  <h2 class="id">Yang Penting Bukan Apakah Mekanismenya Ada, Tapi Bagaimana Ia Digunakan</h2>
+  <h2 class="pl">Liczy Się Nie To, Czy Mechanizm Istnieje, Lecz Jak Jest Wykorzystywany</h2>
+  <h2 class="it">Ciò Che Conta Non È Se il Meccanismo Esiste, Ma Come Viene Usato</h2>
+  <h2 class="ru">Важно Не То, Существует Ли Механизм, а То, Как Он Используется</h2>
+  <h2 class="zh">重要的不是機制是否存在,而是它如何被使用</h2>
 
 
   <p class="ko">이 사이클엔 눈에 덜 띄는 또 다른 배관 변화도 있었다. 2024년 1월 현물 비트코인 ETF가 승인됐을 때, 미국 증권거래위원회는 창설·상환을 현금으로만 하도록 제한했다 — 지정참가회사(AP)가 ETF 신주를 만들려면 현금을 납입하고, 발행사가 그 현금으로 실제 비트코인을 공개시장에서 사들여야 했다. 이 구조는 ETF 신주가 만들어질 때마다 자동으로 현물 매수 압력을 만들어냈다. 그런데 2025년 7월 29일, SEC는 비트코인·이더리움 ETF에 대해 실물(in-kind) 창설·상환을 전면 승인했다. 이제 AP는 보유 중인 비트코인을 현금 대신 직접 납입해 신주를 받을 수 있다 — 신주 발행이 반드시 새로운 현물 매수로 이어질 필요가 없어졌다는 뜻이다.</p>
@@ -572,6 +812,11 @@
   <p class="pt">Este ciclo teve outra mudança de encanamento, mais silenciosa. Quando os ETFs de bitcoin à vista foram aprovados em janeiro de 2024, a SEC restringiu a criação e o resgate apenas a dinheiro — um participante autorizado (AP) precisava depositar dinheiro para criar novas cotas do ETF, e o emissor então precisava comprar bitcoin real no mercado aberto com esse dinheiro. Essa estrutura gerava automaticamente pressão de compra à vista toda vez que uma nova cota era criada. Depois, em 29 de julho de 2025, a SEC aprovou integralmente a criação e o resgate in-kind (em espécie) para os ETFs de bitcoin e Ethereum. Os APs agora podem depositar diretamente bitcoin que já possuem, em vez de dinheiro — o que significa que uma nova cota não precisa mais necessariamente se traduzir em nova compra à vista.</p>
   <p class="tr">Bu döngüde daha sessiz başka bir boru tesisatı değişikliği daha yaşandı. Ocak 2024'te spot bitcoin ETF'leri onaylandığında, SEC yaratım ve geri alımı yalnızca nakitle sınırladı — yetkili bir katılımcının (AP) yeni ETF payları yaratmak için nakit yatırması gerekiyordu ve ihraççı da bu nakitle açık piyasadan gerçek bitcoin satın almak zorundaydı. Bu yapı, her yeni pay yaratıldığında otomatik olarak spot alım baskısı üretiyordu. Ardından, 29 Temmuz 2025'te SEC, bitcoin ve Ethereum ETF'leri için ayni (in-kind) yaratım ve geri alımı tamamen onayladı. AP'ler artık nakit yerine zaten ellerinde tuttukları bitcoin'i doğrudan yatırabiliyor — bu da yeni bir payın artık zorunlu olarak yeni bir spot alıma dönüşmesi gerekmediği anlamına geliyor.</p>
   <p class="vi">Chu kỳ này còn có một thay đổi khác trong hệ thống ống dẫn, âm thầm hơn. Khi các quỹ ETF bitcoin giao ngay được phê duyệt vào tháng 1/2024, SEC giới hạn việc tạo lập và chuộc lại chỉ bằng tiền mặt — một nhà tham gia được ủy quyền (AP) phải nộp tiền mặt để tạo lập cổ phần ETF mới, và tổ chức phát hành sau đó phải dùng số tiền mặt đó để mua bitcoin thật trên thị trường mở. Cấu trúc đó tự động tạo ra áp lực mua giao ngay mỗi khi một cổ phần mới được tạo lập. Sau đó, vào ngày 29/7/2025, SEC đã phê duyệt hoàn toàn việc tạo lập và chuộc lại bằng hiện vật (in-kind) cho các quỹ ETF bitcoin và Ethereum. Giờ đây các AP có thể trực tiếp nộp bitcoin mà họ đã nắm giữ, thay vì tiền mặt — nghĩa là một cổ phần mới không còn nhất thiết phải chuyển thành hoạt động mua giao ngay mới nữa.</p>
+  <p class="id">Siklus ini mengalami satu lagi perubahan "pipa" yang lebih senyap. Ketika ETF bitcoin spot disetujui pada Januari 2024, SEC membatasi penciptaan dan penebusan hanya dengan tunai — peserta resmi (authorized participant, AP) harus menyetor tunai untuk menciptakan saham ETF baru, dan penerbit kemudian harus membeli bitcoin sungguhan di pasar terbuka dengan tunai tersebut. Struktur itu secara otomatis menciptakan tekanan beli spot setiap kali saham baru diciptakan. Kemudian, pada 29 Juli 2025, SEC menyetujui sepenuhnya penciptaan dan penebusan in-kind untuk ETF bitcoin dan Ethereum. AP kini bisa langsung menyetor bitcoin yang sudah mereka miliki, alih-alih tunai — artinya saham baru tidak lagi harus otomatis diterjemahkan menjadi pembelian spot baru.</p>
+  <p class="pl">W tym cyklu doszło do jeszcze jednej, cichszej zmiany w „instalacji". Gdy w styczniu 2024 roku zatwierdzono spotowe ETF-y na bitcoina, SEC ograniczyła tworzenie i umarzanie jednostek wyłącznie do gotówki — upoważniony uczestnik (AP) musiał wpłacić gotówkę, aby utworzyć nowe jednostki ETF, a emitent musiał następnie za tę gotówkę kupić prawdziwego bitcoina na otwartym rynku. Ta struktura automatycznie generowała presję kupna na rynku spot za każdym razem, gdy tworzono nową jednostkę. Następnie, 29 lipca 2025 roku, SEC w pełni zatwierdziła tworzenie i umarzanie w naturze (in-kind) dla ETF-ów na bitcoina i Ethereum. AP mogą teraz wpłacać bezpośrednio bitcoiny, które już posiadają, zamiast gotówki — co oznacza, że nowa jednostka wcale nie musi już przekładać się na nowy zakup na rynku spot.</p>
+  <p class="it">Questo ciclo ha visto un altro cambiamento più silenzioso nell'impianto. Quando gli ETF spot su bitcoin sono stati approvati nel gennaio 2024, la SEC ha limitato la creazione e il rimborso solo in contanti — un partecipante autorizzato (AP) doveva depositare contanti per creare nuove quote dell'ETF, e l'emittente doveva poi acquistare bitcoin reali sul mercato aperto con quel contante. Questa struttura generava automaticamente pressione d'acquisto spot ogni volta che veniva creata una nuova quota. Poi, il 29 luglio 2025, la SEC ha approvato integralmente la creazione e il rimborso in natura (in-kind) per gli ETF su bitcoin ed Ethereum. Gli AP possono ora depositare direttamente bitcoin già in loro possesso, invece di contanti — il che significa che una nuova quota non deve più necessariamente tradursi in nuovi acquisti spot.</p>
+  <p class="ru">В этом цикле произошёл ещё один, менее заметный сдвиг в «сантехнике» механизма. Когда в январе 2024 года были одобрены спотовые биткоин-ETF, SEC ограничила создание и погашение паёв только наличными — уполномоченный участник (AP) должен был вносить наличные для создания новых паёв ETF, а эмитент затем должен был покупать настоящий биткоин на открытом рынке за эти наличные. Такая структура автоматически создавала давление спотовых покупок при каждом создании нового пая. Затем, 29 июля 2025 года, SEC полностью одобрила создание и погашение в натуральной форме (in-kind) для биткоин- и эфириум-ETF. Теперь AP могут напрямую вносить уже имеющийся у них биткоин вместо наличных — а значит, новый пай больше не обязан выливаться в новую спотовую покупку.</p>
+  <p class="zh">這個週期還發生了另一項較不引人注目的「管線」變化。2024年1月,現貨比特幣ETF獲准上市時,美國證券交易委員會(SEC)將申購與贖回機制限制為僅能以現金進行——指定參與商(AP)必須先繳付現金以創造新的ETF股份,發行商再用這筆現金在公開市場上買入真正的比特幣。這種結構讓每次新股份被創造出來時,都會自動產生現貨買盤壓力。然而,2025年7月29日,SEC全面核准比特幣與以太幣ETF可採用實物(in-kind)申購與贖回機制。指定參與商如今可以直接繳交自己已持有的比特幣來代替現金——這意味著新股份的創造不再必然轉化為新的現貨買盤。</p>
 
 
   <p class="ko">대부분 이 사이클을 2013년, 2017년, 2021년과 비교하는 글은 '존재하는지'만 따진다 — '이번엔 기관 자금이 있다', '이번엔 ETF가 있다'는 식이다. 그러나 IBIT 옵션의 사례가 보여주듯, 파생상품이나 창설 메커니즘이 '존재하는지'는 그 자체로는 아무것도 말해주지 않는다. 2017년 CME 선물이 고점의 방아쇠가 될 수 있었던 건 그 메커니즘이 실제로 회의론 쪽으로 쓰였기 때문이고, 2024년 IBIT 옵션이 그러지 않았던 건 콜옵션 쏠림 때문이다. 그러니 '파생상품이 등장했으니 고점이 가깝다'는 2017년식 패턴 매칭은 이번 사이클엔 통하지 않는다. 대신 봐야 할 건 <a href="/blog/ibit-options-put-skew-bollinger-breakout-gap">IBIT 옵션의 풋/콜 구성과 스큐가 지금 이 순간 어느 쪽으로 기울어 있는지</a>다 — 이건 한 번 등장했다 사라지는 이벤트가 아니라, 매일 다시 확인해야 하는 변수다.</p>

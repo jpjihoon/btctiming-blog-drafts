@@ -66,6 +66,11 @@
   "desc_pt": "A Tether congelou 131 milhões de dólares em USDT em quatro carteiras TRON ligadas ao IRGC e ao banco central do Irão, após a designação de sanções da OFAC de 14 de julho. A maioria dos fundos foi rastreada até a DTC Pay e a Bitso. Somado ao congelamento de 344,2 milhões de abril, 475 milhões foram congelados em três meses — momento que coincide com ação militar perto do estreito de Ormuz.",
   "desc_tr": "Tether, 14 Temmuz'daki OFAC yaptırım tanımlamasının ardından İran IRGC ve merkez bankasına bağlı dört TRON cüzdanında 131 milyon dolarlık USDT dondurdu. Fonların çoğu DTC Pay ve Bitso'ya kadar izlendi. Nisan'daki 344,2 milyon dolarlık dondurmayla birlikte üç ayda 475 milyon dolar donduruldu — zamanlama Hürmüz Boğazı yakınındaki askeri harekâtla çakışıyor.",
   "desc_vi": "Tether đã đóng băng 131 triệu USD USDT trong bốn ví TRON liên quan đến IRGC và ngân hàng trung ương Iran, sau chỉ định trừng phạt của OFAC ngày 14/7. Phần lớn số tiền được truy vết về DTC Pay và Bitso. Cộng với đợt đóng băng 344,2 triệu USD hồi tháng 4, tổng cộng 475 triệu USD đã bị đóng băng trong ba tháng — thời điểm trùng với hành động quân sự gần eo biển Hormuz.",
+  "desc_id": "Tether bekukan $131 juta USDT di 4 dompet TRON terkait IRGC & bank sentral Iran usai sanksi OFAC. Dana Iran dibekukan Tether capai $475 juta dalam 3 bulan.",
+  "desc_pl": "Tether zamroził 131 mln USD w USDT na 4 portfelach TRON powiązanych z IRGC i bankiem Iranu po sankcjach OFAC. Zamrożono już 475 mln USD w trzy miesiące.",
+  "desc_it": "Tether ha congelato 131 milioni di dollari in USDT su 4 wallet TRON legati a IRGC e banca iraniana dopo le sanzioni OFAC. In 3 mesi congelati 475 milioni.",
+  "desc_ru": "Tether заморозила $131 млн в USDT на 4 кошельках TRON, связанных с КСИР и Центробанком Ирана, после санкций OFAC. За три месяца заморожено $475 млн.",
+  "desc_zh": "泰達幣凍結四個與IRGC及伊朗中央銀行有關TRON錢包中的1.31億美元USDT,緊接OFAC於7月14日的制裁指定,資金多數追溯至DTC Pay與Bitso交易所。三個月內累計凍結金額已達4.75億美元,恰逢荷姆茲海峽附近軍事行動升溫之際。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -75,6 +80,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
   "category": "coinnews",
   "date": "2026-07-16 19:20:00"
 }

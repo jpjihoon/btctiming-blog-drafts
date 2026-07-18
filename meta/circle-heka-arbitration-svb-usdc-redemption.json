@@ -66,6 +66,11 @@
   "desc_pt": "A Circle venceu uma arbitragem sobre a sua suspensão em 2023 dos privilégios de emissão e resgate de USDC da Heka Funds durante a crise do SVB. O pedido da Heka de 49 milhões de dólares em lucros perdidos foi rejeitado, e os documentos revelaram que a Tether tinha investido 800 milhões de dólares — 75% dos ativos da Heka — sem divulgação. A Circle procura agora a confirmação judicial da sentença.",
   "desc_tr": "Circle, 2023 SVB krizi sırasında Heka Funds'ın USDC basma ve itfa yetkilerini askıya alma kararıyla ilgili tahkimi kazandı. Heka'nın 49 milyon dolarlık kayıp kâr talebi reddedildi ve belgeler Tether'in Heka varlıklarının %75'ine denk gelen 800 milyon doları açıklamadan yatırdığını ortaya çıkardı. Circle şimdi kararın mahkemece onaylanmasını talep ediyor.",
   "desc_vi": "Circle đã thắng vụ trọng tài liên quan đến việc đình chỉ quyền phát hành và đổi USDC của Heka Funds năm 2023 trong khủng hoảng SVB. Yêu cầu bồi thường 49 triệu USD lợi nhuận bị mất của Heka bị bác bỏ, và hồ sơ tiết lộ Tether đã đầu tư 800 triệu USD — 75% tài sản của Heka — mà không công khai. Circle hiện đang tìm kiếm sự xác nhận của tòa án đối với phán quyết này.",
+  "desc_id": "Circle menang arbitrase atas penangguhan USDC Heka Funds saat krisis SVB. Klaim $49 juta Heka ditolak; Tether diam-diam investasi $800 juta di Heka.",
+  "desc_pl": "Circle wygrał arbitraż o zawieszenie USDC Heka Funds w kryzysie SVB. Roszczenie Heki na 49 mln $ oddalono; Tether potajemnie ulokował w Heka 800 mln $.",
+  "desc_it": "Circle vince l'arbitrato sulla sospensione USDC di Heka nella crisi SVB. Richiesta di Heka da 49 mln $ respinta; Tether investì segretamente 800 mln $.",
+  "desc_ru": "Circle выиграла арбитраж о приостановке USDC Heka Funds во время кризиса SVB. Иск Heka на $49 млн отклонён; Tether тайно вложила $800 млн в Heka.",
+  "desc_zh": "Circle在一起仲裁中勝訴,爭議源於其2023年在SVB危機期間暫停Heka Funds的USDC發行與贖回權限。Heka提出的4,900萬美元利潤損失索賠遭駁回,文件亦揭露泰達幣曾秘密向Heka投資8億美元。Circle現正尋求法院確認該裁決。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -75,6 +80,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
   "category": "coinnews",
   "date": "2026-07-16 19:35:00"
 }

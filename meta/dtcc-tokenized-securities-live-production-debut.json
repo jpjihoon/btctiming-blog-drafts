@@ -68,6 +68,11 @@
   "desc_pt": "A DTCC, espinha dorsal da liquidação de valores mobiliários dos EUA, processou em 15 de julho suas primeiras negociações em produção real de valores tokenizados com mais de 40 instituições, incluindo JPMorgan, Goldman Sachs, BlackRock e Vanguard, sobre SPY, QQQ, títulos do Tesouro e ações da Microsoft e da Circle. Uma análise de como funciona o modelo de token 'gêmeo digital', uma comparação com experimentos passados como o Project Ion, e o ceticismo sobre os limites de um livro-razão permissionado.",
   "desc_tr": "ABD menkul kıymet mutabakatının bel kemiği DTCC, 15 Temmuz'da JPMorgan, Goldman Sachs, BlackRock ve Vanguard dahil 40'tan fazla kurumla birlikte SPY, QQQ, ABD Hazine tahvilleri, Microsoft ve Circle hisseleri üzerinde tokenize menkul kıymetlerin ilk canlı üretim işlemlerini gerçekleştirdi. 'Dijital ikiz' token modelinin nasıl çalıştığının, Project Ion gibi geçmiş deneylerle karşılaştırmanın ve izinli bir defterin sınırlarına dair şüpheciliğin analizi.",
   "desc_vi": "DTCC, xương sống của hệ thống thanh toán chứng khoán Mỹ, đã xử lý vào ngày 15/7 các giao dịch sản xuất thực đầu tiên đối với chứng khoán token hóa với hơn 40 tổ chức bao gồm JPMorgan, Goldman Sachs, BlackRock và Vanguard, trên SPY, QQQ, trái phiếu Kho bạc Mỹ và cổ phiếu Microsoft, Circle. Phân tích cách mô hình token 'bản sao kỹ thuật số' hoạt động, so sánh với các thử nghiệm trước đây như Project Ion, và sự hoài nghi về giới hạn của một sổ cái có cấp phép.",
+  "desc_id": "DTCC memproses transaksi live pertama sekuritas tokenisasi pada 15 Juli bersama 40+ lembaga termasuk JPMorgan, Goldman Sachs, dan BlackRock.",
+  "desc_pl": "DTCC przeprowadziła 15 lipca pierwsze transakcje live tokenizowanych papierów z ponad 40 instytucjami, w tym JPMorgan, Goldman Sachs i BlackRock.",
+  "desc_it": "Il 15 luglio DTCC ha elaborato le prime operazioni live su titoli tokenizzati con oltre 40 istituzioni, tra cui JPMorgan, Goldman Sachs e BlackRock.",
+  "desc_ru": "15 июля DTCC провела первые реальные сделки с токенизированными бумагами с более чем 40 организациями, включая JPMorgan, Goldman Sachs и BlackRock.",
+  "desc_zh": "美國證券結算樞紐DTCC於7月15日與摩根大通、高盛、貝萊德、先鋒領航等逾40家機構共同完成首批代幣化證券實戰生產交易,涵蓋SPY、QQQ、美國公債及微軟、Circle等個股,並分析「數位雙生」代幣模式的運作原理,以及與過往區塊鏈實驗的比較。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -76,5 +81,10 @@
   "read_fr": "7",
   "read_pt": "7",
   "read_tr": "7",
-  "read_vi": "7"
+  "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7"
 }
