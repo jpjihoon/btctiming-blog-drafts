@@ -69,6 +69,11 @@
 <h2 class="pt">Os precedentes opostos da Alemanha e dos EUA — e o que ainda está em aberto</h2>
 <h2 class="tr">Almanya ve ABD'nin birbirine zıt emsalleri — ve açık kalan sorular</h2>
 <h2 class="vi">Tiền lệ trái ngược của Đức và Mỹ — và những gì còn bỏ ngỏ</h2>
+<h2 class="id">Preseden Berlawanan dari Jerman dan AS — dan Apa yang Masih Terbuka</h2>
+<h2 class="pl">Sprzeczne precedensy Niemiec i USA — i co pozostaje otwarte</h2>
+<h2 class="it">I precedenti opposti di Germania e Stati Uniti — e cosa resta ancora aperto</h2>
+<h2 class="ru">Противоположные прецеденты Германии и США — и что остаётся открытым</h2>
+<h2 class="zh">德國與美國的對立先例——以及尚未解決的問題</h2>
 
 <p class="ko">정부가 보유하게 된 가상자산을 어떻게 다룰지는 이미 국가별로 상반된 결과를 낳은 바 있다. 2024년 독일 작센주 경찰은 영화 불법유통 사이트 운영자로부터 압류한 약 5만 BTC를, 자산가치 변동 리스크를 이유로 6~7월 두 달에 걸쳐 시장에 매각했다 — 처분 당시 평균가는 5만 4천~6만 달러대였다. 이는 압류 자산을 최대한 빨리 현금화해야 할 '위험'으로 취급한 대표적 사례였고, 이후 비트코인 가격이 그 두 배 안팎까지 오르면서 독일 정부는 상당한 잠재 이익을 놓쳤다는 비판을 받았다. 반대로 미국은 2025년 3월 행정명령으로 실크로드·비트파이넥스 해킹 등에서 몰수한 약 19만 8천 BTC를 기반으로 '전략 비트코인 비축분(Strategic Bitcoin Reserve)'을 설립하며, 이를 매각하지 않고 장기 보유하겠다고 명시했다 — 몰수 자산을 위험이 아니라 전략적 국가자산으로 규정한 정반대 접근이다.</p>
 <p class="en">How governments handle virtual assets they come to hold has already produced starkly different outcomes across countries. In 2024, police in Germany's Saxony state sold roughly 50,000 BTC seized from the operator of a movie-piracy site over June and July, citing the risk of value fluctuation - selling at an average price in the $54,000-$60,000 range. That was a textbook case of treating seized assets as a "risk" to be converted to cash as quickly as possible, and Germany drew criticism for missing out on substantial potential gains after bitcoin's price roughly doubled in the following period. The United States took the opposite approach: a March 2025 executive order established a Strategic Bitcoin Reserve built on roughly 198,000 BTC forfeited from cases including Silk Road and the Bitfinex hack, explicitly stating the coins would not be sold but held long-term - defining forfeited assets as strategic national wealth rather than risk.</p>
