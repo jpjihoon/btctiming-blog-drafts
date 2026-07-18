@@ -48,6 +48,16 @@
 <p class="tr">Bu yapının işlemesi için token sahibi kayıt defterinin hukuken pay sahibi siciliyle aynı olması gerekir. Securitize halihazırda BlackRock'ın tokenize edilmiş para piyasası fonu BUIDL'in ihraç acentesi ve transfer acentesi konumunda ve Nisan itibarıyla 4 milyar doların üzerinde tokenize varlığı yöneten dünyanın en büyük tokenizasyon platformu. Cantor buna, büyük bir halka arz lider yüklenicisi (bookrunner) sıfatıyla sahip olduğu aracılık ve dağıtım ağını ekliyor; amaç, yeni halka açılan şirketlere en baştan zincir üstü sahiplik yapısını seçme yolu sunmak.</p>
 <p class="vi">Cốt lõi của thỏa thuận này là tích hợp việc token hóa vào chính quy trình phát hành chứng khoán, thay vì gắn thêm sau đó như một dịch vụ bổ sung. Khác với <a href="/vi/blog/dtcc-russell-1000-tokenization-pilot-live">thí điểm token hóa chỉ số Russell 1000 của DTCC</a> — vốn sao chép các cổ phiếu đã niêm yết lên sổ cái blockchain sau khi phát hành theo cách tiếp cận "lớp thứ cấp" — mô hình Cantor-Securitize là cách tiếp cận "lớp phát hành sơ cấp", trong đó tổ chức phát hành đăng ký và phát hành token onchain như chứng khoán chính thức ngay từ đầu. Các tổ chức phát hành vẫn phải tuân thủ luật chứng khoán và quy định IPO hiện hành, các yêu cầu về điều kiện nhà đầu tư và nghĩa vụ công bố thông tin không hề biến mất — điều thay đổi là hồ sơ sở hữu và thanh toán được thực hiện qua sổ cái blockchain.</p>
 <p class="vi">Để cấu trúc này vận hành, sổ cái nắm giữ token phải tương đương về mặt pháp lý với sổ đăng ký cổ đông. Securitize hiện đã là đại lý phát hành và đại lý chuyển nhượng cho quỹ thị trường tiền tệ token hóa BUIDL của BlackRock, và tính đến tháng 4 là nền tảng token hóa lớn nhất thế giới, quản lý hơn 4 tỷ đô la tài sản token hóa. Cantor bổ sung vào đó mạng lưới bảo lãnh phát hành và phân phối với tư cách là nhà bảo lãnh chính cho các đợt IPO lớn, với ý tưởng mở ra cho các công ty mới niêm yết một con đường để lựa chọn cấu trúc sở hữu onchain ngay từ đầu.</p>
+<p class="id">Inti dari kesepakatan ini adalah menanamkan tokenisasi ke dalam proses penerbitan efek itu sendiri, bukan menambahkannya belakangan sebagai layanan tambahan. Berbeda dari <a href="/id/blog/dtcc-russell-1000-tokenization-pilot-live">proyek percontohan tokenisasi Russell 1000 milik DTCC</a>, yang menyalin saham yang sudah tercatat ke buku besar blockchain setelah fakta sebagai pendekatan "lapisan sekunder", model Cantor-Securitize adalah pendekatan "lapisan penerbitan primer" di mana penerbit mendaftarkan dan menerbitkan token onchain sebagai efek resmi sejak hari pertama. Penerbit tetap harus mematuhi undang-undang efek dan aturan IPO yang berlaku, dan persyaratan kelayakan investor serta kewajiban pengungkapan tidak hilang — yang berubah adalah catatan kepemilikan dan penyelesaian dijalankan melalui buku besar blockchain.</p>
+<p class="id">Agar struktur ini berfungsi, buku besar pemegang token harus secara hukum identik dengan daftar pemegang saham. Securitize sudah berperan sebagai agen penerbitan dan agen transfer untuk dana pasar uang tertokenisasi BUIDL milik BlackRock, dan per April merupakan platform tokenisasi terbesar di dunia, mengelola lebih dari 4 miliar dolar aset tertokenisasi. Cantor menambahkan jaringan penjaminan emisi dan distribusinya sebagai bookrunner IPO besar di atas itu, dengan gagasan memberi perusahaan yang baru tercatat jalan untuk memilih struktur kepemilikan onchain sejak hari pertama.</p>
+<p class="pl">Sednem tego porozumienia jest wbudowanie tokenizacji w sam proces emisji papierów wartościowych, zamiast dodawania jej później jako usługi dodatkowej. W przeciwieństwie do <a href="/pl/blog/dtcc-russell-1000-tokenization-pilot-live">pilotażowego programu tokenizacji Russell 1000 prowadzonego przez DTCC</a>, który powiela już notowane akcje w rejestrze blockchain po fakcie w podejściu „warstwy wtórnej", model Cantor-Securitize to podejście „warstwy emisji pierwotnej", w którym emitent od pierwszego dnia rejestruje i emituje token onchain jako formalny papier wartościowy. Emitenci nadal muszą przestrzegać obowiązujących przepisów o papierach wartościowych i zasad IPO, a wymogi kwalifikowalności inwestorów oraz obowiązki informacyjne nie znikają — zmienia się to, że zapisy własności i rozliczenia przebiegają przez rejestr blockchain.</p>
+<p class="pl">Aby ta struktura działała, rejestr posiadaczy tokenów musi być prawnie tożsamy z rejestrem akcjonariuszy. Securitize już pełni funkcję agenta emisyjnego i agenta transferowego dla tokenizowanego funduszu rynku pieniężnego BlackRock BUIDL, a od kwietnia jest największą na świecie platformą tokenizacyjną, zarządzającą aktywami tokenizowanymi o wartości ponad 4 miliardów dolarów. Cantor dokłada do tego swoją sieć gwarantowania emisji i dystrybucji jako główny bookrunner IPO, z myślą o umożliwieniu nowo notowanym spółkom wyboru struktury własności onchain już od pierwszego dnia.</p>
+<p class="it">Il cuore di questo accordo consiste nell'integrare la tokenizzazione direttamente nel processo di emissione dei titoli, anziché aggiungerla in seguito come servizio accessorio. A differenza del <a href="/it/blog/dtcc-russell-1000-tokenization-pilot-live">progetto pilota di tokenizzazione del Russell 1000 di DTCC</a>, che replica a posteriori azioni già quotate su un registro blockchain secondo un approccio a "livello secondario", il modello Cantor-Securitize è un approccio a "livello di emissione primaria", in cui l'emittente registra ed emette il token onchain come titolo formale fin dal primo giorno. Gli emittenti devono comunque rispettare le leggi sui titoli e le norme IPO vigenti, e i requisiti di idoneità degli investitori e gli obblighi di trasparenza non scompaiono: ciò che cambia è che i registri di proprietà e il regolamento avvengono tramite un registro blockchain.</p>
+<p class="it">Perché questa struttura funzioni, il registro dei detentori di token deve essere legalmente identico al registro degli azionisti. Securitize funge già da agente di emissione e agente di trasferimento per il fondo monetario tokenizzato BUIDL di BlackRock e, a partire da aprile, è la più grande piattaforma di tokenizzazione al mondo, con oltre 4 miliardi di dollari di asset tokenizzati in gestione. Cantor vi aggiunge la propria rete di sottoscrizione e distribuzione in qualità di importante bookrunner di IPO, con l'idea di offrire alle società di nuova quotazione un percorso per scegliere strutture di proprietà onchain fin dal primo giorno.</p>
+<p class="ru">Суть этого соглашения заключается в том, чтобы встроить токенизацию непосредственно в процесс выпуска ценных бумаг, а не добавлять её позже как дополнительную услугу. В отличие от <a href="/ru/blog/dtcc-russell-1000-tokenization-pilot-live">пилотного проекта DTCC по токенизации индекса Russell 1000</a>, который задним числом копирует уже торгуемые акции в блокчейн-реестр по подходу «вторичного уровня», модель Cantor-Securitize представляет собой подход «первичного уровня выпуска», при котором эмитент с первого дня регистрирует и выпускает ончейн-токен как официальную ценную бумагу. Эмитенты по-прежнему обязаны соблюдать действующее законодательство о ценных бумагах и правила IPO, а требования к квалификации инвесторов и обязательства по раскрытию информации никуда не исчезают — меняется лишь то, что записи о собственности и расчёты проходят через блокчейн-реестр.</p>
+<p class="ru">Чтобы эта структура работала, реестр держателей токенов должен быть юридически идентичен реестру акционеров. Securitize уже выступает агентом по выпуску и трансфер-агентом для токенизированного фонда денежного рынка BlackRock BUIDL, а по состоянию на апрель является крупнейшей в мире платформой токенизации, управляя токенизированными активами на сумму более 4 миллиардов долларов. Cantor добавляет к этому свою сеть андеррайтинга и дистрибуции в качестве крупного букраннера IPO, стремясь дать недавно вышедшим на биржу компаниям возможность выбрать ончейн-структуру владения с первого дня.</p>
+<p class="zh">這項協議的核心在於將代幣化直接嵌入證券發行流程本身,而非事後才附加的加值服務。與<a href="/zh/blog/dtcc-russell-1000-tokenization-pilot-live">美國存管信託公司(DTCC)羅素1000指數代幣化試點</a>不同——後者是把已上市股票事後複製到區塊鏈帳本上,屬於「次級層」做法——坎托與Securitize的模式則是「初級發行層」做法,由發行人自第一天起就將鏈上代幣註冊並發行為正式證券。發行人仍須遵守現行證券法與IPO規定,投資人資格要求與資訊揭露義務也不會因此消失——真正改變的是所有權紀錄與結算改由區塊鏈帳本執行。</p>
+<p class="zh">要讓這套架構運作,代幣持有人名冊在法律上必須等同於股東名冊。Securitize已擔任貝萊德(BlackRock)代幣化貨幣市場基金BUIDL的發行代理與過戶代理,截至4月為止是全球最大的代幣化平台,管理逾40億美元的代幣化資產。坎托則在此基礎上加入其身為大型IPO主承銷商的承銷與配售網路,構想是讓新上市公司從第一天起就能選擇上鏈的所有權架構。</p>
 
 <h2 class="ko">두 회사의 특별한 관계 — 캔터가 증권화를 상장시켰다</h2>
 <h2 class="en">A Special Relationship — Cantor Took Securitize Public</h2>
@@ -58,6 +68,11 @@
 <h2 class="pt">Uma Relação Especial — a Cantor Levou a Securitize à Bolsa</h2>
 <h2 class="tr">Özel Bir İlişki — Securitize'i Halka Açan Cantor'du</h2>
 <h2 class="vi">Mối Quan Hệ Đặc Biệt — Chính Cantor Đã Đưa Securitize Lên Sàn</h2>
+<h2 class="id">Hubungan Istimewa — Cantor yang Membawa Securitize ke Bursa</h2>
+<h2 class="pl">Szczególna Relacja — To Cantor Wprowadził Securitize na Giełdę</h2>
+<h2 class="it">Un Rapporto Speciale — È Stata Cantor a Quotare Securitize</h2>
+<h2 class="ru">Особые Отношения — Именно Cantor Вывел Securitize на Биржу</h2>
+<h2 class="zh">特殊關係 — 是坎托讓Securitize上市的</h2>
 
 <p class="ko">이번 협업은 우연한 만남이 아니다. 증권화는 불과 2주 전인 7월 2일 캔터의 스팩(SPAC) 자회사와의 합병으로 뉴욕증시에 데뷔했고, <a href="/blog/securitize-nyse-debut-tokenized-stock">상장 당일 자사 보통주를 솔라나·아발란체 위에서 토큰화해 약 2억6600만 달러 규모의 세계 최대 토큰화 주식을 만들어낸 바 있다</a>. 즉 캔터는 증권화를 공개시장에 데뷔시킨 당사자이자, 이제 그 증권화와 함께 다른 기업들의 상장 방식 자체를 바꾸려는 두 번째 단계를 밟고 있는 셈이다.</p>
 <p class="ko">캔터의 행보는 일관된 전략이다. 회장 브랜든 러트닉은 상무장관으로 자리를 옮긴 부친 하워드 러트닉의 뒤를 이어 회사를 이끌며 "크립토의 심장부에 앉고 싶다"고 공언해 왔고, 소프트뱅크·테더·비트파이넥스와 함께 30억 달러 규모의 비트코인 매입 법인 '21캐피털'을 조성하는 등 디지털자산 전방위에 베팅해 왔다. 토큰화된 주식이 실제 미국 증시에 오른 선례가 없는 것은 아니다 — 2024년 지갑 개발사 엑소더스무브먼트가 보통주를 토큰화해 나스닥아메리칸에 상장했지만, 당시 조달 규모는 6000만 달러 수준의 소규모 거래였다. 이번 캔터-증권화 협업은 이를 대형 투자은행이 주간사로 참여하는 표준 인프라로 확장하려는 시도라는 점에서 규모와 야심이 다르다.</p>
@@ -77,6 +92,16 @@
 <p class="tr">Cantor'un hamleleri tutarlı bir stratejinin parçası. Babası Howard Lutnick'in Ticaret Bakanı olmak için ayrılmasının ardından yönetimi devralan Başkan Brandon Lutnick, "kriptonun kalbinde oturmak" istediğini söylemişti ve şirket, SoftBank, Tether ve Bitfinex ile birlikte 3 milyar dolarlık bir bitcoin edinim girişimi olan 21 Capital'i kurmak da dahil olmak üzere dijital varlıklara geniş çaplı bahis oynadı. Tokenize edilmiş bir hissenin gerçek bir ABD borsasına ulaşmasının önceden bir örneği yok değil: cüzdan üreticisi Exodus Movement, 2024'te adi hisselerini tokenleştirip NYSE American'da işlem görmeye başlamıştı, ancak bu görece küçük, yaklaşık 60 milyon dolarlık bir işlemdi. Cantor-Securitize iş birliği ise ölçek ve hırs bakımından farklı; büyük bir yatırım bankasının yüklenici olarak yer aldığı standart bir altyapıya dönüştürmeyi hedefliyor.</p>
 <p class="vi">Sự hợp tác này không phải ngẫu nhiên. Chỉ hai tuần trước, vào ngày 2/7, <a href="/vi/blog/securitize-nyse-debut-tokenized-stock">Securitize đã ra mắt trên Sàn giao dịch chứng khoán New York thông qua việc sáp nhập với công ty con SPAC của Cantor, và ngay trong ngày đó đã token hóa cổ phiếu phổ thông của chính mình trên Solana và Avalanche, tạo ra cổ phiếu token hóa lớn nhất thế giới với giá trị khoảng 266 triệu đô la</a>. Nói cách khác, Cantor chính là bên đã đưa Securitize ra thị trường đại chúng, và giờ đây cả hai đang cùng nhau thực hiện bước thứ hai nhằm thay đổi chính cách các công ty khác niêm yết.</p>
 <p class="vi">Các động thái của Cantor tạo thành một chiến lược nhất quán. Chủ tịch Brandon Lutnick, người tiếp quản vị trí sau khi cha ông, Howard Lutnick, rời đi để trở thành Bộ trưởng Thương mại, đã tuyên bố muốn "ngồi ở trung tâm của tiền mã hóa", và công ty đã đặt cược rộng rãi vào tài sản số — bao gồm việc thành lập 21 Capital, một liên doanh mua bitcoin trị giá 3 tỷ đô la cùng SoftBank, Tether và Bitfinex. Cổ phiếu token hóa từng xuất hiện trên một sàn giao dịch Mỹ thực sự trước đây: nhà sản xuất ví Exodus Movement đã token hóa cổ phiếu phổ thông của mình và niêm yết trên NYSE American năm 2024, nhưng đó là một giao dịch tương đối nhỏ, huy động khoảng 60 triệu đô la. Sự hợp tác Cantor-Securitize khác biệt về quy mô và tham vọng, nhắm đến việc mở rộng điều này thành hạ tầng chuẩn với một ngân hàng đầu tư lớn đóng vai trò bảo lãnh phát hành.</p>
+<p class="id">Kolaborasi ini bukan pertemuan kebetulan. Hanya dua minggu sebelumnya, pada 2 Juli, <a href="/id/blog/securitize-nyse-debut-tokenized-stock">Securitize resmi tercatat di Bursa Efek New York melalui merger dengan anak perusahaan SPAC milik Cantor, dan pada hari yang sama menokenisasi saham biasanya sendiri di Solana dan Avalanche, menciptakan saham tertokenisasi terbesar di dunia senilai sekitar 266 juta dolar</a>. Dengan kata lain, Cantor adalah pihak yang membawa Securitize ke pasar publik, dan kini keduanya mengambil langkah kedua bersama untuk mengubah cara perusahaan lain melantai di bursa.</p>
+<p class="id">Langkah-langkah Cantor membentuk strategi yang konsisten. Ketua Brandon Lutnick, yang mengambil alih kemudi setelah ayahnya Howard Lutnick mundur untuk menjadi Menteri Perdagangan, mengatakan ia ingin "duduk di jantung kripto," dan perusahaan telah bertaruh luas pada aset digital — termasuk membentuk 21 Capital, usaha akuisisi bitcoin senilai 3 miliar dolar bersama SoftBank, Tether, dan Bitfinex. Saham tertokenisasi pernah mencapai bursa AS yang sesungguhnya sebelumnya: produsen dompet digital Exodus Movement menokenisasi saham biasanya dan tercatat di NYSE American pada 2024, tetapi itu adalah transaksi yang relatif kecil, menghimpun sekitar 60 juta dolar. Kolaborasi Cantor-Securitize berbeda dalam skala dan ambisi, bertujuan memperluas ini menjadi infrastruktur standar dengan bank investasi besar berperan sebagai penjamin emisi.</p>
+<p class="pl">Ta współpraca nie jest przypadkowym spotkaniem. Zaledwie dwa tygodnie wcześniej, 2 lipca, <a href="/pl/blog/securitize-nyse-debut-tokenized-stock">Securitize zadebiutowało na Nowojorskiej Giełdzie Papierów Wartościowych w wyniku fuzji ze spółką SPAC należącą do Cantor, a tego samego dnia stokenizowało własne akcje zwykłe na Solanie i Avalanche, tworząc największą na świecie tokenizowaną akcję o wartości około 266 milionów dolarów</a>. Innymi słowy, to Cantor wprowadził Securitize na rynki publiczne, a teraz obie firmy stawiają razem drugi krok, by zmienić sam sposób, w jaki inne spółki wchodzą na giełdę.</p>
+<p class="pl">Działania Cantor układają się w spójną strategię. Prezes Brandon Lutnick, który objął stery po tym, jak jego ojciec Howard Lutnick odszedł, by zostać sekretarzem handlu, deklarował, że chce „siedzieć w samym sercu kryptowalut", a firma stawiała szeroko na aktywa cyfrowe — między innymi tworząc 21 Capital, wart 3 miliardy dolarów wehikuł do skupu bitcoina wraz z SoftBankiem, Tetherem i Bitfinexem. Tokenizowana akcja trafiła już wcześniej na prawdziwą giełdę amerykańską: producent portfeli Exodus Movement stokenizował swoje akcje zwykłe i zadebiutował na NYSE American w 2024 roku, ale była to stosunkowo niewielka transakcja, w której pozyskano około 60 milionów dolarów. Współpraca Cantor-Securitize różni się skalą i ambicją, dążąc do przekształcenia tego w standardową infrastrukturę, w której główny bank inwestycyjny pełni rolę gwaranta emisji.</p>
+<p class="it">Questa collaborazione non è un incontro casuale. Appena due settimane prima, il 2 luglio, <a href="/it/blog/securitize-nyse-debut-tokenized-stock">Securitize ha debuttato alla Borsa di New York tramite una fusione con la controllata SPAC di Cantor, e lo stesso giorno ha tokenizzato le proprie azioni ordinarie su Solana e Avalanche, creando l'azione tokenizzata più grande al mondo per circa 266 milioni di dollari</a>. In altre parole, Cantor è la parte che ha portato Securitize sui mercati pubblici, e ora le due aziende compiono insieme un secondo passo per cambiare il modo stesso in cui altre società diventano pubbliche.</p>
+<p class="it">Le mosse di Cantor formano una strategia coerente. Il presidente Brandon Lutnick, che ha preso il timone dopo che suo padre Howard Lutnick si è dimesso per diventare Segretario al Commercio, ha dichiarato di voler "sedere al centro delle criptovalute", e la società ha scommesso ampiamente sugli asset digitali — inclusa la creazione di 21 Capital, un veicolo da 3 miliardi di dollari per l'acquisizione di bitcoin insieme a SoftBank, Tether e Bitfinex. Un'azione tokenizzata aveva già raggiunto in passato una vera borsa statunitense: il produttore di wallet Exodus Movement ha tokenizzato le proprie azioni ordinarie e si è quotato al NYSE American nel 2024, ma si trattava di una transazione relativamente piccola, che ha raccolto circa 60 milioni di dollari. La collaborazione Cantor-Securitize si distingue per scala e ambizione, puntando a trasformarla in un'infrastruttura standard con una grande banca d'investimento nel ruolo di sottoscrittore.</p>
+<p class="ru">Это сотрудничество — не случайная встреча. Всего двумя неделями ранее, 2 июля, <a href="/ru/blog/securitize-nyse-debut-tokenized-stock">Securitize дебютировала на Нью-Йоркской фондовой бирже через слияние с SPAC-дочкой Cantor, и в тот же день токенизировала собственные обыкновенные акции на Solana и Avalanche, создав крупнейшую в мире токенизированную акцию стоимостью около 266 миллионов долларов</a>. Иными словами, Cantor — та сторона, что вывела Securitize на публичные рынки, и теперь обе компании вместе делают второй шаг, чтобы изменить сам способ выхода других компаний на биржу.</p>
+<p class="ru">Действия Cantor складываются в последовательную стратегию. Председатель Брэндон Латник, возглавивший компанию после того, как его отец Говард Латник ушёл на пост министра торговли, заявлял, что хочет «сидеть в самом сердце крипто», а фирма делала широкие ставки на цифровые активы — включая создание 21 Capital, венчурного проекта по скупке биткоина на 3 миллиарда долларов совместно с SoftBank, Tether и Bitfinex. Токенизированная акция уже выходила на настоящую биржу США: производитель кошельков Exodus Movement токенизировал свои обыкновенные акции и разместился на NYSE American в 2024 году, но это была сравнительно небольшая сделка, привлёкшая около 60 миллионов долларов. Сотрудничество Cantor и Securitize отличается масштабом и амбициями, стремясь превратить это в стандартную инфраструктуру с участием крупного инвестиционного банка в роли андеррайтера.</p>
+<p class="zh">這次合作並非偶然邂逅。就在短短兩週前的7月2日,<a href="/zh/blog/securitize-nyse-debut-tokenized-stock">Securitize透過與坎托旗下SPAC子公司合併,正式登陸紐約證券交易所,並在同一天於Solana與Avalanche上將自家普通股代幣化,打造出價值約2.66億美元、全球最大的代幣化股票</a>。換句話說,坎托正是把Securitize帶進公開市場的一方,如今雙方正攜手邁出第二步,要改變其他公司上市方式的本質。</p>
+<p class="zh">坎托的一連串動作構成了一套一致的戰略。董事長布蘭登·盧特尼克(Brandon Lutnick)在父親霍華德·盧特尼克(Howard Lutnick)轉任商務部長後接掌公司,他曾表示希望「坐在加密貨幣的核心位置」,公司也在數位資產領域全面下注——包括與軟銀(SoftBank)、Tether及Bitfinex共同成立規模達30億美元的比特幣收購機構「21 Capital」。代幣化股票此前並非沒有登上過真正的美國交易所:錢包開發商Exodus Movement曾於2024年將普通股代幣化並在紐約證交所美國板(NYSE American)掛牌,但那是規模相對較小的交易,募資約6000萬美元。坎托與Securitize的這次合作在規模與野心上截然不同,目標是將其擴展為由大型投資銀行擔任承銷商的標準基礎設施。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -330,6 +355,146 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Kemitraan Cantor-Securitize — Perbandingan Skala Tokenisasi</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2635" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#38bdf8" text-anchor="middle" font-size="22" font-weight="800">7/15</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Kemitraan Diumumkan</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$4B+</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Total AUM Securitize</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$2.3B</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Aset BUIDL</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">7/2</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Hari Pencatatan SECZ</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Perbandingan Skala Saham dan Aset Tertokenisasi (dalam miliar $)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Exodus Movement 2024 · $0,06 miliar</text>
+    <rect x="20" y="230" width="18" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">BlackRock BUIDL · $2,3 miliar</text>
+    <rect x="20" y="280" width="345" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#e4e4e7" font-size="13">Total AUM Securitize (April) · $4,0 miliar+</text>
+    <rect x="20" y="330" width="600" height="24" rx="6" fill="#38bdf8"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Sumber: CoinDesk, PR Newswire, CoinLaw (panjang batang bersifat relatif, tidak sesuai skala)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Partnerstwo Cantor-Securitize — Porównanie Skali Tokenizacji</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2635" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#38bdf8" text-anchor="middle" font-size="22" font-weight="800">7/15</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Ogłoszenie Partnerstwa</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$4B+</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Łączne AUM Securitize</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$2.3B</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Aktywa BUIDL</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">7/2</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Dzień Debiutu SECZ</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Porównanie Skali Tokenizowanych Akcji i Aktywów (w mld $)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Exodus Movement 2024 · 0,06 mld $</text>
+    <rect x="20" y="230" width="18" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">BlackRock BUIDL · 2,3 mld $</text>
+    <rect x="20" y="280" width="345" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#e4e4e7" font-size="13">Łączne AUM Securitize (kwiecień) · 4,0 mld $+</text>
+    <rect x="20" y="330" width="600" height="24" rx="6" fill="#38bdf8"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Źródła: CoinDesk, PR Newswire, CoinLaw (długość słupków ma charakter względny, bez zachowania skali)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Partnership Cantor-Securitize — Confronto della Scala di Tokenizzazione</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2635" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#38bdf8" text-anchor="middle" font-size="22" font-weight="800">7/15</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Partnership Annunciata</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$4B+</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">AUM Totale Securitize</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$2.3B</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Asset BUIDL</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">7/2</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Giorno di Quotazione SECZ</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Confronto della Scala di Azioni e Asset Tokenizzati (in miliardi di $)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Exodus Movement 2024 · $0,06 Mld</text>
+    <rect x="20" y="230" width="18" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">BlackRock BUIDL · $2,3 Mld</text>
+    <rect x="20" y="280" width="345" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#e4e4e7" font-size="13">AUM Totale Securitize (aprile) · $4,0 Mld+</text>
+    <rect x="20" y="330" width="600" height="24" rx="6" fill="#38bdf8"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Fonti: CoinDesk, PR Newswire, CoinLaw (lunghezza delle barre relativa, non in scala)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Партнёрство Cantor-Securitize — Сравнение Масштабов Токенизации</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2635" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#38bdf8" text-anchor="middle" font-size="22" font-weight="800">7/15</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Партнёрство Объявлено</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$4B+</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Совокупные Активы Securitize</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$2.3B</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Активы BUIDL</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">7/2</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">День Листинга SECZ</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Сравнение Масштабов Токенизированных Акций и Активов (в млрд $)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Exodus Movement 2024 · $0,06 млрд</text>
+    <rect x="20" y="230" width="18" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">BlackRock BUIDL · $2,3 млрд</text>
+    <rect x="20" y="280" width="345" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#e4e4e7" font-size="13">Совокупные активы Securitize (апрель) · $4,0 млрд+</text>
+    <rect x="20" y="330" width="600" height="24" rx="6" fill="#38bdf8"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Источники: CoinDesk, PR Newswire, CoinLaw (длина полос условна, не в масштабе)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">坎托-Securitize合作夥伴關係 — 代幣化規模比較</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2635" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#38bdf8" text-anchor="middle" font-size="22" font-weight="800">7/15</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">夥伴關係公布</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$4B+</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Securitize總管理資產</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">$2.3B</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">BUIDL資產</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">7/2</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">SECZ掛牌日</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">代幣化股票與資產規模比較(單位:十億美元)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Exodus Movement 2024年 · 0.06十億美元</text>
+    <rect x="20" y="230" width="18" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">貝萊德BUIDL · 2.3十億美元</text>
+    <rect x="20" y="280" width="345" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#e4e4e7" font-size="13">Securitize總管理資產(4月) · 4.0十億美元以上</text>
+    <rect x="20" y="330" width="600" height="24" rx="6" fill="#38bdf8"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">資料來源:CoinDesk、PR Newswire、CoinLaw(長條長度為相對值,非等比例)</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">반론 — 합의는 아직 계약이 아니다</h2>
 <h2 class="en">The Counterargument — An Agreement Is Not Yet a Deal</h2>
@@ -340,6 +505,11 @@
 <h2 class="pt">O Contra-Argumento — Um Acordo Ainda Não É um Contrato</h2>
 <h2 class="tr">Karşı Argüman — Anlaşma Henüz Sözleşme Değil</h2>
 <h2 class="vi">Quan Điểm Phản Biện — Thỏa Thuận Chưa Phải Là Hợp Đồng</h2>
+<h2 class="id">Argumen Tandingan — Kesepakatan Belum Menjadi Kontrak</h2>
+<h2 class="pl">Kontrargument — Porozumienie To Jeszcze Nie Umowa</h2>
+<h2 class="it">La Controargomentazione — Un Accordo Non È Ancora un Contratto</h2>
+<h2 class="ru">Контраргумент — Соглашение Ещё Не Сделка</h2>
+<h2 class="zh">反方觀點 — 合意尚未成為正式合約</h2>
 
 <p class="ko">두 회사가 밝힌 것은 "협업 방안에 합의했다"는 수준으로, 실제로 온체인 방식으로 상장한 기업은 아직 없다. 증권법이나 투자자 자격 요건이 면제되는 것도 아니어서, 토큰화가 실제로 인수 비용이나 결제 기간을 얼마나 단축시킬지는 검증되지 않았다. DTCC의 토큰화 프로젝트들도 2026년 7월 기준 여전히 '프로덕션 테스트' 단계에 머물러 있다는 점을 감안하면, 대형 금융 인프라의 토큰화는 발표 이후 실제 상용화까지 통상 수년이 걸린다는 패턴을 이번에도 벗어나지 못할 가능성이 있다.</p>
 <p class="ko">유동성 문제도 남는다. 토큰화된 증권이 매력적이려면 기존 주식만큼 깊은 매수·매도 호가창이 필요한데, 초기에는 소수의 참여자만 온체인 거래를 지원해 오히려 유동성이 파편화될 위험이 있다. 다만 낙관적 해석도 가능하다 — 캔터가 이미 증권화를 상장시켰고 <a href="/blog/securitize-400m-acquisition-war-chest">증권화 역시 4억 달러의 실탄으로 보완적 인수에 나설 채비를 갖췄다는 점</a>은, 이 파트너십이 보도자료에 그치지 않고 실제 거래로 이어질 유인을 두 회사 모두에게 부여한다는 뜻이기도 하다.</p>
@@ -359,6 +529,16 @@
 <p class="tr">Likidite de açık bir soru olarak kalıyor. Tokenize menkul kıymetlerin cazip olabilmesi için geleneksel hisselerle kıyaslanabilir bir alış-satış derinliğine ihtiyaç var, ama başlangıçta yalnızca az sayıda katılımcı zincir üstü işlemleri destekleyebilir; bu da likiditenin parçalanması riskini doğurur. Yine de iyimser bir okuma mümkün: Cantor'un Securitize'i zaten halka açmış olması ve <a href="/tr/blog/securitize-400m-acquisition-war-chest">Securitize'in de tamamlayıcı satın almalar için 400 milyon dolarlık bir savaş sandığı hazırlamış olması</a>, bu ortaklığı bir basın bülteninde bırakmak yerine gerçek işlemlere dönüştürmeleri için her iki şirkete de somut bir teşvik sunuyor.</p>
 <p class="vi">Những gì hai công ty công bố chỉ dừng ở mức "đồng ý hợp tác" — chưa có công ty nào thực sự niêm yết bằng phương thức onchain này. Luật chứng khoán và yêu cầu về điều kiện nhà đầu tư không hề được miễn trừ, vì vậy việc token hóa thực sự cắt giảm được bao nhiêu chi phí bảo lãnh phát hành hay thời gian thanh toán vẫn chưa được kiểm chứng. Xét việc chính các dự án token hóa của DTCC tính đến tháng 7/2026 vẫn còn ở giai đoạn "thử nghiệm sản xuất", việc token hóa hạ tầng tài chính lớn có thể một lần nữa đi theo khuôn mẫu quen thuộc: thường mất nhiều năm từ lúc công bố đến khi thực sự được áp dụng.</p>
 <p class="vi">Thanh khoản cũng là một câu hỏi còn bỏ ngỏ. Để chứng khoán token hóa trở nên hấp dẫn, chúng cần độ sâu giá mua-bán tương đương cổ phiếu truyền thống, nhưng ở giai đoạn đầu có thể chỉ một số ít bên tham gia hỗ trợ giao dịch onchain, dẫn đến rủi ro thanh khoản bị phân mảnh. Dù vậy, vẫn có thể có cách nhìn lạc quan: việc Cantor đã đưa Securitize lên sàn, và <a href="/vi/blog/securitize-400m-acquisition-war-chest">bản thân Securitize cũng đã chuẩn bị quỹ chiến tranh 400 triệu đô la cho các thương vụ mua lại bổ trợ</a>, mang lại cho cả hai công ty động lực cụ thể để biến quan hệ đối tác này thành các giao dịch thực sự thay vì chỉ dừng ở một thông cáo báo chí.</p>
+<p class="id">Yang diungkapkan kedua perusahaan sebatas "sepakat untuk berkolaborasi" — belum ada perusahaan yang benar-benar melantai lewat metode onchain ini. Undang-undang efek dan persyaratan kelayakan investor tidak dihapuskan, sehingga seberapa besar tokenisasi benar-benar memangkas biaya penjaminan emisi atau waktu penyelesaian masih belum terverifikasi. Mengingat proyek-proyek tokenisasi DTCC sendiri masih berada pada tahap "uji produksi" per Juli 2026, tokenisasi infrastruktur keuangan besar mungkin kembali mengikuti pola yang sudah dikenal, di mana biasanya perlu bertahun-tahun antara pengumuman dan adopsi nyata.</p>
+<p class="id">Likuiditas juga menjadi pertanyaan terbuka lainnya. Agar efek tertokenisasi menarik, dibutuhkan kedalaman penawaran beli-jual yang sebanding dengan saham tradisional, tetapi pada tahap awal mungkin hanya segelintir peserta yang mendukung perdagangan onchain, sehingga berisiko memecah likuiditas. Meski begitu, tafsiran optimistis tetap mungkin: fakta bahwa Cantor sudah membawa Securitize melantai di bursa, dan bahwa <a href="/id/blog/securitize-400m-acquisition-war-chest">Securitize sendiri telah menyiapkan dana perang senilai 400 juta dolar untuk akuisisi pelengkap</a>, memberi kedua perusahaan insentif konkret untuk mengubah kemitraan ini menjadi transaksi nyata alih-alih membiarkannya hanya menjadi siaran pers.</p>
+<p class="pl">To, co ujawniły obie firmy, sprowadza się do „zgody na współpracę" — żadna spółka nie zadebiutowała jeszcze faktycznie tą metodą onchain. Przepisy o papierach wartościowych i wymogi kwalifikowalności inwestorów nie zostają zniesione, więc wciąż nie zweryfikowano, o ile tokenizacja rzeczywiście obniży koszty gwarantowania emisji czy skróci czas rozliczenia. Zważywszy że własne projekty tokenizacyjne DTCC w lipcu 2026 roku wciąż znajdowały się na etapie „testów produkcyjnych", tokenizacja dużej infrastruktury finansowej może ponownie podążać znanym wzorcem, w którym między ogłoszeniem a realnym wdrożeniem zwykle mijają lata.</p>
+<p class="pl">Płynność to kolejna otwarta kwestia. Aby tokenizowane papiery wartościowe były atrakcyjne, potrzebują głębokości ofert kupna-sprzedaży porównywalnej z tradycyjnymi akcjami, ale na wczesnym etapie obrót onchain może wspierać jedynie garstka uczestników, co grozi rozdrobnieniem płynności. Mimo to możliwa jest optymistyczna interpretacja: fakt, że Cantor już wprowadził Securitize na giełdę, a <a href="/pl/blog/securitize-400m-acquisition-war-chest">sama Securitize przygotowała wojenną kasę w wysokości 400 milionów dolarów na uzupełniające akwizycje</a>, daje obu firmom konkretną motywację, by zamienić to partnerstwo w realne transakcje, zamiast pozostawić je jedynie komunikatem prasowym.</p>
+<p class="it">Ciò che le due società hanno reso noto equivale a un "accordo a collaborare" — nessuna società si è ancora effettivamente quotata tramite questo metodo onchain. Le leggi sui titoli e i requisiti di idoneità degli investitori non vengono meno, quindi resta da verificare quanto la tokenizzazione riduca realmente i costi di sottoscrizione o i tempi di regolamento. Considerando che gli stessi progetti di tokenizzazione di DTCC erano ancora, a luglio 2026, nella fase di "test di produzione", la tokenizzazione delle grandi infrastrutture finanziarie potrebbe di nuovo seguire lo schema consueto, in cui di solito passano anni tra l'annuncio e l'adozione reale.</p>
+<p class="it">La liquidità resta un'altra questione aperta. Perché i titoli tokenizzati risultino attraenti, serve una profondità di acquisto-vendita paragonabile a quella delle azioni tradizionali, ma nella fase iniziale solo una manciata di partecipanti potrebbe sostenere gli scambi onchain, con il rischio di frammentare la liquidità. Tuttavia è possibile anche una lettura ottimistica: il fatto che Cantor abbia già quotato Securitize, e che <a href="/it/blog/securitize-400m-acquisition-war-chest">Securitize stessa abbia preparato un tesoretto da 400 milioni di dollari per acquisizioni complementari</a>, offre a entrambe le società un incentivo concreto a trasformare questa partnership in transazioni reali, invece di lasciarla come semplice comunicato stampa.</p>
+<p class="ru">То, что раскрыли обе компании, сводится к «договорённости о сотрудничестве» — ни одна компания пока фактически не разместилась этим ончейн-методом. Законы о ценных бумагах и требования к квалификации инвесторов не отменяются, поэтому насколько токенизация реально снизит издержки андеррайтинга или сократит сроки расчётов, пока не подтверждено. Учитывая, что собственные проекты токенизации DTCC по состоянию на июль 2026 года всё ещё находились на стадии «производственного тестирования», токенизация крупной финансовой инфраструктуры может вновь пойти по знакомому сценарию, когда между объявлением и реальным внедрением обычно проходят годы.</p>
+<p class="ru">Ликвидность — ещё один открытый вопрос. Чтобы токенизированные ценные бумаги были привлекательны, им нужна глубина котировок на покупку-продажу, сопоставимая с традиционными акциями, но на раннем этапе онлайн-торговлю в блокчейне может поддерживать лишь горстка участников, что рискует раздробить ликвидность. Тем не менее возможен и оптимистичный взгляд: тот факт, что Cantor уже вывел Securitize на биржу, а <a href="/ru/blog/securitize-400m-acquisition-war-chest">сама Securitize подготовила военный фонд в 400 миллионов долларов для дополняющих поглощений</a>, даёт обеим компаниям конкретный стимул превратить это партнёрство в реальные сделки, а не оставлять его лишь пресс-релизом.</p>
+<p class="zh">兩家公司目前所揭露的內容,充其量只是「同意展開合作」——目前尚未有任何公司真正透過這種上鏈方式完成上市。證券法規與投資人資格要求並未因此豁免,因此代幣化究竟能為承銷成本或結算時間帶來多少實質縮減,仍有待驗證。考量到DTCC自身的代幣化專案截至2026年7月仍停留在「量產測試」階段,大型金融基礎設施的代幣化這次恐怕仍難跳脫那個熟悉的模式:從宣布到真正落地實用,通常要耗費數年時間。</p>
+<p class="zh">流動性也是另一個懸而未決的問題。代幣化證券若要具備吸引力,買賣報價深度必須能與傳統股票相提並論,但在初期階段,可能只有少數參與者支持上鏈交易,反而有流動性被分散的風險。不過樂觀的解讀也並非全無道理——坎托已經讓Securitize成功上市,加上<a href="/zh/blog/securitize-400m-acquisition-war-chest">Securitize自身也已備妥4億美元的併購資金,準備進行互補性收購</a>,這些事實都讓兩家公司有具體誘因,把這項合作關係轉化為實際交易,而不只是停留在新聞稿階段。</p>
 
 <div class="box ko">💡 <strong>관전 포인트:</strong> 진짜 시험대는 향후 1~2년 안에 캔터가 주간사로 참여하는 신규 상장 중 몇 건이 실제로 토큰 형태로 발행되는지, 그리고 그 토큰이 기존 주식만큼의 2차 유동성을 확보하는지다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> The real test over the next one to two years is how many new listings underwritten by Cantor are actually issued as tokens, and whether those tokens achieve secondary-market liquidity comparable to traditional shares.</div>
@@ -369,6 +549,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> o verdadeiro teste nos próximos um a dois anos será quantas novas listagens subscritas pela Cantor são de fato emitidas como tokens, e se esses tokens alcançam liquidez no mercado secundário comparável à das ações tradicionais.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> önümüzdeki bir-iki yıl içindeki gerçek sınav, Cantor'un yüklenimini üstlendiği yeni halka arzlardan kaçının fiilen token biçiminde ihraç edildiği ve bu tokenlerin geleneksel hisselerle kıyaslanabilir ikincil piyasa likiditesine ulaşıp ulaşmadığıdır.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> phép thử thực sự trong một đến hai năm tới là có bao nhiêu đợt niêm yết mới do Cantor bảo lãnh thực sự được phát hành dưới dạng token, và liệu các token đó có đạt được thanh khoản thị trường thứ cấp tương đương cổ phiếu truyền thống hay không.</div>
+<div class="box id">💡 <strong>Poin Kunci:</strong> Ujian sesungguhnya dalam satu hingga dua tahun ke depan adalah berapa banyak pencatatan baru yang dijamin oleh Cantor yang benar-benar diterbitkan sebagai token, dan apakah token-token tersebut mencapai likuiditas pasar sekunder yang sebanding dengan saham tradisional.</div>
+<div class="box pl">💡 <strong>Najważniejsze:</strong> Prawdziwym testem w ciągu najbliższych jednego–dwóch lat będzie to, ile nowych debiutów gwarantowanych przez Cantor rzeczywiście zostanie wyemitowanych w formie tokenów oraz czy te tokeny osiągną płynność na rynku wtórnym porównywalną z tradycyjnymi akcjami.</div>
+<div class="box it">💡 <strong>Da tenere d'occhio:</strong> il vero banco di prova nei prossimi uno o due anni sarà quante nuove quotazioni sottoscritte da Cantor vengano effettivamente emesse come token, e se tali token raggiungano una liquidità sul mercato secondario paragonabile a quella delle azioni tradizionali.</div>
+<div class="box ru">💡 <strong>На заметку:</strong> настоящим испытанием в ближайшие один-два года станет то, сколько новых размещений под андеррайтингом Cantor реально будет выпущено в виде токенов и достигнут ли эти токены ликвидности вторичного рынка, сопоставимой с традиционными акциями.</div>
+<div class="box zh">💡 <strong>觀察重點:</strong> 未來一到兩年真正的考驗在於,坎托承銷的新股上市案中究竟有多少會真正以代幣形式發行,以及這些代幣能否取得可與傳統股票匹敵的次級市場流動性。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 코인데스크, 포천, PR뉴스와이어, 스톡타이탄, 비트코인닷컴뉴스, 코인로, 크립토뉴스닷넷, 더블록</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
@@ -379,5 +564,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CoinDesk, Fortune, PR Newswire, StockTitan, Bitcoin.com News, CoinLaw, Cryptonews.net, The Block</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CoinDesk、《財星》、PR Newswire、StockTitan、Bitcoin.com News、CoinLaw、Cryptonews.net、The Block</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
