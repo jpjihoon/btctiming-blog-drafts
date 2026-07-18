@@ -486,6 +486,11 @@
 <h2 class="pt">A Implicação Prática — Confiar no Indicador Sem Aumentar a Aposta</h2>
 <h2 class="tr">Pratik Çıkarım — Göstergeye Güvenip Bahsi Büyütmemek</h2>
 <h2 class="vi">Ý Nghĩa Thực Tiễn — Tin Vào Chỉ Báo Mà Không Tăng Cược</h2>
+<h2 class="id">Kesimpulan Praktis — Mempercayai Indikator Tanpa Memperbesar Taruhan</h2>
+<h2 class="pl">Praktyczny Wniosek — Ufać Wskaźnikowi Bez Powiększania Stawki</h2>
+<h2 class="it">La Conclusione Pratica — Fidarsi dell'Indicatore Senza Aumentare la Puntata</h2>
+<h2 class="ru">Практический Вывод — Доверять Индикатору, Не Увеличивая Ставку</h2>
+<h2 class="zh">實戰啟示——相信指標，但不加大賭注</h2>
 
 <p class="ko">이 모든 근거가 가리키는 실전 원칙은 하나다 — 변동성 리스크 프리미엄을 'IV가 RV보다 비싸니 팔면 이긴다'는 기계적 차익거래 신호로 다루면 안 된다. 이 프리미엄은 시간이 지나며 평균적으로 수확되는 위험 보상이지, 매번 지급이 보장된 확정 수익이 아니다. 포지션 크기는 이 보상이 어느 순간 크게, 그것도 국면 전환이 이미 시작된 뒤에야 알아챌 수 있는 방식으로 마이너스로 뒤집힐 수 있다는 전제 위에서 정해야 한다.</p>
 <p class="en">Everything above points to one practical rule: don't treat the variance risk premium as a mechanical arbitrage signal — "IV runs richer than RV, so selling wins." This premium is a risk compensation harvested on average over time, not a guaranteed payout collected every single time. Position size should be set on the assumption that this compensation can flip sharply negative at some point, and often in a way you only recognize after the regime shift has already begun.</p>
