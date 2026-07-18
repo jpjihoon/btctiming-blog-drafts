@@ -453,6 +453,141 @@
     <text x="24" y="378" fill="#52525b" font-size="13" font-family="sans-serif">Cả hai thời điểm đều mang danh hiệu "sàn số 1", nhưng dòng tiền lấp đầy nó lại có bản chất trái ngược</text>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Open Interest CME vs. Binance — Posisi #1 yang Sama, Uang yang Berbeda</text>
+    <text x="24" y="54" fill="#71717a" font-size="13" font-family="sans-serif">Dibulatkan dari data publik Coinglass/CME · jalur antar titik bersifat ilustratif</text>
+    <rect x="460" y="24" width="12" height="12" fill="#38bdf8"/><text x="478" y="34" fill="#d4d4d8" font-size="13" font-family="sans-serif">CME (institusional / arbitrase)</text>
+    <rect x="460" y="44" width="12" height="12" fill="#fbbf24"/><text x="478" y="54" fill="#d4d4d8" font-size="13" font-family="sans-serif">Binance (ritel / arah)</text>
+    <text x="24" y="90" fill="#52525b" font-size="13" font-family="sans-serif">Open Interest (ukuran relatif)</text>
+    <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="250" y1="90" x2="250" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="630" y1="90" x2="630" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <polyline points="60,230 250,100 440,180 630,250" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <polyline points="60,150 250,190 440,210 630,200" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="60" cy="230" r="4" fill="#38bdf8"/><circle cx="440" cy="180" r="4" fill="#38bdf8"/>
+    <circle cx="60" cy="150" r="4" fill="#fbbf24"/><circle cx="440" cy="210" r="4" fill="#fbbf24"/>
+    <circle cx="250" cy="100" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="250" y="82" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">CME 218.000 BTC</text>
+    <circle cx="630" cy="250" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="278" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">CME ~123.000 BTC</text>
+    <circle cx="630" cy="200" r="6" fill="#fbbf24" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="182" fill="#fde68a" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Binance ~125.000 BTC</text>
+    <text x="60" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Awal 2024</text>
+    <text x="250" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Nov 2024</text>
+    <text x="440" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Pertengahan 2025</text>
+    <text x="630" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Nov 2025</text>
+    <text x="24" y="378" fill="#52525b" font-size="13" font-family="sans-serif">Kedua momen berbagi gelar "bursa #1", tetapi uang yang mengisinya berlawanan karakter</text>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Open Interest CME vs. Binance — Ta Sama Pozycja #1, Inne Pieniądze</text>
+    <text x="24" y="54" fill="#71717a" font-size="13" font-family="sans-serif">Zaokrąglone na podstawie publicznych danych Coinglass/CME · trajektoria między punktami ma charakter poglądowy</text>
+    <rect x="460" y="24" width="12" height="12" fill="#38bdf8"/><text x="478" y="34" fill="#d4d4d8" font-size="13" font-family="sans-serif">CME (instytucjonalny / arbitraż)</text>
+    <rect x="460" y="44" width="12" height="12" fill="#fbbf24"/><text x="478" y="54" fill="#d4d4d8" font-size="13" font-family="sans-serif">Binance (detaliczny / kierunkowy)</text>
+    <text x="24" y="90" fill="#52525b" font-size="13" font-family="sans-serif">Open Interest (wielkość względna)</text>
+    <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="250" y1="90" x2="250" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="630" y1="90" x2="630" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <polyline points="60,230 250,100 440,180 630,250" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <polyline points="60,150 250,190 440,210 630,200" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="60" cy="230" r="4" fill="#38bdf8"/><circle cx="440" cy="180" r="4" fill="#38bdf8"/>
+    <circle cx="60" cy="150" r="4" fill="#fbbf24"/><circle cx="440" cy="210" r="4" fill="#fbbf24"/>
+    <circle cx="250" cy="100" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="250" y="82" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">CME 218 000 BTC</text>
+    <circle cx="630" cy="250" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="278" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">CME ~123 000 BTC</text>
+    <circle cx="630" cy="200" r="6" fill="#fbbf24" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="182" fill="#fde68a" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Binance ~125 000 BTC</text>
+    <text x="60" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Początek 2024</text>
+    <text x="250" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Lis 2024</text>
+    <text x="440" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Połowa 2025</text>
+    <text x="630" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Lis 2025</text>
+    <text x="24" y="378" fill="#52525b" font-size="13" font-family="sans-serif">Oba momenty łączy tytuł "giełda #1", ale pieniądze, które go wypełniały, miały przeciwny charakter</text>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Open Interest CME vs. Binance — Stesso Primo Posto, Denaro Diverso</text>
+    <text x="24" y="54" fill="#71717a" font-size="13" font-family="sans-serif">Arrotondato dai dati pubblici Coinglass/CME · il percorso tra i punti è illustrativo</text>
+    <rect x="460" y="24" width="12" height="12" fill="#38bdf8"/><text x="478" y="34" fill="#d4d4d8" font-size="13" font-family="sans-serif">CME (istituzionale / arbitraggio)</text>
+    <rect x="460" y="44" width="12" height="12" fill="#fbbf24"/><text x="478" y="54" fill="#d4d4d8" font-size="13" font-family="sans-serif">Binance (retail / direzionale)</text>
+    <text x="24" y="90" fill="#52525b" font-size="13" font-family="sans-serif">Open Interest (dimensione relativa)</text>
+    <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="250" y1="90" x2="250" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="630" y1="90" x2="630" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <polyline points="60,230 250,100 440,180 630,250" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <polyline points="60,150 250,190 440,210 630,200" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="60" cy="230" r="4" fill="#38bdf8"/><circle cx="440" cy="180" r="4" fill="#38bdf8"/>
+    <circle cx="60" cy="150" r="4" fill="#fbbf24"/><circle cx="440" cy="210" r="4" fill="#fbbf24"/>
+    <circle cx="250" cy="100" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="250" y="82" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">CME 218.000 BTC</text>
+    <circle cx="630" cy="250" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="278" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">CME ~123.000 BTC</text>
+    <circle cx="630" cy="200" r="6" fill="#fbbf24" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="182" fill="#fde68a" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Binance ~125.000 BTC</text>
+    <text x="60" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Inizio 2024</text>
+    <text x="250" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Nov 2024</text>
+    <text x="440" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Metà 2025</text>
+    <text x="630" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Nov 2025</text>
+    <text x="24" y="378" fill="#52525b" font-size="13" font-family="sans-serif">Entrambi i momenti condividono il titolo di "exchange #1", ma il denaro che lo riempiva era di natura opposta</text>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Открытый интерес CME против Binance — Одно и то же 1-е место, разные деньги</text>
+    <text x="24" y="54" fill="#71717a" font-size="13" font-family="sans-serif">Округлено по публичным данным Coinglass/CME · траектория между точками иллюстративна</text>
+    <rect x="460" y="24" width="12" height="12" fill="#38bdf8"/><text x="478" y="34" fill="#d4d4d8" font-size="13" font-family="sans-serif">CME (институциональный / арбитраж)</text>
+    <rect x="460" y="44" width="12" height="12" fill="#fbbf24"/><text x="478" y="54" fill="#d4d4d8" font-size="13" font-family="sans-serif">Binance (розничный / направленный)</text>
+    <text x="24" y="90" fill="#52525b" font-size="13" font-family="sans-serif">Открытый интерес (относительный размер)</text>
+    <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="250" y1="90" x2="250" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="630" y1="90" x2="630" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <polyline points="60,230 250,100 440,180 630,250" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <polyline points="60,150 250,190 440,210 630,200" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="60" cy="230" r="4" fill="#38bdf8"/><circle cx="440" cy="180" r="4" fill="#38bdf8"/>
+    <circle cx="60" cy="150" r="4" fill="#fbbf24"/><circle cx="440" cy="210" r="4" fill="#fbbf24"/>
+    <circle cx="250" cy="100" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="250" y="82" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">CME 218 000 BTC</text>
+    <circle cx="630" cy="250" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="278" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">CME ~123 000 BTC</text>
+    <circle cx="630" cy="200" r="6" fill="#fbbf24" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="182" fill="#fde68a" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Binance ~125 000 BTC</text>
+    <text x="60" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Начало 2024</text>
+    <text x="250" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Ноя 2024</text>
+    <text x="440" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Середина 2025</text>
+    <text x="630" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Ноя 2025</text>
+    <text x="24" y="378" fill="#52525b" font-size="13" font-family="sans-serif">Оба момента объединяет титул «биржа №1», но деньги, наполнявшие его, были противоположны по характеру</text>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CME 對比幣安未平倉合約——同樣的第一名,不同性質的資金</text>
+    <text x="24" y="54" fill="#71717a" font-size="13" font-family="sans-serif">根據Coinglass/CME公開數據取整 · 節點之間的軌跡僅供示意</text>
+    <rect x="460" y="24" width="12" height="12" fill="#38bdf8"/><text x="478" y="34" fill="#d4d4d8" font-size="13" font-family="sans-serif">CME(機構/套利)</text>
+    <rect x="460" y="44" width="12" height="12" fill="#fbbf24"/><text x="478" y="54" fill="#d4d4d8" font-size="13" font-family="sans-serif">幣安(散戶/方向性)</text>
+    <text x="24" y="90" fill="#52525b" font-size="13" font-family="sans-serif">未平倉合約(相對規模)</text>
+    <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="250" y1="90" x2="250" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="630" y1="90" x2="630" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4,4"/>
+    <polyline points="60,230 250,100 440,180 630,250" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <polyline points="60,150 250,190 440,210 630,200" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="60" cy="230" r="4" fill="#38bdf8"/><circle cx="440" cy="180" r="4" fill="#38bdf8"/>
+    <circle cx="60" cy="150" r="4" fill="#fbbf24"/><circle cx="440" cy="210" r="4" fill="#fbbf24"/>
+    <circle cx="250" cy="100" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="250" y="82" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">CME 21.8萬BTC</text>
+    <circle cx="630" cy="250" r="6" fill="#38bdf8" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="278" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">CME 約12.3萬BTC</text>
+    <circle cx="630" cy="200" r="6" fill="#fbbf24" stroke="#111113" stroke-width="2"/>
+    <text x="590" y="182" fill="#fde68a" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">幣安 約12.5萬BTC</text>
+    <text x="60" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2024年初</text>
+    <text x="250" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2024年11月</text>
+    <text x="440" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2025年中</text>
+    <text x="630" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2025年11月</text>
+    <text x="24" y="378" fill="#52525b" font-size="13" font-family="sans-serif">兩個時刻都掛著「第一大交易所」的頭銜,但填滿其中的資金性質恰恰相反</text>
+  </svg>
+  </div>
 
   <h2 class="ko">OI를 읽는 법 — 숫자 하나가 아니라 세 가지 질문</h2>
   <h2 class="en">How to Read Open Interest — Three Questions, Not One Number</h2>
@@ -463,6 +598,11 @@
   <h2 class="pt">Como Ler o Interesse em Aberto — Três Perguntas, Não Um Número</h2>
   <h2 class="tr">Açık Pozisyon Nasıl Okunur — Tek Rakam Değil, Üç Soru</h2>
   <h2 class="vi">Cách Đọc Khối Lượng Hợp Đồng Mở — Ba Câu Hỏi, Không Phải Một Con Số</h2>
+  <h2 class="id">Cara Membaca Open Interest — Tiga Pertanyaan, Bukan Satu Angka</h2>
+  <h2 class="pl">Jak Czytać Open Interest — Trzy Pytania, Nie Jedna Liczba</h2>
+  <h2 class="it">Come Leggere l'Open Interest — Tre Domande, Non un Solo Numero</h2>
+  <h2 class="ru">Как Правильно Читать Открытый Интерес — Три Вопроса, а Не Одна Цифра</h2>
+  <h2 class="zh">如何解讀未平倉合約——三個問題,而非一個數字</h2>
 
   <p class="ko">위의 세 사례가 가리키는 결론은 하나다. 미결제약정이라는 지표 자체는 고장 나지 않았다 — 다만 이 지표는 원래부터 '얼마나 큰 베팅이 걸려 있는가'라는 질문에만 답하도록 설계됐을 뿐, '누가, 어느 방향으로, 얼마나 믿을 수 있는 거래소에서' 그 베팅을 걸었는가는 답하지 않는다. 2020년과 2021년의 '적중'은 OI 급증에 펀딩비라는 방향성 데이터를 더했을 때만 완성됐고, 2022년의 '침묵'은 집계치 뒤에 숨은 거래소별 구성을 보지 않으면 설명되지 않았으며, 2024~2025년의 '역전극'은 같은 OI 순위 뒤에 완전히 다른 자금 성격이 숨어 있다는 걸 놓치면 정반대로 해석될 수 있었다.</p>
   <p class="en">The three cases above point to a single conclusion. Open interest as an indicator isn't broken — it was simply never designed to answer anything beyond "how large is the bet on the table." It was never built to answer who placed it, in which direction, or on how trustworthy an exchange. The "hits" of 2020 and 2021 were only complete once the OI spike was paired with direction data from the funding rate. The "silence" of 2022 couldn't be explained without looking past the aggregate figure to the exchange-by-exchange composition behind it. And the "role reversal" of 2024-2025 could be read in exactly the opposite way if you missed that the same OI ranking concealed an entirely different kind of money underneath it.</p>

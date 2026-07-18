@@ -310,6 +310,121 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Upgrade Fibre (V9) — sebelum dan sesudah</text>
+  <g font-family="sans-serif">
+    <text x="20" y="65" fill="#a1a1aa" font-size="13" font-weight="700">Waktu blok (detik)</text>
+    <rect x="20" y="78" width="300" height="30" rx="6" fill="#3f3f46"/>
+    <text x="330" y="99" fill="#e4e4e7" font-size="13">Pra-V8: 6,0s</text>
+    <rect x="20" y="118" width="150" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="180" y="139" fill="#e4e4e7" font-size="13">V9 Fibre: 3,0s (-50%)</text>
+
+    <text x="20" y="190" fill="#a1a1aa" font-size="13" font-weight="700">Throughput uji (di 498 node)</text>
+    <rect x="20" y="203" width="4" height="30" rx="2" fill="#3f3f46"/>
+    <text x="34" y="224" fill="#e4e4e7" font-size="13">Target roadmap awal: 1x (dasar)</text>
+    <rect x="20" y="243" width="650" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="345" y="264" fill="#fafafa" text-anchor="middle" font-size="14" font-weight="700">Fibre terukur: 1 Tb/s — 1.500x dari roadmap</text>
+
+    <rect x="20" y="300" width="650" height="72" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="345" y="323" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Hingga 881x pemrosesan data lebih cepat vs protokol verifikasi berbasis KZG</text>
+    <text x="345" y="345" fill="#a1a1aa" text-anchor="middle" font-size="11">Perluasan throughput DA + know-how eksekusi berkinerja tinggi Sovereign Labs, digabungkan</text>
+    <text x="345" y="362" fill="#71717a" text-anchor="middle" font-size="10">Sumber: blog resmi Celestia, catatan rilis GitHub · angka berdasarkan lingkungan uji, dapat berbeda di mainnet langsung</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Aktualizacja Fibre (V9) — przed i po</text>
+  <g font-family="sans-serif">
+    <text x="20" y="65" fill="#a1a1aa" font-size="13" font-weight="700">Czas bloku (sekundy)</text>
+    <rect x="20" y="78" width="300" height="30" rx="6" fill="#3f3f46"/>
+    <text x="330" y="99" fill="#e4e4e7" font-size="13">Przed V8: 6,0s</text>
+    <rect x="20" y="118" width="150" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="180" y="139" fill="#e4e4e7" font-size="13">V9 Fibre: 3,0s (-50%)</text>
+
+    <text x="20" y="190" fill="#a1a1aa" font-size="13" font-weight="700">Przepustowość testowa (na 498 węzłach)</text>
+    <rect x="20" y="203" width="4" height="30" rx="2" fill="#3f3f46"/>
+    <text x="34" y="224" fill="#e4e4e7" font-size="13">Pierwotny cel mapy drogowej: 1x (poziom bazowy)</text>
+    <rect x="20" y="243" width="650" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="345" y="264" fill="#fafafa" text-anchor="middle" font-size="14" font-weight="700">Fibre zmierzone: 1 Tb/s — 1500x ponad roadmapę</text>
+
+    <rect x="20" y="300" width="650" height="72" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="345" y="323" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Przetwarzanie danych nawet 881x szybsze niż protokoły weryfikacji oparte na KZG</text>
+    <text x="345" y="345" fill="#a1a1aa" text-anchor="middle" font-size="11">Rozszerzenie przepustowości DA + know-how Sovereign Labs w zakresie wysokowydajnego wykonania, połączone</text>
+    <text x="345" y="362" fill="#71717a" text-anchor="middle" font-size="10">Źródło: oficjalny blog Celestii, notatki wydania GitHub · dane ze środowiska testowego, mogą różnić się na żywym mainnecie</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Aggiornamento Fibre (V9) — prima e dopo</text>
+  <g font-family="sans-serif">
+    <text x="20" y="65" fill="#a1a1aa" font-size="13" font-weight="700">Tempo di blocco (secondi)</text>
+    <rect x="20" y="78" width="300" height="30" rx="6" fill="#3f3f46"/>
+    <text x="330" y="99" fill="#e4e4e7" font-size="13">Pre-V8: 6,0s</text>
+    <rect x="20" y="118" width="150" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="180" y="139" fill="#e4e4e7" font-size="13">V9 Fibre: 3,0s (-50%)</text>
+
+    <text x="20" y="190" fill="#a1a1aa" font-size="13" font-weight="700">Throughput di test (su 498 nodi)</text>
+    <rect x="20" y="203" width="4" height="30" rx="2" fill="#3f3f46"/>
+    <text x="34" y="224" fill="#e4e4e7" font-size="13">Obiettivo roadmap originale: 1x (base)</text>
+    <rect x="20" y="243" width="650" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="345" y="264" fill="#fafafa" text-anchor="middle" font-size="14" font-weight="700">Fibre misurato: 1 Tb/s — 1.500x rispetto alla roadmap</text>
+
+    <rect x="20" y="300" width="650" height="72" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="345" y="323" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Elaborazione dati fino a 881x più veloce rispetto ai protocolli di verifica basati su KZG</text>
+    <text x="345" y="345" fill="#a1a1aa" text-anchor="middle" font-size="11">Espansione del throughput DA + know-how di esecuzione ad alte prestazioni di Sovereign Labs, combinati</text>
+    <text x="345" y="362" fill="#71717a" text-anchor="middle" font-size="10">Fonte: blog ufficiale di Celestia, note di rilascio GitHub · i dati provengono dall'ambiente di test, possono differire sulla mainnet live</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Обновление Fibre (V9) — до и после</text>
+  <g font-family="sans-serif">
+    <text x="20" y="65" fill="#a1a1aa" font-size="13" font-weight="700">Время блока (секунды)</text>
+    <rect x="20" y="78" width="300" height="30" rx="6" fill="#3f3f46"/>
+    <text x="330" y="99" fill="#e4e4e7" font-size="13">До V8: 6,0 с</text>
+    <rect x="20" y="118" width="150" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="180" y="139" fill="#e4e4e7" font-size="13">V9 Fibre: 3,0 с (-50%)</text>
+
+    <text x="20" y="190" fill="#a1a1aa" font-size="13" font-weight="700">Тестовая пропускная способность (498 узлов)</text>
+    <rect x="20" y="203" width="4" height="30" rx="2" fill="#3f3f46"/>
+    <text x="34" y="224" fill="#e4e4e7" font-size="13">Изначальная цель дорожной карты: 1x (базовый уровень)</text>
+    <rect x="20" y="243" width="650" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="345" y="264" fill="#fafafa" text-anchor="middle" font-size="14" font-weight="700">Fibre зафиксировано: 1 Tb/s — в 1500 раз больше плана</text>
+
+    <rect x="20" y="300" width="650" height="72" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="345" y="323" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Обработка данных до 881 раза быстрее протоколов верификации на основе KZG</text>
+    <text x="345" y="345" fill="#a1a1aa" text-anchor="middle" font-size="11">Расширение пропускной способности DA + ноу-хау Sovereign Labs в высокопроизводительном исполнении, вместе</text>
+    <text x="345" y="362" fill="#71717a" text-anchor="middle" font-size="10">Источник: официальный блог Celestia, релиз-ноуты GitHub · данные из тестовой среды, могут отличаться в боевом mainnet</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Fibre(V9)升級前後比較</text>
+  <g font-family="sans-serif">
+    <text x="20" y="65" fill="#a1a1aa" font-size="13" font-weight="700">區塊時間(秒)</text>
+    <rect x="20" y="78" width="300" height="30" rx="6" fill="#3f3f46"/>
+    <text x="330" y="99" fill="#e4e4e7" font-size="13">V8之前: 6.0秒</text>
+    <rect x="20" y="118" width="150" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="180" y="139" fill="#e4e4e7" font-size="13">V9 Fibre: 3.0秒 (-50%)</text>
+
+    <text x="20" y="190" fill="#a1a1aa" font-size="13" font-weight="700">測試吞吐量(498個節點)</text>
+    <rect x="20" y="203" width="4" height="30" rx="2" fill="#3f3f46"/>
+    <text x="34" y="224" fill="#e4e4e7" font-size="13">原始路線圖目標: 1倍(基準線)</text>
+    <rect x="20" y="243" width="650" height="30" rx="6" fill="#7B2BF9"/>
+    <text x="345" y="264" fill="#fafafa" text-anchor="middle" font-size="14" font-weight="700">Fibre實測: 1 Tb/s — 較路線圖高1,500倍</text>
+
+    <rect x="20" y="300" width="650" height="72" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="345" y="323" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">資料處理速度最高比KZG驗證協議快881倍</text>
+    <text x="345" y="345" fill="#a1a1aa" text-anchor="middle" font-size="11">DA吞吐量擴充 + Sovereign Labs高效能執行know-how，兩者結合</text>
+    <text x="345" y="362" fill="#71717a" text-anchor="middle" font-size="10">來源: Celestia官方部落格、GitHub發布說明 · 數據來自測試環境，實際主網數值可能有所不同</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">모듈러 블록체인 M&amp;A가 말해주는 것</h2>
 <h2 class="en">What this M&amp;A says about the modular-blockchain race</h2>
@@ -320,6 +435,11 @@
 <h2 class="pt">O que essa fusão diz sobre a corrida das blockchains modulares</h2>
 <h2 class="tr">Bu birleşme modüler blok zinciri yarışı hakkında ne söylüyor</h2>
 <h2 class="vi">Thương vụ này nói lên điều gì về cuộc đua blockchain modular</h2>
+<h2 class="id">Apa yang diungkapkan M&amp;A ini tentang persaingan blockchain modular</h2>
+<h2 class="pl">Co to połączenie M&amp;A mówi o wyścigu blockchainów modularnych</h2>
+<h2 class="it">Cosa dice questa fusione sulla corsa alle blockchain modulari</h2>
+<h2 class="ru">О чём говорит эта сделка M&amp;A в контексте гонки модульных блокчейнов</h2>
+<h2 class="zh">這起併購案揭示了模組化區塊鏈競賽的什麼</h2>
 <p class="ko">이번 딜은 기존 클라우드 산업의 궤적과 겹쳐 보면 이해하기 쉽다. 아마존웹서비스(AWS)도 초기엔 순수 인프라(컴퓨팅·스토리지)만 팔았지만, 이후 관리형 데이터베이스와 애플리케이션 서비스를 통째로 흡수·개발하며 '풀스택 클라우드'로 진화했다. 셀레스티아 랩스가 걷는 길도 유사하다. 데이터가용성이라는 순수 인프라 계층에서 출발해, 이제 그 위에서 실제로 쓸 만한 애플리케이션 체인을 손쉽게 찍어낼 수 있는 툴킷까지 확보하려는 것이다. 다만 클라우드 산업과 다른 점은, 크립토 인프라 시장은 아직 승자가 정해지지 않았고 이더리움 롤업 진영(아비트럼 오빗, OP 스택, 폴리곤 CDK)이 이미 비슷한 풀스택 전략으로 몇 년째 개발자를 선점해왔다는 것이다.</p>
 <p class="en">This deal is easier to parse when set against the cloud industry's own trajectory. Amazon Web Services (AWS) also started by selling pure infrastructure — computing and storage — before absorbing and building out managed databases and full application services, evolving into a "full-stack cloud." Celestia Labs appears to be walking a similar path: starting from the purely infrastructural layer of data availability, and now securing the toolkit needed to easily stamp out genuinely usable application chains on top of it. The difference from the cloud industry is that the crypto infrastructure market hasn't settled on a winner yet, and Ethereum's rollup camps — Arbitrum Orbit, the OP Stack, Polygon CDK — have already been running a similar full-stack strategy for years, locking in developers ahead of Celestia.</p>
 <p class="ja">今回のディールは既存のクラウド産業の軌跡と重ねてみると理解しやすい。アマゾンウェブサービス(AWS)も当初は純粋なインフラ(コンピューティング・ストレージ)だけを売っていたが、その後マネージド型データベースやアプリケーションサービスを丸ごと吸収・開発し、「フルスタッククラウド」へと進化した。セレスティアラボが歩む道もこれに似ている。データ可用性という純粋なインフラ層から出発し、今やその上で実際に使えるアプリケーションチェーンを容易に量産できるツールキットまで確保しようとしているのだ。ただしクラウド産業と異なる点は、クリプトインフラ市場はまだ勝者が決まっておらず、イーサリアムのロールアップ陣営(アービトラムオービット、OPスタック、ポリゴンCDK)がすでに似たフルスタック戦略で数年にわたり開発者を先取りしてきたことだ。</p>
