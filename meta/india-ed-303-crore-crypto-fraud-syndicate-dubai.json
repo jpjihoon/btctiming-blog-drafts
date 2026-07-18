@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "인도 ED·초국경 자금세탁",
   "tag_en": "India ED & Cross-Border Laundering",
@@ -22,6 +27,11 @@
   "tag_pt": "ED da Índia e lavagem transfronteiriça",
   "tag_tr": "Hindistan ED ve Sınır Ötesi Kara Para",
   "tag_vi": "ED Ấn Độ & rửa tiền xuyên biên giới",
+  "tag_id": "ED India & Pencucian Uang Lintas Batas",
+  "tag_pl": "ED Indii i transgraniczne pranie pieniędzy",
+  "tag_it": "ED indiana e riciclaggio transfrontaliero",
+  "tag_ru": "ED Индии и трансграничное отмывание денег",
+  "tag_zh": "印度ED與跨境洗錢",
 
   "title_ko": "인도 ED, 3,650만 달러 초국경 크립토 자금세탁 조직 적발...자금 추적선은 두바이로",
   "title_en": "India's ED Busts $36.5M Cross-Border Crypto Laundering Ring — Money Trail Leads to Dubai",
@@ -32,6 +42,11 @@
   "title_pt": "ED da Índia desmonta rede de lavagem cripto de US$ 36,5 milhões — rastro leva a Dubai",
   "title_tr": "Hindistan ED'si 36,5 Milyon Dolarlık Sınır Ötesi Kripto Kara Para Şebekesini Çökertti — İz Dubai'ye Uzanıyor",
   "title_vi": "ED Ấn Độ Triệt Phá Đường Dây Rửa Tiền Crypto Xuyên Biên Giới 36,5 Triệu USD — Dấu Vết Dẫn Đến Dubai",
+  "title_id": "ED India Bongkar Jaringan Pencucian Uang Kripto Lintas Batas Senilai $36,5 Juta — Jejak Dana Menuju Dubai",
+  "title_pl": "Indyjski ED Rozbija Transgraniczny Syndykat Prania Kryptowalut Wart 36,5 Mln Dolarów — Ślad Pieniędzy Prowadzi do Dubaju",
+  "title_it": "L'ED Indiana Smantella una Rete di Riciclaggio Cripto Transfrontaliera da 36,5 Milioni di Dollari — la Pista Porta a Dubai",
+  "title_ru": "Индийское ED Раскрыло Трансграничную Сеть Отмывания Криптовалюты на $36,5 Млн — След Денег Ведёт в Дубай",
+  "title_zh": "印度ED破獲3,650萬美元跨境加密貨幣洗錢集團——資金軌跡指向杜拜",
 
   "h1_ko": "인도 ED, 3,650만 달러 규모<br>초국경 크립토 자금세탁 조직 적발 — 자금 추적선은 두바이로",
   "h1_en": "India's ED Busts a $36.5M Cross-Border<br>Crypto Laundering Ring — Money Trail Leads to Dubai",
@@ -42,6 +57,11 @@
   "h1_pt": "ED da Índia desmonta rede transfronteiriça<br>de lavagem cripto de US$ 36,5 milhões — rastro leva a Dubai",
   "h1_tr": "Hindistan ED'si 36,5 Milyon Dolarlık<br>Sınır Ötesi Kripto Kara Para Şebekesini Çökertti — İz Dubai'ye Uzanıyor",
   "h1_vi": "ED Ấn Độ Triệt Phá Đường Dây Rửa Tiền<br>Crypto Xuyên Biên Giới 36,5 Triệu USD — Dấu Vết Dẫn Đến Dubai",
+  "h1_id": "ED India Bongkar Jaringan Pencucian Uang<br>Kripto Lintas Batas Senilai $36,5 Juta — Jejak Dana Menuju Dubai",
+  "h1_pl": "Indyjski ED Rozbija Transgraniczny<br>Syndykat Prania Kryptowalut Wart 36,5 Mln Dolarów — Ślad Prowadzi do Dubaju",
+  "h1_it": "L'ED Indiana Smantella una Rete di Riciclaggio Cripto<br>Transfrontaliera da 36,5 Milioni di Dollari — la Pista Porta a Dubai",
+  "h1_ru": "Индийское ED Раскрыло Трансграничную Сеть<br>Отмывания Криптовалюты на $36,5 Млн — След Денег Ведёт в Дубай",
+  "h1_zh": "印度ED破獲3,650萬美元跨境<br>加密貨幣洗錢集團——資金軌跡指向杜拜",
 
   "bc_ko": "인도 ED 크립토 자금세탁 적발",
   "bc_en": "India ED Crypto Laundering Bust",
@@ -52,6 +72,11 @@
   "bc_pt": "ED da Índia desmonta lavagem cripto",
   "bc_tr": "Hindistan ED Kripto Kara Para Operasyonu",
   "bc_vi": "ED Ấn Độ triệt phá rửa tiền crypto",
+  "bc_id": "ED India Bongkar Pencucian Uang Kripto",
+  "bc_pl": "ED Indii Rozbija Pranie Kryptowalut",
+  "bc_it": "L'ED Indiana Smantella il Riciclaggio Cripto",
+  "bc_ru": "ED Индии Раскрыло Отмывание Криптовалюты",
+  "bc_zh": "印度ED破獲加密貨幣洗錢案",
 
   "desc_ko": "인도 집행국(ED)이 216개의 대포통장과 페이퍼컴퍼니, 역외 핀테크, 암호화폐를 동원해 3억300만 루피(약 3,650만 달러)를 해외로 빼돌린 초국경 사이버 사기 조직을 적발했다고 더위크와 크립토타임스가 13~14일 보도했다. 7개 주 14곳 압수수색에서 현금 47라크 루피와 테더 16만339개, 솔라나 118.73개, 이더리움 563개가 동결됐고 10명이 체포됐으며 기소 대상은 45명으로 늘었다. 자금 흐름은 두바이의 개인 지갑으로 이어지는 것으로 파악됐다. 뮬 계좌에서 크립토까지 이어지는 자금세탁 메커니즘과, 두바이가 반복적으로 종착지가 되는 배경을 짚었다.",
   "desc_en": "India's Enforcement Directorate uncovered a transnational cyber-fraud syndicate that routed ₹303 crore (about $36.5 million) overseas through 216 mule accounts, shell companies, offshore fintech and crypto, The Week and CryptoTimes.io reported July 13-14. Raids across 14 locations in seven states seized ₹47 lakh in cash and froze 160,339 USDT, 118.73 SOL and 563 ETH; 10 people have been arrested and the prosecution list has grown to 45. The money trail was traced to private wallets in Dubai. This piece breaks down the mule-to-crypto laundering mechanism and why Dubai keeps turning up as the terminus.",
@@ -61,5 +86,10 @@
   "desc_fr": "La Direction de l'application des lois indienne a découvert un réseau transnational de cyberfraude ayant acheminé 303 crores de roupies (environ 36,5 millions de dollars) à l'étranger via 216 comptes mules, des sociétés-écrans, de la fintech offshore et des cryptomonnaies, ont rapporté The Week et CryptoTimes.io les 13 et 14 juillet. Des perquisitions dans 14 lieux de sept États ont saisi 47 lakh de roupies en espèces et gelé 160 339 USDT, 118,73 SOL et 563 ETH ; dix personnes ont été arrêtées et la liste des accusés est passée à 45. La piste de l'argent a été retracée jusqu'à des portefeuilles privés à Dubaï. Cet article décrypte le mécanisme de blanchiment des mules à la crypto et pourquoi Dubaï reste le terminus récurrent.",
   "desc_pt": "A Enforcement Directorate da Índia descobriu uma rede transnacional de fraude cibernética que desviou ₹303 crore (cerca de US$ 36,5 milhões) para o exterior via 216 contas laranja, empresas de fachada, fintech offshore e criptomoedas, informaram The Week e CryptoTimes.io em 13-14 de julho. Buscas em 14 locais de sete estados apreenderam ₹47 lakh em dinheiro e congelaram 160.339 USDT, 118,73 SOL e 563 ETH; 10 pessoas foram presas e a lista de acusados cresceu para 45. O rastro do dinheiro foi rastreado até carteiras privadas em Dubai. Esta matéria detalha o mecanismo de lavagem de laranjas a cripto e por que Dubai continua sendo o destino final.",
   "desc_tr": "Hindistan İcra Müdürlüğü, 216 sahte hesap, paravan şirket, kıyı ötesi fintek ve kripto para kullanarak 303 crore rupiyi (yaklaşık 36,5 milyon dolar) yurt dışına aktaran sınır ötesi bir siber dolandırıcılık şebekesini ortaya çıkardı; bunu The Week ve CryptoTimes.io 13-14 Temmuz'da bildirdi. Yedi eyalette 14 noktada düzenlenen baskınlarda 47 lakh rupi nakit ele geçirildi, 160.339 USDT, 118,73 SOL ve 563 ETH donduruldu; 10 kişi tutuklandı ve sanık listesi 45'e çıktı. Para izi Dubai'deki özel cüzdanlara kadar sürüldü. Bu yazı, sahte hesaptan kriptoya uzanan kara para aklama mekanizmasını ve Dubai'nin neden tekrar tekrar son durak olduğunu inceliyor.",
-  "desc_vi": "Cục Thực thi Pháp luật Ấn Độ đã phát hiện một đường dây lừa đảo mạng xuyên quốc gia chuyển 303 crore rupee (khoảng 36,5 triệu USD) ra nước ngoài qua 216 tài khoản trung gian, công ty vỏ bọc, fintech nước ngoài và tiền mã hóa, theo The Week và CryptoTimes.io đưa tin ngày 13-14/7. Các cuộc khám xét tại 14 địa điểm ở bảy bang đã thu giữ 47 lakh rupee tiền mặt và phong tỏa 160.339 USDT, 118,73 SOL và 563 ETH; 10 người đã bị bắt và danh sách bị can tăng lên 45. Dấu vết tiền được truy đến các ví cá nhân tại Dubai. Bài viết phân tích cơ chế rửa tiền từ tài khoản trung gian đến tiền mã hóa, và lý do vì sao Dubai liên tục trở thành điểm đến cuối cùng."
+  "desc_vi": "Cục Thực thi Pháp luật Ấn Độ đã phát hiện một đường dây lừa đảo mạng xuyên quốc gia chuyển 303 crore rupee (khoảng 36,5 triệu USD) ra nước ngoài qua 216 tài khoản trung gian, công ty vỏ bọc, fintech nước ngoài và tiền mã hóa, theo The Week và CryptoTimes.io đưa tin ngày 13-14/7. Các cuộc khám xét tại 14 địa điểm ở bảy bang đã thu giữ 47 lakh rupee tiền mặt và phong tỏa 160.339 USDT, 118,73 SOL và 563 ETH; 10 người đã bị bắt và danh sách bị can tăng lên 45. Dấu vết tiền được truy đến các ví cá nhân tại Dubai. Bài viết phân tích cơ chế rửa tiền từ tài khoản trung gian đến tiền mã hóa, và lý do vì sao Dubai liên tục trở thành điểm đến cuối cùng.",
+  "desc_id": "Direktorat Penegakan Hukum India mengungkap sindikat penipuan siber lintas negara yang mengalirkan ₹303 crore (sekitar $36,5 juta) ke luar negeri melalui 216 rekening penampung, perusahaan cangkang, fintech luar negeri, dan kripto, demikian dilaporkan The Week dan CryptoTimes.io pada 13-14 Juli. Penggerebekan di 14 lokasi di tujuh negara bagian menyita ₹47 lakh tunai dan membekukan 160.339 USDT, 118,73 SOL, dan 563 ETH; 10 orang telah ditangkap dan daftar tersangka bertambah menjadi 45. Jejak dana dilacak hingga ke dompet pribadi di Dubai. Artikel ini mengupas mekanisme pencucian uang dari rekening penampung ke kripto dan alasan mengapa Dubai terus menjadi titik akhirnya.",
+  "desc_pl": "Indyjski Departament Egzekwowania Prawa ujawnił transnarodowy syndykat cyberoszustw, który przetransferował za granicę 303 crore rupii (ok. 36,5 mln dolarów) przez 216 kont-słupów, spółki-wydmuszki, zagraniczny fintech i kryptowaluty — podały The Week i CryptoTimes.io 13-14 lipca. Naloty w 14 lokalizacjach w siedmiu stanach doprowadziły do zajęcia 47 lakh rupii gotówki i zablokowania 160 339 USDT, 118,73 SOL oraz 563 ETH; zatrzymano 10 osób, a lista oskarżonych wzrosła do 45. Ślad pieniędzy doprowadził do prywatnych portfeli w Dubaju. Tekst wyjaśnia mechanizm prania pieniędzy od kont-słupów po kryptowaluty oraz powody, dla których Dubaj wciąż pojawia się jako stacja końcowa.",
+  "desc_it": "La Direzione Esecutiva indiana ha scoperto un sindacato transnazionale di frode informatica che ha incanalato all'estero 303 crore di rupie (circa 36,5 milioni di dollari) attraverso 216 conti di comodo, società di comodo, fintech offshore e criptovalute, hanno riferito The Week e CryptoTimes.io il 13-14 luglio. Perquisizioni in 14 sedi in sette stati hanno sequestrato ₹47 lakh in contanti e congelato 160.339 USDT, 118,73 SOL e 563 ETH; sono state arrestate 10 persone e la lista degli imputati è salita a 45. La pista del denaro è stata tracciata fino a portafogli privati a Dubai. Questo articolo analizza il meccanismo di riciclaggio dai conti di comodo alle criptovalute e il motivo per cui Dubai continua a emergere come capolinea.",
+  "desc_ru": "Индийское Управление по борьбе с экономическими преступлениями раскрыло транснациональный синдикат киберпреступников, выведший за границу 303 крор рупий (около 36,5 млн долларов) через 216 подставных счетов, фиктивные компании, офшорный финтех и криптовалюту, сообщили The Week и CryptoTimes.io 13-14 июля. Рейды в 14 точках семи штатов привели к изъятию 47 лакхов рупий наличными и заморозке 160 339 USDT, 118,73 SOL и 563 ETH; арестовано 10 человек, список обвиняемых вырос до 45. След денег привёл к частным кошелькам в Дубае. В материале разбирается механизм отмывания денег от подставных счетов до криптовалюты и причины, по которым Дубай постоянно оказывается конечной точкой.",
+  "desc_zh": "印度執行局偵破一起跨國網路詐騙集團,該集團透過216個人頭帳戶、空殼公司、境外金融科技與加密貨幣,將303 crore盧比(約3,650萬美元)匯往海外,《The Week》與CryptoTimes.io於7月13至14日報導。在七個邦14處地點的搜查行動中,查獲現金47 lakh盧比,並凍結160,339枚USDT、118.73枚SOL與563枚ETH;已有10人被捕,起訴名單擴大至45人。資金軌跡被追蹤至杜拜的私人錢包。本文剖析從人頭帳戶到加密貨幣的洗錢機制,以及杜拜為何一再成為終點站。"
 }
