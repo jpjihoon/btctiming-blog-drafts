@@ -9,6 +9,11 @@
 <p class="pt">A Coinbase facilitou os requisitos de verificação de identidade para abrir uma conta a partir da China continental, informaram crypto.news, CoinGape, CryptoTimes e Bloomingbit em 14 de julho. Anteriormente, a exchange exigia um passaporte chinês mais comprovante de endereço em Hong Kong, o que limitava, na prática, o cadastro a usuários com algum vínculo com Hong Kong. Agora, um documento de identidade nacional chinês e um endereço residencial no continente são suficientes para abrir uma conta.</p>
 <p class="tr">Coinbase, anakara Çin'den hesap açma kimlik doğrulama şartlarını gevşetti; crypto.news, CoinGape, CryptoTimes ve Bloomingbit bunu 14 Temmuz'da bildirdi. Daha önce borsa, bir Çin pasaportu artı Hong Kong adres kanıtı istiyordu — bu da kaydı fiilen Hong Kong ile bir bağlantısı olan kullanıcılarla sınırlıyordu. Şimdi, bir Çin kimlik kartı ve anakarada bir ikamet adresi hesap açmak için yeterli.</p>
 <p class="vi">Coinbase đã nới lỏng yêu cầu xác minh danh tính để mở tài khoản từ Trung Quốc đại lục, theo crypto.news, CoinGape, CryptoTimes và Bloomingbit đưa tin ngày 14/7. Trước đây, sàn giao dịch yêu cầu hộ chiếu Trung Quốc cộng với bằng chứng địa chỉ tại Hồng Kông — điều này thực chất giới hạn việc đăng ký chỉ dành cho người dùng có liên hệ nào đó với Hồng Kông. Giờ đây, chỉ cần chứng minh thư quốc gia Trung Quốc và địa chỉ cư trú tại đại lục là đủ để mở tài khoản.</p>
+<p class="id">Coinbase telah melonggarkan persyaratan verifikasi identitas untuk membuka akun dari Tiongkok daratan, demikian dilaporkan crypto.news, CoinGape, CryptoTimes, dan Bloomingbit pada 14 Juli. Sebelumnya, bursa ini mensyaratkan paspor Tiongkok ditambah bukti alamat Hong Kong — yang secara efektif membatasi pendaftaran hanya untuk pengguna yang memiliki keterkaitan dengan Hong Kong. Kini, kartu identitas nasional Tiongkok dan alamat tempat tinggal di daratan sudah cukup untuk membuka akun.</p>
+<p class="pl">Coinbase złagodził wymogi weryfikacji tożsamości przy zakładaniu konta z terytorium Chin kontynentalnych, jak podały 14 lipca crypto.news, CoinGape, CryptoTimes i Bloomingbit. Wcześniej giełda wymagała chińskiego paszportu wraz z dowodem adresu w Hongkongu — co w praktyce ograniczało rejestrację do użytkowników mających jakiś związek z Hongkongiem. Teraz do założenia konta wystarczy chiński dowód osobisty i adres zamieszkania na kontynencie.</p>
+<p class="it">Coinbase ha allentato i requisiti di verifica dell'identità per l'apertura di un conto dalla Cina continentale, secondo quanto riportato da crypto.news, CoinGape, CryptoTimes e Bloomingbit il 14 luglio. In precedenza, l'exchange richiedeva un passaporto cinese più la prova di un indirizzo a Hong Kong, limitando di fatto le iscrizioni agli utenti con un qualche legame con Hong Kong. Ora, una carta d'identità nazionale cinese e un indirizzo di residenza sul continente sono sufficienti per aprire un conto.</p>
+<p class="ru">Coinbase смягчила требования по верификации личности для открытия счёта из континентального Китая, сообщили 14 июля crypto.news, CoinGape, CryptoTimes и Bloomingbit. Ранее биржа требовала китайский паспорт и подтверждение адреса в Гонконге — что фактически ограничивало регистрацию пользователями, имеющими какую-либо связь с Гонконгом. Теперь для открытия счёта достаточно китайского национального удостоверения личности и адреса проживания на материке.</p>
+<p class="zh">Coinbase放寬了中國大陸居民開戶所需的身分驗證要求,crypto.news、CoinGape、CryptoTimes與Bloomingbit於7月14日報導。此前,該交易所要求提供中國護照及香港地址證明,實質上僅限與香港有某種關聯的用戶才能註冊。如今,只需中國身分證及大陸居住地址即可開設帳戶。</p>
 
 <p class="ko">이 소식이 알려지자 코인베이스 모회사 주가(COIN)는 장중 2%대 상승하며 160달러선을 웃돌았다. 다만 코인베이스는 이번 변경과 관련해 별도의 중국 시장 확장 전략을 공식 발표하지 않았고, 계정 개설이 실제 입출금이나 거래 기능 활성화로 이어지는지도 명확히 확인되지 않았다.</p>
 <p class="en">Following the report, Coinbase's parent company stock (COIN) rose more than 2% intraday, trading above $160. However, Coinbase has not announced any formal China market expansion strategy tied to the change, and it remains unclear whether opening an account actually translates into working deposit, withdrawal or trading functionality.</p>
@@ -19,6 +24,11 @@
 <p class="pt">Após a notícia, as ações da controladora da Coinbase (COIN) subiram mais de 2% no dia, negociando acima de US$ 160. No entanto, a Coinbase não anunciou nenhuma estratégia formal de expansão no mercado chinês vinculada à mudança, e não está claro se abrir uma conta realmente se traduz em funcionalidades de depósito, saque ou negociação operacionais.</p>
 <p class="tr">Haberin ardından Coinbase'in ana şirket hissesi (COIN) gün içinde yüzde 2'nin üzerinde yükselerek 160 doların üzerinde işlem gördü. Ancak Coinbase, değişiklikle bağlantılı resmi bir Çin pazarı genişleme stratejisi açıklamadı ve hesap açmanın gerçekten çalışan para yatırma, çekme veya işlem işlevselliğine dönüşüp dönüşmediği belirsizliğini koruyor.</p>
 <p class="vi">Sau tin tức này, cổ phiếu công ty mẹ của Coinbase (COIN) tăng hơn 2% trong phiên, giao dịch trên mức 160 USD. Tuy nhiên, Coinbase chưa công bố bất kỳ chiến lược mở rộng thị trường Trung Quốc chính thức nào gắn với thay đổi này, và vẫn chưa rõ liệu việc mở tài khoản có thực sự dẫn đến chức năng nạp tiền, rút tiền hay giao dịch hoạt động hay không.</p>
+<p class="id">Setelah laporan ini muncul, saham perusahaan induk Coinbase (COIN) naik lebih dari 2% secara intraday, diperdagangkan di atas $160. Namun, Coinbase belum mengumumkan strategi ekspansi pasar Tiongkok resmi apa pun yang terkait dengan perubahan ini, dan masih belum jelas apakah pembukaan akun benar-benar berujung pada fungsi deposit, penarikan, atau perdagangan yang berjalan.</p>
+<p class="pl">Po publikacji tej informacji akcje spółki macierzystej Coinbase (COIN) wzrosły w ciągu dnia o ponad 2%, notowane powyżej 160 dolarów. Coinbase nie ogłosił jednak żadnej formalnej strategii ekspansji na rynek chiński powiązanej z tą zmianą i nadal nie wiadomo, czy założenie konta faktycznie przekłada się na działającą funkcję wpłat, wypłat czy handlu.</p>
+<p class="it">In seguito alla notizia, il titolo della società madre di Coinbase (COIN) è salito di oltre il 2% nel corso della seduta, scambiando sopra i 160 dollari. Tuttavia, Coinbase non ha annunciato alcuna strategia formale di espansione nel mercato cinese legata a questa modifica, e resta poco chiaro se l'apertura di un conto si traduca effettivamente in funzionalità operative di deposito, prelievo o trading.</p>
+<p class="ru">После публикации новости акции материнской компании Coinbase (COIN) выросли внутри дня более чем на 2%, торгуясь выше $160. Однако Coinbase не объявила никакой официальной стратегии расширения на китайском рынке в связи с этим изменением, и остаётся неясным, приводит ли открытие счёта к реально работающим функциям пополнения, вывода средств или торговли.</p>
+<p class="zh">消息傳出後,Coinbase母公司股價(COIN)盤中一度上漲逾2%,交易價格站上160美元。然而,Coinbase並未就此變更宣布任何正式的中國市場擴張策略,開戶是否真的能帶來可用的存款、提款或交易功能仍不明朗。</p>
 
 <h2 class="ko">가입 문턱은 낮아졌지만 — 계정과 실거래는 다른 문제</h2>
 <h2 class="en">The Sign-Up Bar Just Dropped — But an Account Isn't the Same as Real Access</h2>
@@ -29,6 +39,11 @@
 <h2 class="pt">A barreira de cadastro caiu — mas uma conta não é o mesmo que acesso real</h2>
 <h2 class="tr">Kayıt Eşiği Düştü — Ama Hesap Sahibi Olmak Gerçek Erişimle Aynı Değil</h2>
 <h2 class="vi">Rào Cản Đăng Ký Vừa Giảm — Nhưng Có Tài Khoản Không Đồng Nghĩa Với Truy Cập Thực Sự</h2>
+<h2 class="id">Ambang Pendaftaran Baru Saja Turun — Tapi Memiliki Akun Bukan Berarti Akses Nyata</h2>
+<h2 class="pl">Próg rejestracji właśnie spadł — ale konto to nie to samo co realny dostęp</h2>
+<h2 class="it">La soglia di iscrizione si è appena abbassata — ma un conto non equivale a un accesso reale</h2>
+<h2 class="ru">Порог регистрации только что снизился — но счёт не равен реальному доступу</h2>
+<h2 class="zh">註冊門檻剛剛降低——但擁有帳戶不等於真正的存取權限</h2>
 
 <p class="ko">이번 조치가 갖는 의미를 이해하려면 기존 규정이 어떻게 작동했는지 볼 필요가 있다. 여권+홍콩주소 요건은 사실상 중국 본토에만 거주하는 일반 이용자를 걸러내는 장치였다. 홍콩 주소 증빙을 제시할 수 있는 사람은 홍콩에 실제 연고가 있거나 우회 수단을 가진 소수에 국한됐기 때문이다. 이번에 본토 신분증과 본토 주소만으로 가입이 가능해졌다는 것은 그 장벽을 실질적으로 낮췄다는 의미이지만, 계정 개설은 신원확인(KYC) 절차의 첫 단계에 불과하다. 입금에 쓰이는 은행 채널 연동, 거래 기능 활성화 여부, 출금 경로 확보 등은 KYC 통과와 별개의 문제이며 아직 명확히 확인되지 않았다.</p>
 <p class="en">Understanding this move requires looking at how the old rule actually worked. The passport-plus-Hong-Kong-address requirement functioned as a de facto filter against ordinary users living solely on the mainland — only those with a genuine tie to Hong Kong, or a workaround, could produce that proof. Allowing sign-up with just a mainland ID and mainland address meaningfully lowers that barrier, but account creation is only the first step of the identity-verification (KYC) process. Whether banking channels for deposits are connected, whether trading functions are actually enabled, and whether a withdrawal path exists are separate questions that remain unconfirmed.</p>
@@ -39,6 +54,11 @@
 <p class="pt">Entender o alcance dessa medida exige observar como a regra anterior realmente funcionava. A exigência de passaporte mais endereço em Hong Kong funcionava como um filtro de facto contra usuários comuns residentes apenas no continente — só quem tinha um vínculo real com Hong Kong, ou um método alternativo, conseguia apresentar essa prova. Permitir o cadastro com apenas um documento e endereço continentais reduz significativamente essa barreira, mas a criação da conta é apenas o primeiro passo do processo de verificação de identidade (KYC). Se os canais bancários para depósitos estão conectados, se as funções de negociação estão de fato habilitadas e se existe uma via de saque são questões separadas que permanecem sem confirmação.</p>
 <p class="tr">Bu adımın önemini anlamak için eski kuralın nasıl işlediğine bakmak gerekir. Pasaport artı Hong Kong adresi şartı, yalnızca anakarada yaşayan sıradan kullanıcılara karşı fiilen bir filtre görevi görüyordu — bu kanıtı yalnızca Hong Kong ile gerçek bir bağı olanlar veya bir dolambaçlı yol bulanlar sunabiliyordu. Sadece anakara kimliği ve anakara adresiyle kayıt olabilmek bu engeli belirgin şekilde düşürüyor, ancak hesap oluşturmak kimlik doğrulama (KYC) sürecinin sadece ilk adımı. Para yatırma için banka kanallarının bağlı olup olmadığı, işlem işlevlerinin gerçekten etkinleştirilip etkinleştirilmediği ve bir para çekme yolunun var olup olmadığı, KYC'yi geçmekten ayrı sorular olup hâlâ doğrulanmamış durumda.</p>
 <p class="vi">Để hiểu ý nghĩa của động thái này, cần xem xét quy định cũ thực sự hoạt động ra sao. Yêu cầu hộ chiếu cộng địa chỉ Hồng Kông đóng vai trò như một bộ lọc trên thực tế nhằm loại người dùng thông thường chỉ sinh sống ở đại lục — chỉ những ai có liên hệ thực sự với Hồng Kông, hoặc có cách lách luật, mới có thể xuất trình bằng chứng đó. Việc cho phép đăng ký chỉ với chứng minh thư và địa chỉ đại lục làm giảm đáng kể rào cản này, nhưng việc mở tài khoản chỉ là bước đầu tiên của quy trình xác minh danh tính (KYC). Việc các kênh ngân hàng cho nạp tiền có được kết nối hay không, chức năng giao dịch có thực sự được kích hoạt hay không, và có tồn tại đường rút tiền hay không là những câu hỏi riêng biệt vẫn chưa được xác nhận.</p>
+<p class="id">Untuk memahami langkah ini, perlu dilihat bagaimana aturan lama sebenarnya bekerja. Persyaratan paspor ditambah alamat Hong Kong berfungsi sebagai penyaring de facto terhadap pengguna biasa yang hanya tinggal di daratan — hanya mereka yang memiliki keterkaitan nyata dengan Hong Kong, atau cara memutar, yang dapat menunjukkan bukti tersebut. Mengizinkan pendaftaran hanya dengan KTP dan alamat daratan secara signifikan menurunkan hambatan tersebut, tetapi pembuatan akun hanyalah langkah pertama dari proses verifikasi identitas (KYC). Apakah saluran perbankan untuk deposit telah terhubung, apakah fungsi perdagangan benar-benar diaktifkan, dan apakah jalur penarikan tersedia, merupakan pertanyaan terpisah yang masih belum dikonfirmasi.</p>
+<p class="pl">Aby zrozumieć znaczenie tego kroku, trzeba przyjrzeć się, jak faktycznie działała stara zasada. Wymóg paszportu wraz z adresem w Hongkongu pełnił funkcję faktycznego filtra wobec zwykłych użytkowników mieszkających wyłącznie na kontynencie — tylko osoby mające rzeczywisty związek z Hongkongiem lub sposób na obejście tego wymogu mogły przedstawić taki dowód. Dopuszczenie rejestracji przy użyciu jedynie dowodu osobistego i adresu z kontynentu istotnie obniża tę barierę, ale utworzenie konta to dopiero pierwszy krok procesu weryfikacji tożsamości (KYC). To, czy podłączone są kanały bankowe do wpłat, czy funkcje handlowe są faktycznie włączone i czy istnieje ścieżka wypłat, to odrębne kwestie, które pozostają niepotwierdzone.</p>
+<p class="it">Per comprendere la portata di questa mossa occorre osservare come funzionava realmente la vecchia regola. Il requisito di passaporto più indirizzo di Hong Kong fungeva da filtro di fatto contro gli utenti comuni residenti esclusivamente sul continente — solo chi aveva un legame reale con Hong Kong, o un espediente, poteva fornire quella prova. Consentire l'iscrizione con la sola carta d'identità e indirizzo continentali abbassa in modo significativo questa barriera, ma la creazione di un conto è solo il primo passo del processo di verifica dell'identità (KYC). Se i canali bancari per i depositi siano collegati, se le funzioni di trading siano effettivamente attivate e se esista un percorso di prelievo sono questioni separate che restano non confermate.</p>
+<p class="ru">Чтобы понять значение этого шага, нужно рассмотреть, как работало старое правило. Требование паспорта плюс адреса в Гонконге фактически служило фильтром против обычных пользователей, проживающих исключительно на материке, — предоставить такое доказательство могли лишь те, у кого была реальная связь с Гонконгом, либо обходной путь. Разрешение регистрации только по материковому удостоверению личности и материковому адресу существенно снижает этот барьер, но создание счёта — лишь первый шаг процесса верификации личности (KYC). Подключены ли банковские каналы для пополнения, действительно ли активированы торговые функции и существует ли путь для вывода средств — отдельные вопросы, которые остаются неподтверждёнными.</p>
+<p class="zh">要理解這項舉措的意義,需要先了解舊規定實際上是如何運作的。護照加香港地址的要求實質上是一道篩選機制,用來排除僅居住在中國大陸的一般用戶——只有真正與香港有關聯,或有變通辦法的人,才能提供該證明。如今僅憑大陸身分證及大陸地址即可註冊,大幅降低了這道門檻,但開戶只是身分驗證(KYC)流程的第一步。用於存款的銀行管道是否已連接、交易功能是否真正啟用,以及是否存在提款途徑,都是仍未獲得證實的獨立問題。</p>
 
 <p class="ko">역사적으로 봐도 '계정 생성 가능'과 '실질적 시장 접근'은 전혀 다른 사안이었다. 2021년 9월 중국 인민은행(PBOC) 등 10개 부처가 모든 암호화폐 거래·채굴·장외거래(OTC)를 전면 금지한 이후, 바이낸스 등 해외 거래소들은 공식적으로 중국 시장에서 철수했지만 VPN과 해외 계좌를 통한 우회 접속 수요는 완전히 사라지지 않았다. 오히려 바이낸스는 한때 중국 이용자를 겨냥해 별도 서비스를 운영하다 규제 압박에 단계적으로 철수한 전례가 있어, 거래소가 중국向 서비스를 조금이라도 완화할 때마다 시장은 곧바로 '재진입 신호'로 과잉 해석하는 경향을 보여왔다.</p>
 <p class="en">Historically, "an account can be created" and "the market is genuinely accessible" have been two very different things. After the People's Bank of China and nine other regulators comprehensively banned all crypto trading, mining and over-the-counter (OTC) activity in September 2021, offshore exchanges including Binance officially exited the Chinese market — yet demand for workaround access via VPNs and offshore accounts never fully disappeared. Binance itself once ran services aimed at Chinese users before gradually withdrawing under regulatory pressure, which is part of why the market has repeatedly overreacted, reading any small easing of China-facing exchange policy as a "re-entry signal."</p>
@@ -49,6 +69,11 @@
 <p class="pt">Historicamente, "poder criar uma conta" e "ter acesso real ao mercado" sempre foram duas coisas muito diferentes. Depois que o Banco Popular da China e outros nove reguladores proibiram integralmente toda negociação, mineração e balcão (OTC) de criptomoedas em setembro de 2021, exchanges offshore, incluindo a Binance, se retiraram oficialmente do mercado chinês — mas a demanda por acesso alternativo via VPN e contas offshore nunca desapareceu completamente. A própria Binance chegou a operar serviços voltados a usuários chineses antes de se retirar gradualmente sob pressão regulatória, o que explica em parte por que o mercado tem reagido repetidamente de forma exagerada, interpretando qualquer pequena flexibilização de política voltada à China como um "sinal de reentrada".</p>
 <p class="tr">Tarihsel olarak, "hesap oluşturulabilmesi" ile "piyasaya gerçekten erişilebilmesi" hep birbirinden çok farklı iki şey olmuştur. Çin Halk Bankası ve dokuz düzenleyicinin daha Eylül 2021'de tüm kripto işlemlerini, madenciliğini ve tezgah üstü (OTC) faaliyetlerini kapsamlı biçimde yasaklamasının ardından, Binance dahil offshore borsalar Çin pazarından resmen çekildi — ancak VPN ve offshore hesaplar aracılığıyla dolambaçlı erişim talebi hiçbir zaman tamamen ortadan kalkmadı. Binance'ın kendisi bir zamanlar Çinli kullanıcılara yönelik hizmetler işletmiş, ardından düzenleyici baskı altında kademeli olarak çekilmişti; bu da piyasanın bir borsanın Çin'e yönelik politikasındaki en küçük gevşemeyi bile neden tekrar tekrar "yeniden giriş sinyali" olarak abartılı yorumladığını kısmen açıklıyor.</p>
 <p class="vi">Về mặt lịch sử, việc "có thể tạo tài khoản" và "thực sự tiếp cận được thị trường" luôn là hai vấn đề rất khác nhau. Sau khi Ngân hàng Nhân dân Trung Quốc và chín cơ quan quản lý khác cấm toàn diện mọi hoạt động giao dịch, khai thác và giao dịch phi tập trung (OTC) tiền mã hóa vào tháng 9/2021, các sàn giao dịch nước ngoài bao gồm Binance đã chính thức rút khỏi thị trường Trung Quốc — nhưng nhu cầu tiếp cận vòng qua VPN và tài khoản nước ngoài chưa bao giờ biến mất hoàn toàn. Bản thân Binance từng vận hành các dịch vụ nhắm đến người dùng Trung Quốc trước khi rút lui dần dưới áp lực quản lý, điều này phần nào giải thích tại sao thị trường liên tục phản ứng thái quá, coi bất kỳ sự nới lỏng nhỏ nào trong chính sách hướng đến Trung Quốc của một sàn là "tín hiệu tái gia nhập".</p>
+<p class="id">Secara historis, "akun bisa dibuat" dan "pasar benar-benar dapat diakses" selalu menjadi dua hal yang sangat berbeda. Setelah Bank Rakyat Tiongkok (PBOC) dan sembilan regulator lainnya melarang secara menyeluruh seluruh perdagangan, penambangan, dan aktivitas over-the-counter (OTC) kripto pada September 2021, bursa luar negeri termasuk Binance secara resmi keluar dari pasar Tiongkok — namun permintaan akan akses alternatif melalui VPN dan akun luar negeri tidak pernah sepenuhnya hilang. Binance sendiri pernah menjalankan layanan yang ditujukan untuk pengguna Tiongkok sebelum secara bertahap menarik diri di bawah tekanan regulasi, yang sebagian menjelaskan mengapa pasar berulang kali bereaksi berlebihan, menafsirkan pelonggaran kecil apa pun dalam kebijakan bursa terhadap Tiongkok sebagai "sinyal masuk kembali."</p>
+<p class="pl">Historycznie rzecz biorąc, "można założyć konto" i "rynek jest rzeczywiście dostępny" to były dwie zupełnie różne sprawy. Po tym, jak Ludowy Bank Chin i dziewięciu innych regulatorów kompleksowo zakazało w całości handlu kryptowalutami, wydobycia i obrotu pozagiełdowego (OTC) we wrześniu 2021 roku, zagraniczne giełdy, w tym Binance, oficjalnie wycofały się z rynku chińskiego — jednak popyt na obejściowy dostęp za pośrednictwem VPN i kont zagranicznych nigdy w pełni nie zniknął. Sama Binance prowadziła kiedyś usługi skierowane do chińskich użytkowników, zanim stopniowo wycofała się pod presją regulacyjną, co po części tłumaczy, dlaczego rynek wielokrotnie reagował przesadnie, odczytując każde niewielkie złagodzenie polityki giełdy wobec Chin jako "sygnał ponownego wejścia."</p>
+<p class="it">Storicamente, "poter creare un conto" e "il mercato è realmente accessibile" sono sempre state due cose molto diverse. Dopo che la Banca popolare cinese e altri nove regolatori hanno vietato in modo completo tutto il trading, il mining e le attività over-the-counter (OTC) di criptovalute nel settembre 2021, gli exchange offshore, tra cui Binance, si sono ritirati ufficialmente dal mercato cinese — ma la domanda di accesso alternativo tramite VPN e conti offshore non è mai del tutto scomparsa. La stessa Binance un tempo gestiva servizi rivolti agli utenti cinesi prima di ritirarsi gradualmente sotto la pressione normativa, il che spiega in parte perché il mercato ha reagito ripetutamente in modo eccessivo, interpretando ogni piccolo allentamento della politica di un exchange verso la Cina come un "segnale di rientro."</p>
+<p class="ru">Исторически "возможность создать счёт" и "реальная доступность рынка" были двумя совершенно разными вещами. После того как Народный банк Китая и девять других регуляторов в сентябре 2021 года полностью запретили всю торговлю криптовалютой, майнинг и внебиржевую (OTC) деятельность, офшорные биржи, включая Binance, официально покинули китайский рынок — однако спрос на обходной доступ через VPN и офшорные счета так и не исчез полностью. Сама Binance когда-то предоставляла услуги, ориентированные на китайских пользователей, прежде чем постепенно свернуть их под давлением регуляторов, что отчасти объясняет, почему рынок неоднократно чрезмерно реагировал, воспринимая любое небольшое смягчение политики биржи в отношении Китая как "сигнал повторного входа."</p>
+<p class="zh">從歷史上看,「可以開戶」與「市場真正可進入」一直是兩件截然不同的事。2021年9月,中國人民銀行等十個部門全面禁止所有加密貨幣交易、挖礦及場外交易(OTC)活動後,包括幣安在內的境外交易所正式退出中國市場——但透過VPN及海外帳戶進行變通存取的需求從未完全消失。幣安本身也曾一度營運針對中國用戶的服務,後來在監管壓力下逐步撤出,這也部分解釋了為何市場屢屢過度解讀,把交易所對中政策任何微小的鬆綁都當作「重新進場訊號」。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -428,6 +453,216 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sign-Up Requirement Change &amp; China Crypto Regulation Timeline</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="310" height="100" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="175" y="74" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Before</text>
+    <text x="35" y="98" fill="#e4e4e7" font-size="13">Passport + Hong Kong address proof</text>
+    <text x="35" y="120" fill="#a1a1aa" font-size="13">→ Effectively Hong Kong-tied users only</text>
+    <text x="35" y="140" fill="#a1a1aa" font-size="13">→ Excluded most mainland residents</text>
+
+    <rect x="370" y="50" width="310" height="100" rx="10" fill="#0e2a3a" stroke="#38bdf8" stroke-width="1.3"/>
+    <text x="525" y="74" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle">After (Jul 2026)</text>
+    <text x="385" y="98" fill="#e4e4e7" font-size="13">National ID + mainland address</text>
+    <text x="385" y="120" fill="#a1a1aa" font-size="13">→ Sign-up bar significantly lowered</text>
+    <text x="385" y="140" fill="#7dd3fc" font-size="13" font-weight="700">→ Deposits/trading access unconfirmed</text>
+
+    <text x="20" y="188" fill="#fafafa" font-size="14" font-weight="700">China Crypto Regulation Timeline</text>
+    <line x1="60" y1="235" x2="650" y2="235" stroke="#52525b" stroke-width="2"/>
+
+    <circle cx="90" cy="235" r="7" fill="#f87171"/>
+    <text x="90" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2017</text>
+    <text x="90" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">ICO ban</text>
+
+    <circle cx="280" cy="235" r="7" fill="#f87171"/>
+    <text x="280" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2021</text>
+    <text x="280" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">PBOC + 9 regulators</text>
+    <text x="280" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">ban all trading/mining</text>
+
+    <circle cx="470" cy="235" r="7" fill="#facc15"/>
+    <text x="470" y="215" fill="#fde047" font-size="13" font-weight="700" text-anchor="middle">2023-25</text>
+    <text x="470" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">Hong Kong VASP</text>
+    <text x="470" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">regime matures</text>
+
+    <circle cx="640" cy="235" r="8" fill="#38bdf8"/>
+    <text x="640" y="215" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle">Jul 2026 (now)</text>
+    <text x="640" y="258" fill="#e4e4e7" font-size="12" text-anchor="middle">Coinbase eases</text>
+    <text x="640" y="274" fill="#e4e4e7" font-size="12" text-anchor="middle">mainland KYC</text>
+
+    <text x="20" y="380" fill="#71717a" font-size="13">Account creation ≠ deposits/trading access. Coinbase has stated no formal expansion strategy.</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sign-Up Requirement Change &amp; China Crypto Regulation Timeline</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="310" height="100" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="175" y="74" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Before</text>
+    <text x="35" y="98" fill="#e4e4e7" font-size="13">Passport + Hong Kong address proof</text>
+    <text x="35" y="120" fill="#a1a1aa" font-size="13">→ Effectively Hong Kong-tied users only</text>
+    <text x="35" y="140" fill="#a1a1aa" font-size="13">→ Excluded most mainland residents</text>
+
+    <rect x="370" y="50" width="310" height="100" rx="10" fill="#0e2a3a" stroke="#38bdf8" stroke-width="1.3"/>
+    <text x="525" y="74" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle">After (Jul 2026)</text>
+    <text x="385" y="98" fill="#e4e4e7" font-size="13">National ID + mainland address</text>
+    <text x="385" y="120" fill="#a1a1aa" font-size="13">→ Sign-up bar significantly lowered</text>
+    <text x="385" y="140" fill="#7dd3fc" font-size="13" font-weight="700">→ Deposits/trading access unconfirmed</text>
+
+    <text x="20" y="188" fill="#fafafa" font-size="14" font-weight="700">China Crypto Regulation Timeline</text>
+    <line x1="60" y1="235" x2="650" y2="235" stroke="#52525b" stroke-width="2"/>
+
+    <circle cx="90" cy="235" r="7" fill="#f87171"/>
+    <text x="90" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2017</text>
+    <text x="90" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">ICO ban</text>
+
+    <circle cx="280" cy="235" r="7" fill="#f87171"/>
+    <text x="280" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2021</text>
+    <text x="280" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">PBOC + 9 regulators</text>
+    <text x="280" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">ban all trading/mining</text>
+
+    <circle cx="470" cy="235" r="7" fill="#facc15"/>
+    <text x="470" y="215" fill="#fde047" font-size="13" font-weight="700" text-anchor="middle">2023-25</text>
+    <text x="470" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">Hong Kong VASP</text>
+    <text x="470" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">regime matures</text>
+
+    <circle cx="640" cy="235" r="8" fill="#38bdf8"/>
+    <text x="640" y="215" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle">Jul 2026 (now)</text>
+    <text x="640" y="258" fill="#e4e4e7" font-size="12" text-anchor="middle">Coinbase eases</text>
+    <text x="640" y="274" fill="#e4e4e7" font-size="12" text-anchor="middle">mainland KYC</text>
+
+    <text x="20" y="380" fill="#71717a" font-size="13">Account creation ≠ deposits/trading access. Coinbase has stated no formal expansion strategy.</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sign-Up Requirement Change &amp; China Crypto Regulation Timeline</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="310" height="100" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="175" y="74" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Before</text>
+    <text x="35" y="98" fill="#e4e4e7" font-size="13">Passport + Hong Kong address proof</text>
+    <text x="35" y="120" fill="#a1a1aa" font-size="13">→ Effectively Hong Kong-tied users only</text>
+    <text x="35" y="140" fill="#a1a1aa" font-size="13">→ Excluded most mainland residents</text>
+
+    <rect x="370" y="50" width="310" height="100" rx="10" fill="#0e2a3a" stroke="#38bdf8" stroke-width="1.3"/>
+    <text x="525" y="74" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle">After (Jul 2026)</text>
+    <text x="385" y="98" fill="#e4e4e7" font-size="13">National ID + mainland address</text>
+    <text x="385" y="120" fill="#a1a1aa" font-size="13">→ Sign-up bar significantly lowered</text>
+    <text x="385" y="140" fill="#7dd3fc" font-size="13" font-weight="700">→ Deposits/trading access unconfirmed</text>
+
+    <text x="20" y="188" fill="#fafafa" font-size="14" font-weight="700">China Crypto Regulation Timeline</text>
+    <line x1="60" y1="235" x2="650" y2="235" stroke="#52525b" stroke-width="2"/>
+
+    <circle cx="90" cy="235" r="7" fill="#f87171"/>
+    <text x="90" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2017</text>
+    <text x="90" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">ICO ban</text>
+
+    <circle cx="280" cy="235" r="7" fill="#f87171"/>
+    <text x="280" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2021</text>
+    <text x="280" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">PBOC + 9 regulators</text>
+    <text x="280" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">ban all trading/mining</text>
+
+    <circle cx="470" cy="235" r="7" fill="#facc15"/>
+    <text x="470" y="215" fill="#fde047" font-size="13" font-weight="700" text-anchor="middle">2023-25</text>
+    <text x="470" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">Hong Kong VASP</text>
+    <text x="470" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">regime matures</text>
+
+    <circle cx="640" cy="235" r="8" fill="#38bdf8"/>
+    <text x="640" y="215" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle">Jul 2026 (now)</text>
+    <text x="640" y="258" fill="#e4e4e7" font-size="12" text-anchor="middle">Coinbase eases</text>
+    <text x="640" y="274" fill="#e4e4e7" font-size="12" text-anchor="middle">mainland KYC</text>
+
+    <text x="20" y="380" fill="#71717a" font-size="13">Account creation ≠ deposits/trading access. Coinbase has stated no formal expansion strategy.</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sign-Up Requirement Change &amp; China Crypto Regulation Timeline</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="310" height="100" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="175" y="74" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Before</text>
+    <text x="35" y="98" fill="#e4e4e7" font-size="13">Passport + Hong Kong address proof</text>
+    <text x="35" y="120" fill="#a1a1aa" font-size="13">→ Effectively Hong Kong-tied users only</text>
+    <text x="35" y="140" fill="#a1a1aa" font-size="13">→ Excluded most mainland residents</text>
+
+    <rect x="370" y="50" width="310" height="100" rx="10" fill="#0e2a3a" stroke="#38bdf8" stroke-width="1.3"/>
+    <text x="525" y="74" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle">After (Jul 2026)</text>
+    <text x="385" y="98" fill="#e4e4e7" font-size="13">National ID + mainland address</text>
+    <text x="385" y="120" fill="#a1a1aa" font-size="13">→ Sign-up bar significantly lowered</text>
+    <text x="385" y="140" fill="#7dd3fc" font-size="13" font-weight="700">→ Deposits/trading access unconfirmed</text>
+
+    <text x="20" y="188" fill="#fafafa" font-size="14" font-weight="700">China Crypto Regulation Timeline</text>
+    <line x1="60" y1="235" x2="650" y2="235" stroke="#52525b" stroke-width="2"/>
+
+    <circle cx="90" cy="235" r="7" fill="#f87171"/>
+    <text x="90" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2017</text>
+    <text x="90" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">ICO ban</text>
+
+    <circle cx="280" cy="235" r="7" fill="#f87171"/>
+    <text x="280" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2021</text>
+    <text x="280" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">PBOC + 9 regulators</text>
+    <text x="280" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">ban all trading/mining</text>
+
+    <circle cx="470" cy="235" r="7" fill="#facc15"/>
+    <text x="470" y="215" fill="#fde047" font-size="13" font-weight="700" text-anchor="middle">2023-25</text>
+    <text x="470" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">Hong Kong VASP</text>
+    <text x="470" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">regime matures</text>
+
+    <circle cx="640" cy="235" r="8" fill="#38bdf8"/>
+    <text x="640" y="215" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle">Jul 2026 (now)</text>
+    <text x="640" y="258" fill="#e4e4e7" font-size="12" text-anchor="middle">Coinbase eases</text>
+    <text x="640" y="274" fill="#e4e4e7" font-size="12" text-anchor="middle">mainland KYC</text>
+
+    <text x="20" y="380" fill="#71717a" font-size="13">Account creation ≠ deposits/trading access. Coinbase has stated no formal expansion strategy.</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sign-Up Requirement Change &amp; China Crypto Regulation Timeline</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="310" height="100" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="175" y="74" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Before</text>
+    <text x="35" y="98" fill="#e4e4e7" font-size="13">Passport + Hong Kong address proof</text>
+    <text x="35" y="120" fill="#a1a1aa" font-size="13">→ Effectively Hong Kong-tied users only</text>
+    <text x="35" y="140" fill="#a1a1aa" font-size="13">→ Excluded most mainland residents</text>
+
+    <rect x="370" y="50" width="310" height="100" rx="10" fill="#0e2a3a" stroke="#38bdf8" stroke-width="1.3"/>
+    <text x="525" y="74" fill="#7dd3fc" font-size="14" font-weight="700" text-anchor="middle">After (Jul 2026)</text>
+    <text x="385" y="98" fill="#e4e4e7" font-size="13">National ID + mainland address</text>
+    <text x="385" y="120" fill="#a1a1aa" font-size="13">→ Sign-up bar significantly lowered</text>
+    <text x="385" y="140" fill="#7dd3fc" font-size="13" font-weight="700">→ Deposits/trading access unconfirmed</text>
+
+    <text x="20" y="188" fill="#fafafa" font-size="14" font-weight="700">China Crypto Regulation Timeline</text>
+    <line x1="60" y1="235" x2="650" y2="235" stroke="#52525b" stroke-width="2"/>
+
+    <circle cx="90" cy="235" r="7" fill="#f87171"/>
+    <text x="90" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2017</text>
+    <text x="90" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">ICO ban</text>
+
+    <circle cx="280" cy="235" r="7" fill="#f87171"/>
+    <text x="280" y="215" fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle">Sep 2021</text>
+    <text x="280" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">PBOC + 9 regulators</text>
+    <text x="280" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">ban all trading/mining</text>
+
+    <circle cx="470" cy="235" r="7" fill="#facc15"/>
+    <text x="470" y="215" fill="#fde047" font-size="13" font-weight="700" text-anchor="middle">2023-25</text>
+    <text x="470" y="258" fill="#d4d4d8" font-size="12" text-anchor="middle">Hong Kong VASP</text>
+    <text x="470" y="274" fill="#d4d4d8" font-size="12" text-anchor="middle">regime matures</text>
+
+    <circle cx="640" cy="235" r="8" fill="#38bdf8"/>
+    <text x="640" y="215" fill="#7dd3fc" font-size="13" font-weight="700" text-anchor="middle">Jul 2026 (now)</text>
+    <text x="640" y="258" fill="#e4e4e7" font-size="12" text-anchor="middle">Coinbase eases</text>
+    <text x="640" y="274" fill="#e4e4e7" font-size="12" text-anchor="middle">mainland KYC</text>
+
+    <text x="20" y="380" fill="#71717a" font-size="13">Account creation ≠ deposits/trading access. Coinbase has stated no formal expansion strategy.</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">회의적으로 봐야 할 이유 — 그리고 그럼에도 주목할 이유</h2>
 <h2 class="en">Reasons for Skepticism — and Why It's Still Worth Watching</h2>
@@ -438,6 +673,11 @@
 <h2 class="pt">Razões para ceticismo — e por que ainda vale a pena observar</h2>
 <h2 class="tr">Şüphecilik İçin Nedenler — Ve Yine de Neden İzlenmeye Değer</h2>
 <h2 class="vi">Lý Do Để Hoài Nghi — Và Vì Sao Vẫn Đáng Theo Dõi</h2>
+<h2 class="id">Alasan untuk Bersikap Skeptis — dan Mengapa Ini Tetap Layak Diperhatikan</h2>
+<h2 class="pl">Powody do sceptycyzmu — i dlaczego mimo to warto to obserwować</h2>
+<h2 class="it">Motivi di scetticismo — e perché vale comunque la pena osservare</h2>
+<h2 class="ru">Причины для скептицизма — и почему за этим всё же стоит следить</h2>
+<h2 class="zh">值得懷疑的理由——以及為何仍值得關注</h2>
 
 <p class="ko">낙관보다 신중론에 무게를 두어야 할 근거도 뚜렷하다. 코인베이스는 이번 변경이 중국 시장으로의 전략적 확장을 의미하는지에 대해 어떤 공식 입장도 내놓지 않았다. 단순한 백엔드 정책 조정일 가능성, 혹은 이미 해외에 거주 중인 중국 국적자의 편의를 높이려는 조치일 가능성도 배제할 수 없다. 더 중요한 문제는 규제 리스크다. 중국 본토 이용자를 겨냥한 것으로 비칠 경우 미승인 금융서비스 제공으로 간주돼 중국 당국의 제재 대상이 될 수 있고, 자금 유입 경로가 확인되면 외환관리 규정 위반 소지도 있다.</p>
 <p class="en">There's clear reason to lean cautious rather than optimistic. Coinbase has offered no formal position on whether this change signals a strategic push into the Chinese market. It could just as easily be a routine back-end policy tweak, or a move aimed at making things easier for Chinese nationals already living abroad. The bigger issue is regulatory risk: if the change is seen as targeting mainland users, it could be treated as providing unauthorized financial services and draw sanctions from Chinese authorities, and if funding channels are traced, it could also raise foreign-exchange control violations.</p>
@@ -448,6 +688,11 @@
 <p class="pt">Há motivos claros para pender para a cautela em vez do otimismo. A Coinbase não ofereceu posição formal sobre se essa mudança sinaliza um avanço estratégico no mercado chinês. Poderia igualmente ser um simples ajuste de política interna, ou uma medida para facilitar a vida de cidadãos chineses que já vivem no exterior. O problema maior é o risco regulatório: se a mudança for vista como voltada a usuários do continente, poderia ser tratada como prestação de serviços financeiros não autorizados e atrair sanções das autoridades chinesas, e se os canais de financiamento forem rastreados, também poderia levantar violações de controle cambial.</p>
 <p class="tr">İyimserlikten çok temkinli olmak için açık nedenler var. Coinbase, bu değişikliğin Çin pazarına stratejik bir açılımı işaret edip etmediği konusunda resmi bir görüş bildirmedi. Bu, sıradan bir arka planda politika ayarlaması ya da halihazırda yurtdışında yaşayan Çin vatandaşlarının işini kolaylaştırmayı amaçlayan bir hamle de olabilir. Daha büyük sorun düzenleyici risk: değişiklik anakara kullanıcılarını hedef alıyormuş gibi görülürse, izinsiz finansal hizmet sunumu olarak değerlendirilip Çin makamlarının yaptırımlarına yol açabilir ve fon giriş kanalları izlenirse döviz kontrolü ihlalleri de gündeme gelebilir.</p>
 <p class="vi">Có lý do rõ ràng để nghiêng về sự thận trọng hơn là lạc quan. Coinbase chưa đưa ra lập trường chính thức nào về việc liệu thay đổi này có báo hiệu một bước tiến chiến lược vào thị trường Trung Quốc hay không. Đây cũng có thể chỉ đơn giản là một điều chỉnh chính sách hậu trường thông thường, hoặc một động thái nhằm giúp công dân Trung Quốc đã sống ở nước ngoài thuận tiện hơn. Vấn đề lớn hơn là rủi ro quản lý: nếu thay đổi này bị coi là nhắm đến người dùng đại lục, nó có thể bị xem là cung cấp dịch vụ tài chính trái phép và thu hút chế tài từ chính quyền Trung Quốc, và nếu các kênh dẫn vốn bị truy ra, nó cũng có thể gây ra vi phạm quy định quản lý ngoại hối.</p>
+<p class="id">Ada alasan jelas untuk cenderung berhati-hati daripada optimistis. Coinbase belum memberikan posisi resmi apa pun tentang apakah perubahan ini menandakan dorongan strategis ke pasar Tiongkok. Ini bisa jadi hanyalah penyesuaian kebijakan back-end rutin, atau langkah yang ditujukan untuk mempermudah warga negara Tiongkok yang sudah tinggal di luar negeri. Masalah yang lebih besar adalah risiko regulasi: jika perubahan ini dipandang menargetkan pengguna daratan, hal itu dapat dianggap sebagai penyediaan jasa keuangan tanpa izin dan memicu sanksi dari otoritas Tiongkok, dan jika jalur pendanaan dapat dilacak, hal itu juga dapat menimbulkan pelanggaran kontrol devisa.</p>
+<p class="pl">Istnieją wyraźne powody, by skłaniać się ku ostrożności, a nie optymizmowi. Coinbase nie zajął formalnego stanowiska co do tego, czy ta zmiana sygnalizuje strategiczne wejście na rynek chiński. Równie dobrze może to być rutynowa korekta polityki wewnętrznej albo posunięcie mające ułatwić życie obywatelom Chin mieszkającym już za granicą. Większym problemem jest ryzyko regulacyjne: jeśli zmiana zostanie odebrana jako skierowana do użytkowników z kontynentu, może zostać uznana za świadczenie nieautoryzowanych usług finansowych i sprowadzić sankcje ze strony chińskich władz, a jeśli kanały finansowania zostaną wyśledzone, może to również oznaczać naruszenie przepisów kontroli dewizowej.</p>
+<p class="it">Ci sono chiare ragioni per propendere verso la cautela piuttosto che verso l'ottimismo. Coinbase non ha offerto alcuna posizione formale sul fatto che questo cambiamento segnali una spinta strategica verso il mercato cinese. Potrebbe altrettanto facilmente trattarsi di un normale aggiustamento di policy interna, o di una mossa volta a semplificare le cose per i cittadini cinesi che già vivono all'estero. Il problema più grande è il rischio normativo: se il cambiamento viene percepito come rivolto agli utenti del continente, potrebbe essere considerato come fornitura di servizi finanziari non autorizzati e attirare sanzioni da parte delle autorità cinesi, e se i canali di finanziamento venissero tracciati, potrebbe anche sollevare violazioni del controllo sui cambi.</p>
+<p class="ru">Есть очевидные основания склоняться скорее к осторожности, чем к оптимизму. Coinbase не выразила официальной позиции о том, сигнализирует ли это изменение о стратегическом продвижении на китайский рынок. С тем же успехом это может быть рутинной внутренней корректировкой политики или шагом, призванным упростить жизнь гражданам Китая, уже проживающим за рубежом. Более серьёзная проблема — регуляторный риск: если изменение будет расценено как нацеленное на пользователей материкового Китая, это может быть расценено как предоставление несанкционированных финансовых услуг и повлечь санкции со стороны китайских властей, а если каналы финансирования будут отслежены, это также может привести к нарушениям валютного контроля.</p>
+<p class="zh">有明確理由讓人傾向謹慎而非樂觀。Coinbase並未就此變更是否意味著策略性進軍中國市場表態。這也很可能只是一次例行的後台政策調整,或是一項旨在方便已居住海外的中國公民的措施。更大的問題在於監管風險:若此變更被視為針對中國大陸用戶,可能被認定為提供未經授權的金融服務,招致中國當局的制裁;若資金流向管道遭追查,也可能引發外匯管制違規問題。</p>
 
 <p class="ko">그럼에도 완전히 무시하기 어려운 이유는 최근 규제 환경의 변화다. 미국의 GENIUS법 스테이블코인 프레임워크 정비, 유럽 MiCA의 본격 시행, 홍콩의 가상자산서비스제공자(VASP) 라이선스 체계 성숙 등으로 글로벌 거래소들이 이전보다 적극적으로 미개척 시장을 시험하는 분위기가 감지된다는 해석도 있다. 다만 이런 '중국발 훈풍' 서사는 과거에도 반복적으로 등장했다가 후속 조치 없이 흐지부지된 전례가 많다는 점에서, COIN 주가의 즉각적인 반응은 실제 사업 확장보다 시장의 희망 섞인 기대를 더 크게 반영했을 가능성이 있다.</p>
 <p class="en">Still, it's hard to dismiss entirely given how the regulatory landscape has shifted lately. Some read this as evidence that global exchanges are now more willing to test underserved markets, pointing to the GENIUS Act's stablecoin framework taking shape in the U.S., MiCA's full enforcement in Europe, and the maturing of Hong Kong's virtual asset service provider (VASP) licensing regime. But this kind of "China thaw" narrative has surfaced repeatedly in the past only to fizzle without follow-through, which raises the possibility that COIN's immediate stock reaction reflects the market's hopeful expectations more than an actual business expansion.</p>
@@ -458,6 +703,11 @@
 <p class="pt">Ainda assim, é difícil descartar totalmente dado como o cenário regulatório mudou recentemente. Alguns interpretam isso como evidência de que as exchanges globais estão agora mais dispostas a testar mercados carentes, apontando para o arcabouço de stablecoins da Lei GENIUS tomando forma nos EUA, a plena aplicação da MiCA na Europa e o amadurecimento do regime de licenciamento de provedores de serviços de ativos virtuais (VASP) de Hong Kong. Mas esse tipo de narrativa de "degelo chinês" já surgiu repetidamente no passado apenas para se dissipar sem continuidade, o que levanta a possibilidade de que a reação imediata das ações da COIN reflita mais as expectativas esperançosas do mercado do que uma expansão real de negócios.</p>
 <p class="tr">Yine de son zamanlarda düzenleyici ortamın nasıl değiştiği düşünüldüğünde bunu tamamen göz ardı etmek zor. Bazıları bunu, ABD'de GENIUS Yasası'nın stabil coin çerçevesinin şekillenmesi, Avrupa'da MiCA'nın tam olarak yürürlüğe girmesi ve Hong Kong'un sanal varlık hizmet sağlayıcısı (VASP) lisans rejiminin olgunlaşmasına işaret ederek, küresel borsaların artık yetersiz hizmet alan pazarları test etmeye daha istekli olduğunun kanıtı olarak okuyor. Ancak bu tür bir "Çin'de yumuşama" anlatısı geçmişte de defalarca ortaya çıkmış ve takip eden bir adım olmadan sönüp gitmişti; bu da COIN hissesindeki anlık tepkinin gerçek bir iş genişlemesinden çok piyasanın umutlu beklentilerini yansıtmış olabileceğini düşündürüyor.</p>
 <p class="vi">Tuy nhiên, khó có thể bỏ qua hoàn toàn khi xét đến việc bối cảnh quản lý gần đây đã thay đổi ra sao. Một số người coi đây là bằng chứng cho thấy các sàn giao dịch toàn cầu giờ đây sẵn sàng hơn trong việc thử nghiệm các thị trường chưa được phục vụ đầy đủ, viện dẫn khung stablecoin theo Đạo luật GENIUS đang hình thành tại Mỹ, việc thực thi toàn diện MiCA tại châu Âu, và chế độ cấp phép nhà cung cấp dịch vụ tài sản ảo (VASP) của Hồng Kông đang hoàn thiện. Nhưng kiểu câu chuyện "tan băng với Trung Quốc" này đã nhiều lần xuất hiện trong quá khứ rồi lại lắng xuống mà không có hành động tiếp theo, điều này gợi ý rằng phản ứng tức thời của cổ phiếu COIN có thể phản ánh kỳ vọng đầy hy vọng của thị trường nhiều hơn là một sự mở rộng kinh doanh thực sự.</p>
+<p class="id">Meski begitu, hal ini sulit diabaikan sepenuhnya mengingat bagaimana lanskap regulasi telah bergeser akhir-akhir ini. Sebagian pihak menafsirkan ini sebagai bukti bahwa bursa global kini lebih bersedia menguji pasar yang belum terlayani dengan baik, merujuk pada kerangka stablecoin UU GENIUS yang mulai terbentuk di AS, penerapan penuh MiCA di Eropa, serta pematangan rezim perizinan penyedia jasa aset virtual (VASP) di Hong Kong. Namun narasi "pencairan hubungan dengan Tiongkok" semacam ini telah berulang kali muncul di masa lalu hanya untuk meredup tanpa tindak lanjut, yang memunculkan kemungkinan bahwa reaksi saham COIN yang langsung ini lebih mencerminkan ekspektasi optimistis pasar ketimbang ekspansi bisnis yang sesungguhnya.</p>
+<p class="pl">Mimo to trudno całkowicie to zignorować, biorąc pod uwagę, jak ostatnio zmienił się krajobraz regulacyjny. Niektórzy odczytują to jako dowód, że globalne giełdy są teraz bardziej skłonne testować rynki słabo obsługiwane, wskazując na kształtującą się w USA ramę regulacyjną dla stablecoinów w ramach ustawy GENIUS, pełne wdrożenie MiCA w Europie oraz dojrzewający system licencjonowania dostawców usług w zakresie aktywów wirtualnych (VASP) w Hongkongu. Jednak tego rodzaju narracja o "odwilży w Chinach" pojawiała się już wielokrotnie w przeszłości, by rozpłynąć się bez dalszych działań, co rodzi możliwość, że natychmiastowa reakcja akcji COIN odzwierciedla raczej pełne nadziei oczekiwania rynku niż faktyczną ekspansję biznesową.</p>
+<p class="it">Ciò nonostante, è difficile liquidarlo del tutto, considerando come sia cambiato ultimamente il quadro normativo. Alcuni lo interpretano come prova del fatto che gli exchange globali sono ora più disposti a testare mercati poco serviti, citando il quadro normativo sulle stablecoin del GENIUS Act che sta prendendo forma negli Stati Uniti, la piena applicazione della MiCA in Europa e la maturazione del regime di licenze per i fornitori di servizi su asset virtuali (VASP) di Hong Kong. Ma questo tipo di narrativa sul "disgelo cinese" è già riemersa più volte in passato per poi svanire senza seguito, il che solleva la possibilità che la reazione immediata del titolo COIN rifletta più le speranzose aspettative del mercato che un'effettiva espansione del business.</p>
+<p class="ru">Тем не менее полностью игнорировать это сложно, учитывая, как в последнее время изменился регуляторный ландшафт. Некоторые расценивают это как свидетельство того, что глобальные биржи теперь более охотно тестируют недостаточно обслуживаемые рынки, указывая на формирующуюся в США нормативную базу для стейблкоинов согласно закону GENIUS, полноценное вступление в силу MiCA в Европе и созревание режима лицензирования поставщиков услуг виртуальных активов (VASP) в Гонконге. Но подобный нарратив о "потеплении в отношении Китая" уже неоднократно возникал в прошлом лишь для того, чтобы сойти на нет без дальнейших действий, что порождает возможность того, что немедленная реакция акций COIN отражает скорее полные надежд ожидания рынка, чем реальное расширение бизнеса.</p>
+<p class="zh">儘管如此,考量到近期監管格局的變化,這一點也難以完全被忽視。有些人將此解讀為全球交易所如今更願意測試服務不足市場的證據,並提及美國《GENIUS法案》穩定幣框架正逐漸成形、歐洲MiCA全面實施,以及香港虛擬資產服務提供者(VASP)發牌制度日趨成熟。但這種「中國解凍」的敘事過去已多次出現,最終都不了了之,這也讓人懷疑COIN股價的即時反應,與其說反映實際的業務擴張,不如說更多反映了市場一廂情願的期待。</p>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> 코인베이스가 7월 14일 중국 본토 이용자 대상 KYC 요건을 여권+홍콩주소에서 신분증+본토주소로 완화했다. COIN 주가는 2% 이상 올랐지만 회사는 공식 확장 전략을 밝히지 않았다. (1) 실제로 검증된 본토 계정에서 입출금·거래가 작동하는지, (2) 코인베이스가 추후 공식 입장이나 전략을 발표하는지, (3) 중국 규제당국(PBOC·시장감독관리총국 등)이 이에 대응하는지를 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> On July 14, Coinbase eased KYC requirements for mainland China users, replacing passport-plus-Hong-Kong-address with a national ID and mainland address. COIN shares rose more than 2%, but the company has not disclosed a formal expansion strategy. Watch (1) whether verified mainland accounts actually gain working deposit and trading access, (2) whether Coinbase later issues an official statement or strategy, and (3) whether Chinese regulators, such as the PBOC or SAMR, respond.</div>
@@ -468,6 +718,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> Em 14 de julho, a Coinbase flexibilizou os requisitos de KYC para usuários da China continental, substituindo passaporte mais endereço em Hong Kong por identidade nacional e endereço continental. As ações da COIN subiram mais de 2%, mas a empresa não divulgou uma estratégia formal de expansão. Observe (1) se contas continentais verificadas realmente obtêm acesso funcional a depósitos e negociação, (2) se a Coinbase divulga posteriormente uma declaração ou estratégia oficial, e (3) se reguladores chineses, como PBOC ou SAMR, respondem.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> Coinbase, 14 Temmuz'da anakara Çin kullanıcıları için KYC şartlarını gevşeterek pasaport artı Hong Kong adresini kimlik kartı ve anakara adresiyle değiştirdi. COIN hisseleri yüzde 2'nin üzerinde yükseldi, ancak şirket resmi bir genişleme stratejisi açıklamadı. (1) Doğrulanmış anakara hesaplarının gerçekten çalışan para yatırma ve işlem erişimi kazanıp kazanmadığını, (2) Coinbase'in daha sonra resmi bir açıklama veya strateji yayımlayıp yayımlamayacağını ve (3) PBOC veya SAMR gibi Çinli düzenleyicilerin tepki verip vermeyeceğini izleyin.</div>
 <div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> Ngày 14/7, Coinbase đã nới lỏng yêu cầu KYC cho người dùng Trung Quốc đại lục, thay hộ chiếu cộng địa chỉ Hồng Kông bằng chứng minh thư quốc gia và địa chỉ đại lục. Cổ phiếu COIN tăng hơn 2%, nhưng công ty chưa công bố chiến lược mở rộng chính thức. Hãy theo dõi (1) liệu các tài khoản đại lục đã xác minh có thực sự có được quyền truy cập nạp tiền và giao dịch hoạt động hay không, (2) liệu Coinbase sau đó có đưa ra tuyên bố hoặc chiến lược chính thức hay không, và (3) liệu các cơ quan quản lý Trung Quốc như PBOC hoặc SAMR có phản ứng hay không.</div>
+<div class="box id">💡 <strong>Yang perlu diperhatikan sekarang:</strong> Pada 14 Juli, Coinbase melonggarkan persyaratan KYC bagi pengguna Tiongkok daratan, mengganti paspor-plus-alamat-Hong-Kong dengan KTP nasional dan alamat daratan. Saham COIN naik lebih dari 2%, tetapi perusahaan belum mengungkapkan strategi ekspansi resmi. Perhatikan (1) apakah akun daratan yang terverifikasi benar-benar memperoleh akses deposit dan perdagangan yang berfungsi, (2) apakah Coinbase kemudian mengeluarkan pernyataan atau strategi resmi, dan (3) apakah regulator Tiongkok, seperti PBOC atau SAMR, memberikan tanggapan.</div>
+<div class="box pl">💡 <strong>Na co teraz warto zwracać uwagę:</strong> 14 lipca Coinbase złagodził wymogi KYC dla użytkowników z Chin kontynentalnych, zastępując paszport plus adres w Hongkongu dowodem osobistym i adresem z kontynentu. Akcje COIN wzrosły o ponad 2%, ale firma nie ujawniła formalnej strategii ekspansji. Obserwuj: (1) czy zweryfikowane konta z kontynentu faktycznie uzyskują działający dostęp do wpłat i handlu, (2) czy Coinbase wyda później oficjalne oświadczenie lub strategię, oraz (3) czy chińscy regulatorzy, tacy jak PBOC lub SAMR, zareagują.</div>
+<div class="box it">💡 <strong>Cosa osservare ora:</strong> Il 14 luglio, Coinbase ha allentato i requisiti KYC per gli utenti della Cina continentale, sostituendo passaporto più indirizzo di Hong Kong con una carta d'identità nazionale e un indirizzo continentale. Il titolo COIN è salito di oltre il 2%, ma l'azienda non ha reso nota una strategia formale di espansione. Da osservare: (1) se i conti continentali verificati ottengano effettivamente accesso funzionante a depositi e trading, (2) se Coinbase pubblichi successivamente una dichiarazione o strategia ufficiale, e (3) se le autorità di regolamentazione cinesi, come la PBOC o la SAMR, reagiscano.</div>
+<div class="box ru">💡 <strong>За чем следить сейчас:</strong> 14 июля Coinbase смягчила требования KYC для пользователей материкового Китая, заменив паспорт плюс адрес в Гонконге на национальное удостоверение личности и адрес на материке. Акции COIN выросли более чем на 2%, но компания не раскрыла официальную стратегию расширения. Следите за тем: (1) получат ли верифицированные материковые счета реально работающий доступ к пополнению и торговле, (2) выпустит ли Coinbase позднее официальное заявление или стратегию, и (3) отреагируют ли китайские регуляторы, такие как PBOC или SAMR.</div>
+<div class="box zh">💡 <strong>現在該關注的重點:</strong>7月14日,Coinbase放寬了中國大陸用戶的KYC要求,以身分證及大陸地址取代護照加香港地址。COIN股價上漲逾2%,但公司尚未公開正式的擴張策略。請關注:(1)通過驗證的大陸帳戶是否真的能取得可用的存款與交易權限;(2)Coinbase日後是否會發布正式聲明或策略;(3)中國監管機構(如中國人民銀行或國家市場監督管理總局/SAMR)是否會做出回應。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 크립토닷뉴스(crypto.news), 코인게이프(CoinGape), 크립토타임스(CryptoTimes), 블루밍빗(Bloomingbit), 크립토뉴스넷(cryptonews.net), 크립.co(Cryip).</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
@@ -478,4 +733,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: crypto.news, CoinGape, CryptoTimes, Bloomingbit, cryptonews.net, Cryip.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">來源：crypto.news、CoinGape、CryptoTimes、Bloomingbit、cryptonews.net、Cryip。</p>
 <?php require __DIR__.'/_footer.php'; ?>
