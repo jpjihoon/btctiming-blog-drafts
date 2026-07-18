@@ -95,6 +95,11 @@
 <h2 class="pt">A trilha da carta de banco fiduciário — na mesma onda regulatória que os rivais</h2>
 <h2 class="tr">Tröst Bankası Ruhsatı Yolu — Rakiplerle Aynı Düzenleyici Dalgada</h2>
 <h2 class="vi">Con Đường Giấy Phép Ngân Hàng Ủy Thác — Cùng Làn Sóng Quản Lý Với Các Đối Thủ</h2>
+<h2 class="id">Jalur Izin Bank Trust — Menunggangi Gelombang Regulasi yang Sama dengan Para Pesaing</h2>
+<h2 class="pl">Ścieżka Licencji Bankowo-Powierniczej — Na Tej Samej Fali Regulacyjnej co Konkurenci</h2>
+<h2 class="it">Il Percorso della Licenza Fiduciaria — Cavalcando la Stessa Onda Normativa dei Rivali</h2>
+<h2 class="ru">Путь Трастовой Банковской Лицензии — На Той Же Регуляторной Волне, Что и Конкуренты</h2>
+<h2 class="zh">信託銀行執照這條路 — 與競爭對手站上同一波監管浪潮</h2>
 
 <p class="ko">모건스탠리는 지난 2월 18일 미국 통화감독청(OCC)에 '모건스탠리 디지털트러스트(Morgan Stanley Digital Trust, National Association·MSDTNA)' 설립을 신청했다. 신청서에 명시된 사업 목적은 디지털자산 커스터디, 고객 투자활동을 지원하는 매수·매도·스와프·이전, 그리고 신탁 자격으로 수행하는 고객 스테이킹 대행이다. 대표이사(CEO) 후보로는 존 라이언(John Ryan), 사장 후보로는 이번 이트레이드 발표에서도 코멘트를 낸 채드 터너(Chad Turner), 최고운영책임자(COO) 후보로는 아만다 칸(Amanda Kan)이 이름을 올렸다. OCC는 4개월 만인 6월 18일 조건부 승인을 내줬으며, 최종 개점까지는 자기자본 요건(운영 첫 3년간 최소 5000만 달러의 1종 자본, 이 중 절반 이상은 유동자산) 등 사전 조건을 충족해야 한다.</p>
 <p class="ko">이 신탁 인가는 모건스탠리 혼자만의 흐름이 아니다. 우리 사이트가 앞서 다룬 <a href="/blog/circle-national-trust-occ-approval">서클(Circle)의 OCC 국법 신탁은행 인가</a>를 비롯해 리플·팍소스 등도 같은 방식의 국법 신탁 인가를 확보하며 커스터디 사업을 제도권으로 편입시켜 왔다. 다만 서클이나 팍소스가 스테이블코인 발행사로서 준비금 관리를 위해 신탁 인가를 취득한 것과 달리, 모건스탠리는 이미 860만 명의 기존 증권 고객을 보유한 종합 브로커리지가 자사 크립토 거래 스택 전체(거래·커스터디·향후 스테이킹)를 수직계열화하려는 시도라는 점에서 성격이 다르다. 대형 전통 금융사가 신탁 인가라는 같은 수단을 통해 크립토 인프라 시장에 진입하고 있다는 점은, 이 시장의 경쟁 축이 크립토 네이티브 기업 간 경쟁에서 전통 금융사 간 경쟁으로 옮겨가고 있다는 신호로 읽을 수 있다.</p>
