@@ -129,6 +129,11 @@
 <h2 class="pt">Os Quatro Dias da CoinDesk, e a Desvalorização Reativa como Arma</h2>
 <h2 class="tr">CoinDesk'in Dört Günü ve Silah Haline Getirilmiş Reaktif Değersizleştirme</h2>
 <h2 class="vi">Bốn Ngày Của CoinDesk, Và Sự Mất Giá Trị Phản Ứng Bị Vũ Khí Hóa</h2>
+<h2 class="id">Empat Hari CoinDesk, dan Devaluasi Reaktif sebagai Senjata</h2>
+<h2 class="pl">Cztery Dni CoinDesk i Dewaluacja Reaktywna jako Broń</h2>
+<h2 class="it">I Quattro Giorni di CoinDesk, e la Svalutazione Reattiva come Arma</h2>
+<h2 class="ru">Четыре Дня CoinDesk и Реактивная Девальвация как Оружие</h2>
+<h2 class="zh">CoinDesk的四天,以及被武器化的反應性貶值</h2>
 
 <p class="ko">FTX 사례로 돌아가 보면 이 편향이 얼마나 정교하게, 심지어 의도적으로 동원될 수 있는지가 드러난다. 11월6일 CZ가 FTT 매도를 선언하고 시장이 흔들리기 시작하자, 샘 뱅크먼프리드(SBF) 측은 이 경고를 정면으로 반박하는 대신 그 발신자를 문제 삼는 쪽을 택했다. 그의 트윗은 "경쟁사가 거짓 소문을 퍼뜨리려 한다"는 취지로 CZ의 발언을 재규정했다. 11월7일 SBF는 "FTX는 괜찮다. 자산은 괜찮다. FTX는 모든 고객 자산을 커버할 만큼 충분히 갖고 있다"고 공개적으로 밝혔다. 그런데 이후 공개된 내부 기록에 따르면, 바로 그 무렵 SBF는 시그널 메시지로 일주일 안에 39억 달러를 끌어모을 수 있어도 여전히 81억 달러의 고객 자산 부족이 남는다고 스스로 계산하고 있었다.</p>
 <p class="en">Returning to the FTX case reveals how precisely — even deliberately — this bias can be deployed. Once CZ announced the FTT sale on November 6 and the market began to shake, Sam Bankman-Fried's side chose to attack the messenger rather than rebut the warning head-on. His tweet reframed CZ's move as a "competitor trying to spread false rumors." On November 7, SBF publicly stated: "FTX is fine. Assets are fine. FTX has enough to cover all client holdings." But according to internal records that surfaced later, around that exact time SBF was privately calculating, via Signal, that FTX could scrounge up $3.9 billion within a week and would still be left with an $8.1 billion shortfall in deliverable customer assets.</p>
