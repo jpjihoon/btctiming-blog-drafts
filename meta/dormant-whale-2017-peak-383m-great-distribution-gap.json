@@ -12,6 +12,11 @@
   "tag_pt": "Dados On-Chain",
   "tag_tr": "Zincir Üstü Veri",
   "tag_vi": "Dữ Liệu On-Chain",
+  "tag_id": "Data On-Chain",
+  "tag_pl": "Dane On-Chain",
+  "tag_it": "Dati On-Chain",
+  "tag_ru": "Ончейн-Данные",
+  "tag_zh": "鏈上數據",
   "title_ko": "8.5년 만에 깨어난 3.83억 달러 고래 — '거대한 분산 종료' 하루 만에 나온 반례?",
   "title_en": "$383M Whale Wakes After 8.5 Years — A Day After 'Great Distribution' Was Declared Over",
   "title_ja": "8.5年ぶりに目覚めた3.83億ドルの鯨 — 「大分散終了」宣言から1日後の反例?",
@@ -76,5 +81,10 @@
   "read_fr": "7",
   "read_pt": "7",
   "read_tr": "7",
-  "read_vi": "7"
+  "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7"
 }
