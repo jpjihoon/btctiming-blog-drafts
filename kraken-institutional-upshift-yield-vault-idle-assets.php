@@ -384,6 +384,161 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Sơ đồ phản ánh nội dung đưa tin của The Block và FinanceFeeds, có thể khác với điều khoản hợp đồng thực tế.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Struktur Vault Kraken x Upshift &amp; Evolusi Akses DeFi Institusional</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="150" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Alur dana: Akun kustodi Kraken → Vault khusus Upshift → Smart contract</text>
+    <rect x="35" y="85" width="185" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="127" y="108" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">① Kustodi Berkualifikasi Kraken</text>
+    <text x="127" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">BTC / ETH / stablecoin</text>
+    <text x="228" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="238" y="85" width="185" height="60" rx="8" fill="#2a1e3a" stroke="#c084fc" stroke-width="1.2"/>
+    <text x="330" y="108" fill="#d8b4fe" font-size="13" font-weight="700" text-anchor="middle">② Vault Khusus Upshift</text>
+    <text x="330" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Strategi/risiko sesuai klien</text>
+    <text x="431" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="441" y="85" width="200" height="60" rx="8" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.2"/>
+    <text x="541" y="108" fill="#86efac" font-size="13" font-weight="700" text-anchor="middle">③ Smart Contract Terpilih</text>
+    <text x="541" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Token tanda terima diterbitkan</text>
+    <text x="40" y="172" fill="#fbbf24" font-size="13" font-weight="700">Token tanda terima kembali ke akun terpisah langkah ① — kustodi &amp; pelaporan tetap di tangan Kraken</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="225" fill="#e4e4e7" font-size="14" font-weight="700">Evolusi akses DeFi institusional (2020 → 2026)</text>
+    <rect x="30" y="250" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="276" fill="#e4e4e7" font-size="13">2020-2022  Setoran langsung ke vault gabungan — bercampur dengan dana anonim, hambatan kepatuhan</text>
+    <rect x="30" y="300" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="326" fill="#e4e4e7" font-size="13">2023-2025  Intermediasi akses DeFi terkurasi gaya Galaxy/Anchorage</text>
+    <rect x="30" y="350" width="620" height="42" rx="6" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1"/>
+    <text x="45" y="376" fill="#93c5fd" font-size="13" font-weight="700">2026  Kraken x Upshift — vault khusus klien terhubung ke akun kustodi milik bursa sendiri</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Diagram mencerminkan pemberitaan The Block dan FinanceFeeds dan dapat berbeda dari ketentuan kontrak sebenarnya.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Struktura vaulta Kraken x Upshift i ewolucja instytucjonalnego dostępu do DeFi</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="150" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Przepływ środków: rachunek powierniczy Kraken → dedykowany skarbiec Upshift → smart kontrakt</text>
+    <rect x="35" y="85" width="185" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="127" y="108" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">① Kwalifikowana opieka powiernicza Kraken</text>
+    <text x="127" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">BTC / ETH / stablecoiny</text>
+    <text x="228" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="238" y="85" width="185" height="60" rx="8" fill="#2a1e3a" stroke="#c084fc" stroke-width="1.2"/>
+    <text x="330" y="108" fill="#d8b4fe" font-size="13" font-weight="700" text-anchor="middle">② Dedykowany skarbiec Upshift</text>
+    <text x="330" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Strategia/ryzyko dopasowane do klienta</text>
+    <text x="431" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="441" y="85" width="200" height="60" rx="8" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.2"/>
+    <text x="541" y="108" fill="#86efac" font-size="13" font-weight="700" text-anchor="middle">③ Wybrane smart kontrakty</text>
+    <text x="541" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Token potwierdzający wyemitowany</text>
+    <text x="40" y="172" fill="#fbbf24" font-size="13" font-weight="700">Token potwierdzający wraca na wydzielone konto z kroku ① — opieka powiernicza i raportowanie pozostają w Kraken</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="225" fill="#e4e4e7" font-size="14" font-weight="700">Ewolucja instytucjonalnego dostępu do DeFi (2020 → 2026)</text>
+    <rect x="30" y="250" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="276" fill="#e4e4e7" font-size="13">2020-2022  Bezpośrednie wpłaty do skarbców wspólnych — zmieszane ze środkami anonimowymi, bariera compliance</text>
+    <rect x="30" y="300" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="326" fill="#e4e4e7" font-size="13">2023-2025  Pośrednictwo w kuratorowanym dostępie do DeFi w stylu Galaxy/Anchorage</text>
+    <rect x="30" y="350" width="620" height="42" rx="6" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1"/>
+    <text x="45" y="376" fill="#93c5fd" font-size="13" font-weight="700">2026  Kraken x Upshift — dedykowane dla klienta skarbce powiązane z własnym rachunkiem powierniczym giełdy</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Diagram odzwierciedla doniesienia The Block i FinanceFeeds i może różnić się od rzeczywistych warunków umowy.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Struttura del vault Kraken x Upshift ed evoluzione dell'accesso DeFi istituzionale</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="150" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Flusso dei fondi: conto di custodia Kraken → vault dedicato Upshift → smart contract</text>
+    <rect x="35" y="85" width="185" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="127" y="108" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">① Custodia qualificata Kraken</text>
+    <text x="127" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">BTC / ETH / stablecoin</text>
+    <text x="228" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="238" y="85" width="185" height="60" rx="8" fill="#2a1e3a" stroke="#c084fc" stroke-width="1.2"/>
+    <text x="330" y="108" fill="#d8b4fe" font-size="13" font-weight="700" text-anchor="middle">② Vault dedicato Upshift</text>
+    <text x="330" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Strategia/rischio su misura per il cliente</text>
+    <text x="431" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="441" y="85" width="200" height="60" rx="8" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.2"/>
+    <text x="541" y="108" fill="#86efac" font-size="13" font-weight="700" text-anchor="middle">③ Smart contract selezionati</text>
+    <text x="541" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Token di ricevuta emesso</text>
+    <text x="40" y="172" fill="#fbbf24" font-size="13" font-weight="700">Il token di ricevuta torna al conto segregato del passaggio ① — custodia &amp; reporting restano a Kraken</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="225" fill="#e4e4e7" font-size="14" font-weight="700">Evoluzione dell'accesso DeFi istituzionale (2020 → 2026)</text>
+    <rect x="30" y="250" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="276" fill="#e4e4e7" font-size="13">2020-2022  Depositi diretti in vault condivisi — mescolati a fondi anonimi, barriera di conformità</text>
+    <rect x="30" y="300" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="326" fill="#e4e4e7" font-size="13">2023-2025  Intermediazione DeFi curata in stile Galaxy/Anchorage</text>
+    <rect x="30" y="350" width="620" height="42" rx="6" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1"/>
+    <text x="45" y="376" fill="#93c5fd" font-size="13" font-weight="700">2026  Kraken x Upshift — vault dedicati per cliente collegati al conto di custodia proprio dell'exchange</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Il diagramma riflette quanto riportato da The Block e FinanceFeeds e può differire dai termini contrattuali reali.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Структура хранилища Kraken x Upshift и эволюция институционального доступа к DeFi</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="150" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Движение средств: счёт хранения Kraken → выделенное хранилище Upshift → смарт-контракт</text>
+    <rect x="35" y="85" width="185" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="127" y="108" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">① Квалифицированное хранение Kraken</text>
+    <text x="127" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">BTC / ETH / стейблкоины</text>
+    <text x="228" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="238" y="85" width="185" height="60" rx="8" fill="#2a1e3a" stroke="#c084fc" stroke-width="1.2"/>
+    <text x="330" y="108" fill="#d8b4fe" font-size="13" font-weight="700" text-anchor="middle">② Выделенное хранилище Upshift</text>
+    <text x="330" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Стратегия/риск под клиента</text>
+    <text x="431" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="441" y="85" width="200" height="60" rx="8" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.2"/>
+    <text x="541" y="108" fill="#86efac" font-size="13" font-weight="700" text-anchor="middle">③ Отобранные смарт-контракты</text>
+    <text x="541" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">Выпуск токена-квитанции</text>
+    <text x="40" y="172" fill="#fbbf24" font-size="13" font-weight="700">Токен-квитанция возвращается на обособленный счёт из шага ① — хранение и отчётность остаются за Kraken</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="225" fill="#e4e4e7" font-size="14" font-weight="700">Эволюция институционального доступа к DeFi (2020 → 2026)</text>
+    <rect x="30" y="250" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="276" fill="#e4e4e7" font-size="13">2020-2022  Прямые депозиты в пуловые хранилища — смешение с анонимными средствами, барьер комплаенса</text>
+    <rect x="30" y="300" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="326" fill="#e4e4e7" font-size="13">2023-2025  Посредничество в курируемом доступе к DeFi в стиле Galaxy/Anchorage</text>
+    <rect x="30" y="350" width="620" height="42" rx="6" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1"/>
+    <text x="45" y="376" fill="#93c5fd" font-size="13" font-weight="700">2026  Kraken x Upshift — выделенные для клиента хранилища, привязанные к собственному счёту хранения биржи</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Диаграмма отражает материалы The Block и FinanceFeeds и может отличаться от фактических условий договора.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Kraken x Upshift金庫結構與機構DeFi接入的演進</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="150" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">資金流向:Kraken託管帳戶 → Upshift專屬金庫 → 智能合約</text>
+    <rect x="35" y="85" width="185" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="127" y="108" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="middle">①Kraken合格託管</text>
+    <text x="127" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">BTC / ETH / 穩定幣</text>
+    <text x="228" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="238" y="85" width="185" height="60" rx="8" fill="#2a1e3a" stroke="#c084fc" stroke-width="1.2"/>
+    <text x="330" y="108" fill="#d8b4fe" font-size="13" font-weight="700" text-anchor="middle">②Upshift專屬金庫</text>
+    <text x="330" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">客戶專屬策略/風險</text>
+    <text x="431" y="118" fill="#71717a" font-size="16" text-anchor="middle">→</text>
+    <rect x="441" y="85" width="200" height="60" rx="8" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.2"/>
+    <text x="541" y="108" fill="#86efac" font-size="13" font-weight="700" text-anchor="middle">③精選智能合約</text>
+    <text x="541" y="128" fill="#a1a1aa" font-size="12" text-anchor="middle">發行憑證代幣</text>
+    <text x="40" y="172" fill="#fbbf24" font-size="13" font-weight="700">憑證代幣返回步驟①的隔離帳戶——託管與報告仍由Kraken負責</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="225" fill="#e4e4e7" font-size="14" font-weight="700">機構DeFi接入的演進(2020 → 2026)</text>
+    <rect x="30" y="250" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="276" fill="#e4e4e7" font-size="13">2020-2022  直接存入共用金庫——與匿名資金混合,合規障礙</text>
+    <rect x="30" y="300" width="620" height="42" rx="6" fill="#27272a"/>
+    <text x="45" y="326" fill="#e4e4e7" font-size="13">2023-2025  Galaxy/Anchorage式精選DeFi接入中介</text>
+    <rect x="30" y="350" width="620" height="42" rx="6" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1"/>
+    <text x="45" y="376" fill="#93c5fd" font-size="13" font-weight="700">2026  Kraken x Upshift——客戶專屬金庫直接連結交易所自身託管帳戶</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">圖表依據The Block與FinanceFeeds的報導繪製,可能與實際合約條款有所出入。</p>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 업시프트 볼트에 실제로 어떤 프로토콜·전략이 편입되는지, 그리고 그 개별 프로토콜의 감사 이력이 공개되는지, (2) 크라켄이 제시하는 수익률과 리스크 등급이 코인베이스 등 경쟁사의 유사 상품과 어떻게 비교되는지, (3) 이 구조가 SEC·CFTC 등 미국 금융당국의 커스터디 규정 해석과 충돌 없이 확장될 수 있는지, (4) 유사한 화이트라벨 볼트 모델을 도입하는 다른 대형 거래소가 뒤따르는지 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) Which protocols and strategies actual Upshift vaults deploy into, and whether the audit history of those underlying protocols gets disclosed; (2) how the yields and risk ratings Kraken offers compare with similar products from rivals like Coinbase; (3) whether this structure can scale without running into U.S. regulators' (SEC, CFTC) interpretation of custody rules; (4) whether other major exchanges follow with similar white-labeled vault models.</div>
