@@ -417,5 +417,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CoinDesk、Benzinga、CryptoSlate、CryptoPotato、KuCoin、Coinpaper、TronWeekly、Crypto Briefing、Chainwire</p>
 
 <?php require __DIR__.'/_footer.php'; ?>

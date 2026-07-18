@@ -68,6 +68,11 @@
   "desc_pt": "A exchange global OKX abriu a negociação 24/7 em 16 de julho às 3h00 UTC em mais de 40 ações e ETFs tokenizados dos EUA - incluindo Apple, Nvidia e Tesla - cada um com um ticker prefixado com 'X'. A Ondo Finance respalda os tokens mantendo as ações subjacentes na proporção de 1:1 com custodiantes corretores-distribuidores dos EUA, e o lançamento estende uma joint venture que a OKX firmou em junho com a Intercontinental Exchange, controladora da NYSE, que adquiriu participação na OKX com avaliação de US$ 25 bilhões em março. Este texto examina como a oferta da OKX, agora concorrendo com a Robinhood Chain e a xStocks da Kraken, ainda deixa os detentores de tokens sem propriedade real das ações - e o risco de custódia que isso acarreta.",
   "desc_tr": "Küresel borsa OKX, 16 Temmuz'da UTC saatiyle 03:00'te Apple, Nvidia ve Tesla dahil 40'tan fazla tokenize ABD hissesi ve ETF'de, her biri 'X' önekli bir hisse koduyla, 7/24 işlemleri başlattı. Ondo Finance, dayanak hisseleri ABD'li aracı kurum saklayıcılarında 1:1 oranında tutarak tokenları destekliyor ve bu lansman, OKX'in mart ayında 25 milyar dolarlık değerlemeyle OKX'e pay alan NYSE'nin ana şirketi Intercontinental Exchange ile haziranda kurduğu ortak girişimin devamı niteliğinde. Bu yazı, artık Robinhood Chain ve Kraken'in xStocks'uyla rekabet eden OKX'in sunumunun, token sahiplerini hâlâ gerçek hisse mülkiyetinden yoksun bırakmasını ve bunun getirdiği saklama riskini inceliyor.",
   "desc_vi": "Sàn giao dịch toàn cầu OKX đã mở giao dịch 24/7 vào ngày 16/7 lúc 3:00 sáng UTC đối với hơn 40 cổ phiếu và ETF Mỹ được token hóa — bao gồm Apple, Nvidia và Tesla — mỗi mã đều mang ký hiệu tiền tố 'X'. Ondo Finance bảo chứng cho các token bằng cách nắm giữ cổ phiếu cơ sở theo tỷ lệ 1:1 tại các đơn vị lưu ký môi giới-đại lý của Mỹ, và việc ra mắt này nối tiếp liên doanh mà OKX thiết lập vào tháng 6 với Intercontinental Exchange, công ty mẹ của NYSE, đơn vị đã mua cổ phần của OKX với mức định giá 25 tỷ USD vào tháng 3. Bài viết xem xét cách sản phẩm của OKX, hiện đang cạnh tranh với Robinhood Chain và xStocks của Kraken, vẫn khiến người nắm giữ token không có quyền sở hữu cổ phần thực sự — và rủi ro lưu ký đi kèm.",
+  "desc_id": "OKX buka trading 24/7 di 40+ saham AS tokenisasi bertiket 'X', didukung kustodi 1:1 Ondo Finance. Token tetap bukan kepemilikan saham asli.",
+  "desc_pl": "OKX uruchomił handel 24/7 ponad 40 tokenizowanymi akcjami USA z tickerem 'X', wspieranymi kustodią Ondo 1:1. To nie jest realna własność akcji.",
+  "desc_it": "OKX ha avviato il trading 24/7 su oltre 40 azioni USA tokenizzate con ticker 'X', garantite da Ondo Finance 1:1. Non è vera proprietà azionaria.",
+  "desc_ru": "OKX запустил круглосуточную торговлю более чем 40 токенизированными акциями США с тикером 'X', обеспеченными Ondo Finance. Не реальное владение акциями.",
+  "desc_zh": "全球交易所OKX於7月16日開放逾40檔帶「X」代號的代幣化美股與ETF全天候交易，由Ondo Finance提供1:1實股託管支撐，並延續與紐約證交所母公司ICE的合資夥伴關係，但代幣仍不等同於實際股票的所有權，市場仍存在對手方與監管風險。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -76,5 +81,10 @@
   "read_fr": "7",
   "read_pt": "7",
   "read_tr": "7",
-  "read_vi": "7"
+  "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7"
 }
