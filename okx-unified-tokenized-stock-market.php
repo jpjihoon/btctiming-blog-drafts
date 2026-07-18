@@ -228,6 +228,11 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: OKX, Ondo Finance, TechTimes, Standard Chartered, Coinpedia, Yahoo Finance, WEEX, Fortune, CoinMarketCap</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：OKX、Ondo Finance、TechTimes、Standard Chartered、Coinpedia、Yahoo Finance、WEEX、Fortune、CoinMarketCap</p>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <text x="60" y="300" fill="#f4f4f5" font-size="150" font-weight="bold">40+</text>
