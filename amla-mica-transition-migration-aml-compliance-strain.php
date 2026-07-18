@@ -9,6 +9,11 @@
 <p class="pt">Bruna Szego, presidente da Autoridade de Combate ao Branqueamento de Capitais da União Europeia (AMLA), alertou em 15 de julho, em uma sessão informativa à Comissão de Assuntos Económicos e Monetários (ECON) do Parlamento Europeu, que a onda de migração de clientes desencadeada pelo fim, em 1º de julho, do período transitório da MiCA (Regulamento dos Mercados de Criptoativos) pode sobrecarregar os controles de combate à lavagem de dinheiro (AML) nos prestadores de serviços de criptoativos (CASPs) em todo o bloco. Segundo a Cointelegraph e a Coin-Turk, Szego disse que "os clientes vão correr para sacar, e isso colocará pressão adicional sobre esses prestadores."</p>
 <p class="tr">Avrupa Birliği Kara Para Aklamayla Mücadele Otoritesi'nin (AMLA) başkanı Bruna Szego, 15 Temmuz'da Avrupa Parlamentosu Ekonomik ve Parasal İşler Komitesi'nde (ECON) yaptığı brifingde, MiCA'nın (Kripto Varlık Piyasaları Tüzüğü) 1 Temmuz'da sona eren geçiş döneminin tetiklediği büyük çaplı müşteri göçünün, bloktaki kripto varlık hizmet sağlayıcılarının (CASP) kara para aklamayla mücadele (AML) kontrollerini zorlayabileceği konusunda uyardı. Cointelegraph ve Coin-Turk'e göre Szego, "müşteriler çekim yapmak için acele edecek ve bu, söz konusu sağlayıcılar üzerinde ek baskı oluşturacak" dedi.</p>
 <p class="vi">Bà Bruna Szego, Chủ tịch Cơ quan Chống Rửa tiền của Liên minh châu Âu (AMLA), cảnh báo trong buổi họp báo ngày 15/7 trước Ủy ban Kinh tế và Tiền tệ (ECON) của Nghị viện châu Âu rằng làn sóng di chuyển khách hàng do việc giai đoạn chuyển tiếp của MiCA (Quy định về Thị trường Tài sản Tiền mã hóa) hết hạn vào ngày 1/7 gây ra có thể gây áp lực lên các biện pháp kiểm soát chống rửa tiền (AML) tại các nhà cung cấp dịch vụ tài sản tiền mã hóa (CASP) trên toàn khối. Theo Cointelegraph và Coin-Turk, bà Szego cho biết "khách hàng sẽ đổ xô đi rút tiền, và điều này sẽ tạo thêm áp lực lên các nhà cung cấp này."</p>
+<p class="id">Bruna Szego, ketua Otoritas Anti-Pencucian Uang Uni Eropa (AMLA), memperingatkan dalam sesi pengarahan tanggal 15 Juli kepada Komite Urusan Ekonomi dan Moneter (ECON) Parlemen Eropa bahwa gelombang migrasi nasabah yang dipicu oleh berakhirnya masa transisi MiCA (Markets in Crypto-Assets) pada 1 Juli dapat membebani kontrol anti-pencucian uang (AML) di penyedia layanan aset kripto (CASP) di seluruh kawasan. Menurut Cointelegraph dan Coin-Turk, Szego mengatakan "nasabah akan buru-buru menarik dana, dan ini akan menambah tekanan bagi para penyedia layanan tersebut."</p>
+<p class="pl">Bruna Szego, przewodnicząca Urzędu ds. Przeciwdziałania Praniu Pieniędzy Unii Europejskiej (AMLA), ostrzegła podczas briefingu 15 lipca przed Komisją Gospodarczą i Monetarną (ECON) Parlamentu Europejskiego, że fala migracji klientów wywołana wygaśnięciem 1 lipca okresu przejściowego MiCA (rozporządzenia w sprawie rynków kryptoaktywów) może nadwyrężyć kontrole przeciwdziałania praniu pieniędzy (AML) u dostawców usług w zakresie kryptoaktywów (CASP) w całej Unii. Według Cointelegraph i Coin-Turk, Szego powiedziała: „klienci rzucą się do wypłat, co dodatkowo obciąży tych dostawców”.</p>
+<p class="it">Bruna Szego, presidente dell'Autorità antiriciclaggio dell'Unione Europea (AMLA), ha avvertito il 15 luglio durante un'audizione davanti alla Commissione per i problemi economici e monetari (ECON) del Parlamento europeo che l'ondata di migrazione dei clienti innescata dalla scadenza, il 1° luglio, del periodo transitorio di MiCA (regolamento sui mercati delle cripto-attività) potrebbe mettere sotto pressione i controlli antiriciclaggio (AML) dei fornitori di servizi per le cripto-attività (CASP) in tutto il blocco. Secondo Cointelegraph e Coin-Turk, Szego ha dichiarato: "i clienti si precipiteranno a prelevare, e questo eserciterà una pressione aggiuntiva su questi fornitori."</p>
+<p class="ru">Бруна Сего, председатель Управления Европейского союза по борьбе с отмыванием денег (AMLA), предупредила 15 июля на брифинге в Комитете по экономическим и валютным вопросам (ECON) Европарламента, что волна миграции клиентов, вызванная истечением 1 июля переходного периода MiCA (Регламента о рынках криптоактивов), может создать нагрузку на системы противодействия отмыванию денег (AML) у поставщиков услуг с криптоактивами (CASP) по всему блоку. По данным Cointelegraph и Coin-Turk, Сего заявила: «клиенты бросятся выводить средства, что создаст дополнительное давление на этих поставщиков».</p>
+<p class="zh">歐盟反洗錢局(AMLA)主席布魯娜·塞戈於7月15日在歐洲議會經濟與貨幣事務委員會(ECON)的簡報會上警告稱,因MiCA(加密資產市場法規)過渡期於7月1日到期而引發的大規模用戶遷移,可能會使整個歐盟地區加密資產服務提供商(CASP)的反洗錢(AML)管控承受壓力。據Cointelegraph與Coin-Turk報導,塞戈表示:「客戶將急於提領資金,這將對這些服務提供商造成額外壓力。」</p>
 
 <h2 class="ko">무엇이 끝났나 — 18개월 유예기간과 280개 라이선스</h2>
 <h2 class="en">What Just Ended — An 18-Month Grace Period and 280 Licenses</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">O Que Acabou de Terminar — Um Período de Carência de 18 Meses e 280 Licenças</h2>
 <h2 class="tr">Az Önce Sona Eren Şey — 18 Aylık Geçiş Süresi ve 280 Lisans</h2>
 <h2 class="vi">Điều Vừa Kết Thúc — Giai Đoạn Ân Hạn 18 Tháng và 280 Giấy Phép</h2>
+<h2 class="id">Apa yang Baru Saja Berakhir — Masa Tenggang 18 Bulan dan 280 Lisensi</h2>
+<h2 class="pl">Co Się Właśnie Zakończyło — 18-Miesięczny Okres Przejściowy i 280 Licencji</h2>
+<h2 class="it">Cosa È Appena Finito — Un Periodo di Grazia di 18 Mesi e 280 Licenze</h2>
+<h2 class="ru">Что Только Что Закончилось — 18-Месячный Переходный Период и 280 Лицензий</h2>
+<h2 class="zh">剛剛結束的是什麼——18個月寬限期與280張牌照</h2>
 
 <p class="ko">미카는 2024년 12월 30일 본격 시행되면서 18개월의 경과조치 기간을 뒀고, 이 유예기간이 지난 7월 1일 만료됐다. 이날 이후 라이선스 없이 EU 역내 이용자에게 가상자산 서비스를 제공하는 행위는 위법이며, 위반 시 최대 1500만 유로 또는 연매출 12.5% 중 큰 금액의 과징금이 부과될 수 있다. 유럽증권시장청(ESMA) 등록부에 따르면 7월 15일 기준 280개 사업자가 미카 라이선스를 취득했지만, 이 중 실제 거래소 라이선스를 보유한 곳은 14곳에 불과하다. 쿠코인은 이미 2월 오스트리아 규제당국으로부터 영업정지 처분을 받았고, 제미니는 4월 EU 시장에서 철수했으며, 바이낸스는 그리스 라이선스 신청을 철회하는 등 EU 이탈 움직임을 보이고 있다.</p>
 <p class="ko">라이선스를 받지 못했거나 신청을 포기한 사업자의 고객들은 인가받은 신규 사업자나 개인 지갑으로 자산을 옮겨야 한다. 문제는 이 이동이 짧은 기간에 몰려서 발생한다는 점이다. AMLA는 이미 지난 6월 29일 사전 권고문을 통해, 철수하는 사업자와 신규 고객을 받는 사업자 양쪽 모두를 대상으로 한 AML 통제 유지 방안을 제시한 바 있다.</p>
@@ -38,6 +48,16 @@
 <p class="tr">Lisans alamayan ya da başvurudan vazgeçen şirketlerin müşterileri, varlıklarını yeni yetkilendirilmiş bir sağlayıcıya ya da kendi özsaklamalarına taşımak zorunda. Sorun, bu değişimin kısa bir zaman dilimine sıkışması. AMLA, 29 Haziran'da yayımladığı danışma notunda, hem faaliyetlerini sonlandıran şirketler hem de bunun sonucunda oluşan yeni müşteri dalgasını üstlenen şirketler için AML kontrol önlemlerini zaten ana hatlarıyla belirlemişti.</p>
 <p class="vi">MiCA chính thức có hiệu lực từ ngày 30/12/2024 và quy định giai đoạn chuyển tiếp 18 tháng, kết thúc vào ngày 1/7. Kể từ ngày đó, việc cung cấp dịch vụ tài sản tiền mã hóa cho người dùng tại EU mà không có giấy phép là bất hợp pháp, có thể bị phạt tới 15 triệu euro hoặc 12,5% doanh thu hàng năm, tùy mức nào cao hơn. Theo sổ đăng ký của Cơ quan Chứng khoán và Thị trường châu Âu (ESMA), tính đến ngày 15/7 có 280 công ty nắm giữ giấy phép MiCA, nhưng chỉ 14 trong số đó có giấy phép giao dịch sàn thực sự. KuCoin đã bị cơ quan quản lý Áo đình chỉ hoạt động từ tháng 2, Gemini rút khỏi thị trường EU vào tháng 4, còn Binance cũng có dấu hiệu rút khỏi khối, bao gồm việc rút đơn xin cấp phép tại Hy Lạp.</p>
 <p class="vi">Khách hàng của các công ty không xin được giấy phép — hoặc từ bỏ việc xin cấp phép — phải chuyển tài sản sang một nhà cung cấp mới được cấp phép hoặc tự lưu ký. Vấn đề là sự dịch chuyển này bị dồn vào một khoảng thời gian ngắn. AMLA đã ban hành lưu ý khuyến nghị từ ngày 29/6, nêu rõ các biện pháp kiểm soát AML cho cả các công ty đang rút lui lẫn các công ty đang tiếp nhận làn sóng khách hàng mới phát sinh từ đó.</p>
+<p class="id">MiCA resmi berlaku sejak 30 Desember 2024 dan menetapkan masa transisi 18 bulan yang berakhir pada 1 Juli. Sejak tanggal itu, menyediakan layanan aset kripto kepada pengguna berbasis di UE tanpa lisensi adalah ilegal, dengan ancaman denda hingga €15 juta atau 12,5% dari pendapatan tahunan, mana yang lebih besar. Menurut register Otoritas Sekuritas dan Pasar Eropa (ESMA), 280 perusahaan memegang lisensi MiCA per 15 Juli, tetapi hanya 14 di antaranya yang memiliki lisensi perdagangan bursa yang sesungguhnya. KuCoin sudah diskors oleh regulator Austria pada Februari, Gemini menarik diri dari pasar UE pada April, dan Binance menunjukkan tanda-tanda akan keluar dari kawasan ini, termasuk mencabut permohonan lisensinya di Yunani.</p>
+<p class="id">Nasabah dari perusahaan yang gagal memperoleh lisensi — atau menyerah dalam proses pengajuan — harus memindahkan aset mereka ke penyedia yang baru diotorisasi atau ke penyimpanan mandiri (self-custody). Masalahnya, pergeseran ini terkonsentrasi dalam jangka waktu yang singkat. AMLA sebelumnya telah menerbitkan nota penasihat pada 29 Juni yang menguraikan langkah-langkah kontrol AML baik bagi perusahaan yang menghentikan operasinya maupun bagi perusahaan yang menampung gelombang nasabah baru akibat perpindahan tersebut.</p>
+<p class="pl">MiCA formalnie weszło w życie 30 grudnia 2024 roku i wyznaczyło 18-miesięczny okres przejściowy, który wygasł 1 lipca. Od tej daty świadczenie usług w zakresie kryptoaktywów użytkownikom z UE bez licencji jest nielegalne i podlega karom w wysokości do 15 mln euro lub 12,5% rocznych przychodów, w zależności od tego, która kwota jest wyższa. Według rejestru Europejskiego Urzędu Nadzoru Giełd i Papierów Wartościowych (ESMA), na dzień 15 lipca licencję MiCA posiadało 280 firm, ale tylko 14 z nich dysponuje faktyczną licencją na prowadzenie giełdy. KuCoin został już zawieszony przez austriackiego regulatora w lutym, Gemini wycofało się z rynku UE w kwietniu, a Binance wykazuje oznaki wycofywania się z Unii, w tym wycofało swój wniosek o licencję w Grecji.</p>
+<p class="pl">Klienci firm, którym nie udało się uzyskać licencji — lub które zrezygnowały ze składania wniosku — muszą przenieść swoje aktywa do nowo autoryzowanego dostawcy lub do samodzielnej przechowalni (self-custody). Problem polega na tym, że ta zmiana jest skoncentrowana w krótkim okresie. AMLA opublikowała już 29 czerwca notę doradczą przedstawiającą środki kontroli AML zarówno dla firm kończących działalność, jak i dla firm przyjmujących wynikającą z tego falę nowych klientów.</p>
+<p class="it">MiCA è entrato formalmente in vigore il 30 dicembre 2024 e ha previsto un periodo transitorio di 18 mesi, scaduto il 1° luglio. Da quella data, fornire servizi per cripto-attività a utenti con sede nell'UE senza licenza è illegale, punibile con multe fino a 15 milioni di euro o al 12,5% del fatturato annuo, a seconda di quale importo sia maggiore. Secondo il registro dell'Autorità europea degli strumenti finanziari e dei mercati (ESMA), al 15 luglio 280 società detenevano una licenza MiCA, ma solo 14 di esse possiedono un'effettiva licenza di trading su exchange. KuCoin era già stata sospesa dal regolatore austriaco a febbraio, Gemini si è ritirata dal mercato UE ad aprile, e Binance ha mostrato segnali di uscita dal blocco, incluso il ritiro della sua domanda di licenza greca.</p>
+<p class="it">I clienti delle società che non sono riuscite a ottenere una licenza — o hanno rinunciato a farne richiesta — devono trasferire i propri asset a un fornitore di nuova autorizzazione o all'autocustodia. Il problema è che questo spostamento è concentrato in una finestra temporale breve. L'AMLA aveva già pubblicato il 29 giugno una nota informativa che delineava le misure di controllo AML sia per le società in fase di chiusura sia per quelle che assorbono la conseguente ondata di nuovi clienti.</p>
+<p class="ru">MiCA официально вступил в силу 30 декабря 2024 года и установил 18-месячный переходный период, который истёк 1 июля. С этой даты предоставление услуг с криптоактивами пользователям из ЕС без лицензии является незаконным и наказывается штрафом до 15 млн евро или 12,5% годовой выручки, в зависимости от того, что больше. Согласно реестру Европейского управления по ценным бумагам и рынкам (ESMA), по состоянию на 15 июля лицензии MiCA имели 280 компаний, но лишь 14 из них располагают реальной биржевой лицензией. KuCoin уже была приостановлена австрийским регулятором в феврале, Gemini вышла с рынка ЕС в апреле, а Binance демонстрирует признаки ухода из блока, в том числе отозвала заявку на лицензию в Греции.</p>
+<p class="ru">Клиенты компаний, которым не удалось получить лицензию — или которые отказались от подачи заявки, — должны перевести свои активы к вновь авторизованному поставщику услуг или в самостоятельное хранение (self-custody). Проблема в том, что этот сдвиг сконцентрирован в коротком временном окне. AMLA уже выпустила 29 июня консультативную записку с изложением мер AML-контроля как для компаний, сворачивающих деятельность, так и для компаний, принимающих возникающую в результате волну новых клиентов.</p>
+<p class="zh">MiCA於2024年12月30日正式生效,並設定了18個月的過渡期,已於7月1日到期。自該日起,未經許可向歐盟用戶提供加密資產服務即屬違法,最高可處以1500萬歐元或年營收12.5%(以較高者為準)的罰款。根據歐洲證券及市場管理局(ESMA)的登記資料,截至7月15日共有280家業者持有MiCA牌照,但其中僅14家擁有實際的交易所交易牌照。KuCoin已於2月遭奧地利監管機構勒令暫停營運,Gemini已於4月退出歐盟市場,Binance也顯現出退出歐盟的跡象,包括撤回其希臘牌照申請。</p>
+<p class="zh">未能取得牌照——或放棄申請——的業者,其客戶必須將資產轉移至新獲授權的服務商或自行保管(self-custody)。問題在於,這波轉移集中在極短的時間窗口內發生。AMLA已於6月29日發布諮詢說明,針對正在退場的業者與正在承接新客戶湧入潮的業者,分別列出了AML管控措施。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -273,6 +293,136 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MiCA Masa Transisi Berakhir — 280 Lisensi dan Kesenjangan Kepatuhan</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#3a2a0e" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#fbbf24" text-anchor="middle" font-size="22" font-weight="800">7/1</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Masa Transisi Berakhir</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">280</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Perusahaan Berlisensi MiCA</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">14</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Memegang Lisensi Bursa</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">€15M</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Denda Maksimum</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Kesenjangan Implementasi Kontrol AML (dalam %)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Penyedia tanpa Travel Rule penuh · 35%</text>
+    <rect x="20" y="230" width="210" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="272" fill="#e4e4e7" font-size="13">Alur penarikan tanpa verifikasi dompet · 60%</text>
+    <rect x="20" y="280" width="360" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Sumber: AMLWatcher, Cointelegraph, Regulation Tomorrow (panjang batang relatif)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Koniec Okresu Przejściowego MiCA — 280 Licencji i Luka w Zgodności</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#3a2a0e" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#fbbf24" text-anchor="middle" font-size="22" font-weight="800">7/1</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Koniec Okresu Przejściowego</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">280</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Firmy z Licencją MiCA</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">14</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Posiadają Licencję Giełdową</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">€15M</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Maksymalna Kara</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Luka we Wdrożeniu Kontroli AML (w %)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Dostawcy bez pełnej Travel Rule · 35%</text>
+    <rect x="20" y="230" width="210" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="272" fill="#e4e4e7" font-size="13">Przepływy wypłat bez weryfikacji portfela · 60%</text>
+    <rect x="20" y="280" width="360" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Źródła: AMLWatcher, Cointelegraph, Regulation Tomorrow (długość słupków względna)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Fine del Periodo Transitorio MiCA — 280 Licenze e un Divario di Conformità</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#3a2a0e" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#fbbf24" text-anchor="middle" font-size="22" font-weight="800">7/1</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Periodo Transitorio Terminato</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">280</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Società con Licenza MiCA</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">14</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Con Licenza di Exchange</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">€15M</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Multa Massima</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Divario di Attuazione dei Controlli AML (in %)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Fornitori senza Travel Rule completa · 35%</text>
+    <rect x="20" y="230" width="210" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="272" fill="#e4e4e7" font-size="13">Flussi di prelievo senza verifica del wallet · 60%</text>
+    <rect x="20" y="280" width="360" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Fonti: AMLWatcher, Cointelegraph, Regulation Tomorrow (lunghezza barre relativa)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Переходный Период MiCA Завершён — 280 Лицензий и Разрыв в Комплаенсе</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#3a2a0e" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#fbbf24" text-anchor="middle" font-size="22" font-weight="800">7/1</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Переходный Период Завершён</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">280</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Компаний с Лицензией MiCA</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">14</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">С Биржевой Лицензией</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">€15M</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Максимальный Штраф</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Разрыв во Внедрении AML-Контроля (в %)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Провайдеры без полного Travel Rule · 35%</text>
+    <rect x="20" y="230" width="210" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="272" fill="#e4e4e7" font-size="13">Выводы средств без проверки кошелька · 60%</text>
+    <rect x="20" y="280" width="360" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">Источники: AMLWatcher, Cointelegraph, Regulation Tomorrow (длина столбцов условна)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MiCA過渡期結束——280張牌照與合規缺口</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#3a2a0e" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#fbbf24" text-anchor="middle" font-size="22" font-weight="800">7/1</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">過渡期結束</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">280</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">持有MiCA牌照業者</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">14</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">持有交易所牌照</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">€15M</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">最高罰款</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">AML管控落實缺口(單位:%)</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">未完整執行Travel Rule的業者 · 35%</text>
+    <rect x="20" y="230" width="210" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="272" fill="#e4e4e7" font-size="13">缺少錢包驗證的提領流程 · 60%</text>
+    <rect x="20" y="280" width="360" height="24" rx="6" fill="#f59e0b"/>
+    <text x="20" y="380" fill="#52525b" font-size="12">資料來源:AMLWatcher、Cointelegraph、Regulation Tomorrow(長條長度為相對比例)</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">위험의 메커니즘 — 트래블룰과 지갑 검증의 구멍</h2>
 <h2 class="en">The Mechanism of Risk — Gaps in the Travel Rule and Wallet Verification</h2>
@@ -283,6 +433,11 @@
 <h2 class="pt">O Mecanismo do Risco — Lacunas na Travel Rule e na Verificação de Carteiras</h2>
 <h2 class="tr">Riskin Mekanizması — Travel Rule ve Cüzdan Doğrulamasındaki Boşluklar</h2>
 <h2 class="vi">Cơ Chế Của Rủi Ro — Lỗ Hổng Trong Travel Rule và Xác Minh Ví</h2>
+<h2 class="id">Mekanisme Risiko — Kesenjangan dalam Travel Rule dan Verifikasi Dompet</h2>
+<h2 class="pl">Mechanizm Ryzyka — Luki w Travel Rule i Weryfikacji Portfela</h2>
+<h2 class="it">Il Meccanismo del Rischio — Lacune nella Travel Rule e nella Verifica del Wallet</h2>
+<h2 class="ru">Механизм Риска — Пробелы в Travel Rule и Проверке Кошельков</h2>
+<h2 class="zh">風險機制——Travel Rule與錢包驗證的漏洞</h2>
 
 <p class="ko">세고 의장이 지목한 구체적 위험은 두 갈래다. 첫째는 트래블룰(자금이동규칙)로, 미카는 최소 금액 기준 없이 모든 CASP 간 이체에 발신·수신 정보를 첨부하도록 요구한다. 그러나 업계 추산에 따르면 EU 등록 사업자의 약 35%가 아직 트래블룰 데이터 전송 체계를 완전히 가동하지 못한 상태다. 둘째는 자가보관지갑(self-hosted wallet) 검증으로, 1000유로를 초과하는 출금에는 수취 지갑의 신원 확인이 요구되지만, 사업자 출금 흐름의 약 60%에서 이 검증 절차가 빠져 있는 것으로 파악된다. 대량 이동이 짧은 기간에 집중되면, 이 구멍을 통과하는 자금의 절대량 자체가 커질 수밖에 없다.</p>
 <p class="ko"><a href="/blog/revolut-usdt-delisting-mica">레볼루트가 미카 규정을 이유로 EEA·스위스 이용자 대상 USDT 취급을 8월 31일까지 중단하기로 한 결정</a>은 이런 마이그레이션이 실제 소비자 경험에 미치는 파급을 보여주는 사례다. 대형 핀테크조차 규제 준수를 위해 특정 자산을 서둘러 정리하는 상황에서, 규모가 작고 자원이 부족한 사업자일수록 짧은 기간에 대응할 여력이 떨어질 수밖에 없다. 2015년 뉴욕주가 비트라이선스를 도입했을 때도 다수 사업자가 컴플라이언스 부담을 이유로 뉴욕 시장에서 철수했던 전례가 있으며, 이번 미카 경과조치 종료 역시 유사한 '규제발 시장 재편'의 패턴을 밟고 있다는 평가가 나온다.</p>
