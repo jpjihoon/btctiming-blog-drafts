@@ -84,6 +84,11 @@
 <h2 class="pt">A Matemática Da Diluição — De 4,4% Ao Mês Para 2,5%</h2>
 <h2 class="tr">Sayılarla Seyreltme Baskısı — Aylık %4,4'ten %2,5'e</h2>
 <h2 class="vi">Phép Toán Pha Loãng — Từ 4,4%/Tháng Xuống Còn 2,5%</h2>
+<h2 class="id">Hitungan Dilusi — Dari 4,4% per Bulan Menjadi 2,5%</h2>
+<h2 class="pl">Matematyka Rozwodnienia — Od 4,4% Miesięcznie Do 2,5%</h2>
+<h2 class="it">La Matematica Della Diluizione — Dal 4,4% Mensile Al 2,5%</h2>
+<h2 class="ru">Математика Разводнения — С 4,4% В Месяц До 2,5%</h2>
+<h2 class="zh">稀釋率的數學——從每月4.4%降至2.5%</h2>
 
 <p class="ko">언락 감축의 실질적 효과를 가늠하려면 월간 희석률로 환산해봐야 한다. 기존 하루 510만개 언락은 30일 기준 약 1억5300만개, 추정 유통량 35억개 대비 월 약 4.4%의 신규 공급 증가를 뜻했다. 감축 후에는 하루 290만개, 30일 기준 약 8700만개로, 월 희석률은 약 2.5%로 낮아진다.</p>
 <p class="en">To gauge the real effect of the cut, convert it into a monthly dilution rate. The old daily unlock of 5.1 million tokens worked out to about 153 million over 30 days, or roughly 4.4% new supply growth a month against an estimated 3.5 billion circulating supply. After the cut, 2.9 million a day comes to about 87 million over 30 days, bringing monthly dilution down to roughly 2.5%.</p>

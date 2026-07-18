@@ -39,6 +39,11 @@
 <h2 class="pt">Como uma ação tokenizada realmente funciona</h2>
 <h2 class="tr">Tokenize Bir Hisse Senedi Gerçekte Nasıl Çalışır</h2>
 <h2 class="vi">Cổ phiếu token hóa thực sự hoạt động như thế nào</h2>
+<h2 class="id">Bagaimana Saham Tokenisasi Sebenarnya Bekerja</h2>
+<h2 class="pl">Jak Naprawdę Działa Tokenizowana Akcja</h2>
+<h2 class="it">Come Funziona Davvero un'Azione Tokenizzata</h2>
+<h2 class="ru">Как на самом деле работает токенизированная акция</h2>
+<h2 class="zh">代幣化股票實際上是如何運作的</h2>
 
 <p class="ko">온도의 설명에 따르면, 미국 등록 브로커-딜러가 실제 주식과 ETF를 매수해 보관하고, 그 보유분과 동일한 수량만큼 토큰이 발행된다. 독립적인 제3자 담보관리인(security agent)이 토큰 보유자를 위한 선순위 담보권을 실물 자산에 설정해, 발행사 부도 등 채무불이행 상황이 발생하면 자산을 매각해 대금을 토큰 보유자에게 분배할 권한을 갖는다. 여기에 특수목적기구(SPV) 구조, 독립이사 선임, 담보 초과설정, 일일 준비자산 검증과 월간 대사, 연간 감사가 더해져 파산 상황에서도 기초자산이 발행사의 다른 채권자와 뒤섞이지 않도록 설계됐다.</p>
 <p class="en">According to Ondo, a US-registered broker-dealer buys and holds the actual shares and ETFs, and tokens are issued in a quantity matching that holding exactly. An independent third-party security agent holds a first-priority security interest in the physical assets on behalf of token holders, empowering it to seize and sell those assets and distribute proceeds to holders in the event of an issuer default. That's layered with a special-purpose-vehicle structure, an independent director, overcollateralization, daily reserve verification, monthly reconciliation and annual audits - all designed to keep the underlying assets from being commingled with an issuer's other creditors in a bankruptcy.</p>
