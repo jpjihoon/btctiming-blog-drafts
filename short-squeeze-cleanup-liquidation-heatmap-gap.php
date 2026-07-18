@@ -558,6 +558,11 @@
 <h2 class="pt">O Que Observar a Partir de Agora</h2>
 <h2 class="tr">Buradan İtibaren Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Những Điều Cần Theo Dõi Từ Đây</h2>
+<h2 class="id">Yang Perlu Diperhatikan Mulai Sekarang</h2>
+<h2 class="pl">Na Co Warto Zwrócić Uwagę od Teraz</h2>
+<h2 class="it">Cosa Osservare da Qui in Avanti</h2>
+<h2 class="ru">На Что Смотреть Дальше</h2>
+<h2 class="zh">接下來要觀察的重點</h2>
 
 <p class="ko">첫째, 미결제약정이 방향성 있게 늘어나는지다. 가격이 6만5,000달러대에 머무는 동안 OI가 계속 3~4%대 증가율에 갇혀 있다면 이번 상승에 레버리지가 크게 붙지 않았다는 진단이 유지된다. 반대로 가격이 6만5,500달러를 뚫는 시점에 OI가 함께 튄다면 새로운 롱 레버리지가 진입했다는 뜻으로 읽을 수 있다.</p>
 <p class="en">First, whether open interest starts growing with clear direction. If OI stays capped in the 3-4% growth range while price hovers in the mid-$65,000s, the read that not much leverage has attached to this rally holds up. If instead OI jumps at the same moment price breaks above $65,500, that would suggest fresh long leverage has actually entered.</p>
