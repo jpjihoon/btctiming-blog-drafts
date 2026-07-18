@@ -595,6 +595,11 @@
 <h2 class="pt">Indicadores Não São Testemunhas — São Ecos</h2>
 <h2 class="tr">Göstergeler Tanık Değildir — Yankıdır</h2>
 <h2 class="vi">Chỉ Báo Không Phải Nhân Chứng — Chúng Là Tiếng Vọng</h2>
+<h2 class="id">Indikator Bukan Saksi — Mereka Adalah Gema</h2>
+<h2 class="pl">Wskaźniki to Nie Świadkowie — To Echa</h2>
+<h2 class="it">Gli Indicatori Non Sono Testimoni — Sono Echi</h2>
+<h2 class="ru">Индикаторы — Не Свидетели, а Эхо</h2>
+<h2 class="zh">指標不是證人 —— 而是回聲</h2>
 
 <p class="ko">컨플루언스가 통계적으로 보이는 것만큼 강력하지 않은 이유는 간단하다. RSI, MACD, 스토캐스틱, CCI는 모두 같은 시가·고가·저가·종가·거래량(OHLCV) 시계열에서 파생된 함수일 뿐이다. 계산식의 평활화 방식과 기간 설정만 다를 뿐, 입력값은 동일하다. MACD와 RSI의 관계를 분석한 비교 연구는 둘 사이의 피어슨 상관계수가 0.403으로, 중간 수준의 상관관계를 보인다는 걸 발견했다. 더 인상적인 건 다른 연구의 결론이다 — MACD가 신호를 과다하게 생성하는 경향 때문에, RSI 신호가 사실상 MACD의 매수 신호 대부분을 이미 포함하고 있었다. 다섯 개의 독립적인 증인이 아니라, 같은 목격자에게 다른 언어로 같은 질문을 다섯 번 던진 것에 가깝다.</p>
 <p class="en">The reason confluence isn't as statistically powerful as it appears is simple. RSI, MACD, Stochastic, and CCI are all functions derived from the same open-high-low-close-volume (OHLCV) time series. Only the smoothing method and lookback period in the formula differ — the input is identical. A comparative study analyzing the relationship between MACD and RSI found a Pearson correlation coefficient of 0.403 between the two — a moderate correlation. More striking is what another study concluded: because MACD tends to generate an excess of signals, RSI signals effectively already contained most of MACD's buy signals. It's less like five independent witnesses and more like asking the same eyewitness the same question five times, in five different languages.</p>
