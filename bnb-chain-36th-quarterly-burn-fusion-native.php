@@ -24,6 +24,11 @@
 <h2 class="pt">Como funciona a fórmula da Auto-Queima — queimar mais quando o preço cai</h2>
 <h2 class="tr">Otomatik Yakım Formülü Nasıl Çalışır — Fiyat Düştükçe Daha Fazla Yak</h2>
 <h2 class="vi">Công thức Auto-Burn hoạt động như thế nào — giá càng giảm càng đốt nhiều</h2>
+<h2 class="id">Cara Kerja Formula Auto-Burn — Membakar Lebih Banyak Saat Harga Turun</h2>
+<h2 class="pl">Jak działa formuła Auto-Burn — więcej spalania, gdy cena spada</h2>
+<h2 class="it">Come funziona la formula dell'Auto-Burn — brucia di più quando il prezzo scende</h2>
+<h2 class="ru">Как работает формула Auto-Burn — чем ниже цена, тем больше сжигание</h2>
+<h2 class="zh">Auto-Burn公式如何運作——價格越低,銷毀越多</h2>
 
 <p class="ko">BNB 오토번은 "B = N × 1000 ÷ (P + K)"라는 공식으로 소각량을 정한다. N은 분기 동안 생성된 BSC 블록 수(약 259만 개), P는 체인링크 오라클이 집계한 BNB의 분기 평균 가격, K는 커뮤니티 BEP 제안으로만 바뀌는 고정 앵커 상수(현재 1000)다. 공식의 핵심은 역방향 조정 — 가격(P)이 낮을수록 분모가 작아져 소각량(B)이 커지고, 가격이 오르면 소각량이 줄어든다. 이 덕분에 시장 상황과 무관하게 목표(1억 BNB)를 향한 공급 감소 속도가 어느 정도 일정하게 유지되도록 설계됐다.</p>
 <p class="en">BNB's Auto-Burn sets its burn amount with the formula "B = N × 1000 ÷ (P + K)." N is the number of BSC blocks produced during the quarter (roughly 2.59 million), P is BNB's quarter-average price as aggregated by the Chainlink oracle, and K is a fixed anchor constant (currently 1000) that only changes through a community BEP proposal. The formula's core feature is inverse adjustment — the lower P falls, the smaller the denominator gets and the larger B grows; when price rises, the burn shrinks. That design is meant to keep the pace of supply reduction toward the 100 million target roughly steady regardless of market conditions.</p>

@@ -215,7 +215,7 @@
   <text x="499" y="402" fill="#71717a" font-family="sans-serif" font-size="12">뚫리면 재스퀴즈 가능</text>
   <text x="20" y="452" fill="#71717a" font-family="sans-serif" font-size="12">* 수치는 각 데이터 제공처 기준 근사치이며 소스·집계 시점에 따라 편차가 있을 수 있다. 투자 조언 아님.</text>
 </svg></div>
-<div class="en"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+<div class="en id pl it ru zh"><svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
   <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Shorts Made Up 84.8% of Liquidations — Yet Positioning Stayed Neutral</text>
   <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Checking liquidations, long/short ratio, and the liquidation heatmap as of July 16</text>
   <text x="20" y="76" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Liquidation Split (Past 24h, CoinGlass)</text>
