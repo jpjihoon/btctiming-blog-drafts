@@ -69,6 +69,11 @@
 <h2 class="pt">Por que a Avalanche veio primeiro — o que o impulso de RWA e o histórico da própria Aave revelam</h2>
 <h2 class="tr">Avalanche Neden Önce Geldi — RWA Momentumu ve Aave'nin Kendi Geçmişi Ne Söylüyor</h2>
 <h2 class="vi">Vì sao Avalanche được chọn trước — điều mà đà tăng RWA và thành tích riêng của Aave cho thấy</h2>
+<h2 class="id">Mengapa Avalanche Lebih Dulu — Apa Kata Momentum RWA dan Rekam Jejak Aave Sendiri</h2>
+<h2 class="pl">Dlaczego Avalanche był pierwszy — co mówią o tym dynamika RWA i własna historia Aave</h2>
+<h2 class="it">Perché Avalanche è stata la prima — cosa dicono lo slancio degli RWA e il track record di Aave</h2>
+<h2 class="ru">Почему Avalanche оказалась первой — что говорят импульс RWA и собственная история Aave</h2>
+<h2 class="zh">為何Avalanche搶先一步——RWA熱度與Aave自身紀錄透露的訊息</h2>
 
 <p class="ko">아베는 이번 로드맵에서 다음 단계로 토큰화된 실물자산(RWA) 전용 허브를 아발란체에 제안할 예정이라고 밝혔다. 공교롭게도 아발란체에는 이미 블랙록의 토큰화 머니마켓펀드 BUIDL이 <a href="/blog/blackrock-buidl-avalanche-900m-rwa-race">한 주 만에 105% 늘어 9억달러를 넘어선 전례</a>가 있다 — RWA 자금이 이미 몰려 있는 체인 위에 대출 인프라를 얹는 조합인 셈이다. 다만 그 BUIDL 급증이 신규 외부자금 유입인지, 기존 세 체인 자금의 재배분인지는 당시에도 불확실하다는 지적이 있었다는 점은 짚어둘 만하다.</p>
 <p class="en">Aave said its next roadmap step is proposing a dedicated tokenized real-world-asset (RWA) hub on Avalanche. Notably, Avalanche already has a track record here - BlackRock's tokenized money-market fund BUIDL <a href="/en/blog/blackrock-buidl-avalanche-900m-rwa-race">grew 105% in a single week to top $900 million</a> - meaning this pairs lending infrastructure with a chain where RWA capital was already concentrating. Worth noting, though: even at the time, it was unclear whether that BUIDL surge reflected genuinely new outside capital or simply a reallocation of existing funds across three chains.</p>
