@@ -48,13 +48,21 @@ jobs:
 
           for N in $PRS; do
             echo "──────── PR #$N 병합 시도 ────────"
-            # --merge: 머지 커밋 방식(기존 방식과 동일)
-            # 충돌 등으로 실패해도 멈추지 않고 다음 PR로 넘어간다
-            if gh pr merge "$N" --repo "$REPO" --merge; then
-              echo "  ✅ #$N 병합 완료"
-              OK=$((OK+1))
-            else
-              echo "  ⚠️ #$N 병합 실패(충돌·체크 대기 등) — 건너뜀"
+            # ★ 레포 설정에서 특정 병합 방식이 꺼져 있을 수 있어(예: "Allow merge commits" 해제),
+            #   merge → squash → rebase 순으로 시도한다. gh 의 에러 메시지를 로그에 그대로 남겨(2>&1)
+            #   "왜 병합이 안 되는지"(충돌/브랜치보호/방식비활성/체크대기)를 눈으로 확인할 수 있게 한다.
+            merged_one=""
+            for METHOD in merge squash rebase; do
+              echo "  → gh pr merge #$N --$METHOD"
+              if gh pr merge "$N" --repo "$REPO" "--$METHOD" 2>&1; then
+                echo "  ✅ #$N 병합 완료 (--$METHOD)"
+                OK=$((OK+1)); merged_one="1"; break
+              else
+                echo "  … --$METHOD 실패 → 다음 방식 시도"
+              fi
+            done
+            if [ -z "$merged_one" ]; then
+              echo "  ⚠️ #$N 세 방식(merge/squash/rebase) 모두 실패 — 건너뜀"
               FAIL=$((FAIL+1)); FAILED_LIST="$FAILED_LIST #$N"
             fi
             sleep 3   # GitHub API 속도 제한 회피
@@ -64,7 +72,12 @@ jobs:
           echo "════════ 병합 결과 ════════"
           echo "  병합 성공: $OK 건"
           echo "  실패/건너뜀: $FAIL 건$FAILED_LIST"
-          echo "  (실패한 PR은 GitHub 웹에서 개별 확인 — 보통 충돌 때문)"
+          if [ "$OK" -eq 0 ] && [ "$FAIL" -gt 0 ]; then
+            echo "::warning::PR $FAIL 건 전부 병합 실패. 위 gh 에러 메시지를 확인하라. 흔한 원인:"
+            echo "::warning::  (1) 레포 Settings→General→Pull Requests 에서 쓰려는 병합 방식이 꺼짐"
+            echo "::warning::  (2) 브랜치 보호가 리뷰/상태체크를 요구 (Settings→Branches)"
+            echo "::warning::  (3) PR 이 main 과 충돌 (해당 PR 웹에서 'Resolve conflicts')"
+          fi
           echo "merged=$OK" >> "$GITHUB_OUTPUT"
 
       # ── 아래부터가 신규. 병합만 하고 끝내면 서버에 안 올라간다 ──
