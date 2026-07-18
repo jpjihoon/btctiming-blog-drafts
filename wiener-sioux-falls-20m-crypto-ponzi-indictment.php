@@ -174,6 +174,11 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Cryptotimes, Dakota News Now, The Dakota Scout, Procuradoria Federal do Distrito de Dakota do Sul, IRS Criminal Investigation (IRS-CI).</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Cryptotimes, Dakota News Now, The Dakota Scout, Güney Dakota Bölgesi Federal Savcılığı, IRS Suç Soruşturmaları Birimi (IRS-CI).</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Cryptotimes, Dakota News Now, The Dakota Scout, Văn phòng Công tố Liên bang Quận South Dakota, IRS Criminal Investigation (IRS-CI).</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Cryptotimes, Dakota News Now, The Dakota Scout, Kantor Kejaksaan AS untuk Distrik South Dakota, IRS Criminal Investigation (IRS-CI).</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Cryptotimes, Dakota News Now, The Dakota Scout, Prokuratura Federalna dla Dystryktu Dakoty Południowej, IRS Criminal Investigation (IRS-CI).</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Cryptotimes, Dakota News Now, The Dakota Scout, Procura degli Stati Uniti per il Distretto del South Dakota, IRS Criminal Investigation (IRS-CI).</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Cryptotimes, Dakota News Now, The Dakota Scout, прокуратура США по округу Южная Дакота, IRS Criminal Investigation (IRS-CI).</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：Cryptotimes、Dakota News Now、The Dakota Scout、美國南達科他州聯邦檢察官辦公室、美國國稅局刑事調查處（IRS-CI）。</p>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
     <text x="60" y="280" fill="#f4f4f5" font-size="140" font-weight="bold">$20M</text>
