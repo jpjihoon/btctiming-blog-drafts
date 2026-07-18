@@ -9,6 +9,11 @@
 <p class="pt">A Cumberland, braço de negociação cripto da firma de Chicago DRW, recebeu uma licença de Instituição de Pagamento Principal (Major Payment Institution, MPI) da Autoridade Monetária de Singapura (MAS), informou a crypto.news em 14 de julho. A licença, concedida à sua entidade local Cumberland SG Pte. Ltd., autoriza serviços de Token de Pagamento Digital (DPT) e transferências transfronteiriças de dinheiro sob a Payment Services Act. A aprovação conclui um processo iniciado em março, quando a MAS concedeu à Cumberland SG a aprovação em princípio — um intervalo de cerca de quatro meses entre os dois marcos.</p>
 <p class="tr">Chicago merkezli DRW şirketinin kripto ticaret kolu Cumberland, Singapur Para Otoritesi'nden (MAS) Büyük Ödeme Kurumu (Major Payment Institution, MPI) lisansı aldı; crypto.news 14 Temmuz'da bu haberi duyurdu. Yerel birimi Cumberland SG Pte. Ltd.'ye verilen lisans, Ödeme Hizmetleri Yasası (Payment Services Act) kapsamında Dijital Ödeme Tokeni (DPT) hizmetleri ve sınır ötesi para transferi hizmetleri sunma yetkisi tanıyor. Onay, MAS'ın Cumberland SG'ye ilke onayı (in-principle approval) verdiği Mart ayında başlayan sürecin tamamlanması anlamına geliyor — iki aşama arasında yaklaşık dört aylık bir aralık var.</p>
 <p class="vi">Cumberland, nhánh giao dịch tiền mã hóa của công ty DRW có trụ sở tại Chicago, đã nhận được giấy phép Tổ chức Thanh toán Chính (Major Payment Institution, MPI) từ Cơ quan Tiền tệ Singapore (MAS), crypto.news đưa tin ngày 14/7. Giấy phép, được cấp cho pháp nhân địa phương Cumberland SG Pte. Ltd., cho phép cung cấp dịch vụ Token Thanh toán Kỹ thuật số (DPT) và chuyển tiền xuyên biên giới theo Đạo luật Dịch vụ Thanh toán. Việc phê duyệt hoàn tất một quy trình bắt đầu từ tháng 3, khi MAS cấp cho Cumberland SG phê duyệt về nguyên tắc (in-principle approval) — khoảng cách gần bốn tháng giữa hai mốc này.</p>
+<p class="id">Cumberland, unit trading kripto dari perusahaan DRW yang berbasis di Chicago, telah menerima lisensi Major Payment Institution (MPI) dari Otoritas Moneter Singapura (MAS), demikian dilaporkan crypto.news pada 14 Juli. Lisensi yang diberikan kepada entitas lokalnya, Cumberland SG Pte. Ltd., mengizinkan penyediaan layanan Digital Payment Token (DPT) dan transfer uang lintas batas berdasarkan Payment Services Act. Persetujuan ini melengkapi proses yang dimulai pada Maret, ketika MAS memberikan persetujuan prinsip (in-principle approval) kepada Cumberland SG — jeda sekitar empat bulan antara kedua tonggak tersebut.</p>
+<p class="pl">Cumberland, spółka zajmująca się handlem kryptowalutami należąca do firmy DRW z Chicago, otrzymała licencję Major Payment Institution (MPI) od Singapurskiego Urzędu Walutowego (MAS) — poinformował crypto.news 14 lipca. Licencja, przyznana lokalnemu podmiotowi Cumberland SG Pte. Ltd., zezwala na świadczenie usług Digital Payment Token (DPT) oraz transgranicznych transferów pieniężnych na mocy Payment Services Act. Zatwierdzenie kończy proces rozpoczęty w marcu, gdy MAS udzielił Cumberland SG wstępnej zgody (in-principle approval) — odstęp między tymi dwoma kamieniami milowymi wyniósł około czterech miesięcy.</p>
+<p class="it">Cumberland, il ramo di trading crypto della società di Chicago DRW, ha ottenuto una licenza Major Payment Institution (MPI) dall'Autorità Monetaria di Singapore (MAS), ha riferito crypto.news il 14 luglio. La licenza, concessa alla sua entità locale Cumberland SG Pte. Ltd., autorizza i servizi di Digital Payment Token (DPT) e i trasferimenti di denaro transfrontalieri ai sensi del Payment Services Act. L'approvazione completa un processo iniziato a marzo, quando la MAS aveva concesso a Cumberland SG l'approvazione di principio (in-principle approval) — un intervallo di circa quattro mesi tra le due tappe.</p>
+<p class="ru">Cumberland, криптоподразделение чикагской компании DRW, получила лицензию основного платёжного учреждения (Major Payment Institution, MPI) от Валютно-финансового управления Сингапура (MAS), сообщило crypto.news 14 июля. Лицензия, выданная местному юридическому лицу Cumberland SG Pte. Ltd., разрешает оказание услуг по цифровым платёжным токенам (DPT) и трансграничные денежные переводы в соответствии с Законом о платёжных услугах. Одобрение завершает процесс, начавшийся в марте, когда MAS выдало Cumberland SG предварительное одобрение (in-principle approval) — между двумя этапами прошло около четырёх месяцев.</p>
+<p class="zh">總部位於芝加哥的DRW旗下加密貨幣交易部門Cumberland,已從新加坡金融管理局(MAS)取得主要付款機構(Major Payment Institution,MPI)牌照,crypto.news於7月14日報導。此牌照授予其當地法人Cumberland SG Pte. Ltd.,允許其依據《付款服務法》(Payment Services Act)提供數位付款代幣(DPT)服務及跨境匯款服務。此次核准完成了一項始於3月的程序,當時MAS已授予Cumberland SG原則性核准(in-principle approval)——兩個里程碑之間相隔約四個月。</p>
 
 <h2 class="ko">MPI란 무엇이고, 왜 4개월이 걸렸나 — 결제서비스법의 이중 문턱</h2>
 <h2 class="en">What an MPI Licence Is, and Why It Took Four Months — the Payment Services Act's Two-Tier Threshold</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">O que é uma licença MPI e por que levou quatro meses — o duplo limiar da Payment Services Act</h2>
 <h2 class="tr">MPI Lisansı Nedir ve Neden Dört Ay Sürdü — Ödeme Hizmetleri Yasası'nın İki Kademeli Eşiği</h2>
 <h2 class="vi">Giấy phép MPI là gì, và tại sao mất bốn tháng — ngưỡng hai cấp của Đạo luật Dịch vụ Thanh toán</h2>
+<h2 class="id">Apa Itu Lisensi MPI, dan Mengapa Butuh Empat Bulan — Ambang Batas Dua Tingkat dalam Payment Services Act</h2>
+<h2 class="pl">Czym jest licencja MPI i dlaczego proces trwał cztery miesiące — dwupoziomowy próg Payment Services Act</h2>
+<h2 class="it">Cos'è una licenza MPI, e perché ci sono voluti quattro mesi — la doppia soglia del Payment Services Act</h2>
+<h2 class="ru">Что такое лицензия MPI и почему процесс занял четыре месяца — двухуровневый порог Закона о платёжных услугах</h2>
+<h2 class="zh">什麼是MPI牌照,為何耗時四個月——《付款服務法》的雙層門檻</h2>
 
 <p class="ko">싱가포르 결제서비스법은 디지털결제토큰 취급업자를 두 단계로 나눈다. 월 거래액이 낮은 업체는 스탠더드결제기관(Standard Payment Institution, SPI)으로 등록할 수 있지만, 이 문턱을 넘으면 반드시 MPI로 승급해야 한다. MPI는 자본금 요건, 자금세탁방지(AML) 및 테러자금조달방지(CFT) 컴플라이언스 체계, 이사·경영진 적합성 심사를 SPI보다 훨씬 엄격하게 요구한다. 커버랜드처럼 이미 미국 CFTC 스왑딜러 등록 등 여러 관할권에서 라이선스를 보유한 기관도 싱가포르 고유의 심사 절차를 처음부터 다시 통과해야 하며, 원칙승인 이후에도 자본금 예치, 현지 컴플라이언스 인력 채용, 내부통제 시스템 감사 같은 후속 조건을 충족해야 본허가로 넘어간다.</p>
 <p class="ko">6월 19일 기준 싱가포르에서 DPT 서비스 MPI 라이선스를 보유한 업체는 37개사로 집계된다. 코인베이스, 서클, 리플, GSR마켓츠, QCP캐피탈 등이 이미 명단에 이름을 올렸고, 커버랜드는 이번에 여기 합류한 최신 사례다. 다만 이를 "규제 문턱이 낮다"는 신호로만 읽는 것은 절반의 해석이다. MAS는 같은 기간 규정을 지키지 못한 업체에는 라이선스 취소나 영업정지 같은 집행 조치를 병행해왔다. 즉 37개사라는 숫자는 관대함의 결과가 아니라, 엄격한 심사를 통과한 생존자 명단에 가깝다는 해석이 더 정확하다.</p>
@@ -38,6 +48,16 @@
 <p class="tr">19 Haziran itibarıyla Singapur'da DPT hizmetleri için aktif MPI lisansına sahip 37 firma bulunuyor. Coinbase, Circle, Ripple, GSR Markets ve QCP Capital zaten bu listede yer alıyor; Cumberland ise bu listeye eklenen en yeni isim. Ancak bu rakamı yalnızca düşük bir düzenleyici eşiğin kanıtı olarak okumak hikâyenin sadece yarısını anlatır. Aynı dönemde MAS, standartlarını karşılayamayan firmalara karşı lisans iptali ve askıya alma dahil yaptırım önlemleri de uyguladı. Daha doğru okuma, 37 rakamının bir hoşgörü işareti değil, zorlu bir incelemeyi geçmiş hayatta kalanların listesi olduğudur.</p>
 <p class="vi">Đạo luật Dịch vụ Thanh toán của Singapore chia các đơn vị vận hành token thanh toán kỹ thuật số thành hai cấp. Các công ty dưới một ngưỡng giao dịch hằng tháng có thể đăng ký làm Tổ chức Thanh toán Tiêu chuẩn (Standard Payment Institution, SPI), nhưng vượt qua ngưỡng đó buộc phải nâng cấp lên trạng thái MPI. Việc cấp phép MPI đòi hỏi yêu cầu về vốn, khung tuân thủ chống rửa tiền và chống tài trợ khủng bố, cùng đánh giá tư cách phù hợp của giám đốc và ban quản lý khắt khe hơn nhiều so với đăng ký SPI. Ngay cả một công ty như Cumberland — vốn đã đăng ký là đại lý hoán đổi (swap dealer) với CFTC và có giấy phép tại nhiều khu vực pháp lý toàn cầu — cũng phải vượt qua quy trình xét duyệt riêng của Singapore từ đầu, và sau khi được phê duyệt về nguyên tắc vẫn phải đáp ứng các điều kiện tiếp theo như ký quỹ vốn, tuyển dụng nhân sự tuân thủ tại địa phương và vượt qua kiểm toán hệ thống kiểm soát nội bộ trước khi được cấp giấy phép đầy đủ.</p>
 <p class="vi">Tính đến ngày 19/6, có 37 công ty nắm giữ giấy phép MPI đang hoạt động cho dịch vụ DPT tại Singapore. Coinbase, Circle, Ripple, GSR Markets và QCP Capital đã có tên trong danh sách đó, và Cumberland là cái tên mới nhất được bổ sung. Tuy nhiên, chỉ đọc con số này như bằng chứng của một ngưỡng quản lý thấp thì mới chỉ là một nửa câu chuyện. Trong cùng giai đoạn, MAS cũng đã thực hiện các biện pháp cưỡng chế — bao gồm thu hồi và đình chỉ giấy phép — đối với các công ty không đáp ứng tiêu chuẩn. Cách hiểu chính xác hơn là con số 37 ít mang tính khoan dung hơn là một danh sách những đơn vị sống sót sau một cuộc rà soát khắt khe.</p>
+<p class="id">Undang-Undang Layanan Pembayaran Singapura membagi operator token pembayaran digital menjadi dua tingkatan. Perusahaan di bawah ambang batas transaksi bulanan tertentu dapat mendaftar sebagai Standard Payment Institution (SPI), tetapi melewati batas tersebut mengharuskan peningkatan status menjadi MPI. Lisensi MPI menuntut persyaratan modal, kerangka kepatuhan anti-pencucian uang dan anti-pendanaan terorisme, serta uji kelayakan direksi dan manajemen yang jauh lebih ketat dibandingkan pendaftaran SPI. Bahkan perusahaan seperti Cumberland — yang sudah terdaftar sebagai dealer swap CFTC dan berlisensi di berbagai yurisdiksi global — tetap harus melalui proses tinjauan khas Singapura dari awal, dan setelah persetujuan prinsip masih harus memenuhi syarat lanjutan seperti menyetorkan modal, merekrut staf kepatuhan lokal, dan lolos audit sistem kontrol internal sebelum lisensi penuh diberikan.</p>
+<p class="id">Per 19 Juni, 37 perusahaan memegang lisensi MPI aktif untuk layanan DPT di Singapura. Coinbase, Circle, Ripple, GSR Markets, dan QCP Capital sudah masuk dalam daftar tersebut, dan Cumberland adalah tambahan terbaru. Namun, membaca angka itu semata sebagai bukti standar regulasi yang rendah hanya menceritakan separuh kisahnya. Pada periode yang sama, MAS juga mengambil tindakan penegakan — termasuk pencabutan dan penangguhan lisensi — terhadap perusahaan yang tidak memenuhi standarnya. Pembacaan yang lebih akurat adalah angka 37 itu bukan tanda kelonggaran, melainkan lebih merupakan daftar pihak yang berhasil lolos dari tinjauan yang ketat.</p>
+<p class="pl">Singapurska ustawa o usługach płatniczych dzieli operatorów cyfrowych tokenów płatniczych na dwa poziomy. Firmy poniżej miesięcznego progu transakcyjnego mogą zarejestrować się jako Standard Payment Institution (SPI), ale przekroczenie tego progu wymaga awansu do statusu MPI. Licencjonowanie MPI wymaga znacznie surowszych wymogów kapitałowych, ram zgodności w zakresie przeciwdziałania praniu pieniędzy i finansowaniu terroryzmu oraz kontroli rękojmi dyrektorów i kadry zarządzającej niż rejestracja SPI. Nawet firma taka jak Cumberland — już zarejestrowana jako dealer swapów CFTC i licencjonowana w wielu jurysdykcjach na świecie — musi przejść od podstaw odrębną weryfikację singapurską, a po uzyskaniu wstępnej zgody wciąż musi spełnić dodatkowe warunki, takie jak wniesienie kapitału, zatrudnienie lokalnego personelu ds. zgodności oraz przejście audytów kontroli wewnętrznych, zanim otrzyma pełną licencję.</p>
+<p class="pl">Według stanu na 19 czerwca 37 firm posiadało aktywną licencję MPI na usługi DPT w Singapurze. Coinbase, Circle, Ripple, GSR Markets i QCP Capital już znajdowały się na tej liście, a Cumberland jest najnowszym uzupełnieniem. Odczytywanie tej liczby wyłącznie jako dowodu niskiej poprzeczki regulacyjnej byłoby jednak tylko połową historii. W tym samym okresie MAS podejmował też działania egzekucyjne — w tym cofanie i zawieszanie licencji — wobec firm, które nie spełniały jego standardów. Trafniejsza interpretacja jest taka, że liczba 37 to mniej znak pobłażliwości, a bardziej lista podmiotów, które przetrwały wymagającą weryfikację.</p>
+<p class="it">La legge sui servizi di pagamento di Singapore suddivide gli operatori di token di pagamento digitale in due livelli. Le società al di sotto di una soglia di transazioni mensili possono registrarsi come Standard Payment Institution (SPI), ma superare quel limite impone l'avanzamento allo status di MPI. La licenza MPI richiede requisiti patrimoniali, quadri di conformità antiriciclaggio e antiterrorismo finanziario, e verifiche di idoneità di amministratori e dirigenti molto più severi rispetto alla registrazione SPI. Anche una società come Cumberland — già registrata come swap dealer presso la CFTC e autorizzata in molteplici giurisdizioni nel mondo — deve superare da zero la verifica specifica di Singapore, e dopo l'approvazione di principio deve ancora soddisfare condizioni successive come il deposito di capitale, l'assunzione di personale di conformità locale e il superamento di audit sui controlli interni prima che venga concessa la licenza completa.</p>
+<p class="it">Al 19 giugno, 37 società detenevano una licenza MPI attiva per i servizi DPT a Singapore. Coinbase, Circle, Ripple, GSR Markets e QCP Capital figuravano già in quella lista, e Cumberland è l'ultima aggiunta. Tuttavia, leggere quel numero solo come prova di una soglia normativa bassa racconterebbe solo metà della storia. Nello stesso periodo, la MAS ha anche adottato misure di enforcement — comprese revoche e sospensioni di licenze — nei confronti di società che non soddisfacevano i suoi standard. La lettura più accurata è che 37 sia meno un segnale di indulgenza e più un elenco di sopravvissuti a una verifica rigorosa.</p>
+<p class="ru">Сингапурский Закон о платёжных услугах делит операторов цифровых платёжных токенов на два уровня. Компании ниже определённого порога ежемесячных транзакций могут зарегистрироваться как основное платёжное учреждение стандартного типа (Standard Payment Institution, SPI), но при превышении этого порога требуется переход на статус MPI. Лицензирование MPI предъявляет гораздо более строгие требования к капиталу, механизмам противодействия отмыванию денег и финансированию терроризма, а также к проверке благонадёжности директоров и руководства, чем регистрация SPI. Даже такая компания, как Cumberland, уже зарегистрированная как своп-дилер CFTC и имеющая лицензии во множестве юрисдикций по всему миру, обязана заново пройти собственную сингапурскую проверку, а после предварительного одобрения — выполнить дополнительные условия, такие как внесение капитала, наём местного комплаенс-персонала и прохождение аудита внутреннего контроля, прежде чем будет выдана полная лицензия.</p>
+<p class="ru">По состоянию на 19 июня 37 компаний обладали действующей лицензией MPI на услуги DPT в Сингапуре. Coinbase, Circle, Ripple, GSR Markets и QCP Capital уже фигурировали в этом списке, а Cumberland стала последним пополнением. Однако рассматривать эту цифру исключительно как свидетельство низкой регуляторной планки — значит рассказать лишь половину истории. За тот же период MAS также принимало меры воздействия, включая отзыв и приостановку лицензий, в отношении компаний, не соответствовавших его стандартам. Более точная интерпретация в том, что 37 — это не столько признак снисходительности, сколько список выживших после требовательной проверки.</p>
+<p class="zh">新加坡《付款服務法》將數位付款代幣營運商分為兩個層級。月交易額低於門檻的公司可註冊為標準付款機構(Standard Payment Institution,SPI),但一旦超過該門檻,即須升級為MPI地位。相較於SPI註冊,MPI牌照對資本要求、反洗錢與反資恐(AML/CFT)合規架構,以及董事與管理層的適任性審查,要求嚴格得多。即使像Cumberland這樣已於美國CFTC註冊為交換交易商、並在全球多個司法管轄區持有牌照的機構,仍須從零開始通過新加坡本地的審查程序;取得原則性核准後,還須滿足後續條件,包括存入資本、聘用當地合規人員,以及通過內部控制系統的稽核,才能取得正式牌照。</p>
+<p class="zh">截至6月19日,新加坡共有37家公司持有有效的DPT服務MPI牌照。Coinbase、Circle、Ripple、GSR Markets與QCP Capital早已名列其中,Cumberland則是最新加入者。然而,若僅將此數字解讀為監管門檻偏低的證據,只說對了一半。同一時期,MAS也對未達標準的公司採取了執法措施,包括吊銷及暫停牌照。更準確的解讀是:37這個數字與其說是寬鬆的象徵,不如說是通過嚴格審查後倖存下來的名單。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -417,6 +437,216 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perjalanan Cumberland menuju lisensi MPI Singapura</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="90" cy="80" r="7" fill="#f7931a"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">Maret</text>
+    <text x="90" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">MAS memberikan</text>
+    <text x="90" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">persetujuan prinsip</text>
+    <circle cx="370" cy="80" r="7" fill="#38bdf8"/>
+    <text x="370" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">19 Jun</text>
+    <text x="370" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">Singapura mencapai</text>
+    <text x="370" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">37 firma ber-MPI</text>
+    <circle cx="620" cy="80" r="8" fill="#22c55e"/>
+    <text x="620" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">14 Jul</text>
+    <text x="620" y="105" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">Cumberland menerima</text>
+    <text x="620" y="123" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">lisensi MPI penuh</text>
+    <text x="20" y="165" fill="#e4e4e7" font-size="14" font-weight="700">Pemegang MPI lain di Singapura (layanan DPT)</text>
+    <rect x="20" y="180" width="120" height="30" rx="6" fill="#27272a"/>
+    <text x="80" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Coinbase</text>
+    <rect x="150" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="200" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Circle</text>
+    <rect x="260" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="310" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Ripple</text>
+    <rect x="370" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="440" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">GSR Markets</text>
+    <rect x="520" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="590" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">QCP Capital</text>
+    <rect x="20" y="222" width="170" height="30" rx="6" fill="#f7931a"/>
+    <text x="105" y="242" fill="#0a0a0a" font-size="13" text-anchor="middle" font-weight="700">Cumberland (baru)</text>
+    <line x1="20" y1="280" x2="680" y2="280" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="308" fill="#e4e4e7" font-size="14" font-weight="700">Struktur dua tingkat Undang-Undang Layanan Pembayaran Singapura</text>
+    <rect x="20" y="325" width="300" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="170" y="350" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">SPI (Institusi Standar)</text>
+    <text x="170" y="370" fill="#71717a" font-size="12" text-anchor="middle">Di bawah batas bulanan</text>
+    <rect x="340" y="325" width="330" height="60" rx="8" fill="#1c1c1f" stroke="#f7931a"/>
+    <text x="505" y="350" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">MPI (Institusi Utama)</text>
+    <text x="505" y="370" fill="#a1a1aa" font-size="12" text-anchor="middle">Modal/AML/kelayakan lebih ketat</text>
+    <text x="20" y="408" fill="#52525b" font-size="12">Sumber: crypto.news, Otoritas Moneter Singapura</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Droga Cumberland do singapurskiej licencji MPI</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="90" cy="80" r="7" fill="#f7931a"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">Marzec</text>
+    <text x="90" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">MAS przyznaje</text>
+    <text x="90" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">zgodę wstępną</text>
+    <circle cx="370" cy="80" r="7" fill="#38bdf8"/>
+    <text x="370" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">19 czerwca</text>
+    <text x="370" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">Singapur osiąga</text>
+    <text x="370" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">37 firm z MPI</text>
+    <circle cx="620" cy="80" r="8" fill="#22c55e"/>
+    <text x="620" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">14 lipca</text>
+    <text x="620" y="105" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">Cumberland otrzymuje</text>
+    <text x="620" y="123" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">pełną licencję MPI</text>
+    <text x="20" y="165" fill="#e4e4e7" font-size="14" font-weight="700">Inni posiadacze MPI w Singapurze (usługi DPT)</text>
+    <rect x="20" y="180" width="120" height="30" rx="6" fill="#27272a"/>
+    <text x="80" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Coinbase</text>
+    <rect x="150" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="200" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Circle</text>
+    <rect x="260" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="310" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Ripple</text>
+    <rect x="370" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="440" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">GSR Markets</text>
+    <rect x="520" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="590" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">QCP Capital</text>
+    <rect x="20" y="222" width="170" height="30" rx="6" fill="#f7931a"/>
+    <text x="105" y="242" fill="#0a0a0a" font-size="13" text-anchor="middle" font-weight="700">Cumberland (nowość)</text>
+    <line x1="20" y1="280" x2="680" y2="280" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="308" fill="#e4e4e7" font-size="14" font-weight="700">Dwupoziomowa struktura singapurskiej ustawy o usługach płatniczych</text>
+    <rect x="20" y="325" width="300" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="170" y="350" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">SPI (Instytucja Standardowa)</text>
+    <text x="170" y="370" fill="#71717a" font-size="12" text-anchor="middle">Poniżej progu miesięcznego</text>
+    <rect x="340" y="325" width="330" height="60" rx="8" fill="#1c1c1f" stroke="#f7931a"/>
+    <text x="505" y="350" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">MPI (Instytucja Główna)</text>
+    <text x="505" y="370" fill="#a1a1aa" font-size="12" text-anchor="middle">Surowszy kapitał/AML/rękojmia</text>
+    <text x="20" y="408" fill="#52525b" font-size="12">Źródła: crypto.news, Singapurski Urząd Walutowy</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Il percorso di Cumberland verso la licenza MPI di Singapore</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="90" cy="80" r="7" fill="#f7931a"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">Marzo</text>
+    <text x="90" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">La MAS concede</text>
+    <text x="90" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">l'approvazione di principio</text>
+    <circle cx="370" cy="80" r="7" fill="#38bdf8"/>
+    <text x="370" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">19 giu</text>
+    <text x="370" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">Singapore raggiunge</text>
+    <text x="370" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">37 società con MPI</text>
+    <circle cx="620" cy="80" r="8" fill="#22c55e"/>
+    <text x="620" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">14 lug</text>
+    <text x="620" y="105" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">Cumberland ottiene</text>
+    <text x="620" y="123" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">licenza MPI completa</text>
+    <text x="20" y="165" fill="#e4e4e7" font-size="14" font-weight="700">Altri titolari di MPI a Singapore (servizi DPT)</text>
+    <rect x="20" y="180" width="120" height="30" rx="6" fill="#27272a"/>
+    <text x="80" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Coinbase</text>
+    <rect x="150" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="200" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Circle</text>
+    <rect x="260" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="310" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Ripple</text>
+    <rect x="370" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="440" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">GSR Markets</text>
+    <rect x="520" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="590" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">QCP Capital</text>
+    <rect x="20" y="222" width="170" height="30" rx="6" fill="#f7931a"/>
+    <text x="105" y="242" fill="#0a0a0a" font-size="13" text-anchor="middle" font-weight="700">Cumberland (nuovo)</text>
+    <line x1="20" y1="280" x2="680" y2="280" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="308" fill="#e4e4e7" font-size="14" font-weight="700">Struttura a due livelli del Payment Services Act di Singapore</text>
+    <rect x="20" y="325" width="300" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="170" y="350" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">SPI (Istituto Standard)</text>
+    <text x="170" y="370" fill="#71717a" font-size="12" text-anchor="middle">Sotto la soglia mensile</text>
+    <rect x="340" y="325" width="330" height="60" rx="8" fill="#1c1c1f" stroke="#f7931a"/>
+    <text x="505" y="350" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">MPI (Istituto Principale)</text>
+    <text x="505" y="370" fill="#a1a1aa" font-size="12" text-anchor="middle">Capitale/AML/idoneità più rigorosi</text>
+    <text x="20" y="408" fill="#52525b" font-size="12">Fonti: crypto.news, Autorità Monetaria di Singapore</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Путь Cumberland к сингапурской лицензии MPI</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="90" cy="80" r="7" fill="#f7931a"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">Март</text>
+    <text x="90" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">MAS выдаёт</text>
+    <text x="90" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">предварительное одобрение</text>
+    <circle cx="370" cy="80" r="7" fill="#38bdf8"/>
+    <text x="370" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">19 июня</text>
+    <text x="370" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">Сингапур достигает</text>
+    <text x="370" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">37 компаний с MPI</text>
+    <circle cx="620" cy="80" r="8" fill="#22c55e"/>
+    <text x="620" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">14 июля</text>
+    <text x="620" y="105" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">Cumberland получает</text>
+    <text x="620" y="123" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">полную лицензию MPI</text>
+    <text x="20" y="165" fill="#e4e4e7" font-size="14" font-weight="700">Другие обладатели MPI в Сингапуре (услуги DPT)</text>
+    <rect x="20" y="180" width="120" height="30" rx="6" fill="#27272a"/>
+    <text x="80" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Coinbase</text>
+    <rect x="150" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="200" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Circle</text>
+    <rect x="260" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="310" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Ripple</text>
+    <rect x="370" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="440" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">GSR Markets</text>
+    <rect x="520" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="590" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">QCP Capital</text>
+    <rect x="20" y="222" width="170" height="30" rx="6" fill="#f7931a"/>
+    <text x="105" y="242" fill="#0a0a0a" font-size="13" text-anchor="middle" font-weight="700">Cumberland (новый)</text>
+    <line x1="20" y1="280" x2="680" y2="280" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="308" fill="#e4e4e7" font-size="14" font-weight="700">Двухуровневая структура сингапурского Закона о платёжных услугах</text>
+    <rect x="20" y="325" width="300" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="170" y="350" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">SPI (Стандартное учреждение)</text>
+    <text x="170" y="370" fill="#71717a" font-size="12" text-anchor="middle">Ниже месячного порога</text>
+    <rect x="340" y="325" width="330" height="60" rx="8" fill="#1c1c1f" stroke="#f7931a"/>
+    <text x="505" y="350" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">MPI (Основное учреждение)</text>
+    <text x="505" y="370" fill="#a1a1aa" font-size="12" text-anchor="middle">Более строгие капитал/AML/проверка</text>
+    <text x="20" y="408" fill="#52525b" font-size="12">Источники: crypto.news, Валютно-финансовое управление Сингапура</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Cumberland取得新加坡MPI牌照的時間軸</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="90" cy="80" r="7" fill="#f7931a"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">3月</text>
+    <text x="90" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">MAS授予</text>
+    <text x="90" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">原則性核准</text>
+    <circle cx="370" cy="80" r="7" fill="#38bdf8"/>
+    <text x="370" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">6月19日</text>
+    <text x="370" y="105" fill="#a1a1aa" font-size="13" text-anchor="middle">新加坡累計達</text>
+    <text x="370" y="123" fill="#a1a1aa" font-size="13" text-anchor="middle">37家MPI持牌機構</text>
+    <circle cx="620" cy="80" r="8" fill="#22c55e"/>
+    <text x="620" y="60" fill="#e4e4e7" font-size="14" font-weight="700" text-anchor="middle">7月14日</text>
+    <text x="620" y="105" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">Cumberland取得</text>
+    <text x="620" y="123" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle">完整MPI牌照</text>
+    <text x="20" y="165" fill="#e4e4e7" font-size="14" font-weight="700">新加坡其他MPI持牌機構(DPT服務)</text>
+    <rect x="20" y="180" width="120" height="30" rx="6" fill="#27272a"/>
+    <text x="80" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Coinbase</text>
+    <rect x="150" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="200" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Circle</text>
+    <rect x="260" y="180" width="100" height="30" rx="6" fill="#27272a"/>
+    <text x="310" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">Ripple</text>
+    <rect x="370" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="440" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">GSR Markets</text>
+    <rect x="520" y="180" width="140" height="30" rx="6" fill="#27272a"/>
+    <text x="590" y="200" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="600">QCP Capital</text>
+    <rect x="20" y="222" width="170" height="30" rx="6" fill="#f7931a"/>
+    <text x="105" y="242" fill="#0a0a0a" font-size="13" text-anchor="middle" font-weight="700">Cumberland(新進)</text>
+    <line x1="20" y1="280" x2="680" y2="280" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="308" fill="#e4e4e7" font-size="14" font-weight="700">新加坡《付款服務法》的雙層架構</text>
+    <rect x="20" y="325" width="300" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="170" y="350" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">SPI(標準付款機構)</text>
+    <text x="170" y="370" fill="#71717a" font-size="12" text-anchor="middle">低於月度上限</text>
+    <rect x="340" y="325" width="330" height="60" rx="8" fill="#1c1c1f" stroke="#f7931a"/>
+    <text x="505" y="350" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">MPI(主要付款機構)</text>
+    <text x="505" y="370" fill="#a1a1aa" font-size="12" text-anchor="middle">資本/反洗錢/適任性審查更嚴格</text>
+    <text x="20" y="408" fill="#52525b" font-size="12">資料來源:crypto.news、新加坡金融管理局(MAS)</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">왜 온쇼어 라이선스가 오프쇼어 OTC보다 중요한가 — 기관 유동성의 결제 리스크</h2>
 <h2 class="en">Why an Onshore Licence Beats Offshore OTC — the Counterparty-Risk Problem for Institutional Liquidity</h2>
@@ -427,6 +657,11 @@
 <h2 class="pt">Por que uma licença local supera o OTC offshore — o problema do risco de contraparte para a liquidez institucional</h2>
 <h2 class="tr">Yerel Lisans Neden Offshore OTC'den Daha Değerli — Kurumsal Likidite İçin Karşı Taraf Riski Sorunu</h2>
 <h2 class="vi">Tại sao giấy phép trong nước tốt hơn OTC ngoài khơi — vấn đề rủi ro đối tác đối với thanh khoản tổ chức</h2>
+<h2 class="id">Mengapa Lisensi Onshore Lebih Unggul dari OTC Offshore — Masalah Risiko Kontra-Pihak bagi Likuiditas Institusional</h2>
+<h2 class="pl">Dlaczego licencja krajowa jest lepsza niż OTC offshore — problem ryzyka kontrahenta dla płynności instytucjonalnej</h2>
+<h2 class="it">Perché una licenza onshore batte l'OTC offshore — il problema del rischio di controparte per la liquidità istituzionale</h2>
+<h2 class="ru">Почему локальная лицензия лучше офшорного OTC — проблема контрагентского риска для институциональной ликвидности</h2>
+<h2 class="zh">為何在地牌照勝過境外場外交易——機構流動性的交易對手風險問題</h2>
 
 <p class="ko">커버랜드는 이미 보이스, 채팅, 자체 API, 실시간 양방향 스트리밍 플랫폼 '마레아(Marea)'를 통해 전 세계 기관 고객에게 대량 블록트레이드 유동성을 공급해온 회사다. 그런데도 굳이 싱가포르 현지 라이선스가 필요한 이유는 규제된 자산운용사와 은행이 라이선스 없는 역외 카운터파티와 거래할 때 떠안는 컴플라이언스 리스크 때문이다. 싱가포르에 본사를 둔 자산운용사·패밀리오피스·프라이빗뱅크는 내부 리스크 정책상 MAS 라이선스가 없는 상대방과는 대량 거래 자체를 승인받지 못하는 경우가 많다. 이번 MPI 취득은 커버랜드가 바로 이 규제 준수 고객군에 처음으로 정식 문을 여는 조치로 볼 수 있다.</p>
 <p class="ko">다만 반박할 여지도 있다. 커버랜드는 이미 미국 CFTC 스왑딜러로 등록돼 있고 여러 관할권에서 라이선스를 보유한 세계 최대급 OTC 유동성 공급자 중 하나이므로, 싱가포르 MPI가 실질적으로 새로운 거래량을 만들어낼지 아니면 기존에 역외로 흘러가던 주문 흐름을 단순히 '재분류'하는 데 그칠지는 다음 분기 실제 데이터로 확인해야 한다. 비교하자면, 홍콩의 가상자산서비스제공업체(VASP) 체제는 심사 기간이 더 길고 요구조건도 까다롭다는 평가를 받아온 만큼, 싱가포르가 처리 속도 면에서 아시아 기관형 라이선스 경쟁에서 우위를 점하고 있다는 해석도 가능하다.</p>
@@ -446,6 +681,16 @@
 <p class="tr">Yine de tartılması gereken bir karşı argüman var. Cumberland zaten kayıtlı bir CFTC swap komisyoncusu ve birden fazla yargı bölgesinde lisanslı, kriptoda en büyük OTC likidite sağlayıcılarından biri — dolayısıyla bir Singapur MPI lisansının gerçekten yeni hacim mi yarattığı, yoksa zaten offshore'a akan emir akışını yeniden mi sınıflandırdığı, önümüzdeki çeyreğin verileriyle yanıtlanması gereken bir soru. Bağlam olarak, Hong Kong'un VASP rejimi daha uzun inceleme süreleri ve daha ağır gereksinimleriyle tanınıyor; bu da Singapur'un şu anda Asya'nın kurumsal lisans işinde hız avantajına sahip olduğu görüşünü destekliyor.</p>
 <p class="vi">Cumberland đã cung cấp thanh khoản giao dịch khối lượng lớn cho khách hàng tổ chức trên toàn thế giới thông qua giọng nói, trò chuyện, API riêng và Marea, nền tảng truyền phát hai chiều theo thời gian thực của mình. Vậy tại sao vẫn cần một giấy phép địa phương tại Singapore? Bởi vì các công ty quản lý tài sản và ngân hàng chịu quản lý sẽ gánh rủi ro tuân thủ khi giao dịch với một đối tác nước ngoài không có giấy phép. Các công ty quản lý tài sản, văn phòng gia đình và ngân hàng tư nhân có trụ sở tại Singapore thường thậm chí không thể được nội bộ phê duyệt chính sách rủi ro để thực hiện các giao dịch lớn với đối tác không có giấy phép MAS. Việc cấp MPI này thực chất mở ra cánh cửa chính thức đầu tiên của Cumberland tới đúng nhóm khách hàng đó.</p>
 <p class="vi">Tuy nhiên, có một lập luận phản biện đáng cân nhắc. Cumberland đã là đại lý hoán đổi được đăng ký với CFTC và là một trong những nhà cung cấp thanh khoản OTC lớn nhất trong lĩnh vực tiền mã hóa, có giấy phép tại nhiều khu vực pháp lý — vì vậy liệu MPI tại Singapore có thực sự tạo ra khối lượng giao dịch mới hay chỉ đơn giản là phân loại lại dòng lệnh vốn đã chảy ra nước ngoài, là điều mà dữ liệu quý tới sẽ phải trả lời. Để có bối cảnh, chế độ VASP của Hồng Kông được biết đến với thời gian xét duyệt dài hơn và yêu cầu khắt khe hơn, điều này củng cố quan điểm rằng Singapore hiện đang có lợi thế về tốc độ xử lý trong cuộc đua giành thị phần cấp phép tổ chức tại châu Á.</p>
+<p class="id">Cumberland sudah memasok likuiditas block-trade kepada klien institusional di seluruh dunia melalui suara, chat, API miliknya sendiri, dan Marea, platform streaming dua arah real-time miliknya. Jadi mengapa repot-repot dengan lisensi lokal Singapura? Karena manajer aset dan bank yang diregulasi menanggung risiko kepatuhan ketika bertransaksi dengan kontra-pihak offshore tanpa lisensi. Manajer aset, family office, dan bank swasta yang berbasis di Singapura seringkali bahkan tidak bisa memperoleh persetujuan kebijakan risiko internal untuk mengeksekusi transaksi besar dengan kontra-pihak yang tidak memiliki lisensi MAS. Pemberian MPI ini secara efektif membuka pintu formal pertama Cumberland ke basis klien tersebut secara tepat.</p>
+<p class="id">Namun, ada argumen tandingan yang patut dipertimbangkan. Cumberland sudah menjadi dealer swap CFTC terdaftar dan salah satu penyedia likuiditas OTC kripto terbesar, berlisensi di berbagai yurisdiksi — sehingga apakah MPI Singapura benar-benar menghasilkan volume baru, atau sekadar mengklasifikasikan ulang aliran order yang sebelumnya sudah mengalir ke luar negeri, adalah sesuatu yang harus dijawab oleh data kuartal berikutnya. Sebagai konteks, rezim VASP Hong Kong dikenal memiliki jangka waktu tinjauan yang lebih lama dan persyaratan yang lebih berat, yang mendukung pandangan bahwa Singapura saat ini unggul dalam kecepatan pemrosesan dalam perlombaan bisnis perizinan institusional di Asia.</p>
+<p class="pl">Cumberland już dostarcza płynność dla transakcji blokowych klientom instytucjonalnym na całym świecie za pośrednictwem głosu, czatu, własnego API oraz Marei — swojej platformy streamingu dwukierunkowego w czasie rzeczywistym. Po co więc zawracać sobie głowę lokalną licencją w Singapurze? Ponieważ regulowani zarządzający aktywami i banki podejmują ryzyko zgodności, handlując z nielicencjonowanym kontrahentem offshore. Zarządzający aktywami, family office i banki prywatne z siedzibą w Singapurze często nie mogą nawet uzyskać wewnętrznej zgody polityki ryzyka na realizację dużych transakcji z kontrahentem bez licencji MAS. To przyznanie MPI faktycznie otwiera Cumberland pierwsze formalne drzwi do dokładnie tej bazy klientów.</p>
+<p class="pl">Warto jednak rozważyć kontrargument. Cumberland jest już zarejestrowanym dealerem swapów CFTC i jednym z największych dostawców płynności OTC w kryptowalutach, licencjonowanym w wielu jurysdykcjach — więc czy singapurskie MPI faktycznie generuje nowy wolumen, czy po prostu reklasyfikuje przepływ zleceń, który i tak już kierował się offshore, to pytanie, na które odpowiedzą dane z kolejnego kwartału. Dla kontekstu: reżim VASP w Hongkongu ma reputację dłuższych terminów rozpatrywania i surowszych wymogów, co wspiera tezę, że Singapur obecnie ma przewagę pod względem szybkości przetwarzania w wyścigu o instytucjonalny biznes licencyjny w Azji.</p>
+<p class="it">Cumberland fornisce già liquidità per operazioni in blocco a clienti istituzionali in tutto il mondo tramite voce, chat, la propria API e Marea, la sua piattaforma di streaming bidirezionale in tempo reale. Allora perché preoccuparsi di una licenza locale a Singapore? Perché i gestori patrimoniali e le banche regolamentati assumono un rischio di conformità quando negoziano con una controparte offshore non autorizzata. I gestori patrimoniali, i family office e le banche private con sede a Singapore spesso non riescono nemmeno a ottenere l'approvazione interna della politica di rischio per eseguire operazioni di grandi dimensioni con una controparte priva di licenza MAS. Questa concessione MPI apre di fatto la prima porta formale di Cumberland esattamente a quella base clienti.</p>
+<p class="it">C'è tuttavia una controargomentazione che vale la pena considerare. Cumberland è già un dealer di swap registrato presso la CFTC e uno dei maggiori fornitori di liquidità OTC nel settore crypto, autorizzato in molteplici giurisdizioni — quindi se un MPI di Singapore generi effettivamente nuovo volume, o si limiti a riclassificare un flusso di ordini che era già diretto offshore, è qualcosa a cui i dati del prossimo trimestre dovranno rispondere. Per contesto, il regime VASP di Hong Kong ha la reputazione di tempi di revisione più lunghi e requisiti più severi, il che rafforza l'idea che Singapore detenga attualmente un vantaggio in termini di velocità di elaborazione nella corsa al business delle licenze istituzionali in Asia.</p>
+<p class="ru">Cumberland уже обеспечивает ликвидность для блочных сделок институциональным клиентам по всему миру через голосовую связь, чат, собственный API и Marea — свою потоковую двустороннюю платформу реального времени. Так зачем вообще возиться с местной сингапурской лицензией? Потому что регулируемые управляющие активами и банки принимают на себя комплаенс-риск, торгуя с нелицензированным офшорным контрагентом. Управляющие активами, семейные офисы и частные банки, базирующиеся в Сингапуре, зачастую даже не могут получить внутреннее одобрение политики рисков на исполнение крупных сделок с контрагентом, не имеющим лицензии MAS. Это предоставление MPI фактически открывает Cumberland первую формальную дверь именно к этой клиентской базе.</p>
+<p class="ru">Тем не менее есть контраргумент, который стоит взвесить. Cumberland уже является зарегистрированным своп-дилером CFTC и одним из крупнейших поставщиков внебиржевой ликвидности в криптовалютах, лицензированным в нескольких юрисдикциях — поэтому создаёт ли сингапурский MPI реально новый объём или просто переклассифицирует поток заявок, который и так уже уходил офшор, покажут данные следующего квартала. Для контекста: режим VASP в Гонконге известен более длительными сроками рассмотрения и более жёсткими требованиями, что подкрепляет мнение о том, что Сингапур в настоящее время лидирует по скорости обработки в гонке за институциональный лицензионный бизнес в Азии.</p>
+<p class="zh">Cumberland早已透過語音、聊天、自有API,以及即時雙向串流平台Marea,向全球機構客戶提供大宗交易(block-trade)流動性。那麼何必費心取得新加坡本地牌照?原因在於,受監管的資產管理公司與銀行,若與未持牌的境外交易對手往來,將承擔合規風險。總部位於新加坡的資產管理公司、家族辦公室與私人銀行,往往連內部風險政策的核准都無法取得,遑論與未持有MAS牌照的交易對手執行大額交易。此次取得MPI牌照,實際上為Cumberland開啟了通往這類客戶群的首扇正式大門。</p>
+<p class="zh">不過,仍有值得權衡的反面論點。Cumberland早已是CFTC註冊的交換交易商,也是加密貨幣領域最大的場外交易流動性供應商之一,並在多個司法管轄區持有牌照——因此,新加坡MPI究竟是真正創造了新增交易量,還是僅僅將原本就流向境外的訂單流重新歸類,仍須留待下一季度的實際數據來回答。作為對照,香港的虛擬資產服務提供者(VASP)制度素以審查期較長、要求較嚴苛著稱,這也支持了新加坡目前在亞洲機構牌照競爭中於處理速度上佔優勢的說法。</p>
 
 <div class="box ko">💡 <strong>시사점:</strong> 커버랜드의 라이선스 자체보다 중요한 건 '4개월'이라는 처리 기간과 '37개사'라는 누적 숫자다. 싱가포르가 꾸준한 속도로 기관형 라이선스를 발급하며 아시아 기관 유동성 허브 지위를 다지고 있다는 신호로 읽을 수 있다. 다만 이것이 실제 거래량 증가로 이어지는지는 커버랜드의 다음 분기 싱가포르向 거래 데이터를 지켜봐야 확인할 수 있다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> More telling than the licence itself are the four-month processing time and the cumulative count of 37 firms. That reads as Singapore steadily granting institutional-grade licences while cementing its position as Asia's institutional liquidity hub. Whether that actually translates into higher trading volume is something only Cumberland's next-quarter Singapore-facing data can confirm.</div>
@@ -456,6 +701,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> mais revelador do que a própria licença é o prazo de processamento de quatro meses e a contagem acumulada de 37 empresas. Isso sugere que Singapura vem concedendo licenças de nível institucional em ritmo constante, consolidando sua posição como hub de liquidez institucional da Ásia. Se isso realmente se traduz em maior volume de negociação é algo que só os dados da Cumberland voltados a Singapura no próximo trimestre poderão confirmar.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> Lisansın kendisinden daha çarpıcı olan, dört aylık işlem süresi ve 37 firmalık kümülatif sayı. Bu, Singapur'un istikrarlı bir hızda kurumsal düzeyde lisanslar verirken Asya'nın kurumsal likidite merkezi konumunu pekiştirdiği şeklinde okunabilir. Bunun gerçekten daha yüksek işlem hacmine dönüşüp dönüşmediğini yalnızca Cumberland'ın önümüzdeki çeyrekteki Singapur'a yönelik verileri doğrulayabilir.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Điều đáng chú ý hơn cả bản thân giấy phép là thời gian xử lý bốn tháng và con số tích lũy 37 công ty. Điều này cho thấy Singapore đang cấp phép cấp độ tổ chức một cách đều đặn trong khi củng cố vị thế trung tâm thanh khoản tổ chức của châu Á. Liệu điều đó có thực sự chuyển thành khối lượng giao dịch cao hơn hay không là điều chỉ dữ liệu hướng tới Singapore của Cumberland trong quý tới mới có thể xác nhận.</div>
+<div class="box id">💡 <strong>Poin penting:</strong> Yang lebih mengungkap dibanding lisensi itu sendiri adalah waktu pemrosesan empat bulan dan jumlah kumulatif 37 perusahaan. Itu terbaca sebagai Singapura yang secara stabil memberikan lisensi setara institusi sekaligus mengukuhkan posisinya sebagai hub likuiditas institusional Asia. Apakah itu benar-benar diterjemahkan menjadi volume perdagangan yang lebih tinggi hanya bisa dipastikan oleh data Cumberland yang berorientasi Singapura pada kuartal berikutnya.</div>
+<div class="box pl">💡 <strong>Wniosek:</strong> Bardziej wymowne niż sama licencja są czteromiesięczny czas przetwarzania i skumulowana liczba 37 firm. Można to odczytać jako Singapur konsekwentnie przyznający licencje na poziomie instytucjonalnym, jednocześnie umacniający swoją pozycję azjatyckiego huba płynności instytucjonalnej. Czy faktycznie przekłada się to na wyższy wolumen obrotu, potwierdzą dopiero dane Cumberland dotyczące Singapuru za następny kwartał.</div>
+<div class="box it">💡 <strong>Considerazione:</strong> Più rivelatori della licenza in sé sono il tempo di elaborazione di quattro mesi e il conteggio cumulativo di 37 società. Ciò si legge come Singapore che concede costantemente licenze di livello istituzionale mentre consolida la propria posizione di hub di liquidità istituzionale dell'Asia. Se questo si traduca effettivamente in un volume di scambi più elevato è qualcosa che solo i dati di Cumberland relativi a Singapore del prossimo trimestre potranno confermare.</div>
+<div class="box ru">💡 <strong>Вывод:</strong> Более показательны, чем сама лицензия, четырёхмесячный срок обработки и совокупное число в 37 компаний. Это можно трактовать как то, что Сингапур стабильно выдаёт лицензии институционального уровня, укрепляя свои позиции азиатского хаба институциональной ликвидности. Приведёт ли это на деле к росту торгового объёма, подтвердят только данные Cumberland по Сингапуру за следующий квартал.</div>
+<div class="box zh">💡 <strong>要點:</strong> 比牌照本身更值得關注的,是四個月的審批時程與累計37家公司這一數字。這可解讀為新加坡正以穩定步調發放機構級牌照,同時鞏固其作為亞洲機構流動性樞紐的地位。至於這是否真的能轉化為更高的交易量,唯有透過Cumberland下一季度針對新加坡市場的實際數據才能確認。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 크립토뉴스(crypto.news), 크립토뉴스닷컴(cryptonews.com), 비트코인월드(BitcoinWorld), 데크립트(Decrypt), 싱가포르통화청(MAS) 공식 라이선스 명단</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, Monetary Authority of Singapore official licensee list</p>
@@ -466,4 +716,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, lista oficial de licenciados da Monetary Authority of Singapore</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, Singapur Para Otoritesi resmi lisans sahipleri listesi</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, danh sách đơn vị được cấp phép chính thức của Cơ quan Tiền tệ Singapore</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, daftar resmi pemegang lisensi Otoritas Moneter Singapura</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, oficjalna lista licencjobiorców Singapurskiego Urzędu Walutowego</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, elenco ufficiale dei licenziatari dell'Autorità Monetaria di Singapore</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: crypto.news, cryptonews.com, BitcoinWorld, Decrypt, официальный список лицензиатов Валютно-финансового управления Сингапура</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:crypto.news、cryptonews.com、BitcoinWorld、Decrypt、新加坡金融管理局(MAS)官方持牌機構名單</p>
 <?php require __DIR__.'/_footer.php'; ?>
