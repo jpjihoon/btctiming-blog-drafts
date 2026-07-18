@@ -664,6 +664,251 @@
   <text x="20" y="758" fill="#71717a" font-family="sans-serif" font-size="12">* Số liệu là ước tính làm tròn; có thể khác nhau tùy nguồn/thời điểm. Không phải lời khuyên đầu tư.</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Harga di Level Tertinggi 3 Minggu, Keyakinan Belum Ada</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Memeriksa funding rate, arus ETF, dan Fear &amp; Greed per 16/7</text>
+  <rect x="20" y="66" width="660" height="100" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Harga: $62,259 (buka 14/7) → $64,988 (tertinggi intraday 14/7)</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="800">+12% (vs titik terendah 30/6)</text>
+  <text x="270" y="120" fill="#71717a" font-family="sans-serif" font-size="13">$64,800-$65,300 sore 16/7, tertinggi 3 minggu</text>
+  <text x="40" y="148" fill="#71717a" font-family="sans-serif" font-size="13">CPI Juni −0.4% (penurunan terbesar dlm 4 thn) · Inti 0.0% (vs +0.2% perkiraan)</text>
+  <text x="20" y="192" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Derivatif: Funding Rate</text>
+  <rect x="20" y="204" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="230" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">Funding: keluar dari negatif, tertahan dekat nol (belum jelas ke positif)</text>
+  <text x="40" y="254" fill="#71717a" font-family="sans-serif" font-size="13">Tetap stabil meski setelah ~$200-230 jt likuidasi short paksa</text>
+  <text x="20" y="302" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Arus Bersih ETF Spot (14/7 vs 15/7)</text>
+  <text x="20" y="322" fill="#71717a" font-family="sans-serif" font-size="13">Gabungan dua hari: tetap arus keluar bersih</text>
+  <rect x="20" y="332" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="332" width="553" height="28" rx="6" fill="#f87171"/>
+  <text x="296" y="351" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">−$425 jt (14/7)</text>
+  <rect x="20" y="372" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="372" width="235" height="28" rx="6" fill="#34d399"/>
+  <text x="137" y="391" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">+$181 jt (15/7)</text>
+  <text x="250" y="391" fill="#71717a" font-family="sans-serif" font-size="13">IBIT +$139 jt · FBTC +$21 jt, dll.</text>
+  <text x="20" y="420" fill="#71717a" font-family="sans-serif" font-size="13">Bersih dua hari ≈ −$244 jt — tetap negatif di tengah harga tertinggi 3 minggu</text>
+  <text x="20" y="462" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Tren Fear &amp; Greed (1/7 → 16/7)</text>
+  <rect x="20" y="472" width="660" height="148" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <line x1="40" y1="596" x2="660" y2="596" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="70" y="564" width="60" height="32" rx="4" fill="#f87171"/>
+  <text x="100" y="558" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="800">16</text>
+  <text x="100" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1/7</text>
+  <rect x="300" y="548" width="60" height="48" rx="4" fill="#fb923c"/>
+  <text x="330" y="542" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">24</text>
+  <text x="330" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">6/7</text>
+  <rect x="530" y="546" width="60" height="50" rx="4" fill="#fb923c"/>
+  <text x="560" y="540" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">25</text>
+  <text x="560" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">16/7 (hari ini)</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="12">* Level absolut bervariasi menurut penyedia — 25 dekat batas atas "ketakutan ekstrem" pada kebanyakan pelacak</text>
+  <text x="20" y="646" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Skor Keyakinan, Saat Ini</text>
+  <rect x="20" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Funding Rate</text>
+  <text x="35" y="706" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Dekat nol (netral)</text>
+  <rect x="240" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Arus ETF</text>
+  <text x="255" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Arus keluar bersih (2h)</text>
+  <rect x="460" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Fear &amp; Greed</text>
+  <text x="475" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Dekat ketakutan ekstrem (25)</text>
+  <text x="20" y="758" fill="#71717a" font-family="sans-serif" font-size="12">* Angka merupakan perkiraan yang dibulatkan dan dapat bervariasi menurut sumber/waktu. Bukan nasihat investasi.</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Cena na Najwyższym Poziomie od 3 Tygodni, Przekonania Jeszcze Brak</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Sprawdzanie stopy finansowania, przepływów ETF i Strachu &amp; Chciwości na dzień 16.7</text>
+  <rect x="20" y="66" width="660" height="100" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Cena: $62,259 (otwarcie 14.7) → $64,988 (szczyt dnia 14.7)</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="800">+12% (vs dołek 30.6)</text>
+  <text x="270" y="120" fill="#71717a" font-family="sans-serif" font-size="13">$64,800-$65,300 po południu 16.7, najwyższy poziom od 3 tygodni</text>
+  <text x="40" y="148" fill="#71717a" font-family="sans-serif" font-size="13">CPI za czerwiec −0,4% (największy spadek od 4 lat) · Bazowy 0,0% (vs +0,2% prog.)</text>
+  <text x="20" y="192" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Instrumenty Pochodne: Stopa Finansowania</text>
+  <rect x="20" y="204" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="230" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">Finansowanie: wyszło z ujemnych, utknęło blisko zera (bez wyraźnego zwrotu w dodatnie)</text>
+  <text x="40" y="254" fill="#71717a" font-family="sans-serif" font-size="13">Utrzymało się nawet po ~$200-230 mln przymusowych likwidacji short</text>
+  <text x="20" y="302" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Przepływy Netto ETF Spot (14.7 vs 15.7)</text>
+  <text x="20" y="322" fill="#71717a" font-family="sans-serif" font-size="13">Oba dni razem: wciąż odpływ netto</text>
+  <rect x="20" y="332" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="332" width="553" height="28" rx="6" fill="#f87171"/>
+  <text x="296" y="351" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">−$425 mln (14.7)</text>
+  <rect x="20" y="372" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="372" width="235" height="28" rx="6" fill="#34d399"/>
+  <text x="137" y="391" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">+$181 mln (15.7)</text>
+  <text x="250" y="391" fill="#71717a" font-family="sans-serif" font-size="13">IBIT +$139 mln · FBTC +$21 mln, itd.</text>
+  <text x="20" y="420" fill="#71717a" font-family="sans-serif" font-size="13">Saldo dwóch dni ≈ −$244 mln — wciąż ujemne przy najwyższej cenie od 3 tygodni</text>
+  <text x="20" y="462" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Trend Strachu &amp; Chciwości (1.7 → 16.7)</text>
+  <rect x="20" y="472" width="660" height="148" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <line x1="40" y1="596" x2="660" y2="596" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="70" y="564" width="60" height="32" rx="4" fill="#f87171"/>
+  <text x="100" y="558" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="800">16</text>
+  <text x="100" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1.7</text>
+  <rect x="300" y="548" width="60" height="48" rx="4" fill="#fb923c"/>
+  <text x="330" y="542" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">24</text>
+  <text x="330" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">6.7</text>
+  <rect x="530" y="546" width="60" height="50" rx="4" fill="#fb923c"/>
+  <text x="560" y="540" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">25</text>
+  <text x="560" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">16.7 (dziś)</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="12">* Wartości bezwzględne różnią się w zależności od dostawcy — 25 jest blisko sufitu "skrajnego strachu" w większości narzędzi</text>
+  <text x="20" y="646" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Wynik Przekonania, Teraz</text>
+  <rect x="20" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Stopa Finansowania</text>
+  <text x="35" y="706" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Blisko zera (neutralnie)</text>
+  <rect x="240" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Przepływy ETF</text>
+  <text x="255" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Odpływ netto (2d)</text>
+  <rect x="460" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Strach &amp; Chciwość</text>
+  <text x="475" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Blisko skrajnego strachu (25)</text>
+  <text x="20" y="758" fill="#71717a" font-family="sans-serif" font-size="12">* Liczby są zaokrąglonymi przybliżeniami i mogą się różnić w zależności od źródła/czasu. To nie jest porada inwestycyjna.</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Il Prezzo È a un Massimo di 3 Settimane, la Convinzione Non Ancora</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Verifica di tasso di finanziamento, flussi ETF e Paura &amp; Avidità al 16/7</text>
+  <rect x="20" y="66" width="660" height="100" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Prezzo: $62,259 (apertura 14/7) → $64,988 (massimo intraday 14/7)</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="800">+12% (vs minimo 30/6)</text>
+  <text x="270" y="120" fill="#71717a" font-family="sans-serif" font-size="13">$64,800-$65,300 nel pomeriggio del 16/7, massimo di 3 settimane</text>
+  <text x="40" y="148" fill="#71717a" font-family="sans-serif" font-size="13">CPI di giugno −0,4% (calo maggiore in 4 anni) · Core 0,0% (vs +0,2% prev.)</text>
+  <text x="20" y="192" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Derivati: Tasso di Finanziamento</text>
+  <rect x="20" y="204" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="230" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">Finanziamento: uscito dal negativo, bloccato vicino allo zero (nessuna svolta positiva chiara)</text>
+  <text x="40" y="254" fill="#71717a" font-family="sans-serif" font-size="13">Rimasto stabile anche dopo ~$200-230M di liquidazioni short forzate</text>
+  <text x="20" y="302" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Flussi Netti ETF Spot (14/7 vs 15/7)</text>
+  <text x="20" y="322" fill="#71717a" font-family="sans-serif" font-size="13">Due giorni combinati: ancora deflusso netto</text>
+  <rect x="20" y="332" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="332" width="553" height="28" rx="6" fill="#f87171"/>
+  <text x="296" y="351" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">−$425M (14/7)</text>
+  <rect x="20" y="372" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="372" width="235" height="28" rx="6" fill="#34d399"/>
+  <text x="137" y="391" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">+$181M (15/7)</text>
+  <text x="250" y="391" fill="#71717a" font-family="sans-serif" font-size="13">IBIT +$139M · FBTC +$21M, ecc.</text>
+  <text x="20" y="420" fill="#71717a" font-family="sans-serif" font-size="13">Netto due giorni ≈ −$244M — ancora negativo a un massimo di prezzo di 3 settimane</text>
+  <text x="20" y="462" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Trend Paura &amp; Avidità (1/7 → 16/7)</text>
+  <rect x="20" y="472" width="660" height="148" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <line x1="40" y1="596" x2="660" y2="596" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="70" y="564" width="60" height="32" rx="4" fill="#f87171"/>
+  <text x="100" y="558" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="800">16</text>
+  <text x="100" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1/7</text>
+  <rect x="300" y="548" width="60" height="48" rx="4" fill="#fb923c"/>
+  <text x="330" y="542" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">24</text>
+  <text x="330" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">6/7</text>
+  <rect x="530" y="546" width="60" height="50" rx="4" fill="#fb923c"/>
+  <text x="560" y="540" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">25</text>
+  <text x="560" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">16/7 (oggi)</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="12">* I livelli assoluti variano per fornitore — 25 è vicino al tetto della "paura estrema" sulla maggior parte dei tracker</text>
+  <text x="20" y="646" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Punteggio di Convinzione, Ora</text>
+  <rect x="20" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Tasso di Finanziamento</text>
+  <text x="35" y="706" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Vicino allo zero (neutrale)</text>
+  <rect x="240" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Flussi ETF</text>
+  <text x="255" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Deflusso netto (2g)</text>
+  <rect x="460" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Paura &amp; Avidità</text>
+  <text x="475" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Vicino alla paura estrema (25)</text>
+  <text x="20" y="758" fill="#71717a" font-family="sans-serif" font-size="12">* Le cifre sono approssimazioni arrotondate e possono variare per fonte/tempistica. Non è consulenza finanziaria.</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Цена на Максимуме за 3 Недели, Уверенности Пока Нет</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Проверка ставки финансирования, потоков ETF и индекса Страха и Жадности на 16.7</text>
+  <rect x="20" y="66" width="660" height="100" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Цена: $62,259 (открытие 14.7) → $64,988 (внутридневной максимум 14.7)</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="800">+12% (к минимуму 30.6)</text>
+  <text x="270" y="120" fill="#71717a" font-family="sans-serif" font-size="13">$64,800-$65,300 во второй половине дня 16.7, максимум за 3 недели</text>
+  <text x="40" y="148" fill="#71717a" font-family="sans-serif" font-size="13">ИПЦ за июнь −0,4% (крупнейшее падение за 4 года) · Базовый 0,0% (против +0,2% прогн.)</text>
+  <text x="20" y="192" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Деривативы: Ставка Финансирования</text>
+  <rect x="20" y="204" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="230" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">Финансирование: вышло из отрицательной зоны, застряло возле нуля (без чёткого разворота вверх)</text>
+  <text x="40" y="254" fill="#71717a" font-family="sans-serif" font-size="13">Осталось стабильным даже после ~$200-230 млн принудительных ликвидаций шортов</text>
+  <text x="20" y="302" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Чистые Потоки Спотовых ETF (14.7 vs 15.7)</text>
+  <text x="20" y="322" fill="#71717a" font-family="sans-serif" font-size="13">Оба дня вместе: по-прежнему чистый отток</text>
+  <rect x="20" y="332" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="332" width="553" height="28" rx="6" fill="#f87171"/>
+  <text x="296" y="351" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">−$425 млн (14.7)</text>
+  <rect x="20" y="372" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="372" width="235" height="28" rx="6" fill="#34d399"/>
+  <text x="137" y="391" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">+$181 млн (15.7)</text>
+  <text x="250" y="391" fill="#71717a" font-family="sans-serif" font-size="13">IBIT +$139 млн · FBTC +$21 млн и др.</text>
+  <text x="20" y="420" fill="#71717a" font-family="sans-serif" font-size="13">Чистый показатель за два дня ≈ −$244 млн — всё ещё отрицательный на максимуме цены за 3 недели</text>
+  <text x="20" y="462" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Динамика Страха &amp; Жадности (1.7 → 16.7)</text>
+  <rect x="20" y="472" width="660" height="148" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <line x1="40" y1="596" x2="660" y2="596" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="70" y="564" width="60" height="32" rx="4" fill="#f87171"/>
+  <text x="100" y="558" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="800">16</text>
+  <text x="100" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1.7</text>
+  <rect x="300" y="548" width="60" height="48" rx="4" fill="#fb923c"/>
+  <text x="330" y="542" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">24</text>
+  <text x="330" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">6.7</text>
+  <rect x="530" y="546" width="60" height="50" rx="4" fill="#fb923c"/>
+  <text x="560" y="540" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">25</text>
+  <text x="560" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">16.7 (сегодня)</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="12">* Абсолютные значения варьируются в зависимости от поставщика — 25 находится близко к потолку "крайнего страха" по большинству трекеров</text>
+  <text x="20" y="646" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Оценка Уверенности, Прямо Сейчас</text>
+  <rect x="20" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Ставка Финансирования</text>
+  <text x="35" y="706" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Около нуля (нейтрально)</text>
+  <rect x="240" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Потоки ETF</text>
+  <text x="255" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Чистый отток (2д)</text>
+  <rect x="460" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">Страх &amp; Жадность</text>
+  <text x="475" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Близко к крайнему страху (25)</text>
+  <text x="20" y="758" fill="#71717a" font-family="sans-serif" font-size="12">* Показатели округлены и являются приблизительными, могут отличаться в зависимости от источника/времени. Не является инвестиционным советом.</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">價格處於3週新高,信心尚未跟上</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">檢視截至7/16的資金費率、ETF資金流向與恐懼與貪婪指數</text>
+  <rect x="20" y="66" width="660" height="100" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">價格:62,259美元(7/14開盤) → 64,988美元(7/14盤中高點)</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="800">+12%(較6/30低點)</text>
+  <text x="270" y="120" fill="#71717a" font-family="sans-serif" font-size="13">7/16下午64,800-65,300美元,三週新高</text>
+  <text x="40" y="148" fill="#71717a" font-family="sans-serif" font-size="13">6月CPI −0.4%(4年來最大跌幅)‧核心0.0%(預期+0.2%)</text>
+  <text x="20" y="192" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">衍生品:資金費率</text>
+  <rect x="20" y="204" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="230" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">資金費率:脫離負值,卡在零附近(尚未明確轉正)</text>
+  <text x="40" y="254" fill="#71717a" font-family="sans-serif" font-size="13">即便經歷約2億至2.3億美元強制空頭清算後仍維持不變</text>
+  <text x="20" y="302" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">現貨ETF淨流向(7/14 vs 7/15)</text>
+  <text x="20" y="322" fill="#71717a" font-family="sans-serif" font-size="13">兩天合計:仍為淨流出</text>
+  <rect x="20" y="332" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="332" width="553" height="28" rx="6" fill="#f87171"/>
+  <text x="296" y="351" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">−4.25億美元(7/14)</text>
+  <rect x="20" y="372" width="660" height="28" rx="6" fill="#27272a"/>
+  <rect x="20" y="372" width="235" height="28" rx="6" fill="#34d399"/>
+  <text x="137" y="391" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">+1.81億美元(7/15)</text>
+  <text x="250" y="391" fill="#71717a" font-family="sans-serif" font-size="13">IBIT +1.39億美元‧FBTC +2,100萬美元等</text>
+  <text x="20" y="420" fill="#71717a" font-family="sans-serif" font-size="13">兩天淨額≈−2.44億美元——即便價格創三週新高仍為負值</text>
+  <text x="20" y="462" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">恐懼與貪婪指數走勢(7/1 → 7/16)</text>
+  <rect x="20" y="472" width="660" height="148" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <line x1="40" y1="596" x2="660" y2="596" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="70" y="564" width="60" height="32" rx="4" fill="#f87171"/>
+  <text x="100" y="558" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="800">16</text>
+  <text x="100" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">7/1</text>
+  <rect x="300" y="548" width="60" height="48" rx="4" fill="#fb923c"/>
+  <text x="330" y="542" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">24</text>
+  <text x="330" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">7/6</text>
+  <rect x="530" y="546" width="60" height="50" rx="4" fill="#fb923c"/>
+  <text x="560" y="540" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="14" font-weight="800">25</text>
+  <text x="560" y="612" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">7/16(今天)</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="12">※絕對數值因提供機構而異——多數追蹤指標中25接近「極度恐懼」上限附近</text>
+  <text x="20" y="646" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">此刻的信心分數</text>
+  <rect x="20" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">資金費率</text>
+  <text x="35" y="706" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">接近零(中性)</text>
+  <rect x="240" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">ETF資金流向</text>
+  <text x="255" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">淨流出(2天)</text>
+  <rect x="460" y="658" width="200" height="66" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="680" fill="#a1a1aa" font-family="sans-serif" font-size="13">恐懼與貪婪</text>
+  <text x="475" y="706" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">接近極度恐懼(25)</text>
+  <text x="20" y="758" fill="#71717a" font-family="sans-serif" font-size="12">※數值為四捨五入之概略值,可能因來源/時點而異。非投資建議。</text>
+</svg>
+</div>
 
 <h2 class="ko">세 신호를 겹쳐보면 — 가격은 앞서가고, 확신은 뒤에 있다</h2>
 <h2 class="en">Overlaying the Three Signals — Price Is Ahead, Conviction Is Behind</h2>
@@ -674,6 +919,12 @@
 <h2 class="pt">Sobrepondo os Três Sinais — o Preço Está à Frente, a Convicção Está Atrás</h2>
 <h2 class="tr">Üç Sinyali Üst Üste Koyunca — Fiyat Önde, İnanç Geride</h2>
 <h2 class="vi">Chồng Ba Tín Hiệu Lên Nhau — Giá Đi Trước, Niềm Tin Đi Sau</h2>
+<h2 class="id">Menumpuk Tiga Sinyal — Harga di Depan, Keyakinan di Belakang</h2>
+<h2 class="pl">Nakładając na Siebie Trzy Sygnały — Cena Jest z Przodu, Przekonanie Zostaje w Tyle</h2>
+<h2 class="it">Sovrapponendo i Tre Segnali — il Prezzo È Avanti, la Convinzione È Indietro</h2>
+<h2 class="ru">Накладывая Три Сигнала Друг на Друга — Цена Впереди, Уверенность Отстаёт</h2>
+<h2 class="zh">疊加三項信號來看——價格領先,信心落後</h2>
+
 
 <p class="ko">펀딩비(제로 부근), ETF 자금(이틀 합산 순유출), 공포탐욕지수(극단적 공포 근접)는 서로 다른 시장 참여자군—파생상품 트레이더, 기관 자금, 개인 투자심리—을 대표하지만 지금은 같은 결론을 가리키고 있다. 셋 다 "아직 확신하지 않는다"는 것이다. 반면 가격만은 CPI 서프라이즈와 숏스퀴즈라는 단일 촉매로 이미 3주 최고가까지 올라와 있다. 이 괴리는 상승이 잘못됐다는 뜻이 아니라, 지금의 상승을 뒷받침하는 힘의 정체가 '새로운 매수'보다는 '팔자 포지션의 청산'에 가깝다는 뜻이다.</p>
 <p class="en">Funding (near zero), ETF flows (net outflow over two days), and the Fear & Greed Index (hovering near extreme fear) represent three different groups of market participants — derivatives traders, institutional money, and retail sentiment — but right now they're all pointing at the same conclusion: none of them are convinced yet. Price, meanwhile, has already climbed to a three-week high on a single catalyst — the CPI surprise and the short squeeze it triggered. This gap doesn't mean the rise is somehow fake; it means the force behind the current rise looks more like the unwinding of sell-side positions than fresh buying.</p>
