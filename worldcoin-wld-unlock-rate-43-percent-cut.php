@@ -399,6 +399,111 @@
   <text x="680" y="528" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Nguồn: sơ đồ dựa trên số liệu công bố chính thức của World</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">WLD Daily Unlock — Cut Starting July 24</text>
+  <g font-family="sans-serif">
+    <line x1="90" y1="340" x2="620" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="150" y="212" width="110" height="128" fill="#0e7490"/>
+    <text x="205" y="200" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">5.1M</text>
+    <text x="205" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Before (~7/23)</text>
+    <rect x="450" y="267" width="110" height="73" fill="#22d3ee"/>
+    <text x="505" y="255" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">2.9M</text>
+    <text x="505" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">After (7/24~)</text>
+    <text x="330" y="270" fill="#fbbf24" font-size="24" font-weight="700" text-anchor="middle">-43%</text>
+    <rect x="30" y="390" width="640" height="70" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="415" fill="#e4e4e7" font-size="13.5">Community: 3.2M → 1.6M (-50%)</text>
+    <text x="50" y="440" fill="#e4e4e7" font-size="13.5">Team/Investors: 1.9M → 1.3M (-32%)</text>
+    <rect x="30" y="470" width="640" height="45" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="497" fill="#93c5fd" font-size="14" font-weight="700">Monthly Dilution: 4.4% → 2.5%</text>
+  </g>
+  <text x="680" y="528" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: schematic based on World's official announcement figures</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">WLD Daily Unlock — Cut Starting July 24</text>
+  <g font-family="sans-serif">
+    <line x1="90" y1="340" x2="620" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="150" y="212" width="110" height="128" fill="#0e7490"/>
+    <text x="205" y="200" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">5.1M</text>
+    <text x="205" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Before (~7/23)</text>
+    <rect x="450" y="267" width="110" height="73" fill="#22d3ee"/>
+    <text x="505" y="255" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">2.9M</text>
+    <text x="505" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">After (7/24~)</text>
+    <text x="330" y="270" fill="#fbbf24" font-size="24" font-weight="700" text-anchor="middle">-43%</text>
+    <rect x="30" y="390" width="640" height="70" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="415" fill="#e4e4e7" font-size="13.5">Community: 3.2M → 1.6M (-50%)</text>
+    <text x="50" y="440" fill="#e4e4e7" font-size="13.5">Team/Investors: 1.9M → 1.3M (-32%)</text>
+    <rect x="30" y="470" width="640" height="45" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="497" fill="#93c5fd" font-size="14" font-weight="700">Monthly Dilution: 4.4% → 2.5%</text>
+  </g>
+  <text x="680" y="528" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: schematic based on World's official announcement figures</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">WLD Daily Unlock — Cut Starting July 24</text>
+  <g font-family="sans-serif">
+    <line x1="90" y1="340" x2="620" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="150" y="212" width="110" height="128" fill="#0e7490"/>
+    <text x="205" y="200" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">5.1M</text>
+    <text x="205" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Before (~7/23)</text>
+    <rect x="450" y="267" width="110" height="73" fill="#22d3ee"/>
+    <text x="505" y="255" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">2.9M</text>
+    <text x="505" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">After (7/24~)</text>
+    <text x="330" y="270" fill="#fbbf24" font-size="24" font-weight="700" text-anchor="middle">-43%</text>
+    <rect x="30" y="390" width="640" height="70" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="415" fill="#e4e4e7" font-size="13.5">Community: 3.2M → 1.6M (-50%)</text>
+    <text x="50" y="440" fill="#e4e4e7" font-size="13.5">Team/Investors: 1.9M → 1.3M (-32%)</text>
+    <rect x="30" y="470" width="640" height="45" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="497" fill="#93c5fd" font-size="14" font-weight="700">Monthly Dilution: 4.4% → 2.5%</text>
+  </g>
+  <text x="680" y="528" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: schematic based on World's official announcement figures</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">WLD Daily Unlock — Cut Starting July 24</text>
+  <g font-family="sans-serif">
+    <line x1="90" y1="340" x2="620" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="150" y="212" width="110" height="128" fill="#0e7490"/>
+    <text x="205" y="200" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">5.1M</text>
+    <text x="205" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Before (~7/23)</text>
+    <rect x="450" y="267" width="110" height="73" fill="#22d3ee"/>
+    <text x="505" y="255" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">2.9M</text>
+    <text x="505" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">After (7/24~)</text>
+    <text x="330" y="270" fill="#fbbf24" font-size="24" font-weight="700" text-anchor="middle">-43%</text>
+    <rect x="30" y="390" width="640" height="70" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="415" fill="#e4e4e7" font-size="13.5">Community: 3.2M → 1.6M (-50%)</text>
+    <text x="50" y="440" fill="#e4e4e7" font-size="13.5">Team/Investors: 1.9M → 1.3M (-32%)</text>
+    <rect x="30" y="470" width="640" height="45" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="497" fill="#93c5fd" font-size="14" font-weight="700">Monthly Dilution: 4.4% → 2.5%</text>
+  </g>
+  <text x="680" y="528" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: schematic based on World's official announcement figures</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">WLD Daily Unlock — Cut Starting July 24</text>
+  <g font-family="sans-serif">
+    <line x1="90" y1="340" x2="620" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <rect x="150" y="212" width="110" height="128" fill="#0e7490"/>
+    <text x="205" y="200" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">5.1M</text>
+    <text x="205" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Before (~7/23)</text>
+    <rect x="450" y="267" width="110" height="73" fill="#22d3ee"/>
+    <text x="505" y="255" fill="#f4f4f5" font-size="16" font-weight="700" text-anchor="middle">2.9M</text>
+    <text x="505" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">After (7/24~)</text>
+    <text x="330" y="270" fill="#fbbf24" font-size="24" font-weight="700" text-anchor="middle">-43%</text>
+    <rect x="30" y="390" width="640" height="70" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="415" fill="#e4e4e7" font-size="13.5">Community: 3.2M → 1.6M (-50%)</text>
+    <text x="50" y="440" fill="#e4e4e7" font-size="13.5">Team/Investors: 1.9M → 1.3M (-32%)</text>
+    <rect x="30" y="470" width="640" height="45" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="497" fill="#93c5fd" font-size="14" font-weight="700">Monthly Dilution: 4.4% → 2.5%</text>
+  </g>
+  <text x="680" y="528" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: schematic based on World's official announcement figures</text>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> 7월24일부터 WLD 일일 언락량이 510만개에서 290만개로 43% 줄어든다. (1) 실제 거래소 입금량이 감축 이후 유의미하게 감소하는지, (2) 세계 재단이 이미 풀린 물량에 대한 장외 매각을 계속할 경우 그 규모가 감축 효과를 상쇄하는지, (3) 아직 풀리지 않은 절반가량의 물량에 대해 추가 완화 조치가 나올지 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> Starting July 24, WLD's daily unlock rate drops from 5.1 million to 2.9 million tokens, a 43% cut. Watch (1) whether actual exchange deposits meaningfully decline after the cut, (2) whether continued Foundation OTC sales of already-unlocked tokens offset the reduction's effect, and (3) whether the roughly half of the 10-billion fixed supply still to unlock through 2038 sees further easing.</div>
