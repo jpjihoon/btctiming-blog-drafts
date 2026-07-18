@@ -550,6 +550,11 @@
 <h2 class="pt">Novembro de 2025, Quando Todos os Sinais Falaram a Uma Só Voz</h2>
 <h2 class="tr">Kasım 2025, Tüm Sinyallerin Tek Bir Ağızdan Konuştuğu An</h2>
 <h2 class="vi">Tháng 11/2025, Khi Mọi Tín Hiệu Cùng Nói Một Tiếng</h2>
+<h2 class="id">November 2025, Ketika Semua Sinyal Berbicara dengan Satu Suara</h2>
+<h2 class="pl">Listopad 2025, Kiedy Każdy Sygnał Przemówił Jednym Głosem</h2>
+<h2 class="it">Novembre 2025, Quando Ogni Segnale Parlava con Una Sola Voce</h2>
+<h2 class="ru">Ноябрь 2025 года, Когда Все Сигналы Заговорили в Один Голос</h2>
+<h2 class="zh">2025 年 11 月,當所有訊號異口同聲</h2>
 
 <p class="ko">2025년 11월 16일, 비트코인은 서로 다른 네 개의 신호군이 동시에 약세를 가리키는 흔치 않은 순간을 맞았다. 50일 이동평균이 200일 이동평균 아래로 내려가는 데드크로스가 발생했고, 같은 시기 주봉 종가가 50주 이동평균 아래로 마감했으며, 온체인 지표인 코인데이즈디스트로이드(CDD)가 위험 신호를 울렸고, 비트코인 현물 ETF에서는 순유출이 이어졌다. 가격·장기추세·온체인·자금흐름이라는 네 개의 서로 다른 카테고리가 동시에 같은 결론을 가리켰다. 10월 6일 기록한 고점 12만 6천 달러 대비 25% 하락한 9만 달러 아래까지 밀렸고, <a href="/blog/golden-cross-death-cross-lag">이 사이트에서 이미 다룬 것처럼</a> 데드크로스 자체가 후행지표라는 사실은 그 순간의 확신에 거의 영향을 주지 못했다.</p>
 <p class="en">On November 16, 2025, Bitcoin hit a rare moment where four distinct categories of signal all pointed bearish at once. A death cross formed as the 50-day moving average dropped below the 200-day. Around the same time, the weekly close fell below the 50-week moving average. The on-chain metric Coin Days Destroyed flashed a danger signal. And Bitcoin spot ETFs kept posting net outflows. Price trend, long-term trend, on-chain activity, and capital flow — four separate categories all pointed to the same conclusion at once. The price fell to below $90,000, down 25% from the October 6 peak of $126,000, and the fact that a death cross <a href="/en/blog/golden-cross-death-cross-lag">is itself a lagging indicator</a>, a point this site has already covered, did almost nothing to dampen the confidence of that moment.</p>
