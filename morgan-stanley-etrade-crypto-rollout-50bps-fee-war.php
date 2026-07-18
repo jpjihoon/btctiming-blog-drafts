@@ -170,6 +170,11 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Yahoo Finance, FX News Group, LeapRate, IBTimes, CoinDesk, Cryptotimes.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:雅虎財經(Yahoo Finance)、FX News Group、LeapRate、IBTimes、CoinDesk、Cryptotimes。</p>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
     <text x="60" y="270" fill="#f4f4f5" font-size="130" font-weight="bold">0.50%</text>
