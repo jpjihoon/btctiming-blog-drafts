@@ -174,6 +174,11 @@
 <h2 class="pt">O Que Observar — Reduzir O Fluxo Não É O Mesmo Que Reduzir O Estoque</h2>
 <h2 class="tr">İzlenmesi Gerekenler — Akışı Azaltmak Stoku Azaltmakla Aynı Şey Değil</h2>
 <h2 class="vi">Điều Cần Theo Dõi — Giảm Dòng Chảy Không Giống Giảm Tồn Kho</h2>
+<h2 class="id">Yang Perlu Diperhatikan — Memangkas Arus Berbeda dengan Memangkas Stok</h2>
+<h2 class="pl">Na Co Zwrócić Uwagę — Cięcie Strumienia To Nie To Samo Co Cięcie Zasobu</h2>
+<h2 class="it">Cosa Osservare — Tagliare Il Flusso Non È Come Tagliare Lo Stock</h2>
+<h2 class="ru">На Что Обратить Внимание — Сокращение Потока Не То Же Самое, Что Сокращение Запаса</h2>
+<h2 class="zh">值得關注的重點——削減流量不等於削減庫存</h2>
 
 <p class="ko">이번 조치를 정확히 이해하려면 '흐름(flow)'과 '재고(stock)'를 구분해야 한다. 43% 감축은 앞으로 새로 풀리는 하루치 물량의 흐름을 줄이는 것이지, 이미 풀린 뒤 아직 시장에 나오지 않은 재고 — 세계 재단이 지난 4월에도 2억3900만개를 장외에서 약 6500만달러에 매각한 전례가 있다 — 를 제거하지는 않는다. 재단이 보유한 재고를 언제 얼마나 시장에 내놓을지는 이번 발표와 무관하게 재단의 재량에 달려 있다.</p>
 <p class="en">Understanding this move precisely requires separating "flow" from "stock." The 43% cut reduces the flow of tokens newly released each day going forward; it does not remove the stock of tokens already unlocked but not yet placed on the market — the Foundation has precedent here, having sold 239 million WLD over-the-counter for about $65 million as recently as April. How much of that stock the Foundation chooses to release, and when, remains entirely at its discretion, independent of this announcement.</p>
