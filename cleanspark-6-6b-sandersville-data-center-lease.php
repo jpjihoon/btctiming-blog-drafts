@@ -9,6 +9,11 @@
 <p class="pt">A mineradora de bitcoin CleanSpark (Nasdaq: CLSK) revelou em 14 de julho que assinou um contrato de infraestrutura de 20 anos com uma empresa de tecnologia global de grau de investimento elevado para seu campus em Sandersville, Geórgia. O acordo promete cerca de US$6,6 bilhões em receita contratada ao longo do prazo inicial de 20 anos, podendo chegar a US$11,6 bilhões se as duas opções de extensão de cinco anos forem exercidas. A construção inicial de 175 megawatts (MW) do data center deve entrar em operação a partir do quarto trimestre de 2027, e as ações da CLSK saltaram até 15% no intradia antes de fechar com alta de 8-12%. A CleanSpark também revelou no mesmo dia ter assinado uma carta de intenções e um acordo de exclusividade com outra empresa de tecnologia cobrindo todo o seu portfólio no Texas, de 718 acres e até 885 MW.</p>
 <p class="tr">Bitcoin madencisi CleanSpark (Nasdaq: CLSK), Georgia eyaletindeki Sandersville kampüsü için yüksek yatırım dereceli küresel bir teknoloji şirketiyle 20 yıllık bir altyapı kira sözleşmesi imzaladığını 14 Temmuz'da açıkladı. Anlaşma, ilk 20 yıllık dönemde yaklaşık 6,6 milyar dolarlık sözleşmeye bağlı gelir vadediyor; iki beş yıllık uzatma opsiyonunun da kullanılması halinde bu rakam 11,6 milyar dolara kadar çıkabiliyor. İlk 175 megavatlık (MW) veri merkezi kapasitesi 2027'nin dördüncü çeyreğinden itibaren kademeli olarak devreye girecek ve haberin ardından CLSK hisseleri gün içinde yüzde 15'e kadar yükseldikten sonra yüzde 8-12 aralığında bir kazançla kapandı. CleanSpark aynı gün, Teksas'taki 718 dönümlük, 885 MW'a kadar kapasiteye sahip tüm portföyü için başka bir teknoloji şirketiyle niyet mektubu ve münhasırlık anlaşması imzaladığını da açıkladı.</p>
 <p class="vi">Công ty khai thác bitcoin CleanSpark (Nasdaq: CLSK) công bố ngày 14/7 rằng đã ký hợp đồng thuê hạ tầng 20 năm với một công ty công nghệ toàn cầu có xếp hạng tín dụng cao cho khuôn viên tại Sandersville, Georgia. Thỏa thuận hứa hẹn khoảng 6,6 tỷ đô la doanh thu theo hợp đồng trong thời hạn ban đầu 20 năm, có thể lên tới 11,6 tỷ đô la nếu cả hai quyền chọn gia hạn 5 năm được thực hiện. Giai đoạn xây dựng trung tâm dữ liệu ban đầu công suất 175 megawatt (MW) dự kiến đi vào hoạt động từ quý 4 năm 2027, và cổ phiếu CLSK đã tăng tới 15% trong phiên trước khi đóng cửa với mức tăng 8-12%. CleanSpark cũng tiết lộ trong cùng ngày rằng đã ký thư bày tỏ ý định và thỏa thuận độc quyền với một công ty công nghệ khác cho toàn bộ danh mục 718 mẫu Anh tại Texas với công suất lên tới 885 MW.</p>
+<p class="id">Penambang bitcoin CleanSpark (Nasdaq: CLSK) mengungkapkan pada 14 Juli bahwa mereka menandatangani sewa infrastruktur 20 tahun dengan sebuah perusahaan teknologi global berperingkat investasi tinggi untuk kampusnya di Sandersville, Georgia. Kesepakatan ini menjanjikan pendapatan kontrak sekitar 6,6 miliar dolar AS selama masa sewa awal 20 tahun, yang dapat meningkat hingga 11,6 miliar dolar AS jika kedua opsi perpanjangan lima tahun digunakan. Pembangunan awal pusat data berkapasitas 175 megawatt (MW) dijadwalkan mulai beroperasi pada kuartal keempat 2027, dan saham CLSK sempat melonjak hingga 15% secara intraday sebelum akhirnya ditutup dengan kenaikan 8-12%. CleanSpark juga mengungkapkan pada hari yang sama bahwa mereka menandatangani surat pernyataan minat dan perjanjian eksklusivitas dengan perusahaan teknologi lain yang mencakup seluruh portofolio Texas seluas 718 acre dengan kapasitas hingga 885 MW.</p>
+<p class="pl">Górnik bitcoina CleanSpark (Nasdaq: CLSK) poinformował 14 lipca, że podpisał 20-letnią umowę najmu infrastruktury z globalną firmą technologiczną o wysokim ratingu inwestycyjnym dla swojego kampusu w Sandersville w stanie Georgia. Umowa zapewnia około 6,6 miliarda dolarów przychodów kontraktowych w początkowym 20-letnim okresie, co może wzrosnąć nawet do 11,6 miliarda dolarów, jeśli obie pięcioletnie opcje przedłużenia zostaną wykorzystane. Początkowa infrastruktura centrum danych o mocy 175 megawatów (MW) ma zacząć działać od czwartego kwartału 2027 roku, a akcje CLSK skoczyły w ciągu dnia nawet o 15%, zanim ustabilizowały się na poziomie wzrostu 8-12%. CleanSpark ujawnił także tego samego dnia, że podpisał list intencyjny i umowę o wyłączności z inną firmą technologiczną, obejmującą cały jego teksański portfel o powierzchni 718 akrów i mocy do 885 MW.</p>
+<p class="it">Il minatore di bitcoin CleanSpark (Nasdaq: CLSK) ha rivelato il 14 luglio di aver firmato un contratto di locazione infrastrutturale ventennale con una società tecnologica globale ad alto rating di investimento per il suo campus di Sandersville, in Georgia. L'accordo promette circa 6,6 miliardi di dollari di ricavi contrattuali nel periodo iniziale di 20 anni, che potrebbero salire fino a 11,6 miliardi di dollari se entrambe le opzioni di proroga quinquennale venissero esercitate. Il primo impianto del data center, da 175 megawatt (MW), dovrebbe entrare in funzione a partire dal quarto trimestre del 2027, e le azioni CLSK sono balzate fino al 15% in giornata prima di chiudere con un guadagno dell'8-12%. CleanSpark ha inoltre rivelato lo stesso giorno di aver firmato una lettera d'intenti e un accordo di esclusiva con un'altra società tecnologica relativo all'intero portafoglio texano da 718 acri e fino a 885 MW.</p>
+<p class="ru">Майнинговая компания CleanSpark (Nasdaq: CLSK) сообщила 14 июля, что подписала 20-летний договор аренды инфраструктуры с глобальной технологической компанией с высоким инвестиционным кредитным рейтингом для своего кампуса в Сандерсвилле, штат Джорджия. Сделка обещает около 6,6 млрд долларов законтрактованной выручки за первоначальный 20-летний срок, которая может вырасти до 11,6 млрд долларов, если будут реализованы оба пятилетних опциона на продление. Первоначальная инфраструктура дата-центра мощностью 175 мегаватт (МВт) должна начать работу в четвёртом квартале 2027 года, а акции CLSK внутри дня подскочили до 15%, прежде чем закрепиться на уровне роста 8-12%. В тот же день CleanSpark также раскрыла, что подписала письмо о намерениях и соглашение об эксклюзивности с другой технологической компанией в отношении всего своего техасского портфеля площадью 718 акров и мощностью до 885 МВт.</p>
+<p class="zh">比特幣礦商CleanSpark(納斯達克代碼:CLSK)於7月14日公告,已與一家信用評等優良的全球科技公司簽署為期20年的基礎設施租賃合約,標的為其位於喬治亞州桑德斯維爾(Sandersville)的園區。這項協議承諾在最初20年合約期間帶來約66億美元的合約營收,若兩次五年展延選擇權均被行使,總額最高可達116億美元。初期175百萬瓦(MW)規模的資料中心建設預計自2027年第四季起陸續啟用,消息傳出後CLSK股價盤中一度飆漲達15%,收盤時漲幅收斂至8%至12%之間。CleanSpark同日並透露,已與另一家科技公司就其位於德州、佔地718英畝、容量最高達885MW的整個園區簽署意向書及排他協議。</p>
 
 <h2 class="ko">계약을 뜯어보면 — 66억달러의 구조</h2>
 <h2 class="en">Breaking Down the Deal — The Structure Behind $6.6 Billion</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">Desmontando o acordo — a estrutura por trás dos US$6,6 bilhões</h2>
 <h2 class="tr">Anlaşmayı çözümlemek — 6,6 milyar doların ardındaki yapı</h2>
 <h2 class="vi">Phân tích thỏa thuận — cấu trúc đằng sau con số 6,6 tỷ đô la</h2>
+<h2 class="id">Membedah Kesepakatan — Struktur di Balik 6,6 Miliar Dolar</h2>
+<h2 class="pl">Rozkładając umowę na czynniki pierwsze — struktura stojąca za 6,6 miliarda dolarów</h2>
+<h2 class="it">Analizzando l'accordo — la struttura dietro i 6,6 miliardi di dollari</h2>
+<h2 class="ru">Разбираем сделку — структура за 6,6 млрд долларов</h2>
+<h2 class="zh">拆解這筆交易——66億美元背後的結構</h2>
 
 <p class="ko">프라뉴스와이어와 SEC 8-K 공시에 따르면, 이번 계약은 클린스파크가 보유한 조지아주 샌더스빌 캠퍼스 부지를 최대 175MW 규모 데이터센터 인프라로 개조해 임차인에게 넘기는 구조다. 세입자는 "신용등급 우량(high-investment-grade) 글로벌 기술기업"으로만 공개됐을 뿐 사명은 비공개다. 20년 고정 임대 기간에 두 차례 5년 연장 옵션이 붙어 있어, 모든 옵션이 행사되면 계약 총 기간은 30년, 누적 매출은 116억 달러에 이른다.</p>
 <p class="ko">같은 날 발표된 텍사스 부속 계약도 눈여겨볼 대목이다. 클린스파크는 텍사스주 소재 718에이커, 최대 885MW 규모 부지 전체에 대해 또 다른 기술기업과 임차의향서 및 독점협상권 계약을 맺었다고 밝혔다. 아직 구속력 있는 최종 계약은 아니지만, 조지아 거래가 일회성 이벤트가 아니라 회사 전체 파이프라인의 시작점일 수 있다는 신호로 읽힌다. 클린스파크는 이번 전환 속에서도 비트코인 채굴 사업 자체는 병행하고 있으며, <a href="/blog/cleanspark-record-hashrate-june-production">앞서 6월 기록적인 자체 채굴량을 보고</a>한 바 있다.</p>
@@ -38,6 +48,16 @@
 <p class="tr">Aynı gün yapılan tamamlayıcı bir duyuru da dikkate değer. CleanSpark, Teksas'taki 718 dönümlük, 885 MW'a kadar kapasiteye sahip tüm portföyü için başka bir teknoloji şirketiyle niyet mektubu ve münhasırlık anlaşması da imzaladığını belirtti. Bu henüz bağlayıcı bir nihai sözleşme değil, ancak Georgia anlaşmasının tek seferlik bir olay değil, daha geniş bir boru hattının açılış hamlesi olabileceğine dair bir sinyal olarak okunuyor. CleanSpark bu dönüşüm sırasında da temel bitcoin madenciliği faaliyetini sürdürüyor ve <a href="/tr/blog/cleanspark-record-hashrate-june-production">haziran ayında rekor kendi madencilik üretimini bildirmişti</a>.</p>
 <p class="vi">Theo thông cáo của PR Newswire và hồ sơ Mẫu 8-K nộp cho SEC, thỏa thuận này chuyển đổi một phần địa điểm của CleanSpark tại Sandersville, Georgia thành hạ tầng trung tâm dữ liệu công suất lên tới 175 MW để bàn giao cho bên thuê. Đối tác chỉ được xác định là một công ty công nghệ toàn cầu có "xếp hạng tín dụng cao"; tên công ty không được tiết lộ. Hợp đồng thuê cố định 20 năm đi kèm hai quyền chọn gia hạn 5 năm, vì vậy nếu cả hai được thực hiện, hợp đồng có thể kéo dài 30 năm và tạo ra tổng cộng 11,6 tỷ đô la.</p>
 <p class="vi">Một thông báo đi kèm được công bố cùng ngày cũng đáng chú ý. CleanSpark cho biết cũng đã ký thư bày tỏ ý định và thỏa thuận độc quyền với một công ty công nghệ khác, bao trùm toàn bộ danh mục 718 mẫu Anh tại Texas với công suất lên tới 885 MW. Đây chưa phải là hợp đồng cuối cùng ràng buộc, nhưng được xem như tín hiệu cho thấy thỏa thuận Georgia có thể là bước đi mở đầu của một chuỗi dự án rộng lớn hơn chứ không phải sự kiện đơn lẻ. CleanSpark vẫn tiếp tục vận hành mảng khai thác bitcoin cốt lõi song song với bước chuyển này, sau khi <a href="/vi/blog/cleanspark-record-hashrate-june-production">báo cáo sản lượng tự khai thác kỷ lục vào tháng 6</a>.</p>
+<p class="id">Menurut rilis PR Newswire dan pengajuan Formulir 8-K perusahaan ke SEC, kesepakatan ini mengubah sebagian lokasi CleanSpark di Sandersville, Georgia menjadi infrastruktur pusat data berkapasitas hingga 175 MW yang akan diserahkan kepada penyewa. Pihak lawan hanya diidentifikasi sebagai perusahaan teknologi global "berperingkat investasi tinggi"; namanya tidak diungkapkan. Sewa tetap 20 tahun ini disertai dua opsi perpanjangan lima tahun, sehingga jika keduanya digunakan, kontrak dapat berlangsung selama 30 tahun dan menghasilkan total kumulatif 11,6 miliar dolar AS.</p>
+<p class="id">Pengumuman pendamping yang dibuat pada hari yang sama patut dicatat. CleanSpark mengatakan mereka juga menandatangani surat pernyataan minat dan perjanjian eksklusivitas dengan perusahaan teknologi lain yang mencakup seluruh portofolio Texas seluas 718 acre dengan kapasitas hingga 885 MW. Ini belum menjadi kontrak final yang mengikat, tetapi dapat dibaca sebagai sinyal bahwa kesepakatan Georgia mungkin merupakan langkah pembuka dari jalur bisnis yang lebih luas, bukan kejadian sekali saja. CleanSpark tetap menjalankan operasi inti penambangan bitcoin-nya bersamaan dengan pergeseran ini, setelah <a href="/id/blog/cleanspark-record-hashrate-june-production">melaporkan produksi hasil tambang sendiri yang mencatat rekor pada Juni</a>.</p>
+<p class="pl">Według komunikatu PR Newswire oraz formularza 8-K złożonego przez spółkę do SEC, umowa przekształca część terenu CleanSpark w Sandersville w stanie Georgia w infrastrukturę centrum danych o mocy do 175 MW, która zostanie przekazana najemcy. Druga strona umowy została określona jedynie jako globalna firma technologiczna o „wysokim ratingu inwestycyjnym”; jej nazwa nie została ujawniona. 20-letnia umowa najmu o stałych warunkach zawiera dwie pięcioletnie opcje przedłużenia, więc jeśli obie zostaną wykorzystane, kontrakt może trwać 30 lat i wygenerować łącznie 11,6 miliarda dolarów.</p>
+<p class="pl">Warto zwrócić uwagę na towarzyszące ogłoszenie z tego samego dnia. CleanSpark poinformował, że podpisał również list intencyjny i umowę o wyłączności z inną firmą technologiczną, obejmującą cały jego teksański portfel o powierzchni 718 akrów i mocy do 885 MW. To jeszcze nie jest wiążący kontrakt końcowy, ale można to odczytać jako sygnał, że umowa w Georgii może być pierwszym krokiem w szerszym cyklu transakcji, a nie jednorazowym wydarzeniem. CleanSpark nadal prowadzi swoją podstawową działalność w zakresie wydobycia bitcoina równolegle z tym zwrotem, po tym jak <a href="/pl/blog/cleanspark-record-hashrate-june-production">poinformował o rekordowej produkcji z własnego wydobycia w czerwcu</a>.</p>
+<p class="it">Secondo il comunicato di PR Newswire e il modulo 8-K depositato dall'azienda presso la SEC, l'accordo converte parte del sito di CleanSpark a Sandersville, in Georgia, in un'infrastruttura di data center fino a 175 MW da consegnare al conduttore. La controparte è identificata solo come una società tecnologica globale ad «alto rating di investimento»; il suo nome non è stato reso noto. Il contratto di locazione fisso a 20 anni include due opzioni di proroga quinquennale, quindi se entrambe venissero esercitate il contratto potrebbe durare 30 anni e generare un totale cumulato di 11,6 miliardi di dollari.</p>
+<p class="it">Vale la pena notare un annuncio complementare fatto lo stesso giorno. CleanSpark ha dichiarato di aver firmato anche una lettera d'intenti e un accordo di esclusiva con un'altra società tecnologica, relativo all'intero portafoglio texano da 718 acri e fino a 885 MW. Non si tratta ancora di un contratto finale vincolante, ma può essere letto come un segnale che l'accordo in Georgia potrebbe essere la prima mossa di un percorso più ampio, piuttosto che un evento isolato. CleanSpark continua a gestire la propria attività principale di estrazione di bitcoin parallelamente a questa svolta, dopo aver <a href="/it/blog/cleanspark-record-hashrate-june-production">riportato una produzione propria record a giugno</a>.</p>
+<p class="ru">Согласно пресс-релизу PR Newswire и форме 8-K, поданной компанией в SEC, сделка предполагает преобразование части площадки CleanSpark в Сандерсвилле, штат Джорджия, в инфраструктуру дата-центра мощностью до 175 МВт, которая будет передана арендатору. Контрагент обозначен лишь как глобальная технологическая компания с «высоким инвестиционным рейтингом»; её название не раскрывается. Фиксированный 20-летний договор аренды предусматривает два пятилетних опциона на продление, поэтому при их реализации контракт может действовать 30 лет и принести совокупно 11,6 млрд долларов.</p>
+<p class="ru">Стоит отметить сопутствующее объявление, сделанное в тот же день. CleanSpark сообщила, что также подписала письмо о намерениях и соглашение об эксклюзивности с другой технологической компанией в отношении всего своего техасского портфеля площадью 718 акров и мощностью до 885 МВт. Это пока не имеющий обязательной силы окончательный контракт, но это можно расценивать как сигнал того, что сделка в Джорджии может быть первым шагом в более широкой серии проектов, а не разовым событием. CleanSpark продолжает вести свой основной бизнес по майнингу биткоина параллельно с этим разворотом, ранее <a href="/ru/blog/cleanspark-record-hashrate-june-production">сообщив о рекордной собственной добыче в июне</a>.</p>
+<p class="zh">根據PR Newswire新聞稿及該公司向SEC提交的8-K表格,這筆交易將CleanSpark位於喬治亞州桑德斯維爾園區的部分土地,改建為最高175MW規模的資料中心基礎設施,並移交給承租方。交易對手僅被描述為一家「信用評等優良」的全球科技公司,公司名稱並未公開。這份20年固定租約附帶兩次五年展延選擇權,若兩項選擇權皆被行使,合約期限最長可達30年,累計營收將達116億美元。</p>
+<p class="zh">同日發布的另一項相關公告同樣值得關注。CleanSpark表示,已與另一家科技公司就其位於德州、佔地718英畝、容量最高達885MW的整個投資組合簽署意向書及排他協議。這尚非具法律約束力的最終合約,但可解讀為一種訊號,顯示喬治亞州的交易或許只是更廣泛佈局的第一步,而非單一事件。CleanSpark在推動這項轉型的同時,仍持續營運其核心比特幣挖礦業務,此前並曾<a href="/zh/blog/cleanspark-record-hashrate-june-production">公布6月自營挖礦產量創下紀錄</a>。</p>
 
 <h2 class="ko">왜 채권이 아니라 임대인가 — 그리고 동종업계 비교</h2>
 <h2 class="en">Why a Lease, Not Debt — and How It Compares to Peers</h2>
@@ -48,6 +68,11 @@
 <h2 class="pt">Por que um contrato de locação, não dívida — e a comparação com os pares</h2>
 <h2 class="tr">Neden borç değil kira — ve emsalleriyle karşılaştırma</h2>
 <h2 class="vi">Vì sao là hợp đồng thuê chứ không phải nợ vay — và so sánh với các đối thủ cùng ngành</h2>
+<h2 class="id">Mengapa Sewa, Bukan Utang — dan Perbandingan dengan Kompetitor</h2>
+<h2 class="pl">Dlaczego najem, a nie dług — i jak wypada na tle konkurencji</h2>
+<h2 class="it">Perché la locazione e non il debito — e il confronto con i concorrenti</h2>
+<h2 class="ru">Почему аренда, а не долг — и сравнение с конкурентами</h2>
+<h2 class="zh">為何選擇租賃而非舉債——以及與同業的比較</h2>
 
 <p class="ko">채굴기업이 AI 데이터센터로 전환할 때 택하는 자금조달 방식은 크게 갈린다. 앞서 <a href="/blog/terawulf-morgan-stanley-3-5b-debt-financing">테라울프는 모건스탠리 주도로 35억 달러 규모 레버리지론·하이일드 채권을 조달</a>해 켄터키 캠퍼스를 직접 짓고 있다. 반면 클린스파크는 부채를 새로 일으키지 않고 자사 부동산·전력 인프라를 임대하는 방식을 택했다. 임대 모델에서는 시설 완공과 운영 리스크의 상당 부분이 임차인 쪽으로 넘어가는 대신, 클린스파크는 매달 확정된 임대료 수익을 확보하는 구조다.</p>
 <p class="ko">규모 면에서도 이번 거래는 두드러진다. 코어사이언티픽이 하이일드 채권 33억 달러로, 사이퍼마이닝이 담보부채 17억 달러로 각각 AI 전환 자금을 조달한 것과 비교하면, 클린스파크의 초기 66억 달러·최대 116억 달러는 채굴기업의 AI 인프라 전환 거래 중 가장 큰 규모다. 다만 채굴기업들이 부채·임대·전환사채 등 서로 다른 자본 구조를 실험하고 있다는 사실 자체가, 시장이 아직 '채굴장에서 전환된 AI 데이터센터'라는 새로운 자산군의 표준 가격 책정법을 찾지 못했다는 뜻이기도 하다.</p>
@@ -67,6 +92,16 @@
 <p class="tr">Ölçek de dikkat çekiyor. Core Scientific yapay zeka dönüşümünü 3,3 milyar dolarlık tek bir yüksek getirili tahville finanse etti, Cipher Mining ise 1,7 milyar dolarlık teminatlı senetler kullandı; bu arka plana karşı CleanSpark'ın 6,6 milyar dolarlık başlangıç rakamı (uzatmalarla 11,6 milyara kadar), bitcoin madencileri arasında bugüne kadarki en büyük yapay zeka altyapısı dönüşüm anlaşması. Madencilerin aynı anda borç, kiralama ve dönüştürülebilir yapılarla deney yapması, piyasanın bu yeni "dönüştürülmüş madencilik sahası" varlık sınıfını fiyatlandırmak için henüz standart bir yönteme yerleşmediğini gösteriyor.</p>
 <p class="vi">Các công ty khai thác chuyển đổi sang trung tâm dữ liệu AI đã chia thành các phe tài trợ khác nhau. Chẳng hạn, <a href="/vi/blog/terawulf-morgan-stanley-3-5b-debt-financing">TeraWulf đang huy động khoảng 3,5 tỷ đô la vốn vay có đòn bẩy và trái phiếu lợi suất cao do Morgan Stanley dẫn đầu</a> để trực tiếp xây dựng khuôn viên riêng tại Kentucky. Trong khi đó, CleanSpark chọn cho thuê bất động sản và hạ tầng điện của mình mà không phát sinh nợ mới. Trong cấu trúc cho thuê, phần lớn rủi ro hoàn thành và vận hành chuyển sang bên thuê, trong khi CleanSpark đảm bảo được dòng thu nhập cho thuê hàng tháng cố định.</p>
 <p class="vi">Quy mô cũng là điểm nổi bật. Core Scientific đã tài trợ cho bước chuyển AI của mình bằng một trái phiếu lợi suất cao duy nhất trị giá 3,3 tỷ đô la, còn Cipher Mining sử dụng 1,7 tỷ đô la trái phiếu có bảo đảm; trong bối cảnh đó, con số ban đầu 6,6 tỷ đô la (lên tới 11,6 tỷ đô la) của CleanSpark là thỏa thuận chuyển đổi hạ tầng AI lớn nhất từ trước đến nay giữa các công ty khai thác bitcoin. Việc các công ty khai thác đồng thời thử nghiệm nợ vay, cho thuê và các cấu trúc chuyển đổi cho thấy thị trường vẫn chưa thống nhất một cách chuẩn hóa để định giá loại tài sản mới "địa điểm khai thác được chuyển đổi" này.</p>
+<p class="id">Perusahaan penambang yang beralih ke pusat data AI terbagi ke dalam kubu pendanaan yang berbeda-beda. <a href="/id/blog/terawulf-morgan-stanley-3-5b-debt-financing">TeraWulf, misalnya, tengah menghimpun sekitar 3,5 miliar dolar AS melalui pinjaman berleverage dan obligasi imbal hasil tinggi yang dipimpin Morgan Stanley</a> untuk membangun kampusnya sendiri di Kentucky secara langsung. CleanSpark sebaliknya memilih untuk menyewakan properti dan infrastruktur listriknya tanpa menambah utang baru. Dalam struktur sewa, sebagian besar risiko penyelesaian dan operasional beralih ke penyewa, sementara CleanSpark mengunci aliran pendapatan sewa bulanan yang tetap.</p>
+<p class="id">Skalanya juga menonjol. Core Scientific mendanai pergeserannya ke AI dengan satu obligasi imbal hasil tinggi senilai 3,3 miliar dolar AS, dan Cipher Mining menggunakan 1,7 miliar dolar AS surat utang beragun aset; dengan latar belakang itu, angka awal 6,6 miliar dolar AS (hingga 11,6 miliar dolar AS) milik CleanSpark menjadi kesepakatan konversi infrastruktur AI terbesar di antara penambang bitcoin hingga saat ini. Fakta bahwa para penambang tengah bereksperimen dengan utang, sewa, dan struktur konversi sekaligus menunjukkan bahwa pasar masih belum menemukan cara standar untuk menilai kelas aset baru "lokasi tambang yang dikonversi" ini.</p>
+<p class="pl">Górnicy przechodzący na centra danych AI podzielili się na różne obozy finansowania. <a href="/pl/blog/terawulf-morgan-stanley-3-5b-debt-financing">TeraWulf na przykład pozyskuje około 3,5 miliarda dolarów w kredytach lewarowanych i obligacjach wysokodochodowych pod przewodnictwem Morgan Stanley</a>, aby bezpośrednio zbudować własny kampus w Kentucky. CleanSpark zamiast tego zdecydował się wynająć swoje nieruchomości i infrastrukturę energetyczną bez zaciągania nowego długu. W strukturze najmu znaczna część ryzyka realizacji i eksploatacji przenosi się na najemcę, podczas gdy CleanSpark zapewnia sobie stały, comiesięczny strumień przychodów z czynszu.</p>
+<p class="pl">Skala również zwraca uwagę. Core Scientific sfinansował swój zwrot ku AI pojedynczą obligacją wysokodochodową o wartości 3,3 miliarda dolarów, a Cipher Mining wykorzystał 1,7 miliarda dolarów w zabezpieczonych obligacjach; na tym tle początkowa kwota 6,6 miliarda dolarów (do 11,6 miliarda) CleanSpark jest jak dotąd największą transakcją konwersji infrastruktury AI wśród górników bitcoina. Fakt, że górnicy eksperymentują jednocześnie z długiem, najmem i strukturami zamiennymi, sugeruje, że rynek nadal nie wypracował standardowego sposobu wyceny tej nowej klasy aktywów, jaką jest „przekształcona kopalnia”.</p>
+<p class="it">I minatori che si convertono in data center per l'IA si sono divisi in diversi schieramenti di finanziamento. <a href="/it/blog/terawulf-morgan-stanley-3-5b-debt-financing">TeraWulf, ad esempio, sta raccogliendo circa 3,5 miliardi di dollari in prestiti a leva e obbligazioni ad alto rendimento guidati da Morgan Stanley</a> per costruire direttamente il proprio campus in Kentucky. CleanSpark ha invece scelto di dare in locazione i propri immobili e la propria infrastruttura elettrica senza assumere nuovo debito. In una struttura di locazione, gran parte del rischio di completamento e operativo si trasferisce al conduttore, mentre CleanSpark si assicura un flusso fisso di reddito da locazione mensile.</p>
+<p class="it">Anche la scala si distingue. Core Scientific ha finanziato la sua svolta verso l'IA con una singola obbligazione ad alto rendimento da 3,3 miliardi di dollari, e Cipher Mining ha utilizzato 1,7 miliardi di dollari in note garantite; in questo contesto, la cifra iniziale di 6,6 miliardi di dollari (fino a 11,6 miliardi) di CleanSpark è il più grande accordo di conversione di infrastrutture IA tra i minatori di bitcoin finora registrato. Il fatto che i minatori stiano sperimentando contemporaneamente debito, locazione e strutture convertibili suggerisce che il mercato non ha ancora trovato un modo standard per valutare questa nuova classe di attivi rappresentata dai «siti minerari convertiti».</p>
+<p class="ru">Майнеры, переходящие на дата-центры для ИИ, разделились на разные лагеря по способу финансирования. <a href="/ru/blog/terawulf-morgan-stanley-3-5b-debt-financing">TeraWulf, например, привлекает около 3,5 млрд долларов в виде кредитов с использованием заёмных средств и высокодоходных облигаций под руководством Morgan Stanley</a>, чтобы напрямую построить собственный кампус в Кентукки. CleanSpark же решила сдать в аренду свою недвижимость и энергетическую инфраструктуру, не привлекая нового долга. При такой структуре аренды значительная часть риска завершения строительства и эксплуатационного риска переходит на арендатора, а CleanSpark фиксирует стабильный ежемесячный арендный доход.</p>
+<p class="ru">Масштаб сделки также выделяется. Core Scientific профинансировала свой разворот в сторону ИИ с помощью единственной высокодоходной облигации на 3,3 млрд долларов, а Cipher Mining использовала обеспеченные облигации на 1,7 млрд долларов; на этом фоне первоначальная сумма CleanSpark в 6,6 млрд долларов (до 11,6 млрд долларов) — крупнейшая на сегодня сделка по конвертации инфраструктуры под ИИ среди майнеров биткоина. То, что майнеры одновременно экспериментируют с долгом, арендой и конвертируемыми структурами, говорит о том, что рынок пока не выработал стандартный способ оценки этого нового класса активов — «переоборудованной майнинговой площадки».</p>
+<p class="zh">轉型為AI資料中心的礦商,在融資策略上出現了不同陣營。<a href="/zh/blog/terawulf-morgan-stanley-3-5b-debt-financing">例如TeraWulf正透過摩根士丹利主導,籌集約35億美元的槓桿貸款及高收益債券</a>,以自行直接興建其位於肯塔基州的園區。CleanSpark則選擇在不新增舉債的情況下,將自有不動產與電力基礎設施出租。在租賃架構下,大部分完工與營運風險轉移至承租方,而CleanSpark則鎖定固定的每月租金收入來源。</p>
+<p class="zh">交易規模同樣引人注目。Core Scientific以單一一筆33億美元的高收益債券為其AI轉型融資,Cipher Mining則動用了17億美元的擔保票據;相較之下,CleanSpark初期66億美元(最高可達116億美元)的金額,是目前比特幣礦商中規模最大的AI基礎設施轉換交易。礦商同時嘗試舉債、租賃與可轉換結構等不同融資方式,顯示市場對於這類「由礦場轉型而來的資料中心」新資產類別,尚未形成標準的定價方式。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -338,6 +373,156 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CleanSpark's $6.6-11.6B Lease Deal</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">$6.6-11.6B</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">20-30yr contract revenue</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">175 MW</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Initial IT load capacity</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2027 Q4</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">First delivery date</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="24" font-weight="800">+8-15%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">CLSK stock after news</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Miner AI-pivot financing size comparison</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Cipher Mining · secured notes $1.7B</text>
+    <rect x="20" y="230" width="120" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Core Scientific · high-yield bond $3.3B</text>
+    <rect x="20" y="280" width="230" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · leveraged loan+HY bond $3.5B</text>
+    <rect x="20" y="330" width="245" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="372" fill="#e4e4e7" font-size="13">CleanSpark · 20-yr lease $6.6-11.6B</text>
+    <rect x="20" y="380" width="580" height="24" rx="6" fill="#06b6d4"/>
+    <text x="20" y="410" fill="#52525b" font-size="12">Sources: PR Newswire, SEC 8-K, Blockspace, Investing.com, StockTitan (bar length relative, not to scale)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CleanSpark's $6.6-11.6B Lease Deal</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">$6.6-11.6B</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">20-30yr contract revenue</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">175 MW</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Initial IT load capacity</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2027 Q4</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">First delivery date</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="24" font-weight="800">+8-15%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">CLSK stock after news</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Miner AI-pivot financing size comparison</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Cipher Mining · secured notes $1.7B</text>
+    <rect x="20" y="230" width="120" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Core Scientific · high-yield bond $3.3B</text>
+    <rect x="20" y="280" width="230" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · leveraged loan+HY bond $3.5B</text>
+    <rect x="20" y="330" width="245" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="372" fill="#e4e4e7" font-size="13">CleanSpark · 20-yr lease $6.6-11.6B</text>
+    <rect x="20" y="380" width="580" height="24" rx="6" fill="#06b6d4"/>
+    <text x="20" y="410" fill="#52525b" font-size="12">Sources: PR Newswire, SEC 8-K, Blockspace, Investing.com, StockTitan (bar length relative, not to scale)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CleanSpark's $6.6-11.6B Lease Deal</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">$6.6-11.6B</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">20-30yr contract revenue</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">175 MW</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Initial IT load capacity</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2027 Q4</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">First delivery date</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="24" font-weight="800">+8-15%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">CLSK stock after news</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Miner AI-pivot financing size comparison</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Cipher Mining · secured notes $1.7B</text>
+    <rect x="20" y="230" width="120" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Core Scientific · high-yield bond $3.3B</text>
+    <rect x="20" y="280" width="230" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · leveraged loan+HY bond $3.5B</text>
+    <rect x="20" y="330" width="245" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="372" fill="#e4e4e7" font-size="13">CleanSpark · 20-yr lease $6.6-11.6B</text>
+    <rect x="20" y="380" width="580" height="24" rx="6" fill="#06b6d4"/>
+    <text x="20" y="410" fill="#52525b" font-size="12">Sources: PR Newswire, SEC 8-K, Blockspace, Investing.com, StockTitan (bar length relative, not to scale)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CleanSpark's $6.6-11.6B Lease Deal</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">$6.6-11.6B</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">20-30yr contract revenue</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">175 MW</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Initial IT load capacity</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2027 Q4</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">First delivery date</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="24" font-weight="800">+8-15%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">CLSK stock after news</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Miner AI-pivot financing size comparison</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Cipher Mining · secured notes $1.7B</text>
+    <rect x="20" y="230" width="120" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Core Scientific · high-yield bond $3.3B</text>
+    <rect x="20" y="280" width="230" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · leveraged loan+HY bond $3.5B</text>
+    <rect x="20" y="330" width="245" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="372" fill="#e4e4e7" font-size="13">CleanSpark · 20-yr lease $6.6-11.6B</text>
+    <rect x="20" y="380" width="580" height="24" rx="6" fill="#06b6d4"/>
+    <text x="20" y="410" fill="#52525b" font-size="12">Sources: PR Newswire, SEC 8-K, Blockspace, Investing.com, StockTitan (bar length relative, not to scale)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CleanSpark's $6.6-11.6B Lease Deal</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">$6.6-11.6B</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">20-30yr contract revenue</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">175 MW</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Initial IT load capacity</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">2027 Q4</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">First delivery date</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="24" font-weight="800">+8-15%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">CLSK stock after news</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Miner AI-pivot financing size comparison</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Cipher Mining · secured notes $1.7B</text>
+    <rect x="20" y="230" width="120" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Core Scientific · high-yield bond $3.3B</text>
+    <rect x="20" y="280" width="230" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · leveraged loan+HY bond $3.5B</text>
+    <rect x="20" y="330" width="245" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="372" fill="#e4e4e7" font-size="13">CleanSpark · 20-yr lease $6.6-11.6B</text>
+    <rect x="20" y="380" width="580" height="24" rx="6" fill="#06b6d4"/>
+    <text x="20" y="410" fill="#52525b" font-size="12">Sources: PR Newswire, SEC 8-K, Blockspace, Investing.com, StockTitan (bar length relative, not to scale)</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">반론 — 세입자 미공개와 단일 임차인 집중 리스크</h2>
 <h2 class="en">The Counterargument — An Undisclosed Tenant and Concentration Risk</h2>
@@ -348,6 +533,11 @@
 <h2 class="pt">O contra-argumento — um locatário não revelado e risco de concentração</h2>
 <h2 class="tr">Karşı argüman — açıklanmayan kiracı ve yoğunlaşma riski</h2>
 <h2 class="vi">Quan điểm phản biện — khách thuê không được tiết lộ và rủi ro tập trung</h2>
+<h2 class="id">Kontra-argumen — Penyewa yang Tidak Diungkapkan dan Risiko Konsentrasi</h2>
+<h2 class="pl">Kontrargument — nieujawniony najemca i ryzyko koncentracji</h2>
+<h2 class="it">La controargomentazione — Un conduttore non divulgato e il rischio di concentrazione</h2>
+<h2 class="ru">Контраргумент — нераскрытый арендатор и риск концентрации</h2>
+<h2 class="zh">反面論點——未公開的承租方與集中度風險</h2>
 
 <p class="ko">세입자 실명을 밝히지 않는 것은 대형 임대 계약에서 드문 일이 아니지만, 이번 경우 66억~116억 달러 계약매출 전체가 사실상 익명의 단일 임차인 한 곳에 걸려 있다는 뜻이기도 하다. 만약 이 "신용등급 우량" 기업의 재무 상태가 훗날 나빠지거나 데이터센터 수요 계획이 축소된다면, 지금 발표된 계약 총액은 어디까지나 상한선일 뿐 실제로 실현되지 않을 수 있다. 클린스파크가 지난달 발표한 코인베이스 프라임발 국채 압류 자산 이전 소식이나 여타 기관 자금 뉴스와 달리, 이번 거래는 검증 가능한 3자 확인 없이 회사 자체 발표에 의존하고 있다는 점도 유의할 부분이다.</p>
 <p class="ko">2027년 4분기 첫 가동 전까지는 매출 없이 건설비만 투입되는 기간이 이어진다는 점도 테라울프 사례에서와 마찬가지로 지적된다. 만약 AI 데이터센터 수요 사이클이 2027년 이전에 꺾인다면, 클린스파크는 착공하지 않은 시설에 대한 계약을 안고 있는 처지에 놓일 수 있다. 아울러 이번 주가 급등이 실제 매출이나 이익 실현이 아니라 '계약 발표' 자체에 대한 반응이었다는 점은, 채굴기업 AI 전환 뉴스 전반에서 반복되는 패턴이자 시장이 여전히 서사에 먼저 반응하고 있다는 방증이기도 하다.</p>
@@ -367,6 +557,16 @@
 <p class="tr">Ayrıca bir inşaat dönemi boşluğu da var: ilk aşama 2027'nin dördüncü çeyreğinde devreye girene kadar, CleanSpark karşılığında gelir olmadan inşaat için ödeme yapıyor — TeraWulf'un kaldıraçlı kredi anlaşmasında da işaret edilen aynı yapısal risk. Yapay zeka veri merkezi talep döngüsü bundan önce soğursa, CleanSpark inşa edilmemiş bir tesise karşı sözleşmelerle baş başa kalabilir. Ve hisse senedindeki sıçramanın gerçek gelir veya kâra değil bir imza duyurusuna tepki olarak gerçekleşmesi, bitcoin madencilerinin yapay zeka dönüşüm haberlerinde sürekli tekrarlanan bir örüntü — piyasanın hâlâ temel verilerden önce anlatıyı fiyatladığının kanıtı.</p>
 <p class="vi">Việc không tiết lộ tên khách thuê không phải là điều bất thường đối với một hợp đồng thuê lớn, nhưng trong trường hợp này, nó cũng có nghĩa là toàn bộ 6,6-11,6 tỷ đô la doanh thu theo hợp đồng phụ thuộc vào một đối tác duy nhất, ẩn danh. Nếu tình hình tài chính của công ty "xếp hạng tín dụng cao" này sau này xấu đi hoặc thu hẹp kế hoạch nhu cầu trung tâm dữ liệu, con số công bố vẫn chỉ là mức trần có thể không bao giờ được hiện thực hóa đầy đủ. Khác với, chẳng hạn, các khoản chuyển giao của chính phủ được bên thứ ba xác minh, các điều khoản của giao dịch này hoàn toàn dựa vào công bố riêng của CleanSpark, không có xác nhận độc lập về danh tính hay mức độ tín nhiệm của khách thuê.</p>
 <p class="vi">Cũng tồn tại khoảng trống giai đoạn xây dựng: cho đến khi giai đoạn đầu đi vào hoạt động vào quý 4 năm 2027, CleanSpark phải trả chi phí xây dựng mà không có doanh thu bù đắp — cùng loại rủi ro cấu trúc đã được chỉ ra trong thỏa thuận vay có đòn bẩy của TeraWulf. Nếu chu kỳ nhu cầu trung tâm dữ liệu AI hạ nhiệt trước thời điểm đó, CleanSpark có thể rơi vào cảnh nắm giữ các hợp đồng cho một cơ sở chưa được xây dựng. Và việc cổ phiếu tăng vọt là phản ứng trước thông báo ký kết chứ không phải doanh thu hay lợi nhuận thực tế là một khuôn mẫu liên tục lặp lại trong các tin tức chuyển đổi AI của các công ty khai thác bitcoin — bằng chứng cho thấy thị trường vẫn đang giao dịch theo câu chuyện kể trước khi xét đến các yếu tố cơ bản.</p>
+<p class="id">Tidak mengungkapkan nama penyewa bukanlah hal yang tidak biasa untuk sewa berskala besar, tetapi dalam kasus ini hal itu juga berarti seluruh pendapatan kontrak sebesar 6,6-11,6 miliar dolar AS bergantung pada satu pihak lawan yang anonim. Jika kondisi keuangan perusahaan "berperingkat investasi tinggi" itu kemudian memburuk atau mereka mengurangi rencana permintaan pusat data, angka utama yang diumumkan tetap menjadi batas atas yang mungkin tidak pernah terealisasi sepenuhnya. Berbeda dengan, misalnya, transfer pemerintah pihak ketiga yang terverifikasi, ketentuan transaksi ini sepenuhnya bergantung pada pengungkapan CleanSpark sendiri, tanpa konfirmasi independen atas identitas atau kelayakan kredit penyewa.</p>
+<p class="id">Ada juga celah masa konstruksi: hingga fase pertama beroperasi pada kuartal keempat 2027, CleanSpark membayar biaya pembangunan tanpa pendapatan penyeimbang — risiko struktural yang sama dengan yang disoroti dalam kesepakatan pinjaman berleverage TeraWulf. Jika siklus permintaan pusat data AI mendingin sebelum itu, CleanSpark bisa saja terjebak memegang kontrak atas fasilitas yang belum dibangun. Dan fakta bahwa lonjakan saham merespons pengumuman penandatanganan, bukan pendapatan atau laba aktual, adalah pola yang terus berulang di seluruh berita pergeseran AI penambang bitcoin — bukti bahwa pasar masih memperdagangkan narasi mendahului fundamental.</p>
+<p class="pl">Nieujawnianie nazwy najemcy nie jest niczym niezwykłym przy dużym najmie, ale w tym przypadku oznacza to również, że cały przychód kontraktowy w wysokości 6,6-11,6 miliarda dolarów opiera się na jednej, anonimowej stronie. Jeśli kondycja finansowa tej firmy o „wysokim ratingu inwestycyjnym” pogorszy się później albo ograniczy ona swoje plany zapotrzebowania na centra danych, nagłówkowa kwota pozostanie jedynie pułapem, który może nigdy nie zostać w pełni zrealizowany. W przeciwieństwie na przykład do zweryfikowanych transferów rządowych z udziałem strony trzeciej, warunki tej transakcji opierają się wyłącznie na własnym ujawnieniu CleanSpark, bez niezależnego potwierdzenia tożsamości czy wiarygodności kredytowej najemcy.</p>
+<p class="pl">Istnieje też luka okresu budowy: dopóki pierwsza faza nie zostanie uruchomiona w czwartym kwartale 2027 roku, CleanSpark płaci za budowę bez kompensujących przychodów — to samo ryzyko strukturalne, jakie odnotowano w transakcji kredytu lewarowanego TeraWulf. Gdyby cykl popytu na centra danych AI ochłodził się wcześniej, CleanSpark mógłby zostać z kontraktami na obiekt, który nie został zbudowany. A fakt, że skok kursu akcji był reakcją na ogłoszenie podpisania umowy, a nie na rzeczywiste przychody czy zyski, to wzorzec, który wciąż powtarza się w wiadomościach o zwrocie ku AI wśród górników bitcoina — dowód na to, że rynek wciąż handluje narracją, wyprzedzając fundamenty.</p>
+<p class="it">Non rivelare il nome di un conduttore non è insolito per una locazione di grandi dimensioni, ma in questo caso significa anche che l'intero ricavo contrattuale di 6,6-11,6 miliardi di dollari poggia su un'unica controparte anonima. Se le finanze di questa società ad «alto rating di investimento» dovessero deteriorarsi in futuro o se essa ridimensionasse i propri piani di domanda di data center, la cifra annunciata rimarrebbe un tetto massimo che potrebbe non essere mai pienamente realizzato. A differenza, ad esempio, dei trasferimenti governativi verificati da terzi, i termini di questa transazione si basano interamente sulla divulgazione della stessa CleanSpark, senza conferma indipendente dell'identità o dell'affidabilità creditizia del conduttore.</p>
+<p class="it">Esiste anche un divario nel periodo di costruzione: fino a quando la prima fase non entrerà in funzione nel quarto trimestre del 2027, CleanSpark pagherà per la realizzazione dell'impianto senza ricavi compensativi — lo stesso rischio strutturale segnalato nell'accordo di prestito a leva di TeraWulf. Se il ciclo di domanda dei data center per l'IA dovesse raffreddarsi prima di allora, CleanSpark potrebbe ritrovarsi con contratti a fronte di un impianto non ancora costruito. E il fatto che il balzo del titolo abbia risposto a un annuncio di firma anziché a ricavi o utili effettivi è uno schema che continua a ripetersi nelle notizie sulla svolta verso l'IA dei minatori di bitcoin — prova che il mercato sta ancora scontando la narrazione prima dei fondamentali.</p>
+<p class="ru">Неразглашение имени арендатора — не редкость для крупной аренды, но в данном случае это также означает, что вся законтрактованная выручка в размере 6,6-11,6 млрд долларов зависит от единственного анонимного контрагента. Если финансовое положение этой компании с «высоким инвестиционным рейтингом» впоследствии ухудшится или она сократит свои планы по спросу на дата-центры, заявленная сумма останется лишь потолком, который может так и не быть полностью реализован. В отличие, например, от проверенных государственных переводов с участием третьей стороны, условия этой сделки основаны исключительно на собственном раскрытии информации CleanSpark, без независимого подтверждения личности или кредитоспособности арендатора.</p>
+<p class="ru">Также существует разрыв в период строительства: пока первая очередь не будет запущена в четвёртом квартале 2027 года, CleanSpark будет оплачивать строительство без компенсирующей выручки — тот же структурный риск, что отмечался в сделке TeraWulf по кредиту с использованием заёмных средств. Если цикл спроса на дата-центры для ИИ ослабнет раньше этого срока, CleanSpark может оказаться держателем контрактов на объект, который так и не построен. А тот факт, что скачок акций был реакцией на объявление о подписании, а не на фактическую выручку или прибыль, — это модель, которая продолжает повторяться в новостях о развороте майнеров биткоина в сторону ИИ, что свидетельствует о том, что рынок по-прежнему торгует нарративом, опережая фундаментальные показатели.</p>
+<p class="zh">在大型租約中不公開承租方名稱並不罕見,但在本案中,這也意味著66億至116億美元的全部合約營收,實際上都繫於單一且匿名的交易對手。若這家「信用評等優良」公司日後財務狀況惡化,或縮減其資料中心需求規劃,目前公布的金額仍僅是上限,未必能夠完全實現。與經第三方查證的政府撥款轉移不同,這筆交易的條款完全仰賴CleanSpark自身的揭露,並未經獨立管道確認承租方的身分或信用狀況。</p>
+<p class="zh">此外還存在建設期缺口:在首期設施於2027年第四季啟用之前,CleanSpark必須支付建設費用,卻沒有相對應的營收挹注——這與TeraWulf槓桿貸款交易中所提及的結構性風險相同。若AI資料中心需求週期在此之前降溫,CleanSpark可能會落得手握合約、卻對應一座尚未建成設施的處境。而此次股價飆漲是對簽約公告的反應,而非實際營收或獲利,這樣的模式在比特幣礦商AI轉型消息中一再重演——顯示市場目前仍是先炒作敘事,而非依循基本面。</p>
 
 <div class="box ko">💡 <strong>관전 포인트:</strong> 66억~116억 달러라는 숫자 자체보다, 익명 임차인의 실제 신용등급이 공개되는지, 텍사스 LOI가 구속력 있는 정식 계약으로 전환되는지, 그리고 2027년 4분기 첫 가동이 일정대로 이뤄지는지가 이번 거래의 진짜 시험대다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> More than the $6.6-11.6 billion headline, watch whether the anonymous tenant's actual credit rating is ever disclosed, whether the Texas letter of intent converts into a binding contract, and whether the first phase truly comes online on schedule in the fourth quarter of 2027.</div>
@@ -377,6 +577,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> mais do que o número de US$6,6-11,6 bilhões, vale observar se a classificação de crédito real do locatário anônimo será divulgada, se a carta de intenções do Texas se converte em contrato vinculante, e se a primeira fase realmente entrará em operação conforme o previsto no quarto trimestre de 2027.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> 6,6-11,6 milyar dolarlık manşet rakamdan daha önemlisi, anonim kiracının gerçek kredi notunun açıklanıp açıklanmayacağı, Teksas niyet mektubunun bağlayıcı bir sözleşmeye dönüşüp dönüşmeyeceği ve ilk aşamanın 2027'nin dördüncü çeyreğinde plana uygun şekilde gerçekten devreye girip girmeyeceğidir.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> quan trọng hơn con số 6,6-11,6 tỷ đô la, cần theo dõi liệu xếp hạng tín dụng thực sự của khách thuê ẩn danh có được tiết lộ hay không, liệu thư bày tỏ ý định tại Texas có chuyển thành hợp đồng ràng buộc hay không, và liệu giai đoạn đầu có thực sự đi vào hoạt động đúng kế hoạch vào quý 4 năm 2027 hay không.</div>
+<div class="box id">💡 <strong>Poin Penting:</strong> Lebih dari sekadar angka utama 6,6-11,6 miliar dolar AS, perhatikan apakah peringkat kredit sebenarnya dari penyewa anonim tersebut akhirnya diungkapkan, apakah surat pernyataan minat di Texas berubah menjadi kontrak yang mengikat, dan apakah fase pertama benar-benar beroperasi sesuai jadwal pada kuartal keempat 2027.</div>
+<div class="box pl">💡 <strong>Najważniejsze:</strong> Bardziej niż nagłówkowa kwota 6,6-11,6 miliarda dolarów, warto obserwować, czy rzeczywisty rating kredytowy anonimowego najemcy zostanie kiedykolwiek ujawniony, czy teksański list intencyjny przekształci się w wiążący kontrakt oraz czy pierwsza faza rzeczywiście zostanie uruchomiona zgodnie z harmonogramem w czwartym kwartale 2027 roku.</div>
+<div class="box it">💡 <strong>Punto chiave:</strong> più che la cifra di 6,6-11,6 miliardi di dollari, occorre osservare se il vero rating creditizio del conduttore anonimo verrà mai reso noto, se la lettera d'intenti in Texas si trasformerà in un contratto vincolante e se la prima fase entrerà davvero in funzione secondo il programma nel quarto trimestre del 2027.</div>
+<div class="box ru">💡 <strong>На заметку:</strong> важнее заголовочной суммы в 6,6-11,6 млрд долларов следить за тем, будет ли когда-либо раскрыт фактический кредитный рейтинг анонимного арендатора, превратится ли техасское письмо о намерениях в юридически обязывающий контракт, и действительно ли первая очередь будет запущена по графику в четвёртом квартале 2027 года.</div>
+<div class="box zh">💡 <strong>觀察重點:</strong>比起66億至116億美元這個頭條數字,更值得關注的是:這家匿名承租方的實際信用評等是否會被公開、德州的意向書是否會轉化為具法律約束力的正式合約,以及首期設施是否真的能依原訂時程於2027年第四季啟用。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: PR뉴스와이어, SEC 8-K 공시, 블룸버그, 데이터센터다이내믹스, 블록스페이스, 인베스팅닷컴, 스톡타이탄, 야후파이낸스, 프로액티브인베스터스</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: PR Newswire, SEC Form 8-K, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
@@ -387,4 +592,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: PR Newswire, Formulário 8-K da SEC, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: PR Newswire, SEC 8-K Formu, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: PR Newswire, Mẫu 8-K của SEC, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: PR Newswire, Formulir 8-K SEC, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: PR Newswire, formularz 8-K SEC, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: PR Newswire, modulo 8-K della SEC, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: PR Newswire, форма 8-K SEC, Bloomberg, DataCenterDynamics, Blockspace, Investing.com, StockTitan, Yahoo Finance, Proactive Investors</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">來源:PR Newswire、SEC 8-K表格、Bloomberg、DataCenterDynamics、Blockspace、Investing.com、StockTitan、Yahoo Finance、Proactive Investors</p>
 <?php require __DIR__.'/_footer.php'; ?>
