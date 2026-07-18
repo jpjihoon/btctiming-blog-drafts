@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "테이커 매도 우위·롱 포지셔닝 괴리",
   "tag_en": "Taker Sell Dominance vs. Long Positioning Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Domínio Vendedor Taker vs. Lacuna de Posicionamento Comprado",
   "tag_tr": "Taker Satış Baskınlığı vs. Long Konumlanma Farkı",
   "tag_vi": "Taker Bán Áp Đảo vs. Khoảng Cách Định Vị Long",
+  "tag_id": "Dominasi Jual Taker vs. Kesenjangan Positioning Long",
+  "tag_pl": "Dominacja Sprzedaży Taker a Luka w Pozycjonowaniu Długim",
+  "tag_it": "Dominio di Vendita Taker vs. Divario di Posizionamento Long",
+  "tag_ru": "Доминирование Продаж Тейкеров vs. Разрыв в Лонг-Позиционировании",
+  "tag_zh": "Taker賣方主導 vs. 多頭持倉落差",
 
   "title_ko": "테이커는 매도 우위인데, 리테일도 상위 트레이더도 아직 롱이다",
   "title_en": "Takers Are Selling — Yet Both Retail and Top Traders Are Still Long",
@@ -32,6 +42,11 @@
   "title_pt": "Takers Estão Vendendo — Mas Varejo e Top Traders Ainda Estão Comprados",
   "title_tr": "Taker'lar Satıyor — Ama Hem Perakende Hem Üst Düzey Trader'lar Hâlâ Long",
   "title_vi": "Taker Đang Bán — Nhưng Cả Nhà Đầu Tư Nhỏ Lẻ Lẫn Trader Hàng Đầu Vẫn Long",
+  "title_id": "Taker Sedang Menjual — Namun Ritel dan Trader Papan Atas Masih Long",
+  "title_pl": "Taker Sprzedają — a Zarówno Detaliczni, jak i Czołowi Traderzy Wciąż Mają Długie Pozycje",
+  "title_it": "I Taker Stanno Vendendo — Eppure Sia Retail che Top Trader Sono Ancora Long",
+  "title_ru": "Тейкеры Продают — Но Розничные и Топовые Трейдеры По-Прежнему в Лонге",
+  "title_zh": "Taker正在賣出——但散戶與頂級交易者仍持多頭",
 
   "h1_ko": "테이커 매수/매도 비율은 0.89로 매도 우위인데,<br>리테일 63.5%·상위 트레이더 64.6%는 여전히 롱이다",
   "h1_en": "The Taker Buy/Sell Ratio Sits at 0.89, Sell-Dominant,<br>While Retail (63.5%) and Top Traders (64.6%) Remain Long",
@@ -42,6 +57,11 @@
   "h1_pt": "A Proporção Taker Compra/Venda Está em 0,89, Dominada pela Venda,<br>Enquanto Varejo (63,5%) e Top Traders (64,6%) Seguem Comprados",
   "h1_tr": "Taker Alış/Satış Oranı 0,89 ile Satış Baskın,<br>Perakende (%63,5) ve Üst Düzey Trader'lar (%64,6) Hâlâ Long",
   "h1_vi": "Tỷ Lệ Taker Mua/Bán Ở Mức 0,89, Nghiêng Về Bán,<br>Trong Khi Nhà Đầu Tư Nhỏ Lẻ (63,5%) và Trader Hàng Đầu (64,6%) Vẫn Long",
+  "h1_id": "Rasio Taker Beli/Jual Berada di 0,89, Didominasi Jual,<br>Sementara Ritel (63,5%) dan Trader Papan Atas (64,6%) Tetap Long",
+  "h1_pl": "Wskaźnik Taker Kupno/Sprzedaż Wynosi 0,89, Dominacja Sprzedaży,<br>Podczas Gdy Detaliści (63,5%) i Czołowi Traderzy (64,6%) Pozostają Long",
+  "h1_it": "Il Rapporto Taker Acquisto/Vendita È a 0,89, Dominato dalla Vendita,<br>Mentre Retail (63,5%) e Top Trader (64,6%) Restano Long",
+  "h1_ru": "Соотношение Покупок/Продаж Тейкеров на Уровне 0,89, Преобладают Продажи,<br>Розница (63,5%) и Топ-Трейдеры (64,6%) Остаются в Лонге",
+  "h1_zh": "Taker買/賣比率為0.89,賣方主導,<br>散戶(63.5%)與頂級交易者(64.6%)仍維持多頭",
 
   "bc_ko": "테이커·포지셔닝 괴리 점검",
   "bc_en": "Taker Flow & Positioning Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação de Fluxo Taker e Posicionamento",
   "bc_tr": "Taker Akışı ve Konumlanma İncelemesi",
   "bc_vi": "Kiểm Tra Dòng Lệnh Taker và Định Vị",
+  "bc_id": "Pemeriksaan Arus Taker & Positioning",
+  "bc_pl": "Analiza Przepływu Taker i Pozycjonowania",
+  "bc_it": "Verifica del Flusso Taker e del Posizionamento",
+  "bc_ru": "Проверка Потока Тейкеров и Позиционирования",
+  "bc_zh": "Taker流量與持倉檢視",
 
   "desc_ko": "비트코인은 7월15일 새벽(한국시간) 6만1,893달러 부근에서 거래되며, 마지막 단기 지지선이었던 20일 이동평균선(6만1,948달러)을 하회했다. 블록체인뉴스 집계 기준 무기한선물 테이커 매수/매도 비율은 0.8893으로 매도 체결이 우세했지만, 같은 자료에서 리테일 트레이더의 63.5%, 상위 트레이더의 64.6%는 여전히 롱 포지션에 머물러 있었다. 한편 에이하시그널스·크립토퀀트 집계로는 MVRV Z-스코어 0.35, NUPL 0.18, 실현손익비율 -0.35(43개월래 최저)로 온체인 밸류에이션은 역사적으로 드문 저평가 구간을 가리켰다. 시간 단위(테이커)·며칠 단위(포지셔닝)·몇 주~몇 달 단위(온체인)라는 서로 다른 시간축이 지금 각기 다른 신호를 보내는 국면을 점검했다.",
   "desc_en": "Bitcoin traded around $61,893 in the early hours of July 15 (KST), slipping below its last short-term support, the 20-day moving average at $61,948. Per data compiled by Blockchain.News, the perpetual futures taker buy/sell ratio stood at 0.8893, sell-dominant, yet the same data showed 63.5% of retail traders and 64.6% of top traders still holding long positions. Separately, AhaSignals and CryptoQuant data put the MVRV Z-Score at 0.35, NUPL at 0.18, and the realized profit/loss ratio at -0.35 (a 43-month low) — putting on-chain valuation in a historically rare undervalued zone. This piece checks a moment when three different timeframes — hours (taker flow), days (positioning), and weeks-to-months (on-chain valuation) — are each sending a different signal.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé autour de 61 893 dollars aux premières heures du 15 juillet (heure de Corée), passant sous son dernier support de court terme, la moyenne mobile à 20 jours à 61 948 dollars. Selon des données compilées par Blockchain.News, le ratio taker achat/vente des futures perpétuels s'établissait à 0,8893, dominé par la vente, mais les mêmes données montraient que 63,5 % des traders particuliers et 64,6 % des meilleurs traders restaient positionnés à l'achat (long). Séparément, des données d'AhaSignals et de CryptoQuant plaçaient le MVRV Z-Score à 0,35, le NUPL à 0,18 et le ratio de P&L réalisé à -0,35 (plus bas en 43 mois) — plaçant la valorisation on-chain dans une zone de sous-évaluation historiquement rare. Cet article examine un moment où trois horizons temporels distincts — les heures (flux taker), les jours (positionnement) et les semaines à mois (valorisation on-chain) — envoient chacun un signal différent.",
   "desc_pt": "O bitcoin foi negociado perto de US$ 61.893 nas primeiras horas de 15 de julho (horário da Coreia), caindo abaixo de seu último suporte de curto prazo, a média móvel de 20 dias em US$ 61.948. Segundo dados compilados pela Blockchain.News, a proporção taker compra/venda dos futuros perpétuos ficou em 0,8893, dominada pela venda, mas os mesmos dados mostraram que 63,5% dos traders de varejo e 64,6% dos top traders ainda mantinham posições compradas. Separadamente, dados da AhaSignals e da CryptoQuant colocaram o MVRV Z-Score em 0,35, o NUPL em 0,18 e a proporção de lucro/prejuízo realizado em -0,35 (mínima de 43 meses) — posicionando a avaliação on-chain em uma zona de subavaliação historicamente rara. Este texto examina um momento em que três horizontes temporais distintos — horas (fluxo taker), dias (posicionamento) e semanas a meses (avaliação on-chain) — emitem cada um um sinal diferente.",
   "desc_tr": "Bitcoin, 15 Temmuz'un ilk saatlerinde (KST) 61.893 dolar civarında işlem gördü ve son kısa vadeli desteği olan 20 günlük hareketli ortalamayı (61.948 dolar) aşağı kırdı. Blockchain.News tarafından derlenen verilere göre perpetual vadeli işlemlerdeki taker alış/satış oranı 0,8893 ile satış baskın seviyedeydi; ancak aynı veriler perakende yatırımcıların yüzde 63,5'inin ve üst düzey trader'ların yüzde 64,6'sının hâlâ long pozisyonda olduğunu gösterdi. Ayrıca AhaSignals ve CryptoQuant verileri MVRV Z-Skorunu 0,35, NUPL'yi 0,18 ve gerçekleşen kâr/zarar oranını -0,35 (43 ayın en düşüğü) olarak gösterdi — bu da zincir üstü değerlemeyi tarihsel olarak nadir görülen bir düşük değerleme bölgesine yerleştiriyor. Bu yazı, üç farklı zaman diliminin — saatler (taker akışı), günler (konumlanma) ve haftalar-aylar (zincir üstü değerleme) — her birinin farklı bir sinyal verdiği bir anı inceliyor.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 61.893 đô la vào những giờ đầu ngày 15 tháng 7 (giờ Hàn Quốc), trượt xuống dưới ngưỡng hỗ trợ ngắn hạn cuối cùng là đường trung bình động 20 ngày ở mức 61.948 đô la. Theo dữ liệu do Blockchain.News tổng hợp, tỷ lệ mua/bán taker trên hợp đồng tương lai vĩnh cửu ở mức 0,8893, nghiêng về bán, nhưng cùng dữ liệu đó cho thấy 63,5% nhà giao dịch nhỏ lẻ và 64,6% trader hàng đầu vẫn giữ vị thế long. Riêng biệt, dữ liệu từ AhaSignals và CryptoQuant đặt MVRV Z-Score ở mức 0,35, NUPL ở mức 0,18 và tỷ lệ lãi/lỗ đã thực hiện ở mức -0,35 (thấp nhất trong 43 tháng) — đưa định giá on-chain vào vùng định giá thấp hiếm thấy trong lịch sử. Bài viết này xem xét thời điểm khi ba khung thời gian khác nhau — giờ (dòng lệnh taker), ngày (định vị) và tuần đến tháng (định giá on-chain) — mỗi khung lại phát ra một tín hiệu khác nhau."
+  "desc_vi": "Bitcoin giao dịch quanh mức 61.893 đô la vào những giờ đầu ngày 15 tháng 7 (giờ Hàn Quốc), trượt xuống dưới ngưỡng hỗ trợ ngắn hạn cuối cùng là đường trung bình động 20 ngày ở mức 61.948 đô la. Theo dữ liệu do Blockchain.News tổng hợp, tỷ lệ mua/bán taker trên hợp đồng tương lai vĩnh cửu ở mức 0,8893, nghiêng về bán, nhưng cùng dữ liệu đó cho thấy 63,5% nhà giao dịch nhỏ lẻ và 64,6% trader hàng đầu vẫn giữ vị thế long. Riêng biệt, dữ liệu từ AhaSignals và CryptoQuant đặt MVRV Z-Score ở mức 0,35, NUPL ở mức 0,18 và tỷ lệ lãi/lỗ đã thực hiện ở mức -0,35 (thấp nhất trong 43 tháng) — đưa định giá on-chain vào vùng định giá thấp hiếm thấy trong lịch sử. Bài viết này xem xét thời điểm khi ba khung thời gian khác nhau — giờ (dòng lệnh taker), ngày (định vị) và tuần đến tháng (định giá on-chain) — mỗi khung lại phát ra một tín hiệu khác nhau.",
+  "desc_id": "Bitcoin turun ke $61.893, tembus MA20. Taker 0,8893 dominan jual, tapi ritel (63,5%) & trader top (64,6%) tetap long; on-chain di zona langka rendah.",
+  "desc_pl": "Bitcoin spadł do 61 893 USD, łamiąc SMA20. Taker 0,8893 to dominacja sprzedaży, lecz detaliści (63,5%) i traderzy (64,6%) są long; wycena on-chain rzadka.",
+  "desc_it": "Bitcoin sceso a 61.893 dollari, sotto la SMA20. Taker 0,8893 indica vendita dominante, ma retail (63,5%) e top trader (64,6%) restano long; on-chain raro.",
+  "desc_ru": "Биткойн упал до $61,893 15 июля, пробив MA20. Тейкеры 0,8893 — продажи доминируют, но розница (63,5%) и топ-трейдеры (64,6%) в лонге; ончейн-оценка редка.",
+  "desc_zh": "比特幣7月15日凌晨跌至6萬1,893美元,跌破20日均線(6萬1,948美元)。Taker買賣比率0.8893顯示賣方主導,但散戶(63.5%)與頂級交易者(64.6%)仍持多頭部位,鏈上估值處於歷史罕見的低估區間,顯示三個時間軸訊號分歧。"
 }
