@@ -9,6 +9,11 @@
 <p class="pt">A verificação que este site publicou duas horas antes da divulgação do CPI (<a href="/pt/blog/pre-cpi-macro-escalation-derivatives-calm-gap">aqui</a>) apontou uma divisão: o rendimento do Tesouro de 2 anos havia saltado para 4,2837% e o petróleo disparava, enquanto os indicadores de derivativos e sentimento permaneciam em níveis normais. Agora o CPI de junho foi de fato divulgado. O bitcoin subiu moderadamente para a faixa de US$ 62.600-US$ 63.300 nos minutos seguintes, permanecendo dentro da faixa de US$ 62.550-US$ 63.700 formada naquele dia.</p>
 <p class="tr">Bu sitenin TÜFE açıklamasından iki saat önce yaptığı <a href="/tr/blog/pre-cpi-macro-escalation-derivatives-calm-gap">inceleme</a>, 2 yıllık Hazine getirisinin %4,2837'ye sıçradığı ve petrolün fırladığı sırada türev ürün ve duyarlılık göstergelerinin sıradan seviyelerde kaldığı bir ayrışmaya işaret etmişti. Şimdi Haziran TÜFE'si gerçekten açıklandı. Bitcoin açıklamadan sonraki dakikalarda 62.600-63.300 dolar aralığına ölçülü şekilde yükseldi ve o gün oluşan 62.550-63.700 dolar aralığının içinde kaldı.</p>
 <p class="vi">Bài kiểm tra mà trang này đăng hai giờ trước khi CPI công bố (<a href="/vi/blog/pre-cpi-macro-escalation-derivatives-calm-gap">tại đây</a>) đã chỉ ra một sự phân tách: lợi suất trái phiếu Kho bạc kỳ hạn 2 năm đã nhảy lên 4,2837% và giá dầu tăng vọt, trong khi các chỉ báo phái sinh và tâm lý vẫn ở mức bình thường. Giờ đây CPI tháng 6 đã thực sự được công bố. Bitcoin tăng nhẹ lên vùng 62.600-63.300 đô la trong những phút sau đó, vẫn nằm trong khoảng 62.550-63.700 đô la được hình thành trong ngày.</p>
+<p class="id">Pemeriksaan situs ini dua jam sebelum rilis CPI (<a href="/id/blog/pre-cpi-macro-escalation-derivatives-calm-gap">di sini</a>) menyoroti adanya perpecahan: imbal hasil Treasury 2 tahun melonjak ke 4,2837% dan harga minyak melonjak, sementara indikator derivatif dan sentimen berada pada level biasa. CPI Juni kini benar-benar telah dirilis. Bitcoin naik tipis ke kisaran $62.600-$63.300 dalam beberapa menit setelahnya, tetap berada dalam kotak $62.550-$63.700 pada hari itu.</p>
+<p class="pl">Kontrola przeprowadzona przez tę stronę dwie godziny przed publikacją CPI (<a href="/pl/blog/pre-cpi-macro-escalation-derivatives-calm-gap">tutaj</a>) wskazała na rozdźwięk: rentowność 2-letnich obligacji skarbowych skoczyła do 4,2837%, a ropa gwałtownie drożała, podczas gdy wskaźniki instrumentów pochodnych i nastrojów pozostawały na zwykłych poziomach. CPI za czerwiec zostało już faktycznie opublikowane. Bitcoin nieznacznie wzrósł do przedziału 62 600-63 300 USD w minutach po publikacji, pozostając w dziennym przedziale 62 550-63 700 USD.</p>
+<p class="it">La verifica pubblicata da questo sito due ore prima della pubblicazione del CPI (<a href="/it/blog/pre-cpi-macro-escalation-derivatives-calm-gap">qui</a>) ha segnalato una frattura: il rendimento del Treasury a 2 anni era balzato al 4,2837% e il petrolio era in forte rialzo, mentre gli indicatori dei derivati e del sentiment restavano su livelli ordinari. Il CPI di giugno è ora effettivamente stato pubblicato. Il Bitcoin è salito moderatamente verso l'intervallo di $62.600-$63.300 nei minuti successivi, rimanendo all'interno del range di $62.550-$63.700 formatosi in giornata.</p>
+<p class="ru">Проверка, которую этот сайт опубликовал за два часа до выхода CPI (<a href="/ru/blog/pre-cpi-macro-escalation-derivatives-calm-gap">здесь</a>), указала на расхождение: доходность 2-летних казначейских облигаций подскочила до 4,2837%, а нефть резко дорожала, в то время как индикаторы деривативов и настроений оставались на обычных уровнях. Июньский CPI уже фактически опубликован. Биткоин умеренно поднялся до диапазона $62 600-$63 300 в течение нескольких минут после публикации, оставаясь в дневном коридоре $62 550-$63 700.</p>
+<p class="zh">本網站在CPI公布兩小時前所做的檢視(<a href="/zh/blog/pre-cpi-macro-escalation-derivatives-calm-gap">連結在此</a>)指出了一項落差:兩年期公債殖利率跳升至4.2837%,油價急漲,但衍生性商品與市場情緒指標卻維持在平常水準。如今6月CPI已正式公布。比特幣在公布後數分鐘內溫和上漲至6萬2,600至6萬3,300美元區間,並維持在當日形成的6萬2,550至6萬3,700美元箱型區間內。</p>
 
 <p class="ko">헤드라인만 보면 안도할 만한 숫자였다. 그런데 국채금리, 연준 금리인상 확률, 유가, 거래소에 쌓인 스테이블코인까지 함께 보면 이야기가 갈린다. 이번 점검은 '식은 헤드라인' 하나만으로 판단하기 전에, 그 뒤에서 실제로 무엇이 버티고 있는지를 짚는다.</p>
 <p class="en">Read in isolation, the headline number looked like relief. But look at Treasury yields, Fed hike odds, oil, and the stablecoins piling up on exchanges, and the story splits. This check asks what's actually holding firm behind a headline that cooled.</p>
@@ -19,6 +24,11 @@
 <p class="pt">Vista isoladamente, a manchete parecia um alívio. Mas observando os rendimentos do Tesouro, as probabilidades de alta do Fed, o petróleo e as stablecoins se acumulando nas exchanges, a história se divide. Esta verificação pergunta o que realmente está se mantendo firme por trás de uma manchete que esfriou.</p>
 <p class="tr">Tek başına bakıldığında manşet rakam rahatlatıcı görünüyordu. Ama Hazine getirilerine, Fed faiz artışı olasılıklarına, petrole ve borsalarda biriken stabilcoin'lere bakınca hikâye ikiye ayrılıyor. Bu inceleme, soğuyan bir manşetin arkasında gerçekte neyin yerinde durduğunu soruyor.</p>
 <p class="vi">Nhìn riêng lẻ, con số tiêu đề trông như một sự nhẹ nhõm. Nhưng nhìn vào lợi suất trái phiếu Kho bạc, xác suất Fed tăng lãi suất, giá dầu và lượng stablecoin đang chất đống trên các sàn, câu chuyện lại rẽ hướng khác. Bài kiểm tra này đặt câu hỏi điều gì thực sự đang đứng vững phía sau một tiêu đề đã hạ nhiệt.</p>
+<p class="id">Dilihat secara terpisah, angka headline tampak seperti kelegaan. Namun jika melihat imbal hasil Treasury, peluang kenaikan suku bunga The Fed, harga minyak, dan stablecoin yang menumpuk di bursa, ceritanya terbelah. Pemeriksaan ini menelusuri apa yang sebenarnya masih bertahan kukuh di balik headline yang mendingin.</p>
+<p class="pl">Rozpatrywana w izolacji liczba nagłówkowa wyglądała na ulgę. Ale patrząc na rentowności obligacji skarbowych, szanse na podwyżkę stóp Fedu, ropę i stablecoiny piętrzące się na giełdach, historia się rozdziela. Ta kontrola pyta, co tak naprawdę trzyma się mocno za nagłówkiem, który ostudził się.</p>
+<p class="it">Considerato isolatamente, il dato principale sembrava un sollievo. Ma osservando i rendimenti del Treasury, le probabilità di rialzo della Fed, il petrolio e le stablecoin che si accumulano sugli exchange, la storia si divide. Questa verifica si chiede cosa stia effettivamente tenendo duro dietro un titolo che si è raffreddato.</p>
+<p class="ru">При изолированном рассмотрении заголовочная цифра выглядела как облегчение. Но если посмотреть на доходность казначейских облигаций, шансы ФРС на повышение ставки, нефть и стейблкоины, накапливающиеся на биржах, картина разделяется. Эта проверка задаётся вопросом, что на самом деле держится крепко за остывшим заголовком.</p>
+<p class="zh">單獨來看,這項headline數字看似令人鬆一口氣。但若同時觀察公債殖利率、聯準會升息機率、油價,以及在交易所堆積的穩定幣,故事就出現分歧。這次檢視要問的是,在一個降溫的headline數字背後,究竟還有什麼依然屹立不搖。</p>
 
 <h2 class="ko">헤드라인은 식었는데, 국채금리와 금리인상 확률은 왜 그대로인가</h2>
 <h2 class="en">The Headline Cooled — So Why Didn't Yields or Fed Hike Odds Move?</h2>
@@ -29,6 +39,11 @@
 <h2 class="pt">A Manchete Esfriou — Então Por Que os Rendimentos e as Probabilidades de Alta do Fed Não se Moveram?</h2>
 <h2 class="tr">Manşet Soğudu — Peki Getiriler ve Fed Faiz Artışı Olasılıkları Neden Kımıldamadı?</h2>
 <h2 class="vi">Tiêu Đề Đã Hạ Nhiệt — Vậy Vì Sao Lợi Suất và Xác Suất Fed Tăng Lãi Suất Không Nhúc Nhích?</h2>
+<h2 class="id">Headline Mendingin — Lalu Mengapa Imbal Hasil dan Peluang Kenaikan Suku Bunga The Fed Tidak Bergerak?</h2>
+<h2 class="pl">Nagłówek Ostudził się — Więc Dlaczego Rentowności i Szanse na Podwyżkę Stóp Fedu się Nie Ruszyły?</h2>
+<h2 class="it">Il Titolo si è Raffreddato — Allora Perché i Rendimenti e le Probabilità di Rialzo della Fed non si sono Mossi?</h2>
+<h2 class="ru">Заголовок Остыл — Так Почему Доходности и Шансы ФРС на Повышение Ставки не Сдвинулись?</h2>
+<h2 class="zh">Headline數字降溫了——那麼殖利率與聯準會升息機率為何沒有變動?</h2>
 
 <p class="ko">6월 CPI는 전월비 -0.1%, 전년비 3.9%로 5월(4.2%)보다 낮아졌다. 하락분의 상당 부분은 휘발유 가격이 한 달 새 약 10% 빠진 데서 나왔다. 표면적으로는 연준의 긴축 부담을 던 숫자다. 그런데 같은 시각 비트코인의 반응은 6만2,000달러대 초반에서 6만3,000달러대 초반으로 올라서는 정도에 그쳤다 — 헤드라인 인플레이션이 예상보다 식었을 때 흔히 나오는 강한 안도 랠리와는 거리가 있다.</p>
 <p class="en">June's CPI came in at -0.1% month-over-month and 3.9% year-over-year, down from May's 4.2%. Much of that decline traced to gasoline prices, which fell roughly 10% over the month. On its face, that's a number that eases pressure on the Fed. Yet Bitcoin's reaction was limited to a climb from the low-$62,000s into the low-$63,000s — nothing like the sharp relief rally that a cooler-than-expected headline print usually produces.</p>
@@ -39,6 +54,11 @@
 <p class="pt">O CPI de junho veio em -0,1% na comparação mensal e 3,9% na comparação anual, abaixo dos 4,2% de maio. Boa parte dessa queda se deveu aos preços da gasolina, que caíram cerca de 10% no mês. Na superfície, é um número que alivia a pressão sobre o Fed. No entanto, a reação do bitcoin se limitou a uma subida da faixa baixa dos US$ 62 mil para a faixa baixa dos US$ 63 mil — nada parecido com o forte rali de alívio que uma manchete de CPI mais fria que o esperado costuma produzir.</p>
 <p class="tr">Haziran TÜFE'si aylık bazda -%0,1, yıllık bazda ise Mayıs'taki %4,2'den düşerek %3,9 olarak açıklandı. Bu düşüşün büyük bölümü, ay içinde yaklaşık %10 gerileyen benzin fiyatlarından kaynaklandı. Görünüşte bu, Fed üzerindeki baskıyı hafifleten bir rakam. Ancak Bitcoin'in tepkisi 62.000 dolarların altından 63.000 dolarların altına sınırlı bir yükselişle kaldı — beklenenden soğuk bir manşet TÜFE'nin genellikle tetiklediği güçlü rahatlama ralisine hiç benzemiyordu.</p>
 <p class="vi">CPI tháng 6 ghi nhận -0,1% so với tháng trước và 3,9% so với cùng kỳ năm trước, giảm so với mức 4,2% của tháng 5. Phần lớn mức giảm này đến từ giá xăng, vốn giảm khoảng 10% trong tháng. Bề ngoài, đây là con số làm giảm áp lực lên Fed. Tuy nhiên phản ứng của Bitcoin chỉ giới hạn ở việc tăng từ vùng 62.000 đô la thấp lên vùng 63.000 đô la thấp — không hề giống đợt phục hồi mạnh mẽ thường thấy khi CPI tiêu đề hạ nhiệt hơn dự báo.</p>
+<p class="id">CPI Juni tercatat -0,1% secara bulanan dan 3,9% secara tahunan, turun dari 4,2% pada Mei. Sebagian besar penurunan itu berasal dari harga bensin, yang turun sekitar 10% dalam sebulan. Secara kasat mata, itu adalah angka yang meringankan tekanan pada The Fed. Namun reaksi Bitcoin hanya terbatas pada kenaikan dari kisaran bawah $62.000 ke kisaran bawah $63.000 — jauh berbeda dari reli kelegaan tajam yang biasanya dihasilkan oleh rilis headline yang lebih dingin dari perkiraan.</p>
+<p class="pl">CPI za czerwiec wyniosło -0,1% miesiąc do miesiąca i 3,9% rok do roku, spadając z 4,2% w maju. Znaczna część tego spadku wynikała z cen benzyny, które spadły o około 10% w ciągu miesiąca. Na pierwszy rzut oka to liczba, która łagodzi presję na Fed. Jednak reakcja Bitcoina ograniczyła się do wzrostu z dolnej granicy 62 000 USD do dolnej granicy 63 000 USD — daleko od gwałtownego rajdu ulgi, jaki zwykle wywołuje chłodniejszy niż oczekiwano odczyt nagłówkowego CPI.</p>
+<p class="it">Il CPI di giugno è arrivato a -0,1% mese su mese e 3,9% anno su anno, in calo rispetto al 4,2% di maggio. Gran parte di quel calo è riconducibile ai prezzi della benzina, scesi di circa il 10% nel mese. In apparenza, è un dato che allevia la pressione sulla Fed. Eppure la reazione del Bitcoin si è limitata a una risalita dalla parte bassa dei $62.000 alla parte bassa dei $63.000 — nulla a che vedere con il forte rally di sollievo che di solito produce un dato CPI più freddo del previsto.</p>
+<p class="ru">Июньский CPI составил -0,1% м/м и 3,9% г/г, снизившись с 4,2% в мае. Значительная часть этого снижения объясняется ценами на бензин, которые упали примерно на 10% за месяц. На первый взгляд, это цифра, которая снижает давление на ФРС. Тем не менее реакция биткоина ограничилась подъёмом с нижней границы $62 000 до нижней границы $63 000 — совсем не похоже на резкое ралли облегчения, которое обычно вызывает более холодная, чем ожидалось, заголовочная публикация CPI.</p>
+<p class="zh">6月CPI月增率為-0.1%,年增率為3.9%,較5月的4.2%下滑。這波下滑的很大一部分來自汽油價格,單月跌幅約10%。表面上看,這是一個能減輕聯準會壓力的數字。然而比特幣的反應僅限於從6萬2,000美元低點爬升到6萬3,000美元低點——與市場預期更冷的headline CPI公布後通常會出現的強勁鬆一口氣行情相去甚遠。</p>
 
 <p class="ko">이유는 나머지 숫자에 있다. 식품·에너지를 뺀 코어 CPI는 전년비 2.9%로, 연준 목표 2%를 여전히 웃돈다. 이 사이트가 두 시간 전 확인한 2년물 국채금리 4.2837%는 발표 후에도 4.25% 안팎, 2025년2월 이후 최고 수준에서 크게 물러서지 않았다(블룸버그·CNBC). CME 페드워치 기준 7월29일 FOMC에서 금리를 올릴 확률은 36.3%(동결 63.7%)까지 올라왔고, 9월까지 누적 25bp 인상 확률은 52.2%다 — 몇 주 전까지 시장의 화두가 '인하 시점'이었다는 점을 감안하면, 지금은 정반대 방향의 가능성이 가격에 반영되고 있는 셈이다.</p>
 <p class="en">The rest of the data explains why. Core CPI, which strips out food and energy, held at 2.9% year-over-year, still above the Fed's 2% target. The 2-year Treasury yield this site clocked at 4.2837% two hours before the print stayed close to that level afterward, near 4.25% — still its highest since February 2025, per Bloomberg and CNBC. CME FedWatch now prices a 36.3% probability of a rate hike at the July 29 FOMC meeting (63.7% for a hold), and a 52.2% probability of a cumulative 25bp hike by September. Weeks ago, the market's live question was when the Fed would cut; now the opposite scenario is being priced in.</p>
@@ -49,6 +69,11 @@
 <p class="pt">O resto dos dados explica o porquê. O CPI núcleo, que exclui alimentos e energia, se manteve em 2,9% na comparação anual, ainda acima da meta de 2% do Fed. O rendimento do Tesouro de 2 anos que este site registrou em 4,2837% duas horas antes da divulgação permaneceu próximo desse nível depois, em torno de 4,25% — ainda sua máxima desde fevereiro de 2025, segundo Bloomberg e CNBC. O CME FedWatch agora precifica uma probabilidade de 36,3% de uma alta de juros na reunião do FOMC de 29 de julho (63,7% para manutenção), e uma probabilidade de 52,2% de uma alta cumulativa de 25 pontos-base até setembro. Semanas atrás, a pergunta viva do mercado era quando o Fed cortaria; agora o cenário oposto está sendo precificado.</p>
 <p class="tr">Bunun nedenini geri kalan veriler açıklıyor. Gıda ve enerjiyi hariç tutan çekirdek TÜFE yıllık bazda %2,9'da kaldı, hâlâ Fed'in %2 hedefinin üzerinde. Bu sitenin açıklamadan iki saat önce %4,2837 olarak kaydettiği 2 yıllık Hazine getirisi, açıklamadan sonra da bu seviyeye yakın kaldı, yaklaşık %4,25 — Bloomberg ve CNBC'ye göre hâlâ Şubat 2025'ten bu yana en yüksek seviyesinde. CME FedWatch artık 29 Temmuz FOMC toplantısında bir faiz artışı için %36,3 olasılık fiyatlıyor (sabit tutma için %63,7) ve Eylül'e kadar kümülatif 25 baz puanlık artış için %52,2 olasılık öngörüyor. Haftalar önce piyasanın canlı sorusu Fed'in ne zaman faiz indireceğiydi; şimdi tam tersi senaryo fiyatlanıyor.</p>
 <p class="vi">Phần dữ liệu còn lại giải thích lý do. CPI lõi, loại trừ thực phẩm và năng lượng, vẫn giữ ở 2,9% so với cùng kỳ năm trước, vẫn cao hơn mục tiêu 2% của Fed. Lợi suất trái phiếu Kho bạc kỳ hạn 2 năm mà trang này ghi nhận ở mức 4,2837% hai giờ trước khi công bố vẫn duy trì gần mức đó sau đó, khoảng 4,25% — theo Bloomberg và CNBC, vẫn là mức cao nhất kể từ tháng 2 năm 2025. CME FedWatch hiện định giá xác suất 36,3% cho một đợt tăng lãi suất tại cuộc họp FOMC ngày 29 tháng 7 (63,7% cho việc giữ nguyên), và xác suất 52,2% cho mức tăng lũy kế 25 điểm cơ bản vào tháng 9. Vài tuần trước, câu hỏi nóng của thị trường là khi nào Fed sẽ cắt giảm lãi suất; giờ đây kịch bản ngược lại đang được định giá.</p>
+<p class="id">Sisa data menjelaskan alasannya. CPI inti, yang mengecualikan makanan dan energi, bertahan di 2,9% secara tahunan, masih di atas target 2% The Fed. Imbal hasil Treasury 2 tahun yang dicatat situs ini di 4,2837% dua jam sebelum rilis tetap dekat dengan level itu sesudahnya, sekitar 4,25% — masih level tertinggi sejak Februari 2025, menurut Bloomberg dan CNBC. CME FedWatch kini menetapkan probabilitas 36,3% untuk kenaikan suku bunga pada pertemuan FOMC 29 Juli (63,7% untuk penahanan), dan probabilitas 52,2% untuk kenaikan kumulatif 25bp pada September. Beberapa minggu lalu, pertanyaan hangat pasar adalah kapan The Fed akan memangkas suku bunga; kini skenario sebaliknya yang sedang diperhitungkan pasar.</p>
+<p class="pl">Reszta danych wyjaśnia dlaczego. Bazowe CPI, które wyklucza żywność i energię, utrzymało się na poziomie 2,9% rok do roku, wciąż powyżej celu Fedu wynoszącego 2%. Rentowność 2-letnich obligacji skarbowych, którą ta strona odnotowała na poziomie 4,2837% dwie godziny przed publikacją, pozostała blisko tego poziomu również później, w okolicach 4,25% — nadal jest to jej najwyższy poziom od lutego 2025 roku, według Bloomberga i CNBC. CME FedWatch wycenia obecnie prawdopodobieństwo podwyżki stóp na posiedzeniu FOMC 29 lipca na 36,3% (63,7% dla utrzymania stóp) oraz prawdopodobieństwo skumulowanej podwyżki o 25 punktów bazowych do września na 52,2%. Kilka tygodni temu żywym pytaniem rynku było to, kiedy Fed obniży stopy; teraz wyceniany jest scenariusz odwrotny.</p>
+<p class="it">Il resto dei dati spiega il perché. Il CPI core, che esclude alimentari ed energia, si è mantenuto al 2,9% anno su anno, ancora sopra l'obiettivo del 2% della Fed. Il rendimento del Treasury a 2 anni che questo sito aveva registrato al 4,2837% due ore prima della pubblicazione è rimasto vicino a quel livello anche dopo, intorno al 4,25% — ancora il suo massimo da febbraio 2025, secondo Bloomberg e CNBC. Il CME FedWatch ora prezza una probabilità del 36,3% di un rialzo dei tassi alla riunione del FOMC del 29 luglio (63,7% per l'invarianza), e una probabilità del 52,2% di un rialzo cumulativo di 25 punti base entro settembre. Settimane fa, la domanda viva del mercato era quando la Fed avrebbe tagliato; ora è lo scenario opposto a essere prezzato.</p>
+<p class="ru">Остальные данные объясняют почему. Базовый CPI, исключающий продукты питания и энергоносители, удержался на уровне 2,9% г/г, всё ещё выше цели ФРС в 2%. Доходность 2-летних казначейских облигаций, которую этот сайт зафиксировал на уровне 4,2837% за два часа до публикации, осталась близкой к этому уровню и после неё, около 4,25% — по-прежнему это максимум с февраля 2025 года, по данным Bloomberg и CNBC. CME FedWatch теперь закладывает вероятность 36,3% для повышения ставки на заседании FOMC 29 июля (63,7% за сохранение) и вероятность 52,2% для совокупного повышения на 25 базисных пунктов к сентябрю. Несколько недель назад живым вопросом рынка было, когда ФРС начнёт снижать ставку; теперь закладывается противоположный сценарий.</p>
+<p class="zh">原因就在其餘數據中。剔除食品與能源的核心CPI年增率維持在2.9%,仍高於聯準會2%的目標。本網站在公布前兩小時記錄到的兩年期公債殖利率4.2837%,公布後仍維持在接近水準,約4.25%——根據彭博社與CNBC,這仍是自2025年2月以來的最高水準。CME FedWatch目前將7月29日FOMC會議升息的機率定為36.3%(維持不變的機率為63.7%),並將截至9月累計升息25個基點的機率定為52.2%。幾週前,市場關注的焦點還是聯準會何時降息;如今市場正在為完全相反的情境定價。</p>
 
 <h2 class="ko">이란발 오일쇼크, 식은 헤드라인에 그림자를 드리우다</h2>
 <h2 class="en">An Iran-Driven Oil Shock Is Already Shadowing the Cooler Headline</h2>
@@ -59,6 +84,11 @@
 <h2 class="pt">Um Choque de Petróleo Provocado pelo Irã Já Ofusca a Manchete Mais Fria</h2>
 <h2 class="tr">İran Kaynaklı Petrol Şoku Soğuyan Manşetin Üzerine Şimdiden Gölge Düşürüyor</h2>
 <h2 class="vi">Cú Sốc Dầu Do Iran Đã Phủ Bóng Lên Tiêu Đề Hạ Nhiệt</h2>
+<h2 class="id">Guncangan Harga Minyak Akibat Iran Sudah Membayangi Headline yang Lebih Dingin</h2>
+<h2 class="pl">Szok Naftowy Wywołany przez Iran Już Rzuca Cień na Chłodniejszy Nagłówek</h2>
+<h2 class="it">Uno Shock Petrolifero Innescato dall'Iran Sta Già Oscurando il Titolo Più Freddo</h2>
+<h2 class="ru">Нефтяной Шок, Вызванный Ираном, Уже Отбрасывает Тень на Более Холодный Заголовок</h2>
+<h2 class="zh">伊朗引發的石油衝擊,已為降溫的headline數字蒙上陰影</h2>
 
 <p class="ko">WTI 원유는 배럴당 80달러를 넘어서며 7월 저점 대비 약 20%, 하루 새 3~4% 올랐다. 미국은 최근 6일 사이 이란에 대해 네번째 공습을 단행했고, 이란은 호르무즈 해협 봉쇄를 재선언했으며 트럼프 대통령은 이란 선박에 대한 봉쇄 재개와 통과 화물에 대한 20% 수수료 부과 방침을 언급했다(CNBC·블룸버그). 지정학적 리스크가 유가를 통해 인플레이션 경로로 다시 들어오고 있다는 뜻이다.</p>
 <p class="en">WTI crude climbed past $80 a barrel, up roughly 20% from its July low and 3-4% in 24 hours. The U.S. carried out its fourth round of strikes on Iran in six days, Iran re-declared a blockade of the Strait of Hormuz, and President Trump signaled he'd reinstate a blockade on Iranian vessels along with a 20% fee on cargo transiting the strait, per CNBC and Bloomberg. Geopolitical risk is feeding back into the inflation path through oil.</p>
@@ -69,6 +99,11 @@
 <p class="pt">O petróleo WTI subiu acima de US$ 80 o barril, alta de cerca de 20% em relação à mínima de julho e de 3-4% em 24 horas. Os EUA realizaram sua quarta rodada de ataques contra o Irã em seis dias, o Irã voltou a declarar um bloqueio do Estreito de Ormuz, e o presidente Trump sinalizou que restabeleceria um bloqueio a navios iranianos junto com uma taxa de 20% sobre a carga que transita pelo estreito, segundo CNBC e Bloomberg. O risco geopolítico está retroalimentando a trajetória da inflação por meio do petróleo.</p>
 <p class="tr">WTI ham petrolü varil başına 80 doların üzerine çıkarak Temmuz dibine göre yaklaşık %20, 24 saatte ise %3-4 yükseldi. ABD, altı gün içinde İran'a yönelik dördüncü saldırı dalgasını gerçekleştirdi, İran Hürmüz Boğazı'na yönelik ablukayı yeniden ilan etti ve Başkan Trump, İran gemilerine yönelik abluka ile boğazdan geçen kargoya %20 ücret uygulanmasını yeniden başlatma sinyali verdi (CNBC, Bloomberg). Jeopolitik risk, petrol üzerinden yeniden enflasyon patikasına geri besleniyor.</p>
 <p class="vi">Dầu thô WTI tăng vượt 80 đô la một thùng, tăng khoảng 20% so với đáy tháng 7 và 3-4% trong 24 giờ. Mỹ đã tiến hành đợt không kích thứ tư nhằm vào Iran trong sáu ngày, Iran tái tuyên bố phong tỏa Eo biển Hormuz, và Tổng thống Trump ra tín hiệu sẽ khôi phục lệnh phong tỏa tàu Iran cùng mức phí 20% đối với hàng hóa quá cảnh qua eo biển, theo CNBC và Bloomberg. Rủi ro địa chính trị đang quay trở lại con đường lạm phát thông qua giá dầu.</p>
+<p class="id">Minyak mentah WTI naik melewati $80 per barel, naik sekitar 20% dari titik terendah Juli dan 3-4% dalam 24 jam. AS melancarkan putaran serangan keempat terhadap Iran dalam enam hari, Iran kembali mendeklarasikan blokade Selat Hormuz, dan Presiden Trump memberi sinyal akan memberlakukan kembali blokade terhadap kapal-kapal Iran beserta biaya 20% untuk kargo yang melintasi selat tersebut, menurut CNBC dan Bloomberg. Risiko geopolitik kembali memasuki jalur inflasi melalui minyak.</p>
+<p class="pl">Ropa WTI wzrosła powyżej 80 USD za baryłkę, o około 20% od lipcowego minimum i o 3-4% w ciągu 24 godzin. USA przeprowadziły czwartą rundę ataków na Iran w ciągu sześciu dni, Iran ponownie ogłosił blokadę Cieśniny Ormuz, a prezydent Trump zasygnalizował, że przywróci blokadę irańskich statków wraz z 20-procentową opłatą za ładunek przewożony przez cieśninę, według CNBC i Bloomberga. Ryzyko geopolityczne wraca do ścieżki inflacji poprzez ropę.</p>
+<p class="it">Il greggio WTI è salito oltre $80 al barile, in rialzo di circa il 20% dal minimo di luglio e del 3-4% nelle ultime 24 ore. Gli Stati Uniti hanno condotto il quarto round di attacchi contro l'Iran in sei giorni, l'Iran ha ridichiarato un blocco dello Stretto di Hormuz, e il presidente Trump ha segnalato che avrebbe ripristinato un blocco alle navi iraniane insieme a una tariffa del 20% sul carico in transito nello stretto, secondo CNBC e Bloomberg. Il rischio geopolitico sta rientrando nel percorso dell'inflazione attraverso il petrolio.</p>
+<p class="ru">Нефть WTI поднялась выше $80 за баррель, увеличившись примерно на 20% от июльского минимума и на 3-4% за 24 часа. США нанесли четвёртый за шесть дней удар по Ирану, Иран вновь заявил о блокаде Ормузского пролива, а президент Трамп дал понять, что восстановит блокаду иранских судов вместе с 20-процентным сбором за груз, проходящий через пролив, по данным CNBC и Bloomberg. Геополитический риск снова проникает в инфляционную траекторию через нефть.</p>
+<p class="zh">WTI原油站上每桶80美元,較7月低點上漲約20%,24小時內上漲3至4%。美國在六天內對伊朗發動第四輪空襲,伊朗重申將封鎖荷姆茲海峽,川普總統則暗示將恢復對伊朗船隻的封鎖,並對通過該海峽的貨物徵收20%的費用,根據CNBC與彭博社報導。地緣政治風險正透過油價重新回流到通膨路徑之中。</p>
 
 <p class="ko">여기서 짚어야 할 시차가 있다. 이번에 발표된 헤드라인 CPI의 휘발유 하락분은 6월 한 달의 '과거형' 데이터다. 반면 오일 가격은 지금 이 순간 다시 오르는 '현재형' 데이터다. 다음 CPI 프린트, 즉 7월 지표에는 이번 유가 급등분이 반영될 가능성이 크다. 시장이 헤드라인 숫자 하나로 안도 랠리를 하지 못하는 이유가 바로 여기에 있다 — 국채금리와 금리인상 확률이 이미 이 다음 라운드를 선반영하고 있는 것으로 읽힌다.</p>
 <p class="en">There's a timing mismatch worth flagging. The gasoline-driven decline in this print is a backward-looking number from June. Oil prices climbing right now are a forward-looking one. That points to a real chance this spike shows up in July's CPI print instead. That's plausibly why the market isn't running a relief rally on one cooler headline — Treasury yields and Fed hike odds already read as if they're pricing in the next round.</p>
@@ -79,6 +114,11 @@
 <p class="pt">Há um descompasso temporal que vale a pena destacar. A queda impulsionada pela gasolina nesta divulgação é um número retrospectivo de junho. A alta atual do petróleo é um dado prospectivo. Isso aponta para uma chance real de que esse salto apareça na divulgação do CPI de julho. É plausível que seja por isso que o mercado não está correndo um rali de alívio com base em uma única manchete mais fria — os rendimentos do Tesouro e as probabilidades de alta do Fed já parecem estar precificando a próxima rodada.</p>
 <p class="tr">Burada dikkat çekilmesi gereken bir zamanlama uyumsuzluğu var. Bu açıklamadaki benzin kaynaklı düşüş, Haziran'a ait geriye dönük bir rakam. Şu anda yükselen petrol fiyatları ise ileriye dönük bir veri. Bu, söz konusu sıçramanın Temmuz TÜFE açıklamasında ortaya çıkma ihtimalinin gerçek olduğuna işaret ediyor. Piyasanın tek bir soğuk manşetle rahatlama ralisine girmemesinin nedeni muhtemelen bu — Hazine getirileri ve Fed faiz artışı olasılıkları, şimdiden bir sonraki turu fiyatlıyormuş gibi okunuyor.</p>
 <p class="vi">Có một độ lệch thời gian đáng chú ý ở đây. Mức giảm do giá xăng trong lần công bố này là con số nhìn về quá khứ của tháng 6. Trong khi đó, giá dầu đang tăng ngay lúc này là dữ liệu hướng về tương lai. Điều đó cho thấy khả năng thực sự là đợt tăng này sẽ xuất hiện trong báo cáo CPI tháng 7 thay vào đó. Đây có thể là lý do vì sao thị trường không chạy theo một đợt phục hồi nhẹ nhõm chỉ dựa trên một tiêu đề hạ nhiệt duy nhất — lợi suất trái phiếu Kho bạc và xác suất Fed tăng lãi suất đã có vẻ như đang định giá trước cho vòng tiếp theo.</p>
+<p class="id">Ada ketidaksesuaian waktu yang perlu disoroti. Penurunan yang didorong bensin dalam rilis ini adalah angka yang menoleh ke belakang dari Juni. Kenaikan harga minyak saat ini adalah data yang menatap ke depan. Itu menunjukkan adanya kemungkinan nyata lonjakan ini justru akan muncul pada rilis CPI Juli. Ini kemungkinan menjadi alasan mengapa pasar tidak menjalankan reli kelegaan hanya dari satu headline yang lebih dingin — imbal hasil Treasury dan peluang kenaikan suku bunga The Fed sudah terbaca seolah-olah sedang memperhitungkan putaran berikutnya.</p>
+<p class="pl">Warto zwrócić uwagę na rozbieżność czasową. Spadek napędzany cenami benzyny w tym odczycie to liczba retrospektywna z czerwca. Rosnące teraz ceny ropy to dane wybiegające w przyszłość. Wskazuje to na realną szansę, że ten skok pojawi się zamiast tego w odczycie CPI za lipiec. To prawdopodobnie dlatego rynek nie prowadzi rajdu ulgi na podstawie jednego chłodniejszego nagłówka — rentowności obligacji skarbowych i szanse na podwyżkę stóp Fedu już odczytuje się tak, jakby wyceniały kolejną rundę.</p>
+<p class="it">C'è una discrepanza temporale che vale la pena segnalare. Il calo trainato dalla benzina in questo dato è un numero retrospettivo di giugno. L'attuale rialzo dei prezzi del petrolio è invece un dato prospettico. Ciò indica una reale possibilità che questo picco compaia invece nel dato CPI di luglio. È plausibile che sia questo il motivo per cui il mercato non sta correndo un rally di sollievo su un solo titolo più freddo — i rendimenti del Treasury e le probabilità di rialzo della Fed si leggono già come se stessero prezzando il round successivo.</p>
+<p class="ru">Стоит отметить временное несоответствие. Снижение, вызванное ценами на бензин, в этой публикации — это ретроспективная цифра за июнь. Рост цен на нефть прямо сейчас — это опережающие данные. Это указывает на реальную вероятность того, что данный скачок вместо этого проявится в июльской публикации CPI. Вероятно, именно поэтому рынок не устраивает ралли облегчения на основании одного более холодного заголовка — доходности казначейских облигаций и шансы ФРС на повышение ставки уже читаются так, будто закладывают следующий раунд.</p>
+<p class="zh">這裡有一個值得指出的時間落差。這次公布數字中由汽油帶動的下滑,是屬於6月的「回顧性」數字。而目前正在上漲的油價,則是「前瞻性」數據。這意味著這波漲勢很可能會反映在7月的CPI數據中。這或許正是市場沒有僅憑一次降溫的headline數字就展開鬆一口氣行情的原因——公債殖利率與聯準會升息機率讀起來,已經像是在為下一輪預先定價。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -440,6 +480,206 @@
   <text x="20" y="634" fill="#71717a" font-family="sans-serif" font-size="13">Nguồn: CNBC, Bloomberg (lợi suất, dầu), CME Group FedWatch (xác suất tăng), CryptoQuant, Live Bitcoin News (tỷ lệ dự trữ stablecoin)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Headline Mendingin — Semua yang Lain Bertahan</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Pemeriksaan pasca-CPI (14 Juli 2026)</text>
+  <text x="20" y="74" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">CPI: Headline vs Inti (YoY)</text>
+  <text x="20" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI Headline (YoY)</text>
+  <rect x="20" y="100" width="416" height="24" rx="5" fill="#34d399"/>
+  <text x="446" y="117" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">3,9%</text>
+  <text x="20" y="144" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI Inti (YoY)</text>
+  <rect x="20" y="152" width="309" height="24" rx="5" fill="#fbbf24"/>
+  <text x="339" y="169" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">2,9%</text>
+  <line x1="233" y1="92" x2="233" y2="176" stroke="#71717a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="20" y="198" fill="#a1a1aa" font-family="sans-serif" font-size="13">Garis putus-putus = target The Fed 2%</text>
+  <line x1="20" y1="215" x2="680" y2="215" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="20" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Imbal Hasil Treasury 2 Tahun</text>
+  <text x="40" y="290" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">4,25%</text>
+  <text x="40" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Tertinggi sejak</text>
+  <text x="40" y="334" fill="#71717a" font-family="sans-serif" font-size="13">Feb 2025</text>
+  <rect x="247" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="267" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Peluang Kenaikan FOMC 29 Juli</text>
+  <text x="267" y="290" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="800">36,3%</text>
+  <text x="267" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Tahan 63,7%</text>
+  <text x="267" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+25bp pada Sep 52,2%</text>
+  <rect x="475" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="495" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Minyak Mentah WTI</text>
+  <text x="495" y="290" fill="#fb923c" font-family="sans-serif" font-size="22" font-weight="800">$80+</text>
+  <text x="495" y="314" fill="#71717a" font-family="sans-serif" font-size="13">+20% dari titik terendah Juli</text>
+  <text x="495" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+3-4% dalam 24 jam</text>
+  <rect x="20" y="400" width="660" height="110" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="426" fill="#a1a1aa" font-family="sans-serif" font-size="13">Stablecoin Menganggur di Bursa</text>
+  <text x="40" y="458" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="800">~$43 Miliar</text>
+  <text x="40" y="482" fill="#71717a" font-family="sans-serif" font-size="13">~70% terkonsentrasi di Binance</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="13">Rasio cadangan BTC/stablecoin Binance di titik terendah sepanjang masa</text>
+  <text x="20" y="545" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Harga BTC: $62.600-$63.300 (pantulan hati-hati) · Kisaran hari ini $62.550-$63.700</text>
+  <text x="20" y="566" fill="#71717a" font-family="sans-serif" font-size="13">Konteks: Putaran ke-4 serangan AS terhadap Iran dalam 6 hari, deklarasi ulang blokade Selat Hormuz</text>
+  <text x="20" y="610" fill="#71717a" font-family="sans-serif" font-size="13">* Angka bersifat perkiraan menurut masing-masing penyedia data dan dapat berbeda dari nilai sebenarnya.</text>
+  <text x="20" y="634" fill="#71717a" font-family="sans-serif" font-size="13">Sumber: CNBC, Bloomberg (imbal hasil, minyak), CME Group FedWatch (peluang kenaikan), CryptoQuant, Live Bitcoin News (rasio cadangan stablecoin)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Nagłówek Ostudził się — Wszystko Inne Utrzymało się</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kontrola po CPI (14 lipca 2026)</text>
+  <text x="20" y="74" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">CPI: Nagłówkowe vs Bazowe (r/r)</text>
+  <text x="20" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI Nagłówkowe (r/r)</text>
+  <rect x="20" y="100" width="416" height="24" rx="5" fill="#34d399"/>
+  <text x="446" y="117" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">3,9%</text>
+  <text x="20" y="144" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI Bazowe (r/r)</text>
+  <rect x="20" y="152" width="309" height="24" rx="5" fill="#fbbf24"/>
+  <text x="339" y="169" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">2,9%</text>
+  <line x1="233" y1="92" x2="233" y2="176" stroke="#71717a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="20" y="198" fill="#a1a1aa" font-family="sans-serif" font-size="13">Linia przerywana = cel Fedu 2%</text>
+  <line x1="20" y1="215" x2="680" y2="215" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="20" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Rentowność 2-letnich Obligacji Skarbowych</text>
+  <text x="40" y="290" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">4,25%</text>
+  <text x="40" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Najwyższy poziom od</text>
+  <text x="40" y="334" fill="#71717a" font-family="sans-serif" font-size="13">lut 2025</text>
+  <rect x="247" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="267" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Szanse na Podwyżkę FOMC 29 lipca</text>
+  <text x="267" y="290" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="800">36,3%</text>
+  <text x="267" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Utrzymanie 63,7%</text>
+  <text x="267" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+25pb do wrz 52,2%</text>
+  <rect x="475" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="495" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Ropa WTI</text>
+  <text x="495" y="290" fill="#fb923c" font-family="sans-serif" font-size="22" font-weight="800">80 USD+</text>
+  <text x="495" y="314" fill="#71717a" font-family="sans-serif" font-size="13">+20% od minimum z lipca</text>
+  <text x="495" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+3-4% w 24h</text>
+  <rect x="20" y="400" width="660" height="110" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="426" fill="#a1a1aa" font-family="sans-serif" font-size="13">Nieaktywne Stablecoiny na Giełdach</text>
+  <text x="40" y="458" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="800">~43 mld USD</text>
+  <text x="40" y="482" fill="#71717a" font-family="sans-serif" font-size="13">~70% skoncentrowane na Binance</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="13">Wskaźnik rezerw BTC/stablecoin Binance na rekordowo niskim poziomie</text>
+  <text x="20" y="545" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Cena BTC: 62 600-63 300 USD (ostrożne odbicie) · Zakres dnia 62 550-63 700 USD</text>
+  <text x="20" y="566" fill="#71717a" font-family="sans-serif" font-size="13">Kontekst: 4. runda ataków USA na Iran w ciągu 6 dni, ponowna deklaracja blokady Cieśniny Ormuz</text>
+  <text x="20" y="610" fill="#71717a" font-family="sans-serif" font-size="13">* Dane są przybliżone według poszczególnych dostawców danych i mogą różnić się od rzeczywistych wartości.</text>
+  <text x="20" y="634" fill="#71717a" font-family="sans-serif" font-size="13">Źródła: CNBC, Bloomberg (rentowności, ropa), CME Group FedWatch (szanse na podwyżkę), CryptoQuant, Live Bitcoin News (wskaźnik rezerw stablecoin)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Il Titolo si è Raffreddato — Tutto il Resto ha Tenuto</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Verifica post-CPI (14 luglio 2026)</text>
+  <text x="20" y="74" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">CPI: Headline vs Core (anno su anno)</text>
+  <text x="20" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI Headline (anno su anno)</text>
+  <rect x="20" y="100" width="416" height="24" rx="5" fill="#34d399"/>
+  <text x="446" y="117" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">3,9%</text>
+  <text x="20" y="144" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI Core (anno su anno)</text>
+  <rect x="20" y="152" width="309" height="24" rx="5" fill="#fbbf24"/>
+  <text x="339" y="169" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">2,9%</text>
+  <line x1="233" y1="92" x2="233" y2="176" stroke="#71717a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="20" y="198" fill="#a1a1aa" font-family="sans-serif" font-size="13">Linea tratteggiata = obiettivo Fed 2%</text>
+  <line x1="20" y1="215" x2="680" y2="215" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="20" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Rendimento Treasury a 2 Anni</text>
+  <text x="40" y="290" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">4,25%</text>
+  <text x="40" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Massimo da</text>
+  <text x="40" y="334" fill="#71717a" font-family="sans-serif" font-size="13">feb 2025</text>
+  <rect x="247" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="267" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Probabilità Rialzo FOMC 29 lug</text>
+  <text x="267" y="290" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="800">36,3%</text>
+  <text x="267" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Invariato 63,7%</text>
+  <text x="267" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+25pb entro set 52,2%</text>
+  <rect x="475" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="495" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Greggio WTI</text>
+  <text x="495" y="290" fill="#fb923c" font-family="sans-serif" font-size="22" font-weight="800">$80+</text>
+  <text x="495" y="314" fill="#71717a" font-family="sans-serif" font-size="13">+20% dal minimo di luglio</text>
+  <text x="495" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+3-4% in 24h</text>
+  <rect x="20" y="400" width="660" height="110" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="426" fill="#a1a1aa" font-family="sans-serif" font-size="13">Stablecoin Inattive sugli Exchange</text>
+  <text x="40" y="458" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="800">~$43 Miliardi</text>
+  <text x="40" y="482" fill="#71717a" font-family="sans-serif" font-size="13">~70% concentrato su Binance</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="13">Rapporto di riserva BTC/stablecoin di Binance ai minimi storici</text>
+  <text x="20" y="545" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Prezzo BTC: $62.600-$63.300 (rimbalzo cauto) · Range giornaliero $62.550-$63.700</text>
+  <text x="20" y="566" fill="#71717a" font-family="sans-serif" font-size="13">Contesto: 4° round di attacchi USA all'Iran in 6 giorni, rinnovata dichiarazione di blocco dello Stretto di Hormuz</text>
+  <text x="20" y="610" fill="#71717a" font-family="sans-serif" font-size="13">* I dati sono approssimativi secondo ciascun fornitore e possono differire dai valori reali.</text>
+  <text x="20" y="634" fill="#71717a" font-family="sans-serif" font-size="13">Fonti: CNBC, Bloomberg (rendimenti, petrolio), CME Group FedWatch (probabilità di rialzo), CryptoQuant, Live Bitcoin News (rapporto di riserva stablecoin)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Заголовок Остыл — Всё Остальное Устояло</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Проверка после CPI (14 июля 2026)</text>
+  <text x="20" y="74" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">CPI: Общий vs Базовый (г/г)</text>
+  <text x="20" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Общий CPI (г/г)</text>
+  <rect x="20" y="100" width="416" height="24" rx="5" fill="#34d399"/>
+  <text x="446" y="117" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">3,9%</text>
+  <text x="20" y="144" fill="#a1a1aa" font-family="sans-serif" font-size="13">Базовый CPI (г/г)</text>
+  <rect x="20" y="152" width="309" height="24" rx="5" fill="#fbbf24"/>
+  <text x="339" y="169" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">2,9%</text>
+  <line x1="233" y1="92" x2="233" y2="176" stroke="#71717a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="20" y="198" fill="#a1a1aa" font-family="sans-serif" font-size="13">Пунктирная линия = цель ФРС 2%</text>
+  <line x1="20" y1="215" x2="680" y2="215" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="20" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Доходность 2-летних Казначейских Облигаций</text>
+  <text x="40" y="290" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">4,25%</text>
+  <text x="40" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Максимум с</text>
+  <text x="40" y="334" fill="#71717a" font-family="sans-serif" font-size="13">фев 2025</text>
+  <rect x="247" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="267" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Шансы на Повышение FOMC 29 июля</text>
+  <text x="267" y="290" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="800">36,3%</text>
+  <text x="267" y="314" fill="#71717a" font-family="sans-serif" font-size="13">Сохранение 63,7%</text>
+  <text x="267" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+25 б.п. к сен 52,2%</text>
+  <rect x="475" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="495" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">Нефть WTI</text>
+  <text x="495" y="290" fill="#fb923c" font-family="sans-serif" font-size="22" font-weight="800">$80+</text>
+  <text x="495" y="314" fill="#71717a" font-family="sans-serif" font-size="13">+20% от июльского минимума</text>
+  <text x="495" y="334" fill="#71717a" font-family="sans-serif" font-size="13">+3-4% за 24ч</text>
+  <rect x="20" y="400" width="660" height="110" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="426" fill="#a1a1aa" font-family="sans-serif" font-size="13">Незадействованные Стейблкоины на Биржах</text>
+  <text x="40" y="458" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="800">~$43 млрд</text>
+  <text x="40" y="482" fill="#71717a" font-family="sans-serif" font-size="13">~70% сосредоточено на Binance</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="13">Коэффициент резервов BTC/стейблкоин Binance на рекордном минимуме</text>
+  <text x="20" y="545" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Цена BTC: $62 600-$63 300 (осторожный отскок) · Дневной диапазон $62 550-$63 700</text>
+  <text x="20" y="566" fill="#71717a" font-family="sans-serif" font-size="13">Контекст: 4-й раунд ударов США по Ирану за 6 дней, повторное заявление о блокаде Ормузского пролива</text>
+  <text x="20" y="610" fill="#71717a" font-family="sans-serif" font-size="13">* Цифры являются приблизительными по данным каждого поставщика и могут отличаться от фактических значений.</text>
+  <text x="20" y="634" fill="#71717a" font-family="sans-serif" font-size="13">Источники: CNBC, Bloomberg (доходности, нефть), CME Group FedWatch (шансы на повышение), CryptoQuant, Live Bitcoin News (коэффициент резервов стейблкоинов)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Headline數字降溫——其餘一切依然屹立</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI公布後交叉檢視(2026年7月14日)</text>
+  <text x="20" y="74" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">CPI:Headline數字 vs 核心(年增率)</text>
+  <text x="20" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Headline CPI(年增率)</text>
+  <rect x="20" y="100" width="416" height="24" rx="5" fill="#34d399"/>
+  <text x="446" y="117" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">3.9%</text>
+  <text x="20" y="144" fill="#a1a1aa" font-family="sans-serif" font-size="13">核心CPI(年增率)</text>
+  <rect x="20" y="152" width="309" height="24" rx="5" fill="#fbbf24"/>
+  <text x="339" y="169" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">2.9%</text>
+  <line x1="233" y1="92" x2="233" y2="176" stroke="#71717a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="20" y="198" fill="#a1a1aa" font-family="sans-serif" font-size="13">虛線 = 聯準會通膨目標2%</text>
+  <line x1="20" y1="215" x2="680" y2="215" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="20" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">兩年期公債殖利率</text>
+  <text x="40" y="290" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">4.25%</text>
+  <text x="40" y="314" fill="#71717a" font-family="sans-serif" font-size="13">自2025年2月</text>
+  <text x="40" y="334" fill="#71717a" font-family="sans-serif" font-size="13">以來最高</text>
+  <rect x="247" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="267" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">7/29 FOMC升息機率</text>
+  <text x="267" y="290" fill="#fbbf24" font-family="sans-serif" font-size="22" font-weight="800">36.3%</text>
+  <text x="267" y="314" fill="#71717a" font-family="sans-serif" font-size="13">維持不變63.7%</text>
+  <text x="267" y="334" fill="#71717a" font-family="sans-serif" font-size="13">9月累計升息52.2%</text>
+  <rect x="475" y="230" width="205" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="495" y="258" fill="#a1a1aa" font-family="sans-serif" font-size="13">WTI原油</text>
+  <text x="495" y="290" fill="#fb923c" font-family="sans-serif" font-size="22" font-weight="800">$80+</text>
+  <text x="495" y="314" fill="#71717a" font-family="sans-serif" font-size="13">較7月低點+20%</text>
+  <text x="495" y="334" fill="#71717a" font-family="sans-serif" font-size="13">24小時+3~4%</text>
+  <rect x="20" y="400" width="660" height="110" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="426" fill="#a1a1aa" font-family="sans-serif" font-size="13">交易所閒置穩定幣</text>
+  <text x="40" y="458" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="800">約430億美元</text>
+  <text x="40" y="482" fill="#71717a" font-family="sans-serif" font-size="13">約70%集中於幣安</text>
+  <text x="40" y="500" fill="#71717a" font-family="sans-serif" font-size="13">幣安BTC/穩定幣儲備比率創歷史新低</text>
+  <text x="20" y="545" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">BTC價格:6萬2,600~6萬3,300美元(謹慎反彈)‧當日區間6萬2,550~6萬3,700美元</text>
+  <text x="20" y="566" fill="#71717a" font-family="sans-serif" font-size="13">背景:美國6天內對伊朗發動第4輪空襲,重申荷姆茲海峽封鎖</text>
+  <text x="20" y="610" fill="#71717a" font-family="sans-serif" font-size="13">※數字為各資料提供者的近似值,可能與實際數值有所差異。</text>
+  <text x="20" y="634" fill="#71717a" font-family="sans-serif" font-size="13">資料來源:CNBC、彭博社(殖利率、油價)、CME集團FedWatch(升息機率)、CryptoQuant、Live Bitcoin News(穩定幣儲備比率)</text>
+</svg>
+</div>
 
 <h2 class="ko">6만2,600달러 부근, 거래소 대기 스테이블코인은 왜 아직 움직이지 않는가</h2>
 <h2 class="en">Near $62,600, Why Hasn't the Stablecoin Pile on Exchanges Moved?</h2>
@@ -450,6 +690,11 @@
 <h2 class="pt">Perto de US$ 62.600, Por Que a Pilha de Stablecoins nas Exchanges Não se Moveu?</h2>
 <h2 class="tr">62.600 Dolar Civarında, Borsalardaki Stabilcoin Yığını Neden Kımıldamadı?</h2>
 <h2 class="vi">Gần Mức 62.600 Đô La, Vì Sao Đống Stablecoin Trên Các Sàn Vẫn Chưa Nhúc Nhích?</h2>
+<h2 class="id">Di Sekitar $62.600, Mengapa Tumpukan Stablecoin di Bursa Belum Bergerak?</h2>
+<h2 class="pl">W Pobliżu 62 600 USD, Dlaczego Sterta Stablecoinów na Giełdach się Nie Ruszyła?</h2>
+<h2 class="it">Vicino a $62.600, Perché la Montagna di Stablecoin sugli Exchange non si è Mossa?</h2>
+<h2 class="ru">Около $62 600 — Почему Груда Стейблкоинов на Биржах не Сдвинулась?</h2>
+<h2 class="zh">在6萬2,600美元附近,交易所裡堆積的穩定幣為何仍未動起來?</h2>
 
 <p class="ko">라이브비트코인뉴스가 전한 크립토퀀트 집계에 따르면 바이낸스의 BTC/스테이블코인 거래소 준비금 비율은 사상 최저 수준까지 떨어졌다. 거래소에 대기 중인 스테이블코인은 약 430억달러 규모이며, 이 중 약 70%가 바이낸스 한 곳에 몰려 있다. 통상 이 비율이 낮을수록 — 즉 비트코인 준비금 대비 스테이블코인 비중이 클수록 — 잠재 매수여력이 크다고 해석된다.</p>
 <p class="en">Per CryptoQuant data reported by Live Bitcoin News, Binance's BTC-to-stablecoin exchange reserve ratio has fallen to a record low. Roughly $43 billion in stablecoins now sits on exchanges, with about 70% of that concentrated on Binance alone. A lower ratio like this is usually read as more potential buying power relative to Bitcoin's exchange supply.</p>
@@ -460,6 +705,11 @@
 <p class="pt">Segundo dados da CryptoQuant divulgados pela Live Bitcoin News, a relação de reservas BTC-para-stablecoin da Binance nas exchanges caiu para uma mínima histórica. Cerca de US$ 43 bilhões em stablecoins agora residem em exchanges, com cerca de 70% disso concentrado apenas na Binance. Uma relação mais baixa como essa costuma ser lida como mais poder de compra potencial em relação à oferta de bitcoin nas exchanges.</p>
 <p class="tr">Live Bitcoin News tarafından aktarılan CryptoQuant verilerine göre, Binance'in borsalardaki BTC-stabilcoin rezerv oranı rekor düşük seviyeye geriledi. Şu anda borsalarda yaklaşık 43 milyar dolarlık stabilcoin bulunuyor ve bunun yaklaşık %70'i yalnızca Binance'te yoğunlaşmış durumda. Bu şekilde daha düşük bir oran genellikle Bitcoin'in borsa arzına kıyasla daha fazla potansiyel alım gücü olarak okunur.</p>
 <p class="vi">Theo dữ liệu của CryptoQuant được Live Bitcoin News đưa tin, tỷ lệ dự trữ BTC-sang-stablecoin trên các sàn của Binance đã giảm xuống mức thấp kỷ lục. Hiện có khoảng 43 tỷ đô la stablecoin nằm trên các sàn, với khoảng 70% trong số đó tập trung riêng tại Binance. Một tỷ lệ thấp như vậy thường được diễn giải là sức mua tiềm năng lớn hơn so với nguồn cung Bitcoin trên các sàn.</p>
+<p class="id">Menurut data CryptoQuant yang dilaporkan oleh Live Bitcoin News, rasio cadangan bursa BTC-terhadap-stablecoin Binance telah turun ke titik terendah sepanjang masa. Sekitar $43 miliar stablecoin kini berada di bursa, dengan sekitar 70% di antaranya terkonsentrasi di Binance saja. Rasio yang lebih rendah seperti ini biasanya dibaca sebagai daya beli potensial yang lebih besar relatif terhadap pasokan Bitcoin di bursa.</p>
+<p class="pl">Według danych CryptoQuant przytoczonych przez Live Bitcoin News, wskaźnik rezerw giełdowych BTC-do-stablecoina Binance spadł do rekordowo niskiego poziomu. Około 43 miliardów USD w stablecoinach spoczywa teraz na giełdach, z czego około 70% skoncentrowane jest wyłącznie na Binance. Niższy wskaźnik tego rodzaju jest zazwyczaj odczytywany jako większa potencjalna siła nabywcza w stosunku do podaży Bitcoina na giełdach.</p>
+<p class="it">Secondo i dati di CryptoQuant riportati da Live Bitcoin News, il rapporto di riserva BTC-stablecoin di Binance sugli exchange è sceso a un minimo storico. Circa $43 miliardi in stablecoin risiedono ora sugli exchange, con circa il 70% concentrato solo su Binance. Un rapporto più basso come questo viene solitamente letto come maggiore potenziale potere d'acquisto rispetto all'offerta di Bitcoin sugli exchange.</p>
+<p class="ru">Согласно данным CryptoQuant, приведённым Live Bitcoin News, коэффициент биржевых резервов BTC к стейблкоинам Binance упал до рекордного минимума. Примерно $43 млрд в стейблкоинах сейчас находятся на биржах, причём около 70% из них сосредоточены только на Binance. Более низкий коэффициент такого рода обычно трактуется как больший потенциальный покупательский потенциал относительно биржевого предложения биткоина.</p>
+<p class="zh">根據Live Bitcoin News引述CryptoQuant的數據,幣安交易所的BTC對穩定幣儲備比率已降至歷史新低。目前約有430億美元的穩定幣停放在交易所中,其中約70%集中在幣安一家。這類比率越低,通常被解讀為相對於比特幣交易所供給量而言,潛在的購買力越大。</p>
 
 <p class="ko">문제는 이 대기자금이 아직 실제 매수로 전환되는 신호가 뚜렷하지 않다는 점이다. 비트코인은 CPI 발표 이후에도 좁은 박스권을 벗어나지 못했고, 이 사이트가 같은 날 짚은 <a href="/blog/rhodl-compression-derivatives-deleveraging-timescale-gap">미결제약정·청산 점검</a>과 <a href="/blog/global-liquidity-whale-buying-derivatives-mute-gap">글로벌 유동성 점검</a>에서도 확인됐듯, 미국 현물 ETF는 이날 순유출 우위를 유지했다. '이론적 매수여력'이 쌓이는 속도와 그 여력이 실제 주문으로 옮겨가는 속도 사이에 간극이 있다는 뜻이다.</p>
 <p class="en">The catch is that this dry powder hasn't clearly converted into spot buying yet. Bitcoin stayed inside a narrow range even after the CPI print, and U.S. spot ETFs kept a net-outflow bias the same day, as this site's <a href="/en/blog/rhodl-compression-derivatives-deleveraging-timescale-gap">open interest and liquidation check</a> and <a href="/en/blog/global-liquidity-whale-buying-derivatives-mute-gap">global liquidity check</a> both confirmed. There's a gap between the pace at which theoretical buying power is building up and the pace at which it's actually turning into orders.</p>

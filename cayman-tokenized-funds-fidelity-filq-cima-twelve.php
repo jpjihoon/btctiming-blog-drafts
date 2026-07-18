@@ -99,6 +99,11 @@
 <p class="pt">O FILQ é gerido pela gestora europeia de fundos de investimento alternativo da Fidelity International e foi projetado para oferecer liquidez 24 horas por dia por meio da emissão e do resgate de seus tokens baseados em blockchain. A Maples Group atuou como consultoria jurídica em Cayman para o lançamento. O que chama atenção é que a classificação AAA-mf da Moody's — uma escala originalmente criada para avaliar a estabilidade de crédito e liquidez de fundos convencionais do mercado monetário — foi aplicada diretamente a um wrapper tokenizado. Em outras palavras, a confiança institucional aqui está sendo construída por meio de uma metodologia de classificação de crédito já existente, não de algum novo arcabouço nativo de cripto.</p>
 <p class="tr">FILQ, Fidelity International'ın Avrupa alternatif yatırım fonu yöneticisi tarafından yönetiliyor ve tokenlerinin blok zinciri tabanlı ihracı ve itfası yoluyla kesintisiz likidite sağlamak üzere tasarlandı. Maples Group, lansmanda Cayman hukuk danışmanlığı yaptı. Dikkat çeken nokta, Moody's'in aslında geleneksel para piyasası fonlarının kredi ve likidite istikrarını değerlendirmek için tasarlanmış AAA-mf notunun doğrudan tokenize bir yapıya uygulanmış olması. Başka bir deyişle, buradaki kurumsal güven yeni bir kripto-yerli çerçeve üzerinden değil, mevcut bir kredi derecelendirme metodolojisi üzerinden inşa ediliyor.</p>
 <p class="vi">FILQ được quản lý bởi công ty quản lý quỹ đầu tư thay thế châu Âu của Fidelity International và được thiết kế để cung cấp thanh khoản suốt ngày đêm thông qua việc phát hành và mua lại token dựa trên blockchain. Maples Group đóng vai trò tư vấn pháp lý tại Cayman cho đợt ra mắt này. Điều đáng chú ý là xếp hạng AAA-mf của Moody's — một thang đo vốn được thiết kế để đánh giá sự ổn định tín dụng và thanh khoản của các quỹ thị trường tiền tệ truyền thống — đã được áp dụng trực tiếp cho một lớp vỏ token hóa. Nói cách khác, niềm tin của các tổ chức ở đây đang được xây dựng thông qua một phương pháp xếp hạng tín dụng đã có sẵn, chứ không phải một khung khổ hoàn toàn mới mang bản chất tiền mã hóa.</p>
+<p class="id">FILQ dikelola oleh manajer dana investasi alternatif Eropa milik Fidelity International dan dirancang untuk menyediakan likuiditas nonstop melalui penerbitan dan penebusan tokennya yang berbasis blockchain. Maples Group bertindak sebagai penasihat hukum Cayman untuk peluncuran ini. Yang menonjol adalah peringkat AAA-mf dari Moody's — skala yang awalnya dirancang untuk menilai stabilitas kredit dan likuiditas dana pasar uang konvensional — diterapkan langsung pada wrapper tertokenisasi. Dengan kata lain, kepercayaan institusional di sini dibangun melalui metodologi pemeringkatan kredit yang sudah ada, bukan kerangka baru berbasis kripto.</p>
+<p class="pl">FILQ jest zarządzany przez europejskiego zarządzającego alternatywnymi funduszami inwestycyjnymi Fidelity International i został zaprojektowany tak, by zapewniać całodobową płynność dzięki opartej na blockchainie emisji i umorzeniu swoich tokenów. Maples Group pełniła rolę doradcy prawnego na Kajmanach przy tym wdrożeniu. Uwagę zwraca fakt, że rating AAA-mf agencji Moody's — skala pierwotnie stworzona do oceny stabilności kredytowej i płynnościowej konwencjonalnych funduszy rynku pieniężnego — została zastosowana bezpośrednio do stokenizowanego wrappera. Innymi słowy, zaufanie instytucjonalne buduje się tu za pomocą istniejącej metodologii ratingu kredytowego, a nie jakichś nowych, natywnie kryptowalutowych ram.</p>
+<p class="it">FILQ è gestito dal gestore europeo di fondi di investimento alternativi di Fidelity International ed è progettato per fornire liquidità 24 ore su 24 attraverso l'emissione e il rimborso dei suoi token basati su blockchain. Maples Group ha agito come consulente legale per le Cayman nel lancio. Ciò che colpisce è che il rating AAA-mf di Moody's — una scala originariamente creata per valutare la stabilità creditizia e di liquidità dei fondi monetari convenzionali — è stato applicato direttamente a un wrapper tokenizzato. In altre parole, la fiducia istituzionale qui viene costruita attraverso una metodologia di rating creditizio già esistente, non un nuovo quadro nativo cripto.</p>
+<p class="ru">FILQ находится под управлением европейского управляющего альтернативными инвестиционными фондами Fidelity International и рассчитан на обеспечение круглосуточной ликвидности за счёт выпуска и погашения своих токенов на основе блокчейна. Maples Group выступила юридическим консультантом на Кайманах при запуске. Примечательно, что рейтинг AAA-mf от Moody's — шкала, изначально созданная для оценки кредитной и ликвидностной устойчивости обычных фондов денежного рынка, — была напрямую применена к токенизированной оболочке. Иными словами, институциональное доверие здесь выстраивается через уже существующую методологию кредитного рейтинга, а не через какой-то новый крипто-нативный фреймворк.</p>
+<p class="zh">FILQ由富達國際的歐洲另類投資基金經理負責管理,其設計目標是透過區塊鏈式代幣發行與贖回機制提供全天候流動性。梅普思集團(Maples Group)在此次上線中擔任開曼法律顧問。值得注意的是,穆迪的AAA-mf評級——原本用於評估傳統貨幣市場基金信用與流動性穩定度的標準——被直接套用在代幣化的包裝結構上。換句話說,機構投資人的信任在此是透過既有的信用評等方法建立,而非某種全新的加密原生框架。</p>
 
 <p class="ko">FILQ는 이미 자리를 잡은 두 경쟁자를 뒤쫓는 처지다. 블랙록이 증권화 플랫폼을 통해 발행하는 BUIDL은 이더리움을 포함한 6개 체인에서 약 25억달러 안팎의 AUM으로 시장을 이끌고 있고, 프랭클린템플턴의 BENJI는 약 8억2800만달러 규모로 유일하게 미국 '40년법'에 따른 등록 뮤추얼펀드를 직접 래핑하는 구조이며 운용보수도 0.15%로 업계 최저 수준이다. FILQ는 이들과 달리 케이맨 사모펀드 구조를 택했는데, 이는 적격투자자·기관 계좌로 유통을 제한하는 대신 등록 절차를 간소화하는 전형적인 절충이다.</p>
 <p class="en">FILQ is chasing two already-established rivals. BUIDL, which BlackRock issues via the tokenization platform Securitize, leads the market with roughly $2.5 billion in AUM across six chains including Ethereum, while Franklin Templeton's BENJI, at about $828 million, is the only one of the four major tokenized funds to directly wrap a US-registered '40 Act mutual fund and charges the lowest management fee in the category at 0.15%. FILQ instead chose a Cayman private-fund structure — the classic trade-off of restricting distribution to qualified and institutional investors in exchange for a simpler registration process.</p>
@@ -109,6 +114,11 @@
 <p class="pt">O FILQ está perseguindo dois rivais já estabelecidos. O BUIDL, que a BlackRock emite por meio da plataforma de tokenização Securitize, lidera o mercado com cerca de US$ 2,5 bilhões em ativos sob gestão em seis blockchains, incluindo a Ethereum, enquanto o BENJI da Franklin Templeton, com cerca de US$ 828 milhões, é o único dos quatro grandes fundos tokenizados a envolver diretamente um fundo mútuo registrado sob a lei americana de 1940 ('40 Act) e cobra a menor taxa de administração da categoria, 0,15%. O FILQ, por sua vez, optou por uma estrutura de fundo privado de Cayman — a clássica contrapartida de restringir a distribuição a investidores qualificados e institucionais em troca de um processo de registro mais simples.</p>
 <p class="tr">FILQ, zaten yerleşik hale gelmiş iki rakibi kovalıyor. BlackRock'un tokenizasyon platformu Securitize üzerinden ihraç ettiği BUIDL, Ethereum dahil altı zincirde yaklaşık 2,5 milyar dolarlık yönetilen varlıkla piyasaya liderlik ediyor; Franklin Templeton'ın BENJI'si ise yaklaşık 828 milyon dolarla, dört büyük tokenize fon arasında doğrudan ABD'nin '40 Yasası kapsamında kayıtlı bir yatırım fonunu saran tek fon ve kategorideki en düşük yönetim ücretini, %0,15'i, uyguluyor. FILQ bunun yerine bir Cayman özel fon yapısını tercih etti — dağıtımı nitelikli ve kurumsal yatırımcılarla sınırlama karşılığında daha basit bir kayıt süreci elde etmenin klasik değiş tokuşu.</p>
 <p class="vi">FILQ đang đuổi theo hai đối thủ đã có chỗ đứng vững chắc. BUIDL, do BlackRock phát hành qua nền tảng token hóa Securitize, dẫn đầu thị trường với khoảng 2,5 tỷ USD tài sản quản lý trên sáu chuỗi bao gồm Ethereum, trong khi BENJI của Franklin Templeton, ở mức khoảng 828 triệu USD, là quỹ token hóa duy nhất trong bốn quỹ lớn trực tiếp bọc một quỹ tương hỗ đăng ký theo Đạo luật '40 của Mỹ và tính phí quản lý thấp nhất trong nhóm, 0,15%. Thay vào đó, FILQ chọn cấu trúc quỹ tư nhân tại Cayman — sự đánh đổi kinh điển giữa việc giới hạn phân phối cho nhà đầu tư đủ điều kiện và tổ chức để đổi lấy quy trình đăng ký đơn giản hơn.</p>
+<p class="id">FILQ mengejar dua rival yang sudah mapan. BUIDL, yang diterbitkan BlackRock lewat platform tokenisasi Securitize, memimpin pasar dengan AUM sekitar $2,5 miliar di enam chain termasuk Ethereum, sementara BENJI milik Franklin Templeton, senilai sekitar $828 juta, adalah satu-satunya dari empat dana tertokenisasi utama yang secara langsung membungkus reksa dana terdaftar AS di bawah '40 Act dan mengenakan biaya manajemen terendah di kategorinya, yaitu 0,15%. FILQ sebaliknya memilih struktur dana privat Cayman — trade-off klasik berupa pembatasan distribusi kepada investor yang memenuhi syarat dan institusional demi proses pendaftaran yang lebih sederhana.</p>
+<p class="pl">FILQ goni za dwoma już ugruntowanymi rywalami. BUIDL, który BlackRock emituje za pośrednictwem platformy tokenizacyjnej Securitize, prowadzi na rynku z aktywami pod zarządzaniem na poziomie około 2,5 miliarda dolarów w sześciu sieciach blockchain, w tym Ethereum, podczas gdy BENJI Franklin Templeton, wart około 828 milionów dolarów, jest jedynym z czterech głównych stokenizowanych funduszy, który bezpośrednio opakowuje zarejestrowany w USA fundusz inwestycyjny na mocy '40 Act i pobiera najniższą opłatę za zarządzanie w tej kategorii — 0,15%. FILQ zamiast tego wybrał strukturę funduszu prywatnego na Kajmanach — klasyczny kompromis polegający na ograniczeniu dystrybucji do inwestorów kwalifikowanych i instytucjonalnych w zamian za prostszy proces rejestracji.</p>
+<p class="it">FILQ insegue due rivali già affermati. BUIDL, che BlackRock emette tramite la piattaforma di tokenizzazione Securitize, guida il mercato con circa 2,5 miliardi di dollari di asset in gestione su sei chain, tra cui Ethereum, mentre BENJI di Franklin Templeton, a circa 828 milioni di dollari, è l'unico tra i quattro maggiori fondi tokenizzati a incapsulare direttamente un fondo comune registrato negli Stati Uniti ai sensi del '40 Act e applica la commissione di gestione più bassa della categoria, pari allo 0,15%. FILQ ha invece scelto una struttura di fondo privato delle Cayman — il classico compromesso di limitare la distribuzione a investitori qualificati e istituzionali in cambio di un processo di registrazione più semplice.</p>
+<p class="ru">FILQ преследует двух уже утвердившихся конкурентов. BUIDL, который BlackRock выпускает через платформу токенизации Securitize, лидирует на рынке с активами под управлением примерно в 2,5 миллиарда долларов в шести блокчейн-сетях, включая Ethereum, тогда как BENJI от Franklin Templeton стоимостью около 828 миллионов долларов — единственный из четырёх крупнейших токенизированных фондов, который напрямую оборачивает зарегистрированный в США взаимный фонд по закону '40 Act, и взимает самую низкую в категории комиссию за управление — 0,15%. FILQ вместо этого выбрал структуру частного фонда на Кайманах — классический компромисс: ограничение дистрибуции квалифицированными и институциональными инвесторами в обмен на более простую процедуру регистрации.</p>
+<p class="zh">FILQ正在追趕兩個已經站穩腳步的對手。貝萊德透過代幣化平台Securitize發行的BUIDL,在包含以太坊在內的六條鏈上以約25億美元的管理資產規模領先市場;而富蘭克林鄧普頓的BENJI規模約8.28億美元,是四大代幣化基金中唯一直接包裝美國「40年法」註冊共同基金的產品,管理費也是同類中最低,僅0.15%。FILQ則選擇了開曼私募基金結構——這是將銷售對象限制在合格投資人與機構帳戶、以換取更簡化登記程序的典型取捨。</p>
 
 <h2 class="ko">규모의 함정 — 12개 대 3만1000개, 그리고 왜 케이맨인가</h2>
 <h2 class="en">The Scale Problem — 12 vs. 31,000, and Why Cayman</h2>
@@ -119,6 +129,11 @@
 <h2 class="pt">O Problema de Escala — 12 Contra 31.000, e Por Que Cayman</h2>
 <h2 class="tr">Ölçek Sorunu — 31.000'e Karşı 12, ve Neden Cayman</h2>
 <h2 class="vi">Vấn Đề Về Quy Mô — 12 So Với 31.000, Và Tại Sao Là Cayman</h2>
+<h2 class="id">Masalah Skala — 12 Berbanding 31.000, dan Mengapa Cayman</h2>
+<h2 class="pl">Problem Skali — 12 Kontra 31 000, i Dlaczego Kajmany</h2>
+<h2 class="it">Il Problema della Scala — 12 Contro 31.000, e Perché le Cayman</h2>
+<h2 class="ru">Проблема Масштаба — 12 Против 31 000, И Почему Именно Кайманы</h2>
+<h2 class="zh">規模的陷阱——12檔對3萬1000檔,為何是開曼</h2>
 
 <p class="ko">다만 숫자를 있는 그대로 보면 절제가 필요하다. 얼터너티브크레딧인베스터(Alternative Credit Investor) 보도에 따르면 케이맨에 등록된 전체 펀드 수는 올해 들어 3만1000개를 넘어섰다 — 토큰화 펀드 12개는 그 중 0.04%에도 못 미치는 극소수다. 케이맨이 수십 년간 헤지펀드 업계의 사실상 표준 역외 거점이 될 수 있었던 이유는 유연하면서도 예측 가능한 규제, 그리고 기존 미국·유럽 자본시장과의 상호운용성이었다. 이번 토큰화 펀드 프레임워크도 같은 전략의 연장선이다 — 새로운 자산군이 등장할 때마다 그것을 흡수할 법적 그릇을 가장 먼저, 가장 매끄럽게 만들어 온 패턴이 이번에도 반복되고 있는 것이다.</p>
 <p class="en">Taken at face value, though, the numbers call for restraint. According to Alternative Credit Investor, the total number of funds registered in Cayman has topped 31,000 this year — 12 tokenized funds is well under 0.04% of that total. Cayman built its decades-long status as the de facto offshore hub for the hedge fund industry on flexible-but-predictable regulation and interoperability with existing US and European capital markets. This tokenized-fund framework is an extension of the same playbook: whenever a new asset class emerges, Cayman has consistently been first to build a smooth legal container to absorb it, and that pattern is simply repeating.</p>
@@ -129,6 +144,11 @@
 <p class="pt">No entanto, tomados ao pé da letra, os números pedem cautela. Segundo a Alternative Credit Investor, o número total de fundos registrados em Cayman ultrapassou 31.000 este ano — 12 fundos tokenizados representam bem menos de 0,04% desse total. Cayman construiu seu status de décadas como centro offshore de fato da indústria de hedge funds sobre uma regulação flexível mas previsível e sobre a interoperabilidade com os mercados de capitais dos EUA e da Europa já existentes. Esse marco de fundos tokenizados é uma extensão da mesma estratégia: sempre que surge uma nova classe de ativos, Cayman tem sido consistentemente o primeiro a construir um contêiner jurídico fluido para absorvê-la, e esse padrão simplesmente se repete.</p>
 <p class="tr">Ancak rakamlar olduğu gibi ele alındığında temkinli olmak gerekiyor. Alternative Credit Investor'a göre, Cayman'da kayıtlı fonların toplam sayısı bu yıl 31.000'i aştı — 12 tokenize fon bunun %0,04'ünden bile çok daha az bir oranı oluşturuyor. Cayman, on yıllardır hedge fon endüstrisinin fiili offshore merkezi konumunu, esnek ama öngörülebilir düzenleme ve mevcut ABD-Avrupa sermaye piyasalarıyla birlikte çalışabilirlik sayesinde inşa etti. Bu tokenize fon çerçevesi de aynı stratejinin bir uzantısı: her yeni varlık sınıfı ortaya çıktığında Cayman, onu emecek sorunsuz bir yasal kap inşa etmede sürekli olarak ilk sırada yer aldı ve bu örüntü burada da yalnızca tekrarlanıyor.</p>
 <p class="vi">Tuy nhiên, nhìn thẳng vào con số thì cần sự thận trọng. Theo Alternative Credit Investor, tổng số quỹ đăng ký tại Cayman đã vượt 31.000 trong năm nay — 12 quỹ token hóa chiếm chưa đến 0,04% con số đó. Cayman đã xây dựng vị thế hàng chục năm là trung tâm offshore trên thực tế của ngành quỹ đầu cơ nhờ quy định linh hoạt nhưng có thể dự đoán được, cùng khả năng tương tác với các thị trường vốn Mỹ và châu Âu sẵn có. Khung khổ quỹ token hóa này là sự nối dài của cùng một chiến lược: mỗi khi một loại tài sản mới xuất hiện, Cayman luôn là nơi đầu tiên xây dựng một "chiếc hộp" pháp lý trơn tru để hấp thụ nó, và khuôn mẫu đó đơn giản đang lặp lại ở đây.</p>
+<p class="id">Namun jika dilihat apa adanya, angka-angka ini menuntut kehati-hatian. Menurut Alternative Credit Investor, jumlah total dana yang terdaftar di Cayman telah melampaui 31.000 pada tahun ini — 12 dana tertokenisasi jauh di bawah 0,04% dari total tersebut. Cayman membangun status puluhan tahunnya sebagai hub lepas pantai de facto bagi industri hedge fund melalui regulasi yang fleksibel namun dapat diprediksi, serta interoperabilitas dengan pasar modal AS dan Eropa yang sudah ada. Kerangka dana tertokenisasi ini merupakan perpanjangan dari strategi yang sama: setiap kali muncul kelas aset baru, Cayman secara konsisten menjadi yang pertama membangun wadah hukum yang mulus untuk menyerapnya, dan pola tersebut kini sekadar berulang.</p>
+<p class="pl">Jeśli jednak spojrzeć na te liczby wprost, wymagają one powściągliwości. Według Alternative Credit Investor, łączna liczba funduszy zarejestrowanych na Kajmanach przekroczyła w tym roku 31 000 — 12 stokenizowanych funduszy to wyraźnie poniżej 0,04% tej sumy. Kajmany zbudowały swój wieloletni status de facto offshore'owego centrum branży funduszy hedgingowych na elastycznej, lecz przewidywalnej regulacji oraz interoperacyjności z istniejącymi rynkami kapitałowymi USA i Europy. Te ramy dla stokenizowanych funduszy są przedłużeniem tej samej strategii: gdy tylko pojawia się nowa klasa aktywów, Kajmany konsekwentnie jako pierwsze budują sprawny prawny pojemnik, by ją wchłonąć, i ten schemat po prostu się powtarza.</p>
+<p class="it">Presi alla lettera, tuttavia, i numeri richiedono cautela. Secondo Alternative Credit Investor, il numero totale di fondi registrati alle Cayman ha superato quota 31.000 quest'anno — 12 fondi tokenizzati rappresentano ben meno dello 0,04% di quel totale. Le Cayman hanno costruito il loro status decennale di hub offshore de facto per il settore degli hedge fund su una regolamentazione flessibile ma prevedibile e sull'interoperabilità con i mercati dei capitali statunitensi ed europei già esistenti. Questo quadro per i fondi tokenizzati è un'estensione dello stesso schema: ogni volta che emerge una nuova classe di attivi, le Cayman sono state costantemente le prime a costruire un contenitore giuridico agevole per assorbirla, e quel modello si sta semplicemente ripetendo.</p>
+<p class="ru">Впрочем, если воспринимать цифры буквально, они требуют сдержанности. По данным Alternative Credit Investor, общее число фондов, зарегистрированных на Кайманах, в этом году превысило 31 000 — 12 токенизированных фондов составляют значительно менее 0,04% от этого показателя. Кайманы выстроили свой многолетний статус фактического офшорного хаба для индустрии хедж-фондов на гибком, но предсказуемом регулировании и совместимости с существующими рынками капитала США и Европы. Эта рамочная структура для токенизированных фондов — продолжение того же сценария: всякий раз, когда возникает новый класс активов, Кайманы неизменно первыми выстраивают отлаженный правовой контейнер для его поглощения, и этот паттерн просто повторяется вновь.</p>
+<p class="zh">然而,若照字面數字來看,這其實需要保持克制。根據Alternative Credit Investor報導,今年開曼登記的基金總數已突破3萬1000檔——12檔代幣化基金遠遠不到這個總數的0.04%。開曼數十年來能成為避險基金產業事實上的離岸樞紐,靠的是既靈活又可預測的監管,以及與既有美歐資本市場的互通性。這套代幣化基金框架正是同一套打法的延伸:每當新的資產類別出現,開曼始終率先打造一個順暢的法律容器來吸納它,而這個模式如今只是再次重演。</p>
 
 <p class="ko">330억달러에서 6000억달러로 가는 전망 역시 회의적으로 볼 이유가 있다. RWA(실물자산) 토큰화는 2023년 이후 매년 '전환점'이 임박했다는 전망이 나왔지만, 실제 자금 유입 속도는 그보다 훨씬 완만했다 — BUIDL조차 2024년 3월 출시 이후 25억달러를 모으는 데 1년 넘게 걸렸다. 이번 성장이 실제로 가속화되려면 기관급 커스터디, 2차 유동성(토큰을 담보로 쓰거나 즉시 현금화할 수 있는 시장), 그리고 디파이(DeFi)와의 실질적 연동이 갖춰져야 하는데, 이 세 조건 중 어느 것도 아직 완성됐다고 보기는 어렵다.</p>
 <p class="en">There's also reason for skepticism about the leap from $33 billion to a projected $600 billion. Real-world-asset tokenization has been called an imminent "tipping point" every year since 2023, yet actual capital inflows have consistently arrived more slowly than forecast — even BUIDL took more than a year after its March 2024 launch to gather $2.5 billion. For this growth to actually accelerate, the space needs institutional-grade custody, secondary liquidity (markets where tokens can be used as collateral or cashed out instantly), and genuine integration with DeFi — and none of those three conditions can really be said to be in place yet.</p>
@@ -139,6 +159,11 @@
 <p class="pt">Também há motivo para ceticismo quanto ao salto de US$ 33 bilhões para os projetados US$ 600 bilhões. A tokenização de ativos do mundo real (RWA) vem sendo anunciada como um "ponto de inflexão" iminente todos os anos desde 2023, mas as entradas reais de capital chegaram consistentemente mais devagar do que o previsto — até o BUIDL levou mais de um ano após seu lançamento em março de 2024 para reunir US$ 2,5 bilhões. Para que esse crescimento realmente acelere, o setor precisa de custódia de nível institucional, liquidez secundária (mercados onde os tokens possam ser usados como garantia ou convertidos em dinheiro instantaneamente) e integração genuína com o DeFi — e nenhuma dessas três condições pode realmente ser considerada estabelecida ainda.</p>
 <p class="tr">33 milyar dolardan öngörülen 600 milyar dolara sıçramaya karşı da şüphecilik için bir neden var. Gerçek dünya varlığı (RWA) tokenizasyonu 2023'ten bu yana her yıl yakın bir "dönüm noktası" olarak anılıyor, ama gerçek sermaye girişleri sürekli olarak öngörülenden daha yavaş geldi — BUIDL bile Mart 2024'teki lansmanından sonra 2,5 milyar dolar toplamak için bir yıldan fazla zaman harcadı. Bu büyümenin gerçekten hızlanması için sektörün kurumsal düzeyde saklama, ikincil likidite (tokenlerin teminat olarak kullanılabildiği veya anında nakde çevrilebildiği piyasalar) ve DeFi ile gerçek bir entegrasyona ihtiyacı var — ve bu üç koşuldan hiçbirinin şu an gerçekten yerine geldiği söylenemez.</p>
 <p class="vi">Cũng có lý do để hoài nghi về bước nhảy từ 33 tỷ USD lên mức dự báo 600 tỷ USD. Việc token hóa tài sản thực (RWA) đã được gọi là "điểm bùng phát" sắp xảy ra mỗi năm kể từ 2023, nhưng dòng vốn thực tế luôn đến chậm hơn dự báo — ngay cả BUIDL cũng mất hơn một năm sau khi ra mắt vào tháng 3/2024 để gom được 2,5 tỷ USD. Để mức tăng trưởng này thực sự tăng tốc, lĩnh vực này cần dịch vụ lưu ký cấp tổ chức, thanh khoản thứ cấp (thị trường nơi token có thể dùng làm tài sản thế chấp hoặc quy đổi ra tiền mặt ngay lập tức), và sự tích hợp thực chất với DeFi — và không điều kiện nào trong ba điều kiện đó có thể coi là đã thực sự sẵn sàng.</p>
+<p class="id">Ada juga alasan untuk bersikap skeptis terhadap lompatan dari $33 miliar menuju proyeksi $600 miliar. Tokenisasi aset dunia nyata (RWA) telah disebut sebagai "titik balik" yang akan segera terjadi setiap tahun sejak 2023, namun aliran modal aktual secara konsisten datang lebih lambat dari perkiraan — bahkan BUIDL membutuhkan lebih dari satu tahun setelah peluncurannya pada Maret 2024 untuk mengumpulkan $2,5 miliar. Agar pertumbuhan ini benar-benar dapat berakselerasi, sektor ini memerlukan kustodian setara institusi, likuiditas sekunder (pasar tempat token dapat digunakan sebagai jaminan atau dicairkan secara instan), dan integrasi nyata dengan DeFi — dan tak satu pun dari ketiga syarat itu bisa dikatakan sudah benar-benar terpenuhi saat ini.</p>
+<p class="pl">Jest też powód do sceptycyzmu wobec skoku z 33 miliardów dolarów do prognozowanych 600 miliardów dolarów. Tokenizacja aktywów rzeczywistych (RWA) od 2023 roku co roku jest nazywana bliskim „punktem zwrotnym", jednak rzeczywiste napływy kapitału konsekwentnie pojawiały się wolniej, niż prognozowano — nawet BUIDL potrzebował ponad roku od uruchomienia w marcu 2024 roku, by zgromadzić 2,5 miliarda dolarów. Aby ten wzrost naprawdę przyspieszył, branża potrzebuje przechowywania aktywów na poziomie instytucjonalnym, płynności wtórnej (rynków, na których tokeny mogą być używane jako zabezpieczenie lub natychmiast zamieniane na gotówkę) oraz prawdziwej integracji z DeFi — i żadnego z tych trzech warunków tak naprawdę nie można jeszcze uznać za spełniony.</p>
+<p class="it">C'è anche motivo di scetticismo riguardo al salto da 33 miliardi di dollari a una previsione di 600 miliardi di dollari. La tokenizzazione degli asset del mondo reale (RWA) è stata definita un imminente "punto di svolta" ogni anno a partire dal 2023, eppure gli afflussi di capitale reali sono sistematicamente arrivati più lentamente del previsto — perfino BUIDL ha impiegato più di un anno dopo il lancio del marzo 2024 per raccogliere 2,5 miliardi di dollari. Perché questa crescita acceleri davvero, il settore ha bisogno di custodia di livello istituzionale, liquidità secondaria (mercati in cui i token possano essere usati come garanzia o convertiti immediatamente in contanti) e una genuina integrazione con la DeFi — e nessuna di queste tre condizioni può davvero dirsi già soddisfatta.</p>
+<p class="ru">Есть также основания для скептицизма относительно скачка с 33 миллиардов до прогнозируемых 600 миллиардов долларов. Токенизацию реальных активов (RWA) каждый год начиная с 2023-го называют неминуемой «переломной точкой», однако реальные притоки капитала неизменно оказывались медленнее прогнозов — даже BUIDL потребовалось более года после запуска в марте 2024 года, чтобы собрать 2,5 миллиарда долларов. Чтобы этот рост действительно ускорился, отрасли нужны институциональный кастодиан, вторичная ликвидность (рынки, где токены можно использовать как залог или мгновенно обналичивать) и подлинная интеграция с DeFi — и ни одно из этих трёх условий пока нельзя считать по-настоящему выполненным.</p>
+<p class="zh">從330億美元躍升至預測的6000億美元,也有理由讓人抱持懷疑。自2023年以來,實體資產(RWA)代幣化每年都被稱為即將到來的「轉折點」,但實際資金流入的速度卻始終比預測來得緩慢——就連BUIDL在2024年3月上線後,也花了超過一年時間才募集到25億美元。若要讓這波成長真正加速,這個領域需要機構級託管服務、次級流動性(可將代幣用作抵押品或立即變現的市場),以及與DeFi的真正整合——而這三項條件目前都還很難說已經到位。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -464,6 +489,186 @@
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Số liệu AUM là ước tính gần đúng, dựa trên thông cáo báo chí công khai và nghiên cứu, có thể khác với dữ liệu thời gian thực.</p>
 </div>
 
+<div class="id">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Dana Tertokenisasi Cayman — Garis Waktu Registrasi, Perbandingan AUM, dan Masalah Skala</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="140" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Garis Waktu Registrasi</text>
+    <text x="50" y="110" fill="#a1a1aa" font-size="13">24 Mar — Undang-undang amendemen berlaku, pengecualian VASP berlaku</text>
+    <text x="50" y="135" fill="#a1a1aa" font-size="13">Apr-Mei — 9 dana terdaftar secara bersyarat</text>
+    <text x="50" y="160" fill="#67e8f9" font-size="13" font-weight="700">13 Jul — Naik menjadi 12, FILQ milik Fidelity (AAA-mf) bergabung</text>
+    <text x="50" y="182" fill="#71717a" font-size="12">Sumber: Cayman Finance, Cayman News Service</text>
+
+    <text x="50" y="228" fill="#e4e4e7" font-size="14" font-weight="700">Perbandingan AUM Dana Tertokenisasi Utama (miliar $)</text>
+    <text x="50" y="255" fill="#e4e4e7" font-size="13">BUIDL (BlackRock, 6 chain)</text>
+    <rect x="290" y="242" width="330" height="18" rx="3" fill="#3b82f6"/>
+    <text x="628" y="255" fill="#93c5fd" font-size="13" font-weight="700">2,50</text>
+    <text x="50" y="285" fill="#e4e4e7" font-size="13">BENJI (Franklin Templeton)</text>
+    <rect x="290" y="272" width="109" height="18" rx="3" fill="#a78bfa"/>
+    <text x="407" y="285" fill="#c4b5fd" font-size="13" font-weight="700">0,83</text>
+    <text x="50" y="315" fill="#e4e4e7" font-size="13">FILQ (Fidelity, baru)</text>
+    <rect x="290" y="302" width="14" height="18" rx="3" fill="#67e8f9"/>
+    <text x="312" y="315" fill="#67e8f9" font-size="12">Belum diungkap (baru terdaftar)</text>
+
+    <rect x="30" y="345" width="640" height="105" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="372" fill="#93c5fd" font-size="14" font-weight="700">Ukuran Pasar Global</text>
+    <text x="50" y="397" fill="#e4e4e7" font-size="13">Juli 2026 — AUM dana tertokenisasi melampaui $33 miliar</text>
+    <text x="50" y="422" fill="#e4e4e7" font-size="13">2030 (proyeksi) — $600 miliar (WealthBriefing)</text>
+    <text x="50" y="443" fill="#71717a" font-size="12">Bahkan BUIDL butuh lebih dari setahun pasca-peluncuran untuk mencapai $2,5 miliar</text>
+
+    <rect x="30" y="465" width="640" height="75" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="492" fill="#fca5a5" font-size="14" font-weight="700">Masalah Skala</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">12 dari sekitar 31.000 total dana terdaftar di Cayman adalah tertokenisasi — sekitar 0,04%</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Angka AUM bersifat perkiraan, berdasarkan siaran pers publik dan riset, dan dapat berbeda dari data real-time.</p>
+</div>
+
+<div class="pl">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Stokenizowane Fundusze Kajmanów — Oś Czasu Rejestracji, Porównanie AUM i Problem Skali</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="140" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Oś Czasu Rejestracji</text>
+    <text x="50" y="110" fill="#a1a1aa" font-size="13">24 mar — Ustawy nowelizujące w mocy, obowiązuje wyłączenie VASP</text>
+    <text x="50" y="135" fill="#a1a1aa" font-size="13">Kwi-maj — 9 funduszy zarejestrowanych warunkowo</text>
+    <text x="50" y="160" fill="#67e8f9" font-size="13" font-weight="700">13 lip — Wzrost do 12, dołącza FILQ Fidelity (AAA-mf)</text>
+    <text x="50" y="182" fill="#71717a" font-size="12">Źródło: Cayman Finance, Cayman News Service</text>
+
+    <text x="50" y="228" fill="#e4e4e7" font-size="14" font-weight="700">AUM Głównych Stokenizowanych Funduszy (mld $)</text>
+    <text x="50" y="255" fill="#e4e4e7" font-size="13">BUIDL (BlackRock, 6 łańcuchów)</text>
+    <rect x="290" y="242" width="330" height="18" rx="3" fill="#3b82f6"/>
+    <text x="628" y="255" fill="#93c5fd" font-size="13" font-weight="700">2,50</text>
+    <text x="50" y="285" fill="#e4e4e7" font-size="13">BENJI (Franklin Templeton)</text>
+    <rect x="290" y="272" width="109" height="18" rx="3" fill="#a78bfa"/>
+    <text x="407" y="285" fill="#c4b5fd" font-size="13" font-weight="700">0,83</text>
+    <text x="50" y="315" fill="#e4e4e7" font-size="13">FILQ (Fidelity, nowy)</text>
+    <rect x="290" y="302" width="14" height="18" rx="3" fill="#67e8f9"/>
+    <text x="312" y="315" fill="#67e8f9" font-size="12">Nieujawnione (nowo zarejestrowany)</text>
+
+    <rect x="30" y="345" width="640" height="105" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="372" fill="#93c5fd" font-size="14" font-weight="700">Wielkość Rynku Globalnego</text>
+    <text x="50" y="397" fill="#e4e4e7" font-size="13">Lipiec 2026 — AUM stokenizowanych funduszy przekracza 33 mld $</text>
+    <text x="50" y="422" fill="#e4e4e7" font-size="13">2030 (prognoza) — 600 mld $ (WealthBriefing)</text>
+    <text x="50" y="443" fill="#71717a" font-size="12">Nawet BUIDL potrzebował ponad roku po starcie, by osiągnąć 2,5 mld $</text>
+
+    <rect x="30" y="465" width="640" height="75" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="492" fill="#fca5a5" font-size="14" font-weight="700">Problem Skali</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">12 z około 31 000 wszystkich funduszy zarejestrowanych na Kajmanach jest stokenizowanych — około 0,04%</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Dane o AUM są przybliżone, oparte na publicznych komunikatach prasowych i badaniach, i mogą się różnić od danych w czasie rzeczywistym.</p>
+</div>
+
+<div class="it">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Fondi Tokenizzati delle Cayman — Cronologia di Registrazione, Confronto AUM e il Problema della Scala</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="140" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Cronologia di Registrazione</text>
+    <text x="50" y="110" fill="#a1a1aa" font-size="13">24 mar — Leggi di modifica in vigore, si applica l'esenzione VASP</text>
+    <text x="50" y="135" fill="#a1a1aa" font-size="13">Apr-mag — 9 fondi registrati condizionatamente</text>
+    <text x="50" y="160" fill="#67e8f9" font-size="13" font-weight="700">13 lug — Sale a 12, entra FILQ di Fidelity (AAA-mf)</text>
+    <text x="50" y="182" fill="#71717a" font-size="12">Fonte: Cayman Finance, Cayman News Service</text>
+
+    <text x="50" y="228" fill="#e4e4e7" font-size="14" font-weight="700">AUM dei Principali Fondi Tokenizzati (miliardi $)</text>
+    <text x="50" y="255" fill="#e4e4e7" font-size="13">BUIDL (BlackRock, 6 chain)</text>
+    <rect x="290" y="242" width="330" height="18" rx="3" fill="#3b82f6"/>
+    <text x="628" y="255" fill="#93c5fd" font-size="13" font-weight="700">2,50</text>
+    <text x="50" y="285" fill="#e4e4e7" font-size="13">BENJI (Franklin Templeton)</text>
+    <rect x="290" y="272" width="109" height="18" rx="3" fill="#a78bfa"/>
+    <text x="407" y="285" fill="#c4b5fd" font-size="13" font-weight="700">0,83</text>
+    <text x="50" y="315" fill="#e4e4e7" font-size="13">FILQ (Fidelity, nuovo)</text>
+    <rect x="290" y="302" width="14" height="18" rx="3" fill="#67e8f9"/>
+    <text x="312" y="315" fill="#67e8f9" font-size="12">Non divulgato (di recente registrazione)</text>
+
+    <rect x="30" y="345" width="640" height="105" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="372" fill="#93c5fd" font-size="14" font-weight="700">Dimensione del Mercato Globale</text>
+    <text x="50" y="397" fill="#e4e4e7" font-size="13">Luglio 2026 — l'AUM dei fondi tokenizzati supera 33 miliardi di $</text>
+    <text x="50" y="422" fill="#e4e4e7" font-size="13">2030 (previsto) — 600 miliardi di $ (WealthBriefing)</text>
+    <text x="50" y="443" fill="#71717a" font-size="12">Perfino BUIDL ha impiegato oltre un anno dal lancio per raggiungere 2,5 miliardi di $</text>
+
+    <rect x="30" y="465" width="640" height="75" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="492" fill="#fca5a5" font-size="14" font-weight="700">Il Problema della Scala</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">12 su circa 31.000 fondi totali registrati alle Cayman sono tokenizzati — circa lo 0,04%</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">I dati AUM sono approssimativi, basati su comunicati stampa pubblici e ricerche, e possono differire dai dati in tempo reale.</p>
+</div>
+
+<div class="ru">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Токенизированные Фонды Каймановых Островов — Хронология Регистрации, Сравнение AUM и Проблема Масштаба</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="140" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Хронология Регистрации</text>
+    <text x="50" y="110" fill="#a1a1aa" font-size="13">24 марта — Законы о поправках вступают в силу, действует исключение VASP</text>
+    <text x="50" y="135" fill="#a1a1aa" font-size="13">Апр-май — 9 фондов зарегистрированы условно</text>
+    <text x="50" y="160" fill="#67e8f9" font-size="13" font-weight="700">13 июля — Рост до 12, присоединяется FILQ от Fidelity (AAA-mf)</text>
+    <text x="50" y="182" fill="#71717a" font-size="12">Источник: Cayman Finance, Cayman News Service</text>
+
+    <text x="50" y="228" fill="#e4e4e7" font-size="14" font-weight="700">AUM Крупнейших Токенизированных Фондов (млрд $)</text>
+    <text x="50" y="255" fill="#e4e4e7" font-size="13">BUIDL (BlackRock, 6 блокчейнов)</text>
+    <rect x="290" y="242" width="330" height="18" rx="3" fill="#3b82f6"/>
+    <text x="628" y="255" fill="#93c5fd" font-size="13" font-weight="700">2,50</text>
+    <text x="50" y="285" fill="#e4e4e7" font-size="13">BENJI (Franklin Templeton)</text>
+    <rect x="290" y="272" width="109" height="18" rx="3" fill="#a78bfa"/>
+    <text x="407" y="285" fill="#c4b5fd" font-size="13" font-weight="700">0,83</text>
+    <text x="50" y="315" fill="#e4e4e7" font-size="13">FILQ (Fidelity, новый)</text>
+    <rect x="290" y="302" width="14" height="18" rx="3" fill="#67e8f9"/>
+    <text x="312" y="315" fill="#67e8f9" font-size="12">Не раскрыто (недавно зарегистрирован)</text>
+
+    <rect x="30" y="345" width="640" height="105" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="372" fill="#93c5fd" font-size="14" font-weight="700">Размер Глобального Рынка</text>
+    <text x="50" y="397" fill="#e4e4e7" font-size="13">Июль 2026 — AUM токенизированных фондов превышает $33 млрд</text>
+    <text x="50" y="422" fill="#e4e4e7" font-size="13">2030 (прогноз) — $600 млрд (WealthBriefing)</text>
+    <text x="50" y="443" fill="#71717a" font-size="12">Даже BUIDL потребовался более года после запуска, чтобы достичь $2,5 млрд</text>
+
+    <rect x="30" y="465" width="640" height="75" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="492" fill="#fca5a5" font-size="14" font-weight="700">Проблема Масштаба</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">12 из примерно 31 000 всех зарегистрированных на Кайманах фондов токенизированы — около 0,04%</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Показатели AUM являются приблизительными, основаны на публичных пресс-релизах и исследованиях и могут отличаться от данных в реальном времени.</p>
+</div>
+
+<div class="zh">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">開曼代幣化基金——登記時間軸、AUM比較與規模問題</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="140" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">登記時間軸</text>
+    <text x="50" y="110" fill="#a1a1aa" font-size="13">3月24日——修訂法案生效,VASP排除條款適用</text>
+    <text x="50" y="135" fill="#a1a1aa" font-size="13">4月至5月——9檔基金有條件登記</text>
+    <text x="50" y="160" fill="#67e8f9" font-size="13" font-weight="700">7月13日——增至12檔,富達FILQ(AAA-mf)加入</text>
+    <text x="50" y="182" fill="#71717a" font-size="12">資料來源:開曼金融(Cayman Finance)、開曼新聞服務(Cayman News Service)</text>
+
+    <text x="50" y="228" fill="#e4e4e7" font-size="14" font-weight="700">主要代幣化基金AUM比較(單位:十億美元)</text>
+    <text x="50" y="255" fill="#e4e4e7" font-size="13">BUIDL(貝萊德,6條鏈)</text>
+    <rect x="290" y="242" width="330" height="18" rx="3" fill="#3b82f6"/>
+    <text x="628" y="255" fill="#93c5fd" font-size="13" font-weight="700">2.50</text>
+    <text x="50" y="285" fill="#e4e4e7" font-size="13">BENJI(富蘭克林鄧普頓)</text>
+    <rect x="290" y="272" width="109" height="18" rx="3" fill="#a78bfa"/>
+    <text x="407" y="285" fill="#c4b5fd" font-size="13" font-weight="700">0.83</text>
+    <text x="50" y="315" fill="#e4e4e7" font-size="13">FILQ(富達,新登記)</text>
+    <rect x="290" y="302" width="14" height="18" rx="3" fill="#67e8f9"/>
+    <text x="312" y="315" fill="#67e8f9" font-size="12">未公開(新登記)</text>
+
+    <rect x="30" y="345" width="640" height="105" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="372" fill="#93c5fd" font-size="14" font-weight="700">全球市場規模</text>
+    <text x="50" y="397" fill="#e4e4e7" font-size="13">2026年7月——代幣化基金AUM突破330億美元</text>
+    <text x="50" y="422" fill="#e4e4e7" font-size="13">2030年(預測)——6000億美元(WealthBriefing)</text>
+    <text x="50" y="443" fill="#71717a" font-size="12">就連BUIDL上線後也花了超過一年才達到25億美元</text>
+
+    <rect x="30" y="465" width="640" height="75" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="492" fill="#fca5a5" font-size="14" font-weight="700">規模問題</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">開曼登記的約3萬1000檔基金中,僅12檔為代幣化基金——約0.04%</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">AUM數據為根據公開新聞稿與研究得出的概略值,可能與即時數據有所差異。</p>
+</div>
+
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 피델리티·블랙록·프랭클린템플턴 외에 다른 대형 자산운용사들이 케이맨의 토큰화 펀드 프레임워크를 따라 등록에 나설지, (2) CIMA가 현재의 임시 질의서 기반 승인 절차를 영구 규정으로 확정할 시점, (3) 토큰화 펀드 AUM이 실제로 가속 성장해 6000억달러 전망에 다가서는지, 아니면 과거 RWA 토큰화 주기처럼 예상보다 완만한 속도에 그치는지.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) whether large asset managers beyond Fidelity, BlackRock and Franklin Templeton follow suit and register under Cayman's tokenized-fund framework, (2) when CIMA finalizes its current questionnaire-based interim approval process into permanent rules, and (3) whether tokenized-fund AUM actually accelerates toward the $600 billion 2030 projection, or grinds along more slowly like past RWA tokenization cycles.</div>
 <div class="box ja">💡 <strong>今後注視すべきこと:</strong> (1)フィデリティ・ブラックロック・フランクリン・テンプルトン以外の大手資産運用会社もケイマンのトークン化ファンド枠組みに続いて登録するか、(2)CIMAが現行の質問票ベースの暫定承認プロセスを恒久ルールとして確定させる時期、(3)トークン化ファンドAUMが実際に加速し6000億ドルの予測に近づくか、それとも過去のRWAトークン化サイクルのように予想より緩やかなペースにとどまるか。</div>
@@ -473,6 +678,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> (1) se outras grandes gestoras além de Fidelity, BlackRock e Franklin Templeton seguirão o exemplo e se registrarão sob o marco de fundos tokenizados de Cayman, (2) quando a CIMA transformará seu atual processo de aprovação provisória baseado em questionário em regras permanentes, e (3) se o AUM de fundos tokenizados realmente acelera rumo à projeção de US$ 600 bilhões para 2030, ou avança mais devagar como em ciclos anteriores de tokenização de RWA.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) Fidelity, BlackRock ve Franklin Templeton dışındaki büyük varlık yöneticilerinin de Cayman'ın tokenize fon çerçevesi altında kayıt yaptırıp yaptırmayacağı, (2) CIMA'nın mevcut anket temelli geçici onay sürecini ne zaman kalıcı kurallara dönüştüreceği ve (3) tokenize fon AUM'unun gerçekten hızlanarak 2030 için öngörülen 600 milyar dolara yaklaşıp yaklaşmayacağı, yoksa geçmiş RWA tokenizasyon döngülerinde olduğu gibi beklenenden daha yavaş ilerleyip ilerlemeyeceği.</div>
 <div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> (1) liệu các nhà quản lý tài sản lớn khác ngoài Fidelity, BlackRock và Franklin Templeton có làm theo và đăng ký theo khung khổ quỹ token hóa của Cayman hay không, (2) khi nào CIMA sẽ hoàn thiện quy trình phê duyệt tạm thời dựa trên bảng câu hỏi hiện tại thành các quy định thường trực, và (3) liệu AUM quỹ token hóa có thực sự tăng tốc hướng tới dự báo 600 tỷ USD vào năm 2030 hay tiến triển chậm hơn như các chu kỳ token hóa RWA trước đây.</div>
+<div class="box id">💡 <strong>Yang perlu diamati sekarang:</strong> (1) apakah manajer aset besar selain Fidelity, BlackRock, dan Franklin Templeton akan mengikuti langkah ini dan mendaftar di bawah kerangka dana tertokenisasi Cayman, (2) kapan CIMA akan memfinalisasi proses persetujuan sementara berbasis kuesioner saat ini menjadi aturan permanen, dan (3) apakah AUM dana tertokenisasi benar-benar akan berakselerasi menuju proyeksi $600 miliar pada 2030, atau justru bergerak lebih lambat seperti siklus tokenisasi RWA sebelumnya.</div>
+<div class="box pl">💡 <strong>Co obserwować teraz:</strong> (1) czy więksi zarządzający aktywami poza Fidelity, BlackRock i Franklin Templeton pójdą w ich ślady i zarejestrują się w ramach kajmańskich stokenizowanych funduszy, (2) kiedy CIMA sfinalizuje obecny, oparty na kwestionariuszu tymczasowy proces zatwierdzania w stałe przepisy, oraz (3) czy AUM stokenizowanych funduszy rzeczywiście przyspieszy w kierunku prognozy 600 miliardów dolarów na 2030 rok, czy też będzie posuwać się wolniej, jak w poprzednich cyklach tokenizacji RWA.</div>
+<div class="box it">💡 <strong>Cosa osservare ora:</strong> (1) se altri grandi gestori patrimoniali oltre a Fidelity, BlackRock e Franklin Templeton seguiranno l'esempio e si registreranno nell'ambito del quadro per i fondi tokenizzati delle Cayman, (2) quando la CIMA trasformerà l'attuale processo di approvazione provvisoria basato su questionario in regole permanenti, e (3) se l'AUM dei fondi tokenizzati accelererà davvero verso la previsione di 600 miliardi di dollari per il 2030, oppure procederà più lentamente come nei precedenti cicli di tokenizzazione degli RWA.</div>
+<div class="box ru">💡 <strong>За чем следить сейчас:</strong> (1) последуют ли этому примеру и зарегистрируются ли в рамках каймановой структуры для токенизированных фондов другие крупные управляющие активами, помимо Fidelity, BlackRock и Franklin Templeton, (2) когда CIMA превратит нынешний временный процесс одобрения на основе анкетирования в постоянные правила, и (3) действительно ли AUM токенизированных фондов ускорится в сторону прогноза в 600 миллиардов долларов к 2030 году, или же будет двигаться медленнее, как в прошлых циклах токенизации RWA.</div>
+<div class="box zh">💡 <strong>目前需要關注的重點:</strong>(1)除了富達、貝萊德與富蘭克林鄧普頓之外,是否還有其他大型資產管理公司跟進,在開曼的代幣化基金框架下登記;(2)CIMA何時會將目前以問卷為基礎的臨時核准流程,正式定為永久規則;(3)代幣化基金AUM是否真的會加速朝2030年6000億美元的預測邁進,還是像過去的RWA代幣化週期一樣進展得更緩慢。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 케이맨파이낸스(Cayman Finance), 케이맨뉴스서비스(Cayman News Service), 월커스글로벌(Walkers Global), 오지에(Ogier), 로엡스미스(Loeb Smith), 매플스그룹(Maples Group), 얼터너티브크레딧인베스터(Alternative Credit Investor), 웰스브리핑(WealthBriefing), 케이맨제도 금융당국(CIMA).</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
@@ -483,4 +693,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cơ quan Tiền tệ Quần đảo Cayman (CIMA).</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Cayman Finance, Cayman News Service, Walkers Global, Ogier, Loeb Smith, Maples Group, Alternative Credit Investor, WealthBriefing, Cayman Islands Monetary Authority (CIMA).</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Cayman Finance、Cayman News Service、Walkers Global、Ogier、Loeb Smith、Maples Group、Alternative Credit Investor、WealthBriefing、Cayman Islands Monetary Authority (CIMA)。</p>
 <?php require __DIR__.'/_footer.php'; ?>
