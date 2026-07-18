@@ -84,6 +84,11 @@
 <p class="pt">A forma como os governos tratam os ativos virtuais que passam a deter já produziu resultados marcadamente diferentes entre países. Em 2024, a polícia do estado alemão da Saxônia vendeu cerca de 50 mil BTC apreendidos do operador de um site de pirataria de filmes ao longo de junho e julho, citando o risco de flutuação de valor — a um preço médio entre 54 mil e 60 mil dólares. Foi um caso de manual de tratar ativos apreendidos como um "risco" a ser convertido em dinheiro o mais rápido possível, e a Alemanha recebeu críticas por perder ganhos potenciais substanciais depois que o preço do bitcoin praticamente dobrou no período seguinte. Os Estados Unidos adotaram a abordagem oposta: uma ordem executiva de março de 2025 estabeleceu uma Reserva Estratégica de Bitcoin construída sobre cerca de 198 mil BTC confiscados em casos como Silk Road e o hack da Bitfinex, declarando explicitamente que as moedas não seriam vendidas, mas mantidas a longo prazo — definindo ativos confiscados como riqueza nacional estratégica, e não como risco.</p>
 <p class="tr">Hükümetlerin sahip olduğu sanal varlıkları nasıl ele aldığı, ülkeler arasında zaten belirgin şekilde farklı sonuçlar doğurmuş durumda. 2024'te Almanya'nın Saksonya eyaleti polisi, bir film korsanlığı sitesinin işletmecisinden el koyduğu yaklaşık 50.000 BTC'yi, değer dalgalanması riskini gerekçe göstererek Haziran-Temmuz aylarında piyasada sattı — satış sırasında ortalama fiyat 54.000-60.000 dolar aralığındaydı. Bu, el konulan varlıkları mümkün olduğunca hızlı nakde çevrilmesi gereken bir 'risk' olarak ele almanın ders kitabı örneğiydi ve sonraki dönemde bitcoin fiyatı kabaca ikiye katlanınca Almanya önemli bir potansiyel kazancı kaçırdığı için eleştirildi. ABD ise tam tersi bir yaklaşım benimsedi: Mart 2025'teki bir başkanlık kararnamesiyle, Silk Road ve Bitfinex hack'i gibi vakalardan müsadere edilen yaklaşık 198.000 BTC üzerine kurulu bir Stratejik Bitcoin Rezervi oluşturuldu ve coinlerin satılmayıp uzun vadede tutulacağı açıkça belirtildi — müsadere edilen varlıkları risk değil stratejik ulusal servet olarak tanımlayan tam tersi bir yaklaşım.</p>
 <p class="vi">Cách các chính phủ xử lý tài sản ảo mà họ có được đã tạo ra những kết quả khác biệt rõ rệt giữa các quốc gia. Năm 2024, cảnh sát bang Sachsen của Đức đã bán khoảng 50.000 BTC bị tịch thu từ người điều hành một trang web vi phạm bản quyền phim trong tháng 6 và tháng 7, viện dẫn rủi ro biến động giá trị — với mức giá bán trung bình trong khoảng 54.000-60.000 đô la. Đây là một ví dụ kinh điển về việc coi tài sản bị tịch thu là 'rủi ro' cần được chuyển thành tiền mặt càng nhanh càng tốt, và Đức đã bị chỉ trích vì bỏ lỡ khoản lợi nhuận tiềm năng đáng kể sau khi giá bitcoin tăng gấp đôi trong giai đoạn tiếp theo. Mỹ đã áp dụng cách tiếp cận ngược lại: một sắc lệnh hành pháp vào tháng 3/2025 đã thiết lập Kho Dự trữ Bitcoin Chiến lược được xây dựng trên khoảng 198.000 BTC bị tịch thu từ các vụ việc như Silk Road và vụ hack Bitfinex, tuyên bố rõ ràng rằng số coin này sẽ không bị bán mà được nắm giữ lâu dài — định nghĩa tài sản bị tịch thu là của cải quốc gia chiến lược thay vì rủi ro.</p>
+<p class="id">Cara pemerintah menangani aset virtual yang mereka miliki telah menghasilkan hasil yang sangat berbeda antarnegara. Pada 2024, polisi negara bagian Sachsen di Jerman menjual sekitar 50.000 BTC yang disita dari operator situs pembajakan film sepanjang Juni dan Juli, dengan alasan risiko fluktuasi nilai — menjualnya pada harga rata-rata dalam kisaran $54.000-$60.000. Itu adalah contoh klasik memperlakukan aset sitaan sebagai 'risiko' yang harus segera diubah menjadi uang tunai, dan Jerman menuai kritik karena kehilangan potensi keuntungan besar setelah harga bitcoin kira-kira berlipat ganda pada periode berikutnya. Amerika Serikat mengambil pendekatan sebaliknya: sebuah perintah eksekutif pada Maret 2025 membentuk Strategic Bitcoin Reserve yang dibangun dari sekitar 198.000 BTC yang dirampas dari kasus-kasus termasuk Silk Road dan peretasan Bitfinex, secara eksplisit menyatakan bahwa koin tersebut tidak akan dijual melainkan ditahan dalam jangka panjang — mendefinisikan aset rampasan sebagai kekayaan nasional strategis, bukan risiko.</p>
+<p class="pl">Sposób, w jaki rządy postępują z posiadanymi aktywami wirtualnymi, przyniósł już wyraźnie odmienne rezultaty w różnych krajach. W 2024 roku policja niemieckiej Saksonii sprzedała w czerwcu i lipcu około 50 000 BTC skonfiskowanych operatorowi strony z pirackimi filmami, powołując się na ryzyko wahań wartości — sprzedając po średniej cenie w przedziale 54 000-60 000 dolarów. Był to podręcznikowy przykład traktowania zajętych aktywów jako 'ryzyka', które należy jak najszybciej zamienić na gotówkę, a Niemcy spotkały się z krytyką za utratę znacznych potencjalnych zysków po tym, jak cena bitcoina w kolejnym okresie mniej więcej się podwoiła. Stany Zjednoczone przyjęły odwrotne podejście: rozporządzenie wykonawcze z marca 2025 roku ustanowiło Strategiczną Rezerwę Bitcoina zbudowaną z około 198 000 BTC skonfiskowanych w sprawach obejmujących m.in. Silk Road i włamanie do Bitfinex, wyraźnie stwierdzając, że monety nie zostaną sprzedane, lecz będą przechowywane długoterminowo — definiując skonfiskowane aktywa jako strategiczny majątek narodowy, a nie ryzyko.</p>
+<p class="it">Il modo in cui i governi gestiscono gli asset virtuali che arrivano a detenere ha già prodotto esiti nettamente diversi tra i vari paesi. Nel 2024 la polizia dello stato tedesco della Sassonia ha venduto circa 50.000 BTC sequestrati all'operatore di un sito di pirateria cinematografica tra giugno e luglio, citando il rischio di fluttuazione del valore — vendendo a un prezzo medio compreso tra 54.000 e 60.000 dollari. Fu un caso da manuale di trattamento degli asset sequestrati come un 'rischio' da convertire in contanti il più rapidamente possibile, e la Germania fu criticata per aver perso guadagni potenziali sostanziali dopo che il prezzo del bitcoin è all'incirca raddoppiato nel periodo successivo. Gli Stati Uniti hanno adottato l'approccio opposto: un ordine esecutivo del marzo 2025 ha istituito una Strategic Bitcoin Reserve costruita su circa 198.000 BTC confiscati in casi tra cui Silk Road e l'attacco hacker a Bitfinex, dichiarando esplicitamente che le monete non sarebbero state vendute ma detenute a lungo termine — definendo gli asset confiscati come ricchezza nazionale strategica anziché come rischio.</p>
+<p class="ru">То, как правительства обращаются с виртуальными активами, которыми они начинают владеть, уже привело к резко различающимся результатам в разных странах. В 2024 году полиция немецкой земли Саксония продала около 50 000 BTC, изъятых у оператора сайта с пиратскими фильмами, в течение июня и июля, ссылаясь на риск колебания стоимости — продав их по средней цене в диапазоне 54 000-60 000 долларов. Это был хрестоматийный пример отношения к изъятым активам как к «риску», который нужно как можно быстрее превратить в наличные, и Германия подверглась критике за упущенную существенную потенциальную прибыль после того, как цена биткоина примерно удвоилась в последующий период. США выбрали противоположный подход: указ президента от марта 2025 года учредил Стратегический биткоин-резерв на основе примерно 198 000 BTC, конфискованных по таким делам, как Silk Road и взлом Bitfinex, прямо заявив, что монеты не будут проданы, а будут храниться в долгосрочной перспективе — определив конфискованные активы как стратегическое национальное богатство, а не риск.</p>
+<p class="zh">各國政府如何處理其持有的虛擬資產,已在不同國家間產生截然不同的結果。2024年,德國薩克森邦警方以資產價值波動風險為由,於6月至7月間出售自一名電影盜版網站經營者處查扣的約5萬枚BTC,出售均價落在5.4萬至6萬美元區間。這是將查扣資產視為需盡快變現的「風險」之教科書式案例,而在其後比特幣價格大約翻倍後,德國因錯失可觀潛在收益而受到批評。美國則採取相反做法:2025年3月的一項行政命令,以絲路案及Bitfinex駭客事件等案件中沒收的約19.8萬枚BTC為基礎,設立「戰略比特幣儲備」,並明確表示這些代幣不會出售,而將長期持有——將沒收資產定義為戰略性國家財富,而非風險。</p>
 
 <p class="ko">한국의 국가자산기본법은 명시적으로 후자에 가까운 언어를 쓰고 있다 — 가상자산을 "장기적인 국가 자산"으로 규정하겠다는 기획재정부의 설명은 독일식 즉각 매각보다 미국식 장기 비축에 가까운 철학을 시사한다. 다만 법안이 아직 초안 단계이고 구체적인 매각·보유 기준, 회계·평가 방법, 국고 편입 후 처분 권한이 누구에게 있는지 등 세부 사항은 공개되지 않았다는 점은 지켜봐야 한다. 지켜볼 지점은 세 가지다. 첫째, 법이 실제로 몰수 가상자산의 '매각 대 보유' 기준을 어떻게 성문화할지. 둘째, 디지털자산기본법(스테이블코인·수탁 규제)과 국가자산기본법(국가 보유 자산 관리)이라는 두 트랙이 얼마나 정합적으로 맞물릴지. 셋째, 이번 개편이 국채의 토큰화·CBDC 인프라 연계 파일럿(2027년 예정) 등 한국이 추진 중인 다른 디지털자산 인프라 계획과 어떻게 연결될지 — 즉 이번 법이 단순한 회계 개편을 넘어 한국을 비트코인 등을 실제로 축적하는 국가군에 편입시키는 신호탄이 될지 여부다.</p>
 <p class="en">South Korea's National Asset Basic Act explicitly leans toward the latter framing - the ministry's description of treating virtual assets as "long-term national wealth" suggests a philosophy closer to America's long-term stockpiling than Germany's rapid liquidation. Still, the bill remains at the draft stage, and details such as concrete sell-versus-hold criteria, accounting and valuation methods, and who holds disposal authority once assets enter the treasury have not been disclosed. Three things are worth watching. First, how the law actually codifies "sell versus hold" standards for forfeited virtual assets. Second, how coherently the two tracks - the Digital Asset Basic Act (stablecoins, custody) and the National Asset Basic Act (managing state-held assets) - mesh with each other. Third, how this overhaul connects to South Korea's other digital-asset infrastructure plans, such as the tokenized government bond pilot linked to CBDC infrastructure planned for 2027 - in other words, whether this law becomes more than an accounting overhaul and signals South Korea joining the group of states actually stockpiling bitcoin.</p>
@@ -94,6 +99,11 @@
 <p class="pt">A Lei Básica de Ativos Nacionais da Coreia do Sul inclina-se explicitamente para essa segunda abordagem — a descrição do ministério de tratar ativos virtuais como "riqueza nacional de longo prazo" sugere uma filosofia mais próxima do acúmulo de longo prazo americano do que da liquidação rápida alemã. Ainda assim, o projeto permanece em fase de rascunho, e detalhes como critérios concretos de venda versus retenção, métodos contábeis e de avaliação, e quem detém a autoridade de alienação depois que os ativos entram no tesouro não foram divulgados. Três pontos merecem atenção. Primeiro, como a lei realmente codificará os padrões de "vender versus reter" para ativos virtuais confiscados. Segundo, quão coerentemente as duas vertentes — a Lei Básica de Ativos Digitais (stablecoins, custódia) e a Lei Básica de Ativos Nacionais (gestão de ativos estatais) — se encaixarão. Terceiro, como essa reforma se conecta a outros planos de infraestrutura de ativos digitais da Coreia do Sul, como o piloto de títulos públicos tokenizados vinculado à infraestrutura de CBDC previsto para 2027 — em outras palavras, se essa lei se tornará mais do que uma reforma contábil e sinalizará a entrada da Coreia do Sul no grupo de estados que de fato acumulam bitcoin.</p>
 <p class="tr">Güney Kore'nin Ulusal Varlık Temel Kanunu açıkça ikinci yaklaşıma yakın bir dil kullanıyor — bakanlığın sanal varlıkları 'uzun vadeli ulusal servet' olarak ele alma tanımı, Almanya'nın hızlı tasfiyesinden çok ABD'nin uzun vadeli biriktirme felsefesine yakın bir yaklaşımı düşündürüyor. Yine de yasa tasarısı henüz taslak aşamasında ve müsadere edilen sanal varlıklar için somut satış-tutma kriterleri, muhasebe ve değerleme yöntemleri, varlıklar hazineye girdikten sonra elden çıkarma yetkisinin kimde olacağı gibi ayrıntılar açıklanmadı. İzlenmesi gereken üç şey var. Birincisi, kanunun müsadere edilen sanal varlıklar için 'satma-tutma' standartlarını gerçekte nasıl kodlayacağı. İkincisi, Dijital Varlık Temel Kanunu (stablecoinler, saklama) ile Ulusal Varlık Temel Kanunu'nun (devlet varlıklarının yönetimi) iki ayrı hattının ne kadar tutarlı örtüşeceği. Üçüncüsü, bu reformun 2027'de planlanan CBDC altyapısına bağlı tokenize devlet tahvili pilot projesi gibi Güney Kore'nin diğer dijital varlık altyapı planlarıyla nasıl bağlantı kuracağı — yani bu kanunun basit bir muhasebe reformunun ötesine geçip Güney Kore'yi bitcoin'i fiilen biriktiren devletler grubuna katan bir sinyale dönüşüp dönüşmeyeceği.</p>
 <p class="vi">Đạo luật Cơ bản về Tài sản Quốc gia của Hàn Quốc nghiêng hẳn về cách tiếp cận thứ hai — mô tả của bộ về việc coi tài sản ảo là 'của cải quốc gia dài hạn' cho thấy một triết lý gần với việc tích trữ dài hạn kiểu Mỹ hơn là thanh lý nhanh kiểu Đức. Tuy nhiên, dự luật vẫn đang ở giai đoạn dự thảo, và các chi tiết như tiêu chí cụ thể về bán so với giữ, phương pháp kế toán và định giá, hay ai nắm quyền định đoạt sau khi tài sản nhập vào ngân khố vẫn chưa được công bố. Có ba điều đáng theo dõi. Thứ nhất, luật sẽ thực sự luật hóa các tiêu chuẩn 'bán so với giữ' đối với tài sản ảo bị tịch thu như thế nào. Thứ hai, hai nhánh — Đạo luật Cơ bản về Tài sản Số (stablecoin, lưu ký) và Đạo luật Cơ bản về Tài sản Quốc gia (quản lý tài sản nhà nước nắm giữ) — sẽ khớp với nhau nhất quán đến mức nào. Thứ ba, cuộc cải tổ này sẽ kết nối ra sao với các kế hoạch hạ tầng tài sản số khác của Hàn Quốc, chẳng hạn như thí điểm trái phiếu chính phủ token hóa gắn với hạ tầng CBDC dự kiến vào năm 2027 — nói cách khác, liệu đạo luật này có trở thành nhiều hơn một cuộc cải tổ kế toán và báo hiệu việc Hàn Quốc gia nhập nhóm các quốc gia thực sự tích trữ bitcoin hay không.</p>
+<p class="id">Undang-Undang Dasar Aset Negara Korea Selatan secara eksplisit condong ke pendekatan yang kedua — deskripsi kementerian yang memperlakukan aset virtual sebagai 'kekayaan nasional jangka panjang' menunjukkan filosofi yang lebih dekat dengan penimbunan jangka panjang ala Amerika ketimbang likuidasi cepat ala Jerman. Meski begitu, RUU ini masih dalam tahap rancangan, dan rincian seperti kriteria konkret jual-versus-tahan, metode akuntansi dan penilaian, serta siapa yang memegang wewenang pelepasan setelah aset masuk ke kas negara belum diungkapkan. Ada tiga hal yang patut diperhatikan. Pertama, bagaimana undang-undang ini benar-benar mengkodifikasi standar 'jual versus tahan' untuk aset virtual rampasan. Kedua, seberapa koheren dua jalur — Undang-Undang Dasar Aset Digital (stablecoin, kustodi) dan Undang-Undang Dasar Aset Negara (pengelolaan aset milik negara) — saling berkaitan. Ketiga, bagaimana perombakan ini terhubung dengan rencana infrastruktur aset digital Korea Selatan lainnya, seperti proyek percontohan obligasi pemerintah bertoken yang terkait dengan infrastruktur CBDC yang direncanakan pada 2027 — dengan kata lain, apakah undang-undang ini menjadi lebih dari sekadar perombakan akuntansi dan menandai bergabungnya Korea Selatan ke kelompok negara yang benar-benar menimbun bitcoin.</p>
+<p class="pl">Ustawa Zasadnicza o Aktywach Narodowych Korei Południowej wyraźnie skłania się ku temu drugiemu podejściu — opis ministerstwa dotyczący traktowania aktywów wirtualnych jako 'długoterminowego majątku narodowego' sugeruje filozofię bliższą amerykańskiemu długoterminowemu gromadzeniu niż niemieckiej szybkiej likwidacji. Mimo to projekt ustawy pozostaje na etapie roboczym, a szczegóły, takie jak konkretne kryteria sprzedaży kontra utrzymania, metody księgowe i wyceny oraz kto będzie posiadał uprawnienia do zbycia po wejściu aktywów do skarbu państwa, nie zostały ujawnione. Warto obserwować trzy kwestie. Po pierwsze, jak ustawa faktycznie skodyfikuje standardy 'sprzedać czy utrzymać' dla skonfiskowanych aktywów wirtualnych. Po drugie, jak spójnie będą się ze sobą łączyć dwa tory — Ustawa Zasadnicza o Aktywach Cyfrowych (stablecoiny, przechowywanie) oraz Ustawa Zasadnicza o Aktywach Narodowych (zarządzanie aktywami państwowymi). Po trzecie, jak ta reforma łączy się z innymi planami infrastruktury aktywów cyfrowych Korei Południowej, takimi jak pilotaż tokenizowanych obligacji rządowych powiązany z infrastrukturą CBDC planowaną na 2027 rok — innymi słowy, czy ta ustawa stanie się czymś więcej niż reformą księgową i będzie sygnałem dołączenia Korei Południowej do grupy państw faktycznie gromadzących bitcoina.</p>
+<p class="it">La Legge di Base sugli Asset Nazionali della Corea del Sud propende esplicitamente verso quest'ultimo approccio — la descrizione del ministero, che tratta gli asset virtuali come 'ricchezza nazionale a lungo termine', suggerisce una filosofia più vicina all'accumulo a lungo termine statunitense che alla rapida liquidazione tedesca. Tuttavia, il disegno di legge rimane in fase di bozza, e dettagli come i criteri concreti di vendita contro detenzione, i metodi contabili e di valutazione, e chi deterrà l'autorità di dismissione una volta che gli asset entrano nel tesoro pubblico non sono stati resi noti. Tre elementi meritano attenzione. Primo, come la legge codificherà concretamente gli standard 'vendere contro detenere' per gli asset virtuali confiscati. Secondo, quanto coerentemente si combineranno i due binari — la Legge di Base sugli Asset Digitali (stablecoin, custodia) e la Legge di Base sugli Asset Nazionali (gestione degli asset statali). Terzo, come questa riforma si collega agli altri piani di infrastruttura per asset digitali della Corea del Sud, come il progetto pilota di obbligazioni governative tokenizzate collegato all'infrastruttura CBDC prevista per il 2027 — in altre parole, se questa legge diventerà qualcosa di più di una riforma contabile e segnalerà l'ingresso della Corea del Sud nel gruppo di stati che effettivamente accumulano bitcoin.</p>
+<p class="ru">Основной закон Южной Кореи о государственных активах явно склоняется ко второй трактовке — описание министерством отношения к виртуальным активам как к «долгосрочному национальному богатству» указывает на философию, более близкую к долгосрочному накоплению по-американски, чем к быстрой ликвидации по-немецки. Тем не менее законопроект остаётся на стадии черновика, и детали, такие как конкретные критерии «продавать или держать», методы учёта и оценки, а также вопрос о том, кто будет обладать полномочиями по распоряжению активами после их поступления в казну, не раскрыты. Стоит следить за тремя моментами. Во-первых, как закон фактически закрепит стандарты «продавать или держать» для конфискованных виртуальных активов. Во-вторых, насколько согласованно будут сочетаться два направления — Основной закон о цифровых активах (стейблкоины, хранение) и Основной закон о государственных активах (управление государственными активами). В-третьих, как эта реформа связана с другими планами Южной Кореи в области инфраструктуры цифровых активов, такими как пилотный проект токенизированных государственных облигаций, привязанный к инфраструктуре CBDC, запланированной на 2027 год — иными словами, станет ли этот закон чем-то большим, чем реформа учёта, и станет ли он сигналом присоединения Южной Кореи к группе государств, реально накапливающих биткоин.</p>
+<p class="zh">南韓《國家資產基本法》明確傾向後者的定位——企劃財政部將虛擬資產定位為「長期國家財富」的說法,顯示其理念更接近美國式的長期儲備,而非德國式的快速變現。不過,該法案仍處於草案階段,具體的出售與持有標準、會計及估值方法、以及資產納入國庫後由誰掌握處分權等細節尚未公開。有三點值得關注。第一,該法將如何具體將沒收虛擬資產的「出售或持有」標準明文化。第二,《數位資產基本法》(穩定幣、託管)與本法(管理國家持有資產)這兩條軌道能否緊密銜接。第三,此次改革將如何與南韓其他數位資產基礎建設計畫相互連結,例如預計於2027年推出、與CBDC基礎建設連動的政府公債代幣化試點——換言之,這部法律是否會超越單純的會計改革,成為南韓加入實際儲備比特幣國家行列的信號。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -398,6 +408,176 @@
     <text x="376" y="296" fill="#e4e4e7" font-size="13">Cơ sở: sắc lệnh tháng 3/2025</text>
     <text x="376" y="320" fill="#4ade80" font-size="13">Kết quả: luật hóa là tài sản chiến lược</text>
     <text x="20" y="364" fill="#52525b" font-size="12">Nguồn: CoinDesk, The Block, CryptoRank, Disruption Banking (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="id">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Bitcoin Rampasan: Perbandingan Cara Penanganan Antarnegara</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="20" font-weight="800">50.000 BTC</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Penjualan Jerman/Sachsen (Jun-Jul 2024)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">198.000 BTC</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Cadangan Strategis AS ditahan (Mar 2025-)</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="18" font-weight="800">1.400 T ₩</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Dicakup UU aset baru Korea</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#e4e4e7" text-anchor="middle" font-size="20" font-weight="800">76 Tahun</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Sejak reformasi hukum besar terakhir</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Dua negara, pilihan berlawanan</text>
+    <rect x="20" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="216" fill="#f87171" font-size="14" font-weight="700">Jerman (2024)</text>
+    <text x="36" y="244" fill="#e4e4e7" font-size="13">Pendekatan: Penjualan segera</text>
+    <text x="36" y="270" fill="#e4e4e7" font-size="13">Ukuran: ~50.000 BTC</text>
+    <text x="36" y="296" fill="#e4e4e7" font-size="13">Harga jual: $54.000-$60.000</text>
+    <text x="36" y="320" fill="#f87171" font-size="13">Hasil: Harga berlipat ganda, dikritik</text>
+    <rect x="360" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="376" y="216" fill="#4ade80" font-size="14" font-weight="700">Amerika Serikat (2025)</text>
+    <text x="376" y="244" fill="#e4e4e7" font-size="13">Pendekatan: Ditahan jangka panjang</text>
+    <text x="376" y="270" fill="#e4e4e7" font-size="13">Ukuran: ~198.000 BTC</text>
+    <text x="376" y="296" fill="#e4e4e7" font-size="13">Dasar: Perintah eksekutif Maret 2025</text>
+    <text x="376" y="320" fill="#4ade80" font-size="13">Hasil: Dikodifikasi sebagai aset strategis</text>
+    <text x="20" y="364" fill="#52525b" font-size="12">Sumber: CoinDesk, The Block, CryptoRank, Disruption Banking (Juli 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Skonfiskowany Bitcoin: porównanie podejść różnych krajów</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="20" font-weight="800">50 000 BTC</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Sprzedaż w Saksonii, Niemcy (cze-lip 2024)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">198 000 BTC</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Rezerwa strategiczna USA (od mar 2025)</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="18" font-weight="800">1400 bln ₩</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Objęte nową ustawą Korei</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#e4e4e7" text-anchor="middle" font-size="20" font-weight="800">76 lat</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Od ostatniej wielkiej reformy prawa</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Dwa kraje, przeciwne wybory</text>
+    <rect x="20" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="216" fill="#f87171" font-size="14" font-weight="700">Niemcy (2024)</text>
+    <text x="36" y="244" fill="#e4e4e7" font-size="13">Podejście: natychmiastowa sprzedaż</text>
+    <text x="36" y="270" fill="#e4e4e7" font-size="13">Wielkość: ~50 000 BTC</text>
+    <text x="36" y="296" fill="#e4e4e7" font-size="13">Cena sprzedaży: 54 000-60 000 $</text>
+    <text x="36" y="320" fill="#f87171" font-size="13">Wynik: cena podwoiła się, krytyka</text>
+    <rect x="360" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="376" y="216" fill="#4ade80" font-size="14" font-weight="700">Stany Zjednoczone (2025)</text>
+    <text x="376" y="244" fill="#e4e4e7" font-size="13">Podejście: długoterminowe przechowywanie</text>
+    <text x="376" y="270" fill="#e4e4e7" font-size="13">Wielkość: ~198 000 BTC</text>
+    <text x="376" y="296" fill="#e4e4e7" font-size="13">Podstawa: rozporządzenie z marca 2025</text>
+    <text x="376" y="320" fill="#4ade80" font-size="13">Wynik: skodyfikowane jako aktywo strategiczne</text>
+    <text x="20" y="364" fill="#52525b" font-size="12">Źródła: CoinDesk, The Block, CryptoRank, Disruption Banking (lipiec 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Bitcoin confiscato: come lo gestiscono i vari paesi</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="20" font-weight="800">50.000 BTC</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Vendita Sassonia, Germania (giu-lug 2024)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">198.000 BTC</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Riserva strategica USA detenuta (mar 2025-)</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="18" font-weight="800">1.400 T ₩</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Coperti dalla nuova legge coreana</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#e4e4e7" text-anchor="middle" font-size="20" font-weight="800">76 anni</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Dall'ultima grande riforma di legge</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Due paesi, scelte opposte</text>
+    <rect x="20" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="216" fill="#f87171" font-size="14" font-weight="700">Germania (2024)</text>
+    <text x="36" y="244" fill="#e4e4e7" font-size="13">Approccio: vendita immediata</text>
+    <text x="36" y="270" fill="#e4e4e7" font-size="13">Dimensione: ~50.000 BTC</text>
+    <text x="36" y="296" fill="#e4e4e7" font-size="13">Prezzo di vendita: $54.000-$60.000</text>
+    <text x="36" y="320" fill="#f87171" font-size="13">Esito: prezzo raddoppiato, criticato</text>
+    <rect x="360" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="376" y="216" fill="#4ade80" font-size="14" font-weight="700">Stati Uniti (2025)</text>
+    <text x="376" y="244" fill="#e4e4e7" font-size="13">Approccio: detenzione a lungo termine</text>
+    <text x="376" y="270" fill="#e4e4e7" font-size="13">Dimensione: ~198.000 BTC</text>
+    <text x="376" y="296" fill="#e4e4e7" font-size="13">Base: ordine esecutivo di marzo 2025</text>
+    <text x="376" y="320" fill="#4ade80" font-size="13">Esito: codificato come asset strategico</text>
+    <text x="20" y="364" fill="#52525b" font-size="12">Fonti: CoinDesk, The Block, CryptoRank, Disruption Banking (luglio 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Конфискованный биткоин: сравнение подходов стран</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="20" font-weight="800">50 000 BTC</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Продажа в Саксонии (июнь-июль 2024)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">198 000 BTC</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Стратегический резерв США (с мар 2025)</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="18" font-weight="800">1400 трлн ₩</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Охвачено новым законом Кореи</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#e4e4e7" text-anchor="middle" font-size="20" font-weight="800">76 лет</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">С последней крупной реформы закона</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Две страны, противоположный выбор</text>
+    <rect x="20" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="216" fill="#f87171" font-size="14" font-weight="700">Германия (2024)</text>
+    <text x="36" y="244" fill="#e4e4e7" font-size="13">Подход: немедленная продажа</text>
+    <text x="36" y="270" fill="#e4e4e7" font-size="13">Объём: ~50 000 BTC</text>
+    <text x="36" y="296" fill="#e4e4e7" font-size="13">Цена продажи: $54 000-$60 000</text>
+    <text x="36" y="320" fill="#f87171" font-size="13">Итог: цена удвоилась, критика</text>
+    <rect x="360" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="376" y="216" fill="#4ade80" font-size="14" font-weight="700">США (2025)</text>
+    <text x="376" y="244" fill="#e4e4e7" font-size="13">Подход: долгосрочное хранение</text>
+    <text x="376" y="270" fill="#e4e4e7" font-size="13">Объём: ~198 000 BTC</text>
+    <text x="376" y="296" fill="#e4e4e7" font-size="13">Основание: указ от марта 2025</text>
+    <text x="376" y="320" fill="#4ade80" font-size="13">Итог: закреплено как стратегический актив</text>
+    <text x="20" y="364" fill="#52525b" font-size="12">Источники: CoinDesk, The Block, CryptoRank, Disruption Banking (июль 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">沒收比特幣:各國處理方式比較</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="21" font-weight="800">5萬BTC</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">德國薩克森邦出售(2024年6-7月)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#4ade80" text-anchor="middle" font-size="21" font-weight="800">19.8萬BTC</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">美國戰略儲備持有(2025年3月起)</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="20" font-weight="800">1,400兆韓元</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">南韓新國家資產法適用範圍</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#e4e4e7" text-anchor="middle" font-size="20" font-weight="800">76年</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">距上次法律大改革</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">兩國相反的選擇</text>
+    <rect x="20" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="216" fill="#f87171" font-size="14" font-weight="700">德國(2024年)</text>
+    <text x="36" y="244" fill="#e4e4e7" font-size="13">方式:立即出售</text>
+    <text x="36" y="270" fill="#e4e4e7" font-size="13">規模:約5萬BTC</text>
+    <text x="36" y="296" fill="#e4e4e7" font-size="13">售價:5.4萬至6萬美元</text>
+    <text x="36" y="320" fill="#f87171" font-size="13">結果:其後價格翻倍,遭受批評</text>
+    <rect x="360" y="190" width="320" height="150" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="376" y="216" fill="#4ade80" font-size="14" font-weight="700">美國(2025年)</text>
+    <text x="376" y="244" fill="#e4e4e7" font-size="13">方式:長期持有,不出售</text>
+    <text x="376" y="270" fill="#e4e4e7" font-size="13">規模:約19.8萬BTC</text>
+    <text x="376" y="296" fill="#e4e4e7" font-size="13">依據:2025年3月行政命令</text>
+    <text x="376" y="320" fill="#4ade80" font-size="13">結果:明文列為戰略資產</text>
+    <text x="20" y="364" fill="#52525b" font-size="12">資料來源:CoinDesk、The Block、CryptoRank、Disruption Banking(2026年7月)</text>
   </g>
 </svg>
 </div>

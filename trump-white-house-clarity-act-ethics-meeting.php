@@ -507,6 +507,196 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Dòng thời gian là sơ đồ tái dựng dựa trên các tin tức công khai.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Garis Waktu Negosiasi Etika CLARITY Act</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="72" x2="655" y2="72" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="80" cy="72" r="7" fill="#fbbf24"/>
+    <text x="80" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 Jul</text>
+    <text x="80" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Trump ungkap</text>
+    <text x="80" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">pendapatan $1,4 M</text>
+    <circle cx="220" cy="72" r="7" fill="#f87171"/>
+    <text x="220" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">14 Jul</text>
+    <text x="220" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Witt umumkan</text>
+    <text x="220" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">cuti militer</text>
+    <circle cx="350" cy="72" r="7" fill="#fca5a5"/>
+    <text x="350" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">15 Jul</text>
+    <text x="350" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Warren kirim</text>
+    <text x="350" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">surat etika</text>
+    <circle cx="480" cy="72" r="9" fill="#4ade80" stroke="#fafafa" stroke-width="2"/>
+    <text x="480" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">16 Jul (hari ini)</text>
+    <text x="480" y="122" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">Trump-senator</text>
+    <text x="480" y="138" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">pertemuan Gedung Putih</text>
+    <circle cx="610" cy="72" r="7" fill="#c084fc"/>
+    <text x="610" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 Agu</text>
+    <text x="610" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Tenggat voting</text>
+    <text x="610" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">perkiraan industri</text>
+
+    <rect x="30" y="170" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="200" fill="#e4e4e7" font-size="14" font-weight="700">Dua jalur ke depan</text>
+    <text x="50" y="232" fill="#86efac" font-size="13" font-weight="700">Optimis: jalur voting cepat</text>
+    <text x="70" y="254" fill="#a1a1aa" font-size="12">· Persetujuan Trump → teks bipartisan disepakati → voting Senat sebelum 7 Agu</text>
+    <text x="50" y="292" fill="#fca5a5" font-size="13" font-weight="700">Tertunda: jalur pelimpahan musim gugur</text>
+    <text x="70" y="314" fill="#a1a1aa" font-size="12">· Garis keras seperti Warren bertahan → perundingan teks gagal → reses Agustus</text>
+    <text x="70" y="334" fill="#a1a1aa" font-size="12">→ Tumpang tindih dengan sesi musim gugur & pemilu sela November, biaya politik naik</text>
+    <text x="70" y="365" fill="#71717a" font-size="12">Kedua jalur masih terbuka untuk saat ini; pertemuan "positif" belum berarti kesepakatan</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Garis waktu adalah rekonstruksi skematis berdasarkan pemberitaan publik.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Oś czasu negocjacji etycznych ustawy CLARITY Act</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="72" x2="655" y2="72" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="80" cy="72" r="7" fill="#fbbf24"/>
+    <text x="80" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 lip</text>
+    <text x="80" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Trump ujawnia</text>
+    <text x="80" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">1,4 mld $ dochodu</text>
+    <circle cx="220" cy="72" r="7" fill="#f87171"/>
+    <text x="220" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">14 lip</text>
+    <text x="220" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Witt ogłasza</text>
+    <text x="220" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">urlop wojskowy</text>
+    <circle cx="350" cy="72" r="7" fill="#fca5a5"/>
+    <text x="350" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">15 lip</text>
+    <text x="350" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Warren wysyła</text>
+    <text x="350" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">list etyczny</text>
+    <circle cx="480" cy="72" r="9" fill="#4ade80" stroke="#fafafa" stroke-width="2"/>
+    <text x="480" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">16 lip (dziś)</text>
+    <text x="480" y="122" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">Trump-senatorowie</text>
+    <text x="480" y="138" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">spotkanie w Białym Domu</text>
+    <circle cx="610" cy="72" r="7" fill="#c084fc"/>
+    <text x="610" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 sie</text>
+    <text x="610" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Oczekiwany termin</text>
+    <text x="610" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">głosowania branży</text>
+
+    <rect x="30" y="170" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="200" fill="#e4e4e7" font-size="14" font-weight="700">Dwie możliwe ścieżki</text>
+    <text x="50" y="232" fill="#86efac" font-size="13" font-weight="700">Optymistyczna: wczesne głosowanie</text>
+    <text x="70" y="254" fill="#a1a1aa" font-size="12">· Zgoda Trumpa → ustalony tekst ponadpartyjny → głosowanie w Senacie przed 7 sie</text>
+    <text x="50" y="292" fill="#fca5a5" font-size="13" font-weight="700">Opóźniona: przeniesienie na jesień</text>
+    <text x="70" y="314" fill="#a1a1aa" font-size="12">· Twardogłowi jak Warren nie ustępują → rozmowy o tekście upadają → sierpniowa przerwa</text>
+    <text x="70" y="334" fill="#a1a1aa" font-size="12">→ Nakłada się na sesję jesienną i listopadowe wybory połówkowe, koszt polityczny rośnie</text>
+    <text x="70" y="365" fill="#71717a" font-size="12">Obie ścieżki na razie pozostają otwarte; „pozytywne" spotkanie to jeszcze nie porozumienie</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Oś czasu to schematyczna rekonstrukcja na podstawie doniesień publicznych.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronologia dei negoziati etici sul CLARITY Act</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="72" x2="655" y2="72" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="80" cy="72" r="7" fill="#fbbf24"/>
+    <text x="80" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 lug</text>
+    <text x="80" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Trump rivela</text>
+    <text x="80" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">1,4 mld $ di reddito</text>
+    <circle cx="220" cy="72" r="7" fill="#f87171"/>
+    <text x="220" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">14 lug</text>
+    <text x="220" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Witt annuncia</text>
+    <text x="220" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">congedo militare</text>
+    <circle cx="350" cy="72" r="7" fill="#fca5a5"/>
+    <text x="350" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">15 lug</text>
+    <text x="350" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Warren invia</text>
+    <text x="350" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">lettera etica</text>
+    <circle cx="480" cy="72" r="9" fill="#4ade80" stroke="#fafafa" stroke-width="2"/>
+    <text x="480" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">16 lug (oggi)</text>
+    <text x="480" y="122" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">Trump-senatori</text>
+    <text x="480" y="138" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">incontro alla Casa Bianca</text>
+    <circle cx="610" cy="72" r="7" fill="#c084fc"/>
+    <text x="610" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 ago</text>
+    <text x="610" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Scadenza di voto</text>
+    <text x="610" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">attesa dal settore</text>
+
+    <rect x="30" y="170" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="200" fill="#e4e4e7" font-size="14" font-weight="700">Due percorsi possibili</text>
+    <text x="50" y="232" fill="#86efac" font-size="13" font-weight="700">Ottimista: percorso di voto anticipato</text>
+    <text x="70" y="254" fill="#a1a1aa" font-size="12">· Via libera di Trump → testo bipartisan fissato → voto al Senato prima del 7 ago</text>
+    <text x="50" y="292" fill="#fca5a5" font-size="13" font-weight="700">Ritardato: percorso di rinvio autunnale</text>
+    <text x="70" y="314" fill="#a1a1aa" font-size="12">· I falchi come Warren resistono → i negoziati sul testo falliscono → pausa di agosto</text>
+    <text x="70" y="334" fill="#a1a1aa" font-size="12">→ Si sovrappone alla sessione autunnale e alle midterm di novembre, aumentando il costo politico</text>
+    <text x="70" y="365" fill="#71717a" font-size="12">Entrambi i percorsi restano aperti per ora; un incontro "positivo" non è ancora un accordo</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">La cronologia è una ricostruzione schematica basata su notizie pubbliche.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Хронология этических переговоров по CLARITY Act</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="72" x2="655" y2="72" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="80" cy="72" r="7" fill="#fbbf24"/>
+    <text x="80" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 июл</text>
+    <text x="80" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Трамп раскрывает</text>
+    <text x="80" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">доход $1,4 млрд</text>
+    <circle cx="220" cy="72" r="7" fill="#f87171"/>
+    <text x="220" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">14 июл</text>
+    <text x="220" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Уитт объявляет</text>
+    <text x="220" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">об отпуске</text>
+    <circle cx="350" cy="72" r="7" fill="#fca5a5"/>
+    <text x="350" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">15 июл</text>
+    <text x="350" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Уоррен отправляет</text>
+    <text x="350" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">письмо об этике</text>
+    <circle cx="480" cy="72" r="9" fill="#4ade80" stroke="#fafafa" stroke-width="2"/>
+    <text x="480" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">16 июл (сегодня)</text>
+    <text x="480" y="122" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">Трамп-сенаторы</text>
+    <text x="480" y="138" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">встреча в Белом доме</text>
+    <circle cx="610" cy="72" r="7" fill="#c084fc"/>
+    <text x="610" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7 авг</text>
+    <text x="610" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">Ожидаемый срок</text>
+    <text x="610" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">голосования</text>
+
+    <rect x="30" y="170" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="200" fill="#e4e4e7" font-size="14" font-weight="700">Два возможных пути</text>
+    <text x="50" y="232" fill="#86efac" font-size="13" font-weight="700">Оптимистичный: путь раннего голосования</text>
+    <text x="70" y="254" fill="#a1a1aa" font-size="12">· Одобрение Трампа → двухпартийный текст согласован → голосование в Сенате до 7 авг</text>
+    <text x="50" y="292" fill="#fca5a5" font-size="13" font-weight="700">Отложенный: путь переноса на осень</text>
+    <text x="70" y="314" fill="#a1a1aa" font-size="12">· Сторонники жёсткой линии вроде Уоррен не уступают → переговоры по тексту срываются → августовские каникулы</text>
+    <text x="70" y="334" fill="#a1a1aa" font-size="12">→ Пересекается с осенней сессией и промежуточными выборами в ноябре, растут политические издержки</text>
+    <text x="70" y="365" fill="#71717a" font-size="12">Оба пути пока остаются открытыми; «позитивная» встреча — это ещё не сделка</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Хронология — это схематичная реконструкция на основе публичных сообщений.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">《CLARITY法案》倫理談判時間軸</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="72" x2="655" y2="72" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="80" cy="72" r="7" fill="#fbbf24"/>
+    <text x="80" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7月7日</text>
+    <text x="80" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">川普揭露</text>
+    <text x="80" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">14億美元收入</text>
+    <circle cx="220" cy="72" r="7" fill="#f87171"/>
+    <text x="220" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7月14日</text>
+    <text x="220" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">威特宣布</text>
+    <text x="220" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">軍事休假</text>
+    <circle cx="350" cy="72" r="7" fill="#fca5a5"/>
+    <text x="350" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7月15日</text>
+    <text x="350" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">華倫發送</text>
+    <text x="350" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">倫理信函</text>
+    <circle cx="480" cy="72" r="9" fill="#4ade80" stroke="#fafafa" stroke-width="2"/>
+    <text x="480" y="45" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">7月16日(今天)</text>
+    <text x="480" y="122" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">川普-參議員</text>
+    <text x="480" y="138" fill="#86efac" font-size="12" text-anchor="middle" font-weight="700">白宮會議</text>
+    <circle cx="610" cy="72" r="7" fill="#c084fc"/>
+    <text x="610" y="102" fill="#e4e4e7" font-size="13" text-anchor="middle" font-weight="700">8月7日</text>
+    <text x="610" y="122" fill="#a1a1aa" font-size="12" text-anchor="middle">業界預期的</text>
+    <text x="610" y="138" fill="#a1a1aa" font-size="12" text-anchor="middle">表決期限</text>
+
+    <rect x="30" y="170" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="200" fill="#e4e4e7" font-size="14" font-weight="700">兩條可能路徑</text>
+    <text x="50" y="232" fill="#86efac" font-size="13" font-weight="700">樂觀:早期表決路徑</text>
+    <text x="70" y="254" fill="#a1a1aa" font-size="12">· 川普批准 → 跨黨派文字定案 → 8月7日前參議院表決</text>
+    <text x="50" y="292" fill="#fca5a5" font-size="13" font-weight="700">延遲:秋季延續路徑</text>
+    <text x="70" y="314" fill="#a1a1aa" font-size="12">· 華倫等強硬派持續反對 → 文字談判失敗 → 8月休會</text>
+    <text x="70" y="334" fill="#a1a1aa" font-size="12">→ 與秋季會期及11月期中選舉重疊,政治代價上升</text>
+    <text x="70" y="365" fill="#71717a" font-size="12">目前兩條路徑皆仍開放;「正面」的會議尚不等於協議</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">此時間軸為根據公開報導重建的示意圖。</p>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 이번 회동 이후 실제 법안 문구에 윤리 조항이 어떻게 반영되는지, (2) 워런 의원 등 민주당 강경파가 이번 타협안에 동의하는지, (3) 8월 7일 시한 내 상원 표결이 실제로 이뤄지는지를 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) how the ethics provision actually gets reflected in bill text after this meeting, (2) whether Democratic hardliners like Warren sign on to whatever compromise emerges, and (3) whether a Senate vote actually happens before the Aug. 7 deadline.</div>
@@ -517,6 +707,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> (1) como a disposição ética será de fato refletida no texto da lei após esta reunião, (2) se linhas-duras democratas como Warren aceitam o compromisso que surgir, e (3) se uma votação no Senado realmente ocorre antes do prazo de 7 de agosto.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) bu toplantının ardından etik hükmün yasa metnine gerçekte nasıl yansıtılacağı, (2) Warren gibi Demokrat sertlik yanlılarının ortaya çıkacak uzlaşmayı kabul edip etmeyeceği ve (3) 7 Ağustos son tarihinden önce gerçekten bir Senato oylaması yapılıp yapılmayacağı.</div>
 <div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> (1) điều khoản đạo đức thực sự được phản ánh thế nào trong văn bản luật sau cuộc gặp này, (2) liệu phe cứng rắn Dân chủ như Warren có chấp nhận thỏa hiệp sẽ xuất hiện hay không, và (3) liệu cuộc bỏ phiếu tại Thượng viện có thực sự diễn ra trước hạn chót 7/8 hay không.</div>
+<div class="box id">💡 <strong>Yang perlu diamati sekarang:</strong> (1) bagaimana ketentuan etika benar-benar tercermin dalam naskah RUU setelah pertemuan ini, (2) apakah kelompok garis keras Demokrat seperti Warren menyetujui kompromi apa pun yang muncul, dan (3) apakah pemungutan suara Senat benar-benar terjadi sebelum tenggat 7 Agustus.</div>
+<div class="box pl">💡 <strong>Na co teraz zwracać uwagę:</strong> (1) jak klauzula etyczna zostanie faktycznie odzwierciedlona w tekście ustawy po tym spotkaniu, (2) czy demokratyczni twardogłowi tacy jak Warren zaakceptują wypracowany kompromis, oraz (3) czy głosowanie w Senacie faktycznie odbędzie się przed terminem 7 sierpnia.</div>
+<div class="box it">💡 <strong>Cosa osservare ora:</strong> (1) come la disposizione etica verrà effettivamente riflessa nel testo della legge dopo questo incontro, (2) se i falchi democratici come Warren aderiranno al compromesso che emergerà, e (3) se un voto al Senato avverrà davvero prima della scadenza del 7 agosto.</div>
+<div class="box ru">💡 <strong>На что обратить внимание сейчас:</strong> (1) как этическое положение фактически отразится в тексте законопроекта после этой встречи, (2) поддержат ли демократы-сторонники жёсткой линии вроде Уоррен возникший компромисс, и (3) состоится ли голосование в Сенате до дедлайна 7 августа.</div>
+<div class="box zh">💡 <strong>現在需要關注的:</strong> (1) 此次會議後倫理條款究竟如何反映在法案文字中,(2) 華倫等民主黨強硬派是否會同意最終達成的妥協方案,以及 (3) 參議院表決是否真的會在8月7日截止日期前進行。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 코인데스크(CoinDesk), 더블록(The Block), 크립토타임스(CryptoTimes), 크립토브리핑(Crypto Briefing, 폴리티코 인용), 펀치볼뉴스(Punchbowl News), 블루밍빗(Bloomingbit), 비트코인매거진(Bitcoin Magazine), 야후파이낸스(Yahoo Finance), 게이트닷컴(Gate.com). 회동 관련 사실관계는 7월 16일 보도를 기준으로 했다.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: CoinDesk, The Block, CryptoTimes, Crypto Briefing (citing Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Facts about the meeting are based on July 16 reporting.</p>
@@ -527,4 +722,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CoinDesk, The Block, CryptoTimes, Crypto Briefing (citando a Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Os fatos sobre a reunião baseiam-se na cobertura de 16 de julho.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CoinDesk, The Block, CryptoTimes, Crypto Briefing (Politico'ya atıfla), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Toplantıyla ilgili olgular 16 Temmuz haberlerine dayanmaktadır.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CoinDesk, The Block, CryptoTimes, Crypto Briefing (dẫn nguồn Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Các sự kiện về cuộc gặp dựa trên tin tức ngày 16/7.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CoinDesk, The Block, CryptoTimes, Crypto Briefing (mengutip Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Fakta terkait pertemuan ini didasarkan pada pemberitaan 16 Juli.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CoinDesk, The Block, CryptoTimes, Crypto Briefing (powołując się na Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Fakty dotyczące spotkania opierają się na doniesieniach z 16 lipca.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CoinDesk, The Block, CryptoTimes, Crypto Briefing (citando Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. I fatti relativi all'incontro si basano sulle notizie del 16 luglio.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CoinDesk, The Block, CryptoTimes, Crypto Briefing (со ссылкой на Politico), Punchbowl News, Bloomingbit, Bitcoin Magazine, Yahoo Finance, Gate.com. Факты о встрече основаны на сообщениях от 16 июля.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CoinDesk、The Block、CryptoTimes、Crypto Briefing(引述Politico)、Punchbowl News、Bloomingbit、Bitcoin Magazine、Yahoo Finance、Gate.com。有關會議的事實根據7月16日的報導。</p>
 <?php require __DIR__.'/_footer.php'; ?>

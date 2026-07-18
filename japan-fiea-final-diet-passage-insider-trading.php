@@ -129,6 +129,11 @@
 <p class="pt">A maioria das manchetes foca em "de 55% para 20%", mas o alcance real é muito mais estreito. A nova alíquota se aplica apenas a "ativos cripto especificados" negociados em exchanges nacionais licenciadas pela FSA, enquanto staking, lending, rendimentos de DeFi, NFTs e negociações em exchanges estrangeiras não registradas continuam classificados como renda diversa, tributada em até 55% - um sistema de dois níveis que permanece intacto. Além disso, o corte para investidores individuais deve entrar em vigor em janeiro de 2028, após a entrada em vigor da própria lei, o que significa que a carga tributária de ninguém diminui hoje. Enquanto isso, a isenção sobre ganhos não realizados de empresas já está em vigor desde 1º de abril, então empresas e instituições sentirão o benefício real bem antes dos investidores individuais.</p>
 <p class="tr">Çoğu manşet 'yüzde 55'ten yüzde 20'ye' başlığına odaklanıyor, ancak gerçek kapsam çok daha dar. Yeni oran yalnızca FSA lisanslı yerel borsalarda işlem gören 'belirli kripto varlıklara' uygulanıyor; staking, lending, DeFi getirileri, NFT'ler ve kayıtsız yurtdışı borsalardaki işlemler ise hâlâ yüzde 55'e kadar vergilendirilen çeşitli gelir olarak sınıflandırılmaya devam ediyor - iki katmanlı sistem böylece korunuyor. Üstelik bireysel yatırımcılar için vergi indirimi, kanunun kendisi yürürlüğe girdikten sonra Ocak 2028'den itibaren uygulanacak, yani şu anda kimsenin vergi yükü azalmıyor. Öte yandan şirketlerin gerçekleşmemiş kripto kazançlarına yönelik muafiyet zaten 1 Nisan'dan beri yürürlükte, dolayısıyla şirketler ve kurumlar gerçek faydayı bireysel yatırımcılardan çok daha önce hissedecek.</p>
 <p class="vi">Hầu hết các tiêu đề tập trung vào "từ 55% xuống 20%", nhưng phạm vi thực tế hẹp hơn nhiều. Mức thuế mới chỉ áp dụng cho "tài sản mã hóa được chỉ định" giao dịch trên các sàn trong nước được FSA cấp phép, trong khi staking, cho vay, lợi nhuận DeFi, NFT và giao dịch trên các sàn nước ngoài chưa đăng ký vẫn được xếp vào thu nhập khác, chịu thuế tới 55% - một hệ thống hai tầng vẫn được giữ nguyên. Hơn nữa, việc giảm thuế cho nhà đầu tư cá nhân dự kiến chỉ có hiệu lực từ tháng 1/2028, sau khi bản thân đạo luật có hiệu lực, nghĩa là hiện tại chưa ai được giảm gánh nặng thuế cả. Trong khi đó, việc miễn thuế đối với lãi chưa thực hiện của doanh nghiệp đã có hiệu lực từ ngày 1/4, nên doanh nghiệp và tổ chức sẽ cảm nhận được lợi ích thực sự sớm hơn nhiều so với nhà đầu tư cá nhân.</p>
+<p class="id">Sebagian besar judul berita berfokus pada "55% menjadi 20%," tetapi cakupan sebenarnya jauh lebih sempit. Tarif baru hanya berlaku untuk "aset kripto tertentu" yang diperdagangkan di bursa domestik berlisensi FSA, sementara staking, lending, imbal hasil DeFi, NFT, dan transaksi di bursa luar negeri yang tidak terdaftar tetap diklasifikasikan sebagai penghasilan lain-lain yang dikenai pajak hingga 55% - sistem dua tingkat yang tetap dipertahankan. Selain itu, pemangkasan pajak bagi investor individu baru berlaku mulai Januari 2028, setelah undang-undang itu sendiri berlaku, artinya belum ada seorang pun yang benar-benar mendapatkan pengurangan pajak hari ini. Sementara itu, pembebasan pajak atas keuntungan kripto yang belum direalisasikan milik perusahaan sudah berlaku sejak 1 April, sehingga perusahaan dan institusi akan merasakan manfaat nyata jauh lebih dulu dibanding investor individu.</p>
+<p class="pl">Większość nagłówków skupia się na haśle „z 55% do 20%", lecz rzeczywisty zakres jest znacznie węższy. Nowa stawka dotyczy wyłącznie „określonych aktywów kryptowalutowych" notowanych na krajowych giełdach licencjonowanych przez FSA, podczas gdy staking, pożyczki, dochody z DeFi, NFT oraz transakcje na niezarejestrowanych giełdach zagranicznych nadal są klasyfikowane jako przychody różne opodatkowane stawką do 55% - dwupoziomowy system pozostaje więc nienaruszony. Do tego obniżka podatku dla inwestorów indywidualnych wejdzie w życie dopiero od stycznia 2028 roku, po wejściu w życie samej ustawy, co oznacza, że nikomu podatek nie zmniejsza się już dziś. Tymczasem zwolnienie od niezrealizowanych zysków kryptowalutowych przedsiębiorstw obowiązuje już od 1 kwietnia, więc firmy i instytucje odczują realną korzyść znacznie wcześniej niż inwestorzy indywidualni.</p>
+<p class="it">La maggior parte dei titoli si concentra su "dal 55% al 20%", ma la portata reale è molto più ristretta. La nuova aliquota si applica solo agli "asset cripto specificati" negoziati su exchange nazionali autorizzati dalla FSA, mentre staking, lending, rendimenti DeFi, NFT e operazioni su exchange esteri non registrati restano classificati come redditi diversi tassati fino al 55% - un sistema a due livelli che rimane intatto. Inoltre, il taglio fiscale per gli investitori individuali entrerà in vigore solo da gennaio 2028, dopo l'entrata in vigore della legge stessa, il che significa che oggi il carico fiscale di nessuno si riduce davvero. Nel frattempo, l'esenzione sulle plusvalenze cripto non realizzate delle società è già in vigore dal 1° aprile, quindi aziende e istituzioni ne sentiranno il beneficio reale ben prima degli investitori individuali.</p>
+<p class="ru">Большинство заголовков сосредоточено на формуле «с 55% до 20%», но реальный охват гораздо уже. Новая ставка применяется только к «определённым криптоактивам», торгуемым на отечественных биржах, лицензированных FSA, тогда как доходы от стейкинга, кредитования и DeFi, NFT и сделки на незарегистрированных зарубежных биржах по-прежнему классифицируются как прочие доходы, облагаемые налогом по ставке до 55%, — двухуровневая система сохраняется в неизменном виде. Более того, снижение налога для частных инвесторов вступит в силу лишь с января 2028 года, после вступления в силу самого закона, а значит, сегодня ничья налоговая нагрузка на самом деле не уменьшается. Тем временем освобождение от налога на нереализованную прибыль компаний по криптоактивам действует уже с 1 апреля, поэтому компании и институциональные инвесторы почувствуют реальную выгоду задолго до частных инвесторов.</p>
+<p class="zh">多數媒體標題聚焦於「55%降至20%」，但實際適用範圍遠比想像狹窄。新稅率僅適用於在金融廳（FSA）核准的國內交易所交易的「特定加密資產」，而質押、借貸及DeFi收益、NFT，以及在未註冊境外交易所的交易，仍將被歸類為最高稅率達55%的雜項所得——這套雙軌制度維持不變。此外，個人投資者的減稅措施要到法律本身生效後、2028年1月才會實施，這意味著目前沒有任何人的稅負實際上會減少。與此同時，企業加密資產未實現利得免稅措施已自4月1日起施行，因此企業與機構將比個人投資者更早感受到實質效益。</p>
 
 <p class="ko">이런 시차와 이원 구조는 결코 새로운 패턴이 아니다. 일본은 2017년 결제서비스법 제정 이후에도 세제 개편을 여러 차례 시도했지만 매번 국회 일정과 여론 반대에 부딪혀 무산된 전례가 있다 — 이번에도 실제 시행까지 1년 반 이상 남아 있다는 점에서 완전히 안심하기는 이르다. 그럼에도 이번 개편이 이전 시도들과 다른 점은, 세제 개편이 단독 법안이 아니라 금융상품거래법 재분류라는 더 큰 구조 개편과 한 묶음으로 통과됐다는 점이다. 재분류 자체는 이미 확정된 만큼, 남은 것은 세율 실제 시행 시점의 정치적 의지 여부다. 지켜볼 지점은 세 가지다 — 첫째 SESC가 내부자거래 조사 인프라를 얼마나 빨리 갖추는지, 둘째 2028년 세율 인하가 예정대로 시행되는지, 셋째 이번 재분류가 실제로 일본 내 스팟 비트코인 ETF 승인으로 이어지는지.</p>
 <p class="en">This kind of lag and two-tier structure is by no means a new pattern. Japan has attempted tax reform multiple times since enacting the Payment Services Act in 2017, only to see each attempt collapse under Diet scheduling constraints and public pushback - and with actual implementation still more than a year and a half away, it's too early to call this one settled. Still, what sets this overhaul apart from earlier attempts is that the tax change didn't pass as a standalone bill, but as part of the larger structural overhaul of FIEA reclassification. Since the reclassification itself is already locked in, what remains is a question of political will at the moment the tax rate is actually due to take effect. Three things are worth watching: first, how quickly the SESC builds out insider-trading investigation infrastructure; second, whether the 2028 tax cut takes effect on schedule; and third, whether this reclassification actually translates into approval of a spot bitcoin ETF in Japan.</p>
@@ -139,6 +144,11 @@
 <p class="pt">Esse tipo de defasagem e estrutura de dois níveis não é, de forma alguma, um padrão novo. O Japão já tentou reformas tributárias várias vezes desde a promulgação da Lei de Serviços de Pagamento em 2017, apenas para ver cada tentativa desmoronar diante das limitações de calendário da Dieta e da resistência da opinião pública - e com a implementação real ainda a mais de um ano e meio de distância, é cedo demais para considerar essa como resolvida. Ainda assim, o que diferencia essa reforma das tentativas anteriores é que a mudança tributária não foi aprovada como projeto de lei isolado, mas como parte da reforma estrutural mais ampla da reclassificação FIEA. Como a reclassificação em si já está definida, o que resta é uma questão de vontade política no momento em que a alíquota realmente deve entrar em vigor. Três pontos merecem atenção: primeiro, quão rapidamente a SESC constrói a infraestrutura de investigação de informação privilegiada; segundo, se o corte de imposto de 2028 entra em vigor conforme planejado; e terceiro, se essa reclassificação realmente se traduz na aprovação de um ETF de bitcoin à vista no Japão.</p>
 <p class="tr">Bu tür bir gecikme ve iki katmanlı yapı kesinlikle yeni bir örüntü değil. Japonya, 2017'de Ödeme Hizmetleri Kanunu'nu yürürlüğe koyduğundan beri vergi reformunu birçok kez denedi, ancak her seferinde Meclis takvimi kısıtlamaları ve kamuoyu tepkisi nedeniyle bu girişimler çöktü - ve gerçek uygulamaya hâlâ bir buçuk yıldan fazla süre kaldığından, bunun sonuçlandığını söylemek için henüz erken. Yine de bu reformu önceki girişimlerden ayıran şey, vergi değişikliğinin bağımsız bir yasa tasarısı olarak değil, FIEA sınıflandırmasının daha büyük yapısal reformunun bir parçası olarak kabul edilmesi. Sınıflandırmanın kendisi zaten kesinleştiğine göre, geriye kalan şey vergi oranının fiilen yürürlüğe gireceği andaki siyasi irade meselesi. İzlenmesi gereken üç şey var: birincisi, SESC'nin içeriden öğrenenlerin ticareti soruşturma altyapısını ne kadar hızlı kuracağı; ikincisi, 2028 vergi indiriminin planlandığı gibi yürürlüğe girip girmeyeceği; üçüncüsü, bu yeniden sınıflandırmanın Japonya'da gerçekten spot bitcoin ETF onayına dönüşüp dönüşmeyeceği.</p>
 <p class="vi">Kiểu độ trễ và cấu trúc hai tầng này hoàn toàn không phải là mô hình mới. Nhật Bản đã nhiều lần cố gắng cải cách thuế kể từ khi ban hành Đạo luật Dịch vụ Thanh toán năm 2017, nhưng mỗi lần đều thất bại trước những ràng buộc về lịch trình Quốc hội và sự phản đối của công chúng - và với việc triển khai thực tế vẫn còn hơn một năm rưỡi nữa, còn quá sớm để coi lần này là chuyện đã chắc chắn. Tuy vậy, điều khiến cải cách lần này khác với các nỗ lực trước đây là thay đổi thuế không được thông qua như một dự luật độc lập, mà là một phần của cuộc cải tổ cấu trúc lớn hơn - việc xếp loại lại theo FIEA. Vì bản thân việc xếp loại lại đã được chốt, điều còn lại là vấn đề ý chí chính trị vào thời điểm mức thuế thực sự phải có hiệu lực. Có ba điều đáng theo dõi: thứ nhất, SESC sẽ xây dựng hạ tầng điều tra giao dịch nội gián nhanh đến đâu; thứ hai, liệu việc giảm thuế năm 2028 có được thực hiện đúng kế hoạch; thứ ba, liệu việc xếp loại lại này có thực sự dẫn đến việc phê duyệt một quỹ ETF bitcoin giao ngay tại Nhật Bản hay không.</p>
+<p class="id">Jeda waktu dan struktur dua tingkat semacam ini sama sekali bukan pola baru. Jepang telah beberapa kali mencoba reformasi pajak sejak mengesahkan Undang-Undang Layanan Pembayaran pada 2017, namun setiap upaya selalu gagal karena keterbatasan jadwal Diet dan penolakan publik - dan dengan implementasi sebenarnya masih lebih dari satu setengah tahun lagi, masih terlalu dini untuk menganggap ini sudah pasti. Meski begitu, yang membedakan reformasi kali ini dari upaya-upaya sebelumnya adalah perubahan pajak ini tidak disahkan sebagai RUU tersendiri, melainkan sebagai bagian dari reformasi struktural yang lebih besar berupa reklasifikasi FIEA. Karena reklasifikasi itu sendiri sudah dipastikan, yang tersisa hanyalah soal kemauan politik pada saat tarif pajak benar-benar harus mulai berlaku. Ada tiga hal yang patut diperhatikan: pertama, seberapa cepat SESC membangun infrastruktur investigasi perdagangan orang dalam; kedua, apakah pemangkasan pajak 2028 berlaku sesuai jadwal; dan ketiga, apakah reklasifikasi ini benar-benar berujung pada persetujuan ETF bitcoin spot di Jepang.</p>
+<p class="pl">Tego rodzaju opóźnienie i dwupoziomowa struktura wcale nie są nowym wzorcem. Japonia od czasu uchwalenia Ustawy o Usługach Płatniczych w 2017 roku wielokrotnie podejmowała próby reformy podatkowej, ale za każdym razem kończyły się one fiaskiem z powodu ograniczeń harmonogramu parlamentu i sprzeciwu opinii publicznej - a skoro faktyczne wdrożenie jest wciąż odległe o ponad półtora roku, zbyt wcześnie jest uznawać tę sprawę za przesądzoną. Mimo to obecną reformę od wcześniejszych prób odróżnia to, że zmiana podatkowa nie została przyjęta jako samodzielna ustawa, lecz jako część szerszej reformy strukturalnej związanej z reklasyfikacją FIEA. Skoro sama reklasyfikacja jest już przesądzona, pozostaje kwestia woli politycznej w momencie, gdy stawka podatkowa ma faktycznie wejść w życie. Warto obserwować trzy rzeczy: po pierwsze, jak szybko SESC zbuduje infrastrukturę do badania przypadków wykorzystywania informacji poufnych; po drugie, czy obniżka podatku z 2028 roku wejdzie w życie zgodnie z harmonogramem; po trzecie, czy ta reklasyfikacja rzeczywiście przełoży się na zatwierdzenie spotowego ETF-u na bitcoina w Japonii.</p>
+<p class="it">Questo tipo di sfasamento temporale e struttura a due livelli non è affatto un modello nuovo. Il Giappone ha tentato più volte una riforma fiscale sin dall'entrata in vigore della Legge sui Servizi di Pagamento nel 2017, vedendo però ogni tentativo naufragare per i vincoli di calendario della Dieta e l'opposizione dell'opinione pubblica - e con l'attuazione reale ancora a più di un anno e mezzo di distanza, è troppo presto per considerarla acquisita. Ciò che distingue comunque questa riforma dai tentativi precedenti è che la modifica fiscale non è stata approvata come disegno di legge autonomo, ma come parte della più ampia riforma strutturale della riclassificazione FIEA. Poiché la riclassificazione in sé è già stata fissata, ciò che resta è una questione di volontà politica nel momento in cui l'aliquota dovrà effettivamente entrare in vigore. Ci sono tre elementi da osservare: primo, quanto rapidamente la SESC costruirà l'infrastruttura di indagine sull'insider trading; secondo, se il taglio fiscale del 2028 entrerà in vigore come previsto; terzo, se questa riclassificazione si tradurrà davvero nell'approvazione di un ETF spot su bitcoin in Giappone.</p>
+<p class="ru">Подобный временной разрыв и двухуровневая структура вовсе не являются новым явлением. Япония неоднократно пыталась провести налоговую реформу с момента принятия Закона о платёжных услугах в 2017 году, но каждая попытка срывалась из-за ограничений парламентского расписания и общественного сопротивления — и поскольку фактическое внедрение всё ещё отстоит более чем на полтора года, пока рано считать этот вопрос окончательно решённым. Тем не менее, эту реформу от прежних попыток отличает то, что налоговое изменение было принято не как самостоятельный законопроект, а как часть более масштабной структурной реформы — реклассификации FIEA. Поскольку сама реклассификация уже закреплена, остаётся лишь вопрос политической воли на момент, когда налоговая ставка действительно должна вступить в силу. Стоит следить за тремя вещами: во-первых, насколько быстро SESC выстроит инфраструктуру для расследования инсайдерской торговли; во-вторых, вступит ли снижение налога 2028 года в силу по графику; и в-третьих, приведёт ли эта реклассификация в итоге к одобрению спотового биткоин-ETF в Японии.</p>
+<p class="zh">這種時間差與雙軌結構絕非新現象。自2017年《支付服務法》立法以來，日本已多次嘗試稅制改革，但每次都因國會日程限制與輿論反對而告吹——而由於實際施行時程仍在一年半以上之後，現在斷言此次改革已成定局仍為時過早。儘管如此，此次改革與過去的嘗試不同之處在於，稅制變更並非作為獨立法案通過，而是作為FIEA重新分類這項更大規模結構性改革的一部分。既然重新分類本身已經確定，剩下的便是稅率實際生效時點上的政治意願問題。有三件事值得關注：第一，SESC建構內線交易調查基礎設施的速度有多快；第二，2028年的減稅措施能否如期實施；第三，此次重新分類是否真的會促成日本國內現貨比特幣ETF的核准。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -524,6 +534,221 @@
     <text x="640" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">cá nhân có hiệu lực</text>
     <text x="640" y="352" fill="#f87171" text-anchor="middle" font-size="12">Chưa chắc chắn</text>
     <text x="20" y="384" fill="#52525b" font-size="12">Nguồn: CoinDesk, Crypto Briefing, CoinGecko, Finance Magnates (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Reformasi Undang-Undang Kripto Jepang — Angka Kunci dan Garis Waktu</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="19" font-weight="800">55%→20,315%</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Tarif individu (mulai 2028)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#f87171" text-anchor="middle" font-size="15" font-weight="800">Hanya aset tertentu</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Cakupan terbatas</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="16" font-weight="800">Hingga 5 thn penjara</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Sanksi perdagangan orang dalam</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">3 thn→10 thn</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Sanksi operasi tanpa registrasi</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Garis waktu implementasi</text>
+    <line x1="40" y1="330" x2="660" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="70" cy="330" r="7" fill="#4ade80"/>
+    <text x="70" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">1 Apr 2026</text>
+    <text x="70" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Pembebasan pajak</text>
+    <text x="70" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">keuntungan belum direalisasi korporasi</text>
+    <text x="70" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Selesai</text>
+    <circle cx="290" cy="330" r="7" fill="#4ade80"/>
+    <text x="290" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">15 Jul 2026</text>
+    <text x="290" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Pemungutan suara akhir Majelis Tinggi</text>
+    <text x="290" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">Pembahasan Diet berakhir</text>
+    <text x="290" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Selesai</text>
+    <circle cx="480" cy="330" r="7" fill="#f59e0b"/>
+    <text x="480" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2027</text>
+    <text x="480" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">UU reklasifikasi FIEA</text>
+    <text x="480" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">mulai berlaku</text>
+    <text x="480" y="352" fill="#f59e0b" text-anchor="middle" font-size="12">Dijadwalkan</text>
+    <circle cx="640" cy="330" r="7" fill="#f87171"/>
+    <text x="640" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Jan 2028</text>
+    <text x="640" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Tarif tetap 20,315%</text>
+    <text x="640" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">individu mulai berlaku</text>
+    <text x="640" y="352" fill="#f87171" text-anchor="middle" font-size="12">Belum pasti</text>
+    <text x="20" y="384" fill="#52525b" font-size="12">Sumber: CoinDesk, Crypto Briefing, CoinGecko, Finance Magnates (Juli 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Reforma prawa kryptowalutowego w Japonii — kluczowe liczby i harmonogram</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="19" font-weight="800">55%→20,315%</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Stawka indywidualna (od 2028)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#f87171" text-anchor="middle" font-size="15" font-weight="800">Tylko określone aktywa</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Zakres ograniczony</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="16" font-weight="800">Do 5 lat więzienia</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Kara za info. poufne</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">3 lata→10 lat</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Kara za brak rejestracji</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Harmonogram wdrożenia</text>
+    <line x1="40" y1="330" x2="660" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="70" cy="330" r="7" fill="#4ade80"/>
+    <text x="70" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">1 kwi 2026</text>
+    <text x="70" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Zwolnienie z podatku</text>
+    <text x="70" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">niezreal. zysków firm</text>
+    <text x="70" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Zrobione</text>
+    <circle cx="290" cy="330" r="7" fill="#4ade80"/>
+    <text x="290" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">15 lip 2026</text>
+    <text x="290" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Głosowanie końcowe Izby Wyższej</text>
+    <text x="290" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">Koniec debaty w Diecie</text>
+    <text x="290" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Zrobione</text>
+    <circle cx="480" cy="330" r="7" fill="#f59e0b"/>
+    <text x="480" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2027</text>
+    <text x="480" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Ustawa o reklasyfikacji</text>
+    <text x="480" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">FIEA wchodzi w życie</text>
+    <text x="480" y="352" fill="#f59e0b" text-anchor="middle" font-size="12">Planowane</text>
+    <circle cx="640" cy="330" r="7" fill="#f87171"/>
+    <text x="640" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Sty 2028</text>
+    <text x="640" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Stawka jednolita 20,315%</text>
+    <text x="640" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">dla osób fiz. wchodzi w życie</text>
+    <text x="640" y="352" fill="#f87171" text-anchor="middle" font-size="12">Niepewne</text>
+    <text x="20" y="384" fill="#52525b" font-size="12">Źródła: CoinDesk, Crypto Briefing, CoinGecko, Finance Magnates (lipiec 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Riforma della legge cripto giapponese — Numeri chiave e tempistiche</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="19" font-weight="800">55%→20,315%</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Aliquota individuale (dal 2028)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#f87171" text-anchor="middle" font-size="15" font-weight="800">Solo asset specificati</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Portata limitata</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="16" font-weight="800">Fino a 5 anni carcere</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Pena insider trading</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">3 anni→10 anni</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Pena operatività non reg.</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">Tempistiche di attuazione</text>
+    <line x1="40" y1="330" x2="660" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="70" cy="330" r="7" fill="#4ade80"/>
+    <text x="70" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">1 apr 2026</text>
+    <text x="70" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Esenzione plusvalenze</text>
+    <text x="70" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">non realizzate societarie</text>
+    <text x="70" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Fatto</text>
+    <circle cx="290" cy="330" r="7" fill="#4ade80"/>
+    <text x="290" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">15 lug 2026</text>
+    <text x="290" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Voto finale Camera Alta</text>
+    <text x="290" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">Fine dibattito Dieta</text>
+    <text x="290" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Fatto</text>
+    <circle cx="480" cy="330" r="7" fill="#f59e0b"/>
+    <text x="480" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2027</text>
+    <text x="480" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Legge di riclassificazione</text>
+    <text x="480" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">FIEA entra in vigore</text>
+    <text x="480" y="352" fill="#f59e0b" text-anchor="middle" font-size="12">Previsto</text>
+    <circle cx="640" cy="330" r="7" fill="#f87171"/>
+    <text x="640" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Gen 2028</text>
+    <text x="640" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Aliquota fissa 20,315%</text>
+    <text x="640" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">individuale in vigore</text>
+    <text x="640" y="352" fill="#f87171" text-anchor="middle" font-size="12">Non confermato</text>
+    <text x="20" y="384" fill="#52525b" font-size="12">Fonti: CoinDesk, Crypto Briefing, CoinGecko, Finance Magnates (luglio 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Реформа криптозаконодательства Японии — ключевые цифры и график</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="19" font-weight="800">55%→20,315%</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Ставка для физлиц (с 2028)</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#f87171" text-anchor="middle" font-size="15" font-weight="800">Только опред. активы</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Ограниченный охват</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="16" font-weight="800">До 5 лет тюрьмы</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Наказание за инсайд</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">3 года→10 лет</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">Наказание без регистрации</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">График внедрения</text>
+    <line x1="40" y1="330" x2="660" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="70" cy="330" r="7" fill="#4ade80"/>
+    <text x="70" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">1 апр 2026</text>
+    <text x="70" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Освобождение от налога</text>
+    <text x="70" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">на нереал. прибыль компаний</text>
+    <text x="70" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Готово</text>
+    <circle cx="290" cy="330" r="7" fill="#4ade80"/>
+    <text x="290" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">15 июл 2026</text>
+    <text x="290" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Финальное голосование Палаты</text>
+    <text x="290" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">Обсуждение в парламенте завершено</text>
+    <text x="290" y="352" fill="#4ade80" text-anchor="middle" font-size="12">Готово</text>
+    <circle cx="480" cy="330" r="7" fill="#f59e0b"/>
+    <text x="480" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2027</text>
+    <text x="480" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Закон о реклассификации</text>
+    <text x="480" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">FIEA вступает в силу</text>
+    <text x="480" y="352" fill="#f59e0b" text-anchor="middle" font-size="12">Запланировано</text>
+    <circle cx="640" cy="330" r="7" fill="#f87171"/>
+    <text x="640" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">Янв 2028</text>
+    <text x="640" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">Единая ставка 20,315%</text>
+    <text x="640" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">для физлиц вступает в силу</text>
+    <text x="640" y="352" fill="#f87171" text-anchor="middle" font-size="12">Не подтверждено</text>
+    <text x="20" y="384" fill="#52525b" font-size="12">Источники: CoinDesk, Crypto Briefing, CoinGecko, Finance Magnates (июль 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">日本加密貨幣法改革 — 關鍵數字與時間軸</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="158" height="80" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="99" y="86" fill="#fbbf24" text-anchor="middle" font-size="19" font-weight="800">55%→20.315%</text>
+    <text x="99" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">個人稅率（2028年起）</text>
+    <rect x="186" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="86" fill="#f87171" text-anchor="middle" font-size="16" font-weight="800">僅限特定資產</text>
+    <text x="265" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">適用範圍有限</text>
+    <rect x="352" y="50" width="158" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="86" fill="#38bdf8" text-anchor="middle" font-size="18" font-weight="800">最高5年徒刑</text>
+    <text x="431" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">內線交易罰則</text>
+    <rect x="518" y="50" width="162" height="80" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="599" y="86" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">3年→10年</text>
+    <text x="599" y="108" fill="#a1a1aa" text-anchor="middle" font-size="13">未註冊營運罰則加重</text>
+    <line x1="20" y1="148" x2="680" y2="148" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="174" fill="#e4e4e7" font-size="14" font-weight="700">施行時間軸</text>
+    <line x1="40" y1="330" x2="660" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="70" cy="330" r="7" fill="#4ade80"/>
+    <text x="70" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2026.4.1</text>
+    <text x="70" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">企業未實現利得</text>
+    <text x="70" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">免稅措施施行</text>
+    <text x="70" y="352" fill="#4ade80" text-anchor="middle" font-size="12">已完成</text>
+    <circle cx="290" cy="330" r="7" fill="#4ade80"/>
+    <text x="290" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2026.7.15</text>
+    <text x="290" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">參議院最終表決</text>
+    <text x="290" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">國會審議結束</text>
+    <text x="290" y="352" fill="#4ade80" text-anchor="middle" font-size="12">已完成</text>
+    <circle cx="480" cy="330" r="7" fill="#f59e0b"/>
+    <text x="480" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2027年</text>
+    <text x="480" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">FIEA重新分類法</text>
+    <text x="480" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">預定施行</text>
+    <text x="480" y="352" fill="#f59e0b" text-anchor="middle" font-size="12">預定</text>
+    <circle cx="640" cy="330" r="7" fill="#f87171"/>
+    <text x="640" y="200" fill="#e4e4e7" text-anchor="middle" font-size="13" font-weight="700">2028.1</text>
+    <text x="640" y="220" fill="#a1a1aa" text-anchor="middle" font-size="12">個人20.315%</text>
+    <text x="640" y="236" fill="#a1a1aa" text-anchor="middle" font-size="12">單一稅率施行</text>
+    <text x="640" y="352" fill="#f87171" text-anchor="middle" font-size="12">尚未確定</text>
+    <text x="20" y="384" fill="#52525b" font-size="12">資料來源：CoinDesk、Crypto Briefing、CoinGecko、Finance Magnates（2026年7月）</text>
   </g>
 </svg>
 </div>

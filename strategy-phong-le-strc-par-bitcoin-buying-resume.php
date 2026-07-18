@@ -54,6 +54,11 @@
 <p class="pt">A STRC é a ação preferencial com pagamento de dividendos que a Strategy emitiu entre 24 e 29 de julho de 2025, vendendo cerca de 28.011.111 ações para levantar cerca de US$ 2,5 bilhões, projetada para manter seu valor de face de US$ 100. Mas ao longo de 2026, a queda dos preços do bitcoin, uma decisão de recomprar notas conversíveis com desconto de 8% e a rotação de investidores para o produto concorrente da Strive — que anunciou um dividendo diário em seu equivalente de ação preferencial — combinaram-se para empurrar a STRC continuamente para baixo. Ela atingiu uma mínima histórica de US$ 71,25 em 26 de junho, cerca de 29% abaixo do valor de face, o que significa que o rendimento efetivo da ação disparou dada sua estrutura de pagar um dividendo em dinheiro anual ajustável de 11,5% sobre o valor de face de US$ 100, distribuído mensalmente.</p>
 <p class="tr">STRC, Strategy'nin 24-29 Temmuz 2025 arasında ihraç ettiği, yaklaşık 28.011.111 hisse satarak yaklaşık 2,5 milyar dolar toplayan ve 100 dolarlık nominal değerini koruyacak şekilde tasarlanmış temettü ödeyen imtiyazlı hissedir. Ancak 2026 boyunca düşen bitcoin fiyatları, dönüştürülebilir tahvilleri %8 iskontoyla geri satın alma kararı ve yatırımcıların, kendi imtiyazlı hisse eşdeğerine günlük temettü açıklayan rakip Strive'ın ürününe yönelmesi bir araya gelerek STRC'yi istikrarlı biçimde aşağı çekti. 26 Haziran'da nominal değerin yaklaşık %29 altında olan 71,25 dolarlık tarihi düşüğe geriledi; bu da 100 dolarlık nominal değer üzerinden aylık dağıtılan, ayarlanabilir yıllık %11,5'lik nakit temettü yapısı göz önüne alındığında hissenin efektif getirisinin fırladığı anlamına geliyor.</p>
 <p class="vi">STRC là cổ phiếu ưu đãi trả cổ tức mà Strategy phát hành từ 24 đến 29/7/2025, bán khoảng 28.011.111 cổ phiếu để huy động khoảng 2,5 tỷ USD, được thiết kế để giữ mệnh giá 100 USD. Nhưng trong suốt năm 2026, giá bitcoin giảm, quyết định mua lại trái phiếu chuyển đổi với mức chiết khấu 8%, và việc nhà đầu tư chuyển sang sản phẩm cạnh tranh của Strive — công ty công bố cổ tức hàng ngày cho sản phẩm tương đương — đã cùng nhau đẩy STRC giảm liên tục. Cổ phiếu này chạm đáy lịch sử 71,25 USD vào ngày 26/6, thấp hơn mệnh giá khoảng 29%, nghĩa là lợi suất thực tế của cổ phiếu tăng vọt do cấu trúc trả cổ tức tiền mặt hàng năm có thể điều chỉnh ở mức 11,5% trên mệnh giá 100 USD, chi trả hàng tháng.</p>
+<p class="id">STRC adalah saham preferen berdividen yang diterbitkan Strategy antara 24-29 Juli 2025, menjual sekitar 28.011.111 lembar saham untuk mengumpulkan sekitar $2,5 miliar, yang dirancang untuk mempertahankan nilai nominal $100. Namun sepanjang 2026, penurunan harga bitcoin, keputusan membeli kembali obligasi konversi dengan diskon 8%, dan perpindahan investor ke produk pesaing dari Strive — yang mengumumkan dividen harian untuk produk setara saham preferennya — bersama-sama mendorong STRC terus melemah. Saham ini menyentuh titik terendah sepanjang masa di $71,25 pada 26 Juni, sekitar 29% di bawah nilai nominal, yang berarti imbal hasil efektif saham melonjak mengingat strukturnya membayar dividen tunai tahunan yang dapat disesuaikan sebesar 11,5% dari nilai nominal $100, didistribusikan setiap bulan.</p>
+<p class="pl">STRC to wypłacająca dywidendę akcja uprzywilejowana wyemitowana przez Strategy między 24 a 29 lipca 2025 r., w ramach której sprzedano około 28 011 111 akcji, pozyskując około 2,5 mld USD, zaprojektowana tak, by utrzymać wartość nominalną 100 USD. Jednak w ciągu 2026 r. spadające ceny bitcoina, decyzja o odkupieniu obligacji zamiennych z 8-procentowym dyskontem oraz rotacja inwestorów w kierunku konkurencyjnego produktu Strive — który ogłosił codzienną dywidendę na swoim odpowiedniku akcji uprzywilejowanej — łącznie stale obniżały kurs STRC. 26 czerwca akcja osiągnęła rekordowe minimum 71,25 USD, czyli około 29% poniżej wartości nominalnej, co oznacza gwałtowny wzrost efektywnej rentowności, biorąc pod uwagę strukturę wypłaty regulowanej rocznej dywidendy gotówkowej w wysokości 11,5% wartości nominalnej 100 USD, wypłacanej miesięcznie.</p>
+<p class="it">STRC è l'azione privilegiata a dividendo emessa da Strategy tra il 24 e il 29 luglio 2025, con la vendita di circa 28.011.111 azioni per raccogliere circa 2,5 miliardi di dollari, progettata per mantenere il valore nominale di 100 dollari. Ma nel corso del 2026, il calo dei prezzi del bitcoin, la decisione di riacquistare obbligazioni convertibili con uno sconto dell'8% e la rotazione degli investitori verso il prodotto concorrente di Strive — che ha annunciato un dividendo giornaliero sul proprio equivalente di azione privilegiata — hanno spinto STRC costantemente al ribasso. Il titolo ha toccato un minimo storico di 71,25 dollari il 26 giugno, circa il 29% sotto la pari, il che significa che il rendimento effettivo dell'azione è schizzato verso l'alto data la sua struttura di pagamento di un dividendo annuo in contanti regolabile dell'11,5% sul valore nominale di 100 dollari, distribuito mensilmente.</p>
+<p class="ru">STRC — это дивидендная привилегированная акция, выпущенная Strategy с 24 по 29 июля 2025 года; было продано около 28 011 111 акций для привлечения примерно 2,5 млрд долларов, а сама бумага была спроектирована так, чтобы удерживать номинальную стоимость в 100 долларов. Однако в течение 2026 года падение цен на биткоин, решение выкупить конвертируемые облигации с дисконтом 8% и переток инвесторов к конкурирующему продукту компании Strive — объявившей ежедневную выплату дивидендов по своему аналогу привилегированной акции — совместно привели к устойчивому снижению STRC. 26 июня бумага достигла исторического минимума в 71,25 доллара, примерно на 29% ниже номинала, а значит эффективная доходность акции резко возросла, учитывая структуру выплат — регулируемый годовой денежный дивиденд в размере 11,5% от номинала в 100 долларов, выплачиваемый ежемесячно.</p>
+<p class="zh">STRC是策略公司於2025年7月24日至29日發行的股息型優先股,出售約2801萬1111股籌得約25億美元,其設計目的是維持100美元的面值。然而進入2026年後,比特幣價格下跌、以8%折價買回可轉換債券的決定,以及投資人轉向競爭對手Strive推出的類似產品(該公司宣布為其優先股等價產品支付每日股息),多重因素共同促使STRC股價持續下探。該股於6月26日跌至歷史新低71.25美元,較面值低約29%,這也意味著在該股按面值100美元支付可調整年息11.5%、每月配發現金股息的結構下,其實質殖利率急劇飆升。</p>
 
 <p class="ko">우선주가 액면가 아래에서 오래 거래된다는 사실은 단순한 주가 하락 이상의 의미를 갖는다. 스트래티지가 개척한 '시가발행(ATM)' 방식 자본 조달 플라이휠은, 우선주를 액면가 근처나 그 이상에서 새로 찍어 팔아 그 돈으로 비트코인을 사는 구조인데, 주가가 액면가 밑으로 떨어지면 신주 발행 자체가 배당 의무만 늘리고 실질적으로 손해를 보는 거래가 돼 이 플라이휠이 멈춰 선다. 이는 2022년 그레이스케일 비트코인 트러스트(GBTC)가 순자산가치(NAV) 대비 대폭 할인 거래되면서 신규 매수·환매 창구가 사실상 봉쇄됐던 사례를 떠올리게 한다 — 특정 자산을 노출시키기 위해 설계된 금융 도구(비히클) 자체가 시장에서 내재가치보다 싸게 거래되기 시작하면, 그 도구를 굴리던 자본조달 엔진이 함께 고장 난다는 교훈이다.</p>
 <p class="en">A preferred stock trading persistently below par carries weight beyond a simple price decline. Strategy's pioneering "at-the-market" capital-raising flywheel works by issuing new preferred shares near or above par and using the proceeds to buy bitcoin — but once the stock trades below par, issuing new shares only adds dividend obligations while realizing a loss on the sale, which stalls the flywheel entirely. That echoes 2022's Grayscale Bitcoin Trust (GBTC), which traded at a steep discount to its net asset value for years, effectively freezing new creation and redemption activity — a reminder that when a financial vehicle built to provide exposure to a specific asset starts trading below its own intrinsic value, the capital-raising engine powering that vehicle seizes up along with it.</p>
@@ -64,6 +69,11 @@
 <p class="pt">O fato de uma ação preferencial negociar persistentemente abaixo do valor de face tem um peso que vai além de uma simples queda de preço. O pioneiro mecanismo de captação de capital "a mercado" da Strategy funciona emitindo novas ações preferenciais perto ou acima do valor de face e usando os recursos para comprar bitcoin — mas assim que a ação passa a negociar abaixo do valor de face, emitir novas ações apenas adiciona obrigações de dividendos ao mesmo tempo em que realiza um prejuízo na venda, o que paralisa completamente o mecanismo. Isso remete ao Grayscale Bitcoin Trust (GBTC) de 2022, que negociou com um desconto acentuado em relação ao seu valor patrimonial líquido (NAV) por anos, congelando efetivamente a atividade de criação e resgate — um lembrete de que, quando um veículo financeiro projetado para dar exposição a um ativo específico começa a negociar abaixo de seu próprio valor intrínseco, o motor de captação de capital que o alimenta trava junto com ele.</p>
 <p class="tr">Bir imtiyazlı hissenin kalıcı olarak nominal değerin altında işlem görmesi, basit bir fiyat düşüşünün ötesinde bir ağırlık taşır. Strategy'nin öncülük ettiği "piyasa fiyatından" (ATM) sermaye toplama çarkı, yeni imtiyazlı hisseleri nominal değere yakın veya üzerinde ihraç edip elde edilen geliri bitcoin almak için kullanarak işler — ancak hisse nominal değerin altında işlem görmeye başladığında, yeni hisse ihraç etmek yalnızca temettü yükümlülüğünü artırırken satıştan zarar gerçekleştirmek anlamına gelir ve bu da çarkı tamamen durdurur. Bu durum, yıllarca net aktif değerine (NAV) göre büyük bir iskontoyla işlem görerek yeni oluşturma ve geri alım faaliyetini fiilen dondurmuş olan 2022'nin Grayscale Bitcoin Trust'ını (GBTC) hatırlatıyor — belirli bir varlığa maruziyet sağlamak üzere tasarlanmış bir finansal aracın kendisi öz değerinin altında işlem görmeye başladığında, o aracı çalıştıran sermaye toplama motorunun da onunla birlikte kilitlendiğinin bir hatırlatıcısı.</p>
 <p class="vi">Việc một cổ phiếu ưu đãi liên tục giao dịch dưới mệnh giá mang ý nghĩa vượt xa một đợt giảm giá đơn thuần. Bánh đà huy động vốn "theo giá thị trường" (ATM) tiên phong của Strategy hoạt động bằng cách phát hành cổ phiếu ưu đãi mới gần hoặc trên mệnh giá rồi dùng số tiền thu được để mua bitcoin — nhưng một khi cổ phiếu giao dịch dưới mệnh giá, việc phát hành cổ phiếu mới chỉ làm tăng nghĩa vụ cổ tức trong khi ghi nhận lỗ từ việc bán, khiến bánh đà hoàn toàn ngừng quay. Điều này gợi nhớ đến Grayscale Bitcoin Trust (GBTC) năm 2022, vốn giao dịch với mức chiết khấu sâu so với giá trị tài sản ròng (NAV) trong nhiều năm, khiến hoạt động tạo lập và mua lại gần như đóng băng — một lời nhắc nhở rằng khi một công cụ tài chính được thiết kế để cung cấp khả năng tiếp cận một tài sản cụ thể bắt đầu giao dịch dưới giá trị nội tại của chính nó, cỗ máy huy động vốn vận hành công cụ đó cũng bị kẹt cứng theo.</p>
+<p class="id">Saham preferen yang terus-menerus diperdagangkan di bawah nilai nominal membawa makna yang lebih dari sekadar penurunan harga biasa. Roda gila penggalangan modal "at-the-market" yang dipelopori Strategy bekerja dengan menerbitkan saham preferen baru mendekati atau di atas nilai nominal dan menggunakan hasilnya untuk membeli bitcoin — tetapi begitu saham diperdagangkan di bawah nilai nominal, penerbitan saham baru hanya menambah kewajiban dividen sambil merealisasikan kerugian dari penjualan, yang sepenuhnya menghentikan roda gila tersebut. Hal ini mengingatkan pada Grayscale Bitcoin Trust (GBTC) tahun 2022, yang diperdagangkan dengan diskon tajam terhadap nilai aset bersihnya (NAV) selama bertahun-tahun, secara efektif membekukan aktivitas penciptaan dan penebusan baru — sebuah pengingat bahwa ketika sebuah kendaraan keuangan yang dirancang untuk memberikan eksposur terhadap aset tertentu mulai diperdagangkan di bawah nilai intrinsiknya sendiri, mesin penggalangan modal yang menggerakkan kendaraan itu ikut macet bersamanya.</p>
+<p class="pl">Akcja uprzywilejowana notowana trwale poniżej wartości nominalnej ma znaczenie wykraczające poza zwykły spadek kursu. Pionierski mechanizm pozyskiwania kapitału Strategy typu „at-the-market" działa poprzez emisję nowych akcji uprzywilejowanych blisko lub powyżej wartości nominalnej i wykorzystanie uzyskanych środków do zakupu bitcoina — jednak gdy akcja notowana jest poniżej wartości nominalnej, emisja nowych akcji jedynie zwiększa zobowiązania dywidendowe, jednocześnie realizując stratę na sprzedaży, co całkowicie zatrzymuje ten mechanizm. Przypomina to sytuację Grayscale Bitcoin Trust (GBTC) z 2022 r., który przez lata był notowany z dużym dyskontem względem wartości aktywów netto (NAV), skutecznie zamrażając nową działalność w zakresie tworzenia i umarzania jednostek — przypomnienie, że gdy instrument finansowy zbudowany, by dawać ekspozycję na konkretny aktyw, zaczyna być notowany poniżej swojej wartości wewnętrznej, silnik pozyskiwania kapitału napędzający ten instrument zacina się razem z nim.</p>
+<p class="it">Un'azione privilegiata che tratta persistentemente sotto la pari ha un peso che va oltre un semplice calo di prezzo. Il pionieristico volano di raccolta di capitale "at-the-market" di Strategy funziona emettendo nuove azioni privilegiate vicino o sopra la pari e utilizzando i proventi per acquistare bitcoin — ma una volta che il titolo tratta sotto la pari, l'emissione di nuove azioni si limita ad aggiungere obblighi di dividendo realizzando al contempo una perdita sulla vendita, il che blocca completamente il volano. Questo richiama il Grayscale Bitcoin Trust (GBTC) del 2022, che per anni ha trattato con un forte sconto rispetto al proprio valore patrimoniale netto (NAV), congelando di fatto le nuove attività di creazione e rimborso — un promemoria del fatto che quando un veicolo finanziario costruito per fornire esposizione a un asset specifico inizia a trattare sotto il proprio valore intrinseco, il motore di raccolta di capitale che lo alimenta si blocca insieme a esso.</p>
+<p class="ru">Привилегированная акция, устойчиво торгующаяся ниже номинала, значит больше, чем простое снижение цены. Первопроходческий маховик привлечения капитала Strategy по модели «at-the-market» работает за счёт выпуска новых привилегированных акций около номинала или выше и использования вырученных средств для покупки биткоина — но как только акция начинает торговаться ниже номинала, выпуск новых акций лишь увеличивает дивидендные обязательства, одновременно фиксируя убыток от продажи, что полностью останавливает маховик. Это перекликается с историей Grayscale Bitcoin Trust (GBTC) в 2022 году, который годами торговался с существенным дисконтом к стоимости чистых активов (NAV), фактически заморозив новую эмиссию и погашение — напоминание о том, что когда финансовый инструмент, созданный для обеспечения доступа к конкретному активу, начинает торговаться ниже своей собственной внутренней стоимости, двигатель привлечения капитала, питающий этот инструмент, останавливается вместе с ним.</p>
+<p class="zh">優先股持續低於面值交易所帶來的意義,遠超過單純的股價下跌。策略公司開創的「隨行就市」(at-the-market)籌資飛輪,運作方式是以接近或高於面值發行新的優先股,並用募得資金購買比特幣──但一旦股價跌破面值,發行新股就只會增加股息負擔,同時在出售中實現虧損,使飛輪完全停轉。這讓人聯想到2022年的灰度比特幣信託(Grayscale Bitcoin Trust,GBTC),該信託多年來相對其資產淨值(NAV)大幅折價交易,實質上凍結了新的申購與贖回活動──這提醒我們,當一項為提供特定資產曝險而設計的金融工具本身開始低於其內在價值交易時,驅動該工具的籌資引擎也會隨之卡死。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -335,6 +345,156 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Số liệu là ước tính tổng hợp từ các báo cáo công khai của CoinDesk, Bloomberg, Barchart và các nguồn khác.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Garis Waktu Harga STRC &amp; Kondisi Pelanjutan</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="220" x2="650" y2="220" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#4ade80" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <text x="655" y="84" fill="#86efac" font-size="12" font-weight="700">Nilai nominal $100</text>
+    <circle cx="90" cy="80" r="5" fill="#4ade80"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="12" text-anchor="middle">Jul 2025 diterbitkan</text>
+    <text x="90" y="100" fill="#a1a1aa" font-size="11" text-anchor="middle">$100 · $2,5 miliar terkumpul</text>
+    <path d="M90,80 Q300,120 480,205" stroke="#f87171" stroke-width="2.5" fill="none"/>
+    <circle cx="480" cy="205" r="5" fill="#f87171"/>
+    <text x="480" y="185" fill="#fca5a5" font-size="12" font-weight="700" text-anchor="middle">26 Jun titik terendah</text>
+    <text x="480" y="235" fill="#a1a1aa" font-size="11" text-anchor="middle">$71,25 (-29% vs. nilai nominal)</text>
+    <path d="M480,205 Q560,165 630,150" stroke="#fbbf24" stroke-width="2.5" fill="none"/>
+    <circle cx="630" cy="150" r="5" fill="#fbbf24"/>
+    <text x="600" y="132" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">14 Jul wawancara</text>
+    <text x="600" y="170" fill="#a1a1aa" font-size="11" text-anchor="middle">~$86-88 (pulih)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="30" y="255" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="282" fill="#e4e4e7" font-size="13" font-weight="700">Kondisi pelanjutan pembelian bitcoin &amp; rencana modal</text>
+    <text x="50" y="308" fill="#a1a1aa" font-size="12">① STRC kembali ke nilai nominal $100</text>
+    <text x="50" y="330" fill="#a1a1aa" font-size="12">② Cadangan dolar menutupi 2-3 tahun dividen ($467 juta terkumpul lewat saham biasa → cadangan ~$3 miliar)</text>
+    <text x="50" y="352" fill="#a1a1aa" font-size="12">③ Target jangka panjang: kumpulkan $80 miliar+ gabungan utang/ekuitas → akumulasi 1 juta BTC</text>
+    <text x="50" y="374" fill="#71717a" font-size="11">Pembelian pribadi CEO Le: ~11.000 saham STRC (~$999rb) · Kepemilikan saat ini ~843.775 BTC (rata-rata ~$75.578)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Angka merupakan perkiraan yang disusun dari laporan publik CoinDesk, Bloomberg, Barchart, dan lainnya.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Oś czasu ceny STRC i warunki wznowienia</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="220" x2="650" y2="220" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#4ade80" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <text x="655" y="84" fill="#86efac" font-size="12" font-weight="700">Wartość nominalna $100</text>
+    <circle cx="90" cy="80" r="5" fill="#4ade80"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="12" text-anchor="middle">Lip 2025 emisja</text>
+    <text x="90" y="100" fill="#a1a1aa" font-size="11" text-anchor="middle">$100 · 2,5 mld $ pozyskane</text>
+    <path d="M90,80 Q300,120 480,205" stroke="#f87171" stroke-width="2.5" fill="none"/>
+    <circle cx="480" cy="205" r="5" fill="#f87171"/>
+    <text x="480" y="185" fill="#fca5a5" font-size="12" font-weight="700" text-anchor="middle">26 cze rekordowe minimum</text>
+    <text x="480" y="235" fill="#a1a1aa" font-size="11" text-anchor="middle">71,25 $ (-29% wobec nominału)</text>
+    <path d="M480,205 Q560,165 630,150" stroke="#fbbf24" stroke-width="2.5" fill="none"/>
+    <circle cx="630" cy="150" r="5" fill="#fbbf24"/>
+    <text x="600" y="132" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">14 lip wywiad</text>
+    <text x="600" y="170" fill="#a1a1aa" font-size="11" text-anchor="middle">~86-88 $ (odbudowa)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="30" y="255" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="282" fill="#e4e4e7" font-size="13" font-weight="700">Warunki wznowienia zakupów bitcoina i plan kapitałowy</text>
+    <text x="50" y="308" fill="#a1a1aa" font-size="12">① STRC wraca do wartości nominalnej $100</text>
+    <text x="50" y="330" fill="#a1a1aa" font-size="12">② Rezerwa dolarowa pokrywająca 2-3 lata dywidend (467 mln $ pozyskane z akcji zwykłych → rezerwa ~3 mld $)</text>
+    <text x="50" y="352" fill="#a1a1aa" font-size="12">③ Cel długoterminowy: pozyskać 80 mld $+ łącznie dług/kapitał → zgromadzić 1 milion BTC</text>
+    <text x="50" y="374" fill="#71717a" font-size="11">Osobisty zakup CEO Le: ~11 000 akcji STRC (~999 tys. $) · Obecne zasoby ~843 775 BTC (śr. ~75 578 $)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Dane są przybliżeniami zebranymi z publicznych doniesień CoinDesk, Bloomberga, Barchart i innych.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronologia del prezzo di STRC &amp; condizioni per la ripresa</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="220" x2="650" y2="220" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#4ade80" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <text x="655" y="84" fill="#86efac" font-size="12" font-weight="700">Pari $100</text>
+    <circle cx="90" cy="80" r="5" fill="#4ade80"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="12" text-anchor="middle">Lug 2025 emissione</text>
+    <text x="90" y="100" fill="#a1a1aa" font-size="11" text-anchor="middle">$100 · 2,5 mld $ raccolti</text>
+    <path d="M90,80 Q300,120 480,205" stroke="#f87171" stroke-width="2.5" fill="none"/>
+    <circle cx="480" cy="205" r="5" fill="#f87171"/>
+    <text x="480" y="185" fill="#fca5a5" font-size="12" font-weight="700" text-anchor="middle">26 giu minimo storico</text>
+    <text x="480" y="235" fill="#a1a1aa" font-size="11" text-anchor="middle">71,25 $ (-29% vs. pari)</text>
+    <path d="M480,205 Q560,165 630,150" stroke="#fbbf24" stroke-width="2.5" fill="none"/>
+    <circle cx="630" cy="150" r="5" fill="#fbbf24"/>
+    <text x="600" y="132" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">14 lug intervista</text>
+    <text x="600" y="170" fill="#a1a1aa" font-size="11" text-anchor="middle">~86-88 $ (in ripresa)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="30" y="255" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="282" fill="#e4e4e7" font-size="13" font-weight="700">Condizioni per la ripresa degli acquisti di bitcoin &amp; piano di capitale</text>
+    <text x="50" y="308" fill="#a1a1aa" font-size="12">① STRC torna al valore nominale di $100</text>
+    <text x="50" y="330" fill="#a1a1aa" font-size="12">② Riserva in dollari che copre 2-3 anni di dividendi (467 milioni $ raccolti con azioni ordinarie → riserva ~3 mld $)</text>
+    <text x="50" y="352" fill="#a1a1aa" font-size="12">③ Obiettivo a lungo termine: raccogliere oltre 80 mld $ tra debito/capitale → accumulare 1 milione di BTC</text>
+    <text x="50" y="374" fill="#71717a" font-size="11">Acquisto personale del CEO Le: ~11.000 azioni STRC (~999 mila $) · Disponibilità attuali ~843.775 BTC (media ~75.578 $)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Le cifre sono approssimazioni compilate da resoconti pubblici di CoinDesk, Bloomberg, Barchart e altri.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Хронология цены STRC и условия возобновления</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="220" x2="650" y2="220" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#4ade80" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <text x="655" y="84" fill="#86efac" font-size="12" font-weight="700">Номинал $100</text>
+    <circle cx="90" cy="80" r="5" fill="#4ade80"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="12" text-anchor="middle">Июл 2025 выпуск</text>
+    <text x="90" y="100" fill="#a1a1aa" font-size="11" text-anchor="middle">$100 · привлечено 2,5 млрд $</text>
+    <path d="M90,80 Q300,120 480,205" stroke="#f87171" stroke-width="2.5" fill="none"/>
+    <circle cx="480" cy="205" r="5" fill="#f87171"/>
+    <text x="480" y="185" fill="#fca5a5" font-size="12" font-weight="700" text-anchor="middle">26 июн исторический минимум</text>
+    <text x="480" y="235" fill="#a1a1aa" font-size="11" text-anchor="middle">71,25 $ (-29% к номиналу)</text>
+    <path d="M480,205 Q560,165 630,150" stroke="#fbbf24" stroke-width="2.5" fill="none"/>
+    <circle cx="630" cy="150" r="5" fill="#fbbf24"/>
+    <text x="600" y="132" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">14 июл интервью</text>
+    <text x="600" y="170" fill="#a1a1aa" font-size="11" text-anchor="middle">~86-88 $ (восстановление)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="30" y="255" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="282" fill="#e4e4e7" font-size="13" font-weight="700">Условия возобновления покупок биткоина и план по капиталу</text>
+    <text x="50" y="308" fill="#a1a1aa" font-size="12">① STRC возвращается к номиналу $100</text>
+    <text x="50" y="330" fill="#a1a1aa" font-size="12">② Долларовый резерв на 2-3 года дивидендов (467 млн $ привлечено через обыкновенные акции → резерв ~3 млрд $)</text>
+    <text x="50" y="352" fill="#a1a1aa" font-size="12">③ Долгосрочная цель: привлечь свыше 80 млрд $ долга и капитала → накопить 1 млн BTC</text>
+    <text x="50" y="374" fill="#71717a" font-size="11">Личная покупка CEO Ле: ~11 000 акций STRC (~999 тыс. $) · Текущие резервы ~843 775 BTC (сред. ~75 578 $)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Цифры являются приблизительными и составлены на основе публичных данных CoinDesk, Bloomberg, Barchart и других источников.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">STRC股價時間軸與重啟條件</text>
+  <g font-family="sans-serif">
+    <line x1="50" y1="220" x2="650" y2="220" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="50" y1="80" x2="650" y2="80" stroke="#4ade80" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <text x="655" y="84" fill="#86efac" font-size="12" font-weight="700">$100面值</text>
+    <circle cx="90" cy="80" r="5" fill="#4ade80"/>
+    <text x="90" y="60" fill="#e4e4e7" font-size="12" text-anchor="middle">2025年7月發行</text>
+    <text x="90" y="100" fill="#a1a1aa" font-size="11" text-anchor="middle">$100・募得$25億</text>
+    <path d="M90,80 Q300,120 480,205" stroke="#f87171" stroke-width="2.5" fill="none"/>
+    <circle cx="480" cy="205" r="5" fill="#f87171"/>
+    <text x="480" y="185" fill="#fca5a5" font-size="12" font-weight="700" text-anchor="middle">6/26歷史新低</text>
+    <text x="480" y="235" fill="#a1a1aa" font-size="11" text-anchor="middle">$71.25(較面值-29%)</text>
+    <path d="M480,205 Q560,165 630,150" stroke="#fbbf24" stroke-width="2.5" fill="none"/>
+    <circle cx="630" cy="150" r="5" fill="#fbbf24"/>
+    <text x="600" y="132" fill="#fde68a" font-size="12" font-weight="700" text-anchor="middle">7/14採訪當時</text>
+    <text x="600" y="170" fill="#a1a1aa" font-size="11" text-anchor="middle">~$86-88(回升中)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="30" y="255" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="282" fill="#e4e4e7" font-size="13" font-weight="700">比特幣重啟購買條件與資本計畫</text>
+    <text x="50" y="308" fill="#a1a1aa" font-size="12">①STRC股價回到$100面值</text>
+    <text x="50" y="330" fill="#a1a1aa" font-size="12">②儲備足以支應2至3年股息(出售普通股募得$4.67億→儲備約$30億)</text>
+    <text x="50" y="352" fill="#a1a1aa" font-size="12">③長期目標:合計籌集債務加股權逾$800億→累積100萬枚比特幣</text>
+    <text x="50" y="374" fill="#71717a" font-size="11">執行長勒個人購買:STRC約1萬1000股(約$99.9萬)・目前持有約843,775枚BTC(均價約$75,578)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">數據為根據CoinDesk、彭博、Barchart等公開報導彙整的概略值。</p>
+</div>
 
 <h2 class="ko">확신의 신호인가, 궁여지책인가 — CEO 개인 매수를 읽는 법</h2>
 <h2 class="en">Confidence Signal or Necessity? Reading the CEO's Personal Buy</h2>
@@ -345,6 +505,11 @@
 <h2 class="pt">Sinal de confiança ou necessidade? Como interpretar a compra pessoal do CEO</h2>
 <h2 class="tr">Güven Sinyali mi, Zorunluluk mu? CEO'nun Kişisel Alımını Okumak</h2>
 <h2 class="vi">Tín Hiệu Tin Tưởng Hay Sự Cần Thiết? Cách Đọc Vụ Mua Cá Nhân Của CEO</h2>
+<h2 class="id">Sinyal Keyakinan atau Keharusan? Membaca Pembelian Pribadi CEO</h2>
+<h2 class="pl">Sygnał zaufania czy konieczność? Jak odczytać osobisty zakup CEO</h2>
+<h2 class="it">Segnale di fiducia o necessità? Come leggere l'acquisto personale del CEO</h2>
+<h2 class="ru">Сигнал уверенности или необходимость? Как читать личную покупку CEO</h2>
+<h2 class="zh">信心訊號,還是不得已而為之?解讀執行長的個人購買</h2>
 
 <p class="ko">레의 99만8756달러 규모 개인 매수는 규모만 보면 크지 않지만, CEO가 회사 배당 상품이 바닥을 쳤다고 판단하는 시점에 사재를 투입했다는 신호 효과를 노린 것으로 읽힌다. 이는 마이클 세일러(Michael Saylor)가 과거 약세장 국면마다 "이보다 더 확신한 적이 없다"는 취지의 발언과 함께 회사의 비트코인 베팅을 재확인해온 패턴과 궤를 같이한다. 다만 세일러의 과거 발언들이 대개 비트코인 자체에 대한 것이었다면, 이번 레의 매수는 비트코인이 아니라 회사의 자금조달 도구인 우선주에 대한 베팅이라는 점에서 미묘하게 다르다 — 이는 지금 스트래티지가 처한 문제의 핵심이 비트코인 가격이 아니라 자사 자본조달 구조 자체에 있음을 방증한다.</p>
 <p class="en">Le's $998,756 personal purchase isn't large in dollar terms, but its intended signaling effect is clear: a CEO putting his own money into the company's dividend product at the moment he judges it to have bottomed. That fits a pattern Michael Saylor established through past bear-market stretches, repeatedly reaffirming the company's bitcoin bet with statements along the lines of "I've never been more confident." Yet there's a subtle distinction: where Saylor's past remarks were typically about bitcoin itself, Le's purchase is a bet not on bitcoin but on the company's own financing instrument — underscoring that Strategy's current problem isn't really bitcoin's price, but the capital-raising machinery built around it.</p>

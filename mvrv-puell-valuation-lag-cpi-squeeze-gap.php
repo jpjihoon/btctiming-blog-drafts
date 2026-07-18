@@ -612,6 +612,281 @@
   <text x="20" y="808" fill="#71717a" font-family="sans-serif" font-size="13">* Các thang đo là cách bố trí mang tính khái niệm, không phải thước đo thống kê chính xác.</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Metrik Valuasi vs. Rebound Jangka Pendek — Kesenjangan Kecepatan Reaksi</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">MVRV Z-Score & Puell Multiple vs. Harga (sore hari 16 Juli, KST)</text>
+  <rect x="20" y="66" width="660" height="112" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="13">Harga saat ini: $64.700-$65.200</text>
+  <text x="40" y="114" fill="#34d399" font-family="sans-serif" font-size="18" font-weight="800">+12% dari titik terendah 30 Juni di $57.748</text>
+  <text x="40" y="136" fill="#71717a" font-family="sans-serif" font-size="13">Sekitar -49% dari harga tertinggi sepanjang masa $126.198</text>
+  <text x="40" y="158" fill="#71717a" font-family="sans-serif" font-size="13">Resistensi: berebut ~$65.600 (rata-rata bergerak 50 bulan)</text>
+  <text x="20" y="200" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">MVRV Z-Score (berbasis Glassnode)</text>
+  <rect x="20" y="212" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="236" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="700">MVRV Z-Score: 0,37 (per 13 Juli)</text>
+  <text x="40" y="260" fill="#a1a1aa" font-family="sans-serif" font-size="13">Rasio MVRV mentah 1,19 · harga realisasi agregat ~$52.493</text>
+  <text x="40" y="282" fill="#71717a" font-family="sans-serif" font-size="13">Jauh dari ambang overheating (Z&gt;7) — pita undervalued-ke-netral</text>
+  <text x="20" y="320" fill="#71717a" font-family="sans-serif" font-size="13">Skala: 0 (undervalued) hingga 8 (overheating; 7+ menandai puncak siklus sebelumnya)</text>
+  <rect x="20" y="330" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="330" width="30.5" height="26" rx="6" fill="#60a5fa"/>
+  <line x1="185.0" y1="324" x2="185.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="350.0" y1="324" x2="350.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="597.5" y1="324" x2="597.5" y2="362" stroke="#f87171" stroke-width="1.5"/>
+  <text x="185.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">2</text>
+  <text x="350.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">4</text>
+  <text x="597.5" y="378" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">7 (puncak)</text>
+  <circle cx="50.5" cy="343" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="50.5" y="404" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="800">Sekarang 0,37</text>
+  <line x1="20" y1="420" x2="680" y2="420" stroke="#27272a" stroke-width="1"/>
+  <text x="20" y="444" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Puell Multiple (Profitabilitas Penambang)</text>
+  <rect x="20" y="456" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="480" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="700">Puell Multiple: ~0,75 (per 22 Juni)</text>
+  <text x="40" y="504" fill="#a1a1aa" font-family="sans-serif" font-size="13">Belakangan berkisar 0,6-1,0 — fase normalisasi pasca-halving</text>
+  <text x="40" y="526" fill="#71717a" font-family="sans-serif" font-size="13">Di bawah 1,0 (titik impas) · di atas 0,5 (kapitulasi) — belum pulih</text>
+  <text x="20" y="564" fill="#71717a" font-family="sans-serif" font-size="13">Skala: 0 (kapitulasi) hingga 4 (overheating)</text>
+  <rect x="20" y="574" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="574" width="110.0" height="26" rx="6" fill="#fbbf24"/>
+  <line x1="93.3" y1="568" x2="93.3" y2="606" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="166.7" y1="568" x2="166.7" y2="606" stroke="#52525b" stroke-width="1"/>
+  <text x="93.3" y="622" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">0,5 (kapitulasi)</text>
+  <text x="166.7" y="622" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1,0 (titik impas)</text>
+  <circle cx="130.0" cy="587" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="130.0" y="648" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="800">Sekarang 0,75</text>
+  <line x1="20" y1="664" x2="680" y2="664" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="688" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Kesimpulan</text>
+  <rect x="20" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Harga</text>
+  <text x="35" y="750" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Melonjak tajam (didorong derivatif)</text>
+  <rect x="240" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Valuasi</text>
+  <text x="255" y="750" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="800">Datar (masih undervalued-ke-netral)</text>
+  <rect x="460" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Pemeriksaan Berikutnya</text>
+  <text x="475" y="750" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Apakah penilaian ulang muncul</text>
+  <text x="20" y="790" fill="#71717a" font-family="sans-serif" font-size="13">* Angka adalah perkiraan menurut masing-masing penyedia data dan mungkin berbeda dari nilai sebenarnya.</text>
+  <text x="20" y="808" fill="#71717a" font-family="sans-serif" font-size="13">* Skala adalah penempatan konseptual, bukan skala statistik yang presisi.</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Wskaźniki Wyceny a Krótkoterminowe Odbicie — Luka w Szybkości Reakcji</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">MVRV Z-Score i Puell Multiple a Cena (popołudnie 16 lipca, czasu koreańskiego)</text>
+  <rect x="20" y="66" width="660" height="112" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="13">Obecna cena: 64 700-65 200 USD</text>
+  <text x="40" y="114" fill="#34d399" font-family="sans-serif" font-size="18" font-weight="800">+12% względem dołka z 30 czerwca wynoszącego 57 748 USD</text>
+  <text x="40" y="136" fill="#71717a" font-family="sans-serif" font-size="13">Około -49% względem szczytu wszech czasów 126 198 USD</text>
+  <text x="40" y="158" fill="#71717a" font-family="sans-serif" font-size="13">Opór: walka o ~65 600 USD (50-miesięczna średnia krocząca)</text>
+  <text x="20" y="200" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">MVRV Z-Score (na podstawie Glassnode)</text>
+  <rect x="20" y="212" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="236" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="700">MVRV Z-Score: 0,37 (na 13 lipca)</text>
+  <text x="40" y="260" fill="#a1a1aa" font-family="sans-serif" font-size="13">Surowy wskaźnik MVRV 1,19 · zagregowana cena zrealizowana ~52 493 USD</text>
+  <text x="40" y="282" fill="#71717a" font-family="sans-serif" font-size="13">Daleko od progu przegrzania (Z&gt;7) — pasmo niedowartościowane-do-neutralnego</text>
+  <text x="20" y="320" fill="#71717a" font-family="sans-serif" font-size="13">Skala: 0 (niedowartościowane) do 8 (przegrzanie; 7+ oznaczało poprzednie szczyty cykli)</text>
+  <rect x="20" y="330" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="330" width="30.5" height="26" rx="6" fill="#60a5fa"/>
+  <line x1="185.0" y1="324" x2="185.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="350.0" y1="324" x2="350.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="597.5" y1="324" x2="597.5" y2="362" stroke="#f87171" stroke-width="1.5"/>
+  <text x="185.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">2</text>
+  <text x="350.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">4</text>
+  <text x="597.5" y="378" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">7 (szczyt)</text>
+  <circle cx="50.5" cy="343" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="50.5" y="404" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="800">Obecnie 0,37</text>
+  <line x1="20" y1="420" x2="680" y2="420" stroke="#27272a" stroke-width="1"/>
+  <text x="20" y="444" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Puell Multiple (Rentowność Górników)</text>
+  <rect x="20" y="456" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="480" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="700">Puell Multiple: ~0,75 (na 22 czerwca)</text>
+  <text x="40" y="504" fill="#a1a1aa" font-family="sans-serif" font-size="13">Ostatnio w przedziale 0,6-1,0 — faza normalizacji po halvingu</text>
+  <text x="40" y="526" fill="#71717a" font-family="sans-serif" font-size="13">Poniżej 1,0 (próg rentowności) · powyżej 0,5 (kapitulacja) — jeszcze nieodrobione</text>
+  <text x="20" y="564" fill="#71717a" font-family="sans-serif" font-size="13">Skala: 0 (kapitulacja) do 4 (przegrzanie)</text>
+  <rect x="20" y="574" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="574" width="110.0" height="26" rx="6" fill="#fbbf24"/>
+  <line x1="93.3" y1="568" x2="93.3" y2="606" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="166.7" y1="568" x2="166.7" y2="606" stroke="#52525b" stroke-width="1"/>
+  <text x="93.3" y="622" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">0,5 (kapitulacja)</text>
+  <text x="166.7" y="622" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1,0 (próg rentowności)</text>
+  <circle cx="130.0" cy="587" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="130.0" y="648" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="800">Obecnie 0,75</text>
+  <line x1="20" y1="664" x2="680" y2="664" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="688" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Werdykt</text>
+  <rect x="20" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Cena</text>
+  <text x="35" y="750" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Gwałtowny wzrost (napędzany przez derywaty)</text>
+  <rect x="240" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Wycena</text>
+  <text x="255" y="750" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="800">Płaska (wciąż niedowartościowana-do-neutralnej)</text>
+  <rect x="460" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kolejna Kontrola</text>
+  <text x="475" y="750" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Czy pojawi się przewartościowanie</text>
+  <text x="20" y="790" fill="#71717a" font-family="sans-serif" font-size="13">* Liczby są przybliżone według poszczególnych dostawców danych i mogą różnić się od wartości rzeczywistych.</text>
+  <text x="20" y="808" fill="#71717a" font-family="sans-serif" font-size="13">* Skale są umiejscowieniem koncepcyjnym, a nie precyzyjną skalą statystyczną.</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Metriche di Valutazione vs. il Rimbalzo a Breve Termine — Un Divario di Velocità di Reazione</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">MVRV Z-Score e Puell Multiple vs. Prezzo (pomeriggio del 16 luglio, ora coreana)</text>
+  <rect x="20" y="66" width="660" height="112" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="13">Prezzo attuale: $64.700-$65.200</text>
+  <text x="40" y="114" fill="#34d399" font-family="sans-serif" font-size="18" font-weight="800">+12% rispetto al minimo del 30 giugno di $57.748</text>
+  <text x="40" y="136" fill="#71717a" font-family="sans-serif" font-size="13">Circa -49% rispetto al massimo storico di $126.198</text>
+  <text x="40" y="158" fill="#71717a" font-family="sans-serif" font-size="13">Resistenza: in gioco ~$65.600 (media mobile a 50 mesi)</text>
+  <text x="20" y="200" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">MVRV Z-Score (basato su Glassnode)</text>
+  <rect x="20" y="212" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="236" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="700">MVRV Z-Score: 0,37 (al 13 luglio)</text>
+  <text x="40" y="260" fill="#a1a1aa" font-family="sans-serif" font-size="13">Rapporto MVRV grezzo 1,19 · prezzo realizzato aggregato ~$52.493</text>
+  <text x="40" y="282" fill="#71717a" font-family="sans-serif" font-size="13">Lontano dalla soglia di surriscaldamento (Z&gt;7) — fascia sottovalutato-neutrale</text>
+  <text x="20" y="320" fill="#71717a" font-family="sans-serif" font-size="13">Scala: 0 (sottovalutato) a 8 (surriscaldato; 7+ ha segnato i massimi di ciclo passati)</text>
+  <rect x="20" y="330" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="330" width="30.5" height="26" rx="6" fill="#60a5fa"/>
+  <line x1="185.0" y1="324" x2="185.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="350.0" y1="324" x2="350.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="597.5" y1="324" x2="597.5" y2="362" stroke="#f87171" stroke-width="1.5"/>
+  <text x="185.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">2</text>
+  <text x="350.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">4</text>
+  <text x="597.5" y="378" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">7 (massimo)</text>
+  <circle cx="50.5" cy="343" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="50.5" y="404" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="800">Ora 0,37</text>
+  <line x1="20" y1="420" x2="680" y2="420" stroke="#27272a" stroke-width="1"/>
+  <text x="20" y="444" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Puell Multiple (Redditività dei Minatori)</text>
+  <rect x="20" y="456" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="480" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="700">Puell Multiple: ~0,75 (al 22 giugno)</text>
+  <text x="40" y="504" fill="#a1a1aa" font-family="sans-serif" font-size="13">Recentemente nell'intervallo 0,6-1,0 — fase di normalizzazione post-halving</text>
+  <text x="40" y="526" fill="#71717a" font-family="sans-serif" font-size="13">Sotto 1,0 (pareggio) · sopra 0,5 (capitolazione) — non ancora ripreso</text>
+  <text x="20" y="564" fill="#71717a" font-family="sans-serif" font-size="13">Scala: 0 (capitolazione) a 4 (surriscaldato)</text>
+  <rect x="20" y="574" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="574" width="110.0" height="26" rx="6" fill="#fbbf24"/>
+  <line x1="93.3" y1="568" x2="93.3" y2="606" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="166.7" y1="568" x2="166.7" y2="606" stroke="#52525b" stroke-width="1"/>
+  <text x="93.3" y="622" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">0,5 (capitolazione)</text>
+  <text x="166.7" y="622" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1,0 (pareggio)</text>
+  <circle cx="130.0" cy="587" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="130.0" y="648" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="800">Ora 0,75</text>
+  <line x1="20" y1="664" x2="680" y2="664" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="688" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Verdetto</text>
+  <rect x="20" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Prezzo</text>
+  <text x="35" y="750" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">In forte rialzo (guidato dai derivati)</text>
+  <rect x="240" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Valutazione</text>
+  <text x="255" y="750" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="800">Piatta (ancora sottovalutato-neutrale)</text>
+  <rect x="460" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Prossimo Controllo</text>
+  <text x="475" y="750" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Se emerge una rivalutazione</text>
+  <text x="20" y="790" fill="#71717a" font-family="sans-serif" font-size="13">* Le cifre sono approssimazioni secondo ciascun fornitore di dati e potrebbero differire dai valori effettivi.</text>
+  <text x="20" y="808" fill="#71717a" font-family="sans-serif" font-size="13">* Le scale sono posizionamenti concettuali, non una scala statistica precisa.</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Индикаторы Оценки vs Краткосрочный Отскок — Разрыв в Скорости Реакции</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">MVRV Z-Score и Puell Multiple vs Цена (вторая половина дня 16 июля, KST)</text>
+  <rect x="20" y="66" width="660" height="112" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="13">Текущая цена: $64 700-$65 200</text>
+  <text x="40" y="114" fill="#34d399" font-family="sans-serif" font-size="18" font-weight="800">+12% к минимуму 30 июня $57 748</text>
+  <text x="40" y="136" fill="#71717a" font-family="sans-serif" font-size="13">Около -49% к историческому максимуму $126 198</text>
+  <text x="40" y="158" fill="#71717a" font-family="sans-serif" font-size="13">Сопротивление: борьба у ~$65 600 (50-месячная скользящая средняя)</text>
+  <text x="20" y="200" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">MVRV Z-Score (на основе Glassnode)</text>
+  <rect x="20" y="212" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="236" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="700">MVRV Z-Score: 0,37 (на 13 июля)</text>
+  <text x="40" y="260" fill="#a1a1aa" font-family="sans-serif" font-size="13">Исходный коэффициент MVRV 1,19 · совокупная реализованная цена ~$52 493</text>
+  <text x="40" y="282" fill="#71717a" font-family="sans-serif" font-size="13">Далеко от порога перегрева (Z&gt;7) — полоса от недооценки до нейтральности</text>
+  <text x="20" y="320" fill="#71717a" font-family="sans-serif" font-size="13">Шкала: от 0 (недооценка) до 8 (перегрев; 7+ отмечал прошлые пики циклов)</text>
+  <rect x="20" y="330" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="330" width="30.5" height="26" rx="6" fill="#60a5fa"/>
+  <line x1="185.0" y1="324" x2="185.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="350.0" y1="324" x2="350.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="597.5" y1="324" x2="597.5" y2="362" stroke="#f87171" stroke-width="1.5"/>
+  <text x="185.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">2</text>
+  <text x="350.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">4</text>
+  <text x="597.5" y="378" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">7 (пик)</text>
+  <circle cx="50.5" cy="343" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="50.5" y="404" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="800">Сейчас 0,37</text>
+  <line x1="20" y1="420" x2="680" y2="420" stroke="#27272a" stroke-width="1"/>
+  <text x="20" y="444" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Puell Multiple (Доходность Майнеров)</text>
+  <rect x="20" y="456" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="480" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="700">Puell Multiple: ~0,75 (на 22 июня)</text>
+  <text x="40" y="504" fill="#a1a1aa" font-family="sans-serif" font-size="13">В последнее время в диапазоне 0,6-1,0 — фаза постхалвинговой нормализации</text>
+  <text x="40" y="526" fill="#71717a" font-family="sans-serif" font-size="13">Ниже 1,0 (безубыточность) · выше 0,5 (капитуляция) — ещё не восстановился</text>
+  <text x="20" y="564" fill="#71717a" font-family="sans-serif" font-size="13">Шкала: от 0 (капитуляция) до 4 (перегрев)</text>
+  <rect x="20" y="574" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="574" width="110.0" height="26" rx="6" fill="#fbbf24"/>
+  <line x1="93.3" y1="568" x2="93.3" y2="606" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="166.7" y1="568" x2="166.7" y2="606" stroke="#52525b" stroke-width="1"/>
+  <text x="93.3" y="622" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">0,5 (капитуляция)</text>
+  <text x="166.7" y="622" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1,0 (безубыточность)</text>
+  <circle cx="130.0" cy="587" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="130.0" y="648" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="800">Сейчас 0,75</text>
+  <line x1="20" y1="664" x2="680" y2="664" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="688" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Вердикт</text>
+  <rect x="20" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Цена</text>
+  <text x="35" y="750" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">Резкий рост (обусловлен деривативами)</text>
+  <rect x="240" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Оценка</text>
+  <text x="255" y="750" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="800">Без изменений (всё ещё недооценка-нейтральность)</text>
+  <rect x="460" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">Следующая Проверка</text>
+  <text x="475" y="750" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">Появится ли переоценка</text>
+  <text x="20" y="790" fill="#71717a" font-family="sans-serif" font-size="13">* Цифры являются приблизительными по данным каждого поставщика и могут отличаться от фактических значений.</text>
+  <text x="20" y="808" fill="#71717a" font-family="sans-serif" font-size="13">* Шкалы являются концептуальным размещением, а не точной статистической шкалой.</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">估值指標 vs 短期反彈——反應速度落差</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">MVRV Z分數與Puell倍數 vs 價格(7月16日下午,韓國時間)</text>
+  <rect x="20" y="66" width="660" height="112" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="13">現價:64,700~65,200美元</text>
+  <text x="40" y="114" fill="#34d399" font-family="sans-serif" font-size="18" font-weight="800">+12%(較6月30日低點57,748美元)</text>
+  <text x="40" y="136" fill="#71717a" font-family="sans-serif" font-size="13">較歷史高點126,198美元約-49%</text>
+  <text x="40" y="158" fill="#71717a" font-family="sans-serif" font-size="13">阻力:於~65,600美元(50個月移動平均線)附近拉鋸</text>
+  <text x="20" y="200" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">MVRV Z分數(基於Glassnode)</text>
+  <rect x="20" y="212" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="236" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="700">MVRV Z分數:0.37(截至7月13日)</text>
+  <text x="40" y="260" fill="#a1a1aa" font-family="sans-serif" font-size="13">原始MVRV比率1.19‧整體已實現價格約52,493美元</text>
+  <text x="40" y="282" fill="#71717a" font-family="sans-serif" font-size="13">遠離過熱門檻(Z&gt;7)——低估至中性區間</text>
+  <text x="20" y="320" fill="#71717a" font-family="sans-serif" font-size="13">量表:0(低估)至8(過熱;7以上曾標誌過去週期高點)</text>
+  <rect x="20" y="330" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="330" width="30.5" height="26" rx="6" fill="#60a5fa"/>
+  <line x1="185.0" y1="324" x2="185.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="350.0" y1="324" x2="350.0" y2="362" stroke="#52525b" stroke-width="1"/>
+  <line x1="597.5" y1="324" x2="597.5" y2="362" stroke="#f87171" stroke-width="1.5"/>
+  <text x="185.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">2</text>
+  <text x="350.0" y="378" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">4</text>
+  <text x="597.5" y="378" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">7(高點)</text>
+  <circle cx="50.5" cy="343" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="50.5" y="404" text-anchor="middle" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="800">現在0.37</text>
+  <line x1="20" y1="420" x2="680" y2="420" stroke="#27272a" stroke-width="1"/>
+  <text x="20" y="444" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Puell倍數(礦工獲利能力)</text>
+  <rect x="20" y="456" width="660" height="86" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="480" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="700">Puell倍數:約0.75(截至6月22日)</text>
+  <text x="40" y="504" fill="#a1a1aa" font-family="sans-serif" font-size="13">近期於0.6~1.0區間波動——減半後正常化階段</text>
+  <text x="40" y="526" fill="#71717a" font-family="sans-serif" font-size="13">低於1.0(損益兩平)‧高於0.5(投降)——尚未回升</text>
+  <text x="20" y="564" fill="#71717a" font-family="sans-serif" font-size="13">量表:0(投降)至4(過熱)</text>
+  <rect x="20" y="574" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="574" width="110.0" height="26" rx="6" fill="#fbbf24"/>
+  <line x1="93.3" y1="568" x2="93.3" y2="606" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="166.7" y1="568" x2="166.7" y2="606" stroke="#52525b" stroke-width="1"/>
+  <text x="93.3" y="622" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="12">0.5(投降)</text>
+  <text x="166.7" y="622" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">1.0(損益兩平)</text>
+  <circle cx="130.0" cy="587" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="130.0" y="648" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="800">現在0.75</text>
+  <line x1="20" y1="664" x2="680" y2="664" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="688" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">判斷</text>
+  <rect x="20" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">價格</text>
+  <text x="35" y="750" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="800">急漲(由衍生品驅動)</text>
+  <rect x="240" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">估值</text>
+  <text x="255" y="750" fill="#60a5fa" font-family="sans-serif" font-size="15" font-weight="800">持平(仍為低估至中性)</text>
+  <rect x="460" y="700" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="722" fill="#a1a1aa" font-family="sans-serif" font-size="13">下一步觀察</text>
+  <text x="475" y="750" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="800">是否出現重新評價</text>
+  <text x="20" y="790" fill="#71717a" font-family="sans-serif" font-size="13">*數值為各資料來源之近似值,可能與實際數值有所出入。</text>
+  <text x="20" y="808" fill="#71717a" font-family="sans-serif" font-size="13">*量表為概念性配置,並非精確的統計量尺。</text>
+</svg>
+</div>
 
 <h2 class="ko">가격은 시간 단위로 튀는데, 밸류에이션 지표는 분기 단위로 움직인다</h2>
 <h2 class="en">Price Snaps in Hours; Valuation Gauges Move in Quarters</h2>
@@ -622,6 +897,11 @@
 <h2 class="pt">O Preço Dispara em Horas; os Indicadores de Valorização se Movem em Trimestres</h2>
 <h2 class="tr">Fiyat Saatler İçinde Sıçrıyor; Değerleme Göstergeleri Çeyrekler İçinde Hareket Ediyor</h2>
 <h2 class="vi">Giá Nhảy Vọt Trong Vài Giờ; Các Chỉ Số Định Giá Di Chuyển Theo Quý</h2>
+<h2 class="id">Harga Bergerak dalam Hitungan Jam; Indikator Valuasi Bergerak dalam Hitungan Kuartal</h2>
+<h2 class="pl">Cena Zmienia Się w Ciągu Godzin; Wskaźniki Wyceny Poruszają Się w Kwartałach</h2>
+<h2 class="it">Il Prezzo Scatta in Poche Ore; gli Indicatori di Valutazione si Muovono in Trimestri</h2>
+<h2 class="ru">Цена Меняется за Часы; Индикаторы Оценки Двигаются Кварталами</h2>
+<h2 class="zh">價格以小時為單位跳動;估值指標則以季度為單位變動</h2>
 
 <p class="ko">이 사이트가 전날 점검한 <a href="/blog/funding-flip-oi-rebuild-etf-outflow-gap">펀딩비-OI 반응</a>에서 확인했듯, 파생상품 지표는 청산 이후 몇 시간 만에 방향을 바꿀 수 있다. 반면 MVRV Z-스코어와 퍼엘 배수는 각각 실현시가총액의 누적 평균, 365일 발행가치 이동평균이라는 분모를 쓰기 때문에 구조적으로 몇 주에서 몇 달 단위로만 유의미하게 움직인다. 이번 CPI발 숏스퀴즈처럼 이틀 만에 4%, 2주 만에 12% 뛰는 가격 변동은 이 두 지표에는 사실상 노이즈에 가깝다.</p>
 <p class="en">As this site's check on the <a href="/en/blog/funding-flip-oi-rebuild-etf-outflow-gap">funding-OI reaction</a> the day before confirmed, derivatives indicators can flip direction within hours of a liquidation event. MVRV Z-Score and Puell Multiple, by contrast, are structurally built on slow-moving denominators — cumulative realized cap and a 365-day issuance average — so they only move meaningfully over weeks to months. A move like this CPI-driven short squeeze — up 4% in two days, 12% in two weeks — registers as close to noise for these two gauges.</p>
@@ -632,6 +912,11 @@
 <p class="pt">Como confirmou a análise deste site sobre a <a href="/pt/blog/funding-flip-oi-rebuild-etf-outflow-gap">reação de financiamento-OI</a> no dia anterior, os indicadores de derivativos podem inverter de direção em questão de horas após um evento de liquidação. O MVRV Z-Score e o Puell Multiple, em contraste, são estruturalmente construídos sobre denominadores de movimento lento — capitalização realizada acumulada e uma média de emissão de 365 dias — de modo que só se movem de forma significativa ao longo de semanas a meses. Um movimento como esse short squeeze impulsionado pelo CPI — alta de 4% em dois dias, 12% em duas semanas — se registra quase como ruído para esses dois indicadores.</p>
 <p class="tr">Bu sitenin bir önceki gün incelediği <a href="/tr/blog/funding-flip-oi-rebuild-etf-outflow-gap">fonlama-OI tepkisi</a> de doğruladığı gibi, türev göstergeleri bir tasfiye olayından saatler sonra yön değiştirebilir. MVRV Z-Skoru ve Puell Çarpanı ise yapısal olarak yavaş hareket eden paydalar — kümülatif gerçekleşen piyasa değeri ve 365 günlük üretim ortalaması — üzerine kurulu olduğundan, ancak haftalar ila aylar içinde anlamlı şekilde hareket eder. Bu CPI kaynaklı short squeeze gibi bir hareket — iki günde %4, iki haftada %12 yükseliş — bu iki gösterge için neredeyse gürültü olarak kaydediliyor.</p>
 <p class="vi">Như bài kiểm tra <a href="/vi/blog/funding-flip-oi-rebuild-etf-outflow-gap">phản ứng funding-OI</a> của trang này hôm trước đã xác nhận, các chỉ số phái sinh có thể đảo chiều chỉ trong vài giờ sau một sự kiện thanh lý. Ngược lại, MVRV Z-Score và Puell Multiple được xây dựng về mặt cấu trúc trên các mẫu số di chuyển chậm — vốn hóa thực hiện tích lũy và mức trung bình phát hành 365 ngày — nên chúng chỉ di chuyển đáng kể trong khoảng thời gian vài tuần đến vài tháng. Một biến động như đợt short squeeze do CPI này — tăng 4% trong hai ngày, 12% trong hai tuần — gần như chỉ được ghi nhận như nhiễu đối với hai chỉ số này.</p>
+<p class="id">Seperti dikonfirmasi pemeriksaan situs ini terhadap <a href="/id/blog/funding-flip-oi-rebuild-etf-outflow-gap">reaksi funding-OI</a> sehari sebelumnya, indikator derivatif dapat berbalik arah dalam hitungan jam setelah peristiwa likuidasi. Sebaliknya, MVRV Z-Score dan Puell Multiple secara struktural dibangun di atas penyebut yang bergerak lambat — kapitalisasi realisasi kumulatif dan rata-rata emisi 365 hari — sehingga hanya bergerak secara bermakna dalam hitungan minggu hingga bulan. Pergerakan seperti short squeeze yang dipicu CPI ini — naik 4% dalam dua hari, 12% dalam dua minggu — tercatat hampir seperti noise bagi kedua indikator ini.</p>
+<p class="pl">Jak potwierdziła wcześniejsza analiza tej strony dotycząca <a href="/pl/blog/funding-flip-oi-rebuild-etf-outflow-gap">reakcji funding-OI</a> dzień wcześniej, wskaźniki instrumentów pochodnych mogą zmienić kierunek w ciągu kilku godzin po zdarzeniu likwidacyjnym. MVRV Z-Score i Puell Multiple natomiast są strukturalnie zbudowane na wolno poruszających się mianownikach — skumulowanej kapitalizacji zrealizowanej i 365-dniowej średniej emisji — więc poruszają się w znaczący sposób dopiero w skali tygodni do miesięcy. Ruch taki jak ten short squeeze napędzany przez CPI — wzrost o 4% w dwa dni, o 12% w dwa tygodnie — dla tych dwóch wskaźników rejestruje się niemal jako szum.</p>
+<p class="it">Come ha confermato l'analisi di questo sito sulla <a href="/it/blog/funding-flip-oi-rebuild-etf-outflow-gap">reazione funding-OI</a> del giorno precedente, gli indicatori sui derivati possono invertire direzione entro poche ore da un evento di liquidazione. L'MVRV Z-Score e il Puell Multiple, al contrario, sono costruiti strutturalmente su denominatori a movimento lento — capitalizzazione realizzata cumulativa e media di emissione a 365 giorni — quindi si muovono in modo significativo solo nell'arco di settimane o mesi. Un movimento come questo short squeeze guidato dal CPI — +4% in due giorni, +12% in due settimane — si registra quasi come rumore per questi due indicatori.</p>
+<p class="ru">Как подтвердила проверка этого сайта <a href="/ru/blog/funding-flip-oi-rebuild-etf-outflow-gap">реакции фандинга и открытого интереса</a> днём ранее, индикаторы деривативов могут сменить направление в течение нескольких часов после события ликвидации. MVRV Z-Score и Puell Multiple, напротив, структурно построены на медленно меняющихся знаменателях — кумулятивной реализованной капитализации и 365-дневном среднем эмиссии — поэтому они значимо меняются лишь на протяжении недель или месяцев. Такое движение, как этот вызванный CPI шорт-сквиз — рост на 4% за два дня, на 12% за две недели, — для этих двух индикаторов почти неотличимо от шума.</p>
+<p class="zh">正如本站前一天查核<a href="/zh/blog/funding-flip-oi-rebuild-etf-outflow-gap">資金費率與未平倉合約反應</a>時所證實的,衍生品指標可能在清算事件發生後數小時內就反轉方向。相較之下,MVRV Z分數與Puell倍數的結構建立在緩慢變動的分母之上——累積已實現市值與365天發行量平均值——因此只有在數週到數月的時間尺度上才會出現有意義的變動。像這次CPI引發的軋空行情——兩天漲4%、兩週漲12%——對這兩項指標而言幾乎只是雜訊。</p>
 <p class="ko">그렇다고 이 두 지표가 '틀렸다'는 뜻은 아니다. 오히려 이 괴리 자체가 진단 대상이다. 만약 이번 반등이 일회성 숏스퀴즈가 아니라 실제 국면 전환이라면, 가격 상승분의 상당량이 온체인에서 '실현'되며 실현시가총액을 밀어 올리고 Z-스코어도 서서히 재평가돼야 한다. 반대로 다음 업데이트에서도 Z-스코어가 0.3~0.5 밴드, 퍼엘 배수가 0.6~0.9 밴드에 그대로 머문다면, 이번 반등은 파생상품이 만든 단기 이벤트였고 시장의 장기 밸류에이션 국면 자체는 바뀌지 않았다는 뜻으로 읽힌다.</p>
 <p class="en">That doesn't mean the gauges are "wrong" — the gap itself is the thing worth watching. If this rebound turns out to be an actual regime shift rather than a one-off short squeeze, a meaningful share of the price gain should eventually get "realized" on-chain, pushing up realized cap and gradually re-rating the Z-Score. If, instead, the next update still shows the Z-Score parked in the 0.3-0.5 band and the Puell Multiple in the 0.6-0.9 band, that reads as confirmation that this rebound was a derivatives-driven event and the market's long-run valuation regime hasn't actually changed.</p>
 <p class="ja">だからといってこの二つの指標が「間違っている」わけではない。むしろこの乖離自体が診断対象だ。もし今回の反発が一過性のショートスクイーズではなく実際の局面転換なら、価格上昇分のかなりの部分がオンチェーンで「実現」され、実現時価総額を押し上げ、Zスコアも徐々に再評価されるはずだ。逆に次回の更新でもZスコアが0.3~0.5バンド、パエル倍率が0.6~0.9バンドにとどまるなら、今回の反発はデリバティブが作った短期的な出来事であり、市場の長期バリュエーション局面自体は変わっていないということになる。</p>

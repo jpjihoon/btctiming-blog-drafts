@@ -375,6 +375,131 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Dari Pembubaran NCET hingga Sidang Konfirmasi — Garis Waktu</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="60" x2="45" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="70" r="7" fill="#38bdf8"/>
+    <text x="65" y="75" fill="#e4e4e7" font-size="13" font-weight="700">2021 — NCET didirikan</text>
+    <text x="65" y="94" fill="#a1a1aa" font-size="12">DOJ era Biden membentuk unit penegakan kripto</text>
+    <circle cx="45" cy="130" r="7" fill="#4ade80"/>
+    <text x="65" y="135" fill="#e4e4e7" font-size="13" font-weight="700">Nov 2023 — Penyelesaian $4,3 M Binance</text>
+    <text x="65" y="154" fill="#a1a1aa" font-size="12">CZ mengaku bersalah atas satu dakwaan AML, mundur sebagai CEO</text>
+    <circle cx="45" cy="190" r="7" fill="#fbbf24"/>
+    <text x="65" y="195" fill="#e4e4e7" font-size="13" font-weight="700">Mar-Mei 2025 — Kesepakatan $2 M MGX/World Liberty</text>
+    <text x="65" y="214" fill="#a1a1aa" font-size="12">Investasi Binance diselesaikan via stablecoin USD1</text>
+    <circle cx="45" cy="250" r="7" fill="#f87171"/>
+    <text x="65" y="255" fill="#e4e4e7" font-size="13" font-weight="700">Apr 2025 — NCET dibubarkan</text>
+    <text x="65" y="274" fill="#a1a1aa" font-size="12">Wakil Jaksa Agung Blanche bubarkan unit, tutup banyak penyelidikan</text>
+    <circle cx="45" cy="310" r="7" fill="#f87171"/>
+    <text x="65" y="315" fill="#e4e4e7" font-size="13" font-weight="700">21 Okt 2025 — CZ diampuni</text>
+    <text x="65" y="334" fill="#a1a1aa" font-size="12">Trump berikan pengampunan penuh dan tanpa syarat</text>
+    <rect x="20" y="352" width="660" height="34" rx="8" fill="#1a1005" stroke="#f7931a" stroke-width="1.3"/>
+    <text x="350" y="374" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">15 Jul 2026 — Sidang konfirmasi Jaksa Agung Blanche, dicecar Durbin</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Od rozwiązania NCET do przesłuchania zatwierdzającego — oś czasu</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="60" x2="45" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="70" r="7" fill="#38bdf8"/>
+    <text x="65" y="75" fill="#e4e4e7" font-size="13" font-weight="700">2021 — powstaje NCET</text>
+    <text x="65" y="94" fill="#a1a1aa" font-size="12">DOJ za Bidena tworzy jednostkę ds. kryptowalut</text>
+    <circle cx="45" cy="130" r="7" fill="#4ade80"/>
+    <text x="65" y="135" fill="#e4e4e7" font-size="13" font-weight="700">lis 2023 — ugoda Binance na 4,3 mld $</text>
+    <text x="65" y="154" fill="#a1a1aa" font-size="12">CZ przyznaje się do jednego przestępstwa AML, ustępuje z funkcji CEO</text>
+    <circle cx="45" cy="190" r="7" fill="#fbbf24"/>
+    <text x="65" y="195" fill="#e4e4e7" font-size="13" font-weight="700">mar-maj 2025 — umowa MGX/World Liberty na 2 mld $</text>
+    <text x="65" y="214" fill="#a1a1aa" font-size="12">Inwestycja w Binance rozliczona przez stablecoin USD1</text>
+    <circle cx="45" cy="250" r="7" fill="#f87171"/>
+    <text x="65" y="255" fill="#e4e4e7" font-size="13" font-weight="700">kwi 2025 — rozwiązanie NCET</text>
+    <text x="65" y="274" fill="#a1a1aa" font-size="12">Wiceprokurator generalny Blanche rozwiązuje jednostkę, zamyka wiele śledztw</text>
+    <circle cx="45" cy="310" r="7" fill="#f87171"/>
+    <text x="65" y="315" fill="#e4e4e7" font-size="13" font-weight="700">21 paź 2025 — CZ ułaskawiony</text>
+    <text x="65" y="334" fill="#a1a1aa" font-size="12">Trump udziela pełnego, bezwarunkowego ułaskawienia</text>
+    <rect x="20" y="352" width="660" height="34" rx="8" fill="#1a1005" stroke="#f7931a" stroke-width="1.3"/>
+    <text x="350" y="374" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">15 lip 2026 — przesłuchanie zatwierdzające Blanche'a, przesłuchiwany przez Durbina</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Dallo smantellamento dell'NCET all'audizione di conferma — Cronologia</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="60" x2="45" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="70" r="7" fill="#38bdf8"/>
+    <text x="65" y="75" fill="#e4e4e7" font-size="13" font-weight="700">2021 — Fondazione dell'NCET</text>
+    <text x="65" y="94" fill="#a1a1aa" font-size="12">Il DOJ di Biden crea l'unità anti-crypto</text>
+    <circle cx="45" cy="130" r="7" fill="#4ade80"/>
+    <text x="65" y="135" fill="#e4e4e7" font-size="13" font-weight="700">Nov 2023 — Accordo Binance da 4,3 mld $</text>
+    <text x="65" y="154" fill="#a1a1aa" font-size="12">CZ si dichiara colpevole di un reato AML, si dimette da CEO</text>
+    <circle cx="45" cy="190" r="7" fill="#fbbf24"/>
+    <text x="65" y="195" fill="#e4e4e7" font-size="13" font-weight="700">Mar-Mag 2025 — Accordo MGX/World Liberty da 2 mld $</text>
+    <text x="65" y="214" fill="#a1a1aa" font-size="12">Investimento in Binance regolato via stablecoin USD1</text>
+    <circle cx="45" cy="250" r="7" fill="#f87171"/>
+    <text x="65" y="255" fill="#e4e4e7" font-size="13" font-weight="700">Apr 2025 — NCET smantellata</text>
+    <text x="65" y="274" fill="#a1a1aa" font-size="12">Il vice procuratore generale Blanche scioglie l'unità, chiude molte indagini</text>
+    <circle cx="45" cy="310" r="7" fill="#f87171"/>
+    <text x="65" y="315" fill="#e4e4e7" font-size="13" font-weight="700">21 ott 2025 — CZ graziato</text>
+    <text x="65" y="334" fill="#a1a1aa" font-size="12">Trump concede una grazia piena e incondizionata</text>
+    <rect x="20" y="352" width="660" height="34" rx="8" fill="#1a1005" stroke="#f7931a" stroke-width="1.3"/>
+    <text x="350" y="374" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">15 lug 2026 — Audizione di conferma di Blanche, interrogato da Durbin</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">От роспуска NCET до слушаний по утверждению — хронология</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="60" x2="45" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="70" r="7" fill="#38bdf8"/>
+    <text x="65" y="75" fill="#e4e4e7" font-size="13" font-weight="700">2021 — основан NCET</text>
+    <text x="65" y="94" fill="#a1a1aa" font-size="12">Минюст при Байдене создаёт криптоподразделение</text>
+    <circle cx="45" cy="130" r="7" fill="#4ade80"/>
+    <text x="65" y="135" fill="#e4e4e7" font-size="13" font-weight="700">Ноя 2023 — урегулирование Binance на $4,3 млрд</text>
+    <text x="65" y="154" fill="#a1a1aa" font-size="12">CZ признаёт вину по одному тяжкому обвинению AML, покидает пост CEO</text>
+    <circle cx="45" cy="190" r="7" fill="#fbbf24"/>
+    <text x="65" y="195" fill="#e4e4e7" font-size="13" font-weight="700">Мар-май 2025 — сделка MGX/World Liberty на $2 млрд</text>
+    <text x="65" y="214" fill="#a1a1aa" font-size="12">Инвестиция в Binance оплачена через стейблкоин USD1</text>
+    <circle cx="45" cy="250" r="7" fill="#f87171"/>
+    <text x="65" y="255" fill="#e4e4e7" font-size="13" font-weight="700">Апр 2025 — NCET расформирован</text>
+    <text x="65" y="274" fill="#a1a1aa" font-size="12">Замгенпрокурора Бланш распускает подразделение, закрывает много дел</text>
+    <circle cx="45" cy="310" r="7" fill="#f87171"/>
+    <text x="65" y="315" fill="#e4e4e7" font-size="13" font-weight="700">21 окт 2025 — CZ помилован</text>
+    <text x="65" y="334" fill="#a1a1aa" font-size="12">Трамп предоставляет полное безусловное помилование</text>
+    <rect x="20" y="352" width="660" height="34" rx="8" fill="#1a1005" stroke="#f7931a" stroke-width="1.3"/>
+    <text x="350" y="374" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">15 июл 2026 — слушания по утверждению Бланша, допрос Дурбина</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">從NCET解散到任命聽證會——時間軸</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="60" x2="45" y2="340" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="70" r="7" fill="#38bdf8"/>
+    <text x="65" y="75" fill="#e4e4e7" font-size="13" font-weight="700">2021年——NCET成立</text>
+    <text x="65" y="94" fill="#a1a1aa" font-size="12">拜登政府司法部設立加密貨幣執法小組</text>
+    <circle cx="45" cy="130" r="7" fill="#4ade80"/>
+    <text x="65" y="135" fill="#e4e4e7" font-size="13" font-weight="700">2023年11月——幣安43億美元和解</text>
+    <text x="65" y="154" fill="#a1a1aa" font-size="12">CZ就一項反洗錢重罪認罪,辭去執行長職務</text>
+    <circle cx="45" cy="190" r="7" fill="#fbbf24"/>
+    <text x="65" y="195" fill="#e4e4e7" font-size="13" font-weight="700">2025年3-5月——MGX/World Liberty 20億美元交易</text>
+    <text x="65" y="214" fill="#a1a1aa" font-size="12">幣安投資透過USD1穩定幣完成結算</text>
+    <circle cx="45" cy="250" r="7" fill="#f87171"/>
+    <text x="65" y="255" fill="#e4e4e7" font-size="13" font-weight="700">2025年4月——NCET解散</text>
+    <text x="65" y="274" fill="#a1a1aa" font-size="12">司法部副部長布蘭奇解散小組,終結多起調查</text>
+    <circle cx="45" cy="310" r="7" fill="#f87171"/>
+    <text x="65" y="315" fill="#e4e4e7" font-size="13" font-weight="700">2025年10月21日——CZ獲赦免</text>
+    <text x="65" y="334" fill="#a1a1aa" font-size="12">川普宣布完全且無條件赦免</text>
+    <rect x="20" y="352" width="660" height="34" rx="8" fill="#1a1005" stroke="#f7931a" stroke-width="1.3"/>
+    <text x="350" y="374" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">2026年7月15日——布蘭奇司法部長任命聽證會,遭德賓質詢</text>
+  </g>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>시사점:</strong> 확인된 사실(CZ 유죄인정·43억달러 합의·20억달러 거래·사면)과 아직 입증되지 않은 인과관계(사면이 거래의 대가였다는 주장)를 구분해서 볼 필요가 있다. 블랜치의 인준 여부, 그리고 인준 이후 법무부가 가상자산 기업에 대한 형사수사를 어떤 기조로 접근하는지가 이번 논란의 실질적 시험대가 될 전망이다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> It's worth separating the confirmed facts - CZ's guilty plea, Binance's $4.3 billion settlement, the $2 billion deal, the pardon - from the causal claim that remains unproven, that the pardon was payment for the deal. Whether Blanche is confirmed, and how the Justice Department approaches criminal investigations into crypto companies afterward, will be the real test of this controversy.</div>
@@ -385,6 +510,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> vale a pena separar os fatos confirmados - a confissão de culpa de CZ, o acordo de US$ 4,3 bilhões da Binance, o acordo de US$ 2 bilhões, o indulto - da alegação causal que permanece não comprovada, de que o indulto foi o pagamento pelo acordo. Se Blanche é confirmado, e como o Departamento de Justiça passará a tratar investigações criminais contra empresas de cripto depois disso, serão o verdadeiro teste dessa controvérsia.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> Doğrulanmış gerçekleri - CZ'nin suçu kabul etmesi, Binance'in 4,3 milyar dolarlık anlaşması, 2 milyar dolarlık anlaşma, af - affın anlaşmanın karşılığı olduğu yönündeki henüz kanıtlanmamış nedensellik iddiasından ayırmak gerekiyor. Blanche'ın onaylanıp onaylanmayacağı ve sonrasında Adalet Bakanlığı'nın kripto şirketlerine yönelik cezai soruşturmalara nasıl bir yaklaşım benimseyeceği, bu tartışmanın gerçek sınavı olacak.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Cần phân biệt các sự kiện đã được xác nhận - việc CZ nhận tội, thỏa thuận 4,3 tỷ đô la của Binance, thỏa thuận 2 tỷ đô la, lệnh ân xá - với cáo buộc về quan hệ nhân quả vẫn chưa được chứng minh rằng lệnh ân xá là sự đền đáp cho thỏa thuận đó. Việc Blanche có được phê chuẩn hay không, và cách Bộ Tư pháp tiếp cận các cuộc điều tra hình sự đối với các công ty tiền mã hóa sau đó, sẽ là phép thử thực sự cho cuộc tranh cãi này.</div>
+<div class="box id">💡 <strong>Poin Penting:</strong> Penting untuk memisahkan fakta yang telah dikonfirmasi - pengakuan bersalah CZ, penyelesaian $4,3 miliar Binance, kesepakatan $2 miliar, pengampunan - dari klaim sebab-akibat yang belum terbukti, bahwa pengampunan itu adalah imbalan atas kesepakatan tersebut. Apakah Blanche dikonfirmasi, dan bagaimana Departemen Kehakiman mendekati penyelidikan kriminal terhadap perusahaan kripto setelahnya, akan menjadi ujian sesungguhnya dari kontroversi ini.</div>
+<div class="box pl">💡 <strong>Najważniejsze:</strong> Warto oddzielić potwierdzone fakty - przyznanie się CZ do winy, ugodę Binance na 4,3 miliarda dolarów, transakcję na 2 miliardy dolarów, ułaskawienie - od niepotwierdzonego wciąż twierdzenia przyczynowego, że ułaskawienie było zapłatą za tę transakcję. Czy Blanche zostanie zatwierdzony i jak Departament Sprawiedliwości podejdzie później do dochodzeń karnych wobec firm kryptowalutowych, będzie prawdziwym testem tej kontrowersji.</div>
+<div class="box it">💡 <strong>Nota:</strong> Vale la pena separare i fatti confermati - la dichiarazione di colpevolezza di CZ, l'accordo da 4,3 miliardi di dollari di Binance, l'accordo da 2 miliardi di dollari, la grazia - dall'accusa causale che rimane non dimostrata, secondo cui la grazia sarebbe stata il pagamento per l'accordo. Se Blanche verrà confermato, e come il Dipartimento di Giustizia affronterà in seguito le indagini penali sulle società di criptovalute, costituiranno il vero banco di prova di questa controversia.</div>
+<div class="box ru">💡 <strong>Вывод:</strong> Стоит разделять подтверждённые факты — признание вины CZ, урегулирование Binance на 4,3 миллиарда долларов, сделку на 2 миллиарда долларов, помилование — и недоказанное причинное утверждение о том, что помилование было платой за сделку. Будет ли Бланш утверждён и как Минюст будет подходить впоследствии к уголовным расследованиям в отношении криптокомпаний, станет настоящим испытанием для этого спора.</div>
+<div class="box zh">💡 <strong>重點提示:</strong> 有必要將已獲證實的事實——CZ的認罪、幣安43億美元和解金、20億美元交易、赦免——與尚未獲得證實的因果指控(即赦免是該交易的報酬)區分開來。布蘭奇是否獲得任命,以及此後司法部對加密貨幣公司刑事調查採取的立場,將是這場爭議的真正試金石。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 코인텔레그래프(Cointelegraph), CNBC, 트레이딩뷰(TradingView), 크립토뉴스넷(CryptoNews.net), 액시오스(Axios), 타임(TIME), 슬레이트(Slate), 상원은행위원회(Senate Banking Committee), 포브스(Forbes)</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, U.S. Senate Committee on Banking, Forbes</p>
@@ -395,5 +525,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, Comitê Bancário do Senado dos EUA, Forbes</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, ABD Senato Bankacılık Komitesi, Forbes</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, Ủy ban Ngân hàng Thượng viện Mỹ, Forbes</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, Komite Perbankan Senat AS, Forbes</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, Senacka Komisja Bankowa USA, Forbes</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, Commissione Bancaria del Senato USA, Forbes</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Cointelegraph, CNBC, TradingView, CryptoNews.net, Axios, TIME, Slate, Банковский комитет Сената США, Forbes</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Cointelegraph、CNBC、TradingView、CryptoNews.net、Axios、TIME、Slate、美國參議院銀行委員會、Forbes</p>
 
 <?php require __DIR__.'/_footer.php'; ?>

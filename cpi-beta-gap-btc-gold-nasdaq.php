@@ -343,6 +343,156 @@
   <text x="20" y="598" fill="#52525b" font-family="sans-serif" font-size="13">* Số liệu Bitcoin là biến động trong ngày 14 tháng 7 (CPI); cổ phiếu, vàng và Chỉ số Đô la là biến động hàng ngày của 15 tháng 7</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 610" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">CPI Sama, Amplitudo Berbeda — Besaran Reaksi Menurut Kelas Aset</text>
+  <text x="20" y="52" fill="#a1a1aa" font-family="sans-serif" font-size="13">Perubahan harga per aset pada hari rilis CPI (14-15 Juli)</text>
+  <line x1="250" y1="80" x2="250" y2="500" stroke="#3f3f46" stroke-width="1"/>
+  <text x="250" y="72" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="118" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Bitcoin</text>
+  <rect x="250" y="98" width="242" height="30" rx="6" fill="#f7931a"/>
+  <text x="502" y="119" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+4,4%</text>
+  <text x="20" y="188" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Emas (Berjangka)</text>
+  <rect x="250" y="168" width="88" height="30" rx="6" fill="#fbbf24"/>
+  <text x="348" y="189" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+1,6%</text>
+  <text x="20" y="258" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Nasdaq</text>
+  <rect x="250" y="238" width="34" height="30" rx="6" fill="#60a5fa"/>
+  <text x="294" y="259" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,62%</text>
+  <text x="20" y="328" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">S&amp;P 500</text>
+  <rect x="250" y="308" width="21" height="30" rx="6" fill="#60a5fa"/>
+  <text x="281" y="329" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,39%</text>
+  <text x="20" y="398" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Dow Jones</text>
+  <rect x="250" y="378" width="9" height="30" rx="6" fill="#60a5fa"/>
+  <text x="269" y="399" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,17%</text>
+  <text x="20" y="468" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Indeks Dolar</text>
+  <rect x="217" y="448" width="33" height="30" rx="6" fill="#f87171"/>
+  <text x="207" y="469" text-anchor="end" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">-0,6%</text>
+  <rect x="20" y="510" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="536" fill="#a1a1aa" font-family="sans-serif" font-size="13">Perbandingan besaran reaksi terhadap berita yang sama</text>
+  <text x="40" y="562" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">Bitcoin ≈ 7,1x pergerakan Nasdaq · 2,75x pergerakan emas</text>
+  <text x="20" y="598" fill="#52525b" font-family="sans-serif" font-size="13">* Angka Bitcoin adalah pergerakan intraday pada tanggal rilis CPI 14 Juli; saham, emas, dan Indeks Dolar adalah perubahan harian 15 Juli</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 610" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Ten Sam CPI, Inna Amplituda — Skala Reakcji Według Klasy Aktywów</text>
+  <text x="20" y="52" fill="#a1a1aa" font-family="sans-serif" font-size="13">Zmiana ceny wg aktywa w dniu publikacji CPI (14-15 lipca)</text>
+  <line x1="250" y1="80" x2="250" y2="500" stroke="#3f3f46" stroke-width="1"/>
+  <text x="250" y="72" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="118" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Bitcoin</text>
+  <rect x="250" y="98" width="242" height="30" rx="6" fill="#f7931a"/>
+  <text x="502" y="119" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+4,4%</text>
+  <text x="20" y="188" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Złoto (kontrakty terminowe)</text>
+  <rect x="250" y="168" width="88" height="30" rx="6" fill="#fbbf24"/>
+  <text x="348" y="189" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+1,6%</text>
+  <text x="20" y="258" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Nasdaq</text>
+  <rect x="250" y="238" width="34" height="30" rx="6" fill="#60a5fa"/>
+  <text x="294" y="259" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,62%</text>
+  <text x="20" y="328" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">S&amp;P 500</text>
+  <rect x="250" y="308" width="21" height="30" rx="6" fill="#60a5fa"/>
+  <text x="281" y="329" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,39%</text>
+  <text x="20" y="398" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Dow Jones</text>
+  <rect x="250" y="378" width="9" height="30" rx="6" fill="#60a5fa"/>
+  <text x="269" y="399" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,17%</text>
+  <text x="20" y="468" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Indeks Dolara</text>
+  <rect x="217" y="448" width="33" height="30" rx="6" fill="#f87171"/>
+  <text x="207" y="469" text-anchor="end" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">-0,6%</text>
+  <rect x="20" y="510" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="536" fill="#a1a1aa" font-family="sans-serif" font-size="13">Porównanie skali reakcji na tę samą wiadomość</text>
+  <text x="40" y="562" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">Bitcoin ≈ 7,1x ruchu Nasdaq · 2,75x ruchu złota</text>
+  <text x="20" y="598" fill="#52525b" font-family="sans-serif" font-size="13">* Wartość Bitcoina to ruch intraday w dniu publikacji CPI 14 lipca; akcje, złoto i Indeks Dolara to zmiany dzienne z 15 lipca</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 610" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Stesso CPI, Ampiezza Diversa — Entità della Reazione per Classe di Attivo</text>
+  <text x="20" y="52" fill="#a1a1aa" font-family="sans-serif" font-size="13">Variazione di prezzo per attivo il giorno della pubblicazione del CPI (14-15 luglio)</text>
+  <line x1="250" y1="80" x2="250" y2="500" stroke="#3f3f46" stroke-width="1"/>
+  <text x="250" y="72" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="118" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Bitcoin</text>
+  <rect x="250" y="98" width="242" height="30" rx="6" fill="#f7931a"/>
+  <text x="502" y="119" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+4,4%</text>
+  <text x="20" y="188" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Oro (Futures)</text>
+  <rect x="250" y="168" width="88" height="30" rx="6" fill="#fbbf24"/>
+  <text x="348" y="189" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+1,6%</text>
+  <text x="20" y="258" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Nasdaq</text>
+  <rect x="250" y="238" width="34" height="30" rx="6" fill="#60a5fa"/>
+  <text x="294" y="259" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,62%</text>
+  <text x="20" y="328" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">S&amp;P 500</text>
+  <rect x="250" y="308" width="21" height="30" rx="6" fill="#60a5fa"/>
+  <text x="281" y="329" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,39%</text>
+  <text x="20" y="398" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Dow Jones</text>
+  <rect x="250" y="378" width="9" height="30" rx="6" fill="#60a5fa"/>
+  <text x="269" y="399" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,17%</text>
+  <text x="20" y="468" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Indice del Dollaro</text>
+  <rect x="217" y="448" width="33" height="30" rx="6" fill="#f87171"/>
+  <text x="207" y="469" text-anchor="end" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">-0,6%</text>
+  <rect x="20" y="510" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="536" fill="#a1a1aa" font-family="sans-serif" font-size="13">Confronto dell'entità della reazione alla stessa notizia</text>
+  <text x="40" y="562" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">Bitcoin ≈ 7,1x il movimento del Nasdaq · 2,75x quello dell'oro</text>
+  <text x="20" y="598" fill="#52525b" font-family="sans-serif" font-size="13">* Il dato del bitcoin è il movimento intraday del 14 luglio (CPI); azioni, oro e Indice del Dollaro sono variazioni giornaliere del 15 luglio</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 610" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Один CPI, Разная Амплитуда — Величина Реакции По Классам Активов</text>
+  <text x="20" y="52" fill="#a1a1aa" font-family="sans-serif" font-size="13">Изменение цены по активам в день публикации CPI (14-15 июля)</text>
+  <line x1="250" y1="80" x2="250" y2="500" stroke="#3f3f46" stroke-width="1"/>
+  <text x="250" y="72" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="118" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Биткоин</text>
+  <rect x="250" y="98" width="242" height="30" rx="6" fill="#f7931a"/>
+  <text x="502" y="119" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+4,4%</text>
+  <text x="20" y="188" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Золото (фьючерсы)</text>
+  <rect x="250" y="168" width="88" height="30" rx="6" fill="#fbbf24"/>
+  <text x="348" y="189" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+1,6%</text>
+  <text x="20" y="258" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Nasdaq</text>
+  <rect x="250" y="238" width="34" height="30" rx="6" fill="#60a5fa"/>
+  <text x="294" y="259" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,62%</text>
+  <text x="20" y="328" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">S&amp;P 500</text>
+  <rect x="250" y="308" width="21" height="30" rx="6" fill="#60a5fa"/>
+  <text x="281" y="329" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,39%</text>
+  <text x="20" y="398" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Dow Jones</text>
+  <rect x="250" y="378" width="9" height="30" rx="6" fill="#60a5fa"/>
+  <text x="269" y="399" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0,17%</text>
+  <text x="20" y="468" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">Индекс доллара</text>
+  <rect x="217" y="448" width="33" height="30" rx="6" fill="#f87171"/>
+  <text x="207" y="469" text-anchor="end" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">-0,6%</text>
+  <rect x="20" y="510" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="536" fill="#a1a1aa" font-family="sans-serif" font-size="13">Сравнение величины реакции на одну и ту же новость</text>
+  <text x="40" y="562" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">Биткоин ≈ 7,1x движения Nasdaq · 2,75x движения золота</text>
+  <text x="20" y="598" fill="#52525b" font-family="sans-serif" font-size="13">* Показатель биткоина — внутридневное движение 14 июля (CPI); акции, золото и индекс доллара — дневные изменения за 15 июля</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 610" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">同一CPI,不同振幅——各資產類別反應規模</text>
+  <text x="20" y="52" fill="#a1a1aa" font-family="sans-serif" font-size="13">CPI公布當天(7月14~15日)各資產價格變動率</text>
+  <line x1="250" y1="80" x2="250" y2="500" stroke="#3f3f46" stroke-width="1"/>
+  <text x="250" y="72" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="118" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">比特幣</text>
+  <rect x="250" y="98" width="242" height="30" rx="6" fill="#f7931a"/>
+  <text x="502" y="119" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+4.4%</text>
+  <text x="20" y="188" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">黃金(期貨)</text>
+  <rect x="250" y="168" width="88" height="30" rx="6" fill="#fbbf24"/>
+  <text x="348" y="189" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+1.6%</text>
+  <text x="20" y="258" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">那斯達克</text>
+  <rect x="250" y="238" width="34" height="30" rx="6" fill="#60a5fa"/>
+  <text x="294" y="259" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0.62%</text>
+  <text x="20" y="328" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">標普500</text>
+  <rect x="250" y="308" width="21" height="30" rx="6" fill="#60a5fa"/>
+  <text x="281" y="329" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0.39%</text>
+  <text x="20" y="398" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">道瓊</text>
+  <rect x="250" y="378" width="9" height="30" rx="6" fill="#60a5fa"/>
+  <text x="269" y="399" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">+0.17%</text>
+  <text x="20" y="468" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700">美元指數</text>
+  <rect x="217" y="448" width="33" height="30" rx="6" fill="#f87171"/>
+  <text x="207" y="469" text-anchor="end" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="800">-0.6%</text>
+  <rect x="20" y="510" width="660" height="70" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="536" fill="#a1a1aa" font-family="sans-serif" font-size="13">同一則消息反應幅度比較</text>
+  <text x="40" y="562" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="800">比特幣≈那斯達克的7.1倍‧黃金的2.75倍</text>
+  <text x="20" y="598" fill="#52525b" font-family="sans-serif" font-size="13">* 比特幣數字為7月14日CPI公布當天的盤中變動率,股票、黃金與美元指數為7月15日的單日變動率</text>
+</svg>
+</div>
 
 <h2 class="ko">비트코인의 증폭 장치 — 파생시장 숏스퀴즈</h2>
 <h2 class="en">Bitcoin's Amplifier — The Derivatives-Market Short Squeeze</h2>
@@ -353,6 +503,11 @@
 <h2 class="pt">O Amplificador do Bitcoin — O Short Squeeze do Mercado de Derivativos</h2>
 <h2 class="tr">Bitcoin'in Amplifikatörü — Türev Piyasasındaki Short Squeeze</h2>
 <h2 class="vi">Bộ Khuếch Đại Của Bitcoin — Short Squeeze Trên Thị Trường Phái Sinh</h2>
+<h2 class="id">Amplifier Bitcoin — Short Squeeze di Pasar Derivatif</h2>
+<h2 class="pl">Wzmacniacz Bitcoina — Short Squeeze na Rynku Instrumentów Pochodnych</h2>
+<h2 class="it">L'Amplificatore del Bitcoin — Lo Short Squeeze del Mercato dei Derivati</h2>
+<h2 class="ru">Усилитель Биткоина — Шорт-сквиз на Рынке Деривативов</h2>
+<h2 class="zh">比特幣的放大器——衍生性商品市場的空頭回補潮</h2>
 
 <p class="ko">비트코인이 같은 재료에 유독 크게 반응한 데는 구조적인 이유가 있다. 코인얼라이즈 기준으로 7월15일 하루 비트코인 청산액은 총 1억4,061만달러였고 이 중 숏 청산이 8,660만달러, 롱 청산이 5,401만달러로 숏 쪽이 롱보다 약 1.6배 많았다. 크립토 시장 전체로 넓히면 이날 청산 규모는 3억2,400만달러, 이 중 숏 청산이 2억900만달러였다. 바이낸스 기준 리테일 롱숏 비율은 57.1% 대 42.9%(1.33배)로 강세 쪽에 기울었지만 극단적인 수준은 아니었다. 즉 이번 급등은 새로운 매수세가 쏟아져 들어왔다기보다, CPI 발표를 계기로 쌓여 있던 숏 포지션이 강제 청산되며 그 되사기 물량이 가격을 밀어올린 성격이 강하다.</p>
 <p class="en">There's a structural reason Bitcoin reacted so disproportionately to the same input. Per Coinalyze, Bitcoin liquidations totaled $140.61 million on July 15 alone, with short liquidations at $86.60 million versus long liquidations at $54.01 million — shorts got liquidated about 1.6 times more than longs. Across the broader crypto market, that day's total liquidations reached $324 million, with $209 million of it on the short side. Binance's retail long/short ratio stood at 57.1% to 42.9% (1.33x) — leaning bullish, but nowhere near an extreme reading. In other words, this surge looks less like a flood of fresh buying and more like previously crowded short positions getting forcibly closed once the CPI print hit, with the resulting buy-to-cover flow pushing price higher.</p>
@@ -363,6 +518,11 @@
 <p class="pt">Há uma razão estrutural para o bitcoin ter reagido de forma tão desproporcional ao mesmo dado. Segundo a Coinalyze, as liquidações de bitcoin totalizaram US$ 140,61 milhões só em 15 de julho, com liquidações a descoberto (short) de US$ 86,60 milhões contra liquidações compradas (long) de US$ 54,01 milhões — posições vendidas foram liquidadas cerca de 1,6 vezes mais que as compradas. No mercado cripto mais amplo, as liquidações totais daquele dia chegaram a US$ 324 milhões, sendo US$ 209 milhões do lado vendido. A razão long/short de varejo da Binance ficou em 57,1% contra 42,9% (1,33x) — inclinada para o lado altista, mas longe de uma leitura extrema. Em outras palavras, essa alta se parece menos com uma enxurrada de novas compras e mais com posições vendidas previamente lotadas sendo fechadas à força após o dado do CPI, com o fluxo de recompra resultante empurrando o preço para cima.</p>
 <p class="tr">Bitcoin'in aynı veriye bu kadar orantısız tepki vermesinin yapısal bir nedeni var. Coinalyze verilerine göre, yalnızca 15 Temmuz'da Bitcoin tasfiyeleri toplam 140,61 milyon dolara ulaştı; bunun 86,60 milyon doları short tasfiyeleri, 54,01 milyon doları ise long tasfiyeleriydi — short pozisyonlar long pozisyonlardan yaklaşık 1,6 kat daha fazla tasfiye edildi. Daha geniş kripto piyasasında o günkü toplam tasfiye tutarı 324 milyon dolara ulaştı; bunun 209 milyon doları short taraftandı. Binance'in perakende long/short oranı %57,1'e karşı %42,9 (1,33 kat) ile yükselişten yana eğildi, ancak uç bir seviye değildi. Başka bir deyişle, bu yükseliş taze bir alım dalgasından çok, CPI verisinin ardından önceden kalabalıklaşmış short pozisyonların zorla kapatılması ve bunun sonucunda oluşan geri alım akışının fiyatı yukarı itmesi gibi görünüyor.</p>
 <p class="vi">Có một lý do mang tính cấu trúc khiến Bitcoin phản ứng không tương xứng với cùng một dữ liệu. Theo Coinalyze, tổng số tiền thanh lý Bitcoin chỉ trong ngày 15 tháng 7 đã lên tới 140,61 triệu đô la, trong đó thanh lý vị thế short là 86,60 triệu đô la so với 54,01 triệu đô la thanh lý vị thế long — vị thế short bị thanh lý nhiều gấp khoảng 1,6 lần vị thế long. Trên toàn thị trường tiền mã hóa, tổng thanh lý trong ngày đó đạt 324 triệu đô la, trong đó 209 triệu đô la thuộc phía short. Tỷ lệ long/short bán lẻ trên Binance ở mức 57,1% so với 42,9% (1,33 lần) — nghiêng về phía tăng giá, nhưng chưa đến mức cực đoan. Nói cách khác, đợt tăng này ít giống một làn sóng mua mới ồ ạt mà giống việc các vị thế short vốn đã đông đúc bị buộc phải đóng lại sau khi số liệu CPI công bố, với dòng mua để đóng vị thế đẩy giá lên cao hơn.</p>
+<p class="id">Ada alasan struktural mengapa Bitcoin bereaksi begitu tidak proporsional terhadap input yang sama. Menurut Coinalyze, total likuidasi Bitcoin mencapai $140,61 juta hanya pada 15 Juli saja, dengan likuidasi short sebesar $86,60 juta berbanding likuidasi long sebesar $54,01 juta — posisi short dilikuidasi sekitar 1,6 kali lebih banyak dibanding long. Di pasar kripto yang lebih luas, total likuidasi hari itu mencapai $324 juta, dengan $209 juta di antaranya berasal dari sisi short. Rasio long/short ritel Binance berada di 57,1% berbanding 42,9% (1,33x) — condong bullish, namun jauh dari level ekstrem. Dengan kata lain, lonjakan ini lebih terlihat bukan sebagai gelombang pembelian baru, melainkan sebagai posisi short yang sebelumnya menumpuk terpaksa ditutup begitu rilis CPI muncul, dengan arus beli-untuk-menutup yang dihasilkan mendorong harga lebih tinggi.</p>
+<p class="pl">Istnieje strukturalny powód, dla którego Bitcoin zareagował tak nieproporcjonalnie na te same dane. Według Coinalyze, likwidacje Bitcoina wyniosły łącznie 140,61 mln dolarów samego 15 lipca, przy czym likwidacje pozycji krótkich wyniosły 86,60 mln dolarów wobec 54,01 mln dolarów likwidacji pozycji długich — pozycje krótkie były likwidowane około 1,6 razy częściej niż długie. W szerszym rynku kryptowalut łączne likwidacje tego dnia sięgnęły 324 mln dolarów, z czego 209 mln dolarów przypadło na stronę krótką. Detaliczny wskaźnik long/short na Binance wyniósł 57,1% do 42,9% (1,33x) — z lekkim nastawieniem byczym, ale daleko od odczytu ekstremalnego. Innymi słowy, ten skok wygląda mniej na falę świeżych zakupów, a bardziej na wcześniej przepełnione pozycje krótkie, które zostały przymusowo zamknięte po publikacji CPI, a wynikający z tego przepływ odkupu pchnął cenę w górę.</p>
+<p class="it">C'è una ragione strutturale per cui il bitcoin ha reagito in modo così sproporzionato allo stesso input. Secondo Coinalyze, le liquidazioni di bitcoin hanno totalizzato 140,61 milioni di dollari nel solo 15 luglio, con liquidazioni short per 86,60 milioni di dollari contro liquidazioni long per 54,01 milioni di dollari — gli short sono stati liquidati circa 1,6 volte più dei long. Sull'intero mercato cripto, le liquidazioni totali di quel giorno hanno raggiunto 324 milioni di dollari, di cui 209 milioni sul lato short. Il rapporto long/short retail di Binance si è attestato al 57,1% contro il 42,9% (1,33x) — leggermente rialzista, ma lontano da una lettura estrema. In altre parole, questa impennata assomiglia meno a un'ondata di nuovi acquisti e più a posizioni short precedentemente affollate chiuse forzatamente non appena è arrivato il dato del CPI, con il conseguente flusso di riacquisto che ha spinto il prezzo più in alto.</p>
+<p class="ru">Есть структурная причина, по которой биткоин отреагировал настолько непропорционально на те же данные. По данным Coinalyze, ликвидации биткоина составили $140,61 млн только за 15 июля, при этом ликвидации шортов достигли $86,60 млн против $54,01 млн ликвидаций лонгов — шорты ликвидировались примерно в 1,6 раза чаще лонгов. На более широком крипторынке общий объём ликвидаций в тот день достиг $324 млн, из которых $209 млн пришлось на короткую сторону. Розничное соотношение long/short на Binance составляло 57,1% к 42,9% (1,33x) — с уклоном в бычью сторону, но далеко от экстремальных значений. Другими словами, этот скачок больше похож не на волну свежих покупок, а на принудительное закрытие ранее переполненных коротких позиций сразу после выхода CPI, а возникший в результате поток обратного выкупа толкнул цену вверх.</p>
+<p class="zh">比特幣對同一則消息反應如此不成比例,背後有結構性原因。根據Coinalyze數據,僅7月15日一天,比特幣清算總額就達1億4,061萬美元,其中空頭清算為8,660萬美元,多頭清算為5,401萬美元——空頭被清算的規模約為多頭的1.6倍。放大到整個加密貨幣市場,當天總清算規模達3億2,400萬美元,其中2億900萬美元來自空頭一方。幣安散戶多空比為57.1%對42.9%(1.33倍)——偏向看多,但遠未達到極端水準。換句話說,這波急漲與其說是新資金大量湧入,不如說是CPI公布後先前擁擠的空頭部位被強制平倉,由此產生的回補買盤推高了價格。</p>
 <p class="ko">이 사이트가 앞서 점검한 <a href="/blog/funding-flip-oi-rebuild-etf-outflow-gap">펀딩비-미결제약정-ETF 유출 괴리</a>에서도 확인했듯, 펀딩비와 미결제약정은 이 숏스퀴즈 이후 몇 시간 만에 롱 쪽으로 방향을 튼 반면 ETF 자금은 하루 만에 순유출로 되돌아가는 등, 파생시장 반응이 실제 현물 수요 지표보다 훨씬 빠르고 크게 움직인다는 패턴이 이번에도 반복됐다. 옵션 시장 역시 마찬가지였는데, 이 사이트가 하루 전 점검한 <a href="/blog/dvol-flat-skew-cpi-surge-confirmation-gap">DVOL·스큐 갭</a>에서는 반등에도 불구하고 콜-풋 스큐가 여전히 풋 쪽에 기운 채였다는 점이 드러났다. 나스닥·S&P500 같은 현물 중심 시장에는 이런 식으로 매도 포지션을 강제로 되사게 만드는 레버리지 되먹임 구조가 상대적으로 약하다. 결국 비트코인의 파생시장 구조 자체가 같은 크기의 매크로 뉴스를 몇 배 더 큰 가격 변동으로 바꾸는 증폭기 역할을 한 셈이다.</p>
 <p class="en">As this site's earlier check on the <a href="/en/blog/funding-flip-oi-rebuild-etf-outflow-gap">funding-OI-ETF outflow gap</a> confirmed, funding rates and open interest swung to the long side within hours of this squeeze while ETF flows reversed into net outflow within a day — derivatives reacting far faster and bigger than actual spot-demand gauges, a pattern that repeated here. Options markets told a similar story: this site's check the day before on the <a href="/en/blog/dvol-flat-skew-cpi-surge-confirmation-gap">DVOL-skew gap</a> found that, despite the rebound, the call-put skew stayed put-leaning. Spot-dominated markets like the Nasdaq and S&P 500 lack this kind of leverage feedback loop that forces short sellers to buy back their positions. In the end, Bitcoin's derivatives-market structure itself acts as an amplifier, turning the same-sized macro news into a price swing several times larger.</p>
 <p class="ja">当サイトが以前点検した<a href="/ja/blog/funding-flip-oi-rebuild-etf-outflow-gap">ファンディング-OI-ETF流出の乖離</a>でも確認した通り、ファンディングレートと未決済建玉はこのショートスクイーズ後わずか数時間でロング方向に転じた一方、ETF資金は一日で純流出に逆戻りするなど、デリバティブ市場の反応が実際の現物需要指標よりはるかに速く大きく動くというパターンが今回も繰り返された。オプション市場も同様で、当サイトが前日に点検した<a href="/ja/blog/dvol-flat-skew-cpi-surge-confirmation-gap">DVOL・スキュー乖離</a>では、反発にもかかわらずコール・プットのスキューが依然としてプット寄りのままだったことが明らかになった。ナスダックやS&P500のような現物中心の市場には、こうした形で売りポジションを強制的に買い戻させるレバレッジのフィードバック構造が相対的に弱い。結局、ビットコインのデリバティブ市場構造そのものが、同じ大きさのマクロニュースを何倍も大きな価格変動に変える増幅装置の役割を果たしたということだ。</p>
@@ -372,6 +532,11 @@
 <p class="pt">Como confirmou a análise anterior deste site sobre o <a href="/pt/blog/funding-flip-oi-rebuild-etf-outflow-gap">hiato financiamento-OI-saídas de ETF</a>, a taxa de financiamento e o interesse em aberto viraram para o lado comprado em questão de horas após esse short squeeze, enquanto os fluxos de ETF reverteram para saída líquida em um dia — derivativos reagindo muito mais rápido e mais forte do que os indicadores reais de demanda à vista, um padrão que se repetiu aqui. Os mercados de opções contaram uma história parecida: a análise deste site no dia anterior sobre o <a href="/pt/blog/dvol-flat-skew-cpi-surge-confirmation-gap">hiato DVOL-skew</a> constatou que, apesar da recuperação, o skew call-put permaneceu inclinado para puts. Mercados dominados pelo à vista, como Nasdaq e S&P 500, carecem desse tipo de ciclo de retroalimentação de alavancagem que força vendedores a descoberto a recomprar suas posições. No fim, a própria estrutura do mercado de derivativos do bitcoin age como um amplificador, transformando a mesma notícia macro em uma oscilação de preço várias vezes maior.</p>
 <p class="tr">Bu sitenin daha önce incelediği <a href="/tr/blog/funding-flip-oi-rebuild-etf-outflow-gap">fonlama-OI-ETF çıkışı farkı</a>nın da doğruladığı gibi, fonlama oranı ve açık pozisyon bu short squeeze'in ardından birkaç saat içinde long tarafa döndü, ETF akışları ise bir gün içinde net çıkışa geri döndü — türevler gerçek spot talep göstergelerinden çok daha hızlı ve büyük tepki verdi, bu düzen burada da tekrarlandı. Opsiyon piyasaları da benzer bir hikaye anlattı: bu sitenin bir önceki gün incelediği <a href="/tr/blog/dvol-flat-skew-cpi-surge-confirmation-gap">DVOL-skew farkı</a>, toparlanmaya rağmen call-put skew'in hâlâ put tarafına eğik kaldığını ortaya koydu. Nasdaq ve S&P 500 gibi spot ağırlıklı piyasalarda, açığa satıcıları pozisyonlarını geri almaya zorlayan bu tür bir kaldıraç geri besleme döngüsü nispeten zayıftır. Sonuçta, Bitcoin'in türev piyasası yapısının kendisi, aynı büyüklükteki makro haberi kat kat daha büyük bir fiyat hareketine dönüştüren bir amplifikatör görevi görüyor.</p>
 <p class="vi">Như bài kiểm tra trước đó của trang này về <a href="/vi/blog/funding-flip-oi-rebuild-etf-outflow-gap">khoảng cách funding-OI-dòng ETF rút ra</a> đã xác nhận, tỷ lệ funding và open interest đã chuyển sang phía long chỉ trong vài giờ sau đợt short squeeze này, trong khi dòng vốn ETF quay trở lại rút ròng chỉ trong một ngày — phái sinh phản ứng nhanh và mạnh hơn nhiều so với các thước đo nhu cầu giao ngay thực tế, một khuôn mẫu lặp lại ở đây. Thị trường quyền chọn cũng kể một câu chuyện tương tự: bài kiểm tra của trang này một ngày trước đó về <a href="/vi/blog/dvol-flat-skew-cpi-surge-confirmation-gap">khoảng cách DVOL-skew</a> phát hiện rằng, bất chấp đà phục hồi, độ lệch call-put vẫn nghiêng về phía put. Các thị trường do giao ngay chi phối như Nasdaq và S&P 500 thiếu loại vòng phản hồi đòn bẩy buộc người bán khống phải mua lại vị thế. Cuối cùng, chính cấu trúc thị trường phái sinh của Bitcoin đóng vai trò như một bộ khuếch đại, biến cùng một quy mô tin tức vĩ mô thành một biến động giá lớn hơn gấp nhiều lần.</p>
+<p class="id">Seperti dikonfirmasi oleh analisis sebelumnya situs ini mengenai <a href="/id/blog/funding-flip-oi-rebuild-etf-outflow-gap">kesenjangan funding-OI-arus keluar ETF</a>, funding rate dan open interest berbalik ke sisi long dalam hitungan jam setelah short squeeze ini, sementara arus dana ETF kembali berbalik menjadi arus keluar bersih dalam waktu satu hari — derivatif bereaksi jauh lebih cepat dan lebih besar dibanding indikator permintaan spot yang sebenarnya, pola yang terulang di sini. Pasar opsi menunjukkan cerita serupa: analisis situs ini sehari sebelumnya mengenai <a href="/id/blog/dvol-flat-skew-cpi-surge-confirmation-gap">kesenjangan DVOL-skew</a> menemukan bahwa, meski terjadi rebound, skew call-put tetap condong ke put. Pasar yang didominasi spot seperti Nasdaq dan S&P 500 tidak memiliki jenis loop umpan balik leverage seperti ini yang memaksa penjual short untuk membeli kembali posisi mereka. Pada akhirnya, struktur pasar derivatif Bitcoin sendiri berfungsi sebagai amplifier, mengubah berita makro dengan besaran yang sama menjadi ayunan harga yang beberapa kali lebih besar.</p>
+<p class="pl">Jak potwierdziła wcześniejsza analiza tej strony dotycząca <a href="/pl/blog/funding-flip-oi-rebuild-etf-outflow-gap">luki funding-OI-odpływ ETF</a>, stopa finansowania i open interest przeszły na stronę long w ciągu kilku godzin od tego short squeeze'u, podczas gdy przepływy ETF w ciągu jednego dnia ponownie zmieniły się w odpływ netto — instrumenty pochodne reagowały znacznie szybciej i mocniej niż faktyczne wskaźniki popytu spot, a ten wzorzec powtórzył się i tutaj. Rynki opcji opowiadały podobną historię: analiza tej strony z dnia poprzedniego dotycząca <a href="/pl/blog/dvol-flat-skew-cpi-surge-confirmation-gap">luki DVOL-skew</a> wykazała, że mimo odbicia, skew call-put pozostał nastawiony w stronę put. Rynkom zdominowanym przez spot, takim jak Nasdaq i S&P 500, brakuje tego rodzaju pętli sprzężenia zwrotnego dźwigni, która zmusza sprzedających na krótko do odkupienia swoich pozycji. Ostatecznie sama struktura rynku instrumentów pochodnych Bitcoina działa jak wzmacniacz, zamieniając wiadomość makroekonomiczną o tej samej wadze w wahnięcie ceny kilkukrotnie większe.</p>
+<p class="it">Come ha confermato la precedente analisi di questo sito sul <a href="/it/blog/funding-flip-oi-rebuild-etf-outflow-gap">divario funding-OI-deflussi ETF</a>, i funding rate e l'open interest sono passati al lato long entro poche ore da questo short squeeze, mentre i flussi degli ETF sono tornati a un deflusso netto entro un giorno — i derivati hanno reagito molto più velocemente e con maggiore intensità rispetto agli indicatori reali della domanda spot, uno schema che si è ripetuto anche qui. I mercati delle opzioni hanno raccontato una storia simile: l'analisi di questo sito del giorno precedente sul <a href="/it/blog/dvol-flat-skew-cpi-surge-confirmation-gap">divario DVOL-skew</a> ha rilevato che, nonostante il rimbalzo, lo skew call-put è rimasto orientato verso i put. Mercati dominati dallo spot come Nasdaq e S&P 500 mancano di questo tipo di ciclo di retroazione della leva che costringe i venditori allo scoperto a riacquistare le proprie posizioni. Alla fine, la struttura stessa del mercato dei derivati del bitcoin funge da amplificatore, trasformando una notizia macro della stessa entità in un'oscillazione di prezzo diverse volte più ampia.</p>
+<p class="ru">Как подтвердил более ранний обзор этого сайта о <a href="/ru/blog/funding-flip-oi-rebuild-etf-outflow-gap">разрыве между фандингом, открытым интересом и оттоком из ETF</a>, ставки фандинга и открытый интерес развернулись в сторону лонгов в течение нескольких часов после этого шорт-сквиза, тогда как потоки ETF вернулись к чистому оттоку в течение дня — деривативы реагировали намного быстрее и сильнее, чем реальные показатели спотового спроса, и этот паттерн повторился и здесь. Рынки опционов рассказали похожую историю: обзор этого сайта днём ранее о <a href="/ru/blog/dvol-flat-skew-cpi-surge-confirmation-gap">разрыве DVOL-skew</a> показал, что, несмотря на отскок, скью call-put оставался смещён в сторону путов. Спот-ориентированным рынкам, таким как Nasdaq и S&P 500, не хватает подобного контура обратной связи через плечо, который вынуждает продавцов в шорт выкупать свои позиции. В итоге сама структура рынка деривативов биткоина действует как усилитель, превращая макроновость одного и того же масштаба в ценовое движение в несколько раз большее.</p>
+<p class="zh">正如本站先前對<a href="/zh/blog/funding-flip-oi-rebuild-etf-outflow-gap">資金費率-未平倉量-ETF資金流出落差</a>的檢視所證實,資金費率與未平倉量在這波空頭回補後數小時內就轉向多頭,而ETF資金流則在一天內又轉為淨流出——衍生性商品市場的反應遠比實際現貨需求指標更快、更劇烈,這種模式在此再度重演。選擇權市場也講述了類似的故事:本站前一天對<a href="/zh/blog/dvol-flat-skew-cpi-surge-confirmation-gap">DVOL與偏斜落差</a>的檢視發現,儘管出現反彈,買權-賣權偏斜仍偏向賣權一側。像那斯達克、標普500這類以現貨為主的市場,缺乏這種迫使空頭回補部位的槓桿反饋循環。歸根結柢,比特幣衍生性商品市場結構本身就扮演了放大器的角色,將同等規模的宏觀消息轉化為數倍更大的價格波動。</p>
 
 <h2 class="ko">금리 재산정이라는 공통분모 — 이번 랠리는 무엇을 가리키나</h2>
 <h2 class="en">The Common Thread of Rate Repricing — What This Rally Is Pointing To</h2>
@@ -382,6 +547,11 @@
 <h2 class="pt">O Denominador Comum da Reprecificação de Juros — Para Onde Esse Rali Aponta</h2>
 <h2 class="tr">Faiz Yeniden Fiyatlamasının Ortak Paydası — Bu Rally Neyi İşaret Ediyor</h2>
 <h2 class="vi">Mẫu Số Chung Của Việc Định Giá Lại Lãi Suất — Đợt Tăng Này Đang Chỉ Ra Điều Gì</h2>
+<h2 class="id">Benang Merah Penyesuaian Ulang Suku Bunga — Apa yang Ditunjukkan Reli Ini</h2>
+<h2 class="pl">Wspólny Mianownik Przeszacowania Stóp — Na Co Wskazuje Ten Rajd</h2>
+<h2 class="it">Il Filo Comune del Riprezzamento dei Tassi — Cosa Indica Questo Rally</h2>
+<h2 class="ru">Общая Нить Переоценки Ставок — На Что Указывает Это Ралли</h2>
+<h2 class="zh">利率重新定價的共同線索——這波反彈指向何方</h2>
 
 <p class="ko">CPI 발표 이후 연방기금선물 시장의 반응도 이 해석을 뒷받침한다. 크립토브리핑 등이 인용한 CME 페드워치 기준 7월29일 FOMC에서의 금리 인상 확률은 발표 전 25~35% 수준에서 발표 후 8%까지 급락했고, 동결 확률은 소스에 따라 83~88% 사이로 집계됐다. 금리 인상 가능성이 낮아지고 향후 인하 기대가 되살아나는 국면에서는, 이자를 낳지 않는 자산인 금과 비트코인, 그리고 달러 자체(달러인덱스 하락)가 채권 실질금리 하락을 가장 먼저, 가장 크게 반영하는 경향이 있다.</p>
 <p class="en">The fed funds futures market's reaction after the CPI print supports this reading. Per CME FedWatch data cited by outlets including CryptoBriefing, the odds of a rate hike at the July 29 FOMC meeting collapsed from a pre-print 25-35% to just 8%, while the odds of holding steady were pegged between 83% and 88% depending on the source. When hike odds fall and cut expectations start to revive, non-yielding assets — gold and Bitcoin — along with the dollar itself (reflected in the falling Dollar Index) tend to be the first and biggest to price in the drop in real rates.</p>
