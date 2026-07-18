@@ -143,6 +143,11 @@
 <h2 class="pt">O Mapa de Calor de Liquidações — Novos Aglomerados se Reformaram Assim que os Antigos Sumiram</h2>
 <h2 class="tr">Tasfiye Isı Haritası — Eskiler Temizlenir Temizlenmez Yeni Kümeler Oluştu</h2>
 <h2 class="vi">Bản Đồ Nhiệt Thanh Lý — Cụm Mới Hình Thành Ngay Khi Cụm Cũ Vừa Biến Mất</h2>
+<h2 class="id">Peta Panas Likuidasi — Klaster Baru Terbentuk Kembali Begitu yang Lama Bersih</h2>
+<h2 class="pl">Mapa Cieplna Likwidacji — Nowe Skupiska Odbudowane, Gdy Tylko Stare Zostały Wyczyszczone</h2>
+<h2 class="it">La Heatmap delle Liquidazioni — Nuovi Cluster Ricostruiti Non Appena i Vecchi si Sono Ripuliti</h2>
+<h2 class="ru">Тепловая Карта Ликвидаций — Новые Кластеры Восстановились, Едва Старые Исчезли</h2>
+<h2 class="zh">清算熱力圖——舊區才剛清空,新密集區立刻堆積</h2>
 
 <p class="ko">데일리포렉스 등이 인용한 코인글래스 청산 히트맵을 보면, 이번 청산으로 레버리지가 정리된 지 하루이틀 만에 벌써 새로운 밀집구간이 형성됐다. 위쪽으로는 6만5,000~6만5,500달러 구간에 청산 물량이 쌓였고, 아래쪽으로는 6만3,000달러 부근에 또 다른 밀집구간이 잡힌다. CME 7월물 선물도 6만5,090달러(전일比 +0.58%)로 현물과 큰 괴리 없이 같은 구간에서 움직이고 있다.</p>
 <p class="en">CoinGlass's liquidation heatmap, cited by outlets like DailyForex, shows new dense clusters have already formed just a day or two after this liquidation flush cleared leverage out. Above current price, liquidation-linked positions have piled up in the $65,000-$65,500 band; below it, another cluster sits around $63,000. CME's July futures contract is trading at $65,090 (+0.58% from the prior session), moving in roughly the same range as spot with no major gap.</p>
