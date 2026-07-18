@@ -144,6 +144,11 @@
 <h2 class="pt">O contra-argumento — a própria Visa tem interesse nas conclusões deste relatório</h2>
 <h2 class="tr">Karşı argüman — Visa'nın kendisi de bu raporun sonucunda çıkarı var</h2>
 <h2 class="vi">Quan điểm phản biện — chính Visa cũng có lợi ích trong kết luận của báo cáo này</h2>
+<h2 class="id">Argumen Tandingan — Visa Sendiri Punya Kepentingan dalam Kesimpulan Laporan Ini</h2>
+<h2 class="pl">Kontrargument — sama Visa ma interes w konkluzji tego raportu</h2>
+<h2 class="it">La controargomentazione — anche Visa stessa ha un interesse nelle conclusioni di questo rapporto</h2>
+<h2 class="ru">Контраргумент — сама Visa заинтересована в выводах этого отчёта</h2>
+<h2 class="zh">反方論點——Visa自身在這份報告的結論中也有利益關係</h2>
 
 <p class="ko">이 보고서를 읽을 때는 비자가 카드망 운영사인 동시에, 비자다이렉트(Visa Direct)와 스테이블코인 정산을 지원하는 토큰화 플랫폼 등 마이크로 커머스 인프라에도 이미 투자해 온 회사라는 점을 감안해야 한다. 즉 보고서의 "경쟁이 아니라 융합"이라는 결론은, 카드와 스테이블코인 중 어느 쪽이 이기더라도 비자가 손해 보지 않는 위치에서 나온 것이다. 이해관계가 있는 발표자가 시장을 낙관적으로 진단하는 것 자체가 틀렸다는 뜻은 아니지만, 성장률과 전망치를 그대로 받아들이기보다 비자가 어느 쪽에도 베팅해 둔 헤지 포지션이라는 맥락 속에서 읽을 필요가 있다.</p>
 <p class="ko">더 근본적인 문제는 아직 해소되지 않은 인프라 공백이다. 에이전트가 자율적으로 결제를 실행할 때 발생하는 오류나 사기성 거래의 법적 책임을 누가 지는지, 사람이 위임한 권한의 범위를 벗어난 결제를 무효화할 수 있는 표준적 환불·정지 절차가 있는지 등은 이번 보고서에서 다뤄지지 않았다. 게다가 마이크로 커머스 레일을 두고 x402재단 같은 경쟁 표준들도 동시에 움직이고 있어, 비자가 그린 청사진대로 스테이블코인이 "카드사가 주도하는" 인프라로 자리 잡을지, 아니면 카드사를 우회하는 독립적 표준으로 굳어질지는 아직 열려 있는 질문이다.</p>
