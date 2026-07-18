@@ -390,6 +390,156 @@
   <text x="35" y="415" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Phục hồi trung bình 2-3 tháng sau: +15-26% — không liên quan đến mức độ tự tin</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Informasi Naik 8x, Akurasi Tidak Bergerak</text>
+  <text x="20" y="48" fill="#71717a" font-size="12" font-family="sans-serif">Eksperimen penilai pacuan kuda (Slovic, 1973) · 5 vs 40 variabel</text>
+  <rect x="440" y="60" width="12" height="12" fill="#f59e0b"/>
+  <text x="458" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Keyakinan</text>
+  <rect x="570" y="60" width="12" height="12" fill="#52525b"/>
+  <text x="588" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Akurasi</text>
+  <text x="20" y="105" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">5 variabel</text>
+  <text x="150" y="128" fill="#71717a" font-size="12" font-family="sans-serif">Yak.</text>
+  <rect x="200" y="116" width="228" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="438" y="130" fill="#fafafa" font-size="13" font-weight="700">19%</text>
+  <text x="150" y="156" fill="#71717a" font-size="12" font-family="sans-serif">Akr.</text>
+  <rect x="200" y="144" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="158" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <text x="20" y="205" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">40 variabel</text>
+  <text x="150" y="228" fill="#71717a" font-size="12" font-family="sans-serif">Yak.</text>
+  <rect x="200" y="216" width="408" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="618" y="230" fill="#fafafa" font-size="13" font-weight="700">34%</text>
+  <text x="150" y="256" fill="#71717a" font-size="12" font-family="sans-serif">Akr.</text>
+  <rect x="200" y="244" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="258" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <rect x="20" y="290" width="660" height="155" rx="8" fill="none" stroke="#3f3f46" stroke-width="1"/>
+  <text x="35" y="316" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">16 Nov 2025 · Confluence Death Cross Bitcoin</text>
+  <text x="35" y="340" fill="#d4d4d8" font-size="13" font-family="sans-serif">Death cross 50/200 hari + tembus MA 50 minggu + bahaya CDD + arus keluar ETF</text>
+  <text x="35" y="362" fill="#d4d4d8" font-size="13" font-family="sans-serif">Semua sekaligus → turun 25% dari puncak Oktober $126K, di bawah $90K</text>
+  <text x="35" y="393" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Data 10 tahun: return 3 minggu setelah death cross terbagi hampir 50/50</text>
+  <text x="35" y="415" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Rata-rata pemulihan 2-3 bulan kemudian: +15-26% — tidak berkaitan dengan seberapa yakin rasanya</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Informacja Wzrosła 8x, Dokładność Się Nie Zmieniła</text>
+  <text x="20" y="48" fill="#71717a" font-size="12" font-family="sans-serif">Eksperyment z typerami wyścigów konnych (Slovic, 1973) · 5 vs 40 zmiennych</text>
+  <rect x="450" y="60" width="12" height="12" fill="#f59e0b"/>
+  <text x="468" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Pewność</text>
+  <rect x="580" y="60" width="12" height="12" fill="#52525b"/>
+  <text x="598" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Dokładność</text>
+  <text x="20" y="105" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">5 zmiennych</text>
+  <text x="150" y="128" fill="#71717a" font-size="12" font-family="sans-serif">Pew.</text>
+  <rect x="200" y="116" width="228" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="438" y="130" fill="#fafafa" font-size="13" font-weight="700">19%</text>
+  <text x="150" y="156" fill="#71717a" font-size="12" font-family="sans-serif">Dokł.</text>
+  <rect x="200" y="144" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="158" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <text x="20" y="205" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">40 zmiennych</text>
+  <text x="150" y="228" fill="#71717a" font-size="12" font-family="sans-serif">Pew.</text>
+  <rect x="200" y="216" width="408" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="618" y="230" fill="#fafafa" font-size="13" font-weight="700">34%</text>
+  <text x="150" y="256" fill="#71717a" font-size="12" font-family="sans-serif">Dokł.</text>
+  <rect x="200" y="244" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="258" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <rect x="20" y="290" width="660" height="155" rx="8" fill="none" stroke="#3f3f46" stroke-width="1"/>
+  <text x="35" y="316" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">16 listopada 2025 · Konfluencja Krzyża Śmierci Bitcoina</text>
+  <text x="35" y="340" fill="#d4d4d8" font-size="13" font-family="sans-serif">Krzyż śmierci 50/200 dni + przebicie MA 50 tygodni + zagrożenie CDD + odpływy z ETF</text>
+  <text x="35" y="362" fill="#d4d4d8" font-size="13" font-family="sans-serif">Wszystko naraz → spadek o 25% od październikowego szczytu 126 tys. USD, poniżej 90 tys. USD</text>
+  <text x="35" y="393" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Dane z 10 lat: zwroty 3 tygodnie po krzyżu śmierci rozkładają się niemal 50/50</text>
+  <text x="35" y="415" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Średnie odbicie 2-3 miesiące później: +15-26% — bez związku z tym, jak pewne to się wydawało</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">L'Informazione È Aumentata di 8 Volte, l'Accuratezza Non Si È Mossa</text>
+  <text x="20" y="48" fill="#71717a" font-size="12" font-family="sans-serif">L'esperimento degli handicapper ippici (Slovic, 1973) · 5 vs 40 variabili</text>
+  <rect x="440" y="60" width="12" height="12" fill="#f59e0b"/>
+  <text x="458" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Fiducia</text>
+  <rect x="560" y="60" width="12" height="12" fill="#52525b"/>
+  <text x="578" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Accuratezza</text>
+  <text x="20" y="105" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">5 variabili</text>
+  <text x="150" y="128" fill="#71717a" font-size="12" font-family="sans-serif">Fid.</text>
+  <rect x="200" y="116" width="228" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="438" y="130" fill="#fafafa" font-size="13" font-weight="700">19%</text>
+  <text x="150" y="156" fill="#71717a" font-size="12" font-family="sans-serif">Prec.</text>
+  <rect x="200" y="144" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="158" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <text x="20" y="205" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">40 variabili</text>
+  <text x="150" y="228" fill="#71717a" font-size="12" font-family="sans-serif">Fid.</text>
+  <rect x="200" y="216" width="408" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="618" y="230" fill="#fafafa" font-size="13" font-weight="700">34%</text>
+  <text x="150" y="256" fill="#71717a" font-size="12" font-family="sans-serif">Prec.</text>
+  <rect x="200" y="244" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="258" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <rect x="20" y="290" width="660" height="155" rx="8" fill="none" stroke="#3f3f46" stroke-width="1"/>
+  <text x="35" y="316" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">16 nov 2025 · La Confluenza del Death Cross di Bitcoin</text>
+  <text x="35" y="340" fill="#d4d4d8" font-size="13" font-family="sans-serif">Death cross 50/200 giorni + rottura MA 50 settimane + allarme CDD + deflussi ETF</text>
+  <text x="35" y="362" fill="#d4d4d8" font-size="13" font-family="sans-serif">Tutto insieme → -25% dal picco di ottobre di $126K, sotto i $90K</text>
+  <text x="35" y="393" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Dati di 10 anni: i rendimenti 3 settimane dopo un death cross si dividono quasi 50/50</text>
+  <text x="35" y="415" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Recupero medio 2-3 mesi dopo: +15-26% — senza alcun rapporto con quanto sembrasse certo</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Информация Выросла в 8 Раз, Точность Не Сдвинулась</text>
+  <text x="20" y="48" fill="#71717a" font-size="12" font-family="sans-serif">Эксперимент с ипподромными оценщиками (Словик, 1973) · 5 против 40 переменных</text>
+  <rect x="420" y="60" width="12" height="12" fill="#f59e0b"/>
+  <text x="438" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Уверенность</text>
+  <rect x="580" y="60" width="12" height="12" fill="#52525b"/>
+  <text x="598" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">Точность</text>
+  <text x="20" y="105" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">5 переменных</text>
+  <text x="150" y="128" fill="#71717a" font-size="12" font-family="sans-serif">Увер.</text>
+  <rect x="200" y="116" width="228" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="438" y="130" fill="#fafafa" font-size="13" font-weight="700">19%</text>
+  <text x="150" y="156" fill="#71717a" font-size="12" font-family="sans-serif">Точн.</text>
+  <rect x="200" y="144" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="158" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <text x="20" y="205" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">40 переменных</text>
+  <text x="150" y="228" fill="#71717a" font-size="12" font-family="sans-serif">Увер.</text>
+  <rect x="200" y="216" width="408" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="618" y="230" fill="#fafafa" font-size="13" font-weight="700">34%</text>
+  <text x="150" y="256" fill="#71717a" font-size="12" font-family="sans-serif">Точн.</text>
+  <rect x="200" y="244" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="258" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <rect x="20" y="290" width="660" height="155" rx="8" fill="none" stroke="#3f3f46" stroke-width="1"/>
+  <text x="35" y="316" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">16 ноября 2025 · Confluence «Креста Смерти» Биткоина</text>
+  <text x="35" y="340" fill="#d4d4d8" font-size="13" font-family="sans-serif">«Крест смерти» 50/200 дней + пробой MA за 50 недель + опасность по CDD + отток из ETF</text>
+  <text x="35" y="362" fill="#d4d4d8" font-size="13" font-family="sans-serif">Всё сразу → падение на 25% от октябрьского пика в $126K, ниже $90K</text>
+  <text x="35" y="393" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Данные за 10 лет: доходность через 3 недели после «креста смерти» делится почти 50/50</text>
+  <text x="35" y="415" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">Среднее восстановление через 2-3 месяца: +15-26% — никак не связано с тем, насколько уверенно это ощущалось</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">資訊增加 8 倍,準確度卻沒有變動</text>
+  <text x="20" y="48" fill="#71717a" font-size="12" font-family="sans-serif">賽馬評分員實驗(Slovic, 1973)· 5 個對 40 個變數</text>
+  <rect x="480" y="60" width="12" height="12" fill="#f59e0b"/>
+  <text x="498" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">信心</text>
+  <rect x="560" y="60" width="12" height="12" fill="#52525b"/>
+  <text x="578" y="70" fill="#a1a1aa" font-size="12.5" font-weight="700">準確度</text>
+  <text x="20" y="105" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">5 個變數</text>
+  <text x="150" y="128" fill="#71717a" font-size="12" font-family="sans-serif">信心</text>
+  <rect x="200" y="116" width="228" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="438" y="130" fill="#fafafa" font-size="13" font-weight="700">19%</text>
+  <text x="150" y="156" fill="#71717a" font-size="12" font-family="sans-serif">準度</text>
+  <rect x="200" y="144" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="158" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <text x="20" y="205" fill="#d4d4d8" font-size="13.5" font-weight="700" font-family="sans-serif">40 個變數</text>
+  <text x="150" y="228" fill="#71717a" font-size="12" font-family="sans-serif">信心</text>
+  <rect x="200" y="216" width="408" height="18" fill="#f59e0b" opacity="0.85" rx="3"/>
+  <text x="618" y="230" fill="#fafafa" font-size="13" font-weight="700">34%</text>
+  <text x="150" y="256" fill="#71717a" font-size="12" font-family="sans-serif">準度</text>
+  <rect x="200" y="244" width="204" height="18" fill="#52525b" rx="3"/>
+  <text x="414" y="258" fill="#fafafa" font-size="13" font-weight="700">17%</text>
+  <rect x="20" y="290" width="660" height="155" rx="8" fill="none" stroke="#3f3f46" stroke-width="1"/>
+  <text x="35" y="316" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">2025 年 11 月 16 日 · 比特幣死亡交叉共振</text>
+  <text x="35" y="340" fill="#d4d4d8" font-size="13" font-family="sans-serif">50 日/200 日死亡交叉 + 跌破 50 週均線 + CDD 危險訊號 + ETF 資金流出</text>
+  <text x="35" y="362" fill="#d4d4d8" font-size="13" font-family="sans-serif">全部同時發生 → 較 10 月高點 12.6 萬美元下跌 25%,跌破 9 萬美元</text>
+  <text x="35" y="393" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">10 年數據:死亡交叉後 3 週的報酬率幾乎五五波</text>
+  <text x="35" y="415" fill="#a1a1aa" font-size="12.5" font-family="sans-serif">2 至 3 個月後的平均回升幅度:+15% 至 26% —— 與當時信心有多強毫無關係</text>
+</svg>
+</div>
 
 <h2 class="ko">2025년 11월, 신호들이 한목소리로 말했다</h2>
 <h2 class="en">November 2025, When Every Signal Spoke With One Voice</h2>

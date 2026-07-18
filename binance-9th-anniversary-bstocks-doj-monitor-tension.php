@@ -525,6 +525,206 @@
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Số liệu do công ty công bố và từ báo chí công khai; chưa có số liệu nào qua kiểm toán độc lập.</p>
 </div>
 
+<div class="id">
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Binance di Usia 9 — Garis Waktu Ekspansi, dan Pengawasan yang Masih Berjalan</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="185" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Garis Waktu</text>
+    <text x="50" y="107" fill="#a1a1aa" font-size="13">Jul 2017 — Binance diluncurkan (pemegang kripto global saat itu &lt;6 juta)</text>
+    <text x="50" y="129" fill="#a1a1aa" font-size="13">Apr-Okt 2021 — Token saham diluncurkan, BaFin/FCA bertindak, ditarik</text>
+    <text x="50" y="151" fill="#a1a1aa" font-size="13">Nov 2023 — Penyelesaian DOJ $4,3 miliar, CZ mengaku bersalah/mundur, pemantau 5 tahun</text>
+    <text x="50" y="173" fill="#a1a1aa" font-size="13">Okt 2025 — Presiden Trump mengampuni CZ (pengawasan perusahaan tetap berlaku)</text>
+    <text x="50" y="195" fill="#67e8f9" font-size="13" font-weight="700">Apr-Mei 2026 — Surat Depkeu soal aliran $1,7 miliar terkait Iran, tekanan Senat</text>
+    <text x="50" y="217" fill="#67e8f9" font-size="13" font-weight="700">Jun 2026 — Peluncuran Direct/bStocks; rilis ulang tahun ke-9 pada 14 Jul</text>
+
+    <text x="50" y="263" fill="#e4e4e7" font-size="14" font-weight="700">Angka Utama Ulang Tahun Kesembilan</text>
+    <text x="50" y="288" fill="#e4e4e7" font-size="13">Pengguna terdaftar</text>
+    <text x="628" y="288" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">323 juta (~43%)</text>
+    <text x="50" y="311" fill="#e4e4e7" font-size="13">Volume perdagangan kumulatif</text>
+    <text x="628" y="311" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">$156 triliun</text>
+    <text x="50" y="334" fill="#e4e4e7" font-size="13">Pertumbuhan pengguna institusional (H1)</text>
+    <text x="628" y="334" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">+9%</text>
+
+    <text x="50" y="368" fill="#e4e4e7" font-size="14" font-weight="700">AUM Produk TradFi Baru</text>
+    <text x="50" y="393" fill="#e4e4e7" font-size="13">Direct (saham AS, diluncurkan 1 Jun, 30 hari)</text>
+    <rect x="330" y="380" width="290" height="16" rx="3" fill="#3b82f6"/>
+    <text x="628" y="393" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">$1,0 miliar</text>
+    <text x="50" y="421" fill="#e4e4e7" font-size="13">bStocks (sekuritas token, diluncurkan 12 Jun, 2 minggu)</text>
+    <rect x="330" y="408" width="29" height="16" rx="3" fill="#67e8f9"/>
+    <text x="628" y="421" fill="#67e8f9" font-size="13" font-weight="700" text-anchor="end">$100 juta</text>
+
+    <rect x="30" y="450" width="640" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="477" fill="#fca5a5" font-size="14" font-weight="700">Pengawasan yang Masih Berjalan</text>
+    <text x="50" y="502" fill="#e4e4e7" font-size="13">Pemantau independen 5 tahun — akses penuh ke pembukuan, kepatuhan, data transaksi</text>
+    <text x="50" y="527" fill="#e4e4e7" font-size="13">Apr 2026 — Sen. Blumenthal mendesak DOJ/Depkeu soal aliran dana terkait Iran</text>
+    <text x="50" y="552" fill="#e4e4e7" font-size="13">Mei 2026 — Depkeu mengirim surat soal investigasi sanksi (menurut Bloomberg)</text>
+    <text x="50" y="570" fill="#71717a" font-size="12">bStocks hanya ditawarkan melalui prospektus yang disetujui ADGM, investor AS dikecualikan</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Angka-angka ini berasal dari laporan perusahaan dan pemberitaan publik; belum ada yang melalui audit independen.</p>
+</div>
+
+<div class="pl">
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Binance Kończy 9 Lat — Chronologia Ekspansji i Wciąż Trwający Nadzór</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="185" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Chronologia</text>
+    <text x="50" y="107" fill="#a1a1aa" font-size="13">Lip 2017 — Binance startuje (na świecie &lt;6 mln posiadaczy kryptowalut)</text>
+    <text x="50" y="129" fill="#a1a1aa" font-size="13">Kwi-Paź 2021 — Tokeny akcji uruchomione, BaFin/FCA interweniują, wycofane</text>
+    <text x="50" y="151" fill="#a1a1aa" font-size="13">Lis 2023 — Ugoda z DOJ na 4,3 mld $, CZ przyznaje się do winy/rezygnuje, 5-letni monitor</text>
+    <text x="50" y="173" fill="#a1a1aa" font-size="13">Paź 2025 — Prezydent Trump ułaskawia CZ (nadzór nad spółką pozostaje)</text>
+    <text x="50" y="195" fill="#67e8f9" font-size="13" font-weight="700">Kwi-Maj 2026 — Pismo Departamentu Skarbu ws. przepływów 1,7 mld $ powiązanych z Iranem, presja Senatu</text>
+    <text x="50" y="217" fill="#67e8f9" font-size="13" font-weight="700">Cze 2026 — Start Direct/bStocks; komunikat o 9. rocznicy 14 lipca</text>
+
+    <text x="50" y="263" fill="#e4e4e7" font-size="14" font-weight="700">Kluczowe Liczby z Dziewiątej Rocznicy</text>
+    <text x="50" y="288" fill="#e4e4e7" font-size="13">Zarejestrowani użytkownicy</text>
+    <text x="628" y="288" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">323 mln (~43%)</text>
+    <text x="50" y="311" fill="#e4e4e7" font-size="13">Skumulowany wolumen obrotu</text>
+    <text x="628" y="311" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">156 bln $</text>
+    <text x="50" y="334" fill="#e4e4e7" font-size="13">Wzrost liczby użytkowników instytucjonalnych (I półrocze)</text>
+    <text x="628" y="334" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">+9%</text>
+
+    <text x="50" y="368" fill="#e4e4e7" font-size="14" font-weight="700">AUM Nowych Produktów TradFi</text>
+    <text x="50" y="393" fill="#e4e4e7" font-size="13">Direct (akcje USA, start 1 cze, 30 dni)</text>
+    <rect x="330" y="380" width="290" height="16" rx="3" fill="#3b82f6"/>
+    <text x="628" y="393" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">1,0 mld $</text>
+    <text x="50" y="421" fill="#e4e4e7" font-size="13">bStocks (tokenizowane papiery wartościowe, start 12 cze, 2 tygodnie)</text>
+    <rect x="330" y="408" width="29" height="16" rx="3" fill="#67e8f9"/>
+    <text x="628" y="421" fill="#67e8f9" font-size="13" font-weight="700" text-anchor="end">100 mln $</text>
+
+    <rect x="30" y="450" width="640" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="477" fill="#fca5a5" font-size="14" font-weight="700">Nadzór, Który Wciąż Trwa</text>
+    <text x="50" y="502" fill="#e4e4e7" font-size="13">5-letni niezależny monitor — pełny dostęp do ksiąg, zgodności i danych transakcyjnych</text>
+    <text x="50" y="527" fill="#e4e4e7" font-size="13">Kwi 2026 — Sen. Blumenthal naciska na DOJ/Departament Skarbu ws. przepływów powiązanych z Iranem</text>
+    <text x="50" y="552" fill="#e4e4e7" font-size="13">Maj 2026 — Departament Skarbu wysyła pismo ws. dochodzenia w sprawie sankcji (wg Bloomberga)</text>
+    <text x="50" y="570" fill="#71717a" font-size="12">bStocks oferowany wyłącznie przez prospekt zatwierdzony przez ADGM, inwestorzy z USA wykluczeni</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Dane pochodzą od spółki oraz z publicznych doniesień; żadne z nich nie przeszły niezależnego audytu.</p>
+</div>
+
+<div class="it">
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Binance a 9 Anni — la Cronologia dell'Espansione, e la Vigilanza Ancora in Corso</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="185" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Cronologia</text>
+    <text x="50" y="107" fill="#a1a1aa" font-size="13">Lug 2017 — Binance viene lanciata (detentori di cripto nel mondo &lt;6M)</text>
+    <text x="50" y="129" fill="#a1a1aa" font-size="13">Apr-Ott 2021 — Lanciati i token azionari, BaFin/FCA intervengono, ritirati</text>
+    <text x="50" y="151" fill="#a1a1aa" font-size="13">Nov 2023 — Accordo da 4,3 Mld $ con il DOJ, CZ si dichiara colpevole/si dimette, monitor di 5 anni</text>
+    <text x="50" y="173" fill="#a1a1aa" font-size="13">Ott 2025 — Il presidente Trump grazia CZ (il monitoraggio sull'azienda resta)</text>
+    <text x="50" y="195" fill="#67e8f9" font-size="13" font-weight="700">Apr-Mag 2026 — Lettera del Tesoro sui flussi da 1,7 Mld $ legati all'Iran, pressione del Senato</text>
+    <text x="50" y="217" fill="#67e8f9" font-size="13" font-weight="700">Giu 2026 — Lancio di Direct/bStocks; comunicato del 9° anniversario il 14 lug</text>
+
+    <text x="50" y="263" fill="#e4e4e7" font-size="14" font-weight="700">Numeri Chiave del Nono Anniversario</text>
+    <text x="50" y="288" fill="#e4e4e7" font-size="13">Utenti registrati</text>
+    <text x="628" y="288" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">323 Mln (~43%)</text>
+    <text x="50" y="311" fill="#e4e4e7" font-size="13">Volume di scambi cumulativo</text>
+    <text x="628" y="311" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">156.000 Mld $</text>
+    <text x="50" y="334" fill="#e4e4e7" font-size="13">Crescita utenti istituzionali (1° sem.)</text>
+    <text x="628" y="334" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">+9%</text>
+
+    <text x="50" y="368" fill="#e4e4e7" font-size="14" font-weight="700">AUM dei Nuovi Prodotti TradFi</text>
+    <text x="50" y="393" fill="#e4e4e7" font-size="13">Direct (azioni USA, lanciato 1° giu, 30 giorni)</text>
+    <rect x="330" y="380" width="290" height="16" rx="3" fill="#3b82f6"/>
+    <text x="628" y="393" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">1,0 Mld $</text>
+    <text x="50" y="421" fill="#e4e4e7" font-size="13">bStocks (titoli tokenizzati, lanciato 12 giu, 2 settimane)</text>
+    <rect x="330" y="408" width="29" height="16" rx="3" fill="#67e8f9"/>
+    <text x="628" y="421" fill="#67e8f9" font-size="13" font-weight="700" text-anchor="end">100 Mln $</text>
+
+    <rect x="30" y="450" width="640" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="477" fill="#fca5a5" font-size="14" font-weight="700">La Vigilanza Ancora in Corso</text>
+    <text x="50" y="502" fill="#e4e4e7" font-size="13">Monitor indipendente quinquennale — accesso completo a libri contabili, conformità, dati delle transazioni</text>
+    <text x="50" y="527" fill="#e4e4e7" font-size="13">Apr 2026 — Il sen. Blumenthal fa pressione su DOJ/Tesoro sui flussi legati all'Iran</text>
+    <text x="50" y="552" fill="#e4e4e7" font-size="13">Mag 2026 — Il Tesoro invia una lettera per l'indagine sulle sanzioni (secondo Bloomberg)</text>
+    <text x="50" y="570" fill="#71717a" font-size="12">bStocks offerto solo tramite prospetto approvato ADGM, investitori USA esclusi</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">I dati sono riportati dall'azienda e tratti da fonti pubbliche; nessuno ha subito una revisione indipendente.</p>
+</div>
+
+<div class="ru">
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Binance в 9 Лет — Хронология Экспансии и Всё Ещё Действующий Надзор</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="185" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">Хронология</text>
+    <text x="50" y="107" fill="#a1a1aa" font-size="13">Июл 2017 — Запуск Binance (тогда в мире &lt;6 млн держателей крипты)</text>
+    <text x="50" y="129" fill="#a1a1aa" font-size="13">Апр-окт 2021 — Запуск акционных токенов, вмешательство BaFin/FCA, отзыв</text>
+    <text x="50" y="151" fill="#a1a1aa" font-size="13">Ноя 2023 — Соглашение с DOJ на 4,3 млрд $, признание вины CZ/уход в отставку, 5-летний монитор</text>
+    <text x="50" y="173" fill="#a1a1aa" font-size="13">Окт 2025 — Президент Трамп помиловал CZ (надзор за компанией сохраняется)</text>
+    <text x="50" y="195" fill="#67e8f9" font-size="13" font-weight="700">Апр-май 2026 — Письмо Минфина по потокам на 1,7 млрд $, связанным с Ираном, давление Сената</text>
+    <text x="50" y="217" fill="#67e8f9" font-size="13" font-weight="700">Июн 2026 — Запуск Direct/bStocks; релиз к 9-летию 14 июля</text>
+
+    <text x="50" y="263" fill="#e4e4e7" font-size="14" font-weight="700">Ключевые Показатели к Девятой Годовщине</text>
+    <text x="50" y="288" fill="#e4e4e7" font-size="13">Зарегистрированные пользователи</text>
+    <text x="628" y="288" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">323 млн (~43%)</text>
+    <text x="50" y="311" fill="#e4e4e7" font-size="13">Совокупный торговый объём</text>
+    <text x="628" y="311" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">156 трлн $</text>
+    <text x="50" y="334" fill="#e4e4e7" font-size="13">Рост институциональных пользователей (1П)</text>
+    <text x="628" y="334" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">+9%</text>
+
+    <text x="50" y="368" fill="#e4e4e7" font-size="14" font-weight="700">AUM Новых Продуктов TradFi</text>
+    <text x="50" y="393" fill="#e4e4e7" font-size="13">Direct (акции США, запуск 1 июн, 30 дней)</text>
+    <rect x="330" y="380" width="290" height="16" rx="3" fill="#3b82f6"/>
+    <text x="628" y="393" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">1,0 млрд $</text>
+    <text x="50" y="421" fill="#e4e4e7" font-size="13">bStocks (токенизированные ценные бумаги, запуск 12 июн, 2 недели)</text>
+    <rect x="330" y="408" width="29" height="16" rx="3" fill="#67e8f9"/>
+    <text x="628" y="421" fill="#67e8f9" font-size="13" font-weight="700" text-anchor="end">100 млн $</text>
+
+    <rect x="30" y="450" width="640" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="477" fill="#fca5a5" font-size="14" font-weight="700">Надзор, Который Всё Ещё Действует</text>
+    <text x="50" y="502" fill="#e4e4e7" font-size="13">5-летний независимый монитор — полный доступ к бухгалтерии, комплаенсу, транзакционным данным</text>
+    <text x="50" y="527" fill="#e4e4e7" font-size="13">Апр 2026 — Сенатор Блюменталь давит на DOJ/Минфин из-за потоков средств, связанных с Ираном</text>
+    <text x="50" y="552" fill="#e4e4e7" font-size="13">Май 2026 — Минфин направляет письмо в связи с расследованием санкций (по данным Bloomberg)</text>
+    <text x="50" y="570" fill="#71717a" font-size="12">bStocks предлагается только через проспект, утверждённый ADGM, инвесторы из США исключены</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Данные предоставлены компанией и получены из открытых источников; ни одна цифра не прошла независимый аудит.</p>
+</div>
+
+<div class="zh">
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">幣安九週年 — 擴張時間軸,以及仍在持續的監管</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="640" height="185" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="82" fill="#e4e4e7" font-size="14" font-weight="700">時間軸</text>
+    <text x="50" y="107" fill="#a1a1aa" font-size="13">2017年7月 — 幣安成立(當時全球加密貨幣持有者不到600萬人)</text>
+    <text x="50" y="129" fill="#a1a1aa" font-size="13">2021年4月至10月 — 推出股票代幣,BaFin/FCA介入取締,撤回</text>
+    <text x="50" y="151" fill="#a1a1aa" font-size="13">2023年11月 — 與DOJ達成43億美元和解,CZ認罪並辭職,5年期監管人</text>
+    <text x="50" y="173" fill="#a1a1aa" font-size="13">2025年10月 — 川普總統赦免CZ(公司監管維持不變)</text>
+    <text x="50" y="195" fill="#67e8f9" font-size="13" font-weight="700">2026年4月至5月 — 財政部就17億美元伊朗相關資金流發函,參議院施壓</text>
+    <text x="50" y="217" fill="#67e8f9" font-size="13" font-weight="700">2026年6月 — Direct/bStocks上線;7月14日發布九週年公告</text>
+
+    <text x="50" y="263" fill="#e4e4e7" font-size="14" font-weight="700">九週年核心數據</text>
+    <text x="50" y="288" fill="#e4e4e7" font-size="13">註冊用戶</text>
+    <text x="628" y="288" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">3億2300萬(~43%)</text>
+    <text x="50" y="311" fill="#e4e4e7" font-size="13">累計交易量</text>
+    <text x="628" y="311" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">156兆美元</text>
+    <text x="50" y="334" fill="#e4e4e7" font-size="13">機構用戶成長(上半年)</text>
+    <text x="628" y="334" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">+9%</text>
+
+    <text x="50" y="368" fill="#e4e4e7" font-size="14" font-weight="700">新TradFi產品AUM</text>
+    <text x="50" y="393" fill="#e4e4e7" font-size="13">Direct(美股,6月1日上線,30天)</text>
+    <rect x="330" y="380" width="290" height="16" rx="3" fill="#3b82f6"/>
+    <text x="628" y="393" fill="#93c5fd" font-size="13" font-weight="700" text-anchor="end">10億美元</text>
+    <text x="50" y="421" fill="#e4e4e7" font-size="13">bStocks(代幣化證券,6月12日上線,2週)</text>
+    <rect x="330" y="408" width="29" height="16" rx="3" fill="#67e8f9"/>
+    <text x="628" y="421" fill="#67e8f9" font-size="13" font-weight="700" text-anchor="end">1億美元</text>
+
+    <rect x="30" y="450" width="640" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="477" fill="#fca5a5" font-size="14" font-weight="700">仍在持續的監管</text>
+    <text x="50" y="502" fill="#e4e4e7" font-size="13">5年期獨立監管人 — 全面接觸帳冊、合規系統與交易數據</text>
+    <text x="50" y="527" fill="#e4e4e7" font-size="13">2026年4月 — 參議員Blumenthal就伊朗相關資金流向DOJ/財政部施壓</text>
+    <text x="50" y="552" fill="#e4e4e7" font-size="13">2026年5月 — 財政部就制裁調查發函(據彭博報導)</text>
+    <text x="50" y="570" fill="#71717a" font-size="12">bStocks僅透過ADGM核准招股說明書提供,排除美國投資者</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">數據來自公司公布與公開報導,均未經過獨立審計。</p>
+</div>
+
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) bStocks가 ADGM 밖 다른 관할권으로 확장을 시도할 경우 유럽증권시장청(ESMA)·영국 FCA·미 SEC 등이 2021년과 유사한 대응에 나설지, (2) 재무부의 이란 연계 자금 흐름 조사와 상원의 모니터십 질의가 실제 제재나 추가 벌금으로 이어질지, (3) Direct·bStocks의 AUM 성장세가 초기 속도를 유지하며 바이낸스의 "금융 슈퍼앱" 비전에 부합하는 규모로 커지는지, 아니면 정체되는지.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) whether ESMA, the UK's FCA or the US SEC respond the way German and UK regulators did in 2021 if bStocks tries to expand beyond the ADGM, (2) whether Treasury's inquiry into Iran-linked flows and the Senate's questions about the monitorship lead to actual sanctions or further fines, and (3) whether Direct and bStocks AUM keeps growing at its initial pace toward the scale Binance's "financial super app" vision implies, or plateaus instead.</div>
 <div class="box ja">💡 <strong>今後注視すべきこと:</strong> (1)bStocksがADGMの外へ拡大を試みた場合、欧州証券市場監督機構(ESMA)・英FCA・米SECが2021年と同様の対応を取るか、(2)財務省のイラン関連資金流出調査と上院のモニターシップに関する質問が実際の制裁や追加の罰金につながるか、(3)Direct・bStocksのAUM成長が初期のペースを維持し、バイナンスの「金融スーパーアプリ」ビジョンに見合う規模に拡大するか、それとも頭打ちになるか。</div>
@@ -534,6 +734,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> (1) se a ESMA, a FCA do Reino Unido ou a SEC dos EUA reagem como os reguladores alemão e britânico fizeram em 2021 caso o bStocks tente se expandir para além da ADGM, (2) se a investigação do Tesouro sobre fluxos ligados ao Irã e as perguntas do Senado sobre a supervisão resultam em sanções reais ou multas adicionais, e (3) se o AUM de Direct e bStocks continua crescendo no ritmo inicial rumo à escala que a visão de "superapp financeiro" da Binance sugere, ou se estagna.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) bStocks ADGM dışına genişlemeye çalışırsa ESMA, İngiltere'nin FCA'sı veya ABD SEC'inin 2021'de Alman ve İngiliz düzenleyicilerinin yaptığı gibi tepki verip vermeyeceği, (2) Hazine'nin İran bağlantılı fon akışları soruşturmasının ve Senato'nun gözetimle ilgili sorularının gerçek yaptırımlara veya ek para cezalarına yol açıp açmayacağı ve (3) Direct ve bStocks'un AUM'unun başlangıçtaki hızını koruyarak Binance'in "finansal süper uygulama" vizyonunun ima ettiği ölçeğe doğru büyümeye devam edip etmeyeceği, yoksa duraklayıp duraklamayacağı.</div>
 <div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> (1) liệu ESMA, FCA của Anh hay SEC của Mỹ có phản ứng giống cách các cơ quan quản lý Đức và Anh đã làm năm 2021 nếu bStocks cố mở rộng ra ngoài ADGM, (2) liệu cuộc điều tra của Bộ Tài chính về dòng tiền liên quan Iran và các câu hỏi của Thượng viện về cơ chế giám sát có dẫn đến các lệnh trừng phạt thực sự hoặc các khoản phạt bổ sung hay không, và (3) liệu AUM của Direct và bStocks có tiếp tục tăng trưởng với tốc độ ban đầu hướng tới quy mô mà tầm nhìn "siêu ứng dụng tài chính" của Binance ngụ ý, hay sẽ chững lại.</div>
+<div class="box id">💡 <strong>Yang perlu diperhatikan sekarang:</strong> (1) apakah ESMA, FCA Inggris, atau SEC AS akan merespons seperti yang dilakukan regulator Jerman dan Inggris pada 2021 jika bStocks mencoba memperluas cakupannya di luar ADGM, (2) apakah penyelidikan Departemen Keuangan atas aliran dana terkait Iran dan pertanyaan Senat mengenai pengawasan tersebut akan berujung pada sanksi nyata atau denda tambahan, dan (3) apakah AUM Direct dan bStocks akan terus tumbuh dengan kecepatan awalnya menuju skala yang diimplikasikan oleh visi "super app finansial" Binance, atau justru mendatar.</div>
+<div class="box pl">💡 <strong>Co warto teraz obserwować:</strong> (1) czy ESMA, brytyjski FCA lub amerykańska SEC zareagują tak, jak zrobili to niemieccy i brytyjscy regulatorzy w 2021 roku, jeśli bStocks spróbuje rozszerzyć działalność poza ADGM, (2) czy dochodzenie Departamentu Skarbu w sprawie przepływów powiązanych z Iranem oraz pytania Senatu dotyczące nadzoru doprowadzą do rzeczywistych sankcji lub dodatkowych kar, oraz (3) czy AUM Direct i bStocks będzie nadal rosnąć w początkowym tempie w kierunku skali sugerowanej przez wizję Binance jako „finansowego super-appa”, czy raczej się ustabilizuje.</div>
+<div class="box it">💡 <strong>Cosa osservare ora:</strong> (1) se l'ESMA, la FCA britannica o la SEC statunitense reagiranno come fecero i regolatori tedeschi e britannici nel 2021, qualora bStocks tentasse di espandersi oltre l'ADGM, (2) se l'indagine del Tesoro sui flussi legati all'Iran e le domande del Senato sul monitoraggio porteranno a sanzioni effettive o a nuove multe, e (3) se l'AUM di Direct e bStocks continuerà a crescere al ritmo iniziale verso la scala implicita nella visione di Binance di una «super app finanziaria», oppure si stabilizzerà.</div>
+<div class="box ru">💡 <strong>За чем стоит следить сейчас:</strong> (1) отреагируют ли ESMA, британское FCA или американская SEC так же, как немецкие и британские регуляторы в 2021 году, если bStocks попытается расшириться за пределы ADGM, (2) приведёт ли расследование Минфина по поводу потоков, связанных с Ираном, и вопросы Сената о мониторинге к реальным санкциям или дополнительным штрафам, и (3) продолжит ли AUM Direct и bStocks расти теми же темпами, что и вначале, приближаясь к масштабу, который подразумевает видение Binance «финансового суперприложения», или же рост выйдет на плато.</div>
+<div class="box zh">💡 <strong>現在需要關注的事項:</strong>(1) 如果bStocks嘗試擴展至ADGM以外地區,歐洲的ESMA、英國FCA或美國SEC是否會做出類似德國與英國監管機構在2021年的反應;(2) 財政部對伊朗相關資金流的調查以及參議院對監管措施的質詢,是否會導致實際制裁或額外罰款;(3) Direct與bStocks的AUM是否會維持初期速度持續成長,朝向幣安「金融超級應用」願景所暗示的規模邁進,抑或趨於停滯。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: PR뉴스와이어(PR Newswire), CNBC, 블룸버그(Bloomberg), 로이터(Reuters), 포춘(Fortune), 코인데스크(CoinDesk), 미 법무부(DOJ), 얼터너티브크레딧인베스터 등 공개 보도. bStocks 상세정보는 바이낸스 공식 발표 참고.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, US Department of Justice, and other public reporting. bStocks details drawn from Binance's official announcements.</p>
@@ -544,5 +749,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, Departamento de Justiça dos EUA (DOJ), e outras reportagens públicas. Os detalhes do bStocks vêm de anúncios oficiais da Binance.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, ABD Adalet Bakanlığı (DOJ) ve diğer kamuya açık haberler. bStocks detayları Binance'in resmi duyurularından alınmıştır.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, Bộ Tư pháp Mỹ (DOJ), và các nguồn tin công khai khác. Chi tiết về bStocks lấy từ thông báo chính thức của Binance.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, Departemen Kehakiman AS (DOJ), dan pemberitaan publik lainnya. Detail bStocks diambil dari pengumuman resmi Binance.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, Departament Sprawiedliwości USA (DOJ) oraz inne publicznie dostępne doniesienia. Szczegóły dotyczące bStocks pochodzą z oficjalnych ogłoszeń Binance.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, Dipartimento di Giustizia degli Stati Uniti (DOJ) e altre fonti pubbliche. I dettagli su bStocks provengono dagli annunci ufficiali di Binance.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: PR Newswire, CNBC, Bloomberg, Reuters, Fortune, CoinDesk, Министерство юстиции США (DOJ) и другие открытые источники. Подробности о bStocks взяты из официальных заявлений Binance.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:PR Newswire、CNBC、彭博(Bloomberg)、路透(Reuters)、《財星》(Fortune)、CoinDesk、美國司法部(DOJ)及其他公開報導。bStocks詳情取自幣安官方公告。</p>
 <?php require __DIR__.'/_footer.php'; ?>
 
