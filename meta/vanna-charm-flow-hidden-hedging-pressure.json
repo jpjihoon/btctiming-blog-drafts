@@ -68,6 +68,11 @@
   "desc_pt": "Em novembro de 2022, o S&P 500 saltou 5,54% em um dia só por causa de um colapso de volatilidade; em junho de 2026, o Bitcoin desabou pelo motivo espelhado oposto. Uma investigação sobre o que Vanna e Charm — as duas gregas depois de gamma — realmente respondem.",
   "desc_tr": "Kasım 2022'de S&P 500 yalnızca bir volatilite çöküşüyle bir günde %5,54 yükseldi; Haziran 2026'da Bitcoin tam tersi bir nedenle çöktü. Gamma'dan sonra gelen iki Yunan harfi olan Vanna ve Charm'ın gerçekte neyi yanıtladığına dair bir inceleme.",
   "desc_vi": "Tháng 11 năm 2022, S&P 500 tăng vọt 5,54% trong một ngày chỉ vì biến động sụp đổ; tháng 6 năm 2026, Bitcoin lao dốc vì lý do đối lập gương. Một bài phân tích về điều mà Vanna và Charm — hai chỉ số Hy Lạp sau gamma — thực sự trả lời.",
+  "desc_id": "S&P 500 melonjak 5,54% sehari November 2022 karena volatilitas runtuh; Bitcoin anjlok Juni 2026 karena alasan sebaliknya. Apa jawaban asli Vanna dan Charm?",
+  "desc_pl": "S&P 500 skoczył o 5,54% listopada 2022 przez załamanie zmienności; Bitcoin runął czerwca 2026 z odwrotnego powodu. Co naprawdę odpowiadają Vanna i Charm?",
+  "desc_it": "L'S&P 500 balzò del 5,54% novembre 2022 per crollo di volatilità; Bitcoin crollò giugno 2026 per motivo speculare. Cosa rispondono davvero Vanna e Charm?",
+  "desc_ru": "S&P 500 взлетел на 5,54% в ноябре 2022 из-за обвала волатильности; биткоин рухнул в июне 2026 по зеркальной причине. На что отвечают Vanna и Charm?",
+  "desc_zh": "2022年11月10日,標普500指數在短短一天內,單憑一場波動率崩跌就狂飆5.54%;時間快轉到2026年6月,比特幣卻因完全相反的鏡像原因而重挫下跌。本文深入探討伽瑪之後的兩個希臘字母——Vanna與Charm——實際上回答的究竟是什麼問題。",
   "read_ko": "10",
   "read_en": "10",
   "read_ja": "10",
@@ -76,5 +81,10 @@
   "read_fr": "10",
   "read_pt": "10",
   "read_tr": "10",
-  "read_vi": "10"
+  "read_vi": "10",
+  "read_id": "10",
+  "read_pl": "10",
+  "read_it": "10",
+  "read_ru": "10",
+  "read_zh": "10"
 }
