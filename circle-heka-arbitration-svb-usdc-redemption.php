@@ -339,6 +339,136 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Circle vs. Heka Funds — ringkasan arbitrase</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#a1a1aa" font-size="13">Berakhir Februari 2026, dipimpin oleh hakim purnabakti Robert Dondero</text>
+      <rect x="20" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="40" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Klaim kerugian keuntungan Heka</text>
+      <text x="40" y="134" fill="#f87171" font-size="20" font-weight="800">$49M → ditolak</text>
+      <text x="40" y="156" fill="#71717a" font-size="12">Klaim tidak dikabulkan</text>
+      <rect x="360" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="380" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Wajib dibayar ke Circle</text>
+      <text x="380" y="134" fill="#4ade80" font-size="20" font-weight="800">$166K diperintahkan</text>
+      <text x="380" y="156" fill="#71717a" font-size="12">Biaya hukum & ahli</text>
+      <text x="20" y="205" fill="#a1a1aa" font-size="13">Komposisi aset Heka (saat penangguhan 2023)</text>
+      <rect x="40" y="225" width="580" height="42" rx="6" fill="#27272a"/>
+      <rect x="40" y="225" width="435" height="42" rx="6" fill="#14b8a6"/>
+      <text x="60" y="252" fill="#0a0a0a" font-size="14" font-weight="700">Kepemilikan Tether — $800M (~75%)</text>
+      <text x="500" y="252" fill="#e4e4e7" font-size="13">Lainnya 25%</text>
+      <text x="20" y="300" fill="#a1a1aa" font-size="13">Linimasa</text>
+      <text x="40" y="325" fill="#e4e4e7" font-size="13">Mar 2023 — SVB kolaps, USDC sempat depeg ke $0,87</text>
+      <text x="40" y="348" fill="#e4e4e7" font-size="13">Des 2023 — Circle menangguhkan akun Heka</text>
+      <text x="40" y="371" fill="#e4e4e7" font-size="13">Feb 2026 — Arbitrase berakhir; Circle menang</text>
+      <text x="40" y="404" fill="#52525b" font-size="12">Sumber: dokumen pengadilan dikutip oleh The Block, CryptoTimes, crypto.news (dipublikasikan Juli 2026)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Circle vs. Heka Funds — podsumowanie arbitrażu</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#a1a1aa" font-size="13">Zakończono w lutym 2026 r., prowadzone przez sędziego w stanie spoczynku Roberta Dondero</text>
+      <rect x="20" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="40" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Roszczenie Heki o utracone zyski</text>
+      <text x="40" y="134" fill="#f87171" font-size="20" font-weight="800">49 mln $ → oddalone</text>
+      <text x="40" y="156" fill="#71717a" font-size="12">Roszczenie nieuwzględnione</text>
+      <rect x="360" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="380" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Do zapłaty na rzecz Circle</text>
+      <text x="380" y="134" fill="#4ade80" font-size="20" font-weight="800">166 tys. $ nakazane</text>
+      <text x="380" y="156" fill="#71717a" font-size="12">Koszty prawne i biegłych</text>
+      <text x="20" y="205" fill="#a1a1aa" font-size="13">Struktura aktywów Heki (w momencie zawieszenia w 2023 r.)</text>
+      <rect x="40" y="225" width="580" height="42" rx="6" fill="#27272a"/>
+      <rect x="40" y="225" width="435" height="42" rx="6" fill="#14b8a6"/>
+      <text x="60" y="252" fill="#0a0a0a" font-size="14" font-weight="700">Udział Tethera — 800 mln $ (~75%)</text>
+      <text x="500" y="252" fill="#e4e4e7" font-size="13">Pozostałe 25%</text>
+      <text x="20" y="300" fill="#a1a1aa" font-size="13">Oś czasu</text>
+      <text x="40" y="325" fill="#e4e4e7" font-size="13">Mar 2023 — upadek SVB, USDC krótko odkleja się do 0,87 $</text>
+      <text x="40" y="348" fill="#e4e4e7" font-size="13">Gru 2023 — Circle zawiesza konto Heki</text>
+      <text x="40" y="371" fill="#e4e4e7" font-size="13">Lut 2026 — koniec arbitrażu; Circle wygrywa</text>
+      <text x="40" y="404" fill="#52525b" font-size="12">Źródła: dokumenty sądowe cytowane przez The Block, CryptoTimes, crypto.news (upublicznione w lipcu 2026)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Circle contro Heka Funds — riepilogo dell'arbitrato</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#a1a1aa" font-size="13">Concluso a febbraio 2026, presieduto dal giudice in pensione Robert Dondero</text>
+      <rect x="20" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="40" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Richiesta di Heka per profitti mancati</text>
+      <text x="40" y="134" fill="#f87171" font-size="20" font-weight="800">49 mln $ → respinta</text>
+      <text x="40" y="156" fill="#71717a" font-size="12">Richiesta non accolta</text>
+      <rect x="360" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="380" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Dovuto a Circle</text>
+      <text x="380" y="134" fill="#4ade80" font-size="20" font-weight="800">166 mila $ ordinati</text>
+      <text x="380" y="156" fill="#71717a" font-size="12">Spese legali e peritali</text>
+      <text x="20" y="205" fill="#a1a1aa" font-size="13">Composizione degli asset di Heka (al momento della sospensione, 2023)</text>
+      <rect x="40" y="225" width="580" height="42" rx="6" fill="#27272a"/>
+      <rect x="40" y="225" width="435" height="42" rx="6" fill="#14b8a6"/>
+      <text x="60" y="252" fill="#0a0a0a" font-size="14" font-weight="700">Quota Tether — 800 mln $ (~75%)</text>
+      <text x="500" y="252" fill="#e4e4e7" font-size="13">Altro 25%</text>
+      <text x="20" y="300" fill="#a1a1aa" font-size="13">Cronologia</text>
+      <text x="40" y="325" fill="#e4e4e7" font-size="13">Mar 2023 — SVB crolla, USDC si stacca brevemente a 0,87 $</text>
+      <text x="40" y="348" fill="#e4e4e7" font-size="13">Dic 2023 — Circle sospende il conto di Heka</text>
+      <text x="40" y="371" fill="#e4e4e7" font-size="13">Feb 2026 — L'arbitrato si conclude; Circle vince</text>
+      <text x="40" y="404" fill="#52525b" font-size="12">Fonti: documenti giudiziari citati da The Block, CryptoTimes, crypto.news (pubblici a luglio 2026)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Circle против Heka Funds — итоги арбитража</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#a1a1aa" font-size="13">Завершено в феврале 2026 года, вёл судья в отставке Роберт Дондеро</text>
+      <rect x="20" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="40" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Иск Heka об упущенной выгоде</text>
+      <text x="40" y="134" fill="#f87171" font-size="20" font-weight="800">$49 млн → отклонён</text>
+      <text x="40" y="156" fill="#71717a" font-size="12">Иск не удовлетворён</text>
+      <rect x="360" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="380" y="108" fill="#e4e4e7" font-size="14" font-weight="700">К уплате Circle</text>
+      <text x="380" y="134" fill="#4ade80" font-size="20" font-weight="800">$166 тыс. присуждено</text>
+      <text x="380" y="156" fill="#71717a" font-size="12">Судебные и экспертные расходы</text>
+      <text x="20" y="205" fill="#a1a1aa" font-size="13">Структура активов Heka (на момент приостановки в 2023 г.)</text>
+      <rect x="40" y="225" width="580" height="42" rx="6" fill="#27272a"/>
+      <rect x="40" y="225" width="435" height="42" rx="6" fill="#14b8a6"/>
+      <text x="60" y="252" fill="#0a0a0a" font-size="14" font-weight="700">Доля Tether — $800 млн (~75%)</text>
+      <text x="500" y="252" fill="#e4e4e7" font-size="13">Остальное 25%</text>
+      <text x="20" y="300" fill="#a1a1aa" font-size="13">Хронология</text>
+      <text x="40" y="325" fill="#e4e4e7" font-size="13">Март 2023 — крах SVB, USDC ненадолго теряет привязку до $0,87</text>
+      <text x="40" y="348" fill="#e4e4e7" font-size="13">Дек 2023 — Circle приостанавливает счёт Heka</text>
+      <text x="40" y="371" fill="#e4e4e7" font-size="13">Фев 2026 — арбитраж завершён; Circle побеждает</text>
+      <text x="40" y="404" fill="#52525b" font-size="12">Источники: судебные документы со ссылкой на The Block, CryptoTimes, crypto.news (опубликовано в июле 2026)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Circle 對 Heka Funds——仲裁結果摘要</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#a1a1aa" font-size="13">2026年2月結束,由退休法官羅伯特·唐德羅主持</text>
+      <rect x="20" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="40" y="108" fill="#e4e4e7" font-size="14" font-weight="700">Heka的利潤損失索賠</text>
+      <text x="40" y="134" fill="#f87171" font-size="20" font-weight="800">4,900萬美元 → 駁回</text>
+      <text x="40" y="156" fill="#71717a" font-size="12">索賠未獲支持</text>
+      <rect x="360" y="80" width="300" height="90" rx="8" fill="#1f1f23" stroke="#3f3f46" stroke-width="1.5"/>
+      <text x="380" y="108" fill="#e4e4e7" font-size="14" font-weight="700">應付予Circle</text>
+      <text x="380" y="134" fill="#4ade80" font-size="20" font-weight="800">命令支付16.6萬美元</text>
+      <text x="380" y="156" fill="#71717a" font-size="12">法律與鑑定費用</text>
+      <text x="20" y="205" fill="#a1a1aa" font-size="13">Heka資產構成(2023年暫停時)</text>
+      <rect x="40" y="225" width="580" height="42" rx="6" fill="#27272a"/>
+      <rect x="40" y="225" width="435" height="42" rx="6" fill="#14b8a6"/>
+      <text x="60" y="252" fill="#0a0a0a" font-size="14" font-weight="700">泰達幣持股——8億美元(約75%)</text>
+      <text x="500" y="252" fill="#e4e4e7" font-size="13">其他25%</text>
+      <text x="20" y="300" fill="#a1a1aa" font-size="13">時間軸</text>
+      <text x="40" y="325" fill="#e4e4e7" font-size="13">2023年3月——SVB倒閉,USDC短暫脫錨至0.87美元</text>
+      <text x="40" y="348" fill="#e4e4e7" font-size="13">2023年12月——Circle暫停Heka帳戶</text>
+      <text x="40" y="371" fill="#e4e4e7" font-size="13">2026年2月——仲裁結束;Circle勝訴</text>
+      <text x="40" y="404" fill="#52525b" font-size="12">來源:The Block、CryptoTimes、crypto.news援引之法院文件(2026年7月公開)</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">판정이 확정되기까지 — 서클이 지금 하려는 것</h2>
   <h2 class="en">Getting the award confirmed — what Circle is doing now</h2>
@@ -349,6 +479,11 @@
   <h2 class="pt">Confirmar a sentença — o que a Circle está a fazer agora</h2>
   <h2 class="tr">Kararın onaylanması — Circle şimdi ne yapıyor</h2>
   <h2 class="vi">Xác nhận phán quyết — Circle đang làm gì lúc này</h2>
+  <h2 class="id">Menuju konfirmasi putusan — apa yang sedang dilakukan Circle sekarang</h2>
+  <h2 class="pl">Droga do potwierdzenia orzeczenia — co teraz robi Circle</h2>
+  <h2 class="it">Verso la conferma del lodo — cosa sta facendo Circle ora</h2>
+  <h2 class="ru">Путь к подтверждению решения — что делает Circle сейчас</h2>
+  <h2 class="zh">邁向裁決確認——Circle目前正在做什麼</h2>
 
   <p class="ko">중재 판정 자체는 2월에 끝났지만, 이번에 서류가 공개된 것은 서클이 그 판정을 법원에서 정식으로 확정받으려는 절차를 밟고 있기 때문이다. 중재 판정은 사적 절차의 결과물이라 그 자체로는 강제 집행력이 제한적이며, 미국 연방중재법(FAA) 체계에서는 법원이 판정을 '확인(confirm)'해야 정식 판결과 같은 집행력을 갖는다. 서클이 이 절차를 공개적으로 밟는다는 것은, 단순히 사적 분쟁을 조용히 매듭짓는 데 그치지 않고 이번 판정을 법적으로 완전히 확정된 선례로 남기려는 의도로 읽힌다.</p>
   <p class="en">The arbitration itself concluded in February, but the filings became public now because Circle is pursuing formal court confirmation of the award. An arbitration ruling is the product of a private process and carries limited enforcement power on its own; under the U.S. Federal Arbitration Act framework, a court must "confirm" an award before it carries the same enforcement weight as a formal judgment. That Circle is pursuing this step publicly suggests it isn't content to quietly close out a private dispute — it wants this ruling to stand as a fully, legally settled precedent.</p>
@@ -359,6 +494,11 @@
   <p class="pt">A arbitragem em si terminou em fevereiro, mas os documentos tornaram-se públicos agora porque a Circle está a procurar a confirmação judicial formal da sentença. Uma decisão de arbitragem é o produto de um processo privado e tem, por si só, poder de execução limitado; ao abrigo do quadro da Lei Federal de Arbitragem dos EUA (FAA), um tribunal tem de "confirmar" uma sentença antes de esta ter o mesmo peso executório de uma sentença formal. O facto de a Circle estar a seguir este passo publicamente sugere que não se contenta em encerrar discretamente uma disputa privada — quer que esta decisão permaneça como um precedente totalmente consolidado juridicamente.</p>
   <p class="tr">Tahkimin kendisi Şubat'ta sona erdi, ancak belgeler şimdi kamuoyuna açıklandı çünkü Circle kararın mahkemede resmi olarak onaylanmasını talep ediyor. Bir tahkim kararı özel bir sürecin ürünüdür ve kendi başına sınırlı bir icra gücüne sahiptir; ABD Federal Tahkim Yasası (FAA) çerçevesinde, bir mahkemenin bir kararı resmi bir hükümle aynı icra ağırlığına sahip olmadan önce "onaylaması" gerekir. Circle'ın bu adımı alenen izlemesi, özel bir anlaşmazlığı sessizce kapatmakla yetinmediğini, bu kararın hukuki olarak tam anlamıyla yerleşmiş bir emsal olarak kalmasını istediğini gösteriyor.</p>
   <p class="vi">Bản thân phiên trọng tài đã kết thúc vào tháng 2, nhưng các hồ sơ mới được công khai vì Circle đang theo đuổi việc xác nhận chính thức phán quyết tại tòa án. Một phán quyết trọng tài là sản phẩm của một quy trình riêng tư và tự bản thân nó có sức thi hành hạn chế; theo khuôn khổ Đạo luật Trọng tài Liên bang Mỹ (FAA), tòa án phải "xác nhận" một phán quyết trước khi nó có sức nặng thi hành tương đương một bản án chính thức. Việc Circle công khai theo đuổi bước này cho thấy họ không chỉ muốn âm thầm khép lại một tranh chấp riêng tư — họ muốn phán quyết này trở thành một tiền lệ được xác lập đầy đủ về mặt pháp lý.</p>
+  <p class="id">Arbitrase itu sendiri berakhir pada Februari, tetapi dokumen-dokumennya baru dipublikasikan sekarang karena Circle sedang mengupayakan konfirmasi pengadilan resmi atas putusan tersebut. Putusan arbitrase adalah hasil dari proses privat dan dengan sendirinya memiliki kekuatan penegakan yang terbatas; berdasarkan kerangka Undang-Undang Arbitrase Federal AS (FAA), pengadilan harus "mengonfirmasi" putusan sebelum putusan itu memiliki bobot penegakan yang sama dengan putusan pengadilan resmi. Fakta bahwa Circle menempuh langkah ini secara terbuka menunjukkan bahwa Circle tidak puas hanya menutup sengketa privat secara diam-diam — Circle ingin putusan ini berdiri sebagai preseden yang sepenuhnya mapan secara hukum.</p>
+  <p class="pl">Sam arbitraż zakończył się w lutym, ale dokumenty stały się publiczne teraz, ponieważ Circle dąży do formalnego potwierdzenia orzeczenia przez sąd. Orzeczenie arbitrażowe jest wynikiem procesu prywatnego i samo w sobie ma ograniczoną moc egzekucyjną; w ramach amerykańskiej Federalnej Ustawy o Arbitrażu (FAA) sąd musi «potwierdzić» orzeczenie, zanim uzyska ono taką samą moc egzekucyjną jak formalny wyrok. To, że Circle podejmuje ten krok publicznie, sugeruje, że nie zadowala się cichym zamknięciem prywatnego sporu — chce, by to orzeczenie stało się w pełni, prawnie ugruntowanym precedensem.</p>
+  <p class="it">L'arbitrato in sé si è concluso a febbraio, ma i documenti sono diventati pubblici solo ora perché Circle sta perseguendo la conferma giudiziale formale del lodo. Una decisione arbitrale è il prodotto di un processo privato e ha di per sé un potere esecutivo limitato; nell'ambito del Federal Arbitration Act (FAA) statunitense, un tribunale deve «confermare» un lodo prima che esso abbia lo stesso peso esecutivo di una sentenza formale. Il fatto che Circle persegua questo passaggio pubblicamente suggerisce che non si accontenta di chiudere in silenzio una controversia privata — vuole che questa decisione resti un precedente pienamente e legalmente consolidato.</p>
+  <p class="ru">Сам арбитраж завершился в феврале, однако документы стали публичными только сейчас, потому что Circle добивается формального подтверждения решения судом. Арбитражное решение является продуктом частного процесса и само по себе обладает ограниченной исполнительной силой; согласно американскому Федеральному закону об арбитраже (FAA), суд должен «подтвердить» решение, прежде чем оно приобретёт такую же исполнительную силу, как формальное судебное решение. То, что Circle публично идёт на этот шаг, говорит о том, что компании недостаточно тихо закрыть частный спор — она хочет, чтобы это решение стало полностью, юридически закреплённым прецедентом.</p>
+  <p class="zh">仲裁本身已於2月結束,但文件之所以在此時公開,是因為Circle正在尋求法院對該裁決的正式確認。仲裁裁決是私下程序的產物,本身的強制執行力有限;根據美國《聯邦仲裁法》(FAA)架構,法院必須先「確認」裁決,該裁決才能具備與正式判決相同的執行效力。Circle公開推進這一步驟,顯示其並不滿足於悄悄了結一場私下爭議——它希望這項裁決能成為一個在法律上完全確立的先例。</p>
 
   <p class="ko">이 판례가 굳어지면 스테이블코인 업계 전반에 미치는 파장도 작지 않다. 발행사가 '의심스러운 대량 상환'을 근거로 계정을 정지할 수 있다는 원칙이 법원에서 정식으로 인정되면, 앞으로 대형 기관 보유자들은 상환 접근권이 발행사의 재량에 따라 언제든 제한될 수 있다는 리스크를 새로운 실사 항목으로 넣어야 한다. 동시에 이번 판정은 테더와 서클의 오래된 경쟁 구도에도 기록을 남긴다 — 경쟁사가 대형 자금력으로 상대방의 상환 시스템에 개입하려 했다는 의혹이, 결국 그 경쟁사가 투자한 펀드를 통해 발행사 재량으로 저지된 셈이기 때문이다. 다만 이는 어디까지나 한 건의 중재 사례이며, 유사 사건에서 다른 발행사나 다른 판사가 같은 결론에 이를지는 아직 검증되지 않았다는 점은 유의할 필요가 있다.</p>
   <p class="en">If this precedent solidifies, the ripple effects across the stablecoin industry could be significant. If a court formally endorses the principle that an issuer can suspend an account over "suspiciously large redemptions," large institutional holders will need to add a new item to their due-diligence checklist: the risk that redemption access can be curtailed at any time, at the issuer's discretion. The ruling also leaves a mark on the long-running Tether-Circle rivalry — an alleged attempt by a rival's deep pockets to interfere with a competitor's redemption system was ultimately blocked by that same competitor's issuer discretion, executed through the very fund the rival had bankrolled. Still, it's worth noting this is a single arbitration case, and whether another issuer or another judge would reach the same conclusion in a similar dispute remains untested.</p>
@@ -369,6 +509,11 @@
   <p class="pt">Se este precedente se consolidar, as repercussões em toda a indústria de stablecoins poderão ser significativas. Se um tribunal endossar formalmente o princípio de que uma emissora pode suspender uma conta por "resgates suspeitosamente grandes", os grandes detentores institucionais terão de acrescentar um novo item à sua lista de diligência devida: o risco de que o acesso ao resgate possa ser restringido a qualquer momento, à discrição da emissora. A decisão também deixa uma marca na longa rivalidade entre Tether e Circle — uma alegada tentativa de um rival com fundos profundos interferir no sistema de resgate de um concorrente acabou bloqueada precisamente pela discricionariedade da emissora desse mesmo concorrente, exercida através do próprio fundo que o rival tinha financiado. Ainda assim, vale a pena notar que se trata de um único caso de arbitragem, e se outra emissora ou outro juiz chegaria à mesma conclusão numa disputa semelhante continua por comprovar.</p>
   <p class="tr">Bu emsal pekişirse, stabilcoin sektörünün genelindeki dalga etkileri önemli olabilir. Bir mahkeme, bir ihraççının "şüpheli derecede büyük itfalar" nedeniyle bir hesabı askıya alabileceği ilkesini resmi olarak onaylarsa, büyük kurumsal sahiplerin durum tespiti listelerine yeni bir madde eklemesi gerekecek: itfa erişiminin, ihraççının takdirine bağlı olarak her an kısıtlanabileceği riski. Karar aynı zamanda Tether ve Circle arasındaki uzun süredir devam eden rekabette de bir iz bırakıyor — bir rakibin derin ceplerinin bir başka rakibin itfa sistemine müdahale etme girişiminde bulunduğu iddiası, sonunda tam da o rakibin finanse ettiği fon üzerinden, aynı rakibin ihraççı takdir yetkisiyle engellenmiş oldu. Yine de bunun tek bir tahkim davası olduğunu ve benzer bir uyuşmazlıkta başka bir ihraççının ya da başka bir yargıcın aynı sonuca varıp varmayacağının henüz test edilmediğini belirtmekte fayda var.</p>
   <p class="vi">Nếu tiền lệ này được củng cố, tác động lan tỏa trên toàn ngành stablecoin có thể đáng kể. Nếu một tòa án chính thức xác nhận nguyên tắc rằng nhà phát hành có thể đình chỉ một tài khoản vì "các khoản đổi tiền đáng ngờ với quy mô lớn", các tổ chức nắm giữ lớn sẽ cần bổ sung một mục mới vào danh mục thẩm định: rủi ro rằng quyền truy cập đổi tiền có thể bị hạn chế bất cứ lúc nào, tùy theo quyết định của nhà phát hành. Phán quyết này cũng để lại dấu ấn trong cuộc cạnh tranh lâu năm giữa Tether và Circle — một nỗ lực bị cáo buộc của nguồn lực tài chính dồi dào từ đối thủ nhằm can thiệp vào hệ thống đổi tiền của đối thủ cạnh tranh, cuối cùng lại bị chặn đứng chính bởi quyền tự quyết của nhà phát hành thuộc chính đối thủ đó, được thực thi thông qua chính quỹ mà đối thủ kia đã tài trợ. Dù vậy, cần lưu ý đây chỉ là một vụ trọng tài đơn lẻ, và liệu một nhà phát hành khác hay một thẩm phán khác có đi đến cùng kết luận trong một tranh chấp tương tự hay không vẫn chưa được kiểm chứng.</p>
+  <p class="id">Jika preseden ini menguat, dampak berantainya di seluruh industri stablecoin bisa signifikan. Jika pengadilan secara resmi mengesahkan prinsip bahwa penerbit dapat menangguhkan sebuah akun karena "penukaran dalam jumlah besar yang mencurigakan," pemegang institusional besar perlu menambahkan satu pos baru ke daftar uji tuntas mereka: risiko bahwa akses penukaran dapat dibatasi kapan saja, atas keleluasaan penerbit. Putusan ini juga meninggalkan jejak dalam rivalitas panjang Tether-Circle — dugaan upaya kantong tebal pesaing untuk mencampuri sistem penukaran kompetitornya pada akhirnya digagalkan oleh keleluasaan penerbit dari kompetitor yang sama itu, dijalankan justru melalui dana yang dibiayai oleh pesaing tersebut. Meski begitu, perlu dicatat bahwa ini hanyalah satu kasus arbitrase, dan apakah penerbit lain atau hakim lain akan mencapai kesimpulan yang sama dalam sengketa serupa masih belum teruji.</p>
+  <p class="pl">Jeśli ten precedens się utrwali, skutki uboczne dla całej branży stablecoinów mogą być znaczące. Jeśli sąd formalnie zatwierdzi zasadę, że emitent może zawiesić konto z powodu «podejrzanie dużych umorzeń», duzi posiadacze instytucjonalni będą musieli dodać nowy punkt do swojej listy kontrolnej due diligence: ryzyko, że dostęp do umorzenia może zostać w każdej chwili ograniczony, według uznania emitenta. Orzeczenie zostawia też ślad w długotrwałej rywalizacji Tether-Circle — domniemana próba wykorzystania głębokich kieszeni rywala do ingerencji w system umorzeń konkurenta ostatecznie została zablokowana przez uznaniowość emitenta tego samego konkurenta, zrealizowaną właśnie za pośrednictwem funduszu, który rywal finansował. Warto jednak zaznaczyć, że jest to pojedynczy przypadek arbitrażowy, a to, czy inny emitent lub inny sędzia doszedłby do tego samego wniosku w podobnym sporze, pozostaje niesprawdzone.</p>
+  <p class="it">Se questo precedente si consoliderà, le ripercussioni sull'intero settore delle stablecoin potrebbero essere significative. Se un tribunale avallasse formalmente il principio secondo cui un emittente può sospendere un conto per «rimborsi sospettosamente ingenti», i grandi detentori istituzionali dovranno aggiungere una nuova voce alla loro checklist di due diligence: il rischio che l'accesso al rimborso possa essere limitato in qualsiasi momento, a discrezione dell'emittente. La sentenza lascia inoltre un segno nella lunga rivalità tra Tether e Circle — un presunto tentativo delle ingenti risorse finanziarie di un rivale di interferire con il sistema di rimborso di un concorrente è stato infine bloccato proprio dalla discrezionalità dell'emittente di quello stesso concorrente, esercitata attraverso il fondo che il rivale aveva finanziato. Resta comunque da notare che si tratta di un singolo caso arbitrale, e se un altro emittente o un altro giudice giungerebbero alla stessa conclusione in una controversia simile rimane da verificare.</p>
+  <p class="ru">Если этот прецедент закрепится, последствия для всей индустрии стейблкоинов могут быть значительными. Если суд официально подтвердит принцип, согласно которому эмитент может приостановить счёт из-за «подозрительно крупных погашений», крупным институциональным держателям придётся добавить новый пункт в свой чек-лист due diligence: риск того, что доступ к погашению может быть ограничен в любой момент по усмотрению эмитента. Решение также оставляет след в давнем соперничестве Tether и Circle — предполагаемая попытка использовать глубокие карманы конкурента для вмешательства в систему погашения соперника в итоге была заблокирована усмотрением эмитента того же соперника, реализованным как раз через фонд, который финансировал сам конкурент. Тем не менее стоит отметить, что речь идёт лишь об одном арбитражном деле, и придёт ли другой эмитент или другой судья к такому же выводу в аналогичном споре, пока не проверено.</p>
+  <p class="zh">若這項先例得以鞏固,其對整個穩定幣產業的連鎖影響可能相當可觀。若法院正式認可發行方可因「可疑的大額贖回」而暫停帳戶這項原則,大型機構持有者將需在盡職調查清單中新增一項:贖回權限可能隨時因發行方的裁量而遭到限制的風險。這項裁決也在泰達幣與Circle長期的競爭關係中留下印記——一家競爭對手憑藉雄厚資金企圖干擾對手贖回系統的指控,最終竟被同一對手的發行方裁量權所阻止,而且正是透過該競爭對手所出資的基金來執行。不過值得注意的是,這僅是單一仲裁案例,其他發行方或其他法官在類似爭議中是否會得出相同結論,目前仍未經驗證。</p>
 
   <h2 class="ko">무엇을 지켜봐야 하나</h2>
   <h2 class="en">What to watch next</h2>
@@ -379,6 +524,11 @@
   <h2 class="pt">O que observar a seguir</h2>
   <h2 class="tr">Bundan sonra izlenmesi gerekenler</h2>
   <h2 class="vi">Những gì cần theo dõi tiếp theo</h2>
+  <h2 class="id">Apa yang perlu diperhatikan selanjutnya</h2>
+  <h2 class="pl">Co obserwować dalej</h2>
+  <h2 class="it">Cosa osservare in futuro</h2>
+  <h2 class="ru">На что смотреть дальше</h2>
+  <h2 class="zh">接下來該關注什麼</h2>
 
   <p class="ko">먼저 연방법원이 실제로 이 중재 판정을 확인해줄지 지켜볼 필요가 있다. 확인 절차는 통상 형식적이지만, 헤카가 항소나 취소 신청으로 맞설 가능성도 배제할 수 없다. 둘째, 이번 판정이 다른 스테이블코인 발행사의 약관에 어떤 영향을 줄지도 관심사다. 서클이 상환 정지 권한을 성공적으로 방어한 이상, 다른 발행사들도 유사한 재량 조항을 이용약관에 더 명시적으로 넣거나, 대형 기관 계좌에 대한 상환 모니터링을 강화할 유인이 커졌다.</p>
   <p class="en">First, watch whether the federal court actually confirms this arbitration award. Confirmation is usually a formality, but the possibility that Heka mounts an appeal or a motion to vacate can't be ruled out. Second, watch how this ruling filters into other stablecoin issuers' terms of service. Now that Circle has successfully defended its authority to suspend redemptions, other issuers have a stronger incentive to write similarly broad discretionary clauses more explicitly into their user agreements, or to tighten redemption monitoring on large institutional accounts.</p>
@@ -389,6 +539,11 @@
   <p class="pt">Primeiro, é preciso observar se o tribunal federal irá de facto confirmar esta sentença de arbitragem. A confirmação costuma ser uma formalidade, mas a possibilidade de a Heka apresentar um recurso ou um pedido de anulação não pode ser descartada. Segundo, importa observar como esta decisão se reflete nos termos de serviço de outras emissoras de stablecoins. Agora que a Circle defendeu com sucesso a sua autoridade para suspender resgates, outras emissoras têm um incentivo mais forte para inscrever cláusulas discricionárias semelhantes de forma mais explícita nos seus acordos de utilizador, ou para reforçar a monitorização de resgates em grandes contas institucionais.</p>
   <p class="tr">İlk olarak, federal mahkemenin bu tahkim kararını gerçekten onaylayıp onaylamayacağı izlenmelidir. Onay genellikle bir formaliteden ibarettir, ancak Heka'nın temyize gitmesi veya iptal talebinde bulunması ihtimali göz ardı edilemez. İkincisi, bu kararın diğer stabilcoin ihraççılarının kullanım koşullarına nasıl yansıyacağı izlenmelidir. Circle, itfaları askıya alma yetkisini başarıyla savunduğuna göre, diğer ihraççılar da benzer geniş takdir hükümlerini kullanıcı sözleşmelerine daha açık biçimde yazmak veya büyük kurumsal hesaplardaki itfa izlemesini sıkılaştırmak için daha güçlü bir teşvike sahip oldu.</p>
   <p class="vi">Trước tiên, cần theo dõi liệu tòa án liên bang có thực sự xác nhận phán quyết trọng tài này hay không. Việc xác nhận thường chỉ là thủ tục, nhưng không thể loại trừ khả năng Heka kháng cáo hoặc nộp đơn yêu cầu hủy phán quyết. Thứ hai, cần theo dõi phán quyết này sẽ ảnh hưởng thế nào đến điều khoản dịch vụ của các nhà phát hành stablecoin khác. Giờ đây khi Circle đã bảo vệ thành công quyền đình chỉ đổi tiền, các nhà phát hành khác có động lực mạnh hơn để đưa các điều khoản tùy ý rộng tương tự vào thỏa thuận người dùng một cách rõ ràng hơn, hoặc siết chặt giám sát đổi tiền đối với các tài khoản tổ chức lớn.</p>
+  <p class="id">Pertama, perhatikan apakah pengadilan federal benar-benar mengonfirmasi putusan arbitrase ini. Konfirmasi biasanya bersifat formalitas, tetapi kemungkinan Heka mengajukan banding atau mosi pembatalan tidak dapat dikesampingkan. Kedua, perhatikan bagaimana putusan ini merembes ke ketentuan layanan penerbit stablecoin lain. Sekarang setelah Circle berhasil mempertahankan wewenangnya untuk menangguhkan penukaran, penerbit lain memiliki insentif yang lebih kuat untuk menuliskan klausul keleluasaan serupa yang luas secara lebih eksplisit ke dalam perjanjian pengguna mereka, atau memperketat pemantauan penukaran pada akun institusional besar.</p>
+  <p class="pl">Po pierwsze, warto obserwować, czy sąd federalny rzeczywiście potwierdzi to orzeczenie arbitrażowe. Potwierdzenie jest zwykle formalnością, ale nie można wykluczyć, że Heka złoży apelację lub wniosek o uchylenie orzeczenia. Po drugie, warto obserwować, jak to orzeczenie przenika do regulaminów innych emitentów stablecoinów. Skoro Circle skutecznie obronił swoje uprawnienia do zawieszania umorzeń, inni emitenci mają silniejszą motywację, by podobnie szerokie klauzule uznaniowe zapisać bardziej wprost w swoich umowach z użytkownikami lub zaostrzyć monitorowanie umorzeń na dużych kontach instytucjonalnych.</p>
+  <p class="it">Primo, occorre osservare se il tribunale federale confermerà effettivamente questo lodo arbitrale. La conferma è di solito una formalità, ma non si può escludere che Heka presenti un appello o un'istanza di annullamento. Secondo, occorre osservare come questa sentenza si riflette nei termini di servizio di altri emittenti di stablecoin. Ora che Circle ha difeso con successo la propria autorità di sospendere i rimborsi, altri emittenti hanno un incentivo più forte a scrivere clausole discrezionali altrettanto ampie in modo più esplicito nei loro accordi con gli utenti, o a rafforzare il monitoraggio dei rimborsi sui grandi conti istituzionali.</p>
+  <p class="ru">Во-первых, стоит следить, действительно ли федеральный суд подтвердит это арбитражное решение. Подтверждение обычно является формальностью, но нельзя исключать, что Heka подаст апелляцию или ходатайство об отмене решения. Во-вторых, стоит следить, как это решение отразится на условиях обслуживания других эмитентов стейблкоинов. Теперь, когда Circle успешно отстояла своё право приостанавливать погашения, у других эмитентов появился более сильный стимул прописывать столь же широкие дискреционные оговорки более явно в пользовательских соглашениях или ужесточать мониторинг погашений на крупных институциональных счетах.</p>
+  <p class="zh">首先,需觀察聯邦法院是否真的會確認這項仲裁裁決。確認程序通常只是形式,但不能排除Heka提出上訴或撤銷動議的可能性。其次,需觀察這項裁決將如何滲透進其他穩定幣發行方的服務條款。既然Circle已成功捍衛其暫停贖回的權限,其他發行方也有更強的誘因,將類似範圍廣泛的裁量條款更明確地寫入用戶協議,或加強對大型機構帳戶贖回情況的監控。</p>
 
   <p class="ko">셋째, 테더가 이 판정에 어떻게 반응할지도 관전 포인트다. 8억 달러를 투자한 펀드가 경쟁사와의 분쟁에서 패소하고 그 관계까지 법원 서류로 공개된 이상, 테더로서는 결코 유쾌한 결과가 아니다. 향후 테더가 유사한 트레이딩펀드 투자를 축소하거나 지분 관계를 더 적극적으로 공시할지 지켜볼 만하다. 마지막으로, 이 사건은 스테이블코인 준비금이 은행 시스템에 물려 있는 한 디페깅 위험이 완전히 사라지지 않는다는 점도 재확인시켰다 — SVB 붕괴가 3년이 지난 지금까지도 법적 분쟁을 낳고 있다는 사실 자체가, 은행 파트너 리스크가 스테이블코인 업계에 남긴 그림자가 얼마나 긴지를 보여준다.</p>
   <p class="en">Third is how Tether responds to this outcome. Having a fund it put $800 million into lose a dispute with a rival, and having that relationship exposed in public court filings, is not a comfortable result for Tether. It's worth watching whether Tether pulls back from similar trading-fund investments going forward, or starts disclosing equity relationships more proactively. Finally, this episode reaffirms that as long as stablecoin reserves sit inside the traditional banking system, depeg risk never fully disappears — the fact that the SVB collapse is still generating legal disputes three years later shows just how long a shadow banking-partner risk can cast over the stablecoin industry.</p>
@@ -399,6 +554,11 @@
   <p class="pt">Em terceiro lugar, importa observar como a Tether reage a este resultado. Ver um fundo no qual investiu 800 milhões de dólares perder uma disputa com um rival, e ver essa relação exposta em documentos judiciais públicos, não é um resultado confortável para a Tether. Vale a pena observar se a Tether se retira de investimentos semelhantes em fundos de trading no futuro, ou se passa a divulgar as relações de participação de forma mais proativa. Por fim, este episódio reafirma que, enquanto as reservas das stablecoins estiverem dentro do sistema bancário tradicional, o risco de desvinculação nunca desaparece por completo — o facto de o colapso do SVB continuar a gerar disputas legais três anos depois mostra quão longa pode ser a sombra que o risco do parceiro bancário projeta sobre a indústria das stablecoins.</p>
   <p class="tr">Üçüncüsü, Tether'in bu sonuca nasıl tepki vereceğidir. 800 milyon dolar yatırım yaptığı bir fonun bir rakiple olan uyuşmazlığı kaybetmesi ve bu ilişkinin kamuya açık mahkeme belgelerinde ifşa olması, Tether için rahat bir sonuç değil. Tether'in bundan sonra benzer ticaret fonu yatırımlarından çekilip çekilmeyeceğini veya hisse ilişkilerini daha proaktif biçimde açıklamaya başlayıp başlamayacağını izlemekte fayda var. Son olarak, bu olay, stabilcoin rezervleri geleneksel bankacılık sisteminin içinde kaldığı sürece sabit fiyattan kopma riskinin asla tamamen ortadan kalkmadığını yeniden doğruluyor — SVB çöküşünün üç yıl sonra hâlâ hukuki uyuşmazlıklar doğurması, banka ortağı riskinin stabilcoin sektörü üzerinde ne kadar uzun bir gölge bırakabildiğini gösteriyor.</p>
   <p class="vi">Thứ ba là Tether sẽ phản ứng thế nào trước kết quả này. Việc một quỹ mà họ đã đầu tư 800 triệu USD thua trong tranh chấp với một đối thủ, và mối quan hệ đó bị phơi bày trong hồ sơ tòa án công khai, không phải là một kết quả dễ chịu đối với Tether. Đáng để theo dõi xem liệu Tether có rút lui khỏi các khoản đầu tư quỹ giao dịch tương tự trong tương lai hay không, hoặc bắt đầu công khai các mối quan hệ cổ phần một cách chủ động hơn. Cuối cùng, sự việc này một lần nữa khẳng định rằng chừng nào dự trữ stablecoin còn nằm trong hệ thống ngân hàng truyền thống, rủi ro mất neo sẽ không bao giờ hoàn toàn biến mất — việc sự sụp đổ của SVB vẫn còn tạo ra các tranh chấp pháp lý sau ba năm cho thấy rủi ro từ đối tác ngân hàng có thể phủ bóng lên ngành stablecoin trong một thời gian dài đến mức nào.</p>
+  <p class="id">Ketiga adalah bagaimana Tether merespons hasil ini. Melihat dana yang telah ditanamkannya senilai $800 juta kalah dalam sengketa dengan pesaing, dan hubungan itu terungkap dalam dokumen pengadilan publik, bukanlah hasil yang nyaman bagi Tether. Perlu diperhatikan apakah Tether akan mundur dari investasi dana trading serupa ke depannya, atau mulai mengungkapkan hubungan kepemilikan ekuitas secara lebih proaktif. Terakhir, episode ini menegaskan kembali bahwa selama cadangan stablecoin berada di dalam sistem perbankan tradisional, risiko depeg tidak akan pernah sepenuhnya hilang — fakta bahwa keruntuhan SVB masih menghasilkan sengketa hukum tiga tahun kemudian menunjukkan betapa panjangnya bayangan risiko mitra perbankan yang bisa menaungi industri stablecoin.</p>
+  <p class="pl">Po trzecie, ważne jest, jak Tether zareaguje na ten wynik. To, że fundusz, w który zainwestował 800 mln dolarów, przegrał spór z rywalem, a ten związek został ujawniony w publicznych dokumentach sądowych, nie jest dla Tethera komfortowym rezultatem. Warto obserwować, czy Tether wycofa się w przyszłości z podobnych inwestycji w fundusze tradingowe, czy zacznie bardziej proaktywnie ujawniać powiązania kapitałowe. Wreszcie ten epizod ponownie potwierdza, że dopóki rezerwy stablecoinów tkwią w tradycyjnym systemie bankowym, ryzyko odklejenia nigdy w pełni nie znika — fakt, że upadek SVB wciąż generuje spory prawne trzy lata później, pokazuje, jak długi cień ryzyko partnera bankowego może rzucać na branżę stablecoinów.</p>
+  <p class="it">Terzo, come reagirà Tether a questo esito. Vedere un fondo in cui ha investito 800 milioni di dollari perdere una controversia con un rivale, e vedere quella relazione esposta in documenti giudiziari pubblici, non è un risultato confortevole per Tether. Vale la pena osservare se Tether si ritirerà da investimenti simili in fondi di trading in futuro, o se inizierà a divulgare le relazioni azionarie in modo più proattivo. Infine, questo episodio riafferma che, finché le riserve delle stablecoin risiedono all'interno del sistema bancario tradizionale, il rischio di depeg non scompare mai del tutto — il fatto che il crollo della SVB stia ancora generando controversie legali tre anni dopo mostra quanto possa essere lunga l'ombra che il rischio legato ai partner bancari proietta sul settore delle stablecoin.</p>
+  <p class="ru">В-третьих, важно, как Tether отреагирует на этот исход. То, что фонд, в который она вложила 800 млн долларов, проиграл спор с конкурентом, а эта связь была раскрыта в публичных судебных документах, — не самый комфортный результат для Tether. Стоит следить, откажется ли Tether от подобных инвестиций в трейдинговые фонды в дальнейшем или начнёт более проактивно раскрывать долевые отношения. Наконец, этот эпизод вновь подтверждает: пока резервы стейблкоинов находятся внутри традиционной банковской системы, риск разрыва привязки никогда полностью не исчезает — тот факт, что крах SVB спустя три года всё ещё порождает судебные споры, показывает, насколько длинную тень может отбрасывать риск банковского партнёра на индустрию стейблкоинов.</p>
+  <p class="zh">第三是泰達幣將如何回應這一結果。眼見自己投入8億美元的基金在與競爭對手的爭議中敗訴,且這層關係還在公開法院文件中曝光,對泰達幣而言絕非舒服的結果。值得關注的是,泰達幣未來是否會收縮類似的交易基金投資,或開始更主動地揭露股權關係。最後,這起事件再次印證了一點:只要穩定幣準備金仍存放於傳統銀行體系內,脫錨風險就永遠不會完全消失——矽谷銀行倒閉三年後仍在引發法律爭議這一事實本身,便說明了銀行合作夥伴風險能在穩定幣產業投下多長的陰影。</p>
 
   <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: The Block(2026년 7월 15일 보도, 법원 서류 인용), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. 중재 판정 세부 내용과 자산 비중은 공개된 법원 서류 및 각 매체 보도에 따른 것이다.</p>
   <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: The Block (reported July 15, 2026, citing court filings), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Arbitration details and asset-composition figures are per the public court filings and the cited outlets.</p>
@@ -409,5 +569,10 @@
   <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: The Block (noticiado a 15 de julho de 2026, citando documentos judiciais), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Os detalhes da arbitragem e os valores de composição de ativos baseiam-se nos documentos judiciais públicos e nos meios citados.</p>
   <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: The Block (15 Temmuz 2026'da mahkeme belgelerine atıfla bildirildi), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Tahkim ayrıntıları ve varlık kompozisyonu rakamları kamuya açık mahkeme belgelerine ve alıntılanan kaynaklara dayanmaktadır.</p>
   <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: The Block (đưa tin ngày 15/7/2026, trích dẫn hồ sơ tòa án), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Chi tiết về trọng tài và số liệu cơ cấu tài sản dựa theo hồ sơ tòa án công khai và các nguồn tin được trích dẫn.</p>
+  <p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: The Block (dilaporkan 15 Juli 2026, mengutip dokumen pengadilan), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Rincian arbitrase dan angka komposisi aset berdasarkan dokumen pengadilan publik dan media yang dikutip.</p>
+  <p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: The Block (doniesienie z 15 lipca 2026 r., powołujące się na dokumenty sądowe), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Szczegóły arbitrażu i dane dotyczące struktury aktywów pochodzą z publicznych dokumentów sądowych oraz cytowanych mediów.</p>
+  <p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: The Block (riportato il 15 luglio 2026, citando documenti giudiziari), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. I dettagli dell'arbitrato e i dati sulla composizione degli asset provengono dai documenti giudiziari pubblici e dalle fonti citate.</p>
+  <p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: The Block (сообщение от 15 июля 2026 года со ссылкой на судебные документы), CryptoTimes, crypto.news, Coin-Turk, Coinpaprika, Crypto Economy, Crypto News Flash, Hokanews. Детали арбитража и данные о структуре активов приведены по публичным судебным документам и указанным изданиям.</p>
+  <p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:The Block(2026年7月15日報導,援引法院文件)、CryptoTimes、crypto.news、Coin-Turk、Coinpaprika、Crypto Economy、Crypto News Flash、Hokanews。仲裁細節與資產構成數據依據公開法院文件及上述媒體報導。</p>
 
 <?php require __DIR__.'/_footer.php'; ?>

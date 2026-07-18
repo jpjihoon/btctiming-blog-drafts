@@ -99,6 +99,11 @@
 <p class="pt">Também há uma leitura crítica de que essa falta de divulgação, na verdade, obscurece os limites da vigilância contra lavagem de dinheiro (AML) de forma mais ampla. Se a dupla realmente sacou por meio de exchanges registradas, isso significaria que os sistemas de KYC e monitoramento de transações dessas exchanges falharam em sinalizar um fluxo de cinco anos de lucros com drogas — uma constatação com implicações reais para o setor. Por outro lado, se dependeram exclusivamente de rotas P2P ou mixers, isso seria evidência de que uma economia paralela operando fora de exchanges regulamentadas ainda tem escala considerável. As provas detalhadas do fluxo de fundos que os promotores apresentarem no julgamento oferecerão uma rara janela pública sobre qual desses caminhos a lavagem cripto de lucros com drogas nos EUA realmente costuma seguir.</p>
 <p class="tr">Bu bilgi eksikliğinin aslında kara para aklamayla mücadele (AML) denetiminin sınırlarını daha geniş ölçekte gizlediğine dair eleştirel bir bakış da mevcut. İkili gerçekten kayıtlı borsalar üzerinden nakde çevirme yaptıysa, bu, söz konusu borsaların KYC ve işlem izleme sistemlerinin beş yıl süren bir uyuşturucu geliri akışını tespit edemediği anlamına gelir ve bu, sektörün tamamı için gerçek sonuçları olan bir bulgudur. Tersine, yalnızca P2P veya karıştırıcı yollarına dayandılarsa, bu, düzenlemeye tabi borsaların dışında faaliyet gösteren bir gölge ekonominin hâlâ önemli ölçekte olduğunun kanıtıdır. Savcıların duruşmada sunacağı ayrıntılı fon akışı kanıtları, ABD'de uyuşturucu geliri kripto aklamasının fiilen hangi yolu daha çok izlediğini gösteren nadir bir kamuya açık pencere sunacak.</p>
 <p class="vi">Cũng có một góc nhìn phê phán cho rằng việc thiếu tiết lộ này thực chất che giấu những giới hạn của hệ thống giám sát chống rửa tiền (AML) trên diện rộng hơn. Nếu cặp đôi này thực sự rút tiền mặt qua các sàn giao dịch đã đăng ký, điều đó có nghĩa là hệ thống KYC và giám sát giao dịch của các sàn đó đã không phát hiện được dòng tiền thu lợi từ ma túy kéo dài suốt năm năm — một phát hiện có ý nghĩa thực sự đối với toàn ngành. Ngược lại, nếu họ chỉ dựa vào các kênh P2P hoặc mixer, đó là bằng chứng cho thấy nền kinh tế ngầm hoạt động ngoài các sàn giao dịch được quản lý vẫn có quy mô đáng kể. Bằng chứng chi tiết về dòng tiền mà công tố viên trình bày tại phiên tòa sẽ mở ra một cửa sổ công khai hiếm hoi để đánh giá con đường nào thực sự phổ biến hơn trong việc rửa tiền tiền mã hóa từ lợi nhuận ma túy tại Mỹ.</p>
+<p class="id">Ada argumen kritis yang bisa diajukan bahwa kurangnya pengungkapan ini justru mengaburkan keterbatasan pengawasan anti-pencucian uang (AML) secara lebih luas. Jika keduanya benar-benar mencairkan dana melalui bursa terdaftar, itu berarti sistem KYC dan pemantauan transaksi bursa-bursa tersebut gagal mendeteksi aliran hasil narkoba selama lima tahun — sebuah temuan dengan implikasi nyata bagi industri. Sebaliknya, jika mereka murni mengandalkan jalur P2P atau mixer, itu menjadi bukti bahwa ekonomi bayangan yang beroperasi di luar bursa yang diatur masih berskala substansial. Bukti aliran dana rinci apa pun yang disajikan jaksa di persidangan akan memberikan jendela publik yang langka untuk melihat jalur mana yang sebenarnya cenderung diikuti oleh pencucian kripto hasil narkoba di AS.</p>
+<p class="pl">Można też argumentować krytycznie, że ten brak ujawnienia informacji w istocie zaciera szerzej granice monitoringu przeciwdziałania praniu pieniędzy (AML). Gdyby para faktycznie wypłacała środki przez zarejestrowane giełdy, oznaczałoby to, że systemy KYC i monitorowania transakcji tych giełd nie wykryły pięcioletniego strumienia dochodów z narkotyków — co ma realne konsekwencje dla całej branży. I odwrotnie, gdyby polegali wyłącznie na trasach P2P lub mikserach, byłby to dowód, że szara strefa działająca poza regulowanymi giełdami wciąż ma znaczną skalę. Wszelkie szczegółowe dowody przepływu środków, które prokuratorzy przedstawią na procesie, dadzą rzadką publiczną możliwość wglądu w to, którą z tych dróg rzeczywiście zwykle podąża pranie kryptowalutowych dochodów z narkotyków w USA.</p>
+<p class="it">Si può anche sostenere una lettura critica secondo cui questa mancanza di divulgazione oscura, più in generale, i limiti del monitoraggio antiriciclaggio (AML). Se la coppia avesse effettivamente incassato attraverso exchange registrati, ciò significherebbe che i sistemi KYC e di monitoraggio delle transazioni di quegli exchange non sono riusciti a segnalare un flusso di cinque anni di proventi della droga — un dato con implicazioni reali per il settore. Al contrario, se si fossero affidati esclusivamente a percorsi P2P o mixer, ciò sarebbe la prova che un'economia sommersa che opera al di fuori degli exchange regolamentati resta di dimensioni considerevoli. Qualunque prova dettagliata sul flusso di fondi che i procuratori presenteranno al processo offrirà una rara finestra pubblica su quale di questi percorsi tenda effettivamente a seguire il riciclaggio cripto dei proventi della droga negli Stati Uniti.</p>
+<p class="ru">Можно также привести критический довод о том, что это отсутствие раскрытия информации в более широком смысле скрывает пределы мониторинга противодействия отмыванию денег (AML). Если пара действительно обналичивала средства через зарегистрированные биржи, это означало бы, что системы KYC и мониторинга транзакций этих бирж не смогли выявить пятилетний поток доходов от наркотиков — вывод с реальными последствиями для всей отрасли. И наоборот, если они полагались исключительно на P2P- или миксер-маршруты, это стало бы доказательством того, что теневая экономика, работающая вне регулируемых бирж, остаётся значительной по масштабу. Любые подробные доказательства движения средств, которые прокуроры представят на суде, дадут редкую возможность публично увидеть, какому из этих путей на самом деле чаще следует отмывание криптовалютных доходов от наркотиков в США.</p>
+<p class="zh">也有批評觀點認為,這種資訊不公開實際上更廣泛地掩蓋了反洗錢(AML)監控的侷限性。若兩人確實透過已註冊的交易所套現,這意味著這些交易所的KYC與交易監控系統未能偵測到長達五年的毒品所得資金流——此一發現對整個產業具有實質意義。反之,若兩人純粹依賴P2P或混幣器管道,則證明遊走於受監管交易所之外的地下經濟規模依然可觀。檢方在審判中提出的詳細資金流向證據,無論結果如何,都將提供一個難得的公開窗口,讓外界得以判斷美國毒品所得加密貨幣洗錢實際上更傾向於走哪一條路徑。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -370,6 +375,156 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Dòng thời gian và mức án dựa trên thông báo của DOJ và tin tức từ Crypto.news, The Block.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Garis Waktu Kasus 'HotGirlzClub' &amp; Perbandingan Penuntutan Narkoba-Kripto Darknet</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Garis Waktu</text>
+    <circle cx="70" cy="105" r="7" fill="#f87171"/>
+    <text x="90" y="110" fill="#e4e4e7" font-size="13">2020 — Operasi narkoba darknet diduga dimulai</text>
+    <circle cx="70" cy="135" r="7" fill="#fbbf24"/>
+    <text x="90" y="140" fill="#e4e4e7" font-size="13">2025 (7 bulan) — 500+ paket dikirim secara nasional, dilacak melalui pelacakan pos</text>
+    <circle cx="70" cy="165" r="7" fill="#4ade80"/>
+    <text x="90" y="170" fill="#e4e4e7" font-size="13">16 Juli 2026 — Dakwaan dewan juri agung federal diumumkan</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Hukuman maksimum per tuduhan</text>
+    <rect x="40" y="230" width="290" height="60" rx="8" fill="#2a1414" stroke="#f87171" stroke-width="1.2"/>
+    <text x="185" y="256" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Persekongkolan perdagangan narkoba</text>
+    <text x="185" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">Hingga seumur hidup</text>
+    <rect x="360" y="230" width="290" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="505" y="256" fill="#93c5fd" font-size="14" font-weight="700" text-anchor="middle">Persekongkolan pencucian uang</text>
+    <text x="505" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">Hingga 20 tahun</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="325" fill="#e4e4e7" font-size="14" font-weight="700">Sebagai referensi: penuntutan darknet/kripto sebelumnya</text>
+    <text x="40" y="350" fill="#a1a1aa" font-size="12">Silk Road (2013), Incognito Market (2024) — keduanya terbongkar melalui pelacakan logistik/pembayaran</text>
+    <text x="40" y="372" fill="#a1a1aa" font-size="12">HotGirlzClub (2026) — pelacakan paket pos menjadi penentu; metode pencucian uang belum diungkapkan</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Garis waktu dan angka hukuman berdasarkan pengumuman DOJ serta pemberitaan Crypto.news dan The Block.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Oś czasu sprawy „HotGirlzClub" i porównanie z innymi sprawami narkotykowo-kryptowalutowymi w darknecie</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Oś czasu</text>
+    <circle cx="70" cy="105" r="7" fill="#f87171"/>
+    <text x="90" y="110" fill="#e4e4e7" font-size="13">2020 — rzekomy początek działalności narkotykowej w darknecie</text>
+    <circle cx="70" cy="135" r="7" fill="#fbbf24"/>
+    <text x="90" y="140" fill="#e4e4e7" font-size="13">2025 (7 miesięcy) — wysłano 500+ paczek w całym kraju, namierzonych dzięki śledzeniu przesyłek pocztowych</text>
+    <circle cx="70" cy="165" r="7" fill="#4ade80"/>
+    <text x="90" y="170" fill="#e4e4e7" font-size="13">16 lipca 2026 — ogłoszono akt oskarżenia federalnej wielkiej ławy przysięgłych</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Maksymalna kara za poszczególne zarzuty</text>
+    <rect x="40" y="230" width="290" height="60" rx="8" fill="#2a1414" stroke="#f87171" stroke-width="1.2"/>
+    <text x="185" y="256" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Zmowa przemytu narkotyków</text>
+    <text x="185" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">Do dożywocia</text>
+    <rect x="360" y="230" width="290" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="505" y="256" fill="#93c5fd" font-size="14" font-weight="700" text-anchor="middle">Zmowa prania pieniędzy</text>
+    <text x="505" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">Do 20 lat</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="325" fill="#e4e4e7" font-size="14" font-weight="700">Dla porównania: wcześniejsze sprawy darknet/krypto</text>
+    <text x="40" y="350" fill="#a1a1aa" font-size="12">Silk Road (2013), Incognito Market (2024) — obie rozwiązane dzięki śledzeniu logistyki/płatności</text>
+    <text x="40" y="372" fill="#a1a1aa" font-size="12">HotGirlzClub (2026) — decydujące było śledzenie przesyłek pocztowych; metoda prania pieniędzy nieujawniona</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Oś czasu i wymiary kar na podstawie komunikatu DOJ oraz relacji Crypto.news i The Block.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronologia del caso 'HotGirlzClub' e confronto con altre incriminazioni per droga-cripto sul darknet</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Cronologia</text>
+    <circle cx="70" cy="105" r="7" fill="#f87171"/>
+    <text x="90" y="110" fill="#e4e4e7" font-size="13">2020 — Presunto inizio dell'operazione di droga sul darknet</text>
+    <circle cx="70" cy="135" r="7" fill="#fbbf24"/>
+    <text x="90" y="140" fill="#e4e4e7" font-size="13">2025 (7 mesi) — 500+ pacchi spediti a livello nazionale, tracciati tramite il servizio postale</text>
+    <circle cx="70" cy="165" r="7" fill="#4ade80"/>
+    <text x="90" y="170" fill="#e4e4e7" font-size="13">16 luglio 2026 — Annunciata l'incriminazione del gran giurì federale</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Pena massima per capo d'accusa</text>
+    <rect x="40" y="230" width="290" height="60" rx="8" fill="#2a1414" stroke="#f87171" stroke-width="1.2"/>
+    <text x="185" y="256" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Cospirazione di traffico di droga</text>
+    <text x="185" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">Fino all'ergastolo</text>
+    <rect x="360" y="230" width="290" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="505" y="256" fill="#93c5fd" font-size="14" font-weight="700" text-anchor="middle">Cospirazione di riciclaggio di denaro</text>
+    <text x="505" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">Fino a 20 anni</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="325" fill="#e4e4e7" font-size="14" font-weight="700">Per riferimento: precedenti incriminazioni darknet/cripto</text>
+    <text x="40" y="350" fill="#a1a1aa" font-size="12">Silk Road (2013), Incognito Market (2024) — entrambe risolte tramite tracciamento logistico/dei pagamenti</text>
+    <text x="40" y="372" fill="#a1a1aa" font-size="12">HotGirlzClub (2026) — il tracciamento dei pacchi postali è stato decisivo; metodo di riciclaggio non divulgato</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Cronologia e pene basate sull'annuncio del DOJ e sui resoconti di Crypto.news e The Block.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Хронология дела «HotGirlzClub» и сравнение с делами о наркотиках и криптовалюте в даркнете</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">Хронология</text>
+    <circle cx="70" cy="105" r="7" fill="#f87171"/>
+    <text x="90" y="110" fill="#e4e4e7" font-size="13">2020 — предположительно начинается операция по продаже наркотиков в даркнете</text>
+    <circle cx="70" cy="135" r="7" fill="#fbbf24"/>
+    <text x="90" y="140" fill="#e4e4e7" font-size="13">2025 (7 месяцев) — отправлено более 500 посылок по всей стране, отслежено с помощью почтового отслеживания</text>
+    <circle cx="70" cy="165" r="7" fill="#4ade80"/>
+    <text x="90" y="170" fill="#e4e4e7" font-size="13">16 июля 2026 — объявлено обвинение федерального большого жюри</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Максимальный срок по каждому обвинению</text>
+    <rect x="40" y="230" width="290" height="60" rx="8" fill="#2a1414" stroke="#f87171" stroke-width="1.2"/>
+    <text x="185" y="256" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Сговор о незаконном обороте наркотиков</text>
+    <text x="185" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">До пожизненного заключения</text>
+    <rect x="360" y="230" width="290" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="505" y="256" fill="#93c5fd" font-size="14" font-weight="700" text-anchor="middle">Сговор с целью отмывания денег</text>
+    <text x="505" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">До 20 лет</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="325" fill="#e4e4e7" font-size="14" font-weight="700">Для справки: более ранние дела о даркнете/криптовалюте</text>
+    <text x="40" y="350" fill="#a1a1aa" font-size="12">Silk Road (2013), Incognito Market (2024) — оба раскрыты благодаря отслеживанию логистики/платежей</text>
+    <text x="40" y="372" fill="#a1a1aa" font-size="12">HotGirlzClub (2026) — решающим стало отслеживание почтовых посылок; метод отмывания денег не раскрыт</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Хронология и данные о сроках наказания основаны на заявлении DOJ и репортажах Crypto.news и The Block.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">「HotGirlzClub」案件時間軸與暗網毒品-加密貨幣起訴案比較</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="660" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="40" y="72" fill="#e4e4e7" font-size="13" font-weight="700">時間軸</text>
+    <circle cx="70" cy="105" r="7" fill="#f87171"/>
+    <text x="90" y="110" fill="#e4e4e7" font-size="13">2020年 — 暗網毒品業務據稱開始</text>
+    <circle cx="70" cy="135" r="7" fill="#fbbf24"/>
+    <text x="90" y="140" fill="#e4e4e7" font-size="13">2025年(7個月) — 全美寄出500件以上包裹,經郵政追蹤鎖定</text>
+    <circle cx="70" cy="165" r="7" fill="#4ade80"/>
+    <text x="90" y="170" fill="#e4e4e7" font-size="13">2026年7月16日 — 聯邦大陪審團起訴公布</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="212" fill="#e4e4e7" font-size="14" font-weight="700">各項指控之最高刑期</text>
+    <rect x="40" y="230" width="290" height="60" rx="8" fill="#2a1414" stroke="#f87171" stroke-width="1.2"/>
+    <text x="185" y="256" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">毒品販運共謀</text>
+    <text x="185" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">最高終身監禁</text>
+    <rect x="360" y="230" width="290" height="60" rx="8" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.2"/>
+    <text x="505" y="256" fill="#93c5fd" font-size="14" font-weight="700" text-anchor="middle">洗錢共謀</text>
+    <text x="505" y="278" fill="#e4e4e7" font-size="15" font-weight="700" text-anchor="middle">最高20年</text>
+  </g>
+  <g font-family="sans-serif">
+    <text x="20" y="325" fill="#e4e4e7" font-size="14" font-weight="700">參考:過往類似暗網/加密貨幣起訴案</text>
+    <text x="40" y="350" fill="#a1a1aa" font-size="12">絲路(2013)、Incognito Market(2024) — 皆透過物流/付款追蹤破案</text>
+    <text x="40" y="372" fill="#a1a1aa" font-size="12">HotGirlzClub(2026) — 郵政包裹追蹤為關鍵線索;洗錢手法未公開</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">時間軸與刑期數據依據司法部公告及Crypto.news、The Block報導整理。</p>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 재판 과정에서 검찰이 구체적으로 어떤 자금세탁 경로 — 등록 거래소 경유인지, 믹서·P2P 경유인지 — 를 증거로 제시하는지, (2) 관련된 거래소가 있다면 어느 곳이며 해당 거래소의 KYC 대응이 문제가 됐는지, (3) HSI·DOJ가 이번 사건을 계기로 유사한 다크웹 벤더에 대한 추가 기소를 예고하는지, (4) 두 피고인이 유죄를 인정하는 플리바게닝으로 갈지, 실제 재판까지 가는지 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) Which specific laundering route — registered exchanges versus mixers or P2P — prosecutors present as evidence at trial; (2) if an exchange was involved, which one, and whether its KYC response becomes an issue; (3) whether HSI and the DOJ signal follow-on indictments against similar darknet vendors off the back of this case; (4) whether the two defendants head toward a plea deal or the case goes to full trial.</div>
@@ -380,6 +535,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> (1) Qual rota específica de lavagem — exchanges registradas versus mixers ou P2P — os promotores apresentarão como prova no julgamento; (2) se uma exchange esteve envolvida, qual delas, e se sua resposta de KYC se tornará um problema; (3) se a HSI e o DOJ sinalizarão novas acusações contra vendedores similares da darknet a partir deste caso; (4) se os dois réus caminharão para um acordo de confissão ou o caso irá a julgamento completo.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) Savcıların duruşmada kanıt olarak hangi somut aklama rotasını — kayıtlı borsalar mı yoksa karıştırıcı/P2P mi — sunacağı; (2) bir borsa dahilse hangisi olduğu ve KYC yanıtının sorun haline gelip gelmeyeceği; (3) HSI ve DOJ'nin bu davanın ardından benzer darknet satıcılarına yönelik ek iddianameler sinyali verip vermeyeceği; (4) iki sanığın bir itiraf pazarlığına mı yöneleceği yoksa dava tam yargılamaya mı gideceği.</div>
 <div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> (1) Công tố viên sẽ trình bày tuyến đường rửa tiền cụ thể nào — qua sàn giao dịch đã đăng ký hay qua mixer/P2P — làm bằng chứng tại phiên tòa; (2) nếu có sàn giao dịch liên quan, đó là sàn nào và liệu phản ứng KYC của sàn đó có trở thành vấn đề hay không; (3) liệu HSI và DOJ có phát tín hiệu truy tố tiếp theo nhắm vào các người bán darknet tương tự sau vụ này hay không; (4) liệu hai bị cáo sẽ hướng tới thỏa thuận nhận tội hay vụ án sẽ đi đến xét xử đầy đủ.</div>
+<div class="box id">💡 <strong>Yang perlu diperhatikan sekarang:</strong> (1) Jalur pencucian uang spesifik mana — bursa terdaftar versus mixer atau P2P — yang akan disajikan jaksa sebagai bukti di persidangan; (2) jika ada bursa yang terlibat, bursa mana, dan apakah respons KYC-nya menjadi masalah; (3) apakah HSI dan DOJ memberi sinyal dakwaan lanjutan terhadap vendor darknet serupa menyusul kasus ini; (4) apakah kedua terdakwa akan mengarah ke kesepakatan pengakuan bersalah atau kasus ini berlanjut ke persidangan penuh.</div>
+<div class="box pl">💡 <strong>Na co teraz zwracać uwagę:</strong> (1) Którą konkretną trasę prania pieniędzy — zarejestrowane giełdy czy miksery bądź P2P — prokuratorzy przedstawią jako dowód na procesie; (2) jeśli zaangażowana była giełda, która to giełda i czy jej reakcja w zakresie KYC stanie się problemem; (3) czy HSI i DOJ zasygnalizują kolejne akty oskarżenia wobec podobnych sprzedawców darknetowych w następstwie tej sprawy; (4) czy obaj oskarżeni zmierzają ku ugodzie z przyznaniem się do winy, czy sprawa trafi na pełny proces.</div>
+<div class="box it">💡 <strong>Cosa osservare ora:</strong> (1) Quale specifico percorso di riciclaggio — exchange registrati contro mixer o P2P — i procuratori presenteranno come prova al processo; (2) se è stato coinvolto un exchange, quale, e se la sua risposta KYC diventerà un problema; (3) se HSI e DOJ segnaleranno ulteriori incriminazioni contro venditori darknet simili sulla scia di questo caso; (4) se i due imputati si dirigeranno verso un patteggiamento o il caso arriverà a un processo completo.</div>
+<div class="box ru">💡 <strong>За чем следить сейчас:</strong> (1) Какой конкретный маршрут отмывания денег — зарегистрированные биржи или миксеры/P2P — прокуроры представят в качестве доказательства на суде; (2) если была задействована биржа, какая именно, и станет ли её реакция в части KYC проблемой; (3) дадут ли HSI и DOJ сигнал о последующих обвинениях против аналогичных продавцов даркнета вслед за этим делом; (4) пойдут ли оба обвиняемых на сделку о признании вины или дело дойдёт до полноценного суда.</div>
+<div class="box zh">💡 <strong>目前應關注的重點:</strong>(1)檢方將在審判中提出哪種具體洗錢路徑作為證據——已註冊交易所,還是混幣器或P2P;(2)若牽涉交易所,是哪一家,其KYC因應是否會成為爭議焦點;(3)HSI與司法部是否會在此案之後,對類似暗網賣家發出後續起訴訊號;(4)兩名被告是否會走向認罪協商,抑或案件將進入完整審判。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 미국 법무부(DOJ) 캘리포니아중부지검 보도자료, 크립토뉴스(Crypto.news), 더블록(The Block), NBC6 사우스플로리다.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: U.S. Department of Justice (Central District of California) press release, Crypto.news, The Block, NBC6 South Florida.</p>
@@ -390,4 +550,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: comunicado de imprensa do Departamento de Justiça dos EUA (Distrito Central da Califórnia), Crypto.news, The Block, NBC6 South Florida.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: ABD Adalet Bakanlığı (Kaliforniya Orta Bölgesi) basın açıklaması, Crypto.news, The Block, NBC6 South Florida.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Thông cáo báo chí của Bộ Tư pháp Mỹ (Khu vực Trung tâm California), Crypto.news, The Block, NBC6 South Florida.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: rilis pers Departemen Kehakiman AS (Distrik Tengah California), Crypto.news, The Block, NBC6 South Florida.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: komunikat prasowy Departamentu Sprawiedliwości USA (Centralny Dystrykt Kalifornii), Crypto.news, The Block, NBC6 South Florida.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: comunicato stampa del Dipartimento di Giustizia statunitense (Distretto Centrale della California), Crypto.news, The Block, NBC6 South Florida.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: пресс-релиз Министерства юстиции США (Центральный округ Калифорнии), Crypto.news, The Block, NBC6 South Florida.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:美國司法部(加州中區檢察署)新聞稿、Crypto.news、The Block、NBC6 South Florida。</p>
 <?php require __DIR__.'/_footer.php'; ?>

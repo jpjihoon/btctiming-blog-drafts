@@ -68,6 +68,11 @@
   "desc_pt": "A Kraken Institutional firmou parceria com a Upshift para que clientes institucionais gerem rendimento diretamente sobre BTC, ETH e stablecoins ociosos em custódia qualificada. Traçamos a evolução do DeFi agrupado para vaults de marca branca e ponderamos uma leitura crítica do que o modelo de separação custódia-rendimento realmente significa.",
   "desc_tr": "Kraken Institutional, kurumsal müşterilerin nitelikli saklamadaki atıl BTC, ETH ve stabilcoinlerden doğrudan getiri elde etmesi için Upshift ile ortaklık kurdu. Havuzlanmış DeFi'den beyaz etiketli kasalara uzanan evrimi ve saklama-getiri ayrımı modelinin gerçekte ne anlama geldiğine dair eleştirel bir bakışı inceliyoruz.",
   "desc_vi": "Kraken Institutional đã hợp tác với Upshift để khách hàng tổ chức kiếm lợi suất trực tiếp trên BTC, ETH và stablecoin nhàn rỗi trong lưu ký đủ chuẩn. Chúng tôi phác họa sự tiến hóa từ DeFi gộp chung sang vault gắn thương hiệu riêng, đồng thời cân nhắc một góc nhìn phê phán về ý nghĩa thực sự của mô hình tách lưu ký khỏi lợi suất.",
+  "desc_id": "Kraken Institutional gandeng Upshift agar klien institusional meraih imbal hasil langsung dari BTC, ETH, stablecoin menganggur di kustodi berkualifikasi.",
+  "desc_pl": "Kraken Institutional połączył siły z Upshift, by klienci zarabiali wprost na bezczynnych BTC, ETH i stablecoinach w opiece powierniczej Kraken.",
+  "desc_it": "Kraken Institutional si allea con Upshift per far guadagnare ai clienti un rendimento diretto su BTC, ETH e stablecoin inattivi in custodia qualificata.",
+  "desc_ru": "Kraken Institutional и Upshift дают институциональным клиентам доходность напрямую на простаивающие BTC, ETH и стейблкоины в квалифицированном хранении.",
+  "desc_zh": "Kraken Institutional宣布已與Upshift合作,讓機構客戶能直接對存放於合格託管中的閒置BTC、ETH與穩定幣賺取收益,我們追溯從共用式DeFi演變至白標金庫的完整歷程,並檢視託管與收益分離模式背後隱含的爭議與潛在風險。",
   "read_ko": "6",
   "read_en": "6",
   "read_ja": "6",
@@ -76,5 +81,10 @@
   "read_fr": "6",
   "read_pt": "6",
   "read_tr": "6",
-  "read_vi": "6"
+  "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6"
 }
