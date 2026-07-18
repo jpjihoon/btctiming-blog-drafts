@@ -453,5 +453,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CryptoTimes、Crypto Economy、crypto.news、Coin-Turk、CoinEdition、The Block、Cointelegraph</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
