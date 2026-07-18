@@ -579,6 +579,236 @@
   <text x="20" y="430" fill="#52525b" font-size="11" font-family="sans-serif">Ngày/giá đỉnh dựa trên dữ liệu lịch sử thực; có thể chênh lệch nhẹ tùy sàn</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 445" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Waktu dari Halving ke Puncak — Empat Siklus</text>
+  <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Titik=puncak siklus · abu-abu=3 siklus lalu · merah=2024 (puncak pra-halving)</text>
+  <rect x="20" y="57" width="10" height="10" fill="#71717a" rx="2"/><text x="36" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Puncak lalu</text>
+  <rect x="140" y="57" width="10" height="10" fill="#f87171" rx="2"/><text x="156" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Puncak 2024</text>
+  <line x1="137" y1="95" x2="137" y2="355" stroke="#f7931a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="142" y="102" fill="#f7931a" font-size="12" font-family="sans-serif">Halving (bulan 0)</text>
+  <line x1="60" y1="120" x2="650" y2="120" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="124" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2012</text>
+  <circle cx="250" cy="120" r="7" fill="#71717a"/>
+  <text x="250" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$266</text>
+  <text x="250" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+4.4bln</text>
+  <circle cx="447" cy="120" r="7" fill="#71717a"/>
+  <text x="447" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$1,150</text>
+  <text x="447" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+12.1bln</text>
+  <line x1="60" y1="190" x2="650" y2="190" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="194" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2016</text>
+  <circle cx="581" cy="190" r="7" fill="#71717a"/>
+  <text x="581" y="172" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$19,783</text>
+  <text x="581" y="210" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+17.3bln</text>
+  <line x1="60" y1="260" x2="650" y2="260" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="264" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2020</text>
+  <circle cx="422" cy="260" r="7" fill="#71717a"/>
+  <text x="422" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$64,895</text>
+  <text x="422" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+11.1bln</text>
+  <circle cx="599" cy="260" r="7" fill="#71717a"/>
+  <text x="599" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$68,789</text>
+  <text x="599" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+18.0bln</text>
+  <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="334" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2024</text>
+  <circle cx="106" cy="330" r="8" fill="#f87171"/>
+  <text x="106" y="312" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">$73,737</text>
+  <text x="106" y="350" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">-1.2bln</text>
+  <line x1="60" y1="360" x2="650" y2="360" stroke="#52525b" stroke-width="1"/>
+  <text x="60" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">-3</text>
+  <text x="137" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">0</text>
+  <text x="265" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">5</text>
+  <text x="393" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10</text>
+  <text x="522" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">15</text>
+  <text x="650" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">20</text>
+  <text x="355" y="396" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Bulan yang berlalu sejak halving</text>
+  <text x="20" y="414" fill="#52525b" font-size="11" font-family="sans-serif">※ Halving: 2012-11-28 · 2016-07-09 · 2020-05-11 · 2024-04-20</text>
+  <text x="20" y="430" fill="#52525b" font-size="11" font-family="sans-serif">Tanggal/harga puncak berdasarkan data historis nyata; dapat sedikit berbeda antar bursa</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 445" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Czas od Halvingu do Szczytu — Cztery Cykle</text>
+  <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Punkt=szczyt cyklu · szary=3 poprzednie cykle · czerwony=2024 (szczyt przed halvingiem)</text>
+  <rect x="20" y="57" width="10" height="10" fill="#71717a" rx="2"/><text x="36" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Poprzednie szczyty</text>
+  <rect x="170" y="57" width="10" height="10" fill="#f87171" rx="2"/><text x="186" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Szczyt 2024</text>
+  <line x1="137" y1="95" x2="137" y2="355" stroke="#f7931a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="142" y="102" fill="#f7931a" font-size="12" font-family="sans-serif">Halving (miesiąc 0)</text>
+  <line x1="60" y1="120" x2="650" y2="120" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="124" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2012</text>
+  <circle cx="250" cy="120" r="7" fill="#71717a"/>
+  <text x="250" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$266</text>
+  <text x="250" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+4,4 mies.</text>
+  <circle cx="447" cy="120" r="7" fill="#71717a"/>
+  <text x="447" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$1,150</text>
+  <text x="447" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+12,1 mies.</text>
+  <line x1="60" y1="190" x2="650" y2="190" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="194" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2016</text>
+  <circle cx="581" cy="190" r="7" fill="#71717a"/>
+  <text x="581" y="172" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$19,783</text>
+  <text x="581" y="210" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+17,3 mies.</text>
+  <line x1="60" y1="260" x2="650" y2="260" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="264" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2020</text>
+  <circle cx="422" cy="260" r="7" fill="#71717a"/>
+  <text x="422" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$64,895</text>
+  <text x="422" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+11,1 mies.</text>
+  <circle cx="599" cy="260" r="7" fill="#71717a"/>
+  <text x="599" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$68,789</text>
+  <text x="599" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+18,0 mies.</text>
+  <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="334" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2024</text>
+  <circle cx="106" cy="330" r="8" fill="#f87171"/>
+  <text x="106" y="312" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">$73,737</text>
+  <text x="106" y="350" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">-1,2 mies.</text>
+  <line x1="60" y1="360" x2="650" y2="360" stroke="#52525b" stroke-width="1"/>
+  <text x="60" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">-3</text>
+  <text x="137" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">0</text>
+  <text x="265" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">5</text>
+  <text x="393" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10</text>
+  <text x="522" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">15</text>
+  <text x="650" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">20</text>
+  <text x="355" y="396" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Miesiące od halvingu</text>
+  <text x="20" y="414" fill="#52525b" font-size="11" font-family="sans-serif">※ Halvingi: 2012-11-28 · 2016-07-09 · 2020-05-11 · 2024-04-20</text>
+  <text x="20" y="430" fill="#52525b" font-size="11" font-family="sans-serif">Daty/ceny szczytów na podstawie rzeczywistych danych historycznych; mogą się nieznacznie różnić w zależności od giełdy</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 445" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Tempo dall'Halving al Picco — Quattro Cicli</text>
+  <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Punto=picco del ciclo · grigio=3 cicli precedenti · rosso=2024 (picco pre-halving)</text>
+  <rect x="20" y="57" width="10" height="10" fill="#71717a" rx="2"/><text x="36" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Picchi passati</text>
+  <rect x="150" y="57" width="10" height="10" fill="#f87171" rx="2"/><text x="166" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Picco 2024</text>
+  <line x1="137" y1="95" x2="137" y2="355" stroke="#f7931a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="142" y="102" fill="#f7931a" font-size="12" font-family="sans-serif">Halving (mese 0)</text>
+  <line x1="60" y1="120" x2="650" y2="120" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="124" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2012</text>
+  <circle cx="250" cy="120" r="7" fill="#71717a"/>
+  <text x="250" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$266</text>
+  <text x="250" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+4,4 m.</text>
+  <circle cx="447" cy="120" r="7" fill="#71717a"/>
+  <text x="447" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$1,150</text>
+  <text x="447" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+12,1 m.</text>
+  <line x1="60" y1="190" x2="650" y2="190" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="194" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2016</text>
+  <circle cx="581" cy="190" r="7" fill="#71717a"/>
+  <text x="581" y="172" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$19,783</text>
+  <text x="581" y="210" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+17,3 m.</text>
+  <line x1="60" y1="260" x2="650" y2="260" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="264" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2020</text>
+  <circle cx="422" cy="260" r="7" fill="#71717a"/>
+  <text x="422" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$64,895</text>
+  <text x="422" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+11,1 m.</text>
+  <circle cx="599" cy="260" r="7" fill="#71717a"/>
+  <text x="599" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$68,789</text>
+  <text x="599" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+18,0 m.</text>
+  <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="334" fill="#d4d4d8" font-size="13" font-family="sans-serif">Halving 2024</text>
+  <circle cx="106" cy="330" r="8" fill="#f87171"/>
+  <text x="106" y="312" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">$73,737</text>
+  <text x="106" y="350" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">-1,2 m.</text>
+  <line x1="60" y1="360" x2="650" y2="360" stroke="#52525b" stroke-width="1"/>
+  <text x="60" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">-3</text>
+  <text x="137" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">0</text>
+  <text x="265" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">5</text>
+  <text x="393" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10</text>
+  <text x="522" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">15</text>
+  <text x="650" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">20</text>
+  <text x="355" y="396" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Mesi trascorsi dall'halving</text>
+  <text x="20" y="414" fill="#52525b" font-size="11" font-family="sans-serif">※ Halving: 2012-11-28 · 2016-07-09 · 2020-05-11 · 2024-04-20</text>
+  <text x="20" y="430" fill="#52525b" font-size="11" font-family="sans-serif">Date/prezzi dei picchi basati su dati storici reali; possono variare leggermente a seconda dell'exchange</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 445" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Время от Халвинга до Пика — Четыре Цикла</text>
+  <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Точка=пик цикла · серый=3 предыдущих цикла · красный=2024 (пик до халвинга)</text>
+  <rect x="20" y="57" width="10" height="10" fill="#71717a" rx="2"/><text x="36" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Прошлые пики</text>
+  <rect x="150" y="57" width="10" height="10" fill="#f87171" rx="2"/><text x="166" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">Пик 2024</text>
+  <line x1="137" y1="95" x2="137" y2="355" stroke="#f7931a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="142" y="102" fill="#f7931a" font-size="12" font-family="sans-serif">Халвинг (месяц 0)</text>
+  <line x1="60" y1="120" x2="650" y2="120" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="124" fill="#d4d4d8" font-size="13" font-family="sans-serif">Халвинг 2012</text>
+  <circle cx="250" cy="120" r="7" fill="#71717a"/>
+  <text x="250" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$266</text>
+  <text x="250" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+4,4 мес.</text>
+  <circle cx="447" cy="120" r="7" fill="#71717a"/>
+  <text x="447" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$1,150</text>
+  <text x="447" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+12,1 мес.</text>
+  <line x1="60" y1="190" x2="650" y2="190" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="194" fill="#d4d4d8" font-size="13" font-family="sans-serif">Халвинг 2016</text>
+  <circle cx="581" cy="190" r="7" fill="#71717a"/>
+  <text x="581" y="172" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$19,783</text>
+  <text x="581" y="210" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+17,3 мес.</text>
+  <line x1="60" y1="260" x2="650" y2="260" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="264" fill="#d4d4d8" font-size="13" font-family="sans-serif">Халвинг 2020</text>
+  <circle cx="422" cy="260" r="7" fill="#71717a"/>
+  <text x="422" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$64,895</text>
+  <text x="422" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+11,1 мес.</text>
+  <circle cx="599" cy="260" r="7" fill="#71717a"/>
+  <text x="599" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$68,789</text>
+  <text x="599" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+18,0 мес.</text>
+  <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="334" fill="#d4d4d8" font-size="13" font-family="sans-serif">Халвинг 2024</text>
+  <circle cx="106" cy="330" r="8" fill="#f87171"/>
+  <text x="106" y="312" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">$73,737</text>
+  <text x="106" y="350" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">-1,2 мес.</text>
+  <line x1="60" y1="360" x2="650" y2="360" stroke="#52525b" stroke-width="1"/>
+  <text x="60" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">-3</text>
+  <text x="137" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">0</text>
+  <text x="265" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">5</text>
+  <text x="393" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10</text>
+  <text x="522" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">15</text>
+  <text x="650" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">20</text>
+  <text x="355" y="396" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Месяцев прошло с халвинга</text>
+  <text x="20" y="414" fill="#52525b" font-size="11" font-family="sans-serif">※ Халвинги: 2012-11-28 · 2016-07-09 · 2020-05-11 · 2024-04-20</text>
+  <text x="20" y="430" fill="#52525b" font-size="11" font-family="sans-serif">Даты/цены пиков основаны на реальных исторических данных; могут немного отличаться в зависимости от биржи</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 445" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">從減半到頂點的時間——四次週期</text>
+  <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">點=週期頂點・灰=過去3次週期・紅=2024年(減半前頂點)</text>
+  <rect x="20" y="57" width="10" height="10" fill="#71717a" rx="2"/><text x="36" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">過去頂點</text>
+  <rect x="120" y="57" width="10" height="10" fill="#f87171" rx="2"/><text x="136" y="65" fill="#a1a1aa" font-size="13" font-family="sans-serif">2024年頂點</text>
+  <line x1="137" y1="95" x2="137" y2="355" stroke="#f7931a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="142" y="102" fill="#f7931a" font-size="12" font-family="sans-serif">減半(第0個月)</text>
+  <line x1="60" y1="120" x2="650" y2="120" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="124" fill="#d4d4d8" font-size="13" font-family="sans-serif">2012年減半</text>
+  <circle cx="250" cy="120" r="7" fill="#71717a"/>
+  <text x="250" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$266</text>
+  <text x="250" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+4.4個月</text>
+  <circle cx="447" cy="120" r="7" fill="#71717a"/>
+  <text x="447" y="102" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$1,150</text>
+  <text x="447" y="140" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+12.1個月</text>
+  <line x1="60" y1="190" x2="650" y2="190" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="194" fill="#d4d4d8" font-size="13" font-family="sans-serif">2016年減半</text>
+  <circle cx="581" cy="190" r="7" fill="#71717a"/>
+  <text x="581" y="172" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$19,783</text>
+  <text x="581" y="210" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+17.3個月</text>
+  <line x1="60" y1="260" x2="650" y2="260" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="264" fill="#d4d4d8" font-size="13" font-family="sans-serif">2020年減半</text>
+  <circle cx="422" cy="260" r="7" fill="#71717a"/>
+  <text x="422" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$64,895</text>
+  <text x="422" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+11.1個月</text>
+  <circle cx="599" cy="260" r="7" fill="#71717a"/>
+  <text x="599" y="242" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">$68,789</text>
+  <text x="599" y="280" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">+18.0個月</text>
+  <line x1="60" y1="330" x2="650" y2="330" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="334" fill="#d4d4d8" font-size="13" font-family="sans-serif">2024年減半</text>
+  <circle cx="106" cy="330" r="8" fill="#f87171"/>
+  <text x="106" y="312" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">$73,737</text>
+  <text x="106" y="350" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">-1.2個月</text>
+  <line x1="60" y1="360" x2="650" y2="360" stroke="#52525b" stroke-width="1"/>
+  <text x="60" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">-3</text>
+  <text x="137" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">0</text>
+  <text x="265" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">5</text>
+  <text x="393" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10</text>
+  <text x="522" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">15</text>
+  <text x="650" y="376" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">20</text>
+  <text x="355" y="396" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">減半後經過月數</text>
+  <text x="20" y="414" fill="#52525b" font-size="11" font-family="sans-serif">※ 減半日期:2012-11-28・2016-07-09・2020-05-11・2024-04-20</text>
+  <text x="20" y="430" fill="#52525b" font-size="11" font-family="sans-serif">頂點日期與價格根據真實歷史資料,依交易所不同可能略有差異</text>
+</svg>
+</div>
 
 <p class="ko">이 붕괴는 우연이 아니라 매수 주체의 구조 자체가 바뀌었다는 신호였다. ETF는 출시 18개월 만에 유통량의 6.4%에 해당하는 약 130만 BTC를 흡수했고, 운용자산은 한때 1,695억 달러까지 불어났다. 코인셰어스가 집계한 2025년 1분기 13F 공시 분석에 따르면 기관 투자자는 ETF를 통해 920억 달러 시장의 22.9%를 보유했고, 그해 말에는 이 비중이 24.5%까지 올라갔다 — 번스타인이 예측했던 40%에는 못 미쳤지만, 2017년이나 2021년에는 아예 존재하지도 않았던 매수 채널이 발행량의 4분의 1가량을 흡수하고 있다는 뜻이다. 과거 사이클의 한계 매수자는 거래소에 직접 입금하는 개인이었고, 이번 사이클의 한계 매수자 상당수는 매일 순자산가치를 공시하고 분기마다 13F를 제출하는 자산운용사다. 매수 주체의 회전율과 반응 속도, 레버리지 구조가 다른데 '닮은 모양'만으로 같은 타이밍을 기대하는 건 통계가 아니라 서사다.</p>
 <p class="en">This break wasn't a coincidence — it was a signal that the structure of the marginal buyer itself had changed. Within 18 months of launch, the ETFs had absorbed roughly 1.3 million BTC, or 6.4% of circulating supply, with assets under management swelling to $169.5 billion at their peak. According to CoinShares' analysis of Q1 2025 13F filings, institutional investors held 22.9% of the $92 billion ETF market through those vehicles, and that share had climbed to 24.5% by year-end — short of the 40% Bernstein had projected, but still meaning that a buying channel which simply didn't exist in 2017 or 2021 was now absorbing roughly a quarter of the outstanding supply. The marginal buyer in past cycles was an individual wiring funds directly to an exchange; a large share of the marginal buyer in this cycle is an asset manager that publishes daily net asset value and files a 13F every quarter. When the turnover, reaction speed, and leverage structure of the buyer base are different, expecting the same timing purely because the shape "looks similar" isn't statistics. It's storytelling.</p>
