@@ -189,6 +189,11 @@
   <p class="pt">As opções de Bitcoin na Deribit têm uma estrutura em que a liquidez se concentra fortemente em torno do vencimento da última sexta-feira de cada mês. À medida que o vencimento se aproxima, o índice put/call baseado em interesse em aberto pode oscilar violentamente apenas pelo ato mecânico de fechar ou rolar posições antes da liquidação — não por qualquer sentimento novo naquele dia. Como ilustra o texto deste site sobre <a href="/pt/blog/btc-eth-options-expiry-july10-downside-skew">a inclinação baixista em torno de um vencimento de opções de US$ 1,75 bilhão</a>, um índice put/call extremo observado pouco antes do vencimento costuma refletir muito mais a mecânica do rollover de vencimento do que a direção de qualquer compra ou venda genuinamente nova.</p>
   <p class="tr">Deribit'teki Bitcoin opsiyonları, likiditenin her ayın son cuma günkü vadesi etrafında yoğunlaştığı bir yapıya sahip. Vade yaklaştıkça, açık pozisyon bazlı put/call oranı, o günkü yeni bir duyarlılıktan değil, sadece uzlaşma öncesi pozisyonların kapatılması veya devredilmesi gibi mekanik hareketlerden dolayı büyük ölçüde dalgalanabilir. Bu sitenin <a href="/tr/blog/btc-eth-options-expiry-july10-downside-skew">1,75 milyar dolarlık bir opsiyon vadesi civarındaki aşağı yönlü çarpıklık hakkındaki yazısının</a> gösterdiği gibi, vadeden hemen önce gözlemlenen aşırı bir put/call oranı, genellikle gerçek yeni alım-satımın yönünden çok vade devretme (rollover) mekaniğini yansıtır.</p>
   <p class="vi">Quyền chọn Bitcoin trên Deribit có cấu trúc mà thanh khoản tập trung mạnh vào ngày đáo hạn thứ Sáu cuối cùng của mỗi tháng. Khi đáo hạn đến gần, tỷ lệ put/call theo hợp đồng mở có thể dao động dữ dội chỉ vì hành động máy móc của việc đóng hoặc chuyển vị thế trước khi thanh toán — chứ không phải vì bất kỳ tâm lý mới nào trong ngày hôm đó. Như bài viết trên trang này về <a href="/vi/blog/btc-eth-options-expiry-july10-downside-skew">độ nghiêng giảm giá quanh một đợt đáo hạn quyền chọn trị giá 1,75 tỷ đô la</a> minh họa, một tỷ lệ put/call cực đoan được quan sát ngay trước khi đáo hạn thường phản ánh cơ chế chuyển vị thế đáo hạn nhiều hơn là hướng đi của bất kỳ hoạt động mua bán mới thực sự nào.</p>
+  <p class="id">Opsi Bitcoin di Deribit memiliki struktur di mana likuiditas sangat terkonsentrasi di sekitar jatuh tempo Jumat terakhir setiap bulan. Semakin dekat jatuh tempo, rasio put/call berdasarkan open interest bisa berayun liar semata-mata karena tindakan mekanis menutup atau menggulirkan (rolling) posisi menjelang penyelesaian — bukan karena sentimen baru pada hari itu. Seperti diilustrasikan tulisan di situs ini tentang <a href="/id/blog/btc-eth-options-expiry-july10-downside-skew">kecondongan turun di sekitar jatuh tempo opsi senilai 1,75 miliar dolar</a>, rasio put/call ekstrem yang teramati tepat sebelum jatuh tempo umumnya lebih mencerminkan mekanisme penggulingan (rollover) jatuh tempo ketimbang arah pembelian atau penjualan baru yang genuin.</p>
+  <p class="pl">Opcje na bitcoina na Deribit mają strukturę, w której płynność mocno koncentruje się wokół wygaśnięcia przypadającego w ostatni piątek miesiąca. W miarę zbliżania się wygaśnięcia wskaźnik put/call oparty na otwartych pozycjach może wahać się gwałtownie wyłącznie na skutek mechanicznego zamykania lub rolowania pozycji przed rozliczeniem — a nie z powodu jakichkolwiek nowych nastrojów tego dnia. Jak pokazuje tekst tej strony o <a href="/pl/blog/btc-eth-options-expiry-july10-downside-skew">przechyleniu spadkowym wokół wygaśnięcia opcji o wartości 1,75 mld dolarów</a>, ekstremalny wskaźnik put/call obserwowany tuż przed wygaśnięciem zwykle odzwierciedla mechanikę rolowania wygaśnięcia znacznie bardziej niż kierunek jakiegokolwiek rzeczywiście nowego kupna czy sprzedaży.</p>
+  <p class="it">Le opzioni Bitcoin su Deribit hanno una struttura in cui la liquidità si concentra fortemente intorno alla scadenza dell'ultimo venerdì del mese. Man mano che la scadenza si avvicina, il rapporto put/call basato sull'open interest può oscillare in modo selvaggio semplicemente per l'atto meccanico di chiudere o rinnovare (roll) le posizioni prima del regolamento — non per un sentiment nuovo di quel giorno. Come illustra l'articolo di questo sito sullo <a href="/it/blog/btc-eth-options-expiry-july10-downside-skew">sbilanciamento ribassista intorno a una scadenza di opzioni da 1,75 miliardi di dollari</a>, un rapporto put/call estremo osservato appena prima della scadenza riflette comunemente molto più la meccanica del rollover di scadenza che la direzione di un acquisto o una vendita realmente nuovi.</p>
+  <p class="ru">Опционы на биткоин на Deribit устроены так, что ликвидность сильно концентрируется вокруг экспирации в последнюю пятницу месяца. По мере приближения экспирации коэффициент пут/колл по открытому интересу может дико колебаться исключительно из-за механического закрытия или переноса (роллирования) позиций перед расчётом — а вовсе не из-за каких-либо новых настроений в этот день. Как показывает материал этого сайта о <a href="/ru/blog/btc-eth-options-expiry-july10-downside-skew">нисходящем перекосе вокруг экспирации опционов на 1,75 млрд долларов</a>, экстремальный коэффициент пут/колл, наблюдаемый непосредственно перед экспирацией, обычно отражает механику переноса позиций при экспирации гораздо больше, чем направление какой-либо действительно новой покупки или продажи.</p>
+  <p class="zh">Deribit的比特幣選擇權有一種結構特性,流動性高度集中在每月最後一個星期五的到期日附近。隨著到期日逼近,以未平倉量為基準的Put/Call比率可能會純粹因為結算前平倉或轉倉(rollover)的機械性動作而劇烈波動——而與當天任何新的情緒無關。正如本站關於<a href="/zh/blog/btc-eth-options-expiry-july10-downside-skew">17.5億美元規模選擇權到期時的下檔傾斜</a>案例所說明的,在到期日前夕觀察到的極端Put/Call比率,往往反映的是到期轉倉機制,而非任何真正新增買賣的方向。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -388,6 +393,116 @@
   </svg>
   <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Biểu đồ này không vẽ các giá trị tỷ lệ put/call thực tế — đây là minh họa khái niệm được đơn giản hóa về cách các mức đọc theo khối lượng và theo hợp đồng mở có thể phân kỳ quanh ngày đáo hạn.</p>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Put/Call Berdasarkan Volume vs. Berdasarkan Open Interest (Konseptual)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Penyimpangan antara kedua basis di sekitar jatuh tempo bulanan · contoh ilustratif</text>
+    <line x1="400" y1="24" x2="425" y2="24" stroke="#4ade80" stroke-width="3"/>
+    <text x="432" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Basis Volume</text>
+    <line x1="400" y1="44" x2="425" y2="44" stroke="#f87171" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="432" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Basis Open Interest</text>
+    <line x1="420" y1="60" x2="420" y2="340" stroke="#71717a" stroke-dasharray="4,4"/>
+    <text x="420" y="362" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Jatuh Tempo Bulanan</text>
+    <line x1="50" y1="340" x2="650" y2="340" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="70,220 150,205 230,235 310,200 390,215 420,225 470,210 550,220 630,205" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <polyline points="70,260 150,255 230,248 310,240 390,235 420,235" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polyline points="420,150 470,145 550,140 630,135" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <line x1="420" y1="235" x2="420" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="2,3"/>
+    <circle cx="420" cy="150" r="5" fill="#f87171"/>
+    <text x="470" y="105" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Lonjakan Akibat Rollover</text>
+    <text x="470" y="122" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" opacity="0.85">— Bukan Sentimen Baru</text>
+    <text x="350" y="386" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Waktu (normal → mendekati jatuh tempo → jatuh tempo → pasca-rollover)</text>
+  </svg>
+  <p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Grafik ini tidak memplot nilai rasio put/call aktual — ini adalah ilustrasi konseptual yang disederhanakan tentang bagaimana pembacaan berdasarkan volume dan berdasarkan open interest dapat menyimpang di sekitar jatuh tempo.</p>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Wskaźnik Put/Call Wolumenowy a Oparty na Otwartych Pozycjach (Koncepcyjnie)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Rozbieżność między dwiema podstawami wokół miesięcznego wygaśnięcia · przykład ilustracyjny</text>
+    <line x1="400" y1="24" x2="425" y2="24" stroke="#4ade80" stroke-width="3"/>
+    <text x="432" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Podstawa Wolumenowa</text>
+    <line x1="400" y1="44" x2="425" y2="44" stroke="#f87171" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="432" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Podstawa Otwartych Pozycji</text>
+    <line x1="420" y1="60" x2="420" y2="340" stroke="#71717a" stroke-dasharray="4,4"/>
+    <text x="420" y="362" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Miesięczne Wygaśnięcie</text>
+    <line x1="50" y1="340" x2="650" y2="340" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="70,220 150,205 230,235 310,200 390,215 420,225 470,210 550,220 630,205" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <polyline points="70,260 150,255 230,248 310,240 390,235 420,235" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polyline points="420,150 470,145 550,140 630,135" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <line x1="420" y1="235" x2="420" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="2,3"/>
+    <circle cx="420" cy="150" r="5" fill="#f87171"/>
+    <text x="470" y="105" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Skok Wywołany Rolowaniem</text>
+    <text x="470" y="122" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" opacity="0.85">— Nie Nowe Nastroje</text>
+    <text x="350" y="386" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Czas (normalny → zbliżanie się do wygaśnięcia → wygaśnięcie → po rolowaniu)</text>
+  </svg>
+  <p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ten wykres nie przedstawia rzeczywistych wartości wskaźnika put/call — to uproszczona, koncepcyjna ilustracja tego, jak odczyty oparte na wolumenie i na otwartych pozycjach mogą się rozjeżdżać wokół terminu wygaśnięcia.</p>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Rapporto Put/Call su Base Volume vs. su Base Open Interest (Concettuale)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Divergenza tra le due basi intorno alla scadenza mensile · esempio illustrativo</text>
+    <line x1="400" y1="24" x2="425" y2="24" stroke="#4ade80" stroke-width="3"/>
+    <text x="432" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Base Volume</text>
+    <line x1="400" y1="44" x2="425" y2="44" stroke="#f87171" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="432" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Base Open Interest</text>
+    <line x1="420" y1="60" x2="420" y2="340" stroke="#71717a" stroke-dasharray="4,4"/>
+    <text x="420" y="362" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Scadenza Mensile</text>
+    <line x1="50" y1="340" x2="650" y2="340" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="70,220 150,205 230,235 310,200 390,215 420,225 470,210 550,220 630,205" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <polyline points="70,260 150,255 230,248 310,240 390,235 420,235" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polyline points="420,150 470,145 550,140 630,135" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <line x1="420" y1="235" x2="420" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="2,3"/>
+    <circle cx="420" cy="150" r="5" fill="#f87171"/>
+    <text x="470" y="105" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Impennata da Rollover</text>
+    <text x="470" y="122" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" opacity="0.85">— Non è un Nuovo Sentiment</text>
+    <text x="350" y="386" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Tempo (normale → avvicinamento alla scadenza → scadenza → post-rollover)</text>
+  </svg>
+  <p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Questo grafico non riporta valori reali del rapporto put/call — è un'illustrazione concettuale semplificata di come le letture basate su volume e su open interest possano divergere intorno alla scadenza.</p>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Коэффициент Пут/Колл По Объёму И По Открытому Интересу (Концептуально)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Расхождение между двумя базами вокруг месячной экспирации · иллюстративный пример</text>
+    <line x1="400" y1="24" x2="425" y2="24" stroke="#4ade80" stroke-width="3"/>
+    <text x="432" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">По Объёму</text>
+    <line x1="400" y1="44" x2="425" y2="44" stroke="#f87171" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="432" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">По Открытому Интересу</text>
+    <line x1="420" y1="60" x2="420" y2="340" stroke="#71717a" stroke-dasharray="4,4"/>
+    <text x="420" y="362" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Ежемесячная Экспирация</text>
+    <line x1="50" y1="340" x2="650" y2="340" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="70,220 150,205 230,235 310,200 390,215 420,225 470,210 550,220 630,205" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <polyline points="70,260 150,255 230,248 310,240 390,235 420,235" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polyline points="420,150 470,145 550,140 630,135" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <line x1="420" y1="235" x2="420" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="2,3"/>
+    <circle cx="420" cy="150" r="5" fill="#f87171"/>
+    <text x="470" y="105" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Скачок Из-за Роллирования</text>
+    <text x="470" y="122" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" opacity="0.85">— Не Новые Настроения</text>
+    <text x="350" y="386" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Время (обычное → приближение экспирации → экспирация → после роллирования)</text>
+  </svg>
+  <p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Этот график не отображает реальные значения коэффициента пут/колл — это упрощённая концептуальная иллюстрация того, как показатели по объёму и по открытому интересу могут расходиться вокруг даты экспирации.</p>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">成交量基準 對比 未平倉量基準 Put/Call比率(概念圖)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">兩種基準在每月到期日前後的分歧 · 示意範例</text>
+    <line x1="400" y1="24" x2="425" y2="24" stroke="#4ade80" stroke-width="3"/>
+    <text x="432" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">成交量基準</text>
+    <line x1="400" y1="44" x2="425" y2="44" stroke="#f87171" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="432" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">未平倉量基準</text>
+    <line x1="420" y1="60" x2="420" y2="340" stroke="#71717a" stroke-dasharray="4,4"/>
+    <text x="420" y="362" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">每月到期日</text>
+    <line x1="50" y1="340" x2="650" y2="340" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="70,220 150,205 230,235 310,200 390,215 420,225 470,210 550,220 630,205" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+    <polyline points="70,260 150,255 230,248 310,240 390,235 420,235" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polyline points="420,150 470,145 550,140 630,135" fill="none" stroke="#f87171" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <line x1="420" y1="235" x2="420" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="2,3"/>
+    <circle cx="420" cy="150" r="5" fill="#f87171"/>
+    <text x="470" y="105" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">轉倉引發的急升</text>
+    <text x="470" y="122" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" opacity="0.85">——並非新增情緒</text>
+    <text x="350" y="386" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">時間(平常 → 接近到期 → 到期 → 轉倉之後)</text>
+  </svg>
+  <p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ 本圖並非實際的Put/Call比率數值,而是簡化的概念示意圖,用以說明成交量基準與未平倉量基準在到期日前後可能如何出現分歧。</p>
+  </div>
 
   <p class="ko">반면 거래량 기준 비율은 그날 새로 체결된 계약만 반영하므로 만기 롤오버의 영향을 상대적으로 덜 받는다. 두 기준이 같은 방향으로 움직이면 신뢰도가 높은 신호일 가능성이 크지만, 두 기준이 서로 다른 방향으로 벌어지기 시작하면 — 예를 들어 미결제약정 기준은 치솟는데 거래량 기준은 잠잠하다면 — 이는 새로운 심리 변화가 아니라 만기를 앞둔 포지션 재조정일 가능성이 높다는 신호로 읽어야 한다.</p>
   <p class="en">The volume-based ratio, by contrast, reflects only contracts newly struck that day, so it's relatively less exposed to expiry-rollover effects. When the two measures move in the same direction, the signal is more likely to be trustworthy. But once the two start diverging — say, the open-interest-based ratio spikes while the volume-based ratio stays quiet — that divergence itself should be read as a sign that the move probably isn't fresh sentiment, but rather positioning being reshuffled ahead of expiry.</p>
@@ -398,6 +513,11 @@
   <p class="pt">Já o índice baseado em volume reflete apenas os contratos recém-firmados naquele dia, por isso está relativamente menos exposto aos efeitos do rollover de vencimento. Quando as duas medidas se movem na mesma direção, é mais provável que o sinal seja confiável. Mas assim que as duas começam a divergir — digamos, o índice baseado em interesse em aberto dispara enquanto o baseado em volume permanece calmo —, essa divergência em si deve ser lida como um sinal de que o movimento provavelmente não é sentimento novo, mas sim um reposicionamento antes do vencimento.</p>
   <p class="tr">Hacim bazlı oran ise yalnızca o gün yeni kurulan sözleşmeleri yansıttığından, vade devretme etkilerine görece daha az maruz kalır. İki ölçüt aynı yönde hareket ettiğinde, sinyalin güvenilir olma ihtimali daha yüksektir. Ama ikisi birbirinden ayrışmaya başladığında — örneğin açık pozisyon bazlı oran fırlarken hacim bazlı oran sakin kalıyorsa — bu ayrışmanın kendisi, hareketin muhtemelen yeni bir duyarlılık değil, vade öncesi pozisyon yeniden düzenlemesi olduğunun sinyali olarak okunmalıdır.</p>
   <p class="vi">Ngược lại, tỷ lệ theo khối lượng chỉ phản ánh các hợp đồng mới được ký kết trong ngày hôm đó, nên nó ít bị ảnh hưởng hơn bởi hiệu ứng chuyển vị thế đáo hạn. Khi hai thước đo di chuyển cùng hướng, tín hiệu có khả năng đáng tin cậy hơn. Nhưng một khi hai thước đo bắt đầu phân kỳ — chẳng hạn tỷ lệ theo hợp đồng mở tăng vọt trong khi tỷ lệ theo khối lượng vẫn im ắng — thì bản thân sự phân kỳ đó nên được đọc như một dấu hiệu cho thấy động thái này có lẽ không phải là tâm lý mới, mà là việc tái sắp xếp vị thế trước đáo hạn.</p>
+  <p class="id">Sebaliknya, rasio berbasis volume hanya mencerminkan kontrak yang baru terbentuk pada hari itu, sehingga relatif lebih tidak terpengaruh oleh efek rollover jatuh tempo. Ketika kedua ukuran bergerak ke arah yang sama, sinyalnya lebih mungkin dapat dipercaya. Namun begitu keduanya mulai menyimpang — misalnya, rasio berbasis open interest melonjak sementara rasio berbasis volume tetap tenang — penyimpangan itu sendiri sebaiknya dibaca sebagai tanda bahwa pergerakan tersebut kemungkinan bukan sentimen baru, melainkan penataan ulang posisi menjelang jatuh tempo.</p>
+  <p class="pl">Wskaźnik oparty na wolumenie, w przeciwieństwie do tego, odzwierciedla wyłącznie kontrakty nowo zawarte danego dnia, więc jest stosunkowo mniej narażony na skutki rolowania przy wygaśnięciu. Gdy obie miary poruszają się w tym samym kierunku, sygnał jest bardziej wiarygodny. Ale gdy tylko obie zaczynają się rozjeżdżać — powiedzmy, wskaźnik oparty na otwartych pozycjach gwałtownie rośnie, podczas gdy wskaźnik wolumenowy pozostaje spokojny — samą tę rozbieżność należy odczytywać jako sygnał, że ruch prawdopodobnie nie jest nowym nastrojem, lecz raczej przetasowaniem pozycji przed wygaśnięciem.</p>
+  <p class="it">Il rapporto basato sul volume, al contrario, riflette solo i contratti stipulati quel giorno, quindi è relativamente meno esposto agli effetti del rollover di scadenza. Quando le due misure si muovono nella stessa direzione, il segnale è più probabilmente affidabile. Ma non appena le due iniziano a divergere — ad esempio, il rapporto basato sull'open interest schizza mentre quello basato sul volume resta calmo — questa stessa divergenza dovrebbe essere letta come un segnale che il movimento probabilmente non è un sentiment nuovo, ma piuttosto un riposizionamento in vista della scadenza.</p>
+  <p class="ru">Коэффициент по объёму, напротив, отражает только контракты, заключённые в этот день, поэтому он относительно меньше подвержен эффектам роллирования при экспирации. Когда оба показателя движутся в одном направлении, сигналу можно доверять с большей вероятностью. Но как только они начинают расходиться — скажем, коэффициент по открытому интересу резко подскакивает, а коэффициент по объёму остаётся спокойным, — саму эту расходимость следует читать как признак того, что движение, вероятно, не отражает свежие настроения, а является перестановкой позиций перед экспирацией.</p>
+  <p class="zh">相比之下,成交量基準比率僅反映當日新成立的合約,因此相對較不受到期轉倉效應的影響。當兩種指標朝同一方向移動時,訊號較可能值得信賴。但一旦兩者開始出現分歧——比如未平倉量基準比率急升,而成交量基準比率卻毫無動靜——這種分歧本身就應被解讀為一個訊號:這波變動很可能不是新的情緒,而只是到期前部位的重新調整。</p>
 
   <h2 class="ko">실전에서 이 숫자를 어떻게 다뤄야 하는가</h2>
   <h2 class="en">How to Actually Use This Number in Practice</h2>
@@ -408,6 +528,11 @@
   <h2 class="pt">Como Usar Esse Número na Prática</h2>
   <h2 class="tr">Bu Sayı Pratikte Gerçekten Nasıl Kullanılmalı</h2>
   <h2 class="vi">Cách Thực Sự Sử Dụng Con Số Này Trong Thực Tế</h2>
+  <h2 class="id">Cara Sebenarnya Menggunakan Angka Ini dalam Praktik</h2>
+  <h2 class="pl">Jak Faktycznie Wykorzystywać Tę Liczbę w Praktyce</h2>
+  <h2 class="it">Come Usare Davvero Questo Numero nella Pratica</h2>
+  <h2 class="ru">Как На Самом Деле Использовать Это Число На Практике</h2>
+  <h2 class="zh">實務上該如何真正運用這個數字</h2>
 
   <p class="ko">첫째, 절대 수준이 아니라 상대적 위치를 봐야 한다. 오늘의 풋콜비율이 '1.2'라는 사실 자체는 거의 의미가 없다. 지난 3~6개월간 이 비율이 오간 분포 안에서 오늘 값이 상위 몇 퍼센트에 있는지를 봐야 한다. 이는 이 사이트가 <a href="/blog/conflicting-indicators">여러 신호가 서로 충돌할 때 우선순위를 매기는 법</a>에서 다룬 원칙과 같은 결이다 — 지표 하나의 절대값을 믿기보다, 그 지표 자신의 역사적 분포 안에서 현재 위치를 가늠하는 습관이 오독을 줄인다.</p>
   <p class="en">First, look at relative position, not the absolute level. The bare fact that today's put/call ratio reads "1.2" means almost nothing on its own. What matters is where today's reading sits as a percentile within the distribution this ratio has traced out over the past three to six months. This runs along the same grain as the principle this site laid out in <a href="/en/blog/conflicting-indicators">how to prioritize when multiple signals conflict</a> — the habit of gauging an indicator's current position within its own historical distribution, rather than trusting a single absolute value, cuts down on misreadings.</p>

@@ -159,6 +159,11 @@
 <p class="pt">Sobrepondo isso às duas coortes anteriores, o quadro fica mais nítido. LTH e novas baleias estão aumentando posições a partir de um custo base já baixo, enquanto os compradores chegados mais recentemente observam essa recuperação sem ainda terem atingido o ponto de equilíbrio. Historicamente, em trechos em que o preço não consegue retomar o preço realizado dos STH e é empurrado para baixo, a pressão de "vender agora que estou no zero a zero" de detentores de curto prazo recém-equilibrados frequentemente limitou o topo de uma recuperação. Vários veículos relatam que a capitulação de mineradores mais longa deste ciclo (cerca de três meses) também parece estar entrando em sua fase final, com a média móvel de 30 dias da taxa de hash recentemente voltando a cruzar acima da linha de 60 dias — mas isso é evidência de fundo de que a pressão do lado da produção está aliviando, não confirmada como motor direto dessa recuperação em particular.</p>
 <p class="tr">Bunu yukarıdaki iki kohortla üst üste koyduğunuzda tablo netleşiyor. LTH'ler ve yeni balinalar zaten düşük bir maliyet tabanından pozisyon artırıyor, en son gelen alıcılar ise henüz başabaş noktasına ulaşmadan bu toparlanmayı izliyor. Tarihsel olarak, fiyatın STH gerçekleşen fiyatını geri kazanamadığı ve geri itildiği dönemlerde, yeni başabaşa gelen kısa vadeli sahiplerin "artık başa baştayım, satayım" baskısı sıklıkla bir toparlanmanın tepesini sınırlamıştır. Çeşitli kaynaklar, bu döngünün en uzun madenci teslimiyetinin (yaklaşık üç ay) de son evresine girdiğini bildiriyor; 30 günlük hash oranı hareketli ortalaması yakın zamanda 60 günlük çizginin üzerine yeniden çıktı — ama bu, üretim tarafındaki baskının hafiflediğine dair bir arka plan sinyali; bu belirli toparlanmanın doğrudan itici gücü olarak doğrulanmış değil.</p>
 <p class="vi">Chồng chỉ số này lên hai nhóm nói trên khiến bức tranh rõ ràng hơn. LTH và cá voi mới đang tăng thêm vị thế từ mức giá vốn đã thấp, trong khi những người mua đến gần đây nhất đang theo dõi đợt phục hồi này mà chưa hòa vốn. Về mặt lịch sử, trong những giai đoạn giá không thể vượt lại giá thực hiện của STH và bị đẩy lùi, áp lực "bán ngay khi đã hòa vốn" từ những người nắm giữ ngắn hạn vừa hòa vốn thường ghìm đỉnh của đợt phục hồi. Nhiều hãng tin cho biết đợt đầu hàng của thợ đào dài nhất chu kỳ này (khoảng ba tháng) cũng dường như đang bước vào giai đoạn cuối, với đường trung bình động 30 ngày của hash rate gần đây vượt trở lại lên trên đường 60 ngày — nhưng đây chỉ là tín hiệu nền cho thấy áp lực phía sản xuất đang giảm bớt, chưa được xác nhận là động lực trực tiếp của đợt phục hồi cụ thể này.</p>
+<p class="id">Menumpangkan ini pada dua kohort di atas membuat gambarannya lebih tajam. LTH dan paus baru menambah posisi dari harga perolehan yang sudah rendah, sementara pembeli yang baru saja masuk menyaksikan rebound ini tanpa mencapai titik impas. Secara historis, pada periode ketika harga gagal merebut kembali harga terealisasi STH dan justru terdorong turun, tekanan "jual sekarang karena sudah impas" dari pemegang jangka pendek yang baru mencapai titik impas kerap membatasi puncak rebound. Beberapa media melaporkan bahwa kapitulasi penambang terpanjang dalam siklus ini (sekitar tiga bulan) juga tampaknya memasuki tahap akhir, dengan rata-rata bergerak 30 hari hash rate baru-baru ini kembali melintasi di atas garis 60 hari — tetapi itu hanyalah bukti latar belakang bahwa tekanan di sisi produksi mereda, belum dikonfirmasi sebagai pendorong langsung rebound khusus ini.</p>
+<p class="pl">Nałożenie tego na dwie powyższe kohorty czyni obraz wyraźniejszym. LTH i nowe wieloryby zwiększają pozycje z już niskiej ceny bazowej, podczas gdy najnowsi kupujący obserwują to odbicie, jeszcze nie osiągnąwszy progu rentowności. Historycznie, w okresach, gdy cena nie zdoła odzyskać zrealizowanej ceny STH i zostaje zepchnięta z powrotem w dół, presja „sprzedaję teraz, gdy jestem na zero" ze strony krótkoterminowych posiadaczy, którzy właśnie osiągnęli próg rentowności, często ograniczała szczyt odbicia. Kilka źródeł podaje, że najdłużej trwająca w tym cyklu kapitulacja górników (około trzech miesięcy) również wydaje się wchodzić w końcową fazę, a 30-dniowa średnia krocząca hashrate niedawno ponownie przekroczyła linię 60-dniową — ale to jedynie sygnał w tle wskazujący na łagodzenie presji po stronie produkcji, niepotwierdzony jako bezpośredni czynnik napędzający akurat to odbicie.</p>
+<p class="it">Sovrapponendo questo alle due coorti precedenti, il quadro diventa più nitido. Gli LTH e le nuove balene stanno aumentando le posizioni partendo da un costo base già basso, mentre gli acquirenti arrivati più di recente osservano questo rimbalzo senza aver ancora raggiunto il pareggio. Storicamente, nei tratti in cui il prezzo non riesce a riconquistare il prezzo realizzato degli STH e viene respinto verso il basso, la pressione del "vendo ora che sono in pari" da parte dei detentori a breve termine appena tornati in pareggio ha spesso limitato la parte alta di un rimbalzo. Diverse testate riferiscono che anche la capitolazione dei minatori più lunga di questo ciclo (circa tre mesi) sembra entrare nella sua fase finale, con la media mobile a 30 giorni dell'hash rate tornata di recente sopra la linea dei 60 giorni — ma si tratta di un'evidenza di sfondo che la pressione lato produzione si sta allentando, non confermata come motore diretto di questo particolare rimbalzo.</p>
+<p class="ru">Наложение этого на две вышеописанные когорты делает картину более чёткой. LTH и новые киты наращивают позиции с уже низкой себестоимостью, в то время как самые недавно пришедшие покупатели наблюдают за этим отскоком, ещё не выйдя в ноль. Исторически, на участках, где цена не может отвоевать реализованную цену STH и откатывается назад, давление «продаю теперь, когда я в нуле» со стороны только что вышедших в безубыток краткосрочных держателей часто ограничивало вершину отскока. Несколько изданий сообщают, что самая продолжительная в этом цикле капитуляция майнеров (около трёх месяцев), похоже, также вступает в завершающую стадию: 30-дневная скользящая средняя хешрейта недавно вновь пересекла 60-дневную линию снизу вверх — но это лишь фоновое свидетельство того, что давление со стороны производства ослабевает, а не подтверждённый прямой драйвер именно этого отскока.</p>
+<p class="zh">將這一點與上述兩個族群疊加，畫面會更清晰。LTH與新進鯨魚正從已經偏低的成本基礎上加碼部位，而最新進場的買家則在尚未打平的情況下觀望這波反彈。從歷史上看，在價格未能收復STH實現價格、反而被壓回的階段，剛剛打平的短期持有者「先賣為快」的賣壓，往往會壓制反彈的高點。多家媒體報導稱，本輪週期持續時間最長的礦工投降期（約三個月）似乎也正進入尾聲，30日雜湊率移動平均線近期重新升穿60日線——但這只是生產端壓力緩解的背景訊號，尚未被證實是這波反彈的直接驅動因素。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -520,6 +525,206 @@
   <text x="20" y="706" fill="#71717a" font-family="sans-serif" font-size="13">* Nhận định kết thúc đầu hàng của thợ đào là tín hiệu nền, chưa được xác nhận là động lực trực tiếp của đợt phục hồi này.</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Sinyal On-Chain per Kohort — Rebound Sama, Keyakinan Berbeda</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH &amp; Paus Baru vs. Dompet Menengah vs. Pemegang Jangka Pendek (pagi 16 Juli, KST)</text>
+  <rect x="20" y="66" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Harga saat ini: $64.700-$65.200</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">+12% vs. titik terendah 30 Juni $57.748</text>
+  <text x="40" y="146" fill="#71717a" font-family="sans-serif" font-size="13">Sekitar -49% vs. rekor tertinggi $126.198 (6 Okt 2025)</text>
+  <text x="20" y="188" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">LTH &amp; Paus Baru — Menambah (Glassnode / CryptoQuant)</text>
+  <rect x="20" y="200" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="226" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="700">Posisi bersih LTH (30h, per 7/12): +74.053,9 BTC</text>
+  <text x="40" y="250" fill="#a1a1aa" font-family="sans-serif" font-size="13">Akumulasi paus: 270K+ BTC (~$16,7 M), terkonsentrasi dekat $59K akhir Juni-awal Juli</text>
+  <text x="40" y="274" fill="#71717a" font-family="sans-serif" font-size="13">Pasokan tidak likuid terus naik · tetapi sebagian paus tidur 7+ th memindahkan $4,3 M</text>
+  <text x="20" y="318" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Dompet Menengah (100-1.000 BTC) — Menjual (CryptoQuant)</text>
+  <rect x="20" y="330" width="660" height="80" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="356" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">Jual bersih 13 Juli saja: ~67.000 BTC — terkuat sejak Februari</text>
+  <text x="40" y="380" fill="#71717a" font-family="sans-serif" font-size="13">Sesuai arah jual bersih kumulatif sejak akhir April (dompet 10K-100K BTC, Santiment)</text>
+  <text x="20" y="434" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Harga Terealisasi STH vs. Harga Saat Ini</text>
+  <rect x="20" y="446" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="446" width="620" height="26" rx="6" fill="#fbbf24"/>
+  <text x="330" y="464" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Harga terealisasi STH ~$69.007</text>
+  <rect x="20" y="482" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="482" width="581" height="26" rx="6" fill="#60a5fa"/>
+  <text x="300" y="500" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Harga saat ini ~$64.900 (sekitar -6%)</text>
+  <text x="20" y="524" fill="#71717a" font-family="sans-serif" font-size="13">STH-MVRV titik terendah Juni ~0,82 (rata-rata rugi belum terealisasi ~18%)</text>
+  <line x1="20" y1="548" x2="680" y2="548" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="572" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Penilaian per Kohort</text>
+  <rect x="20" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH &amp; Paus Baru</text>
+  <text x="35" y="634" fill="#34d399" font-family="sans-serif" font-size="17" font-weight="800">Menambah</text>
+  <rect x="240" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Dompet Menengah</text>
+  <text x="255" y="634" fill="#f87171" font-family="sans-serif" font-size="17" font-weight="800">Menjual</text>
+  <rect x="460" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Pemegang Jangka Pendek</text>
+  <text x="475" y="634" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">Masih Rugi</text>
+  <text x="20" y="682" fill="#71717a" font-family="sans-serif" font-size="13">* Batang dan angka adalah perkiraan menurut masing-masing penyedia data dan dapat berbeda dari rasio sebenarnya.</text>
+  <text x="20" y="706" fill="#71717a" font-family="sans-serif" font-size="13">* Pembacaan berakhirnya kapitulasi penambang adalah bukti latar belakang, bukan pendorong langsung yang terkonfirmasi dari rebound ini.</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Sygnały On-Chain wg Kohorty — To Samo Odbicie, Inne Przekonanie</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH i Nowe Wieloryby vs. Portfele Średniej Wielkości vs. Krótkoterminowi Posiadacze (rano 16 lipca, KST)</text>
+  <rect x="20" y="66" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Aktualna cena: 64 700-65 200 $</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">+12% wobec dołka z 30 czerwca (57 748 $)</text>
+  <text x="40" y="146" fill="#71717a" font-family="sans-serif" font-size="13">Około -49% wobec szczytu wszech czasów (126 198 $, 6 paź 2025)</text>
+  <text x="20" y="188" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">LTH i Nowe Wieloryby — Dokupują (Glassnode / CryptoQuant)</text>
+  <rect x="20" y="200" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="226" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="700">Pozycja netto LTH (30d, na 12/7): +74 053,9 BTC</text>
+  <text x="40" y="250" fill="#a1a1aa" font-family="sans-serif" font-size="13">Akumulacja wielorybów: 270K+ BTC (~16,7 mld $), skoncentrowana blisko 59K $ na przełomie czerwca i lipca</text>
+  <text x="40" y="274" fill="#71717a" font-family="sans-serif" font-size="13">Podaż niepłynna wciąż rośnie · ale niektóre wieloryby uśpione 7+ lat przeniosły 4,3 mld $</text>
+  <text x="20" y="318" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Portfele Średniej Wielkości (100-1000 BTC) — Sprzedają (CryptoQuant)</text>
+  <rect x="20" y="330" width="660" height="80" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="356" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">Sprzedaż netto tylko 13 lipca: ~67 000 BTC — najsilniejsza od lutego</text>
+  <text x="40" y="380" fill="#71717a" font-family="sans-serif" font-size="13">Zgodne z kierunkiem skumulowanej sprzedaży netto od końca kwietnia (portfele 10K-100K BTC, Santiment)</text>
+  <text x="20" y="434" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Cena Zrealizowana STH vs. Cena Aktualna</text>
+  <rect x="20" y="446" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="446" width="620" height="26" rx="6" fill="#fbbf24"/>
+  <text x="330" y="464" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Cena zrealizowana STH ~69 007 $</text>
+  <rect x="20" y="482" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="482" width="581" height="26" rx="6" fill="#60a5fa"/>
+  <text x="300" y="500" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Cena aktualna ~64 900 $ (około -6%)</text>
+  <text x="20" y="524" fill="#71717a" font-family="sans-serif" font-size="13">STH-MVRV dołek czerwca ~0,82 (śr. niezrealizowana strata ~18%)</text>
+  <line x1="20" y1="548" x2="680" y2="548" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="572" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Werdykt wg Kohorty</text>
+  <rect x="20" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH i Nowe Wieloryby</text>
+  <text x="35" y="634" fill="#34d399" font-family="sans-serif" font-size="17" font-weight="800">Dokupują</text>
+  <rect x="240" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Portfele Średniej Wielkości</text>
+  <text x="255" y="634" fill="#f87171" font-family="sans-serif" font-size="17" font-weight="800">Sprzedają</text>
+  <rect x="460" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Krótkoterminowi Posiadacze</text>
+  <text x="475" y="634" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">Wciąż pod Wodą</text>
+  <text x="20" y="682" fill="#71717a" font-family="sans-serif" font-size="13">* Słupki i liczby są przybliżeniami wg każdego dostawcy danych i mogą różnić się od rzeczywistych wskaźników.</text>
+  <text x="20" y="706" fill="#71717a" font-family="sans-serif" font-size="13">* Odczyt końca kapitulacji górników to sygnał w tle, a nie potwierdzony bezpośredni czynnik napędzający to odbicie.</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Segnali On-Chain per Coorte — Stesso Rimbalzo, Convinzione Diversa</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH e Nuove Balene vs. Portafogli di Taglia Media vs. Detentori a Breve Termine (mattina del 16 luglio, KST)</text>
+  <rect x="20" y="66" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Prezzo attuale: $64.700-$65.200</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">+12% rispetto al minimo del 30 giugno di $57.748</text>
+  <text x="40" y="146" fill="#71717a" font-family="sans-serif" font-size="13">Circa -49% rispetto al massimo storico di $126.198 (6 ott 2025)</text>
+  <text x="20" y="188" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">LTH e Nuove Balene — In Accumulo (Glassnode / CryptoQuant)</text>
+  <rect x="20" y="200" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="226" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="700">Posizione netta LTH (30gg, al 12/7): +74.053,9 BTC</text>
+  <text x="40" y="250" fill="#a1a1aa" font-family="sans-serif" font-size="13">Accumulo balene: 270K+ BTC (~16,7 Mld $), concentrato vicino a $59K tra fine giugno e inizio luglio</text>
+  <text x="40" y="274" fill="#71717a" font-family="sans-serif" font-size="13">L'offerta illiquida continua a salire · ma alcune balene dormienti da 7+ anni hanno spostato $4,3 Mld</text>
+  <text x="20" y="318" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Portafogli di Taglia Media (100-1.000 BTC) — Vendono (CryptoQuant)</text>
+  <rect x="20" y="330" width="660" height="80" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="356" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">Vendita netta solo il 13 luglio: ~67.000 BTC — la più forte da febbraio</text>
+  <text x="40" y="380" fill="#71717a" font-family="sans-serif" font-size="13">Coerente con la direzione della vendita netta cumulata da fine aprile (portafogli 10K-100K BTC, Santiment)</text>
+  <text x="20" y="434" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Prezzo Realizzato STH vs. Prezzo Attuale</text>
+  <rect x="20" y="446" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="446" width="620" height="26" rx="6" fill="#fbbf24"/>
+  <text x="330" y="464" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Prezzo realizzato STH ~$69.007</text>
+  <rect x="20" y="482" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="482" width="581" height="26" rx="6" fill="#60a5fa"/>
+  <text x="300" y="500" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Prezzo attuale ~$64.900 (circa -6%)</text>
+  <text x="20" y="524" fill="#71717a" font-family="sans-serif" font-size="13">STH-MVRV minimo di giugno ~0,82 (perdita media non realizzata ~18%)</text>
+  <line x1="20" y1="548" x2="680" y2="548" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="572" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Verdetto per Coorte</text>
+  <rect x="20" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH e Nuove Balene</text>
+  <text x="35" y="634" fill="#34d399" font-family="sans-serif" font-size="17" font-weight="800">In Accumulo</text>
+  <rect x="240" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Portafogli di Taglia Media</text>
+  <text x="255" y="634" fill="#f87171" font-family="sans-serif" font-size="17" font-weight="800">In Vendita</text>
+  <rect x="460" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Detentori a Breve Termine</text>
+  <text x="475" y="634" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">Ancora in Perdita</text>
+  <text x="20" y="682" fill="#71717a" font-family="sans-serif" font-size="13">* Le barre e i valori sono approssimazioni secondo ciascun fornitore di dati e possono differire dai rapporti reali.</text>
+  <text x="20" y="706" fill="#71717a" font-family="sans-serif" font-size="13">* La lettura sulla fine della capitolazione dei minatori è un'evidenza di sfondo, non un motore diretto confermato di questo rimbalzo.</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">Ончейн-сигналы по когортам — тот же отскок, разная убеждённость</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH и новые киты vs. кошельки среднего размера vs. краткосрочные держатели (утро 16 июля, KST)</text>
+  <rect x="20" y="66" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">Текущая цена: $64 700-$65 200</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">+12% к минимуму 30 июня в $57 748</text>
+  <text x="40" y="146" fill="#71717a" font-family="sans-serif" font-size="13">Около -49% к историческому максимуму $126 198 (6 окт. 2025)</text>
+  <text x="20" y="188" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">LTH и новые киты — наращивают (Glassnode / CryptoQuant)</text>
+  <rect x="20" y="200" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="226" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="700">Чистая позиция LTH (30д, на 12.7): +74 053,9 BTC</text>
+  <text x="40" y="250" fill="#a1a1aa" font-family="sans-serif" font-size="13">Накопление китов: 270K+ BTC (~$16,7 млрд), сконцентрировано около $59K в конце июня-начале июля</text>
+  <text x="40" y="274" fill="#71717a" font-family="sans-serif" font-size="13">Неликвидное предложение продолжает расти · но часть китов, спавших 7+ лет, переместила $4,3 млрд</text>
+  <text x="20" y="318" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Кошельки среднего размера (100-1000 BTC) — продают (CryptoQuant)</text>
+  <rect x="20" y="330" width="660" height="80" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="356" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">Чистая продажа только 13 июля: ~67 000 BTC — самая сильная с февраля</text>
+  <text x="40" y="380" fill="#71717a" font-family="sans-serif" font-size="13">Совпадает по направлению с накопленной чистой продажей с конца апреля (кошельки 10K-100K BTC, Santiment)</text>
+  <text x="20" y="434" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Реализованная цена STH vs. текущая цена</text>
+  <rect x="20" y="446" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="446" width="620" height="26" rx="6" fill="#fbbf24"/>
+  <text x="330" y="464" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Реализованная цена STH ~$69 007</text>
+  <rect x="20" y="482" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="482" width="581" height="26" rx="6" fill="#60a5fa"/>
+  <text x="300" y="500" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">Текущая цена ~$64 900 (около -6%)</text>
+  <text x="20" y="524" fill="#71717a" font-family="sans-serif" font-size="13">STH-MVRV минимум июня ~0,82 (сред. нереализ. убыток ~18%)</text>
+  <line x1="20" y1="548" x2="680" y2="548" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="572" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">Вердикт по когортам</text>
+  <rect x="20" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH и новые киты</text>
+  <text x="35" y="634" fill="#34d399" font-family="sans-serif" font-size="17" font-weight="800">Накапливают</text>
+  <rect x="240" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Кошельки среднего размера</text>
+  <text x="255" y="634" fill="#f87171" font-family="sans-serif" font-size="17" font-weight="800">Продают</text>
+  <rect x="460" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">Краткосрочные держатели</text>
+  <text x="475" y="634" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">Всё ещё в убытке</text>
+  <text x="20" y="682" fill="#71717a" font-family="sans-serif" font-size="13">* Столбцы и цифры являются приближениями по данным каждого поставщика и могут отличаться от фактических соотношений.</text>
+  <text x="20" y="706" fill="#71717a" font-family="sans-serif" font-size="13">* Вывод о завершении капитуляции майнеров — это фоновое свидетельство, а не подтверждённый прямой драйвер этого отскока.</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 800" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-family="sans-serif" font-size="16" font-weight="700">各族群鏈上訊號——同樣的反彈，不同的信心</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH與新進鯨魚 vs. 中型錢包 vs. 短期持有者（7月16日上午，韓國時間）</text>
+  <rect x="20" y="66" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="92" fill="#a1a1aa" font-family="sans-serif" font-size="13">目前價格：6萬4,700至6萬5,200美元</text>
+  <text x="40" y="120" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">較6月30日低點5萬7,748美元 +12%</text>
+  <text x="40" y="146" fill="#71717a" font-family="sans-serif" font-size="13">較歷史新高12萬6,198美元（2025年10月6日）約-49%</text>
+  <text x="20" y="188" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">LTH與新進鯨魚——加碼中（Glassnode／CryptoQuant）</text>
+  <rect x="20" y="200" width="660" height="96" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="226" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="700">LTH淨部位（30天，截至7/12）：+74,053.9 BTC</text>
+  <text x="40" y="250" fill="#a1a1aa" font-family="sans-serif" font-size="13">鯨魚累積：27萬+ BTC（約167億美元），集中於6月底至7月初的5.9萬美元附近</text>
+  <text x="40" y="274" fill="#71717a" font-family="sans-serif" font-size="13">非流動性供給持續上升．但部分沉睡7年以上的鯨魚移動了43億美元</text>
+  <text x="20" y="318" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">中型錢包（100-1,000 BTC）——賣出中（CryptoQuant）</text>
+  <rect x="20" y="330" width="660" height="80" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="356" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">僅7月13日淨賣出：約67,000 BTC——2月以來最強</text>
+  <text x="40" y="380" fill="#71717a" font-family="sans-serif" font-size="13">與4月底以來的累計淨賣出方向一致（1萬-10萬BTC錢包，Santiment）</text>
+  <text x="20" y="434" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">STH實現價格 vs. 目前價格</text>
+  <rect x="20" y="446" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="446" width="620" height="26" rx="6" fill="#fbbf24"/>
+  <text x="330" y="464" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">STH實現價格 ~6萬9,007美元</text>
+  <rect x="20" y="482" width="660" height="26" rx="6" fill="#27272a"/>
+  <rect x="20" y="482" width="581" height="26" rx="6" fill="#60a5fa"/>
+  <text x="300" y="500" text-anchor="middle" fill="#111113" font-family="sans-serif" font-size="13" font-weight="800">目前價格 ~6萬4,900美元（約-6%）</text>
+  <text x="20" y="524" fill="#71717a" font-family="sans-serif" font-size="13">STH-MVRV 6月低點 ~0.82（平均未實現虧損 約18%）</text>
+  <line x1="20" y1="548" x2="680" y2="548" stroke="#3f3f46" stroke-width="1"/>
+  <text x="20" y="572" fill="#d4d4d8" font-family="sans-serif" font-size="14" font-weight="700">各族群判定</text>
+  <rect x="20" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="35" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">LTH與新進鯨魚</text>
+  <text x="35" y="634" fill="#34d399" font-family="sans-serif" font-size="17" font-weight="800">累積中</text>
+  <rect x="240" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="255" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">中型錢包</text>
+  <text x="255" y="634" fill="#f87171" font-family="sans-serif" font-size="17" font-weight="800">賣出中</text>
+  <rect x="460" y="584" width="200" height="70" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="475" y="606" fill="#a1a1aa" font-family="sans-serif" font-size="13">短期持有者</text>
+  <text x="475" y="634" fill="#fbbf24" font-family="sans-serif" font-size="17" font-weight="800">仍處虧損</text>
+  <text x="20" y="682" fill="#71717a" font-family="sans-serif" font-size="13">* 長條與數值為各數據提供者的近似值，可能與實際比率有所差異。</text>
+  <text x="20" y="706" fill="#71717a" font-family="sans-serif" font-size="13">* 礦工投降結束的解讀僅為背景證據，尚未被證實為本輪反彈的直接驅動因素。</text>
+</svg>
+</div>
 
 <h2 class="ko">지금부터 지켜볼 지점</h2>
 <h2 class="en">What to Watch From Here</h2>
@@ -530,6 +735,11 @@
 <h2 class="pt">O Que Observar a Partir de Agora</h2>
 <h2 class="tr">Buradan İtibaren Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Những Điều Cần Theo Dõi Từ Đây</h2>
+<h2 class="id">Yang Perlu Dipantau Selanjutnya</h2>
+<h2 class="pl">Na Co Zwrócić Uwagę od Teraz</h2>
+<h2 class="it">Cosa Osservare da Qui in Poi</h2>
+<h2 class="ru">На Что Обратить Внимание Дальше</h2>
+<h2 class="zh">接下來需要關注的重點</h2>
 
 <p class="ko">첫째, 가격이 단기 보유자 평균 매입가인 6만9,000달러 부근에 접근했을 때 저항 없이 통과하는지, 아니면 본전을 되찾은 매도 물량에 눌리는지다. 역사적으로 이 구간은 '손실에서 벗어난 안도 매도'가 몰리는 자리였다. 둘째, 7월13일 나온 중형 지갑의 대규모 분산매도가 하루짜리 이벤트였는지, 아니면 4월 말부터 이어진 순매도 흐름의 연장인지다. 이후 며칠간 같은 코호트의 매도가 반복된다면 장기 보유자·신규 고래의 확신만으로 반등을 지지하기는 어려워진다.</p>
 <p class="en">First, whether price passes through the short-term holder cost basis around $69,000 without much resistance, or gets pushed back by relief selling from investors who just broke even. Historically, that zone has been a magnet for "I'm out of the red, so I'll sell" pressure. Second, whether the large mid-sized-wallet distribution seen on July 13 was a one-day event or an extension of the net-selling trend running since late April. If the same cohort keeps selling over the following days, LTH and new-whale conviction alone won't be enough to sustain the rebound.</p>
