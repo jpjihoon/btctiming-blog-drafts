@@ -565,4 +565,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Fortune, The Block, comunicado da CFTC, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Fortune, The Block, CFTC basın açıklaması, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Fortune, The Block, thông cáo báo chí của CFTC, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Fortune, The Block, siaran pers CFTC, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Fortune, The Block, komunikat prasowy CFTC, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Fortune, The Block, comunicato stampa della CFTC, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Fortune, The Block, пресс-релиз CFTC, CoinDesk, Courthouse News Service, Axios, Marketplace.org, Motley Fool, Bitcoinist.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：Fortune、The Block、CFTC新聞稿、CoinDesk、Courthouse News Service、Axios、Marketplace.org、Motley Fool、Bitcoinist。</p>
 <?php require __DIR__.'/_footer.php'; ?>
