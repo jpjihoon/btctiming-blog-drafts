@@ -561,6 +561,226 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Dòng thời gian và số liệu là ước tính sơ đồ dựa trên đưa tin công khai từ ABA Banking Journal, The Block, Bank Policy Institute và ICBA.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Bagian 404 Clarity Act — Apa yang Dilarang, Diizinkan, dan Diperdebatkan</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Dilarang</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">Bunga atau imbal hasil</text>
+    <text x="45" y="126" fill="#e4e4e7" font-size="13">langsung/tidak langsung</text>
+    <text x="45" y="155" fill="#a1a1aa" font-size="13">(tingkat penerbit,</text>
+    <text x="45" y="174" fill="#a1a1aa" font-size="13">sama di UU GENIUS)</text>
+
+    <rect x="250" y="55" width="200" height="130" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">Diizinkan</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">Cashback berbasis</text>
+    <text x="265" y="126" fill="#e4e4e7" font-size="13">aktivitas/transaksi</text>
+    <text x="265" y="155" fill="#a1a1aa" font-size="13">(terkait "penggunaan"</text>
+    <text x="265" y="174" fill="#a1a1aa" font-size="13">pembayaran)</text>
+
+    <rect x="470" y="55" width="200" height="130" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fde047" font-size="14" font-weight="700" text-anchor="middle">Diperdebatkan</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">Terkait saldo/durasi/</text>
+    <text x="485" y="126" fill="#e4e4e7" font-size="13">masa kepemilikan akun</text>
+    <text x="485" y="155" fill="#fde047" font-size="13" font-weight="700">Bank: "ini adalah bunga"</text>
+
+    <rect x="30" y="205" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="232" fill="#e4e4e7" font-size="14" font-weight="700">Garis Waktu</text>
+    <text x="50" y="260" fill="#a1a1aa" font-size="13">Jul 2025 — UU GENIUS berlaku, melarang imbal hasil tingkat penerbit</text>
+    <text x="50" y="285" fill="#a1a1aa" font-size="13">1 Mei 2026 — Kompromi Tillis-Alsobrooks Bagian 404 diungkap</text>
+    <text x="50" y="310" fill="#a1a1aa" font-size="13">14 Mei 2026 — Komite meloloskan RUU 15-9 meski ada peringatan bank</text>
+    <text x="50" y="335" fill="#fca5a5" font-size="13" font-weight="700">13 Jul 2026 — ABA, ICBA + ~80 kelompok kirim surat ke pimpinan Senat</text>
+    <text x="50" y="360" fill="#e4e4e7" font-size="13">Permintaan #1: hapus bahasa imbalan saldo/durasi</text>
+    <text x="50" y="385" fill="#e4e4e7" font-size="13">Permintaan #2: ganti "setara fungsional/ekonomi" dengan "secara substansial serupa"</text>
+    <text x="50" y="410" fill="#71717a" font-size="12">~20 Jul 2026 — target pemungutan suara paripurna (perlu 60 suara)</text>
+
+    <rect x="30" y="440" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="467" fill="#93c5fd" font-size="14" font-weight="700">Skala dan Bantahan</text>
+    <text x="50" y="492" fill="#e4e4e7" font-size="13">Estimasi Departemen Keuangan: hingga $6,6 T simpanan bank terpapar stablecoin</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">Bantahan industri: UU GENIUS sudah melarang imbal hasil penerbit — 404 lebih sempit</text>
+    <text x="50" y="542" fill="#e4e4e7" font-size="13">Preseden: reksa dana pasar uang (akhir 1970-an), bank daring (2000-an) — simpanan bertahan</text>
+    <text x="50" y="567" fill="#71717a" font-size="12">Setelah regulator menarik garis yang dapat diterapkan, bukan larangan menyeluruh, simpanan tetap bertahan</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Garis waktu dan angka merupakan perkiraan skematis berdasarkan pemberitaan publik dari ABA Banking Journal, The Block, Bank Policy Institute, dan ICBA.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sekcja 404 Ustawy Clarity Act — Co Jest Zakazane, Dozwolone i Sporne</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Zakazane</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">Bezpośrednie/pośrednie</text>
+    <text x="45" y="126" fill="#e4e4e7" font-size="13">odsetki lub zysk</text>
+    <text x="45" y="155" fill="#a1a1aa" font-size="13">(poziom emitenta,</text>
+    <text x="45" y="174" fill="#a1a1aa" font-size="13">tak samo w ustawie GENIUS)</text>
+
+    <rect x="250" y="55" width="200" height="130" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">Dozwolone</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">Cashback oparty na</text>
+    <text x="265" y="126" fill="#e4e4e7" font-size="13">aktywności/transakcjach</text>
+    <text x="265" y="155" fill="#a1a1aa" font-size="13">(powiązany z „użyciem"</text>
+    <text x="265" y="174" fill="#a1a1aa" font-size="13">do płatności)</text>
+
+    <rect x="470" y="55" width="200" height="130" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fde047" font-size="14" font-weight="700" text-anchor="middle">Sporne</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">Powiązane z saldem/czasem/</text>
+    <text x="485" y="126" fill="#e4e4e7" font-size="13">długością posiadania konta</text>
+    <text x="485" y="155" fill="#fde047" font-size="13" font-weight="700">Banki: „to są odsetki"</text>
+
+    <rect x="30" y="205" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="232" fill="#e4e4e7" font-size="14" font-weight="700">Oś Czasu</text>
+    <text x="50" y="260" fill="#a1a1aa" font-size="13">Lip 2025 — Ustawa GENIUS wchodzi w życie, zakazuje zysku na poziomie emitenta</text>
+    <text x="50" y="285" fill="#a1a1aa" font-size="13">1 maja 2026 — Ogłoszono kompromis Tillis-Alsobrooks ws. Sekcji 404</text>
+    <text x="50" y="310" fill="#a1a1aa" font-size="13">14 maja 2026 — Komisja przegłosowuje ustawę 15-9 mimo ostrzeżeń banków</text>
+    <text x="50" y="335" fill="#fca5a5" font-size="13" font-weight="700">13 lip 2026 — ABA, ICBA + ~80 grup wysyła list do liderów Senatu</text>
+    <text x="50" y="360" fill="#e4e4e7" font-size="13">Żądanie 1: usunięcie zapisu o nagrodach za saldo/czas</text>
+    <text x="50" y="385" fill="#e4e4e7" font-size="13">Żądanie 2: zastąpienie „funkcjonalnego/ekonomicznego odpowiednika" standardem „zasadniczo podobny"</text>
+    <text x="50" y="410" fill="#71717a" font-size="12">~20 lip 2026 — planowane głosowanie plenarne (potrzeba 60 głosów)</text>
+
+    <rect x="30" y="440" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="467" fill="#93c5fd" font-size="14" font-weight="700">Skala i Odpowiedź</text>
+    <text x="50" y="492" fill="#e4e4e7" font-size="13">Szacunek Departamentu Skarbu: do 6,6 bln USD depozytów narażonych na stablecoiny</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">Odpowiedź branży: ustawa GENIUS już zakazuje zysku emitenta — Sekcja 404 jest węższa</text>
+    <text x="50" y="542" fill="#e4e4e7" font-size="13">Precedens: fundusze rynku pieniężnego (koniec lat 70.), banki internetowe (lata 2000.) — depozyty się utrzymały</text>
+    <text x="50" y="567" fill="#71717a" font-size="12">Gdy regulatorzy wyznaczyli jasne granice zamiast całkowitych zakazów, depozyty pozostały</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Oś czasu i liczby są przybliżeniami szacunkowymi opartymi na publicznych doniesieniach ABA Banking Journal, The Block, Bank Policy Institute i ICBA.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Sezione 404 del Clarity Act — Cosa È Vietato, Consentito e Contestato</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Vietato</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">Interessi o rendimento</text>
+    <text x="45" y="126" fill="#e4e4e7" font-size="13">diretti/indiretti</text>
+    <text x="45" y="155" fill="#a1a1aa" font-size="13">(livello emittente,</text>
+    <text x="45" y="174" fill="#a1a1aa" font-size="13">come nel GENIUS Act)</text>
+
+    <rect x="250" y="55" width="200" height="130" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">Consentito</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">Cashback basato su</text>
+    <text x="265" y="126" fill="#e4e4e7" font-size="13">attività/transazione</text>
+    <text x="265" y="155" fill="#a1a1aa" font-size="13">(legato all'"uso"</text>
+    <text x="265" y="174" fill="#a1a1aa" font-size="13">di pagamento)</text>
+
+    <rect x="470" y="55" width="200" height="130" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fde047" font-size="14" font-weight="700" text-anchor="middle">Contestato</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">Legato a saldo/durata/</text>
+    <text x="485" y="126" fill="#e4e4e7" font-size="13">anzianità del conto</text>
+    <text x="485" y="155" fill="#fde047" font-size="13" font-weight="700">Banche: "questo è interesse"</text>
+
+    <rect x="30" y="205" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="232" fill="#e4e4e7" font-size="14" font-weight="700">Cronologia</text>
+    <text x="50" y="260" fill="#a1a1aa" font-size="13">Lug 2025 — Il GENIUS Act entra in vigore, vieta il rendimento a livello emittente</text>
+    <text x="50" y="285" fill="#a1a1aa" font-size="13">1 maggio 2026 — Svelato il compromesso Tillis-Alsobrooks sulla Sezione 404</text>
+    <text x="50" y="310" fill="#a1a1aa" font-size="13">14 maggio 2026 — La commissione approva la legge 15-9 nonostante gli avvertimenti delle banche</text>
+    <text x="50" y="335" fill="#fca5a5" font-size="13" font-weight="700">13 lug 2026 — ABA, ICBA + ~80 gruppi inviano lettera ai vertici del Senato</text>
+    <text x="50" y="360" fill="#e4e4e7" font-size="13">Richiesta 1: eliminare il linguaggio su ricompense saldo/durata</text>
+    <text x="50" y="385" fill="#e4e4e7" font-size="13">Richiesta 2: sostituire "equivalente funzionale/economico" con "sostanzialmente simile"</text>
+    <text x="50" y="410" fill="#71717a" font-size="12">~20 lug 2026 — voto in aula previsto (servono 60 voti)</text>
+
+    <rect x="30" y="440" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="467" fill="#93c5fd" font-size="14" font-weight="700">Scala e Replica</text>
+    <text x="50" y="492" fill="#e4e4e7" font-size="13">Stima del Tesoro: fino a 6.600 mld $ di depositi esposti alle stablecoin</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">Replica del settore: il GENIUS Act vieta già il rendimento dell'emittente — la 404 è più ristretta</text>
+    <text x="50" y="542" fill="#e4e4e7" font-size="13">Precedente: fondi del mercato monetario (fine anni '70), banche online (anni 2000) — depositi tenuti</text>
+    <text x="50" y="567" fill="#71717a" font-size="12">Una volta tracciate linee chiare invece di divieti generalizzati, i depositi sono rimasti</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Cronologia e cifre sono approssimazioni schematiche basate su notizie pubbliche di ABA Banking Journal, The Block, Bank Policy Institute e ICBA.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Раздел 404 Закона Clarity Act — Что Запрещено, Разрешено и Спорно</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">Запрещено</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">Прямые/косвенные</text>
+    <text x="45" y="126" fill="#e4e4e7" font-size="13">проценты или доходность</text>
+    <text x="45" y="155" fill="#a1a1aa" font-size="13">(уровень эмитента,</text>
+    <text x="45" y="174" fill="#a1a1aa" font-size="13">как и в законе GENIUS)</text>
+
+    <rect x="250" y="55" width="200" height="130" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">Разрешено</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">Кэшбэк на основе</text>
+    <text x="265" y="126" fill="#e4e4e7" font-size="13">активности/транзакций</text>
+    <text x="265" y="155" fill="#a1a1aa" font-size="13">(привязан к «использованию»</text>
+    <text x="265" y="174" fill="#a1a1aa" font-size="13">для платежей)</text>
+
+    <rect x="470" y="55" width="200" height="130" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fde047" font-size="14" font-weight="700" text-anchor="middle">Спорно</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">Привязано к остатку/сроку/</text>
+    <text x="485" y="126" fill="#e4e4e7" font-size="13">длительности счёта</text>
+    <text x="485" y="155" fill="#fde047" font-size="13" font-weight="700">Банки: «это проценты»</text>
+
+    <rect x="30" y="205" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="232" fill="#e4e4e7" font-size="14" font-weight="700">Хронология</text>
+    <text x="50" y="260" fill="#a1a1aa" font-size="13">Июл 2025 — закон GENIUS вступает в силу, запрещает доходность на уровне эмитента</text>
+    <text x="50" y="285" fill="#a1a1aa" font-size="13">1 мая 2026 — представлен компромисс Тиллиса-Альсобрукс по Разделу 404</text>
+    <text x="50" y="310" fill="#a1a1aa" font-size="13">14 мая 2026 — комитет одобряет законопроект 15-9 несмотря на предупреждения банков</text>
+    <text x="50" y="335" fill="#fca5a5" font-size="13" font-weight="700">13 июл 2026 — ABA, ICBA + ~80 групп направляют письмо руководству Сената</text>
+    <text x="50" y="360" fill="#e4e4e7" font-size="13">Требование 1: удалить формулировку о вознаграждениях за остаток/срок</text>
+    <text x="50" y="385" fill="#e4e4e7" font-size="13">Требование 2: заменить «функциональный/экономический эквивалент» на «по существу аналогично»</text>
+    <text x="50" y="410" fill="#71717a" font-size="12">~20 июл 2026 — целевое голосование на пленарном заседании (нужно 60 голосов)</text>
+
+    <rect x="30" y="440" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="467" fill="#93c5fd" font-size="14" font-weight="700">Масштаб и Ответ</text>
+    <text x="50" y="492" fill="#e4e4e7" font-size="13">Оценка Минфина: до $6,6 трлн банковских депозитов под угрозой конкуренции стейблкоинов</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">Ответ индустрии: закон GENIUS уже запрещает доходность эмитента — Раздел 404 уже́</text>
+    <text x="50" y="542" fill="#e4e4e7" font-size="13">Прецедент: фонды денежного рынка (конец 1970-х), онлайн-банки (2000-е) — депозиты сохранились</text>
+    <text x="50" y="567" fill="#71717a" font-size="12">После того как регуляторы провели чёткие границы вместо полных запретов, депозиты сохранились</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Хронология и цифры — это приблизительные схематические оценки, основанные на публичных материалах ABA Banking Journal, The Block, Bank Policy Institute и ICBA.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">《明確法案》第404條——什麼被禁止、允許與爭議中</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="130" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">禁止</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">直接/間接</text>
+    <text x="45" y="126" fill="#e4e4e7" font-size="13">利息或收益</text>
+    <text x="45" y="155" fill="#a1a1aa" font-size="13">(發行商層級,</text>
+    <text x="45" y="174" fill="#a1a1aa" font-size="13">《GENIUS法案》亦同)</text>
+
+    <rect x="250" y="55" width="200" height="130" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">允許</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">基於活動/交易的</text>
+    <text x="265" y="126" fill="#e4e4e7" font-size="13">現金回饋式獎勵</text>
+    <text x="265" y="155" fill="#a1a1aa" font-size="13">(與支付「使用」</text>
+    <text x="265" y="174" fill="#a1a1aa" font-size="13">相關聯)</text>
+
+    <rect x="470" y="55" width="200" height="130" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fde047" font-size="14" font-weight="700" text-anchor="middle">爭議中</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">與餘額/持有期間/</text>
+    <text x="485" y="126" fill="#e4e4e7" font-size="13">帳戶存續時間掛鉤</text>
+    <text x="485" y="155" fill="#fde047" font-size="13" font-weight="700">銀行業:「這就是利息」</text>
+
+    <rect x="30" y="205" width="640" height="220" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="232" fill="#e4e4e7" font-size="14" font-weight="700">時間軸</text>
+    <text x="50" y="260" fill="#a1a1aa" font-size="13">2025年7月——《GENIUS法案》生效,禁止發行商層級收益</text>
+    <text x="50" y="285" fill="#a1a1aa" font-size="13">2026年5月1日——蒂利斯與奧爾索布魯克斯提出第404條折衷方案</text>
+    <text x="50" y="310" fill="#a1a1aa" font-size="13">2026年5月14日——委員會不顧銀行警告,以15票對9票通過法案</text>
+    <text x="50" y="335" fill="#fca5a5" font-size="13" font-weight="700">2026年7月13日——ABA、ICBA等約80個團體致函參議院領袖</text>
+    <text x="50" y="360" fill="#e4e4e7" font-size="13">訴求一:刪除餘額/持有期間獎勵條文</text>
+    <text x="50" y="385" fill="#e4e4e7" font-size="13">訴求二:將「功能與經濟對等」標準改為「實質相似」標準</text>
+    <text x="50" y="410" fill="#71717a" font-size="12">~2026年7月20日——參議院領袖鎖定院會表決(需60票)</text>
+
+    <rect x="30" y="440" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="467" fill="#93c5fd" font-size="14" font-weight="700">規模與反駁</text>
+    <text x="50" y="492" fill="#e4e4e7" font-size="13">財政部估算:最高6.6兆美元銀行存款可能暴露於穩定幣競爭</text>
+    <text x="50" y="517" fill="#e4e4e7" font-size="13">產業反駁:《GENIUS法案》已禁止發行商收益——第404條範圍更窄</text>
+    <text x="50" y="542" fill="#e4e4e7" font-size="13">先例:貨幣市場基金(1970年代末)、純網路銀行(2000年代)——存款均維持穩定</text>
+    <text x="50" y="567" fill="#71717a" font-size="12">監管機構劃出可行界線、而非全面禁止後,存款得以維持</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">時間軸與數字為根據ABA銀行期刊、The Block、銀行政策研究所與ICBA等公開報導所做的概略估計。</p>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> ABA·ICBA와 76개 주 은행협회 등 약 80개 단체가 7월 13일 상원 지도부에 404조 리워드 문구를 수정해 달라는 서한을 보냈다. (1) 상원 지도부가 7월 20일 전후로 예정된 본회의 표결 전에 두 가지 요구 — 잔액·보유기간 리워드 문구 삭제, '실질적으로 유사' 기준 채택 — 중 하나라도 통합안에 반영할지, (2) 스테이블코인 발행사·거래소가 '실질적으로 유사' 기준이 지나치게 광범위하다며 공개 반발할지, (3) 404조 처리 결과와 무관하게 클래리티법이 필요한 60표를 여전히 확보할 수 있을지를 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> Roughly 80 groups — ABA, ICBA and 76 state banking associations among them — sent a letter to Senate leadership on July 13 asking for changes to the Section 404 rewards language. Watch (1) whether Senate leadership folds either specific ask — deleting balance/duration reward language or adopting the "substantially similar" standard — into the merged floor text ahead of the targeted July 20 vote, (2) whether stablecoin issuers and exchanges push back publicly on the "substantially similar" standard as overly broad, and (3) whether the Clarity Act can still reach the 60 votes it needs regardless of how Section 404 is resolved.</div>

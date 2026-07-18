@@ -735,6 +735,11 @@
 <h2 class="pt">O Que Observar a Partir de Agora</h2>
 <h2 class="tr">Buradan İtibaren Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Những Điều Cần Theo Dõi Từ Đây</h2>
+<h2 class="id">Yang Perlu Dipantau Selanjutnya</h2>
+<h2 class="pl">Na Co Warto Patrzeć od Teraz</h2>
+<h2 class="it">Cosa Osservare da Qui in Avanti</h2>
+<h2 class="ru">На Что Смотреть Дальше</h2>
+<h2 class="zh">接下來該關注什麼</h2>
 
 <p class="ko">짚어야 할 첫번째 지점은 코어 CPI다. 지금의 2.9%가 다음 몇 달 사이 2%대 중반으로 실제로 내려오는지, 아니면 오일발 압력에 눌려 다시 반등하는지를 봐야 한다. 두번째는 오일이다. 이번 주 배럴당 80달러를 넘어선 WTI 급등분이 7월 CPI 프린트에 실제로 얼마나 반영되는지가, 지금 국채금리·인상확률이 선반영하고 있는 시나리오의 타당성을 검증해줄 것이다.</p>
 <p class="en">The first thing worth tracking is core CPI — whether today's 2.9% actually drifts down toward the mid-2% range over the next few months, or bounces back under pressure from oil. The second is oil itself: how much of this week's WTI spike past $80 a barrel actually shows up in July's CPI print will test whether the scenario that Treasury yields and hike odds are already pricing in holds up.</p>
