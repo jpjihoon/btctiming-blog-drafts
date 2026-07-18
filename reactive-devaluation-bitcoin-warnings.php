@@ -84,6 +84,11 @@
 <h2 class="pt">'Eu Não Debato com os Pobres' — Como Do Kwon Apagou um Aviso</h2>
 <h2 class="tr">'Fakirlerle Tartışmam' — Do Kwon Bir Uyarıyı Nasıl Sildi</h2>
 <h2 class="vi">'Tôi Không Tranh Luận Với Người Nghèo' — Cách Do Kwon Xóa Bỏ Một Lời Cảnh Báo</h2>
+<h2 class="id">'Saya Tidak Berdebat dengan Orang Miskin' — Cara Do Kwon Menghapus Sebuah Peringatan</h2>
+<h2 class="pl">'Nie Dyskutuję z Biednymi' — Jak Do Kwon Wymazał Ostrzeżenie</h2>
+<h2 class="it">'Non Discuto con i Poveri' — Come Do Kwon Ha Cancellato un Avvertimento</h2>
+<h2 class="ru">«Я Не Спорю с Бедными» — Как До Квон Стёр Предупреждение</h2>
+<h2 class="zh">「我不跟窮人辯論」——道權如何抹去一則警告</h2>
 
 <p class="ko">이 메커니즘이 크립토 시장에서 가장 노골적으로 드러난 장면 하나를 꼽으라면 2021년 여름이다. 영국 경제학자 프랜시스 코폴라(Frances Coppola)가 테라(Terra)의 알고리즘 스테이블코인 UST의 설계 구조를 공개적으로 비판했다. 그의 비판은 구체적이었다 — UST의 가격 고정 메커니즘이 루나(LUNA) 토큰의 시가총액과 유동성에 의존하는 순환 구조이며, 대규모 이탈이 벌어지면 이 구조가 스스로를 강화하며 붕괴할 수 있다는 지적이었다. 테라폼랩스의 창업자 도권(Do Kwon)은 이 비판에 이렇게 응수했다. "나는 트위터에서 가난한 사람과 논쟁하지 않는다." 그는 코폴라의 자산 규모를 거론하며 그의 주장을 반박한 게 아니라, 그가 반박할 가치가 있는 사람인지를 문제 삼았다.</p>
 <p class="en">If there's one scene where this mechanism showed up most nakedly in crypto markets, it's the summer of 2021. British economist Frances Coppola publicly criticized the design of Terra's algorithmic stablecoin, UST. Her critique was specific — that UST's peg mechanism depended circularly on the market cap and liquidity of the LUNA token, and that a large-scale exodus could trigger a self-reinforcing collapse of that structure. Terraform Labs founder Do Kwon responded like this: "I don't debate the poor on Twitter." He didn't rebut Coppola's argument by engaging her asset size — he questioned whether she was even worth rebutting.</p>
