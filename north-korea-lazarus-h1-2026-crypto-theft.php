@@ -9,6 +9,11 @@
 <p class="pt">Hackers ligados à Coreia do Norte roubaram US$ 643 milhões em criptomoedas no primeiro semestre de 2026, cerca de dois terços de todos os fundos cripto roubados no mundo nesse período, segundo relatório publicado em 3 de julho pela empresa de análise blockchain TRM Labs. UPI, Korea Herald e Korea JoongAng Daily noticiaram os achados. Quase 90% desse total — cerca de US$ 577 milhões — veio de apenas dois ataques em abril: a corretora DeFi baseada em Solana Drift (US$ 285 milhões) e a plataforma de rendimento KelpDAO (US$ 292 milhões).</p>
 <p class="tr">Blockchain analiz şirketi TRM Labs'in 3 Temmuz'da yayımladığı rapora göre, Kuzey Kore bağlantılı hackerlar 2026'nın ilk yarısında 643 milyon dolar değerinde kripto para çaldı — bu, dünya genelinde aynı dönemde çalınan tüm kripto fonların yaklaşık üçte ikisine denk geliyor. UPI, Korea Herald ve Korea JoongAng Daily bu bulguları haberleştirdi. Bu toplamın neredeyse %90'ı — yaklaşık 577 milyon dolar — sadece Nisan ayındaki iki saldırıdan geldi: Solana tabanlı DeFi borsası Drift (285 milyon dolar) ve getiri platformu KelpDAO (292 milyon dolar).</p>
 <p class="vi">Theo báo cáo do công ty phân tích blockchain TRM Labs công bố ngày 3/7, tin tặc liên kết với Triều Tiên đã đánh cắp 643 triệu đô la tiền mã hóa trong nửa đầu năm 2026, chiếm khoảng hai phần ba tổng số tiền crypto bị đánh cắp trên toàn cầu trong giai đoạn này. UPI, Korea Herald và Korea JoongAng Daily đã đưa tin về phát hiện này. Gần 90% con số đó — khoảng 577 triệu đô la — đến từ chỉ hai vụ tấn công trong tháng 4: sàn giao dịch DeFi trên nền tảng Solana là Drift (285 triệu đô) và nền tảng sinh lợi KelpDAO (292 triệu đô).</p>
+<p class="id">Peretas yang terkait dengan Korea Utara mencuri $643 juta dalam bentuk mata uang kripto selama semester pertama 2026, menyumbang sekitar dua pertiga dari seluruh dana kripto yang dicuri di dunia pada periode tersebut, menurut laporan yang dipublikasikan oleh perusahaan analitik blockchain TRM Labs pada 3 Juli. UPI, Korea Herald, dan Korea JoongAng Daily melaporkan temuan tersebut. Hampir 90% dari total itu — sekitar $577 juta — berasal dari hanya dua serangan pada bulan April: bursa DeFi berbasis Solana, Drift ($285 juta), dan platform yield KelpDAO ($292 juta).</p>
+<p class="pl">Hakerzy powiązani z Koreą Północną ukradli 643 miliony dolarów w kryptowalutach w pierwszej połowie 2026 roku, co stanowi około dwóch trzecich wszystkich środków kryptowalutowych skradzionych na świecie w tym okresie, według raportu opublikowanego 3 lipca przez firmę analityczną blockchain TRM Labs. UPI, Korea Herald i Korea JoongAng Daily poinformowały o tych ustaleniach. Niemal 90% tej sumy — około 577 milionów dolarów — pochodziło z zaledwie dwóch ataków w kwietniu: giełdy DeFi opartej na Solanie, Drift (285 mln dolarów), oraz platformy dochodowej KelpDAO (292 mln dolarów).</p>
+<p class="it">Hacker legati alla Corea del Nord hanno rubato 643 milioni di dollari in criptovalute nel primo semestre del 2026, pari a circa due terzi di tutti i fondi cripto rubati nel mondo in quel periodo, secondo un rapporto pubblicato il 3 luglio dalla società di analisi blockchain TRM Labs. UPI, Korea Herald e Korea JoongAng Daily hanno riportato i risultati. Quasi il 90% di quel totale — circa 577 milioni di dollari — proveniva da soli due attacchi di aprile: l'exchange DeFi basato su Solana Drift (285 milioni di dollari) e la piattaforma di rendimento KelpDAO (292 milioni di dollari).</p>
+<p class="ru">Хакеры, связанные с Северной Кореей, похитили $643 млн в криптовалюте в первой половине 2026 года — примерно две трети всех криптосредств, украденных по всему миру за этот период, согласно отчёту блокчейн-аналитической компании TRM Labs, опубликованному 3 июля. Об этом сообщили UPI, Korea Herald и Korea JoongAng Daily. Почти 90% этой суммы — около $577 млн — пришлось всего на две атаки в апреле: DeFi-биржу Drift на базе Solana ($285 млн) и доходную платформу KelpDAO ($292 млн).</p>
+<p class="zh">根據區塊鏈分析公司TRM Labs於7月3日發布的報告,與北韓有關聯的駭客在2026年上半年竊取了6.43億美元的加密貨幣,約佔同期全球被盜加密貨幣總額的三分之二。UPI、《韓國先驅報》與《中央日報》均報導了這項發現。其中近90%——約5.77億美元——僅來自4月的兩起攻擊事件:基於Solana的DeFi交易所Drift(2.85億美元)以及收益平台KelpDAO(2.92億美元)。</p>
 
 <h2 class="ko">몇 달간 위장 취업한 뒤 터뜨린 드리프트 공격</h2>
 <h2 class="en">Months of Undercover Work, Then the Drift Attack</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">Meses de trabalho disfarçado, depois o ataque à Drift</h2>
 <h2 class="tr">Aylarca Süren Gizli Çalışma, Ardından Drift Saldırısı</h2>
 <h2 class="vi">Nhiều Tháng Hoạt Động Ngầm, Rồi Đến Cuộc Tấn Công Drift</h2>
+<h2 class="id">Berbulan-bulan Kerja Menyamar, Lalu Serangan Drift</h2>
+<h2 class="pl">Miesiące pracy pod przykrywką, a potem atak na Drift</h2>
+<h2 class="it">Mesi di lavoro sotto copertura, poi l'attacco a Drift</h2>
+<h2 class="ru">Месяцы работы под прикрытием, а затем атака на Drift</h2>
+<h2 class="zh">臥底數月布局,終致Drift攻擊爆發</h2>
 
 <p class="ko">코인데스크가 4월30일 보도한 내용에 따르면, 드리프트 공격은 단순한 코드 취약점 침투가 아니었다. 북한 공작원들은 몇 달에 걸쳐 정체를 숨긴 채 정식 개발자나 프리랜서로 위장 취업해 내부 시스템에 접근 권한을 쌓아나간 뒤, 4월1일 이를 이용해 자금을 빼돌렸다. 이런 'IT 인력 침투' 수법은 이미 잘 알려진 북한의 대표적 자금조달 경로 중 하나로, 위조 신분증과 원격근무 관행을 악용해 서구 기업의 채용 절차를 통과하는 방식이다. 켈프다오 사건 역시 비슷한 패턴을 보였는데, 크로스체인 메시징 프로토콜 레이어제로의 검증 서버가 침해되면서 2억9200만 달러가 유출됐다.</p>
 <p class="en">According to CoinDesk's April 30 report, the Drift attack wasn't a simple code exploit. North Korean operatives spent months building legitimate-looking access — posing as developers or freelance contractors — before using that access to drain funds on April 1. This "IT worker infiltration" tactic is one of North Korea's well-documented funding channels, exploiting forged identities and remote-work norms to pass through Western companies' hiring pipelines. The KelpDAO incident followed a similar pattern of patient infiltration, with attackers compromising verification servers on the cross-chain messaging protocol LayerZero to siphon off $292 million.</p>
@@ -29,6 +39,11 @@
 <p class="pt">Segundo reportagem da CoinDesk de 30 de abril, o ataque à Drift não foi uma simples exploração de código. Agentes norte-coreanos passaram meses construindo um acesso de aparência legítima — se passando por desenvolvedores ou contratados freelancers — antes de usar esse acesso para drenar fundos em 1º de abril. Essa tática de "infiltração de trabalhadores de TI" é um dos canais de financiamento bem documentados da Coreia do Norte, explorando identidades falsificadas e normas de trabalho remoto para passar pelos processos de contratação de empresas ocidentais. O incidente da KelpDAO seguiu um padrão semelhante de infiltração paciente, com atacantes comprometendo servidores de verificação do protocolo de mensagens entre cadeias LayerZero para desviar US$ 292 milhões.</p>
 <p class="tr">CoinDesk'in 30 Nisan tarihli haberine göre, Drift saldırısı basit bir kod açığından ibaret değildi. Kuzey Koreli operatifler, aylarca geliştirici ya da serbest çalışan yükleniciymiş gibi davranarak meşru görünen bir erişim inşa etti; ardından 1 Nisan'da bu erişimi kullanarak fonları boşalttı. Bu "BT çalışanı sızması" taktiği, sahte kimlikler ve uzaktan çalışma normlarını istismar ederek Batılı şirketlerin işe alım süreçlerinden geçmeyi amaçlayan, Kuzey Kore'nin iyi belgelenmiş finansman kanallarından biri. KelpDAO olayı da benzer bir sabırlı sızma modeli izledi; saldırganlar zincirler arası mesajlaşma protokolü LayerZero'nun doğrulama sunucularını ele geçirerek 292 milyon dolar sızdırdı.</p>
 <p class="vi">Theo báo cáo của CoinDesk ngày 30/4, cuộc tấn công Drift không phải là một khai thác mã đơn giản. Các đặc vụ Triều Tiên đã dành nhiều tháng xây dựng quyền truy cập trông có vẻ hợp pháp — giả làm lập trình viên hoặc nhà thầu tự do — trước khi sử dụng quyền truy cập đó để rút tiền vào ngày 1/4. Chiến thuật "cài cắm nhân viên IT" này là một trong những kênh tài trợ đã được ghi nhận rõ của Triều Tiên, lợi dụng danh tính giả mạo và các quy chuẩn làm việc từ xa để vượt qua quy trình tuyển dụng của các công ty phương Tây. Sự cố KelpDAO cũng theo một mô hình xâm nhập kiên nhẫn tương tự, khi kẻ tấn công xâm phạm các máy chủ xác minh của giao thức nhắn tin liên chuỗi LayerZero để rút ra 292 triệu đô la.</p>
+<p class="id">Menurut laporan CoinDesk tanggal 30 April, serangan Drift bukanlah eksploitasi kode yang sederhana. Operator Korea Utara menghabiskan waktu berbulan-bulan untuk membangun akses yang tampak sah — menyamar sebagai pengembang atau kontraktor lepas — sebelum menggunakan akses tersebut untuk mengalirkan dana keluar pada 1 April. Taktik «penyusupan pekerja TI» ini merupakan salah satu jalur pendanaan Korea Utara yang telah terdokumentasi dengan baik, memanfaatkan identitas palsu dan norma kerja jarak jauh untuk lolos dari proses perekrutan perusahaan Barat. Insiden KelpDAO mengikuti pola penyusupan sabar yang serupa, dengan penyerang membobol server verifikasi pada protokol pesan lintas-rantai LayerZero untuk menggelapkan $292 juta.</p>
+<p class="pl">Według raportu CoinDesk z 30 kwietnia, atak na Drift nie był prostym wykorzystaniem luki w kodzie. Północnokoreańscy agenci spędzili miesiące budując pozornie legalny dostęp — podając się za programistów lub niezależnych kontraktorów — zanim 1 kwietnia wykorzystali ten dostęp do wyprowadzenia środków. Ta taktyka «infiltracji pracownika IT» to jeden z dobrze udokumentowanych kanałów finansowania Korei Północnej, wykorzystujący sfałszowane tożsamości i normy pracy zdalnej, by przejść przez procesy rekrutacyjne zachodnich firm. Incydent KelpDAO przebiegał według podobnego wzorca cierpliwej infiltracji — napastnicy przejęli serwery weryfikacyjne protokołu wiadomości międzyłańcuchowych LayerZero, wyprowadzając 292 miliony dolarów.</p>
+<p class="it">Secondo il rapporto di CoinDesk del 30 aprile, l'attacco a Drift non è stato un semplice exploit di codice. Gli agenti nordcoreani hanno passato mesi a costruire un accesso dall'aspetto legittimo — fingendosi sviluppatori o collaboratori freelance — prima di usare tale accesso per prosciugare i fondi il 1° aprile. Questa tattica di «infiltrazione di lavoratori IT» è uno dei canali di finanziamento della Corea del Nord ben documentati, che sfrutta identità false e le norme del lavoro da remoto per superare i processi di assunzione delle aziende occidentali. L'incidente KelpDAO ha seguito uno schema simile di infiltrazione paziente, con gli attaccanti che hanno compromesso i server di verifica del protocollo di messaggistica cross-chain LayerZero per sottrarre 292 milioni di dollari.</p>
+<p class="ru">Согласно отчёту CoinDesk от 30 апреля, атака на Drift не была простой эксплуатацией уязвимости в коде. Северокорейские оперативники месяцами выстраивали видимость легитимного доступа — выдавая себя за разработчиков или внештатных подрядчиков, — прежде чем 1 апреля использовать этот доступ для вывода средств. Эта тактика «внедрения IT-работников» — один из хорошо задокументированных каналов финансирования Северной Кореи, эксплуатирующий поддельные удостоверения личности и практику удалённой работы для прохождения через процессы найма западных компаний. Инцидент с KelpDAO развивался по схожей схеме терпеливого внедрения: злоумышленники скомпрометировали верификационные серверы кроссчейн-протокола обмена сообщениями LayerZero, похитив $292 млн.</p>
+<p class="zh">根據CoinDesk於4月30日的報導,Drift攻擊事件並非單純的程式碼漏洞攻擊。北韓特工花費數月時間建立看似合法的存取權限——偽裝成開發人員或自由接案的承包商——之後才於4月1日利用該權限盜取資金。這種「IT人員滲透」手法是北韓已被充分記錄的資金籌措管道之一,利用偽造身分與遠端工作常態,藉此通過西方企業的招聘流程。KelpDAO事件也呈現類似的耐心滲透模式,攻擊者入侵了跨鏈訊息協議LayerZero的驗證伺服器,盜走了2.92億美元。</p>
 
 <h2 class="ko">점유율은 사상 최고 수준, 그러나 절대 액수는 줄었다</h2>
 <h2 class="en">The Share Keeps Climbing Even as the Dollar Total Shrinks</h2>
@@ -39,6 +54,11 @@
 <h2 class="pt">A fatia continua subindo mesmo com o total em dólares encolhendo</h2>
 <h2 class="tr">Dolar Toplamı Küçülürken Pay Yükselmeye Devam Ediyor</h2>
 <h2 class="vi">Tỷ Trọng Tiếp Tục Tăng Dù Tổng Số Đô La Thu Hẹp</h2>
+<h2 class="id">Pangsa Terus Meningkat Meski Total Dolar Menyusut</h2>
+<h2 class="pl">Udział wciąż rośnie, mimo że łączna kwota w dolarach maleje</h2>
+<h2 class="it">La quota continua a salire anche se il totale in dollari si riduce</h2>
+<h2 class="ru">Доля продолжает расти, даже когда общая сумма в долларах сокращается</h2>
+<h2 class="zh">美元總額縮水,北韓佔比卻持續攀升</h2>
 
 <p class="ko">TRM랩스 자료를 보면 전체 암호화폐 해킹 중 북한이 차지하는 비중은 2020~2021년 10% 미만에서 2022년 22%, 2023년 37%, 2024년 39%, 2025년 64%로 꾸준히 늘어 2026년 상반기 66%에 이르렀다. 이 사이트가 <a href="/blog/crypto-hacks-h1-2026-record-count-lower-losses">앞서 다룬 것처럼</a> 2026년 상반기 전체 해킹 건수는 207건으로 반기 기준 역대 최다였지만 도난 총액은 약 9억7200만 달러로 1년 전의 절반 이하로 줄었다. 두 통계를 겹쳐 보면 흥미로운 그림이 드러난다 — 해킹 자체는 소규모·다발화하는 추세인데, 그 와중에도 북한만은 여전히 대형 사건을 골라 터뜨리며 전체 피해액의 3분의 2를 흡수하고 있다는 뜻이다.</p>
 <p class="en">TRM Labs data shows North Korea's share of total crypto hack losses climbed steadily — from under 10% in 2020-2021, to 22% in 2022, 37% in 2023, 39% in 2024, 64% in 2025, and now 66% in H1 2026. As this site <a href="/en/blog/crypto-hacks-h1-2026-record-count-lower-losses">covered earlier</a>, overall hack incidents hit a record 207 in H1 2026 while total losses fell to about $972 million, under half of a year earlier. Overlaying the two data sets reveals something notable: hacking overall is trending toward smaller, more frequent incidents, yet North Korea alone keeps landing outsized hits, absorbing two-thirds of total damage even as the field around it shrinks.</p>
@@ -49,6 +69,11 @@
 <p class="pt">Dados da TRM Labs mostram que a fatia da Coreia do Norte nas perdas totais de hacks cripto subiu de forma constante — de menos de 10% em 2020-2021, para 22% em 2022, 37% em 2023, 39% em 2024, 64% em 2025 e agora 66% no 1º semestre de 2026. Como este site <a href="/pt/blog/crypto-hacks-h1-2026-record-count-lower-losses">cobriu anteriormente</a>, os incidentes de hack como um todo bateram recorde de 207 no 1º semestre de 2026, enquanto as perdas totais caíram para cerca de US$ 972 milhões, menos da metade do ano anterior. Sobrepor os dois conjuntos de dados revela algo notável: os hacks em geral tendem a ficar menores e mais frequentes, mas a Coreia do Norte sozinha continua acertando golpes desproporcionais, absorvendo dois terços do dano total mesmo com o campo ao redor encolhendo.</p>
 <p class="tr">TRM Labs verileri, Kuzey Kore'nin toplam kripto hack kayıplarındaki payının istikrarlı biçimde yükseldiğini gösteriyor — 2020-2021'de %10'un altından, 2022'de %22'ye, 2023'te %37'ye, 2024'te %39'a, 2025'te %64'e ve şimdi 2026'nın ilk yarısında %66'ya. Bu sitenin <a href="/tr/blog/crypto-hacks-h1-2026-record-count-lower-losses">daha önce ele aldığı gibi</a>, 2026'nın ilk yarısında toplam hack olayı 207 ile yarı yıl bazında rekor kırarken, toplam kayıplar bir yıl öncesinin yarısından azına, yaklaşık 972 milyon dolara geriledi. İki veri setini üst üste koyduğunuzda dikkat çekici bir tablo ortaya çıkıyor: hackleme genel olarak daha küçük, daha sık olaylara doğru evrilirken, yalnızca Kuzey Kore hâlâ orantısız büyüklükte darbeler indiriyor ve çevresindeki alan küçülürken bile toplam zararın üçte ikisini üstleniyor.</p>
 <p class="vi">Dữ liệu của TRM Labs cho thấy tỷ trọng của Triều Tiên trong tổng thiệt hại do hack crypto tăng đều đặn — từ dưới 10% năm 2020-2021, lên 22% năm 2022, 37% năm 2023, 39% năm 2024, 64% năm 2025, và nay là 66% trong nửa đầu 2026. Như trang này <a href="/vi/blog/crypto-hacks-h1-2026-record-count-lower-losses">đã đề cập trước đây</a>, tổng số vụ hack trong nửa đầu 2026 đạt kỷ lục 207 vụ, trong khi tổng thiệt hại giảm xuống còn khoảng 972 triệu đô la, chưa bằng một nửa so với một năm trước. Đặt hai bộ dữ liệu chồng lên nhau cho thấy một bức tranh đáng chú ý: hack nói chung đang có xu hướng nhỏ hơn, thường xuyên hơn, nhưng riêng Triều Tiên vẫn liên tục tung ra những cú đánh có quy mô vượt trội, hấp thụ hai phần ba tổng thiệt hại ngay cả khi phạm vi xung quanh đang thu hẹp.</p>
+<p class="id">Data TRM Labs menunjukkan pangsa Korea Utara dalam total kerugian akibat peretasan kripto terus meningkat — dari di bawah 10% pada 2020-2021, menjadi 22% pada 2022, 37% pada 2023, 39% pada 2024, 64% pada 2025, dan kini 66% pada H1 2026. Seperti yang <a href="/id/blog/crypto-hacks-h1-2026-record-count-lower-losses">pernah dibahas situs ini sebelumnya</a>, jumlah insiden peretasan secara keseluruhan mencapai rekor 207 kasus pada H1 2026, sementara total kerugian turun menjadi sekitar $972 juta, kurang dari separuh setahun sebelumnya. Jika kedua rangkaian data ini ditumpangtindihkan, muncul gambaran yang menarik: peretasan secara keseluruhan cenderung mengarah ke insiden yang lebih kecil namun lebih sering, tetapi Korea Utara sendiri terus mencetak serangan besar yang tidak proporsional, menyerap dua pertiga dari total kerugian bahkan ketika ruang lingkup di sekitarnya menyusut.</p>
+<p class="pl">Dane TRM Labs pokazują, że udział Korei Północnej w łącznych stratach z włamań kryptowalutowych systematycznie rósł — z poniżej 10% w latach 2020-2021, do 22% w 2022 r., 37% w 2023 r., 39% w 2024 r., 64% w 2025 r., a teraz 66% w I poł. 2026 r. Jak ta strona <a href="/pl/blog/crypto-hacks-h1-2026-record-count-lower-losses">pisała wcześniej</a>, ogólna liczba incydentów włamań osiągnęła rekordowe 207 w I poł. 2026 r., podczas gdy łączne straty spadły do około 972 milionów dolarów, czyli poniżej połowy wartości sprzed roku. Zestawienie tych dwóch zbiorów danych ujawnia coś godnego uwagi: włamania jako całość zmierzają w stronę mniejszych, częstszych incydentów, jednak sama Korea Północna wciąż ląduje nieproporcjonalnie duże ciosy, pochłaniając dwie trzecie całkowitych strat, nawet gdy pole wokół niej się kurczy.</p>
+<p class="it">I dati di TRM Labs mostrano che la quota della Corea del Nord nelle perdite totali da hack cripto è salita costantemente — da meno del 10% nel 2020-2021, al 22% nel 2022, 37% nel 2023, 39% nel 2024, 64% nel 2025, e ora 66% nel S1 2026. Come questo sito ha <a href="/it/blog/crypto-hacks-h1-2026-record-count-lower-losses">riportato in precedenza</a>, gli incidenti di hacking complessivi hanno raggiunto un record di 207 nel S1 2026, mentre le perdite totali sono scese a circa 972 milioni di dollari, meno della metà rispetto a un anno prima. Sovrapponendo i due set di dati emerge qualcosa di notevole: gli hack nel complesso tendono verso incidenti più piccoli e frequenti, eppure la Corea del Nord da sola continua a mettere a segno colpi sproporzionati, assorbendo due terzi del danno totale anche mentre il campo intorno a essa si restringe.</p>
+<p class="ru">Данные TRM Labs показывают, что доля Северной Кореи в общих убытках от криптовзломов стабильно росла — с менее чем 10% в 2020-2021 годах до 22% в 2022 году, 37% в 2023 году, 39% в 2024 году, 64% в 2025 году и теперь 66% в 1П 2026 года. Как этот сайт <a href="/ru/blog/crypto-hacks-h1-2026-record-count-lower-losses">сообщал ранее</a>, общее число инцидентов взлома достигло рекордных 207 в 1П 2026 года, при этом общие убытки упали примерно до $972 млн — менее половины показателя годом ранее. Наложение этих двух наборов данных выявляет нечто примечательное: взломы в целом смещаются к более мелким и частым инцидентам, однако одна лишь Северная Корея продолжает наносить непропорционально крупные удары, поглощая две трети общего ущерба, даже когда поле вокруг неё сжимается.</p>
+<p class="zh">根據TRM Labs的資料,北韓在全球加密貨幣駭客損失總額中所佔比例持續攀升——從2020至2021年的不到10%,到2022年的22%、2023年的37%、2024年的39%、2025年的64%,如今2026年上半年已達66%。正如本站<a href="/zh/blog/crypto-hacks-h1-2026-record-count-lower-losses">先前報導</a>,2026年上半年整體駭客事件數量創下207起的歷史新高,但損失總額卻降至約9.72億美元,不到一年前的一半。將這兩組資料重疊比對後會發現一個值得注意的現象:整體駭客活動正朝規模較小、頻率較高的方向發展,但唯獨北韓仍不斷締造大型攻擊,即使周遭的損失規模在縮小,仍吸收了整體損害的三分之二。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -428,6 +453,216 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Tổng hợp từ TRM Labs và thông cáo chung hội nghị thượng đỉnh G7 tại Evian.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Pangsa Korea Utara dalam Total Kerugian Peretasan Kripto Global</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="330" x2="670" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="335" fill="#71717a" font-size="12" text-anchor="end">0%</text>
+    <line x1="55" y1="240" x2="670" y2="240" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="245" fill="#71717a" font-size="12" text-anchor="end">30%</text>
+    <line x1="55" y1="150" x2="670" y2="150" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="155" fill="#71717a" font-size="12" text-anchor="end">60%</text>
+    <line x1="55" y1="60" x2="670" y2="60" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="65" fill="#71717a" font-size="12" text-anchor="end">90%</text>
+    <rect x="75" y="321" width="55" height="9" fill="#3f3f46"/>
+    <text x="102" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2020-21</text>
+    <text x="102" y="310" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">&lt;10%</text>
+    <rect x="180" y="264" width="55" height="66" fill="#52525b"/>
+    <text x="207" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2022</text>
+    <text x="207" y="254" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">22%</text>
+    <rect x="285" y="219" width="55" height="111" fill="#71717a"/>
+    <text x="312" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2023</text>
+    <text x="312" y="209" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">37%</text>
+    <rect x="390" y="213" width="55" height="117" fill="#fbbf24"/>
+    <text x="417" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2024</text>
+    <text x="417" y="203" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">39%</text>
+    <rect x="495" y="139" width="55" height="191" fill="#f87171"/>
+    <text x="522" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2025</text>
+    <text x="522" y="129" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">64%</text>
+    <rect x="600" y="133" width="55" height="197" fill="#ef4444"/>
+    <text x="627" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">H1 2026</text>
+    <text x="627" y="123" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">66%</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="55" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="70" y="393" fill="#4ade80" font-size="14" font-weight="800">$643 Juta</text>
+    <text x="70" y="410" fill="#9a9aa4" font-size="11">Total curian Korea Utara pada H1 2026</text>
+    <rect x="360" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="375" y="393" fill="#fbbf24" font-size="14" font-weight="800">$6,75 Miliar</text>
+    <text x="375" y="410" fill="#9a9aa4" font-size="11">Akumulasi sejak 2017 (menurut G7)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Disusun dari data TRM Labs dan komunike bersama KTT G7 di Evian.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Udział Korei Północnej w globalnych stratach z włamań kryptowalutowych</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="330" x2="670" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="335" fill="#71717a" font-size="12" text-anchor="end">0%</text>
+    <line x1="55" y1="240" x2="670" y2="240" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="245" fill="#71717a" font-size="12" text-anchor="end">30%</text>
+    <line x1="55" y1="150" x2="670" y2="150" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="155" fill="#71717a" font-size="12" text-anchor="end">60%</text>
+    <line x1="55" y1="60" x2="670" y2="60" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="65" fill="#71717a" font-size="12" text-anchor="end">90%</text>
+    <rect x="75" y="321" width="55" height="9" fill="#3f3f46"/>
+    <text x="102" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2020-21</text>
+    <text x="102" y="310" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">&lt;10%</text>
+    <rect x="180" y="264" width="55" height="66" fill="#52525b"/>
+    <text x="207" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2022</text>
+    <text x="207" y="254" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">22%</text>
+    <rect x="285" y="219" width="55" height="111" fill="#71717a"/>
+    <text x="312" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2023</text>
+    <text x="312" y="209" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">37%</text>
+    <rect x="390" y="213" width="55" height="117" fill="#fbbf24"/>
+    <text x="417" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2024</text>
+    <text x="417" y="203" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">39%</text>
+    <rect x="495" y="139" width="55" height="191" fill="#f87171"/>
+    <text x="522" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2025</text>
+    <text x="522" y="129" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">64%</text>
+    <rect x="600" y="133" width="55" height="197" fill="#ef4444"/>
+    <text x="627" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">I poł. 2026</text>
+    <text x="627" y="123" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">66%</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="55" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="70" y="393" fill="#4ade80" font-size="14" font-weight="800">643 mln $</text>
+    <text x="70" y="410" fill="#9a9aa4" font-size="11">Łup Korei Północnej w I poł. 2026</text>
+    <rect x="360" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="375" y="393" fill="#fbbf24" font-size="14" font-weight="800">6,75 mld $</text>
+    <text x="375" y="410" fill="#9a9aa4" font-size="11">Suma skumulowana od 2017 r. (G7)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Opracowano na podstawie danych TRM Labs i wspólnego komunikatu szczytu G7 w Evian.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Quota della Corea del Nord nelle perdite globali da hack cripto</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="330" x2="670" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="335" fill="#71717a" font-size="12" text-anchor="end">0%</text>
+    <line x1="55" y1="240" x2="670" y2="240" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="245" fill="#71717a" font-size="12" text-anchor="end">30%</text>
+    <line x1="55" y1="150" x2="670" y2="150" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="155" fill="#71717a" font-size="12" text-anchor="end">60%</text>
+    <line x1="55" y1="60" x2="670" y2="60" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="65" fill="#71717a" font-size="12" text-anchor="end">90%</text>
+    <rect x="75" y="321" width="55" height="9" fill="#3f3f46"/>
+    <text x="102" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2020-21</text>
+    <text x="102" y="310" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">&lt;10%</text>
+    <rect x="180" y="264" width="55" height="66" fill="#52525b"/>
+    <text x="207" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2022</text>
+    <text x="207" y="254" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">22%</text>
+    <rect x="285" y="219" width="55" height="111" fill="#71717a"/>
+    <text x="312" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2023</text>
+    <text x="312" y="209" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">37%</text>
+    <rect x="390" y="213" width="55" height="117" fill="#fbbf24"/>
+    <text x="417" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2024</text>
+    <text x="417" y="203" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">39%</text>
+    <rect x="495" y="139" width="55" height="191" fill="#f87171"/>
+    <text x="522" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2025</text>
+    <text x="522" y="129" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">64%</text>
+    <rect x="600" y="133" width="55" height="197" fill="#ef4444"/>
+    <text x="627" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">S1 2026</text>
+    <text x="627" y="123" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">66%</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="55" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="70" y="393" fill="#4ade80" font-size="14" font-weight="800">643 mln $</text>
+    <text x="70" y="410" fill="#9a9aa4" font-size="11">Bottino della Corea del Nord nel S1 2026</text>
+    <rect x="360" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="375" y="393" fill="#fbbf24" font-size="14" font-weight="800">6,75 mld $</text>
+    <text x="375" y="410" fill="#9a9aa4" font-size="11">Cumulato dal 2017 (G7)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Compilato con i dati di TRM Labs e il comunicato congiunto del vertice G7 di Evian.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Доля Северной Кореи в мировых убытках от криптовзломов</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="330" x2="670" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="335" fill="#71717a" font-size="12" text-anchor="end">0%</text>
+    <line x1="55" y1="240" x2="670" y2="240" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="245" fill="#71717a" font-size="12" text-anchor="end">30%</text>
+    <line x1="55" y1="150" x2="670" y2="150" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="155" fill="#71717a" font-size="12" text-anchor="end">60%</text>
+    <line x1="55" y1="60" x2="670" y2="60" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="65" fill="#71717a" font-size="12" text-anchor="end">90%</text>
+    <rect x="75" y="321" width="55" height="9" fill="#3f3f46"/>
+    <text x="102" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2020-21</text>
+    <text x="102" y="310" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">&lt;10%</text>
+    <rect x="180" y="264" width="55" height="66" fill="#52525b"/>
+    <text x="207" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2022</text>
+    <text x="207" y="254" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">22%</text>
+    <rect x="285" y="219" width="55" height="111" fill="#71717a"/>
+    <text x="312" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2023</text>
+    <text x="312" y="209" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">37%</text>
+    <rect x="390" y="213" width="55" height="117" fill="#fbbf24"/>
+    <text x="417" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2024</text>
+    <text x="417" y="203" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">39%</text>
+    <rect x="495" y="139" width="55" height="191" fill="#f87171"/>
+    <text x="522" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2025</text>
+    <text x="522" y="129" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">64%</text>
+    <rect x="600" y="133" width="55" height="197" fill="#ef4444"/>
+    <text x="627" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">1П 2026</text>
+    <text x="627" y="123" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">66%</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="55" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="70" y="393" fill="#4ade80" font-size="14" font-weight="800">$643 млн</text>
+    <text x="70" y="410" fill="#9a9aa4" font-size="11">Добыча Северной Кореи за 1П 2026</text>
+    <rect x="360" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="375" y="393" fill="#fbbf24" font-size="14" font-weight="800">$6,75 млрд</text>
+    <text x="375" y="410" fill="#9a9aa4" font-size="11">Накоплено с 2017 года (по данным G7)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Составлено по данным TRM Labs и совместному коммюнике саммита G7 в Эвиане.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">北韓佔全球加密貨幣駭客損失的比例</text>
+  <g font-family="sans-serif">
+    <line x1="55" y1="330" x2="670" y2="330" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="335" fill="#71717a" font-size="12" text-anchor="end">0%</text>
+    <line x1="55" y1="240" x2="670" y2="240" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="245" fill="#71717a" font-size="12" text-anchor="end">30%</text>
+    <line x1="55" y1="150" x2="670" y2="150" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="155" fill="#71717a" font-size="12" text-anchor="end">60%</text>
+    <line x1="55" y1="60" x2="670" y2="60" stroke="#27272a" stroke-width="1"/>
+    <text x="45" y="65" fill="#71717a" font-size="12" text-anchor="end">90%</text>
+    <rect x="75" y="321" width="55" height="9" fill="#3f3f46"/>
+    <text x="102" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2020-21</text>
+    <text x="102" y="310" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">&lt;10%</text>
+    <rect x="180" y="264" width="55" height="66" fill="#52525b"/>
+    <text x="207" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2022</text>
+    <text x="207" y="254" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">22%</text>
+    <rect x="285" y="219" width="55" height="111" fill="#71717a"/>
+    <text x="312" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2023</text>
+    <text x="312" y="209" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">37%</text>
+    <rect x="390" y="213" width="55" height="117" fill="#fbbf24"/>
+    <text x="417" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2024</text>
+    <text x="417" y="203" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">39%</text>
+    <rect x="495" y="139" width="55" height="191" fill="#f87171"/>
+    <text x="522" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2025</text>
+    <text x="522" y="129" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">64%</text>
+    <rect x="600" y="133" width="55" height="197" fill="#ef4444"/>
+    <text x="627" y="350" fill="#a1a1aa" font-size="12" text-anchor="middle">2026年上半年</text>
+    <text x="627" y="123" fill="#f2f2f5" font-size="12" text-anchor="middle" font-weight="700">66%</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="55" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="70" y="393" fill="#4ade80" font-size="14" font-weight="800">6.43億美元</text>
+    <text x="70" y="410" fill="#9a9aa4" font-size="11">北韓2026上半年竊取總額</text>
+    <rect x="360" y="375" width="290" height="45" rx="8" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="375" y="393" fill="#fbbf24" font-size="14" font-weight="800">67.5億美元</text>
+    <text x="375" y="410" fill="#9a9aa4" font-size="11">自2017年以來累計金額(G7公布)</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">整理自TRM Labs與G7埃維昂峰會聯合公報。</p>
+</div>
 
 <h2 class="ko">G7이 처음으로 공동성명에 못박았다, 그러나 북한은 부인한다</h2>
 <h2 class="en">G7 Named It in a Communique for the First Time — North Korea Denies It</h2>
@@ -438,6 +673,11 @@
 <h2 class="pt">G7 citou pela primeira vez em comunicado — Coreia do Norte nega</h2>
 <h2 class="tr">G7 İlk Kez Bir Bildiride Adını Andı — Kuzey Kore Reddediyor</h2>
 <h2 class="vi">G7 Lần Đầu Nêu Tên Trong Thông Cáo — Triều Tiên Phủ Nhận</h2>
+<h2 class="id">G7 Menyebutnya untuk Pertama Kali dalam Komunike — Korea Utara Membantahnya</h2>
+<h2 class="pl">G7 Po Raz Pierwszy Wymienia to w Komunikacie — Korea Północna Zaprzecza</h2>
+<h2 class="it">Il G7 Lo Nomina per la Prima Volta in un Comunicato — la Corea del Nord Lo Nega</h2>
+<h2 class="ru">G7 Впервые Назвала Это в Коммюнике — Северная Корея Отрицает</h2>
+<h2 class="zh">G7首度於公報中點名——北韓否認</h2>
 
 <p class="ko">세계 7대 선진 경제국 정상들은 에비앙 정상회의 공동성명에서 북한을 명시적으로 지목하며 2017년 이후 암호화폐 생태계에서 63억7500만 달러 이상을 빼돌렸다고 밝혔다. "우리는 북한의 암호화폐 탈취와 사이버범죄에 공동으로 대응할 필요성을 재확인한다"는 문구가 담겼다. 이는 북한의 암호화폐 해킹을 무기 프로그램 자금원이라는 지정학적 안보 위협으로 공식 인정한 것으로, 그동안 업계 보고서나 개별국 제재에 머물던 문제를 주요국 정상 차원의 의제로 끌어올렸다는 의미가 있다. 반면 북한은 크립토뉴스(crypto.news) 등이 보도한 것처럼, TRM랩스가 주요 해킹을 자국과 연결짓는 근거 자료를 부인하고 있다.</p>
 <p class="en">Leaders of the world's seven largest advanced economies explicitly named North Korea in the Evian summit's joint communique, stating it had drained more than $6.75 billion from the crypto ecosystem since 2017. "We reiterate the need to jointly address North Korea's cryptocurrency thefts and cybercrimes," the statement read. It marks the first time crypto theft by North Korea has been formally recognized as a geopolitical security threat tied to weapons-program funding, elevating an issue previously confined to industry reports and individual-country sanctions onto the agenda of major-power leaders. North Korea, meanwhile, denies the data TRM Labs uses to tie major hacks to the country, as crypto.news and other outlets reported.</p>
@@ -448,6 +688,11 @@
 <p class="pt">Líderes das sete maiores economias avançadas do mundo citaram explicitamente a Coreia do Norte no comunicado conjunto da cúpula de Evian, afirmando que o país havia drenado mais de US$ 6,75 bilhões do ecossistema cripto desde 2017. "Reiteramos a necessidade de enfrentar em conjunto os roubos cripto e os crimes cibernéticos da Coreia do Norte", diz o comunicado. É a primeira vez que o roubo cripto norte-coreano é formalmente reconhecido como uma ameaça de segurança geopolítica ligada ao financiamento de programas de armamento, elevando um tema antes restrito a relatórios do setor e sanções de países individuais à agenda de líderes das grandes potências. A Coreia do Norte, por sua vez, nega os dados que a TRM Labs usa para ligar grandes hacks ao país, conforme noticiado pela crypto.news e outros veículos.</p>
 <p class="tr">Dünyanın en büyük yedi gelişmiş ekonomisinin liderleri, Evian zirvesinin ortak bildirisinde Kuzey Kore'yi açıkça adlandırarak ülkenin 2017'den bu yana kripto ekosisteminden 6,75 milyar doların üzerinde bir tutarı sızdırdığını belirtti. Bildiride "Kuzey Kore'nin kripto hırsızlıklarını ve siber suçlarını birlikte ele alma ihtiyacını yineliyoruz" ifadesi yer aldı. Bu, Kuzey Kore'nin kripto hırsızlığının silah programı finansmanına bağlı jeopolitik bir güvenlik tehdidi olarak resmen tanındığı ilk seferi işaret ediyor ve daha önce sektör raporları ile tek tek ülke yaptırımlarıyla sınırlı kalan bir konuyu büyük güç liderlerinin gündemine taşıyor. Kuzey Kore ise crypto.news ve diğer kaynakların bildirdiği üzere, TRM Labs'in büyük hackleri ülkeyle ilişkilendirmek için kullandığı verileri reddediyor.</p>
 <p class="vi">Lãnh đạo bảy nền kinh tế phát triển lớn nhất thế giới đã nêu đích danh Triều Tiên trong thông cáo chung của hội nghị thượng đỉnh Evian, tuyên bố nước này đã rút hơn 6,75 tỷ đô la khỏi hệ sinh thái crypto kể từ năm 2017. "Chúng tôi tái khẳng định sự cần thiết phải cùng nhau giải quyết các vụ trộm crypto và tội phạm mạng của Triều Tiên," tuyên bố nêu rõ. Đây là lần đầu tiên hành vi trộm crypto của Triều Tiên được chính thức công nhận là mối đe dọa an ninh địa chính trị gắn với việc tài trợ chương trình vũ khí, đưa một vấn đề trước đây chỉ giới hạn trong báo cáo ngành và lệnh trừng phạt của từng quốc gia lên chương trình nghị sự của lãnh đạo các cường quốc. Trong khi đó, Triều Tiên phủ nhận dữ liệu mà TRM Labs sử dụng để liên kết các vụ hack lớn với nước này, theo tường thuật của crypto.news và các hãng tin khác.</p>
+<p class="id">Para pemimpin tujuh negara ekonomi maju terbesar di dunia secara eksplisit menyebut nama Korea Utara dalam komunike bersama KTT Evian, menyatakan bahwa negara itu telah menguras lebih dari $6,75 miliar dari ekosistem kripto sejak 2017. "Kami menegaskan kembali perlunya menangani secara bersama pencurian mata uang kripto dan kejahatan siber Korea Utara," demikian bunyi pernyataan tersebut. Ini menandai pertama kalinya pencurian kripto oleh Korea Utara diakui secara resmi sebagai ancaman keamanan geopolitik yang terkait dengan pendanaan program senjata, mengangkat isu yang sebelumnya hanya terbatas pada laporan industri dan sanksi masing-masing negara ke agenda para pemimpin negara-negara besar. Sementara itu, Korea Utara membantah data yang digunakan TRM Labs untuk mengaitkan peretasan-peretasan besar dengan negara tersebut, sebagaimana dilaporkan oleh crypto.news dan media lainnya.</p>
+<p class="pl">Przywódcy siedmiu największych rozwiniętych gospodarek świata wprost wymienili Koreę Północną we wspólnym komunikacie szczytu w Evian, stwierdzając, że od 2017 roku wyprowadziła ona z ekosystemu kryptowalut ponad 6,75 miliarda dolarów. "Potwierdzamy potrzebę wspólnego przeciwdziałania kradzieżom kryptowalut i cyberprzestępczości Korei Północnej" — czytamy w oświadczeniu. To pierwszy przypadek, gdy kradzież kryptowalut przez Koreę Północną została formalnie uznana za geopolityczne zagrożenie bezpieczeństwa powiązane z finansowaniem programu zbrojeniowego, co wynosi kwestię wcześniej ograniczoną do raportów branżowych i sankcji poszczególnych krajów na agendę przywódców największych mocarstw. Korea Północna tymczasem zaprzecza danym, na których TRM Labs opiera powiązanie dużych włamań z tym krajem, jak podały crypto.news i inne media.</p>
+<p class="it">I leader delle sette maggiori economie avanzate del mondo hanno esplicitamente nominato la Corea del Nord nel comunicato congiunto del vertice di Evian, affermando che il paese aveva prelevato oltre 6,75 miliardi di dollari dall'ecosistema cripto dal 2017. "Ribadiamo la necessità di affrontare congiuntamente i furti di criptovalute e i crimini informatici della Corea del Nord", si legge nella dichiarazione. Segna la prima volta in cui il furto di criptovalute da parte della Corea del Nord viene formalmente riconosciuto come una minaccia alla sicurezza geopolitica legata al finanziamento dei programmi di armamento, portando un tema prima confinato a rapporti di settore e sanzioni dei singoli paesi sull'agenda dei leader delle grandi potenze. La Corea del Nord, dal canto suo, nega i dati che TRM Labs utilizza per collegare i principali attacchi al paese, come riportato da crypto.news e da altre testate.</p>
+<p class="ru">Лидеры семи крупнейших развитых экономик мира прямо назвали Северную Корею в совместном коммюнике саммита в Эвиане, заявив, что с 2017 года страна вывела из криптоэкосистемы более $6,75 млрд. «Мы подтверждаем необходимость совместного противодействия кражам криптовалют и киберпреступлениям со стороны Северной Кореи», — говорится в заявлении. Это первый случай, когда кража криптовалют Северной Кореей официально признана геополитической угрозой безопасности, связанной с финансированием оружейной программы, что подняло вопрос, ранее ограничивавшийся отраслевыми отчётами и санкциями отдельных стран, на уровень повестки лидеров крупнейших держав. Северная Корея, в свою очередь, отрицает данные, которые TRM Labs использует для увязки крупных взломов со страной, как сообщили crypto.news и другие издания.</p>
+<p class="zh">全球七大先進經濟體領袖在埃維昂峰會聯合公報中明確點名北韓,指出該國自2017年以來已從加密貨幣生態系統中盜取超過67.5億美元。聲明中寫道:「我們重申有必要共同應對北韓的加密貨幣竊盜與網路犯罪行為。」這是北韓的加密貨幣竊盜行為首次被正式認定為與武器計畫資金籌措相關的地緣政治安全威脅,將原本僅限於產業報告與各國個別制裁的議題,提升至主要大國領袖的議程之上。與此同時,據crypto.news等媒體報導,北韓否認TRM Labs用以將重大駭客事件與該國連結的資料。</p>
 
 <p class="ko">이 부인은 새로운 일이 아니다. 블록체인 포렌식은 온체인 자금 흐름의 패턴, 사용된 스마트계약 코드, 자금세탁 경로의 유사성 등 정황 증거에 크게 의존하며, 국가 행위자가 공개적으로 배후를 인정한 적은 거의 없다. 2025년 2월 바이비트에서 벌어진 약 14억~15억 달러 규모의 사상 최대 해킹 역시 라자루스 소행으로 지목됐지만 북한은 이를 인정하지 않았다. 그럼에도 TRM랩스를 포함한 다수 분석업체와 FBI 등 각국 수사기관이 독립적으로 유사한 결론에 도달했다는 점, 그리고 탈취 자금이 흘러가는 최종 목적지가 반복적으로 북한 정권과 연결된 지갑 클러스터로 수렴한다는 점은 부인만으로 반박하기 어려운 대목이다. 이 사이트가 짚고자 하는 지점은, 공식 부인이 있든 없든 방어자 입장에서 중요한 것은 귀속 논쟁의 승패가 아니라 IT 인력 침투나 크로스체인 브리지 검증 서버 공격처럼 반복적으로 활용되는 침투 경로 자체를 차단하는 일이라는 것이다.</p>
 <p class="en">This denial is nothing new. Blockchain forensics leans heavily on circumstantial evidence — patterns in on-chain fund flows, similarities in smart-contract code used, overlapping laundering routes — and state actors have rarely publicly admitted responsibility. North Korea also never acknowledged responsibility for the roughly $1.4-1.5 billion Bybit heist in February 2025, the largest crypto theft on record, which was likewise attributed to Lazarus. Still, the fact that multiple independent analytics firms including TRM Labs, along with agencies like the FBI, keep arriving at similar conclusions — and that stolen funds repeatedly converge on wallet clusters linked to the North Korean regime — makes the denial hard to counter with silence alone. What matters for defenders, regardless of whether attribution disputes are ever settled, is closing off the recurring infiltration paths themselves — IT worker infiltration and cross-chain bridge verification-server attacks chief among them.</p>
@@ -458,6 +703,11 @@
 <p class="pt">Essa negativa não é novidade. A perícia forense blockchain depende fortemente de evidências circunstanciais — padrões nos fluxos de fundos on-chain, semelhanças no código de contratos inteligentes usados, rotas de lavagem que se sobrepõem — e atores estatais raramente admitiram publicamente sua responsabilidade. A Coreia do Norte também nunca reconheceu responsabilidade pelo roubo de cerca de US$ 1,4-1,5 bilhão da Bybit em fevereiro de 2025, o maior roubo cripto já registrado, também atribuído ao Lazarus. Ainda assim, o fato de múltiplas empresas de análise independentes, incluindo a TRM Labs, junto com agências como o FBI, continuarem chegando a conclusões semelhantes — e de os fundos roubados convergirem repetidamente para clusters de carteiras ligados ao regime norte-coreano — torna a negativa difícil de contestar apenas com silêncio. O que importa para os defensores, independentemente de as disputas de atribuição algum dia serem resolvidas, é fechar as próprias rotas de infiltração recorrentes — infiltração de trabalhadores de TI e ataques a servidores de verificação de pontes entre cadeias, principalmente.</p>
 <p class="tr">Bu inkâr yeni bir şey değil. Blockchain adli analizi büyük ölçüde dolaylı kanıtlara dayanır — zincir üstü fon akışlarındaki örüntüler, kullanılan akıllı sözleşme kodundaki benzerlikler, örtüşen aklama rotaları — ve devlet aktörleri sorumluluğu kamuoyu önünde nadiren kabul etmiştir. Kuzey Kore, yine Lazarus'a atfedilen ve şimdiye kadarki en büyük kripto hırsızlığı olan Şubat 2025'teki yaklaşık 1,4-1,5 milyar dolarlık Bybit soygunu için de hiçbir zaman sorumluluk kabul etmedi. Yine de TRM Labs dahil birden fazla bağımsız analiz şirketinin, FBI gibi kurumlarla birlikte benzer sonuçlara ulaşmaya devam etmesi — ve çalınan fonların tekrar tekrar Kuzey Kore rejimiyle bağlantılı cüzdan kümelerinde toplanması — inkârı yalnızca sessizlikle çürütmeyi zorlaştırıyor. Savunanlar için önemli olan, atıf tartışmaları hiç çözülse de çözülmese de, tekrarlayan sızma yollarının bizzat kapatılmasıdır — başta BT çalışanı sızması ve zincirler arası köprü doğrulama sunucusu saldırıları olmak üzere.</p>
 <p class="vi">Sự phủ nhận này không có gì mới. Điều tra pháp y blockchain phụ thuộc nhiều vào bằng chứng gián tiếp — các mô hình trong dòng tiền on-chain, sự tương đồng trong mã hợp đồng thông minh được sử dụng, các tuyến rửa tiền trùng lặp — và các tác nhân nhà nước hiếm khi công khai thừa nhận trách nhiệm. Triều Tiên cũng chưa bao giờ thừa nhận trách nhiệm về vụ trộm khoảng 1,4-1,5 tỷ đô la tại Bybit vào tháng 2/2025, vụ trộm crypto lớn nhất từng được ghi nhận, cũng được quy cho Lazarus. Dù vậy, việc nhiều công ty phân tích độc lập bao gồm TRM Labs, cùng các cơ quan như FBI, liên tục đi đến những kết luận tương tự — và việc tiền bị đánh cắp liên tục hội tụ về các cụm ví liên kết với chính quyền Triều Tiên — khiến lời phủ nhận khó có thể bị bác bỏ chỉ bằng sự im lặng. Điều quan trọng đối với những người phòng thủ, bất kể tranh cãi về quy kết có bao giờ được giải quyết hay không, là chặn đứng chính những con đường xâm nhập lặp đi lặp lại — đứng đầu là việc cài cắm nhân viên IT và tấn công máy chủ xác minh của cầu nối liên chuỗi.</p>
+<p class="id">Bantahan ini bukan hal baru. Forensik blockchain sangat bergantung pada bukti tidak langsung — pola dalam aliran dana on-chain, kemiripan kode kontrak pintar yang digunakan, jalur pencucian uang yang tumpang tindih — dan aktor negara jarang mengakui tanggung jawab secara terbuka. Korea Utara juga tidak pernah mengakui tanggung jawab atas perampokan Bybit senilai sekitar $1,4-1,5 miliar pada Februari 2025, pencurian kripto terbesar yang pernah tercatat, yang juga dikaitkan dengan Lazarus. Meski begitu, fakta bahwa banyak perusahaan analitik independen termasuk TRM Labs, bersama lembaga seperti FBI, terus sampai pada kesimpulan yang serupa — dan bahwa dana curian berulang kali bermuara pada klaster dompet yang terkait dengan rezim Korea Utara — membuat bantahan itu sulit dibantah hanya dengan diam. Yang penting bagi pihak yang bertahan, terlepas dari apakah perdebatan atribusi ini pernah terselesaikan, adalah menutup jalur penyusupan berulang itu sendiri — terutama penyusupan pekerja TI dan serangan terhadap server verifikasi jembatan lintas-rantai.</p>
+<p class="pl">To zaprzeczenie nie jest niczym nowym. Kryminalistyka blockchain w dużej mierze opiera się na poszlakach — wzorcach w przepływach środków on-chain, podobieństwach w kodzie użytych smart kontraktów, nakładających się trasach prania pieniędzy — a podmioty państwowe rzadko publicznie przyznają się do odpowiedzialności. Korea Północna nigdy też nie przyznała się do odpowiedzialności za napad na Bybit o wartości około 1,4-1,5 miliarda dolarów w lutym 2025 r., największą jak dotąd kradzież kryptowalut, którą również przypisano Lazarusowi. Mimo to fakt, że wiele niezależnych firm analitycznych, w tym TRM Labs, wraz z agencjami takimi jak FBI, wciąż dochodzi do podobnych wniosków — oraz że skradzione środki wielokrotnie zbiegają się w klastrach portfeli powiązanych z reżimem Korei Północnej — sprawia, że trudno przeciwstawić się temu zaprzeczeniu samym milczeniem. Dla obrońców, niezależnie od tego, czy spory o atrybucję kiedykolwiek zostaną rozstrzygnięte, liczy się zamknięcie samych powtarzających się ścieżek infiltracji — przede wszystkim infiltracji pracowników IT oraz ataków na serwery weryfikacyjne mostów międzyłańcuchowych.</p>
+<p class="it">Questa negazione non è nulla di nuovo. La forensica blockchain si basa fortemente su prove circostanziali — schemi nei flussi di fondi on-chain, somiglianze nel codice degli smart contract utilizzati, percorsi di riciclaggio sovrapposti — e gli attori statali raramente hanno ammesso pubblicamente la responsabilità. Anche la Corea del Nord non ha mai riconosciuto la responsabilità per la rapina a Bybit di circa 1,4-1,5 miliardi di dollari nel febbraio 2025, il più grande furto di criptovalute mai registrato, anch'esso attribuito a Lazarus. Tuttavia, il fatto che più società di analisi indipendenti, tra cui TRM Labs, insieme ad agenzie come l'FBI, continuino a giungere a conclusioni simili — e che i fondi rubati convergano ripetutamente su cluster di wallet collegati al regime nordcoreano — rende la negazione difficile da contrastare con il solo silenzio. Ciò che conta per i difensori, indipendentemente dal fatto che le controversie sull'attribuzione vengano mai risolte, è chiudere i percorsi di infiltrazione ricorrenti stessi — in primis l'infiltrazione di lavoratori IT e gli attacchi ai server di verifica dei ponti cross-chain.</p>
+<p class="ru">Это отрицание не ново. Блокчейн-криминалистика в значительной степени опирается на косвенные доказательства — закономерности в потоках средств в блокчейне, сходство используемого кода смарт-контрактов, пересекающиеся маршруты отмывания денег, — а государственные структуры редко публично признают ответственность. Северная Корея также никогда не признавала ответственность за ограбление Bybit на сумму около $1,4-1,5 млрд в феврале 2025 года — крупнейшую зафиксированную кражу криптовалюты, которая также была приписана Lazarus. Тем не менее тот факт, что несколько независимых аналитических компаний, включая TRM Labs, вместе с такими ведомствами, как ФБР, продолжают приходить к схожим выводам — а украденные средства неоднократно сходятся в кластерах кошельков, связанных с северокорейским режимом, — затрудняет опровержение одним лишь молчанием. Для тех, кто защищается, независимо от того, будут ли когда-либо разрешены споры об атрибуции, важно перекрыть сами повторяющиеся пути проникновения — прежде всего внедрение IT-работников и атаки на верификационные серверы кроссчейн-мостов.</p>
+<p class="zh">這樣的否認並不新鮮。區塊鏈鑑識工作在很大程度上仰賴間接證據——鏈上資金流動的模式、所使用智能合約程式碼的相似性、重疊的洗錢路徑——而國家級行為者鮮少公開承認責任。北韓同樣從未承認對2025年2月Bybit約14至15億美元竊案負責,那起事件是史上最大宗的加密貨幣竊案,同樣被歸咎於Lazarus。儘管如此,包括TRM Labs在內的多家獨立分析公司,連同FBI等機構,持續得出相似結論——加上被盜資金一再匯集至與北韓政權有關聯的錢包群集——這使得單靠否認難以自圓其說。對防禦方而言,無論歸因爭議最終是否得到釐清,真正重要的是堵住這些一再被利用的滲透途徑本身——其中又以IT人員滲透與跨鏈橋接驗證伺服器攻擊為首要。</p>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) G7 성명 이후 각국이 실제 제재·집행 조치를 구체화하는지, (2) 남은 하반기에 북한이 대형 단일 공격 대신 소액 다발 공격이나 피싱·IT 인력 침투 같은 비해킹 경로로 무게중심을 옮기는지, (3) 크로스체인 브리지·검증자 인프라를 표적으로 한 공격이 추가로 발생해 레이어제로식 취약점이 업계 전반의 구조적 문제로 확인되는지 여부다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) whether the G7 statement translates into concrete sanctions or enforcement actions from member states; (2) whether North Korea shifts the rest of 2026 toward smaller, more frequent hits or non-hacking channels like phishing and IT worker infiltration rather than single mega-attacks; and (3) whether further attacks targeting cross-chain bridge and validator infrastructure confirm that the LayerZero-style vulnerability is an industry-wide structural problem.</div>
@@ -468,6 +718,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> (1) se a declaração do G7 se traduz em sanções concretas ou medidas de aplicação por parte dos estados membros; (2) se a Coreia do Norte desloca o restante de 2026 para golpes menores e mais frequentes, ou para canais fora do hacking, como phishing e infiltração de trabalhadores de TI, em vez de megaataques únicos; e (3) se novos ataques direcionados a pontes entre cadeias e infraestrutura de validadores confirmam que a vulnerabilidade do tipo LayerZero é um problema estrutural em todo o setor.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> (1) G7 bildirisinin üye devletler tarafından somut yaptırım veya uygulama önlemlerine dönüşüp dönüşmeyeceği; (2) Kuzey Kore'nin 2026'nın geri kalanında tek büyük saldırılar yerine daha küçük, daha sık darbelere ya da kimlik avı ve BT çalışanı sızması gibi hackleme dışı kanallara ağırlık verip vermeyeceği; ve (3) zincirler arası köprüleri ve doğrulayıcı altyapısını hedef alan yeni saldırıların, LayerZero tarzı açığın sektör genelinde yapısal bir sorun olduğunu doğrulayıp doğrulamayacağıdır.</div>
 <div class="box vi">💡 <strong>Điều cần theo dõi lúc này:</strong> (1) liệu tuyên bố của G7 có chuyển thành các biện pháp trừng phạt hoặc thực thi cụ thể từ các quốc gia thành viên hay không; (2) liệu Triều Tiên có chuyển trọng tâm phần còn lại của năm 2026 sang các đợt tấn công nhỏ hơn, thường xuyên hơn, hoặc các kênh phi hack như lừa đảo và cài cắm nhân viên IT thay vì các cuộc tấn công quy mô lớn đơn lẻ hay không; và (3) liệu các cuộc tấn công tiếp theo nhắm vào cầu nối liên chuỗi và hạ tầng trình xác thực có xác nhận rằng lỗ hổng kiểu LayerZero là vấn đề cấu trúc trên toàn ngành hay không.</div>
+<div class="box id">💡 <strong>Yang perlu diperhatikan sekarang:</strong> (1) apakah pernyataan G7 akan diterjemahkan menjadi sanksi atau tindakan penegakan hukum yang konkret dari negara-negara anggota; (2) apakah Korea Utara akan mengalihkan sisa tahun 2026 ke arah serangan yang lebih kecil dan lebih sering, atau ke jalur non-peretasan seperti phishing dan penyusupan pekerja TI, alih-alih serangan mega tunggal; dan (3) apakah serangan lebih lanjut yang menargetkan infrastruktur jembatan lintas-rantai dan validator akan mengonfirmasi bahwa kerentanan bergaya LayerZero merupakan masalah struktural di seluruh industri.</div>
+<div class="box pl">💡 <strong>Na co teraz zwracać uwagę:</strong> (1) czy oświadczenie G7 przełoży się na konkretne sankcje lub działania egzekucyjne państw członkowskich; (2) czy Korea Północna przesunie resztę 2026 roku w stronę mniejszych, częstszych uderzeń lub kanałów niehakerskich, takich jak phishing i infiltracja pracowników IT, zamiast pojedynczych megaataków; oraz (3) czy kolejne ataki wymierzone w infrastrukturę mostów międzyłańcuchowych i walidatorów potwierdzą, że podatność typu LayerZero to strukturalny problem całej branży.</div>
+<div class="box it">💡 <strong>Cosa osservare ora:</strong> (1) se la dichiarazione del G7 si tradurrà in sanzioni concrete o azioni di enforcement da parte degli stati membri; (2) se la Corea del Nord sposterà il resto del 2026 verso colpi più piccoli e frequenti o verso canali non basati su hacking come il phishing e l'infiltrazione di lavoratori IT, anziché singoli mega-attacchi; e (3) se ulteriori attacchi mirati all'infrastruttura di ponti cross-chain e validatori confermeranno che la vulnerabilità in stile LayerZero è un problema strutturale a livello di settore.</div>
+<div class="box ru">💡 <strong>На что обратить внимание сейчас:</strong> (1) выльется ли заявление G7 в конкретные санкции или правоприменительные меры со стороны стран-участниц; (2) сместит ли Северная Корея оставшуюся часть 2026 года в сторону более мелких и частых ударов или нехакерских каналов, таких как фишинг и внедрение IT-работников, вместо единичных мегаатак; и (3) подтвердят ли дальнейшие атаки на инфраструктуру кроссчейн-мостов и валидаторов, что уязвимость в стиле LayerZero является структурной проблемой всей отрасли.</div>
+<div class="box zh">💡 <strong>接下來需要關注的重點:</strong>(1) G7聲明是否會轉化為會員國具體的制裁或執法行動;(2) 北韓在2026年剩餘時間是否會將重心轉向規模較小、頻率較高的攻擊,或是網路釣魚與IT人員滲透等非駭客管道,而非單一大型攻擊;以及(3) 針對跨鏈橋接與驗證者基礎設施的後續攻擊,是否會證實LayerZero式的漏洞是整個產業層面的結構性問題。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
@@ -478,4 +733,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: TRM Labs, UPI, Korea Herald, Korea JoongAng Daily, The Block, CoinDesk, Decrypt, crypto.news, Crowdfund Insider.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:TRM Labs、UPI、《韓國先驅報》、《中央日報》、The Block、CoinDesk、Decrypt、crypto.news、Crowdfund Insider。</p>
 <?php require __DIR__.'/_footer.php'; ?>
