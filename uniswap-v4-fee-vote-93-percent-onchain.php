@@ -9,6 +9,11 @@
 <p class="pt">A organização autônoma descentralizada (DAO) da Uniswap encerrou em 12 de julho uma votação Snapshot de "verificação de temperatura" para ampliar a cobrança de taxas de protocolo (queima de UNI) aos pools v4. Segundo a Cryptopolitan e a The Block, cerca de 93% dos votos registrados foram favoráveis, abrindo caminho para votações de governança on-chain vinculantes que deveriam começar na semana de 13 de julho. A medida é uma continuação do programa "UNIfication", aprovado com 99,9% de apoio em dezembro passado e que desencadeou a queima de 100 milhões de UNI; a nova votação também abrange configurações de taxas para cadeias adicionais, incluindo Robinhood Chain, Avalanche, XLayer, MegaETH e Soneium.</p>
 <p class="tr">Uniswap'in merkeziyetsiz özerk organizasyonu (DAO), protokol ücreti (UNI yakımı) toplamayı v4 havuzlarına genişletmeye yönelik Snapshot "sıcaklık kontrolü" oylamasını 12 Temmuz'da kapattı. Cryptopolitan ve The Block'a göre, kullanılan oyların yaklaşık yüzde 93'ü lehte oldu ve bu da 13 Temmuz'un içinde bulunduğu haftadan itibaren başlaması planlanan bağlayıcı zincir üstü (on-chain) yönetişim oylamalarının önünü açtı. Bu önlem, geçen Aralık ayında yüzde 99,9 destekle kabul edilen ve 100 milyon UNI'nin yakılmasını tetikleyen "UNIfication" programının devamı niteliğinde; yeni oylama ayrıca Robinhood Chain, Avalanche, XLayer, MegaETH ve Soneium dahil olmak üzere ek zincirler için ücret yapılandırmalarını da kapsıyor.</p>
 <p class="vi">Tổ chức tự trị phi tập trung (DAO) của Uniswap đã kết thúc cuộc bỏ phiếu Snapshot "kiểm tra nhiệt độ" vào ngày 12/7 nhằm mở rộng việc thu phí giao thức (đốt UNI) sang các pool v4. Theo Cryptopolitan và The Block, khoảng 93% số phiếu được bỏ là ủng hộ, mở đường cho các cuộc bỏ phiếu quản trị on-chain có tính ràng buộc, dự kiến bắt đầu từ tuần của ngày 13/7. Biện pháp này là bước tiếp nối của chương trình "UNIfication", đã được thông qua với 99,9% ủng hộ vào tháng 12 năm ngoái và kích hoạt việc đốt 100 triệu UNI; cuộc bỏ phiếu mới cũng bao gồm cấu hình phí cho các chuỗi bổ sung, gồm Robinhood Chain, Avalanche, XLayer, MegaETH và Soneium.</p>
+<p class="id">DAO Uniswap menutup pemungutan suara Snapshot "pemeriksaan suhu" pada 12 Juli untuk memperluas pemungutan biaya protokol (pembakaran UNI) ke pool v4. Menurut Cryptopolitan dan The Block, sekitar 93% suara yang diberikan mendukung, membuka jalan bagi pemungutan suara tata kelola on-chain yang mengikat, yang dijadwalkan dimulai pada pekan 13 Juli. Langkah ini merupakan kelanjutan dari program "UNIfication", yang disetujui dengan dukungan 99,9% pada Desember lalu dan memicu pembakaran 100 juta UNI; pemungutan suara baru ini juga mencakup konfigurasi biaya untuk chain tambahan, termasuk Robinhood Chain, Avalanche, XLayer, MegaETH, dan Soneium.</p>
+<p class="pl">DAO Uniswap zamknęło 12 lipca głosowanie Snapshot typu „sprawdzenie nastrojów”, mające na celu rozszerzenie poboru opłaty protokołu (spalanie UNI) na pule v4. Według Cryptopolitan i The Block, około 93% oddanych głosów było za, co otworzyło drogę do wiążących głosowań zarządczych on-chain, które miały się rozpocząć w tygodniu 13 lipca. Środek ten jest kontynuacją programu „UNIfication”, który przeszedł z poparciem 99,9% w grudniu ubiegłego roku i wywołał spalenie 100 milionów UNI; nowe głosowanie obejmuje również konfiguracje opłat dla dodatkowych łańcuchów, w tym Robinhood Chain, Avalanche, XLayer, MegaETH i Soneium.</p>
+<p class="it">Il DAO di Uniswap ha chiuso il 12 luglio una votazione Snapshot di «verifica del sentiment» per estendere la raccolta della commissione di protocollo (burn di UNI) ai pool v4. Secondo Cryptopolitan e The Block, circa il 93% dei voti espressi è stato favorevole, aprendo la strada a votazioni di governance on-chain vincolanti previste per la settimana del 13 luglio. La misura è un seguito del programma «UNIfication», approvato con il 99,9% di sostegno lo scorso dicembre e che ha innescato il burn di 100 milioni di UNI; la nuova votazione riguarda anche le configurazioni delle commissioni per catene aggiuntive, tra cui Robinhood Chain, Avalanche, XLayer, MegaETH e Soneium.</p>
+<p class="ru">Децентрализованная автономная организация (DAO) Uniswap 12 июля завершила голосование Snapshot типа «проверка настроений» по расширению сбора протокольной комиссии (сжигание UNI) на пулы v4. По данным Cryptopolitan и The Block, примерно 93% отданных голосов были «за», что открыло путь к обязывающим ончейн-голосованиям по управлению, которые должны были начаться на неделе 13 июля. Эта мера является продолжением программы «UNIfication», принятой в декабре прошлого года с поддержкой 99,9% и вызвавшей сжигание 100 миллионов UNI; новое голосование также охватывает настройки комиссий для дополнительных сетей, включая Robinhood Chain, Avalanche, XLayer, MegaETH и Soneium.</p>
+<p class="zh">Uniswap去中心化自治組織(DAO)於7月12日結束一項Snapshot「溫度測試」投票，內容是將協議費用（銷毀UNI）的徵收範圍擴大至v4資金池。根據Cryptopolitan與The Block報導，約93%的投票支持該提案，為7月13日當週開始的具約束力鏈上治理投票鋪平了道路。此項措施是去年12月以99.9%支持率通過、並觸發銷毀1億枚UNI的「UNIfication」計畫的後續延伸；新的投票同時涵蓋Robinhood Chain、Avalanche、XLayer、MegaETH與Soneium等其他鏈的費用設定。</p>
 
 <h2 class="ko">무엇이 통과됐나</h2>
 <h2 class="en">What Actually Passed</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">O que exatamente foi aprovado</h2>
 <h2 class="tr">Tam olarak ne kabul edildi</h2>
 <h2 class="vi">Điều gì thực sự đã được thông qua</h2>
+<h2 class="id">Apa yang Sebenarnya Disetujui</h2>
+<h2 class="pl">Co Faktycznie Zostało Przyjęte</h2>
+<h2 class="it">Cosa È Stato Effettivamente Approvato</h2>
+<h2 class="ru">Что Именно Было Принято</h2>
+<h2 class="zh">實際通過了什麼內容</h2>
 
 <p class="ko">이번 스냅샷 투표는 v4 유동성 풀 일부에 프로토콜 수수료를 부과하고, 걷힌 수수료를 UNI 매입·소각(바이백 앤 번)에 쓰는 유니피케이션 구조를 v4까지 넓히는 내용이다. 유니스왑 랩스가 7월 7일 투표를 개시했고, 이후 닷새간 진행된 투표에서 약 93%가 찬성표를 던지며 압도적 지지를 확인했다. 스냅샷 투표는 법적 구속력이 없는 여론 수렴 절차이므로, 실제 반영을 위해서는 온체인 거버넌스 제안이 별도로 통과돼야 한다. 더코인리퍼블릭 보도에 따르면 이 온체인 표결은 7월 13일이 속한 주부터 순차적으로 상정될 예정이다.</p>
 <p class="ko">주목할 점은 이번 안건이 "모든 v4 풀"에 일괄 적용되는 것이 아니라는 사실이다. 거버넌스 문서는 지속 가능한 프로토콜 수익을 낼 수 있다고 판단되는 특정 카테고리의 풀만 선별해 수수료를 적용한다고 명시한다. 같은 투표 묶음에는 로빈후드체인, 아발란체, 엑스레이어(XLayer), 메가이더리움(MegaETH), 소네이엄(Soneium) 등 신규·확장 체인에 대한 수수료 설정과 브리지 인프라 업데이트 등 운영성 안건도 포함돼, 유니스왑이 멀티체인 확장과 수익화를 동시에 추진하고 있음을 보여준다.</p>
@@ -38,6 +48,16 @@
 <p class="tr">Dikkat çeken nokta, önlemin "her v4 havuzuna" ayrım gözetmeksizin uygulanmamasıdır. Yönetişim belgeleri, ücretlerin yalnızca sürdürülebilir protokol geliri üretebileceği değerlendirilen belirli havuz kategorilerine uygulanacağını belirtiyor. Aynı oylama paketi, Robinhood Chain, Avalanche, XLayer, MegaETH ve Soneium gibi yeni ve genişleyen zincirler için ücret yapılandırmaları ile köprü altyapısı güncellemeleri gibi operasyonel maddeleri de bir araya getiriyor; bu da Uniswap'in çoklu zincir genişlemesini ve gelirleştirmeyi aynı anda sürdürdüğünü gösteriyor.</p>
 <p class="vi">Cuộc bỏ phiếu Snapshot mở rộng cấu trúc UNIfication — thu phí giao thức trên các pool được chọn và dùng số tiền thu được để mua lại và đốt UNI — sang các pool thanh khoản v4. Uniswap Labs mở cuộc bỏ phiếu vào ngày 7/7, và sau năm ngày, khoảng 93% số phiếu bầu ra là ủng hộ, xác nhận sự ủng hộ áp đảo. Bản thân một cuộc bỏ phiếu Snapshot không có hiệu lực pháp lý; đây chỉ là bước thu thập ý kiến, và một đề xuất quản trị on-chain riêng biệt vẫn phải được thông qua để thay đổi có hiệu lực. Theo The Coin Republic, cuộc bỏ phiếu on-chain có tính ràng buộc này dự kiến được đưa ra theo từng giai đoạn bắt đầu từ tuần của ngày 13/7.</p>
 <p class="vi">Điều đáng chú ý là biện pháp này không áp dụng đồng loạt cho "mọi pool v4". Tài liệu quản trị nêu rõ phí chỉ áp dụng cho các danh mục pool được chọn, được đánh giá là có khả năng tạo ra doanh thu giao thức bền vững. Cùng gói bỏ phiếu này cũng gộp các mục vận hành — cấu hình phí cho các chuỗi mới và đang mở rộng như Robinhood Chain, Avalanche, XLayer, MegaETH và Soneium, cùng với các bản cập nhật hạ tầng cầu nối — cho thấy Uniswap đang theo đuổi đồng thời việc mở rộng đa chuỗi và kiếm tiền hóa.</p>
+<p class="id">Pemungutan suara Snapshot ini memperluas struktur UNIfication — mengenakan biaya protokol pada pool tertentu dan menggunakan hasilnya untuk membeli kembali dan membakar UNI — ke pool likuiditas v4. Uniswap Labs membuka pemungutan suara pada 7 Juli, dan setelah lima hari sekitar 93% suara yang diberikan mendukung, mengonfirmasi dukungan yang sangat besar. Pemungutan suara Snapshot sendiri tidak memiliki kekuatan hukum; ini hanyalah langkah pengumpulan opini, dan proposal tata kelola on-chain terpisah masih harus disetujui agar perubahan berlaku. Menurut The Coin Republic, pemungutan suara on-chain yang mengikat itu dijadwalkan diperkenalkan secara bertahap mulai pekan 13 Juli.</p>
+<p class="id">Yang menonjol adalah langkah ini tidak berlaku untuk "setiap pool v4" secara serampangan. Dokumentasi tata kelola menyebutkan bahwa biaya hanya akan berlaku pada kategori pool tertentu yang dinilai mampu menghasilkan pendapatan protokol yang berkelanjutan. Kumpulan suara yang sama juga menggabungkan hal-hal operasional — konfigurasi biaya untuk chain baru dan yang sedang berkembang seperti Robinhood Chain, Avalanche, XLayer, MegaETH, dan Soneium, ditambah pembaruan infrastruktur bridge — menunjukkan bahwa Uniswap sedang mengejar ekspansi multichain dan monetisasi secara bersamaan.</p>
+<p class="pl">Głosowanie Snapshot rozszerza strukturę UNIfication — pobieranie opłaty protokołu z wybranych puli i wykorzystywanie wpływów do odkupu i spalania UNI — na pule płynności v4. Uniswap Labs otworzyło głosowanie 7 lipca, a po pięciu dniach około 93% oddanych głosów było za, potwierdzając przytłaczające poparcie. Głosowanie Snapshot samo w sobie nie ma mocy prawnej; jest to etap zbierania nastrojów, a osobna propozycja zarządcza on-chain wciąż musi zostać przyjęta, aby zmiana weszła w życie. Według The Coin Republic, to wiążące głosowanie on-chain miało być wprowadzane etapami począwszy od tygodnia 13 lipca.</p>
+<p class="pl">Warto zauważyć, że ten środek nie dotyczy bezwarunkowo „każdej puli v4”. Dokumentacja zarządcza precyzuje, że opłaty będą stosowane wyłącznie do wybranych kategorii puli, uznanych za zdolne do generowania trwałych przychodów protokołu. Ta sama pula głosowań łączy również kwestie operacyjne — konfiguracje opłat dla nowych i rozwijających się łańcuchów, takich jak Robinhood Chain, Avalanche, XLayer, MegaETH i Soneium, a także aktualizacje infrastruktury mostów — co pokazuje, że Uniswap dąży jednocześnie do ekspansji wielołańcuchowej i monetyzacji.</p>
+<p class="it">La votazione Snapshot estende la struttura di UNIfication — addebitare una commissione di protocollo su pool selezionati e usare i proventi per riacquistare e bruciare UNI — ai pool di liquidità v4. Uniswap Labs ha aperto la votazione il 7 luglio e, dopo cinque giorni, circa il 93% dei voti espressi è stato favorevole, confermando un sostegno schiacciante. Una votazione Snapshot non ha di per sé alcuna forza legale; è una fase di raccolta del sentiment, e una proposta di governance on-chain separata deve ancora essere approvata perché il cambiamento entri in vigore. Secondo The Coin Republic, quella votazione on-chain vincolante era prevista per essere introdotta a tappe a partire dalla settimana del 13 luglio.</p>
+<p class="it">Ciò che risalta è che la misura non si applica indiscriminatamente a «ogni pool v4». La documentazione di governance specifica che le commissioni si applicheranno solo a categorie selezionate di pool ritenute in grado di generare entrate di protocollo sostenibili. Lo stesso pacchetto di votazioni raggruppa anche voci operative — configurazioni delle commissioni per catene nuove ed espandibili come Robinhood Chain, Avalanche, XLayer, MegaETH e Soneium, oltre ad aggiornamenti dell'infrastruttura dei bridge — a dimostrazione che Uniswap persegue contemporaneamente espansione multichain e monetizzazione.</p>
+<p class="ru">Голосование Snapshot расширяет структуру UNIfication — взимание протокольной комиссии с отдельных пулов и использование выручки для обратного выкупа и сжигания UNI — на пулы ликвидности v4. Uniswap Labs открыла голосование 7 июля, и спустя пять дней примерно 93% отданных голосов оказались «за», подтвердив подавляющую поддержку. Само по себе голосование Snapshot не имеет юридической силы; это этап сбора мнений, и для вступления изменения в силу всё ещё должно быть принято отдельное предложение по ончейн-управлению. По данным The Coin Republic, это обязывающее ончейн-голосование планировалось вводить поэтапно начиная с недели 13 июля.</p>
+<p class="ru">Примечательно, что мера не применяется без разбора ко «всем пулам v4». В документации по управлению указано, что комиссии будут применяться только к отдельным категориям пулов, признанным способными приносить устойчивый протокольный доход. Тот же пакет голосований объединяет и операционные пункты — настройки комиссий для новых и расширяющихся сетей, таких как Robinhood Chain, Avalanche, XLayer, MegaETH и Soneium, а также обновления мостовой инфраструктуры, — что показывает, что Uniswap одновременно преследует мультичейн-расширение и монетизацию.</p>
+<p class="zh">此次Snapshot投票將UNIfication的架構——對特定資金池收取協議費用，並將所得用於回購並銷毀UNI——擴展至v4流動性池。Uniswap Labs於7月7日開放投票，經過五天後約93%的投票支持，確認了壓倒性的支持度。Snapshot投票本身不具法律效力，僅是意見蒐集的步驟，仍須另行通過一項鏈上治理提案，變更才會正式生效。根據The Coin Republic報導，這項具約束力的鏈上投票預計自7月13日當週起分階段推出。</p>
+<p class="zh">值得注意的是，此措施並非無差別適用於「所有v4資金池」。治理文件明確指出，費用僅適用於被認定能產生可持續協議收入的特定資金池類別。同一批投票也包含了營運性事項——為Robinhood Chain、Avalanche、XLayer、MegaETH與Soneium等新興及擴張中鏈設定費用，以及橋接基礎設施的更新——顯示Uniswap正同時推進多鏈擴張與變現。</p>
 
 <h2 class="ko">수수료 스위치는 어떻게 작동하나</h2>
 <h2 class="en">How the Fee Switch Actually Works</h2>
@@ -48,6 +68,11 @@
 <h2 class="pt">Como o interruptor de taxas realmente funciona</h2>
 <h2 class="tr">Ücret anahtarı gerçekte nasıl çalışır</h2>
 <h2 class="vi">Công tắc phí thực sự hoạt động như thế nào</h2>
+<h2 class="id">Bagaimana Sebenarnya Cara Kerja Fee Switch</h2>
+<h2 class="pl">Jak Naprawdę Działa Przełącznik Opłat</h2>
+<h2 class="it">Come Funziona Davvero l'Interruttore delle Commissioni</h2>
+<h2 class="ru">Как на Самом Деле Работает Комиссионный Переключатель</h2>
+<h2 class="zh">費用開關實際上如何運作</h2>
 
 <p class="ko">자동화 시장조성자(AMM)에서 거래 수수료는 원래 유동성을 공급한 LP(유동성 공급자)에게 전액 돌아간다. '수수료 스위치'란 이 중 일부를 프로토콜(즉 UNI 보유자 전체)이 가져가도록 별도 경로를 여는 장치를 말한다. v2·v3에서는 이 스위치를 켜려면 사실상 거버넌스가 매번 컨트랙트 파라미터를 조정해야 했지만, v4는 애초에 '훅(hook)' 아키텍처로 설계돼 재배포 없이도 풀 단위로 수수료를 켜고 끌 수 있다.</p>
 <p class="ko">구체적으로는 세 개 컨트랙트가 맞물려 작동한다. V4FeePolicy가 특정 풀에 적용할 수수료율을 결정하고, V4FeeAdapter가 그 규칙이 실제로 지켜지는지 강제하며 걷힌 수수료를 TokenJar 컨트랙트로 보낸다. TokenJar에 모인 자금이 공개시장에서 UNI를 매입해 소각하는 주체다. 이 구조 덕분에 거버넌스는 매번 스마트컨트랙트를 새로 배포하지 않고도 투표만으로 수수료율과 대상 풀을 조정할 수 있어, 운영 유연성과 감사 가능성을 동시에 확보한다.</p>
@@ -67,6 +92,16 @@
 <p class="tr">Mekanik olarak üç sözleşme birlikte çalışıyor. V4FeePolicy belirli bir havuza uygulanacak ücret oranına karar veriyor; V4FeeAdapter bu kuralın fiilen uygulanmasını sağlıyor ve toplanan ücreti TokenJar adlı bir sözleşmeye yönlendiriyor; TokenJar, biriken fonları açık piyasada UNI satın alıp yakmak için kullanan taraf. Bu yapı, yönetişimin her seferinde yeni akıllı sözleşmeler dağıtmadan, yalnızca oylama yoluyla ücret oranlarını ve kapsanan havuz kümesini ayarlamasına olanak tanıyor — hem operasyonel esneklik hem de daha kolay denetlenebilirlik kazandırıyor.</p>
 <p class="vi">Trong một nhà tạo lập thị trường tự động (AMM), phí giao dịch thông thường chảy toàn bộ về các nhà cung cấp thanh khoản (LP) — những người đã góp vốn cho pool. Một "công tắc phí" mở ra một kênh riêng, chuyển hướng một phần phí đó về cho chính giao thức — trên thực tế là cho toàn bộ những người nắm giữ UNI. Ở v2 và v3, việc bật công tắc này đòi hỏi quản trị phải điều chỉnh tham số hợp đồng theo từng trường hợp; còn v4 ngay từ đầu đã được xây dựng với kiến trúc "hooks", cho phép bật hoặc tắt phí theo từng pool mà không cần triển khai lại bất kỳ hợp đồng nào.</p>
 <p class="vi">Về mặt cơ chế, ba hợp đồng phối hợp hoạt động cùng nhau. V4FeePolicy quyết định mức phí áp dụng cho một pool cụ thể; V4FeeAdapter đảm bảo quy tắc đó thực sự được tuân thủ và chuyển phí thu được đến một hợp đồng có tên TokenJar; TokenJar là bên sử dụng số tiền tích lũy để mua UNI trên thị trường mở và đốt nó. Cấu trúc này cho phép quản trị điều chỉnh mức phí và tập hợp các pool được áp dụng chỉ thông qua bỏ phiếu, mà không cần triển khai lại hợp đồng thông minh mới mỗi lần — vừa đạt được sự linh hoạt vận hành vừa dễ kiểm toán hơn.</p>
+<p class="id">Pada automated market maker (AMM), biaya perdagangan biasanya sepenuhnya mengalir ke penyedia likuiditas (LP) yang menyetorkan modal pool tersebut. "Fee switch" membuka jalur terpisah yang mengalihkan sebagian biaya itu ke protokol itu sendiri — pada praktiknya, ke seluruh pemegang UNI. Pada v2 dan v3, mengaktifkan switch ini mengharuskan tata kelola menyesuaikan parameter kontrak satu per satu; v4 sejak awal dibangun dengan arsitektur "hooks" yang memungkinkan biaya dinyalakan atau dimatikan per pool tanpa perlu men-deploy ulang kontrak apa pun.</p>
+<p class="id">Secara mekanis, tiga kontrak bekerja bersamaan. V4FeePolicy menentukan tarif biaya yang berlaku untuk pool tertentu; V4FeeAdapter memastikan aturan itu benar-benar dipatuhi dan mengarahkan biaya yang terkumpul ke kontrak bernama TokenJar; TokenJar adalah entitas yang menggunakan dana yang terkumpul untuk membeli UNI di pasar terbuka dan membakarnya. Struktur ini memungkinkan tata kelola menyesuaikan tarif biaya dan kumpulan pool yang tercakup hanya melalui pemungutan suara, tanpa perlu men-deploy ulang smart contract baru setiap kali — memberikan fleksibilitas operasional sekaligus kemudahan audit.</p>
+<p class="pl">W automatycznym animatorze rynku (AMM) opłaty transakcyjne normalnie trafiają w całości do dostawców płynności (LP), którzy wnieśli kapitał puli. „Przełącznik opłat” otwiera osobny kanał, który przekierowuje część tej opłaty do samego protokołu — czyli, w praktyce, do wszystkich posiadaczy UNI. W v2 i v3 przełączenie tego mechanizmu wymagało od zarządu dostosowywania parametrów kontraktu za każdym razem osobno; v4 od początku zbudowano z architekturą „hooks”, która pozwala włączać lub wyłączać opłaty dla poszczególnych puli bez ponownego wdrażania jakiegokolwiek kontraktu.</p>
+<p class="pl">Mechanicznie działają razem trzy kontrakty. V4FeePolicy decyduje o stawce opłaty obowiązującej dla danej puli; V4FeeAdapter egzekwuje faktyczne przestrzeganie tej zasady i przekazuje pobraną opłatę do kontraktu o nazwie TokenJar; TokenJar to podmiot, który wykorzystuje zgromadzone środki do kupowania UNI na otwartym rynku i spalania go. Ta struktura pozwala zarządowi dostosowywać stawki opłat i zestaw objętych pul wyłącznie w drodze głosowania, bez konieczności ponownego wdrażania nowych smart kontraktów za każdym razem — zyskując zarówno elastyczność operacyjną, jak i łatwiejszą audytowalność.</p>
+<p class="it">In un market maker automatizzato (AMM), le commissioni di trading normalmente confluiscono interamente ai fornitori di liquidità (LP) che hanno fornito il capitale del pool. Un «interruttore delle commissioni» apre un canale separato che devia una parte di quella commissione verso il protocollo stesso — in pratica, verso tutti i possessori di UNI. In v2 e v3, azionare questo interruttore richiedeva che la governance regolasse i parametri del contratto caso per caso; v4 è stato costruito fin dall'inizio con un'architettura a «hooks» che consente di attivare o disattivare le commissioni pool per pool senza ridistribuire alcun contratto.</p>
+<p class="it">Meccanicamente, tre contratti agiscono in sinergia. V4FeePolicy decide il tasso di commissione applicabile a un determinato pool; V4FeeAdapter fa rispettare effettivamente questa regola e instrada la commissione raccolta verso un contratto chiamato TokenJar; TokenJar è l'entità che utilizza i fondi accumulati per acquistare UNI sul mercato aperto e bruciarlo. Questa struttura consente alla governance di regolare i tassi delle commissioni e l'insieme dei pool coperti unicamente tramite voto, senza dover ridistribuire nuovi smart contract ogni volta — guadagnando sia flessibilità operativa sia una maggiore facilità di audit.</p>
+<p class="ru">В автоматизированном маркет-мейкере (AMM) торговые комиссии обычно полностью поступают поставщикам ликвидности (LP), предоставившим капитал пула. «Комиссионный переключатель» открывает отдельный канал, перенаправляющий часть этой комиссии самому протоколу — то есть, по сути, всем держателям UNI совместно. В v2 и v3 включение этого переключателя требовало от управления каждый раз отдельно корректировать параметры контракта; v4 изначально был построен на архитектуре «hooks», позволяющей включать и выключать комиссии по каждому пулу отдельно без повторного развёртывания какого-либо контракта.</p>
+<p class="ru">Механически совместно работают три контракта. V4FeePolicy определяет ставку комиссии, применимую к конкретному пулу; V4FeeAdapter обеспечивает фактическое соблюдение этого правила и направляет собранную комиссию в контракт под названием TokenJar; TokenJar — это сущность, которая использует накопленные средства для покупки UNI на открытом рынке и его сжигания. Такая структура позволяет управлению регулировать ставки комиссий и набор охватываемых пулов исключительно голосованием, без повторного развёртывания новых смарт-контрактов каждый раз, обеспечивая одновременно операционную гибкость и более простую проверяемость.</p>
+<p class="zh">在自動化做市商(AMM)中，交易費用通常全數歸提供資金池資本的流動性提供者(LP)所有。「費用開關」開啟了一條獨立通道，將部分費用轉向協議本身——實際上等於轉向全體UNI持有者。在v2與v3中，開啟此開關需要治理方逐案調整合約參數；而v4從一開始就採用「hooks」架構打造，能在不重新部署任何合約的情況下，逐個資金池地開啟或關閉費用。</p>
+<p class="zh">機制上，三個合約協同運作。V4FeePolicy決定適用於特定資金池的費率；V4FeeAdapter確保該規則確實被遵守，並將收取的費用導向名為TokenJar的合約；TokenJar則是利用累積資金在公開市場買入UNI並將其銷毀的實體。這種架構讓治理方僅透過投票即可調整費率與涵蓋的資金池範圍，而無需每次都重新部署新的智能合約——同時兼顧了營運彈性與更易於稽核的特性。</p>
 
 <h2 class="ko">유니스왑의 오랜 수수료 스위치 공방 — 과거와 달라진 것</h2>
 <h2 class="en">Uniswap's Long Fee-Switch Saga — What's Different Now</h2>
@@ -77,6 +112,11 @@
 <h2 class="pt">A longa saga do interruptor de taxas da Uniswap — o que é diferente agora</h2>
 <h2 class="tr">Uniswap'in uzun ücret anahtarı destanı — şimdi ne farklı</h2>
 <h2 class="vi">Câu chuyện dài về công tắc phí của Uniswap — điều gì khác biệt bây giờ</h2>
+<h2 class="id">Kisah Panjang Fee Switch Uniswap — Apa yang Berbeda Sekarang</h2>
+<h2 class="pl">Długa Saga Uniswap z Przełącznikiem Opłat — Co Jest Teraz Inne</h2>
+<h2 class="it">La Lunga Saga di Uniswap sull'Interruttore delle Commissioni — Cosa È Diverso Ora</h2>
+<h2 class="ru">Долгая Сага Uniswap с Комиссионным Переключателем — Что Изменилось Сейчас</h2>
+<h2 class="zh">Uniswap費用開關的漫長爭議——現在有何不同</h2>
 
 <p class="ko">사실 '수수료 스위치'는 유니스왑에서 전혀 새로운 화두가 아니다. 유니스왑 랩스는 2022~2023년에도 v2·v3 풀에 프로토콜 수수료를 부과하는 방안을 논의했지만, 그 수익이 UNI 보유자에게 분배될 경우 미국 증권법상 배당에 가까운 성격으로 해석돼 UNI 자체가 증권으로 간주될 위험이 있다는 법률 자문 때문에 수년간 실행이 보류됐다. 당시 논쟁은 디파이 업계 전반에 "토큰 보유자에게 현금흐름을 직접 귀속시키면 안 된다"는 보수적 관행을 남겼다.</p>
 <p class="ko">지금 상황이 달라진 배경에는 두 흐름이 있다. 첫째, 하이퍼리퀴드·에이브·팬케이크스왑 등 경쟁 프로토콜이 이미 실적 기반 바이백·소각을 실행에 옮기며 "토큰 보유자 가치 환원"이 디파이의 표준 플레이북으로 자리 잡았다. 둘째, SEC가 스타트업 자금조달과 디파이 활동에 안전항(세이프하버)을 부여하는 '레귤레이션 크립토' 규정을 이달 발의할 예정이라고 예고하는 등, 규제 환경 자체가 2022년보다 우호적으로 바뀌었다는 판단이 깔려 있다. 다만 이는 유니스왑 거버넌스의 판단일 뿐, 실제 규제 리스크가 사라졌다는 뜻은 아니다.</p>
@@ -96,6 +136,16 @@
 <p class="tr">İki gelişme, hesaplamanın şimdi neden farklı göründüğünü açıklıyor. Birincisi, Hyperliquid, Aave, PancakeSwap gibi rakip protokoller gelir kaynaklı geri alım ve yakımları çoktan canlı olarak uygulamaya koydu ve "token sahiplerine değer iade etmeyi" yeni bir sorumluluk riski olmaktan çıkarıp standart bir DeFi el kitabı haline getirdi. İkincisi, Uniswap yönetişimi, SEC'in bu ay startup finansmanı ve DeFi faaliyeti için "Regulation Crypto" güvenli liman kuralını önermeyi planladığına işaret ederek, düzenleyici ortamın 2022'den bu yana ısındığına bahis oynuyor gibi görünüyor. Ancak bu, Uniswap yönetişiminin bir değerlendirmesidir — altta yatan hukuki riskin gerçekten ortadan kalktığının kanıtı değildir.</p>
 <p class="vi">"Công tắc phí" hoàn toàn không phải là chủ đề mới đối với Uniswap. Uniswap Labs từng thảo luận về việc thu phí giao thức trên các pool v2 và v3 từ năm 2022-2023, nhưng việc thực thi đã bị gác lại trong nhiều năm theo lời khuyên pháp lý rằng việc phân phối doanh thu đó cho người nắm giữ UNI có thể giống với cổ tức theo luật chứng khoán, làm tăng nguy cơ chính UNI bị coi là chứng khoán. Cuộc tranh luận trước đây đó đã để lại cho phần lớn ngành DeFi một thói quen thận trọng: không để dòng tiền tích lũy trực tiếp cho người nắm giữ token.</p>
 <p class="vi">Hai thay đổi giải thích tại sao phép tính giờ đây trông khác đi. Thứ nhất, các giao thức đối thủ — Hyperliquid, Aave, PancakeSwap — đã đưa việc mua lại và đốt token được tài trợ bằng doanh thu vào vận hành thực tế, biến việc "trả lại giá trị cho người nắm giữ token" thành một chiến lược chuẩn mực của DeFi thay vì một rủi ro mới lạ. Thứ hai, quản trị của Uniswap dường như đang đặt cược rằng bản thân môi trường pháp lý đã trở nên thân thiện hơn kể từ năm 2022, khi chỉ ra kế hoạch của SEC đề xuất quy tắc bến đỗ an toàn "Regulation Crypto" trong tháng này cho việc gọi vốn khởi nghiệp và hoạt động DeFi. Tuy nhiên, đây chỉ là một nhận định của quản trị Uniswap — không phải bằng chứng cho thấy rủi ro pháp lý nền tảng đã thực sự biến mất.</p>
+<p class="id">"Fee switch" bukanlah topik baru bagi Uniswap. Uniswap Labs sudah membahas pengenaan biaya protokol pada pool v2 dan v3 sejak 2022–2023, tetapi pelaksanaannya ditunda selama bertahun-tahun atas saran hukum bahwa mendistribusikan pendapatan tersebut kepada pemegang UNI dapat menyerupai dividen menurut hukum sekuritas, sehingga meningkatkan risiko UNI sendiri dianggap sebagai sekuritas. Perdebatan sebelumnya itu meninggalkan kebiasaan konservatif di sebagian besar DeFi: jangan biarkan arus kas mengalir langsung ke pemegang token.</p>
+<p class="id">Dua perubahan menjelaskan mengapa perhitungannya kini tampak berbeda. Pertama, protokol pesaing — Hyperliquid, Aave, PancakeSwap — sudah menjalankan buyback dan pembakaran yang didanai pendapatan secara aktif, menjadikan "mengembalikan nilai kepada pemegang token" sebagai praktik standar DeFi, bukan lagi risiko baru. Kedua, tata kelola Uniswap tampaknya bertaruh bahwa iklim regulasi sendiri telah membaik sejak 2022, dengan merujuk pada rencana SEC untuk mengusulkan aturan safe harbor "Regulation Crypto" bulan ini bagi penggalangan dana startup dan aktivitas DeFi. Namun, itu hanyalah penilaian dari tata kelola Uniswap — bukan bukti bahwa risiko hukum yang mendasarinya benar-benar telah hilang.</p>
+<p class="pl">„Przełącznik opłat” wcale nie jest dla Uniswap nowym tematem. Uniswap Labs dyskutowało o pobieraniu opłat protokołu z puli v2 i v3 już w latach 2022–2023, ale wdrożenie odłożono na lata na podstawie porady prawnej, że dystrybucja tych przychodów wśród posiadaczy UNI mogłaby przypominać dywidendę w rozumieniu prawa papierów wartościowych, zwiększając ryzyko, że sam UNI zostałby uznany za papier wartościowy. Ten wcześniejszy spór pozostawił w większości DeFi ostrożny nawyk: nie pozwalać, by przepływy pieniężne trafiały bezpośrednio do posiadaczy tokenów.</p>
+<p class="pl">Dwie zmiany tłumaczą, dlaczego kalkulacja wygląda teraz inaczej. Po pierwsze, konkurencyjne protokoły — Hyperliquid, Aave, PancakeSwap — już wprowadziły w życie odkupy i spalania finansowane z przychodów, czyniąc „zwracanie wartości posiadaczom tokenów” standardową praktyką DeFi, a nie nowym ryzykiem. Po drugie, zarząd Uniswap wydaje się zakładać, że sam klimat regulacyjny ocieplił się od 2022 roku, wskazując na plan SEC dotyczący zaproponowania w tym miesiącu zasady bezpiecznej przystani „Regulation Crypto” dla pozyskiwania kapitału przez startupy i działalności DeFi. Jest to jednak ocena samego zarządu Uniswap — a nie dowód, że leżące u podstaw ryzyko prawne rzeczywiście zniknęło.</p>
+<p class="it">Un «interruttore delle commissioni» non è affatto un argomento nuovo per Uniswap. Uniswap Labs aveva già discusso l'addebito di commissioni di protocollo sui pool v2 e v3 già nel 2022-2023, ma l'esecuzione era stata accantonata per anni su consiglio legale, secondo cui distribuire quei ricavi ai possessori di UNI avrebbe potuto assomigliare a un dividendo ai sensi del diritto dei titoli, aumentando il rischio che UNI stesso venisse considerato un titolo. Quella disputa precedente ha lasciato a gran parte della DeFi un'abitudine prudente: non lasciare che il flusso di cassa maturi direttamente a favore dei possessori di token.</p>
+<p class="it">Due cambiamenti spiegano perché il calcolo appare ora diverso. Primo, protocolli rivali — Hyperliquid, Aave, PancakeSwap — hanno già messo in funzione riacquisti e burn finanziati dalle entrate, trasformando «restituire valore ai possessori di token» in una prassi standard della DeFi anziché in un rischio inedito. Secondo, la governance di Uniswap sembra scommettere che il clima normativo stesso si sia ammorbidito dal 2022, facendo riferimento al piano della SEC di proporre questo mese la sua regola di safe harbor «Regulation Crypto» per la raccolta fondi delle startup e l'attività DeFi. Si tratta tuttavia di una valutazione della governance di Uniswap, non della prova che il rischio legale di fondo sia effettivamente scomparso.</p>
+<p class="ru">«Комиссионный переключатель» отнюдь не новая тема для Uniswap. Uniswap Labs обсуждала взимание протокольных комиссий с пулов v2 и v3 ещё в 2022–2023 годах, но реализация откладывалась годами по юридическому совету о том, что распределение этой выручки среди держателей UNI могло бы напоминать дивиденд по законодательству о ценных бумагах, повышая риск того, что сам UNI будет признан ценной бумагой. Тот прежний спор оставил у большей части DeFi консервативную привычку: не допускать, чтобы денежный поток напрямую накапливался у держателей токенов.</p>
+<p class="ru">Две перемены объясняют, почему расчёт сейчас выглядит иначе. Во-первых, конкурирующие протоколы — Hyperliquid, Aave, PancakeSwap — уже реализовали в реальной эксплуатации обратные выкупы и сжигания, финансируемые за счёт выручки, превратив «возврат стоимости держателям токенов» в стандартную практику DeFi, а не новый риск. Во-вторых, управление Uniswap, судя по всему, делает ставку на то, что сам регуляторный климат потеплел с 2022 года, указывая на план SEC предложить в этом месяце правило безопасной гавани «Regulation Crypto» для привлечения финансирования стартапами и деятельности DeFi. Однако это лишь оценка со стороны управления Uniswap, а не доказательство того, что лежащий в основе юридический риск действительно исчез.</p>
+<p class="zh">「費用開關」對Uniswap而言絕非新話題。Uniswap Labs早在2022至2023年就曾討論過對v2與v3資金池徵收協議費用，但基於法律建議，執行被擱置多年，理由是若將該收入分配給UNI持有者，可能被視為類似證券法下的股利，進而提高UNI本身被認定為證券的風險。當年的爭論在DeFi產業中留下了一種保守的習慣：不讓現金流直接歸屬於代幣持有者。</p>
+<p class="zh">兩項轉變說明了為何現在的算計看起來不同。首先，Hyperliquid、Aave、PancakeSwap等競爭協議已經將由收入資助的回購與銷毀付諸實際運行，使「將價值回饋給代幣持有者」成為DeFi的標準做法，而非新型風險。其次，Uniswap治理層似乎正押注監管氛圍自2022年以來已有所回暖，並指出SEC計畫於本月提出「Regulation Crypto」安全港規則，適用於新創募資與DeFi活動。然而，這僅是Uniswap治理層的一項判斷——並非證明其背後的法律風險已真正消失。</p>
 
 <h2 class="ko">반론 — 소각이 곧 상승은 아니고, 증권성 논쟁은 오히려 커질 수 있다</h2>
 <h2 class="en">The Counterargument — Burning Doesn't Guarantee a Rally, and the Securities Debate May Get Louder</h2>
@@ -106,6 +156,11 @@
 <h2 class="pt">O contra-argumento — queimar não garante alta, e o debate sobre valor mobiliário pode se intensificar</h2>
 <h2 class="tr">Karşı argüman — yakım bir yükselişi garanti etmez ve menkul kıymet tartışması daha da yükselebilir</h2>
 <h2 class="vi">Quan điểm phản biện — đốt token không đảm bảo tăng giá, và tranh luận về tính chất chứng khoán có thể càng gay gắt hơn</h2>
+<h2 class="id">Argumen Tandingan — Pembakaran Tidak Menjamin Kenaikan Harga, dan Perdebatan Sekuritas Bisa Semakin Keras</h2>
+<h2 class="pl">Kontrargument — Spalanie Nie Gwarantuje Wzrostu, a Debata o Statusie Papieru Wartościowego Może Się Zaostrzyć</h2>
+<h2 class="it">La Controargomentazione — Bruciare Non Garantisce un Rally, e il Dibattito sui Titoli Potrebbe Intensificarsi</h2>
+<h2 class="ru">Контраргумент — Сжигание Не Гарантирует Ралли, а Спор о Статусе Ценной Бумаги Может Обостриться</h2>
+<h2 class="zh">反方論點——銷毀不保證上漲，證券性爭議恐將加劇</h2>
 
 <p class="ko">소각은 유통량을 줄이는 조치일 뿐, 수요가 뒷받침되지 않으면 가격 상승을 보장하지 않는다. 자사주 매입이 항상 주가를 밀어올리지 않는 것과 같은 이치로, TokenJar가 실제로 얼마나 많은 UNI를 사들일지는 v4 풀의 거래량과 수수료율에 달려 있으며, 두 변수 모두 예측하기 어렵다. 12월 유니피케이션 통과 이후 실제 소각 규모와 UNI 가격 흐름을 비교해 보면, 소각 발표 자체보다 이후 실제 집행 속도가 가격에 더 큰 영향을 미쳤다는 점도 함께 짚어야 한다.</p>
 <p class="ko">더 구조적인 반론은 증권성 논쟁이다. 거버넌스 투표로 프로토콜 수익을 토큰 보유자에게 귀속시키는 메커니즘을 명시적으로 확정할수록, "타인의 노력(DAO의 수수료 결정)으로부터 발생하는 이익을 기대하고 자산을 매수했는가"라는 하위 테스트(Howey Test)의 핵심 요건에 가까워진다는 지적이 나온다. SEC의 '레귤레이션 크립토'가 이런 가치 환원형 토큰까지 안전항으로 포섭할지는 아직 확정되지 않았으므로, 이번 결정이 유니스왑에 유리하게만 작용할지는 온체인 표결 이후에도 계속 지켜봐야 할 변수다.</p>
@@ -125,6 +180,16 @@
 <p class="tr">Daha yapısal itiraz, menkul kıymet statüsüyle ilgili. Eleştirmenlere göre, bir yönetişim oylaması protokol gelirini token sahiplerine yönlendiren bir mekanizmayı ne kadar açıkça kodlarsa, UNI, Howey Testi'nin temel unsurunu — alıcının kârı "başkalarının çabasından", bu durumda DAO'nun ücret belirleme kararlarından bekleyip beklemediğini — karşılamaya o kadar yaklaşıyor. SEC'in gelecekteki "Regulation Crypto" güvenli limanının bu tür bir değer biriktiren tokeni gerçekten kapsayıp kapsamayacağı hâlâ çözülmüş değil; dolayısıyla bu kararın nihayetinde Uniswap'in lehine işleyip işlemeyeceği, zincir üstü oylama sonucunun çok ötesinde izlenmesi gereken bir değişken.</p>
 <p class="vi">Đốt token chỉ làm giảm nguồn cung lưu hành; nếu không có nhu cầu đi kèm, điều đó không tự động đảm bảo giá cao hơn — cùng logic áp dụng cho việc doanh nghiệp mua lại cổ phiếu, vốn không phải lúc nào cũng đẩy giá cổ phiếu lên. TokenJar thực sự mua bao nhiêu UNI phụ thuộc vào khối lượng giao dịch trên v4 và mức phí được áp dụng, và cả hai biến số này đều khó dự đoán. Cũng đáng để so sánh tốc độ đốt token thực tế kể từ khi UNIfication được thông qua vào tháng 12 với diễn biến giá của UNI: tốc độ thực thi thực tế sau đó dường như có tác động đến giá lớn hơn so với bản thân thông báo.</p>
 <p class="vi">Phản biện mang tính cấu trúc hơn liên quan đến tình trạng chứng khoán. Các nhà phê bình lập luận rằng một cuộc bỏ phiếu quản trị càng mã hóa rõ ràng một cơ chế đưa doanh thu giao thức đến người nắm giữ token, thì UNI càng tiến gần hơn đến việc thỏa mãn yếu tố cốt lõi của Bài kiểm tra Howey — liệu người mua có kỳ vọng lợi nhuận "từ nỗ lực của người khác" hay không, trong trường hợp này là các quyết định thiết lập phí của DAO. Liệu bến đỗ an toàn "Regulation Crypto" sắp tới của SEC có thực sự bao trùm loại token tích lũy giá trị này hay không vẫn chưa được giải quyết, vì vậy liệu quyết định này cuối cùng có có lợi cho Uniswap hay không là một biến số cần được theo dõi vượt xa kết quả của cuộc bỏ phiếu on-chain.</p>
+<p class="id">Pembakaran token hanya mengurangi pasokan yang beredar; tanpa permintaan di baliknya, hal itu saja tidak menjamin harga yang lebih tinggi — logika yang sama berlaku pada buyback saham korporasi, yang tidak selalu mengangkat harga saham. Seberapa banyak UNI yang benar-benar dibeli TokenJar bergantung pada volume perdagangan v4 dan tarif biaya yang diterapkan, dan kedua variabel itu sulit diprediksi. Perlu juga dibandingkan kecepatan pembakaran aktual sejak disahkannya UNIfication pada Desember dengan pergerakan harga UNI: laju eksekusi nyata setelahnya tampaknya lebih berpengaruh pada harga dibandingkan pengumuman itu sendiri.</p>
+<p class="id">Keberatan yang lebih struktural menyangkut status sekuritas. Semakin eksplisit sebuah pemungutan suara tata kelola mengkodifikasi mekanisme yang menyalurkan pendapatan protokol kepada pemegang token, menurut para kritikus, semakin dekat UNI memenuhi unsur inti Howey Test — apakah pembeli mengharapkan keuntungan "dari upaya pihak lain," dalam hal ini keputusan penetapan biaya oleh DAO. Apakah safe harbor "Regulation Crypto" SEC yang akan datang benar-benar mencakup jenis token akumulasi nilai semacam ini masih belum jelas, sehingga apakah keputusan ini pada akhirnya menguntungkan Uniswap adalah variabel yang perlu terus diamati jauh melampaui hasil pemungutan suara on-chain.</p>
+<p class="pl">Spalanie tokenów jedynie zmniejsza podaż w obiegu; bez odpowiedniego popytu samo to nie gwarantuje wyższej ceny — ta sama logika dotyczy korporacyjnych odkupów akcji, które nie zawsze podnoszą kurs. Ile UNI faktycznie kupi TokenJar, zależy od wolumenu obrotu na v4 i zastosowanej stawki opłaty, a obie te zmienne trudno przewidzieć. Warto też porównać tempo rzeczywistych spaleń od czasu przyjęcia UNIfication w grudniu z ruchem ceny UNI: tempo faktycznej realizacji wydaje się mieć większy wpływ na cenę niż samo ogłoszenie.</p>
+<p class="pl">Bardziej strukturalny zarzut dotyczy statusu papieru wartościowego. Im bardziej wyraźnie głosowanie zarządcze kodyfikuje mechanizm kierujący przychody protokołu do posiadaczy tokenów, twierdzą krytycy, tym bliżej UNI spełnienia kluczowego kryterium testu Howeya — czy nabywca oczekiwał zysku „z wysiłku innych osób”, w tym przypadku decyzji DAO dotyczących ustalania opłat. Czy nadchodząca zasada bezpiecznej przystani SEC „Regulation Crypto” rzeczywiście obejmie tego rodzaju token akumulujący wartość, pozostaje nierozstrzygnięte, więc to, czy ta decyzja ostatecznie wyjdzie na korzyść Uniswap, jest zmienną, którą trzeba obserwować daleko poza wynik głosowania on-chain.</p>
+<p class="it">Bruciare token riduce solo l'offerta in circolazione; senza domanda a sostenerla, ciò da solo non garantisce un prezzo più alto — la stessa logica che si applica ai riacquisti azionari societari, che non sempre fanno salire un titolo. Quanto UNI acquisti effettivamente TokenJar dipende dal volume di scambi su v4 e dal tasso di commissione applicato, ed entrambe le variabili sono difficili da prevedere. Vale anche la pena confrontare il ritmo dei burn effettivi da quando UNIfication è stato approvato a dicembre con l'andamento del prezzo di UNI: il ritmo dell'esecuzione reale successiva sembra aver contato più dell'annuncio stesso per il prezzo.</p>
+<p class="it">L'obiezione più strutturale riguarda lo status di titolo. Quanto più esplicitamente una votazione di governance codifica un meccanismo che incanala i ricavi di protocollo verso i possessori di token, sostengono i critici, tanto più UNI si avvicina a soddisfare l'elemento centrale del Test di Howey — se un acquirente si aspettasse profitto «dagli sforzi altrui», in questo caso le decisioni della DAO sulla fissazione delle commissioni. Se il futuro safe harbor «Regulation Crypto» della SEC coprirà effettivamente questo tipo di token ad accumulo di valore resta irrisolto, quindi se questa decisione finirà per favorire Uniswap è una variabile da osservare ben oltre l'esito della votazione on-chain.</p>
+<p class="ru">Сжигание токенов лишь сокращает обращающееся предложение; без спроса, стоящего за этим, само по себе оно не гарантирует более высокую цену — та же логика применима к корпоративным обратным выкупам акций, которые не всегда поднимают котировки. Сколько UNI на самом деле купит TokenJar, зависит от объёма торгов на v4 и применяемой ставки комиссии, и обе эти переменные трудно спрогнозировать. Стоит также сравнить темпы фактических сжиганий с момента принятия UNIfication в декабре с динамикой цены UNI: похоже, что темп реального исполнения впоследствии повлиял на цену сильнее, чем само объявление.</p>
+<p class="ru">Более структурное возражение касается статуса ценной бумаги. Чем более явно голосование по управлению закрепляет механизм, направляющий протокольную выручку держателям токенов, утверждают критики, тем ближе UNI подходит к удовлетворению ключевого критерия теста Хауи — ожидал ли покупатель прибыль «от усилий других лиц», в данном случае от решений DAO по установлению комиссий. Будет ли будущая безопасная гавань SEC «Regulation Crypto» фактически охватывать такой тип токена с накоплением стоимости, остаётся неясным, поэтому вопрос, окажется ли это решение в итоге выгодным для Uniswap, — переменная, за которой стоит следить далеко за пределами итогов ончейн-голосования.</p>
+<p class="zh">銷毀代幣僅會減少流通供給；若缺乏需求支撐，單靠銷毀並不保證價格上漲——這與企業股票回購的邏輯相同，回購並非總能推升股價。TokenJar實際會買入多少UNI，取決於v4的交易量與所適用的費率，而這兩個變數都難以預測。同時也值得將12月UNIfication通過以來的實際銷毀節奏，與UNI價格走勢加以比較：事後看來，實際執行的速度似乎比公告本身對價格的影響更大。</p>
+<p class="zh">更具結構性的質疑則關乎證券地位問題。批評者認為，治理投票越明確地將協議收入導向代幣持有者的機制予以成文化，UNI就越接近滿足豪威測試(Howey Test)的核心要件——即買方是否期待從「他人的努力」（此處指DAO的費率設定決策）中獲利。SEC即將推出的「Regulation Crypto」安全港是否真的會涵蓋這類價值累積型代幣，目前仍未有定論，因此這項決定最終是否對Uniswap有利，是一個需要在鏈上投票結果揭曉之後持續觀察的變數。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -396,6 +461,156 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Hasil pemungutan suara Snapshot fee switch Uniswap v4</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="26" font-weight="800">93%</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">dukungan Snapshot</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">100 Juta UNI</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">dibakar Desember lalu</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">5 chain</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">cakupan biaya baru</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">13 Jul~</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">voting on-chain mulai</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Hasil pemungutan suara Snapshot (7 - 12 Jul)</text>
+    <text x="20" y="226" fill="#a1a1aa" font-size="13">Mendukung</text>
+    <rect x="20" y="236" width="614" height="28" rx="6" fill="#06b6d4"/>
+    <text x="605" y="256" fill="#052e33" text-anchor="middle" font-size="13" font-weight="700">93%</text>
+    <text x="20" y="288" fill="#a1a1aa" font-size="13">Menolak / abstain</text>
+    <rect x="20" y="298" width="46" height="28" rx="6" fill="#3f3f46"/>
+    <text x="43" y="318" fill="#e4e4e7" text-anchor="middle" font-size="12" font-weight="700">7%</text>
+    <line x1="20" y1="344" x2="680" y2="344" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="368" fill="#f7931a" font-size="13.5" font-weight="700">Chain yang tercakup: Robinhood Chain, Avalanche, XLayer, MegaETH, Soneium dan lainnya</text>
+    <text x="20" y="388" fill="#52525b" font-size="12">Sumber: Cryptopolitan, The Block, The Coin Republic, Tata Kelola Uniswap (Agora)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Wyniki głosowania Snapshot ws. przełącznika opłat Uniswap v4</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="26" font-weight="800">93%</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">poparcie Snapshot</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">100 mln UNI</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">spalone w grudniu</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">5 łańcuchów</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">nowe pokrycie opłat</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">13 lip~</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">start głosowania on-chain</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Wynik Snapshot (7 - 12 lipca)</text>
+    <text x="20" y="226" fill="#a1a1aa" font-size="13">Za</text>
+    <rect x="20" y="236" width="614" height="28" rx="6" fill="#06b6d4"/>
+    <text x="605" y="256" fill="#052e33" text-anchor="middle" font-size="13" font-weight="700">93%</text>
+    <text x="20" y="288" fill="#a1a1aa" font-size="13">Przeciw / wstrzymanie się</text>
+    <rect x="20" y="298" width="46" height="28" rx="6" fill="#3f3f46"/>
+    <text x="43" y="318" fill="#e4e4e7" text-anchor="middle" font-size="12" font-weight="700">7%</text>
+    <line x1="20" y1="344" x2="680" y2="344" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="368" fill="#f7931a" font-size="13" font-weight="700">Objęte łańcuchy: Robinhood Chain, Avalanche, XLayer, MegaETH, Soneium i inne</text>
+    <text x="20" y="388" fill="#52525b" font-size="12">Źródła: Cryptopolitan, The Block, The Coin Republic, Zarząd Uniswap (Agora)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Risultati della votazione Snapshot sull'interruttore commissioni Uniswap v4</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="26" font-weight="800">93%</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">sostegno Snapshot</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="22" font-weight="800">100M UNI</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">bruciati a dicembre</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">5 catene</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">nuova copertura commissioni</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">13 lug~</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">inizio voto on-chain</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Risultato Snapshot (7 - 12 luglio)</text>
+    <text x="20" y="226" fill="#a1a1aa" font-size="13">A favore</text>
+    <rect x="20" y="236" width="614" height="28" rx="6" fill="#06b6d4"/>
+    <text x="605" y="256" fill="#052e33" text-anchor="middle" font-size="13" font-weight="700">93%</text>
+    <text x="20" y="288" fill="#a1a1aa" font-size="13">Contrario / astenuto</text>
+    <rect x="20" y="298" width="46" height="28" rx="6" fill="#3f3f46"/>
+    <text x="43" y="318" fill="#e4e4e7" text-anchor="middle" font-size="12" font-weight="700">7%</text>
+    <line x1="20" y1="344" x2="680" y2="344" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="368" fill="#f7931a" font-size="13" font-weight="700">Catene coperte: Robinhood Chain, Avalanche, XLayer, MegaETH, Soneium e altre</text>
+    <text x="20" y="388" fill="#52525b" font-size="12">Fonti: Cryptopolitan, The Block, The Coin Republic, Governance di Uniswap (Agora)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Результаты голосования Snapshot по комиссионному переключателю Uniswap v4</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="26" font-weight="800">93%</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">поддержка Snapshot</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">100 млн UNI</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">сожжено в декабре</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">5 сетей</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">добавлено новое покрытие</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="20" font-weight="800">13 июл~</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">начало ончейн-голосования</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Результат Snapshot (7 - 12 июля)</text>
+    <text x="20" y="226" fill="#a1a1aa" font-size="13">За</text>
+    <rect x="20" y="236" width="614" height="28" rx="6" fill="#06b6d4"/>
+    <text x="605" y="256" fill="#052e33" text-anchor="middle" font-size="13" font-weight="700">93%</text>
+    <text x="20" y="288" fill="#a1a1aa" font-size="13">Против / воздержались</text>
+    <rect x="20" y="298" width="46" height="28" rx="6" fill="#3f3f46"/>
+    <text x="43" y="318" fill="#e4e4e7" text-anchor="middle" font-size="12" font-weight="700">7%</text>
+    <line x1="20" y1="344" x2="680" y2="344" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="368" fill="#f7931a" font-size="13" font-weight="700">Охваченные сети: Robinhood Chain, Avalanche, XLayer, MegaETH, Soneium и другие</text>
+    <text x="20" y="388" fill="#52525b" font-size="12">Источники: Cryptopolitan, The Block, The Coin Republic, управление Uniswap (Agora)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Uniswap v4費用開關Snapshot投票結果</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="26" font-weight="800">93%</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">Snapshot支持率</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">1億枚UNI</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">去年12月銷毀量</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">5條鏈</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">新增費用涵蓋範圍</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="22" font-weight="800">7/13~</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">鏈上投票開始</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Snapshot投票結果 (7/7 ~ 7/12)</text>
+    <text x="20" y="226" fill="#a1a1aa" font-size="13">支持</text>
+    <rect x="20" y="236" width="614" height="28" rx="6" fill="#06b6d4"/>
+    <text x="605" y="256" fill="#052e33" text-anchor="middle" font-size="13" font-weight="700">93%</text>
+    <text x="20" y="288" fill="#a1a1aa" font-size="13">反對／棄權</text>
+    <rect x="20" y="298" width="46" height="28" rx="6" fill="#3f3f46"/>
+    <text x="43" y="318" fill="#e4e4e7" text-anchor="middle" font-size="12" font-weight="700">7%</text>
+    <line x1="20" y1="344" x2="680" y2="344" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="368" fill="#f7931a" font-size="13.5" font-weight="700">涵蓋鏈：Robinhood Chain、Avalanche、XLayer、MegaETH、Soneium等</text>
+    <text x="20" y="388" fill="#52525b" font-size="12">資料來源：Cryptopolitan、The Block、The Coin Republic、Uniswap治理(Agora)</text>
+  </g>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>시사점:</strong> 스냅샷에서 93% 지지를 얻었다고 해서 자동으로 시행되는 것은 아니다. 실제 관전 포인트는 (1) 온체인 구속 투표의 통과 여부와 시점, (2) TokenJar를 통한 실제 소각 규모, (3) SEC 레귤레이션 크립토가 이런 토큰 가치환원 구조를 어떻게 다룰지 세 가지다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> A 93% Snapshot approval does not mean the change takes effect automatically. The real things to watch are (1) whether and when the binding on-chain vote passes, (2) how much UNI TokenJar actually burns in practice, and (3) how the SEC's Regulation Crypto treats this kind of token value-accrual structure.</div>
@@ -406,6 +621,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> uma aprovação de 93% no Snapshot não significa que a mudança entre em vigor automaticamente. O que realmente importa observar é (1) se e quando a votação on-chain vinculante será aprovada, (2) quanto UNI o TokenJar realmente queima na prática, e (3) como a Regulation Crypto da SEC tratará esse tipo de estrutura de acumulação de valor do token.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> Snapshot'ta yüzde 93 onay almak, değişikliğin otomatik olarak yürürlüğe gireceği anlamına gelmiyor. Gerçekten izlenmesi gerekenler (1) bağlayıcı zincir üstü oylamanın kabul edilip edilmeyeceği ve ne zaman kabul edileceği, (2) TokenJar'ın pratikte fiilen ne kadar UNI yaktığı ve (3) SEC'in Regulation Crypto kuralının bu tür bir token değer biriktirme yapısını nasıl ele alacağıdır.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> được 93% ủng hộ trên Snapshot không có nghĩa là thay đổi tự động có hiệu lực. Những điều thực sự cần theo dõi là (1) liệu cuộc bỏ phiếu on-chain có tính ràng buộc có được thông qua hay không và khi nào, (2) TokenJar thực sự đốt bao nhiêu UNI trong thực tế, và (3) quy tắc Regulation Crypto của SEC sẽ xử lý loại cấu trúc tích lũy giá trị token này như thế nào.</div>
+<div class="box id">💡 <strong>Intinya:</strong> persetujuan 93% di Snapshot tidak berarti perubahan berlaku secara otomatis. Hal yang benar-benar perlu diperhatikan adalah (1) apakah dan kapan pemungutan suara on-chain yang mengikat akan disetujui, (2) seberapa banyak UNI yang benar-benar dibakar TokenJar dalam praktiknya, dan (3) bagaimana Regulation Crypto SEC memperlakukan struktur akumulasi nilai token semacam ini.</div>
+<div class="box pl">💡 <strong>Wniosek:</strong> 93-procentowe poparcie w Snapshot nie oznacza, że zmiana wejdzie w życie automatycznie. Naprawdę warto obserwować (1) czy i kiedy zostanie przyjęte wiążące głosowanie on-chain, (2) ile UNI TokenJar faktycznie spali w praktyce oraz (3) jak Regulation Crypto od SEC potraktuje tego rodzaju strukturę akumulacji wartości tokena.</div>
+<div class="box it">💡 <strong>Conclusione:</strong> un'approvazione del 93% su Snapshot non significa che il cambiamento entri automaticamente in vigore. Ciò che conta davvero osservare è (1) se e quando verrà approvata la votazione on-chain vincolante, (2) quanto UNI brucia effettivamente TokenJar nella pratica, e (3) come la Regulation Crypto della SEC tratterà questo tipo di struttura di accumulo di valore del token.</div>
+<div class="box ru">💡 <strong>Вывод:</strong> одобрение на 93% в Snapshot не означает, что изменение вступит в силу автоматически. Реально стоит следить за (1) тем, будет ли принято и когда обязывающее ончейн-голосование, (2) сколько UNI TokenJar фактически сжигает на практике, и (3) тем, как Regulation Crypto от SEC будет трактовать подобную структуру накопления стоимости токена.</div>
+<div class="box zh">💡 <strong>重點提示：</strong>在Snapshot獲得93%支持，並不代表變更會自動生效。真正需要關注的是（1）具約束力的鏈上投票是否會通過及何時通過、（2）TokenJar實際上會銷毀多少UNI、（3）SEC的Regulation Crypto將如何處理此類代幣價值累積結構。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 카옵톨리탄, 더블록, 더코인리퍼블릭, 유니스왑 거버넌스 포럼(Agora), 코인데스크(유니피케이션 배경)</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Cryptopolitan, The Block, The Coin Republic, Uniswap Governance Forum (Agora), CoinDesk (for UNIfication background)</p>
@@ -416,4 +636,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Cryptopolitan, The Block, The Coin Republic, Fórum de Governança da Uniswap (Agora), CoinDesk (para o contexto da UNIfication)</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Cryptopolitan, The Block, The Coin Republic, Uniswap Yönetişim Forumu (Agora), CoinDesk (UNIfication arka planı için)</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Cryptopolitan, The Block, The Coin Republic, Diễn đàn Quản trị Uniswap (Agora), CoinDesk (bối cảnh UNIfication)</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Cryptopolitan, The Block, The Coin Republic, Forum Tata Kelola Uniswap (Agora), CoinDesk (untuk latar belakang UNIfication)</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Cryptopolitan, The Block, The Coin Republic, Forum Zarządzania Uniswap (Agora), CoinDesk (kontekst UNIfication)</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Cryptopolitan, The Block, The Coin Republic, Forum di Governance di Uniswap (Agora), CoinDesk (per il contesto di UNIfication)</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Cryptopolitan, The Block, The Coin Republic, форум управления Uniswap (Agora), CoinDesk (справочная информация об UNIfication)</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：Cryptopolitan、The Block、The Coin Republic、Uniswap治理論壇(Agora)、CoinDesk（UNIfication背景資料）</p>
 <?php require __DIR__.'/_footer.php'; ?>
