@@ -202,10 +202,9 @@ $LOCALE_MAP = ['ko' => 'ko_KR', 'en' => 'en_US', 'ja' => 'ja_JP', 'es' => 'es_ES
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title><?= h($pageTitle) ?></title>
-<script>
-window.__ART_TITLE = <?= json_encode(array_combine(array_keys(SUPPORTED_LANGS), array_map(fn($lc)=>(($M['title_'.$lc] ?? $M['title_en']).' | BTCtiming.com'), array_keys(SUPPORTED_LANGS))), JSON_UNESCAPED_UNICODE) ?>;
-window.__ART_DESC = <?= json_encode(array_combine(array_keys(SUPPORTED_LANGS), array_map(fn($lc)=>($M['desc_'.$lc] ?? $M['desc_en']), array_keys(SUPPORTED_LANGS))), JSON_UNESCAPED_UNICODE) ?>;
-</script>
+<?php /* __ART_TITLE/__ART_DESC(14언어 title·desc JS 페이로드) 제거 — 단일언어 렌더 후 서버가 <title>·description 을
+        정확한 언어로 박고, 언어 전환은 Lpick 이 페이지를 이동(전체 재로드)하므로 클라이언트 갱신이 불필요.
+        _footer.php 의 L(l) 폴백 경로는 window.__ART_TITLE 존재 여부를 가드하므로 정의가 없어도 no-op. (gzip 절감) */ ?>
 <meta name="description" content="<?= h($pageDesc) ?>">
 <link rel="canonical" href="<?= h($canonical) ?>">
 <link rel="alternate" type="application/rss+xml" title="BTCtiming.com Blog RSS" href="https://btctiming.com/blog/rss.php<?= $lang === 'ko' ? '' : '?lang=' . h($lang) ?>">
@@ -603,11 +602,18 @@ echo implode(",\n", $__rules) . "{display:none}\n";
       'fr'=>['','janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'],
       'pt'=>['','jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'],
       'tr'=>['','Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'],
+      'id'=>['','Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'],
+      'pl'=>['','sty','lut','mar','kwi','maj','cze','lip','sie','wrz','paź','lis','gru'],
+      'it'=>['','gen','feb','mar','apr','mag','giu','lug','ago','set','ott','nov','dic'],
+      'ru'=>['','янв','фев','мар','апр','мая','июн','июл','авг','сен','окт','ноя','дек'],
     ];
     $__TZ = [
       'ko'=>['Asia/Seoul','KST'], 'ja'=>['Asia/Tokyo','JST'], 'en'=>['UTC','UTC'],
       'es'=>['Europe/Madrid',null], 'de'=>['Europe/Berlin',null], 'fr'=>['Europe/Paris',null],
       'pt'=>['America/Sao_Paulo','BRT'], 'tr'=>['Europe/Istanbul','TRT'], 'vi'=>['Asia/Ho_Chi_Minh','ICT'],
+      // ★ 2026-07-18: 새 5개 언어도 언어별 현지 타임존으로 (예전엔 맵에 없어 전부 UTC 폴백)
+      'id'=>['Asia/Jakarta','WIB'], 'pl'=>['Europe/Warsaw',null], 'it'=>['Europe/Rome',null],
+      'ru'=>['Europe/Moscow','MSK'], 'zh'=>['Asia/Taipei',null],
     ];
     foreach ($__langKeys as $__l):
       $__cfg = $__TZ[$__l] ?? $__TZ['en'];
@@ -615,6 +621,7 @@ echo implode(",\n", $__rules) . "{display:none}\n";
       $__Y=(int)$__dt->format('Y'); $__n=(int)$__dt->format('n'); $__j=(int)$__dt->format('j'); $__Hi=$__dt->format('H:i');
       if ($__l==='ko')      $__d = "{$__Y}년 {$__n}월 {$__j}일";
       elseif ($__l==='ja')  $__d = "{$__Y}年{$__n}月{$__j}日";
+      elseif ($__l==='zh')  $__d = "{$__Y}年{$__n}月{$__j}日";
       elseif ($__l==='en')  $__d = $__MON['en'][$__n]." {$__j}, {$__Y}";
       elseif ($__l==='de')  $__d = "{$__j}. ".$__MON['de'][$__n]." {$__Y}";
       elseif ($__l==='vi')  $__d = "{$__j} thg {$__n} {$__Y}";

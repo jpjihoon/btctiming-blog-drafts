@@ -675,12 +675,13 @@ $__combSource = array_diff_key($otherPool, $sameTop);
 uasort($__combSource, function($a, $b) use ($relScore){ $d = $relScore($b) - $relScore($a); return $d !== 0 ? $d : strcmp($b['date'] ?? '', $a['date'] ?? ''); });
 $__combItems = [];
 foreach (array_slice($__combSource, 0, 4, true) as $__rSlug => $__rA) {
+    // ★ 단일언어 렌더: 관련글 페이로드도 현재 언어 하나만 싣는다(14언어 전부 실으면 89% 낭비).
+    //   렌더러가 Object.keys(heads) 를 순회하므로, 한 언어만 넣으면 그 언어 요소만 생성됨.
+    $__L = $requestedLang;
     $__it = ['url' => i18nUrl('/blog/'.$__rSlug.'.php', $requestedLang), 't' => [], 'd' => []];
-    foreach (array_keys(SUPPORTED_LANGS) as $__L) {
-        $__it['t'][$__L] = $__rA["title_{$__L}"] ?? ($__rA['title_en'] ?? '');
-        $__dd = trim((string)($__rA["desc_{$__L}"] ?? ($__rA['desc_en'] ?? '')));
-        $__it['d'][$__L] = (mb_strlen($__dd) > 110) ? (mb_substr($__dd, 0, 110).'…') : $__dd;
-    }
+    $__it['t'][$__L] = $__rA["title_{$__L}"] ?? ($__rA['title_en'] ?? '');
+    $__dd = trim((string)($__rA["desc_{$__L}"] ?? ($__rA['desc_en'] ?? '')));
+    $__it['d'][$__L] = (mb_strlen($__dd) > 110) ? (mb_substr($__dd, 0, 110).'…') : $__dd;
     $__combItems[] = $__it;
 }
 $__combHeads2 = ['ko'=>'함께 보면 좋은 글','en'=>'Best Combined With','ja'=>'併せて見るべき記事','es'=>'Mejor Combinado Con','de'=>'Am besten kombiniert mit','fr'=>'À Combiner Avec','pt'=>'Melhor Combinado Com','tr'=>'En İyi Şununla Birlikte','vi'=>'Kết Hợp Tốt Nhất Với','id'=>'Paling Cocok Dengan','pl'=>'Najlepiej w połączeniu z','it'=>'Meglio Combinato Con','ru'=>'Лучше всего вместе с','zh'=>'最佳搭配閱讀'];
@@ -688,7 +689,8 @@ $__combEye  = ['ko'=>'이어서 읽기','en'=>'Read Next','ja'=>'次に読む','
 $__combNote = ['ko'=>'이 글과 연관성이 높은 글','en'=>'Closely related to this article','ja'=>'この記事と関連性の高い記事','es'=>'Muy relacionados con este artículo','de'=>'Eng verwandt mit diesem Artikel','fr'=>'Étroitement liés à cet article','pt'=>'Muito relacionados a este artigo','tr'=>'Bu yazıyla yakından ilgili','vi'=>'Liên quan chặt chẽ đến bài này','id'=>'Sangat terkait dengan artikel ini','pl'=>'Ściśle powiązane z tym artykułem','it'=>'Strettamente correlati a questo articolo','ru'=>'Тесно связано с этой статьёй','zh'=>'與本文高度相關的文章'];
 ?>
 <script>
-window.__combReads = <?= json_encode(['heads'=>$__combHeads2,'eyebrow'=>$__combEye,'note'=>$__combNote,'items'=>$__combItems], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;
+<?php $__cl = $requestedLang; ?>
+window.__combReads = <?= json_encode(['heads'=>[$__cl => $__combHeads2[$__cl] ?? $__combHeads2['en']],'eyebrow'=>[$__cl => $__combEye[$__cl] ?? $__combEye['en']],'note'=>[$__cl => $__combNote[$__cl] ?? $__combNote['en']],'items'=>$__combItems], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;
 (function(){
   var main=document.querySelector('.wrap-main'); if(!main||!window.__combReads) return;
   var data=window.__combReads; if(!data.items||!data.items.length) return;
