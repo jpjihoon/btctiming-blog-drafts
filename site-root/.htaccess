@@ -77,6 +77,8 @@ AddType text/plain .txt
 # /privacy, /terms → 내부적으로 .php가 응답 (URL은 그대로 유지)
 # (구 버전은 privacy.html로 301 리다이렉트했으나, .php 전환으로 rewrite 처리)
 RewriteEngine On
+# dedupe 301: citadel-securities-crypto-com-400m-institutional-round -> citadel-securities-crypto-com-400m-investment (ko + 13언어). 2026-07-19 자동 삽입
+RewriteRule ^((?:en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh)/)?blog/citadel-securities-crypto-com-400m-institutional-round/?$ /$1blog/citadel-securities-crypto-com-400m-investment [R=301,L]
 
 # www 접속을 www 없는 주소로 301 리다이렉트 (SEO 중복 방지).
 # canonical·사이트맵이 모두 www 없는 https://btctiming.com 기준이므로 통일한다.
