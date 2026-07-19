@@ -9,6 +9,11 @@
 <p class="pt">O fundador da Cardano, Charles Hoskinson, publicou um vídeo na sexta-feira, 10 de julho, negando rumores de que estaria se aposentando ou deixando o projeto, chamando as alegações de "uma fabricação completa". Cryptonews.com, BeInCrypto e Yellow.com noticiaram o desmentido. A ADA foi negociada naquele dia a US$ 0,1688, alta de 0,6% em 24 horas. Mas quase simultaneamente a esse vídeo de desmentido, Justin Bons, fundador da gestora cripto Cyber Capital, exigiu publicamente a remoção de Hoskinson, classificando seu plano de mover as discussões de governança do X para um servidor do Discord controlado por moderadores como "a gota d'água".</p>
 <p class="tr">Cardano'nun kurucusu Charles Hoskinson, 10 Temmuz Cuma günü yayımladığı bir videoda emekli olduğu ya da projeden ayrıldığı yönündeki söylentileri "tamamen uydurma" diyerek reddetti. Cryptonews.com, BeInCrypto ve Yellow.com bu yalanlamayı haberleştirdi. ADA o gün 24 saatte %0,6 yükselerek 0,1688 dolardan işlem gördü. Ancak bu yalanlama videosuyla neredeyse eş zamanlı olarak, kripto yatırım şirketi Cyber Capital'in kurucusu Justin Bons, Hoskinson'ın yönetişim tartışmalarını X'ten moderatör kontrolündeki bir Discord sunucusuna taşıma planını "son damla" olarak nitelendirip görevden alınmasını açıkça talep etti.</p>
 <p class="vi">Nhà sáng lập Cardano, Charles Hoskinson, đã đăng một video vào thứ Sáu, ngày 10/7, phủ nhận tin đồn rằng ông đang nghỉ hưu hoặc rời khỏi dự án, gọi những cáo buộc đó là "hoàn toàn bịa đặt". Cryptonews.com, BeInCrypto và Yellow.com đã đưa tin về lời phủ nhận này. ADA giao dịch ở mức 0,1688 đô la trong ngày hôm đó, tăng 0,6% trong 24 giờ. Nhưng gần như đồng thời với video phủ nhận đó, Justin Bons, nhà sáng lập công ty đầu tư crypto Cyber Capital, đã công khai đòi phế truất Hoskinson, gọi kế hoạch chuyển các cuộc thảo luận quản trị từ X sang một máy chủ Discord do người kiểm duyệt quản lý là "giọt nước tràn ly".</p>
+<p class="id">Pendiri Cardano, Charles Hoskinson, mengunggah video pada Jumat, 10 Juli, membantah rumor bahwa dirinya akan pensiun atau meninggalkan proyek tersebut, menyebut klaim itu sebagai 'rekayasa sepenuhnya.' Cryptonews.com, BeInCrypto, dan Yellow.com memberitakan bantahan tersebut. ADA diperdagangkan pada hari itu di $0,1688, naik 0,6% dalam 24 jam. Namun hampir bersamaan dengan video bantahan itu, Justin Bons, pendiri perusahaan investasi kripto Cyber Capital, secara terbuka menuntut pemecatan Hoskinson, menyebut rencananya memindahkan diskusi tata kelola dari X ke server Discord yang dikendalikan moderator sebagai 'titik puncak.'</p>
+<p class="pl">Założyciel Cardano, Charles Hoskinson, opublikował w piątek 10 lipca nagranie wideo, w którym zdementował plotki o rzekomym przejściu na emeryturę lub opuszczeniu projektu, nazywając te twierdzenia 'całkowitą fabrykacją.' Cryptonews.com, BeInCrypto i Yellow.com poinformowały o tym dementi. Tego dnia ADA była notowana po 0,1688 USD, co oznaczało wzrost o 0,6% w ciągu 24 godzin. Niemal równocześnie z tym nagraniem Justin Bons, założyciel funduszu inwestycyjnego Cyber Capital, publicznie zażądał odsunięcia Hoskinsona, nazywając jego plan przeniesienia dyskusji o zarządzaniu z X na serwer Discord kontrolowany przez moderatorów 'przysłowiową ostatnią kroplą.'</p>
+<p class="it">Il fondatore di Cardano, Charles Hoskinson, ha pubblicato un video venerdì 10 luglio smentendo le voci secondo cui si sarebbe ritirato o avrebbe lasciato il progetto, definendo le affermazioni 'una totale fabbricazione.' Cryptonews.com, BeInCrypto e Yellow.com hanno riportato la smentita. Quel giorno ADA veniva scambiato a 0,1688 dollari, in rialzo dello 0,6% nelle 24 ore. Ma quasi contemporaneamente a quel video di smentita, Justin Bons, fondatore della società di investimento in criptovalute Cyber Capital, ha chiesto pubblicamente la rimozione di Hoskinson, definendo il suo piano di spostare le discussioni sulla governance da X a un server Discord controllato da moderatori 'la goccia che ha fatto traboccare il vaso.'</p>
+<p class="ru">Основатель Cardano Чарльз Хоскинсон опубликовал в пятницу, 10 июля, видео, в котором опроверг слухи о своём выходе на пенсию или уходе из проекта, назвав эти утверждения «полной фабрикацией». Cryptonews.com, BeInCrypto и Yellow.com сообщили об этом опровержении. В тот день ADA торговалась по 0,1688 доллара, прибавив 0,6% за 24 часа. Но почти одновременно с этим видео-опровержением Джастин Бонс, основатель криптоинвестиционной компании Cyber Capital, публично потребовал отставки Хоскинсона, назвав его план перенести обсуждения по управлению из X на модерируемый сервер Discord «последней каплей».</p>
+<p class="zh">卡爾達諾(Cardano)創辦人查爾斯・霍斯金森(Charles Hoskinson)於7月10日(週五)發布影片,否認有關他將退休或離開該專案的傳言,稱這些說法為「徹頭徹尾的捏造」。Cryptonews.com、BeInCrypto及Yellow.com皆報導了此次澄清。當天ADA交易價為0.1688美元,24小時內上漲0.6%。然而幾乎在這支澄清影片發布的同時,加密貨幣投資公司Cyber Capital創辦人賈斯汀・邦斯(Justin Bons)公開要求罷免霍斯金森,並將他把治理討論從X遷移至由版主控管的Discord伺服器的計畫稱為「壓垮駱駝的最後一根稻草」。</p>
 
 <h2 class="ko">런던 택시기사에게까지 전해진 탈퇴설, 시작은 문맥 없는 클립들이었다</h2>
 <h2 class="en">How a Rumor Reached a London Cabbie — It Started With Clips Stripped of Context</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">Como um boato chegou a um taxista de Londres — tudo começou com trechos tirados de contexto</h2>
 <h2 class="tr">Bir Söylenti Londralı Bir Taksi Şoförüne Nasıl Ulaştı — Her Şey Bağlamından Koparılan Klip Parçalarıyla Başladı</h2>
 <h2 class="vi">Tin Đồn Lan Đến Cả Tài Xế Taxi London — Mọi Chuyện Bắt Đầu Từ Những Đoạn Clip Bị Cắt Khỏi Ngữ Cảnh</h2>
+<h2 class="id">Bagaimana Sebuah Rumor Sampai ke Telinga Sopir Taksi London — Semua Berawal dari Klip yang Dilepas dari Konteksnya</h2>
+<h2 class="pl">Jak Plotka Dotarła do Londyńskiego Taksówkarza — Wszystko Zaczęło Się od Klipów Wyrwanych z Kontekstu</h2>
+<h2 class="it">Come una Voce è Arrivata a un Tassista di Londra — È Iniziato Tutto con Clip Prive di Contesto</h2>
+<h2 class="ru">Как Слух Дошёл до Лондонского Таксиста — Всё Началось с Роликов, Вырванных из Контекста</h2>
+<h2 class="zh">謠言如何傳到倫敦計程車司機耳中——一切始於被斷章取義的片段</h2>
 
 <p class="ko">호스킨슨이 7월10일 밝힌 바에 따르면, 은퇴설은 몇 달에 걸쳐 문맥이 잘린 영상 조각들이 쌓이면서 커졌다. 새해 첫날 방송에서 그가 "X에서 벗어났다"고 말한 대목, "잠깐 쉴게. 나중에 봐"라는 짧은 X 게시물이 동영상 없이 스크린샷만 캡처돼 퍼진 일, 그리고 카르다노재단의 거버넌스 구조를 비판한 26분짜리 '개혁' 영상이 소재가 됐다. 이 26분 영상이 올라온 6월4일 ADA는 "생태계 실패의 물결"에 대한 경고와 맞물려 20센트 아래로 미끄러졌는데, 코인데스크가 당시 이를 "호스킨슨이 물러난 뒤"라는 표현으로 보도하면서 후속 오해에 불을 지폈다. 소문은 걷잡을 수 없이 퍼져 런던의 한 택시기사가 카르다노 지지자들에게 이 이야기를 전했고, 협력사 관계자들이 자사 최고경영자에게까지 같은 주장을 전달했을 정도였다.</p>
 <p class="en">As Hoskinson laid out on July 10, the exit rumor built up over months from a series of decontextualized clips. Material included a New Year's Day stream where he said he'd "outgrown X," a brief "I'm taking a break. TTYL" post on X that circulated as a screenshot without its accompanying video, and a 26-minute "reform" video criticizing the Cardano Foundation's governance structure. That 26-minute video landed on June 4, the same day ADA slid under 20 cents alongside his warning of a coming "wave of failures" — and CoinDesk's own coverage at the time, framed around Hoskinson "stepping away," helped fuel the misreading that followed. The rumor spread so widely that a London taxi driver relayed it to visiting Cardano supporters, and contacts at a partner firm passed the same claim on to their own chief executive.</p>
@@ -29,6 +39,11 @@
 <p class="pt">Como Hoskinson explicou em 10 de julho, o boato de saída se acumulou ao longo de meses a partir de uma série de trechos tirados de contexto. O material incluía uma transmissão de Ano Novo em que ele disse ter "superado o X", uma breve publicação no X dizendo "Vou dar uma pausa. Até mais" que circulou como captura de tela sem o vídeo que a acompanhava, e um vídeo de "reforma" de 26 minutos criticando a estrutura de governança da Cardano Foundation. Esse vídeo de 26 minutos foi ao ar em 4 de junho, no mesmo dia em que a ADA caiu abaixo de 20 centavos junto com seu aviso sobre uma "onda de fracassos" iminente — e a própria cobertura da CoinDesk na época, enquadrada em torno de Hoskinson "se afastando", alimentou a interpretação equivocada que se seguiu. O boato se espalhou tanto que um taxista de Londres o repassou a apoiadores da Cardano em visita, e contatos de uma empresa parceira transmitiram a mesma alegação a seu próprio executivo-chefe.</p>
 <p class="tr">Hoskinson'ın 10 Temmuz'da anlattığına göre, ayrılık söylentisi aylar boyunca bağlamından koparılmış bir dizi klip üzerine inşa edildi. Malzemeler arasında Yılbaşı yayınında "X'i aştım" dediği bir an, video eşlik etmeden ekran görüntüsü olarak dolaşan kısa bir "Ara veriyorum. Görüşürüz" X gönderisi ve Cardano Foundation'ın yönetişim yapısını eleştiren 26 dakikalık bir "reform" videosu vardı. Bu 26 dakikalık video, ADA'nın yaklaşan bir "başarısızlık dalgası" uyarısıyla birlikte 20 sentin altına düştüğü 4 Haziran'da yayınlandı — ve CoinDesk'in o dönemki haberi, Hoskinson'ın "geri çekildiği" çerçevesiyle sunularak sonraki yanlış anlamayı körükledi. Söylenti öylesine yayıldı ki Londralı bir taksi şoförü bunu ziyarete gelen Cardano destekçilerine aktardı ve bir ortak firmanın çalışanları aynı iddiayı kendi CEO'larına iletti.</p>
 <p class="vi">Như Hoskinson đã trình bày vào ngày 10/7, tin đồn rời đi được tích tụ qua nhiều tháng từ một loạt đoạn clip bị cắt khỏi ngữ cảnh. Tài liệu bao gồm một buổi livestream đêm Giao thừa nơi ông nói mình đã "trưởng thành vượt qua X", một bài đăng ngắn trên X "Tôi sẽ nghỉ một chút. Hẹn gặp lại sau" được lan truyền dưới dạng ảnh chụp màn hình không kèm video gốc, và một video "cải cách" dài 26 phút chỉ trích cấu trúc quản trị của Cardano Foundation. Video 26 phút đó xuất hiện vào ngày 4/6, cùng ngày ADA trượt xuống dưới 20 cent cùng với lời cảnh báo của ông về một "làn sóng thất bại" sắp tới — và chính bài đưa tin của CoinDesk vào thời điểm đó, được đóng khung xoay quanh việc Hoskinson "rút lui", đã tiếp thêm cho sự hiểu lầm sau đó. Tin đồn lan rộng đến mức một tài xế taxi ở London đã kể lại nó cho những người ủng hộ Cardano đang ghé thăm, và các đầu mối tại một công ty đối tác đã truyền cùng thông tin đó đến tận CEO của họ.</p>
+<p class="id">Seperti yang dijelaskan Hoskinson pada 10 Juli, rumor kepergiannya terbentuk selama berbulan-bulan dari serangkaian klip yang dilepaskan dari konteksnya. Materinya mencakup siaran Hari Tahun Baru di mana ia mengatakan telah 'melampaui X,' sebuah unggahan singkat 'Aku mau istirahat sebentar. Sampai jumpa' di X yang beredar sebagai tangkapan layar tanpa video pendampingnya, serta video 'reformasi' berdurasi 26 menit yang mengkritik struktur tata kelola Cardano Foundation. Video 26 menit itu muncul pada 4 Juni, hari yang sama ketika ADA melorot di bawah 20 sen bersamaan dengan peringatannya tentang 'gelombang kegagalan' yang akan datang — dan liputan CoinDesk sendiri saat itu, yang dibingkai seputar Hoskinson yang 'mengundurkan diri,' turut memicu kesalahpahaman yang muncul kemudian. Rumor itu menyebar begitu luas sehingga seorang sopir taksi di London menyampaikannya kepada pendukung Cardano yang berkunjung, dan kontak di sebuah perusahaan mitra meneruskan klaim yang sama kepada CEO mereka sendiri.</p>
+<p class="pl">Jak wyjaśnił Hoskinson 10 lipca, plotka o jego odejściu narastała miesiącami z serii klipów wyrwanych z kontekstu. Materiał obejmował transmisję z Nowego Roku, podczas której powiedział, że 'wyrósł z X', krótki post na X 'Robię sobie przerwę. Do zobaczenia', który krążył jako zrzut ekranu bez towarzyszącego mu nagrania wideo, oraz 26-minutowy film 'reformatorski' krytykujący strukturę zarządzania Cardano Foundation. Ten 26-minutowy film pojawił się 4 czerwca, tego samego dnia, gdy ADA spadła poniżej 20 centów wraz z jego ostrzeżeniem o nadchodzącej 'fali porażek' — a ówczesne relacje CoinDesk, ujęte wokół tego, że Hoskinson 'odsuwa się na bok', dodatkowo podsyciły błędną interpretację, która nastąpiła później. Plotka rozeszła się tak szeroko, że londyński taksówkarz przekazał ją odwiedzającym miasto zwolennikom Cardano, a kontakty w firmie partnerskiej przekazały to samo twierdzenie własnemu dyrektorowi generalnemu.</p>
+<p class="it">Come ha spiegato Hoskinson il 10 luglio, la voce sul suo addio si è accumulata nel corso di mesi a partire da una serie di clip private del contesto. Il materiale includeva uno streaming di Capodanno in cui affermava di aver 'superato X,' un breve post su X 'Mi prendo una pausa. Ci si sente' circolato come screenshot senza il video che lo accompagnava, e un video di 'riforma' di 26 minuti che criticava la struttura di governance della Cardano Foundation. Quel video di 26 minuti è arrivato il 4 giugno, lo stesso giorno in cui ADA è scivolato sotto i 20 centesimi insieme al suo avvertimento su una imminente 'ondata di fallimenti' — e la stessa copertura di CoinDesk dell'epoca, incentrata sul fatto che Hoskinson si stesse 'facendo da parte,' ha alimentato il fraintendimento che ne è seguito. La voce si è diffusa così ampiamente che un tassista londinese l'ha riferita a sostenitori di Cardano in visita, e contatti presso un'azienda partner hanno trasmesso la stessa affermazione al proprio amministratore delegato.</p>
+<p class="ru">Как объяснил Хоскинсон 10 июля, слух о его уходе накапливался месяцами из серии роликов, вырванных из контекста. Материал включал новогодний стрим, где он сказал, что «перерос X», короткий пост в X «Беру паузу. Увидимся», который распространялся в виде скриншота без сопровождающего видео, и 26-минутное «реформаторское» видео с критикой структуры управления Cardano Foundation. Это 26-минутное видео вышло 4 июня, в тот же день, когда ADA опустилась ниже 20 центов на фоне его предупреждения о приближающейся «волне провалов» — а собственный материал CoinDesk того времени, поданный вокруг того, что Хоскинсон «отходит от дел», подпитал последовавшее неверное толкование. Слух распространился настолько широко, что лондонский таксист пересказал его приезжим сторонникам Cardano, а контакты в партнёрской компании передали то же утверждение своему собственному генеральному директору.</p>
+<p class="zh">正如霍斯金森7月10日所解釋,退場謠言是在數月間由一系列被斷章取義的片段累積而成。相關素材包括:他在元旦直播中表示自己已「超越了X」;一則簡短的X貼文「我要休息一下,回頭聊」在流傳時只剩截圖、沒有附帶的影片;以及一支長達26分鐘、批評Cardano Foundation治理結構的「改革」影片。那支26分鐘影片於6月4日發布,同一天ADA伴隨他對即將到來的「失敗浪潮」的警告跌破20美分——而CoinDesk當時圍繞霍斯金森「退居幕後」所做的報導,也助長了隨後的誤讀。這則謠言傳播之廣,甚至有倫敦計程車司機將其轉述給來訪的卡爾達諾支持者,一家合作公司的內部人士也把同樣的說法轉達給了自家執行長。</p>
 
 <h2 class="ko">디스코드 이전이 '최후통첩'이 된 이유 — CIP-1694의 3원 구조란</h2>
 <h2 class="en">Why the Discord Move Became the "Final Straw" — Inside CIP-1694's Tricameral Structure</h2>
@@ -39,6 +54,11 @@
 <h2 class="pt">Por que a mudança para o Discord virou "a gota d'água" — dentro da estrutura tricameral do CIP-1694</h2>
 <h2 class="tr">Discord Geçişi Neden "Son Damla" Oldu — CIP-1694'ün Üç Kanatlı Yapısının İçinde</h2>
 <h2 class="vi">Vì Sao Việc Chuyển Sang Discord Trở Thành "Giọt Nước Tràn Ly" — Bên Trong Cấu Trúc Ba Viện Của CIP-1694</h2>
+<h2 class="id">Mengapa Kepindahan ke Discord Menjadi 'Titik Puncak' — Melihat ke Dalam Struktur Tiga Kamar CIP-1694</h2>
+<h2 class="pl">Dlaczego Przeniesienie na Discorda Stało Się 'Ostatnią Kroplą' — Wewnątrz Trójizbowej Struktury CIP-1694</h2>
+<h2 class="it">Perché il Trasferimento su Discord è Diventato 'la Goccia che ha Fatto Traboccare il Vaso' — All'Interno della Struttura Tricamerale di CIP-1694</h2>
+<h2 class="ru">Почему Переход на Discord Стал «Последней Каплей» — Внутри Трёхпалатной Структуры CIP-1694</h2>
+<h2 class="zh">為何遷移至Discord成了「最後一根稻草」——深入CIP-1694的三院制結構</h2>
 
 <p class="ko">호스킨슨의 디스코드 이전 제안은 카르다노의 '볼테르' 거버넌스 시대를 더 전문화하려는 시도에서 나왔다. 그는 자신이 이끄는 미드나이트 프로젝트의 대규모 조정형 디스코드 커뮤니티를 모델로 들며, 온체인 표결에 나서는 위임대표(DRep)들이 표결 전에 더 차분하고 체계적인 토론을 할 수 있는 공간이 필요하다고 주장했다. 하지만 본스는 이를 다르게 읽었다. 그는 관리자가 있는 디스코드로 논의를 옮기는 것이 사실상 커뮤니티 담론을 중앙화하는 조치이며, IOHK(호스킨슨이 이끄는 개발사) 성향 세력에 사실상 담론 거부권을 쥐여주는 검열 위험이라고 규정하며 이를 "최후통첩"이라 불렀다.</p>
 <p class="en">Hoskinson's Discord proposal grew out of an effort to professionalize Cardano's "Voltaire-era" governance. He pointed to the large, moderated Discord community of his Midnight project as a model, arguing that delegated representatives (DReps) who cast on-chain votes need a calmer, more structured space to debate before those votes. Bons read it differently. He argued that moving discussion into a moderator-run Discord would effectively centralize community discourse — a censorship risk that could hand IOHK-aligned factions (IOHK being the development firm Hoskinson leads) an effective veto over discourse — and called it the "final straw."</p>
@@ -49,6 +69,11 @@
 <p class="pt">A proposta de Discord de Hoskinson surgiu de um esforço para profissionalizar a governança da "era Voltaire" da Cardano. Ele apontou a grande comunidade moderada do Discord de seu projeto Midnight como modelo, argumentando que representantes delegados (DReps) que emitem votos on-chain precisam de um espaço mais calmo e estruturado para debater antes desses votos. Bons interpretou de forma diferente. Ele argumentou que mover a discussão para um Discord administrado por moderadores centralizaria efetivamente o discurso da comunidade — um risco de censura que poderia dar a facções alinhadas com a IOHK (a empresa de desenvolvimento liderada por Hoskinson) um veto efetivo sobre o discurso — e chamou isso de "a gota d'água".</p>
 <p class="tr">Hoskinson'ın Discord önerisi, Cardano'nun "Voltaire dönemi" yönetişimini profesyonelleştirme çabasından doğdu. Kendi yürüttüğü Midnight projesinin büyük, moderatörlü Discord topluluğunu model olarak gösterdi ve zincir üstü oy kullanan delege temsilcilerin (DRep) oylardan önce daha sakin, daha yapılandırılmış bir tartışma alanına ihtiyaç duyduğunu savundu. Bons bunu farklı okudu. Tartışmayı moderatörlerin yönettiği bir Discord'a taşımanın fiilen topluluk söylemini merkezileştireceğini, bunun da IOHK yanlısı grupların (IOHK, Hoskinson'ın yönettiği geliştirme şirketi) söylem üzerinde etkili bir veto gücü elde etmesine yol açabilecek bir sansür riski olduğunu savundu ve bunu "son damla" olarak nitelendirdi.</p>
 <p class="vi">Đề xuất Discord của Hoskinson bắt nguồn từ nỗ lực chuyên nghiệp hóa quản trị "thời kỳ Voltaire" của Cardano. Ông chỉ ra cộng đồng Discord lớn, được kiểm duyệt của dự án Midnight do ông dẫn dắt như một hình mẫu, lập luận rằng các đại diện được ủy quyền (DRep) bỏ phiếu on-chain cần một không gian bình tĩnh, có cấu trúc hơn để thảo luận trước khi bỏ phiếu. Bons lại hiểu theo cách khác. Ông lập luận rằng việc chuyển thảo luận sang một Discord do người kiểm duyệt quản lý về bản chất sẽ tập trung hóa diễn ngôn cộng đồng — một rủi ro kiểm duyệt có thể trao cho các phe cánh liên kết với IOHK (công ty phát triển do Hoskinson lãnh đạo) quyền phủ quyết thực tế đối với diễn ngôn — và gọi đó là "giọt nước tràn ly".</p>
+<p class="id">Usulan Discord dari Hoskinson muncul dari upaya untuk memprofesionalkan tata kelola Cardano di 'era Voltaire.' Ia menunjuk komunitas Discord besar dan termoderasi dari proyek Midnight yang ia pimpin sebagai model, dengan alasan bahwa perwakilan delegasi (DRep) yang memberikan suara on-chain memerlukan ruang yang lebih tenang dan terstruktur untuk berdebat sebelum pemungutan suara tersebut. Bons memaknainya secara berbeda. Ia berpendapat bahwa memindahkan diskusi ke Discord yang dikelola moderator pada dasarnya akan mensentralisasi wacana komunitas — sebuah risiko sensor yang bisa memberi faksi-faksi yang berpihak pada IOHK (perusahaan pengembang yang dipimpin Hoskinson) hak veto efektif atas wacana tersebut — dan menyebutnya sebagai 'titik puncak.'</p>
+<p class="pl">Propozycja Hoskinsona dotycząca Discorda wyrosła z wysiłku profesjonalizacji zarządzania Cardano w 'erze Woltera'. Wskazał on dużą, moderowaną społeczność Discorda swojego projektu Midnight jako wzór, argumentując, że delegowani przedstawiciele (DRep), którzy oddają głosy on-chain, potrzebują spokojniejszej, bardziej uporządkowanej przestrzeni do debaty przed tymi głosowaniami. Bons odczytał to inaczej. Argumentował, że przeniesienie dyskusji na Discorda prowadzonego przez moderatorów w praktyce scentralizowałoby dyskurs społeczności — ryzyko cenzury, które mogłoby dać frakcjom powiązanym z IOHK (IOHK to firma deweloperska kierowana przez Hoskinsona) faktyczne prawo weta wobec dyskursu — i nazwał to 'ostatnią kroplą'.</p>
+<p class="it">La proposta di Hoskinson su Discord è nata da uno sforzo per professionalizzare la governance dell'"era Voltaire" di Cardano. Ha indicato come modello la grande comunità Discord moderata del suo progetto Midnight, sostenendo che i rappresentanti delegati (DRep) che esprimono voti on-chain necessitano di uno spazio più calmo e strutturato per discutere prima di quei voti. Bons l'ha interpretata diversamente. Ha sostenuto che spostare la discussione su un Discord gestito da moderatori avrebbe di fatto centralizzato il discorso della comunità — un rischio di censura che potrebbe dare alle fazioni allineate con IOHK (IOHK è la società di sviluppo guidata da Hoskinson) un veto effettivo sul discorso — e lo ha definito 'la goccia che ha fatto traboccare il vaso.'</p>
+<p class="ru">Предложение Хоскинсона по Discord возникло из стремления профессионализировать управление Cardano в «эпоху Вольтера». Он указал на большое модерируемое сообщество Discord своего проекта Midnight как на модель, утверждая, что делегированным представителям (DRep), голосующим ончейн, нужно более спокойное и структурированное пространство для обсуждения перед этими голосованиями. Бонс истолковал это иначе. Он утверждал, что перенос обсуждения в управляемый модераторами Discord фактически централизует общественный дискурс — риск цензуры, который может дать группировкам, связанным с IOHK (IOHK — компания-разработчик, которую возглавляет Хоскинсон), фактическое право вето над дискурсом — и назвал это «последней каплей».</p>
+<p class="zh">霍斯金森提出的Discord方案,源自他想要讓卡爾達諾「伏爾泰時代」治理更加專業化的努力。他以自己主導的Midnight專案中規模龐大、有版主管理的Discord社群作為範本,主張進行鏈上投票的委任代表(DRep)在投票前需要一個更平靜、更有結構的空間來討論。邦斯的解讀則截然不同。他認為,將討論遷移到由版主管理的Discord,實質上會使社群言論集中化——這是一種審查風險,可能讓與IOHK(霍斯金森領導的開發公司)立場一致的派系實質上取得對言論的否決權——並稱此舉為「壓垮駱駝的最後一根稻草」。</p>
 
 <p class="ko">이 다툼이 흥미로운 건, 불과 나흘 전 이 사이트가 <a href="/blog/cardano-van-rossem-onchain-governed-hardfork">보도했듯</a> 카르다노가 역사상 처음으로 재단의 일방적 결정이 아닌 온체인 표결로 하드포크(밴로쎔, 프로토콜 v11)를 승인·집행하며 거버넌스 성공 사례로 꼽혔기 때문이다. CIP-1694는 스테이크풀운영자(SPO), 위임대표(DRep), 헌법위원회(CC) 세 기관이 각자 별도 권한을 갖고 서로를 견제하는 3원 구조로 설계됐다 — 어느 한쪽도 단독으로 프로토콜 방향을 결정할 수 없도록 만든 장치다. 그런데 정작 '어떤 플랫폼에서 논의할 것인가'라는, 표결 절차 자체보다 앞선 문제에서는 이 견제 장치가 작동하지 않는다. 논의 공간을 정하는 결정은 여전히 재단·IOHK의 관례적 권한에 속해 있어, 온체인에서는 잘 작동하는 3원 체제가 오프체인 담론 통제 앞에서는 무력하다는 역설이 이번 사태로 드러난 셈이다.</p>
 <p class="en">What makes this dispute notable is that just four days earlier, this site <a href="/en/blog/cardano-van-rossem-onchain-governed-hardfork">reported</a> that Cardano had, for the first time, ratified and executed a hard fork (van Rossem, protocol v11) through on-chain voting rather than a unilateral foundation decision — held up as a governance success story. CIP-1694 was designed as a tricameral structure in which stake pool operators (SPOs), delegated representatives (DReps), and a Constitutional Committee (CC) each hold separate powers and check one another, so no single body can unilaterally set protocol direction. Yet that check-and-balance machinery doesn't extend to a more basic question that precedes any vote: which platform hosts the discussion in the first place. That decision still sits with the Foundation and IOHK's customary authority — exposing a paradox where a tricameral system that works well on-chain has no real answer for off-chain discourse control.</p>
@@ -59,6 +84,11 @@
 <p class="pt">O que torna essa disputa notável é que, apenas quatro dias antes, este site <a href="/pt/blog/cardano-van-rossem-onchain-governed-hardfork">noticiou</a> que a Cardano havia, pela primeira vez, ratificado e executado um hard fork (van Rossem, protocolo v11) por meio de votação on-chain em vez de uma decisão unilateral da fundação — celebrado como uma história de sucesso de governança. O CIP-1694 foi projetado como uma estrutura tricameral na qual operadores de pools de staking (SPOs), representantes delegados (DReps) e um Comitê Constitucional (CC) detêm poderes separados e se fiscalizam mutuamente, de modo que nenhum órgão isolado possa definir unilateralmente a direção do protocolo. No entanto, esse mecanismo de pesos e contrapesos não se estende a uma questão mais básica que precede qualquer votação: qual plataforma hospeda a discussão, para começar. Essa decisão ainda está sob a autoridade costumeira da Foundation e da IOHK — expondo um paradoxo em que um sistema tricameral que funciona bem on-chain não tem uma resposta real para o controle do discurso off-chain.</p>
 <p class="tr">Bu anlaşmazlığı dikkat çekici kılan şey, bundan yalnızca dört gün önce bu sitenin <a href="/tr/blog/cardano-van-rossem-onchain-governed-hardfork">haberleştirdiği</a> gibi, Cardano'nun tarihinde ilk kez bir hard fork'u (van Rossem, protokol v11) vakfın tek taraflı kararı yerine zincir üstü oylamayla onaylayıp yürürlüğe koymuş olması — bu bir yönetişim başarı öyküsü olarak öne çıkarılmıştı. CIP-1694, hisse havuzu operatörlerinin (SPO), delege temsilcilerin (DRep) ve bir Anayasa Komitesi'nin (CC) her birinin ayrı yetkilere sahip olduğu ve birbirini denetlediği, böylece hiçbir organın tek başına protokol yönünü belirleyemediği üç kanatlı bir yapı olarak tasarlandı. Ancak bu denge-denetim mekanizması, herhangi bir oylamadan önce gelen daha temel bir soruya — tartışmanın öncelikle hangi platformda barındırılacağına — uzanmıyor. Bu karar hâlâ Vakıf ve IOHK'nın geleneksel yetkisinde kalıyor ve zincir üstünde iyi işleyen üç kanatlı bir sistemin zincir dışı söylem kontrolü karşısında gerçek bir yanıtı olmadığını gösteren bir paradoksu ortaya çıkarıyor.</p>
 <p class="vi">Điều khiến tranh chấp này đáng chú ý là chỉ bốn ngày trước đó, trang này đã <a href="/vi/blog/cardano-van-rossem-onchain-governed-hardfork">đưa tin</a> rằng Cardano lần đầu tiên phê chuẩn và thực thi một hard fork (van Rossem, giao thức v11) thông qua bỏ phiếu on-chain thay vì quyết định đơn phương của quỹ — được ca ngợi là câu chuyện thành công về quản trị. CIP-1694 được thiết kế như một cấu trúc ba viện, trong đó các nhà vận hành nhóm staking (SPO), đại diện được ủy quyền (DRep) và một Ủy ban Hiến pháp (CC) mỗi bên nắm giữ quyền lực riêng biệt và kiểm soát lẫn nhau, để không một cơ quan nào có thể đơn phương định hướng giao thức. Thế nhưng cơ chế kiểm soát và cân bằng đó lại không mở rộng đến một câu hỏi cơ bản hơn, đến trước bất kỳ cuộc bỏ phiếu nào: nền tảng nào sẽ tổ chức cuộc thảo luận ngay từ đầu. Quyết định đó vẫn nằm trong thẩm quyền theo thông lệ của Foundation và IOHK — phơi bày một nghịch lý rằng một hệ thống ba viện vận hành tốt on-chain lại không có câu trả lời thực sự cho việc kiểm soát diễn ngôn off-chain.</p>
+<p class="id">Yang membuat perselisihan ini menonjol adalah bahwa hanya empat hari sebelumnya, situs ini <a href="/id/blog/cardano-van-rossem-onchain-governed-hardfork">melaporkan</a> bahwa Cardano untuk pertama kalinya meratifikasi dan menjalankan hard fork (van Rossem, protokol v11) melalui pemungutan suara on-chain, bukan melalui keputusan sepihak yayasan — dipuji sebagai kisah sukses tata kelola. CIP-1694 dirancang sebagai struktur tiga kamar di mana operator kumpulan stake (SPO), perwakilan delegasi (DRep), dan Komite Konstitusi (CC) masing-masing memegang wewenang terpisah dan saling mengawasi, sehingga tidak ada satu badan pun yang bisa menentukan arah protokol secara sepihak. Namun mekanisme checks-and-balances itu tidak meluas ke pertanyaan yang lebih mendasar yang mendahului setiap pemungutan suara: platform mana yang akan menjadi tempat diskusi berlangsung sejak awal. Keputusan itu masih berada di bawah wewenang kebiasaan yayasan dan IOHK — mengungkap sebuah paradoks di mana sistem tiga kamar yang berjalan baik secara on-chain tidak memiliki jawaban nyata untuk kendali wacana off-chain.</p>
+<p class="pl">Co czyni ten spór godnym uwagi, to fakt, że zaledwie cztery dni wcześniej ta strona <a href="/pl/blog/cardano-van-rossem-onchain-governed-hardfork">informowała</a>, że Cardano po raz pierwszy ratyfikowało i wykonało hard fork (van Rossem, protokół v11) poprzez głosowanie on-chain, a nie jednostronną decyzję fundacji — co przedstawiano jako historię sukcesu w zarządzaniu. CIP-1694 zostało zaprojektowane jako struktura trójizbowa, w której operatorzy puli stakingowych (SPO), delegowani przedstawiciele (DRep) oraz Komitet Konstytucyjny (CC) posiadają odrębne uprawnienia i wzajemnie się kontrolują, dzięki czemu żaden pojedynczy organ nie może jednostronnie wyznaczać kierunku protokołu. Jednak ten mechanizm kontroli i równowagi nie obejmuje bardziej podstawowego pytania poprzedzającego każde głosowanie: która platforma w ogóle będzie gospodarzem dyskusji. Ta decyzja wciąż należy do zwyczajowej władzy Fundacji i IOHK — co ujawnia paradoks, w którym trójizbowy system dobrze działający on-chain nie ma realnej odpowiedzi na kontrolę dyskursu off-chain.</p>
+<p class="it">Ciò che rende questa disputa degna di nota è che appena quattro giorni prima, questo sito aveva <a href="/it/blog/cardano-van-rossem-onchain-governed-hardfork">riportato</a> che Cardano aveva, per la prima volta, ratificato ed eseguito un hard fork (van Rossem, protocollo v11) tramite voto on-chain anziché una decisione unilaterale della fondazione — celebrato come una storia di successo della governance. CIP-1694 è stato progettato come una struttura tricamerale in cui gli operatori dei pool di staking (SPO), i rappresentanti delegati (DRep) e un Comitato Costituzionale (CC) detengono ciascuno poteri separati e si controllano a vicenda, così che nessun singolo organo possa stabilire unilateralmente la direzione del protocollo. Tuttavia questo meccanismo di pesi e contrappesi non si estende a una domanda più basilare che precede qualsiasi voto: quale piattaforma ospiti la discussione fin dall'inizio. Quella decisione resta ancora nell'autorità consuetudinaria della Fondazione e di IOHK — rivelando un paradosso in cui un sistema tricamerale che funziona bene on-chain non ha una risposta reale per il controllo del discorso off-chain.</p>
+<p class="ru">Этот спор примечателен тем, что всего четырьмя днями ранее этот сайт <a href="/ru/blog/cardano-van-rossem-onchain-governed-hardfork">сообщал</a>, что Cardano впервые ратифицировала и провела хардфорк (van Rossem, протокол v11) путём ончейн-голосования, а не единоличного решения фонда — что преподносилось как история успеха управления. CIP-1694 был разработан как трёхпалатная структура, в которой операторы стейк-пулов (SPO), делегированные представители (DRep) и Конституционный комитет (CC) обладают отдельными полномочиями и сдерживают друг друга, так что ни один орган не может единолично определять направление протокола. Однако этот механизм сдержек и противовесов не распространяется на более базовый вопрос, предшествующий любому голосованию: какая платформа вообще принимает обсуждение. Это решение по-прежнему находится в обычной юрисдикции фонда и IOHK — что обнажает парадокс: трёхпалатная система, хорошо работающая ончейн, не имеет реального ответа на контроль офчейн-дискурса.</p>
+<p class="zh">這場爭議之所以引人注目,是因為就在四天前,本站才<a href="/zh/blog/cardano-van-rossem-onchain-governed-hardfork">報導</a>過卡爾達諾史上首次透過鏈上投票、而非基金會單方面決定,批准並執行了一次硬分叉(van Rossem,協議v11)——當時被視為治理成功的案例。CIP-1694被設計為三院制結構,由質押池營運商(SPO)、委任代表(DRep)與憲法委員會(CC)各自握有獨立權力並互相制衡,使任何單一機構都無法單方面決定協議方向。然而這套制衡機制並未延伸到任何投票之前更根本的問題:討論究竟該在哪個平台進行。這項決定仍然屬於基金會與IOHK的慣例權限——揭露出一個弔詭之處:一套在鏈上運作良好的三院制系統,對鏈下言論的控制卻毫無真正的解答。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -348,6 +378,166 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Tổng hợp từ Cryptonews.com, BeInCrypto, Yellow.com, CoinEdition và tài liệu CIP-1694 của Cardano.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Garis Waktu Krisis Tata Kelola Cardano</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="70" x2="45" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="80" r="7" fill="#71717a"/>
+    <text x="65" y="76" fill="#fafafa" font-size="13" font-weight="700">Siaran Tahun Baru</text>
+    <text x="65" y="94" fill="#9a9aa4" font-size="12">Hoskinson berkata ia telah "melampaui X"</text>
+    <circle cx="45" cy="140" r="7" fill="#71717a"/>
+    <text x="65" y="136" fill="#fafafa" font-size="13" font-weight="700">"Istirahat sebentar. Sampai jumpa"</text>
+    <text x="65" y="154" fill="#9a9aa4" font-size="12">Tangkapan layar menyebar tanpa konteks</text>
+    <circle cx="45" cy="200" r="8" fill="#fbbf24"/>
+    <text x="65" y="196" fill="#fafafa" font-size="13" font-weight="700">4 Jun — Video reformasi 26 menit</text>
+    <text x="65" y="214" fill="#9a9aa4" font-size="12">ADA di bawah 20 sen, peringatan "gelombang kegagalan"</text>
+    <circle cx="45" cy="260" r="8" fill="#f87171"/>
+    <text x="65" y="256" fill="#fafafa" font-size="13" font-weight="700">Bons menuntut pemecatan</text>
+    <text x="65" y="274" fill="#9a9aa4" font-size="12">Menyebut langkah Discord "titik puncak," mengutip 23 TPS</text>
+    <circle cx="45" cy="320" r="9" fill="#4ade80"/>
+    <text x="65" y="316" fill="#fafafa" font-size="13" font-weight="700">10 Jul — Video bantahan</text>
+    <text x="65" y="334" fill="#9a9aa4" font-size="12">"Rekayasa sepenuhnya" · ADA $0,1688 (+0,6%)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="380" y="70" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="102" fill="#a78bfa" font-size="22" font-weight="800" text-anchor="middle">23 TPS</text>
+    <text x="525" y="124" fill="#9a9aa4" font-size="12" text-anchor="middle">Klaim throughput maksimum 2026 versi Bons</text>
+    <rect x="380" y="158" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="190" fill="#38bdf8" font-size="22" font-weight="800" text-anchor="middle">3 Kamar</text>
+    <text x="525" y="212" fill="#9a9aa4" font-size="12" text-anchor="middle">SPO · DRep · Komite Konstitusi</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Disusun dari Cryptonews.com, BeInCrypto, Yellow.com, CoinEdition, dan dokumentasi CIP-1694 Cardano.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Oś czasu kryzysu zarządzania Cardano</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="70" x2="45" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="80" r="7" fill="#71717a"/>
+    <text x="65" y="76" fill="#fafafa" font-size="13" font-weight="700">Transmisja noworoczna</text>
+    <text x="65" y="94" fill="#9a9aa4" font-size="12">Hoskinson mówi, że "wyrósł z X"</text>
+    <circle cx="45" cy="140" r="7" fill="#71717a"/>
+    <text x="65" y="136" fill="#fafafa" font-size="13" font-weight="700">"Robię przerwę. Do zobaczenia"</text>
+    <text x="65" y="154" fill="#9a9aa4" font-size="12">Zrzut ekranu rozprzestrzenia się bez kontekstu</text>
+    <circle cx="45" cy="200" r="8" fill="#fbbf24"/>
+    <text x="65" y="196" fill="#fafafa" font-size="13" font-weight="700">4 cze — 26-minutowy film reformatorski</text>
+    <text x="65" y="214" fill="#9a9aa4" font-size="12">ADA poniżej 20c, ostrzeżenie o "fali porażek"</text>
+    <circle cx="45" cy="260" r="8" fill="#f87171"/>
+    <text x="65" y="256" fill="#fafafa" font-size="13" font-weight="700">Bons żąda odsunięcia</text>
+    <text x="65" y="274" fill="#9a9aa4" font-size="12">Nazywa przejście na Discorda "ostatnią kroplą," powołuje się na 23 TPS</text>
+    <circle cx="45" cy="320" r="9" fill="#4ade80"/>
+    <text x="65" y="316" fill="#fafafa" font-size="13" font-weight="700">10 lip — Wideo z dementi</text>
+    <text x="65" y="334" fill="#9a9aa4" font-size="12">"Całkowita fabrykacja" · ADA $0,1688 (+0,6%)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="380" y="70" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="102" fill="#a78bfa" font-size="22" font-weight="800" text-anchor="middle">23 TPS</text>
+    <text x="525" y="124" fill="#9a9aa4" font-size="12" text-anchor="middle">Deklarowana przez Bonsa maks. przepustowość 2026</text>
+    <rect x="380" y="158" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="190" fill="#38bdf8" font-size="22" font-weight="800" text-anchor="middle">3 izby</text>
+    <text x="525" y="212" fill="#9a9aa4" font-size="12" text-anchor="middle">SPO · DRep · Komitet Konstytucyjny</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Opracowano na podstawie Cryptonews.com, BeInCrypto, Yellow.com, CoinEdition oraz dokumentacji CIP-1694 Cardano.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronologia della crisi di governance di Cardano</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="70" x2="45" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="80" r="7" fill="#71717a"/>
+    <text x="65" y="76" fill="#fafafa" font-size="13" font-weight="700">Streaming di Capodanno</text>
+    <text x="65" y="94" fill="#9a9aa4" font-size="12">Hoskinson dice di aver "superato X"</text>
+    <circle cx="45" cy="140" r="7" fill="#71717a"/>
+    <text x="65" y="136" fill="#fafafa" font-size="13" font-weight="700">"Mi prendo una pausa. Ci si sente"</text>
+    <text x="65" y="154" fill="#9a9aa4" font-size="12">Lo screenshot si diffonde senza contesto</text>
+    <circle cx="45" cy="200" r="8" fill="#fbbf24"/>
+    <text x="65" y="196" fill="#fafafa" font-size="13" font-weight="700">4 giu — Video di riforma di 26 min</text>
+    <text x="65" y="214" fill="#9a9aa4" font-size="12">ADA sotto i 20c, avviso di "ondata di fallimenti"</text>
+    <circle cx="45" cy="260" r="8" fill="#f87171"/>
+    <text x="65" y="256" fill="#fafafa" font-size="13" font-weight="700">Bons chiede la rimozione</text>
+    <text x="65" y="274" fill="#9a9aa4" font-size="12">Definisce Discord "la goccia che ha fatto traboccare il vaso," cita 23 TPS</text>
+    <circle cx="45" cy="320" r="9" fill="#4ade80"/>
+    <text x="65" y="316" fill="#fafafa" font-size="13" font-weight="700">10 lug — Video di smentita</text>
+    <text x="65" y="334" fill="#9a9aa4" font-size="12">"Una totale fabbricazione" · ADA $0,1688 (+0,6%)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="380" y="70" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="102" fill="#a78bfa" font-size="22" font-weight="800" text-anchor="middle">23 TPS</text>
+    <text x="525" y="124" fill="#9a9aa4" font-size="12" text-anchor="middle">Throughput massimo 2026 dichiarato da Bons</text>
+    <rect x="380" y="158" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="190" fill="#38bdf8" font-size="22" font-weight="800" text-anchor="middle">3 Camere</text>
+    <text x="525" y="212" fill="#9a9aa4" font-size="12" text-anchor="middle">SPO · DRep · Comitato Costituzionale</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Compilato da Cryptonews.com, BeInCrypto, Yellow.com, CoinEdition e dalla documentazione CIP-1694 di Cardano.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Хронология кризиса управления Cardano</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="70" x2="45" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="80" r="7" fill="#71717a"/>
+    <text x="65" y="76" fill="#fafafa" font-size="13" font-weight="700">Новогодний стрим</text>
+    <text x="65" y="94" fill="#9a9aa4" font-size="12">Хоскинсон говорит, что «перерос X»</text>
+    <circle cx="45" cy="140" r="7" fill="#71717a"/>
+    <text x="65" y="136" fill="#fafafa" font-size="13" font-weight="700">«Беру паузу. Увидимся»</text>
+    <text x="65" y="154" fill="#9a9aa4" font-size="12">Скриншот распространяется без контекста</text>
+    <circle cx="45" cy="200" r="8" fill="#fbbf24"/>
+    <text x="65" y="196" fill="#fafafa" font-size="13" font-weight="700">4 июня — 26-минутное видео о реформе</text>
+    <text x="65" y="214" fill="#9a9aa4" font-size="12">ADA ниже 20c, предупреждение о «волне провалов»</text>
+    <circle cx="45" cy="260" r="8" fill="#f87171"/>
+    <text x="65" y="256" fill="#fafafa" font-size="13" font-weight="700">Бонс требует отставки</text>
+    <text x="65" y="274" fill="#9a9aa4" font-size="12">Называет переход на Discord «последней каплей», ссылается на 23 TPS</text>
+    <circle cx="45" cy="320" r="9" fill="#4ade80"/>
+    <text x="65" y="316" fill="#fafafa" font-size="13" font-weight="700">10 июля — Видео-опровержение</text>
+    <text x="65" y="334" fill="#9a9aa4" font-size="12">«Полная фабрикация» · ADA $0,1688 (+0,6%)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="380" y="70" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="102" fill="#a78bfa" font-size="22" font-weight="800" text-anchor="middle">23 TPS</text>
+    <text x="525" y="124" fill="#9a9aa4" font-size="12" text-anchor="middle">Заявленная Бонсом макс. пропускная способность 2026</text>
+    <rect x="380" y="158" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="190" fill="#38bdf8" font-size="22" font-weight="800" text-anchor="middle">3 палаты</text>
+    <text x="525" y="212" fill="#9a9aa4" font-size="12" text-anchor="middle">SPO · DRep · Конституционный комитет</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Составлено по материалам Cryptonews.com, BeInCrypto, Yellow.com, CoinEdition и документации CIP-1694 Cardano.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">卡爾達諾治理危機時間軸</text>
+  <g font-family="sans-serif">
+    <line x1="45" y1="70" x2="45" y2="330" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="45" cy="80" r="7" fill="#71717a"/>
+    <text x="65" y="76" fill="#fafafa" font-size="13" font-weight="700">元旦直播</text>
+    <text x="65" y="94" fill="#9a9aa4" font-size="12">霍斯金森表示自己已「超越了X」</text>
+    <circle cx="45" cy="140" r="7" fill="#71717a"/>
+    <text x="65" y="136" fill="#fafafa" font-size="13" font-weight="700">「我要休息一下,回頭聊」</text>
+    <text x="65" y="154" fill="#9a9aa4" font-size="12">截圖在無上下文的情況下擴散</text>
+    <circle cx="45" cy="200" r="8" fill="#fbbf24"/>
+    <text x="65" y="196" fill="#fafafa" font-size="13" font-weight="700">6月4日——26分鐘改革影片</text>
+    <text x="65" y="214" fill="#9a9aa4" font-size="12">ADA跌破20美分,發出「失敗浪潮」警告</text>
+    <circle cx="45" cy="260" r="8" fill="#f87171"/>
+    <text x="65" y="256" fill="#fafafa" font-size="13" font-weight="700">邦斯要求罷免</text>
+    <text x="65" y="274" fill="#9a9aa4" font-size="12">稱Discord遷移為「最後一根稻草」,提及23 TPS</text>
+    <circle cx="45" cy="320" r="9" fill="#4ade80"/>
+    <text x="65" y="316" fill="#fafafa" font-size="13" font-weight="700">7月10日——澄清影片</text>
+    <text x="65" y="334" fill="#9a9aa4" font-size="12">「徹頭徹尾的捏造」‧ADA $0.1688(+0.6%)</text>
+  </g>
+  <g font-family="sans-serif">
+    <rect x="380" y="70" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="102" fill="#a78bfa" font-size="22" font-weight="800" text-anchor="middle">23 TPS</text>
+    <text x="525" y="124" fill="#9a9aa4" font-size="12" text-anchor="middle">邦斯所稱2026年最大處理量</text>
+    <rect x="380" y="158" width="290" height="76" rx="10" fill="#1c1c1f" stroke="#3f3f46"/>
+    <text x="525" y="190" fill="#38bdf8" font-size="22" font-weight="800" text-anchor="middle">三院</text>
+    <text x="525" y="212" fill="#9a9aa4" font-size="12" text-anchor="middle">SPO‧DRep‧憲法委員會</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">整理自Cryptonews.com、BeInCrypto、Yellow.com、CoinEdition及Cardano CIP-1694文件。</p>
+</div>
 
 <h2 class="ko">23TPS 논쟁: 정당한 기술 비판인가, 캠페인성 공세인가</h2>
 <h2 class="en">The 23 TPS Fight: Legitimate Technical Critique or Activist Campaign?</h2>
@@ -358,6 +548,11 @@
 <h2 class="pt">A briga dos 23 TPS: crítica técnica legítima ou campanha ativista?</h2>
 <h2 class="tr">23 TPS Tartışması: Meşru Teknik Eleştiri mi, Aktivist Kampanya mı?</h2>
 <h2 class="vi">Cuộc Tranh Cãi 23 TPS: Phê Bình Kỹ Thuật Chính Đáng Hay Chiến Dịch Vận Động?</h2>
+<h2 class="id">Pertikaian 23 TPS: Kritik Teknis yang Sah atau Kampanye Aktivis?</h2>
+<h2 class="pl">Spór o 23 TPS: Uzasadniona Krytyka Techniczna czy Kampania Aktywistyczna?</h2>
+<h2 class="it">Lo Scontro sui 23 TPS: Critica Tecnica Legittima o Campagna Attivista?</h2>
+<h2 class="ru">Спор о 23 TPS: Обоснованная Техническая Критика или Активистская Кампания?</h2>
+<h2 class="zh">23 TPS之爭:正當的技術批評,還是行動主義式的攻勢?</h2>
 
 <p class="ko">본스는 현재 블록 크기 제한과 20초 블록타임을 근거로 카르다노의 2026년 이론적 최대 처리량이 초당 약 23건에 불과하다고 계산했다. 그는 이 낮은 처리량이야말로 거버넌스 절차 논쟁보다 훨씬 시급한 실질적 문제라고 주장하며, 호스킨슨이 논의를 폐쇄형 디스코드로 옮기는 것은 이런 근본적 한계에 대한 비판을 회피하려는 시도라고 말했다. 그러나 이 주장은 카르다노 커뮤니티 다수의 거센 반발에 부딪혔다. 많은 지지자는 본스가 생태계에 건설적 기여 없이 공포·불확실성·의심(FUD)만 퍼뜨린다고 비판했으며, 그가 사이버캐피털을 통해 여러 프로젝트에 대해 반복적으로 공개 캠페인을 벌여온 전력을 지적하기도 했다.</p>
 <p class="en">Bons calculated, based on current block size limits and 20-second block times, that Cardano's theoretical maximum throughput in 2026 is only about 23 transactions per second. He argued that this low ceiling is a far more pressing problem than any procedural governance debate, and that Hoskinson's move to shift discussion into a closed Discord amounts to an attempt to dodge criticism of that underlying limitation. But the claim drew fierce pushback from much of the Cardano community. Many supporters accused Bons of spreading fear, uncertainty, and doubt (FUD) without offering constructive value to the ecosystem, and pointed to his track record of running public campaigns against various projects through Cyber Capital.</p>
