@@ -12,6 +12,11 @@
   "read_pt": "6",
   "read_tr": "6",
   "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6",
 
   "tag_ko": "IBIT 풋/콜 1.60·IV랭크 87",
   "tag_en": "IBIT Put/Call 1.60 · IV Rank 87",
@@ -22,6 +27,11 @@
   "tag_pt": "Put/Call do IBIT 1,60 · IV Rank 87",
   "tag_tr": "IBIT Put/Call 1,60 · IV Sıralaması 87",
   "tag_vi": "Put/Call IBIT 1,60 · Xếp Hạng IV 87",
+  "tag_id": "IBIT Put/Call 1,60 · IV Rank 87",
+  "tag_pl": "IBIT Put/Call 1,60 · Ranga IV 87",
+  "tag_it": "IBIT Put/Call 1,60 · Rango IV 87",
+  "tag_ru": "IBIT Пут/Колл 1,60 · Ранг IV 87",
+  "tag_zh": "IBIT賣權/買權1.60・IV排名87",
 
   "bc_ko": "IBIT 옵션 포지셔닝·볼린저 밴드 점검",
   "bc_en": "IBIT Options vs. Bollinger Band Check",
@@ -32,6 +42,11 @@
   "bc_pt": "Verificação: Opções do IBIT vs. Bandas de Bollinger",
   "bc_tr": "IBIT Opsiyonları - Bollinger Bantları İncelemesi",
   "bc_vi": "Kiểm Tra Quyền Chọn IBIT So Với Dải Bollinger",
+  "bc_id": "Pemeriksaan Opsi IBIT vs. Bollinger Band",
+  "bc_pl": "Sprawdzian: Opcje IBIT vs. Wstęgi Bollingera",
+  "bc_it": "Verifica: Opzioni IBIT vs. Bande di Bollinger",
+  "bc_ru": "Проверка: Опционы IBIT vs. Полосы Боллинджера",
+  "bc_zh": "檢視:IBIT選擇權 vs. 布林通道",
 
   "title_ko": "IBIT 옵션은 풋 우위·고변동성인데, 차트는 볼린저 밴드 상단을 뚫으려 한다",
   "title_en": "IBIT Options Lean Put-Heavy and Pricey — the Chart Is Pushing Through the Bollinger Upper Band",
@@ -42,6 +57,11 @@
   "title_pt": "Opções do IBIT Pendem Para Puts Caros — o Gráfico Empurra Através da Banda Superior de Bollinger",
   "title_tr": "IBIT Opsiyonları Pahalı ve Put Ağırlıklı — Grafik Bollinger Üst Bandını Zorluyor",
   "title_vi": "Quyền Chọn IBIT Nghiêng Về Put Đắt Đỏ — Biểu Đồ Đang Đẩy Qua Dải Trên Bollinger",
+  "title_id": "Opsi IBIT Condong ke Put dan Mahal — Grafik Mendorong Melewati Band Atas Bollinger",
+  "title_pl": "Opcje IBIT Skłaniają Się Ku Drogim Putom — Wykres Przebija się Przez Górną Wstęgę Bollingera",
+  "title_it": "Le Opzioni IBIT Pendono Verso Put Costosi — il Grafico Sfonda la Banda Superiore di Bollinger",
+  "title_ru": "Опционы IBIT Склоняются к Дорогим Путам — График Пробивает Верхнюю Полосу Боллинджера",
+  "title_zh": "IBIT選擇權偏向昂貴的賣權——圖表正突破布林通道上軌",
 
   "h1_ko": "옵션은 방어적인데<br>차트는 저항대를 두드린다",
   "h1_en": "Options Stay Defensive<br>The Chart Knocks on Resistance",
@@ -52,6 +72,11 @@
   "h1_pt": "As Opções Seguem Defensivas<br>O Gráfico Bate na Resistência",
   "h1_tr": "Opsiyonlar Savunmacı Kalıyor<br>Grafik Direnci Zorluyor",
   "h1_vi": "Quyền Chọn Vẫn Phòng Thủ<br>Biểu Đồ Gõ Cửa Kháng Cự",
+  "h1_id": "Opsi Tetap Defensif<br>Grafik Mengetuk Resistensi",
+  "h1_pl": "Opcje Pozostają Defensywne<br>Wykres Puka do Oporu",
+  "h1_it": "Le Opzioni Restano Difensive<br>Il Grafico Bussa alla Resistenza",
+  "h1_ru": "Опционы Остаются Защитными<br>График Стучится в Сопротивление",
+  "h1_zh": "選擇權維持防禦<br>圖表叩擊阻力區",
 
   "desc_ko": "비트코인은 7월13일 오전(한국시간) 6만4,033달러 안팎(6월30일 저점 5만7,900달러대 대비 +10%)에서 거래되고 있다. 20일 볼린저 밴드는 중심 6만2,006달러·상단 6만5,711달러·하단 5만8,301달러이며(브레이브뉴코인), 가격은 상단 밴드와 겹치는 50일 이동평균(6만5,794달러) 저항대를 향해 밀어붙이는 중이다. 존 볼린저 본인이 짚었다는 'W'패턴은 일봉 종가 6만5,000달러 상회가 필요하다(CCN). 그런데 블랙록 IBIT의 옵션 시장은 풋/콜 비율 1.60(거래량)·1.34(미결제약정)로 방어적이고 IV 랭크도 87에 달한다(바차트·옵션차트·알파쿼리·트레이드스티). 전체 거래대금은 12일 평균보다 104.7% 늘었지만(브레이브뉴코인·코인스탯츠AI), 정작 이 반등에 가장 가까운 파생상품인 IBIT 옵션은 아직 반등에 확신을 싣지 않은 지금 국면을 점검했다.",
   "desc_en": "Bitcoin was trading around $64,033 on the morning of July 13 (KST), up 10% from its $57,900-level low on June 30. The 20-day Bollinger Bands sit at a $62,006 midline, $65,711 upper band, and $58,301 lower band (BraveNewCoin), with price pushing toward a resistance zone where the upper band overlaps the 50-day moving average ($65,794). The 'W' pattern John Bollinger himself reportedly flagged needs a daily close above $65,000 to confirm (CCN). Yet the options market on BlackRock's IBIT sits defensively, with a put/call ratio of 1.60 by volume and 1.34 by open interest, and an IV Rank of 87 (Barchart, OptionCharts, AlphaQuery, Tradestie). Total trading volume is up 104.7% over its 12-day average (BraveNewCoin, CoinStats AI), yet the derivative most directly tied to this very rebound — IBIT options — hasn't yet bought in.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échangeait autour de 64 033 dollars dans la matinée du 13 juillet (heure de Corée), en hausse de 10 % par rapport à son plus bas de 57 900 dollars du 30 juin. Les bandes de Bollinger sur 20 jours se situent avec une ligne médiane à 62 006 dollars, une bande supérieure à 65 711 dollars et une bande inférieure à 58 301 dollars (BraveNewCoin), le prix poussant vers une zone de résistance où la bande supérieure chevauche la moyenne mobile à 50 jours (65 794 dollars). Le motif « W » que John Bollinger lui-même aurait repéré nécessite une clôture journalière au-dessus de 65 000 dollars pour se confirmer (CCN). Pourtant, le marché des options d'IBIT de BlackRock reste défensif, avec un ratio put/call de 1,60 en volume et 1,34 en intérêt ouvert, et un rang IV de 87 (Barchart, OptionCharts, AlphaQuery, Tradestie). Le volume total d'échanges est en hausse de 104,7 % par rapport à sa moyenne sur 12 jours (BraveNewCoin, CoinStats AI), mais le dérivé le plus directement lié à ce rebond même — les options IBIT — n'a pas encore embarqué.",
   "desc_pt": "O bitcoin era negociado perto de US$ 64.033 na manhã de 13 de julho (horário da Coreia), alta de 10% em relação à mínima de US$ 57.900 de 30 de junho. As Bandas de Bollinger de 20 dias estão com linha média em US$ 62.006, banda superior em US$ 65.711 e banda inferior em US$ 58.301 (BraveNewCoin), com o preço empurrando rumo a uma zona de resistência onde a banda superior se sobrepõe à média móvel de 50 dias (US$ 65.794). O padrão 'W' que o próprio John Bollinger teria apontado precisa de um fechamento diário acima de US$ 65.000 para se confirmar (CCN). No entanto, o mercado de opções do IBIT da BlackRock permanece defensivo, com uma razão put/call de 1,60 por volume e 1,34 por interesse em aberto, e um IV Rank de 87 (Barchart, OptionCharts, AlphaQuery, Tradestie). O volume total de negociação subiu 104,7% sobre sua média de 12 dias (BraveNewCoin, CoinStats AI), mas o derivativo mais diretamente ligado a essa recuperação — as opções do IBIT — ainda não embarcou.",
   "desc_tr": "Bitcoin, 13 Temmuz sabahı (KST) itibarıyla 64.033 dolar civarında işlem görüyordu; bu, 30 Haziran'daki 57.900 dolarlık dibin %10 üzerinde. 20 günlük Bollinger Bantları 62.006 dolarlık orta çizgi, 65.711 dolarlık üst bant ve 58.301 dolarlık alt bantla konumlanıyor (BraveNewCoin); fiyat, üst bandın 50 günlük hareketli ortalamayla (65.794 dolar) çakıştığı bir direnç bölgesine doğru itiyor. John Bollinger'ın kendisinin işaret ettiği bildirilen 'W' formasyonunun doğrulanması için günlük kapanışın 65.000 doların üzerinde olması gerekiyor (CCN). Ancak BlackRock'un IBIT'indeki opsiyon piyasası, hacme göre 1,60 ve açık pozisyona göre 1,34'lük put/call oranı ile 87'lik IV Sıralamasıyla savunmacı kalıyor (Barchart, OptionCharts, AlphaQuery, Tradestie). Toplam işlem hacmi 12 günlük ortalamasının %104,7 üzerinde (BraveNewCoin, CoinStats AI), ancak tam da bu toparlanmaya en doğrudan bağlı türev — IBIT opsiyonları — henüz buna dahil olmadı.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 64.033 đô la vào sáng ngày 13 tháng 7 (giờ Hàn Quốc), tăng 10% so với đáy 57.900 đô la ngày 30 tháng 6. Dải Bollinger 20 ngày có đường giữa 62.006 đô la, dải trên 65.711 đô la và dải dưới 58.301 đô la (BraveNewCoin), với giá đang đẩy về phía vùng kháng cự nơi dải trên trùng với đường trung bình động 50 ngày (65.794 đô la). Mô hình 'W' mà chính John Bollinger được cho là đã chỉ ra cần mức đóng cửa ngày trên 65.000 đô la để được xác nhận (CCN). Tuy nhiên, thị trường quyền chọn của IBIT thuộc BlackRock vẫn phòng thủ, với tỷ lệ put/call 1,60 theo khối lượng và 1,34 theo hợp đồng mở, cùng Xếp Hạng IV đạt 87 (Barchart, OptionCharts, AlphaQuery, Tradestie). Tổng khối lượng giao dịch tăng 104,7% so với mức trung bình 12 ngày (BraveNewCoin, CoinStats AI), nhưng công cụ phái sinh gắn trực tiếp nhất với chính đợt phục hồi này — quyền chọn IBIT — vẫn chưa tham gia."
+  "desc_vi": "Bitcoin giao dịch quanh mức 64.033 đô la vào sáng ngày 13 tháng 7 (giờ Hàn Quốc), tăng 10% so với đáy 57.900 đô la ngày 30 tháng 6. Dải Bollinger 20 ngày có đường giữa 62.006 đô la, dải trên 65.711 đô la và dải dưới 58.301 đô la (BraveNewCoin), với giá đang đẩy về phía vùng kháng cự nơi dải trên trùng với đường trung bình động 50 ngày (65.794 đô la). Mô hình 'W' mà chính John Bollinger được cho là đã chỉ ra cần mức đóng cửa ngày trên 65.000 đô la để được xác nhận (CCN). Tuy nhiên, thị trường quyền chọn của IBIT thuộc BlackRock vẫn phòng thủ, với tỷ lệ put/call 1,60 theo khối lượng và 1,34 theo hợp đồng mở, cùng Xếp Hạng IV đạt 87 (Barchart, OptionCharts, AlphaQuery, Tradestie). Tổng khối lượng giao dịch tăng 104,7% so với mức trung bình 12 ngày (BraveNewCoin, CoinStats AI), nhưng công cụ phái sinh gắn trực tiếp nhất với chính đợt phục hồi này — quyền chọn IBIT — vẫn chưa tham gia.",
+  "desc_id": "Bitcoin naik ke $64.033 saat Bollinger Band 20-hari menguji resistensi $65.700-$65.800, namun opsi IBIT tetap defensif dengan put/call 1,60 dan IV Rank 87.",
+  "desc_pl": "Bitcoin przy 64 033 USD, gdy Wstęgi Bollingera testują opór 65 700-65 800 USD, ale opcje IBIT pozostają defensywne (put/call 1,60, ranga IV 87).",
+  "desc_it": "Il bitcoin sale a $64.033 mentre Bollinger testa la resistenza $65.700-$65.800, ma le opzioni IBIT restano difensive (put/call 1,60, rango IV 87).",
+  "desc_ru": "Биткоин на $64 033, полосы Боллинджера тестируют сопротивление $65 700-$65 800, но опционы IBIT остаются защитными (пут/колл 1,60, ранг IV 87).",
+  "desc_zh": "比特幣攀升至64,033美元,較6月30日低點反彈逾10%,20日布林通道正測試65,700至65,800美元阻力區,恰與50日均線重疊;然而貝萊德IBIT選擇權市場仍偏防禦,賣權/買權比率達1.60,隱含波動率排名高達87,顯示衍生品信心尚未跟上反彈。"
 }

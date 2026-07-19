@@ -12,6 +12,11 @@
   "read_pt": "6",
   "read_tr": "6",
   "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6",
 
   "tag_ko": "ETF 유입 재개·거래량 21개월래 최저",
   "tag_en": "ETF Inflows Return · Volume at 21-Month Low",
@@ -22,6 +27,11 @@
   "tag_pt": "Entradas de ETF Retornam · Volume na Mínima em 21 Meses",
   "tag_tr": "ETF Girişleri Geri Döndü · Hacim 21 Ayın En Düşüğünde",
   "tag_vi": "Dòng Vốn ETF Trở Lại · Khối Lượng Thấp Nhất Trong 21 Tháng",
+  "tag_id": "Arus Masuk ETF Kembali · Volume di Titik Terendah 21 Bulan",
+  "tag_pl": "Napływy ETF Wracają · Wolumen na Najniższym Poziomie od 21 Miesięcy",
+  "tag_it": "Gli Afflussi ETF Tornano · Volume al Minimo di 21 Mesi",
+  "tag_ru": "Приток ETF Возвращается · Объём на Минимуме за 21 Месяц",
+  "tag_zh": "ETF資金流入回歸‧成交量創21個月新低",
 
   "bc_ko": "ETF 자금흐름·거래량 참여도 점검",
   "bc_en": "ETF Flow vs. Volume Participation Check",
@@ -32,6 +42,11 @@
   "bc_pt": "Verificação: Fluxo de ETF vs. Participação por Volume",
   "bc_tr": "ETF Akışı - Hacim Katılımı İncelemesi",
   "bc_vi": "Kiểm Tra Dòng Vốn ETF So Với Mức Tham Gia Theo Khối Lượng",
+  "bc_id": "Pemeriksaan Arus ETF vs. Partisipasi Volume",
+  "bc_pl": "Kontrola: Przepływ ETF a Uczestnictwo w Wolumenie",
+  "bc_it": "Verifica: Flusso ETF vs. Partecipazione del Volume",
+  "bc_ru": "Проверка: Поток ETF в Сравнении с Участием по Объёму",
+  "bc_zh": "ETF資金流與成交量參與度檢視",
 
   "title_ko": "ETF 자금은 8주 만에 돌아왔는데, 거래량은 2024년 10월 이후 최저로 가라앉았다",
   "title_en": "ETF Money Returned After Eight Weeks — But Trading Volume Sank to Its Lowest Since October 2024",
@@ -42,6 +57,11 @@
   "title_pt": "O Dinheiro dos ETFs Voltou Após Oito Semanas — Mas o Volume de Negociação Caiu à Mínima Desde Outubro de 2024",
   "title_tr": "ETF Parası Sekiz Hafta Sonra Geri Döndü — Ama İşlem Hacmi Ekim 2024'ten Bu Yana En Düşük Seviyeye Geriledi",
   "title_vi": "Tiền ETF Đã Quay Lại Sau Tám Tuần — Nhưng Khối Lượng Giao Dịch Giảm Xuống Mức Thấp Nhất Kể Từ Tháng 10/2024",
+  "title_id": "Dana ETF Kembali Setelah Delapan Minggu — Namun Volume Perdagangan Anjlok ke Titik Terendah Sejak Oktober 2024",
+  "title_pl": "Pieniądze z ETF-ów Wróciły Po Ośmiu Tygodniach — Ale Wolumen Obrotu Spadł do Najniższego Poziomu od Października 2024 Roku",
+  "title_it": "Il Denaro degli ETF È Tornato Dopo Otto Settimane — Ma il Volume di Scambi È Sceso al Minimo da Ottobre 2024",
+  "title_ru": "Деньги ETF Вернулись Спустя Восемь Недель — Но Торговый Объём Упал до Минимума с Октября 2024 Года",
+  "title_zh": "ETF資金時隔八週回歸——但成交量降至2024年10月以來最低",
 
   "h1_ko": "ETF 자금은 돌아왔다<br>참여는 아직 돌아오지 않았다",
   "h1_en": "ETF Money Came Back<br>Participation Hasn't, Yet",
@@ -52,6 +72,11 @@
   "h1_pt": "O Dinheiro dos ETFs Voltou<br>A Participação, Ainda Não",
   "h1_tr": "ETF Parası Geri Döndü<br>Katılım Henüz Dönmedi",
   "h1_vi": "Tiền ETF Đã Trở Lại<br>Sự Tham Gia Thì Chưa",
+  "h1_id": "Dana ETF Sudah Kembali<br>Partisipasi Belum",
+  "h1_pl": "Pieniądze z ETF-ów Wróciły<br>Uczestnictwo Jeszcze Nie",
+  "h1_it": "Il Denaro degli ETF È Tornato<br>La Partecipazione Ancora No",
+  "h1_ru": "Деньги ETF Вернулись<br>Участие — Пока Нет",
+  "h1_zh": "ETF資金已回來<br>參與度尚未回來",
 
   "desc_ko": "비트코인은 7월13일 오전 6만4,000달러대(6월30일 저점 5만7,900달러대 대비 +11%)에서 거래되고 있다. 미국 상장 비트코인 현물 ETF는 7월7~11일 한 주 약1억9,740만달러 순유입을 기록하며 8주 연속(자산군 사상 최장) 유출을 끊었고, 이더리움 ETF도 8,440만달러 유입으로 자기 기록과 타이였던 8주 유출을 함께 마감했다(더블록). 그러나 직전 8주 동안 두 자산군에서 빠져나간 94억6,000만달러에 비하면 이번 유입은 회복률 약3%에 그친다. 더 눈에 띄는 건 거래량이다 — 같은 주 비트코인 현물 ETF의 5거래일 거래대금은 약84억1,000만달러로 2024년10월 이후 온전한 한 주 기준 최저치까지 가라앉았다. 크립토브리핑에 따르면 7월10일 매수도 블랙록의 IBIT·ETHA 두 상품에 집중됐고 나머지 발행사는 자금 흐름이 거의 없었다. 공포탐욕지수도 26(Alternative.me)으로 여전히 공포권이다. 가격과 자금 방향은 반등 쪽을 가리키지만, 거래량·매수 폭·크라우드 심리는 아직 그 반등에 무게를 실어주지 않는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin was trading in the mid-$64,000s on the morning of July 13 — up 11% from its $57,900 low on June 30. US-listed spot bitcoin ETFs took in roughly $197.4 million net over the week of July 7-11, ending a record eight-week outflow streak, while ether ETFs pulled in $84.4 million to end their own streak that had tied the category record (The Block). But against the $9.46 billion combined outflow from the prior eight weeks, this week's inflow recovers only about 3%. More notable is volume: bitcoin spot ETF trading volume over those five sessions came to roughly $8.41 billion, the lowest for a full week since October 2024. Per CryptoBriefing, July 10 buying was concentrated in BlackRock's IBIT and ETHA, with little flow elsewhere. The Fear & Greed Index still reads 26 (Alternative.me), in fear territory. A look at a phase where price and flow direction point toward a rebound, but volume, buying breadth, and crowd sentiment haven't yet confirmed it.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échangeait dans la zone des 64 000 dollars dans la matinée du 13 juillet, en hausse de 11 % par rapport à son plus bas de 57 900 dollars du 30 juin. Les ETF bitcoin au comptant cotés aux États-Unis ont attiré environ 197,4 millions de dollars nets au cours de la semaine du 7 au 11 juillet, mettant fin à une série record de huit semaines de sorties, tandis que les ETF ether ont attiré 84,4 millions de dollars, mettant fin à leur propre série qui avait égalé le record de la catégorie (The Block). Mais face aux 9,46 milliards de dollars de sorties combinées des huit semaines précédentes, l'entrée de cette semaine n'en récupère qu'environ 3 %. Plus notable est le volume : le volume d'échanges des ETF bitcoin au comptant sur ces cinq séances s'est élevé à environ 8,41 milliards de dollars, le plus bas pour une semaine complète depuis octobre 2024. Selon CryptoBriefing, les achats du 10 juillet se sont concentrés sur IBIT et ETHA de BlackRock, avec peu de flux ailleurs. L'indice de peur et de cupidité affiche toujours 26 (Alternative.me), en zone de peur. Un examen d'une phase où le prix et la direction des flux pointent vers un rebond, mais où le volume, l'ampleur des achats et le sentiment de la foule ne le confirment pas encore.",
   "desc_pt": "O bitcoin era negociado na faixa média dos US$ 64.000 na manhã de 13 de julho, alta de 11% em relação à mínima de US$ 57.900 de 30 de junho. Os ETFs de bitcoin à vista listados nos EUA captaram cerca de US$ 197,4 milhões líquidos na semana de 7 a 11 de julho, encerrando uma sequência recorde de oito semanas de saídas, enquanto os ETFs de ether captaram US$ 84,4 milhões, encerrando sua própria sequência que havia igualado o recorde da categoria (The Block). Mas frente aos US$ 9,46 bilhões em saídas combinadas das oito semanas anteriores, a entrada desta semana recupera apenas cerca de 3%. Mais notável é o volume: o volume de negociação dos ETFs à vista de bitcoin nessas cinco sessões ficou em cerca de US$ 8,41 bilhões, o mais baixo para uma semana completa desde outubro de 2024. Segundo a CryptoBriefing, as compras de 10 de julho se concentraram no IBIT e no ETHA da BlackRock, com pouco fluxo no restante. O Índice de Medo e Ganância ainda marca 26 (Alternative.me), em território de medo. Uma análise de uma fase em que o preço e a direção dos fluxos apontam para uma recuperação, mas volume, amplitude de compras e sentimento da multidão ainda não a confirmam.",
   "desc_tr": "Bitcoin, 13 Temmuz sabahı 64.000 doların ortalarında işlem görüyordu — 30 Haziran'daki 57.900 dolarlık dibin %11 üzerinde. ABD'de listelenen spot bitcoin ETF'leri 7-11 Temmuz haftasında yaklaşık 197,4 milyon dolar net giriş çekerek varlık sınıfının en uzun süren sekiz haftalık çıkış serisini sona erdirdi; ether ETF'leri ise 84,4 milyon dolar çekerek kategori rekoruna eşitlenen kendi serisini bitirdi (The Block). Ancak önceki sekiz haftadaki toplam 9,46 milyar dolarlık çıkışa karşı, bu haftaki giriş bunun yalnızca yaklaşık %3'ünü telafi ediyor. Daha dikkat çekici olan hacim: bitcoin spot ETF'lerinin bu beş seanstaki işlem hacmi yaklaşık 8,41 milyar dolara geriledi; bu, Ekim 2024'ten bu yana tam bir hafta için en düşük seviye. CryptoBriefing'e göre, 10 Temmuz'daki alımlar BlackRock'un IBIT ve ETHA'sında yoğunlaştı, başka yerde ise çok az akış oldu. Korku ve Açgözlülük Endeksi hâlâ 26'yı gösteriyor (Alternative.me), korku bölgesinde. Fiyat ve akış yönünün bir toparlanmaya işaret ettiği ama hacim, alım genişliği ve kalabalık duyarlılığının bunu henüz doğrulamadığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào sáng ngày 13 tháng 7, tăng 11% so với đáy 57.900 đô la ngày 30 tháng 6. Các ETF bitcoin giao ngay niêm yết tại Mỹ thu hút khoảng 197,4 triệu đô la ròng trong tuần từ 7-11 tháng 7, chấm dứt chuỗi tám tuần rút vốn kỷ lục dài nhất của nhóm tài sản này, trong khi các ETF ether thu hút 84,4 triệu đô la, kết thúc chuỗi của riêng mình vốn đã ngang bằng kỷ lục của nhóm (The Block). Nhưng so với 9,46 tỷ đô la rút vốn gộp trong tám tuần trước đó, dòng vốn vào tuần này chỉ bù đắp khoảng 3%. Đáng chú ý hơn là khối lượng giao dịch — khối lượng giao dịch ETF giao ngay bitcoin trong năm phiên đó đạt khoảng 8,41 tỷ đô la, mức thấp nhất cho một tuần đầy đủ kể từ tháng 10 năm 2024. Theo CryptoBriefing, hoạt động mua vào ngày 10 tháng 7 tập trung vào IBIT và ETHA của BlackRock, với rất ít dòng vốn ở nơi khác. Chỉ số Sợ hãi & Tham lam vẫn ở mức 26 (Alternative.me), trong vùng sợ hãi. Một góc nhìn về giai đoạn giá và hướng dòng vốn chỉ về một đợt phục hồi, nhưng khối lượng giao dịch, độ rộng mua vào và tâm lý đám đông vẫn chưa xác nhận điều đó."
+  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào sáng ngày 13 tháng 7, tăng 11% so với đáy 57.900 đô la ngày 30 tháng 6. Các ETF bitcoin giao ngay niêm yết tại Mỹ thu hút khoảng 197,4 triệu đô la ròng trong tuần từ 7-11 tháng 7, chấm dứt chuỗi tám tuần rút vốn kỷ lục dài nhất của nhóm tài sản này, trong khi các ETF ether thu hút 84,4 triệu đô la, kết thúc chuỗi của riêng mình vốn đã ngang bằng kỷ lục của nhóm (The Block). Nhưng so với 9,46 tỷ đô la rút vốn gộp trong tám tuần trước đó, dòng vốn vào tuần này chỉ bù đắp khoảng 3%. Đáng chú ý hơn là khối lượng giao dịch — khối lượng giao dịch ETF giao ngay bitcoin trong năm phiên đó đạt khoảng 8,41 tỷ đô la, mức thấp nhất cho một tuần đầy đủ kể từ tháng 10 năm 2024. Theo CryptoBriefing, hoạt động mua vào ngày 10 tháng 7 tập trung vào IBIT và ETHA của BlackRock, với rất ít dòng vốn ở nơi khác. Chỉ số Sợ hãi & Tham lam vẫn ở mức 26 (Alternative.me), trong vùng sợ hãi. Một góc nhìn về giai đoạn giá và hướng dòng vốn chỉ về một đợt phục hồi, nhưng khối lượng giao dịch, độ rộng mua vào và tâm lý đám đông vẫn chưa xác nhận điều đó.",
+  "desc_id": "ETF bitcoin AS meraih arus masuk bersih $197,4 juta pada 7-11 Juli, tapi volume anjlok ke titik terendah sejak Oktober 2024.",
+  "desc_pl": "Spotowe ETF-y na bitcoina w USA zanotowały napływ 197,4 mln dolarów w tygodniu 7-11 lipca, lecz wolumen spadł do minimum od października 2024.",
+  "desc_it": "Gli ETF spot su bitcoin USA hanno registrato afflussi netti di 197,4 milioni di dollari a luglio, ma il volume è sceso al minimo da ottobre 2024.",
+  "desc_ru": "Спотовые биткоин-ETF в США привлекли $197,4 млн чистого притока за неделю 7-11 июля, но торговый объём упал до минимума с октября 2024 года.",
+  "desc_zh": "美國比特幣現貨ETF在7月7日至11日淨流入約1.974億美元,結束連續八週的資金流出,但成交量卻降至2024年10月以來的最低水準。以太幣ETF也淨流入8,440萬美元,結束自身連續八週的資金流出。恐懼與貪婪指數仍為26,顯示市場情緒依然處於恐懼區間,反彈的參與度尚未獲得確認。"
 }
