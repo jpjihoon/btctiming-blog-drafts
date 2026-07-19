@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "VIX 안일 vs 비트코인 옵션 스큐 괴리",
   "tag_en": "VIX Complacency vs. BTC Options Skew Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Complacência do VIX vs. Lacuna no Skew de Opções BTC",
   "tag_tr": "VIX Rehaveti ve BTC Opsiyon Skew Farkı",
   "tag_vi": "Sự Chủ Quan Của VIX và Khoảng Cách Độ Lệch Quyền Chọn BTC",
+  "tag_id": "Kelengahan VIX vs. Kesenjangan Skew Opsi BTC",
+  "tag_pl": "Samozadowolenie VIX a Luka w Skew Opcji BTC",
+  "tag_it": "Compiacenza del VIX vs. Divario nello Skew delle Opzioni BTC",
+  "tag_ru": "Самоуспокоенность VIX и Разрыв в Скью Опционов BTC",
+  "tag_zh": "VIX自滿與比特幣選擇權Skew的落差",
 
   "title_ko": "주식시장 VIX는 안일권인데, 비트코인 옵션시장은 여전히 하방에 베팅한다",
   "title_en": "The Stock Market's VIX Signals Complacency — Bitcoin's Options Market Still Isn't Buying It",
@@ -32,6 +42,11 @@
   "title_pt": "O VIX do Mercado de Ações Sinaliza Complacência — O Mercado de Opções do Bitcoin Ainda Não Compra Essa Ideia",
   "title_tr": "Borsa VIX'i Rehavet Sinyali Veriyor — Bitcoin Opsiyon Piyasası Hâlâ İkna Olmadı",
   "title_vi": "VIX Của Thị Trường Chứng Khoán Báo Hiệu Sự Chủ Quan — Thị Trường Quyền Chọn Bitcoin Vẫn Chưa Tin",
+  "title_id": "VIX Pasar Saham Menandakan Kelengahan — Pasar Opsi Bitcoin Masih Belum Mempercayainya",
+  "title_pl": "VIX Rynku Akcji Sygnalizuje Samozadowolenie — Rynek Opcji Bitcoina Wciąż w To Nie Wierzy",
+  "title_it": "Il VIX del Mercato Azionario Segnala Compiacenza — Il Mercato delle Opzioni di Bitcoin Non Ci Crede Ancora",
+  "title_ru": "VIX Фондового Рынка Сигнализирует о Самоуспокоенности — Рынок Опционов Биткоина Пока в Это Не Верит",
+  "title_zh": "股市VIX發出自滿訊號——比特幣選擇權市場仍未買帳",
 
   "h1_ko": "VIX는 안일권인 15선까지 내려앉았는데,<br>비트코인 옵션 스큐와 공포탐욕지수는 여전히 방어·공포권에 머물러 있다",
   "h1_en": "The VIX Has Settled Into the Complacent Mid-Teens,<br>But Bitcoin's Options Skew and Fear & Greed Index Remain Defensive and Fearful",
@@ -42,6 +57,11 @@
   "h1_pt": "O VIX Se Acomodou na Zona Complacente dos Quinze,<br>Mas o Skew de Opções do Bitcoin e o Índice de Medo e Ganância Seguem Defensivos e Temerosos",
   "h1_tr": "VIX Rehavet Bölgesi Olan 15'li Seviyelere Yerleşti,<br>Ama Bitcoin Opsiyon Skew'i ve Korku ve Açgözlülük Endeksi Hâlâ Savunmacı ve Korkulu",
   "h1_vi": "VIX Đã Lắng Xuống Vùng Chủ Quan Ở Mức 15,<br>Nhưng Độ Lệch Quyền Chọn Bitcoin và Chỉ Số Sợ Hãi & Tham Lam Vẫn Phòng Thủ và Sợ Hãi",
+  "h1_id": "VIX Telah Mengendap di Level Belasan yang Lengah,<br>Namun Skew Opsi Bitcoin dan Indeks Ketakutan & Keserakahan Tetap Defensif dan Ketakutan",
+  "h1_pl": "VIX Osiadł na Samozadowolonych Poziomach Kilkunastu Punktów,<br>Ale Skew Opcji Bitcoina i Indeks Strachu i Chciwości Pozostają Defensywne i Pełne Strachu",
+  "h1_it": "Il VIX Si È Assestato nella Compiacente Fascia Bassa dei Quindici,<br>Ma lo Skew delle Opzioni di Bitcoin e l'Indice di Paura e Avidità Restano Difensivi e Timorosi",
+  "h1_ru": "VIX Осел на Самоуспокоенных Уровнях Середины Второго Десятка,<br>Но Скью Опционов Биткоина и Индекс Страха и Жадности Остаются Защитными и Напуганными",
+  "h1_zh": "VIX已沉入自滿的15字頭區間,<br>但比特幣選擇權Skew與恐懼與貪婪指數仍維持防禦與恐懼",
 
   "bc_ko": "VIX·비트코인 옵션 스큐 점검",
   "bc_en": "VIX & BTC Options Skew Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação do VIX e do Skew de Opções BTC",
   "bc_tr": "VIX ve BTC Opsiyon Skew İncelemesi",
   "bc_vi": "Kiểm Tra VIX và Độ Lệch Quyền Chọn BTC",
+  "bc_id": "Pemeriksaan VIX & Skew Opsi BTC",
+  "bc_pl": "Kontrola VIX i Skew Opcji BTC",
+  "bc_it": "Verifica VIX e Skew delle Opzioni BTC",
+  "bc_ru": "Проверка VIX и Скью Опционов BTC",
+  "bc_zh": "VIX與BTC選擇權Skew檢視",
 
   "desc_ko": "비트코인은 7월12일 밤 6만3,800달러 안팎, 최근 24시간 6만3,956~6만4,419달러 사이 좁은 박스권에서 움직였다(바이비트·코인데스크). 같은 시각 주식시장의 공포지표 VIX는 7월10일 15.03으로 마감하며 '낮은 변동성·안일' 구간에 내려앉았고, S&P500(SPY)은 그 주간 3.06%, 나스닥100은 2.31% 올라 리스크온 흐름을 보였다(데이터드리븐스톡스·벨록스매크로). 그런데 비트코인 옵션시장의 1주 25델타 스큐는 여전히 풋 프리미엄 약 16%로 방어적이고, 1~6개월물도 10%대 풋 프리미엄을 유지 중이다(코인데스크·크립토데일리). 공포탐욕지수도 CFGI.io 기준 36(공포)에 머물러 있다. 전통 위험자산의 안일함과 크립토 고유 지표의 방어적 태세가 서로 다른 이야기를 하는 지금 국면을 짚었다.",
   "desc_en": "Bitcoin traded around $63,800 on the night of July 12, moving within a narrow $63,956-$64,419 band over the past 24 hours (Bybit, CoinDesk). At the same time, the stock market's fear gauge, the VIX, closed at 15.03 on July 10 — settling into 'low volatility/complacency' territory — while the S&P 500 (SPY) gained 3.06% and the Nasdaq 100 added 2.31% that week in a clear risk-on move (Data Driven Stocks, Velox Macro). Yet Bitcoin's options market tells a different story: the one-week 25-delta skew still carries roughly a 16% put premium, and one-to-six-month tenors hold put premiums near 10% (CoinDesk, CryptoDaily). The Fear & Greed Index also remains at 36 (Fear) per CFGI.io. A look at a phase where traditional risk-asset complacency and crypto-native defensive positioning aren't telling the same story.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé autour de 63 800 dollars dans la nuit du 12 juillet, évoluant dans une bande étroite de 63 956 à 64 419 dollars au cours des dernières 24 heures (Bybit, CoinDesk). Au même moment, la jauge de peur du marché actions, le VIX, a clôturé à 15,03 le 10 juillet — s'installant en zone de « faible volatilité/complaisance » — tandis que le S&P 500 (SPY) a gagné 3,06 % et le Nasdaq 100 a ajouté 2,31 % cette semaine-là dans un net mouvement risk-on (Data Driven Stocks, Velox Macro). Pourtant, le marché des options du bitcoin raconte une histoire différente : le skew à 25-delta sur une semaine porte toujours une prime put d'environ 16 %, et les échéances de un à six mois maintiennent des primes put proches de 10 % (CoinDesk, CryptoDaily). L'Indice de Peur et d'Avidité reste également à 36 (Peur) selon CFGI.io. Un examen d'une phase où la complaisance des actifs à risque traditionnels et le positionnement défensif propre à la crypto ne racontent pas la même histoire.",
   "desc_pt": "O bitcoin foi negociado em torno de US$ 63.800 na noite de 12 de julho, movendo-se dentro de uma faixa estreita de US$ 63.956-64.419 nas últimas 24 horas (Bybit, CoinDesk). Ao mesmo tempo, o medidor de medo do mercado de ações, o VIX, fechou em 15,03 em 10 de julho — acomodando-se em território de 'baixa volatilidade/complacência' — enquanto o S&P 500 (SPY) subiu 3,06% e o Nasdaq 100 avançou 2,31% naquela semana, em um claro movimento de risk-on (Data Driven Stocks, Velox Macro). No entanto, o mercado de opções do bitcoin conta uma história diferente: o skew de 25-delta de uma semana ainda carrega um prêmio de put de cerca de 16%, e os vencimentos de um a seis meses mantêm prêmios de put perto de 10% (CoinDesk, CryptoDaily). O Índice de Medo e Ganância também permanece em 36 (Medo) segundo a CFGI.io. Uma análise de uma fase em que a complacência dos ativos de risco tradicionais e o posicionamento defensivo nativo das criptomoedas não contam a mesma história.",
   "desc_tr": "Bitcoin, 12 Temmuz gecesi 63.800 dolar civarında işlem gördü ve son 24 saatte 63.956 ile 64.419 dolar arasında dar bir bantta hareket etti (Bybit, CoinDesk). Aynı sırada, borsanın korku göstergesi VIX, 10 Temmuz'da 15,03'ten kapanarak 'düşük volatilite/rehavet' bölgesine yerleşti; S&P 500 (SPY) o hafta yüzde 3,06, Nasdaq 100 ise yüzde 2,31 yükselerek net bir risk-on hareketi sergiledi (Data Driven Stocks, Velox Macro). Ama Bitcoin opsiyon piyasası farklı bir hikaye anlatıyor: bir haftalık 25-delta skew hâlâ yaklaşık yüzde 16 put primi taşıyor, bir ila altı aylık vadeler ise yüzde 10 civarında put primi koruyor (CoinDesk, CryptoDaily). Korku ve Açgözlülük Endeksi de CFGI.io'ya göre 36'da (Korku) kalıyor. Geleneksel riskli varlıkların rehaveti ile kripto-özel göstergelerin savunmacı duruşunun aynı hikayeyi anlatmadığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 63.800 đô la vào đêm ngày 12 tháng 7, di chuyển trong biên độ hẹp từ 63.956 đến 64.419 đô la trong 24 giờ qua (Bybit, CoinDesk). Cùng lúc đó, thước đo nỗi sợ của thị trường chứng khoán, VIX, đóng cửa ở mức 15,03 vào ngày 10 tháng 7 — lắng xuống vùng 'biến động thấp/chủ quan' — trong khi S&P 500 (SPY) tăng 3,06% và Nasdaq 100 tăng thêm 2,31% trong tuần đó, một động thái risk-on rõ rệt (Data Driven Stocks, Velox Macro). Tuy nhiên, thị trường quyền chọn Bitcoin lại kể một câu chuyện khác: độ lệch 25-delta kỳ hạn một tuần vẫn mang mức phí quyền chọn bán khoảng 16%, và các kỳ hạn một đến sáu tháng duy trì phí quyền chọn bán gần 10% (CoinDesk, CryptoDaily). Chỉ Số Sợ Hãi & Tham Lam cũng vẫn ở mức 36 (Sợ Hãi) theo CFGI.io. Một góc nhìn về giai đoạn mà sự chủ quan của tài sản rủi ro truyền thống và thế phòng thủ đặc trưng của crypto không kể cùng một câu chuyện."
+  "desc_vi": "Bitcoin giao dịch quanh mức 63.800 đô la vào đêm ngày 12 tháng 7, di chuyển trong biên độ hẹp từ 63.956 đến 64.419 đô la trong 24 giờ qua (Bybit, CoinDesk). Cùng lúc đó, thước đo nỗi sợ của thị trường chứng khoán, VIX, đóng cửa ở mức 15,03 vào ngày 10 tháng 7 — lắng xuống vùng 'biến động thấp/chủ quan' — trong khi S&P 500 (SPY) tăng 3,06% và Nasdaq 100 tăng thêm 2,31% trong tuần đó, một động thái risk-on rõ rệt (Data Driven Stocks, Velox Macro). Tuy nhiên, thị trường quyền chọn Bitcoin lại kể một câu chuyện khác: độ lệch 25-delta kỳ hạn một tuần vẫn mang mức phí quyền chọn bán khoảng 16%, và các kỳ hạn một đến sáu tháng duy trì phí quyền chọn bán gần 10% (CoinDesk, CryptoDaily). Chỉ Số Sợ Hãi & Tham Lam cũng vẫn ở mức 36 (Sợ Hãi) theo CFGI.io. Một góc nhìn về giai đoạn mà sự chủ quan của tài sản rủi ro truyền thống và thế phòng thủ đặc trưng của crypto không kể cùng một câu chuyện.",
+  "desc_id": "VIX pasar saham turun ke zona kelengahan di 15,03, tapi skew opsi Bitcoin dan Indeks Ketakutan & Keserakahan tetap defensif dan ketakutan.",
+  "desc_pl": "VIX rynku akcji spadł do poziomu samozadowolenia 15,03, ale skew opcji Bitcoina i Indeks Strachu i Chciwości pozostają defensywne.",
+  "desc_it": "Il VIX è sceso a 15,03 nella zona di compiacenza, ma lo skew delle opzioni Bitcoin e l'Indice di Paura e Avidità restano difensivi.",
+  "desc_ru": "VIX фондового рынка упал до 15,03 в зоне самоуспокоенности, но скью опционов биткоина и Индекс страха и жадности остаются защитными.",
+  "desc_zh": "比特幣7月12日夜間在6萬3,800美元附近平靜交易。同一時間,股市恐慌指標VIX降至15.03,沉入自滿區間,標普500當週上漲3.06%。然而,比特幣選擇權市場的skew仍維持約16%的賣權溢價,恐懼與貪婪指數也僅36分,顯示加密貨幣原生指標仍處於防禦與恐懼狀態,與傳統市場的自滿情緒形成落差。"
 }
