@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "역김치프리미엄 지속·코인베이스 프리미엄 50일 마이너스",
   "tag_en": "Reverse Kimchi Premium Persists · Coinbase Premium 50-Day Negative Streak",
@@ -22,6 +27,11 @@
   "tag_pt": "Prêmio Kimchi Reverso Persiste · Prêmio Coinbase 50 Dias Negativo",
   "tag_tr": "Ters Kimchi Primi Sürüyor · Coinbase Primi 50 Gün Negatif",
   "tag_vi": "Phần Bù Kimchi Đảo Ngược Kéo Dài · Phần Bù Coinbase Âm 50 Ngày",
+  "tag_id": "Premi Kimchi Terbalik Bertahan · Premi Coinbase Negatif 50 Hari",
+  "tag_pl": "Odwrócona Premia Kimchi Się Utrzymuje · Premia Coinbase Ujemna od 50 Dni",
+  "tag_it": "Premio Kimchi Inverso Persiste · Premio Coinbase Negativo da 50 Giorni",
+  "tag_ru": "Обратная Кимчи-Премия Сохраняется · Премия Coinbase Отрицательна 50 Дней",
+  "tag_zh": "逆泡菜溢價持續・Coinbase溢價連續50天為負",
 
   "bc_ko": "김치·코인베이스 프리미엄 점검",
   "bc_en": "Kimchi & Coinbase Premium Check",
@@ -32,6 +42,11 @@
   "bc_pt": "Verificação: Prêmios Kimchi e Coinbase",
   "bc_tr": "Kimchi ve Coinbase Primi İncelemesi",
   "bc_vi": "Kiểm Tra Phần Bù Kimchi và Coinbase",
+  "bc_id": "Pemeriksaan Premi Kimchi & Coinbase",
+  "bc_pl": "Analiza Premii Kimchi i Coinbase",
+  "bc_it": "Verifica Premio Kimchi e Coinbase",
+  "bc_ru": "Проверка Премий Kimchi и Coinbase",
+  "bc_zh": "泡菜與Coinbase溢價觀察",
 
   "title_ko": "김치·코인베이스 프리미엄 동반 마이너스 — 6만4,000달러 반등, 온쇼어 수요는 아직 안 보인다",
   "title_en": "Kimchi and Coinbase Premiums Both Negative — Onshore Demand Still Missing From the $64,000 Bounce",
@@ -42,6 +57,11 @@
   "title_pt": "Prêmios Kimchi e Coinbase, Ambos Negativos — Demanda Onshore Ainda Ausente na Recuperação para US$ 64.000",
   "title_tr": "Kimchi ve Coinbase Primi İkisi de Negatif — 64.000 Dolarlık Sıçramada Yerel Talep Hâlâ Görünmüyor",
   "title_vi": "Phần Bù Kimchi và Coinbase Đều Âm — Nhu Cầu Nội Địa Vẫn Vắng Bóng Trong Đợt Phục Hồi 64.000 Đô La",
+  "title_id": "Premi Kimchi dan Coinbase Sama-Sama Negatif — Permintaan Domestik Masih Absen dari Kenaikan $64.000",
+  "title_pl": "Premie Kimchi i Coinbase Obie Ujemne — Popyt Lokalny Wciąż Nieobecny w Odbiciu do 64 000 Dolarów",
+  "title_it": "Premi Kimchi e Coinbase Entrambi Negativi — La Domanda Locale Ancora Assente dal Rimbalzo a $64.000",
+  "title_ru": "Премии Kimchi и Coinbase Обе Отрицательны — Локальный Спрос По-Прежнему Отсутствует в Отскоке к $64 000",
+  "title_zh": "泡菜與Coinbase溢價雙雙為負——6萬4,000美元反彈中本地需求依然缺席",
 
   "h1_ko": "가격은 반등했는데 두 거래소 프리미엄은 그대로다<br>한국·미국 온쇼어 수요로 본 반등의 실체",
   "h1_en": "Price Rebounded, But Both Exchange Premiums Didn't Budge<br>What Korean and US Onshore Demand Say About This Bounce",
@@ -52,6 +72,11 @@
   "h1_pt": "O Preço Se Recuperou, Mas Nenhum dos Dois Prêmios de Corretora se Moveu<br>O Que a Demanda Onshore da Coreia e dos EUA Diz Sobre Essa Recuperação",
   "h1_tr": "Fiyat Sıçradı Ama İki Borsa Primi de Kımıldamadı<br>Kore ve ABD Yerel Talebi Bu Sıçrama Hakkında Ne Söylüyor",
   "h1_vi": "Giá Đã Phục Hồi, Nhưng Cả Hai Phần Bù Sàn Giao Dịch Đều Không Nhúc Nhích<br>Nhu Cầu Nội Địa Hàn Quốc và Mỹ Nói Gì Về Đợt Phục Hồi Này",
+  "h1_id": "Harga Pulih, Tapi Kedua Premi Bursa Tidak Bergeming<br>Apa Kata Permintaan Domestik Korea dan AS Tentang Kenaikan Ini",
+  "h1_pl": "Cena Się Odbiła, Ale Obie Premie Giełdowe Nie Drgnęły<br>Co Koreański i Amerykański Popyt Lokalny Mówią o Tym Odbiciu",
+  "h1_it": "Il Prezzo È Rimbalzato, Ma Entrambi i Premi degli Exchange Non Si Sono Mossi<br>Cosa Dice la Domanda Locale di Corea e USA su Questo Rimbalzo",
+  "h1_ru": "Цена Отскочила, Но Обе Биржевые Премии Не Сдвинулись<br>Что Говорит Локальный Спрос Кореи и США об Этом Отскоке",
+  "h1_zh": "價格反彈,但兩項交易所溢價紋絲不動<br>韓國與美國本地需求對這波反彈說了什麼",
 
   "desc_ko": "비트코인은 7월13일 저녁 6만4,000달러대(6월30일 저점 5만7,900달러대 대비 +11%)에서 거래되고 있지만, 2025년 10월6일 사상최고가 12만6,198달러 대비로는 여전히 49% 낮다. 한국 업비트와 해외 거래소 간 가격차인 김치 프리미엄은 7월3일 -1.54%, 7월6일 -1.58%, 7월8일 -2.18%를 거쳐 7월9일 -1.44%로 소폭 완화됐지만 여전히 마이너스권이다(블루밍비트, 빅고 파이낸스). 미국 코인베이스 프리미엄은 5월19일부터 7월7일까지 최소 50거래일 연속 마이너스를 기록해 역대 최장 기록을 세웠고, 최근값은 -0.0742%다(코인글래스, 야후파이낸스). 두 지역 모두 온쇼어 현물 수요가 해외 대비 상대적으로 약한 채, 가격만 11% 반등한 지금 국면을 점검했다.",
   "desc_en": "Bitcoin was trading in the mid-$64,000s on the evening of July 13 (up 11% from its $57,900 low on June 30), yet still 49% below the $126,198 all-time high set on October 6, 2025. The kimchi premium — the spread between Korea's Upbit and offshore exchanges — read -1.54% on July 3, -1.58% on July 6, and -2.18% on July 8 before easing to -1.44% on July 9, still negative throughout (Bloomingbit, BigGo Finance). The Coinbase premium in the US has stayed negative for at least 50 straight trading days from May 19 through July 7, its longest streak on record, with a latest reading of -0.0742% (CoinGlass, Yahoo Finance). A look at a phase where onshore spot demand in both regions reads relatively weak against offshore, even as price alone rallied 11%.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échangeait dans la zone des 64 000 dollars dans la soirée du 13 juillet (+11 % par rapport au plus bas de 57 900 dollars du 30 juin), mais reste inférieur de 49 % au plus haut historique de 126 198 dollars du 6 octobre 2025. La prime kimchi — l'écart entre Upbit en Corée et les plateformes offshore — s'est établie à -1,54 % le 3 juillet, -1,58 % le 6 juillet et -2,18 % le 8 juillet avant de s'atténuer à -1,44 % le 9 juillet, restant négative en permanence (Bloomingbit, BigGo Finance). La prime Coinbase aux États-Unis est restée négative pendant au moins 50 jours de bourse consécutifs, du 19 mai au 7 juillet, sa plus longue série jamais enregistrée, avec une dernière lecture de -0,0742 % (CoinGlass, Yahoo Finance). Un examen d'une phase où la demande spot onshore dans les deux régions reste relativement faible face à l'étranger, alors que seul le prix a rebondi de 11 %.",
   "desc_pt": "O bitcoin era negociado na faixa média dos US$ 64.000 na noite de 13 de julho (+11% em relação à mínima de US$ 57.900 de 30 de junho), mas ainda está 49% abaixo da máxima histórica de US$ 126.198 de 6 de outubro de 2025. O prêmio kimchi — o spread entre a Upbit da Coreia e corretoras estrangeiras — marcou -1,54% em 3 de julho, -1,58% em 6 de julho e -2,18% em 8 de julho antes de aliviar para -1,44% em 9 de julho, negativo o tempo todo (Bloomingbit, BigGo Finance). O prêmio Coinbase nos EUA permaneceu negativo por pelo menos 50 dias de negociação consecutivos, de 19 de maio a 7 de julho, sua mais longa sequência já registrada, com leitura mais recente de -0,0742% (CoinGlass, Yahoo Finance). Uma análise de uma fase em que a demanda à vista onshore em ambas as regiões se mostra relativamente fraca frente ao exterior, enquanto apenas o preço subiu 11%.",
   "desc_tr": "Bitcoin, 13 Temmuz akşamı 64.000 doların ortalarında işlem gördü (30 Haziran'daki 57.900 dolarlık dibe göre +%11), ancak hâlâ 6 Ekim 2025'teki 126.198 dolarlık tüm zamanların zirvesinin %49 altında. Kore'nin Upbit borsası ile yurt dışı borsalar arasındaki farkı gösteren kimchi primi 3 Temmuz'da -%1,54, 6 Temmuz'da -%1,58 ve 8 Temmuz'da -%2,18 oldu, 9 Temmuz'da -%1,44'e hafifledi ama sürekli negatif kaldı (Bloomingbit, BigGo Finance). ABD'deki Coinbase primi 19 Mayıs'tan 7 Temmuz'a kadar en az 50 ardışık işlem günü negatif kaldı; bu, kayıtlardaki en uzun seri ve son okuma -%0,0742 (CoinGlass, Yahoo Finance). Her iki bölgede de yerel spot talebin yurt dışına kıyasla nispeten zayıf kaldığı, buna karşın yalnızca fiyatın %11 sıçradığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào tối 13 tháng 7 (tăng 11% so với đáy 57.900 đô la ngày 30 tháng 6), nhưng vẫn thấp hơn 49% so với đỉnh cao nhất mọi thời đại 126.198 đô la ngày 6 tháng 10 năm 2025. Phần bù kimchi — chênh lệch giữa Upbit của Hàn Quốc và các sàn nước ngoài — ở mức -1,54% vào ngày 3/7, -1,58% vào ngày 6/7 và -2,18% vào ngày 8/7 trước khi nới lỏng còn -1,44% vào ngày 9/7, luôn ở mức âm (Bloomingbit, BigGo Finance). Phần bù Coinbase tại Mỹ duy trì mức âm trong ít nhất 50 phiên giao dịch liên tiếp từ 19/5 đến 7/7, chuỗi dài nhất từng ghi nhận, với số liệu gần nhất là -0,0742% (CoinGlass, Yahoo Finance). Một góc nhìn về giai đoạn nhu cầu giao ngay nội địa ở cả hai khu vực đều tương đối yếu so với nước ngoài, trong khi chỉ riêng giá đã tăng 11%."
+  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào tối 13 tháng 7 (tăng 11% so với đáy 57.900 đô la ngày 30 tháng 6), nhưng vẫn thấp hơn 49% so với đỉnh cao nhất mọi thời đại 126.198 đô la ngày 6 tháng 10 năm 2025. Phần bù kimchi — chênh lệch giữa Upbit của Hàn Quốc và các sàn nước ngoài — ở mức -1,54% vào ngày 3/7, -1,58% vào ngày 6/7 và -2,18% vào ngày 8/7 trước khi nới lỏng còn -1,44% vào ngày 9/7, luôn ở mức âm (Bloomingbit, BigGo Finance). Phần bù Coinbase tại Mỹ duy trì mức âm trong ít nhất 50 phiên giao dịch liên tiếp từ 19/5 đến 7/7, chuỗi dài nhất từng ghi nhận, với số liệu gần nhất là -0,0742% (CoinGlass, Yahoo Finance). Một góc nhìn về giai đoạn nhu cầu giao ngay nội địa ở cả hai khu vực đều tương đối yếu so với nước ngoài, trong khi chỉ riêng giá đã tăng 11%.",
+  "desc_id": "Bitcoin diperdagangkan di kisaran $64.000-an pada malam 13 Juli (naik 11% dari titik terendah $57.900 pada 30 Juni), namun masih 49% di bawah rekor tertinggi $126.198 yang tercatat pada 6 Oktober 2025. Premi kimchi — selisih antara Upbit Korea dan bursa luar negeri — tercatat -1,54% pada 3 Juli, -1,58% pada 6 Juli, dan -2,18% pada 8 Juli sebelum melonggar ke -1,44% pada 9 Juli, tetap negatif sepanjang periode ini (Bloomingbit, BigGo Finance). Premi Coinbase di AS tetap negatif selama setidaknya 50 hari perdagangan berturut-turut dari 19 Mei hingga 7 Juli, rentetan terpanjang sepanjang sejarah, dengan angka terbaru -0,0742% (CoinGlass, Yahoo Finance). Sebuah tinjauan atas fase ketika permintaan spot domestik di kedua wilayah tercatat relatif lemah dibandingkan luar negeri, meski harga sendiri melonjak 11%.",
+  "desc_pl": "Bitcoin był notowany w okolicach 64 000 dolarów wieczorem 13 lipca (wzrost o 11% od dołka 57 900 dolarów z 30 czerwca), ale wciąż 49% poniżej historycznego szczytu 126 198 dolarów z 6 października 2025 roku. Premia kimchi — różnica między koreańskim Upbit a giełdami zagranicznymi — wynosiła -1,54% 3 lipca, -1,58% 6 lipca i -2,18% 8 lipca, po czym złagodniała do -1,44% 9 lipca, pozostając ujemna przez cały ten czas (Bloomingbit, BigGo Finance). Premia Coinbase w USA pozostawała ujemna przez co najmniej 50 kolejnych dni sesyjnych od 19 maja do 7 lipca, co jest jej najdłuższą serią w historii, z najnowszym odczytem -0,0742% (CoinGlass, Yahoo Finance). Spojrzenie na fazę, w której popyt lokalny w obu regionach jest relatywnie słaby wobec zagranicy, mimo że sama cena wzrosła o 11%.",
+  "desc_it": "Il bitcoin veniva scambiato intorno ai $64.000 la sera del 13 luglio (in rialzo dell'11% dal minimo di $57.900 del 30 giugno), ma ancora del 49% sotto il massimo storico di $126.198 del 6 ottobre 2025. Il premio kimchi — lo spread tra Upbit in Corea e gli exchange esteri — segnava -1,54% il 3 luglio, -1,58% il 6 luglio e -2,18% l'8 luglio prima di attenuarsi a -1,44% il 9 luglio, restando negativo per tutto il periodo (Bloomingbit, BigGo Finance). Il premio Coinbase negli Stati Uniti è rimasto negativo per almeno 50 giorni di contrattazione consecutivi dal 19 maggio al 7 luglio, la sua serie più lunga mai registrata, con un ultimo dato di -0,0742% (CoinGlass, Yahoo Finance). Uno sguardo a una fase in cui la domanda spot locale in entrambe le regioni appare relativamente debole rispetto all'estero, anche se il prezzo da solo è salito dell'11%.",
+  "desc_ru": "Биткоин торговался в районе $64 000 вечером 13 июля (рост на 11% от минимума $57 900 30 июня), но всё ещё на 49% ниже исторического максимума в $126 198, установленного 6 октября 2025 года. Кимчи-премия — спред между корейской Upbit и зарубежными биржами — составляла -1,54% 3 июля, -1,58% 6 июля и -2,18% 8 июля, прежде чем смягчиться до -1,44% 9 июля, оставаясь отрицательной на протяжении всего периода (Bloomingbit, BigGo Finance). Премия Coinbase в США оставалась отрицательной как минимум 50 торговых дней подряд с 19 мая по 7 июля — её самая длинная серия за всю историю — с последним значением -0,0742% (CoinGlass, Yahoo Finance). Взгляд на период, когда локальный спотовый спрос в обоих регионах выглядит относительно слабым по сравнению с зарубежным, даже несмотря на то, что сама цена выросла на 11%.",
+  "desc_zh": "截至7月13日晚間,比特幣在6萬4,000美元區間交易(較6月30日5萬7,900美元低點上漲11%),但仍比2025年10月6日創下的12萬6,198美元歷史新高低49%。泡菜溢價——韓國Upbit與海外交易所之間的價差——在7月3日為-1.54%,7月6日為-1.58%,7月8日擴大至-2.18%,隨後於7月9日緩解至-1.44%,整段期間皆為負值(Bloomingbit、BigGo Finance)。美國的Coinbase溢價自5月19日至7月7日至少連續50個交易日為負,是史上最長紀錄,最新數值為-0.0742%(CoinGlass、Yahoo Finance)。本文檢視這樣一個階段:兩地本地現貨需求相對海外皆顯疲弱,即使價格本身已上漲11%。"
 }

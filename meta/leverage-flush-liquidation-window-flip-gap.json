@@ -12,6 +12,11 @@
   "read_pt": "6",
   "read_tr": "6",
   "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6",
 
   "tag_ko": "청산 데이터 시간대 괴리",
   "tag_en": "Liquidation Timeframe Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Lacuna de Janela Temporal nas Liquidações",
   "tag_tr": "Tasfiyelerde Zaman Penceresi Farkı",
   "tag_vi": "Khoảng Cách Khung Thời Gian Thanh Lý",
+  "tag_id": "Kesenjangan Kerangka Waktu Likuidasi",
+  "tag_pl": "Luka Ram Czasowych Likwidacji",
+  "tag_it": "Divario di Finestra Temporale nelle Liquidazioni",
+  "tag_ru": "Разрыв во Временном Окне Ликвидаций",
+  "tag_zh": "清算時間窗口落差",
 
   "title_ko": "24시간 청산은 롱을, 12시간 청산은 숏을 가리킨다",
   "title_en": "24-Hour Liquidations Point to Longs, 12-Hour to Shorts",
@@ -32,6 +42,11 @@
   "title_pt": "Liquidações de 24 Horas Apontam para Compradas, as de 12 para Vendidas",
   "title_tr": "24 Saatlik Tasfiyeler Long'ları, 12 Saatlik Short'ları İşaret Ediyor",
   "title_vi": "Thanh Lý 24 Giờ Chỉ Về Long, 12 Giờ Chỉ Về Short",
+  "title_id": "Likuidasi 24 Jam Mengarah ke Long, 12 Jam ke Short",
+  "title_pl": "Likwidacje 24-godzinne Wskazują na Long, 12-godzinne na Short",
+  "title_it": "Le Liquidazioni a 24 Ore Puntano ai Long, a 12 Ore agli Short",
+  "title_ru": "24-часовые Ликвидации Указывают на Long, 12-часовые — на Short",
+  "title_zh": "24小時清算指向多單,12小時清算指向空單",
 
   "h1_ko": "청산 데이터는 24시간 기준 롱을, 12시간 기준 숏을 가리키는데,<br>펀딩비는 이미 숏 쪽으로 프리미엄을 지불하고 있다",
   "h1_en": "Liquidation Data Points to Longs Over 24 Hours and Shorts Over 12,<br>While Funding Is Already Paying a Premium to Shorts",
@@ -42,6 +57,11 @@
   "h1_pt": "Os Dados de Liquidação Apontam para Compradas em 24 Horas e Vendidas em 12,<br>Enquanto o Financiamento Já Paga um Prêmio às Vendidas",
   "h1_tr": "Tasfiye Verileri 24 Saatte Long'ları, 12 Saatte Short'ları İşaret Ediyor,<br>Fonlama İse Şimdiden Short'lara Prim Ödüyor",
   "h1_vi": "Dữ Liệu Thanh Lý Chỉ Về Long Trong 24 Giờ và Short Trong 12 Giờ,<br>Trong Khi Lãi Suất Tài Trợ Đã Đang Trả Phí Bảo Hiểm Cho Short",
+  "h1_id": "Data Likuidasi Mengarah ke Long dalam 24 Jam dan Short dalam 12,<br>Sementara Funding Sudah Membayar Premi ke Short",
+  "h1_pl": "Dane o Likwidacjach Wskazują na Long w Ujęciu 24-godzinnym i na Short w 12-godzinnym,<br>Podczas Gdy Finansowanie Już Płaci Premię Shortom",
+  "h1_it": "I Dati di Liquidazione Puntano ai Long su 24 Ore e agli Short su 12,<br>Mentre il Funding Sta Già Pagando un Premio agli Short",
+  "h1_ru": "Данные о Ликвидациях Указывают на Long за 24 Часа и на Short за 12,<br>Пока Финансирование Уже Платит Премию Short",
+  "h1_zh": "清算數據在24小時窗口指向多單、12小時窗口指向空單,<br>而資金費率已經在向空單支付溢價",
 
   "bc_ko": "청산 데이터 시간대 점검",
   "bc_en": "Liquidation Timeframe Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação das Janelas de Liquidação",
   "bc_tr": "Tasfiye Zaman Penceresi İncelemesi",
   "bc_vi": "Kiểm Tra Khung Thời Gian Thanh Lý",
+  "bc_id": "Pemeriksaan Kerangka Waktu Likuidasi",
+  "bc_pl": "Sprawdzenie Ram Czasowych Likwidacji",
+  "bc_it": "Verifica della Finestra Temporale di Liquidazione",
+  "bc_ru": "Проверка Временного Окна Ликвидаций",
+  "bc_zh": "清算時間窗口檢視",
 
   "desc_ko": "비트코인은 7월13일 6만2,800달러 안팎, 아시아 세션 한때 6만4,300달러대에서 미끄러진 '레버리지 플러시'를 겪었다(코인데스크). 코인글래스 기준 24시간 청산은 롱 4,791만 달러 대 숏 1,366만 달러로 롱이 컸지만, 최근 12시간만 보면 숏 2,539만 달러 대 롱 1,272만 달러로 뒤집힌다. 펀딩비도 바이낸스 -0.0011%·OKX -0.0059%로 최근 롱 우위(+0.0087%/4시간)에서 숏 쪽으로 돌아섰지만, 정작 최근 청산에서 손실을 보는 쪽은 숏이다. 같은 데이터가 시간 창에 따라 다른 결론을 내는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin sat around $62,800 on July 13 after slipping from the mid-$64,300s during the Asian session in what CoinDesk called a 'leverage flush.' Per CoinGlass, 24-hour liquidations favored longs ($47.91M vs. $13.66M in shorts), but narrowing to the most recent 12 hours flips it — shorts at $25.39M vs. longs at $12.72M. Funding has also swung negative (Binance -0.0011%, OKX -0.0059%) from a long-tilted +0.0087%/4h earlier in the week, yet shorts are the side actually losing money in the most recent liquidations. A look at a phase where the same data tells different stories depending on the time window.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin se situait autour de 62 800 dollars le 13 juillet après avoir glissé depuis la zone des 64 300 dollars pendant la séance asiatique, dans ce que CoinDesk a appelé un 'leverage flush'. Selon CoinGlass, les liquidations sur 24 heures ont favorisé les positions longues (47,91 M$ contre 13,66 M$ pour les courtes), mais en réduisant aux 12 dernières heures, cela s'inverse — courtes à 25,39 M$ contre longues à 12,72 M$. Le financement est aussi devenu négatif (Binance -0,0011 %, OKX -0,0059 %) après un +0,0087 %/4h penché vers les longues plus tôt dans la semaine, mais ce sont les positions courtes qui perdent réellement de l'argent dans les liquidations les plus récentes. Un examen d'une phase où les mêmes données racontent des histoires différentes selon la fenêtre temporelle.",
   "desc_pt": "O bitcoin ficou em torno de US$ 62.800 em 13 de julho após deslizar da faixa de US$ 64.300 durante a sessão asiática, no que a CoinDesk chamou de 'leverage flush'. Segundo a CoinGlass, as liquidações de 24 horas favoreceram as compradas (US$ 47,91M contra US$ 13,66M em vendidas), mas ao estreitar para as últimas 12 horas isso se inverte — vendidas em US$ 25,39M contra compradas em US$ 12,72M. O financiamento também virou negativo (Binance -0,0011%, OKX -0,0059%) partindo de um +0,0087%/4h inclinado para compradas no início da semana, mas as vendidas são o lado que realmente perde dinheiro nas liquidações mais recentes. Uma análise de uma fase em que os mesmos dados contam histórias diferentes dependendo da janela temporal.",
   "desc_tr": "Bitcoin, 13 Temmuz'da Asya seansında 64.300 dolar seviyelerinden kayarak CoinDesk'in 'kaldıraç temizliği' dediği bir düşüş yaşadıktan sonra 62.800 dolar civarında seyretti. CoinGlass'a göre 24 saatlik tasfiyeler long'ları destekledi (47,91 milyon dolara karşı 13,66 milyon dolar short), ama son 12 saate daraltıldığında bu tersine dönüyor — 25,39 milyon dolar short'a karşı 12,72 milyon dolar long. Fonlama da hafta başındaki long ağırlıklı +0,0087%/4 saatten negatife döndü (Binance -0,0011, OKX -0,0059), ama en son tasfiyelerde gerçekte para kaybeden taraf short'lar. Aynı verinin zaman penceresine göre farklı hikayeler anlattığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin ở quanh mức 62.800 đô la vào ngày 13 tháng 7 sau khi trượt từ vùng 64.300 đô la trong phiên châu Á, trong cái mà CoinDesk gọi là một đợt 'xả đòn bẩy'. Theo CoinGlass, thanh lý trong 24 giờ nghiêng về long (47,91 triệu đô la so với 13,66 triệu đô la ở short), nhưng khi thu hẹp xuống 12 giờ gần nhất thì điều này đảo ngược — short ở mức 25,39 triệu đô la so với long ở mức 12,72 triệu đô la. Lãi suất tài trợ cũng chuyển sang âm (Binance -0,0011%, OKX -0,0059%) từ mức +0,0087%/4 giờ nghiêng về long hồi đầu tuần, nhưng short mới là bên thực sự mất tiền trong các đợt thanh lý gần nhất. Một góc nhìn về giai đoạn mà cùng một dữ liệu kể những câu chuyện khác nhau tùy theo khung thời gian."
+  "desc_vi": "Bitcoin ở quanh mức 62.800 đô la vào ngày 13 tháng 7 sau khi trượt từ vùng 64.300 đô la trong phiên châu Á, trong cái mà CoinDesk gọi là một đợt 'xả đòn bẩy'. Theo CoinGlass, thanh lý trong 24 giờ nghiêng về long (47,91 triệu đô la so với 13,66 triệu đô la ở short), nhưng khi thu hẹp xuống 12 giờ gần nhất thì điều này đảo ngược — short ở mức 25,39 triệu đô la so với long ở mức 12,72 triệu đô la. Lãi suất tài trợ cũng chuyển sang âm (Binance -0,0011%, OKX -0,0059%) từ mức +0,0087%/4 giờ nghiêng về long hồi đầu tuần, nhưng short mới là bên thực sự mất tiền trong các đợt thanh lý gần nhất. Một góc nhìn về giai đoạn mà cùng một dữ liệu kể những câu chuyện khác nhau tùy theo khung thời gian.",
+  "desc_id": "Bitcoin berada di sekitar $62.800 pada 13 Juli setelah tergelincir dari kisaran $64.300 selama sesi Asia dalam apa yang disebut CoinDesk sebagai 'leverage flush.' Menurut CoinGlass, likuidasi 24 jam berpihak pada long ($47,91 juta vs. $13,66 juta short), tetapi mempersempit ke 12 jam terakhir membalikkannya — short di $25,39 juta vs. long di $12,72 juta. Funding juga berbalik negatif (Binance -0,0011%, OKX -0,0059%) dari +0,0087%/4 jam yang condong ke long di awal pekan, namun short justru pihak yang benar-benar merugi dalam likuidasi terbaru. Tinjauan atas fase di mana data yang sama bercerita berbeda tergantung jendela waktunya.",
+  "desc_pl": "Bitcoin utrzymywał się w okolicach 62 800 USD 13 lipca po zsunięciu się z poziomu około 64 300 USD podczas sesji azjatyckiej w tym, co CoinDesk nazwał „leverage flush”. Według CoinGlass, 24-godzinne likwidacje faworyzowały pozycje długie (47,91 mln USD wobec 13,66 mln USD w krótkich), ale zawężenie do ostatnich 12 godzin to odwraca — short na 25,39 mln USD wobec long na 12,72 mln USD. Finansowanie również zmieniło się na ujemne (Binance -0,0011%, OKX -0,0059%) z przechylonego w stronę longów +0,0087%/4h wcześniej w tygodniu, jednak to shorty faktycznie tracą pieniądze w najnowszych likwidacjach. Spojrzenie na fazę, w której te same dane opowiadają różne historie w zależności od okna czasowego.",
+  "desc_it": "Il bitcoin si è attestato intorno a $62.800 il 13 luglio dopo essere scivolato dalla zona di $64.300 durante la sessione asiatica in quello che CoinDesk ha definito un 'leverage flush'. Secondo CoinGlass, le liquidazioni a 24 ore hanno favorito i long ($47,91M contro $13,66M per gli short), ma restringendo alle ultime 12 ore la situazione si ribalta — short a $25,39M contro long a $12,72M. Anche il funding è diventato negativo (Binance -0,0011%, OKX -0,0059%) da un +0,0087%/4h favorevole ai long a inizio settimana, eppure sono gli short il lato che sta davvero perdendo denaro nelle liquidazioni più recenti. Uno sguardo a una fase in cui gli stessi dati raccontano storie diverse a seconda della finestra temporale.",
+  "desc_ru": "Биткоин держался около $62 800 13 июля после падения с уровня около $64 300 во время азиатской сессии — то, что CoinDesk назвал «leverage flush». По данным CoinGlass, 24-часовые ликвидации были в пользу long ($47,91 млн против $13,66 млн у short), но при сужении до последних 12 часов картина переворачивается — short на $25,39 млн против long на $12,72 млн. Финансирование тоже стало отрицательным (Binance -0,0011%, OKX -0,0059%) после уклона в сторону long +0,0087%/4ч ранее на этой неделе, но именно short реально теряют деньги в последних ликвидациях. Взгляд на фазу, где одни и те же данные рассказывают разные истории в зависимости от временного окна.",
+  "desc_zh": "比特幣在7月13日於62,800美元附近盤整,先前曾在亞洲盤時段從64,300美元附近滑落,即CoinDesk所稱的「槓桿沖刷」。根據CoinGlass,24小時清算數據偏向多單(4,791萬美元對比空單1,366萬美元),但縮小到最近12小時後情況逆轉——空單2,539萬美元對比多單1,272萬美元。資金費率也從本週稍早偏向多單的+0.0087%/4小時轉為負值(幣安-0.0011%,OKX-0.0059%),然而在最近的清算中真正虧損的一方卻是空單。本文檢視了同一份數據依時間窗口不同而訴說不同故事的這個階段。"
 }
