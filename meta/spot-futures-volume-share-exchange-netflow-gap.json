@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "스팟·선물 거래량 비율·거래소 순유입 괴리",
   "tag_en": "Spot/Futures Volume Ratio & Exchange Net Inflow Gap",
