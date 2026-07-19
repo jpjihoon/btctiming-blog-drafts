@@ -414,6 +414,11 @@
   <p class="pt">Nada disso significa que o dia do Bitcoin não tenha nenhuma informação ligada ao horário. Um estudo de 2022 de Padyšák e Vojtko, analisando dados horários da exchange Gemini entre outubro de 2015 e fevereiro de 2022, encontrou padrões claros por horário mesmo em um mercado que nunca dorme. A janela mais forte que identificaram foi de 21h às 23h UTC — aproximadamente o fechamento do pregão americano. Uma estratégia simples de comprar e manter apenas durante essa janela de duas horas produziu um retorno anualizado de cerca de 33%, com volatilidade e quedas muito menores do que uma abordagem de comprar e manter simples. Em outras palavras, o Bitcoin tem sim um momento onde a informação se concentra — só não é o momento que a maioria dos gráficos assume.</p>
   <p class="tr">Bunların hiçbiri Bitcoin'in gününde saate bağlı hiçbir bilgi olmadığı anlamına gelmez. Padyšák ve Vojtko'nun 2022'de, Ekim 2015 ile Şubat 2022 arasındaki Gemini borsası saatlik verilerini analiz ettiği bir çalışma, hiç uyumayan bir piyasada bile net saat dilimi kalıpları olduğunu ortaya koydu. Belirledikleri en güçlü pencere UTC 21:00 ile 23:00 arasıydı — yaklaşık olarak ABD işlem seansının kapanışına denk gelen saatler. Sadece bu iki saatlik pencerede alıp elde tutan basit bir strateji, yıllıklandırılmış yaklaşık yüzde 33'lük bir getiri üretti; volatilite ve düşüşler de al-ve-tut yaklaşımından çok daha düşüktü. Başka bir deyişle, Bitcoin'de gerçekten bilginin yoğunlaştığı bir an var — sadece bu, çoğu grafiğin varsaydığı an değil.</p>
   <p class="vi">Điều đó không có nghĩa là một ngày của Bitcoin hoàn toàn không có thông tin theo khung giờ. Một nghiên cứu năm 2022 của Padyšák và Vojtko, phân tích dữ liệu theo giờ từ sàn Gemini từ tháng 10/2015 đến tháng 2/2022, phát hiện ra các mô hình rõ ràng theo khung giờ ngay cả trong một thị trường không bao giờ ngủ. Khung giờ mạnh nhất mà họ xác định được là từ 21:00 đến 23:00 UTC — gần trùng với thời điểm đóng cửa phiên giao dịch Mỹ. Một chiến lược đơn giản là chỉ mua và nắm giữ trong khung hai giờ đó đã tạo ra lợi nhuận quy đổi hàng năm khoảng 33%, với độ biến động và mức sụt giảm thấp hơn nhiều so với chiến lược mua-và-giữ thông thường. Nói cách khác, Bitcoin thực sự có một thời điểm mà thông tin tập trung lại — chỉ là nó không phải thời điểm mà hầu hết các biểu đồ mặc định.</p>
+  <p class="id">Semua ini bukan berarti hari Bitcoin sama sekali tidak memiliki informasi berdasarkan waktu. Sebuah studi tahun 2022 oleh Padyšák dan Vojtko, yang menganalisis data per jam dari bursa Gemini antara Oktober 2015 dan Februari 2022, menemukan pola waktu yang jelas bahkan di pasar yang tidak pernah tidur ini. Jendela terkuat yang mereka identifikasi adalah pukul 21.00 hingga 23.00 UTC — kira-kira waktu penutupan sesi perdagangan AS. Strategi sederhana membeli dan menahan hanya selama jendela dua jam itu menghasilkan imbal hasil tahunan sekitar 33%, dengan volatilitas dan penurunan yang jauh lebih rendah dibandingkan pendekatan beli-dan-tahan biasa. Dengan kata lain, Bitcoin memang memiliki momen di mana informasi terkonsentrasi — hanya saja itu bukan momen yang diasumsikan oleh sebagian besar chart.</p>
+  <p class="pl">Nic z tego nie oznacza, że dzień Bitcoina jest pozbawiony informacji zależnych od pory dnia. Badanie Padyšáka i Vojtki z 2022 roku, analizujące dane godzinowe z giełdy Gemini między październikiem 2015 a lutym 2022, wykazało wyraźne wzorce zależne od pory dnia nawet na rynku, który nigdy nie śpi. Najsilniejsze okno, jakie zidentyfikowali, przypadało na godziny 21:00-23:00 UTC — mniej więcej zamknięcie amerykańskiej sesji giełdowej. Prosta strategia kupowania i trzymania wyłącznie w tym dwugodzinnym oknie przyniosła roczną stopę zwrotu na poziomie około 33%, przy znacznie niższej zmienności i obsunięciach niż podejście kup-i-trzymaj. Innymi słowy, Bitcoin rzeczywiście ma moment, w którym koncentruje się informacja — po prostu nie jest to moment, który zakłada większość wykresów.</p>
+  <p class="it">Nulla di tutto ciò significa che la giornata di Bitcoin non abbia alcuna informazione legata all'ora del giorno. Uno studio del 2022 di Padyšák e Vojtko, che ha analizzato dati orari dell'exchange Gemini tra ottobre 2015 e febbraio 2022, ha individuato chiari schemi orari anche in un mercato che non dorme mai. La finestra più forte da loro identificata era tra le 21:00 e le 23:00 UTC — approssimativamente la chiusura della sessione di negoziazione statunitense. Una semplice strategia di acquisto e mantenimento solo durante quella finestra di due ore ha prodotto un rendimento annualizzato di circa il 33%, con volatilità e ribassi molto inferiori rispetto a un approccio buy-and-hold. In altre parole, Bitcoin ha effettivamente un momento in cui l'informazione si concentra — semplicemente non è il momento che la maggior parte dei grafici presuppone.</p>
+  <p class="ru">Всё это не означает, что в течение дня биткоина вообще нет информации, зависящей от времени суток. Исследование 2022 года авторства Падишака и Войтко, проанализировавшее почасовые данные биржи Gemini с октября 2015 по февраль 2022 года, обнаружило чёткие временные закономерности даже на рынке, который никогда не спит. Самое сильное окно, которое они выявили, — с 21:00 до 23:00 по UTC, что примерно совпадает с закрытием американской торговой сессии. Простая стратегия покупки и удержания только в течение этого двухчасового окна принесла годовую доходность около 33% при значительно более низкой волатильности и просадках по сравнению с подходом «купи и держи». Другими словами, у биткоина действительно есть момент, где концентрируется информация — просто это не тот момент, который предполагает большинство графиков.</p>
+  <p class="zh">這一切並不代表比特幣的一天完全沒有與時段相關的資訊。Padyšák與Vojtko於2022年進行的一項研究,分析了Gemini交易所自2015年10月至2022年2月的每小時數據,發現即便是在這個從不休眠的市場中,依然存在清楚的時段規律。他們發現最強的區間落在UTC 21點至23點——大致對應美國交易時段收盤的時刻。僅在這兩小時區間內買入並持有的簡單策略,創造出年化約33%的報酬率,其波動性與回撤幅度都遠低於單純買進持有的做法。換句話說,比特幣確實存在一個資訊集中的時刻——只是那並非大多數圖表所假設的那個時刻。</p>
 
   <p class="ko">문제는 RVI를 비롯한 거의 모든 차트 플랫폼이 일봉의 '시가'를 이 정보가 몰리는 21~23시 UTC가 아니라, 그저 관습적으로 정한 00시 UTC에 고정해 놓았다는 점이다. 설령 트레이더가 RVI의 원래 논리 — 시가 대비 종가의 위치가 그날의 승부를 보여준다 — 를 비트코인에서도 살려보고 싶다 해도, 지금 쓰는 봉 정의로는 애초에 정보가 있는 지점을 재는 게 아니라 정보가 없는 지점(자정)을 재고 있는 셈이다. 시계는 돌아가고 있지만, 바늘이 가리키는 곳에는 아무도 없다.</p>
   <p class="en">The problem is that RVI, like nearly every charting platform, pins the daily "open" to a conventionally chosen 00:00 UTC, not to the 21:00-23:00 UTC window where information actually concentrates. Even if a trader wanted to salvage RVI's original logic — that the close's position relative to the open reveals how the day's contest resolved — on Bitcoin, the candle definitions in common use aren't measuring the point where information exists in the first place; they're measuring a point where it doesn't (midnight). The clock is still running, but nobody's standing where the hand is pointing.</p>
@@ -424,6 +429,11 @@
   <p class="pt">O problema é que o RVI, como quase todas as plataformas de gráficos, fixa a "abertura" diária às 00h00 UTC escolhidas por convenção, não na janela de 21h-23h UTC onde a informação realmente se concentra. Mesmo que um trader quisesse resgatar a lógica original do RVI — de que a posição do fechamento em relação à abertura revela como se resolveu a disputa do dia — no Bitcoin, as definições de vela de uso comum não estão medindo o ponto onde a informação existe em primeiro lugar; estão medindo um ponto onde ela não existe (meia-noite). O relógio continua correndo, mas ninguém está parado onde o ponteiro aponta.</p>
   <p class="tr">Sorun şu ki, RVI de neredeyse tüm grafik platformları gibi, günlük "açılışı" bilginin gerçekten yoğunlaştığı 21:00-23:00 UTC penceresine değil, geleneksel olarak seçilmiş UTC 00:00'a sabitler. Bir trader RVI'nin özgün mantığını — kapanışın açılışa göre konumunun günün mücadelesinin nasıl sonuçlandığını gösterdiği fikrini — Bitcoin'de yaşatmak istese bile, yaygın olarak kullanılan mum tanımları, bilginin gerçekten var olduğu noktayı değil, var olmadığı noktayı (gece yarısını) ölçüyor. Saat işlemeye devam ediyor ama ibrenin gösterdiği yerde kimse yok.</p>
   <p class="vi">Vấn đề là RVI, giống như hầu hết mọi nền tảng biểu đồ, cố định "giá mở cửa" hàng ngày ở mốc 00:00 UTC được chọn theo quy ước, chứ không phải ở khung giờ 21:00-23:00 UTC nơi thông tin thực sự tập trung. Ngay cả khi một trader muốn cứu vãn logic ban đầu của RVI — rằng vị trí giá đóng cửa so với giá mở cửa cho thấy cuộc đấu trong ngày đã được giải quyết như thế nào — thì trên Bitcoin, các định nghĩa nến thông dụng hiện nay không đo điểm nơi thông tin thực sự tồn tại; chúng đang đo một điểm nơi thông tin không tồn tại (nửa đêm). Đồng hồ vẫn đang chạy, nhưng chẳng có ai đứng ở nơi kim đồng hồ đang chỉ tới.</p>
+  <p class="id">Masalahnya, RVI, seperti hampir semua platform charting, mematok "harga pembukaan" harian pada pukul 00.00 UTC yang dipilih secara konvensional, bukan pada jendela 21.00-23.00 UTC tempat informasi sebenarnya terkonsentrasi. Bahkan jika seorang trader ingin menyelamatkan logika asli RVI — bahwa posisi harga penutupan relatif terhadap pembukaan mengungkapkan bagaimana pertarungan hari itu terselesaikan — pada Bitcoin, definisi candle yang lazim digunakan tidak mengukur titik tempat informasi sebenarnya berada; definisi itu mengukur titik tempat informasi tidak ada (tengah malam). Jarum jam terus berputar, tetapi tidak ada seorang pun yang berdiri di tempat yang ditunjuk jarum itu.</p>
+  <p class="pl">Problem polega na tym, że RVI, podobnie jak niemal każda platforma do wykresów, przypina dzienne "otwarcie" do umownie wybranej godziny 00:00 UTC, a nie do okna 21:00-23:00 UTC, w którym informacja faktycznie się koncentruje. Nawet gdyby trader chciał ocalić pierwotną logikę RVI — że pozycja zamknięcia względem otwarcia ujawnia, jak rozstrzygnęła się dzienna rywalizacja — w przypadku Bitcoina powszechnie stosowane definicje świec nie mierzą punktu, w którym informacja w ogóle istnieje; mierzą punkt, w którym jej nie ma (północ). Zegar wciąż tyka, ale nikt nie stoi tam, gdzie wskazuje wskazówka.</p>
+  <p class="it">Il problema è che l'RVI, come quasi tutte le piattaforme di grafici, fissa l'apertura giornaliera alle 00:00 UTC scelte per convenzione, non alla finestra 21:00-23:00 UTC in cui l'informazione si concentra realmente. Anche se un trader volesse salvare la logica originale dell'RVI — che la posizione della chiusura rispetto all'apertura rivela come si è risolta la contesa della giornata — su Bitcoin, le definizioni di candela di uso comune non misurano il punto in cui l'informazione esiste in primo luogo; misurano un punto in cui non esiste (la mezzanotte). L'orologio continua a correre, ma nessuno si trova dove punta la lancetta.</p>
+  <p class="ru">Проблема в том, что RVI, как и почти любая торговая платформа, привязывает дневное «открытие» к условно выбранным 00:00 UTC, а не к окну 21:00-23:00 UTC, где информация действительно концентрируется. Даже если трейдер захотел бы спасти изначальную логику RVI — что положение закрытия относительно открытия раскрывает, как разрешилась дневная схватка — на биткоине общепринятые определения свечей измеряют не ту точку, где информация вообще существует; они измеряют точку, где её нет (полночь). Часы продолжают идти, но никого нет там, куда указывает стрелка.</p>
+  <p class="zh">問題在於,RVI就像幾乎所有圖表平台一樣,將每日「開盤」固定在依慣例選定的UTC 0點,而非資訊真正集中的UTC 21點至23點這個區間。就算交易者想要挽救RVI的原始邏輯——收盤價相對於開盤價的位置,揭示了當天這場較量是如何收場的——在比特幣上,常見的K線定義所衡量的,根本不是資訊真正存在的那個點;它們衡量的是資訊並不存在的那個點(午夜)。時鐘仍在走動,但指針所指向的地方空無一人。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -666,6 +676,141 @@
     <text x="34" y="227" fill="#e4e4e7" font-size="13" font-family="sans-serif">21:00-23:00: chỉ mua-giữ đã sinh lời 33%/năm (khung giờ giàu thông tin)</text>
     <circle cx="20" cy="250" r="5" fill="#f87171"/>
     <text x="34" y="255" fill="#e4e4e7" font-size="13" font-family="sans-serif">UTC 00:00 — "giá mở cửa" theo quy ước của hầu hết biểu đồ (không có thông tin)</text>
+  </svg>
+  </div>
+  <div class="id">
+  <svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">24 Jam Bitcoin: Di Mana Informasi Sebenarnya Berada</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Waktu UTC · Studi Padyšák &amp; Vojtko (2022)</text>
+    <line x1="70" y1="170" x2="630" y2="170" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/>
+    <line x1="70" y1="80" x2="70" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <line x1="630" y1="80" x2="630" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="560" y="90" width="47" height="80" fill="rgba(74,222,128,.25)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="583" y="80" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">21-23</text>
+    <text x="70" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start" font-family="sans-serif">UTC 00.00</text>
+    <g font-family="sans-serif" font-size="13" fill="#71717a">
+      <text x="70" y="196" text-anchor="middle">0</text>
+      <text x="140" y="196" text-anchor="middle">3</text>
+      <text x="210" y="196" text-anchor="middle">6</text>
+      <text x="280" y="196" text-anchor="middle">9</text>
+      <text x="350" y="196" text-anchor="middle">12</text>
+      <text x="420" y="196" text-anchor="middle">15</text>
+      <text x="490" y="196" text-anchor="middle">18</text>
+      <text x="560" y="196" text-anchor="middle">21</text>
+      <text x="630" y="196" text-anchor="middle">24</text>
+    </g>
+    <circle cx="20" cy="222" r="5" fill="#4ade80"/>
+    <text x="34" y="227" fill="#e4e4e7" font-size="13" font-family="sans-serif">21.00-23.00: beli-dan-tahan saja menghasilkan 33%/tahun (jendela padat informasi)</text>
+    <circle cx="20" cy="250" r="5" fill="#f87171"/>
+    <text x="34" y="255" fill="#e4e4e7" font-size="13" font-family="sans-serif">UTC 00.00 — "pembukaan" konvensional sebagian besar chart (tanpa informasi)</text>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">24 Godziny Bitcoina: Gdzie Naprawdę Jest Informacja</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Czas UTC · Badanie Padyšáka i Vojtki (2022)</text>
+    <line x1="70" y1="170" x2="630" y2="170" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/>
+    <line x1="70" y1="80" x2="70" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <line x1="630" y1="80" x2="630" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="560" y="90" width="47" height="80" fill="rgba(74,222,128,.25)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="583" y="80" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">21-23</text>
+    <text x="70" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start" font-family="sans-serif">UTC 00:00</text>
+    <g font-family="sans-serif" font-size="13" fill="#71717a">
+      <text x="70" y="196" text-anchor="middle">0</text>
+      <text x="140" y="196" text-anchor="middle">3</text>
+      <text x="210" y="196" text-anchor="middle">6</text>
+      <text x="280" y="196" text-anchor="middle">9</text>
+      <text x="350" y="196" text-anchor="middle">12</text>
+      <text x="420" y="196" text-anchor="middle">15</text>
+      <text x="490" y="196" text-anchor="middle">18</text>
+      <text x="560" y="196" text-anchor="middle">21</text>
+      <text x="630" y="196" text-anchor="middle">24</text>
+    </g>
+    <circle cx="20" cy="222" r="5" fill="#4ade80"/>
+    <text x="34" y="227" fill="#e4e4e7" font-size="13" font-family="sans-serif">21:00-23:00: samo kupno i trzymanie daje 33%/rok (okno gęste w informacje)</text>
+    <circle cx="20" cy="250" r="5" fill="#f87171"/>
+    <text x="34" y="255" fill="#e4e4e7" font-size="13" font-family="sans-serif">UTC 00:00 — umowne "otwarcie" większości wykresów (brak informacji)</text>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Le 24 Ore di Bitcoin: Dove Si Trova Davvero l'Informazione</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Ora UTC · Studio di Padyšák e Vojtko (2022)</text>
+    <line x1="70" y1="170" x2="630" y2="170" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/>
+    <line x1="70" y1="80" x2="70" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <line x1="630" y1="80" x2="630" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="560" y="90" width="47" height="80" fill="rgba(74,222,128,.25)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="583" y="80" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">21-23</text>
+    <text x="70" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start" font-family="sans-serif">UTC 00:00</text>
+    <g font-family="sans-serif" font-size="13" fill="#71717a">
+      <text x="70" y="196" text-anchor="middle">0</text>
+      <text x="140" y="196" text-anchor="middle">3</text>
+      <text x="210" y="196" text-anchor="middle">6</text>
+      <text x="280" y="196" text-anchor="middle">9</text>
+      <text x="350" y="196" text-anchor="middle">12</text>
+      <text x="420" y="196" text-anchor="middle">15</text>
+      <text x="490" y="196" text-anchor="middle">18</text>
+      <text x="560" y="196" text-anchor="middle">21</text>
+      <text x="630" y="196" text-anchor="middle">24</text>
+    </g>
+    <circle cx="20" cy="222" r="5" fill="#4ade80"/>
+    <text x="34" y="227" fill="#e4e4e7" font-size="13" font-family="sans-serif">21:00-23:00: comprare e mantenere da solo rende il 33%/anno (finestra ricca di informazioni)</text>
+    <circle cx="20" cy="250" r="5" fill="#f87171"/>
+    <text x="34" y="255" fill="#e4e4e7" font-size="13" font-family="sans-serif">UTC 00:00 — "apertura" convenzionale della maggior parte dei grafici (nessuna informazione)</text>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">24 Часа Биткоина: Где На Самом Деле Находится Информация</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Время UTC · исследование Падишака и Войтко (2022)</text>
+    <line x1="70" y1="170" x2="630" y2="170" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/>
+    <line x1="70" y1="80" x2="70" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <line x1="630" y1="80" x2="630" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="560" y="90" width="47" height="80" fill="rgba(74,222,128,.25)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="583" y="80" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">21-23</text>
+    <text x="70" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start" font-family="sans-serif">UTC 00:00</text>
+    <g font-family="sans-serif" font-size="13" fill="#71717a">
+      <text x="70" y="196" text-anchor="middle">0</text>
+      <text x="140" y="196" text-anchor="middle">3</text>
+      <text x="210" y="196" text-anchor="middle">6</text>
+      <text x="280" y="196" text-anchor="middle">9</text>
+      <text x="350" y="196" text-anchor="middle">12</text>
+      <text x="420" y="196" text-anchor="middle">15</text>
+      <text x="490" y="196" text-anchor="middle">18</text>
+      <text x="560" y="196" text-anchor="middle">21</text>
+      <text x="630" y="196" text-anchor="middle">24</text>
+    </g>
+    <circle cx="20" cy="222" r="5" fill="#4ade80"/>
+    <text x="34" y="227" fill="#e4e4e7" font-size="13" font-family="sans-serif">21:00-23:00: одна лишь покупка и удержание даёт 33%/год (окно высокой плотности информации)</text>
+    <circle cx="20" cy="250" r="5" fill="#f87171"/>
+    <text x="34" y="255" fill="#e4e4e7" font-size="13" font-family="sans-serif">UTC 00:00 — условное «открытие» на большинстве графиков (нет информации)</text>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">比特幣的24小時:資訊實際上在哪裡</text>
+    <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">UTC時間 · Padyšák與Vojtko(2022年)研究</text>
+    <line x1="70" y1="170" x2="630" y2="170" stroke="rgba(255,255,255,.2)" stroke-width="1.2"/>
+    <line x1="70" y1="80" x2="70" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <line x1="630" y1="80" x2="630" y2="180" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="560" y="90" width="47" height="80" fill="rgba(74,222,128,.25)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="583" y="80" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">21-23點</text>
+    <text x="70" y="72" fill="#f87171" font-size="13" font-weight="700" text-anchor="start" font-family="sans-serif">UTC 0點</text>
+    <g font-family="sans-serif" font-size="13" fill="#71717a">
+      <text x="70" y="196" text-anchor="middle">0</text>
+      <text x="140" y="196" text-anchor="middle">3</text>
+      <text x="210" y="196" text-anchor="middle">6</text>
+      <text x="280" y="196" text-anchor="middle">9</text>
+      <text x="350" y="196" text-anchor="middle">12</text>
+      <text x="420" y="196" text-anchor="middle">15</text>
+      <text x="490" y="196" text-anchor="middle">18</text>
+      <text x="560" y="196" text-anchor="middle">21</text>
+      <text x="630" y="196" text-anchor="middle">24</text>
+    </g>
+    <circle cx="20" cy="222" r="5" fill="#4ade80"/>
+    <text x="34" y="227" fill="#e4e4e7" font-size="13" font-family="sans-serif">21:00-23:00:僅靠買進持有就能實現年化33%的報酬(資訊密集區間)</text>
+    <circle cx="20" cy="250" r="5" fill="#f87171"/>
+    <text x="34" y="255" fill="#e4e4e7" font-size="13" font-family="sans-serif">UTC 0點——大多數圖表慣用的「開盤」(無資訊)</text>
   </svg>
   </div>
 

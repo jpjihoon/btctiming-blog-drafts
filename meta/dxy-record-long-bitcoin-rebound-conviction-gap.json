@@ -27,6 +27,11 @@
   "tag_pt": "Máxima de 1 Ano do DXY e Ruptura da Correlação Inversa",
   "tag_tr": "DXY'nin 1 Yıllık Zirvesi ve Ters Korelasyonun Bozulması",
   "tag_vi": "Đỉnh 1 Năm của DXY và Sự Phá Vỡ Tương Quan Nghịch",
+  "tag_id": "Puncak Satu Tahun DXY & Runtuhnya Korelasi Terbalik",
+  "tag_pl": "Roczny Szczyt DXY i Załamanie Odwrotnej Korelacji",
+  "tag_it": "Il Massimo di un Anno del DXY e il Crollo della Correlazione Inversa",
+  "tag_ru": "Годовой Максимум DXY и Разрушение Обратной Корреляции",
+  "tag_zh": "美元指數一年新高與逆相關關係的瓦解",
 
   "title_ko": "달러 인덱스는 1년래 최고치인데, 비트코인은 오히려 반등하고 있다",
   "title_en": "The Dollar Index Just Hit a One-Year High — Bitcoin Is Rallying Anyway",
@@ -37,6 +42,11 @@
   "title_pt": "O Índice do Dólar Acabou de Bater uma Máxima de Um Ano — O Bitcoin Sobe Mesmo Assim",
   "title_tr": "Dolar Endeksi Az Önce Bir Yılın Zirvesini Gördü — Bitcoin Yine de Yükseliyor",
   "title_vi": "Chỉ Số Đô La Vừa Chạm Đỉnh Một Năm — Bitcoin Vẫn Tăng Giá",
+  "title_id": "Indeks Dolar Baru Saja Mencapai Puncak Satu Tahun — Bitcoin Tetap Menguat",
+  "title_pl": "Indeks Dolara Właśnie Osiągnął Roczny Szczyt — Bitcoin i Tak Rośnie",
+  "title_it": "L'Indice del Dollaro Ha Appena Toccato un Massimo di un Anno — il Bitcoin Sale Comunque",
+  "title_ru": "Индекс Доллара Только Что Достиг Годового Максимума — Биткоин Всё Равно Растёт",
+  "title_zh": "美元指數剛創下一年新高——比特幣仍持續走高",
 
   "h1_ko": "전통적으로 강달러는 비트코인의 발목을 잡았는데,<br>지금은 두 자산이 함께 오르며 역상관이 흔들리고 있다",
   "h1_en": "A Strong Dollar Has Traditionally Been a Headwind for Bitcoin —<br>Right Now Both Are Rising Together, and the Inverse Correlation Is Wobbling",
@@ -47,6 +57,11 @@
   "h1_pt": "Um Dólar Forte Tem Sido Tradicionalmente um Vento Contrário para o Bitcoin,<br>Agora os Dois Ativos Sobem Juntos e a Correlação Inversa Está Balançando",
   "h1_tr": "Güçlü Dolar Geleneksel Olarak Bitcoin İçin Bir Rüzgar Engeli Olmuştur,<br>Şu Anda İki Varlık Birlikte Yükseliyor ve Ters Korelasyon Sallanıyor",
   "h1_vi": "Đồng Đô La Mạnh Theo Truyền Thống Là Lực Cản Đối Với Bitcoin,<br>Ngay Lúc Này Cả Hai Tài Sản Đang Cùng Tăng và Tương Quan Nghịch Đang Lung Lay",
+  "h1_id": "Dolar yang Kuat Secara Tradisional Menjadi Penghambat bagi Bitcoin —<br>Saat Ini Keduanya Naik Bersama, dan Korelasi Terbalik Mulai Goyah",
+  "h1_pl": "Silny Dolar Tradycyjnie Był Przeciwwiatrem dla Bitcoina —<br>Teraz Oba Aktywa Rosną Razem, a Odwrotna Korelacja Się Chwieje",
+  "h1_it": "Un Dollaro Forte È Stato Tradizionalmente un Freno per il Bitcoin —<br>Proprio Ora Entrambi Salgono Insieme, e la Correlazione Inversa Vacilla",
+  "h1_ru": "Сильный Доллар Традиционно Был Встречным Ветром для Биткоина —<br>Сейчас Оба Актива Растут Вместе, и Обратная Корреляция Шатается",
+  "h1_zh": "傳統上強勢美元一直是比特幣的逆風——<br>此刻兩者卻同步上漲,逆相關關係正在動搖",
 
   "bc_ko": "달러 인덱스·비트코인 역상관 점검",
   "bc_en": "DXY vs. Bitcoin Correlation Check",
@@ -57,6 +72,11 @@
   "bc_pt": "Verificação: Correlação DXY vs. Bitcoin",
   "bc_tr": "DXY ve Bitcoin Korelasyonu İncelemesi",
   "bc_vi": "Kiểm Tra Tương Quan DXY và Bitcoin",
+  "bc_id": "Pengecekan Korelasi DXY vs Bitcoin",
+  "bc_pl": "Sprawdzenie Korelacji DXY vs Bitcoin",
+  "bc_it": "Verifica della Correlazione DXY vs Bitcoin",
+  "bc_ru": "Проверка Корреляции DXY и Биткоина",
+  "bc_zh": "DXY與比特幣相關性檢視",
 
   "desc_ko": "비트코인은 7월12일 밤부터 13일 새벽(한국시간) 사이 6만3,700~6만4,550달러에서 거래되며 6월30일 저점 5만7,900달러대에서 열흘 만에 10% 넘게 반등했다. 그런데 같은 기간 달러 인덱스(DXY)는 7월10일 100.97까지 오르며 1년래 최고치를 기록했고, 지난 한 달간 1.11%, 연초 대비 약 3% 상승했다(트레이딩이코노믹스, FX스트리트). 투기적 달러 순매수 포지션도 6주 연속 늘어 335억 달러로 2025년1월 이후 최고치를 찍었다(포렉스닷컴 COT 리포트). 올해 3월 플러스로 돌아섰다가 4월에는 -0.90까지 떨어진 비트코인-달러 상관관계를 감안하면, 강달러 국면에서 비트코인이 함께 오르는 지금은 이례적이다. 게다가 펀딩비는 여전히 중립권, 공포탐욕지수도 지표별로 20~46 사이에서 엇갈리며 크립토 자체 컨빅션 지표는 이 반등을 뚜렷하게 확인해주지 못하고 있다. 세 축이 따로 노는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin traded between $63,700 and $64,550 through the night of July 12 into the early morning of July 13 (KST), having bounced more than 10% in ten days off the $57,900 low set on June 30. Over that same stretch, though, the Dollar Index (DXY) climbed to 100.97 on July 10, a one-year high, up 1.11% over the past month and roughly 3% since the start of the year (Trading Economics, FXStreet). Speculative net-long dollar positions also rose for six straight weeks to $33.5 billion, the highest since January 2025 (forex.com COT report). Given that the Bitcoin-dollar correlation turned positive in March and then fell to -0.90 in April this year, Bitcoin rising in lockstep with a strong dollar right now is unusual. On top of that, funding rates remain near neutral and Fear and Greed readings diverge from 20 to 46 depending on the index, so crypto's own conviction gauges haven't clearly confirmed this bounce either. A look at a phase where three threads are pulling in their own directions.",
@@ -66,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé entre 63 700 et 64 550 dollars dans la nuit du 12 au 13 juillet (heure de Corée), après avoir rebondi de plus de 10 % en dix jours depuis le creux de 57 900 dollars du 30 juin. Pourtant, sur cette même période, l'indice du dollar (DXY) a grimpé à 100,97 le 10 juillet, un plus haut sur un an, en hausse de 1,11 % sur le dernier mois et d'environ 3 % depuis le début de l'année (Trading Economics, FXStreet). Les positions longues nettes spéculatives sur le dollar ont elles aussi augmenté pendant six semaines consécutives pour atteindre 33,5 milliards de dollars, le niveau le plus élevé depuis janvier 2025 (rapport COT de forex.com). Étant donné que la corrélation bitcoin-dollar est devenue positive en mars puis est tombée à -0,90 en avril cette année, voir le bitcoin monter au même rythme qu'un dollar fort en ce moment est inhabituel. De plus, les taux de financement restent proches de la neutralité et les lectures de Fear and Greed divergent entre 20 et 46 selon l'indice, si bien que les indicateurs de conviction propres à la crypto n'ont pas non plus clairement confirmé ce rebond. Un examen d'une phase où trois fils tirent chacun dans leur propre direction.",
   "desc_pt": "O bitcoin foi negociado entre US$ 63.700 e US$ 64.550 na noite de 12 de julho até a madrugada de 13 de julho (horário da Coreia), após subir mais de 10% em dez dias a partir da mínima de US$ 57.900 registrada em 30 de junho. No entanto, no mesmo período, o Índice do Dólar (DXY) subiu para 100,97 em 10 de julho, uma máxima de um ano, alta de 1,11% no último mês e cerca de 3% desde o início do ano (Trading Economics, FXStreet). As posições compradas líquidas especulativas em dólar também subiram por seis semanas consecutivas até US$ 33,5 bilhões, o nível mais alto desde janeiro de 2025 (relatório COT da forex.com). Considerando que a correlação bitcoin-dólar tornou-se positiva em março e depois caiu para -0,90 em abril deste ano, ver o bitcoin subir junto com um dólar forte agora é incomum. Além disso, as taxas de financiamento permanecem perto da neutralidade e as leituras de Medo e Ganância divergem entre 20 e 46 dependendo do índice, então os próprios indicadores de convicção cripto também não confirmaram claramente essa recuperação. Uma análise de uma fase em que três fios puxam cada um para seu próprio lado.",
   "desc_tr": "Bitcoin, 12 Temmuz gecesinden 13 Temmuz sabahına (KST) kadar 63.700-64.550 dolar bandında işlem gördü; 30 Haziran'da görülen 57.900 dolar dipten on günde yüzde 10'un üzerinde toparlandı. Ancak aynı dönemde Dolar Endeksi (DXY) 10 Temmuz'da 100,97'ye çıkarak bir yılın zirvesini gördü, son bir ayda yüzde 1,11, yıl başından bu yana ise yaklaşık yüzde 3 yükseldi (Trading Economics, FXStreet). Spekülatif net uzun dolar pozisyonları da altı hafta üst üste artarak 33,5 milyar dolara ulaştı, Ocak 2025'ten bu yana en yüksek seviye (forex.com COT raporu). Bitcoin-dolar korelasyonunun bu yıl Mart'ta pozitife dönüp Nisan'da -0,90'a düştüğü göz önüne alındığında, Bitcoin'in şu anda güçlü dolarla aynı yönde yükselmesi sıra dışı. Üstüne üstlük, fonlama oranları hâlâ nötr bölgede ve Korku ve Açgözlülük okumaları endekse göre 20 ile 46 arasında ayrışıyor; yani kriptonun kendi güven göstergeleri de bu toparlanmayı net biçimde doğrulamıyor. Üç ipucunun her birinin kendi yönüne çektiği bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch trong khoảng 63.700-64.550 đô la từ tối ngày 12 tháng 7 đến rạng sáng ngày 13 tháng 7 (giờ Hàn Quốc), sau khi phục hồi hơn 10% trong mười ngày từ đáy 57.900 đô la thiết lập ngày 30 tháng 6. Tuy nhiên, trong cùng giai đoạn đó, Chỉ số Đô la (DXY) đã tăng lên 100,97 vào ngày 10 tháng 7, mức cao nhất trong một năm, tăng 1,11% trong tháng qua và khoảng 3% kể từ đầu năm (Trading Economics, FXStreet). Các vị thế mua ròng mang tính đầu cơ đối với đồng đô la cũng tăng sáu tuần liên tiếp lên 33,5 tỷ đô la, mức cao nhất kể từ tháng 1 năm 2025 (báo cáo COT của forex.com). Xét rằng mối tương quan Bitcoin-đô la đã chuyển sang dương vào tháng 3 rồi giảm xuống -0,90 vào tháng 4 năm nay, việc Bitcoin tăng cùng nhịp với một đồng đô la mạnh ngay lúc này là điều bất thường. Hơn nữa, tỷ lệ tài trợ vẫn gần mức trung lập và các mức đọc Sợ hãi và Tham lam dao động từ 20 đến 46 tùy chỉ số, nên các chỉ báo niềm tin riêng của tiền mã hóa cũng chưa xác nhận rõ ràng đợt phục hồi này. Một góc nhìn về giai đoạn mà ba mạch đang kéo theo ba hướng riêng."
+  "desc_vi": "Bitcoin giao dịch trong khoảng 63.700-64.550 đô la từ tối ngày 12 tháng 7 đến rạng sáng ngày 13 tháng 7 (giờ Hàn Quốc), sau khi phục hồi hơn 10% trong mười ngày từ đáy 57.900 đô la thiết lập ngày 30 tháng 6. Tuy nhiên, trong cùng giai đoạn đó, Chỉ số Đô la (DXY) đã tăng lên 100,97 vào ngày 10 tháng 7, mức cao nhất trong một năm, tăng 1,11% trong tháng qua và khoảng 3% kể từ đầu năm (Trading Economics, FXStreet). Các vị thế mua ròng mang tính đầu cơ đối với đồng đô la cũng tăng sáu tuần liên tiếp lên 33,5 tỷ đô la, mức cao nhất kể từ tháng 1 năm 2025 (báo cáo COT của forex.com). Xét rằng mối tương quan Bitcoin-đô la đã chuyển sang dương vào tháng 3 rồi giảm xuống -0,90 vào tháng 4 năm nay, việc Bitcoin tăng cùng nhịp với một đồng đô la mạnh ngay lúc này là điều bất thường. Hơn nữa, tỷ lệ tài trợ vẫn gần mức trung lập và các mức đọc Sợ hãi và Tham lam dao động từ 20 đến 46 tùy chỉ số, nên các chỉ báo niềm tin riêng của tiền mã hóa cũng chưa xác nhận rõ ràng đợt phục hồi này. Một góc nhìn về giai đoạn mà ba mạch đang kéo theo ba hướng riêng.",
+  "desc_id": "Bitcoin naik lebih dari 10% saat Indeks Dolar (DXY) mencapai puncak satu tahun, membalikkan korelasi terbalik yang biasa berlaku.",
+  "desc_pl": "Bitcoin zyskał ponad 10%, gdy Indeks Dolara (DXY) osiągnął roczny szczyt, odwracając typową odwrotną korelację między nimi.",
+  "desc_it": "Il bitcoin è salito di oltre il 10% mentre l'Indice del Dollaro (DXY) ha toccato un massimo annuale, ribaltando la consueta correlazione inversa.",
+  "desc_ru": "Биткоин вырос более чем на 10%, пока Индекс доллара (DXY) достиг годового максимума, перевернув привычную обратную корреляцию.",
+  "desc_zh": "比特幣自6月30日低點反彈逾10%,同一期間美元指數(DXY)卻攀升至一年新高,投機性美元多頭部位更創下17個月新高,顛覆了兩者長期以來慣常呈現的逆相關關係,而資金費率與恐懼貪婪指數等加密貨幣自身的信心指標,至今仍未能明確確認這波反彈的真實力道。"
 }
