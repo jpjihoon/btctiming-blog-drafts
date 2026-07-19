@@ -451,4 +451,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Este artigo não é aconselhamento de investimento.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Bu yazı yatırım tavsiyesi değildir.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Bài viết này không phải là lời khuyên đầu tư.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Artikel ini bukan merupakan nasihat investasi.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Ten artykuł nie stanowi porady inwestycyjnej.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Questo articolo non costituisce consulenza di investimento.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: ABNR Counsellors at Law, Rajah &amp; Tann Asia, ADCO Law, CryptoRank, CryptoNews. Эта статья не является инвестиционной рекомендацией.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:ABNR Counsellors at Law、Rajah &amp; Tann Asia、ADCO Law、CryptoRank、CryptoNews。本文並非投資建議。</p>
 <?php require __DIR__.'/_footer.php'; ?>

@@ -68,6 +68,11 @@
   "desc_pt": "A OCC e a FDIC emitiram uma regra final em 7 de abril de 2026 eliminando o 'risco reputacional' da supervisão bancária, em vigor desde 9 de junho — completando uma mudança que o Fed iniciou em junho de 2025 e buscou codificar em fevereiro. A vice-presidente Bowman disse que o padrão produziu 'debanking nas sombras' de setores incluindo cripto, mas a própria regra do Fed permanece inacabada e a discricionariedade do examinador pode ressurgir sob outro nome. O texto também aponta o que essa regra não toca, como a disputa não resolvida da conta mestra do Custodia Bank.",
   "desc_tr": "OCC ve FDIC, 7 Nisan 2026'da banka denetiminden 'itibar riskini' kaldıran nihai kuralı yayımladı; kural 9 Haziran'da yürürlüğe girdi — Fed'in Haziran 2025'te başlattığı ve Şubat'ta kurallaştırdığı değişikliği tamamlıyor. Başkan Yardımcısı Bowman, standardın kripto dahil sektörlerde 'gölge debanking' ürettiğini söyledi, ancak Fed'in kendi kuralı tamamlanmadı ve denetçi takdiri başka bir adla geri dönebilir. Yazı, Custodia Bank'ın çözülmemiş ana hesap mücadelesi gibi bu kuralın dokunmadığı alanlara da değiniyor.",
   "desc_vi": "OCC và FDIC đã ban hành quy định cuối cùng vào ngày 7 tháng 4 năm 2026, loại bỏ 'rủi ro danh tiếng' khỏi giám sát ngân hàng, có hiệu lực từ 9/6 — hoàn tất thay đổi mà Fed khởi xướng từ 6/2025 và tìm cách chính thức hóa vào tháng 2. Phó Chủ tịch Bowman cho biết tiêu chuẩn này tạo ra 'debanking ngầm' với các ngành gồm cả tiền mã hóa, nhưng quy định riêng của Fed vẫn chưa hoàn tất và quyền quyết định của giám sát viên có thể tái xuất dưới tên khác. Bài viết cũng chỉ ra những gì quy định này không đụng tới, như tranh chấp tài khoản chủ chưa được giải quyết của Custodia Bank.",
+  "desc_id": "OCC dan FDIC menghapus 'risiko reputasi' dari pengawasan bank efektif 9 Juni 2026, menuntaskan perubahan kebijakan Fed yang dimulai 2025.",
+  "desc_pl": "OCC i FDIC zniosły 'ryzyko reputacyjne' w nadzorze bankowym od 9 czerwca 2026, kończąc zmianę polityki zapoczątkowaną przez Fed w 2025 roku.",
+  "desc_it": "OCC e FDIC hanno eliminato il 'rischio reputazionale' dalla vigilanza bancaria dal 9 giugno 2026, completando un cambiamento avviato dalla Fed nel 2025.",
+  "desc_ru": "OCC и FDIC отменили «репутационный риск» в банковском надзоре с 9 июня 2026 года, завершив сдвиг политики, начатый ФРС в 2025 году.",
+  "desc_zh": "OCC與FDIC於2026年4月7日發布最終規則,廢除銀行監理中的「聲譽風險」,並於6月9日生效,完成聯準會2025年6月啟動、2月著手成文化的政策轉變。副主席鮑曼稱此舉終結了對加密貨幣等產業的影子式去銀行化,但聯準會自身規則仍未確定,監理裁量權恐以另一名義重現。",
   "read_ko": "9",
   "read_en": "9",
   "read_ja": "9",
@@ -76,5 +81,10 @@
   "read_fr": "9",
   "read_pt": "9",
   "read_tr": "9",
-  "read_vi": "9"
+  "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9"
 }
