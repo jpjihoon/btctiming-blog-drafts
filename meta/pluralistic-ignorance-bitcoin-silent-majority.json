@@ -68,6 +68,11 @@
   "desc_pt": "Uma pesquisa da Coinbase-Glassnode descobriu que a maioria acredita em privado que o Bitcoin está subvalorizado, mas diagnostica publicamente o mercado como ainda baixista. A pesquisa de 1993 de Prentice e Miller sobre ignorância pluralística e o concurso de beleza de Keynes explicam o motivo.",
   "desc_tr": "Coinbase-Glassnode anketi, çoğunluğun Bitcoin'in değerinin altında olduğuna özel olarak inanırken piyasayı kamuya açık biçimde hâlâ ayı piyasası olarak teşhis ettiğini ortaya koydu. Prentice ve Miller'ın 1993 çoğulcu cehalet araştırması ve Keynes'in güzellik yarışması bunun nedenini açıklıyor.",
   "desc_vi": "Khảo sát Coinbase-Glassnode cho thấy đa số riêng tư tin rằng Bitcoin bị định giá thấp nhưng lại công khai chẩn đoán thị trường vẫn còn giá xuống. Nghiên cứu năm 1993 của Prentice và Miller về thiếu hiểu biết đa nguyên và cuộc thi sắc đẹp của Keynes lý giải vì sao.",
+  "desc_id": "Survei Coinbase-Glassnode: mayoritas percaya privat Bitcoin undervalued, publik nilai pasar masih bearish. Riset Prentice-Miller jelaskan alasannya.",
+  "desc_pl": "Ankieta Coinbase-Glassnode: większość wierzy prywatnie, że Bitcoin jest tani, lecz publicznie widzi bessę. Badanie Prentice-Millera wyjaśnia dlaczego.",
+  "desc_it": "Sondaggio Coinbase-Glassnode: la maggioranza crede privatamente che il Bitcoin sia sottovalutato, ma vede pubblicamente un mercato ribassista.",
+  "desc_ru": "Опрос Coinbase-Glassnode: большинство приватно верит в недооценённость биткоина, но публично видит медвежий рынок. Prentice-Miller объясняют почему.",
+  "desc_zh": "Coinbase-Glassnode一項調查發現,多數投資人私下相信比特幣目前被低估,卻公開將整體市場情緒診斷為仍處於熊市階段。普倫蒂斯與米勒1993年的多元無知研究,以及凱因斯著名的選美比賽理論,共同解釋了這種矛盾背後的心理原因與交易意涵。",
   "read_ko": "9",
   "read_en": "9",
   "read_ja": "9",
@@ -76,5 +81,10 @@
   "read_fr": "9",
   "read_pt": "9",
   "read_tr": "9",
-  "read_vi": "9"
+  "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9"
 }
