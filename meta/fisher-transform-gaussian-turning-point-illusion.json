@@ -68,6 +68,11 @@
   "desc_pt": "A Transformada de Fisher força o preço a assumir uma forma próxima da distribuição normal, transformando pontos de reversão em picos afiados. O problema é que essa nitidez não é informação extra — é um subproduto matemático de uma função que diverge rumo ao infinito perto de seus próprios extremos.",
   "desc_tr": "Fisher Dönüşümü, fiyatı normal dağılıma yakın bir biçime zorlayarak dönüş noktalarını keskin sivrilere dönüştürür. Sorun şu ki bu keskinlik ekstra bilgi değildir — kendi uç noktalarına yaklaştıkça sonsuza ıraksayan bir fonksiyonun matematiksel bir yan ürünüdür.",
   "desc_vi": "Phép biến đổi Fisher ép giá vào một dạng gần với phân phối chuẩn, biến các điểm đảo chiều thành những đỉnh nhọn sắc bén. Vấn đề là độ sắc bén đó không phải là thông tin bổ sung — mà là sản phẩm phụ toán học của một hàm số phân kỳ tới vô cực gần các giá trị cực trị của chính nó.",
+  "desc_id": "Lonjakan tajam Transformasi Fisher bukan informasi ekstra — hanya produk matematis fungsi yang meledak dekat titik ekstrem, bukan ukuran sinyal.",
+  "desc_pl": "Ostre skoki Transformaty Fishera to nie dodatkowa informacja — to produkt uboczny funkcji eksplodującej blisko ekstremów, a nie miara jakości sygnału.",
+  "desc_it": "I picchi affilati della Trasformata di Fisher non sono informazione extra, ma un sottoprodotto di una funzione che esplode vicino ai suoi estremi.",
+  "desc_ru": "Резкие пики преобразования Фишера — не дополнительная информация, а побочный продукт функции, взрывающейся вблизи своих экстремумов, а не мера сигнала.",
+  "desc_zh": "費雪轉換把價格硬塞進接近常態分布的形式,將反轉點轉化為銳利尖峰,讓交易者誤以為訊號特別強烈。但這種銳利其實並非額外資訊,只是一個函數在接近自身極值時會發散至無窮大,因而產生出來的數學副產品罷了,並不代表訊號品質真的比較高,反而更應該提高警覺,多加質疑。",
   "read_ko": "9",
   "read_en": "9",
   "read_ja": "9",
@@ -76,5 +81,10 @@
   "read_fr": "9",
   "read_pt": "9",
   "read_tr": "9",
-  "read_vi": "9"
+  "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9"
 }
