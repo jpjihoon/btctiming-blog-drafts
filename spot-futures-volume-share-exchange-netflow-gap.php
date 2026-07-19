@@ -579,6 +579,261 @@
   <text x="20" y="655" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: CoinGlass (khối lượng, OI); Grafa (dòng chảy ròng trên sàn, trích dẫn dữ liệu CoinGlass)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 680" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Futures Diperdagangkan 16x Volume Spot, Sementara Koin Mengalir ke Bursa</text>
+
+  <text x="20" y="62" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Volume Perdagangan 24 Jam (per 7 Juli)</text>
+  <text x="140" y="88" fill="#a1a1aa" font-family="sans-serif" font-size="13">Futures</text>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#fb923c"/>
+  <text x="610" y="111" fill="#fb923c" font-family="sans-serif" font-size="13" font-weight="700">$81,2 miliar</text>
+  <text x="140" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="13">Spot</text>
+  <rect x="140" y="147" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="147" width="28" height="22" rx="6" fill="#4ade80"/>
+  <text x="178" y="163" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">$5 miliar (kurang dari 6% dari total)</text>
+  <text x="140" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="15" font-weight="700">Futures : Spot &#8776; 16 : 1</text>
+  <text x="140" y="225" fill="#71717a" font-family="sans-serif" font-size="13">Posisi Terbuka (OI): $46,7 miliar (7/7) &#8594; $47,14 miliar (12-13/7)</text>
+
+  <line x1="20" y1="255" x2="680" y2="255" stroke="#27272a" stroke-width="1"/>
+
+  <text x="20" y="288" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Arus Bersih Bursa (7 Hari hingga 5 Juli, BTC)</text>
+  <text x="120" y="308" fill="#71717a" font-family="sans-serif" font-size="13">&#9664; Keluar</text>
+  <text x="580" y="308" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Masuk &#9654;</text>
+  <line x1="350" y1="318" x2="350" y2="560" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <text x="345" y="338" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Binance</text>
+  <rect x="350" y="326" width="220" height="20" rx="4" fill="#4ade80"/>
+  <text x="578" y="341" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+2.006,76</text>
+
+  <text x="345" y="378" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">OKX</text>
+  <rect x="350" y="366" width="219" height="20" rx="4" fill="#4ade80"/>
+  <text x="577" y="381" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+1.999,85</text>
+
+  <text x="345" y="418" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kraken</text>
+  <rect x="350" y="406" width="93" height="20" rx="4" fill="#4ade80"/>
+  <text x="451" y="421" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+848,24</text>
+
+  <text x="345" y="458" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Coinbase Pro</text>
+  <rect x="338" y="446" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="461" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-110,81</text>
+
+  <text x="345" y="498" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Bitfinex</text>
+  <rect x="338" y="486" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="501" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-113,06</text>
+
+  <text x="20" y="545" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">Total arus masuk bersih bursa: +4.932,87 BTC</text>
+
+  <line x1="20" y1="575" x2="680" y2="575" stroke="#27272a" stroke-width="1"/>
+  <text x="350" y="605" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Spot Tipis, Koin ke Bursa — Dua Indikator Menunjuk Arah yang Sama</text>
+  <text x="20" y="635" fill="#71717a" font-family="sans-serif" font-size="12">* Kedua panel menggunakan skala berbeda; panjang batang hanya menunjukkan ukuran relatif.</text>
+  <text x="20" y="655" fill="#71717a" font-family="sans-serif" font-size="12">Sumber: CoinGlass (volume, OI); Grafa (arus bersih bursa, mengutip data CoinGlass)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 680" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Kontrakty Terminowe Handlowane 16x Więcej Niż Spot, Podczas Gdy Monety Napływają na Giełdy</text>
+
+  <text x="20" y="62" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Wolumen Obrotu 24h (na dzień 7 lipca)</text>
+  <text x="140" y="88" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kontrakty terminowe</text>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#fb923c"/>
+  <text x="610" y="111" fill="#fb923c" font-family="sans-serif" font-size="13" font-weight="700">81,2 mld USD</text>
+  <text x="140" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="13">Spot</text>
+  <rect x="140" y="147" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="147" width="28" height="22" rx="6" fill="#4ade80"/>
+  <text x="178" y="163" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">5 mld USD (poniżej 6% całości)</text>
+  <text x="140" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="15" font-weight="700">Kontrakty terminowe : Spot &#8776; 16 : 1</text>
+  <text x="140" y="225" fill="#71717a" font-family="sans-serif" font-size="13">Otwarte pozycje (OI): 46,7 mld USD (7.07) &#8594; 47,14 mld USD (12-13.07)</text>
+
+  <line x1="20" y1="255" x2="680" y2="255" stroke="#27272a" stroke-width="1"/>
+
+  <text x="20" y="288" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Przepływ Netto na Giełdach (7 Dni do 5 Lipca, BTC)</text>
+  <text x="120" y="308" fill="#71717a" font-family="sans-serif" font-size="13">&#9664; Odpływ</text>
+  <text x="580" y="308" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Napływ &#9654;</text>
+  <line x1="350" y1="318" x2="350" y2="560" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <text x="345" y="338" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Binance</text>
+  <rect x="350" y="326" width="220" height="20" rx="4" fill="#4ade80"/>
+  <text x="578" y="341" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+2 006,76</text>
+
+  <text x="345" y="378" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">OKX</text>
+  <rect x="350" y="366" width="219" height="20" rx="4" fill="#4ade80"/>
+  <text x="577" y="381" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+1 999,85</text>
+
+  <text x="345" y="418" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kraken</text>
+  <rect x="350" y="406" width="93" height="20" rx="4" fill="#4ade80"/>
+  <text x="451" y="421" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+848,24</text>
+
+  <text x="345" y="458" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Coinbase Pro</text>
+  <rect x="338" y="446" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="461" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-110,81</text>
+
+  <text x="345" y="498" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Bitfinex</text>
+  <rect x="338" y="486" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="501" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-113,06</text>
+
+  <text x="20" y="545" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">Łączny napływ netto na giełdach: +4 932,87 BTC</text>
+
+  <line x1="20" y1="575" x2="680" y2="575" stroke="#27272a" stroke-width="1"/>
+  <text x="350" y="605" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Cienki Spot, Monety do Giełd — Dwa Wskaźniki Wskazują Ten Sam Kierunek</text>
+  <text x="20" y="635" fill="#71717a" font-family="sans-serif" font-size="12">* Oba panele używają różnych skal; długość słupków wskazuje jedynie rozmiar względny.</text>
+  <text x="20" y="655" fill="#71717a" font-family="sans-serif" font-size="12">Źródła: CoinGlass (wolumen, OI); Grafa (przepływ netto na giełdach, na podstawie danych CoinGlass)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 680" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">I Futures Vengono Scambiati 16 Volte Più dello Spot, Mentre le Monete Affluiscono Verso le Borse</text>
+
+  <text x="20" y="62" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Volume di Scambi 24h (al 7 luglio)</text>
+  <text x="140" y="88" fill="#a1a1aa" font-family="sans-serif" font-size="13">Futures</text>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#fb923c"/>
+  <text x="610" y="111" fill="#fb923c" font-family="sans-serif" font-size="13" font-weight="700">$81,2 mld</text>
+  <text x="140" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="13">Spot</text>
+  <rect x="140" y="147" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="147" width="28" height="22" rx="6" fill="#4ade80"/>
+  <text x="178" y="163" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">$5 mld (meno del 6% del totale)</text>
+  <text x="140" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="15" font-weight="700">Futures : Spot &#8776; 16 : 1</text>
+  <text x="140" y="225" fill="#71717a" font-family="sans-serif" font-size="13">Open Interest (OI): $46,7 mld (7/7) &#8594; $47,14 mld (12-13/7)</text>
+
+  <line x1="20" y1="255" x2="680" y2="255" stroke="#27272a" stroke-width="1"/>
+
+  <text x="20" y="288" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Flusso Netto sulle Borse (7 Giorni fino al 5 Luglio, BTC)</text>
+  <text x="120" y="308" fill="#71717a" font-family="sans-serif" font-size="13">&#9664; Deflusso</text>
+  <text x="580" y="308" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Afflusso &#9654;</text>
+  <line x1="350" y1="318" x2="350" y2="560" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <text x="345" y="338" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Binance</text>
+  <rect x="350" y="326" width="220" height="20" rx="4" fill="#4ade80"/>
+  <text x="578" y="341" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+2.006,76</text>
+
+  <text x="345" y="378" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">OKX</text>
+  <rect x="350" y="366" width="219" height="20" rx="4" fill="#4ade80"/>
+  <text x="577" y="381" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+1.999,85</text>
+
+  <text x="345" y="418" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kraken</text>
+  <rect x="350" y="406" width="93" height="20" rx="4" fill="#4ade80"/>
+  <text x="451" y="421" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+848,24</text>
+
+  <text x="345" y="458" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Coinbase Pro</text>
+  <rect x="338" y="446" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="461" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-110,81</text>
+
+  <text x="345" y="498" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Bitfinex</text>
+  <rect x="338" y="486" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="501" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-113,06</text>
+
+  <text x="20" y="545" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">Afflusso netto totale sulle borse: +4.932,87 BTC</text>
+
+  <line x1="20" y1="575" x2="680" y2="575" stroke="#27272a" stroke-width="1"/>
+  <text x="350" y="605" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Spot Sottile, Monete Verso le Borse — Due Indicatori Nella Stessa Direzione</text>
+  <text x="20" y="635" fill="#71717a" font-family="sans-serif" font-size="12">* I due pannelli utilizzano scale diverse; la lunghezza delle barre indica solo la dimensione relativa.</text>
+  <text x="20" y="655" fill="#71717a" font-family="sans-serif" font-size="12">Fonti: CoinGlass (volume, OI); Grafa (flusso netto sulle borse, citando dati CoinGlass)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 680" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Фьючерсы Торгуются в 16 Раз Активнее Спота, в То Время как Монеты Текут на Биржи</text>
+
+  <text x="20" y="62" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Объём Торгов за 24ч (на 7 июля)</text>
+  <text x="140" y="88" fill="#a1a1aa" font-family="sans-serif" font-size="13">Фьючерсы</text>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#fb923c"/>
+  <text x="610" y="111" fill="#fb923c" font-family="sans-serif" font-size="13" font-weight="700">81,2 млрд $</text>
+  <text x="140" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="13">Спот</text>
+  <rect x="140" y="147" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="147" width="28" height="22" rx="6" fill="#4ade80"/>
+  <text x="178" y="163" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">5 млрд $ (менее 6% от общего объёма)</text>
+  <text x="140" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="15" font-weight="700">Фьючерсы : Спот &#8776; 16 : 1</text>
+  <text x="140" y="225" fill="#71717a" font-family="sans-serif" font-size="13">Открытый интерес (OI): 46,7 млрд $ (7.07) &#8594; 47,14 млрд $ (12-13.07)</text>
+
+  <line x1="20" y1="255" x2="680" y2="255" stroke="#27272a" stroke-width="1"/>
+
+  <text x="20" y="288" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Чистый Поток на Биржах (7 Дней до 5 Июля, BTC)</text>
+  <text x="120" y="308" fill="#71717a" font-family="sans-serif" font-size="13">&#9664; Отток</text>
+  <text x="580" y="308" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Приток &#9654;</text>
+  <line x1="350" y1="318" x2="350" y2="560" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <text x="345" y="338" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Binance</text>
+  <rect x="350" y="326" width="220" height="20" rx="4" fill="#4ade80"/>
+  <text x="578" y="341" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+2 006,76</text>
+
+  <text x="345" y="378" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">OKX</text>
+  <rect x="350" y="366" width="219" height="20" rx="4" fill="#4ade80"/>
+  <text x="577" y="381" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+1 999,85</text>
+
+  <text x="345" y="418" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kraken</text>
+  <rect x="350" y="406" width="93" height="20" rx="4" fill="#4ade80"/>
+  <text x="451" y="421" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+848,24</text>
+
+  <text x="345" y="458" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Coinbase Pro</text>
+  <rect x="338" y="446" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="461" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-110,81</text>
+
+  <text x="345" y="498" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Bitfinex</text>
+  <rect x="338" y="486" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="501" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-113,06</text>
+
+  <text x="20" y="545" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">Общий чистый приток на биржи: +4 932,87 BTC</text>
+
+  <line x1="20" y1="575" x2="680" y2="575" stroke="#27272a" stroke-width="1"/>
+  <text x="350" y="605" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Тонкий Спот, Монеты на Биржи — Два Индикатора Указывают в Одном Направлении</text>
+  <text x="20" y="635" fill="#71717a" font-family="sans-serif" font-size="12">* На двух панелях используются разные шкалы; длина полос отражает только относительный размер.</text>
+  <text x="20" y="655" fill="#71717a" font-family="sans-serif" font-size="12">Источники: CoinGlass (объём, OI); Grafa (чистый поток на биржах, со ссылкой на данные CoinGlass)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 680" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">期貨成交量為現貨的16倍,幣卻流向交易所</text>
+
+  <text x="20" y="62" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">24小時交易量(截至7月7日)</text>
+  <text x="140" y="88" fill="#a1a1aa" font-family="sans-serif" font-size="13">期貨</text>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="95" width="460" height="22" rx="6" fill="#fb923c"/>
+  <text x="610" y="111" fill="#fb923c" font-family="sans-serif" font-size="13" font-weight="700">812億美元</text>
+  <text x="140" y="140" fill="#a1a1aa" font-family="sans-serif" font-size="13">現貨</text>
+  <rect x="140" y="147" width="460" height="22" rx="6" fill="#27272a" stroke="#3f3f46"/>
+  <rect x="140" y="147" width="28" height="22" rx="6" fill="#4ade80"/>
+  <text x="178" y="163" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">50億美元(不到總量的6%)</text>
+  <text x="140" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="15" font-weight="700">期貨 : 現貨 &#8776; 16 : 1</text>
+  <text x="140" y="225" fill="#71717a" font-family="sans-serif" font-size="13">未平倉合約(OI):467億美元(7/7)&#8594;471.4億美元(7/12-13)</text>
+
+  <line x1="20" y1="255" x2="680" y2="255" stroke="#27272a" stroke-width="1"/>
+
+  <text x="20" y="288" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">交易所淨流量(截至7月5日的7天,BTC)</text>
+  <text x="120" y="308" fill="#71717a" font-family="sans-serif" font-size="13">&#9664; 流出</text>
+  <text x="580" y="308" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">流入 &#9654;</text>
+  <line x1="350" y1="318" x2="350" y2="560" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <text x="345" y="338" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Binance</text>
+  <rect x="350" y="326" width="220" height="20" rx="4" fill="#4ade80"/>
+  <text x="578" y="341" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+2,006.76</text>
+
+  <text x="345" y="378" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">OKX</text>
+  <rect x="350" y="366" width="219" height="20" rx="4" fill="#4ade80"/>
+  <text x="577" y="381" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+1,999.85</text>
+
+  <text x="345" y="418" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kraken</text>
+  <rect x="350" y="406" width="93" height="20" rx="4" fill="#4ade80"/>
+  <text x="451" y="421" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="700">+848.24</text>
+
+  <text x="345" y="458" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Coinbase Pro</text>
+  <rect x="338" y="446" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="461" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-110.81</text>
+
+  <text x="345" y="498" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="13">Bitfinex</text>
+  <rect x="338" y="486" width="12" height="20" rx="3" fill="#f87171"/>
+  <text x="330" y="501" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">-113.06</text>
+
+  <text x="20" y="545" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">交易所總淨流入:+4,932.87 BTC</text>
+
+  <line x1="20" y1="575" x2="680" y2="575" stroke="#27272a" stroke-width="1"/>
+  <text x="350" y="605" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">現貨稀薄,幣流向交易所——兩項指標指向同一方向</text>
+  <text x="20" y="635" fill="#71717a" font-family="sans-serif" font-size="12">* 兩個面板使用不同的比例尺;長條長度僅表示相對大小。</text>
+  <text x="20" y="655" fill="#71717a" font-family="sans-serif" font-size="12">來源:CoinGlass(成交量、OI);Grafa(交易所淨流量,引用CoinGlass數據)</text>
+</svg>
+</div>
 
 <h2 class="ko">두 지표가 겹쳐 가리키는 것 — 얇은 반등, 그리고 지켜봐야 할 지점</h2>
 <h2 class="en">What the Overlap Points To — A Thin Rebound, and What to Watch</h2>
@@ -589,6 +844,11 @@
 <h2 class="pt">O que a Sobreposição Indica — Uma Recuperação Fraca, e o que Observar</h2>
 <h2 class="tr">Örtüşmenin İşaret Ettiği — Zayıf Bir Sıçrama ve İzlenmesi Gerekenler</h2>
 <h2 class="vi">Điều Sự Chồng Lấp Chỉ Ra — Một Đợt Phục Hồi Mỏng, và Những Gì Cần Theo Dõi</h2>
+<h2 class="id">Yang Ditunjukkan Tumpang Tindih Ini — Rebound Tipis, dan Apa yang Perlu Diperhatikan</h2>
+<h2 class="pl">Na Co Wskazuje To Nakładanie Się — Cienkie Odbicie i Co Warto Obserwować</h2>
+<h2 class="it">Cosa Indica Questa Sovrapposizione — Un Rimbalzo Sottile, e Cosa Osservare</h2>
+<h2 class="ru">На Что Указывает Это Совпадение — Слабый Отскок и На Что Обратить Внимание</h2>
+<h2 class="zh">這種重疊指向什麼——一波稀薄的反彈,以及該關注什麼</h2>
 
 <p class="ko">스팟 거래 비중 6% 미만이라는 숫자와, 같은 주간 거래소 순유입 4,932 BTC라는 숫자는 서로 다른 데이터셋에서 나왔지만 같은 방향의 이야기를 하고 있다 — 지금의 반등은 새로운 현물 매수세가 폭넓게 유입되며 만들어진 것이 아니라, 파생상품 시장의 레버리지와 일부 거래소의 유입 물량 위에서 유지되고 있다는 것이다. 두 축 모두 '가격이 오르는 이유'를 설명하는 지표라기보다, '이 반등이 얼마나 얕은 기반 위에 서 있는지'를 보여주는 지표에 가깝다.</p>
 <p class="en">The under-6% spot share of trading and the 4,932 BTC net inflow to exchanges over the same week come from entirely different datasets, yet they tell a story pointing the same way: this bounce wasn't built on a broad wave of fresh spot buying, but is being sustained on top of derivatives-market leverage and inbound supply sitting on some exchanges' books. Neither axis really explains 'why price is rising' — both are closer to showing 'how shallow the foundation under this bounce actually is.'</p>

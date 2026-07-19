@@ -411,6 +411,151 @@
   <text x="20" y="394" fill="#fde047" font-size="13" font-family="sans-serif">┄ Đường đứt nét = khảo sát tháng 12/2025 (31%/36%)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Kesenjangan Antara Keyakinan Pribadi dan Diagnosis Publik (Q2 2026)</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Berdasarkan Survei Investor Global Coinbase-Glassnode (n=91, 16 Mar - 7 Apr 2026)</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+  <text x="175" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Persentase yang Mengatakan "Undervalued"</text>
+  <text x="175" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Keyakinan Pribadi)</text>
+  <text x="525" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Persentase yang Menyebut Bear/Bear Akhir</text>
+  <text x="525" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Diagnosis Publik)</text>
+  <line x1="70" y1="330" x2="300" y2="330" stroke="#52525b" stroke-width="1"/>
+  <line x1="400" y1="330" x2="630" y2="330" stroke="#52525b" stroke-width="1"/>
+  <rect x="90" y="180" width="70" height="150" fill="#4ade80" rx="3"/>
+  <text x="125" y="172" fill="#4ade80" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">75%</text>
+  <rect x="200" y="208" width="70" height="122" fill="#38bdf8" rx="3"/>
+  <text x="235" y="200" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">61%</text>
+  <rect x="420" y="166" width="70" height="164" fill="#f87171" rx="3"/>
+  <text x="455" y="158" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">82%</text>
+  <rect x="530" y="190" width="70" height="140" fill="#fb923c" rx="3"/>
+  <text x="565" y="182" fill="#fb923c" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">70%</text>
+  <line x1="420" y1="268" x2="490" y2="268" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="530" y1="258" x2="600" y2="258" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="125" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Institusional</text>
+  <text x="235" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Individu</text>
+  <text x="455" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Institusional</text>
+  <text x="565" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Individu</text>
+  <text x="20" y="378" fill="#71717a" font-size="13" font-family="sans-serif">↑ Persentase responden (%)</text>
+  <text x="20" y="394" fill="#fde047" font-size="13" font-family="sans-serif">┄ Garis putus-putus = nilai survei Desember 2025 (31%/36%)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Luka Między Prywatnym Przekonaniem a Publiczną Diagnozą (2 kw. 2026)</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Na podstawie Globalnej Ankiety Inwestorów Coinbase-Glassnode (n=91, 16 mar - 7 kwi 2026)</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+  <text x="175" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Odsetek Mówiących "Niedowartościowany"</text>
+  <text x="175" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Prywatne Przekonanie)</text>
+  <text x="525" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Odsetek Diagnozujących Bessę/Późną Bessę</text>
+  <text x="525" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Publiczna Diagnoza)</text>
+  <line x1="70" y1="330" x2="300" y2="330" stroke="#52525b" stroke-width="1"/>
+  <line x1="400" y1="330" x2="630" y2="330" stroke="#52525b" stroke-width="1"/>
+  <rect x="90" y="180" width="70" height="150" fill="#4ade80" rx="3"/>
+  <text x="125" y="172" fill="#4ade80" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">75%</text>
+  <rect x="200" y="208" width="70" height="122" fill="#38bdf8" rx="3"/>
+  <text x="235" y="200" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">61%</text>
+  <rect x="420" y="166" width="70" height="164" fill="#f87171" rx="3"/>
+  <text x="455" y="158" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">82%</text>
+  <rect x="530" y="190" width="70" height="140" fill="#fb923c" rx="3"/>
+  <text x="565" y="182" fill="#fb923c" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">70%</text>
+  <line x1="420" y1="268" x2="490" y2="268" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="530" y1="258" x2="600" y2="258" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="125" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Instytucjonalni</text>
+  <text x="235" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Indywidualni</text>
+  <text x="455" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Instytucjonalni</text>
+  <text x="565" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Indywidualni</text>
+  <text x="20" y="378" fill="#71717a" font-size="13" font-family="sans-serif">↑ Odsetek respondentów (%)</text>
+  <text x="20" y="394" fill="#fde047" font-size="13" font-family="sans-serif">┄ Linia przerywana = wartość ankiety z grudnia 2025 (31%/36%)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Il Divario Tra Convinzione Privata e Diagnosi Pubblica (T2 2026)</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Basato sul Sondaggio Globale sugli Investitori Coinbase-Glassnode (n=91, 16 mar - 7 apr 2026)</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+  <text x="175" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Quota Che Dice "Sottovalutato"</text>
+  <text x="175" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Convinzione Privata)</text>
+  <text x="525" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Quota Che Diagnostica Ribasso/Tardo Ribasso</text>
+  <text x="525" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Diagnosi Pubblica)</text>
+  <line x1="70" y1="330" x2="300" y2="330" stroke="#52525b" stroke-width="1"/>
+  <line x1="400" y1="330" x2="630" y2="330" stroke="#52525b" stroke-width="1"/>
+  <rect x="90" y="180" width="70" height="150" fill="#4ade80" rx="3"/>
+  <text x="125" y="172" fill="#4ade80" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">75%</text>
+  <rect x="200" y="208" width="70" height="122" fill="#38bdf8" rx="3"/>
+  <text x="235" y="200" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">61%</text>
+  <rect x="420" y="166" width="70" height="164" fill="#f87171" rx="3"/>
+  <text x="455" y="158" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">82%</text>
+  <rect x="530" y="190" width="70" height="140" fill="#fb923c" rx="3"/>
+  <text x="565" y="182" fill="#fb923c" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">70%</text>
+  <line x1="420" y1="268" x2="490" y2="268" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="530" y1="258" x2="600" y2="258" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="125" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Istituzionali</text>
+  <text x="235" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Individuali</text>
+  <text x="455" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Istituzionali</text>
+  <text x="565" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Individuali</text>
+  <text x="20" y="378" fill="#71717a" font-size="13" font-family="sans-serif">↑ Quota di intervistati (%)</text>
+  <text x="20" y="394" fill="#fde047" font-size="13" font-family="sans-serif">┄ Linea tratteggiata = valore sondaggio dicembre 2025 (31%/36%)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Разрыв Между Приватным Убеждением и Публичным Диагнозом (2 кв. 2026)</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">На основе Глобального опроса инвесторов Coinbase-Glassnode (n=91, 16 марта - 7 апреля 2026)</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+  <text x="175" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Доля Ответивших «Недооценён»</text>
+  <text x="175" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Приватное Убеждение)</text>
+  <text x="525" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Доля Диагностирующих Медвежий/Поздний Медвежий Рынок</text>
+  <text x="525" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(Публичный Диагноз)</text>
+  <line x1="70" y1="330" x2="300" y2="330" stroke="#52525b" stroke-width="1"/>
+  <line x1="400" y1="330" x2="630" y2="330" stroke="#52525b" stroke-width="1"/>
+  <rect x="90" y="180" width="70" height="150" fill="#4ade80" rx="3"/>
+  <text x="125" y="172" fill="#4ade80" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">75%</text>
+  <rect x="200" y="208" width="70" height="122" fill="#38bdf8" rx="3"/>
+  <text x="235" y="200" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">61%</text>
+  <rect x="420" y="166" width="70" height="164" fill="#f87171" rx="3"/>
+  <text x="455" y="158" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">82%</text>
+  <rect x="530" y="190" width="70" height="140" fill="#fb923c" rx="3"/>
+  <text x="565" y="182" fill="#fb923c" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">70%</text>
+  <line x1="420" y1="268" x2="490" y2="268" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="530" y1="258" x2="600" y2="258" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="125" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Институциональные</text>
+  <text x="235" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Частные</text>
+  <text x="455" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Институциональные</text>
+  <text x="565" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Частные</text>
+  <text x="20" y="378" fill="#71717a" font-size="13" font-family="sans-serif">↑ Доля респондентов (%)</text>
+  <text x="20" y="394" fill="#fde047" font-size="13" font-family="sans-serif">┄ Пунктир = значение опроса декабря 2025 (31%/36%)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">私人信念與公開診斷之間的落差(2026年第二季)</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">根據Coinbase-Glassnode全球投資人調查(n=91,2026年3月16日至4月7日)</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+  <text x="175" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">表示「被低估」的比例</text>
+  <text x="175" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(私人信念)</text>
+  <text x="525" y="76" fill="#d4d4d8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">稱之為熊市/熊市後期的比例</text>
+  <text x="525" y="94" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">(公開診斷)</text>
+  <line x1="70" y1="330" x2="300" y2="330" stroke="#52525b" stroke-width="1"/>
+  <line x1="400" y1="330" x2="630" y2="330" stroke="#52525b" stroke-width="1"/>
+  <rect x="90" y="180" width="70" height="150" fill="#4ade80" rx="3"/>
+  <text x="125" y="172" fill="#4ade80" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">75%</text>
+  <rect x="200" y="208" width="70" height="122" fill="#38bdf8" rx="3"/>
+  <text x="235" y="200" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">61%</text>
+  <rect x="420" y="166" width="70" height="164" fill="#f87171" rx="3"/>
+  <text x="455" y="158" fill="#f87171" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">82%</text>
+  <rect x="530" y="190" width="70" height="140" fill="#fb923c" rx="3"/>
+  <text x="565" y="182" fill="#fb923c" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">70%</text>
+  <line x1="420" y1="268" x2="490" y2="268" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="530" y1="258" x2="600" y2="258" stroke="#fde047" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="125" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">機構</text>
+  <text x="235" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">個人</text>
+  <text x="455" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">機構</text>
+  <text x="565" y="348" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">個人</text>
+  <text x="20" y="378" fill="#71717a" font-size="13" font-family="sans-serif">↑ 受訪者比例(%)</text>
+  <text x="20" y="394" fill="#fde047" font-size="13" font-family="sans-serif">┄ 虛線 = 2025年12月調查數值(31%/36%)</text>
+</svg>
+</div>
 
 <p class="ko">이 괴리가 트레이딩에서 갖는 함의는 단순하지 않다. 사적으로 저평가라고 믿는 사람이 인구의 상당수라면, 그 믿음은 사라진 게 아니라 억눌려 있을 뿐이다. 그리고 억눌린 사적 믿음은 매수 자금이 서서히, 점진적으로 시장에 들어오는 형태로 풀리지 않는다 — 오히려 '공적으로 봐도 안전하다'는 신호(연속된 상승 캔들, 헤드라인, 특정 온체인 지표의 반등)가 나타나는 순간에야 한꺼번에 방출된다. 실제로 바닥권 반등이 완만한 매집보다 숏스퀴즈성 급등으로 시작하는 경우가 잦은 이유 중 하나는, 억눌려 있던 사적 확신이 "이제는 말해도/사도 되는" 순간에 동시다발적으로 풀리기 때문이라는 설명이 가능하다.</p>
 <p class="en">The trading implication of this gap isn't simple. If a substantial share of the population privately believes the asset is undervalued, that belief hasn't vanished — it's merely suppressed. And suppressed private belief doesn't get released as a slow, gradual trickle of buying into the market. It tends to get released all at once, only once a signal appears that makes acting on it feel "publicly safe" — a string of green candles, a headline, a bounce in some on-chain metric. That's one explanation for why bottoming rallies so often start as a short-squeeze-style spike rather than gradual accumulation: previously suppressed private conviction gets released simultaneously, the moment it becomes acceptable to say — or buy — out loud.</p>
@@ -421,6 +566,11 @@
 <p class="pt">A implicação dessa lacuna para o trading não é simples. Se uma parcela substancial da população acredita em privado que o ativo está subvalorizado, essa crença não desapareceu — ela está apenas suprimida. E a crença privada suprimida não se libera como um gotejamento lento e gradual de compras no mercado. Ela tende a se liberar de uma só vez, apenas quando aparece um sinal que faz agir de acordo com ela parecer "publicamente seguro" — uma sequência de candles verdes, uma manchete, uma recuperação em algum indicador on-chain. Essa é uma explicação de por que as recuperações de fundo tantas vezes começam como um pico estilo short squeeze em vez de acumulação gradual: a convicção privada antes suprimida é liberada simultaneamente, no momento em que se torna aceitável dizê-la — ou comprá-la — em voz alta.</p>
 <p class="tr">Bu boşluğun trading için anlamı basit değil. Nüfusun önemli bir kısmı özel olarak varlığın değerinin altında olduğuna inanıyorsa, bu inanç yok olmamıştır — sadece bastırılmıştır. Ve bastırılmış özel inanç, piyasaya yavaş yavaş, kademeli bir alım sızıntısı olarak açığa çıkmaz. Bunun yerine, buna göre hareket etmenin "kamusal olarak güvenli" hissettirdiği bir sinyal — art arda yeşil mumlar, bir manşet, belirli bir zincir üstü göstergedeki bir sıçrama — ortaya çıktığında hepsi birden açığa çıkma eğilimindedir. Bu, dip toplanmaları neden kademeli birikimden çok short-squeeze tarzı bir sıçramayla başladığının bir açıklamasıdır: daha önce bastırılmış özel kanaat, onu yüksek sesle söylemenin — ya da satın almanın — kabul edilebilir hale geldiği anda eşzamanlı olarak açığa çıkar.</p>
 <p class="vi">Hàm ý đối với giao dịch của khoảng cách này không đơn giản. Nếu một phần đáng kể dân số riêng tư tin rằng tài sản đang bị định giá thấp, niềm tin đó không biến mất — nó chỉ đơn thuần bị kìm nén. Và niềm tin riêng tư bị kìm nén không được giải phóng như một dòng chảy nhỏ giọt, dần dần của việc mua vào thị trường. Nó có xu hướng được giải phóng cùng một lúc, chỉ khi xuất hiện một tín hiệu khiến việc hành động theo nó cảm thấy "an toàn về mặt công khai" — một chuỗi nến xanh, một tiêu đề tin tức, một sự phục hồi ở một chỉ báo on-chain nào đó. Đó là một lời giải thích cho việc tại sao các đợt phục hồi từ đáy thường bắt đầu như một cú tăng vọt kiểu short-squeeze thay vì tích lũy dần dần: niềm tin riêng tư từng bị kìm nén được giải phóng đồng loạt, ngay khoảnh khắc việc nói ra — hay mua vào — công khai trở nên có thể chấp nhận được.</p>
+<p class="id">Implikasi trading dari kesenjangan ini tidak sederhana. Jika sebagian besar populasi secara pribadi percaya bahwa aset tersebut undervalued, keyakinan itu tidak hilang — ia hanya ditekan. Dan keyakinan pribadi yang ditekan tidak dilepaskan sebagai aliran pembelian yang lambat dan bertahap ke pasar. Keyakinan itu cenderung dilepaskan sekaligus, hanya setelah muncul sinyal yang membuat tindakan atas keyakinan itu terasa "aman secara publik" — rangkaian candle hijau, sebuah headline, pantulan pada suatu metrik on-chain. Itulah salah satu penjelasan mengapa reli dari titik dasar begitu sering dimulai sebagai lonjakan bergaya short-squeeze alih-alih akumulasi bertahap: keyakinan pribadi yang sebelumnya ditekan dilepaskan secara serentak, pada saat menjadi dapat diterima untuk mengatakannya — atau membelinya — secara terbuka.</p>
+<p class="pl">Implikacja tej luki dla handlu nie jest prosta. Jeśli znaczna część populacji prywatnie wierzy, że aktywo jest niedowartościowane, to przekonanie nie zniknęło — zostało jedynie stłumione. A stłumione prywatne przekonanie nie uwalnia się jako powolny, stopniowy strumień zakupów napływających na rynek. Zwykle uwalnia się od razu, dopiero gdy pojawi się sygnał sprawiający, że działanie zgodnie z nim wydaje się „publicznie bezpieczne" — seria zielonych świec, nagłówek, odbicie jakiegoś wskaźnika on-chain. To jedno z wyjaśnień, dlaczego rajdy od dna tak często zaczynają się jako skok w stylu short squeeze, a nie jako stopniowa akumulacja: wcześniej stłumione prywatne przekonanie uwalnia się jednocześnie w momencie, gdy staje się akceptowalne, by powiedzieć to — albo kupić — na głos.</p>
+<p class="it">L'implicazione di questo divario per il trading non è semplice. Se una parte sostanziale della popolazione crede privatamente che l'asset sia sottovalutato, quella convinzione non è svanita — è semplicemente repressa. E una convinzione privata repressa non viene rilasciata come un lento e graduale flusso di acquisti verso il mercato. Tende a essere rilasciata tutta in una volta, solo quando appare un segnale che fa sentire "pubblicamente sicuro" agire di conseguenza — una serie di candele verdi, un titolo di giornale, un rimbalzo in qualche metrica on-chain. Questa è una spiegazione del motivo per cui i rally di fondo iniziano così spesso come un picco in stile short-squeeze piuttosto che come un'accumulazione graduale: la convinzione privata precedentemente repressa viene rilasciata simultaneamente, nel momento in cui diventa accettabile dirlo — o comprarlo — ad alta voce.</p>
+<p class="ru">Торговое значение этого разрыва непросто. Если значительная часть населения приватно верит, что актив недооценён, это убеждение никуда не исчезло — оно лишь подавлено. А подавленное приватное убеждение не высвобождается в виде медленного, постепенного притока покупок на рынок. Оно, как правило, высвобождается разом, как только появляется сигнал, делающий действие в соответствии с ним «публично безопасным», — серия зелёных свечей, заголовок новостей, отскок какого-либо ончейн-показателя. Это одно из объяснений того, почему ралли на дне так часто начинаются как скачок в стиле шорт-сквиза, а не как постепенное накопление: ранее подавленная приватная убеждённость высвобождается одновременно в тот момент, когда становится приемлемым сказать об этом — или купить — вслух.</p>
+<p class="zh">這種落差對交易的意涵並不簡單。如果相當一部分人私下相信這項資產被低估,那個信念並未消失——它只是被壓抑住了。而被壓抑的私人信念,不會以緩慢、漸進的買盤細流形式釋放到市場中。它往往會一次性全部釋放,而且只有在出現讓依此行動感覺「公開上安全」的信號時才會如此——一連串的綠色K線、一則頭條新聞、某個鏈上指標的反彈。這也是為什麼築底反彈往往以軋空式急漲的形式展開,而非漸進式吸籌的其中一種解釋:先前被壓抑的私人信念會在「可以公開說出來——或公開買進」的那一刻同時釋放出來。</p>
 
 <h2 class="ko">침묵이 스스로를 강화하는 이유 — 그리고 왜 그 침묵은 생각보다 얇다</h2>
 <h2 class="en">Why Silence Reinforces Itself — and Why That Silence Is Thinner Than It Looks</h2>
