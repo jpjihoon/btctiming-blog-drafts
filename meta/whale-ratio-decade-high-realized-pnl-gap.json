@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "거래소 고래비율 10년 최고·실현손익비율 43개월래 최저",
   "tag_en": "Exchange Whale Ratio Decade High & Realized P&L 43-Month Low",
@@ -22,6 +27,11 @@
   "tag_pt": "Exchange Whale Ratio no Topo da Década e Realized P&L na Mínima de 43 Meses",
   "tag_tr": "Borsa Balina Oranı On Yılın Zirvesinde, Gerçekleşmiş K/Z 43 Ayın Dibinde",
   "tag_vi": "Tỷ Lệ Cá Voi Đỉnh Thập Kỷ & Tỷ Lệ Lãi/Lỗ Đáy 43 Tháng",
+  "tag_id": "Exchange Whale Ratio Puncak Dekade & Realized P&L Terendah 43 Bulan",
+  "tag_pl": "Exchange Whale Ratio Szczyt Dekady i Realized P&L Najniższy od 43 Miesięcy",
+  "tag_it": "Exchange Whale Ratio ai Massimi Decennali e Realized P&L ai Minimi di 43 Mesi",
+  "tag_ru": "Exchange Whale Ratio на Максимуме за Десятилетие и Realized P&L на Минимуме за 43 Месяца",
+  "tag_zh": "交易所巨鯨比率十年新高與已實現損益比率43個月新低",
 
   "title_ko": "거래소 고래비율 10년 최고치, 그런데 실현손익비율은 43개월래 최저다",
   "title_en": "The Exchange Whale Ratio Just Hit a 10-Year High — While the Realized P&L Ratio Hit a 43-Month Low",
@@ -32,6 +42,11 @@
   "title_pt": "O Exchange Whale Ratio Atinge uma Máxima de 10 Anos — Enquanto o Realized P&L Ratio Marca uma Mínima de 43 Meses",
   "title_tr": "Borsa Balina Oranı 10 Yılın Zirvesine Ulaştı — Gerçekleşmiş Kâr/Zarar Oranı ise 43 Ayın Dibinde",
   "title_vi": "Tỷ Lệ Cá Voi Sàn Giao Dịch Vừa Đạt Đỉnh 10 Năm — Trong Khi Tỷ Lệ Lãi/Lỗ Đã Thực Hiện Chạm Đáy 43 Tháng",
+  "title_id": "Exchange Whale Ratio Baru Saja Mencapai Level Tertinggi dalam 10 Tahun — Sementara Realized P&L Ratio Menyentuh Level Terendah dalam 43 Bulan",
+  "title_pl": "Exchange Whale Ratio Właśnie Osiągnął 10-Letnie Maksimum — Podczas Gdy Realized P&L Ratio Spadł do Najniższego Poziomu od 43 Miesięcy",
+  "title_it": "L'Exchange Whale Ratio Ha Appena Toccato un Massimo di 10 Anni — Mentre il Realized P&L Ratio Ha Toccato un Minimo di 43 Mesi",
+  "title_ru": "Exchange Whale Ratio Только Что Достиг Максимума за 10 Лет — В То Время Как Realized P&L Ratio Упал до Минимума за 43 Месяца",
+  "title_zh": "交易所巨鯨比率剛創下10年新高——同時已實現損益比率跌至43個月新低",
 
   "h1_ko": "거래소로 향하는 큰손들의 발걸음은 2015년 이후 가장 분주한데,<br>온체인 손익은 43개월 만에 가장 깊은 항복을 찍었다",
   "h1_en": "Big Wallets Are Moving Onto Exchanges at Their Busiest Pace Since 2015,<br>While On-Chain P&L Just Recorded Its Deepest Capitulation in 43 Months",
@@ -42,6 +57,11 @@
   "h1_pt": "Grandes Carteiras Estão Se Movendo Para as Exchanges no Ritmo Mais Intenso Desde 2015,<br>Enquanto o Lucro/Prejuízo On-Chain Acaba de Registrar Sua Capitulação Mais Profunda em 43 Meses",
   "h1_tr": "Büyük Cüzdanlar 2015'ten Bu Yana En Yoğun Temposunda Borsalara Taşınıyor,<br>Zincir Üstü Kâr/Zarar İse 43 Ayın En Derin Teslimiyetini Kaydetti",
   "h1_vi": "Các Ví Lớn Đang Di Chuyển Vào Sàn Với Nhịp Độ Bận Rộn Nhất Kể Từ 2015,<br>Trong Khi Lãi/Lỗ On-Chain Vừa Ghi Nhận Cuộc Đầu Hàng Sâu Nhất Trong 43 Tháng",
+  "h1_id": "Dompet-Dompet Besar Bergerak ke Bursa dengan Kecepatan Tersibuk Sejak 2015,<br>Sementara P&L On-Chain Baru Saja Mencatat Kapitulasi Terdalamnya dalam 43 Bulan",
+  "h1_pl": "Duże Portfele Przenoszą Się na Giełdy w Najbardziej Intensywnym Tempie od 2015 Roku,<br>Podczas Gdy On-Chain P&L Właśnie Odnotował Najgłębszą Kapitulację od 43 Miesięcy",
+  "h1_it": "I Grandi Wallet Si Muovono Verso le Borse al Ritmo Più Intenso dal 2015,<br>Mentre il P&L On-Chain Ha Appena Registrato la Sua Capitolazione Più Profonda in 43 Mesi",
+  "h1_ru": "Крупные Кошельки Перемещаются на Биржи в Самом Активном Темпе с 2015 Года,<br>А Ончейн P&L Только Что Зафиксировал Самую Глубокую Капитуляцию за 43 Месяца",
+  "h1_zh": "大型錢包正以2015年以來最忙碌的速度移入交易所,<br>同時鏈上損益剛創下43個月來最深的投降紀錄",
 
   "bc_ko": "고래비율·실현손익비율 괴리 점검",
   "bc_en": "Whale Ratio vs. Realized P&L Ratio Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação: Whale Ratio vs. Realized P&L Ratio",
   "bc_tr": "Balina Oranı ve Gerçekleşmiş K/Z Oranı İncelemesi",
   "bc_vi": "Kiểm Tra Tỷ Lệ Cá Voi và Tỷ Lệ Lãi/Lỗ Đã Thực Hiện",
+  "bc_id": "Pemeriksaan Whale Ratio vs. Realized P&L Ratio",
+  "bc_pl": "Sprawdzenie Whale Ratio vs. Realized P&L Ratio",
+  "bc_it": "Verifica Whale Ratio vs. Realized P&L Ratio",
+  "bc_ru": "Проверка Whale Ratio и Realized P&L Ratio",
+  "bc_zh": "巨鯨比率與已實現損益比率檢視",
 
   "desc_ko": "비트코인은 6만4,000달러 안팎에서 6만4,400~6만4,500달러 저항을 두 번째로 시험하고 있다. 이 사이 크립토퀀트 기준 거래소 고래비율은 0.67까지 올라 2015년10월 이후 최고치를 기록했고, 실현손익비율은 7월3일 -0.35까지 떨어져 43개월래 최저치를 찍었다 — 과거 이 수준은 2015·2019년 단 두 번뿐이었고 둘 다 이후 회복으로 이어졌다. 하나는 대형 보유자의 거래소 이탈을, 다른 하나는 역대급 항복을 가리키는데 방향이 정반대다. SOPR은 0.99로 중립에 가깝고, 미결제약정은 477억1,000만 달러(30일 +6.11%)로 늘고 있지만 ETF 자금은 6월 대량 유출 이후 소액 순유입에 그치고 공포탐욕지수도 22~23으로 공포권이다. 온체인·파생·심리 어느 것도 한목소리를 내지 않는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin is testing the $64,400-$64,500 resistance zone for a second time around the mid-$64,000s. Meanwhile, CryptoQuant's Exchange Whale Ratio climbed to 0.67, the highest since October 2015, while the Realized Profit/Loss Ratio fell to -0.35 on July 3, a 43-month low — a level that has appeared only twice before, in 2015 and 2019, both times followed by a recovery. One signals large holders heading for the exits; the other signals historic-scale capitulation, pointing in opposite directions. SOPR sits near-neutral at 0.99, and open interest is building to $47.71 billion (+6.11% over 30 days), yet ETF flows remain small after June's heavy outflow and the Fear & Greed Index stays at 22-23. A look at a phase where on-chain, derivatives, and sentiment gauges aren't telling a single, consistent story.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin teste la zone de résistance des 64 400-64 500 dollars pour la deuxième fois autour des 64 000 dollars. Pendant ce temps, le Exchange Whale Ratio de CryptoQuant a grimpé à 0,67, son plus haut niveau depuis octobre 2015, tandis que le Realized Profit/Loss Ratio est tombé à -0,35 le 3 juillet, un plus bas en 43 mois — un niveau qui n'était apparu que deux fois auparavant, en 2015 et en 2019, à chaque fois suivi d'une reprise. L'un signale de grands détenteurs prenant la sortie ; l'autre signale une capitulation d'ampleur historique, dans des directions opposées. Le SOPR se situe à un niveau quasi neutre de 0,99, et l'open interest croît jusqu'à 47,71 milliards de dollars (+6,11 % sur 30 jours), mais les flux d'ETF restent faibles après le lourd reflux de juin et l'indice Fear & Greed reste à 22-23. Un examen d'une phase où les indicateurs on-chain, dérivés et de sentiment ne racontent pas une histoire unique et cohérente.",
   "desc_pt": "O bitcoin está testando a zona de resistência de US$ 64.400-US$ 64.500 pela segunda vez em torno dos US$ 64.000. Enquanto isso, o Exchange Whale Ratio da CryptoQuant subiu para 0,67, o mais alto desde outubro de 2015, enquanto o Realized Profit/Loss Ratio caiu para -0,35 em 3 de julho, uma mínima de 43 meses — um nível que só havia aparecido duas vezes antes, em 2015 e 2019, ambas seguidas de recuperação. Um sinaliza grandes detentores caminhando para a saída; o outro sinaliza uma capitulação de escala histórica, em direções opostas. O SOPR está quase neutro em 0,99, e o open interest cresce para US$ 47,71 bilhões (+6,11% em 30 dias), mas os fluxos de ETF permanecem pequenos após a forte saída de junho e o Índice de Medo e Ganância permanece em 22-23. Uma análise de uma fase em que os indicadores on-chain, de derivativos e de sentimento não contam uma história única e consistente.",
   "desc_tr": "Bitcoin, 64.000 dolar civarında 64.400-64.500 dolar direnç bölgesini ikinci kez test ediyor. Bu arada, CryptoQuant'ın Borsa Balina Oranı Ekim 2015'ten bu yana en yüksek seviye olan 0,67'ye yükselirken, Gerçekleşmiş Kâr/Zarar Oranı 3 Temmuz'da -0,35'e düşerek 43 ayın en düşük seviyesine geriledi — bu seviye daha önce yalnızca iki kez görüldü, 2015 ve 2019'da, her ikisinde de bir toparlanma izledi. Biri büyük yatırımcıların çıkışa yöneldiğini, diğeri ise tarihsel ölçekte bir teslimiyeti işaret ediyor, zıt yönlerde. SOPR neredeyse nötr olan 0,99 seviyesinde, açık pozisyon 47,71 milyar dolara (30 günde +%6,11) yükseliyor, ama ETF akışları Haziran'daki ağır çıkışın ardından küçük kalıyor ve Korku ve Açgözlülük Endeksi 22-23 seviyesinde kalıyor. Zincir üstü, türev ve duygu durumu göstergelerinin tek ve tutarlı bir hikaye anlatmadığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin đang kiểm tra vùng kháng cự 64.400-64.500 đô la lần thứ hai quanh mức 64.000 đô la. Trong khi đó, Tỷ Lệ Cá Voi Sàn Giao Dịch của CryptoQuant tăng lên 0,67, mức cao nhất kể từ tháng 10 năm 2015, trong khi Tỷ Lệ Lãi/Lỗ Đã Thực Hiện giảm xuống -0,35 vào ngày 3 tháng 7, mức thấp nhất trong 43 tháng — mức này trước đây chỉ xuất hiện hai lần, vào năm 2015 và 2019, cả hai lần đều được theo sau bởi sự phục hồi. Một tín hiệu cho thấy các bên nắm giữ lớn đang hướng ra cửa; tín hiệu còn lại cho thấy sự đầu hàng quy mô lịch sử, theo hai hướng ngược nhau. SOPR gần như trung lập ở mức 0,99, và khối lượng hợp đồng mở đang tăng lên 47,71 tỷ đô la (+6,11% trong 30 ngày), nhưng dòng vốn ETF vẫn nhỏ sau đợt rút vốn lớn tháng 6 và Chỉ số Sợ hãi và Tham lam vẫn ở mức 22-23. Một góc nhìn về giai đoạn mà các chỉ báo on-chain, phái sinh và tâm lý không kể cùng một câu chuyện nhất quán."
+  "desc_vi": "Bitcoin đang kiểm tra vùng kháng cự 64.400-64.500 đô la lần thứ hai quanh mức 64.000 đô la. Trong khi đó, Tỷ Lệ Cá Voi Sàn Giao Dịch của CryptoQuant tăng lên 0,67, mức cao nhất kể từ tháng 10 năm 2015, trong khi Tỷ Lệ Lãi/Lỗ Đã Thực Hiện giảm xuống -0,35 vào ngày 3 tháng 7, mức thấp nhất trong 43 tháng — mức này trước đây chỉ xuất hiện hai lần, vào năm 2015 và 2019, cả hai lần đều được theo sau bởi sự phục hồi. Một tín hiệu cho thấy các bên nắm giữ lớn đang hướng ra cửa; tín hiệu còn lại cho thấy sự đầu hàng quy mô lịch sử, theo hai hướng ngược nhau. SOPR gần như trung lập ở mức 0,99, và khối lượng hợp đồng mở đang tăng lên 47,71 tỷ đô la (+6,11% trong 30 ngày), nhưng dòng vốn ETF vẫn nhỏ sau đợt rút vốn lớn tháng 6 và Chỉ số Sợ hãi và Tham lam vẫn ở mức 22-23. Một góc nhìn về giai đoạn mà các chỉ báo on-chain, phái sinh và tâm lý không kể cùng một câu chuyện nhất quán.",
+  "desc_id": "Bitcoin sedang menguji zona resistance $64.400-$64.500 untuk kedua kalinya di kisaran pertengahan $64.000. Sementara itu, Exchange Whale Ratio CryptoQuant naik ke 0,67, tertinggi sejak Oktober 2015, sementara Realized Profit/Loss Ratio turun ke -0,35 pada 3 Juli, terendah dalam 43 bulan — level yang hanya pernah muncul dua kali sebelumnya, pada 2015 dan 2019, dan keduanya diikuti pemulihan. Satu sinyal menunjukkan pemegang besar bersiap keluar; sinyal lain menunjukkan kapitulasi berskala historis, mengarah ke arah berlawanan. SOPR berada di posisi hampir netral 0,99, dan open interest terus membesar hingga $47,71 miliar (+6,11% dalam 30 hari), namun arus ETF tetap kecil setelah arus keluar besar pada Juni dan Indeks Fear & Greed tetap di 22-23. Sebuah tinjauan atas fase di mana indikator on-chain, derivatif, dan sentimen tidak menceritakan satu kisah yang konsisten.",
+  "desc_pl": "Bitcoin testuje strefę oporu 64 400-64 500 USD po raz drugi w okolicach 64 000 USD. Tymczasem Exchange Whale Ratio CryptoQuant wzrósł do 0,67, najwyższego poziomu od października 2015 roku, podczas gdy Realized Profit/Loss Ratio spadł do -0,35 w dniu 3 lipca, najniższego poziomu od 43 miesięcy — poziomu, który wcześniej pojawił się tylko dwukrotnie, w 2015 i 2019 roku, za każdym razem po nim następowało odbicie. Jeden sygnalizuje, że duzi posiadacze kierują się ku wyjściu; drugi sygnalizuje kapitulację o historycznej skali, wskazując przeciwne kierunki. SOPR znajduje się na niemal neutralnym poziomie 0,99, a otwarte pozycje rosną do 47,71 mld USD (+6,11% w ciągu 30 dni), jednak przepływy ETF pozostają niewielkie po ciężkim odpływie z czerwca, a Indeks Strachu i Chciwości utrzymuje się na poziomie 22-23. Spojrzenie na fazę, w której wskaźniki on-chain, instrumentów pochodnych i sentymentu nie opowiadają jednej, spójnej historii.",
+  "desc_it": "Il Bitcoin sta testando la zona di resistenza a 64.400-64.500 dollari per la seconda volta intorno ai 64.000 dollari. Nel frattempo, l'Exchange Whale Ratio di CryptoQuant è salito a 0,67, il livello più alto da ottobre 2015, mentre il Realized Profit/Loss Ratio è sceso a -0,35 il 3 luglio, un minimo di 43 mesi — un livello comparso solo due volte in precedenza, nel 2015 e nel 2019, entrambe le volte seguito da una ripresa. Uno segnala grandi detentori diretti verso l'uscita; l'altro segnala una capitolazione di portata storica, in direzioni opposte. Il SOPR si attesta a un livello quasi neutrale di 0,99, e l'open interest cresce fino a 47,71 miliardi di dollari (+6,11% su 30 giorni), ma i flussi degli ETF restano contenuti dopo il pesante deflusso di giugno e il Fear & Greed Index resta a 22-23. Uno sguardo a una fase in cui gli indicatori on-chain, dei derivati e del sentiment non raccontano un'unica storia coerente.",
+  "desc_ru": "Биткоин второй раз тестирует зону сопротивления $64 400-$64 500 в районе середины $64 000. Тем временем Exchange Whale Ratio от CryptoQuant вырос до 0,67 — максимума с октября 2015 года, а Realized Profit/Loss Ratio упал до -0,35 3 июля, минимума за 43 месяца — уровня, который ранее встречался лишь дважды, в 2015 и 2019 годах, и оба раза за этим следовало восстановление. Один сигнал указывает на то, что крупные держатели направляются к выходу; другой — на капитуляцию исторического масштаба, причём они указывают в противоположных направлениях. SOPR находится на почти нейтральном уровне 0,99, а открытый интерес растёт до $47,71 млрд (+6,11% за 30 дней), однако потоки ETF остаются небольшими после мощного оттока в июне, а индекс страха и жадности держится на уровне 22-23. Взгляд на фазу, в которой ончейн-, деривативные и sentiment-индикаторы не рассказывают единую, последовательную историю.",
+  "desc_zh": "比特幣正於6萬4,000美元附近第二次測試6萬4,400至6萬4,500美元的阻力區。與此同時,CryptoQuant的交易所巨鯨比率升至0.67,為2015年10月以來最高,而已實現損益比率則在7月3日跌至-0.35,為43個月新低——這個水準過去僅出現過兩次,分別是2015年與2019年,兩次之後都出現復甦。其中一項訊號顯示大戶正走向離場,另一項訊號則顯示歷史級規模的投降,兩者方向相反。SOPR處於接近中性的0.99,未平倉合約持續增至477.1億美元(30天+6.11%),但ETF資金流在6月大量流出後仍偏小,恐懼與貪婪指數也維持在22至23。本文檢視這樣一個階段:鏈上、衍生性商品與市場情緒指標並未講述同一個一致的故事。"
 }

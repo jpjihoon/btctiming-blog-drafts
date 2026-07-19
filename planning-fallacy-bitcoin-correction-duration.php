@@ -9,6 +9,11 @@
   <p class="pt">Em meados da década de 1970, um comitê do Ministério da Educação de Israel se propôs a escrever um livro didático sobre tomada de decisão para estudantes do ensino médio. Ao perguntarem quanto tempo levaria, os especialistas envolvidos convergiram para algo entre um ano e meio e dois anos e meio. Então perguntaram a Seymour Fox, o especialista em currículo da equipe, quanto tempo equipes comparáveis em outros lugares haviam levado — e ele lembrou que cerca de 40% de equipes semelhantes nunca terminavam, e as que terminavam levavam de sete a dez anos. Ao ouvir isso, o comitê não revisou seu plano. O projeto na verdade levou oito anos para ser concluído, e o livro didático resultante quase não foi adotado. O psicólogo que contou essa história ao mundo foi Daniel Kahneman, membro daquele mesmo comitê — e o viés que ele nomeou a partir disso se aplica exatamente da mesma forma a todo trader de bitcoin que repete para si mesmo "essa correção vai acabar em algumas semanas".</p>
   <p class="tr">1970'lerin ortasında, İsrail Eğitim Bakanlığı'na bağlı bir komite, lise öğrencileri için bir karar verme ders kitabı yazmaya karar verdi. Ne kadar süreceği sorulduğunda, katılan uzmanlar bir buçuk ile iki buçuk yıl arasında bir sürede birleşti. Ardından ekibin müfredat uzmanı Seymour Fox'a, benzer projeleri yürüten başka ekiplerin ne kadar sürdüğü soruldu — ve o, benzer ekiplerin yaklaşık %40'ının projeyi hiç bitiremediğini, bitirenlerin ise yedi ila on yıl harcadığını hatırladı. Bu bilgiyi duymasına rağmen komite planını değiştirmedi. Proje gerçekte sekiz yılda tamamlandı ve ortaya çıkan ders kitabı neredeyse hiç kullanılmadı. Bu hikayeyi dünyaya anlatan kişi, o komitenin bir üyesi olan psikolog Daniel Kahneman'dı — ve buradan adlandırdığı önyargı, "bu düzeltme birkaç hafta içinde biter" diye kendine tekrarlayan her bitcoin traderına aynen uygulanıyor.</p>
   <p class="vi">Giữa những năm 1970, một ủy ban thuộc Bộ Giáo dục Israel bắt tay vào viết một cuốn sách giáo khoa về ra quyết định cho học sinh trung học. Khi được hỏi sẽ mất bao lâu, các chuyên gia tham gia đều hội tụ về khoảng từ một năm rưỡi đến hai năm rưỡi. Sau đó, Seymour Fox, chuyên gia chương trình học của nhóm, được hỏi các nhóm tương tự ở nơi khác đã mất bao lâu — ông nhớ lại rằng khoảng 40% các nhóm tương tự chưa bao giờ hoàn thành, và những nhóm hoàn thành thì mất từ bảy đến mười năm. Nghe được thông tin này, ủy ban vẫn không thay đổi kế hoạch. Dự án thực tế mất tám năm để hoàn thành, và cuốn sách giáo khoa ra đời hầu như không được áp dụng. Nhà tâm lý học kể lại câu chuyện này cho thế giới chính là Daniel Kahneman, một thành viên của ủy ban đó — và thiên kiến mà ông đặt tên từ câu chuyện này áp dụng chính xác như vậy cho mọi trader bitcoin cứ tự nhủ "đợt điều chỉnh này sẽ kết thúc trong vài tuần".</p>
+  <p class="id">Pada pertengahan tahun 1970-an, sebuah komite di Kementerian Pendidikan Israel memutuskan untuk menyusun buku teks pengambilan keputusan untuk siswa sekolah menengah atas. Ketika ditanya berapa lama waktu yang dibutuhkan, para pakar yang terlibat sepakat pada kisaran satu setengah hingga dua setengah tahun. Kemudian Seymour Fox, spesialis kurikulum di tim tersebut, ditanya berapa lama tim-tim serupa di tempat lain menyelesaikannya — dan ia mengingat bahwa sekitar 40% tim serupa tidak pernah menyelesaikannya sama sekali, dan yang berhasil menyelesaikan butuh waktu tujuh hingga sepuluh tahun. Mendengar hal ini, komite tersebut tidak merevisi rencananya. Proyek itu nyatanya baru selesai dalam delapan tahun, dan buku teks yang dihasilkan hampir tidak pernah digunakan. Psikolog yang menceritakan kisah ini kepada dunia adalah Daniel Kahneman, salah satu anggota komite tersebut — dan bias yang ia namai dari kisah ini berlaku persis sama bagi setiap trader bitcoin yang meyakinkan dirinya sendiri bahwa "koreksi ini akan berakhir dalam beberapa minggu".</p>
+  <p class="pl">W połowie lat 70. XX wieku komisja przy izraelskim Ministerstwie Edukacji postanowiła napisać podręcznik do podejmowania decyzji dla uczniów szkół średnich. Zapytani, ile to potrwa, zaangażowani eksperci zgodzili się na przedział od półtora roku do dwóch i pół roku. Następnie zapytano Seymoura Foxa, specjalistę ds. programu nauczania w zespole, ile czasu zajęło porównywalnym zespołom gdzie indziej — a on przypomniał sobie, że około 40% podobnych zespołów w ogóle nigdy nie ukończyło pracy, a te, którym się udało, potrzebowały od siedmiu do dziesięciu lat. Mimo usłyszenia tej informacji komisja nie zmieniła swojego planu. Projekt faktycznie zajął osiem lat, a powstały podręcznik niemal nie został wdrożony. Psychologiem, który opowiedział tę historię światu, był Daniel Kahneman, członek tej samej komisji — a nazwane przez niego zniekształcenie odnosi się dokładnie tak samo do każdego tradera bitcoina powtarzającego sobie, że "ta korekta skończy się za kilka tygodni".</p>
+  <p class="it">A metà degli anni '70, un comitato del Ministero dell'Istruzione israeliano si mise a scrivere un libro di testo sul processo decisionale per studenti delle superiori. Interrogati su quanto tempo sarebbe servito, gli esperti coinvolti convergevano su una stima tra un anno e mezzo e due anni e mezzo. Poi a Seymour Fox, lo specialista di curriculum del team, fu chiesto quanto tempo avessero impiegato team analoghi altrove — e lui ricordò che circa il 40% dei team simili non aveva mai finito, e quelli che ci erano riusciti avevano impiegato da sette a dieci anni. Nonostante questa informazione, il comitato non rivide il proprio piano. Il progetto richiese in realtà otto anni per essere completato, e il libro di testo risultante fu adottato solo marginalmente. Lo psicologo che raccontò questa storia al mondo fu Daniel Kahneman, membro dello stesso comitato — e il bias che ne trasse si applica esattamente allo stesso modo a ogni trader di bitcoin che si ripete che "questa correzione finirà tra qualche settimana".</p>
+  <p class="ru">В середине 1970-х годов комиссия при Министерстве образования Израиля взялась написать учебник по принятию решений для старшеклассников. На вопрос, сколько времени это займёт, участвовавшие эксперты сошлись на сроке от полутора до двух с половиной лет. Затем у Сеймура Фокса, специалиста команды по учебным программам, спросили, сколько времени потребовалось сопоставимым командам в других местах — и он вспомнил, что около 40% похожих команд вообще никогда не заканчивали работу, а те, что заканчивали, тратили от семи до десяти лет. Услышав это, комиссия не пересмотрела свой план. На самом деле проект занял восемь лет, а получившийся учебник почти не был принят к использованию. Психологом, рассказавшим эту историю миру, был Дэниел Канеман, член той же комиссии — и названное им искажение применимо ровно так же к каждому трейдеру биткоина, твердящему себе, что «эта коррекция закончится через несколько недель».</p>
+  <p class="zh">1970年代中期,以色列教育部的一個委員會著手為高中生編寫一本決策教科書。當被問及需要多長時間時,參與的專家們的答案集中在一年半到兩年半之間。接著,團隊的課程專家西摩·福克斯(Seymour Fox)被問到其他地方類似的團隊花了多久 — 他回憶說,約有40%的類似團隊根本從未完成,而完成的團隊則花了七到十年。聽到這個資訊後,委員會並未修改計畫。這個專案實際上花了八年才完成,而最終編成的教材幾乎沒有被採用。將這段軼事講給世人聽的,是丹尼爾·卡尼曼(Daniel Kahneman),他正是這個委員會的一員 — 而他由此命名的偏誤,同樣精確地適用於每一位告訴自己「這次的回調幾週內就會結束」的比特幣交易者。</p>
 
   <h2 class="ko">계획 오류: 최악을 알고도 최악보다 나쁘게 틀린다</h2>
   <h2 class="en">The planning fallacy: wrong even against your own worst case</h2>
@@ -19,6 +24,11 @@
   <h2 class="pt">A Falácia do Planejamento: Errado até Mesmo Além do seu Pior Cenário</h2>
   <h2 class="tr">Planlama Yanılgısı: En Kötü Senaryonuzdan Bile Daha Yanlış Çıkmak</h2>
   <h2 class="vi">Ngụy Biện Lập Kế Hoạch: Sai Còn Tệ Hơn Cả Kịch Bản Tệ Nhất Của Chính Mình</h2>
+  <h2 class="id">Kekeliruan Perencanaan: Salah Bahkan Melebihi Skenario Terburuk Versi Sendiri</h2>
+  <h2 class="pl">Błąd Planowania: Mylimy się Nawet Bardziej niż Nasz Własny Najgorszy Scenariusz</h2>
+  <h2 class="it">L'Errore di Pianificazione: Sbagliato Persino Rispetto al Proprio Scenario Peggiore</h2>
+  <h2 class="ru">Ошибка Планирования: Неправы Даже Относительно Собственного Худшего Сценария</h2>
+  <h2 class="zh">計畫謬誤:錯得比自己設想的最壞情況還要嚴重</h2>
 
   <p class="ko">카너먼과 트버스키가 1979년 논문에서 처음 이름 붙인 "계획 오류"는 자신의 미래 과제를 예측할 때 유독 낙관적인 시나리오에 기대는 경향을 가리킨다. 이를 가장 정교하게 검증한 것은 뷸러(Buehler), 그리핀(Griffin), 로스(Ross)가 1994년 Journal of Personality and Social Psychology에 발표한 실험이다. 심리학 전공생 37명에게 졸업논문을 완성하는 데 걸릴 시간을 세 가지로 예측하게 했다 — "모든 게 잘 풀리면"의 최선의 경우, "평소처럼"의 현실적인 예측, "모든 게 꼬이면"의 최악의 경우. 평균값은 각각 27.4일, 33.9일, 48.6일이었다.</p>
   <p class="en">The "planning fallacy," first named by Kahneman and Tversky in a 1979 paper, describes the tendency to lean on an unusually optimistic scenario when forecasting one's own future tasks. The most rigorous test of it came from Buehler, Griffin, and Ross, published in the Journal of Personality and Social Psychology in 1994. They asked 37 psychology students to predict, in three versions, how long it would take to finish their senior thesis — a best case ("if everything goes as well as it could"), a realistic case ("your typical prediction"), and a worst case ("if everything goes as badly as it could"). The averages came out to 27.4, 33.9, and 48.6 days, respectively.</p>
@@ -29,6 +39,11 @@
   <p class="pt">A "falácia do planejamento", nomeada pela primeira vez por Kahneman e Tversky em um artigo de 1979, descreve a tendência de se apoiar em um cenário incomumente otimista ao prever as próprias tarefas futuras. O teste mais rigoroso disso veio de Buehler, Griffin e Ross, publicado no Journal of Personality and Social Psychology em 1994. Eles pediram a 37 estudantes de psicologia que previssem, em três versões, quanto tempo levaria para terminar sua tese — um melhor caso ("se tudo correr da melhor forma possível"), um caso realista ("sua previsão típica") e um pior caso ("se tudo correr da pior forma possível"). As médias ficaram em 27,4, 33,9 e 48,6 dias, respectivamente.</p>
   <p class="tr">Kahneman ve Tversky'nin 1979 tarihli bir makalede ilk kez adlandırdığı "planlama yanılgısı", kişinin kendi gelecekteki görevlerini tahmin ederken alışılmadık derecede iyimser bir senaryoya yaslanma eğilimini tanımlar. Bunun en titiz sınaması, Buehler, Griffin ve Ross tarafından 1994'te Journal of Personality and Social Psychology'de yayımlandı. 37 psikoloji öğrencisinden, bitirme tezlerini tamamlamalarının ne kadar süreceğini üç şekilde tahmin etmelerini istediler — "her şey olabildiğince iyi giderse" en iyi durum, "tipik tahmininiz" gerçekçi durum ve "her şey olabildiğince kötü giderse" en kötü durum. Ortalamalar sırasıyla 27,4, 33,9 ve 48,6 gün çıktı.</p>
   <p class="vi">"Ngụy biện lập kế hoạch", được Kahneman và Tversky đặt tên lần đầu trong một bài báo năm 1979, mô tả xu hướng dựa vào một kịch bản lạc quan bất thường khi dự đoán các công việc tương lai của chính mình. Bài kiểm chứng chặt chẽ nhất đến từ Buehler, Griffin và Ross, công bố trên Journal of Personality and Social Psychology năm 1994. Họ yêu cầu 37 sinh viên tâm lý học dự đoán, theo ba phiên bản, sẽ mất bao lâu để hoàn thành luận văn tốt nghiệp — kịch bản tốt nhất ("nếu mọi thứ suôn sẻ nhất có thể"), dự đoán thực tế ("dự đoán điển hình của bạn"), và kịch bản tệ nhất ("nếu mọi thứ tệ nhất có thể"). Trung bình lần lượt là 27,4, 33,9 và 48,6 ngày.</p>
+  <p class="id">'Kekeliruan perencanaan', pertama kali dinamai oleh Kahneman dan Tversky dalam makalah tahun 1979, menggambarkan kecenderungan untuk bersandar pada skenario yang luar biasa optimis ketika memprediksi tugas masa depan diri sendiri. Uji paling ketat atas hal ini datang dari Buehler, Griffin, dan Ross, yang diterbitkan dalam Journal of Personality and Social Psychology pada tahun 1994. Mereka meminta 37 mahasiswa psikologi untuk memprediksi, dalam tiga versi, berapa lama waktu yang dibutuhkan untuk menyelesaikan skripsi mereka — skenario terbaik ("jika semuanya berjalan sebaik mungkin"), prediksi realistis ("prediksi khas Anda"), dan skenario terburuk ("jika semuanya berjalan seburuk mungkin"). Rata-ratanya masing-masing adalah 27,4, 33,9, dan 48,6 hari.</p>
+  <p class="pl">"Błąd planowania", nazwany po raz pierwszy przez Kahnemana i Tversky'ego w artykule z 1979 roku, opisuje tendencję do opierania się na niezwykle optymistycznym scenariuszu podczas prognozowania własnych przyszłych zadań. Najbardziej rygorystyczny test tego zjawiska przeprowadzili Buehler, Griffin i Ross, publikując wyniki w Journal of Personality and Social Psychology w 1994 roku. Poprosili 37 studentów psychologii o przewidzenie, w trzech wersjach, ile czasu zajmie im ukończenie pracy magisterskiej — najlepszy scenariusz ("jeśli wszystko pójdzie tak dobrze, jak to możliwe"), realistyczna prognoza ("twoja typowa przewidywana wartość") oraz najgorszy scenariusz ("jeśli wszystko pójdzie tak źle, jak to możliwe"). Średnie wyniosły odpowiednio 27,4, 33,9 i 48,6 dnia.</p>
+  <p class="it">L'"errore di pianificazione", definito per la prima volta da Kahneman e Tversky in un articolo del 1979, descrive la tendenza ad affidarsi a uno scenario insolitamente ottimistico quando si prevedono i propri compiti futuri. Il test più rigoroso è stato condotto da Buehler, Griffin e Ross, pubblicato sul Journal of Personality and Social Psychology nel 1994. Chiesero a 37 studenti di psicologia di prevedere, in tre versioni, quanto tempo avrebbero impiegato a completare la loro tesi di laurea — uno scenario migliore ("se tutto va nel migliore dei modi"), una previsione realistica ("la vostra tipica previsione") e uno scenario peggiore ("se tutto va nel peggiore dei modi"). Le medie risultarono rispettivamente di 27,4, 33,9 e 48,6 giorni.</p>
+  <p class="ru">«Ошибка планирования», впервые названная Канеманом и Тверски в статье 1979 года, описывает склонность полагаться на необычно оптимистичный сценарий при прогнозировании собственных будущих задач. Наиболее строгую проверку этого провели Бюлер, Гриффин и Росс, опубликовавшие результаты в Journal of Personality and Social Psychology в 1994 году. Они попросили 37 студентов-психологов спрогнозировать в трёх вариантах, сколько времени займёт завершение их дипломной работы — лучший случай («если всё пройдёт настолько хорошо, насколько возможно»), реалистичный прогноз («ваш типичный прогноз») и худший случай («если всё пройдёт настолько плохо, насколько возможно»). Средние значения составили соответственно 27,4, 33,9 и 48,6 дня.</p>
+  <p class="zh">「計畫謬誤」一詞最早由卡尼曼與特沃斯基(Tversky)在1979年的一篇論文中提出,指的是人們在預測自己未來任務時,傾向於依賴異常樂觀的情境。對此最嚴謹的檢驗來自布勒(Buehler)、格里芬(Griffin)與羅斯(Ross),發表於1994年的《人格與社會心理學期刊》。他們要求37名心理系學生以三種版本預測完成畢業論文所需的時間 — 最佳情況(「如果一切盡可能順利」)、現實預測(「你典型的預測」),以及最壞情況(「如果一切盡可能不順」)。平均值分別為27.4天、33.9天與48.6天。</p>
 
   <p class="ko">실제로 논문을 완성하는 데 걸린 평균 시간은 55.5일이었다 — 학생들이 "모든 게 최악으로 꼬였을 때"를 가정하고 내놓은 예측(48.6일)보다도 길었다. 자신에게 99% 확신이 든다고 답한 완료 시점까지 실제로 논문을 끝낸 학생은 30%에 불과했다. 더 놀라운 건 후속 실험이다 — 연구진이 참가자들에게 과거 비슷한 과제에서 자신이 예측을 얼마나 빗나갔는지 구체적으로 상기시켜도, 다음 예측은 거의 똑같이 낙관적이었다. 계획 오류는 무지의 문제가 아니다. 자신의 실패 이력을 정확히 알고 있는 상태에서도 사라지지 않는, 구조적으로 고집스러운 편향이다.</p>
   <p class="en">The average actual completion time was 55.5 days — longer even than the students' own worst-case prediction of 48.6 days. Only 30% finished by the date they'd stated with 99% confidence they would. What's more striking is what happened in follow-up experiments: even when researchers specifically reminded participants how far off their own past predictions on similar tasks had been, the next prediction came out almost as optimistic as before. The planning fallacy isn't a problem of ignorance. It's a structurally stubborn bias that persists even when a person knows, with precision, their own track record of being wrong.</p>
@@ -39,6 +54,11 @@
   <p class="pt">O tempo médio real de conclusão foi de 55,5 dias — mais longo até do que a própria previsão de pior caso dos estudantes, de 48,6 dias. Apenas 30% terminaram até a data que haviam declarado com 99% de confiança. O mais surpreendente aconteceu em experimentos de acompanhamento: mesmo quando os pesquisadores lembravam especificamente os participantes de quanto suas previsões passadas em tarefas semelhantes haviam errado, a previsão seguinte saía quase tão otimista quanto antes. A falácia do planejamento não é um problema de ignorância. É um viés estruturalmente teimoso que persiste mesmo quando a pessoa conhece com precisão seu próprio histórico de erros.</p>
   <p class="tr">Gerçek ortalama tamamlanma süresi 55,5 gün oldu — öğrencilerin kendi en kötü durum tahmini olan 48,6 günden bile uzun. Yalnızca %30'u, %99 güvenle belirttikleri tarihe kadar tezlerini bitirebildi. Daha da çarpıcı olanı takip deneylerinde yaşandı — araştırmacılar katılımcılara benzer görevlerdeki geçmiş tahminlerinin ne kadar yanlış çıktığını özellikle hatırlattığında bile, bir sonraki tahmin neredeyse öncekiyle aynı derecede iyimser çıktı. Planlama yanılgısı bir bilgisizlik sorunu değildir. Kişi kendi hatalı geçmişini tam olarak bilse bile ortadan kalkmayan, yapısal olarak inatçı bir önyargıdır.</p>
   <p class="vi">Thời gian hoàn thành thực tế trung bình là 55,5 ngày — dài hơn cả dự đoán kịch bản tệ nhất của chính các sinh viên là 48,6 ngày. Chỉ 30% hoàn thành đúng thời hạn mà họ đã tuyên bố với độ tin cậy 99%. Điều đáng kinh ngạc hơn xảy ra ở các thí nghiệm tiếp theo — ngay cả khi các nhà nghiên cứu nhắc nhở cụ thể cho người tham gia biết dự đoán trong quá khứ của chính họ về các nhiệm vụ tương tự đã sai lệch bao nhiêu, dự đoán tiếp theo vẫn lạc quan gần như trước. Ngụy biện lập kế hoạch không phải là vấn đề của sự thiếu hiểu biết. Đó là một thiên kiến cố chấp về mặt cấu trúc, tồn tại ngay cả khi một người biết chính xác lịch sử sai lầm của chính mình.</p>
+  <p class="id">Rata-rata waktu penyelesaian sebenarnya adalah 55,5 hari — bahkan lebih lama daripada prediksi skenario terburuk para mahasiswa sendiri yaitu 48,6 hari. Hanya 30% yang menyelesaikannya sebelum tanggal yang mereka nyatakan dengan keyakinan 99%. Yang lebih mengejutkan adalah apa yang terjadi dalam eksperimen lanjutan: bahkan ketika para peneliti secara khusus mengingatkan peserta seberapa jauh meleset prediksi masa lalu mereka pada tugas serupa, prediksi berikutnya tetap hampir sama optimisnya seperti sebelumnya. Kekeliruan perencanaan bukanlah masalah ketidaktahuan. Ini adalah bias yang secara struktural keras kepala, yang tetap bertahan bahkan ketika seseorang mengetahui dengan tepat rekam jejaknya sendiri dalam melakukan kesalahan.</p>
+  <p class="pl">Rzeczywisty średni czas ukończenia wyniósł 55,5 dnia — dłużej nawet niż własna prognoza najgorszego przypadku studentów wynosząca 48,6 dnia. Tylko 30% ukończyło pracę do daty, którą podali ze 99-procentową pewnością. Jeszcze bardziej uderzające jest to, co wydarzyło się w kolejnych eksperymentach: nawet gdy badacze wprost przypominali uczestnikom, jak bardzo mylili się w swoich wcześniejszych prognozach dotyczących podobnych zadań, kolejna prognoza wypadała niemal tak samo optymistycznie jak poprzednio. Błąd planowania nie jest problemem niewiedzy. To strukturalnie uparte zniekształcenie, które utrzymuje się nawet wtedy, gdy dana osoba dokładnie zna własną historię pomyłek.</p>
+  <p class="it">Il tempo medio di completamento effettivo fu di 55,5 giorni — più lungo persino della previsione di scenario peggiore degli stessi studenti, pari a 48,6 giorni. Solo il 30% finì entro la data che avevano dichiarato con una fiducia del 99%. Ancora più sorprendente è ciò che accadde negli esperimenti di follow-up: anche quando i ricercatori ricordavano specificamente ai partecipanti quanto le loro previsioni passate su compiti simili fossero state sbagliate, la previsione successiva risultava quasi altrettanto ottimistica di prima. L'errore di pianificazione non è un problema di ignoranza. È un bias strutturalmente ostinato che persiste anche quando una persona conosce con precisione il proprio storico di errori.</p>
+  <p class="ru">Реальное среднее время завершения составило 55,5 дня — дольше даже, чем собственный худший прогноз студентов в 48,6 дня. Лишь 30% уложились в срок, который они назвали с уверенностью в 99%. Ещё более поразительно то, что произошло в последующих экспериментах: даже когда исследователи конкретно напоминали участникам, насколько сильно ошиблись их прошлые прогнозы по похожим задачам, следующий прогноз оказывался почти таким же оптимистичным, как и прежде. Ошибка планирования — это не проблема незнания. Это структурно упрямое искажение, которое сохраняется даже тогда, когда человек точно знает собственную историю ошибок.</p>
+  <p class="zh">實際完成時間平均為55.5天 — 甚至比學生自己預測的最壞情況48.6天還要長。只有30%的人在他們以99%的信心宣稱會完成的日期前真正完成。更令人驚訝的是後續實驗中發生的事:即使研究人員具體提醒參與者,他們過去在類似任務上的預測曾偏差多少,下一次的預測仍然幾乎和之前一樣樂觀。計畫謬誤並非無知的問題,而是一種結構性頑固的偏誤 — 即使一個人精確知道自己過去出錯的紀錄,這種偏誤依然存在。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -355,6 +375,181 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bahkan estimasi "skenario terburuk" pun meleset dari garis akhir</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Buehler, Griffin &amp; Ross (1994) · 37 mahasiswa psikologi memprediksi penyelesaian skripsi</text>
+    <g font-family="sans-serif">
+      <line x1="60" y1="340" x2="670" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <line x1="60" y1="80" x2="60" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">60h</text>
+      <text x="50" y="171" fill="#71717a" font-size="13" text-anchor="end">40h</text>
+      <text x="50" y="257" fill="#71717a" font-size="13" text-anchor="end">20h</text>
+      <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0h</text>
+      <line x1="60" y1="167" x2="670" y2="167" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+      <line x1="60" y1="253" x2="670" y2="253" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+
+      <line x1="60" y1="129" x2="670" y2="129" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+      <rect x="90" y="221" width="100" height="119" fill="#4ade80"/>
+      <rect x="250" y="193" width="100" height="147" fill="#38bdf8"/>
+      <rect x="410" y="129" width="100" height="211" fill="#fbbf24"/>
+      <rect x="570" y="99" width="100" height="241" fill="#f87171"/>
+
+      <text x="140" y="211" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">27,4h</text>
+      <text x="300" y="183" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">33,9h</text>
+      <text x="460" y="119" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">48,6h</text>
+      <text x="620" y="89" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">55,5h</text>
+
+      <text x="140" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Skenario terbaik</text>
+      <text x="300" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Perkiraan realistis</text>
+      <text x="460" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Skenario terburuk</text>
+      <text x="620" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Aktual</text>
+
+      <text x="670" y="385" fill="#fbbf24" font-size="13" text-anchor="end">Aktualnya berjalan 6,9 hari lebih lama dari perkiraan skenario terburuk mereka sendiri</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Nawet szacunek "najgorszego przypadku" nie trafił w metę</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Buehler, Griffin i Ross (1994) · 37 studentów psychologii przewidujących ukończenie pracy magisterskiej</text>
+    <g font-family="sans-serif">
+      <line x1="60" y1="340" x2="670" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <line x1="60" y1="80" x2="60" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">60d</text>
+      <text x="50" y="171" fill="#71717a" font-size="13" text-anchor="end">40d</text>
+      <text x="50" y="257" fill="#71717a" font-size="13" text-anchor="end">20d</text>
+      <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0d</text>
+      <line x1="60" y1="167" x2="670" y2="167" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+      <line x1="60" y1="253" x2="670" y2="253" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+
+      <line x1="60" y1="129" x2="670" y2="129" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+      <rect x="90" y="221" width="100" height="119" fill="#4ade80"/>
+      <rect x="250" y="193" width="100" height="147" fill="#38bdf8"/>
+      <rect x="410" y="129" width="100" height="211" fill="#fbbf24"/>
+      <rect x="570" y="99" width="100" height="241" fill="#f87171"/>
+
+      <text x="140" y="211" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">27,4d</text>
+      <text x="300" y="183" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">33,9d</text>
+      <text x="460" y="119" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">48,6d</text>
+      <text x="620" y="89" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">55,5d</text>
+
+      <text x="140" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Najlepszy przypadek</text>
+      <text x="300" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Realistyczna prognoza</text>
+      <text x="460" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Najgorszy przypadek</text>
+      <text x="620" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Rzeczywisty</text>
+
+      <text x="670" y="385" fill="#fbbf24" font-size="13" text-anchor="end">Rzeczywistość trwała o 6,9 dnia dłużej niż ich własna prognoza najgorszego przypadku</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Anche la stima del "caso peggiore" ha mancato il traguardo</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Buehler, Griffin e Ross (1994) · 37 studenti di psicologia che prevedono il completamento della tesi</text>
+    <g font-family="sans-serif">
+      <line x1="60" y1="340" x2="670" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <line x1="60" y1="80" x2="60" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">60g</text>
+      <text x="50" y="171" fill="#71717a" font-size="13" text-anchor="end">40g</text>
+      <text x="50" y="257" fill="#71717a" font-size="13" text-anchor="end">20g</text>
+      <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0g</text>
+      <line x1="60" y1="167" x2="670" y2="167" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+      <line x1="60" y1="253" x2="670" y2="253" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+
+      <line x1="60" y1="129" x2="670" y2="129" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+      <rect x="90" y="221" width="100" height="119" fill="#4ade80"/>
+      <rect x="250" y="193" width="100" height="147" fill="#38bdf8"/>
+      <rect x="410" y="129" width="100" height="211" fill="#fbbf24"/>
+      <rect x="570" y="99" width="100" height="241" fill="#f87171"/>
+
+      <text x="140" y="211" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">27,4g</text>
+      <text x="300" y="183" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">33,9g</text>
+      <text x="460" y="119" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">48,6g</text>
+      <text x="620" y="89" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">55,5g</text>
+
+      <text x="140" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Caso migliore</text>
+      <text x="300" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Previsione realistica</text>
+      <text x="460" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Caso peggiore</text>
+      <text x="620" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Reale</text>
+
+      <text x="670" y="385" fill="#fbbf24" font-size="13" text-anchor="end">La realtà ha superato di 6,9 giorni la loro stessa previsione di scenario peggiore</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Даже оценка «худшего случая» не попала в финиш</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Бюлер, Гриффин и Росс (1994) · 37 студентов-психологов прогнозируют завершение дипломной работы</text>
+    <g font-family="sans-serif">
+      <line x1="60" y1="340" x2="670" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <line x1="60" y1="80" x2="60" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">60д</text>
+      <text x="50" y="171" fill="#71717a" font-size="13" text-anchor="end">40д</text>
+      <text x="50" y="257" fill="#71717a" font-size="13" text-anchor="end">20д</text>
+      <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0д</text>
+      <line x1="60" y1="167" x2="670" y2="167" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+      <line x1="60" y1="253" x2="670" y2="253" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+
+      <line x1="60" y1="129" x2="670" y2="129" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+      <rect x="90" y="221" width="100" height="119" fill="#4ade80"/>
+      <rect x="250" y="193" width="100" height="147" fill="#38bdf8"/>
+      <rect x="410" y="129" width="100" height="211" fill="#fbbf24"/>
+      <rect x="570" y="99" width="100" height="241" fill="#f87171"/>
+
+      <text x="140" y="211" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">27,4д</text>
+      <text x="300" y="183" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">33,9д</text>
+      <text x="460" y="119" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">48,6д</text>
+      <text x="620" y="89" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">55,5д</text>
+
+      <text x="140" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Лучший случай</text>
+      <text x="300" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Реалистичный прогноз</text>
+      <text x="460" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Худший случай</text>
+      <text x="620" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">Фактически</text>
+
+      <text x="670" y="385" fill="#fbbf24" font-size="13" text-anchor="end">Реальность заняла на 6,9 дня больше, чем их собственный прогноз худшего случая</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">就連「最壞情況」的估計也未能命中終點</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">布勒、格里芬與羅斯(1994) · 37名心理系學生預測論文完成時間</text>
+    <g font-family="sans-serif">
+      <line x1="60" y1="340" x2="670" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <line x1="60" y1="80" x2="60" y2="340" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="50" y="84" fill="#71717a" font-size="13" text-anchor="end">60日</text>
+      <text x="50" y="171" fill="#71717a" font-size="13" text-anchor="end">40日</text>
+      <text x="50" y="257" fill="#71717a" font-size="13" text-anchor="end">20日</text>
+      <text x="50" y="344" fill="#71717a" font-size="13" text-anchor="end">0日</text>
+      <line x1="60" y1="167" x2="670" y2="167" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+      <line x1="60" y1="253" x2="670" y2="253" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+
+      <line x1="60" y1="129" x2="670" y2="129" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+      <rect x="90" y="221" width="100" height="119" fill="#4ade80"/>
+      <rect x="250" y="193" width="100" height="147" fill="#38bdf8"/>
+      <rect x="410" y="129" width="100" height="211" fill="#fbbf24"/>
+      <rect x="570" y="99" width="100" height="241" fill="#f87171"/>
+
+      <text x="140" y="211" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">27.4日</text>
+      <text x="300" y="183" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">33.9日</text>
+      <text x="460" y="119" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">48.6日</text>
+      <text x="620" y="89" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle">55.5日</text>
+
+      <text x="140" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">最佳情況</text>
+      <text x="300" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">現實預測</text>
+      <text x="460" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">最壞情況</text>
+      <text x="620" y="362" fill="#a1a1aa" font-size="13" text-anchor="middle">實際</text>
+
+      <text x="670" y="385" fill="#fbbf24" font-size="13" text-anchor="end">實際情況比他們自己預測的最壞情況還多花了6.9天</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">억 단위 인프라 프로젝트에서도 똑같이 반복된다</h2>
   <h2 class="en">The same pattern repeats at the scale of billion-dollar projects</h2>
@@ -365,6 +560,11 @@
   <h2 class="pt">O Mesmo Padrão se Repete em Projetos de Bilhões</h2>
   <h2 class="tr">Aynı Örüntü Milyar Dolarlık Projelerde de Tekrarlanıyor</h2>
   <h2 class="vi">Cùng Một Mô Hình Lặp Lại Ở Quy Mô Các Dự Án Hàng Tỷ Đô La</h2>
+  <h2 class="id">Pola yang Sama Terulang pada Skala Proyek Bernilai Miliaran Dolar</h2>
+  <h2 class="pl">Ten Sam Wzorzec Powtarza się w Projektach Wartych Miliardy Dolarów</h2>
+  <h2 class="it">Lo Stesso Schema si Ripete su Progetti da Miliardi di Dollari</h2>
+  <h2 class="ru">Та же Закономерность Повторяется в Проектах на Миллиарды Долларов</h2>
+  <h2 class="zh">同樣的模式在數十億美元規模的專案中一再重演</h2>
 
   <p class="ko">계획 오류가 개인의 심리적 습관에 그친다면 흥미로운 일화로 끝났을 것이다. 그런데 옥스퍼드 사이드경영대학원의 벤트 플루비아(Bent Flyvbjerg)가 20개국 258개 교통 인프라 프로젝트(1995년 기준 가격으로 약 900억 달러 규모)를 분석한 연구는 이 편향이 조 단위 자본을 다루는 전문 엔지니어와 정부 기관에서도 똑같이 나타난다는 걸 보여줬다. 철도 프로젝트의 평균 비용 초과율은 45%(표준편차 38)였고, 교량·터널 같은 고정 연결 구조물은 34%, 도로는 20%였다. 인프라 프로젝트 열 건 중 아홉 건이 예산을 초과했다.</p>
   <p class="en">If the planning fallacy were just a quirk of individual psychology, it would end as an interesting anecdote. But research by Bent Flyvbjerg of Oxford's Saïd Business School, analyzing 258 transportation infrastructure projects across 20 nations (worth roughly $90 billion at 1995 prices), showed that the same bias appears just as reliably among professional engineers and government agencies handling trillion-won-scale capital. The average cost overrun for rail projects was 45% (standard deviation 38); for fixed links like bridges and tunnels, it was 34%; for roads, 20%. Nine out of ten infrastructure projects ran over budget.</p>
@@ -375,6 +575,11 @@
   <p class="pt">Se a falácia do planejamento fosse apenas uma peculiaridade da psicologia individual, ela terminaria como uma anedota interessante. Mas uma pesquisa de Bent Flyvbjerg, da Saïd Business School de Oxford, que analisou 258 projetos de infraestrutura de transporte em 20 países (no valor de cerca de US$ 90 bilhões a preços de 1995), mostrou que o mesmo viés aparece com a mesma confiabilidade entre engenheiros profissionais e agências governamentais que lidam com capital em escala de trilhões. O estouro médio de custo em projetos ferroviários foi de 45% (desvio-padrão 38); em ligações fixas como pontes e túneis, 34%; em rodovias, 20%. Nove em cada dez projetos de infraestrutura ultrapassaram o orçamento.</p>
   <p class="tr">Planlama yanılgısı yalnızca bireysel psikolojinin bir tuhaflığı olsaydı, ilginç bir anekdot olarak kalırdı. Ama Oxford Saïd Business School'dan Bent Flyvbjerg'in 20 ülkede 258 ulaşım altyapı projesini (1995 fiyatlarıyla yaklaşık 90 milyar dolar değerinde) analiz eden araştırması, aynı önyargının trilyonlarca dolarlık sermayeyi yöneten profesyonel mühendisler ve devlet kurumlarında da aynı güvenilirlikte ortaya çıktığını gösterdi. Demiryolu projelerinde ortalama maliyet aşımı %45 (standart sapma 38) iken, köprü ve tünel gibi sabit bağlantılarda %34, karayollarında %20'ydi. Altyapı projelerinin onda dokuzu bütçeyi aştı.</p>
   <p class="vi">Nếu ngụy biện lập kế hoạch chỉ là một đặc điểm tâm lý cá nhân, nó sẽ chỉ dừng lại là một giai thoại thú vị. Nhưng nghiên cứu của Bent Flyvbjerg thuộc Trường Kinh doanh Saïd, Đại học Oxford, phân tích 258 dự án hạ tầng giao thông tại 20 quốc gia (trị giá khoảng 90 tỷ đô la theo giá năm 1995), cho thấy cùng một thiên kiến này xuất hiện đáng tin cậy như nhau ở cả các kỹ sư chuyên nghiệp và cơ quan chính phủ quản lý nguồn vốn quy mô hàng nghìn tỷ. Mức vượt chi phí trung bình của các dự án đường sắt là 45% (độ lệch chuẩn 38); các công trình liên kết cố định như cầu, hầm là 34%; đường bộ là 20%. Chín trong mười dự án hạ tầng đã vượt ngân sách.</p>
+  <p class="id">Jika kekeliruan perencanaan hanyalah keanehan psikologi individu, itu akan berakhir sebagai anekdot yang menarik. Namun penelitian oleh Bent Flyvbjerg dari Saïd Business School Oxford, yang menganalisis 258 proyek infrastruktur transportasi di 20 negara (senilai sekitar 90 miliar dolar AS pada harga tahun 1995), menunjukkan bahwa bias yang sama muncul sama konsistennya di kalangan insinyur profesional dan lembaga pemerintah yang mengelola modal berskala triliunan. Rata-rata pembengkakan biaya untuk proyek kereta api adalah 45% (deviasi standar 38); untuk sambungan tetap seperti jembatan dan terowongan, 34%; untuk jalan raya, 20%. Sembilan dari sepuluh proyek infrastruktur melebihi anggaran.</p>
+  <p class="pl">Gdyby błąd planowania był tylko dziwactwem indywidualnej psychiki, pozostałby jedynie ciekawą anegdotą. Jednak badania Benta Flyvbjerga z Saïd Business School na Oksfordzie, analizujące 258 projektów infrastruktury transportowej w 20 krajach (o wartości około 90 miliardów dolarów w cenach z 1995 roku), pokazały, że to samo zniekształcenie pojawia się równie niezawodnie wśród profesjonalnych inżynierów i agencji rządowych zarządzających kapitałem na skalę bilionów. Średnie przekroczenie kosztów w projektach kolejowych wyniosło 45% (odchylenie standardowe 38); w połączeniach stałych, takich jak mosty i tunele, 34%; w drogach, 20%. Dziewięć na dziesięć projektów infrastrukturalnych przekroczyło budżet.</p>
+  <p class="it">Se l'errore di pianificazione fosse solo una stranezza della psicologia individuale, resterebbe un aneddoto interessante. Ma la ricerca di Bent Flyvbjerg della Saïd Business School di Oxford, che ha analizzato 258 progetti di infrastrutture di trasporto in 20 paesi (per un valore di circa 90 miliardi di dollari a prezzi del 1995), ha dimostrato che lo stesso bias emerge con altrettanta regolarità tra ingegneri professionisti ed enti governativi che gestiscono capitali su scala di trilioni. Il superamento medio dei costi per i progetti ferroviari è stato del 45% (deviazione standard 38); per i collegamenti fissi come ponti e gallerie, del 34%; per le strade, del 20%. Nove progetti infrastrutturali su dieci hanno superato il budget.</p>
+  <p class="ru">Если бы ошибка планирования была лишь причудой индивидуальной психологии, она осталась бы просто интересным анекдотом. Но исследование Бента Фливбьерга из Оксфордской школы бизнеса Saïd, проанализировавшее 258 транспортных инфраструктурных проектов в 20 странах (стоимостью около 90 миллиардов долларов в ценах 1995 года), показало, что то же искажение проявляется столь же стабильно среди профессиональных инженеров и государственных ведомств, распоряжающихся капиталом триллионного масштаба. Среднее превышение затрат для железнодорожных проектов составило 45% (стандартное отклонение 38); для мостов и туннелей — 34%; для автодорог — 20%. Девять из десяти инфраструктурных проектов вышли за рамки бюджета.</p>
+  <p class="zh">如果計畫謬誤只是個人心理的一種怪癖,那它頂多是則有趣的軼事。但牛津大學賽德商學院(Saïd Business School)的本特·弗呂夫傑格(Bent Flyvbjerg)分析了20個國家的258個交通基礎建設專案(以1995年價格計算,價值約900億美元)的研究顯示,同樣的偏誤在處理兆級資本的專業工程師與政府機構中同樣穩定地出現。鐵路專案的平均成本超支率為45%(標準差38);橋樑、隧道等固定連結結構為34%;道路為20%。十個基礎建設專案中有九個超出預算。</p>
 
   <p class="ko">더 중요한 발견은 이 오차가 시간이 지나며 줄지 않았다는 점이다. 플루비아는 1927년부터 최근까지 70년 넘게 쌓인 데이터를 비교했을 때, 예측 기법과 컴퓨터 모델링이 비약적으로 발전했음에도 비용 초과율은 거의 개선되지 않았다고 지적한다. 이는 뷸러의 실험에서 "과거 실패를 상기시켜도 다음 예측이 나아지지 않았다"는 결과와 같은 결을 가진다 — 정보와 경험이 쌓인다고 저절로 교정되는 편향이 아니라는 뜻이다. 비트코인 트레이더가 지난 조정에서 겪었던 손실을 생생히 기억하면서도 다음 조정에서 "이번엔 며칠이면 반등한다"고 다시 베팅하는 건, 게으름이나 무지가 아니라 이 편향의 본질적 저항성 때문이다.</p>
   <p class="en">The more important finding is that this margin of error hasn't shrunk over time. Comparing data accumulated over more than 70 years, from 1927 to recent years, Flyvbjerg points out that despite dramatic advances in forecasting techniques and computer modeling, cost-overrun rates have barely improved. This lines up with Buehler's finding that reminding people of past failures didn't improve their next prediction — meaning this isn't a bias that self-corrects as information and experience accumulate. When a bitcoin trader vividly remembers the losses from the last correction and still bets that "this one bounces back in a few days," it isn't laziness or ignorance — it's the bias's inherent resistance to correction.</p>
@@ -385,6 +590,11 @@
   <p class="pt">A descoberta mais importante é que essa margem de erro não diminuiu com o tempo. Comparando dados acumulados ao longo de mais de 70 anos, de 1927 até anos recentes, Flyvbjerg aponta que, apesar dos avanços dramáticos em técnicas de previsão e modelagem computacional, as taxas de estouro de custo mal melhoraram. Isso está alinhado com a descoberta de Buehler de que lembrar as pessoas de fracassos passados não melhorava sua próxima previsão — o que significa que não é um viés que se autocorrige à medida que informação e experiência se acumulam. Quando um trader de bitcoin lembra vividamente das perdas da última correção e ainda assim aposta que "desta vez recupera em poucos dias", isso não é preguiça nem ignorância — é a resistência inerente desse viés à correção.</p>
   <p class="tr">Daha önemli bulgu, bu hata payının zamanla küçülmemiş olmasıdır. Flyvbjerg, 1927'den yakın zamana kadar 70 yılı aşkın süredir biriken verileri karşılaştırdığında, tahmin tekniklerinde ve bilgisayar modellemesinde çarpıcı ilerlemelere rağmen maliyet aşım oranlarının neredeyse hiç iyileşmediğini belirtiyor. Bu, Buehler'in geçmiş başarısızlıkların hatırlatılmasının bir sonraki tahmini iyileştirmediği bulgusuyla aynı çizgide — yani bilgi ve deneyim biriktikçe kendiliğinden düzelen bir önyargı değil bu. Bir bitcoin traderının bir önceki düzeltmedeki kayıplarını canlı biçimde hatırlarken bile bir sonraki düzeltmede "bu sefer birkaç günde toparlanır" diye yeniden bahse girmesi, tembellikten ya da bilgisizlikten değil, bu önyargının düzeltmeye karşı özünde var olan direncinden kaynaklanır.</p>
   <p class="vi">Phát hiện quan trọng hơn là biên độ sai số này không thu hẹp theo thời gian. So sánh dữ liệu tích lũy hơn 70 năm, từ 1927 đến gần đây, Flyvbjerg chỉ ra rằng dù kỹ thuật dự báo và mô hình hóa máy tính đã tiến bộ vượt bậc, tỷ lệ vượt chi phí hầu như không cải thiện. Điều này khớp với phát hiện của Buehler rằng việc nhắc nhở mọi người về thất bại trong quá khứ không cải thiện dự đoán tiếp theo của họ — nghĩa là đây không phải thiên kiến tự sửa chữa khi thông tin và kinh nghiệm tích lũy. Khi một trader bitcoin nhớ rõ những khoản lỗ từ đợt điều chỉnh trước mà vẫn đặt cược rằng "lần này sẽ hồi phục trong vài ngày", đó không phải do lười biếng hay thiếu hiểu biết — mà là do khả năng chống lại sự sửa chữa vốn có của thiên kiến này.</p>
+  <p class="id">Temuan yang lebih penting adalah margin kesalahan ini tidak mengecil seiring waktu. Dengan membandingkan data yang terkumpul selama lebih dari 70 tahun, dari 1927 hingga tahun-tahun terakhir, Flyvbjerg menunjukkan bahwa meskipun ada kemajuan dramatis dalam teknik peramalan dan pemodelan komputer, tingkat pembengkakan biaya nyaris tidak membaik. Ini sejalan dengan temuan Buehler bahwa mengingatkan orang tentang kegagalan masa lalu tidak memperbaiki prediksi berikutnya mereka — artinya ini bukan bias yang terkoreksi dengan sendirinya seiring bertambahnya informasi dan pengalaman. Ketika seorang trader bitcoin dengan jelas mengingat kerugian dari koreksi terakhir namun tetap bertaruh bahwa "yang ini akan pulih dalam beberapa hari," itu bukan karena malas atau tidak tahu — itu adalah ketahanan bawaan bias ini terhadap koreksi.</p>
+  <p class="pl">Ważniejszym odkryciem jest to, że ten margines błędu nie zmniejszył się z czasem. Porównując dane zgromadzone przez ponad 70 lat, od 1927 roku do ostatnich lat, Flyvbjerg zauważa, że mimo dramatycznych postępów w technikach prognozowania i modelowaniu komputerowym, wskaźniki przekroczenia kosztów niemal się nie poprawiły. Jest to zgodne z odkryciem Buehlera, że przypominanie ludziom o wcześniejszych porażkach nie poprawiało ich kolejnej prognozy — co oznacza, że nie jest to zniekształcenie, które samo się koryguje w miarę gromadzenia informacji i doświadczenia. Gdy trader bitcoina żywo pamięta straty z ostatniej korekty, a mimo to zakłada, że "ta odbije się w ciągu kilku dni", nie wynika to z lenistwa ani niewiedzy — to wewnętrzna odporność tego zniekształcenia na korektę.</p>
+  <p class="it">La scoperta più importante è che questo margine di errore non si è ridotto nel tempo. Confrontando i dati accumulati in oltre 70 anni, dal 1927 agli anni recenti, Flyvbjerg fa notare che, nonostante i progressi drammatici nelle tecniche di previsione e nella modellazione informatica, i tassi di sforamento dei costi sono migliorati appena. Ciò coincide con la scoperta di Buehler secondo cui ricordare alle persone i fallimenti passati non migliorava la loro previsione successiva — il che significa che non è un bias che si autocorregge man mano che si accumulano informazioni ed esperienza. Quando un trader di bitcoin ricorda vividamente le perdite dell'ultima correzione e scommette comunque che "questa volta rimbalza in pochi giorni", non è pigrizia né ignoranza — è la resistenza intrinseca del bias alla correzione.</p>
+  <p class="ru">Более важное открытие состоит в том, что эта погрешность не сократилась со временем. Сравнивая данные, накопленные за более чем 70 лет — с 1927 года по последние годы, — Фливбьерг отмечает, что, несмотря на впечатляющий прогресс в методах прогнозирования и компьютерном моделировании, показатели превышения затрат практически не улучшились. Это согласуется с выводом Бюлера о том, что напоминание людям об их прошлых неудачах не улучшало их следующий прогноз — то есть это не то искажение, которое самокорректируется по мере накопления информации и опыта. Когда трейдер биткоина ярко помнит убытки от последней коррекции и всё равно ставит на то, что «эта отскочит за несколько дней», это не лень и не невежество — это внутренняя устойчивость искажения к исправлению.</p>
+  <p class="zh">更重要的發現是,這個誤差幅度並未隨時間縮小。弗呂夫傑格比較了從1927年到近年累積超過70年的資料,指出儘管預測技術與電腦建模有了驚人的進步,成本超支率幾乎沒有改善。這與布勒的發現一致 — 提醒人們過去的失敗並不會改善他們下一次的預測 — 這意味著這並非一種會隨著資訊與經驗累積而自我修正的偏誤。當一位比特幣交易者清楚記得上一次回調的虧損,卻依然押注「這次幾天內就會反彈」時,這並非懶惰或無知 — 而是這種偏誤本質上對修正的抗拒。</p>
 
   <h2 class="ko">비트코인 조정에도 계획 오류가 그대로 작동한다</h2>
   <h2 class="en">Bitcoin corrections run on the same fallacy</h2>
@@ -395,6 +605,11 @@
   <h2 class="pt">As Correções do Bitcoin Seguem a Mesma Falácia</h2>
   <h2 class="tr">Bitcoin Düzeltmeleri de Aynı Yanılgıyla İşliyor</h2>
   <h2 class="vi">Các Đợt Điều Chỉnh Bitcoin Vận Hành Theo Cùng Một Ngụy Biện</h2>
+  <h2 class="id">Koreksi Bitcoin Berjalan dengan Kekeliruan yang Sama</h2>
+  <h2 class="pl">Korekty Bitcoina Działają na Tej Samej Zasadzie Błędu</h2>
+  <h2 class="it">Le Correzioni di Bitcoin Seguono lo Stesso Errore</h2>
+  <h2 class="ru">Коррекции Биткоина Работают по Той же Ошибке</h2>
+  <h2 class="zh">比特幣的回調也遵循同樣的謬誤</h2>
 
   <p class="ko">비트코인 역사에서 이 편향을 검증할 두 번의 큰 사례가 있다. 2017년 12월 17일 19,783달러로 사상 최고가를 찍은 비트코인은 2018년 12월 약 3,122달러까지 떨어졌다 — 고점 대비 84% 하락, 고점부터 저점까지 약 556일이 걸렸다. 회복은 더 오래 걸렸다. 2017년 고점을 다시 넘어선 건 2020년 12월로, 저점에서만 약 730일, 최초 고점 기준으로는 3년이 걸렸다. 2018년 내내 "바닥을 찍었다"는 진단이 여러 번 나왔지만, 실제 바닥과 회복까지의 거리는 그 진단들이 가정한 기간을 매번 크게 웃돌았다.</p>
   <p class="en">Bitcoin's history offers two large-scale tests of this bias. Bitcoin hit an all-time high of $19,783 on December 17, 2017, then fell to roughly $3,122 by December 2018 — an 84% decline from the peak, taking about 556 days from top to bottom. Recovery took even longer. Bitcoin didn't reclaim the 2017 peak until December 2020: about 730 days from the bottom alone, and three full years measured from the original peak. Throughout 2018, "we've hit the bottom" calls surfaced repeatedly — and every time, the actual distance to the bottom and the recovery exceeded what those calls assumed.</p>
@@ -405,6 +620,11 @@
   <p class="pt">A história do Bitcoin oferece dois grandes testes desse viés. O Bitcoin atingiu uma máxima histórica de US$ 19.783 em 17 de dezembro de 2017, depois caiu para cerca de US$ 3.122 em dezembro de 2018 — um declínio de 84% em relação ao pico, levando cerca de 556 dias do topo ao fundo. A recuperação levou ainda mais tempo. O Bitcoin só recuperou o pico de 2017 em dezembro de 2020: cerca de 730 dias apenas a partir do fundo, e três anos completos medidos a partir do pico original. Ao longo de 2018, diagnósticos de "batemos o fundo" surgiram repetidamente — e toda vez, a distância real até o fundo e a recuperação superou o que esses diagnósticos supunham.</p>
   <p class="tr">Bitcoin'in tarihi bu önyargıyı sınayan iki büyük ölçekli örnek sunuyor. Bitcoin 17 Aralık 2017'de 19.783 dolarla tüm zamanların en yüksek seviyesine ulaştı, ardından Aralık 2018'de yaklaşık 3.122 dolara geriledi — zirveden %84'lük bir düşüş, zirveden dibe yaklaşık 556 gün sürdü. Toparlanma daha da uzun sürdü. Bitcoin 2017 zirvesini ancak Aralık 2020'de yeniden aştı: yalnızca dipten itibaren yaklaşık 730 gün, ilk zirveden itibaren ise tam üç yıl. 2018 boyunca "dibi gördük" teşhisleri tekrar tekrar ortaya çıktı — ve her seferinde gerçek dip ve toparlanma mesafesi bu teşhislerin varsaydığı süreyi büyük ölçüde aştı.</p>
   <p class="vi">Lịch sử Bitcoin cung cấp hai bài kiểm chứng quy mô lớn cho thiên kiến này. Bitcoin đạt đỉnh cao mọi thời đại 19.783 đô la vào ngày 17/12/2017, sau đó giảm xuống còn khoảng 3.122 đô la vào tháng 12/2018 — mức giảm 84% từ đỉnh, mất khoảng 556 ngày từ đỉnh xuống đáy. Sự phục hồi còn mất nhiều thời gian hơn. Bitcoin chỉ vượt lại đỉnh năm 2017 vào tháng 12/2020: khoảng 730 ngày chỉ tính từ đáy, và trọn ba năm nếu tính từ đỉnh ban đầu. Trong suốt năm 2018, các nhận định "đã chạm đáy" liên tục xuất hiện — và mỗi lần, khoảng cách thực tế đến đáy và sự phục hồi đều vượt xa những gì các nhận định đó giả định.</p>
+  <p class="id">Sejarah bitcoin menawarkan dua uji skala besar untuk bias ini. Bitcoin mencapai rekor tertinggi sepanjang masa sebesar $19.783 pada 17 Desember 2017, lalu jatuh ke sekitar $3.122 pada Desember 2018 — penurunan 84% dari puncak, memakan waktu sekitar 556 hari dari puncak ke dasar. Pemulihan memakan waktu lebih lama lagi. Bitcoin baru merebut kembali puncak 2017 pada Desember 2020: sekitar 730 hari hanya dihitung dari dasar, dan tiga tahun penuh jika dihitung dari puncak awal. Sepanjang tahun 2018, klaim "kita sudah menyentuh dasar" muncul berulang kali — dan setiap kali, jarak sebenarnya menuju dasar dan pemulihan melampaui apa yang diasumsikan klaim-klaim tersebut.</p>
+  <p class="pl">Historia bitcoina oferuje dwa testy tego zniekształcenia na dużą skalę. Bitcoin osiągnął historyczny szczyt 19 783 dolarów 17 grudnia 2017 roku, a następnie spadł do około 3122 dolarów do grudnia 2018 roku — spadek o 84% od szczytu, trwający około 556 dni od góry do dołu. Odbicie zajęło jeszcze więcej czasu. Bitcoin odzyskał szczyt z 2017 roku dopiero w grudniu 2020 roku: około 730 dni licząc samo od dna, a pełne trzy lata licząc od pierwotnego szczytu. Przez cały 2018 rok wielokrotnie pojawiały się opinie "osiągnęliśmy dno" — i za każdym razem rzeczywisty dystans do dna i odbicia przewyższał to, co te opinie zakładały.</p>
+  <p class="it">La storia di bitcoin offre due test su larga scala di questo bias. Bitcoin ha raggiunto un massimo storico di 19.783 dollari il 17 dicembre 2017, per poi scendere a circa 3.122 dollari entro dicembre 2018 — un calo dell'84% dal picco, impiegando circa 556 giorni dal massimo al minimo. Il recupero ha richiesto ancora più tempo. Bitcoin non ha riconquistato il picco del 2017 fino a dicembre 2020: circa 730 giorni solo dal minimo, e tre anni pieni misurati dal picco originale. Per tutto il 2018, le previsioni "abbiamo toccato il fondo" sono emerse ripetutamente — e ogni volta, la distanza reale dal fondo e il recupero hanno superato quanto quelle previsioni assumevano.</p>
+  <p class="ru">История биткоина даёт два масштабных теста этого искажения. Биткоин достиг исторического максимума в $19 783 17 декабря 2017 года, затем упал примерно до $3 122 к декабрю 2018 года — снижение на 84% от пика, занявшее около 556 дней от вершины до дна. Восстановление заняло ещё больше времени. Биткоин не возвращался к пику 2017 года вплоть до декабря 2020 года: около 730 дней только от дна, и целых три года, если считать от исходного пика. На протяжении всего 2018 года неоднократно звучали заявления «мы достигли дна» — и каждый раз реальное расстояние до дна и восстановления превышало то, что предполагали эти заявления.</p>
+  <p class="zh">比特幣的歷史提供了兩次驗證這種偏誤的大規模案例。比特幣於2017年12月17日創下19,783美元的歷史新高,隨後在2018年12月跌至約3,122美元 — 從高點下跌84%,從頂部到底部歷時約556天。復甦花的時間更長。比特幣直到2020年12月才重新站上2017年的高點:僅從底部算起約730天,若從最初的高點算起則是整整三年。整個2018年間,「已經觸底」的說法反覆出現 — 而每一次,實際觸底與復甦所需的距離都遠遠超出這些說法的假設。</p>
 
   <p class="ko">2021~2022년 조정은 조금 더 빨랐지만 패턴은 같았다. 2021년 11월 10일 69,044달러로 사상 최고가를 찍은 비트코인은 2022년 11월 21일 약 15,479달러까지 떨어졌다 — 78% 하락에 고점부터 저점까지 약 376일. 새 사상 최고가를 다시 쓴 건 2024년 3월로, 저점에서만 약 470일, 고점 기준으로는 약 2년 4개월이 걸렸다. 2018년보다 짧아진 건 사실이지만, 그 "짧아진" 기간조차 1년을 훌쩍 넘긴다. 조정이 한창일 때 SNS와 커뮤니티에서 흔히 나온 예측 — "한두 달이면 반등한다", "이번 달 안에 바닥이다" — 은 이 기준 기간과 비교하면 뷸러의 학생들이 최악의 시나리오조차 밑돌았던 것과 같은 구조로 틀렸다.</p>
   <p class="en">The 2021–2022 correction was a bit faster, but the pattern held. Bitcoin hit an all-time high of $69,044 on November 10, 2021, then fell to roughly $15,479 by November 21, 2022 — a 78% decline, taking about 376 days from top to bottom. It didn't set a new all-time high until March 2024: about 470 days from the bottom alone, and roughly two years and four months measured from the peak. Yes, that's shorter than 2018 — but even that "shorter" span ran well past a full year. The predictions that circulated on social media and in communities mid-correction — "it bounces back in a month or two," "we bottom this month" — were wrong against that baseline in exactly the same structural way Buehler's students undershot even their own worst case.</p>
@@ -415,6 +635,11 @@
   <p class="pt">A correção de 2021-2022 foi um pouco mais rápida, mas o padrão se manteve. O Bitcoin atingiu uma máxima histórica de US$ 69.044 em 10 de novembro de 2021, depois caiu para cerca de US$ 15.479 em 21 de novembro de 2022 — um declínio de 78%, levando cerca de 376 dias do topo ao fundo. Só estabeleceu uma nova máxima histórica em março de 2024: cerca de 470 dias apenas a partir do fundo, e aproximadamente dois anos e quatro meses medidos a partir do pico. Sim, isso é mais curto que 2018 — mas mesmo esse período "mais curto" ultrapassou facilmente um ano inteiro. As previsões que circulavam nas redes sociais e comunidades no meio da correção — "recupera em um ou dois meses", "batemos o fundo este mês" — estavam erradas em relação a essa referência exatamente na mesma estrutura em que os estudantes de Buehler ficaram aquém até do próprio pior cenário.</p>
   <p class="tr">2021-2022 düzeltmesi biraz daha hızlıydı, ama örüntü aynı kaldı. Bitcoin 10 Kasım 2021'de 69.044 dolarla tüm zamanların en yüksek seviyesine ulaştı, ardından 21 Kasım 2022'de yaklaşık 15.479 dolara geriledi — %78'lik bir düşüş, zirveden dibe yaklaşık 376 gün. Yeni bir zirveyi ancak Mart 2024'te gördü: yalnızca dipten itibaren yaklaşık 470 gün, zirveden itibaren ise yaklaşık iki yıl dört ay. Evet, bu 2018'den daha kısa — ama bu "kısalmış" süre bile bir yılı fazlasıyla aşıyor. Düzeltme sürerken sosyal medyada ve topluluklarda sıkça dolaşan tahminler — "bir iki ayda toparlanır", "bu ay dibi görürüz" — bu referans süreyle karşılaştırıldığında, Buehler'in öğrencilerinin kendi en kötü senaryolarının bile altında kalmasıyla tam olarak aynı yapıda yanlıştı.</p>
   <p class="vi">Đợt điều chỉnh 2021–2022 diễn ra nhanh hơn một chút, nhưng mô hình vẫn giữ nguyên. Bitcoin đạt đỉnh cao mọi thời đại 69.044 đô la vào ngày 10/11/2021, sau đó giảm xuống còn khoảng 15.479 đô la vào ngày 21/11/2022 — mức giảm 78%, mất khoảng 376 ngày từ đỉnh xuống đáy. Nó chỉ thiết lập đỉnh mới vào tháng 3/2024: khoảng 470 ngày chỉ tính từ đáy, và khoảng hai năm bốn tháng nếu tính từ đỉnh. Đúng là ngắn hơn năm 2018 — nhưng ngay cả khoảng thời gian "ngắn hơn" đó cũng vượt xa một năm trọn vẹn. Những dự đoán lan truyền trên mạng xã hội và cộng đồng giữa đợt điều chỉnh — "một hai tháng là bật lại", "tháng này là chạm đáy" — đã sai so với mốc chuẩn này theo đúng cấu trúc mà các sinh viên của Buehler đã sai còn tệ hơn cả kịch bản tệ nhất của chính họ.</p>
+  <p class="id">Koreksi 2021-2022 sedikit lebih cepat, tetapi polanya tetap sama. Bitcoin mencapai rekor tertinggi sepanjang masa sebesar $69.044 pada 10 November 2021, lalu jatuh ke sekitar $15.479 pada 21 November 2022 — penurunan 78%, memakan waktu sekitar 376 hari dari puncak ke dasar. Bitcoin baru mencetak rekor tertinggi baru pada Maret 2024: sekitar 470 hari hanya dihitung dari dasar, dan sekitar dua tahun empat bulan jika dihitung dari puncak. Memang, itu lebih singkat dibandingkan 2018 — tetapi bahkan rentang yang "lebih singkat" itu masih jauh melebihi satu tahun penuh. Prediksi yang beredar di media sosial dan komunitas di tengah koreksi — "akan pulih dalam satu atau dua bulan," "kita akan menyentuh dasar bulan ini" — salah terhadap patokan tersebut dengan struktur yang persis sama seperti para mahasiswa Buehler yang melesetnya bahkan di bawah skenario terburuk mereka sendiri.</p>
+  <p class="pl">Korekta z lat 2021-2022 była nieco szybsza, ale wzorzec się utrzymał. Bitcoin osiągnął historyczny szczyt 69 044 dolarów 10 listopada 2021 roku, a następnie spadł do około 15 479 dolarów do 21 listopada 2022 roku — spadek o 78%, trwający około 376 dni od góry do dołu. Nowy historyczny szczyt ustanowił dopiero w marcu 2024 roku: około 470 dni licząc samo od dna, i mniej więcej dwa lata i cztery miesiące licząc od szczytu. Owszem, to krócej niż w 2018 roku — ale nawet ten "krótszy" okres znacznie przekroczył pełny rok. Prognozy krążące w mediach społecznościowych i społecznościach w trakcie korekty — "odbije się za miesiąc lub dwa", "dno zobaczymy w tym miesiącu" — okazały się błędne wobec tego punktu odniesienia dokładnie w taki sam strukturalny sposób, w jaki studenci Buehlera nie doszacowali nawet własnego najgorszego przypadku.</p>
+  <p class="it">La correzione del 2021-2022 è stata un po' più rapida, ma lo schema si è mantenuto. Bitcoin ha raggiunto un massimo storico di 69.044 dollari il 10 novembre 2021, per poi scendere a circa 15.479 dollari entro il 21 novembre 2022 — un calo del 78%, impiegando circa 376 giorni dal massimo al minimo. Non ha stabilito un nuovo massimo storico fino a marzo 2024: circa 470 giorni solo dal minimo, e circa due anni e quattro mesi misurati dal picco. Sì, è più breve rispetto al 2018 — ma anche quel periodo "più breve" ha ampiamente superato un anno intero. Le previsioni circolate sui social media e nelle community durante la correzione — "rimbalza in uno o due mesi", "tocchiamo il fondo questo mese" — si sono rivelate sbagliate rispetto a quel riferimento esattamente nello stesso modo strutturale in cui gli studenti di Buehler sono rimasti sotto persino il proprio scenario peggiore.</p>
+  <p class="ru">Коррекция 2021-2022 годов была немного быстрее, но закономерность сохранилась. Биткоин достиг исторического максимума в $69 044 10 ноября 2021 года, затем упал примерно до $15 479 к 21 ноября 2022 года — снижение на 78%, занявшее около 376 дней от вершины до дна. Новый исторический максимум был установлен только в марте 2024 года: около 470 дней только от дна, и примерно два года и четыре месяца считая от пика. Да, это короче, чем в 2018 году — но даже этот «более короткий» период значительно превысил целый год. Прогнозы, циркулировавшие в соцсетях и сообществах в разгар коррекции — «отскочит через месяц-два», «дно увидим в этом месяце» — оказались ошибочными относительно этого ориентира точно так же структурно, как студенты Бюлера недооценили даже собственный худший сценарий.</p>
+  <p class="zh">2021至2022年的回調速度稍快一些,但模式依舊。比特幣於2021年11月10日創下69,044美元的歷史新高,隨後在2022年11月21日跌至約15,479美元 — 下跌78%,從頂部到底部歷時約376天。直到2024年3月才創下新高:僅從底部算起約470天,若從高點算起則約兩年四個月。沒錯,這比2018年短 — 但即使是這個「較短」的區間,也遠遠超過整整一年。回調期間在社群媒體和社群裡流傳的預測 — 「一兩個月內就會反彈」、「這個月就會觸底」 — 相對於這個基準線,錯得和布勒實驗中學生們連自己設想的最壞情況都低估的結構,一模一樣。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -740,6 +965,186 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Koreksi bitcoin: durasi sebenarnya selalu melebihi satu tahun</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Siklus 2018 &amp; 2022 yang terukur · termasuk pemulihan, 1 hingga 3 tahun</text>
+    <g font-family="sans-serif">
+      <line x1="170" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="170" y="352" fill="#71717a" font-size="13" text-anchor="middle">0h</text>
+      <text x="290" y="352" fill="#71717a" font-size="13" text-anchor="middle">200h</text>
+      <text x="410" y="352" fill="#71717a" font-size="13" text-anchor="middle">400h</text>
+      <text x="530" y="352" fill="#71717a" font-size="13" text-anchor="middle">600h</text>
+      <text x="650" y="352" fill="#71717a" font-size="13" text-anchor="middle">800h</text>
+
+      <text x="160" y="105" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="118" fill="#a1a1aa" font-size="13" text-anchor="end">puncak→dasar</text>
+      <rect x="170" y="85" width="334" height="32" fill="#38bdf8"/>
+      <text x="514" y="106" fill="#fafafa" font-size="14" font-weight="700">556h</text>
+
+      <text x="160" y="165" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="178" fill="#a1a1aa" font-size="13" text-anchor="end">dasar→ATH baru</text>
+      <rect x="170" y="145" width="438" height="32" fill="#fbbf24"/>
+      <text x="618" y="166" fill="#fafafa" font-size="14" font-weight="700">730h</text>
+
+      <text x="160" y="225" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="238" fill="#a1a1aa" font-size="13" text-anchor="end">puncak→dasar</text>
+      <rect x="170" y="205" width="226" height="32" fill="#38bdf8"/>
+      <text x="406" y="226" fill="#fafafa" font-size="14" font-weight="700">376h</text>
+
+      <text x="160" y="285" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="298" fill="#a1a1aa" font-size="13" text-anchor="end">dasar→ATH baru</text>
+      <rect x="170" y="265" width="282" height="32" fill="#fbbf24"/>
+      <text x="462" y="286" fill="#fafafa" font-size="14" font-weight="700">470h</text>
+
+      <text x="650" y="380" fill="#71717a" font-size="13" text-anchor="end">Klaim "bulan ini kita akan menyentuh dasar" selalu jauh di bawah patokan ini</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Korekty bitcoina: rzeczywisty czas trwania zawsze przekraczał rok</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Zmierzone cykle 2018 i 2022 · łącznie z odbiciem, od 1 do 3 lat</text>
+    <g font-family="sans-serif">
+      <line x1="170" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="170" y="352" fill="#71717a" font-size="13" text-anchor="middle">0d</text>
+      <text x="290" y="352" fill="#71717a" font-size="13" text-anchor="middle">200d</text>
+      <text x="410" y="352" fill="#71717a" font-size="13" text-anchor="middle">400d</text>
+      <text x="530" y="352" fill="#71717a" font-size="13" text-anchor="middle">600d</text>
+      <text x="650" y="352" fill="#71717a" font-size="13" text-anchor="middle">800d</text>
+
+      <text x="160" y="105" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="118" fill="#a1a1aa" font-size="13" text-anchor="end">szczyt→dno</text>
+      <rect x="170" y="85" width="334" height="32" fill="#38bdf8"/>
+      <text x="514" y="106" fill="#fafafa" font-size="14" font-weight="700">556d</text>
+
+      <text x="160" y="165" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="178" fill="#a1a1aa" font-size="13" text-anchor="end">dno→nowy ATH</text>
+      <rect x="170" y="145" width="438" height="32" fill="#fbbf24"/>
+      <text x="618" y="166" fill="#fafafa" font-size="14" font-weight="700">730d</text>
+
+      <text x="160" y="225" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="238" fill="#a1a1aa" font-size="13" text-anchor="end">szczyt→dno</text>
+      <rect x="170" y="205" width="226" height="32" fill="#38bdf8"/>
+      <text x="406" y="226" fill="#fafafa" font-size="14" font-weight="700">376d</text>
+
+      <text x="160" y="285" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="298" fill="#a1a1aa" font-size="13" text-anchor="end">dno→nowy ATH</text>
+      <rect x="170" y="265" width="282" height="32" fill="#fbbf24"/>
+      <text x="462" y="286" fill="#fafafa" font-size="14" font-weight="700">470d</text>
+
+      <text x="650" y="380" fill="#71717a" font-size="13" text-anchor="end">Prognozy "dno zobaczymy w tym miesiącu" zawsze nie doszacowywały tego punktu odniesienia</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Correzioni di bitcoin: la durata reale ha sempre superato un anno</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Cicli misurati 2018 e 2022 · recupero incluso, da 1 a 3 anni</text>
+    <g font-family="sans-serif">
+      <line x1="170" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="170" y="352" fill="#71717a" font-size="13" text-anchor="middle">0g</text>
+      <text x="290" y="352" fill="#71717a" font-size="13" text-anchor="middle">200g</text>
+      <text x="410" y="352" fill="#71717a" font-size="13" text-anchor="middle">400g</text>
+      <text x="530" y="352" fill="#71717a" font-size="13" text-anchor="middle">600g</text>
+      <text x="650" y="352" fill="#71717a" font-size="13" text-anchor="middle">800g</text>
+
+      <text x="160" y="105" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="118" fill="#a1a1aa" font-size="13" text-anchor="end">picco→fondo</text>
+      <rect x="170" y="85" width="334" height="32" fill="#38bdf8"/>
+      <text x="514" y="106" fill="#fafafa" font-size="14" font-weight="700">556g</text>
+
+      <text x="160" y="165" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="178" fill="#a1a1aa" font-size="13" text-anchor="end">fondo→nuovo massimo</text>
+      <rect x="170" y="145" width="438" height="32" fill="#fbbf24"/>
+      <text x="618" y="166" fill="#fafafa" font-size="14" font-weight="700">730g</text>
+
+      <text x="160" y="225" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="238" fill="#a1a1aa" font-size="13" text-anchor="end">picco→fondo</text>
+      <rect x="170" y="205" width="226" height="32" fill="#38bdf8"/>
+      <text x="406" y="226" fill="#fafafa" font-size="14" font-weight="700">376g</text>
+
+      <text x="160" y="285" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="298" fill="#a1a1aa" font-size="13" text-anchor="end">fondo→nuovo massimo</text>
+      <rect x="170" y="265" width="282" height="32" fill="#fbbf24"/>
+      <text x="462" y="286" fill="#fafafa" font-size="14" font-weight="700">470g</text>
+
+      <text x="650" y="380" fill="#71717a" font-size="13" text-anchor="end">Le previsioni "tocchiamo il fondo questo mese" sono sempre rimaste sotto questo riferimento</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Коррекции биткоина: реальная продолжительность всегда превышала год</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Измеренные циклы 2018 и 2022 годов · включая восстановление, от 1 до 3 лет</text>
+    <g font-family="sans-serif">
+      <line x1="170" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="170" y="352" fill="#71717a" font-size="13" text-anchor="middle">0д</text>
+      <text x="290" y="352" fill="#71717a" font-size="13" text-anchor="middle">200д</text>
+      <text x="410" y="352" fill="#71717a" font-size="13" text-anchor="middle">400д</text>
+      <text x="530" y="352" fill="#71717a" font-size="13" text-anchor="middle">600д</text>
+      <text x="650" y="352" fill="#71717a" font-size="13" text-anchor="middle">800д</text>
+
+      <text x="160" y="105" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="118" fill="#a1a1aa" font-size="13" text-anchor="end">пик→дно</text>
+      <rect x="170" y="85" width="334" height="32" fill="#38bdf8"/>
+      <text x="514" y="106" fill="#fafafa" font-size="14" font-weight="700">556д</text>
+
+      <text x="160" y="165" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="178" fill="#a1a1aa" font-size="13" text-anchor="end">дно→новый максимум</text>
+      <rect x="170" y="145" width="438" height="32" fill="#fbbf24"/>
+      <text x="618" y="166" fill="#fafafa" font-size="14" font-weight="700">730д</text>
+
+      <text x="160" y="225" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="238" fill="#a1a1aa" font-size="13" text-anchor="end">пик→дно</text>
+      <rect x="170" y="205" width="226" height="32" fill="#38bdf8"/>
+      <text x="406" y="226" fill="#fafafa" font-size="14" font-weight="700">376д</text>
+
+      <text x="160" y="285" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="298" fill="#a1a1aa" font-size="13" text-anchor="end">дно→новый максимум</text>
+      <rect x="170" y="265" width="282" height="32" fill="#fbbf24"/>
+      <text x="462" y="286" fill="#fafafa" font-size="14" font-weight="700">470д</text>
+
+      <text x="650" y="380" fill="#71717a" font-size="13" text-anchor="end">Прогнозы «дно увидим в этом месяце» каждый раз занижали этот ориентир</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">比特幣回調:實際持續時間每次都超過一年</text>
+    <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">2018年與2022年週期實測數據 · 含復甦期,為期1到3年</text>
+    <g font-family="sans-serif">
+      <line x1="170" y1="330" x2="650" y2="330" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+      <text x="170" y="352" fill="#71717a" font-size="13" text-anchor="middle">0日</text>
+      <text x="290" y="352" fill="#71717a" font-size="13" text-anchor="middle">200日</text>
+      <text x="410" y="352" fill="#71717a" font-size="13" text-anchor="middle">400日</text>
+      <text x="530" y="352" fill="#71717a" font-size="13" text-anchor="middle">600日</text>
+      <text x="650" y="352" fill="#71717a" font-size="13" text-anchor="middle">800日</text>
+
+      <text x="160" y="105" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="118" fill="#a1a1aa" font-size="13" text-anchor="end">高點→低點</text>
+      <rect x="170" y="85" width="334" height="32" fill="#38bdf8"/>
+      <text x="514" y="106" fill="#fafafa" font-size="14" font-weight="700">556日</text>
+
+      <text x="160" y="165" fill="#a1a1aa" font-size="13" text-anchor="end">2018</text>
+      <text x="160" y="178" fill="#a1a1aa" font-size="13" text-anchor="end">低點→新高</text>
+      <rect x="170" y="145" width="438" height="32" fill="#fbbf24"/>
+      <text x="618" y="166" fill="#fafafa" font-size="14" font-weight="700">730日</text>
+
+      <text x="160" y="225" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="238" fill="#a1a1aa" font-size="13" text-anchor="end">高點→低點</text>
+      <rect x="170" y="205" width="226" height="32" fill="#38bdf8"/>
+      <text x="406" y="226" fill="#fafafa" font-size="14" font-weight="700">376日</text>
+
+      <text x="160" y="285" fill="#a1a1aa" font-size="13" text-anchor="end">2022</text>
+      <text x="160" y="298" fill="#a1a1aa" font-size="13" text-anchor="end">低點→新高</text>
+      <rect x="170" y="265" width="282" height="32" fill="#fbbf24"/>
+      <text x="462" y="286" fill="#fafafa" font-size="14" font-weight="700">470日</text>
+
+      <text x="650" y="380" fill="#71717a" font-size="13" text-anchor="end">「這個月就會觸底」的說法每次都低估了這個基準</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">이번엔 다를 수도 있다 — 그런데 그게 핵심이 아니다</h2>
   <h2 class="en">This time might be different — but that's not the point</h2>
@@ -750,6 +1155,11 @@
   <h2 class="pt">Desta Vez Pode Ser Diferente — Mas Não É Esse o Ponto</h2>
   <h2 class="tr">Bu Sefer Farklı Olabilir — Ama Asıl Mesele Bu Değil</h2>
   <h2 class="vi">Lần Này Có Thể Khác — Nhưng Đó Không Phải Vấn Đề Cốt Lõi</h2>
+  <h2 class="id">Kali Ini Mungkin Berbeda — Tapi Itu Bukan Intinya</h2>
+  <h2 class="pl">Tym Razem Może Być Inaczej — Ale Nie o To Chodzi</h2>
+  <h2 class="it">Questa Volta Potrebbe Essere Diverso — Ma Non È Questo il Punto</h2>
+  <h2 class="ru">На Этот Раз Может Быть Иначе — Но не в Этом Суть</h2>
+  <h2 class="zh">這次也許真的不一樣 — 但那不是重點</h2>
 
   <p class="ko">카너먼 자신이 계획 오류에 제시한 처방은 "외부 관점(outside view)"이다. 자신의 특수한 사정에서 출발하는 대신, 비슷한 과거 사례들의 기준 기간부터 먼저 놓고, 그다음에야 이번 사례가 그 기준과 얼마나 다른지를 조심스럽게 조정하라는 것이다. 문제는 이 처방을 알아도 잘 지켜지지 않는다는 점이다 — 카너먼의 커리큘럼 위원회가 시모어 폭스에게서 7~10년이라는 기준을 직접 듣고도 여전히 2년을 고집했던 것처럼, 조정에서 "이번엔 몇 주"라고 되뇌는 순간에도 기준선(556일, 376일)은 이미 알려져 있는 경우가 많다. <a href="/blog/base-rate-neglect-bitcoin-forecasts">기준율을 무시하는 예측이 왜 위험한지</a>를 다룬 글에서 짚었듯, 문제는 정보의 부재가 아니라 그 정보를 자신에게 적용하지 못하는 데 있다.</p>
   <p class="en">Kahneman's own prescribed fix for the planning fallacy is the "outside view." Instead of starting from your own particular circumstances, start with the baseline duration from comparable past cases, and only then carefully adjust for how this case differs from that baseline. The problem is that knowing this prescription doesn't mean it gets followed — just as Kahneman's own curriculum committee heard the 7-to-10-year baseline directly from Seymour Fox and still clung to two years, the baseline (556 days, 376 days) is often already known at the exact moment someone is repeating "this time it's just a few weeks" during a correction. As <a href="/en/blog/base-rate-neglect-bitcoin-forecasts">the piece on why ignoring base rates is dangerous</a> points out, the problem isn't a lack of information — it's failing to apply that information to yourself.</p>
@@ -760,6 +1170,11 @@
   <p class="pt">A solução que o próprio Kahneman propôs para a falácia do planejamento é a "visão externa". Em vez de partir das próprias circunstâncias particulares, deve-se começar com a duração de referência de casos passados comparáveis, e só então ajustar cuidadosamente conforme o quanto este caso difere dessa referência. O problema é que conhecer essa prescrição não garante segui-la — assim como o próprio comitê curricular de Kahneman ouviu de Seymour Fox a referência de 7 a 10 anos e mesmo assim se apegou a dois, a linha de base (556 dias, 376 dias) muitas vezes já é conhecida bem no momento em que alguém repete "desta vez são só algumas semanas" durante uma correção. Como aponta <a href="/pt/blog/base-rate-neglect-bitcoin-forecasts">o artigo sobre por que ignorar taxas base é perigoso</a>, o problema não é a falta de informação — é não conseguir aplicar essa informação a si mesmo.</p>
   <p class="tr">Kahneman'ın planlama yanılgısı için önerdiği çözüm "dış görüş"tür. Kendi özel koşullarınızdan başlamak yerine, önce benzer geçmiş vakaların taban süresini koymalı, ancak sonra bu vakanın o tabandan ne kadar farklı olduğuna dikkatle ayarlama yapmalısınız. Sorun şu ki bu reçeteyi bilmek, izlenmesini garanti etmiyor — tıpkı Kahneman'ın kendi müfredat komitesinin Seymour Fox'tan 7-10 yıllık tabanı doğrudan duyup yine de iki yılda ısrar etmesi gibi, taban çizgisi (556 gün, 376 gün) genellikle biri düzeltme sırasında "bu sefer sadece birkaç hafta" diye tekrarladığı tam o anda zaten bilinir durumdadır. <a href="/tr/blog/base-rate-neglect-bitcoin-forecasts">Taban oranları görmezden gelmenin neden tehlikeli olduğunu ele alan yazının</a> belirttiği gibi, sorun bilgi eksikliği değil — o bilgiyi kendine uygulayamamaktır.</p>
   <p class="vi">Giải pháp mà chính Kahneman đề xuất cho ngụy biện lập kế hoạch là "góc nhìn bên ngoài". Thay vì bắt đầu từ hoàn cảnh riêng của mình, hãy bắt đầu với thời lượng cơ sở của các trường hợp tương tự trong quá khứ, và chỉ sau đó mới thận trọng điều chỉnh theo mức độ khác biệt của trường hợp này so với mốc đó. Vấn đề là biết được lời khuyên này không có nghĩa là sẽ tuân theo — giống như chính ủy ban chương trình học của Kahneman đã trực tiếp nghe mốc 7 đến 10 năm từ Seymour Fox mà vẫn khăng khăng với hai năm, mốc chuẩn (556 ngày, 376 ngày) thường đã được biết đến ngay tại thời điểm ai đó lặp lại "lần này chỉ vài tuần thôi" trong một đợt điều chỉnh. Như bài viết về <a href="/vi/blog/base-rate-neglect-bitcoin-forecasts">vì sao phớt lờ tỷ lệ cơ sở lại nguy hiểm</a> đã chỉ ra, vấn đề không phải là thiếu thông tin — mà là không áp dụng được thông tin đó cho chính mình.</p>
+  <p class="id">Solusi yang diresepkan Kahneman sendiri untuk kekeliruan perencanaan adalah "pandangan dari luar (outside view)." Alih-alih memulai dari keadaan khusus diri sendiri, mulailah dari durasi acuan berdasarkan kasus-kasus serupa di masa lalu, dan baru setelah itu sesuaikan dengan hati-hati seberapa berbeda kasus ini dari acuan tersebut. Masalahnya, mengetahui resep ini tidak berarti resep itu diikuti — sama seperti komite kurikulum milik Kahneman sendiri yang mendengar langsung acuan 7 hingga 10 tahun dari Seymour Fox namun tetap bersikeras pada dua tahun, acuan (556 hari, 376 hari) sering kali sudah diketahui persis pada saat seseorang mengulangi "kali ini cuma beberapa minggu" selama koreksi berlangsung. Seperti yang ditunjukkan oleh <a href="/id/blog/base-rate-neglect-bitcoin-forecasts">tulisan tentang mengapa mengabaikan tingkat dasar itu berbahaya</a>, masalahnya bukan kurangnya informasi — melainkan gagal menerapkan informasi itu pada diri sendiri.</p>
+  <p class="pl">Rozwiązanie zaproponowane przez samego Kahnemana na błąd planowania to "perspektywa zewnętrzna" (outside view). Zamiast zaczynać od własnych szczególnych okoliczności, należy zacząć od bazowego czasu trwania podobnych przypadków z przeszłości, a dopiero potem ostrożnie skorygować, czym ten przypadek różni się od tego punktu odniesienia. Problem polega na tym, że znajomość tej recepty nie oznacza jej stosowania — podobnie jak komisja programowa samego Kahnemana usłyszała bezpośrednio od Seymoura Foxa punkt odniesienia 7-10 lat, a mimo to upierała się przy dwóch latach, punkt odniesienia (556 dni, 376 dni) jest często już znany dokładnie w momencie, gdy ktoś powtarza "tym razem to tylko kilka tygodni" podczas korekty. Jak wskazuje <a href="/pl/blog/base-rate-neglect-bitcoin-forecasts">tekst o tym, dlaczego ignorowanie wskaźników bazowych jest niebezpieczne</a>, problemem nie jest brak informacji — lecz niezastosowanie tej informacji do samego siebie.</p>
+  <p class="it">La soluzione prescritta dallo stesso Kahneman per l'errore di pianificazione è la "visione esterna" (outside view). Invece di partire dalle proprie circostanze particolari, si parte dalla durata di riferimento di casi passati comparabili, e solo dopo si aggiusta con attenzione in base a come questo caso differisce da quel riferimento. Il problema è che conoscere questa prescrizione non significa seguirla — proprio come il comitato del curriculum dello stesso Kahneman sentì direttamente da Seymour Fox il riferimento di 7-10 anni e si aggrappò comunque a due anni, il riferimento (556 giorni, 376 giorni) è spesso già noto proprio nel momento in cui qualcuno ripete "questa volta sono solo poche settimane" durante una correzione. Come sottolinea <a href="/it/blog/base-rate-neglect-bitcoin-forecasts">l'articolo sul perché ignorare i tassi di base è pericoloso</a>, il problema non è la mancanza di informazioni — è non riuscire ad applicare quell'informazione a se stessi.</p>
+  <p class="ru">Собственное предписанное Канеманом решение проблемы ошибки планирования — это «взгляд со стороны» (outside view). Вместо того чтобы отталкиваться от своих особых обстоятельств, нужно начинать с базовой продолжительности сопоставимых прошлых случаев и лишь затем осторожно корректировать, чем именно этот случай отличается от этого ориентира. Проблема в том, что знание этого рецепта не означает, что ему следуют — точно так же, как собственный учебный комитет Канемана услышал напрямую от Сеймура Фокса ориентир в 7-10 лет и всё равно держался за два года, ориентир (556 дней, 376 дней) часто уже известен в тот самый момент, когда кто-то повторяет «на этот раз это всего несколько недель» во время коррекции. Как отмечает <a href="/ru/blog/base-rate-neglect-bitcoin-forecasts">статья о том, почему игнорирование базовых показателей опасно</a>, проблема не в нехватке информации — а в неспособности применить эту информацию к себе.</p>
+  <p class="zh">卡尼曼本人為計畫謬誤開出的處方是「外部視角」(outside view)。與其從自己的特殊處境出發,不如先從類似過往案例的基準時長開始,然後才謹慎地調整這個案例與基準有何不同。問題在於,知道這個處方並不代表會遵循它 — 就像卡尼曼自己的課程委員會直接從西摩·福克斯口中聽到7到10年的基準,卻仍然堅持兩年一樣,基準線(556天、376天)往往在有人於回調期間反覆說「這次只要幾週」的那一刻,早已為人所知。正如<a href="/zh/blog/base-rate-neglect-bitcoin-forecasts">這篇談論忽視基準率為何危險的文章</a>所指出的,問題不在於缺乏資訊 — 而在於未能將這些資訊應用到自己身上。</p>
 
   <p class="ko">물론 "이번엔 다르다"는 말이 매번 틀리는 건 아니다. ETF 자금 유입처럼 실제로 사이클마다 구조가 달라지는 지점은 분명히 존재하며, <a href="/blog/this-time-is-different">그 문구가 왜 매번 반복되는지 다룬 글</a>이 짚었듯 그 차이를 무시하는 것도 똑같이 게으른 태도다. 하지만 계획 오류의 교훈은 그 차이를 부정하라는 게 아니라, 차이를 반영한 조정의 폭 자체가 구조적으로 과대평가된다는 데 있다. 실전에서 쓸 수 있는 원칙은 단순하다 — 레버리지 규모나 마진 버퍼, 보유 기간 계획을 세울 때 "이번엔 며칠"이라는 자신의 직감이 아니라 556일과 376일이라는 실측 기준선을 먼저 깔아두고, 그 위에 이번 사이클의 특수성을 보수적으로 얹는 것이다. 8년이 걸릴 프로젝트를 2년이라 믿었던 위원회처럼 되지 않는 유일한 방법은, 자신의 낙관을 증거로 삼지 않는 것뿐이다.</p>
   <p class="en">Of course, "this time is different" isn't always wrong. Structural shifts that genuinely change from cycle to cycle — ETF inflows, for instance — do exist, and as <a href="/en/blog/this-time-is-different">the piece on why that phrase recurs every cycle</a> points out, dismissing that difference outright is equally lazy. But the lesson of the planning fallacy isn't to deny the difference — it's that the size of the adjustment you make for that difference is itself structurally overestimated. The practical rule is simple: when sizing leverage, margin buffers, or a holding-period plan, start from the measured baselines — 556 days, 376 days — rather than your own gut sense of "just a few days this time," then layer this cycle's specifics on top conservatively. The only way not to end up like the committee that believed an eight-year project would take two is to stop treating your own optimism as evidence.</p>
@@ -770,6 +1185,11 @@
   <p class="pt">É claro que "desta vez é diferente" nem sempre está errado. Mudanças estruturais que realmente variam de ciclo para ciclo — os fluxos de ETFs, por exemplo — de fato existem, e como aponta <a href="/pt/blog/this-time-is-different">o artigo sobre por que essa frase se repete a cada ciclo</a>, descartar essa diferença de imediato é igualmente preguiçoso. Mas a lição da falácia do planejamento não é negar a diferença — é que o tamanho do ajuste feito por causa dessa diferença é, em si, estruturalmente superestimado. A regra prática é simples: ao dimensionar alavancagem, margens de segurança ou um plano de período de retenção, comece pelas linhas de base medidas — 556 dias, 376 dias — em vez da sua própria intuição de "desta vez são só alguns dias", e então acrescente com conservadorismo as particularidades deste ciclo por cima. A única forma de não acabar como o comitê que acreditou que um projeto de oito anos levaria dois é parar de tratar o próprio otimismo como evidência.</p>
   <p class="tr">Elbette "bu sefer farklı" her zaman yanlış değildir. ETF girişleri gibi döngüden döngüye gerçekten değişen yapısal farklar gerçekten var olur, ve <a href="/tr/blog/this-time-is-different">bu ifadenin her döngüde neden tekrarlandığını ele alan yazının</a> belirttiği gibi, o farkı toptan reddetmek de aynı derecede tembelliktir. Ama planlama yanılgısının dersi farkı inkâr etmek değildir — o fark için yapılan ayarlamanın büyüklüğünün kendisinin yapısal olarak abartılmasıdır. Pratik kural basittir: kaldıraç büyüklüğü, marj tamponu veya elde tutma süresi planı yaparken, "bu sefer sadece birkaç gün" içgüdünüz yerine ölçülen taban çizgilerinden — 556 gün, 376 gün — başlayın, ardından bu döngüye özgü farkları temkinli biçimde üzerine ekleyin. Sekiz yıl sürecek bir projenin iki yıl süreceğine inanan komite gibi olmamanın tek yolu, kendi iyimserliğinizi kanıt olarak kullanmayı bırakmaktır.</p>
   <p class="vi">Tất nhiên, câu "lần này khác" không phải lúc nào cũng sai. Những thay đổi cấu trúc thực sự khác nhau giữa các chu kỳ — chẳng hạn như dòng vốn ETF — thực sự tồn tại, và như bài viết về <a href="/vi/blog/this-time-is-different">vì sao cụm từ đó lặp lại ở mỗi chu kỳ</a> đã chỉ ra, việc gạt bỏ hoàn toàn sự khác biệt đó cũng lười biếng không kém. Nhưng bài học của ngụy biện lập kế hoạch không phải là phủ nhận sự khác biệt — mà là mức độ điều chỉnh mà người ta thực hiện cho sự khác biệt đó tự nó đã bị đánh giá quá cao về mặt cấu trúc. Nguyên tắc thực tế rất đơn giản: khi tính toán quy mô đòn bẩy, đệm ký quỹ, hay kế hoạch thời gian nắm giữ, hãy bắt đầu từ các mốc chuẩn đã đo được — 556 ngày, 376 ngày — thay vì trực giác của chính mình rằng "lần này chỉ vài ngày thôi", rồi mới thận trọng cộng thêm những đặc thù của chu kỳ này. Cách duy nhất để không kết thúc giống ủy ban từng tin rằng một dự án tám năm sẽ chỉ mất hai năm là ngừng coi sự lạc quan của chính mình như một bằng chứng.</p>
+  <p class="id">Tentu saja, "kali ini berbeda" tidak selalu salah. Pergeseran struktural yang benar-benar berubah dari siklus ke siklus — arus masuk ETF, misalnya — memang ada, dan seperti yang ditunjukkan oleh <a href="/id/blog/this-time-is-different">tulisan tentang mengapa frasa itu berulang setiap siklus</a>, mengabaikan perbedaan itu begitu saja sama malasnya. Namun pelajaran dari kekeliruan perencanaan bukanlah menyangkal perbedaan itu — melainkan bahwa besarnya penyesuaian yang dibuat untuk perbedaan itu sendiri secara struktural dilebih-lebihkan. Aturan praktisnya sederhana: saat menentukan ukuran leverage, buffer margin, atau rencana periode kepemilikan, mulailah dari acuan yang terukur — 556 hari, 376 hari — bukan dari perasaan naluriah Anda sendiri bahwa "kali ini cuma beberapa hari," lalu tambahkan kekhususan siklus ini di atasnya secara konservatif. Satu-satunya cara agar tidak berakhir seperti komite yang percaya proyek delapan tahun akan selesai dalam dua tahun adalah berhenti memperlakukan optimisme diri sendiri sebagai bukti.</p>
+  <p class="pl">Oczywiście "tym razem jest inaczej" nie zawsze jest błędne. Zmiany strukturalne, które faktycznie różnią się od cyklu do cyklu — na przykład napływy do ETF-ów — rzeczywiście istnieją, i jak wskazuje <a href="/pl/blog/this-time-is-different">tekst o tym, dlaczego to zdanie powraca w każdym cyklu</a>, całkowite odrzucenie tej różnicy jest równie leniwe. Ale lekcja płynąca z błędu planowania nie polega na zaprzeczaniu różnicy — polega na tym, że sam rozmiar korekty, którą wprowadzasz z powodu tej różnicy, jest strukturalnie przeszacowany. Praktyczna zasada jest prosta: przy ustalaniu wielkości dźwigni, buforów depozytowych czy planu okresu utrzymywania pozycji, zacznij od zmierzonych punktów odniesienia — 556 dni, 376 dni — zamiast od własnego przeczucia, że "tym razem to tylko kilka dni", a następnie ostrożnie nałóż na to specyfikę tego cyklu. Jedynym sposobem, by nie skończyć jak komisja, która wierzyła, że ośmioletni projekt zajmie dwa lata, jest przestać traktować własny optymizm jako dowód.</p>
+  <p class="it">Naturalmente, "questa volta è diverso" non è sempre sbagliato. Esistono davvero cambiamenti strutturali che variano genuinamente da un ciclo all'altro — gli afflussi degli ETF, ad esempio — e come sottolinea <a href="/it/blog/this-time-is-different">l'articolo sul perché quella frase ricorre a ogni ciclo</a>, respingere del tutto quella differenza è altrettanto pigro. Ma la lezione dell'errore di pianificazione non è negare la differenza — è che l'entità dell'aggiustamento fatto per quella differenza è essa stessa strutturalmente sovrastimata. La regola pratica è semplice: quando si dimensiona la leva, i margini di sicurezza o un piano di periodo di detenzione, si parte dai riferimenti misurati — 556 giorni, 376 giorni — invece della propria sensazione istintiva che "questa volta sono solo pochi giorni", per poi aggiungere con prudenza le specificità di questo ciclo. L'unico modo per non finire come il comitato che credeva che un progetto di otto anni ne avrebbe richiesti due è smettere di trattare il proprio ottimismo come prova.</p>
+  <p class="ru">Разумеется, «на этот раз всё иначе» не всегда ошибочно. Структурные сдвиги, которые действительно меняются от цикла к циклу — например, приток средств в ETF, — действительно существуют, и, как отмечает <a href="/ru/blog/this-time-is-different">статья о том, почему эта фраза повторяется в каждом цикле</a>, полностью отмахиваться от этого различия так же лениво. Но урок ошибки планирования не в том, чтобы отрицать это различие — а в том, что сам размер корректировки, которую вы делаете на это различие, структурно завышен. Практическое правило простое: при определении размера плеча, маржинальных буферов или плана срока удержания начинайте с измеренных ориентиров — 556 дней, 376 дней — а не с собственного внутреннего ощущения «на этот раз всего несколько дней», а затем консервативно накладывайте сверху специфику этого цикла. Единственный способ не оказаться в положении комитета, который верил, что восьмилетний проект займёт два года, — перестать считать собственный оптимизм доказательством.</p>
+  <p class="zh">當然,「這次不一樣」並非總是錯的。確實存在每個週期都真正改變的結構性轉變 — 例如ETF資金流入 — 而正如<a href="/zh/blog/this-time-is-different">這篇談論那句話為何在每個週期一再出現的文章</a>所指出的,一概否定這種差異同樣是偷懶。但計畫謬誤的教訓並不是要否認這種差異 — 而是你為這種差異所做的調整幅度本身,在結構上被高估了。實務上的原則很簡單:在設定槓桿規模、保證金緩衝或持倉週期計畫時,應該從實測的基準線出發 — 556天、376天 — 而不是自己「這次只要幾天」的直覺,然後再保守地加上這個週期的特殊性。唯一不會落得像那個委員會一樣、相信八年的專案只要兩年就能完成的辦法,就是停止把自己的樂觀當作證據。</p>
 
   <p class="ko">시모어 폭스는 위원회에 정답을 알려줬다. 위원회는 그 답을 듣고도 자신의 프로젝트만은 다를 거라고 믿었다. 다음 조정장에서 "이번엔 금방 끝난다"고 되뇌는 순간, 스스로에게 물어야 할 질문은 하나다 — 나는 지금 폭스의 답을 듣고 있는가, 아니면 무시하고 있는가.</p>
   <p class="en">Seymour Fox gave the committee the right answer. Having heard it, the committee still believed their own project would be the exception. The next time you catch yourself repeating "this one ends soon" mid-correction, there's only one question worth asking — are you listening to Fox's answer right now, or ignoring it?</p>
@@ -780,6 +1200,11 @@
   <p class="pt">Seymour Fox deu ao comitê a resposta certa. Ao ouvi-la, o comitê ainda assim acreditou que seu próprio projeto seria a exceção. Da próxima vez que você se pegar repetindo "essa termina logo" no meio de uma correção, só vale a pena fazer uma pergunta — você está ouvindo a resposta de Fox agora, ou a está ignorando?</p>
   <p class="tr">Seymour Fox komiteye doğru cevabı verdi. Komite bunu duyduktan sonra bile kendi projelerinin istisna olacağına inandı. Bir dahaki sefere bir düzeltmenin ortasında "bu sefer çabuk biter" derken kendinizi yakaladığınızda, sormaya değer tek bir soru var — şu anda Fox'un cevabını mı dinliyorsunuz, yoksa onu görmezden mi geliyorsunuz?</p>
   <p class="vi">Seymour Fox đã đưa ra câu trả lời đúng cho ủy ban. Nghe xong, ủy ban vẫn tin rằng dự án của chính họ sẽ là ngoại lệ. Lần tới khi bạn bắt gặp mình đang lặp lại "lần này sẽ sớm kết thúc" giữa một đợt điều chỉnh, chỉ có một câu hỏi đáng để tự hỏi — bạn đang lắng nghe câu trả lời của Fox ngay lúc này, hay đang phớt lờ nó?</p>
+  <p class="id">Seymour Fox memberi komite jawaban yang benar. Setelah mendengarnya, komite tetap percaya bahwa proyek mereka sendiri akan menjadi pengecualian. Lain kali Anda menangkap diri sendiri mengulangi "yang ini akan segera berakhir" di tengah koreksi, hanya ada satu pertanyaan yang layak diajukan — apakah Anda sedang mendengarkan jawaban Fox saat ini, atau mengabaikannya?</p>
+  <p class="pl">Seymour Fox dał komisji właściwą odpowiedź. Usłyszawszy ją, komisja nadal wierzyła, że ich własny projekt będzie wyjątkiem. Następnym razem, gdy przyłapiesz się na powtarzaniu "ta korekta zaraz się skończy" w jej trakcie, warto zadać sobie tylko jedno pytanie — czy właśnie teraz słuchasz odpowiedzi Foxa, czy ją ignorujesz?</p>
+  <p class="it">Seymour Fox diede al comitato la risposta giusta. Dopo averla sentita, il comitato credette comunque che il proprio progetto sarebbe stata l'eccezione. La prossima volta che ti sorprenderai a ripetere "questa finisce presto" nel mezzo di una correzione, c'è solo una domanda che vale la pena porsi — stai ascoltando la risposta di Fox proprio ora, o la stai ignorando?</p>
+  <p class="ru">Сеймур Фокс дал комиссии правильный ответ. Услышав его, комиссия всё равно поверила, что именно их проект станет исключением. В следующий раз, когда вы поймаете себя на повторении «эта скоро закончится» посреди коррекции, стоит задать только один вопрос — слушаете ли вы сейчас ответ Фокса или игнорируете его?</p>
+  <p class="zh">西摩·福克斯給了委員會正確的答案。聽到答案後,委員會仍然相信自己的專案會是例外。下次當你發現自己在回調中反覆說「這次很快就會結束」時,只有一個問題值得問自己 — 你此刻是在聽福克斯的答案,還是在無視它?</p>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (커리큘럼 위원회 일화); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. 비트코인 가격·날짜는 공개 거래소 데이터를 근거로 한 근사치이며, 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (curriculum committee anecdote); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Bitcoin prices and dates are approximate figures based on public exchange data. This is not investment advice.</p>
@@ -790,6 +1215,11 @@
   <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (anedota do comitê curricular); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Os preços e datas do Bitcoin são valores aproximados baseados em dados públicos de exchanges. Isto não é aconselhamento de investimento.</p>
   <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (müfredat komitesi anekdotu); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Bitcoin fiyatları ve tarihleri, halka açık borsa verilerine dayalı yaklaşık değerlerdir. Bu, yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (giai thoại về ủy ban chương trình học); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Giá và ngày tháng của Bitcoin là số liệu gần đúng dựa trên dữ liệu công khai của các sàn giao dịch. Đây không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:.85rem;color:#71717a">Sumber: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (anekdot komite kurikulum); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Harga dan tanggal bitcoin adalah angka perkiraan berdasarkan data bursa publik. Ini bukan nasihat investasi.</p>
+  <p class="pl" style="font-size:.85rem;color:#71717a">Źródła: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (anegdota komisji programowej); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Ceny i daty bitcoina są wartościami przybliżonymi na podstawie publicznych danych giełdowych. To nie jest porada inwestycyjna.</p>
+  <p class="it" style="font-size:.85rem;color:#71717a">Fonti: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (aneddoto del comitato del curriculum); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. I prezzi e le date di bitcoin sono valori approssimativi basati su dati pubblici degli exchange. Questo non è un consiglio di investimento.</p>
+  <p class="ru" style="font-size:.85rem;color:#71717a">Источники: Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979; Kahneman, Thinking, Fast and Slow, 2011 (история учебного комитета); Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994; Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003. Цены и даты биткоина являются приблизительными значениями на основе публичных данных бирж. Это не является инвестиционным советом.</p>
+  <p class="zh" style="font-size:.85rem;color:#71717a">資料來源:Kahneman &amp; Tversky, "Intuitive Prediction: Biases and Corrective Procedures," TIMS Studies in Management Science 12, 1979;Kahneman, Thinking, Fast and Slow, 2011(課程委員會軼事);Buehler, Griffin &amp; Ross, "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times," Journal of Personality and Social Psychology 67(3), 1994;Flyvbjerg, "How Common and How Large Are Cost Overruns in Transport Infrastructure Projects?," Transport Reviews 23(1), 2003。比特幣的價格與日期為根據公開交易所資料估算的近似值。本文並非投資建議。</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
 
