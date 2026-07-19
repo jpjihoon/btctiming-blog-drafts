@@ -68,6 +68,11 @@
   "desc_pt": "Um artigo de 2016 no Journal of Finance de McLean e Pontiff mostrou que o retorno excedente de 97 preditores de ações validados academicamente caiu em média 58% após a publicação. O modelo stock-to-flow do Bitcoin e sua média móvel de 200 semanas seguiram exatamente o mesmo caminho — quanto mais famoso um indicador se torna, mais provável é que ele se derrote sozinho.",
   "desc_tr": "McLean ve Pontiff'in 2016'da Journal of Finance'te yayımlanan makalesi, akademik olarak doğrulanmış 97 hisse senedi getiri tahmincisinin fazladan getirisinin yayımlandıktan sonra ortalama %58 düştüğünü gösterdi. Bitcoin'in stock-to-flow modeli ve 200 haftalık hareketli ortalaması tam olarak aynı yolu izledi — bir gösterge ne kadar ünlü olursa, kendini yenilgiye uğratma olasılığı o kadar artar.",
   "desc_vi": "Một bài báo năm 2016 trên Journal of Finance của McLean và Pontiff cho thấy lợi nhuận vượt trội của 97 yếu tố dự đoán cổ phiếu được kiểm chứng học thuật đã giảm trung bình 58% sau khi công bố. Mô hình stock-to-flow của Bitcoin và đường trung bình động 200 tuần của nó đã đi theo đúng con đường đó — chỉ báo càng nổi tiếng, khả năng nó tự đánh bại chính mình càng cao.",
+  "desc_id": "Studi McLean & Pontiff (2016) menemukan return berlebih 97 prediktor saham turun 58% usai publikasi. Model stock-to-flow Bitcoin mengikuti pola sama.",
+  "desc_pl": "Badanie McLeana i Pontiffa (2016) wykazało spadek zwrotów 97 predyktorów akcji o 58% po publikacji. Model stock-to-flow Bitcoina poszedł tą samą drogą.",
+  "desc_it": "McLean e Pontiff (2016) hanno rilevato un calo del 58% nei rendimenti di 97 predittori azionari dopo la pubblicazione. Bitcoin ha seguito lo stesso schema.",
+  "desc_ru": "Исследование Маклина и Понтиффа (2016) показало падение доходности 97 предикторов акций на 58% после публикации. Модель stock-to-flow повторила путь.",
+  "desc_zh": "麥克萊恩與龐蒂夫在2016年發表於《金融學期刊》的研究發現,97個經學術驗證的股票報酬預測指標,其超額報酬在發表後平均下降達58%之多。比特幣的存量流量比模型與200週移動均線,同樣走上了完全相同的道路——爆紅之後便迅速失去效力,毫無例外。",
   "read_ko": "11",
   "read_en": "11",
   "read_ja": "11",
@@ -76,5 +81,10 @@
   "read_fr": "11",
   "read_pt": "11",
   "read_tr": "11",
-  "read_vi": "11"
+  "read_vi": "11",
+  "read_id": "11",
+  "read_pl": "11",
+  "read_it": "11",
+  "read_ru": "11",
+  "read_zh": "11"
 }
