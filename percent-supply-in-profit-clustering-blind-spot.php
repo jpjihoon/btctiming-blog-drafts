@@ -516,6 +516,226 @@
 </svg>
 <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Minh họa khái niệm sử dụng các giá trị gần đúng đã làm tròn cho các đáy tháng 8/2015, tháng 12/2018, tháng 3/2020, tháng 11/2022 và đỉnh tháng 11/2021, dựa trên các biểu đồ công khai của Glassnode / LookIntoBitcoin. Số liệu hàng ngày thực tế có thể khác.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Persentase Suplai dalam Profit di Titik Ekstrem Siklus: Dasar, Puncak, dan Jebakan di Antaranya</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Persentase suplai yang beredar dalam posisi untung (%) · nilai perkiraan pada dasar/puncak utama · ilustrasi konseptual</text>
+  <rect x="90" y="88" width="560" height="98" fill="#fbbf24" opacity="0.10"/>
+  <text x="370" y="141" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">55-90%: Tanpa Sinyal Arah (Zona Whipsaw)</text>
+  <line x1="90" y1="88" x2="650" y2="88" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="186" x2="650" y2="186" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#71717a"/>
+  <line x1="90" y1="340" x2="650" y2="340" stroke="#71717a"/>
+  <text x="80" y="64" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">100%</text>
+  <text x="80" y="134" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">75%</text>
+  <text x="80" y="204" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">50%</text>
+  <text x="80" y="274" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">25%</text>
+  <text x="80" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+  <rect x="120" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="230" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="340" y="214" width="60" height="126" fill="#4ade80"/>
+  <rect x="450" y="65.6" width="60" height="274.4" fill="#f87171"/>
+  <rect x="560" y="208.4" width="60" height="131.6" fill="#4ade80"/>
+  <text x="150" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="260" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="370" y="206" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~45%</text>
+  <text x="480" y="58" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~98%</text>
+  <text x="590" y="200" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~47%</text>
+  <text x="150" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2015-08</text>
+  <text x="150" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dasar</text>
+  <text x="260" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2018-12</text>
+  <text x="260" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dasar</text>
+  <text x="370" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-03</text>
+  <text x="370" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dasar</text>
+  <text x="480" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2021-11</text>
+  <text x="480" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Puncak</text>
+  <text x="590" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022-11</text>
+  <text x="590" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dasar</text>
+  <rect x="90" y="394" width="12" height="12" fill="#4ade80"/>
+  <text x="108" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Dasar Ekstrem (Zona Andal)</text>
+  <rect x="280" y="394" width="12" height="12" fill="#fbbf24"/>
+  <text x="298" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Zona Whipsaw (55-90%)</text>
+  <rect x="480" y="394" width="12" height="12" fill="#f87171"/>
+  <text x="498" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Puncak Ekstrem (Zona Andal)</text>
+</svg>
+<p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustrasi konseptual menggunakan nilai perkiraan yang dibulatkan untuk dasar-dasar Agustus 2015, Desember 2018, Maret 2020, dan November 2022 serta puncak November 2021, berdasarkan grafik Glassnode / LookIntoBitcoin yang tersedia untuk umum. Angka harian aktual dapat berbeda.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Procent Podaży w Zysku w Skrajnościach Cyklu: Dołki, Szczyty i Pułapka Pomiędzy</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Udział podaży w obiegu w zysku (%) · przybliżone wartości przy głównych dołkach/szczytach · ilustracja koncepcyjna</text>
+  <rect x="90" y="88" width="560" height="98" fill="#fbbf24" opacity="0.10"/>
+  <text x="370" y="141" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">55-90%: Brak Sygnału Kierunkowego (Strefa Whipsaw)</text>
+  <line x1="90" y1="88" x2="650" y2="88" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="186" x2="650" y2="186" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#71717a"/>
+  <line x1="90" y1="340" x2="650" y2="340" stroke="#71717a"/>
+  <text x="80" y="64" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">100%</text>
+  <text x="80" y="134" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">75%</text>
+  <text x="80" y="204" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">50%</text>
+  <text x="80" y="274" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">25%</text>
+  <text x="80" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+  <rect x="120" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="230" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="340" y="214" width="60" height="126" fill="#4ade80"/>
+  <rect x="450" y="65.6" width="60" height="274.4" fill="#f87171"/>
+  <rect x="560" y="208.4" width="60" height="131.6" fill="#4ade80"/>
+  <text x="150" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="260" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="370" y="206" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~45%</text>
+  <text x="480" y="58" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~98%</text>
+  <text x="590" y="200" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~47%</text>
+  <text x="150" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2015-08</text>
+  <text x="150" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dołek</text>
+  <text x="260" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2018-12</text>
+  <text x="260" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dołek</text>
+  <text x="370" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-03</text>
+  <text x="370" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dołek</text>
+  <text x="480" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2021-11</text>
+  <text x="480" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Szczyt</text>
+  <text x="590" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022-11</text>
+  <text x="590" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Dołek</text>
+  <rect x="90" y="394" width="12" height="12" fill="#4ade80"/>
+  <text x="108" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Dołek Ekstremalny (Strefa Wiarygodna)</text>
+  <rect x="280" y="394" width="12" height="12" fill="#fbbf24"/>
+  <text x="298" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Strefa Whipsaw (55-90%)</text>
+  <rect x="480" y="394" width="12" height="12" fill="#f87171"/>
+  <text x="498" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Szczyt Ekstremalny (Strefa Wiarygodna)</text>
+</svg>
+<p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustracja koncepcyjna wykorzystująca zaokrąglone wartości przybliżone dla dołków z sierpnia 2015, grudnia 2018, marca 2020 i listopada 2022 oraz szczytu z listopada 2021, oparta na publicznie dostępnych wykresach Glassnode / LookIntoBitcoin. Rzeczywiste dane dzienne mogą się różnić.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Percentuale di Offerta in Profitto agli Estremi del Ciclo: Minimi, Massimi e la Trappola Intermedia</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Quota dell'offerta in circolazione in profitto (%) · valori approssimativi ai principali minimi/massimi · illustrazione concettuale</text>
+  <rect x="90" y="88" width="560" height="98" fill="#fbbf24" opacity="0.10"/>
+  <text x="370" y="141" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">55-90%: Nessun Segnale Direzionale (Zona di Whipsaw)</text>
+  <line x1="90" y1="88" x2="650" y2="88" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="186" x2="650" y2="186" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#71717a"/>
+  <line x1="90" y1="340" x2="650" y2="340" stroke="#71717a"/>
+  <text x="80" y="64" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">100%</text>
+  <text x="80" y="134" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">75%</text>
+  <text x="80" y="204" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">50%</text>
+  <text x="80" y="274" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">25%</text>
+  <text x="80" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+  <rect x="120" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="230" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="340" y="214" width="60" height="126" fill="#4ade80"/>
+  <rect x="450" y="65.6" width="60" height="274.4" fill="#f87171"/>
+  <rect x="560" y="208.4" width="60" height="131.6" fill="#4ade80"/>
+  <text x="150" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="260" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="370" y="206" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~45%</text>
+  <text x="480" y="58" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~98%</text>
+  <text x="590" y="200" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~47%</text>
+  <text x="150" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2015-08</text>
+  <text x="150" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Minimo</text>
+  <text x="260" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2018-12</text>
+  <text x="260" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Minimo</text>
+  <text x="370" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-03</text>
+  <text x="370" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Minimo</text>
+  <text x="480" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2021-11</text>
+  <text x="480" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Massimo</text>
+  <text x="590" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022-11</text>
+  <text x="590" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Minimo</text>
+  <rect x="90" y="394" width="12" height="12" fill="#4ade80"/>
+  <text x="108" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Minimo Estremo (Zona Affidabile)</text>
+  <rect x="280" y="394" width="12" height="12" fill="#fbbf24"/>
+  <text x="298" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Zona di Whipsaw (55-90%)</text>
+  <rect x="480" y="394" width="12" height="12" fill="#f87171"/>
+  <text x="498" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Massimo Estremo (Zona Affidabile)</text>
+</svg>
+<p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Illustrazione concettuale che utilizza valori approssimativi arrotondati per i minimi di agosto 2015, dicembre 2018, marzo 2020 e novembre 2022 e per il massimo di novembre 2021, basata su grafici pubblici di Glassnode / LookIntoBitcoin. I dati giornalieri effettivi potrebbero differire.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Percent Supply in Profit на экстремумах цикла: дно, вершина и ловушка между ними</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">Доля предложения в обращении, находящаяся в прибыли (%) · приблизительные значения на основных минимумах/максимумах · концептуальная иллюстрация</text>
+  <rect x="90" y="88" width="560" height="98" fill="#fbbf24" opacity="0.10"/>
+  <text x="370" y="141" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">55-90%: Нет направленного сигнала (зона пилы)</text>
+  <line x1="90" y1="88" x2="650" y2="88" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="186" x2="650" y2="186" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#71717a"/>
+  <line x1="90" y1="340" x2="650" y2="340" stroke="#71717a"/>
+  <text x="80" y="64" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">100%</text>
+  <text x="80" y="134" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">75%</text>
+  <text x="80" y="204" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">50%</text>
+  <text x="80" y="274" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">25%</text>
+  <text x="80" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+  <rect x="120" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="230" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="340" y="214" width="60" height="126" fill="#4ade80"/>
+  <rect x="450" y="65.6" width="60" height="274.4" fill="#f87171"/>
+  <rect x="560" y="208.4" width="60" height="131.6" fill="#4ade80"/>
+  <text x="150" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="260" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="370" y="206" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~45%</text>
+  <text x="480" y="58" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~98%</text>
+  <text x="590" y="200" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~47%</text>
+  <text x="150" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2015-08</text>
+  <text x="150" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Дно</text>
+  <text x="260" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2018-12</text>
+  <text x="260" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Дно</text>
+  <text x="370" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-03</text>
+  <text x="370" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Дно</text>
+  <text x="480" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2021-11</text>
+  <text x="480" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Вершина</text>
+  <text x="590" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022-11</text>
+  <text x="590" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Дно</text>
+  <rect x="90" y="394" width="12" height="12" fill="#4ade80"/>
+  <text x="108" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Экстремальное дно (надёжная зона)</text>
+  <rect x="280" y="394" width="12" height="12" fill="#fbbf24"/>
+  <text x="298" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Зона пилы (55-90%)</text>
+  <rect x="480" y="394" width="12" height="12" fill="#f87171"/>
+  <text x="498" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">Экстремальная вершина (надёжная зона)</text>
+</svg>
+<p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Концептуальная иллюстрация с округлёнными приблизительными значениями для минимумов августа 2015, декабря 2018, марта 2020 и ноября 2022 года и максимума ноября 2021 года, основанная на общедоступных графиках Glassnode / LookIntoBitcoin. Фактические дневные показатели могут отличаться.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="26" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">週期極端區域的獲利供給比例：底部、頂部與中間的陷阱</text>
+  <text x="20" y="46" fill="#a1a1aa" font-size="13" font-family="sans-serif">流通供給量中處於獲利狀態的比例（%）‧主要底部╱頂部的概略數值‧概念示意圖</text>
+  <rect x="90" y="88" width="560" height="98" fill="#fbbf24" opacity="0.10"/>
+  <text x="370" y="141" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">55-90%：無方向性訊號（洗盤區間）</text>
+  <line x1="90" y1="88" x2="650" y2="88" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="186" x2="650" y2="186" stroke="#fbbf24" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#71717a"/>
+  <line x1="90" y1="340" x2="650" y2="340" stroke="#71717a"/>
+  <text x="80" y="64" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">100%</text>
+  <text x="80" y="134" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">75%</text>
+  <text x="80" y="204" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">50%</text>
+  <text x="80" y="274" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">25%</text>
+  <text x="80" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+  <rect x="120" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="230" y="200" width="60" height="140" fill="#4ade80"/>
+  <rect x="340" y="214" width="60" height="126" fill="#4ade80"/>
+  <rect x="450" y="65.6" width="60" height="274.4" fill="#f87171"/>
+  <rect x="560" y="208.4" width="60" height="131.6" fill="#4ade80"/>
+  <text x="150" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="260" y="192" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~50%</text>
+  <text x="370" y="206" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~45%</text>
+  <text x="480" y="58" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~98%</text>
+  <text x="590" y="200" fill="#4ade80" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">~47%</text>
+  <text x="150" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2015-08</text>
+  <text x="150" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">底部</text>
+  <text x="260" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2018-12</text>
+  <text x="260" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">底部</text>
+  <text x="370" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-03</text>
+  <text x="370" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">底部</text>
+  <text x="480" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2021-11</text>
+  <text x="480" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">頂部</text>
+  <text x="590" y="358" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022-11</text>
+  <text x="590" y="376" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">底部</text>
+  <rect x="90" y="394" width="12" height="12" fill="#4ade80"/>
+  <text x="108" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">極端底部（可信區間）</text>
+  <rect x="280" y="394" width="12" height="12" fill="#fbbf24"/>
+  <text x="298" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">洗盤區間（55-90%）</text>
+  <rect x="480" y="394" width="12" height="12" fill="#f87171"/>
+  <text x="498" y="404" fill="#d4d4d8" font-size="13" font-family="sans-serif">極端頂部（可信區間）</text>
+</svg>
+<p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ 本圖為概念示意圖,採用四捨五入的概略數值,標示2015年8月、2018年12月、2020年3月、2022年11月的底部及2021年11月的頂部,數據參考Glassnode／LookIntoBitcoin公開圖表。實際每日數值可能有所不同。</p>
+</div>
 
 <h2 class="ko">왜 중간 구간에서는 무의미해지는가</h2>
 <h2 class="en">Why It Becomes Meaningless in the Middle</h2>
@@ -526,6 +746,11 @@
 <h2 class="pt">Por Que se Torna Sem Sentido no Meio</h2>
 <h2 class="tr">Ortada Neden Anlamsızlaşıyor</h2>
 <h2 class="vi">Vì Sao Nó Trở Nên Vô Nghĩa Ở Khoảng Giữa</h2>
+<h2 class="id">Mengapa Menjadi Tidak Bermakna di Tengah</h2>
+<h2 class="pl">Dlaczego Staje się Bez Znaczenia Pośrodku</h2>
+<h2 class="it">Perché Diventa Insignificante nel Mezzo</h2>
+<h2 class="ru">Почему он теряет смысл в средней зоне</h2>
+<h2 class="zh">為何在中間區域變得毫無意義</h2>
 
 <p class="ko">문제는 지표가 55%에서 90% 사이를 오갈 때 시작된다. 이 구간에서는 극단과 달리 결론이 명료하지 않을 뿐 아니라, 하루 이틀 사이에 지표 자체가 몇 퍼센트포인트씩 요동친다. 원인은 코스트베이시스 분포에 있다. URPD(UTXO Realized Price Distribution) 분석을 보면 유통량은 균등하게 퍼져 있지 않고 특정 가격대에 두터운 벽처럼 뭉쳐 있는 경우가 흔하다 — <a href="/blog/urpd-cost-basis-cluster-illusion">온체인 매물대 분석</a>에서 다룬 것처럼, 유통량의 상당 부분이 좁은 가격 구간에 코스트베이시스를 두고 있는 시기가 실제로 존재한다. 현재가가 이런 밀집 구간을 관통하는 순간, 가격이 1~2%만 움직여도 그 구간에 몰려 있던 물량 전체가 손익 상태를 동시에 뒤집는다.</p>
 <p class="en">The trouble starts once the indicator drifts between 55% and 90%. In this band, unlike at the extremes, not only is the conclusion ambiguous — the indicator itself can swing by several percentage points in a day or two. The cause lies in the distribution of cost basis. URPD (UTXO Realized Price Distribution) analysis routinely shows that circulating supply isn't spread evenly; it often clusters like a thick wall at specific price levels — as covered in our <a href="/en/blog/urpd-cost-basis-cluster-illusion">on-chain cost-basis cluster analysis</a>, there are real periods when a substantial share of supply has its cost basis packed into a narrow price band. The moment the current price cuts through one of these dense clusters, a move of just 1-2% flips the profit-or-loss status of that entire chunk of supply at once.</p>
