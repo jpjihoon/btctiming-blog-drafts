@@ -12,6 +12,11 @@
   "read_pt": "9",
   "read_tr": "9",
   "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9",
 
   "tag_ko": "거래소 고래비율·코인베이스 프리미엄",
   "tag_en": "Exchange Whale Ratio & Coinbase Premium",
@@ -22,6 +27,11 @@
   "tag_pt": "Índice de Baleias em Exchanges e Coinbase Premium",
   "tag_tr": "Borsa Balina Oranı ve Coinbase Premium",
   "tag_vi": "Tỷ Lệ Cá Voi Trên Sàn và Coinbase Premium",
+  "tag_id": "Exchange Whale Ratio & Coinbase Premium",
+  "tag_pl": "Exchange Whale Ratio i Coinbase Premium",
+  "tag_it": "Exchange Whale Ratio e Coinbase Premium",
+  "tag_ru": "Exchange Whale Ratio и Coinbase Premium",
+  "tag_zh": "Exchange Whale Ratio與Coinbase Premium",
 
   "title_ko": "고래는 장외에서 27만 BTC를 사들였는데, 거래소 고래비율은 0.69로 치솟았다",
   "title_en": "Whales Bought 270K BTC Off-Exchange — Yet the Exchange Whale Ratio Spiked to 0.69",
@@ -32,6 +42,11 @@
   "title_pt": "Baleias Compraram 270 Mil BTC Fora da Corretora — Mas o Índice de Baleias Saltou Para 0,69",
   "title_tr": "Balinalar Borsa Dışında 270 Bin BTC Aldı — Yine de Borsa Balina Oranı 0,69'a Sıçradı",
   "title_vi": "Cá Voi Mua 270.000 BTC Ngoài Sàn — Nhưng Tỷ Lệ Cá Voi Trên Sàn Tăng Vọt Lên 0,69",
+  "title_id": "Paus Membeli 270 Ribu BTC di Luar Bursa — Namun Exchange Whale Ratio Melonjak ke 0,69",
+  "title_pl": "Wieloryby Kupiły 270 Tys. BTC Poza Giełdą — Jednak Exchange Whale Ratio Skoczył do 0,69",
+  "title_it": "Le Balene Hanno Comprato 270 Mila BTC Fuori Borsa — Eppure l'Exchange Whale Ratio È Balzato a 0,69",
+  "title_ru": "Киты Купили 270 Тыс. BTC Вне Биржи — Но Exchange Whale Ratio Подскочил до 0,69",
+  "title_zh": "巨鯨於場外買入27萬枚BTC——然而Exchange Whale Ratio卻飆升至0.69",
 
   "h1_ko": "고래는 장외에서 27만 BTC를 사들였는데,<br>거래소 고래비율은 같은 시기 0.69로 치솟았다",
   "h1_en": "Whales Bought 270K BTC Off-Exchange,<br>While the Exchange Whale Ratio Spiked to 0.69 in the Same Window",
@@ -42,6 +57,11 @@
   "h1_pt": "Baleias Compraram 270 Mil BTC Fora das Corretoras,<br>Enquanto o Índice de Baleias Saltou Para 0,69 na Mesma Janela",
   "h1_tr": "Balinalar Borsa Dışında 270 Bin BTC Satın Aldı,<br>Aynı Dönemde Borsa Balina Oranı 0,69'a Sıçradı",
   "h1_vi": "Cá Voi Mua 270.000 BTC Ngoài Sàn,<br>Trong Khi Tỷ Lệ Cá Voi Trên Sàn Giao Dịch Tăng Vọt Lên 0,69 Trong Cùng Khung Thời Gian",
+  "h1_id": "Paus Membeli 270 Ribu BTC di Luar Bursa,<br>Sementara Exchange Whale Ratio Melonjak ke 0,69 pada Periode yang Sama",
+  "h1_pl": "Wieloryby Kupiły 270 Tys. BTC Poza Giełdą,<br>Podczas Gdy Exchange Whale Ratio Skoczył do 0,69 w Tym Samym Okresie",
+  "h1_it": "Le Balene Hanno Comprato 270 Mila BTC Fuori Borsa,<br>Mentre l'Exchange Whale Ratio È Balzato a 0,69 nella Stessa Finestra",
+  "h1_ru": "Киты Купили 270 Тыс. BTC Вне Биржи,<br>Пока Exchange Whale Ratio Подскочил до 0,69 в Тот Же Период",
+  "h1_zh": "巨鯨於場外買入27萬枚BTC,<br>同一時間Exchange Whale Ratio卻飆升至0.69",
 
   "bc_ko": "고래비율·코인베이스 프리미엄 점검",
   "bc_en": "Exchange Whale Ratio & Coinbase Premium Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação do Índice de Baleias e Coinbase Premium",
   "bc_tr": "Balina Oranı ve Coinbase Premium İncelemesi",
   "bc_vi": "Kiểm Tra Tỷ Lệ Cá Voi và Coinbase Premium",
+  "bc_id": "Pemeriksaan Exchange Whale Ratio & Coinbase Premium",
+  "bc_pl": "Sprawdzenie Exchange Whale Ratio i Coinbase Premium",
+  "bc_it": "Verifica di Exchange Whale Ratio e Coinbase Premium",
+  "bc_ru": "Проверка Exchange Whale Ratio и Coinbase Premium",
+  "bc_zh": "Exchange Whale Ratio與Coinbase Premium檢視",
 
   "desc_ko": "비트코인은 7월12일 새벽 6만4,100달러 안팎에서 거래되며 공포탐욕지수는 22로 극단적 공포 구간에 머물러 있다. 코인데스크에 따르면 대형 보유자들은 6월 중순~말 약 2주간 장외·역외 채널을 통해 27만 BTC(약 167억 달러)를 5만8,000~5만9,000달러대에서 사들였고, 코인베이스 프리미엄도 2개월여 만에 14일 이동평균선(SMA14)을 다시 넘어섰다(다만 지수 자체는 -0.08로 여전히 마이너스). 그런데 같은 기간 거래소 고래비율은 6월19일 0.67(가격 6.30% 하락 동반), 6월30일 하루 4만9,000 BTC 입금, 7월엔 0.69 국지적 고점까지 세 차례 연속 상승했고, 스테이블코인 거래소 순유입은 6억1,600만 달러(2025년11월 고점)에서 2,700만 달러로 줄었다. 같은 '고래' 라벨 안에서 매수와 거래소 이동이 동시에 관찰되는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin trades around $64,100 in the early hours of July 12, with the Fear & Greed Index at 22, still in extreme fear. CoinDesk reports large holders bought roughly 270,000 BTC (about $16.7B) through OTC and offshore channels over roughly two weeks in mid-to-late June, mostly in the $58,000-$59,000 range, and the Coinbase Premium recently reclaimed its 14-day moving average (SMA14) after more than two months negative — though the index itself remains at -0.08. Yet over the same window the Exchange Whale Ratio spiked three times running: to 0.67 on June 19 (with a 6.30% price drop), to a surge of 49,000 BTC deposited in a single day on June 30, and to a local high near 0.69 in July, while stablecoin net exchange inflow fell from a $616M November 2025 peak to about $27M. A look at a phase where buying and exchange deposits are both showing up under the same 'whale' label at once.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échange autour de 64 100 dollars aux premières heures du 12 juillet, avec l'indice de peur et de cupidité à 22, toujours en peur extrême. CoinDesk rapporte que de gros détenteurs ont acheté environ 270 000 BTC (environ 16,7 milliards de dollars) via des canaux OTC et offshore sur environ deux semaines de mi- à fin juin, principalement entre 58 000 et 59 000 dollars, et le Coinbase Premium a récemment retrouvé sa moyenne mobile sur 14 jours (SMA14) après plus de deux mois en négatif — bien que l'indice lui-même reste à -0,08. Pourtant, sur la même période, le Ratio de Baleines sur les Exchanges a bondi trois fois de suite : à 0,67 le 19 juin (avec une chute de prix de 6,30 %), à une hausse de 49 000 BTC déposés en une seule journée le 30 juin, et à un plus haut local proche de 0,69 en juillet, tandis que l'entrée nette de stablecoins sur les exchanges est tombée d'un pic de 616 millions de dollars en novembre 2025 à environ 27 millions. Un aperçu d'une phase où achats et dépôts sur les exchanges apparaissent simultanément sous la même étiquette « baleine ».",
   "desc_pt": "O bitcoin é negociado em torno de $64.100 nas primeiras horas de 12 de julho, com o Índice de Medo e Ganância em 22, ainda em medo extremo. A CoinDesk relata que grandes detentores compraram cerca de 270 mil BTC (cerca de US$ 16,7 bilhões) por meio de canais OTC e estrangeiros ao longo de cerca de duas semanas de meados a fins de junho, principalmente entre $58.000 e $59.000, e o Coinbase Premium recuperou recentemente sua média móvel de 14 dias (SMA14) após mais de dois meses negativo — embora o índice em si permaneça em -0,08. No entanto, na mesma janela, o Índice de Baleias em Exchanges saltou três vezes seguidas: para 0,67 em 19 de junho (com queda de preço de 6,30%), para um aumento de 49 mil BTC depositados em um único dia em 30 de junho, e para uma máxima local próxima de 0,69 em julho, enquanto a entrada líquida de stablecoins em corretoras caiu de um pico de US$ 616 milhões em novembro de 2025 para cerca de US$ 27 milhões. Uma análise de uma fase em que compra e depósitos em corretoras aparecem simultaneamente sob o mesmo rótulo de 'baleia'.",
   "desc_tr": "Bitcoin, 12 Temmuz sabahının erken saatlerinde 64.100 dolar civarında işlem görüyor; Korku ve Açgözlülük Endeksi 22'de, hâlâ aşırı korku bölgesinde. CoinDesk'e göre büyük yatırımcılar, Haziran ortasından sonuna kadar yaklaşık iki hafta boyunca OTC ve offshore kanallar aracılığıyla, ağırlıklı olarak 58.000-59.000 dolar aralığında yaklaşık 270.000 BTC (yaklaşık 16,7 milyar dolar) satın aldı ve Coinbase Premium, iki aydan uzun süre negatif kaldıktan sonra kısa süre önce 14 günlük hareketli ortalamasını (SMA14) yeniden kazandı — ancak endeksin kendisi hâlâ -0,08'de. Yine de aynı dönemde Borsa Balina Oranı arka arkaya üç kez sıçradı: 19 Haziran'da 0,67'ye (yüzde 6,30 fiyat düşüşüyle), 30 Haziran'da tek günde 49.000 BTC yatırılmasına, ve Temmuz'da yaklaşık 0,69'luk yerel bir zirveye; bu arada stablecoin'lerin borsalara net girişi Kasım 2025'teki 616 milyon dolarlık zirveden yaklaşık 27 milyon dolara geriledi. Alım ve borsa mevduatlarının aynı anda aynı 'balina' etiketi altında görüldüğü bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 64.100 đô la vào những giờ đầu ngày 12 tháng 7, với Chỉ số Sợ hãi và Tham lam ở mức 22, vẫn trong vùng sợ hãi cực độ. CoinDesk đưa tin các nhà nắm giữ lớn đã mua khoảng 270.000 BTC (khoảng 16,7 tỷ đô la) qua các kênh OTC và nước ngoài trong khoảng hai tuần từ giữa đến cuối tháng 6, chủ yếu trong khoảng 58.000-59.000 đô la, và Coinbase Premium gần đây đã giành lại đường trung bình động 14 ngày (SMA14) sau hơn hai tháng ở mức âm — dù bản thân chỉ số vẫn ở -0,08. Tuy nhiên, trong cùng khung thời gian, Tỷ lệ Cá Voi Trên Sàn Giao Dịch đã tăng vọt ba lần liên tiếp: lên 0,67 vào ngày 19 tháng 6 (kèm mức giảm giá 6,30%), lên mức tăng đột biến 49.000 BTC nạp trong một ngày vào 30 tháng 6, và lên đỉnh cục bộ gần 0,69 trong tháng 7, trong khi dòng vào ròng stablecoin trên các sàn giảm từ đỉnh 616 triệu đô la vào tháng 11 năm 2025 xuống còn khoảng 27 triệu đô la. Một góc nhìn về giai đoạn mà việc mua vào và nạp tiền lên sàn cùng xuất hiện dưới cùng một nhãn 'cá voi'."
+  "desc_vi": "Bitcoin giao dịch quanh mức 64.100 đô la vào những giờ đầu ngày 12 tháng 7, với Chỉ số Sợ hãi và Tham lam ở mức 22, vẫn trong vùng sợ hãi cực độ. CoinDesk đưa tin các nhà nắm giữ lớn đã mua khoảng 270.000 BTC (khoảng 16,7 tỷ đô la) qua các kênh OTC và nước ngoài trong khoảng hai tuần từ giữa đến cuối tháng 6, chủ yếu trong khoảng 58.000-59.000 đô la, và Coinbase Premium gần đây đã giành lại đường trung bình động 14 ngày (SMA14) sau hơn hai tháng ở mức âm — dù bản thân chỉ số vẫn ở -0,08. Tuy nhiên, trong cùng khung thời gian, Tỷ lệ Cá Voi Trên Sàn Giao Dịch đã tăng vọt ba lần liên tiếp: lên 0,67 vào ngày 19 tháng 6 (kèm mức giảm giá 6,30%), lên mức tăng đột biến 49.000 BTC nạp trong một ngày vào 30 tháng 6, và lên đỉnh cục bộ gần 0,69 trong tháng 7, trong khi dòng vào ròng stablecoin trên các sàn giảm từ đỉnh 616 triệu đô la vào tháng 11 năm 2025 xuống còn khoảng 27 triệu đô la. Một góc nhìn về giai đoạn mà việc mua vào và nạp tiền lên sàn cùng xuất hiện dưới cùng một nhãn 'cá voi'.",
+  "desc_id": "Bitcoin bertahan di $64.100 pada 12 Juli, Fear & Greed Index masih 22. CoinDesk: paus beli 270 ribu BTC via OTC, tapi Exchange Whale Ratio melonjak ke 0,69.",
+  "desc_pl": "Bitcoin trzyma się przy 64 100 $ 12 lipca, Fear & Greed Index wciąż na 22. CoinDesk: wieloryby kupiły 270 tys. BTC przez OTC, ale Exchange Whale Ratio skoczył do 0,69.",
+  "desc_it": "Il bitcoin resta a $64.100 il 12 luglio, Fear & Greed Index a 22. CoinDesk: balene hanno comprato 270 mila BTC via OTC, ma l'Exchange Whale Ratio è balzato a 0,69.",
+  "desc_ru": "Биткоин у $64 100 12 июля, индекс страха и жадности на 22. CoinDesk: киты купили 270 тыс. BTC через OTC, но Exchange Whale Ratio подскочил до 0,69.",
+  "desc_zh": "比特幣在7月12日凌晨守在6萬4,100美元附近,恐懼與貪婪指數仍為22,處於極度恐懼區間。CoinDesk指出巨鯨6月中旬至下旬透過場外‧境外管道買入約27萬枚BTC(約167億美元),但同一時期Exchange Whale Ratio卻連三次飆升,7月來到0.69的階段性高點,穩定幣淨流入同時萎縮。"
 }

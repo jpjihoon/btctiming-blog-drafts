@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "역김치프리미엄·소프트웨어주 디커플링",
   "tag_en": "Reverse Kimchi Premium & Software-Stock Decoupling",
@@ -22,6 +27,11 @@
   "tag_pt": "Ágio Kimchi Inverso e Descolamento de Ações de Software",
   "tag_tr": "Ters Kimchi Primi ve Yazılım Hisseleri Ayrışması",
   "tag_vi": "Phần Bù Kim Chi Đảo Ngược và Sự Tách Rời Cổ Phiếu Phần Mềm",
+  "tag_id": "Premi Kimchi Terbalik & Dekopling Saham Software",
+  "tag_pl": "Odwrócona Premia Kimchi i Rozdzielenie z Akcjami Software'owymi",
+  "tag_it": "Premio Kimchi Inverso e Disaccoppiamento con i Titoli Software",
+  "tag_ru": "Обратная Кимчи-Премия и Разрыв Корреляции с Софтверными Акциями",
+  "tag_zh": "逆泡菜溢價與軟體股脫鉤",
 
   "title_ko": "한국은 여전히 회의적이고, 증시와도 갈라섰다 — 6만4천 달러 반등의 두 결",
   "title_en": "Korea Still Isn't Buying It, and Equities Have Split Off — Two Threads Behind the $64K Bounce",
@@ -32,6 +42,11 @@
   "title_pt": "A Coreia Ainda Está Cética, e as Ações Se Separaram — Dois Fios Por Trás da Recuperação de US$ 64 Mil",
   "title_tr": "Kore Hâlâ İkna Olmadı, Hisse Senetleri de Ayrıştı — 64 Bin Dolarlık Toparlanmanın Ardındaki İki İpucu",
   "title_vi": "Hàn Quốc Vẫn Chưa Tin, Và Cổ Phiếu Đã Tách Ra — Hai Mạch Đằng Sau Đợt Phục Hồi 64.000 Đô La",
+  "title_id": "Korea Masih Belum Percaya, dan Saham Sudah Terpisah — Dua Benang di Balik Rebound $64K",
+  "title_pl": "Korea Nadal Nie Wierzy, a Akcje Się Odłączyły — Dwa Wątki Za Odbiciem do 64 Tys. Dolarów",
+  "title_it": "La Corea Non Ci Crede Ancora, e i Titoli Azionari Si Sono Separati — Due Filoni Dietro il Rimbalzo a 64K Dollari",
+  "title_ru": "Корея По-Прежнему Не Верит, А Акции Разошлись — Два Сюжета За Отскоком До $64 Тыс.",
+  "title_zh": "南韓依然不買帳,股市也已分道揚鑣——6萬4千美元反彈背後的兩條線索",
 
   "h1_ko": "김치프리미엄은 두 주 넘게 마이너스에 머물고,<br>비트코인과 소프트웨어주 상관계수는 2023년 말 이후 최저로 무너졌다",
   "h1_en": "The Kimchi Premium Has Stayed Negative for Over Two Weeks,<br>While Bitcoin's Correlation With Software Stocks Has Collapsed to Its Lowest Since Late 2023",
@@ -42,6 +57,11 @@
   "h1_pt": "O Ágio Kimchi Permanece Negativo Há Mais de Duas Semanas,<br>Enquanto a Correlação do Bitcoin com Ações de Software Despencou ao Menor Nível Desde o Fim de 2023",
   "h1_tr": "Kimchi Primi İki Haftadan Fazladır Negatif Kaldı,<br>Bitcoin'in Yazılım Hisseleriyle Korelasyonu 2023 Sonundan Bu Yana En Düşük Seviyeye Çöktü",
   "h1_vi": "Phần Bù Kim Chi Vẫn Ở Mức Âm Suốt Hơn Hai Tuần,<br>Trong Khi Tương Quan Của Bitcoin Với Cổ Phiếu Phần Mềm Sụp Xuống Mức Thấp Nhất Kể Từ Cuối Năm 2023",
+  "h1_id": "Premi Kimchi Tetap Negatif Selama Lebih dari Dua Minggu,<br>Sementara Korelasi Bitcoin dengan Saham Software Runtuh ke Titik Terendah Sejak Akhir 2023",
+  "h1_pl": "Premia Kimchi Pozostaje Ujemna Od Ponad Dwóch Tygodni,<br>Podczas Gdy Korelacja Bitcoina z Akcjami Software'owymi Załamała Się do Najniższego Poziomu Od Końca 2023 Roku",
+  "h1_it": "Il Premio Kimchi È Rimasto Negativo per Oltre Due Settimane,<br>Mentre la Correlazione di Bitcoin con i Titoli Software È Crollata al Minimo Da Fine 2023",
+  "h1_ru": "Кимчи-Премия Остаётся Отрицательной Уже Более Двух Недель,<br>Тогда Как Корреляция Биткоина С Софтверными Акциями Рухнула До Минимума С Конца 2023 Года",
+  "h1_zh": "泡菜溢價已連續兩週以上維持負值,<br>比特幣與軟體股的相關性也崩落至2023年底以來最低",
 
   "bc_ko": "역프리미엄·소프트웨어주 상관관계 점검",
   "bc_en": "Reverse Premium & Software-Stock Correlation Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação do Ágio Inverso e Correlação com Software",
   "bc_tr": "Ters Prim ve Yazılım Hisseleri Korelasyonu İncelemesi",
   "bc_vi": "Kiểm Tra Phần Bù Đảo Ngược và Tương Quan Cổ Phiếu Phần Mềm",
+  "bc_id": "Pemeriksaan Diskon Terbalik & Korelasi Saham Software",
+  "bc_pl": "Sprawdzenie Odwróconej Premii i Korelacji z Akcjami Software'owymi",
+  "bc_it": "Verifica del Premio Inverso e della Correlazione con i Titoli Software",
+  "bc_ru": "Проверка Обратной Премии и Корреляции с Софтверными Акциями",
+  "bc_zh": "逆溢價與軟體股相關性檢視",
 
   "desc_ko": "비트코인은 7월12일 새벽 6만4,000달러 안팎, 최근 12시간 6만3,800~6만4,500달러 밴드에서 움직이고 있다. 그런데 업비트·바이낸스 기준 김치프리미엄은 7월9일 -1.44%로 두 주 넘게 마이너스권을 벗어나지 못하고 있고(빅고파이낸스), 비트코인과 소프트웨어주 ETF(IGV)의 20일 상관계수는 0.58까지 낮아져 2023년 말 이후 최저치를 기록했다(비트코인월드). 2분기 전체로는 S&P500이 15% 오르는 동안 비트코인은 14.09% 내려 격차가 41%포인트에 달했다(바스블록). 국내 수요도, 증시 동조도 지금의 반등을 확인해주지 않는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin is trading around $64,000 in the early hours of July 12, moving within a $63,800-$64,500 band over the past 12 hours. Yet the Upbit-Binance kimchi premium sat at -1.44% on July 9, stuck in negative territory for over two weeks (BigGo Finance), while bitcoin's 20-day correlation with the software-stock ETF IGV fell to 0.58, its lowest since late 2023 (BitcoinWorld). Over the full second quarter, the S&P 500 rose 15% while bitcoin fell 14.09%, a 41-point gap (VaaSBlock). A look at a phase where neither domestic demand nor equity-market co-movement is confirming this bounce.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échange autour de 64 000 dollars aux premières heures du 12 juillet, évoluant dans une fourchette de 63 800 à 64 500 dollars au cours des 12 dernières heures. Pourtant, la prime kimchi entre Upbit et Binance s'établissait à -1,44 % le 9 juillet, bloquée en territoire négatif depuis plus de deux semaines (BigGo Finance), tandis que la corrélation sur 20 jours du bitcoin avec l'ETF d'actions logicielles IGV est tombée à 0,58, son niveau le plus bas depuis fin 2023 (BitcoinWorld). Sur l'ensemble du deuxième trimestre, le S&P 500 a progressé de 15 % tandis que le bitcoin a chuté de 14,09 %, un écart de 41 points (VaaSBlock). Un examen d'une phase où ni la demande domestique ni la co-évolution avec le marché boursier ne confirment ce rebond.",
   "desc_pt": "O bitcoin é negociado em torno de US$ 64.000 nas primeiras horas de 12 de julho, oscilando entre US$ 63.800 e US$ 64.500 nas últimas 12 horas. No entanto, o ágio kimchi entre Upbit e Binance ficou em -1,44% em 9 de julho, preso em território negativo há mais de duas semanas (BigGo Finance), enquanto a correlação de 20 dias do bitcoin com o ETF de ações de software IGV caiu para 0,58, seu menor nível desde o fim de 2023 (BitcoinWorld). Em todo o segundo trimestre, o S&P 500 subiu 15% enquanto o bitcoin caiu 14,09%, uma diferença de 41 pontos (VaaSBlock). Uma análise de uma fase em que nem a demanda doméstica nem o movimento conjunto com o mercado de ações confirmam essa recuperação.",
   "desc_tr": "Bitcoin, 12 Temmuz'un erken saatlerinde 64.000 dolar civarında işlem görüyor ve son 12 saatte 63.800 ile 64.500 dolar arasında hareket etti. Ama Upbit-Binance kimchi primi 9 Temmuz itibarıyla yüzde -1,44 düzeyinde kalarak iki haftadan fazladır negatif bölgede sıkışmış durumda (BigGo Finance); bitcoin'in yazılım hisseleri ETF'i IGV ile 20 günlük korelasyonu ise 0,58'e gerileyerek 2023 sonundan bu yana en düşük seviyeye indi (BitcoinWorld). İkinci çeyreğin tamamında S&P 500 yüzde 15 yükselirken bitcoin yüzde 14,09 geriledi; bu da 41 puanlık bir fark yarattı (VaaSBlock). Ne iç talebin ne de hisse senedi piyasasıyla eş hareketin bu toparlanmayı doğrulamadığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin đang giao dịch quanh mức 64.000 đô la vào những giờ đầu ngày 12 tháng 7, dao động trong khoảng 63.800 đến 64.500 đô la trong 12 giờ qua. Tuy nhiên, phần bù kim chi giữa Upbit và Binance ở mức -1,44% vào ngày 9 tháng 7, mắc kẹt trong vùng âm hơn hai tuần (BigGo Finance), trong khi tương quan 20 ngày của bitcoin với quỹ ETF cổ phiếu phần mềm IGV giảm xuống còn 0,58, mức thấp nhất kể từ cuối năm 2023 (BitcoinWorld). Trong toàn bộ quý 2, S&P 500 tăng 15% trong khi bitcoin giảm 14,09%, chênh lệch 41 điểm (VaaSBlock). Một góc nhìn về giai đoạn mà cả nhu cầu trong nước lẫn sự đồng chuyển động với thị trường chứng khoán đều chưa xác nhận đợt phục hồi này."
+  "desc_vi": "Bitcoin đang giao dịch quanh mức 64.000 đô la vào những giờ đầu ngày 12 tháng 7, dao động trong khoảng 63.800 đến 64.500 đô la trong 12 giờ qua. Tuy nhiên, phần bù kim chi giữa Upbit và Binance ở mức -1,44% vào ngày 9 tháng 7, mắc kẹt trong vùng âm hơn hai tuần (BigGo Finance), trong khi tương quan 20 ngày của bitcoin với quỹ ETF cổ phiếu phần mềm IGV giảm xuống còn 0,58, mức thấp nhất kể từ cuối năm 2023 (BitcoinWorld). Trong toàn bộ quý 2, S&P 500 tăng 15% trong khi bitcoin giảm 14,09%, chênh lệch 41 điểm (VaaSBlock). Một góc nhìn về giai đoạn mà cả nhu cầu trong nước lẫn sự đồng chuyển động với thị trường chứng khoán đều chưa xác nhận đợt phục hồi này.",
+  "desc_id": "Bitcoin diperdagangkan di kisaran $64.000 pada dini hari 12 Juli, bergerak dalam rentang $63.800-$64.500 selama 12 jam terakhir. Namun premi kimchi Upbit-Binance berada di -1,44% pada 9 Juli, terjebak di wilayah negatif selama lebih dari dua minggu (BigGo Finance), sementara korelasi 20 hari bitcoin dengan ETF saham software IGV turun ke 0,58, terendah sejak akhir 2023 (BitcoinWorld). Selama kuartal kedua penuh, S&P 500 naik 15% sementara bitcoin turun 14,09%, selisih 41 poin (VaaSBlock). Sebuah tinjauan atas fase di mana baik permintaan domestik maupun pergerakan bersama pasar saham belum mengonfirmasi rebound ini.",
+  "desc_pl": "Bitcoin jest notowany w okolicach 64 000 dolarów we wczesnych godzinach 12 lipca, poruszając się w przedziale 63 800-64 500 dolarów w ciągu ostatnich 12 godzin. Jednak premia kimchi Upbit-Binance wyniosła -1,44% 9 lipca, utknąwszy w ujemnym obszarze od ponad dwóch tygodni (BigGo Finance), podczas gdy 20-dniowa korelacja bitcoina z ETF-em akcji software'owych IGV spadła do 0,58, najniższego poziomu od końca 2023 roku (BitcoinWorld). W całym drugim kwartale S&P 500 wzrósł o 15%, podczas gdy bitcoin spadł o 14,09%, co dało lukę 41 punktów (VaaSBlock). Spojrzenie na fazę, w której ani krajowy popyt, ani współruch z rynkiem akcji nie potwierdzają tego odbicia.",
+  "desc_it": "Bitcoin viene scambiato intorno a 64.000 dollari nelle prime ore del 12 luglio, muovendosi in una fascia di 63.800-64.500 dollari nelle ultime 12 ore. Tuttavia il premio kimchi Upbit-Binance si è attestato al -1,44% il 9 luglio, bloccato in territorio negativo da oltre due settimane (BigGo Finance), mentre la correlazione a 20 giorni di bitcoin con l'ETF azionario software IGV è scesa a 0,58, il livello più basso da fine 2023 (BitcoinWorld). Nell'intero secondo trimestre, l'S&P 500 è salito del 15% mentre bitcoin è sceso del 14,09%, un divario di 41 punti (VaaSBlock). Uno sguardo a una fase in cui né la domanda interna né il movimento congiunto con il mercato azionario confermano questo rimbalzo.",
+  "desc_ru": "Биткоин торгуется в районе $64 000 в первые часы 12 июля, двигаясь в диапазоне $63 800-$64 500 за последние 12 часов. Однако кимчи-премия Upbit-Binance составила -1,44% 9 июля, застряв в отрицательной зоне более двух недель (BigGo Finance), тогда как 20-дневная корреляция биткоина с софтверным ETF IGV упала до 0,58 — минимума с конца 2023 года (BitcoinWorld). За весь второй квартал S&P 500 вырос на 15%, тогда как биткоин упал на 14,09% — разрыв в 41 пункт (VaaSBlock). Взгляд на фазу, в которой ни внутренний спрос, ни совместное движение с фондовым рынком не подтверждают этот отскок.",
+  "desc_zh": "比特幣在7月12日凌晨於6萬4,000美元左右交易,過去12小時內維持在6萬3,800至6萬4,500美元區間。然而Upbit與Binance的泡菜溢價在7月9日為-1.44%,已連續兩週以上卡在負值區間(BigGo Finance),而比特幣與軟體股ETF IGV的20日相關性降至0.58,為2023年底以來最低(BitcoinWorld)。整個第二季,標普500上漲15%,比特幣卻下跌14.09%,差距達41點(VaaSBlock)。本文檢視的正是這樣一個階段:無論是國內需求還是與股市的同步變動,都尚未證實這波反彈。"
 }
