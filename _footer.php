@@ -126,8 +126,8 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
 <a class="blog-ad" href="<?= h(i18nPath('/exchanges.php', $lang)) ?>">
   <span class="blog-ad-bar" aria-hidden="true"></span>
   <span class="blog-ad-tx">
-    <b class="ko">비트코인 선물, 어디서 거래할까?</b><b class="en">Where to trade Bitcoin futures?</b><b class="ja">ビットコイン先物、どこで取引?</b><b class="es">¿Dónde operar futuros de Bitcoin?</b><b class="de">Wo Bitcoin-Futures handeln?</b><b class="fr">Où trader les futures Bitcoin ?</b><b class="pt">Onde negociar futuros de Bitcoin?</b><b class="tr">Bitcoin vadeli işlemleri nerede?</b><b class="vi">Giao dịch futures Bitcoin ở đâu?</b>
-    <span class="ko">바이낸스·바이비트 비교 + 수수료 할인 혜택</span><span class="en">Compare Binance &amp; Bybit + fee discounts</span><span class="ja">Binance・Bybit比較 + 手数料割引</span><span class="es">Compara Binance y Bybit + descuentos</span><span class="de">Binance &amp; Bybit vergleichen + Rabatte</span><span class="fr">Comparez Binance et Bybit + réductions de frais</span><span class="pt">Compare Binance e Bybit + descontos de taxa</span><span class="tr">Binance ve Bybit karşılaştır + komisyon indirimi</span><span class="vi">So sánh Binance &amp; Bybit + giảm phí</span>
+    <b class="ko">비트코인 선물, 어디서 거래할까?</b><b class="en">Where to trade Bitcoin futures?</b><b class="ja">ビットコイン先物、どこで取引?</b><b class="es">¿Dónde operar futuros de Bitcoin?</b><b class="de">Wo Bitcoin-Futures handeln?</b><b class="fr">Où trader les futures Bitcoin ?</b><b class="pt">Onde negociar futuros de Bitcoin?</b><b class="tr">Bitcoin vadeli işlemleri nerede?</b><b class="vi">Giao dịch futures Bitcoin ở đâu?</b><b class="id">Di mana trading futures Bitcoin?</b><b class="pl">Gdzie handlować futures Bitcoin?</b><b class="it">Dove fare trading di futures Bitcoin?</b><b class="ru">Где торговать фьючерсами на Bitcoin?</b><b class="zh">比特幣期貨在哪裡交易？</b>
+    <span class="ko">바이낸스·바이비트 비교 + 수수료 할인 혜택</span><span class="en">Compare Binance &amp; Bybit + fee discounts</span><span class="ja">Binance・Bybit比較 + 手数料割引</span><span class="es">Compara Binance y Bybit + descuentos</span><span class="de">Binance &amp; Bybit vergleichen + Rabatte</span><span class="fr">Comparez Binance et Bybit + réductions de frais</span><span class="pt">Compare Binance e Bybit + descontos de taxa</span><span class="tr">Binance ve Bybit karşılaştır + komisyon indirimi</span><span class="vi">So sánh Binance &amp; Bybit + giảm phí</span><span class="id">Bandingkan Binance &amp; Bybit + diskon biaya</span><span class="pl">Porównaj Binance i Bybit + zniżki na opłaty</span><span class="it">Confronta Binance e Bybit + sconti sulle commissioni</span><span class="ru">Сравните Binance и Bybit + скидки на комиссии</span><span class="zh">比較 Binance 與 Bybit + 手續費折扣</span>
   </span>
   <span class="blog-ad-ar">›</span>
 </a>
@@ -213,6 +213,11 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
       <h3 class="pt">O painel de pontuação de timing ao vivo</h3>
       <h3 class="tr">Canlı zamanlama puanı panosu</h3>
       <h3 class="vi">Bảng điểm thời điểm trực tiếp</h3>
+      <h3 class="id">Dasbor skor timing langsung</h3>
+      <h3 class="pl">Panel wyników timingu na żywo</h3>
+      <h3 class="it">La dashboard dei punteggi di timing dal vivo</h3>
+      <h3 class="ru">Панель оценки тайминга в реальном времени</h3>
+      <h3 class="zh">即時時機分數儀表板</h3>
       <p class="ko">온체인·기술 지표를 종합해 비트코인과 알트코인의 매수·매도 타이밍을 0~10점으로 산출합니다. 지금 시장이 어느 국면에 있는지 대시보드에서 볼 수 있습니다.</p>
       <p class="en">It combines on-chain and technical indicators into a 0–10 buy/sell timing score for Bitcoin and major altcoins, so you can see which phase the market is in right now.</p>
       <p class="ja">オンチェーン・テクニカル指標を統合し、ビットコインと主要アルトコインの売買タイミングを0〜10点で算出します。今の市場がどの局面かをダッシュボードで確認できます。</p>
@@ -222,6 +227,11 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
       <p class="pt">Combina indicadores on-chain e técnicos em uma pontuação de timing de compra/venda de 0 a 10 para Bitcoin e as principais altcoins, para ver em que fase o mercado está agora.</p>
       <p class="tr">Zincir üstü ve teknik göstergeleri Bitcoin ve başlıca altcoinler için 0–10 alım/satım zamanlama puanında birleştirir; piyasanın şu an hangi aşamada olduğunu görebilirsiniz.</p>
       <p class="vi">Kết hợp các chỉ báo on-chain và kỹ thuật thành điểm thời điểm mua/bán từ 0–10 cho Bitcoin và các altcoin chính, để bạn thấy thị trường đang ở giai đoạn nào.</p>
+      <p class="id">Menggabungkan indikator on-chain dan teknikal menjadi skor timing beli/jual 0–10 untuk Bitcoin dan altcoin utama, sehingga Anda bisa melihat fase pasar saat ini.</p>
+      <p class="pl">Łączy wskaźniki on-chain i techniczne w wynik timingu kupna/sprzedaży od 0 do 10 dla Bitcoina i głównych altcoinów, dzięki czemu widzisz, w jakiej fazie jest teraz rynek.</p>
+      <p class="it">Combina indicatori on-chain e tecnici in un punteggio di timing di acquisto/vendita da 0 a 10 per Bitcoin e le principali altcoin, così puoi vedere in quale fase si trova ora il mercato.</p>
+      <p class="ru">Объединяет ончейн- и технические индикаторы в оценку тайминга покупки/продажи от 0 до 10 для Bitcoin и основных альткоинов, чтобы вы видели, в какой фазе сейчас рынок.</p>
+      <p class="zh">整合鏈上與技術指標，為比特幣與主要山寨幣算出 0–10 的買賣時機分數，讓你看出市場目前處於哪個階段。</p>
       </div>
     <?php
     // 2026-07 수정: <html lang="...">이 $lang(이 글에서 실제 렌더링된 언어, 번역 없으면 en 폴백) 기준이라
@@ -239,6 +249,11 @@ $renderOtherCard = function(string $rSlug, array $rA) use ($blogSuffix, $lang) {
     <a href="<?= h($mainHref) ?>" class="pt main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Ver análise ao vivo →</a>
     <a href="<?= h($mainHref) ?>" class="tr main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Canlı analizi gör →</a>
     <a href="<?= h($mainHref) ?>" class="vi main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Xem phân tích trực tiếp →</a>
+    <a href="<?= h($mainHref) ?>" class="id main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Lihat Analisis Langsung →</a>
+    <a href="<?= h($mainHref) ?>" class="pl main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Zobacz analizę na żywo →</a>
+    <a href="<?= h($mainHref) ?>" class="it main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Vedi l'analisi dal vivo →</a>
+    <a href="<?= h($mainHref) ?>" class="ru main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">Смотреть анализ в реальном времени →</a>
+    <a href="<?= h($mainHref) ?>" class="zh main-live-link" onclick="try{var _l=getBlogLang();if(window.BTLang){BTLang.save(_l);}else{localStorage.setItem('blogLang',_l);document.cookie='blogLang='+encodeURIComponent(_l)+'; path=/; max-age=31536000; SameSite=Lax';}}catch(e){}">查看即時分析 →</a>
   </div>
 </div><?php // /.wrap-main ?>
   <aside class="wrap-ad" aria-hidden="true"><!-- ad slot: 승인 후 채움 --></aside>
@@ -495,6 +510,7 @@ window.addEventListener('pageshow', function(e){ syncPrevNextLang(); });
       const copyBtn = bar.querySelector('[data-net="copy"]');
       if(copyBtn){
         copyBtn.addEventListener('click', () => {
+          const pageUrl = location.href;   // ★ 2026-07-18: pageUrl 이 정의된 적이 없어 복사 시 ReferenceError → 복사가 안 됐다. 클릭 시점의 URL 로 정의.
           const done = () => { copyBtn.classList.add('copied'); setTimeout(()=>copyBtn.classList.remove('copied'), 1500); };
           if(navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(pageUrl).then(done).catch(()=>{
