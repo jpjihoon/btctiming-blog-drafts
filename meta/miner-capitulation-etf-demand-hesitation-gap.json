@@ -61,5 +61,41 @@
   "desc_fr": "Le 11 juillet, le hashrate a chuté de 7,9 % en dix jours (selon Newhedge), entraînant la difficulté à la baisse de 5 % ; les réserves des mineurs sont passées de 1,86 million de BTC fin 2023 à environ 1,8 million, et RWATimes a rapporté des entrées d'origine minière de plus de 20 000 BTC rien que vers Binance. Pendant ce temps, les ETF spot américains, après une série de 10 séances et 2,73 milliards de dollars de sorties, ont vu une brève entrée de 510 millions de dollars mais restent à une sortie nette de 5,4 milliards de dollars depuis janvier (selon Farside et CoinDesk). Un examen d'une phase où un signal de capitulation côté offre coexiste avec une hésitation côté demande.",
   "desc_pt": "Em 11 de julho, o hashrate caiu 7,9% em dez dias (segundo a Newhedge), puxando a dificuldade 5% para baixo; as reservas dos mineradores caíram de 1,86 milhão de BTC no fim de 2023 para cerca de 1,8 milhão, e a RWATimes reportou entradas de origem minera de mais de 20.000 BTC somente para a Binance. Enquanto isso, os ETFs à vista dos EUA, após uma sequência de 10 sessões e US$ 2,73 bilhões em saídas, viram uma breve entrada de US$ 510 milhões, mas seguem em saída líquida de US$ 5,4 bilhões no acumulado do ano (segundo Farside e CoinDesk). Uma análise de uma fase em que um sinal de capitulação do lado da oferta coexiste com hesitação do lado da demanda.",
   "desc_tr": "11 Temmuz'da hashoranı on günde yüzde 7,9 düştü (Newhedge'e göre) ve zorluğu yüzde 5 aşağı çekti; madenci rezervleri 2023 sonundaki 1,86 milyon BTC'den yaklaşık 1,8 milyona geriledi ve RWATimes yalnızca Binance'a madenci kaynaklı 20.000 BTC'yi aşan giriş bildirdi. Bu arada ABD spot ETF'leri, 10 seanslık 2,73 milyar dolarlık çıkış serisinin ardından kısa süreli 510 milyon dolarlık giriş gördü ama yıl başından bu yana hâlâ 5,4 milyar dolarlık net çıkışta (Farside ve CoinDesk'e göre). Arz tarafında bir teslimiyet sinyaliyle talep tarafındaki tereddüdün bir arada var olduğu bir aşamaya bakış.",
-  "desc_vi": "Vào ngày 11 tháng 7, hashrate giảm 7,9% trong mười ngày (theo Newhedge), kéo độ khó giảm 5%; dự trữ của thợ đào đã giảm từ 1,86 triệu BTC cuối năm 2023 xuống còn khoảng 1,8 triệu, và RWATimes báo cáo dòng vào có nguồn gốc từ thợ đào hơn 20.000 BTC chỉ riêng vào Binance. Trong khi đó, các ETF giao ngay của Mỹ, sau chuỗi 10 phiên rút ròng 2,73 tỷ đô la, đã có một đợt vào ròng ngắn 510 triệu đô la nhưng vẫn ở mức rút ròng 5,4 tỷ đô la tính từ đầu năm (theo Farside và CoinDesk). Một góc nhìn về giai đoạn mà tín hiệu đầu hàng từ phía cung cùng tồn tại với sự do dự từ phía cầu."
+  "desc_vi": "Vào ngày 11 tháng 7, hashrate giảm 7,9% trong mười ngày (theo Newhedge), kéo độ khó giảm 5%; dự trữ của thợ đào đã giảm từ 1,86 triệu BTC cuối năm 2023 xuống còn khoảng 1,8 triệu, và RWATimes báo cáo dòng vào có nguồn gốc từ thợ đào hơn 20.000 BTC chỉ riêng vào Binance. Trong khi đó, các ETF giao ngay của Mỹ, sau chuỗi 10 phiên rút ròng 2,73 tỷ đô la, đã có một đợt vào ròng ngắn 510 triệu đô la nhưng vẫn ở mức rút ròng 5,4 tỷ đô la tính từ đầu năm (theo Farside và CoinDesk). Một góc nhìn về giai đoạn mà tín hiệu đầu hàng từ phía cung cùng tồn tại với sự do dự từ phía cầu.",
+
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
+
+  "tag_id": "Sinyal Kapitulasi Penambang",
+  "tag_pl": "Sygnał Kapitulacji Górników",
+  "tag_it": "Segnale di Capitolazione dei Miner",
+  "tag_ru": "Сигнал капитуляции майнеров",
+  "tag_zh": "礦工投降信號",
+
+  "title_id": "Para Penambang Memancarkan Sinyal Kapitulasi — Arus Dana ETF Belum Merespons",
+  "title_pl": "Górnicy Wysyłają Sygnały Kapitulacji — Przepływy ETF Wciąż Nie Odpowiedziały",
+  "title_it": "I Miner Lanciano Segnali di Capitolazione — I Flussi ETF Non Hanno Ancora Risposto",
+  "title_ru": "Майнеры подают сигналы капитуляции — потоки ETF пока не ответили",
+  "title_zh": "礦工發出投降信號——ETF資金尚未回應",
+
+  "h1_id": "Hashrate Turun 7,9%, Tingkat Kesulitan Dipangkas 5%, dan Cadangan Penambang Menyusut,<br>Sementara ETF Masih Terjebak pada Arus Keluar Bersih Tahun Berjalan Sebesar $5,4 Miliar",
+  "h1_pl": "Hashrate Spada o 7,9%, Trudność Obcięta o 5%, a Rezerwy Górników Się Kurczą,<br>Podczas Gdy ETF-y Wciąż Tkwią w Odpływie Netto od Początku Roku Wynoszącym 5,4 mld Dolarów",
+  "h1_it": "Hashrate in Calo del 7,9%, Difficoltà Tagliata del 5% e Riserve dei Miner in Contrazione,<br>Mentre gli ETF Restano Bloccati a un Deflusso Netto da Inizio Anno di 5,4 Miliardi di Dollari",
+  "h1_ru": "Хэшрейт упал на 7,9%, сложность снижена на 5%, резервы майнеров сокращаются,<br>пока ETF всё ещё застряли на чистом оттоке с начала года в $5,4 млрд",
+  "h1_zh": "算力下滑7.9%、難度下調5%,礦工儲備持續萎縮,<br>ETF仍深陷年初至今淨流出54億美元的困境",
+
+  "bc_id": "Kapitulasi Penambang vs. Pemeriksaan Arus Dana ETF",
+  "bc_pl": "Kapitulacja Górników vs. Kontrola Przepływów ETF",
+  "bc_it": "Capitolazione dei Miner vs. Verifica dei Flussi ETF",
+  "bc_ru": "Капитуляция майнеров vs. проверка потоков ETF",
+  "bc_zh": "礦工投降 vs. ETF資金流檢視",
+
+  "desc_id": "Pada 11 Juli, hashrate turun 7,9% dalam sepuluh hari (menurut Newhedge), menarik tingkat kesulitan turun 5%; cadangan penambang telah merosot dari 1,86 juta BTC pada akhir 2023 menjadi sekitar 1,8 juta, dan RWATimes melaporkan arus masuk yang berasal dari penambang lebih dari 20.000 BTC ke Binance saja. Sementara itu, ETF spot AS, setelah rangkaian arus keluar 10 sesi senilai $2,73 miliar, mengalami arus masuk sesaat sebesar $510 juta tetapi tetap berada pada arus keluar bersih $5,4 miliar sejak awal tahun (menurut Farside dan CoinDesk). Tinjauan atas fase di mana sinyal kapitulasi sisi penawaran hidup berdampingan dengan keraguan sisi permintaan.",
+  "desc_pl": "11 lipca hashrate spadł o 7,9% w ciągu dziesięciu dni (według Newhedge), ściągając trudność w dół o 5%; rezerwy górników zsunęły się z 1,86 mln BTC na koniec 2023 roku do około 1,8 mln, a RWATimes podał, że napływy pochodzące od górników przekroczyły 20 000 BTC samo tylko na Binance. Tymczasem amerykańskie ETF-y spot, po 10-sesyjnej serii odpływów o wartości 2,73 mld dolarów, odnotowały krótkotrwały napływ 510 mln dolarów, ale wciąż pozostają przy odpływie netto 5,4 mld dolarów od początku roku (według Farside i CoinDesk). Spojrzenie na fazę, w której sygnał kapitulacji po stronie podaży współistnieje z wahaniem po stronie popytu.",
+  "desc_it": "L'11 luglio l'hashrate è sceso del 7,9% in dieci giorni (secondo Newhedge), trascinando la difficoltà in basso del 5%; le riserve dei miner sono scivolate da 1,86 milioni di BTC a fine 2023 a circa 1,8 milioni, e RWATimes ha riportato afflussi di origine mineraria per oltre 20.000 BTC verso Binance da sola. Nel frattempo, gli ETF spot statunitensi, dopo una serie di 10 sessioni e 2,73 miliardi di dollari di deflussi, hanno visto un breve afflusso di 510 milioni di dollari ma restano a un deflusso netto di 5,4 miliardi di dollari da inizio anno (secondo Farside e CoinDesk). Uno sguardo su una fase in cui un segnale di capitolazione lato offerta coesiste con l'esitazione lato domanda.",
+  "desc_ru": "11 июля хэшрейт упал на 7,9% за десять дней (по данным Newhedge), опустив сложность на 5%; резервы майнеров снизились с 1,86 млн BTC на конец 2023 года до примерно 1,8 млн, а RWATimes сообщил о притоках от майнеров свыше 20 000 BTC только на Binance. Между тем спотовые ETF в США после 10-сессионной серии оттоков на $2,73 млрд увидели кратковременный приток в $510 млн, но по-прежнему остаются на чистом оттоке в $5,4 млрд с начала года (по данным Farside и CoinDesk). Взгляд на фазу, в которой сигнал капитуляции со стороны предложения сосуществует с колебаниями со стороны спроса.",
+  "desc_zh": "7月11日,算力在十天內下降7.9%(據Newhedge),使難度下調5%;礦工儲備已從2023年底的186萬枚BTC降至約180萬枚,RWATimes報導僅流入幣安的礦工來源資金就超過2萬枚BTC。與此同時,美國現貨ETF在連續10個交易日、27.3億美元資金流出後,曾短暫獲得5億1,000萬美元流入,但年初至今累計仍為淨流出54億美元(據Farside與CoinDesk)。本文檢視了供給端投降信號與需求端猶豫並存的階段。"
 }
