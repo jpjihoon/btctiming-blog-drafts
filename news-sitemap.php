@@ -33,6 +33,13 @@ if (!in_array('ko', $LANGS, true)) array_unshift($LANGS, 'ko');
 
 header('Content-Type: application/xml; charset=UTF-8');
 
+// 응답 gzip 압축: Cafe24 mod_deflate가 PHP 동적출력에 안 걸려 미압축으로 나가던 문제 해결
+if (!ini_get('zlib.output_compression')
+    && extension_loaded('zlib')
+    && strpos($_SERVER['HTTP_ACCEPT_ENCODING'] ?? '', 'gzip') !== false) {
+    @ob_start('ob_gzhandler');
+}
+
 // ────────────────────────────────────────────────────────────────────────
 //  (A) lang 파라미터가 없거나 유효하지 않으면 → 사이트맵 인덱스 출력
 // ────────────────────────────────────────────────────────────────────────
