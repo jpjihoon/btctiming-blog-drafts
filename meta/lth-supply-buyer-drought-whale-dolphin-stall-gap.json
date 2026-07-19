@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "LTH 공급 사상 최고·고래·돌고래 잔고 정체",
   "tag_en": "LTH Supply Record vs. Whale-Dolphin Balance Stall",
@@ -22,6 +27,11 @@
   "tag_pt": "Recorde de Oferta LTH vs. Estagnação Baleias-Golfinhos",
   "tag_tr": "LTH Arz Rekoru ile Balina-Yunus Durgunluğu",
   "tag_vi": "Kỷ Lục Nguồn Cung LTH và Cá Voi-Cá Heo Đình Trệ",
+  "tag_id": "Rekor Pasokan LTH vs. Kemandekan Saldo Paus-Lumba",
+  "tag_pl": "Rekord Podaży LTH a Zastój Sald Wielorybów-Delfinów",
+  "tag_it": "Record Offerta LTH vs. Stallo Saldi Balene-Delfini",
+  "tag_ru": "Рекорд Предложения LTH против Застоя Балансов Китов-Дельфинов",
+  "tag_zh": "LTH供應創紀錄vs.巨鯨海豚餘額停滯",
 
   "title_ko": "장기보유자 공급은 사상 최고치인데, 그 뒤에서 고래와 돌고래는 손을 멈췄다",
   "title_en": "Long-Term Holder Supply Just Hit a Record — But Whales and Dolphins Stopped Buying",
@@ -32,6 +42,11 @@
   "title_pt": "A Oferta de Holders de Longo Prazo Bate Recorde — Mas Baleias e Golfinhos Pararam de Comprar",
   "title_tr": "Uzun Vadeli Holder Arzı Rekor Kırdı — Ama Balinalar ve Yunuslar Almayı Bıraktı",
   "title_vi": "Nguồn Cung Người Nắm Giữ Dài Hạn Lập Kỷ Lục — Nhưng Cá Voi và Cá Heo Đã Ngừng Mua",
+  "title_id": "Pasokan Pemegang Jangka Panjang Baru Saja Catat Rekor — Tapi Paus dan Lumba-Lumba Berhenti Membeli",
+  "title_pl": "Podaż Długoterminowych Posiadaczy Właśnie Pobiła Rekord — Ale Wieloryby i Delfiny Przestały Kupować",
+  "title_it": "L'Offerta degli Holder di Lungo Termine Ha Appena Toccato un Record — Ma Balene e Delfini Hanno Smesso di Comprare",
+  "title_ru": "Предложение Долгосрочных Держателей Только Что Обновило Рекорд — Но Киты и Дельфины Перестали Покупать",
+  "title_zh": "長期持有者供應量剛創下歷史新高——但巨鯨與海豚已停止買進",
 
   "h1_ko": "기록적인 장기보유자 공급 뒤에 숨은 것은<br>매수자 가뭄일 수도 있다",
   "h1_en": "Behind the Record Long-Term Holder Supply<br>May Be a Buyer Drought",
@@ -42,6 +57,11 @@
   "h1_pt": "Por Trás do Recorde de Oferta de Holders de Longo Prazo<br>Pode Estar uma Seca de Compradores",
   "h1_tr": "Rekor Uzun Vadeli Holder Arzının Arkasında<br>Bir Alıcı Kuraklığı Olabilir",
   "h1_vi": "Đằng Sau Kỷ Lục Nguồn Cung Người Nắm Giữ Dài Hạn<br>Có Thể Là Một Cơn Hạn Hán Người Mua",
+  "h1_id": "Di Balik Rekor Pasokan Pemegang Jangka Panjang<br>Mungkin Ada Kekeringan Pembeli",
+  "h1_pl": "Za Rekordową Podażą Długoterminowych Posiadaczy<br>Może Kryć Się Susza Kupujących",
+  "h1_it": "Dietro il Record dell'Offerta degli Holder di Lungo Termine<br>Potrebbe Esserci una Siccità di Acquirenti",
+  "h1_ru": "За Рекордным Предложением Долгосрочных Держателей<br>Может Скрываться Засуха Покупателей",
+  "h1_zh": "長期持有者供應量創新高的背後<br>可能是一場買家乾旱",
 
   "bc_ko": "LTH 공급·매수자 가뭄 점검",
   "bc_en": "LTH Supply · Buyer Drought Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação: Oferta LTH e Seca de Compradores",
   "bc_tr": "LTH Arzı ve Alıcı Kuraklığı İncelemesi",
   "bc_vi": "Kiểm Tra Nguồn Cung LTH và Hạn Hán Người Mua",
+  "bc_id": "Pemeriksaan Pasokan LTH · Kekeringan Pembeli",
+  "bc_pl": "Sprawdzenie Podaży LTH i Suszy Kupujących",
+  "bc_it": "Verifica Offerta LTH e Siccità di Acquirenti",
+  "bc_ru": "Проверка Предложения LTH и Засухи Покупателей",
+  "bc_zh": "LTH供應與買家乾旱檢視",
 
   "desc_ko": "비트코인은 7월13일 새벽 기준 6만4,000달러 안팎, 최근 12시간 6만3,700~6만4,550달러 박스권에서 6월30일 저점 5만7,900달러 대비 11% 넘게 반등했다. 글래스노드 기준 장기보유자(LTH) 공급은 1,664만 BTC(유통량의 약 83%)로 2024년1월 이후 최고치에 근접했지만, 크립토퀀트는 같은 흐름을 '매수자 가뭄'으로 읽는다 — 단기보유자 공급이 지난해 12월 대비 약 220만 BTC 줄며 코인이 단순히 155일 문턱을 넘어 통계가 이동했을 뿐이라는 것이다. 1,000~1만 BTC 고래 잔고는 2월 이후 정체, 100~1,000 BTC 돌고래 증가세도 지난해 9월 이후 급격히 둔화됐다. 선물 미결제약정은 6월28일 440억9,000만달러까지 줄었다가 숏스퀴즈(7월7일 전후 24시간 5억달러+ 청산)를 거쳐 7월11일 477억1,000만달러까지 회복됐지만 펀딩비는 내내 중립(0.0087%/4h)을 유지했다. 장기보유자 공급 신기록·고래-돌고래 잔고 정체·레버리지 성격을 세 갈래로 겹쳐본다.",
   "desc_en": "Bitcoin traded around $64,000 as of early morning July 13, holding a $63,700-$64,550 range over the past 12 hours — up more than 11% from the June 30 low of $57,900. By Glassnode's count, long-term holder (LTH) supply has climbed to 16.64 million BTC (roughly 83% of circulating supply), nearing the record set in January 2024, but CryptoQuant reads the same trend as a 'buyer drought' — short-term holder supply fell roughly 2.2 million BTC from its December level as coins simply aged past the 155-day threshold. Whale balances (1,000-10,000 BTC) have flatlined since February, and dolphin growth (100-1,000 BTC) has decelerated sharply since last September. Futures open interest fell to $44.09 billion by June 28, then rebuilt to $47.71 billion by July 11 through a short squeeze (over $500 million liquidated in 24 hours around July 7), while funding rates stayed near-neutral (0.0087%/4h) throughout. A look at the record LTH supply, the whale-dolphin balance stall, and the character of that leverage overlaid together.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé autour de 64 000 dollars au petit matin du 13 juillet, se maintenant dans une fourchette de 63 700 à 64 550 dollars au cours des 12 dernières heures — plus de 11 % au-dessus du plus bas du 30 juin à 57 900 dollars. Selon Glassnode, l'offre des détenteurs de long terme (LTH) a grimpé à 16,64 millions de BTC (environ 83 % de l'offre en circulation), s'approchant du record de janvier 2024, mais CryptoQuant lit la même tendance comme une « sécheresse d'acheteurs » — l'offre des détenteurs de court terme a chuté d'environ 2,2 millions de BTC depuis décembre, les pièces franchissant simplement le seuil des 155 jours. Les soldes des baleines (1 000-10 000 BTC) sont gelés depuis février, et la croissance des dauphins (100-1 000 BTC) a nettement ralenti depuis septembre dernier. L'interest ouvert des futures est tombé à 44,09 milliards de dollars vers le 28 juin, puis s'est reconstruit à 47,71 milliards de dollars vers le 11 juillet via un short squeeze (plus de 500 millions de dollars liquidés en 24 heures autour du 7 juillet), tandis que les taux de financement sont restés quasi neutres tout du long (0,0087 %/4h). Un examen qui superpose le record d'offre LTH, la stagnation baleines-dauphins et la nature de ce levier.",
   "desc_pt": "O bitcoin foi negociado em torno de US$ 64.000 no início da manhã de 13 de julho, mantendo uma faixa de US$ 63.700-US$ 64.550 nas últimas 12 horas — mais de 11% acima da mínima de 30 de junho, de US$ 57.900. Segundo a Glassnode, a oferta de holders de longo prazo (LTH) subiu para 16,64 milhões de BTC (cerca de 83% da oferta circulante), aproximando-se do recorde de janeiro de 2024, mas a CryptoQuant lê a mesma tendência como uma 'seca de compradores' — a oferta de holders de curto prazo caiu cerca de 2,2 milhões de BTC desde dezembro à medida que as moedas simplesmente ultrapassavam o limiar de 155 dias. Os saldos de baleias (1.000-10.000 BTC) estão estagnados desde fevereiro, e o crescimento de golfinhos (100-1.000 BTC) desacelerou bruscamente desde setembro passado. O interesse em aberto de futuros caiu para US$ 44,09 bilhões até 28 de junho, depois se reconstruiu para US$ 47,71 bilhões até 11 de julho por meio de um short squeeze (mais de US$ 500 milhões liquidados em 24 horas em torno de 7 de julho), enquanto as taxas de financiamento permaneceram quase neutras o tempo todo (0,0087%/4h). Uma análise que sobrepõe o recorde de oferta LTH, a estagnação baleias-golfinhos e a natureza dessa alavancagem.",
   "desc_tr": "Bitcoin 13 Temmuz sabahı erken saatlerde 64.000 dolar civarında işlem gördü ve son 12 saatte 63.700-64.550 dolar aralığında kaldı — 30 Haziran'daki 57.900 dolarlık dipten %11'in üzerinde bir artış. Glassnode'a göre uzun vadeli holder (LTH) arzı 16,64 milyon BTC'ye (dolaşımdaki arzın yaklaşık %83'ü) yükseldi ve Ocak 2024'teki rekora yaklaştı, ama CryptoQuant aynı eğilimi 'alıcı kuraklığı' olarak okuyor — kısa vadeli holder arzı Aralık'a göre yaklaşık 2,2 milyon BTC düştü, çünkü coinler sadece 155 günlük eşiği geçti. Balina bakiyeleri (1.000-10.000 BTC) Şubat'tan beri durağan, yunus büyümesi (100-1.000 BTC) ise geçen Eylül'den beri keskin şekilde yavaşladı. Vadeli işlem açık pozisyonu 28 Haziran'a kadar 44,09 milyar dolara düştü, ardından bir short squeeze ile (7 Temmuz civarında 24 saatte 500 milyon doların üzerinde tasfiye) 11 Temmuz'a kadar 47,71 milyar dolara yeniden kuruldu, fonlama oranları ise boyunca neredeyse nötr kaldı (%0,0087/4sa). Rekor LTH arzını, balina-yunus durgunluğunu ve bu kaldıracın karakterini üst üste koyan bir bakış.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào rạng sáng ngày 13 tháng 7, duy trì biên độ 63.700-64.550 đô la trong 12 giờ qua — tăng hơn 11% so với đáy 57.900 đô la ngày 30 tháng 6. Theo Glassnode, nguồn cung người nắm giữ dài hạn (LTH) đã tăng lên 16,64 triệu BTC (khoảng 83% nguồn cung lưu hành), tiến gần kỷ lục thiết lập vào tháng 1 năm 2024, nhưng CryptoQuant đọc cùng xu hướng đó là 'hạn hán người mua' — nguồn cung người nắm giữ ngắn hạn giảm khoảng 2,2 triệu BTC so với tháng 12 khi coin chỉ đơn giản vượt qua ngưỡng 155 ngày. Số dư cá voi (1.000-10.000 BTC) đã đứng yên từ tháng 2, và tăng trưởng cá heo (100-1.000 BTC) đã giảm tốc mạnh kể từ tháng 9 năm ngoái. Khối lượng hợp đồng mở của hợp đồng tương lai giảm xuống còn 44,09 tỷ đô la vào ngày 28 tháng 6, sau đó tái xây dựng lên 47,71 tỷ đô la vào ngày 11 tháng 7 qua một đợt short squeeze (hơn 500 triệu đô la bị thanh lý trong 24 giờ quanh ngày 7 tháng 7), trong khi tỷ lệ tài trợ vẫn gần như trung lập suốt thời gian đó (0,0087%/4 giờ). Một góc nhìn xếp chồng kỷ lục nguồn cung LTH, sự đình trệ cá voi-cá heo, và bản chất của đòn bẩy đó."
+  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào rạng sáng ngày 13 tháng 7, duy trì biên độ 63.700-64.550 đô la trong 12 giờ qua — tăng hơn 11% so với đáy 57.900 đô la ngày 30 tháng 6. Theo Glassnode, nguồn cung người nắm giữ dài hạn (LTH) đã tăng lên 16,64 triệu BTC (khoảng 83% nguồn cung lưu hành), tiến gần kỷ lục thiết lập vào tháng 1 năm 2024, nhưng CryptoQuant đọc cùng xu hướng đó là 'hạn hán người mua' — nguồn cung người nắm giữ ngắn hạn giảm khoảng 2,2 triệu BTC so với tháng 12 khi coin chỉ đơn giản vượt qua ngưỡng 155 ngày. Số dư cá voi (1.000-10.000 BTC) đã đứng yên từ tháng 2, và tăng trưởng cá heo (100-1.000 BTC) đã giảm tốc mạnh kể từ tháng 9 năm ngoái. Khối lượng hợp đồng mở của hợp đồng tương lai giảm xuống còn 44,09 tỷ đô la vào ngày 28 tháng 6, sau đó tái xây dựng lên 47,71 tỷ đô la vào ngày 11 tháng 7 qua một đợt short squeeze (hơn 500 triệu đô la bị thanh lý trong 24 giờ quanh ngày 7 tháng 7), trong khi tỷ lệ tài trợ vẫn gần như trung lập suốt thời gian đó (0,0087%/4 giờ). Một góc nhìn xếp chồng kỷ lục nguồn cung LTH, sự đình trệ cá voi-cá heo, và bản chất của đòn bẩy đó.",
+  "desc_id": "Pasokan LTH BTC catat rekor 16,64 juta, tapi CryptoQuant sebut 'kekeringan pembeli' — saldo paus-lumba mandek, leverage pulih hati-hati usai dip Juni.",
+  "desc_pl": "Podaż LTH BTC ma rekord 16,64 mln, lecz CryptoQuant zwie to „suszą kupujących” — salda wielorybów i delfinów stoją, dźwignia wraca ostrożnie po dołku.",
+  "desc_it": "L'offerta LTH BTC ha un record di 16,64 milioni, ma CryptoQuant la chiama 'siccità di acquirenti': balene e delfini fermi, leva ricostruita con cautela.",
+  "desc_ru": "Предложение LTH BTC — рекордные 16,64 млн, но CryptoQuant зовёт это «засухой покупателей»: балансы китов и дельфинов застыли, плечо растёт осторожно.",
+  "desc_zh": "根據Glassnode統計,長期持有者(LTH)BTC供應量創下1,664萬枚歷史新高,但CryptoQuant將其解讀為「買家乾旱」——巨鯨與海豚兩大族群餘額陷入停滯,槓桿於6月低點後謹慎重建,顯示反彈背後買盤動能仍顯薄弱且不夠積極堅定。"
 }
