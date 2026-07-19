@@ -12,6 +12,11 @@
   "read_pt": "9",
   "read_tr": "9",
   "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9",
 
   "tag_ko": "NUPL 회복·CME 방어적 포지셔닝",
   "tag_en": "NUPL Recovery & CME Defensive Positioning",
@@ -22,6 +27,11 @@
   "tag_pt": "Recuperação do NUPL e Posicionamento Defensivo da CME",
   "tag_tr": "NUPL Toparlanması ve CME Savunmacı Konumlanma",
   "tag_vi": "Phục Hồi NUPL và Vị Thế Phòng Thủ CME",
+  "tag_id": "Pemulihan NUPL & Posisi Defensif CME",
+  "tag_pl": "Odbicie NUPL i Defensywne Pozycjonowanie CME",
+  "tag_it": "Ripresa del NUPL e Posizionamento Difensivo del CME",
+  "tag_ru": "Восстановление NUPL и Защитное Позиционирование CME",
+  "tag_zh": "NUPL回升與CME防禦性部位",
 
   "title_ko": "NUPL은 0.20까지 올랐지만, CME 선물시장은 여전히 방어적이다",
   "title_en": "NUPL Climbs to 0.20 — But CME Futures Positioning Stays Defensive",
@@ -32,6 +42,11 @@
   "title_pt": "NUPL Sobe Para 0,20 — Mas o Posicionamento nos Futuros da CME Continua Defensivo",
   "title_tr": "NUPL 0,20'ye Yükseldi — Ama CME Vadeli İşlem Konumlanması Savunmacı Kalıyor",
   "title_vi": "NUPL Tăng Lên 0,20 — Nhưng Vị Thế Trên Hợp Đồng Tương Lai CME Vẫn Phòng Thủ",
+  "title_id": "NUPL Naik ke 0,20 — Tapi Posisi Kontrak Berjangka CME Tetap Defensif",
+  "title_pl": "NUPL Wzrasta do 0,20 — Ale Pozycjonowanie na Futures CME Pozostaje Defensywne",
+  "title_it": "Il NUPL Sale a 0,20 — Ma il Posizionamento sui Futures del CME Resta Difensivo",
+  "title_ru": "NUPL Поднимается до 0,20 — Но Позиционирование на Фьючерсах CME Остаётся Защитным",
+  "title_zh": "NUPL攀升至0.20——但CME期貨部位依然防禦",
 
   "h1_ko": "온체인 이익 지표와 ETF 자금은 조금씩 회복되는데,<br>기관들의 CME 선물 포지셔닝은 아직 그 흐름을 확인해주지 않는다",
   "h1_en": "On-Chain Profit Gauges and ETF Flows Are Slowly Recovering,<br>But Institutions' CME Futures Positioning Isn't Confirming It Yet",
@@ -42,6 +57,11 @@
   "h1_pt": "Indicadores de Lucro On-Chain e Fluxos de ETF Estão se Recuperando Aos Poucos,<br>Mas o Posicionamento nos Futuros da CME das Instituições Ainda Não Confirma Isso",
   "h1_tr": "Zincir Üstü Kâr Göstergeleri ve ETF Akışları Yavaş Yavaş Toparlanıyor,<br>Ama Kurumların CME Vadeli İşlem Konumlanması Bunu Henüz Doğrulamıyor",
   "h1_vi": "Các Chỉ Báo Lợi Nhuận On-Chain và Dòng Vốn ETF Đang Phục Hồi Từ Từ,<br>Nhưng Vị Thế Hợp Đồng Tương Lai CME Của Các Tổ Chức Vẫn Chưa Xác Nhận Điều Đó",
+  "h1_id": "Indikator Laba On-Chain dan Arus Dana ETF Perlahan Pulih,<br>Tapi Posisi Kontrak Berjangka CME Milik Institusi Belum Mengonfirmasinya",
+  "h1_pl": "Wskaźniki Zysku On-Chain i Przepływy ETF Powoli Się Odbudowują,<br>Ale Pozycjonowanie Instytucji na Kontraktach Terminowych CME Wciąż Tego Nie Potwierdza",
+  "h1_it": "Gli Indicatori di Profitto On-Chain e i Flussi degli ETF Si Stanno Riprendendo Lentamente,<br>Ma il Posizionamento delle Istituzioni sui Futures del CME Non Lo Conferma Ancora",
+  "h1_ru": "Ончейн-Показатели Прибыли и Потоки ETF Медленно Восстанавливаются,<br>Но Позиционирование Институтов на Фьючерсах CME Пока Это Не Подтверждает",
+  "h1_zh": "鏈上獲利指標與ETF資金流緩步回升,<br>但機構的CME期貨部位尚未證實這一趨勢",
 
   "bc_ko": "NUPL·CME 선물 포지셔닝 점검",
   "bc_en": "NUPL & CME Futures Positioning Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação de NUPL e Posicionamento nos Futuros da CME",
   "bc_tr": "NUPL ve CME Vadeli İşlem Konumlanması İncelemesi",
   "bc_vi": "Kiểm Tra NUPL và Vị Thế Hợp Đồng Tương Lai CME",
+  "bc_id": "Pemeriksaan Posisi NUPL & Kontrak Berjangka CME",
+  "bc_pl": "Weryfikacja NUPL i Pozycjonowania na Kontraktach Terminowych CME",
+  "bc_it": "Verifica del NUPL e del Posizionamento sui Futures del CME",
+  "bc_ru": "Проверка NUPL и Позиционирования на Фьючерсах CME",
+  "bc_zh": "NUPL與CME期貨部位檢視",
 
   "desc_ko": "비트코인은 5만7,900달러 저점에서 반등해 6만4,000달러대를 지키고 있다. 이 사이 크립토퀀트 기준 NUPL은 7월3일 0.15에서 최근 0.20 안팎까지 올랐지만 '낙관' 문턱인 0.25에는 못 미치고, 30일 평균은 오히려 전월 대비 24.6% 낮다. 현물 ETF는 6월 약 40억~45억 달러 순유출 이후 7월 들어 소폭 순유입(7/2 +2.22억, 7/9까지 3일 +5.1억, 7/10 +9,040만 달러)으로 돌아섰지만 규모는 유출분의 10분의 1에도 못 미친다. 반면 기관 중심의 CME 비트코인 선물은 미결제약정이 다개월 저점 부근에 머물고 풋옵션이 콜옵션을 웃도는 방어적 포지셔닝을 유지했다. 가격·ETF·온체인 지표가 회복 신호를 보내는 동안 기관 파생시장의 포지셔닝은 가장 느리게 움직이고 있는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin bounced off a $57,900 low and is holding in the mid-$64,000s. Meanwhile CryptoQuant's NUPL climbed from 0.15 on July 3 to around 0.20 recently, still short of the 0.25 'optimism' threshold, while its 30-day average is actually down 24.6% from a month ago. Spot ETFs turned from a roughly $4.0-4.5 billion June net outflow to modest July inflows (+$221.72M on 7/2, +$510M over three days through 7/9, +$90.4M on 7/10) — but the recovery is under a tenth of the outflow. Meanwhile institution-heavy CME Bitcoin futures kept open interest near multi-month lows with put open interest outweighing calls, a defensive posture. A look at a phase where price, ETF flows, and on-chain gauges are all sending recovery signals while positioning in the institutional derivatives market moves slowest of all.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin a rebondi depuis un plus bas de 57 900 dollars et se maintient dans la zone médiane des 64 000 dollars. Pendant ce temps, le NUPL de CryptoQuant est passé de 0,15 le 3 juillet à environ 0,20 récemment, encore sous le seuil d'« optimisme » de 0,25, tandis que sa moyenne sur 30 jours est en fait en baisse de 24,6 % par rapport à il y a un mois. Les ETF au comptant sont passés d'une sortie nette de juin d'environ 4,0 à 4,5 milliards de dollars à de modestes entrées en juillet (+221,72 M$ le 7/2, +510 M$ sur trois jours jusqu'au 7/9, +90,4 M$ le 7/10) — mais la reprise reste sous un dixième de la sortie. Pendant ce temps, les futures Bitcoin du CME, dominés par les institutions, ont maintenu un open interest proche de ses plus bas depuis plusieurs mois, avec un open interest de puts dépassant celui des calls, une posture défensive. Un examen d'une phase où le prix, les flux d'ETF et les indicateurs on-chain envoient tous des signaux de reprise tandis que le positionnement sur le marché des dérivés institutionnel évolue le plus lentement de tous.",
   "desc_pt": "O bitcoin saltou de uma mínima de $57.900 e se mantém na faixa média dos $64.000. Enquanto isso, o NUPL da CryptoQuant subiu de 0,15 em 3 de julho para cerca de 0,20 recentemente, ainda abaixo do limiar de 'otimismo' de 0,25, enquanto sua média de 30 dias está, na verdade, 24,6% abaixo da de um mês atrás. Os ETFs à vista passaram de uma saída líquida de junho de cerca de US$ 4,0-4,5 bilhões para entradas modestas em julho (+US$ 221,72M em 7/2, +US$ 510M em três dias até 7/9, +US$ 90,4M em 7/10) — mas a recuperação é inferior a um décimo da saída. Enquanto isso, os futuros de Bitcoin da CME, dominados por instituições, mantiveram o open interest perto de mínimas de vários meses, com o open interest de puts superando o de calls, uma postura defensiva. Uma análise de uma fase em que preço, fluxos de ETF e indicadores on-chain enviam sinais de recuperação enquanto o posicionamento no mercado de derivativos institucional se move mais devagar que todos os outros.",
   "desc_tr": "Bitcoin, 57.900 dolarlık dipten sıçradı ve 64.000'li seviyelerin ortasında tutunuyor. Bu arada CryptoQuant'ın NUPL'si 3 Temmuz'daki 0,15'ten yakın zamanda yaklaşık 0,20'ye yükseldi, ama hâlâ 0,25 'iyimserlik' eşiğinin altında; 30 günlük ortalaması ise aslında bir ay öncesine göre %24,6 daha düşük. Spot ETF'ler, Haziran'daki yaklaşık 4,0-4,5 milyar dolarlık net çıkıştan Temmuz'da mütevazı girişlere döndü (7/2'de +221,72M$, 7/9'a kadar üç günde +510M$, 7/10'da +90,4M$) — ama toparlanma çıkışın onda birinin altında kalıyor. Bu arada kurumların ağırlıklı olduğu CME Bitcoin vadeli işlemleri, açık pozisyonu çok aylık diplere yakın tutarken put açık pozisyonu call'ları aşan savunmacı bir duruş sergiledi. Fiyat, ETF akışları ve zincir üstü göstergelerin hepsi toparlanma sinyali gönderirken kurumsal türev piyasasındaki konumlanmanın hepsinden en yavaş hareket ettiği bir aşamaya bakış.",
-  "desc_vi": "Bitcoin đã bật lên từ đáy 57.900 đô la và giữ vững quanh vùng 64.000 đô la. Trong khi đó, NUPL của CryptoQuant tăng từ 0,15 vào ngày 3 tháng 7 lên khoảng 0,20 gần đây, vẫn chưa đạt ngưỡng 'lạc quan' 0,25, trong khi mức trung bình 30 ngày của nó thực chất thấp hơn 24,6% so với một tháng trước. Các quỹ ETF giao ngay chuyển từ mức rút ròng khoảng 4,0-4,5 tỷ đô la trong tháng 6 sang dòng vào khiêm tốn trong tháng 7 (+221,72 triệu đô la vào 7/2, +510 triệu đô la trong ba ngày tính đến 7/9, +90,4 triệu đô la vào 7/10) — nhưng mức phục hồi vẫn dưới một phần mười so với dòng rút. Trong khi đó, hợp đồng tương lai Bitcoin của CME, nơi các tổ chức chiếm ưu thế, giữ khối lượng hợp đồng mở gần mức thấp nhất nhiều tháng với khối lượng hợp đồng mở put vượt call, một tư thế phòng thủ. Một góc nhìn về giai đoạn mà giá, dòng vốn ETF và các chỉ báo on-chain đều gửi tín hiệu phục hồi trong khi vị thế trên thị trường phái sinh tổ chức di chuyển chậm nhất trong tất cả."
+  "desc_vi": "Bitcoin đã bật lên từ đáy 57.900 đô la và giữ vững quanh vùng 64.000 đô la. Trong khi đó, NUPL của CryptoQuant tăng từ 0,15 vào ngày 3 tháng 7 lên khoảng 0,20 gần đây, vẫn chưa đạt ngưỡng 'lạc quan' 0,25, trong khi mức trung bình 30 ngày của nó thực chất thấp hơn 24,6% so với một tháng trước. Các quỹ ETF giao ngay chuyển từ mức rút ròng khoảng 4,0-4,5 tỷ đô la trong tháng 6 sang dòng vào khiêm tốn trong tháng 7 (+221,72 triệu đô la vào 7/2, +510 triệu đô la trong ba ngày tính đến 7/9, +90,4 triệu đô la vào 7/10) — nhưng mức phục hồi vẫn dưới một phần mười so với dòng rút. Trong khi đó, hợp đồng tương lai Bitcoin của CME, nơi các tổ chức chiếm ưu thế, giữ khối lượng hợp đồng mở gần mức thấp nhất nhiều tháng với khối lượng hợp đồng mở put vượt call, một tư thế phòng thủ. Một góc nhìn về giai đoạn mà giá, dòng vốn ETF và các chỉ báo on-chain đều gửi tín hiệu phục hồi trong khi vị thế trên thị trường phái sinh tổ chức di chuyển chậm nhất trong tất cả.",
+  "desc_id": "Bitcoin pulih dari $57.900 ke $64.000-an, tapi NUPL baru capai 0,20 dan open interest futures CME tetap defensif dengan put melebihi call.",
+  "desc_pl": "Bitcoin odbił się od 57 900 dolarów do 64 000, lecz NUPL sięga tylko 0,20, a otwarte pozycje na futures CME wciąż pozostają defensywne z przewagą putów.",
+  "desc_it": "Bitcoin è rimbalzato da 57.900 a 64.000 dollari, ma il NUPL è solo a 0,20 e l open interest sui futures CME resta difensivo, con le put in vantaggio.",
+  "desc_ru": "Биткоин отскочил от $57 900 к $64 000, но NUPL держится у 0,20, а открытый интерес по фьючерсам CME остаётся защитным — путы преобладают над коллами.",
+  "desc_zh": "比特幣從5萬7,900美元反彈至6萬4,000美元附近盤整,但NUPL僅緩步回升至約0.20,尚未突破樂觀門檻,同期CME比特幣期貨未平倉合約仍偏防禦,賣權持續多於買權,顯示機構參與者態度依舊謹慎保守,尚未真正轉向積極布局,市場信心仍待觀察。"
 }

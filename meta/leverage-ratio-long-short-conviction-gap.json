@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "레버리지 재건·롱숏비율 괴리",
   "tag_en": "Leverage Rebuild vs. Long/Short Ratio Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Reconstrução da Alavancagem vs. Lacuna no Índice Long/Short",
   "tag_tr": "Kaldıraç Yeniden Yapılanması ve Long/Short Oranı Farkı",
   "tag_vi": "Tái Xây Dựng Đòn Bẩy và Khoảng Cách Tỷ Lệ Long/Short",
+  "tag_id": "Pembangunan Ulang Leverage vs. Kesenjangan Rasio Long/Short",
+  "tag_pl": "Odbudowa Dźwigni vs. Luka we Wskaźniku Long/Short",
+  "tag_it": "Ricostruzione della Leva vs. Divario nel Rapporto Long/Short",
+  "tag_ru": "Восстановление Плеча vs. Разрыв в Коэффициенте Long/Short",
+  "tag_zh": "槓桿重建 vs. 多空比落差",
 
   "title_ko": "추정 레버리지 비율은 다시 뛰는데, 롱 비중은 오히려 줄고 있다",
   "title_en": "The Leverage Ratio Is Climbing Again — But the Long Share Keeps Shrinking",
@@ -32,6 +42,11 @@
   "title_pt": "O Índice de Alavancagem Volta a Subir — Mas a Fatia Comprada Continua Encolhendo",
   "title_tr": "Kaldıraç Oranı Yeniden Yükseliyor — Ama Long Payı Küçülmeye Devam Ediyor",
   "title_vi": "Tỷ Lệ Đòn Bẩy Lại Tăng — Nhưng Tỷ Trọng Long Vẫn Đang Thu Hẹp",
+  "title_id": "Rasio Leverage Naik Lagi — Tetapi Porsi Long Terus Menyusut",
+  "title_pl": "Wskaźnik Dźwigni Znów Rośnie — Ale Udział Long Wciąż Się Kurczy",
+  "title_it": "Il Rapporto di Leva Torna a Salire — Ma la Quota Long Continua a Ridursi",
+  "title_ru": "Коэффициент Плеча Снова Растёт — Но Доля Long Продолжает Сокращаться",
+  "title_zh": "槓桿比率再度攀升 —— 但多頭佔比持續萎縮",
 
   "h1_ko": "미결제약정과 추정 레버리지 비율은 반등 초입 수준까지 재건됐지만,<br>롱숏비율과 청산 데이터는 그 방향에 대한 확신을 아직 보여주지 못한다",
   "h1_en": "Open Interest and the Estimated Leverage Ratio Have Rebuilt Back Up,<br>But the Long/Short Ratio and Liquidation Data Aren't Confirming a Direction Yet",
@@ -42,6 +57,11 @@
   "h1_pt": "O Open Interest e o Índice de Alavancagem Estimada Se Reconstruíram,<br>Mas o Índice Long/Short e os Dados de Liquidação Ainda Não Confirmam uma Direção",
   "h1_tr": "Açık Pozisyon ve Tahmini Kaldıraç Oranı Yeniden İnşa Edildi,<br>Ama Long/Short Oranı ve Tasfiye Verileri Henüz Bir Yön Doğrulamıyor",
   "h1_vi": "Khối Lượng Hợp Đồng Mở và Tỷ Lệ Đòn Bẩy Ước Tính Đã Được Tái Xây Dựng,<br>Nhưng Tỷ Lệ Long/Short và Dữ Liệu Thanh Lý Vẫn Chưa Xác Nhận Một Hướng Đi Rõ Ràng",
+  "h1_id": "Open Interest dan Rasio Leverage Estimasi Telah Kembali Terbangun,<br>Tetapi Rasio Long/Short dan Data Likuidasi Belum Mengonfirmasi Satu Arah",
+  "h1_pl": "Open Interest i Szacowany Wskaźnik Dźwigni Zostały Odbudowane,<br>Ale Wskaźnik Long/Short i Dane o Likwidacjach Wciąż Nie Potwierdzają Kierunku",
+  "h1_it": "L'Open Interest e il Rapporto di Leva Stimato Si Sono Ricostruiti,<br>Ma il Rapporto Long/Short e i Dati sulle Liquidazioni Non Confermano Ancora una Direzione",
+  "h1_ru": "Открытый Интерес и Расчётный Коэффициент Плеча Восстановились,<br>Но Коэффициент Long/Short и Данные о Ликвидациях Пока Не Подтверждают Направление",
+  "h1_zh": "未平倉合約與預估槓桿比率已重新回升,<br>但多空比與清算數據尚未確認方向",
 
   "bc_ko": "레버리지 비율·롱숏비율 점검",
   "bc_en": "Leverage Ratio & Long/Short Ratio Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação do Índice de Alavancagem e Long/Short",
   "bc_tr": "Kaldıraç Oranı ve Long/Short Oranı İncelemesi",
   "bc_vi": "Kiểm Tra Tỷ Lệ Đòn Bẩy và Long/Short",
+  "bc_id": "Pemeriksaan Rasio Leverage & Long/Short",
+  "bc_pl": "Sprawdzenie Wskaźnika Dźwigni i Long/Short",
+  "bc_it": "Verifica del Rapporto di Leva e Long/Short",
+  "bc_ru": "Проверка Коэффициента Плеча и Long/Short",
+  "bc_zh": "槓桿比率與多空比檢視",
 
   "desc_ko": "비트코인은 6만4,000달러대에서 최근 24시간 6만2,955~6만4,554달러 사이를 오갔다. 추정 레버리지 비율(ELR)은 6월30일 0.156에서 7월9일 0.25로 뛰었고 미결제약정도 7월11일 기준 470억6,000만 달러로 그 수준을 지키고 있다(코인글래스·크립토타임스). 그런데 바이낸스 기준 롱숏비율은 7월7일 1.33(롱 57.1%·숏 42.9%)까지 내려오며 롱 비중이 꾸준히 줄고 있고, 같은 날 청산은 숏(8,660만 달러)이 롱(5,401만 달러)보다 많았다. 공포탐욕지수도 얼터너티브미 20(극단적공포)·CFGI.io 36(공포)으로 여전히 공포권이다. 레버리지 총량은 불어나는데 그 방향에 대한 확신과 심리는 아직 따라오지 않는 지금 국면을 짚었다.",
   "desc_en": "Bitcoin has traded in the mid-$64,000s, ranging between $62,955 and $64,554 over the past 24 hours. The Estimated Leverage Ratio (ELR) jumped from 0.156 on June 30 to 0.25 on July 9, and open interest is holding near that level at $47.06 billion as of July 11 (CoinGlass, CryptoTimes). Yet Binance's long/short ratio has drifted down to 1.33 (57.1% long, 42.9% short) as of July 7, with the long share steadily eroding, and the same day's liquidations saw shorts ($86.60M) outweigh longs ($54.01M). The Fear & Greed Index also remains in fear territory at 20 (Extreme Fear, alternative.me) and 36 (Fear, CFGI.io). A look at a phase where the total amount of leverage is expanding while conviction about its direction, and sentiment, haven't caught up yet.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé dans la zone médiane des 64 000 dollars, évoluant entre 62 955 et 64 554 dollars au cours des dernières 24 heures. Le ratio de levier estimé (ELR) est passé de 0,156 le 30 juin à 0,25 le 9 juillet, et l'open interest se maintient près de ce niveau à 47,06 milliards de dollars au 11 juillet (CoinGlass, CryptoTimes). Pourtant, le ratio long/short de Binance a glissé à 1,33 (57,1 % long, 42,9 % short) au 7 juillet, la part longue s'érodant régulièrement, et les liquidations du même jour ont montré les positions courtes (86,60 M$) dépassant les longues (54,01 M$). L'Indice de Peur et d'Avidité reste également en territoire de peur, à 20 (Peur Extrême, alternative.me) et 36 (Peur, CFGI.io). Un examen d'une phase où la quantité totale de levier s'étend tandis que la conviction sur sa direction, et le sentiment, n'ont pas encore rattrapé.",
   "desc_pt": "O bitcoin negociou na faixa média dos US$ 64.000, oscilando entre US$ 62.955 e US$ 64.554 nas últimas 24 horas. O Índice de Alavancagem Estimada (ELR) saltou de 0,156 em 30 de junho para 0,25 em 9 de julho, e o open interest se mantém perto desse nível em US$ 47,06 bilhões em 11 de julho (CoinGlass, CryptoTimes). No entanto, o índice long/short da Binance caiu para 1,33 (57,1% comprado, 42,9% vendido) em 7 de julho, com a fatia comprada se corroendo constantemente, e as liquidações do mesmo dia mostraram vendidas (US$ 86,60M) superando compradas (US$ 54,01M). O Índice de Medo e Ganância também permanece em território de medo, em 20 (Medo Extremo, alternative.me) e 36 (Medo, CFGI.io). Uma análise de uma fase em que o volume total de alavancagem se expande enquanto a convicção sobre sua direção, e o sentimento, ainda não acompanharam.",
   "desc_tr": "Bitcoin, son 24 saatte 62.955 ile 64.554 dolar arasında hareket ederek 64.000'li seviyelerin ortasında işlem gördü. Tahmini Kaldıraç Oranı (ELR) 30 Haziran'daki 0,156'dan 9 Temmuz'da 0,25'e sıçradı ve açık pozisyon 11 Temmuz itibarıyla 47,06 milyar dolarla bu seviyeye yakın duruyor (CoinGlass, CryptoTimes). Ama Binance'ın long/short oranı 7 Temmuz itibarıyla 1,33'e (yüzde 57,1 long, yüzde 42,9 short) geriledi; long payı istikrarlı biçimde aşınıyor ve aynı günün tasfiyelerinde short'lar (86,60 milyon dolar) long'ları (54,01 milyon dolar) geride bıraktı. Korku ve Açgözlülük Endeksi de hâlâ korku bölgesinde: 20 (Aşırı Korku, alternative.me) ve 36 (Korku, CFGI.io). Toplam kaldıraç miktarı genişlerken yönüne dair inanç ve duygu durumunun henüz yetişmediği bir aşamaya bakış.",
-  "desc_vi": "Bitcoin đã giao dịch quanh vùng 64.000 đô la, dao động từ 62.955 đến 64.554 đô la trong 24 giờ qua. Tỷ Lệ Đòn Bẩy Ước Tính (ELR) đã nhảy từ 0,156 vào ngày 30 tháng 6 lên 0,25 vào ngày 9 tháng 7, và khối lượng hợp đồng mở vẫn giữ gần mức đó ở 47,06 tỷ đô la tính đến ngày 11 tháng 7 (CoinGlass, CryptoTimes). Tuy nhiên, tỷ lệ long/short của Binance đã giảm xuống 1,33 (57,1% long, 42,9% short) tính đến ngày 7 tháng 7, với tỷ trọng long liên tục bị bào mòn, và thanh lý cùng ngày cho thấy short (86,60 triệu đô la) vượt qua long (54,01 triệu đô la). Chỉ Số Sợ Hãi & Tham Lam cũng vẫn ở vùng sợ hãi: 20 (Sợ Hãi Tột Độ, alternative.me) và 36 (Sợ Hãi, CFGI.io). Một góc nhìn về giai đoạn mà tổng lượng đòn bẩy đang mở rộng trong khi niềm tin về hướng đi của nó, và tâm lý thị trường, vẫn chưa bắt kịp."
+  "desc_vi": "Bitcoin đã giao dịch quanh vùng 64.000 đô la, dao động từ 62.955 đến 64.554 đô la trong 24 giờ qua. Tỷ Lệ Đòn Bẩy Ước Tính (ELR) đã nhảy từ 0,156 vào ngày 30 tháng 6 lên 0,25 vào ngày 9 tháng 7, và khối lượng hợp đồng mở vẫn giữ gần mức đó ở 47,06 tỷ đô la tính đến ngày 11 tháng 7 (CoinGlass, CryptoTimes). Tuy nhiên, tỷ lệ long/short của Binance đã giảm xuống 1,33 (57,1% long, 42,9% short) tính đến ngày 7 tháng 7, với tỷ trọng long liên tục bị bào mòn, và thanh lý cùng ngày cho thấy short (86,60 triệu đô la) vượt qua long (54,01 triệu đô la). Chỉ Số Sợ Hãi & Tham Lam cũng vẫn ở vùng sợ hãi: 20 (Sợ Hãi Tột Độ, alternative.me) và 36 (Sợ Hãi, CFGI.io). Một góc nhìn về giai đoạn mà tổng lượng đòn bẩy đang mở rộng trong khi niềm tin về hướng đi của nó, và tâm lý thị trường, vẫn chưa bắt kịp.",
+  "desc_id": "Rasio leverage Bitcoin melonjak ke 0.25 dan open interest bertahan tinggi, tapi porsi long menyusut dan Fear & Greed Index masih di zona takut.",
+  "desc_pl": "Wskaźnik dźwigni Bitcoina skoczył do 0.25, a open interest utrzymuje się wysoko, lecz udział long maleje, a indeks strachu wciąż wskazuje strach.",
+  "desc_it": "Il rapporto di leva di Bitcoin è salito a 0.25 e l'open interest resta alto, ma la quota long cala e l'indice Paura e Avidità resta in territorio di paura.",
+  "desc_ru": "Коэффициент плеча биткоина подскочил до 0.25, открытый интерес держится высоко, но доля long падает, а индекс страха и жадности остаётся в страхе.",
+  "desc_zh": "比特幣在$64,000附近盤整,過去24小時介於$62,955與$64,554之間。預估槓桿比率(ELR)自0.156跳升至0.25,未平倉合約於7月11日維持在$47.06十億高位,但幣安多空比降至1.33,多頭佔比持續下滑,清算仍偏向空頭,恐懼與貪婪指數也持續處於恐懼區間。"
 }
