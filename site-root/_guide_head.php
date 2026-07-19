@@ -39,6 +39,28 @@ $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
 <?php endforeach; ?>
 <link rel="alternate" hreflang="x-default" href="<?= gh(i18nUrl($__koPath, 'ko')) ?>">
 <?php endif; ?>
+<?php
+// ── OG / Twitter 카드 (2026-07-18) — glossary·about·privacy·terms·rss·sitemap 공통.
+//    이 안내페이지들은 OG 태그가 아예 없어 카톡/트위터 공유 시 미리보기가 깨졌다.
+//    브랜드 카드 이미지는 언어별(og-image-{lang}.png), 없으면 영어본으로 폴백.
+$__ogImgFile = "og-image-{$__ghLang}.png";
+if (!is_file(__DIR__ . '/' . $__ogImgFile)) $__ogImgFile = 'og-image-en.png';
+$__ogImgUrl  = 'https://btctiming.com/' . $__ogImgFile;
+$__ogLocale  = str_replace('-', '_', hreflangOf($__ghLang));
+?>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BTCtiming.com">
+<meta property="og:title" content="<?= gh($__title) ?>">
+<?php if ($__desc): ?><meta property="og:description" content="<?= gh($__desc) ?>">
+<?php endif; ?><meta property="og:url" content="<?= gh($__canon) ?>">
+<meta property="og:image" content="<?= gh($__ogImgUrl) ?>">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="<?= gh($__ogLocale) ?>">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?= gh($__title) ?>">
+<?php if ($__desc): ?><meta name="twitter:description" content="<?= gh($__desc) ?>">
+<?php endif; ?><meta name="twitter:image" content="<?= gh($__ogImgUrl) ?>">
 <style>
 /* ── 대시보드와 동일한 디자인 토큰 ── */
 :root{
