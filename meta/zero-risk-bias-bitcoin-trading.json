@@ -68,6 +68,11 @@
   "desc_pt": "Em um experimento de 1993 conduzido por Jonathan Baron e Howard Kunreuther, 42% dos participantes preferiram um plano de limpeza que salvava menos vidas no total, desde que eliminasse completamente o risco em um local. Investidores de Bitcoin fazem o mesmo sob pressão, recorrendo à liquidação total em vez de uma proteção parcial. Este artigo usa dados reais de duas crises estruturalmente opostas — o colapso da FTX em novembro de 2022 e o desfazimento do carry trade do iene em agosto de 2024 — para mostrar como o viés de risco zero produziu uma reação idêntica nas duas vezes, e quanto essa reação realmente custou.",
   "desc_tr": "Jonathan Baron ve Howard Kunreuther'in 1993'te yaptığı bir deneyde, katılımcıların yüzde 42'si, bir sahadaki riski tamamen ortadan kaldırdığı sürece toplamda daha az can kurtaran bir temizlik planını tercih etti. Bitcoin yatırımcıları da baskı altında aynı şeyi yapıyor, kısmi hedge yerine tam nakde çevirmeyi seçiyor. Bu yazı, yapısal olarak birbirinin tam tersi iki krizden — 2022 Kasım'ındaki FTX çöküşü ve 2024 Ağustos'undaki yen carry trade çözülmesi — gerçek verileri kullanarak sıfır risk yanılsamasının her iki seferde de nasıl birebir aynı tepkiyi doğurduğunu ve bu tepkinin gerçekte ne kadara mal olduğunu inceliyor.",
   "desc_vi": "Trong một thí nghiệm năm 1993 của Jonathan Baron và Howard Kunreuther, 42% người tham gia ưu tiên một kế hoạch làm sạch cứu được ít mạng sống hơn về tổng thể, miễn là nó loại bỏ hoàn toàn rủi ro ở một khu vực. Các nhà đầu tư Bitcoin cũng làm điều tương tự khi chịu áp lực, chọn rút toàn bộ tiền mặt thay vì phòng hộ một phần. Bài viết này dùng dữ liệu thực tế từ hai cuộc khủng hoảng có cấu trúc hoàn toàn đối lập — sự sụp đổ của FTX vào tháng 11/2022 và việc tháo gỡ yen carry trade vào tháng 8/2024 — để chỉ ra thiên kiến rủi ro-bằng-không đã tạo ra phản ứng giống hệt nhau ra sao trong cả hai lần, và cái giá thực sự của phản ứng đó.",
+  "desc_id": "Eksperimen 1993: 42% memilih menyelamatkan lebih sedikit nyawa asal risiko di satu tempat jadi nol — investor Bitcoin bereaksi sama saat krisis serupa.",
+  "desc_pl": "Eksperyment 1993: 42% wolało uratować mniej istnień, byle ryzyko w jednym miejscu spadło do zera — inwestorzy Bitcoina reagują tak samo w kryzysach.",
+  "desc_it": "Esperimento del 1993: il 42% preferiva salvare meno vite pur di azzerare il rischio in un luogo — investitori Bitcoin reagiscono così in ogni crisi.",
+  "desc_ru": "Эксперимент 1993 года: 42% предпочли спасти меньше жизней, лишь бы обнулить риск в одном месте — инвесторы биткоина реагируют так же в кризис.",
+  "desc_zh": "1993年一項實驗顯示,只要能讓某處風險完全歸零,42%的受訪者寧可選擇少救幾條人命的方案。比特幣投資人承受壓力時也是如此——2022年11月FTX倒閉與2024年8月日圓套利平倉,這兩場性質相反的危機都引發了完全相同的全額出場反應與高昂代價。",
   "read_ko": "10",
   "read_en": "10",
   "read_ja": "10",
@@ -76,5 +81,10 @@
   "read_fr": "10",
   "read_pt": "10",
   "read_tr": "10",
-  "read_vi": "10"
+  "read_vi": "10",
+  "read_id": "10",
+  "read_pl": "10",
+  "read_it": "10",
+  "read_ru": "10",
+  "read_zh": "10"
 }
