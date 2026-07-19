@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "Fed 금리동결 확률·10년물 금리 vs 가격 반등 괴리",
   "tag_en": "Fed Zero-Cut Odds & 10Y Yield vs. Price Rally Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Lacuna: Prob. Corte Zero do Fed e Rendimento 10A vs. Alta do Preço",
   "tag_tr": "Fed Sıfır İndirim Olasılığı ve 10Y Getiri ile Fiyat Sıçraması Farkı",
   "tag_vi": "Khoảng Cách: Xác Suất Fed Không Cắt Giảm & Lợi Suất 10 Năm so với Giá Tăng",
+  "tag_id": "Kesenjangan: Peluang Nol Pemangkasan Fed & Imbal Hasil 10Y vs. Reli Harga",
+  "tag_pl": "Luka: Prawdopodobieństwo Braku Obniżek Fed i Rentowność 10L a Wzrost Ceny",
+  "tag_it": "Divario: Probabilità Zero Tagli Fed e Rendimento 10A vs. Rally del Prezzo",
+  "tag_ru": "Разрыв: Вероятность Нулевого Снижения ФРС и Доходность 10-летних Облигаций vs. Рост Цены",
+  "tag_zh": "落差:聯準會零降息機率與10年期殖利率 vs. 價格反彈",
 
   "title_ko": "Fed 금리 동결 확률은 78%로 치솟는데, 비트코인은 6만4천 달러를 지키고 있다",
   "title_en": "Fed Zero-Cut Odds Have Surged to 78% — But Bitcoin Is Still Holding $64,000",
@@ -32,6 +42,11 @@
   "title_pt": "As Probabilidades de Corte Zero do Fed Saltaram para 78% — Mas o Bitcoin Ainda Sustenta os US$ 64.000",
   "title_tr": "Fed Sıfır İndirim Olasılığı %78'e Sıçradı — Ama Bitcoin Hâlâ 64.000 Doları Koruyor",
   "title_vi": "Xác Suất Fed Không Cắt Giảm Lãi Suất Tăng Vọt Lên 78% — Nhưng Bitcoin Vẫn Giữ Vững Mốc 64.000 Đô La",
+  "title_id": "Peluang Nol Pemangkasan Fed Melonjak ke 78% — Namun Bitcoin Masih Bertahan di $64.000",
+  "title_pl": "Prawdopodobieństwo Braku Obniżek Fed Wzrosło do 78% — Ale Bitcoin Wciąż Utrzymuje 64 000 Dolarów",
+  "title_it": "La Probabilità di Zero Tagli della Fed È Salita al 78% — Ma il Bitcoin Tiene Ancora i 64.000 Dollari",
+  "title_ru": "Вероятность Нулевого Снижения Ставки ФРС Взлетела до 78% — Но Биткоин Всё Ещё Удерживает 64 000 Долларов",
+  "title_zh": "聯準會零降息機率飆升至78%——但比特幣仍守住6萬4,000美元",
 
   "h1_ko": "매크로는 비트코인에 등을 돌리는데,<br>가격만 홀로 6만4천 달러를 지키고 있다",
   "h1_en": "The Macro Backdrop Has Turned Against Bitcoin,<br>But Price Alone Is Holding $64,000",
@@ -42,6 +57,11 @@
   "h1_pt": "O Cenário Macro Se Voltou Contra o Bitcoin,<br>Mas Só o Preço Sustenta os US$ 64.000",
   "h1_tr": "Makro Ortam Bitcoin'e Karşı Döndü,<br>Ama Yalnızca Fiyat 64.000 Doları Koruyor",
   "h1_vi": "Bối Cảnh Vĩ Mô Đã Quay Lưng Với Bitcoin,<br>Nhưng Chỉ Riêng Giá Đang Giữ Vững Mốc 64.000 Đô La",
+  "h1_id": "Latar Belakang Makro Telah Berbalik Melawan Bitcoin,<br>Namun Hanya Harga Sendiri yang Bertahan di $64.000",
+  "h1_pl": "Tło Makroekonomiczne Odwróciło Się Przeciwko Bitcoinowi,<br>Ale Tylko Cena Utrzymuje 64 000 Dolarów",
+  "h1_it": "Il Contesto Macro Si È Rivoltato Contro il Bitcoin,<br>Ma Solo il Prezzo Tiene i 64.000 Dollari",
+  "h1_ru": "Макроэкономический Фон Обернулся Против Биткоина,<br>Но Только Цена Удерживает 64 000 Долларов",
+  "h1_zh": "總體經濟背景已轉為不利比特幣,<br>但唯有價格獨自守住6萬4,000美元",
 
   "bc_ko": "Fed 금리동결 확률·가격 반등 괴리 점검",
   "bc_en": "Fed Zero-Cut Odds vs. Price Rally Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação: Odds Corte Zero vs. Alta do Preço",
   "bc_tr": "Fed Sıfır İndirim Olasılığı ve Fiyat İncelemesi",
   "bc_vi": "Kiểm Tra Xác Suất Fed Không Cắt Giảm và Giá",
+  "bc_id": "Pemeriksaan Peluang Nol Pemangkasan Fed vs. Reli Harga",
+  "bc_pl": "Sprawdzenie: Prawdopodobieństwo Braku Obniżek Fed a Wzrost Ceny",
+  "bc_it": "Verifica: Probabilità Zero Tagli Fed vs. Rally del Prezzo",
+  "bc_ru": "Проверка: Вероятность Нулевого Снижения ФРС и Рост Цены",
+  "bc_zh": "聯準會零降息機率 vs. 價格反彈檢視",
 
   "desc_ko": "비트코인은 7월12일 밤 6만4,000달러대(24시간 6만3,956~6만4,419달러, +0.55%)에서 거래되며 6월30일 저점 5만7,900달러대에서 11% 넘게 반등했다. 그런데 같은 2주 사이 폴리마켓의 '2026년 금리 0회 인하' 확률은 4월 43%에서 7월 78%로 뛰었고(크립토브리핑, 쿠코인), 웜셔 신임 의장 체제 첫 FOMC(6월17일)는 2026년 인하 전망을 점도표에서 지웠다. 10년물 국채금리도 7월11일 4.54%로 12개월래 최고 근접이다(CNBC). 반면 공포탐욕지수는 7월8~12일 20 안팎 '극단적 공포'에 머물렀고, 선물 펀딩비는 7월7일 0.0087%로 거의 중립, 미결제약정도 이틀간 1.87% 증가에 그쳤다(코인스탯츠 AI). 매크로·심리·레버리지 축은 침묵하거나 역행하는데 가격 축만 홀로 오른 지금 국면을 점검했다.",
   "desc_en": "Bitcoin traded in the mid-$64,000s on the night of July 12 (24h range $63,956-$64,419, +0.55%), more than 11% above its $57,900 low on June 30. Yet over the same two weeks, Polymarket's probability of 'zero Fed rate cuts in 2026' jumped from 43% in April to 78% in July (CryptoBriefing, KuCoin), and the first FOMC under new Chair Kevin Warsh (June 17) erased 2026 rate-cut projections from the dot plot. The 10-year Treasury yield stood at 4.54% on July 11, near a 12-month high (CNBC). Meanwhile the Fear & Greed Index stayed around 20, 'extreme fear,' from July 8-12, futures funding sat near-neutral at 0.0087% on July 7, and open interest rose just 1.87% over two days (CoinStats AI). A look at a phase where the macro and sentiment/leverage axes stay silent or move against bitcoin while price alone climbs.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé dans la zone des 64 000 dollars dans la nuit du 12 juillet (fourchette 24h 63 956-64 419 dollars, +0,55 %), soit plus de 11 % au-dessus de son plus bas de 57 900 dollars du 30 juin. Pourtant, au cours des deux mêmes semaines, la probabilité Polymarket de « zéro baisse de taux de la Fed en 2026 » a bondi de 43 % en avril à 78 % en juillet (CryptoBriefing, KuCoin), et le premier FOMC sous la présidence du nouveau président Kevin Warsh (17 juin) a effacé les projections de baisses de taux 2026 du dot plot. Le rendement du Trésor à 10 ans s'établissait à 4,54 % le 11 juillet, proche d'un plus haut sur 12 mois (CNBC). Pendant ce temps, l'indice Fear & Greed est resté autour de 20, « peur extrême », du 8 au 12 juillet, le financement des futures était quasi neutre à 0,0087 % le 7 juillet, et l'open interest n'a progressé que de 1,87 % en deux jours (CoinStats AI). Un examen d'une phase où les axes macro et sentiment/levier restent silencieux ou vont à contre-courant tandis que seul le prix grimpe.",
   "desc_pt": "O bitcoin foi negociado na faixa média dos US$ 64.000 na noite de 12 de julho (faixa 24h US$ 63.956-US$ 64.419, +0,55%), mais de 11% acima de sua mínima de US$ 57.900 em 30 de junho. No entanto, nas mesmas duas semanas, a probabilidade da Polymarket de 'corte zero do Fed em 2026' saltou de 43% em abril para 78% em julho (CryptoBriefing, KuCoin), e o primeiro FOMC sob o novo presidente Kevin Warsh (17 de junho) apagou as projeções de corte de juros de 2026 do dot plot. O rendimento do Tesouro de 10 anos ficou em 4,54% em 11 de julho, perto de uma máxima de 12 meses (CNBC). Enquanto isso, o Índice de Medo e Ganância permaneceu perto de 20, 'medo extremo', de 8 a 12 de julho, o financiamento de futuros ficou quase neutro em 0,0087% em 7 de julho, e o open interest subiu apenas 1,87% em dois dias (CoinStats AI). Uma análise de uma fase em que os eixos macro e de sentimento/alavancagem permanecem silenciosos ou vão contra enquanto só o preço sobe.",
   "desc_tr": "Bitcoin, 12 Temmuz gecesi 64.000 doların ortalarında işlem gördü (24 saatlik aralık 63.956-64.419 dolar, +%0,55), 30 Haziran'daki 57.900 dolarlık dibinin %11'in üzerinde üstünde. Ancak aynı iki hafta içinde, Polymarket'in '2026'da Fed sıfır faiz indirimi' olasılığı Nisan'daki %43'ten Temmuz'da %78'e sıçradı (CryptoBriefing, KuCoin) ve yeni Başkan Kevin Warsh yönetimindeki ilk FOMC toplantısı (17 Haziran) 2026 faiz indirimi beklentilerini nokta grafiğinden sildi. 10 yıllık Hazine getirisi de 11 Temmuz'da %4,54 ile 12 aylık zirveye yakındı (CNBC). Bu arada Korku ve Açgözlülük Endeksi 8-12 Temmuz arasında yaklaşık 20 'aşırı korku' seviyesinde kaldı, vadeli işlem fonlaması 7 Temmuz'da %0,0087 ile neredeyse nötrdü ve açık pozisyon iki günde yalnızca %1,87 arttı (CoinStats AI). Makro ile duyarlılık/kaldıraç eksenlerinin sessiz kaldığı veya ters yönde hareket ettiği, yalnızca fiyatın yükseldiği bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào tối ngày 12 tháng 7 (biên độ 24 giờ 63.956-64.419 đô la, +0,55%), cao hơn hơn 11% so với đáy 57.900 đô la ngày 30 tháng 6. Tuy nhiên, trong cùng hai tuần đó, xác suất Polymarket về việc 'Fed không cắt giảm lãi suất năm 2026' đã nhảy từ 43% vào tháng 4 lên 78% vào tháng 7 (CryptoBriefing, KuCoin), và cuộc họp FOMC đầu tiên dưới thời tân Chủ tịch Kevin Warsh (17 tháng 6) đã xóa các dự báo cắt giảm lãi suất năm 2026 khỏi biểu đồ dot plot. Lợi suất trái phiếu Kho bạc 10 năm cũng đạt 4,54% vào ngày 11 tháng 7, gần mức cao nhất 12 tháng (CNBC). Trong khi đó, Chỉ số Sợ hãi và Tham lam vẫn quanh mức 20, 'sợ hãi cực độ', từ ngày 8-12 tháng 7, funding hợp đồng tương lai gần như trung lập ở mức 0,0087% vào ngày 7 tháng 7, và khối lượng hợp đồng mở chỉ tăng 1,87% trong hai ngày (CoinStats AI). Một góc nhìn về giai đoạn mà trục vĩ mô và tâm lý/đòn bẩy im lặng hoặc di chuyển ngược chiều trong khi chỉ riêng giá tăng."
+  "desc_vi": "Bitcoin giao dịch quanh mức 64.000 đô la vào tối ngày 12 tháng 7 (biên độ 24 giờ 63.956-64.419 đô la, +0,55%), cao hơn hơn 11% so với đáy 57.900 đô la ngày 30 tháng 6. Tuy nhiên, trong cùng hai tuần đó, xác suất Polymarket về việc 'Fed không cắt giảm lãi suất năm 2026' đã nhảy từ 43% vào tháng 4 lên 78% vào tháng 7 (CryptoBriefing, KuCoin), và cuộc họp FOMC đầu tiên dưới thời tân Chủ tịch Kevin Warsh (17 tháng 6) đã xóa các dự báo cắt giảm lãi suất năm 2026 khỏi biểu đồ dot plot. Lợi suất trái phiếu Kho bạc 10 năm cũng đạt 4,54% vào ngày 11 tháng 7, gần mức cao nhất 12 tháng (CNBC). Trong khi đó, Chỉ số Sợ hãi và Tham lam vẫn quanh mức 20, 'sợ hãi cực độ', từ ngày 8-12 tháng 7, funding hợp đồng tương lai gần như trung lập ở mức 0,0087% vào ngày 7 tháng 7, và khối lượng hợp đồng mở chỉ tăng 1,87% trong hai ngày (CoinStats AI). Một góc nhìn về giai đoạn mà trục vĩ mô và tâm lý/đòn bẩy im lặng hoặc di chuyển ngược chiều trong khi chỉ riêng giá tăng.",
+  "desc_id": "Bitcoin bertahan di $64.000, naik 11% dari titik terendah Juni, meski peluang pemangkasan Fed turun ke 78% dan imbal hasil 10Y mendekati puncak 12 bulan.",
+  "desc_pl": "Bitcoin utrzymuje 64 000 dolarów, wzrost o 11% od czerwcowego dołka, mimo że szanse na obniżki Fed spadły do 78%, a rentowność 10-letnich obligacji rośnie.",
+  "desc_it": "Il bitcoin tiene i 64.000 dollari, +11% dal minimo di giugno, con le probabilità di taglio Fed crollate al 78% e il rendimento decennale ai massimi.",
+  "desc_ru": "Биткоин удерживает 64 000 долларов, рост на 11% от июньского минимума, хотя вероятность снижения ставки ФРС упала до 78%, а доходность облигаций растёт.",
+  "desc_zh": "比特幣守住6萬4,000美元,較6月30日低點反彈超過11%,儘管Polymarket聯準會零降息機率已升至78%,10年期公債殖利率逼近12個月高點,而恐懼與貪婪指數與資金費率等情緒指標仍維持凍結不動,顯示這波反彈可能只是局部技術性彈升行情。"
 }
