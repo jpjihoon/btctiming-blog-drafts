@@ -241,6 +241,14 @@ $__schemaType = in_array($catKey, $__newsCats, true) ? 'NewsArticle' : 'Article'
 $__ogImage = "https://btctiming.com/og.php?slug={$slug}&lang={$lang}";
 // dateModified: 메타에 수정일(dateModified)이 있으면 그것을, 없으면 발행일을 사용.
 $__dateMod = $M['dateModified'] ?? $M['date'];
+// ★ 2026-07-19: datePublished/dateModified ISO8601 정규화.
+//   기존엔 무조건 "…T09:00:00+09:00" 을 이어붙여, date 에 이미 시각이 있는 신규 글에서
+//   "2026-07-17 09:25:00T09:00:00+09:00" 처럼 형식이 깨졌다(구글 리치결과 영향).
+//   date 가 "YYYY-MM-DD HH:MM:SS" 면 공백을 T 로 바꿔 실제 시각을 쓰고, "YYYY-MM-DD"(옛 글)면 T09:00:00 을 붙인다. (KST 고정)
+$__isoKst = static function ($d) {
+    $d = trim((string) $d);
+    return strpos($d, ' ') !== false ? str_replace(' ', 'T', $d) . '+09:00' : $d . 'T09:00:00+09:00';
+};
 ?>
 <script type="application/ld+json">
 {
@@ -249,8 +257,8 @@ $__dateMod = $M['dateModified'] ?? $M['date'];
   "headline": <?= json_encode($M['title' . $suf] ?? $M['title_en'], JSON_UNESCAPED_UNICODE) ?>,
   "description": <?= json_encode($pageDesc, JSON_UNESCAPED_UNICODE) ?>,
   "image": [<?= json_encode($__ogImage, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>],
-  "datePublished": "<?= h($M['date']) ?>T09:00:00+09:00",
-  "dateModified": "<?= h($__dateMod) ?>T09:00:00+09:00",
+  "datePublished": "<?= h($__isoKst($M['date'])) ?>",
+  "dateModified": "<?= h($__isoKst($__dateMod)) ?>",
   "inLanguage": "<?= $jsonLdLang ?>",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "<?= h($canonical) ?>" },
   "author": {
