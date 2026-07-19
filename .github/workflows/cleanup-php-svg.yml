@@ -1,0 +1,89 @@
+# 블로그 글 본문의 "PHP 생성 SVG"(약 20편)를 정적 언어 래퍼로 정리한다.
+# 왜: PHP 로 SVG 를 만들면 og.php 가 언어별 <div> 래퍼를 못 찾아 첫 SVG(대개 한국어)가
+#     전 언어 OG 이미지로 나간다(가이드 §21.3, 3-3). 정적 <div class="...언어..."> 로 감싸면 해결.
+#
+# 실행: Actions 탭 → "Cleanup PHP-generated SVG" → Run workflow
+#   mode=detect  (기본): 읽기전용. 어떤 글이 대상/건너뜀인지 목록만 출력(안전).
+#   mode=convert       : 언어중립 SVG 만 변환 → 새 브랜치 + PR 생성(자동병합 아님, 지훈님 리뷰 후 병합).
+#
+# ★ 안전장치: 값 보간이 있거나 SVG 안에 한글 텍스트가 있는 글은 자동 변환하지 않고 보고만 한다
+#   (한글 텍스트 SVG 는 영어 변형을 새로 만드는 번역 작업이라 사람이 처리해야 함).
+name: Cleanup PHP-generated SVG
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "detect(목록만) 또는 convert(변환+PR)"
+        type: choice
+        options: [detect, convert]
+        default: detect
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: cleanup-php-svg
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: PHP 설치
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq php-cli > /dev/null
+
+      - name: SVG 정리 스크립트 실행
+        id: run
+        run: |
+          set -e
+          MODE="${{ github.event.inputs.mode }}"
+          echo "mode=$MODE"
+          # 블로그 글은 레포 루트에 있다(deploy: local-dir ./ → /www/blog/). 루트에서 실행.
+          php .github/scripts/svg_cleanup.php "$MODE" . | tee /tmp/svg_report.txt
+          # 리포트를 스텝 요약에도 남긴다
+          {
+            echo '### PHP-SVG 정리 리포트 (mode='"$MODE"')'
+            echo '```'
+            cat /tmp/svg_report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 변경분 PR 생성 (convert 모드 + 실제 변경이 있을 때만)
+        if: ${{ github.event.inputs.mode == 'convert' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          if git diff --quiet; then
+            echo "변경된 파일 없음 — 변환 대상(언어중립 SVG)이 없거나 이미 정리됨. PR 생략."
+            exit 0
+          fi
+          BR="chore/php-svg-cleanup-${{ github.run_id }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A
+          git commit -m "chore: PHP 생성 SVG → 정적 언어 래퍼 정리 (og.php 언어별 이미지 정상화)"
+          git push -u origin "$BR"
+          {
+            echo "## PHP 생성 SVG 정리"
+            echo ""
+            echo "PHP 함수/heredoc 로 만들던 본문 SVG 를 정적 \`<div class=\"...언어...\">\` 래퍼로 감쌌습니다."
+            echo "이제 og.php 가 언어별 래퍼를 찾아 첫 SVG(한국어)가 전 언어 OG 로 나가던 문제가 해결됩니다."
+            echo ""
+            echo "**언어중립 SVG 만 자동 변환**했고, 값 보간·한글 텍스트가 있는 SVG 는 건너뛰었습니다(아래 리포트의 '건너뜀' = 수동/번역 필요)."
+            echo ""
+            echo '```'
+            cat /tmp/svg_report.txt
+            echo '```'
+            echo ""
+            echo "> ⚠️ 자동병합 아님. diff 를 확인하고 병합하세요. SVG 바이트는 보존되며 래퍼만 추가됩니다."
+          } > /tmp/pr_body.md
+          gh pr create --title "chore: PHP 생성 SVG 정적 래퍼 정리" --body-file /tmp/pr_body.md --base main --head "$BR"
+          echo "PR 생성 완료: $BR"
