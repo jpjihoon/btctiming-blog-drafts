@@ -114,6 +114,11 @@
 <p class="pt">O lado da alavancagem parece igualmente cauteloso. O open interest, em US$ 47,71 bilhões, subiu 6,11% em 30 dias, mas o funding permaneceu praticamente neutro, em torno de +0,01% — um quadro diferente das entradas rápidas e concentradas que perseguem as ações de semicondutores. O Índice de Medo e Ganância cripto, em 22-23, também não saiu do território de 'medo', em contraste com o que presumivelmente foi um humor muito mais otimista entre os investidores de ações, enquanto Dow e Nasdaq seguiam batendo recordes. Em outras palavras, os três indicadores internos do bitcoin — fluxos de ETF, posicionamento em derivativos e sentimento — mostram convicção limitada por trás dessa recuperação.</p>
 <p class="tr">Kaldıraç tarafı da benzer şekilde temkinli görünüyor. Açık pozisyon 47,71 milyar dolar ile 30 günde %6,11 arttı, ancak fonlama oranı hâlâ yaklaşık +%0,01 ile nötr bölgede kalmaya devam ediyor — bu, yarı iletken hisselerini kovalayan hızlı ve yoğun girişlerden farklı bir tablo. Kripto Korku ve Açgözlülük Endeksi de 22-23 ile 'korku' bölgesinden çıkamadı; bu, Dow ve Nasdaq art arda yeni rekorlar kırarken hisse senedi yatırımcıları arasında muhtemelen çok daha iyimser bir havanın hakim olmasıyla tezat oluşturuyor. Başka bir deyişle, Bitcoin'in kendi içindeki üç gösterge — ETF akışları, türev konumlanması ve duygu durumu — bu toparlanmanın arkasında sınırlı bir inanç gösteriyor.</p>
 <p class="vi">Phía đòn bẩy cũng tỏ ra thận trọng tương tự. Khối lượng hợp đồng mở, ở mức 47,71 tỷ đô la, tăng 6,11% trong 30 ngày, nhưng lãi suất tài trợ vẫn giữ ở mức trung lập quanh +0,01% — một bức tranh khác so với dòng vốn nhanh, tập trung đang đổ vào cổ phiếu bán dẫn. Chỉ số Sợ hãi và Tham lam của tiền mã hóa, ở mức 22-23, cũng chưa thoát khỏi vùng 'sợ hãi', trái ngược với tâm lý có lẽ lạc quan hơn nhiều của các nhà đầu tư cổ phiếu khi Dow và Nasdaq liên tục lập kỷ lục mới. Nói cách khác, cả ba chỉ báo nội tại của Bitcoin — dòng vốn ETF, vị thế phái sinh và tâm lý — đều cho thấy niềm tin hạn chế đằng sau đợt phục hồi này.</p>
+<p class="id">Sisi leverage juga tampak sama-sama berhati-hati. Open interest, di angka $47,71 miliar, naik 6,11% dalam 30 hari, tetapi funding rate tetap berada di kisaran netral sekitar +0,01% — gambaran yang berbeda dari arus masuk cepat dan terkonsentrasi yang mengejar saham semikonduktor. Indeks Fear &amp; Greed kripto, di angka 22-23, juga belum keluar dari wilayah 'ketakutan', berbeda dengan suasana yang diperkirakan jauh lebih optimistis di kalangan investor saham saat Dow dan Nasdaq terus mencetak rekor baru. Dengan kata lain, ketiga indikator internal Bitcoin sendiri — arus ETF, posisi derivatif, dan sentimen — menunjukkan keyakinan yang terbatas di balik rebound ini.</p>
+<p class="pl">Strona dźwigni wygląda równie ostrożnie. Otwarte pozycje, na poziomie 47,71 mld dolarów, wzrosły o 6,11% w ciągu 30 dni, ale finansowanie pozostało z grubsza neutralne, w okolicach +0,01% — inny obraz niż szybkie, skoncentrowane napływy pogoniące za akcjami półprzewodnikowymi. Krypto-indeks Strachu i Chciwości, na poziomie 22-23, również nie opuścił strefy 'strachu', w przeciwieństwie do zapewne znacznie bardziej optymistycznego nastroju wśród inwestorów giełdowych, gdy Dow i Nasdaq nieustannie biły nowe rekordy. Innymi słowy, wszystkie trzy wewnętrzne wskaźniki bitcoina — przepływy ETF, pozycjonowanie na instrumentach pochodnych i sentyment — pokazują ograniczone przekonanie stojące za tym odbiciem.</p>
+<p class="it">Anche il fronte della leva finanziaria appare altrettanto cauto. L'open interest, pari a 47,71 miliardi di dollari, è cresciuto del 6,11% negli ultimi 30 giorni, ma il funding è rimasto pressoché neutrale intorno a +0,01% — un quadro diverso rispetto agli afflussi rapidi e concentrati che inseguono i titoli dei semiconduttori. Anche l'indice Fear &amp; Greed delle criptovalute, a 22-23, non è uscito dal territorio della 'paura', in contrasto con quello che presumibilmente era un umore molto più ottimista tra gli investitori azionari mentre Dow e Nasdaq continuavano a stabilire nuovi record. In altre parole, tutti e tre gli indicatori interni del bitcoin — flussi degli ETF, posizionamento sui derivati e sentiment — mostrano una convinzione limitata dietro questo rimbalzo.</p>
+<p class="ru">Сторона кредитного плеча выглядит столь же осторожно. Открытый интерес на уровне 47,71 млрд долларов вырос на 6,11% за 30 дней, но ставка финансирования оставалась примерно нейтральной, около +0,01% — картина, отличная от быстрых, концентрированных притоков, устремившихся в акции полупроводникового сектора. Крипто-индекс страха и жадности на уровне 22-23 также не покинул зону «страха», в отличие от предположительно куда более оптимистичного настроения среди инвесторов фондового рынка, пока Доу и Nasdaq продолжали обновлять рекорды. Иными словами, все три внутренних показателя биткоина — потоки ETF, позиционирование по деривативам и настроения — демонстрируют ограниченную убеждённость за этим отскоком.</p>
+<p class="zh">槓桿面同樣顯得謹慎。未平倉合約達477億1,000萬美元,30天內增加6.11%,但資金費率仍維持在正0.01%左右的中性水準——這與追逐半導體股票那種快速且集中的資金流入截然不同。加密貨幣恐懼與貪婪指數維持在22至23,同樣未脫離「恐懼」區間,與道瓊和那斯達克連創新高期間股市投資人可能樂觀得多的情緒形成對比。換句話說,比特幣自身的三項內部指標——ETF資金流、衍生品部位與市場情緒——都顯示這波反彈背後的信心相當有限。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -349,6 +354,136 @@
   <text x="20" y="353" fill="#71717a" font-family="sans-serif" font-size="13">* Độ dài thanh chỉ dùng để so sánh tương đối, không theo tỷ lệ chính xác.</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Perbandingan Imbal Hasil Kuartal 2 2026</text>
+  <rect x="470" y="14" width="14" height="14" fill="#4ade80"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Naik</text>
+  <rect x="470" y="34" width="14" height="14" fill="#f87171"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Turun</text>
+  <line x1="350" y1="55" x2="350" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="356" y="68" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="100" fill="#a1a1aa" font-family="sans-serif" font-size="14">S&amp;P 500</text>
+  <rect x="350" y="78" width="150" height="36" rx="6" fill="#4ade80"/>
+  <text x="510" y="101" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+15%</text>
+  <text x="20" y="130" fill="#71717a" font-family="sans-serif" font-size="13">Kuartal terbaik sejak 2020</text>
+  <text x="20" y="170" fill="#a1a1aa" font-family="sans-serif" font-size="14">Nasdaq Composite</text>
+  <rect x="350" y="148" width="275" height="36" rx="6" fill="#4ade80"/>
+  <text x="635" y="171" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+27.5%</text>
+  <text x="20" y="200" fill="#71717a" font-family="sans-serif" font-size="13">Kuartal terbaik dalam 4 tahun</text>
+  <text x="20" y="240" fill="#a1a1aa" font-family="sans-serif" font-size="14">Bitcoin</text>
+  <rect x="209" y="218" width="141" height="36" rx="6" fill="#f87171"/>
+  <text x="130" y="241" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">-14.09%</text>
+  <text x="20" y="270" fill="#71717a" font-family="sans-serif" font-size="13">Kuartal sama, arah berlawanan</text>
+  <text x="350" y="310" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Tiga bulan yang sama (April-Juni 2026), hasil berlawanan</text>
+  <text x="20" y="335" fill="#71717a" font-family="sans-serif" font-size="13">Sumber: VaaSBlock ("Bitcoin Q2 2026: S&amp;P 500 Best Quarter Since 2020, BTC Down 14%")</text>
+  <text x="20" y="353" fill="#71717a" font-family="sans-serif" font-size="13">* Panjang batang hanya untuk perbandingan relatif dan mungkin tidak sesuai skala sebenarnya.</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Porównanie Stóp Zwrotu Q2 2026</text>
+  <rect x="470" y="14" width="14" height="14" fill="#4ade80"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Wzrost</text>
+  <rect x="470" y="34" width="14" height="14" fill="#f87171"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Spadek</text>
+  <line x1="350" y1="55" x2="350" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="356" y="68" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="100" fill="#a1a1aa" font-family="sans-serif" font-size="14">S&amp;P 500</text>
+  <rect x="350" y="78" width="150" height="36" rx="6" fill="#4ade80"/>
+  <text x="510" y="101" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+15%</text>
+  <text x="20" y="130" fill="#71717a" font-family="sans-serif" font-size="13">Najlepszy kwartał od 2020</text>
+  <text x="20" y="170" fill="#a1a1aa" font-family="sans-serif" font-size="14">Nasdaq Composite</text>
+  <rect x="350" y="148" width="275" height="36" rx="6" fill="#4ade80"/>
+  <text x="635" y="171" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+27.5%</text>
+  <text x="20" y="200" fill="#71717a" font-family="sans-serif" font-size="13">Najlepszy kwartał od 4 lat</text>
+  <text x="20" y="240" fill="#a1a1aa" font-family="sans-serif" font-size="14">Bitcoin</text>
+  <rect x="209" y="218" width="141" height="36" rx="6" fill="#f87171"/>
+  <text x="130" y="241" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">-14.09%</text>
+  <text x="20" y="270" fill="#71717a" font-family="sans-serif" font-size="13">Ten sam kwartał, przeciwny kierunek</text>
+  <text x="350" y="310" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Te same trzy miesiące (kwiecień-czerwiec 2026), przeciwne wyniki</text>
+  <text x="20" y="335" fill="#71717a" font-family="sans-serif" font-size="13">Źródło: VaaSBlock („Bitcoin Q2 2026: S&amp;P 500 Best Quarter Since 2020, BTC Down 14%”)</text>
+  <text x="20" y="353" fill="#71717a" font-family="sans-serif" font-size="13">* Długość słupków służy wyłącznie do porównania względnego i nie jest w dokładnej skali.</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Confronto dei Rendimenti T2 2026</text>
+  <rect x="470" y="14" width="14" height="14" fill="#4ade80"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Rialzo</text>
+  <rect x="470" y="34" width="14" height="14" fill="#f87171"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Ribasso</text>
+  <line x1="350" y1="55" x2="350" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="356" y="68" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="100" fill="#a1a1aa" font-family="sans-serif" font-size="14">S&amp;P 500</text>
+  <rect x="350" y="78" width="150" height="36" rx="6" fill="#4ade80"/>
+  <text x="510" y="101" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+15%</text>
+  <text x="20" y="130" fill="#71717a" font-family="sans-serif" font-size="13">Miglior trimestre dal 2020</text>
+  <text x="20" y="170" fill="#a1a1aa" font-family="sans-serif" font-size="14">Nasdaq Composite</text>
+  <rect x="350" y="148" width="275" height="36" rx="6" fill="#4ade80"/>
+  <text x="635" y="171" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+27.5%</text>
+  <text x="20" y="200" fill="#71717a" font-family="sans-serif" font-size="13">Miglior trimestre in 4 anni</text>
+  <text x="20" y="240" fill="#a1a1aa" font-family="sans-serif" font-size="14">Bitcoin</text>
+  <rect x="209" y="218" width="141" height="36" rx="6" fill="#f87171"/>
+  <text x="130" y="241" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">-14.09%</text>
+  <text x="20" y="270" fill="#71717a" font-family="sans-serif" font-size="13">Stesso trimestre, direzione opposta</text>
+  <text x="350" y="310" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Stessi tre mesi (aprile-giugno 2026), risultati opposti</text>
+  <text x="20" y="335" fill="#71717a" font-family="sans-serif" font-size="13">Fonte: VaaSBlock («Bitcoin Q2 2026: S&amp;P 500 Best Quarter Since 2020, BTC Down 14%»)</text>
+  <text x="20" y="353" fill="#71717a" font-family="sans-serif" font-size="13">* La lunghezza delle barre è solo per confronto relativo e non è in scala precisa.</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Сравнение доходности за 2 квартал 2026</text>
+  <rect x="470" y="14" width="14" height="14" fill="#4ade80"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Рост</text>
+  <rect x="470" y="34" width="14" height="14" fill="#f87171"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Падение</text>
+  <line x1="350" y1="55" x2="350" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="356" y="68" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="100" fill="#a1a1aa" font-family="sans-serif" font-size="14">S&amp;P 500</text>
+  <rect x="350" y="78" width="150" height="36" rx="6" fill="#4ade80"/>
+  <text x="510" y="101" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+15%</text>
+  <text x="20" y="130" fill="#71717a" font-family="sans-serif" font-size="13">Лучший квартал с 2020 года</text>
+  <text x="20" y="170" fill="#a1a1aa" font-family="sans-serif" font-size="14">Nasdaq Composite</text>
+  <rect x="350" y="148" width="275" height="36" rx="6" fill="#4ade80"/>
+  <text x="635" y="171" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+27.5%</text>
+  <text x="20" y="200" fill="#71717a" font-family="sans-serif" font-size="13">Лучший квартал за 4 года</text>
+  <text x="20" y="240" fill="#a1a1aa" font-family="sans-serif" font-size="14">Биткоин</text>
+  <rect x="209" y="218" width="141" height="36" rx="6" fill="#f87171"/>
+  <text x="130" y="241" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">-14.09%</text>
+  <text x="20" y="270" fill="#71717a" font-family="sans-serif" font-size="13">Тот же квартал, противоположное направление</text>
+  <text x="350" y="310" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Те же три месяца (апрель-июнь 2026), противоположные результаты</text>
+  <text x="20" y="335" fill="#71717a" font-family="sans-serif" font-size="13">Источник: VaaSBlock («Bitcoin Q2 2026: S&amp;P 500 Best Quarter Since 2020, BTC Down 14%»)</text>
+  <text x="20" y="353" fill="#71717a" font-family="sans-serif" font-size="13">* Длина столбцов приведена только для относительного сравнения и не соответствует точному масштабу.</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">2026年第二季報酬比較</text>
+  <rect x="470" y="14" width="14" height="14" fill="#4ade80"/>
+  <text x="488" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">上漲</text>
+  <rect x="470" y="34" width="14" height="14" fill="#f87171"/>
+  <text x="488" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">下跌</text>
+  <line x1="350" y1="55" x2="350" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="356" y="68" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="20" y="100" fill="#a1a1aa" font-family="sans-serif" font-size="14">標普500</text>
+  <rect x="350" y="78" width="150" height="36" rx="6" fill="#4ade80"/>
+  <text x="510" y="101" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+15%</text>
+  <text x="20" y="130" fill="#71717a" font-family="sans-serif" font-size="13">2020年以來最佳單季</text>
+  <text x="20" y="170" fill="#a1a1aa" font-family="sans-serif" font-size="14">那斯達克綜合指數</text>
+  <rect x="350" y="148" width="275" height="36" rx="6" fill="#4ade80"/>
+  <text x="635" y="171" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700">+27.5%</text>
+  <text x="20" y="200" fill="#71717a" font-family="sans-serif" font-size="13">四年來最佳單季</text>
+  <text x="20" y="240" fill="#a1a1aa" font-family="sans-serif" font-size="14">比特幣</text>
+  <rect x="209" y="218" width="141" height="36" rx="6" fill="#f87171"/>
+  <text x="130" y="241" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700">-14.09%</text>
+  <text x="20" y="270" fill="#71717a" font-family="sans-serif" font-size="13">同一季度,方向恰恰相反</text>
+  <text x="350" y="310" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">同樣三個月(2026年4至6月),結果截然相反</text>
+  <text x="20" y="335" fill="#71717a" font-family="sans-serif" font-size="13">資料來源:VaaSBlock("Bitcoin Q2 2026: S&amp;P 500 Best Quarter Since 2020, BTC Down 14%")</text>
+  <text x="20" y="353" fill="#71717a" font-family="sans-serif" font-size="13">※長條長度僅供相對比較,並非精確比例尺。</text>
+</svg>
+</div>
 
 <h2 class="ko">두 가지 해석 — '독립 자산으로의 성숙'이냐 '자금의 외면'이냐</h2>
 <h2 class="en">Two Readings: "Maturing Into an Independent Asset" or "Capital Passing It By"</h2>
@@ -359,6 +494,11 @@
 <h2 class="pt">Duas Leituras: "Amadurecimento Rumo a um Ativo Independente" ou "O Capital Está Deixando Para Trás"</h2>
 <h2 class="tr">İki Okuma: "Bağımsız Bir Varlığa Olgunlaşma" mı, "Sermayenin Görmezden Gelmesi" mi</h2>
 <h2 class="vi">Hai Cách Đọc: "Trưởng Thành Thành Tài Sản Độc Lập" hay "Dòng Vốn Bỏ Qua"</h2>
+<h2 class="id">Dua Interpretasi: "Pematangan Menjadi Aset Independen" atau "Diabaikan oleh Modal"</h2>
+<h2 class="pl">Dwie Interpretacje: „Dojrzewanie w Niezależny Aktyw” czy „Kapitał Go Pomija”</h2>
+<h2 class="it">Due Letture: «Maturazione verso un Asset Indipendente» o «Il Capitale lo Ignora»</h2>
+<h2 class="ru">Две Трактовки: «Взросление в Независимый Актив» или «Капитал Обходит Его Стороной»</h2>
+<h2 class="zh">兩種解讀:「邁向獨立資產的成熟」或「資金的忽視」</h2>
 
 <p class="ko">이 사이트는 지난 7월5일 비트코인-나스닥 30일 상관계수가 4월 +0.96에서 -0.84로 뒤집힌 현상을 다룬 바 있다. 당시엔 나스닥이 반도체발 조정을 겪는 사이 비트코인이 반등하며 상관관계가 깨졌는데, 지금은 정반대로 나스닥이 사상 최고치를 새로 쓰는 사이 비트코인이 정체된 모습이다. 상관관계가 어느 방향이든 '깨져 있다'는 사실 자체는, 일부 분석가들이 주장해온 '비트코인이 나스닥의 베타 자산에서 벗어나 독립적인 매크로 자산으로 성숙하고 있다'는 서사를 뒷받침하는 근거로 쓰일 수 있다. 실제로 크립토닷컴 등 일부 매체는 6월 한 달간 비트코인과 S&P500·나스닥100·엔비디아의 상관계수가 거의 0에 가깝게 식었다고 짚었다.</p>
 <p class="en">This site covered, on July 5, how Bitcoin's 30-day correlation with the Nasdaq flipped from +0.96 in April to -0.84. At the time, Nasdaq was taking a semiconductor-led hit while Bitcoin rallied, breaking the correlation. Now the situation is reversed: Nasdaq is setting fresh records while Bitcoin sits still. The fact that the correlation is "broken" — in either direction — is itself the kind of evidence some analysts have used to argue that Bitcoin is maturing out of being a Nasdaq-beta asset and into an independent macro asset. Outlets including crypto.com have indeed noted that, over parts of June, Bitcoin's correlation with the S&amp;P 500, Nasdaq 100, and Nvidia cooled to near zero.</p>
