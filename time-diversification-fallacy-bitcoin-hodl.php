@@ -56,6 +56,11 @@
 <h2 class="pt">O Paradoxo de Samuelson — Por Que Você Recusaria Uma Aposta, mas Aceitaria Cem</h2>
 <h2 class="tr">Samuelson Paradoksu — Bir Bahsi Reddedip Yüz Tanesini Neden Kabul Edersiniz</h2>
 <h2 class="vi">Nghịch Lý Samuelson — Vì Sao Từ Chối Một Lần Cược Nhưng Chấp Nhận Một Trăm Lần</h2>
+<h2 class="id">Paradoks Samuelson — Mengapa Anda Menolak Satu Taruhan tapi Menerima Seratus</h2>
+<h2 class="pl">Paradoks Samuelsona — Dlaczego Odrzuciłbyś Jeden Zakład, ale Zaakceptował Sto</h2>
+<h2 class="it">Il Paradosso di Samuelson — Perché Rifiuteresti Una Scommessa ma ne Accetteresti Cento</h2>
+<h2 class="ru">Парадокс Самуэльсона — Почему Вы Отказались Бы от Одного Пари, но Приняли Бы Сто</h2>
+<h2 class="zh">薩繆爾森悖論——為何拒絕一次賭局,卻願意接受一百次</h2>
 
 <p class="ko">새뮤얼슨이 1963년 사이언시아(Scientia)에 발표한 사고실험은 단순하다. 그는 동료에게 내기를 제안했다 — 동전을 던져 앞면이 나오면 200달러를 받고, 뒷면이 나오면 100달러를 잃는다. 기대값은 양수(+50달러)였지만 동료는 단 한 번의 내기는 거절했다. 그런데 그 동료는 같은 내기를 100번 반복하는 건 기꺼이 받아들이겠다고 답했다. 새뮤얼슨은 이 반응이 표준적인 기대효용이론 안에서는 논리적으로 성립할 수 없다는 걸 증명했다 — 각 판돈에 대해 매 순간 위험회피적인 효용함수를 가진 사람이라면, 단 한 번의 내기를 거절하는 이유가 여러 번 반복되는 내기 전체를 거절하는 이유와 정확히 같아야 한다는 것이다. "여러 번 하면 평균으로 수렴해서 안전해진다"는 직관은, 그 직관이 성립하기 위한 조건(중간에 판돈을 조절할 수 없고, 부의 경로 전체가 효용에 영향을 준다는 조건)을 무시한 결과다.</p>
 <p class="en">The thought experiment Samuelson published in Scientia in 1963 is simple. He offered a colleague a bet: flip a coin, heads you win $200, tails you lose $100. The expected value was positive (+$50), yet the colleague declined a single play of it. That same colleague, however, said he'd happily take 100 repetitions of the identical bet. Samuelson proved that response can't hold up under standard expected-utility theory — for someone with a risk-averse utility function at every wealth level along the path, the reason for declining one play has to be exactly the same reason for declining the whole sequence of plays. The intuition that "repeat it enough times and it averages out to safety" ignores the conditions that intuition actually requires: that you can't adjust your stake mid-sequence, and that the entire wealth path, not just the endpoint, feeds into your utility.</p>
