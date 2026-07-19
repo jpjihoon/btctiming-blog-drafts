@@ -868,6 +868,11 @@
   <h2 class="pt">Emprestar um Indicador de Outro Mercado Significa Emprestar Também Sua Estrutura</h2>
   <h2 class="tr">Başka Bir Piyasadan Gösterge Ödünç Almak, Onun Yapısını da Ödünç Almak Demektir</h2>
   <h2 class="vi">Mượn Một Chỉ Báo Từ Thị Trường Khác Nghĩa Là Cũng Phải Mượn Cấu Trúc Của Nó</h2>
+  <h2 class="id">Meminjam Indikator dari Pasar Lain Berarti Meminjam Strukturnya Juga</h2>
+  <h2 class="pl">Zapożyczenie Wskaźnika z Innego Rynku Oznacza Zapożyczenie Także Jego Struktury</h2>
+  <h2 class="it">Prendere in Prestito un Indicatore da un Altro Mercato Significa Prendere in Prestito Anche la Sua Struttura</h2>
+  <h2 class="ru">Заимствование Индикатора из Другого Рынка Означает Заимствование и Его Структуры</h2>
+  <h2 class="zh">從另一個市場借用指標,也意味著借用了它的結構</h2>
 
   <p class="ko">RVI 이야기가 던지는 통찰은 이 지표 하나에 국한되지 않는다. 기술적 지표는 진공에서 태어나지 않는다. 특정 시장의 미시구조 — 개장과 폐장이라는 뚜렷한 경계, 그 경계에 몰리는 기관 주문 흐름 — 를 전제로 설계된 도구를, 그 전제 자체가 존재하지 않는 시장으로 그대로 옮기면 공식은 똑같이 돌아가도 공식이 원래 측정하려던 실체는 사라진다. <a href="/blog/vwap-benchmark-grades-itself">VWAP이 원래 '공정 가격'이 아니라 대형 주문의 실행 성과를 채점하기 위한 벤치마크로 태어났다</a>는 사실을 잊은 채 지지선으로 쓰는 경우와 본질적으로 같은 함정이다.</p>
   <p class="en">The lesson from RVI isn't limited to this one indicator. A technical indicator is never born in a vacuum. Take a tool designed around a specific market's microstructure — a clearly defined open and close, institutional order flow concentrated at that boundary — and transplant it into a market where that premise simply doesn't exist, and the formula keeps running exactly as before, but the substance it was built to measure has vanished. It's essentially the same trap as forgetting that <a href="/en/blog/vwap-benchmark-grades-itself">VWAP was born as a benchmark for scoring how well large orders were executed, not as a "fair price"</a>, and using it as a support line anyway.</p>
