@@ -469,6 +469,176 @@
   <text x="350" y="376" fill="#71717a" font-family="sans-serif" font-size="11" text-anchor="middle">Nguồn: Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Garis Waktu Patrick Witt — Perintah JAG, Dukungan, dan Serah Terima kepada Harry Jung</text>
+  <text x="20" y="50" fill="#71717a" font-size="12" font-family="sans-serif">Disusun dari Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+  <line x1="40" y1="80" x2="660" y2="80" stroke="#3f3f46" stroke-width="2"/>
+  <circle cx="70" cy="80" r="6" fill="#22c55e"/>
+  <text x="70" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">Apr 2026</text>
+  <text x="70" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Perintah JAG, ditunda</text>
+  <circle cx="182" cy="80" r="6" fill="#38bdf8"/>
+  <text x="182" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">1 Jul</text>
+  <text x="182" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">NOBLE dukung RUU</text>
+  <circle cx="294" cy="80" r="6" fill="#38bdf8"/>
+  <text x="294" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">10 Jul</text>
+  <text x="294" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">FLEOA dukung (ke-2)</text>
+  <circle cx="406" cy="80" r="6" fill="#f59e0b"/>
+  <text x="406" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">~20 Jul</text>
+  <text x="406" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Target pemungutan suara</text>
+  <circle cx="518" cy="80" r="7" fill="#ef4444"/>
+  <text x="518" y="105" fill="#fca5a5" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">24 Jul</text>
+  <text x="518" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Witt selesaikan tugas GP</text>
+  <circle cx="630" cy="80" r="7" fill="#fb7185"/>
+  <text x="630" y="105" fill="#fda4af" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">27 Jul</text>
+  <text x="630" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Lapor pelatihan JAG</text>
+  <rect x="20" y="150" width="660" height="130" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="350" y="175" fill="#f2f2f5" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Serah Terima: Harry Jung Jadi Pelaksana Tugas</text>
+  <text x="40" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="13">① Wakil direktur Harry Jung ambil alih tugas Witt</text>
+  <text x="40" y="222" fill="#e4e4e7" font-family="sans-serif" font-size="13">② Jung hadir dalam negosiasi sepanjang tahun</text>
+  <text x="40" y="244" fill="#e4e4e7" font-family="sans-serif" font-size="13">③ Witt: berniat tetap "seterlibat mungkin"</text>
+  <text x="40" y="266" fill="#e4e4e7" font-family="sans-serif" font-size="13">④ Kerja implementasi &amp; lintas lembaga pasca-suara beralih ke Jung selama berbulan-bulan</text>
+  <rect x="20" y="298" width="660" height="46" rx="6" fill="#1f1a11" stroke="#92400e"/>
+  <text x="350" y="326" fill="#fde68a" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Pemungutan suara ditargetkan sebelum penyelesaian tugas Witt (24 Jul) — tetapi kerja implementasi berlanjut sepanjang ketidakhadirannya berbulan-bulan</text>
+  <text x="350" y="376" fill="#71717a" font-family="sans-serif" font-size="11" text-anchor="middle">Sumber: Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Oś Czasu Patricka Witta — Rozkazy JAG, Poparcia i Przekazanie Obowiązków Harry'emu Jungowi</text>
+  <text x="20" y="50" fill="#71717a" font-size="12" font-family="sans-serif">Zestawione na podstawie Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+  <line x1="40" y1="80" x2="660" y2="80" stroke="#3f3f46" stroke-width="2"/>
+  <circle cx="70" cy="80" r="6" fill="#22c55e"/>
+  <text x="70" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">Kwi 2026</text>
+  <text x="70" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Rozkazy JAG, odroczone</text>
+  <circle cx="182" cy="80" r="6" fill="#38bdf8"/>
+  <text x="182" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">1 lip</text>
+  <text x="182" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">NOBLE popiera ustawę</text>
+  <circle cx="294" cy="80" r="6" fill="#38bdf8"/>
+  <text x="294" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">10 lip</text>
+  <text x="294" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">FLEOA popiera (2.)</text>
+  <circle cx="406" cy="80" r="6" fill="#f59e0b"/>
+  <text x="406" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">~20 lip</text>
+  <text x="406" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Planowane głosowanie</text>
+  <circle cx="518" cy="80" r="7" fill="#ef4444"/>
+  <text x="518" y="105" fill="#fca5a5" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">24 lip</text>
+  <text x="518" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Witt kończy pracę w BD</text>
+  <circle cx="630" cy="80" r="7" fill="#fb7185"/>
+  <text x="630" y="105" fill="#fda4af" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">27 lip</text>
+  <text x="630" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Stawia się na szkolenie JAG</text>
+  <rect x="20" y="150" width="660" height="130" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="350" y="175" fill="#f2f2f5" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Przekazanie Obowiązków: Harry Jung Pełniącym Obowiązki</text>
+  <text x="40" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="13">① Zastępca dyrektora Harry Jung przejmuje obowiązki Witta</text>
+  <text x="40" y="222" fill="#e4e4e7" font-family="sans-serif" font-size="13">② Jung był obecny na negocjacjach przez cały rok</text>
+  <text x="40" y="244" fill="#e4e4e7" font-family="sans-serif" font-size="13">③ Witt: zamierza pozostać "możliwie jak najbardziej zaangażowany"</text>
+  <text x="40" y="266" fill="#e4e4e7" font-family="sans-serif" font-size="13">④ Wdrożenie po głosowaniu i praca z agencjami przechodzą na Junga na miesiące</text>
+  <rect x="20" y="298" width="660" height="46" rx="6" fill="#1f1a11" stroke="#92400e"/>
+  <text x="350" y="326" fill="#fde68a" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Głosowanie planowane przed zakończeniem pracy Witta (24 lip) — ale wdrożenie trwa przez całą jego kilkumiesięczną nieobecność</text>
+  <text x="350" y="376" fill="#71717a" font-family="sans-serif" font-size="11" text-anchor="middle">Źródła: Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronologia di Patrick Witt — Ordini JAG, Sostegni, e il Passaggio a Harry Jung</text>
+  <text x="20" y="50" fill="#71717a" font-size="12" font-family="sans-serif">Compilato da Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+  <line x1="40" y1="80" x2="660" y2="80" stroke="#3f3f46" stroke-width="2"/>
+  <circle cx="70" cy="80" r="6" fill="#22c55e"/>
+  <text x="70" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">Apr 2026</text>
+  <text x="70" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Ordini JAG, rinviati</text>
+  <circle cx="182" cy="80" r="6" fill="#38bdf8"/>
+  <text x="182" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">1 lug</text>
+  <text x="182" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">NOBLE sostiene la legge</text>
+  <circle cx="294" cy="80" r="6" fill="#38bdf8"/>
+  <text x="294" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">10 lug</text>
+  <text x="294" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">FLEOA sostiene (2°)</text>
+  <circle cx="406" cy="80" r="6" fill="#f59e0b"/>
+  <text x="406" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">~20 lug</text>
+  <text x="406" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Voto in aula previsto</text>
+  <circle cx="518" cy="80" r="7" fill="#ef4444"/>
+  <text x="518" y="105" fill="#fca5a5" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">24 lug</text>
+  <text x="518" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Witt conclude lavoro CB</text>
+  <circle cx="630" cy="80" r="7" fill="#fb7185"/>
+  <text x="630" y="105" fill="#fda4af" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">27 lug</text>
+  <text x="630" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Addestramento JAG</text>
+  <rect x="20" y="150" width="660" height="130" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="350" y="175" fill="#f2f2f5" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Il Passaggio: Harry Jung Subentra ad Interim</text>
+  <text x="40" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="13">① Il vicedirettore Harry Jung assume le funzioni di Witt</text>
+  <text x="40" y="222" fill="#e4e4e7" font-family="sans-serif" font-size="13">② Jung presente ai negoziati per tutto l'anno</text>
+  <text x="40" y="244" fill="#e4e4e7" font-family="sans-serif" font-size="13">③ Witt: intende restare "il più coinvolto possibile"</text>
+  <text x="40" y="266" fill="#e4e4e7" font-family="sans-serif" font-size="13">④ L'attuazione post-voto passa a Jung per mesi</text>
+  <rect x="20" y="298" width="660" height="46" rx="6" fill="#1f1a11" stroke="#92400e"/>
+  <text x="350" y="326" fill="#fde68a" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Voto previsto prima della conclusione di Witt (24 lug) — ma l'attuazione prosegue durante la sua assenza di più mesi</text>
+  <text x="350" y="376" fill="#71717a" font-family="sans-serif" font-size="11" text-anchor="middle">Fonti: Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Хронология Патрика Уитта — приказы JAG, поддержка законопроекта и передача дел Гарри Джангу</text>
+  <text x="20" y="50" fill="#71717a" font-size="12" font-family="sans-serif">Составлено по материалам Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+  <line x1="40" y1="80" x2="660" y2="80" stroke="#3f3f46" stroke-width="2"/>
+  <circle cx="70" cy="80" r="6" fill="#22c55e"/>
+  <text x="70" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">Апр 2026</text>
+  <text x="70" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Приказы JAG, отсрочены</text>
+  <circle cx="182" cy="80" r="6" fill="#38bdf8"/>
+  <text x="182" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">1 июл</text>
+  <text x="182" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">NOBLE поддержала законопроект</text>
+  <circle cx="294" cy="80" r="6" fill="#38bdf8"/>
+  <text x="294" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">10 июл</text>
+  <text x="294" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">FLEOA поддержала (2-я)</text>
+  <circle cx="406" cy="80" r="6" fill="#f59e0b"/>
+  <text x="406" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">~20 июл</text>
+  <text x="406" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Плановое голосование</text>
+  <circle cx="518" cy="80" r="7" fill="#ef4444"/>
+  <text x="518" y="105" fill="#fca5a5" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">24 июл</text>
+  <text x="518" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Уитт завершает работу в БД</text>
+  <circle cx="630" cy="80" r="7" fill="#fb7185"/>
+  <text x="630" y="105" fill="#fda4af" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">27 июл</text>
+  <text x="630" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">Явка на подготовку JAG</text>
+  <rect x="20" y="150" width="660" height="130" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="350" y="175" fill="#f2f2f5" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Передача Дел: Гарри Джанг Исполняет Обязанности</text>
+  <text x="40" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="13">① Замдиректора Гарри Джанг берёт на себя обязанности Уитта</text>
+  <text x="40" y="222" fill="#e4e4e7" font-family="sans-serif" font-size="13">② Джанг присутствовал на переговорах весь год</text>
+  <text x="40" y="244" fill="#e4e4e7" font-family="sans-serif" font-size="13">③ Уитт: намерен оставаться «максимально вовлечённым»</text>
+  <text x="40" y="266" fill="#e4e4e7" font-family="sans-serif" font-size="13">④ Работа по внедрению и с ведомствами после голосования переходит к Джангу на месяцы</text>
+  <rect x="20" y="298" width="660" height="46" rx="6" fill="#1f1a11" stroke="#92400e"/>
+  <text x="350" y="326" fill="#fde68a" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Голосование запланировано до завершения работы Уитта (24 июл) — но работа по внедрению продолжается всю его многомесячную отлучку</text>
+  <text x="350" y="376" fill="#71717a" font-family="sans-serif" font-size="11" text-anchor="middle">Источники: Cointelegraph, CryptoTimes, Crypto in America, CryptoBriefing</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">派翠克·威特時間軸 — JAG命令、支持表態,以及交接給哈利·鍾</text>
+  <text x="20" y="50" fill="#71717a" font-size="12" font-family="sans-serif">彙整自Cointelegraph、CryptoTimes、Crypto in America、CryptoBriefing</text>
+  <line x1="40" y1="80" x2="660" y2="80" stroke="#3f3f46" stroke-width="2"/>
+  <circle cx="70" cy="80" r="6" fill="#22c55e"/>
+  <text x="70" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">2026年4月</text>
+  <text x="70" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">JAG命令,延後</text>
+  <circle cx="182" cy="80" r="6" fill="#38bdf8"/>
+  <text x="182" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">7月1日</text>
+  <text x="182" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">NOBLE表態支持法案</text>
+  <circle cx="294" cy="80" r="6" fill="#38bdf8"/>
+  <text x="294" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">7月10日</text>
+  <text x="294" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">FLEOA表態支持(第2個)</text>
+  <circle cx="406" cy="80" r="6" fill="#f59e0b"/>
+  <text x="406" y="105" fill="#e4e4e7" font-family="sans-serif" font-size="13" text-anchor="middle">~7月20日</text>
+  <text x="406" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">目標院會表決</text>
+  <circle cx="518" cy="80" r="7" fill="#ef4444"/>
+  <text x="518" y="105" fill="#fca5a5" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">7月24日</text>
+  <text x="518" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">威特結束白宮工作</text>
+  <circle cx="630" cy="80" r="7" fill="#fb7185"/>
+  <text x="630" y="105" fill="#fda4af" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="700">7月27日</text>
+  <text x="630" y="122" fill="#9a9aa4" font-family="sans-serif" font-size="11" text-anchor="middle">報到參加JAG訓練</text>
+  <rect x="20" y="150" width="660" height="130" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="350" y="175" fill="#f2f2f5" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">交接:哈利·鍾出任代理負責人</text>
+  <text x="40" y="200" fill="#e4e4e7" font-family="sans-serif" font-size="13">① 副主任哈利·鍾接手威特職責</text>
+  <text x="40" y="222" fill="#e4e4e7" font-family="sans-serif" font-size="13">② 鍾全年皆在場參與談判</text>
+  <text x="40" y="244" fill="#e4e4e7" font-family="sans-serif" font-size="13">③ 威特:打算「盡可能保持參與」</text>
+  <text x="40" y="266" fill="#e4e4e7" font-family="sans-serif" font-size="13">④ 表決後的實施與跨機構協調工作將轉由鍾負責數月</text>
+  <rect x="20" y="298" width="660" height="46" rx="6" fill="#1f1a11" stroke="#92400e"/>
+  <text x="350" y="326" fill="#fde68a" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">表決目標訂於威特收尾(7月24日)之前 — 但實施工作將持續貫穿他數月的缺席期間</text>
+  <text x="350" y="376" fill="#71717a" font-family="sans-serif" font-size="11" text-anchor="middle">資料來源:Cointelegraph、CryptoTimes、Crypto in America、CryptoBriefing</text>
+</svg>
+</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 코인텔레그래프("White House Crypto Adviser To Take Leave of Absence as CLARITY Act deadline looms"), 크립토타임스("White House Loses Top Crypto Negotiator Before CLARITY Act Vote"), 크립토인아메리카("SCOOP: Top White House Crypto Adviser to Take Military Leave as Clarity Act Enters Critical Stretch"), 코인텔레그래프("US Federal Officers' Group Backs CLARITY Act"), 크립토브리핑. 수치와 날짜는 각 매체의 보도 시점 기준이며 이후 변동할 수 있다.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Cointelegraph ("White House Crypto Adviser To Take Leave of Absence as CLARITY Act deadline looms"), CryptoTimes ("White House Loses Top Crypto Negotiator Before CLARITY Act Vote"), Crypto in America ("SCOOP: Top White House Crypto Adviser to Take Military Leave as Clarity Act Enters Critical Stretch"), Cointelegraph ("US Federal Officers' Group Backs CLARITY Act"), CryptoBriefing. Figures and dates are as reported by each outlet at time of writing and may change.</p>
