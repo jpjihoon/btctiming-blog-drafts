@@ -9,6 +9,11 @@
   <p class="pt">O cenário analítico do Bitcoin está repleto de indicadores do tipo "se o preço cair abaixo desta linha, o ciclo tocou o fundo". Entre eles, o Delta Cap tem uma origem incomumente modesta. Proposto pela primeira vez pelo analista David Puell em março de 2019, ao lado de uma métrica irmã chamada Top Cap, sua definição é desarmantemente simples: Realized Cap menos Average Cap. Soa técnico, mas a ideia é direta — apontar o momento em que o preço médio que os participantes do mercado realmente pagaram (Realized Cap) cai abaixo da média de toda a vida da capitalização de mercado do Bitcoin (Average Cap).</p>
   <p class="tr">Bitcoin analiz dünyası, "fiyat bu çizginin altına düşerse döngü dip yapmıştır" türünden göstergelerle doludur. Bunlar arasında Delta Cap alışılmadık derecede mütevazı bir kökene sahiptir. Analist David Puell tarafından Mart 2019'da Top Cap adlı kardeş göstergeyle birlikte ilk kez ortaya atılan bu göstergenin tanımı silahsızlandırıcı derecede basittir: Realized Cap eksi Average Cap. Teknik gibi görünse de fikir dolaysızdır — piyasa katılımcılarının gerçekten ödediği ortalama fiyatın (Realized Cap), Bitcoin'in piyasa değerinin tüm zamanlar ortalamasının (Average Cap) altına düştüğü anı yakalamak.</p>
   <p class="vi">Giới phân tích Bitcoin đầy rẫy những chỉ báo kiểu "nếu giá rơi xuống dưới đường này, chu kỳ đã tạo đáy". Trong số đó, Delta Cap có một xuất thân khiêm tốn khác thường. Được nhà phân tích David Puell đề xuất lần đầu vào tháng 3/2019 cùng với một chỉ số anh em tên là Top Cap, định nghĩa của nó đơn giản đến bất ngờ: Realized Cap trừ Average Cap. Nghe có vẻ kỹ thuật, nhưng ý tưởng lại rất trực tiếp — xác định thời điểm mức giá trung bình mà những người tham gia thị trường thực sự đã trả (Realized Cap) rơi xuống dưới mức trung bình trọn đời của vốn hóa thị trường Bitcoin (Average Cap).</p>
+  <p class="id">Dunia analitik Bitcoin dipenuhi indikator dengan pola "jika harga turun di bawah garis ini, siklus telah mencapai dasar." Di antara indikator-indikator itu, Delta Cap memiliki asal-usul yang tak biasa sederhananya. Pertama kali diajukan oleh analis David Puell pada Maret 2019 bersama metrik saudaranya, Top Cap, definisinya sederhana tanpa basa-basi: Realized Cap dikurangi Average Cap. Kedengarannya teknis, tetapi idenya lugas — menandai momen ketika harga rata-rata yang benar-benar dibayarkan pelaku pasar (Realized Cap) turun di bawah rata-rata sepanjang masa kapitalisasi pasar Bitcoin (Average Cap).</p>
+  <p class="pl">Scena analityczna Bitcoina jest przepełniona wskaźnikami w formie "jeśli cena spadnie poniżej tej linii, cykl osiągnął dno." Wśród nich Delta Cap ma niezwykle skromne pochodzenie. Po raz pierwszy zaproponowany przez analityka Davida Puella w marcu 2019 roku wraz z pokrewnym wskaźnikiem o nazwie Top Cap, jego definicja jest rozbrajająco prosta: Realized Cap minus Average Cap. Brzmi technicznie, ale idea jest prosta — wskazać moment, w którym średnia cena faktycznie zapłacona przez uczestników rynku (Realized Cap) spada poniżej średniej kapitalizacji rynkowej Bitcoina z całej jego historii (Average Cap).</p>
+  <p class="it">Il panorama analitico di Bitcoin è pieno di indicatori del tipo "se il prezzo scende sotto questa linea, il ciclo ha toccato il fondo." Tra questi, il Delta Cap ha un'origine insolitamente modesta. Proposto per la prima volta dall'analista David Puell nel marzo 2019 insieme a una metrica gemella chiamata Top Cap, la sua definizione è disarmantemente semplice: Realized Cap meno Average Cap. Suona tecnico, ma l'idea è diretta — individuare il momento in cui il prezzo medio effettivamente pagato dai partecipanti al mercato (Realized Cap) scende sotto la media storica dell'intera capitalizzazione di mercato di Bitcoin (Average Cap).</p>
+  <p class="ru">Аналитическая среда биткоина переполнена индикаторами вида «если цена опускается ниже этой линии, цикл достиг дна». Среди них Delta Cap выделяется необычно скромным происхождением. Впервые предложенный аналитиком Дэвидом Пуэллом (David Puell) в марте 2019 года вместе со смежной метрикой Top Cap, его определение обезоруживающе простое: Realized Cap минус Average Cap. Звучит технически, но идея прямолинейна — зафиксировать момент, когда средняя цена, которую участники рынка реально заплатили (Realized Cap), опускается ниже среднего значения рыночной капитализации биткоина за всю его историю (Average Cap).</p>
+  <p class="zh">比特幣的分析圈裡充斥著「若價格跌破這條線,週期便已見底」這類形式的指標。其中,Delta Cap 的出身異常樸素。分析師大衛·普埃爾(David Puell)於2019年3月首次提出這項指標,並同時搭配一個名為 Top Cap 的姊妹指標,其定義簡單得令人卸下心防:Realized Cap 減去 Average Cap。聽起來很技術性,但概念其實很直接——找出市場參與者實際支付的平均價格(Realized Cap)跌破比特幣整個歷史平均市值(Average Cap)的那一刻。</p>
 
   <p class="ko">그리고 실제로 이 지표는 꽤 잘 맞았다. 2015년 176달러, 2018년 말 3,200달러 — 비트코인 역사상 손꼽히는 두 바닥에서 가격은 이 지표가 그린 밴드 근처에서 지지를 받았다. 그런데 2026년 4월 코인데스크(CoinDesk)가 보도했듯, "2015년 이후 모든 바닥을 잡아낸 이 단순한 지표"가 이번 사이클에는 아직 발동하지 않았다. 침묵이 길어질수록 두 가지 해석이 맞선다 — 아직 진짜 바닥이 오지 않았다는 신호이거나, 혹은 지표 자체가 시장의 성장 속도를 따라잡지 못하고 있다는 신호이거나. 이 칼럼은 후자에 무게를 싣는다.</p>
   <p class="en">And the metric has actually done reasonably well. At $176 in January 2015 and around $3,200 at the end of 2018 — two of the most storied bottoms in Bitcoin's history — price found support close to the band this metric traces. But as CoinDesk reported in April 2026, "this simple indicator that has called every bottom since 2015" has yet to trigger this cycle. The longer that silence drags on, two competing readings emerge: either the real bottom hasn't arrived yet, or the indicator itself is failing to keep pace with how much the market has grown. This column leans toward the latter.</p>
@@ -19,6 +24,11 @@
   <p class="pt">E o indicador tem se saído razoavelmente bem. A 176 dólares em janeiro de 2015 e por volta de 3.200 dólares no final de 2018 — dois dos fundos mais lembrados da história do Bitcoin — o preço encontrou suporte perto da faixa que essa métrica traça. Mas, como o CoinDesk noticiou em abril de 2026, "esse indicador simples que acertou todo fundo desde 2015" ainda não disparou neste ciclo. Quanto mais esse silêncio se prolonga, mais duas leituras competem entre si: ou o fundo real ainda não chegou, ou o próprio indicador está falhando em acompanhar o ritmo de crescimento do mercado. Esta coluna se inclina para a segunda.</p>
   <p class="tr">Ve gösterge gerçekten oldukça iyi performans gösterdi. Ocak 2015'te 176 dolarda ve 2018 sonunda 3.200 dolar civarında — Bitcoin tarihinin en çok anılan iki dibinde — fiyat, bu göstergenin çizdiği bandın yakınında destek buldu. Ancak CoinDesk'in Nisan 2026'da bildirdiği gibi, "2015'ten beri her dibi yakalayan bu basit gösterge", bu döngüde henüz devreye girmedi. Bu sessizlik uzadıkça iki farklı okuma birbiriyle çatışıyor: ya gerçek dip henüz gelmedi ya da göstergenin kendisi piyasanın büyüme hızına ayak uyduramıyor. Bu yazı ikinci okumaya ağırlık veriyor.</p>
   <p class="vi">Và trên thực tế, chỉ báo này đã hoạt động khá tốt. Ở mức 176 đô la vào tháng 1/2015 và khoảng 3.200 đô la vào cuối năm 2018 — hai trong số những đáy được nhắc đến nhiều nhất trong lịch sử Bitcoin — giá đã tìm được hỗ trợ gần dải mà chỉ số này vẽ ra. Nhưng như CoinDesk đưa tin vào tháng 4/2026, "chỉ báo đơn giản này đã gọi đúng mọi đáy kể từ năm 2015" vẫn chưa kích hoạt trong chu kỳ này. Sự im lặng đó kéo dài càng lâu, hai cách diễn giải càng va chạm nhau: hoặc đáy thực sự vẫn chưa đến, hoặc bản thân chỉ báo đang không theo kịp tốc độ tăng trưởng của thị trường. Bài viết này nghiêng về cách diễn giải thứ hai.</p>
+  <p class="id">Dan indikator ini sebenarnya berkinerja cukup baik. Pada 176 dolar di Januari 2015 dan sekitar 3.200 dolar di akhir 2018 — dua dasar paling legendaris dalam sejarah Bitcoin — harga menemukan support dekat dengan pita yang digambar indikator ini. Namun seperti dilaporkan CoinDesk pada April 2026, "indikator sederhana yang telah menangkap setiap dasar sejak 2015 ini" belum juga terpicu pada siklus kali ini. Semakin lama keheningan itu berlangsung, dua tafsir yang saling bersaing pun muncul: entah dasar sesungguhnya belum tiba, atau indikator itu sendiri gagal mengimbangi seberapa besar pasar telah tumbuh. Kolom ini condong ke tafsir kedua.</p>
+  <p class="pl">I wskaźnik ten faktycznie radził sobie całkiem nieźle. Przy 176 dolarach w styczniu 2015 roku i około 3200 dolarów pod koniec 2018 roku — dwóch najsłynniejszych dnach w historii Bitcoina — cena znajdowała wsparcie blisko pasma wyznaczanego przez ten wskaźnik. Ale jak podał CoinDesk w kwietniu 2026 roku, "ten prosty wskaźnik, który trafnie wskazywał każde dno od 2015 roku", w tym cyklu jeszcze się nie uruchomił. Im dłużej to milczenie trwa, tym mocniej ścierają się dwie konkurencyjne interpretacje: albo prawdziwe dno jeszcze nie nadeszło, albo sam wskaźnik nie nadąża za tym, jak bardzo urósł rynek. Ten felieton skłania się ku drugiej interpretacji.</p>
+  <p class="it">E l'indicatore ha effettivamente funzionato piuttosto bene. A 176 dollari nel gennaio 2015 e intorno ai 3.200 dollari alla fine del 2018 — due dei fondi più celebri nella storia di Bitcoin — il prezzo ha trovato supporto vicino alla banda tracciata da questo indicatore. Ma come riportato da CoinDesk nell'aprile 2026, "questo semplice indicatore che ha individuato ogni fondo dal 2015" non si è ancora attivato in questo ciclo. Più questo silenzio si protrae, più emergono due letture contrapposte: o il vero fondo non è ancora arrivato, oppure l'indicatore stesso non riesce a tenere il passo con quanto è cresciuto il mercato. Questa rubrica propende per la seconda ipotesi.</p>
+  <p class="ru">И индикатор в целом неплохо себя показал. На отметке 176 долларов в январе 2015 года и около 3200 долларов в конце 2018 года — двух самых знаменитых днах в истории биткоина — цена находила поддержку вблизи полосы, которую вычерчивает этот индикатор. Но как сообщил CoinDesk в апреле 2026 года, «этот простой индикатор, который угадывал каждое дно с 2015 года», в этом цикле пока не сработал. Чем дольше длится эта тишина, тем острее сталкиваются два конкурирующих толкования: либо настоящее дно ещё не наступило, либо сам индикатор не успевает за темпами роста рынка. Эта колонка склоняется ко второму варианту.</p>
+  <p class="zh">而這項指標實際上表現相當不錯。2015年1月的176美元,以及2018年底的3,200美元左右——比特幣歷史上最為人津津樂道的兩次底部——當時價格都在這項指標所描繪的區間附近獲得支撐。但正如 CoinDesk 於2026年4月所報導,「這個自2015年以來精準捕捉每一次底部的簡單指標」在本輪週期中尚未觸發。這段沉默持續得越久,兩種相互競爭的解讀就越發鮮明:要嘛真正的底部尚未到來,要嘛指標本身已經跟不上市場成長的速度。本專欄傾向於後者。</p>
 
   <h2 class="ko">리얼라이즈드 캡에서 애버리지 캡을 뺀 것 — 델타캡이 실제로 재는 거리</h2>
   <h2 class="en">Realized Cap Minus Average Cap — The Distance Delta Cap Actually Measures</h2>
@@ -29,6 +39,11 @@
   <h2 class="pt">Realized Cap Menos Average Cap — a Distância que o Delta Cap Realmente Mede</h2>
   <h2 class="tr">Realized Cap Eksi Average Cap — Delta Cap'in Gerçekte Ölçtüğü Mesafe</h2>
   <h2 class="vi">Realized Cap Trừ Average Cap — Khoảng Cách Mà Delta Cap Thực Sự Đo Lường</h2>
+  <h2 class="id">Realized Cap Dikurangi Average Cap — Jarak yang Sebenarnya Diukur Delta Cap</h2>
+  <h2 class="pl">Realized Cap Minus Average Cap — Dystans, Który Faktycznie Mierzy Delta Cap</h2>
+  <h2 class="it">Realized Cap Meno Average Cap — la Distanza che il Delta Cap Misura Realmente</h2>
+  <h2 class="ru">Realized Cap Минус Average Cap — Дистанция, Которую На Самом Деле Измеряет Delta Cap</h2>
+  <h2 class="zh">Realized Cap 減去 Average Cap——Delta Cap 實際衡量的距離</h2>
 
   <p class="ko">리얼라이즈드 캡은 코인메트릭스(Coin Metrics) 팀이 2018년 12월 처음 공개한 지표로, 유통 중인 모든 비트코인을 "마지막으로 온체인에서 움직인 시점의 가격"으로 평가해 더한 값이다. 공교롭게도 이 지표가 세상에 나온 시점 자체가 그해 바닥권과 거의 겹쳤다. 반면 애버리지 캡은 계산 방식이 훨씬 단순하다 — 비트코인이 태어난 날부터 오늘까지, 매일의 시가총액을 산술평균 낸 값이다. 윌리 우(Willy Woo)와 그의 우불(Woobull) 차트가 정리한 "캡 계열" 지표들 — 마켓캡, 리얼라이즈드 캡, 써모캡, 톱캡 — 가운데서도 애버리지 캡은 가장 느리게 움직이도록 설계된 축에 속한다.</p>
   <p class="en">Realized Cap, first published by the Coin Metrics team in December 2018, values every bitcoin in circulation at the price it was last moved on-chain, then sums the total. As it happens, the metric's own debut landed almost exactly at that year's bottom. Average Cap, by contrast, is calculated far more simply — it's the arithmetic mean of Bitcoin's daily market capitalization from the day it was born to today. Among the "cap family" of metrics catalogued by Willy Woo's Woobull Charts — Market Cap, Realized Cap, Thermocap, Top Cap — Average Cap sits among the slowest-moving by design.</p>
@@ -39,6 +54,11 @@
   <p class="pt">O Realized Cap, publicado pela primeira vez pela equipe da Coin Metrics em dezembro de 2018, avalia cada bitcoin em circulação pelo preço em que foi movido on-chain pela última vez, e então soma o total. Por acaso, a própria estreia da métrica coincidiu quase exatamente com o fundo daquele ano. Já o Average Cap é calculado de forma bem mais simples — é a média aritmética da capitalização de mercado diária do Bitcoin desde o dia em que nasceu até hoje. Entre a "família dos caps" catalogada pelos Woobull Charts de Willy Woo — Market Cap, Realized Cap, Thermocap, Top Cap — o Average Cap está, por design, entre os de movimento mais lento.</p>
   <p class="tr">Realized Cap, ilk kez Aralık 2018'de Coin Metrics ekibi tarafından yayımlandı ve dolaşımdaki her bitcoin'i zincir üzerinde son hareket ettiği fiyattan değerleyip topluyor. Tesadüfen, göstergenin kendi çıkışı da o yılın dibiyle neredeyse tam olarak örtüştü. Average Cap ise çok daha basit hesaplanıyor — Bitcoin'in doğduğu günden bugüne kadar günlük piyasa değerinin aritmetik ortalaması. Willy Woo'nun Woobull Charts'ının kataloglandığı "cap ailesi" göstergeleri arasında — Market Cap, Realized Cap, Thermocap, Top Cap — Average Cap tasarım gereği en yavaş hareket edenler arasında yer alır.</p>
   <p class="vi">Realized Cap, được nhóm Coin Metrics công bố lần đầu vào tháng 12/2018, định giá mỗi bitcoin đang lưu hành theo mức giá tại thời điểm nó được di chuyển on-chain lần cuối, rồi cộng tổng lại. Tình cờ thay, chính thời điểm ra mắt của chỉ số này lại gần như trùng khớp với đáy của năm đó. Ngược lại, Average Cap được tính đơn giản hơn nhiều — đó là trung bình cộng của vốn hóa thị trường hằng ngày của Bitcoin, tính từ ngày nó ra đời cho đến hôm nay. Trong số các chỉ báo thuộc "họ cap" được Woobull Charts của Willy Woo hệ thống hóa — Market Cap, Realized Cap, Thermocap, Top Cap — Average Cap nằm trong nhóm di chuyển chậm nhất theo thiết kế.</p>
+  <p class="id">Realized Cap, pertama kali dipublikasikan oleh tim Coin Metrics pada Desember 2018, menilai setiap bitcoin yang beredar pada harga saat terakhir kali dipindahkan on-chain, lalu menjumlahkan totalnya. Kebetulan, debut indikator ini sendiri jatuh hampir tepat di dasar tahun itu. Average Cap, sebaliknya, dihitung jauh lebih sederhana — yaitu rata-rata aritmetika kapitalisasi pasar harian Bitcoin dari hari kelahirannya hingga hari ini. Di antara "keluarga cap" yang dikatalogkan oleh Woobull Charts milik Willy Woo — Market Cap, Realized Cap, Thermocap, Top Cap — Average Cap termasuk yang paling lambat bergerak secara desain.</p>
+  <p class="pl">Realized Cap, po raz pierwszy opublikowany przez zespół Coin Metrics w grudniu 2018 roku, wycenia każdego bitcoina w obiegu po cenie, po jakiej został ostatnio przesunięty on-chain, a następnie sumuje całość. Tak się złożyło, że debiut samego wskaźnika przypadł niemal dokładnie na dno tamtego roku. Average Cap natomiast oblicza się znacznie prościej — to średnia arytmetyczna dziennej kapitalizacji rynkowej Bitcoina od dnia jego narodzin do dziś. Wśród "rodziny wskaźników cap" skatalogowanej przez Woobull Charts Williego Woo — Market Cap, Realized Cap, Thermocap, Top Cap — Average Cap z założenia należy do najwolniej poruszających się.</p>
+  <p class="it">Realized Cap, pubblicato per la prima volta dal team di Coin Metrics nel dicembre 2018, valuta ogni bitcoin in circolazione al prezzo a cui è stato spostato on-chain per l'ultima volta, per poi sommare il totale. Guarda caso, il debutto stesso della metrica è coinciso quasi esattamente con il fondo di quell'anno. Average Cap, al contrario, si calcola in modo molto più semplice — è la media aritmetica della capitalizzazione di mercato giornaliera di Bitcoin dal giorno della sua nascita a oggi. Tra la "famiglia dei cap" catalogata dai Woobull Charts di Willy Woo — Market Cap, Realized Cap, Thermocap, Top Cap — l'Average Cap è, per costruzione, tra le più lente a muoversi.</p>
+  <p class="ru">Realized Cap, впервые опубликованный командой Coin Metrics в декабре 2018 года, оценивает каждый находящийся в обращении биткоин по цене его последнего перемещения в блокчейне, а затем суммирует итог. Так уж вышло, что дебют самого индикатора почти точно совпал с дном того года. Average Cap, напротив, рассчитывается гораздо проще — это среднее арифметическое ежедневной рыночной капитализации биткоина со дня его рождения по сегодняшний день. Среди «семейства cap-метрик», каталогизированного Woobull Charts Уилли Ву (Willy Woo) — Market Cap, Realized Cap, Thermocap, Top Cap — Average Cap по своей конструкции относится к числу самых медленно движущихся.</p>
+  <p class="zh">Realized Cap 由 Coin Metrics 團隊於2018年12月首次公佈,其計算方式是將流通中的每一枚比特幣以其最後一次在鏈上移動時的價格估值,再加總所有數值。巧合的是,這項指標本身問世的時間點幾乎正好落在當年的底部。相較之下,Average Cap 的計算方式簡單得多——它是比特幣自誕生之日起至今每日市值的算術平均數。在 Willy Woo 的 Woobull Charts 所整理的「cap 家族」指標——Market Cap、Realized Cap、Thermocap、Top Cap——之中,Average Cap 依設計而言屬於變動最緩慢的一類。</p>
 
   <p class="ko">퓨엘이 두 값을 뺀 이유는 명확하다. 리얼라이즈드 캡은 시장이 실제로 비트코인에 지불한 평균 단가를 반영하므로 시장 심리에 비교적 빠르게 반응한다. 반면 애버리지 캡은 비트코인 역사 전체를 뭉뚱그린 값이라 거의 움직이지 않는다. 두 선이 만나거나 역전되는 지점 — 즉 시장의 평균 매입가가 역사 전체 평균 시가총액보다도 낮아지는 지점 — 은 시장이 자신의 전체 역사보다 더 싸게 거래된다는 뜻이고, 퓨엘은 이 지점을 "델타(Δ)"라 불렀다. 이론상 이보다 더 깊은 항복은 없어야 한다는 논리다.</p>
   <p class="en">Puell's reason for subtracting the two is clear. Realized Cap reflects what the market actually paid on average, so it reacts relatively quickly to shifting sentiment. Average Cap, in contrast, blends Bitcoin's entire history into one number and barely budges. The point where the two lines meet or invert — where the market's average purchase price falls below the average market cap of its entire history — means the market is trading cheaper than its own historical average, a point Puell labeled "Delta." The logic is that, in theory, capitulation shouldn't run much deeper than that.</p>
@@ -49,6 +69,11 @@
   <p class="pt">A razão de Puell para subtrair os dois valores é clara. O Realized Cap reflete o que o mercado realmente pagou em média, então reage relativamente rápido às mudanças de sentimento. Já o Average Cap mistura toda a história do Bitcoin em um único número e mal se move. O ponto em que as duas linhas se encontram ou se invertem — onde o preço médio de compra do mercado cai abaixo da capitalização de mercado média de toda a sua história — significa que o mercado está sendo negociado mais barato que sua própria média histórica, ponto que Puell rotulou de "Delta". A lógica é que, em teoria, a capitulação não deveria ir muito mais fundo do que isso.</p>
   <p class="tr">Puell'in bu iki değeri birbirinden çıkarmasının nedeni açık. Realized Cap, piyasanın ortalama olarak gerçekten ödediğini yansıttığından, değişen duyarlılığa görece hızlı tepki verir. Average Cap ise Bitcoin'in tüm tarihini tek bir sayıya harmanlar ve neredeyse hiç kıpırdamaz. İki çizginin kesiştiği ya da yer değiştirdiği nokta — piyasanın ortalama alım fiyatının, tüm tarihinin ortalama piyasa değerinin bile altına düştüğü nokta — piyasanın kendi tarihsel ortalamasından daha ucuza işlem gördüğü anlamına gelir ve Puell bu noktayı "Delta" olarak adlandırdı. Mantık şu: teoride, kapitülasyon bundan çok daha derine inmemeli.</p>
   <p class="vi">Lý do Puell lấy hiệu của hai giá trị này rất rõ ràng. Realized Cap phản ánh những gì thị trường thực sự đã trả trung bình, nên nó phản ứng tương đối nhanh với tâm lý thay đổi. Ngược lại, Average Cap gộp toàn bộ lịch sử của Bitcoin thành một con số duy nhất và hầu như không nhúc nhích. Điểm mà hai đường này gặp nhau hoặc đảo chiều — nơi giá mua trung bình của thị trường rơi xuống dưới cả vốn hóa thị trường trung bình của toàn bộ lịch sử — có nghĩa là thị trường đang giao dịch rẻ hơn chính mức trung bình lịch sử của nó, điểm mà Puell gọi là "Delta". Logic ở đây là, về lý thuyết, sự đầu hàng bán tháo không nên đi sâu hơn mức đó.</p>
+  <p class="id">Alasan Puell mengurangkan kedua nilai ini jelas. Realized Cap mencerminkan apa yang sebenarnya dibayar pasar secara rata-rata, sehingga bereaksi relatif cepat terhadap perubahan sentimen. Average Cap, sebaliknya, meleburkan seluruh sejarah Bitcoin menjadi satu angka dan nyaris tak bergeming. Titik di mana kedua garis bertemu atau berbalik — di mana harga beli rata-rata pasar turun di bawah kapitalisasi pasar rata-rata sepanjang sejarahnya — berarti pasar diperdagangkan lebih murah daripada rata-rata historisnya sendiri, titik yang oleh Puell dinamai "Delta." Logikanya, secara teori, kapitulasi seharusnya tidak berjalan jauh lebih dalam dari titik itu.</p>
+  <p class="pl">Powód, dla którego Puell odejmuje te dwie wartości, jest jasny. Realized Cap odzwierciedla to, co rynek faktycznie zapłacił średnio, więc reaguje stosunkowo szybko na zmieniające się nastroje. Average Cap natomiast łączy całą historię Bitcoina w jedną liczbę i niemal się nie porusza. Punkt, w którym obie linie się spotykają lub odwracają — gdzie średnia cena zakupu na rynku spada poniżej średniej kapitalizacji rynkowej z całej jego historii — oznacza, że rynek notowany jest taniej niż jego własna historyczna średnia; Puell nazwał ten punkt "Delta". Logika jest taka, że teoretycznie kapitulacja nie powinna sięgać dużo głębiej niż to.</p>
+  <p class="it">Il motivo per cui Puell sottrae i due valori è chiaro. Realized Cap riflette ciò che il mercato ha effettivamente pagato in media, quindi reagisce relativamente in fretta ai cambiamenti di sentiment. Average Cap, al contrario, fonde l'intera storia di Bitcoin in un unico numero e si muove appena. Il punto in cui le due linee si incontrano o si invertono — dove il prezzo medio di acquisto del mercato scende sotto la capitalizzazione di mercato media dell'intera sua storia — significa che il mercato viene scambiato a un prezzo più basso della propria media storica, un punto che Puell ha battezzato "Delta." La logica è che, in teoria, la capitolazione non dovrebbe scendere molto più in profondità di così.</p>
+  <p class="ru">Причина, по которой Пуэлл вычитает эти два значения, очевидна. Realized Cap отражает то, что рынок реально заплатил в среднем, поэтому реагирует относительно быстро на смену настроений. Average Cap, напротив, сплавляет всю историю биткоина в одно число и почти не сдвигается. Точка, где две линии пересекаются или меняются местами — где средняя цена покупки на рынке опускается ниже средней рыночной капитализации за всю его историю — означает, что рынок торгуется дешевле собственного исторического среднего; Пуэлл назвал эту точку «Delta». Логика в том, что, теоретически, капитуляция не должна заходить намного глубже этой отметки.</p>
+  <p class="zh">普埃爾將這兩個數值相減的原因很清楚。Realized Cap 反映的是市場實際平均支付的價格,因此對情緒轉變的反應相對迅速。相較之下,Average Cap 將比特幣的整個歷史揉合成單一數字,幾乎紋風不動。這兩條線相遇或反轉的那一點——也就是市場的平均買入價跌破其整個歷史的平均市值——意味著市場的交易價格已低於自身的歷史平均水準,普埃爾將這一點命名為「Delta」。其邏輯是,理論上投降式拋售不應該比這個點更深。</p>
 
   <h2 class="ko">2015년과 2018년엔 맞았다 — 2022년엔 애매했다</h2>
   <h2 class="en">It Called 2015 and 2018 — 2022 Was a Near Miss</h2>
@@ -59,6 +84,11 @@
   <h2 class="pt">Acertou em 2015 e 2018 — 2022 Foi um Quase Acerto</h2>
   <h2 class="tr">2015 ve 2018'de Tuttu — 2022'de Yakın Bir Isabetti</h2>
   <h2 class="vi">Đúng ở 2015 và 2018 — Suýt Đúng ở 2022</h2>
+  <h2 class="id">Ia Menangkap 2015 dan 2018 — 2022 Nyaris Meleset</h2>
+  <h2 class="pl">Trafił w 2015 i 2018 Rok — 2022 To Było Prawie</h2>
+  <h2 class="it">Ha Individuato il 2015 e il 2018 — il 2022 È Stato un Quasi Errore</h2>
+  <h2 class="ru">Он Угадал 2015 и 2018 Годы — 2022-й Оказался Почти Промахом</h2>
+  <h2 class="zh">它抓準了2015年與2018年——2022年則是一次擦身而過</h2>
 
   <p class="ko">역사적 기록은 이 논리를 어느 정도 뒷받침한다. 2015년 1월, 비트코인이 176달러까지 떨어졌을 때 델타캡은 그 근방에서 가격을 붙잡았다. 2018년 12월, 3,200달러 부근에서 반등이 나왔을 때도 마찬가지였다 — 이때는 리얼라이즈드 캡이라는 지표 자체가 막 세상에 나온 지 며칠 되지 않은 시점이었다는 점에서 더 인상적이다.</p>
   <p class="en">The historical record backs the logic up, to a point. In January 2015, when Bitcoin fell to $176, Delta Cap caught price near that same level. In December 2018, when a rebound came around $3,200, the same thing happened — more striking still, given that Realized Cap itself had only existed for a matter of days at that point.</p>
@@ -69,6 +99,11 @@
   <p class="pt">O registro histórico sustenta essa lógica, até certo ponto. Em janeiro de 2015, quando o Bitcoin caiu para 176 dólares, o Delta Cap capturou o preço perto desse mesmo nível. Em dezembro de 2018, quando veio uma recuperação em torno de 3.200 dólares, aconteceu o mesmo — ainda mais notável, dado que o próprio Realized Cap só existia havia alguns dias naquele momento.</p>
   <p class="tr">Tarihsel kayıt bu mantığı bir noktaya kadar destekliyor. Ocak 2015'te Bitcoin 176 dolara düştüğünde, Delta Cap fiyatı tam olarak bu seviyenin yakınında yakaladı. Aralık 2018'de 3.200 dolar civarında bir toparlanma geldiğinde de aynı şey oldu — Realized Cap'in kendisinin o sırada sadece birkaç günlük bir geçmişi olduğu düşünüldüğünde, bu daha da dikkat çekici.</p>
   <p class="vi">Dữ liệu lịch sử phần nào ủng hộ logic này. Vào tháng 1/2015, khi Bitcoin rơi xuống 176 đô la, Delta Cap đã bắt được giá gần đúng mức đó. Vào tháng 12/2018, khi một đợt phục hồi xảy ra quanh mức 3.200 đô la, điều tương tự cũng diễn ra — càng đáng chú ý hơn khi bản thân Realized Cap lúc đó mới chỉ tồn tại được vài ngày.</p>
+  <p class="id">Catatan historis mendukung logika ini, sampai batas tertentu. Pada Januari 2015, ketika Bitcoin jatuh ke 176 dolar, Delta Cap menangkap harga mendekati level yang sama. Pada Desember 2018, ketika rebound terjadi di sekitar 3.200 dolar, hal serupa terjadi — bahkan lebih mencolok, mengingat Realized Cap sendiri saat itu baru berumur beberapa hari.</p>
+  <p class="pl">Zapis historyczny do pewnego stopnia potwierdza tę logikę. W styczniu 2015 roku, gdy Bitcoin spadł do 176 dolarów, Delta Cap uchwycił cenę blisko tego samego poziomu. W grudniu 2018 roku, gdy nastąpiło odbicie w okolicach 3200 dolarów, wydarzyło się to samo — co jeszcze bardziej uderzające, biorąc pod uwagę, że sam Realized Cap istniał wówczas dopiero od kilku dni.</p>
+  <p class="it">Il dato storico conferma questa logica, fino a un certo punto. Nel gennaio 2015, quando Bitcoin scese a 176 dollari, il Delta Cap ha catturato il prezzo vicino a quello stesso livello. Nel dicembre 2018, quando arrivò un rimbalzo intorno ai 3.200 dollari, accadde la stessa cosa — ancora più sorprendente, dato che il Realized Cap stesso esisteva a quel punto solo da pochi giorni.</p>
+  <p class="ru">Исторические данные подтверждают эту логику — до определённой степени. В январе 2015 года, когда биткоин упал до 176 долларов, Delta Cap зафиксировал цену вблизи того же уровня. В декабре 2018 года, когда произошёл отскок в районе 3200 долларов, случилось то же самое — что ещё поразительнее, учитывая, что сам Realized Cap на тот момент существовал всего несколько дней.</p>
+  <p class="zh">歷史紀錄在一定程度上支持這個邏輯。2015年1月,當比特幣跌至176美元時,Delta Cap 在接近同一水準處捕捉到了價格。2018年12月,當反彈出現在3,200美元附近時,同樣的情況再次發生——更令人驚訝的是,當時 Realized Cap 這項指標本身才剛問世短短數日。</p>
 
   <p class="ko">하지만 2022년은 이 지표의 한계를 드러냈다. 그해 9월, 델타캡과 리얼라이즈드 캡 사이에 약세 교차(bearish crossover)가 발생했지만, 그 시점은 진짜 바닥권 근처였을 뿐 정확한 저점은 아니었다. 밴드 안으로는 들어왔으나 밴드 자체를 정밀하게 관통하지는 못한 셈이다. 세 번의 사이클 중 두 번은 거의 정확히 맞혔고, 한 번은 "근처"에 그쳤다는 이 성적표는, 이 지표를 정밀한 타이밍 도구가 아니라 국면을 가늠하는 참고선으로 다뤄야 한다는 힌트를 준다.</p>
   <p class="en">2022, though, exposed the metric's limits. That September, a bearish crossover occurred between Delta Cap and Realized Cap, but the timing landed near the bottoming phase rather than at the precise low. It entered the band without cleanly piercing it. Two calls out of three landed almost exactly on target, and one landed merely "close" — a scorecard that suggests this indicator belongs in the toolkit as a regime gauge, not a precision timing device.</p>
@@ -79,6 +114,11 @@
   <p class="pt">2022, porém, expôs os limites da métrica. Naquele setembro, ocorreu um cruzamento baixista entre o Delta Cap e o Realized Cap, mas o momento caiu perto da fase de fundo, não no mínimo preciso. Entrou na faixa sem atravessá-la de forma limpa. Dois acertos em três caíram quase exatamente no alvo, e um ficou apenas "perto" — um histórico que sugere que esse indicador pertence à caixa de ferramentas como medidor de regime, não como dispositivo de timing preciso.</p>
   <p class="tr">Ancak 2022, göstergenin sınırlarını ortaya koydu. O yılın eylül ayında Delta Cap ile Realized Cap arasında düşüş yönlü bir kesişim yaşandı, ama zamanlama tam dipten ziyade dip oluşum evresine yakın bir noktaya denk geldi. Bandın içine girdi ama bandı net bir şekilde delip geçemedi. Üç isabetten ikisi neredeyse tam on ikiden vurdu, biri ise yalnızca "yakın" kaldı — bu karne, göstergenin hassas bir zamanlama aracı değil, bir rejim ölçer olarak araç kutusunda yer alması gerektiğini gösteriyor.</p>
   <p class="vi">Tuy nhiên, năm 2022 đã phơi bày giới hạn của chỉ số này. Vào tháng 9 năm đó, một sự giao cắt giảm giá (bearish crossover) xảy ra giữa Delta Cap và Realized Cap, nhưng thời điểm đó rơi vào gần giai đoạn tạo đáy chứ không phải đúng đáy chính xác. Nó đi vào trong dải nhưng không xuyên thủng dải một cách rõ ràng. Hai trong ba lần gọi gần như trúng đích chính xác, và một lần chỉ dừng ở mức "gần đúng" — bảng thành tích này gợi ý rằng chỉ báo này nên có mặt trong bộ công cụ như một thước đo chế độ thị trường, chứ không phải một công cụ định thời chính xác.</p>
+  <p class="id">Namun, 2022 mengungkap batas kemampuan indikator ini. September tahun itu, terjadi persilangan bearish (bearish crossover) antara Delta Cap dan Realized Cap, tetapi waktunya jatuh dekat fase pembentukan dasar, bukan pada titik terendah yang presisi. Ia memasuki pita tanpa menembusnya secara bersih. Dua dari tiga panggilan mendarat hampir tepat sasaran, dan satu hanya mendarat "dekat" — rapor yang menunjukkan bahwa indikator ini pantas berada di kotak perkakas sebagai pengukur rezim, bukan alat penentu waktu presisi.</p>
+  <p class="pl">Rok 2022 ujawnił jednak ograniczenia tego wskaźnika. We wrześniu tamtego roku doszło do niedźwiedziego przecięcia (bearish crossover) między Delta Cap a Realized Cap, ale moment ten przypadł blisko fazy formowania dna, a nie na dokładny dołek. Wskaźnik wszedł w pasmo, nie przebijając go w sposób jednoznaczny. Dwa z trzech trafień wypadły niemal dokładnie w cel, a jedno wypadło jedynie "blisko" — bilans, który sugeruje, że wskaźnik ten powinien znaleźć się w zestawie narzędzi jako miernik reżimu rynkowego, a nie precyzyjne narzędzie do timingu.</p>
+  <p class="it">Il 2022, però, ha messo a nudo i limiti dell'indicatore. In quel settembre si è verificato un incrocio ribassista (bearish crossover) tra Delta Cap e Realized Cap, ma il momento è caduto vicino alla fase di formazione del fondo piuttosto che al minimo preciso. È entrato nella banda senza attraversarla in modo netto. Due chiamate su tre sono cadute quasi esattamente nel segno, e una è arrivata soltanto "vicino" — un bilancio che suggerisce che questo indicatore appartenga alla cassetta degli attrezzi come misuratore di regime, non come strumento di timing di precisione.</p>
+  <p class="ru">Однако 2022 год обнажил ограничения этого индикатора. В сентябре того года между Delta Cap и Realized Cap произошло медвежье пересечение, но момент пришёлся ближе к фазе формирования дна, а не к точному минимуму. Индикатор вошёл в полосу, не пробив её чисто. Два из трёх случаев попали почти точно в цель, а один оказался лишь «близко» — итог, который говорит о том, что этому индикатору место в наборе инструментов как измерителю режима рынка, а не как точному инструменту тайминга.</p>
+  <p class="zh">然而,2022年暴露了這項指標的局限。當年9月,Delta Cap 與 Realized Cap 之間出現了空頭交叉(bearish crossover),但時機落在接近築底階段,而非精確的低點。它進入了區間卻未能乾淨地穿透。三次判斷中有兩次幾乎精準命中,一次僅算「接近」——這樣的成績單顯示,這項指標更適合作為判讀市場階段的工具,而非精確的擇時工具。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -350,6 +390,156 @@
   </svg>
   <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Biểu đồ này không vẽ các giá trị Realized Cap hay Average Cap thực tế — đây là minh họa khái niệm đơn giản hóa cho thấy khoảng cách giữa hai chỉ báo thu hẹp và mở rộng như thế nào qua các chu kỳ.</p>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Kesenjangan Antara Realized Cap dan Average Cap (Konseptual)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Titik di mana kedua garis bertemu atau berbalik adalah saat "Delta Cap terpicu" · contoh ilustratif</text>
+    <line x1="440" y1="24" x2="465" y2="24" stroke="#fbbf24" stroke-width="3"/>
+    <text x="472" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Realized Cap</text>
+    <line x1="440" y1="44" x2="465" y2="44" stroke="#60a5fa" stroke-width="3"/>
+    <text x="472" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Average Cap</text>
+    <line x1="150" y1="60" x2="150" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="320" y1="60" x2="320" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="480" y1="60" x2="480" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="650" y1="60" x2="650" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="50" y1="360" x2="670" y2="360" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="60,330 100,280 150,310 200,260 260,150 320,300 370,240 420,120 480,255 530,200 600,130 650,170" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <polyline points="60,335 100,320 150,312 200,300 260,296 320,297 370,280 420,260 480,250 530,235 600,210 650,195" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+    <circle cx="150" cy="310" r="5" fill="#4ade80"/>
+    <circle cx="320" cy="300" r="5" fill="#4ade80"/>
+    <circle cx="480" cy="252" r="5" fill="#f87171"/>
+    <text x="150" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2015</text>
+    <text x="150" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Support di $176</text>
+    <text x="320" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2018</text>
+    <text x="320" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Rebound di $3.200</text>
+    <text x="480" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Sep 2022</text>
+    <text x="480" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Persilangan dekat (dekat dasar)</text>
+    <text x="650" y="382" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2026</text>
+    <text x="650" y="398" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">Belum terpicu</text>
+    <text x="360" y="90" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="middle">Kesenjangan antar garis = "Delta"</text>
+  </svg>
+  <p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Chart ini tidak memplot nilai Realized Cap atau Average Cap yang sebenarnya — ini adalah ilustrasi konseptual yang disederhanakan tentang bagaimana kesenjangan antara kedua indikator ini menyempit dan melebar sepanjang siklus.</p>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Luka Między Realized Cap a Average Cap (Koncepcyjnie)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Miejsce, w którym obie linie się spotykają lub odwracają, to moment, w którym "Delta Cap się uruchamia" · przykład poglądowy</text>
+    <line x1="440" y1="24" x2="465" y2="24" stroke="#fbbf24" stroke-width="3"/>
+    <text x="472" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Realized Cap</text>
+    <line x1="440" y1="44" x2="465" y2="44" stroke="#60a5fa" stroke-width="3"/>
+    <text x="472" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Average Cap</text>
+    <line x1="150" y1="60" x2="150" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="320" y1="60" x2="320" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="480" y1="60" x2="480" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="650" y1="60" x2="650" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="50" y1="360" x2="670" y2="360" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="60,330 100,280 150,310 200,260 260,150 320,300 370,240 420,120 480,255 530,200 600,130 650,170" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <polyline points="60,335 100,320 150,312 200,300 260,296 320,297 370,280 420,260 480,250 530,235 600,210 650,195" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+    <circle cx="150" cy="310" r="5" fill="#4ade80"/>
+    <circle cx="320" cy="300" r="5" fill="#4ade80"/>
+    <circle cx="480" cy="252" r="5" fill="#f87171"/>
+    <text x="150" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2015</text>
+    <text x="150" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Wsparcie na 176 USD</text>
+    <text x="320" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2018</text>
+    <text x="320" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Odbicie przy 3200 USD</text>
+    <text x="480" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Wrz. 2022</text>
+    <text x="480" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Bliskie przecięcie (blisko dna)</text>
+    <text x="650" y="382" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2026</text>
+    <text x="650" y="398" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">Jeszcze się nie uruchomił</text>
+    <text x="360" y="90" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="middle">Luka między liniami = "Delta"</text>
+  </svg>
+  <p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ten wykres nie przedstawia rzeczywistych wartości Realized Cap ani Average Cap — to uproszczona ilustracja koncepcyjna pokazująca, jak luka między tymi dwoma wskaźnikami zwęża się i rozszerza w kolejnych cyklach.</p>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Il Divario Tra Realized Cap e Average Cap (Concettuale)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Il punto in cui le due linee si incontrano o si invertono è quando "il Delta Cap si attiva" · esempio illustrativo</text>
+    <line x1="440" y1="24" x2="465" y2="24" stroke="#fbbf24" stroke-width="3"/>
+    <text x="472" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Realized Cap</text>
+    <line x1="440" y1="44" x2="465" y2="44" stroke="#60a5fa" stroke-width="3"/>
+    <text x="472" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Average Cap</text>
+    <line x1="150" y1="60" x2="150" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="320" y1="60" x2="320" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="480" y1="60" x2="480" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="650" y1="60" x2="650" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="50" y1="360" x2="670" y2="360" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="60,330 100,280 150,310 200,260 260,150 320,300 370,240 420,120 480,255 530,200 600,130 650,170" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <polyline points="60,335 100,320 150,312 200,300 260,296 320,297 370,280 420,260 480,250 530,235 600,210 650,195" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+    <circle cx="150" cy="310" r="5" fill="#4ade80"/>
+    <circle cx="320" cy="300" r="5" fill="#4ade80"/>
+    <circle cx="480" cy="252" r="5" fill="#f87171"/>
+    <text x="150" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2015</text>
+    <text x="150" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Supporto a $176</text>
+    <text x="320" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2018</text>
+    <text x="320" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Rimbalzo a $3.200</text>
+    <text x="480" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Set. 2022</text>
+    <text x="480" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Incrocio ravvicinato (vicino al fondo)</text>
+    <text x="650" y="382" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2026</text>
+    <text x="650" y="398" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">Non ancora attivato</text>
+    <text x="360" y="90" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="middle">Divario tra le linee = "Delta"</text>
+  </svg>
+  <p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Questo grafico non riporta i valori reali di Realized Cap o Average Cap — è un'illustrazione concettuale semplificata di come il divario tra i due indicatori si restringe e si allarga nei vari cicli.</p>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Разрыв Между Realized Cap и Average Cap (Концептуально)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Точка, где две линии встречаются или меняются местами, — момент, когда «срабатывает Delta Cap» · иллюстративный пример</text>
+    <line x1="440" y1="24" x2="465" y2="24" stroke="#fbbf24" stroke-width="3"/>
+    <text x="472" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Realized Cap</text>
+    <line x1="440" y1="44" x2="465" y2="44" stroke="#60a5fa" stroke-width="3"/>
+    <text x="472" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Average Cap</text>
+    <line x1="150" y1="60" x2="150" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="320" y1="60" x2="320" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="480" y1="60" x2="480" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="650" y1="60" x2="650" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="50" y1="360" x2="670" y2="360" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="60,330 100,280 150,310 200,260 260,150 320,300 370,240 420,120 480,255 530,200 600,130 650,170" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <polyline points="60,335 100,320 150,312 200,300 260,296 320,297 370,280 420,260 480,250 530,235 600,210 650,195" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+    <circle cx="150" cy="310" r="5" fill="#4ade80"/>
+    <circle cx="320" cy="300" r="5" fill="#4ade80"/>
+    <circle cx="480" cy="252" r="5" fill="#f87171"/>
+    <text x="150" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2015</text>
+    <text x="150" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Поддержка на $176</text>
+    <text x="320" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2018</text>
+    <text x="320" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Отскок на $3200</text>
+    <text x="480" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Сент. 2022</text>
+    <text x="480" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Близкое пересечение (около дна)</text>
+    <text x="650" y="382" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2026</text>
+    <text x="650" y="398" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">Ещё не сработал</text>
+    <text x="360" y="90" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="middle">Разрыв между линиями = «Дельта»</text>
+  </svg>
+  <p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Этот график не отражает фактические значения Realized Cap или Average Cap — это упрощённая концептуальная иллюстрация того, как разрыв между двумя индикаторами сужается и расширяется в разных циклах.</p>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Realized Cap 與 Average Cap 之間的差距(概念圖)</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">兩條線相遇或反轉之處,即為「Delta Cap 觸發」的時刻‧示意範例</text>
+    <line x1="440" y1="24" x2="465" y2="24" stroke="#fbbf24" stroke-width="3"/>
+    <text x="472" y="28" fill="#d4d4d8" font-size="13" font-family="sans-serif">Realized Cap</text>
+    <line x1="440" y1="44" x2="465" y2="44" stroke="#60a5fa" stroke-width="3"/>
+    <text x="472" y="48" fill="#d4d4d8" font-size="13" font-family="sans-serif">Average Cap</text>
+    <line x1="150" y1="60" x2="150" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="320" y1="60" x2="320" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="480" y1="60" x2="480" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="650" y1="60" x2="650" y2="360" stroke="#3f3f46" stroke-dasharray="4,4"/>
+    <line x1="50" y1="360" x2="670" y2="360" stroke="#71717a" stroke-width="1.5"/>
+    <polyline points="60,330 100,280 150,310 200,260 260,150 320,300 370,240 420,120 480,255 530,200 600,130 650,170" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <polyline points="60,335 100,320 150,312 200,300 260,296 320,297 370,280 420,260 480,250 530,235 600,210 650,195" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+    <circle cx="150" cy="310" r="5" fill="#4ade80"/>
+    <circle cx="320" cy="300" r="5" fill="#4ade80"/>
+    <circle cx="480" cy="252" r="5" fill="#f87171"/>
+    <text x="150" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2015年</text>
+    <text x="150" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">$176 支撐</text>
+    <text x="320" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2018年</text>
+    <text x="320" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">$3,200 反彈</text>
+    <text x="480" y="382" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2022年9月</text>
+    <text x="480" y="398" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">接近交叉(接近底部)</text>
+    <text x="650" y="382" fill="#f87171" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">2026年</text>
+    <text x="650" y="398" fill="#f87171" font-size="12" text-anchor="middle" font-family="sans-serif">尚未觸發</text>
+    <text x="360" y="90" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="middle">兩線差距 =「Delta」</text>
+  </svg>
+  <p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ 本圖並未繪製 Realized Cap 或 Average Cap 的實際數值——這是一張簡化的概念示意圖,用以呈現這兩項指標之間的差距如何隨著週期縮小與擴大。</p>
+  </div>
 
   <h2 class="ko">평균의 함정 — 생애 평균이라는 분모는 시장이 자랄수록 뒤로 물러난다</h2>
   <h2 class="en">The Averaging Trap — A Lifetime Mean Retreats Further the Bigger the Market Gets</h2>
@@ -360,6 +550,11 @@
   <h2 class="pt">A Armadilha da Média — uma Média de Toda a Vida Recua Ainda Mais Quanto Maior Fica o Mercado</h2>
   <h2 class="tr">Ortalama Tuzağı — Piyasa Büyüdükçe Yaşam Boyu Ortalama Daha da Geri Çekilir</h2>
   <h2 class="vi">Cái Bẫy Của Trung Bình — Mức Trung Bình Trọn Đời Càng Lùi Xa Khi Thị Trường Càng Lớn</h2>
+  <h2 class="id">Jebakan Rata-Rata — Rata-Rata Sepanjang Masa Semakin Menjauh Seiring Pasar Membesar</h2>
+  <h2 class="pl">Pułapka Uśredniania — Średnia z Całego Życia Cofa Się Tym Dalej, Im Większy Staje Się Rynek</h2>
+  <h2 class="it">La Trappola della Media — una Media di Tutta la Vita Arretra Sempre Più Quanto Più Cresce il Mercato</h2>
+  <h2 class="ru">Ловушка Усреднения — Среднее За Всю Историю Отступает Тем Дальше, Чем Больше Растёт Рынок</h2>
+  <h2 class="zh">平均值的陷阱——市場越成長,終身平均值就退得越遠</h2>
 
   <p class="ko">애버리지 캡의 정의를 다시 보자. 비트코인 탄생 이후 전체 기간의 시가총액을 산술평균 낸 값이다. 문제는 이 평균이 시장이 커질수록 저절로, 그리고 점점 더 빠르게 올라간다는 점이다. 2013년에는 비트코인의 전체 거래 역사가 5년이 채 되지 않았고 시가총액 규모도 수십억 달러 단위였다. 2026년 현재는 거래 역사가 17년에 달하고, 그 사이 여러 차례의 조 단위 랠리가 포함돼 있다. 산술평균이라는 계산법 자체가 극단값에 민감하다는 점을 감안하면, 최근 사이클의 초대형 랠리 하나가 애버리지 캡 전체를 밀어올리는 힘은 2013년의 그것과 비교할 수 없을 만큼 커졌다.</p>
   <p class="en">Look again at how Average Cap is defined: the arithmetic mean of market cap across Bitcoin's entire trading history. The problem is that this mean rises on its own, and increasingly fast, as the market grows. In 2013, Bitcoin's entire trading history spanned less than five years and its market cap sat in the billions. By 2026, that history spans seventeen years and now includes multiple trillion-dollar-scale rallies. Given that an arithmetic mean is inherently sensitive to outliers, a single outsized rally in a recent cycle now drags the entire Average Cap upward with a force nothing like what a comparable rally could do back in 2013.</p>

@@ -92,6 +92,16 @@
 <p class="tr">"Kaldıraçlı kredi" adının kendisi hikayenin büyük bölümünü anlatıyor. Bu tür krediler tipik olarak SOFR'a (kısa vadeli referans oranı) bağlı değişken faizle, borçlunun kredi kalitesini yansıtan bir spread eklenerek ihraç edilir. Pratikte bu, TeraWulf'un fiilen üstleneceği faiz giderinin, Fed'in gelecekteki faiz yolu ile birlikte hareket edeceği anlamına gelir. Bunun TeraWulf'un "ilk" kaldıraçlı kredisi olması, derecelendirme kuruluşlarının ve kredi verenlerin şirketi oynak bir madenci yerine istikrarlı nakit akışlarına sahip bir altyapı kiracısı olarak yeniden fiyatlandırmaya başladığını düşündürüyor — ancak bu piyasada geçmişi olmayan ilk kez borçlanan bir şirket olarak, daha yüksek bir spreadle karşılaşması da muhtemel.</p>
 <p class="vi">Một công ty tài trợ cho một dự án vốn lớn thường có hai con đường. Phát hành cổ phiếu mới làm loãng cổ phần của cổ đông hiện hữu nhưng không kèm nghĩa vụ hoàn trả; huy động vốn vay tránh được sự pha loãng nhưng tạo ra nghĩa vụ trả gốc và lãi. Khi một dòng tiền dài hạn, có thể dự đoán được như hợp đồng thuê 20 năm với Anthropic được đảm bảo, các bên cho vay sẽ dễ dàng hơn nhiều trong việc cấp vốn dựa trên các khoản thanh toán tiền thuê trong tương lai đó làm tài sản đảm bảo — cùng logic giải thích tại sao các tài sản hạ tầng truyền thống, như nhà máy điện hay đường cao tốc thu phí, thường được xây dựng bằng hình thức tài trợ dự án. Logic đó giờ đây đang được áp dụng cho các trung tâm dữ liệu AI được chuyển đổi từ các địa điểm khai thác bitcoin.</p>
 <p class="vi">Bản thân cái tên "khoản vay có đòn bẩy" đã nói lên phần lớn câu chuyện. Các khoản vay như vậy thường được phát hành với lãi suất thả nổi gắn với SOFR (lãi suất tham chiếu ngắn hạn), cộng thêm một biên độ phản ánh chất lượng tín dụng của bên vay. Trên thực tế, điều đó có nghĩa là chi phí lãi vay thực tế của TeraWulf sẽ biến động cùng với lộ trình lãi suất tương lai của Fed. Việc đây là khoản vay có đòn bẩy "đầu tiên" của TeraWulf cho thấy các tổ chức xếp hạng tín nhiệm và bên cho vay đang bắt đầu định giá lại công ty như một chủ cho thuê hạ tầng có dòng tiền ổn định thay vì một công ty khai thác biến động — nhưng là một bên vay lần đầu không có bề dày lịch sử trên thị trường này, công ty cũng nhiều khả năng phải đối mặt với biên độ lãi suất cao hơn.</p>
+<p class="id">Perusahaan yang mendanai proyek modal besar umumnya memiliki dua jalur. Menerbitkan ekuitas baru mendilusi pemegang saham yang ada tetapi tidak membawa kewajiban pembayaran kembali; pendanaan utang menghindari dilusi tetapi menciptakan kewajiban pokok dan bunga. Ketika arus kas jangka panjang yang dapat diprediksi seperti sewa 20 tahun dengan Anthropic sudah terkunci, pemberi pinjaman merasa jauh lebih mudah untuk memberikan pendanaan dengan menjadikan pembayaran sewa masa depan tersebut sebagai jaminan — logika yang sama di balik mengapa aset infrastruktur tradisional, seperti pembangkit listrik atau jalan tol, umumnya dibangun dengan pendanaan proyek. Logika itu kini diterapkan pada pusat data AI yang dikonversi dari lokasi penambangan bitcoin.</p>
+<p class="id">Sebutan "pinjaman leveraged" sendiri sudah menjelaskan sebagian besar ceritanya. Pinjaman semacam ini biasanya diterbitkan dengan suku bunga mengambang yang terkait dengan SOFR (suku bunga acuan jangka pendek) ditambah spread yang mencerminkan kualitas kredit peminjam. Dalam praktiknya, itu berarti beban bunga aktual TeraWulf akan bergerak seiring dengan arah suku bunga The Fed di masa depan. Fakta bahwa ini adalah pinjaman leveraged "pertama" TeraWulf menunjukkan bahwa lembaga pemeringkat dan pemberi pinjaman mulai menilai ulang perusahaan ini sebagai pemilik infrastruktur dengan arus kas stabil, bukan penambang yang volatil — namun sebagai peminjam baru tanpa rekam jejak di pasar ini, perusahaan juga kemungkinan besar akan menghadapi spread yang lebih tinggi.</p>
+<p class="pl">Firma finansująca duży projekt kapitałowy ma zasadniczo dwie drogi. Emisja nowych akcji rozwadnia dotychczasowych akcjonariuszy, ale nie niesie obowiązku spłaty; finansowanie dłużne pozwala uniknąć rozwodnienia, ale tworzy obowiązek spłaty kapitału i odsetek. Gdy zabezpieczony jest długoterminowy, przewidywalny przepływ gotówki, jak 20-letnia umowa najmu z Anthropic, kredytodawcom jest znacznie łatwiej udzielić finansowania pod zastaw tych przyszłych płatności czynszu — ta sama logika, dla której tradycyjne aktywa infrastrukturalne, takie jak elektrownie czy autostrady płatne, są zwykle budowane w ramach finansowania projektowego. Ta sama logika jest teraz stosowana wobec centrów danych AI powstałych z przekształcenia miejsc wydobycia bitcoina.</p>
+<p class="pl">Sama nazwa "kredyt lewarowany" mówi już wiele. Takie kredyty są zwykle emitowane ze zmiennym oprocentowaniem powiązanym ze stawką SOFR (krótkoterminową stopą referencyjną) plus marża odzwierciedlająca jakość kredytową pożyczkobiorcy. W praktyce oznacza to, że rzeczywiste koszty odsetkowe TeraWulf będą podążać za przyszłą ścieżką stóp procentowych Fedu. Fakt, że jest to "pierwszy w historii" kredyt lewarowany TeraWulf, sugeruje, że agencje ratingowe i kredytodawcy zaczynają wyceniać spółkę na nowo jako operatora infrastruktury o stabilnych przepływach pieniężnych, a nie zmiennego górnika — ale jako debiutujący pożyczkobiorca bez historii na tym rynku, spółka prawdopodobnie stanie też w obliczu wyższej marży.</p>
+<p class="it">Un'azienda che finanzia un grande progetto di capitale ha generalmente due strade. Emettere nuove azioni diluisce gli azionisti esistenti ma non comporta obbligo di rimborso; il finanziamento tramite debito evita la diluizione ma crea un obbligo di capitale e interessi. Quando un flusso di cassa a lungo termine e prevedibile come il contratto di locazione ventennale con Anthropic è assicurato, i finanziatori trovano molto più facile concedere finanziamenti usando quei futuri pagamenti di affitto come garanzia — la stessa logica per cui gli asset infrastrutturali tradizionali, come centrali elettriche o autostrade a pedaggio, sono comunemente costruiti tramite project financing. Quella logica viene ora applicata ai data center AI convertiti da siti di mining di bitcoin.</p>
+<p class="it">La stessa etichetta "prestito a leva" racconta buona parte della storia. Tali prestiti sono tipicamente emessi a tasso variabile legato al SOFR (il tasso di riferimento a breve termine) più uno spread che riflette la qualità creditizia del debitore. In pratica, ciò significa che la spesa per interessi effettiva di TeraWulf si muoverà insieme al futuro percorso dei tassi della Fed. Il fatto che questo sia il "primo" prestito a leva di TeraWulf suggerisce che le agenzie di rating e i finanziatori stanno iniziando a riprezzare l'azienda come locatore di infrastrutture con flussi di cassa stabili anziché come minatore volatile — ma come debitore alle prime armi senza track record in questo mercato, è anche probabile che debba affrontare uno spread più elevato.</p>
+<p class="ru">У компании, финансирующей крупный капитальный проект, обычно есть два пути. Выпуск новых акций размывает долю существующих акционеров, но не влечёт обязательства по погашению; долговое финансирование избегает размытия, но создаёт обязательство по выплате основного долга и процентов. Когда обеспечен долгосрочный, предсказуемый денежный поток, такой как 20-летняя аренда с Anthropic, кредиторам гораздо проще предоставить финансирование под залог этих будущих арендных платежей — та же логика объясняет, почему традиционные инфраструктурные активы, такие как электростанции или платные дороги, обычно строятся с использованием проектного финансирования. Эта логика теперь применяется к дата-центрам ИИ, переоборудованным из майнинговых площадок.</p>
+<p class="ru">Само название «leveraged loan» уже многое объясняет. Такие кредиты обычно выпускаются с плавающей ставкой, привязанной к SOFR (краткосрочной справочной ставке), плюс спред, отражающий кредитное качество заёмщика. На практике это означает, что фактические процентные расходы TeraWulf будут двигаться вместе с будущей траекторией ставки ФРС. То, что это «первый в истории» leveraged loan TeraWulf, говорит о том, что рейтинговые агентства и кредиторы начинают переоценивать компанию как инфраструктурного арендодателя со стабильными денежными потоками, а не как волатильного майнера — но, будучи новым заёмщиком без истории на этом рынке, компания, скорее всего, также столкнётся с более высоким спредом.</p>
+<p class="zh">企業為大型資本項目融資時,通常有兩條路可走。發行新股會稀釋現有股東的持股,但不需承擔還款義務;債務融資雖不會稀釋股權,但會產生本金與利息的償還義務。當長期且可預測的現金流——例如與Anthropic簽訂的20年租約——已經鎖定,放款機構就更容易以未來的租金收入作為抵押提供融資,這正是傳統基礎設施資產(如發電廠或收費公路)常以專案融資方式興建的邏輯。如今這套邏輯正被套用於由比特幣礦場改造而成的AI資料中心。</p>
+<p class="zh">「槓桿貸款」這個名稱本身就說明了大半故事。此類貸款通常以與SOFR(短期參考利率)連動的浮動利率發行,再加上反映借款方信用品質的利差。實務上,這意味著TeraWulf實際負擔的利息支出將隨聯準會未來的利率走向同步變動。這是TeraWulf「史上首次」的槓桿貸款,顯示信評機構與放款機構正開始將該公司重新定位為擁有穩定現金流的基礎設施出租方,而非波動劇烈的礦商——但作為在此市場上沒有信用記錄的首次借款方,公司也很可能面臨更高的利差要求。</p>
 
 <h2 class="ko">과거 사례와 비교 — 채굴기업 부채조달 러시 속 테라울프의 위치</h2>
 <h2 class="en">Comparing Precedents — Where TeraWulf Sits in the Miner Debt-Financing Rush</h2>
@@ -102,6 +112,11 @@
 <h2 class="pt">Comparando precedentes — onde a TeraWulf se posiciona na corrida de financiamento via dívida das mineradoras</h2>
 <h2 class="tr">Emsallerle karşılaştırma — madenci borç finansmanı koşusunda TeraWulf'un yeri</h2>
 <h2 class="vi">So sánh với các tiền lệ — vị trí của TeraWulf trong làn sóng huy động vốn vay của các công ty khai thác</h2>
+<h2 class="id">Membandingkan Preseden — Posisi TeraWulf dalam Gelombang Pendanaan Utang Penambang</h2>
+<h2 class="pl">Porównanie precedensów — gdzie TeraWulf plasuje się w fali finansowania dłużnego górników</h2>
+<h2 class="it">Confronto con i precedenti — dove si colloca TeraWulf nella corsa al finanziamento del debito dei minatori</h2>
+<h2 class="ru">Сравнение с прецедентами — место TeraWulf в волне долгового финансирования майнеров</h2>
+<h2 class="zh">與過去案例比較——TeraWulf在礦商債務融資潮中的位置</h2>
 
 <p class="ko">디지털리얼티(Digital Realty)나 에퀴닉스(Equinix) 같은 전통 데이터센터 리츠(REIT)는 오랜 신용 이력과 다각화된 고객군을 바탕으로 투자등급 무담보채를 낮은 금리에 발행할 수 있다. 반면 채굴장을 개조한 신생 AI 인프라 기업들은 아직 그런 신용 이력이 없어, 상대적으로 높은 금리의 레버리지론·하이일드 채권 시장에 의존할 수밖에 없다. 이 금리 격차 자체가 시장이 옛 채굴기업의 신용을 얼마나 조심스럽게 보는지를 보여주는 지표다.</p>
 <p class="ko">같은 흐름 안에서도 회사마다 자금 조달 방식은 다르다. 코어사이언티픽(Core Scientific)은 33억 달러 규모 하이일드 채권 단일 구조로, 사이퍼 마이닝(Cipher Mining)은 17억 달러 규모 담보부 채권으로 각각 자금을 조달했다. 테라울프는 레버리지론과 하이일드 채권을 섞은 혼합 구조를 택했다는 점에서 차별화된다. 이는 시장이 아직 '채굴기업의 AI 전환'이라는 신용 프로파일을 하나의 정형화된 상품으로 가격을 매기지 못하고, 사안별로 다른 자본 구조를 실험하고 있다는 뜻으로 읽을 수 있다.</p>
@@ -121,6 +136,16 @@
 <p class="tr">Bu daha geniş eğilim içinde bile, finansman tercihleri şirketten şirkete farklılık gösteriyor. Core Scientific dönüşümünü 3,3 milyar dolarlık tek bir yüksek getirili tahvil ile finanse ederken, Cipher Mining 1,7 milyar dolarlık teminatlı senetler kullandı. TeraWulf, kaldıraçlı kredileri ve yüksek getirili tahvilleri hibrit bir sermaye yapısında harmanlayarak öne çıkıyor — bu da piyasanın "madenciden yapay zeka kiracısına" dönüşen kredi profilini fiyatlandırmak için henüz standart bir yönteme yerleşmediğini, bunun yerine anlaşma bazında farklı yapılar denediğini gösteriyor.</p>
 <p class="vi">Các quỹ tín thác đầu tư bất động sản (REIT) trung tâm dữ liệu đã thành danh như Digital Realty và Equinix có thể phát hành trái phiếu không đảm bảo ở mức đầu tư với lãi suất thấp, được hậu thuẫn bởi lịch sử tín dụng lâu dài và cơ sở khách thuê đa dạng. Các công ty hạ tầng AI mới hơn, chuyển đổi từ các địa điểm khai thác, không có bề dày lịch sử đó và do đó buộc phải tìm đến các thị trường vay có đòn bẩy và trái phiếu lợi suất cao với lãi suất cao hơn. Khoảng cách lãi suất này tự nó là một thước đo cho thấy thị trường vẫn thận trọng như thế nào đối với tín dụng của một công ty từng khai thác.</p>
 <p class="vi">Ngay cả trong xu hướng rộng lớn hơn đó, lựa chọn tài trợ cũng khác nhau giữa các công ty. Core Scientific đã tài trợ cho bước chuyển đổi của mình bằng một trái phiếu lợi suất cao duy nhất trị giá 3,3 tỷ đô la, trong khi Cipher Mining sử dụng 1,7 tỷ đô la trái phiếu có bảo đảm. TeraWulf nổi bật vì kết hợp các khoản vay có đòn bẩy và trái phiếu lợi suất cao thành một cấu trúc vốn lai — dấu hiệu cho thấy thị trường vẫn chưa thống nhất một cách chuẩn hóa để định giá hồ sơ tín dụng "từ công ty khai thác trở thành chủ cho thuê AI", mà thay vào đó đang thử nghiệm các cấu trúc khác nhau theo từng thương vụ.</p>
+<p class="id">REIT pusat data mapan seperti Digital Realty dan Equinix dapat menerbitkan obligasi tanpa jaminan berperingkat investasi dengan suku bunga rendah, didukung oleh sejarah kredit panjang dan basis penyewa yang terdiversifikasi. Perusahaan infrastruktur AI yang lebih baru, hasil konversi dari lokasi penambangan, tidak memiliki rekam jejak tersebut sehingga terdorong ke pasar pinjaman leveraged dan obligasi imbal hasil tinggi dengan suku bunga lebih tinggi. Kesenjangan suku bunga ini sendiri menjadi ukuran seberapa hati-hati pasar masih memandang kredit mantan penambang.</p>
+<p class="id">Bahkan dalam tren yang lebih luas itu, pilihan pendanaan berbeda antar perusahaan. Core Scientific mendanai peralihannya dengan satu obligasi imbal hasil tinggi senilai 3,3 miliar dolar, sementara Cipher Mining menggunakan 1,7 miliar dolar surat utang berjaminan. TeraWulf menonjol karena memadukan pinjaman leveraged dan obligasi imbal hasil tinggi menjadi struktur modal hibrida — tanda bahwa pasar belum menetapkan satu cara standar untuk menilai profil kredit "penambang beralih menjadi pemilik infrastruktur AI", dan sebaliknya sedang bereksperimen dengan struktur berbeda dari kesepakatan ke kesepakatan.</p>
+<p class="pl">Uznane REIT-y centrów danych, takie jak Digital Realty i Equinix, mogą emitować niezabezpieczone obligacje o ratingu inwestycyjnym przy niskich stopach, wsparte długą historią kredytową i zdywersyfikowaną bazą najemców. Nowszym firmom infrastruktury AI, powstałym z przekształcenia miejsc wydobycia, brakuje takiej historii, przez co są kierowane w stronę wyżej oprocentowanych rynków kredytów lewarowanych i obligacji wysokodochodowych. Ta różnica stóp sama w sobie jest miarą tego, jak ostrożnie rynek nadal patrzy na wiarygodność kredytową byłego górnika.</p>
+<p class="pl">Nawet w ramach tego szerszego trendu wybory finansowania różnią się w zależności od spółki. Core Scientific sfinansował swój zwrot pojedynczą obligacją wysokodochodową o wartości 3,3 miliarda dolarów, podczas gdy Cipher Mining wykorzystał 1,7 miliarda dolarów zabezpieczonych obligacji. TeraWulf wyróżnia się łączeniem kredytów lewarowanych i obligacji wysokodochodowych w hybrydową strukturę kapitałową — co sygnalizuje, że rynek nie ustalił jeszcze jednego standardowego sposobu wyceny profilu kredytowego "górnika, który stał się wynajmującym infrastrukturę AI", i zamiast tego eksperymentuje z różnymi strukturami przy każdej transakcji.</p>
+<p class="it">I REIT di data center consolidati come Digital Realty ed Equinix possono emettere obbligazioni non garantite investment-grade a tassi bassi, sostenuti da lunghe storie creditizie e basi di inquilini diversificate. Le aziende di infrastrutture AI più recenti, convertite da siti di mining, non hanno quel track record e sono di conseguenza spinte verso i mercati dei prestiti a leva e delle obbligazioni ad alto rendimento, a tassi più elevati. Questo divario di tassi è di per sé una misura di quanto cautamente il mercato consideri ancora il credito di un ex minatore.</p>
+<p class="it">Anche all'interno di questa tendenza più ampia, le scelte di finanziamento differiscono da azienda ad azienda. Core Scientific ha finanziato la propria svolta con un'unica obbligazione ad alto rendimento da 3,3 miliardi di dollari, mentre Cipher Mining ha utilizzato 1,7 miliardi di dollari di note garantite. TeraWulf si distingue per aver combinato prestiti a leva e obbligazioni ad alto rendimento in una struttura di capitale ibrida — un segnale che il mercato non si è ancora assestato su un modo standardizzato di valutare il profilo creditizio del "minatore diventato locatore AI", e sta invece sperimentando strutture diverse operazione per operazione.</p>
+<p class="ru">Устоявшиеся REIT дата-центров, такие как Digital Realty и Equinix, могут выпускать необеспеченные облигации инвестиционного уровня по низким ставкам, опираясь на долгую кредитную историю и диверсифицированную базу арендаторов. Более новым инфраструктурным ИИ-компаниям, переоборудованным из майнинговых площадок, не хватает такой истории, поэтому они вынуждены обращаться к более дорогим рынкам leveraged loan и высокодоходных облигаций. Этот разрыв в ставках сам по себе является показателем того, насколько осторожно рынок всё ещё относится к кредиту бывшего майнера.</p>
+<p class="ru">Даже в рамках этой более широкой тенденции выбор финансирования отличается от компании к компании. Core Scientific профинансировала свой разворот единой высокодоходной облигацией на 3,3 млрд долларов, тогда как Cipher Mining использовала обеспеченные облигации на 1,7 млрд долларов. TeraWulf выделяется тем, что сочетает leveraged loan и высокодоходные облигации в гибридной структуре капитала — признак того, что рынок ещё не выработал единого стандартизированного способа оценки кредитного профиля «майнера, ставшего арендодателем ИИ-инфраструктуры», и вместо этого экспериментирует с разными структурами от сделки к сделке.</p>
+<p class="zh">Digital Realty與Equinix等成熟的資料中心REIT,憑藉悠久的信用紀錄與多元化的租戶群,能以較低利率發行投資等級無擔保債券。而由礦場改造而成的新興AI基礎設施公司則缺乏這樣的信用紀錄,因此被迫轉向利率較高的槓桿貸款與高收益債券市場。這個利率差距本身就是市場對前礦商信用仍持謹慎態度的一項指標。</p>
+<p class="zh">即使在這股大趨勢之中,各公司的融資選擇也不盡相同。Core Scientific以單一一筆33億美元的高收益債券為其轉型提供資金,而Cipher Mining則使用了17億美元的擔保票據。TeraWulf則因將槓桿貸款與高收益債券混合成一種複合式資本結構而顯得與眾不同——這顯示市場尚未就「礦商轉型為AI出租方」這類信用輪廓找到一套標準化的定價方式,而是根據個案分別嘗試不同的結構。</p>
 
 <h2 class="ko">반론 — 레버리지가 늘어난다는 것은 결국 위험도 늘어난다는 뜻</h2>
 <h2 class="en">The Counterargument — More Leverage Means More Risk</h2>
@@ -131,6 +156,11 @@
 <h2 class="pt">O contra-argumento — mais alavancagem significa mais risco</h2>
 <h2 class="tr">Karşı argüman — daha fazla kaldıraç daha fazla risk demek</h2>
 <h2 class="vi">Quan điểm phản biện — đòn bẩy tăng lên đồng nghĩa với rủi ro tăng lên</h2>
+<h2 class="id">Argumen Tandingan — Leverage Lebih Besar Berarti Risiko Lebih Besar</h2>
+<h2 class="pl">Kontrargument — większa dźwignia oznacza większe ryzyko</h2>
+<h2 class="it">La controargomentazione — più leva significa più rischio</h2>
+<h2 class="ru">Контраргумент — больше плеча означает больше риска</h2>
+<h2 class="zh">反論——槓桿增加意味著風險增加</h2>
 
 <p class="ko">변동금리 부채는 고정금리 채권과 달리 연준의 금리 경로가 바뀌면 이자비용도 함께 출렁인다. 게다가 이번 자금은 아직 완공되지 않은 시설을 짓는 데 쓰이므로, 2027년 하반기 첫 가동 전까지는 매출 없이 이자만 나가는 '건설 기간 리스크'를 고스란히 떠안는다. 만약 AI 업계의 설비투자 사이클이 2027년 이전에 식는다면, 테라울프는 아직 수익을 내지 못하는 시설에 수십억 달러의 빚을 진 채로 놓일 수 있다.</p>
 <p class="ko">더 근본적인 질문은 이번 주가 상승(+7%)이 실제 매출이나 이익이 아니라 '부채 조달 발표' 자체에 대한 반응이라는 점이다. 이는 다른 채굴기업들의 AI 전환 발표에서도 반복적으로 관찰된 패턴으로, 시장이 아직 실적이 아니라 서사(내러티브)에 반응하고 있다는 비판이 나온다. 이번 채권 발행이 실제로 신용평가사의 등급을 받을지, 받는다면 몇 등급으로 얼마의 금리에 가격이 매겨질지가 테라울프의 진짜 자본비용을 가늠할 시험대가 될 것이다.</p>
@@ -150,6 +180,16 @@
 <p class="tr">Daha temel bir soru, hisse senedindeki yaklaşık yüzde 7'lik sıçramanın gerçek bir gelir veya kâr olayına değil, bir borç finansmanı duyurusuna tepki olarak gerçekleşmiş olmasıdır — bu, diğer bitcoin madencilerinin yapay zeka dönüşüm duyurularında da tekrarlanan bir örüntü olup, piyasanın hâlâ temel verilerden çok anlatıyı ödüllendirdiği yönünde eleştirilere yol açıyor. Bu senetlerin fiilen bir kredi notu alıp almayacağı ve hangi düzeyde, hangi fiyattan fiyatlandırılacağı, TeraWulf'un gerçek sermaye maliyetinin asıl sınavı olacak.</p>
 <p class="vi">Khác với trái phiếu lãi suất cố định, nợ lãi suất thả nổi có nghĩa là chi phí lãi vay sẽ dao động bất cứ khi nào lộ trình lãi suất của Fed thay đổi. Và vì nguồn vốn này đang tài trợ cho một cơ sở chưa được xây dựng, TeraWulf sẽ gánh chịu rủi ro thuần túy của giai đoạn xây dựng — trả lãi mà không có doanh thu bù đắp — cho đến khi giai đoạn đầu đi vào hoạt động trong nửa cuối năm 2027. Nếu chu kỳ chi tiêu vốn của ngành AI hạ nhiệt trước thời điểm đó, TeraWulf có thể rơi vào tình cảnh gánh hàng tỷ đô la nợ cho một cơ sở chưa tạo ra thu nhập.</p>
 <p class="vi">Một câu hỏi cơ bản hơn là mức tăng khoảng 7% của cổ phiếu là phản ứng trước một thông báo huy động vốn vay, chứ không phải một sự kiện doanh thu hay lợi nhuận thực tế — một khuôn mẫu đã lặp lại trong các thông báo chuyển đổi sang AI khác của các công ty khai thác bitcoin, dẫn đến chỉ trích rằng thị trường vẫn đang thưởng cho câu chuyện kể hơn là các yếu tố cơ bản. Việc các trái phiếu này có thực sự nhận được xếp hạng tín dụng hay không, và được định giá ở mức nào, lãi suất bao nhiêu, sẽ là phép thử thực sự cho chi phí vốn thật của TeraWulf.</p>
+<p class="id">Berbeda dengan obligasi bersuku bunga tetap, utang bersuku bunga mengambang berarti biaya bunga akan berfluktuasi setiap kali arah suku bunga The Fed berubah. Dan karena dana ini membiayai fasilitas yang belum dibangun, TeraWulf akan menanggung risiko murni periode konstruksi — membayar bunga tanpa pendapatan penyeimbang — hingga fase pertama beroperasi pada paruh kedua 2027. Jika siklus belanja modal industri AI mendingin sebelum itu, TeraWulf bisa saja terjebak dengan miliaran dolar utang untuk fasilitas yang belum menghasilkan pendapatan.</p>
+<p class="id">Pertanyaan yang lebih mendasar adalah bahwa lonjakan saham sekitar 7% ini muncul sebagai respons terhadap pengumuman pendanaan utang, bukan peristiwa pendapatan atau laba yang sebenarnya — pola yang berulang di berbagai pengumuman peralihan ke AI oleh penambang bitcoin lain, memicu kritik bahwa pasar masih menghargai narasi ketimbang fundamental. Apakah surat utang ini benar-benar akan menerima peringkat kredit, dan pada tingkat serta harga berapa surat utang tersebut ditetapkan, akan menjadi ujian sesungguhnya bagi biaya modal riil TeraWulf.</p>
+<p class="pl">W przeciwieństwie do obligacji o stałym oprocentowaniu, dług o zmiennym oprocentowaniu oznacza, że koszty odsetkowe będą się wahać za każdym razem, gdy zmieni się ścieżka stóp procentowych Fedu. A ponieważ te środki finansują obiekt, który jeszcze nie powstał, TeraWulf poniesie czyste ryzyko okresu budowy — płacąc odsetki bez kompensujących przychodów — dopóki pierwsza faza nie zostanie uruchomiona w drugiej połowie 2027 roku. Gdyby cykl nakładów inwestycyjnych branży AI ochłodził się wcześniej, TeraWulf mógłby posiadać miliardy długu obciążające obiekt, który jeszcze nie generuje dochodu.</p>
+<p class="pl">Bardziej fundamentalne pytanie dotyczy tego, że wzrost akcji o około 7% nastąpił w odpowiedzi na ogłoszenie finansowania dłużnego, a nie na rzeczywiste wydarzenie związane z przychodami czy zyskami — schemat, który powtarzał się przy innych ogłoszeniach zwrotu ku AI górników bitcoina, wywołując krytykę, że rynek wciąż nagradza narrację, a nie fundamenty. Czy te obligacje faktycznie otrzymają rating kredytowy oraz na jakim poziomie i po jakiej cenie zostaną wycenione, będzie prawdziwym testem rzeczywistego kosztu kapitału TeraWulf.</p>
+<p class="it">A differenza delle obbligazioni a tasso fisso, il debito a tasso variabile comporta che i costi degli interessi oscillino ogni volta che cambia il percorso dei tassi della Fed. E poiché questi fondi finanziano una struttura non ancora costruita, TeraWulf sosterrà un puro rischio del periodo di costruzione — pagando interessi senza ricavi compensativi — fino a quando la prima fase non entrerà in funzione nella seconda metà del 2027. Se il ciclo di spesa in conto capitale del settore AI dovesse raffreddarsi prima di allora, TeraWulf potrebbe trovarsi con miliardi di debito a fronte di una struttura che ancora non genera reddito.</p>
+<p class="it">Una domanda più fondamentale è che il rialzo di circa il 7% del titolo è arrivato in risposta a un annuncio di finanziamento del debito, non a un evento reale di ricavi o utili — uno schema che si è ripetuto in altri annunci di svolta verso l'AI da parte di minatori di bitcoin, alimentando critiche secondo cui il mercato sta ancora premiando la narrativa piuttosto che i fondamentali. Se queste obbligazioni riceveranno effettivamente un rating creditizio, e a quale livello e prezzo verranno fissate, sarà il vero banco di prova del reale costo del capitale di TeraWulf.</p>
+<p class="ru">В отличие от облигаций с фиксированной ставкой, долг с плавающей ставкой означает, что процентные расходы будут колебаться при каждом изменении траектории ставки ФРС. А поскольку эти средства финансируют ещё не построенный объект, TeraWulf будет нести чистый риск периода строительства — платя проценты без компенсирующей выручки — пока первая фаза не будет введена в эксплуатацию во второй половине 2027 года. Если цикл капитальных затрат отрасли ИИ охладится раньше этого срока, TeraWulf может оказаться с миллиардами долга под объектом, который ещё не приносит дохода.</p>
+<p class="ru">Более фундаментальный вопрос заключается в том, что скачок акций примерно на 7% произошёл в ответ на объявление о долговом финансировании, а не на реальное событие с выручкой или прибылью — паттерн, который повторялся при других объявлениях о развороте к ИИ у других биткоин-майнеров, что вызывает критику: рынок всё ещё вознаграждает нарратив, а не фундаментальные показатели. Получат ли эти облигации реальный кредитный рейтинг и по какой ставке и цене они будут установлены — станет настоящей проверкой истинной стоимости капитала TeraWulf.</p>
+<p class="zh">與固定利率債券不同,浮動利率債務意味著只要聯準會的利率走向出現變化,利息成本就會隨之波動。而且由於這筆資金是用於興建尚未完工的設施,TeraWulf在2027年下半年首階段上線之前,將完全承擔建設期風險——支付利息卻沒有相應營收抵銷。若AI產業的資本支出週期在此之前降溫,TeraWulf可能會面臨背負數十億美元債務、卻對應著一座尚未產生收入設施的處境。</p>
+<p class="zh">更根本的問題在於,這次約7%的股價上漲是對一則債務融資消息的反應,而非實際的營收或獲利事件——這種模式在其他比特幣礦商的AI轉型消息中也一再出現,引來市場仍在獎勵敘事而非基本面的批評。這些債券是否真能取得信用評等,以及最終以何種等級與利率定價,將是檢驗TeraWulf真實資金成本的真正考驗。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -412,6 +452,151 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Struktur pendanaan utang US$3,5M TeraWulf</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">US$3,5M</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">pinjaman leveraged + obligasi HY</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="18" font-weight="800">Pinjaman leveraged</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">pertama untuk WULF</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">401 MW</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">kapasitas dalam pembangunan</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="26" font-weight="800">+7%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">saham usai berita (WULF)</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Perbandingan pendanaan AI antar penambang</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Core Scientific · obligasi HY US$3,3M</text>
+    <rect x="20" y="230" width="330" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Cipher Mining · surat utang berjaminan US$1,7M</text>
+    <rect x="20" y="280" width="170" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · pinjaman leveraged+obligasi HY US$3,5M</text>
+    <rect x="20" y="330" width="350" height="24" rx="6" fill="#06b6d4"/>
+    <line x1="20" y1="368" x2="680" y2="368" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="386" fill="#52525b" font-size="12">Sumber: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi (panjang batang relatif, tidak sesuai skala)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Struktura finansowania dłużnego TeraWulf na 3,5 mld$</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">3,5 mld$</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">kredyt lewarowany + obligacje HY</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="18" font-weight="800">Pierwszy kredyt</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">lewarowany WULF</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">401 MW</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">budowana moc</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="26" font-weight="800">+7%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">akcje po newsie (WULF)</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Porównanie finansowania AI górników</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Core Scientific · obligacja HY 3,3 mld$</text>
+    <rect x="20" y="230" width="330" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Cipher Mining · obligacja zabezpieczona 1,7 mld$</text>
+    <rect x="20" y="280" width="170" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · kredyt lewarowany+obligacja HY 3,5 mld$</text>
+    <rect x="20" y="330" width="350" height="24" rx="6" fill="#06b6d4"/>
+    <line x1="20" y1="368" x2="680" y2="368" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="386" fill="#52525b" font-size="12">Źródła: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi (długość słupków względna, nie w skali)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Struttura del finanziamento da 3,5 Mld$ di TeraWulf</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="22" font-weight="800">3,5 Mld$</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">prestito a leva + obbligazioni HY</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="18" font-weight="800">Primo prestito</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">a leva per WULF</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">401 MW</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">capacità in costruzione</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="26" font-weight="800">+7%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">titolo dopo notizia (WULF)</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Confronto finanziamenti AI dei minatori</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Core Scientific · obbligazione HY 3,3 Mld$</text>
+    <rect x="20" y="230" width="330" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Cipher Mining · note garantite 1,7 Mld$</text>
+    <rect x="20" y="280" width="170" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · prestito a leva+obbligazione HY 3,5 Mld$</text>
+    <rect x="20" y="330" width="350" height="24" rx="6" fill="#06b6d4"/>
+    <line x1="20" y1="368" x2="680" y2="368" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="386" fill="#52525b" font-size="12">Fonti: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi (lunghezza delle barre relativa, non in scala)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Структура долгового финансирования TeraWulf на 3,5 млрд$</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="20" font-weight="800">3,5 млрд$</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">leveraged loan + HY-облигации</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="20" font-weight="800">Первый заём</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">с плечом (WULF)</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">401 MW</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">строящаяся мощность</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="26" font-weight="800">+7%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">акции после новости (WULF)</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">Сравнение AI-финансирования майнеров</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Core Scientific · HY-облигация 3,3 млрд$</text>
+    <rect x="20" y="230" width="330" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Cipher Mining · обеспеченные облигации 1,7 млрд$</text>
+    <rect x="20" y="280" width="170" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf · leveraged loan+HY-облигация 3,5 млрд$</text>
+    <rect x="20" y="330" width="350" height="24" rx="6" fill="#06b6d4"/>
+    <line x1="20" y1="368" x2="680" y2="368" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="386" fill="#52525b" font-size="12">Источники: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi (длина столбцов условна, без масштаба)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">TeraWulf 35億美元債務融資結構</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="52" width="158" height="92" rx="10" fill="#0e2a30" stroke="#06b6d4" stroke-width="1.6"/>
+    <text x="99" y="90" fill="#22d3ee" text-anchor="middle" font-size="24" font-weight="800">35億$</text>
+    <text x="99" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">槓桿貸款+高收益債</text>
+    <rect x="186" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="265" y="90" fill="#fafafa" text-anchor="middle" font-size="24" font-weight="800">首次</text>
+    <text x="265" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">槓桿貸款(WULF)</text>
+    <rect x="352" y="52" width="158" height="92" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="431" y="90" fill="#fafafa" text-anchor="middle" font-size="26" font-weight="800">401 MW</text>
+    <text x="431" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">興建中產能</text>
+    <rect x="518" y="52" width="162" height="92" rx="10" fill="#14311f" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="599" y="90" fill="#4ade80" text-anchor="middle" font-size="26" font-weight="800">+7%</text>
+    <text x="599" y="116" fill="#a1a1aa" text-anchor="middle" font-size="13">消息後股價(WULF)</text>
+    <line x1="20" y1="168" x2="680" y2="168" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="196" fill="#e4e4e7" font-size="14" font-weight="700">礦商AI轉型融資比較</text>
+    <text x="20" y="222" fill="#a1a1aa" font-size="13">Core Scientific・高收益債33億$</text>
+    <rect x="20" y="230" width="330" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="272" fill="#a1a1aa" font-size="13">Cipher Mining・擔保票據17億$</text>
+    <rect x="20" y="280" width="170" height="24" rx="6" fill="#3f3f46"/>
+    <text x="20" y="322" fill="#a1a1aa" font-size="13">TeraWulf・槓桿貸款+高收益債35億$</text>
+    <rect x="20" y="330" width="350" height="24" rx="6" fill="#06b6d4"/>
+    <line x1="20" y1="368" x2="680" y2="368" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="386" fill="#52525b" font-size="12">資料來源:彭博社、DataCenterDynamics、Investing.com、Parameter、Blockonomi(柱狀長度為相對值,非按比例繪製)</text>
+  </g>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>시사점:</strong> 35억 달러라는 숫자보다 중요한 것은 조달 '구조'다. 변동금리 레버리지론이 포함됐다는 것은 향후 금리 경로가 테라울프의 실제 부담에 직결된다는 뜻이고, 사상 첫 레버리지론 데뷔라는 점은 아직 시장이 이 회사의 신용을 어떻게 가격 매길지 확정되지 않았다는 뜻이다. 실제 채권 발행 조건(금리·등급)과 2027년 하반기 1차 가동 여부를 함께 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> What matters more than the $3.5 billion headline number is the financing's structure. That it includes floating-rate leveraged loans means the Fed's future rate path feeds directly into TeraWulf's real cost burden, and that this is the company's debut leveraged loan means the market has not yet settled on how to price its credit. Watch the actual terms (rate, rating) the notes price at, and whether the first phase truly comes online in the second half of 2027.</div>
@@ -422,6 +607,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> mais importante do que o número de 3,5 bilhões de dólares é a estrutura do financiamento. O fato de incluir empréstimos alavancados de taxa flutuante significa que a trajetória futura de juros do Fed incide diretamente sobre o ônus real da TeraWulf, e o fato de ser seu primeiro empréstimo alavancado significa que o mercado ainda não definiu como precificar seu crédito. Vale observar os termos reais (taxa, classificação) em que os títulos serão precificados, e se a primeira fase realmente entrará em operação no segundo semestre de 2027.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> 3,5 milyar dolarlık manşet rakamından daha önemli olan finansmanın "yapısı"dır. Değişken faizli kaldıraçlı krediler içermesi, Fed'in gelecekteki faiz yolunun TeraWulf'un gerçek yükümlülüğüne doğrudan yansıyacağı anlamına geliyor; şirketin ilk kaldıraçlı kredi çıkışı olması ise piyasanın kredisini nasıl fiyatlandıracağına henüz karar vermediği anlamına geliyor. Senetlerin fiyatlandığı gerçek koşulları (faiz oranı, not) ve ilk aşamanın gerçekten 2027'nin ikinci yarısında devreye girip girmeyeceğini izlemek gerekiyor.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> điều quan trọng hơn con số 3,5 tỷ đô la là cấu trúc của khoản tài trợ. Việc nó bao gồm các khoản vay có đòn bẩy lãi suất thả nổi có nghĩa là lộ trình lãi suất tương lai của Fed sẽ tác động trực tiếp đến gánh nặng thực tế của TeraWulf, và việc đây là khoản vay có đòn bẩy đầu tiên của công ty có nghĩa là thị trường vẫn chưa xác định cách định giá tín dụng của công ty này. Cần theo dõi các điều khoản thực tế (lãi suất, xếp hạng) mà trái phiếu được định giá, và liệu giai đoạn đầu có thực sự đi vào hoạt động trong nửa cuối năm 2027 hay không.</div>
+<div class="box id">💡 <strong>Intinya:</strong> yang lebih penting daripada angka utama 3,5 miliar dolar adalah struktur pendanaannya. Fakta bahwa pendanaan ini mencakup pinjaman leveraged bersuku bunga mengambang berarti arah suku bunga The Fed di masa depan akan langsung mempengaruhi beban riil TeraWulf, dan fakta bahwa ini adalah pinjaman leveraged debut perusahaan berarti pasar belum menetapkan cara menilai kreditnya. Perhatikan syarat sebenarnya (suku bunga, peringkat) di mana surat utang tersebut dihargai, dan apakah fase pertama benar-benar beroperasi pada paruh kedua 2027.</div>
+<div class="box pl">💡 <strong>Wniosek:</strong> ważniejsza od nagłówkowej kwoty 3,5 miliarda dolarów jest struktura finansowania. To, że obejmuje ono kredyty lewarowane o zmiennym oprocentowaniu, oznacza, że przyszła ścieżka stóp procentowych Fedu bezpośrednio przekłada się na realne obciążenie TeraWulf, a fakt, że jest to debiutancki kredyt lewarowany spółki, oznacza, że rynek nie ustalił jeszcze, jak wyceniać jej zdolność kredytową. Warto obserwować faktyczne warunki (oprocentowanie, rating), po jakich wycenione zostaną obligacje, oraz czy pierwsza faza rzeczywiście zostanie uruchomiona w drugiej połowie 2027 roku.</div>
+<div class="box it">💡 <strong>Punto chiave:</strong> più importante della cifra di 3,5 miliardi di dollari è la struttura del finanziamento. Il fatto che includa prestiti a leva a tasso variabile significa che il futuro percorso dei tassi della Fed incide direttamente sull'onere reale di TeraWulf, e il fatto che sia il primo prestito a leva dell'azienda significa che il mercato non ha ancora stabilito come valutarne il credito. Da monitorare i termini effettivi (tasso, rating) a cui verranno prezzate le obbligazioni, e se la prima fase entrerà davvero in funzione nella seconda metà del 2027.</div>
+<div class="box ru">💡 <strong>Вывод:</strong> важнее заголовочной цифры в 3,5 млрд долларов — структура финансирования. То, что она включает leveraged loan с плавающей ставкой, означает, что будущая траектория ставки ФРС напрямую влияет на реальную нагрузку TeraWulf, а то, что это дебютный leveraged loan компании, означает, что рынок ещё не определился, как оценивать её кредитоспособность. Стоит следить за фактическими условиями (ставка, рейтинг), по которым будут оценены облигации, и за тем, действительно ли первая фаза заработает во второй половине 2027 года.</div>
+<div class="box zh">💡 <strong>重點:</strong> 比起35億美元這個頭條數字更重要的是融資的「結構」。此次融資包含浮動利率槓桿貸款,意味著聯準會未來的利率走向將直接影響TeraWulf的實際負擔;而這是該公司首次的槓桿貸款,則意味著市場尚未確定該如何為其信用定價。需要持續關注這些債券最終以何種利率、何種評等定價,以及首階段是否真能在2027年下半年如期上線。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 블룸버그, 데이터센터다이내믹스, 인베스팅닷컴, 파라미터, 블록노미, 야후파이낸스, 스톡트위츠</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
@@ -432,4 +622,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Bloomberg, DataCenterDynamics, Investing.com, Parameter, Blockonomi, Yahoo Finance, Stocktwits</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:彭博社、DataCenterDynamics、Investing.com、Parameter、Blockonomi、Yahoo Finance、Stocktwits</p>
 <?php require __DIR__.'/_footer.php'; ?>
