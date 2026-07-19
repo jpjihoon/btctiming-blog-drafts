@@ -312,6 +312,121 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Dựa trên Ajunews, Kyunghyang Games, Weekly Hankook, các tuyên bố của Cơ quan Tình báo Quốc gia Hàn Quốc và các báo cáo báo chí. Biểu đồ mang tính khái niệm và có thể không phản ánh đúng tỷ lệ thực tế.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Kerugian akibat peretasan Bithumb (2017-2019) vs. plafon baru bug bounty</text>
+  <g font-family="sans-serif">
+    <text x="40" y="70" fill="#d4d4d8" font-size="13">Kebocoran data pribadi 2017</text>
+    <rect x="280" y="55" width="14" height="18" fill="#f87171"/>
+    <text x="305" y="70" fill="#fbbf24" font-size="13" font-weight="700">~7 miliar won</text>
+    <text x="40" y="110" fill="#d4d4d8" font-size="13">Peretasan hot wallet 2018 (terbesar)</text>
+    <rect x="280" y="95" width="70" height="18" fill="#f87171"/>
+    <text x="360" y="110" fill="#fbbf24" font-size="13" font-weight="700">~35 miliar won</text>
+    <text x="40" y="150" fill="#d4d4d8" font-size="13">Pelanggaran 2019 (internal, dugaan)</text>
+    <rect x="280" y="135" width="44" height="18" fill="#f87171"/>
+    <text x="334" y="150" fill="#fbbf24" font-size="13" font-weight="700">~22 miliar won</text>
+    <line x1="280" y1="190" x2="280" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="40" y="220" fill="#d4d4d8" font-size="13">Plafon baru bug bounty 2026</text>
+    <rect x="280" y="205" width="1.4" height="18" fill="#4ade80"/>
+    <text x="286" y="220" fill="#4ade80" font-size="13" font-weight="700">200 juta won (plafon baru)</text>
+    <text x="40" y="260" fill="#71717a" font-size="12">Panjang batang adalah rasio yang disederhanakan dari kerugian yang dilaporkan (tidak sesuai skala)</text>
+  </g>
+  <text x="350" y="300" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">Estimasi kerugian kumulatif 3 tahun: 80-100 miliar won</text>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Berdasarkan pernyataan Ajunews, Kyunghyang Games, Weekly Hankook, Badan Intelijen Nasional Korea Selatan, dan laporan media. Grafik bersifat konseptual dan mungkin tidak mencerminkan rasio yang sebenarnya.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Straty Bithumb z powodu hackingu (2017-2019) vs. nowy pułap bug bounty</text>
+  <g font-family="sans-serif">
+    <text x="40" y="70" fill="#d4d4d8" font-size="13">Wyciek danych osobowych 2017</text>
+    <rect x="280" y="55" width="14" height="18" fill="#f87171"/>
+    <text x="305" y="70" fill="#fbbf24" font-size="13" font-weight="700">~7 mld wonów</text>
+    <text x="40" y="110" fill="#d4d4d8" font-size="13">Włamanie do hot walletu 2018 (największe)</text>
+    <rect x="280" y="95" width="70" height="18" fill="#f87171"/>
+    <text x="360" y="110" fill="#fbbf24" font-size="13" font-weight="700">~35 mld wonów</text>
+    <text x="40" y="150" fill="#d4d4d8" font-size="13">Naruszenie 2019 (wewnętrzne, domniemane)</text>
+    <rect x="280" y="135" width="44" height="18" fill="#f87171"/>
+    <text x="334" y="150" fill="#fbbf24" font-size="13" font-weight="700">~22 mld wonów</text>
+    <line x1="280" y1="190" x2="280" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="40" y="220" fill="#d4d4d8" font-size="13">Nowy pułap bug bounty 2026</text>
+    <rect x="280" y="205" width="1.4" height="18" fill="#4ade80"/>
+    <text x="286" y="220" fill="#4ade80" font-size="13" font-weight="700">200 mln wonów (nowy pułap)</text>
+    <text x="40" y="260" fill="#71717a" font-size="12">Długości słupków to uproszczony stosunek zgłoszonych strat (nie w skali)</text>
+  </g>
+  <text x="350" y="300" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">Szacowana skumulowana strata w 3 lata: 80-100 mld wonów</text>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Na podstawie Ajunews, Kyunghyang Games, Weekly Hankook, oświadczeń Narodowej Służby Wywiadu Korei Południowej oraz doniesień prasowych. Wykres ma charakter poglądowy i może nie odzwierciedlać dokładnych proporcji.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perdite da hacking di Bithumb (2017-2019) vs. nuovo tetto del bug bounty</text>
+  <g font-family="sans-serif">
+    <text x="40" y="70" fill="#d4d4d8" font-size="13">Violazione dati personali 2017</text>
+    <rect x="280" y="55" width="14" height="18" fill="#f87171"/>
+    <text x="305" y="70" fill="#fbbf24" font-size="13" font-weight="700">~7 mld won</text>
+    <text x="40" y="110" fill="#d4d4d8" font-size="13">Hack hot wallet 2018 (il più grande)</text>
+    <rect x="280" y="95" width="70" height="18" fill="#f87171"/>
+    <text x="360" y="110" fill="#fbbf24" font-size="13" font-weight="700">~35 mld won</text>
+    <text x="40" y="150" fill="#d4d4d8" font-size="13">Violazione 2019 (interna, presunta)</text>
+    <rect x="280" y="135" width="44" height="18" fill="#f87171"/>
+    <text x="334" y="150" fill="#fbbf24" font-size="13" font-weight="700">~22 mld won</text>
+    <line x1="280" y1="190" x2="280" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="40" y="220" fill="#d4d4d8" font-size="13">Nuovo tetto bug bounty 2026</text>
+    <rect x="280" y="205" width="1.4" height="18" fill="#4ade80"/>
+    <text x="286" y="220" fill="#4ade80" font-size="13" font-weight="700">200 milioni di won (nuovo tetto)</text>
+    <text x="40" y="260" fill="#71717a" font-size="12">Le lunghezze delle barre sono un rapporto semplificato delle perdite riportate (non in scala)</text>
+  </g>
+  <text x="350" y="300" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">Perdita cumulata stimata in 3 anni: 80-100 mld won</text>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Basato su Ajunews, Kyunghyang Games, Weekly Hankook, dichiarazioni del Servizio nazionale di intelligence della Corea del Sud e articoli di stampa. Il grafico è concettuale e potrebbe non riflettere le proporzioni esatte.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Убытки Bithumb от взломов (2017-2019) в сравнении с новым потолком bug bounty</text>
+  <g font-family="sans-serif">
+    <text x="40" y="70" fill="#d4d4d8" font-size="13">Утечка персональных данных, 2017</text>
+    <rect x="280" y="55" width="14" height="18" fill="#f87171"/>
+    <text x="305" y="70" fill="#fbbf24" font-size="13" font-weight="700">~7 млрд вон</text>
+    <text x="40" y="110" fill="#d4d4d8" font-size="13">Взлом горячего кошелька, 2018 (крупнейший)</text>
+    <rect x="280" y="95" width="70" height="18" fill="#f87171"/>
+    <text x="360" y="110" fill="#fbbf24" font-size="13" font-weight="700">~35 млрд вон</text>
+    <text x="40" y="150" fill="#d4d4d8" font-size="13">Инцидент 2019 (внутренний, по заявлению)</text>
+    <rect x="280" y="135" width="44" height="18" fill="#f87171"/>
+    <text x="334" y="150" fill="#fbbf24" font-size="13" font-weight="700">~22 млрд вон</text>
+    <line x1="280" y1="190" x2="280" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="40" y="220" fill="#d4d4d8" font-size="13">Новый потолок bug bounty, 2026</text>
+    <rect x="280" y="205" width="1.4" height="18" fill="#4ade80"/>
+    <text x="286" y="220" fill="#4ade80" font-size="13" font-weight="700">200 млн вон (новый лимит)</text>
+    <text x="40" y="260" fill="#71717a" font-size="12">Длина столбцов — упрощённое соотношение заявленных убытков (не в масштабе)</text>
+  </g>
+  <text x="350" y="300" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">Оценка совокупных потерь за 3 года: 80-100 млрд вон</text>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">На основе данных Ajunews, Kyunghyang Games, Weekly Hankook, заявлений Национальной разведывательной службы Южной Кореи и сообщений прессы. Диаграмма носит концептуальный характер и может не отражать точные пропорции.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bithumb駭客事件損失(2017-2019年)對比新版漏洞獎勵上限</text>
+  <g font-family="sans-serif">
+    <text x="40" y="70" fill="#d4d4d8" font-size="13">2017年個資外洩</text>
+    <rect x="280" y="55" width="14" height="18" fill="#f87171"/>
+    <text x="305" y="70" fill="#fbbf24" font-size="13" font-weight="700">約70億韓元</text>
+    <text x="40" y="110" fill="#d4d4d8" font-size="13">2018年熱錢包遭駭(規模最大)</text>
+    <rect x="280" y="95" width="70" height="18" fill="#f87171"/>
+    <text x="360" y="110" fill="#fbbf24" font-size="13" font-weight="700">約350億韓元</text>
+    <text x="40" y="150" fill="#d4d4d8" font-size="13">2019年外洩事件(內部侵占,傳聞)</text>
+    <rect x="280" y="135" width="44" height="18" fill="#f87171"/>
+    <text x="334" y="150" fill="#fbbf24" font-size="13" font-weight="700">約220億韓元</text>
+    <line x1="280" y1="190" x2="280" y2="330" stroke="#3f3f46" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="40" y="220" fill="#d4d4d8" font-size="13">2026年新版漏洞獎勵上限</text>
+    <rect x="280" y="205" width="1.4" height="18" fill="#4ade80"/>
+    <text x="286" y="220" fill="#4ade80" font-size="13" font-weight="700">2億韓元(新上限)</text>
+    <text x="40" y="260" fill="#71717a" font-size="12">長條長度為已披露損失的簡化比例示意(非等比例繪製)</text>
+  </g>
+  <text x="350" y="300" fill="#a1a1aa" font-size="13" text-anchor="middle" font-weight="700">三年累計損失估計:800億至1000億韓元</text>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">資料來源:Ajunews、Kyunghyang Games、Weekly Hankook、韓國國家情報院聲明及媒體報導。圖表僅為概念示意,實際比例可能有所不同。</p>
+</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 아주경제, 경향게임스, 주간한국, 뉴스웍스, 워크투데이, 이데일리(빗썸 버그바운티 확대 보도), 경향신문·나무위키·머니투데이(빗썸 해킹 역사 정리), 서울경제·테크M(업비트 버그바운티 프로그램 관련 보도).</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Ajunews, Kyunghyang Games, Weekly Hankook, Newsworks, Worktoday, and Edaily (reporting on Bithumb's bug bounty expansion); Kyunghyang Shinmun, Namu Wiki, and Money Today (compiling Bithumb's hacking history); and Seoul Economic Daily and TechM (reporting on Upbit's bug bounty program).</p>

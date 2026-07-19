@@ -375,6 +375,131 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Được dựng lại từ các công bố của FCA, CoinDesk, The Block và CSSF.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Linimasa pelonggaran ETN kripto FCA Inggris</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="100" cy="210" r="9" fill="#f87171"/>
+    <text x="100" y="180" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle">Jan 2021</text>
+    <text x="100" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Larangan total ritel</text>
+    <circle cx="260" cy="210" r="9" fill="#fbbf24"/>
+    <text x="260" y="180" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle">Mar 2024</text>
+    <text x="260" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Pencatatan khusus profesional di RIE</text>
+    <circle cx="420" cy="210" r="9" fill="#38bdf8"/>
+    <text x="420" y="180" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle">8 Okt 2025</text>
+    <text x="420" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Pembelian langsung ritel diizinkan</text>
+    <circle cx="580" cy="210" r="10" fill="#4ade80"/>
+    <text x="580" y="180" fill="#4ade80" font-size="14" font-weight="700" text-anchor="middle">5 Jun 2026</text>
+    <text x="580" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">CP26/17: usulan 10% dalam dana</text>
+    <text x="580" y="240" fill="#fbbf24" font-size="13" text-anchor="middle">Konsultasi ditutup 13 Jul</text>
+    <rect x="60" y="300" width="590" height="60" rx="8" fill="#1c1c1e" stroke="#3f3f46"/>
+    <text x="355" y="325" fill="#d4d4d8" font-size="14" text-anchor="middle" font-weight="700">Dana ritel UCITS/NURS bisa memegang cETN hingga 10%</text>
+    <text x="355" y="347" fill="#a1a1aa" font-size="13" text-anchor="middle">CSSF Luksemburg juga mengadopsi batas NAV 10% yang sama pada 4 Feb 2026</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Disusun ulang dari publikasi FCA, CoinDesk, The Block, dan CSSF.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Oś czasu łagodzenia przepisów FCA dot. krypto-ETN</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="100" cy="210" r="9" fill="#f87171"/>
+    <text x="100" y="180" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle">Sty 2021</text>
+    <text x="100" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Całkowity zakaz detaliczny</text>
+    <circle cx="260" cy="210" r="9" fill="#fbbf24"/>
+    <text x="260" y="180" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle">Mar 2024</text>
+    <text x="260" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Notowania tylko dla profesjonalistów na RIE</text>
+    <circle cx="420" cy="210" r="9" fill="#38bdf8"/>
+    <text x="420" y="180" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle">8 paź 2025</text>
+    <text x="420" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Dozwolony bezpośredni zakup detaliczny</text>
+    <circle cx="580" cy="210" r="10" fill="#4ade80"/>
+    <text x="580" y="180" fill="#4ade80" font-size="14" font-weight="700" text-anchor="middle">5 cze 2026</text>
+    <text x="580" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">CP26/17: propozycja 10% w funduszach</text>
+    <text x="580" y="240" fill="#fbbf24" font-size="13" text-anchor="middle">Konsultacje kończą się 13 lip</text>
+    <rect x="60" y="300" width="590" height="60" rx="8" fill="#1c1c1e" stroke="#3f3f46"/>
+    <text x="355" y="325" fill="#d4d4d8" font-size="14" text-anchor="middle" font-weight="700">Fundusze detaliczne UCITS/NURS mogłyby posiadać do 10% cETN</text>
+    <text x="355" y="347" fill="#a1a1aa" font-size="13" text-anchor="middle">Luksemburski CSSF przyjął ten sam limit 10% NAV 4 lutego 2026</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Opracowano na podstawie publikacji FCA, CoinDesk, The Block i CSSF.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Cronologia dell'allentamento sui cripto-ETN della FCA britannica</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="100" cy="210" r="9" fill="#f87171"/>
+    <text x="100" y="180" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle">Gen 2021</text>
+    <text x="100" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Divieto retail totale</text>
+    <circle cx="260" cy="210" r="9" fill="#fbbf24"/>
+    <text x="260" y="180" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle">Mar 2024</text>
+    <text x="260" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Quotazione RIE solo professionale</text>
+    <circle cx="420" cy="210" r="9" fill="#38bdf8"/>
+    <text x="420" y="180" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle">8 ott 2025</text>
+    <text x="420" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Acquisto diretto retail consentito</text>
+    <circle cx="580" cy="210" r="10" fill="#4ade80"/>
+    <text x="580" y="180" fill="#4ade80" font-size="14" font-weight="700" text-anchor="middle">5 giu 2026</text>
+    <text x="580" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">CP26/17: proposta 10% nei fondi</text>
+    <text x="580" y="240" fill="#fbbf24" font-size="13" text-anchor="middle">Consultazione chiude il 13 lug</text>
+    <rect x="60" y="300" width="590" height="60" rx="8" fill="#1c1c1e" stroke="#3f3f46"/>
+    <text x="355" y="325" fill="#d4d4d8" font-size="14" text-anchor="middle" font-weight="700">I fondi retail UCITS/NURS potrebbero detenere fino al 10% in cETN</text>
+    <text x="355" y="347" fill="#a1a1aa" font-size="13" text-anchor="middle">La CSSF lussemburghese ha adottato lo stesso tetto NAV del 10% il 4 feb 2026</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Ricostruito dalle pubblicazioni di FCA, CoinDesk, The Block e CSSF.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Хронология смягчения регулирования крипто-ETN со стороны FCA Великобритании</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="100" cy="210" r="9" fill="#f87171"/>
+    <text x="100" y="180" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle">Янв 2021</text>
+    <text x="100" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Полный запрет для розницы</text>
+    <circle cx="260" cy="210" r="9" fill="#fbbf24"/>
+    <text x="260" y="180" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle">Мар 2024</text>
+    <text x="260" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Листинг на RIE только для профи</text>
+    <circle cx="420" cy="210" r="9" fill="#38bdf8"/>
+    <text x="420" y="180" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle">8 окт 2025</text>
+    <text x="420" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">Разрешена прямая розничная покупка</text>
+    <circle cx="580" cy="210" r="10" fill="#4ade80"/>
+    <text x="580" y="180" fill="#4ade80" font-size="14" font-weight="700" text-anchor="middle">5 июн 2026</text>
+    <text x="580" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">CP26/17: предложено 10% в фондах</text>
+    <text x="580" y="240" fill="#fbbf24" font-size="13" text-anchor="middle">Консультации завершаются 13 июл</text>
+    <rect x="60" y="300" width="590" height="60" rx="8" fill="#1c1c1e" stroke="#3f3f46"/>
+    <text x="355" y="325" fill="#d4d4d8" font-size="14" text-anchor="middle" font-weight="700">Розничные фонды UCITS/NURS смогут держать до 10% в cETN</text>
+    <text x="355" y="347" fill="#a1a1aa" font-size="13" text-anchor="middle">Люксембургский CSSF принял такой же лимит NAV 10% 4 фев 2026</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Реконструировано на основе публикаций FCA, CoinDesk, The Block и CSSF.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">英國FCA加密貨幣ETN鬆綁時間軸</text>
+  <g font-family="sans-serif">
+    <line x1="60" y1="210" x2="650" y2="210" stroke="#3f3f46" stroke-width="3"/>
+    <circle cx="100" cy="210" r="9" fill="#f87171"/>
+    <text x="100" y="180" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle">2021年1月</text>
+    <text x="100" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">全面禁止零售</text>
+    <circle cx="260" cy="210" r="9" fill="#fbbf24"/>
+    <text x="260" y="180" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle">2024年3月</text>
+    <text x="260" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">僅限專業投資人於RIE上市</text>
+    <circle cx="420" cy="210" r="9" fill="#38bdf8"/>
+    <text x="420" y="180" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle">2025年10月8日</text>
+    <text x="420" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">允許零售直接購買</text>
+    <circle cx="580" cy="210" r="10" fill="#4ade80"/>
+    <text x="580" y="180" fill="#4ade80" font-size="14" font-weight="700" text-anchor="middle">2026年6月5日</text>
+    <text x="580" y="160" fill="#a1a1aa" font-size="13" text-anchor="middle">CP26/17:提議基金納入10%</text>
+    <text x="580" y="240" fill="#fbbf24" font-size="13" text-anchor="middle">諮詢於7月13日截止</text>
+    <rect x="60" y="300" width="590" height="60" rx="8" fill="#1c1c1e" stroke="#3f3f46"/>
+    <text x="355" y="325" fill="#d4d4d8" font-size="14" text-anchor="middle" font-weight="700">UCITS/NURS零售基金可望持有最高10%的cETN</text>
+    <text x="355" y="347" fill="#a1a1aa" font-size="13" text-anchor="middle">盧森堡CSSF已於2026年2月4日採行相同的10% NAV上限</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">根據FCA、CoinDesk、The Block及CSSF發布內容重新整理。</p>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> (1) 7월13일 협의 마감 이후 FCA의 최종규칙 확정 시점과 시행일, (2) 실제로 cETN 편입을 투자설명서에 반영하는 UCITS·NURS 펀드 수, (3) 21셰어스·위즈덤트리·반에크 등 발행사의 소매펀드 채널 신상품 출시 속도. 법적 허용과 실제 자금 유입 사이에는 여전히 간극이 있을 수 있다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> (1) when the FCA finalizes the rule and sets an effective date after the July 13 consultation closes; (2) how many UCITS and NURS funds actually update prospectuses to include cETN exposure; (3) how quickly issuers like 21Shares, WisdomTree, and VanEck roll out new retail-fund-channel products. A gap between legal permission and actual fund inflows may still remain.</div>
