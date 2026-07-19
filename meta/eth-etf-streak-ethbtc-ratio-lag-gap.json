@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "이더리움 ETF 유입·ETH/BTC 괴리",
   "tag_en": "ETH ETF Inflows & ETH/BTC Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Entradas de ETF ETH e Lacuna ETH/BTC",
   "tag_tr": "ETH ETF Girişleri ve ETH/BTC Farkı",
   "tag_vi": "Dòng Vào ETF ETH và Khoảng Cách ETH/BTC",
+  "tag_id": "Arus Masuk ETF ETH & Kesenjangan ETH/BTC",
+  "tag_pl": "Napływy ETF ETH i Luka ETH/BTC",
+  "tag_it": "Afflussi ETF ETH e Divario ETH/BTC",
+  "tag_ru": "Притоки ETF ETH и Разрыв ETH/BTC",
+  "tag_zh": "以太幣ETF流入與ETH/BTC落差",
 
   "title_ko": "이더리움 ETF는 닷새 연속 순유입됐는데, ETH/BTC 비율은 10개월 최저에서 겨우 반등했다",
   "title_en": "Ethereum ETFs Logged a Five-Day Inflow Streak — But ETH/BTC Barely Bounced Off a 10-Month Low",
@@ -32,6 +42,11 @@
   "title_pt": "ETFs de Ethereum Tiveram Cinco Dias Seguidos de Entradas — Mas ETH/BTC Mal Saiu de uma Mínima de 10 Meses",
   "title_tr": "Ethereum ETF'leri Beş Gün Üst Üste Giriş Kaydetti — Ama ETH/BTC 10 Aylık Dipten Zar Zor Toparlandı",
   "title_vi": "Các Quỹ ETF Ethereum Ghi Nhận Chuỗi 5 Ngày Dòng Vào — Nhưng ETH/BTC Chỉ Bật Nhẹ Khỏi Đáy 10 Tháng",
+  "title_id": "ETF Ethereum Mencatat Rentetan Arus Masuk Lima Hari — Tapi ETH/BTC Nyaris Tak Bergerak dari Titik Terendah 10 Bulan",
+  "title_pl": "ETF na Ethereum Zanotowały Pięciodniową Serię Napływów — Ale ETH/BTC Ledwo Odbił się od 10-Miesięcznego Dołka",
+  "title_it": "Gli ETF su Ethereum Registrano Cinque Giorni di Afflussi — Ma ETH/BTC È Appena Rimbalzato da un Minimo di 10 Mesi",
+  "title_ru": "ETF на Эфириум Зафиксировали Пятидневную Серию Притоков — Но ETH/BTC Едва Отскочил от 10-Месячного Минимума",
+  "title_zh": "以太幣ETF連續五天資金流入——但ETH/BTC僅從10個月低點微幅反彈",
 
   "h1_ko": "이더리움 현물 ETF에는 자금이 꾸준히 들어왔지만,<br>ETH/BTC 비율은 그 흐름을 아직 확인해주지 않는다",
   "h1_en": "Money Kept Flowing Into Spot Ethereum ETFs,<br>But the ETH/BTC Ratio Hasn't Confirmed It Yet",
@@ -42,6 +57,11 @@
   "h1_pt": "O Dinheiro Continuou Fluindo Para os ETFs de Ethereum à Vista,<br>Mas a Razão ETH/BTC Ainda Não Confirmou Isso",
   "h1_tr": "Spot Ethereum ETF'lerine Para Girmeye Devam Etti,<br>Ama ETH/BTC Oranı Bunu Henüz Doğrulamadı",
   "h1_vi": "Dòng Tiền Tiếp Tục Chảy Vào ETF Ethereum Giao Ngay,<br>Nhưng Tỷ Lệ ETH/BTC Vẫn Chưa Xác Nhận Điều Đó",
+  "h1_id": "Dana Terus Mengalir ke ETF Ethereum Spot,<br>Namun Rasio ETH/BTC Belum Mengonfirmasinya",
+  "h1_pl": "Pieniądze Wciąż Napływały do ETF na Ethereum Spot,<br>Ale Wskaźnik ETH/BTC Jeszcze Tego Nie Potwierdził",
+  "h1_it": "Il Denaro Ha Continuato ad Affluire negli ETF Spot su Ethereum,<br>Ma il Rapporto ETH/BTC Non Lo Ha Ancora Confermato",
+  "h1_ru": "Деньги Продолжали Поступать в Спотовые ETF на Эфириум,<br>Но Соотношение ETH/BTC Пока Это Не Подтвердило",
+  "h1_zh": "資金持續流入以太幣現貨ETF，<br>但ETH/BTC比率尚未確認這股趨勢",
 
   "bc_ko": "이더리움 ETF·ETH/BTC 비율 점검",
   "bc_en": "ETH ETF & ETH/BTC Ratio Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação de ETF de ETH e Razão ETH/BTC",
   "bc_tr": "ETH ETF ve ETH/BTC Oranı İncelemesi",
   "bc_vi": "Kiểm Tra ETF ETH và Tỷ Lệ ETH/BTC",
+  "bc_id": "Pemeriksaan ETF ETH & Rasio ETH/BTC",
+  "bc_pl": "Sprawdzenie ETF ETH i Wskaźnika ETH/BTC",
+  "bc_it": "Verifica ETF ETH e Rapporto ETH/BTC",
+  "bc_ru": "Проверка ETF ETH и Соотношения ETH/BTC",
+  "bc_zh": "以太幣ETF與ETH/BTC比率檢視",
 
   "desc_ko": "비트코인은 6만4,000달러 안팎, 이더리움은 1,800달러 안팎에서 움직이고 있다. 미국 상장 현물 이더리움 ETF는 7월1일부터 8일까지 닷새 연속 순유입되며 누적 1억6,200만 달러가 들어왔지만, 같은 기간 ETH/BTC 비율은 6월30일 10개월 최저치(0.0269)에서 7월12일 0.0277까지 소폭 반등하는 데 그쳤다. 7월9일에는 비트코인·이더리움 ETF가 동반 유출(합산 약 1억4,750만 달러)로 돌아섰고, 7월10일 비트코인 ETF만 9,044만 달러로 홀로 회복했다. 이더리움은 2025년4분기부터 2026년2분기까지 3분기 연속 하락하며 2016년 거래 시작 이후 처음 있는 기록을 남겼다. 상품 자금과 상대가격이 서로 다른 속도로 움직이는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin is trading around $64,000 and Ethereum around $1,800. U.S.-listed spot Ethereum ETFs logged five consecutive days of net inflows from July 1 to July 8, pulling in a cumulative $162 million, but over that same stretch the ETH/BTC ratio only edged up from a 10-month low of 0.0269 on June 30 to 0.0277 by July 12. On July 9, Bitcoin and Ethereum ETFs both flipped to net outflows (combined roughly $147.5 million), and on July 10 only Bitcoin ETFs recovered on their own with $90.44 million. Ethereum has now posted three consecutive losing quarters from Q4 2025 through Q2 2026 — its first such streak since trading began in 2016. A look at a phase where product-level money and relative price are moving at different speeds.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échange autour de 64 000 dollars et l'Ethereum autour de 1 800 dollars. Les ETF Ethereum au comptant cotés aux États-Unis ont enregistré cinq jours consécutifs d'entrées nettes du 1er au 8 juillet, attirant un cumul de 162 millions de dollars, mais sur cette même période le ratio ETH/BTC n'a que légèrement progressé, passant du plus bas de 10 mois de 0,0269 le 30 juin à 0,0277 le 12 juillet. Le 9 juillet, les ETF Bitcoin et Ethereum sont tous deux passés à des sorties nettes (environ 147,5 millions de dollars combinés), et le 10 juillet, seuls les ETF Bitcoin se sont redressés seuls avec 90,44 millions de dollars. L'Ethereum a désormais enregistré trois trimestres consécutifs de pertes du T4 2025 au T2 2026 — une première série de ce type depuis le début des échanges en 2016. Un examen d'une phase où l'argent au niveau du produit et le prix relatif évoluent à des vitesses différentes.",
   "desc_pt": "O bitcoin é negociado em torno de $64.000 e o Ethereum em torno de $1.800. Os ETFs de Ethereum à vista listados nos EUA registraram cinco dias consecutivos de entradas líquidas de 1º a 8 de julho, atraindo um acumulado de US$ 162 milhões, mas nesse mesmo período a razão ETH/BTC subiu apenas ligeiramente da mínima de 10 meses de 0,0269 em 30 de junho para 0,0277 em 12 de julho. Em 9 de julho, os ETFs de Bitcoin e Ethereum passaram a saídas líquidas (combinadas cerca de US$ 147,5 milhões), e em 10 de julho apenas os ETFs de Bitcoin se recuperaram sozinhos com US$ 90,44 milhões. O Ethereum já registrou três trimestres consecutivos de perdas do 4T de 2025 ao 2T de 2026 — sua primeira sequência assim desde que começou a ser negociado em 2016. Uma análise de uma fase em que o dinheiro em nível de produto e o preço relativo se movem em velocidades diferentes.",
   "desc_tr": "Bitcoin 64.000 dolar, Ethereum ise 1.800 dolar civarında işlem görüyor. ABD'de işlem gören spot Ethereum ETF'leri 1-8 Temmuz arasında beş işlem günü üst üste net giriş kaydederek toplam 162 milyon dolar çekti, ama aynı dönemde ETH/BTC oranı 30 Haziran'daki 10 aylık dip olan 0,0269'dan 12 Temmuz'da 0,0277'ye sadece hafifçe yükseldi. 9 Temmuz'da hem Bitcoin hem Ethereum ETF'leri net çıkışa döndü (toplam yaklaşık 147,5 milyon dolar), 10 Temmuz'da ise yalnızca Bitcoin ETF'leri 90,44 milyon dolarla tek başına toparlandı. Ethereum, 2025 4Ç'den 2026 2Ç'ye kadar üst üste üç çeyrek kayıp kaydetti — 2016'da işlem görmeye başladığından bu yana ilk kez. Ürün düzeyindeki para ile göreli fiyatın farklı hızlarda hareket ettiği bir aşamaya bakış.",
-  "desc_vi": "Bitcoin đang giao dịch quanh mức 64.000 đô la và Ethereum quanh mức 1.800 đô la. Các quỹ ETF Ethereum giao ngay niêm yết tại Mỹ ghi nhận năm ngày liên tiếp dòng vào ròng từ ngày 1 đến ngày 8 tháng 7, thu hút tổng cộng 162 triệu đô la, nhưng trong cùng giai đoạn đó tỷ lệ ETH/BTC chỉ nhích nhẹ từ đáy 10 tháng 0,0269 vào ngày 30 tháng 6 lên 0,0277 vào ngày 12 tháng 7. Vào ngày 9 tháng 7, cả ETF Bitcoin và Ethereum đều chuyển sang rút ròng (tổng cộng khoảng 147,5 triệu đô la), và vào ngày 10 tháng 7 chỉ có ETF Bitcoin tự phục hồi với 90,44 triệu đô la. Ethereum hiện đã ghi nhận ba quý lỗ liên tiếp từ quý 4/2025 đến quý 2/2026 — chuỗi đầu tiên như vậy kể từ khi bắt đầu giao dịch năm 2016. Một góc nhìn về giai đoạn mà dòng tiền ở cấp độ sản phẩm và giá tương đối đang di chuyển với tốc độ khác nhau."
+  "desc_vi": "Bitcoin đang giao dịch quanh mức 64.000 đô la và Ethereum quanh mức 1.800 đô la. Các quỹ ETF Ethereum giao ngay niêm yết tại Mỹ ghi nhận năm ngày liên tiếp dòng vào ròng từ ngày 1 đến ngày 8 tháng 7, thu hút tổng cộng 162 triệu đô la, nhưng trong cùng giai đoạn đó tỷ lệ ETH/BTC chỉ nhích nhẹ từ đáy 10 tháng 0,0269 vào ngày 30 tháng 6 lên 0,0277 vào ngày 12 tháng 7. Vào ngày 9 tháng 7, cả ETF Bitcoin và Ethereum đều chuyển sang rút ròng (tổng cộng khoảng 147,5 triệu đô la), và vào ngày 10 tháng 7 chỉ có ETF Bitcoin tự phục hồi với 90,44 triệu đô la. Ethereum hiện đã ghi nhận ba quý lỗ liên tiếp từ quý 4/2025 đến quý 2/2026 — chuỗi đầu tiên như vậy kể từ khi bắt đầu giao dịch năm 2016. Một góc nhìn về giai đoạn mà dòng tiền ở cấp độ sản phẩm và giá tương đối đang di chuyển với tốc độ khác nhau.",
+  "desc_id": "Bitcoin di $64,000, Ethereum di $1,800. ETF Ethereum AS catat lima hari arus masuk ($162 juta), tapi ETH/BTC hanya naik tipis dari titik terendah 10 bulan.",
+  "desc_pl": "Bitcoin w okolicach $64,000, Ethereum $1,800. ETF na Ethereum miały pięć dni napływów ($162 mln), lecz ETH/BTC ledwo odbił się od 10-miesięcznego dołka.",
+  "desc_it": "Bitcoin a $64,000, Ethereum a $1,800. Gli ETF su Ethereum hanno avuto afflussi per 5 giorni ($162 milioni), ma ETH/BTC è rimbalzato appena dal minimo.",
+  "desc_ru": "Биткоин около $64,000, Эфириум около $1,800. ETF на Эфириум показали пять дней притоков ($162 млн), но ETH/BTC едва вырос от 10-месячного минимума.",
+  "desc_zh": "比特幣約$64,000，以太幣約$1,800。美國以太幣現貨ETF連續五天淨流入，累計流入$162 million，但同期ETH/BTC比率僅從6月30日創下的10個月低點0.0269小幅回升至0.0277，反彈幅度依然相對有限，未能明確確認資金流向。"
 }

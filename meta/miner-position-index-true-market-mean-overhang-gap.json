@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "채굴자 포지션 지수(MPI) -0.94, 트루마켓민 저항",
   "tag_en": "Miner Position Index -0.94, True Market Mean Overhang",
@@ -22,6 +27,11 @@
   "tag_pt": "Miner Position Index -0,94, Excesso do True Market Mean",
   "tag_tr": "Madenci Pozisyon Endeksi -0,94, True Market Mean Fazlalığı",
   "tag_vi": "Chỉ Số Vị Thế Thợ Đào -0,94, Dư Cung True Market Mean",
+  "tag_id": "Indeks Posisi Penambang -0,94, Kelebihan True Market Mean",
+  "tag_pl": "Wskaźnik Pozycji Górników -0,94, Nadwyżka True Market Mean",
+  "tag_it": "Indice di Posizione dei Miner -0,94, Eccedenza True Market Mean",
+  "tag_ru": "Индекс позиции майнеров -0,94, навес True Market Mean",
+  "tag_zh": "礦工持倉指數 -0.94,True Market Mean 過剩供給",
 
   "title_ko": "채굴자는 원가 근처에서도 팔지 않는데, 시장 평균 매입가는 17~24% 위에 떠 있다",
   "title_en": "Miners Aren't Selling Even Near Cost — While the Market's Average Cost Basis Floats 17-24% Overhead",
@@ -32,6 +42,11 @@
   "title_pt": "Mineradores Não Vendem Nem Perto do Custo — Enquanto a Base de Custo Média do Mercado Flutua 17-24% Acima",
   "title_tr": "Madenciler Maliyete Yakınken Bile Satmıyor — Piyasanın Ortalama Maliyet Tabanı ise %17-24 Yukarıda Asılı Duruyor",
   "title_vi": "Thợ Đào Không Bán Ngay Cả Khi Gần Giá Vốn — Trong Khi Giá Vốn Trung Bình Thị Trường Lơ Lửng Cao Hơn 17-24%",
+  "title_id": "Penambang Tidak Menjual Meski Dekat Harga Pokok — Sementara Basis Biaya Rata-Rata Pasar Melayang 17-24% di Atas",
+  "title_pl": "Górnicy Nie Sprzedają Nawet Blisko Kosztów — Podczas Gdy Średnia Cena Bazowa Rynku Unosi Się 17-24% Wyżej",
+  "title_it": "I Miner Non Vendono Nemmeno Vicino ai Costi — Mentre il Costo Base Medio del Mercato Fluttua il 17-24% Più in Alto",
+  "title_ru": "Майнеры Не Продают Даже у Себестоимости — В То Время Как Средняя Базовая Цена Рынка Держится на 17-24% Выше",
+  "title_zh": "礦工即使逼近成本也不賣出——而市場平均成本基礎仍高懸17-24%",
 
   "h1_ko": "채굴자 포지션 지수는 -0.94로 몇 달째 매도 파업을 가리키는데,<br>시장 평균 매입가는 여전히 현재가보다 17~24% 위에 떠 있다",
   "h1_en": "The Miner Position Index Has Pointed to a Months-Long Selling Strike at -0.94,<br>While the Market's Average Cost Basis Still Floats 17-24% Above the Current Price",
@@ -42,6 +57,11 @@
   "h1_pt": "O Miner Position Index Aponta para uma Greve de Vendas de Meses em -0,94,<br>Enquanto a Base de Custo Média do Mercado Ainda Flutua 17-24% Acima do Preço Atual",
   "h1_tr": "Madenci Pozisyon Endeksi -0,94'te Aylardır Süren Bir Satış Grevine İşaret Ediyor,<br>Piyasanın Ortalama Maliyet Tabanı ise Hâlâ Mevcut Fiyatın %17-24 Üzerinde Asılı",
   "h1_vi": "Chỉ Số Vị Thế Thợ Đào Ở Mức -0,94 Cho Thấy Cuộc Đình Công Bán Kéo Dài Nhiều Tháng,<br>Trong Khi Giá Vốn Trung Bình Thị Trường Vẫn Lơ Lửng Cao Hơn Giá Hiện Tại 17-24%",
+  "h1_id": "Indeks Posisi Penambang Menunjukkan Mogok Jual Berbulan-Bulan di -0,94,<br>Sementara Basis Biaya Rata-Rata Pasar Masih Melayang 17-24% di Atas Harga Saat Ini",
+  "h1_pl": "Wskaźnik Pozycji Górników Wskazuje na Wielomiesięczny Strajk Sprzedażowy na Poziomie -0,94,<br>Podczas Gdy Średnia Cena Bazowa Rynku Wciąż Unosi Się 17-24% Powyżej Obecnej Ceny",
+  "h1_it": "L'Indice di Posizione dei Miner Indica uno Sciopero delle Vendite Durato Mesi a -0,94,<br>Mentre il Costo Base Medio del Mercato Fluttua Ancora il 17-24% Sopra il Prezzo Attuale",
+  "h1_ru": "Индекс Позиции Майнеров Указывает на Многомесячную Забастовку Продаж на Уровне -0,94,<br>В То Время Как Средняя Базовая Цена Рынка Всё Ещё Держится на 17-24% Выше Текущей Цены",
+  "h1_zh": "礦工持倉指數以-0.94顯示持續數月的賣出罷工,<br>而市場平均成本基礎仍高於目前價格17-24%",
 
   "bc_ko": "MPI·트루마켓민 괴리 점검",
   "bc_en": "MPI vs. True Market Mean Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação: MPI vs. True Market Mean",
   "bc_tr": "MPI ve True Market Mean İncelemesi",
   "bc_vi": "Kiểm Tra MPI và True Market Mean",
+  "bc_id": "Pemeriksaan MPI vs. True Market Mean",
+  "bc_pl": "Analiza MPI vs. True Market Mean",
+  "bc_it": "Verifica MPI vs. True Market Mean",
+  "bc_ru": "Проверка MPI vs. True Market Mean",
+  "bc_zh": "MPI 與 True Market Mean 檢視",
 
   "desc_ko": "비트코인은 6만3,700~6만4,200달러에서 거래되며 사상 최고가 12만6,080달러보다 약 49% 낮은 수준이다. 크립토퀀트 기준 채굴자 포지션 지수(MPI)는 -0.94로, 지난해 11월말 2.17이었던 매도 국면 이후 몇 달째 낮게 유지되고 있다 — 평균 채굴 원가로 추정되는 7만4,600달러(AMBCrypto) 근처에서도 매도가 늘지 않는 이례적인 모습이다. 반면 유통 코인 전체의 평균 취득 단가를 추정하는 '트루마켓민'은 약 7만6,700~7만9,000달러(라이브비트코인뉴스, 글래스노드/코인스탯츠AI)로 현재가보다 17~24% 높다. 공급 측(채굴자)은 조여지는데 잠재적 매물 축(평균 보유자의 손익분기)은 여전히 위쪽에 걸려 있는 지금 국면을, 공포탐욕지수 20(극단적 공포, 얼터너티브미)과 함께 점검했다.",
   "desc_en": "Bitcoin is trading around $63,700-$64,200, roughly 49% below its all-time high of $126,080. CryptoQuant's Miner Position Index (MPI) sits at -0.94, staying low for months since last November's selling-phase peak of 2.17 — an unusual pattern given that selling hasn't picked up even near the estimated average mining cost of $74,600 (AMBCrypto). Meanwhile, the 'True Market Mean,' which estimates the average acquisition price of all circulating coins, sits around $76,700-$79,000 (Live Bitcoin News; Glassnode via CoinStats AI) — 17-24% above the current price. A look at a phase where the supply-side (miners) is tightening while a latent supply axis (the average holder's breakeven) still hangs overhead, alongside a Fear & Greed Index of 20 (extreme fear, Alternative.me).",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échange entre 63 700 et 64 200 dollars, environ 49 % sous son sommet historique de 126 080 dollars. Le Miner Position Index (MPI) de CryptoQuant se situe à -0,94, restant bas depuis des mois après le pic de la phase de vente de 2,17 en novembre dernier — un schéma inhabituel étant donné que les ventes n'ont pas augmenté même près du coût minier moyen estimé de 74 600 dollars (AMBCrypto). Pendant ce temps, le « True Market Mean », qui estime le prix d'acquisition moyen de toutes les pièces en circulation, se situe autour de 76 700-79 000 dollars (Live Bitcoin News ; Glassnode via CoinStats AI) — 17 à 24 % au-dessus du prix actuel. Un examen d'une phase où le côté offre (mineurs) se resserre tandis qu'un axe d'offre latent (le seuil de rentabilité du détenteur moyen) reste suspendu au-dessus, aux côtés d'un indice Fear & Greed de 20 (peur extrême, Alternative.me).",
   "desc_pt": "O bitcoin é negociado entre US$ 63.700 e US$ 64.200, cerca de 49% abaixo de sua máxima histórica de US$ 126.080. O Miner Position Index (MPI) da CryptoQuant está em -0,94, permanecendo baixo há meses desde o pico da fase de venda de 2,17 em novembro passado — um padrão incomum considerando que as vendas não aumentaram nem mesmo perto do custo médio estimado de mineração de US$ 74.600 (AMBCrypto). Enquanto isso, o 'True Market Mean', que estima o preço médio de aquisição de todas as moedas em circulação, está em torno de US$ 76.700-US$ 79.000 (Live Bitcoin News; Glassnode via CoinStats AI) — 17-24% acima do preço atual. Uma análise de uma fase em que o lado da oferta (mineradores) se aperta enquanto um eixo de oferta latente (o ponto de equilíbrio do detentor médio) ainda paira acima, ao lado de um Índice de Medo e Ganância de 20 (medo extremo, Alternative.me).",
   "desc_tr": "Bitcoin, 63.700-64.200 dolar bandında işlem görüyor; bu, 126.080 dolarlık zirve rekorunun yaklaşık %49 altında. CryptoQuant'ın Madenci Pozisyon Endeksi (MPI) -0,94 seviyesinde ve geçen Kasım ayındaki 2,17'lik satış aşaması zirvesinden bu yana aylardır düşük seyrediyor — tahmini ortalama madencilik maliyeti olan 74.600 dolara (AMBCrypto) yakınken bile satışların artmaması sıra dışı bir örüntü. Bu arada, dolaşımdaki tüm coinlerin ortalama edinme fiyatını tahmin eden 'True Market Mean' yaklaşık 76.700-79.000 dolarda (Live Bitcoin News; CoinStats AI üzerinden Glassnode) — mevcut fiyatın %17-24 üzerinde. Arz tarafının (madenciler) sıkılaştığı, buna karşın gizli arz ekseninin (ortalama yatırımcının başabaşı) hâlâ üstte asılı kaldığı bir aşamaya, 20'de (aşırı korku, Alternative.me) bir Korku ve Açgözlülük Endeksi eşliğinde bakış.",
-  "desc_vi": "Bitcoin đang giao dịch quanh mức 63.700-64.200 đô la, thấp hơn khoảng 49% so với đỉnh lịch sử 126.080 đô la. Chỉ Số Vị Thế Thợ Đào (MPI) của CryptoQuant ở mức -0,94, duy trì thấp trong nhiều tháng kể từ đỉnh giai đoạn bán 2,17 hồi tháng 11 năm ngoái — một mô hình bất thường khi việc bán ra không tăng lên ngay cả khi gần mức chi phí khai thác trung bình ước tính là 74.600 đô la (AMBCrypto). Trong khi đó, 'True Market Mean' - ước tính giá mua trung bình của tất cả các đồng coin đang lưu hành - ở mức khoảng 76.700-79.000 đô la (Live Bitcoin News; Glassnode qua CoinStats AI) — cao hơn giá hiện tại 17-24%. Một góc nhìn về giai đoạn mà phía cung (thợ đào) đang thắt chặt trong khi một trục cung tiềm ẩn (điểm hòa vốn của người nắm giữ trung bình) vẫn treo lơ lửng phía trên, cùng với Chỉ số Sợ hãi và Tham lam ở mức 20 (sợ hãi cực độ, Alternative.me)."
+  "desc_vi": "Bitcoin đang giao dịch quanh mức 63.700-64.200 đô la, thấp hơn khoảng 49% so với đỉnh lịch sử 126.080 đô la. Chỉ Số Vị Thế Thợ Đào (MPI) của CryptoQuant ở mức -0,94, duy trì thấp trong nhiều tháng kể từ đỉnh giai đoạn bán 2,17 hồi tháng 11 năm ngoái — một mô hình bất thường khi việc bán ra không tăng lên ngay cả khi gần mức chi phí khai thác trung bình ước tính là 74.600 đô la (AMBCrypto). Trong khi đó, 'True Market Mean' - ước tính giá mua trung bình của tất cả các đồng coin đang lưu hành - ở mức khoảng 76.700-79.000 đô la (Live Bitcoin News; Glassnode qua CoinStats AI) — cao hơn giá hiện tại 17-24%. Một góc nhìn về giai đoạn mà phía cung (thợ đào) đang thắt chặt trong khi một trục cung tiềm ẩn (điểm hòa vốn của người nắm giữ trung bình) vẫn treo lơ lửng phía trên, cùng với Chỉ số Sợ hãi và Tham lam ở mức 20 (sợ hãi cực độ, Alternative.me).",
+  "desc_id": "Bitcoin $63.700-64.200, 49% di bawah rekor $126.080. MPI CryptoQuant -0,94 tandai mogok jual; True Market Mean $76.700-79.000, 17-24% di atas harga.",
+  "desc_pl": "Bitcoin 63 700-64 200 $, 49% poniżej szczytu 126 080 $. MPI -0,94 to strajk sprzedażowy górników; True Market Mean 76 700-79 000 $, 17-24% powyżej ceny.",
+  "desc_it": "Bitcoin a $63.700-64.200, 49% sotto il massimo $126.080. MPI -0,94 segna sciopero vendite miner; True Market Mean $76.700-79.000, 17-24% sopra il prezzo.",
+  "desc_ru": "Биткоин $63 700-64 200, на 49% ниже пика $126 080. MPI -0,94 — забастовка продаж майнеров; True Market Mean $76 700-79 000, на 17-24% выше цены.",
+  "desc_zh": "比特幣在6萬3,700至6萬4,200美元,較最高價12萬6,080美元低49%。CryptoQuant的MPI為-0.94,顯示礦工賣出罷工;True Market Mean為7萬6,700至7萬9,000美元,較目前價格高17-24%;恐懼與貪婪指數20。"
 }
