@@ -435,6 +435,156 @@
   <text x="540" y="422" fill="#52525b" font-size="10" font-family="sans-serif" text-anchor="middle">Dựa trên Bouri et al. 2017; Baur &amp; Dimpfl 2018 — mang tính sơ đồ, không phải tỷ lệ thực tế</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="350" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif" text-anchor="middle">Arah Efek Leverage — Saham vs. Bitcoin</text>
+  <text x="350" y="54" fill="#a1a1aa" font-size="12" font-family="sans-serif" text-anchor="middle">Besaran respons volatilitas setelah guncangan (konseptual, tidak sesuai skala)</text>
+  <line x1="40" y1="68" x2="40" y2="350" stroke="#3f3f46" stroke-width="1"/>
+  <line x1="40" y1="350" x2="660" y2="350" stroke="#52525b" stroke-width="1.5"/>
+  <text x="18" y="210" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 18 210)">Respons volatilitas ↑</text>
+  <text x="175" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Pasar Saham Tradisional</text>
+  <rect x="110" y="160" width="70" height="190" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="145" y="150" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <rect x="210" y="290" width="70" height="60" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="245" y="280" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲</text>
+  <text x="145" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Guncangan negatif</text>
+  <text x="245" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Guncangan positif</text>
+  <text x="350" y="240" fill="#fbbf24" font-size="24" font-family="sans-serif" text-anchor="middle">⇄</text>
+  <text x="350" y="264" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">Pembalikan</text>
+  <text x="525" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Volatilitas Terealisasi Bitcoin</text>
+  <rect x="460" y="230" width="70" height="120" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="495" y="220" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲</text>
+  <rect x="560" y="200" width="70" height="150" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="595" y="190" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <text x="495" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Guncangan negatif</text>
+  <text x="595" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Guncangan positif</text>
+  <rect x="170" y="392" width="14" height="14" fill="#ef4444" rx="2"/>
+  <text x="190" y="404" fill="#a1a1aa" font-size="12" font-family="sans-serif">Volatilitas setelah guncangan negatif (berita buruk)</text>
+  <rect x="170" y="412" width="14" height="14" fill="#38bdf8" rx="2"/>
+  <text x="190" y="424" fill="#a1a1aa" font-size="12" font-family="sans-serif">Volatilitas setelah guncangan positif (berita baik)</text>
+  <text x="540" y="422" fill="#52525b" font-size="10" font-family="sans-serif" text-anchor="middle">Berdasarkan Bouri et al. 2017; Baur &amp; Dimpfl 2018 — skematik, bukan proporsi sebenarnya</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="350" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif" text-anchor="middle">Kierunek Efektu Dźwigni — Akcje a Bitcoin</text>
+  <text x="350" y="54" fill="#a1a1aa" font-size="12" font-family="sans-serif" text-anchor="middle">Wielkość reakcji zmienności po wstrząsie (schemat koncepcyjny, nie w skali)</text>
+  <line x1="40" y1="68" x2="40" y2="350" stroke="#3f3f46" stroke-width="1"/>
+  <line x1="40" y1="350" x2="660" y2="350" stroke="#52525b" stroke-width="1.5"/>
+  <text x="18" y="210" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 18 210)">Reakcja zmienności ↑</text>
+  <text x="175" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Tradycyjny Rynek Akcji</text>
+  <rect x="110" y="160" width="70" height="190" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="145" y="150" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <rect x="210" y="290" width="70" height="60" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="245" y="280" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲</text>
+  <text x="145" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Szok negatywny</text>
+  <text x="245" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Szok pozytywny</text>
+  <text x="350" y="240" fill="#fbbf24" font-size="24" font-family="sans-serif" text-anchor="middle">⇄</text>
+  <text x="350" y="264" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">Odwrócenie</text>
+  <text x="525" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Zrealizowana Zmienność Bitcoina</text>
+  <rect x="460" y="230" width="70" height="120" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="495" y="220" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲</text>
+  <rect x="560" y="200" width="70" height="150" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="595" y="190" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <text x="495" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Szok negatywny</text>
+  <text x="595" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Szok pozytywny</text>
+  <rect x="170" y="392" width="14" height="14" fill="#ef4444" rx="2"/>
+  <text x="190" y="404" fill="#a1a1aa" font-size="12" font-family="sans-serif">Zmienność po szoku negatywnym (złe wiadomości)</text>
+  <rect x="170" y="412" width="14" height="14" fill="#38bdf8" rx="2"/>
+  <text x="190" y="424" fill="#a1a1aa" font-size="12" font-family="sans-serif">Zmienność po szoku pozytywnym (dobre wiadomości)</text>
+  <text x="540" y="422" fill="#52525b" font-size="10" font-family="sans-serif" text-anchor="middle">Na podstawie Bouri i in. 2017; Baur i Dimpfl 2018 — schemat, nie rzeczywiste proporcje</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="350" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif" text-anchor="middle">Direzione dell'Effetto Leva — Azioni vs. Bitcoin</text>
+  <text x="350" y="54" fill="#a1a1aa" font-size="12" font-family="sans-serif" text-anchor="middle">Entità della risposta di volatilità dopo uno shock (concettuale, non in scala)</text>
+  <line x1="40" y1="68" x2="40" y2="350" stroke="#3f3f46" stroke-width="1"/>
+  <line x1="40" y1="350" x2="660" y2="350" stroke="#52525b" stroke-width="1.5"/>
+  <text x="18" y="210" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 18 210)">Risposta di volatilità ↑</text>
+  <text x="175" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Mercato Azionario Tradizionale</text>
+  <rect x="110" y="160" width="70" height="190" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="145" y="150" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <rect x="210" y="290" width="70" height="60" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="245" y="280" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲</text>
+  <text x="145" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Shock negativo</text>
+  <text x="245" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Shock positivo</text>
+  <text x="350" y="240" fill="#fbbf24" font-size="24" font-family="sans-serif" text-anchor="middle">⇄</text>
+  <text x="350" y="264" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">Inversione</text>
+  <text x="525" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Volatilità Realizzata di Bitcoin</text>
+  <rect x="460" y="230" width="70" height="120" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="495" y="220" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲</text>
+  <rect x="560" y="200" width="70" height="150" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="595" y="190" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <text x="495" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Shock negativo</text>
+  <text x="595" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Shock positivo</text>
+  <rect x="170" y="392" width="14" height="14" fill="#ef4444" rx="2"/>
+  <text x="190" y="404" fill="#a1a1aa" font-size="12" font-family="sans-serif">Volatilità dopo uno shock negativo (cattiva notizia)</text>
+  <rect x="170" y="412" width="14" height="14" fill="#38bdf8" rx="2"/>
+  <text x="190" y="424" fill="#a1a1aa" font-size="12" font-family="sans-serif">Volatilità dopo uno shock positivo (buona notizia)</text>
+  <text x="540" y="422" fill="#52525b" font-size="10" font-family="sans-serif" text-anchor="middle">Basato su Bouri et al. 2017; Baur &amp; Dimpfl 2018 — schematico, non proporzioni reali</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="350" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif" text-anchor="middle">Направление Эффекта Левериджа — Акции против Биткоина</text>
+  <text x="350" y="54" fill="#a1a1aa" font-size="12" font-family="sans-serif" text-anchor="middle">Величина реакции волатильности после шока (концептуально, не в масштабе)</text>
+  <line x1="40" y1="68" x2="40" y2="350" stroke="#3f3f46" stroke-width="1"/>
+  <line x1="40" y1="350" x2="660" y2="350" stroke="#52525b" stroke-width="1.5"/>
+  <text x="18" y="210" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 18 210)">Реакция волатильности ↑</text>
+  <text x="175" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Традиционный Фондовый Рынок</text>
+  <rect x="110" y="160" width="70" height="190" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="145" y="150" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <rect x="210" y="290" width="70" height="60" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="245" y="280" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲</text>
+  <text x="145" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Негативный шок</text>
+  <text x="245" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Позитивный шок</text>
+  <text x="350" y="240" fill="#fbbf24" font-size="24" font-family="sans-serif" text-anchor="middle">⇄</text>
+  <text x="350" y="264" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">Разворот</text>
+  <text x="525" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">Реализованная Волатильность Биткоина</text>
+  <rect x="460" y="230" width="70" height="120" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="495" y="220" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲</text>
+  <rect x="560" y="200" width="70" height="150" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="595" y="190" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <text x="495" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Негативный шок</text>
+  <text x="595" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">Позитивный шок</text>
+  <rect x="170" y="392" width="14" height="14" fill="#ef4444" rx="2"/>
+  <text x="190" y="404" fill="#a1a1aa" font-size="12" font-family="sans-serif">Волатильность после негативного шока (плохая новость)</text>
+  <rect x="170" y="412" width="14" height="14" fill="#38bdf8" rx="2"/>
+  <text x="190" y="424" fill="#a1a1aa" font-size="12" font-family="sans-serif">Волатильность после позитивного шока (хорошая новость)</text>
+  <text x="540" y="422" fill="#52525b" font-size="10" font-family="sans-serif" text-anchor="middle">На основе Bouri et al. 2017; Baur &amp; Dimpfl 2018 — схематично, не фактические пропорции</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="350" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif" text-anchor="middle">槓桿效應的方向——股市對比比特幣</text>
+  <text x="350" y="54" fill="#a1a1aa" font-size="12" font-family="sans-serif" text-anchor="middle">衝擊後波動性反應的大小(概念示意圖,非實際比例)</text>
+  <line x1="40" y1="68" x2="40" y2="350" stroke="#3f3f46" stroke-width="1"/>
+  <line x1="40" y1="350" x2="660" y2="350" stroke="#52525b" stroke-width="1.5"/>
+  <text x="18" y="210" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 18 210)">波動性反應 ↑</text>
+  <text x="175" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">傳統股市</text>
+  <rect x="110" y="160" width="70" height="190" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="145" y="150" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <rect x="210" y="290" width="70" height="60" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="245" y="280" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲</text>
+  <text x="145" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">負面衝擊</text>
+  <text x="245" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">正面衝擊</text>
+  <text x="350" y="240" fill="#fbbf24" font-size="24" font-family="sans-serif" text-anchor="middle">⇄</text>
+  <text x="350" y="264" fill="#fbbf24" font-size="13" font-weight="700" font-family="sans-serif" text-anchor="middle">反轉</text>
+  <text x="525" y="88" fill="#e4e4e7" font-size="14" font-weight="700" font-family="sans-serif" text-anchor="middle">比特幣已實現波動性</text>
+  <rect x="460" y="230" width="70" height="120" fill="#ef4444" opacity="0.9" rx="3"/>
+  <text x="495" y="220" fill="#fca5a5" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲</text>
+  <rect x="560" y="200" width="70" height="150" fill="#38bdf8" opacity="0.9" rx="3"/>
+  <text x="595" y="190" fill="#7dd3fc" font-size="15" font-family="sans-serif" text-anchor="middle">▲▲▲</text>
+  <text x="495" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">負面衝擊</text>
+  <text x="595" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="middle">正面衝擊</text>
+  <rect x="230" y="392" width="14" height="14" fill="#ef4444" rx="2"/>
+  <text x="250" y="404" fill="#a1a1aa" font-size="12" font-family="sans-serif">負面衝擊(壞消息)後的波動性</text>
+  <rect x="440" y="392" width="14" height="14" fill="#38bdf8" rx="2"/>
+  <text x="460" y="404" fill="#a1a1aa" font-size="12" font-family="sans-serif">正面衝擊(好消息)後的波動性</text>
+  <text x="350" y="422" fill="#52525b" font-size="10" font-family="sans-serif" text-anchor="middle">根據Bouri等人2017年;Baur與Dimpfl 2018年研究——示意圖,非實際比例</text>
+</svg>
+</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
@@ -445,4 +595,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), „Bad Is Stronger Than Good”, Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), „Negativity Bias, Negativity Dominance, and Contagion”, Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), „Good News and Bad News: Asymmetric Responses to Economic Information”, Journal of Politics, 68(2). Tetlock, P.C. (2007), „Giving Content to Investor Sentiment: The Role of Media in the Stock Market”, Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), „The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns”, Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), „On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013”, Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), „Asymmetric Volatility in Cryptocurrencies”, Economics Letters, 173. Black, F. (1976), „Studies of Stock Price Volatility Changes”, Proceedings of the 1976 Meetings of the American Statistical Association.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), «Bad Is Stronger Than Good», Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), «Negativity Bias, Negativity Dominance, and Contagion», Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), «Good News and Bad News: Asymmetric Responses to Economic Information», Journal of Politics, 68(2). Tetlock, P.C. (2007), «Giving Content to Investor Sentiment: The Role of Media in the Stock Market», Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), «The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns», Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), «On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013», Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), «Asymmetric Volatility in Cryptocurrencies», Economics Letters, 173. Black, F. (1976), «Studies of Stock Price Volatility Changes», Proceedings of the 1976 Meetings of the American Statistical Association.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Baumeister, R.F., Bratslavsky, E., Finkenauer, C. &amp; Vohs, K.D. (2001), "Bad Is Stronger Than Good", Review of General Psychology, 5(4). Rozin, P. &amp; Royzman, E.B. (2001), "Negativity Bias, Negativity Dominance, and Contagion", Personality and Social Psychology Review, 5(4). Soroka, S.N. (2006), "Good News and Bad News: Asymmetric Responses to Economic Information", Journal of Politics, 68(2). Tetlock, P.C. (2007), "Giving Content to Investor Sentiment: The Role of Media in the Stock Market", Journal of Finance, 62(3). Akhtar, S., Faff, R., Oliver, B. &amp; Subrahmanyam, A. (2011), "The Power of Bad: The Negativity Bias in Australian Consumer Sentiment Announcements on Stock Returns", Journal of Banking &amp; Finance, 35(5). Bouri, E., Azzi, G. &amp; Dyhrberg, A.H. (2017), "On the Return-Volatility Relationship in the Bitcoin Market around the Price Crash of 2013", Economics: The Open-Access, Open-Assessment E-Journal, 11. Baur, D.G. &amp; Dimpfl, T. (2018), "Asymmetric Volatility in Cryptocurrencies", Economics Letters, 173. Black, F. (1976), "Studies of Stock Price Volatility Changes", Proceedings of the 1976 Meetings of the American Statistical Association.</p>
 <?php require __DIR__.'/_footer.php'; ?>
