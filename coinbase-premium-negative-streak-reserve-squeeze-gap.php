@@ -9,6 +9,11 @@
 <p class="pt">O bitcoin é negociado entre US$ 64.000 e US$ 64.200 na noite de 11 de julho até a madrugada de 12 de julho (horário da Coreia). Nas últimas 24 horas, oscilou entre uma mínima de US$ 62.955 e uma máxima entre US$ 64.554 e US$ 64.653, estendendo uma recuperação a partir das mínimas de 25 a 30 de junho (cerca de US$ 57.900 a US$ 58.190) rumo a um segundo teste da zona de resistência de US$ 64.400-US$ 64.500 nesta semana. Vários indicadores on-chain e de derivativos já contavam histórias diferentes sobre essa recuperação — quando este site cobriu o Exchange Whale Ratio e o Realized P&amp;L Ratio, apontou uma lacuna em que as entradas de grandes detentores nas exchanges atingiram uma máxima de 10 anos exatamente no momento em que o lucro/prejuízo on-chain tocava uma mínima de capitulação de 43 meses.</p>
 <p class="tr">Bitcoin, 11 Temmuz gecesinden 12 Temmuz sabahına (KST) kadar 64.000-64.200 dolar bandında işlem görüyor. Son 24 saatte 62.955 dolar dip ile 64.554-64.653 dolar zirve arasında hareket ederek, 25-30 Haziran diplerinden (yaklaşık 57.900-58.190 dolar) başlayan toparlanmayı bu hafta 64.400-64.500 dolar direnç bölgesinin ikinci testine taşıyor. Bu toparlanma hakkında zaten birkaç zincir üstü ve türev göstergesi farklı hikayeler anlatıyordu — bu site Borsa Balina Oranı ve Gerçekleşmiş Kâr/Zarar Oranı'nı ele aldığında, büyük yatırımcıların borsalara girişlerinin 10 yılın zirvesine ulaştığı tam anda zincir üstü kâr/zararın 43 ayın teslimiyet dibine indiği bir fark işaret etmişti.</p>
 <p class="vi">Bitcoin đang giao dịch quanh mức 64.000-64.200 đô la từ tối ngày 11 tháng 7 đến rạng sáng ngày 12 tháng 7 (giờ Hàn Quốc). Trong 24 giờ qua, giá dao động giữa đáy 62.955 đô la và đỉnh 64.554-64.653 đô la, tiếp nối đà phục hồi từ đáy ngày 25-30 tháng 6 (khoảng 57.900-58.190 đô la) tiến vào lần kiểm tra thứ hai vùng kháng cự 64.400-64.500 đô la trong tuần này. Một số chỉ báo on-chain và phái sinh đã kể những câu chuyện khác nhau về đợt phục hồi này — khi trang này đề cập đến Tỷ Lệ Cá Voi Sàn Giao Dịch và Tỷ Lệ Lãi/Lỗ Đã Thực Hiện, nó đã chỉ ra một khoảng cách khi dòng tiền của các bên nắm giữ lớn chảy vào sàn đạt đỉnh 10 năm đúng vào thời điểm lãi/lỗ on-chain chạm đáy đầu hàng 43 tháng.</p>
+<p class="id">Bitcoin diperdagangkan di kisaran $64,000-$64,200 sepanjang malam 11 Juli hingga dini hari 12 Juli (waktu Korea/KST). Dalam 24 jam terakhir, harga bergerak antara titik terendah $62,955 dan tertinggi $64,554-$64,653, melanjutkan rebound dari titik terendah 25-30 Juni (sekitar $57,900-$58,190) menuju uji kedua zona resistance $64,400-$64,500 pekan ini. Beberapa indikator on-chain dan derivatif sudah menceritakan kisah yang berbeda tentang rebound ini — ketika situs ini membahas Exchange Whale Ratio dan Realized P&amp;L Ratio, ditemukan kesenjangan di mana arus masuk pemegang besar ke bursa mencapai level tertinggi dalam 10 tahun tepat pada saat P&amp;L on-chain mencatat titik kapitulasi terendah dalam 43 bulan.</p>
+<p class="pl">Bitcoin jest notowany w przedziale $64,000-$64,200 od nocy 11 lipca do wczesnego poranka 12 lipca (czasu koreańskiego, KST). W ciągu ostatnich 24 godzin poruszał się między minimum $62,955 a maksimum $64,554-$64,653, kontynuując odbicie od dołków z 25-30 czerwca (około $57,900-$58,190) w kierunku drugiego testu strefy oporu $64,400-$64,500 w tym tygodniu. Kilka wskaźników on-chain i pochodnych już wcześniej opowiadało różne historie o tym odbiciu — gdy ta strona omawiała Exchange Whale Ratio i Realized P&amp;L Ratio, wskazano na rozbieżność, w której napływy dużych posiadaczy na giełdy osiągnęły 10-letnie maksimum dokładnie w momencie, gdy zysk/strata on-chain spadły do 43-miesięcznego minimum kapitulacji.</p>
+<p class="it">Bitcoin viene scambiato intorno a $64,000-$64,200 nella notte tra l'11 e il 12 luglio (ora coreana, KST). Nelle ultime 24 ore ha oscillato tra un minimo di $62,955 e un massimo di $64,554-$64,653, estendendo un rimbalzo dai minimi del 25-30 giugno (circa $57,900-$58,190) verso un secondo test della zona di resistenza $64,400-$64,500 questa settimana. Diversi indicatori on-chain e derivati raccontavano già storie diverse su questo rimbalzo — quando questo sito ha trattato l'Exchange Whale Ratio e il Realized P&amp;L Ratio, ha segnalato una discrepanza in cui gli afflussi dei grandi detentori verso gli exchange hanno toccato un massimo di 10 anni proprio nel momento in cui il P&amp;L on-chain toccava un minimo di capitolazione di 43 mesi.</p>
+<p class="ru">Биткоин торгуется в диапазоне $64,000-$64,200 в ночь с 11 на 12 июля (по корейскому времени, KST). За последние 24 часа цена колебалась между минимумом $62,955 и максимумом $64,554-$64,653, продолжая отскок от минимумов 25-30 июня (примерно $57,900-$58,190) ко второй попытке пробить зону сопротивления $64,400-$64,500 на этой неделе. Несколько ончейн- и деривативных индикаторов уже рассказывали разные истории об этом отскоке — когда этот сайт разбирал Exchange Whale Ratio и Realized P&amp;L Ratio, было отмечено расхождение: приток крупных держателей на биржи достиг 10-летнего максимума ровно в тот момент, когда ончейн P&amp;L опустился до 43-месячного минимума капитуляции.</p>
+<p class="zh">比特幣在7月11日夜間至7月12日凌晨(韓國時間)於64,000至64,200美元區間交易。過去24小時內,價格在62,955美元的低點與64,554至64,653美元的高點之間波動,延續了自6月25日至30日低點(約57,900至58,190美元)以來的反彈走勢,本週第二次試探64,400至64,500美元的阻力區。在這波反彈之前,已有多項鏈上與衍生性商品指標各自訴說不同的故事——本站在報導Exchange Whale Ratio與Realized P&amp;L Ratio時指出一項落差:大額持有者流入交易所的規模創下10年新高,而同一時刻鏈上損益卻跌至43個月來的投降式低點。</p>
 
 <p class="ko">이번 점검은 세 번째 창을 연다. 미국 규제권 수요를 대표하는 코인베이스 프리미엄 지수(Coinbase Premium Index)는 5월19일부터 마이너스로 돌아선 뒤 7월 초까지 50거래일 넘게 마이너스를 이어가며 지수 집계 이래 최장 기록을 세웠다. 같은 기간 거래소 총 잔고는 4월 한때 약 243만 BTC까지 줄어 7년래 최저권을 찍었다. 하나는 '미국 정규 채널의 실시간 수요가 아직 회복되지 않았다'는 이야기를, 다른 하나는 '유통 가능한 공급 자체가 구조적으로 줄고 있다'는 이야기를 하고 있다.</p>
 <p class="en">This piece opens a third window. The Coinbase Premium Index, a proxy for U.S.-regulated demand, turned negative on May 19 and stayed negative for more than 50 trading days into early July — the longest streak since the index began being tracked. Over the same stretch, total exchange reserves fell to roughly 2.43 million BTC in April, a 7-year low. One tells a story of real-time demand through the U.S. regulated channel not yet confirming; the other tells a story of structurally shrinking available supply.</p>
@@ -19,6 +24,11 @@
 <p class="pt">Esta análise abre uma terceira janela. O Coinbase Premium Index, um indicador da demanda regulada dos EUA, tornou-se negativo em 19 de maio e permaneceu assim por mais de 50 dias de negociação até o início de julho — a sequência mais longa desde que o índice começou a ser monitorado. No mesmo período, as reservas totais das exchanges caíram para cerca de 2,43 milhões de BTC em abril, uma mínima de 7 anos. Um conta uma história de demanda em tempo real pelo canal regulado dos EUA ainda não confirmada; o outro conta uma história de oferta disponível encolhendo estruturalmente.</p>
 <p class="tr">Bu inceleme üçüncü bir pencere açıyor. ABD'nin düzenlenmiş talebini temsil eden Coinbase Premium Index, 19 Mayıs'ta negatife döndükten sonra Temmuz başına kadar 50 işlem gününden fazla negatif kaldı — endeksin izlenmeye başlamasından bu yana en uzun seri. Aynı dönemde toplam borsa rezervleri Nisan'da yaklaşık 2,43 milyon BTC'ye geriledi, 7 yılın en düşüğü. Biri 'ABD'nin düzenlenmiş kanalı üzerinden gerçek zamanlı talebin henüz doğrulanmadığı' hikayesini, diğeri ise 'kullanılabilir arzın yapısal olarak daraldığı' hikayesini anlatıyor.</p>
 <p class="vi">Bài viết này mở ra cánh cửa thứ ba. Chỉ số Coinbase Premium Index, đại diện cho nhu cầu được quản lý tại Mỹ, đã chuyển sang âm từ ngày 19 tháng 5 và duy trì âm trong hơn 50 phiên giao dịch cho đến đầu tháng 7 — chuỗi dài nhất kể từ khi chỉ số này bắt đầu được theo dõi. Trong cùng giai đoạn, tổng dự trữ trên các sàn giảm xuống còn khoảng 2,43 triệu BTC vào tháng 4, mức thấp nhất trong 7 năm. Một tín hiệu kể câu chuyện về nhu cầu thời gian thực qua kênh được quản lý của Mỹ chưa được xác nhận; tín hiệu còn lại kể câu chuyện về nguồn cung khả dụng đang thu hẹp một cách cấu trúc.</p>
+<p class="id">Tulisan ini membuka jendela ketiga. Coinbase Premium Index, indikator proksi untuk permintaan yang diatur regulasi AS, berbalik negatif pada 19 Mei dan tetap negatif selama lebih dari 50 hari perdagangan hingga awal Juli — rentetan terpanjang sejak indeks ini mulai dipantau. Pada periode yang sama, total cadangan bursa turun menjadi sekitar 2.43 juta BTC pada April, level terendah dalam 7 tahun. Satu indikator menceritakan kisah permintaan real-time melalui jalur regulasi AS yang belum terkonfirmasi; indikator lainnya menceritakan kisah pasokan yang tersedia menyusut secara struktural.</p>
+<p class="pl">Ten tekst otwiera trzecie okno. Coinbase Premium Index, wskaźnik zastępczy dla popytu regulowanego w USA, stał się ujemny 19 maja i pozostawał ujemny przez ponad 50 dni sesyjnych aż do początku lipca — najdłuższa seria od czasu, gdy indeks zaczęto śledzić. W tym samym okresie łączne rezerwy na giełdach spadły do około 2.43 miliona BTC w kwietniu, najniższego poziomu od 7 lat. Jeden wskaźnik opowiada historię popytu w czasie rzeczywistym przez regulowany kanał amerykański, który wciąż się nie potwierdza; drugi opowiada historię strukturalnie kurczącej się dostępnej podaży.</p>
+<p class="it">Questo articolo apre una terza finestra. Il Coinbase Premium Index, un indicatore della domanda regolamentata statunitense, è diventato negativo il 19 maggio ed è rimasto negativo per oltre 50 giorni di contrattazione fino ai primi di luglio — la serie più lunga da quando l'indice ha iniziato a essere monitorato. Nello stesso periodo, le riserve totali sugli exchange sono scese a circa 2.43 milioni di BTC ad aprile, un minimo di 7 anni. Uno racconta una storia di domanda in tempo reale attraverso il canale regolamentato statunitense che non si conferma ancora; l'altro racconta una storia di offerta disponibile che si riduce strutturalmente.</p>
+<p class="ru">Этот материал открывает третье окно. Coinbase Premium Index, индикатор спроса в регулируемом сегменте США, ушёл в отрицательную зону 19 мая и оставался там более 50 торговых дней до начала июля — самая длинная серия с момента начала отслеживания индекса. За тот же период общие резервы на биржах упали примерно до 2.43 миллиона BTC в апреле — минимум за 7 лет. Один индикатор рассказывает историю о спросе в реальном времени через регулируемый канал США, который пока не подтверждается; другой — историю о структурно сокращающемся доступном предложении.</p>
+<p class="zh">本文開啟第三個觀察窗口。作為美國受監管需求代表指標的Coinbase Premium Index,自5月19日轉為負值後,持續呈現負值超過50個交易日,直到7月初——這是該指數自開始追蹤以來最長的紀錄。同一期間,交易所總儲備量在4月降至約243萬枚BTC,創下7年新低。其中一項指標訴說著美國受監管管道的即時需求尚未獲得確認,另一項則訴說著可流通供給正結構性萎縮。</p>
 
 <h2 class="ko">코인베이스 프리미엄 지수, 지수 집계 이후 최장 마이너스 기록</h2>
 <h2 class="en">The Coinbase Premium Index — the Longest Negative Streak Since It Began Being Tracked</h2>
@@ -29,6 +39,11 @@
 <h2 class="pt">O Coinbase Premium Index — A Mais Longa Sequência Negativa Desde o Início do Monitoramento</h2>
 <h2 class="tr">Coinbase Premium Index — İzlenmeye Başlandığından Bu Yana En Uzun Negatif Seri</h2>
 <h2 class="vi">Chỉ Số Coinbase Premium — Chuỗi Âm Dài Nhất Kể Từ Khi Bắt Đầu Theo Dõi</h2>
+<h2 class="id">Coinbase Premium Index — Rentetan Negatif Terpanjang Sejak Mulai Dipantau</h2>
+<h2 class="pl">Coinbase Premium Index — Najdłuższa Seria Ujemna od Rozpoczęcia Śledzenia</h2>
+<h2 class="it">Il Coinbase Premium Index — La Serie Negativa Più Lunga da Quando Viene Monitorato</h2>
+<h2 class="ru">Coinbase Premium Index — Самая Длинная Отрицательная Серия с Начала Отслеживания</h2>
+<h2 class="zh">Coinbase Premium Index——自開始追蹤以來最長的負值紀錄</h2>
 
 <p class="ko">코인베이스 프리미엄 지수는 비트코인이 코인베이스에서 거래되는 가격과 바이낸스 등 글로벌 거래소 가격의 차이를 나타낸다. 코인베이스는 미국 현물 ETF의 창출·환매 흐름과 헤지펀드·기업 재무·등록투자자문사 자금이 집중되는 '미국 규제권 수요'의 대표 창구로 꼽힌다. 이 지수는 5월19일부터 마이너스로 돌아선 뒤 7월6~7일까지 50거래일 연속 마이너스를 기록해, 2026년 들어 최장이자 지수 집계 이래 최장 기록을 세웠다(블루밍빗, 코인데스크 데이북, 게이트, 야후파이낸스). 같은 기간 수치는 7월6일 -0.0627%, 7월7~8일에는 -0.074%~-0.091% 사이를 오갔다.</p>
 <p class="en">The Coinbase Premium Index tracks the gap between Bitcoin's price on Coinbase and on global venues like Binance. Coinbase is widely treated as the leading gauge of U.S.-regulated demand, since spot ETF creation/redemption flow and money from hedge funds, corporate treasuries, and registered advisors concentrates there. The index turned negative on May 19 and stayed negative through July 6-7, a streak of more than 50 trading days — the longest stretch since 2026 began and the longest on record (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Readings over that stretch ranged from -0.0627% on July 6 to between -0.074% and -0.091% on July 7-8.</p>
@@ -39,6 +54,11 @@
 <p class="pt">O Coinbase Premium Index mede a diferença entre o preço do bitcoin na Coinbase e em plataformas globais como a Binance. A Coinbase é amplamente vista como o principal indicador da demanda regulada dos EUA, já que ali se concentram os fluxos de criação/resgate dos ETFs à vista e o dinheiro de fundos de hedge, tesourarias corporativas e consultores registrados. O índice tornou-se negativo em 19 de maio e permaneceu assim até 6-7 de julho, uma sequência de mais de 50 dias de negociação — a mais longa desde o início de 2026 e a mais longa já registrada (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). As leituras nesse período variaram de -0,0627% em 6 de julho a entre -0,074% e -0,091% em 7-8 de julho.</p>
 <p class="tr">Coinbase Premium Index, Bitcoin'in Coinbase'deki fiyatı ile Binance gibi küresel platformlardaki fiyatı arasındaki farkı ölçer. Coinbase, spot ETF'lerin oluşturma/geri alım akışlarının ve hedge fonları, kurumsal hazineler ile kayıtlı danışmanların paralarının yoğunlaştığı yer olduğu için ABD'nin düzenlenmiş talebinin başlıca göstergesi olarak kabul edilir. Endeks 19 Mayıs'ta negatife döndü ve 6-7 Temmuz'a kadar negatif kaldı; 50 işlem gününden uzun bu seri, 2026'nın başından bu yana en uzun ve kayıtlardaki en uzun seri (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Bu dönemdeki okumalar 6 Temmuz'da -%0,0627 ile 7-8 Temmuz'da -%0,074 ile -%0,091 arasında değişti.</p>
 <p class="vi">Chỉ số Coinbase Premium Index đo chênh lệch giữa giá Bitcoin trên Coinbase và trên các sàn toàn cầu như Binance. Coinbase được xem rộng rãi là thước đo hàng đầu cho nhu cầu được quản lý tại Mỹ, vì dòng tạo lập/hoàn trả của các ETF giao ngay cùng tiền từ quỹ phòng hộ, kho bạc doanh nghiệp và các cố vấn đăng ký đều tập trung ở đó. Chỉ số này chuyển sang âm từ ngày 19 tháng 5 và duy trì âm đến ngày 6-7 tháng 7, một chuỗi hơn 50 phiên giao dịch — dài nhất kể từ đầu năm 2026 và dài nhất từng được ghi nhận (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Các mức đọc trong giai đoạn này dao động từ -0,0627% vào ngày 6 tháng 7 đến khoảng -0,074% đến -0,091% vào ngày 7-8 tháng 7.</p>
+<p class="id">Coinbase Premium Index melacak selisih antara harga Bitcoin di Coinbase dan di bursa global seperti Binance. Coinbase secara luas dianggap sebagai indikator utama permintaan yang diatur regulasi AS, karena arus penciptaan/penebusan ETF spot serta dana dari hedge fund, treasury korporat, dan penasihat teregistrasi terkonsentrasi di sana. Indeks ini berbalik negatif pada 19 Mei dan tetap negatif hingga 6-7 Juli, rentetan lebih dari 50 hari perdagangan — rentang terpanjang sejak awal 2026 dan terpanjang yang pernah tercatat (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Pembacaan selama periode itu berkisar dari -0.0627% pada 6 Juli hingga antara -0.074% dan -0.091% pada 7-8 Juli.</p>
+<p class="pl">Coinbase Premium Index śledzi różnicę między ceną Bitcoina na Coinbase a na globalnych platformach, takich jak Binance. Coinbase jest powszechnie uznawana za wiodący wskaźnik popytu regulowanego w USA, ponieważ to tam koncentrują się przepływy tworzenia/umarzania jednostek spotowych ETF-ów oraz środki funduszy hedgingowych, skarbców korporacyjnych i zarejestrowanych doradców. Indeks stał się ujemny 19 maja i pozostawał ujemny do 6-7 lipca, czyli przez ponad 50 dni sesyjnych — najdłuższy okres od początku 2026 roku i najdłuższy w historii pomiarów (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Odczyty w tym okresie wahały się od -0.0627% 6 lipca do wartości między -0.074% a -0.091% w dniach 7-8 lipca.</p>
+<p class="it">Il Coinbase Premium Index misura il divario tra il prezzo di Bitcoin su Coinbase e sulle piattaforme globali come Binance. Coinbase è ampiamente considerata il principale indicatore della domanda regolamentata statunitense, poiché lì si concentrano i flussi di creazione/rimborso degli ETF spot e il denaro di hedge fund, tesorerie aziendali e consulenti registrati. L'indice è diventato negativo il 19 maggio ed è rimasto negativo fino al 6-7 luglio, una serie di oltre 50 giorni di contrattazione — la più lunga dall'inizio del 2026 e la più lunga mai registrata (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Le letture in quel periodo sono variate da -0.0627% il 6 luglio a valori compresi tra -0.074% e -0.091% il 7-8 luglio.</p>
+<p class="ru">Coinbase Premium Index отслеживает разрыв между ценой биткоина на Coinbase и на глобальных площадках, таких как Binance. Coinbase широко считается ведущим индикатором регулируемого спроса в США, поскольку именно там концентрируются потоки создания/погашения долей спотовых ETF, а также средства хедж-фондов, корпоративных казначейств и зарегистрированных консультантов. Индекс ушёл в минус 19 мая и оставался отрицательным вплоть до 6-7 июля — серия длиной более 50 торговых дней, самая длинная с начала 2026 года и самая длинная за всю историю наблюдений (Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance). Значения за этот период колебались от -0.0627% 6 июля до диапазона -0.074%...-0.091% 7-8 июля.</p>
+<p class="zh">Coinbase Premium Index追蹤比特幣在Coinbase與幣安(Binance)等全球交易所之間的價格差距。由於現貨ETF申購/贖回流量,以及避險基金、企業財庫與註冊投資顧問的資金多集中於此,Coinbase被廣泛視為美國受監管需求的主要指標。該指數自5月19日轉為負值,並持續呈現負值直到7月6日至7日,連續超過50個交易日——這是2026年以來最長的紀錄,也是有紀錄以來最長的一次(Bloomingbit、CoinDesk Daybook、Gate、Yahoo Finance)。這段期間的數值從7月6日的-0.0627%,到7月7日至8日介於-0.074%與-0.091%之間不等。</p>
 
 <p class="ko">다만 크립토퀀트는 이 지수가 6월 저점 대비 반등해 14일 이동평균선을 다시 웃돌기 시작했다는 점을 강세 신호로 짚었다 — 비트코인이 5만8,000달러대에서 6만4,000달러대로 오르는 데 이 회복이 일부 기여했다는 해석이다. 그럼에도 지수 자체는 여전히 마이너스 영역에 머물러 있다. 즉 비트코인이 이 구간에서 10% 가까이 반등하는 동안에도, 코인베이스에서 프리미엄을 주고서라도 사려는 미국 쪽 매수세는 아직 뚜렷하게 확인되지 않고 있다.</p>
 <p class="en">CryptoQuant did flag one bullish nuance: the index bounced off its June lows and climbed back above its 14-day moving average, which analysts tied in part to Bitcoin's move from the high-$50,000s to the mid-$64,000s. Even so, the index itself never left negative territory. In other words, even as Bitcoin rallied close to 10% through this stretch, the specific signal of U.S. buyers paying up on Coinbase hasn't clearly confirmed it yet.</p>
@@ -49,6 +69,11 @@
 <p class="pt">A CryptoQuant, porém, apontou uma nuance de alta: o índice recuperou-se de suas mínimas de junho e voltou a subir acima de sua média móvel de 14 dias, algo que analistas ligaram em parte ao movimento do bitcoin da faixa de US$ 58.000 para a de US$ 64.000. Ainda assim, o índice em si nunca deixou o território negativo. Em outras palavras, mesmo com o bitcoin subindo quase 10% nesse trecho, o sinal específico de que compradores dos EUA estão pagando a mais na Coinbase ainda não confirmou isso claramente.</p>
 <p class="tr">Ancak CryptoQuant boğa yönlü bir nüansa dikkat çekti: Endeks Haziran diplerinden toparlandı ve 14 günlük hareketli ortalamasının tekrar üzerine çıktı; analistler bunu kısmen Bitcoin'in 58.000 dolar seviyelerinden 64.000 dolar seviyelerine yükselişiyle ilişkilendirdi. Yine de endeksin kendisi hiçbir zaman negatif bölgeden çıkmadı. Başka bir deyişle, Bitcoin bu dönemde yaklaşık %10 yükselirken bile, ABD'li alıcıların Coinbase'de fazladan ödeme yaptığına dair özel sinyal henüz net biçimde doğrulanmadı.</p>
 <p class="vi">Tuy nhiên, CryptoQuant đã chỉ ra một sắc thái tích cực: chỉ số này đã bật lên từ đáy tháng 6 và vượt trở lại đường trung bình động 14 ngày, điều mà các nhà phân tích một phần liên hệ với việc Bitcoin tăng từ vùng 58.000 đô la lên vùng 64.000 đô la. Dù vậy, bản thân chỉ số này chưa bao giờ rời khỏi vùng âm. Nói cách khác, ngay cả khi Bitcoin tăng gần 10% trong giai đoạn này, tín hiệu cụ thể cho thấy người mua Mỹ đang trả giá cao hơn trên Coinbase vẫn chưa được xác nhận rõ ràng.</p>
+<p class="id">CryptoQuant memang mencatat satu nuansa bullish: indeks ini memantul dari titik terendah Juni dan naik kembali di atas rata-rata bergerak 14 hari, yang oleh para analis sebagian dikaitkan dengan pergerakan Bitcoin dari kisaran $50,000-an tinggi ke $64,000-an pertengahan. Meski demikian, indeks itu sendiri tidak pernah keluar dari zona negatif. Dengan kata lain, meskipun Bitcoin menguat hampir 10% selama periode ini, sinyal spesifik bahwa pembeli AS bersedia membayar lebih mahal di Coinbase belum terkonfirmasi dengan jelas.</p>
+<p class="pl">CryptoQuant zwrócił jednak uwagę na pewien byczy niuans: indeks odbił się od czerwcowych dołków i wrócił powyżej swojej 14-dniowej średniej kroczącej, co analitycy częściowo wiązali z ruchem Bitcoina z górnych $50,000 do środkowych $64,000. Mimo to sam indeks ani razu nie opuścił strefy ujemnej. Innymi słowy, mimo że Bitcoin zyskał w tym okresie blisko 10%, konkretny sygnał świadczący o tym, że amerykańscy kupujący płacą więcej na Coinbase, nie został jeszcze jednoznacznie potwierdzony.</p>
+<p class="it">CryptoQuant ha comunque segnalato una sfumatura rialzista: l'indice è rimbalzato dai minimi di giugno ed è tornato sopra la sua media mobile a 14 giorni, cosa che gli analisti hanno in parte collegato al movimento di Bitcoin dagli alti $50,000 ai medi $64,000. Ciononostante, l'indice stesso non ha mai lasciato il territorio negativo. In altre parole, anche mentre Bitcoin saliva di quasi il 10% in questo periodo, il segnale specifico secondo cui gli acquirenti statunitensi pagano di più su Coinbase non lo ha ancora confermato chiaramente.</p>
+<p class="ru">CryptoQuant всё же отметил один бычий нюанс: индекс отскочил от июньских минимумов и вернулся выше своей 14-дневной скользящей средней, что аналитики частично связали с движением биткоина из верхней части диапазона $50,000 к середине диапазона $64,000. Тем не менее сам индекс так и не вышел из отрицательной зоны. Иными словами, даже когда биткоин вырос почти на 10% за этот период, конкретный сигнал о том, что американские покупатели переплачивают на Coinbase, пока чётко не подтвердился.</p>
+<p class="zh">不過CryptoQuant確實指出一個偏多的細節:該指數從6月低點反彈,並重新升破14日移動平均線,分析師將此部分歸因於比特幣從5萬美元高段上漲至6萬4千美元中段的走勢。儘管如此,該指數本身從未脫離負值區間。換言之,即使比特幣在這段期間上漲近10%,美國買家在Coinbase上願意溢價買進的具體訊號,至今仍未獲得明確確認。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -329,6 +354,161 @@
   <text x="20" y="410" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: CryptoQuant, Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance, Benzinga (Coinbase Premium Index, dự trữ sàn giao dịch)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Coinbase Premium: Negatif Selama 50+ Hari Perdagangan Berturut-turut</text>
+  <rect x="558" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="576" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Coinbase Premium, penutupan harian (%)</text>
+  <line x1="60" y1="90" x2="460" y2="90" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="45" y="94" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="45" y="284" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">-0.12%</text>
+  <polyline points="70,122 117.5,185 165,248 212.5,233 260,225 307.5,217 355,189 402.5,214 450,193" fill="none" stroke="#f87171" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="122" r="6" fill="#f87171"/>
+  <text x="70" y="106" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">19 Mei</text>
+  <text x="70" y="142" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Rentetan dimulai</text>
+  <circle cx="165" cy="248" r="7" fill="#fbbf24"/>
+  <text x="165" y="268" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="700">Awal Juni, titik terendah</text>
+  <circle cx="450" cy="193" r="7" fill="#f87171" stroke="#fafafa" stroke-width="2"/>
+  <text x="460" y="160" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">11 Jul</text>
+  <text x="460" y="176" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="12">masih negatif</text>
+  <rect x="490" y="90" width="190" height="194" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <polygon points="633,104 647,104 640,118" fill="#4ade80"/>
+  <text x="510" y="118" fill="#a1a1aa" font-family="sans-serif" font-size="13">Total Cadangan Bursa</text>
+  <text x="510" y="148" fill="#4ade80" font-family="sans-serif" font-size="22" font-weight="800">~2.43M BTC</text>
+  <text x="510" y="168" fill="#71717a" font-family="sans-serif" font-size="12">Terendah 7 tahun (April)</text>
+  <line x1="505" y1="184" x2="660" y2="184" stroke="#3f3f46"/>
+  <text x="510" y="208" fill="#a1a1aa" font-family="sans-serif" font-size="13">Kepemilikan Kustodi ETF Spot</text>
+  <text x="510" y="233" fill="#e4e4e7" font-family="sans-serif" font-size="18" font-weight="700">~1.5M BTC</text>
+  <text x="510" y="253" fill="#71717a" font-family="sans-serif" font-size="12">~6.7-7.1% dari pasokan</text>
+  <text x="260" y="315" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">50+ hari perdagangan berturut-turut negatif — terpanjang sejak mulai dipantau</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* Garis premium menghubungkan angka yang dilaporkan sebagai rekonstruksi skematis; dapat berbeda dari data harian aktual.</text>
+  <text x="20" y="410" fill="#71717a" font-family="sans-serif" font-size="12">Sumber: CryptoQuant, Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance, Benzinga (Coinbase Premium Index, cadangan bursa)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Coinbase Premium: Ujemny Przez Ponad 50 Kolejnych Dni Sesyjnych</text>
+  <rect x="558" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="576" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Coinbase Premium, zamknięcie dzienne (%)</text>
+  <line x1="60" y1="90" x2="460" y2="90" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="45" y="94" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="45" y="284" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">-0.12%</text>
+  <polyline points="70,122 117.5,185 165,248 212.5,233 260,225 307.5,217 355,189 402.5,214 450,193" fill="none" stroke="#f87171" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="122" r="6" fill="#f87171"/>
+  <text x="70" y="106" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">19 maja</text>
+  <text x="70" y="142" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Początek serii</text>
+  <circle cx="165" cy="248" r="7" fill="#fbbf24"/>
+  <text x="165" y="268" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="700">Początek czerwca, najniższy punkt</text>
+  <circle cx="450" cy="193" r="7" fill="#f87171" stroke="#fafafa" stroke-width="2"/>
+  <text x="460" y="160" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">11 lip</text>
+  <text x="460" y="176" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="12">wciąż ujemny</text>
+  <rect x="490" y="90" width="190" height="194" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <polygon points="633,104 647,104 640,118" fill="#4ade80"/>
+  <text x="510" y="118" fill="#a1a1aa" font-family="sans-serif" font-size="13">Łączne Rezerwy na Giełdach</text>
+  <text x="510" y="148" fill="#4ade80" font-family="sans-serif" font-size="22" font-weight="800">~2.43M BTC</text>
+  <text x="510" y="168" fill="#71717a" font-family="sans-serif" font-size="12">Najniższy poziom od 7 lat (kwiecień)</text>
+  <line x1="505" y1="184" x2="660" y2="184" stroke="#3f3f46"/>
+  <text x="510" y="208" fill="#a1a1aa" font-family="sans-serif" font-size="13">Aktywa w Depozycie ETF Spot</text>
+  <text x="510" y="233" fill="#e4e4e7" font-family="sans-serif" font-size="18" font-weight="700">~1.5M BTC</text>
+  <text x="510" y="253" fill="#71717a" font-family="sans-serif" font-size="12">~6.7-7.1% podaży</text>
+  <text x="260" y="315" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">50+ dni sesyjnych z rzędu na minusie — najdłuższy okres od rozpoczęcia śledzenia</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* Linia premii łączy raportowane wartości jako schematyczna rekonstrukcja; może różnić się od rzeczywistych danych dziennych.</text>
+  <text x="20" y="410" fill="#71717a" font-family="sans-serif" font-size="12">Źródła: CryptoQuant, Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance, Benzinga (Coinbase Premium Index, rezerwy giełdowe)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Coinbase Premium: Negativo per Oltre 50 Giorni di Contrattazione Consecutivi</text>
+  <rect x="558" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="576" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Coinbase Premium, chiusura giornaliera (%)</text>
+  <line x1="60" y1="90" x2="460" y2="90" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="45" y="94" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="45" y="284" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">-0.12%</text>
+  <polyline points="70,122 117.5,185 165,248 212.5,233 260,225 307.5,217 355,189 402.5,214 450,193" fill="none" stroke="#f87171" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="122" r="6" fill="#f87171"/>
+  <text x="70" y="106" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">19 mag</text>
+  <text x="70" y="142" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Inizio della serie</text>
+  <circle cx="165" cy="248" r="7" fill="#fbbf24"/>
+  <text x="165" y="268" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="700">Inizio giugno, punto più basso</text>
+  <circle cx="450" cy="193" r="7" fill="#f87171" stroke="#fafafa" stroke-width="2"/>
+  <text x="460" y="160" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">11 lug</text>
+  <text x="460" y="176" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="12">ancora negativo</text>
+  <rect x="490" y="90" width="190" height="194" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <polygon points="633,104 647,104 640,118" fill="#4ade80"/>
+  <text x="510" y="118" fill="#a1a1aa" font-family="sans-serif" font-size="13">Riserve Totali sugli Exchange</text>
+  <text x="510" y="148" fill="#4ade80" font-family="sans-serif" font-size="22" font-weight="800">~2.43M BTC</text>
+  <text x="510" y="168" fill="#71717a" font-family="sans-serif" font-size="12">Minimo di 7 anni (aprile)</text>
+  <line x1="505" y1="184" x2="660" y2="184" stroke="#3f3f46"/>
+  <text x="510" y="208" fill="#a1a1aa" font-family="sans-serif" font-size="13">Detenzioni in Custodia ETF Spot</text>
+  <text x="510" y="233" fill="#e4e4e7" font-family="sans-serif" font-size="18" font-weight="700">~1.5M BTC</text>
+  <text x="510" y="253" fill="#71717a" font-family="sans-serif" font-size="12">~6.7-7.1% dell'offerta</text>
+  <text x="260" y="315" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Oltre 50 giorni di contrattazione consecutivi in negativo — la serie più lunga da quando viene monitorato</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* La linea del premio collega i dati riportati come ricostruzione schematica; può differire dai valori giornalieri reali.</text>
+  <text x="20" y="410" fill="#71717a" font-family="sans-serif" font-size="12">Fonti: CryptoQuant, Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance, Benzinga (Coinbase Premium Index, riserve degli exchange)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Coinbase Premium: Отрицательный Более 50 Торговых Дней Подряд</text>
+  <rect x="558" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="576" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Coinbase Premium, дневное закрытие (%)</text>
+  <line x1="60" y1="90" x2="460" y2="90" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="45" y="94" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="45" y="284" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">-0.12%</text>
+  <polyline points="70,122 117.5,185 165,248 212.5,233 260,225 307.5,217 355,189 402.5,214 450,193" fill="none" stroke="#f87171" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="122" r="6" fill="#f87171"/>
+  <text x="70" y="106" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">19 мая</text>
+  <text x="70" y="142" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Начало серии</text>
+  <circle cx="165" cy="248" r="7" fill="#fbbf24"/>
+  <text x="165" y="268" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="700">Начало июня, самая низкая точка</text>
+  <circle cx="450" cy="193" r="7" fill="#f87171" stroke="#fafafa" stroke-width="2"/>
+  <text x="460" y="160" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">11 июл</text>
+  <text x="460" y="176" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="12">всё ещё отрицательный</text>
+  <rect x="490" y="90" width="190" height="194" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <polygon points="633,104 647,104 640,118" fill="#4ade80"/>
+  <text x="510" y="118" fill="#a1a1aa" font-family="sans-serif" font-size="13">Общие Резервы на Биржах</text>
+  <text x="510" y="148" fill="#4ade80" font-family="sans-serif" font-size="22" font-weight="800">~2.43M BTC</text>
+  <text x="510" y="168" fill="#71717a" font-family="sans-serif" font-size="12">Минимум за 7 лет (апрель)</text>
+  <line x1="505" y1="184" x2="660" y2="184" stroke="#3f3f46"/>
+  <text x="510" y="208" fill="#a1a1aa" font-family="sans-serif" font-size="13">Активы в Кастоди Спотовых ETF</text>
+  <text x="510" y="233" fill="#e4e4e7" font-family="sans-serif" font-size="18" font-weight="700">~1.5M BTC</text>
+  <text x="510" y="253" fill="#71717a" font-family="sans-serif" font-size="12">~6.7-7.1% предложения</text>
+  <text x="260" y="315" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">50+ торговых дней подряд в минусе — самая длинная серия с начала отслеживания</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* Линия премии соединяет опубликованные значения как схематичную реконструкцию; может отличаться от фактических дневных данных.</text>
+  <text x="20" y="410" fill="#71717a" font-family="sans-serif" font-size="12">Источники: CryptoQuant, Bloomingbit, CoinDesk Daybook, Gate, Yahoo Finance, Benzinga (Coinbase Premium Index, резервы бирж)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Coinbase Premium:連續50多個交易日呈現負值</text>
+  <rect x="558" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="576" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Coinbase Premium,每日收盤值(%)</text>
+  <line x1="60" y1="90" x2="460" y2="90" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="45" y="94" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">0%</text>
+  <text x="45" y="284" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">-0.12%</text>
+  <polyline points="70,122 117.5,185 165,248 212.5,233 260,225 307.5,217 355,189 402.5,214 450,193" fill="none" stroke="#f87171" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="122" r="6" fill="#f87171"/>
+  <text x="70" y="106" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="700">5/19</text>
+  <text x="70" y="142" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">連續紀錄開始</text>
+  <circle cx="165" cy="248" r="7" fill="#fbbf24"/>
+  <text x="165" y="268" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="700">6月初,最低點</text>
+  <circle cx="450" cy="193" r="7" fill="#f87171" stroke="#fafafa" stroke-width="2"/>
+  <text x="460" y="160" text-anchor="end" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">7/11</text>
+  <text x="460" y="176" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="12">仍為負值</text>
+  <rect x="490" y="90" width="190" height="194" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <polygon points="633,104 647,104 640,118" fill="#4ade80"/>
+  <text x="510" y="118" fill="#a1a1aa" font-family="sans-serif" font-size="13">交易所總儲備量</text>
+  <text x="510" y="148" fill="#4ade80" font-family="sans-serif" font-size="22" font-weight="800">~2.43M BTC</text>
+  <text x="510" y="168" fill="#71717a" font-family="sans-serif" font-size="12">7年新低(4月)</text>
+  <line x1="505" y1="184" x2="660" y2="184" stroke="#3f3f46"/>
+  <text x="510" y="208" fill="#a1a1aa" font-family="sans-serif" font-size="13">現貨ETF託管持倉</text>
+  <text x="510" y="233" fill="#e4e4e7" font-family="sans-serif" font-size="18" font-weight="700">~1.5M BTC</text>
+  <text x="510" y="253" fill="#71717a" font-family="sans-serif" font-size="12">約佔供給量6.7-7.1%</text>
+  <text x="260" y="315" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">連續50多個交易日呈現負值——追蹤紀錄以來最長</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">※ 溢價曲線係以公開數值連接而成的示意重建圖,可能與實際每日數據有所差異。</text>
+  <text x="20" y="410" fill="#71717a" font-family="sans-serif" font-size="12">資料來源:CryptoQuant、Bloomingbit、CoinDesk Daybook、Gate、Yahoo Finance、Benzinga(Coinbase Premium Index、交易所儲備量)</text>
+</svg>
+</div>
 
 <h2 class="ko">거래소 잔고는 7년래 최저권 — 다른 시간축의 공급 신호</h2>
 <h2 class="en">Exchange Reserves Sit Near a 7-Year Low — A Supply Signal on a Different Timeframe</h2>
@@ -339,6 +519,11 @@
 <h2 class="pt">Reservas das Exchanges Perto de uma Mínima de 7 Anos — Um Sinal de Oferta em Outro Horizonte</h2>
 <h2 class="tr">Borsa Rezervleri 7 Yılın Dibine Yakın — Farklı Bir Zaman Ekseninde Arz Sinyali</h2>
 <h2 class="vi">Dự Trữ Trên Sàn Gần Mức Thấp Nhất 7 Năm — Tín Hiệu Cung Trên Một Khung Thời Gian Khác</h2>
+<h2 class="id">Cadangan Bursa Berada di Dekat Level Terendah 7 Tahun — Sinyal Pasokan dalam Kerangka Waktu Berbeda</h2>
+<h2 class="pl">Rezerwy na Giełdach Blisko Najniższego Poziomu od 7 Lat — Sygnał Podażowy w Innym Horyzoncie Czasowym</h2>
+<h2 class="it">Le Riserve degli Exchange Vicino a un Minimo di 7 Anni — Un Segnale di Offerta su un Orizzonte Temporale Diverso</h2>
+<h2 class="ru">Резервы на Биржах Близки к Минимуму за 7 Лет — Сигнал по Предложению в Другом Временном Горизонте</h2>
+<h2 class="zh">交易所儲備量逼近7年新低——不同時間軸下的供給訊號</h2>
 
 <p class="ko">코인베이스 프리미엄이 실시간 수요를 보여준다면, 거래소 전체 잔고는 훨씬 느리게 움직이는 공급 쪽 지표다. 벤징가 집계 기준 거래소에 남아있는 비트코인은 4월18일 약 243만 BTC까지 줄어 7년래 최저치를 기록했고, 이는 현물 ETF 커스터디언이 보유한 약 130만~150만 BTC(유통량의 약 6.7~7.1%)로 자금이 옮겨간 결과로 풀이된다. 코인이 거래소를 떠나 콜드스토리지나 ETF 커스터디, 장기 보유 지갑으로 이동하는 흐름은 수년째 이어진 구조적 추세다.</p>
 <p class="en">If the Coinbase Premium captures real-time demand, total exchange reserves are a much slower-moving supply-side gauge. By Benzinga's count, Bitcoin held on exchanges fell to roughly 2.43 million BTC on April 18, a 7-year low, as balances migrated toward spot ETF custodians now holding an estimated 1.3-1.5 million BTC, or roughly 6.7-7.1% of circulating supply. Coins moving off exchanges into cold storage, ETF custody, or long-term holding wallets has been a structural trend running for years.</p>
@@ -349,6 +534,11 @@
 <p class="pt">Se o Coinbase Premium capta a demanda em tempo real, as reservas totais das exchanges são um indicador de oferta que se move muito mais devagar. Segundo a contagem da Benzinga, o bitcoin retido em exchanges caiu para cerca de 2,43 milhões de BTC em 18 de abril, uma mínima de 7 anos, à medida que os saldos migravam para os custodiantes de ETFs à vista, que agora detêm uma estimativa de 1,3 a 1,5 milhão de BTC, ou cerca de 6,7 a 7,1% da oferta em circulação. Moedas saindo das exchanges para cold storage, custódia de ETF ou carteiras de longo prazo tem sido uma tendência estrutural em curso há anos.</p>
 <p class="tr">Coinbase Premium gerçek zamanlı talebi yakalıyorsa, toplam borsa rezervleri çok daha yavaş hareket eden bir arz göstergesidir. Benzinga'nın derlemesine göre, borsalarda tutulan Bitcoin 18 Nisan'da yaklaşık 2,43 milyon BTC'ye geriledi, 7 yılın en düşüğü; bakiyeler, artık tahminen 1,3-1,5 milyon BTC (dolaşımdaki arzın yaklaşık %6,7-7,1'i) tutan spot ETF saklayıcılarına kaydı. Coinlerin borsalardan çıkıp soğuk depolamaya, ETF saklamasına veya uzun vadeli cüzdanlara taşınması yıllardır süren yapısal bir eğilim.</p>
 <p class="vi">Nếu Coinbase Premium phản ánh nhu cầu thời gian thực, thì tổng dự trữ trên sàn là chỉ báo phía cung di chuyển chậm hơn nhiều. Theo thống kê của Benzinga, lượng Bitcoin nắm giữ trên các sàn giảm xuống còn khoảng 2,43 triệu BTC vào ngày 18 tháng 4, mức thấp nhất trong 7 năm, khi số dư dịch chuyển sang các đơn vị lưu ký ETF giao ngay hiện nắm giữ ước tính 1,3-1,5 triệu BTC, tương đương khoảng 6,7-7,1% nguồn cung lưu hành. Việc coin rời khỏi sàn để vào kho lạnh, lưu ký ETF, hoặc ví nắm giữ dài hạn là một xu hướng cấu trúc đã diễn ra trong nhiều năm.</p>
+<p class="id">Jika Coinbase Premium menangkap permintaan real-time, total cadangan bursa adalah indikator sisi pasokan yang bergerak jauh lebih lambat. Menurut hitungan Benzinga, Bitcoin yang disimpan di bursa turun menjadi sekitar 2.43 juta BTC pada 18 April, level terendah dalam 7 tahun, seiring saldo bermigrasi ke kustodian ETF spot yang kini diperkirakan memegang 1.3-1.5 juta BTC, atau sekitar 6.7-7.1% dari pasokan yang beredar. Perpindahan koin keluar dari bursa ke cold storage, kustodi ETF, atau dompet penyimpanan jangka panjang telah menjadi tren struktural yang berlangsung selama bertahun-tahun.</p>
+<p class="pl">Jeśli Coinbase Premium odzwierciedla popyt w czasie rzeczywistym, to łączne rezerwy na giełdach są znacznie wolniej zmieniającym się wskaźnikiem podaży. Według danych Benzingi, ilość Bitcoina przechowywanego na giełdach spadła do około 2.43 miliona BTC 18 kwietnia, najniższego poziomu od 7 lat, w miarę jak środki migrowały do depozytariuszy spotowych ETF-ów, którzy obecnie posiadają szacunkowo 1.3-1.5 miliona BTC, czyli około 6.7-7.1% podaży w obiegu. Przenoszenie monet z giełd do zimnych portfeli, depozytów ETF lub portfeli długoterminowych jest trendem strukturalnym trwającym od lat.</p>
+<p class="it">Se il Coinbase Premium cattura la domanda in tempo reale, le riserve totali degli exchange sono un indicatore dell'offerta che si muove molto più lentamente. Secondo il conteggio di Benzinga, il Bitcoin detenuto sugli exchange è sceso a circa 2.43 milioni di BTC il 18 aprile, un minimo di 7 anni, mentre i saldi migravano verso i custodi degli ETF spot, che ora detengono una stima di 1.3-1.5 milioni di BTC, ovvero circa il 6.7-7.1% dell'offerta in circolazione. Lo spostamento delle monete dagli exchange verso cold storage, custodia ETF o wallet di detenzione a lungo termine è una tendenza strutturale in corso da anni.</p>
+<p class="ru">Если Coinbase Premium отражает спрос в реальном времени, то общие биржевые резервы — гораздо более медленно меняющийся индикатор со стороны предложения. По подсчётам Benzinga, объём биткоина, хранящегося на биржах, снизился примерно до 2.43 миллиона BTC к 18 апреля — минимум за 7 лет, поскольку средства перетекали к кастодианам спотовых ETF, которые сейчас держат, по оценкам, 1.3-1.5 миллиона BTC, или около 6.7-7.1% обращающегося предложения. Перемещение монет с бирж в холодное хранение, кастоди ETF или кошельки долгосрочного хранения остаётся структурным трендом, который длится уже много лет.</p>
+<p class="zh">如果說Coinbase Premium捕捉的是即時需求,那麼交易所總儲備量則是變動速度慢得多的供給面指標。根據Benzinga的統計,交易所持有的比特幣在4月18日降至約243萬枚BTC,創7年新低,原因是資金持續流向現貨ETF託管機構,估計目前這些機構持有130萬至150萬枚BTC,約佔流通供給的6.7%至7.1%。幣從交易所流出、轉入冷儲存、ETF託管或長期持有錢包,是一個已持續多年的結構性趨勢。</p>
 
 <p class="ko">이 사이트가 <a href="/blog/whale-ratio-decade-high-realized-pnl-gap">최근 짚었듯</a>, 단기적으로는 거래소로 들어오는 대형 이체 비중(거래소 고래비율)이 2015년10월 이후 최고치를 찍는 등 정반대 방향의 신호도 함께 나타났다. 두 지표는 모순이 아니라 시간축이 다른 것으로 봐야 한다 — 며칠 단위로는 대형 보유자의 거래소 유입이 튈 수 있어도, 수개월~수년 단위의 총 잔고 추세는 여전히 아래로 향해 있다. 여기에 현물 ETF 자금은 6월 약 40억6,000만 달러라는 역대 최대 월간 순유출을 기록한 뒤 7월 들어 2억2,100만 달러 순유입으로 10일 연속 유출을 끊었다가, 다시 한 주 만에 5억2,664만 달러 순유출로 돌아서는 등 방향을 잡지 못하고 있다.</p>
 <p class="en">As this site <a href="/en/blog/whale-ratio-decade-high-realized-pnl-gap">noted recently</a>, a shorter-horizon signal has pointed the other way: the share of exchange inflows coming from the ten largest deposits — the Exchange Whale Ratio — hit its highest level since October 2015. The two aren't necessarily contradictory so much as measuring different timeframes: large-holder inflows can spike over a few days even while the multi-year trend in total reserves still points down. Layered on top, spot ETF flows have been directionless — a record $4.06 billion net outflow in June, then a $221 million inflow in early July that snapped a 10-day outflow streak, only for outflows of $526.64 million to return the following week.</p>

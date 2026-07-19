@@ -426,6 +426,151 @@
   <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: Farside Investors, Blockonomi, Techtimes, Investing.com (ETF); theo dõi chênh lệch giá Coinbase-Binance (Coinbase Premium); Deribit, CoinDesk (độ nghiêng quyền chọn)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Tiga Indikator yang Belum Sepenuhnya Berbalik</text>
+  <text x="140" y="52" fill="#71717a" font-family="sans-serif" font-size="13">◀ Sinyal lemah / defensif</text>
+  <text x="620" y="52" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Sinyal kuat / optimis ▶</text>
+  <line x1="380" y1="65" x2="380" y2="405" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="380" y="60" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Netral</text>
+  <text x="140" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Arus bersih ETF (10 Jul)</text>
+  <rect x="140" y="105" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="400" cy="112" r="8" fill="#4ade80"/>
+  <text x="400" y="95" text-anchor="middle" fill="#4ade80" font-family="sans-serif" font-size="14" font-weight="700">+$90,4Jt</text>
+  <text x="400" y="140" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">YTD -$5,4M (Juni -$4,0M+, bulan terburuk sepanjang sejarah)</text>
+  <text x="140" y="185" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Coinbase Premium (s.d. 7 Jul)</text>
+  <rect x="140" y="195" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="180" cy="202" r="8" fill="#f87171"/>
+  <text x="180" y="185" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Masih negatif</text>
+  <text x="180" y="230" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">Sejak 19/5, 50+ sesi berturut-turut, rekor rentetan</text>
+  <text x="140" y="275" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Skew opsi 25-delta 1 minggu (3 Jul)</text>
+  <rect x="140" y="285" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="220" cy="292" r="6" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="220" y="275" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">25%(akhir Juni)</text>
+  <line x1="228" y1="292" x2="278" y2="292" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle cx="290" cy="292" r="8" fill="#fbbf24"/>
+  <text x="290" y="320" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">16%(3 Jul) — put masih &gt; call</text>
+  <text x="350" y="370" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Ketiganya lewati panik — tak satu pun berbalik penuh</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* Ketiganya menggunakan skala berbeda; posisi hanya menunjukkan arah relatif, bukan skala sebenarnya.</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">Sumber: Farside Investors, Blockonomi, Techtimes, Investing.com (ETF); pelacakan selisih harga Coinbase-Binance (Coinbase Premium); Deribit, CoinDesk (skew opsi)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Trzy Wskaźniki, Które Nie Odwróciły Się w Pełni</text>
+  <text x="140" y="52" fill="#71717a" font-family="sans-serif" font-size="13">◀ Słaby / defensywny sygnał</text>
+  <text x="620" y="52" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Silny / optymistyczny sygnał ▶</text>
+  <line x1="380" y1="65" x2="380" y2="405" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="380" y="60" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Neutralny</text>
+  <text x="140" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Napływ netto ETF (10 lip)</text>
+  <rect x="140" y="105" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="400" cy="112" r="8" fill="#4ade80"/>
+  <text x="400" y="95" text-anchor="middle" fill="#4ade80" font-family="sans-serif" font-size="14" font-weight="700">+90,4 mln $</text>
+  <text x="400" y="140" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">YTD -5,4 mld $ (czerwiec -4,0 mld $+, najgorszy miesiąc w historii)</text>
+  <text x="140" y="185" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Coinbase Premium (do 7 lip)</text>
+  <rect x="140" y="195" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="180" cy="202" r="8" fill="#f87171"/>
+  <text x="180" y="185" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Wciąż ujemna</text>
+  <text x="180" y="230" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">Od 19/5, 50+ sesji z rzędu, rekord serii</text>
+  <text x="140" y="275" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Skew opcji 25-delta, 1 tydzień (3 lip)</text>
+  <rect x="140" y="285" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="220" cy="292" r="6" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="220" y="275" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">25%(koniec czerwca)</text>
+  <line x1="228" y1="292" x2="278" y2="292" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle cx="290" cy="292" r="8" fill="#fbbf24"/>
+  <text x="290" y="320" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">16%(3 lip) — put wciąż &gt; call</text>
+  <text x="350" y="370" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Wszystkie trzy za paniką — żaden nie odwrócił się w pełni</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* Trzy wskaźniki używają różnych skal; pozycje pokazują tylko względny kierunek, nie rzeczywistą skalę.</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">Źródła: Farside Investors, Blockonomi, Techtimes, Investing.com (ETF); śledzenie różnicy cen Coinbase-Binance (Coinbase Premium); Deribit, CoinDesk (skew opcji)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Tre Indicatori Che Non Sono Ancora Girati del Tutto</text>
+  <text x="140" y="52" fill="#71717a" font-family="sans-serif" font-size="13">◀ Segnale debole / difensivo</text>
+  <text x="620" y="52" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Segnale forte / ottimista ▶</text>
+  <line x1="380" y1="65" x2="380" y2="405" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="380" y="60" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Neutro</text>
+  <text x="140" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Flusso netto ETF (10 lug)</text>
+  <rect x="140" y="105" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="400" cy="112" r="8" fill="#4ade80"/>
+  <text x="400" y="95" text-anchor="middle" fill="#4ade80" font-family="sans-serif" font-size="14" font-weight="700">+90,4 mln $</text>
+  <text x="400" y="140" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">YTD -5,4 mld $ (giugno -4,0 mld $+, peggior mese di sempre)</text>
+  <text x="140" y="185" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Coinbase Premium (fino al 7 lug)</text>
+  <rect x="140" y="195" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="180" cy="202" r="8" fill="#f87171"/>
+  <text x="180" y="185" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Ancora negativo</text>
+  <text x="180" y="230" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">Dal 19/5, 50+ sedute consecutive, serie record</text>
+  <text x="140" y="275" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Skew opzioni 25-delta a 1 settimana (3 lug)</text>
+  <rect x="140" y="285" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="220" cy="292" r="6" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="220" y="275" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">25%(fine giugno)</text>
+  <line x1="228" y1="292" x2="278" y2="292" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle cx="290" cy="292" r="8" fill="#fbbf24"/>
+  <text x="290" y="320" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">16%(3 lug) — put ancora &gt; call</text>
+  <text x="350" y="370" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Tutti e tre oltre il panico — nessuno girato del tutto</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* I tre usano scale diverse; le posizioni mostrano solo la direzione relativa, non la scala reale.</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">Fonti: Farside Investors, Blockonomi, Techtimes, Investing.com (ETF); monitoraggio del divario di prezzo Coinbase-Binance (Coinbase Premium); Deribit, CoinDesk (skew opzioni)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Три Индикатора, Которые Ещё Не Развернулись Полностью</text>
+  <text x="140" y="52" fill="#71717a" font-family="sans-serif" font-size="13">◀ Слабый / защитный сигнал</text>
+  <text x="620" y="52" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">Сильный / оптимистичный сигнал ▶</text>
+  <line x1="380" y1="65" x2="380" y2="405" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="380" y="60" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">Нейтрально</text>
+  <text x="140" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Чистый приток ETF (10 июл)</text>
+  <rect x="140" y="105" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="400" cy="112" r="8" fill="#4ade80"/>
+  <text x="400" y="95" text-anchor="middle" fill="#4ade80" font-family="sans-serif" font-size="14" font-weight="700">+$90,4 млн</text>
+  <text x="400" y="140" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">С начала года -$5,4 млрд (июнь -$4,0 млрд+, худший месяц за всё время)</text>
+  <text x="140" y="185" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Coinbase Premium (по 7 июл)</text>
+  <rect x="140" y="195" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="180" cy="202" r="8" fill="#f87171"/>
+  <text x="180" y="185" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">Всё ещё отрицательная</text>
+  <text x="180" y="230" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">С 19/5, 50+ сессий подряд, рекордная серия</text>
+  <text x="140" y="275" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Недельный 25-дельта скью опционов (3 июл)</text>
+  <rect x="140" y="285" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="220" cy="292" r="6" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="220" y="275" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">25%(конец июня)</text>
+  <line x1="228" y1="292" x2="278" y2="292" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle cx="290" cy="292" r="8" fill="#fbbf24"/>
+  <text x="290" y="320" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">16%(3 июл) — путы всё ещё &gt; коллов</text>
+  <text x="350" y="370" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Все три прошли пик паники — ни один не развернулся полностью</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">* Три индикатора используют разные шкалы; положения показывают только относительное направление, а не реальный масштаб.</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">Источники: Farside Investors, Blockonomi, Techtimes, Investing.com (ETF); отслеживание разницы цен Coinbase-Binance (Coinbase Premium); Deribit, CoinDesk (скью опционов)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">三項尚未完全反轉的指標</text>
+  <text x="140" y="52" fill="#71717a" font-family="sans-serif" font-size="13">◀ 弱勢/防禦訊號</text>
+  <text x="620" y="52" text-anchor="end" fill="#71717a" font-family="sans-serif" font-size="13">強勢/樂觀訊號 ▶</text>
+  <line x1="380" y1="65" x2="380" y2="405" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="380" y="60" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">中性</text>
+  <text x="140" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">ETF淨資金流(7/10)</text>
+  <rect x="140" y="105" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="400" cy="112" r="8" fill="#4ade80"/>
+  <text x="400" y="95" text-anchor="middle" fill="#4ade80" font-family="sans-serif" font-size="14" font-weight="700">+9,044萬美元</text>
+  <text x="400" y="140" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">年初至今累計 -54億美元(6月 -40億美元以上,史上最差)</text>
+  <text x="140" y="185" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Coinbase Premium(截至7/7)</text>
+  <rect x="140" y="195" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="180" cy="202" r="8" fill="#f87171"/>
+  <text x="180" y="185" text-anchor="middle" fill="#f87171" font-family="sans-serif" font-size="14" font-weight="700">持續為負</text>
+  <text x="180" y="230" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="13">自5/19起連續50+交易日,史上最長</text>
+  <text x="140" y="275" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">選擇權一週25-delta偏斜值(7/3)</text>
+  <rect x="140" y="285" width="480" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="220" cy="292" r="6" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="220" y="275" text-anchor="middle" fill="#71717a" font-family="sans-serif" font-size="12">25%(6月下旬)</text>
+  <line x1="228" y1="292" x2="278" y2="292" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle cx="290" cy="292" r="8" fill="#fbbf24"/>
+  <text x="290" y="320" text-anchor="middle" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">16%(7/3)——賣權仍 &gt; 買權</text>
+  <text x="350" y="370" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">三者皆已脫離恐慌,但無一完全反轉</text>
+  <text x="20" y="395" fill="#71717a" font-family="sans-serif" font-size="12">※ 三項指標採用不同尺度;位置僅顯示相對方向,非實際比例。</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">資料來源:Farside Investors、Blockonomi、Techtimes、Investing.com(ETF);Coinbase-Binance價差追蹤(Coinbase Premium);Deribit、CoinDesk(選擇權偏斜值)</text>
+</svg>
+</div>
 
 <h2 class="ko">세 갈래를 겹쳐보면 — 지금 국면에서 지켜봐야 할 지점</h2>
 <h2 class="en">Overlaying the Three Tracks — What to Watch in This Phase</h2>
@@ -436,6 +581,11 @@
 <h2 class="pt">Sobrepondo as Três Frentes — O Que Observar Nesta Fase</h2>
 <h2 class="tr">Üç Ekseni Üst Üste Koyunca — Bu Aşamada İzlenmesi Gereken Nokta</h2>
 <h2 class="vi">Chồng Ba Nhánh Lên Nhau — Điều Cần Theo Dõi Trong Giai Đoạn Này</h2>
+<h2 class="id">Menumpuk Tiga Jalur — Apa yang Perlu Diperhatikan di Fase Ini</h2>
+<h2 class="pl">Nakładanie Trzech Ścieżek — Na Co Zwracać Uwagę w Tej Fazie</h2>
+<h2 class="it">Sovrapponendo i Tre Percorsi — Cosa Osservare in Questa Fase</h2>
+<h2 class="ru">Накладывая Три Траектории — На Что Обратить Внимание на Этом Этапе</h2>
+<h2 class="zh">三條軌跡疊加來看——這個階段該關注什麼</h2>
 
 <p class="ko">정리하면 ETF·코인베이스 프리미엄·옵션 스큐 세 지표는 모두 6월 말의 극단적 패닉에서는 벗어났지만, 회복의 "완결 지점"까지 도달한 지표는 하나도 없다. ETF는 방향만 순유입으로 돌아섰을 뿐 규모가 미미하고, 코인베이스 프리미엄은 방향조차 아직 바뀌지 않았으며, 옵션 스큐는 방향과 규모 모두 절반쯤만 완화됐을 뿐이다. 셋을 한 줄로 세우면 "옵션(가장 빠름) &gt; ETF(중간) &gt; 현물 프리미엄(가장 느림)" 순으로 회복 속도가 다르게 나타나고 있는 셈이다.</p>
 <p class="en">Put together, all three gauges — ETF flows, the Coinbase Premium, and options skew — have moved past the extreme panic of late June, but none has reached the "completion point" of a recovery. ETF flows have only flipped direction to net inflow while staying tiny in size; the Coinbase Premium hasn't even flipped direction yet; and options skew has eased only about halfway in both direction and magnitude. Lined up in order, the pace of recovery reads as "options (fastest) &gt; ETFs (middle) &gt; spot premium (slowest)."</p>
@@ -446,6 +596,11 @@
 <p class="pt">Somando tudo, os três indicadores — fluxos de ETF, Coinbase Premium e skew de opções — superaram o pânico extremo do final de junho, mas nenhum atingiu o "ponto de conclusão" de uma recuperação. Os fluxos de ETF apenas inverteram a direção para entrada líquida enquanto permanecem minúsculos em tamanho; o Coinbase Premium ainda nem inverteu a direção; e o skew de opções se suavizou apenas pela metade, tanto em direção quanto em magnitude. Colocados em ordem, o ritmo de recuperação se lê como "opções (mais rápido) &gt; ETFs (meio-termo) &gt; prêmio à vista (mais lento)".</p>
 <p class="tr">Bir araya getirildiğinde, üç gösterge de — ETF akışları, Coinbase Prim'i ve opsiyon eğimi — Haziran sonundaki aşırı paniği geride bıraktı, ama hiçbiri bir toparlanmanın "tamamlanma noktasına" ulaşmadı. ETF akışları küçük boyutta kalırken yalnızca yönünü net girişe çevirdi; Coinbase Prim'i henüz yönünü bile değiştirmedi; ve opsiyon eğimi hem yön hem de büyüklük açısından yalnızca yarı yarıya gevşedi. Sıraya koyduğunuzda, toparlanma hızı "opsiyonlar (en hızlı) &gt; ETF'ler (orta) &gt; spot prim (en yavaş)" şeklinde okunuyor.</p>
 <p class="vi">Tổng hợp lại, cả ba chỉ báo — dòng vốn ETF, Coinbase Premium và độ nghiêng quyền chọn — đều đã vượt qua cơn hoảng loạn cực độ cuối tháng 6, nhưng không chỉ báo nào đạt đến "điểm hoàn tất" của sự phục hồi. Dòng vốn ETF chỉ đổi hướng sang vào ròng trong khi quy mô vẫn nhỏ bé; Coinbase Premium thậm chí còn chưa đổi hướng; và độ nghiêng quyền chọn chỉ nới lỏng được khoảng một nửa cả về hướng lẫn mức độ. Xếp theo thứ tự, tốc độ phục hồi đọc là "quyền chọn (nhanh nhất) &gt; ETF (trung bình) &gt; phí giao ngay (chậm nhất)".</p>
+<p class="id">Secara keseluruhan, ketiga indikator — arus ETF, Coinbase Premium, dan skew opsi — telah melewati kepanikan ekstrem akhir Juni, tetapi tidak satu pun yang mencapai "titik penyelesaian" pemulihan. Arus ETF hanya berbalik arah menjadi arus masuk bersih sementara ukurannya tetap kecil; Coinbase Premium bahkan belum berbalik arah sama sekali; dan skew opsi baru mereda sekitar setengah jalan, baik dari sisi arah maupun besaran. Jika diurutkan, kecepatan pemulihan terbaca sebagai "opsi (tercepat) &gt; ETF (menengah) &gt; premium spot (paling lambat)".</p>
+<p class="pl">Podsumowując, wszystkie trzy wskaźniki — przepływy ETF, Coinbase Premium i skew opcji — wyszły poza ekstremalną panikę z końca czerwca, ale żaden nie osiągnął „punktu zakończenia” ożywienia. Przepływy ETF jedynie zmieniły kierunek na napływ netto, pozostając niewielkie rozmiarem; Coinbase Premium nawet nie zmieniła jeszcze kierunku; a skew opcji złagodniał tylko w połowie, zarówno pod względem kierunku, jak i wielkości. Ustawione w kolejności, tempo ożywienia można odczytać jako „opcje (najszybciej) &gt; ETF-y (średnio) &gt; premia spot (najwolniej)”.</p>
+<p class="it">Nel complesso, tutti e tre gli indicatori — flussi ETF, Coinbase Premium e skew delle opzioni — hanno superato il panico estremo di fine giugno, ma nessuno ha raggiunto il "punto di completamento" di un recupero. I flussi ETF hanno solo invertito la direzione verso l'afflusso netto pur restando minuscoli in termini di dimensione; il Coinbase Premium non ha ancora nemmeno invertito la direzione; e lo skew delle opzioni si è allentato solo a metà strada sia in direzione che in entità. Messi in ordine, il ritmo del recupero si legge come "opzioni (più veloce) &gt; ETF (intermedio) &gt; premium spot (più lento)".</p>
+<p class="ru">В совокупности все три индикатора — потоки ETF, Coinbase Premium и скью опционов — преодолели экстремальную панику конца июня, но ни один не достиг «точки завершения» восстановления. Потоки ETF лишь сменили направление на чистый приток, оставаясь крошечными по размеру; Coinbase Premium даже ещё не сменила направление; а скью опционов смягчился лишь наполовину — и по направлению, и по величине. Если выстроить их по порядку, темп восстановления читается как «опционы (быстрее всех) &gt; ETF (посередине) &gt; спотовая премия (медленнее всех)».</p>
+<p class="zh">綜合來看,ETF資金流、Coinbase Premium與選擇權偏斜值這三項指標都已走出6月底的極端恐慌,但沒有一項達到復甦的「完成點」。ETF資金流僅在方向上轉為淨流入,規模仍然微小;Coinbase Premium甚至連方向都尚未轉變;選擇權偏斜值則無論方向或幅度都只緩解了約一半。若依序排列,復甦速度可讀作「選擇權(最快)&gt;ETF(居中)&gt;現貨溢價(最慢)」。</p>
 
 <p class="ko">이 어긋남이 말해주는 것은 지금 반등의 성격이 폭넓은 확신에 의한 것이라기보다는 국지적이고 단계적이라는 점이다. 이 사이트가 <a href="/blog/whale-ratio-decade-high-realized-pnl-gap">거래소 고래비율과 실현손익비율의 괴리를 짚었을 때</a>도 결론은 비슷했다 — 온체인·파생·자금흐름 중 어느 한 갈래만으로 지금 국면을 설명할 수 없다는 것이다. <a href="/blog/bitcoin-64500-second-attempt-cpi-catalyst">7월14일 발표되는 6월 CPI</a>는 이 세 지표 중 적어도 하나 — 특히 코인베이스 프리미엄으로 대표되는 미국 현물 수요 — 가 방향을 바꿀지 시험하는 다음 이벤트가 될 것으로 보인다. 셋 중 무엇이 먼저 완전히 돌아서는지가, 지금 이 국면을 읽는 데 있어 가장 눈여겨볼 지점이다.</p>
 <p class="en">What this misalignment suggests is that the current bounce is local and staggered rather than the product of broad-based conviction. When this site <a href="/en/blog/whale-ratio-decade-high-realized-pnl-gap">looked at the gap between the Exchange Whale Ratio and the Realized P&amp;L Ratio</a>, it reached a similar conclusion — no single track, whether on-chain, derivatives, or flows, can explain the current phase on its own. <a href="/en/blog/bitcoin-64500-second-attempt-cpi-catalyst">The June CPI print due July 14</a> looks like the next event that will test whether at least one of these three gauges — particularly the US spot demand the Coinbase Premium represents — finally changes direction. Which of the three fully turns first is the single most important thing to watch in reading this phase.</p>
@@ -456,6 +611,11 @@
 <p class="pt">O que esse desalinhamento sugere é que a recuperação atual é local e escalonada, e não produto de uma convicção ampla. Quando este site <a href="/pt/blog/whale-ratio-decade-high-realized-pnl-gap">analisou a lacuna entre o Exchange Whale Ratio e o Realized P&amp;L Ratio</a>, chegou a uma conclusão semelhante — nenhuma frente isolada, seja on-chain, derivativos ou fluxos, consegue explicar sozinha a fase atual. <a href="/pt/blog/bitcoin-64500-second-attempt-cpi-catalyst">O CPI de junho, previsto para 14 de julho</a>, parece ser o próximo evento que testará se pelo menos um desses três indicadores — em especial a demanda spot dos EUA representada pelo Coinbase Premium — finalmente muda de direção. Qual dos três vira completamente primeiro é o ponto mais importante a observar para ler esta fase.</p>
 <p class="tr">Bu uyumsuzluğun işaret ettiği şey, mevcut sıçramanın geniş tabanlı bir kanaatin ürünü olmaktan çok yerel ve kademeli olduğudur. Bu site <a href="/tr/blog/whale-ratio-decade-high-realized-pnl-gap">Borsa Balina Oranı ile Gerçekleşmiş Kâr/Zarar Oranı arasındaki farkı incelediğinde</a> de benzer bir sonuca varmıştı — ister zincir üstü, ister türev, ister akış olsun, tek bir eksen şu anki aşamayı tek başına açıklayamaz. <a href="/tr/blog/bitcoin-64500-second-attempt-cpi-catalyst">14 Temmuz'da açıklanacak Haziran CPI'ı</a>, bu üç göstergeden en az birinin — özellikle Coinbase Prim'inin temsil ettiği ABD spot talebinin — nihayet yön değiştirip değiştirmeyeceğini test edecek bir sonraki olay gibi görünüyor. Üçünden hangisinin önce tam olarak döneceği, bu aşamayı okurken izlenmesi gereken en önemli nokta.</p>
 <p class="vi">Sự lệch pha này cho thấy đợt phục hồi hiện tại mang tính cục bộ và diễn ra theo từng bậc hơn là sản phẩm của một niềm tin trên diện rộng. Khi trang này <a href="/vi/blog/whale-ratio-decade-high-realized-pnl-gap">xem xét khoảng cách giữa Tỷ Lệ Cá Voi Sàn Giao Dịch và Tỷ Lệ Lãi/Lỗ Đã Thực Hiện</a>, kết luận cũng tương tự — không một nhánh đơn lẻ nào, dù là on-chain, phái sinh hay dòng vốn, có thể tự mình giải thích giai đoạn hiện tại. <a href="/vi/blog/bitcoin-64500-second-attempt-cpi-catalyst">Chỉ số CPI tháng 6 công bố ngày 14 tháng 7</a> có vẻ sẽ là sự kiện tiếp theo kiểm nghiệm xem liệu ít nhất một trong ba chỉ báo này — đặc biệt là nhu cầu giao ngay của Mỹ mà Coinbase Premium đại diện — có cuối cùng đổi hướng hay không. Chỉ báo nào trong ba chỉ báo đảo chiều hoàn toàn trước tiên là điều quan trọng nhất cần theo dõi để đọc hiểu giai đoạn này.</p>
+<p class="id">Yang disiratkan oleh ketidaksinkronan ini adalah bahwa pantulan saat ini bersifat lokal dan bertahap, alih-alih produk dari keyakinan yang luas. Ketika situs ini <a href="/id/blog/whale-ratio-decade-high-realized-pnl-gap">melihat kesenjangan antara Exchange Whale Ratio dan Realized P&amp;L Ratio</a>, kesimpulannya serupa — tidak ada satu jalur pun, baik on-chain, derivatif, maupun arus dana, yang bisa menjelaskan fase saat ini dengan sendirinya. <a href="/id/blog/bitcoin-64500-second-attempt-cpi-catalyst">Data CPI Juni yang akan dirilis 14 Juli</a> tampaknya akan menjadi peristiwa berikutnya yang menguji apakah setidaknya satu dari ketiga indikator ini — terutama permintaan spot AS yang diwakili Coinbase Premium — akhirnya berubah arah. Indikator mana di antara ketiganya yang lebih dulu berbalik penuh adalah hal terpenting yang perlu diperhatikan dalam membaca fase ini.</p>
+<p class="pl">To niedopasowanie sugeruje, że obecne odbicie ma charakter lokalny i rozłożony w czasie, a nie jest wynikiem szeroko zakrojonego przekonania. Gdy ta strona <a href="/pl/blog/whale-ratio-decade-high-realized-pnl-gap">przyglądała się rozbieżności między Exchange Whale Ratio a Realized P&amp;L Ratio</a>, doszła do podobnego wniosku — żadna pojedyncza ścieżka, czy to on-chain, instrumenty pochodne, czy przepływy, nie może samodzielnie wyjaśnić obecnej fazy. <a href="/pl/blog/bitcoin-64500-second-attempt-cpi-catalyst">Odczyt CPI za czerwiec, spodziewany 14 lipca</a>, wygląda na kolejne wydarzenie, które sprawdzi, czy przynajmniej jeden z tych trzech wskaźników — zwłaszcza amerykański popyt spot, który reprezentuje Coinbase Premium — w końcu zmieni kierunek. To, który z trzech odwróci się w pełni jako pierwszy, jest najważniejszą rzeczą do obserwowania przy odczytywaniu tej fazy.</p>
+<p class="it">Ciò che questo disallineamento suggerisce è che il rimbalzo attuale è locale e scaglionato, piuttosto che il prodotto di una convinzione diffusa. Quando questo sito ha <a href="/it/blog/whale-ratio-decade-high-realized-pnl-gap">esaminato il divario tra l'Exchange Whale Ratio e il Realized P&amp;L Ratio</a>, è giunto a una conclusione simile — nessun singolo percorso, che sia on-chain, derivati o flussi, può spiegare da solo la fase attuale. <a href="/it/blog/bitcoin-64500-second-attempt-cpi-catalyst">Il dato sul CPI di giugno atteso per il 14 luglio</a> sembra essere il prossimo evento che metterà alla prova se almeno uno di questi tre indicatori — in particolare la domanda spot statunitense rappresentata dal Coinbase Premium — cambierà finalmente direzione. Quale dei tre gira completamente per primo è la cosa più importante da osservare per leggere questa fase.</p>
+<p class="ru">Это несоответствие говорит о том, что нынешний отскок носит локальный и разрозненный характер, а не является результатом широкой уверенности. Когда этот сайт <a href="/ru/blog/whale-ratio-decade-high-realized-pnl-gap">рассматривал разрыв между Exchange Whale Ratio и Realized P&amp;L Ratio</a>, он пришёл к похожему выводу — ни одна отдельная траектория, будь то ончейн-данные, деривативы или потоки, не может сама по себе объяснить текущую фазу. <a href="/ru/blog/bitcoin-64500-second-attempt-cpi-catalyst">Публикация июньского индекса потребительских цен 14 июля</a> выглядит как следующее событие, которое проверит, изменит ли наконец направление хотя бы один из этих трёх индикаторов — особенно спотовый спрос в США, который представляет Coinbase Premium. Какой из трёх развернётся полностью первым — это самое важное, за чем нужно следить при чтении этой фазы.</p>
+<p class="zh">這種不同步暗示,目前的反彈是局部且分階段的,而非廣泛信心的產物。本站<a href="/zh/blog/whale-ratio-decade-high-realized-pnl-gap">檢視交易所巨鯨比率與已實現損益比率之間的落差時</a>,也得出類似結論——無論是鏈上、衍生性商品或資金流,單一軌跡都無法獨力解釋當前局面。<a href="/zh/blog/bitcoin-64500-second-attempt-cpi-catalyst">7月14日公布的6月CPI</a>看來將是下一個檢驗事件,測試這三項指標中至少一項——尤其是Coinbase Premium所代表的美國現貨需求——是否終於改變方向。三者之中哪一項率先完全反轉,是解讀當前局面時最值得關注的重點。</p>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 파사이드인베스터스(Farside Investors, ETF 자금 흐름 데이터), 블로코노미(Blockonomi, "Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), 테크타임스(Techtimes, ETF 자금 흐름 보도), 인베스팅닷컴(Investing.com, ETF 순유출·순유입 누계 및 시장 진단), 코인베이스(Coinbase)·바이낸스(Binance) 가격차 집계(코인베이스 프리미엄), 데리비트(Deribit, 옵션 스큐 데이터), 코인데스크(CoinDesk, 옵션 스큐 보도 및 비트코인 가격 데이터), 글래스노드(Glassnode, 307일 박스권 데이터). 수치는 각 데이터 제공처 기준 근사치이며 소스·집계 시점에 따라 편차가 있을 수 있다.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Farside Investors (ETF flow data), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (ETF flow reporting), Investing.com (ETF cumulative outflow/inflow figures and market analysis), Coinbase-Binance price-gap tracking (Coinbase Premium), Deribit (options skew data), CoinDesk (options skew reporting and bitcoin price data), Glassnode (307-day range data). Figures are approximate per each data provider and may vary by source and timing.</p>
@@ -466,5 +626,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Farside Investors (dados de fluxo de ETF), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (cobertura de fluxo de ETF), Investing.com (números acumulados de entrada/saída de ETF e análise de mercado), rastreamento do diferencial de preço Coinbase-Binance (Coinbase Premium), Deribit (dados de skew de opções), CoinDesk (cobertura de skew de opções e dados de preço do bitcoin), Glassnode (dados da faixa de 307 dias). Os números são aproximados conforme cada provedor de dados e podem variar por fonte e momento.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Farside Investors (ETF akış verileri), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (ETF akış haberleri), Investing.com (kümülatif ETF çıkış/giriş rakamları ve piyasa analizi), Coinbase-Binance fiyat farkı takibi (Coinbase Prim'i), Deribit (opsiyon eğimi verileri), CoinDesk (opsiyon eğimi haberleri ve bitcoin fiyat verileri), Glassnode (307 günlük aralık verileri). Rakamlar her veri sağlayıcısına göre yaklaşık değerlerdir ve kaynağa/zamanlamaya göre değişebilir.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Farside Investors (dữ liệu dòng vốn ETF), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (đưa tin dòng vốn ETF), Investing.com (số liệu lũy kế dòng vào/ra ETF và phân tích thị trường), theo dõi chênh lệch giá Coinbase-Binance (Coinbase Premium), Deribit (dữ liệu độ nghiêng quyền chọn), CoinDesk (đưa tin độ nghiêng quyền chọn và dữ liệu giá bitcoin), Glassnode (dữ liệu biên độ 307 ngày). Các số liệu là gần đúng theo từng nhà cung cấp dữ liệu và có thể khác nhau tùy nguồn và thời điểm.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Farside Investors (data arus ETF), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (pemberitaan arus ETF), Investing.com (angka kumulatif arus keluar/masuk ETF dan analisis pasar), pelacakan selisih harga Coinbase-Binance (Coinbase Premium), Deribit (data skew opsi), CoinDesk (pemberitaan skew opsi dan data harga bitcoin), Glassnode (data rentang 307 hari). Angka bersifat perkiraan menurut masing-masing penyedia data dan dapat bervariasi tergantung sumber dan waktu.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Farside Investors (dane o przepływach ETF), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (relacje o przepływach ETF), Investing.com (skumulowane dane o odpływach/napływach ETF i analiza rynku), śledzenie różnicy cen Coinbase-Binance (Coinbase Premium), Deribit (dane o skew opcji), CoinDesk (relacje o skew opcji i dane o cenie bitcoina), Glassnode (dane o 307-dniowym zakresie). Wartości są przybliżone według poszczególnych dostawców danych i mogą się różnić w zależności od źródła i momentu pomiaru.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Farside Investors (dati sui flussi ETF), Blockonomi ("Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound"), Techtimes (copertura sui flussi ETF), Investing.com (dati cumulativi su deflussi/afflussi ETF e analisi di mercato), monitoraggio del divario di prezzo Coinbase-Binance (Coinbase Premium), Deribit (dati sullo skew delle opzioni), CoinDesk (copertura sullo skew delle opzioni e dati sul prezzo del bitcoin), Glassnode (dati sull'intervallo di 307 giorni). I dati sono approssimativi secondo ciascun fornitore e possono variare in base alla fonte e al momento.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Farside Investors (данные о потоках ETF), Blockonomi («Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound»), Techtimes (освещение потоков ETF), Investing.com (накопленные данные о притоках/оттоках ETF и анализ рынка), отслеживание разницы цен Coinbase-Binance (Coinbase Premium), Deribit (данные о скью опционов), CoinDesk (освещение скью опционов и данные о цене биткоина), Glassnode (данные о 307-дневном диапазоне). Цифры являются приблизительными по данным каждого поставщика и могут отличаться в зависимости от источника и момента фиксации.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Farside Investors(ETF資金流數據)、Blockonomi(《Bitcoin ETFs See $90M Inflow as IBIT Leads Rebound》)、Techtimes(ETF資金流報導)、Investing.com(ETF淨流出/流入累計數據與市場分析)、Coinbase-Binance價差追蹤(Coinbase Premium)、Deribit(選擇權偏斜值數據)、CoinDesk(選擇權偏斜值報導及比特幣價格數據)、Glassnode(307天區間數據)。數據為各資料提供方之近似值,可能因來源與統計時點而有所差異。</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
