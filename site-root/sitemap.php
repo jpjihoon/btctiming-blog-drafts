@@ -23,6 +23,14 @@ header('Content-Type: application/xml; charset=utf-8');
 // 사이트맵은 자주 안 바뀌므로 짧게 캐싱 헤더만 걸어둠 (선택 사항)
 header('Cache-Control: public, max-age=3600');
 
+// 응답 gzip 압축: Cafe24 mod_deflate가 PHP 동적출력에는 안 걸려
+//   미압축 sitemap이 매 요청 ~24MB씩 원본에서 나가던 문제 해결. Accept-Encoding: gzip일 때만.
+if (!ini_get('zlib.output_compression')
+    && extension_loaded('zlib')
+    && strpos($_SERVER['HTTP_ACCEPT_ENCODING'] ?? '', 'gzip') !== false) {
+    @ob_start('ob_gzhandler');
+}
+
 $root = __DIR__;
 require_once $root . '/config.php';
 $baseUrl = 'https://btctiming.com';

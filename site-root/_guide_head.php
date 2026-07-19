@@ -29,6 +29,14 @@ $__navBackLabels = $GUIDE_NAVBACK['labels'] ?? $__navBackDefault;
 <html lang="<?= gh($__ghLang) ?>">
 <head>
 <meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD01B9SL3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD01B9SL3K');
+</script>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHg9IjIiIHk9IjIiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcng9IjE1IiBmaWxsPSIjMGQwZDEwIi8+CjxwYXRoIGQ9Ik0xMyA0NCBBMTkgMTkgMCAwIDEgNTEgNDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI2MjYyYiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTEzIDQ0IEExOSAxOSAwIDAgMSA0MSAyOSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjc5MzFhIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cG9seWxpbmUgcG9pbnRzPSIyMiw0MCAyOSwzMyAzNSwzNyA0NSwyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmFmYWZhIiBzdHJva2Utd2lkdGg9IjMuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjxwb2x5bGluZSBwb2ludHM9IjM5LDI1IDQ1LDI1IDQ1LDMxIiBmaWxsPSJub25lIiBzdHJva2U9IiNmYWZhZmEiIHN0cm9rZS13aWR0aD0iMy40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title><?= gh($__title) ?></title>
