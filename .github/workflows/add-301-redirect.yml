@@ -1,0 +1,130 @@
+# 중복/이전 블로그 슬러그를 canonical 로 301 리다이렉트하는 규칙을 .htaccess 에 넣고 PR 을 연다.
+# 왜: 같은 뉴스 중복 글은 삭제(404)보다 301 이 낫다 — 링크자산 보존 + 구글 canonical 통합.
+#
+# 실행: Actions → "Add 301 redirect (dedupe)" → Run workflow
+#   from_slug: 리다이렉트할(사라질) 슬러그   기본 = citadel …institutional-round
+#   to_slug  : 남길(canonical) 슬러그        기본 = citadel …investment
+#   → ko(/blog/{slug}) + 13개 언어(/{lang}/blog/{slug}) URL 전부 301. 규칙은 .htaccess 최상단(먼저 매칭)에 삽입.
+#   자동병합 아님 — diff 확인 후 병합. 병합 후 site-root 배포로 반영.
+name: Add 301 redirect (dedupe)
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_slug:
+        description: "리다이렉트할(사라질) 슬러그"
+        default: citadel-securities-crypto-com-400m-institutional-round
+      to_slug:
+        description: "남길(canonical) 슬러그"
+        default: citadel-securities-crypto-com-400m-investment
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: add-301-redirect
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: .htaccess 찾아 301 규칙 삽입
+        id: edit
+        env:
+          FROM_SLUG: ${{ github.event.inputs.from_slug }}
+          TO_SLUG: ${{ github.event.inputs.to_slug }}
+        run: |
+          python3 - <<'PY'
+          import os, glob, sys
+
+          frm = os.environ['FROM_SLUG'].strip().strip('/')
+          to  = os.environ['TO_SLUG'].strip().strip('/')
+          if not frm or not to:
+              print("::error::from_slug/to_slug 가 비었습니다"); sys.exit(1)
+
+          # 언어 블로그 rewrite(…blog/index.php?lang=)를 가진 .htaccess = docroot .htaccess.
+          cands = glob.glob('**/.htaccess', recursive=True) + (['.htaccess'] if os.path.exists('.htaccess') else [])
+          cands = sorted(set(cands))
+          target = None
+          for f in cands:
+              try:
+                  t = open(f, encoding='utf-8', errors='replace').read()
+              except Exception:
+                  continue
+              if 'blog/index.php' in t or ('RewriteRule' in t and '/blog' in t):
+                  target = f; break
+          if not target:
+              # 폴백: RewriteEngine On 을 가진 첫 .htaccess
+              for f in cands:
+                  if 'RewriteEngine' in open(f, encoding='utf-8', errors='replace').read():
+                      target = f; break
+          if not target:
+              print("::error::블로그 rewrite 를 가진 .htaccess 를 찾지 못했습니다. 후보=%r" % cands); sys.exit(1)
+          print("대상 .htaccess:", target)
+
+          src = open(target, encoding='utf-8').read()
+
+          # 이미 있으면(멱등) 건너뜀
+          if frm in src and 'R=301' in src:
+              print("이미 %s 리다이렉트가 있습니다 — 변경 없음." % frm)
+              print("changed=0", file=open(os.environ['GITHUB_OUTPUT'],'a'))
+              sys.exit(0)
+
+          langs = "en|ja|es|de|fr|pt|tr|vi|id|pl|it|ru|zh"
+          rule = ("# dedupe 301: %s -> %s (ko + 13언어). 2026-07-19 자동 삽입\n"
+                  "RewriteRule ^((?:%s)/)?blog/%s/?$ /$1blog/%s [R=301,L]\n"
+                  % (frm, to, langs, frm, to))
+
+          # RewriteEngine On 바로 다음 줄에 삽입(무조건 규칙이라 기존 Cond/Rule 짝을 깨지 않음 → 최우선 매칭)
+          lines = src.splitlines(keepends=True)
+          out, inserted = [], False
+          for ln in lines:
+              out.append(ln)
+              if (not inserted) and ln.strip().lower().startswith('rewriteengine') and 'on' in ln.lower():
+                  out.append(rule)
+                  inserted = True
+          if not inserted:
+              print("::error::'RewriteEngine On' 을 찾지 못해 삽입 위치를 정할 수 없습니다"); sys.exit(1)
+
+          open(target, 'w', encoding='utf-8').write(''.join(out))
+          print("삽입 완료:\n" + rule)
+          go = open(os.environ['GITHUB_OUTPUT'], 'a')
+          go.write("changed=1\n"); go.write("target=%s\n" % target)
+
+          # 스텝 요약
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as s:
+              s.write("### 301 리다이렉트 삽입\n- 파일: `%s`\n- %s → %s\n\n```\n%s```\n" % (target, frm, to, rule))
+          PY
+
+      - name: PR 생성 (변경이 있을 때만)
+        if: ${{ steps.edit.outputs.changed == '1' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FROM_SLUG: ${{ github.event.inputs.from_slug }}
+          TO_SLUG: ${{ github.event.inputs.to_slug }}
+        run: |
+          set -e
+          if git diff --quiet; then echo "변경 없음"; exit 0; fi
+          BR="chore/301-redirect-${{ github.run_id }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A
+          git commit -m "chore: 301 리다이렉트 $FROM_SLUG → $TO_SLUG (.htaccess)"
+          git push -u origin "$BR"
+          {
+            echo "## 중복 글 301 리다이렉트"
+            echo ""
+            echo "\`.htaccess\` 최상단에 규칙을 넣어 \`$FROM_SLUG\` 를 canonical \`$TO_SLUG\` 로 301 합니다(ko + 13개 언어 URL)."
+            echo "삭제가 아니라 301 이라 404 없이 링크자산 보존 + 구글 canonical 통합."
+            echo ""
+            echo "> ⚠️ 자동병합 아님. diff 확인 후 병합 → **site-root 배포**로 반영. 배포 후 원본 URL 301, canonical 200 확인."
+          } > /tmp/pr.md
+          gh pr create --title "chore: 301 리다이렉트 (중복 글 정리)" --body-file /tmp/pr.md --base main --head "$BR"
+          echo "PR 생성 완료"
