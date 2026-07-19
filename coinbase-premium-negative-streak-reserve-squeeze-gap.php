@@ -564,6 +564,11 @@
 <h2 class="pt">O Preço Sobe, Mas Esses Dois Sinais Não Contam a Mesma História</h2>
 <h2 class="tr">Fiyat Yükseliyor Ama Bu İki Sinyal Aynı Hikayeyi Anlatmıyor</h2>
 <h2 class="vi">Giá Đang Tăng, Nhưng Hai Tín Hiệu Này Không Kể Cùng Một Câu Chuyện</h2>
+<h2 class="id">Harga Naik, Tapi Kedua Sinyal Ini Tidak Menceritakan Kisah yang Sama</h2>
+<h2 class="pl">Cena Rośnie, ale Te Dwa Sygnały Nie Opowiadają Tej Samej Historii</h2>
+<h2 class="it">Il Prezzo Sale, Ma Questi Due Segnali Non Raccontano la Stessa Storia</h2>
+<h2 class="ru">Цена Растёт, Но Эти Два Сигнала Рассказывают Разные Истории</h2>
+<h2 class="zh">價格上漲,但這兩項訊號說的不是同一個故事</h2>
 
 <p class="ko">정리하면 비트코인은 6월 저점 대비 약 10% 반등해 6만4,000달러대에 올라섰고, 온체인상 대형 보유자들의 매수도 확인된다 — 크립토퀀트는 두 주 동안 약 27만 BTC(약 167억 달러)가 대부분 5만9,000달러 부근에서 고래 주소로 흡수됐다고 집계했다. 그런데 정작 '미국 규제권 수요가 프리미엄을 주고 사는지'를 보여주는 코인베이스 프리미엄은 이 반등 내내 마이너스 영역을 벗어나지 못했다. 즉 지금의 반등은 고래·역외 매수가 이끌고 있을 가능성이 크고, 미국 현물 ETF·코인베이스로 대표되는 규제권 수요가 그 반등을 뒤따라 확인해주는 그림은 아직 아니다.</p>
 <p class="en">Put together: Bitcoin has bounced roughly 10% off its June low into the mid-$64,000s, and on-chain data confirms large-holder buying — CryptoQuant counted around 270,000 BTC (about $16.7 billion) absorbed into whale addresses over two weeks, most of it concentrated near $59,000. Yet the one gauge built specifically to show whether U.S.-regulated demand is paying a premium to buy — the Coinbase Premium Index — never left negative territory through the entire bounce. That suggests this rally is more likely being led by whales and offshore buying than confirmed, so far, by the regulated demand that spot ETFs and Coinbase represent.</p>

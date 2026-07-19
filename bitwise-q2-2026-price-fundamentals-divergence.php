@@ -723,6 +723,11 @@
   <div class="box pt">💡 A análise da BTCtiming: o mais interessante neste relatório não é nenhum número isolado, mas o fato de que os "indicadores de preço" e os "indicadores de uso" apontaram em direções opostas para os mesmos ativos. Se esses dois indicadores conseguirão permanecer desacoplados por um longo período, ou se eventualmente convergirão, é a variável que definirá o caráter da próxima fase deste ciclo.</div>
   <div class="box tr">💡 BTCtiming'in değerlendirmesi: bu raporun en ilginç yanı tek bir rakam değil, "fiyat göstergeleri" ile "kullanım göstergeleri"nin aynı varlıklar için zıt yönleri işaret etmiş olması. Bu iki göstergenin uzun süre kopuk kalıp kalamayacağı, yoksa sonunda birleşip birleşmeyeceği, bu döngünün sonraki aşamasının karakterini belirleyecek değişken.</div>
   <div class="box vi">💡 Nhận định của BTCtiming: điều thú vị nhất trong báo cáo này không phải là con số nào cụ thể, mà là việc "chỉ số giá" và "chỉ số sử dụng" chỉ theo hai hướng trái ngược nhau đối với cùng một tài sản. Việc hai chỉ số này có thể duy trì trạng thái tách rời trong thời gian dài hay cuối cùng sẽ hội tụ, chính là biến số sẽ quyết định tính chất của giai đoạn tiếp theo trong chu kỳ này.</div>
+  <div class="box id">💡 Analisis BTCtiming: bagian paling menarik dari laporan ini bukanlah satu angka tertentu, melainkan fakta bahwa «indikator harga» dan «indikator penggunaan» menunjuk ke arah yang berlawanan untuk aset yang sama. Apakah kedua indikator ini bisa tetap terpisah dalam jangka panjang, atau pada akhirnya menyatu, adalah variabel yang akan menentukan karakter fase berikutnya dari siklus ini.</div>
+  <div class="box pl">💡 Ocena BTCtiming: najciekawszym elementem tego raportu nie jest żadna pojedyncza liczba, lecz fakt, że «wskaźniki cenowe» i «wskaźniki użycia» wskazywały przeciwne kierunki dla tych samych aktywów. To, czy te dwa wskaźniki mogą pozostać rozłączone przez dłuższy czas, czy też w końcu się zbiegną, jest zmienną, która określi charakter kolejnej fazy tego cyklu.</div>
+  <div class="box it">💡 L'opinione di BTCtiming: la parte più interessante di questo report non è una singola cifra, ma il fatto che gli «indicatori di prezzo» e gli «indicatori di utilizzo» abbiano puntato in direzioni opposte per gli stessi asset. Se questi due indicatori possano restare disaccoppiati a lungo, oppure finiscano per convergere, è la variabile che definirà il carattere della prossima fase di questo ciclo.</div>
+  <div class="box ru">💡 Мнение BTCtiming: самое интересное в этом отчёте — не какая-то отдельная цифра, а сам факт того, что «ценовые показатели» и «показатели использования» для одних и тех же активов указывали в противоположных направлениях. Смогут ли эти два индикатора долго оставаться разъединёнными или в конце концов сойдутся — вот переменная, которая определит характер следующей фазы этого цикла.</div>
+  <div class="box zh">💡 BTCtiming觀點:這份報告最有趣的地方並非任何單一數字,而是「價格指標」與「使用量指標」對同一批資產指向了完全相反的方向。這兩項指標究竟能長期維持脫鉤,還是最終會趨於收斂,將是決定這輪週期下一階段特徵的關鍵變數。</div>
 
   <h2 class="ko">함께 보면 좋은 글</h2>
   <h2 class="en">Best Combined With</h2>
@@ -733,6 +738,11 @@
   <h2 class="pt">Melhor combinado com</h2>
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+  <h2 class="id">Baca Juga</h2>
+  <h2 class="pl">Warto Przeczytać Razem z</h2>
+  <h2 class="it">Da Leggere Insieme a</h2>
+  <h2 class="ru">Читайте Также</h2>
+  <h2 class="zh">延伸閱讀</h2>
   <ul class="ko">
     <li><strong><a href="/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">비트와이즈 10 크립토 인덱스, 하이퍼리퀴드·스텔라 편입 — 폴카닷·아발란체는 퇴출</a>:</strong> 같은 비트와이즈 10 지수의 구성 종목 교체 소식으로, 이번 하락률 논의의 배경이 되는 지수 자체를 더 깊이 이해할 수 있다.</li>
     <li><strong><a href="/blog/corporate-btc-q2-2026-outpaces-mined-supply">공개기업, 2분기에만 비트코인 11만개 매수 — 채굴량의 2배 속도</a>:</strong> 같은 2분기 동안 가격 약세에도 불구하고 이어진 기관·기업의 비트코인 매수 흐름을 다룬 글.</li>
