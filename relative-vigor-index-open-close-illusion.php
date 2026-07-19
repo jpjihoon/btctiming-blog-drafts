@@ -823,6 +823,11 @@
   <h2 class="pt">Por Que Isso Se Torna Perigoso na Prática — Redundância Somada a Atraso</h2>
   <h2 class="tr">Bunun Pratikte Neden Tehlikeli Hale Geldiği — Gecikmeyle Birleşen Yedeklilik</h2>
   <h2 class="vi">Vì Sao Điều Này Trở Nên Nguy Hiểm Trong Thực Tế — Sự Trùng Lặp Cộng Với Độ Trễ</h2>
+  <h2 class="id">Mengapa Ini Menjadi Berbahaya dalam Praktiknya — Redundansi yang Diperparah oleh Lag</h2>
+  <h2 class="pl">Dlaczego To Staje Się Niebezpieczne w Praktyce — Redundancja Spotęgowana Opóźnieniem</h2>
+  <h2 class="it">Perché Questo Diventa Pericoloso nella Pratica — Ridondanza Aggravata dal Ritardo</h2>
+  <h2 class="ru">Почему Это Становится Опасным на Практике — Избыточность, Усугублённая Запаздыванием</h2>
+  <h2 class="zh">為什麼這在實務上變得危險——重複疊加延遲</h2>
 
   <p class="ko">트레이더 대부분은 RVI를 RSI나 <a href="/blog/stochastic-rsi-trend-blind-spot">스토캐스틱RSI</a> 옆에 나란히 띄워 놓고, 여러 지표가 같은 방향을 가리키면 확신을 더한다. 그런데 비트코인에서 RVI의 분자가 사실상 노이즈로 붕괴한 이상, RVI가 실제로 반영하는 정보는 분모인 고가-저가 범위뿐이다. 이는 스토캐스틱이 이미 재고 있는 정보와 거의 같다. 결국 화면에 RVI를 하나 더 얹는 행위는 새로운 확인을 추가하는 게 아니라, 스토캐스틱을 10기간 이동평균과 4기간 시그널선으로 두 번 더 무디게 만든 열화판을 하나 더 얹는 것에 가깝다.</p>
   <p class="en">Most traders put RVI next to RSI or <a href="/en/blog/stochastic-rsi-trend-blind-spot">Stochastic RSI</a> on the same screen, and gain confidence when several indicators point the same way. But once RVI's numerator has effectively collapsed into noise on Bitcoin, the only information RVI still meaningfully reflects is its denominator — the high-low range — which is nearly identical to what Stochastic is already measuring. Adding RVI to the chart, in that light, isn't adding a new confirmation. It's closer to adding a degraded copy of Stochastic that's been dulled twice over by a 10-period moving average and a 4-period signal line.</p>
