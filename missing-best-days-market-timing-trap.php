@@ -454,6 +454,151 @@
 </svg>
 </div>
 
+<div class="id">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Imbal Hasil Tahunan S&amp;P 500 20 Tahun — Semakin Banyak Hari Terbaik yang Terlewat</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Ilustrasi, direkonstruksi dari data 'Guide to the Markets' J.P. Morgan — bukan saran investasi.</text>
+  <line x1="50" y1="360" x2="650" y2="360" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="60" y="130" width="110" height="230" rx="6" fill="#4ade80" fill-opacity="0.75"/>
+  <rect x="218" y="222" width="110" height="138" rx="6" fill="#fbbf24" fill-opacity="0.75"/>
+  <rect x="376" y="280" width="110" height="80" rx="6" fill="#fb923c" fill-opacity="0.75"/>
+  <rect x="534" y="327" width="110" height="33" rx="6" fill="#f87171" fill-opacity="0.75"/>
+  <text x="115" y="115" fill="#4ade80" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">10.60%</text>
+  <text x="115" y="185" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="115" y="203" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$71,750</text>
+  <text x="273" y="207" fill="#fbbf24" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">6.37%</text>
+  <text x="273" y="275" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="273" y="293" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$32,871</text>
+  <text x="431" y="265" fill="#fb923c" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">3.69%</text>
+  <text x="589" y="312" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">1.53%</text>
+  <text x="115" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Tetap</text>
+  <text x="115" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Berinvestasi</text>
+  <text x="273" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Terlewat</text>
+  <text x="273" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">10 Terbaik</text>
+  <text x="431" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Terlewat</text>
+  <text x="431" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">20 Terbaik</text>
+  <text x="589" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Terlewat</text>
+  <text x="589" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">30 Terbaik</text>
+  <text x="350" y="416" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10 hari adalah 0.2% dari ~5,000 hari perdagangan dalam 20 tahun — Sumber: J.P. Morgan Asset Management</text>
+</svg>
+</div>
+
+<div class="pl">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">S&amp;P 500: 20-Letni Zannualizowany Zwrot — Im Więcej Najlepszych Dni Ominiesz</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Ilustracyjne, zrekonstruowane na podstawie danych 'Guide to the Markets' J.P. Morgan — nie stanowi porady inwestycyjnej.</text>
+  <line x1="50" y1="360" x2="650" y2="360" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="60" y="130" width="110" height="230" rx="6" fill="#4ade80" fill-opacity="0.75"/>
+  <rect x="218" y="222" width="110" height="138" rx="6" fill="#fbbf24" fill-opacity="0.75"/>
+  <rect x="376" y="280" width="110" height="80" rx="6" fill="#fb923c" fill-opacity="0.75"/>
+  <rect x="534" y="327" width="110" height="33" rx="6" fill="#f87171" fill-opacity="0.75"/>
+  <text x="115" y="115" fill="#4ade80" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">10.60%</text>
+  <text x="115" y="185" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="115" y="203" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$71,750</text>
+  <text x="273" y="207" fill="#fbbf24" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">6.37%</text>
+  <text x="273" y="275" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="273" y="293" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$32,871</text>
+  <text x="431" y="265" fill="#fb923c" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">3.69%</text>
+  <text x="589" y="312" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">1.53%</text>
+  <text x="115" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Pozostał</text>
+  <text x="115" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">zainwestowany</text>
+  <text x="273" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Ominięto</text>
+  <text x="273" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">10 najlepszych</text>
+  <text x="431" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Ominięto</text>
+  <text x="431" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">20 najlepszych</text>
+  <text x="589" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Ominięto</text>
+  <text x="589" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">30 najlepszych</text>
+  <text x="350" y="416" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10 dni to 0.2% z ~5,000 dni handlowych w 20 lat — Źródło: J.P. Morgan Asset Management</text>
+</svg>
+</div>
+
+<div class="it">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">S&amp;P 500 Rendimento Annualizzato a 20 Anni — Più Giorni Migliori Perdi</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Esempio illustrativo, ricostruito dai dati 'Guide to the Markets' di J.P. Morgan — non è consulenza di investimento.</text>
+  <line x1="50" y1="360" x2="650" y2="360" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="60" y="130" width="110" height="230" rx="6" fill="#4ade80" fill-opacity="0.75"/>
+  <rect x="218" y="222" width="110" height="138" rx="6" fill="#fbbf24" fill-opacity="0.75"/>
+  <rect x="376" y="280" width="110" height="80" rx="6" fill="#fb923c" fill-opacity="0.75"/>
+  <rect x="534" y="327" width="110" height="33" rx="6" fill="#f87171" fill-opacity="0.75"/>
+  <text x="115" y="115" fill="#4ade80" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">10.60%</text>
+  <text x="115" y="185" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="115" y="203" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$71,750</text>
+  <text x="273" y="207" fill="#fbbf24" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">6.37%</text>
+  <text x="273" y="275" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="273" y="293" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$32,871</text>
+  <text x="431" y="265" fill="#fb923c" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">3.69%</text>
+  <text x="589" y="312" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">1.53%</text>
+  <text x="115" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Rimasto</text>
+  <text x="115" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">investito</text>
+  <text x="273" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Perso</text>
+  <text x="273" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">i 10 migliori</text>
+  <text x="431" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Perso</text>
+  <text x="431" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">i 20 migliori</text>
+  <text x="589" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Perso</text>
+  <text x="589" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">i 30 migliori</text>
+  <text x="350" y="416" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10 giorni sono lo 0.2% dei ~5,000 giorni di negoziazione in 20 anni — Fonte: J.P. Morgan Asset Management</text>
+</svg>
+</div>
+
+<div class="ru">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">S&amp;P 500: Годовая Доходность за 20 Лет — Чем Больше Лучших Дней Вы Пропускаете</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Иллюстрация, реконструированная по данным 'Guide to the Markets' J.P. Morgan — не является инвестиционной рекомендацией.</text>
+  <line x1="50" y1="360" x2="650" y2="360" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="60" y="130" width="110" height="230" rx="6" fill="#4ade80" fill-opacity="0.75"/>
+  <rect x="218" y="222" width="110" height="138" rx="6" fill="#fbbf24" fill-opacity="0.75"/>
+  <rect x="376" y="280" width="110" height="80" rx="6" fill="#fb923c" fill-opacity="0.75"/>
+  <rect x="534" y="327" width="110" height="33" rx="6" fill="#f87171" fill-opacity="0.75"/>
+  <text x="115" y="115" fill="#4ade80" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">10.60%</text>
+  <text x="115" y="185" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="115" y="203" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$71,750</text>
+  <text x="273" y="207" fill="#fbbf24" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">6.37%</text>
+  <text x="273" y="275" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="273" y="293" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$32,871</text>
+  <text x="431" y="265" fill="#fb923c" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">3.69%</text>
+  <text x="589" y="312" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">1.53%</text>
+  <text x="115" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Оставался</text>
+  <text x="115" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">в рынке</text>
+  <text x="273" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Пропущено</text>
+  <text x="273" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">10 лучших</text>
+  <text x="431" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Пропущено</text>
+  <text x="431" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">20 лучших</text>
+  <text x="589" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Пропущено</text>
+  <text x="589" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">30 лучших</text>
+  <text x="350" y="416" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10 дней — это 0.2% от ~5,000 торговых дней за 20 лет — Источник: J.P. Morgan Asset Management</text>
+</svg>
+</div>
+
+<div class="zh">
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">標普500 20年年化報酬率——錯過的最佳日越多</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">示意圖,依據摩根大通《市場指南》資料重建——非投資建議。</text>
+  <line x1="50" y1="360" x2="650" y2="360" stroke="#3f3f46" stroke-width="1"/>
+  <rect x="60" y="130" width="110" height="230" rx="6" fill="#4ade80" fill-opacity="0.75"/>
+  <rect x="218" y="222" width="110" height="138" rx="6" fill="#fbbf24" fill-opacity="0.75"/>
+  <rect x="376" y="280" width="110" height="80" rx="6" fill="#fb923c" fill-opacity="0.75"/>
+  <rect x="534" y="327" width="110" height="33" rx="6" fill="#f87171" fill-opacity="0.75"/>
+  <text x="115" y="115" fill="#4ade80" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">10.60%</text>
+  <text x="115" y="185" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="115" y="203" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$71,750</text>
+  <text x="273" y="207" fill="#fbbf24" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">6.37%</text>
+  <text x="273" y="275" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">$10,000</text>
+  <text x="273" y="293" fill="#0a0a0a" font-size="13" text-anchor="middle" font-family="sans-serif">→$32,871</text>
+  <text x="431" y="265" fill="#fb923c" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">3.69%</text>
+  <text x="589" y="312" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">1.53%</text>
+  <text x="115" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">持續</text>
+  <text x="115" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">持有</text>
+  <text x="273" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">錯過</text>
+  <text x="273" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">最佳10天</text>
+  <text x="431" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">錯過</text>
+  <text x="431" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">最佳20天</text>
+  <text x="589" y="380" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">錯過</text>
+  <text x="589" y="397" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">最佳30天</text>
+  <text x="350" y="416" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">10天佔20年約5,000個交易日的0.2%——資料來源:J.P. Morgan Asset Management</text>
+</svg>
+</div>
+
 <p class="ko">이 네 개 막대의 격차가 말해주는 건 결국 하나다 — 최종 지점을 가르는 원인은 트레이더의 실력이나 분석력이 아니라, 단 며칠 동안 포지션을 들고 있었는지 여부라는 것이다. 20년, 약 5,000거래일 중 단 10일을 사전에 골라내 피하거나 붙잡을 수 있다고 믿는 것 자체가, 다음 장에서 다룰 과신의 전형적인 형태이기도 하다.</p>
 <p class="en">What these four bars ultimately say is one thing: what separates the final outcomes isn't a trader's skill or analytical prowess, but simply whether a position was held on a handful of specific days. Believing you can pick out, in advance, the ten days out of roughly 5,000 trading days over 20 years — and either dodge or capture them — is itself a textbook form of the overconfidence discussed in the next section.</p>
 <p class="ja">この4本の棒グラフの格差が語るのは結局ひとつだ——最終地点を分けるのはトレーダーの技量や分析力ではなく、単にわずか数日間ポジションを保有していたかどうかだということだ。20年、約5,000取引日のうちわずか10日を事前に選び出して避けたり捉えたりできると信じること自体が、次の節で扱う過信の典型的な形なのだ。</p>
@@ -463,6 +608,11 @@
 <p class="pt">O que essas quatro barras dizem, no fim das contas, é uma coisa só: o que separa os resultados finais não é a habilidade ou a capacidade analítica de um trader, mas simplesmente se uma posição foi mantida em um punhado de dias específicos. Acreditar que é possível identificar de antemão esses dez dias entre os cerca de 5.000 dias de negociação em 20 anos — e evitá-los ou capturá-los — é, em si, uma forma clássica do excesso de confiança abordado na próxima seção.</p>
 <p class="tr">Bu dört çubuğun anlattığı tek bir şey var — nihai sonuçları ayıran şey bir trader'ın becerisi ya da analiz gücü değil, yalnızca birkaç belirli günde pozisyonda olup olmadığıdır. 20 yılda yaklaşık 5.000 işlem gününden o on güncü önceden seçip kaçınabileceğine ya da yakalayabileceğine inanmak, bir sonraki bölümde ele alınan aşırı özgüvenin ders kitabı örneğidir.</p>
 <p class="vi">Điều mà bốn cột này cuối cùng muốn nói chỉ có một: điều tạo ra khác biệt trong kết quả cuối cùng không phải là kỹ năng hay khả năng phân tích của nhà giao dịch, mà đơn giản là việc có giữ vị thế trong một nhúm ngày cụ thể hay không. Tin rằng mình có thể chọn trước mười ngày trong khoảng 5.000 ngày giao dịch của 20 năm — rồi né tránh hoặc nắm bắt chúng — tự nó đã là một dạng điển hình của sự tự tin thái quá sẽ được bàn đến ở phần tiếp theo.</p>
+<p class="id">Apa yang pada akhirnya dikatakan oleh keempat batang ini hanya satu: yang membedakan hasil akhir bukanlah keterampilan atau ketajaman analisis trader, melainkan sekadar apakah suatu posisi dipertahankan pada segelintir hari tertentu. Meyakini bahwa Anda bisa memilih terlebih dahulu sepuluh hari dari sekitar 5,000 hari perdagangan selama 20 tahun — lalu menghindari atau menangkapnya — itu sendiri sudah menjadi bentuk klasik dari overconfidence yang dibahas di bagian berikutnya.</p>
+<p class="pl">To, co ostatecznie mówią te cztery słupki, sprowadza się do jednego: to, co dzieli końcowe wyniki, to nie umiejętności czy analityczna przenikliwość tradera, lecz po prostu to, czy pozycja była utrzymywana w garstce konkretnych dni. Wiara, że można z góry wytypować dziesięć dni spośród około 5,000 dni handlowych w ciągu 20 lat — i albo ich uniknąć, albo je uchwycić — jest sama w sobie podręcznikowym przykładem nadmiernej pewności siebie, o której mowa w kolejnej części.</p>
+<p class="it">Ciò che queste quattro barre alla fine dicono è una sola cosa: ciò che separa i risultati finali non è l'abilità o l'acume analitico di un trader, ma semplicemente se una posizione è stata mantenuta in una manciata di giorni specifici. Credere di poter individuare in anticipo i dieci giorni su circa 5,000 giorni di negoziazione in 20 anni — e schivarli o coglierli — è di per sé una forma da manuale dell'eccesso di fiducia discusso nella prossima sezione.</p>
+<p class="ru">В конечном счёте эти четыре столбца говорят об одном: итоговые результаты разделяет не мастерство трейдера и не его аналитические способности, а просто то, удерживалась ли позиция в горстке конкретных дней. Вера в то, что можно заранее вычислить эти десять дней из примерно 5,000 торговых дней за 20 лет — и либо избежать их, либо поймать, — сама по себе является хрестоматийной формой чрезмерной самоуверенности, которая обсуждается в следующем разделе.</p>
+<p class="zh">這四根柱狀圖最終想說的只有一件事:決定最終結果的不是交易者的技巧或分析能力,而僅僅是在少數幾個特定日子是否持有部位。相信自己能事先從20年約5,000個交易日中挑出那十天——並且成功躲開或抓住它們——這種信念本身,就是下一節將討論的過度自信的典型範例。</p>
 
 <h2 class="ko">그런데도 발을 빼고 싶어지는 이유 — 공포는 타이밍을 가리지 않는다</h2>
 <h2 class="en">Why You Still Want to Step Away — Fear Doesn't Care About Timing</h2>
@@ -473,6 +623,11 @@
 <h2 class="pt">Por Que Você Ainda Quer Se Afastar — o Medo Não Liga Para o Timing</h2>
 <h2 class="tr">Yine de Neden Çekilmek İstersiniz — Korku Zamanlamayı Umursamaz</h2>
 <h2 class="vi">Vì Sao Bạn Vẫn Muốn Rời Đi — Nỗi Sợ Không Quan Tâm Đến Thời Điểm</h2>
+<h2 class="id">Mengapa Anda Tetap Ingin Menepi — Rasa Takut Tidak Peduli pada Waktu</h2>
+<h2 class="pl">Dlaczego Mimo Wszystko Chcesz Odejść — Strach Nie Dba o Czas</h2>
+<h2 class="it">Perché Si Vuole Comunque Tirarsi Indietro — la Paura Non Bada al Momento</h2>
+<h2 class="ru">Почему Всё Равно Хочется Уйти — Страху Нет Дела до Тайминга</h2>
+<h2 class="zh">為何你仍然想抽身——恐懼不在乎時機</h2>
 
 <p class="ko">문제는 이 통계를 안다고 해서 행동이 바뀌지 않는다는 데 있다. 검은 목요일 같은 날, 계좌가 하루 만에 40% 줄어드는 걸 보면서 "일단 빠져나와서 상황을 지켜보자"는 충동은 지극히 합리적으로 느껴진다. <a href="/blog/hot-cold-empathy-gap-trading-discipline">뜨거운 감정 상태에서 내린 결정이 차가운 상태에서 세운 계획을 뒤엎는다는 연구</a>가 보여주듯, 공포탐욕지수가 극단적 공포를 가리키는 바로 그 순간 계좌를 정리하고 싶은 충동은 최고조에 달한다 — 그런데 J.P.모건과 에스트라다의 데이터가 보여주는 건 정확히 그 순간이 통계적으로 최고의 날이 나올 확률이 가장 높은 구간이라는 사실이다.</p>
 <p class="en">The problem is that knowing this statistic doesn't change behavior. On a day like Black Thursday, watching your account shrink 40% in a single day, the urge to "get out for now and watch from the sidelines" feels entirely rational. As <a href="/en/blog/hot-cold-empathy-gap-trading-discipline">research on how decisions made in a "hot" emotional state overturn plans set in a "cold" one</a> shows, the urge to liquidate peaks at exactly the moment the Fear &amp; Greed Index reads extreme fear — yet the J.P. Morgan and Estrada data show that this exact moment is statistically when a best day is most likely to arrive.</p>
