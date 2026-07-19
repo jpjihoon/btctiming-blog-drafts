@@ -435,6 +435,206 @@
   <text x="20" y="528" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: InsiderFinance (gamma ròng), Yahoo Finance, Investing.com (điểm đảo chiều gamma), BitcoinWorld (max pain, tỷ lệ put/call)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Gamma Flip Ada di Atas, Bitcoin Ada di Bawah</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Level harga vs rezim gamma dan sinyal pasar opsi (per 14 Juli)</text>
+  <rect x="90" y="70" width="280" height="55" rx="6" fill="#a78bfa"/>
+  <text x="100" y="93" fill="#18181b" font-family="sans-serif" font-size="14" font-weight="700">Zona Gamma Flip</text>
+  <text x="100" y="113" fill="#18181b" font-family="sans-serif" font-size="13">$68,000-$70,000 (estimasi)</text>
+  <line x1="90" y1="150" x2="370" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="145" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">Resistensi (double top) $63,731</text>
+  <rect x="90" y="165" width="280" height="55" rx="6" fill="#38bdf8"/>
+  <text x="100" y="188" fill="#0c1220" font-family="sans-serif" font-size="14" font-weight="800">Harga Saat Ini (7/14)</text>
+  <text x="100" y="208" fill="#0c1220" font-family="sans-serif" font-size="13">$62,550-$63,700</text>
+  <line x1="90" y1="240" x2="370" y2="240" stroke="#71717a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="235" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="700">Support $61,190-$62,125</text>
+  <rect x="90" y="255" width="280" height="45" rx="6" fill="#3f3f46"/>
+  <text x="100" y="275" fill="#e4e4e7" font-family="sans-serif" font-size="13">Titik Terendah 30 Juni ~$57,900</text>
+  <text x="100" y="292" fill="#71717a" font-family="sans-serif" font-size="12">(-8-10% vs saat ini)</text>
+  <text x="390" y="100" fill="#71717a" font-family="sans-serif" font-size="12">Di atas: hedging</text>
+  <text x="390" y="116" fill="#71717a" font-family="sans-serif" font-size="12">dealer menstabilkan</text>
+  <text x="390" y="195" fill="#71717a" font-family="sans-serif" font-size="12">Zona ini sekarang:</text>
+  <text x="390" y="211" fill="#71717a" font-family="sans-serif" font-size="12">gamma negatif</text>
+  <rect x="20" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Eksposur Gamma Bersih (6/30)</text>
+  <text x="40" y="394" fill="#f87171" font-family="sans-serif" font-size="20" font-weight="800">-92,790</text>
+  <text x="40" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Call 65,340 · Put -158,120</text>
+  <text x="40" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Bobot call 29.2%</text>
+  <rect x="245" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="265" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Tren Max Pain</text>
+  <text x="265" y="394" fill="#38bdf8" font-family="sans-serif" font-size="20" font-weight="800">$61.0K → $62.0K</text>
+  <text x="265" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Kedaluwarsa 7/3 → 7/10</text>
+  <text x="265" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Mengejar spot naik</text>
+  <rect x="470" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="490" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Rasio Put/Call (kedaluwarsa 7/10)</text>
+  <text x="490" y="394" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">0.97</text>
+  <text x="490" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Notional $1.47B</text>
+  <text x="490" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Hampir seimbang (netral)</text>
+  <text x="20" y="510" fill="#71717a" font-family="sans-serif" font-size="12">* Jarak antar zona harga bersifat skematis, bukan skala sebenarnya. Angka merupakan perkiraan menurut masing-masing penyedia data.</text>
+  <text x="20" y="528" fill="#71717a" font-family="sans-serif" font-size="12">Sumber: InsiderFinance (gamma bersih), Yahoo Finance, Investing.com (gamma flip), BitcoinWorld (max pain, rasio put/call)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Gamma Flip Jest Powyżej, Bitcoin Jest Poniżej</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Poziomy cen a reżim gamma i sygnały rynku opcji (stan na 14 lipca)</text>
+  <rect x="90" y="70" width="280" height="55" rx="6" fill="#a78bfa"/>
+  <text x="100" y="93" fill="#18181b" font-family="sans-serif" font-size="14" font-weight="700">Strefa Gamma Flip</text>
+  <text x="100" y="113" fill="#18181b" font-family="sans-serif" font-size="13">$68,000-$70,000 (szac.)</text>
+  <line x1="90" y1="150" x2="370" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="145" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">Opór (podwójny szczyt) $63,731</text>
+  <rect x="90" y="165" width="280" height="55" rx="6" fill="#38bdf8"/>
+  <text x="100" y="188" fill="#0c1220" font-family="sans-serif" font-size="14" font-weight="800">Aktualna Cena (14/7)</text>
+  <text x="100" y="208" fill="#0c1220" font-family="sans-serif" font-size="13">$62,550-$63,700</text>
+  <line x1="90" y1="240" x2="370" y2="240" stroke="#71717a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="235" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="700">Wsparcie $61,190-$62,125</text>
+  <rect x="90" y="255" width="280" height="45" rx="6" fill="#3f3f46"/>
+  <text x="100" y="275" fill="#e4e4e7" font-family="sans-serif" font-size="13">Dołek z 30 czerwca ~$57,900</text>
+  <text x="100" y="292" fill="#71717a" font-family="sans-serif" font-size="12">(-8-10% vs aktualna)</text>
+  <text x="390" y="100" fill="#71717a" font-family="sans-serif" font-size="12">Powyżej: hedging</text>
+  <text x="390" y="116" fill="#71717a" font-family="sans-serif" font-size="12">dealerów stabilizuje</text>
+  <text x="390" y="195" fill="#71717a" font-family="sans-serif" font-size="12">Ta strefa teraz:</text>
+  <text x="390" y="211" fill="#71717a" font-family="sans-serif" font-size="12">gamma ujemna</text>
+  <rect x="20" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Ekspozycja Gamma Netto (30/6)</text>
+  <text x="40" y="394" fill="#f87171" font-family="sans-serif" font-size="20" font-weight="800">-92,790</text>
+  <text x="40" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Call 65,340 · Put -158,120</text>
+  <text x="40" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Waga call 29.2%</text>
+  <rect x="245" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="265" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Trend Max Pain</text>
+  <text x="265" y="394" fill="#38bdf8" font-family="sans-serif" font-size="20" font-weight="800">$61.0K → $62.0K</text>
+  <text x="265" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Wygaśnięcie 3/7 → 10/7</text>
+  <text x="265" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Goni spot w górę</text>
+  <rect x="470" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="490" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Wskaźnik Put/Call (wygaśnięcie 10/7)</text>
+  <text x="490" y="394" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">0.97</text>
+  <text x="490" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Wartość nominalna $1.47B</text>
+  <text x="490" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Niemal zrównoważony (neutralny)</text>
+  <text x="20" y="510" fill="#71717a" font-family="sans-serif" font-size="12">* Odstępy między strefami cenowymi mają charakter poglądowy, nie odzwierciedlają rzeczywistej skali. Wartości są przybliżone według poszczególnych dostawców danych.</text>
+  <text x="20" y="528" fill="#71717a" font-family="sans-serif" font-size="12">Źródła: InsiderFinance (gamma netto), Yahoo Finance, Investing.com (gamma flip), BitcoinWorld (max pain, wskaźnik put/call)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Il Gamma Flip È Sopra, il Bitcoin È Sotto</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Livelli di prezzo vs regime gamma e segnali del mercato delle opzioni (al 14 luglio)</text>
+  <rect x="90" y="70" width="280" height="55" rx="6" fill="#a78bfa"/>
+  <text x="100" y="93" fill="#18181b" font-family="sans-serif" font-size="14" font-weight="700">Zona Gamma Flip</text>
+  <text x="100" y="113" fill="#18181b" font-family="sans-serif" font-size="13">$68,000-$70,000 (stim.)</text>
+  <line x1="90" y1="150" x2="370" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="145" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">Resistenza (doppio massimo) $63,731</text>
+  <rect x="90" y="165" width="280" height="55" rx="6" fill="#38bdf8"/>
+  <text x="100" y="188" fill="#0c1220" font-family="sans-serif" font-size="14" font-weight="800">Prezzo Attuale (14/7)</text>
+  <text x="100" y="208" fill="#0c1220" font-family="sans-serif" font-size="13">$62,550-$63,700</text>
+  <line x1="90" y1="240" x2="370" y2="240" stroke="#71717a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="235" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="700">Supporto $61,190-$62,125</text>
+  <rect x="90" y="255" width="280" height="45" rx="6" fill="#3f3f46"/>
+  <text x="100" y="275" fill="#e4e4e7" font-family="sans-serif" font-size="13">Minimo del 30 giugno ~$57,900</text>
+  <text x="100" y="292" fill="#71717a" font-family="sans-serif" font-size="12">(-8-10% vs attuale)</text>
+  <text x="390" y="100" fill="#71717a" font-family="sans-serif" font-size="12">Sopra: la copertura</text>
+  <text x="390" y="116" fill="#71717a" font-family="sans-serif" font-size="12">dei dealer stabilizza</text>
+  <text x="390" y="195" fill="#71717a" font-family="sans-serif" font-size="12">Questa zona ora:</text>
+  <text x="390" y="211" fill="#71717a" font-family="sans-serif" font-size="12">gamma negativa</text>
+  <rect x="20" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Esposizione Gamma Netta (30/6)</text>
+  <text x="40" y="394" fill="#f87171" font-family="sans-serif" font-size="20" font-weight="800">-92,790</text>
+  <text x="40" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Call 65,340 · Put -158,120</text>
+  <text x="40" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Peso call 29.2%</text>
+  <rect x="245" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="265" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Andamento Max Pain</text>
+  <text x="265" y="394" fill="#38bdf8" font-family="sans-serif" font-size="20" font-weight="800">$61.0K → $62.0K</text>
+  <text x="265" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Scadenza 3/7 → 10/7</text>
+  <text x="265" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Insegue lo spot al rialzo</text>
+  <rect x="470" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="490" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Rapporto Put/Call (scadenza 10/7)</text>
+  <text x="490" y="394" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">0.97</text>
+  <text x="490" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Nozionale $1.47B</text>
+  <text x="490" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Quasi equilibrato (neutrale)</text>
+  <text x="20" y="510" fill="#71717a" font-family="sans-serif" font-size="12">* La distanza tra le zone di prezzo è schematica, non in scala reale. I dati sono approssimativi secondo ciascun fornitore.</text>
+  <text x="20" y="528" fill="#71717a" font-family="sans-serif" font-size="12">Fonti: InsiderFinance (gamma netta), Yahoo Finance, Investing.com (gamma flip), BitcoinWorld (max pain, rapporto put/call)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Разворот Гаммы Выше, Биткоин Ниже</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">Уровни цены и режим гаммы и сигналы рынка опционов (по состоянию на 14 июля)</text>
+  <rect x="90" y="70" width="280" height="55" rx="6" fill="#a78bfa"/>
+  <text x="100" y="93" fill="#18181b" font-family="sans-serif" font-size="14" font-weight="700">Зона Разворота Гаммы</text>
+  <text x="100" y="113" fill="#18181b" font-family="sans-serif" font-size="13">$68,000-$70,000 (оцен.)</text>
+  <line x1="90" y1="150" x2="370" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="145" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">Сопротивление (двойная вершина) $63,731</text>
+  <rect x="90" y="165" width="280" height="55" rx="6" fill="#38bdf8"/>
+  <text x="100" y="188" fill="#0c1220" font-family="sans-serif" font-size="14" font-weight="800">Текущая Цена (14.7)</text>
+  <text x="100" y="208" fill="#0c1220" font-family="sans-serif" font-size="13">$62,550-$63,700</text>
+  <line x1="90" y1="240" x2="370" y2="240" stroke="#71717a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="235" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="700">Поддержка $61,190-$62,125</text>
+  <rect x="90" y="255" width="280" height="45" rx="6" fill="#3f3f46"/>
+  <text x="100" y="275" fill="#e4e4e7" font-family="sans-serif" font-size="13">Минимум 30 июня ~$57,900</text>
+  <text x="100" y="292" fill="#71717a" font-family="sans-serif" font-size="12">(-8-10% к текущей)</text>
+  <text x="390" y="100" fill="#71717a" font-family="sans-serif" font-size="12">Выше: хеджирование</text>
+  <text x="390" y="116" fill="#71717a" font-family="sans-serif" font-size="12">дилеров стабилизирует</text>
+  <text x="390" y="195" fill="#71717a" font-family="sans-serif" font-size="12">Эта зона сейчас:</text>
+  <text x="390" y="211" fill="#71717a" font-family="sans-serif" font-size="12">отрицательная гамма</text>
+  <rect x="20" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Чистая Гамма-Экспозиция (30.6)</text>
+  <text x="40" y="394" fill="#f87171" font-family="sans-serif" font-size="20" font-weight="800">-92,790</text>
+  <text x="40" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Call 65,340 · Put -158,120</text>
+  <text x="40" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Вес call 29.2%</text>
+  <rect x="245" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="265" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Динамика Max Pain</text>
+  <text x="265" y="394" fill="#38bdf8" font-family="sans-serif" font-size="20" font-weight="800">$61.0K → $62.0K</text>
+  <text x="265" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Экспирация 3.7 → 10.7</text>
+  <text x="265" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Догоняет спот вверх</text>
+  <rect x="470" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="490" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">Соотношение Put/Call (экспирация 10.7)</text>
+  <text x="490" y="394" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">0.97</text>
+  <text x="490" y="418" fill="#71717a" font-family="sans-serif" font-size="12">Номинал $1.47B</text>
+  <text x="490" y="436" fill="#71717a" font-family="sans-serif" font-size="12">Почти сбалансировано (нейтрально)</text>
+  <text x="20" y="510" fill="#71717a" font-family="sans-serif" font-size="12">* Расстояние между ценовыми зонами схематично и не отражает реальный масштаб. Цифры приблизительны согласно каждому поставщику данных.</text>
+  <text x="20" y="528" fill="#71717a" font-family="sans-serif" font-size="12">Источники: InsiderFinance (чистая гамма), Yahoo Finance, Investing.com (разворот гаммы), BitcoinWorld (max pain, соотношение put/call)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">伽瑪翻轉點在上,比特幣在下</text>
+  <text x="20" y="48" fill="#a1a1aa" font-family="sans-serif" font-size="13">各價位區間對應的伽瑪體制與選擇權市場訊號(截至7月14日)</text>
+  <rect x="90" y="70" width="280" height="55" rx="6" fill="#a78bfa"/>
+  <text x="100" y="93" fill="#18181b" font-family="sans-serif" font-size="14" font-weight="700">伽瑪翻轉區間</text>
+  <text x="100" y="113" fill="#18181b" font-family="sans-serif" font-size="13">$68,000-$70,000(估計)</text>
+  <line x1="90" y1="150" x2="370" y2="150" stroke="#f87171" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="145" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="700">阻力(雙頂) $63,731</text>
+  <rect x="90" y="165" width="280" height="55" rx="6" fill="#38bdf8"/>
+  <text x="100" y="188" fill="#0c1220" font-family="sans-serif" font-size="14" font-weight="800">目前價格(7/14)</text>
+  <text x="100" y="208" fill="#0c1220" font-family="sans-serif" font-size="13">$62,550-$63,700</text>
+  <line x1="90" y1="240" x2="370" y2="240" stroke="#71717a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="100" y="235" fill="#a1a1aa" font-family="sans-serif" font-size="13" font-weight="700">支撐 $61,190-$62,125</text>
+  <rect x="90" y="255" width="280" height="45" rx="6" fill="#3f3f46"/>
+  <text x="100" y="275" fill="#e4e4e7" font-family="sans-serif" font-size="13">6月30日低點 ~$57,900</text>
+  <text x="100" y="292" fill="#71717a" font-family="sans-serif" font-size="12">(較目前 -8-10%)</text>
+  <text x="390" y="100" fill="#71717a" font-family="sans-serif" font-size="12">上方:交易商避險</text>
+  <text x="390" y="116" fill="#71717a" font-family="sans-serif" font-size="12">轉為穩定</text>
+  <text x="390" y="195" fill="#71717a" font-family="sans-serif" font-size="12">目前所在區間:</text>
+  <text x="390" y="211" fill="#71717a" font-family="sans-serif" font-size="12">負伽瑪</text>
+  <rect x="20" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="40" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">淨伽瑪曝險(6/30)</text>
+  <text x="40" y="394" fill="#f87171" font-family="sans-serif" font-size="20" font-weight="800">-92,790</text>
+  <text x="40" y="418" fill="#71717a" font-family="sans-serif" font-size="12">買權65,340・賣權-158,120</text>
+  <text x="40" y="436" fill="#71717a" font-family="sans-serif" font-size="12">買權權重29.2%</text>
+  <rect x="245" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="265" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">最大痛苦走勢</text>
+  <text x="265" y="394" fill="#38bdf8" font-family="sans-serif" font-size="20" font-weight="800">$61.0K → $62.0K</text>
+  <text x="265" y="418" fill="#71717a" font-family="sans-serif" font-size="12">7/3到期 → 7/10到期</text>
+  <text x="265" y="436" fill="#71717a" font-family="sans-serif" font-size="12">追漲現貨</text>
+  <rect x="470" y="330" width="210" height="150" rx="10" fill="#18181b" stroke="#3f3f46"/>
+  <text x="490" y="360" fill="#a1a1aa" font-family="sans-serif" font-size="13">買賣權比率(7/10到期)</text>
+  <text x="490" y="394" fill="#34d399" font-family="sans-serif" font-size="20" font-weight="800">0.97</text>
+  <text x="490" y="418" fill="#71717a" font-family="sans-serif" font-size="12">名目金額$1.47B</text>
+  <text x="490" y="436" fill="#71717a" font-family="sans-serif" font-size="12">接近平衡(中性)</text>
+  <text x="20" y="510" fill="#71717a" font-family="sans-serif" font-size="12">※ 價位區間之間的間距僅為示意圖,非實際比例。數值為各資料提供方之概略值。</text>
+  <text x="20" y="528" fill="#71717a" font-family="sans-serif" font-size="12">資料來源:InsiderFinance(淨伽瑪)、雅虎財經、Investing.com(伽瑪翻轉)、BitcoinWorld(最大痛苦、買賣權比率)</text>
+</svg>
+</div>
 
 <h2 class="ko">맥스페인은 목표가 아니라 그림자다 — 매주 값이 올라붙는 이유</h2>
 <h2 class="en">Max Pain Isn't a Target, It's a Shadow — Why the Number Keeps Climbing Each Week</h2>
@@ -445,6 +645,11 @@
 <h2 class="pt">Max Pain Não é um Alvo, é uma Sombra — Por Que o Número Continua Subindo a Cada Semana</h2>
 <h2 class="tr">Max Pain Bir Hedef Değil, Bir Gölgedir — Rakam Neden Her Hafta Yükselmeye Devam Ediyor</h2>
 <h2 class="vi">Max Pain Không Phải Là Mục Tiêu, Đó Là Một Cái Bóng — Tại Sao Con Số Cứ Tăng Lên Mỗi Tuần</h2>
+<h2 class="id">Max Pain Bukan Target, Melainkan Bayangan — Mengapa Angkanya Terus Naik Setiap Minggu</h2>
+<h2 class="pl">Max Pain to Nie Cel, Lecz Cień — Dlaczego Liczba Wciąż Rośnie Każdego Tygodnia</h2>
+<h2 class="it">Il Max Pain Non È un Obiettivo, È un'Ombra — Perché il Numero Continua a Salire Ogni Settimana</h2>
+<h2 class="ru">Max Pain — Не Цель, а Тень — Почему Число Продолжает Расти Каждую Неделю</h2>
+<h2 class="zh">最大痛苦不是目標,而是影子——為何這個數字每週持續攀升</h2>
 
 <p class="ko">비트코인월드가 집계한 디리빗 데이터에 따르면 7월3일 만기(노셔널 19억달러)의 맥스페인은 6만1,000달러였고, 일주일 뒤인 7월10일 만기(노셔널 14억7,000만달러, 풋콜비율 0.97)의 맥스페인은 6만2,000달러로 올라왔다. 두 시점 모두 현물가가 그 언저리에서 움직이고 있었다는 점을 감안하면, 맥스페인이 '가격을 그 쪽으로 끌어당기는 자석' 역할을 했다기보다, 현물가를 그대로 뒤쫓아 다시 계산된 결과에 가깝다.</p>
 <p class="en">Per Deribit data compiled by BitcoinWorld, max pain for the July 3 expiry (notional $1.9 billion) stood at $61,000, and a week later, for the July 10 expiry (notional $1.47 billion, put/call ratio 0.97), it had risen to $62,000. Given that spot price was trading near those levels both times, max pain looks less like a magnet pulling price toward it than a number that gets recalculated to chase wherever spot already is.</p>
