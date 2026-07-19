@@ -105,14 +105,6 @@
 
         </div><!-- /wgConfig -->
 
-        <!-- 플로팅 위젯 (사이트 위 상주) -->
-        <button onclick="btcLaunchFloating();syncWgToggle();" style="width:100%;margin-top:10px;background:rgba(247,147,26,.14);border:1px solid rgba(247,147,26,.5);border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span style="font-size:15px">📌</span><span id="wgTxt_pin" style="color:#f7931a;font-weight:700">Pin widget on screen</span>
-        </button>
-        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
-          <span id="wgTxt_pinHint">Keeps a small live widget floating on this page — drag it anywhere.</span>
-        </div>
-
         <!-- 코드 복사 -->
         <div class="sset-label" id="wgTxt_code">Embed code (for your website)</div>
         <div class="wg-code-wrap">
