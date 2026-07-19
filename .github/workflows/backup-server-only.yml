@@ -1,0 +1,58 @@
+name: Backup server-only articles
+
+# 레포에 {slug}.php 가 없고 '서버에만' 있는 글 3편을 FTP로 받아 레포에 커밋(백업)한다.
+# (가이드 21.2 / 23) — FTP로 직접 올라간 글이라 repo-snapshot 백업에도 안 들어감. 수동 실행 전용.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: FTP로 서버전용 글 받기
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USER:   ${{ secrets.FTP_USERNAME }}
+          FTP_PASS:   ${{ secrets.FTP_PASSWORD }}
+        run: |
+          set -uo pipefail
+          SLUGS="genius-act-stablecoin-kyc-rule gnosis-pay-zodiac-hack-postmortem world-solana-prediction-market-phantom"
+          got=0
+          for s in $SLUGS; do
+            ok=""
+            # FTP 루트 구조가 확실치 않아 후보 경로를 차례로 시도한다(배포는 server-dir:/www/blog/).
+            for path in "/www/blog/$s.php" "/blog/$s.php" "blog/$s.php" "$s.php"; do
+              if curl -fsS --connect-timeout 20 --max-time 120 --ftp-pasv \
+                   -u "$FTP_USER:$FTP_PASS" "ftp://$FTP_SERVER$path" -o "$s.php" 2>/dev/null \
+                 && [ -s "$s.php" ] && grep -q '<' "$s.php"; then
+                echo "받음: $s.php  ← $path  ($(wc -c < "$s.php") bytes)"; ok=1; got=$((got+1)); break
+              fi
+            done
+            [ -n "$ok" ] || echo "::warning::$s.php 를 FTP 어느 경로에서도 못 받음"
+          done
+          echo "받은 글: $got / 3"
+          [ "$got" -gt 0 ] || { echo "::error::FTP 경로를 못 찾음 — deploy.yml 의 server-dir 확인 필요"; exit 1; }
+
+      - name: php 문법 검증
+        run: |
+          for s in genius-act-stablecoin-kyc-rule gnosis-pay-zodiac-hack-postmortem world-solana-prediction-market-phantom; do
+            [ -f "$s.php" ] && { php -l "$s.php" >/dev/null 2>&1 && echo "OK: $s.php" || echo "::warning::$s.php 문법 이상(서버 원본 그대로 백업)"; }
+          done
+
+      - name: 커밋
+        run: |
+          set -uo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- genius-act-stablecoin-kyc-rule.php gnosis-pay-zodiac-hack-postmortem.php world-solana-prediction-market-phantom.php 2>/dev/null || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: 서버전용 글 3편 레포 백업 (FTP)"
+            for i in 1 2 3 4 5; do git push && exit 0; echo "push 재시도 $i"; git pull --rebase origin main || true; sleep 3; done
+            echo "::error::push 실패"; exit 1
+          else echo "변경 없음(이미 백업됨)"; fi

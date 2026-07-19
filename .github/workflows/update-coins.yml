@@ -1,0 +1,36 @@
+name: Update Coins
+
+# 매일 바이낸스 상위 코인 목록 + OG 로고를 갱신한다.
+# ★ 예전엔 '외부 크론 서비스'가 ?token= 로 호출했는데, SNAPSHOT_TOKEN 을 새로 바꾸면 그 URL 이
+#   옛 토큰이라 403 이 났다(가이드 23). 이 워크플로우는 GitHub Secret 을 직접 써서 토큰이 항상 최신이다.
+#   → 이걸 켜면 '외부 크론 서비스'는 없애도 된다(꺼둬도 무해).
+
+on:
+  schedule:
+    - cron: '0 19 * * *'      # 매일 UTC 19:00 = KST 04:00
+  workflow_dispatch:
+    inputs:
+      relogo:
+        description: '코인 로고 강제 재수집(JPEG→PNG 등, 1회용). 평소엔 체크 안 함.'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: update_coins.php 호출
+        env:
+          SNAPSHOT_TOKEN: ${{ secrets.SNAPSHOT_TOKEN }}
+        run: |
+          set -uo pipefail
+          if [ -z "${SNAPSHOT_TOKEN:-}" ]; then echo "::error::SNAPSHOT_TOKEN 시크릿이 비어 있습니다."; exit 1; fi
+          URL="https://btctiming.com/update_coins.php?token=${SNAPSHOT_TOKEN}"
+          if [ "${{ inputs.relogo }}" = "true" ]; then URL="${URL}&relogo=1"; echo "★ 로고 강제 재수집 모드"; fi
+          code=$(curl -sS -o /tmp/uc.txt -w '%{http_code}' --max-time 180 "$URL") || code="000"
+          echo "HTTP $code"; head -c 600 /tmp/uc.txt; echo
+          [ "$code" = "200" ] || { echo "::error::update_coins 실패 (HTTP $code)"; exit 1; }
+          echo "코인 목록 갱신 완료"
