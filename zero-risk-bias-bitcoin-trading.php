@@ -335,6 +335,131 @@
 </svg>
 <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Minh họa khái niệm, không theo tỷ lệ thực tế.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Risikonya Berlawanan Arah. Jalan Keluarnya Sama Persis.</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Perbandingan penurunan · ilustrasi konseptual, tidak sesuai skala</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Keruntuhan FTX (Nov 2022)</text>
+  <line x1="130" y1="285" x2="300" y2="285" stroke="#fbbf24" stroke-dasharray="4,4"/>
+  <polyline points="60,110 100,130 140,115 175,180 215,230 255,205 285,270 300,285" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <text x="60" y="104" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$20.500</text>
+  <text x="300" y="304" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$15.476</text>
+  <text x="175" y="326" fill="#fbbf24" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-24,5%</text>
+  <text x="525" y="82" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Pembubaran Yen Carry Trade (Agu 2024)</text>
+  <line x1="480" y1="290" x2="650" y2="290" stroke="#38bdf8" stroke-dasharray="4,4"/>
+  <polyline points="410,100 460,110 510,160 560,230 605,270 650,290" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="410" y="94" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$64.000</text>
+  <text x="650" y="309" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$49.000</text>
+  <text x="525" y="326" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-23,4%</text>
+  <line x1="20" y1="352" x2="680" y2="352" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Arus masuk bersih stablecoin $1,04 miliar (terbesar ke-7 sepanjang masa) · Arus keluar bersih BTC 72,9 ribu/7 hari</text>
+  <text x="525" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Volume bitFlyer +241% ($220 juta) · Nasdaq -6%, S&amp;P 500 -4,25%</text>
+  <text x="350" y="398" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Kedua krisis menghasilkan penurunan yang hampir sama, sekitar -24%</text>
+  <text x="350" y="418" fill="#71717a" font-size="12.5" text-anchor="middle" font-family="sans-serif">Kepanikan tidak membedakan jenis risiko — di kedua kejadian, pasar merespons dengan keluar sepenuhnya</text>
+</svg>
+<p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustrasi konseptual, tidak sesuai skala sebenarnya.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Ryzyko Było Przeciwne. Wyjście Było Identyczne.</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Porównanie spadków · ilustracja koncepcyjna, niezachowana skala</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Upadek FTX (lis. 2022)</text>
+  <line x1="130" y1="285" x2="300" y2="285" stroke="#fbbf24" stroke-dasharray="4,4"/>
+  <polyline points="60,110 100,130 140,115 175,180 215,230 255,205 285,270 300,285" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <text x="60" y="104" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$20 500</text>
+  <text x="300" y="304" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$15 476</text>
+  <text x="175" y="326" fill="#fbbf24" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-24,5%</text>
+  <text x="525" y="82" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Rozwiązanie yen carry trade (sie. 2024)</text>
+  <line x1="480" y1="290" x2="650" y2="290" stroke="#38bdf8" stroke-dasharray="4,4"/>
+  <polyline points="410,100 460,110 510,160 560,230 605,270 650,290" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="410" y="94" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$64 000</text>
+  <text x="650" y="309" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$49 000</text>
+  <text x="525" y="326" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-23,4%</text>
+  <line x1="20" y1="352" x2="680" y2="352" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Napływ netto stablecoinów $1,04 mld (7. największy w historii) · Odpływ netto BTC 72,9 tys./7 dni</text>
+  <text x="525" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Wolumen bitFlyer +241% ($220 mln) · Nasdaq -6%, S&amp;P 500 -4,25%</text>
+  <text x="350" y="398" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Oba kryzysy dały niemal identyczny spadek, około -24%</text>
+  <text x="350" y="418" fill="#71717a" font-size="12.5" text-anchor="middle" font-family="sans-serif">Panika nie rozróżniała rodzajów ryzyka — za każdym razem rynek reagował całkowitym wyjściem</text>
+</svg>
+<p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ilustracja koncepcyjna, niezgodna z rzeczywistą skalą.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Il Rischio Era Opposto. L'Uscita È Stata Identica.</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Confronto dei cali · illustrazione concettuale, non in scala</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Crollo di FTX (nov. 2022)</text>
+  <line x1="130" y1="285" x2="300" y2="285" stroke="#fbbf24" stroke-dasharray="4,4"/>
+  <polyline points="60,110 100,130 140,115 175,180 215,230 255,205 285,270 300,285" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <text x="60" y="104" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$20.500</text>
+  <text x="300" y="304" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$15.476</text>
+  <text x="175" y="326" fill="#fbbf24" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-24,5%</text>
+  <text x="525" y="82" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Scioglimento del carry trade dello yen (ago. 2024)</text>
+  <line x1="480" y1="290" x2="650" y2="290" stroke="#38bdf8" stroke-dasharray="4,4"/>
+  <polyline points="410,100 460,110 510,160 560,230 605,270 650,290" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="410" y="94" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$64.000</text>
+  <text x="650" y="309" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$49.000</text>
+  <text x="525" y="326" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-23,4%</text>
+  <line x1="20" y1="352" x2="680" y2="352" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Afflusso netto di stablecoin $1,04 Mld (7° più grande di sempre) · Deflusso netto BTC 72,9k/7 giorni</text>
+  <text x="525" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Volume bitFlyer +241% ($220 Mln) · Nasdaq -6%, S&amp;P 500 -4,25%</text>
+  <text x="350" y="398" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Entrambe le crisi hanno prodotto un calo quasi identico, intorno al -24%</text>
+  <text x="350" y="418" fill="#71717a" font-size="12.5" text-anchor="middle" font-family="sans-serif">Il panico non ha distinto i tipi di rischio — in entrambi i casi il mercato ha reagito con un'uscita totale</text>
+</svg>
+<p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Illustrazione concettuale, non in scala.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Риск Был Противоположным. Выход — Идентичным.</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Сравнение просадок · концептуальная иллюстрация, не в масштабе</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Крах FTX (нояб. 2022)</text>
+  <line x1="130" y1="285" x2="300" y2="285" stroke="#fbbf24" stroke-dasharray="4,4"/>
+  <polyline points="60,110 100,130 140,115 175,180 215,230 255,205 285,270 300,285" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <text x="60" y="104" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$20 500</text>
+  <text x="300" y="304" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$15 476</text>
+  <text x="175" y="326" fill="#fbbf24" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-24,5%</text>
+  <text x="525" y="82" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Разворот иенового carry trade (авг. 2024)</text>
+  <line x1="480" y1="290" x2="650" y2="290" stroke="#38bdf8" stroke-dasharray="4,4"/>
+  <polyline points="410,100 460,110 510,160 560,230 605,270 650,290" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="410" y="94" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$64 000</text>
+  <text x="650" y="309" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$49 000</text>
+  <text x="525" y="326" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-23,4%</text>
+  <line x1="20" y1="352" x2="680" y2="352" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Чистый приток стейблкоинов $1,04 млрд (7-й по величине за всю историю) · Чистый отток BTC 72,9 тыс./7 дней</text>
+  <text x="525" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">Объём bitFlyer +241% ($220 млн) · Nasdaq -6%, S&amp;P 500 -4,25%</text>
+  <text x="350" y="398" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Оба кризиса дали почти одинаковую просадку, около -24%</text>
+  <text x="350" y="418" fill="#71717a" font-size="12.5" text-anchor="middle" font-family="sans-serif">Паника не различала типы риска — в обоих случаях рынок ответил полным выходом</text>
+</svg>
+<p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Концептуальная иллюстрация, не в масштабе.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">風險截然相反,逃離方式卻完全相同。</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">跌幅比較‧概念示意圖,非實際比例</text>
+  <line x1="350" y1="60" x2="350" y2="345" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="82" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">FTX崩潰(2022年11月)</text>
+  <line x1="130" y1="285" x2="300" y2="285" stroke="#fbbf24" stroke-dasharray="4,4"/>
+  <polyline points="60,110 100,130 140,115 175,180 215,230 255,205 285,270 300,285" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  <text x="60" y="104" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$20,500</text>
+  <text x="300" y="304" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$15,476</text>
+  <text x="175" y="326" fill="#fbbf24" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-24.5%</text>
+  <text x="525" y="82" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">日圓套利交易平倉(2024年8月)</text>
+  <line x1="480" y1="290" x2="650" y2="290" stroke="#38bdf8" stroke-dasharray="4,4"/>
+  <polyline points="410,100 460,110 510,160 560,230 605,270 650,290" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="410" y="94" fill="#d4d4d8" font-size="13" text-anchor="start" font-family="sans-serif">$64,000</text>
+  <text x="650" y="309" fill="#d4d4d8" font-size="13" text-anchor="end" font-family="sans-serif">$49,000</text>
+  <text x="525" y="326" fill="#38bdf8" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">-23.4%</text>
+  <line x1="20" y1="352" x2="680" y2="352" stroke="rgba(255,255,255,.08)"/>
+  <text x="175" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">穩定幣淨流入10.4億美元(史上第7大)‧比特幣淨流出7.29萬/7天</text>
+  <text x="525" y="372" fill="#a1a1aa" font-size="12.5" text-anchor="middle" font-family="sans-serif">bitFlyer成交量+241%(2.2億美元)‧那斯達克-6%,標普500 -4.25%</text>
+  <text x="350" y="398" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">兩場危機的跌幅幾乎相同,均在-24%左右</text>
+  <text x="350" y="418" fill="#71717a" font-size="12.5" text-anchor="middle" font-family="sans-serif">恐慌並未區分風險種類——兩次市場都以全面出場作為回應</text>
+</svg>
+<p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※概念示意圖,非實際比例。</p>
+</div>
 
 <p class="ko">그런데 2024년 8월 5일의 위기는 성격이 정반대였다. FTX처럼 특정 거래소나 발행사가 파산한 게 아니라, 일본은행의 금리 인상으로 엔화가 3주 만에 달러 대비 약 10% 절상되면서 엔 캐리 트레이드가 청산된, 순수한 매크로 레버리지 이벤트였다. 비트코인과의 관계는 간접적이었다 — 그런데도 비트코인과 이더리움은 하루 만에 최대 25%까지 밀렸고, 비트코인은 48시간 만에 64,000달러에서 49,000달러까지 떨어졌다(약 -23.4%). 일본 비트플라이어 거래소의 거래량은 24시간 만에 241% 급증해 2억 2천만 달러를 기록했고, 같은 날 나스닥은 6% 이상, S&amp;P500은 4.25% 빠졌다. FTX 때와 낙폭은 거의 동일했지만(-24.5% vs -23.4%), 이번엔 특정 상대방의 파산 위험이 애초에 존재하지 않았다. 그럼에도 시장의 반응 방식은 동일했다 — 부분적 리스크 축소가 아니라 전면적 이탈.</p>
 <p class="en">August 5, 2024 was the opposite kind of crisis. Nothing failed the way FTX failed; instead, the Bank of Japan's rate hike sent the yen up roughly 10% against the dollar in three weeks, unwinding the yen carry trade in a purely macro-leverage event. Bitcoin's connection to it was indirect — and yet Bitcoin and Ethereum both fell as much as 25% in a single day, with Bitcoin dropping from $64,000 to $49,000 in 48 hours (about -23.4%). Volume on Japan's bitFlyer exchange spiked 241% in 24 hours to $220 million, while the Nasdaq fell more than 6% and the S&amp;P 500 dropped 4.25% the same day. The drawdown was almost identical to FTX's (-24.5% versus -23.4%), but this time no specific counterparty was going bankrupt. The market's response mechanism was identical anyway — not partial de-risking, but total exit.</p>

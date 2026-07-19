@@ -581,6 +581,11 @@
 <h2 class="pt">Por Que o Silêncio Se Reforça a Si Mesmo — e Por Que Esse Silêncio É Mais Fino do Que Parece</h2>
 <h2 class="tr">Sessizlik Neden Kendini Güçlendirir — ve Bu Sessizlik Neden Göründüğünden Daha İnce</h2>
 <h2 class="vi">Vì Sao Sự Im Lặng Tự Củng Cố Chính Nó — và Vì Sao Sự Im Lặng Đó Mỏng Manh Hơn Vẻ Ngoài</h2>
+<h2 class="id">Mengapa Keheningan Memperkuat Dirinya Sendiri — dan Mengapa Keheningan Itu Lebih Tipis dari yang Terlihat</h2>
+<h2 class="pl">Dlaczego Milczenie Wzmacnia Samo Siebie — i Dlaczego To Milczenie Jest Cieńsze, Niż Się Wydaje</h2>
+<h2 class="it">Perché il Silenzio Si Rafforza da Solo — e Perché Quel Silenzio È Più Sottile di Quanto Sembri</h2>
+<h2 class="ru">Почему Молчание Само Себя Усиливает — и Почему Это Молчание Тоньше, Чем Кажется</h2>
+<h2 class="zh">為什麼沉默會自我強化——以及為什麼這種沉默比看起來更薄弱</h2>
 
 <p class="ko">1992년 수실 비크찬다니, 데이비드 허쉬라이퍼, 이보 웰치가 《Journal of Political Economy》에 발표한 <a href="/blog/herding-information-cascade">정보 캐스케이드(informational cascade) 이론</a>은 다원적 무지와 자주 섞여 쓰이지만 메커니즘이 다르다. 캐스케이드는 사람들이 자신의 사적 정보보다 앞사람의 '행동'을 더 신뢰해 그대로 따라 하면서 발생한다 — 즉 행동을 관찰하고 거기 담긴 정보를 (잘못) 추론하는 문제다. 다원적 무지는 이것과 달리, 애초에 상대방이 '어떤 사적 믿음'을 갖고 있는지에 대한 추정 자체가 틀렸을 때 발생한다 — 행동을 잘못 해석하는 게 아니라, 침묵을 잘못 해석하는 문제다. 그런데 비크찬다니 등의 논문이 강조한 핵심 통찰 하나는 그대로 다원적 무지에도 적용된다: 이런 식으로 쌓인 공적 합의는 매우 얇은 근거 위에 서 있기 때문에, 아주 작은 정보 하나만으로도 순식간에 뒤집힐 수 있다는 것.</p>
 <p class="en">The <a href="/en/blog/herding-information-cascade">informational cascade theory</a> that Sushil Bikhchandani, David Hirshleifer, and Ivo Welch published in the Journal of Political Economy in 1992 is often conflated with pluralistic ignorance, but the mechanism differs. A cascade arises when people trust the observed actions of those ahead of them more than their own private information and simply copy that action — it's a problem of observing behavior and (mis)inferring the information behind it. Pluralistic ignorance, by contrast, arises when the estimate of what private belief other people hold is wrong from the start — it's not a problem of misreading behavior, but of misreading silence. Still, one core insight from Bikhchandani et al.'s paper applies to pluralistic ignorance just as directly: public consensus built this way stands on remarkably thin ground, and can flip in an instant on the strength of a single small piece of information.</p>
