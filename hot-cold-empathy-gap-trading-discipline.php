@@ -429,6 +429,161 @@
   </svg>
   <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Diễn biến tỷ lệ tiết kiệm trung bình của người tham gia chương trình SMarT (thí điểm năm 1998 tại một nhà máy ở vùng Trung Tây nước Mỹ), theo báo cáo trong Thaler &amp; Benartzi (2004). Bắt đầu ở mức 3,5% trước khi đăng ký, tăng lên 13,6% vào lần tăng lương thứ tư (khoảng 40 tháng sau).</p>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perubahan Tingkat Tabungan Rata-Rata Peserta Program SMarT (Thaler &amp; Benartzi, 2004)</text>
+    <text x="20" y="53" fill="#a1a1aa" font-size="13" font-family="sans-serif">Tingkat tabungan (%) · eskalasi otomatis komitmen awal · 78% masih terdaftar hingga kenaikan ke-4</text>
+    <line x1="90" y1="350" x2="660" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="80" x2="90" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="260" x2="660" y2="260" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="170" x2="660" y2="170" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="80" x2="660" y2="80" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <text x="80" y="354" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="80" y="264" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">5%</text>
+    <text x="80" y="174" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">10%</text>
+    <text x="80" y="84" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">15%</text>
+    <rect x="111" y="287" width="80" height="63" fill="#4ade80" opacity="0.55" rx="3"/>
+    <rect x="223" y="233" width="80" height="117" fill="#4ade80" opacity="0.70" rx="3"/>
+    <rect x="335" y="180.8" width="80" height="169.2" fill="#4ade80" opacity="0.85" rx="3"/>
+    <rect x="447" y="141.2" width="80" height="208.8" fill="#4ade80" opacity="0.92" rx="3"/>
+    <rect x="559" y="105.2" width="80" height="244.8" fill="#4ade80" rx="3"/>
+    <text x="151" y="277" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">3.5%</text>
+    <text x="263" y="223" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">6.5%</text>
+    <text x="375" y="170.8" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">9.4%</text>
+    <text x="487" y="131.2" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">11.6%</text>
+    <text x="599" y="95.2" fill="#0a0a0a" font-size="15" text-anchor="middle" font-weight="700" font-family="sans-serif">13.6%</text>
+    <text x="151" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sebelum</text>
+    <text x="263" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Kenaikan 1</text>
+    <text x="375" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Kenaikan 2</text>
+    <text x="487" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Kenaikan 3</text>
+    <text x="599" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Kenaikan 4</text>
+  </svg>
+  <p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Tren tingkat tabungan rata-rata peserta program SMarT (diujicobakan pada 1998 di perusahaan manufaktur Midwest AS) sebagaimana dilaporkan dalam Thaler &amp; Benartzi (2004). Dimulai dari 3,5% sebelum mendaftar, naik menjadi 13,6% pada kenaikan gaji keempat (sekitar 40 bulan kemudian).</p>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Zmiana Średniej Stopy Oszczędności Uczestników Programu SMarT (Thaler &amp; Benartzi, 2004)</text>
+    <text x="20" y="53" fill="#a1a1aa" font-size="13" font-family="sans-serif">Stopa oszczędności (%) · automatyczna eskalacja w ramach zobowiązania wstępnego · 78% nadal zapisanych do 4. podwyżki</text>
+    <line x1="90" y1="350" x2="660" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="80" x2="90" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="260" x2="660" y2="260" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="170" x2="660" y2="170" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="80" x2="660" y2="80" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <text x="80" y="354" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="80" y="264" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">5%</text>
+    <text x="80" y="174" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">10%</text>
+    <text x="80" y="84" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">15%</text>
+    <rect x="111" y="287" width="80" height="63" fill="#4ade80" opacity="0.55" rx="3"/>
+    <rect x="223" y="233" width="80" height="117" fill="#4ade80" opacity="0.70" rx="3"/>
+    <rect x="335" y="180.8" width="80" height="169.2" fill="#4ade80" opacity="0.85" rx="3"/>
+    <rect x="447" y="141.2" width="80" height="208.8" fill="#4ade80" opacity="0.92" rx="3"/>
+    <rect x="559" y="105.2" width="80" height="244.8" fill="#4ade80" rx="3"/>
+    <text x="151" y="277" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">3.5%</text>
+    <text x="263" y="223" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">6.5%</text>
+    <text x="375" y="170.8" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">9.4%</text>
+    <text x="487" y="131.2" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">11.6%</text>
+    <text x="599" y="95.2" fill="#0a0a0a" font-size="15" text-anchor="middle" font-weight="700" font-family="sans-serif">13.6%</text>
+    <text x="151" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Przed</text>
+    <text x="263" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">1. podw.</text>
+    <text x="375" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2. podw.</text>
+    <text x="487" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">3. podw.</text>
+    <text x="599" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">4. podw.</text>
+  </svg>
+  <p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Trajektoria średniej stopy oszczędności uczestników programu SMarT (przetestowanego w 1998 roku w firmie produkcyjnej na amerykańskim Środkowym Zachodzie), zgodnie z danymi z Thaler &amp; Benartzi (2004). Zaczynając od 3,5% przed przystąpieniem, wzrastając do 13,6% przy czwartej podwyżce (mniej więcej po 40 miesiącach).</p>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Variazione del Tasso di Risparmio Medio dei Partecipanti al Programma SMarT (Thaler &amp; Benartzi, 2004)</text>
+    <text x="20" y="53" fill="#a1a1aa" font-size="13" font-family="sans-serif">Tasso di risparmio (%) · escalation automatica da impegno preventivo · 78% ancora iscritto al 4° aumento</text>
+    <line x1="90" y1="350" x2="660" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="80" x2="90" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="260" x2="660" y2="260" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="170" x2="660" y2="170" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="80" x2="660" y2="80" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <text x="80" y="354" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="80" y="264" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">5%</text>
+    <text x="80" y="174" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">10%</text>
+    <text x="80" y="84" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">15%</text>
+    <rect x="111" y="287" width="80" height="63" fill="#4ade80" opacity="0.55" rx="3"/>
+    <rect x="223" y="233" width="80" height="117" fill="#4ade80" opacity="0.70" rx="3"/>
+    <rect x="335" y="180.8" width="80" height="169.2" fill="#4ade80" opacity="0.85" rx="3"/>
+    <rect x="447" y="141.2" width="80" height="208.8" fill="#4ade80" opacity="0.92" rx="3"/>
+    <rect x="559" y="105.2" width="80" height="244.8" fill="#4ade80" rx="3"/>
+    <text x="151" y="277" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">3.5%</text>
+    <text x="263" y="223" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">6.5%</text>
+    <text x="375" y="170.8" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">9.4%</text>
+    <text x="487" y="131.2" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">11.6%</text>
+    <text x="599" y="95.2" fill="#0a0a0a" font-size="15" text-anchor="middle" font-weight="700" font-family="sans-serif">13.6%</text>
+    <text x="151" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Prima</text>
+    <text x="263" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">1° aum.</text>
+    <text x="375" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2° aum.</text>
+    <text x="487" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">3° aum.</text>
+    <text x="599" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">4° aum.</text>
+  </svg>
+  <p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Andamento del tasso di risparmio medio dei partecipanti al programma SMarT (testato nel 1998 presso un'azienda manifatturiera del Midwest americano), come riportato in Thaler &amp; Benartzi (2004). Partendo dal 3,5% prima dell'iscrizione, salendo al 13,6% al quarto aumento salariale (circa 40 mesi dopo).</p>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Изменение Средней Нормы Сбережений Участников Программы SMarT (Thaler &amp; Benartzi, 2004)</text>
+    <text x="20" y="53" fill="#a1a1aa" font-size="13" font-family="sans-serif">Норма сбережений (%) · автоматическая эскалация по предварительному обязательству · 78% оставались в программе к 4-му повышению</text>
+    <line x1="90" y1="350" x2="660" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="80" x2="90" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="260" x2="660" y2="260" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="170" x2="660" y2="170" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="80" x2="660" y2="80" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <text x="80" y="354" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="80" y="264" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">5%</text>
+    <text x="80" y="174" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">10%</text>
+    <text x="80" y="84" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">15%</text>
+    <rect x="111" y="287" width="80" height="63" fill="#4ade80" opacity="0.55" rx="3"/>
+    <rect x="223" y="233" width="80" height="117" fill="#4ade80" opacity="0.70" rx="3"/>
+    <rect x="335" y="180.8" width="80" height="169.2" fill="#4ade80" opacity="0.85" rx="3"/>
+    <rect x="447" y="141.2" width="80" height="208.8" fill="#4ade80" opacity="0.92" rx="3"/>
+    <rect x="559" y="105.2" width="80" height="244.8" fill="#4ade80" rx="3"/>
+    <text x="151" y="277" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">3.5%</text>
+    <text x="263" y="223" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">6.5%</text>
+    <text x="375" y="170.8" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">9.4%</text>
+    <text x="487" y="131.2" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">11.6%</text>
+    <text x="599" y="95.2" fill="#0a0a0a" font-size="15" text-anchor="middle" font-weight="700" font-family="sans-serif">13.6%</text>
+    <text x="151" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">До</text>
+    <text x="263" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">1-е повыш.</text>
+    <text x="375" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2-е повыш.</text>
+    <text x="487" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">3-е повыш.</text>
+    <text x="599" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">4-е повыш.</text>
+  </svg>
+  <p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Динамика средней нормы сбережений участников программы SMarT (протестирована в 1998 году на производственном предприятии на Среднем Западе США), по данным Thaler &amp; Benartzi (2004). Начиная с 3,5% до вступления в программу и поднимаясь до 13,6% к четвёртому повышению зарплаты (примерно через 40 месяцев).</p>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">SMarT計劃參與者平均儲蓄率變化 (Thaler &amp; Benartzi, 2004)</text>
+    <text x="20" y="53" fill="#a1a1aa" font-size="13" font-family="sans-serif">儲蓄率(%)‧自動遞增式事前承諾機制‧78%在第4次加薪時仍留在計劃中</text>
+    <line x1="90" y1="350" x2="660" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="80" x2="90" y2="350" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="90" y1="260" x2="660" y2="260" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="170" x2="660" y2="170" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <line x1="90" y1="80" x2="660" y2="80" stroke="#27272a" stroke-dasharray="4,4" stroke-width="1"/>
+    <text x="80" y="354" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="80" y="264" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">5%</text>
+    <text x="80" y="174" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">10%</text>
+    <text x="80" y="84" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">15%</text>
+    <rect x="111" y="287" width="80" height="63" fill="#4ade80" opacity="0.55" rx="3"/>
+    <rect x="223" y="233" width="80" height="117" fill="#4ade80" opacity="0.70" rx="3"/>
+    <rect x="335" y="180.8" width="80" height="169.2" fill="#4ade80" opacity="0.85" rx="3"/>
+    <rect x="447" y="141.2" width="80" height="208.8" fill="#4ade80" opacity="0.92" rx="3"/>
+    <rect x="559" y="105.2" width="80" height="244.8" fill="#4ade80" rx="3"/>
+    <text x="151" y="277" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">3.5%</text>
+    <text x="263" y="223" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">6.5%</text>
+    <text x="375" y="170.8" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">9.4%</text>
+    <text x="487" y="131.2" fill="#e4e4e7" font-size="14" text-anchor="middle" font-weight="700" font-family="sans-serif">11.6%</text>
+    <text x="599" y="95.2" fill="#0a0a0a" font-size="15" text-anchor="middle" font-weight="700" font-family="sans-serif">13.6%</text>
+    <text x="151" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">加入前</text>
+    <text x="263" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">第1次加薪</text>
+    <text x="375" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">第2次加薪</text>
+    <text x="487" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">第3次加薪</text>
+    <text x="599" y="368" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">第4次加薪</text>
+  </svg>
+  <p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ Thaler &amp; Benartzi (2004)報告中SMarT計劃(1998年於美國中西部一家製造業公司試行)參與者的平均儲蓄率變化趨勢。從加入前的3.5%開始,到第4次加薪(約40個月後)時升至13.6%。</p>
+  </div>
 
   <p class="ko">비슷한 효과가 실행의도(implementation intentions)라 불리는, 훨씬 단순한 장치에서도 확인된다. 심리학자 피터 골비처(Peter Gollwitzer)와 파스칼 시런(Paschal Sheeran)이 2006년 '실험사회심리학의 진보(Advances in Experimental Social Psychology)'에 발표한 메타분석은 94개의 독립된 연구를 종합해, 목표를 그냥 '하겠다'고 결심하는 것과, '만약 X 상황이 오면, 나는 Y를 한다'는 구체적인 조건문 형태로 미리 적어두는 것 사이에 중간에서 큰 수준의 효과 차이(d=0.65)가 있다는 걸 보여줬다. 운동, 금연, 건강검진 참여, 재활용 같은 서로 다른 영역의 94건을 종합한 결과이기 때문에, 이 효과가 특정 분야에 국한된 우연이 아니라는 방증이 된다. 두 연구가 공통적으로 가리키는 지점은 같다 — 결정을 그 순간으로 미루지 않고 조건과 행동을 미리 구체적으로 연결해 두는 순간, 실제 행동이 그 계획을 따라갈 확률이 크게 올라간다는 것이다.</p>
   <p class="en">A similar effect shows up in a much simpler device called "implementation intentions." A 2006 meta-analysis by psychologists Peter Gollwitzer and Paschal Sheeran, published in Advances in Experimental Social Psychology, pooled 94 independent studies and found a medium-to-large effect (d = 0.65) between merely resolving to pursue a goal and writing it in advance as a specific if-then statement — "if situation X occurs, I will do Y." Because this result is pooled across 94 studies spanning domains as different as exercise, smoking cessation, health screening attendance, and recycling, it's evidence the effect isn't a fluke confined to one narrow field. Both studies point to the same thing: the moment you stop deferring the decision to the moment itself and instead link condition to action in specific, advance detail, the odds that actual behavior follows the plan rise sharply.</p>
