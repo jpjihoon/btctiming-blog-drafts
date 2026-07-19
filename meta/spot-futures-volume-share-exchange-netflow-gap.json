@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "스팟·선물 거래량 비율·거래소 순유입 괴리",
   "tag_en": "Spot/Futures Volume Ratio & Exchange Net Inflow Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Lacuna: Proporção de Volume Spot/Futuros e Entrada Líquida nas Exchanges",
   "tag_tr": "Spot/Vadeli İşlem Hacim Oranı ve Borsa Net Giriş Farkı",
   "tag_vi": "Khoảng Cách: Tỷ Lệ Khối Lượng Spot/Futures và Dòng Vào Ròng Trên Sàn",
+  "tag_id": "Rasio Volume Spot/Futures & Kesenjangan Arus Masuk Bersih Bursa",
+  "tag_pl": "Stosunek Wolumenu Spot/Futures i Luka w Napływie Netto na Giełdach",
+  "tag_it": "Rapporto Volume Spot/Futures e Divario nell'Afflusso Netto sulle Borse",
+  "tag_ru": "Соотношение Объёма Спот/Фьючерсы и Разрыв в Чистом Притоке на Биржи",
+  "tag_zh": "現貨/期貨成交量比率與交易所淨流入落差",
 
   "title_ko": "선물 거래량이 스팟의 16배인데, 코인은 거래소로 돌아오고 있다",
   "title_en": "Futures Volume Is 16x Spot — And Coins Are Flowing Back Into Exchanges",
@@ -32,6 +42,11 @@
   "title_pt": "O Volume de Futuros É 16 Vezes o do Spot — E as Moedas Estão Voltando Para as Exchanges",
   "title_tr": "Vadeli İşlem Hacmi Spot'un 16 Katı — Ve Coinler Borsalara Geri Dönüyor",
   "title_vi": "Khối Lượng Futures Gấp 16 Lần Spot — Và Coin Đang Chảy Ngược Về Các Sàn Giao Dịch",
+  "title_id": "Volume Futures 16 Kali Lipat Spot — Dan Koin Mengalir Kembali ke Bursa",
+  "title_pl": "Wolumen Kontraktów Terminowych Jest 16 Razy Wyższy Niż Spot — A Monety Wracają na Giełdy",
+  "title_it": "Il Volume dei Futures È 16 Volte Quello dello Spot — E le Monete Stanno Tornando Nelle Borse",
+  "title_ru": "Объём Фьючерсов в 16 Раз Превышает Спот — И Монеты Возвращаются на Биржи",
+  "title_zh": "期貨成交量是現貨的16倍——而幣正流回交易所",
 
   "h1_ko": "선물 거래량은 스팟의 16배인데,<br>코인은 거래소로 돌아오고 있다",
   "h1_en": "Futures Volume Is 16x Spot,<br>While Coins Flow Back Into Exchanges",
@@ -42,6 +57,11 @@
   "h1_pt": "O Volume de Futuros É 16 Vezes o do Spot,<br>Enquanto as Moedas Voltam Para as Exchanges",
   "h1_tr": "Vadeli İşlem Hacmi Spot'un 16 Katı,<br>Coinler Borsalara Geri Akarken",
   "h1_vi": "Khối Lượng Futures Gấp 16 Lần Spot,<br>Trong Khi Coin Chảy Ngược Về Các Sàn",
+  "h1_id": "Volume Futures 16 Kali Lipat Spot,<br>Sementara Koin Mengalir Kembali ke Bursa",
+  "h1_pl": "Wolumen Kontraktów Terminowych Jest 16 Razy Wyższy Niż Spot,<br>Podczas Gdy Monety Wracają na Giełdy",
+  "h1_it": "Il Volume dei Futures È 16 Volte Quello dello Spot,<br>Mentre le Monete Tornano Nelle Borse",
+  "h1_ru": "Объём Фьючерсов в 16 Раз Превышает Спот,<br>Пока Монеты Возвращаются на Биржи",
+  "h1_zh": "期貨成交量是現貨的16倍,<br>幣正流回交易所",
 
   "bc_ko": "스팟·선물 거래량 비중과 거래소 순유입 점검",
   "bc_en": "Spot/Futures Volume Share & Exchange Net Flow Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação: Participação de Volume Spot/Futuros e Fluxo Líquido nas Exchanges",
   "bc_tr": "Spot/Vadeli İşlem Hacim Payı ve Borsa Net Akışı İncelemesi",
   "bc_vi": "Kiểm Tra Tỷ Trọng Khối Lượng Spot/Futures và Dòng Chảy Ròng Trên Sàn",
+  "bc_id": "Pemeriksaan Pangsa Volume Spot/Futures & Arus Bersih Bursa",
+  "bc_pl": "Sprawdzenie Udziału Wolumenu Spot/Futures i Przepływu Netto na Giełdach",
+  "bc_it": "Verifica della Quota di Volume Spot/Futures e del Flusso Netto sulle Borse",
+  "bc_ru": "Проверка Доли Объёма Спот/Фьючерсы и Чистого Потока на Биржах",
+  "bc_zh": "現貨/期貨成交量佔比與交易所淨流量檢視",
 
   "desc_ko": "비트코인은 7월13일 새벽(한국시간) 6만4,000~6만4,100달러대에서 거래되며 24시간 -0.15%, 최근 7일 6만1,294~6만4,623달러 박스권에 머물러 있다 — 6월30일 저점 5만7,900달러대에서는 11% 넘게 반등한 수준이다. 그런데 코인글래스 집계를 인용한 보도에 따르면 7월7일 기준 24시간 선물 거래량은 약812억달러, 스팟 거래량은 약50억달러로 선물 대 스팟 비율이 약16대1에 달했고, 미결제약정은 조사 시점 기준 약471억4,000만달러다. 같은 주(7월5일까지 한 주) 중앙화 거래소 순유입은 4,932.87 BTC(그라파·코인글래스)로, 바이낸스(+2,006.76 BTC)·OKX(+1,999.85 BTC)·크라켄(+848.24 BTC)은 순유입, 코인베이스 프로(-110.81 BTC)·비트파이넥스(-113.06 BTC)는 순유출을 기록했다. 스팟 참여는 얇은데 코인은 거래소로 흘러드는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin traded in the $64,000-$64,100 range in the early morning of July 13 (KST), down just -0.15% over 24 hours and still confined to the 7-day range of $61,294-$64,623 — more than 11% above its $57,900 low on June 30. Yet according to reporting citing CoinGlass data, 24-hour futures volume stood at roughly $81.2 billion as of July 7 versus spot volume of just about $5 billion, a futures-to-spot ratio near 16-to-1, with open interest around $47.14 billion at review time. Over the same week (7 days to July 5), centralized exchanges saw a net inflow of 4,932.87 BTC (Grafa, citing CoinGlass) — Binance (+2,006.76 BTC), OKX (+1,999.85 BTC) and Kraken (+848.24 BTC) posted net inflows, while Coinbase Pro (-110.81 BTC) and Bitfinex (-113.06 BTC) saw net outflows. A look at a phase where spot participation stays thin while coins flow into exchanges.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échangeait entre 64 000 et 64 100 dollars au petit matin du 13 juillet (heure de Corée), en baisse de seulement -0,15 % sur 24 heures et toujours confiné à la fourchette sur 7 jours de 61 294-64 623 dollars — plus de 11 % au-dessus de son plus bas de 57 900 dollars du 30 juin. Pourtant, selon des articles citant des données CoinGlass, le volume de futures sur 24 heures s'élevait à environ 81,2 milliards de dollars au 7 juillet contre un volume spot d'à peine 5 milliards de dollars, soit un ratio futures/spot proche de 16 pour 1, avec un open interest d'environ 47,14 milliards de dollars au moment de l'analyse. La même semaine (7 jours jusqu'au 5 juillet), les plateformes centralisées ont enregistré une entrée nette de 4 932,87 BTC (Grafa, citant CoinGlass) — Binance (+2 006,76 BTC), OKX (+1 999,85 BTC) et Kraken (+848,24 BTC) ont affiché des entrées nettes, tandis que Coinbase Pro (-110,81 BTC) et Bitfinex (-113,06 BTC) ont connu des sorties nettes. Un examen d'une phase où la participation spot reste faible tandis que les pièces affluent vers les plateformes.",
   "desc_pt": "O bitcoin foi negociado entre US$ 64.000 e US$ 64.100 na madrugada de 13 de julho (horário da Coreia), em baixa de apenas -0,15% em 24 horas e ainda confinado à faixa de 7 dias de US$ 61.294-US$ 64.623 — mais de 11% acima de sua mínima de US$ 57.900 em 30 de junho. No entanto, segundo reportagens que citam dados da CoinGlass, o volume de futuros em 24 horas ficou em cerca de US$ 81,2 bilhões em 7 de julho contra um volume spot de apenas cerca de US$ 5 bilhões, uma proporção futuros/spot próxima de 16 para 1, com open interest de cerca de US$ 47,14 bilhões no momento da análise. Na mesma semana (7 dias até 5 de julho), as exchanges centralizadas registraram entrada líquida de 4.932,87 BTC (Grafa, citando CoinGlass) — Binance (+2.006,76 BTC), OKX (+1.999,85 BTC) e Kraken (+848,24 BTC) tiveram entradas líquidas, enquanto Coinbase Pro (-110,81 BTC) e Bitfinex (-113,06 BTC) tiveram saídas líquidas. Uma análise de uma fase em que a participação spot permanece fraca enquanto as moedas fluem para as exchanges.",
   "desc_tr": "Bitcoin, 13 Temmuz sabahın erken saatlerinde (KST) 64.000-64.100 dolar aralığında işlem gördü, 24 saatte yalnızca %-0,15 düştü ve hâlâ 7 günlük 61.294-64.623 dolar aralığında sıkışık kaldı — 30 Haziran'daki 57.900 dolarlık dibinin %11'in üzerinde. Ancak CoinGlass verilerine atıfta bulunan haberlere göre, 24 saatlik vadeli işlem hacmi 7 Temmuz itibarıyla yaklaşık 81,2 milyar dolar iken spot hacim yalnızca yaklaşık 5 milyar dolardı — vadeli işlem/spot oranı yaklaşık 16'ya 1'e ulaştı ve inceleme zamanında açık pozisyon yaklaşık 47,14 milyar dolardı. Aynı hafta (5 Temmuz'a kadar 7 gün) merkezi borsalar 4.932,87 BTC net giriş kaydetti (Grafa, CoinGlass'a atıfla) — Binance (+2.006,76 BTC), OKX (+1.999,85 BTC) ve Kraken (+848,24 BTC) net giriş kaydederken, Coinbase Pro (-110,81 BTC) ve Bitfinex (-113,06 BTC) net çıkış gördü. Spot katılımın zayıf kaldığı, coinlerin ise borsalara aktığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch trong khoảng 64.000-64.100 đô la vào sáng sớm ngày 13 tháng 7 (giờ Hàn Quốc), chỉ giảm -0,15% trong 24 giờ và vẫn bị giới hạn trong biên độ 7 ngày là 61.294-64.623 đô la — cao hơn hơn 11% so với đáy 57.900 đô la ngày 30 tháng 6. Tuy nhiên, theo các báo cáo trích dẫn dữ liệu CoinGlass, khối lượng futures 24 giờ đạt khoảng 81,2 tỷ đô la tính đến ngày 7 tháng 7 so với khối lượng spot chỉ khoảng 5 tỷ đô la, tỷ lệ futures so với spot gần 16 trên 1, với khối lượng hợp đồng mở khoảng 47,14 tỷ đô la tại thời điểm phân tích. Trong cùng tuần đó (7 ngày đến 5 tháng 7), các sàn giao dịch tập trung ghi nhận dòng vào ròng 4.932,87 BTC (Grafa, trích dẫn CoinGlass) — Binance (+2.006,76 BTC), OKX (+1.999,85 BTC) và Kraken (+848,24 BTC) ghi nhận dòng vào ròng, trong khi Coinbase Pro (-110,81 BTC) và Bitfinex (-113,06 BTC) ghi nhận dòng ra ròng. Một góc nhìn về giai đoạn mà sự tham gia của thị trường spot vẫn mỏng trong khi coin lại chảy vào các sàn giao dịch."
+  "desc_vi": "Bitcoin giao dịch trong khoảng 64.000-64.100 đô la vào sáng sớm ngày 13 tháng 7 (giờ Hàn Quốc), chỉ giảm -0,15% trong 24 giờ và vẫn bị giới hạn trong biên độ 7 ngày là 61.294-64.623 đô la — cao hơn hơn 11% so với đáy 57.900 đô la ngày 30 tháng 6. Tuy nhiên, theo các báo cáo trích dẫn dữ liệu CoinGlass, khối lượng futures 24 giờ đạt khoảng 81,2 tỷ đô la tính đến ngày 7 tháng 7 so với khối lượng spot chỉ khoảng 5 tỷ đô la, tỷ lệ futures so với spot gần 16 trên 1, với khối lượng hợp đồng mở khoảng 47,14 tỷ đô la tại thời điểm phân tích. Trong cùng tuần đó (7 ngày đến 5 tháng 7), các sàn giao dịch tập trung ghi nhận dòng vào ròng 4.932,87 BTC (Grafa, trích dẫn CoinGlass) — Binance (+2.006,76 BTC), OKX (+1.999,85 BTC) và Kraken (+848,24 BTC) ghi nhận dòng vào ròng, trong khi Coinbase Pro (-110,81 BTC) và Bitfinex (-113,06 BTC) ghi nhận dòng ra ròng. Một góc nhìn về giai đoạn mà sự tham gia của thị trường spot vẫn mỏng trong khi coin lại chảy vào các sàn giao dịch.",
+  "desc_id": "Bitcoin sekitar 64.000 dolar: volume futures 16x spot, bursa mencatat arus masuk bersih 4.932 BTC saat harga melonjak 11% dari titik terendah.",
+  "desc_pl": "Bitcoin w okolicach 64 000 dolarów: wolumen futures jest 16x wyższy niż spot, a giełdy odnotowały napływ netto 4 932 BTC mimo wzrostu ceny.",
+  "desc_it": "Bitcoin vicino a 64.000 dollari: il volume dei futures è 16 volte quello dello spot, mentre le borse hanno registrato un afflusso netto di 4.932 BTC.",
+  "desc_ru": "Биткоин у отметки $64 000: объём фьючерсов в 16 раз выше спота, а биржи зафиксировали чистый приток 4932 BTC на неделе роста цены.",
+  "desc_zh": "比特幣目前約在6.4萬美元附近整理,24小時僅微跌0.15%,較6月30日低點已反彈逾11%。根據CoinGlass數據,期貨成交量是現貨的16倍,未平倉合約約471億美元。同一週,交易所卻錄得淨流入4,932.87枚BTC,顯示反彈背後現貨參與依然薄弱,值得持續留意。"
 }
