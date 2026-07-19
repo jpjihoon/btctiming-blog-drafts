@@ -68,7 +68,11 @@ jobs:
               print("::error::블로그 rewrite 를 가진 .htaccess 를 찾지 못했습니다. 후보=%r" % cands); sys.exit(1)
           print("대상 .htaccess:", target)
 
-          src = open(target, encoding='utf-8').read()
+          # ★ 줄바꿈 보존: site-root 는 CRLF. 텍스트모드로 다시 쓰면 전 줄이 LF 로 바뀌어 diff 가 부풀고 규칙이 깨진다.
+          #   바이트로 읽어 CRLF 여부를 기억했다가, 처리는 LF 로 하고 저장 때 원래 줄바꿈으로 되돌린다.
+          raw = open(target, 'rb').read()
+          __crlf = b'\r\n' in raw
+          src = raw.decode('utf-8').replace('\r\n', '\n')
 
           # 이미 있으면(멱등) 건너뜀
           if frm in src and 'R=301' in src:
@@ -92,7 +96,10 @@ jobs:
           if not inserted:
               print("::error::'RewriteEngine On' 을 찾지 못해 삽입 위치를 정할 수 없습니다"); sys.exit(1)
 
-          open(target, 'w', encoding='utf-8').write(''.join(out))
+          result = ''.join(out)
+          if __crlf:
+              result = result.replace('\n', '\r\n')   # 원래 CRLF 로 복원 → diff 는 삽입한 2줄만
+          open(target, 'wb').write(result.encode('utf-8'))
           print("삽입 완료:\n" + rule)
           go = open(os.environ['GITHUB_OUTPUT'], 'a')
           go.write("changed=1\n"); go.write("target=%s\n" % target)
