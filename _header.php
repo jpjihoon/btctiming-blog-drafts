@@ -435,7 +435,13 @@ echo implode(",\n", $__rules) . "{display:none}\n";
       elseif ($__l==='vi')  $__d = "{$__j} thg {$__n} {$__Y}";
       else                  $__d = "{$__j} ".(($__MON[$__l] ?? $__MON['en'])[$__n])." {$__Y}";
       if ($__hasTime) $__d .= ' ' . $__Hi;
-      if (!empty($__cfg[1])) $__d .= ' ' . $__cfg[1];
+      // ★ 2026-07-19 타임존 라벨 기준(모든 언어에 부착):
+      //   1) $__TZ[$__l][1] 에 수동 약어가 있으면 그것(고정오프셋 지역: KST/JST/UTC/BRT/TRT/ICT/WIB/MSK).
+      //   2) 없으면 PHP format('T') 로 자동 산출 — 서머타임 자동 반영(유럽 CET↔CEST, 대만 CST).
+      //   3) format('T')가 오프셋(+07 등)만 주면 UTC±HH:MM 으로 폴백.
+      $__abbr = !empty($__cfg[1]) ? $__cfg[1] : $__dt->format('T');
+      if ($__abbr !== '' && ($__abbr[0] === '+' || $__abbr[0] === '-')) $__abbr = 'UTC' . $__dt->format('P');
+      $__d .= ' ' . $__abbr;
     ?>
     <span class="<?= $__l ?>">📅 <?= h($__d) ?></span>
     <?php endforeach; ?>
