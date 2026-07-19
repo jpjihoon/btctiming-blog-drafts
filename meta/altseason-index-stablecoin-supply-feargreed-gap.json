@@ -12,6 +12,11 @@
   "read_pt": "9",
   "read_tr": "9",
   "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9",
 
   "tag_ko": "알트시즌지수·스테이블코인 공급 괴리",
   "tag_en": "Altseason Index vs. Stablecoin Supply Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Índice Altseason vs. Lacuna de Oferta de Stablecoins",
   "tag_tr": "Altcoin Sezonu Endeksi ile Stablecoin Arzı Farkı",
   "tag_vi": "Chỉ Số Altseason và Khoảng Cách Nguồn Cung Stablecoin",
+  "tag_id": "Kesenjangan Altseason Index vs Pasokan Stablecoin",
+  "tag_pl": "Rozbieżność Altseason Index a Podaży Stablecoinów",
+  "tag_it": "Divario tra Altseason Index e Offerta di Stablecoin",
+  "tag_ru": "Разрыв между Altseason Index и Предложением Стейблкоинов",
+  "tag_zh": "山寨幣季節指數與穩定幣供應落差",
 
   "title_ko": "알트시즌지수는 52까지 올랐는데, 스테이블코인 공급은 오히려 줄었다",
   "title_en": "The Altcoin Season Index Climbed to 52 — But Stablecoin Supply Actually Shrank",
@@ -32,6 +42,11 @@
   "title_pt": "O Índice de Temporada de Altcoins Subiu para 52 — Mas a Oferta de Stablecoins na Verdade Encolheu",
   "title_tr": "Altcoin Sezonu Endeksi 52'ye Yükseldi — Ama Stablecoin Arzı Aslında Küçüldü",
   "title_vi": "Chỉ Số Mùa Altcoin Tăng Lên 52 — Nhưng Nguồn Cung Stablecoin Thực Ra Đã Thu Hẹp",
+  "title_id": "Altcoin Season Index Naik ke 52 — Tapi Pasokan Stablecoin Justru Menyusut",
+  "title_pl": "Altcoin Season Index Wzrósł do 52 — ale Podaż Stablecoinów Faktycznie się Skurczyła",
+  "title_it": "L'Altcoin Season Index è Salito a 52 — Ma l'Offerta di Stablecoin è Diminuita",
+  "title_ru": "Altcoin Season Index Поднялся до 52 — Но Предложение Стейблкоинов Сократилось",
+  "title_zh": "山寨幣季節指數升至52——但穩定幣供應量卻萎縮了",
 
   "h1_ko": "도미넌스는 빠지고 알트시즌지수는 오르는데,<br>정작 로테이션의 연료는 줄어들고 있다",
   "h1_en": "Dominance Is Falling and the Altseason Index Is Rising,<br>But the Rotation's Own Fuel Is Shrinking",
@@ -42,6 +57,11 @@
   "h1_pt": "A Dominância Cai e o Índice Altseason Sobe,<br>Mas o Próprio Combustível da Rotação Está Encolhendo",
   "h1_tr": "Dominans Düşüyor ve Altseason Endeksi Yükseliyor,<br>Ama Rotasyonun Kendi Yakıtı Küçülüyor",
   "h1_vi": "Mức Thống Trị Giảm và Chỉ Số Altseason Tăng,<br>Nhưng Chính Nhiên Liệu Của Sự Luân Chuyển Đang Thu Hẹp",
+  "h1_id": "Dominasi Turun dan Altseason Index Naik,<br>Tapi Bahan Bakar Rotasi Itu Sendiri Menyusut",
+  "h1_pl": "Dominacja Spada, a Indeks Altseason Rośnie,<br>ale Własne Paliwo Rotacji się Kurczy",
+  "h1_it": "La Dominance Cala e l'Altseason Index Sale,<br>Ma il Carburante Stesso della Rotazione si Sta Riducendo",
+  "h1_ru": "Доминация Падает, а Индекс Altseason Растёт,<br>Но Собственное Топливо Ротации Сокращается",
+  "h1_zh": "主導率下滑、山寨幣季節指數上升,<br>但輪動本身的燃料卻在萎縮",
 
   "bc_ko": "도미넌스·알트시즌·스테이블코인 점검",
   "bc_en": "Dominance, Altseason & Stablecoin Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação: Dominância, Altseason e Stablecoins",
   "bc_tr": "Dominans, Altseason ve Stablecoin İncelemesi",
   "bc_vi": "Kiểm Tra: Mức Thống Trị, Altseason và Stablecoin",
+  "bc_id": "Cek Dominasi, Altseason & Stablecoin",
+  "bc_pl": "Sprawdzian: Dominacja, Altseason i Stablecoiny",
+  "bc_it": "Verifica: Dominance, Altseason e Stablecoin",
+  "bc_ru": "Проверка: Доминация, Altseason и Стейблкоины",
+  "bc_zh": "主導率、山寨幣季與穩定幣檢視",
 
   "desc_ko": "비트코인은 7월12일 6만3,700~6만4,550달러의 좁은 박스권에서 거래됐다. 코인마켓캡 기준 비트코인 도미넌스는 7월 초 58%대에서 7월11일 56.4%로 밀렸고, 알트시즌지수는 연초 30 안팎에서 52(중립)까지 올라 완만한 알트코인 로테이션을 시사한다. 그런데 로테이션의 '연료'가 되어야 할 스테이블코인 총 시가총액은 지난 4월 3,210억달러 사상 최고치에서 7월 2,900억~3,080억달러로 오히려 줄었고, 공포탐욕지수도 얼터너티브미 20·CFGI.io 36으로 여전히 공포권에 머물러 있다. 도미넌스·알트시즌지수는 로테이션을, 스테이블코인 공급·공포탐욕지수는 그 로테이션이 새 자금에 의한 것이 아님을 가리키는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin traded in a narrow $63,700-$64,550 range on July 12. CoinMarketCap put bitcoin dominance at 56.4% on July 11, down from the high-58% area in early July, while the Altcoin Season Index climbed from around 30 early in the year to 52 (neutral), suggesting a gradual rotation into altcoins. But the total stablecoin market cap that should fuel such a rotation has actually fallen from April's all-time high of $321 billion to a $290-308 billion range by July, and the Fear & Greed Index remains stuck in fear territory at 20 (Alternative.me) and 36 (CFGI.io). A look at a phase where dominance and the Altseason Index point to rotation, while stablecoin supply and sentiment suggest that rotation isn't being driven by fresh capital.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé dans une fourchette étroite de 63 700 à 64 550 dollars le 12 juillet. CoinMarketCap situait la dominance du bitcoin à 56,4 % le 11 juillet, en repli depuis la zone des 58 % de début juillet, tandis que l'indice de saison des altcoins est passé d'environ 30 en début d'année à 52 (neutre), suggérant une rotation progressive vers les altcoins. Mais la capitalisation totale du marché des stablecoins, qui devrait alimenter une telle rotation, a en réalité chuté depuis le pic historique d'avril de 321 milliards de dollars à une fourchette de 290 à 308 milliards de dollars en juillet, et l'indice de peur et de cupidité reste coincé en territoire de peur à 20 (Alternative.me) et 36 (CFGI.io). Un examen d'une phase où la dominance et l'indice Altseason pointent vers une rotation, tandis que l'offre de stablecoins et le sentiment suggèrent que cette rotation n'est pas alimentée par des capitaux frais.",
   "desc_pt": "O bitcoin foi negociado em uma faixa estreita de US$ 63.700-US$ 64.550 em 12 de julho. A CoinMarketCap situou a dominância do bitcoin em 56,4% em 11 de julho, abaixo da faixa alta de 58% do início de julho, enquanto o Índice de Temporada de Altcoins subiu de cerca de 30 no início do ano para 52 (neutro), sugerindo uma rotação gradual para as altcoins. Mas a capitalização total do mercado de stablecoins que deveria alimentar essa rotação na verdade caiu da máxima histórica de abril de US$ 321 bilhões para uma faixa de US$ 290-308 bilhões em julho, e o Índice de Medo e Ganância permanece preso em território de medo em 20 (Alternative.me) e 36 (CFGI.io). Uma análise de uma fase em que dominância e Índice Altseason apontam para rotação, enquanto oferta de stablecoins e sentimento sugerem que essa rotação não é impulsionada por capital novo.",
   "desc_tr": "Bitcoin, 12 Temmuz'da 63.700-64.550 dolar arasında dar bir bantta işlem gördü. CoinMarketCap, bitcoin dominansını 11 Temmuz itibarıyla %56,4 olarak ölçtü — Temmuz başındaki %58'li seviyeden bir gerileme — Altcoin Sezonu Endeksi ise yıl başındaki yaklaşık 30'dan 52'ye (nötr) yükselerek altcoinlere kademeli bir rotasyona işaret etti. Ancak böyle bir rotasyonu beslemesi gereken toplam stablecoin piyasa değeri, Nisan'daki 321 milyar dolarlık tarihi zirveden Temmuz'da 290-308 milyar dolar aralığına gerçekte geriledi ve Korku ve Açgözlülük Endeksi de Alternative.me'de 20, CFGI.io'da 36 ile hâlâ korku bölgesinde sıkışmış durumda. Dominans ve Altseason Endeksi'nin rotasyona işaret ettiği, stablecoin arzı ve duygu durumunun ise bu rotasyonun taze sermaye tarafından yönlendirilmediğini öne sürdüğü bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch trong biên độ hẹp 63.700-64.550 đô la vào ngày 12 tháng 7. CoinMarketCap ghi nhận mức thống trị của bitcoin là 56,4% vào ngày 11 tháng 7, giảm từ vùng 58% cao hồi đầu tháng 7, trong khi Chỉ Số Mùa Altcoin tăng từ khoảng 30 đầu năm lên 52 (trung lập), gợi ý một sự luân chuyển dần dần sang altcoin. Nhưng tổng vốn hóa thị trường stablecoin — thứ lẽ ra phải cung cấp nhiên liệu cho sự luân chuyển đó — thực ra đã giảm từ đỉnh lịch sử 321 tỷ đô la hồi tháng 4 xuống còn 290-308 tỷ đô la vào tháng 7, và Chỉ Số Sợ Hãi và Tham Lam vẫn mắc kẹt ở vùng sợ hãi với mức 20 (Alternative.me) và 36 (CFGI.io). Một góc nhìn về giai đoạn mà mức thống trị và Chỉ Số Altseason cho thấy sự luân chuyển, trong khi nguồn cung stablecoin và tâm lý lại gợi ý rằng sự luân chuyển đó không được thúc đẩy bởi vốn mới."
+  "desc_vi": "Bitcoin giao dịch trong biên độ hẹp 63.700-64.550 đô la vào ngày 12 tháng 7. CoinMarketCap ghi nhận mức thống trị của bitcoin là 56,4% vào ngày 11 tháng 7, giảm từ vùng 58% cao hồi đầu tháng 7, trong khi Chỉ Số Mùa Altcoin tăng từ khoảng 30 đầu năm lên 52 (trung lập), gợi ý một sự luân chuyển dần dần sang altcoin. Nhưng tổng vốn hóa thị trường stablecoin — thứ lẽ ra phải cung cấp nhiên liệu cho sự luân chuyển đó — thực ra đã giảm từ đỉnh lịch sử 321 tỷ đô la hồi tháng 4 xuống còn 290-308 tỷ đô la vào tháng 7, và Chỉ Số Sợ Hãi và Tham Lam vẫn mắc kẹt ở vùng sợ hãi với mức 20 (Alternative.me) và 36 (CFGI.io). Một góc nhìn về giai đoạn mà mức thống trị và Chỉ Số Altseason cho thấy sự luân chuyển, trong khi nguồn cung stablecoin và tâm lý lại gợi ý rằng sự luân chuyển đó không được thúc đẩy bởi vốn mới.",
+  "desc_id": "Bitcoin di $63.700-$64.550, 12 Juli. Dominasi turun ke 56,4%, Altseason Index naik ke 52, tapi stablecoin menyusut dan Fear & Greed Index masih takut.",
+  "desc_pl": "Bitcoin w przedziale 63 700-64 550 USD, 12 lipca. Dominacja spadła do 56,4%, Altcoin Season Index wzrósł do 52, lecz podaż stablecoinów się skurczyła.",
+  "desc_it": "Bitcoin tra 63.700 e 64.550 dollari, 12 luglio. La dominance scende al 56,4%, l'Altcoin Season Index sale a 52, ma l'offerta di stablecoin si è ridotta.",
+  "desc_ru": "Биткоин в диапазоне $63 700-$64 550, 12 июля. Доминация упала до 56,4%, Altcoin Season Index вырос до 52, но стейблкоинов стало меньше, чем в апреле.",
+  "desc_zh": "比特幣7月12日於6萬3,700至6萬4,550美元區間交易。CoinMarketCap統計主導率降至56.4%,山寨幣季節指數升至52,但穩定幣供應量已從4月高點萎縮,恐懼與貪婪指數仍停留在恐懼區間,顯示這波輪動未必由新資金推動,而可能只是市場內部資金換了位置。"
 }
