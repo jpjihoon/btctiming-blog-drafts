@@ -264,6 +264,86 @@
     <text x="20" y="352" fill="#71717a" font-size="12.5" font-family="sans-serif">※ 1993-2013: chỉ riêng việc mua lúc đóng cửa và bán lúc mở cửa kế tiếp đã nắm được gần như toàn bộ mức tăng của chỉ số</text>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Saham: Sebagian Besar Imbal Hasil Berasal dari "Semalam"</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Imbal hasil harian rata-rata S&amp;P 500 · 1990-2020 (AQR Capital Management)</text>
+    <line x1="60" y1="290" x2="640" y2="290" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+    <rect x="150" y="110" width="160" height="180" rx="6" fill="rgba(74,222,128,.22)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="230" y="100" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">+0,04%/hari</text>
+    <text x="230" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Semalam</text>
+    <text x="230" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(penutupan sebelumnya → pembukaan hari ini)</text>
+    <rect x="390" y="276" width="160" height="14" rx="4" fill="rgba(161,161,170,.22)" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="470" y="266" fill="#e4e4e7" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">≈0,00%/hari</text>
+    <text x="470" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Intraday</text>
+    <text x="470" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(pembukaan hari ini → penutupan hari ini)</text>
+    <text x="20" y="352" fill="#71717a" font-size="12.5" font-family="sans-serif">※ 1993-2013: hanya dengan membeli saat penutupan dan menjual pada pembukaan berikutnya sudah menangkap hampir seluruh kenaikan indeks</text>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Akcje: większość zwrotu pochodzi z „nocy"</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Średni dzienny zwrot S&amp;P 500 · 1990-2020 (AQR Capital Management)</text>
+    <line x1="60" y1="290" x2="640" y2="290" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+    <rect x="150" y="110" width="160" height="180" rx="6" fill="rgba(74,222,128,.22)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="230" y="100" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">+0,04%/dzień</text>
+    <text x="230" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Noc</text>
+    <text x="230" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(poprzednie zamknięcie → dzisiejsze otwarcie)</text>
+    <rect x="390" y="276" width="160" height="14" rx="4" fill="rgba(161,161,170,.22)" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="470" y="266" fill="#e4e4e7" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">≈0,00%/dzień</text>
+    <text x="470" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Sesja Dzienna</text>
+    <text x="470" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(dzisiejsze otwarcie → dzisiejsze zamknięcie)</text>
+    <text x="20" y="352" fill="#71717a" font-size="12.5" font-family="sans-serif">※ 1993-2013: samo kupno przy zamknięciu i sprzedaż przy następnym otwarciu uchwyciło niemal cały wzrost indeksu</text>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Azioni: la maggior parte del rendimento arriva dalla notte</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Rendimento medio giornaliero dell'S&amp;P 500 · 1990-2020 (AQR Capital Management)</text>
+    <line x1="60" y1="290" x2="640" y2="290" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+    <rect x="150" y="110" width="160" height="180" rx="6" fill="rgba(74,222,128,.22)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="230" y="100" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">+0,04%/giorno</text>
+    <text x="230" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Overnight</text>
+    <text x="230" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(chiusura precedente → apertura odierna)</text>
+    <rect x="390" y="276" width="160" height="14" rx="4" fill="rgba(161,161,170,.22)" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="470" y="266" fill="#e4e4e7" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">≈0,00%/giorno</text>
+    <text x="470" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Intraday</text>
+    <text x="470" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(apertura odierna → chiusura odierna)</text>
+    <text x="20" y="352" fill="#71717a" font-size="12.5" font-family="sans-serif">※ 1993-2013: comprare alla chiusura e vendere all'apertura successiva ha catturato da solo quasi tutto il guadagno dell'indice</text>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Акции: большая часть доходности приходится на «ночь»</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Средняя дневная доходность S&amp;P 500 · 1990-2020 (AQR Capital Management)</text>
+    <line x1="60" y1="290" x2="640" y2="290" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+    <rect x="150" y="110" width="160" height="180" rx="6" fill="rgba(74,222,128,.22)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="230" y="100" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">+0,04%/день</text>
+    <text x="230" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Овернайт</text>
+    <text x="230" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(предыдущее закрытие → сегодняшнее открытие)</text>
+    <rect x="390" y="276" width="160" height="14" rx="4" fill="rgba(161,161,170,.22)" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="470" y="266" fill="#e4e4e7" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">≈0,00%/день</text>
+    <text x="470" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Внутри дня</text>
+    <text x="470" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(сегодняшнее открытие → сегодняшнее закрытие)</text>
+    <text x="20" y="352" fill="#71717a" font-size="12.5" font-family="sans-serif">※ 1993-2013: покупка на закрытии и продажа на следующем открытии сама по себе захватила почти весь рост индекса</text>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">股票:大部分報酬來自「隔夜」</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">標普500日均報酬率 · 1990-2020(AQR資本管理)</text>
+    <line x1="60" y1="290" x2="640" y2="290" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+    <rect x="150" y="110" width="160" height="180" rx="6" fill="rgba(74,222,128,.22)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="230" y="100" fill="#4ade80" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">+0.04%/天</text>
+    <text x="230" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">隔夜</text>
+    <text x="230" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(前日收盤→今日開盤)</text>
+    <rect x="390" y="276" width="160" height="14" rx="4" fill="rgba(161,161,170,.22)" stroke="#a1a1aa" stroke-width="1.5"/>
+    <text x="470" y="266" fill="#e4e4e7" font-size="16" font-weight="800" text-anchor="middle" font-family="sans-serif">≈0.00%/天</text>
+    <text x="470" y="308" fill="#e4e4e7" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">盤中</text>
+    <text x="470" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">(今日開盤→今日收盤)</text>
+    <text x="20" y="352" fill="#71717a" font-size="12.5" font-family="sans-serif">※ 1993-2013年:僅靠收盤買進、隔日開盤賣出的策略,就捕捉到指數幾乎全部的漲幅</text>
+  </svg>
+  </div>
 
   <h2 class="ko">비트코인의 '시가'는 어제의 마지막 틱일 뿐이다</h2>
   <h2 class="en">Bitcoin's "Open" Is Just Yesterday's Last Tick</h2>
@@ -274,6 +354,11 @@
   <h2 class="pt">A "Abertura" do Bitcoin É Só o Último Tick de Ontem</h2>
   <h2 class="tr">Bitcoin'in "Açılışı" Sadece Dünün Son İşlemidir</h2>
   <h2 class="vi">"Giá Mở Cửa" Của Bitcoin Chỉ Là Tick Cuối Cùng Của Hôm Qua</h2>
+  <h2 class="id">"Harga Pembukaan" Bitcoin Hanyalah Tick Terakhir Kemarin</h2>
+  <h2 class="pl">„Otwarcie" Bitcoina to Tylko Ostatni Tick Wczoraj</h2>
+  <h2 class="it">L'"Apertura" di Bitcoin È Solo l'Ultimo Tick di Ieri</h2>
+  <h2 class="ru">«Открытие» Биткоина — Это Просто Последний Тик Вчерашнего Дня</h2>
+  <h2 class="zh">比特幣的「開盤價」只是昨天的最後一筆成交</h2>
 
   <p class="ko">비트코인에는 이런 오크션이 없다. 개장벨도, 폐장벨도, 주말 휴장도 없이 전 세계 거래소에서 연중무휴 24시간 거래가 이어진다. 대부분의 차트 플랫폼이 관습적으로 UTC 00시를 하루의 경계로 삼아 일봉을 그리지만, 이 경계에는 뉴욕증권거래소의 개장 오크션 같은 어떤 특별한 메커니즘도 없다. 그 결과 어제 일봉의 마지막 체결가와 오늘 일봉의 시가는 연속 거래이기 때문에 사실상 같은 숫자이거나, 다르다 해도 그 차이는 그 순간 누가 마지막 틱을 체결했는지에 좌우되는 미세한 잡음 수준이다.</p>
   <p class="en">Bitcoin has no such auction. There's no opening bell, no closing bell, no weekend recess — trading runs 24 hours a day, every day of the year, across exchanges worldwide. Most charting platforms still draw daily candles using UTC 00:00 as a conventional boundary, but that boundary carries none of the special machinery the NYSE's opening auction has. Because trading is continuous, yesterday's final trade and today's opening trade end up being, for practical purposes, the same number — or if they differ at all, the gap is nothing more than microscopic noise determined by whoever happened to fill the very last tick.</p>
@@ -284,6 +369,11 @@
   <p class="pt">O Bitcoin não tem esse leilão. Não há sino de abertura, sino de fechamento, nem pausa de fim de semana — a negociação continua 24 horas por dia, todos os dias do ano, em exchanges no mundo todo. A maioria das plataformas de gráficos ainda desenha velas diárias usando 00h00 UTC como limite convencional, mas esse limite não carrega nada da maquinaria especial que o leilão de abertura da NYSE tem. Como a negociação é contínua, o último negócio de ontem e o negócio de abertura de hoje acabam sendo, na prática, o mesmo número — ou, se diferirem em algo, a diferença é apenas ruído microscópico determinado por quem executou aquele último tick.</p>
   <p class="tr">Bitcoin'de böyle bir müzayede yoktur. Açılış zili, kapanış zili veya hafta sonu tatili yoktur — dünya çapındaki borsalarda yılın her günü, günün 24 saati işlem sürer. Çoğu grafik platformu hâlâ günlük mumları geleneksel olarak UTC 00:00'ı sınır alarak çizer, ama bu sınır NYSE'nin açılış müzayedesindeki özel mekanizmanın hiçbirini taşımaz. İşlemler kesintisiz olduğu için, dünün son işlemi ile bugünün açılış işlemi pratikte aynı sayı olur — ya da aralarında bir fark varsa bile, bu fark yalnızca o son işlemi kimin gerçekleştirdiğine bağlı, mikroskobik düzeyde bir gürültüden ibarettir.</p>
   <p class="vi">Bitcoin không có phiên đấu giá như vậy. Không có tiếng chuông mở cửa, không có tiếng chuông đóng cửa, không có nghỉ cuối tuần — giao dịch diễn ra 24 giờ một ngày, mọi ngày trong năm, trên các sàn giao dịch khắp thế giới. Hầu hết các nền tảng biểu đồ vẫn vẽ nến ngày bằng cách dùng mốc UTC 00:00 làm ranh giới theo quy ước, nhưng ranh giới đó không mang bất kỳ cơ chế đặc biệt nào như phiên đấu giá mở cửa của NYSE. Vì giao dịch diễn ra liên tục, lệnh khớp cuối cùng của hôm qua và lệnh khớp mở đầu của hôm nay, trên thực tế, trở thành cùng một con số — hoặc nếu có khác nhau, khoảng cách đó cũng chỉ là nhiễu ở mức vi mô, được quyết định bởi việc ai đó vừa khớp đúng tick giao dịch cuối cùng.</p>
+  <p class="id">Bitcoin tidak memiliki lelang semacam itu. Tidak ada lonceng pembukaan, lonceng penutupan, maupun jeda akhir pekan — perdagangan berlangsung 24 jam sehari, setiap hari sepanjang tahun, di bursa-bursa di seluruh dunia. Sebagian besar platform charting masih menggambar candle harian menggunakan UTC 00:00 sebagai batas konvensional, tetapi batas tersebut tidak membawa mekanisme khusus apa pun seperti yang dimiliki lelang pembukaan NYSE. Karena perdagangan berlangsung terus-menerus, transaksi terakhir kemarin dan transaksi pembukaan hari ini pada akhirnya, secara praktis, menjadi angka yang sama — atau jika pun berbeda, selisihnya tidak lebih dari derau mikroskopis yang ditentukan oleh siapa pun yang kebetulan mengeksekusi tick terakhir tersebut.</p>
+  <p class="pl">Bitcoin nie ma takiej aukcji. Nie ma dzwonka otwarcia, dzwonka zamknięcia ani przerwy weekendowej — handel trwa 24 godziny na dobę, każdego dnia roku, na giełdach na całym świecie. Większość platform do wykresów nadal rysuje świece dzienne, wykorzystując UTC 00:00 jako umowną granicę, ale ta granica nie niesie ze sobą żadnego ze specjalnych mechanizmów, jakie ma aukcja otwarcia NYSE. Ponieważ handel jest ciągły, ostatnia wczorajsza transakcja i dzisiejsza transakcja otwarcia okazują się w praktyce tą samą liczbą — a jeśli w ogóle się różnią, różnica ta jest niczym więcej niż mikroskopijnym szumem, zależnym od tego, kto akurat zrealizował ten sam ostatni tick.</p>
+  <p class="it">Bitcoin non ha un'asta del genere. Non c'è campana di apertura, né di chiusura, né pausa nel weekend — la negoziazione prosegue 24 ore su 24, ogni giorno dell'anno, su exchange di tutto il mondo. La maggior parte delle piattaforme di grafici continua a disegnare le candele giornaliere usando le 00:00 UTC come confine convenzionale, ma quel confine non porta con sé nessuno dei meccanismi speciali che ha l'asta di apertura del NYSE. Poiché la negoziazione è continua, l'ultima operazione di ieri e l'operazione di apertura di oggi finiscono per essere, in pratica, lo stesso numero — o, se differiscono, il divario non è altro che rumore microscopico determinato da chi ha eseguito proprio quell'ultimo tick.</p>
+  <p class="ru">У биткоина нет такого аукциона. Нет открывающего звонка, закрывающего звонка, нет выходных перерывов — торговля идёт 24 часа в сутки, каждый день года, на биржах по всему миру. Большинство торговых платформ по-прежнему рисуют дневные свечи, используя 00:00 UTC как условную границу, но эта граница не несёт в себе ничего из того особого механизма, которым обладает открывающий аукцион NYSE. Поскольку торговля непрерывна, последняя вчерашняя сделка и сегодняшняя открывающая сделка оказываются, по сути, одним и тем же числом — а если они и отличаются, разница — не более чем микроскопический шум, определяемый тем, кто именно исполнил тот самый последний тик.</p>
+  <p class="zh">比特幣沒有這種拍賣機制。沒有開盤鐘聲,沒有收盤鐘聲,也沒有週末休市——全球各交易所全年無休、每天24小時持續交易。大多數圖表平台仍然依照慣例,以UTC 0點作為日K線的邊界,但這個邊界並不具備紐約證券交易所開盤拍賣所擁有的任何特殊機制。由於交易是連續進行的,昨天的最後一筆成交與今天的開盤成交,實際上幾乎會是同一個數字——即便兩者有所差異,這個差距也不過是微不足道的雜訊,取決於當時究竟是誰成交了那最後一筆。</p>
 
   <p class="ko">이 지점에서 RVI의 분자(종가−시가)와 분모(고가−저가)가 서로 다른 운명을 맞는다. 분모인 고가-저가는 여전히 그날 실제로 거래된 가격 범위를 정직하게 반영한다 — 이건 비트코인이 연속 거래든 아니든 변하지 않는 사실이다. 하지만 분자인 종가-시가는 원래 의도됐던 '그날의 승부'가 아니라, 그저 임의로 그어놓은 UTC 자정이라는 선 앞뒤의 두 개 체결값을 뺀 값에 불과해진다. 결국 RVI는 의미 있는 분모를 의미 없는 분자로 나눈 값이 되고, 정교해 보이는 10기간 평활과 4기간 시그널선은 이 잡음에 그럴듯한 곡선의 옷을 입히는 역할만 한다.</p>
   <p class="en">This is where RVI's numerator (close − open) and denominator (high − low) part ways. The denominator, high minus low, still honestly reflects the range that actually traded that day — that fact doesn't change whether Bitcoin trades continuously or not. But the numerator, close minus open, stops being "the outcome of the day's contest" and becomes nothing more than the difference between two trade prices on either side of an arbitrarily drawn line at UTC midnight. RVI ends up dividing a meaningful denominator by a meaningless numerator, and the elaborate-looking 10-period smoothing plus 4-period signal line does nothing more than dress that noise up in a plausible-looking curve.</p>

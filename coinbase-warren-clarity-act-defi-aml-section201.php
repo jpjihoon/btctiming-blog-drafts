@@ -486,6 +486,186 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CLARITY Act Bagian 201 — siapa yang tercakup, siapa yang ditandai sebagai celah</text>
+  <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">Titik di mana model "perantara" Bank Secrecy Act tidak menjangkau protokol non-kustodian</text>
+  <g font-family="sans-serif">
+    <line x1="40" y1="98" x2="660" y2="98" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="98" r="6" fill="#22c55e"/>
+    <text x="100" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle">14 Mei</text>
+    <text x="100" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Komite 15–9</text>
+    <circle cx="300" cy="98" r="6" fill="#ef4444"/>
+    <text x="300" y="126" fill="#fca5a5" font-size="13" text-anchor="middle">9 Jul</text>
+    <text x="300" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Warren: "penghindaran"</text>
+    <circle cx="460" cy="98" r="6" fill="#38bdf8"/>
+    <text x="460" y="126" fill="#7dd3fc" font-size="13" text-anchor="middle">9 Jul</text>
+    <text x="460" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Bantahan Coinbase</text>
+    <circle cx="640" cy="98" r="7" fill="#f59e0b"/>
+    <text x="640" y="126" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">7 Agu</text>
+    <text x="640" y="144" fill="#fbbf24" font-size="13" text-anchor="middle">reses</text>
+    <text x="24" y="188" fill="#e4e4e7" font-size="14" font-weight="700">Garis batas yang ditarik Bagian 201</text>
+    <rect x="28" y="204" width="310" height="164" rx="9" fill="#14212e" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="183" y="230" fill="#bae6fd" text-anchor="middle" font-size="14" font-weight="700">Tercakup aturan AML</text>
+    <text x="183" y="254" fill="#7dd3fc" text-anchor="middle" font-size="13">Broker komoditas digital</text>
+    <text x="183" y="274" fill="#7dd3fc" text-anchor="middle" font-size="13">Dealer komoditas digital</text>
+    <text x="183" y="294" fill="#7dd3fc" text-anchor="middle" font-size="13">Bursa komoditas digital</text>
+    <text x="183" y="318" fill="#cbd5e1" text-anchor="middle" font-size="13">Penilaian risiko · SAR · OFAC</text>
+    <text x="183" y="340" fill="#cbd5e1" text-anchor="middle" font-size="13">diwajibkan secara eksplisit</text>
+    <rect x="362" y="204" width="310" height="164" rx="9" fill="#2a1616" stroke="#ef4444" stroke-width="1.4"/>
+    <text x="517" y="230" fill="#fecaca" text-anchor="middle" font-size="14" font-weight="700">Ditandai sebagai celah</text>
+    <text x="517" y="254" fill="#fca5a5" text-anchor="middle" font-size="13">Pengembang/admin DeFi</text>
+    <text x="517" y="274" fill="#fca5a5" text-anchor="middle" font-size="13">Protokol non-kustodian</text>
+    <text x="517" y="294" fill="#fca5a5" text-anchor="middle" font-size="13">Kustodian lepas pantai</text>
+    <text x="517" y="318" fill="#e4b8b8" text-anchor="middle" font-size="13">Dompet tanpa host</text>
+    <text x="517" y="340" fill="#e4b8b8" text-anchor="middle" font-size="13">— menurut Nephew &amp; Warren</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CLARITY Act sekcja 201 — kto jest objęty, gdzie wskazano lukę</text>
+  <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gdzie model "pośrednika" z Bank Secrecy Act nie sięga protokołów bez powiernika</text>
+  <g font-family="sans-serif">
+    <line x1="40" y1="98" x2="660" y2="98" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="98" r="6" fill="#22c55e"/>
+    <text x="100" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle">14 maja</text>
+    <text x="100" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Komisja 15–9</text>
+    <circle cx="300" cy="98" r="6" fill="#ef4444"/>
+    <text x="300" y="126" fill="#fca5a5" font-size="13" text-anchor="middle">9 lip</text>
+    <text x="300" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Warren: "unikanie"</text>
+    <circle cx="460" cy="98" r="6" fill="#38bdf8"/>
+    <text x="460" y="126" fill="#7dd3fc" font-size="13" text-anchor="middle">9 lip</text>
+    <text x="460" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Odpowiedź Coinbase</text>
+    <circle cx="640" cy="98" r="7" fill="#f59e0b"/>
+    <text x="640" y="126" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">7 sie</text>
+    <text x="640" y="144" fill="#fbbf24" font-size="13" text-anchor="middle">przerwa</text>
+    <text x="24" y="188" fill="#e4e4e7" font-size="14" font-weight="700">Granica wyznaczona przez sekcję 201</text>
+    <rect x="28" y="204" width="310" height="164" rx="9" fill="#14212e" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="183" y="230" fill="#bae6fd" text-anchor="middle" font-size="14" font-weight="700">Objęte zasadami AML</text>
+    <text x="183" y="254" fill="#7dd3fc" text-anchor="middle" font-size="13">Brokerzy towarów cyfrowych</text>
+    <text x="183" y="274" fill="#7dd3fc" text-anchor="middle" font-size="13">Dealerzy towarów cyfrowych</text>
+    <text x="183" y="294" fill="#7dd3fc" text-anchor="middle" font-size="13">Giełdy towarów cyfrowych</text>
+    <text x="183" y="318" fill="#cbd5e1" text-anchor="middle" font-size="13">Ocena ryzyka · SAR · OFAC</text>
+    <text x="183" y="340" fill="#cbd5e1" text-anchor="middle" font-size="13">wyraźnie wymagane</text>
+    <rect x="362" y="204" width="310" height="164" rx="9" fill="#2a1616" stroke="#ef4444" stroke-width="1.4"/>
+    <text x="517" y="230" fill="#fecaca" text-anchor="middle" font-size="14" font-weight="700">Wskazane jako luka</text>
+    <text x="517" y="254" fill="#fca5a5" text-anchor="middle" font-size="13">Deweloperzy/admini DeFi</text>
+    <text x="517" y="274" fill="#fca5a5" text-anchor="middle" font-size="13">Protokoły bez powiernika</text>
+    <text x="517" y="294" fill="#fca5a5" text-anchor="middle" font-size="13">Zagraniczni powiernicy</text>
+    <text x="517" y="318" fill="#e4b8b8" text-anchor="middle" font-size="13">Portfele niehostowane</text>
+    <text x="517" y="340" fill="#e4b8b8" text-anchor="middle" font-size="13">— według Nephew i Warren</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CLARITY Act Sezione 201 — chi è coperto, dove si segnala un vuoto</text>
+  <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">Dove il modello di "intermediario" del Bank Secrecy Act non raggiunge i protocolli non custodiali</text>
+  <g font-family="sans-serif">
+    <line x1="40" y1="98" x2="660" y2="98" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="98" r="6" fill="#22c55e"/>
+    <text x="100" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle">14 mag</text>
+    <text x="100" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Comm. 15–9</text>
+    <circle cx="300" cy="98" r="6" fill="#ef4444"/>
+    <text x="300" y="126" fill="#fca5a5" font-size="13" text-anchor="middle">9 lug</text>
+    <text x="300" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Warren: "elusione"</text>
+    <circle cx="460" cy="98" r="6" fill="#38bdf8"/>
+    <text x="460" y="126" fill="#7dd3fc" font-size="13" text-anchor="middle">9 lug</text>
+    <text x="460" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Replica Coinbase</text>
+    <circle cx="640" cy="98" r="7" fill="#f59e0b"/>
+    <text x="640" y="126" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">7 ago</text>
+    <text x="640" y="144" fill="#fbbf24" font-size="13" text-anchor="middle">pausa</text>
+    <text x="24" y="188" fill="#e4e4e7" font-size="14" font-weight="700">Il confine tracciato dalla Sezione 201</text>
+    <rect x="28" y="204" width="310" height="164" rx="9" fill="#14212e" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="183" y="230" fill="#bae6fd" text-anchor="middle" font-size="14" font-weight="700">Coperti dalle norme AML</text>
+    <text x="183" y="254" fill="#7dd3fc" text-anchor="middle" font-size="13">Broker di materie prime digitali</text>
+    <text x="183" y="274" fill="#7dd3fc" text-anchor="middle" font-size="13">Dealer di materie prime digitali</text>
+    <text x="183" y="294" fill="#7dd3fc" text-anchor="middle" font-size="13">Exchange di materie prime digitali</text>
+    <text x="183" y="318" fill="#cbd5e1" text-anchor="middle" font-size="13">Valutazione rischio · SAR · OFAC</text>
+    <text x="183" y="340" fill="#cbd5e1" text-anchor="middle" font-size="13">esplicitamente richiesto</text>
+    <rect x="362" y="204" width="310" height="164" rx="9" fill="#2a1616" stroke="#ef4444" stroke-width="1.4"/>
+    <text x="517" y="230" fill="#fecaca" text-anchor="middle" font-size="14" font-weight="700">Segnalati come vuoto</text>
+    <text x="517" y="254" fill="#fca5a5" text-anchor="middle" font-size="13">Sviluppatori/admin DeFi</text>
+    <text x="517" y="274" fill="#fca5a5" text-anchor="middle" font-size="13">Protocolli non custodiali</text>
+    <text x="517" y="294" fill="#fca5a5" text-anchor="middle" font-size="13">Custodi offshore</text>
+    <text x="517" y="318" fill="#e4b8b8" text-anchor="middle" font-size="13">Portafogli non ospitati</text>
+    <text x="517" y="340" fill="#e4b8b8" text-anchor="middle" font-size="13">— secondo Nephew e Warren</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CLARITY Act, раздел 201 — кто охвачен, где отмечен пробел</text>
+  <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">Где модель «посредника» из Закона о банковской тайне не охватывает некастодиальные протоколы</text>
+  <g font-family="sans-serif">
+    <line x1="40" y1="98" x2="660" y2="98" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="98" r="6" fill="#22c55e"/>
+    <text x="100" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle">14 мая</text>
+    <text x="100" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Комитет 15–9</text>
+    <circle cx="300" cy="98" r="6" fill="#ef4444"/>
+    <text x="300" y="126" fill="#fca5a5" font-size="13" text-anchor="middle">9 июл</text>
+    <text x="300" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Уоррен: «уклонение»</text>
+    <circle cx="460" cy="98" r="6" fill="#38bdf8"/>
+    <text x="460" y="126" fill="#7dd3fc" font-size="13" text-anchor="middle">9 июл</text>
+    <text x="460" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Ответ Coinbase</text>
+    <circle cx="640" cy="98" r="7" fill="#f59e0b"/>
+    <text x="640" y="126" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">7 авг</text>
+    <text x="640" y="144" fill="#fbbf24" font-size="13" text-anchor="middle">перерыв</text>
+    <text x="24" y="188" fill="#e4e4e7" font-size="14" font-weight="700">Граница, которую проводит раздел 201</text>
+    <rect x="28" y="204" width="310" height="164" rx="9" fill="#14212e" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="183" y="230" fill="#bae6fd" text-anchor="middle" font-size="14" font-weight="700">Охвачены правилами AML</text>
+    <text x="183" y="254" fill="#7dd3fc" text-anchor="middle" font-size="13">Брокеры цифровых товаров</text>
+    <text x="183" y="274" fill="#7dd3fc" text-anchor="middle" font-size="13">Дилеры цифровых товаров</text>
+    <text x="183" y="294" fill="#7dd3fc" text-anchor="middle" font-size="13">Биржи цифровых товаров</text>
+    <text x="183" y="318" fill="#cbd5e1" text-anchor="middle" font-size="13">Оценка риска · SAR · OFAC</text>
+    <text x="183" y="340" fill="#cbd5e1" text-anchor="middle" font-size="13">прямо требуется</text>
+    <rect x="362" y="204" width="310" height="164" rx="9" fill="#2a1616" stroke="#ef4444" stroke-width="1.4"/>
+    <text x="517" y="230" fill="#fecaca" text-anchor="middle" font-size="14" font-weight="700">Отмечены как пробел</text>
+    <text x="517" y="254" fill="#fca5a5" text-anchor="middle" font-size="13">Разработчики/админы DeFi</text>
+    <text x="517" y="274" fill="#fca5a5" text-anchor="middle" font-size="13">Некастодиальные протоколы</text>
+    <text x="517" y="294" fill="#fca5a5" text-anchor="middle" font-size="13">Оффшорные хранители</text>
+    <text x="517" y="318" fill="#e4b8b8" text-anchor="middle" font-size="13">Нехостируемые кошельки</text>
+    <text x="517" y="340" fill="#e4b8b8" text-anchor="middle" font-size="13">— по словам Нефью и Уоррен</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="24" y="34" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">CLARITY法案第201條——誰受規範，誰被列為空白地帶</text>
+  <text x="24" y="58" fill="#a1a1aa" font-size="13" font-family="sans-serif">銀行保密法的「中介機構」模式觸及不到非託管式協議之處</text>
+  <g font-family="sans-serif">
+    <line x1="40" y1="98" x2="660" y2="98" stroke="#3f3f46" stroke-width="2"/>
+    <circle cx="100" cy="98" r="6" fill="#22c55e"/>
+    <text x="100" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle">5.14</text>
+    <text x="100" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">委員會15–9</text>
+    <circle cx="300" cy="98" r="6" fill="#ef4444"/>
+    <text x="300" y="126" fill="#fca5a5" font-size="13" text-anchor="middle">7.9</text>
+    <text x="300" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">華倫："規避"</text>
+    <circle cx="460" cy="98" r="6" fill="#38bdf8"/>
+    <text x="460" y="126" fill="#7dd3fc" font-size="13" text-anchor="middle">7.9</text>
+    <text x="460" y="144" fill="#a1a1aa" font-size="13" text-anchor="middle">Coinbase反駁</text>
+    <circle cx="640" cy="98" r="7" fill="#f59e0b"/>
+    <text x="640" y="126" fill="#fbbf24" font-size="13" text-anchor="middle" font-weight="700">8.7</text>
+    <text x="640" y="144" fill="#fbbf24" font-size="13" text-anchor="middle">休會</text>
+    <text x="24" y="188" fill="#e4e4e7" font-size="14" font-weight="700">第201條劃出的界線</text>
+    <rect x="28" y="204" width="310" height="164" rx="9" fill="#14212e" stroke="#38bdf8" stroke-width="1.4"/>
+    <text x="183" y="230" fill="#bae6fd" text-anchor="middle" font-size="14" font-weight="700">受AML規範對象</text>
+    <text x="183" y="254" fill="#7dd3fc" text-anchor="middle" font-size="13">數位商品經紀商</text>
+    <text x="183" y="274" fill="#7dd3fc" text-anchor="middle" font-size="13">數位商品交易商</text>
+    <text x="183" y="294" fill="#7dd3fc" text-anchor="middle" font-size="13">數位商品交易所</text>
+    <text x="183" y="318" fill="#cbd5e1" text-anchor="middle" font-size="13">風險評估・SAR・OFAC</text>
+    <text x="183" y="340" fill="#cbd5e1" text-anchor="middle" font-size="13">明確要求</text>
+    <rect x="362" y="204" width="310" height="164" rx="9" fill="#2a1616" stroke="#ef4444" stroke-width="1.4"/>
+    <text x="517" y="230" fill="#fecaca" text-anchor="middle" font-size="14" font-weight="700">被指為空白地帶</text>
+    <text x="517" y="254" fill="#fca5a5" text-anchor="middle" font-size="13">DeFi開發者/管理者</text>
+    <text x="517" y="274" fill="#fca5a5" text-anchor="middle" font-size="13">非託管式協議</text>
+    <text x="517" y="294" fill="#fca5a5" text-anchor="middle" font-size="13">境外託管方</text>
+    <text x="517" y="318" fill="#e4b8b8" text-anchor="middle" font-size="13">未託管錢包</text>
+    <text x="517" y="340" fill="#e4b8b8" text-anchor="middle" font-size="13">——依奈佛與華倫所述</text>
+  </g>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>시사점:</strong> 워런 상원의원이 7월 9일 클래리티법을 "제재 회피 티켓"이라 비판하자 코인베이스 산하 스탠드위드크립토가 즉각 반박했다. 쟁점은 201조가 브로커·딜러·거래소만 AML 의무 대상으로 명시해 비수탁형 디파이는 공백에 남는다는 것 — 토네이도캐시 소송이 보여주듯 규제 당국도 마땅한 도구가 없다. 8월 7일 마감 전 이 네 번째 전선이 어떻게 봉합되는지 지켜볼 시점이다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> Sen. Warren called the CLARITY Act a "ticket to sanctions evasion" on July 9, drawing an immediate rebuttal from Coinbase-founded Stand With Crypto. The dispute centers on Section 201 naming only brokers, dealers and exchanges for AML duties, leaving non-custodial DeFi in a gap — as the Tornado Cash litigation shows, regulators lack a clean tool of their own. Watch how this fourth front gets resolved before the August 7 deadline.</div>
@@ -496,6 +676,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> A senadora Warren chamou a CLARITY Act de "bilhete para a evasão de sanções" em 9 de julho, provocando uma réplica imediata da Stand With Crypto, fundada pela Coinbase. A disputa gira em torno do fato de a Seção 201 nomear apenas corretores, negociantes e exchanges para deveres de AML, deixando as DeFi não custodiais em uma lacuna — como mostra o litígio da Tornado Cash, os próprios reguladores não têm uma ferramenta clara. Fique atento a como essa quarta frente é resolvida antes do prazo de 7 de agosto.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> Senatör Warren, 9 Temmuz'da CLARITY Act'ı "yaptırımlardan kaçış bileti" olarak nitelendirdi ve Coinbase'in kurduğu Stand With Crypto'dan derhal bir yanıt aldı. Anlaşmazlık, Bölüm 201'in AML görevleri için yalnızca komisyoncuları, satıcıları ve borsaları belirtmesi ve saklamasız DeFi'yi bir boşlukta bırakması etrafında dönüyor — Tornado Cash davasının gösterdiği gibi, düzenleyicilerin de kendi başlarına temiz bir aracı yok. 7 Ağustos son tarihinden önce bu dördüncü cephenin nasıl çözüleceğini izleyin.</div>
 <div class="box vi">💡 <strong>Điểm chính:</strong> Thượng nghị sĩ Warren gọi CLARITY Act là "tấm vé né tránh trừng phạt" vào ngày 9 tháng 7, khiến Stand With Crypto — do Coinbase sáng lập — lập tức phản bác. Tranh chấp xoay quanh việc Mục 201 chỉ nêu tên các nhà môi giới, đại lý và sàn giao dịch cho nghĩa vụ AML, để DeFi không lưu ký nằm trong khoảng trống — như vụ kiện Tornado Cash cho thấy, chính các nhà quản lý cũng không có công cụ rõ ràng của riêng mình. Cần theo dõi mặt trận thứ tư này được giải quyết ra sao trước hạn chót ngày 7 tháng 8.</div>
+<div class="box id">💡 <strong>Intinya:</strong> Senator Warren menyebut CLARITY Act sebagai "tiket menuju penghindaran sanksi" pada 9 Juli, yang langsung memicu bantahan dari Stand With Crypto yang didirikan Coinbase. Sengketa ini berpusat pada Bagian 201 yang hanya menyebut broker, dealer, dan bursa untuk kewajiban AML, meninggalkan DeFi non-kustodian dalam celah — sebagaimana ditunjukkan litigasi Tornado Cash, regulator sendiri tidak memiliki alat yang bersih. Perhatikan bagaimana front keempat ini diselesaikan sebelum tenggat 7 Agustus.</div>
+<div class="box pl">💡 <strong>Wnioski:</strong> Senator Warren nazwała CLARITY Act 9 lipca "biletem do unikania sankcji", co wywołało natychmiastową odpowiedź ze strony Stand With Crypto, założonej przez Coinbase. Spór koncentruje się na tym, że sekcja 201 wskazuje wyłącznie brokerów, dealerów i giełdy jako podlegające obowiązkom AML, pozostawiając DeFi bez powiernika w luce — jak pokazuje spór sądowy dotyczący Tornado Cash, sami regulatorzy nie mają jednoznacznego narzędzia. Warto obserwować, jak ten czwarty front zostanie rozwiązany przed terminem 7 sierpnia.</div>
+<div class="box it">💡 <strong>Da ricordare:</strong> La senatrice Warren ha definito il CLARITY Act un "biglietto per l'elusione delle sanzioni" il 9 luglio, suscitando un'immediata replica da Stand With Crypto, fondata da Coinbase. La disputa verte sul fatto che la Sezione 201 nomina solo broker, dealer ed exchange per gli obblighi AML, lasciando la DeFi non custodiale in un vuoto — come dimostra il contenzioso Tornado Cash, anche i regolatori non dispongono di uno strumento netto proprio. Da osservare come si risolverà questo quarto fronte prima della scadenza del 7 agosto.</div>
+<div class="box ru">💡 <strong>Вывод:</strong> Сенатор Уоррен назвала CLARITY Act 9 июля «билетом на обход санкций», что вызвало немедленный ответ со стороны основанной Coinbase Stand With Crypto. Спор сосредоточен на том, что раздел 201 называет только брокеров, дилеров и биржи в качестве субъектов обязательств AML, оставляя некастодиальную DeFi в пробеле — как показывает судебный процесс по делу Tornado Cash, у самих регуляторов нет чёткого инструмента. Стоит следить за тем, как этот четвёртый фронт будет разрешён до крайнего срока 7 августа.</div>
+<div class="box zh">💡 <strong>重點提示：</strong>華倫參議員於7月9日將CLARITY法案稱為「規避制裁的門票」，立即引來Coinbase創立的Stand With Crypto強力反駁。爭議核心在於第201條僅將經紀商、交易商與交易所列為AML義務對象，讓非託管式DeFi留在空白地帶——正如Tornado Cash訴訟所示，連監管機關自己都缺乏乾淨俐落的工具。值得關注的是，這第四條戰線將如何在8月7日期限前得到解決。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 벤징가(Benzinga), 코인게이프(CoinGape), 크립토타임스(CryptoTimes), TRM랩스(TRM Labs) 법안 분석, 뱅크폴리시연구소(Bank Policy Institute), 미 상원 은행위원회(banking.senate.gov). 토네이도캐시 관련 사실관계는 이 사이트의 이전 보도를 따름. 본 글은 투자 자문이 아니다.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Benzinga, CoinGape, CryptoTimes, TRM Labs bill analysis, Bank Policy Institute, U.S. Senate Banking Committee (banking.senate.gov). Tornado Cash case facts follow this site's earlier coverage. This article is not investment advice.</p>
@@ -506,4 +691,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Benzinga, CoinGape, CryptoTimes, análise do projeto de lei da TRM Labs, Bank Policy Institute, Comitê Bancário do Senado dos EUA (banking.senate.gov). Os fatos do caso Tornado Cash seguem a cobertura anterior deste site. Este artigo não é aconselhamento de investimento.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Benzinga, CoinGape, CryptoTimes, TRM Labs yasa analizi, Bank Policy Institute, ABD Senato Bankacılık Komitesi (banking.senate.gov). Tornado Cash davasına ilişkin olgular bu sitenin önceki haberlerine dayanmaktadır. Bu yazı yatırım tavsiyesi değildir.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Benzinga, CoinGape, CryptoTimes, phân tích dự luật của TRM Labs, Bank Policy Institute, Ủy ban Ngân hàng Thượng viện Mỹ (banking.senate.gov). Các sự kiện về vụ Tornado Cash dựa theo bài viết trước đây của trang này. Bài viết này không phải là tư vấn đầu tư.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Benzinga, CoinGape, CryptoTimes, analisis RUU TRM Labs, Bank Policy Institute, Komite Perbankan Senat AS (banking.senate.gov). Fakta kasus Tornado Cash mengacu pada pemberitaan sebelumnya di situs ini. Artikel ini bukan merupakan nasihat investasi.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Benzinga, CoinGape, CryptoTimes, analiza ustawy TRM Labs, Bank Policy Institute, senacka Komisja Bankowości USA (banking.senate.gov). Fakty dotyczące sprawy Tornado Cash oparto na wcześniejszych publikacjach tej strony. Ten artykuł nie stanowi porady inwestycyjnej.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Benzinga, CoinGape, CryptoTimes, analisi del disegno di legge di TRM Labs, Bank Policy Institute, Commissione Bancaria del Senato USA (banking.senate.gov). I fatti relativi al caso Tornado Cash seguono la copertura precedente di questo sito. Questo articolo non costituisce consulenza di investimento.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Benzinga, CoinGape, CryptoTimes, анализ законопроекта TRM Labs, Bank Policy Institute, банковский комитет Сената США (banking.senate.gov). Факты по делу Tornado Cash приведены согласно более ранним публикациям этого сайта. Эта статья не является инвестиционной рекомендацией.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源：Benzinga、CoinGape、CryptoTimes、TRM Labs法案分析、Bank Policy Institute、美國參議院銀行委員會(banking.senate.gov)。Tornado Cash案相關事實依據本站先前報導。本文並非投資建議。</p>
 <?php require __DIR__.'/_footer.php'; ?>

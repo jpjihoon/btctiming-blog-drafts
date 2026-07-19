@@ -453,6 +453,166 @@
   <text x="20" y="435" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: CoinStats AI (OI ngày 7/7), CoinGlass (xu hướng OI, thanh lý), CoinDesk (giá)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Volume Kontrak Terbuka Turun Sementara Harga Menjaga Kenaikannya</text>
+
+  <text x="20" y="60" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Lintasan Volume Kontrak Terbuka (OI) Futures</text>
+  <line x1="60" y1="150" x2="620" y2="150" stroke="#3f3f46" stroke-width="1"/>
+  <circle cx="120" cy="95" r="8" fill="#f87171"/>
+  <text x="120" y="80" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">$47,71 miliar (7 Jul, puncak)</text>
+  <circle cx="360" cy="115" r="7" fill="#fbbf24"/>
+  <text x="360" y="140" text-anchor="middle" fill="#fbbf24" font-size="13" font-family="sans-serif">$47,41 miliar (pertengahan Juli)</text>
+  <circle cx="600" cy="135" r="8" fill="#60a5fa"/>
+  <text x="600" y="160" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">$47,12 miliar (13 Jul, sekarang)</text>
+  <line x1="120" y1="95" x2="360" y2="115" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="360" y1="115" x2="600" y2="135" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <text x="20" y="215" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Harga Bitcoin, Periode Sama</text>
+  <rect x="60" y="225" width="560" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="120" cy="232" r="7" fill="#71717a"/>
+  <text x="120" y="255" text-anchor="middle" fill="#71717a" font-size="13" font-family="sans-serif">$57.900 (titik terendah 30 Jun)</text>
+  <circle cx="600" cy="232" r="8" fill="#4ade80"/>
+  <text x="600" y="215" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">+11% → kisaran $64.000-an</text>
+
+  <text x="20" y="305" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Komposisi Likuidasi 24 Jam Terakhir (CoinGlass)</text>
+  <rect x="60" y="315" width="560" height="22" rx="4" fill="#27272a"/>
+  <rect x="60" y="315" width="470" height="22" rx="4" fill="#f87171"/>
+  <text x="295" y="331" text-anchor="middle" fill="#111113" font-size="13" font-weight="700" font-family="sans-serif">Short mendominasi (~$17,7 jt, sebagian besar short)</text>
+
+  <text x="350" y="385" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Leverage menyusut sementara harga ditopang oleh short squeeze</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">* Jalur OI dan harga menggunakan skala berbeda; posisi hanya menunjukkan arah relatif.</text>
+  <text x="20" y="435" fill="#71717a" font-family="sans-serif" font-size="12">Sumber: CoinStats AI (OI 7 Jul), CoinGlass (tren OI, likuidasi), CoinDesk (harga)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Otwarte Pozycje Spadły, Podczas Gdy Cena Utrzymała Odbicie</text>
+
+  <text x="20" y="60" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Trajektoria Otwartych Pozycji (OI) w Kontraktach Terminowych</text>
+  <line x1="60" y1="150" x2="620" y2="150" stroke="#3f3f46" stroke-width="1"/>
+  <circle cx="120" cy="95" r="8" fill="#f87171"/>
+  <text x="120" y="80" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">47,71 mld $ (7 lip, szczyt)</text>
+  <circle cx="360" cy="115" r="7" fill="#fbbf24"/>
+  <text x="360" y="140" text-anchor="middle" fill="#fbbf24" font-size="13" font-family="sans-serif">47,41 mld $ (połowa lipca)</text>
+  <circle cx="600" cy="135" r="8" fill="#60a5fa"/>
+  <text x="600" y="160" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">47,12 mld $ (13 lip, teraz)</text>
+  <line x1="120" y1="95" x2="360" y2="115" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="360" y1="115" x2="600" y2="135" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <text x="20" y="215" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Cena Bitcoina, Ten Sam Okres</text>
+  <rect x="60" y="225" width="560" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="120" cy="232" r="7" fill="#71717a"/>
+  <text x="120" y="255" text-anchor="middle" fill="#71717a" font-size="13" font-family="sans-serif">57 900 $ (dołek 30 cze)</text>
+  <circle cx="600" cy="232" r="8" fill="#4ade80"/>
+  <text x="600" y="215" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">+11% → rejon 64 000 $</text>
+
+  <text x="20" y="305" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Struktura Likwidacji z Ostatnich 24h (CoinGlass)</text>
+  <rect x="60" y="315" width="560" height="22" rx="4" fill="#27272a"/>
+  <rect x="60" y="315" width="470" height="22" rx="4" fill="#f87171"/>
+  <text x="295" y="331" text-anchor="middle" fill="#111113" font-size="13" font-weight="700" font-family="sans-serif">Dominują krótkie pozycje (~17,7 mln $, głównie shorty)</text>
+
+  <text x="350" y="385" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Dźwignia się kurczy, podczas gdy cenę podtrzymuje squeeze</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">* Osie OI i ceny używają różnych skal; pozycja pokazuje tylko względny kierunek.</text>
+  <text x="20" y="435" fill="#71717a" font-family="sans-serif" font-size="12">Źródła: CoinStats AI (OI z 7 lip), CoinGlass (trend OI, likwidacje), CoinDesk (cena)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">L'Open Interest È Sceso Mentre il Prezzo Ha Tenuto il Rimbalzo</text>
+
+  <text x="20" y="60" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Traiettoria dell'Open Interest (OI) sui Futures</text>
+  <line x1="60" y1="150" x2="620" y2="150" stroke="#3f3f46" stroke-width="1"/>
+  <circle cx="120" cy="95" r="8" fill="#f87171"/>
+  <text x="120" y="80" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">47,71 Mld $ (7 lug, picco)</text>
+  <circle cx="360" cy="115" r="7" fill="#fbbf24"/>
+  <text x="360" y="140" text-anchor="middle" fill="#fbbf24" font-size="13" font-family="sans-serif">47,41 Mld $ (metà luglio)</text>
+  <circle cx="600" cy="135" r="8" fill="#60a5fa"/>
+  <text x="600" y="160" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">47,12 Mld $ (13 lug, ora)</text>
+  <line x1="120" y1="95" x2="360" y2="115" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="360" y1="115" x2="600" y2="135" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <text x="20" y="215" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Prezzo del Bitcoin, Stesso Periodo</text>
+  <rect x="60" y="225" width="560" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="120" cy="232" r="7" fill="#71717a"/>
+  <text x="120" y="255" text-anchor="middle" fill="#71717a" font-size="13" font-family="sans-serif">57.900 $ (minimo 30 giu)</text>
+  <circle cx="600" cy="232" r="8" fill="#4ade80"/>
+  <text x="600" y="215" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">+11% → fascia media dei 64.000 $</text>
+
+  <text x="20" y="305" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Composizione delle Liquidazioni nelle Ultime 24h (CoinGlass)</text>
+  <rect x="60" y="315" width="560" height="22" rx="4" fill="#27272a"/>
+  <rect x="60" y="315" width="470" height="22" rx="4" fill="#f87171"/>
+  <text x="295" y="331" text-anchor="middle" fill="#111113" font-size="13" font-weight="700" font-family="sans-serif">Gli short dominano (~17,7 mln $, per lo più short)</text>
+
+  <text x="350" y="385" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">La leva si riduce mentre il prezzo è sostenuto da uno squeeze</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">* Le tracce OI e prezzo usano scale diverse; la posizione mostra solo la direzione relativa.</text>
+  <text x="20" y="435" fill="#71717a" font-family="sans-serif" font-size="12">Fonti: CoinStats AI (OI del 7 lug), CoinGlass (trend OI, liquidazioni), CoinDesk (prezzo)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Открытый Интерес Снизился, Пока Цена Удерживала Отскок</text>
+
+  <text x="20" y="60" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Траектория Открытого Интереса (OI) по Фьючерсам</text>
+  <line x1="60" y1="150" x2="620" y2="150" stroke="#3f3f46" stroke-width="1"/>
+  <circle cx="120" cy="95" r="8" fill="#f87171"/>
+  <text x="120" y="80" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">$47,71 млрд (7 июл, пик)</text>
+  <circle cx="360" cy="115" r="7" fill="#fbbf24"/>
+  <text x="360" y="140" text-anchor="middle" fill="#fbbf24" font-size="13" font-family="sans-serif">$47,41 млрд (середина июля)</text>
+  <circle cx="600" cy="135" r="8" fill="#60a5fa"/>
+  <text x="600" y="160" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">$47,12 млрд (13 июл, сейчас)</text>
+  <line x1="120" y1="95" x2="360" y2="115" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="360" y1="115" x2="600" y2="135" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <text x="20" y="215" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Цена Биткоина за Тот Же Период</text>
+  <rect x="60" y="225" width="560" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="120" cy="232" r="7" fill="#71717a"/>
+  <text x="120" y="255" text-anchor="middle" fill="#71717a" font-size="13" font-family="sans-serif">$57 900 (минимум 30 июн)</text>
+  <circle cx="600" cy="232" r="8" fill="#4ade80"/>
+  <text x="600" y="215" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">+11% → около $64 000</text>
+
+  <text x="20" y="305" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">Структура Ликвидаций за 24ч (CoinGlass)</text>
+  <rect x="60" y="315" width="560" height="22" rx="4" fill="#27272a"/>
+  <rect x="60" y="315" width="470" height="22" rx="4" fill="#f87171"/>
+  <text x="295" y="331" text-anchor="middle" fill="#111113" font-size="13" font-weight="700" font-family="sans-serif">Преобладают шорты (~$17,7 млн, в основном шорты)</text>
+
+  <text x="350" y="385" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">Плечо сокращается, пока цену удерживает сквиз</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">* Линии OI и цены используют разные шкалы; позиция показывает только относительное направление.</text>
+  <text x="20" y="435" fill="#71717a" font-family="sans-serif" font-size="12">Источники: CoinStats AI (OI за 7 июл), CoinGlass (тренд OI, ликвидации), CoinDesk (цена)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">未平倉合約下滑,價格仍守住反彈</text>
+
+  <text x="20" y="60" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">期貨未平倉合約(OI)走勢</text>
+  <line x1="60" y1="150" x2="620" y2="150" stroke="#3f3f46" stroke-width="1"/>
+  <circle cx="120" cy="95" r="8" fill="#f87171"/>
+  <text x="120" y="80" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">477.1億美元(7/7,高點)</text>
+  <circle cx="360" cy="115" r="7" fill="#fbbf24"/>
+  <text x="360" y="140" text-anchor="middle" fill="#fbbf24" font-size="13" font-family="sans-serif">474.1億美元(7月中旬)</text>
+  <circle cx="600" cy="135" r="8" fill="#60a5fa"/>
+  <text x="600" y="160" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">471.2億美元(7/13,現在)</text>
+  <line x1="120" y1="95" x2="360" y2="115" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="360" y1="115" x2="600" y2="135" stroke="#71717a" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <text x="20" y="215" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">同期比特幣價格</text>
+  <rect x="60" y="225" width="560" height="14" rx="7" fill="#27272a" stroke="#3f3f46"/>
+  <circle cx="120" cy="232" r="7" fill="#71717a"/>
+  <text x="120" y="255" text-anchor="middle" fill="#71717a" font-size="13" font-family="sans-serif">5萬7,900美元(6/30低點)</text>
+  <circle cx="600" cy="232" r="8" fill="#4ade80"/>
+  <text x="600" y="215" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">+11% → 6萬4,000美元區間</text>
+
+  <text x="20" y="305" fill="#a1a1aa" font-family="sans-serif" font-size="14" font-weight="700">近24小時強制平倉組成(CoinGlass)</text>
+  <rect x="60" y="315" width="560" height="22" rx="4" fill="#27272a"/>
+  <rect x="60" y="315" width="470" height="22" rx="4" fill="#f87171"/>
+  <text x="295" y="331" text-anchor="middle" fill="#111113" font-size="13" font-weight="700" font-family="sans-serif">空頭佔多數(約1,770萬美元,多數為空頭)</text>
+
+  <text x="350" y="385" text-anchor="middle" fill="#e4e4e7" font-family="sans-serif" font-size="14" font-weight="700">槓桿正在收縮,價格靠逼空撐住</text>
+  <text x="20" y="415" fill="#71717a" font-family="sans-serif" font-size="12">* OI與價格軸線使用不同比例尺,位置僅表示相對方向。</text>
+  <text x="20" y="435" fill="#71717a" font-family="sans-serif" font-size="12">來源:CoinStats AI(7/7 OI)、CoinGlass(OI趨勢、強制平倉)、CoinDesk(價格)</text>
+</svg>
+</div>
 
 <h2 class="ko">세 축을 겹쳐보면 — 지금 국면에서 지켜봐야 할 지점</h2>
 <h2 class="en">Overlaying the Three Tracks — What to Watch in This Phase</h2>
@@ -463,6 +623,11 @@
 <h2 class="pt">Sobrepondo as Três Frentes — O Que Observar Nesta Fase</h2>
 <h2 class="tr">Üç Ekseni Üst Üste Koyunca — Bu Aşamada İzlenmesi Gereken Nokta</h2>
 <h2 class="vi">Chồng Ba Nhánh Lên Nhau — Điều Cần Theo Dõi Trong Giai Đoạn Này</h2>
+<h2 class="id">Menumpangkan Tiga Jalur — Apa yang Perlu Diperhatikan di Fase Ini</h2>
+<h2 class="pl">Nakładanie Trzech Wątków — Na Co Zwracać Uwagę w Tej Fazie</h2>
+<h2 class="it">Sovrapporre le Tre Tracce — Cosa Osservare in Questa Fase</h2>
+<h2 class="ru">Накладывая Три Линии — Что Стоит Отслеживать на Этом Этапе</h2>
+<h2 class="zh">疊加三條軸線——這個階段該關注什麼</h2>
 
 <p class="ko">세 축을 겹쳐보면 이번 반등의 성격이 좀 더 또렷해진다. 장기 축(ATH 대비 낙폭)은 이번 반등이 9개월째 이어지는 대형 조정 안의 국지적 되돌림임을 말해주고, 레버리지 축(OI·펀딩비)은 새로운 방향성 베팅이 아니라 기존 포지션 정리가 진행 중임을 말해주며, 확신 축(청산 구성·ETF 연간 흐름)은 매수 주체가 숏스퀴즈와 단기 자금 반전에 가깝다는 것을 말해준다. 세 축이 서로 모순되지는 않지만, 그렇다고 '레버리지가 확신을 갖고 새로 쌓이는' 국면을 가리키지도 않는다.</p>
 <p class="en">Overlaying the three tracks sharpens the picture. The long-horizon track (drawdown from ATH) says this bounce is a local retracement inside a correction now nine months old. The leverage track (OI and funding) says what's underway looks like position unwinding, not fresh directional conviction. The conviction track (liquidation mix and YTD ETF flow) says the buyers behind it look more like squeezed shorts and a short-lived flow reversal than returning long-term capital. None of the three contradicts the others — but none of them point to leverage building with conviction, either.</p>
@@ -473,6 +638,11 @@
 <p class="pt">Ao sobrepor as três frentes, o quadro dessa recuperação fica mais nítido. A frente de longo prazo (queda desde a ATH) mostra que essa recuperação é um retorno local dentro de uma correção já em seu nono mês. A frente de alavancagem (OI e financiamento) mostra que o que está em curso se parece mais com o desmonte de posições do que com uma nova convicção direcional. A frente de convicção (composição das liquidações e fluxos de ETF no acumulado do ano) mostra que os compradores se parecem mais com vendidos espremidos e uma reversão de fluxo de curta duração do que com capital de longo prazo retornando. Nenhuma das três contradiz as outras — mas nenhuma delas também aponta para uma alavancagem se acumulando com convicção.</p>
 <p class="tr">Üç ekseni üst üste koyunca, bu sıçramanın tablosu netleşiyor. Uzun vadeli eksen (ATH'den düşüş), bu sıçramanın artık dokuzuncu ayına giren geniş bir düzeltme içindeki yerel bir geri dönüş olduğunu gösteriyor. Kaldıraç ekseni (OI ve fonlama), şu anda süregelen şeyin yeni bir yönlü kanaatten çok pozisyon çözülmesine benzediğini gösteriyor. Kanaat ekseni (tasfiye kompozisyonu ve yıl başından bugüne ETF akışları), alıcıların geri dönen uzun vadeli sermayeden çok, sıkıştırılmış kısa pozisyonlara ve kısa ömürlü bir akış tersine dönüşüne benzediğini gösteriyor. Üçü de birbiriyle çelişmiyor — ama hiçbiri de kaldıracın kanaatle yeniden birikmekte olduğuna işaret etmiyor.</p>
 <p class="vi">Khi chồng ba nhánh lên nhau, bức tranh của đợt phục hồi này trở nên rõ nét hơn. Nhánh dài hạn (mức sụt giảm từ ATH) cho thấy đợt phục hồi này là một sự điều chỉnh cục bộ bên trong một đợt điều chỉnh lớn đã bước sang tháng thứ chín. Nhánh đòn bẩy (OI và funding) cho thấy những gì đang diễn ra giống với việc tháo gỡ vị thế hơn là một niềm tin định hướng mới. Nhánh niềm tin (cơ cấu thanh lý và dòng vốn ETF từ đầu năm) cho thấy bên mua giống với các vị thế bán khống bị ép buộc và một sự đảo chiều dòng vốn ngắn hạn hơn là dòng vốn dài hạn đang quay trở lại. Không nhánh nào trong ba nhánh mâu thuẫn với các nhánh còn lại — nhưng cũng không nhánh nào cho thấy đòn bẩy đang được xây dựng lại với niềm tin chắc chắn.</p>
+<p class="id">Menumpangkan ketiga jalur tersebut mempertajam gambaran keseluruhan. Jalur jangka panjang (penurunan dari ATH) menunjukkan bahwa kenaikan ini adalah koreksi balik lokal di dalam sebuah koreksi yang kini telah berusia sembilan bulan. Jalur leverage (OI dan funding) menunjukkan bahwa yang sedang berlangsung tampak seperti pelepasan posisi, bukan keyakinan arah baru. Jalur keyakinan (komposisi likuidasi dan arus ETF sepanjang tahun berjalan) menunjukkan bahwa pembeli di balik ini tampak lebih seperti posisi short yang terjepit dan pembalikan arus dana yang berumur pendek, ketimbang modal jangka panjang yang kembali. Tak satu pun dari ketiganya bertentangan satu sama lain — tetapi tak satu pun pula yang menunjukkan leverage sedang dibangun dengan keyakinan.</p>
+<p class="pl">Nałożenie trzech wątków wyostrza obraz. Wątek długoterminowy (spadek od ATH) mówi, że to odbicie jest lokalną korektą wewnątrz korekty trwającej już dziewięć miesięcy. Wątek dźwigni (OI i finansowanie) mówi, że to, co się dzieje, przypomina rozwiązywanie pozycji, a nie nowe przekonanie kierunkowe. Wątek przekonania (struktura likwidacji i przepływy ETF od początku roku) mówi, że kupujący stojący za tym przypominają bardziej wyciskane krótkie pozycje i krótkotrwałe odwrócenie przepływu niż powracający kapitał długoterminowy. Żaden z trzech wątków nie przeczy pozostałym — ale żaden też nie wskazuje na to, że dźwignia buduje się z przekonaniem.</p>
+<p class="it">Sovrapponendo le tre tracce, il quadro si fa più nitido. La traccia di lungo periodo (ribasso dall'ATH) dice che questo rimbalzo è un ritracciamento locale all'interno di una correzione ormai di nove mesi. La traccia della leva (OI e funding) dice che ciò che sta accadendo assomiglia a uno smontaggio di posizioni, non a una nuova convinzione direzionale. La traccia della convinzione (composizione delle liquidazioni e flussi ETF da inizio anno) dice che gli acquirenti dietro questo movimento assomigliano più a short messi sotto pressione e a un'inversione di flusso di breve durata che a capitale a lungo termine in ritorno. Nessuna delle tre contraddice le altre — ma nessuna indica nemmeno che la leva si stia ricostruendo con convinzione.</p>
+<p class="ru">Наложение трёх линий делает картину чётче. Долгосрочная линия (просадка от ATH) говорит о том, что этот отскок — локальный откат внутри коррекции, которой уже девять месяцев. Линия кредитного плеча (OI и фандинг) говорит о том, что происходящее больше похоже на сворачивание позиций, а не на новую направленную убеждённость. Линия убеждённости (структура ликвидаций и поток ETF с начала года) говорит о том, что покупатели за этим движением больше похожи на выжатые шорты и кратковременный разворот потока, чем на возвращающийся долгосрочный капитал. Ни одна из трёх линий не противоречит другим — но ни одна из них и не указывает на то, что плечо наращивается с убеждённостью.</p>
+<p class="zh">疊加這三條軸線後,整體圖像變得更清晰。長期軸線(距ATH跌幅)顯示這波反彈只是已進入第九個月的修正中的一次局部回撤。槓桿軸線(OI與資金費率)顯示目前正在發生的更像是部位解除,而非新的方向性信心。信心軸線(強制平倉結構與年初至今ETF資金流)顯示背後的買盤更像是被軋空的空頭與短暫的資金流逆轉,而非回流的長期資金。三者彼此並不矛盾——但也沒有一項顯示槓桿正帶著信心重新累積。</p>
 
 <p class="ko">지금 국면에서 지켜봐야 할 지점은 분명하다 — OI가 다시 상승 전환해 가격과 같은 방향으로 움직이기 시작하는지, 펀딩비가 뚜렷하게 플러스 구간으로 이동하는지, 그리고 이번 주의 ETF 순유입이 하루짜리·일주일짜리 반전에서 그치지 않고 연속되는 흐름으로 이어지는지다. 이 세 가지가 함께 확인되기 전까지는, 가격 반등과 레버리지·확신 지표 사이의 간극을 열어둔 채로 지켜볼 필요가 있다.</p>
 <p class="en">What's worth watching from here is specific: whether OI turns back upward and starts moving with price again, whether funding shifts clearly into positive territory, and whether this week's ETF inflow extends into a sustained streak rather than stopping at one week. Until those three line up, it's worth keeping the gap between the price bounce and the leverage/conviction gauges open, rather than assuming it's already closed.</p>
