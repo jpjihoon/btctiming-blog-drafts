@@ -68,6 +68,11 @@
   "desc_pt": "A crença de que segurar por mais tempo reduz o risco confunde a probabilidade de uma perda com o seu tamanho. Usando os argumentos de Samuelson (1963) e Bodie (1995), além de dados reais mostrando que compradores nos topos de 2017 e 2021 passaram três anos e 28 meses no vermelho, respectivamente, este texto testa essa crença contra os números.",
   "desc_tr": "Daha uzun tutmanın riski azalttığı inancı, zarar 'olasılığını' zararın 'büyüklüğüyle' karıştırır. Samuelson (1963) ve Bodie (1995)'in argümanlarını, ayrıca 2017 ve 2021 zirvelerinden alım yapanların sırasıyla üç yıl ve 28 ay zararda kaldığını gösteren gerçek verileri kullanarak bu yazı, o inancı rakamlarla sınıyor.",
   "desc_vi": "Niềm tin rằng giữ lâu hơn sẽ giảm rủi ro đã đánh đồng xác suất thua lỗ với quy mô của nó. Dựa trên lập luận của Samuelson (1963) và Bodie (1995), cùng dữ liệu thực tế cho thấy người mua ở đỉnh năm 2017 và 2021 lần lượt phải chịu đựng ba năm và 28 tháng âm vốn, bài viết này kiểm chứng niềm tin đó bằng những con số cụ thể.",
+  "desc_id": "Klaim bahwa menahan lebih lama mengurangi risiko mencampuradukkan probabilitas rugi dengan besarannya, diuji lewat argumen Samuelson dan Bodie.",
+  "desc_pl": "Twierdzenie, że dłuższe trzymanie zmniejsza ryzyko, myli prawdopodobieństwo straty z jej wielkością — sprawdzamy to argumentami Samuelsona i Bodiego.",
+  "desc_it": "La tesi che tenere più a lungo riduca il rischio confonde probabilità ed entità della perdita — verificata con gli argomenti di Samuelson e Bodie.",
+  "desc_ru": "Тезис о том, что долгое удержание снижает риск, путает вероятность убытка с его размером — проверяем это аргументами Самуэльсона и Боди.",
+  "desc_zh": "認為持有越久風險越低的說法,其實混淆了虧損發生的機率與虧損本身的規模這兩件事。本文引用薩繆爾森(1963年)與博迪(1995年)的論證,以及2017年、2021年兩次高點買入者分別歷經三年與28個月才回本的真實數據,來檢驗這個流行說法究竟是否真的站得住腳。",
   "read_ko": "10",
   "read_en": "10",
   "read_ja": "10",
@@ -76,5 +81,10 @@
   "read_fr": "10",
   "read_pt": "10",
   "read_tr": "10",
-  "read_vi": "10"
+  "read_vi": "10",
+  "read_id": "10",
+  "read_pl": "10",
+  "read_it": "10",
+  "read_ru": "10",
+  "read_zh": "10"
 }
