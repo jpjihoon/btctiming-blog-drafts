@@ -39,6 +39,8 @@
 .alert-label{color:var(--sm-t2)}
 .sset-label{font-size:10px;font-weight:600;color:var(--sm-t2);margin:10px 0 6px}
 .wg-coin-grid{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:4px}
+.wg-coin-chip{padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid var(--b1);background:var(--bg3);color:var(--t2);transition:all .15s;user-select:none}
+.wg-coin-chip.on{background:var(--bg4);color:var(--or);border-color:var(--or);box-shadow:0 0 0 1px var(--or)}
 .wg-preview-wrap{margin-bottom:4px;border-radius:10px;overflow:hidden}
 .wg-code-wrap{position:relative}
 .wg-copy-btn{position:absolute;right:6px;top:6px;padding:3px 9px;border-radius:6px;background:var(--sm-bg4);border:1px solid var(--sm-b1);color:var(--sm-t1);font-size:10px;cursor:pointer}
@@ -72,6 +74,7 @@
       </div>
 
       <div id="wgBody">
+        <div id="wgConfig">
         <!-- 코인 선택 + 검색 -->
         <div class="sset-label" id="wgTxt_coins">My coins (favorites)</div>
         <div style="position:relative;margin-bottom:8px">
@@ -100,23 +103,15 @@
           </iframe>
         </div>
 
+        </div><!-- /wgConfig -->
+
         <!-- 플로팅 위젯 (사이트 위 상주) -->
-        <button onclick="btcLaunchFloating()" style="width:100%;margin-top:10px;background:rgba(247,147,26,.14);border:1px solid rgba(247,147,26,.5);border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+        <button onclick="btcLaunchFloating();syncWgToggle();" style="width:100%;margin-top:10px;background:rgba(247,147,26,.14);border:1px solid rgba(247,147,26,.5);border-radius:8px;padding:11px;font-size:12.5px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
           <span style="font-size:15px">📌</span><span id="wgTxt_pin" style="color:#f7931a;font-weight:700">Pin widget on screen</span>
         </button>
         <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
           <span id="wgTxt_pinHint">Keeps a small live widget floating on this page — drag it anywhere.</span>
         </div>
-
-        <!-- 앱으로 설치 (PWA) -->
-        <button id="wgInstallBtn" onclick="installBtcApp()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
-          <span>💻</span> <span id="wgTxt_install">Install widget as an app</span>
-        </button>
-        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
-          <span id="wgTxt_installHint">Installs the widget as a standalone app window.</span>
-        </div>
-
-
 
         <!-- 코드 복사 -->
         <div class="sset-label" id="wgTxt_code">Embed code (for your website)</div>
@@ -125,6 +120,14 @@
           <button class="wg-copy-btn" onclick="copyWidgetCode()" id="wgCopyBtn">
             <span id="wgTxt_copy">Copy</span>
           </button>
+        </div>
+
+        <!-- 앱으로 설치 (PWA) -->
+        <button id="wgInstallBtn" onclick="installBtcApp()" style="width:100%;margin-top:8px;background:var(--bg3);border:1px solid var(--b2);color:var(--t1);border-radius:8px;padding:10px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px">
+          <span>💻</span> <span id="wgTxt_install">Install widget as an app</span>
+        </button>
+        <div style="font-size:9.5px;color:var(--t3);text-align:center;margin-top:5px;line-height:1.4">
+          <span id="wgTxt_installHint">Installs the widget as a standalone app window.</span>
         </div>
       </div>
     </div>
@@ -570,7 +573,12 @@ const WG_I18N = {
   fr:{title:'Widget',desc:'Utilisez-le comme panneau flottant ou intégrez-le à votre site.',coins:'Mes cryptos (favoris)',ph:'🔍 Rechercher pour ajouter (ETH, SOL…)',options:'Options',blog:'Afficher les derniers articles (5)',preview:'Aperçu',pin:'Épingler le widget',pinHint:'Garde un petit widget flottant sur cette page — déplaçable à volonté.',code:"Code d'intégration (pour votre site)",copy:'Copier',install:'Installer le widget comme app',installHint:'Installe le widget comme fenêtre d\'app.',count:function(n){return n+' / 10 · touchez pour retirer';}},
   pt:{title:'Widget',desc:'Use como painel flutuante ou incorpore no seu site.',coins:'Minhas moedas (favoritas)',ph:'🔍 Busque para adicionar (ETH, SOL…)',options:'Opções',blog:'Mostrar últimos posts (5)',preview:'Prévia',pin:'Fixar widget na tela',pinHint:'Mantém um widget flutuante nesta página — arraste para qualquer lugar.',code:'Código de incorporação',copy:'Copiar',install:'Instalar widget como app',installHint:'Instala o widget como janela de app.',count:function(n){return n+' / 10 · toque para remover';}},
   tr:{title:'Widget',desc:'Yüzen panel olarak kullan veya sitene göm.',coins:'Coinlerim (favoriler)',ph:'🔍 Eklemek için ara (ETH, SOL…)',options:'Seçenekler',blog:'Son blog yazılarını göster (5)',preview:'Önizleme',pin:"Widget'ı ekrana sabitle",pinHint:'Bu sayfada küçük bir canlı widget tutar — istediğin yere sürükle.',code:'Yerleştirme kodu (siten için)',copy:'Kopyala',install:'Widget\'i uygulama olarak kur',installHint:'Widget\'ı bağımsız uygulama penceresi olarak kurar.',count:function(n){return n+' / 10 · kaldırmak için dokun';}},
-  vi:{title:'Widget',desc:'Dùng như bảng nổi hoặc nhúng vào trang của bạn.',coins:'Coin của tôi (yêu thích)',ph:'🔍 Tìm để thêm coin (ETH, SOL…)',options:'Tùy chọn',blog:'Hiện bài blog mới nhất (5)',preview:'Xem trước',pin:'Ghim widget lên màn hình',pinHint:'Giữ một widget nhỏ nổi trên trang này — kéo đến bất cứ đâu.',code:'Mã nhúng (cho website của bạn)',copy:'Sao chép',install:'Cài widget như ứng dụng',installHint:'Cài widget như cửa sổ ứng dụng độc lập.',count:function(n){return n+' / 10 · chạm để xóa';}}
+  vi:{title:'Widget',desc:'Dùng như bảng nổi hoặc nhúng vào trang của bạn.',coins:'Coin của tôi (yêu thích)',ph:'🔍 Tìm để thêm coin (ETH, SOL…)',options:'Tùy chọn',blog:'Hiện bài blog mới nhất (5)',preview:'Xem trước',pin:'Ghim widget lên màn hình',pinHint:'Giữ một widget nhỏ nổi trên trang này — kéo đến bất cứ đâu.',code:'Mã nhúng (cho website của bạn)',copy:'Sao chép',install:'Cài widget như ứng dụng',installHint:'Cài widget như cửa sổ ứng dụng độc lập.',count:function(n){return n+' / 10 · chạm để xóa';}},
+  id:{title:'Widget',desc:'Gunakan sebagai panel mengambang, atau sematkan di situs Anda.',coins:'Koin saya (favorit)',ph:'🔍 Cari untuk menambah koin (ETH, SOL, PEPE…)',options:'Opsi',blog:'Tampilkan pos blog terbaru (5)',preview:'Pratinjau',pin:'Sematkan widget di layar',pinHint:'Menjaga widget kecil tetap mengambang di halaman ini — seret ke mana saja.',code:'Kode sematan (untuk situs Anda)',copy:'Salin',install:'Pasang widget sebagai aplikasi',installHint:'Memasang widget sebagai jendela aplikasi mandiri.',count:function(n){return n+' / 10 koin · ketuk untuk menghapus';}},
+  pl:{title:'Widget',desc:'Użyj jako pływający panel lub osadź na swojej stronie.',coins:'Moje monety (ulubione)',ph:'🔍 Szukaj, aby dodać monetę (ETH, SOL, PEPE…)',options:'Opcje',blog:'Pokaż najnowsze wpisy (5)',preview:'Podgląd',pin:'Przypnij widżet na ekranie',pinHint:'Utrzymuje mały widżet na żywo na tej stronie — przeciągnij gdziekolwiek.',code:'Kod osadzania (dla Twojej strony)',copy:'Kopiuj',install:'Zainstaluj widżet jako aplikację',installHint:'Instaluje widżet jako samodzielne okno aplikacji.',count:function(n){return n+' / 10 · dotknij, aby usunąć';}},
+  it:{title:'Widget',desc:'Usalo come pannello flottante o incorporalo nel tuo sito.',coins:'Le mie monete (preferiti)',ph:'🔍 Cerca per aggiungere una moneta (ETH, SOL, PEPE…)',options:'Opzioni',blog:'Mostra ultimi articoli del blog (5)',preview:'Anteprima',pin:'Fissa il widget sullo schermo',pinHint:'Mantiene un piccolo widget live su questa pagina — trascinalo ovunque.',code:'Codice di incorporamento (per il tuo sito)',copy:'Copia',install:'Installa il widget come app',installHint:'Installa il widget come finestra app autonoma.',count:function(n){return n+' / 10 · tocca per rimuovere';}},
+  ru:{title:'Виджет',desc:'Используйте как плавающую панель или встройте на свой сайт.',coins:'Мои монеты (избранное)',ph:'🔍 Поиск, чтобы добавить монету (ETH, SOL, PEPE…)',options:'Опции',blog:'Показывать последние посты (5)',preview:'Предпросмотр',pin:'Закрепить виджет на экране',pinHint:'Держит небольшой живой виджет на этой странице — перетащите куда угодно.',code:'Код для вставки (для вашего сайта)',copy:'Копировать',install:'Установить виджет как приложение',installHint:'Устанавливает виджет как отдельное окно приложения.',count:function(n){return n+' / 10 · нажмите, чтобы удалить';}},
+  zh:{title:'小工具',desc:'可作為浮動面板使用，或嵌入你的網站。',coins:'我的幣種（我的最愛）',ph:'🔍 搜尋以新增幣種 (ETH, SOL, PEPE…)',options:'選項',blog:'顯示最新部落格文章 (5)',preview:'預覽',pin:'將小工具釘在畫面上',pinHint:'在此頁面上保留一個小型即時小工具 — 可拖曳到任何位置。',code:'嵌入碼（用於你的網站）',copy:'複製',install:'將小工具安裝為應用程式',installHint:'將小工具安裝為獨立應用程式視窗。',count:function(n){return n+' / 10 · 點擊幣種即可移除';}}
 };
 function applyWgI18n(){
   const L = WG_I18N[getWidgetLang()] || WG_I18N.en;
@@ -588,7 +596,7 @@ function initWidgetTab(){
   wgInited = true;
   try { wgSelected = JSON.parse(localStorage.getItem('btc_wg_coins')||'["BTC","ETH","SOL","XRP","DOGE"]'); } catch(e){ wgSelected=['BTC','ETH','SOL','XRP','DOGE']; }
   try { wgShowBlog = localStorage.getItem('btc_wg_blog') === '1'; } catch(e){}
-  try { wgEnabled = localStorage.getItem('btc_wg_enabled') !== '0'; } catch(e){}
+  try { wgEnabled = localStorage.getItem('btc_float_on') === '1'; } catch(e){}
   const blogToggle = document.getElementById('wgBlogToggle');
   if(blogToggle && wgShowBlog) blogToggle.classList.add('on');
   const enableToggle = document.getElementById('wgEnableToggle');
@@ -604,10 +612,23 @@ function toggleWgEnable(el){
   wgEnabled = el.classList.contains('on');
   try { localStorage.setItem('btc_wg_enabled', wgEnabled ? '1' : '0'); } catch(e){}
   applyWgEnabledUI();
+  // 토글 = 화면에 위젯 고정(플로팅) 제어: 원하는 상태와 실제 플로팅 유무가 다르면 토글
+  try {
+    var isFloating = !!document.getElementById('btcFloatWidget');
+    if (wgEnabled !== isFloating && typeof window.btcLaunchFloating === 'function') window.btcLaunchFloating();
+  } catch(e){}
+}
+// 플로팅(고정) 버튼을 눌러 상태가 바뀌면 상단 토글·딤을 맞춰줌
+function syncWgToggle(){
+  var t=document.getElementById('wgEnableToggle');
+  var on=!!document.getElementById('btcFloatWidget');
+  wgEnabled=on;
+  if(t) t.classList.toggle('on', on);
+  applyWgEnabledUI();
 }
 
 function applyWgEnabledUI(){
-  const body = document.getElementById('wgBody');
+  const body = document.getElementById('wgConfig') || document.getElementById('wgBody');
   if(body){
     body.style.opacity = wgEnabled ? '1' : '0.4';
     body.style.pointerEvents = wgEnabled ? '' : 'none';
