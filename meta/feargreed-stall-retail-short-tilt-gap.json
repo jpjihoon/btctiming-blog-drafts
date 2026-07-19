@@ -12,6 +12,11 @@
   "read_pt": "6",
   "read_tr": "6",
   "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6",
 
   "tag_ko": "공포탐욕지수 정체·롱숏비율 숏 드리프트",
   "tag_en": "Fear & Greed Stalls · Long/Short Ratio Drifts Short",
@@ -22,6 +27,11 @@
   "tag_pt": "Índice de Medo Estagnado · Long/Short para Vendidos",
   "tag_tr": "Korku Endeksi Durağan · Long/Short Kısaya Kayıyor",
   "tag_vi": "Chỉ Số Sợ Hãi Đình Trệ · Long/Short Nghiêng Short",
+  "tag_id": "Indeks Fear & Greed Macet · Rasio Long/Short Bergeser ke Short",
+  "tag_pl": "Indeks Strachu i Chciwości Stoi w Miejscu · Long/Short Dryfuje ku Shortom",
+  "tag_it": "Fear & Greed in Stallo · Rapporto Long/Short Verso i Short",
+  "tag_ru": "Индекс Страха и Жадности Застрял · Long/Short Смещается к Шортам",
+  "tag_zh": "恐懼與貪婪指數停滯・多空比轉向空頭",
 
   "bc_ko": "공포탐욕지수·롱숏비율 점검",
   "bc_en": "Fear & Greed & Long/Short Check",
@@ -32,6 +42,11 @@
   "bc_pt": "Verificação: Medo e Ganância e Long/Short",
   "bc_tr": "Korku ve Açgözlülük ile Long/Short İncelemesi",
   "bc_vi": "Kiểm Tra Sợ Hãi & Tham Lam và Long/Short",
+  "bc_id": "Pemeriksaan Fear & Greed dan Long/Short",
+  "bc_pl": "Weryfikacja: Strach i Chciwość oraz Long/Short",
+  "bc_it": "Verifica: Fear & Greed e Long/Short",
+  "bc_ru": "Проверка: Страх и Жадность и Long/Short",
+  "bc_zh": "恐懼與貪婪指數・多空比檢視",
 
   "title_ko": "공포탐욕지수는 '공포'에 머무는데, 롱숏비율은 조용히 숏 쪽으로 기운다",
   "title_en": "The Fear & Greed Index Is Stuck in 'Fear' While the Long/Short Ratio Quietly Drifts Toward Shorts",
@@ -42,6 +57,11 @@
   "title_pt": "O Índice de Medo e Ganância Permanece em 'Medo' Enquanto o Índice Long/Short Se Inclina Silenciosamente para Vendidos",
   "title_tr": "Korku ve Açgözlülük Endeksi 'Korku'da Kalırken Long/Short Oranı Sessizce Kısa Pozisyona Kayıyor",
   "title_vi": "Chỉ Số Sợ Hãi và Tham Lam Vẫn Ở Mức 'Sợ Hãi' Trong Khi Tỷ Lệ Long/Short Âm Thầm Nghiêng Về Phía Short",
+  "title_id": "Indeks Fear & Greed Terjebak di 'Fear' Sementara Rasio Long/Short Diam-Diam Bergeser ke Arah Short",
+  "title_pl": "Indeks Strachu i Chciwości Utknął w 'Strachu', a Wskaźnik Long/Short Cicho Dryfuje ku Shortom",
+  "title_it": "L'Indice Fear & Greed Resta Bloccato in 'Paura' Mentre il Rapporto Long/Short Scivola Silenziosamente Verso i Short",
+  "title_ru": "Индекс Страха и Жадности Застрял в 'Страхе', Пока Соотношение Long/Short Тихо Смещается к Шортам",
+  "title_zh": "恐懼與貪婪指數仍卡在「恐懼」區,多空比卻悄悄轉向空頭",
 
   "h1_ko": "공포탐욕지수는 '공포'에 머무는데<br>롱숏비율은 조용히 숏 쪽으로 기울고 있다",
   "h1_en": "The Fear & Greed Index Is Stuck in 'Fear'<br>While the Long/Short Ratio Quietly Drifts Toward Shorts",
@@ -52,6 +72,11 @@
   "h1_pt": "O Índice de Medo e Ganância Permanece em 'Medo'<br>O Índice Long/Short Se Inclina para Vendidos",
   "h1_tr": "Korku ve Açgözlülük Endeksi 'Korku'da Kalıyor<br>Long/Short Oranı Kısa Pozisyona Kayıyor",
   "h1_vi": "Chỉ Số Sợ Hãi và Tham Lam Vẫn Ở Mức 'Sợ Hãi'<br>Tỷ Lệ Long/Short Nghiêng Về Phía Short",
+  "h1_id": "Indeks Fear & Greed Terjebak di 'Fear'<br>Sementara Rasio Long/Short Diam-Diam Bergeser ke Short",
+  "h1_pl": "Indeks Strachu i Chciwości Utknął w 'Strachu'<br>Wskaźnik Long/Short Cicho Dryfuje ku Shortom",
+  "h1_it": "L'Indice Fear & Greed Resta Bloccato in 'Paura'<br>Il Rapporto Long/Short Scivola Verso i Short",
+  "h1_ru": "Индекс Страха и Жадности Застрял в 'Страхе'<br>Long/Short Тихо Смещается к Шортам",
+  "h1_zh": "恐懼與貪婪指數仍卡在「恐懼」區<br>多空比卻悄悄轉向空頭",
 
   "desc_ko": "비트코인은 7월13일 6만4,000~6만4,200달러 사이, 20일 EMA 6만3,029달러와 50일 EMA 6만5,305달러 사이 좁은 구간에서 거래되고 있다(크립토노미스트). 전날인 7월11일에는 숏스퀴즈로 숏 포지션 1억3,300만달러가 청산되며 반등을 도왔다. 공포탐욕지수는 7월 초 12~20의 극단적 공포에서 벗어나 7월12일 26(공포)까지 올라왔지만, 코인스탯츠 집계로는 7월13일 29로 전날(31)보다 오히려 소폭 하락해 이번 주 26~31 박스권에서 사실상 정체됐다. 한편 바이낸스 리테일 롱숏비율은 롱 57.1%·숏 42.9%(1.33)로 표면적으론 여전히 매수 우위지만, 최근 며칠 새 롱 비중이 줄고 숏 비중이 느는 방향으로 움직이고 있다(레짐리스크닷컴, 코인글래스 인용). 가격은 안정을 지키는데 심리는 공포권에서 못 벗어나고 포지셔닝은 조용히 숏 쪽으로 기우는 지금 국면을 점검했다.",
   "desc_en": "Bitcoin was trading between $64,000 and $64,200 on July 13, in a narrow band between its 20-day EMA of $63,029 and 50-day EMA of $65,305 (Cryptonomist). A day earlier, on July 11, a short squeeze liquidated $133 million in short positions, helping fuel the bounce. The Fear & Greed Index climbed out of 12-20 extreme fear in early July to reach 26 (Fear) by July 12 — but per CoinStats it read 29 on July 13, down slightly from 31 the day before, effectively stalling in a 26-31 band this week. Meanwhile Binance retail's long/short ratio sits at 57.1% long to 42.9% short (1.33) — still long-leaning on the surface, but drifting toward more shorts in recent days (RegimeRisk.com, citing CoinGlass). A look at a phase where price holds steady while sentiment can't escape Fear and positioning quietly tilts toward shorts.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'échangeait entre 64 000 et 64 200 dollars le 13 juillet, dans une fourchette étroite entre son EMA à 20 jours de 63 029 dollars et son EMA à 50 jours de 65 305 dollars (Cryptonomist). La veille, le 11 juillet, un short squeeze avait liquidé 133 millions de dollars de positions courtes, alimentant le rebond. L'indice Fear & Greed est sorti de la fourchette de peur extrême de 12-20 de début juillet pour atteindre 26 (Peur) le 12 juillet — mais selon CoinStats, il affichait 29 le 13 juillet, légèrement en dessous de 31 la veille, stagnant en pratique dans une fourchette de 26-31 cette semaine. Pendant ce temps, le ratio long/short retail de Binance se situe à 57,1 % de longs contre 42,9 % de courts (1,33) — toujours penché vers les longs en surface, mais dérivant vers davantage de positions courtes ces derniers jours (RegimeRisk.com, citant CoinGlass). Un examen d'une phase où le prix reste stable tandis que le sentiment ne parvient pas à échapper à la peur et que le positionnement penche discrètement vers les positions courtes.",
   "desc_pt": "O bitcoin era negociado entre US$ 64.000 e US$ 64.200 em 13 de julho, numa faixa estreita entre sua EMA de 20 dias de US$ 63.029 e sua EMA de 50 dias de US$ 65.305 (Cryptonomist). Um dia antes, em 11 de julho, um short squeeze liquidou US$ 133 milhões em posições vendidas, ajudando a impulsionar a recuperação. O Índice de Medo e Ganância saiu da faixa de medo extremo de 12-20 do início de julho para alcançar 26 (Medo) em 12 de julho — mas, segundo a CoinStats, marcou 29 em 13 de julho, ligeiramente abaixo de 31 no dia anterior, estagnando efetivamente numa faixa de 26-31 nesta semana. Enquanto isso, o índice long/short de varejo da Binance está em 57,1% comprados contra 42,9% vendidos (1,33) — ainda inclinado para compradores na superfície, mas derivando para mais vendidos nos últimos dias (RegimeRisk.com, citando CoinGlass). Uma análise de uma fase em que o preço se mantém estável enquanto o sentimento não consegue escapar do Medo e o posicionamento se inclina silenciosamente para vendidos.",
   "desc_tr": "Bitcoin, 13 Temmuz'da 64.000 ile 64.200 dolar arasında, 20 günlük EMA'sı 63.029 dolar ile 50 günlük EMA'sı 65.305 dolar arasındaki dar bir bantta işlem gördü (Cryptonomist). Bir gün önce, 11 Temmuz'da yaşanan bir kısa pozisyon sıkışması 133 milyon dolarlık kısa pozisyonu tasfiye ederek sıçramayı besledi. Korku ve Açgözlülük Endeksi, Temmuz başındaki 12-20 aşırı korku aralığından çıkarak 12 Temmuz'da 26'ya (Korku) ulaştı — ancak CoinStats'a göre 13 Temmuz'da 29 oldu, bir önceki günkü 31'in hafifçe altında, ve bu hafta fiilen 26-31 bandında durakladı. Bu arada Binance perakende long/short oranı %57,1 uzun'a karşı %42,9 kısa (1,33) seviyesinde — yüzeyde hâlâ uzun pozisyona eğimli, ama son günlerde daha fazla kısa pozisyona doğru sürükleniyor (RegimeRisk.com, CoinGlass verilerine atıfla). Fiyatın istikrarını korurken duyarlılığın Korku'dan kurtulamadığı ve pozisyonlamanın sessizce kısa yöne eğildiği bir aşamaya bakış.",
-  "desc_vi": "Bitcoin giao dịch trong khoảng 64.000 đến 64.200 đô la vào ngày 13 tháng 7, trong một biên độ hẹp giữa đường EMA 20 ngày ở mức 63.029 đô la và đường EMA 50 ngày ở mức 65.305 đô la (Cryptonomist). Một ngày trước đó, vào ngày 11 tháng 7, một đợt ép giá bán khống đã thanh lý 133 triệu đô la vị thế bán khống, tiếp sức cho đà phục hồi. Chỉ Số Sợ Hãi và Tham Lam đã thoát khỏi vùng sợ hãi cực độ 12-20 hồi đầu tháng 7 để đạt 26 (Sợ Hãi) vào ngày 12 tháng 7 — nhưng theo CoinStats, chỉ số này ở mức 29 vào ngày 13 tháng 7, giảm nhẹ so với 31 của ngày hôm trước, gần như đình trệ trong biên độ 26-31 tuần này. Trong khi đó, tỷ lệ long/short bán lẻ trên Binance ở mức 57,1% long so với 42,9% short (1,33) — bề ngoài vẫn nghiêng về long, nhưng đang trôi dần về phía short nhiều hơn trong những ngày gần đây (RegimeRisk.com, trích dẫn CoinGlass). Một góc nhìn về giai đoạn giá giữ ổn định trong khi tâm lý không thể thoát khỏi Sợ Hãi và vị thế giao dịch âm thầm nghiêng về phía short."
+  "desc_vi": "Bitcoin giao dịch trong khoảng 64.000 đến 64.200 đô la vào ngày 13 tháng 7, trong một biên độ hẹp giữa đường EMA 20 ngày ở mức 63.029 đô la và đường EMA 50 ngày ở mức 65.305 đô la (Cryptonomist). Một ngày trước đó, vào ngày 11 tháng 7, một đợt ép giá bán khống đã thanh lý 133 triệu đô la vị thế bán khống, tiếp sức cho đà phục hồi. Chỉ Số Sợ Hãi và Tham Lam đã thoát khỏi vùng sợ hãi cực độ 12-20 hồi đầu tháng 7 để đạt 26 (Sợ Hãi) vào ngày 12 tháng 7 — nhưng theo CoinStats, chỉ số này ở mức 29 vào ngày 13 tháng 7, giảm nhẹ so với 31 của ngày hôm trước, gần như đình trệ trong biên độ 26-31 tuần này. Trong khi đó, tỷ lệ long/short bán lẻ trên Binance ở mức 57,1% long so với 42,9% short (1,33) — bề ngoài vẫn nghiêng về long, nhưng đang trôi dần về phía short nhiều hơn trong những ngày gần đây (RegimeRisk.com, trích dẫn CoinGlass). Một góc nhìn về giai đoạn giá giữ ổn định trong khi tâm lý không thể thoát khỏi Sợ Hãi và vị thế giao dịch âm thầm nghiêng về phía short.",
+  "desc_id": "Bitcoin bertahan di kisaran $64.000, namun Indeks Fear & Greed macet di 'Fear' sementara rasio long/short diam-diam bergeser ke short.",
+  "desc_pl": "Bitcoin trzyma poziom 64 000 dolarów, ale Indeks Strachu i Chciwości utknął w 'Strachu', a wskaźnik long/short cicho przechyla się ku shortom.",
+  "desc_it": "Il bitcoin tiene i 64.000 dollari, ma l'Indice Fear & Greed resta bloccato in 'Paura' mentre il rapporto long/short scivola verso i short.",
+  "desc_ru": "Биткоин держит уровень 64 000 долларов, но индекс страха и жадности застрял в 'страхе', а long/short тихо смещается к шортам.",
+  "desc_zh": "比特幣7月13日守在6萬4,000美元上下,處於20日與50日EMA之間的窄幅區間內整理。恐懼與貪婪指數雖已脫離極度恐懼,卻連日卡在「恐懼」門檻附近停滯不前;幣安散戶多空比表面上仍偏多,但近日已悄悄轉向空頭方向,顯示這波反彈背後仍缺乏堅實的信心支撐,情緒與部位配置尚未真正跟上價格的腳步。"
 }
