@@ -414,6 +414,166 @@
 <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Bốn trường hợp được đặt mang tính khái niệm theo hướng tín hiệu chi phối của mỗi giai đoạn, không phải tọa độ chính xác từ giá trị chỉ báo thực tế.</p>
 </div>
 
+<div class="id">
+<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Empat Rezim yang Terbentuk dari Sinyal Teknikal dan On-Chain</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Ketika kedua kelompok sepakat, itu memperkuat keyakinan; ketika bertentangan, on-chain harus memimpin</text>
+  <rect x="100" y="75" width="265" height="132.5" fill="#3b82f6" opacity="0.13"/>
+  <rect x="365" y="75" width="265" height="132.5" fill="#4ade80" opacity="0.15"/>
+  <rect x="100" y="207.5" width="265" height="132.5" fill="#f87171" opacity="0.15"/>
+  <rect x="365" y="207.5" width="265" height="132.5" fill="#fbbf24" opacity="0.15"/>
+  <line x1="365" y1="75" x2="365" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <line x1="100" y1="207.5" x2="630" y2="207.5" stroke="#52525b" stroke-width="1.5"/>
+  <text x="365" y="393" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Sinyal teknikal (bearish ← → bullish)</text>
+  <text x="40" y="207.5" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 40 207.5)">Sinyal on-chain (bearish ← → bullish)</text>
+  <text x="232.5" y="98" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">On-chain bullish / teknikal bearish</text>
+  <text x="232.5" y="115" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif">→ percayai on-chain, pertimbangkan membeli</text>
+  <circle cx="220" cy="150" r="6" fill="#60a5fa"/>
+  <text x="235" y="154" fill="#e4e4e7" font-size="13" font-family="sans-serif">Maret 2020 · kejatuhan covid</text>
+  <text x="497.5" y="98" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Keduanya bullish</text>
+  <text x="497.5" y="115" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif">→ zona keyakinan tinggi</text>
+  <circle cx="510" cy="150" r="6" fill="#4ade80"/>
+  <text x="420" y="180" fill="#e4e4e7" font-size="13" font-family="sans-serif">2023-24 · awal reli ETF</text>
+  <text x="232.5" y="228" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Keduanya bearish</text>
+  <text x="232.5" y="245" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif">→ zona keyakinan tinggi</text>
+  <circle cx="220" cy="280" r="6" fill="#f87171"/>
+  <text x="235" y="284" fill="#e4e4e7" font-size="13" font-family="sans-serif">November 2022 · keruntuhan FTX</text>
+  <text x="497.5" y="228" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">On-chain bearish / teknikal bullish</text>
+  <text x="497.5" y="245" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif">→ percayai on-chain, tetap waspada</text>
+  <circle cx="510" cy="290" r="6" fill="#fbbf24"/>
+  <text x="420" y="320" fill="#e4e4e7" font-size="13" font-family="sans-serif">Mei 2021 · rezim golden cross</text>
+</svg>
+<p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Keempat kasus ini ditempatkan secara konseptual berdasarkan arah sinyal dominan pada masing-masing periode, bukan sebagai koordinat presisi dari nilai indikator aktual.</p>
+</div>
+
+<div class="pl">
+<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Cztery Reżimy Tworzone przez Sygnały Techniczne i On-Chain</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gdy obie rodziny się zgadzają, rośnie pewność; gdy są w konflikcie, priorytet powinien mieć on-chain</text>
+  <rect x="100" y="75" width="265" height="132.5" fill="#3b82f6" opacity="0.13"/>
+  <rect x="365" y="75" width="265" height="132.5" fill="#4ade80" opacity="0.15"/>
+  <rect x="100" y="207.5" width="265" height="132.5" fill="#f87171" opacity="0.15"/>
+  <rect x="365" y="207.5" width="265" height="132.5" fill="#fbbf24" opacity="0.15"/>
+  <line x1="365" y1="75" x2="365" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <line x1="100" y1="207.5" x2="630" y2="207.5" stroke="#52525b" stroke-width="1.5"/>
+  <text x="365" y="393" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Sygnał techniczny (spadkowy ← → wzrostowy)</text>
+  <text x="40" y="207.5" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 40 207.5)">Sygnał on-chain (spadkowy ← → wzrostowy)</text>
+  <text x="232.5" y="98" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">On-chain wzrostowy / techniczny spadkowy</text>
+  <text x="232.5" y="115" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif">→ zaufaj on-chain, rozważ zakup</text>
+  <circle cx="220" cy="150" r="6" fill="#60a5fa"/>
+  <text x="235" y="154" fill="#e4e4e7" font-size="13" font-family="sans-serif">Marzec 2020 · krach covidowy</text>
+  <text x="497.5" y="98" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Oba wzrostowe</text>
+  <text x="497.5" y="115" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif">→ strefa wysokiej pewności</text>
+  <circle cx="510" cy="150" r="6" fill="#4ade80"/>
+  <text x="420" y="180" fill="#e4e4e7" font-size="13" font-family="sans-serif">2023-24 · początek rajdu ETF</text>
+  <text x="232.5" y="228" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Oba spadkowe</text>
+  <text x="232.5" y="245" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif">→ strefa wysokiej pewności</text>
+  <circle cx="220" cy="280" r="6" fill="#f87171"/>
+  <text x="235" y="284" fill="#e4e4e7" font-size="13" font-family="sans-serif">Listopad 2022 · upadek FTX</text>
+  <text x="497.5" y="228" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">On-chain spadkowy / techniczny wzrostowy</text>
+  <text x="497.5" y="245" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif">→ zaufaj on-chain, zachowaj ostrożność</text>
+  <circle cx="510" cy="290" r="6" fill="#fbbf24"/>
+  <text x="420" y="320" fill="#e4e4e7" font-size="13" font-family="sans-serif">Maj 2021 · reżim złotego krzyża</text>
+</svg>
+<p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Cztery przypadki są umieszczone koncepcyjnie według dominującego kierunku sygnału w danym okresie, a nie jako precyzyjne współrzędne rzeczywistych wartości wskaźników.</p>
+</div>
+
+<div class="it">
+<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">I Quattro Regimi Formati dai Segnali Tecnici e On-Chain</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Quando le due famiglie concordano, cresce la fiducia; quando sono in conflitto, l'on-chain dovrebbe guidare</text>
+  <rect x="100" y="75" width="265" height="132.5" fill="#3b82f6" opacity="0.13"/>
+  <rect x="365" y="75" width="265" height="132.5" fill="#4ade80" opacity="0.15"/>
+  <rect x="100" y="207.5" width="265" height="132.5" fill="#f87171" opacity="0.15"/>
+  <rect x="365" y="207.5" width="265" height="132.5" fill="#fbbf24" opacity="0.15"/>
+  <line x1="365" y1="75" x2="365" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <line x1="100" y1="207.5" x2="630" y2="207.5" stroke="#52525b" stroke-width="1.5"/>
+  <text x="365" y="393" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Segnale tecnico (ribassista ← → rialzista)</text>
+  <text x="40" y="207.5" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 40 207.5)">Segnale on-chain (ribassista ← → rialzista)</text>
+  <text x="232.5" y="98" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">On-chain rialzista / tecnico ribassista</text>
+  <text x="232.5" y="115" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif">→ fidati dell'on-chain, valuta l'acquisto</text>
+  <circle cx="220" cy="150" r="6" fill="#60a5fa"/>
+  <text x="235" y="154" fill="#e4e4e7" font-size="13" font-family="sans-serif">Marzo 2020 · crollo covid</text>
+  <text x="497.5" y="98" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Entrambi rialzisti</text>
+  <text x="497.5" y="115" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif">→ zona ad alta fiducia</text>
+  <circle cx="510" cy="150" r="6" fill="#4ade80"/>
+  <text x="420" y="180" fill="#e4e4e7" font-size="13" font-family="sans-serif">2023-24 · inizio rally ETF</text>
+  <text x="232.5" y="228" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Entrambi ribassisti</text>
+  <text x="232.5" y="245" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif">→ zona ad alta fiducia</text>
+  <circle cx="220" cy="280" r="6" fill="#f87171"/>
+  <text x="235" y="284" fill="#e4e4e7" font-size="13" font-family="sans-serif">Novembre 2022 · collasso FTX</text>
+  <text x="497.5" y="228" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">On-chain ribassista / tecnico rialzista</text>
+  <text x="497.5" y="245" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif">→ fidati dell'on-chain, resta cauto</text>
+  <circle cx="510" cy="290" r="6" fill="#fbbf24"/>
+  <text x="420" y="320" fill="#e4e4e7" font-size="13" font-family="sans-serif">Maggio 2021 · regime del golden cross</text>
+</svg>
+<p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ I quattro casi sono collocati concettualmente in base alla direzione del segnale dominante di ciascun periodo, non come coordinate precise dei valori reali degli indicatori.</p>
+</div>
+
+<div class="ru">
+<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Четыре Режима, Формируемые Техническими и Ончейн-Сигналами</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Когда оба семейства согласны, это укрепляет уверенность; при конфликте приоритет должен быть у ончейн-данных</text>
+  <rect x="100" y="75" width="265" height="132.5" fill="#3b82f6" opacity="0.13"/>
+  <rect x="365" y="75" width="265" height="132.5" fill="#4ade80" opacity="0.15"/>
+  <rect x="100" y="207.5" width="265" height="132.5" fill="#f87171" opacity="0.15"/>
+  <rect x="365" y="207.5" width="265" height="132.5" fill="#fbbf24" opacity="0.15"/>
+  <line x1="365" y1="75" x2="365" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <line x1="100" y1="207.5" x2="630" y2="207.5" stroke="#52525b" stroke-width="1.5"/>
+  <text x="365" y="393" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">Технический сигнал (медвежий ← → бычий)</text>
+  <text x="40" y="207.5" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 40 207.5)">Ончейн-сигнал (медвежий ← → бычий)</text>
+  <text x="232.5" y="98" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Ончейн бычий / технический медвежий</text>
+  <text x="232.5" y="115" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif">→ довериться ончейн, рассмотреть покупку</text>
+  <circle cx="220" cy="150" r="6" fill="#60a5fa"/>
+  <text x="235" y="154" fill="#e4e4e7" font-size="13" font-family="sans-serif">Март 2020 · ковидный обвал</text>
+  <text x="497.5" y="98" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Оба бычьи</text>
+  <text x="497.5" y="115" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif">→ зона высокой уверенности</text>
+  <circle cx="510" cy="150" r="6" fill="#4ade80"/>
+  <text x="420" y="180" fill="#e4e4e7" font-size="13" font-family="sans-serif">2023-24 · начало ралли ETF</text>
+  <text x="232.5" y="228" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Оба медвежьи</text>
+  <text x="232.5" y="245" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif">→ зона высокой уверенности</text>
+  <circle cx="220" cy="280" r="6" fill="#f87171"/>
+  <text x="235" y="284" fill="#e4e4e7" font-size="13" font-family="sans-serif">Ноябрь 2022 · крах FTX</text>
+  <text x="497.5" y="228" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Ончейн медвежий / технический бычий</text>
+  <text x="497.5" y="245" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif">→ довериться ончейн, сохранять осторожность</text>
+  <circle cx="510" cy="290" r="6" fill="#fbbf24"/>
+  <text x="420" y="320" fill="#e4e4e7" font-size="13" font-family="sans-serif">Май 2021 · режим золотого креста</text>
+</svg>
+<p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Четыре случая расположены концептуально по доминирующему направлению сигнала в каждый период, а не как точные координаты реальных значений индикаторов.</p>
+</div>
+
+<div class="zh">
+<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">技術與鏈上訊號構成的四種局面</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">當兩類指標一致時,信心增強;當它們衝突時,應以鏈上數據為準</text>
+  <rect x="100" y="75" width="265" height="132.5" fill="#3b82f6" opacity="0.13"/>
+  <rect x="365" y="75" width="265" height="132.5" fill="#4ade80" opacity="0.15"/>
+  <rect x="100" y="207.5" width="265" height="132.5" fill="#f87171" opacity="0.15"/>
+  <rect x="365" y="207.5" width="265" height="132.5" fill="#fbbf24" opacity="0.15"/>
+  <line x1="365" y1="75" x2="365" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <line x1="100" y1="207.5" x2="630" y2="207.5" stroke="#52525b" stroke-width="1.5"/>
+  <text x="365" y="393" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">技術訊號(看跌 ← → 看漲)</text>
+  <text x="40" y="207.5" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 40 207.5)">鏈上訊號(看跌 ← → 看漲)</text>
+  <text x="232.5" y="98" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">鏈上看漲 / 技術看跌</text>
+  <text x="232.5" y="115" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="sans-serif">→ 信任鏈上數據,考慮買進</text>
+  <circle cx="220" cy="150" r="6" fill="#60a5fa"/>
+  <text x="235" y="154" fill="#e4e4e7" font-size="13" font-family="sans-serif">2020年3月‧新冠崩盤</text>
+  <text x="497.5" y="98" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">兩者皆看漲</text>
+  <text x="497.5" y="115" fill="#86efac" font-size="13" text-anchor="middle" font-family="sans-serif">→ 高信心區間</text>
+  <circle cx="510" cy="150" r="6" fill="#4ade80"/>
+  <text x="420" y="180" fill="#e4e4e7" font-size="13" font-family="sans-serif">2023-24年‧ETF行情初期</text>
+  <text x="232.5" y="228" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">兩者皆看跌</text>
+  <text x="232.5" y="245" fill="#fca5a5" font-size="13" text-anchor="middle" font-family="sans-serif">→ 高信心區間</text>
+  <circle cx="220" cy="280" r="6" fill="#f87171"/>
+  <text x="235" y="284" fill="#e4e4e7" font-size="13" font-family="sans-serif">2022年11月‧FTX崩潰</text>
+  <text x="497.5" y="228" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">鏈上看跌 / 技術看漲</text>
+  <text x="497.5" y="245" fill="#fde047" font-size="13" text-anchor="middle" font-family="sans-serif">→ 信任鏈上數據,保持警惕</text>
+  <circle cx="510" cy="290" r="6" fill="#fbbf24"/>
+  <text x="420" y="320" fill="#e4e4e7" font-size="13" font-family="sans-serif">2021年5月‧黃金交叉局面</text>
+</svg>
+<p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ 這四個案例是依據各時期主導訊號方向進行概念性配置,並非實際指標數值的精確座標。</p>
+</div>
+
 <h2 class="ko">그러나 온체인도 만능은 아니다 — 임계값이 깨지는 순간</h2>
 <h2 class="en">But On-Chain Isn't Infallible Either — When the Thresholds Themselves Break</h2>
 <h2 class="ja">しかしオンチェーンも万能ではない——閾値そのものが崩れる瞬間</h2>
@@ -423,6 +583,11 @@
 <h2 class="pt">Mas o On-Chain Também Não É Infalível — Quando os Próprios Limiares Se Rompem</h2>
 <h2 class="tr">Ama Zincir Üstü de Yanılmaz Değildir — Eşiklerin Kendisi Kırıldığında</h2>
 <h2 class="vi">Nhưng On-Chain Cũng Không Phải Là Bất Khả Xâm Phạm — Khi Chính Các Ngưỡng Bị Phá Vỡ</h2>
+<h2 class="id">Namun On-Chain Juga Tidak Selalu Benar — Ketika Ambang Batas Itu Sendiri Runtuh</h2>
+<h2 class="pl">Ale On-Chain Też Nie Jest Nieomylny — Gdy Same Progi Się Załamują</h2>
+<h2 class="it">Ma Anche l'On-Chain Non È Infallibile — Quando le Soglie Stesse si Rompono</h2>
+<h2 class="ru">Но Ончейн Тоже Не Непогрешим — Когда Рушатся Сами Пороги</h2>
+<h2 class="zh">但鏈上數據也並非萬無一失——當閾值本身崩壞之時</h2>
 
 <p class="ko">여기서 멈추면 "온체인이 항상 이긴다"는 또 다른 손쉬운 결론에 빠지기 쉽다. 실제로는 그렇지 않다. 온체인 지표, 특히 <a href="/blog/mvrv-z-score">MVRV</a>나 NUPL 같은 밸류에이션 지표는 과거 사이클에서 형성된 임계값에 의존하는데, 시장 구조 자체가 바뀌면 그 임계값이 더 이상 같은 의미를 갖지 않는다. 2024년 현물 <a href="/blog/bitcoin-etf-flows">ETF 승인</a> 이후가 대표적이다. 매일 수억 달러 단위로 유입되는 ETF 자금은 과거 사이클에는 없던 새로운 매수 주체이고, 이 자금이 온체인 상으로 커스터디 지갑에 잡히는 방식은 과거의 개인·거래소 중심 흐름과 다르게 나타난다. 그 결과 과거 사이클에서 '과열'을 의미하던 MVRV·NUPL 수치가 이번 사이클에서는 더 오래, 더 높게 유지되는 현상이 반복적으로 관측됐다.</p>
 <p class="en">Stop here, and it's easy to fall into another glib conclusion: "on-chain always wins." That isn't actually true. On-chain metrics — especially valuation gauges like <a href="/en/blog/mvrv-z-score">MVRV</a> or NUPL — depend on thresholds formed during past cycles, and when market structure itself changes, those thresholds stop meaning the same thing. The period following the 2024 spot <a href="/en/blog/bitcoin-etf-flows">ETF approvals</a> is the clearest example. ETF flows arriving at hundreds of millions of dollars a day are a new class of buyer that simply didn't exist in prior cycles, and the way that money registers on-chain — landing in custody wallets — looks structurally different from the retail- and exchange-centric flows of the past. As a result, MVRV and NUPL readings that once signaled "overheated" in earlier cycles have repeatedly stayed elevated for longer and reached higher levels in this cycle.</p>

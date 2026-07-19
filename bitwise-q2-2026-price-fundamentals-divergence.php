@@ -779,6 +779,26 @@
     <li><strong><a href="/vi/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Chỉ số crypto chủ lực của Bitwise thêm Hyperliquid và Stellar — Polkadot và Avalanche bị loại</a>:</strong> Đề cập đến việc tái cơ cấu thành phần của cùng chỉ số Bitwise 10 — bối cảnh hữu ích để hiểu chỉ số đằng sau các con số của quý này.</li>
     <li><strong><a href="/vi/blog/corporate-btc-q2-2026-outpaces-mined-supply">Doanh Nghiệp Đại Chúng Mua 110.000 Bitcoin Chỉ Trong Quý 2 — Gấp Đôi Tốc Độ Đào</a>:</strong> Đề cập đến hoạt động mua bitcoin của tổ chức và doanh nghiệp vẫn tiếp diễn trong cùng quý 2, bất chấp giá yếu.</li>
   </ul>
+  <ul class="id">
+    <li><strong><a href="/id/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Indeks Kripto Andalan Bitwise Menambahkan Hyperliquid dan Stellar — Polkadot dan Avalanche Dikeluarkan</a>:</strong> Membahas pergantian komponen indeks Bitwise 10 yang sama — latar belakang yang berguna untuk memahami indeks di balik angka-angka kuartal ini.</li>
+    <li><strong><a href="/id/blog/corporate-btc-q2-2026-outpaces-mined-supply">Perusahaan Publik Membeli 110.000 Bitcoin Hanya pada Kuartal 2 — Dua Kali Lipat Laju Penambangan</a>:</strong> Membahas pembelian bitcoin institusional dan korporat yang terus berlanjut sepanjang kuartal kedua yang sama, meski harga melemah.</li>
+  </ul>
+  <ul class="pl">
+    <li><strong><a href="/pl/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Flagowy Indeks Kryptowalutowy Bitwise Dodaje Hyperliquid i Stellar — Polkadot i Avalanche Wypadają</a>:</strong> Opisuje przetasowanie składu tego samego indeksu Bitwise 10 — przydatne tło do zrozumienia indeksu stojącego za liczbami z tego kwartału.</li>
+    <li><strong><a href="/pl/blog/corporate-btc-q2-2026-outpaces-mined-supply">Spółki Publiczne Kupiły 110 000 Bitcoinów Tylko w 2. Kwartale — Dwa Razy Szybciej Niż Tempo Wydobycia</a>:</strong> Opisuje instytucjonalne i korporacyjne zakupy bitcoina, które trwały przez ten sam drugi kwartał, mimo słabości cen.</li>
+  </ul>
+  <ul class="it">
+    <li><strong><a href="/it/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">L'Indice Crypto di Punta di Bitwise Aggiunge Hyperliquid e Stellar — Polkadot e Avalanche Escono</a>:</strong> Racconta lo stesso rimpasto dei componenti dell'indice Bitwise 10 — un contesto utile per capire l'indice dietro i numeri di questo trimestre.</li>
+    <li><strong><a href="/it/blog/corporate-btc-q2-2026-outpaces-mined-supply">Le Società Quotate Hanno Comprato 110.000 Bitcoin Nel Solo Q2 — Il Doppio del Ritmo di Estrazione</a>:</strong> Racconta gli acquisti istituzionali e societari di bitcoin proseguiti per tutto lo stesso secondo trimestre, nonostante la debolezza dei prezzi.</li>
+  </ul>
+  <ul class="ru">
+    <li><strong><a href="/ru/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">Флагманский Крипто-Индекс Bitwise Добавляет Hyperliquid и Stellar — Polkadot и Avalanche Исключены</a>:</strong> Рассказывает о ребалансировке состава того же индекса Bitwise 10 — полезный контекст для понимания индекса, стоящего за цифрами этого квартала.</li>
+    <li><strong><a href="/ru/blog/corporate-btc-q2-2026-outpaces-mined-supply">Публичные Компании Купили 110 000 Биткоинов Только за 2 Квартал — Вдвое Быстрее Темпов Добычи</a>:</strong> Рассказывает об институциональных и корпоративных покупках биткоина, которые продолжались весь тот же второй квартал, несмотря на слабость цен.</li>
+  </ul>
+  <ul class="zh">
+    <li><strong><a href="/zh/blog/bitwise-10-index-hype-xlm-dot-avax-reconstitution">比特智旗艦加密指數新增Hyperliquid與Stellar——波卡與雪崩幣被剔除</a>:</strong> 報導同一個比特智10指數的成分股調整,有助於理解本季數字背後的指數本身。</li>
+    <li><strong><a href="/zh/blog/corporate-btc-q2-2026-outpaces-mined-supply">上市公司單季買進11萬枚比特幣——是挖礦速度的兩倍</a>:</strong> 報導機構與企業在同一個第2季持續買進比特幣的動向,儘管價格疲弱。</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 비트와이즈 '2026년 2분기 크립토 시장 리뷰', 크립토포테이토, 크립토이코노미(Crypto-Economy), 라이브비트코인뉴스, 더코인리퍼블릭, 블록체인뉴스(Blockchain.News), 트레이더스유니언(TradersUnion). 수치는 보고서 발표 시점 기준이며 이후 수정될 수 있다. 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: Bitwise's "Q2 2026 Crypto Market Review," CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Figures are as of the report's release and may be revised as further data emerges. This is not investment advice.</p>
@@ -789,4 +809,9 @@
   <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: "Revisão do Mercado Cripto do 2º Tri de 2026" da Bitwise, CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Os números correspondem à data de publicação do relatório e podem ser revisados à medida que mais dados surgirem. Isto não constitui aconselhamento de investimento.</p>
   <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: Bitwise'ın "2026 2. Çeyrek Kripto Piyasa İncelemesi", CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Rakamlar raporun yayım tarihi itibarıyladır ve daha fazla veri ortaya çıktıkça revize edilebilir. Bu, yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: "Đánh Giá Thị Trường Crypto Quý 2/2026" của Bitwise, CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Số liệu tính đến thời điểm báo cáo được công bố và có thể được điều chỉnh khi có thêm dữ liệu. Đây không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:.85rem;color:#71717a">Sumber: «Q2 2026 Crypto Market Review» dari Bitwise, CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Angka-angka berlaku sejak laporan dirilis dan dapat direvisi seiring munculnya data lebih lanjut. Ini bukan nasihat investasi.</p>
+  <p class="pl" style="font-size:.85rem;color:#71717a">Źródła: «Q2 2026 Crypto Market Review» Bitwise, CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Dane są aktualne na dzień publikacji raportu i mogą zostać zrewidowane wraz z napływem nowych informacji. To nie jest porada inwestycyjna.</p>
+  <p class="it" style="font-size:.85rem;color:#71717a">Fonti: «Q2 2026 Crypto Market Review» di Bitwise, CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. I dati sono aggiornati alla data di pubblicazione del report e potrebbero essere rivisti con l'emergere di nuovi dati. Questo non è un consiglio di investimento.</p>
+  <p class="ru" style="font-size:.85rem;color:#71717a">Источники: отчёт Bitwise «Q2 2026 Crypto Market Review», CryptoPotato, Crypto-Economy, Live Bitcoin News, The Coin Republic, Blockchain.News, TradersUnion. Данные приведены на момент публикации отчёта и могут быть пересмотрены по мере поступления новой информации. Это не является инвестиционной рекомендацией.</p>
+  <p class="zh" style="font-size:.85rem;color:#71717a">資料來源:比特智«2026年第2季加密貨幣市場回顧»、CryptoPotato、Crypto-Economy、Live Bitcoin News、The Coin Republic、Blockchain.News、TradersUnion。數據截至報告發布時,後續可能隨新資料公布而修正。本文不構成投資建議。</p>
 <?php require __DIR__.'/_footer.php'; ?>

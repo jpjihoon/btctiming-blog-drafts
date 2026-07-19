@@ -525,4 +525,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: FCA do Reino Unido CP26/17, CoinDesk, The Block, FAQ de criptoativos da CSSF de Luxemburgo, e análises jurídicas da Dechert e EY Luxemburgo.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: İngiltere FCA CP26/17, CoinDesk, The Block, Lüksemburg CSSF kripto varlık SSS'si ve Dechert ile EY Luxembourg'un hukuki analizleri.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: FCA Vương quốc Anh CP26/17, CoinDesk, The Block, FAQ tài sản crypto của CSSF Luxembourg, và phân tích pháp lý từ Dechert và EY Luxembourg.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Otoritas Jasa Keuangan Inggris (FCA) CP26/17, CoinDesk, The Block, FAQ aset kripto CSSF Luksemburg, serta analisis hukum dari Dechert dan EY Luksemburg.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: brytyjski FCA CP26/17, CoinDesk, The Block, FAQ dotyczące aktywów kryptograficznych luksemburskiego CSSF oraz analizy prawne Dechert i EY Luksemburg.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: FCA britannica CP26/17, CoinDesk, The Block, FAQ sulle cripto-attività della CSSF lussemburghese e analisi legali di Dechert ed EY Luxembourg.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: FCA Великобритании CP26/17, CoinDesk, The Block, часто задаваемые вопросы о криптоактивах CSSF Люксембурга, а также юридический анализ Dechert и EY Luxembourg.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:英國FCA CP26/17、CoinDesk、The Block、盧森堡CSSF加密資產常見問答,以及Dechert與EY Luxembourg的法律分析。</p>
 <?php require __DIR__.'/_footer.php'; ?>

@@ -381,6 +381,126 @@
   <text x="20" y="392" fill="#71717a" font-family="sans-serif" font-size="12">Nguồn: CoinDesk, KuCoin, TechTimes, CryptoBriefing (dòng vốn ròng ETF bitcoin giao ngay của Mỹ)</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Arus Masuk ETF Telah Kembali — Tetapi Setiap Kali Lebih Kecil</text>
+  <rect x="460" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="478" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Rata-rata arus keluar bersih harian Juni</text>
+  <rect x="460" y="34" width="14" height="14" fill="#4ade80"/>
+  <text x="478" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Arus masuk bersih harian Juli</text>
+  <line x1="60" y1="230" x2="650" y2="230" stroke="#3f3f46" stroke-width="1.5"/>
+  <rect x="110" y="230" width="90" height="90" fill="#f87171"/>
+  <text x="155" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">Rata Jun</text>
+  <text x="155" y="220" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">-$214M</text>
+  <rect x="250" y="135" width="90" height="95" fill="#4ade80"/>
+  <text x="295" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">3 Jul</text>
+  <text x="295" y="123" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$221M</text>
+  <rect x="390" y="116" width="90" height="114" fill="#4ade80"/>
+  <text x="435" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">6 Jul</text>
+  <text x="435" y="104" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$265.7M</text>
+  <rect x="530" y="190" width="90" height="40" fill="#4ade80" opacity="0.85"/>
+  <text x="575" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">10 Jul</text>
+  <text x="575" y="178" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$90.4M</text>
+  <text x="20" y="374" fill="#71717a" font-family="sans-serif" font-size="12">* Rata-rata Juni diperoleh dari total arus keluar bersih ~$4,5 miliar dibagi hari perdagangan. Angka harian sesuai laporan yang dikutip.</text>
+  <text x="20" y="392" fill="#71717a" font-family="sans-serif" font-size="12">Sumber: CoinDesk, KuCoin, TechTimes, CryptoBriefing (arus bersih ETF Bitcoin spot AS)</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Napływy do ETF-ów Wróciły — Ale Każdy Kolejny Jest Mniejszy</text>
+  <rect x="460" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="478" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Śr. dzienny odpływ netto w czerwcu</text>
+  <rect x="460" y="34" width="14" height="14" fill="#4ade80"/>
+  <text x="478" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Dzienny napływ netto w lipcu</text>
+  <line x1="60" y1="230" x2="650" y2="230" stroke="#3f3f46" stroke-width="1.5"/>
+  <rect x="110" y="230" width="90" height="90" fill="#f87171"/>
+  <text x="155" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">Śr. cze</text>
+  <text x="155" y="220" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">-$214M</text>
+  <rect x="250" y="135" width="90" height="95" fill="#4ade80"/>
+  <text x="295" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">3 lip</text>
+  <text x="295" y="123" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$221M</text>
+  <rect x="390" y="116" width="90" height="114" fill="#4ade80"/>
+  <text x="435" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">6 lip</text>
+  <text x="435" y="104" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$265.7M</text>
+  <rect x="530" y="190" width="90" height="40" fill="#4ade80" opacity="0.85"/>
+  <text x="575" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">10 lip</text>
+  <text x="575" y="178" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$90.4M</text>
+  <text x="20" y="374" fill="#71717a" font-family="sans-serif" font-size="12">* Średnia czerwcowa wyliczona z ~4,5 mld USD łącznego odpływu netto podzielonego przez dni sesyjne. Dane dzienne według cytowanych źródeł.</text>
+  <text x="20" y="392" fill="#71717a" font-family="sans-serif" font-size="12">Źródła: CoinDesk, KuCoin, TechTimes, CryptoBriefing (przepływy netto amerykańskich spotowych ETF-ów na bitcoina)</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Gli Afflussi ETF Sono Tornati — Ma Ognuno È Più Piccolo del Precedente</text>
+  <rect x="460" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="478" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Deflusso netto medio giornaliero giugno</text>
+  <rect x="460" y="34" width="14" height="14" fill="#4ade80"/>
+  <text x="478" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Afflusso netto giornaliero luglio</text>
+  <line x1="60" y1="230" x2="650" y2="230" stroke="#3f3f46" stroke-width="1.5"/>
+  <rect x="110" y="230" width="90" height="90" fill="#f87171"/>
+  <text x="155" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">Media giu</text>
+  <text x="155" y="220" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">-$214M</text>
+  <rect x="250" y="135" width="90" height="95" fill="#4ade80"/>
+  <text x="295" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">3 lug</text>
+  <text x="295" y="123" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$221M</text>
+  <rect x="390" y="116" width="90" height="114" fill="#4ade80"/>
+  <text x="435" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">6 lug</text>
+  <text x="435" y="104" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$265.7M</text>
+  <rect x="530" y="190" width="90" height="40" fill="#4ade80" opacity="0.85"/>
+  <text x="575" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">10 lug</text>
+  <text x="575" y="178" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$90.4M</text>
+  <text x="20" y="374" fill="#71717a" font-family="sans-serif" font-size="12">* Media di giugno derivata da ~4,5 mld $ di deflusso netto totale diviso per i giorni di negoziazione. Dati giornalieri secondo le fonti citate.</text>
+  <text x="20" y="392" fill="#71717a" font-family="sans-serif" font-size="12">Fonti: CoinDesk, KuCoin, TechTimes, CryptoBriefing (flussi netti degli ETF spot su bitcoin statunitensi)</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Притоки в ETF Вернулись — Но Каждый Следующий Меньше</text>
+  <rect x="460" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="478" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">Ср. дневной чистый отток, июнь</text>
+  <rect x="460" y="34" width="14" height="14" fill="#4ade80"/>
+  <text x="478" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">Дневной чистый приток, июль</text>
+  <line x1="60" y1="230" x2="650" y2="230" stroke="#3f3f46" stroke-width="1.5"/>
+  <rect x="110" y="230" width="90" height="90" fill="#f87171"/>
+  <text x="155" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">Ср. июнь</text>
+  <text x="155" y="220" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">-$214M</text>
+  <rect x="250" y="135" width="90" height="95" fill="#4ade80"/>
+  <text x="295" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">3 июл</text>
+  <text x="295" y="123" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$221M</text>
+  <rect x="390" y="116" width="90" height="114" fill="#4ade80"/>
+  <text x="435" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">6 июл</text>
+  <text x="435" y="104" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$265.7M</text>
+  <rect x="530" y="190" width="90" height="40" fill="#4ade80" opacity="0.85"/>
+  <text x="575" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">10 июл</text>
+  <text x="575" y="178" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$90.4M</text>
+  <text x="20" y="374" fill="#71717a" font-family="sans-serif" font-size="12">* Среднее за июнь получено делением общего чистого оттока (~4,5 млрд $) на число торговых дней. Дневные показатели по цитируемым источникам.</text>
+  <text x="20" y="392" fill="#71717a" font-family="sans-serif" font-size="12">Источники: CoinDesk, KuCoin, TechTimes, CryptoBriefing (чистые потоки американских спотовых биткойн-ETF)</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">ETF流入已回歸——但每次規模都更小</text>
+  <rect x="460" y="14" width="14" height="14" fill="#f87171"/>
+  <text x="478" y="25" fill="#e4e4e7" font-family="sans-serif" font-size="13">6月平均每日淨流出</text>
+  <rect x="460" y="34" width="14" height="14" fill="#4ade80"/>
+  <text x="478" y="45" fill="#e4e4e7" font-family="sans-serif" font-size="13">7月每日淨流入</text>
+  <line x1="60" y1="230" x2="650" y2="230" stroke="#3f3f46" stroke-width="1.5"/>
+  <rect x="110" y="230" width="90" height="90" fill="#f87171"/>
+  <text x="155" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">6月均值</text>
+  <text x="155" y="220" fill="#f87171" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">-$214M</text>
+  <rect x="250" y="135" width="90" height="95" fill="#4ade80"/>
+  <text x="295" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">7/3</text>
+  <text x="295" y="123" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$221M</text>
+  <rect x="390" y="116" width="90" height="114" fill="#4ade80"/>
+  <text x="435" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">7/6</text>
+  <text x="435" y="104" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$265.7M</text>
+  <rect x="530" y="190" width="90" height="40" fill="#4ade80" opacity="0.85"/>
+  <text x="575" y="336" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">7/10</text>
+  <text x="575" y="178" fill="#4ade80" font-family="sans-serif" font-size="15" font-weight="700" text-anchor="middle">+$90.4M</text>
+  <text x="20" y="374" fill="#71717a" font-family="sans-serif" font-size="12">※ 6月均值為約45億美元淨流出總額除以交易日數所得之估算值。每日數字依各引用報導。</text>
+  <text x="20" y="392" fill="#71717a" font-family="sans-serif" font-size="12">資料來源:CoinDesk、KuCoin、TechTimes、CryptoBriefing(美國比特幣現貨ETF淨流量)</text>
+</svg>
+</div>
 
 <h2 class="ko">세 신호가 말하는 것 — 같은 방향, 다른 속도</h2>
 <h2 class="en">What the Three Signals Say — Same Direction, Different Speeds</h2>
@@ -391,6 +511,11 @@
 <h2 class="pt">O Que os Três Sinais Dizem — Mesma Direção, Velocidades Diferentes</h2>
 <h2 class="tr">Üç Sinyal Ne Söylüyor — Aynı Yön, Farklı Hızlar</h2>
 <h2 class="vi">Ba Tín Hiệu Đang Nói Gì — Cùng Hướng, Khác Tốc Độ</h2>
+<h2 class="id">Apa yang Dikatakan Tiga Sinyal Ini — Arah Sama, Kecepatan Berbeda</h2>
+<h2 class="pl">Co Mówią Trzy Sygnały — Ten Sam Kierunek, Różne Prędkości</h2>
+<h2 class="it">Cosa Dicono i Tre Segnali — Stessa Direzione, Velocità Diverse</h2>
+<h2 class="ru">О Чём Говорят Три Сигнала — Одно Направление, Разная Скорость</h2>
+<h2 class="zh">三個訊號在說什麼——同一方向,不同速度</h2>
 
 <p class="ko">정리하면 이렇다. ETF 자금은 방향을 유지한 채 규모가 줄어드는 빠른 축, 거래소 잔고는 방향을 유지한 채 6년째 꾸준한 느린 축, 공포탐욕지수는 가장 빨리 바뀔 수 있는데도 가장 늦게 따라오는 축이다. 셋 다 장기적으로는 "물량은 줄고 수요는 늘어난다"는 같은 서사에 들어맞지만, 그 서사가 지금 이 순간의 가격 움직임을 곧바로 설명해주는 것은 아니다. 이 사이트가 이미 다룬 <a href="/blog/btc-etf-inflows-return-june-outflow-reversal">6월 유출을 사흘 유입으로 끊었던 7월 초 반전</a>과 <a href="/blog/etf-inflow-fade-leverage-conviction-gap">그 반전 이후 파생시장이 아직 베팅하지 않았다는 점검</a> 모두, ETF 자금 흐름의 반전이 이번이 처음이 아니며 매번 다시 사그라들었다는 사실을 보여준다.</p>
 <p class="en">To sum up: ETF flows are the fast-moving thread whose direction has held while its size shrinks; exchange reserves are the slow thread that has steadily declined for six years; and the Fear &amp; Greed Index is the thread capable of the quickest swings, yet the one lagging furthest behind. All three fit the same long-run narrative — supply shrinking, demand growing — but that narrative doesn't directly explain this moment's price action. This site's earlier coverage of <a href="/en/blog/btc-etf-inflows-return-june-outflow-reversal">the early-July reversal that broke June's outflows with a three-day inflow streak</a> and <a href="/en/blog/etf-inflow-fade-leverage-conviction-gap">the follow-up check on derivatives not yet betting on that reversal</a> both show that this isn't the first time ETF flows have turned — and each time before, they've faded again.</p>
