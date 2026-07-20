@@ -294,6 +294,11 @@
   <h2 class="pt">O Que o Max Pain e o Índice Put-Call Realmente Medem</h2>
   <h2 class="tr">Max Pain ve Put-Call Oranı Gerçekte Neyi Ölçer</h2>
   <h2 class="vi">Max Pain và Tỷ Lệ Put-Call Thực Sự Đo Lường Điều Gì</h2>
+  <h2 class="id">Apa Sebenarnya yang Diukur oleh Max Pain dan Rasio Put-Call</h2>
+  <h2 class="pl">Co Właściwie Mierzą Max Pain i Współczynnik Put-Call</h2>
+  <h2 class="it">Cosa Misurano Davvero il Max Pain e il Rapporto Put-Call</h2>
+  <h2 class="ru">Что На Самом Деле Измеряют Max Pain и Коэффициент Put-Call</h2>
+  <h2 class="zh">Max Pain與賣權買權比究竟衡量什麼</h2>
 
   <p class="ko">맥스페인은 만기 시점에 콜옵션과 풋옵션 매수자(옵션 매수 포지션 보유자)가 합쳐서 가장 적은 돈을 받아가는, 즉 옵션 매도자(주로 마켓메이커)가 가장 적은 돈을 지급하는 가격을 뜻한다. 이론상 마켓메이커는 옵션 포지션의 위험을 상쇄하기 위해 기초자산을 사고파는 델타 헤지를 하는데, 만기가 가까워질수록 이 헤지 물량이 가격을 맥스페인 지점 쪽으로 끌어당기는 '자석 효과'를 낸다는 가설이 맥스페인 이론의 핵심이다. 이번 만기에서 비트코인의 맥스페인은 6만2000달러로 나타났는데, 이는 만기 당일 실제 가격과 크게 벌어지지 않은 수준이어서 자석 효과가 작동했다고 해석될 여지가 있다.</p>
   <p class="en">Max pain is the strike price at which call and put buyers collectively receive the least money at expiry — equivalently, the price at which option sellers (mostly market makers) pay out the least. The core hypothesis behind max pain theory is that market makers delta-hedge their option positions by buying and selling the underlying asset to offset risk, and as expiry nears, that hedging flow creates a "magnet effect" pulling price toward the max-pain strike. Bitcoin's max pain for this expiry came in at $62,000, not far from where the asset was actually trading on expiry day — leaving room to argue the magnet effect was, in this instance, at work.</p>

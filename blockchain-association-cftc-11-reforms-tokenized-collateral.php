@@ -243,6 +243,116 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Blockchain Association vs. CFTC: apa yang dipertaruhkan</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">RFI diterbitkan (RIN 3038-ZA24)</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">22 Jun 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Tenggat komentar</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">9 Jul 2026</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Rekomendasi Blockchain Association</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">11</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Permintaan utama: agunan stablecoin</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Diakui sebagai margin yang memenuhi syarat</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Permintaan utama: dompet swakelola</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Tanpa status broker/bursa otomatis</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Pengaju lain, tenggat sama</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Hyperliquid+Phantom, SPI</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Jalur paralel</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Agenda 'Reg Crypto' 2026 SEC</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Faktor tak pasti Kongres</text><text x="680" y="378" fill="#f87171" font-weight="700" text-anchor="end">Voting UU CLARITY (target 20 Jul) belum pasti</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Blockchain Association kontra CFTC: co jest stawką</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">Wydanie RFI (RIN 3038-ZA24)</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">22 cze 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Termin zgłaszania uwag</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">9 lip 2026</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Rekomendacje Blockchain Association</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">11</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Kluczowe żądanie: zabezpieczenie stablecoin</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Uznanie za dopuszczalny depozyt</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Kluczowe żądanie: portfele samodzielnego przechowywania</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Bez automatycznego statusu brokera/giełdy</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Inni wnioskodawcy, ten sam termin</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Hyperliquid+Phantom, SPI</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Równoległa ścieżka</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Agenda SEC 'Reg Crypto' 2026</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Niewiadoma Kongresu</text><text x="680" y="378" fill="#f87171" font-weight="700" text-anchor="end">Głosowanie ws. ustawy CLARITY (cel 20 lip) niepewne</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Blockchain Association contro CFTC: cosa è in gioco</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">RFI pubblicata (RIN 3038-ZA24)</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">22 giu 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Scadenza commenti</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">9 lug 2026</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Raccomandazioni della Blockchain Association</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">11</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Richiesta chiave: garanzia stablecoin</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Riconoscere come margine ammissibile</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Richiesta chiave: wallet in autocustodia</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Nessuno status automatico di broker/borsa</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Altri richiedenti, stessa scadenza</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Hyperliquid+Phantom, SPI</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Percorso parallelo</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Agenda 'Reg Crypto' 2026 della SEC</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Incognita del Congresso</text><text x="680" y="378" fill="#f87171" font-weight="700" text-anchor="end">Voto CLARITY Act (obiettivo 20 lug) incerto</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Blockchain Association против CFTC: что на кону</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">Публикация RFI (RIN 3038-ZA24)</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">22 июня 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Срок подачи комментариев</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">9 июля 2026</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Рекомендации Blockchain Association</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">11</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Ключевое требование: обеспечение стейблкоинами</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Признать приемлемой маржой</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Ключевое требование: кошельки самостоятельного хранения</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Без автоматического статуса брокера/биржи</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Другие заявители, тот же срок</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Hyperliquid+Phantom, SPI</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Параллельный трек</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Повестка SEC 'Reg Crypto' 2026</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Неопределённость Конгресса</text><text x="680" y="378" fill="#f87171" font-weight="700" text-anchor="end">Голосование по CLARITY Act (цель 20 июля) под вопросом</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">區塊鏈協會 對決 CFTC:利害關係為何</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">RFI發布(RIN 3038-ZA24)</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">2026年6月22日</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">意見提交截止日</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">2026年7月9日</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">區塊鏈協會建議數</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">11項</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">核心訴求:穩定幣擔保品</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">認定為合格保證金</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">核心訴求:自我保管錢包</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">不自動歸類為經紀商/交易所</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">同期提交的其他機構</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Hyperliquid+Phantom、SPI</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">並行軌道</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">SEC「Reg Crypto」2026議程</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">國會變數</text><text x="680" y="378" fill="#f87171" font-weight="700" text-anchor="end">CLARITY法案表決(目標7/20)未定</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">무엇을 요구했나 — 담보, 기록, 그리고 자기수탁</h2>
   <h2 class="en">What's Actually Being Asked — Collateral, Records, and Self-Custody</h2>
@@ -253,6 +363,11 @@
   <h2 class="pt">O Que Está Sendo Pedido de Fato — Garantia, Registros e Autocustódia</h2>
   <h2 class="tr">Gerçekte Ne İsteniyor — Teminat, Kayıtlar ve Kendi Kendine Saklama</h2>
   <h2 class="vi">Thực Sự Đang Yêu Cầu Điều Gì — Tài Sản Thế Chấp, Hồ Sơ và Tự Lưu Ký</h2>
+  <h2 class="id">Apa yang Sebenarnya Diminta — Agunan, Catatan, dan Swakelola</h2>
+  <h2 class="pl">O Co Naprawdę Chodzi — Zabezpieczenia, Rejestry i Samodzielne Przechowywanie</h2>
+  <h2 class="it">Cosa Viene Realmente Richiesto — Garanzie, Registri e Autocustodia</h2>
+  <h2 class="ru">Что На Самом Деле Требуют — Обеспечение, Учёт и Самостоятельное Хранение</h2>
+  <h2 class="zh">究竟提出了什麼訴求——擔保品、記錄與自我保管</h2>
 
   <p class="ko">담보 관련 요구에는 구체적인 작동 논리가 있다. 파생상품 시장에서 담보는 마진콜을 충족하기 위해 신속히 이동해야 하는데, 은행 송금 결제는 영업일 기준 하루 이상 걸릴 수 있다 — 의견서 스스로 표현하듯 점점 24시간 거래되는 시장에서는 실질적인 마찰 요인이다. 블록체인협회는 엄격한 준비금·상환 기준을 충족하는 스테이블코인이 온체인에서 몇 분 만에 결제되므로 마진 목적상 현금과 기능적으로 동등하게 취급돼야 한다고 주장한다. 이는 캐럴라인 팜 CFTC 대행 의장의 '크립토 스프린트' 아래 이미 시작된 토큰화 담보 파일럿 프로그램을 직접적인 기반으로 삼고 있지만, 협회는 이 파일럿의 원칙이 재량적 프로그램에 머물지 않고 지속 가능한 규칙이나 가이던스로 전환되기를 원한다.</p>
   <p class="en">The collateral ask has a concrete mechanical logic behind it. In derivatives markets, collateral has to move quickly to satisfy margin calls, and bank-wire settlement can take a business day or more — a real friction point in a market that, per the letter's own framing, increasingly trades 24/7. The Blockchain Association argues that a stablecoin meeting strict reserve and redemption standards settles in minutes on-chain and should be treated as functionally equivalent to cash for margin purposes. This builds directly on the CFTC's existing tokenized-collateral pilot program, launched under Acting Chair Caroline Pham's "crypto sprint," but the group wants that pilot's principles turned into durable rules or guidance rather than remaining a discretionary program.</p>
