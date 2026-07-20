@@ -68,6 +68,11 @@
   "desc_pt": "A ministra das Finanças do Japão, Satsuki Katayama, disse em 10 de julho que o governo vai estudar permitir ETFs cripto. Examinamos por que o projeto de reclassificação da FIEA, já na Dieta, precisa ser aprovado junto com uma reforma tributária (de um máximo progressivo de 55% para uma alíquota separada de cerca de 20%) antes que qualquer ETF possa ser listado, a disputa SBI-Rakuten-Nomura, uma comparação com a corrida dos ETFs de Bitcoin à vista nos EUA, e o longo histórico de travamento da reforma.",
   "desc_tr": "Japonya Maliye Bakanı Satsuki Katayama, 10 Temmuz'da hükümetin kripto ETF'lerine izin vermeyi inceleyeceğini söyledi. Meclis'te zaten bulunan FIEA yeniden sınıflandırma tasarısının, herhangi bir ETF'nin listelenebilmesi için neden bir vergi reformuyla (%55 artan oranlı tavandan yaklaşık %20 ayrı orana) birlikte geçmesi gerektiğini, SBI-Rakuten-Nomura arasındaki yarışı, ABD spot Bitcoin ETF yarışıyla karşılaştırmayı ve reformun uzun süredir tıkanma geçmişini inceliyoruz.",
   "desc_vi": "Bộ trưởng Tài chính Nhật Bản Satsuki Katayama cho biết hôm 10/7 chính phủ sẽ nghiên cứu việc cho phép ETF tiền số. Chúng tôi xem xét lý do tại sao dự luật phân loại lại theo FIEA đã trình Quốc hội phải được thông qua cùng với cải cách thuế (từ mức lũy tiến tối đa 55% xuống mức thuế riêng khoảng 20%) trước khi bất kỳ ETF nào có thể niêm yết, cuộc đua SBI-Rakuten-Nomura, so sánh với cuộc đua ETF Bitcoin giao ngay tại Mỹ, và lịch sử trì trệ lâu dài của cải cách này.",
+  "desc_id": "Menkeu Jepang Katayama akan mengkaji ETF kripto, tapi kuncinya reformasi pajak FIEA dari 55% ke 20%. Simak persaingan SBI, Rakuten, dan Nomura.",
+  "desc_pl": "Minister finansów Japonii rozważa ETF-y kryptowalutowe, lecz kluczem jest reforma podatkowa FIEA z 55% na 20%. Poznaj wyścig SBI, Rakuten i Nomury.",
+  "desc_it": "La ministra delle Finanze giapponese valuta gli ETF crypto, ma la chiave è la riforma fiscale FIEA dal 55% al 20%. La corsa tra SBI, Rakuten e Nomura.",
+  "desc_ru": "Минфин Японии рассматривает крипто-ETF, но ключ — налоговая реформа FIEA с 55% до 20%. Гонка SBI, Rakuten и Nomura за рынок.",
+  "desc_zh": "日本財務大臣片山さつき於7月10日表示,政府將研議是否允許加密貨幣ETF,但真正的關鍵在於FIEA重新分類須與稅制改革同步通過,將稅率從最高55%降至約20%分離課稅。本文並探討SBI、樂天、野村的搶市競賽,以及此項改革過去屢遭擱置的歷史。",
   "read_ko": "8",
   "read_en": "8",
   "read_ja": "8",
@@ -76,5 +81,10 @@
   "read_fr": "8",
   "read_pt": "8",
   "read_tr": "8",
-  "read_vi": "8"
+  "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8"
 }
