@@ -13,6 +13,11 @@
     "tag_pt": "Governança DAO",
     "tag_tr": "DAO Yönetişimi",
     "tag_vi": "Quản trị DAO",
+    "tag_id": "Tata Kelola DAO",
+    "tag_pl": "Zarządzanie DAO",
+    "tag_it": "Governance DAO",
+    "tag_ru": "Управление DAO",
+    "tag_zh": "DAO治理",
 
     "title_ko": "그노시스DAO, 2,700억원 트레저리 상환안 통과 — 몇 주 전 부결안의 재수",
     "title_en": "GnosisDAO Passes $223M Treasury Redemption Vote — Weeks After Rejecting the Same Idea",
@@ -23,6 +28,11 @@
     "title_pt": "GnosisDAO Aprova Resgate de Tesouraria de US$ 223M — Semanas Após Rejeitar a Mesma Ideia",
     "title_tr": "GnosisDAO, 223 Milyon Dolarlık Hazine İadesini Kabul Etti — Aynı Fikri Reddetmesinden Haftalar Sonra",
     "title_vi": "GnosisDAO Thông Qua Đề Xuất Đổi Lại Kho Bạc 223 Triệu Đô — Vài Tuần Sau Khi Bác Bỏ Chính Ý Tưởng Đó",
+    "title_id": "GnosisDAO Meloloskan Voting Penebusan Treasury $223 Juta — Beberapa Minggu Setelah Menolak Ide yang Sama",
+    "title_pl": "GnosisDAO Przyjmuje Głosowanie o Wykupie Skarbca za 223 mln USD — Kilka Tygodni po Odrzuceniu Tego Samego Pomysłu",
+    "title_it": "GnosisDAO Approva il Voto per il Riscatto della Tesoreria da 223 Milioni di Dollari — Settimane Dopo Aver Respinto la Stessa Idea",
+    "title_ru": "GnosisDAO Приняла Голосование о Выкупе Казначейства на $223 млн — Спустя Недели После Отклонения Той же Идеи",
+    "title_zh": "GnosisDAO通過2.23億美元國庫贖回表決——距否決同一提案僅數週",
 
     "h1_ko": "그노시스DAO, 2,700억원 트레저리 상환안 통과<br>몇 주 전 부결안의 재수",
     "h1_en": "GnosisDAO Passes $223M Treasury Redemption Vote<br>Weeks After Rejecting the Same Idea",
@@ -33,6 +43,11 @@
     "h1_pt": "GnosisDAO Aprova Resgate de Tesouraria de US$ 223M<br>Semanas Após Rejeitar a Mesma Ideia",
     "h1_tr": "GnosisDAO, 223 Milyon Dolarlık Hazine İadesini Kabul Etti<br>Aynı Fikri Reddetmesinden Haftalar Sonra",
     "h1_vi": "GnosisDAO Thông Qua Đề Xuất Đổi Lại Kho Bạc 223 Triệu Đô<br>Vài Tuần Sau Khi Bác Bỏ Chính Ý Tưởng Đó",
+    "h1_id": "GnosisDAO Meloloskan Voting Penebusan Treasury $223 Juta<br>Beberapa Minggu Setelah Menolak Ide yang Sama",
+    "h1_pl": "GnosisDAO Przyjmuje Głosowanie o Wykupie Skarbca za 223 mln USD<br>Kilka Tygodni po Odrzuceniu Tego Samego Pomysłu",
+    "h1_it": "GnosisDAO Approva il Voto per il Riscatto della Tesoreria da 223 Milioni di Dollari<br>Settimane Dopo Aver Respinto la Stessa Idea",
+    "h1_ru": "GnosisDAO Приняла Голосование о Выкупе Казначейства на $223 млн<br>Спустя Недели После Отклонения Той же Идеи",
+    "h1_zh": "GnosisDAO通過2.23億美元國庫贖回表決<br>距否決同一提案僅數週",
 
     "bc_ko": "그노시스DAO 트레저리 상환 투표",
     "bc_en": "GnosisDAO Treasury Redemption Vote",
@@ -43,6 +58,11 @@
     "bc_pt": "Votação de Resgate da Tesouraria da GnosisDAO",
     "bc_tr": "GnosisDAO Hazine İadesi Oylaması",
     "bc_vi": "Bỏ Phiếu Đổi Lại Kho Bạc GnosisDAO",
+    "bc_id": "Voting Penebusan Treasury GnosisDAO",
+    "bc_pl": "Głosowanie o Wykupie Skarbca GnosisDAO",
+    "bc_it": "Voto per il Riscatto della Tesoreria di GnosisDAO",
+    "bc_ru": "Голосование о Выкупе Казначейства GnosisDAO",
+    "bc_zh": "GnosisDAO國庫贖回表決",
 
     "desc_ko": "그노시스DAO가 6월 27일 GIP-151을 통과시켜 GNO 보유자가 약 2억 2,300만 달러 트레저리의 지분율만큼 토큰을 상환받을 수 있게 됐다고 크립토슬레이트와 더디파이언트가 보도했다. 정족수의 215%를 채웠으며, 불과 몇 주 전 거의 동일한 제안(GIP-150)이 약 5대 2 비율로 부결된 직후였다. 트레저리 상환가치보다 낮은 가격에 거래되는 DAO를 노리는 'RFV 레이더링' 현상의 전형적 사례로, 2023년 룩·트라이브/파이 청산 및 현재 진행 중인 아베 랩스 거버넌스 대치와 맞닿아 있다.",
     "desc_en": "GnosisDAO passed GIP-151 on June 27, letting GNO holders redeem tokens for a pro-rata share of its roughly $223 million treasury, CryptoSlate and The Defiant reported. The vote cleared 215% of quorum, weeks after a nearly identical proposal (GIP-150) was rejected by roughly 5-to-2. It's a textbook case of \"RFV raiding\" — activists targeting DAOs whose tokens trade below treasury value — echoing 2023's Rook and Tribe/Fei wind-downs and the ongoing Aave Labs governance standoff.",
@@ -53,6 +73,11 @@
     "desc_pt": "A GnosisDAO aprovou a GIP-151 em 27 de junho, permitindo que detentores de GNO resgatem tokens por uma parcela proporcional de sua tesouraria de cerca de 223 milhões de dólares, segundo CryptoSlate e The Defiant. A votação superou 215% do quórum, semanas depois que uma proposta quase idêntica (GIP-150) foi rejeitada por aproximadamente 5 para 2. É um caso de manual de \"RFV raiding\" — ativistas visando DAOs cujos tokens são negociados abaixo do valor da tesouraria — lembrando os encerramentos da Rook e da Tribe/Fei em 2023 e o impasse de governança em curso com a Aave Labs.",
     "desc_tr": "GnosisDAO, 27 Haziran'da GIP-151'i kabul ederek GNO sahiplerinin yaklaşık 223 milyon dolarlık hazinesinden orantılı bir pay karşılığında token iade etmesine izin verdi; CryptoSlate ve The Defiant bildirdi. Oylama, yeter sayının %215'ini aştı — neredeyse aynı bir teklifin (GIP-150) yaklaşık 5'e 2 oranla reddedilmesinden yalnızca birkaç hafta sonra. Bu, tokenleri hazine değerinin altında işlem gören DAO'ları hedef alan 'RFV baskını' olgusunun ders kitabı niteliğinde bir örneği; 2023'teki Rook ve Tribe/Fei tasfiyelerini ve devam eden Aave Labs yönetişim çekişmesini anımsatıyor.",
     "desc_vi": "GnosisDAO đã thông qua GIP-151 vào ngày 27/6, cho phép người nắm giữ GNO đổi token lấy phần tương ứng trong kho bạc trị giá khoảng 223 triệu đô la, theo CryptoSlate và The Defiant. Cuộc bỏ phiếu đạt 215% túc số, vài tuần sau khi một đề xuất gần như giống hệt (GIP-150) bị bác bỏ với tỷ lệ khoảng 5 chọi 2. Đây là một trường hợp kinh điển của 'đột kích RFV' — các nhà hoạt động nhắm vào các DAO có token giao dịch dưới giá trị kho bạc — gợi nhớ đến việc giải thể Rook và Tribe/Fei năm 2023 và cuộc đối đầu quản trị đang diễn ra với Aave Labs.",
+    "desc_id": "GnosisDAO meloloskan GIP-151 pada 27 Juni: pemegang GNO bisa menukar token dengan ~223 juta dolar treasury, lapor CryptoSlate dan The Defiant.",
+    "desc_pl": "GnosisDAO przyjęło GIP-151 27 czerwca: posiadacze GNO mogą wymienić tokeny na udział w skarbcu ~223 mln USD, podały CryptoSlate i The Defiant.",
+    "desc_it": "GnosisDAO ha approvato GIP-151 il 27 giugno: i detentori GNO possono riscattare token per la quota di tesoreria (~223 mln $), riferisce CryptoSlate.",
+    "desc_ru": "GnosisDAO приняла GIP-151 27 июня: держатели GNO могут выкупить токены за долю в казначействе ~223 млн долларов, сообщили CryptoSlate и The Defiant.",
+    "desc_zh": "GnosisDAO於6月27日通過GIP-151,允許GNO持有者按比例兌換約2.23億美元國庫份額,CryptoSlate與The Defiant報導稱,此表決距幾乎相同的GIP-150以約5比2遭否決僅數週,是典型的「RFV狙擊」案例。",
 
     "read_ko": "7",
     "read_en": "7",
@@ -62,5 +87,10 @@
     "read_fr": "7",
     "read_pt": "7",
     "read_tr": "7",
-    "read_vi": "7"
+    "read_vi": "7",
+    "read_id": "7",
+    "read_pl": "7",
+    "read_it": "7",
+    "read_ru": "7",
+    "read_zh": "7"
 }
