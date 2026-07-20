@@ -68,6 +68,11 @@
   "desc_pt": "Quando o preço sobe, o risco parece menor e o benefício parece maior. Quando o preço cai, ocorre o oposto — muitas vezes na direção exatamente oposta ao risco real. Da teoria da primazia afetiva de Robert Zajonc, passando pelos experimentos de correlação inversa risco-benefício de Paul Slovic e Ali Alhakami e pela substituição de atributos de Kahneman e Frederick, até a evidência espelhada que o bitcoin deixou em março de 2020 e novembro de 2021, este texto traça como a heurística do afeto fabrica alívio nos topos do ciclo e medo nos fundos.",
   "desc_tr": "Fiyat yükseldiğinde risk daha düşük, getiri daha yüksek görünür. Fiyat düştüğünde ise tam tersi olur — çoğu zaman gerçek riskin tam tersi yönünde. Robert Zajonc'un duygusal önceliği teorisinden, Paul Slovic ve Ali Alhakami'nin ters risk-fayda korelasyonu deneylerine ve Kahneman ile Frederick'in öznitelik ikamesine, 2020 Mart'ı ile 2021 Kasım'ında bitcoin'in bıraktığı ayna kanıtlara kadar bu yazı, duygu sezgiselinin döngü tepelerinde rahatlama, diplerinde ise korku nasıl ürettiğini inceliyor.",
   "desc_vi": "Khi giá tăng, rủi ro trông có vẻ thấp hơn và lợi ích trông có vẻ cao hơn. Khi giá giảm, điều ngược lại xảy ra — thường theo đúng hướng ngược lại với rủi ro thực tế. Từ lý thuyết về tính ưu tiên của cảm xúc của Robert Zajonc, qua các thí nghiệm về mối tương quan nghịch rủi ro-lợi ích của Paul Slovic và Ali Alhakami, đến sự thay thế thuộc tính của Kahneman và Frederick, cho tới bằng chứng hình ảnh phản chiếu mà bitcoin để lại vào tháng 3/2020 và tháng 11/2021, bài viết này lần theo cách suy nghiệm cảm xúc tạo ra cảm giác nhẹ nhõm ở đỉnh chu kỳ và nỗi sợ hãi ở đáy.",
+  "desc_id": "Saat harga naik, risiko terasa rendah dan untung tinggi; turun, sebaliknya. Cara heuristik afek membalik persepsi risiko di puncak-dasar siklus bitcoin.",
+  "desc_pl": "Gdy cena rośnie, ryzyko wydaje się niższe, a zysk wyższy; gdy spada — odwrotnie. Jak heurystyka afektu odwraca percepcję ryzyka w cyklu bitcoina.",
+  "desc_it": "Quando il prezzo sale, il rischio sembra minore; quando scende, è l'opposto. Come l'euristica dell'affetto ribalta il rischio percepito nei cicli bitcoin.",
+  "desc_ru": "Когда цена растёт, риск кажется ниже, а выгода выше; при падении — наоборот. Как эвристика аффекта переворачивает восприятие риска в циклах биткоина.",
+  "desc_zh": "價格上漲時,風險看起來較低、報酬看起來較高;下跌時則恰恰相反,往往與真實風險方向正好相反。從扎瓊克的情感優先理論、斯洛維克與阿爾哈卡米的風險利益反相關實驗,到比特幣2020年3月與2021年11月留下的鏡像證據,探討情感捷思如何在週期頂部製造安心、底部製造恐懼。",
   "read_ko": "10",
   "read_en": "10",
   "read_ja": "10",
@@ -76,5 +81,10 @@
   "read_fr": "10",
   "read_pt": "10",
   "read_tr": "10",
-  "read_vi": "10"
+  "read_vi": "10",
+  "read_id": "10",
+  "read_pl": "10",
+  "read_it": "10",
+  "read_ru": "10",
+  "read_zh": "10"
 }
