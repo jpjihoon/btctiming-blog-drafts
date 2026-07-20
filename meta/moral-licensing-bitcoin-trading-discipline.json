@@ -68,6 +68,11 @@
   "desc_pt": "O trader 'qwatio' ganhou 6,8 milhões de dólares com alavancagem 50x pouco antes da ordem executiva de Trump de março de 2025 sobre a reserva estratégica de Bitcoin, e três meses depois perdeu 12,5 milhões após ser liquidado seis vezes em três dias e oito vezes em uma semana. Baseando-se nas pesquisas de Monin e Miller (2001) e Cascio e Plant (2015) sobre licenciamento moral, este texto traça como ter acertado uma vez se torna a licença para o próximo colapso de disciplina.",
   "desc_tr": "'qwatio' adlı trader, Trump'ın Mart 2025'teki Bitcoin stratejik rezerv yürütme emrinden hemen önce 50 kat kaldıraçla 6,8 milyon dolar kazandı; ardından üç ay sonra üç günde altı kez, bir haftada sekiz kez tasfiye edilerek 12,5 milyon dolar kaybetti. Monin ve Miller'ın (2001) ile Cascio ve Plant'ın (2015) ahlaki lisanslama araştırmalarına dayanan bu yazı, bir kez haklı çıkmanın nasıl bir sonraki disiplin çöküşünün lisansına dönüştüğünü inceliyor.",
   "desc_vi": "Nhà giao dịch 'qwatio' kiếm được 6,8 triệu đô la với đòn bẩy 50 lần ngay trước sắc lệnh hành pháp tháng 3/2025 của Trump về dự trữ chiến lược Bitcoin, rồi ba tháng sau mất 12,5 triệu đô la sau khi bị thanh lý sáu lần trong ba ngày và tám lần trong một tuần. Dựa trên nghiên cứu về hiệu ứng cấp phép đạo đức của Monin và Miller (2001) và Cascio và Plant (2015), bài viết này lần theo cách một lần đúng đắn lại trở thành giấy phép cho sự sụp đổ kỷ luật tiếp theo.",
+  "desc_id": "Trader 'qwatio' meraih $6,8 juta lalu rugi $12,5 juta 3 bulan kemudian. Riset pelisensian moral jelaskan mengapa sekali benar melisensikan disiplin runtuh.",
+  "desc_pl": "Trader „qwatio” zarobił 6,8 mln USD, po czym stracił 12,5 mln 3 mies. później. Licencjonowanie moralne pokazuje, jak racja licencjonuje upadek dyscypliny.",
+  "desc_it": "Il trader «qwatio» ha guadagnato 6,8 milioni di dollari, poi persi 12,5 milioni 3 mesi dopo. La licenza morale spiega perché la ragione licenzia il crollo.",
+  "desc_ru": "Трейдер «qwatio» заработал 6,8 млн долларов, а через 3 месяца потерял 12,5 млн. Моральное лицензирование объясняет, почему правота лицензирует крах.",
+  "desc_zh": "交易者「qwatio」曾於2025年3月獲利680萬美元,三個月後卻在加密貨幣交易所Hyperliquid上反覆遭到強制平倉,累計虧損高達1,250萬美元。本文借助道德許可效應的心理學研究,解釋一次判斷正確如何許可了下一次的交易紀律徹底崩潰。",
   "read_ko": "10",
   "read_en": "10",
   "read_ja": "10",
@@ -76,5 +81,10 @@
   "read_fr": "10",
   "read_pt": "10",
   "read_tr": "10",
-  "read_vi": "10"
+  "read_vi": "10",
+  "read_id": "10",
+  "read_pl": "10",
+  "read_it": "10",
+  "read_ru": "10",
+  "read_zh": "10"
 }
