@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "거래소 잔고 vs ETF 순유출",
   "tag_en": "Exchange Reserves vs ETF Outflow",
@@ -22,6 +27,11 @@
   "tag_pt": "Reservas em Exchanges vs Saída de ETF",
   "tag_tr": "Borsa Rezervleri vs ETF Çıkışı",
   "tag_vi": "Dự Trữ Sàn vs Rút Vốn ETF",
+  "tag_id": "Cadangan Bursa vs Arus Keluar ETF",
+  "tag_pl": "Rezerwy Giełdowe vs Odpływ ETF",
+  "tag_it": "Riserve delle Borse vs Deflusso ETF",
+  "tag_ru": "Биржевые Резервы vs Отток ETF",
+  "tag_zh": "交易所儲備 vs ETF淨流出",
 
   "title_ko": "거래소 잔고는 2017년來 최저인데, ETF는 사상 첫 상반기 순유출이다 — 레버리지만 9일 만에 갑절 찼다",
   "title_en": "Exchange Reserves Hit Their Lowest Since 2017, Yet ETFs Just Posted Their First-Ever Negative Half — Leverage Alone Doubled in 9 Days",
@@ -32,6 +42,11 @@
   "title_pt": "Reservas em Exchanges no Menor Nível Desde 2017, Mas ETFs Registram seu Primeiro Semestre Negativo — Só a Alavancagem Dobrou em 9 Dias",
   "title_tr": "Borsa Rezervleri 2017'den Bu Yana En Düşük Seviyede, Ama ETF'ler İlk Negatif Yarı Yılını Kaydetti — Sadece Kaldıraç 9 Günde İkiye Katlandı",
   "title_vi": "Dự Trữ Sàn Giao Dịch Thấp Nhất Kể Từ 2017, Nhưng ETF Vừa Ghi Nhận Nửa Năm Âm Đầu Tiên — Chỉ Riêng Đòn Bẩy Đã Tăng Gấp Đôi Trong 9 Ngày",
+  "title_id": "Cadangan Bursa Capai Titik Terendah Sejak 2017, Namun ETF Baru Saja Catat Paruh Tahun Negatif Pertama — Leverage Saja Berlipat Ganda dalam 9 Hari",
+  "title_pl": "Rezerwy Giełdowe Osiągają Najniższy Poziom od 2017 Roku, a ETF-y Właśnie Odnotowały Pierwsze Ujemne Półrocze — Sama Dźwignia Podwoiła Się w 9 Dni",
+  "title_it": "Le Riserve delle Borse Toccano il Minimo dal 2017, Eppure gli ETF Registrano il Loro Primo Semestre Negativo di Sempre — La Sola Leva è Raddoppiata in 9 Giorni",
+  "title_ru": "Биржевые резервы упали до минимума с 2017 года, а ETF впервые закрыли отрицательное полугодие — одно лишь кредитное плечо удвоилось за 9 дней",
+  "title_zh": "交易所儲備量創2017年以來新低,ETF卻首度出現負值半年——單是槓桿就在9天內翻倍",
 
   "h1_ko": "잔고는 2017년來 최저,<br>ETF는 사상 첫 반기 순유출이다",
   "h1_en": "Reserves at a 2017 Low,<br>ETFs Post Their First Negative Half",
@@ -42,6 +57,11 @@
   "h1_pt": "Reservas na Mínima de 2017,<br>ETFs Registram seu Primeiro Semestre Negativo",
   "h1_tr": "Rezervler 2017 Dibinde,<br>ETF'ler İlk Negatif Yarı Yılını Kaydetti",
   "h1_vi": "Dự Trữ Ở Mức Thấp Nhất 2017,<br>ETF Ghi Nhận Nửa Năm Âm Đầu Tiên",
+  "h1_id": "Cadangan di Titik Terendah 2017,<br>ETF Catat Paruh Tahun Negatif Pertama",
+  "h1_pl": "Rezerwy na Poziomie z 2017 Roku,<br>ETF-y Odnotowują Pierwsze Ujemne Półrocze",
+  "h1_it": "Riserve al Minimo del 2017,<br>gli ETF Registrano il Primo Semestre Negativo",
+  "h1_ru": "Резервы на минимуме 2017 года,<br>ETF фиксируют первое отрицательное полугодие",
+  "h1_zh": "儲備量創2017年新低,<br>ETF出現首度負值半年",
 
   "bc_ko": "온체인·ETF·레버리지 점검",
   "bc_en": "On-Chain, ETF & Leverage Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação On-Chain, ETF e Alavancagem",
   "bc_tr": "Zincir Üstü, ETF ve Kaldıraç Kontrolü",
   "bc_vi": "Kiểm Tra On-Chain, ETF và Đòn Bẩy",
+  "bc_id": "Pemeriksaan On-Chain, ETF & Leverage",
+  "bc_pl": "Kontrola On-Chain, ETF i Dźwigni",
+  "bc_it": "Controllo On-Chain, ETF e Leva",
+  "bc_ru": "Проверка Ончейн-данных, ETF и Плеча",
+  "bc_zh": "鏈上、ETF與槓桿檢視",
 
   "desc_ko": "비트코인이 $63,000대를 회복한 사이, 전 거래소 잔고는 2017년 이후 최저까지 줄었지만 ETF는 2026년 상반기 전체가 사상 첫 순유출(-$5.4B)로 마감됐다. 그 사이 추정 레버리지 비율은 9일 만에 0.156에서 0.25로 뛰었다. 온체인·기관자금·파생상품이 서로 다른 이야기를 하는 지금 국면을 진단한다.",
   "desc_en": "As bitcoin retook the $63,000s, total exchange reserves fell to their lowest since 2017 — yet U.S. spot ETFs just closed the first half of 2026 with their first-ever net outflow (-$5.4B). Meanwhile the Estimated Leverage Ratio jumped from 0.156 to 0.25 in just nine days. A look at a phase where on-chain data, institutional flows, and derivatives are telling three different stories.",
@@ -61,5 +86,10 @@
   "desc_fr": "Alors que le bitcoin reprenait les 63 000 dollars, les réserves totales des exchanges sont tombées à leur plus bas depuis 2017 — pourtant les ETF spot américains viennent de clôturer le premier semestre 2026 avec leur toute première sortie nette (-5,4 Md$). Dans le même temps, le ratio de levier estimé a bondi de 0,156 à 0,25 en seulement neuf jours. Un examen d'une phase où les données on-chain, les flux institutionnels et les dérivés racontent trois histoires différentes.",
   "desc_pt": "Enquanto o bitcoin retomava os 63.000 dólares, as reservas totais em exchanges caíram para a mínima desde 2017 — mas os ETFs à vista dos EUA acabaram de fechar o primeiro semestre de 2026 com sua primeira saída líquida histórica (-US$ 5,4B). Enquanto isso, o Índice de Alavancagem Estimada saltou de 0,156 para 0,25 em apenas nove dias. Uma análise de uma fase em que dados on-chain, fluxos institucionais e derivativos contam três histórias diferentes.",
   "desc_tr": "Bitcoin 63.000 doları yeniden ele geçirirken, toplam borsa rezervleri 2017'den bu yana en düşük seviyesine geriledi — ancak ABD spot ETF'leri 2026'nın ilk yarısını tarihindeki ilk net çıkışla (-5,4 milyar $) kapattı. Bu arada Tahmini Kaldıraç Oranı sadece dokuz günde 0,156'dan 0,25'e sıçradı. Zincir üstü verilerin, kurumsal akışların ve türev ürünlerin üç farklı hikâye anlattığı bir aşamaya bakış.",
-  "desc_vi": "Trong khi bitcoin lấy lại mốc 63.000 đô la, tổng dự trữ trên sàn giao dịch đã giảm xuống mức thấp nhất kể từ năm 2017 — nhưng các ETF giao ngay tại Mỹ vừa khép lại nửa đầu năm 2026 với dòng rút ròng đầu tiên trong lịch sử (-5,4 tỷ đô la). Trong khi đó, Tỷ lệ Đòn bẩy Ước tính đã tăng từ 0,156 lên 0,25 chỉ trong chín ngày. Một góc nhìn về giai đoạn mà dữ liệu on-chain, dòng vốn tổ chức và phái sinh đang kể ba câu chuyện khác nhau."
+  "desc_vi": "Trong khi bitcoin lấy lại mốc 63.000 đô la, tổng dự trữ trên sàn giao dịch đã giảm xuống mức thấp nhất kể từ năm 2017 — nhưng các ETF giao ngay tại Mỹ vừa khép lại nửa đầu năm 2026 với dòng rút ròng đầu tiên trong lịch sử (-5,4 tỷ đô la). Trong khi đó, Tỷ lệ Đòn bẩy Ước tính đã tăng từ 0,156 lên 0,25 chỉ trong chín ngày. Một góc nhìn về giai đoạn mà dữ liệu on-chain, dòng vốn tổ chức và phái sinh đang kể ba câu chuyện khác nhau.",
+  "desc_id": "Bitcoin kembali ke $63.000-an, cadangan bursa terendah sejak 2017, tapi ETF AS catat paruh tahun negatif pertama saat leverage naik ke 0,25 dalam 9 hari.",
+  "desc_pl": "Bitcoin wrócił do 63 000 dolarów, rezerwy giełdowe najniżej od 2017, a ETF-y w USA zamknęły ujemne półrocze, gdy dźwignia skoczyła do 0,25 w 9 dni.",
+  "desc_it": "Il bitcoin torna sopra i 63.000 dollari, riserve delle borse ai minimi dal 2017, ma gli ETF USA chiudono il primo semestre negativo e la leva sale a 0,25.",
+  "desc_ru": "Биткоин вернулся к $63 000, резервы бирж на минимуме с 2017 года, а ETF в США закрыли первое отрицательное полугодие, плечо выросло до 0,25 за 9 дней.",
+  "desc_zh": "比特幣重返6萬3,000美元價位,交易所比特幣儲備量降至2017年以來最低水準,美國現貨比特幣ETF卻剛結束史上首個負值半年,累計淨流出約54億美元,同時估計槓桿比率在短短九天內從0.156躍升至0.25,創下觀察期歷史新高紀錄,三項指標方向並不一致。"
 }
