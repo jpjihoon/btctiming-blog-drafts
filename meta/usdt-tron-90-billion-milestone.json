@@ -68,6 +68,11 @@
   "desc_pt": "A TRON DAO anunciou em 9 de julho que a oferta circulante de USDT na blockchain TRON ultrapassou US$ 90 bilhões, citando dados da Token Terminal que mostram que a rede processou US$ 4,2 trilhões em transferências de USDT no acumulado do ano, o maior volume entre todas as redes. Cointelegraph e The Block noticiaram o anúncio, enquanto Forbes e Protos apontaram, separadamente, lacunas na fiscalização antilavagem e possíveis conflitos de interesse de Justin Sun.",
   "desc_tr": "TRON DAO, 9 Temmuz'da TRON blok zincirindeki USDT arzının 90 milyar doları aştığını, Token Terminal verilerine göre ağın yıl başından bu yana 4,2 trilyon dolarlık USDT transferi işleyerek tüm ağlar arasında en yüksek hacme ulaştığını duyurdu. Cointelegraph ve The Block duyuruyu haberleştirirken, Forbes ve Protos ayrı ayrı kara para aklamayı önleme denetimindeki boşluklara ve Justin Sun'ın olası çıkar çatışmasına dikkat çekti.",
   "desc_vi": "TRON DAO thông báo vào ngày 9 tháng 7 rằng nguồn cung lưu hành USDT trên blockchain TRON đã vượt 90 tỷ USD, dẫn dữ liệu Token Terminal cho thấy mạng lưới đã xử lý 4,2 nghìn tỷ USD giá trị chuyển USDT từ đầu năm, mức cao nhất trong số các mạng lưới. Cointelegraph và The Block đưa tin về thông báo này, trong khi Forbes và Protos lần lượt chỉ ra lỗ hổng giám sát chống rửa tiền và khả năng xung đột lợi ích của Justin Sun.",
+  "desc_id": "TRON DAO mengumumkan pada 9 Juli bahwa pasokan beredar USDT di blockchain TRON telah melampaui $90 miliar, dengan data Token Terminal menunjukkan jaringan tersebut telah memproses transfer USDT senilai $4,2 triliun sejak awal tahun — terbanyak dari semua chain. Cointelegraph dan The Block memberitakan pengumuman ini, sementara Forbes dan Protos secara terpisah menyoroti celah penegakan AML dan keterkaitan finansial pribadi Justin Sun dengan Tether.",
+  "desc_pl": "TRON DAO ogłosiło 9 lipca, że podaż USDT w obiegu na blockchainie TRON przekroczyła 90 miliardów dolarów, a dane Token Terminal pokazują, że sieć przetworzyła od początku roku transfery USDT o wartości 4,2 biliona dolarów — najwięcej spośród wszystkich łańcuchów. Cointelegraph i The Block poinformowały o ogłoszeniu, a Forbes i Protos oddzielnie zwróciły uwagę na luki w egzekwowaniu przepisów AML oraz osobiste powiązania finansowe Justina Suna z Tether.",
+  "desc_it": "Il 9 luglio TRON DAO ha annunciato che l'offerta circolante di USDT sulla blockchain TRON ha superato i 90 miliardi di dollari, con i dati di Token Terminal che mostrano che la rete ha elaborato trasferimenti di USDT per 4.200 miliardi di dollari dall'inizio dell'anno — il valore più alto tra tutte le chain. Cointelegraph e The Block hanno riportato l'annuncio, mentre Forbes e Protos hanno separatamente sollevato preoccupazioni riguardo a lacune nell'applicazione delle norme antiriciclaggio (AML) e ai legami finanziari personali di Justin Sun con Tether.",
+  "desc_ru": "9 июля TRON DAO объявила, что оборотное предложение USDT в блокчейне TRON превысило 90 миллиардов долларов: по данным Token Terminal, сеть обработала с начала года переводы USDT на сумму 4,2 триллиона долларов — больше, чем любая другая сеть. Cointelegraph и The Block сообщили об этом объявлении, а Forbes и Protos отдельно указали на пробелы в соблюдении требований AML и личные финансовые связи Джастина Сана с Tether.",
+  "desc_zh": "TRON DAO於7月9日宣布,TRON區塊鏈上的USDT流通量已突破900億美元,Token Terminal數據顯示該網路今年迄今已處理4.2兆美元的USDT轉帳,居所有鏈之首。Cointelegraph與The Block報導了此項公告,而Forbes與Protos則分別指出反洗錢執法上的漏洞,以及孫宇晨與泰達幣之間的個人財務關聯。",
   "read_ko": "8",
   "read_en": "8",
   "read_ja": "8",
@@ -76,5 +81,10 @@
   "read_fr": "8",
   "read_pt": "8",
   "read_tr": "8",
-  "read_vi": "8"
+  "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8"
 }
