@@ -9,6 +9,11 @@
 <p class="pt">A Fundação BNB Chain anunciou a conclusão de sua 36ª Auto-Queima trimestral às 10h35 UTC de 15 de julho, destruindo permanentemente 1.615.827,795 BNB (cerca de US$ 932 milhões). A queima reduziu o fornecimento circulante de BNB para 133.166.127,91 tokens, marcando a terceira queima de 2026 e a primeira executada nativamente na BNB Smart Chain (BSC) em vez da já desativada Beacon Chain, após a migração BNB Chain Fusion. Os tokens queimados foram enviados a um endereço morto permanente (0x000...dEaD), segundo CoinDesk, CryptoSlate e Benzinga.</p>
 <p class="tr">BNB Chain Vakfı, 15 Temmuz'da 10:35 UTC'de 36. çeyreklik Otomatik Yakımını (Auto-Burn) tamamladığını ve 1.615.827,795 BNB'yi (yaklaşık 932 milyon dolar) kalıcı olarak yok ettiğini duyurdu. Yakım, BNB'nin dolaşımdaki arzını 133.166.127,91 jetona indirdi; bu, 2026'nın üçüncü yakımı ve BNB Chain Fusion geçişinin ardından, emekliye ayrılan Beacon Chain yerine doğrudan BNB Smart Chain (BSC) üzerinde yerel olarak gerçekleştirilen ilk yakım oldu. Yakılan jetonlar kalıcı bir ölü adrese (0x000...dEaD) gönderildi; bunu CoinDesk, CryptoSlate ve Benzinga bildirdi.</p>
 <p class="vi">Quỹ BNB Chain thông báo đã hoàn tất đợt đốt tự động (Auto-Burn) hàng quý lần thứ 36 vào lúc 10:35 UTC ngày 15 tháng 7, tiêu hủy vĩnh viễn 1.615.827,795 BNB (trị giá khoảng 932 triệu đô la). Đợt đốt này đã giảm nguồn cung lưu hành của BNB xuống còn 133.166.127,91 token, đánh dấu lần đốt thứ ba của năm 2026 và là lần đầu tiên được thực hiện trực tiếp trên BNB Smart Chain (BSC) thay vì Beacon Chain đã ngừng hoạt động, sau quá trình chuyển đổi BNB Chain Fusion. Số token bị đốt được gửi đến một địa chỉ chết vĩnh viễn (0x000...dEaD), theo CoinDesk, CryptoSlate và Benzinga.</p>
+<p class="id">Yayasan BNB Chain mengumumkan telah menyelesaikan Auto-Burn kuartalan ke-36 pada pukul 10:35 UTC tanggal 15 Juli, memusnahkan secara permanen 1.615.827,795 BNB (senilai sekitar 932 juta dolar AS). Pembakaran ini menurunkan pasokan beredar BNB menjadi 133.166.127,91 token, menandai pembakaran ketiga di tahun 2026 dan yang pertama dijalankan secara native di BNB Smart Chain (BSC) alih-alih Beacon Chain yang telah dipensiunkan, menyusul migrasi BNB Chain Fusion. Token yang dibakar dikirim ke alamat mati permanen (0x000...dEaD), menurut laporan CoinDesk, CryptoSlate, dan Benzinga.</p>
+<p class="pl">Fundacja BNB Chain ogłosiła zakończenie 36. kwartalnego Auto-Burn o godzinie 10:35 UTC 15 lipca, trwale niszcząc 1 615 827,795 BNB (o wartości około 932 milionów dolarów). Spalenie zmniejszyło podaż BNB w obiegu do 133 166 127,91 tokenów, co stanowi trzecie spalenie w 2026 roku i pierwsze wykonane natywnie na BNB Smart Chain (BSC), a nie na wycofanym Beacon Chain, po migracji BNB Chain Fusion. Spalone tokeny zostały wysłane na stały martwy adres (0x000...dEaD), według doniesień CoinDesk, CryptoSlate i Benzinga.</p>
+<p class="it">La Fondazione BNB Chain ha annunciato di aver completato il suo 36° Auto-Burn trimestrale alle 10:35 UTC del 15 luglio, distruggendo permanentemente 1.615.827,795 BNB (per un valore di circa 932 milioni di dollari). Il burn ha ridotto l'offerta circolante di BNB a 133.166.127,91 token, segnando la terza combustione del 2026 e la prima eseguita nativamente su BNB Smart Chain (BSC) anziché sulla Beacon Chain ormai dismessa, in seguito alla migrazione BNB Chain Fusion. I token bruciati sono stati inviati a un indirizzo morto permanente (0x000...dEaD), secondo quanto riportato da CoinDesk, CryptoSlate e Benzinga.</p>
+<p class="ru">Фонд BNB Chain объявил о завершении 36-го квартального Auto-Burn в 10:35 UTC 15 июля, безвозвратно уничтожив 1 615 827,795 BNB (на сумму около 932 миллионов долларов). Сжигание сократило циркулирующее предложение BNB до 133 166 127,91 токена, что стало третьим сжиганием в 2026 году и первым, выполненным нативно в BNB Smart Chain (BSC), а не в выведенной из эксплуатации Beacon Chain, после миграции BNB Chain Fusion. Сожжённые токены были отправлены на постоянный мёртвый адрес (0x000...dEaD), сообщают CoinDesk, CryptoSlate и Benzinga.</p>
+<p class="zh">BNB Chain基金會宣布已於7月15日UTC時間上午10點35分完成第36次季度自動銷毀(Auto-Burn),永久銷毀1,615,827.795枚BNB(價值約9.32億美元)。此次銷毀將BNB的流通供應量減少至133,166,127.91枚,是2026年第三次銷毀,也是自BNB Chain Fusion遷移以來首次在BNB智能鏈(BSC)上原生執行的銷毀,而非透過已退役的信標鏈(Beacon Chain)。據CoinDesk、CryptoSlate與Benzinga報導,被銷毀的代幣已被送往永久死亡地址(0x000...dEaD)。</p>
 
 <h2 class="ko">오토번 공식은 어떻게 작동하는가 — 가격이 내려가면 더 많이 태운다</h2>
 <h2 class="en">How the Auto-Burn Formula Works — Burn More When Price Falls</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">Como funciona a fórmula da Auto-Queima — queimar mais quando o preço cai</h2>
 <h2 class="tr">Otomatik Yakım Formülü Nasıl Çalışır — Fiyat Düştükçe Daha Fazla Yak</h2>
 <h2 class="vi">Công thức Auto-Burn hoạt động như thế nào — giá càng giảm càng đốt nhiều</h2>
+<h2 class="id">Bagaimana Cara Kerja Formula Auto-Burn — Membakar Lebih Banyak Saat Harga Turun</h2>
+<h2 class="pl">Jak działa formuła Auto-Burn — więcej spalania, gdy cena spada</h2>
+<h2 class="it">Come funziona la formula Auto-Burn — bruciare di più quando il prezzo scende</h2>
+<h2 class="ru">Как работает формула Auto-Burn — сжигание увеличивается при падении цены</h2>
+<h2 class="zh">Auto-Burn公式如何運作——價格下跌時銷毀更多</h2>
 
 <p class="ko">BNB 오토번은 "B = N × 1000 ÷ (P + K)"라는 공식으로 소각량을 정한다. N은 분기 동안 생성된 BSC 블록 수(약 259만 개), P는 체인링크 오라클이 집계한 BNB의 분기 평균 가격, K는 커뮤니티 BEP 제안으로만 바뀌는 고정 앵커 상수(현재 1000)다. 공식의 핵심은 역방향 조정 — 가격(P)이 낮을수록 분모가 작아져 소각량(B)이 커지고, 가격이 오르면 소각량이 줄어든다. 이 덕분에 시장 상황과 무관하게 목표(1억 BNB)를 향한 공급 감소 속도가 어느 정도 일정하게 유지되도록 설계됐다.</p>
 <p class="en">BNB's Auto-Burn sets its burn amount with the formula "B = N × 1000 ÷ (P + K)." N is the number of BSC blocks produced during the quarter (roughly 2.59 million), P is BNB's quarter-average price as aggregated by the Chainlink oracle, and K is a fixed anchor constant (currently 1000) that only changes through a community BEP proposal. The formula's core feature is inverse adjustment — the lower P falls, the smaller the denominator gets and the larger B grows; when price rises, the burn shrinks. That design is meant to keep the pace of supply reduction toward the 100 million target roughly steady regardless of market conditions.</p>
@@ -29,6 +39,11 @@
 <p class="pt">A Auto-Queima da BNB define sua quantidade com a fórmula "B = N × 1000 ÷ (P + K)". N é o número de blocos da BSC produzidos durante o trimestre (cerca de 2,59 milhões), P é o preço médio trimestral da BNB agregado pelo oráculo da Chainlink, e K é uma constante-âncora fixa (atualmente 1000) que só muda por meio de uma proposta BEP da comunidade. O ponto central da fórmula é o ajuste inverso — quanto mais P cai, menor fica o denominador e maior fica B; quando o preço sobe, a queima diminui. Esse desenho busca manter o ritmo de redução da oferta rumo à meta de 100 milhões relativamente estável, independentemente das condições de mercado.</p>
 <p class="tr">BNB'nin Otomatik Yakımı, yakım miktarını "B = N × 1000 ÷ (P + K)" formülüyle belirler. N, çeyrek boyunca üretilen BSC blok sayısıdır (yaklaşık 2,59 milyon), P, Chainlink oracle'ı tarafından toplanan BNB'nin çeyreklik ortalama fiyatıdır ve K, yalnızca bir topluluk BEP önerisiyle değişen sabit bir çapa sabitidir (şu anda 1000). Formülün özü ters yönlü ayarlamadır — P ne kadar düşerse payda o kadar küçülür ve B o kadar büyür; fiyat yükseldiğinde yakım küçülür. Bu tasarım, piyasa koşullarından bağımsız olarak 100 milyon hedefine doğru arz azaltma hızını nispeten sabit tutmayı amaçlar.</p>
 <p class="vi">Auto-Burn của BNB xác định lượng đốt bằng công thức "B = N × 1000 ÷ (P + K)". N là số khối BSC được tạo ra trong quý (khoảng 2,59 triệu), P là giá trung bình theo quý của BNB được tổng hợp bởi oracle Chainlink, và K là hằng số neo cố định (hiện là 1000) chỉ thay đổi thông qua đề xuất BEP của cộng đồng. Cốt lõi của công thức là điều chỉnh nghịch đảo — P càng giảm, mẫu số càng nhỏ và B càng lớn; khi giá tăng, lượng đốt giảm. Thiết kế này nhằm giữ tốc độ giảm nguồn cung hướng tới mục tiêu 100 triệu tương đối ổn định bất kể điều kiện thị trường.</p>
+<p class="id">Auto-Burn BNB menentukan jumlah pembakarannya dengan rumus "B = N × 1000 ÷ (P + K)." N adalah jumlah blok BSC yang dihasilkan selama kuartal tersebut (sekitar 2,59 juta), P adalah harga rata-rata kuartalan BNB yang diagregasi oleh oracle Chainlink, dan K adalah konstanta jangkar tetap (saat ini 1000) yang hanya dapat diubah melalui proposal BEP komunitas. Inti dari rumus ini adalah penyesuaian terbalik — semakin rendah P, semakin kecil penyebutnya dan semakin besar B; ketika harga naik, jumlah pembakaran mengecil. Desain ini dimaksudkan untuk menjaga kecepatan pengurangan pasokan menuju target 100 juta tetap relatif stabil terlepas dari kondisi pasar.</p>
+<p class="pl">Auto-Burn BNB ustala wielkość spalania według wzoru „B = N × 1000 ÷ (P + K)". N to liczba bloków BSC wyprodukowanych w danym kwartale (około 2,59 miliona), P to średnia kwartalna cena BNB agregowana przez oracle Chainlink, a K to stała kotwicząca (obecnie 1000), którą można zmienić wyłącznie w drodze propozycji BEP społeczności. Kluczową cechą formuły jest odwrotna korekta — im niższe P, tym mniejszy mianownik i tym większe B; gdy cena rośnie, spalanie maleje. Taka konstrukcja ma utrzymywać tempo redukcji podaży w kierunku celu 100 milionów na względnie stałym poziomie niezależnie od warunków rynkowych.</p>
+<p class="it">L'Auto-Burn di BNB stabilisce l'importo bruciato con la formula "B = N × 1000 ÷ (P + K)". N è il numero di blocchi BSC prodotti durante il trimestre (circa 2,59 milioni), P è il prezzo medio trimestrale di BNB aggregato dall'oracolo Chainlink, e K è una costante di ancoraggio fissa (attualmente 1000) che cambia solo tramite una proposta BEP della community. La caratteristica centrale della formula è la regolazione inversa — più P scende, più il denominatore si riduce e più B cresce; quando il prezzo sale, il burn si riduce. Questo design è pensato per mantenere il ritmo di riduzione dell'offerta verso l'obiettivo di 100 milioni relativamente costante indipendentemente dalle condizioni di mercato.</p>
+<p class="ru">Auto-Burn BNB определяет объём сжигания по формуле «B = N × 1000 ÷ (P + K)». N — количество блоков BSC, произведённых за квартал (около 2,59 миллиона), P — среднеквартальная цена BNB, агрегируемая оракулом Chainlink, а K — фиксированная якорная константа (в настоящее время 1000), которая меняется только по предложению сообщества BEP. Ключевая особенность формулы — обратная корректировка: чем ниже P, тем меньше знаменатель и тем больше B; когда цена растёт, сжигание уменьшается. Такой дизайн призван поддерживать темп сокращения предложения к цели в 100 миллионов относительно стабильным независимо от рыночных условий.</p>
+<p class="zh">BNB的Auto-Burn以公式「B = N × 1000 ÷ (P + K)」決定銷毀量。N是該季度產生的BSC區塊數(約259萬個),P是由Chainlink預言機彙總的BNB季度平均價格,K則是僅能透過社群BEP提案變更的固定錨定常數(目前為1000)。該公式的核心特徵是反向調整——P越低,分母越小,B就越大;價格上漲時,銷毀量則會縮小。這種設計旨在讓供應量朝1億枚目標減少的速度,不論市場狀況如何都能維持相對穩定。</p>
 
 <p class="ko">그런데 최근 로렌츠·맥스웰·페르미 업그레이드로 BSC의 블록 생성 속도 자체가 빨라졌다 — <a href="/blog/bnb-chain-h2-2026-throughput-roadmap">올해 하반기 로드맵에서 다룬 것처럼</a> 블록 간격이 1월 750ms에서 450ms로 줄었다. 공식을 그대로 두면 분기당 블록 수(N)가 기계적으로 늘어나 소각량이 부풀려질 수 있다는 뜻이다. BNB체인 재단은 이런 부작용을 막기 위해 앵커 상수 K값을 조정해 "공식의 취지"를 유지했다고 설명했다 — 처리량을 높이는 기술적 변화가 토큰 이코노미 변수까지 건드린 사례다.</p>
 <p class="en">But BSC's block production itself has sped up recently thanks to the Lorentz, Maxwell, and Fermi upgrades — as covered in <a href="/en/blog/bnb-chain-h2-2026-throughput-roadmap">this year's second-half roadmap</a>, block intervals fell from 750ms in January to 450ms. Left unchanged, that would mechanically inflate N and overstate the burn each quarter. The BNB Chain Foundation said it recalibrated the anchor constant K to preserve the formula's original intent — a case where a throughput upgrade reached into a token-economics variable.</p>
@@ -39,6 +54,11 @@
 <p class="pt">Mas a própria produção de blocos da BSC acelerou recentemente graças às atualizações Lorentz, Maxwell e Fermi — como abordado no <a href="/pt/blog/bnb-chain-h2-2026-throughput-roadmap">roteiro do segundo semestre deste ano</a>, os intervalos de blocos caíram de 750 ms em janeiro para 450 ms. Sem ajustes, isso infllaria mecanicamente N e exageraria a queima a cada trimestre. A Fundação BNB Chain disse ter recalibrado a constante-âncora K para preservar a intenção original da fórmula — um caso em que uma atualização de throughput acabou afetando uma variável da tokenomics.</p>
 <p class="tr">Ancak Lorentz, Maxwell ve Fermi yükseltmeleri sayesinde BSC'nin blok üretimi son zamanlarda hızlandı — <a href="/tr/blog/bnb-chain-h2-2026-throughput-roadmap">bu yılın ikinci yarı yol haritasında ele alındığı gibi</a>, blok aralıkları Ocak'taki 750 ms'den 450 ms'ye düştü. Değiştirilmeseydi bu, N'yi mekanik olarak şişirir ve her çeyrekte yakımı abartırdı. BNB Chain Vakfı, formülün asıl amacını korumak için çapa sabiti K'yı yeniden kalibre ettiğini açıkladı — bir işlem hacmi yükseltmesinin bir token ekonomisi değişkenine kadar uzandığı bir örnek.</p>
 <p class="vi">Nhưng bản thân tốc độ tạo khối của BSC gần đây đã tăng nhanh nhờ các bản nâng cấp Lorentz, Maxwell và Fermi — như đã đề cập trong <a href="/vi/blog/bnb-chain-h2-2026-throughput-roadmap">lộ trình nửa cuối năm nay</a>, khoảng cách giữa các khối giảm từ 750ms hồi tháng 1 xuống còn 450ms. Nếu không điều chỉnh, điều này sẽ tự động làm phồng N và thổi phồng lượng đốt mỗi quý. Quỹ BNB Chain cho biết đã hiệu chỉnh lại hằng số neo K để giữ nguyên mục đích ban đầu của công thức — một trường hợp mà bản nâng cấp thông lượng đã chạm đến một biến số trong kinh tế học token.</p>
+<p class="id">Namun produksi blok BSC sendiri belakangan ini semakin cepat berkat upgrade Lorentz, Maxwell, dan Fermi — seperti dibahas dalam <a href="/id/blog/bnb-chain-h2-2026-throughput-roadmap">peta jalan semester kedua tahun ini</a>, interval blok turun dari 750ms pada Januari menjadi 450ms. Jika dibiarkan tanpa perubahan, hal ini akan secara mekanis menggelembungkan N dan melebih-lebihkan jumlah pembakaran setiap kuartal. Yayasan BNB Chain mengatakan pihaknya mengkalibrasi ulang konstanta jangkar K untuk mempertahankan maksud asli formula tersebut — sebuah contoh di mana upgrade throughput turut menyentuh variabel ekonomi token.</p>
+<p class="pl">Jednak sama produkcja bloków BSC ostatnio przyspieszyła dzięki aktualizacjom Lorentz, Maxwell i Fermi — jak opisano w <a href="/pl/blog/bnb-chain-h2-2026-throughput-roadmap">planie działań na drugą połowę tego roku</a>, odstępy między blokami spadły z 750 ms w styczniu do 450 ms. Bez zmian mechanicznie zawyżyłoby to N i zawyżałoby spalanie w każdym kwartale. Fundacja BNB Chain poinformowała, że ponownie skalibrowała stałą kotwiczącą K, aby zachować pierwotny sens formuły — przypadek, w którym aktualizacja przepustowości sięgnęła po zmienną ekonomii tokenów.</p>
+<p class="it">Ma la produzione di blocchi di BSC stessa è recentemente accelerata grazie agli aggiornamenti Lorentz, Maxwell e Fermi — come descritto nella <a href="/it/blog/bnb-chain-h2-2026-throughput-roadmap">roadmap del secondo semestre di quest'anno</a>, gli intervalli tra i blocchi sono scesi da 750ms a gennaio a 450ms. Se lasciato invariato, ciò avrebbe gonfiato meccanicamente N e sovrastimato il burn ogni trimestre. La Fondazione BNB Chain ha dichiarato di aver ricalibrato la costante di ancoraggio K per preservare l'intento originale della formula — un caso in cui un aggiornamento del throughput ha finito per toccare una variabile della tokenomics.</p>
+<p class="ru">Но сама скорость производства блоков BSC недавно возросла благодаря обновлениям Lorentz, Maxwell и Fermi — как описано в <a href="/ru/blog/bnb-chain-h2-2026-throughput-roadmap">дорожной карте на вторую половину этого года</a>, интервалы между блоками сократились с 750 мс в январе до 450 мс. Если бы формулу не изменили, это механически завысило бы N и раздуло сжигание в каждом квартале. В BNB Chain Foundation заявили, что перекалибровали якорную константу K, чтобы сохранить исходный замысел формулы — случай, когда обновление пропускной способности затронуло переменную токеномики.</p>
+<p class="zh">但由於Lorentz、Maxwell與Fermi升級,BSC本身的區塊產生速度近期加快——正如<a href="/zh/blog/bnb-chain-h2-2026-throughput-roadmap">今年下半年路線圖</a>所述,區塊間隔從1月的750毫秒降至450毫秒。若公式維持不變,將機械式地推高N值,使每季銷毀量被高估。BNB Chain基金會表示已重新校準錨定常數K,以維持公式的原始用意——這是一次輸送量升級波及代幣經濟變數的案例。</p>
 
 <h2 class="ko">토큰 개수는 늘고 달러가치는 줄었다 — 두 분기 비교가 보여주는 것</h2>
 <h2 class="en">Token Count Rose, Dollar Value Fell — What Comparing Two Quarters Shows</h2>
@@ -49,6 +69,11 @@
 <h2 class="pt">O número de tokens subiu e o valor em dólares caiu — o que a comparação de dois trimestres mostra</h2>
 <h2 class="tr">Jeton Sayısı Arttı, Dolar Değeri Düştü — İki Çeyreğin Karşılaştırması Ne Gösteriyor</h2>
 <h2 class="vi">Số lượng token tăng, giá trị đô la giảm — so sánh hai quý cho thấy điều gì</h2>
+<h2 class="id">Jumlah Token Naik, Nilai Dolar Turun — Apa yang Ditunjukkan Perbandingan Dua Kuartal</h2>
+<h2 class="pl">Liczba tokenów wzrosła, wartość w dolarach spadła — co pokazuje porównanie dwóch kwartałów</h2>
+<h2 class="it">Il numero di token è salito, il valore in dollari è sceso — cosa mostra il confronto tra due trimestri</h2>
+<h2 class="ru">Количество токенов выросло, долларовая стоимость упала — что показывает сравнение двух кварталов</h2>
+<h2 class="zh">代幣數量上升,美元價值下降——兩個季度的比較說明了什麼</h2>
 
 <p class="ko">직전 35차 소각(4월15일)에서는 1,569,307.34 BNB(약 10억2,000만달러)가 소각돼 공급량이 1억3,479만개로 줄었다. 이번 36차 소각은 토큰 개수로는 약 3% 늘어난 1,615,827.795 BNB를 태웠지만, 달러가치로는 오히려 9%가량 줄어든 9억3,200만달러에 그쳤다. 공식대로라면 이 분기 BNB의 평균 가격이 직전 분기보다 낮았다는 뜻이고, 오토번의 역방향 조정이 정확히 설계된 대로 작동했음을 숫자로 보여주는 사례다.</p>
 <p class="en">The prior 35th burn (April 15) destroyed 1,569,307.34 BNB (about $1.02 billion), cutting supply to 134.79 million. This 36th burn destroyed roughly 3% more tokens by count — 1,615,827.795 BNB — yet its dollar value came in about 9% lower, at $932 million. Per the formula, that gap implies BNB's average price was lower this quarter than last, and it's a numeric demonstration that the Auto-Burn's inverse adjustment worked exactly as designed.</p>
@@ -59,6 +84,11 @@
 <p class="pt">A 35ª queima anterior (15 de abril) destruiu 1.569.307,34 BNB (cerca de US$ 1,02 bilhão), reduzindo a oferta para 134,79 milhões. Esta 36ª queima destruiu cerca de 3% mais tokens em quantidade — 1.615.827,795 BNB —, mas seu valor em dólares ficou cerca de 9% menor, em US$ 932 milhões. Pela fórmula, essa diferença implica que o preço médio da BNB foi menor neste trimestre do que no anterior — uma demonstração numérica de que o ajuste inverso da Auto-Queima funcionou exatamente como projetado.</p>
 <p class="tr">Önceki 35. yakım (15 Nisan) 1.569.307,34 BNB'yi (yaklaşık 1,02 milyar dolar) yok ederek arzı 134,79 milyona indirmişti. Bu 36. yakım, sayı olarak yaklaşık %3 daha fazla jeton — 1.615.827,795 BNB — yok etti, ancak dolar değeri yaklaşık %9 daha düşük olan 932 milyon dolarda kaldı. Formüle göre bu fark, BNB'nin ortalama fiyatının bu çeyrekte bir öncekinden daha düşük olduğu anlamına gelir — Otomatik Yakımın ters yönlü ayarlamasının tam olarak tasarlandığı gibi çalıştığının sayısal bir kanıtıdır.</p>
 <p class="vi">Đợt đốt thứ 35 trước đó (15 tháng 4) đã tiêu hủy 1.569.307,34 BNB (khoảng 1,02 tỷ đô la), giảm nguồn cung xuống còn 134,79 triệu. Đợt đốt thứ 36 này đã tiêu hủy nhiều hơn khoảng 3% về số lượng token — 1.615.827,795 BNB — nhưng giá trị đô la lại thấp hơn khoảng 9%, chỉ còn 932 triệu đô la. Theo công thức, khoảng cách này ngụ ý rằng giá trung bình của BNB trong quý này thấp hơn quý trước — một minh chứng bằng số liệu cho thấy cơ chế điều chỉnh nghịch đảo của Auto-Burn hoạt động đúng như thiết kế.</p>
+<p class="id">Pembakaran ke-35 sebelumnya (15 April) memusnahkan 1.569.307,34 BNB (sekitar 1,02 miliar dolar AS), menurunkan pasokan menjadi 134,79 juta. Pembakaran ke-36 ini memusnahkan sekitar 3% lebih banyak token dari segi jumlah — 1.615.827,795 BNB — namun nilai dolarnya justru sekitar 9% lebih rendah, yaitu 932 juta dolar AS. Menurut rumus tersebut, selisih ini mengindikasikan bahwa harga rata-rata BNB lebih rendah pada kuartal ini dibanding kuartal sebelumnya, dan ini menjadi bukti numerik bahwa penyesuaian terbalik Auto-Burn bekerja persis seperti yang dirancang.</p>
+<p class="pl">Poprzednie, 35. spalenie (15 kwietnia) zniszczyło 1 569 307,34 BNB (około 1,02 miliarda dolarów), zmniejszając podaż do 134,79 miliona. To 36. spalenie zniszczyło około 3% więcej tokenów pod względem liczby — 1 615 827,795 BNB — jednak jego wartość w dolarach była około 9% niższa i wyniosła 932 miliony dolarów. Zgodnie z formułą ta różnica oznacza, że średnia cena BNB w tym kwartale była niższa niż w poprzednim, co jest liczbowym dowodem na to, że odwrotna korekta Auto-Burn zadziałała dokładnie tak, jak zaprojektowano.</p>
+<p class="it">Il precedente 35° burn (15 aprile) ha distrutto 1.569.307,34 BNB (circa 1,02 miliardi di dollari), riducendo l'offerta a 134,79 milioni. Questo 36° burn ha distrutto circa il 3% di token in più per quantità — 1.615.827,795 BNB — ma il suo valore in dollari è risultato inferiore di circa il 9%, a 932 milioni di dollari. Secondo la formula, questo divario implica che il prezzo medio di BNB in questo trimestre fosse inferiore rispetto al precedente, ed è una dimostrazione numerica che la regolazione inversa dell'Auto-Burn ha funzionato esattamente come previsto.</p>
+<p class="ru">Предыдущее, 35-е сжигание (15 апреля) уничтожило 1 569 307,34 BNB (около 1,02 миллиарда долларов), сократив предложение до 134,79 миллиона. Это, 36-е сжигание, уничтожило примерно на 3% больше токенов по количеству — 1 615 827,795 BNB, — однако его долларовая стоимость оказалась примерно на 9% ниже — 932 миллиона долларов. Согласно формуле, этот разрыв означает, что средняя цена BNB в этом квартале была ниже, чем в прошлом, и это числовое доказательство того, что обратная корректировка Auto-Burn сработала именно так, как задумано.</p>
+<p class="zh">先前的第35次銷毀(4月15日)銷毀了1,569,307.34枚BNB(約10.2億美元),使供應量降至1.3479億。這次第36次銷毀在數量上多銷毀了約3%的代幣——1,615,827.795枚BNB——但美元價值卻反而低了約9%,僅為9.32億美元。根據公式,這個落差意味著本季BNB的平均價格低於上一季,以數字證明了Auto-Burn的反向調整機制正如設計般運作。</p>
 
 <p class="ko">이는 이더리움의 소각 메커니즘과 대조적이다. 이더리움은 EIP-1559로 거래 수수료를 태우는 방식이라 네트워크 활동이 활발해야 소각량이 늘어나는데, <a href="/blog/ethereum-supply-inflationary-ultrasound-money">최근 30일간 순공급이 오히려 8만3,550 ETH 늘어나 연 0.23% 인플레이션</a>으로 돌아선 상태다. 반면 BNB의 오토번은 재단이 정한 공식에 따라 분기마다 기계적으로 실행되는 구조라, 네트워크 활동 수준과 무관하게 소각이 이어진다는 차이가 있다.</p>
 <p class="en">That's a contrast with Ethereum's burn mechanism. Ethereum burns transaction fees under EIP-1559, so its burn rate depends on network activity being high — and <a href="/en/blog/ethereum-supply-inflationary-ultrasound-money">net supply actually grew by 83,550 ETH over the past 30 days, a 0.23% annualized inflation rate</a>, as activity has migrated to L2s. BNB's Auto-Burn, by contrast, executes mechanically every quarter according to the Foundation's formula, continuing regardless of the network's activity level.</p>
@@ -69,6 +99,11 @@
 <p class="pt">Isso contrasta com o mecanismo de queima do Ethereum. O Ethereum queima taxas de transação sob o EIP-1559, então sua taxa de queima depende de alta atividade de rede — e <a href="/pt/blog/ethereum-supply-inflationary-ultrasound-money">a oferta líquida na verdade cresceu 83.550 ETH nos últimos 30 dias, uma taxa de inflação anualizada de 0,23%</a>, à medida que a atividade migra para L2s. Já a Auto-Queima da BNB é executada mecanicamente a cada trimestre segundo a fórmula da Fundação, continuando independentemente do nível de atividade da rede.</p>
 <p class="tr">Bu, Ethereum'un yakım mekanizmasıyla tezat oluşturuyor. Ethereum, EIP-1559 kapsamında işlem ücretlerini yakıyor, bu yüzden yakım oranı ağ etkinliğinin yüksek olmasına bağlı — ve <a href="/tr/blog/ethereum-supply-inflationary-ultrasound-money">net arz son 30 günde aslında 83.550 ETH arttı, yıllıklandırılmış %0,23'lük bir enflasyon oranı</a>, çünkü etkinlik L2'lere kayıyor. BNB'nin Otomatik Yakımı ise Vakfın formülüne göre her çeyrek mekanik olarak çalışıyor ve ağın etkinlik düzeyinden bağımsız olarak devam ediyor.</p>
 <p class="vi">Điều này trái ngược với cơ chế đốt của Ethereum. Ethereum đốt phí giao dịch theo EIP-1559, nên tốc độ đốt phụ thuộc vào hoạt động mạng phải cao — và <a href="/vi/blog/ethereum-supply-inflationary-ultrasound-money">nguồn cung ròng thực tế đã tăng 83.550 ETH trong 30 ngày qua, tương đương tỷ lệ lạm phát hàng năm 0,23%</a>, khi hoạt động dịch chuyển sang các lớp L2. Ngược lại, Auto-Burn của BNB được thực hiện một cách máy móc mỗi quý theo công thức của Quỹ, tiếp tục bất kể mức độ hoạt động của mạng.</p>
+<p class="id">Ini kontras dengan mekanisme pembakaran Ethereum. Ethereum membakar biaya transaksi berdasarkan EIP-1559, sehingga laju pembakarannya bergantung pada tingginya aktivitas jaringan — dan <a href="/id/blog/ethereum-supply-inflationary-ultrasound-money">pasokan bersih justru tumbuh 83.550 ETH selama 30 hari terakhir, setara tingkat inflasi tahunan 0,23%</a>, seiring aktivitas berpindah ke L2. Sebaliknya, Auto-Burn BNB dijalankan secara mekanis setiap kuartal sesuai rumus Yayasan, terus berlangsung terlepas dari tingkat aktivitas jaringan.</p>
+<p class="pl">To kontrastuje z mechanizmem spalania Ethereum. Ethereum spala opłaty transakcyjne zgodnie z EIP-1559, więc tempo spalania zależy od wysokiej aktywności sieci — a <a href="/pl/blog/ethereum-supply-inflationary-ultrasound-money">podaż netto w rzeczywistości wzrosła o 83 550 ETH w ciągu ostatnich 30 dni, co odpowiada rocznej stopie inflacji 0,23%</a>, w miarę jak aktywność przenosi się na L2. Auto-Burn BNB natomiast wykonywane jest mechanicznie co kwartał zgodnie z formułą Fundacji, kontynuując niezależnie od poziomu aktywności sieci.</p>
+<p class="it">Questo contrasta con il meccanismo di burn di Ethereum. Ethereum brucia le commissioni di transazione secondo l'EIP-1559, quindi il suo tasso di burn dipende da un'elevata attività di rete — e <a href="/it/blog/ethereum-supply-inflationary-ultrasound-money">l'offerta netta è in realtà cresciuta di 83.550 ETH negli ultimi 30 giorni, un tasso di inflazione annualizzato dello 0,23%</a>, man mano che l'attività migra verso le L2. L'Auto-Burn di BNB, al contrario, viene eseguito meccanicamente ogni trimestre secondo la formula della Fondazione, continuando indipendentemente dal livello di attività della rete.</p>
+<p class="ru">Это контрастирует с механизмом сжигания Ethereum. Ethereum сжигает комиссии за транзакции по EIP-1559, поэтому темп сжигания зависит от высокой активности сети — а <a href="/ru/blog/ethereum-supply-inflationary-ultrasound-money">чистое предложение фактически выросло на 83 550 ETH за последние 30 дней, что соответствует годовой инфляции в 0,23%</a>, по мере того как активность перемещается на L2. Auto-Burn BNB, напротив, выполняется механически каждый квартал согласно формуле Фонда, продолжаясь независимо от уровня активности сети.</p>
+<p class="zh">這與以太坊的銷毀機制形成對比。以太坊依據EIP-1559銷毀交易手續費,因此其銷毀速率取決於網路活動是否活躍——而<a href="/zh/blog/ethereum-supply-inflationary-ultrasound-money">過去30天淨供應量實際上增加了83,550枚ETH,相當於年化0.23%的通膨率</a>,原因是活動已轉移至Layer 2。相較之下,BNB的Auto-Burn則依基金會的公式每季機械式執行,無論網路活動水準如何都會持續進行。</p>
 
 <h2 class="ko">1억 개까지 남은 거리 — 소각의 종착점과 남는 의문</h2>
 <h2 class="en">The Remaining Distance to 100 Million — Where the Burn Ends, and What's Still Disputed</h2>
@@ -79,6 +114,11 @@
 <h2 class="pt">A distância restante até 100 milhões — onde a queima termina, e o que ainda é contestado</h2>
 <h2 class="tr">100 Milyona Kalan Mesafe — Yakımın Bittiği Yer ve Tartışmalı Kalan Nokta</h2>
 <h2 class="vi">Khoảng cách còn lại đến 100 triệu — nơi việc đốt kết thúc, và điều vẫn còn gây tranh cãi</h2>
+<h2 class="id">Sisa Jarak Menuju 100 Juta — Titik Akhir Pembakaran, dan Apa yang Masih Diperdebatkan</h2>
+<h2 class="pl">Pozostały dystans do 100 milionów — gdzie kończy się spalanie i co wciąż budzi spory</h2>
+<h2 class="it">La distanza rimanente verso i 100 milioni — dove finisce il burn, e cosa resta contestato</h2>
+<h2 class="ru">Оставшееся расстояние до 100 миллионов — где закончится сжигание и что остаётся спорным</h2>
+<h2 class="zh">距離1億枚目標的剩餘距離——銷毀的終點與仍存的爭議</h2>
 
 <p class="ko">BNB는 2017년 백서에서 총발행량 2억 개 중 절반인 1억 개를 소각하겠다고 못박았고, 그해 10월 첫 소각(98만6,000 BNB)을 시작으로 이번이 36번째다. 현재 공급량 1억3,316만개를 감안하면 목표까지 약 3,316만개가 남았고, 최근 분기당 평균 소각 속도(약 160만개)를 그대로 적용하면 앞으로 20여 분기, 즉 5년 안팎이 더 필요하다는 계산이 나온다.</p>
 <p class="en">BNB's 2017 whitepaper committed to burning half of its 200 million total supply — 100 million tokens — starting with its first burn that October (986,000 BNB); this is the 36th since. With supply now at 133.17 million, roughly 33.16 million tokens remain to the target. At the recent average pace of about 1.6 million per quarter, reaching 100 million would take roughly another 20 quarters — around five more years.</p>
@@ -89,6 +129,11 @@
 <p class="pt">O whitepaper da BNB de 2017 se comprometeu a queimar metade de sua oferta total de 200 milhões — 100 milhões de tokens —, começando com sua primeira queima em outubro daquele ano (986.000 BNB); esta é a 36ª desde então. Com a oferta agora em 133,17 milhões, restam cerca de 33,16 milhões de tokens até a meta. No ritmo médio recente de cerca de 1,6 milhão por trimestre, alcançar 100 milhões levaria mais cerca de 20 trimestres — em torno de mais cinco anos.</p>
 <p class="tr">BNB'nin 2017 beyaz kağıdı, toplam arzın 200 milyonunun yarısını — 100 milyon jetonu — yakmayı taahhüt etmişti; o yılın Ekim ayındaki ilk yakımla (986.000 BNB) başlamıştı ve bu o zamandan bu yana 36.'sı. Arz şu anda 133,17 milyonken, hedefe kadar yaklaşık 33,16 milyon jeton kalıyor. Son dönemin çeyreklik ortalama hızıyla (yaklaşık 1,6 milyon) 100 milyona ulaşmak yaklaşık 20 çeyrek daha, yani beş yıl kadar daha sürecek demek.</p>
 <p class="vi">Sách trắng năm 2017 của BNB cam kết đốt một nửa tổng nguồn cung 200 triệu — tức 100 triệu token — bắt đầu từ đợt đốt đầu tiên vào tháng 10 năm đó (986.000 BNB); đây là lần thứ 36 kể từ đó. Với nguồn cung hiện tại là 133,17 triệu, còn khoảng 33,16 triệu token nữa mới đạt mục tiêu. Với tốc độ trung bình gần đây khoảng 1,6 triệu mỗi quý, việc đạt 100 triệu sẽ cần thêm khoảng 20 quý nữa — tức khoảng năm năm nữa.</p>
+<p class="id">Whitepaper BNB tahun 2017 berkomitmen untuk membakar setengah dari total pasokan 200 juta — yaitu 100 juta token — dimulai dengan pembakaran pertamanya pada Oktober tahun itu (986.000 BNB); ini adalah pembakaran ke-36 sejak saat itu. Dengan pasokan saat ini di 133,17 juta, sekitar 33,16 juta token tersisa menuju target. Dengan laju rata-rata terkini sekitar 1,6 juta per kuartal, mencapai 100 juta akan membutuhkan sekitar 20 kuartal lagi — sekitar lima tahun lagi.</p>
+<p class="pl">Biały dokument BNB z 2017 roku zobowiązywał się do spalenia połowy z 200 milionów całkowitej podaży — 100 milionów tokenów — zaczynając od pierwszego spalenia w październiku tamtego roku (986 000 BNB); to 36. spalenie od tamtej pory. Przy obecnej podaży wynoszącej 133,17 miliona, do celu pozostaje około 33,16 miliona tokenów. Przy ostatnim średnim tempie około 1,6 miliona na kwartał, osiągnięcie 100 milionów zajęłoby jeszcze około 20 kwartałów — mniej więcej pięć kolejnych lat.</p>
+<p class="it">Il whitepaper di BNB del 2017 si impegnava a bruciare metà della sua offerta totale di 200 milioni — 100 milioni di token — a partire dal suo primo burn nell'ottobre di quell'anno (986.000 BNB); questo è il 36° da allora. Con l'offerta ora a 133,17 milioni, rimangono circa 33,16 milioni di token per raggiungere l'obiettivo. Al ritmo medio recente di circa 1,6 milioni per trimestre, raggiungere i 100 milioni richiederebbe circa altri 20 trimestri — circa altri cinque anni.</p>
+<p class="ru">Белая книга BNB 2017 года обязывала сжечь половину от общего предложения в 200 миллионов — 100 миллионов токенов, — начиная с первого сжигания в октябре того же года (986 000 BNB); это 36-е сжигание с тех пор. При текущем предложении в 133,17 миллиона до цели остаётся около 33,16 миллиона токенов. При недавнем среднем темпе около 1,6 миллиона за квартал достижение отметки в 100 миллионов займёт ещё около 20 кварталов — примерно ещё пять лет.</p>
+<p class="zh">BNB於2017年的白皮書承諾銷毀2億枚總供應量的一半——即1億枚代幣——始於當年10月的首次銷毀(98.6萬枚BNB);這是自那以來的第36次銷毀。以目前1.3317億枚的供應量計算,距離目標還剩約3,316萬枚。按近期每季約160萬枚的平均速度計算,達到1億枚目標大約還需20個季度——即約五年時間。</p>
 
 <p class="ko">다만 백서 원안은 "바이낸스 분기 이익의 20%로 BNB를 사들여 태운다"는 자사주 매입 소각 구조였던 반면, 지금의 오토번은 거래소 실적과 무관하게 블록 수·오라클 가격만으로 소각량이 정해진다. 일각에서는 이를 두고 소각 메커니즘이 애초의 "이익 공유형 바이백"에서 "가격 연동형 통화정책"에 가까운 것으로 성격이 옮겨갔다는 해석을 내놓는다. 반면 BNB체인 측은 두 공식 모두 궁극적으로 같은 목표(1억 개 도달)를 향한 수단일 뿐이라는 입장이어서, 이 성격 변화가 실질적으로 중요한지에 대해서는 시각이 갈린다.</p>
 <p class="en">Still, the original whitepaper described a buyback-and-burn funded by "20% of Binance's quarterly profits," while today's Auto-Burn sets its amount purely from block counts and oracle prices, independent of the exchange's actual earnings. Some read that shift as the mechanism moving from a profit-sharing buyback toward something closer to a price-linked monetary policy. BNB Chain, for its part, maintains both formulas are simply different means to the same end — reaching 100 million — leaving open whether that characterization shift actually matters in practice.</p>
@@ -99,6 +144,11 @@
 <p class="pt">Ainda assim, o whitepaper original descrevia uma recompra-e-queima financiada por "20% dos lucros trimestrais da Binance", enquanto a Auto-Queima atual define sua quantidade apenas a partir da contagem de blocos e dos preços do oráculo, independentemente dos ganhos reais da exchange. Alguns leem essa mudança como um deslocamento do mecanismo, de uma recompra baseada em lucros para algo mais próximo de uma política monetária atrelada ao preço. A BNB Chain, por sua vez, sustenta que ambas as fórmulas são apenas meios diferentes para o mesmo fim — chegar a 100 milhões —, deixando em aberto se essa mudança de caracterização realmente importa na prática.</p>
 <p class="tr">Yine de orijinal beyaz kağıt, "Binance'in çeyreklik kârının %20'siyle" finanse edilen bir geri alım-ve-yakım yapısı tanımlıyordu; bugünün Otomatik Yakımı ise miktarını yalnızca blok sayıları ve oracle fiyatlarından belirliyor, borsanın gerçek kazançlarından bağımsız olarak. Bazıları bunu, mekanizmanın kâr paylaşımlı bir geri alımdan fiyata bağlı bir para politikasına daha yakın bir şeye kaymasını olarak okuyor. BNB Chain ise her iki formülün de nihayetinde aynı hedefe — 100 milyona ulaşmaya — giden farklı araçlar olduğunu savunuyor ve bu nitelik değişiminin pratikte gerçekten önemli olup olmadığı sorusunu açık bırakıyor.</p>
 <p class="vi">Tuy nhiên, sách trắng ban đầu mô tả một cơ chế mua lại và đốt được tài trợ bằng "20% lợi nhuận hàng quý của Binance", trong khi Auto-Burn hiện tại xác định lượng đốt chỉ dựa trên số khối và giá oracle, không phụ thuộc vào lợi nhuận thực tế của sàn giao dịch. Một số người coi sự thay đổi này là việc cơ chế dịch chuyển từ một hình thức mua lại chia sẻ lợi nhuận sang thứ gì đó gần với chính sách tiền tệ gắn với giá hơn. Về phần mình, BNB Chain cho rằng cả hai công thức cuối cùng chỉ là những phương tiện khác nhau hướng tới cùng một mục tiêu — đạt 100 triệu — để ngỏ câu hỏi liệu sự thay đổi về bản chất này có thực sự quan trọng trong thực tế hay không.</p>
+<p class="id">Meski begitu, whitepaper aslinya menjelaskan skema pembelian kembali dan pembakaran yang didanai oleh "20% dari laba kuartalan Binance," sementara Auto-Burn saat ini menetapkan jumlahnya murni dari jumlah blok dan harga oracle, terlepas dari laba aktual bursa tersebut. Sebagian pihak membaca pergeseran ini sebagai perpindahan mekanisme dari pembelian kembali berbagi laba menuju sesuatu yang lebih mendekati kebijakan moneter yang terkait harga. BNB Chain sendiri berpendapat kedua rumus tersebut hanyalah cara berbeda menuju tujuan yang sama — mencapai 100 juta — sehingga tetap terbuka apakah pergeseran karakteristik ini benar-benar penting dalam praktiknya.</p>
+<p class="pl">Mimo to pierwotny biały dokument opisywał skup i spalanie finansowane z „20% kwartalnych zysków Binance", podczas gdy dzisiejszy Auto-Burn ustala swoją wielkość wyłącznie na podstawie liczby bloków i cen z oracle, niezależnie od rzeczywistych zysków giełdy. Niektórzy odczytują tę zmianę jako przesunięcie mechanizmu od skupu opartego na udziale w zyskach w stronę czegoś bliższego polityce pieniężnej powiązanej z ceną. BNB Chain ze swojej strony utrzymuje, że obie formuły są po prostu różnymi środkami do tego samego celu — osiągnięcia 100 milionów — pozostawiając otwartym pytanie, czy ta zmiana charakteru rzeczywiście ma znaczenie w praktyce.</p>
+<p class="it">Tuttavia, il whitepaper originale descriveva un buyback-and-burn finanziato dal "20% dei profitti trimestrali di Binance", mentre l'Auto-Burn odierno stabilisce il proprio importo esclusivamente in base al conteggio dei blocchi e ai prezzi dell'oracolo, indipendentemente dagli utili effettivi dell'exchange. Alcuni interpretano questo cambiamento come uno spostamento del meccanismo da un buyback basato sulla condivisione dei profitti verso qualcosa di più vicino a una politica monetaria legata al prezzo. BNB Chain, dal canto suo, sostiene che entrambe le formule siano semplicemente mezzi diversi per raggiungere lo stesso fine — arrivare a 100 milioni — lasciando aperta la questione se questo cambiamento di natura conti davvero nella pratica.</p>
+<p class="ru">Тем не менее, изначальная белая книга описывала выкуп с последующим сжиганием, финансируемый за счёт «20% квартальной прибыли Binance», тогда как сегодняшний Auto-Burn определяет свой объём исключительно на основе количества блоков и цен оракула, независимо от фактической прибыли биржи. Некоторые расценивают этот сдвиг как переход механизма от выкупа с распределением прибыли к чему-то более близкому к денежно-кредитной политике, привязанной к цене. Сама BNB Chain утверждает, что обе формулы — это просто разные средства для достижения одной цели — 100 миллионов, — оставляя открытым вопрос, действительно ли это изменение характера имеет значение на практике.</p>
+<p class="zh">不過,最初的白皮書描述的是以「幣安季度利潤的20%」資助的回購銷毀機制,而如今的Auto-Burn則純粹依區塊數量與預言機價格決定銷毀量,與交易所的實際獲利無關。部分人士將此變化解讀為該機制已從利潤分享型回購,轉向更接近價格連動型貨幣政策的模式。BNB Chain則堅持認為,兩種公式終究只是達成同一目標——1億枚——的不同手段,這種性質上的轉變在實務上是否真的重要,仍是懸而未決的問題。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -334,6 +384,136 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Auto-Burn BNB: Ke-35 vs Ke-36</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="320" height="120" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="76" fill="#a1a1aa" font-size="14" font-weight="700">Ke-35 (15 Apr)</text>
+    <text x="36" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1.569.307 BNB</text>
+    <text x="36" y="132" fill="#4ade80" font-size="16" font-weight="700">~US$1,02 Miliar</text>
+    <text x="36" y="156" fill="#a1a1aa" font-size="13">Pasokan setelah: 134,79 Juta</text>
+    <rect x="360" y="50" width="320" height="120" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="376" y="76" fill="#fbbf24" font-size="14" font-weight="700">Ke-36 (15 Jul)</text>
+    <text x="376" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1.615.827 BNB</text>
+    <text x="376" y="132" fill="#f87171" font-size="16" font-weight="700">~US$932 Juta</text>
+    <text x="376" y="156" fill="#a1a1aa" font-size="13">Pasokan setelah: 133,17 Juta</text>
+    <line x1="20" y1="190" x2="680" y2="190" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="216" fill="#e4e4e7" font-size="14" font-weight="700">Sisa jarak menuju target 100 Juta</text>
+    <rect x="20" y="230" width="660" height="28" rx="6" fill="#27272a"/>
+    <rect x="20" y="230" width="441" height="28" rx="6" fill="#4ade80"/>
+    <text x="26" y="249" fill="#0a0a0a" font-size="13" font-weight="700">Terbakar sejauh ini: ~66,83 Juta</text>
+    <text x="480" y="249" fill="#e4e4e7" font-size="13" font-weight="700">Sisa: ~33,17 Juta</text>
+    <text x="20" y="282" fill="#71717a" font-size="12">Mulai 200 Juta (2017) → Sekarang 133,17 Juta → Target 100 Juta</text>
+    <text x="20" y="304" fill="#71717a" font-size="12">Dengan laju kuartalan terkini, mencapai 100 Juta butuh ~20 kuartal lagi (~5 tahun)</text>
+    <text x="20" y="410" fill="#52525b" font-size="12">Sumber: CoinDesk, Benzinga, CryptoSlate, BNB Chain (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BNB Auto-Burn: 35. vs 36.</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="320" height="120" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="76" fill="#a1a1aa" font-size="14" font-weight="700">35. (15 kwi)</text>
+    <text x="36" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1 569 307 BNB</text>
+    <text x="36" y="132" fill="#4ade80" font-size="16" font-weight="700">~1,02 mld $</text>
+    <text x="36" y="156" fill="#a1a1aa" font-size="13">Podaż po: 134,79 mln</text>
+    <rect x="360" y="50" width="320" height="120" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="376" y="76" fill="#fbbf24" font-size="14" font-weight="700">36. (15 lip)</text>
+    <text x="376" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1 615 827 BNB</text>
+    <text x="376" y="132" fill="#f87171" font-size="16" font-weight="700">~932 mln $</text>
+    <text x="376" y="156" fill="#a1a1aa" font-size="13">Podaż po: 133,17 mln</text>
+    <line x1="20" y1="190" x2="680" y2="190" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="216" fill="#e4e4e7" font-size="14" font-weight="700">Dystans pozostały do celu 100 mln</text>
+    <rect x="20" y="230" width="660" height="28" rx="6" fill="#27272a"/>
+    <rect x="20" y="230" width="441" height="28" rx="6" fill="#4ade80"/>
+    <text x="26" y="249" fill="#0a0a0a" font-size="13" font-weight="700">Spalono dotychczas: ~66,83 mln</text>
+    <text x="480" y="249" fill="#e4e4e7" font-size="13" font-weight="700">Pozostało: ~33,17 mln</text>
+    <text x="20" y="282" fill="#71717a" font-size="12">Start 200 mln (2017) → Teraz 133,17 mln → Cel 100 mln</text>
+    <text x="20" y="304" fill="#71717a" font-size="12">Przy obecnym tempie kwartalnym osiągnięcie 100 mln zajmie jeszcze ~20 kwartałów (~5 lat)</text>
+    <text x="20" y="410" fill="#52525b" font-size="12">Źródło: CoinDesk, Benzinga, CryptoSlate, BNB Chain (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BNB Auto-Burn: 35° vs 36°</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="320" height="120" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="76" fill="#a1a1aa" font-size="14" font-weight="700">35° (15 apr)</text>
+    <text x="36" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1.569.307 BNB</text>
+    <text x="36" y="132" fill="#4ade80" font-size="16" font-weight="700">~1,02 Mld $</text>
+    <text x="36" y="156" fill="#a1a1aa" font-size="13">Offerta dopo: 134,79 mln</text>
+    <rect x="360" y="50" width="320" height="120" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="376" y="76" fill="#fbbf24" font-size="14" font-weight="700">36° (15 lug)</text>
+    <text x="376" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1.615.827 BNB</text>
+    <text x="376" y="132" fill="#f87171" font-size="16" font-weight="700">~932 mln $</text>
+    <text x="376" y="156" fill="#a1a1aa" font-size="13">Offerta dopo: 133,17 mln</text>
+    <line x1="20" y1="190" x2="680" y2="190" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="216" fill="#e4e4e7" font-size="14" font-weight="700">Distanza residua verso l'obiettivo di 100 mln</text>
+    <rect x="20" y="230" width="660" height="28" rx="6" fill="#27272a"/>
+    <rect x="20" y="230" width="441" height="28" rx="6" fill="#4ade80"/>
+    <text x="26" y="249" fill="#0a0a0a" font-size="13" font-weight="700">Bruciato finora: ~66,83 mln</text>
+    <text x="480" y="249" fill="#e4e4e7" font-size="13" font-weight="700">Rimanente: ~33,17 mln</text>
+    <text x="20" y="282" fill="#71717a" font-size="12">Inizio 200 mln (2017) → Ora 133,17 mln → Obiettivo 100 mln</text>
+    <text x="20" y="304" fill="#71717a" font-size="12">Al ritmo trimestrale recente, raggiungere 100 mln richiede ~20 trimestri in più (~5 anni)</text>
+    <text x="20" y="410" fill="#52525b" font-size="12">Fonte: CoinDesk, Benzinga, CryptoSlate, BNB Chain (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BNB Auto-Burn: 35-е vs 36-е</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="320" height="120" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="76" fill="#a1a1aa" font-size="14" font-weight="700">35-е (15 апр)</text>
+    <text x="36" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1 569 307 BNB</text>
+    <text x="36" y="132" fill="#4ade80" font-size="16" font-weight="700">~1,02 млрд $</text>
+    <text x="36" y="156" fill="#a1a1aa" font-size="13">Предложение после: 134,79 млн</text>
+    <rect x="360" y="50" width="320" height="120" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="376" y="76" fill="#fbbf24" font-size="14" font-weight="700">36-е (15 июл)</text>
+    <text x="376" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1 615 827 BNB</text>
+    <text x="376" y="132" fill="#f87171" font-size="16" font-weight="700">~932 млн $</text>
+    <text x="376" y="156" fill="#a1a1aa" font-size="13">Предложение после: 133,17 млн</text>
+    <line x1="20" y1="190" x2="680" y2="190" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="216" fill="#e4e4e7" font-size="14" font-weight="700">Оставшееся расстояние до цели 100 млн</text>
+    <rect x="20" y="230" width="660" height="28" rx="6" fill="#27272a"/>
+    <rect x="20" y="230" width="441" height="28" rx="6" fill="#4ade80"/>
+    <text x="26" y="249" fill="#0a0a0a" font-size="13" font-weight="700">Сожжено на сегодня: ~66,83 млн</text>
+    <text x="480" y="249" fill="#e4e4e7" font-size="13" font-weight="700">Осталось: ~33,17 млн</text>
+    <text x="20" y="282" fill="#71717a" font-size="12">Старт 200 млн (2017) → Сейчас 133,17 млн → Цель 100 млн</text>
+    <text x="20" y="304" fill="#71717a" font-size="12">При недавнем квартальном темпе достижение 100 млн займёт ещё ~20 кварталов (~5 лет)</text>
+    <text x="20" y="410" fill="#52525b" font-size="12">Источник: CoinDesk, Benzinga, CryptoSlate, BNB Chain (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BNB Auto-Burn:第35次 vs 第36次</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="320" height="120" rx="10" fill="#18181b" stroke="#3f3f46" stroke-width="1.3"/>
+    <text x="36" y="76" fill="#a1a1aa" font-size="14" font-weight="700">第35次(4/15)</text>
+    <text x="36" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1,569,307 BNB</text>
+    <text x="36" y="132" fill="#4ade80" font-size="16" font-weight="700">~10.2億美元</text>
+    <text x="36" y="156" fill="#a1a1aa" font-size="13">銷毀後供應量:1.3479億</text>
+    <rect x="360" y="50" width="320" height="120" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="376" y="76" fill="#fbbf24" font-size="14" font-weight="700">第36次(7/15)</text>
+    <text x="376" y="106" fill="#e4e4e7" font-size="20" font-weight="800">1,615,827 BNB</text>
+    <text x="376" y="132" fill="#f87171" font-size="16" font-weight="700">~9.32億美元</text>
+    <text x="376" y="156" fill="#a1a1aa" font-size="13">銷毀後供應量:1.3317億</text>
+    <line x1="20" y1="190" x2="680" y2="190" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="216" fill="#e4e4e7" font-size="14" font-weight="700">距離1億枚目標的剩餘距離</text>
+    <rect x="20" y="230" width="660" height="28" rx="6" fill="#27272a"/>
+    <rect x="20" y="230" width="441" height="28" rx="6" fill="#4ade80"/>
+    <text x="26" y="249" fill="#0a0a0a" font-size="13" font-weight="700">累計銷毀:約6,683萬</text>
+    <text x="480" y="249" fill="#e4e4e7" font-size="13" font-weight="700">剩餘:約3,317萬</text>
+    <text x="20" y="282" fill="#71717a" font-size="12">起點2億(2017)→現在1.3317億→目標1億</text>
+    <text x="20" y="304" fill="#71717a" font-size="12">按近期季度平均速度,達到1億枚目標約需再20個季度(約5年)</text>
+    <text x="20" y="410" fill="#52525b" font-size="12">資料來源:CoinDesk, Benzinga, CryptoSlate, BNB Chain(2026年7月)</text>
+  </g>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>관전 포인트:</strong> (1) BSC 블록 생성 속도가 앞으로 더 빨라질 경우 앵커 상수 K가 다시 조정되는지, (2) 다음 분기 BNB 가격이 반등하면 소각 달러가치도 함께 반등하는지, (3) 현재 페이스가 유지돼 실제로 약 5년 안에 1억 개 목표에 도달하는지.</div>
 <div class="box en">💡 <strong>Watch for:</strong> (1) whether the anchor constant K gets recalibrated again if BSC's block times keep falling; (2) whether the burn's dollar value bounces back if BNB's price rises next quarter; (3) whether the current pace holds and the 100 million target is actually reached in around five years.</div>
@@ -344,6 +524,11 @@
 <div class="box pt">💡 <strong>Fique de olho:</strong> (1) se a constante-âncora K será recalibrada novamente caso os tempos de bloco da BSC continuem caindo; (2) se o valor em dólares da queima se recupera caso o preço da BNB suba no próximo trimestre; (3) se o ritmo atual se mantém e a meta de 100 milhões é de fato alcançada em cerca de cinco anos.</div>
 <div class="box tr">💡 <strong>İzlenecekler:</strong> (1) BSC'nin blok süreleri düşmeye devam ederse çapa sabiti K'nın yeniden ayarlanıp ayarlanmayacağı; (2) gelecek çeyrekte BNB fiyatı yükselirse yakımın dolar değerinin de geri sıçrayıp sıçramayacağı; (3) mevcut hızın korunup korunmayacağı ve 100 milyon hedefine gerçekten yaklaşık beş yılda ulaşılıp ulaşılmayacağı.</div>
 <div class="box vi">💡 <strong>Cần theo dõi:</strong> (1) liệu hằng số neo K có được hiệu chỉnh lại nếu thời gian tạo khối của BSC tiếp tục giảm; (2) liệu giá trị đô la của đợt đốt có phục hồi nếu giá BNB tăng vào quý tới; (3) liệu tốc độ hiện tại có được duy trì để thực sự đạt mục tiêu 100 triệu trong khoảng năm năm.</div>
+<div class="box id">💡 <strong>Yang perlu dipantau:</strong> (1) apakah konstanta jangkar K akan dikalibrasi ulang jika waktu blok BSC terus menurun; (2) apakah nilai dolar dari pembakaran akan pulih jika harga BNB naik pada kuartal berikutnya; (3) apakah laju saat ini akan bertahan sehingga target 100 juta benar-benar tercapai dalam sekitar lima tahun.</div>
+<div class="box pl">💡 <strong>Na co zwrócić uwagę:</strong> (1) czy stała kotwicząca K zostanie ponownie skalibrowana, jeśli czasy bloków BSC będą nadal spadać; (2) czy wartość spalania w dolarach odbije się, jeśli cena BNB wzrośnie w przyszłym kwartale; (3) czy obecne tempo się utrzyma i cel 100 milionów zostanie faktycznie osiągnięty w ciągu około pięciu lat.</div>
+<div class="box it">💡 <strong>Da tenere d'occhio:</strong> (1) se la costante di ancoraggio K verrà nuovamente ricalibrata qualora i tempi di blocco di BSC continuino a scendere; (2) se il valore in dollari del burn tornerà a salire qualora il prezzo di BNB aumenti il prossimo trimestre; (3) se il ritmo attuale si manterrà e l'obiettivo di 100 milioni verrà effettivamente raggiunto in circa cinque anni.</div>
+<div class="box ru">💡 <strong>На что обратить внимание:</strong> (1) будет ли якорная константа K снова перекалиброваться, если время блока BSC продолжит снижаться; (2) восстановится ли долларовая стоимость сжигания, если цена BNB вырастет в следующем квартале; (3) сохранится ли текущий темп и будет ли цель в 100 миллионов действительно достигнута примерно через пять лет.</div>
+<div class="box zh">💡 <strong>觀察重點:</strong>(1)若BSC出塊時間持續縮短,錨定常數K是否會再次調整;(2)若BNB價格於下季反彈,銷毀的美元價值是否也會隨之回升;(3)目前的速度能否維持,讓1億枚目標實際在約五年內達成。</div>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <text x="60" y="330" fill="#f4f4f5" font-size="150" font-weight="bold">$932M</text>
@@ -362,5 +547,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CoinDesk, Benzinga, CryptoSlate, CryptoPotato, KuCoin, Coinpaper, TronWeekly, Crypto Briefing, Chainwire</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
