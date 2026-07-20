@@ -80,22 +80,20 @@
 <p class="tr">Bu araştırmanın sunduğu içgörü, "para mutluluk satın alamaz" gibi bayat bir ders değildir. Asıl mesele, insan duygusunun aşırı olaylardan sonra bile sonunda kişiye özgü bir referans noktasına — bir "set point"e — geri dönmesi ve o olayı yaşamadan önce bizim bu geri dönüşün gerçekleşeceğini hayal bile edemememizdir. Bu ilkeyi doğrudan Bitcoin'e uyguladığınızda, boğa piyasasının tam ortasında kurulan "bu kadar kazanç hayatımı tamamen değiştirir" tahmini ile ayı piyasasının tam ortasında kurulan "bu kadar zarar bir daha asla toparlanamayacağım anlamına gelir" tahmini, ikisi de aynı türden bir optik yanılsamadır. İnsanların gerçekte vardığı yer, hayal edilen o uç nokta değil, kendi orijinal referans noktalarına yakın bir yerdir.</p>
 <p class="vi">Điều mà nghiên cứu này mang lại không phải là bài học sáo rỗng rằng "tiền không mua được hạnh phúc". Điểm cốt lõi là cảm xúc con người cuối cùng sẽ quay trở về gần điểm chuẩn (set point) riêng của mỗi người, ngay cả sau những sự kiện cực đoan, và trước khi trải qua sự kiện đó, chúng ta hoàn toàn không thể hình dung được rằng sự trở về đó sẽ xảy ra. Áp dụng nguyên lý này thẳng vào Bitcoin, dự đoán được hình thành giữa lúc thị trường tăng giá — "khoản lãi thế này sẽ thay đổi hoàn toàn cuộc đời tôi" — và dự đoán được hình thành giữa lúc thị trường giảm giá — "khoản lỗ thế này nghĩa là tôi sẽ không bao giờ gượng dậy được" — cả hai đều là cùng một loại ảo giác quang học. Điều mà con người thực sự đạt tới không phải là điểm cực đoan trong tưởng tượng, mà là một nơi gần với điểm chuẩn ban đầu của họ.</p>
 
-<?php
-$svgForecast = function($title,$sub,$yLabel,$xLabel,$predictedLbl,$actualLbl,$baselineLbl,$gapLbl,$eventLbl) { return <<<SVG
-  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
+<div class="ko">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">예측된 고통 vs 실제로 겪는 고통</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">길버트·윌슨의 정서 예측 연구들이 공통적으로 보고하는 패턴을 도식화 — 실제 수치가 아닌 개념도</text>
 
     <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
     <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
-    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">$yLabel</text>
-    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">$xLabel</text>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">감정 강도</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">사건 발생 후 경과 주</text>
 
     <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
-    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">$baselineLbl</text>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">적응 후 기준선</text>
 
     <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
-    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">$eventLbl</text>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">사건 발생 시점</text>
 
     <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
     <circle cx="120" cy="112" r="5" fill="#f87171"/>
@@ -106,12 +104,12 @@ $svgForecast = function($title,$sub,$yLabel,$xLabel,$predictedLbl,$actualLbl,$ba
     <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
 
     <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
-    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">$gapLbl</text>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">예측-실제 격차 — 이 구간에서 패닉셀·몰빵이 일어난다</text>
 
     <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
-    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">$predictedLbl</text>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">예측된 고통(사건 전 상상)</text>
     <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
-    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">$actualLbl</text>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">실제로 겪은 고통(추적 조사)</text>
 
     <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
     <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
@@ -119,19 +117,311 @@ $svgForecast = function($title,$sub,$yLabel,$xLabel,$predictedLbl,$actualLbl,$ba
     <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
     <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
     <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgForecast('예측된 고통 vs 실제로 겪는 고통','길버트·윌슨의 정서 예측 연구들이 공통적으로 보고하는 패턴을 도식화 — 실제 수치가 아닌 개념도','감정 강도','사건 발생 후 경과 주','예측된 고통(사건 전 상상)','실제로 겪은 고통(추적 조사)','적응 후 기준선','예측-실제 격차 — 이 구간에서 패닉셀·몰빵이 일어난다','사건 발생 시점') ?></div>
-<div class="en"><?= $svgForecast('Predicted Pain vs. Actually Experienced Pain','A schematic of the pattern reported across Gilbert and Wilson\'s affective-forecasting studies — a concept diagram, not real data','Emotional Intensity','Weeks Since the Event','Predicted pain (imagined beforehand)','Actual pain (measured at follow-up)','Post-adaptation baseline','Forecast-reality gap — this is where panic-selling and all-in bets happen','Moment the event occurs') ?></div>
-<div class="ja"><?= $svgForecast('予測された苦痛 vs 実際に経験する苦痛','ギルバートとウィルソンの情動予測研究群が共通して報告するパターンを図式化――実数値ではなく概念図','感情の強さ','事件発生後の経過週数','予測された苦痛(事件前に想像したもの)','実際に経験した苦痛(追跡調査時)','適応後の基準線','予測と実際の格差――この区間でパニック売り・全張りが起きる','事件発生時点') ?></div>
-<div class="es"><?= $svgForecast('Dolor Predicho vs. Dolor Realmente Experimentado','Esquema del patrón reportado en los estudios de previsión afectiva de Gilbert y Wilson — un diagrama conceptual, no datos reales','Intensidad Emocional','Semanas Desde el Evento','Dolor predicho (imaginado de antemano)','Dolor real (medido en el seguimiento)','Punto de referencia tras la adaptación','Brecha predicción-realidad — aquí ocurren la venta de pánico y las apuestas totales','Momento en que ocurre el evento') ?></div>
-<div class="de"><?= $svgForecast('Vorhergesagter Schmerz vs. Tatsächlich Erlebter Schmerz','Ein Schema des Musters, das in Gilberts und Wilsons Affective-Forecasting-Studien durchgängig berichtet wird — ein Konzeptdiagramm, keine echten Daten','Emotionale Intensität','Wochen Seit dem Ereignis','Vorhergesagter Schmerz (im Voraus vorgestellt)','Tatsächlicher Schmerz (bei Nachuntersuchung gemessen)','Ausgangspunkt nach der Anpassung','Vorhersage-Realitäts-Lücke — hier passieren Panikverkäufe und All-in-Wetten','Zeitpunkt des Ereignisses') ?></div>
-<div class="fr"><?= $svgForecast('Douleur Prédite vs. Douleur Réellement Vécue','Schéma du motif rapporté dans les études de prévision affective de Gilbert et Wilson — un diagramme conceptuel, pas des données réelles','Intensité Émotionnelle','Semaines Depuis l\'Événement','Douleur prédite (imaginée à l\'avance)','Douleur réelle (mesurée lors du suivi)','Référence après adaptation','Écart prédiction-réalité — c\'est là que surviennent ventes paniques et paris tout-ou-rien','Moment où l\'événement survient') ?></div>
-<div class="pt"><?= $svgForecast('Dor Prevista vs. Dor Realmente Vivida','Esquema do padrão relatado nos estudos de previsão afetiva de Gilbert e Wilson — um diagrama conceitual, não dados reais','Intensidade Emocional','Semanas Desde o Evento','Dor prevista (imaginada antecipadamente)','Dor real (medida no acompanhamento)','Referência pós-adaptação','Lacuna previsão-realidade — é aqui que acontecem vendas de pânico e apostas totais','Momento em que o evento ocorre') ?></div>
-<div class="tr"><?= $svgForecast('Tahmin Edilen Acı ile Gerçekte Yaşanan Acı','Gilbert ve Wilson\'ın duygusal öngörü çalışmalarında ortak olarak bildirilen örüntünün şeması — gerçek veri değil, kavramsal bir diyagram','Duygusal Yoğunluk','Olaydan Bu Yana Geçen Hafta','Tahmin edilen acı (olaydan önce hayal edilen)','Gerçek acı (takipte ölçülen)','Uyum sonrası referans noktası','Tahmin-gerçeklik farkı — panik satışları ve her şeyi tek pozisyona yatırma burada olur','Olayın gerçekleştiği an') ?></div>
-<div class="vi"><?= $svgForecast('Nỗi Đau Được Dự Đoán so với Nỗi Đau Thực Sự Trải Qua','Sơ đồ hóa mẫu hình được ghi nhận xuyên suốt các nghiên cứu dự báo cảm xúc của Gilbert và Wilson — một sơ đồ khái niệm, không phải số liệu thực tế','Cường Độ Cảm Xúc','Số Tuần Kể Từ Sự Kiện','Nỗi đau được dự đoán (tưởng tượng trước)','Nỗi đau thực tế (đo tại thời điểm theo dõi)','Điểm chuẩn sau thích nghi','Khoảng cách dự đoán-thực tế — đây là nơi xảy ra bán tháo hoảng loạn và đặt cược tất tay','Thời điểm sự kiện xảy ra') ?></div>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Predicted Pain vs. Actually Experienced Pain</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">A schematic of the pattern reported across Gilbert and Wilson's affective-forecasting studies — a concept diagram, not real data</text>
 
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Emotional Intensity</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Weeks Since the Event</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Post-adaptation baseline</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Moment the event occurs</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Forecast-reality gap — this is where panic-selling and all-in bets happen</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Predicted pain (imagined beforehand)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Actual pain (measured at follow-up)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">予測された苦痛 vs 実際に経験する苦痛</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">ギルバートとウィルソンの情動予測研究群が共通して報告するパターンを図式化――実数値ではなく概念図</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">感情の強さ</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">事件発生後の経過週数</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">適応後の基準線</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">事件発生時点</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">予測と実際の格差――この区間でパニック売り・全張りが起きる</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">予測された苦痛(事件前に想像したもの)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">実際に経験した苦痛(追跡調査時)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Dolor Predicho vs. Dolor Realmente Experimentado</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Esquema del patrón reportado en los estudios de previsión afectiva de Gilbert y Wilson — un diagrama conceptual, no datos reales</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Intensidad Emocional</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Semanas Desde el Evento</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Punto de referencia tras la adaptación</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Momento en que ocurre el evento</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Brecha predicción-realidad — aquí ocurren la venta de pánico y las apuestas totales</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Dolor predicho (imaginado de antemano)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Dolor real (medido en el seguimiento)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Vorhergesagter Schmerz vs. Tatsächlich Erlebter Schmerz</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Ein Schema des Musters, das in Gilberts und Wilsons Affective-Forecasting-Studien durchgängig berichtet wird — ein Konzeptdiagramm, keine echten Daten</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Emotionale Intensität</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Wochen Seit dem Ereignis</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Ausgangspunkt nach der Anpassung</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Zeitpunkt des Ereignisses</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Vorhersage-Realitäts-Lücke — hier passieren Panikverkäufe und All-in-Wetten</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Vorhergesagter Schmerz (im Voraus vorgestellt)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Tatsächlicher Schmerz (bei Nachuntersuchung gemessen)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Douleur Prédite vs. Douleur Réellement Vécue</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Schéma du motif rapporté dans les études de prévision affective de Gilbert et Wilson — un diagramme conceptuel, pas des données réelles</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Intensité Émotionnelle</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Semaines Depuis l'Événement</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Référence après adaptation</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Moment où l'événement survient</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Écart prédiction-réalité — c'est là que surviennent ventes paniques et paris tout-ou-rien</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Douleur prédite (imaginée à l'avance)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Douleur réelle (mesurée lors du suivi)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Dor Prevista vs. Dor Realmente Vivida</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Esquema do padrão relatado nos estudos de previsão afetiva de Gilbert e Wilson — um diagrama conceitual, não dados reais</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Intensidade Emocional</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Semanas Desde o Evento</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Referência pós-adaptação</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Momento em que o evento ocorre</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Lacuna previsão-realidade — é aqui que acontecem vendas de pânico e apostas totais</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Dor prevista (imaginada antecipadamente)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Dor real (medida no acompanhamento)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Tahmin Edilen Acı ile Gerçekte Yaşanan Acı</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Gilbert ve Wilson'ın duygusal öngörü çalışmalarında ortak olarak bildirilen örüntünün şeması — gerçek veri değil, kavramsal bir diyagram</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Duygusal Yoğunluk</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Olaydan Bu Yana Geçen Hafta</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Uyum sonrası referans noktası</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Olayın gerçekleştiği an</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Tahmin-gerçeklik farkı — panik satışları ve her şeyi tek pozisyona yatırma burada olur</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Tahmin edilen acı (olaydan önce hayal edilen)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Gerçek acı (takipte ölçülen)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Nỗi Đau Được Dự Đoán so với Nỗi Đau Thực Sự Trải Qua</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Sơ đồ hóa mẫu hình được ghi nhận xuyên suốt các nghiên cứu dự báo cảm xúc của Gilbert và Wilson — một sơ đồ khái niệm, không phải số liệu thực tế</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Cường Độ Cảm Xúc</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Số Tuần Kể Từ Sự Kiện</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Điểm chuẩn sau thích nghi</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Thời điểm sự kiện xảy ra</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Khoảng cách dự đoán-thực tế — đây là nơi xảy ra bán tháo hoảng loạn và đặt cược tất tay</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Nỗi đau được dự đoán (tưởng tượng trước)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Nỗi đau thực tế (đo tại thời điểm theo dõi)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
 <h2 class="ko">손실회피 자체가 정서 예측의 오류일 수 있다</h2>
 <h2 class="en">Loss Aversion Itself May Be an Affective Forecasting Error</h2>
 <h2 class="ja">損失回避そのものが情動予測の誤りかもしれない</h2>

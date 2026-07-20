@@ -110,53 +110,303 @@
 <p class="tr">Bu karşıtlık önemlidir çünkü kıtlık yanlılığının tam olarak nerede işlediğini gösterir. Yanlılık, varlığın gerçek arzına değil, o varlığa erişimin ne kadar zor hissettirdiğine tepki verir. Aşağıdaki diyagram, gerçek 21 milyonluk arz çizgisini (düz, hareketsiz bir çizgi) GBTC'nin prim ve iskontosunun gerçekte çizdiği seyrin (oynak, dalgalanan bir çizgi) yanına yerleştiriyor — iki çizgi arasındaki boşluğun kendisi, yanlılığın yarattığı fiyattır.</p>
 <p class="vi">Sự tương phản này quan trọng vì nó chỉ ra chính xác nơi thiên kiến khan hiếm hoạt động. Thiên kiến không phản ứng với nguồn cung thực tế của tài sản — nó phản ứng với mức độ khó khăn cảm nhận được khi tiếp cận tài sản đó. Sơ đồ dưới đây đặt đường cung thực tế 21 triệu (một đường thẳng, không đổi) cạnh quỹ đạo mà mức phụ trội và chiết khấu của GBTC thực sự vẽ ra (một đường biến động, dao động) — khoảng cách giữa hai đường chính là mức giá mà thiên kiến khan hiếm đã tạo ra.</p>
 
-<?php
-$svgScarcity = function($title,$sub,$yTop,$yMid,$yBot,$p1,$p2,$p3,$p4,$baseLbl,$leg1,$leg2,$note) { return <<<SVG
-  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
+<div class="ko">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">GBTC 프리미엄·디스카운트 대 실제 비트코인 공급</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">같은 비트코인, 같은 2,100만 개 상한 — 그런데 가격 괴리는 96%포인트를 오갔다</text>
 
     <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
-    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">$yTop</text>
-    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">$yMid</text>
-    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">$yBot</text>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46%</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50%</text>
 
     <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
-    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">$baseLbl</text>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">실제 공급: 2,100만 개 상한, 변화 없음</text>
 
     <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
 
     <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
-    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">$p1</text>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">2020년 12월 · 0%대</text>
 
     <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
-    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">$p2</text>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">2021년 2월 · +46% 프리미엄</text>
 
     <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
-    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">$p3</text>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">2022년 12월 · -50% 할인</text>
 
     <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
-    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">$p4</text>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">2024년 1월 · 0%로 수렴 (ETF 전환)</text>
 
     <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
-    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">$leg1</text>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">GBTC 프리미엄/디스카운트(%)</text>
     <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
-    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">$leg2</text>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">실제 비트코인 공급 곡선</text>
 
-    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">$note</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgScarcity('GBTC 프리미엄·디스카운트 대 실제 비트코인 공급','같은 비트코인, 같은 2,100만 개 상한 — 그런데 가격 괴리는 96%포인트를 오갔다','+46%','0%','-50%','2020년 12월 · 0%대','2021년 2월 · +46% 프리미엄','2022년 12월 · -50% 할인','2024년 1월 · 0%로 수렴 (ETF 전환)','실제 공급: 2,100만 개 상한, 변화 없음','GBTC 프리미엄/디스카운트(%)','실제 비트코인 공급 곡선','출처: The Block·CoinDesk·YCharts GBTC 데이터. 도식은 대표 시점을 단순화한 것으로 실제 일별 그래프가 아님') ?></div>
-<div class="en"><?= $svgScarcity('GBTC Premium/Discount vs. Actual Bitcoin Supply','Same Bitcoin, same 21-million cap — yet the price gap swung across 96 percentage points','+46%','0%','-50%','Dec 2020 &#183; near 0%','Feb 2021 &#183; +46% premium','Dec 2022 &#183; -50% discount','Jan 2024 &#183; converges to 0% (ETF conversion)','Actual supply: 21M cap, unchanged','GBTC premium/discount (%)','Actual Bitcoin supply line','Source: The Block, CoinDesk, YCharts GBTC data. Diagram simplifies representative points; not an actual daily chart') ?></div>
-<div class="ja"><?= $svgScarcity('GBTCプレミアム・ディスカウント対実際のビットコイン供給','同じビットコイン、同じ2,100万枚の上限――それでも価格の乖離は96ポイントも揺れ動いた','+46%','0%','-50%','2020年12月・0%台','2021年2月・+46%プレミアム','2022年12月・-50%ディスカウント','2024年1月・0%へ収束(ETF転換)','実際の供給:2,100万枚上限、変化なし','GBTCプレミアム/ディスカウント(%)','実際のビットコイン供給線','出典:The Block・CoinDesk・YChartsのGBTCデータ。図は代表的な時点を単純化したもので、実際の日次グラフではない') ?></div>
-<div class="es"><?= $svgScarcity('Prima/Descuento de GBTC frente a la Oferta Real de Bitcoin','El mismo Bitcoin, el mismo límite de 21 millones — y aun así, la brecha de precio osciló casi 96 puntos porcentuales','+46%','0%','-50%','Dic. 2020 &#183; en torno al 0%','Feb. 2021 &#183; +46% de prima','Dic. 2022 &#183; -50% de descuento','Ene. 2024 &#183; converge al 0% (conversión a ETF)','Oferta real: límite de 21 M, sin cambios','Prima/descuento de GBTC (%)','Línea de oferta real de Bitcoin','Fuente: datos de GBTC de The Block, CoinDesk, YCharts. El diagrama simplifica puntos representativos; no es un gráfico diario real') ?></div>
-<div class="de"><?= $svgScarcity('GBTC-Aufschlag/-Abschlag vs. Tatsächliches Bitcoin-Angebot','Derselbe Bitcoin, dieselbe 21-Millionen-Obergrenze — und doch schwankte die Preislücke um 96 Prozentpunkte','+46 %','0 %','-50 %','Dez. 2020 &#183; nahe 0 %','Feb. 2021 &#183; +46 % Aufschlag','Dez. 2022 &#183; -50 % Abschlag','Jan. 2024 &#183; konvergiert bei 0 % (ETF-Umwandlung)','Tatsächliches Angebot: 21-Mio.-Obergrenze, unverändert','GBTC-Aufschlag/-Abschlag (%)','Tatsächliche Bitcoin-Angebotslinie','Quelle: GBTC-Daten von The Block, CoinDesk, YCharts. Das Diagramm vereinfacht repräsentative Zeitpunkte; kein tatsächliches Tagesdiagramm') ?></div>
-<div class="fr"><?= $svgScarcity('Prime/Décote du GBTC vs Offre Réelle de Bitcoin','Le même Bitcoin, le même plafond de 21 millions — pourtant l\'écart de prix a oscillé sur 96 points de pourcentage','+46 %','0 %','-50 %','Déc. 2020 &#183; proche de 0 %','Fév. 2021 &#183; +46 % de prime','Déc. 2022 &#183; -50 % de décote','Janv. 2024 &#183; converge vers 0 % (conversion en ETF)','Offre réelle : plafond de 21 M, inchangé','Prime/décote du GBTC (%)','Ligne d\'offre réelle de Bitcoin','Source : données GBTC de The Block, CoinDesk, YCharts. Le diagramme simplifie des points représentatifs ; pas un graphique quotidien réel') ?></div>
-<div class="pt"><?= $svgScarcity('Ágio/Deságio do GBTC vs. Oferta Real de Bitcoin','O mesmo Bitcoin, o mesmo limite de 21 milhões — e ainda assim a diferença de preço oscilou 96 pontos percentuais','+46%','0%','-50%','Dez. 2020 &#183; perto de 0%','Fev. 2021 &#183; +46% de ágio','Dez. 2022 &#183; -50% de deságio','Jan. 2024 &#183; converge para 0% (conversão em ETF)','Oferta real: limite de 21 M, inalterado','Ágio/deságio do GBTC (%)','Linha de oferta real de Bitcoin','Fonte: dados do GBTC de The Block, CoinDesk, YCharts. O diagrama simplifica pontos representativos; não é um gráfico diário real') ?></div>
-<div class="tr"><?= $svgScarcity('GBTC Prim/İskontosu ile Gerçek Bitcoin Arzının Karşılaştırması','Aynı Bitcoin, aynı 21 milyonluk sınır — yine de fiyat farkı 96 puanlık bir aralıkta salındı','%46','%0','%-50','Ara. 2020 &#183; %0 civarı','Şub. 2021 &#183; %46 prim','Ara. 2022 &#183; %50 iskonto','Oca. 2024 &#183; %0\'a yakınsıyor (ETF dönüşümü)','Gerçek arz: 21 milyon sınırı, değişmedi','GBTC prim/iskontosu (%)','Gerçek Bitcoin arz çizgisi','Kaynak: The Block, CoinDesk, YCharts GBTC verileri. Diyagram temsili noktaları basitleştirir; gerçek bir günlük grafik değildir') ?></div>
-<div class="vi"><?= $svgScarcity('Phụ Trội/Chiết Khấu Của GBTC So Với Nguồn Cung Bitcoin Thực Tế','Cùng một Bitcoin, cùng giới hạn 21 triệu — vậy mà khoảng cách giá đã dao động tới 96 điểm phần trăm','+46%','0%','-50%','Th12/2020 &#183; gần 0%','Th2/2021 &#183; Phụ trội +46%','Th12/2022 &#183; Chiết khấu -50%','Th1/2024 &#183; Hội tụ về 0% (chuyển đổi ETF)','Nguồn cung thực tế: giới hạn 21 triệu, không đổi','Phụ trội/chiết khấu GBTC (%)','Đường cung Bitcoin thực tế','Nguồn: dữ liệu GBTC từ The Block, CoinDesk, YCharts. Sơ đồ đơn giản hóa các thời điểm tiêu biểu; không phải biểu đồ hàng ngày thực tế') ?></div>
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">출처: The Block·CoinDesk·YCharts GBTC 데이터. 도식은 대표 시점을 단순화한 것으로 실제 일별 그래프가 아님</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">GBTC Premium/Discount vs. Actual Bitcoin Supply</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Same Bitcoin, same 21-million cap — yet the price gap swung across 96 percentage points</text>
 
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46%</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50%</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Actual supply: 21M cap, unchanged</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Dec 2020 &#183; near 0%</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Feb 2021 &#183; +46% premium</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Dec 2022 &#183; -50% discount</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Jan 2024 &#183; converges to 0% (ETF conversion)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">GBTC premium/discount (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Actual Bitcoin supply line</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Source: The Block, CoinDesk, YCharts GBTC data. Diagram simplifies representative points; not an actual daily chart</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">GBTCプレミアム・ディスカウント対実際のビットコイン供給</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">同じビットコイン、同じ2,100万枚の上限――それでも価格の乖離は96ポイントも揺れ動いた</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46%</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50%</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">実際の供給:2,100万枚上限、変化なし</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">2020年12月・0%台</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">2021年2月・+46%プレミアム</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">2022年12月・-50%ディスカウント</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">2024年1月・0%へ収束(ETF転換)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">GBTCプレミアム/ディスカウント(%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">実際のビットコイン供給線</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">出典:The Block・CoinDesk・YChartsのGBTCデータ。図は代表的な時点を単純化したもので、実際の日次グラフではない</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Prima/Descuento de GBTC frente a la Oferta Real de Bitcoin</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">El mismo Bitcoin, el mismo límite de 21 millones — y aun así, la brecha de precio osciló casi 96 puntos porcentuales</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46%</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50%</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Oferta real: límite de 21 M, sin cambios</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Dic. 2020 &#183; en torno al 0%</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Feb. 2021 &#183; +46% de prima</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Dic. 2022 &#183; -50% de descuento</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Ene. 2024 &#183; converge al 0% (conversión a ETF)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Prima/descuento de GBTC (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Línea de oferta real de Bitcoin</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Fuente: datos de GBTC de The Block, CoinDesk, YCharts. El diagrama simplifica puntos representativos; no es un gráfico diario real</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">GBTC-Aufschlag/-Abschlag vs. Tatsächliches Bitcoin-Angebot</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Derselbe Bitcoin, dieselbe 21-Millionen-Obergrenze — und doch schwankte die Preislücke um 96 Prozentpunkte</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46 %</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0 %</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50 %</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Tatsächliches Angebot: 21-Mio.-Obergrenze, unverändert</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Dez. 2020 &#183; nahe 0 %</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Feb. 2021 &#183; +46 % Aufschlag</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Dez. 2022 &#183; -50 % Abschlag</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Jan. 2024 &#183; konvergiert bei 0 % (ETF-Umwandlung)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">GBTC-Aufschlag/-Abschlag (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Tatsächliche Bitcoin-Angebotslinie</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Quelle: GBTC-Daten von The Block, CoinDesk, YCharts. Das Diagramm vereinfacht repräsentative Zeitpunkte; kein tatsächliches Tagesdiagramm</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Prime/Décote du GBTC vs Offre Réelle de Bitcoin</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Le même Bitcoin, le même plafond de 21 millions — pourtant l'écart de prix a oscillé sur 96 points de pourcentage</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46 %</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0 %</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50 %</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Offre réelle : plafond de 21 M, inchangé</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Déc. 2020 &#183; proche de 0 %</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Fév. 2021 &#183; +46 % de prime</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Déc. 2022 &#183; -50 % de décote</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Janv. 2024 &#183; converge vers 0 % (conversion en ETF)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Prime/décote du GBTC (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Ligne d'offre réelle de Bitcoin</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Source : données GBTC de The Block, CoinDesk, YCharts. Le diagramme simplifie des points représentatifs ; pas un graphique quotidien réel</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Ágio/Deságio do GBTC vs. Oferta Real de Bitcoin</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">O mesmo Bitcoin, o mesmo limite de 21 milhões — e ainda assim a diferença de preço oscilou 96 pontos percentuais</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46%</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50%</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Oferta real: limite de 21 M, inalterado</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Dez. 2020 &#183; perto de 0%</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Fev. 2021 &#183; +46% de ágio</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Dez. 2022 &#183; -50% de deságio</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Jan. 2024 &#183; converge para 0% (conversão em ETF)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Ágio/deságio do GBTC (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Linha de oferta real de Bitcoin</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Fonte: dados do GBTC de The Block, CoinDesk, YCharts. O diagrama simplifica pontos representativos; não é um gráfico diário real</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">GBTC Prim/İskontosu ile Gerçek Bitcoin Arzının Karşılaştırması</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Aynı Bitcoin, aynı 21 milyonluk sınır — yine de fiyat farkı 96 puanlık bir aralıkta salındı</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">%46</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">%0</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">%-50</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Gerçek arz: 21 milyon sınırı, değişmedi</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Ara. 2020 &#183; %0 civarı</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Şub. 2021 &#183; %46 prim</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Ara. 2022 &#183; %50 iskonto</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Oca. 2024 &#183; %0'a yakınsıyor (ETF dönüşümü)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">GBTC prim/iskontosu (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Gerçek Bitcoin arz çizgisi</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Kaynak: The Block, CoinDesk, YCharts GBTC verileri. Diyagram temsili noktaları basitleştirir; gerçek bir günlük grafik değildir</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Phụ Trội/Chiết Khấu Của GBTC So Với Nguồn Cung Bitcoin Thực Tế</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Cùng một Bitcoin, cùng giới hạn 21 triệu — vậy mà khoảng cách giá đã dao động tới 96 điểm phần trăm</text>
+
+    <line x1="60" y1="80" x2="60" y2="380" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="45" y="157" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">+46%</text>
+    <text x="45" y="254" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0%</text>
+    <text x="45" y="359" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">-50%</text>
+
+    <line x1="60" y1="250" x2="650" y2="250" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="655" y="245" fill="#71717a" font-size="12.5" text-anchor="start" font-family="sans-serif">Nguồn cung thực tế: giới hạn 21 triệu, không đổi</text>
+
+    <polyline points="90,248 210,153 460,355 610,250" fill="none" stroke="#fbbf24" stroke-width="3.5"/>
+
+    <circle cx="90" cy="248" r="6" fill="#fbbf24"/>
+    <text x="90" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Th12/2020 &#183; gần 0%</text>
+
+    <circle cx="210" cy="153" r="6" fill="#fbbf24"/>
+    <text x="210" y="130" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Th2/2021 &#183; Phụ trội +46%</text>
+
+    <circle cx="460" cy="355" r="6" fill="#fbbf24"/>
+    <text x="460" y="382" fill="#fbbf24" font-size="13.5" font-weight="700" text-anchor="middle" font-family="sans-serif">Th12/2022 &#183; Chiết khấu -50%</text>
+
+    <circle cx="610" cy="250" r="6" fill="#fbbf24"/>
+    <text x="610" y="228" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">Th1/2024 &#183; Hội tụ về 0% (chuyển đổi ETF)</text>
+
+    <rect x="60" y="405" width="16" height="4" fill="#fbbf24"/>
+    <text x="82" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Phụ trội/chiết khấu GBTC (%)</text>
+    <line x1="330" y1="407" x2="346" y2="407" stroke="#71717a" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="352" y="412" fill="#e4e4e7" font-size="13" text-anchor="start" font-family="sans-serif">Đường cung Bitcoin thực tế</text>
+
+    <text x="350" y="442" fill="#52525b" font-size="12" text-anchor="middle" font-family="sans-serif">Nguồn: dữ liệu GBTC từ The Block, CoinDesk, YCharts. Sơ đồ đơn giản hóa các thời điểm tiêu biểu; không phải biểu đồ hàng ngày thực tế</text>
+  </svg></div>
 <h2 class="ko">편향인 걸 알아도 안 속을 수는 없다 — 그래서 필요한 건 구조적 방어</h2>
 <h2 class="en">Knowing It's a Bias Doesn't Make You Immune — What You Need Instead Is Structural Defense</h2>
 <h2 class="ja">バイアスだと知っていても騙されないわけではない ― だから必要なのは構造的防御だ</h2>

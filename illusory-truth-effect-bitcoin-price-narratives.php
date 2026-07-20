@@ -40,12 +40,10 @@
 <p class="tr">Bu etki ilk kez resmi olarak Lynn Hasher, David Goldstein ve Thomas Toppino tarafından 1977'de Journal of Verbal Learning and Verbal Behavior'da yayımlanan bir deneyle gösterildi. Araştırmacılar katılımcılara makul görünen 60 ifade sundu — bazıları doğru, bazıları yanlıştı — iki hafta arayla üç oturuma yayılmış şekilde, bazı ifadeler her oturumda tekrarlanırken bazıları yeni ortaya çıkıyordu. Sonuç açıktı: tekrarlanan ifadeler oturumlar ilerledikçe giderek artan oranlarda "doğru" olarak değerlendirildi, bu da ifadelerin gerçekten doğru ya da yanlış olmasından tamamen bağımsızdı. Makalenin kendi başlığı mekanizmayı tam olarak adlandırıyor — "sıklık ve referanssal geçerliliğin bahşedilmesi". Tekrarın kendisi kanıtın yerine geçen bir ikame olarak işlev görüyor.</p>
 <p class="vi">Hiệu ứng này lần đầu tiên được chứng minh chính thức bởi Lynn Hasher, David Goldstein và Thomas Toppino trong một thí nghiệm năm 1977 đăng trên Journal of Verbal Learning and Verbal Behavior. Các nhà nghiên cứu đưa cho người tham gia 60 phát biểu nghe có vẻ hợp lý — một số đúng, một số sai — trải qua ba phiên cách nhau hai tuần, với một số phát biểu được lặp lại mỗi phiên và một số khác xuất hiện mới. Kết quả rất rõ ràng: những phát biểu được lặp lại được đánh giá là "đúng" với tỷ lệ tăng dần đều qua các phiên, hoàn toàn không liên quan đến việc chúng có thực sự đúng hay sai. Chính tiêu đề bài báo đã nêu chính xác cơ chế này — "tần suất và việc trao quyền hợp lệ tham chiếu" (frequency and the conference of referential validity). Bản thân sự lặp lại hoạt động như một thứ thay thế cho bằng chứng.</p>
 
-<?php
-$svgTruth = function($title,$sub,$yLabel,$legRepeated,$legNew,$s1,$s2,$s3,$note) { return <<<SVG
-  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
-    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">$yLabel</text>
+<div class="ko">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">반복 노출에 따른 체감 진실도 변화</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">하셔·골드스타인·토피노(1977)가 관찰한 패턴 · 2주 간격 3회 세션 · 개념도</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">평균 "사실" 평가 비율 →</text>
 
     <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
     <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
@@ -62,29 +60,265 @@ $svgTruth = function($title,$sub,$yLabel,$legRepeated,$legNew,$s1,$s2,$s3,$note)
     <circle cx="360" cy="150" r="6" fill="#fb923c"/>
     <circle cx="650" cy="102" r="6" fill="#fb923c"/>
 
-    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">$s1</text>
-    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">$s2</text>
-    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">$s3</text>
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">세션 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">세션 2 (2주 후)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">세션 3 (4주 후)</text>
 
     <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
-    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">$legRepeated</text>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">반복 노출된 진술</text>
     <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
-    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">$legNew</text>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">새로 등장한 진술 (대조군)</text>
 
-    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">$note</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgTruth('반복 노출에 따른 체감 진실도 변화','하셔·골드스타인·토피노(1977)가 관찰한 패턴 · 2주 간격 3회 세션 · 개념도','평균 "사실" 평가 비율 →','반복 노출된 진술','새로 등장한 진술 (대조군)','세션 1','세션 2 (2주 후)','세션 3 (4주 후)','근거는 그대로인데 체감만 상승') ?></div>
-<div class="en"><?= $svgTruth('Perceived Truth Rating vs. Repeated Exposure','The pattern observed by Hasher, Goldstein & Toppino (1977) · 3 sessions, 2 weeks apart · conceptual illustration','Average "true" rating →','Repeated statement','New statement (control)','Session 1','Session 2 (2 wks later)','Session 3 (4 wks later)','Evidence unchanged — only the feeling rises') ?></div>
-<div class="ja"><?= $svgTruth('反復曝露による体感真実度の変化','ハッシャー・ゴールドスタイン・トピノ(1977)が観察したパターン・2週間隔3回セッション・概念図','平均「真実」評価率 →','反復曝露された文章','新規に登場した文章(対照群)','セッション1','セッション2(2週間後)','セッション3(4週間後)','根拠は同じなのに体感だけが上昇') ?></div>
-<div class="es"><?= $svgTruth('Percepción de Verdad vs. Exposición Repetida','El patrón observado por Hasher, Goldstein y Toppino (1977) · 3 sesiones, separadas 2 semanas · ilustración conceptual','Calificación media de "verdadero" →','Afirmación repetida','Afirmación nueva (control)','Sesión 1','Sesión 2 (2 sem. después)','Sesión 3 (4 sem. después)','La evidencia no cambia — solo sube la sensación') ?></div>
-<div class="de"><?= $svgTruth('Wahrgenommene Wahrheit vs. Wiederholte Exposition','Das von Hasher, Goldstein & Toppino (1977) beobachtete Muster · 3 Sitzungen im Abstand von 2 Wochen · schematische Darstellung','Durchschnittliche "wahr"-Bewertung →','Wiederholte Aussage','Neue Aussage (Kontrolle)','Sitzung 1','Sitzung 2 (2 Wo. später)','Sitzung 3 (4 Wo. später)','Beweislage unverändert — nur das Gefühl steigt') ?></div>
-<div class="fr"><?= $svgTruth('Vérité Perçue vs. Exposition Répétée','Le schéma observé par Hasher, Goldstein & Toppino (1977) · 3 séances espacées de 2 semaines · illustration conceptuelle','Note moyenne de "vrai" →','Affirmation répétée','Affirmation nouvelle (témoin)','Séance 1','Séance 2 (2 sem. après)','Séance 3 (4 sem. après)','Les preuves n\'ont pas changé — seul le ressenti augmente') ?></div>
-<div class="pt"><?= $svgTruth('Verdade Percebida vs. Exposição Repetida','O padrão observado por Hasher, Goldstein e Toppino (1977) · 3 sessões, com 2 semanas de intervalo · ilustração conceitual','Avaliação média de "verdadeiro" →','Afirmação repetida','Afirmação nova (controle)','Sessão 1','Sessão 2 (2 sem. depois)','Sessão 3 (4 sem. depois)','A evidência não muda — só a sensação sobe') ?></div>
-<div class="tr"><?= $svgTruth('Tekrarlanan Maruziyete Göre Algılanan Doğruluk','Hasher, Goldstein ve Toppino\'nun (1977) gözlemlediği örüntü · 2 hafta arayla 3 oturum · kavramsal gösterim','Ortalama "doğru" değerlendirmesi →','Tekrarlanan ifade','Yeni ifade (kontrol)','Oturum 1','Oturum 2 (2 hafta sonra)','Oturum 3 (4 hafta sonra)','Kanıt değişmedi — sadece his yükseliyor') ?></div>
-<div class="vi"><?= $svgTruth('Cảm Nhận Về Sự Thật So Với Mức Độ Tiếp Xúc Lặp Lại','Mô hình được Hasher, Goldstein và Toppino (1977) quan sát · 3 phiên, cách nhau 2 tuần · minh họa khái niệm','Điểm đánh giá "đúng" trung bình →','Phát biểu lặp lại','Phát biểu mới (đối chứng)','Phiên 1','Phiên 2 (sau 2 tuần)','Phiên 3 (sau 4 tuần)','Bằng chứng không đổi — chỉ cảm giác tăng lên') ?></div>
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">근거는 그대로인데 체감만 상승</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perceived Truth Rating vs. Repeated Exposure</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">The pattern observed by Hasher, Goldstein & Toppino (1977) · 3 sessions, 2 weeks apart · conceptual illustration</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Average "true" rating →</text>
 
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Session 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Session 2 (2 wks later)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Session 3 (4 wks later)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Repeated statement</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">New statement (control)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Evidence unchanged — only the feeling rises</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">反復曝露による体感真実度の変化</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">ハッシャー・ゴールドスタイン・トピノ(1977)が観察したパターン・2週間隔3回セッション・概念図</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">平均「真実」評価率 →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">セッション1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">セッション2(2週間後)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">セッション3(4週間後)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">反復曝露された文章</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">新規に登場した文章(対照群)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">根拠は同じなのに体感だけが上昇</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Percepción de Verdad vs. Exposición Repetida</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">El patrón observado por Hasher, Goldstein y Toppino (1977) · 3 sesiones, separadas 2 semanas · ilustración conceptual</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Calificación media de "verdadero" →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sesión 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sesión 2 (2 sem. después)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sesión 3 (4 sem. después)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Afirmación repetida</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">Afirmación nueva (control)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">La evidencia no cambia — solo sube la sensación</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Wahrgenommene Wahrheit vs. Wiederholte Exposition</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Das von Hasher, Goldstein & Toppino (1977) beobachtete Muster · 3 Sitzungen im Abstand von 2 Wochen · schematische Darstellung</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Durchschnittliche "wahr"-Bewertung →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sitzung 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sitzung 2 (2 Wo. später)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sitzung 3 (4 Wo. später)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Wiederholte Aussage</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">Neue Aussage (Kontrolle)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Beweislage unverändert — nur das Gefühl steigt</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Vérité Perçue vs. Exposition Répétée</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Le schéma observé par Hasher, Goldstein & Toppino (1977) · 3 séances espacées de 2 semaines · illustration conceptuelle</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Note moyenne de "vrai" →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Séance 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Séance 2 (2 sem. après)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Séance 3 (4 sem. après)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Affirmation répétée</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">Affirmation nouvelle (témoin)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Les preuves n'ont pas changé — seul le ressenti augmente</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Verdade Percebida vs. Exposição Repetida</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">O padrão observado por Hasher, Goldstein e Toppino (1977) · 3 sessões, com 2 semanas de intervalo · ilustração conceitual</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Avaliação média de "verdadeiro" →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sessão 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sessão 2 (2 sem. depois)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Sessão 3 (4 sem. depois)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Afirmação repetida</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">Afirmação nova (controle)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">A evidência não muda — só a sensação sobe</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Tekrarlanan Maruziyete Göre Algılanan Doğruluk</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Hasher, Goldstein ve Toppino'nun (1977) gözlemlediği örüntü · 2 hafta arayla 3 oturum · kavramsal gösterim</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Ortalama "doğru" değerlendirmesi →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Oturum 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Oturum 2 (2 hafta sonra)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Oturum 3 (4 hafta sonra)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Tekrarlanan ifade</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">Yeni ifade (kontrol)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Kanıt değişmedi — sadece his yükseliyor</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Cảm Nhận Về Sự Thật So Với Mức Độ Tiếp Xúc Lặp Lại</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Mô hình được Hasher, Goldstein và Toppino (1977) quan sát · 3 phiên, cách nhau 2 tuần · minh họa khái niệm</text>
+    <text x="26" y="200" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 200)">Điểm đánh giá "đúng" trung bình →</text>
+
+    <line x1="70" y1="330" x2="650" y2="330" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="330" stroke="#27272a"/>
+
+    <line x1="70" y1="180" x2="650" y2="176" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="70,180 360,177.5 650,176" fill="none" stroke="#71717a" stroke-width="2.5"/>
+    <circle cx="70" cy="180" r="5" fill="#a1a1aa"/>
+    <circle cx="360" cy="177.5" r="5" fill="#a1a1aa"/>
+    <circle cx="650" cy="176" r="5" fill="#a1a1aa"/>
+
+    <polyline points="70,222 360,150 650,102" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="70" cy="222" r="6" fill="#fb923c"/>
+    <circle cx="360" cy="150" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="102" r="6" fill="#fb923c"/>
+
+    <text x="70" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Phiên 1</text>
+    <text x="360" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Phiên 2 (sau 2 tuần)</text>
+    <text x="650" y="352" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Phiên 3 (sau 4 tuần)</text>
+
+    <line x1="90" y1="376" x2="112" y2="376" stroke="#fb923c" stroke-width="3"/>
+    <text x="118" y="380" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Phát biểu lặp lại</text>
+    <line x1="400" y1="376" x2="422" y2="376" stroke="#71717a" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <text x="428" y="380" fill="#a1a1aa" font-size="13" font-family="sans-serif">Phát biểu mới (đối chứng)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Bằng chứng không đổi — chỉ cảm giác tăng lên</text>
+  </svg></div>
 <p class="ko">이 결과가 왜 발생하는지에 대한 표준적인 설명은 "처리 유창성(processing fluency)"이다. 이전에 본 적 있는 문장은 뇌가 더 빠르고 매끄럽게 처리한다. 그리고 일상에서는 실제로 참인 정보일수록 더 자주 접하는 경향이 있기 때문에, 뇌는 진화적으로 "처리하기 쉽다 = 아마 사실이다"라는 지름길을 학습해 왔다. 문제는 이 지름길이 반복의 출처를 구분하지 못한다는 데 있다. 서로 다른 열 명이 각자 독자적으로 검증한 정보를 열 번 접하는 것과, 한 명이 원래 한 주장을 열 번 복사해 퍼뜨린 걸 열 번 접하는 것은 뇌에게 정확히 같은 신호로 들어온다.</p>
 <p class="en">The standard explanation for why this happens is "processing fluency." A sentence you've seen before gets processed faster and more smoothly by the brain. And because information that's actually true tends to be encountered more often in everyday life, the brain evolved a shortcut: easy to process equals probably true. The problem is that this shortcut cannot distinguish where the repetition came from. Encountering the same information ten times because ten different people independently verified it, and encountering the same claim ten times because one person's original assertion got copied and spread ten times, register as exactly the same signal to the brain.</p>
 <p class="ja">この結果がなぜ起きるのかについての標準的な説明は「処理流暢性(processing fluency)」だ。以前に見たことのある文章は脳がより速く、より滑らかに処理する。そして日常では実際に真実である情報ほど頻繁に接する傾向があるため、脳は進化的に「処理しやすい=おそらく事実だ」という近道を学習してきた。問題はこの近道が反復の出所を区別できないという点にある。互いに異なる10人がそれぞれ独自に検証した情報を10回接するのと、1人が元々の主張を10回コピーして広めたものを10回接するのとは、脳にとって全く同じ信号として入ってくる。</p>

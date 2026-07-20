@@ -130,12 +130,10 @@
 <p class="tr">Bu ayna görüntü bir tesadüf değil — duygu sezgiselinin döngünün kendisine doğrudan kazıdığı bir imza gibi okunuyor. Lubomir Kristoufek'in 2013'te Scientific Reports'ta yayımlanan makalesi, bitcoin'in fiyatı ile Google Trends ve Wikipedia'daki arama ilgisi arasında güçlü, çift yönlü bir geri besleme döngüsü olduğunu gösterdi. Arama ilgisi — duygusal belirginliğin bir vekil göstergesi — fiyat hem fırladığında hem de çöktüğünde yükseldi; bu da ilginin yönünün değil, yoğunluğunun duygunun yoğunluğunu izlediği anlamına geliyor. Duygu ne kadar güçlenirse, tersi yönde birikmesi gereken soğukkanlı risk değerlendirmesi o kadar bastırılıyor.</p>
 <p class="vi">Hình ảnh phản chiếu này không phải là sự trùng hợp ngẫu nhiên — nó đọc giống như một chữ ký mà suy nghiệm cảm xúc khắc trực tiếp vào chính chu kỳ. Bài báo năm 2013 của Lubomir Kristoufek trên Scientific Reports cho thấy một vòng phản hồi hai chiều mạnh mẽ giữa giá bitcoin và mức độ quan tâm tìm kiếm trên Google Trends và Wikipedia. Sự chú ý tìm kiếm — một chỉ số đại diện cho mức độ nổi bật về cảm xúc — tăng vọt cả khi giá tăng vọt lẫn khi giá sụp đổ, nghĩa là cường độ của sự chú ý, chứ không phải hướng đi của nó, theo sát cường độ của cảm xúc. Cảm xúc càng mạnh, việc đánh giá rủi ro lạnh lùng lẽ ra phải tích lũy theo hướng ngược lại càng bị đè nén.</p>
 
-<?php
-$svgAffect = function($title,$sub,$yLabel,$legRisk,$legReward,$legActual,$dotFearLbl,$dotGreedLbl,$noteLbl,$xAxisLbl) { return <<<SVG
-  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
-    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">$yLabel</text>
+<div class="ko">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">정동 휴리스틱이 만드는 위험·수익 지각의 역전</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">시장 심리가 공포에서 탐욕으로 이동할 때 · 개념도</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">지각된 위험 / 수익 수준</text>
 
     <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
 
@@ -151,34 +149,302 @@ $svgAffect = function($title,$sub,$yLabel,$legRisk,$legReward,$legActual,$dotFea
     <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
     <circle cx="60" cy="318" r="5" fill="#f87171"/>
     <circle cx="650" cy="318" r="5" fill="#4ade80"/>
-    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">$xAxisLbl</text>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">시장 심리: 극단적 공포 → 극단적 탐욕 →</text>
 
     <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
-    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">$legRisk</text>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">지각된 위험 (체감)</text>
     <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
-    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">$legReward</text>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">지각된 수익 (체감)</text>
     <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
-    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">$legActual</text>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">실제 객관적 위험 (사후 확인)</text>
 
     <circle cx="270" cy="380" r="5" fill="#f87171"/>
-    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">$dotFearLbl</text>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">2020.3 공포 (3,800달러대)</text>
     <circle cx="420" cy="380" r="5" fill="#4ade80"/>
-    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">$dotGreedLbl</text>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">2021.11 탐욕 (69,000달러대)</text>
 
-    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">$noteLbl</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgAffect('정동 휴리스틱이 만드는 위험·수익 지각의 역전','시장 심리가 공포에서 탐욕으로 이동할 때 · 개념도','지각된 위험 / 수익 수준','지각된 위험 (체감)','지각된 수익 (체감)','실제 객관적 위험 (사후 확인)','2020.3 공포 (3,800달러대)','2021.11 탐욕 (69,000달러대)','괴리 = 정동 휴리스틱이 만든 착시','시장 심리: 극단적 공포 → 극단적 탐욕 →') ?></div>
-<div class="en"><?= $svgAffect('The Risk-Reward Perception Reversal Created by the Affect Heuristic','As market sentiment moves from fear to greed · conceptual illustration','Perceived Risk / Reward Level','Perceived risk (felt)','Perceived reward (felt)','Actual objective risk (confirmed after the fact)','2020.3 Fear (~$3,800)','2021.11 Greed (~$69,000)','The gap = the illusion the affect heuristic creates','Market sentiment: Extreme Fear → Extreme Greed →') ?></div>
-<div class="ja"><?= $svgAffect('感情ヒューリスティックが生む危険・収益知覚の逆転','市場心理が恐怖から強欲へ移る時・概念図','知覚された危険/収益の水準','知覚された危険(体感)','知覚された収益(体感)','実際の客観的危険(事後確認)','2020.3 恐怖(3,800ドル台)','2021.11 強欲(69,000ドル台)','この乖離=感情ヒューリスティックが生む錯覚','市場心理:極度の恐怖→極度の強欲→') ?></div>
-<div class="es"><?= $svgAffect('La Inversión en la Percepción de Riesgo y Beneficio Creada por la Heurística Afectiva','A medida que el sentimiento del mercado pasa del miedo a la codicia · ilustración conceptual','Nivel de Riesgo / Beneficio Percibido','Riesgo percibido (sentido)','Beneficio percibido (sentido)','Riesgo objetivo real (confirmado después)','Miedo 3/2020 (~3.800 USD)','Codicia 11/2021 (~69.000 USD)','La brecha = la ilusión creada por la heurística afectiva','Sentimiento del mercado: Miedo Extremo → Codicia Extrema →') ?></div>
-<div class="de"><?= $svgAffect('Die von der Affektheuristik erzeugte Umkehr der Risiko-Nutzen-Wahrnehmung','Während die Marktstimmung von Angst zu Gier wechselt · schematische Darstellung','Wahrgenommenes Risiko-/Nutzenniveau','Wahrgenommenes Risiko (gefühlt)','Wahrgenommener Nutzen (gefühlt)','Tatsächliches objektives Risiko (im Nachhinein bestätigt)','März 2020 Angst (~3.800 $)','Nov. 2021 Gier (~69.000 $)','Die Lücke = die von der Affektheuristik erzeugte Illusion','Marktstimmung: Extreme Angst → Extreme Gier →') ?></div>
-<div class="fr"><?= $svgAffect('L\'Inversion de la Perception Risque-Bénéfice Créée par l\'Heuristique de l\'Affect','Lorsque le sentiment du marché passe de la peur à la cupidité · illustration conceptuelle','Niveau de Risque / Bénéfice Perçu','Risque perçu (ressenti)','Bénéfice perçu (ressenti)','Risque objectif réel (confirmé après coup)','Peur mars 2020 (~3 800 $)','Cupidité nov. 2021 (~69 000 $)','L\'écart = l\'illusion créée par l\'heuristique de l\'affect','Sentiment du marché : Peur Extrême → Cupidité Extrême →') ?></div>
-<div class="pt"><?= $svgAffect('A Inversão na Percepção de Risco e Benefício Criada pela Heurística do Afeto','À medida que o sentimento do mercado passa do medo para a ganância · ilustração conceitual','Nível de Risco / Benefício Percebido','Risco percebido (sentido)','Benefício percebido (sentido)','Risco objetivo real (confirmado depois)','Medo mar/2020 (~US$ 3.800)','Ganância nov/2021 (~US$ 69.000)','A lacuna = a ilusão criada pela heurística do afeto','Sentimento do mercado: Medo Extremo → Ganância Extrema →') ?></div>
-<div class="tr"><?= $svgAffect('Duygu Sezgiselinin Yarattığı Risk-Getiri Algısı Tersine Dönüşü','Piyasa duygusu korkudan açgözlülüğe geçerken · kavramsal gösterim','Algılanan Risk / Getiri Düzeyi','Algılanan risk (hissedilen)','Algılanan getiri (hissedilen)','Gerçek nesnel risk (sonradan doğrulanan)','Mart 2020 Korku (~3.800$)','Kasım 2021 Açgözlülük (~69.000$)','Fark = duygu sezgiselinin yarattığı yanılsama','Piyasa duygusu: Aşırı Korku → Aşırı Açgözlülük →') ?></div>
-<div class="vi"><?= $svgAffect('Sự Đảo Ngược Nhận Thức Rủi Ro-Lợi Ích Do Suy Nghiệm Cảm Xúc Tạo Ra','Khi tâm lý thị trường chuyển từ sợ hãi sang tham lam · minh họa khái niệm','Mức Độ Rủi Ro / Lợi Ích Được Cảm Nhận','Rủi ro được cảm nhận (cảm giác)','Lợi ích được cảm nhận (cảm giác)','Rủi ro khách quan thực tế (được xác nhận sau đó)','Sợ hãi 3/2020 (~3.800 đô la)','Tham lam 11/2021 (~69.000 đô la)','Khoảng cách = ảo giác do suy nghiệm cảm xúc tạo ra','Tâm lý thị trường: Sợ Hãi Cực Độ → Tham Lam Cực Độ →') ?></div>
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">괴리 = 정동 휴리스틱이 만든 착시</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The Risk-Reward Perception Reversal Created by the Affect Heuristic</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">As market sentiment moves from fear to greed · conceptual illustration</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Perceived Risk / Reward Level</text>
 
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Market sentiment: Extreme Fear → Extreme Greed →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Perceived risk (felt)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Perceived reward (felt)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Actual objective risk (confirmed after the fact)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">2020.3 Fear (~$3,800)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">2021.11 Greed (~$69,000)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">The gap = the illusion the affect heuristic creates</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">感情ヒューリスティックが生む危険・収益知覚の逆転</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">市場心理が恐怖から強欲へ移る時・概念図</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">知覚された危険/収益の水準</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">市場心理:極度の恐怖→極度の強欲→</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">知覚された危険(体感)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">知覚された収益(体感)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">実際の客観的危険(事後確認)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">2020.3 恐怖(3,800ドル台)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">2021.11 強欲(69,000ドル台)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">この乖離=感情ヒューリスティックが生む錯覚</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">La Inversión en la Percepción de Riesgo y Beneficio Creada por la Heurística Afectiva</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">A medida que el sentimiento del mercado pasa del miedo a la codicia · ilustración conceptual</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Nivel de Riesgo / Beneficio Percibido</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Sentimiento del mercado: Miedo Extremo → Codicia Extrema →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Riesgo percibido (sentido)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Beneficio percibido (sentido)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Riesgo objetivo real (confirmado después)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Miedo 3/2020 (~3.800 USD)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Codicia 11/2021 (~69.000 USD)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">La brecha = la ilusión creada por la heurística afectiva</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Die von der Affektheuristik erzeugte Umkehr der Risiko-Nutzen-Wahrnehmung</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Während die Marktstimmung von Angst zu Gier wechselt · schematische Darstellung</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Wahrgenommenes Risiko-/Nutzenniveau</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Marktstimmung: Extreme Angst → Extreme Gier →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Wahrgenommenes Risiko (gefühlt)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Wahrgenommener Nutzen (gefühlt)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Tatsächliches objektives Risiko (im Nachhinein bestätigt)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">März 2020 Angst (~3.800 $)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Nov. 2021 Gier (~69.000 $)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Die Lücke = die von der Affektheuristik erzeugte Illusion</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">L'Inversion de la Perception Risque-Bénéfice Créée par l'Heuristique de l'Affect</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Lorsque le sentiment du marché passe de la peur à la cupidité · illustration conceptuelle</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Niveau de Risque / Bénéfice Perçu</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Sentiment du marché : Peur Extrême → Cupidité Extrême →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Risque perçu (ressenti)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Bénéfice perçu (ressenti)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Risque objectif réel (confirmé après coup)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Peur mars 2020 (~3 800 $)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Cupidité nov. 2021 (~69 000 $)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">L'écart = l'illusion créée par l'heuristique de l'affect</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">A Inversão na Percepção de Risco e Benefício Criada pela Heurística do Afeto</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">À medida que o sentimento do mercado passa do medo para a ganância · ilustração conceitual</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Nível de Risco / Benefício Percebido</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Sentimento do mercado: Medo Extremo → Ganância Extrema →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Risco percebido (sentido)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Benefício percebido (sentido)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Risco objetivo real (confirmado depois)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Medo mar/2020 (~US$ 3.800)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Ganância nov/2021 (~US$ 69.000)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">A lacuna = a ilusão criada pela heurística do afeto</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Duygu Sezgiselinin Yarattığı Risk-Getiri Algısı Tersine Dönüşü</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Piyasa duygusu korkudan açgözlülüğe geçerken · kavramsal gösterim</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Algılanan Risk / Getiri Düzeyi</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Piyasa duygusu: Aşırı Korku → Aşırı Açgözlülük →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Algılanan risk (hissedilen)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Algılanan getiri (hissedilen)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gerçek nesnel risk (sonradan doğrulanan)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Mart 2020 Korku (~3.800$)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Kasım 2021 Açgözlülük (~69.000$)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Fark = duygu sezgiselinin yarattığı yanılsama</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Sự Đảo Ngược Nhận Thức Rủi Ro-Lợi Ích Do Suy Nghiệm Cảm Xúc Tạo Ra</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Khi tâm lý thị trường chuyển từ sợ hãi sang tham lam · minh họa khái niệm</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Mức Độ Rủi Ro / Lợi Ích Được Cảm Nhận</text>
+
+    <polygon points="60,95 207.5,132 355,170 502.5,208 650,245 650,70 502.5,145 355,170 207.5,195 60,220" fill="#fb923c" opacity="0.12"/>
+
+    <polyline points="60,245 207.5,208 355,170 502.5,132 650,95" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,220 207.5,195 355,170 502.5,145 650,70" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,95 207.5,132 355,170 502.5,208 650,245" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="60" cy="95" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="245" r="5" fill="#fb923c"/>
+    <circle cx="650" cy="70" r="5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="60" cy="318" r="5" fill="#f87171"/>
+    <circle cx="650" cy="318" r="5" fill="#4ade80"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Tâm lý thị trường: Sợ Hãi Cực Độ → Tham Lam Cực Độ →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Rủi ro được cảm nhận (cảm giác)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Lợi ích được cảm nhận (cảm giác)</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Rủi ro khách quan thực tế (được xác nhận sau đó)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#f87171"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Sợ hãi 3/2020 (~3.800 đô la)</text>
+    <circle cx="420" cy="380" r="5" fill="#4ade80"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Tham lam 11/2021 (~69.000 đô la)</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Khoảng cách = ảo giác do suy nghiệm cảm xúc tạo ra</text>
+  </svg></div>
 <h2 class="ko">왜 하필 사이클의 변곡점에서 착시가 가장 강해지는가</h2>
 <h2 class="en">Why the Illusion Peaks Exactly at the Cycle's Turning Points</h2>
 <h2 class="ja">なぜよりによってサイクルの転換点で錯視が最も強くなるのか</h2>

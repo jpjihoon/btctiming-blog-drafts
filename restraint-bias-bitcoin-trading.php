@@ -110,16 +110,14 @@
 <p class="tr">James Wynn'in vakası, bu üç güçlendiricinin gerçekte nasıl birbirine geçtiğini tam olarak gösteriyor. 2025 Mayıs'ında ilk tasfiyesini yaşadı. Sonrasında durmadı ve 2026 Nisan'ında bir ralli ortasında tekrar tekrar 40 kat kaldıraçlı short pozisyonlar açarak iki hafta içinde altıncı kez tasfiye edildi. Bu yeniden giriş örüntüsünü haberleştiren kaynaklar, stoplarının ya olmadığını ya da göz ardı edildiğini belirtti. Bu durum yalnızca düpedüz pervasızlıkla tam olarak açıklanamaz — çok daha isabetli bir açıklama, hayatta kaldığı her önceki işlemin, bir sonraki seferde daha büyük bir bahsi haklı çıkaran kanıt olarak birikmiş olmasıdır.</p>
 <p class="vi">Trường hợp của James Wynn cho thấy chính xác ba bộ khuếch đại này gắn kết với nhau như thế nào. Anh ta chịu lần thanh lý đầu tiên vào tháng 5 năm 2025. Sau đó anh không dừng lại, và vào tháng 4 năm 2026, anh liên tục mở các vị thế short đòn bẩy 40 lần ngay giữa một đợt tăng giá, bị thanh lý lần thứ sáu trong hai tuần. Các bài đưa tin về kiểu vào lệnh lại này chỉ ra rằng lệnh dừng lỗ của anh hoặc không tồn tại, hoặc bị bỏ qua. Điều này không được giải thích đầy đủ chỉ bằng sự liều lĩnh đơn thuần — một lời giải thích chính xác hơn nhiều là mỗi giao dịch trước đó mà anh sống sót qua được lại tích lũy thành bằng chứng biện minh cho một canh bạc còn lớn hơn vào lần sau.</p>
 
-<?php
-$svgRestraint = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$interventionLbl,$loopLbl,$noteLbl) { return <<<SVG
-  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
+<div class="ko">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">자제력 편향이 만드는 순환 고리</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">노드그렌 외(2009)의 인과관계를 트레이딩에 적용한 개념도</text>
 
     <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
     <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
     <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
-    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">$row1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">유혹을 한 번 성공적으로 참아낸다</text>
 
     <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
     <polygon points="304,163 310,171 316,163" fill="#71717a"/>
@@ -127,10 +125,10 @@ $svgRestraint = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$in
     <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
     <circle cx="70" cy="211" r="16" fill="#fb923c"/>
     <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
-    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">$row2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">자제력에 대한 확신이 올라간다</text>
 
     <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
-    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$interventionLbl</text>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">구조적 제약이 끊어야 할 지점</text>
     <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
     <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
     <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
@@ -139,8 +137,8 @@ $svgRestraint = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$in
     <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
     <circle cx="70" cy="331" r="16" fill="#fb923c"/>
     <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
-    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row3a</text>
-    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row3b</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">확신 때문에 위험에 더 다가간다</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(스탑 해제·레버리지 확대)</text>
 
     <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
     <polygon points="304,379 310,387 316,379" fill="#71717a"/>
@@ -148,27 +146,375 @@ $svgRestraint = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$in
     <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
     <circle cx="70" cy="427" r="16" fill="#f87171"/>
     <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
-    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row4a</text>
-    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row4b</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">다음 유혹에서</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">안전장치 없이 무너진다</text>
 
     <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
     <polygon points="594,109 582,115 594,121" fill="#52525b"/>
-    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">$loopLbl</text>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">다음 라운드에서 반복</text>
 
-    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">$noteLbl</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgRestraint('자제력 편향이 만드는 순환 고리','노드그렌 외(2009)의 인과관계를 트레이딩에 적용한 개념도','유혹을 한 번 성공적으로 참아낸다','자제력에 대한 확신이 올라간다','확신 때문에 위험에 더 다가간다','(스탑 해제·레버리지 확대)','다음 유혹에서','안전장치 없이 무너진다','구조적 제약이 끊어야 할 지점','다음 라운드에서 반복','노드그렌 외(2009) 연구의 인과 구조를 트레이딩에 적용한 개념도 — 실제 수치가 아님') ?></div>
-<div class="en"><?= $svgRestraint('The Loop That Restraint Bias Creates','A conceptual diagram applying Nordgren et al. (2009)\'s causal chain to trading','You successfully resist temptation once','Confidence in your self-control rises','Confidence pulls you toward risk','&#8212; stops come off, leverage goes up','The next temptation breaks you','&#8212; with no safety net left','Where a structural constraint must cut in','Repeats next round','Conceptual diagram applying Nordgren et al. (2009)\'s causal structure to trading &#8212; not actual data') ?></div>
-<div class="ja"><?= $svgRestraint('自制バイアスが作る循環ループ','ノードグレン他(2009)の因果関係をトレーディングに当てはめた概念図','一度、誘惑にうまく打ち勝つ','自制心への確信が高まる','その確信がリスクに近づかせる','(ストップ解除・レバレッジ拡大)','次の誘惑で','安全装置なしに崩れる','構造的制約が断ち切るべき地点','次のラウンドで繰り返す','ノードグレン他(2009)の因果構造をトレーディングに適用した概念図であり、実数値ではない') ?></div>
-<div class="es"><?= $svgRestraint('El Bucle Que Crea el Sesgo de Restricción','Diagrama conceptual que aplica la cadena causal de Nordgren et al. (2009) al trading','Resistes la tentación con éxito una vez','Sube tu confianza en el autocontrol','Esa confianza te acerca al riesgo','&#8212; sin stop, más apalancamiento','En la próxima tentación','te derrumbas sin red de seguridad','Donde debe intervenir una restricción estructural','Se repite en la siguiente ronda','Diagrama conceptual que aplica la estructura causal de Nordgren et al. (2009) al trading &#8212; no son datos reales') ?></div>
-<div class="de"><?= $svgRestraint('Die Schleife, die der Restraint Bias Erzeugt','Konzeptdiagramm, das die Kausalkette von Nordgren et al. (2009) auf den Handel überträgt','Man widersteht der Versuchung einmal erfolgreich','Das Vertrauen in die eigene Selbstkontrolle steigt','Das Vertrauen zieht dich näher ans Risiko','&#8212; Stop weg, mehr Hebel','Bei der nächsten Versuchung','bricht man &#8212; ohne Sicherheitsnetz','Wo eine strukturelle Beschränkung eingreifen muss','Wiederholt sich in der nächsten Runde','Konzeptdiagramm, das die Kausalstruktur von Nordgren et al. (2009) auf den Handel überträgt &#8212; keine realen Daten') ?></div>
-<div class="fr"><?= $svgRestraint('La Boucle Créée par le Biais de Retenue','Diagramme conceptuel appliquant la chaîne causale de Nordgren et al. (2009) au trading','Vous résistez une fois avec succès à la tentation','La confiance dans votre autocontrôle augmente','Cette confiance vous rapproche du risque','&#8212; sans stop, plus de levier','À la prochaine tentation','vous craquez &#8212; sans filet de sécurité','Là où une contrainte structurelle doit intervenir','Se répète au tour suivant','Diagramme conceptuel appliquant la structure causale de Nordgren et al. (2009) au trading &#8212; pas des données réelles') ?></div>
-<div class="pt"><?= $svgRestraint('O Ciclo Que o Viés de Restrição Cria','Diagrama conceitual aplicando a cadeia causal de Nordgren et al. (2009) ao trading','Você resiste à tentação com sucesso uma vez','A confiança no seu autocontrole aumenta','Essa confiança te aproxima do risco','&#8212; sem stop, mais alavancagem','Na próxima tentação','você quebra &#8212; sem rede de segurança','Onde uma restrição estrutural deve intervir','Repete-se na próxima rodada','Diagrama conceitual aplicando a estrutura causal de Nordgren et al. (2009) ao trading &#8212; não são dados reais') ?></div>
-<div class="tr"><?= $svgRestraint('Kısıtlama Yanlılığının Yarattığı Döngü','Nordgren ve ark. (2009)\'nin nedensel zincirini trading\'e uygulayan kavramsal diyagram','Bir kez baştan çıkarmaya başarıyla direnirsin','Öz denetimine olan güvenin artar','Bu güven seni riske yaklaştırır','&#8212; stop kalkar, kaldıraç artar','Bir sonraki cazibede','güvenlik ağı olmadan çökersin','Yapısal bir kısıtlamanın devreye girmesi gereken nokta','Bir sonraki turda tekrarlanır','Nordgren ve ark. (2009)\'nin nedensel yapısını trading\'e uygulayan kavramsal diyagram &#8212; gerçek veri değildir') ?></div>
-<div class="vi"><?= $svgRestraint('Vòng Lặp Mà Thiên Kiến Tự Kiềm Chế Tạo Ra','Sơ đồ khái niệm áp dụng chuỗi nhân quả của Nordgren và cộng sự (2009) vào giao dịch','Bạn cưỡng lại cám dỗ thành công một lần','Niềm tin vào khả năng tự chủ của bạn tăng lên','Niềm tin đó kéo bạn lại gần rủi ro hơn','&#8212; bỏ stop, tăng đòn bẩy','Ở cám dỗ tiếp theo','bạn sụp đổ &#8212; không còn lưới an toàn','Nơi một ràng buộc mang tính cấu trúc phải cắt đứt vòng lặp','Lặp lại ở vòng tiếp theo','Sơ đồ khái niệm áp dụng cấu trúc nhân quả của Nordgren và cộng sự (2009) vào giao dịch &#8212; không phải số liệu thực tế') ?></div>
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">노드그렌 외(2009) 연구의 인과 구조를 트레이딩에 적용한 개념도 — 실제 수치가 아님</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The Loop That Restraint Bias Creates</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">A conceptual diagram applying Nordgren et al. (2009)'s causal chain to trading</text>
 
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">You successfully resist temptation once</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Confidence in your self-control rises</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Where a structural constraint must cut in</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Confidence pulls you toward risk</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; stops come off, leverage goes up</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">The next temptation breaks you</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; with no safety net left</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Repeats next round</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Conceptual diagram applying Nordgren et al. (2009)'s causal structure to trading &#8212; not actual data</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">自制バイアスが作る循環ループ</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">ノードグレン他(2009)の因果関係をトレーディングに当てはめた概念図</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">一度、誘惑にうまく打ち勝つ</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">自制心への確信が高まる</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">構造的制約が断ち切るべき地点</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">その確信がリスクに近づかせる</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(ストップ解除・レバレッジ拡大)</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">次の誘惑で</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">安全装置なしに崩れる</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">次のラウンドで繰り返す</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">ノードグレン他(2009)の因果構造をトレーディングに適用した概念図であり、実数値ではない</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">El Bucle Que Crea el Sesgo de Restricción</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Diagrama conceptual que aplica la cadena causal de Nordgren et al. (2009) al trading</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Resistes la tentación con éxito una vez</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Sube tu confianza en el autocontrol</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Donde debe intervenir una restricción estructural</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Esa confianza te acerca al riesgo</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; sin stop, más apalancamiento</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">En la próxima tentación</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">te derrumbas sin red de seguridad</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Se repite en la siguiente ronda</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Diagrama conceptual que aplica la estructura causal de Nordgren et al. (2009) al trading &#8212; no son datos reales</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Die Schleife, die der Restraint Bias Erzeugt</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Konzeptdiagramm, das die Kausalkette von Nordgren et al. (2009) auf den Handel überträgt</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Man widersteht der Versuchung einmal erfolgreich</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Das Vertrauen in die eigene Selbstkontrolle steigt</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Wo eine strukturelle Beschränkung eingreifen muss</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Das Vertrauen zieht dich näher ans Risiko</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; Stop weg, mehr Hebel</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Bei der nächsten Versuchung</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">bricht man &#8212; ohne Sicherheitsnetz</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Wiederholt sich in der nächsten Runde</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Konzeptdiagramm, das die Kausalstruktur von Nordgren et al. (2009) auf den Handel überträgt &#8212; keine realen Daten</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">La Boucle Créée par le Biais de Retenue</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Diagramme conceptuel appliquant la chaîne causale de Nordgren et al. (2009) au trading</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Vous résistez une fois avec succès à la tentation</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">La confiance dans votre autocontrôle augmente</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Là où une contrainte structurelle doit intervenir</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Cette confiance vous rapproche du risque</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; sans stop, plus de levier</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">À la prochaine tentation</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">vous craquez &#8212; sans filet de sécurité</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Se répète au tour suivant</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Diagramme conceptuel appliquant la structure causale de Nordgren et al. (2009) au trading &#8212; pas des données réelles</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">O Ciclo Que o Viés de Restrição Cria</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Diagrama conceitual aplicando a cadeia causal de Nordgren et al. (2009) ao trading</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Você resiste à tentação com sucesso uma vez</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">A confiança no seu autocontrole aumenta</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Onde uma restrição estrutural deve intervir</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Essa confiança te aproxima do risco</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; sem stop, mais alavancagem</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Na próxima tentação</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">você quebra &#8212; sem rede de segurança</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Repete-se na próxima rodada</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Diagrama conceitual aplicando a estrutura causal de Nordgren et al. (2009) ao trading &#8212; não são dados reais</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Kısıtlama Yanlılığının Yarattığı Döngü</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Nordgren ve ark. (2009)'nin nedensel zincirini trading'e uygulayan kavramsal diyagram</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Bir kez baştan çıkarmaya başarıyla direnirsin</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Öz denetimine olan güvenin artar</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Yapısal bir kısıtlamanın devreye girmesi gereken nokta</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Bu güven seni riske yaklaştırır</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; stop kalkar, kaldıraç artar</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Bir sonraki cazibede</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">güvenlik ağı olmadan çökersin</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Bir sonraki turda tekrarlanır</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Nordgren ve ark. (2009)'nin nedensel yapısını trading'e uygulayan kavramsal diyagram &#8212; gerçek veri değildir</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Vòng Lặp Mà Thiên Kiến Tự Kiềm Chế Tạo Ra</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Sơ đồ khái niệm áp dụng chuỗi nhân quả của Nordgren và cộng sự (2009) vào giao dịch</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Bạn cưỡng lại cám dỗ thành công một lần</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Niềm tin vào khả năng tự chủ của bạn tăng lên</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Nơi một ràng buộc mang tính cấu trúc phải cắt đứt vòng lặp</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Niềm tin đó kéo bạn lại gần rủi ro hơn</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">&#8212; bỏ stop, tăng đòn bẩy</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Ở cám dỗ tiếp theo</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">bạn sụp đổ &#8212; không còn lưới an toàn</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Lặp lại ở vòng tiếp theo</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Sơ đồ khái niệm áp dụng cấu trúc nhân quả của Nordgren và cộng sự (2009) vào giao dịch &#8212; không phải số liệu thực tế</text>
+  </svg></div>
 <h2 class="ko">성공적으로 버틴 경험 자체가, 다음 실패의 재료가 된다</h2>
 <h2 class="en">The Very Experience of Successfully Holding On Becomes the Raw Material for the Next Failure</h2>
 <h2 class="ja">うまく耐え抜いた経験そのものが、次の失敗の材料になる</h2>

@@ -80,57 +80,339 @@
 <p class="tr">12-13 Mart 2020 tarihli "Kara Perşembe" çöküşü, LVN kavramının aşağı yönde de aynı derecede iyi işlediğini gösteriyor. Pandemi paniğinin küresel varlık piyasalarını sardığı tek bir günün içinde, Bitcoin 7.900 dolar bandından 3.800 dolar bandına çakıldı. Bu düşüşün büyük bir kısmı daha önce ince hacimli bir bölgeydi ve fiyat, sanki bir boşluktan geçercesine fazla direnç görmeden oradan kaydı. Eğer orası bekleyen alım emirleriyle dolu yoğun bir HVN bölgesi olsaydı, bu düşüşün önemli bir kısmının tam orada emilmesi gerekirdi.</p>
 <p class="vi">Cú sập "Thứ Năm Đen Tối" ngày 12-13 tháng 3 năm 2020 cho thấy khái niệm LVN cũng hoạt động tốt tương tự theo chiều giảm. Chỉ trong vòng một ngày, khi nỗi hoảng loạn vì đại dịch quét qua các thị trường tài sản toàn cầu, Bitcoin đã lao dốc từ vùng 7.900 đô la xuống vùng 3.800 đô la. Phần lớn chặng đường đó trước đây là vùng khối lượng mỏng, và giá trượt qua đó với rất ít lực cản, gần như đang di chuyển qua chân không. Nếu đó là một vùng HVN dày đặc chất đầy lệnh mua chờ sẵn, thì một phần đáng kể của cú giảm đó lẽ ra đã phải được hấp thụ ngay tại đó.</p>
 
-<?php
-$svgVP = function($title,$sub,$yTop,$yBottom,$pocLabel,$vaLabel,$lvnLabel,$c1t,$c1r,$c2t,$c2r,$note) { return <<<SVG
-  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
+<div class="ko">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">볼륨 프로파일 개념도 — POC, 밸류 에어리어, LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">가격대별 거래량 히스토그램 · 실제 사례로 검증</text>
 
     <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
-    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">$yTop</text>
-    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">$yBottom</text>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">고가</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">저가</text>
 
     <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
-    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">$vaLabel</text>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">밸류 에어리어 — 전체 거래량의 약 70%</text>
 
     <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
     <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
     <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
     <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
-    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">$pocLabel</text>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — 최대 거래량가</text>
     <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
     <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
     <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
 
-    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">$lvnLabel</text>
-    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">$lvnLabel</text>
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — 거래 희박, 빠르게 통과</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — 거래 희박, 빠르게 통과</text>
 
     <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
     <circle cx="52" cy="316" r="9" fill="#4ade80"/>
     <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
-    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">$c1t</text>
-    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">$c1r</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">2022.11 FTX 붕괴 저점 ($15,586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">HVN 성립 → 2023년 내내 지지선으로 작동</text>
 
     <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
     <circle cx="392" cy="316" r="9" fill="#f87171"/>
     <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
-    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">$c2t</text>
-    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">$c2r</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">2018년 4~11월 $6,000대 지지선</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">7개월 방어 후 그해 12월 $3,200대로 붕괴</text>
 
-    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">$note</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgVP('볼륨 프로파일 개념도 — POC, 밸류 에어리어, LVN','가격대별 거래량 히스토그램 · 실제 사례로 검증','고가','저가','POC — 최대 거래량가','밸류 에어리어 — 전체 거래량의 약 70%','LVN — 거래 희박, 빠르게 통과','2022.11 FTX 붕괴 저점 ($15,586)','HVN 성립 → 2023년 내내 지지선으로 작동','2018년 4~11월 $6,000대 지지선','7개월 방어 후 그해 12월 $3,200대로 붕괴','같은 논리로 찾아낸 두 자리 중 하나는 버텼고, 하나는 무너졌다') ?></div>
-<div class="en"><?= $svgVP('Volume Profile, Conceptually — POC, Value Area, and LVN','A price-by-price volume histogram · tested against real cases','High','Low','POC — highest-volume price','Value Area — about 70% of total volume','LVN — thin trading, moves through fast','Nov 2022 FTX-crash low ($15,586)','Formed an HVN → held as support all through 2023','Apr–Nov 2018 support near $6,000','Defended 7 months, then collapsed to $3,200s that December','Of two levels found by the same logic, one held and one broke') ?></div>
-<div class="ja"><?= $svgVP('ボリュームプロファイル概念図 — POC・バリューエリア・LVN','価格帯別出来高ヒストグラム・実例による検証','高値','安値','POC — 最大出来高価格','バリューエリア — 全体出来高の約70%','LVN — 出来高希薄、速く通過','2022年11月 FTX崩壊時の安値($15,586)','HVN成立 → 2023年を通じて支持線として機能','2018年4〜11月 6,000ドル台の支持線','7ヶ月防衛の後、その年の12月に3,200ドル台へ崩壊','同じ論理で見つけた二つの水準のうち、一方は持ちこたえ、一方は崩れた') ?></div>
-<div class="es"><?= $svgVP('Perfil de Volumen, en Concepto — POC, Value Area y LVN','Histograma de volumen por nivel de precio · contrastado con casos reales','Alto','Bajo','POC — precio de mayor volumen','Value Area — cerca del 70% del volumen total','LVN — negociación escasa, se atraviesa rápido','Mínimo del colapso de FTX, nov. 2022 ($15,586)','Formó un HVN → sostuvo como soporte durante todo 2023','Soporte en la zona de $6,000, abr.–nov. 2018','Defendido 7 meses, luego colapsó a la zona de $3,200 ese diciembre','De dos niveles hallados con la misma lógica, uno aguantó y el otro se rompió') ?></div>
-<div class="de"><?= $svgVP('Volumenprofil im Konzept — POC, Value Area und LVN','Volumen-Histogramm nach Preisniveau · anhand realer Fälle geprüft','Hoch','Tief','POC — Preis mit dem höchsten Volumen','Value Area — rund 70% des Gesamtvolumens','LVN — dünner Handel, wird schnell durchquert','FTX-Crash-Tief, Nov. 2022 ($15.586)','Bildete ein HVN → hielt 2023 durchgehend als Unterstützung','Unterstützung um 6.000 $, Apr.–Nov. 2018','7 Monate verteidigt, dann im Dezember auf rund 3.200 $ eingebrochen','Von zwei mit derselben Logik gefundenen Niveaus hielt eines, das andere brach') ?></div>
-<div class="fr"><?= $svgVP('Profil de Volume, en Concept — POC, Value Area et LVN','Histogramme de volume par niveau de prix · vérifié sur des cas réels','Haut','Bas','POC — prix au plus fort volume','Value Area — environ 70% du volume total','LVN — échanges faibles, traversée rapide','Plancher du krach FTX, nov. 2022 (15 586 $)','A formé un HVN → a tenu comme support tout au long de 2023','Support autour de 6 000 $, avr.–nov. 2018','Défendu 7 mois, puis effondré vers 3 200 $ en décembre de cette année-là','Sur deux niveaux trouvés avec la même logique, l\'un a tenu et l\'autre a cédé') ?></div>
-<div class="pt"><?= $svgVP('Perfil de Volume, em Conceito — POC, Value Area e LVN','Histograma de volume por faixa de preço · testado com casos reais','Alto','Baixo','POC — preço de maior volume','Value Area — cerca de 70% do volume total','LVN — negociação fina, atravessa rápido','Mínima do colapso da FTX, nov. 2022 (US$ 15.586)','Formou um HVN → sustentou como suporte durante todo 2023','Suporte na faixa de US$ 6.000, abr.–nov. 2018','Defendido por 7 meses, depois desabou para US$ 3.200 naquele dezembro','De dois níveis encontrados pela mesma lógica, um resistiu e o outro cedeu') ?></div>
-<div class="tr"><?= $svgVP('Kavramsal Hacim Profili — POC, Value Area ve LVN','Fiyat Düzeyine Göre Hacim Histogramı · Gerçek Örneklerle Sınandı','Yüksek','Düşük','POC — en yüksek hacimli fiyat','Value Area — toplam hacmin yaklaşık %70\'i','LVN — ince işlem hacmi, hızla geçilir','FTX Çöküşü Dibi, Kas. 2022 ($15.586)','Bir HVN oluştu → 2023 boyunca destek olarak dayandı','2018 Nis.–Kas. arası 6.000 dolar bandı desteği','7 ay savunuldu, ardından o yıl Aralık\'ta 3.200 dolar bandına çöktü','Aynı mantıkla bulunan iki seviyeden biri dayandı, diğeri kırıldı') ?></div>
-<div class="vi"><?= $svgVP('Hồ Sơ Khối Lượng — Khái Niệm POC, Value Area và LVN','Biểu Đồ Khối Lượng Theo Từng Mức Giá · Được Kiểm Chứng Bằng Các Trường Hợp Thực Tế','Giá cao','Giá thấp','POC — mức giá có khối lượng lớn nhất','Value Area — khoảng 70% tổng khối lượng','LVN — giao dịch mỏng, đi qua nhanh','Đáy sụp đổ FTX, T11/2022 ($15.586)','Hình thành HVN → giữ vai trò hỗ trợ suốt cả năm 2023','Hỗ trợ quanh 6.000 đô la, T4–T11/2018','Trụ vững 7 tháng, rồi sụp xuống vùng 3.200 đô la vào tháng 12 năm đó','Trong hai mức được tìm ra bằng cùng một logic, một mức trụ vững còn một mức đã vỡ') ?></div>
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">같은 논리로 찾아낸 두 자리 중 하나는 버텼고, 하나는 무너졌다</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Volume Profile, Conceptually — POC, Value Area, and LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">A price-by-price volume histogram · tested against real cases</text>
 
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">High</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Low</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — about 70% of total volume</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — highest-volume price</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — thin trading, moves through fast</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — thin trading, moves through fast</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">Nov 2022 FTX-crash low ($15,586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Formed an HVN → held as support all through 2023</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Apr–Nov 2018 support near $6,000</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Defended 7 months, then collapsed to $3,200s that December</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Of two levels found by the same logic, one held and one broke</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">ボリュームプロファイル概念図 — POC・バリューエリア・LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">価格帯別出来高ヒストグラム・実例による検証</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">高値</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">安値</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">バリューエリア — 全体出来高の約70%</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — 最大出来高価格</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — 出来高希薄、速く通過</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — 出来高希薄、速く通過</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">2022年11月 FTX崩壊時の安値($15,586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">HVN成立 → 2023年を通じて支持線として機能</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">2018年4〜11月 6,000ドル台の支持線</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">7ヶ月防衛の後、その年の12月に3,200ドル台へ崩壊</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">同じ論理で見つけた二つの水準のうち、一方は持ちこたえ、一方は崩れた</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perfil de Volumen, en Concepto — POC, Value Area y LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Histograma de volumen por nivel de precio · contrastado con casos reales</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Alto</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Bajo</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — cerca del 70% del volumen total</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — precio de mayor volumen</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — negociación escasa, se atraviesa rápido</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — negociación escasa, se atraviesa rápido</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">Mínimo del colapso de FTX, nov. 2022 ($15,586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Formó un HVN → sostuvo como soporte durante todo 2023</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Soporte en la zona de $6,000, abr.–nov. 2018</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Defendido 7 meses, luego colapsó a la zona de $3,200 ese diciembre</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">De dos niveles hallados con la misma lógica, uno aguantó y el otro se rompió</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Volumenprofil im Konzept — POC, Value Area und LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Volumen-Histogramm nach Preisniveau · anhand realer Fälle geprüft</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Hoch</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Tief</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — rund 70% des Gesamtvolumens</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — Preis mit dem höchsten Volumen</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — dünner Handel, wird schnell durchquert</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — dünner Handel, wird schnell durchquert</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">FTX-Crash-Tief, Nov. 2022 ($15.586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Bildete ein HVN → hielt 2023 durchgehend als Unterstützung</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Unterstützung um 6.000 $, Apr.–Nov. 2018</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">7 Monate verteidigt, dann im Dezember auf rund 3.200 $ eingebrochen</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Von zwei mit derselben Logik gefundenen Niveaus hielt eines, das andere brach</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Profil de Volume, en Concept — POC, Value Area et LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Histogramme de volume par niveau de prix · vérifié sur des cas réels</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Haut</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Bas</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — environ 70% du volume total</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — prix au plus fort volume</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — échanges faibles, traversée rapide</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — échanges faibles, traversée rapide</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">Plancher du krach FTX, nov. 2022 (15 586 $)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">A formé un HVN → a tenu comme support tout au long de 2023</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Support autour de 6 000 $, avr.–nov. 2018</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Défendu 7 mois, puis effondré vers 3 200 $ en décembre de cette année-là</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Sur deux niveaux trouvés avec la même logique, l'un a tenu et l'autre a cédé</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perfil de Volume, em Conceito — POC, Value Area e LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Histograma de volume por faixa de preço · testado com casos reais</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Alto</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Baixo</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — cerca de 70% do volume total</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — preço de maior volume</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — negociação fina, atravessa rápido</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — negociação fina, atravessa rápido</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">Mínima do colapso da FTX, nov. 2022 (US$ 15.586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Formou um HVN → sustentou como suporte durante todo 2023</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Suporte na faixa de US$ 6.000, abr.–nov. 2018</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Defendido por 7 meses, depois desabou para US$ 3.200 naquele dezembro</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">De dois níveis encontrados pela mesma lógica, um resistiu e o outro cedeu</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Kavramsal Hacim Profili — POC, Value Area ve LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Fiyat Düzeyine Göre Hacim Histogramı · Gerçek Örneklerle Sınandı</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Yüksek</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Düşük</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — toplam hacmin yaklaşık %70'i</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — en yüksek hacimli fiyat</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — ince işlem hacmi, hızla geçilir</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — ince işlem hacmi, hızla geçilir</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">FTX Çöküşü Dibi, Kas. 2022 ($15.586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Bir HVN oluştu → 2023 boyunca destek olarak dayandı</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">2018 Nis.–Kas. arası 6.000 dolar bandı desteği</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">7 ay savunuldu, ardından o yıl Aralık'ta 3.200 dolar bandına çöktü</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Aynı mantıkla bulunan iki seviyeden biri dayandı, diğeri kırıldı</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Hồ Sơ Khối Lượng — Khái Niệm POC, Value Area và LVN</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Biểu Đồ Khối Lượng Theo Từng Mức Giá · Được Kiểm Chứng Bằng Các Trường Hợp Thực Tế</text>
+
+    <line x1="170" y1="60" x2="170" y2="260" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="170" y="55" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Giá cao</text>
+    <text x="170" y="275" fill="#a1a1aa" font-size="12" text-anchor="middle" font-family="sans-serif">Giá thấp</text>
+
+    <rect x="170" y="121" width="450" height="78" fill="#38bdf8" opacity="0.08"/>
+    <text x="175" y="115" fill="#38bdf8" font-size="13" font-family="sans-serif">Value Area — khoảng 70% tổng khối lượng</text>
+
+    <rect x="170" y="72" width="40" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="98" width="95" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="124" width="230" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="150" width="430" height="20" rx="3" fill="#fb923c"/>
+    <text x="180" y="164" fill="#1c1006" font-size="13" font-weight="700" font-family="sans-serif">POC — mức giá có khối lượng lớn nhất</text>
+    <rect x="170" y="176" width="250" height="20" rx="3" fill="#38bdf8" opacity="0.85"/>
+    <rect x="170" y="202" width="110" height="20" rx="3" fill="#52525b"/>
+    <rect x="170" y="228" width="45" height="20" rx="3" fill="#52525b"/>
+
+    <text x="300" y="86" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — giao dịch mỏng, đi qua nhanh</text>
+    <text x="300" y="216" fill="#a1a1aa" font-size="13" font-family="sans-serif">LVN — giao dịch mỏng, đi qua nhanh</text>
+
+    <rect x="30" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#4ade80" stroke-width="1.5"/>
+    <circle cx="52" cy="316" r="9" fill="#4ade80"/>
+    <text x="52" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✓</text>
+    <text x="70" y="320" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">Đáy sụp đổ FTX, T11/2022 ($15.586)</text>
+    <text x="50" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Hình thành HVN → giữ vai trò hỗ trợ suốt cả năm 2023</text>
+
+    <rect x="370" y="295" width="300" height="90" rx="8" fill="#111113" stroke="#f87171" stroke-width="1.5"/>
+    <circle cx="392" cy="316" r="9" fill="#f87171"/>
+    <text x="392" y="320" fill="#0b0b0c" font-size="12" font-weight="700" text-anchor="middle" font-family="sans-serif">✕</text>
+    <text x="410" y="320" fill="#f87171" font-size="13" font-weight="700" font-family="sans-serif">Hỗ trợ quanh 6.000 đô la, T4–T11/2018</text>
+    <text x="390" y="348" fill="#d4d4d8" font-size="13" font-family="sans-serif">Trụ vững 7 tháng, rồi sụp xuống vùng 3.200 đô la vào tháng 12 năm đó</text>
+
+    <text x="350" y="395" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Trong hai mức được tìm ra bằng cùng một logic, một mức trụ vững còn một mức đã vỡ</text>
+  </svg></div>
 <h2 class="ko">틀렸던 방식과 구조적 한계 — '가장 많이'는 어느 장부의 이야기인가</h2>
 <h2 class="en">Where It Breaks and Why — "Most Traded" According to Whose Ledger</h2>
 <h2 class="ja">誤る仕組みと構造的な限界——「最も多く」とはどの帳簿の話なのか</h2>

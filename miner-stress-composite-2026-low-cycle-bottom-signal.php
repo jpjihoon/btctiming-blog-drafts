@@ -10,12 +10,10 @@
   <p class="tr">Bitcoin madencilerinin mali baskısını bir araya getiren 'Madenci Döngü Stres Bileşimi (Miner Cycle Stress Composite)', 2026'nın yeni bir dibine düşerek 'değeri düşük' aralığına girdi; bunu <strong>Bitcoin.com News</strong> ve <strong>CryptoRank</strong> bildirdi. Bu türden eşzamanlı bir düşüş, geçmişte yalnızca 2015, 2018 ve 2020 piyasa diplerine yakın görülen nadir bir sinyaldir ve Bitcoin yaklaşık 63.800 dolardan işlem görürken, madencilerin beşte biri maliyetin altında coin üretirken geldi.</p>
   <p class="vi">Một thước đo tổng hợp về căng thẳng tài chính của thợ đào Bitcoin — Miner Cycle Stress Composite — đã rơi xuống mức thấp mới của năm 2026 và bước vào vùng 'bị định giá thấp', theo <strong>Bitcoin.com News</strong> và <strong>CryptoRank</strong>. Sự sụt giảm đồng bộ như vậy là một tín hiệu hiếm, trong quá khứ chỉ xuất hiện gần các đáy thị trường năm 2015, 2018 và 2020, và nó đến khi Bitcoin giao dịch quanh 63.800 USD và cứ năm thợ đào thì có một người sản xuất coin dưới giá thành.</p>
 
-<?php
-$svg2 = function($title,$band,$now,$src){ return <<<SVG
-  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
+  <div class="ko">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">비트코인 채굴자 사이클 스트레스 지수 (개념도)</text>
     <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
-    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">$band</text>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">저평가 구간</text>
     <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
     <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
     <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
@@ -25,21 +23,137 @@ $svg2 = function($title,$band,$now,$src){ return <<<SVG
     <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
     <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
     <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
-    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">$now</text>
-    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">$src</text>
-  </svg>
-SVG; };
-?>
-  <div class="ko"><?= $svg2('비트코인 채굴자 사이클 스트레스 지수 (개념도)','저평가 구간','2026 현재','출처: CryptoQuant, Glassnode') ?></div>
-  <div class="en"><?= $svg2('Bitcoin miner cycle stress composite (schematic)','undervalued zone','2026 now','Source: CryptoQuant, Glassnode') ?></div>
-  <div class="ja"><?= $svg2('ビットコイン採掘者サイクル・ストレス指数 (概念図)','低評価ゾーン','2026 現在','出典: CryptoQuant, Glassnode') ?></div>
-  <div class="es"><?= $svg2('Compuesto de estrés del ciclo de mineros BTC (esquema)','zona infravalorada','2026 ahora','Fuente: CryptoQuant, Glassnode') ?></div>
-  <div class="de"><?= $svg2('Bitcoin-Miner-Zyklus-Stress-Komposit (Schema)','unterbewertete Zone','2026 jetzt','Quelle: CryptoQuant, Glassnode') ?></div>
-  <div class="fr"><?= $svg2('Composite de stress du cycle des mineurs BTC (schéma)','zone sous-évaluée','2026 maintenant','Source: CryptoQuant, Glassnode') ?></div>
-  <div class="pt"><?= $svg2('Composto de estresse do ciclo de mineradores BTC (esquema)','zona subvalorizada','2026 agora','Fonte: CryptoQuant, Glassnode') ?></div>
-  <div class="tr"><?= $svg2('Bitcoin madenci döngü stres bileşimi (şema)','değeri düşük bölge','2026 şimdi','Kaynak: CryptoQuant, Glassnode') ?></div>
-  <div class="vi"><?= $svg2('Chỉ số tổng hợp căng thẳng chu kỳ thợ đào BTC (sơ đồ)','vùng bị định giá thấp','2026 hiện tại','Nguồn: CryptoQuant, Glassnode') ?></div>
-
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 현재</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">출처: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="en">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bitcoin miner cycle stress composite (schematic)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">undervalued zone</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 now</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="ja">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">ビットコイン採掘者サイクル・ストレス指数 (概念図)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">低評価ゾーン</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 現在</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">出典: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="es">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Compuesto de estrés del ciclo de mineros BTC (esquema)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">zona infravalorada</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 ahora</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Fuente: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="de">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bitcoin-Miner-Zyklus-Stress-Komposit (Schema)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">unterbewertete Zone</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 jetzt</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Quelle: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="fr">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Composite de stress du cycle des mineurs BTC (schéma)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">zone sous-évaluée</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 maintenant</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="pt">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Composto de estresse do ciclo de mineradores BTC (esquema)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">zona subvalorizada</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 agora</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Fonte: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="tr">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Bitcoin madenci döngü stres bileşimi (şema)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">değeri düşük bölge</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 şimdi</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Kaynak: CryptoQuant, Glassnode</text>
+  </svg></div>
+  <div class="vi">  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Chỉ số tổng hợp căng thẳng chu kỳ thợ đào BTC (sơ đồ)</text>
+    <rect x="55" y="268" width="605" height="54" fill="#14532d" opacity="0.55"/>
+    <text x="65" y="298" fill="#4ade80" font-size="13" font-weight="700" font-family="sans-serif">vùng bị định giá thấp</text>
+    <line x1="55" y1="322" x2="660" y2="322" stroke="#3f3f46"/>
+    <polyline points="70,120 145,292 235,90 320,292 385,115 435,292 525,80 590,205 650,290" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="145" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="320" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="435" cy="292" r="5" fill="#38bdf8"/>
+    <circle cx="650" cy="290" r="6.5" fill="#fb923c"/>
+    <text x="145" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2015</text>
+    <text x="320" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2018</text>
+    <text x="435" y="345" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">2020</text>
+    <text x="640" y="345" fill="#fb923c" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">2026 hiện tại</text>
+    <text x="640" y="368" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Nguồn: CryptoQuant, Glassnode</text>
+  </svg></div>
   <h2 class="ko">무엇이 나타났나 — 10년 만의 희귀 신호</h2>
   <h2 class="en">What appeared — a rare signal in over a decade</h2>
   <h2 class="ja">何が現れたか — 10年ぶりの希少シグナル</h2>

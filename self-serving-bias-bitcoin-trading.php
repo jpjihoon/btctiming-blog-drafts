@@ -110,12 +110,10 @@
 <p class="tr">Bu asimetrinin, koçlu bir spor dalında ya da işyerindeki bir performans değerlendirmesinden farklı olarak trading'de hiçbir itirazla karşılaşmadan hayatta kalmasının nedeni, piyasaların bir hakem sunmamasıdır. Bir koç, maç görüntüsünü geri sarıp açıkça "bu şanssızlık değildi, yanlış bir okumaydı" diyebilir. Piyasa ise size tek bir sayı — bir fiyat — döndürür ve bu fiyat, gözlemlenemeyen milyonlarca üst üste binmiş kararın aşırı belirlenmiş sonucudur. O anda, bir trader'ın bir kayıp hakkında anlatmak istediği herhangi bir nedensel hikaye, pratikte o anda çürütülmesi imkansız hale gelir. İşte bu hakem eksikliği, kendini kayıran hikayenin gerçeklikle ilk temasında bile hayatta kalmasını sağlar.</p>
 <p class="vi">Lý do khiến sự bất đối xứng này tồn tại hoàn toàn không bị thách thức trong giao dịch, khác với một môn thể thao có huấn luyện viên hay một buổi đánh giá hiệu suất công việc, là vì thị trường không cung cấp trọng tài. Một huấn luyện viên có thể tua lại băng ghi hình trận đấu và nói thẳng: "đó không phải xui xẻo, đó là một nhận định sai." Còn thị trường chỉ trả lại cho bạn một con số duy nhất — một mức giá — vốn là kết quả bị quy định quá mức bởi hàng triệu quyết định chồng chéo, không thể quan sát được. Vào khoảnh khắc đó, bất kỳ câu chuyện nhân quả nào mà nhà giao dịch muốn tự kể cho mình về một khoản lỗ đều gần như không thể bác bỏ ngay tại chỗ. Chính sự vắng mặt của trọng tài đó cho phép câu chuyện tự đề cao sống sót qua lần va chạm đầu tiên với thực tế.</p>
 
-<?php
-$svgSelfServe = function($title,$sub,$yLabel,$legA,$legB,$legC,$winLbl,$lossLbl,$noteLbl,$xAxisLbl) { return <<<SVG
-  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
-    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">$yLabel</text>
+<div class="ko">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">자기 위주 편향에 따른 확신과 실력의 격차</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">승리는 실력, 패배는 불운 — 10회 연속 거래에서 벌어지는 간극 · 개념도</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">확신 / 실력 수준</text>
 
     <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
 
@@ -138,34 +136,358 @@ $svgSelfServe = function($title,$sub,$yLabel,$legA,$legB,$legC,$winLbl,$lossLbl,
     <circle cx="532" cy="318" r="5" fill="#f87171"/>
     <circle cx="591" cy="318" r="5" fill="#4ade80"/>
     <circle cx="650" cy="318" r="5" fill="#f87171"/>
-    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">$xAxisLbl</text>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">거래 순서 (1 → 10) →</text>
 
     <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
-    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">$legA</text>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">자기 위주 확신 (편향)</text>
     <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
-    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">$legB</text>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">합리적 베이지안 확신</text>
     <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
-    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">$legC</text>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">실제 실력 (변화 없음)</text>
 
     <circle cx="270" cy="380" r="5" fill="#4ade80"/>
-    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">$winLbl</text>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">승</text>
     <circle cx="420" cy="380" r="5" fill="#f87171"/>
-    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">$lossLbl</text>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">패</text>
 
-    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">$noteLbl</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgSelfServe('자기 위주 편향에 따른 확신과 실력의 격차','승리는 실력, 패배는 불운 — 10회 연속 거래에서 벌어지는 간극 · 개념도','확신 / 실력 수준','자기 위주 확신 (편향)','합리적 베이지안 확신','실제 실력 (변화 없음)','승','패','다음 손실은 이 격차만큼 커진다','거래 순서 (1 → 10) →') ?></div>
-<div class="en"><?= $svgSelfServe('The Confidence-Skill Gap Created by Self-Serving Bias','Wins are skill, losses are bad luck — the gap that opens over 10 trades · conceptual illustration','Confidence / Skill Level','Self-serving confidence (biased)','Rational Bayesian confidence','Actual skill (unchanged)','Win','Loss','The next loss scales with this gap','Trade sequence (1 → 10) →') ?></div>
-<div class="ja"><?= $svgSelfServe('自己奉仕バイアスが生む確信と実力の格差','勝ちは実力、負けは不運 ― 10回のトレードで広がる差・概念図','確信/実力の水準','自己奉仕的な確信(バイアス)','合理的なベイズ確信','実際の実力(変化なし)','勝','負','次の損失はこの格差の分だけ大きくなる','取引の順番(1→10)→') ?></div>
-<div class="es"><?= $svgSelfServe('La Brecha Entre Confianza y Habilidad Creada por el Sesgo de Autoservicio','Ganar es habilidad, perder es mala suerte — la brecha que se abre en 10 operaciones · ilustración conceptual','Nivel de Confianza / Habilidad','Confianza autoservicial (sesgada)','Confianza bayesiana racional','Habilidad real (sin cambios)','Gan.','Pérd.','La próxima pérdida escala con esta brecha','Secuencia de operaciones (1 → 10) →') ?></div>
-<div class="de"><?= $svgSelfServe('Die Vertrauens-Fähigkeits-Lücke durch Self-Serving Bias','Gewinne sind Können, Verluste sind Pech — die Lücke, die sich über 10 Trades öffnet · schematische Darstellung','Vertrauen / Fähigkeitsniveau','Selbstwertdienliches Vertrauen (verzerrt)','Rationales bayessches Vertrauen','Tatsächliche Fähigkeit (unverändert)','Gewinn','Verlust','Der nächste Verlust wächst mit dieser Lücke','Trade-Reihenfolge (1 → 10) →') ?></div>
-<div class="fr"><?= $svgSelfServe('L\'Écart Confiance-Compétence Créé par le Biais d\'Auto-Complaisance','Les gains sont dus au talent, les pertes à la malchance — l\'écart qui se creuse sur 10 trades · illustration conceptuelle','Niveau de Confiance / Compétence','Confiance auto-complaisante (biaisée)','Confiance bayésienne rationnelle','Compétence réelle (inchangée)','Gain','Perte','La prochaine perte s\'aligne sur cet écart','Séquence de trades (1 → 10) →') ?></div>
-<div class="pt"><?= $svgSelfServe('A Lacuna Entre Confiança e Habilidade Criada pelo Viés de Autosserviço','Ganhos são habilidade, perdas são azar — a lacuna que se abre em 10 operações · ilustração conceitual','Nível de Confiança / Habilidade','Confiança autosservente (viesada)','Confiança bayesiana racional','Habilidade real (inalterada)','Ganho','Perda','A próxima perda cresce junto com essa lacuna','Sequência de operações (1 → 10) →') ?></div>
-<div class="tr"><?= $svgSelfServe('Kendini Kayırma Yanlılığının Yarattığı Güven-Yetenek Farkı','Kazançlar yetenek, kayıplar şanssızlıktır — 10 işlemde açılan fark · kavramsal gösterim','Güven / Yetenek Düzeyi','Kendini kayıran güven (yanlı)','Rasyonel Bayesyen güven','Gerçek yetenek (değişmez)','Kazanç','Kayıp','Bir sonraki kayıp bu farkla birlikte büyür','İşlem sırası (1 → 10) →') ?></div>
-<div class="vi"><?= $svgSelfServe('Khoảng Cách Giữa Sự Tự Tin và Năng Lực Do Thiên Kiến Tự Đề Cao Tạo Ra','Thắng là do năng lực, thua là do xui xẻo — khoảng cách mở rộng qua 10 lệnh giao dịch · minh họa khái niệm','Mức Độ Tự Tin / Năng Lực','Tự tin thiên vị bản thân (bị lệch)','Tự tin Bayesian hợp lý','Năng lực thực (không đổi)','Thắng','Thua','Khoản lỗ tiếp theo sẽ lớn theo khoảng cách này','Thứ tự giao dịch (1 → 10) →') ?></div>
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">다음 손실은 이 격차만큼 커진다</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The Confidence-Skill Gap Created by Self-Serving Bias</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Wins are skill, losses are bad luck — the gap that opens over 10 trades · conceptual illustration</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Confidence / Skill Level</text>
 
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Trade sequence (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Self-serving confidence (biased)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Rational Bayesian confidence</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Actual skill (unchanged)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Win</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Loss</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">The next loss scales with this gap</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">自己奉仕バイアスが生む確信と実力の格差</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">勝ちは実力、負けは不運 ― 10回のトレードで広がる差・概念図</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">確信/実力の水準</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">取引の順番(1→10)→</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">自己奉仕的な確信(バイアス)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">合理的なベイズ確信</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">実際の実力(変化なし)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">勝</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">負</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">次の損失はこの格差の分だけ大きくなる</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">La Brecha Entre Confianza y Habilidad Creada por el Sesgo de Autoservicio</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Ganar es habilidad, perder es mala suerte — la brecha que se abre en 10 operaciones · ilustración conceptual</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Nivel de Confianza / Habilidad</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Secuencia de operaciones (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Confianza autoservicial (sesgada)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Confianza bayesiana racional</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Habilidad real (sin cambios)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gan.</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Pérd.</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">La próxima pérdida escala con esta brecha</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Die Vertrauens-Fähigkeits-Lücke durch Self-Serving Bias</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Gewinne sind Können, Verluste sind Pech — die Lücke, die sich über 10 Trades öffnet · schematische Darstellung</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Vertrauen / Fähigkeitsniveau</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Trade-Reihenfolge (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Selbstwertdienliches Vertrauen (verzerrt)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Rationales bayessches Vertrauen</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Tatsächliche Fähigkeit (unverändert)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gewinn</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Verlust</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Der nächste Verlust wächst mit dieser Lücke</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">L'Écart Confiance-Compétence Créé par le Biais d'Auto-Complaisance</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Les gains sont dus au talent, les pertes à la malchance — l'écart qui se creuse sur 10 trades · illustration conceptuelle</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Niveau de Confiance / Compétence</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Séquence de trades (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Confiance auto-complaisante (biaisée)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Confiance bayésienne rationnelle</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Compétence réelle (inchangée)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gain</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Perte</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">La prochaine perte s'aligne sur cet écart</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">A Lacuna Entre Confiança e Habilidade Criada pelo Viés de Autosserviço</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Ganhos são habilidade, perdas são azar — a lacuna que se abre em 10 operações · ilustração conceitual</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Nível de Confiança / Habilidade</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Sequência de operações (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Confiança autosservente (viesada)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Confiança bayesiana racional</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Habilidade real (inalterada)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Ganho</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Perda</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">A próxima perda cresce junto com essa lacuna</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Kendini Kayırma Yanlılığının Yarattığı Güven-Yetenek Farkı</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Kazançlar yetenek, kayıplar şanssızlıktır — 10 işlemde açılan fark · kavramsal gösterim</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Güven / Yetenek Düzeyi</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">İşlem sırası (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Kendini kayıran güven (yanlı)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Rasyonel Bayesyen güven</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Gerçek yetenek (değişmez)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Kazanç</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Kayıp</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Bir sonraki kayıp bu farkla birlikte büyür</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Khoảng Cách Giữa Sự Tự Tin và Năng Lực Do Thiên Kiến Tự Đề Cao Tạo Ra</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Thắng là do năng lực, thua là do xui xẻo — khoảng cách mở rộng qua 10 lệnh giao dịch · minh họa khái niệm</text>
+    <text x="26" y="180" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 180)">Mức Độ Tự Tin / Năng Lực</text>
+
+    <polygon points="414,84 473,84 532,84 591,69.6 650,69.6 650,168 591,168 532,168 473,168 414,168" fill="#fb923c" opacity="0.14"/>
+
+    <line x1="60" y1="168" x2="650" y2="168" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+
+    <polyline points="60,180 119,158.4 178,182.4 237,160.8 296,180 355,160.8 414,182.4 473,192 532,175.2 591,187.2 650,172.8" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+
+    <polyline points="60,180 119,151.2 178,151.2 237,127.2 296,103.2 355,103.2 414,84 473,84 532,84 591,69.6 650,69.6" fill="none" stroke="#fb923c" stroke-width="3"/>
+    <circle cx="650" cy="69.6" r="6" fill="#fb923c"/>
+    <circle cx="650" cy="168" r="4.5" fill="#a1a1aa"/>
+
+    <line x1="60" y1="308" x2="650" y2="308" stroke="#27272a"/>
+    <circle cx="119" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="178" cy="318" r="5" fill="#f87171"/>
+    <circle cx="237" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="296" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="355" cy="318" r="5" fill="#f87171"/>
+    <circle cx="414" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="473" cy="318" r="5" fill="#f87171"/>
+    <circle cx="532" cy="318" r="5" fill="#f87171"/>
+    <circle cx="591" cy="318" r="5" fill="#4ade80"/>
+    <circle cx="650" cy="318" r="5" fill="#f87171"/>
+    <text x="355" y="336" fill="#52525b" font-size="11" text-anchor="middle" font-family="sans-serif">Thứ tự giao dịch (1 → 10) →</text>
+
+    <line x1="40" y1="350" x2="62" y2="350" stroke="#fb923c" stroke-width="3"/>
+    <text x="68" y="354" fill="#fb923c" font-size="13" font-family="sans-serif" font-weight="700">Tự tin thiên vị bản thân (bị lệch)</text>
+    <line x1="290" y1="350" x2="312" y2="350" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="318" y="354" fill="#38bdf8" font-size="13" font-family="sans-serif">Tự tin Bayesian hợp lý</text>
+    <line x1="530" y1="350" x2="552" y2="350" stroke="#71717a" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="558" y="354" fill="#a1a1aa" font-size="13" font-family="sans-serif">Năng lực thực (không đổi)</text>
+
+    <circle cx="270" cy="380" r="5" fill="#4ade80"/>
+    <text x="280" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Thắng</text>
+    <circle cx="420" cy="380" r="5" fill="#f87171"/>
+    <text x="430" y="384" fill="#a1a1aa" font-size="13" font-family="sans-serif">Thua</text>
+
+    <text x="660" y="48" fill="#fb923c" font-size="12" text-anchor="end" font-family="sans-serif">Khoản lỗ tiếp theo sẽ lớn theo khoảng cách này</text>
+  </svg></div>
 <h2 class="ko">크립토가 이 편향을 사회적으로 뒷받침해 주는 방식</h2>
 <h2 class="en">How Crypto Gives This Bias Social Backing</h2>
 <h2 class="ja">クリプトがこの偏りに社会的な裏付けを与える方法</h2>

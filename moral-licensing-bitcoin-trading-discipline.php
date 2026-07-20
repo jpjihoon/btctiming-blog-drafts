@@ -110,16 +110,14 @@
 <p class="tr">Bunu trading diline çevirdiğinizde ürkütücü bir cümle ortaya çıkıyor — "bir sonraki işlemde kesinlikle zarar durdur emrime uyacağım" kararlılığı, "bu ayın sonuna kadar kaldıracı azaltacağım" planı, kendisi zaten şu anda, tam da bu işlemde disiplini bozmak için psikolojik gerekçe sağlıyor olabilir. Pek çok trading koçluk içeriğinin önerdiği "bir dahaki sefere kesinlikle uyacağına kendine söz ver" tavsiyesi, Cascio ve Plant'ın verileri karşısında tam tersi bir etki yaratma riski taşıyor. Geleceğe dair bir sözün şimdiki zamanda bir lisansa dönüştüğü an, o söz artık disiplinin aracı değil, çöküşünün yakıtı haline gelir.</p>
 <p class="vi">Chuyển sang ngôn ngữ giao dịch, điều này trở thành một câu nói rợn người — quyết tâm "tôi chắc chắn sẽ tuân thủ lệnh cắt lỗ ở giao dịch tiếp theo", kế hoạch "tôi sẽ giảm đòn bẩy vào cuối tháng này", tự bản thân nó có thể đã đang cung cấp sự biện minh tâm lý cho việc phá vỡ kỷ luật ngay bây giờ, trong chính giao dịch này. Lời khuyên mà rất nhiều nội dung huấn luyện giao dịch đưa ra — "hãy tự hứa với bản thân rằng lần sau chắc chắn sẽ tuân thủ" — mang rủi ro tạo ra hiệu ứng ngược lại với ý định, theo dữ liệu của Cascio và Plant. Ngay khoảnh khắc một lời hứa cho tương lai biến thành giấy phép cho hiện tại, lời hứa đó không còn là công cụ của kỷ luật nữa mà trở thành nhiên liệu cho sự sụp đổ của nó.</p>
 
-<?php
-$svgLicense = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$interventionLbl,$loopLbl,$noteLbl) { return <<<SVG
-  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
-    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">$sub</text>
+<div class="ko">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">도덕적 면허 효과가 만드는 순환 고리</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">모냉·밀러(2001)와 캐시오·플랜트(2015)의 인과관계를 트레이딩에 적용한 개념도</text>
 
     <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
     <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
     <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
-    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">$row1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">규칙을 지킨다 — 혹은 "다음엔 지키겠다"고 다짐만 한다</text>
 
     <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
     <polygon points="304,163 310,171 316,163" fill="#71717a"/>
@@ -127,10 +125,10 @@ $svgLicense = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$inte
     <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
     <circle cx="70" cy="211" r="16" fill="#fb923c"/>
     <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
-    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">$row2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">"나는 원칙 있는 트레이더"라는 신용이 쌓인다</text>
 
     <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
-    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$interventionLbl</text>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">구조적 제약이 끊어야 할 지점</text>
     <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
     <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
     <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
@@ -139,8 +137,8 @@ $svgLicense = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$inte
     <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
     <circle cx="70" cy="331" r="16" fill="#fb923c"/>
     <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
-    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row3a</text>
-    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row3b</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">다음 거래에서 그 신용을 근거로</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">규칙을 건너뛴다 (손절 해제·사이즈 확대)</text>
 
     <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
     <polygon points="304,379 310,387 316,379" fill="#71717a"/>
@@ -148,27 +146,375 @@ $svgLicense = function($title,$sub,$row1,$row2,$row3a,$row3b,$row4a,$row4b,$inte
     <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
     <circle cx="70" cy="427" r="16" fill="#f87171"/>
     <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
-    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row4a</text>
-    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">$row4b</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">안전장치 없이 무너진다</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(쌓아둔 신용은 이미 소비됐다)</text>
 
     <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
     <polygon points="594,109 582,115 594,121" fill="#52525b"/>
-    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">$loopLbl</text>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">다음 라운드에서 반복</text>
 
-    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">$noteLbl</text>
-  </svg>
-SVG; };
-?>
-<div class="ko"><?= $svgLicense('도덕적 면허 효과가 만드는 순환 고리','모냉·밀러(2001)와 캐시오·플랜트(2015)의 인과관계를 트레이딩에 적용한 개념도','규칙을 지킨다 — 혹은 "다음엔 지키겠다"고 다짐만 한다','"나는 원칙 있는 트레이더"라는 신용이 쌓인다','다음 거래에서 그 신용을 근거로','규칙을 건너뛴다 (손절 해제·사이즈 확대)','안전장치 없이 무너진다','(쌓아둔 신용은 이미 소비됐다)','구조적 제약이 끊어야 할 지점','다음 라운드에서 반복','모냉 외(2001)·캐시오·플랜트(2015)의 인과 구조를 트레이딩에 적용한 개념도 — 실제 수치가 아님') ?></div>
-<div class="en"><?= $svgLicense('The Loop That Moral Licensing Creates','A conceptual diagram applying the causal chain of Monin &amp; Miller (2001) and Cascio &amp; Plant (2015) to trading','You follow the rule — or merely resolve to follow it next time','The credential &#8220;I am a disciplined trader&#8221; accumulates','On the next trade, using that credential as grounds,','the rule gets skipped &#8212; stop removed, size increased','It collapses with no safety net left','(the banked credential has already been spent)','Where a structural constraint must cut in','Repeats next round','Conceptual diagram applying the causal structure of Monin et al. (2001) and Cascio &amp; Plant (2015) to trading &#8212; not actual data') ?></div>
-<div class="ja"><?= $svgLicense('道徳的免許効果が作る循環ループ','モナン・ミラー(2001)とキャシオ・プラント(2015)の因果関係をトレーディングに当てはめた概念図','ルールを守る――あるいは「次は守る」と誓うだけ','「自分は原則あるトレーダーだ」という信用が積み上がる','次の取引で、その信用を根拠に','ルールを飛ばす(ストップ解除・サイズ拡大)','安全装置なしに崩れる','(積んだ信用はすでに使われた)','構造的制約が断ち切るべき地点','次のラウンドで繰り返す','モナン他(2001)・キャシオ・プラント(2015)の因果構造をトレーディングに適用した概念図であり、実数値ではない') ?></div>
-<div class="es"><?= $svgLicense('El Bucle Que Crea el Licenciamiento Moral','Diagrama conceptual que aplica la cadena causal de Monin y Miller (2001) y Cascio y Plant (2015) al trading','Sigues la regla — o simplemente prometes seguirla la próxima vez','Se acumula la credencial &#8220;soy un trader disciplinado&#8221;','En el próximo trade, usando esa credencial como base,','se salta la regla &#8212; se quita el stop, se aumenta el tamaño','Se derrumba sin red de seguridad','(la credencial acumulada ya fue gastada)','Donde debe intervenir una restricción estructural','Se repite en la siguiente ronda','Diagrama conceptual que aplica la estructura causal de Monin et al. (2001) y Cascio y Plant (2015) al trading &#8212; no son datos reales') ?></div>
-<div class="de"><?= $svgLicense('Die Schleife, die Moralisches Lizenzieren Erzeugt','Konzeptdiagramm, das die Kausalkette von Monin &amp; Miller (2001) und Cascio &amp; Plant (2015) auf den Handel überträgt','Du befolgst die Regel — oder gelobst nur, sie beim nächsten Mal zu befolgen','Das Guthaben &#8220;Ich bin ein disziplinierter Trader&#8221; wächst','Beim nächsten Trade, gestützt auf dieses Guthaben,','wird die Regel übersprungen &#8212; Stop weg, Größe erhöht','Es bricht zusammen &#8212; ohne Sicherheitsnetz','(das angesparte Guthaben ist bereits ausgegeben)','Wo eine strukturelle Beschränkung eingreifen muss','Wiederholt sich in der nächsten Runde','Konzeptdiagramm, das die Kausalstruktur von Monin et al. (2001) und Cascio &amp; Plant (2015) auf den Handel überträgt &#8212; keine realen Daten') ?></div>
-<div class="fr"><?= $svgLicense('La Boucle Créée par le Permis Moral','Diagramme conceptuel appliquant la chaîne causale de Monin et Miller (2001) et Cascio et Plant (2015) au trading','Vous suivez la règle — ou promettez simplement de la suivre la prochaine fois','Le crédit &#8220;je suis un trader discipliné&#8221; s\'accumule','Lors du prochain trade, en s\'appuyant sur ce crédit,','la règle est contournée &#8212; stop retiré, taille augmentée','Cela s\'effondre sans filet de sécurité','(le crédit accumulé a déjà été dépensé)','Là où une contrainte structurelle doit intervenir','Se répète au tour suivant','Diagramme conceptuel appliquant la structure causale de Monin et al. (2001) et Cascio et Plant (2015) au trading &#8212; pas des données réelles') ?></div>
-<div class="pt"><?= $svgLicense('O Ciclo Que o Licenciamento Moral Cria','Diagrama conceitual aplicando a cadeia causal de Monin e Miller (2001) e Cascio e Plant (2015) ao trading','Você segue a regra — ou apenas promete segui-la da próxima vez','A credencial &#8220;sou um trader disciplinado&#8221; se acumula','No próximo trade, usando essa credencial como base,','a regra é pulada &#8212; stop removido, tamanho aumentado','Desmorona sem rede de segurança','(a credencial acumulada já foi gasta)','Onde uma restrição estrutural deve intervir','Repete-se na próxima rodada','Diagrama conceitual aplicando a estrutura causal de Monin et al. (2001) e Cascio e Plant (2015) ao trading &#8212; não são dados reais') ?></div>
-<div class="tr"><?= $svgLicense('Ahlaki Lisanslamanın Yarattığı Döngü','Monin ve Miller (2001) ile Cascio ve Plant (2015)\'in nedensel zincirini trading\'e uygulayan kavramsal diyagram','Kurala uyarsın — ya da sadece bir dahaki sefere uyacağına söz verirsin','&#8220;Ben disiplinli bir trader\'ım&#8221; kimlik belgesi birikir','Bir sonraki işlemde, bu kimlik belgesini gerekçe göstererek','kural atlanır &#8212; stop kaldırılır, boyut büyütülür','Güvenlik ağı olmadan çöker','(biriktirilen kimlik belgesi çoktan harcandı)','Yapısal bir kısıtlamanın devreye girmesi gereken nokta','Bir sonraki turda tekrarlanır','Monin ve ark. (2001) ile Cascio ve Plant (2015)\'in nedensel yapısını trading\'e uygulayan kavramsal diyagram &#8212; gerçek veri değildir') ?></div>
-<div class="vi"><?= $svgLicense('Vòng Lặp Mà Hiệu Ứng Cấp Phép Đạo Đức Tạo Ra','Sơ đồ khái niệm áp dụng chuỗi nhân quả của Monin và Miller (2001) và Cascio và Plant (2015) vào giao dịch','Bạn tuân theo quy tắc — hoặc chỉ đơn thuần hứa sẽ tuân theo lần sau','&#8220;Tôi là nhà giao dịch có kỷ luật&#8221; được tích lũy','Ở giao dịch tiếp theo, dùng chứng chỉ đó làm căn cứ,','quy tắc bị bỏ qua &#8212; bỏ lệnh dừng, tăng kích thước','Sụp đổ mà không còn lưới an toàn','(chứng chỉ đã tích lũy giờ đã bị tiêu hết)','Nơi một ràng buộc mang tính cấu trúc phải cắt đứt vòng lặp','Lặp lại ở vòng tiếp theo','Sơ đồ khái niệm áp dụng cấu trúc nhân quả của Monin và cộng sự (2001) và Cascio và Plant (2015) vào giao dịch &#8212; không phải số liệu thực tế') ?></div>
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">모냉 외(2001)·캐시오·플랜트(2015)의 인과 구조를 트레이딩에 적용한 개념도 — 실제 수치가 아님</text>
+  </svg></div>
+<div class="en">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">The Loop That Moral Licensing Creates</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">A conceptual diagram applying the causal chain of Monin &amp; Miller (2001) and Cascio &amp; Plant (2015) to trading</text>
 
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">You follow the rule — or merely resolve to follow it next time</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">The credential &#8220;I am a disciplined trader&#8221; accumulates</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Where a structural constraint must cut in</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">On the next trade, using that credential as grounds,</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">the rule gets skipped &#8212; stop removed, size increased</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">It collapses with no safety net left</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(the banked credential has already been spent)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Repeats next round</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Conceptual diagram applying the causal structure of Monin et al. (2001) and Cascio &amp; Plant (2015) to trading &#8212; not actual data</text>
+  </svg></div>
+<div class="ja">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">道徳的免許効果が作る循環ループ</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">モナン・ミラー(2001)とキャシオ・プラント(2015)の因果関係をトレーディングに当てはめた概念図</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">ルールを守る――あるいは「次は守る」と誓うだけ</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">「自分は原則あるトレーダーだ」という信用が積み上がる</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">構造的制約が断ち切るべき地点</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">次の取引で、その信用を根拠に</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">ルールを飛ばす(ストップ解除・サイズ拡大)</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">安全装置なしに崩れる</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(積んだ信用はすでに使われた)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">次のラウンドで繰り返す</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">モナン他(2001)・キャシオ・プラント(2015)の因果構造をトレーディングに適用した概念図であり、実数値ではない</text>
+  </svg></div>
+<div class="es">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">El Bucle Que Crea el Licenciamiento Moral</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Diagrama conceptual que aplica la cadena causal de Monin y Miller (2001) y Cascio y Plant (2015) al trading</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Sigues la regla — o simplemente prometes seguirla la próxima vez</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Se acumula la credencial &#8220;soy un trader disciplinado&#8221;</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Donde debe intervenir una restricción estructural</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">En el próximo trade, usando esa credencial como base,</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">se salta la regla &#8212; se quita el stop, se aumenta el tamaño</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Se derrumba sin red de seguridad</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(la credencial acumulada ya fue gastada)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Se repite en la siguiente ronda</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Diagrama conceptual que aplica la estructura causal de Monin et al. (2001) y Cascio y Plant (2015) al trading &#8212; no son datos reales</text>
+  </svg></div>
+<div class="de">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Die Schleife, die Moralisches Lizenzieren Erzeugt</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Konzeptdiagramm, das die Kausalkette von Monin &amp; Miller (2001) und Cascio &amp; Plant (2015) auf den Handel überträgt</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Du befolgst die Regel — oder gelobst nur, sie beim nächsten Mal zu befolgen</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Das Guthaben &#8220;Ich bin ein disziplinierter Trader&#8221; wächst</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Wo eine strukturelle Beschränkung eingreifen muss</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Beim nächsten Trade, gestützt auf dieses Guthaben,</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">wird die Regel übersprungen &#8212; Stop weg, Größe erhöht</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Es bricht zusammen &#8212; ohne Sicherheitsnetz</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(das angesparte Guthaben ist bereits ausgegeben)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Wiederholt sich in der nächsten Runde</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Konzeptdiagramm, das die Kausalstruktur von Monin et al. (2001) und Cascio &amp; Plant (2015) auf den Handel überträgt &#8212; keine realen Daten</text>
+  </svg></div>
+<div class="fr">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">La Boucle Créée par le Permis Moral</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Diagramme conceptuel appliquant la chaîne causale de Monin et Miller (2001) et Cascio et Plant (2015) au trading</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Vous suivez la règle — ou promettez simplement de la suivre la prochaine fois</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Le crédit &#8220;je suis un trader discipliné&#8221; s'accumule</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Là où une contrainte structurelle doit intervenir</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Lors du prochain trade, en s'appuyant sur ce crédit,</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">la règle est contournée &#8212; stop retiré, taille augmentée</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Cela s'effondre sans filet de sécurité</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(le crédit accumulé a déjà été dépensé)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Se répète au tour suivant</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Diagramme conceptuel appliquant la structure causale de Monin et al. (2001) et Cascio et Plant (2015) au trading &#8212; pas des données réelles</text>
+  </svg></div>
+<div class="pt">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">O Ciclo Que o Licenciamento Moral Cria</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Diagrama conceitual aplicando a cadeia causal de Monin e Miller (2001) e Cascio e Plant (2015) ao trading</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Você segue a regra — ou apenas promete segui-la da próxima vez</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">A credencial &#8220;sou um trader disciplinado&#8221; se acumula</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Onde uma restrição estrutural deve intervir</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">No próximo trade, usando essa credencial como base,</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">a regra é pulada &#8212; stop removido, tamanho aumentado</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Desmorona sem rede de segurança</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(a credencial acumulada já foi gasta)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Repete-se na próxima rodada</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Diagrama conceitual aplicando a estrutura causal de Monin et al. (2001) e Cascio e Plant (2015) ao trading &#8212; não são dados reais</text>
+  </svg></div>
+<div class="tr">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Ahlaki Lisanslamanın Yarattığı Döngü</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Monin ve Miller (2001) ile Cascio ve Plant (2015)'in nedensel zincirini trading'e uygulayan kavramsal diyagram</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Kurala uyarsın — ya da sadece bir dahaki sefere uyacağına söz verirsin</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">&#8220;Ben disiplinli bir trader'ım&#8221; kimlik belgesi birikir</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Yapısal bir kısıtlamanın devreye girmesi gereken nokta</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Bir sonraki işlemde, bu kimlik belgesini gerekçe göstererek</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">kural atlanır &#8212; stop kaldırılır, boyut büyütülür</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Güvenlik ağı olmadan çöker</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(biriktirilen kimlik belgesi çoktan harcandı)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Bir sonraki turda tekrarlanır</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Monin ve ark. (2001) ile Cascio ve Plant (2015)'in nedensel yapısını trading'e uygulayan kavramsal diyagram &#8212; gerçek veri değildir</text>
+  </svg></div>
+<div class="vi">  <svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Vòng Lặp Mà Hiệu Ứng Cấp Phép Đạo Đức Tạo Ra</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Sơ đồ khái niệm áp dụng chuỗi nhân quả của Monin và Miller (2001) và Cascio và Plant (2015) vào giao dịch</text>
+
+    <rect x="40" y="75" width="540" height="80" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="70" cy="115" r="16" fill="#38bdf8"/>
+    <text x="70" y="120" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">1</text>
+    <text x="100" y="121" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">Bạn tuân theo quy tắc — hoặc chỉ đơn thuần hứa sẽ tuân theo lần sau</text>
+
+    <line x1="310" y1="155" x2="310" y2="163" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,163 310,171 316,163" fill="#71717a"/>
+
+    <rect x="40" y="171" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.10" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="70" cy="211" r="16" fill="#fb923c"/>
+    <text x="70" y="216" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">2</text>
+    <text x="100" y="217" fill="#e4e4e7" font-size="14.5" text-anchor="start" font-family="sans-serif">&#8220;Tôi là nhà giao dịch có kỷ luật&#8221; được tích lũy</text>
+
+    <line x1="310" y1="251" x2="310" y2="258" stroke="#71717a" stroke-width="1.5"/>
+    <text x="310" y="266" fill="#f87171" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">Nơi một ràng buộc mang tính cấu trúc phải cắt đứt vòng lặp</text>
+    <line x1="40" y1="271" x2="580" y2="271" stroke="#f87171" stroke-width="2" stroke-dasharray="6,5"/>
+    <circle cx="310" cy="271" r="13" fill="#111113" stroke="#f87171" stroke-width="2"/>
+    <text x="310" y="276" fill="#f87171" font-size="16" font-weight="700" text-anchor="middle" font-family="sans-serif">&#10005;</text>
+    <line x1="310" y1="284" x2="310" y2="291" stroke="#71717a" stroke-width="1.5"/>
+
+    <rect x="40" y="291" width="540" height="80" rx="10" fill="#fb923c" fill-opacity="0.20" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="70" cy="331" r="16" fill="#fb923c"/>
+    <text x="70" y="336" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">3</text>
+    <text x="100" y="321" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Ở giao dịch tiếp theo, dùng chứng chỉ đó làm căn cứ,</text>
+    <text x="100" y="341" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">quy tắc bị bỏ qua &#8212; bỏ lệnh dừng, tăng kích thước</text>
+
+    <line x1="310" y1="371" x2="310" y2="379" stroke="#71717a" stroke-width="2"/>
+    <polygon points="304,379 310,387 316,379" fill="#71717a"/>
+
+    <rect x="40" y="387" width="540" height="80" rx="10" fill="#f87171" fill-opacity="0.14" stroke="#f87171" stroke-width="2"/>
+    <circle cx="70" cy="427" r="16" fill="#f87171"/>
+    <text x="70" y="432" fill="#0a0a0b" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">4</text>
+    <text x="100" y="417" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">Sụp đổ mà không còn lưới an toàn</text>
+    <text x="100" y="437" fill="#e4e4e7" font-size="14" text-anchor="start" font-family="sans-serif">(chứng chỉ đã tích lũy giờ đã bị tiêu hết)</text>
+
+    <path d="M580,427 L615,427 L615,115 L588,115" stroke="#52525b" stroke-width="2" fill="none" stroke-dasharray="5,4"/>
+    <polygon points="594,109 582,115 594,121" fill="#52525b"/>
+    <text x="630" y="271" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif" transform="rotate(-90 630 271)">Lặp lại ở vòng tiếp theo</text>
+
+    <text x="350" y="505" fill="#52525b" font-size="13" text-anchor="middle" font-family="sans-serif">Sơ đồ khái niệm áp dụng cấu trúc nhân quả của Monin và cộng sự (2001) và Cascio và Plant (2015) vào giao dịch &#8212; không phải số liệu thực tế</text>
+  </svg></div>
 <h2 class="ko">하우스 머니 효과와 다른 지점 — 그리고 비트코인이 이 효과의 최적 배양지인 이유</h2>
 <h2 class="en">How This Differs From the House-Money Effect — and Why Bitcoin Is the Perfect Breeding Ground for It</h2>
 <h2 class="ja">ハウスマネー効果と異なる点 ― そしてビットコインがこの効果の最適な培養地である理由</h2>

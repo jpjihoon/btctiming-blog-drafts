@@ -10,10 +10,8 @@
   <p class="tr">Solana'nın haftalık oy dışı (non-vote) işlem sayısı tarihte ilk kez bir milyarı aştı; bunu <strong>Solana Compass</strong> ve <strong>The Coin Republic</strong> bildirdi. Doğrulayıcıların uzlaşıya varmak için alışverişini yaptığı oy işlemlerini dışarıda bırakıp yalnızca gerçek kullanıcılar ve uygulamalarca oluşturulan işlemleri sayan bu rakam, 6 Temmuz'da biten haftada bir milyarı geçti. Önceki haftanın 962,4 milyonu da o dönem için bir rekordu ve oy dışı işlemler bu yılın 1 Ocak'ından bu yana iki kattan fazla arttı.</p>
   <p class="vi">Số lượng giao dịch không bỏ phiếu (non-vote) hàng tuần của Solana đã lần đầu tiên vượt mốc một tỷ, theo <strong>Solana Compass</strong> và <strong>The Coin Republic</strong>. Con số này — loại bỏ các giao dịch bỏ phiếu mà các trình xác thực trao đổi để đạt đồng thuận và chỉ đếm các giao dịch do người dùng và ứng dụng thực tạo ra — đã vượt một tỷ trong tuần kết thúc ngày 6 tháng 7. Con số 962,4 triệu của tuần trước đó vốn cũng là kỷ lục vào thời điểm ấy, và giao dịch không bỏ phiếu đã tăng hơn gấp đôi kể từ ngày 1 tháng 1 năm nay.</p>
 
-<?php
-$svg1 = function($title,$b1,$b2,$b3,$src){ return <<<SVG
-  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
-    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">$title</text>
+  <div class="ko">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">솔라나 주간 논보트 거래 (백만 건)</text>
     <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
     <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
     <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
@@ -21,23 +19,123 @@ $svg1 = function($title,$b1,$b2,$b3,$src){ return <<<SVG
     <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
     <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
     <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
-    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">$b1</text>
-    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">$b2</text>
-    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">$b3</text>
-    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">$src</text>
-  </svg>
-SVG; };
-?>
-  <div class="ko"><?= $svg1('솔라나 주간 논보트 거래 (백만 건)','1월 초','직전 주','이번 주 · 첫 10억','출처: Solana Compass, The Coin Republic') ?></div>
-  <div class="en"><?= $svg1('Solana weekly non-vote transactions (millions)','early Jan','prior week','this week · first 1B','Source: Solana Compass, The Coin Republic') ?></div>
-  <div class="ja"><?= $svg1('ソラナ 週間ノンボート取引 (百万件)','1月初','直前週','今週・初の10億','出典: Solana Compass, The Coin Republic') ?></div>
-  <div class="es"><?= $svg1('Transacciones no-voto semanales de Solana (millones)','ppios. enero','semana previa','esta semana · 1º 1000M','Fuente: Solana Compass, The Coin Republic') ?></div>
-  <div class="de"><?= $svg1('Solana wöchentliche Nicht-Vote-Transaktionen (Mio.)','Anfang Jan.','Vorwoche','diese Woche · 1. Mrd.','Quelle: Solana Compass, The Coin Republic') ?></div>
-  <div class="fr"><?= $svg1('Transactions hors-vote hebdomadaires de Solana (millions)','début janv.','sem. précéd.','cette sem. · 1er mrd','Source: Solana Compass, The Coin Republic') ?></div>
-  <div class="pt"><?= $svg1('Transações sem voto semanais da Solana (milhões)','início jan.','semana ant.','esta semana · 1º bi','Fonte: Solana Compass, The Coin Republic') ?></div>
-  <div class="tr"><?= $svg1('Solana haftalık oy dışı işlemler (milyon)','Ocak başı','önceki hafta','bu hafta · ilk 1 mlr','Kaynak: Solana Compass, The Coin Republic') ?></div>
-  <div class="vi"><?= $svg1('Giao dịch không bỏ phiếu hàng tuần của Solana (triệu)','đầu tháng 1','tuần trước','tuần này · 1 tỷ đầu','Nguồn: Solana Compass, The Coin Republic') ?></div>
-
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">1월 초</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">직전 주</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">이번 주 · 첫 10억</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">출처: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="en">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Solana weekly non-vote transactions (millions)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">early Jan</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">prior week</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">this week · first 1B</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="ja">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">ソラナ 週間ノンボート取引 (百万件)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">1月初</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">直前週</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">今週・初の10億</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">出典: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="es">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Transacciones no-voto semanales de Solana (millones)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">ppios. enero</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">semana previa</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">esta semana · 1º 1000M</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Fuente: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="de">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Solana wöchentliche Nicht-Vote-Transaktionen (Mio.)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Anfang Jan.</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Vorwoche</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">diese Woche · 1. Mrd.</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Quelle: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="fr">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Transactions hors-vote hebdomadaires de Solana (millions)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">début janv.</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">sem. précéd.</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">cette sem. · 1er mrd</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Source: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="pt">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Transações sem voto semanais da Solana (milhões)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">início jan.</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">semana ant.</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">esta semana · 1º bi</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Fonte: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="tr">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Solana haftalık oy dışı işlemler (milyon)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">Ocak başı</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">önceki hafta</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">bu hafta · ilk 1 mlr</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Kaynak: Solana Compass, The Coin Republic</text>
+  </svg></div>
+  <div class="vi">  <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Giao dịch không bỏ phiếu hàng tuần của Solana (triệu)</text>
+    <line x1="60" y1="300" x2="660" y2="300" stroke="#3f3f46"/>
+    <rect x="110" y="170" width="90" height="130" fill="#52525b"/>
+    <rect x="305" y="50"  width="90" height="250" fill="#14b8a6"/>
+    <rect x="500" y="40"  width="90" height="260" fill="#14f195"/>
+    <text x="155" y="160" fill="#a1a1aa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">~500</text>
+    <text x="350" y="40"  fill="#5eead4" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">962.4</text>
+    <text x="545" y="30"  fill="#14f195" font-size="15" font-weight="700" text-anchor="middle" font-family="sans-serif">1,000+</text>
+    <text x="155" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">đầu tháng 1</text>
+    <text x="350" y="322" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif">tuần trước</text>
+    <text x="545" y="322" fill="#d4d4d8" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">tuần này · 1 tỷ đầu</text>
+    <text x="640" y="348" fill="#52525b" font-size="11" text-anchor="end" font-family="sans-serif">Nguồn: Solana Compass, The Coin Republic</text>
+  </svg></div>
   <h2 class="ko">무슨 일이 일어났나 — 주간 10억 건 돌파</h2>
   <h2 class="en">What happened — crossing one billion a week</h2>
   <h2 class="ja">何が起きたか — 週間10億件突破</h2>
