@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "청산 클러스터·매크로 반등",
   "tag_en": "Liquidation Cluster & Macro Rebound",
@@ -22,6 +27,11 @@
   "tag_pt": "Cluster de Liquidação e Recuperação Macro",
   "tag_tr": "Tasfiye Kümesi ve Makro Toparlanma",
   "tag_vi": "Cụm Thanh Lý và Phục Hồi Vĩ Mô",
+  "tag_id": "Klaster Likuidasi & Rebound Makro",
+  "tag_pl": "Klaster Likwidacji i Odbicie Makro",
+  "tag_it": "Cluster di Liquidazione e Rimbalzo Macro",
+  "tag_ru": "Кластер ликвидации и макроотскок",
+  "tag_zh": "清算叢集與總體反彈",
 
   "title_ko": "비트코인, 청산 트리거 구간 한복판에 섰다 — 위 숏 6.89억달러 vs 아래 롱 2.67억달러",
   "title_en": "Bitcoin Is Standing Right in a Liquidation Trigger Zone — $689M in Shorts Above vs $267M in Longs Below",
@@ -32,6 +42,11 @@
   "title_pt": "O Bitcoin Está Bem no Meio de uma Zona Gatilho de Liquidação — $689M em Vendidos Acima vs $267M em Comprados Abaixo",
   "title_tr": "Bitcoin Tam Bir Tasfiye Tetikleme Bölgesinin Ortasında Duruyor — Üzerinde 689M$ Short vs Altında 267M$ Long",
   "title_vi": "Bitcoin Đang Đứng Ngay Giữa Vùng Kích Hoạt Thanh Lý — 689 Triệu Đô La Short Phía Trên vs 267 Triệu Đô La Long Phía Dưới",
+  "title_id": "Bitcoin Berdiri Tepat di Zona Pemicu Likuidasi — $689 Juta Short di Atas vs $267 Juta Long di Bawah",
+  "title_pl": "Bitcoin Stoi Dokładnie w Strefie Wyzwalającej Likwidacje — $689 mln Shortów Powyżej vs $267 mln Longów Poniżej",
+  "title_it": "Il Bitcoin Si Trova Proprio in una Zona Innesco di Liquidazione — $689 Milioni di Short Sopra vs $267 Milioni di Long Sotto",
+  "title_ru": "Биткоин стоит прямо в зоне триггера ликвидации — $689 млн шортов сверху против $267 млн лонгов снизу",
+  "title_zh": "比特幣正站在清算觸發區間正中央——上方6.89億美元空頭 vs 下方2.67億美元多頭",
 
   "h1_ko": "청산 트리거 구간 한복판에 선<br>비트코인의 반등",
   "h1_en": "Bitcoin's Rebound, Standing<br>in a Liquidation Trigger Zone",
@@ -42,6 +57,11 @@
   "h1_pt": "A Recuperação do Bitcoin,<br>Numa Zona Gatilho de Liquidação",
   "h1_tr": "Bitcoin'in Toparlanması,<br>Tasfiye Tetikleme Bölgesinde",
   "h1_vi": "Đà Phục Hồi của Bitcoin,<br>Đứng Giữa Vùng Kích Hoạt Thanh Lý",
+  "h1_id": "Rebound Bitcoin, Berdiri<br>di Zona Pemicu Likuidasi",
+  "h1_pl": "Odbicie Bitcoina,<br>w Strefie Wyzwalającej Likwidacje",
+  "h1_it": "Il Rimbalzo di Bitcoin,<br>in una Zona Innesco di Liquidazione",
+  "h1_ru": "Отскок биткоина —<br>в зоне триггера ликвидации",
+  "h1_zh": "站在清算觸發區間中的<br>比特幣反彈",
 
   "bc_ko": "청산 클러스터·매크로 반등 점검",
   "bc_en": "Liquidation Cluster & Macro Rebound Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação de Cluster de Liquidação e Recuperação Macro",
   "bc_tr": "Tasfiye Kümesi ve Makro Toparlanma Kontrolü",
   "bc_vi": "Kiểm Tra Cụm Thanh Lý và Phục Hồi Vĩ Mô",
+  "bc_id": "Pemeriksaan Klaster Likuidasi & Rebound Makro",
+  "bc_pl": "Kontrola Klastra Likwidacji i Odbicia Makro",
+  "bc_it": "Controllo Cluster di Liquidazione e Rimbalzo Macro",
+  "bc_ru": "Проверка кластера ликвидации и макроотскока",
+  "bc_zh": "清算叢集與總體反彈檢視",
 
   "desc_ko": "7월 10일 비트코인이 $64,244까지 오르며(+2.08%) 4.2% 주간 상승을 기록했다. 달러 약세와 아시아 반도체주 랠리가 만든 매크로 반등이지만, 가격은 하필 코인글래스 집계 기준 위로 6억 8,900만 달러 숏 청산, 아래로 2억 6,700만 달러 롱 청산이 걸린 구간 한복판에 서 있다. 같은 날 ETF는 9,530만 달러 순유출로 돌아섰고 공포탐욕지수는 소스마다 23~30으로 갈린다. 청산 클러스터, ETF 자금, 심리 지표가 서로 다른 이야기를 하는 지금 국면을 진단한다.",
   "desc_en": "On July 10, bitcoin rose to $64,244 (+2.08%), putting the week's gain at 4.2%. The rebound was macro-driven — a weaker dollar and an Asian semiconductor rally — but price now sits right in the middle of a CoinGlass-tracked zone with $689 million in short liquidations above and $267 million in long liquidations below. The same day, ETFs flipped to a $95.3 million net outflow, and the Fear & Greed Index reads anywhere from 23 to 30 depending on the source. A look at a phase where liquidation clusters, ETF flows, and sentiment gauges are telling different stories.",
@@ -61,5 +86,11 @@
   "desc_fr": "Le 10 juillet, le bitcoin est monté à 64 244 dollars (+2,08 %), portant le gain hebdomadaire à 4,2 %. Le rebond était d'origine macro — un dollar plus faible et un rallye des semi-conducteurs asiatiques — mais le prix se trouve désormais en plein milieu d'une zone relevée par CoinGlass avec 689 millions de dollars de liquidations courtes au-dessus et 267 millions de dollars de liquidations longues en dessous. Le même jour, les ETF sont passés à une sortie nette de 95,3 millions de dollars, et l'indice Fear & Greed affiche entre 23 et 30 selon la source. Un examen d'une phase où clusters de liquidation, flux ETF et indicateurs de sentiment racontent des histoires différentes.",
   "desc_pt": "Em 10 de julho, o bitcoin subiu para $64.244 (+2,08%), deixando o ganho semanal em 4,2%. A recuperação foi impulsionada por fatores macro — um dólar mais fraco e um rali de semicondutores asiáticos — mas o preço agora está bem no meio de uma zona rastreada pela CoinGlass com $689 milhões em liquidações vendidas acima e $267 milhões em liquidações compradas abaixo. No mesmo dia, os ETFs viraram para uma saída líquida de $95,3 milhões, e o Índice de Medo e Ganância marca entre 23 e 30 dependendo da fonte. Uma análise de uma fase em que clusters de liquidação, fluxos de ETF e indicadores de sentimento contam histórias diferentes.",
   "desc_tr": "10 Temmuz'da bitcoin 64.244 dolara (+%2,08) yükseldi ve haftalık kazancı %4,2'ye taşıdı. Toparlanma makro kaynaklıydı — daha zayıf bir dolar ve Asya yarı iletken rallisi — ancak fiyat şu anda CoinGlass tarafından izlenen, üzerinde 689 milyon dolarlık short tasfiyesi, altında 267 milyon dolarlık long tasfiyesi bulunan bir bölgenin tam ortasında duruyor. Aynı gün ETF'ler 95,3 milyon dolarlık net çıkışa döndü ve Korku ve Açgözlülük Endeksi kaynağa göre 23 ile 30 arasında değişiyor. Tasfiye kümelerinin, ETF akışlarının ve duyarlılık göstergelerinin farklı hikâyeler anlattığı bir aşamaya bakış.",
-  "desc_vi": "Vào ngày 10 tháng 7, bitcoin tăng lên 64.244 đô la (+2,08%), đưa mức tăng trong tuần lên 4,2%. Đà phục hồi này được thúc đẩy bởi yếu tố vĩ mô — đồng đô la yếu hơn và đợt tăng giá cổ phiếu bán dẫn châu Á — nhưng giá hiện đang nằm ngay giữa một vùng được CoinGlass theo dõi với 689 triệu đô la thanh lý short ở phía trên và 267 triệu đô la thanh lý long ở phía dưới. Cùng ngày, các ETF chuyển sang dòng rút ròng 95,3 triệu đô la, và Chỉ số Sợ hãi & Tham lam dao động từ 23 đến 30 tùy nguồn. Một góc nhìn về giai đoạn mà cụm thanh lý, dòng vốn ETF và các chỉ báo tâm lý đang kể những câu chuyện khác nhau."
+  "desc_vi": "Vào ngày 10 tháng 7, bitcoin tăng lên 64.244 đô la (+2,08%), đưa mức tăng trong tuần lên 4,2%. Đà phục hồi này được thúc đẩy bởi yếu tố vĩ mô — đồng đô la yếu hơn và đợt tăng giá cổ phiếu bán dẫn châu Á — nhưng giá hiện đang nằm ngay giữa một vùng được CoinGlass theo dõi với 689 triệu đô la thanh lý short ở phía trên và 267 triệu đô la thanh lý long ở phía dưới. Cùng ngày, các ETF chuyển sang dòng rút ròng 95,3 triệu đô la, và Chỉ số Sợ hãi & Tham lam dao động từ 23 đến 30 tùy nguồn. Một góc nhìn về giai đoạn mà cụm thanh lý, dòng vốn ETF và các chỉ báo tâm lý đang kể những câu chuyện khác nhau.",
+
+  "desc_id": "Bitcoin naik ke $64,244, tapi berada di zona CoinGlass dengan $689 juta short di atas dan $267 juta long di bawah, saat ETF dan sentimen berbeda arah.",
+  "desc_pl": "Bitcoin wzrósł do $64,244, ale stoi w strefie CoinGlass z $689 mln likwidacji shortów powyżej i $267 mln longów poniżej, gdy ETF-y i nastroje są rozbieżne.",
+  "desc_it": "Bitcoin è salito a $64,244 ma si trova in una zona CoinGlass con $689M di liquidazioni short sopra e $267M di long sotto, mentre ETF e sentiment divergono.",
+  "desc_ru": "Биткоин вырос до $64,244, но стоит в зоне CoinGlass с $689 млн ликвидаций шортов сверху и $267 млн лонгов снизу, а ETF и настроения расходятся.",
+  "desc_zh": "7月10日比特幣升至$64,244(漲2.08%),反彈由總體因素驅動,但價格站在CoinGlass清算區間中央——上方6.89億美元空頭部位、下方2.67億美元多頭部位,同日ETF轉為淨流出,恐懼與貪婪指數各來源說法也不一致,週漲幅來到4.2%。"
 }

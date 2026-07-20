@@ -9,6 +9,11 @@
   <p class="pt">A BNB Chain, o ecossistema blockchain ligado à Binance, revelou planos para construir uma Layer-1 separada, projetada especificamente para negociação de alta frequência impulsionada por agentes de inteligência artificial (IA), segundo reportagens da CoinDesk e da Decrypt em 8 de julho. A nova rede não substituirá a BNB Smart Chain (BSC), a opBNB ou a Greenfield existentes — ela funcionará ao lado delas, conectada por uma ponte nativa oficial. Uma testnet pública é esperada para o fim de 2026, com o lançamento da mainnet visado para o início de 2027.</p>
   <p class="tr">Binance ile bağlantılı blok zinciri ekosistemi BNB Chain, yapay zeka (AI) ajanları tarafından yönlendirilen yüksek frekanslı ticaret için özel olarak tasarlanmış, ayrı bir Layer-1 blok zinciri inşa etme planlarını açıkladı; bu gelişme CoinDesk ve Decrypt tarafından 8 Temmuz'da haber yapıldı. Yeni ağ, mevcut BNB Smart Chain (BSC), opBNB veya Greenfield'ı değiştirmeyecek — resmi bir yerel köprüyle bağlı olarak bunlarla birlikte çalışacak. Genel test ağı 2026 sonu için, ana ağ lansmanı ise 2027 başı için hedefleniyor.</p>
   <p class="vi">BNB Chain, hệ sinh thái blockchain liên kết với Binance, đã công bố kế hoạch xây dựng một Layer-1 riêng biệt, được thiết kế chuyên biệt cho giao dịch tần suất cao do các tác nhân trí tuệ nhân tạo (AI) điều khiển, theo CoinDesk và Decrypt đưa tin ngày 8 tháng 7. Mạng lưới mới sẽ không thay thế BNB Smart Chain (BSC), opBNB hay Greenfield hiện có — nó sẽ hoạt động song song với chúng, được kết nối qua một cầu nối gốc chính thức. Testnet công khai được đặt mục tiêu vào cuối năm 2026, với việc ra mắt mainnet nhắm đến đầu năm 2027.</p>
+  <p class="id">BNB Chain, ekosistem blockchain yang terkait dengan Binance, mengumumkan rencana untuk membangun blockchain Layer-1 terpisah yang dirancang khusus untuk perdagangan frekuensi tinggi yang digerakkan oleh agen kecerdasan buatan (AI), demikian dilaporkan CoinDesk dan Decrypt pada 8 Juli. Jaringan baru ini tidak akan menggantikan BNB Smart Chain (BSC), opBNB, atau Greenfield yang sudah ada — jaringan ini akan berjalan berdampingan dengan mereka, terhubung melalui jembatan native resmi. Testnet publik ditargetkan pada akhir 2026, dengan peluncuran mainnet ditargetkan pada awal 2027.</p>
+  <p class="pl">BNB Chain, ekosystem blockchain powiązany z Binance, ujawnił plany zbudowania osobnego, dedykowanego blockchaina warstwy 1 (Layer-1), zaprojektowanego specjalnie dla handlu wysokiej częstotliwości napędzanego przez agentów sztucznej inteligencji (AI) — poinformowały CoinDesk i Decrypt 8 lipca. Nowa sieć nie zastąpi istniejących BNB Smart Chain (BSC), opBNB ani Greenfield — będzie działać równolegle z nimi, połączona oficjalnym natywnym mostem. Publiczny testnet planowany jest na koniec 2026 roku, a start mainnetu na początek 2027 roku.</p>
+  <p class="it">BNB Chain, l'ecosistema blockchain legato a Binance, ha svelato i piani per costruire una blockchain Layer-1 separata e progettata appositamente per il trading ad alta frequenza guidato da agenti di intelligenza artificiale (IA), secondo quanto riportato da CoinDesk e Decrypt l'8 luglio. La nuova rete non sostituirà l'esistente BNB Smart Chain (BSC), opBNB o Greenfield — funzionerà insieme a esse, collegata tramite un bridge nativo ufficiale. Una testnet pubblica è prevista per la fine del 2026, con il lancio della mainnet previsto per l'inizio del 2027.</p>
+  <p class="ru">BNB Chain, экосистема блокчейна, связанная с Binance, представила планы по созданию отдельного блокчейна уровня 1 (Layer-1), разработанного специально для высокочастотной торговли под управлением ИИ-агентов, сообщили CoinDesk и Decrypt 8 июля. Новая сеть не заменит существующие BNB Smart Chain (BSC), opBNB или Greenfield — она будет работать параллельно с ними, соединённая через официальный нативный мост. Публичный тестнет запланирован на конец 2026 года, запуск mainnet — на начало 2027 года.</p>
+  <p class="zh">幣安旗下的BNB鏈生態系統宣布計劃打造一條獨立的專用第一層(Layer-1)區塊鏈,專門為AI代理驅動的高頻交易而設計,CoinDesk與Decrypt於7月8日報導。新網路不會取代現有的BNB智能鏈(BSC)、opBNB或Greenfield,而是與它們並行運作,並透過官方原生橋接相連。公開測試網目標為2026年底,主網上線目標為2027年初。</p>
 
   <p class="ko">새 체인이 내건 목표는 초당 10만 건(TPS) 처리와 50밀리초 미만의 거래 확정 시간이다. 설계의 핵심은 'TxStream'이라 불리는 요소로, 트랜잭션을 공개 멤풀(mempool)에 방송하는 기존 방식 대신 블록 생성자(리더)에게 직접 전달한다. 이는 자율 거래 에이전트의 행동을 다른 참여자가 미리 관찰해 선행매매(프론트러닝)하거나 앞뒤로 감싸 공격(샌드위치 공격)할 수 있는 시간 창을 없애는 것을 목표로 한다.</p>
   <p class="en">The new network's stated targets are 100,000 transactions per second and sub-50-millisecond transaction confirmation. Central to the design is a component called TxStream, which routes transactions directly to block leaders instead of broadcasting them to a shared public mempool. The goal is to close the window in which other participants can observe an autonomous trading agent's activity and front-run or sandwich-attack it before the trade settles.</p>
@@ -19,6 +24,11 @@
   <p class="pt">As metas declaradas da nova rede são 100 mil transações por segundo e confirmação de transações em menos de 50 milissegundos. O elemento central do design é um componente chamado TxStream, que encaminha as transações diretamente aos líderes de bloco em vez de transmiti-las a um mempool público compartilhado. O objetivo é fechar a janela na qual outros participantes podem observar a atividade de um agente de negociação autônomo e realizar front-running ou ataques sandwich antes que a operação seja liquidada.</p>
   <p class="tr">Yeni ağın belirtilen hedefleri saniyede 100.000 işlem (TPS) ve 50 milisaniyenin altında işlem onayıdır. Tasarımın merkezinde, işlemleri paylaşılan genel bir mempool'a yayınlamak yerine doğrudan blok liderlerine yönlendiren TxStream adlı bir bileşen bulunuyor. Amaç, diğer katılımcıların otonom bir ticaret ajanının hareketini önceden gözlemleyip işlem tamamlanmadan önce ön alım (front-running) veya sandviç saldırısı yapabileceği zaman penceresini kapatmak.</p>
   <p class="vi">Các mục tiêu được công bố của mạng lưới mới là 100.000 giao dịch mỗi giây và thời gian xác nhận giao dịch dưới 50 mili giây. Trọng tâm của thiết kế là một thành phần có tên TxStream, định tuyến giao dịch trực tiếp đến các block leader thay vì phát chúng ra một mempool công khai dùng chung. Mục tiêu là đóng lại khoảng thời gian mà những người tham gia khác có thể quan sát hoạt động của một tác nhân giao dịch tự động và thực hiện front-running hoặc tấn công sandwich trước khi giao dịch được xử lý xong.</p>
+  <p class="id">Target yang dinyatakan untuk jaringan baru ini adalah 100.000 transaksi per detik dan konfirmasi transaksi di bawah 50 milidetik. Inti dari desainnya adalah komponen bernama TxStream, yang mengarahkan transaksi langsung ke block leader alih-alih menyiarkannya ke mempool publik bersama. Tujuannya adalah menutup celah waktu di mana peserta lain dapat mengamati aktivitas agen trading otonom dan melakukan front-running atau serangan sandwich sebelum transaksi selesai.</p>
+  <p class="pl">Deklarowane cele nowej sieci to 100 000 transakcji na sekundę oraz potwierdzanie transakcji w czasie poniżej 50 milisekund. Kluczowym elementem projektu jest komponent o nazwie TxStream, który kieruje transakcje bezpośrednio do liderów bloków zamiast rozgłaszać je we wspólnym, publicznym mempoolu. Celem jest zamknięcie okna czasowego, w którym inni uczestnicy mogliby obserwować działania autonomicznego agenta handlowego i przeprowadzić front-running lub atak typu sandwich, zanim transakcja zostanie rozliczona.</p>
+  <p class="it">Gli obiettivi dichiarati della nuova rete sono 100.000 transazioni al secondo e una conferma delle transazioni in meno di 50 millisecondi. Al centro del design c'è un componente chiamato TxStream, che instrada le transazioni direttamente ai block leader invece di trasmetterle a un mempool pubblico condiviso. L'obiettivo è chiudere la finestra temporale in cui altri partecipanti possono osservare l'attività di un agente di trading autonomo ed eseguire front-running o attacchi sandwich prima che la transazione venga finalizzata.</p>
+  <p class="ru">Заявленные цели новой сети — 100 000 транзакций в секунду и подтверждение транзакций менее чем за 50 миллисекунд. В основе архитектуры лежит компонент под названием TxStream, который направляет транзакции напрямую лидерам блоков вместо трансляции их в общий публичный мемпул. Цель — закрыть временное окно, в течение которого другие участники могут наблюдать за действиями автономного торгового агента и совершать фронтраннинг или сэндвич-атаку до завершения сделки.</p>
+  <p class="zh">新網路宣稱的目標是每秒處理10萬筆交易(TPS),並將交易確認時間壓縮至50毫秒以下。設計的核心是一個名為TxStream的元件,它將交易直接傳送給區塊領導者(block leader),而非廣播到共享的公開記憶池(mempool)。其目標是消除其他參與者觀察自主交易代理行為、並在交易結算前進行搶先交易(front-running)或三明治攻擊的時間窗口。</p>
 
   <h2 class="ko">멤풀을 없앤다는 것의 의미 — AI 에이전트 거래의 구조적 취약점</h2>
   <h2 class="en">What Killing the Mempool Actually Means — the Structural Weak Point in AI-Agent Trading</h2>
@@ -29,6 +39,11 @@
   <h2 class="pt">O Que Realmente Significa Eliminar o Mempool — o Ponto Fraco Estrutural da Negociação com Agentes de IA</h2>
   <h2 class="tr">Mempool'u Ortadan Kaldırmak Gerçekte Ne Anlama Geliyor — Yapay Zeka Ajan Ticaretindeki Yapısal Zayıf Nokta</h2>
   <h2 class="vi">Việc Xóa Bỏ Mempool Thực Sự Có Ý Nghĩa Gì — Điểm Yếu Cấu Trúc Trong Giao Dịch Bằng Tác Nhân AI</h2>
+  <h2 class="id">Apa Arti Sebenarnya dari Menghapus Mempool — Titik Lemah Struktural dalam Trading Agen AI</h2>
+  <h2 class="pl">Co Tak Naprawdę Oznacza Zabicie Mempoola — Strukturalny Słaby Punkt w Handlu Prowadzonym Przez Agentów AI</h2>
+  <h2 class="it">Cosa Significa Davvero Eliminare il Mempool — Il Punto Debole Strutturale nel Trading con Agenti IA</h2>
+  <h2 class="ru">Что На Самом Деле Означает Уничтожение Мемпула — Структурная Уязвимость Торговли ИИ-Агентами</h2>
+  <h2 class="zh">消除記憶池真正代表的意義 — AI代理交易的結構性弱點</h2>
 
   <p class="ko">이더리움 계열을 포함한 대부분의 퍼블릭 블록체인에서 트랜잭션은 블록에 담기기 전 '멤풀'이라는 공개 대기열에 잠시 머문다. 이 대기열은 누구나 들여다볼 수 있어, 봇들은 대기 중인 거래를 감지해 같은 블록 안에서 앞뒤로 자신의 거래를 끼워 넣어 가격을 왜곡시키는 '샌드위치 공격'을 실행할 수 있다. 사람이 손으로 클릭해 거래하는 개인 투자자에게는 이 시간 창이 수백 밀리초에 불과해 피해가 제한적일 수 있지만, 초당 수백~수천 건의 의사결정을 자동으로 쏟아내는 AI 트레이딩 에이전트에게는 이 구조 자체가 체계적인 착취 대상이 된다 — 에이전트의 전략이 예측 가능해질수록 봇들은 그 패턴을 학습해 선제적으로 움직일 수 있기 때문이다. TxStream은 이 대기열 자체를 없애 트랜잭션이 봇들의 눈에 띄기 전에 곧바로 처리되도록 설계됐다.</p>
   <p class="ko">이 접근은 유일한 해법이 아니다. 솔라나는 별도의 리더 스케줄과 자체적인 MEV 완화 인프라(예: 지프리 릴레이)로 유사한 문제에 대응해왔고, 수이는 합의 메커니즘 자체(미스티세티)를 통해 지연시간을 줄이는 쪽에 무게를 뒀으며, 세이는 트윈터보 합의로 병렬 처리 속도를 끌어올리는 데 집중해왔다. BTCtiming이 별도로 다룬 바 있듯 MEV 추출은 같은 블록 안에서 '백런' 방식으로 이뤄지는 사례도 있어, 문제의 뿌리는 결국 '누가 먼저 정보를 보고 먼저 반응하는가'라는 시퀀싱 게임에 있다. BNB체인의 승부수는 범용 스마트컨트랙트 플랫폼을 계속 개선하는 대신, 애초에 이 시퀀싱 게임이 발생하지 않는 전용 체인을 처음부터 새로 짜는 쪽을 택했다는 점이다 — 이는 하이퍼리퀴드나 dYdX 같은 프로젝트가 범용 체인 위에 세 들어 사는 대신 자체 전용 체인(앱체인)을 택한 흐름과 같은 맥락에 있다.</p>
@@ -48,6 +63,16 @@
   <p class="tr">Bu, soruna yönelik tek yaklaşım değil. Solana, kendi lider takvimi tasarımı ve MEV azaltma altyapısı (Jito röleleri gibi) aracılığıyla benzer sorunlarla mücadele etti; Sui, gecikmeyi sıkıştırmak için kendi mutabakat mekanizmasına (Mysticeti) yaslandı; Sei ise ikiz-turbo mutabakatı aracılığıyla paralelleştirilmiş verime odaklandı. BTCtiming'in ayrı bir yazıda ele aldığı gibi, bazı MEV çıkarımları aynı blok içinde "backrunning" yoluyla gerçekleşiyor; bu da sorunun kökünde, bilgiyi kimin önce görüp en hızlı tepki verdiğine dair bir sıralama oyunu olduğunu ortaya koyuyor. BNB Chain'in bahsi, genel amaçlı bir akıllı sözleşme platformunu yamamaya devam etmek yerine, bu sıralama oyununun baştan itibaren oluşamayacağı özel bir zinciri sıfırdan inşa etmenin daha iyi olduğu yönünde — bu, Hyperliquid ve dYdX gibi projelerin genel amaçlı zincirlerde kiracı olmak yerine kendi özel uygulama zincirlerini inşa etmesine yol açan aynı mantık.</p>
   <p class="vi">Trên Ethereum và hầu hết các blockchain công khai, một giao dịch tạm thời nằm trong hàng đợi công khai gọi là mempool trước khi được đưa vào khối. Hàng đợi đó ai cũng có thể nhìn thấy, cho phép các bot phát hiện các giao dịch đang chờ và chèn giao dịch của riêng chúng vào trước và sau trong cùng một khối — một "cuộc tấn công sandwich" làm méo mó mức giá mà nhà giao dịch ban đầu nhận được. Đối với một con người nhấp chuột thủ công để "hoán đổi", khoảng thời gian phơi nhiễm đó chỉ kéo dài vài trăm mili giây và thiệt hại thường có giới hạn; nhưng đối với một tác nhân giao dịch AI đưa ra hàng trăm hoặc hàng nghìn quyết định tự động mỗi giây, cùng một cấu trúc đó trở nên có thể bị khai thác một cách có hệ thống — chiến lược của một tác nhân càng dễ đoán, các bot càng dễ học được khuôn mẫu đó và đi trước nó. TxStream được thiết kế để loại bỏ hoàn toàn hàng đợi đó, để một giao dịch được xử lý trước khi các bot kịp nhìn thấy nó.</p>
   <p class="vi">Đây không phải là cách tiếp cận duy nhất cho vấn đề này. Solana đã giải quyết các vấn đề tương tự thông qua thiết kế lịch trình leader riêng và hạ tầng giảm thiểu MEV (như các relay Jito); Sui đã dựa vào chính cơ chế đồng thuận của mình (Mysticeti) để nén độ trễ; và Sei đã tập trung vào thông lượng song song hóa thông qua cơ chế đồng thuận twin-turbo. Như BTCtiming đã đưa tin riêng, một số hoạt động khai thác MEV diễn ra thông qua "backrunning" trong cùng một khối, cho thấy gốc rễ của vấn đề là một trò chơi sắp xếp trình tự về việc ai nhìn thấy thông tin trước và phản ứng nhanh nhất. Canh bạc của BNB Chain là thay vì tiếp tục vá lỗi cho một nền tảng hợp đồng thông minh đa dụng, tốt hơn nên xây dựng một chuỗi chuyên dụng từ đầu, nơi trò chơi sắp xếp trình tự đó không thể xảy ra ngay từ đầu — cùng logic đã khiến các dự án như Hyperliquid và dYdX xây dựng chuỗi ứng dụng chuyên dụng của riêng mình thay vì thuê không gian trên các chuỗi đa dụng.</p>
+  <p class="id">Di Ethereum dan sebagian besar blockchain publik, sebuah transaksi berada sejenak dalam antrean publik yang disebut mempool sebelum dimasukkan ke dalam blok. Antrean tersebut dapat dilihat oleh siapa saja, sehingga bot dapat mendeteksi transaksi yang tertunda dan menyisipkan transaksi mereka sendiri sebelum dan sesudahnya dalam blok yang sama — sebuah "serangan sandwich" yang mendistorsi harga yang diterima trader asli. Bagi manusia yang mengklik "swap" secara manual, jendela eksposur tersebut hanya berlangsung beberapa ratus milidetik dan kerugiannya sering kali terbatas; namun bagi agen trading AI yang mengeluarkan ratusan atau ribuan keputusan otomatis per detik, struktur yang sama menjadi dapat dieksploitasi secara sistematis — semakin dapat diprediksi strategi sebuah agen, semakin mudah bot mempelajari polanya dan bergerak lebih dulu. TxStream dirancang untuk menghilangkan antrean tersebut sepenuhnya, sehingga transaksi diproses sebelum bot sempat melihatnya.</p>
+  <p class="id">Ini bukan satu-satunya pendekatan terhadap masalah tersebut. Solana telah mengatasi masalah serupa melalui desain jadwal leader miliknya sendiri dan infrastruktur mitigasi MEV (seperti relay Jito); Sui mengandalkan mekanisme konsensusnya sendiri (Mysticeti) untuk memampatkan latensi; dan Sei berfokus pada throughput paralel melalui konsensus twin-turbo miliknya. Seperti yang telah dibahas BTCtiming secara terpisah, sebagian ekstraksi MEV terjadi melalui "backrunning" dalam blok yang sama, yang menegaskan bahwa akar masalahnya adalah permainan pengurutan (sequencing) tentang siapa yang melihat informasi lebih dulu dan bereaksi paling cepat. Taruhan BNB Chain adalah, alih-alih terus menambal platform smart contract serba guna, lebih baik membangun rantai khusus dari nol di mana permainan pengurutan tersebut sejak awal tidak dapat terjadi — logika yang sama yang mendorong proyek seperti Hyperliquid dan dYdX untuk membangun app-chain khusus mereka sendiri, alih-alih menyewa ruang di rantai serba guna.</p>
+  <p class="pl">Na Ethereum i większości publicznych blockchainów transakcja przebywa chwilę w publicznej kolejce zwanej mempoolem, zanim zostanie umieszczona w bloku. Ta kolejka jest widoczna dla każdego, co pozwala botom wykrywać oczekujące transakcje i wstawiać własne transakcje przed nimi i po nich w tym samym bloku — jest to tzw. "atak sandwich", który zniekształca cenę uzyskiwaną przez pierwotnego tradera. Dla człowieka klikającego ręcznie przycisk "swap" to okno ekspozycji trwa kilkaset milisekund, a szkody są zwykle ograniczone; jednak dla agenta handlowego AI wykonującego setki lub tysiące zautomatyzowanych decyzji na sekundę ta sama struktura staje się systematycznie podatna na wykorzystanie — im bardziej przewidywalna jest strategia agenta, tym łatwiej boty mogą nauczyć się jej wzorca i wyprzedzić go. TxStream został zaprojektowany, by całkowicie usunąć tę kolejkę, dzięki czemu transakcja jest przetwarzana, zanim boty w ogóle zdążą ją zobaczyć.</p>
+  <p class="pl">To nie jedyne podejście do tego problemu. Solana zajęła się podobnymi kwestiami dzięki własnemu projektowi harmonogramu liderów oraz infrastrukturze łagodzącej MEV (np. przekaźniki Jito); Sui oparło się na samym mechanizmie konsensusu (Mysticeti), by skompresować opóźnienia; a Sei skupiło się na zrównoleglonej przepustowości dzięki konsensusowi twin-turbo. Jak BTCtiming opisywał osobno, część ekstrakcji MEV odbywa się poprzez "backrunning" w tym samym bloku, co podkreśla, że źródłem problemu jest gra o kolejność — kto pierwszy zobaczy informację i zareaguje najszybciej. Zakład BNB Chain polega na tym, że zamiast wciąż łatać uniwersalną platformę smart kontraktów, lepiej zbudować dedykowany łańcuch od zera, w którym ta gra o kolejność w ogóle nie może wystąpić — ta sama logika, która skłoniła projekty takie jak Hyperliquid i dYdX do zbudowania własnych dedykowanych app-chainów zamiast wynajmowania miejsca na uniwersalnych łańcuchach.</p>
+  <p class="it">Su Ethereum e sulla maggior parte delle blockchain pubbliche, una transazione rimane brevemente in una coda pubblica chiamata mempool prima di essere inclusa in un blocco. Questa coda è visibile a chiunque, permettendo ai bot di rilevare le operazioni in sospeso e inserire le proprie transazioni prima e dopo di esse all'interno dello stesso blocco — un "attacco sandwich" che distorce il prezzo ottenuto dal trader originale. Per un essere umano che clicca manualmente su "swap", questa finestra di esposizione dura poche centinaia di millisecondi e il danno è spesso limitato; per un agente di trading IA che lancia centinaia o migliaia di decisioni automatizzate al secondo, la stessa struttura diventa sistematicamente sfruttabile — quanto più prevedibile è la strategia di un agente, tanto più facilmente i bot possono apprenderne lo schema e anticiparlo. TxStream è progettato per eliminare del tutto questa coda, in modo che una transazione venga elaborata prima che i bot riescano a vederla.</p>
+  <p class="it">Questo non è l'unico approccio al problema. Solana ha affrontato problemi simili tramite il proprio design del leader-schedule e un'infrastruttura di mitigazione del MEV (come i relay Jito); Sui si è affidata al proprio meccanismo di consenso (Mysticeti) per comprimere la latenza; e Sei si è concentrata sul throughput parallelizzato tramite il suo consenso twin-turbo. Come BTCtiming ha raccontato separatamente, parte dell'estrazione di MEV avviene tramite "backrunning" nello stesso blocco, il che sottolinea come la radice del problema sia un gioco di sequenziamento su chi vede l'informazione per primo e reagisce più velocemente. La scommessa di BNB Chain è che, invece di continuare a rattoppare una piattaforma di smart contract general-purpose, sia meglio costruire da zero una chain dedicata in cui quel gioco di sequenziamento non possa verificarsi affatto — la stessa logica che ha portato progetti come Hyperliquid e dYdX a costruire le proprie app-chain dedicate invece di affittare spazio su chain general-purpose.</p>
+  <p class="ru">В Ethereum и большинстве публичных блокчейнов транзакция ненадолго задерживается в публичной очереди — мемпуле — прежде чем попасть в блок. Эта очередь видна всем, что позволяет ботам обнаруживать ожидающие сделки и вставлять собственные транзакции до и после них в том же блоке — так называемая «сэндвич-атака», искажающая цену, которую получает исходный трейдер. Для человека, вручную нажимающего кнопку обмена, это окно уязвимости длится всего несколько сотен миллисекунд, и ущерб часто ограничен; но для торгового ИИ-агента, совершающего сотни или тысячи автоматических решений в секунду, та же структура становится систематически уязвимой — чем предсказуемее стратегия агента, тем легче ботам изучить её закономерность и опередить его. TxStream разработан так, чтобы полностью устранить эту очередь, поэтому транзакция обрабатывается прежде, чем боты вообще успевают её увидеть.</p>
+  <p class="ru">Это не единственный подход к решению проблемы. Solana решает похожие вопросы через собственную схему расписания лидеров и инфраструктуру снижения MEV (например, реле Jito); Sui опирается на сам механизм консенсуса (Mysticeti) для сжатия задержек; а Sei сосредоточилась на параллельной пропускной способности через консенсус twin-turbo. Как BTCtiming уже освещал отдельно, часть извлечения MEV происходит через «backrunning» в рамках одного блока, что подчёркивает: корень проблемы — это игра на очерёдность, кто первым увидит информацию и быстрее всех отреагирует. Ставка BNB Chain в том, что вместо продолжения латания универсальной платформы смарт-контрактов лучше построить выделенную цепь с нуля, где эта игра на очерёдность в принципе не сможет возникнуть — та же логика, которая привела такие проекты, как Hyperliquid и dYdX, к созданию собственных выделенных app-цепей вместо аренды места на универсальных цепях.</p>
+  <p class="zh">在以太坊及大多數公開區塊鏈上,交易在被納入區塊之前,會先短暫停留在一個名為記憶池(mempool)的公開佇列中。這個佇列任何人都能查看,使機器人能夠偵測到待處理的交易,並在同一區塊內於其前後插入自己的交易——這就是所謂的「三明治攻擊」,會扭曲原始交易者所獲得的價格。對於手動點擊「swap」的一般使用者而言,這段暴露時間只有幾百毫秒,損害通常有限;但對於每秒自動發出數百甚至數千個決策的AI交易代理來說,同樣的結構會變得可被系統性利用——代理的策略越可預測,機器人就越容易學習其模式並搶先行動。TxStream的設計目標正是完全消除這個佇列,讓交易在機器人有機會看到之前就已經被處理完畢。</p>
+  <p class="zh">這並非解決此問題的唯一方法。Solana透過自身的區塊領導者排程設計與MEV緩解基礎設施(例如Jito中繼)來應對類似問題;Sui則依靠其共識機制本身(Mysticeti)來壓縮延遲;Sei則專注於透過其twin-turbo共識機制提升並行吞吐量。正如BTCtiming另文報導過的,部分MEV提取是透過同一區塊內的「backrunning」方式進行的,這凸顯出問題的根源在於一場關於誰先看到資訊、誰反應最快的排序博弈。BNB鏈的賭注在於,與其持續修補一個通用智能合約平台,不如從零開始打造一條專用鏈,從根本上讓這種排序博弈不可能發生——這與Hyperliquid、dYdX等專案選擇打造自己的專用應用鏈(app-chain),而非在通用鏈上租用空間的邏輯如出一轍。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -337,6 +362,166 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Layer-1 AI Baru BNB Chain · Roadmap dan Target Throughput vs. BSC</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Garis Waktu Roadmap</text>
+      <line x1="70" y1="105" x2="630" y2="105" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="140" cy="105" r="8" fill="#f0b90b"/>
+      <text x="140" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Diumumkan</text>
+      <text x="140" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">2026-07-08</text>
+      <circle cx="380" cy="105" r="8" fill="#4ade80"/>
+      <text x="380" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Testnet publik</text>
+      <text x="380" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">Akhir 2026</text>
+      <circle cx="590" cy="105" r="9" fill="#f97316" stroke="#fafafa" stroke-width="2"/>
+      <text x="590" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Mainnet</text>
+      <text x="590" y="130" fill="#f97316" font-size="13" text-anchor="middle" font-weight="800">Awal 2027</text>
+
+      <text x="20" y="180" fill="#a1a1aa" font-size="13" font-weight="700">② Target Throughput (TPS) yang Dinyatakan — Angka Perusahaan, Belum Terverifikasi</text>
+      <text x="80" y="215" fill="#fafafa" font-size="13">BSC (terukur, H1 2026)</text>
+      <rect x="290" y="200" width="26" height="22" fill="#52525b"/>
+      <text x="325" y="216" fill="#a1a1aa" font-size="13">~5.200</text>
+      <text x="80" y="255" fill="#fafafa" font-size="13">BSC (target, H2 2026)</text>
+      <rect x="290" y="240" width="50" height="22" fill="#71717a"/>
+      <text x="350" y="256" fill="#a1a1aa" font-size="13">~10.000 (target)</text>
+      <text x="80" y="295" fill="#fafafa" font-size="13">Layer-1 AI Baru (target)</text>
+      <rect x="290" y="280" width="300" height="22" fill="#f0b90b"/>
+      <text x="600" y="296" fill="#a1a1aa" font-size="13" text-anchor="end">100.000</text>
+      <text x="80" y="340" fill="#a1a1aa" font-size="13">Target konfirmasi: di bawah 50ms · Mekanisme: TxStream (langsung ke leader, tanpa mempool)</text>
+      <text x="80" y="365" fill="#a1a1aa" font-size="13">Perhatian: angka di atas adalah target yang dinyatakan oleh BNB Chain dan media, sebelum</text>
+      <text x="80" y="385" fill="#a1a1aa" font-size="13">peluncuran mainnet, dan dapat berbeda dari kinerja terukur. Hindari perbandingan naif antar-chain.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Nowa Warstwa-1 AI BNB Chain · Plan Działania i Docelowa Przepustowość vs. BSC</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Oś Czasu Planu</text>
+      <line x1="70" y1="105" x2="630" y2="105" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="140" cy="105" r="8" fill="#f0b90b"/>
+      <text x="140" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Ogłoszenie</text>
+      <text x="140" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">2026-07-08</text>
+      <circle cx="380" cy="105" r="8" fill="#4ade80"/>
+      <text x="380" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Publiczny testnet</text>
+      <text x="380" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">Koniec 2026</text>
+      <circle cx="590" cy="105" r="9" fill="#f97316" stroke="#fafafa" stroke-width="2"/>
+      <text x="590" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Mainnet</text>
+      <text x="590" y="130" fill="#f97316" font-size="13" text-anchor="middle" font-weight="800">Początek 2027</text>
+
+      <text x="20" y="180" fill="#a1a1aa" font-size="13" font-weight="700">② Deklarowana Docelowa Przepustowość (TPS) — Dane Firmy, Niezweryfikowane</text>
+      <text x="80" y="215" fill="#fafafa" font-size="13">BSC (zmierzone, H1 2026)</text>
+      <rect x="290" y="200" width="26" height="22" fill="#52525b"/>
+      <text x="325" y="216" fill="#a1a1aa" font-size="13">~5 200</text>
+      <text x="80" y="255" fill="#fafafa" font-size="13">BSC (cel, H2 2026)</text>
+      <rect x="290" y="240" width="50" height="22" fill="#71717a"/>
+      <text x="350" y="256" fill="#a1a1aa" font-size="13">~10 000 (cel)</text>
+      <text x="80" y="295" fill="#fafafa" font-size="13">Nowa Layer-1 AI (cel)</text>
+      <rect x="290" y="280" width="300" height="22" fill="#f0b90b"/>
+      <text x="600" y="296" fill="#a1a1aa" font-size="13" text-anchor="end">100 000</text>
+      <text x="80" y="340" fill="#a1a1aa" font-size="13">Cel potwierdzenia: poniżej 50ms · Mechanizm: TxStream (bezpośrednio do lidera, bez mempoola)</text>
+      <text x="80" y="365" fill="#a1a1aa" font-size="13">Uwaga: powyższe liczby to cele deklarowane przez BNB Chain i prasę, przed</text>
+      <text x="80" y="385" fill="#a1a1aa" font-size="13">startem mainnetu, i mogą różnić się od zmierzonej wydajności. Unikaj naiwnych porównań między łańcuchami.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Nuova Layer-1 IA di BNB Chain · Roadmap e Throughput Target vs. BSC</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Cronologia della Roadmap</text>
+      <line x1="70" y1="105" x2="630" y2="105" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="140" cy="105" r="8" fill="#f0b90b"/>
+      <text x="140" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Annuncio</text>
+      <text x="140" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">2026-07-08</text>
+      <circle cx="380" cy="105" r="8" fill="#4ade80"/>
+      <text x="380" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Testnet pubblica</text>
+      <text x="380" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">Fine 2026</text>
+      <circle cx="590" cy="105" r="9" fill="#f97316" stroke="#fafafa" stroke-width="2"/>
+      <text x="590" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Mainnet</text>
+      <text x="590" y="130" fill="#f97316" font-size="13" text-anchor="middle" font-weight="800">Inizio 2027</text>
+
+      <text x="20" y="180" fill="#a1a1aa" font-size="13" font-weight="700">② Throughput Target Dichiarato (TPS) — Dati dell'Azienda, Non Verificati</text>
+      <text x="80" y="215" fill="#fafafa" font-size="13">BSC (misurato, H1 2026)</text>
+      <rect x="290" y="200" width="26" height="22" fill="#52525b"/>
+      <text x="325" y="216" fill="#a1a1aa" font-size="13">~5.200</text>
+      <text x="80" y="255" fill="#fafafa" font-size="13">BSC (target, H2 2026)</text>
+      <rect x="290" y="240" width="50" height="22" fill="#71717a"/>
+      <text x="350" y="256" fill="#a1a1aa" font-size="13">~10.000 (target)</text>
+      <text x="80" y="295" fill="#fafafa" font-size="13">Nuova Layer-1 IA (target)</text>
+      <rect x="290" y="280" width="300" height="22" fill="#f0b90b"/>
+      <text x="600" y="296" fill="#a1a1aa" font-size="13" text-anchor="end">100.000</text>
+      <text x="80" y="340" fill="#a1a1aa" font-size="13">Target di conferma: sotto i 50ms · Meccanismo: TxStream (diretto al leader, senza mempool)</text>
+      <text x="80" y="365" fill="#a1a1aa" font-size="13">Attenzione: le cifre sopra sono obiettivi dichiarati da BNB Chain e dalla stampa, prima</text>
+      <text x="80" y="385" fill="#a1a1aa" font-size="13">del lancio della mainnet, e potrebbero differire dalle prestazioni misurate. Evitare confronti semplicistici tra chain.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Новый ИИ-Layer-1 BNB Chain · Дорожная карта и целевая пропускная способность vs. BSC</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Хронология дорожной карты</text>
+      <line x1="70" y1="105" x2="630" y2="105" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="140" cy="105" r="8" fill="#f0b90b"/>
+      <text x="140" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Анонс</text>
+      <text x="140" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">2026-07-08</text>
+      <circle cx="380" cy="105" r="8" fill="#4ade80"/>
+      <text x="380" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Публичный тестнет</text>
+      <text x="380" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">Конец 2026</text>
+      <circle cx="590" cy="105" r="9" fill="#f97316" stroke="#fafafa" stroke-width="2"/>
+      <text x="590" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">Mainnet</text>
+      <text x="590" y="130" fill="#f97316" font-size="13" text-anchor="middle" font-weight="800">Начало 2027</text>
+
+      <text x="20" y="180" fill="#a1a1aa" font-size="13" font-weight="700">② Заявленная целевая пропускная способность (TPS) — данные компании, не проверены</text>
+      <text x="80" y="215" fill="#fafafa" font-size="13">BSC (измерено, 1П 2026)</text>
+      <rect x="290" y="200" width="26" height="22" fill="#52525b"/>
+      <text x="325" y="216" fill="#a1a1aa" font-size="13">~5 200</text>
+      <text x="80" y="255" fill="#fafafa" font-size="13">BSC (цель, 2П 2026)</text>
+      <rect x="290" y="240" width="50" height="22" fill="#71717a"/>
+      <text x="350" y="256" fill="#a1a1aa" font-size="13">~10 000 (цель)</text>
+      <text x="80" y="295" fill="#fafafa" font-size="13">Новый ИИ Layer-1 (цель)</text>
+      <rect x="290" y="280" width="300" height="22" fill="#f0b90b"/>
+      <text x="600" y="296" fill="#a1a1aa" font-size="13" text-anchor="end">100 000</text>
+      <text x="80" y="340" fill="#a1a1aa" font-size="13">Цель по подтверждению: менее 50 мс · Механизм: TxStream (напрямую лидеру, без мемпула)</text>
+      <text x="80" y="365" fill="#a1a1aa" font-size="13">Внимание: указанные цифры — цели, заявленные BNB Chain и прессой, до</text>
+      <text x="80" y="385" fill="#a1a1aa" font-size="13">запуска mainnet, и могут отличаться от измеренной производительности. Избегайте наивных межцепочечных сравнений.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">BNB鏈全新AI第一層(Layer-1)· 路線圖與目標吞吐量對比BSC</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">①路線圖時間軸</text>
+      <line x1="70" y1="105" x2="630" y2="105" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="140" cy="105" r="8" fill="#f0b90b"/>
+      <text x="140" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">宣布</text>
+      <text x="140" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">2026-07-08</text>
+      <circle cx="380" cy="105" r="8" fill="#4ade80"/>
+      <text x="380" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">公開測試網</text>
+      <text x="380" y="130" fill="#a1a1aa" font-size="13" text-anchor="middle">2026年底</text>
+      <circle cx="590" cy="105" r="9" fill="#f97316" stroke="#fafafa" stroke-width="2"/>
+      <text x="590" y="86" fill="#a1a1aa" font-size="13" text-anchor="middle">主網</text>
+      <text x="590" y="130" fill="#f97316" font-size="13" text-anchor="middle" font-weight="800">2027年初</text>
+
+      <text x="20" y="180" fill="#a1a1aa" font-size="13" font-weight="700">②宣布的目標吞吐量(TPS)對比 — 公司公布數據,尚未經驗證</text>
+      <text x="80" y="215" fill="#fafafa" font-size="13">BSC(2026上半年實測)</text>
+      <rect x="300" y="200" width="26" height="22" fill="#52525b"/>
+      <text x="335" y="216" fill="#a1a1aa" font-size="13">約5,200</text>
+      <text x="80" y="255" fill="#fafafa" font-size="13">BSC(2026下半年目標)</text>
+      <rect x="300" y="240" width="50" height="22" fill="#71717a"/>
+      <text x="360" y="256" fill="#a1a1aa" font-size="13">約10,000(目標)</text>
+      <text x="80" y="295" fill="#fafafa" font-size="13">全新AI專用Layer-1(目標)</text>
+      <rect x="300" y="280" width="290" height="22" fill="#f0b90b"/>
+      <text x="600" y="296" fill="#a1a1aa" font-size="13" text-anchor="end">100,000</text>
+      <text x="80" y="340" fill="#a1a1aa" font-size="13">確認目標:低於50毫秒 · 機制:TxStream(直接傳送至領導者,無記憶池)</text>
+      <text x="80" y="365" fill="#a1a1aa" font-size="13">注意:上述數字為BNB鏈及媒體報導所公布的目標,尚未經主網</text>
+      <text x="80" y="385" fill="#a1a1aa" font-size="13">上線驗證,可能與實際測得表現不同。避免與其他鏈進行天真的簡單比較。</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">왜 지금인가 — BSC 처리량 로드맵과의 관계, 그리고 회의적 시각</h2>
   <h2 class="en">Why Now: Its Relationship to the BSC Throughput Roadmap, and the Skeptical Read</h2>
@@ -347,6 +532,11 @@
   <h2 class="pt">Por Que Agora: Sua Relação com o Roteiro de Desempenho da BSC, e a Leitura Cética</h2>
   <h2 class="tr">Neden Şimdi: BSC Verim Yol Haritasıyla İlişkisi ve Şüpheci Bakış</h2>
   <h2 class="vi">Tại Sao Là Bây Giờ: Mối Liên Hệ Với Lộ Trình Thông Lượng BSC, và Góc Nhìn Hoài Nghi</h2>
+  <h2 class="id">Mengapa Sekarang: Hubungannya dengan Roadmap Throughput BSC, dan Pandangan Skeptis</h2>
+  <h2 class="pl">Dlaczego Teraz: Jego Związek z Planem Przepustowości BSC oraz Sceptyczne Spojrzenie</h2>
+  <h2 class="it">Perché Ora: Il Suo Legame con la Roadmap di Throughput di BSC, e la Lettura Scettica</h2>
+  <h2 class="ru">Почему Именно Сейчас: Связь с Дорожной Картой Пропускной Способности BSC и Скептический Взгляд</h2>
+  <h2 class="zh">為何是現在——與BSC吞吐量路線圖的關係,以及懷疑的觀點</h2>
 
   <p class="ko">이번 발표는 BNB체인이 지난 7월 8일 공개한 2026년 하반기 로드맵의 일부로 나왔다. BTCtiming이 별도로 다뤘듯, 같은 로드맵에는 기존 BSC 자체의 처리량을 상반기 약 5,200TPS에서 하반기 목표치로 다시 두 배 가까이 끌어올리는 계획도 함께 담겨 있다. 즉 BNB체인은 두 갈래 전략을 동시에 쓰고 있는 셈이다 — 기존 범용 체인(BSC)은 계속 점진적으로 개선하면서, 동시에 AI 에이전트 거래처럼 좁지만 성장 잠재력이 큰 특정 용도를 위해서는 처음부터 새로 설계된 별도 체인을 만드는 방식이다. 이는 코인베이스가 이더리움 레이어1을 계속 개선하는 대신 별도의 레이어2 '베이스'를 만든 방식, 혹은 하이퍼리퀴드·dYdX가 범용 체인을 임차하는 대신 자체 앱체인을 택한 흐름과 구조적으로 닮았다.</p>
   <p class="ko">그러나 낙관적 서사만 있는 것은 아니다. 메인넷은 지금부터 최소 반년, 길게는 1년 가까이 남은 목표로, 아직 실제 가동되는 제품이 아니라 발표 단계의 약속이다. 고처리량·저지연을 내건 신규 레이어1 프로젝트들의 과거 이력을 보면 목표 수치와 실제 메인넷 성능 사이에 상당한 간극이 벌어진 사례가 드물지 않았다. 게다가 완전히 새로운 체인은 BSC가 이미 확보한 검증인 집합, 유동성, 브리지 신뢰 등 네트워크 효과를 처음부터 다시 쌓아야 한다는 '콜드 스타트' 문제를 안고 있다 — 기관·에이전트 주도 거래처럼 신뢰와 깊은 유동성이 특히 중요한 영역을 겨냥한 체인일수록 이 문제는 더 크게 작용한다. 앞으로 지켜볼 지점은 테스트넷에서 실제로 발표된 처리량·지연시간 수치가 재현되는지, 그리고 검증인·유동성 공급자를 확보해 이 체인이 실제 거래량을 끌어오는지 여부다.</p>
@@ -366,6 +556,16 @@
   <p class="tr">Ancak iyimser anlatı hikayenin tamamı değil. Ana ağ, şu andan itibaren en az altı ay, potansiyel olarak neredeyse bir yıl uzaklıkta bir hedef — bu, canlı bir ürün değil, lansman öncesi bir vaat. Yüksek işlem hacmi ve düşük gecikme vaat eden geçmiş yeni Layer-1 projeleri arasında, açıklanan hedefler ile ölçülen ana ağ performansı arasında anlamlı bir fark nadir değildi. Tamamen yeni bir zincir ayrıca bir soğuk başlangıç sorunuyla karşı karşıya: BSC'nin zaten biriktirdiği doğrulayıcı kümesini, likidite derinliğini ve köprü güvenini sıfırdan yeniden inşa etmesi gerekiyor — ve bu sorun, güven ve derin likiditenin en önemli olduğu, açıkça kurumsal ve ajan odaklı ticareti hedefleyen bir zincir için daha da büyük bir etki yaratıyor. Buradan itibaren izlenmesi gereken şey, test ağının açıklanan işlem hacmi ve gecikme rakamlarını yeniden üretip üretemeyeceği ve zincirin gerçekten doğrulayıcıları, likidite sağlayıcılarını ve gerçek ticaret hacmini çekip çekemeyeceğidir.</p>
   <p class="vi">Thông báo này xuất hiện như một phần của lộ trình nửa cuối năm 2026 rộng hơn mà BNB Chain công bố vào ngày 8 tháng 7. Như BTCtiming đã đưa tin riêng, cùng lộ trình đó cũng bao gồm kế hoạch tăng gần gấp đôi thông lượng của chính BSC, từ khoảng 5.200 TPS đo được ở nửa đầu năm lên mục tiêu cao hơn cho nửa cuối năm. Nói cách khác, BNB Chain đang thực hiện hai chiến lược cùng lúc: cải thiện dần chuỗi đa dụng hiện có (BSC) trong khi đồng thời xây dựng từ đầu một chuỗi riêng biệt, chuyên dụng cho một trường hợp sử dụng hẹp hơn nhưng có tiềm năng tăng trưởng cao — giao dịch bằng tác nhân AI. Điều này về mặt cấu trúc giống với cách Coinbase xây dựng một Layer-2 riêng biệt, Base, thay vì tiếp tục vắt kiệt thêm hiệu năng từ Layer-1 của Ethereum, hoặc cách Hyperliquid và dYdX chọn xây dựng chuỗi ứng dụng riêng thay vì thuê không gian trên các chuỗi đa dụng.</p>
   <p class="vi">Tuy nhiên, câu chuyện lạc quan không phải là toàn bộ. Mainnet là mục tiêu cách đây ít nhất sáu tháng, và có thể gần một năm — đây là một lời hứa trước khi ra mắt, không phải một sản phẩm đang hoạt động. Trong số các dự án Layer-1 mới trước đây từng quảng bá thông lượng cao và độ trễ thấp, khoảng cách đáng kể giữa mục tiêu được công bố và hiệu năng mainnet đo được không phải là hiếm. Một chuỗi hoàn toàn mới cũng phải đối mặt với vấn đề khởi động nguội: nó phải xây dựng lại từ đầu tập hợp validator, độ sâu thanh khoản và niềm tin vào cầu nối mà BSC đã tích lũy được — và vấn đề đó càng lớn hơn đối với một chuỗi nhắm rõ ràng đến giao dịch của tổ chức và tác nhân, nơi niềm tin và thanh khoản sâu là quan trọng nhất. Điều đáng theo dõi từ đây là liệu testnet có tái hiện được các con số thông lượng và độ trễ đã công bố hay không, và liệu chuỗi này có thực sự thu hút được validator, nhà cung cấp thanh khoản và khối lượng giao dịch thực hay không.</p>
+  <p class="id">Pengumuman ini muncul sebagai bagian dari roadmap H2 2026 yang lebih luas yang dipublikasikan BNB Chain pada 8 Juli. Seperti yang telah dibahas BTCtiming secara terpisah, roadmap yang sama juga mencakup rencana untuk hampir menggandakan lagi throughput BSC sendiri, dari sekitar 5.200 TPS yang terukur di H1 menjadi target H2 yang lebih tinggi. Dengan kata lain, BNB Chain menjalankan dua strategi sekaligus: meningkatkan secara bertahap rantai serba guna yang sudah ada (BSC), sambil secara bersamaan membangun rantai terpisah dan khusus dari nol untuk kasus penggunaan yang lebih sempit tetapi berpotensi tumbuh tinggi — trading agen AI. Hal ini secara struktural menyerupai cara Coinbase membangun Layer-2 terpisah, Base, alih-alih terus memeras lebih banyak performa dari Layer-1 Ethereum, atau cara Hyperliquid dan dYdX memilih membangun app-chain mereka sendiri alih-alih menyewa ruang di rantai serba guna.</p>
+  <p class="id">Namun, narasi optimistis ini bukanlah keseluruhan cerita. Mainnet adalah target yang jaraknya setidaknya enam bulan, dan berpotensi mendekati satu tahun, ke depan — ini adalah janji pra-peluncuran, bukan produk yang sudah berjalan. Di antara proyek Layer-1 baru di masa lalu yang mengklaim throughput tinggi dan latensi rendah, kesenjangan yang berarti antara target yang diumumkan dan kinerja mainnet yang terukur bukanlah hal yang jarang terjadi. Rantai yang benar-benar baru juga menghadapi masalah cold-start: ia harus membangun kembali dari nol kumpulan validator, kedalaman likuiditas, dan kepercayaan jembatan yang sudah dikumpulkan BSC — dan masalah ini menjadi lebih besar bagi rantai yang secara eksplisit menargetkan trading yang digerakkan institusi dan agen, di mana kepercayaan dan likuiditas yang dalam paling penting. Yang patut diperhatikan dari sini adalah apakah testnet dapat mereproduksi angka throughput dan latensi yang diumumkan, dan apakah rantai ini benar-benar dapat menarik validator, penyedia likuiditas, dan volume trading nyata.</p>
+  <p class="pl">Ta zapowiedź pojawiła się jako część szerszego planu na H2 2026, opublikowanego przez BNB Chain 8 lipca. Jak BTCtiming opisywał osobno, ten sam plan zawiera również zamiar niemal ponownego podwojenia przepustowości samego BSC, z około 5200 TPS zmierzonych w H1 do wyższego celu na H2. Innymi słowy, BNB Chain realizuje dwie strategie jednocześnie: stopniowo ulepsza istniejący uniwersalny łańcuch (BSC), jednocześnie budując od zera osobny, dedykowany łańcuch dla węższego, ale potencjalnie szybko rosnącego zastosowania — handlu prowadzonego przez agentów AI. Strukturalnie przypomina to, jak Coinbase zbudował osobną warstwę-2, Base, zamiast dalej wyciskać więcej wydajności z warstwy-1 Ethereum, albo jak Hyperliquid i dYdX zdecydowały się zbudować własne app-chainy zamiast wynajmować miejsce na uniwersalnych łańcuchach.</p>
+  <p class="pl">Optymistyczna narracja nie jest jednak całą historią. Mainnet to cel odległy o co najmniej sześć miesięcy, a potencjalnie nawet blisko roku — to obietnica sprzed startu, a nie działający produkt. Wśród wcześniejszych nowych projektów warstwy-1, które chwaliły się wysoką przepustowością i niskim opóźnieniem, znacząca luka między zapowiadanymi celami a zmierzoną wydajnością mainnetu nie była rzadkością. Zupełnie nowy łańcuch stoi też przed problemem „zimnego startu": musi od zera odbudować zestaw walidatorów, głębokość płynności i zaufanie do mostów, które BSC już zgromadził — a ten problem jest tym większy dla łańcucha wyraźnie celującego w handel instytucjonalny i prowadzony przez agentów, gdzie zaufanie i głęboka płynność liczą się najbardziej. Od tego momentu warto obserwować, czy testnet odtworzy zapowiadane wskaźniki przepustowości i opóźnienia oraz czy łańcuch rzeczywiście przyciągnie walidatorów, dostawców płynności i realny wolumen handlowy.</p>
+  <p class="it">Questo annuncio è arrivato come parte della più ampia roadmap H2 2026 pubblicata da BNB Chain l'8 luglio. Come BTCtiming ha raccontato separatamente, quella stessa roadmap include anche piani per raddoppiare quasi di nuovo il throughput di BSC stesso, da circa 5.200 TPS misurati nel H1 a un obiettivo più alto per il H2. In altre parole, BNB Chain sta portando avanti due strategie contemporaneamente: migliorare in modo incrementale la chain general-purpose esistente (BSC), costruendo al contempo da zero una chain separata e dedicata per un caso d'uso più circoscritto ma potenzialmente ad alta crescita — il trading con agenti IA. Questo assomiglia strutturalmente al modo in cui Coinbase ha costruito una Layer-2 separata, Base, invece di continuare a spremere più prestazioni dalla Layer-1 di Ethereum, o al modo in cui Hyperliquid e dYdX hanno scelto di costruire le proprie app-chain invece di affittare spazio su chain general-purpose.</p>
+  <p class="it">La narrazione ottimistica, però, non è tutta la storia. La mainnet è un obiettivo lontano almeno sei mesi, e potenzialmente vicino a un anno — questa è una promessa pre-lancio, non un prodotto attivo. Tra i precedenti progetti Layer-1 che hanno decantato alto throughput e bassa latenza, un divario significativo tra gli obiettivi annunciati e le prestazioni misurate sulla mainnet non è stato raro. Una chain completamente nuova affronta anche un problema di cold-start: deve ricostruire da zero l'insieme dei validatori, la profondità di liquidità e la fiducia nei bridge che BSC ha già accumulato — e questo problema pesa ancora di più per una chain esplicitamente orientata al trading istituzionale e guidato da agenti, dove fiducia e liquidità profonda contano di più. Da qui in avanti vale la pena osservare se la testnet riprodurrà le cifre di throughput e latenza annunciate, e se la chain riuscirà davvero ad attrarre validatori, fornitori di liquidità e volumi di trading reali.</p>
+  <p class="ru">Это объявление стало частью более широкой дорожной карты на второе полугодие 2026 года, опубликованной BNB Chain 8 июля. Как BTCtiming уже освещал отдельно, та же дорожная карта включает планы почти удвоить собственную пропускную способность BSC — примерно с 5200 TPS, зафиксированных в первом полугодии, до более высокой цели во втором. Другими словами, BNB Chain реализует сразу две стратегии: постепенно улучшает существующую универсальную цепь (BSC), одновременно строя с нуля отдельную выделенную цепь для более узкого, но потенциально быстрорастущего направления — торговли ИИ-агентами. Структурно это напоминает то, как Coinbase создала отдельную сеть уровня 2, Base, вместо того чтобы продолжать выжимать больше производительности из Layer-1 Ethereum, или как Hyperliquid и dYdX решили построить собственные app-цепи вместо аренды места на универсальных цепях.</p>
+  <p class="ru">Впрочем, оптимистичный сценарий — это ещё не вся история. Запуск mainnet — цель, отстоящая как минимум на шесть месяцев, а возможно, и почти на год, — это обещание до запуска, а не работающий продукт. Среди прошлых новых Layer-1-проектов, рекламировавших высокую пропускную способность и низкую задержку, заметный разрыв между заявленными целями и измеренной производительностью mainnet встречался нередко. Совершенно новая цепь также сталкивается с проблемой холодного старта: ей нужно с нуля восстановить набор валидаторов, глубину ликвидности и доверие к мостам, которые BSC уже накопила, — и эта проблема ещё острее для цепи, явно нацеленной на институциональную и агентскую торговлю, где доверие и глубокая ликвидность важны больше всего. Отсюда стоит наблюдать за тем, воспроизведёт ли тестнет заявленные показатели пропускной способности и задержки, и сможет ли цепь реально привлечь валидаторов, поставщиков ликвидности и реальный торговый объём.</p>
+  <p class="zh">此次公告是BNB鏈於7月8日公布的更廣泛2026年下半年路線圖的一部分。正如BTCtiming另文報導過的,同一份路線圖也包含將BSC自身吞吐量再次幾乎翻倍的計劃,從上半年實測約5,200 TPS提升至下半年更高的目標。換言之,BNB鏈正同時執行兩種策略:一方面漸進式改善現有的通用鏈(BSC),另一方面從零開始打造一條獨立的專用鏈,用於範圍較窄但潛在高成長的應用場景——AI代理交易。這在結構上類似於Coinbase打造獨立的第二層(Layer-2)Base,而非持續從以太坊第一層擠出更多效能,也類似於Hyperliquid與dYdX選擇打造自己的專用應用鏈,而非在通用鏈上租用空間。</p>
+  <p class="zh">然而,樂觀的敘事並非故事的全貌。主網上線是至少六個月、甚至可能接近一年後才會達成的目標——這只是上線前的承諾,而非已在運行的產品。回顧過去那些宣稱高吞吐量、低延遲的新興第一層專案,公布的目標與實測主網表現之間出現明顯落差的情況並不罕見。一條全新的鏈也面臨冷啟動問題:它必須從零開始重建BSC已經累積的驗證者集合、流動性深度與橋接信任——而對於一條明確瞄準機構與代理驅動交易的鏈而言,這個問題會更加突出,因為在這個領域,信任與深厚的流動性最為重要。接下來值得關注的是,測試網是否能重現公布的吞吐量與延遲數字,以及這條鏈是否真能吸引到驗證者、流動性提供者與真實的交易量。</p>
 
   <h2 class="ko">함께 보면 좋은 글</h2>
   <h2 class="en">Best Combined With</h2>
@@ -376,6 +576,11 @@
   <h2 class="pt">Melhor combinado com</h2>
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+  <h2 class="id">Paling Cocok Dipadukan Dengan</h2>
+  <h2 class="pl">Najlepiej Połączyć z</h2>
+  <h2 class="it">Da Abbinare Con</h2>
+  <h2 class="ru">Лучше Всего Сочетается С</h2>
+  <h2 class="zh">最佳搭配閱讀</h2>
   <ul class="ko">
     <li><strong><a href="/blog/bnb-chain-h2-2026-throughput-roadmap">BNB체인 2026 하반기 처리량 로드맵</a>:</strong> 새 AI 레이어1이 등장한 배경이 된 BSC 자체의 처리량 확대 계획과 그 대가를 살펴보기</li>
     <li><strong><a href="/blog/same-block-backrun-mev-extraction">동일 블록 내 백런 방식의 MEV 추출</a>:</strong> TxStream이 없애려는 것과 같은 시퀀싱 게임이 실제로 어떻게 작동하는지 확인하기</li>
@@ -412,6 +617,26 @@
     <li><strong><a href="/vi/blog/bnb-chain-h2-2026-throughput-roadmap">Lộ Trình Thông Lượng Nửa Cuối 2026 Của BNB Chain</a>:</strong> Kế hoạch mở rộng phía BSC mà Layer-1 AI mới này xuất hiện cùng, và những đánh đổi của nó</li>
     <li><strong><a href="/vi/blog/same-block-backrun-mev-extraction">Khai Thác MEV Bằng Backrunning Trong Cùng Một Khối</a>:</strong> Xem trò chơi sắp xếp trình tự mà TxStream muốn loại bỏ thực sự diễn ra như thế nào</li>
   </ul>
+  <ul class="id">
+    <li><strong><a href="/id/blog/bnb-chain-h2-2026-throughput-roadmap">Roadmap Throughput BNB Chain H2 2026</a>:</strong> Rencana skalabilitas sisi BSC yang muncul berdampingan dengan Layer-1 AI baru ini, beserta trade-off-nya</li>
+    <li><strong><a href="/id/blog/same-block-backrun-mev-extraction">Ekstraksi MEV Backrun dalam Blok yang Sama</a>:</strong> Lihat bagaimana permainan pengurutan yang sama yang ingin dihilangkan TxStream sebenarnya terjadi</li>
+  </ul>
+  <ul class="pl">
+    <li><strong><a href="/pl/blog/bnb-chain-h2-2026-throughput-roadmap">Plan Przepustowości BNB Chain na H2 2026</a>:</strong> Plan skalowania po stronie BSC, obok którego powstała ta nowa Layer-1 AI, oraz jego kompromisy</li>
+    <li><strong><a href="/pl/blog/same-block-backrun-mev-extraction">Ekstrakcja MEV przez Backrunning w Tym Samym Bloku</a>:</strong> Zobacz, jak w praktyce przebiega ta sama gra o kolejność, którą TxStream ma wyeliminować</li>
+  </ul>
+  <ul class="it">
+    <li><strong><a href="/it/blog/bnb-chain-h2-2026-throughput-roadmap">Roadmap di Throughput H2 2026 di BNB Chain</a>:</strong> Il piano di scaling lato BSC accanto al quale è nata questa nuova Layer-1 IA, e i suoi compromessi</li>
+    <li><strong><a href="/it/blog/same-block-backrun-mev-extraction">Estrazione di MEV tramite Backrunning nello Stesso Blocco</a>:</strong> Scopri come si svolge realmente lo stesso gioco di sequenziamento che TxStream mira a eliminare</li>
+  </ul>
+  <ul class="ru">
+    <li><strong><a href="/ru/blog/bnb-chain-h2-2026-throughput-roadmap">Дорожная карта пропускной способности BNB Chain на 2П 2026</a>:</strong> План масштабирования BSC, рядом с которым появилась эта новая ИИ Layer-1, и его компромиссы</li>
+    <li><strong><a href="/ru/blog/same-block-backrun-mev-extraction">Извлечение MEV через Backrunning в Одном Блоке</a>:</strong> Узнайте, как на самом деле разворачивается та же игра на очерёдность, которую призван устранить TxStream</li>
+  </ul>
+  <ul class="zh">
+    <li><strong><a href="/zh/blog/bnb-chain-h2-2026-throughput-roadmap">BNB鏈2026年下半年吞吐量路線圖</a>:</strong> 這條全新AI Layer-1誕生所伴隨的BSC端擴容計劃及其取捨</li>
+    <li><strong><a href="/zh/blog/same-block-backrun-mev-extraction">同區塊Backrun方式的MEV提取</a>:</strong> 了解TxStream想要消除的同一種排序博弈實際上是如何運作的</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크, 디크립트, 블록헤드, 코인트러스트, MEXC뉴스, 블룸빙빗, 더블록(2026년 7월 8~10일 보도), BNB체인 공식 발표 자료, BTCtiming.com 자체 분석. 수치는 회사가 제시한 목표치이며 메인넷 출시 전까지 실측치와 다를 수 있다. 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (coverage published July 8–10, 2026), BNB Chain's official announcement materials, BTCtiming.com's own analysis. Figures are company-stated targets and may differ from measured results ahead of mainnet launch. This is not investment advice.</p>
@@ -422,5 +647,10 @@
   <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (cobertura publicada de 8 a 10 de julho de 2026), materiais de anúncio oficiais da BNB Chain, análise própria da BTCtiming.com. Os números são metas declaradas pela empresa e podem diferir dos resultados medidos antes do lançamento do mainnet. Isto não é aconselhamento de investimento.</p>
   <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (8-10 Temmuz 2026 tarihli haberler), BNB Chain'in resmi duyuru materyalleri, BTCtiming.com'un kendi analizi. Rakamlar şirket tarafından belirtilen hedeflerdir ve ana ağ lansmanı öncesinde ölçülen sonuçlardan farklı olabilir. Bu, yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (đưa tin từ 8-10 tháng 7 năm 2026), tài liệu công bố chính thức của BNB Chain, phân tích riêng của BTCtiming.com. Các số liệu là mục tiêu do công ty công bố và có thể khác với kết quả đo được trước khi ra mắt mainnet. Đây không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:.85rem;color:#71717a">Sumber: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (liputan diterbitkan 8–10 Juli 2026), materi pengumuman resmi BNB Chain, analisis internal BTCtiming.com. Angka merupakan target yang dinyatakan perusahaan dan dapat berbeda dari hasil terukur sebelum peluncuran mainnet. Ini bukan nasihat investasi.</p>
+  <p class="pl" style="font-size:.85rem;color:#71717a">Źródła: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (doniesienia opublikowane 8–10 lipca 2026), oficjalne materiały ogłoszeniowe BNB Chain, własna analiza BTCtiming.com. Liczby to cele deklarowane przez firmę i mogą różnić się od zmierzonych wyników przed uruchomieniem mainnetu. To nie jest porada inwestycyjna.</p>
+  <p class="it" style="font-size:.85rem;color:#71717a">Fonti: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (copertura pubblicata dall'8 al 10 luglio 2026), materiali di annuncio ufficiali di BNB Chain, analisi propria di BTCtiming.com. Le cifre sono obiettivi dichiarati dall'azienda e potrebbero differire dai risultati misurati prima del lancio della mainnet. Questo non è un consiglio di investimento.</p>
+  <p class="ru" style="font-size:.85rem;color:#71717a">Источники: CoinDesk, Decrypt, Blockhead, CoinTrust, MEXC News, Bloomingbit, The Block (материалы опубликованы 8–10 июля 2026 года), официальные материалы анонса BNB Chain, собственный анализ BTCtiming.com. Цифры являются целями, заявленными компанией, и могут отличаться от измеренных результатов до запуска mainnet. Это не является инвестиционным советом.</p>
+  <p class="zh" style="font-size:.85rem;color:#71717a">資料來源:CoinDesk、Decrypt、Blockhead、CoinTrust、MEXC News、Bloomingbit、The Block(報導發布於2026年7月8日至10日)、BNB鏈官方公告資料、BTCtiming.com自有分析。數字為公司所公布的目標,在主網上線前可能與實測結果有所差異。本文不構成投資建議。</p>
 
 <?php require __DIR__.'/_footer.php'; ?>

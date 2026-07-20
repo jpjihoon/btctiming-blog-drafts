@@ -9,6 +9,11 @@
   <p class="pt">A Universidade do Kansas Athletics anunciou um acordo de patrocínio plurianual com a empresa de blockchain Ripple, que coloca um patch do XRP nos uniformes de todas as equipes esportivas dos Jayhawks, segundo reportagens da KCTV5, The Block e On3 em 8 e 9 de julho. O acordo tem duração de cinco anos e marca a primeira vez que uma marca de criptomoeda aparece nos uniformes de um grande programa esportivo universitário dos EUA. A marca se estende além do patch da camisa para instalações da Kansas Athletics, propriedades digitais e sinalização dos locais.</p>
   <p class="tr">Kansas Üniversitesi Athletics, blok zinciri şirketi Ripple ile çok yıllı bir sponsorluk anlaşması imzaladığını ve XRP yamasının tüm Jayhawks spor takımlarının formalarına yerleştirileceğini duyurdu; bu gelişme KCTV5, The Block ve On3 tarafından 8-9 Temmuz'da haber yapıldı. Anlaşma beş yıl sürecek ve bir kripto para markasının büyük bir ABD üniversite spor programının formalarında görünmesi ilk kez gerçekleşiyor. Marka görünürlüğü forma yamasının ötesine geçerek Kansas Athletics tesislerine, dijital kanallara ve saha tabelalarına kadar genişliyor.</p>
   <p class="vi">Đại học Kansas Athletics đã công bố thỏa thuận tài trợ nhiều năm với công ty blockchain Ripple, đưa miếng vá logo XRP lên đồng phục của tất cả các đội thể thao Jayhawks, theo KCTV5, The Block và On3 đưa tin ngày 8-9 tháng 7. Thỏa thuận kéo dài 5 năm và đánh dấu lần đầu tiên một thương hiệu tiền mã hóa xuất hiện trên đồng phục của một chương trình thể thao đại học lớn của Mỹ. Việc gắn thương hiệu mở rộng ra ngoài miếng vá trên áo đấu, bao gồm cả cơ sở vật chất của Kansas Athletics, các kênh kỹ thuật số và biển hiệu tại sân vận động.</p>
+  <p class="id">Universitas Kansas Athletics mengumumkan kesepakatan sponsorship multi-tahun dengan perusahaan blockchain Ripple yang menempatkan patch XRP pada seragam seluruh tim olahraga Jayhawks, seperti dilaporkan KCTV5, The Block, dan On3 pada 8–9 Juli. Kesepakatan ini berlangsung selama lima tahun dan menandai pertama kalinya merek kripto muncul di seragam program atletik universitas besar di AS. Branding ini meluas melampaui patch di jersey hingga ke fasilitas Kansas Athletics, properti digital, dan papan reklame di venue.</p>
+  <p class="pl">Uczelniany klub sportowy University of Kansas Athletics ogłosił wieloletnią umowę sponsorską z firmą blockchain Ripple, na mocy której naszywka XRP pojawi się na strojach wszystkich drużyn sportowych Jayhawks — poinformowały KCTV5, The Block i On3 8–9 lipca. Umowa obowiązuje przez pięć lat i oznacza pierwszy przypadek, gdy marka kryptowalutowa pojawiła się na strojach dużego uniwersyteckiego programu sportowego w USA. Branding wykracza poza naszywkę na koszulce, obejmując obiekty Kansas Athletics, kanały cyfrowe i oznakowanie na obiektach sportowych.</p>
+  <p class="it">L'Università del Kansas Athletics ha annunciato un accordo di sponsorizzazione pluriennale con l'azienda blockchain Ripple che prevede l'inserimento di una patch XRP sulle maglie di tutte le squadre sportive dei Jayhawks, secondo quanto riportato da KCTV5, The Block e On3 l'8 e 9 luglio. L'accordo ha una durata di cinque anni e segna la prima volta che un marchio di criptovalute compare sulle maglie di un grande programma sportivo universitario statunitense. Il branding si estende oltre la patch sulla maglia, coinvolgendo le strutture di Kansas Athletics, le proprietà digitali e la segnaletica degli impianti.</p>
+  <p class="ru">Спортивный департамент Университета Канзаса объявил о многолетнем спонсорском соглашении с блокчейн-компанией Ripple, по которому нашивка XRP появится на форме всех спортивных команд Jayhawks — об этом 8–9 июля сообщили KCTV5, The Block и On3. Контракт рассчитан на пять лет и стал первым случаем, когда бренд криптовалюты появился на форме крупной университетской спортивной программы США. Брендинг распространяется не только на нашивку на форме, но и на объекты Kansas Athletics, цифровые площадки и рекламные конструкции на аренах.</p>
+  <p class="zh">堪薩斯大學體育部宣布與區塊鏈公司Ripple簽署多年贊助協議,將在所有傑霍克斯(Jayhawks)運動隊的球衣上加上XRP標誌,KCTV5、The Block與On3於7月8日至9日報導此消息。該協議為期五年,是加密貨幣品牌首次出現在美國大型大學體育項目的球衣上。品牌露出範圍不僅限於球衣標誌,還擴及堪薩斯體育設施、數位平台與場館標示。</p>
 
   <p class="ko">이번 파트너십은 리플 CEO 브래드 갈링하우스의 캔자스대 인연에서 비롯됐다고 보도는 전한다. 그는 캔자스대 학부생 시절 총학생회장을 지냈다. 온3는 이 계약이 역대 대학 유니폼 패치 계약 중 가장 규모가 큰 축에 속할 것으로 전망된다고 전했다. 리플은 또한 캔자스 소속 선수들을 위한 금융·기술 교육 프로그램에 자금을 지원하고, 졸업생들이 테크 업계에 취업·인턴십으로 진출할 수 있도록 돕는 파이프라인을 마련하기로 했다.</p>
   <p class="en">Reports say the partnership traces back to Ripple CEO Brad Garlinghouse's ties to Kansas — he studied there as an undergraduate and served as student body president. On3 reported the deal is expected to be one of the most lucrative jersey-patch agreements in college athletics to date. Ripple also committed to funding financial and technology education programs for Kansas athletes and building a pipeline to place graduates in jobs and internships across the tech industry.</p>
@@ -19,6 +24,11 @@
   <p class="pt">Segundo as reportagens, a parceria remonta aos laços do CEO da Ripple, Brad Garlinghouse, com Kansas — ele estudou lá como graduando e foi presidente do corpo estudantil. A On3 informou que o acordo deve ser um dos contratos de patch de camisa mais lucrativos já vistos no esporte universitário. A Ripple também se comprometeu a financiar programas de educação financeira e tecnológica para atletas de Kansas e a construir um canal para colocar formandos em empregos e estágios na indústria de tecnologia.</p>
   <p class="tr">Haberlere göre bu ortaklık, Ripple CEO'su Brad Garlinghouse'un Kansas ile bağlarına dayanıyor — kendisi orada lisans öğrencisiyken okumuş ve öğrenci konseyi başkanlığı yapmıştı. On3, anlaşmanın üniversite sporlarında bugüne kadarki en kazançlı forma yaması anlaşmalarından biri olmasının beklendiğini bildirdi. Ripple ayrıca Kansas sporcuları için finans ve teknoloji eğitim programlarını finanse etmeyi ve mezunları teknoloji sektöründe iş ve stajlara yerleştirecek bir kanal kurmayı taahhüt etti.</p>
   <p class="vi">Các báo cáo cho biết quan hệ đối tác này bắt nguồn từ mối liên hệ của CEO Ripple, Brad Garlinghouse, với Kansas — ông từng học đại học tại đây và giữ chức chủ tịch hội sinh viên. On3 đưa tin thỏa thuận này được kỳ vọng sẽ là một trong những hợp đồng miếng vá áo đấu sinh lợi nhất từ trước đến nay trong thể thao đại học. Ripple cũng cam kết tài trợ cho các chương trình giáo dục tài chính và công nghệ dành cho vận động viên Kansas và xây dựng một kênh để đưa sinh viên tốt nghiệp vào việc làm và thực tập trong ngành công nghệ.</p>
+  <p class="id">Laporan menyebutkan bahwa kemitraan ini berakar dari hubungan CEO Ripple, Brad Garlinghouse, dengan Kansas — ia menempuh pendidikan sarjana di sana dan pernah menjabat sebagai presiden badan eksekutif mahasiswa. On3 melaporkan bahwa kesepakatan ini diperkirakan menjadi salah satu perjanjian patch jersey paling menguntungkan dalam sejarah olahraga universitas. Ripple juga berkomitmen mendanai program pendidikan keuangan dan teknologi bagi atlet Kansas serta membangun jalur bagi lulusan untuk mendapatkan pekerjaan dan magang di industri teknologi.</p>
+  <p class="pl">Według doniesień partnerstwo wywodzi się z powiązań prezesa Ripple, Brada Garlinghouse'a, z Kansas — studiował on tam na studiach licencjackich i pełnił funkcję przewodniczącego samorządu studenckiego. On3 podało, że umowa ma być jedną z najbardziej lukratywnych umów na naszywki na strojach w historii sportu uniwersyteckiego. Ripple zobowiązało się również do finansowania programów edukacji finansowej i technologicznej dla sportowców z Kansas oraz do budowy ścieżki zatrudnienia i staży dla absolwentów w branży technologicznej.</p>
+  <p class="it">Secondo i resoconti, la partnership affonda le radici nei legami del CEO di Ripple, Brad Garlinghouse, con il Kansas — vi ha studiato come laureando ed è stato presidente del corpo studentesco. On3 ha riportato che l'accordo dovrebbe essere uno dei contratti di patch per maglia più redditizi mai visti nello sport universitario. Ripple si è inoltre impegnata a finanziare programmi di educazione finanziaria e tecnologica per gli atleti del Kansas e a costruire un percorso per inserire i laureati in posti di lavoro e stage nel settore tecnologico.</p>
+  <p class="ru">По имеющимся данным, партнёрство берёт начало из связей CEO Ripple Брэда Гарлингхауса с Канзасом — он учился там на бакалавриате и занимал пост президента студенческого совета. По данным On3, ожидается, что сделка станет одним из самых прибыльных соглашений о нашивках на форме в истории университетского спорта. Ripple также обязалась финансировать программы финансового и технологического образования для спортсменов Канзаса и выстроить систему трудоустройства выпускников на работу и стажировки в технологической отрасли.</p>
+  <p class="zh">報導指出,這項合作可追溯至Ripple執行長布拉德・加林豪斯(Brad Garlinghouse)與堪薩斯大學的淵源——他曾在該校攻讀學士學位,並擔任學生會會長。On3報導稱,該協議預計將成為大學體育史上獲利最豐厚的球衣贊助協議之一。Ripple還承諾為堪薩斯運動員提供資金,支持金融與科技教育項目,並建立管道協助畢業生進入科技產業就業與實習。</p>
 
   <h2 class="ko">왜 스포츠인가 — 크립토 브랜드의 주류 침투 전략과 그 역사</h2>
   <h2 class="en">Why Sports: Crypto's Mainstream-Penetration Playbook, and Its History</h2>
@@ -29,6 +39,11 @@
   <h2 class="pt">Por Que Esportes: o Manual de Penetração Mainstream das Marcas Cripto, e Sua História</h2>
   <h2 class="tr">Neden Spor: Kripto Markalarının Anaakım Nüfuz Stratejisi ve Tarihi</h2>
   <h2 class="vi">Tại Sao Là Thể Thao: Chiến Lược Thâm Nhập Đại Chúng Của Thương Hiệu Tiền Mã Hóa, và Lịch Sử Của Nó</h2>
+  <h2 class="id">Mengapa Olahraga: Strategi Penetrasi Arus Utama Kripto, dan Sejarahnya</h2>
+  <h2 class="pl">Dlaczego Sport: Podręcznik Kryptowalut na Wejście do Mainstreamu i Jego Historia</h2>
+  <h2 class="it">Perché lo Sport: il Manuale di Penetrazione Mainstream delle Cripto, e la Sua Storia</h2>
+  <h2 class="ru">Почему Спорт: Стратегия Проникновения Крипто в Мейнстрим и Её История</h2>
+  <h2 class="zh">為何選擇體育:加密貨幣主流滲透策略及其歷史</h2>
 
   <p class="ko">유니폼 패치나 경기장 명명권 계약은 토큰 실사용성과는 별개의 메커니즘으로 작동한다. 목표는 온체인 거래량이 아니라 브랜드 인지도와 신뢰다 — TV 중계, 팬 굿즈, 경기장 사이니지에 로고를 반복 노출시켜 일반 대중이 그 이름을 '위험한 투기 자산'이 아니라 '익숙하고 합법적인 기업'으로 받아들이게 만드는 것이다. 이 전략에는 앞선 실패 사례도 있다. FTX는 2021년 마이애미 히트 홈구장의 19년 명명권을 1억 3,500만 달러에 사들여 'FTX 아레나'로 이름 붙였지만, 2022년 FTX 파산 이후 구단은 계약을 해지하고 경기장명을 '카세야 센터'로 바꿔야 했다. 크립토닷컴 역시 LA 레이커스 홈구장 명명권을 20년간 7억 달러에 사들였는데, 이 계약은 여전히 유효하지만 노출 대비 실질적 사업 성과를 둘러싼 논쟁은 계속되고 있다.</p>
   <p class="ko">대학 스포츠는 이 흐름의 비교적 새로운 무대다. 미국에서 대학 선수 개인의 성명·이미지·초상권(NIL) 활용이 2021년 규정 완화로 허용되면서, 대학 애슬레틱스 부서와 개별 선수 모두가 새로운 유형의 기업 스폰서십에 문을 열었다. 리플이 이 채널을 선택한 배경도 눈여겨볼 만하다 — 리플은 개인 투자자에게 XRP를 직접 팔아야 하는 거래소가 아니라, 리플넷 결제망·기관용 커스터디·RLUSD 스테이블코인을 파는 기업이다. 이번 딜에서 반복적으로 등장하는 것은 'XRP 매수'를 독려하는 문구가 아니라 리플이라는 회사명과 로고 노출이며, 이는 브랜드가 소비자에게 직접 토큰을 팔기보다 기업 고객·규제당국에게 신뢰를 심는 데 방점을 찍고 있다는 신호로 읽힌다.</p>
@@ -48,6 +63,16 @@
   <p class="tr">Üniversite sporları bu model için nispeten yeni bir sahne. ABD'de 2021'deki kural değişiklikleri üniversite sporcularının isim, görüntü ve benzerliklerinden (NIL) kâr elde etmesinin önünü açtı; bu da spor departmanlarını ve bireysel sporcuları yeni kurumsal sponsorluk kategorilerine açtı. Ripple'ın bu kanalı seçmesi dikkate değer: Ripple, perakende yatırımcılara doğrudan XRP satması gereken bir borsa değil — RippleNet ödeme ağını, kurumsal saklama hizmetlerini ve RLUSD stabil koinini satan bir şirket. Bu anlaşma boyunca tekrar eden şey "XRP satın al" diyen bir dil değil, Ripple isminin ve logosunun görünürlüğüdür; bu da markanın tüketicilere doğrudan token satmaktan çok kurumsal müşteriler ve düzenleyicilerle güven inşa etmeyi hedeflediğine dair bir sinyal olarak okunabilir.</p>
   <p class="vi">Các thỏa thuận miếng vá áo đấu và đặt tên sân vận động hoạt động theo một cơ chế tách biệt với tiện ích của token. Mục tiêu không phải là khối lượng giao dịch on-chain; đó là sự nhận diện thương hiệu và niềm tin — việc lặp đi lặp lại hiển thị logo trên các buổi phát sóng, hàng hóa cho người hâm mộ và biển hiệu tại địa điểm, huấn luyện công chúng nói chung coi một cái tên là một công ty quen thuộc, hợp pháp thay vì một tài sản đầu cơ rủi ro. Chiến lược này có một lịch sử không mấy suôn sẻ. FTX đã trả 135 triệu đô la cho hợp đồng đặt tên 19 năm cho sân vận động của Miami Heat vào năm 2021, đặt tên là "FTX Arena", chỉ để đội bóng chấm dứt hợp đồng và đổi tên địa điểm thành "Kaseya Center" sau sự sụp đổ của FTX năm 2022. Crypto.com riêng biệt đã trả 700 triệu đô la trong 20 năm cho quyền đặt tên sân vận động của LA Lakers — một thỏa thuận vẫn còn hiệu lực, dù cuộc tranh luận về lợi ích kinh doanh thực sự so với mức độ hiển thị vẫn tiếp diễn.</p>
   <p class="vi">Thể thao đại học là một sân khấu tương đối mới cho mô hình này. Tại Mỹ, những thay đổi về quy định vào năm 2021 đã mở đường cho các vận động viên đại học kiếm lợi từ tên, hình ảnh và sự giống nhau của họ (NIL), điều này lần lượt mở ra cho các bộ phận thể thao và từng vận động viên những loại tài trợ doanh nghiệp mới. Việc Ripple chọn kênh này đáng được lưu ý: Ripple không phải là một sàn giao dịch cần bán XRP trực tiếp cho nhà đầu tư cá nhân — đó là một công ty bán mạng lưới thanh toán RippleNet, dịch vụ lưu ký tổ chức và stablecoin RLUSD. Điều lặp lại xuyên suốt thỏa thuận này không phải là ngôn từ thúc giục "mua XRP", mà là sự hiển thị cho tên và logo của Ripple, điều này được hiểu như một tín hiệu cho thấy thương hiệu này nhắm đến việc xây dựng niềm tin với khách hàng doanh nghiệp và cơ quan quản lý hơn là thúc đẩy nhu cầu token.</p>
+  <p class="id">Kesepakatan patch jersey dan penamaan stadion bekerja melalui mekanisme yang terpisah dari utilitas token. Tujuannya bukan volume perdagangan on-chain; melainkan pengenalan merek dan kepercayaan — eksposur logo berulang di siaran, merchandise penggemar, dan papan reklame venue yang melatih masyarakat umum untuk memperlakukan sebuah nama sebagai perusahaan yang akrab dan sah, bukan aset spekulatif berisiko. Strategi ini memiliki riwayat yang beragam. FTX membayar $135 juta untuk kesepakatan hak penamaan 19 tahun atas arena Miami Heat pada 2021, menamainya "FTX Arena," hanya untuk kemudian tim tersebut mengakhiri kesepakatan dan mengganti nama venue menjadi "Kaseya Center" setelah keruntuhan FTX pada 2022. Crypto.com secara terpisah membayar $700 juta selama 20 tahun untuk hak penamaan arena LA Lakers — kesepakatan yang masih berlaku, meski perdebatan soal hasil bisnis nyata dibandingkan eksposurnya terus berlanjut.</p>
+  <p class="id">Olahraga universitas adalah panggung yang relatif baru untuk pola ini. Di AS, perubahan aturan pada 2021 membuka jalan bagi atlet universitas untuk memperoleh keuntungan dari nama, gambar, dan kemiripan mereka (NIL), yang pada gilirannya membuka departemen atletik dan atlet perorangan pada kategori sponsorship korporat yang baru. Pilihan Ripple atas saluran ini patut dicatat: Ripple bukan bursa yang perlu menjual XRP secara langsung kepada investor ritel — melainkan perusahaan yang menjual jaringan pembayaran RippleNet, kustodi institusional, dan stablecoin RLUSD. Yang berulang di seluruh kesepakatan ini bukanlah bahasa yang mendesak orang untuk "membeli XRP," melainkan eksposur untuk nama dan logo Ripple, yang dapat dibaca sebagai sinyal bahwa merek ini lebih ditujukan untuk membangun kepercayaan dengan klien korporat dan regulator ketimbang menggerakkan permintaan token.</p>
+  <p class="pl">Umowy dotyczące naszywek na strojach i nazewnictwa stadionów działają na mechanizmie odrębnym od użyteczności tokena. Celem nie jest wolumen transakcji on-chain; celem jest rozpoznawalność marki i zaufanie — powtarzalna ekspozycja logo w transmisjach, gadżetach dla kibiców i oznakowaniu obiektów, która uczy ogół społeczeństwa traktować daną nazwę jako znaną, legalną firmę, a nie ryzykowny aktyw spekulacyjny. Strategia ta ma niejednoznaczną historię. FTX zapłaciło 135 milionów dolarów za 19-letnią umowę na prawa do nazwy areny Miami Heat w 2021 roku, nazywając ją „FTX Arena", tylko po to, by drużyna zerwała umowę i zmieniła nazwę obiektu na „Kaseya Center" po upadku FTX w 2022 roku. Crypto.com zapłaciło z kolei 700 milionów dolarów za 20 lat praw do nazwy areny LA Lakers — umowa ta wciąż obowiązuje, choć debata na temat realnych korzyści biznesowych w stosunku do ekspozycji trwa nadal.</p>
+  <p class="pl">Sport uniwersytecki to stosunkowo nowa scena dla tego wzorca. W USA zmiany przepisów w 2021 roku otworzyły sportowcom uniwersyteckim drogę do czerpania korzyści z własnego imienia, wizerunku i podobieństwa (NIL), co z kolei otworzyło działy sportowe i poszczególnych sportowców na nowe kategorie sponsoringu korporacyjnego. Wybór tego kanału przez Ripple zasługuje na uwagę: Ripple nie jest giełdą, która musi sprzedawać XRP bezpośrednio inwestorom detalicznym — to firma sprzedająca sieć płatniczą RippleNet, instytucjonalną usługę przechowywania aktywów oraz stablecoin RLUSD. To, co powtarza się w całej tej umowie, to nie hasła zachęcające do „kupowania XRP", lecz ekspozycja nazwy i logo Ripple, co można odczytać jako sygnał, że marka nastawiona jest bardziej na budowanie zaufania wśród klientów korporacyjnych i regulatorów niż na pobudzanie popytu na token.</p>
+  <p class="it">Gli accordi di patch sulla maglia e di naming degli stadi operano secondo un meccanismo separato dall'utilità del token. L'obiettivo non è il volume di scambi on-chain, bensì il riconoscimento del marchio e la fiducia — un'esposizione ripetuta del logo in trasmissioni, merchandising per i tifosi e segnaletica degli impianti che abitua il grande pubblico a considerare un nome come un'azienda familiare e legittima anziché un asset speculativo rischioso. Questa strategia ha una storia altalenante. Nel 2021 FTX pagò 135 milioni di dollari per un accordo di naming rights di 19 anni sull'arena dei Miami Heat, chiamandola "FTX Arena", salvo poi vedere la squadra rescindere l'accordo e rinominare l'impianto "Kaseya Center" dopo il crollo di FTX nel 2022. Crypto.com, separatamente, ha pagato 700 milioni di dollari in 20 anni per i naming rights dell'arena dei LA Lakers — un accordo tuttora in vigore, sebbene il dibattito sul reale ritorno commerciale rispetto all'esposizione sia proseguito.</p>
+  <p class="it">Lo sport universitario è un palcoscenico relativamente nuovo per questo schema. Negli Stati Uniti, i cambiamenti normativi del 2021 hanno aperto la strada agli atleti universitari per trarre profitto dal proprio nome, immagine e somiglianza (NIL), il che a sua volta ha aperto i dipartimenti atletici e i singoli atleti a nuove categorie di sponsorizzazione aziendale. La scelta di questo canale da parte di Ripple merita attenzione: Ripple non è un exchange che deve vendere XRP direttamente agli investitori retail — è un'azienda che vende la rete di pagamenti RippleNet, la custodia istituzionale e la stablecoin RLUSD. Ciò che ricorre in tutto questo accordo non è un linguaggio che spinge a "comprare XRP", ma l'esposizione del nome e del logo Ripple, il che si può leggere come un segnale che il marchio punta più a costruire fiducia con clienti aziendali e regolatori che a muovere la domanda del token.</p>
+  <p class="ru">Соглашения о нашивках на форме и о названиях стадионов работают по механизму, отдельному от полезности токена. Цель — не объём торгов в блокчейне, а узнаваемость бренда и доверие: постоянная демонстрация логотипа в трансляциях, атрибутике болельщиков и на рекламных конструкциях арен приучает широкую публику воспринимать имя как знакомую, легитимную компанию, а не рискованный спекулятивный актив. У этой стратегии неоднозначная история. В 2021 году FTX заплатила 135 миллионов долларов за 19-летний контракт на право названия арены Miami Heat, окрестив её «FTX Arena», однако после краха FTX в 2022 году команда расторгла контракт и переименовала арену в «Kaseya Center». Crypto.com отдельно заплатила 700 миллионов долларов за 20 лет прав на название арены LA Lakers — сделка остаётся в силе, хотя споры о реальной коммерческой отдаче относительно такого присутствия продолжаются.</p>
+  <p class="ru">Университетский спорт — относительно новая площадка для этой модели. В США изменения правил в 2021 году открыли студентам-спортсменам возможность получать доход от использования своего имени, образа и внешности (NIL), что, в свою очередь, открыло спортивные департаменты и отдельных спортсменов для новых категорий корпоративного спонсорства. Выбор Ripple именно этого канала примечателен: Ripple — не биржа, которой нужно продавать XRP напрямую розничным инвесторам, а компания, продающая платёжную сеть RippleNet, институциональное хранение активов и стейблкоин RLUSD. Через всю эту сделку красной нитью проходит не призыв «покупать XRP», а присутствие имени и логотипа Ripple, что можно расценить как сигнал того, что бренд нацелен скорее на укрепление доверия со стороны корпоративных клиентов и регуляторов, чем на стимулирование спроса на токен.</p>
+  <p class="zh">球衣標誌與場館命名協議的運作機制與代幣實際效用無關。其目標並非鏈上交易量,而是品牌知名度與信任——透過轉播、球迷周邊商品與場館標示反覆曝光商標,讓一般大眾將該名稱視為熟悉、合法的企業,而非高風險的投機性資產。這項策略過去的成效並不一致。2021年,FTX斥資1.35億美元取得邁阿密熱火隊主場19年的冠名權,將其命名為「FTX Arena」,但在FTX於2022年倒閉後,球隊終止協議並將場館更名為「Kaseya Center」。Crypto.com則另外斥資7億美元,取得洛杉磯湖人隊主場20年的冠名權——該協議至今仍然有效,但關於曝光度是否轉化為實質商業回報的爭論仍在持續。</p>
+  <p class="zh">大學體育對這種模式而言相對新穎。在美國,2021年的規則調整讓大學運動員得以透過自身姓名、肖像與形象(NIL)獲利,進而使體育部門與個別運動員得以接觸新型態的企業贊助。Ripple選擇這個管道值得關注——Ripple並非需要直接向散戶投資人銷售XRP的交易所,而是一家銷售RippleNet支付網路、機構託管服務與RLUSD穩定幣的公司。貫穿整個協議的並非鼓吹「買進XRP」的用語,而是Ripple公司名稱與商標的曝光,這可解讀為一個訊號:該品牌更著重於在企業客戶與監管機構之間建立信任,而非直接推動代幣需求。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -301,6 +326,146 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Rangkaian Kemitraan Pembangun Kepercayaan Ripple 2026</text>
+    <g font-family="sans-serif">
+      <line x1="70" y1="100" x2="630" y2="100" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="130" cy="100" r="8" fill="#0ea5e9"/>
+      <text x="130" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Jun 2026</text>
+      <text x="130" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Mastercard Agent Pay</text>
+      <text x="130" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Bergabung dengan 30+ mitra di jaringan pembayaran AI</text>
+      <circle cx="330" cy="100" r="8" fill="#4ade80"/>
+      <text x="330" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Jul 2026</text>
+      <text x="330" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Luksemburg MiCA</text>
+      <text x="330" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Meraih lisensi CASP penuh</text>
+      <circle cx="560" cy="100" r="9" fill="#06b6d4" stroke="#fafafa" stroke-width="2"/>
+      <text x="560" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">8 Jul 2026</text>
+      <text x="560" y="125" fill="#06b6d4" font-size="13" text-anchor="middle" font-weight="800">Kesepakatan 5 tahun dengan Kansas</text>
+      <text x="560" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Kesepakatan kripto pertama di olahraga universitas</text>
+
+      <text x="20" y="200" fill="#a1a1aa" font-size="13" font-weight="700">Benang merahnya: tak satu pun dari tiga kesepakatan ini mempromosikan "beli XRP" — ketiganya</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13" font-weight="700">membangun kepercayaan regulator, institusi, dan publik pada merek korporat Ripple.</text>
+
+      <rect x="20" y="260" width="660" height="90" rx="8" fill="none" stroke="rgba(255,255,255,.12)"/>
+      <text x="40" y="288" fill="#fafafa" font-size="13" font-weight="700">Preseden peringatan</text>
+      <text x="40" y="312" fill="#a1a1aa" font-size="13">FTX Arena (Miami Heat, $135 juta/19 tahun) &#8594; berganti nama menjadi "Kaseya Center" setelah kebangkrutan 2022.</text>
+      <text x="40" y="333" fill="#a1a1aa" font-size="13">Eksposur merek tidak menjamin kesehatan finansial perusahaan maupun permintaan token.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Seria Partnerstw Budujących Zaufanie Ripple w 2026 Roku</text>
+    <g font-family="sans-serif">
+      <line x1="70" y1="100" x2="630" y2="100" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="130" cy="100" r="8" fill="#0ea5e9"/>
+      <text x="130" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Cze 2026</text>
+      <text x="130" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Mastercard Agent Pay</text>
+      <text x="130" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Dołącza do 30+ partnerów w sieci płatności AI</text>
+      <circle cx="330" cy="100" r="8" fill="#4ade80"/>
+      <text x="330" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Lip 2026</text>
+      <text x="330" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Luksemburg MiCA</text>
+      <text x="330" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Zdobywa pełną licencję CASP</text>
+      <circle cx="560" cy="100" r="9" fill="#06b6d4" stroke="#fafafa" stroke-width="2"/>
+      <text x="560" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">8 lip 2026</text>
+      <text x="560" y="125" fill="#06b6d4" font-size="13" text-anchor="middle" font-weight="800">5-letnia umowa z Kansas</text>
+      <text x="560" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Pierwsza umowa kryptowalutowa w sporcie uniwersyteckim</text>
+
+      <text x="20" y="200" fill="#a1a1aa" font-size="13" font-weight="700">Wspólny wątek: żadna z tych trzech umów nie promuje hasła „kup XRP" — wszystkie trzy</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13" font-weight="700">budują zaufanie regulacyjne, instytucjonalne i publiczne do marki korporacyjnej Ripple.</text>
+
+      <rect x="20" y="260" width="660" height="90" rx="8" fill="none" stroke="rgba(255,255,255,.12)"/>
+      <text x="40" y="288" fill="#fafafa" font-size="13" font-weight="700">Ostrzegawczy precedens</text>
+      <text x="40" y="312" fill="#a1a1aa" font-size="13">FTX Arena (Miami Heat, 135 mln $/19 lat) &#8594; przemianowana na „Kaseya Center" po bankructwie w 2022 roku.</text>
+      <text x="40" y="333" fill="#a1a1aa" font-size="13">Ekspozycja marki nie gwarantuje ani kondycji finansowej firmy, ani popytu na token.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">La Serie di Partnership di Fiducia di Ripple nel 2026</text>
+    <g font-family="sans-serif">
+      <line x1="70" y1="100" x2="630" y2="100" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="130" cy="100" r="8" fill="#0ea5e9"/>
+      <text x="130" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Giu 2026</text>
+      <text x="130" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Mastercard Agent Pay</text>
+      <text x="130" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Si unisce a oltre 30 partner nella rete di pagamenti AI</text>
+      <circle cx="330" cy="100" r="8" fill="#4ade80"/>
+      <text x="330" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Lug 2026</text>
+      <text x="330" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Lussemburgo MiCA</text>
+      <text x="330" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Ottiene la licenza CASP completa</text>
+      <circle cx="560" cy="100" r="9" fill="#06b6d4" stroke="#fafafa" stroke-width="2"/>
+      <text x="560" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">8 lug 2026</text>
+      <text x="560" y="125" fill="#06b6d4" font-size="13" text-anchor="middle" font-weight="800">Accordo quinquennale con Kansas</text>
+      <text x="560" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Primo accordo crypto nello sport universitario</text>
+
+      <text x="20" y="200" fill="#a1a1aa" font-size="13" font-weight="700">Il filo conduttore: nessuno di questi tre accordi promuove "comprare XRP" — tutti e tre</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13" font-weight="700">costruiscono fiducia normativa, istituzionale e pubblica nel marchio aziendale Ripple.</text>
+
+      <rect x="20" y="260" width="660" height="90" rx="8" fill="none" stroke="rgba(255,255,255,.12)"/>
+      <text x="40" y="288" fill="#fafafa" font-size="13" font-weight="700">Precedente cautelativo</text>
+      <text x="40" y="312" fill="#a1a1aa" font-size="13">FTX Arena (Miami Heat, 135 milioni $/19 anni) &#8594; rinominata "Kaseya Center" dopo il fallimento del 2022.</text>
+      <text x="40" y="333" fill="#a1a1aa" font-size="13">L'esposizione del marchio non garantisce né la salute finanziaria dell'azienda né la domanda del token.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Серия партнёрств Ripple по укреплению доверия в 2026 году</text>
+    <g font-family="sans-serif">
+      <line x1="70" y1="100" x2="630" y2="100" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="130" cy="100" r="8" fill="#0ea5e9"/>
+      <text x="130" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Июн 2026</text>
+      <text x="130" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Mastercard Agent Pay</text>
+      <text x="130" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Присоединяется к 30+ партнёрам сети ИИ-платежей</text>
+      <circle cx="330" cy="100" r="8" fill="#4ade80"/>
+      <text x="330" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">Июл 2026</text>
+      <text x="330" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Люксембург MiCA</text>
+      <text x="330" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Получает полную лицензию CASP</text>
+      <circle cx="560" cy="100" r="9" fill="#06b6d4" stroke="#fafafa" stroke-width="2"/>
+      <text x="560" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">8 июл 2026</text>
+      <text x="560" y="125" fill="#06b6d4" font-size="13" text-anchor="middle" font-weight="800">5-летняя сделка с Канзасом</text>
+      <text x="560" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">Первая крипто-сделка в университетском спорте</text>
+
+      <text x="20" y="200" fill="#a1a1aa" font-size="13" font-weight="700">Общая нить: ни одна из этих трёх сделок не призывает «купить XRP» — все три</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13" font-weight="700">укрепляют регуляторное, институциональное и общественное доверие к корпоративному бренду Ripple.</text>
+
+      <rect x="20" y="260" width="660" height="90" rx="8" fill="none" stroke="rgba(255,255,255,.12)"/>
+      <text x="40" y="288" fill="#fafafa" font-size="13" font-weight="700">Предостерегающий прецедент</text>
+      <text x="40" y="312" fill="#a1a1aa" font-size="13">FTX Arena (Miami Heat, $135 млн/19 лет) &#8594; переименована в «Kaseya Center» после банкротства 2022 года.</text>
+      <text x="40" y="333" fill="#a1a1aa" font-size="13">Присутствие бренда не гарантирует ни финансового здоровья компании, ни спроса на токен.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Ripple在2026年建立信任的合作夥伴關係軌跡</text>
+    <g font-family="sans-serif">
+      <line x1="70" y1="100" x2="630" y2="100" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="130" cy="100" r="8" fill="#0ea5e9"/>
+      <text x="130" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">2026年6月</text>
+      <text x="130" y="125" fill="#fafafa" font-size="13" text-anchor="middle">Mastercard Agent Pay</text>
+      <text x="130" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">加入AI支付網路,合作夥伴超過30家</text>
+      <circle cx="330" cy="100" r="8" fill="#4ade80"/>
+      <text x="330" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">2026年7月</text>
+      <text x="330" y="125" fill="#fafafa" font-size="13" text-anchor="middle">盧森堡MiCA</text>
+      <text x="330" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">取得完整CASP牌照</text>
+      <circle cx="560" cy="100" r="9" fill="#06b6d4" stroke="#fafafa" stroke-width="2"/>
+      <text x="560" y="80" fill="#a1a1aa" font-size="13" text-anchor="middle">2026年7月8日</text>
+      <text x="560" y="125" fill="#06b6d4" font-size="13" text-anchor="middle" font-weight="800">與堪薩斯簽訂5年協議</text>
+      <text x="560" y="143" fill="#a1a1aa" font-size="13" text-anchor="middle">大學體育史上首宗加密貨幣協議</text>
+
+      <text x="20" y="200" fill="#a1a1aa" font-size="13" font-weight="700">共同點:這三項協議都沒有宣傳「買進XRP」——三者皆</text>
+      <text x="20" y="222" fill="#a1a1aa" font-size="13" font-weight="700">致力於在監管機構、機構投資人與大眾之間建立對Ripple企業品牌的信任。</text>
+
+      <rect x="20" y="260" width="660" height="90" rx="8" fill="none" stroke="rgba(255,255,255,.12)"/>
+      <text x="40" y="288" fill="#fafafa" font-size="13" font-weight="700">警示性先例</text>
+      <text x="40" y="312" fill="#a1a1aa" font-size="13">FTX Arena(邁阿密熱火隊,1.35億美元/19年)&#8594; 2022年破產後更名為「Kaseya Center」。</text>
+      <text x="40" y="333" fill="#a1a1aa" font-size="13">品牌曝光度既不保證公司的財務健全,也不保證代幣需求。</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">회의적 시각: 브랜드 노출이 토큰 수요로 이어지는 것은 아니다</h2>
   <h2 class="en">The Skeptical Read: Brand Exposure Doesn't Translate Into Token Demand</h2>
@@ -311,6 +476,11 @@
   <h2 class="pt">A Leitura Cética: Exposição de Marca Não se Traduz em Demanda pelo Token</h2>
   <h2 class="tr">Şüpheci Bakış: Marka Görünürlüğü Token Talebine Dönüşmez</h2>
   <h2 class="vi">Góc Nhìn Hoài Nghi: Sự Hiển Thị Thương Hiệu Không Chuyển Thành Nhu Cầu Token</h2>
+  <h2 class="id">Pandangan Skeptis: Eksposur Merek Tidak Berarti Permintaan Token</h2>
+  <h2 class="pl">Sceptyczne Spojrzenie: Ekspozycja Marki Nie Przekłada Się na Popyt na Token</h2>
+  <h2 class="it">La Lettura Scettica: l'Esposizione del Marchio Non si Traduce in Domanda di Token</h2>
+  <h2 class="ru">Скептический Взгляд: Присутствие Бренда Не Означает Спрос на Токен</h2>
+  <h2 class="zh">懷疑論觀點:品牌曝光不等於代幣需求</h2>
 
   <p class="ko">코인베이스가 2022년 슈퍼볼 광고로 QR코드 하나만 30초간 내보내 앱 다운로드를 폭증시켰던 사례처럼, 스포츠·대형 광고 마케팅이 단기적으로 관심을 끄는 데는 효과가 있다는 것은 입증돼 있다. 그러나 그 관심이 지속적인 자산 수요로 이어지는지는 전혀 다른 문제다. FTX 아레나와 크립토닷컴 아레나 사례가 보여주듯, 명명권·스폰서십 계약은 로고 노출량을 계약대로 보장할 뿐, 회사의 재무 건전성이나 토큰 가격을 보장하지 않는다. 이번 리플-캔자스 계약에서도 마찬가지 구분이 적용된다 — 이번 딜은 리플이라는 기업과 RLUSD·RippleNet 같은 리플의 제품군에 대한 인지도를 높이지만, XRP 자체의 매수 유인이나 온체인 사용량 증가로 자동 연결되지는 않는다.</p>
   <p class="ko">이 딜은 리플이 2026년 들어 쌓아온 더 넓은 패턴 안에 자리한다. BTCtiming이 앞서 다뤘듯 리플은 올해 룩셈부르크에서 MiCA CASP 정식 라이선스를 취득했고, 마스터카드의 AI 에이전트 결제망 'Agent Pay for Machines'에 초기 참여사로 이름을 올렸으며, 여러 은행·결제기업과의 파트너십을 확장해왔다. 이 모든 움직임의 공통분모는 2021년 강세장 시기의 밈·과열 마케팅과는 결이 다른, '지루하지만 신뢰할 수 있는' 금융 인프라 기업이라는 이미지 구축이다. 캔자스대 스폰서십은 그중 가장 눈에 띄는 형태의 브랜딩일 뿐이며, 앞으로 지켜볼 것은 이런 신뢰 구축이 실제로 RLUSD 결제량이나 기관 고객 확보 같은 리플의 핵심 사업 지표로 전환되는지, 아니면 XRP 가격과는 무관한 순수한 홍보 효과로 그치는지다.</p>
@@ -330,6 +500,16 @@
   <p class="tr">Bu anlaşma, Ripple'ın 2026 boyunca inşa ettiği daha geniş bir modele uyuyor. BTCtiming'in daha önce ele aldığı gibi, Ripple bu yıl Lüksemburg'da tam bir MiCA CASP lisansı aldı, Mastercard'ın yapay zeka ödeme ağı Agent Pay for Machines'e erken katılımcı olarak katıldı ve çeşitli bankalar ile ödeme şirketleriyle ortaklıklarını genişletti. Bu hamlelerin ortak noktası, 2021 boğa döngüsü döneminin meme odaklı, hype ağırlıklı pazarlamasından farklı olarak "sıkıcı ama güvenilir" bir finansal altyapı şirketi imajı inşa etmektir. Kansas sponsorluğu şimdiye kadar bu markalaşmanın en görünür biçimidir; izlenmesi gereken şey bu güven inşasının gerçekten Ripple'ın temel iş metriklerine — RLUSD ödeme hacmi, kurumsal müşteri kazanımları — dönüşüp dönüşmeyeceği yoksa XRP'nin fiyatından bağımsız bir tanıtımdan ibaret mi kalacağıdır.</p>
   <p class="vi">Như quảng cáo Super Bowl năm 2022 của Coinbase đã chứng minh — một mã QR trong 30 giây khiến ứng dụng tạm thời sập dưới làn sóng tải xuống — thể thao và quảng cáo quy mô lớn có thể hiệu quả trong việc thu hút sự chú ý ngắn hạn. Liệu sự chú ý đó có chuyển thành nhu cầu tài sản bền vững hay không lại là một câu hỏi hoàn toàn khác. Như các trường hợp FTX Arena và Crypto.com Arena cho thấy, các thỏa thuận đặt tên và tài trợ đảm bảo mức độ hiển thị logo theo hợp đồng, chứ không đảm bảo sức khỏe tài chính của công ty hay giá của token. Sự phân biệt tương tự áp dụng cho thỏa thuận Ripple-Kansas: nó nâng cao nhận thức về Ripple như một công ty và về các sản phẩm như RLUSD và RippleNet, nhưng không tự động chuyển thành áp lực mua đối với chính XRP hay sự tăng trưởng trong việc sử dụng on-chain.</p>
   <p class="vi">Thỏa thuận này phù hợp với một mô hình rộng hơn mà Ripple đã xây dựng trong suốt năm 2026. Như BTCtiming đã đưa tin trước đó, Ripple đã giành được giấy phép CASP MiCA đầy đủ tại Luxembourg trong năm nay, tham gia mạng thanh toán AI Agent Pay for Machines của Mastercard với tư cách là đối tác sớm, và đã mở rộng quan hệ đối tác với một số ngân hàng và công ty thanh toán. Điểm chung xuyên suốt những động thái này là xây dựng hình ảnh một công ty hạ tầng tài chính "nhàm chán nhưng đáng tin cậy", khác biệt với tiếp thị đậm chất meme, cường điệu của thời kỳ chu kỳ tăng giá năm 2021. Tài trợ cho Kansas chỉ đơn giản là hình thức xây dựng thương hiệu dễ thấy nhất cho đến nay; điều đáng theo dõi là liệu việc xây dựng niềm tin này có thực sự chuyển thành các chỉ số kinh doanh cốt lõi của Ripple — khối lượng thanh toán RLUSD, giành được khách hàng tổ chức — hay vẫn chỉ là truyền thông tách rời khỏi giá của XRP.</p>
+  <p class="id">Seperti yang ditunjukkan iklan Super Bowl 2022 milik Coinbase — kode QR 30 detik yang sempat membuat aplikasi mereka crash akibat lonjakan unduhan — olahraga dan iklan berskala besar bisa efektif untuk menarik perhatian jangka pendek. Apakah perhatian itu berubah menjadi permintaan aset yang berkelanjutan adalah pertanyaan yang sama sekali berbeda. Seperti ditunjukkan kasus FTX Arena dan Crypto.com Arena, kesepakatan hak penamaan dan sponsorship menjamin eksposur logo sesuai kontrak, bukan kesehatan finansial perusahaan atau harga token. Perbedaan yang sama berlaku pada kesepakatan Ripple-Kansas: kesepakatan ini meningkatkan kesadaran atas Ripple sebagai perusahaan dan produk seperti RLUSD dan RippleNet, tetapi tidak otomatis berubah menjadi tekanan beli untuk XRP itu sendiri atau pertumbuhan penggunaan on-chain.</p>
+  <p class="id">Kesepakatan ini masuk dalam pola yang lebih luas yang telah dibangun Ripple sepanjang 2026. Seperti yang sebelumnya diulas BTCtiming, Ripple meraih lisensi CASP MiCA penuh di Luksemburg tahun ini, bergabung dengan jaringan pembayaran AI Agent Pay for Machines milik Mastercard sebagai peserta awal, dan telah memperluas kemitraan dengan sejumlah bank dan perusahaan pembayaran. Benang merah dari langkah-langkah ini adalah membangun citra sebagai perusahaan infrastruktur keuangan yang "membosankan tapi kredibel," berbeda dari pemasaran yang digerakkan meme dan penuh hype pada era bull-cycle 2021. Sponsorship Kansas sejauh ini hanyalah bentuk branding paling terlihat dari upaya tersebut; yang patut diamati adalah apakah pembangunan kepercayaan ini benar-benar berubah menjadi metrik bisnis inti Ripple — volume pembayaran RLUSD, perolehan klien institusional — atau tetap menjadi publisitas yang terlepas dari harga XRP.</p>
+  <p class="pl">Jak pokazała reklama Coinbase podczas Super Bowl w 2022 roku — 30-sekundowy kod QR, który na chwilę zawiesił aplikację pod naporem fali pobrań — sport i reklama na dużą skalę mogą skutecznie przyciągać krótkoterminową uwagę. To, czy ta uwaga przekłada się na trwały popyt na aktywo, to zupełnie inna kwestia. Jak pokazują przypadki FTX Arena i Crypto.com Arena, umowy dotyczące praw do nazwy i sponsoringu gwarantują umowną ekspozycję logo, a nie kondycję finansową firmy czy cenę tokena. To samo rozróżnienie dotyczy umowy Ripple-Kansas: zwiększa ona świadomość marki Ripple oraz produktów takich jak RLUSD i RippleNet, ale nie przekłada się automatycznie na presję kupna samego XRP ani wzrost użycia on-chain.</p>
+  <p class="pl">Umowa wpisuje się w szerszy wzorzec, który Ripple buduje przez cały 2026 rok. Jak wcześniej opisywał BTCtiming, Ripple zdobyło w tym roku pełną licencję MiCA CASP w Luksemburgu, dołączyło do sieci płatności AI Mastercard Agent Pay for Machines jako wczesny uczestnik oraz rozszerzyło partnerstwa z kilkoma bankami i firmami płatniczymi. Wspólnym wątkiem tych działań jest budowanie wizerunku firmy infrastruktury finansowej „nudnej, ale wiarygodnej", odmiennego od napędzanego memami, pełnego hype'u marketingu z okresu hossy 2021 roku. Sponsoring Kansas to jak dotąd po prostu najbardziej widoczna forma tego brandingu; warto obserwować, czy budowanie zaufania rzeczywiście przełoży się na kluczowe wskaźniki biznesowe Ripple — wolumen płatności RLUSD, pozyskanie klientów instytucjonalnych — czy pozostanie rozgłosem oderwanym od ceny XRP.</p>
+  <p class="it">Come ha dimostrato lo spot di Coinbase al Super Bowl 2022 — un QR code di 30 secondi che ha brevemente mandato in crash l'app sotto un'ondata di download — lo sport e la pubblicità su larga scala possono essere efficaci nel catturare l'attenzione a breve termine. Se questa attenzione si traduca in una domanda duratura per l'asset è una questione completamente diversa. Come dimostrano i casi di FTX Arena e Crypto.com Arena, gli accordi di naming rights e sponsorizzazione garantiscono l'esposizione del logo prevista contrattualmente, non la salute finanziaria di un'azienda o il prezzo di un token. La stessa distinzione si applica all'accordo Ripple-Kansas: aumenta la consapevolezza su Ripple come azienda e su prodotti come RLUSD e RippleNet, ma non si traduce automaticamente in pressione d'acquisto per XRP stesso o in crescita dell'utilizzo on-chain.</p>
+  <p class="it">L'accordo si inserisce in uno schema più ampio che Ripple sta costruendo nel corso del 2026. Come BTCtiming ha già riportato, Ripple ha ottenuto quest'anno una licenza MiCA CASP completa in Lussemburgo, si è unita alla rete di pagamenti AI Agent Pay for Machines di Mastercard come partecipante iniziale, e ha ampliato le partnership con diverse banche e società di pagamento. Il filo conduttore di queste mosse è costruire un'immagine da azienda di infrastruttura finanziaria "noiosa ma credibile", distinta dal marketing guidato dai meme e dall'hype tipico del ciclo rialzista del 2021. La sponsorizzazione del Kansas è finora semplicemente la forma più visibile di questo branding; ciò che vale la pena osservare è se questa costruzione di fiducia si traduca effettivamente nelle metriche di business principali di Ripple — volume dei pagamenti RLUSD, acquisizione di clienti istituzionali — o rimanga pubblicità scollegata dal prezzo di XRP.</p>
+  <p class="ru">Как показала реклама Coinbase на Супербоуле 2022 года — 30-секундный QR-код, из-за которого приложение ненадолго упало под наплывом скачиваний, — спорт и масштабная реклама могут эффективно привлекать краткосрочное внимание. Превращается ли это внимание в устойчивый спрос на актив — вопрос совершенно другой. Как показывают случаи FTX Arena и Crypto.com Arena, сделки о правах на название и спонсорстве гарантируют предусмотренную контрактом демонстрацию логотипа, а не финансовое здоровье компании или цену токена. То же самое различие применимо к сделке Ripple-Канзас: она повышает узнаваемость Ripple как компании и таких продуктов, как RLUSD и RippleNet, но не приводит автоматически к покупательскому давлению на сам XRP или росту использования в блокчейне.</p>
+  <p class="ru">Сделка вписывается в более широкую модель, которую Ripple выстраивает на протяжении 2026 года. Как ранее сообщал BTCtiming, в этом году Ripple получила полную лицензию MiCA CASP в Люксембурге, присоединилась к сети ИИ-платежей Mastercard Agent Pay for Machines в качестве раннего участника и расширила партнёрства с несколькими банками и платёжными компаниями. Общая нить этих шагов — формирование образа «скучной, но надёжной» финансовой инфраструктурной компании, в отличие от мемного, ажиотажного маркетинга эпохи бычьего цикла 2021 года. Спонсорство Канзаса пока лишь самая заметная форма такого брендинга; стоит понаблюдать, действительно ли это укрепление доверия конвертируется в ключевые бизнес-показатели Ripple — объём платежей RLUSD, привлечение институциональных клиентов, — или остаётся пиаром, оторванным от цены XRP.</p>
+  <p class="zh">正如Coinbase在2022年超級盃廣告所展示的那樣——一則長達30秒的QR code廣告,因下載量暴增而一度導致App當機——體育賽事與大規模廣告確實能有效吸引短期關注。但這種關注能否轉化為持續的資產需求則完全是另一回事。如同FTX Arena與Crypto.com Arena的案例所示,冠名權與贊助協議所保證的,僅是合約約定的商標曝光度,而非公司的財務健全狀況或代幣價格。同樣的區別也適用於Ripple與堪薩斯的協議:它提升了外界對Ripple公司本身,以及RLUSD、RippleNet等產品的認知,但並不會自動轉化為對XRP本身的買盤壓力,或鏈上使用量的成長。</p>
+  <p class="zh">這項協議符合Ripple在2026年持續建立的更廣泛模式。正如BTCtiming先前報導,Ripple今年在盧森堡取得完整的MiCA CASP牌照,以早期參與者身份加入Mastercard的AI支付網路「Agent Pay for Machines」,並持續擴大與多家銀行及支付公司的合作關係。這些動作的共同主軸,是塑造一家「乏味但可信」的金融基礎設施公司形象,有別於2021年牛市週期中迷因驅動、炒作氾濫的行銷手法。堪薩斯贊助案目前只是這種品牌塑造中最顯眼的一種形式;值得關注的是,這種信任建立最終是否會真正轉化為Ripple的核心業務指標——RLUSD支付量、機構客戶爭取——抑或仍只是與XRP價格脫節的公關宣傳。</p>
 
   <h2 class="ko">함께 보면 좋은 글</h2>
   <h2 class="en">Best Combined With</h2>
@@ -340,6 +520,11 @@
   <h2 class="pt">Melhor combinado com</h2>
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+  <h2 class="id">Kombinasi Bacaan Terbaik</h2>
+  <h2 class="pl">Najlepiej Połączyć z</h2>
+  <h2 class="it">Da Abbinare Con</h2>
+  <h2 class="ru">Лучше Всего Сочетается С</h2>
+  <h2 class="zh">延伸閱讀推薦</h2>
   <ul class="ko">
     <li><strong><a href="/blog/ripple-mica-casp-full-license-luxembourg">리플, 룩셈부르크 MiCA 정식 라이선스 취득</a>:</strong> 같은 신뢰 구축 흐름 위에 있는 규제 측면의 앞선 행보 확인하기</li>
     <li><strong><a href="/blog/ripple-xrp-bank-partnership-expansion">리플-은행 파트너십 확대</a>:</strong> 리플이 소비자 대상이 아닌 기관·은행 채널을 통해 신뢰를 쌓아온 배경 살펴보기</li>
@@ -376,6 +561,26 @@
     <li><strong><a href="/vi/blog/ripple-mica-casp-full-license-luxembourg">Ripple Giành Giấy Phép MiCA Đầy Đủ Tại Luxembourg</a>:</strong> Khía cạnh pháp lý của cùng mô hình xây dựng niềm tin, một bước trước đó</li>
     <li><strong><a href="/vi/blog/ripple-xrp-bank-partnership-expansion">Sự Mở Rộng Quan Hệ Đối Tác Ngân Hàng Của Ripple</a>:</strong> Cách Ripple xây dựng niềm tin qua các kênh tổ chức và ngân hàng thay vì tiếp thị bán lẻ</li>
   </ul>
+  <ul class="id">
+    <li><strong><a href="/id/blog/ripple-mica-casp-full-license-luxembourg">Ripple Meraih Lisensi MiCA Penuh di Luksemburg</a>:</strong> Sisi regulasi dari pola pembangunan kepercayaan yang sama, satu langkah lebih awal</li>
+    <li><strong><a href="/id/blog/ripple-xrp-bank-partnership-expansion">Ekspansi Kemitraan Bank Ripple</a>:</strong> Bagaimana Ripple membangun kepercayaan melalui saluran institusional dan perbankan, bukan pemasaran ritel</li>
+  </ul>
+  <ul class="pl">
+    <li><strong><a href="/pl/blog/ripple-mica-casp-full-license-luxembourg">Ripple Zdobywa Pełną Licencję MiCA w Luksemburgu</a>:</strong> Regulacyjna część tego samego wzorca budowania zaufania, o krok wcześniej</li>
+    <li><strong><a href="/pl/blog/ripple-xrp-bank-partnership-expansion">Rozwój Partnerstw Bankowych Ripple</a>:</strong> Jak Ripple buduje zaufanie poprzez kanały instytucjonalne i bankowe zamiast marketingu detalicznego</li>
+  </ul>
+  <ul class="it">
+    <li><strong><a href="/it/blog/ripple-mica-casp-full-license-luxembourg">Ripple Ottiene la Licenza MiCA Completa in Lussemburgo</a>:</strong> Il lato normativo dello stesso schema di costruzione della fiducia, un passo prima</li>
+    <li><strong><a href="/it/blog/ripple-xrp-bank-partnership-expansion">L'Espansione delle Partnership Bancarie di Ripple</a>:</strong> Come Ripple ha costruito fiducia attraverso canali istituzionali e bancari anziché il marketing retail</li>
+  </ul>
+  <ul class="ru">
+    <li><strong><a href="/ru/blog/ripple-mica-casp-full-license-luxembourg">Ripple Получает Полную Лицензию MiCA в Люксембурге</a>:</strong> Регуляторная составляющая той же модели укрепления доверия, на шаг раньше</li>
+    <li><strong><a href="/ru/blog/ripple-xrp-bank-partnership-expansion">Расширение Банковских Партнёрств Ripple</a>:</strong> Как Ripple выстраивала доверие через институциональные и банковские каналы, а не розничный маркетинг</li>
+  </ul>
+  <ul class="zh">
+    <li><strong><a href="/zh/blog/ripple-mica-casp-full-license-luxembourg">Ripple在盧森堡取得完整MiCA牌照</a>:</strong> 同一信任建立模式中更早一步的監管面進展</li>
+    <li><strong><a href="/zh/blog/ripple-xrp-bank-partnership-expansion">Ripple銀行合作夥伴關係的擴張</a>:</strong> Ripple如何透過機構與銀行管道而非散戶行銷建立信任</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: KCTV5, 더블록, 온3(On3), 247스포츠, 뉴스BTC, 스톡트위츠(2026년 7월 8~9일 보도), 캔자스대 애슬레틱스 및 리플 발표 자료, BTCtiming.com 자체 분석. 계약 금액 등 세부 수치는 공식 공개되지 않았으며 보도 인용 시점 기준이다. 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (coverage published July 8–9, 2026), University of Kansas Athletics and Ripple announcement materials, BTCtiming.com's own analysis. Deal-value details were not officially disclosed and figures are as of the time cited. This is not investment advice.</p>
@@ -386,5 +591,10 @@
   <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (cobertura publicada em 8 e 9 de julho de 2026), materiais de anúncio da University of Kansas Athletics e da Ripple, análise própria da BTCtiming.com. Os detalhes do valor do acordo não foram divulgados oficialmente e os números são referentes ao momento citado. Isto não é aconselhamento de investimento.</p>
   <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (8-9 Temmuz 2026 tarihli haberler), University of Kansas Athletics ve Ripple duyuru materyalleri, BTCtiming.com'un kendi analizi. Anlaşma değeri detayları resmi olarak açıklanmamıştır ve rakamlar atıfta bulunulan zamana aittir. Bu, yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (đưa tin ngày 8-9 tháng 7 năm 2026), tài liệu công bố của University of Kansas Athletics và Ripple, phân tích riêng của BTCtiming.com. Chi tiết giá trị thỏa thuận không được công bố chính thức và các số liệu tính đến thời điểm được trích dẫn. Đây không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:.85rem;color:#71717a">Sumber: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (liputan diterbitkan 8–9 Juli 2026), materi pengumuman University of Kansas Athletics dan Ripple, analisis internal BTCtiming.com. Rincian nilai kesepakatan tidak diungkapkan secara resmi dan angka-angka merujuk pada waktu dikutip. Ini bukan nasihat investasi.</p>
+  <p class="pl" style="font-size:.85rem;color:#71717a">Źródła: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (doniesienia opublikowane 8–9 lipca 2026), materiały ogłoszeniowe University of Kansas Athletics i Ripple, własna analiza BTCtiming.com. Szczegóły dotyczące wartości umowy nie zostały oficjalnie ujawnione, a podane liczby odnoszą się do momentu cytowania. To nie jest porada inwestycyjna.</p>
+  <p class="it" style="font-size:.85rem;color:#71717a">Fonti: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (copertura pubblicata l'8–9 luglio 2026), materiali di annuncio di University of Kansas Athletics e Ripple, analisi propria di BTCtiming.com. I dettagli sul valore dell'accordo non sono stati resi noti ufficialmente e le cifre si riferiscono al momento citato. Questo non è un consiglio di investimento.</p>
+  <p class="ru" style="font-size:.85rem;color:#71717a">Источники: KCTV5, The Block, On3, 247Sports, NewsBTC, Stocktwits (материалы опубликованы 8–9 июля 2026 года), анонс-материалы University of Kansas Athletics и Ripple, собственный анализ BTCtiming.com. Подробности о стоимости сделки официально не раскрывались, цифры приведены на момент цитирования. Это не является инвестиционной рекомендацией.</p>
+  <p class="zh" style="font-size:.85rem;color:#71717a">資料來源:KCTV5、The Block、On3、247Sports、NewsBTC、Stocktwits(報導發布於2026年7月8日至9日)、堪薩斯大學體育部與Ripple的公告資料、BTCtiming.com自有分析。協議金額細節未經官方公開,數據以引用時點為準。本文不構成投資建議。</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
