@@ -68,6 +68,11 @@
   "desc_pt": "A Swift lançou seu livro-razão compartilhado baseado em blockchain com 17 bancos participantes, visando processar pagamentos transfronteiriços 24 horas por dia usando depósitos tokenizados — embora a transferência final real dos fundos ainda possa depender do sistema RTGS de cada país. Uma análise de como o livro-razão funciona, como se compara a esforços anteriores de consórcios bancários como a Fnality, e sua competição com as stablecoins.",
   "desc_tr": "Swift, 17 katılımcı bankayla birlikte blok zinciri tabanlı paylaşılan defterini başlattı; amaç, tokenize edilmiş mevduatlar kullanarak sınır ötesi ödemeleri kesintisiz işlemek — ancak gerçek nihai fon transferi hâlâ her ülkenin RTGS sistemine bağlı olabilir. Defterin nasıl çalıştığına, Fnality gibi geçmiş banka konsorsiyumu girişimleriyle karşılaştırmasına ve stablecoin'lerle rekabetine bakıyoruz.",
   "desc_vi": "Swift đã ra mắt sổ cái chia sẻ dựa trên blockchain với 17 ngân hàng tham gia, nhằm xử lý các khoản thanh toán xuyên biên giới suốt ngày đêm bằng tiền gửi được token hóa — dù việc chuyển tiền cuối cùng thực sự vẫn có thể phụ thuộc vào hệ thống RTGS của từng quốc gia. Bài viết xem xét cách sổ cái này hoạt động, so sánh với các nỗ lực liên minh ngân hàng trước đây như Fnality, và sự cạnh tranh của nó với stablecoin.",
+  "desc_id": "Swift luncurkan buku besar blockchain dengan 17 bank untuk bayar lintas batas 24 jam via simpanan tertokenisasi, meski penyelesaian tetap bergantung RTGS.",
+  "desc_pl": "Swift uruchomił blockchainową księgę z 17 bankami dla płatności transgranicznych 24/7 przez depozyty tokenizowane, choć rozliczenie zależy od RTGS kraju.",
+  "desc_it": "Swift lancia il registro blockchain con 17 banche per pagamenti transfrontalieri 24/7 via depositi tokenizzati, ma il regolamento dipende dal sistema RTGS.",
+  "desc_ru": "Swift запустил блокчейн-реестр с 17 банками для трансграничных платежей 24/7 через токенизированные депозиты, хотя расчёт зависит от системы RTGS страны.",
+  "desc_zh": "Swift(國際銀行間通信協會)與17家銀行推出區塊鏈基礎共享帳本,目標是透過代幣化存款全天候處理跨境支付,但背後實際的資金最終轉移,仍可能取決於各國即時總額結算系統(RTGS)運作時間,文中並比較Fnality等過往銀行聯盟先例與穩定幣的競爭態勢。",
   "read_ko": "8",
   "read_en": "8",
   "read_ja": "8",
@@ -76,5 +81,10 @@
   "read_fr": "8",
   "read_pt": "8",
   "read_tr": "8",
-  "read_vi": "8"
+  "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8"
 }
