@@ -533,6 +533,206 @@
     <rect x="150" y="358" width="400" height="54" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
     <text x="350" y="391" fill="#fde68a" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Kết quả: Ảo tưởng về rủi ro thấp vẫn tồn tại</text>
   </svg></div>
+  <div class="id">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Dua Wajah Keyakinan pada Dunia yang Adil</text>
+    <text x="20" y="45" fill="#71717a" font-size="13" font-family="sans-serif">Saat terancam, pikiran mempertahankannya ke salah satu dari dua arah</text>
+
+    <rect x="220" y="60" width="260" height="52" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="92" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Keyakinan: Dunia Ini Adil</text>
+
+    <line x1="300" y1="112" x2="165" y2="150" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="165,150 176,146 172,157" fill="#38bdf8"/>
+    <line x1="400" y1="112" x2="535" y2="150" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="535,150 524,146 528,157" fill="#fb923c"/>
+    <text x="175" y="130" fill="#71717a" font-size="12" font-family="sans-serif">Mengarah ke dalam</text>
+    <text x="460" y="130" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Mengarah ke luar</text>
+
+    <rect x="30" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Saat posisiku merugi</text>
+    <rect x="430" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Saat orang lain mengalami kerugian</text>
+
+    <line x1="150" y1="200" x2="150" y2="222" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="150,222 145,212 155,212" fill="#38bdf8"/>
+    <line x1="550" y1="200" x2="550" y2="222" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="550,222 545,212 555,212" fill="#fb923c"/>
+
+    <rect x="30" y="222" width="240" height="66" rx="8" fill="#132030" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="248" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">Pasar pada akhirnya akan</text>
+    <text x="150" y="268" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">membalasku dengan adil</text>
+    <rect x="430" y="222" width="240" height="66" rx="8" fill="#2a1c10" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="248" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">Pantas saja —</text>
+    <text x="550" y="268" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">mereka tidak melakukan riset sendiri</text>
+
+    <text x="150" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Penundaan stop-loss</text>
+    <text x="550" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Menyalahkan korban</text>
+
+    <line x1="170" y1="330" x2="310" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <line x1="530" y1="330" x2="390" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+    <rect x="150" y="358" width="400" height="54" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="391" fill="#fde68a" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Hasil: ilusi risiko rendah tetap bertahan</text>
+  </svg></div>
+  <div class="pl">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Dwa Oblicza Wiary w Sprawiedliwy Świat</text>
+    <text x="20" y="45" fill="#71717a" font-size="13" font-family="sans-serif">Gdy jest zagrożona, umysł broni jej w jednym z dwóch kierunków</text>
+
+    <rect x="220" y="60" width="260" height="52" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="92" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Wiara: Świat Jest Sprawiedliwy</text>
+
+    <line x1="300" y1="112" x2="165" y2="150" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="165,150 176,146 172,157" fill="#38bdf8"/>
+    <line x1="400" y1="112" x2="535" y2="150" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="535,150 524,146 528,157" fill="#fb923c"/>
+    <text x="175" y="130" fill="#71717a" font-size="12" font-family="sans-serif">Skierowana do wewnątrz</text>
+    <text x="460" y="130" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Skierowana na zewnątrz</text>
+
+    <rect x="30" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Gdy moja pozycja jest stratna</text>
+    <rect x="430" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Gdy ktoś inny ponosi stratę</text>
+
+    <line x1="150" y1="200" x2="150" y2="222" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="150,222 145,212 155,212" fill="#38bdf8"/>
+    <line x1="550" y1="200" x2="550" y2="222" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="550,222 545,212 555,212" fill="#fb923c"/>
+
+    <rect x="30" y="222" width="240" height="66" rx="8" fill="#132030" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="248" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">Rynek ostatecznie mnie</text>
+    <text x="150" y="268" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">sprawiedliwie wynagrodzi</text>
+    <rect x="430" y="222" width="240" height="66" rx="8" fill="#2a1c10" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="248" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">Sami się o to prosili —</text>
+    <text x="550" y="268" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">nie zrobili własnych badań</text>
+
+    <text x="150" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Opóźnione cięcie strat</text>
+    <text x="550" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Obwinianie ofiary</text>
+
+    <line x1="170" y1="330" x2="310" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <line x1="530" y1="330" x2="390" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+    <rect x="150" y="358" width="400" height="54" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="391" fill="#fde68a" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Wynik: iluzja niskiego ryzyka przetrwa</text>
+  </svg></div>
+  <div class="it">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">I Due Volti della Credenza in un Mondo Giusto</text>
+    <text x="20" y="45" fill="#71717a" font-size="13" font-family="sans-serif">Quando è minacciata, la mente la difende in una di due direzioni</text>
+
+    <rect x="220" y="60" width="260" height="52" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="92" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Credenza: Il Mondo È Giusto</text>
+
+    <line x1="300" y1="112" x2="165" y2="150" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="165,150 176,146 172,157" fill="#38bdf8"/>
+    <line x1="400" y1="112" x2="535" y2="150" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="535,150 524,146 528,157" fill="#fb923c"/>
+    <text x="175" y="130" fill="#71717a" font-size="12" font-family="sans-serif">Rivolta verso l'interno</text>
+    <text x="460" y="130" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Rivolta verso l'esterno</text>
+
+    <rect x="30" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Quando la mia posizione è in perdita</text>
+    <rect x="430" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Quando qualcun altro subisce una perdita</text>
+
+    <line x1="150" y1="200" x2="150" y2="222" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="150,222 145,212 155,212" fill="#38bdf8"/>
+    <line x1="550" y1="200" x2="550" y2="222" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="550,222 545,212 555,212" fill="#fb923c"/>
+
+    <rect x="30" y="222" width="240" height="66" rx="8" fill="#132030" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="248" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">Il mercato alla fine mi</text>
+    <text x="150" y="268" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">ripagherà equamente</text>
+    <rect x="430" y="222" width="240" height="66" rx="8" fill="#2a1c10" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="248" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">Se l'è cercata —</text>
+    <text x="550" y="268" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">non ha fatto la propria ricerca</text>
+
+    <text x="150" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Stop-loss ritardato</text>
+    <text x="550" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Colpevolizzare la vittima</text>
+
+    <line x1="170" y1="330" x2="310" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <line x1="530" y1="330" x2="390" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+    <rect x="150" y="358" width="400" height="54" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="391" fill="#fde68a" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Risultato: l'illusione del basso rischio sopravvive</text>
+  </svg></div>
+  <div class="ru">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Два лица веры в справедливый мир</text>
+    <text x="20" y="45" fill="#71717a" font-size="13" font-family="sans-serif">Под угрозой сознание защищает её одним из двух способов</text>
+
+    <rect x="220" y="60" width="260" height="52" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="92" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Вера: мир справедлив</text>
+
+    <line x1="300" y1="112" x2="165" y2="150" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="165,150 176,146 172,157" fill="#38bdf8"/>
+    <line x1="400" y1="112" x2="535" y2="150" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="535,150 524,146 528,157" fill="#fb923c"/>
+    <text x="175" y="130" fill="#71717a" font-size="12" font-family="sans-serif">Направлено внутрь</text>
+    <text x="460" y="130" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Направлено вовне</text>
+
+    <rect x="30" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Когда моя позиция в убытке</text>
+    <rect x="430" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">Когда убыток несёт кто-то другой</text>
+
+    <line x1="150" y1="200" x2="150" y2="222" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="150,222 145,212 155,212" fill="#38bdf8"/>
+    <line x1="550" y1="200" x2="550" y2="222" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="550,222 545,212 555,212" fill="#fb923c"/>
+
+    <rect x="30" y="222" width="240" height="66" rx="8" fill="#132030" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="248" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">Рынок в конце концов</text>
+    <text x="150" y="268" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">справедливо мне воздаст</text>
+    <rect x="430" y="222" width="240" height="66" rx="8" fill="#2a1c10" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="248" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">Сами виноваты —</text>
+    <text x="550" y="268" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">не сделали собственного исследования</text>
+
+    <text x="150" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Отложенный стоп-лосс</text>
+    <text x="550" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ Обвинение жертвы</text>
+
+    <line x1="170" y1="330" x2="310" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <line x1="530" y1="330" x2="390" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+    <rect x="150" y="358" width="400" height="54" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="391" fill="#fde68a" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">Итог: иллюзия низкого риска выживает</text>
+  </svg></div>
+  <div class="zh">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="26" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">公正世界信念的兩張臉</text>
+    <text x="20" y="45" fill="#71717a" font-size="13" font-family="sans-serif">當信念受到威脅時,大腦會朝兩個方向之一為其辯護</text>
+
+    <rect x="220" y="60" width="260" height="52" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="92" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">信念:世界是公平的</text>
+
+    <line x1="300" y1="112" x2="165" y2="150" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="165,150 176,146 172,157" fill="#38bdf8"/>
+    <line x1="400" y1="112" x2="535" y2="150" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="535,150 524,146 528,157" fill="#fb923c"/>
+    <text x="175" y="130" fill="#71717a" font-size="12" font-family="sans-serif">向內轉時</text>
+    <text x="460" y="130" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">向外轉時</text>
+
+    <rect x="30" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">當我的部位虧損時</text>
+    <rect x="430" y="150" width="240" height="50" rx="8" fill="#1a1a1d" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="180" fill="#e4e4e7" font-size="13.5" font-weight="600" text-anchor="middle" font-family="sans-serif">當別人虧損時</text>
+
+    <line x1="150" y1="200" x2="150" y2="222" stroke="#38bdf8" stroke-width="1.5"/>
+    <polygon points="150,222 145,212 155,212" fill="#38bdf8"/>
+    <line x1="550" y1="200" x2="550" y2="222" stroke="#fb923c" stroke-width="1.5"/>
+    <polygon points="550,222 545,212 555,212" fill="#fb923c"/>
+
+    <rect x="30" y="222" width="240" height="66" rx="8" fill="#132030" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="150" y="248" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">市場終究會</text>
+    <text x="150" y="268" fill="#93c5fd" font-size="13.5" text-anchor="middle" font-family="sans-serif">公平地回報我</text>
+    <rect x="430" y="222" width="240" height="66" rx="8" fill="#2a1c10" stroke="#fb923c" stroke-width="1.2"/>
+    <text x="550" y="248" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">活該——</text>
+    <text x="550" y="268" fill="#fdba74" font-size="13.5" text-anchor="middle" font-family="sans-serif">他們沒有自行研究</text>
+
+    <text x="150" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ 延遲停損</text>
+    <text x="550" y="315" fill="#f87171" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">→ 指責受害者</text>
+
+    <line x1="170" y1="330" x2="310" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <line x1="530" y1="330" x2="390" y2="358" stroke="#71717a" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+    <rect x="150" y="358" width="400" height="54" rx="10" fill="#27272a" stroke="#eab308" stroke-width="1.5"/>
+    <text x="350" y="391" fill="#fde68a" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">結果:低風險的錯覺得以延續</text>
+  </svg></div>
   <h2 class="ko">왜 같은 편향인가 — 통제감을 지키기 위한 두 가지 방법</h2>
   <h2 class="en">Why It's the Same Bias — Two Ways to Preserve a Sense of Control</h2>
   <h2 class="ja">なぜ同じバイアスなのか — 統制感を守るための二つの方法</h2>
