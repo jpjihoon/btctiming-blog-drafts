@@ -41,6 +41,11 @@
   <h2 class="pt">A Crença em um Mundo Justo — O Experimento de Lerner e Simmons de 1966</h2>
   <h2 class="tr">Adil Dünya İnancı — Lerner ve Simmons'ın 1966 Deneyi</h2>
   <h2 class="vi">Niềm Tin Vào Thế Giới Công Bằng — Thí Nghiệm Năm 1966 Của Lerner Và Simmons</h2>
+  <h2 class="id">Keyakinan pada Dunia yang Adil — Eksperimen Lerner dan Simmons Tahun 1966</h2>
+  <h2 class="pl">Wiara w Sprawiedliwy Świat — Eksperyment Lernera i Simmons z 1966 Roku</h2>
+  <h2 class="it">La Credenza in un Mondo Giusto — L'Esperimento di Lerner e Simmons del 1966</h2>
+  <h2 class="ru">Вера в справедливый мир — эксперимент Лернера и Симмонс 1966 года</h2>
+  <h2 class="zh">公正世界信念——勒納與西蒙斯1966年的實驗</h2>
 
   <p class="ko">러너는 1965년 논문에서 이 개념을 처음 제시했고, 1966년 동료 캐럴린 시먼스(Carolyn H. Simmons)와 함께 《Journal of Personality and Social Psychology》에 발표한 실험으로 그 메커니즘을 입증했다. 실험 참가자들은 한 여성이 학습 과제에서 틀릴 때마다 전기 충격을 받는 장면을 관찰했다(실제로는 충격이 가해지지 않은 배우의 연기였다). 참가자들이 그 여성을 도와줄 수 없는 상황에 놓이자, 그들은 그녀를 하찮고 미숙하며 매력 없는 사람으로 평가하기 시작했다. 고통이 계속될 것이라 예상될수록 이 평가절하는 더 심해졌다.</p>
   <p class="en">Lerner first floated the idea in a 1965 paper, then proved the mechanism in a 1966 experiment with his colleague Carolyn H. Simmons, published in the Journal of Personality and Social Psychology. Participants watched a woman receive electric shocks every time she erred on a learning task (in reality, no shocks were delivered; she was an actor). Once participants were placed in a position where they couldn't intervene to help her, they began rating her as unworthy, incompetent, and unattractive. The longer her suffering was expected to continue, the harsher the devaluation became.</p>

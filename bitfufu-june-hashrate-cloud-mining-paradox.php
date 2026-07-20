@@ -222,6 +222,121 @@
   <text x="650" y="325" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Nguồn: GlobeNewswire, cập nhật tháng 6 của BitFuFu</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Komposisi Hashrate yang Dikelola BitFuFu — Mei vs. Juni (EH/s)</text>
+  <circle cx="480" cy="46" r="6" fill="#3b82f6"/>
+  <text x="492" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Milik sendiri</text>
+  <circle cx="580" cy="46" r="6" fill="#8b5cf6"/>
+  <text x="592" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Pihak ketiga/hosting</text>
+  <line x1="60" y1="290" x2="640" y2="290" stroke="#3f3f46" stroke-width="1"/>
+  <text x="270" y="85" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">19,5 EH/s</text>
+  <rect x="220" y="95" width="100" height="163" fill="#8b5cf6"/>
+  <text x="270" y="182" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">16,3</text>
+  <rect x="220" y="258" width="100" height="32" fill="#3b82f6"/>
+  <text x="270" y="279" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,2</text>
+  <text x="270" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Mei</text>
+  <text x="470" y="127" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">15,3 EH/s</text>
+  <rect x="420" y="137" width="100" height="118" fill="#8b5cf6"/>
+  <text x="470" y="200" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">11,8</text>
+  <rect x="420" y="255" width="100" height="35" fill="#3b82f6"/>
+  <text x="470" y="277" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,5</text>
+  <text x="470" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Juni</text>
+  <text x="650" y="325" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Sumber: GlobeNewswire, pembaruan operasional Juni BitFuFu</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Struktura hashrate'u zarządzanego przez BitFuFu — maj a czerwiec (EH/s)</text>
+  <circle cx="480" cy="46" r="6" fill="#3b82f6"/>
+  <text x="492" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Własny</text>
+  <circle cx="580" cy="46" r="6" fill="#8b5cf6"/>
+  <text x="592" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Strony trzecie/hosting</text>
+  <line x1="60" y1="290" x2="640" y2="290" stroke="#3f3f46" stroke-width="1"/>
+  <text x="270" y="85" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">19,5 EH/s</text>
+  <rect x="220" y="95" width="100" height="163" fill="#8b5cf6"/>
+  <text x="270" y="182" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">16,3</text>
+  <rect x="220" y="258" width="100" height="32" fill="#3b82f6"/>
+  <text x="270" y="279" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,2</text>
+  <text x="270" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Maj</text>
+  <text x="470" y="127" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">15,3 EH/s</text>
+  <rect x="420" y="137" width="100" height="118" fill="#8b5cf6"/>
+  <text x="470" y="200" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">11,8</text>
+  <rect x="420" y="255" width="100" height="35" fill="#3b82f6"/>
+  <text x="470" y="277" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,5</text>
+  <text x="470" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Czerwiec</text>
+  <text x="650" y="325" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Źródło: GlobeNewswire, czerwcowa aktualizacja operacyjna BitFuFu</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Composizione dell'hashrate gestito da BitFuFu — maggio vs. giugno (EH/s)</text>
+  <circle cx="480" cy="46" r="6" fill="#3b82f6"/>
+  <text x="492" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Proprio</text>
+  <circle cx="580" cy="46" r="6" fill="#8b5cf6"/>
+  <text x="592" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Terzi/hosting</text>
+  <line x1="60" y1="290" x2="640" y2="290" stroke="#3f3f46" stroke-width="1"/>
+  <text x="270" y="85" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">19,5 EH/s</text>
+  <rect x="220" y="95" width="100" height="163" fill="#8b5cf6"/>
+  <text x="270" y="182" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">16,3</text>
+  <rect x="220" y="258" width="100" height="32" fill="#3b82f6"/>
+  <text x="270" y="279" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,2</text>
+  <text x="270" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Maggio</text>
+  <text x="470" y="127" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">15,3 EH/s</text>
+  <rect x="420" y="137" width="100" height="118" fill="#8b5cf6"/>
+  <text x="470" y="200" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">11,8</text>
+  <rect x="420" y="255" width="100" height="35" fill="#3b82f6"/>
+  <text x="470" y="277" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,5</text>
+  <text x="470" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Giugno</text>
+  <text x="650" y="325" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Fonte: GlobeNewswire, aggiornamento operativo di giugno di BitFuFu</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Структура хешрейта под управлением BitFuFu — май против июня (EH/s)</text>
+  <circle cx="480" cy="46" r="6" fill="#3b82f6"/>
+  <text x="492" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Собственный</text>
+  <circle cx="580" cy="46" r="6" fill="#8b5cf6"/>
+  <text x="592" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">Сторонние/хостинг</text>
+  <line x1="60" y1="290" x2="640" y2="290" stroke="#3f3f46" stroke-width="1"/>
+  <text x="270" y="85" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">19,5 EH/s</text>
+  <rect x="220" y="95" width="100" height="163" fill="#8b5cf6"/>
+  <text x="270" y="182" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">16,3</text>
+  <rect x="220" y="258" width="100" height="32" fill="#3b82f6"/>
+  <text x="270" y="279" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,2</text>
+  <text x="270" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Май</text>
+  <text x="470" y="127" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">15,3 EH/s</text>
+  <rect x="420" y="137" width="100" height="118" fill="#8b5cf6"/>
+  <text x="470" y="200" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">11,8</text>
+  <rect x="420" y="255" width="100" height="35" fill="#3b82f6"/>
+  <text x="470" y="277" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3,5</text>
+  <text x="470" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">Июнь</text>
+  <text x="650" y="325" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">Источник: GlobeNewswire, июньское операционное обновление BitFuFu</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">比特富富管理算力組成——5月對比6月(單位:EH/s)</text>
+  <circle cx="480" cy="46" r="6" fill="#3b82f6"/>
+  <text x="492" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">自有</text>
+  <circle cx="580" cy="46" r="6" fill="#8b5cf6"/>
+  <text x="592" y="51" fill="#d4d4d8" font-size="13" font-family="sans-serif">第三方・託管</text>
+  <line x1="60" y1="290" x2="640" y2="290" stroke="#3f3f46" stroke-width="1"/>
+  <text x="270" y="85" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">19.5 EH/s</text>
+  <rect x="220" y="95" width="100" height="163" fill="#8b5cf6"/>
+  <text x="270" y="182" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">16.3</text>
+  <rect x="220" y="258" width="100" height="32" fill="#3b82f6"/>
+  <text x="270" y="279" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3.2</text>
+  <text x="270" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">5月</text>
+  <text x="470" y="127" fill="#fafafa" font-size="14" font-weight="700" text-anchor="middle" font-family="sans-serif">15.3 EH/s</text>
+  <rect x="420" y="137" width="100" height="118" fill="#8b5cf6"/>
+  <text x="470" y="200" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">11.8</text>
+  <rect x="420" y="255" width="100" height="35" fill="#3b82f6"/>
+  <text x="470" y="277" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="sans-serif">3.5</text>
+  <text x="470" y="312" fill="#d4d4d8" font-size="14" text-anchor="middle" font-family="sans-serif">6月</text>
+  <text x="650" y="325" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">資料來源:GlobeNewswire,比特富富6月營運更新</text>
+</svg>
+</div>
 
 <h2 class="ko">클라우드 마이닝의 역설 — 왜 자체 채굴은 늘고 위탁 물량은 줄었나</h2>
 <h2 class="en">The Cloud-Mining Paradox — Why Self-Mining Grew While Hosted Hashrate Shrank</h2>
@@ -232,6 +347,11 @@
 <h2 class="pt">O paradoxo da mineração em nuvem — por que a mineração própria cresceu enquanto o hashrate hospedado encolheu</h2>
 <h2 class="tr">Bulut madenciliği paradoksu — barındırılan hashrate küçülürken kendi madenciliği neden büyüdü</h2>
 <h2 class="vi">Nghịch lý của khai thác đám mây — vì sao tự khai thác tăng trong khi hashrate lưu trữ lại thu hẹp</h2>
+<h2 class="id">Paradoks Cloud Mining — Mengapa Penambangan Sendiri Tumbuh Sementara Hashrate yang Dihosting Menyusut</h2>
+<h2 class="pl">Paradoks cloud miningu — dlaczego wydobycie własne rosło, podczas gdy hashrate hostowany się kurczył</h2>
+<h2 class="it">Il paradosso del cloud mining — perché il mining proprio è cresciuto mentre l'hashrate ospitato si è ridotto</h2>
+<h2 class="ru">Парадокс облачного майнинга — почему собственный майнинг рос, а хостинговый хешрейт сокращался</h2>
+<h2 class="zh">雲端挖礦的悖論——為何自營挖礦成長,而託管算力卻萎縮</h2>
 
 <p class="ko">비트푸푸의 사업 구조는 두 갈래다. 하나는 회사가 직접 소유·운영하는 채굴장비이고, 다른 하나는 소매 클라우드마이닝 고객과 제3자 호스팅 고객에게 해시레이트를 재판매·위탁운영해주는 사업이다. 회사가 매달 발표하는 '관리 해시레이트'는 이 둘을 합친 수치다. 문제는 해시프라이스(해시레이트당 채굴 수익)가 약세일 때다. 업계 전반의 해시프라이스가 페타해시당 하루 약 29달러 수준으로 눌린 7월 초 상황에서, 위탁 계약이 만료되거나 호스팅 고객이 장비 가동을 줄이면 위탁 부문의 해시레이트는 곧바로 줄어든다. 반면 회사가 6월 한 달간 1,200대의 최신 S21 XP 채굴기를 사들여 자체 설비를 확충하면서, 자체 보유 해시레이트는 오히려 9.4% 늘었다. 결국 두 부문이 반대 방향으로 움직이면서 총 생산량은 29.4% 급감하는 결과가 나왔다.</p>
 <p class="en">BitFuFu's business splits into two tracks: mining rigs it owns and operates directly, and hashrate it resells or hosts for retail cloud-mining customers and third-party hosting clients. The 'hashrate under management' figure the company reports each month combines both. The trouble comes when hashprice — mining revenue per unit of hashrate — is weak. With industry-wide hashprice compressed to roughly $29 per petahash per day in early July, when hosting contracts lapse or hosting customers throttle their rigs, the hosted segment's hashrate shrinks immediately. Meanwhile, because the company spent June buying and deploying 1,200 new-generation S21 XP miners to expand its own fleet, self-owned hashrate actually rose 9.4%. With the two segments moving in opposite directions, total output plunged 29.4%.</p>
