@@ -132,6 +132,11 @@
 <h2 class="es">Pero el Declive No Es una Línea Recta — Repunta Según el Régimen</h2>
 <h2 class="de">Doch der Rückgang Verläuft Nicht Geradlinig — Er Schnellt Je Nach Regime Wieder Hoch</h2>
 <h2 class="fr">Mais le Déclin N'est Pas une Ligne Droite — Il Rebondit Selon le Régime</h2>
+<h2 class="id">Namun Penurunan Ini Bukan Garis Lurus — Ia Melonjak Kembali Menurut Rezim</h2>
+<h2 class="pl">Ale Ten Spadek Nie Jest Linią Prostą — Odbija w Górę w Zależności od Reżimu</h2>
+<h2 class="it">Ma il Declino Non È una Linea Retta — Risale a Seconda del Regime</h2>
+<h2 class="ru">Но Снижение Идёт Не по Прямой — Оно Снова Взлетает в Зависимости от Режима</h2>
+<h2 class="zh">但這種下降並非一條直線——它會隨市場階段再度跳升</h2>
 <h2 class="pt">Mas o Declínio Não É uma Linha Reta — Ele Volta a Saltar Conforme o Regime</h2>
 <h2 class="tr">Ama Bu Düşüş Düz Bir Çizgi Değil — Rejime Göre Yeniden Sıçrıyor</h2>
 <h2 class="vi">Nhưng Sự Suy Giảm Này Không Phải Là Một Đường Thẳng — Nó Bật Tăng Trở Lại Theo Từng Giai Đoạn</h2>
