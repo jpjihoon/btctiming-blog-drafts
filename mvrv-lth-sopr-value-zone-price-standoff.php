@@ -714,11 +714,6 @@
 <p class="zh">解讀這種落差通常有兩種方式。樂觀的解讀是:鏈上指標歷來都比價格更早見底,因此這次價格也可能延遲跟進。較為謹慎的解讀則是:估值近半年來持續維持在「便宜」水準這一事實,本身或許就證明市場並不容易反彈。多位鏈上分析師也指出,鏈上訊號在低估區間停留得越久,其時機預測能力往往會越弱。</p>
 
 <h2 class="ko">무엇을 지켜봐야 하나</h2>
-<h2 class="id">Yang Perlu Diperhatikan</h2>
-<h2 class="pl">Na Co Zwrócić Uwagę</h2>
-<h2 class="it">Cosa Osservare</h2>
-<h2 class="ru">На Что Обратить Внимание</h2>
-<h2 class="zh">需要關注的重點</h2>
 <h2 class="en">What to Watch</h2>
 <h2 class="ja">何を注視すべきか</h2>
 <h2 class="es">Qué Observar</h2>
@@ -727,6 +722,11 @@
 <h2 class="pt">O Que Observar</h2>
 <h2 class="tr">Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Những Điều Cần Theo Dõi</h2>
+<h2 class="id">Yang Perlu Diperhatikan</h2>
+<h2 class="pl">Na Co Zwrócić Uwagę</h2>
+<h2 class="it">Cosa Osservare</h2>
+<h2 class="ru">На Что Обратить Внимание</h2>
+<h2 class="zh">需要關注的重點</h2>
 
 <p class="ko">지켜볼 지점은 세 가지다. 첫째, LTH SOPR 30일 평균이 1.0을 다시 회복하는지, 그리고 그 회복이 가격이 밴드 하단(5만 7,700~6만 달러)을 지키는 상태에서 일어나는지다. 손실 매도가 잦아들면서 가격이 무너지지 않는다면, 매도 압력 소진의 신호로 읽을 수 있다. 둘째, MVRV Z-스코어가 마이너스로 더 내려가는지, 아니면 0 위로 반등하는지다. 마이너스 진입은 2018년·2022년 수준의 더 깊은 저평가를, 반등은 밸류에이션 국면의 조기 종료를 뜻한다.</p>
 <p class="en">There are three things to watch. First, whether the LTH SOPR 30-day average climbs back above 1.0, and whether that happens while price holds the lower band ($57,700-$60,000). If loss-selling fades while price doesn't break down, that could read as exhausted selling pressure. Second, whether the MVRV Z-Score drops further into negative territory or bounces back above zero. A move negative would signal deeper undervaluation on the scale of 2018 or 2022; a bounce would mean this valuation phase ended early.</p>
