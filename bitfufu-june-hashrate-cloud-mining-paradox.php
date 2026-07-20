@@ -392,6 +392,11 @@
 <h2 class="pt">Uma aposta contracíclica — a estratégia por trás dos números</h2>
 <h2 class="tr">Döngüsel karşıtı bir bahis — rakamların arkasındaki strateji</h2>
 <h2 class="vi">Một canh bạc ngược chu kỳ — chiến lược đằng sau những con số</h2>
+<h2 class="id">Taruhan Kontrasiklikal — Strategi di Balik Angka-Angka</h2>
+<h2 class="pl">Zakład antycykliczny — strategia stojąca za liczbami</h2>
+<h2 class="it">Una scommessa anticiclica — la strategia dietro i numeri</h2>
+<h2 class="ru">Контрциклическая ставка — стратегия за цифрами</h2>
+<h2 class="zh">逆週期押注——數字背後的策略</h2>
 
 <p class="ko">6월 실적 둔화에도 비트푸푸는 확장을 멈추지 않았다. 회사는 7월 중 완전 가동을 목표로 S21 XP 채굴기 2,000대를 추가로 확보하는 계약을 체결했고, 8월부터 9개월간 5.3 EH/s 규모의 해시레이트를 공급받는 계약도 새로 맺었다. 평균 함대 효율 17.9 J/TH, 관리 전력용량 273MW라는 수치가 보여주듯, 이는 채산성이 상대적으로 낮은 국면에서 오히려 설비를 늘려 효율이 떨어지는 경쟁자들이 가동을 중단하거나 시장에서 밀려날 때 상대적 점유율을 넓히려는 역주기적 베팅으로 해석할 수 있다.</p>
 <p class="en">Despite the June slowdown, BitFuFu did not stop expanding. The company signed agreements to acquire an additional 2,000 S21 XP miners, aiming for full deployment during July, and separately locked in 5.3 EH/s of new supplier hashrate under a nine-month contract starting in August. As the figures for average fleet efficiency (17.9 J/TH) and managed power capacity (273 MW) suggest, this can be read as a countercyclical bet: expanding capacity precisely when profitability is relatively depressed, so that as less-efficient rivals idle or exit, BitFuFu can capture a larger relative share.</p>

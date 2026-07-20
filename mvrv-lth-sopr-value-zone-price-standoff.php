@@ -41,6 +41,11 @@
 <h2 class="pt">Preço — Alta de 11% Desde a Mínima, Ainda Dentro da Faixa de 307 Dias</h2>
 <h2 class="tr">Fiyat — Diplerden %11 Yukarıda, Hâlâ 307 Günlük Bandın İçinde</h2>
 <h2 class="vi">Giá — Tăng 11% Từ Đáy, Vẫn Trong Biên Độ 307 Ngày</h2>
+<h2 class="id">Harga — Naik 11% dari Titik Terendah, Masih Dalam Pita 307 Hari</h2>
+<h2 class="pl">Cena — Wzrost o 11% od Minimum, Wciąż w Paśmie 307 Dni</h2>
+<h2 class="it">Prezzo — In Rialzo dell'11% dal Minimo, Ancora Dentro la Fascia di 307 Giorni</h2>
+<h2 class="ru">Цена — Рост на 11% от Минимума, Всё Ещё в Диапазоне 307 Дней</h2>
+<h2 class="zh">價格——較低點上漲11%,仍在307天區間內</h2>
 
 <p class="ko">가격 흐름 자체는 이미 다뤄진 그대로다. 비트코인은 6월 30일 5만 7,748달러까지 밀린 뒤 7월 들어 완만히 반등해 현재 6만 4,000달러대 초반까지 올라왔다. 이 반등 폭은 저점 대비 11% 안팎으로, 지난 글에서 확인된 6월 말 극단적 공포(공포탐욕지수 16)에서 벗어나는 흐름과 궤를 같이한다. 다만 6만~7만 달러라는 큰 틀에서 보면 이번 반등도 여전히 박스권 하단부에서 상단부로 이동하는 정도이지, 밴드 자체를 깨는 움직임은 아니다.</p>
 <p class="en">The price action itself has already been covered elsewhere. Bitcoin fell to $57,748 on June 30, then climbed gradually through July to its current low-$64,000s level. That's a roughly 11% bounce from the low, tracking alongside the move out of late-June's extreme fear (Fear & Greed at 16) documented earlier. But within the broader $60K-$70K frame, this bounce is still just a move from the lower part of the range toward the upper part — not a break of the band itself.</p>
