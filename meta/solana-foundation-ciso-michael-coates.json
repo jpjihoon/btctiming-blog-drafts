@@ -65,5 +65,40 @@
   "h1_vi": "Quỹ Solana tuyển Michael<br>Coates, CISO đầu tiên của Twitter",
   "bc_vi": "CISO Quỹ Solana",
   "desc_vi": "Quỹ Solana bổ nhiệm Michael Coates — CISO đầu tiên của Twitter và cựu trưởng bộ phận bảo mật Mozilla — làm giám đốc an ninh thông tin, khi thiệt hại crypto dịch chuyển từ lỗi mã sang việc chiếm đoạt tài khoản và khóa.",
-  "read_vi": "7"
+  "read_vi": "7",
+
+  "tag_id": "KEPEMIMPINAN KEAMANAN",
+  "title_id": "Solana Foundation Rekrut Michael Coates, CISO Pertama Twitter",
+  "h1_id": "Solana Foundation Rekrut<br>Michael Coates, CISO Pertama Twitter",
+  "bc_id": "CISO Solana Foundation",
+  "desc_id": "Solana Foundation menunjuk Michael Coates, CISO pertama Twitter, sebagai CISO, saat kerugian kripto bergeser dari bug kode ke pembobolan akun dan kunci.",
+  "read_id": "7",
+
+  "tag_pl": "PRZYWÓDZTWO W BEZPIECZEŃSTWIE",
+  "title_pl": "Solana Foundation zatrudnia Michaela Coatesa, 1. CISO Twittera",
+  "h1_pl": "Solana Foundation zatrudnia<br>Michaela Coatesa, 1. CISO Twittera",
+  "bc_pl": "CISO Solana Foundation",
+  "desc_pl": "Solana Foundation mianowała Michaela Coatesa, 1. CISO Twittera, swoim CISO, gdy straty krypto przesuwają się od błędów kodu ku przejęciu kont i kluczy.",
+  "read_pl": "7",
+
+  "tag_it": "LEADERSHIP DELLA SICUREZZA",
+  "title_it": "Solana Foundation assume Michael Coates, primo CISO di Twitter",
+  "h1_it": "Solana Foundation assume<br>Michael Coates, 1° CISO di Twitter",
+  "bc_it": "CISO della Solana Foundation",
+  "desc_it": "La Solana Foundation ha nominato Michael Coates, 1° CISO di Twitter, come CISO, mentre le perdite crypto passano da bug di codice a furti di account.",
+  "read_it": "7",
+
+  "tag_ru": "РУКОВОДСТВО БЕЗОПАСНОСТЬЮ",
+  "title_ru": "Solana Foundation наняла Майкла Коутса, первого CISO Twitter",
+  "h1_ru": "Solana Foundation наняла<br>Майкла Коутса, 1-го CISO Twitter",
+  "bc_ru": "CISO Solana Foundation",
+  "desc_ru": "Solana Foundation назначила Майкла Коутса, первого CISO Twitter, своим CISO, пока потери крипто смещаются от багов кода к взлому аккаунтов и ключей.",
+  "read_ru": "7",
+
+  "tag_zh": "資安領導",
+  "title_zh": "Solana基金會延攬推特首位CISO麥可・科茨",
+  "h1_zh": "Solana基金會延攬推特<br>首位CISO麥可・科茨",
+  "bc_zh": "Solana基金會CISO",
+  "desc_zh": "Solana基金會任命麥可・科茨為資訊安全長,他是推特(現為X)史上首位CISO,也曾任Mozilla安全主管、OWASP主席。這項人事案,正值加密貨幣產業的損失重心,從智能合約程式碼缺陷,逐漸轉向使用者帳戶與簽章金鑰遭入侵之際,意義不小。",
+  "read_zh": "7"
 }

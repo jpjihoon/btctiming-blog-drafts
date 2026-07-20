@@ -65,5 +65,40 @@
   "h1_vi": "228 triệu XRP rời<br>khỏi các sàn trong hai tháng",
   "bc_vi": "XRP giảm dự trữ sàn",
   "desc_vi": "Dữ liệu CryptoQuant cho thấy khoảng 228 triệu XRP rời khỏi Binance và Upbit trong khi tỷ trọng rút của cá voi trên Coinbase nhảy từ 10% lên 25,7%. Chúng tôi cân nhắc liệu dự trữ giảm có thực sự là tích lũy.",
-  "read_vi": "6"
+  "read_vi": "6",
+
+  "tag_id": "On-chain",
+  "title_id": "228 Juta XRP Tinggalkan Bursa dalam Dua Bulan — Arti Sebenarnya di Balik Penarikan Whale",
+  "h1_id": "228 Juta XRP Tinggalkan<br>Bursa dalam Dua Bulan",
+  "bc_id": "Penurunan Cadangan Bursa XRP",
+  "desc_id": "Data CryptoQuant: sekitar 228 juta XRP keluar dari Binance dan Upbit, porsi penarikan whale di Coinbase melonjak dari 10% ke 25,7%. Ini akumulasi?",
+  "read_id": "6",
+
+  "tag_pl": "On-chain",
+  "title_pl": "228 milionów XRP opuściło giełdy w dwa miesiące — co naprawdę oznaczają wypłaty wielorybów",
+  "h1_pl": "228 milionów XRP opuściło<br>giełdy w dwa miesiące",
+  "bc_pl": "Spadek rezerw giełdowych XRP",
+  "desc_pl": "Dane CryptoQuant: ok. 228 mln XRP odpłynęło z Binance i Upbit, udział wypłat wielorybów na Coinbase skoczył z 10% do 25,7%. Czy to naprawdę akumulacja?",
+  "read_pl": "6",
+
+  "tag_it": "On-chain",
+  "title_it": "228 milioni di XRP hanno lasciato gli exchange in due mesi — cosa significano davvero i prelievi whale",
+  "h1_it": "228 milioni di XRP hanno<br>lasciato gli exchange",
+  "bc_it": "Calo delle riserve XRP",
+  "desc_it": "Dati CryptoQuant: circa 228M XRP defluiti da Binance e Upbit, quota prelievi whale su Coinbase salita dal 10% al 25,7%. Significa davvero accumulo?",
+  "read_it": "6",
+
+  "tag_ru": "On-chain",
+  "title_ru": "228 миллионов XRP покинули биржи за два месяца — что на самом деле означают выводы китов",
+  "h1_ru": "228 миллионов XRP покинули<br>биржи за два месяца",
+  "bc_ru": "Снижение резервов XRP на биржах",
+  "desc_ru": "Данные CryptoQuant: около 228 млн XRP утекли с Binance и Upbit, доля выводов китов на Coinbase выросла с 10% до 25,7%. Значит ли это накопление?",
+  "read_ru": "6",
+
+  "tag_zh": "鏈上指標",
+  "title_zh": "兩個月內2.28億枚XRP流出交易所——巨鯨提領究竟意味著什麼",
+  "h1_zh": "兩個月內2.28億枚XRP<br>流出交易所",
+  "bc_zh": "XRP交易所儲備下滑",
+  "desc_zh": "CryptoQuant鏈上數據顯示，過去兩個月約有2.28億枚XRP自幣安與Upbit兩大交易所流出，同一期間Coinbase上巨鯨級提領的占比也從10%躍升至25.7%。本文探討這波儲備下滑是否真的代表市場正在累積籌碼，又或者只是單純的資金重新配置而已。",
+  "read_zh": "6"
 }
