@@ -159,6 +159,86 @@
     <text x="640" y="390" fill="#52525b" font-size="10" text-anchor="end" font-family="sans-serif">Nguồn: crypto.news, cryptonews.net, Greeks.live, CoinDesk (tính đến ngày 10/7/2026)</text>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Perbandingan Skala Kedaluwarsa: $10 Miliar (25 Jun) vs $1,75 Miliar (10 Jul)</text>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13" font-family="sans-serif">Kedaluwarsa 25 Jun — $10 Miliar</text>
+    <rect x="20" y="135" width="460" height="40" rx="6" fill="#27272a"/>
+    <text x="20" y="200" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">Kedaluwarsa 10 Jul — $1,75 Miliar</text>
+    <rect x="20" y="215" width="81" height="40" rx="6" fill="#38bdf8"/>
+    <rect x="20" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="35" y="325" fill="#f7931a" font-size="13" font-weight="700" font-family="sans-serif">Max Pain BTC $62.000</text>
+    <text x="35" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 0,97</text>
+    <rect x="340" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="355" y="325" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">Max Pain ETH $1.700</text>
+    <text x="355" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 1,26</text>
+    <text x="640" y="390" fill="#52525b" font-size="10" text-anchor="end" font-family="sans-serif">Sumber: crypto.news, cryptonews.net, Greeks.live, CoinDesk (per 10 Juli 2026)</text>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Porównanie Wielkości Wygaśnięcia: 10 mld $ (25 cze) vs 1,75 mld $ (10 lip)</text>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13" font-family="sans-serif">Wygaśnięcie 25 cze — 10 mld $</text>
+    <rect x="20" y="135" width="460" height="40" rx="6" fill="#27272a"/>
+    <text x="20" y="200" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">Wygaśnięcie 10 lip — 1,75 mld $</text>
+    <rect x="20" y="215" width="81" height="40" rx="6" fill="#38bdf8"/>
+    <rect x="20" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="35" y="325" fill="#f7931a" font-size="13" font-weight="700" font-family="sans-serif">BTC Max Pain 62 000 $</text>
+    <text x="35" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 0,97</text>
+    <rect x="340" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="355" y="325" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">ETH Max Pain 1700 $</text>
+    <text x="355" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 1,26</text>
+    <text x="640" y="390" fill="#52525b" font-size="10" text-anchor="end" font-family="sans-serif">Źródło: crypto.news, cryptonews.net, Greeks.live, CoinDesk (stan na 10 lipca 2026)</text>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Confronto Dimensioni Scadenza: 10 Mld $ (25 Giu) vs 1,75 Mld $ (10 Lug)</text>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13" font-family="sans-serif">Scadenza 25 Giu — 10 Miliardi $</text>
+    <rect x="20" y="135" width="460" height="40" rx="6" fill="#27272a"/>
+    <text x="20" y="200" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">Scadenza 10 Lug — 1,75 Miliardi $</text>
+    <rect x="20" y="215" width="81" height="40" rx="6" fill="#38bdf8"/>
+    <rect x="20" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="35" y="325" fill="#f7931a" font-size="13" font-weight="700" font-family="sans-serif">Max Pain BTC 62.000 $</text>
+    <text x="35" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 0,97</text>
+    <rect x="340" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="355" y="325" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">Max Pain ETH 1.700 $</text>
+    <text x="355" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 1,26</text>
+    <text x="640" y="390" fill="#52525b" font-size="10" text-anchor="end" font-family="sans-serif">Fonte: crypto.news, cryptonews.net, Greeks.live, CoinDesk (al 10 luglio 2026)</text>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Сравнение Объёма Экспирации: $10 млрд (25 июня) vs $1,75 млрд (10 июля)</text>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13" font-family="sans-serif">Экспирация 25 июня — $10 млрд</text>
+    <rect x="20" y="135" width="460" height="40" rx="6" fill="#27272a"/>
+    <text x="20" y="200" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">Экспирация 10 июля — $1,75 млрд</text>
+    <rect x="20" y="215" width="81" height="40" rx="6" fill="#38bdf8"/>
+    <rect x="20" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="35" y="325" fill="#f7931a" font-size="13" font-weight="700" font-family="sans-serif">BTC Max Pain $62 000</text>
+    <text x="35" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 0,97</text>
+    <rect x="340" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="355" y="325" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">ETH Max Pain $1 700</text>
+    <text x="355" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 1,26</text>
+    <text x="640" y="390" fill="#52525b" font-size="10" text-anchor="end" font-family="sans-serif">Источник: crypto.news, cryptonews.net, Greeks.live, CoinDesk (по состоянию на 10 июля 2026 г.)</text>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">到期規模比較:100億美元(6月25日)vs 17.5億美元(7月10日)</text>
+    <text x="20" y="120" fill="#a1a1aa" font-size="13" font-family="sans-serif">6月25日到期 — 100億美元</text>
+    <rect x="20" y="135" width="460" height="40" rx="6" fill="#27272a"/>
+    <text x="20" y="200" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">7月10日到期 — 17.5億美元</text>
+    <rect x="20" y="215" width="81" height="40" rx="6" fill="#38bdf8"/>
+    <rect x="20" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="35" y="325" fill="#f7931a" font-size="13" font-weight="700" font-family="sans-serif">BTC Max Pain 6.2萬美元</text>
+    <text x="35" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 0.97</text>
+    <rect x="340" y="300" width="300" height="60" rx="8" fill="#18181b" stroke="#27272a"/>
+    <text x="355" y="325" fill="#38bdf8" font-size="13" font-weight="700" font-family="sans-serif">ETH Max Pain 1,700美元</text>
+    <text x="355" y="345" fill="#a1a1aa" font-size="12" font-family="sans-serif">Put-Call 1.26</text>
+    <text x="640" y="390" fill="#52525b" font-size="10" text-anchor="end" font-family="sans-serif">資料來源:crypto.news、cryptonews.net、Greeks.live、CoinDesk(截至2026年7月10日)</text>
+  </svg>
+  </div>
 
   <h2 class="ko">숫자로 보는 7월10일 만기</h2>
   <h2 class="en">The July 10 Expiry, in Numbers</h2>
@@ -169,6 +249,11 @@
   <h2 class="pt">O Vencimento de 10 de Julho, em Números</h2>
   <h2 class="tr">10 Temmuz Vadesi, Sayılarla</h2>
   <h2 class="vi">Đáo Hạn Ngày 10 Tháng 7, Bằng Những Con Số</h2>
+  <h2 class="id">Kedaluwarsa 10 Juli, dalam Angka</h2>
+  <h2 class="pl">Wygaśnięcie z 10 Lipca w Liczbach</h2>
+  <h2 class="it">La Scadenza del 10 Luglio, in Numeri</h2>
+  <h2 class="ru">Экспирация 10 Июля в Цифрах</h2>
+  <h2 class="zh">數字看7月10日到期</h2>
 
   <p class="ko">이번에 만기를 맞은 물량은 비트코인 옵션 약 2만3000건, 이더리움 옵션 약 14만건으로, 이더리움 쪽이 계약 건수는 훨씬 많지만 계약당 단가가 낮아 명목가는 비트코인(15억 달러)이 이더리움(2억5000만 달러)의 6배에 달했다고 크립토뉴스넷이 전했다. 이는 매달 마지막 금요일에 열리는 대형 월간 만기가 아니라 통상적인 주간 만기 물량으로, 시장 전체에 미치는 충격은 상대적으로 제한적이었다.</p>
   <p class="en">The batch that expired comprised about 23,000 bitcoin options and roughly 140,000 ether options — ether had far more contracts but a lower per-contract value, so bitcoin's notional ($1.5 billion) came in six times larger than ether's ($250 million), cryptonews.net reported. This was a routine weekly expiry, not the large monthly expiry that lands on the last Friday of each month, so its market-wide impact was relatively contained.</p>
