@@ -12,6 +12,11 @@
   "read_pt": "9",
   "read_tr": "9",
   "read_vi": "9",
+  "read_id": "9",
+  "read_pl": "9",
+  "read_it": "9",
+  "read_ru": "9",
+  "read_zh": "9",
 
   "tag_ko": "해시프라이스 반등·해시레이트 지연",
   "tag_en": "Hashprice Rebound vs Lagging Hashrate",
@@ -22,6 +27,11 @@
   "tag_pt": "Recuperação do Hashprice vs Hashrate Atrasado",
   "tag_tr": "Hashprice Toparlanması ve Geride Kalan Hashrate",
   "tag_vi": "Hashprice Phục Hồi và Hashrate Tụt Lại",
+  "tag_id": "Hashprice Rebound vs Hashrate yang Tertinggal",
+  "tag_pl": "Odbicie Hashprice a Opóźniony Hashrate",
+  "tag_it": "Rimbalzo dell'Hashprice vs Hashrate in Ritardo",
+  "tag_ru": "Отскок Hashprice против Отстающего Хешрейта",
+  "tag_zh": "Hashprice反彈與落後的算力",
 
   "title_ko": "채굴 난이도, 오늘 밤 재조정 — 해시프라이스는 반등했지만 해시레이트는 아직 안 돌아왔다",
   "title_en": "Mining Difficulty Retargets Tonight — Hashprice Has Rebounded, But Hashrate Hasn't Followed",
@@ -32,6 +42,11 @@
   "title_pt": "Dificuldade de Mineração se Reajusta Esta Noite — Hashprice Se Recuperou, Mas o Hashrate Não Acompanhou",
   "title_tr": "Madencilik Zorluğu Bu Gece Yeniden Ayarlanıyor — Hashprice Toparlandı, Ama Hashrate Takip Etmedi",
   "title_vi": "Độ Khó Đào Coin Điều Chỉnh Tối Nay — Hashprice Đã Phục Hồi, Nhưng Hashrate Thì Chưa",
+  "title_id": "Tingkat Kesulitan Penambangan Disesuaikan Ulang Malam Ini — Hashprice Telah Memantul, Tetapi Hashrate Belum Mengikuti",
+  "title_pl": "Trudność Wydobycia Zostanie Dziś Dostosowana — Hashprice Się Odbił, Ale Hashrate Nie Podążył",
+  "title_it": "La Difficoltà di Mining si Riaggiusta Stanotte — L'Hashprice è Rimbalzato, Ma l'Hashrate No",
+  "title_ru": "Сложность Майнинга Пересчитывается Сегодня Ночью — Hashprice Отскочил, Но Хешрейт Не Последовал",
+  "title_zh": "挖礦難度今晚重新調整——Hashprice已反彈,但算力尚未跟上",
 
   "h1_ko": "해시프라이스는 회복 중,<br>해시레이트는 아직 뒤따르지 않았다",
   "h1_en": "Hashprice Is Recovering,<br>Hashrate Hasn't Caught Up Yet",
@@ -42,6 +57,11 @@
   "h1_pt": "O Hashprice Está se Recuperando,<br>o Hashrate Ainda Não Acompanhou",
   "h1_tr": "Hashprice Toparlanıyor,<br>Hashrate Henüz Yetişmedi",
   "h1_vi": "Hashprice Đang Phục Hồi,<br>Hashrate Vẫn Chưa Bắt Kịp",
+  "h1_id": "Hashprice Sedang Pulih,<br>Hashrate Belum Menyusul",
+  "h1_pl": "Hashprice Się Odbudowuje,<br>Hashrate Wciąż Nie Nadążył",
+  "h1_it": "L'Hashprice Si Sta Riprendendo,<br>l'Hashrate Non Ha Ancora Recuperato",
+  "h1_ru": "Hashprice Восстанавливается,<br>Хешрейт Пока Не Догнал",
+  "h1_zh": "Hashprice正在復甦,<br>算力尚未跟上",
 
   "bc_ko": "채굴 경제성·난이도 재조정 진단",
   "bc_en": "Mining Economics & Difficulty Retarget Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação da Economia de Mineração e Reajuste de Dificuldade",
   "bc_tr": "Madencilik Ekonomisi ve Zorluk Ayarlaması Kontrolü",
   "bc_vi": "Kiểm Tra Kinh Tế Đào Coin và Điều Chỉnh Độ Khó",
+  "bc_id": "Pemeriksaan Ekonomi Penambangan & Penyesuaian Tingkat Kesulitan",
+  "bc_pl": "Kontrola Ekonomiki Wydobycia i Dostosowania Trudności",
+  "bc_it": "Controllo dell'Economia del Mining e del Riaggiustamento della Difficoltà",
+  "bc_ru": "Проверка Экономики Майнинга и Пересчёта Сложности",
+  "bc_zh": "挖礦經濟性與難度重新調整檢視",
 
   "desc_ko": "비트코인이 6만 3,800달러 안팎, 6만~7만 달러 박스권에 머무는 사이 채굴 업계에서는 조용한 이벤트가 진행 중이다. 6월 중순 10.09% 급락했던 채굴 난이도 이후 해시프라이스는 저점 대비 13% 반등해 페타해시당 하루 33달러 선을 회복했지만, 네트워크 해시레이트는 아직 뚜렷하게 따라오지 않았다. 최근 2,016개 블록의 평균 생성 속도가 목표보다 35초 느려, 오늘 밤 예정된 재조정에서 난이도가 한 달 새 두 번째로 떨어질 가능성이 크다. 채굴자 스트레스가 정말 풀리고 있는지 지금 데이터로 짚어본다.",
   "desc_en": "While bitcoin holds near $63,800 inside its $60,000-$70,000 box, a quieter event is unfolding in mining. After mid-June's 10.09% difficulty crash, hashprice has bounced 13% off its low to around $33 per PH/s per day, but network hashrate hasn't clearly followed. The trailing 2,016 blocks are running 35 seconds slower than target, making tonight's expected retarget likely to cut difficulty for the second time in a month. A data check on whether miner stress is actually easing.",
@@ -61,5 +86,10 @@
   "desc_fr": "Alors que le bitcoin se maintient près de 63 800 dollars dans sa fourchette de 60 000 à 70 000 dollars, un événement plus discret se déroule dans le minage. Après l'effondrement de 10,09 % de la difficulté mi-juin, le hashprice a rebondi de 13 % depuis son plus bas à environ 33 dollars par PH/s et par jour, mais le hashrate du réseau ne l'a pas clairement suivi. Les 2 016 derniers blocs tournent 35 secondes plus lentement que l'objectif, ce qui rend probable une nouvelle baisse de la difficulté ce soir, la deuxième en un mois. Un examen des données pour savoir si le stress des mineurs s'atténue réellement.",
   "desc_pt": "Enquanto o bitcoin se mantém perto de 63.800 dólares dentro de sua faixa de 60.000-70.000 dólares, um evento mais discreto se desenrola na mineração. Após o colapso de 10,09% na dificuldade em meados de junho, o hashprice se recuperou 13% de sua mínima para cerca de 33 dólares por PH/s ao dia, mas o hashrate da rede não acompanhou claramente. Os últimos 2.016 blocos estão rodando 35 segundos mais devagar que a meta, tornando provável que o reajuste esperado esta noite corte a dificuldade pela segunda vez em um mês. Uma checagem de dados sobre se o estresse dos mineradores está realmente diminuindo.",
   "desc_tr": "Bitcoin 60.000-70.000 dolarlık kutusu içinde 63.800 dolar civarında tutunurken, madencilikte daha sessiz bir olay yaşanıyor. Haziran ortasındaki %10,09'luk zorluk çöküşünün ardından hashprice dipten %13 toparlanarak PH/s başına günlük yaklaşık 33 dolara ulaştı, ancak ağ hashrate'i bunu net biçimde takip etmedi. Son 2.016 blok hedeften 35 saniye daha yavaş ilerliyor ve bu, bu gece beklenen ayarlamanın bir ay içinde zorluğu ikinci kez düşürmesini olası kılıyor. Madenci stresinin gerçekten hafifleyip hafiflemediğine dair bir veri kontrolü.",
-  "desc_vi": "Trong khi bitcoin giữ quanh mức 63.800 đô la trong hộp 60.000-70.000 đô la, một sự kiện lặng lẽ hơn đang diễn ra trong ngành đào coin. Sau cú sụt giảm độ khó 10,09% hồi giữa tháng 6, hashprice đã bật tăng 13% từ đáy lên khoảng 33 đô la mỗi PH/s mỗi ngày, nhưng hashrate của mạng lưới vẫn chưa theo kịp rõ ràng. 2.016 khối gần nhất đang chạy chậm hơn mục tiêu 35 giây, khiến đợt điều chỉnh dự kiến tối nay nhiều khả năng sẽ cắt giảm độ khó lần thứ hai trong một tháng. Một lần kiểm tra dữ liệu xem áp lực của thợ đào có thực sự đang giảm bớt hay không."
+  "desc_vi": "Trong khi bitcoin giữ quanh mức 63.800 đô la trong hộp 60.000-70.000 đô la, một sự kiện lặng lẽ hơn đang diễn ra trong ngành đào coin. Sau cú sụt giảm độ khó 10,09% hồi giữa tháng 6, hashprice đã bật tăng 13% từ đáy lên khoảng 33 đô la mỗi PH/s mỗi ngày, nhưng hashrate của mạng lưới vẫn chưa theo kịp rõ ràng. 2.016 khối gần nhất đang chạy chậm hơn mục tiêu 35 giây, khiến đợt điều chỉnh dự kiến tối nay nhiều khả năng sẽ cắt giảm độ khó lần thứ hai trong một tháng. Một lần kiểm tra dữ liệu xem áp lực của thợ đào có thực sự đang giảm bớt hay không.",
+  "desc_id": "Bitcoin bertahan di $63.800 dalam kotak $60.000-$70.000. Hashprice memantul 13% dari titik terendah Juni, tapi hashrate belum mengikuti pemulihan ini.",
+  "desc_pl": "Bitcoin trzyma się 63 800 USD w przedziale 60 000-70 000. Hashprice odbił się o 13% od czerwcowego dołka, ale hashrate sieci wciąż nie podążył za nim.",
+  "desc_it": "Il bitcoin resta sui 63.800 dollari nella fascia 60.000-70.000. L'hashprice è rimbalzato del 13% dal minimo di giugno, ma l'hashrate non l'ha seguito.",
+  "desc_ru": "Биткоин у $63 800 в коробке $60 000-$70 000. Hashprice отскочил на 13% от июньского минимума, но хешрейт сети пока не последовал за этим восстановлением.",
+  "desc_zh": "比特幣守在6萬3,800美元、6萬至7萬美元的箱型區間內。hashprice已從6月低點反彈13%,但全網算力仍未明顯跟上,近2,016個區塊平均出塊時間慢了35秒,今晚難度重新調整很可能是一個月內第二次下調,礦工壓力是否真正緩解仍待數據確認。"
 }

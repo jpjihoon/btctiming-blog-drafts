@@ -12,6 +12,11 @@
   "read_pt": "6",
   "read_tr": "6",
   "read_vi": "6",
+  "read_id": "6",
+  "read_pl": "6",
+  "read_it": "6",
+  "read_ru": "6",
+  "read_zh": "6",
 
   "tag_ko": "연준 마스터계좌 소송",
   "title_ko": "커스토디아 뱅크, 연준 마스터계좌 거부 소송 결국 연방대법원으로",
@@ -65,5 +70,35 @@
   "title_vi": "Custodia Bank Chính Thức Đệ Đơn Lên Tối Cao Pháp Viện Vì Bị Fed Từ Chối Tài Khoản Chủ",
   "h1_vi": "Custodia Bank Chính Thức Đệ Đơn Lên<br>Tối Cao Pháp Viện Vì Bị Fed Từ Chối Tài Khoản Chủ",
   "bc_vi": "Đơn Kiện Của Custodia Lên Tối Cao Pháp Viện",
-  "desc_vi": "Custodia Bank, tổ chức lưu ký mục đích đặc biệt của bang Wyoming, đã nộp đơn kiện lên Tối cao Pháp viện vào thứ Sáu, ngày 10 tháng 7, khép lại 5 năm tranh đấu để được tiếp cận tài khoản chủ của Fed."
+  "desc_vi": "Custodia Bank, tổ chức lưu ký mục đích đặc biệt của bang Wyoming, đã nộp đơn kiện lên Tối cao Pháp viện vào thứ Sáu, ngày 10 tháng 7, khép lại 5 năm tranh đấu để được tiếp cận tài khoản chủ của Fed.",
+
+  "tag_id": "Gugatan Rekening Induk Fed",
+  "title_id": "Custodia Bank Resmi Ajukan Petisi ke Mahkamah Agung Terkait Penolakan Rekening Induk Fed",
+  "h1_id": "Custodia Bank Resmi Ajukan Petisi ke<br>Mahkamah Agung Terkait Penolakan Rekening Induk Fed",
+  "bc_id": "Petisi Custodia ke Mahkamah Agung",
+  "desc_id": "Custodia Bank, lembaga penyimpanan khusus Wyoming, mengajukan petisi ke Mahkamah Agung Jumat, 10 Juli, akhiri lima tahun sengketa akses rekening induk Fed.",
+
+  "tag_pl": "Pozew o Rachunek Główny Fed",
+  "title_pl": "Custodia Bank Formalnie Składa Wniosek do Sądu Najwyższego w Sprawie Odmowy Rachunku Głównego Fed",
+  "h1_pl": "Custodia Bank Formalnie Składa Wniosek<br>do Sądu Najwyższego w Sprawie Odmowy Fed",
+  "bc_pl": "Wniosek Custodii do Sądu Najwyższego",
+  "desc_pl": "Custodia Bank, wyomiński depozytariusz specjalny, złożył wniosek do Sądu Najwyższego w piątek, 10 lipca, kończąc pięcioletni spór o rachunek główny Fed.",
+
+  "tag_it": "Causa sul Conto Master della Fed",
+  "title_it": "Custodia Bank Presenta Ufficialmente la Petizione alla Corte Suprema per il Diniego del Conto Master della Fed",
+  "h1_it": "Custodia Bank Presenta Ufficialmente la Petizione<br>alla Corte Suprema per il Diniego della Fed",
+  "bc_it": "Petizione di Custodia alla Corte Suprema",
+  "desc_it": "Custodia Bank, istituto del Wyoming, ha depositato la petizione alla Corte Suprema il 10 luglio, dopo cinque anni di battaglia sul conto master della Fed.",
+
+  "tag_ru": "Иск о Главном Счёте ФРС",
+  "title_ru": "Custodia Bank Официально Подала Петицию в Верховный Суд Из-за Отказа ФРС в Главном Счёте",
+  "h1_ru": "Custodia Bank Официально Подала Петицию<br>в Верховный Суд Из-за Отказа ФРС",
+  "bc_ru": "Петиция Custodia в Верховный Суд",
+  "desc_ru": "Custodia Bank, депозитарное учреждение Вайоминга, подала петицию в Верховный суд США в пятницу, 10 июля, завершив пятилетнюю борьбу за главный счёт ФРС.",
+
+  "tag_zh": "聯準會主帳戶訴訟",
+  "title_zh": "Custodia Bank正式向最高法院提出上訴 抗議聯準會拒發主帳戶",
+  "h1_zh": "Custodia Bank正式向最高法院提出上訴<br>抗議聯準會拒發主帳戶",
+  "bc_zh": "Custodia的最高法院上訴請願",
+  "desc_zh": "懷俄明州特殊目的存託機構Custodia Bank於7月10日(週五)正式向美國聯邦最高法院提交上訴請願書,搶在戈薩奇大法官核准的30天延期截止日前一天送件,為爭取聯準會核發主帳戶、長達五年的法律抗爭寫下新的一章,案件能否獲最高法院受理仍有待觀察。"
 }
