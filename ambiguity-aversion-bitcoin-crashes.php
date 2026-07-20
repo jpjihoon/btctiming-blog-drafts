@@ -343,6 +343,11 @@
   <div class="box pt">🎯 <strong>Conclusão:</strong> Ninguém sabe se a próxima queda chegará em um único dia como a Mt. Gox, ou ao longo de sete meses como em 2022. Mas é possível distingui-las — a causa pode ser explicada? Se sim, é um risco que o preço já conhece, administrável com o tamanho da posição e um stop-loss. Se não, é ambiguidade, e só um limite de exposição — não um stop-loss — pode contê-la. Confunda os dois, e a próxima Mt. Gox chegará, como sempre, sem aviso.</div>
   <div class="box tr">🎯 <strong>Sonuç:</strong> Bir sonraki çöküşün Mt. Gox gibi tek bir günde mi, yoksa 2022'deki gibi yedi ay boyunca mı geleceğini kimse bilmiyor. Ama ikisini ayırt etmek mümkün — neden açıklanabiliyor mu? Evetse, bu fiyatın zaten bildiği bir risktir ve pozisyon büyüklüğü ile bir zararı durdur emriyle yönetilebilir. Hayırsa, bu belirsizliktir ve onu ancak bir maruziyet sınırı durdurabilir — bir zararı durdur emri değil. İkisini birbirine karıştırdığınız anda, bir sonraki Mt. Gox her zaman olduğu gibi hiçbir uyarı vermeden gelecektir.</div>
   <div class="box vi">🎯 <strong>Kết luận:</strong> Không ai biết liệu cú sập tiếp theo sẽ đến trong một ngày như Mt. Gox, hay kéo dài bảy tháng như năm 2022. Nhưng có thể phân biệt được hai loại này — liệu nguyên nhân có thể giải thích được không? Nếu có, đó là rủi ro mà giá đã biết trước, có thể quản lý bằng quy mô vị thế và điểm cắt lỗ. Nếu không, đó là sự mơ hồ, và chỉ có giới hạn tiếp xúc — chứ không phải điểm cắt lỗ — mới có thể kiềm chế được nó. Nhầm lẫn hai điều này, và Mt. Gox tiếp theo sẽ đến, như mọi khi, mà không hề có cảnh báo trước.</div>
+  <div class="box id">🎯 <strong>Kesimpulan:</strong> Tidak ada yang tahu apakah kejatuhan berikutnya akan datang dalam satu hari seperti Mt. Gox, atau selama tujuh bulan seperti 2022. Namun keduanya bisa dibedakan — apakah penyebabnya bisa dijelaskan? Jika ya, itu adalah risiko yang sudah diketahui harga, yang bisa dikelola dengan ukuran posisi dan stop loss. Jika tidak, itu adalah ambiguitas, dan hanya batas eksposur — bukan stop loss — yang bisa menahannya. Campur adukkan keduanya, dan Mt. Gox berikutnya akan datang, seperti biasanya, tanpa peringatan.</div>
+  <div class="box pl">🎯 <strong>Wniosek:</strong> Nikt nie wie, czy kolejny krach nadejdzie w ciągu jednego dnia jak Mt. Gox, czy przez siedem miesięcy jak w 2022 roku. Ale te dwa scenariusze można odróżnić — czy przyczynę da się wyjaśnić? Jeśli tak, to ryzyko, o którym cena już wie, możliwe do opanowania za pomocą wielkości pozycji i stop-lossa. Jeśli nie, to niejednoznaczność, którą może powstrzymać tylko limit ekspozycji — nie stop-loss. Pomyl te dwie rzeczy, a kolejny Mt. Gox nadejdzie, jak zawsze, bez ostrzeżenia.</div>
+  <div class="box it">🎯 <strong>Conclusione:</strong> Nessuno sa se il prossimo crollo arriverà in un solo giorno come Mt. Gox, oppure nell'arco di sette mesi come nel 2022. Ma i due possono essere distinti — la causa può essere spiegata? Se sì, è un rischio che il prezzo già conosce, gestibile con la dimensione della posizione e uno stop-loss. Se no, è ambiguità, e solo un limite di esposizione — non uno stop-loss — può contenerla. Confondi i due, e il prossimo Mt. Gox arriverà, come sempre, senza preavviso.</div>
+  <div class="box ru">🎯 <strong>Вывод:</strong> Никто не знает, наступит ли следующий обвал за один день, как Mt. Gox, или растянется на семь месяцев, как в 2022 году. Но эти два случая можно различить — можно ли объяснить причину? Если да, это риск, о котором цена уже знает, управляемый с помощью размера позиции и стоп-лосса. Если нет, это неопределённость, сдержать которую может только лимит экспозиции, а не стоп-лосс. Перепутайте эти два понятия — и следующий Mt. Gox придёт, как всегда, без предупреждения.</div>
+  <div class="box zh">🎯 <strong>結論:</strong> 沒有人知道下一場崩盤會像Mt. Gox那樣在一天內發生,還是像2022年那樣拖上七個月。但這兩者是可以區分的——原因是否能被解釋?如果可以,那就是價格已經知道的風險,可以透過部位規模與停損來管理。如果不能,那就是模糊性,唯有曝險上限——而非停損——能夠遏制它。一旦把這兩者混淆,下一個Mt. Gox就會像過去每一次一樣,毫無預警地降臨。</div>
 
   <h2 class="ko">함께 보면 좋은 글</h2>
   <h2 class="en">Worth Reading Alongside This</h2>
@@ -353,6 +358,11 @@
   <h2 class="pt">Vale a Pena Ler Junto</h2>
   <h2 class="tr">Bununla Birlikte Okumaya Değer</h2>
   <h2 class="vi">Nên Đọc Cùng Với Bài Này</h2>
+  <h2 class="id">Layak Dibaca Bersama Artikel Ini</h2>
+  <h2 class="pl">Warto Przeczytać Razem z Tym</h2>
+  <h2 class="it">Vale la Pena Leggere Insieme a Questo</h2>
+  <h2 class="ru">Также стоит прочитать</h2>
+  <h2 class="zh">延伸閱讀</h2>
 
   <ul class="ko">
     <li><strong><a href="/blog/bviv-fear-index-emerges">BVIV 변동성 지수</a>:</strong> '알려진 위험'이 옵션 가격에 실시간으로 반영되는 과정</li>
