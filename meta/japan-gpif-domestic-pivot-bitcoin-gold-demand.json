@@ -68,6 +68,11 @@
   "desc_pt": "O ministro das Finanças do Japão, Satsuki Katayama, disse em 10 de julho que o governo quer que o GPIF, o maior fundo de pensão do mundo com US$ 1,8 trilhão, aumente o investimento em ativos domésticos, fazendo o iene subir 0,6% e o rendimento do JGB de 10 anos cair 10 pontos-base. A CoinDesk apontou isso como um possível impulso para bitcoin e ouro, mas o GPIF só fixou sua composição 25/25/25/25 por cinco anos em abril de 2025, e nenhum dos dois ativos está dentro de seu mandato — a conexão continua sendo uma inferência de mercado, não um fato de política.",
   "desc_tr": "Japonya Maliye Bakanı Satsuki Katayama, 10 Temmuz'da hükümetin, 1,8 trilyon dolarlık dünyanın en büyük emeklilik fonu GPIF'in yurt içi varlık yatırımını artırmasını istediğini söyledi; bu da yenin %0,6 değer kazanmasına ve 10 yıllık JGB getirisinin 10 baz puan düşmesine yol açtı. CoinDesk bunu bitcoin ve altın için potansiyel bir rüzgar olarak nitelendirdi, ancak GPIF %25/25/25/25 politika dağılımını beş yıllığına ancak Nisan 2025'te kilitledi ve her iki varlık da onun yetkisi dahilinde değil — bağlantı hâlâ bir politika gerçeği değil, bir piyasa çıkarımı olarak kalıyor.",
   "desc_vi": "Bộ trưởng Tài chính Nhật Bản Satsuki Katayama cho biết hôm 10/7 rằng chính phủ muốn GPIF, quỹ hưu trí lớn nhất thế giới trị giá 1,8 nghìn tỷ đô la, tăng đầu tư vào tài sản trong nước, khiến đồng yên tăng 0,6% và lợi suất JGB kỳ hạn 10 năm giảm 10 điểm cơ bản. CoinDesk chỉ ra đây là động lực tiềm năng cho bitcoin và vàng, nhưng GPIF chỉ khóa cơ cấu 25/25/25/25 trong 5 năm vào tháng 4/2025, và cả hai tài sản đều không nằm trong ủy nhiệm của quỹ — mối liên hệ vẫn chỉ là suy luận của thị trường, chứ chưa phải thực tế chính sách.",
+  "desc_id": "Menkeu Katayama ingin GPIF ($1,8T) tambah investasi domestik; yen naik, JGB turun — sinyal bagi bitcoin & emas, walau belum kebijakan resmi GPIF.",
+  "desc_pl": "Min. Katayama chce więcej inwestycji krajowych GPIF (1,8 bln USD); jen zyskał, JGB spadł — sygnał dla bitcoina i złota, choć to na razie wniosek rynku.",
+  "desc_it": "Il min. Katayama vuole più investimenti interni dal GPIF (1.800 mld $); yen su, JGB giù — segnale per bitcoin e oro, ma resta solo un'inferenza di mercato.",
+  "desc_ru": "Министр Катаяма хочет больше внутренних инвестиций GPIF (1,8 трлн $); иена выросла, JGB упал — сигнал для биткойна и золота, пока лишь вывод рынка.",
+  "desc_zh": "日本財務大臣片山さつき於7月10日表示,希望規模達1.8兆美元的退休基金GPIF增加國內資產投資,消息一出日圓升值0.6%、10年期JGB殖利率下滑10個基點至2.775%,市場解讀為比特幣與黃金的潛在利多,但這項連結目前仍只是市場推測,而非既定政策事實。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -76,5 +81,10 @@
   "read_fr": "7",
   "read_pt": "7",
   "read_tr": "7",
-  "read_vi": "7"
+  "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7"
 }
