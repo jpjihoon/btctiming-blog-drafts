@@ -9,6 +9,11 @@
 <p class="pt">A gestora de ativos Bitwise adicionou Hyperliquid (HYPE) e Stellar (XLM) ao seu índice cripto principal, o Bitwise 10 Crypto Index ETF (BITW), durante seu rebalanceamento mensal em 9 de julho, ao mesmo tempo em que removeu Polkadot (DOT) e Avalanche (AVAX), segundo a CryptoTimes e a crypto.news. A Hyperliquid agora tem uma ponderação aproximada de 0,95% no fundo após o ajuste; veículos informaram que ela registrou US$ 1,34 trilhão em volume de negociação e US$ 320 milhões em receita no primeiro semestre de 2026, alta de 165% no ano. Polkadot e Avalanche, por outro lado, foram excluídos após saírem do top 10 por capitalização de mercado.</p>
 <p class="tr">Varlık yöneticisi Bitwise, 9 Temmuz'daki aylık yeniden dengelemesinde amiral gemisi endeksi Bitwise 10 Crypto Index ETF'ye (BITW) Hyperliquid (HYPE) ve Stellar'ı (XLM) eklerken Polkadot (DOT) ve Avalanche'ı (AVAX) çıkardı; bunu CryptoTimes ve crypto.news bildirdi. Hyperliquid, yeniden düzenlemenin ardından fonda yaklaşık %0,95'lik bir ağırlığa sahip oldu; yayın organları, projenin 2026'nın ilk yarısında 1,34 trilyon dolar işlem hacmi ve 320 milyon dolar gelir kaydettiğini ve yıl başından bu yana %165 yükseldiğini bildirdi. Polkadot ve Avalanche ise piyasa değeri bakımından ilk 10'un dışına düşerek endeksten çıkarıldı.</p>
 <p class="vi">Công ty quản lý tài sản Bitwise đã thêm Hyperliquid (HYPE) và Stellar (XLM) vào chỉ số crypto chủ lực Bitwise 10 Crypto Index ETF (BITW) trong đợt tái cân bằng hàng tháng vào ngày 9 tháng 7, đồng thời loại bỏ Polkadot (DOT) và Avalanche (AVAX), theo CryptoTimes và crypto.news. Hyperliquid hiện chiếm tỷ trọng khoảng 0,95% trong quỹ sau đợt điều chỉnh; các hãng tin cho biết dự án này đã ghi nhận 1,34 nghìn tỷ đô la khối lượng giao dịch và 320 triệu đô la doanh thu trong nửa đầu năm 2026, tăng 165% từ đầu năm. Ngược lại, Polkadot và Avalanche bị loại khỏi chỉ số sau khi rớt khỏi top 10 theo vốn hóa thị trường.</p>
+<p class="id">Manajer aset Bitwise menambahkan Hyperliquid (HYPE) dan Stellar (XLM) ke dalam Bitwise 10 Crypto Index ETF (BITW) andalannya dalam penyeimbangan bulanan pada 9 Juli, sekaligus mengeluarkan Polkadot (DOT) dan Avalanche (AVAX), demikian dilaporkan CryptoTimes dan crypto.news. Hyperliquid kini memiliki bobot sekitar 0,95% dalam dana tersebut setelah penyesuaian ini; media melaporkan proyek ini mencatat volume perdagangan 1,34 triliun dolar dan pendapatan 320 juta dolar pada paruh pertama 2026, naik 165% sejak awal tahun. Sebaliknya, Polkadot dan Avalanche dikeluarkan setelah tersingkir dari 10 besar berdasarkan kapitalisasi pasar.</p>
+<p class="pl">Zarządzający aktywami Bitwise dodał Hyperliquid (HYPE) i Stellar (XLM) do swojego flagowego indeksu Bitwise 10 Crypto Index ETF (BITW) podczas comiesięcznego rebalansowania 9 lipca, jednocześnie usuwając Polkadot (DOT) i Avalanche (AVAX) — podały CryptoTimes i crypto.news. Hyperliquid ma teraz udział na poziomie około 0,95% w funduszu po tej zmianie; media podały, że projekt odnotował 1,34 biliona dolarów wolumenu obrotu i 320 milionów dolarów przychodu w pierwszej połowie 2026 roku, co oznacza wzrost o 165% od początku roku. Polkadot i Avalanche zostały natomiast usunięte po wypadnięciu z pierwszej dziesiątki pod względem kapitalizacji rynkowej.</p>
+<p class="it">La società di gestione patrimoniale Bitwise ha aggiunto Hyperliquid (HYPE) e Stellar (XLM) al suo indice di punta Bitwise 10 Crypto Index ETF (BITW) durante il ribilanciamento mensile del 9 luglio, rimuovendo al contempo Polkadot (DOT) e Avalanche (AVAX), secondo quanto riportato da CryptoTimes e crypto.news. Hyperliquid ha ora un peso di circa lo 0,95% nel fondo dopo la revisione; le testate hanno riferito che il progetto ha registrato 1.340 miliardi di dollari di volume di scambi e 320 milioni di dollari di ricavi nella prima metà del 2026, in rialzo del 165% da inizio anno. Polkadot e Avalanche, al contrario, sono stati esclusi dopo essere usciti dalla top 10 per capitalizzazione di mercato.</p>
+<p class="ru">Управляющая активами компания Bitwise добавила Hyperliquid (HYPE) и Stellar (XLM) в свой флагманский индекс Bitwise 10 Crypto Index ETF (BITW) в ходе ежемесячной ребалансировки 9 июля, одновременно исключив Polkadot (DOT) и Avalanche (AVAX), сообщили CryptoTimes и crypto.news. Доля Hyperliquid в фонде после пересмотра составляет около 0,95%; издания сообщили, что проект зафиксировал объём торгов в 1,34 трлн долларов и выручку в 320 млн долларов в первой половине 2026 года, прибавив 165% с начала года. Polkadot и Avalanche, напротив, были исключены после выхода из топ-10 по рыночной капитализации.</p>
+<p class="zh">資產管理公司Bitwise於7月9日的月度再平衡中,將Hyperliquid(HYPE)和Stellar(XLM)納入其旗艦產品比特智10加密指數ETF(BITW),同時剔除了Polkadot(DOT)和Avalanche(AVAX),CryptoTimes和crypto.news等媒體報導。調整後,Hyperliquid在基金中的權重約為0.95%;據報導,該項目在2026年上半年創下1.34兆美元的交易量與3.2億美元的收入,年初至今上漲165%。相比之下,Polkadot和Avalanche因市值跌出前十而被剔除出指數。</p>
 
 <h2 class="ko">리밸런싱은 어떻게 작동하나</h2>
 <h2 class="en">How the Rebalancing Mechanism Works</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">Como funciona o mecanismo de rebalanceamento</h2>
 <h2 class="tr">Yeniden dengeleme mekanizması nasıl işliyor</h2>
 <h2 class="vi">Cơ chế tái cân bằng hoạt động ra sao</h2>
+<h2 class="id">Bagaimana Mekanisme Penyeimbangan Ulang Bekerja</h2>
+<h2 class="pl">Jak działa mechanizm rebalansowania</h2>
+<h2 class="it">Come funziona il meccanismo di ribilanciamento</h2>
+<h2 class="ru">Как работает механизм ребалансировки</h2>
+<h2 class="zh">再平衡機制如何運作</h2>
 <p class="ko">비트와이즈 10 크립토 인덱스는 자유유동시가총액(free-float market cap) 상위 10개 코인을 담아 매월 재조정하는 규칙 기반 지수다. 시가총액은 CME CF 암호화폐 참조환율(뉴욕 변형)에 프로젝트 창립자·재단 등 내부자 보유분을 제외한 유통량을 곱해 산출하며, 유동성·커스터디 준비도·규제 준수 여부에 대한 별도 스크리닝을 통과해야 편입될 수 있다. 이 같은 절차 자체는 지수펀드 업계에서 흔한 방식이지만, 탈중앙화 파생상품 거래소의 거버넌스 토큰인 하이퍼리퀴드가 편입 자격을 얻었다는 점은 이례적이다.</p>
 <p class="en">The Bitwise 10 Crypto Index is a rules-based benchmark that holds the top 10 coins by free-float market capitalization and rebalances monthly. Market cap is calculated by multiplying the CME CF Cryptocurrency Reference Rate (New York variant) by each asset's circulating supply, excluding holdings controlled by founders or foundations, and a coin must also clear separate screens for liquidity, custody readiness and regulatory compliance before it can be added. That process itself is standard practice in the index-fund industry, but Hyperliquid — the governance token of a decentralized derivatives exchange — qualifying for inclusion is unusual.</p>
 <p class="ja">ビットワイズ10クリプトインデックスは、自由変動時価総額(フリーフロート時価総額)上位10銘柄を保有し毎月調整するルールベースの指数だ。時価総額はCME CF暗号資産参照レート(ニューヨーク版)に、創業者・財団など内部者保有分を除いた流通量を掛けて算出され、流動性・カストディ準備度・規制順守についての別途スクリーニングを通過して初めて組み入れられる。この手続き自体はインデックスファンド業界で一般的な方式だが、分散型デリバティブ取引所のガバナンストークンであるハイパーリキッドが組み入れ資格を得たのは異例だ。</p>
@@ -28,6 +38,11 @@
 <p class="pt">O Bitwise 10 Crypto Index é um índice baseado em regras que mantém as 10 principais moedas por capitalização de mercado de free-float e é rebalanceado mensalmente. A capitalização de mercado é calculada multiplicando a Taxa de Referência de Criptomoedas CME CF (variante de Nova York) pela oferta em circulação de cada ativo, excluindo participações controladas por fundadores ou fundações, e uma moeda também precisa passar por filtros separados de liquidez, prontidão de custódia e conformidade regulatória antes de poder ser adicionada. Esse processo em si é prática padrão no setor de fundos de índice, mas o fato de a Hyperliquid — o token de governança de uma exchange de derivativos descentralizada — se qualificar para inclusão é incomum.</p>
 <p class="tr">Bitwise 10 Crypto Index, serbest dolaşımdaki piyasa değerine göre en büyük 10 coin'i barındıran ve aylık olarak yeniden dengelenen kurallara dayalı bir endekstir. Piyasa değeri, CME CF Kripto Para Referans Oranı'nın (New York versiyonu) her varlığın kurucular veya vakıflar tarafından kontrol edilen payları hariç tutulan dolaşımdaki arzıyla çarpılmasıyla hesaplanır ve bir coin'in eklenebilmesi için likidite, saklama (custody) hazırlığı ve düzenleyici uyumluluk konusunda ayrı taramalardan da geçmesi gerekir. Bu sürecin kendisi endeks fonu sektöründe standart bir uygulamadır, ancak merkeziyetsiz bir türev borsasının yönetişim token'ı olan Hyperliquid'in dahil edilmeye hak kazanması alışılmadık bir durumdur.</p>
 <p class="vi">Bitwise 10 Crypto Index là một chỉ số dựa trên quy tắc, nắm giữ 10 đồng coin hàng đầu theo vốn hóa thị trường lưu hành tự do và được tái cân bằng hàng tháng. Vốn hóa thị trường được tính bằng cách nhân Tỷ giá tham chiếu tiền điện tử CME CF (phiên bản New York) với nguồn cung lưu hành của mỗi tài sản, loại trừ phần nắm giữ do người sáng lập hoặc quỹ kiểm soát, và một đồng coin cũng phải vượt qua các sàng lọc riêng về thanh khoản, mức độ sẵn sàng lưu ký và tuân thủ quy định trước khi có thể được thêm vào. Bản thân quy trình này là thông lệ tiêu chuẩn trong ngành quỹ chỉ số, nhưng việc Hyperliquid — token quản trị của một sàn giao dịch phái sinh phi tập trung — đủ điều kiện được đưa vào là điều bất thường.</p>
+<p class="id">Bitwise 10 Crypto Index adalah indeks berbasis aturan yang menampung 10 koin teratas berdasarkan kapitalisasi pasar free-float dan diseimbangkan ulang setiap bulan. Kapitalisasi pasar dihitung dengan mengalikan CME CF Cryptocurrency Reference Rate (varian New York) dengan pasokan beredar setiap aset, tidak termasuk kepemilikan yang dikendalikan oleh pendiri atau yayasan, dan sebuah koin juga harus lolos penyaringan terpisah untuk likuiditas, kesiapan kustodi, dan kepatuhan regulasi sebelum dapat ditambahkan. Proses ini sendiri merupakan praktik standar di industri reksa dana indeks, tetapi kelayakan Hyperliquid — token tata kelola dari bursa derivatif terdesentralisasi — untuk masuk merupakan hal yang tidak biasa.</p>
+<p class="pl">Bitwise 10 Crypto Index to benchmark oparty na regułach, obejmujący 10 największych monet według kapitalizacji rynkowej free-float, rebalansowany co miesiąc. Kapitalizację rynkową oblicza się, mnożąc CME CF Cryptocurrency Reference Rate (wariant nowojorski) przez podaż w obiegu każdego aktywa, z wyłączeniem udziałów kontrolowanych przez założycieli lub fundacje, a dana moneta musi też przejść osobne filtry dotyczące płynności, gotowości do przechowywania (custody) i zgodności regulacyjnej, zanim zostanie dodana. Sam ten proces to standardowa praktyka w branży funduszy indeksowych, jednak zakwalifikowanie się Hyperliquid — tokena zarządzającego zdecentralizowaną giełdą instrumentów pochodnych — jest czymś niecodziennym.</p>
+<p class="it">Il Bitwise 10 Crypto Index è un indice basato su regole che detiene le 10 principali criptovalute per capitalizzazione di mercato free-float e viene ribilanciato mensilmente. La capitalizzazione di mercato si calcola moltiplicando il CME CF Cryptocurrency Reference Rate (variante New York) per l'offerta in circolazione di ciascun asset, escludendo le quote controllate da fondatori o fondazioni; una moneta deve inoltre superare filtri separati su liquidità, prontezza della custodia e conformità normativa prima di poter essere aggiunta. Questo processo di per sé è prassi standard nel settore dei fondi indicizzati, ma il fatto che Hyperliquid — il token di governance di un exchange di derivati decentralizzato — si sia qualificato per l'inclusione è insolito.</p>
+<p class="ru">Bitwise 10 Crypto Index — это индекс на основе правил, включающий 10 крупнейших монет по рыночной капитализации в свободном обращении и пересматриваемый ежемесячно. Рыночная капитализация рассчитывается путём умножения CME CF Cryptocurrency Reference Rate (нью-йоркский вариант) на находящееся в обращении предложение каждого актива, за исключением долей, контролируемых основателями или фондами; кроме того, монета должна пройти отдельные проверки на ликвидность, готовность к хранению (custody) и соответствие регуляторным требованиям, прежде чем может быть добавлена. Сама эта процедура является стандартной практикой в индустрии индексных фондов, однако то, что Hyperliquid — токен управления децентрализованной биржи деривативов — прошёл отбор, необычно.</p>
+<p class="zh">比特智10加密指數是一個基於規則的基準指數,持有按自由流通市值計算的前10大幣種,並每月再平衡一次。市值計算方式為CME CF加密貨幣參考利率(紐約版本)乘以每項資產的流通供應量,並排除創辦人或基金會控制的持股;此外,幣種在納入前還須通過流動性、託管準備度與法規遵循方面的獨立篩選。這套流程本身是指數基金業界的標準做法,但去中心化衍生品交易所治理代幣Hyperliquid能夠符合納入資格,則相當罕見。</p>
 
 <p class="ko">비트와이즈 측은 이번 리밸런싱이 단순 시가총액 순위 교체가 아니라 매출·거래대금 등 '실질 경제활동' 지표를 함께 반영한 결과라는 취지로 설명했다고 크립토뉴스는 전했다. 하이퍼리퀴드의 온체인 파생상품 거래대금과 프로토콜 매출은 전통적 레이어1 블록체인과는 성격이 다른 지표다. 지수가 이런 지표에 문을 열었다는 것은, "네트워크가 오래됐는가"나 "개발자 생태계가 큰가"가 아니라 "실제로 돈을 버는가"를 정당성의 척도로 삼기 시작했다는 의미로 해석할 수 있다.</p>
 <p class="en">Crypto.news reported that Bitwise framed the rebalance not as a simple market-cap ranking swap but as one that also reflects "real economic activity" metrics such as revenue and trading volume. Hyperliquid's on-chain derivatives trading volume and protocol revenue are a different kind of metric from those of a traditional layer-1 blockchain. The index opening its doors to such metrics can be read as a shift toward treating "does it actually generate money" — rather than "how old is the network" or "how large is the developer ecosystem" — as a measure of legitimacy.</p>
@@ -38,6 +53,11 @@
 <p class="pt">A crypto.news informou que a Bitwise enquadrou o rebalanceamento não como uma simples troca de classificação por capitalização de mercado, mas como algo que também reflete métricas de "atividade econômica real", como receita e volume de negociação. O volume de negociação de derivativos on-chain da Hyperliquid e a receita do protocolo são um tipo de métrica diferente das de uma blockchain de camada 1 tradicional. O fato de o índice abrir as portas para esse tipo de métrica pode ser interpretado como uma mudança em direção a tratar "se realmente gera dinheiro" — em vez de "quão antiga é a rede" ou "quão grande é seu ecossistema de desenvolvedores" — como medida de legitimidade.</p>
 <p class="tr">Crypto.news, Bitwise'ın bu yeniden dengelemeyi basit bir piyasa değeri sıralaması değişimi olarak değil, gelir ve işlem hacmi gibi "gerçek ekonomik faaliyet" ölçütlerini de yansıtan bir adım olarak sunduğunu bildirdi. Hyperliquid'in zincir üstü türev işlem hacmi ve protokol geliri, geleneksel bir katman-1 blok zincirinden farklı türde bir ölçüttür. Endeksin bu tür ölçütlere kapılarını açması, meşruiyet ölçütü olarak "ağ ne kadar eski" veya "geliştirici ekosistemi ne kadar büyük" yerine "gerçekten para kazanıyor mu" sorusunu benimsemeye başladığı şeklinde yorumlanabilir.</p>
 <p class="vi">Crypto.news đưa tin rằng Bitwise mô tả đợt tái cân bằng này không phải là một sự hoán đổi thứ hạng vốn hóa thị trường đơn giản, mà là một đợt điều chỉnh cũng phản ánh các chỉ số "hoạt động kinh tế thực" như doanh thu và khối lượng giao dịch. Khối lượng giao dịch phái sinh on-chain và doanh thu giao thức của Hyperliquid là một loại chỉ số khác biệt so với một blockchain lớp 1 truyền thống. Việc chỉ số này mở cửa cho các chỉ số như vậy có thể được hiểu là một sự chuyển dịch sang việc coi "liệu nó có thực sự kiếm ra tiền hay không" — thay vì "mạng lưới đã tồn tại bao lâu" hay "hệ sinh thái nhà phát triển lớn đến đâu" — như một thước đo tính chính danh.</p>
+<p class="id">Crypto.news melaporkan bahwa Bitwise membingkai penyeimbangan ulang ini bukan sekadar pertukaran peringkat kapitalisasi pasar, melainkan juga mencerminkan metrik "aktivitas ekonomi riil" seperti pendapatan dan volume perdagangan. Volume perdagangan derivatif on-chain dan pendapatan protokol Hyperliquid merupakan jenis metrik yang berbeda dari blockchain layer-1 tradisional. Terbukanya indeks terhadap metrik semacam ini dapat dibaca sebagai pergeseran ke arah menjadikan "apakah benar-benar menghasilkan uang" — bukan "seberapa lama jaringan tersebut ada" atau "seberapa besar ekosistem pengembangnya" — sebagai ukuran legitimasi.</p>
+<p class="pl">Crypto.news podał, że Bitwise przedstawił rebalansowanie nie jako zwykłą zamianę pozycji według kapitalizacji rynkowej, lecz jako coś, co odzwierciedla również wskaźniki „realnej aktywności gospodarczej", takie jak przychody i wolumen obrotu. Wolumen obrotu instrumentami pochodnymi on-chain oraz przychody protokołu Hyperliquid to inny rodzaj wskaźnika niż w przypadku tradycyjnego blockchaina warstwy 1. Otwarcie się indeksu na tego typu wskaźniki można odczytać jako zwrot w stronę traktowania pytania „czy faktycznie generuje pieniądze" — a nie „jak stara jest sieć" czy „jak duży jest ekosystem deweloperski" — jako miary legitymizacji.</p>
+<p class="it">Crypto.news ha riferito che Bitwise ha descritto il ribilanciamento non come un semplice scambio di posizioni per capitalizzazione di mercato, ma come qualcosa che riflette anche metriche di "attività economica reale" come ricavi e volume di scambi. Il volume di scambi dei derivati on-chain e i ricavi del protocollo di Hyperliquid sono un tipo di metrica diversa rispetto a quella di una blockchain layer-1 tradizionale. L'apertura dell'indice a queste metriche può essere letta come uno spostamento verso il considerare "se genera davvero denaro" — anziché "quanto è vecchia la rete" o "quanto è grande l'ecosistema di sviluppatori" — come misura di legittimità.</p>
+<p class="ru">Crypto.news сообщил, что Bitwise представила ребалансировку не как простую замену позиций по рыночной капитализации, а как шаг, отражающий также показатели «реальной экономической активности», такие как выручка и объём торгов. Объём торгов деривативами on-chain и доходы протокола Hyperliquid — это иной тип показателя, чем у традиционного блокчейна первого уровня. То, что индекс открылся для таких показателей, можно рассматривать как сдвиг в сторону того, чтобы считать мерилом легитимности вопрос «реально ли это приносит деньги», а не «сколько лет существует сеть» или «насколько велика экосистема разработчиков».</p>
+<p class="zh">crypto.news報導,Bitwise將此次再平衡定調為不僅僅是市值排名的簡單替換,還反映了營收與交易量等「實質經濟活動」指標。Hyperliquid的鏈上衍生品交易量與協議收入,是與傳統第一層區塊鏈截然不同的指標類型。指數對此類指標敞開大門,可解讀為一種轉變:正當性的衡量標準正從「網路存在多久」或「開發者生態系有多大」,轉向「是否真正能賺錢」。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -381,6 +401,196 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Penyeimbangan BITW (9/7) — penambahan, penghapusan, dan komposisi dana</text>
+  <g font-family="sans-serif">
+    <rect x="10" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="90" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="90" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Polkadot (DOT)</text>
+    <text x="90" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Keluar dari 10 besar</text>
+
+    <rect x="180" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="260" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="260" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Avalanche (AVAX)</text>
+    <text x="260" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Keluar dari 10 besar</text>
+
+    <rect x="350" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="430" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="430" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Hyperliquid (HYPE)</text>
+    <text x="430" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Volume $1,34 T</text>
+
+    <rect x="520" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="600" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="600" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Stellar (XLM)</text>
+    <text x="600" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Pertumbuhan pembayaran/tokenisasi</text>
+
+    <text x="20" y="195" fill="#fafafa" font-size="14" font-weight="700">Komposisi dana BITW (awal Juli, aset bersih ~$560 Jt)</text>
+    <rect x="10" y="210" width="527" height="46" fill="#f7931a"/>
+    <rect x="537" y="210" width="88" height="46" fill="#627eea"/>
+    <rect x="625" y="210" width="29" height="46" fill="#71717a"/>
+    <rect x="654" y="210" width="36" height="46" fill="#3f3f46"/>
+    <text x="273" y="238" fill="#0a0a0a" font-size="13" font-weight="700" text-anchor="middle">BTC 77,5%</text>
+    <text x="581" y="238" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">ETH 13%</text>
+    <text x="639" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">XRP 4,2%</text>
+    <text x="672" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">Lainnya 5,3%</text>
+    <text x="350" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle">Bobot HYPE ~0,95% setelah penyeimbangan — termasuk dalam "Lainnya" (6 aset)</text>
+    <text x="350" y="346" fill="#52525b" font-size="12" text-anchor="middle">Sumber: SEC EDGAR · Bitwise Investments · CryptoTimes · crypto.news</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Rebalansowanie BITW (9.07) — dodania, usunięcia i skład funduszu</text>
+  <g font-family="sans-serif">
+    <rect x="10" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="90" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="90" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Polkadot (DOT)</text>
+    <text x="90" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Wypadł z top 10</text>
+
+    <rect x="180" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="260" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="260" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Avalanche (AVAX)</text>
+    <text x="260" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Wypadł z top 10</text>
+
+    <rect x="350" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="430" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="430" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Hyperliquid (HYPE)</text>
+    <text x="430" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Wolumen 1,34 bln $</text>
+
+    <rect x="520" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="600" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="600" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Stellar (XLM)</text>
+    <text x="600" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Wzrost płatności/tokenizacji</text>
+
+    <text x="20" y="195" fill="#fafafa" font-size="14" font-weight="700">Skład BITW (początek lipca, aktywa netto ~560 mln $)</text>
+    <rect x="10" y="210" width="527" height="46" fill="#f7931a"/>
+    <rect x="537" y="210" width="88" height="46" fill="#627eea"/>
+    <rect x="625" y="210" width="29" height="46" fill="#71717a"/>
+    <rect x="654" y="210" width="36" height="46" fill="#3f3f46"/>
+    <text x="273" y="238" fill="#0a0a0a" font-size="13" font-weight="700" text-anchor="middle">BTC 77,5%</text>
+    <text x="581" y="238" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">ETH 13%</text>
+    <text x="639" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">XRP 4,2%</text>
+    <text x="672" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">Inne 5,3%</text>
+    <text x="350" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle">Udział HYPE to ~0,95% po rebalansowaniu — uwzględniony w "Inne" (6 aktywów)</text>
+    <text x="350" y="346" fill="#52525b" font-size="12" text-anchor="middle">Źródła: SEC EDGAR · Bitwise Investments · CryptoTimes · crypto.news</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Ribilanciamento BITW (9/7) — aggiunte, rimozioni e composizione del fondo</text>
+  <g font-family="sans-serif">
+    <rect x="10" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="90" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="90" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Polkadot (DOT)</text>
+    <text x="90" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Uscito dalla top 10</text>
+
+    <rect x="180" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="260" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="260" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Avalanche (AVAX)</text>
+    <text x="260" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Uscito dalla top 10</text>
+
+    <rect x="350" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="430" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="430" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Hyperliquid (HYPE)</text>
+    <text x="430" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Volume $1.340 mld</text>
+
+    <rect x="520" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="600" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="600" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Stellar (XLM)</text>
+    <text x="600" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Crescita pagamenti/tokenizzazione</text>
+
+    <text x="20" y="195" fill="#fafafa" font-size="14" font-weight="700">Composizione BITW (inizio luglio, patrimonio netto ~560 mln $)</text>
+    <rect x="10" y="210" width="527" height="46" fill="#f7931a"/>
+    <rect x="537" y="210" width="88" height="46" fill="#627eea"/>
+    <rect x="625" y="210" width="29" height="46" fill="#71717a"/>
+    <rect x="654" y="210" width="36" height="46" fill="#3f3f46"/>
+    <text x="273" y="238" fill="#0a0a0a" font-size="13" font-weight="700" text-anchor="middle">BTC 77,5%</text>
+    <text x="581" y="238" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">ETH 13%</text>
+    <text x="639" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">XRP 4,2%</text>
+    <text x="672" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">Altro 5,3%</text>
+    <text x="350" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle">Il peso di HYPE è ~0,95% dopo il ribilanciamento — incluso in "Altro" (6 asset)</text>
+    <text x="350" y="346" fill="#52525b" font-size="12" text-anchor="middle">Fonti: SEC EDGAR · Bitwise Investments · CryptoTimes · crypto.news</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Ребалансировка BITW (9 июля) — включения, исключения и состав фонда</text>
+  <g font-family="sans-serif">
+    <rect x="10" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="90" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="90" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Polkadot (DOT)</text>
+    <text x="90" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Выбыл из топ-10</text>
+
+    <rect x="180" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="260" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="260" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Avalanche (AVAX)</text>
+    <text x="260" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Выбыл из топ-10</text>
+
+    <rect x="350" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="430" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="430" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Hyperliquid (HYPE)</text>
+    <text x="430" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Объём $1,34 трлн</text>
+
+    <rect x="520" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="600" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="600" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Stellar (XLM)</text>
+    <text x="600" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">Рост платежей/токенизации</text>
+
+    <text x="20" y="195" fill="#fafafa" font-size="14" font-weight="700">Состав BITW (начало июля, чистые активы ~560 млн $)</text>
+    <rect x="10" y="210" width="527" height="46" fill="#f7931a"/>
+    <rect x="537" y="210" width="88" height="46" fill="#627eea"/>
+    <rect x="625" y="210" width="29" height="46" fill="#71717a"/>
+    <rect x="654" y="210" width="36" height="46" fill="#3f3f46"/>
+    <text x="273" y="238" fill="#0a0a0a" font-size="13" font-weight="700" text-anchor="middle">BTC 77,5%</text>
+    <text x="581" y="238" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">ETH 13%</text>
+    <text x="639" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">XRP 4,2%</text>
+    <text x="672" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">Прочее 5,3%</text>
+    <text x="350" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle">Доля HYPE ~0,95% после ребалансировки — включена в «Прочее» (6 активов)</text>
+    <text x="350" y="346" fill="#52525b" font-size="12" text-anchor="middle">Источники: SEC EDGAR · Bitwise Investments · CryptoTimes · crypto.news</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">BITW再平衡(7/9)——納入、剔除與基金組成</text>
+  <g font-family="sans-serif">
+    <rect x="10" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="90" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="90" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Polkadot(DOT)</text>
+    <text x="90" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">跌出前十</text>
+
+    <rect x="180" y="50" width="160" height="100" rx="10" fill="#241016" stroke="#ef4444" stroke-width="1.6"/>
+    <text x="260" y="76" fill="#ef4444" font-size="14" font-weight="700" text-anchor="middle">OUT</text>
+    <text x="260" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Avalanche(AVAX)</text>
+    <text x="260" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">跌出前十</text>
+
+    <rect x="350" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="430" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="430" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Hyperliquid(HYPE)</text>
+    <text x="430" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">交易量1.34兆美元</text>
+
+    <rect x="520" y="50" width="160" height="100" rx="10" fill="#101f14" stroke="#22c55e" stroke-width="1.6"/>
+    <text x="600" y="76" fill="#22c55e" font-size="14" font-weight="700" text-anchor="middle">IN</text>
+    <text x="600" y="98" fill="#e4e4e7" font-size="13" text-anchor="middle">Stellar(XLM)</text>
+    <text x="600" y="118" fill="#a1a1aa" font-size="12" text-anchor="middle">支付/代幣化成長</text>
+
+    <text x="20" y="195" fill="#fafafa" font-size="14" font-weight="700">BITW基金組成(7月初,淨資產約5.6億美元)</text>
+    <rect x="10" y="210" width="527" height="46" fill="#f7931a"/>
+    <rect x="537" y="210" width="88" height="46" fill="#627eea"/>
+    <rect x="625" y="210" width="29" height="46" fill="#71717a"/>
+    <rect x="654" y="210" width="36" height="46" fill="#3f3f46"/>
+    <text x="273" y="238" fill="#0a0a0a" font-size="13" font-weight="700" text-anchor="middle">BTC 77.5%</text>
+    <text x="581" y="238" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">ETH 13%</text>
+    <text x="639" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">XRP 4.2%</text>
+    <text x="672" y="290" fill="#a1a1aa" font-size="12" text-anchor="middle">其他 5.3%</text>
+    <text x="350" y="326" fill="#a1a1aa" font-size="13" text-anchor="middle">HYPE權重再平衡後約0.95%——歸類於「其他」(6項資產)</text>
+    <text x="350" y="346" fill="#52525b" font-size="12" text-anchor="middle">資料來源:SEC EDGAR‧Bitwise Investments‧CryptoTimes‧crypto.news</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">무게 중심은 여전히 비트코인·이더리움</h2>
 <h2 class="en">The Center of Gravity Is Still Bitcoin and Ethereum</h2>
@@ -391,6 +601,11 @@
 <h2 class="pt">O centro de gravidade continua sendo bitcoin e ethereum</h2>
 <h2 class="tr">Ağırlık merkezi hâlâ bitcoin ve ethereum</h2>
 <h2 class="vi">Trọng tâm vẫn là bitcoin và ethereum</h2>
+<h2 class="id">Pusat Gravitasi Tetap Bitcoin dan Ethereum</h2>
+<h2 class="pl">Środek ciężkości to wciąż bitcoin i ethereum</h2>
+<h2 class="it">Il baricentro resta bitcoin ed ethereum</h2>
+<h2 class="ru">Центр тяжести — по-прежнему биткоин и эфириум</h2>
+<h2 class="zh">重心依然是比特幣與以太幣</h2>
 <p class="ko">그러나 이번 조정의 실질적 영향력은 제한적이라는 점도 짚어야 한다. SEC 공시 기준 BITW의 순자산은 7월 초 기준 약 5억 6,000만 달러이며, 비트코인이 약 77.5%, 이더리움이 약 13.0%, XRP가 약 4.2%를 차지한다. 하이퍼리퀴드에 배정된 0.95%는 펀드 전체로 보면 미미한 규모이며, 폴카닷과 아발란체가 빠지며 생긴 공백 역시 상위 3개 자산의 압도적 비중에 비하면 시장에 미치는 실제 매도·매수 압력은 크지 않을 가능성이 높다.</p>
 <p class="en">It should also be noted, however, that the practical impact of this reshuffle is limited. Based on SEC filings, BITW's net assets stood at roughly $560 million in early July, with bitcoin accounting for about 77.5%, ethereum for about 13.0%, and XRP for about 4.2%. The 0.95% allocated to Hyperliquid is negligible relative to the fund as a whole, and the gap left by Polkadot and Avalanche's removal is also likely to translate into limited actual buying and selling pressure on the market, given how overwhelmingly the top three assets dominate.</p>
 <p class="ja">しかし、今回の調整の実質的な影響力は限定的である点も指摘すべきだ。SEC開示に基づくと、BITWの純資産は7月初旬時点で約5億6,000万ドルで、ビットコインが約77.5%、イーサリアムが約13.0%、XRPが約4.2%を占める。ハイパーリキッドに割り当てられた0.95%はファンド全体から見ればごくわずかな規模であり、ポルカドットとアバランチが外れて生じた空白も、上位3資産の圧倒的な比率に比べれば、市場に及ぼす実際の売買圧力は大きくない可能性が高い。</p>
@@ -400,6 +615,11 @@
 <p class="pt">No entanto, também deve-se notar que o impacto prático dessa reorganização é limitado. Com base em documentos apresentados à SEC, os ativos líquidos da BITW eram de aproximadamente US$ 560 milhões no início de julho, com o bitcoin representando cerca de 77,5%, o ethereum cerca de 13,0% e o XRP cerca de 4,2%. Os 0,95% alocados à Hyperliquid são insignificantes em relação ao fundo como um todo, e a lacuna deixada pela remoção de Polkadot e Avalanche também provavelmente resultará em pressão real limitada de compra e venda no mercado, dado o peso esmagador dos três principais ativos.</p>
 <p class="tr">Ancak bu düzenlemenin pratik etkisinin sınırlı olduğu da belirtilmelidir. SEC beyanlarına göre, BITW'nin net varlıkları Temmuz başında yaklaşık 560 milyon dolardı; bitcoin yaklaşık %77,5'lik, ethereum yaklaşık %13,0'lük ve XRP yaklaşık %4,2'lik bir paya sahipti. Hyperliquid'e ayrılan %0,95, fonun bütünü göz önüne alındığında ihmal edilebilir düzeydedir ve Polkadot ile Avalanche'ın çıkarılmasıyla oluşan boşluk da, ilk üç varlığın ezici ağırlığı göz önünde bulundurulduğunda, piyasada büyük bir gerçek alım-satım baskısına dönüşme olasılığı düşüktür.</p>
 <p class="vi">Tuy nhiên, cũng cần lưu ý rằng tác động thực tế của đợt điều chỉnh này là hạn chế. Dựa trên hồ sơ nộp cho SEC, tài sản ròng của BITW vào khoảng 560 triệu đô la vào đầu tháng 7, trong đó bitcoin chiếm khoảng 77,5%, ethereum khoảng 13,0% và XRP khoảng 4,2%. Tỷ trọng 0,95% được phân bổ cho Hyperliquid là không đáng kể so với toàn bộ quỹ, và khoảng trống để lại sau khi loại bỏ Polkadot và Avalanche cũng có khả năng chỉ tạo ra áp lực mua bán thực tế hạn chế trên thị trường, xét đến tỷ trọng áp đảo của ba tài sản hàng đầu.</p>
+<p class="id">Namun perlu dicatat pula bahwa dampak praktis dari perombakan ini terbatas. Berdasarkan pengajuan SEC, aset bersih BITW berada di sekitar 560 juta dolar pada awal Juli, dengan bitcoin menyumbang sekitar 77,5%, ethereum sekitar 13,0%, dan XRP sekitar 4,2%. Alokasi 0,95% untuk Hyperliquid tidak signifikan dibandingkan dana secara keseluruhan, dan kekosongan yang ditinggalkan oleh keluarnya Polkadot dan Avalanche juga kemungkinan besar hanya menimbulkan tekanan jual-beli riil yang terbatas di pasar, mengingat dominasi tiga aset teratas yang begitu besar.</p>
+<p class="pl">Należy jednak zauważyć, że praktyczny wpływ tej zmiany jest ograniczony. Według dokumentów złożonych do SEC, aktywa netto BITW wynosiły na początku lipca około 560 milionów dolarów, przy czym bitcoin stanowił około 77,5%, ethereum około 13,0%, a XRP około 4,2%. Przydział 0,95% dla Hyperliquid jest znikomy w stosunku do całego funduszu, a luka pozostawiona przez usunięcie Polkadot i Avalanche również prawdopodobnie przełoży się na ograniczoną rzeczywistą presję kupna i sprzedaży na rynku, biorąc pod uwagę przytłaczającą dominację trzech największych aktywów.</p>
+<p class="it">Va comunque osservato che l'impatto pratico di questo riassetto è limitato. Secondo i documenti depositati presso la SEC, il patrimonio netto di BITW si aggirava intorno ai 560 milioni di dollari a inizio luglio, con bitcoin che rappresentava circa il 77,5%, ethereum circa il 13,0% ed XRP circa il 4,2%. Lo 0,95% assegnato a Hyperliquid è trascurabile rispetto al fondo nel suo complesso, e il vuoto lasciato dall'esclusione di Polkadot e Avalanche si tradurrà probabilmente anch'esso in una pressione di acquisto e vendita reale limitata sul mercato, dato il peso schiacciante dei primi tre asset.</p>
+<p class="ru">Впрочем, стоит отметить, что практическое влияние этой перестановки ограничено. Согласно документам, поданным в SEC, чистые активы BITW в начале июля составляли около 560 млн долларов, при этом на биткоин приходилось около 77,5%, на эфириум — около 13,0%, а на XRP — около 4,2%. Доля в 0,95%, выделенная Hyperliquid, незначительна в масштабах всего фонда, и пробел, оставшийся после исключения Polkadot и Avalanche, тоже, скорее всего, выльется лишь в ограниченное реальное давление покупок и продаж на рынке — с учётом подавляющего веса трёх крупнейших активов.</p>
+<p class="zh">不過也應指出,此次調整的實際影響有限。根據SEC申報文件,BITW的淨資產在7月初約為5.6億美元,其中比特幣約占77.5%,以太幣約占13.0%,XRP約占4.2%。分配給Hyperliquid的0.95%相對於整個基金而言微不足道,而Polkadot和Avalanche被剔除後留下的空缺,相較於前三大資產的壓倒性佔比,實際帶給市場的買賣壓力也可能有限。</p>
 
 <p class="ko">이는 전통 금융에서 S&P500 편입·퇴출이 개별 종목 주가에 즉각적인 수급 충격을 주는 것과는 대조적이다. 추종자금(패시브 AUM) 규모가 조 단위인 지수에서는 편입 발표만으로 주가가 급등하는 경우가 흔하지만, BITW처럼 총자산이 수억 달러 수준인 크립토 인덱스 상품에서는 편입 자체보다 '어떤 자산이 편입 자격을 얻었는가'라는 상징적 신호가 더 큰 의미를 가진다. 하이퍼리퀴드 편입은 그래서 자금 유입의 신호라기보다는, 패시브 상품 설계자들이 탈중앙화 파생상품 거래소의 정당성을 어떻게 재평가하고 있는지 보여주는 지표에 가깝다.</p>
 <p class="en">That stands in contrast to traditional finance, where S&P 500 additions and removals deliver an immediate supply-and-demand shock to individual stock prices. In indexes with trillions of dollars in tracking (passive) AUM, an inclusion announcement alone often sends a stock soaring, but for a crypto index product like BITW with total assets in the hundreds of millions, the symbolic signal of "which asset qualified for inclusion" matters more than the inclusion itself. Hyperliquid's addition, then, reads less as a signal of capital inflows and more as an indicator of how passive-product designers are re-evaluating the legitimacy of decentralized derivatives exchanges.</p>
@@ -410,6 +630,11 @@
 <p class="pt">Isso contrasta com as finanças tradicionais, onde adições e remoções do S&P 500 provocam um choque imediato de oferta e demanda nos preços de ações individuais. Em índices com trilhões de dólares em AUM passivo, o simples anúncio de inclusão muitas vezes faz uma ação disparar, mas para um produto de índice cripto como o BITW, com ativos totais na casa das centenas de milhões, o sinal simbólico de "qual ativo se qualificou para inclusão" importa mais do que a inclusão em si. A adição da Hyperliquid, portanto, é lida menos como um sinal de entrada de capital e mais como um indicador de como os projetistas de produtos passivos estão reavaliando a legitimidade das exchanges de derivativos descentralizadas.</p>
 <p class="tr">Bu durum, S&P 500'e giriş ve çıkışların bireysel hisse senedi fiyatlarında anında bir arz-talep şoku yarattığı geleneksel finansla tam bir tezat oluşturuyor. Trilyonlarca dolarlık pasif takip varlığına (AUM) sahip endekslerde, yalnızca dahil edilme duyurusu bile bir hissenin fırlamasına neden olabilir; ancak BITW gibi toplam varlıkları yüzlerce milyon dolar seviyesinde olan bir kripto endeks ürününde, dahil edilmenin kendisinden çok "hangi varlığın dahil edilmeye hak kazandığı" şeklindeki sembolik sinyal daha büyük önem taşır. Bu nedenle Hyperliquid'in dahil edilmesi, bir sermaye girişi sinyalinden çok, pasif ürün tasarımcılarının merkeziyetsiz türev borsalarının meşruiyetini nasıl yeniden değerlendirdiğini gösteren bir gösterge olarak okunabilir.</p>
 <p class="vi">Điều này trái ngược với tài chính truyền thống, nơi việc thêm vào hoặc loại khỏi S&P 500 tạo ra cú sốc cung cầu tức thì đối với giá cổ phiếu riêng lẻ. Ở các chỉ số có hàng nghìn tỷ đô la tài sản thụ động theo dõi (AUM), chỉ riêng thông báo được đưa vào danh mục thường đã khiến giá cổ phiếu tăng vọt, nhưng đối với một sản phẩm chỉ số crypto như BITW với tổng tài sản ở mức hàng trăm triệu đô la, tín hiệu mang tính biểu tượng về việc "tài sản nào đủ điều kiện được đưa vào" lại quan trọng hơn bản thân việc được đưa vào. Do đó, việc thêm Hyperliquid được hiểu ít hơn như một tín hiệu về dòng vốn chảy vào, mà giống một chỉ báo hơn về cách các nhà thiết kế sản phẩm thụ động đang đánh giá lại tính chính danh của các sàn giao dịch phái sinh phi tập trung.</p>
+<p class="id">Hal ini kontras dengan keuangan tradisional, di mana penambahan dan penghapusan dari S&P 500 memberikan guncangan permintaan-penawaran langsung pada harga saham individual. Pada indeks dengan AUM pasif triliunan dolar, pengumuman inklusi saja sering kali membuat harga saham melonjak, tetapi untuk produk indeks kripto seperti BITW dengan total aset ratusan juta dolar, sinyal simbolis tentang "aset mana yang memenuhi syarat untuk masuk" lebih bermakna daripada inklusi itu sendiri. Masuknya Hyperliquid pun lebih tepat dibaca bukan sebagai sinyal arus masuk modal, melainkan sebagai indikator bagaimana perancang produk pasif menilai ulang legitimasi bursa derivatif terdesentralisasi.</p>
+<p class="pl">Kontrastuje to z tradycyjnymi finansami, gdzie dodania i usunięcia z S&P 500 wywołują natychmiastowy szok popytowo-podażowy dla cen poszczególnych akcji. W indeksach z bilionami dolarów pasywnych aktywów (AUM), sama zapowiedź włączenia często wystarcza, by cena akcji poszybowała, ale w przypadku produktu indeksowego kryptowalut takiego jak BITW, z aktywami rzędu setek milionów dolarów, symboliczny sygnał, „które aktywo zakwalifikowało się do włączenia", ma większe znaczenie niż samo włączenie. Dodanie Hyperliquid odczytuje się więc mniej jako sygnał napływu kapitału, a bardziej jako wskaźnik tego, jak twórcy produktów pasywnych na nowo oceniają legitymację zdecentralizowanych giełd instrumentów pochodnych.</p>
+<p class="it">Ciò contrasta con la finanza tradizionale, dove le aggiunte e le rimozioni dall'S&P 500 generano uno shock immediato di domanda e offerta sui prezzi dei singoli titoli. Negli indici con migliaia di miliardi di dollari di AUM passivo, il solo annuncio di inclusione fa spesso schizzare il prezzo di un'azione, ma per un prodotto indicizzato cripto come BITW, con un patrimonio totale nell'ordine delle centinaia di milioni di dollari, il segnale simbolico di "quale asset si è qualificato per l'inclusione" conta più dell'inclusione stessa. L'aggiunta di Hyperliquid si legge quindi meno come un segnale di afflussi di capitale e più come un indicatore di come i progettisti di prodotti passivi stiano rivalutando la legittimità degli exchange di derivati decentralizzati.</p>
+<p class="ru">Это резко контрастирует с традиционными финансами, где включения и исключения из индекса S&P 500 вызывают немедленный шок спроса и предложения по ценам отдельных акций. В индексах с триллионами долларов пассивных активов под управлением (AUM) одно лишь объявление о включении часто заставляет акцию взлетать, но для криптоиндексного продукта вроде BITW с совокупными активами порядка сотен миллионов долларов символический сигнал о том, «какой актив прошёл отбор для включения», значит больше, чем само включение. Поэтому добавление Hyperliquid стоит читать не столько как сигнал притока капитала, сколько как индикатор того, как разработчики пассивных продуктов переоценивают легитимность децентрализованных бирж деривативов.</p>
+<p class="zh">這與傳統金融形成鮮明對比,標普500指數的納入或剔除會對個股價格帶來立即的供需衝擊。在追蹤資產(被動式AUM)規模達兆美元級別的指數中,單是納入消息往往就能讓股價飆升;但對於BITW這種總資產僅數億美元的加密指數產品而言,「哪項資產獲得納入資格」這一象徵性訊號,比納入本身更具意義。因此,Hyperliquid的納入與其說是資金流入的訊號,不如說更像是一項指標,顯示被動產品設計者正在重新評估去中心化衍生品交易所的正當性。</p>
 
 <h2 class="ko">무엇을 지켜봐야 하나</h2>
 <h2 class="en">What to Watch</h2>
@@ -420,6 +645,11 @@
 <h2 class="pt">O que observar</h2>
 <h2 class="tr">Nelere dikkat edilmeli</h2>
 <h2 class="vi">Cần theo dõi điều gì</h2>
+<h2 class="id">Apa yang Perlu Diperhatikan</h2>
+<h2 class="pl">Na co zwrócić uwagę</h2>
+<h2 class="it">Cosa osservare</h2>
+<h2 class="ru">На что обратить внимание</h2>
+<h2 class="zh">應關注哪些後續發展</h2>
 <p class="ko">첫째, 폴카닷과 아발란체의 반응이다. 두 자산 모두 이번 조정 이전부터 시가총액 순위 하락 추세에 있었던 만큼, 지수 퇴출이 원인이라기보다 결과에 가깝다는 해석이 우세하다. 실제 매도 압력보다는 이미 진행 중이던 약세 흐름을 재확인하는 성격이 강할 수 있다. 둘째, 하이퍼리퀴드가 다음 달 재조정에서도 자리를 지킬 수 있을지다. 165%라는 연초 대비 상승률은 변동성이 큰 자산의 특징이며, 매출과 거래대금 역시 시장 상황에 따라 출렁일 수 있어 자격 유지가 보장된 것은 아니다.</p>
 <p class="en">First, watch how Polkadot and Avalanche react. Since both assets were already trending down in market-cap rank before this adjustment, the prevailing interpretation is that removal from the index is more a consequence than a cause. It may carry more of the character of reaffirming an already-underway weakening trend than of generating fresh selling pressure. Second, watch whether Hyperliquid holds its seat at next month's rebalance. A 165% year-to-date gain is characteristic of a highly volatile asset, and revenue and trading volume can swing with market conditions too, so continued eligibility is not guaranteed.</p>
 <p class="ja">第一に、ポルカドットとアバランチの反応を注視すべきだ。両資産とも今回の調整以前から時価総額順位が下落傾向にあったため、指数からの除外は原因というより結果に近いという解釈が優勢だ。実際の売り圧力というより、すでに進行していた弱含みの流れを再確認する性格が強い可能性がある。第二に、ハイパーリキッドが来月の再調整でも席を守れるかどうかだ。年初来165%という上昇率は変動性の大きい資産の特徴であり、収益や取引高も市場状況次第で揺れ動きうるため、資格維持が保証されているわけではない。</p>
@@ -429,6 +659,11 @@
 <p class="pt">Primeiro, é preciso observar como Polkadot e Avalanche reagem. Como ambos os ativos já vinham em tendência de queda no ranking de capitalização de mercado antes deste ajuste, a interpretação predominante é que a remoção do índice é mais uma consequência do que uma causa. Isso pode ter mais o caráter de reafirmar uma tendência de enfraquecimento já em curso do que de gerar nova pressão de venda. Segundo, é preciso ver se a Hyperliquid manterá seu lugar no rebalanceamento do próximo mês. Um ganho de 165% no acumulado do ano é característico de um ativo altamente volátil, e receita e volume de negociação também podem oscilar conforme as condições de mercado, de modo que a manutenção da elegibilidade não está garantida.</p>
 <p class="tr">Birincisi, Polkadot ve Avalanche'ın nasıl tepki vereceği izlenmeli. Her iki varlık da bu düzenlemeden önce zaten piyasa değeri sıralamasında düşüş eğilimindeydi, bu nedenle hâkim yorum, endeksten çıkarılmanın bir neden olmaktan çok bir sonuç olduğu yönünde. Bu durum, yeni bir satış baskısı yaratmaktan çok, zaten devam eden bir zayıflama eğilimini yeniden teyit etme niteliği taşıyabilir. İkincisi, Hyperliquid'in gelecek ayki yeniden dengelemede yerini koruyup korumayacağı izlenmeli. Yıl başından bu yana %165'lik bir kazanç, yüksek oynaklığa sahip bir varlığın karakteristik özelliğidir ve gelir ile işlem hacmi de piyasa koşullarına göre dalgalanabilir, bu nedenle uygunluğun devam etmesi garanti değildir.</p>
 <p class="vi">Thứ nhất, cần theo dõi phản ứng của Polkadot và Avalanche. Vì cả hai tài sản này đã có xu hướng giảm về thứ hạng vốn hóa thị trường từ trước đợt điều chỉnh này, cách diễn giải phổ biến cho rằng việc bị loại khỏi chỉ số là hệ quả nhiều hơn là nguyên nhân. Điều này có thể mang tính chất tái khẳng định một xu hướng suy yếu vốn đã diễn ra hơn là tạo ra áp lực bán mới. Thứ hai, cần xem liệu Hyperliquid có giữ được vị trí của mình trong đợt tái cân bằng tháng tới hay không. Mức tăng 165% từ đầu năm là đặc trưng của một tài sản có độ biến động cao, và doanh thu cũng như khối lượng giao dịch cũng có thể dao động theo điều kiện thị trường, vì vậy việc duy trì đủ điều kiện không được đảm bảo.</p>
+<p class="id">Pertama, perhatikan bagaimana reaksi Polkadot dan Avalanche. Karena kedua aset tersebut sudah menunjukkan tren penurunan peringkat kapitalisasi pasar sebelum penyesuaian ini, interpretasi yang berlaku adalah bahwa penghapusan dari indeks lebih merupakan konsekuensi daripada penyebab. Hal ini mungkin lebih bersifat menegaskan kembali tren pelemahan yang sudah berlangsung daripada menciptakan tekanan jual baru. Kedua, perhatikan apakah Hyperliquid akan mempertahankan posisinya pada penyeimbangan ulang bulan depan. Kenaikan 165% sejak awal tahun merupakan ciri khas aset dengan volatilitas tinggi, dan pendapatan maupun volume perdagangan juga dapat berfluktuasi mengikuti kondisi pasar, sehingga kelayakan yang berkelanjutan tidak terjamin.</p>
+<p class="pl">Po pierwsze, warto obserwować reakcję Polkadot i Avalanche. Ponieważ oba aktywa już przed tą korektą traciły pozycje w rankingu kapitalizacji rynkowej, dominująca interpretacja mówi, że usunięcie z indeksu jest raczej skutkiem niż przyczyną. Może to mieć bardziej charakter potwierdzenia już trwającego trendu spadkowego niż wywołania nowej presji sprzedażowej. Po drugie, trzeba obserwować, czy Hyperliquid utrzyma swoje miejsce podczas przyszłomiesięcznego rebalansowania. Wzrost o 165% od początku roku jest cechą charakterystyczną aktywa o wysokiej zmienności, a przychody i wolumen obrotu również mogą wahać się wraz z warunkami rynkowymi, więc dalsze spełnianie kryteriów nie jest gwarantowane.</p>
+<p class="it">Primo, occorre osservare come reagiranno Polkadot e Avalanche. Poiché entrambi gli asset erano già in calo nella classifica per capitalizzazione di mercato prima di questo aggiustamento, l'interpretazione prevalente è che l'esclusione dall'indice sia più una conseguenza che una causa. Potrebbe avere più il carattere di una conferma di un trend di indebolimento già in corso che di generare nuova pressione di vendita. Secondo, bisogna vedere se Hyperliquid manterrà il proprio posto nel ribilanciamento del mese prossimo. Un guadagno del 165% da inizio anno è caratteristico di un asset altamente volatile, e anche ricavi e volume di scambi possono oscillare in base alle condizioni di mercato, quindi il mantenimento dell'idoneità non è garantito.</p>
+<p class="ru">Во-первых, стоит следить за реакцией Polkadot и Avalanche. Поскольку оба актива уже теряли позиции в рейтинге по рыночной капитализации ещё до этой корректировки, преобладает мнение, что исключение из индекса — скорее следствие, чем причина. Это, вероятно, скорее подтверждает уже идущий понижательный тренд, чем создаёт новое давление продавцов. Во-вторых, нужно следить, сохранит ли Hyperliquid своё место при ребалансировке в следующем месяце. Рост на 165% с начала года характерен для высоковолатильного актива, а выручка и объём торгов также могут колебаться в зависимости от рыночной конъюнктуры, поэтому сохранение соответствия критериям не гарантировано.</p>
+<p class="zh">首先,應關注Polkadot和Avalanche的後續反應。由於這兩項資產在此次調整之前市值排名就已呈下滑趨勢,主流解讀認為被剔除出指數更像是結果而非原因,其性質可能更接近再次確認早已存在的弱勢走勢,而非帶來新的賣壓。其次,應關注Hyperliquid能否在下個月的再平衡中保住席位。年初至今165%的漲幅是高波動性資產的典型特徵,營收與交易量同樣可能隨市場狀況而波動,因此其資格能否延續並無保證。</p>
 
 <p class="ko">더 넓게 보면, 이번 사건은 패시브 크립토 상품이 점점 더 '레이어1 대 레이어1' 구도를 넘어 파생상품 거래소·결제 네트워크 같은 이질적 자산군을 한 바구니에 담기 시작했다는 신호로 읽을 수 있다. 이는 분산 투자 효과를 높일 수도 있지만, 동시에 증권성 논란이 있는 거버넌스 토큰과 오래된 결제 코인처럼 규제 성격이 서로 다른 자산을 동일한 지수 방법론으로 묶는 데 따르는 새로운 리스크 평가 문제를 낳는다.</p>
 <p class="en">Zoomed out, this episode can be read as a sign that passive crypto products are increasingly moving beyond a "layer-1 versus layer-1" framework and starting to bundle heterogeneous asset classes — derivatives exchanges, payment networks — into a single basket. That may improve diversification, but it also creates a new risk-assessment problem tied to lumping together, under a single index methodology, assets with very different regulatory profiles — a governance token dogged by securities-status disputes and a long-established payments coin.</p>
@@ -439,6 +674,11 @@
 <p class="pt">Em uma visão mais ampla, esse episódio pode ser lido como um sinal de que os produtos cripto passivos estão cada vez mais indo além de um enquadramento "camada 1 contra camada 1" e começando a reunir classes de ativos heterogêneas — exchanges de derivativos, redes de pagamento — em uma única cesta. Isso pode melhorar a diversificação, mas também cria um novo problema de avaliação de risco ligado a agrupar, sob a mesma metodologia de índice, ativos com perfis regulatórios muito diferentes — um token de governança perseguido por disputas sobre status de valor mobiliário e uma moeda de pagamentos há muito estabelecida.</p>
 <p class="tr">Daha geniş açıdan bakıldığında, bu olay pasif kripto ürünlerinin giderek "katman-1'e karşı katman-1" çerçevesinin ötesine geçtiğinin ve türev borsaları, ödeme ağları gibi birbirinden farklı varlık sınıflarını tek bir sepette toplamaya başladığının bir işareti olarak okunabilir. Bu durum çeşitlendirmeyi artırabilir, ancak aynı zamanda menkul kıymet statüsü tartışmalarıyla boğuşan bir yönetişim token'ı ile uzun süredir yerleşik bir ödeme coin'i gibi düzenleyici profilleri çok farklı varlıkları aynı endeks metodolojisi altında bir araya getirmenin getirdiği yeni bir risk değerlendirme sorunu da yaratır.</p>
 <p class="vi">Nhìn rộng ra, sự kiện này có thể được hiểu là dấu hiệu cho thấy các sản phẩm crypto thụ động đang ngày càng vượt ra khỏi khuôn khổ "lớp 1 đối đầu lớp 1" và bắt đầu gộp các nhóm tài sản không đồng nhất — sàn giao dịch phái sinh, mạng lưới thanh toán — vào chung một giỏ. Điều này có thể nâng cao hiệu quả đa dạng hóa, nhưng đồng thời cũng tạo ra một vấn đề đánh giá rủi ro mới khi gộp chung, dưới cùng một phương pháp luận chỉ số, các tài sản có hồ sơ pháp lý rất khác nhau — một token quản trị vướng tranh cãi về tư cách chứng khoán và một đồng coin thanh toán đã tồn tại lâu đời.</p>
+<p class="id">Secara lebih luas, peristiwa ini dapat dibaca sebagai tanda bahwa produk kripto pasif semakin bergerak melampaui kerangka "layer-1 versus layer-1" dan mulai menggabungkan kelas aset yang heterogen — bursa derivatif, jaringan pembayaran — ke dalam satu keranjang. Hal ini dapat meningkatkan diversifikasi, tetapi juga menimbulkan persoalan baru dalam penilaian risiko akibat menyatukan, di bawah satu metodologi indeks yang sama, aset-aset dengan profil regulasi yang sangat berbeda — token tata kelola yang masih diliputi sengketa status sekuritas dan koin pembayaran yang sudah lama mapan.</p>
+<p class="pl">W szerszej perspektywie ten epizod można odczytać jako sygnał, że pasywne produkty kryptowalutowe coraz częściej wychodzą poza ramy „warstwa 1 kontra warstwa 1" i zaczynają łączyć w jednym koszyku niejednorodne klasy aktywów — giełdy instrumentów pochodnych, sieci płatnicze. Może to poprawić dywersyfikację, ale stwarza też nowy problem oceny ryzyka związany z łączeniem, w ramach tej samej metodologii indeksu, aktywów o bardzo różnych profilach regulacyjnych — tokena zarządzającego uwikłanego w spory o status papieru wartościowego oraz od dawna ugruntowanej monety płatniczej.</p>
+<p class="it">In una prospettiva più ampia, questo episodio può essere letto come un segnale che i prodotti cripto passivi si stanno sempre più spingendo oltre lo schema "layer-1 contro layer-1" e iniziano a raggruppare classi di asset eterogenee — exchange di derivati, reti di pagamento — in un unico paniere. Ciò potrebbe migliorare la diversificazione, ma crea anche un nuovo problema di valutazione del rischio legato al riunire, sotto un'unica metodologia d'indice, asset con profili normativi molto diversi — un token di governance alle prese con controversie sul proprio status di titolo e una moneta di pagamento consolidata da tempo.</p>
+<p class="ru">В более широком плане этот эпизод можно расценивать как знак того, что пассивные крипто-продукты всё чаще выходят за рамки схемы «блокчейн первого уровня против блокчейна первого уровня» и начинают объединять разнородные классы активов — биржи деривативов, платёжные сети — в единой корзине. Это может улучшить диверсификацию, но одновременно создаёт новую проблему оценки риска, связанную с объединением в рамках единой методологии индекса активов с очень разными регуляторными профилями — токена управления, преследуемого спорами о статусе ценной бумаги, и давно устоявшейся платёжной монеты.</p>
+<p class="zh">從更宏觀的角度看,這一事件可解讀為一個訊號:被動式加密貨幣產品正日益跳脫「第一層對第一層」的框架,開始將衍生品交易所、支付網路等性質迥異的資產類別納入同一籃子。這雖然可能提升分散投資效果,但也帶來新的風險評估難題——在同一套指數方法論下,將監管屬性截然不同的資產綁在一起,例如一個仍陷於證券屬性爭議的治理代幣,與一個早已站穩腳跟的支付幣種。</p>
 
 <div class="box ko">💡 <strong>시사점:</strong> 비트와이즈는 7월 9일 대표 크립토 인덱스 ETF인 BITW에서 하이퍼리퀴드(HYPE)와 스텔라(XLM)를 신규 편입하고 폴카닷(DOT)과 아발란체(AVAX)를 제외했다. 매출·거래대금 등 실질 경제활동 지표가 편입 기준으로 부상했다는 신호이지만, BITW 자산의 90% 이상이 여전히 비트코인·이더리움·XRP에 쏠려 있어 실제 자금 이동 효과는 제한적이다.</div>
 <div class="box en">💡 <strong>Takeaway:</strong> Bitwise added Hyperliquid (HYPE) and Stellar (XLM) to its flagship crypto index ETF, BITW, on July 9, while removing Polkadot (DOT) and Avalanche (AVAX). It signals that real-economic-activity metrics like revenue and trading volume are emerging as inclusion criteria, but with more than 90% of BITW's assets still concentrated in bitcoin, ethereum and XRP, the actual capital-flow effect is limited.</div>
@@ -449,6 +689,11 @@
 <div class="box pt">💡 <strong>Conclusão:</strong> A Bitwise adicionou Hyperliquid (HYPE) e Stellar (XLM) ao seu ETF de índice cripto principal, o BITW, em 9 de julho, ao mesmo tempo em que removeu Polkadot (DOT) e Avalanche (AVAX). Isso sinaliza que métricas de atividade econômica real, como receita e volume de negociação, estão emergindo como critérios de inclusão, mas com mais de 90% dos ativos do BITW ainda concentrados em bitcoin, ethereum e XRP, o efeito real no fluxo de capital é limitado.</div>
 <div class="box tr">💡 <strong>Sonuç:</strong> Bitwise, 9 Temmuz'da amiral gemisi kripto endeks ETF'si BITW'ye Hyperliquid (HYPE) ve Stellar'ı (XLM) eklerken Polkadot (DOT) ve Avalanche'ı (AVAX) çıkardı. Bu, gelir ve işlem hacmi gibi gerçek ekonomik faaliyet ölçütlerinin dahil edilme kriteri olarak öne çıktığının bir işareti; ancak BITW varlıklarının %90'ından fazlası hâlâ bitcoin, ethereum ve XRP'de yoğunlaştığından, gerçek sermaye akışı etkisi sınırlı kalıyor.</div>
 <div class="box vi">💡 <strong>Điểm mấu chốt:</strong> Bitwise đã thêm Hyperliquid (HYPE) và Stellar (XLM) vào quỹ ETF chỉ số crypto chủ lực BITW vào ngày 9 tháng 7, đồng thời loại bỏ Polkadot (DOT) và Avalanche (AVAX). Điều này báo hiệu rằng các chỉ số hoạt động kinh tế thực như doanh thu và khối lượng giao dịch đang nổi lên như tiêu chí đưa vào danh mục, nhưng với hơn 90% tài sản của BITW vẫn tập trung vào bitcoin, ethereum và XRP, tác động thực tế đến dòng vốn vẫn còn hạn chế.</div>
+<div class="box id">💡 <strong>Poin penting:</strong> Bitwise menambahkan Hyperliquid (HYPE) dan Stellar (XLM) ke ETF indeks kripto andalannya, BITW, pada 9 Juli, sekaligus mengeluarkan Polkadot (DOT) dan Avalanche (AVAX). Ini menandakan bahwa metrik aktivitas ekonomi riil seperti pendapatan dan volume perdagangan mulai muncul sebagai kriteria inklusi, tetapi dengan lebih dari 90% aset BITW masih terkonsentrasi pada bitcoin, ethereum, dan XRP, dampak aktual terhadap arus modal tetap terbatas.</div>
+<div class="box pl">💡 <strong>Najważniejsze:</strong> Bitwise dodał Hyperliquid (HYPE) i Stellar (XLM) do swojego flagowego ETF-u indeksowego BITW 9 lipca, jednocześnie usuwając Polkadot (DOT) i Avalanche (AVAX). To sygnał, że wskaźniki realnej aktywności gospodarczej, takie jak przychody i wolumen obrotu, zyskują na znaczeniu jako kryteria włączenia, ale ponieważ ponad 90% aktywów BITW nadal koncentruje się na bitcoinie, ethereum i XRP, rzeczywisty wpływ na przepływ kapitału pozostaje ograniczony.</div>
+<div class="box it">💡 <strong>Punto chiave:</strong> Bitwise ha aggiunto Hyperliquid (HYPE) e Stellar (XLM) al suo ETF indicizzato di punta BITW il 9 luglio, rimuovendo al contempo Polkadot (DOT) e Avalanche (AVAX). Ciò segnala che metriche di attività economica reale come ricavi e volume di scambi stanno emergendo come criteri di inclusione, ma con oltre il 90% degli asset di BITW ancora concentrati su bitcoin, ethereum e XRP, l'effetto reale sul flusso di capitali resta limitato.</div>
+<div class="box ru">💡 <strong>Главное:</strong> Bitwise 9 июля добавила Hyperliquid (HYPE) и Stellar (XLM) в свой флагманский криптоиндексный ETF BITW, одновременно исключив Polkadot (DOT) и Avalanche (AVAX). Это сигнал того, что показатели реальной экономической активности, такие как выручка и объём торгов, становятся критериями включения, но поскольку более 90% активов BITW по-прежнему сосредоточено в биткоине, эфириуме и XRP, реальный эффект для движения капитала остаётся ограниченным.</div>
+<div class="box zh">💡 <strong>重點摘要:</strong> Bitwise於7月9日將Hyperliquid(HYPE)與Stellar(XLM)納入其旗艦加密指數ETF BITW,同時剔除了Polkadot(DOT)與Avalanche(AVAX)。這顯示營收與交易量等實質經濟活動指標正逐漸成為納入標準,但由於BITW逾90%的資產仍集中於比特幣、以太幣與XRP,實際資金流動效應仍屬有限。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. 이 글은 투자 조언이 아니다.</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. This article is not investment advice.</p>
@@ -459,4 +704,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Este artigo não é aconselhamento de investimento.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Bu yazı yatırım tavsiyesi değildir.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Bài viết này không phải là lời khuyên đầu tư.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Artikel ini bukan nasihat investasi.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Ten artykuł nie stanowi porady inwestycyjnej.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Questo articolo non costituisce consulenza di investimento.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CryptoTimes, crypto.news, Coinpedia, KuCoin, Bitcoin World, SEC EDGAR, Bitwise Investments, Yahoo Finance. Эта статья не является инвестиционной рекомендацией.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CryptoTimes、crypto.news、Coinpedia、KuCoin、Bitcoin World、SEC EDGAR、Bitwise Investments、Yahoo Finance。本文不構成投資建議。</p>
 <?php require __DIR__.'/_footer.php'; ?>
