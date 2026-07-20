@@ -345,6 +345,131 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Mức thuế và mục tiêu theo các thông báo đã đưa tin; dự luật và cải cách thuế vẫn đang được Quốc hội thảo luận, chưa hoàn tất.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Reformasi Pajak Kripto Jepang — Saat Ini vs. Usulan</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="290" height="230" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="85" fill="#fca5a5" font-size="15" font-weight="700">Saat ini: penghasilan lain-lain gabungan</text>
+    <text x="50" y="118" fill="#e4e4e7" font-size="28" font-weight="700">Hingga 55%</text>
+    <text x="50" y="145" fill="#a1a1aa" font-size="13">45% nasional + 10% pajak penduduk</text>
+    <text x="50" y="170" fill="#a1a1aa" font-size="13">Progresif, digabung dengan penghasilan lain</text>
+    <text x="50" y="195" fill="#a1a1aa" font-size="13">Tanpa kompensasi kerugian</text>
+    <text x="50" y="250" fill="#71717a" font-size="12">ETF tidak dapat tercatat (rezim UU Jasa Pembayaran)</text>
+    <rect x="380" y="55" width="290" height="230" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="400" y="85" fill="#86efac" font-size="15" font-weight="700">Usulan: pajak terpisah (seperti saham)</text>
+    <text x="400" y="118" fill="#e4e4e7" font-size="28" font-weight="700">~20%</text>
+    <text x="400" y="145" fill="#a1a1aa" font-size="13">Tarif tetap, terpisah dari penghasilan lain</text>
+    <text x="400" y="170" fill="#a1a1aa" font-size="13">Memerlukan reklasifikasi FIEA</text>
+    <text x="400" y="195" fill="#a1a1aa" font-size="13">Kerugian dapat dibawa hingga 3 tahun</text>
+    <text x="400" y="250" fill="#71717a" font-size="12">ETF dapat tercatat (paling cepat 2027, menurut JPX)</text>
+    <text x="350" y="170" fill="#fafafa" font-size="22" text-anchor="middle">→</text>
+    <text x="30" y="345" fill="#71717a" font-size="12">Target SBI Securities: AUM ¥5 triliun (~$32M) dalam 3 tahun sejak peluncuran</text>
+    <text x="30" y="368" fill="#71717a" font-size="12">Berdasarkan seminar Open QUICK 10 Juli 2026 dan RUU FIEA yang disetujui kabinet 10 April</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Tarif dan target berdasarkan pengumuman yang diberitakan; RUU dan reformasi pajak masih dalam pembahasan Diet, belum final.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Japońska Reforma Podatku od Kryptowalut — Obecnie vs. Propozycja</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="290" height="230" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="85" fill="#fca5a5" font-size="15" font-weight="700">Obecnie: zagregowany dochód różny</text>
+    <text x="50" y="118" fill="#e4e4e7" font-size="28" font-weight="700">Do 55%</text>
+    <text x="50" y="145" fill="#a1a1aa" font-size="13">45% krajowy + 10% podatek mieszkaniowy</text>
+    <text x="50" y="170" fill="#a1a1aa" font-size="13">Progresywny, łączony z innymi dochodami</text>
+    <text x="50" y="195" fill="#a1a1aa" font-size="13">Brak przenoszenia strat</text>
+    <text x="50" y="250" fill="#71717a" font-size="12">Notowanie ETF niemożliwe (reżim ustawy o usługach płatniczych)</text>
+    <rect x="380" y="55" width="290" height="230" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="400" y="85" fill="#86efac" font-size="15" font-weight="700">Propozycja: podatek oddzielny (jak akcje)</text>
+    <text x="400" y="118" fill="#e4e4e7" font-size="28" font-weight="700">~20%</text>
+    <text x="400" y="145" fill="#a1a1aa" font-size="13">Stała stawka, oddzielona od innych dochodów</text>
+    <text x="400" y="170" fill="#a1a1aa" font-size="13">Wymaga przeklasyfikowania FIEA</text>
+    <text x="400" y="195" fill="#a1a1aa" font-size="13">Straty przenoszone do 3 lat</text>
+    <text x="400" y="250" fill="#71717a" font-size="12">Notowanie ETF możliwe (najwcześniej w 2027, wg JPX)</text>
+    <text x="350" y="170" fill="#fafafa" font-size="22" text-anchor="middle">→</text>
+    <text x="30" y="345" fill="#71717a" font-size="12">Cel SBI Securities: 5 bln jenów (~32 mld USD) AUM w ciągu 3 lat od uruchomienia</text>
+    <text x="30" y="368" fill="#71717a" font-size="12">Na podstawie seminarium Open QUICK z 10 lipca 2026 i projektu FIEA zatwierdzonego przez gabinet 10 kwietnia</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Stawki i cele według zgłoszonych ogłoszeń; projekt ustawy i reforma podatkowa wciąż są przedmiotem obrad Diety, jeszcze niesfinalizowane.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Riforma Fiscale Crypto del Giappone — Attuale vs. Proposta</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="290" height="230" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="85" fill="#fca5a5" font-size="15" font-weight="700">Attuale: reddito diverso aggregato</text>
+    <text x="50" y="118" fill="#e4e4e7" font-size="28" font-weight="700">Fino al 55%</text>
+    <text x="50" y="145" fill="#a1a1aa" font-size="13">45% nazionale + 10% tassa residenziale</text>
+    <text x="50" y="170" fill="#a1a1aa" font-size="13">Progressiva, sommata ad altri redditi</text>
+    <text x="50" y="195" fill="#a1a1aa" font-size="13">Nessun riporto delle perdite</text>
+    <text x="50" y="250" fill="#71717a" font-size="12">Quotazione ETF impossibile (regime PSA)</text>
+    <rect x="380" y="55" width="290" height="230" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="400" y="85" fill="#86efac" font-size="15" font-weight="700">Proposta: imposta separata (come le azioni)</text>
+    <text x="400" y="118" fill="#e4e4e7" font-size="28" font-weight="700">~20%</text>
+    <text x="400" y="145" fill="#a1a1aa" font-size="13">Aliquota fissa, separata da altri redditi</text>
+    <text x="400" y="170" fill="#a1a1aa" font-size="13">Richiede la riclassificazione FIEA</text>
+    <text x="400" y="195" fill="#a1a1aa" font-size="13">Perdite riportabili fino a 3 anni</text>
+    <text x="400" y="250" fill="#71717a" font-size="12">Quotazione ETF possibile (già dal 2027, secondo JPX)</text>
+    <text x="350" y="170" fill="#fafafa" font-size="22" text-anchor="middle">→</text>
+    <text x="30" y="345" fill="#71717a" font-size="12">Obiettivo SBI Securities: 5.000 miliardi di yen (~32 mld $) di AUM entro 3 anni dal lancio</text>
+    <text x="30" y="368" fill="#71717a" font-size="12">Basato sul seminario Open QUICK del 10 luglio 2026 e sul disegno di legge FIEA approvato dal gabinetto il 10 aprile</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Aliquote e obiettivi secondo gli annunci riportati; il disegno di legge e la riforma fiscale restano in discussione alla Dieta, non ancora finalizzati.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Налоговая Реформа Криптовалют В Японии — Текущая Vs. Предлагаемая</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="290" height="230" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="85" fill="#fca5a5" font-size="15" font-weight="700">Текущая: агрегированный прочий доход</text>
+    <text x="50" y="118" fill="#e4e4e7" font-size="28" font-weight="700">До 55%</text>
+    <text x="50" y="145" fill="#a1a1aa" font-size="13">45% национальный + 10% налог резидента</text>
+    <text x="50" y="170" fill="#a1a1aa" font-size="13">Прогрессивный, объединён с другими доходами</text>
+    <text x="50" y="195" fill="#a1a1aa" font-size="13">Без переноса убытков</text>
+    <text x="50" y="250" fill="#71717a" font-size="12">Листинг ETF невозможен (режим PSA)</text>
+    <rect x="380" y="55" width="290" height="230" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="400" y="85" fill="#86efac" font-size="15" font-weight="700">Предлагаемая: отдельный налог (как для акций)</text>
+    <text x="400" y="118" fill="#e4e4e7" font-size="28" font-weight="700">~20%</text>
+    <text x="400" y="145" fill="#a1a1aa" font-size="13">Фиксированная ставка, отдельно от других доходов</text>
+    <text x="400" y="170" fill="#a1a1aa" font-size="13">Требует переклассификации по FIEA</text>
+    <text x="400" y="195" fill="#a1a1aa" font-size="13">Убытки переносятся до 3 лет</text>
+    <text x="400" y="250" fill="#71717a" font-size="12">Листинг ETF возможен (не ранее 2027, по данным JPX)</text>
+    <text x="350" y="170" fill="#fafafa" font-size="22" text-anchor="middle">→</text>
+    <text x="30" y="345" fill="#71717a" font-size="12">Цель SBI Securities: 5 трлн иен (~32 млрд $) активов под управлением за 3 года после запуска</text>
+    <text x="30" y="368" fill="#71717a" font-size="12">На основе семинара Open QUICK от 10 июля 2026 года и законопроекта FIEA, одобренного кабинетом 10 апреля</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Ставки и цели указаны по данным опубликованных заявлений; законопроект и налоговая реформа всё ещё находятся на рассмотрении парламента и пока не утверждены окончательно.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">日本加密貨幣稅制改革——現行制度 vs. 改革方案</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="290" height="230" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="50" y="85" fill="#fca5a5" font-size="15" font-weight="700">現行:綜合課稅之雜項所得</text>
+    <text x="50" y="118" fill="#e4e4e7" font-size="28" font-weight="700">最高55%</text>
+    <text x="50" y="145" fill="#a1a1aa" font-size="13">國稅45%+住民稅10%</text>
+    <text x="50" y="170" fill="#a1a1aa" font-size="13">累進稅率,與其他所得合併計算</text>
+    <text x="50" y="195" fill="#a1a1aa" font-size="13">虧損不得結轉</text>
+    <text x="50" y="250" fill="#71717a" font-size="12">無法掛牌ETF(資金結算法體制)</text>
+    <rect x="380" y="55" width="290" height="230" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="400" y="85" fill="#86efac" font-size="15" font-weight="700">改革方案:分離課稅(與股票相同)</text>
+    <text x="400" y="118" fill="#e4e4e7" font-size="28" font-weight="700">約20%</text>
+    <text x="400" y="145" fill="#a1a1aa" font-size="13">固定稅率,與其他所得分開計算</text>
+    <text x="400" y="170" fill="#a1a1aa" font-size="13">須以FIEA重新分類為前提</text>
+    <text x="400" y="195" fill="#a1a1aa" font-size="13">虧損最長可結轉三年</text>
+    <text x="400" y="250" fill="#71717a" font-size="12">可掛牌ETF(最快2027年,依JPX預估)</text>
+    <text x="350" y="170" fill="#fafafa" font-size="22" text-anchor="middle">→</text>
+    <text x="30" y="345" fill="#71717a" font-size="12">SBI證券目標:商品推出後三年內管理資產達5兆日圓(約320億美元)</text>
+    <text x="30" y="368" fill="#71717a" font-size="12">依據2026年7月10日Open QUICK研討會,以及4月10日內閣通過之FIEA修正案</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">稅率與目標數字係依據媒體報導之官方發言;法案與稅制改革仍在國會審議中,尚未定案。</p>
+</div>
 
 <h2 class="ko">지켜봐야 할 것 — 장관의 '검토하겠다'와 국회 일정이라는 변수</h2>
 <h2 class="en">What to Watch — a Minister's "We Will Study It" and the Diet Calendar</h2>
