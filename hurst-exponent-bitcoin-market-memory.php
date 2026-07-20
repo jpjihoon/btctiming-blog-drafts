@@ -41,6 +41,11 @@
 <h2 class="pt">O Que É o Expoente de Hurst — Como Medir Se o Preço Tem 'Memória'</h2>
 <h2 class="tr">Hurst Üsteli Nedir — Fiyatın 'Hafızası' Olup Olmadığı Nasıl Ölçülür</h2>
 <h2 class="vi">Số Mũ Hurst Là Gì — Cách Đo Xem Giá Có 'Trí Nhớ' Hay Không</h2>
+<h2 class="id">Apa Itu Eksponen Hurst — Cara Mengukur Apakah Harga Memiliki 'Memori'</h2>
+<h2 class="pl">Czym Jest Wykładnik Hursta — Jak Zmierzyć, Czy Cena Ma 'Pamięć'</h2>
+<h2 class="it">Cos'è l'Esponente di Hurst — Come Misurare Se il Prezzo Ha una 'Memoria'</h2>
+<h2 class="ru">Что Такое Показатель Хёрста — Как Измерить, Есть Ли у Цены 'Память'</h2>
+<h2 class="zh">什麼是赫斯特指數——如何衡量價格是否具有『記憶』</h2>
 
 <p class="ko">허스트 지수는 0과 1 사이의 값을 갖는다. 계산 방식은 크게 두 갈래인데, 초기 연구들이 주로 쓴 R/S 분석(rescaled range analysis, 재조정 범위 분석)은 누적 편차의 범위를 표준편차로 나눈 값이 표본 크기에 따라 어떻게 커지는지를 관찰해 지수를 추정하고, 이후 연구들이 더 신뢰하는 DFA(detrended fluctuation analysis, 추세제거 변동분석)는 추세를 제거한 뒤 구간별 변동성이 표본 크기에 따라 어떻게 커지는지를 관찰한다. 두 방법 모두 향하는 결론은 같다 — 허스트 지수가 정확히 0.5라면, 그 시계열은 순수한 랜덤워크다. 오늘 가격이 오른 사실이 내일 가격의 방향에 대해 아무런 정보도 주지 않는다는 뜻이고, 이는 정확히 효율적 시장 가설이 말하는 상태와 같다.</p>
 <p class="en">The Hurst exponent takes a value between 0 and 1. There are broadly two ways to calculate it: earlier studies mostly used R/S analysis (rescaled range analysis), which estimates the exponent by observing how the range of cumulative deviations, divided by the standard deviation, grows as sample size increases; later studies favor DFA (detrended fluctuation analysis), which removes the trend first and then observes how segment-level fluctuation grows with sample size. Both methods point to the same conclusion: if the Hurst exponent is exactly 0.5, the series is a pure random walk. That means today's price increase carries zero information about tomorrow's direction — precisely the state described by the efficient market hypothesis.</p>

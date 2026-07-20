@@ -75,7 +75,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de fr pt tr vi">
+  <div class="en es de fr pt tr vi id pl it ru zh">
   <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="30" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Parole approval tracks order, not case content</text>
     <text x="20" y="50" fill="#71717a" font-size="13" font-family="sans-serif">Danziger, Levav &amp; Avnaim-Pesso (2011, PNAS) · 1,112 rulings, 8 judges</text>
@@ -175,6 +175,11 @@
   <h2 class="pt">O estudo foi contestado — mas a lógica da contestação importa mais</h2>
   <h2 class="tr">Bu çalışma itiraza uğradı — ama itirazın mantığı daha önemli</h2>
   <h2 class="vi">Nghiên cứu này đã bị phản bác — nhưng logic của sự phản bác mới quan trọng hơn</h2>
+  <h2 class="id">Studi ini dibantah — tetapi logika bantahannya lebih penting</h2>
+  <h2 class="pl">Badanie zakwestionowano — ale liczy się logika tej krytyki</h2>
+  <h2 class="it">Lo studio è stato contestato — ma la logica della contestazione conta di più</h2>
+  <h2 class="ru">Исследование оспорили — но логика этого возражения важнее</h2>
+  <h2 class="zh">這項研究遭到反駁——但反駁的邏輯更重要</h2>
 
   <p class="ko">같은 해 PNAS에 실린 반박(Weinshall-Margel &amp; Shapard, 2011)은 심리 순서가 무작위가 아니었다고 지적했다. 위원회는 한 교도소의 사건을 몰아서 처리한 뒤 휴식에 들어가는 방식으로 일정을 짰고, 변호인 없이 출석한 수감자(원래 승인율이 낮음)가 세션 후반에 몰리는 경향이 있었다는 것이다. 원저자들은 변호인 유무를 통제해도 패턴이 유지된다고 반박했지만, 이후 글뢰크너(Glöckner, 2016, Judgment and Decision Making)는 시뮬레이션을 통해 <strong>승인 판결은 작성 시간이 더 오래 걸리기 때문에</strong> 휴식 직전 시간대엔 물리적으로 승인이 덜 나올 수밖에 없다는, 피로와 무관한 대안 설명까지 제시했다. 이 논쟁은 아직 끝나지 않았다.</p>
   <p class="en">A rebuttal published in PNAS the same year (Weinshall-Margel &amp; Shapard, 2011) pointed out that hearing order wasn't random: the board tended to process all cases from one prison before a break, and unrepresented prisoners — who start with lower approval odds — tended to be scheduled later in each session. The original authors countered that the pattern held even after controlling for legal representation. Then Glöckner (2016, Judgment and Decision Making) ran simulations showing an alternative, fatigue-free explanation: <strong>favorable rulings simply take longer to write up</strong>, so fewer of them can physically fit into the time slot right before a break. The debate is still unresolved.</p>
