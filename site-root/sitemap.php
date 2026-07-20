@@ -39,8 +39,8 @@ $baseUrl = 'https://btctiming.com';
  * URL 엔트리 하나를 담는 배열 생성 헬퍼
  * $hreflangs: ['ko' => url, 'en' => url, 'x-default' => url] — 언어별 대응 URL (선택)
  */
-function urlEntry(string $loc, string $lastmod, string $changefreq, string $priority, array $hreflangs = []): array {
-    return compact('loc', 'lastmod', 'changefreq', 'priority', 'hreflangs');
+function urlEntry(string $loc, string $lastmod, string $changefreq, string $priority, array $hreflangs = [], string $part = ''): array {
+    return compact('loc', 'lastmod', 'changefreq', 'priority', 'hreflangs', 'part');
 }
 
 $entries = [];
@@ -68,7 +68,7 @@ foreach (SUPPORTED_LANGS as $lc => $li) {
 }
 foreach (SUPPORTED_LANGS as $lc => $li) {
     $priority = $lc === 'ko' ? '1.0' : '0.9';
-    $entries[] = urlEntry($homeHreflangs[$lc], $homeLastmod, 'daily', $priority, $homeHreflangs);
+    $entries[] = urlEntry($homeHreflangs[$lc], $homeLastmod, 'daily', $priority, $homeHreflangs, $lc);
 }
 
 // ── 2) 블로그 목록 (카테고리 필터 없는 전체 목록) ──
@@ -87,7 +87,7 @@ if (file_exists($blogIndexFile)) {
     }
     foreach (SUPPORTED_LANGS as $lc => $li) {
         $priority = $lc === 'ko' ? '0.8' : '0.7';
-        $entries[] = urlEntry($blogHreflangs[$lc], $blogLastmod, 'weekly', $priority, $blogHreflangs);
+        $entries[] = urlEntry($blogHreflangs[$lc], $blogLastmod, 'weekly', $priority, $blogHreflangs, $lc);
     }
 }
 
@@ -121,7 +121,7 @@ if (file_exists($catMetaFile) && file_exists($metaFileForCats)) {
         }
         foreach (SUPPORTED_LANGS as $lc => $li) {
             $priority = $lc === 'ko' ? '0.7' : '0.6';
-            $entries[] = urlEntry($catHreflangs[$lc], $lastmod, 'weekly', $priority, $catHreflangs);
+            $entries[] = urlEntry($catHreflangs[$lc], $lastmod, 'weekly', $priority, $catHreflangs, $lc);
         }
     }
 }
@@ -152,7 +152,7 @@ if (file_exists($metaFile)) {
         }
         foreach ($availableLangs as $lc) {
             $priority = $lc === 'ko' ? '0.7' : '0.6';
-            $entries[] = urlEntry($hreflangs[$lc], $date, 'monthly', $priority, $hreflangs);
+            $entries[] = urlEntry($hreflangs[$lc], $date, 'monthly', $priority, $hreflangs, $lc);
         }
     }
 }
@@ -183,7 +183,7 @@ foreach ($staticPages as $sp) {
     }
     foreach (SUPPORTED_LANGS as $lc => $li) {
         $priority = $lc === 'ko' ? $sp['priority'] : number_format((float)$sp['priority'] - 0.1, 1);
-        $entries[] = urlEntry($spHreflangs[$lc], $lastmod, 'yearly', $priority, $spHreflangs);
+        $entries[] = urlEntry($spHreflangs[$lc], $lastmod, 'yearly', $priority, $spHreflangs, $lc);
     }
 }
 
@@ -200,30 +200,54 @@ if (file_exists($__glossaryFile)) {
         }
         foreach (SUPPORTED_LANGS as $lc => $li) {
             $priority = $lc === 'ko' ? '0.5' : '0.4';
-            $entries[] = urlEntry($__glHreflangs[$lc], $__glLastmod, 'monthly', $priority, $__glHreflangs);
+            $entries[] = urlEntry($__glHreflangs[$lc], $__glLastmod, 'monthly', $priority, $__glHreflangs, $lc);
         }
     }
 }
 
-// ── XML 출력 (xhtml 네임스페이스로 hreflang 대응 링크 포함) ──
-echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
-// 이 한 줄 덕분에 브라우저에서 열면 sitemap.xsl로 예쁜 표 형태로 보임.
-// 검색엔진(구글봇 등)은 이 지시문을 무시하고 원본 XML 데이터만 그대로 읽습니다.
-echo '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>' . "\n";
-echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">' . "\n";
+// ── 사이트맵 인덱스 / 언어별 자식 사이트맵 출력 ──
+// /sitemap.php            → 사이트맵 인덱스(언어별 자식 목록)
+// /sitemap.php?part={lang} → 해당 언어 URL 묶음(urlset)
+// 15,000+ URL 한 파일(27MB) → 언어별로 쪼개면 Search Console 가 언어별 색인 현황을 따로 보여줌.
+$__parts = [];
+$__partLastmod = [];
 foreach ($entries as $e) {
-    echo "  <url>\n";
-    echo "    <loc>" . htmlspecialchars($e['loc'], ENT_XML1) . "</loc>\n";
-    echo "    <lastmod>" . $e['lastmod'] . "</lastmod>\n";
-    echo "    <changefreq>" . $e['changefreq'] . "</changefreq>\n";
-    echo "    <priority>" . $e['priority'] . "</priority>\n";
-    foreach ($e['hreflangs'] as $lang => $url) {
-        // ★ 2026-07-17: 배열 키(URL용 코드)가 아니라 hreflang 값을 출력한다.
-        //   'x-default' 는 언어 코드가 아니므로 hreflangOf() 가 그대로 돌려준다(안전망).
-        //   이걸 안 하면 zh 가 'zh'(중국어 전반)로, pt 가 'pt'(유럽 포르투갈어)로 나간다.
-        $hl = ($lang === 'x-default') ? 'x-default' : hreflangOf($lang);
-        echo '    <xhtml:link rel="alternate" hreflang="' . $hl . '" href="' . htmlspecialchars($url, ENT_XML1) . '"/>' . "\n";
-    }
-    echo "  </url>\n";
+    $pk = $e['part'] !== '' ? $e['part'] : 'ko';
+    $__parts[$pk][] = $e;
+    if (!isset($__partLastmod[$pk]) || $e['lastmod'] > $__partLastmod[$pk]) $__partLastmod[$pk] = $e['lastmod'];
 }
-echo '</urlset>' . "\n";
+// 언어 순서는 SUPPORTED_LANGS 순서(ko 먼저)
+$__partOrder = array_values(array_filter(array_keys(SUPPORTED_LANGS), fn($lc) => isset($__parts[$lc])));
+$__reqPart = $_GET['part'] ?? '';
+$__validPart = ($__reqPart !== '' && isset($__parts[$__reqPart])) ? $__reqPart : '';
+
+echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+
+if ($__validPart === '') {
+    // 사이트맵 인덱스
+    echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+    foreach ($__partOrder as $pk) {
+        echo "  <sitemap>\n";
+        echo "    <loc>" . htmlspecialchars($baseUrl . '/sitemap.php?part=' . $pk, ENT_XML1) . "</loc>\n";
+        echo "    <lastmod>" . $__partLastmod[$pk] . "</lastmod>\n";
+        echo "  </sitemap>\n";
+    }
+    echo '</sitemapindex>' . "\n";
+} else {
+    // 언어별 자식 사이트맵(urlset)
+    echo '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>' . "\n";
+    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">' . "\n";
+    foreach ($__parts[$__validPart] as $e) {
+        echo "  <url>\n";
+        echo "    <loc>" . htmlspecialchars($e['loc'], ENT_XML1) . "</loc>\n";
+        echo "    <lastmod>" . $e['lastmod'] . "</lastmod>\n";
+        echo "    <changefreq>" . $e['changefreq'] . "</changefreq>\n";
+        echo "    <priority>" . $e['priority'] . "</priority>\n";
+        foreach ($e['hreflangs'] as $lang => $url) {
+            $hl = ($lang === 'x-default') ? 'x-default' : hreflangOf($lang);
+            echo '    <xhtml:link rel="alternate" hreflang="' . $hl . '" href="' . htmlspecialchars($url, ENT_XML1) . '"/>' . "\n";
+        }
+        echo "  </url>\n";
+    }
+    echo '</urlset>' . "\n";
+}
