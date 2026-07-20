@@ -65,5 +65,40 @@
   "h1_vi": "Crypto chi 189 triệu $ cho<br>bầu cử giữa kỳ Mỹ 2026",
   "bc_vi": "Chi tiêu bầu cử 189 triệu $ của crypto",
   "desc_vi": "Các công ty crypto chi khoảng 189 triệu USD cho bầu cử giữa kỳ Mỹ 2026, chiếm 37% tiền chính trị doanh nghiệp được ghi nhận, theo thống kê của Public Citizen. Ripple, Crypto.com và Coinbase dẫn đầu các nhà tài trợ.",
-  "read_vi": "8"
+  "read_vi": "8",
+
+  "tag_id": "UANG POLITIK",
+  "title_id": "Kripto Gelontorkan $189 Juta ke Pemilu Paruh Waktu AS 2026 — 37% Dana Korporat",
+  "h1_id": "Kripto Gelontorkan $189 Juta<br>ke Pemilu Paruh Waktu AS 2026",
+  "bc_id": "Belanja Pemilu Kripto $189 Juta",
+  "desc_id": "Perusahaan kripto keluarkan $189 juta untuk pemilu AS 2026, 37% dana politik korporat, kata Public Citizen. Ripple, Crypto.com, Coinbase pemimpin donatur.",
+  "read_id": "8",
+
+  "tag_pl": "PIENIĄDZE POLITYCZNE",
+  "title_pl": "Krypto wydało 189 mln $ na wybory śródokresowe USA 2026 — 37% pieniędzy korporacyjnych",
+  "h1_pl": "Krypto wydało 189 mln $<br>na wybory śródokresowe USA 2026",
+  "bc_pl": "Wydatki wyborcze krypto: 189 mln $",
+  "desc_pl": "Firmy kryptowalutowe wydały 189 mln $ na wybory USA 2026, 37% pieniędzy korporacyjnych, wg Public Citizen. Ripple, Crypto.com i Coinbase liderami donacji.",
+  "read_pl": "8",
+
+  "tag_it": "DENARO POLITICO",
+  "title_it": "Il crypto ha messo 189 milioni $ nelle elezioni di midterm USA 2026 — 37% del denaro aziendale",
+  "h1_it": "Il crypto ha messo 189 mln $<br>nelle elezioni di midterm USA 2026",
+  "bc_it": "Spesa elettorale crypto da 189 mln $",
+  "desc_it": "Le aziende crypto hanno speso 189 milioni $ nel midterm USA 2026, il 37% del denaro aziendale, dice Public Citizen. Ripple, Crypto.com e Coinbase in testa.",
+  "read_it": "8",
+
+  "tag_ru": "ПОЛИТИЧЕСКИЕ ДЕНЬГИ",
+  "title_ru": "Крипто вложило $189 млн в промежуточные выборы США 2026 — 37% корпоративных денег",
+  "h1_ru": "Крипто вложило $189 млн<br>в промежуточные выборы США 2026",
+  "bc_ru": "Крипто потратило $189 млн на выборы",
+  "desc_ru": "Криптокомпании потратили $189 млн на выборы США 2026, 37% корпоративных денег, по данным Public Citizen. Ripple, Crypto.com и Coinbase — крупнейшие доноры.",
+  "read_ru": "8",
+
+  "tag_zh": "政治獻金",
+  "title_zh": "加密貨幣砸1.89億美元進2026美國期中選舉 — 佔企業政治獻金37%",
+  "h1_zh": "加密貨幣砸1.89億美元<br>進2026美國期中選舉",
+  "bc_zh": "加密貨幣1.89億美元選舉支出",
+  "desc_zh": "根據監督團體Public Citizen的統計,加密貨幣公司在2026年美國期中選舉共支出約1.89億美元,佔已追蹤企業政治獻金的37%,創下單一產業紀錄。Ripple、Crypto.com與Coinbase是最大捐助者,合計逾七成總支出。",
+  "read_zh": "8"
 }
