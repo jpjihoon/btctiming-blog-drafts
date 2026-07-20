@@ -432,6 +432,171 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Linimasa PoC Toss × Optimism · Peta Jalan Validasi 3 Bulan</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Linimasa Terkini</text>
+      <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="110" cy="110" r="8" fill="#4ade80"/>
+      <text x="110" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">8 Jul</text>
+      <text x="110" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">Kesepakatan Toss-Optimism</text>
+      <text x="110" y="90" fill="#71717a" font-size="11" text-anchor="middle">PoC 3 bulan dimulai</text>
+      <circle cx="320" cy="110" r="8" fill="#f87171"/>
+      <text x="320" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">9 Jul</text>
+      <text x="320" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">BOK tegaskan kembali aturan 51%</text>
+      <text x="320" y="90" fill="#71717a" font-size="11" text-anchor="middle">Diserahkan ke Majelis</text>
+      <circle cx="520" cy="110" r="8" fill="#facc15"/>
+      <text x="520" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">~Okt</text>
+      <text x="520" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">PoC selesai (perkiraan)</text>
+      <text x="520" y="90" fill="#71717a" font-size="11" text-anchor="middle">3 poin validasi dinilai</text>
+      <circle cx="620" cy="110" r="9" fill="#38bdf8" stroke="#fafafa" stroke-width="2"/>
+      <text x="620" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">H2</text>
+      <text x="600" y="158" fill="#38bdf8" font-size="12" text-anchor="middle" font-weight="800">UU Dasar diajukan lagi</text>
+
+      <text x="20" y="210" fill="#a1a1aa" font-size="13" font-weight="700">② Adopsi OP Stack (per Q1 2026)</text>
+      <rect x="80" y="235" width="8" height="28" fill="#4ade80"/>
+      <text x="98" y="254" fill="#fafafa" font-size="13" font-weight="700">PoC Toss: 1 kesepakatan (stablecoin won)</text>
+      <rect x="80" y="285" width="380" height="28" fill="#38bdf8"/>
+      <text x="98" y="304" fill="#111113" font-size="13" font-weight="800">Rantai di OP Stack: 30+</text>
+      <rect x="80" y="335" width="600" height="28" fill="#a78bfa"/>
+      <text x="98" y="354" fill="#111113" font-size="13" font-weight="800">Pangsa aktivitas L2 di OP Stack: 60%+</text>
+      <text x="80" y="390" fill="#71717a" font-size="12">Di atas infrastruktur yang telah teruji oleh Base, World Chain, dan Soneium, Toss terutama perlu memvalidasi satu lapisan tambahan: privasi yang ramah regulator.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Oś Czasu PoC Toss × Optimism · Plan Walidacji na 3 Miesiące</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Ostatnia Oś Czasu</text>
+      <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="110" cy="110" r="8" fill="#4ade80"/>
+      <text x="110" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">8 lip</text>
+      <text x="110" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">Umowa Toss-Optimism</text>
+      <text x="110" y="90" fill="#71717a" font-size="11" text-anchor="middle">Start 3-miesięcznego PoC</text>
+      <circle cx="320" cy="110" r="8" fill="#f87171"/>
+      <text x="320" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">9 lip</text>
+      <text x="320" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">BOK potwierdza zasadę 51%</text>
+      <text x="320" y="90" fill="#71717a" font-size="11" text-anchor="middle">Złożono w Zgromadzeniu</text>
+      <circle cx="520" cy="110" r="8" fill="#facc15"/>
+      <text x="520" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">~Paź</text>
+      <text x="520" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">Koniec PoC (szac.)</text>
+      <text x="520" y="90" fill="#71717a" font-size="11" text-anchor="middle">Ocena 3 punktów walidacji</text>
+      <circle cx="620" cy="110" r="9" fill="#38bdf8" stroke="#fafafa" stroke-width="2"/>
+      <text x="620" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">H2</text>
+      <text x="600" y="158" fill="#38bdf8" font-size="12" text-anchor="middle" font-weight="800">Powrót ustawy podstawowej</text>
+
+      <text x="20" y="210" fill="#a1a1aa" font-size="13" font-weight="700">② Wdrożenie OP Stack (stan na I kw. 2026)</text>
+      <rect x="80" y="235" width="8" height="28" fill="#4ade80"/>
+      <text x="98" y="254" fill="#fafafa" font-size="13" font-weight="700">PoC Toss: 1 umowa (stablecoin won)</text>
+      <rect x="80" y="285" width="380" height="28" fill="#38bdf8"/>
+      <text x="98" y="304" fill="#111113" font-size="13" font-weight="800">Łańcuchy na OP Stack: 30+</text>
+      <rect x="80" y="335" width="600" height="28" fill="#a78bfa"/>
+      <text x="98" y="354" fill="#111113" font-size="13" font-weight="800">Udział OP Stack w aktywności L2: 60%+</text>
+      <text x="80" y="390" fill="#71717a" font-size="12">Na infrastrukturze już sprawdzonej przez Base, World Chain i Soneium, Toss musi zwalidować głównie jedną dodatkową warstwę: prywatność przyjazną regulatorom.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Cronologia PoC Toss × Optimism · Roadmap di Validazione di 3 Mesi</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Cronologia Recente</text>
+      <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="110" cy="110" r="8" fill="#4ade80"/>
+      <text x="110" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">8 lug</text>
+      <text x="110" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">Accordo Toss-Optimism</text>
+      <text x="110" y="90" fill="#71717a" font-size="11" text-anchor="middle">Inizio PoC di 3 mesi</text>
+      <circle cx="320" cy="110" r="8" fill="#f87171"/>
+      <text x="320" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">9 lug</text>
+      <text x="320" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">BOK ribadisce regola 51%</text>
+      <text x="320" y="90" fill="#71717a" font-size="11" text-anchor="middle">Presentato all'Assemblea</text>
+      <circle cx="520" cy="110" r="8" fill="#facc15"/>
+      <text x="520" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">~Ott</text>
+      <text x="520" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">PoC si conclude (stim.)</text>
+      <text x="520" y="90" fill="#71717a" font-size="11" text-anchor="middle">3 punti di validazione valutati</text>
+      <circle cx="620" cy="110" r="9" fill="#38bdf8" stroke="#fafafa" stroke-width="2"/>
+      <text x="620" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">H2</text>
+      <text x="600" y="158" fill="#38bdf8" font-size="12" text-anchor="middle" font-weight="800">Legge di base rilanciata</text>
+
+      <text x="20" y="210" fill="#a1a1aa" font-size="13" font-weight="700">② Adozione di OP Stack (T1 2026)</text>
+      <rect x="80" y="235" width="8" height="28" fill="#4ade80"/>
+      <text x="98" y="254" fill="#fafafa" font-size="13" font-weight="700">PoC Toss: 1 accordo (stablecoin won)</text>
+      <rect x="80" y="285" width="380" height="28" fill="#38bdf8"/>
+      <text x="98" y="304" fill="#111113" font-size="13" font-weight="800">Catene su OP Stack: 30+</text>
+      <rect x="80" y="335" width="600" height="28" fill="#a78bfa"/>
+      <text x="98" y="354" fill="#111113" font-size="13" font-weight="800">Quota attività L2 su OP Stack: 60%+</text>
+      <text x="80" y="390" fill="#71717a" font-size="12">Su un'infrastruttura già collaudata da Base, World Chain e Soneium, Toss deve validare principalmente uno strato aggiuntivo: la privacy verso i regolatori.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Хронология PoC Toss × Optimism · Дорожная карта проверки на 3 месяца</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① Недавние события</text>
+      <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="110" cy="110" r="8" fill="#4ade80"/>
+      <text x="110" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">8 июл</text>
+      <text x="110" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">Сделка Toss-Optimism</text>
+      <text x="110" y="90" fill="#71717a" font-size="11" text-anchor="middle">Старт 3-месячного PoC</text>
+      <circle cx="320" cy="110" r="8" fill="#f87171"/>
+      <text x="320" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">9 июл</text>
+      <text x="320" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">БК подтверждает правило 51%</text>
+      <text x="320" y="90" fill="#71717a" font-size="11" text-anchor="middle">Подано в Нацсобрание</text>
+      <circle cx="520" cy="110" r="8" fill="#facc15"/>
+      <text x="520" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">~Окт</text>
+      <text x="520" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">PoC завершится (оценка)</text>
+      <text x="520" y="90" fill="#71717a" font-size="11" text-anchor="middle">Оценка 3 точек проверки</text>
+      <circle cx="620" cy="110" r="9" fill="#38bdf8" stroke="#fafafa" stroke-width="2"/>
+      <text x="620" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">H2</text>
+      <text x="600" y="158" fill="#38bdf8" font-size="12" text-anchor="middle" font-weight="800">Возврат к основному закону</text>
+
+      <text x="20" y="210" fill="#a1a1aa" font-size="13" font-weight="700">② Внедрение OP Stack (на 1 кв. 2026)</text>
+      <rect x="80" y="235" width="8" height="28" fill="#4ade80"/>
+      <text x="98" y="254" fill="#fafafa" font-size="13" font-weight="700">PoC Toss: 1 сделка (вон-стейблкоин)</text>
+      <rect x="80" y="285" width="380" height="28" fill="#38bdf8"/>
+      <text x="98" y="304" fill="#111113" font-size="13" font-weight="800">Сети на OP Stack: 30+</text>
+      <rect x="80" y="335" width="600" height="28" fill="#a78bfa"/>
+      <text x="98" y="354" fill="#111113" font-size="13" font-weight="800">Доля OP Stack в активности L2: 60%+</text>
+      <text x="80" y="390" fill="#71717a" font-size="12">На инфраструктуре, уже проверенной Base, World Chain и Soneium, компании Toss в основном нужно проверить один дополнительный слой: конфиденциальность для регуляторов.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">Toss × Optimism PoC時間軸‧3個月驗證路線圖</text>
+    <g font-family="sans-serif">
+      <text x="20" y="55" fill="#a1a1aa" font-size="13" font-weight="700">① 近期時間軸</text>
+      <line x1="70" y1="110" x2="630" y2="110" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+      <circle cx="110" cy="110" r="8" fill="#4ade80"/>
+      <text x="110" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">7/8</text>
+      <text x="110" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">Toss‧Optimism協議</text>
+      <text x="110" y="90" fill="#71717a" font-size="11" text-anchor="middle">3個月PoC啟動</text>
+      <circle cx="320" cy="110" r="8" fill="#f87171"/>
+      <text x="320" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">7/9</text>
+      <text x="320" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">韓國銀行重申51%規則</text>
+      <text x="320" y="90" fill="#71717a" font-size="11" text-anchor="middle">提交國會</text>
+      <circle cx="520" cy="110" r="8" fill="#facc15"/>
+      <text x="520" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">~10月</text>
+      <text x="520" y="158" fill="#fafafa" font-size="12" text-anchor="middle" font-weight="700">PoC結束(預估)</text>
+      <text x="520" y="90" fill="#71717a" font-size="11" text-anchor="middle">3項驗證重點結果</text>
+      <circle cx="620" cy="110" r="9" fill="#38bdf8" stroke="#fafafa" stroke-width="2"/>
+      <text x="620" y="140" fill="#a1a1aa" font-size="12" text-anchor="middle">下半年</text>
+      <text x="600" y="158" fill="#38bdf8" font-size="12" text-anchor="middle" font-weight="800">基本法再推進</text>
+
+      <text x="20" y="210" fill="#a1a1aa" font-size="13" font-weight="700">② OP Stack採用現況(截至2026年第一季)</text>
+      <rect x="80" y="235" width="8" height="28" fill="#4ade80"/>
+      <text x="98" y="254" fill="#fafafa" font-size="13" font-weight="700">Toss PoC:1件協議(韓元穩定幣)</text>
+      <rect x="80" y="285" width="380" height="28" fill="#38bdf8"/>
+      <text x="98" y="304" fill="#111113" font-size="13" font-weight="800">採用OP Stack的鏈:30條以上</text>
+      <rect x="80" y="335" width="600" height="28" fill="#a78bfa"/>
+      <text x="98" y="354" fill="#111113" font-size="13" font-weight="800">OP Stack佔L2整體活動比重:60%以上</text>
+      <text x="80" y="390" fill="#71717a" font-size="12">在Base、World Chain與Soneium已驗證過的基礎設施之上,Toss主要只需再驗證一層:面向監管機構的隱私保護。</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">비판적 시각 — PoC 성공이 곧 상용화를 뜻하지 않는다</h2>
   <h2 class="en">A Skeptic's View: A Successful PoC Doesn't Mean Commercial Launch</h2>
@@ -442,6 +607,11 @@
   <h2 class="pt">Uma Visão Cética: Um PoC Bem-Sucedido Não Significa Lançamento Comercial</h2>
   <h2 class="tr">Şüpheci Bir Bakış: Başarılı Bir PoC Ticari Lansman Anlamına Gelmez</h2>
   <h2 class="vi">Góc Nhìn Hoài Nghi: PoC Thành Công Không Đồng Nghĩa Với Ra Mắt Thương Mại</h2>
+  <h2 class="id">Pandangan Skeptis: PoC yang Berhasil Tidak Berarti Peluncuran Komersial</h2>
+  <h2 class="pl">Spojrzenie Sceptyka: Udany PoC Nie Oznacza Komercyjnego Startu</h2>
+  <h2 class="it">Uno Sguardo Scettico: Un PoC Riuscito Non Significa Lancio Commerciale</h2>
+  <h2 class="ru">Взгляд Скептика: Успешный PoC Не Означает Коммерческий Запуск</h2>
+  <h2 class="zh">懷疑論觀點:PoC成功不等於商業化上線</h2>
 
   <p class="ko">낙관적 해석만 경계할 필요가 있다. 기술 실증이 성공한다고 해서 법이 자동으로 통과되는 것은 아니다. 디지털자산기본법은 이미 여러 차례 국회 일정에서 밀려 하반기로 넘어간 상태이고, 은행권과 핀테크 업계의 이해관계가 첨예하게 갈리는 51% 조항은 여야 합의가 쉽지 않은 사안이다. 게다가 옵티미즘의 OP스택 자체도 완전히 검증된 것은 아니다 — 슈퍼체인 생태계는 시퀀서 수익성 문제를 안고 있고, 실제로 지난 7월 7일 아비트럼·옵티미즘 등 주요 이더리움 L2 토큰들이 사상 최저치 근처로 밀린 바 있다. 네트워크 사용량은 최고 수준이지만 수수료가 덴쿤 업그레이드 이후 95% 넘게 급락하며 L2 토큰의 수익모델 자체에 대한 의문이 커진 시점이라는 점도 감안해야 한다.</p>
   <p class="en">Optimism deserves tempering. A successful technical trial doesn't automatically translate into a passed law. The Digital Asset Basic Act has already been pushed back on the National Assembly's calendar multiple times into the second half of the year, and the 51% clause — where the interests of banks and fintechs sharply diverge — is not an easy issue for the ruling and opposition parties to agree on. On top of that, Optimism's OP Stack itself is not fully proven, either: the Superchain ecosystem faces sequencer-profitability questions, and just on July 7, major Ethereum L2 tokens including Arbitrum and Optimism were pushed near record lows. Network usage is at all-time highs, but fees have collapsed more than 95% since the Dencun upgrade, raising real doubts about the revenue model behind L2 tokens themselves — a backdrop worth keeping in mind.</p>

@@ -381,6 +381,126 @@
   </svg>
   <p style="font-size:11px;color:#52525b;margin-top:-10px">Dựa trên CoinDesk, The Block, thông báo chính thức của Swift (9/7) và Ledger Insights. Tốc độ thanh toán cuối cùng thực tế có thể khác nhau tùy theo giờ hoạt động RTGS của từng quốc gia.</p>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Perbankan koresponden tradisional vs. buku besar bersama Swift — apa yang sebenarnya 24/7</text>
+    <text x="24" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">Tahap "pemesanan/validasi" berbeda dari tahap "penyelesaian akhir"</text>
+    <g font-family="sans-serif">
+      <text x="24" y="90" fill="#e4e4e7" font-size="13" font-weight="700">Perbankan koresponden tradisional</text>
+      <rect x="24" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <rect x="304" y="100" width="112" height="26" rx="4" fill="#3f3f46"/>
+      <rect x="416" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <text x="360" y="118" fill="#e4e4e7" text-anchor="middle" font-size="12">Akhir pekan: offline</text>
+      <text x="24" y="150" fill="#71717a" font-size="12">Pembayaran hanya diproses Sen-Jum jam kerja (berhenti malam/akhir pekan)</text>
+      <text x="24" y="188" fill="#e4e4e7" font-size="13" font-weight="700">Buku besar bersama Swift (komitmen tertokenisasi)</text>
+      <rect x="24" y="198" width="672" height="26" rx="4" fill="#06b6d4" opacity="0.85"/>
+      <text x="360" y="216" fill="#0a0a0a" text-anchor="middle" font-size="12" font-weight="700">Pencatatan dan validasi komitmen pembayaran 24/7 (selalu aktif)</text>
+      <text x="24" y="248" fill="#71717a" font-size="12">Tapi transfer akhir dana sebenarnya di baliknya masih bisa bergantung pada jam RTGS tiap negara</text>
+      <rect x="24" y="270" width="652" height="70" rx="9" fill="#1c1c1f" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="350" y="298" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">17 bank peserta &#183; enam benua</text>
+      <text x="350" y="320" fill="#e4e4e7" text-anchor="middle" font-size="12">HSBC, Citi, UBS, DBS, Standard Chartered, Wells Fargo, BNP Paribas, MUFG, ANZ, BNY, dan lainnya</text>
+      <rect x="24" y="356" width="652" height="56" rx="8" fill="#0e2a19" stroke="#22c55e" stroke-width="1.2"/>
+      <text x="350" y="390" fill="#86efac" text-anchor="middle" font-size="13" font-weight="700">~9 bulan pengembangan &#183; dinyatakan siap untuk digunakan awal pada Juli 2026</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Berdasarkan CoinDesk, The Block, pengumuman resmi Swift (9 Juli), dan Ledger Insights. Kecepatan penyelesaian akhir sebenarnya dapat bervariasi menurut jam operasional RTGS tiap negara.</p>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Tradycyjna bankowość korespondencka a wspólna księga Swift — co naprawdę działa 24/7</text>
+    <text x="24" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">Etap „zlecenie/weryfikacja” różni się od etapu „ostateczne rozliczenie”</text>
+    <g font-family="sans-serif">
+      <text x="24" y="90" fill="#e4e4e7" font-size="13" font-weight="700">Tradycyjna bankowość korespondencka</text>
+      <rect x="24" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <rect x="304" y="100" width="112" height="26" rx="4" fill="#3f3f46"/>
+      <rect x="416" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <text x="360" y="118" fill="#e4e4e7" text-anchor="middle" font-size="12">Weekend: offline</text>
+      <text x="24" y="150" fill="#71717a" font-size="12">Płatności przetwarzane tylko pon-pt w godzinach pracy (wstrzymane w nocy/weekendy)</text>
+      <text x="24" y="188" fill="#e4e4e7" font-size="13" font-weight="700">Wspólna księga Swift (tokenizowane zobowiązania)</text>
+      <rect x="24" y="198" width="672" height="26" rx="4" fill="#06b6d4" opacity="0.85"/>
+      <text x="360" y="216" fill="#0a0a0a" text-anchor="middle" font-size="12" font-weight="700">Rejestracja i weryfikacja zobowiązań płatniczych 24/7 (zawsze aktywne)</text>
+      <text x="24" y="248" fill="#71717a" font-size="12">Lecz rzeczywisty ostateczny transfer środków może wciąż zależeć od godzin RTGS danego kraju</text>
+      <rect x="24" y="270" width="652" height="70" rx="9" fill="#1c1c1f" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="350" y="298" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">17 uczestniczących banków &#183; sześć kontynentów</text>
+      <text x="350" y="320" fill="#e4e4e7" text-anchor="middle" font-size="12">HSBC, Citi, UBS, DBS, Standard Chartered, Wells Fargo, BNP Paribas, MUFG, ANZ, BNY i więcej</text>
+      <rect x="24" y="356" width="652" height="56" rx="8" fill="#0e2a19" stroke="#22c55e" stroke-width="1.2"/>
+      <text x="350" y="390" fill="#86efac" text-anchor="middle" font-size="13" font-weight="700">~9 miesięcy rozwoju &#183; ogłoszono gotowość do wstępnego użytku w lipcu 2026</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Na podstawie CoinDesk, The Block, oficjalnego ogłoszenia Swift (9 lipca) oraz Ledger Insights. Rzeczywista szybkość ostatecznego rozliczenia może się różnić w zależności od godzin działania RTGS w danym kraju.</p>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Corrispondenza bancaria tradizionale vs. registro condiviso di Swift — cosa è davvero 24/7</text>
+    <text x="24" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">La fase "ordine/convalida" è diversa dalla fase "regolamento finale"</text>
+    <g font-family="sans-serif">
+      <text x="24" y="90" fill="#e4e4e7" font-size="13" font-weight="700">Corrispondenza bancaria tradizionale</text>
+      <rect x="24" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <rect x="304" y="100" width="112" height="26" rx="4" fill="#3f3f46"/>
+      <rect x="416" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <text x="360" y="118" fill="#e4e4e7" text-anchor="middle" font-size="12">Weekend: offline</text>
+      <text x="24" y="150" fill="#71717a" font-size="12">I pagamenti vengono elaborati solo lun-ven in orario lavorativo (sospesi di notte/nel weekend)</text>
+      <text x="24" y="188" fill="#e4e4e7" font-size="13" font-weight="700">Registro condiviso Swift (impegni tokenizzati)</text>
+      <rect x="24" y="198" width="672" height="26" rx="4" fill="#06b6d4" opacity="0.85"/>
+      <text x="360" y="216" fill="#0a0a0a" text-anchor="middle" font-size="12" font-weight="700">Registrazione e convalida 24/7 degli impegni di pagamento (sempre attivo)</text>
+      <text x="24" y="248" fill="#71717a" font-size="12">Ma l'effettivo trasferimento finale dei fondi sottostante può ancora dipendere dagli orari RTGS di ciascun paese</text>
+      <rect x="24" y="270" width="652" height="70" rx="9" fill="#1c1c1f" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="350" y="298" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">17 banche partecipanti &#183; sei continenti</text>
+      <text x="350" y="320" fill="#e4e4e7" text-anchor="middle" font-size="12">HSBC, Citi, UBS, DBS, Standard Chartered, Wells Fargo, BNP Paribas, MUFG, ANZ, BNY e altre</text>
+      <rect x="24" y="356" width="652" height="56" rx="8" fill="#0e2a19" stroke="#22c55e" stroke-width="1.2"/>
+      <text x="350" y="390" fill="#86efac" text-anchor="middle" font-size="13" font-weight="700">~9 mesi di sviluppo &#183; dichiarato pronto per un primo utilizzo a luglio 2026</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">Basato su CoinDesk, The Block, l'annuncio ufficiale di Swift (9 luglio) e Ledger Insights. La velocità effettiva del regolamento finale può variare in base agli orari operativi RTGS di ciascun paese.</p>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Традиционный корреспондентский банкинг против общего реестра Swift — что на самом деле работает 24/7</text>
+    <text x="24" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">Этап «оформление/проверка» отличается от этапа «окончательный расчёт»</text>
+    <g font-family="sans-serif">
+      <text x="24" y="90" fill="#e4e4e7" font-size="13" font-weight="700">Традиционный корреспондентский банкинг</text>
+      <rect x="24" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <rect x="304" y="100" width="112" height="26" rx="4" fill="#3f3f46"/>
+      <rect x="416" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <text x="360" y="118" fill="#e4e4e7" text-anchor="middle" font-size="12">Выходные: офлайн</text>
+      <text x="24" y="150" fill="#71717a" font-size="12">Платежи обрабатываются только пн-пт в рабочие часы (приостановка ночью/по выходным)</text>
+      <text x="24" y="188" fill="#e4e4e7" font-size="13" font-weight="700">Общий реестр Swift (токенизированные обязательства)</text>
+      <rect x="24" y="198" width="672" height="26" rx="4" fill="#06b6d4" opacity="0.85"/>
+      <text x="360" y="216" fill="#0a0a0a" text-anchor="middle" font-size="12" font-weight="700">Круглосуточная фиксация и проверка платёжных обязательств (всегда активно)</text>
+      <text x="24" y="248" fill="#71717a" font-size="12">Но фактический окончательный перевод средств за ними всё ещё может зависеть от часов работы RTGS каждой страны</text>
+      <rect x="24" y="270" width="652" height="70" rx="9" fill="#1c1c1f" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="350" y="298" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">17 банков-участников &#183; шесть континентов</text>
+      <text x="350" y="320" fill="#e4e4e7" text-anchor="middle" font-size="12">HSBC, Citi, UBS, DBS, Standard Chartered, Wells Fargo, BNP Paribas, MUFG, ANZ, BNY и другие</text>
+      <rect x="24" y="356" width="652" height="56" rx="8" fill="#0e2a19" stroke="#22c55e" stroke-width="1.2"/>
+      <text x="350" y="390" fill="#86efac" text-anchor="middle" font-size="13" font-weight="700">~9 месяцев разработки &#183; объявлено готовым к первоначальному использованию в июле 2026</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">На основе CoinDesk, The Block, официального заявления Swift (9 июля) и Ledger Insights. Фактическая скорость окончательного расчёта может варьироваться в зависимости от часов работы RTGS в каждой стране.</p>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="24" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">傳統代理銀行業務 vs. Swift共享帳本 — 究竟什麼才是真正的全天候</text>
+    <text x="24" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">「下單/驗證」階段與「最終結算」階段並不相同</text>
+    <g font-family="sans-serif">
+      <text x="24" y="90" fill="#e4e4e7" font-size="13" font-weight="700">傳統代理銀行業務</text>
+      <rect x="24" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <rect x="304" y="100" width="112" height="26" rx="4" fill="#3f3f46"/>
+      <rect x="416" y="100" width="280" height="26" rx="4" fill="#22c55e" opacity="0.85"/>
+      <text x="360" y="118" fill="#e4e4e7" text-anchor="middle" font-size="12">週末:離線</text>
+      <text x="24" y="150" fill="#71717a" font-size="12">支付僅在週一至週五營業時間內處理(夜間/週末暫停)</text>
+      <text x="24" y="188" fill="#e4e4e7" font-size="13" font-weight="700">Swift共享帳本(代幣化承諾)</text>
+      <rect x="24" y="198" width="672" height="26" rx="4" fill="#06b6d4" opacity="0.85"/>
+      <text x="360" y="216" fill="#0a0a0a" text-anchor="middle" font-size="12" font-weight="700">全天候記錄與驗證支付承諾(全程運作)</text>
+      <text x="24" y="248" fill="#71717a" font-size="12">但其背後實際的資金最終轉移,仍可能取決於各國的RTGS運作時間</text>
+      <rect x="24" y="270" width="652" height="70" rx="9" fill="#1c1c1f" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="350" y="298" fill="#fbbf24" text-anchor="middle" font-size="13" font-weight="700">17家參與銀行 &#183; 六大洲</text>
+      <text x="350" y="320" fill="#e4e4e7" text-anchor="middle" font-size="12">HSBC、花旗、瑞銀、星展銀行、渣打銀行、富國銀行、法國巴黎銀行、MUFG、澳新銀行、紐約梅隆銀行等</text>
+      <rect x="24" y="356" width="652" height="56" rx="8" fill="#0e2a19" stroke="#22c55e" stroke-width="1.2"/>
+      <text x="350" y="390" fill="#86efac" text-anchor="middle" font-size="13" font-weight="700">約9個月開發時間 &#183; 於2026年7月宣布準備好投入初期使用</text>
+    </g>
+  </svg>
+  <p style="font-size:11px;color:#52525b;margin-top:-10px">根據CoinDesk、The Block、Swift官方公告(7月9日)及Ledger Insights整理。實際最終結算速度可能因各國RTGS運作時間而異。</p>
+  </div>
 
   <h2 class="ko">왜 중요한가 — 스테이블코인과 토큰화 예금의 경쟁 구도</h2>
   <h2 class="en">Why it matters — the competition between stablecoins and tokenized deposits</h2>
