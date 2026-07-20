@@ -18,6 +18,16 @@
   <p class="tr">Ancak aynı dönemde, ETH dışındaki en büyük iki altcoin tam tersi yönde hareket etti. Solana, 3 Temmuz'daki 80,63 dolardan 8-9 Temmuz civarında yaklaşık 77 dolara, yani yaklaşık %5 düştü; XRP ise bir hafta önceki 1,14 dolardan 8 Temmuz'da 1,10 dolara geriledi, yaklaşık %3 düşüşle dört gün üst üste geriledi (CoinGecko, TradingKey, Cryptonews). Bitcoin'den pay çalması gereken iki isim, bunun yerine düştü. Bu fark, piyasanın gerçekten bir altseason'a girip girmediğini, yoksa başka bir şeyin mi olduğunu anlamanın anahtarı.</p>
   <p class="vi">Vào ngày 10 tháng 7, bitcoin tăng lên khoảng 64.340-64.653 đô la, tăng 4,2% trong tuần, theo CoinDesk. Điều thú vị hơn cả đợt tăng này là diễn biến của mức thống trị bitcoin (BTC dominance) — tỷ trọng vốn hóa của bitcoin trong tổng vốn hóa thị trường crypto. Theo bảng thống trị của CoinGecko, chỉ số này đã giảm từ mức đỉnh gần đây 58,12% xuống mức thấp nhất trong một tháng là 54,0% vào ngày 7 tháng 7 (CryptoSlate, CryptoRank). Mức thống trị giảm thường được hiểu là dòng vốn đang xoay từ bitcoin sang altcoin — giai đoạn mở đầu của một altseason.</p>
   <p class="vi">Nhưng trong cùng khoảng thời gian đó, hai altcoin lớn nhất ngoài ETH lại di chuyển theo hướng ngược lại. Solana giảm từ 80,63 đô la vào ngày 3 tháng 7 xuống còn khoảng 77 đô la vào ngày 8-9 tháng 7, giảm khoảng 5%, còn XRP giảm từ 1,14 đô la một tuần trước đó xuống 1,10 đô la vào ngày 8 tháng 7, giảm khoảng 3% và giảm liên tục bốn ngày (CoinGecko, TradingKey, Cryptonews). Hai cái tên lẽ ra phải giành thị phần từ bitcoin thì lại giảm giá. Khoảng cách đó chính là chìa khóa để biết liệu thị trường đã thực sự bước vào altseason, hay có điều gì khác đang xảy ra.</p>
+  <p class="id">Pada 10 Juli, bitcoin naik ke kisaran $64.340-$64.653, naik 4,2% dalam sepekan, menurut CoinDesk. Yang lebih menarik daripada reli itu sendiri adalah pergerakan dominasi bitcoin — pangsa bitcoin dari total kapitalisasi pasar kripto. Menurut tabel dominasi CoinGecko, angka ini turun dari puncak terbaru 58,12% ke titik terendah dalam sebulan di 54,0% pada 7 Juli (CryptoSlate, CryptoRank). Pembacaan dominasi yang menurun biasanya diartikan sebagai modal yang berotasi keluar dari bitcoin masuk ke altcoin — tahap awal sebuah altseason.</p>
+  <p class="pl">10 lipca bitcoin wzrósł do przedziału 64 340-64 653 USD, zyskując 4,2% w ciągu tygodnia, według CoinDesk. Ciekawszy od samego rajdu jest ruch dominacji bitcoina — udziału bitcoina w całkowitej kapitalizacji rynku krypto. Według tabeli dominacji CoinGecko spadła ona z niedawnego szczytu 58,12% do miesięcznego minimum 54,0% w dniu 7 lipca (CryptoSlate, CryptoRank). Spadający odczyt dominacji jest zwykle odczytywany jako rotacja kapitału z bitcoina do altcoinów — początkowy etap altseasonu.</p>
+  <p class="it">Il 10 luglio, bitcoin è salito in un range di 64.340-64.653 dollari, in rialzo del 4,2% nella settimana, secondo CoinDesk. Più interessante del rally in sé è il movimento della dominance di bitcoin — la quota di bitcoin sulla capitalizzazione totale del mercato cripto. Secondo la tabella di dominance di CoinGecko, è scesa da un recente massimo del 58,12% a un minimo di un mese del 54,0% il 7 luglio (CryptoSlate, CryptoRank). Una lettura in calo della dominance viene solitamente interpretata come capitale in rotazione da bitcoin verso le altcoin — la fase iniziale di un'altseason.</p>
+  <p class="ru">10 июля биткоин поднялся до диапазона $64 340-$64 653, прибавив 4,2% за неделю, по данным CoinDesk. Интереснее самого ралли — движение доминации биткоина, доли биткоина в общей рыночной капитализации криптовалют. Согласно таблице доминации CoinGecko, она снизилась с недавнего максимума 58,12% до минимума за месяц в 54,0% 7 июля (CryptoSlate, CryptoRank). Падающий показатель доминации обычно трактуется как перетекание капитала из биткоина в альткоины — начальная стадия альтсезона.</p>
+  <p class="zh">7月10日,比特幣升至6.434萬至6.4653萬美元區間,單週上漲4.2%,據CoinDesk報導。比漲勢本身更值得關注的,是比特幣主導率——比特幣占加密貨幣總市值比重——的變化。根據CoinGecko的主導率數據,該指標從近期高點58.12%滑落至7月7日的一個月低點54.0%(CryptoSlate、CryptoRank)。主導率下滑通常被解讀為資金正從比特幣輪動到山寨幣——也就是山寨幣季節的起始階段。</p>
+  <p class="id">Namun dalam periode yang sama, dua altcoin non-ETH terbesar justru bergerak ke arah sebaliknya. Solana turun dari $80,63 pada 3 Juli menjadi sekitar $77 pada 8-9 Juli, penurunan sekitar 5%, dan XRP merosot dari $1,14 seminggu sebelumnya menjadi $1,10 pada 8 Juli, turun sekitar 3% dan melemah empat hari berturut-turut (CoinGecko, TradingKey, Cryptonews). Dua nama yang seharusnya merebut pangsa dari bitcoin justru malah menurun. Kesenjangan itulah kunci untuk membaca apakah pasar ini benar-benar sudah memasuki altseason, atau ada hal lain yang sedang terjadi.</p>
+  <p class="pl">Jednak w tym samym okresie dwie największe altcoiny spoza ETH poruszały się w przeciwnym kierunku. Solana spadła z 80,63 USD 3 lipca do około 77 USD do 8-9 lipca, czyli o około 5%, a XRP osunął się z 1,14 USD tydzień wcześniej do 1,10 USD 8 lipca, spadając o około 3% i tracąc na wartości cztery dni z rzędu (CoinGecko, TradingKey, Cryptonews). Dwa aktywa, które powinny odbierać udział bitcoinowi, zamiast tego spadły. Ta rozbieżność jest kluczem do oceny, czy rynek rzeczywiście wszedł w altseason, czy dzieje się coś innego.</p>
+  <p class="it">Eppure nello stesso periodo, le due maggiori altcoin non-ETH si sono mosse nella direzione opposta. Solana è scesa da 80,63 dollari il 3 luglio a circa 77 dollari l'8-9 luglio, un calo di circa il 5%, e XRP è scivolato da 1,14 dollari una settimana prima a 1,10 dollari l'8 luglio, in calo di circa il 3% e in ribasso per quattro giorni consecutivi (CoinGecko, TradingKey, Cryptonews). I due asset che avrebbero dovuto sottrarre quota a bitcoin sono invece scesi. Questo divario è la chiave per capire se il mercato sia davvero entrato in un'altseason, oppure se stia accadendo qualcos'altro.</p>
+  <p class="ru">Однако за тот же период две крупнейшие альткоины вне ETH двигались в противоположном направлении. Solana упала с $80,63 3 июля до около $77 к 8-9 июля, снижение примерно на 5%, а XRP снизился с $1,14 неделей ранее до $1,10 к 8 июля, потеряв около 3% и падая четыре дня подряд (CoinGecko, TradingKey, Cryptonews). Два актива, которые должны были отбирать долю у биткоина, вместо этого снизились. Именно этот разрыв — ключ к пониманию того, действительно ли рынок вошёл в альтсезон, или происходит что-то иное.</p>
+  <p class="zh">然而在同一期間,兩個市值最大的非ETH山寨幣卻朝相反方向移動。Solana從7月3日的80.63美元跌至7月8至9日的約77美元,跌幅約5%;XRP則從一週前的1.14美元跌至7月8日的1.10美元,下跌約3%,連續四天走低(CoinGecko、TradingKey、Cryptonews)。這兩個原本應該從比特幣手中搶走份額的資產,反而下跌了。這個落差正是判斷這輪市場是否真正進入山寨幣季節,還是另有隱情的關鍵。</p>
 
   <div class="ko">
   <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -316,6 +326,171 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="800" font-family="sans-serif">Perubahan Mingguan: Reli BTC vs Kelemahan Altcoin Berkapitalisasi Besar</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Per 3-10 Juli 2026 (HYPE 30 hari). Sumber: CoinDesk, CoinGecko, CryptoSlate, MEXC</text>
+    <line x1="250" y1="65" x2="250" y2="385" stroke="#52525b" stroke-width="1.5"/>
+    <g font-family="sans-serif">
+      <text x="20" y="62" fill="#fafafa" font-size="14" font-weight="700">Harga BTC (7h)</text>
+      <rect x="250" y="67" width="42" height="26" fill="#22c55e"/>
+      <text x="300" y="85" fill="#4ade80" font-size="14" font-weight="800">+4,2%</text>
+      <text x="20" y="117" fill="#fafafa" font-size="14" font-weight="700">Dominasi BTC (7h, pp)</text>
+      <rect x="209" y="122" width="41" height="26" fill="#ef4444"/>
+      <text x="200" y="140" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-4,1pp</text>
+      <text x="20" y="172" fill="#fafafa" font-size="14" font-weight="700">Harga ETH (7h)</text>
+      <rect x="250" y="177" width="27" height="26" fill="#22c55e"/>
+      <text x="285" y="195" fill="#4ade80" font-size="14" font-weight="800">+2,7%</text>
+      <text x="20" y="227" fill="#fafafa" font-size="14" font-weight="700">Harga SOL (7h)</text>
+      <rect x="200" y="232" width="50" height="26" fill="#ef4444"/>
+      <text x="192" y="250" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-5,0%</text>
+      <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700">Harga XRP (7h)</text>
+      <rect x="220" y="287" width="30" height="26" fill="#ef4444"/>
+      <text x="212" y="305" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-3,0%</text>
+      <text x="20" y="337" fill="#fafafa" font-size="14" font-weight="700">HYPE (30h, referensi)</text>
+      <rect x="250" y="342" width="240" height="26" fill="#a78bfa"/>
+      <text x="498" y="360" fill="#c4b5fd" font-size="14" font-weight="800">+24%</text>
+      <text x="150" y="405" fill="#71717a" font-size="13" text-anchor="middle">-10%</text>
+      <text x="250" y="405" fill="#71717a" font-size="13" text-anchor="middle">0%</text>
+      <text x="350" y="405" fill="#71717a" font-size="13" text-anchor="middle">+10%</text>
+      <text x="450" y="405" fill="#71717a" font-size="13" text-anchor="middle">+20%</text>
+      <text x="550" y="405" fill="#71717a" font-size="13" text-anchor="middle">+30%</text>
+      <text x="20" y="428" fill="#a1a1aa" font-size="13">HYPE menggunakan periode berbeda (30 hari) — hanya untuk referensi</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="800" font-family="sans-serif">Zmiana Tygodniowa: Rajd BTC a Słabość Dużych Altcoinów</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Stan na 3-10 lipca 2026 (HYPE w ujęciu 30-dniowym). Źródła: CoinDesk, CoinGecko, CryptoSlate, MEXC</text>
+    <line x1="250" y1="65" x2="250" y2="385" stroke="#52525b" stroke-width="1.5"/>
+    <g font-family="sans-serif">
+      <text x="20" y="62" fill="#fafafa" font-size="14" font-weight="700">Cena BTC (7d)</text>
+      <rect x="250" y="67" width="42" height="26" fill="#22c55e"/>
+      <text x="300" y="85" fill="#4ade80" font-size="14" font-weight="800">+4,2%</text>
+      <text x="20" y="117" fill="#fafafa" font-size="14" font-weight="700">Dominacja BTC (7d, pp)</text>
+      <rect x="209" y="122" width="41" height="26" fill="#ef4444"/>
+      <text x="200" y="140" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-4,1pp</text>
+      <text x="20" y="172" fill="#fafafa" font-size="14" font-weight="700">Cena ETH (7d)</text>
+      <rect x="250" y="177" width="27" height="26" fill="#22c55e"/>
+      <text x="285" y="195" fill="#4ade80" font-size="14" font-weight="800">+2,7%</text>
+      <text x="20" y="227" fill="#fafafa" font-size="14" font-weight="700">Cena SOL (7d)</text>
+      <rect x="200" y="232" width="50" height="26" fill="#ef4444"/>
+      <text x="192" y="250" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-5,0%</text>
+      <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700">Cena XRP (7d)</text>
+      <rect x="220" y="287" width="30" height="26" fill="#ef4444"/>
+      <text x="212" y="305" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-3,0%</text>
+      <text x="20" y="337" fill="#fafafa" font-size="14" font-weight="700">HYPE (30d, dla porównania)</text>
+      <rect x="250" y="342" width="240" height="26" fill="#a78bfa"/>
+      <text x="498" y="360" fill="#c4b5fd" font-size="14" font-weight="800">+24%</text>
+      <text x="150" y="405" fill="#71717a" font-size="13" text-anchor="middle">-10%</text>
+      <text x="250" y="405" fill="#71717a" font-size="13" text-anchor="middle">0%</text>
+      <text x="350" y="405" fill="#71717a" font-size="13" text-anchor="middle">+10%</text>
+      <text x="450" y="405" fill="#71717a" font-size="13" text-anchor="middle">+20%</text>
+      <text x="550" y="405" fill="#71717a" font-size="13" text-anchor="middle">+30%</text>
+      <text x="20" y="428" fill="#a1a1aa" font-size="13">HYPE dotyczy innego okresu (30 dni) — wyłącznie poglądowo</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="800" font-family="sans-serif">Variazione Settimanale: Rally di BTC vs Debolezza delle Altcoin a Grande Capitalizzazione</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Al 3-10 luglio 2026 (HYPE su 30 giorni). Fonti: CoinDesk, CoinGecko, CryptoSlate, MEXC</text>
+    <line x1="250" y1="65" x2="250" y2="385" stroke="#52525b" stroke-width="1.5"/>
+    <g font-family="sans-serif">
+      <text x="20" y="62" fill="#fafafa" font-size="14" font-weight="700">Prezzo BTC (7g)</text>
+      <rect x="250" y="67" width="42" height="26" fill="#22c55e"/>
+      <text x="300" y="85" fill="#4ade80" font-size="14" font-weight="800">+4,2%</text>
+      <text x="20" y="117" fill="#fafafa" font-size="14" font-weight="700">Dominance BTC (7g, pp)</text>
+      <rect x="209" y="122" width="41" height="26" fill="#ef4444"/>
+      <text x="200" y="140" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-4,1pp</text>
+      <text x="20" y="172" fill="#fafafa" font-size="14" font-weight="700">Prezzo ETH (7g)</text>
+      <rect x="250" y="177" width="27" height="26" fill="#22c55e"/>
+      <text x="285" y="195" fill="#4ade80" font-size="14" font-weight="800">+2,7%</text>
+      <text x="20" y="227" fill="#fafafa" font-size="14" font-weight="700">Prezzo SOL (7g)</text>
+      <rect x="200" y="232" width="50" height="26" fill="#ef4444"/>
+      <text x="192" y="250" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-5,0%</text>
+      <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700">Prezzo XRP (7g)</text>
+      <rect x="220" y="287" width="30" height="26" fill="#ef4444"/>
+      <text x="212" y="305" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-3,0%</text>
+      <text x="20" y="337" fill="#fafafa" font-size="14" font-weight="700">HYPE (30g, riferimento)</text>
+      <rect x="250" y="342" width="240" height="26" fill="#a78bfa"/>
+      <text x="498" y="360" fill="#c4b5fd" font-size="14" font-weight="800">+24%</text>
+      <text x="150" y="405" fill="#71717a" font-size="13" text-anchor="middle">-10%</text>
+      <text x="250" y="405" fill="#71717a" font-size="13" text-anchor="middle">0%</text>
+      <text x="350" y="405" fill="#71717a" font-size="13" text-anchor="middle">+10%</text>
+      <text x="450" y="405" fill="#71717a" font-size="13" text-anchor="middle">+20%</text>
+      <text x="550" y="405" fill="#71717a" font-size="13" text-anchor="middle">+30%</text>
+      <text x="20" y="428" fill="#a1a1aa" font-size="13">HYPE usa un periodo diverso (30 giorni) — solo come riferimento</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="800" font-family="sans-serif">Недельное изменение: ралли BTC против слабости крупных альткоинов</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">По состоянию на 3-10 июля 2026 г. (HYPE — за 30 дней). Источники: CoinDesk, CoinGecko, CryptoSlate, MEXC</text>
+    <line x1="250" y1="65" x2="250" y2="385" stroke="#52525b" stroke-width="1.5"/>
+    <g font-family="sans-serif">
+      <text x="20" y="62" fill="#fafafa" font-size="14" font-weight="700">Цена BTC (7д)</text>
+      <rect x="250" y="67" width="42" height="26" fill="#22c55e"/>
+      <text x="300" y="85" fill="#4ade80" font-size="14" font-weight="800">+4,2%</text>
+      <text x="20" y="117" fill="#fafafa" font-size="14" font-weight="700">Доминация BTC (7д, пп)</text>
+      <rect x="209" y="122" width="41" height="26" fill="#ef4444"/>
+      <text x="200" y="140" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-4,1пп</text>
+      <text x="20" y="172" fill="#fafafa" font-size="14" font-weight="700">Цена ETH (7д)</text>
+      <rect x="250" y="177" width="27" height="26" fill="#22c55e"/>
+      <text x="285" y="195" fill="#4ade80" font-size="14" font-weight="800">+2,7%</text>
+      <text x="20" y="227" fill="#fafafa" font-size="14" font-weight="700">Цена SOL (7д)</text>
+      <rect x="200" y="232" width="50" height="26" fill="#ef4444"/>
+      <text x="192" y="250" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-5,0%</text>
+      <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700">Цена XRP (7д)</text>
+      <rect x="220" y="287" width="30" height="26" fill="#ef4444"/>
+      <text x="212" y="305" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-3,0%</text>
+      <text x="20" y="337" fill="#fafafa" font-size="14" font-weight="700">HYPE (30д, для справки)</text>
+      <rect x="250" y="342" width="240" height="26" fill="#a78bfa"/>
+      <text x="498" y="360" fill="#c4b5fd" font-size="14" font-weight="800">+24%</text>
+      <text x="150" y="405" fill="#71717a" font-size="13" text-anchor="middle">-10%</text>
+      <text x="250" y="405" fill="#71717a" font-size="13" text-anchor="middle">0%</text>
+      <text x="350" y="405" fill="#71717a" font-size="13" text-anchor="middle">+10%</text>
+      <text x="450" y="405" fill="#71717a" font-size="13" text-anchor="middle">+20%</text>
+      <text x="550" y="405" fill="#71717a" font-size="13" text-anchor="middle">+30%</text>
+      <text x="20" y="428" fill="#a1a1aa" font-size="13">HYPE использует другой период (30 дней) — только для справки</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="800" font-family="sans-serif">週度變化:BTC反彈 vs 大型山寨幣走弱</text>
+    <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">截至2026年7月3日至10日(HYPE為30天數據)。資料來源:CoinDesk、CoinGecko、CryptoSlate、MEXC</text>
+    <line x1="250" y1="65" x2="250" y2="385" stroke="#52525b" stroke-width="1.5"/>
+    <g font-family="sans-serif">
+      <text x="20" y="62" fill="#fafafa" font-size="14" font-weight="700">BTC價格(7天)</text>
+      <rect x="250" y="67" width="42" height="26" fill="#22c55e"/>
+      <text x="300" y="85" fill="#4ade80" font-size="14" font-weight="800">+4.2%</text>
+      <text x="20" y="117" fill="#fafafa" font-size="14" font-weight="700">BTC主導率(7天,pp)</text>
+      <rect x="209" y="122" width="41" height="26" fill="#ef4444"/>
+      <text x="200" y="140" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-4.1pp</text>
+      <text x="20" y="172" fill="#fafafa" font-size="14" font-weight="700">ETH價格(7天)</text>
+      <rect x="250" y="177" width="27" height="26" fill="#22c55e"/>
+      <text x="285" y="195" fill="#4ade80" font-size="14" font-weight="800">+2.7%</text>
+      <text x="20" y="227" fill="#fafafa" font-size="14" font-weight="700">SOL價格(7天)</text>
+      <rect x="200" y="232" width="50" height="26" fill="#ef4444"/>
+      <text x="192" y="250" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-5.0%</text>
+      <text x="20" y="282" fill="#fafafa" font-size="14" font-weight="700">XRP價格(7天)</text>
+      <rect x="220" y="287" width="30" height="26" fill="#ef4444"/>
+      <text x="212" y="305" fill="#f87171" font-size="14" font-weight="800" text-anchor="end">-3.0%</text>
+      <text x="20" y="337" fill="#fafafa" font-size="14" font-weight="700">HYPE(30天,僅供參考)</text>
+      <rect x="250" y="342" width="240" height="26" fill="#a78bfa"/>
+      <text x="498" y="360" fill="#c4b5fd" font-size="14" font-weight="800">+24%</text>
+      <text x="150" y="405" fill="#71717a" font-size="13" text-anchor="middle">-10%</text>
+      <text x="250" y="405" fill="#71717a" font-size="13" text-anchor="middle">0%</text>
+      <text x="350" y="405" fill="#71717a" font-size="13" text-anchor="middle">+10%</text>
+      <text x="450" y="405" fill="#71717a" font-size="13" text-anchor="middle">+20%</text>
+      <text x="550" y="405" fill="#71717a" font-size="13" text-anchor="middle">+30%</text>
+      <text x="20" y="428" fill="#a1a1aa" font-size="13">HYPE採用不同區間(30天)——僅供參考</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">도미넌스가 빠진 자리, 실제로 누가 채웠나</h2>
   <h2 class="en">Where the Dominance Drop Actually Went</h2>
@@ -326,6 +501,11 @@
   <h2 class="pt">Quem Realmente Preencheu a Queda de Dominância</h2>
   <h2 class="tr">Dominans Düşüşünün Yerini Gerçekte Kim Doldurdu</h2>
   <h2 class="vi">Ai Thực Sự Đã Lấp Đầy Khoảng Trống Thống Trị</h2>
+  <h2 class="id">Penurunan Dominasi Sebenarnya Berpindah ke Mana</h2>
+  <h2 class="pl">Gdzie Naprawdę Trafił Spadek Dominacji</h2>
+  <h2 class="it">Dove È Realmente Finito il Calo della Dominance</h2>
+  <h2 class="ru">Куда на самом деле делось падение доминации</h2>
+  <h2 class="zh">主導率下滑的份額,實際流向了哪裡</h2>
 
   <p class="ko">크립토슬레이트가 인용한 코인게코 데이터를 보면, 비트코인·이더리움·스테이블코인을 제외한 "그 외(Others)" 항목의 시가총액 비중은 같은 기간 19.39%에서 24.68%로 늘었다. 숫자만 보면 자금이 알트코인 전반으로 퍼진 것처럼 보이지만, 실제로 이 구간을 주도한 건 소수의 테마 종목이었다. 실제 프로토콜 수수료를 걷어 바이백·소각으로 연결하는 토큰, 솔라나 온체인 트레이딩 스택에 속한 토큰, 기관 유통망에 연결된 토큰 등 성격이 뚜렷한 종목군이 로테이션을 이끌었다.</p>
   <p class="ko">이 로테이션을 상징하는 토큰이 하이퍼리퀴드(HYPE)다. 7월 10일 기준 65~71달러 선에서 거래되며 30일 기준 24% 올랐는데, 이는 최근 랠리를 이끈 종목들 중 가장 낮은 상승폭이다(크립토슬레이트). 6월 16일 기록한 사상 최고가 76.70달러보다는 여전히 15% 낮은 수준이다. 즉 도미넌스 하락분을 흡수한 로테이션조차 이미 속도가 붙었다 빠지는 국면에 들어섰을 가능성이 있다는 뜻이다. 도미넌스라는 단일 숫자만으로는 이 내부 구성을 볼 수 없다.</p>
@@ -345,6 +525,16 @@
   <p class="tr">Bu rotasyonu en çok simgeleyen token Hyperliquid (HYPE). 10 Temmuz itibarıyla 65-71 dolar aralığında işlem görüyor, 30 günde %24 arttı — bu, son ralliye öncülük eden isimler arasındaki en küçük artış (CryptoSlate). Hâlâ 16 Haziran'da görülen 76,70 dolarlık tüm zamanların en yüksek seviyesinin %15 altında. Başka bir deyişle, dominans düşüşünü emen rotasyon bile şimdiden ivme kaybediyor olabilir. Tek bir dominans rakamı bu iç bileşimi gösteremez.</p>
   <p class="vi">Theo dữ liệu của CoinGecko được CryptoSlate trích dẫn, tỷ trọng vốn hóa của nhóm "Others" — tất cả những gì ngoài bitcoin, ether và stablecoin — đã tăng từ 19,39% lên 24,68% trong cùng khoảng thời gian. Bề ngoài, điều này trông giống như dòng vốn lan tỏa rộng khắp các altcoin, nhưng những cái tên thực sự dẫn dắt lại là một nhóm hẹp, mang tính chủ đề: các token có phí giao thức thực được dùng để mua lại hoặc đốt token, các token nằm trong hệ sinh thái giao dịch on-chain của Solana, và các token kết nối với các kênh phân phối tổ chức.</p>
   <p class="vi">Token tiêu biểu nhất cho đợt xoay vòng này là Hyperliquid (HYPE). Tính đến ngày 10 tháng 7, nó giao dịch trong khoảng 65-71 đô la, tăng 24% trong 30 ngày — mức tăng thấp nhất trong số các cái tên dẫn dắt đợt tăng gần đây (CryptoSlate). Nó vẫn thấp hơn 15% so với mức đỉnh lịch sử 76,70 đô la lập ngày 16 tháng 6. Nói cách khác, ngay cả đợt xoay vòng đã hấp thụ sự sụt giảm thống trị cũng có thể đã bắt đầu mất đà. Một con số thống trị duy nhất không thể cho thấy cấu trúc nội tại này.</p>
+  <p class="id">Menurut data CoinGecko yang dikutip CryptoSlate, pangsa kapitalisasi pasar kelompok "Others" — segala sesuatu di luar bitcoin, ether, dan stablecoin — naik dari 19,39% menjadi 24,68% dalam periode yang sama. Secara sekilas ini terlihat seperti modal yang menyebar luas ke seluruh altcoin, tetapi nama-nama yang sebenarnya menggerakkannya adalah kelompok tematik yang sempit: token dengan biaya protokol nyata yang dialirkan ke buyback atau burn, token yang berada dalam tumpukan trading on-chain Solana, dan token yang terhubung ke jalur distribusi institusional.</p>
+  <p class="pl">Według danych CoinGecko cytowanych przez CryptoSlate, udział kapitalizacji rynkowej koszyka „Others" — wszystkiego poza bitcoinem, ether i stablecoinami — wzrósł z 19,39% do 24,68% w tym samym okresie. Na pierwszy rzut oka wygląda to jak kapitał rozprzestrzeniający się szeroko po altcoinach, ale nazwy, które faktycznie to napędzały, tworzyły wąski, tematyczny klaster: tokeny z realnymi opłatami protokołu kierowanymi na buybacki lub spalanie, tokeny wchodzące w skład on-chainowego stosu tradingowego Solany oraz tokeny podłączone do instytucjonalnych kanałów dystrybucji.</p>
+  <p class="it">Secondo i dati di CoinGecko citati da CryptoSlate, la quota di capitalizzazione del gruppo «Others» — tutto ciò che è al di fuori di bitcoin, ether e stablecoin — è salita dal 19,39% al 24,68% nello stesso periodo. In apparenza sembra capitale che si diffonde ampiamente tra le altcoin, ma i nomi che l'hanno effettivamente guidata formavano un cluster tematico ristretto: token con commissioni di protocollo reali destinate a buyback o burn, token all'interno dello stack di trading on-chain di Solana e token collegati a canali di distribuzione istituzionali.</p>
+  <p class="ru">По данным CoinGecko, на которые ссылается CryptoSlate, доля рыночной капитализации категории «Others» — всё, что вне биткоина, эфира и стейблкоинов — выросла с 19,39% до 24,68% за тот же период. На первый взгляд это похоже на капитал, широко распределяющийся по альткоинам, но реальными драйверами были узкий тематический кластер: токены с реальными комиссиями протокола, направляемыми на байбэки или сжигание, токены внутри ончейн-торгового стека Solana и токены, встроенные в институциональные каналы дистрибуции.</p>
+  <p class="zh">根據CryptoSlate引用的CoinGecko數據,「Others」類別——即比特幣、以太幣和穩定幣以外的所有資產——的市值佔比在同一期間從19.39%升至24.68%。表面上看,這像是資金廣泛流向各類山寨幣,但實際主導這波行情的,是一個範圍狹窄的主題性群組:擁有真實協議費用並用於回購或銷毀的代幣、屬於Solana鏈上交易生態的代幣,以及接入機構分銷管道的代幣。</p>
+  <p class="id">Token yang paling melambangkan rotasi ini adalah Hyperliquid (HYPE). Per 10 Juli, token ini diperdagangkan di kisaran $65-$71, naik 24% dalam 30 hari — kenaikan terkecil di antara nama-nama yang memimpin reli terbaru (CryptoSlate). Token ini masih 15% di bawah rekor tertinggi sepanjang masa $76,70 yang dicetak pada 16 Juni. Dengan kata lain, bahkan rotasi yang menyerap penurunan dominasi ini mungkin sudah mulai kehilangan momentum. Satu angka dominasi saja tidak bisa memperlihatkan komposisi internal tersebut.</p>
+  <p class="pl">Tokenem najbardziej symbolizującym tę rotację jest Hyperliquid (HYPE). Na 10 lipca notowany jest w przedziale 65-71 USD, zyskując 24% w ciągu 30 dni — najmniejszy wzrost wśród nazw, które prowadziły ostatni rajd (CryptoSlate). Nadal jest 15% poniżej swojego historycznego szczytu 76,70 USD osiągniętego 16 czerwca. Innymi słowy, nawet rotacja, która wchłonęła spadek dominacji, może już tracić rozpęd. Pojedyncza liczba dominacji nie pokaże tego wewnętrznego składu.</p>
+  <p class="it">Il token più emblematico di questa rotazione è Hyperliquid (HYPE). Al 10 luglio viene scambiato nel range 65-71 dollari, in rialzo del 24% in 30 giorni — il guadagno più piccolo tra i nomi che hanno guidato il recente rally (CryptoSlate). Resta ancora il 15% al di sotto del suo massimo storico di 76,70 dollari raggiunto il 16 giugno. In altre parole, anche la rotazione che ha assorbito il calo della dominance potrebbe già star perdendo slancio. Un singolo dato di dominance non può mostrare questa composizione interna.</p>
+  <p class="ru">Токен, наиболее символизирующий эту ротацию, — Hyperliquid (HYPE). По состоянию на 10 июля он торгуется в диапазоне $65-$71, прибавив 24% за 30 дней — наименьший рост среди активов, возглавивших недавнее ралли (CryptoSlate). Он всё ещё на 15% ниже своего исторического максимума в $76,70, установленного 16 июня. Другими словами, даже ротация, которая поглотила снижение доминации, возможно, уже теряет импульс. Единственная цифра доминации не может показать этот внутренний состав.</p>
+  <p class="zh">這波輪動最具代表性的代幣是Hyperliquid(HYPE)。截至7月10日,其交易區間為65至71美元,30天內上漲24%——在近期領漲的資產中漲幅最小(CryptoSlate)。它仍比6月16日創下的歷史高點76.70美元低15%。換言之,就連吸收了主導率下滑份額的這波輪動本身,可能都已經開始失去動能。單一的主導率數字無法呈現這種內部結構。</p>
 
   <h2 class="ko">정작 솔라나·XRP는 하락했다</h2>
   <h2 class="en">Solana and XRP Actually Fell</h2>
@@ -355,6 +545,11 @@
   <h2 class="pt">Solana e XRP na Verdade Caíram</h2>
   <h2 class="tr">Asıl Solana ve XRP Düştü</h2>
   <h2 class="vi">Solana và XRP Thực Ra Đã Giảm</h2>
+  <h2 class="id">Solana dan XRP Justru Turun</h2>
+  <h2 class="pl">Solana i XRP Faktycznie Spadły</h2>
+  <h2 class="it">Solana e XRP In Realtà Sono Scese</h2>
+  <h2 class="ru">Solana и XRP на самом деле упали</h2>
+  <h2 class="zh">實際上,Solana與XRP雙雙下跌</h2>
 
   <p class="ko">"알트코인"이라는 단어는 수백 개의 서로 다른 자산을 하나로 뭉뚱그린다. 도미넌스 통계에서 "알트코인 강세"로 읽히는 흐름이, 시가총액 기준 최상위 대형 알트코인인 솔라나·XRP에는 적용되지 않았다. 솔라나는 지갑 성장과 생태계 신규 출시 소식에도 불구하고 7월 첫째 주 80달러 선을 지키다 8~9일 사이 77달러 부근까지 밀렸고, 일부 리포트는 24시간 기준 5%대 낙폭을 기록했다고 전했다(코인게코·애널리틱스인사이트·코인개버). XRP는 지정학적 긴장과 낮은 위험선호 속에 나흘 연속 하락하며 1.10달러 아래로 눌렸다(크립토뉴스).</p>
   <p class="ko">두 자산 모두 시가총액 상위권에 드는 대형 알트코인이라는 점이 중요하다. 만약 도미넌스 하락이 정말 광범위한 알트시즌의 신호라면, 이 정도 규모의 자산이 먼저 반응해야 한다. 그런데 실제로는 소수 테마 종목만 오르고 대형 알트는 오히려 밀렸다 — 폭넓은 로테이션이 아니라 좁은 구간에 자금이 몰린 결과로 도미넌스 숫자가 흔들렸을 가능성을 시사한다. BTCtiming이 7월 초 짚었던 "도미넌스가 50%대 후반 박스권에서 아직 벗어나지 못했다"는 진단과 비교하면, 지금은 도미넌스가 더 낮아졌는데도 정작 대형 알트의 체감은 나아지지 않은 셈이다.</p>
@@ -374,6 +569,16 @@
   <p class="tr">İkisinin de büyük ölçekli altcoin olması önemli. Eğer bir dominans düşüşü gerçekten geniş çaplı bir altseason'a işaret ediyorsa, bu büyüklükteki varlıkların ilk tepki verenler arasında olması gerekir. Bunun yerine, sadece dar bir tematik token grubu yükselirken büyük altcoinler düştü — bu da dominans rakamının geniş çaplı bir rotasyon yerine küçük bir cepte yoğunlaşan sermaye tarafından hareket ettirilmiş olabileceğini düşündürüyor. BTCtiming'in temmuz başında işaret ettiği "dominans hâlâ 50'lerin üst bandından çıkmadı" değerlendirmesiyle karşılaştırıldığında, dominans şimdi daha da düştü, ama büyük altcoinlerin sahadaki deneyimi iyileşmedi.</p>
   <p class="vi">Từ "altcoin" gộp chung hàng trăm tài sản rất khác nhau vào một nhóm. Khuôn mẫu mà dữ liệu thống trị đọc là "sức mạnh altcoin" lại không áp dụng cho Solana hay XRP, hai altcoin lớn nhất ngoài ETH theo vốn hóa. Bất chấp các tiêu đề về tăng trưởng ví và các ra mắt hệ sinh thái mới, Solana giữ gần mốc 80 đô la trong tuần đầu tháng 7 trước khi trượt xuống khoảng 77 đô la vào ngày 8-9 tháng 7, một số báo cáo ghi nhận mức giảm khoảng 5% trong 24 giờ (CoinGecko, Analytics Insight, CoinGabbar). XRP giảm liên tục bốn ngày giữa lúc căng thẳng địa chính trị và khẩu vị rủi ro thấp, rơi xuống dưới 1,10 đô la (Cryptonews).</p>
   <p class="vi">Điều quan trọng là cả hai đều là altcoin vốn hóa lớn. Nếu mức thống trị giảm thực sự báo hiệu một altseason trên diện rộng, các tài sản có quy mô này lẽ ra phải là những cái phản ứng đầu tiên. Thay vào đó, chỉ một nhóm hẹp các token theo chủ đề tăng giá trong khi các altcoin vốn hóa lớn lại giảm — cho thấy con số thống trị có thể đã bị dịch chuyển bởi dòng vốn tập trung vào một góc nhỏ chứ không phải một đợt xoay vòng trên diện rộng. So với nhận định "mức thống trị vẫn chưa thoát khỏi biên độ cao của 50%" mà BTCtiming đã nêu hồi đầu tháng 7, giờ đây mức thống trị đã giảm sâu hơn, nhưng trải nghiệm thực tế của các altcoin vốn hóa lớn vẫn chưa cải thiện.</p>
+  <p class="id">Kata "altcoin" menyatukan ratusan aset yang sangat berbeda menjadi satu. Pola yang dibaca data dominasi sebagai "kekuatan altcoin" tidak berlaku untuk Solana atau XRP, dua altcoin non-ETH terbesar berdasarkan kapitalisasi pasar. Meski ada berita utama soal pertumbuhan wallet dan peluncuran ekosistem baru, Solana bertahan di dekat $80 sepanjang minggu pertama Juli sebelum tergelincir ke arah $77 pada 8-9 Juli, dengan beberapa laporan mencatat penurunan sekitar 5% dalam 24 jam (CoinGecko, Analytics Insight, CoinGabbar). XRP turun empat hari berturut-turut di tengah ketegangan geopolitik dan rendahnya selera risiko, jatuh di bawah $1,10 (Cryptonews).</p>
+  <p class="pl">Słowo „altcoin" wrzuca do jednego worka setki bardzo różnych aktywów. Wzorzec, który dane o dominacji odczytują jako „siłę altcoinów", nie dotyczył Solany ani XRP, dwóch największych altcoinów spoza ETH pod względem kapitalizacji rynkowej. Mimo nagłówków o wzroście liczby portfeli i nowych uruchomieniach w ekosystemie, Solana utrzymywała się blisko 80 USD przez pierwszy tydzień lipca, zanim zsunęła się w stronę 77 USD do 8-9 lipca, przy czym niektóre raporty odnotowały spadek o około 5% w ciągu 24 godzin (CoinGecko, Analytics Insight, CoinGabbar). XRP spadał cztery dni z rzędu w warunkach napięć geopolitycznych i niskiego apetytu na ryzyko, schodząc poniżej 1,10 USD (Cryptonews).</p>
+  <p class="it">La parola «altcoin» accorpa centinaia di asset molto diversi tra loro. Lo schema che i dati di dominance leggono come «forza delle altcoin» non si è applicato a Solana né a XRP, le due maggiori altcoin non-ETH per capitalizzazione di mercato. Nonostante i titoli su crescita dei wallet e nuovi lanci dell'ecosistema, Solana si è mantenuta vicino agli 80 dollari per tutta la prima settimana di luglio prima di scivolare verso i 77 dollari l'8-9 luglio, con alcuni report che citano un calo di circa il 5% nelle 24 ore (CoinGecko, Analytics Insight, CoinGabbar). XRP è scesa per quattro giorni consecutivi in un contesto di tensione geopolitica e basso appetito per il rischio, scendendo sotto 1,10 dollari (Cryptonews).</p>
+  <p class="ru">Слово «альткоин» объединяет в одну кучу сотни очень разных активов. Паттерн, который данные о доминации трактуют как «силу альткоинов», не применим к Solana или XRP — двум крупнейшим альткоинам вне ETH по рыночной капитализации. Несмотря на заголовки о росте числа кошельков и новых запусках в экосистеме, Solana держалась около $80 всю первую неделю июля, прежде чем сползти к $77 к 8-9 июля, при этом в некоторых отчётах указывалось падение примерно на 5% за 24 часа (CoinGecko, Analytics Insight, CoinGabbar). XRP падал четыре дня подряд на фоне геополитической напряжённости и низкого аппетита к риску, опустившись ниже $1,10 (Cryptonews).</p>
+  <p class="zh">「山寨幣」這個詞把數百種截然不同的資產混為一談。主導率數據所解讀的「山寨幣走強」模式,並不適用於Solana或XRP——按市值計算,這是兩個最大的非ETH山寨幣。儘管有關於錢包成長和新生態系上線的新聞標題,Solana在7月第一週仍守在80美元附近,直到7月8至9日才滑向77美元,部分報導稱24小時內跌幅約5%(CoinGecko、Analytics Insight、CoinGabbar)。XRP則在地緣政治緊張與風險偏好低迷之下連續四天下跌,跌破1.10美元(Cryptonews)。</p>
+  <p class="id">Penting bahwa keduanya adalah altcoin berkapitalisasi besar. Jika penurunan dominasi benar-benar menandakan altseason yang luas, aset sebesar ini seharusnya menjadi yang pertama merespons. Alih-alih begitu, hanya sekelompok kecil token tematik yang naik sementara altcoin berkapitalisasi besar justru turun — mengindikasikan angka dominasi mungkin digerakkan oleh modal yang terkonsentrasi di kantong kecil, bukan rotasi berbasis luas. Dibandingkan dengan pembacaan "dominasi masih belum keluar dari kotak 50-an tinggi" yang ditandai BTCtiming pada awal Juli, dominasi kini sudah turun lebih jauh, namun pengalaman nyata bagi altcoin berkapitalisasi besar belum membaik.</p>
+  <p class="pl">Ważne jest, że obie są altcoinami o dużej kapitalizacji. Jeśli spadek dominacji rzeczywiście sygnalizuje szeroki altseason, aktywa tej wielkości powinny reagować jako jedne z pierwszych. Zamiast tego wzrosła tylko wąska grupa tokenów tematycznych, podczas gdy altcoiny o dużej kapitalizacji spadały — co sugeruje, że liczba dominacji mogła zostać poruszona przez kapitał skoncentrowany w małej kieszeni, a nie przez szeroko zakrojoną rotację. W porównaniu z odczytem „dominacja wciąż nie wyszła z górnego przedziału 50%", na który BTCtiming wskazywał na początku lipca, dominacja spadła teraz jeszcze bardziej, ale realne odczucie dla dużych altcoinów się nie poprawiło.</p>
+  <p class="it">Conta il fatto che entrambe siano altcoin a grande capitalizzazione. Se un calo della dominance segnala davvero un'ampia altseason, asset di queste dimensioni dovrebbero essere tra i primi a reagire. Invece è salito solo un ristretto gruppo di token tematici mentre le altcoin a grande capitalizzazione scendevano — suggerendo che il dato di dominance possa essere stato mosso da capitale concentrato in una piccola nicchia piuttosto che da una rotazione ad ampio raggio. Rispetto alla lettura «la dominance non è ancora uscita dalla fascia alta del 50%» segnalata da BTCtiming a inizio luglio, la dominance è ora scesa ulteriormente, ma l'esperienza concreta per le altcoin a grande capitalizzazione non è migliorata.</p>
+  <p class="ru">Важно, что оба актива — крупные альткоины. Если снижение доминации действительно сигнализирует о широком альтсезоне, активы такого размера должны реагировать одними из первых. Вместо этого вырос лишь узкий набор тематических токенов, тогда как крупные альткоины падали — это говорит о том, что показатель доминации, возможно, сдвигался капиталом, сконцентрированным в небольшом кармане, а не широкой ротацией. По сравнению с оценкой «доминация всё ещё не вышла из коробки высоких 50%», которую BTCtiming отмечал в начале июля, доминация сейчас упала ещё сильнее, но реальное положение дел для крупных альткоинов не улучшилось.</p>
+  <p class="zh">重要的是,這兩者都是大型山寨幣。如果主導率下滑真的預示著廣泛的山寨幣季節,這種規模的資產應該是最先反應的一批。然而實際情況是,只有一小群主題性代幣上漲,大型山寨幣反而下跌——這顯示主導率數字的變動,可能來自集中在小範圍的資金,而非廣泛的輪動。相較於BTCtiming在7月初指出的「主導率仍未突破50%高段區間」的判斷,如今主導率已進一步下滑,但大型山寨幣的實際表現並未改善。</p>
 
   <h2 class="ko">파생상품·자금흐름도 확산을 확인해주지 않는다</h2>
   <h2 class="en">Derivatives and Fund Flows Don't Confirm It Either</h2>
@@ -384,6 +589,11 @@
   <h2 class="pt">Derivativos e Fluxos de Capital Também Não Confirmam</h2>
   <h2 class="tr">Türev Ürünler ve Fon Akışları da Bunu Doğrulamıyor</h2>
   <h2 class="vi">Phái Sinh và Dòng Vốn Cũng Không Xác Nhận Điều Đó</h2>
+  <h2 class="id">Data Derivatif dan Aliran Dana Juga Tidak Mengonfirmasinya</h2>
+  <h2 class="pl">Dane o Instrumentach Pochodnych i Przepływach Funduszy Też Tego Nie Potwierdzają</h2>
+  <h2 class="it">Nemmeno i Derivati e i Flussi di Fondi Lo Confermano</h2>
+  <h2 class="ru">Деривативы и потоки капитала тоже это не подтверждают</h2>
+  <h2 class="zh">衍生性商品與資金流向同樣未能證實這一點</h2>
 
   <p class="ko">레버리지 데이터도 같은 그림을 보여준다. 솔라나 무기한 선물의 미결제약정은 24시간 만에 약 4% 줄어 53억 달러 안팎으로 내려앉았고, 펀딩비는 한때 마이너스(-0.0042%)로 돌아섰다가 이후에도 0.0029% 수준의 미미한 플러스에 머물렀다(멕스씨). 미결제약정 감소와 펀딩비 약세가 동시에 나타나는 조합은 통상 레버리지 매수세가 빠지고 있다는 신호로 읽힌다. 같은 시기 FX스트리트는 솔라나 현물 ETF로의 자금 유입이 마르고 있다고 전했다. 정리하면 솔라나는 현물가격, 파생상품 포지셔닝, ETF 자금흐름 세 창구 모두에서 동시에 식고 있는 셈이다.</p>
   <p class="ko">반면 이더리움은 결이 다르다. BTCtiming이 앞서 짚었듯, 최근 사흘 중 이틀은 이더리움 현물 ETF 순유입이 비트코인 ETF보다 컸다. 즉 지금 실제로 움직이는 기관 자금은 알트코인 전반이 아니라 이더리움이라는 단일 자산의 ETF 래퍼로 좁게 쏠려 있다. 하이퍼리퀴드류 테마 토큰과 이더리움 ETF, 이 두 갈래를 빼면 나머지 대형 알트 시장에서는 자금 유입의 뚜렷한 증거가 보이지 않는다. 도미넌스 하락 하나로 "알트시즌이 시작됐다"고 단정하기엔, 그 아래 흐르는 자금의 결이 너무 좁고 얕다.</p>
@@ -403,6 +613,16 @@
   <p class="tr">Ether farklı bir hikaye anlatıyor. BTCtiming'in daha önce belirttiği gibi, ether'in spot ETF'si son üç işlem gününün ikisinde bitcoin ETF'sinden daha fazla net giriş çekti. Başka bir deyişle, şu anda gerçekten hareket eden kurumsal para altcoinlere geniş çapta yayılmıyor — tek bir varlığın ETF paketinde dar bir şekilde yoğunlaşıyor. HYPE tarzı tematik tokenlar ve ether ETF'sini çıkardığınızda, büyük ölçekli altcoin piyasasının geri kalanına akan taze sermayeye dair net bir kanıt neredeyse yok. Tek bir düşen dominans rakamı, bir altseason'ın başladığını ilan etmek için çok ince bir temel.</p>
   <p class="vi">Dữ liệu đòn bẩy kể một câu chuyện tương tự. Khối lượng mở của hợp đồng tương lai vĩnh viễn Solana giảm khoảng 4% trong 24 giờ xuống còn khoảng 5,3 tỷ đô la, và tỷ lệ funding có lúc chuyển sang âm (-0,0042%) trước khi ổn định ở mức dương rất nhỏ 0,0029% (MEXC). Khối lượng mở giảm kết hợp với funding yếu thường được hiểu là lực mua đòn bẩy đang rút lui. Cùng thời điểm đó, FXStreet đưa tin dòng vốn vào ETF giao ngay của Solana đang cạn dần. Tổng hợp lại, Solana đang nguội đi đồng thời trên cả giá giao ngay, vị thế phái sinh và dòng vốn ETF.</p>
   <p class="vi">Ether lại kể một câu chuyện khác. Như BTCtiming đã đề cập trước đó, ETF giao ngay của ether thu hút dòng vốn ròng nhiều hơn ETF bitcoin trong hai trong ba phiên giao dịch gần nhất. Nói cách khác, dòng tiền tổ chức thực sự đang di chuyển lúc này không lan tỏa rộng khắp các altcoin — mà tập trung hẹp vào vỏ bọc ETF của một tài sản duy nhất. Loại bỏ các token theo chủ đề kiểu HYPE và ETF ether, gần như không có bằng chứng rõ ràng nào về dòng vốn mới chảy vào phần còn lại của thị trường altcoin vốn hóa lớn. Một con số thống trị giảm duy nhất là nền tảng quá mỏng để tuyên bố rằng một altseason đã bắt đầu.</p>
+  <p class="id">Data leverage menceritakan kisah yang sama. Open interest pada futures perpetual Solana turun sekitar 4% dalam 24 jam menjadi sekitar $5,3 miliar, dan funding sempat berbalik negatif (-0,0042%) sebelum menetap di level positif tipis 0,0029% (MEXC). Open interest yang menurun dikombinasikan dengan funding yang lemah biasanya diartikan sebagai pembelian berleverage yang mundur. Sekitar waktu yang sama, FXStreet melaporkan bahwa arus masuk ke ETF spot Solana mulai mengering. Digabungkan, Solana mendingin secara bersamaan di harga spot, posisi derivatif, dan aliran dana ETF.</p>
+  <p class="pl">Dane o dźwigni opowiadają tę samą historię. Otwarte pozycje (open interest) w kontraktach wieczystych na Solanę spadły o około 4% w ciągu 24 godzin do około 5,3 mld USD, a finansowanie (funding) na chwilę przeszło na ujemne (-0,0042%), zanim ustabilizowało się na ledwo dodatnim poziomie 0,0029% (MEXC). Spadające otwarte pozycje w połączeniu ze słabym finansowaniem zwykle odczytuje się jako wycofywanie się lewarowanych zakupów. Mniej więcej w tym samym czasie FXStreet poinformował, że napływy do spotowego ETF-u na Solanę wysychają. Podsumowując, Solana chłodzi się jednocześnie w cenie spot, pozycjonowaniu na instrumentach pochodnych i przepływach funduszy ETF.</p>
+  <p class="it">I dati sulla leva raccontano la stessa storia. L'open interest sui futures perpetui di Solana è sceso di circa il 4% in 24 ore a circa 5,3 miliardi di dollari, e il funding è brevemente passato in negativo (-0,0042%) prima di stabilizzarsi su un valore appena positivo dello 0,0029% (MEXC). Un open interest in calo abbinato a un funding debole viene tipicamente letto come un ritiro degli acquisti a leva. Nello stesso periodo, FXStreet ha riportato che gli afflussi verso l'ETF spot di Solana si stavano prosciugando. Nel complesso, Solana si sta raffreddando contemporaneamente su prezzo spot, posizionamento sui derivati e flussi di fondi ETF.</p>
+  <p class="ru">Данные по кредитному плечу рассказывают ту же историю. Открытый интерес по бессрочным фьючерсам Solana снизился примерно на 4% за 24 часа до около $5,3 млрд, а ставка финансирования кратко ушла в отрицательную зону (-0,0042%), прежде чем закрепиться на едва положительном уровне 0,0029% (MEXC). Снижение открытого интереса в паре со слабым финансированием обычно трактуется как отход маржинальных покупателей. Примерно в то же время FXStreet сообщил, что приток средств в спотовый ETF Solana иссякает. В совокупности Solana охлаждается одновременно по спотовой цене, позиционированию на деривативах и потокам ETF.</p>
+  <p class="zh">槓桿數據講述的是同一個故事。Solana永續期貨的未平倉合約在24小時內下跌約4%,降至約53億美元,資金費率一度轉為負值(-0.0042%),隨後穩定在僅微幅為正的0.0029%(MEXC)。未平倉合約下滑與疲弱的資金費率同時出現,通常被解讀為槓桿買盤正在退場。同一時期,FXStreet報導稱流入Solana現貨ETF的資金正在枯竭。綜合來看,Solana在現貨價格、衍生性商品部位與ETF資金流向三方面同時降溫。</p>
+  <p class="id">Ether menceritakan kisah yang berbeda. Seperti dicatat BTCtiming sebelumnya, ETF spot ether menarik arus masuk bersih lebih besar daripada ETF bitcoin pada dua dari tiga hari perdagangan terakhir. Dengan kata lain, dana institusional yang benar-benar bergerak saat ini tidak menyebar luas ke seluruh altcoin — melainkan terkonsentrasi sempit pada wrapper ETF satu aset saja. Jika token tematik gaya HYPE dan ETF ether disingkirkan, hampir tidak ada bukti jelas modal segar mengalir ke sisa pasar altcoin berkapitalisasi besar. Satu angka dominasi yang menurun adalah dasar yang terlalu tipis untuk menyatakan bahwa altseason telah dimulai.</p>
+  <p class="pl">Ether opowiada inną historię. Jak wcześniej zauważył BTCtiming, spotowy ETF na ether przyciągnął większe napływy netto niż ETF na bitcoina w dwóch z ostatnich trzech dni sesyjnych. Innymi słowy, pieniądze instytucjonalne, które faktycznie się teraz poruszają, nie rozprzestrzeniają się szeroko po altcoinach — są wąsko skoncentrowane w opakowaniu ETF pojedynczego aktywa. Usuwając tokeny tematyczne w stylu HYPE oraz ETF na ether, pozostaje niewiele wyraźnych dowodów na napływ świeżego kapitału do reszty rynku dużych altcoinów. Pojedyncza, spadająca liczba dominacji to zbyt cienka podstawa, by ogłosić rozpoczęcie altseasonu.</p>
+  <p class="it">Ether racconta una storia diversa. Come notato in precedenza da BTCtiming, l'ETF spot dell'ether ha attirato più afflussi netti dell'ETF di bitcoin in due degli ultimi tre giorni di negoziazione. In altre parole, il denaro istituzionale che si sta effettivamente muovendo in questo momento non si sta diffondendo ampiamente tra le altcoin — è concentrato in modo ristretto nell'involucro ETF di un singolo asset. Escludendo i token tematici in stile HYPE e l'ETF dell'ether, c'è poca evidenza chiara di capitale fresco che affluisce nel resto del mercato delle altcoin a grande capitalizzazione. Un singolo dato di dominance in calo è una base troppo esile per dichiarare che un'altseason sia iniziata.</p>
+  <p class="ru">Эфир рассказывает другую историю. Как ранее отмечал BTCtiming, спотовый ETF на эфир привлёк больше чистого притока средств, чем ETF на биткоин, в два из последних трёх торговых дней. Иными словами, институциональные деньги, которые реально сейчас движутся, не распределяются широко по альткоинам — они узко сконцентрированы в ETF-обёртке одного актива. Если вычесть тематические токены в стиле HYPE и ETF на эфир, свидетельств притока свежего капитала в остальную часть рынка крупных альткоинов почти не остаётся. Единственная падающая цифра доминации — слишком слабое основание, чтобы объявлять о начале альтсезона.</p>
+  <p class="zh">以太幣則是另一個故事。正如BTCtiming先前指出,以太幣現貨ETF在最近三個交易日中有兩天的淨流入超過比特幣ETF。換言之,目前真正在流動的機構資金並未廣泛擴散到各類山寨幣,而是狹窄地集中在單一資產的ETF包裝之中。剔除HYPE這類主題性代幣與以太幣ETF後,幾乎沒有明確證據顯示有新資金流入其餘的大型山寨幣市場。單一一個下滑的主導率數字,作為宣告山寨幣季節已經展開的依據,實在太薄弱。</p>
 
   <div class="box ko">💡 BTCtiming 분석: 도미넌스는 비트코인과 그 외 전체를 나누는 하나의 숫자일 뿐, 그 '전체'가 고르게 오르고 있는지는 알려주지 않는다. 지금 국면에서 진짜로 확인해야 할 것은 도미넌스가 몇 %인지가 아니라, 솔라나·XRP 같은 대형 알트의 펀딩비와 현물가격이 함께 방향을 트는지다. 그렇지 않다면 이번 도미넌스 하락은 좁은 테마 로테이션이 통계에 남긴 흔적으로 끝날 수 있다.</div>
   <div class="box en">💡 BTCtiming's take: dominance is just one number dividing bitcoin from everything else — it says nothing about whether that "everything else" is rising evenly. What actually needs confirming right now isn't the dominance percentage but whether funding rates and spot prices for large-cap altcoins like Solana and XRP turn the same direction together. If they don't, this dominance decline may end up being nothing more than a narrow thematic rotation's fingerprint on a statistic.</div>
@@ -413,6 +633,11 @@
   <div class="box pt">💡 A análise da BTCtiming: a dominância é apenas um número que separa o bitcoin de tudo o mais — ela não diz nada sobre se esse "tudo o mais" está subindo de forma uniforme. O que realmente precisa ser confirmado agora não é a porcentagem de dominância, mas se as taxas de funding e os preços à vista de altcoins de grande capitalização como Solana e XRP mudam de direção juntas. Se não mudarem, essa queda de dominância pode acabar sendo apenas a marca de uma rotação temática estreita numa estatística.</div>
   <div class="box tr">💡 BTCtiming'in değerlendirmesi: Dominans, bitcoin'i geri kalan her şeyden ayıran tek bir rakamdır — bu "geri kalan her şeyin" eşit şekilde yükselip yükselmediği hakkında hiçbir şey söylemez. Şu anda gerçekten doğrulanması gereken şey dominans yüzdesi değil, Solana ve XRP gibi büyük ölçekli altcoinlerin fonlama oranları ve spot fiyatlarının birlikte aynı yöne dönüp dönmediğidir. Dönmezlerse, bu dominans düşüşü dar bir tematik rotasyonun bir istatistik üzerinde bıraktığı bir iz olmaktan öteye geçmeyebilir.</div>
   <div class="box vi">💡 Nhận định của BTCtiming: mức thống trị chỉ là một con số duy nhất phân chia bitcoin với phần còn lại — nó không nói lên việc "phần còn lại" đó có đang tăng đồng đều hay không. Điều thực sự cần xác nhận lúc này không phải là tỷ lệ thống trị bao nhiêu phần trăm, mà là liệu tỷ lệ funding và giá giao ngay của các altcoin vốn hóa lớn như Solana và XRP có cùng đổi hướng hay không. Nếu không, đợt giảm thống trị này rốt cuộc có thể chỉ là dấu vết của một đợt xoay vòng chủ đề hẹp để lại trên một con số thống kê.</div>
+  <div class="box id">💡 Pandangan BTCtiming: dominasi hanyalah satu angka yang memisahkan bitcoin dari segala sesuatu yang lain — angka ini tidak mengatakan apa pun tentang apakah "segala sesuatu yang lain" itu naik secara merata. Yang sebenarnya perlu dikonfirmasi sekarang bukan persentase dominasi, melainkan apakah funding rate dan harga spot altcoin berkapitalisasi besar seperti Solana dan XRP berbalik arah bersama-sama. Jika tidak, penurunan dominasi ini pada akhirnya bisa jadi tidak lebih dari jejak sebuah rotasi tematik sempit pada sebuah statistik.</div>
+  <div class="box pl">💡 Ocena BTCtiming: dominacja to tylko jedna liczba oddzielająca bitcoina od wszystkiego innego — nie mówi nic o tym, czy to „wszystko inne" rośnie równomiernie. Tym, co naprawdę wymaga teraz potwierdzenia, nie jest procent dominacji, lecz to, czy stopy finansowania i ceny spot dużych altcoinów, takich jak Solana i XRP, odwrócą się razem w tym samym kierunku. Jeśli nie, ten spadek dominacji może ostatecznie okazać się niczym więcej niż odciskiem wąskiej, tematycznej rotacji na statystyce.</div>
+  <div class="box it">💡 Il parere di BTCtiming: la dominance è solo un numero che divide bitcoin da tutto il resto — non dice nulla sul fatto che quel «tutto il resto» stia salendo in modo uniforme. Ciò che va davvero confermato ora non è la percentuale di dominance, ma se i funding rate e i prezzi spot delle altcoin a grande capitalizzazione come Solana e XRP invertono rotta insieme, nella stessa direzione. Se non lo fanno, questo calo della dominance potrebbe finire per essere nient'altro che l'impronta di una rotazione tematica ristretta su una statistica.</div>
+  <div class="box ru">💡 Мнение BTCtiming: доминация — это лишь одно число, разделяющее биткоин и всё остальное, — оно ничего не говорит о том, растёт ли это «всё остальное» равномерно. То, что действительно нужно подтвердить прямо сейчас, — не процент доминации, а то, развернутся ли ставки финансирования и спотовые цены крупных альткоинов вроде Solana и XRP одновременно в одном направлении. Если нет, это снижение доминации может в итоге оказаться не более чем следом узкой тематической ротации на статистике.</div>
+  <div class="box zh">💡 BTCtiming觀點:主導率只是區分比特幣與其他一切的一個數字——它無法告訴你「其他一切」是否正均勻上漲。現在真正需要確認的,不是主導率的百分比,而是Solana、XRP這類大型山寨幣的資金費率與現貨價格是否同步轉向。如果沒有,這次主導率下滑最終可能只是一場狹窄主題性輪動,留在統計數字上的一道痕跡。</div>
 
   <h2 class="ko">지금 지켜봐야 할 지점</h2>
   <h2 class="en">What to Watch From Here</h2>
@@ -423,6 +648,11 @@
   <h2 class="pt">O Que Observar a Partir de Agora</h2>
   <h2 class="tr">Bundan Sonra İzlenmesi Gerekenler</h2>
   <h2 class="vi">Điều Cần Theo Dõi Từ Đây</h2>
+  <h2 class="id">Yang Perlu Dipantau Mulai Sekarang</h2>
+  <h2 class="pl">Na Co Warto Teraz Zwracać Uwagę</h2>
+  <h2 class="it">Cosa Osservare da Qui in Avanti</h2>
+  <h2 class="ru">На что стоит смотреть дальше</h2>
+  <h2 class="zh">接下來需要關注的重點</h2>
 
   <p class="ko">앞으로 며칠간 확인할 세 가지가 있다. 첫째, 솔라나 펀딩비가 다시 확고히 플러스로 돌아서고 미결제약정이 반등하는지 — 이는 레버리지 매수세가 알트코인으로 복귀했다는 증거가 된다. 둘째, XRP·솔라나의 현물가격이 도미넌스 하락과 같은 방향으로 움직이기 시작하는지 — 지금처럼 반대로 움직이는 기간이 길어질수록 도미넌스 통계의 신뢰도는 떨어진다. 셋째, 하이퍼리퀴드를 비롯한 테마 토큰의 30일 상승률이 계속 둔화되는지 — 이미 최근 상승분 중 가장 낮은 수치를 기록했다는 점은 로테이션 자체의 힘이 빠지고 있다는 신호일 수 있다.</p>
   <p class="ko">이 세 지표가 동시에 돌아선다면 좁은 로테이션이 넓어지는 신호로 볼 수 있지만, 지금 시점에서는 그런 동조화가 확인되지 않는다. 도미넌스 숫자 하나만 보고 알트시즌의 시작을 선언하기엔 이르다. 오히려 지금은 비트코인이 홀로 반등하는 가운데, 그 반등을 자금 이동으로 오해하게 만드는 통계적 착시 구간에 더 가깝다.</p>
@@ -442,6 +672,16 @@
   <p class="tr">Bu üçü birlikte dönerse, bu dar rotasyonun genişlediğinin kanıtı olur. Şu anda böyle bir uyum ortaya çıkmadı. Tek bir dominans rakamına dayanarak bir altseason'ın başladığını ilan etmek için henüz erken. Şu an için buna en çok benzeyen şey, bitcoin'in tek başına yükselmesi — istatistiksel bir yanılsamanın bu tek başına hareketi daha geniş bir sermaye kaymasıyla karıştırmayı kolaylaştırdığı bir dönemde.</p>
   <p class="vi">Có ba điều đáng để xác nhận trong những ngày tới. Thứ nhất, liệu tỷ lệ funding của Solana có quay lại dương một cách vững chắc và khối lượng mở có phục hồi hay không — bằng chứng cho thấy lực mua đòn bẩy đã quay lại với altcoin. Thứ hai, liệu giá giao ngay của XRP và Solana có bắt đầu di chuyển cùng hướng với mức giảm thống trị hay không — càng di chuyển ngược hướng nhau lâu, con số thống trị càng khó được tin cậy như một tín hiệu. Thứ ba, liệu mức tăng 30 ngày của các token theo chủ đề như HYPE có tiếp tục chậm lại hay không — việc nó đã ghi nhận mức tăng thấp nhất trong số những cái tên dẫn đầu gần đây có thể là dấu hiệu bản thân đợt xoay vòng đang mất đà.</p>
   <p class="vi">Nếu cả ba điều này cùng đổi hướng, đó sẽ là bằng chứng cho thấy đợt xoay vòng hẹp đang mở rộng. Ngay lúc này, sự đồng bộ đó chưa xuất hiện. Còn quá sớm để tuyên bố một altseason đã bắt đầu chỉ dựa trên một con số thống trị duy nhất. Điều mà tình hình hiện tại giống hơn cả, là bitcoin đang tăng một mình — trong một giai đoạn mà ảo giác thống kê khiến người ta dễ nhầm lẫn bước đi đơn độc đó với một sự dịch chuyển vốn rộng lớn hơn.</p>
+  <p class="id">Ada tiga hal yang layak dikonfirmasi dalam beberapa hari ke depan. Pertama, apakah funding rate Solana kembali positif secara kuat dan open interest pulih — bukti bahwa pembelian berleverage telah kembali ke altcoin. Kedua, apakah harga spot XRP dan Solana mulai bergerak searah dengan penurunan dominasi — semakin lama keduanya bergerak berlawanan arah, semakin kecil kepercayaan yang bisa diberikan pada angka dominasi sebagai sinyal. Ketiga, apakah kenaikan 30 hari token tematik seperti HYPE terus melambat — fakta bahwa token ini sudah mencatat kenaikan terkecil di antara para pemimpin terbaru bisa berarti rotasi itu sendiri sedang kehilangan tenaga.</p>
+  <p class="pl">W nadchodzących dniach warto potwierdzić trzy rzeczy. Po pierwsze, czy stopa finansowania Solany ponownie stanie się mocno dodatnia, a otwarte pozycje odbiją — dowód, że lewarowane zakupy wróciły do altcoinów. Po drugie, czy ceny spot XRP i Solany zaczną poruszać się w tym samym kierunku co spadek dominacji — im dłużej poruszają się w przeciwnych kierunkach, tym mniej można ufać liczbie dominacji jako sygnałowi. Po trzecie, czy 30-dniowe wzrosty tokenów tematycznych, takich jak HYPE, będą nadal zwalniać — fakt, że już odnotował najmniejszy wzrost wśród ostatnich liderów, może oznaczać, że sama rotacja traci impet.</p>
+  <p class="it">Nei prossimi giorni vale la pena confermare tre cose. Primo, se il funding rate di Solana torna saldamente positivo e l'open interest rimbalza — prova che gli acquisti a leva sono tornati sulle altcoin. Secondo, se i prezzi spot di XRP e Solana iniziano a muoversi nella stessa direzione del calo della dominance — più a lungo si muovono in direzioni opposte, meno il dato di dominance può essere considerato un segnale affidabile. Terzo, se i guadagni a 30 giorni di token tematici come HYPE continuano a decelerare — il fatto che abbia già registrato il guadagno più piccolo tra i leader recenti potrebbe significare che la rotazione stessa sta perdendo slancio.</p>
+  <p class="ru">В ближайшие дни стоит подтвердить три вещи. Во-первых, вернётся ли ставка финансирования Solana в уверенно положительную зону и восстановится ли открытый интерес — доказательство того, что маржинальные покупки вернулись в альткоины. Во-вторых, начнут ли спотовые цены XRP и Solana двигаться в том же направлении, что и снижение доминации, — чем дольше они движутся в противоположных направлениях, тем меньше доверия можно оказывать показателю доминации как сигналу. В-третьих, продолжат ли замедляться 30-дневные приросты тематических токенов вроде HYPE — тот факт, что он уже показал наименьший прирост среди недавних лидеров, может означать, что сама ротация теряет импульс.</p>
+  <p class="zh">接下來幾天有三件事值得確認。第一,Solana的資金費率是否重新穩固轉正、未平倉合約是否回升——這將是槓桿買盤重返山寨幣的證據。第二,XRP與Solana的現貨價格是否開始與主導率下滑朝同一方向移動——兩者反向移動的時間拖得越久,主導率數字作為訊號的可信度就越低。第三,HYPE這類主題性代幣的30天漲幅是否持續放緩——它已經是近期領漲資產中漲幅最小的這個事實,可能意味著這波輪動本身正在失去動能。</p>
+  <p class="id">Jika ketiganya berbalik arah bersamaan, itu akan menjadi bukti bahwa rotasi sempit ini sedang meluas. Saat ini, keselarasan semacam itu belum muncul. Masih terlalu dini untuk menyatakan altseason telah dimulai hanya berdasarkan satu angka dominasi. Untuk saat ini, yang lebih tampak terjadi adalah bitcoin yang reli sendirian — dalam periode ketika ilusi statistik membuat pergerakan solo itu mudah disalahartikan sebagai pergeseran modal yang lebih luas.</p>
+  <p class="pl">Jeśli wszystkie trzy odwrócą się razem, byłby to dowód, że wąska rotacja się poszerza. W tej chwili takie zbieżności się nie pojawiły. Zbyt wcześnie jest, by ogłaszać rozpoczęcie altseasonu na podstawie pojedynczej liczby dominacji. To, co bardziej przypomina obecną sytuację, to bitcoin rajdujący samotnie — w okresie, gdy statystyczna iluzja sprawia, że ten solowy ruch łatwo pomylić z szerszym przesunięciem kapitału.</p>
+  <p class="it">Se tutte e tre invertono insieme, sarebbe la prova che la rotazione ristretta si sta ampliando. Al momento, un simile allineamento non si è ancora manifestato. È troppo presto per dichiarare che un'altseason sia iniziata sulla base di un singolo dato di dominance. Ciò a cui questo assomiglia di più, per ora, è bitcoin che sale da solo — in una fase in cui un'illusione statistica rende facile scambiare questo movimento solitario per uno spostamento di capitale più ampio.</p>
+  <p class="ru">Если все три развернутся одновременно, это станет доказательством того, что узкая ротация расширяется. Прямо сейчас такого совпадения не наблюдается. Слишком рано объявлять о начале альтсезона на основании единственной цифры доминации. На данный момент это больше похоже на то, что биткоин растёт в одиночку — в период, когда статистическая иллюзия позволяет легко принять это соло-движение за более широкий сдвиг капитала.</p>
+  <p class="zh">如果這三項指標同時轉向,將是這波狹窄輪動正在擴大的證據。但目前為止,這種同步尚未出現。僅憑單一個主導率數字就宣告山寨幣季節已經展開,還為時過早。就目前而言,更像的情況是比特幣正在獨自反彈——而在這個階段,一種統計上的錯覺讓人很容易把這場獨走誤認為是更廣泛的資金轉移。</p>
 
   <h2 class="ko">함께 보면 좋은 글</h2>
   <h2 class="en">Best Combined With</h2>
@@ -452,6 +692,11 @@
   <h2 class="pt">Melhor combinado com</h2>
   <h2 class="tr">En İyi Kombinasyon</h2>
   <h2 class="vi">Kết Hợp Tốt Nhất Với</h2>
+  <h2 class="id">Paling Cocok Dipadukan Dengan</h2>
+  <h2 class="pl">Najlepiej Połączyć z</h2>
+  <h2 class="it">Da Abbinare Preferibilmente a</h2>
+  <h2 class="ru">Лучше всего читать вместе с</h2>
+  <h2 class="zh">建議搭配閱讀</h2>
   <ul class="ko">
     <li><strong><a href="/blog/altseason-dominance-flip-watch">알트시즌 체크리스트 2단계, 지금 시장에 적용해보니</a>:</strong> 도미넌스 50%대 후반 박스권 진단의 이전 기록</li>
     <li><strong><a href="/blog/btc-rally-dominance-etf-sentiment-gap">비트코인 랠리와 도미넌스·ETF·심리지수의 괴리</a>:</strong> 7월 초 같은 도미넌스 하락을 ETF 자금 관점에서 짚은 글</li>
@@ -497,6 +742,31 @@
     <li><strong><a href="/vi/blog/btc-rally-dominance-etf-sentiment-gap">Đà Tăng Của BTC vs Thống Trị, Dòng Vốn ETF và Tâm Lý</a>:</strong> Phiên bản đầu tháng 7 của cùng đợt giảm thống trị này, nhìn qua dòng vốn ETF</li>
     <li><strong><a href="/vi/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Ba Ngày ETF Ether Vượt Qua ETF Bitcoin</a>:</strong> Về việc dòng tiền tổ chức tập trung vào ether</li>
   </ul>
+  <ul class="id">
+    <li><strong><a href="/id/blog/altseason-dominance-flip-watch">Menerapkan Langkah 2 Checklist Altseason ke Pasar Saat Ini</a>:</strong> Pembacaan sebelumnya soal dominasi yang macet di kotak 50-an tinggi</li>
+    <li><strong><a href="/id/blog/btc-rally-dominance-etf-sentiment-gap">Reli BTC vs Dominasi, Aliran ETF, dan Sentimen</a>:</strong> Versi awal Juli dari penurunan dominasi ini, dilihat lewat aliran ETF</li>
+    <li><strong><a href="/id/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Tiga Hari ETF Ether Melampaui ETF Bitcoin</a>:</strong> Soal dana institusional yang terkonsentrasi ke ether</li>
+  </ul>
+  <ul class="pl">
+    <li><strong><a href="/pl/blog/altseason-dominance-flip-watch">Zastosowanie Kroku 2 Listy Kontrolnej Altseasonu do Obecnego Rynku</a>:</strong> Wcześniejszy odczyt dominacji utkniętej w górnym przedziale 50%</li>
+    <li><strong><a href="/pl/blog/btc-rally-dominance-etf-sentiment-gap">Rajd BTC a Dominacja, Przepływy ETF i Sentyment</a>:</strong> Wersja tego spadku dominacji z początku lipca, widziana przez pryzmat przepływów ETF</li>
+    <li><strong><a href="/pl/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Trzy Dni, w Których ETF na Ether Wyprzedził ETF na Bitcoina</a>:</strong> O koncentracji pieniędzy instytucjonalnych w etherze</li>
+  </ul>
+  <ul class="it">
+    <li><strong><a href="/it/blog/altseason-dominance-flip-watch">Applicare il Passo 2 della Checklist Altseason al Mercato Attuale</a>:</strong> La precedente lettura della dominance bloccata nella fascia alta del 50%</li>
+    <li><strong><a href="/it/blog/btc-rally-dominance-etf-sentiment-gap">Il Rally di BTC vs Dominance, Flussi ETF e Sentiment</a>:</strong> La versione di inizio luglio di questo calo della dominance, vista attraverso i flussi ETF</li>
+    <li><strong><a href="/it/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">I Tre Giorni in cui l'ETF dell'Ether Ha Superato Quello di Bitcoin</a>:</strong> Sulla concentrazione di denaro istituzionale nell'ether</li>
+  </ul>
+  <ul class="ru">
+    <li><strong><a href="/ru/blog/altseason-dominance-flip-watch">Применение Шага 2 Чек-листа Альтсезона к Текущему Рынку</a>:</strong> Более ранняя оценка доминации, застрявшей в коробке высоких 50%</li>
+    <li><strong><a href="/ru/blog/btc-rally-dominance-etf-sentiment-gap">Ралли BTC против Доминации, Потоков ETF и Настроений</a>:</strong> Версия этого снижения доминации от начала июля, увиденная через потоки ETF</li>
+    <li><strong><a href="/ru/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">Три Дня, Когда ETF на Эфир Обогнал ETF на Биткоин</a>:</strong> О концентрации институциональных денег в эфире</li>
+  </ul>
+  <ul class="zh">
+    <li><strong><a href="/zh/blog/altseason-dominance-flip-watch">把山寨幣檢查清單第二步套用到當前市場</a>:</strong> 先前對主導率卡在50%高段區間的判讀</li>
+    <li><strong><a href="/zh/blog/btc-rally-dominance-etf-sentiment-gap">BTC反彈 vs 主導率、ETF資金流與市場情緒</a>:</strong> 7月初版本的這次主導率下滑,從ETF資金流角度解讀</li>
+    <li><strong><a href="/zh/blog/eth-etf-outpaces-btc-etf-options-defensive-skew-gap">以太幣ETF領先比特幣ETF的那三天</a>:</strong> 關於機構資金集中湧向以太幣的討論</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 코인데스크(CoinDesk), 코인게코(CoinGecko), 크립토슬레이트(CryptoSlate), 크립토랭크(CryptoRank), 트레이딩키(TradingKey), 크립토뉴스(Cryptonews), 애널리틱스인사이트(Analytics Insight), 코인개버(CoinGabbar), FX스트리트(FXStreet), 멕스씨(MEXC). 수치는 2026년 7월 7~10일 사이 보도 기준이며 이후 갱신될 수 있다. 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Figures are as reported between July 7-10, 2026, and may be updated as new data emerges. This is not investment advice.</p>
@@ -507,4 +777,9 @@
   <p class="pt" style="font-size:.85rem;color:#71717a">Fontes: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Os números correspondem ao que foi divulgado entre 7 e 10 de julho de 2026 e podem ser atualizados conforme surjam novos dados. Isto não constitui aconselhamento de investimento.</p>
   <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Rakamlar 7-10 Temmuz 2026 tarihleri arasındaki haberlere göredir ve yeni veriler ortaya çıktıkça güncellenebilir. Bu, yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:.85rem;color:#71717a">Nguồn: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Số liệu theo báo cáo trong khoảng ngày 7-10 tháng 7 năm 2026 và có thể được cập nhật khi có dữ liệu mới. Đây không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:.85rem;color:#71717a">Sumber: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Angka-angka sesuai yang dilaporkan antara 7-10 Juli 2026 dan dapat diperbarui seiring munculnya data baru. Ini bukan nasihat investasi.</p>
+  <p class="pl" style="font-size:.85rem;color:#71717a">Źródła: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Dane zgodne ze stanem raportowanym między 7 a 10 lipca 2026 r. i mogą być aktualizowane w miarę pojawiania się nowych danych. To nie jest porada inwestycyjna.</p>
+  <p class="it" style="font-size:.85rem;color:#71717a">Fonti: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. I dati sono quelli riportati tra il 7 e il 10 luglio 2026 e potrebbero essere aggiornati man mano che emergono nuovi dati. Questo non è un consiglio di investimento.</p>
+  <p class="ru" style="font-size:.85rem;color:#71717a">Источники: CoinDesk, CoinGecko, CryptoSlate, CryptoRank, TradingKey, Cryptonews, Analytics Insight, CoinGabbar, FXStreet, MEXC. Данные приведены по состоянию отчётности за 7-10 июля 2026 г. и могут обновляться по мере поступления новых данных. Это не является инвестиционным советом.</p>
+  <p class="zh" style="font-size:.85rem;color:#71717a">資料來源:CoinDesk、CoinGecko、CryptoSlate、CryptoRank、TradingKey、Cryptonews、Analytics Insight、CoinGabbar、FXStreet、MEXC。數據為2026年7月7日至10日期間的報導內容,可能隨新數據出現而更新。本文不構成投資建議。</p>
 <?php require __DIR__.'/_footer.php'; ?>
