@@ -804,6 +804,11 @@
 <h2 class="pt">Em Que Isso Difere do Efeito do Dinheiro da Casa — e Por Que o Bitcoin É o Terreno Fértil Perfeito Para Esse Efeito</h2>
 <h2 class="tr">Bu, Ev Parası Etkisinden Nasıl Farklıdır — ve Bitcoin Neden Bu Etki İçin Mükemmel Bir Üreme Alanıdır</h2>
 <h2 class="vi">Điều Này Khác Với Hiệu Ứng Tiền Nhà Như Thế Nào — Và Tại Sao Bitcoin Là Môi Trường Sinh Sôi Hoàn Hảo Cho Hiệu Ứng Này</h2>
+<h2 class="id">Bedanya dengan Efek Uang Rumah — dan Mengapa Bitcoin Adalah Tempat Berkembang Biak Sempurna untuk Efek Ini</h2>
+<h2 class="pl">Czym To Się Różni od Efektu Pieniędzy Domu — i Dlaczego Bitcoin Jest Idealną Pożywką dla Tego Efektu</h2>
+<h2 class="it">In Cosa Questo Differisce dall'Effetto del Denaro della Casa — e Perché Bitcoin È il Terreno di Coltura Perfetto per Questo Effetto</h2>
+<h2 class="ru">Чем Это Отличается от Эффекта «Денег Казино» — и Почему Биткоин Является Идеальной Питательной Средой для Этого Эффекта</h2>
+<h2 class="zh">這與莊家的錢效應有何不同——以及為什麼比特幣是這種效應的最佳溫床</h2>
 
 <p class="ko">이 블로그는 이미 <a href="/blog/house-money-overconfidence-trap">하우스 머니 효과(수익이 났을 때 그 돈을 "진짜 내 돈"이 아닌 것처럼 다루며 과도한 위험을 감수하는 현상)</a>를 다룬 바 있다. 도덕적 면허 효과는 이것과 뿌리부터 다른 메커니즘이다. 하우스 머니 효과는 실제로 돈을 벌어야 작동하지만, 사흐데바의 실험이 보여주듯 도덕적 면허 효과는 단 한 푼의 손익 없이도, 자신에 대한 좋은 이야기를 쓰는 것만으로 작동한다. 트레이딩에 대입하면, 정확히 원칙대로 손절매를 실행한 것, 정확히 계획한 크기로만 진입한 것, 그 자체가 — 그로 인해 돈을 벌었는지와 무관하게 — "나는 원칙 있는 트레이더"라는 신용을 쌓고, 그 신용은 다음 거래에서 소비된다.</p>
 <p class="en">This blog has already covered the <a href="/en/blog/house-money-overconfidence-trap">house-money effect — the pattern of treating profit as if it were not "real money," which leads to taking excessive risk</a>. Moral licensing is a mechanism with entirely different roots. The house-money effect requires actually making money to fire, but as Sachdeva's experiment shows, moral licensing operates without a single dollar of profit or loss — merely writing a positive story about yourself is enough. Applied to trading, executing a stop-loss exactly by the book, or entering with exactly the planned size, banks the credential "I am a disciplined trader" regardless of whether that particular trade made money — and that credential gets spent on the next trade.</p>

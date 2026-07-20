@@ -132,14 +132,14 @@
 <h2 class="es">Pero el Declive No Es una Línea Recta — Repunta Según el Régimen</h2>
 <h2 class="de">Doch der Rückgang Verläuft Nicht Geradlinig — Er Schnellt Je Nach Regime Wieder Hoch</h2>
 <h2 class="fr">Mais le Déclin N'est Pas une Ligne Droite — Il Rebondit Selon le Régime</h2>
+<h2 class="pt">Mas o Declínio Não É uma Linha Reta — Ele Volta a Saltar Conforme o Regime</h2>
+<h2 class="tr">Ama Bu Düşüş Düz Bir Çizgi Değil — Rejime Göre Yeniden Sıçrıyor</h2>
+<h2 class="vi">Nhưng Sự Suy Giảm Này Không Phải Là Một Đường Thẳng — Nó Bật Tăng Trở Lại Theo Từng Giai Đoạn</h2>
 <h2 class="id">Namun Penurunan Ini Bukan Garis Lurus — Ia Melonjak Kembali Menurut Rezim</h2>
 <h2 class="pl">Ale Ten Spadek Nie Jest Linią Prostą — Odbija w Górę w Zależności od Reżimu</h2>
 <h2 class="it">Ma il Declino Non È una Linea Retta — Risale a Seconda del Regime</h2>
 <h2 class="ru">Но Снижение Идёт Не по Прямой — Оно Снова Взлетает в Зависимости от Режима</h2>
 <h2 class="zh">但這種下降並非一條直線——它會隨市場階段再度跳升</h2>
-<h2 class="pt">Mas o Declínio Não É uma Linha Reta — Ele Volta a Saltar Conforme o Regime</h2>
-<h2 class="tr">Ama Bu Düşüş Düz Bir Çizgi Değil — Rejime Göre Yeniden Sıçrıyor</h2>
-<h2 class="vi">Nhưng Sự Suy Giảm Này Không Phải Là Một Đường Thẳng — Nó Bật Tăng Trở Lại Theo Từng Giai Đoạn</h2>
 
 <p class="ko">여기서 멈추면 결론은 단순해 보인다 — '비트코인은 갈수록 랜덤워크에 가까워지고 있으니, 추세추종은 이제 버려라'는 식이다. 하지만 실제 그림은 그렇게 깔끔하지 않다. 2018년 이후 롤링 윈도우로 허스트 지수를 추정한 여러 연구와 실무 분석은, 이 값이 0.5를 향해 단조롭게 수렴하는 대신 국면에 따라 요동친다는 사실을 거듭 보여준다. 강한 상승장이나 패닉에 가까운 급락장에서는 군중의 모멘텀 행동이 다시 강하게 작동하면서 허스트 지수가 0.65를 다시 웃도는 구간이 반복해서 나타나고, 방향성 없는 횡보 구간에서는 값이 0.5 근처나 그 아래로 떨어진다. 2024년 MDPI에 발표된 크립토 페어 트레이딩 연구는 반지속적(H<0.5) 구간에서 스프레드가 평균으로 회귀하는 속도가 유의미하게 빨라진다는 사실을 보여주며, 이런 국면 전환이 실제로 거래 가능한 신호라는 점을 뒷받침한다.</p>
 <p class="en">Stop here, and the conclusion looks simple: 'Bitcoin is drifting toward a random walk, so abandon trend-following.' But the actual picture isn't that tidy. Multiple studies and practitioner analyses estimating a rolling-window Hurst exponent since 2018 repeatedly show that the value doesn't converge monotonically toward 0.5 — it swings by regime. In strong bull runs or panic-driven crashes, crowd momentum behavior reasserts itself and the Hurst exponent repeatedly climbs back above 0.65, while in directionless, range-bound stretches, it falls back near or below 0.5. A 2024 study published in MDPI on crypto pairs trading found that spreads mean-revert significantly faster during anti-persistent (H&lt;0.5) windows, supporting the idea that this regime-switching is an actual, tradable signal.</p>

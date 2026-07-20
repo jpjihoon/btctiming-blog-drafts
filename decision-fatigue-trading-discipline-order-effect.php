@@ -265,6 +265,11 @@
   <h2 class="pt">Os mercados de Bitcoin não têm recesso às 15h</h2>
   <h2 class="tr">Bitcoin piyasalarında öğleden sonra 15:00 arası yok</h2>
   <h2 class="vi">Thị trường Bitcoin không có giờ nghỉ 3 giờ chiều</h2>
+  <h2 class="id">Pasar Bitcoin tidak memiliki jeda pukul 3 sore</h2>
+  <h2 class="pl">Rynki bitcoina nie mają przerwy o 15:00</h2>
+  <h2 class="it">I mercati di Bitcoin non hanno una pausa delle 15</h2>
+  <h2 class="ru">У рынка биткоина нет перерыва в 15:00</h2>
+  <h2 class="zh">比特幣市場沒有下午三點的休息時間</h2>
 
   <p class="ko">뉴욕증권거래소는 오후 4시에 닫힌다. 외환시장도 금요일 저녁부터 일요일 저녁까지는 멈춘다. 가석방위원회 판사들조차 하루 세 세션, 두 번의 강제 휴식이 있었다. 비트코인은 다르다 — 1년 365일, 하루 24시간 한 번도 닫히지 않는다. 판사의 승인율을 되돌린 건 <strong>강제로 부여된 휴식</strong>이었는데, 비트코인 트레이더에게는 그 리셋 장치 자체가 존재하지 않는다. 결정의 누적 개수를 0으로 되돌려줄 벨이 울리지 않으니, 결정 피로는 하루 종일 쌓이기만 하고 빠지지 않는다.</p>
   <p class="en">The New York Stock Exchange closes at 4pm. Forex markets pause from Friday evening to Sunday evening. Even the parole judges had three sessions a day with two mandatory breaks built in. Bitcoin is different — it never closes, not once, 24 hours a day, 365 days a year. What reset the judges' approval rate was a <strong>break imposed on them</strong>; that reset mechanism simply doesn't exist for a Bitcoin trader. No bell rings to zero out the cumulative decision count, so decision fatigue only accumulates through the day — it never drains.</p>
