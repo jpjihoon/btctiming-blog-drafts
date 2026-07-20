@@ -68,6 +68,11 @@
   "desc_pt": "A Associação Blockchain enviou uma carta formal de comentários à CFTC em 9 de julho, em resposta à Solicitação de Informações sobre fintech da agência, com 11 recomendações que abrangem garantias tokenizadas, stablecoins, DeFi, carteiras de autocustódia e mercados 24/7. Seus principais pedidos são reconhecer formalmente stablecoins de pagamento que atendam a padrões de reserva, resgate e liquidez como garantia de margem elegível, e parar de tratar automaticamente carteiras de autocustódia, interfaces e provedores de API como corretoras ou bolsas. O mesmo prazo atraiu cartas separadas da Hyperliquid e Phantom, e do Solana Policy Institute, transformando o período de comentários em uma corrida entre grupos do setor para moldar as regras cripto da CFTC.",
   "desc_tr": "Blockchain Association, 9 Temmuz'da CFTC'nin fintech Bilgi Talebi'ne (RFI) yanıt olarak, tokenize teminat, stabilcoinler, DeFi, kendi kendine saklama cüzdanları ve 7/24 piyasaları kapsayan 11 öneri içeren resmi bir görüş mektubu sundu. Ana talepleri, rezerv, geri alım ve likidite standartlarını karşılayan ödeme stabilcoinlerinin marjin teminatı olarak resmi şekilde tanınması ve kendi kendine saklama cüzdanlarının, ön yüzlerin ve API sağlayıcılarının otomatik olarak aracı kurum veya borsa sayılmasının durdurulması. Aynı son tarihte Hyperliquid ve Phantom ile Solana Policy Institute'tan da ayrı mektuplar geldi ve görüş bildirme dönemi, sektör gruplarının CFTC'nin kripto kurallarını şekillendirme yarışına dönüştü.",
   "desc_vi": "Blockchain Association đã nộp thư góp ý chính thức lên CFTC vào ngày 9 tháng 7 để phản hồi Yêu Cầu Thông Tin (RFI) về fintech của cơ quan này, đưa ra 11 khuyến nghị bao trùm tài sản thế chấp token hóa, stablecoin, DeFi, ví tự lưu ký và thị trường hoạt động 24/7. Yêu cầu trọng tâm của tổ chức này là chính thức công nhận các stablecoin thanh toán đáp ứng tiêu chuẩn về dự trữ, đổi lại và thanh khoản là tài sản thế chấp ký quỹ hợp lệ, đồng thời ngừng tự động coi ví tự lưu ký, giao diện người dùng và nhà cung cấp API là nhà môi giới hay sàn giao dịch. Cùng hạn chót đó, Hyperliquid và Phantom, cùng với Solana Policy Institute, cũng gửi các thư riêng, biến giai đoạn góp ý thành một cuộc đua giữa các nhóm ngành nhằm định hình các quy tắc tiền mã hóa của CFTC.",
+  "desc_id": "Blockchain Association mengajukan 11 usulan reformasi ke CFTC: akui stablecoin sebagai agunan margin, kecualikan dompet swakelola dari aturan broker.",
+  "desc_pl": "Blockchain Association złożyło w CFTC 11 propozycji reform: uznać stablecoiny za zabezpieczenie, wyłączyć portfele własne spod przepisów brokerskich.",
+  "desc_it": "La Blockchain Association ha proposto alla CFTC 11 riforme: riconoscere le stablecoin come garanzia, esentare i wallet in autocustodia dalle regole broker.",
+  "desc_ru": "Blockchain Association направила в CFTC 11 предложений: признать стейблкоины обеспечением маржи, вывести кошельки самохранения из-под правил о брокерах.",
+  "desc_zh": "區塊鏈協會於7月9日向CFTC提交11項改革建議,涵蓋代幣化擔保品、穩定幣與自我保管錢包等議題,核心訴求是承認穩定幣為合格保證金,並停止將自我保管錢包自動歸類為經紀商。同日,Hyperliquid、Phantom與Solana政策研究所也各自提交了意見書。",
   "read_ko": "7",
   "read_en": "7",
   "read_ja": "7",
@@ -76,5 +81,10 @@
   "read_fr": "7",
   "read_pt": "7",
   "read_tr": "7",
-  "read_vi": "7"
+  "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7"
 }
