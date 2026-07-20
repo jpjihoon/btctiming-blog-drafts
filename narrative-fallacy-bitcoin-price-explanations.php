@@ -681,6 +681,11 @@
 <h2 class="pt">A Regra Prática — Transforme Explicações em Previsões</h2>
 <h2 class="tr">Pratik Kural — Açıklamaları Tahminlere Dönüştürün</h2>
 <h2 class="vi">Quy Tắc Thực Chiến — Biến Lời Giải Thích Thành Dự Đoán</h2>
+<h2 class="id">Aturan Praktis — Ubah Penjelasan Menjadi Prediksi</h2>
+<h2 class="pl">Praktyczna Zasada — Zamień Wyjaśnienia w Predykcje</h2>
+<h2 class="it">La Regola Pratica — Trasforma le Spiegazioni in Previsioni</h2>
+<h2 class="ru">Практическое Правило — Превратите Объяснения в Прогнозы</h2>
+<h2 class="zh">實戰規則——把解釋變成預測</h2>
 
 <p class="ko">이 오류를 완전히 없앨 방법은 없다. 인간은 설명 없는 불확실성을 구조적으로 견디기 어려워한다. 대신 실전에서 쓸 수 있는 규율은 세 가지로 좁혀진다. 첫째, 오늘 가격이 왜 움직였는지 설명하는 습관을 버리고 "무엇이 바뀌었는가"만 기록한다 — 원인 서술이 아니라 사실 서술만 저널링한다. 둘째, 어떤 서사를 트레이딩 근거로 쓰려면 그것을 반드시 반증 가능한 조건으로 바꾼다. "인플레이션 헤지"라면 "다음 CPI 서프라이즈가 나오면 비트코인은 금과 같은 방향으로, 비슷한 폭으로 움직여야 한다"는 식으로 미리 조건을 못박고, 조건이 깨지면 서사를 실제로 폐기한다.</p>
 <p class="en">There's no way to eliminate this bias outright; humans are structurally bad at tolerating unexplained uncertainty. What's left is three rules that actually work in practice. First, drop the habit of explaining why price moved today and log only what changed — record facts, not causal narration. Second, if a narrative is going to be used as a trading thesis, convert it into a falsifiable condition in advance. "Inflation hedge" becomes: "on the next CPI surprise, Bitcoin must move in the same direction as gold, by a comparable magnitude" — set the condition before the fact, and actually retire the narrative when it breaks.</p>
