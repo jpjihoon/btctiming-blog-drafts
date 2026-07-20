@@ -849,6 +849,11 @@
 <h2 class="pt">"Cumprir Melhor as Regras" Não É uma Solução — Projete uma Estrutura Que Nunca Crie a Credencial</h2>
 <h2 class="tr">"Kurallara Daha İyi Uy" Bir Çözüm Değildir — Kimlik Belgesini Hiç Yaratmayan Bir Yapı Tasarlayın</h2>
 <h2 class="vi">"Tuân Thủ Quy Tắc Tốt Hơn" Không Phải Là Giải Pháp — Hãy Thiết Kế Một Cấu Trúc Không Bao Giờ Tạo Ra Chứng Chỉ Đó</h2>
+<h2 class="id">"Cukup Ikuti Aturan dengan Lebih Baik" Bukanlah Solusi — Rancang Struktur yang Tidak Pernah Menciptakan Kredensial Itu</h2>
+<h2 class="pl">"Po Prostu Przestrzegaj Zasad Lepiej" Nie Jest Rozwiązaniem — Zaprojektuj Strukturę, Która Nigdy Nie Tworzy Poświadczenia</h2>
+<h2 class="it">«Basta Seguire Meglio le Regole» Non È una Soluzione — Progetta una Struttura che Non Crei Mai la Credenziale</h2>
+<h2 class="ru">«Просто Соблюдай Правила Лучше» — Не Решение: Спроектируйте Структуру, Которая Никогда Не Создает Этот Статус</h2>
+<h2 class="zh">「只要更好地遵守規則」並非解方——設計一套永遠不會產生這項憑證的結構</h2>
 
 <p class="ko">도덕적 면허 효과 앞에서 "의지를 더 다잡아라"는 조언은 무력하다 — 그 의지, 그 다짐 자체가 캐시오와 플랜트의 실험이 보여준 대로 면허의 원료이기 때문이다. 연구자들이 공통으로 제안하는 방향은 신용이 애초에 축적되지 않도록 설계하는 것이다. 트레이딩에서 이건 구체적으로, 손절을 지킨 거래를 "내가 잘했다"는 자기 서사로 기록하지 않는 걸 뜻한다 — 대신 "시스템이 예정대로 작동했다"로 기록하는 것이다. 성취가 아니라 절차의 반복으로 프레이밍하면, 다음 거래에서 소비할 신용 자체가 애초에 쌓이지 않는다.</p>
 <p class="en">In the face of moral licensing, the advice "just strengthen your resolve" is powerless — because that resolve, that very promise, is itself the raw material of the license, as Cascio and Plant's experiment demonstrated. The direction researchers converge on is designing things so the credential never accumulates in the first place. In trading, concretely, that means not logging a trade where you respected your stop as a self-narrative of "I did well" — logging it instead as "the system worked as scheduled." Frame it as the repetition of a procedure rather than an achievement, and there is no credential left to spend on the next trade to begin with.</p>
