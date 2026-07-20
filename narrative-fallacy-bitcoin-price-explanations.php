@@ -591,6 +591,11 @@
 <h2 class="pt">Os Mesmos Dados, Manchetes Opostas</h2>
 <h2 class="tr">Aynı Veri, Zıt Manşetler</h2>
 <h2 class="vi">Cùng Một Dữ Liệu, Những Tiêu Đề Trái Ngược</h2>
+<h2 class="id">Data yang Sama, Judul yang Bertolak Belakang</h2>
+<h2 class="pl">Te Same Dane, Przeciwstawne Nagłówki</h2>
+<h2 class="it">Stessi Dati, Titoli Opposti</h2>
+<h2 class="ru">Одни и Те Же Данные, Противоположные Заголовки</h2>
+<h2 class="zh">同樣的數據,截然相反的標題</h2>
 
 <p class="ko">2026년 6월, 미국 현물 비트코인 ETF에서 약 45억 1천만 달러가 순유출됐다 — 상장 이후 최대 규모의 월간 유출이었다. 같은 2주 동안 온체인 데이터는 대형 지갑, 이른바 고래들이 약 167억 달러 규모를 매집했음을 보여줬다. 이 두 통계는 완전히 같은 시장, 완전히 같은 기간의 데이터였다. 그런데 이를 다룬 기사는 정반대로 갈렸다 — 한쪽은 "ETF 대규모 이탈, 약세 압력 가중"이라는 제목을, 다른 한쪽은 "고래 매집에 반등 시동"이라는 제목을 달았다. 실제 가격은 그 뒤 6만 달러대에서 반등해 숏 스퀴즈로 하루 만에 약 2억 8천만 달러 규모의 숏 포지션이 청산됐다.</p>
 <p class="en">In June 2026, U.S. spot Bitcoin ETFs saw roughly $4.51 billion in net outflows — the largest monthly outflow since launch. Over that same two-week stretch, on-chain data showed large wallets, so-called whales, accumulating roughly $16.7 billion worth of Bitcoin. Both numbers describe the exact same market over the exact same period. Coverage split in opposite directions anyway — one set of headlines read "ETF Exodus Deepens Bearish Pressure," another read "Whale Accumulation Sparks Rebound." Price subsequently rebounded from the low $60,000s, and a short squeeze wiped out roughly $280 million in short positions in a single day.</p>

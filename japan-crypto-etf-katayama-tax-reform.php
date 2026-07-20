@@ -480,6 +480,11 @@
 <h2 class="pt">O que observar — o "vamos estudar" de uma ministra e o calendário da Dieta</h2>
 <h2 class="tr">İzlenmesi Gerekenler — Bir Bakanın "İnceleyeceğiz" Sözü ve Meclis Takvimi</h2>
 <h2 class="vi">Những Điều Cần Theo Dõi — Lời "Chúng Tôi Sẽ Nghiên Cứu" Của Bộ Trưởng Và Lịch Trình Quốc Hội</h2>
+<h2 class="id">Yang Perlu Diperhatikan — "Kami Akan Mengkaji" dari Sang Menteri dan Kalender Diet</h2>
+<h2 class="pl">Co Obserwować — „Zbadamy To" Minister i Kalendarz Diety</h2>
+<h2 class="it">Cosa Osservare — Il "Lo Studieremo" della Ministra e il Calendario della Dieta</h2>
+<h2 class="ru">На Что Обратить Внимание — «Мы Изучим Это» От Министра И Календарь Парламента</h2>
+<h2 class="zh">後續觀察重點——大臣的「將予以研議」與國會議程變數</h2>
 
 <p class="ko">가타야마 재무상의 발언은 어디까지나 세미나 자리에서 나온 '검토하겠다'는 의사 표명이지, 통과된 법이나 확정된 세율이 아니다. 일본에서 암호자산 분리과세 요구는 새로운 것이 아니다 — 일본가상자산비즈니스협회(JVCEA) 등 업계 단체는 2017~2018년부터 매년 세제개정 요망서를 통해 20%대 분리과세를 요청해왔지만, 여러 해 동안 정부 세제조사회의 문턱을 넘지 못하고 '검토 과제'로만 남아 있었다. 이번에 다른 점은 FIEA 재분류라는 법안이 실제로 각의를 통과해 국회에 상정됐다는 것이지만, 그 법안조차 아직 가결되지 않았고 세제 개편은 FIEA 재분류와 별도의 세제 개정 절차(통상 12월 여당 세제대강 발표 이후 익년도 예산안에 반영)를 거쳐야 한다는 점은 여전하다.</p>
 <p class="en">Katayama's remark, at bottom, was a "we will study it" statement made at a seminar — not a passed law or a finalized tax rate. The push for separate crypto taxation in Japan isn't new: industry groups such as the Japan Virtual and Crypto Assets Business Association (JVCEA) have submitted annual tax-reform requests for a roughly 20% separate rate since 2017-2018, only to see them fail to clear the government's tax panel year after year, remaining stuck as a "matter under consideration." What's different this time is that the FIEA reclassification bill has actually cleared the cabinet and reached the Diet — but that bill itself hasn't passed yet, and the tax reform still has to go through its own separate process (typically reflected in the following year's budget after the ruling party's December tax outline).</p>
