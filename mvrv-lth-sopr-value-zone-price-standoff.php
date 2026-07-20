@@ -479,6 +479,176 @@
   <text x="20" y="378" fill="#a1a1aa" font-family="sans-serif" font-size="13">Số liệu gần đúng vào đầu tháng 7/2026; các dải là sơ đồ minh họa</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MVRV Z-Score vs LTH SOPR — Alat Ukur Zona Nilai (per Juli 2026)</text>
+  <text x="20" y="72" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">MVRV Z-Score: 0.3</text>
+  <rect x="100" y="84" width="104" height="34" fill="#f87171"/>
+  <rect x="204" y="84" width="208" height="34" fill="#fbbf24"/>
+  <rect x="412" y="84" width="208" height="34" fill="#fb923c"/>
+  <line x1="219.6" y1="70" x2="219.6" y2="118" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="219.6" cy="70" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="219.6" y="58" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.3</text>
+  <text x="100" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">-2</text>
+  <text x="204" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">0</text>
+  <text x="412" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">4</text>
+  <text x="620" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">8</text>
+  <text x="152" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Undervalued</text>
+  <text x="308" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Netral / zona nilai</text>
+  <text x="516" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Terlalu Panas / euforia</text>
+  <text x="20" y="190" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">SOPR LTH rata-rata 30 hari: 0.88</text>
+  <rect x="100" y="202" width="260" height="34" fill="#f87171"/>
+  <rect x="360" y="202" width="260" height="34" fill="#34d399"/>
+  <line x1="256" y1="188" x2="256" y2="236" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="256" cy="188" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="256" y="176" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.88</text>
+  <text x="100" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">0.7</text>
+  <text x="360" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">1.0</text>
+  <text x="620" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">1.3</text>
+  <text x="230" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Zona jual rugi</text>
+  <text x="490" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Zona jual untung</text>
+  <text x="20" y="308" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">Kedua pembacaan berada di wilayah yang hanya terlihat mendekati dasar siklus sebelumnya</text>
+  <text x="20" y="330" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">— namun harga tetap berada dalam pita 307 harinya</text>
+  <text x="20" y="358" fill="#a1a1aa" font-family="sans-serif" font-size="13">Sumber: AhaSignals, MacroMicro (MVRV Z-Score); KuCoin, CryptoQuant (SOPR LTH rata-rata 30 hari)</text>
+  <text x="20" y="378" fill="#a1a1aa" font-family="sans-serif" font-size="13">Angka merupakan perkiraan per awal Juli 2026; pita bersifat skematis dan dapat berbeda dari distribusi sebenarnya</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MVRV Z-Score a LTH SOPR — Wskaźnik Strefy Wartości (stan na lipiec 2026)</text>
+  <text x="20" y="72" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">MVRV Z-Score: 0.3</text>
+  <rect x="100" y="84" width="104" height="34" fill="#f87171"/>
+  <rect x="204" y="84" width="208" height="34" fill="#fbbf24"/>
+  <rect x="412" y="84" width="208" height="34" fill="#fb923c"/>
+  <line x1="219.6" y1="70" x2="219.6" y2="118" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="219.6" cy="70" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="219.6" y="58" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.3</text>
+  <text x="100" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">-2</text>
+  <text x="204" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">0</text>
+  <text x="412" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">4</text>
+  <text x="620" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">8</text>
+  <text x="152" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Niedowartościowany</text>
+  <text x="308" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Neutralnie / strefa wartości</text>
+  <text x="516" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Przegrzanie / euforia</text>
+  <text x="20" y="190" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">Śr. 30-dniowa SOPR LTH: 0.88</text>
+  <rect x="100" y="202" width="260" height="34" fill="#f87171"/>
+  <rect x="360" y="202" width="260" height="34" fill="#34d399"/>
+  <line x1="256" y1="188" x2="256" y2="236" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="256" cy="188" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="256" y="176" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.88</text>
+  <text x="100" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">0.7</text>
+  <text x="360" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">1.0</text>
+  <text x="620" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">1.3</text>
+  <text x="230" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Strefa sprzedaży ze stratą</text>
+  <text x="490" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Strefa sprzedaży z zyskiem</text>
+  <text x="20" y="308" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">Oba odczyty znajdują się w obszarze widywanym tylko w pobliżu wcześniejszych dołków cyklu</text>
+  <text x="20" y="330" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">— jednak cena pozostaje w swoim 307-dniowym paśmie</text>
+  <text x="20" y="358" fill="#a1a1aa" font-family="sans-serif" font-size="13">Źródło: AhaSignals, MacroMicro (MVRV Z-Score); KuCoin, CryptoQuant (śr. 30-dniowa SOPR LTH)</text>
+  <text x="20" y="378" fill="#a1a1aa" font-family="sans-serif" font-size="13">Wartości przybliżone na początek lipca 2026; pasma mają charakter schematyczny i mogą różnić się od rzeczywistego rozkładu</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MVRV Z-Score vs SOPR LTH — Misuratore della Zona di Valore (a luglio 2026)</text>
+  <text x="20" y="72" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">MVRV Z-Score: 0.3</text>
+  <rect x="100" y="84" width="104" height="34" fill="#f87171"/>
+  <rect x="204" y="84" width="208" height="34" fill="#fbbf24"/>
+  <rect x="412" y="84" width="208" height="34" fill="#fb923c"/>
+  <line x1="219.6" y1="70" x2="219.6" y2="118" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="219.6" cy="70" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="219.6" y="58" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.3</text>
+  <text x="100" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">-2</text>
+  <text x="204" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">0</text>
+  <text x="412" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">4</text>
+  <text x="620" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">8</text>
+  <text x="152" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Sottovalutato</text>
+  <text x="308" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Neutrale / zona di valore</text>
+  <text x="516" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Surriscaldato / euforia</text>
+  <text x="20" y="190" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">Media 30gg SOPR LTH: 0.88</text>
+  <rect x="100" y="202" width="260" height="34" fill="#f87171"/>
+  <rect x="360" y="202" width="260" height="34" fill="#34d399"/>
+  <line x1="256" y1="188" x2="256" y2="236" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="256" cy="188" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="256" y="176" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.88</text>
+  <text x="100" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">0.7</text>
+  <text x="360" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">1.0</text>
+  <text x="620" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">1.3</text>
+  <text x="230" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Zona di vendita in perdita</text>
+  <text x="490" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Zona di vendita in profitto</text>
+  <text x="20" y="308" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">Entrambe le letture si trovano in un territorio visto solo vicino ai minimi dei cicli precedenti</text>
+  <text x="20" y="330" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">— eppure il prezzo resta dentro la sua fascia di 307 giorni</text>
+  <text x="20" y="358" fill="#a1a1aa" font-family="sans-serif" font-size="13">Fonte: AhaSignals, MacroMicro (MVRV Z-Score); KuCoin, CryptoQuant (media 30gg SOPR LTH)</text>
+  <text x="20" y="378" fill="#a1a1aa" font-family="sans-serif" font-size="13">Cifre approssimative a inizio luglio 2026; le fasce sono schematiche e possono differire dalla distribuzione reale</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MVRV Z-Score и LTH SOPR — Индикатор Зоны Стоимости (по состоянию на июль 2026)</text>
+  <text x="20" y="72" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">MVRV Z-Score: 0.3</text>
+  <rect x="100" y="84" width="104" height="34" fill="#f87171"/>
+  <rect x="204" y="84" width="208" height="34" fill="#fbbf24"/>
+  <rect x="412" y="84" width="208" height="34" fill="#fb923c"/>
+  <line x1="219.6" y1="70" x2="219.6" y2="118" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="219.6" cy="70" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="219.6" y="58" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.3</text>
+  <text x="100" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">-2</text>
+  <text x="204" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">0</text>
+  <text x="412" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">4</text>
+  <text x="620" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">8</text>
+  <text x="152" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Недооценено</text>
+  <text x="308" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Нейтрально / зона стоимости</text>
+  <text x="516" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Перегрев / эйфория</text>
+  <text x="20" y="190" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">LTH SOPR, 30-дн. средн.: 0.88</text>
+  <rect x="100" y="202" width="260" height="34" fill="#f87171"/>
+  <rect x="360" y="202" width="260" height="34" fill="#34d399"/>
+  <line x1="256" y1="188" x2="256" y2="236" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="256" cy="188" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="256" y="176" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.88</text>
+  <text x="100" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">0.7</text>
+  <text x="360" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">1.0</text>
+  <text x="620" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">1.3</text>
+  <text x="230" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Зона продаж в убыток</text>
+  <text x="490" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">Зона продаж в прибыль</text>
+  <text x="20" y="308" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">Оба показателя находятся в зоне, наблюдавшейся только вблизи прошлых минимумов цикла</text>
+  <text x="20" y="330" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">— однако цена остаётся в своём 307-дневном диапазоне</text>
+  <text x="20" y="358" fill="#a1a1aa" font-family="sans-serif" font-size="13">Источник: AhaSignals, MacroMicro (MVRV Z-Score); KuCoin, CryptoQuant (LTH SOPR, 30-дн. средн.)</text>
+  <text x="20" y="378" fill="#a1a1aa" font-family="sans-serif" font-size="13">Цифры приблизительные, по состоянию на начало июля 2026 года; полосы схематичны и могут отличаться от фактического распределения</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">MVRV Z分數 vs LTH SOPR——價值區間指標(截至2026年7月)</text>
+  <text x="20" y="72" fill="#fbbf24" font-size="14" font-weight="700" font-family="sans-serif">MVRV Z分數:0.3</text>
+  <rect x="100" y="84" width="104" height="34" fill="#f87171"/>
+  <rect x="204" y="84" width="208" height="34" fill="#fbbf24"/>
+  <rect x="412" y="84" width="208" height="34" fill="#fb923c"/>
+  <line x1="219.6" y1="70" x2="219.6" y2="118" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="219.6" cy="70" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="219.6" y="58" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.3</text>
+  <text x="100" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">-2</text>
+  <text x="204" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">0</text>
+  <text x="412" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">4</text>
+  <text x="620" y="134" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">8</text>
+  <text x="152" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">低估</text>
+  <text x="308" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">中性・價值區間</text>
+  <text x="516" y="152" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">過熱・欣快</text>
+  <text x="20" y="190" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">LTH SOPR 30日均值:0.88</text>
+  <rect x="100" y="202" width="260" height="34" fill="#f87171"/>
+  <rect x="360" y="202" width="260" height="34" fill="#34d399"/>
+  <line x1="256" y1="188" x2="256" y2="236" stroke="#fafafa" stroke-width="2.5"/>
+  <circle cx="256" cy="188" r="7" fill="#fafafa" stroke="#111113" stroke-width="2"/>
+  <text x="256" y="176" fill="#fafafa" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="middle">0.88</text>
+  <text x="100" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="start">0.7</text>
+  <text x="360" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="middle">1.0</text>
+  <text x="620" y="252" fill="#a1a1aa" font-family="sans-serif" font-size="13" text-anchor="end">1.3</text>
+  <text x="230" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">虧損拋售區間</text>
+  <text x="490" y="270" fill="#fafafa" font-family="sans-serif" font-size="13" text-anchor="middle">獲利拋售區間</text>
+  <text x="20" y="308" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">兩項指標均處於過去僅在週期底部附近才會出現的區間</text>
+  <text x="20" y="330" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="700">——但價格仍停留在其307天區間內</text>
+  <text x="20" y="358" fill="#a1a1aa" font-family="sans-serif" font-size="13">資料來源:AhaSignals、MacroMicro(MVRV Z分數);KuCoin、CryptoQuant(LTH SOPR 30日均值)</text>
+  <text x="20" y="378" fill="#a1a1aa" font-family="sans-serif" font-size="13">數值為2026年7月初的近似值;區間為概念示意,可能與實際分布有所不同</text>
+</svg>
+</div>
 
 <h2 class="ko">신호는 겹치는가 — '무너지지 않는 붕괴'라는 국면</h2>
 <h2 class="en">Do the Signals Line Up? — A "Capitulation Without Collapse" Phase</h2>
