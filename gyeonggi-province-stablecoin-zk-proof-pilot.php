@@ -9,6 +9,11 @@
   <p class="pt">A província de Gyeonggi, o governo provincial mais populoso da Coreia do Sul, lançará em agosto a primeira fase de um piloto de stablecoin que abrange pagamentos públicos, subsídios e vouchers. A província informou ter selecionado a empresa de segurança blockchain ZKrypto como contratada após um processo de licitação que atraiu 24 candidatos. O diretor executivo da ZKrypto, Kim Bong-gyu, explicou que a empresa venceu o contrato superando outros 23 concorrentes.</p>
   <p class="tr">Güney Kore'nin en kalabalık il yönetimi olan Gyeonggi Eyaleti, Ağustos'ta kamu ödemeleri, sübvansiyonlar ve kuponları kapsayan bir stabilcoin pilotunun ilk aşamasını başlatacak. Eyalet, 24 firmanın katıldığı bir ihale sürecinin ardından blockchain güvenlik firması ZKrypto'yu yüklenici olarak seçtiğini açıkladı. ZKrypto İcra Direktörü Kim Bong-gyu, şirketin 23 rakibini geride bırakarak sözleşmeyi kazandığını belirtti.</p>
   <p class="vi">Tỉnh Gyeonggi, chính quyền cấp tỉnh đông dân nhất Hàn Quốc, sẽ khởi động giai đoạn đầu tiên của một thí điểm stablecoin vào tháng 8, bao gồm thanh toán công, trợ cấp và phiếu mua hàng. Tỉnh cho biết đã chọn công ty bảo mật blockchain ZKrypto làm nhà thầu sau một quá trình đấu thầu thu hút 24 đơn vị tham gia. Giám đốc điều hành Kim Bong-gyu của ZKrypto cho biết công ty đã giành được hợp đồng khi vượt qua 23 đối thủ cạnh tranh khác.</p>
+  <p class="id">Provinsi Gyeonggi, pemerintah provinsi terpadat di Korea Selatan, akan meluncurkan tahap pertama uji coba stablecoin pada Agustus yang mencakup pembayaran publik, subsidi, dan voucher. Provinsi tersebut menyatakan telah memilih perusahaan keamanan blockchain ZKrypto sebagai kontraktor setelah proses tender yang diikuti oleh 24 peserta. Direktur Eksekutif ZKrypto, Kim Bong-gyu, mengatakan perusahaannya memenangkan kontrak tersebut dengan mengalahkan 23 pesaing lainnya.</p>
+  <p class="pl">Prowincja Gyeonggi, najludniejsza jednostka administracyjna Korei Południowej, uruchomi w sierpniu pierwszy etap pilotażu stablecoina obejmującego płatności publiczne, dotacje i bony. Prowincja poinformowała, że wybrała firmę zajmującą się bezpieczeństwem blockchain ZKrypto jako wykonawcę po procesie przetargowym, w którym wzięło udział 24 oferentów. Dyrektor wykonawczy ZKrypto, Kim Bong-gyu, powiedział, że firma wygrała kontrakt, pokonując 23 innych konkurentów.</p>
+  <p class="it">La provincia di Gyeonggi, il governo provinciale più popoloso della Corea del Sud, lancerà ad agosto la prima fase di un progetto pilota di stablecoin che riguarda pagamenti pubblici, sussidi e buoni. La provincia ha dichiarato di aver selezionato l'azienda di sicurezza blockchain ZKrypto come appaltatore dopo un processo di gara che ha attirato 24 candidati. Il direttore esecutivo di ZKrypto, Kim Bong-gyu, ha spiegato che l'azienda si è aggiudicata il contratto superando altri 23 concorrenti.</p>
+  <p class="ru">Провинция Кёнгидо, самая густонаселённая провинциальная администрация Южной Кореи, запустит в августе первый этап пилотного проекта стейблкоина, охватывающего государственные платежи, субсидии и ваучеры. Провинция сообщила, что выбрала компанию по блокчейн-безопасности ZKrypto в качестве подрядчика по итогам тендера, в котором приняли участие 24 претендента. Исполнительный директор ZKrypto Ким Бон Гю заявил, что компания выиграла контракт, обойдя 23 других конкурентов.</p>
+  <p class="zh">京畿道,南韓人口最多的道級行政區,將於8月啟動穩定幣試點計畫的第一階段,涵蓋公共支付、補貼與代金券。該道表示,經過一場吸引24家業者參與的招標程序後,已選定區塊鏈安全公司智加密(ZKrypto)為承包商。智加密執行董事金奉圭表示,公司擊敗其他23家競爭對手贏得該合約。</p>
 
   <p class="ko">사업은 두 단계로 진행된다. 8월 시작되는 1단계는 발행·유통·상환·정산에 이르는 스테이블코인의 전체 수명주기를 시험하고, 10~12월에는 더 큰 규모의 테스트베드를 가동한다. 경기도는 이후 실전 배치가 적합한지를 평가하며, 사업 자체는 2027년 2월 종료될 예정이다. 이번 실증은 지난 4월 경기도가 청년기본소득 등 정책사업에 스테이블코인을 적용할 수 있는지 살펴본 타당성 조사의 후속 단계다.</p>
   <p class="en">The program runs in two stages. Phase one, starting in August, will test the full lifecycle of a stablecoin — issuance, circulation, redemption, and settlement — while a larger testbed follows from October through December. Gyeonggi Province will then evaluate whether the technology is ready for practical deployment, with the program itself concluding in February 2027. The pilot follows an April feasibility study in which the province examined applying stablecoins to policy programs such as its youth basic income.</p>
@@ -19,6 +24,11 @@
   <p class="pt">O programa é realizado em duas etapas. A primeira fase, com início em agosto, testará o ciclo de vida completo de uma stablecoin — emissão, circulação, resgate e liquidação — enquanto um testbed maior segue de outubro a dezembro. A província de Gyeonggi avaliará então se a tecnologia está pronta para implantação prática, com o programa concluindo em fevereiro de 2027. O piloto segue um estudo de viabilidade de abril no qual a província examinou aplicar stablecoins a programas de política como sua renda básica jovem.</p>
   <p class="tr">Program iki aşamada yürütülüyor. Ağustos'ta başlayacak birinci aşama, bir stabilcoinin ihraç, dolaşım, geri alım ve mutabakata kadar tüm yaşam döngüsünü test edecek; Ekim-Aralık arasında ise daha büyük bir test ortamı devreye girecek. Gyeonggi Eyaleti daha sonra teknolojinin fiili uygulamaya hazır olup olmadığını değerlendirecek; programın kendisi Şubat 2027'de sona erecek. Bu pilot, eyaletin gençlik temel geliri gibi politika programlarına stabilcoin uygulanabilirliğini incelediği Nisan ayındaki fizibilite çalışmasının devamı niteliğinde.</p>
   <p class="vi">Chương trình được triển khai theo hai giai đoạn. Giai đoạn một, bắt đầu vào tháng 8, sẽ thử nghiệm toàn bộ vòng đời của một stablecoin — phát hành, lưu thông, đổi lại và thanh toán — trong khi một môi trường thử nghiệm lớn hơn sẽ diễn ra từ tháng 10 đến tháng 12. Tỉnh Gyeonggi sau đó sẽ đánh giá xem công nghệ đã sẵn sàng để triển khai thực tế hay chưa, với chương trình kết thúc vào tháng 2 năm 2027. Thí điểm này nối tiếp một nghiên cứu khả thi hồi tháng 4, trong đó tỉnh đã xem xét việc áp dụng stablecoin cho các chương trình chính sách như thu nhập cơ bản thanh niên.</p>
+  <p class="id">Program ini berjalan dalam dua tahap. Tahap pertama, dimulai Agustus, akan menguji seluruh siklus hidup stablecoin — penerbitan, peredaran, penebusan, dan penyelesaian — sementara testbed yang lebih besar menyusul dari Oktober hingga Desember. Provinsi Gyeonggi kemudian akan mengevaluasi apakah teknologi ini siap untuk diterapkan secara praktis, dengan program itu sendiri berakhir pada Februari 2027. Uji coba ini merupakan kelanjutan dari studi kelayakan April lalu, saat provinsi mengkaji penerapan stablecoin pada program kebijakan seperti pendapatan dasar pemuda.</p>
+  <p class="pl">Program przebiega w dwóch etapach. Faza pierwsza, rozpoczynająca się w sierpniu, przetestuje pełny cykl życia stablecoina — emisję, obieg, wykup i rozliczenie — a od października do grudnia nastąpi większe środowisko testowe. Prowincja Gyeonggi oceni następnie, czy technologia jest gotowa do praktycznego wdrożenia, przy czym sam program zakończy się w lutym 2027 roku. Pilotaż jest kontynuacją kwietniowego studium wykonalności, w którym prowincja badała zastosowanie stablecoinów do programów politycznych, takich jak podstawowy dochód dla młodzieży.</p>
+  <p class="it">Il programma si sviluppa in due fasi. La prima fase, che inizia ad agosto, testerà l'intero ciclo di vita di una stablecoin — emissione, circolazione, rimborso e regolamento — mentre un banco di prova più ampio seguirà da ottobre a dicembre. La provincia di Gyeonggi valuterà quindi se la tecnologia è pronta per l'implementazione pratica, con il programma stesso che si concluderà a febbraio 2027. Il progetto pilota segue uno studio di fattibilità di aprile in cui la provincia ha esaminato l'applicazione delle stablecoin a programmi politici come il reddito di base giovanile.</p>
+  <p class="ru">Программа реализуется в два этапа. Первый этап, стартующий в августе, протестирует полный жизненный цикл стейблкоина — эмиссию, обращение, погашение и расчёты, — а более масштабная тестовая среда последует с октября по декабрь. Затем провинция Кёнгидо оценит готовность технологии к практическому внедрению, а сама программа завершится в феврале 2027 года. Пилотный проект следует за апрельским технико-экономическим обоснованием, в рамках которого провинция изучала применение стейблкоинов к таким программам, как базовый доход для молодёжи.</p>
+  <p class="zh">該計畫分兩階段進行。8月啟動的第一階段將測試穩定幣的完整生命週期——發行、流通、贖回與結算——10月至12月則接續進行規模更大的測試環境。京畿道隨後將評估該技術是否適合實際部署,整個計畫預計於2027年2月結束。此次試點承接4月的一項可行性研究,該研究檢視了將穩定幣應用於青年基本所得等政策計畫的可能性。</p>
 
   <div class="box ko">💡 <strong>핵심 요약:</strong> 경기도 실증사업은 영지식증명으로 중복사용을 막고, 준비금증명으로 담보자산을 실시간 검증한다 — 은행이 주도해온 기존 원화 스테이블코인 PoC와 달리, 광역자치단체가 직접 사업을 발주한 국내 최초 사례다.</div>
   <div class="box en">💡 <strong>Key takeaway:</strong> The Gyeonggi pilot uses zero-knowledge proofs to block duplicate spending and proof-of-reserves to verify backing assets in real time — and unlike South Korea's bank-led won stablecoin proofs-of-concept, this is the first case of a metropolitan-level local government directly commissioning the project.</div>
@@ -29,6 +39,11 @@
   <div class="box pt">💡 <strong>Resumo:</strong> O piloto de Gyeonggi usa provas de conhecimento zero para bloquear gastos duplicados e provas de reserva para verificar os ativos de lastro em tempo real — e, diferentemente das provas de conceito de stablecoins em won lideradas por bancos na Coreia do Sul, este é o primeiro caso de um governo local de nível metropolitano encomendando diretamente o projeto.</div>
   <div class="box tr">💡 <strong>Öne çıkanlar:</strong> Gyeonggi pilotu, mükerrer harcamayı engellemek için sıfır bilgi ispatlarını, teminat varlıklarını gerçek zamanlı doğrulamak için rezerv ispatını kullanıyor — ve Güney Kore'nin banka öncülüğündeki won stabilcoin kavram kanıtlarının aksine, bu bir büyükşehir düzeyindeki yerel yönetimin projeyi doğrudan sipariş ettiği ilk örnek.</div>
   <div class="box vi">💡 <strong>Điểm chính:</strong> Thí điểm Gyeonggi sử dụng chứng minh không tiết lộ thông tin để chặn chi tiêu trùng lặp và chứng minh dự trữ để xác minh tài sản đảm bảo theo thời gian thực — và khác với làn sóng thử nghiệm khái niệm stablecoin won do ngân hàng dẫn dắt của Hàn Quốc, đây là trường hợp đầu tiên một chính quyền địa phương cấp đô thị trực tiếp đặt hàng dự án.</div>
+  <div class="box id">💡 <strong>Poin utama:</strong> Uji coba Gyeonggi menggunakan bukti tanpa pengetahuan untuk mencegah penggunaan ganda dan bukti cadangan untuk memverifikasi aset jaminan secara real-time — dan berbeda dari bukti konsep stablecoin won Korea Selatan yang dipimpin bank, ini adalah kasus pertama pemerintah daerah tingkat provinsi yang langsung memesan proyek tersebut.</div>
+  <div class="box pl">💡 <strong>Najważniejsze:</strong> Pilotaż Gyeonggi wykorzystuje dowody z wiedzą zerową do blokowania podwójnych wydatków oraz dowód rezerw do weryfikacji aktywów zabezpieczających w czasie rzeczywistym — a w przeciwieństwie do prowadzonych przez banki południowokoreańskich testów koncepcji stablecoina wonowego, jest to pierwszy przypadek, gdy władze samorządowe szczebla metropolitalnego bezpośrednio zlecają taki projekt.</div>
+  <div class="box it">💡 <strong>Punto chiave:</strong> Il progetto pilota di Gyeonggi utilizza prove a conoscenza zero per bloccare la spesa duplicata e la prova di riserve per verificare in tempo reale gli asset a garanzia — e, a differenza delle prove di concetto di stablecoin in won sudcoreane guidate dalle banche, questo è il primo caso in cui un governo locale di livello metropolitano commissiona direttamente il progetto.</div>
+  <div class="box ru">💡 <strong>Главное:</strong> Пилотный проект Кёнгидо использует доказательства с нулевым разглашением для блокировки повторного расходования и доказательство резервов для проверки обеспечивающих активов в реальном времени — и, в отличие от возглавляемых банками южнокорейских пилотных проектов вонового стейблкоина, это первый случай, когда местное правительство уровня метрополии напрямую заказывает такой проект.</div>
+  <div class="box zh">💡 <strong>重點摘要:</strong> 京畿道試點運用零知識證明防止重複使用,並以準備金證明即時驗證擔保資產——與南韓由銀行主導的韓元穩定幣概念驗證不同,這是廣域地方政府首次直接委託此類專案的案例。</div>
 
   <div class="ko">
   <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -228,6 +243,116 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Jadwal uji coba stablecoin Provinsi Gyeonggi</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">Studi kelayakan dimulai</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">Apr 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Persaingan tender vendor</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">24 banding 1</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Kontraktor terpilih</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">ZKrypto</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Fase 1 uji coba dimulai</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Agu 2026</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Testbed yang diperluas</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Okt-Des 2026</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Penutupan, tinjauan penerapan</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Feb 2027</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Teknologi inti 1</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Bukti tanpa pengetahuan (anti-duplikasi)</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Teknologi inti 2</text><text x="680" y="378" fill="#60a5fa" font-weight="700" text-anchor="end">Bukti cadangan (verifikasi real-time)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Harmonogram pilotażu stablecoina prowincji Gyeonggi</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">Rozpoczęcie studium wykonalności</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">kwi 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Rywalizacja w przetargu</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">24 do 1</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Wybrany wykonawca</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">ZKrypto</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Start fazy 1</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">sie 2026</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Rozszerzone środowisko testowe</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">paź-gru 2026</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Zakończenie, ocena wdrożenia</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">lut 2027</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Kluczowa technologia 1</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Dowody z wiedzą zerową (przeciw duplikacji)</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Kluczowa technologia 2</text><text x="680" y="378" fill="#60a5fa" font-weight="700" text-anchor="end">Dowód rezerw (weryfikacja w czasie rzeczywistym)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Cronologia del progetto pilota di stablecoin della provincia di Gyeonggi</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">Studio di fattibilità avviato</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">Apr 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Competizione di gara per il fornitore</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">24 a 1</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Appaltatore selezionato</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">ZKrypto</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Inizio fase 1</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Ago 2026</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Banco di prova ampliato</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Ott-Dic 2026</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Conclusione, revisione dell'implementazione</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Feb 2027</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Tecnologia chiave 1</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Prove a conoscenza zero (anti-duplicazione)</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Tecnologia chiave 2</text><text x="680" y="378" fill="#60a5fa" font-weight="700" text-anchor="end">Prova di riserve (verifica in tempo reale)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="ru">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">График пилотного проекта стейблкоина провинции Кёнгидо</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">Начато технико-экономическое обоснование</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">Апр 2026</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">Конкурс среди подрядчиков</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">24 к 1</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">Выбранный подрядчик</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">ZKrypto</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">Начало 1 этапа</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">Авг 2026</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">Расширенная тестовая среда</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">Окт-Дек 2026</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">Завершение, оценка внедрения</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">Фев 2027</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">Ключевая технология 1</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">Доказательства с нулевым разглашением (защита от дублирования)</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">Ключевая технология 2</text><text x="680" y="378" fill="#60a5fa" font-weight="700" text-anchor="end">Доказательство резервов (проверка в реальном времени)</text>
+    </g>
+  </svg>
+  </div>
+  <div class="zh">
+  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="32" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">京畿道穩定幣試點時間表</text>
+    <g font-family="sans-serif" font-size="14">
+      <text x="20" y="70" fill="#a1a1aa">可行性研究啟動</text><text x="680" y="70" fill="#e4e4e7" font-weight="700" text-anchor="end">2026年4月</text>
+      <line x1="20" y1="84" x2="680" y2="84" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="114" fill="#a1a1aa">廠商投標競爭</text><text x="680" y="114" fill="#fbbf24" font-weight="700" text-anchor="end">24比1</text>
+      <line x1="20" y1="128" x2="680" y2="128" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="158" fill="#a1a1aa">獲選承包商</text><text x="680" y="158" fill="#e4e4e7" font-weight="700" text-anchor="end">ZKrypto</text>
+      <line x1="20" y1="172" x2="680" y2="172" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="202" fill="#a1a1aa">第一階段試點開始</text><text x="680" y="202" fill="#34d399" font-weight="700" text-anchor="end">2026年8月</text>
+      <line x1="20" y1="216" x2="680" y2="216" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="246" fill="#a1a1aa">擴大測試環境</text><text x="680" y="246" fill="#34d399" font-weight="700" text-anchor="end">2026年10-12月</text>
+      <line x1="20" y1="260" x2="680" y2="260" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="290" fill="#a1a1aa">結束、部署評估</text><text x="680" y="290" fill="#e4e4e7" font-weight="700" text-anchor="end">2027年2月</text>
+      <line x1="20" y1="304" x2="680" y2="304" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="334" fill="#a1a1aa">核心技術1</text><text x="680" y="334" fill="#60a5fa" font-weight="700" text-anchor="end">零知識證明(防止重複使用)</text>
+      <line x1="20" y1="348" x2="680" y2="348" stroke="rgba(255,255,255,.08)"/>
+      <text x="20" y="378" fill="#a1a1aa">核心技術2</text><text x="680" y="378" fill="#60a5fa" font-weight="700" text-anchor="end">準備金證明(即時驗證)</text>
+    </g>
+  </svg>
+  </div>
 
   <h2 class="ko">기술은 어떻게 작동하는가 — 프라이버시와 검증을 동시에</h2>
   <h2 class="en">How the Technology Actually Works — Privacy and Verification at Once</h2>
@@ -238,6 +363,11 @@
   <h2 class="pt">Como a Tecnologia Realmente Funciona — Privacidade e Verificação ao Mesmo Tempo</h2>
   <h2 class="tr">Teknoloji Gerçekte Nasıl Çalışıyor — Aynı Anda Gizlilik ve Doğrulama</h2>
   <h2 class="vi">Công Nghệ Thực Sự Hoạt Động Như Thế Nào — Vừa Riêng Tư Vừa Xác Minh Được</h2>
+  <h2 class="id">Bagaimana Teknologi Ini Sebenarnya Bekerja — Privasi dan Verifikasi Sekaligus</h2>
+  <h2 class="pl">Jak Naprawdę Działa Ta Technologia — Prywatność i Weryfikacja Jednocześnie</h2>
+  <h2 class="it">Come Funziona Realmente la Tecnologia — Privacy e Verifica allo Stesso Tempo</h2>
+  <h2 class="ru">Как на Самом Деле Работает Технология — Конфиденциальность и Проверка Одновременно</h2>
+  <h2 class="zh">這項技術實際如何運作——同時兼顧隱私與驗證</h2>
 
   <p class="ko">이번 실증에서 스테이블코인 자체보다 더 흥미로운 지점은 두 기술의 조합이다. 영지식증명(ZKP)은 한 쪽이 특정 정보 자체를 공개하지 않고도 그 정보가 참임을 다른 쪽에 증명할 수 있게 하는 암호 기법이다. 청년기본소득이나 바우처처럼 자격 요건이 딸린 공공 지급에 적용하면, 수급자가 소득·거주지·나이 같은 개인정보를 노출하지 않고도 "나는 이 지급을 중복해서 받은 적이 없다"는 사실만 증명할 수 있다. 준비금증명(PoR)은 이와 별개로 작동하는 장치로, 발행된 코인 수량이 예치된 담보자산 수량을 초과하지 않음을 주기적으로, 이상적으로는 실시간에 가깝게 외부에서 검증 가능하게 만든다. 즉 하나는 사용자 프라이버시를 지키는 장치이고 다른 하나는 발행기관의 건전성을 감시하는 장치로, 역할이 겹치지 않는다.</p>
   <p class="en">What makes this pilot more interesting than the stablecoin label suggests is the combination of two distinct techniques. A zero-knowledge proof (ZKP) lets one party prove a statement is true to another party without revealing the underlying information itself. Applied to means-tested public payments like a youth basic income or a voucher, that means a recipient can prove "I have not already claimed this payment" without exposing income, address, or age data in the process. Proof-of-reserves (PoR) is a separate mechanism that makes it externally verifiable, periodically or ideally close to real time, that the quantity of coins in circulation never exceeds the collateral actually held. One tool protects user privacy; the other monitors the issuer's solvency — the two do not overlap in function.</p>
