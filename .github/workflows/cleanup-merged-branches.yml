@@ -92,7 +92,7 @@ jobs:
             done < /tmp/todelete.txt
             echo "실제 삭제 완료: $n 개"
           else
-            echo "[detect 모드] 삭제 대상 목록(위 삭제는 안 함):"
-            sed 's/^/  - /' /tmp/todelete.txt | head -50
-            echo "  ...(총 $del 개, delete 모드로 실행하면 삭제됨)"
+            echo "[detect 모드] 삭제 대상 목록(위 삭제는 안 함) — 예시 앞 40개:"
+            head -40 /tmp/todelete.txt | sed 's/^/  - /' || true
+            echo "  ...(전체 $del 개. delete 모드로 다시 실행하면 삭제됨)"
           fi
