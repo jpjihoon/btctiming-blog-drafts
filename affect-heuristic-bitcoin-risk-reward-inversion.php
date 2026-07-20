@@ -739,6 +739,11 @@
 <h2 class="pt">Como Separar Fisicamente o Sentimento da Probabilidade</h2>
 <h2 class="tr">Duyguyu ve Olasılığı Fiziksel Olarak Nasıl Ayırırsınız</h2>
 <h2 class="vi">Cách Tách Biệt Vật Lý Cảm Xúc Khỏi Xác Suất</h2>
+<h2 class="id">Cara Memisahkan Perasaan dari Probabilitas Secara Fisik</h2>
+<h2 class="pl">Jak Fizycznie Oddzielić Uczucie od Prawdopodobieństwa</h2>
+<h2 class="it">Come Separare Fisicamente il Sentimento dalla Probabilità</h2>
+<h2 class="ru">Как Физически Отделить Чувство от Вероятности</h2>
+<h2 class="zh">如何在物理上將感覺與機率分開</h2>
 
 <p class="ko">결론이 '느낌을 믿지 말라'는 식이라면 아무 쓸모가 없다 — 그 순간에는 그 느낌이 언제나 합리적 판단처럼 느껴지기 때문이다. 실제로 효과가 있는 방법은 감정이 개입하기 전에 판단 기준을 미리 계량화된 규칙으로 고정해 두는 것이다. 예컨대 <a href="/blog/fear-greed-extreme-fear-duration-signal">공포·탐욕 지수가 극단값에 머무는 기간</a>이나, 자산가격이 이동평균 대비 몇 표준편차 떨어져 있는지를 미리 정해 둔 규칙에 따라 확인하고, 그 규칙이 매수 또는 매도 조건을 충족했는지를 감정이 아니라 숫자로만 판정한다.</p>
 <p class="en">A conclusion that just says "don't trust your feelings" is useless, because in the moment, that feeling always feels like sound judgment — that is the definition of the bias. What actually works is locking in quantified decision rules before the feeling has a chance to intervene. For example, check things like <a href="/en/blog/fear-greed-extreme-fear-duration-signal">how long the Fear & Greed Index has sat at an extreme reading</a>, or how many standard deviations price sits from a moving average, against rules set in advance — and let numbers, not feeling, determine whether a buy or sell condition has been met.</p>
