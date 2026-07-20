@@ -68,6 +68,11 @@
   "desc_pt": "Por que um trader que não vende uma posição a -80% há três anos vira e diz às vítimas da Terra/Luna ou da FTX que elas mereceram? As duas reações parecem opostas, mas vêm do mesmo viés — a crença em um mundo justo, comprovada pela primeira vez no experimento de Melvin Lerner em 1966.",
   "desc_tr": "Üç yıldır %80 zarardaki pozisyonunu satamayan bir yatırımcı, neden Terra/Luna ya da FTX mağdurlarına 'bunu hak ettiler' der? İki tepki de birbirine zıt görünür, ama ikisi de aynı önyargıdan gelir — 1966'da Melvin Lerner'in deneyiyle ilk kez kanıtlanan adil dünya inancından.",
   "desc_vi": "Vì sao một trader ba năm không bán nổi một vị thế đang lỗ 80% lại quay sang nói với nạn nhân của Terra/Luna hay FTX rằng họ đáng bị vậy? Hai phản ứng này trông trái ngược nhau, nhưng đều bắt nguồn từ cùng một thiên kiến — niềm tin vào một thế giới công bằng, được chứng minh lần đầu qua thí nghiệm năm 1966 của Melvin Lerner.",
+  "desc_id": "Trader yang menahan kerugian 80% selama tiga tahun, tapi menyalahkan korban Terra/Luna atau FTX — keduanya berasal dari bias yang sama: keyakinan pada dunia yang adil.",
+  "desc_pl": "Trader nie sprzedaje straty 80% od trzech lat, ale obwinia ofiary Terra/Luna czy FTX — oba zachowania wynikają z tego samego błędu: wiary w sprawiedliwy świat.",
+  "desc_it": "Un trader non vende una perdita dell'80% da tre anni, ma incolpa le vittime di Terra/Luna o FTX — entrambi nascono dallo stesso bias: la credenza in un mondo giusto.",
+  "desc_ru": "Трейдер три года не фиксирует убыток в 80%, но обвиняет жертв Terra/Luna или FTX — обе реакции берут начало в одном искажении: вере в справедливый мир.",
+  "desc_zh": "交易者三年不願認賠80%虧損,卻指責Terra/Luna或FTX的受害者——兩者皆源自同一種偏誤,也就是公正世界信念,這種心理機制首見於1966年的實驗證明。",
   "read_ko": "8",
   "read_en": "8",
   "read_ja": "8",
@@ -76,5 +81,10 @@
   "read_fr": "8",
   "read_pt": "8",
   "read_tr": "8",
-  "read_vi": "8"
+  "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8"
 }
