@@ -1,0 +1,98 @@
+name: Cleanup merged claude branches
+
+# 병합이 끝난 claude/* 브랜치를 정리한다.
+# 안전장치: (a) 열린 PR이 달린 브랜치는 절대 삭제 안 함
+#           (b) main에 병합됐다고 '확인된' 브랜치만 삭제
+#              - merge-commit 병합: main의 조상인지로 확인
+#              - squash/rebase 병합: 병합된 PR의 head 브랜치 목록으로 확인
+#           (c) 그 외(PR 없고 조상도 아님)는 안전하게 유지
+# 실행: Actions 탭 → 이 워크플로우 → Run workflow → mode 선택
+#   detect = 미리보기(삭제 안 함, 뭐가 지워질지 목록만)
+#   delete = 실제 삭제
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "detect(미리보기) 또는 delete(실제 삭제)"
+        required: true
+        default: detect
+        type: choice
+        options:
+          - detect
+          - delete
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Cleanup merged claude/* branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          set -euo pipefail
+          git fetch origin --prune --quiet
+
+          # 열린 PR / 병합된 PR 의 head 브랜치 목록
+          gh pr list --state open   --limit 3000 --json headRefName -q '.[].headRefName' | sort -u > /tmp/open.txt   || true
+          gh pr list --state merged --limit 3000 --json headRefName -q '.[].headRefName' | sort -u > /tmp/merged.txt || true
+          echo "열린 PR 브랜치: $(wc -l < /tmp/open.txt) / 병합된 PR 브랜치: $(wc -l < /tmp/merged.txt)"
+
+          del=0; keepopen=0; keepunknown=0; total=0
+          : > /tmp/todelete.txt
+          for ref in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/claude/); do
+            br=${ref#origin/}
+            total=$((total+1))
+            # (a) 열린 PR 있으면 무조건 유지
+            if grep -qxF "$br" /tmp/open.txt; then keepopen=$((keepopen+1)); continue; fi
+            tip=$(git rev-parse "$ref")
+            merged=no
+            # (b1) main 조상이면 병합됨(merge-commit)
+            if git merge-base --is-ancestor "$tip" origin/main; then merged=yes; fi
+            # (b2) 병합된 PR 목록에 있으면 병합됨(squash/rebase)
+            if grep -qxF "$br" /tmp/merged.txt; then merged=yes; fi
+            if [ "$merged" = yes ]; then
+              echo "$br" >> /tmp/todelete.txt
+              del=$((del+1))
+            else
+              keepunknown=$((keepunknown+1))
+              echo "유지(PR없음·미병합): $br"
+            fi
+          done
+
+          echo "──────────────────────────────────────────"
+          echo "총 claude/* 브랜치: $total"
+          echo "삭제 대상(병합 확인): $del"
+          echo "유지(열린 PR): $keepopen"
+          echo "유지(불확실): $keepunknown"
+          echo "──────────────────────────────────────────"
+
+          if [ "$MODE" = "delete" ]; then
+            echo "삭제 실행..."
+            n=0
+            while IFS= read -r br; do
+              [ -z "$br" ] && continue
+              if git push origin --delete "$br" >/dev/null 2>&1; then
+                n=$((n+1))
+              else
+                echo "삭제 실패(건너뜀): $br"
+              fi
+              # 100개마다 살짝 쉼(레이트리밋 대비)
+              if [ $((n % 100)) -eq 0 ] && [ "$n" -gt 0 ]; then sleep 3; fi
+            done < /tmp/todelete.txt
+            echo "실제 삭제 완료: $n 개"
+          else
+            echo "[detect 모드] 삭제 대상 목록(위 삭제는 안 함):"
+            sed 's/^/  - /' /tmp/todelete.txt | head -50
+            echo "  ...(총 $del 개, delete 모드로 실행하면 삭제됨)"
+          fi
