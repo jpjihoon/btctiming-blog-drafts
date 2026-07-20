@@ -310,6 +310,11 @@
   <h2 class="pt">Por isso, conte "quantas decisões hoje", não apenas o preço de stop</h2>
   <h2 class="tr">Bu yüzden sadece stop fiyatını değil "bugün kaçıncı karar" olduğunu sayın</h2>
   <h2 class="vi">Vì vậy hãy đếm "hôm nay đã là quyết định thứ mấy", không chỉ mức giá cắt lỗ</h2>
+  <h2 class="id">Jadi hitunglah "sudah berapa keputusan hari ini", bukan hanya harga stop</h2>
+  <h2 class="pl">Licz więc "ile decyzji dzisiaj", nie tylko cenę stop</h2>
+  <h2 class="it">Quindi conta "quante decisioni oggi", non solo il prezzo di stop</h2>
+  <h2 class="ru">Поэтому считайте "сколько решений сегодня", а не только цену стопа</h2>
+  <h2 class="zh">所以要計算「今天已經做了幾個決策」,而不只是停損價</h2>
 
   <p class="ko"><a href="/blog/exact-moment-discipline-breaks">손절선이 무너지는 정확한 순간</a>을 다룬 글에서는 "조금만 더 지켜보자"는 생각이 재검토의 씨앗이라고 짚었다. 여기서 한 걸음 더 들어가면, 그 생각이 왜 하필 그 시점에 떠올랐는지를 물을 수 있다. 답은 대체로 가격이 아니라 <strong>그날 이미 몇 번의 포지션 관련 결정을 내렸는가</strong>에 있다. 실전에서 쓸 수 있는 규칙은 단순하다 — 하루에 포지션과 관련된 의사결정(진입·청산·리밸런싱·레버리지 조정 판단 포함)의 상한선을 미리 정해두고, 그 상한을 넘긴 뒤에 떠오르는 모든 판단은 시장 신호가 아니라 결정 피로의 산물로 취급하는 것이다.</p>
   <p class="en">The piece on <a href="/en/blog/exact-moment-discipline-breaks">the exact moment a stop-loss breaks</a> identified "let's watch a bit longer" as the seed of reconsideration. Push one step further, and you can ask why that thought surfaced exactly when it did. The answer usually isn't the price — it's <strong>how many position-related decisions you'd already made that day</strong>. The practical rule is simple: set a hard daily cap on position-related decisions (entries, exits, rebalancing calls, leverage adjustments included) in advance, and treat every judgment that arises after that cap as a product of decision fatigue, not a market signal.</p>

@@ -135,6 +135,11 @@
 <h2 class="pt">SOPR dos LTH Média de 30 Dias em 0,88 — Venda com Prejuízo Repetida por Quase Meio Ano</h2>
 <h2 class="tr">LTH SOPR 30 Günlük Ortalaması 0,88'de — Yarım Yıla Yakın Süredir Tekrarlanan Zararına Satış</h2>
 <h2 class="vi">SOPR Trung Bình 30 Ngày Của LTH Ở Mức 0,88 — Bán Lỗ Lặp Lại Gần Nửa Năm</h2>
+<h2 class="id">Rata-rata 30 Hari SOPR LTH di 0,88 — Penjualan Rugi Berulang Selama Setengah Tahun</h2>
+<h2 class="pl">30-Dniowa Średnia SOPR LTH na Poziomie 0,88 — Sprzedaż ze Stratą Powtarzana od Pół Roku</h2>
+<h2 class="it">Media a 30 Giorni del SOPR LTH a 0,88 — Vendite in Perdita Ripetute per Mezzo Anno</h2>
+<h2 class="ru">30-Дневное Среднее SOPR LTH на Уровне 0,88 — Продажи в Убыток Повторяются Уже Полгода</h2>
+<h2 class="zh">LTH SOPR 30日均值為0.88——虧損拋售持續近半年</h2>
 
 <p class="ko">SOPR(실현손익비율)는 그날 온체인에서 움직인 코인들이 평균적으로 이익을 보고 팔렸는지 손실을 보고 팔렸는지를 나타낸다. 1보다 크면 평균적으로 이익 실현, 1보다 작으면 평균적으로 손실 확정이다. 쿠코인이 크립토퀀트 데이터를 인용해 보도한 바에 따르면, 장기보유자(LTH) 코호트의 SOPR 30일 평균은 현재 0.88로 손익분기점 1.0을 밑돌고 있다. 이 상태는 2026년 176일 중 87일 동안 나타났으며, 2월 24일~4월 27일과 6월 2일 이후 두 구간에 걸쳐 있다.</p>
 <p class="en">SOPR (Spent Output Profit Ratio) shows whether coins that moved on-chain that day were, on average, sold at a profit or a loss. A reading above 1 means average profit-taking; below 1 means average realized losses. Per KuCoin's reporting, citing CryptoQuant data, the long-term holder (LTH) cohort's SOPR 30-day average currently stands at 0.88, below the 1.0 breakeven line. That state has held for 87 of 2026's 176 days so far, spanning two stretches: February 24-April 27, and since June 2.</p>
