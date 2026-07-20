@@ -789,6 +789,11 @@
   <h2 class="pt">Como Desarmar Esse Viés: Trocar o Julgamento Moral por Regras Probabilísticas</h2>
   <h2 class="tr">Bu Önyargıyı Etkisiz Hale Getirmek: Ahlaki Yargıyı Olasılıksal Kurallarla Değiştirmek</h2>
   <h2 class="vi">Vô Hiệu Hóa Thiên Kiến Này: Đổi Phán Xét Đạo Đức Lấy Các Quy Tắc Xác Suất</h2>
+  <h2 class="id">Melumpuhkan Bias Ini: Menukar Penilaian Moral dengan Aturan Probabilistik</h2>
+  <h2 class="pl">Rozbrajanie Tego Błędu: Zamiana Osądu Moralnego na Reguły Probabilistyczne</h2>
+  <h2 class="it">Disinnescare Questo Bias: Scambiare il Giudizio Morale con Regole Probabilistiche</h2>
+  <h2 class="ru">Обезвреживание этого искажения: замена морального суждения вероятностными правилами</h2>
+  <h2 class="zh">解除這種偏誤:用機率規則取代道德判斷</h2>
 
   <p class="ko">정당한 세상 믿음의 무서운 점은 사후적으로 작동한다는 데 있다 — 이미 손실이 난 뒤에, 이미 스캔들이 터진 뒤에 서사를 재구성한다. 그래서 대응도 사전에, 감정이 개입하기 전에 이뤄져야 한다. 심리학자 게리 클라인(Gary Klein)이 1998년 제안한 '사전 부검(premortem)' 기법이 정확히 이 지점을 겨냥한다 — 포지션을 열기 전에 "이 트레이드가 실패했다고 가정하고, 왜 실패했는지 미리 적어보라"는 것이다. 이 훈련은 실패를 도덕적 배신이 아니라 확률적으로 항상 존재하는 시나리오로 취급하게 만든다. 실패가 예정된 각본의 일부가 되면, 실제로 손실이 났을 때 "이건 부당하다"는 서사가 끼어들 자리가 줄어든다.</p>
   <p class="en">What makes the belief in a just world dangerous is that it operates retroactively — it rewrites the narrative only after the loss has already happened, after the scandal has already broken. So the countermeasure has to happen in advance, before emotion gets a vote. The "premortem" technique psychologist Gary Klein proposed in 1998 targets exactly this point: before opening a position, assume the trade has already failed and write down why. The exercise trains you to treat failure not as a moral betrayal but as a scenario that's always statistically present. Once failure is written into the script in advance, there's less room, when the loss actually lands, for a "this isn't fair" narrative to slip in.</p>

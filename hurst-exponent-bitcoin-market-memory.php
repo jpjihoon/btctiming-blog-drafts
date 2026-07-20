@@ -578,6 +578,231 @@
 <p class="vi" style="font-size:12px;color:#71717a;margin-top:-10px">※ Biểu đồ này là minh họa khái niệm được đơn giản hóa, tổng hợp các mô hình theo giai đoạn được báo cáo bởi Urquhart (2016), Bariviera (2017) và các nghiên cứu cửa sổ trượt sau này. Các ước tính số mũ Hurst thực tế thay đổi tùy theo phương pháp tính (R/S so với DFA), cửa sổ mẫu, và việc có áp dụng hiệu chỉnh đuôi dày hay không.</p>
 </div>
 
+<div class="id">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">'Memori Tren' Bitcoin dari Waktu ke Waktu, Dilihat Melalui Eksponen Hurst</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Sintesis konseptual pola-pola rezim yang dilaporkan dalam berbagai studi akademis (Urquhart 2016; Bariviera 2017, dan lainnya)</text>
+  <line x1="100" y1="75" x2="630" y2="75" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="181" x2="630" y2="181" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="287" x2="630" y2="287" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="340" x2="630" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <text x="92" y="79" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.8</text>
+  <text x="92" y="185" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.6</text>
+  <text x="92" y="291" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.4</text>
+  <text x="92" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.3</text>
+  <line x1="100" y1="234" x2="630" y2="234" stroke="#fbbf24" stroke-dasharray="4,4" stroke-width="1.5" opacity="0.7"/>
+  <text x="365" y="226" fill="#fbbf24" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Batas random walk (H = 0.5)</text>
+  <polyline points="100,170.4 188.3,223.4 276.7,138.6 365,249.9 453.3,149.2 541.7,165.1 630,228.7" fill="none" stroke="#a1a1aa" stroke-width="2"/>
+  <circle cx="100" cy="170.4" r="5" fill="#4ade80"/>
+  <circle cx="188.3" cy="223.4" r="5" fill="#fbbf24"/>
+  <circle cx="276.7" cy="138.6" r="5" fill="#4ade80"/>
+  <circle cx="365" cy="249.9" r="5" fill="#fbbf24"/>
+  <circle cx="453.3" cy="149.2" r="5" fill="#4ade80"/>
+  <circle cx="541.7" cy="165.1" r="5" fill="#4ade80"/>
+  <circle cx="630" cy="228.7" r="5" fill="#fbbf24"/>
+  <text x="100" y="158" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.62</text>
+  <text x="188.3" y="212" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.52</text>
+  <text x="276.7" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.68</text>
+  <text x="365" y="270" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.47</text>
+  <text x="453.3" y="137" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.66</text>
+  <text x="541.7" y="153" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.63</text>
+  <text x="630" y="217" fill="#e4e4e7" font-size="13" text-anchor="end" font-family="sans-serif">0.51</text>
+  <text x="100" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2011–13</text>
+  <text x="188.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2014–16</text>
+  <text x="276.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="365" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2018–19</text>
+  <text x="453.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2020–21</text>
+  <text x="541.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+  <text x="630" y="362" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">2023–24</text>
+  <text x="365" y="390" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Periode (pengelompokan konseptual)</text>
+  <circle cx="110" cy="415" r="5" fill="#4ade80"/>
+  <text x="122" y="419" fill="#a1a1aa" font-size="13" font-family="sans-serif">Zona dominan memori tren (H ≥ 0.58)</text>
+  <circle cx="110" cy="440" r="5" fill="#fbbf24"/>
+  <text x="122" y="444" fill="#a1a1aa" font-size="13" font-family="sans-serif">Zona mendekati random walk (0.45 &lt; H &lt; 0.58)</text>
+</svg>
+<p class="id" style="font-size:12px;color:#71717a;margin-top:-10px">※ Grafik ini adalah ilustrasi konseptual yang disederhanakan, mensintesis pola rezim yang dilaporkan oleh Urquhart (2016), Bariviera (2017), dan studi rolling-window berikutnya. Estimasi eksponen Hurst yang sebenarnya bervariasi menurut metode perhitungan (R/S vs. DFA), jendela sampel, dan apakah koreksi ekor tebal diterapkan.</p>
+</div>
+
+<div class="pl">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">'Pamięć Trendu' Bitcoina w Czasie, Widziana Przez Wykładnik Hursta</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Koncepcyjna synteza wzorców reżimowych raportowanych w badaniach akademickich (Urquhart 2016; Bariviera 2017 i inni)</text>
+  <line x1="100" y1="75" x2="630" y2="75" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="181" x2="630" y2="181" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="287" x2="630" y2="287" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="340" x2="630" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <text x="92" y="79" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.8</text>
+  <text x="92" y="185" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.6</text>
+  <text x="92" y="291" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.4</text>
+  <text x="92" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.3</text>
+  <line x1="100" y1="234" x2="630" y2="234" stroke="#fbbf24" stroke-dasharray="4,4" stroke-width="1.5" opacity="0.7"/>
+  <text x="365" y="226" fill="#fbbf24" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Granica błądzenia losowego (H = 0.5)</text>
+  <polyline points="100,170.4 188.3,223.4 276.7,138.6 365,249.9 453.3,149.2 541.7,165.1 630,228.7" fill="none" stroke="#a1a1aa" stroke-width="2"/>
+  <circle cx="100" cy="170.4" r="5" fill="#4ade80"/>
+  <circle cx="188.3" cy="223.4" r="5" fill="#fbbf24"/>
+  <circle cx="276.7" cy="138.6" r="5" fill="#4ade80"/>
+  <circle cx="365" cy="249.9" r="5" fill="#fbbf24"/>
+  <circle cx="453.3" cy="149.2" r="5" fill="#4ade80"/>
+  <circle cx="541.7" cy="165.1" r="5" fill="#4ade80"/>
+  <circle cx="630" cy="228.7" r="5" fill="#fbbf24"/>
+  <text x="100" y="158" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.62</text>
+  <text x="188.3" y="212" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.52</text>
+  <text x="276.7" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.68</text>
+  <text x="365" y="270" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.47</text>
+  <text x="453.3" y="137" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.66</text>
+  <text x="541.7" y="153" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.63</text>
+  <text x="630" y="217" fill="#e4e4e7" font-size="13" text-anchor="end" font-family="sans-serif">0.51</text>
+  <text x="100" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2011–13</text>
+  <text x="188.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2014–16</text>
+  <text x="276.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="365" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2018–19</text>
+  <text x="453.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2020–21</text>
+  <text x="541.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+  <text x="630" y="362" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">2023–24</text>
+  <text x="365" y="390" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Okres (grupowanie koncepcyjne)</text>
+  <circle cx="110" cy="415" r="5" fill="#4ade80"/>
+  <text x="122" y="419" fill="#a1a1aa" font-size="13" font-family="sans-serif">Strefa dominacji pamięci trendu (H ≥ 0.58)</text>
+  <circle cx="110" cy="440" r="5" fill="#fbbf24"/>
+  <text x="122" y="444" fill="#a1a1aa" font-size="13" font-family="sans-serif">Strefa zbliżona do błądzenia losowego (0.45 &lt; H &lt; 0.58)</text>
+</svg>
+<p class="pl" style="font-size:12px;color:#71717a;margin-top:-10px">※ Ten wykres jest uproszczoną, koncepcyjną ilustracją syntetyzującą wzorce reżimowe raportowane przez Urquharta (2016), Bariwierę (2017) oraz późniejsze badania z ruchomym oknem. Rzeczywiste oszacowania wykładnika Hursta różnią się w zależności od metody obliczeń (R/S vs. DFA), okna próby oraz tego, czy zastosowano korektę grubych ogonów.</p>
+</div>
+
+<div class="it">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">La 'Memoria di Trend' di Bitcoin nel Tempo, Vista Attraverso l'Esponente di Hurst</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Una sintesi concettuale dei modelli di regime riportati negli studi accademici (Urquhart 2016; Bariviera 2017, e altri)</text>
+  <line x1="100" y1="75" x2="630" y2="75" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="181" x2="630" y2="181" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="287" x2="630" y2="287" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="340" x2="630" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <text x="92" y="79" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.8</text>
+  <text x="92" y="185" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.6</text>
+  <text x="92" y="291" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.4</text>
+  <text x="92" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.3</text>
+  <line x1="100" y1="234" x2="630" y2="234" stroke="#fbbf24" stroke-dasharray="4,4" stroke-width="1.5" opacity="0.7"/>
+  <text x="365" y="226" fill="#fbbf24" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Confine della passeggiata casuale (H = 0.5)</text>
+  <polyline points="100,170.4 188.3,223.4 276.7,138.6 365,249.9 453.3,149.2 541.7,165.1 630,228.7" fill="none" stroke="#a1a1aa" stroke-width="2"/>
+  <circle cx="100" cy="170.4" r="5" fill="#4ade80"/>
+  <circle cx="188.3" cy="223.4" r="5" fill="#fbbf24"/>
+  <circle cx="276.7" cy="138.6" r="5" fill="#4ade80"/>
+  <circle cx="365" cy="249.9" r="5" fill="#fbbf24"/>
+  <circle cx="453.3" cy="149.2" r="5" fill="#4ade80"/>
+  <circle cx="541.7" cy="165.1" r="5" fill="#4ade80"/>
+  <circle cx="630" cy="228.7" r="5" fill="#fbbf24"/>
+  <text x="100" y="158" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.62</text>
+  <text x="188.3" y="212" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.52</text>
+  <text x="276.7" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.68</text>
+  <text x="365" y="270" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.47</text>
+  <text x="453.3" y="137" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.66</text>
+  <text x="541.7" y="153" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.63</text>
+  <text x="630" y="217" fill="#e4e4e7" font-size="13" text-anchor="end" font-family="sans-serif">0.51</text>
+  <text x="100" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2011–13</text>
+  <text x="188.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2014–16</text>
+  <text x="276.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="365" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2018–19</text>
+  <text x="453.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2020–21</text>
+  <text x="541.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+  <text x="630" y="362" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">2023–24</text>
+  <text x="365" y="390" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Periodo (raggruppamento concettuale)</text>
+  <circle cx="110" cy="415" r="5" fill="#4ade80"/>
+  <text x="122" y="419" fill="#a1a1aa" font-size="13" font-family="sans-serif">Zona dominata dalla memoria di trend (H ≥ 0.58)</text>
+  <circle cx="110" cy="440" r="5" fill="#fbbf24"/>
+  <text x="122" y="444" fill="#a1a1aa" font-size="13" font-family="sans-serif">Zona vicina alla passeggiata casuale (0.45 &lt; H &lt; 0.58)</text>
+</svg>
+<p class="it" style="font-size:12px;color:#71717a;margin-top:-10px">※ Questo grafico è un'illustrazione concettuale semplificata che sintetizza i modelli di regime riportati da Urquhart (2016), Bariviera (2017) e studi successivi a finestra scorrevole. Le stime effettive dell'esponente di Hurst variano a seconda del metodo di calcolo (R/S vs. DFA), della finestra campionaria e dell'applicazione o meno della correzione per code pesanti.</p>
+</div>
+
+<div class="ru">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">'Память Тренда' Биткойна во Времени, Через Призму Показателя Хёрста</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">Концептуальный синтез режимных закономерностей, отмеченных в академических исследованиях (Уркхарт 2016; Бариверa 2017 и другие)</text>
+  <line x1="100" y1="75" x2="630" y2="75" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="181" x2="630" y2="181" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="287" x2="630" y2="287" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="340" x2="630" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <text x="92" y="79" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.8</text>
+  <text x="92" y="185" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.6</text>
+  <text x="92" y="291" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.4</text>
+  <text x="92" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.3</text>
+  <line x1="100" y1="234" x2="630" y2="234" stroke="#fbbf24" stroke-dasharray="4,4" stroke-width="1.5" opacity="0.7"/>
+  <text x="365" y="226" fill="#fbbf24" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">Граница случайного блуждания (H = 0.5)</text>
+  <polyline points="100,170.4 188.3,223.4 276.7,138.6 365,249.9 453.3,149.2 541.7,165.1 630,228.7" fill="none" stroke="#a1a1aa" stroke-width="2"/>
+  <circle cx="100" cy="170.4" r="5" fill="#4ade80"/>
+  <circle cx="188.3" cy="223.4" r="5" fill="#fbbf24"/>
+  <circle cx="276.7" cy="138.6" r="5" fill="#4ade80"/>
+  <circle cx="365" cy="249.9" r="5" fill="#fbbf24"/>
+  <circle cx="453.3" cy="149.2" r="5" fill="#4ade80"/>
+  <circle cx="541.7" cy="165.1" r="5" fill="#4ade80"/>
+  <circle cx="630" cy="228.7" r="5" fill="#fbbf24"/>
+  <text x="100" y="158" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.62</text>
+  <text x="188.3" y="212" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.52</text>
+  <text x="276.7" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.68</text>
+  <text x="365" y="270" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.47</text>
+  <text x="453.3" y="137" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.66</text>
+  <text x="541.7" y="153" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.63</text>
+  <text x="630" y="217" fill="#e4e4e7" font-size="13" text-anchor="end" font-family="sans-serif">0.51</text>
+  <text x="100" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2011–13</text>
+  <text x="188.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2014–16</text>
+  <text x="276.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="365" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2018–19</text>
+  <text x="453.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2020–21</text>
+  <text x="541.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+  <text x="630" y="362" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">2023–24</text>
+  <text x="365" y="390" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">Период (концептуальная группировка)</text>
+  <circle cx="110" cy="415" r="5" fill="#4ade80"/>
+  <text x="122" y="419" fill="#a1a1aa" font-size="13" font-family="sans-serif">Зона доминирования памяти тренда (H ≥ 0.58)</text>
+  <circle cx="110" cy="440" r="5" fill="#fbbf24"/>
+  <text x="122" y="444" fill="#a1a1aa" font-size="13" font-family="sans-serif">Зона, близкая к случайному блужданию (0.45 &lt; H &lt; 0.58)</text>
+</svg>
+<p class="ru" style="font-size:12px;color:#71717a;margin-top:-10px">※ Этот график представляет собой упрощённую концептуальную иллюстрацию, синтезирующую режимные закономерности, отмеченные Уркхартом (2016), Бариверой (2017) и последующими исследованиями со скользящим окном. Фактические оценки показателя Хёрста варьируются в зависимости от метода расчёта (R/S против DFA), окна выборки и того, применяется ли коррекция на тяжёлые хвосты.</p>
+</div>
+
+<div class="zh">
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">透過赫斯特指數看比特幣『趨勢記憶』隨時間的變化</text>
+  <text x="20" y="48" fill="#a1a1aa" font-size="13" font-family="sans-serif">綜合多項學術研究(Urquhart 2016;Bariviera 2017等)所報告之階段性模式的概念性整理</text>
+  <line x1="100" y1="75" x2="630" y2="75" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="181" x2="630" y2="181" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="287" x2="630" y2="287" stroke="#27272a" stroke-width="1"/>
+  <line x1="100" y1="340" x2="630" y2="340" stroke="#52525b" stroke-width="1.5"/>
+  <text x="92" y="79" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.8</text>
+  <text x="92" y="185" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.6</text>
+  <text x="92" y="291" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.4</text>
+  <text x="92" y="344" fill="#a1a1aa" font-size="13" text-anchor="end" font-family="sans-serif">0.3</text>
+  <line x1="100" y1="234" x2="630" y2="234" stroke="#fbbf24" stroke-dasharray="4,4" stroke-width="1.5" opacity="0.7"/>
+  <text x="365" y="226" fill="#fbbf24" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">隨機漫步邊界(H = 0.5)</text>
+  <polyline points="100,170.4 188.3,223.4 276.7,138.6 365,249.9 453.3,149.2 541.7,165.1 630,228.7" fill="none" stroke="#a1a1aa" stroke-width="2"/>
+  <circle cx="100" cy="170.4" r="5" fill="#4ade80"/>
+  <circle cx="188.3" cy="223.4" r="5" fill="#fbbf24"/>
+  <circle cx="276.7" cy="138.6" r="5" fill="#4ade80"/>
+  <circle cx="365" cy="249.9" r="5" fill="#fbbf24"/>
+  <circle cx="453.3" cy="149.2" r="5" fill="#4ade80"/>
+  <circle cx="541.7" cy="165.1" r="5" fill="#4ade80"/>
+  <circle cx="630" cy="228.7" r="5" fill="#fbbf24"/>
+  <text x="100" y="158" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.62</text>
+  <text x="188.3" y="212" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.52</text>
+  <text x="276.7" y="126" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.68</text>
+  <text x="365" y="270" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.47</text>
+  <text x="453.3" y="137" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.66</text>
+  <text x="541.7" y="153" fill="#e4e4e7" font-size="13" text-anchor="middle" font-family="sans-serif">0.63</text>
+  <text x="630" y="217" fill="#e4e4e7" font-size="13" text-anchor="end" font-family="sans-serif">0.51</text>
+  <text x="100" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2011–13</text>
+  <text x="188.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2014–16</text>
+  <text x="276.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2017</text>
+  <text x="365" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2018–19</text>
+  <text x="453.3" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2020–21</text>
+  <text x="541.7" y="362" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+  <text x="630" y="362" fill="#71717a" font-size="13" text-anchor="end" font-family="sans-serif">2023–24</text>
+  <text x="365" y="390" fill="#71717a" font-size="13" text-anchor="middle" font-family="sans-serif">期間(概念性分組)</text>
+  <circle cx="110" cy="415" r="5" fill="#4ade80"/>
+  <text x="122" y="419" fill="#a1a1aa" font-size="13" font-family="sans-serif">趨勢記憶主導區(H ≥ 0.58)</text>
+  <circle cx="110" cy="440" r="5" fill="#fbbf24"/>
+  <text x="122" y="444" fill="#a1a1aa" font-size="13" font-family="sans-serif">接近隨機漫步區(0.45 &lt; H &lt; 0.58)</text>
+</svg>
+<p class="zh" style="font-size:12px;color:#71717a;margin-top:-10px">※ 本圖表為簡化的概念性示意圖,綜合了Urquhart(2016)、Bariviera(2017)及後續滾動視窗研究所報告的階段性模式。實際赫斯特指數估計值會因計算方法(R/S對比DFA)、樣本視窗以及是否採用厚尾修正而有所不同。</p>
+</div>
+
 <h2 class="ko">그래서 실전에서 무엇이 달라져야 하는가 — 지표보다 국면을 먼저 진단하라</h2>
 <h2 class="en">So What Should Actually Change in Practice — Diagnose the Regime Before the Indicator</h2>
 <h2 class="ja">では実践で何を変えるべきか——指標より先に局面を診断せよ</h2>
@@ -587,6 +812,11 @@
 <h2 class="pt">Então, o Que Deveria Mudar na Prática — Diagnostique o Regime Antes do Indicador</h2>
 <h2 class="tr">Peki Pratikte Gerçekte Ne Değişmeli — Göstergeden Önce Rejimi Teşhis Edin</h2>
 <h2 class="vi">Vậy Thực Tế Điều Gì Cần Thay Đổi — Hãy Chẩn Đoán Giai Đoạn Trước Khi Chọn Chỉ Báo</h2>
+<h2 class="id">Jadi Apa yang Sebenarnya Harus Berubah dalam Praktik — Diagnosis Rezim Sebelum Indikator</h2>
+<h2 class="pl">Co Właściwie Powinno Się Zmienić w Praktyce — Diagnozuj Reżim Przed Wskaźnikiem</h2>
+<h2 class="it">Cosa Dovrebbe Davvero Cambiare nella Pratica — Diagnosticare il Regime Prima dell'Indicatore</h2>
+<h2 class="ru">Что На Самом Деле Должно Измениться на Практике — Диагностируйте Режим Прежде Индикатора</h2>
+<h2 class="zh">實務上究竟該改變什麼——先診斷市場階段,再選指標</h2>
 
 <p class="ko">결론을 실행 가능한 규칙으로 옮기면 이렇다. 매매에 들어가기 전에, 최근 약 100~250거래일치 일별 수익률로 롤링 허스트 지수를 대략이라도 추정해 지금이 어느 국면인지부터 짚어야 한다. 값이 0.55~0.6을 넉넉히 웃도는 구간이라면 이동평균·MACD·ADX 같은 추세추종형 도구에 무게를 싣고, 값이 0.5 근처이거나 그 아래로 떨어진 구간이라면 RSI나 볼린저 밴드 회귀처럼 평균회귀를 노리는 도구로 무게중심을 옮기는 편이 통계적으로 더 합리적이다. 2022년 발표된 한 연구는 롤링 허스트 지수로 시계열을 추세형·평균회귀형으로 분류해 그때그때 다른 전략을 적용하는 방식이, 어느 한 전략을 고정적으로 쓰는 것보다 위험조정 후 수익률에서 더 우수한 결과를 냈다고 보고한다 — 다만 그 대가로 변동성 자체는 다소 커졌다는 단서를 붙였다.</p>
 <p class="en">Turning that conclusion into an actionable rule looks like this. Before entering a trade, estimate at least a rough rolling Hurst exponent from roughly the trailing 100 to 250 trading days of daily returns, and identify which regime you're in. If the value comfortably exceeds 0.55-0.6, it's statistically more sensible to lean on trend-following tools like moving averages, MACD, or ADX; if the value sits near or below 0.5, it's more sensible to shift the weight toward mean-reversion tools like RSI or Bollinger Band reversion. A 2022 study reported that classifying a time series as trending or mean-reverting using a rolling Hurst exponent, and applying a different strategy accordingly, produced better risk-adjusted returns than committing to either strategy permanently — with the caveat that this came at the cost of somewhat higher volatility.</p>
