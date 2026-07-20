@@ -13,6 +13,11 @@
     "tag_pt": "Regra de Viagem / AML",
     "tag_tr": "Seyahat Kuralı / AML",
     "tag_vi": "Quy Tắc Du Lịch / AML",
+    "tag_id": "Aturan Perjalanan / AML",
+    "tag_pl": "Travel Rule / AML",
+    "tag_it": "Travel Rule / AML",
+    "tag_ru": "Travel Rule / AML",
+    "tag_zh": "旅行規則・AML",
 
     "title_ko": "호주, 임계값 0달러 여행규칙 발효 — 동시에 ASIC 라이선스 유예는 또 연장",
     "title_en": "Australia's Zero-Threshold Travel Rule Takes Effect — While ASIC Extends Licensing Relief Again",
@@ -23,6 +28,11 @@
     "title_pt": "Regra de Viagem de Limiar Zero Entra em Vigor na Austrália — Enquanto ASIC Estende Novamente o Alívio de Licenciamento",
     "title_tr": "Avustralya'da Sıfır Eşikli Seyahat Kuralı Yürürlüğe Girdi — ASIC Lisans Muafiyetini Yeniden Uzattı",
     "title_vi": "Quy Tắc Du Lịch Ngưỡng Bằng Không Có Hiệu Lực Tại Úc — Trong Khi ASIC Lại Gia Hạn Miễn Trừ Cấp Phép",
+    "title_id": "Aturan Perjalanan Ambang Nol Australia Mulai Berlaku — Sementara ASIC Kembali Perpanjang Kelonggaran Perizinan",
+    "title_pl": "Australijska Zasada Travel Rule z Zerowym Progiem Wchodzi w Życie — Podczas Gdy ASIC Ponownie Przedłuża Ulgę Licencyjną",
+    "title_it": "Entra in Vigore la Travel Rule a Soglia Zero in Australia — Mentre ASIC Estende di Nuovo l'Agevolazione di Licenza",
+    "title_ru": "В Австралии Вступает в Силу Travel Rule с Нулевым Порогом — Пока ASIC Снова Продлевает Послабление Лицензирования",
+    "title_zh": "澳洲零門檻旅行規則正式生效——ASIC同時再度延長牌照寬限期",
 
     "h1_ko": "호주, 임계값 0달러 여행규칙 발효<br>동시에 ASIC 라이선스 유예는 또 연장",
     "h1_en": "Australia's Zero-Threshold Travel Rule Takes Effect<br>While ASIC Extends Licensing Relief Again",
@@ -33,6 +43,11 @@
     "h1_pt": "Regra de Viagem de Limiar Zero Entra em Vigor na Austrália<br>Enquanto ASIC Estende Novamente o Alívio de Licenciamento",
     "h1_tr": "Avustralya'da Sıfır Eşikli Seyahat Kuralı Yürürlüğe Girdi<br>ASIC Lisans Muafiyetini Yeniden Uzattı",
     "h1_vi": "Quy Tắc Du Lịch Ngưỡng Bằng Không Có Hiệu Lực Tại Úc<br>Trong Khi ASIC Lại Gia Hạn Miễn Trừ Cấp Phép",
+    "h1_id": "Aturan Perjalanan Ambang Nol Australia Mulai Berlaku<br>Sementara ASIC Kembali Perpanjang Kelonggaran Perizinan",
+    "h1_pl": "Australijska Zasada Travel Rule z Zerowym Progiem Wchodzi w Życie<br>Podczas Gdy ASIC Ponownie Przedłuża Ulgę Licencyjną",
+    "h1_it": "Entra in Vigore la Travel Rule a Soglia Zero in Australia<br>Mentre ASIC Estende di Nuovo l'Agevolazione di Licenza",
+    "h1_ru": "В Австралии Вступает в Силу Travel Rule с Нулевым Порогом<br>Пока ASIC Снова Продлевает Послабление Лицензирования",
+    "h1_zh": "澳洲零門檻旅行規則正式生效<br>ASIC同時再度延長牌照寬限期",
 
     "bc_ko": "호주 크립토 여행규칙·ASIC 유예",
     "bc_en": "Australia Crypto Travel Rule / ASIC Relief",
@@ -43,6 +58,11 @@
     "bc_pt": "Regra de Viagem Cripto da Austrália / Alívio ASIC",
     "bc_tr": "Avustralya Kripto Seyahat Kuralı / ASIC Muafiyeti",
     "bc_vi": "Quy Tắc Du Lịch Crypto Của Úc / Miễn Trừ ASIC",
+    "bc_id": "Aturan Perjalanan Kripto Australia / Kelonggaran ASIC",
+    "bc_pl": "Australijska Zasada Travel Rule dla Krypto / Ulga ASIC",
+    "bc_it": "Travel Rule Crypto dell'Australia / Agevolazione ASIC",
+    "bc_ru": "Крипто-Travel Rule Австралии / Послабление ASIC",
+    "bc_zh": "澳洲加密貨幣旅行規則・ASIC寬限",
 
     "desc_ko": "호주의 크립토 여행규칙이 최소 임계값 0달러로 7월 1일 발효돼, 5달러 송금도 5만 달러 송금과 동일한 신원확인 절차를 거치게 됐다고 MEXC 뉴스와 코인텔레그래프가 보도했다. 동시에 ASIC는 디지털자산 사업자를 위한 임시 라이선스 유예를 6월 30일에서 9월 30일로 연장했으며, 공식적인 디지털자산 프레임워크 법은 2027년 4월경에야 발효될 전망이다. 자금세탁방지 집행은 즉각 강화됐지만 실제 라이선스 체계는 계속 미뤄지는 규제의 두 갈래 흐름과, 중소 거래소에 불균형하게 무거워질 수 있는 컴플라이언스 비용 문제를 분석했다.",
     "desc_en": "Australia's crypto Travel Rule took effect July 1 with a zero minimum threshold, meaning a $5 transfer faces the same identity checks as a $50,000 one, MEXC News and Cointelegraph reported. ASIC simultaneously extended its temporary licensing relief for digital-asset firms from June 30 to September 30, with the formal Digital Assets Framework Act not expected until around April 2027. We examine the regulatory fork — AML enforcement tightening immediately while licensing keeps slipping — and the risk of compliance costs falling disproportionately on smaller exchanges.",
@@ -53,6 +73,11 @@
     "desc_pt": "A Regra de Viagem cripto da Austrália entrou em vigor em 1º de julho com limiar mínimo de US$ 0 — uma transferência de 5 dólares enfrenta as mesmas verificações de identidade que uma de 50.000 dólares, segundo MEXC News e Cointelegraph. A ASIC estendeu simultaneamente seu alívio temporário de licenciamento para empresas de ativos digitais de 30 de junho para 30 de setembro, e o Digital Assets Framework Act formal não é esperado até cerca de abril de 2027. Examinamos essa bifurcação regulatória — aplicação de AML se intensificando imediatamente enquanto o licenciamento continua sendo adiado — e o risco de custos de conformidade recaindo desproporcionalmente sobre corretoras menores.",
     "desc_tr": "Avustralya'nın kripto Seyahat Kuralı, 1 Temmuz'da sıfır asgari eşikle yürürlüğe girdi — 5 dolarlık bir transfer, 50.000 dolarlık bir transferle aynı kimlik kontrollerine tabi; MEXC News ve Cointelegraph bildirdi. ASIC aynı anda dijital varlık şirketleri için geçici lisanslama muafiyetini 30 Haziran'dan 30 Eylül'e uzattı ve resmi Dijital Varlıklar Çerçevesi Yasası'nın ancak 2027 Nisan civarında geleceği bekleniyor. Bu düzenleyici çatalı — kara para aklamayla mücadele uygulamasının anında sıkılaştırılması ve lisanslamanın ertelenmeye devam etmesi — ve uyumluluk maliyetlerinin küçük borsalara orantısız biçimde ağır düşme riskini inceliyoruz.",
     "desc_vi": "Quy tắc Du lịch tiền điện tử của Úc có hiệu lực từ ngày 1/7 với ngưỡng tối thiểu 0 đô la — một khoản chuyển 5 đô la phải chịu các kiểm tra danh tính giống như một khoản chuyển 50.000 đô la, theo MEXC News và Cointelegraph. ASIC đồng thời gia hạn biện pháp nới lỏng cấp phép tạm thời cho các doanh nghiệp tài sản số từ 30/6 sang 30/9, và Đạo luật Khung Tài sản Số chính thức dự kiến sẽ không đến cho đến khoảng tháng 4/2027. Chúng tôi xem xét ngã rẽ quản lý này — thực thi chống rửa tiền siết chặt ngay lập tức trong khi cấp phép tiếp tục bị trì hoãn — và nguy cơ chi phí tuân thủ đổ dồn không cân xứng lên các sàn giao dịch nhỏ hơn.",
+    "desc_id": "Aturan Perjalanan kripto Australia berlaku 1 Juli dengan ambang minimum $0, sehingga transfer $5 mengalami pemeriksaan identitas sama seperti $50.000, menurut MEXC News dan Cointelegraph. ASIC juga memperpanjang kelonggaran perizinan sementara dari 30 Juni ke 30 September, sementara Digital Assets Framework Act resmi baru berlaku sekitar April 2027. Kami mengulas risiko biaya kepatuhan bagi bursa kecil.",
+    "desc_pl": "Australijska zasada Travel Rule dla krypto weszła w życie 1 lipca z zerowym progiem — przelew 5 dolarów podlega takim samym kontrolom jak 50 000 dolarów, podają MEXC News i Cointelegraph. ASIC jednocześnie przedłużył ulgę licencyjną z 30 czerwca do 30 września, a formalny Digital Assets Framework Act ma wejść w życie dopiero około kwietnia 2027. Analizujemy ryzyko kosztów obciążających mniejsze giełdy.",
+    "desc_it": "La Travel Rule crypto australiana è entrata in vigore il 1° luglio con soglia minima zero — un trasferimento da 5 dollari subisce gli stessi controlli di uno da 50.000, riportano MEXC News e Cointelegraph. ASIC ha esteso l'agevolazione di licenza dal 30 giugno al 30 settembre, mentre il Digital Assets Framework Act formale è atteso solo verso aprile 2027. Analizziamo il rischio per gli exchange minori.",
+    "desc_ru": "Крипто-Travel Rule Австралии вступило в силу 1 июля с нулевым порогом — перевод в 5 долларов проходит те же проверки, что и 50 000 долларов, сообщают MEXC News и Cointelegraph. ASIC одновременно продлил послабление лицензирования с 30 июня до 30 сентября, а официальный Digital Assets Framework Act ожидается не раньше апреля 2027 года. Разбираем риск нагрузки затрат на небольшие биржи.",
+    "desc_zh": "澳洲加密貨幣旅行規則於7月1日以零門檻生效——5美元轉帳須經與5萬美元相同的身分查核,MEXC News與Cointelegraph報導。ASIC同時將暫時性牌照寬限期延至9月30日,正式的《數位資產框架法》預計2027年4月左右才生效。本文分析合規成本壓在中小型交易所身上的風險。",
 
     "read_ko": "7",
     "read_en": "7",
@@ -62,5 +87,10 @@
     "read_fr": "7",
     "read_pt": "7",
     "read_tr": "7",
-    "read_vi": "7"
+    "read_vi": "7",
+    "read_id": "7",
+    "read_pl": "7",
+    "read_it": "7",
+    "read_ru": "7",
+    "read_zh": "7"
 }

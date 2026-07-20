@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "청산 히트맵·롱숏비율",
   "tag_en": "Liquidation Heatmap & Long/Short Ratio",
@@ -22,6 +27,11 @@
   "tag_pt": "Mapa de Calor de Liquidações e Proporção Compradas/Vendidas",
   "tag_tr": "Tasfiye Isı Haritası ve Long/Short Oranı",
   "tag_vi": "Bản Đồ Nhiệt Thanh Lý và Tỷ Lệ Long/Short",
+  "tag_id": "Peta Panas Likuidasi & Rasio Long/Short",
+  "tag_pl": "Mapa Cieplna Likwidacji i Stosunek Long/Short",
+  "tag_it": "Mappa di Calore delle Liquidazioni e Rapporto Long/Short",
+  "tag_ru": "Тепловая карта ликвидаций и соотношение лонг/шорт",
+  "tag_zh": "清算熱圖與多空比例",
 
   "title_ko": "$64,000 돌파, 예고된 숏 청산 6억 8,900만 달러 중 9,600만 달러만 터졌다",
   "title_en": "BTC Broke $64,000, But Only $96M of the Flagged $689M in Short Liquidations Fired",
@@ -32,6 +42,11 @@
   "title_pt": "BTC Rompeu os $64.000, Mas Apenas $96M dos $689M em Liquidações Vendidas Sinalizadas Dispararam",
   "title_tr": "BTC 64.000 Doları Aştı, Ama İşaret Edilen 689 Milyon Dolarlık Short Tasfiyesinin Sadece 96 Milyonu Tetiklendi",
   "title_vi": "BTC Vượt Mốc 64.000 Đô La, Nhưng Chỉ 96 Triệu Trong Số 689 Triệu Đô La Thanh Lý Short Được Cảnh Báo Kích Hoạt",
+  "title_id": "BTC Menembus $64,000, Tapi Hanya $96M dari $689M Likuidasi Short yang Diperingatkan Terpicu",
+  "title_pl": "BTC Przebił $64,000, Ale Uruchomiło Się Tylko $96M z Zasygnalizowanych $689M Likwidacji Krótkich Pozycji",
+  "title_it": "Il BTC Ha Superato i $64,000, Ma Solo $96M dei $689M di Liquidazioni Short Segnalate Sono Scattati",
+  "title_ru": "Биткоин Пробил $64,000, Но Сработало Лишь $96M из Заявленных $689M Ликвидаций Шортов",
+  "title_zh": "BTC突破$64,000,但被示警的$689M空頭清算中僅有$96M觸發",
 
   "h1_ko": "$64,000 돌파,<br>예고된 숏 청산의 14%만 터졌다",
   "h1_en": "Bitcoin Broke $64,000,<br>But Only 14% of the Flagged Short Liquidations Fired",
@@ -42,6 +57,11 @@
   "h1_pt": "Bitcoin Rompeu os $64.000,<br>Mas Apenas 14% das Liquidações Vendidas Sinalizadas Dispararam",
   "h1_tr": "Bitcoin 64.000 Doları Aştı,<br>Ama İşaret Edilen Short Tasfiyelerinin Sadece %14'ü Tetiklendi",
   "h1_vi": "Bitcoin Vượt Mốc 64.000 Đô La,<br>Nhưng Chỉ 14% Thanh Lý Short Được Cảnh Báo Kích Hoạt",
+  "h1_id": "Bitcoin Menembus $64,000,<br>Tapi Hanya 14% Likuidasi Short yang Diperingatkan Terpicu",
+  "h1_pl": "Bitcoin Przebił $64,000,<br>Ale Uruchomiło Się Tylko 14% Zasygnalizowanych Likwidacji Krótkich Pozycji",
+  "h1_it": "Il Bitcoin Ha Superato i $64,000,<br>Ma Solo il 14% delle Liquidazioni Short Segnalate È Scattato",
+  "h1_ru": "Биткоин Пробил $64,000,<br>Но Сработало Лишь 14% Заявленных Ликвидаций Шортов",
+  "h1_zh": "比特幣突破$64,000,<br>但被示警的空頭清算中僅14%觸發",
 
   "bc_ko": "청산 히트맵·롱숏비율 점검",
   "bc_en": "Liquidation Heatmap & Long/Short Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Mapa de Calor de Liquidações e Verificação Compradas/Vendidas",
   "bc_tr": "Tasfiye Isı Haritası ve Long/Short Kontrolü",
   "bc_vi": "Bản Đồ Nhiệt Thanh Lý và Kiểm Tra Long/Short",
+  "bc_id": "Peta Panas Likuidasi & Pemeriksaan Long/Short",
+  "bc_pl": "Mapa Cieplna Likwidacji i Kontrola Long/Short",
+  "bc_it": "Mappa di Calore delle Liquidazioni e Controllo Long/Short",
+  "bc_ru": "Тепловая карта ликвидаций и проверка лонг/шорт",
+  "bc_zh": "清算熱圖與多空檢視",
 
   "desc_ko": "비트코인이 7월 10일 $64,653까지 오르며 숏 청산 9,600만 달러를 냈다. 그런데 하루 전 코인글래스 데이터는 $64,000 돌파 시 6억 8,900만 달러의 숏 청산을 예고했었다 — 실제로 터진 건 14%뿐이다. 롱숏 비율은 6월 말 숏 우세에서 거의 중립으로 이동했다. 청산 지도와 포지셔닝이 함께 말하는 지금 국면을 진단한다.",
   "desc_en": "Bitcoin rose to $64,653 on July 10, triggering $96 million in short liquidations. But a day earlier, CoinGlass data had flagged up to $689 million in potential short liquidations above $64,000 — only 14% of that actually fired. The long/short ratio has shifted from short-tilted in late June to near-neutral. A look at what the liquidation map and positioning data are saying together.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin a grimpé à 64 653 dollars le 10 juillet, déclenchant 96 millions de dollars de liquidations courtes. Mais la veille, des données de CoinGlass avaient annoncé jusqu'à 689 millions de dollars de liquidations courtes potentielles au-dessus de 64 000 dollars — seuls 14 % de ce montant se sont réellement déclenchés. Le ratio longs/courts est passé d'un biais court fin juin à un niveau quasi neutre. Un examen de ce que la carte des liquidations et les données de positionnement disent ensemble.",
   "desc_pt": "O bitcoin subiu para 64.653 dólares em 10 de julho, disparando 96 milhões de dólares em liquidações vendidas. Mas um dia antes, dados da CoinGlass haviam sinalizado até 689 milhões de dólares em liquidações vendidas potenciais acima de 64.000 dólares — apenas 14% disso de fato disparou. A proporção compradas/vendidas passou de um viés vendido no final de junho para um nível quase neutro. Uma análise do que o mapa de liquidações e os dados de posicionamento dizem em conjunto.",
   "desc_tr": "Bitcoin 10 Temmuz'da 64.653 dolara yükselerek 96 milyon dolarlık short tasfiyesini tetikledi. Ancak bir gün önce CoinGlass verileri, 64.000 doların üzerinde 689 milyon dolara varan potansiyel short tasfiyesine işaret etmişti — fiilen tetiklenen bunun sadece %14'ü. Long/short oranı, Haziran sonundaki short ağırlıklı seviyeden neredeyse nötre kaydı. Tasfiye haritasının ve pozisyonlama verilerinin birlikte ne söylediğine bir bakış.",
-  "desc_vi": "Bitcoin tăng lên 64.653 đô la vào ngày 10 tháng 7, kích hoạt 96 triệu đô la thanh lý short. Nhưng một ngày trước đó, dữ liệu từ CoinGlass đã cảnh báo tới 689 triệu đô la thanh lý short tiềm năng phía trên mốc 64.000 đô la — chỉ 14% trong số đó thực sự kích hoạt. Tỷ lệ long/short đã chuyển từ nghiêng về short cuối tháng 6 sang gần như trung lập. Một góc nhìn về những gì bản đồ thanh lý và dữ liệu định vị đang cùng nói lên."
+  "desc_vi": "Bitcoin tăng lên 64.653 đô la vào ngày 10 tháng 7, kích hoạt 96 triệu đô la thanh lý short. Nhưng một ngày trước đó, dữ liệu từ CoinGlass đã cảnh báo tới 689 triệu đô la thanh lý short tiềm năng phía trên mốc 64.000 đô la — chỉ 14% trong số đó thực sự kích hoạt. Tỷ lệ long/short đã chuyển từ nghiêng về short cuối tháng 6 sang gần như trung lập. Một góc nhìn về những gì bản đồ thanh lý và dữ liệu định vị đang cùng nói lên.",
+  "desc_id": "Bitcoin naik ke $64,653 pada 10 Juli, memicu $96 juta likuidasi short — hanya 14% dari $689 juta yang diperingatkan CoinGlass.",
+  "desc_pl": "Bitcoin wzrósł do $64,653 10 lipca, wywołując $96 mln likwidacji short — tylko 14% z $689 mln zasygnalizowanych przez CoinGlass.",
+  "desc_it": "Il bitcoin è salito a $64,653 il 10 luglio, innescando $96 milioni di liquidazioni short — solo il 14% dei $689 milioni segnalati da CoinGlass.",
+  "desc_ru": "Биткоин вырос до $64,653 10 июля, вызвав $96 млн ликвидаций шортов — лишь 14% из заявленных CoinGlass $689 млн. Соотношение лонг/шорт почти нейтральное.",
+  "desc_zh": "比特幣於7月10日上午突破並漲至$64,653,觸發$96 million空頭清算,僅為CoinGlass前一天示警之$689 million潛在空頭清算量中的14%。同期多空比例已從6月底偏空轉為接近中性,顯示部位結構正在悄然轉變,值得持續追蹤。"
 }
