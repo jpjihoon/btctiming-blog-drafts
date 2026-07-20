@@ -129,6 +129,11 @@
 <h2 class="pt">O Mesmo Bitcoin, Reação Oposta — O Que o GBTC Provou</h2>
 <h2 class="tr">Aynı Bitcoin, Zıt Tepki — GBTC'nin Kanıtladığı Şey</h2>
 <h2 class="vi">Cùng Một Bitcoin, Phản Ứng Trái Ngược — Điều GBTC Đã Chứng Minh</h2>
+<h2 class="id">Bitcoin yang Sama, Reaksi yang Berlawanan — Apa yang Dibuktikan GBTC</h2>
+<h2 class="pl">Ten Sam Bitcoin, Odwrotna Reakcja — Co Udowodnił GBTC</h2>
+<h2 class="it">Stesso Bitcoin, Reazione Opposta — Cosa Ha Dimostrato GBTC</h2>
+<h2 class="ru">Тот Же Биткоин, Противоположная Реакция — Что Доказал GBTC</h2>
+<h2 class="zh">同一枚比特幣,截然相反的反應——GBTC證明了什麼</h2>
 
 <p class="ko">GBTC의 궤적으로 돌아가 보자. 2020년 12월부터 2021년 2월 사이, 이 상품은 최대 46%의 프리미엄에 거래됐다 — 당시 신탁이 새 지분을 발행하려면 6개월의 잠금 기간이 필요했고, 상장 규제 상품으로 비트코인에 노출되고 싶은 기관 자금은 몰리는데 유통 주식 수는 즉각 늘어나지 못했다. 수요는 넘치는데 공급은 묶여 있다는, 워첼의 실험이 가장 높은 점수를 준 바로 그 조건이었다. 그런데 2022년 11월 FTX가 무너지고 제네시스가 상환을 중단하면서, 같은 신탁의 같은 비트코인이 이번엔 순자산가치 대비 최대 약 50% 할인된 가격에 거래됐다. 그 사이 신탁이 보유한 BTC 수량은 줄지 않았고, 2,100만 개라는 상한도 그대로였다. 바뀐 건 오직 이 통로로 비트코인에 접근하는 게 얼마나 어려운가에 대한 투자자들의 지각뿐이었다 — 실제 비트코인 공급 곡선은 이 46%포인트 프리미엄에서 -50% 할인까지, 총 96%포인트에 달하는 롤러코스터 내내 단 1비트코인도 움직이지 않았다.</p>
 <p class="en">Return to GBTC's trajectory. Between December 2020 and February 2021, the trust traded at a premium of up to 46% — new shares required a six-month lockup to issue, institutional money wanting regulated Bitcoin exposure kept flowing in, and the outstanding share count couldn't expand fast enough to match it. Demand was overflowing while supply stayed locked — exactly the condition Worchel's experiment rated highest of all. Then, when FTX collapsed in November 2022 and Genesis froze redemptions, that same trust, holding that same Bitcoin, traded at a discount to net asset value of up to roughly 50%. The quantity of BTC the trust held hadn't shrunk in between, and the 21-million-coin cap hadn't moved either. The only thing that changed was investors' perception of how hard it was to access Bitcoin through that particular door — across the entire round trip, from a 46-point premium to a 50-point discount, a swing of roughly 96 percentage points, not a single Bitcoin's worth of actual supply moved.</p>

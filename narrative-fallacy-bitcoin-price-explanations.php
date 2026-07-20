@@ -417,6 +417,171 @@
     <text x="660" y="410" fill="#c084fc" font-size="12" text-anchor="end" font-family="sans-serif">Tương quan di chuyển trước — câu chuyện được đặt tên sau</text>
     <text x="660" y="70" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Số liệu là gần đúng trong phạm vi nghiên cứu · khái niệm</text>
   </svg></div>
+<div class="id">  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Korelasi 90 Hari BTC-Nasdaq, dan Narasi yang Ditempelkan di Atasnya</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Pola pergeseran korelasi, 2020-2026 · ilustrasi konseptual (berdasarkan riset korelasi CME / Bitwise)</text>
+    <text x="26" y="220" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 220)">Korelasi →</text>
+
+    <line x1="70" y1="350" x2="660" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="220" x2="660" y2="220" stroke="#27272a" stroke-dasharray="4,4"/>
+    <text x="655" y="214" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">0.5</text>
+
+    <polyline points="130,258 300,112 470,196 610,128" fill="none" stroke="#c084fc" stroke-width="3"/>
+    <circle cx="130" cy="258" r="6" fill="#c084fc"/>
+    <circle cx="300" cy="112" r="6" fill="#c084fc"/>
+    <circle cx="470" cy="196" r="6" fill="#c084fc"/>
+    <circle cx="610" cy="128" r="6" fill="#c084fc"/>
+
+    <text x="130" y="245" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.35</text>
+    <text x="300" y="99" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.80</text>
+    <text x="470" y="183" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.55</text>
+    <text x="610" y="115" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.75</text>
+
+    <text x="130" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-21</text>
+    <text x="130" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narasi "emas digital"</text>
+    <text x="300" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+    <text x="300" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narasi "aset berisiko" (CPI 9,1%)</text>
+    <text x="470" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2023</text>
+    <text x="470" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narasi "decoupling"</text>
+    <text x="610" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2024-26</text>
+    <text x="610" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Fase "re-coupling"</text>
+
+    <text x="660" y="410" fill="#c084fc" font-size="12" text-anchor="end" font-family="sans-serif">Korelasi bergerak lebih dulu — narasi baru diberi nama setelahnya</text>
+    <text x="660" y="70" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Angka bersifat perkiraan, dalam rentang hasil riset · konseptual</text>
+  </svg></div>
+<div class="pl">  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">90-Dniowa Korelacja BTC-Nasdaq i Narracje Doczepione Do Niej</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Wzorzec zmian korelacji, 2020-2026 · ilustracja koncepcyjna (na podstawie badań korelacji CME / Bitwise)</text>
+    <text x="26" y="220" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 220)">Korelacja →</text>
+
+    <line x1="70" y1="350" x2="660" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="220" x2="660" y2="220" stroke="#27272a" stroke-dasharray="4,4"/>
+    <text x="655" y="214" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">0.5</text>
+
+    <polyline points="130,258 300,112 470,196 610,128" fill="none" stroke="#c084fc" stroke-width="3"/>
+    <circle cx="130" cy="258" r="6" fill="#c084fc"/>
+    <circle cx="300" cy="112" r="6" fill="#c084fc"/>
+    <circle cx="470" cy="196" r="6" fill="#c084fc"/>
+    <circle cx="610" cy="128" r="6" fill="#c084fc"/>
+
+    <text x="130" y="245" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.35</text>
+    <text x="300" y="99" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.80</text>
+    <text x="470" y="183" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.55</text>
+    <text x="610" y="115" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.75</text>
+
+    <text x="130" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-21</text>
+    <text x="130" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narracja „cyfrowe złoto"</text>
+    <text x="300" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+    <text x="300" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narracja „aktywo ryzykowne" (CPI 9,1%)</text>
+    <text x="470" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2023</text>
+    <text x="470" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narracja „rozdzielenie" (decoupling)</text>
+    <text x="610" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2024-26</text>
+    <text x="610" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Faza „ponownego powiązania"</text>
+
+    <text x="660" y="410" fill="#c084fc" font-size="12" text-anchor="end" font-family="sans-serif">Korelacja porusza się pierwsza — narracja zostaje nazwana później</text>
+    <text x="660" y="70" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Liczby przybliżone, w granicach zbadanych zakresów · koncepcyjne</text>
+  </svg></div>
+<div class="it">  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Correlazione BTC-Nasdaq a 90 Giorni, e le Narrative Sovrapposte</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Schema dei cambiamenti di correlazione, 2020-2026 · illustrazione concettuale (basata su ricerche di correlazione CME / Bitwise)</text>
+    <text x="26" y="220" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 220)">Correlazione →</text>
+
+    <line x1="70" y1="350" x2="660" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="220" x2="660" y2="220" stroke="#27272a" stroke-dasharray="4,4"/>
+    <text x="655" y="214" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">0.5</text>
+
+    <polyline points="130,258 300,112 470,196 610,128" fill="none" stroke="#c084fc" stroke-width="3"/>
+    <circle cx="130" cy="258" r="6" fill="#c084fc"/>
+    <circle cx="300" cy="112" r="6" fill="#c084fc"/>
+    <circle cx="470" cy="196" r="6" fill="#c084fc"/>
+    <circle cx="610" cy="128" r="6" fill="#c084fc"/>
+
+    <text x="130" y="245" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.35</text>
+    <text x="300" y="99" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.80</text>
+    <text x="470" y="183" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.55</text>
+    <text x="610" y="115" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.75</text>
+
+    <text x="130" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-21</text>
+    <text x="130" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narrativa "oro digitale"</text>
+    <text x="300" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+    <text x="300" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narrativa "asset di rischio" (CPI 9,1%)</text>
+    <text x="470" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2023</text>
+    <text x="470" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Narrativa "decoupling"</text>
+    <text x="610" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2024-26</text>
+    <text x="610" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Fase di "re-coupling"</text>
+
+    <text x="660" y="410" fill="#c084fc" font-size="12" text-anchor="end" font-family="sans-serif">La correlazione si muove per prima — la narrativa viene nominata dopo</text>
+    <text x="660" y="70" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Valori approssimativi, entro gli intervalli studiati · concettuale</text>
+  </svg></div>
+<div class="ru">  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">90-дневная Корреляция BTC-Nasdaq и Пристёгнутые к Ней Нарративы</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Динамика изменения корреляции, 2020-2026 гг. · концептуальная иллюстрация (на основе исследований корреляции CME / Bitwise)</text>
+    <text x="26" y="220" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 220)">Корреляция →</text>
+
+    <line x1="70" y1="350" x2="660" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="220" x2="660" y2="220" stroke="#27272a" stroke-dasharray="4,4"/>
+    <text x="655" y="214" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">0.5</text>
+
+    <polyline points="130,258 300,112 470,196 610,128" fill="none" stroke="#c084fc" stroke-width="3"/>
+    <circle cx="130" cy="258" r="6" fill="#c084fc"/>
+    <circle cx="300" cy="112" r="6" fill="#c084fc"/>
+    <circle cx="470" cy="196" r="6" fill="#c084fc"/>
+    <circle cx="610" cy="128" r="6" fill="#c084fc"/>
+
+    <text x="130" y="245" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.35</text>
+    <text x="300" y="99" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.80</text>
+    <text x="470" y="183" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.55</text>
+    <text x="610" y="115" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.75</text>
+
+    <text x="130" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-21</text>
+    <text x="130" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Нарратив «цифровое золото»</text>
+    <text x="300" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+    <text x="300" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Нарратив «рисковый актив» (ИПЦ 9,1%)</text>
+    <text x="470" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2023</text>
+    <text x="470" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Нарратив «декаплинг»</text>
+    <text x="610" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2024-26</text>
+    <text x="610" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">Фаза «рекаплинга»</text>
+
+    <text x="660" y="410" fill="#c084fc" font-size="12" text-anchor="end" font-family="sans-serif">Корреляция движется первой — нарратив называют позже</text>
+    <text x="660" y="70" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">Цифры приблизительны, в пределах исследованных диапазонов · концептуально</text>
+  </svg></div>
+<div class="zh">  <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">BTC與那斯達克90日相關係數,以及被安上去的各種敘事</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">2020-2026年相關係數變化模式・概念示意圖(依據CME/Bitwise相關性研究)</text>
+    <text x="26" y="220" fill="#a1a1aa" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700" transform="rotate(-90 26 220)">相關係數 →</text>
+
+    <line x1="70" y1="350" x2="660" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="90" x2="70" y2="350" stroke="#27272a"/>
+    <line x1="70" y1="220" x2="660" y2="220" stroke="#27272a" stroke-dasharray="4,4"/>
+    <text x="655" y="214" fill="#52525b" font-size="12" text-anchor="end" font-family="sans-serif">0.5</text>
+
+    <polyline points="130,258 300,112 470,196 610,128" fill="none" stroke="#c084fc" stroke-width="3"/>
+    <circle cx="130" cy="258" r="6" fill="#c084fc"/>
+    <circle cx="300" cy="112" r="6" fill="#c084fc"/>
+    <circle cx="470" cy="196" r="6" fill="#c084fc"/>
+    <circle cx="610" cy="128" r="6" fill="#c084fc"/>
+
+    <text x="130" y="245" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.35</text>
+    <text x="300" y="99" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.80</text>
+    <text x="470" y="183" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.55</text>
+    <text x="610" y="115" fill="#e4d4fc" font-size="13" text-anchor="middle" font-family="sans-serif" font-weight="700">0.75</text>
+
+    <text x="130" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2020-21</text>
+    <text x="130" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">「數位黃金」敘事</text>
+    <text x="300" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2022</text>
+    <text x="300" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">「風險資產」敘事(CPI 9.1%)</text>
+    <text x="470" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2023</text>
+    <text x="470" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">「脫鉤」敘事</text>
+    <text x="610" y="374" fill="#d4d4d8" font-size="13" text-anchor="middle" font-family="sans-serif">2024-26</text>
+    <text x="610" y="392" fill="#71717a" font-size="12" text-anchor="middle" font-family="sans-serif">「重新掛鉤」階段</text>
+
+    <text x="660" y="410" fill="#c084fc" font-size="12" text-anchor="end" font-family="sans-serif">相關係數先變動——敘事之後才被命名</text>
+    <text x="660" y="70" fill="#71717a" font-size="12" text-anchor="end" font-family="sans-serif">數值為研究範圍內的近似值・示意用</text>
+  </svg></div>
 <h2 class="ko">같은 데이터, 정반대 헤드라인</h2>
 <h2 class="en">Same Data, Opposite Headlines</h2>
 <h2 class="ja">同じデータ、正反対の見出し</h2>
