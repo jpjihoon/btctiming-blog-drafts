@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "BTC/금 비율·Puell Multiple",
   "tag_en": "BTC/Gold Ratio & Puell Multiple",
@@ -22,6 +27,11 @@
   "tag_pt": "Proporção BTC/Ouro e Puell Multiple",
   "tag_tr": "BTC/Altın Oranı ve Puell Multiple",
   "tag_vi": "Tỷ Lệ BTC/Vàng và Puell Multiple",
+  "tag_id": "Rasio BTC/Emas & Puell Multiple",
+  "tag_pl": "Wskaźnik BTC/Złoto i Puell Multiple",
+  "tag_it": "Rapporto BTC/Oro e Puell Multiple",
+  "tag_ru": "Отношение BTC/Золото и Puell Multiple",
+  "tag_zh": "BTC/黃金比率與Puell Multiple",
 
   "title_ko": "비트코인/금 비율 15.5온스, Puell Multiple 0.75 — 서로 다른 두 지표가 같은 곳을 가리킨다",
   "title_en": "Bitcoin/Gold Ratio at 15.5 Ounces, Puell Multiple at 0.75 — Two Unrelated Indicators Point to the Same Place",
@@ -32,6 +42,11 @@
   "title_pt": "Proporção Bitcoin/Ouro em 15,5 Onças, Puell Multiple em 0,75 — Dois Indicadores Sem Relação Apontam Para o Mesmo Lugar",
   "title_tr": "Bitcoin/Altın Oranı 15,5 Ons'ta, Puell Multiple 0,75'te — Birbiriyle İlgisiz İki Gösterge Aynı Yeri İşaret Ediyor",
   "title_vi": "Tỷ Lệ Bitcoin/Vàng Ở 15,5 Ounce, Puell Multiple Ở 0,75 — Hai Chỉ Báo Không Liên Quan Cùng Chỉ Về Một Nơi",
+  "title_id": "Rasio Bitcoin/Emas di 15,5 Ons, Puell Multiple di 0,75 — Dua Indikator Tak Terkait Menunjuk ke Tempat yang Sama",
+  "title_pl": "Wskaźnik Bitcoin/Złoto na 15,5 Uncji, Puell Multiple na 0,75 — Dwa Niepowiązane Wskaźniki Wskazują to Samo Miejsce",
+  "title_it": "Rapporto Bitcoin/Oro a 15,5 Once, Puell Multiple a 0,75 — Due Indicatori Non Correlati Puntano allo Stesso Punto",
+  "title_ru": "Отношение Биткоин/Золото на 15,5 Унции, Puell Multiple на 0,75 — Два Несвязанных Индикатора Указывают на Одно и То же",
+  "title_zh": "比特幣/黃金比率15.5盎司,Puell Multiple 0.75——兩項不相關指標指向同一處",
 
   "h1_ko": "가격은 6만 4,000달러대로 반등했는데,<br>크로스에셋과 채굴 지표는 아직 압박 구간에 머물러 있다",
   "h1_en": "Price Has Bounced Back Into the $64,000s,<br>But the Cross-Asset and Mining Gauges Are Still in Stress Territory",
@@ -42,6 +57,11 @@
   "h1_pt": "O Preço Se Recuperou Para a Casa dos 64.000 Dólares,<br>Mas os Indicadores Intermercado e de Mineração Seguem em Zona de Estresse",
   "h1_tr": "Fiyat 64.000 Dolar Bandına Toparlandı,<br>Ancak Varlıklar Arası ve Madencilik Göstergeleri Hâlâ Stres Bölgesinde",
   "h1_vi": "Giá Đã Phục Hồi Lên Vùng 64.000 Đô La,<br>Nhưng Các Chỉ Báo Liên Tài Sản Và Khai Thác Vẫn Ở Vùng Căng Thẳng",
+  "h1_id": "Harga Sudah Memantul Kembali ke Kisaran $64.000,<br>Tetapi Indikator Lintas-Aset dan Penambangan Masih di Zona Tekanan",
+  "h1_pl": "Cena Odbiła Się z Powrotem do Poziomu 64 000 Dolarów,<br>Ale Wskaźniki Międzyrynkowe i Wydobywcze Wciąż Są w Strefie Napięcia",
+  "h1_it": "Il Prezzo È Rimbalzato di Nuovo Sopra i 64.000 Dollari,<br>Ma gli Indicatori Intermercato e Minerari Restano in Zona di Stress",
+  "h1_ru": "Цена Отскочила Обратно к Уровню 64 000 Долларов,<br>Но Межрыночные и Майнинговые Показатели По-прежнему в Зоне Стресса",
+  "h1_zh": "價格已反彈回到6萬4,000美元區間,<br>但跨資產與礦業指標仍處於壓力區",
 
   "bc_ko": "BTC/금 비율·Puell Multiple 점검",
   "bc_en": "BTC/Gold Ratio & Puell Multiple Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação da Proporção BTC/Ouro e Puell Multiple",
   "bc_tr": "BTC/Altın Oranı ve Puell Multiple Kontrolü",
   "bc_vi": "Kiểm Tra Tỷ Lệ BTC/Vàng và Puell Multiple",
+  "bc_id": "Pemeriksaan Rasio BTC/Emas & Puell Multiple",
+  "bc_pl": "Kontrola Wskaźnika BTC/Złoto i Puell Multiple",
+  "bc_it": "Verifica del Rapporto BTC/Oro e Puell Multiple",
+  "bc_ru": "Проверка Отношения BTC/Золото и Puell Multiple",
+  "bc_zh": "BTC/黃金比率與Puell Multiple檢視",
 
   "desc_ko": "비트코인이 6만 4,150달러 안팎에서 세 차례의 숏스퀴즈를 거치며 반등했지만, 비트코인/금 비율은 약 15.5온스로 장기 평균(63온스)의 4분의 1 수준에 머물러 있다. 같은 시점 채굴자 수익성 지표 Puell Multiple도 0.75로 역사적 평균을 밑돈다. 계산 방식이 전혀 다른 두 지표가 동시에 '역사적으로 낮은' 구간에 들어와 있지만, 공포탐욕지수(26)를 포함해 가격은 아직 이 신호를 확인해주지 않고 있다.",
   "desc_en": "Bitcoin bounced to around $64,150 through three short squeezes this week, but the bitcoin/gold ratio sits at roughly 15.5 ounces — about a quarter of its 63-ounce long-run average. At the same time, the miner-profitability gauge known as the Puell Multiple reads 0.75, below its historical average. Two indicators calculated in completely different ways are both in 'historically low' territory at once, yet price — and the Fear & Greed Index at 26 — hasn't confirmed that signal.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin a rebondi à environ 64 150 dollars à travers trois short squeezes cette semaine, mais le ratio bitcoin/or se situe à environ 15,5 onces — près d'un quart de sa moyenne à long terme de 63 onces. Dans le même temps, l'indicateur de rentabilité minière Puell Multiple affiche 0,75, sous sa moyenne historique. Deux indicateurs calculés de façons totalement différentes se trouvent simultanément en territoire 'historiquement bas', mais le prix — et l'indice Fear & Greed à 26 — n'a pas confirmé ce signal.",
   "desc_pt": "O bitcoin se recuperou para cerca de 64.150 dólares através de três short squeezes nesta semana, mas a proporção bitcoin/ouro está em aproximadamente 15,5 onças — cerca de um quarto de sua média histórica de 63 onças. Ao mesmo tempo, o indicador de rentabilidade dos mineradores Puell Multiple marca 0,75, abaixo de sua média histórica. Dois indicadores calculados de formas completamente diferentes estão simultaneamente em território 'historicamente baixo', mas o preço — e o Índice de Medo e Ganância em 26 — não confirmou esse sinal.",
   "desc_tr": "Bitcoin bu hafta üç short squeeze ile yaklaşık 64.150 dolara toparlandı, ancak bitcoin/altın oranı yaklaşık 15,5 ons'ta — 63 onsluk uzun vadeli ortalamasının yaklaşık dörtte biri. Aynı zamanda madenci karlılık göstergesi Puell Multiple 0,75 okuyor, tarihsel ortalamasının altında. Tamamen farklı yöntemlerle hesaplanan iki gösterge aynı anda 'tarihsel olarak düşük' bölgede, ancak fiyat — ve 26'daki Korku ve Açgözlülük Endeksi — bu sinyali henüz doğrulamadı.",
-  "desc_vi": "Bitcoin đã phục hồi lên khoảng 64.150 đô la qua ba đợt short squeeze trong tuần này, nhưng tỷ lệ bitcoin/vàng ở mức khoảng 15,5 ounce — chỉ bằng khoảng một phần tư mức trung bình dài hạn 63 ounce của nó. Cùng lúc đó, chỉ báo lợi nhuận thợ đào Puell Multiple ở mức 0,75, thấp hơn mức trung bình lịch sử. Hai chỉ báo được tính theo cách hoàn toàn khác nhau cùng lúc nằm trong vùng 'thấp về mặt lịch sử', nhưng giá — và Chỉ số Sợ hãi & Tham lam ở mức 26 — vẫn chưa xác nhận tín hiệu đó."
+  "desc_vi": "Bitcoin đã phục hồi lên khoảng 64.150 đô la qua ba đợt short squeeze trong tuần này, nhưng tỷ lệ bitcoin/vàng ở mức khoảng 15,5 ounce — chỉ bằng khoảng một phần tư mức trung bình dài hạn 63 ounce của nó. Cùng lúc đó, chỉ báo lợi nhuận thợ đào Puell Multiple ở mức 0,75, thấp hơn mức trung bình lịch sử. Hai chỉ báo được tính theo cách hoàn toàn khác nhau cùng lúc nằm trong vùng 'thấp về mặt lịch sử', nhưng giá — và Chỉ số Sợ hãi & Tham lam ở mức 26 — vẫn chưa xác nhận tín hiệu đó.",
+  "desc_id": "Rasio bitcoin/emas turun ke 15,5 ons dan Puell Multiple ke 0,75, dua indikator berbeda berada di titik rendah historis, tapi harga belum konfirmasi sinyal.",
+  "desc_pl": "Wskaźnik bitcoin/złoto spadł do 15,5 uncji, a Puell Multiple do 0,75 - dwa wskaźniki są w strefie historycznie niskiej, lecz cena tego nie potwierdza.",
+  "desc_it": "Il rapporto bitcoin/oro è sceso a 15,5 once e il Puell Multiple a 0,75: indicatori diversi sono ai minimi storici, ma il prezzo non conferma il segnale.",
+  "desc_ru": "Отношение биткоин-золото упало до 15,5 унции, а Puell Multiple до 0,75 - оба индикатора на исторических минимумах, но цена пока не подтверждает сигнал.",
+  "desc_zh": "比特幣在三次軋空後反彈至6萬4,150美元附近,但比特幣/黃金比率跌至15.5盎司,約為長期平均63盎司的四分之一,同一時間礦工獲利指標Puell Multiple也降至0.75,兩項計算方式截然不同的指標同時觸及歷史低位,價格尚未確認這項訊號。"
 }
