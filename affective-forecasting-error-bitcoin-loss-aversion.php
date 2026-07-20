@@ -462,6 +462,196 @@
     <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
     <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
   </svg></div>
+<div class="id">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Prediksi Rasa Sakit vs. Rasa Sakit yang Sebenarnya Dialami</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Skema pola yang dilaporkan dalam berbagai studi peramalan afektif Gilbert dan Wilson — diagram konsep, bukan data nyata</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Intensitas Emosi</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Minggu Sejak Peristiwa</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Titik acuan pasca-adaptasi</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Saat peristiwa terjadi</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Kesenjangan prediksi-realitas — di sinilah panic-selling dan all-in terjadi</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Rasa sakit yang diprediksi (dibayangkan sebelumnya)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Rasa sakit sebenarnya (diukur saat tindak lanjut)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="pl">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Przewidywany Ból vs. Faktycznie Odczuwany Ból</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Schemat wzorca opisywanego w badaniach nad prognozowaniem afektywnym Gilberta i Wilsona — diagram koncepcyjny, nie rzeczywiste dane</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Intensywność Emocji</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Tygodnie od Zdarzenia</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Punkt odniesienia po adaptacji</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Moment wystąpienia zdarzenia</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Luka między prognozą a rzeczywistością — tu dochodzi do paniki sprzedażowej i obstawiania wszystkiego</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Przewidywany ból (wyobrażony wcześniej)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Rzeczywisty ból (zmierzony przy kontroli)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="it">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Dolore Previsto vs. Dolore Realmente Provato</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Schema del modello riportato negli studi sulla previsione affettiva di Gilbert e Wilson — un diagramma concettuale, non dati reali</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Intensità Emotiva</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Settimane Dall'Evento</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Riferimento post-adattamento</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Momento in cui si verifica l'evento</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Divario previsione-realtà — è qui che avvengono le vendite da panico e le scommesse totali</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Dolore previsto (immaginato in anticipo)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Dolore reale (misurato al follow-up)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="ru">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">Предсказанная Боль vs. Реально Пережитая Боль</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">Схема закономерности, зафиксированной в исследованиях аффективного прогнозирования Гилберта и Уилсона — концептуальная диаграмма, не реальные данные</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">Интенсивность Эмоций</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Недель с Момента События</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">Базовый уровень после адаптации</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">Момент наступления события</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">Разрыв между прогнозом и реальностью — именно здесь происходят панические продажи и ставки ва-банк</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Предсказанная боль (представленная заранее)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">Реальная боль (измеренная при контрольном опросе)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
+<div class="zh">  <svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="15" font-weight="700" font-family="sans-serif">預測的痛苦 vs. 實際經歷的痛苦</text>
+    <text x="20" y="48" fill="#71717a" font-size="13" font-family="sans-serif">圖示吉爾伯特與威爾遜情感預測研究中普遍呈現的模式——概念示意圖,非真實數據</text>
+
+    <line x1="90" y1="70" x2="90" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <line x1="90" y1="345" x2="655" y2="345" stroke="#3f3f46" stroke-width="1.5"/>
+    <text x="60" y="215" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle" transform="rotate(-90 60 215)">情緒強度</text>
+    <text x="372" y="390" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">事件發生後經過的週數</text>
+
+    <line x1="90" y1="300" x2="655" y2="300" stroke="#52525b" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="600" y="317" fill="#71717a" font-size="13" font-family="sans-serif" text-anchor="end">適應後基準線</text>
+
+    <line x1="120" y1="70" x2="120" y2="345" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3,4"/>
+    <text x="120" y="365" fill="#f87171" font-size="13" font-family="sans-serif" text-anchor="middle">事件發生時點</text>
+
+    <polyline points="120,112 214,124 308,130 402,133 496,135 590,136" fill="none" stroke="#f87171" stroke-width="3" stroke-dasharray="8,5"/>
+    <circle cx="120" cy="112" r="5" fill="#f87171"/>
+    <circle cx="590" cy="136" r="5" fill="#f87171"/>
+
+    <polyline points="120,112 214,182 308,232 402,266 496,286 590,296" fill="none" stroke="#38bdf8" stroke-width="3.5"/>
+    <circle cx="120" cy="112" r="5" fill="#38bdf8"/>
+    <circle cx="590" cy="296" r="5" fill="#38bdf8"/>
+
+    <line x1="308" y1="130" x2="308" y2="232" stroke="#a1a1aa" stroke-width="1.5" stroke-dasharray="2,3"/>
+    <text x="322" y="185" fill="#e4e4e7" font-size="13.5" font-family="sans-serif" font-weight="700">預測與現實的落差——恐慌性賣出與全倉押注就發生在這個區間</text>
+
+    <rect x="470" y="76" width="14" height="14" fill="#f87171"/>
+    <text x="490" y="88" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">預測的痛苦(事件發生前的想像)</text>
+    <rect x="470" y="98" width="14" height="14" fill="#38bdf8"/>
+    <text x="490" y="110" fill="#e4e4e7" font-size="13.5" font-family="sans-serif">實際經歷的痛苦(追蹤調查時測得)</text>
+
+    <text x="95" y="83" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="95" y="350" fill="#52525b" font-size="12" font-family="sans-serif">0</text>
+    <text x="220" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">2</text>
+    <text x="314" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">4</text>
+    <text x="408" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">8</text>
+    <text x="596" y="367" fill="#52525b" font-size="12" font-family="sans-serif" text-anchor="middle">12</text>
+  </svg></div>
 <h2 class="ko">손실회피 자체가 정서 예측의 오류일 수 있다</h2>
 <h2 class="en">Loss Aversion Itself May Be an Affective Forecasting Error</h2>
 <h2 class="ja">損失回避そのものが情動予測の誤りかもしれない</h2>
@@ -471,6 +661,11 @@
 <h2 class="pt">A Própria Aversão à Perda Pode Ser um Erro de Previsão Afetiva</h2>
 <h2 class="tr">Kayıptan Kaçınmanın Kendisi Bir Duygusal Öngörü Hatası Olabilir</h2>
 <h2 class="vi">Bản Thân Ác Cảm Mất Mát Có Thể Là Một Sai Lầm Dự Báo Cảm Xúc</h2>
+<h2 class="id">Penghindaran Kerugian Itu Sendiri Bisa Jadi Merupakan Kesalahan Peramalan Afektif</h2>
+<h2 class="pl">Sama Awersja do Strat Może Być Błędem Prognozowania Afektywnego</h2>
+<h2 class="it">L'Avversione alla Perdita Stessa Potrebbe Essere un Errore di Previsione Affettiva</h2>
+<h2 class="ru">Само Неприятие Потерь Может Быть Ошибкой Аффективного Прогнозирования</h2>
+<h2 class="zh">損失趨避本身或許就是一種情感預測誤差</h2>
 
 <p class="ko">이 블로그에서 <a href="/blog/loss-aversion-market-bottoms">손실회피(loss aversion)</a>를 다룰 때 보통 준거점은 대니얼 카너먼(Daniel Kahneman)과 아모스 트버스키(Amos Tversky)의 전망 이론(prospect theory)이다 — 사람은 같은 크기의 이익보다 손실을 심리적으로 약 두 배 더 크게 느낀다는 이론이다. 그런데 데버라 커머(Deborah Kermer), 에린 드라이버-린(Erin Driver-Linn), 티모시 윌슨, 대니얼 길버트가 2006년 《Psychological Science》에 발표한 연구는 이 손실회피의 크기 자체에 의문을 던졌다. 이들은 참가자들에게 동전 던지기 도박(이기면 일정 금액을 얻고, 지면 그보다 적은 금액을 잃는 구조)에 참여하게 하고, 결과가 나오기 전에 "이기면 얼마나 기쁠지", "지면 얼마나 속상할지"를 예측하게 한 뒤, 실제 결과가 나온 직후의 감정을 측정해 비교했다.</p>
 <p class="en">When this blog covers <a href="/en/blog/loss-aversion-market-bottoms">loss aversion</a>, the usual reference point is Daniel Kahneman and Amos Tversky's prospect theory — the idea that people feel a loss roughly twice as intensely, psychologically, as a gain of the same size. But a 2006 paper by Deborah Kermer, Erin Driver-Linn, Timothy Wilson, and Daniel Gilbert in Psychological Science questioned the very magnitude of that loss aversion. They had participants take part in coin-flip gambles — win a certain amount on heads, lose a smaller amount on tails — and, before the outcome was revealed, predict how happy a win would make them and how upset a loss would make them. They then measured participants' actual emotions immediately after the real outcome and compared the two.</p>
@@ -481,6 +676,11 @@
 <p class="pt">Quando este blog aborda a <a href="/pt/blog/loss-aversion-market-bottoms">aversão à perda</a>, o ponto de referência habitual é a teoria da perspectiva (prospect theory) de Daniel Kahneman e Amos Tversky — a ideia de que as pessoas sentem uma perda psicologicamente cerca de duas vezes mais intensa do que um ganho de mesmo tamanho. Mas um estudo de 2006 de Deborah Kermer, Erin Driver-Linn, Timothy Wilson e Daniel Gilbert na Psychological Science questionou a própria magnitude dessa aversão à perda. Eles fizeram os participantes participarem de apostas de cara ou coroa — ganhar certa quantia se saísse cara, perder uma quantia menor se saísse coroa — e, antes de o resultado ser revelado, previssem o quão feliz uma vitória os deixaria e o quão chateados uma perda os deixaria. Depois mediram as emoções reais dos participantes logo após o resultado real e compararam as duas.</p>
 <p class="tr">Bu blog <a href="/tr/blog/loss-aversion-market-bottoms">kayıptan kaçınmayı</a> ele alırken alışılagelmiş referans noktası, Daniel Kahneman ve Amos Tversky'nin beklenti teorisidir (prospect theory) — insanların bir kaybı, aynı büyüklükteki bir kazançtan psikolojik olarak yaklaşık iki kat daha yoğun hissettiği fikri. Ancak Deborah Kermer, Erin Driver-Linn, Timothy Wilson ve Daniel Gilbert'in 2006'da Psychological Science'ta yayımladığı çalışma, bu kayıptan kaçınmanın büyüklüğünün kendisini sorguladı. Katılımcıları yazı-tura bahislerine soktular — yazı gelirse belirli bir miktar kazanılıyor, tura gelirse daha küçük bir miktar kaybediliyordu — ve sonuç açıklanmadan önce, kazanmanın kendilerini ne kadar mutlu edeceğini, kaybetmenin ne kadar üzeceğini tahmin etmelerini istediler. Ardından gerçek sonuç açıklandıktan hemen sonra katılımcıların gerçek duygularını ölçüp ikisini karşılaştırdılar.</p>
 <p class="vi">Khi blog này đề cập đến <a href="/vi/blog/loss-aversion-market-bottoms">ác cảm mất mát (loss aversion)</a>, điểm tham chiếu thường dùng là lý thuyết triển vọng (prospect theory) của Daniel Kahneman và Amos Tversky — ý tưởng rằng con người cảm nhận một khoản lỗ mãnh liệt hơn về mặt tâm lý gấp khoảng hai lần so với một khoản lãi có cùng độ lớn. Nhưng một nghiên cứu năm 2006 của Deborah Kermer, Erin Driver-Linn, Timothy Wilson và Daniel Gilbert trên Psychological Science đã đặt câu hỏi về chính độ lớn của ác cảm mất mát này. Họ cho những người tham gia chơi trò cá cược tung đồng xu — thắng thì được một khoản tiền nhất định, thua thì mất một khoản nhỏ hơn — và trước khi kết quả được công bố, yêu cầu họ dự đoán mình sẽ vui đến mức nào nếu thắng và buồn đến mức nào nếu thua. Sau đó họ đo cảm xúc thực tế của người tham gia ngay sau khi có kết quả thật và so sánh hai điều này.</p>
+<p class="id">Ketika blog ini membahas <a href="/id/blog/loss-aversion-market-bottoms">penghindaran kerugian (loss aversion)</a>, titik acuan yang biasa digunakan adalah teori prospek (prospect theory) milik Daniel Kahneman dan Amos Tversky — gagasan bahwa orang merasakan kerugian secara psikologis kira-kira dua kali lebih intens dibanding keuntungan dengan besaran yang sama. Namun makalah tahun 2006 karya Deborah Kermer, Erin Driver-Linn, Timothy Wilson, dan Daniel Gilbert di Psychological Science mempertanyakan besaran penghindaran kerugian itu sendiri. Mereka meminta para partisipan mengikuti taruhan lempar koin — menang sejumlah uang jika sisi kepala, kalah sejumlah uang yang lebih kecil jika sisi ekor — dan, sebelum hasilnya diketahui, memprediksi seberapa bahagia mereka jika menang dan seberapa kesal mereka jika kalah. Mereka kemudian mengukur emosi aktual partisipan segera setelah hasil sebenarnya diketahui dan membandingkan keduanya.</p>
+<p class="pl">Gdy ten blog omawia <a href="/pl/blog/loss-aversion-market-bottoms">awersję do strat</a>, zwykłym punktem odniesienia jest teoria perspektywy (prospect theory) Daniela Kahnemana i Amosa Tversky'ego — idea, że ludzie odczuwają stratę psychologicznie mniej więcej dwa razy intensywniej niż zysk tej samej wielkości. Jednak artykuł z 2006 roku autorstwa Deborah Kermer, Erin Driver-Linn, Timothy'ego Wilsona i Daniela Gilberta w Psychological Science zakwestionował samą skalę tej awersji do strat. Badacze poprosili uczestników o wzięcie udziału w zakładach na rzut monetą — wygrana określonej kwoty przy orle, przegrana mniejszej kwoty przy reszce — i, zanim wynik został ujawniony, o przewidzenie, jak bardzo uszczęśliwi ich wygrana i jak bardzo zdenerwuje ich przegrana. Następnie zmierzyli faktyczne emocje uczestników bezpośrednio po rzeczywistym wyniku i porównali oba pomiary.</p>
+<p class="it">Quando questo blog tratta l'<a href="/it/blog/loss-aversion-market-bottoms">avversione alla perdita</a>, il punto di riferimento abituale è la teoria del prospetto (prospect theory) di Daniel Kahneman e Amos Tversky — l'idea che le persone percepiscano una perdita psicologicamente circa il doppio più intensamente rispetto a un guadagno della stessa entità. Ma uno studio del 2006 di Deborah Kermer, Erin Driver-Linn, Timothy Wilson e Daniel Gilbert su Psychological Science ha messo in discussione proprio l'entità di questa avversione alla perdita. I ricercatori hanno fatto partecipare i soggetti a scommesse basate sul lancio di una moneta — vincere una certa somma con testa, perdere una somma minore con croce — e, prima che il risultato fosse rivelato, hanno chiesto loro di prevedere quanto li avrebbe resi felici una vittoria e quanto li avrebbe turbati una sconfitta. Hanno poi misurato le emozioni reali dei partecipanti subito dopo il risultato effettivo e confrontato le due cose.</p>
+<p class="ru">Когда этот блог рассматривает <a href="/ru/blog/loss-aversion-market-bottoms">неприятие потерь</a>, обычной точкой отсчёта служит теория перспектив (prospect theory) Дэниела Канемана и Амоса Тверски — идея о том, что люди психологически ощущают потерю примерно вдвое сильнее, чем выигрыш такого же размера. Но статья 2006 года Деборы Кермер, Эрин Драйвер-Линн, Тимоти Уилсона и Дэниела Гилберта в Psychological Science поставила под сомнение сам масштаб этого неприятия потерь. Участникам предложили принять участие в пари на подбрасывание монеты — выигрыш определённой суммы при орле, проигрыш меньшей суммы при решке, — и, ещё до объявления результата, попросили предсказать, насколько счастливыми их сделает выигрыш и насколько расстроит проигрыш. Затем исследователи измерили реальные эмоции участников сразу после объявления результата и сравнили оба показателя.</p>
+<p class="zh">本部落格談到<a href="/zh/blog/loss-aversion-market-bottoms">損失趨避</a>時,通常的參照點是丹尼爾·康納曼(Daniel Kahneman)與阿摩司·特沃斯基(Amos Tversky)的展望理論(prospect theory)——也就是人們在心理上感受損失的強度,大約是同等大小收益的兩倍。然而黛博拉·科爾默(Deborah Kermer)、艾琳·德萊弗-林恩(Erin Driver-Linn)、提摩西·威爾遜與丹尼爾·吉爾伯特於2006年發表在《Psychological Science》上的論文,對這種損失趨避的幅度本身提出了質疑。他們讓參與者參加擲硬幣賭局——正面贏得一定金額,反面輸掉較小金額——並在結果揭曉前,要求他們預測自己贏了會有多開心、輸了會有多沮喪。接著,研究人員在真實結果出爐後立即測量參與者的實際情緒,並將兩者進行比較。</p>
 
 <p class="ko">결과는 뚜렷했다. 참가자들은 도박에 나서기 전, 이길 때의 기쁨보다 질 때의 속상함이 훨씬 클 것이라고 예측했다 — 전형적인 손실회피형 예측이다. 그런데 실제 결과가 나온 뒤 측정한 감정은 그렇게 비대칭적이지 않았다. 이겼을 때 느낀 기쁨은 예측과 비슷했지만, 졌을 때 느낀 속상함은 예측했던 것보다 훨씬 덜했다. 다시 말해 손실회피라는 현상 자체가, 실제 겪는 고통의 크기 차이에서 나온다기보다, 고통을 예측하는 능력에 내재된 오류에서 상당 부분 비롯된다는 뜻이다. 사람이 손실을 두려워해 위험을 피하는 선택을 내릴 때, 그 선택의 근거가 되는 "손실이 이만큼 아플 것"이라는 계산 자체가 과장돼 있다는 것이다.</p>
 <p class="en">The result was clear. Before the gamble, participants predicted that the sting of losing would be far greater than the joy of winning — a textbook loss-averse forecast. But the emotions actually measured after the outcome weren't nearly that asymmetric. The joy people felt after winning was close to what they'd predicted, but the sting they felt after losing was far milder than predicted. In other words, loss aversion as a phenomenon appears to arise less from an actual difference in the pain experienced and more, in substantial part, from a built-in error in the capacity to predict that pain. When people choose to avoid risk out of fear of loss, the calculation underlying that choice — "a loss like this will hurt this much" — is itself inflated.</p>
