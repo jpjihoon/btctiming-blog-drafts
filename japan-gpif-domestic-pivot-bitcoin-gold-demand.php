@@ -9,6 +9,11 @@
 <p class="pt">O ministro das Finanças do Japão, Satsuki Katayama, disse na sexta-feira, 10 de julho, que o governo quer levar o Fundo de Investimento de Pensões do Governo (GPIF), o maior fundo de pensão público do mundo, a aumentar seus investimentos em ativos domésticos, informaram Reuters e CoinDesk. O GPIF administrava ¥293,4 trilhões (cerca de US$ 1,8 trilhão) em ativos no final de dezembro. Katayama disse a jornalistas: "Queremos garantir que o público possa se beneficiar diretamente do crescimento econômico do Japão." Só essa declaração movimentou os mercados: o iene subiu cerca de 0,6%, para perto de 161,4 por dólar, e o rendimento do título soberano japonês (JGB) de referência de 10 anos caiu 10 pontos-base, para 2,775%. A coluna Crypto Daybook da CoinDesk apontou esse sinal político como um possível vento favorável para ativos escassos e de oferta limitada, como bitcoin e ouro.</p>
 <p class="tr">Japonya Maliye Bakanı Satsuki Katayama, 10 Temmuz Cuma günü, hükümetin dünyanın en büyük kamu emeklilik fonu olan Devlet Emeklilik Yatırım Fonu'nu (GPIF) yurt içi varlıklara yaptığı yatırımı artırmaya teşvik etmek istediğini söyledi; haberi Reuters ve CoinDesk duyurdu. GPIF, Aralık ayı sonu itibarıyla 293,4 trilyon yen (yaklaşık 1,8 trilyon dolar) varlık yönetiyordu. Katayama gazetecilere "Halkın Japonya'nın ekonomik büyümesinden doğrudan faydalanmasını sağlamak istiyoruz" dedi. Yalnızca bu açıklama piyasaları hareketlendirdi: yen dolar karşısında yaklaşık %0,6 değer kazanarak 161,4 seviyesine yükseldi, gösterge niteliğindeki 10 yıllık Japon devlet tahvili (JGB) getirisi ise 10 baz puan düşerek %2,775'e geriledi. CoinDesk'in Crypto Daybook köşesi bu politika sinyalini bitcoin ve altın gibi arzı sınırlı, kıt varlıklar için potansiyel bir rüzgar olarak nitelendirdi.</p>
 <p class="vi">Bộ trưởng Tài chính Nhật Bản Satsuki Katayama cho biết hôm thứ Sáu, ngày 10 tháng 7, rằng chính phủ muốn thúc đẩy Quỹ Đầu tư Hưu trí Chính phủ (GPIF), quỹ hưu trí công lớn nhất thế giới, tăng cường đầu tư vào tài sản trong nước, theo Reuters và CoinDesk. GPIF quản lý 293,4 nghìn tỷ yên (khoảng 1,8 nghìn tỷ đô la) tài sản tính đến cuối tháng 12. Ông Katayama nói với các phóng viên: "Chúng tôi muốn đảm bảo rằng người dân có thể trực tiếp hưởng lợi từ tăng trưởng kinh tế của Nhật Bản." Chỉ riêng phát biểu này đã khiến thị trường biến động: đồng yên tăng khoảng 0,6%, lên khoảng 161,4 yên đổi 1 đô la, và lợi suất trái phiếu chính phủ Nhật Bản (JGB) kỳ hạn 10 năm, vốn được coi là chuẩn, giảm 10 điểm cơ bản xuống còn 2,775%. Chuyên mục Crypto Daybook của CoinDesk đã chỉ ra tín hiệu chính sách này là một lực đẩy tiềm năng cho các tài sản khan hiếm, có nguồn cung giới hạn như bitcoin và vàng.</p>
+<p class="id">Menteri Keuangan Jepang, Satsuki Katayama, mengatakan pada hari Jumat, 10 Juli, bahwa pemerintah ingin mendorong Government Pension Investment Fund (GPIF), dana pensiun publik terbesar di dunia, untuk meningkatkan investasinya pada aset domestik, menurut laporan Reuters dan CoinDesk. GPIF mengelola aset senilai ¥293,4 triliun (sekitar $1,8 triliun) pada akhir Desember. Katayama mengatakan kepada wartawan, "Kami ingin memastikan masyarakat dapat langsung merasakan manfaat dari pertumbuhan ekonomi Jepang." Pernyataan itu saja sudah menggerakkan pasar: yen menguat sekitar 0,6% menjadi sekitar 161,4 per dolar, dan imbal hasil obligasi pemerintah Jepang (JGB) acuan bertenor 10 tahun turun 10 basis poin menjadi 2,775%. Kolom Crypto Daybook milik CoinDesk menyebut sinyal kebijakan ini sebagai potensi angin segar bagi aset langka berpasokan terbatas seperti bitcoin dan emas.</p>
+<p class="pl">Minister finansów Japonii Satsuki Katayama powiedziała w piątek, 10 lipca, że rząd chce skłonić Government Pension Investment Fund (GPIF), największy na świecie publiczny fundusz emerytalny, do zwiększenia inwestycji w aktywa krajowe, jak podały Reuters i CoinDesk. GPIF zarządzał na koniec grudnia aktywami o wartości 293,4 biliona jenów (ok. 1,8 biliona dolarów). Katayama powiedziała dziennikarzom: „Chcemy zapewnić, by społeczeństwo mogło bezpośrednio korzystać ze wzrostu gospodarczego Japonii”. Sama ta wypowiedź poruszyła rynki: jen umocnił się o około 0,6% do poziomu ok. 161,4 za dolara, a rentowność referencyjnych 10-letnich japońskich obligacji rządowych (JGB) spadła o 10 punktów bazowych do 2,775%. Rubryka Crypto Daybook serwisu CoinDesk uznała ten sygnał polityczny za potencjalny czynnik wspierający dla rzadkich aktywów o ograniczonej podaży, takich jak bitcoin i złoto.</p>
+<p class="it">Il ministro delle Finanze giapponese Satsuki Katayama ha dichiarato venerdì 10 luglio che il governo vuole spingere il Government Pension Investment Fund (GPIF), il più grande fondo pensione pubblico al mondo, ad aumentare i propri investimenti in asset nazionali, secondo quanto riportato da Reuters e CoinDesk. Il GPIF gestiva ¥293.400 miliardi (circa 1.800 miliardi di dollari) di asset alla fine di dicembre. Katayama ha dichiarato ai giornalisti: "Vogliamo garantire che i cittadini possano beneficiare direttamente della crescita economica del Giappone." Questa sola dichiarazione ha mosso i mercati: lo yen è salito di circa lo 0,6% a circa 161,4 per dollaro, e il rendimento di riferimento dei titoli di Stato giapponesi (JGB) a 10 anni è sceso di 10 punti base al 2,775%. La rubrica Crypto Daybook di CoinDesk ha indicato questo segnale politico come un potenziale vento favorevole per asset scarsi e a offerta limitata come bitcoin e oro.</p>
+<p class="ru">Министр финансов Японии Сацуки Катаяма (Satsuki Katayama) заявила в пятницу, 10 июля, что правительство хочет побудить Государственный пенсионный инвестиционный фонд (GPIF), крупнейший в мире государственный пенсионный фонд, увеличить инвестиции во внутренние активы, сообщили Reuters и CoinDesk. По состоянию на конец декабря GPIF управлял активами на сумму 293,4 трлн иен (около 1,8 трлн долларов). Катаяма заявила журналистам: «Мы хотим, чтобы граждане могли напрямую получать выгоду от экономического роста Японии». Одно это заявление сразу же подвинуло рынки: иена укрепилась примерно на 0,6%, до около 161,4 за доллар, а доходность эталонных 10-летних японских государственных облигаций (JGB) упала на 10 базисных пунктов, до 2,775%. Колонка Crypto Daybook издания CoinDesk отметила этот политический сигнал как потенциальный попутный ветер для дефицитных активов с ограниченным предложением, таких как биткойн и золото.</p>
+<p class="zh">日本財務大臣片山さつき於7月10日(週五)表示,政府希望推動全球最大的公共年金基金——政府年金投資基金(GPIF)——增加對國內資產的投資,路透社與CoinDesk報導。截至去年12月底,GPIF管理的資產規模為293.4兆日圓(約1.8兆美元)。片山對記者表示:「我們希望確保國民能夠直接享受到日本經濟成長的好處。」光是這番發言就立即撼動市場:日圓兌美元升值約0.6%,來到約161.4日圓兌1美元,而指標性的10年期日本公債(JGB)殖利率則下滑10個基點,至2.775%。CoinDesk的「Crypto Daybook」專欄指出,這項政策訊號可能為比特幣、黃金等供給有限的稀缺資產帶來潛在利多。</p>
 
 <h2 class="ko">GPIF는 무엇이고, 왜 발언 하나에 시장이 움직였나</h2>
 <h2 class="en">What GPIF Is, and Why One Remark Moved Markets</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">O que é o GPIF e por que uma única declaração movimentou os mercados</h2>
 <h2 class="tr">GPIF Nedir ve Tek Bir Açıklama Neden Piyasaları Hareketlendirdi</h2>
 <h2 class="vi">GPIF Là Gì, Và Vì Sao Một Phát Biểu Lại Khiến Thị Trường Biến Động</h2>
+<h2 class="id">Apa Itu GPIF, dan Mengapa Satu Pernyataan Bisa Menggerakkan Pasar</h2>
+<h2 class="pl">Czym jest GPIF i dlaczego jedna wypowiedź poruszyła rynki</h2>
+<h2 class="it">Cos'è il GPIF e perché una sola dichiarazione ha mosso i mercati</h2>
+<h2 class="ru">Что такое GPIF и почему одно заявление подвинуло рынки</h2>
+<h2 class="zh">GPIF是什麼,為何一句話就撼動了市場</h2>
 
 <p class="ko">GPIF는 일본 공적연금 적립금을 운용하는 기관으로, 자산 규모 기준 세계 최대의 단일 연기금이다. 현재의 정책 자산배분 — 국내채권 25%, 해외채권 25%, 국내주식 25%, 해외주식 25% — 은 2025년 4월 2029회계연도까지 이어지는 5차 중기목표기간에 맞춰 재확정된 것으로, 목표 실질 투자수익률은 1.9%이며 각 자산군은 목표 비중에서 6~8%포인트까지만 벗어날 수 있다.</p>
 <p class="en">GPIF is the entity that manages reserves for Japan's public pension system, and it is the largest single pension fund in the world by assets. Its current policy asset mix — 25% domestic bonds, 25% foreign bonds, 25% domestic equities and 25% foreign equities — was reconfirmed in April 2025 for the fund's fifth medium-term objectives period, running through fiscal 2029, targeting a real investment return of 1.9%, with each asset class allowed to deviate only 6 to 8 percentage points from its target weight.</p>
@@ -29,6 +39,11 @@
 <p class="pt">O GPIF é a entidade que administra as reservas do sistema previdenciário público do Japão e é o maior fundo de pensão individual do mundo em ativos. Sua atual composição estratégica de ativos — 25% em títulos domésticos, 25% em títulos estrangeiros, 25% em ações domésticas e 25% em ações estrangeiras — foi reconfirmada em abril de 2025 para o quinto período de objetivos de médio prazo do fundo, que vai até o ano fiscal de 2029, com meta de retorno real de investimento de 1,9%, permitindo que cada classe de ativo se desvie apenas de 6 a 8 pontos percentuais de seu peso-alvo.</p>
 <p class="tr">GPIF, Japonya'nın kamu emeklilik sisteminin rezervlerini yöneten kurumdur ve varlıklar açısından dünyanın en büyük tekil emeklilik fonudur. Mevcut politika varlık dağılımı — %25 yurt içi tahvil, %25 yurt dışı tahvil, %25 yurt içi hisse senedi ve %25 yurt dışı hisse senedi — fonun 2029 mali yılına kadar sürecek beşinci orta vadeli hedef dönemi için Nisan 2025'te yeniden onaylandı; hedeflenen reel yatırım getirisi %1,9 olup her varlık sınıfının hedef ağırlığından yalnızca 6 ila 8 puan sapmasına izin veriliyor.</p>
 <p class="vi">GPIF là tổ chức quản lý quỹ dự trữ cho hệ thống hưu trí công của Nhật Bản, và là quỹ hưu trí đơn lẻ lớn nhất thế giới xét về tài sản. Cơ cấu phân bổ tài sản chính sách hiện tại — 25% trái phiếu trong nước, 25% trái phiếu nước ngoài, 25% cổ phiếu trong nước và 25% cổ phiếu nước ngoài — đã được xác nhận lại vào tháng 4 năm 2025 cho giai đoạn mục tiêu trung hạn thứ năm của quỹ, kéo dài đến năm tài khóa 2029, với mục tiêu lợi suất đầu tư thực là 1,9%, mỗi loại tài sản chỉ được phép lệch 6 đến 8 điểm phần trăm so với tỷ trọng mục tiêu.</p>
+<p class="id">GPIF adalah lembaga yang mengelola dana cadangan sistem pensiun publik Jepang, dan merupakan dana pensiun tunggal terbesar di dunia berdasarkan aset. Bauran aset kebijakannya saat ini — 25% obligasi domestik, 25% obligasi luar negeri, 25% saham domestik, dan 25% saham luar negeri — dikonfirmasi ulang pada April 2025 untuk periode target jangka menengah kelima dana tersebut, yang berlangsung hingga tahun fiskal 2029, dengan target imbal hasil investasi riil sebesar 1,9%, dan setiap kelas aset hanya diperbolehkan menyimpang 6 hingga 8 poin persentase dari bobot targetnya.</p>
+<p class="pl">GPIF to instytucja zarządzająca rezerwami japońskiego publicznego systemu emerytalnego i jest największym pojedynczym funduszem emerytalnym na świecie pod względem aktywów. Jego obecna strategiczna alokacja aktywów — 25% obligacji krajowych, 25% obligacji zagranicznych, 25% akcji krajowych i 25% akcji zagranicznych — została potwierdzona ponownie w kwietniu 2025 roku na piąty średnioterminowy okres celów funduszu, trwający do roku fiskalnego 2029, z docelową realną stopą zwrotu z inwestycji na poziomie 1,9%, przy czym każda klasa aktywów może odchylić się od wagi docelowej jedynie o 6 do 8 punktów procentowych.</p>
+<p class="it">Il GPIF è l'ente che gestisce le riserve del sistema pensionistico pubblico giapponese ed è il più grande fondo pensione singolo al mondo per patrimonio gestito. La sua attuale ripartizione strategica degli asset — 25% obbligazioni nazionali, 25% obbligazioni estere, 25% azioni nazionali e 25% azioni estere — è stata riconfermata nell'aprile 2025 per il quinto periodo di obiettivi di medio termine del fondo, valido fino all'anno fiscale 2029, con un obiettivo di rendimento reale degli investimenti dell'1,9%, e ciascuna classe di attivi può discostarsi solo di 6-8 punti percentuali dal proprio peso obiettivo.</p>
+<p class="ru">GPIF — организация, управляющая резервами государственной пенсионной системы Японии, и крупнейший в мире отдельный пенсионный фонд по объёму активов. Его текущее стратегическое распределение активов — 25% внутренних облигаций, 25% зарубежных облигаций, 25% внутренних акций и 25% зарубежных акций — было подтверждено в апреле 2025 года на пятый среднесрочный целевой период фонда, продолжающийся до 2029 финансового года, с целевой реальной доходностью инвестиций 1,9%, при этом каждому классу активов разрешено отклоняться от целевого веса лишь на 6–8 процентных пунктов.</p>
+<p class="zh">GPIF是管理日本公共年金體系準備金的機構,以資產規模計算,是全球最大的單一退休基金。其現行的政策資產配置——國內債券25%、海外債券25%、國內股票25%、海外股票25%——已於2025年4月為基金第五期中期目標期間(延續至2029財年)重新確認,目標實質投資報酬率為1.9%,且每一資產類別只允許偏離目標權重6至8個百分點。</p>
 
 <p class="ko">바로 이런 구조 때문에, 정식 GPIF 이사회 의결이 아닌 각료 한 명의 발언만으로도 엔화와 국채 금리가 즉각 움직인 것이다. GPIF의 규모는 밴드 내에서 사실상 가격에 둔감한 매수·매도 주체로 만든다 — 1조 8,000억 달러 포트폴리오에서 단 몇 %포인트만 옮겨도 수백억 달러 규모의 자금 이동을 의미하며, 트레이더들은 GPIF의 자산배분과 관련한 어떤 신호든 선반영하는 데 익숙해졌다. 실제로 2025년 3월에는 GPIF가 임박한 변경 계획을 부인했음에도 자산배분 변경 가능성을 언급한 단순 언론 보도만으로 일본 시장이 흔들린 전례가 있다. 이번 금요일의 반응 배경에는 인플레이션 압력 심화도 깔려 있다 — 일본의 6월 생산자물가지수(PPI)는 전년 대비 7.1% 상승해 2023년 3월 이후 가장 빠른 상승폭을 기록했고, 이는 국내채권의 명목금리가 오르는 와중에도 실질수익률을 갉아먹고 있다.</p>
 <p class="en">That structure is precisely why a comment from a cabinet minister, rather than a formal GPIF board decision, was enough to move the yen and JGB yields on the spot. GPIF's scale makes it effectively price-insensitive within its bands: shifting even a few percentage points of a $1.8 trillion portfolio implies tens of billions of dollars of flow, and traders have grown accustomed to front-running any signal about its asset mix. In March 2025, for instance, a simple media report raising the possibility of an allocation change was enough to rattle Japanese markets even though GPIF denied any imminent shift. Friday's reaction also came against a backdrop of building inflation pressure: Japan's producer price index (PPI) rose 7.1% year-over-year in June, the fastest pace since March 2023, eating into the real return domestic bonds can offer even as their nominal yield climbs.</p>
@@ -39,6 +54,11 @@
 <p class="pt">É exatamente essa estrutura que explica por que um comentário de um ministro, em vez de uma decisão formal do conselho do GPIF, bastou para movimentar imediatamente o iene e os rendimentos dos JGBs. A escala do GPIF o torna, dentro de suas bandas, efetivamente insensível a preços: deslocar apenas alguns pontos percentuais de uma carteira de US$ 1,8 trilhão implica dezenas de bilhões de dólares em fluxo, e os operadores já se acostumaram a antecipar qualquer sinal sobre sua composição de ativos. Em março de 2025, por exemplo, uma simples reportagem levantando a possibilidade de mudança na alocação bastou para abalar os mercados japoneses, mesmo com o GPIF negando qualquer mudança iminente. A reação de sexta-feira também ocorreu em meio a uma pressão inflacionária crescente: o índice de preços ao produtor (IPP) do Japão subiu 7,1% na comparação anual em junho, o ritmo mais rápido desde março de 2023, corroendo o retorno real que os títulos domésticos podem oferecer mesmo com o rendimento nominal em alta.</p>
 <p class="tr">Bu yapı, tam olarak resmi bir GPIF yönetim kurulu kararının değil, bir bakanın yorumunun yeni ve tahvil getirilerini anında hareketlendirmeye yetmesinin nedenidir. GPIF'in ölçeği, onu bantları içinde fiilen fiyata duyarsız kılıyor: 1,8 trilyon dolarlık bir portföyün yalnızca birkaç yüzde puanının kaydırılması bile on milyarlarca dolarlık bir akış anlamına geliyor ve yatırımcılar GPIF'in varlık dağılımına dair her sinyali önceden fiyatlamaya alıştı. Örneğin Mart 2025'te, GPIF yakın bir değişikliği yalanlamış olsa bile, bir tahsis değişikliği olasılığını gündeme getiren basit bir medya haberi Japon piyasalarını sarsmaya yetmişti. Cuma günkü tepki, artan enflasyon baskısı arka planında da gerçekleşti: Japonya'nın üretici fiyat endeksi (ÜFE) Haziran'da yıllık bazda %7,1 arttı; bu, Mart 2023'ten bu yana en hızlı artış hızıydı ve nominal getiri yükselirken bile yurt içi tahvillerin sunabileceği reel getiriyi aşındırıyor.</p>
 <p class="vi">Chính cấu trúc đó là lý do vì sao một phát biểu của một bộ trưởng, chứ không phải một quyết định chính thức của hội đồng quản trị GPIF, đã đủ để khiến đồng yên và lợi suất JGB biến động ngay lập tức. Quy mô của GPIF khiến nó gần như không nhạy cảm với giá trong biên độ cho phép: chỉ cần dịch chuyển vài điểm phần trăm của danh mục 1,8 nghìn tỷ đô la cũng đồng nghĩa với dòng vốn hàng chục tỷ đô la, và các nhà giao dịch đã quen với việc đón đầu bất kỳ tín hiệu nào về cơ cấu tài sản của quỹ này. Chẳng hạn, vào tháng 3 năm 2025, chỉ một bản tin đơn giản nêu khả năng thay đổi phân bổ cũng đủ làm chao đảo thị trường Nhật Bản, dù GPIF đã phủ nhận bất kỳ thay đổi sắp xảy ra nào. Phản ứng hôm thứ Sáu cũng diễn ra trong bối cảnh áp lực lạm phát gia tăng: chỉ số giá sản xuất (PPI) của Nhật Bản tháng 6 tăng 7,1% so với cùng kỳ năm trước, mức tăng nhanh nhất kể từ tháng 3 năm 2023, bào mòn lợi suất thực mà trái phiếu trong nước có thể mang lại ngay cả khi lợi suất danh nghĩa của chúng đang tăng.</p>
+<p class="id">Struktur inilah yang menjelaskan mengapa komentar seorang menteri kabinet, bukan keputusan resmi dewan GPIF, sudah cukup untuk langsung menggerakkan yen dan imbal hasil JGB. Skala GPIF membuatnya secara efektif tidak sensitif terhadap harga dalam batas-batas kisarannya: menggeser bahkan beberapa poin persentase saja dari portofolio senilai $1,8 triliun berarti aliran dana puluhan miliar dolar, dan para trader sudah terbiasa mendahului setiap sinyal terkait bauran asetnya. Sebagai contoh, pada Maret 2025, sebuah laporan media sederhana yang mengangkat kemungkinan perubahan alokasi sudah cukup untuk mengguncang pasar Jepang, meskipun GPIF membantah adanya perubahan yang akan segera terjadi. Reaksi pada hari Jumat itu juga muncul di tengah tekanan inflasi yang meningkat: indeks harga produsen (PPI) Jepang naik 7,1% secara tahunan pada Juni, laju tercepat sejak Maret 2023, yang menggerus imbal hasil riil yang dapat ditawarkan obligasi domestik meskipun imbal hasil nominalnya terus naik.</p>
+<p class="pl">Właśnie ta struktura sprawia, że komentarz ministra rządu, a nie formalna decyzja zarządu GPIF, wystarczył, by natychmiast poruszyć jena i rentowności JGB. Skala GPIF sprawia, że fundusz jest w praktyce niewrażliwy na cenę w ramach swoich pasm: przesunięcie zaledwie kilku punktów procentowych portfela o wartości 1,8 biliona dolarów oznacza przepływy rzędu dziesiątek miliardów dolarów, a inwestorzy przyzwyczaili się do wyprzedzającego reagowania na każdy sygnał dotyczący jego alokacji aktywów. Na przykład w marcu 2025 roku zwykły raport medialny sugerujący możliwość zmiany alokacji wystarczył, by wstrząsnąć japońskimi rynkami, mimo że GPIF zaprzeczył jakiejkolwiek bliskiej zmianie. Piątkowa reakcja nastąpiła również na tle narastającej presji inflacyjnej: japoński indeks cen producentów (PPI) wzrósł w czerwcu o 7,1% rok do roku, najszybciej od marca 2023 roku, co osłabia realny zwrot, jaki mogą oferować obligacje krajowe, mimo rosnącej rentowności nominalnej.</p>
+<p class="it">È proprio questa struttura a spiegare perché un commento di un ministro, e non una decisione formale del consiglio del GPIF, sia bastato a muovere sul momento lo yen e i rendimenti dei JGB. Le dimensioni del GPIF lo rendono di fatto insensibile al prezzo entro le sue bande: spostare anche solo pochi punti percentuali di un portafoglio da 1.800 miliardi di dollari implica flussi per decine di miliardi di dollari, e i trader si sono abituati ad anticipare qualsiasi segnale sulla sua composizione degli asset. Nel marzo 2025, per esempio, è bastato un semplice articolo di stampa che sollevava la possibilità di un cambio di allocazione per scuotere i mercati giapponesi, anche se il GPIF aveva smentito qualsiasi cambiamento imminente. La reazione di venerdì è arrivata anche in un contesto di crescente pressione inflazionistica: l'indice dei prezzi alla produzione (PPI) del Giappone è salito del 7,1% su base annua a giugno, il ritmo più rapido da marzo 2023, erodendo il rendimento reale che le obbligazioni nazionali possono offrire anche mentre il loro rendimento nominale sale.</p>
+<p class="ru">Именно эта структура объясняет, почему одного комментария министра, а не официального решения совета директоров GPIF, оказалось достаточно, чтобы немедленно сдвинуть иену и доходность JGB. Масштаб GPIF делает его фактически нечувствительным к цене в пределах установленных диапазонов: перемещение даже нескольких процентных пунктов портфеля объёмом 1,8 трлн долларов означает потоки на десятки миллиардов долларов, и трейдеры уже привыкли действовать на опережение любого сигнала о структуре его активов. Например, в марте 2025 года простого сообщения СМИ о возможности изменения распределения активов оказалось достаточно, чтобы всколыхнуть японские рынки, хотя GPIF опроверг какие-либо неминуемые изменения. Реакция в пятницу также произошла на фоне нарастающего инфляционного давления: индекс цен производителей (PPI) Японии вырос в июне на 7,1% в годовом выражении — самый быстрый темп с марта 2023 года, — что подтачивает реальную доходность, которую могут предложить внутренние облигации, даже несмотря на рост их номинальной доходности.</p>
+<p class="zh">正是這種結構,使得一位內閣大臣的發言,而非GPIF理事會的正式決議,足以立即撼動日圓與JGB殖利率。GPIF的規模讓它在其配置區間內實質上對價格不敏感——即便只是1.8兆美元投資組合中挪動幾個百分點,也意味著數百億美元的資金流動,交易員早已習慣搶先反應任何關於其資產配置的訊號。例如在2025年3月,儘管GPIF否認有任何迫在眉睫的變動,一則單純提及配置可能調整的媒體報導就足以撼動日本市場。週五的反應也是在通膨壓力升溫的背景下出現的:日本6月生產者物價指數(PPI)年增7.1%,為2023年3月以來最快增速,即便名目殖利率上升,也持續侵蝕國內債券所能提供的實質報酬。</p>
 
 <h2 class="ko">2014년 아베노믹스의 선례 — 그러나 이번엔 방향이 반대다</h2>
 <h2 class="en">The 2014 Abenomics Precedent — and Why This Time Points the Other Way</h2>
@@ -49,6 +69,11 @@
 <h2 class="pt">O precedente do Abenomics de 2014 — e por que desta vez o sentido é o oposto</h2>
 <h2 class="tr">2014 Abenomics Emsali — Ve Bu Sefer Neden Ters Yönde</h2>
 <h2 class="vi">Tiền Lệ Abenomics Năm 2014 — Và Vì Sao Lần Này Lại Đi Ngược Hướng</h2>
+<h2 class="id">Preseden Abenomics 2014 — dan Mengapa Kali Ini Arahnya Berbeda</h2>
+<h2 class="pl">Precedens Abenomiki z 2014 roku — i dlaczego tym razem kierunek jest odwrotny</h2>
+<h2 class="it">Il precedente Abenomics del 2014 — e perché stavolta la direzione è opposta</h2>
+<h2 class="ru">Прецедент Абэномики 2014 года — и почему на этот раз всё наоборот</h2>
+<h2 class="zh">2014年安倍經濟學的先例——但這次方向恰恰相反</h2>
 
 <p class="ko">일본이 GPIF를 정책 신호로 활용한 것은 이번이 처음이 아니다. 2014년 10월, 아베 신조 총리 시절 GPIF는 정책 자산배분을 대대적으로 개편해 국내채권 비중을 60%에서 35%로 낮추고, 국내외 주식을 합친 비중은 24%에서 50%로 끌어올렸다. 이는 아베노믹스의 '비밀 병기'로 널리 불렸고, 연기금 자금이 국내외 위험자산으로 회전하면서 수년간 이어진 일본 증시 랠리에 불을 지피고 엔화 약세를 강화하는 데 일조했다. 이어 2020년 4월 2차 개편에서는 국내채권 비중을 35%에서 25%로 더 낮추고 해외채권 비중을 15%에서 25%로 높였는데, 당시 제로에 가까운 국채 금리가 저위험 국내채권의 매력을 급격히 떨어뜨린 결과였다.</p>
 <p class="en">Japan has leaned on GPIF for policy signaling before. In October 2014, under Prime Minister Shinzo Abe, GPIF overhauled its policy mix, cutting domestic bonds from 60% to 35% while raising combined domestic-and-foreign equity exposure from 24% to 50%. The shift was widely described as the "secret weapon" of Abenomics, helping fuel a multi-year rally in Japanese equities and reinforcing yen weakness as pension capital rotated into risk assets both at home and abroad. A second reform in April 2020 pushed the domestic-bond share down further, from 35% to 25%, while raising foreign bonds from 15% to 25%, as near-zero JGB yields had made low-risk domestic debt increasingly unattractive.</p>
@@ -59,6 +84,11 @@
 <p class="pt">O Japão já recorreu ao GPIF como sinalização de política antes. Em outubro de 2014, sob o primeiro-ministro Shinzo Abe, o GPIF reformulou sua composição de política, reduzindo os títulos domésticos de 60% para 35%, ao mesmo tempo em que elevava a exposição combinada a ações domésticas e estrangeiras de 24% para 50%. A mudança foi amplamente descrita como a "arma secreta" do Abenomics, ajudando a impulsionar uma alta plurianual das ações japonesas e a reforçar a fraqueza do iene à medida que o capital previdenciário migrava para ativos de risco, tanto no país quanto no exterior. Uma segunda reforma em abril de 2020 reduziu ainda mais a fatia de títulos domésticos, de 35% para 25%, enquanto elevava os títulos estrangeiros de 15% para 25%, já que os rendimentos dos JGBs próximos de zero haviam tornado a dívida doméstica de baixo risco cada vez menos atraente.</p>
 <p class="tr">Japonya, GPIF'i politika sinyali olarak daha önce de kullanmıştı. Ekim 2014'te, Başbakan Shinzo Abe döneminde GPIF, politika dağılımını kökten değiştirerek yurt içi tahvilleri %60'tan %35'e düşürürken, yurt içi ve yurt dışı hisse senedi maruziyetini birleşik olarak %24'ten %50'ye yükseltti. Bu değişiklik geniş çapta Abenomics'in "gizli silahı" olarak nitelendirildi ve emeklilik sermayesi hem yurt içinde hem yurt dışında riskli varlıklara döndükçe, Japon hisse senetlerinde yıllar süren bir yükselişi ateşlemeye ve yenin zayıflığını pekiştirmeye yardımcı oldu. Nisan 2020'deki ikinci bir reform, sıfıra yakın JGB getirilerinin düşük riskli yurt içi borcu giderek cazip olmaktan çıkarması nedeniyle, yurt içi tahvil payını %35'ten %25'e daha da düşürürken, yurt dışı tahvilleri %15'ten %25'e yükseltti.</p>
 <p class="vi">Nhật Bản đã từng sử dụng GPIF như một tín hiệu chính sách trước đây. Vào tháng 10 năm 2014, dưới thời Thủ tướng Shinzo Abe, GPIF đã đại tu cơ cấu chính sách của mình, cắt giảm trái phiếu trong nước từ 60% xuống 35% trong khi nâng tỷ trọng cổ phiếu trong và ngoài nước kết hợp từ 24% lên 50%. Sự thay đổi này được mô tả rộng rãi là "vũ khí bí mật" của Abenomics, giúp thúc đẩy đợt tăng giá kéo dài nhiều năm của cổ phiếu Nhật Bản và củng cố sự suy yếu của đồng yên khi vốn hưu trí xoay chuyển sang các tài sản rủi ro cả trong và ngoài nước. Một cuộc cải cách thứ hai vào tháng 4 năm 2020 đã hạ tỷ trọng trái phiếu trong nước xuống thêm nữa, từ 35% xuống 25%, trong khi nâng trái phiếu nước ngoài từ 15% lên 25%, khi lợi suất JGB gần như bằng 0 đã khiến nợ trong nước rủi ro thấp ngày càng kém hấp dẫn.</p>
+<p class="id">Jepang sebelumnya juga pernah memanfaatkan GPIF sebagai alat sinyal kebijakan. Pada Oktober 2014, di bawah Perdana Menteri Shinzo Abe, GPIF merombak bauran kebijakannya, memangkas obligasi domestik dari 60% menjadi 35% sambil menaikkan eksposur gabungan saham domestik dan luar negeri dari 24% menjadi 50%. Perubahan ini banyak disebut sebagai "senjata rahasia" Abenomics, yang membantu memicu reli saham Jepang selama bertahun-tahun dan memperkuat pelemahan yen seiring modal pensiun berputar ke aset berisiko baik di dalam maupun luar negeri. Reformasi kedua pada April 2020 menurunkan lebih jauh porsi obligasi domestik, dari 35% menjadi 25%, sambil menaikkan obligasi luar negeri dari 15% menjadi 25%, karena imbal hasil JGB yang mendekati nol membuat utang domestik berisiko rendah semakin kurang menarik.</p>
+<p class="pl">Japonia już wcześniej wykorzystywała GPIF jako narzędzie sygnalizowania polityki. W październiku 2014 roku, za rządów premiera Shinzo Abe, GPIF gruntownie przebudował swoją alokację, obniżając udział obligacji krajowych z 60% do 35%, jednocześnie podnosząc łączną ekspozycję na akcje krajowe i zagraniczne z 24% do 50%. Zmianę tę powszechnie określano jako „tajną broń” Abenomiki, która pomogła napędzić wieloletnią hossę na japońskich akcjach i wzmocniła osłabienie jena, gdy kapitał emerytalny przenosił się do aktywów ryzykownych zarówno w kraju, jak i za granicą. Druga reforma w kwietniu 2020 roku obniżyła udział obligacji krajowych jeszcze bardziej, z 35% do 25%, podnosząc jednocześnie udział obligacji zagranicznych z 15% do 25%, ponieważ bliskie zeru rentowności JGB uczyniły nisko ryzykowny dług krajowy coraz mniej atrakcyjnym.</p>
+<p class="it">Il Giappone aveva già fatto leva sul GPIF per segnalare la propria politica in passato. Nell'ottobre 2014, sotto il primo ministro Shinzo Abe, il GPIF ha rivoluzionato la propria ripartizione, riducendo le obbligazioni nazionali dal 60% al 35% e aumentando l'esposizione azionaria combinata nazionale ed estera dal 24% al 50%. Il cambiamento fu ampiamente descritto come "l'arma segreta" dell'Abenomics, contribuendo ad alimentare un rally pluriennale delle azioni giapponesi e a rafforzare la debolezza dello yen, mentre il capitale pensionistico si spostava verso asset più rischiosi sia in patria che all'estero. Una seconda riforma nell'aprile 2020 ha ridotto ulteriormente la quota di obbligazioni nazionali, dal 35% al 25%, aumentando quella delle obbligazioni estere dal 15% al 25%, poiché i rendimenti dei JGB prossimi allo zero avevano reso il debito nazionale a basso rischio sempre meno attraente.</p>
+<p class="ru">Япония и раньше опиралась на GPIF как на инструмент политического сигнала. В октябре 2014 года при премьер-министре Синдзо Абэ GPIF кардинально пересмотрел структуру активов, сократив долю внутренних облигаций с 60% до 35% и одновременно увеличив совокупную долю внутренних и зарубежных акций с 24% до 50%. Этот шаг широко называли «секретным оружием» Абэномики, помогшим разжечь многолетнее ралли японских акций и усилившим ослабление иены по мере того, как пенсионный капитал перетекал в рисковые активы как внутри страны, так и за рубежом. Вторая реформа в апреле 2020 года ещё сильнее снизила долю внутренних облигаций — с 35% до 25%, увеличив при этом долю зарубежных облигаций с 15% до 25%, поскольку близкая к нулю доходность JGB делала низкорискованный внутренний долг всё менее привлекательным.</p>
+<p class="zh">日本過去也曾利用GPIF作為政策信號工具。2014年10月,在首相安倍晉三任內,GPIF大幅調整政策配置,將國內債券比重從60%降至35%,同時將國內外股票合計曝險從24%提高至50%。這項轉變當時被廣泛稱為安倍經濟學的「秘密武器」,協助推動日本股市展開長達數年的漲勢,並在退休金資金轉向國內外風險資產之際強化日圓走弱的趨勢。2020年4月的第二次改革則進一步將國內債券比重從35%降至25%,同時將海外債券比重從15%提高至25%,原因是當時接近零的JGB殖利率讓低風險的國內債券吸引力大幅下降。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -408,6 +438,201 @@
     <text x="580" y="330" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Cao nhất kể từ 3/2023</text>
 
     <text x="350" y="390" fill="#52525b" font-size="12" text-anchor="middle">Nguồn: GPIF · Reuters · Bộ Tài chính Nhật Bản · CoinDesk (10/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Porsi Obligasi Domestik GPIF: Pembalikan Arah 10 Tahun?</text>
+  <g font-family="sans-serif">
+    <text x="140" y="76" fill="#e4e4e7" font-size="13" text-anchor="end">2013 (sebelum reformasi)</text>
+    <rect x="150" y="56" width="360" height="32" rx="6" fill="#71717a"/>
+    <text x="522" y="78" fill="#fafafa" font-size="14" font-weight="700">60%</text>
+
+    <text x="140" y="122" fill="#e4e4e7" font-size="13" text-anchor="end">2015 (reformasi Abenomics)</text>
+    <rect x="150" y="102" width="210" height="32" rx="6" fill="#a1a1aa"/>
+    <text x="372" y="124" fill="#fafafa" font-size="14" font-weight="700">35%</text>
+
+    <text x="140" y="168" fill="#e4e4e7" font-size="13" text-anchor="end">2020-2029 (saat ini)</text>
+    <rect x="150" y="148" width="150" height="32" rx="6" fill="#38bdf8"/>
+    <text x="312" y="170" fill="#0a0a0a" font-size="14" font-weight="700">25%</text>
+
+    <text x="140" y="212" fill="#fbbf24" font-size="13" text-anchor="end" font-style="italic">Sinyal Jul 2026</text>
+    <rect x="150" y="192" width="150" height="32" rx="6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="312" y="214" fill="#fbbf24" font-size="14" font-weight="700">Lebih banyak di dalam negeri?</text>
+
+    <rect x="20" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">USD/JPY</text>
+    <text x="120" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">¥161,4</text>
+    <text x="120" y="330" fill="#4ade80" font-size="12.5" font-weight="600" text-anchor="middle">Yen +0,6%</text>
+
+    <rect x="250" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Imbal Hasil JGB 10 Tahun</text>
+    <text x="350" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">2,775%</text>
+    <text x="350" y="330" fill="#f87171" font-size="12.5" font-weight="600" text-anchor="middle">-10bp</text>
+
+    <rect x="480" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="580" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">PPI Jepang Juni (YoY)</text>
+    <text x="580" y="304" fill="#fbbf24" font-size="17" font-weight="700" text-anchor="middle">+7,1%</text>
+    <text x="580" y="330" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Tertinggi sejak Mar 2023</text>
+
+    <text x="350" y="390" fill="#52525b" font-size="12" text-anchor="middle">Sumber: GPIF · Reuters · Kemenkeu Jepang · CoinDesk (per 10 Jul 2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Udział obligacji krajowych GPIF: odwrócenie po 10 latach?</text>
+  <g font-family="sans-serif">
+    <text x="140" y="76" fill="#e4e4e7" font-size="13" text-anchor="end">2013 (przed reformą)</text>
+    <rect x="150" y="56" width="360" height="32" rx="6" fill="#71717a"/>
+    <text x="522" y="78" fill="#fafafa" font-size="14" font-weight="700">60%</text>
+
+    <text x="140" y="122" fill="#e4e4e7" font-size="13" text-anchor="end">2015 (reforma Abenomiki)</text>
+    <rect x="150" y="102" width="210" height="32" rx="6" fill="#a1a1aa"/>
+    <text x="372" y="124" fill="#fafafa" font-size="14" font-weight="700">35%</text>
+
+    <text x="140" y="168" fill="#e4e4e7" font-size="13" text-anchor="end">2020-2029 (obecnie)</text>
+    <rect x="150" y="148" width="150" height="32" rx="6" fill="#38bdf8"/>
+    <text x="312" y="170" fill="#0a0a0a" font-size="14" font-weight="700">25%</text>
+
+    <text x="140" y="212" fill="#fbbf24" font-size="13" text-anchor="end" font-style="italic">Sygnał lip 2026</text>
+    <rect x="150" y="192" width="150" height="32" rx="6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="312" y="214" fill="#fbbf24" font-size="14" font-weight="700">Więcej w kraju?</text>
+
+    <rect x="20" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">USD/JPY</text>
+    <text x="120" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">161,4 ¥</text>
+    <text x="120" y="330" fill="#4ade80" font-size="12.5" font-weight="600" text-anchor="middle">Jen +0,6%</text>
+
+    <rect x="250" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Rentowność JGB 10-letnich</text>
+    <text x="350" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">2,775%</text>
+    <text x="350" y="330" fill="#f87171" font-size="12.5" font-weight="600" text-anchor="middle">-10pb</text>
+
+    <rect x="480" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="580" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">PPI Japonii, czerwiec (r/r)</text>
+    <text x="580" y="304" fill="#fbbf24" font-size="17" font-weight="700" text-anchor="middle">+7,1%</text>
+    <text x="580" y="330" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Najwyżej od marca 2023</text>
+
+    <text x="350" y="390" fill="#52525b" font-size="12" text-anchor="middle">Źródła: GPIF · Reuters · Min. Finansów Japonii · CoinDesk (stan na 10.07.2026)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Peso delle obbligazioni nazionali del GPIF: un'inversione dopo 10 anni?</text>
+  <g font-family="sans-serif">
+    <text x="140" y="76" fill="#e4e4e7" font-size="13" text-anchor="end">2013 (pre-riforma)</text>
+    <rect x="150" y="56" width="360" height="32" rx="6" fill="#71717a"/>
+    <text x="522" y="78" fill="#fafafa" font-size="14" font-weight="700">60%</text>
+
+    <text x="140" y="122" fill="#e4e4e7" font-size="13" text-anchor="end">2015 (riforma Abenomics)</text>
+    <rect x="150" y="102" width="210" height="32" rx="6" fill="#a1a1aa"/>
+    <text x="372" y="124" fill="#fafafa" font-size="14" font-weight="700">35%</text>
+
+    <text x="140" y="168" fill="#e4e4e7" font-size="13" text-anchor="end">2020-2029 (attuale)</text>
+    <rect x="150" y="148" width="150" height="32" rx="6" fill="#38bdf8"/>
+    <text x="312" y="170" fill="#0a0a0a" font-size="14" font-weight="700">25%</text>
+
+    <text x="140" y="212" fill="#fbbf24" font-size="13" text-anchor="end" font-style="italic">Segnale lug 2026</text>
+    <rect x="150" y="192" width="150" height="32" rx="6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="312" y="214" fill="#fbbf24" font-size="14" font-weight="700">Più in patria?</text>
+
+    <rect x="20" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">USD/JPY</text>
+    <text x="120" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">161,4 ¥</text>
+    <text x="120" y="330" fill="#4ade80" font-size="12.5" font-weight="600" text-anchor="middle">Yen +0,6%</text>
+
+    <rect x="250" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Rendimento JGB 10 anni</text>
+    <text x="350" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">2,775%</text>
+    <text x="350" y="330" fill="#f87171" font-size="12.5" font-weight="600" text-anchor="middle">-10pb</text>
+
+    <rect x="480" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="580" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">PPI Giappone giugno (annuo)</text>
+    <text x="580" y="304" fill="#fbbf24" font-size="17" font-weight="700" text-anchor="middle">+7,1%</text>
+    <text x="580" y="330" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Massimo da marzo 2023</text>
+
+    <text x="350" y="390" fill="#52525b" font-size="12" text-anchor="middle">Fonti: GPIF · Reuters · Min. Finanze del Giappone · CoinDesk (aggiornato al 10/7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Доля внутренних облигаций GPIF: разворот через 10 лет?</text>
+  <g font-family="sans-serif">
+    <text x="140" y="76" fill="#e4e4e7" font-size="13" text-anchor="end">2013 (до реформы)</text>
+    <rect x="150" y="56" width="360" height="32" rx="6" fill="#71717a"/>
+    <text x="522" y="78" fill="#fafafa" font-size="14" font-weight="700">60%</text>
+
+    <text x="140" y="122" fill="#e4e4e7" font-size="13" text-anchor="end">2015 (реформа Абэномики)</text>
+    <rect x="150" y="102" width="210" height="32" rx="6" fill="#a1a1aa"/>
+    <text x="372" y="124" fill="#fafafa" font-size="14" font-weight="700">35%</text>
+
+    <text x="140" y="168" fill="#e4e4e7" font-size="13" text-anchor="end">2020-2029 (текущая)</text>
+    <rect x="150" y="148" width="150" height="32" rx="6" fill="#38bdf8"/>
+    <text x="312" y="170" fill="#0a0a0a" font-size="14" font-weight="700">25%</text>
+
+    <text x="140" y="212" fill="#fbbf24" font-size="13" text-anchor="end" font-style="italic">Сигнал июль 2026</text>
+    <rect x="150" y="192" width="150" height="32" rx="6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="312" y="214" fill="#fbbf24" font-size="14" font-weight="700">Больше дома?</text>
+
+    <rect x="20" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">USD/JPY</text>
+    <text x="120" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">161,4 ¥</text>
+    <text x="120" y="330" fill="#4ade80" font-size="12.5" font-weight="600" text-anchor="middle">Иена +0,6%</text>
+
+    <rect x="250" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Доходность JGB 10 лет</text>
+    <text x="350" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">2,775%</text>
+    <text x="350" y="330" fill="#f87171" font-size="12.5" font-weight="600" text-anchor="middle">-10 б.п.</text>
+
+    <rect x="480" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="580" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">PPI Японии, июнь (г/г)</text>
+    <text x="580" y="304" fill="#fbbf24" font-size="17" font-weight="700" text-anchor="middle">+7,1%</text>
+    <text x="580" y="330" fill="#a1a1aa" font-size="12.5" text-anchor="middle">Максимум с марта 2023</text>
+
+    <text x="350" y="390" fill="#52525b" font-size="12" text-anchor="middle">Источники: GPIF · Reuters · Минфин Японии · CoinDesk (по состоянию на 10.07.2026)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">GPIF國內債券比重:十年來首次逆轉?</text>
+  <g font-family="sans-serif">
+    <text x="140" y="76" fill="#e4e4e7" font-size="13" text-anchor="end">2013年(改革前)</text>
+    <rect x="150" y="56" width="360" height="32" rx="6" fill="#71717a"/>
+    <text x="522" y="78" fill="#fafafa" font-size="14" font-weight="700">60%</text>
+
+    <text x="140" y="122" fill="#e4e4e7" font-size="13" text-anchor="end">2015年(安倍經濟學改革)</text>
+    <rect x="150" y="102" width="210" height="32" rx="6" fill="#a1a1aa"/>
+    <text x="372" y="124" fill="#fafafa" font-size="14" font-weight="700">35%</text>
+
+    <text x="140" y="168" fill="#e4e4e7" font-size="13" text-anchor="end">2020~2029年(現行)</text>
+    <rect x="150" y="148" width="150" height="32" rx="6" fill="#38bdf8"/>
+    <text x="312" y="170" fill="#0a0a0a" font-size="14" font-weight="700">25%</text>
+
+    <text x="140" y="212" fill="#fbbf24" font-size="13" text-anchor="end" font-style="italic">2026年7月訊號</text>
+    <rect x="150" y="192" width="150" height="32" rx="6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="312" y="214" fill="#fbbf24" font-size="14" font-weight="700">國內比重提高?</text>
+
+    <rect x="20" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">美元/日圓</text>
+    <text x="120" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">¥161.4</text>
+    <text x="120" y="330" fill="#4ade80" font-size="12.5" font-weight="600" text-anchor="middle">日圓升值0.6%</text>
+
+    <rect x="250" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">10年期JGB殖利率</text>
+    <text x="350" y="304" fill="#fafafa" font-size="17" font-weight="700" text-anchor="middle">2.775%</text>
+    <text x="350" y="330" fill="#f87171" font-size="12.5" font-weight="600" text-anchor="middle">-10bp</text>
+
+    <rect x="480" y="248" width="200" height="120" rx="10" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="580" y="272" fill="#a1a1aa" font-size="12.5" text-anchor="middle">日本6月PPI(年增率)</text>
+    <text x="580" y="304" fill="#fbbf24" font-size="17" font-weight="700" text-anchor="middle">+7.1%</text>
+    <text x="580" y="330" fill="#a1a1aa" font-size="12.5" text-anchor="middle">2023年3月以來最高</text>
+
+    <text x="350" y="390" fill="#52525b" font-size="12" text-anchor="middle">資料來源:GPIF·路透社·日本財務省·CoinDesk(截至2026年7月10日)</text>
   </g>
 </svg>
 </div>
