@@ -88,6 +88,11 @@
 <h2 class="pt">MVRV Z-Score em 0,25-0,33 — Perto do "Valor Realizado", Longe do Superaquecimento</h2>
 <h2 class="tr">MVRV Z-Skoru 0,25-0,33'te — "Gerçekleşen Değere" Yakın, Aşırı Isınmadan Uzak</h2>
 <h2 class="vi">MVRV Z-Score Ở Mức 0,25-0,33 — Gần "Giá Trị Đã Thực Hiện", Cách Xa Quá Nóng</h2>
+<h2 class="id">MVRV Z-Score di 0,25-0,33 — Dekat "Nilai Terealisasi", Jauh dari Terlalu Panas</h2>
+<h2 class="pl">MVRV Z-Score na Poziomie 0,25-0,33 — Blisko "Zrealizowanej Wartości", Daleko od Przegrzania</h2>
+<h2 class="it">MVRV Z-Score a 0,25-0,33 — Vicino al "Valore Realizzato", Lontano dal Surriscaldamento</h2>
+<h2 class="ru">MVRV Z-Score на Уровне 0,25-0,33 — Близко к «Реализованной Стоимости», Далеко от Перегрева</h2>
+<h2 class="zh">MVRV Z分數為0.25至0.33——接近「已實現價值」,遠離過熱</h2>
 
 <p class="ko">MVRV Z-스코어는 시가총액과 실현시가총액(코인이 마지막으로 이동했을 때의 가격을 합산한 값)의 차이를 표준편차로 나눈 지표다. 값이 높을수록 시장가격이 보유자들의 평균 매입가보다 훨씬 높다는 뜻이고, 과거 사이클 고점에서는 이 수치가 7 안팎까지 치솟았다. 반대로 값이 0에 가깝거나 마이너스로 떨어지면 시가총액이 실현시가총액과 거의 같거나 그 아래로 내려간다는 뜻으로, 시장 전체가 평균적으로 이익도 손실도 크지 않은 지점에 있다는 신호다.</p>
 <p class="en">The MVRV Z-Score divides the gap between market cap and realized cap (the sum of each coin's value at the price it last moved) by the standard deviation of that gap. A higher reading means the market price sits far above holders' average acquisition cost — at past cycle tops, this figure spiked to around 7. A reading near zero or negative means market cap is roughly equal to, or below, realized cap — a sign the market as a whole sits near a point of neither large aggregate profit nor large aggregate loss.</p>

@@ -144,6 +144,11 @@
 <h2 class="pt">A Imagem Espelhada que o Bitcoin Produziu — Março de 2020 e Novembro de 2021</h2>
 <h2 class="tr">Bitcoin'in Yarattığı Ayna Görüntü — 2020 Mart ve 2021 Kasım</h2>
 <h2 class="vi">Hình Ảnh Phản Chiếu Mà Bitcoin Tạo Ra — Tháng 3/2020 và Tháng 11/2021</h2>
+<h2 class="id">Citra Cermin yang Diciptakan Bitcoin — Maret 2020 dan November 2021</h2>
+<h2 class="pl">Lustrzane Odbicie Stworzone przez Bitcoina — Marzec 2020 i Listopad 2021</h2>
+<h2 class="it">L'Immagine Speculare Prodotta dal Bitcoin — Marzo 2020 e Novembre 2021</h2>
+<h2 class="ru">Зеркальное Отражение, Созданное Биткоином — Март 2020 и Ноябрь 2021</h2>
+<h2 class="zh">比特幣製造的鏡像——2020年3月與2021年11月</h2>
 
 <p class="ko">이 이론을 비트코인의 실제 사이클에 대입해 보면 예측은 선명해진다. 2020년 3월 12일, 이른바 '블랙 서스데이'에 비트코인은 하루 만에 7천 달러대에서 3천 800달러대까지 붕괴했다. 그 순간 시장 참여자 대다수가 느낀 감정은 명백한 공포였다. 지각된 위험은 극단적으로 높았고 — '이 자산은 0으로 간다'는 서사가 지배적이었다 — 지각된 이익, 즉 앞으로 이 가격에서 기대할 수 있는 보상에 대한 인식은 거의 바닥에 붙어 있었다. 그러나 사후적으로 확인된 객관적 결과는 정확히 반대였다. 그 3천 800달러대 저점은 약 20개월 뒤 6만 9천 달러 부근의 사상 최고가까지, 약 18배에 달하는 상승의 출발점이었다.</p>
 <p class="en">Mapping this theory onto bitcoin's actual cycle produces a sharp prediction. On March 12, 2020 — so-called "Black Thursday" — bitcoin collapsed in a single day from the $7,000s into the $3,800s. The emotion the overwhelming majority of market participants felt in that moment was unambiguous fear. Perceived risk was extreme — the dominant narrative was that the asset was headed to zero — while perceived benefit, the reward one could expect from this price going forward, sat near the floor. Yet the objective outcome later confirmed was exactly the opposite. That price in the $3,800s was the starting point of a roughly 18x rally to an all-time high near $69,000 about twenty months later.</p>
