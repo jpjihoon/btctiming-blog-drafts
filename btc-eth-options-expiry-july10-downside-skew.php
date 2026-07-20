@@ -339,6 +339,11 @@
   <h2 class="pt">O Que a Comparação com o Vencimento de US$ 10 Bilhões Revela — o Quão Confiável É Realmente o Max Pain</h2>
   <h2 class="tr">10 Milyar Dolarlık Vadeyle Karşılaştırınca Görülenler — Max Pain Gerçekte Ne Kadar Güvenilir</h2>
   <h2 class="vi">Điều So Sánh Với Đợt Đáo Hạn 10 Tỷ USD Cho Thấy — Max Pain Thực Sự Đáng Tin Đến Đâu</h2>
+  <h2 class="id">Yang Ditunjukkan oleh Perbandingan dengan Kedaluwarsa $10 Miliar — Seberapa Bisa Diandalkan Max Pain, Sebenarnya</h2>
+  <h2 class="pl">Co Pokazuje Porównanie z Wygaśnięciem o Wartości 10 mld Dolarów — Jak Naprawdę Wiarygodny Jest Max Pain</h2>
+  <h2 class="it">Cosa Rivela il Confronto con la Scadenza da 10 Miliardi di Dollari — Quanto È Davvero Affidabile il Max Pain</h2>
+  <h2 class="ru">Что Показывает Сравнение с Экспирацией на $10 Млрд — Насколько На Самом Деле Надёжен Max Pain</h2>
+  <h2 class="zh">與100億美元到期規模相比呈現的訊息 — Max Pain究竟有多可信</h2>
 
   <p class="ko">이번 만기가 얼마나 작은 규모였는지는 불과 2주 전과 비교하면 분명해진다. 6월25일에는 100억 달러 규모의 비트코인·이더리움 옵션이 한꺼번에 만기를 맞았는데, 당시 맥스페인이 시사한 '자석' 지점은 7만2000달러 부근이었지만 비트코인은 그보다 한참 낮은 수준에서 거래되고 있었다고 코인데스크가 보도했다. 코인데스크는 이를 두고 "맥스페인 이론은 잊어라"라고 쓰며, 대형 만기일수록 맥스페인 지점과 실제 가격의 괴리가 크게 벌어지는 경향이 있다고 짚었다. 이번 7월10일 만기의 맥스페인(6만2000달러)이 실제 가격과 비교적 가까웠던 것은, 만기 규모 자체가 100억 달러의 6분의 1 수준에 불과해 헤지 물량이 가격에 미치는 영향력도 그만큼 작았기 때문일 가능성이 크다.</p>
   <p class="en">How small this expiry really was becomes clear next to what happened just two weeks earlier. On June 25, roughly $10 billion in bitcoin and ether options expired together, and the max-pain "magnet" implied at the time sat around $72,000 — yet bitcoin was trading well below that level, CoinDesk reported. CoinDesk's headline on the episode: "forget max pain theory," noting that the larger an expiry, the more the max-pain strike tends to diverge from the actual price. That this expiry's max pain ($62,000) landed relatively close to the real price is more likely explained by the expiry's small size — at roughly a sixth of June 25's total, its hedging flows simply had far less pull on price.</p>
