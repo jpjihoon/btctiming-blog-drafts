@@ -9,6 +9,11 @@
 <p class="pt">A Binance publicou seu 44º relatório de Prova de Reservas em 13 de julho, com base em um snapshot tirado em 1º de julho, segundo Wu Blockchain, CryptoNews e 99Bitcoins, entre outros veículos. Os saldos de Bitcoin dos usuários na corretora subiram 1,22% — um aumento de 7.715 BTC — para cerca de 640.296 BTC, o terceiro aumento mensal consecutivo, enquanto os saldos de Ethereum caíram 1,41% para cerca de 4,08 milhões de ETH e os saldos de Tether (USDT) caíram 1,51%, uma queda de cerca de US$ 510 milhões, para cerca de US$ 33,7 bilhões.</p>
 <p class="tr">Binance, Wu Blockchain, CryptoNews ve 99Bitcoins gibi kaynaklara göre 13 Temmuz'da, 1 Temmuz'da alınan bir anlık görüntüye dayanan 44. Rezerv Kanıtı raporunu yayımladı. Borsadaki kullanıcı Bitcoin bakiyeleri yüzde 1,22 arttı — 7.715 BTC yükselişle — yaklaşık 640.296 BTC'ye ulaştı; bu, üst üste üçüncü aylık artış oldu. Aynı dönemde Ethereum bakiyeleri yüzde 1,41 düşerek yaklaşık 4,08 milyon ETH'ye, Tether (USDT) bakiyeleri ise yüzde 1,51 düşerek — yaklaşık 510 milyon dolarlık bir azalışla — yaklaşık 33,7 milyar dolara geriledi.</p>
 <p class="vi">Binance đã công bố báo cáo Bằng chứng Dự trữ thứ 44 vào ngày 13/7, dựa trên ảnh chụp nhanh vào ngày 1/7, theo Wu Blockchain, CryptoNews và 99Bitcoins, cùng nhiều hãng tin khác. Số dư Bitcoin của người dùng trên sàn đã tăng 1,22% — tăng 7.715 BTC — lên khoảng 640.296 BTC, mức tăng tháng thứ ba liên tiếp, trong khi số dư Ethereum giảm 1,41% xuống còn khoảng 4,08 triệu ETH và số dư Tether (USDT) giảm 1,51%, tương đương khoảng 510 triệu USD, xuống còn khoảng 33,7 tỷ USD.</p>
+<p class="id">Binance mempublikasikan laporan Proof-of-Reserves ke-44 pada 13 Juli, berdasarkan snapshot yang diambil pada 1 Juli, menurut Wu Blockchain, CryptoNews, dan 99Bitcoins, di antara media lainnya. Saldo Bitcoin pengguna di bursa tersebut naik 1,22% — bertambah 7.715 BTC — menjadi sekitar 640.296 BTC, kenaikan bulanan ketiga berturut-turut, sementara saldo Ethereum turun 1,41% menjadi sekitar 4,08 juta ETH dan saldo Tether (USDT) turun 1,51%, penurunan sekitar 510 juta dolar, menjadi sekitar 33,7 miliar dolar.</p>
+<p class="pl">Binance opublikował 44. raport Proof-of-Reserves 13 lipca, na podstawie migawki wykonanej 1 lipca, jak podają Wu Blockchain, CryptoNews i 99Bitcoins, wśród innych źródeł. Salda Bitcoina użytkowników na giełdzie wzrosły o 1,22% — o 7 715 BTC — do około 640 296 BTC, co oznacza trzeci kolejny miesięczny wzrost, podczas gdy salda Ethereum spadły o 1,41% do około 4,08 mln ETH, a salda Tether (USDT) spadły o 1,51%, czyli o około 510 mln dolarów, do około 33,7 mld dolarów.</p>
+<p class="it">Binance ha pubblicato il suo 44º report Proof-of-Reserves il 13 luglio, basato su uno snapshot scattato il 1º luglio, secondo quanto riportato da Wu Blockchain, CryptoNews e 99Bitcoins, tra le altre testate. I saldi Bitcoin degli utenti sull'exchange sono saliti dell'1,22% — un aumento di 7.715 BTC — a circa 640.296 BTC, il terzo incremento mensile consecutivo, mentre i saldi Ethereum sono scesi dell'1,41% a circa 4,08 milioni di ETH e i saldi Tether (USDT) sono scesi dell'1,51%, un calo di circa 510 milioni di dollari, a circa 33,7 miliardi di dollari.</p>
+<p class="ru">Binance опубликовала свой 44-й отчёт Proof-of-Reserves 13 июля на основе снимка, сделанного 1 июля, сообщают Wu Blockchain, CryptoNews и 99Bitcoins, среди прочих изданий. Балансы Bitcoin пользователей на бирже выросли на 1,22% — на 7 715 BTC — примерно до 640 296 BTC, что стало третьим месяцем роста подряд, тогда как балансы Ethereum снизились на 1,41% до примерно 4,08 млн ETH, а балансы Tether (USDT) упали на 1,51%, то есть примерно на 510 млн долларов, до примерно 33,7 млрд долларов.</p>
+<p class="zh">據 Wu Blockchain(吳說區塊鏈)、CryptoNews、99Bitcoins 等多家媒體報導,幣安(Binance)於7月13日發布第44次儲備金證明(Proof of Reserves)報告。根據7月1日時點的快照數據,用戶比特幣持倉較上月增加1.22%(7,715 BTC),達到約64萬296枚BTC,連續第三個月增加;同期以太幣持倉減少1.41%,約為408萬枚ETH,泰達幣(USDT)持倉減少1.51%(約5.1億美元),降至約337億美元。</p>
 
 <p class="ko">이 엇갈린 흐름은 같은 리포트에 담긴 다른 수치들과 함께 나왔다. 바이낸스는 자사의 비트코인 준비금이 100.20%의 초과담보율을 유지하고 있다고 밝혔으며, 이번 스냅숏은 바이낸스의 2026년 월간 최고 기록인 6월 선물거래량 1조6300억 달러 직후에 나온 것이다. 이 수치들을 종합하면, 시장 심리가 한 달 내내 대부분 '극단적 공포' 구간에 머물렀던 와중에도 세계 최대 거래소 이용자들이 실제로 보유자산을 어떻게 움직였는지를 보여주는 흔치 않은 온체인 스냅숏이 된다.</p>
 <p class="en">The divergence lands alongside other notable figures in the same report: Binance says its Bitcoin reserve carries a 100.20% over-collateralization ratio, and the snapshot follows a record $1.63 trillion in futures trading volume in June, the exchange's highest monthly total of 2026. Taken together, the numbers offer a rare on-chain glimpse into what users on the world's largest exchange were doing with their holdings even as broader market sentiment sat in "Extreme Fear" territory through much of the month.</p>
@@ -19,6 +24,11 @@
 <p class="pt">Essa divergência surge ao lado de outros números notáveis no mesmo relatório: a Binance afirma que sua reserva de Bitcoin mantém uma taxa de sobrecolateralização de 100,20%, e o snapshot vem logo após um volume recorde de US$ 1,63 trilhão em negociação de futuros em junho, o maior total mensal da exchange em 2026. Em conjunto, os números oferecem um raro vislumbre on-chain do que os usuários da maior exchange do mundo estavam realmente fazendo com seus ativos, mesmo enquanto o sentimento geral do mercado permaneceu em território de "Medo Extremo" durante grande parte do mês.</p>
 <p class="tr">Bu ayrışma, aynı raporda yer alan diğer dikkat çekici rakamlarla birlikte ortaya çıktı: Binance, Bitcoin rezervinin yüzde 100,20 aşırı teminatlandırma oranına sahip olduğunu belirtiyor ve bu anlık görüntü, borsanın 2026'daki en yüksek aylık toplamı olan Haziran ayındaki 1,63 trilyon dolarlık rekor vadeli işlem hacminin hemen ardından geliyor. Bir araya getirildiğinde bu rakamlar, piyasa duyarlılığının ayın büyük bölümünde "Aşırı Korku" bölgesinde kalmasına rağmen dünyanın en büyük borsasındaki kullanıcıların varlıklarıyla gerçekte ne yaptığına dair nadir bir zincir üzeri görünüm sunuyor.</p>
 <p class="vi">Sự phân kỳ này xuất hiện cùng với những con số đáng chú ý khác trong cùng báo cáo: Binance cho biết dự trữ Bitcoin của họ duy trì tỷ lệ thế chấp vượt mức 100,20%, và ảnh chụp nhanh này đến ngay sau kỷ lục 1,63 nghìn tỷ USD khối lượng giao dịch phái sinh trong tháng 6, mức cao nhất theo tháng của sàn trong năm 2026. Gộp lại, những con số này mang đến một cái nhìn on-chain hiếm hoi về những gì người dùng trên sàn giao dịch lớn nhất thế giới thực sự đang làm với tài sản của họ, ngay cả khi tâm lý thị trường chung nằm trong vùng "Sợ Hãi Tột Độ" suốt phần lớn tháng.</p>
+<p class="id">Divergensi ini muncul bersamaan dengan angka-angka penting lainnya dalam laporan yang sama: Binance menyatakan cadangan Bitcoin-nya memiliki rasio kelebihan jaminan (over-collateralization) sebesar 100,20%, dan snapshot ini mengikuti rekor volume perdagangan futures sebesar 1,63 triliun dolar pada bulan Juni, total bulanan tertinggi bursa tersebut pada 2026. Digabungkan, angka-angka ini memberikan gambaran on-chain yang langka tentang apa yang dilakukan pengguna di bursa terbesar di dunia terhadap aset mereka, bahkan ketika sentimen pasar secara luas berada di zona "Ketakutan Ekstrem" (Extreme Fear) sepanjang sebagian besar bulan tersebut.</p>
+<p class="pl">Ta rozbieżność pojawia się obok innych istotnych liczb w tym samym raporcie: Binance twierdzi, że jego rezerwa Bitcoina ma wskaźnik nadzabezpieczenia na poziomie 100,20%, a migawka następuje po rekordowym wolumenie obrotu kontraktami futures w czerwcu wynoszącym 1,63 biliona dolarów — najwyższym miesięcznym wyniku giełdy w 2026 roku. Razem wzięte, liczby te dają rzadki wgląd on-chain w to, co użytkownicy największej giełdy na świecie robili ze swoimi aktywami, mimo że ogólny nastrój rynkowy przez większość miesiąca pozostawał w strefie „Ekstremalnego Strachu”.</p>
+<p class="it">La divergenza emerge insieme ad altre cifre degne di nota nello stesso report: Binance afferma che la sua riserva di Bitcoin presenta un rapporto di sovracollateralizzazione del 100,20%, e lo snapshot segue un volume record di scambi di futures pari a 1,63 trilioni di dollari a giugno, il totale mensile più alto dell'exchange nel 2026. Nel complesso, questi numeri offrono uno sguardo on-chain raro su ciò che gli utenti del maggiore exchange al mondo stavano facendo con i propri asset, anche mentre il sentiment generale del mercato è rimasto in territorio di "Paura Estrema" per gran parte del mese.</p>
+<p class="ru">Это расхождение сопровождается другими примечательными цифрами из того же отчёта: Binance заявляет, что резерв Bitcoin имеет коэффициент избыточного обеспечения 100,20%, а снимок сделан вслед за рекордным объёмом торгов фьючерсами в июне — 1,63 трлн долларов, максимальным месячным показателем биржи в 2026 году. В совокупности эти цифры дают редкий ончейн-взгляд на то, что делали со своими активами пользователи крупнейшей в мире биржи, даже когда общее настроение рынка большую часть месяца оставалось в зоне «Крайнего страха».</p>
+<p class="zh">這種背離現象與同一份報告中的其他重要數據同時出現:幣安表示其比特幣儲備維持100.20%的超額擔保率,且此次快照緊接在6月創紀錄的1.63兆美元期貨交易量之後,是該交易所2026年以來單月最高紀錄。綜合來看,這些數據提供了一個罕見的鏈上視角,顯示即便整體市場情緒在該月大部分時間仍處於「極度恐懼」區間,全球最大交易所的用戶實際上是如何處置自己的持倉的。</p>
 
 <h2 class="ko">수치가 말해주는 것 — 리스크 온 회전의 신호</h2>
 <h2 class="en">What the Numbers Suggest — A Risk-On Rotation</h2>
@@ -29,6 +39,11 @@
 <h2 class="pt">O Que os Números Sugerem — Uma Rotação de Risco</h2>
 <h2 class="tr">Rakamların İşaret Ettiği — Riske Yönelik Bir Rotasyon</h2>
 <h2 class="vi">Những Con Số Cho Thấy Điều Gì — Một Cuộc Xoay Trục Rủi Ro</h2>
+<h2 class="id">Apa yang Ditunjukkan Angka-angka Ini — Rotasi Risk-On</h2>
+<h2 class="pl">Co Sugerują Liczby — Rotacja w Stronę Ryzyka</h2>
+<h2 class="it">Cosa Suggeriscono i Numeri — Una Rotazione Risk-On</h2>
+<h2 class="ru">О Чём Говорят Цифры — Ротация в Рисковые Активы</h2>
+<h2 class="zh">數字說明了什麼 — 風險偏好輪動的訊號</h2>
 
 <p class="ko">숫자를 맥락 속에 놓고 보면, 비트코인 보유량은 이제 3개월 연속 증가했고, 바이낸스가 2025년 8월 보고했던 약 59만1000 BTC 수준보다 약 4만9000 BTC 많은 수준에 있다. 거의 11개월에 걸쳐 플랫폼에서 순증가가 이어져 왔으며 그 흐름이 끊긴 경우는 드물었다.</p>
 <p class="en">Put the numbers in context, and Bitcoin balances have now risen for three straight months and sit roughly 49,000 BTC above the approximately 591,000 BTC level Binance reported in August 2025 — nearly eleven months of net accumulation on the platform, interrupted only rarely.</p>
@@ -39,6 +54,11 @@
 <p class="pt">Colocando os números em contexto, os saldos de Bitcoin agora subiram por três meses consecutivos e estão cerca de 49.000 BTC acima do nível de aproximadamente 591.000 BTC que a Binance relatou em agosto de 2025 — quase onze meses de acumulação líquida na plataforma, interrompida apenas raramente.</p>
 <p class="tr">Rakamları bağlama oturttuğumuzda, Bitcoin bakiyeleri artık üst üste üç aydır yükseliyor ve Binance'in Ağustos 2025'te bildirdiği yaklaşık 591.000 BTC seviyesinin yaklaşık 49.000 BTC üzerinde bulunuyor — platformda neredeyse on bir ay süren, yalnızca nadiren kesintiye uğrayan net bir birikim.</p>
 <p class="vi">Đặt các con số vào bối cảnh, số dư Bitcoin giờ đây đã tăng trong ba tháng liên tiếp và cao hơn khoảng 49.000 BTC so với mức khoảng 591.000 BTC mà Binance báo cáo vào tháng 8/2025 — gần mười một tháng tích lũy ròng trên nền tảng, chỉ hiếm khi bị gián đoạn.</p>
+<p class="id">Jika angka-angka ini dilihat dalam konteksnya, saldo Bitcoin kini telah naik selama tiga bulan berturut-turut dan berada sekitar 49.000 BTC di atas level sekitar 591.000 BTC yang dilaporkan Binance pada Agustus 2025 — hampir sebelas bulan akumulasi bersih di platform tersebut, yang hanya jarang terputus.</p>
+<p class="pl">Jeśli spojrzeć na te liczby w kontekście, salda Bitcoina rosły już przez trzy kolejne miesiące i znajdują się około 49 000 BTC powyżej poziomu około 591 000 BTC, który Binance zgłosił w sierpniu 2025 roku — niemal jedenaście miesięcy netto akumulacji na platformie, przerywanej jedynie sporadycznie.</p>
+<p class="it">Mettendo i numeri in prospettiva, i saldi Bitcoin sono ora saliti per tre mesi consecutivi e si trovano circa 49.000 BTC sopra il livello di circa 591.000 BTC riportato da Binance nell'agosto 2025 — quasi undici mesi di accumulo netto sulla piattaforma, interrotto solo raramente.</p>
+<p class="ru">Если рассматривать эти цифры в контексте, балансы Bitcoin теперь росли три месяца подряд и находятся примерно на 49 000 BTC выше уровня около 591 000 BTC, о котором Binance сообщала в августе 2025 года — почти одиннадцать месяцев чистого накопления на платформе, прерывавшегося лишь изредка.</p>
+<p class="zh">把這些數字放進脈絡中看,比特幣持倉如今已連續三個月增加,較幣安在2025年8月公布的約59.1萬枚BTC水準高出約4.9萬枚BTC——這是該平台近11個月來的淨累積趨勢,期間僅偶爾中斷。</p>
 
 <p class="ko">이 조합이 '이탈'이 아니라 '회전'처럼 보이는 이유는 메커니즘에 있다. 만약 이용자들이 단순히 바이낸스에서 자금을 완전히 빼내고 있다면 비트코인과 스테이블코인 보유량이 함께 줄어드는 경향을 보일 것이다. 반면 비트코인은 늘고 테더는 줄어드는 조합은, 이용자들이 거래소에 이미 있던 스테이블코인 잔액을 비트코인으로 전환하고 있다는 해석 — 즉 플랫폼을 떠나는 것이 아니라 대기 자금을 실제로 투입하고 있다는 해석 — 에 더 부합한다. 이런 해석은 6월의 기록적인 선물거래량과도 맞아떨어지는데, 트레이더들은 통상 거래소 내에 이미 있던 스테이블코인 잔액에서 더 큰 파생상품 포지션의 자금을 조달하기 때문이다.</p>
 <p class="en">The mechanism explains why this combination looks more like a rotation than an exodus. If users were simply withdrawing funds from Binance altogether, both Bitcoin and stablecoin balances would tend to fall together. Instead, Bitcoin rising while USDT falls is more consistent with users converting stablecoin balances already sitting on the exchange into Bitcoin — deploying dry powder rather than leaving the platform. That reading fits with June's record futures volume, since traders typically fund larger derivatives positions from stablecoin balances already on-exchange.</p>
@@ -49,6 +69,11 @@
 <p class="pt">O mecanismo explica por que essa combinação se parece mais com uma rotação do que com um êxodo. Se os usuários estivessem simplesmente retirando fundos da Binance por completo, tanto os saldos de Bitcoin quanto os de stablecoins tenderiam a cair juntos. Em vez disso, o Bitcoin subir enquanto o USDT cai é mais consistente com usuários convertendo saldos de stablecoins já presentes na exchange em Bitcoin — implantando capital ocioso em vez de deixar a plataforma. Essa leitura combina com o volume recorde de futuros em junho, já que os traders normalmente financiam posições maiores de derivativos a partir de saldos de stablecoins já na exchange.</p>
 <p class="tr">Bu mekanizma, bu kombinasyonun neden bir kaçıştan çok bir rotasyona benzediğini açıklıyor. Kullanıcılar Binance'ten fonlarını tamamen çekiyor olsaydı, hem Bitcoin hem de stablecoin bakiyeleri birlikte düşme eğiliminde olurdu. Bunun yerine, USDT düşerken Bitcoin'in yükselmesi, kullanıcıların borsada zaten bulunan stablecoin bakiyelerini Bitcoin'e dönüştürdüğü — platformdan ayrılmak yerine hazır bekleyen nakdi devreye soktuğu — yorumuyla daha tutarlı. Bu okuma, Haziran ayındaki rekor vadeli işlem hacmiyle de örtüşüyor; çünkü trader'lar genellikle daha büyük türev pozisyonlarını zaten borsada bulunan stablecoin bakiyelerinden finanse eder.</p>
 <p class="vi">Cơ chế này giải thích tại sao sự kết hợp này giống một cuộc xoay trục hơn là một cuộc tháo chạy. Nếu người dùng chỉ đơn giản rút tiền hoàn toàn khỏi Binance, cả số dư Bitcoin lẫn stablecoin đều có xu hướng giảm cùng nhau. Thay vào đó, việc Bitcoin tăng trong khi USDT giảm phù hợp hơn với việc người dùng chuyển đổi số dư stablecoin vốn đã nằm trên sàn thành Bitcoin — triển khai "bột khô" thay vì rời khỏi nền tảng. Cách diễn giải này khớp với khối lượng giao dịch phái sinh kỷ lục trong tháng 6, vì các nhà giao dịch thường tài trợ cho các vị thế phái sinh lớn hơn từ số dư stablecoin đã có sẵn trên sàn.</p>
+<p class="id">Mekanisme ini menjelaskan mengapa kombinasi tersebut lebih terlihat seperti rotasi ketimbang eksodus. Jika pengguna hanya menarik dana sepenuhnya dari Binance, saldo Bitcoin dan stablecoin cenderung akan turun bersamaan. Sebaliknya, kenaikan Bitcoin sementara USDT turun lebih konsisten dengan pengguna yang mengonversi saldo stablecoin yang sudah berada di bursa menjadi Bitcoin — menggunakan dana cadangan (dry powder) alih-alih meninggalkan platform. Pembacaan ini sejalan dengan rekor volume futures pada Juni, karena trader biasanya mendanai posisi derivatif yang lebih besar dari saldo stablecoin yang sudah berada di bursa.</p>
+<p class="pl">Ten mechanizm wyjaśnia, dlaczego kombinacja ta wygląda bardziej na rotację niż na exodus. Gdyby użytkownicy po prostu całkowicie wycofywali środki z Binance, salda Bitcoina i stablecoinów miałyby tendencję do spadku razem. Zamiast tego wzrost Bitcoina przy jednoczesnym spadku USDT jest bardziej spójny z sytuacją, w której użytkownicy zamieniają salda stablecoinów już znajdujące się na giełdzie na Bitcoina — wykorzystując wolne środki (dry powder), zamiast opuszczać platformę. Ta interpretacja pasuje do rekordowego wolumenu kontraktów futures w czerwcu, ponieważ traderzy zwykle finansują większe pozycje na instrumentach pochodnych z sald stablecoinów już znajdujących się na giełdzie.</p>
+<p class="it">Il meccanismo spiega perché questa combinazione somigli più a una rotazione che a un esodo. Se gli utenti si limitassero a ritirare completamente i fondi da Binance, i saldi Bitcoin e stablecoin tenderebbero a scendere insieme. Invece, il Bitcoin che sale mentre l'USDT scende è più coerente con utenti che convertono in Bitcoin saldi stablecoin già presenti sull'exchange — impiegando liquidità disponibile (dry powder) anziché lasciare la piattaforma. Questa lettura è coerente con il volume record di futures di giugno, poiché i trader in genere finanziano posizioni su derivati più ampie con saldi stablecoin già presenti sull'exchange.</p>
+<p class="ru">Этот механизм объясняет, почему такое сочетание больше похоже на ротацию, чем на исход. Если бы пользователи просто полностью выводили средства с Binance, балансы Bitcoin и стейблкоинов, как правило, снижались бы одновременно. Вместо этого рост Bitcoin при падении USDT больше согласуется с тем, что пользователи конвертируют в Bitcoin стейблкоины, уже находящиеся на бирже, — то есть задействуют свободные резервы, а не покидают платформу. Такое прочтение согласуется с рекордным объёмом торгов фьючерсами в июне, поскольку трейдеры обычно финансируют более крупные деривативные позиции за счёт балансов стейблкоинов, уже находящихся на бирже.</p>
+<p class="zh">這種機制解釋了為何這種組合看起來更像是輪動而非資金外逃。如果用戶只是單純將資金全數從幣安提出,比特幣與穩定幣的持倉理應同步下滑。相反地,比特幣上升而USDT下降的情況,更符合用戶將原本已存放在交易所的穩定幣餘額轉換為比特幣的解釋——也就是動用場內閒置資金,而非離開平台。這樣的解讀也與6月創紀錄的期貨交易量相符,因為交易員通常會用交易所內已有的穩定幣餘額來為更大規模的衍生品倉位提供資金。</p>
 
 <h2 class="ko">증명은 실제로 어떻게 작동하나 — 머클트리에서 영지식증명까지</h2>
 <h2 class="en">How the Proof Actually Works — From Merkle Trees to Zero-Knowledge Proofs</h2>
@@ -59,6 +84,11 @@
 <h2 class="pt">Como a Prova Realmente Funciona — Das Árvores de Merkle às Provas de Conhecimento Zero</h2>
 <h2 class="tr">Kanıt Gerçekte Nasıl Çalışır — Merkle Ağaçlarından Sıfır Bilgi Kanıtlarına</h2>
 <h2 class="vi">Bằng Chứng Thực Sự Hoạt Động Ra Sao — Từ Cây Merkle Đến Bằng Chứng Không Kiến Thức</h2>
+<h2 class="id">Bagaimana Sebenarnya Proof of Reserves Bekerja — Dari Merkle Tree hingga Zero-Knowledge Proof</h2>
+<h2 class="pl">Jak Naprawdę Działa Dowód — Od Drzew Merkle po Dowody Zero-Knowledge</h2>
+<h2 class="it">Come Funziona Davvero la Prova — Dagli Alberi di Merkle alle Zero-Knowledge Proof</h2>
+<h2 class="ru">Как На Самом Деле Работает Доказательство — От Деревьев Меркла до Доказательств с Нулевым Разглашением</h2>
+<h2 class="zh">驗證機制究竟如何運作 — 從默克爾樹到零知識證明</h2>
 
 <p class="ko">바이낸스는 이용자 계좌 잔액을 머클트리(Merkle tree)로 구성하며, 각 이용자의 잔액이 하나의 '리프(leaf)'를 이룬다. 이용자는 자신의 레코드 ID를 조회해 자신의 잔액이 공개된 총계로 이어지는 트리에 포함돼 있는지 확인할 수 있다. 2023년 2월, 바이낸스는 폴리헤드라 네트워크(Polyhedra Network)와 함께 구축한 영지식증명(zk-SNARK) 검증을 머클트리 위에 추가로 도입했다. 이는 모든 리프가 공개된 총계에 실제로 기여했으며 어떤 계좌도 마이너스 순잔액을 갖지 않는다는 것을 암호학적으로 증명하며, 바이낸스는 외부에서도 직접 검증할 수 있도록 검증 코드를 오픈소스로 공개했다.</p>
 <p class="en">Binance organizes user account balances into a Merkle tree, in which each user's balance forms a "leaf." Users can look up their own Record ID to confirm their balance is included in the tree feeding into the published total. In February 2023, Binance layered zk-SNARK verification on top of the Merkle tree, built with Polyhedra Network, which cryptographically proves every leaf contributed to the claimed total and that no account carries a negative net balance — and Binance open-sourced the verification code so outside parties can check the math themselves.</p>
@@ -69,6 +99,11 @@
 <p class="pt">A Binance organiza os saldos das contas dos usuários em uma árvore de Merkle, na qual o saldo de cada usuário forma uma "folha". Os usuários podem consultar seu próprio Record ID para confirmar que seu saldo está incluído na árvore que alimenta o total publicado. Em fevereiro de 2023, a Binance adicionou uma camada de verificação zk-SNARK sobre a árvore de Merkle, construída com a Polyhedra Network, que prova criptograficamente que cada folha contribuiu para o total declarado e que nenhuma conta carrega saldo líquido negativo — e a Binance disponibilizou o código de verificação como open source para que terceiros possam conferir a matemática por conta própria.</p>
 <p class="tr">Binance, kullanıcı hesap bakiyelerini bir Merkle ağacı içinde düzenler; burada her kullanıcının bakiyesi bir "yaprak" oluşturur. Kullanıcılar, bakiyelerinin yayımlanan toplama katkıda bulunan ağaca dahil edildiğini doğrulamak için kendi Kayıt Kimliklerine bakabilir. Şubat 2023'te Binance, Polyhedra Network ile birlikte inşa edilen zk-SNARK doğrulamasını Merkle ağacının üzerine ekledi; bu, her yaprağın iddia edilen toplama katkıda bulunduğunu ve hiçbir hesabın negatif net bakiyeye sahip olmadığını kriptografik olarak kanıtlıyor — Binance, dışarıdaki tarafların matematiği kendilerinin kontrol edebilmesi için doğrulama kodunu açık kaynak olarak yayımladı.</p>
 <p class="vi">Binance tổ chức số dư tài khoản người dùng thành một cây Merkle, trong đó số dư của mỗi người dùng tạo thành một "lá". Người dùng có thể tra cứu Mã Bản ghi (Record ID) của riêng mình để xác nhận số dư của họ được bao gồm trong cây dẫn đến tổng số được công bố. Vào tháng 2/2023, Binance đã bổ sung lớp xác minh zk-SNARK lên trên cây Merkle, được xây dựng cùng Polyhedra Network, chứng minh bằng mật mã học rằng mọi lá đều đóng góp vào tổng số được công bố và không tài khoản nào mang số dư ròng âm — Binance đã mã nguồn mở hóa mã xác minh để các bên bên ngoài có thể tự kiểm tra phép toán.</p>
+<p class="id">Binance menyusun saldo akun pengguna ke dalam sebuah Merkle tree, di mana saldo setiap pengguna membentuk satu "leaf" (daun). Pengguna dapat memeriksa Record ID mereka sendiri untuk memastikan saldo mereka termasuk dalam tree yang membentuk total yang dipublikasikan. Pada Februari 2023, Binance menambahkan lapisan verifikasi zk-SNARK di atas Merkle tree tersebut, dibangun bersama Polyhedra Network, yang secara kriptografis membuktikan bahwa setiap leaf berkontribusi pada total yang diklaim dan tidak ada akun yang memiliki saldo bersih negatif — dan Binance membuka kode sumber (open-source) verifikasi tersebut agar pihak luar dapat memeriksa perhitungannya sendiri.</p>
+<p class="pl">Binance organizuje salda kont użytkowników w drzewo Merkle, w którym saldo każdego użytkownika stanowi jeden „liść”. Użytkownicy mogą sprawdzić swój własny Record ID, aby potwierdzić, że ich saldo jest uwzględnione w drzewie zasilającym opublikowaną sumę. W lutym 2023 roku Binance nałożył na drzewo Merkle dodatkową warstwę weryfikacji zk-SNARK, zbudowaną wspólnie z Polyhedra Network, która kryptograficznie dowodzi, że każdy liść przyczynił się do deklarowanej sumy i że żadne konto nie ma ujemnego salda netto — a Binance udostępnił kod weryfikacyjny jako open source, aby strony zewnętrzne mogły same sprawdzić obliczenia.</p>
+<p class="it">Binance organizza i saldi dei conti utente in un albero di Merkle, in cui il saldo di ogni utente forma una "foglia". Gli utenti possono cercare il proprio Record ID per confermare che il loro saldo sia incluso nell'albero che alimenta il totale pubblicato. Nel febbraio 2023, Binance ha aggiunto una verifica zk-SNARK sopra l'albero di Merkle, sviluppata con Polyhedra Network, che dimostra crittograficamente che ogni foglia ha contribuito al totale dichiarato e che nessun conto presenta un saldo netto negativo — e Binance ha reso open source il codice di verifica in modo che soggetti esterni possano controllare autonomamente i calcoli.</p>
+<p class="ru">Binance организует балансы пользовательских счетов в дерево Меркла, в котором баланс каждого пользователя образует один «лист». Пользователи могут проверить свой собственный Record ID, чтобы убедиться, что их баланс включён в дерево, формирующее опубликованную общую сумму. В феврале 2023 года Binance добавила поверх дерева Меркла верификацию zk-SNARK, разработанную совместно с Polyhedra Network, которая криптографически доказывает, что каждый лист внёс вклад в заявленную сумму и что ни на одном счёте нет отрицательного чистого баланса — а Binance открыла исходный код верификации, чтобы посторонние могли самостоятельно проверить расчёты.</p>
+<p class="zh">幣安將用戶帳戶餘額組織成一棵默克爾樹(Merkle tree),每位用戶的餘額構成其中一個「葉節點」。用戶可查詢自己的Record ID,確認自己的餘額已被納入通向公布總額的樹狀結構中。2023年2月,幣安在默克爾樹之上疊加了與Polyhedra Network共同建構的零知識證明(zk-SNARK)驗證機制,以密碼學方式證明每個葉節點都對聲稱的總額有所貢獻,且沒有任何帳戶持有負淨餘額——幣安並將驗證代碼開源,讓外部人士可以自行核對運算過程。</p>
 
 <p class="ko">이런 시스템이 존재하는 이유는 이전 방식이 검증 압박 속에 무너졌기 때문이다. FTX 파산 몇 주 후인 2022년 12월, 바이낸스·쿠코인(KuCoin)·크립토닷컴(Crypto.com)을 대상으로 (전면 감사에는 못 미치는) '합의된 절차(agreed-upon procedures)' 리포트를 작성해온 회계법인 마자르(Mazars)는 이런 리포트가 일반 대중에게 전면 감사로 오인될 수 있다는 우려를 이유로 크립토 기업 대상 준비금 증명 업무를 전면 중단했다. 같은 시기 아르마니노(Armanino) 등 다른 회계법인들도 이 분야에서 철수했다. 따라서 이번 44차 리포트를 포함해 그 이후 바이낸스가 내놓은 모든 준비금 증명 리포트는 외부 회계법인의 감사가 아니라 자체 발행한 암호학적 증명이다 — '100.20% 초과담보'라는 수치를 읽을 때 염두에 둬야 할 구분점이다.</p>
 <p class="en">That system exists because the previous one collapsed under scrutiny. In December 2022, weeks after FTX failed, auditor Mazars — which had been producing "agreed-upon procedures" reports (short of a full audit) for Binance, KuCoin and Crypto.com — paused all proof-of-reserves work for crypto clients, saying it was concerned the reports were being misread by the public as full audits. Other firms, including Armanino, exited the space around the same time. Every Binance PoR report since, including this 44th one, is therefore a self-published cryptographic attestation rather than an outside accounting firm's audit — a distinction worth keeping in mind when reading a figure like "100.20% over-collateralized."</p>
@@ -79,6 +114,11 @@
 <p class="pt">Esse sistema existe porque o anterior desmoronou sob escrutínio. Em dezembro de 2022, semanas depois de a FTX quebrar, a auditora Mazars — que vinha produzindo relatórios de "procedimentos acordados" (aquém de uma auditoria completa) para Binance, KuCoin e Crypto.com — pausou todo o trabalho de prova de reservas para clientes de cripto, alegando preocupação de que os relatórios estivessem sendo mal interpretados pelo público como auditorias completas. Outras firmas, incluindo a Armanino, deixaram o setor por volta da mesma época. Assim, todo relatório de Prova de Reservas publicado pela Binance desde então, incluindo este 44º, é uma atestação criptográfica autopublicada, e não uma auditoria de uma firma contábil externa — uma distinção que vale a pena ter em mente ao ler um número como "100,20% sobrecolateralizado".</p>
 <p class="tr">Bu sistem, öncekinin denetim baskısı altında çökmesi nedeniyle var. FTX'in çöküşünden haftalar sonra, Aralık 2022'de, Binance, KuCoin ve Crypto.com için (tam denetimin altında kalan) "üzerinde anlaşılan prosedürler" raporları hazırlayan denetim firması Mazars, bu raporların kamuoyu tarafından tam denetim olarak yanlış anlaşıldığından endişe ettiğini belirterek kripto müşterileri için tüm rezerv kanıtı çalışmalarını durdurdu. Armanino da dahil olmak üzere diğer firmalar da yaklaşık aynı dönemde bu alandan çekildi. Bu nedenle, bu 44. rapor da dahil olmak üzere o zamandan bu yana Binance'in yayımladığı her Rezerv Kanıtı raporu, dışarıdaki bir muhasebe firmasının denetimi değil, kendi kendine yayımlanan kriptografik bir tasdiktir — "yüzde 100,20 aşırı teminatlı" gibi bir rakamı okurken akılda tutulması gereken bir ayrım.</p>
 <p class="vi">Hệ thống đó tồn tại vì hệ thống trước đã sụp đổ dưới sự giám sát chặt chẽ. Vào tháng 12/2022, vài tuần sau khi FTX sụp đổ, công ty kiểm toán Mazars — đơn vị từng lập các báo cáo "thủ tục đã thỏa thuận" (chưa đạt mức kiểm toán đầy đủ) cho Binance, KuCoin và Crypto.com — đã tạm dừng toàn bộ công việc bằng chứng dự trữ cho khách hàng tiền mã hóa, với lý do lo ngại rằng các báo cáo này bị công chúng hiểu nhầm là kiểm toán đầy đủ. Các công ty khác, bao gồm Armanino, cũng rút khỏi lĩnh vực này vào khoảng cùng thời điểm. Do đó, mọi báo cáo Bằng chứng Dự trữ mà Binance công bố kể từ đó, bao gồm cả báo cáo thứ 44 này, là một sự xác nhận mật mã học tự công bố chứ không phải một cuộc kiểm toán của công ty kế toán bên ngoài — một sự phân biệt đáng ghi nhớ khi đọc con số như "thế chấp vượt mức 100,20%".</p>
+<p class="id">Sistem tersebut ada karena sistem sebelumnya runtuh di bawah tekanan pengawasan publik. Pada Desember 2022, beberapa minggu setelah keruntuhan FTX, auditor Mazars — yang sebelumnya menyusun laporan "agreed-upon procedures" (di bawah standar audit penuh) untuk Binance, KuCoin, dan Crypto.com — menghentikan seluruh pekerjaan proof-of-reserves untuk klien kripto, dengan alasan khawatir laporan tersebut disalahartikan publik sebagai audit penuh. Perusahaan lain, termasuk Armanino, juga keluar dari sektor ini sekitar waktu yang sama. Karena itu, setiap laporan PoR Binance sejak saat itu, termasuk laporan ke-44 ini, merupakan atestasi kriptografis yang dipublikasikan sendiri, bukan audit oleh kantor akuntan independen — sebuah perbedaan penting yang patut diingat saat membaca angka seperti "kelebihan jaminan 100,20%".</p>
+<p class="pl">System ten istnieje, ponieważ poprzedni załamał się pod presją kontroli. W grudniu 2022 roku, kilka tygodni po upadku FTX, audytor Mazars — który sporządzał raporty typu „uzgodnione procedury” (poniżej pełnego audytu) dla Binance, KuCoin i Crypto.com — wstrzymał wszelkie prace nad proof-of-reserves dla klientów kryptowalutowych, tłumacząc to obawą, że raporty te były mylnie odbierane przez opinię publiczną jako pełne audyty. Inne firmy, w tym Armanino, wycofały się z tego segmentu mniej więcej w tym samym czasie. Dlatego każdy raport PoR Binance od tamtej pory, w tym ten 44., jest samodzielnie publikowanym atestem kryptograficznym, a nie audytem zewnętrznej firmy księgowej — rozróżnienie warte zapamiętania przy odczytywaniu liczby takiej jak „nadzabezpieczenie 100,20%”.</p>
+<p class="it">Questo sistema esiste perché quello precedente è crollato sotto il peso del controllo pubblico. Nel dicembre 2022, poche settimane dopo il crollo di FTX, il revisore Mazars — che produceva report di "procedure concordate" (al di sotto di un audit completo) per Binance, KuCoin e Crypto.com — ha sospeso tutto il lavoro di proof-of-reserves per i clienti crypto, dichiarando di temere che i report venissero fraintesi dal pubblico come audit completi. Altre società, tra cui Armanino, hanno lasciato il settore più o meno nello stesso periodo. Ogni report PoR di Binance da allora, incluso questo 44°, è quindi un'attestazione crittografica autopubblicata e non un audit di una società di revisione esterna — una distinzione da tenere presente leggendo un dato come "sovracollateralizzazione al 100,20%".</p>
+<p class="ru">Эта система существует потому, что предыдущая рухнула под давлением пристального внимания. В декабре 2022 года, через несколько недель после краха FTX, аудитор Mazars — готовивший отчёты по «согласованным процедурам» (не дотягивающим до полноценного аудита) для Binance, KuCoin и Crypto.com — приостановил всю работу по proof-of-reserves для крипто-клиентов, заявив об обеспокоенности тем, что публика ошибочно воспринимает эти отчёты как полноценные аудиты. Другие фирмы, включая Armanino, покинули эту сферу примерно в то же время. Поэтому каждый отчёт Binance PoR с тех пор, включая этот, 44-й, представляет собой самостоятельно публикуемое криптографическое подтверждение, а не аудит внешней бухгалтерской фирмы — различие, которое стоит иметь в виду, читая такую цифру, как «избыточное обеспечение 100,20%».</p>
+<p class="zh">這套機制的出現,源於前一套機制在外界檢視下崩潰。2022年12月,FTX倒閉數週後,曾為幣安、KuCoin與Crypto.com出具「約定程序」報告(未達完整審計標準)的會計師事務所Mazars,以擔憂該報告被公眾誤解為完整審計為由,暫停了所有針對加密客戶的儲備金證明業務。包括Armanino在內的其他事務所也在大約同一時期退出這個領域。因此,此後幣安發布的每一份PoR報告,包括這第44次報告在內,都是自行發布的密碼學證明,而非外部會計師事務所的審計——這是解讀「超額擔保100.20%」這類數字時值得牢記的區別。</p>
 
 <h2 class="ko">한계 — 스냅숏이 말해주지 않는 것</h2>
 <h2 class="en">The Limits — What a Snapshot Doesn't Tell You</h2>
@@ -89,6 +129,11 @@
 <h2 class="pt">Os Limites — O Que um Snapshot Não Revela</h2>
 <h2 class="tr">Sınırlar — Bir Anlık Görüntünün Söylemedikleri</h2>
 <h2 class="vi">Giới Hạn — Điều Một Ảnh Chụp Nhanh Không Nói Lên</h2>
+<h2 class="id">Batasan — Apa yang Tidak Diungkap oleh Snapshot</h2>
+<h2 class="pl">Ograniczenia — Czego Nie Mówi Migawka</h2>
+<h2 class="it">I Limiti — Cosa Non Rivela uno Snapshot</h2>
+<h2 class="ru">Ограничения — Что Не Показывает Снимок</h2>
+<h2 class="zh">侷限性 — 快照無法告訴你的事</h2>
 
 <p class="ko">준비금 증명의 근본적 한계는 특정 한 순간(이번 경우 7월 1일, 발표는 12일 뒤)의 자산만 포착한다는 점이며, 며칠 사이에도 달라질 수 있는 미상환 대출·장외거래(OTC) 포지션·기타 부외 익스포저 같은 부채에 대해서는 아무것도 말해주지 않는다. 미국 상장회사회계감독위원회(PCAOB)와 증권거래위원회(SEC)는 모두 준비금 증명(attestation)을 전면 재무제표 감사의 대체물로 취급해서는 안 된다고 이전부터 경고해 왔다.</p>
 <p class="en">The fundamental limitation of Proof of Reserves is that it captures assets at one moment (here, July 1, published 12 days later) and says nothing about liabilities such as outstanding loans, OTC positions, or other off-balance-sheet exposure that could change within days. US regulators, including the PCAOB and the SEC, have both previously cautioned that reserve attestations should not be treated as a substitute for a full financial-statement audit.</p>
@@ -99,6 +144,11 @@
 <p class="pt">A limitação fundamental da Prova de Reservas é que ela capta ativos em um único momento (aqui, 1º de julho, publicado 12 dias depois) e nada diz sobre passivos como empréstimos em aberto, posições OTC ou outras exposições fora do balanço que poderiam mudar em questão de dias. Reguladores dos EUA, incluindo o PCAOB e a SEC, já alertaram que atestações de reservas não devem ser tratadas como substituto de uma auditoria completa de demonstrações financeiras.</p>
 <p class="tr">Rezerv Kanıtı'nın temel sınırlaması, varlıkları yalnızca tek bir anda (burada 1 Temmuz, 12 gün sonra yayımlandı) yakalaması ve günler içinde değişebilecek bekleyen krediler, OTC pozisyonları veya diğer bilanço dışı riskler gibi yükümlülükler hakkında hiçbir şey söylememesidir. PCAOB ve SEC dahil ABD düzenleyicileri, rezerv tasdiklerinin tam bir mali tablo denetiminin yerine geçecek şekilde ele alınmaması gerektiği konusunda daha önce uyarıda bulunmuştu.</p>
 <p class="vi">Hạn chế cơ bản của Bằng chứng Dự trữ là nó chỉ nắm bắt tài sản tại một thời điểm (ở đây là ngày 1/7, công bố 12 ngày sau) và không nói lên điều gì về các khoản nợ như các khoản vay chưa thanh toán, vị thế OTC, hoặc các rủi ro ngoài bảng cân đối kế toán khác có thể thay đổi trong vòng vài ngày. Các cơ quan quản lý Mỹ, bao gồm PCAOB và SEC, đều đã từng cảnh báo rằng các xác nhận dự trữ không nên được coi là thay thế cho một cuộc kiểm toán báo cáo tài chính đầy đủ.</p>
+<p class="id">Keterbatasan mendasar dari Proof of Reserves adalah bahwa ia hanya menangkap aset pada satu momen tertentu (dalam hal ini, 1 Juli, dipublikasikan 12 hari kemudian) dan tidak mengatakan apa pun tentang liabilitas seperti pinjaman yang belum lunas, posisi OTC, atau eksposur off-balance-sheet lainnya yang dapat berubah dalam hitungan hari. Regulator AS, termasuk PCAOB dan SEC, keduanya sebelumnya telah memperingatkan bahwa atestasi cadangan tidak boleh diperlakukan sebagai pengganti audit laporan keuangan penuh.</p>
+<p class="pl">Podstawowym ograniczeniem Proof of Reserves jest to, że rejestruje ono aktywa w jednym momencie (w tym przypadku 1 lipca, opublikowane 12 dni później) i nic nie mówi o zobowiązaniach, takich jak niespłacone pożyczki, pozycje OTC czy inne ekspozycje pozabilansowe, które mogą się zmienić w ciągu kilku dni. Amerykańscy regulatorzy, w tym PCAOB i SEC, wcześniej ostrzegali, że atesty rezerw nie powinny być traktowane jako substytut pełnego audytu sprawozdań finansowych.</p>
+<p class="it">Il limite fondamentale della Proof of Reserves è che cattura gli asset in un solo momento (qui, il 1º luglio, pubblicato 12 giorni dopo) e non dice nulla sulle passività, come prestiti in essere, posizioni OTC o altre esposizioni fuori bilancio che potrebbero cambiare nel giro di pochi giorni. I regolatori statunitensi, tra cui PCAOB e SEC, hanno entrambi avvertito in precedenza che le attestazioni di riserva non dovrebbero essere trattate come un sostituto di un audit completo del bilancio.</p>
+<p class="ru">Фундаментальное ограничение Proof of Reserves заключается в том, что оно фиксирует активы в один конкретный момент (в данном случае — 1 июля, опубликовано 12 дней спустя) и ничего не говорит об обязательствах, таких как непогашенные кредиты, внебиржевые (OTC) позиции или иные внебалансовые риски, которые могут измениться в течение нескольких дней. Американские регуляторы, включая PCAOB и SEC, ранее предупреждали, что подтверждения резервов не следует рассматривать как замену полноценному аудиту финансовой отчётности.</p>
+<p class="zh">儲備金證明的根本侷限在於,它只捕捉某一時間點的資產狀況(此次為7月1日,12天後公布),對於未償還貸款、場外交易(OTC)倉位或其他表外風險等可能在數天內發生變化的負債,則完全未予揭露。包括美國上市公司會計監督委員會(PCAOB)與證券交易委員會(SEC)在內的美國監管機構,先前均已警告不應將儲備金證明視為完整財務報表審計的替代品。</p>
 
 <p class="ko">'회전'이라는 프레이밍이 시사하는 것보다 단 한 달간의 변동에서 덜 읽어내는 것도 타당하다. 1.22%의 비트코인 증가와 1.51%의 스테이블코인 감소는 수천억 달러의 이용자 자산을 보유한 플랫폼치고는 소폭 변화에 불과하며, 지속적인 행동 변화라기보다 통상적인 월간 등락일 가능성도 똑같이 존재한다. 이번 리포트 자체가 보여주는 것은 3개월 연속 비트코인 증가라는 사실이며 — 네 번째 달도 이어질지가 지켜볼 지점이지 — 검증된 단 하나의 전환점은 아니다.</p>
 <p class="en">It's also fair to read less into a single month of movement than the "rotation" framing implies. A 1.22% Bitcoin increase and a 1.51% stablecoin decrease are modest changes on a platform holding hundreds of billions of dollars in user assets, and could just as easily reflect routine month-to-month noise as a durable shift in behavior. The report itself marks three consecutive months of BTC growth — worth tracking whether a fourth follows — rather than a verified, singular turning point.</p>
@@ -109,6 +159,11 @@
 <p class="pt">Também é razoável ler menos em um único mês de movimento do que o enquadramento de "rotação" sugere. Um aumento de 1,22% no Bitcoin e uma queda de 1,51% em stablecoins são mudanças modestas para uma plataforma que detém centenas de bilhões de dólares em ativos de usuários, e poderiam igualmente refletir ruído mensal rotineiro tanto quanto uma mudança duradoura de comportamento. O próprio relatório marca três meses consecutivos de crescimento do BTC — vale acompanhar se um quarto se seguirá — em vez de um ponto de virada único e verificado.</p>
 <p class="tr">Tek bir aylık hareketten "rotasyon" çerçevelemesinin ima ettiğinden daha az anlam çıkarmak da makul. Yüzde 1,22'lik Bitcoin artışı ve yüzde 1,51'lik stablecoin düşüşü, yüzlerce milyar dolarlık kullanıcı varlığı tutan bir platform için mütevazı değişiklikler ve kalıcı bir davranış değişikliğini yansıtmak kadar rutin aylık gürültüyü de yansıtabilir. Raporun kendisi, dördüncü ayın gelip gelmeyeceğinin izlenmeye değer olduğu üst üste üç aylık BTC büyümesini işaret ediyor — doğrulanmış, tekil bir dönüm noktasını değil.</p>
 <p class="vi">Cũng hợp lý khi không đọc quá nhiều ý nghĩa từ biến động của một tháng duy nhất như cách diễn giải "xoay trục" ngụ ý. Mức tăng 1,22% của Bitcoin và mức giảm 1,51% của stablecoin là những thay đổi khiêm tốn đối với một nền tảng nắm giữ hàng trăm tỷ USD tài sản người dùng, và cũng có thể phản ánh nhiễu thông thường theo tháng cũng dễ dàng như phản ánh một sự thay đổi hành vi lâu dài. Bản thân báo cáo đánh dấu ba tháng liên tiếp BTC tăng trưởng — đáng để theo dõi liệu tháng thứ tư có tiếp nối hay không — chứ không phải một bước ngoặt đơn lẻ đã được xác minh.</p>
+<p class="id">Wajar juga untuk tidak membaca terlalu banyak makna dari pergerakan satu bulan seperti yang tersirat dalam kerangka "rotasi" tersebut. Kenaikan Bitcoin sebesar 1,22% dan penurunan stablecoin sebesar 1,51% merupakan perubahan yang tergolong kecil bagi platform yang menampung ratusan miliar dolar aset pengguna, dan bisa jadi hanya mencerminkan fluktuasi bulanan yang rutin, sama mungkinnya dengan mencerminkan perubahan perilaku yang bertahan lama. Laporan ini sendiri menandai tiga bulan berturut-turut pertumbuhan BTC — layak untuk terus dipantau apakah bulan keempat akan menyusul — bukan sebuah titik balik tunggal yang telah terverifikasi.</p>
+<p class="pl">Uczciwe jest też, by nie doszukiwać się w ruchu jednego miesiąca aż tak wiele, jak sugeruje określenie „rotacja”. Wzrost Bitcoina o 1,22% i spadek stablecoinów o 1,51% to umiarkowane zmiany na platformie posiadającej setki miliardów dolarów aktywów użytkowników, które równie dobrze mogą odzwierciedlać rutynowy szum miesiąc do miesiąca, jak i trwałą zmianę zachowań. Sam raport odnotowuje trzy kolejne miesiące wzrostu BTC — warto śledzić, czy nastąpi czwarty — a nie potwierdzony, pojedynczy punkt zwrotny.</p>
+<p class="it">È anche corretto non trarre conclusioni eccessive da un singolo mese di movimento, come invece suggerisce l'inquadramento come "rotazione". Un aumento dell'1,22% del Bitcoin e un calo dell'1,51% delle stablecoin sono variazioni modeste per una piattaforma che detiene centinaia di miliardi di dollari in asset degli utenti, e potrebbero riflettere tanto un normale rumore mensile quanto un cambiamento duraturo nel comportamento. Il report stesso segna tre mesi consecutivi di crescita del BTC — vale la pena monitorare se ne seguirà un quarto — più che un punto di svolta unico e verificato.</p>
+<p class="ru">Также справедливо не придавать движению за один месяц столь большого значения, как подразумевает формулировка «ротация». Рост Bitcoin на 1,22% и снижение стейблкоинов на 1,51% — скромные изменения для платформы, удерживающей активы пользователей на сотни миллиардов долларов, и с равной вероятностью могут отражать обычный ежемесячный шум, а не устойчивый сдвиг в поведении. Сам отчёт фиксирует три месяца роста BTC подряд — стоит проследить, последует ли четвёртый, — а не подтверждённую, единичную точку перелома.</p>
+<p class="zh">同樣合理的看法是,不應像「輪動」這個框架所暗示的那樣,從單一月份的變動中讀出過多含義。比特幣上升1.22%、穩定幣下滑1.51%,對於一個持有數千億美元用戶資產的平台而言只是溫和的變化,同樣可能只是反映例行的月度波動,而非持久的行為轉變。這份報告本身標誌的是BTC連續三個月成長——是否會延續到第四個月值得持續關注——而不是一個已被證實的單一轉折點。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 640" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -515,6 +570,231 @@
 </svg>
 <p style="font-size:11px;color:#52525b;margin-top:-10px">Số liệu là ước tính sơ đồ dựa trên đưa tin công khai từ Wu Blockchain, CryptoNews, 99Bitcoins và trang Bằng chứng Dự trữ của Binance.</p>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 640" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Proof of Reserves ke-44 Binance — Pergerakan Aset dan Struktur Verifikasi</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="110" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">BTC</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">640.296 BTC</text>
+    <text x="45" y="128" fill="#86efac" font-size="13" font-weight="700">+1,22% dari bulan lalu</text>
+    <text x="45" y="150" fill="#a1a1aa" font-size="13">Kenaikan bulanan ke-3 berturut-turut</text>
+
+    <rect x="250" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">ETH</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">~4,08 juta ETH</text>
+    <text x="265" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,41% dari bulan lalu</text>
+    <text x="265" y="150" fill="#a1a1aa" font-size="13">Turun dari bulan sebelumnya</text>
+
+    <rect x="470" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">USDT</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">~US$33,7 miliar</text>
+    <text x="485" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,51% dari bulan lalu</text>
+    <text x="485" y="150" fill="#a1a1aa" font-size="13">~-US$510 juta</text>
+
+    <rect x="30" y="185" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Tren Saldo Bitcoin</text>
+    <text x="50" y="238" fill="#a1a1aa" font-size="13">Agu 2025 — ~591.000 BTC</text>
+    <text x="50" y="261" fill="#a1a1aa" font-size="13">1 Jul 2026 — 640.296 BTC (~+49.000 BTC selama ~11 bulan)</text>
+    <text x="50" y="284" fill="#e4e4e7" font-size="13" font-weight="700">Kelebihan jaminan 100,20% · Volume futures Juni US$1,63 triliun (tertinggi 2026)</text>
+    <text x="50" y="305" fill="#71717a" font-size="12">Kenaikan bulanan ketiga berturut-turut — apakah bulan keempat akan menyusul jadi hal yang perlu dipantau</text>
+
+    <rect x="30" y="330" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="357" fill="#93c5fd" font-size="14" font-weight="700">Garis Waktu Metode Verifikasi</text>
+    <text x="50" y="383" fill="#a1a1aa" font-size="13">Des 2022 — Pasca-FTX, Mazars hentikan semua audit PoR kripto</text>
+    <text x="50" y="406" fill="#a1a1aa" font-size="13">Feb 2023 — Verifikasi zk-SNARK dengan Polyhedra Network, kode open-source</text>
+    <text x="50" y="429" fill="#a1a1aa" font-size="13">Jun 2026 — Volume futures capai US$1,63 triliun, tertinggi bulanan 2026</text>
+    <text x="50" y="452" fill="#fca5a5" font-size="13" font-weight="700">13 Jul 2026 — Laporan ke-44 dipublikasikan (dari snapshot 1 Jul)</text>
+    <text x="50" y="472" fill="#71717a" font-size="12">Verifikasi saat ini adalah bukti kriptografis yang dipublikasikan sendiri, bukan audit eksternal</text>
+
+    <rect x="30" y="495" width="640" height="120" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="50" y="522" fill="#fde047" font-size="14" font-weight="700">Apa yang Dibuktikan PoR vs. Tidak Dibuktikan</text>
+    <text x="50" y="547" fill="#e4e4e7" font-size="13">✓ Aset yang dimiliki dan kelebihan jaminan pada saat snapshot</text>
+    <text x="50" y="570" fill="#e4e4e7" font-size="13">✗ Liabilitas seperti pinjaman/posisi OTC, perubahan pasca-snapshot, audit independen</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Angka merupakan perkiraan skematis berdasarkan pemberitaan publik dari Wu Blockchain, CryptoNews, 99Bitcoins, dan halaman Proof of Reserves Binance.</p>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 640" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">44. Proof of Reserves Binance — Ruchy Aktywów i Struktura Weryfikacji</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="110" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">BTC</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">640 296 BTC</text>
+    <text x="45" y="128" fill="#86efac" font-size="13" font-weight="700">+1,22% m/m</text>
+    <text x="45" y="150" fill="#a1a1aa" font-size="13">3. wzrost z rzędu</text>
+
+    <rect x="250" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">ETH</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">~4,08 mln ETH</text>
+    <text x="265" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,41% m/m</text>
+    <text x="265" y="150" fill="#a1a1aa" font-size="13">Spadek względem poprzedniego miesiąca</text>
+
+    <rect x="470" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">USDT</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">~33,7 mld USD</text>
+    <text x="485" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,51% m/m</text>
+    <text x="485" y="150" fill="#a1a1aa" font-size="13">~-510 mln USD</text>
+
+    <rect x="30" y="185" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Trajektoria Salda Bitcoina</text>
+    <text x="50" y="238" fill="#a1a1aa" font-size="13">Sie 2025 — ~591 000 BTC</text>
+    <text x="50" y="261" fill="#a1a1aa" font-size="13">1 lip 2026 — 640 296 BTC (~+49 000 BTC w ~11 miesięcy)</text>
+    <text x="50" y="284" fill="#e4e4e7" font-size="13" font-weight="700">Nadzabezpieczenie 100,20% · Wolumen futures w czerwcu 1,63 bln USD (rekord 2026)</text>
+    <text x="50" y="305" fill="#71717a" font-size="12">Trzeci wzrost miesięczny z rzędu — czy nastąpi czwarty, warto śledzić</text>
+
+    <rect x="30" y="330" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="357" fill="#93c5fd" font-size="14" font-weight="700">Oś Czasu Metody Weryfikacji</text>
+    <text x="50" y="383" fill="#a1a1aa" font-size="13">Gru 2022 — Po FTX Mazars wstrzymuje cały audyt PoR kryptowalut</text>
+    <text x="50" y="406" fill="#a1a1aa" font-size="13">Lut 2023 — Weryfikacja zk-SNARK z Polyhedra Network, kod open source</text>
+    <text x="50" y="429" fill="#a1a1aa" font-size="13">Cze 2026 — Wolumen futures sięga 1,63 bln USD, rekord miesięczny 2026</text>
+    <text x="50" y="452" fill="#fca5a5" font-size="13" font-weight="700">13 lip 2026 — Publikacja 44. raportu (z migawki 1 lip)</text>
+    <text x="50" y="472" fill="#71717a" font-size="12">Obecna weryfikacja to samodzielnie publikowany dowód kryptograficzny, nie audyt zewnętrzny</text>
+
+    <rect x="30" y="495" width="640" height="120" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="50" y="522" fill="#fde047" font-size="14" font-weight="700">Co Dowodzi PoR, a Czego Nie</text>
+    <text x="50" y="547" fill="#e4e4e7" font-size="13">✓ Posiadane aktywa i nadzabezpieczenie w momencie migawki</text>
+    <text x="50" y="570" fill="#e4e4e7" font-size="13">✗ Zobowiązania, np. pożyczki/pozycje OTC, zmiany po migawce, niezależny audyt</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Liczby to szacunkowe przybliżenia oparte na publicznych doniesieniach Wu Blockchain, CryptoNews, 99Bitcoins oraz strony Proof of Reserves Binance.</p>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 640" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">44° Proof of Reserves di Binance — Movimenti degli Asset e Struttura di Verifica</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="110" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">BTC</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">640.296 BTC</text>
+    <text x="45" y="128" fill="#86efac" font-size="13" font-weight="700">+1,22% mensile</text>
+    <text x="45" y="150" fill="#a1a1aa" font-size="13">3° aumento mensile consecutivo</text>
+
+    <rect x="250" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">ETH</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">~4,08M ETH</text>
+    <text x="265" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,41% mensile</text>
+    <text x="265" y="150" fill="#a1a1aa" font-size="13">In calo rispetto al mese precedente</text>
+
+    <rect x="470" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">USDT</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">~33,7 mld $</text>
+    <text x="485" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,51% mensile</text>
+    <text x="485" y="150" fill="#a1a1aa" font-size="13">~-510 mln $</text>
+
+    <rect x="30" y="185" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Traiettoria del Saldo Bitcoin</text>
+    <text x="50" y="238" fill="#a1a1aa" font-size="13">Ago 2025 — ~591.000 BTC</text>
+    <text x="50" y="261" fill="#a1a1aa" font-size="13">1° lug 2026 — 640.296 BTC (~+49.000 BTC in ~11 mesi)</text>
+    <text x="50" y="284" fill="#e4e4e7" font-size="13" font-weight="700">Sovracollateralizzazione 100,20% · Volume futures di giugno $1,63 trilioni (massimo 2026)</text>
+    <text x="50" y="305" fill="#71717a" font-size="12">Terzo aumento mensile consecutivo — se ne seguirà un quarto è il prossimo dato da monitorare</text>
+
+    <rect x="30" y="330" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="357" fill="#93c5fd" font-size="14" font-weight="700">Cronologia del Metodo di Verifica</text>
+    <text x="50" y="383" fill="#a1a1aa" font-size="13">Dic 2022 — Post-FTX, Mazars sospende tutto il lavoro di audit PoR crypto</text>
+    <text x="50" y="406" fill="#a1a1aa" font-size="13">Feb 2023 — Verifica zk-SNARK con Polyhedra Network, codice open source</text>
+    <text x="50" y="429" fill="#a1a1aa" font-size="13">Giu 2026 — Volume futures raggiunge $1,63 trilioni, massimo mensile 2026</text>
+    <text x="50" y="452" fill="#fca5a5" font-size="13" font-weight="700">13 lug 2026 — Pubblicato il 44° report (dallo snapshot del 1° lug)</text>
+    <text x="50" y="472" fill="#71717a" font-size="12">L'attuale verifica è una prova crittografica autopubblicata, non un audit esterno</text>
+
+    <rect x="30" y="495" width="640" height="120" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="50" y="522" fill="#fde047" font-size="14" font-weight="700">Cosa Dimostra il PoR vs. Cosa Non Dimostra</text>
+    <text x="50" y="547" fill="#e4e4e7" font-size="13">✓ Asset detenuti e sovracollateralizzazione al momento dello snapshot</text>
+    <text x="50" y="570" fill="#e4e4e7" font-size="13">✗ Passività come prestiti/posizioni OTC, variazioni post-snapshot, audit indipendente</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">I dati sono approssimazioni schematiche basate su resoconti pubblici di Wu Blockchain, CryptoNews, 99Bitcoins e la pagina Proof of Reserves di Binance.</p>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 640" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">44-й Proof of Reserves Binance — Движение Активов и Структура Верификации</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="110" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">BTC</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">640 296 BTC</text>
+    <text x="45" y="128" fill="#86efac" font-size="13" font-weight="700">+1,22% м/м</text>
+    <text x="45" y="150" fill="#a1a1aa" font-size="13">3-й рост подряд</text>
+
+    <rect x="250" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">ETH</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">~4,08 млн ETH</text>
+    <text x="265" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,41% м/м</text>
+    <text x="265" y="150" fill="#a1a1aa" font-size="13">Снижение к предыдущему месяцу</text>
+
+    <rect x="470" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">USDT</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">~33,7 млрд $</text>
+    <text x="485" y="128" fill="#fca5a5" font-size="13" font-weight="700">-1,51% м/м</text>
+    <text x="485" y="150" fill="#a1a1aa" font-size="13">~-510 млн $</text>
+
+    <rect x="30" y="185" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="212" fill="#e4e4e7" font-size="14" font-weight="700">Динамика Баланса Bitcoin</text>
+    <text x="50" y="238" fill="#a1a1aa" font-size="13">Авг 2025 — ~591 000 BTC</text>
+    <text x="50" y="261" fill="#a1a1aa" font-size="13">1 июл 2026 — 640 296 BTC (~+49 000 BTC за ~11 месяцев)</text>
+    <text x="50" y="284" fill="#e4e4e7" font-size="13" font-weight="700">Обеспечение 100,20% · Объём фьючерсов в июне $1,63 трлн (максимум 2026)</text>
+    <text x="50" y="305" fill="#71717a" font-size="12">Третий рост подряд — стоит следить, последует ли четвёртый</text>
+
+    <rect x="30" y="330" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="357" fill="#93c5fd" font-size="14" font-weight="700">Хронология Метода Верификации</text>
+    <text x="50" y="383" fill="#a1a1aa" font-size="13">Дек 2022 — После FTX Mazars останавливает весь крипто-аудит PoR</text>
+    <text x="50" y="406" fill="#a1a1aa" font-size="13">Фев 2023 — Верификация zk-SNARK с Polyhedra Network, код в открытом доступе</text>
+    <text x="50" y="429" fill="#a1a1aa" font-size="13">Июн 2026 — Объём фьючерсов достигает $1,63 трлн, максимум 2026 года</text>
+    <text x="50" y="452" fill="#fca5a5" font-size="13" font-weight="700">13 июл 2026 — Публикация 44-го отчёта (по снимку от 1 июл)</text>
+    <text x="50" y="472" fill="#71717a" font-size="12">Текущая верификация — самостоятельно публикуемое криптографическое доказательство, а не внешний аудит</text>
+
+    <rect x="30" y="495" width="640" height="120" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="50" y="522" fill="#fde047" font-size="14" font-weight="700">Что Доказывает PoR, а Что Нет</text>
+    <text x="50" y="547" fill="#e4e4e7" font-size="13">✓ Активы в наличии и избыточное обеспечение на момент снимка</text>
+    <text x="50" y="570" fill="#e4e4e7" font-size="13">✗ Обязательства (кредиты/OTC-позиции), изменения после снимка, независимый аудит</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">Цифры являются схематичными приближениями на основе публичных сообщений Wu Blockchain, CryptoNews, 99Bitcoins и страницы Proof of Reserves Binance.</p>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 640" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">幣安第44次儲備金證明 — 資產變動與驗證結構</text>
+  <g font-family="sans-serif">
+    <rect x="30" y="55" width="200" height="110" rx="10" fill="#0e2a1e" stroke="#4ade80" stroke-width="1.3"/>
+    <text x="130" y="80" fill="#86efac" font-size="14" font-weight="700" text-anchor="middle">BTC</text>
+    <text x="45" y="105" fill="#e4e4e7" font-size="13">640,296 BTC</text>
+    <text x="45" y="128" fill="#86efac" font-size="13" font-weight="700">較上月 +1.22%</text>
+    <text x="45" y="150" fill="#a1a1aa" font-size="13">連續第3個月增加</text>
+
+    <rect x="250" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="350" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">ETH</text>
+    <text x="265" y="105" fill="#e4e4e7" font-size="13">約408萬ETH</text>
+    <text x="265" y="128" fill="#fca5a5" font-size="13" font-weight="700">較上月 -1.41%</text>
+    <text x="265" y="150" fill="#a1a1aa" font-size="13">較上月下降</text>
+
+    <rect x="470" y="55" width="200" height="110" rx="10" fill="#2a1414" stroke="#f87171" stroke-width="1.3"/>
+    <text x="570" y="80" fill="#fca5a5" font-size="14" font-weight="700" text-anchor="middle">USDT</text>
+    <text x="485" y="105" fill="#e4e4e7" font-size="13">約337億美元</text>
+    <text x="485" y="128" fill="#fca5a5" font-size="13" font-weight="700">較上月 -1.51%</text>
+    <text x="485" y="150" fill="#a1a1aa" font-size="13">約-5.1億美元</text>
+
+    <rect x="30" y="185" width="640" height="130" rx="10" fill="#1c1c1e" stroke="#71717a" stroke-width="1.2"/>
+    <text x="50" y="212" fill="#e4e4e7" font-size="14" font-weight="700">比特幣持倉走勢</text>
+    <text x="50" y="238" fill="#a1a1aa" font-size="13">2025年8月 — 約59.1萬BTC</text>
+    <text x="50" y="261" fill="#a1a1aa" font-size="13">2026年7月1日 — 640,296 BTC(約11個月增加約4.9萬BTC)</text>
+    <text x="50" y="284" fill="#e4e4e7" font-size="13" font-weight="700">超額擔保率100.20%‧6月期貨交易量1.63兆美元(2026年最高)</text>
+    <text x="50" y="305" fill="#71717a" font-size="12">連續第三個月增加 — 第四個月是否延續是下一個觀察點</text>
+
+    <rect x="30" y="330" width="640" height="150" rx="10" fill="#1e2a3a" stroke="#60a5fa" stroke-width="1.3"/>
+    <text x="50" y="357" fill="#93c5fd" font-size="14" font-weight="700">驗證方式時間軸</text>
+    <text x="50" y="383" fill="#a1a1aa" font-size="13">2022年12月 — FTX倒閉後,Mazars全面暫停加密貨幣PoR審計業務</text>
+    <text x="50" y="406" fill="#a1a1aa" font-size="13">2023年2月 — 導入與Polyhedra Network合作的zk-SNARK驗證,代碼開源</text>
+    <text x="50" y="429" fill="#a1a1aa" font-size="13">2026年6月 — 期貨交易量達1.63兆美元,創2026年單月新高</text>
+    <text x="50" y="452" fill="#fca5a5" font-size="13" font-weight="700">2026年7月13日 — 第44次報告發布(基於7月1日快照)</text>
+    <text x="50" y="472" fill="#71717a" font-size="12">目前的驗證是自行發布的密碼學證明,而非外部審計</text>
+
+    <rect x="30" y="495" width="640" height="120" rx="10" fill="#2a2410" stroke="#facc15" stroke-width="1.3"/>
+    <text x="50" y="522" fill="#fde047" font-size="14" font-weight="700">PoR能證明什麼 vs 不能證明什麼</text>
+    <text x="50" y="547" fill="#e4e4e7" font-size="13">✓ 快照時點持有的資產與超額擔保狀況</text>
+    <text x="50" y="570" fill="#e4e4e7" font-size="13">✗ 貸款/OTC倉位等負債、快照後的變化、獨立審計</text>
+  </g>
+</svg>
+<p style="font-size:11px;color:#52525b;margin-top:-10px">數字為根據Wu Blockchain、CryptoNews、99Bitcoins及幣安儲備金證明頁面等公開報導所做的示意性估算。</p>
+</div>
 
 <div class="box ko">💡 <strong>지금 지켜봐야 할 것:</strong> 바이낸스 44차 준비금 증명 리포트는 BTC 보유량의 3개월 연속 증가와 ETH·USDT 감소를 보여줬다. (1) 다음 45차 리포트에서 BTC 증가가 4개월째 이어질지 아니면 반전될지, (2) 스테이블코인 잔액이 계속 줄어들지 반등할지 — 이는 이번이 지속적인 리스크온 회전인지 한 달짜리 변동인지를 가려줄 것이다, (3) 마자르가 크립토 영역에서 철수한 지 3년 넘게 지난 지금, 바이낸스나 다른 회계법인이 독립적인 감사 검증을 다시 도입할지를 지켜봐야 한다.</div>
 <div class="box en">💡 <strong>What to watch now:</strong> Binance's 44th Proof-of-Reserves report showed BTC balances rising for a third straight month while ETH and USDT fell. Watch (1) whether the 45th report shows a fourth consecutive month of BTC accumulation or a reversal, (2) whether stablecoin balances keep declining or rebound, which would help distinguish a durable risk-on rotation from a one-month move, and (3) whether Binance or another accounting firm reintroduces independently audited verification, more than three years after Mazars withdrew from the crypto space.</div>
@@ -525,6 +805,11 @@
 <div class="box pt">💡 <strong>O que observar agora:</strong> O 44º relatório de Prova de Reservas da Binance mostrou saldos de BTC subindo pelo terceiro mês consecutivo enquanto ETH e USDT caíram. Observe (1) se o 45º relatório mostra um quarto mês consecutivo de acumulação de BTC ou uma reversão, (2) se os saldos de stablecoins continuam caindo ou se recuperam, o que ajudaria a distinguir uma rotação de risco duradoura de um movimento de um único mês, e (3) se a Binance ou outra firma contábil reintroduz verificação auditada de forma independente, mais de três anos após a Mazars se retirar do setor cripto.</div>
 <div class="box tr">💡 <strong>Şimdi izlenmesi gerekenler:</strong> Binance'in 44. Rezerv Kanıtı raporu, BTC bakiyelerinin üst üste üçüncü ayda da yükseldiğini, ETH ve USDT'nin ise düştüğünü gösterdi. (1) 45. raporun BTC birikiminde dördüncü ayı mı yoksa bir tersine dönüşü mü göstereceğini, (2) stablecoin bakiyelerinin düşmeye devam mı edeceğini yoksa toparlanacağını mı — bu, kalıcı bir riske yönelim rotasyonu ile tek aylık bir hareketi ayırt etmeye yardımcı olacak, ve (3) Mazars'ın kripto alanından çekilmesinin üzerinden üç yıldan fazla süre geçmişken Binance'in veya başka bir muhasebe firmasının bağımsız denetimli doğrulamayı yeniden getirip getirmeyeceğini izleyin.</div>
 <div class="box vi">💡 <strong>Những điều cần theo dõi ngay bây giờ:</strong> Báo cáo Bằng chứng Dự trữ thứ 44 của Binance cho thấy số dư BTC tăng tháng thứ ba liên tiếp trong khi ETH và USDT giảm. Hãy theo dõi (1) liệu báo cáo thứ 45 có cho thấy tháng thứ tư liên tiếp tích lũy BTC hay một sự đảo chiều, (2) liệu số dư stablecoin có tiếp tục giảm hay phục hồi — điều này sẽ giúp phân biệt một cuộc xoay trục rủi ro lâu dài với một biến động chỉ trong một tháng, và (3) liệu Binance hay một công ty kế toán khác có tái áp dụng xác minh được kiểm toán độc lập hay không, hơn ba năm sau khi Mazars rút khỏi lĩnh vực tiền mã hóa.</div>
+<div class="box id">💡 <strong>Yang perlu dipantau sekarang:</strong> Laporan Proof-of-Reserves ke-44 Binance menunjukkan saldo BTC naik selama tiga bulan berturut-turut sementara ETH dan USDT turun. Pantau (1) apakah laporan ke-45 menunjukkan bulan keempat berturut-turut akumulasi BTC atau justru pembalikan, (2) apakah saldo stablecoin terus menurun atau kembali pulih, yang akan membantu membedakan apakah ini rotasi risk-on yang bertahan lama atau hanya pergerakan satu bulan, dan (3) apakah Binance atau kantor akuntan lain akan kembali menghadirkan verifikasi yang diaudit secara independen, lebih dari tiga tahun setelah Mazars keluar dari sektor kripto.</div>
+<div class="box pl">💡 <strong>Co obserwować teraz:</strong> 44. raport Proof-of-Reserves Binance pokazał, że salda BTC rosły trzeci miesiąc z rzędu, podczas gdy ETH i USDT spadały. Obserwuj (1) czy 45. raport pokaże czwarty kolejny miesiąc akumulacji BTC, czy odwrócenie trendu, (2) czy salda stablecoinów będą nadal spadać, czy się odbiją, co pomoże odróżnić trwałą rotację w stronę ryzyka od jednomiesięcznego ruchu, oraz (3) czy Binance lub inna firma księgowa ponownie wprowadzi niezależnie audytowaną weryfikację, ponad trzy lata po wycofaniu się Mazars z branży kryptowalut.</div>
+<div class="box it">💡 <strong>Cosa monitorare ora:</strong> Il 44° report Proof-of-Reserves di Binance ha mostrato saldi BTC in aumento per il terzo mese consecutivo mentre ETH e USDT sono scesi. Da monitorare: (1) se il 45° report mostrerà un quarto mese consecutivo di accumulo di BTC o un'inversione, (2) se i saldi stablecoin continueranno a diminuire o si riprenderanno, il che aiuterebbe a distinguere una rotazione risk-on duratura da un movimento di un solo mese, e (3) se Binance o un'altra società di revisione reintrodurrà una verifica sottoposta ad audit indipendente, a più di tre anni dal ritiro di Mazars dal settore crypto.</div>
+<div class="box ru">💡 <strong>Что отслеживать сейчас:</strong> 44-й отчёт Proof-of-Reserves Binance показал рост балансов BTC третий месяц подряд, тогда как ETH и USDT снизились. Стоит следить за (1) тем, покажет ли 45-й отчёт четвёртый месяц подряд накопления BTC или разворот, (2) тем, продолжат ли балансы стейблкоинов снижаться или восстановятся, что поможет отличить устойчивую ротацию в рисковые активы от однократного месячного движения, и (3) тем, вернёт ли Binance или другая аудиторская фирма независимо проверяемую верификацию спустя более трёх лет после ухода Mazars из криптосферы.</div>
+<div class="box zh">💡 <strong>接下來值得關注的:</strong> 幣安第44次儲備金證明報告顯示BTC持倉連續第三個月增加,而ETH與USDT則下滑。值得關注的是:(1)第45次報告是否會顯示BTC連續第四個月累積,還是出現反轉;(2)穩定幣持倉是否會持續下滑或回升,這將有助於判斷這究竟是持久的風險偏好輪動,還是僅僅一個月的波動;(3)在Mazars退出加密貨幣領域三年多後,幣安或其他會計師事務所是否會重新引入獨立審計驗證。</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: 우 블록체인(Wu Blockchain), 크립토뉴스(CryptoNews), 크립토닷뉴스(crypto.news), 99비트코인스(99Bitcoins), 트론위클리(TronWeekly), 코인가바르(CoinGabbar), 블루밍빗(Bloomingbit), 바이낸스 준비금 증명(Binance Proof of Reserves) 페이지, 코인데스크(CoinDesk).</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, Binance Proof of Reserves page, CoinDesk.</p>
@@ -535,4 +820,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, página de Prova de Reservas da Binance, CoinDesk.</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, Binance Rezerv Kanıtı sayfası, CoinDesk.</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, trang Bằng chứng Dự trữ của Binance, CoinDesk.</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, halaman Binance Proof of Reserves, CoinDesk.</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, strona Binance Proof of Reserves, CoinDesk.</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, pagina Binance Proof of Reserves, CoinDesk.</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Wu Blockchain, CryptoNews, crypto.news, 99Bitcoins, TronWeekly, CoinGabbar, Bloomingbit, страница Binance Proof of Reserves, CoinDesk.</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Wu Blockchain、CryptoNews、crypto.news、99Bitcoins、TronWeekly、CoinGabbar、Bloomingbit、幣安儲備金證明頁面、CoinDesk。</p>
 <?php require __DIR__.'/_footer.php'; ?>

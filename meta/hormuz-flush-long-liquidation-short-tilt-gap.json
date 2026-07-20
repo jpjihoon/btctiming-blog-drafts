@@ -12,6 +12,11 @@
   "read_pt": "7",
   "read_tr": "7",
   "read_vi": "7",
+  "read_id": "7",
+  "read_pl": "7",
+  "read_it": "7",
+  "read_ru": "7",
+  "read_zh": "7",
 
   "tag_ko": "롱 청산·롱숏 비율 괴리",
   "tag_en": "Long Liquidation vs. Long/Short Ratio Gap",
@@ -22,6 +27,11 @@
   "tag_pt": "Lacuna Liquidação Comprada vs. Proporção Long/Short",
   "tag_tr": "Long Tasfiyesi vs. Long/Short Oranı Farkı",
   "tag_vi": "Khoảng Cách Thanh Lý Long vs. Tỷ Lệ Long/Short",
+  "tag_id": "Kesenjangan Likuidasi Long vs. Rasio Long/Short",
+  "tag_pl": "Rozbieżność Likwidacji Long vs. Wskaźnik Long/Short",
+  "tag_it": "Divario Liquidazione Long vs. Rapporto Long/Short",
+  "tag_ru": "Разрыв: Ликвидация Лонгов vs. Соотношение Лонг/Шорт",
+  "tag_zh": "多頭清算與多空比落差",
 
   "title_ko": "오늘 청산은 롱만 쓸었는데, 롱숏 비율은 여전히 숏 쪽이다",
   "title_en": "Today's Liquidations Wiped Out Longs — Yet the Long/Short Ratio Still Leans Short",
@@ -32,6 +42,11 @@
   "title_pt": "As Liquidações de Hoje Varreram as Compradas — Mas a Proporção Long/Short Ainda Pende Para Vendido",
   "title_tr": "Bugünkü Tasfiyeler Long'ları Sildi — Ama Long/Short Oranı Hâlâ Short'a Eğimli",
   "title_vi": "Đợt Thanh Lý Hôm Nay Xóa Sổ Long — Nhưng Tỷ Lệ Long/Short Vẫn Nghiêng Về Short",
+  "title_id": "Likuidasi Hari Ini Menghapus Habis Long — Namun Rasio Long/Short Masih Condong ke Short",
+  "title_pl": "Dzisiejsze Likwidacje Zmiotły Long'i — a Wskaźnik Long/Short Wciąż Skłania Się ku Short",
+  "title_it": "Le Liquidazioni di Oggi Hanno Spazzato Via i Long — Eppure il Rapporto Long/Short Pende Ancora verso Short",
+  "title_ru": "Сегодняшние Ликвидации Уничтожили Лонги — Но Соотношение Лонг/Шорт По-Прежнему Смещено к Шорту",
+  "title_zh": "今日清算掃蕩多頭——但多空比依然偏向空頭",
 
   "h1_ko": "가격은 이란발 충격을 이미 되돌렸는데,<br>롱숏 비율과 미결제약정은 아직 그 반등을 확신하지 않는다",
   "h1_en": "Price Has Already Erased Today's Iran Shock,<br>But the Long/Short Ratio and Open Interest Haven't Confirmed the Bounce",
@@ -42,6 +57,11 @@
   "h1_pt": "O Preço Já Apagou o Choque do Irã de Hoje,<br>Mas a Proporção Long/Short e o Interesse em Aberto Ainda Não Confirmam a Recuperação",
   "h1_tr": "Fiyat Bugünkü İran Şokunu Zaten Sildi,<br>Ama Long/Short Oranı ve Açık Pozisyon Bu Toparlanmayı Henüz Doğrulamadı",
   "h1_vi": "Giá Đã Xóa Bỏ Cú Sốc Iran Hôm Nay,<br>Nhưng Tỷ Lệ Long/Short Và Khối Lượng Hợp Đồng Mở Vẫn Chưa Xác Nhận Đà Phục Hồi",
+  "h1_id": "Harga Sudah Menghapus Guncangan Iran Hari Ini,<br>Namun Rasio Long/Short dan Open Interest Belum Mengonfirmasi Rebound Ini",
+  "h1_pl": "Cena Już Wymazała Dzisiejszy Szok Wywołany przez Iran,<br>Ale Wskaźnik Long/Short i Open Interest Nie Potwierdziły Jeszcze Odbicia",
+  "h1_it": "Il Prezzo Ha Già Cancellato lo Shock Iraniano di Oggi,<br>Ma il Rapporto Long/Short e l'Open Interest Non Hanno Ancora Confermato il Rimbalzo",
+  "h1_ru": "Цена Уже Стёрла Сегодняшний Иранский Шок,<br>Но Соотношение Лонг/Шорт и Открытый Интерес Пока Не Подтвердили Отскок",
+  "h1_zh": "價格已抹平今日的伊朗衝擊,<br>但多空比與未平倉合約尚未確認這波反彈",
 
   "bc_ko": "롱숏 비율·청산 방향 점검",
   "bc_en": "Long/Short Ratio & Liquidation Check",
@@ -52,6 +72,11 @@
   "bc_fr": "Vérification Ratio Long/Short et Liquidations",
   "bc_tr": "Long/Short Oranı ve Tasfiye İncelemesi",
   "bc_vi": "Kiểm Tra Tỷ Lệ Long/Short và Thanh Lý",
+  "bc_id": "Pemeriksaan Rasio Long/Short & Likuidasi",
+  "bc_pl": "Sprawdzenie Wskaźnika Long/Short i Likwidacji",
+  "bc_it": "Verifica Rapporto Long/Short e Liquidazioni",
+  "bc_ru": "Проверка Соотношения Лонг/Шорт и Ликвидаций",
+  "bc_zh": "多空比與清算檢視",
 
   "desc_ko": "비트코인은 7월14일 저녁(한국시간) 6만2,600~6만2,900달러에서 거래되며, 이날 아시아 오전 이란-미국 충돌 재점화로 한때 6만1,849달러까지 밀렸던 낙폭 대부분을 되돌렸다. 크립토타임스는 이 하락의 청산이 롱 쪽에 집중되고 숏 청산은 미미했다고 전했지만, 7월14일 기준 롱숏 비율은 바이낸스 48.03% 대 51.97%, OKX 49.06% 대 50.94%, 바이비트 47.93% 대 52.07%로 세 거래소 모두 근소하게 숏 쪽에 머물렀다. 여기에 선물 미결제약정이 7월3일 정점(약77만6,000 BTC, 약313억달러)에서 3분의 1 가까이 줄어든 흐름까지 더해, 가격의 되돌림과 레버리지 시장의 확신 사이에 벌어진 틈을 짚었다.",
   "desc_en": "Bitcoin traded between $62,600 and $62,900 on the evening of July 14 (KST), having clawed back most of a drop to as low as $61,849 triggered by renewed Iran-US conflict during the Asian morning session. CryptoTimes reported that liquidations from the drop were concentrated on the long side while short liquidations stayed muted, yet as of July 14 the long/short ratio still sat at 48.03% vs. 51.97% on Binance, 49.06% vs. 50.94% on OKX, and 47.93% vs. 52.07% on Bybit — a modest short lean at all three. Add in futures open interest shrinking by nearly a third from its July 3 peak (roughly 776,000 BTC, about $31.3 billion), and this piece examines the gap between the price's recovery and the derivatives market's lack of conviction.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin s'est échangé entre 62 600 et 62 900 dollars dans la soirée du 14 juillet (heure de Corée), après avoir regagné l'essentiel d'une baisse jusqu'à 61 849 dollars déclenchée par la reprise du conflit Iran-États-Unis pendant la séance asiatique matinale. CryptoTimes a rapporté que les liquidations issues de cette baisse se sont concentrées côté long, tandis que les liquidations courtes sont restées modérées, mais au 14 juillet le ratio long/short se situait encore à 48,03 % contre 51,97 % sur Binance, 49,06 % contre 50,94 % sur OKX, et 47,93 % contre 52,07 % sur Bybit — une légère inclinaison courte sur les trois. À cela s'ajoute un open interest des futures ayant fondu de près d'un tiers depuis son sommet du 3 juillet (environ 776 000 BTC, soit environ 31,3 milliards de dollars) ; cet article examine l'écart entre la reprise du prix et le manque de conviction du marché des dérivés.",
   "desc_pt": "O bitcoin foi negociado entre US$ 62.600 e US$ 62.900 na noite de 14 de julho (horário da Coreia), depois de recuperar a maior parte de uma queda até US$ 61.849 provocada pela reintensificação do conflito Irã-EUA durante a sessão asiática da manhã. A CryptoTimes informou que as liquidações dessa queda se concentraram no lado comprado, enquanto as liquidações vendidas permaneceram moderadas, mas em 14 de julho a proporção long/short ainda estava em 48,03% contra 51,97% na Binance, 49,06% contra 50,94% na OKX e 47,93% contra 52,07% na Bybit — uma leve inclinação vendida nas três. Some-se a isso o interesse em aberto de futuros encolhendo quase um terço desde seu pico de 3 de julho (cerca de 776 mil BTC, cerca de US$ 31,3 bilhões), e este texto examina a lacuna entre a recuperação do preço e a falta de convicção do mercado de derivativos.",
   "desc_tr": "Bitcoin, 14 Temmuz akşamı (KST) 62.600-62.900 dolar arasında işlem gördü; Asya sabah seansında yeniden alevlenen İran-ABD çatışmasının tetiklediği ve en düşük 61.849 dolara kadar inen düşüşün büyük kısmını geri aldıktan sonra. CryptoTimes, bu düşüşten kaynaklanan tasfiyelerin long tarafında yoğunlaştığını, short tasfiyelerinin ise sınırlı kaldığını bildirdi; ancak 14 Temmuz itibarıyla long/short oranı hâlâ Binance'ta yüzde 48,03'e karşı yüzde 51,97, OKX'te yüzde 49,06'ya karşı yüzde 50,94, Bybit'te yüzde 47,93'e karşı yüzde 52,07 seviyesindeydi — üçünde de hafif bir short eğimi. Buna, vadeli işlem açık pozisyonunun 3 Temmuz zirvesinden (yaklaşık 776.000 BTC, yaklaşık 31,3 milyar dolar) neredeyse üçte bir oranında küçülmesi de eklenince, bu yazı fiyatın toparlanması ile türev piyasasının ikna olmaması arasındaki farkı inceliyor.",
-  "desc_vi": "Bitcoin giao dịch trong khoảng 62.600-62.900 đô la vào tối ngày 14 tháng 7 (giờ Hàn Quốc), sau khi lấy lại phần lớn mức giảm xuống thấp nhất 61.849 đô la do xung đột Iran-Mỹ tái bùng phát trong phiên sáng châu Á. CryptoTimes đưa tin các đợt thanh lý từ đợt giảm này tập trung ở phía long, trong khi thanh lý phía short vẫn ở mức thấp, nhưng tính đến ngày 14 tháng 7, tỷ lệ long/short vẫn ở mức 48,03% so với 51,97% trên Binance, 49,06% so với 50,94% trên OKX, và 47,93% so với 52,07% trên Bybit — độ nghiêng short khiêm tốn ở cả ba sàn. Thêm vào đó, khối lượng hợp đồng mở của hợp đồng tương lai đã thu hẹp gần một phần ba kể từ đỉnh ngày 3 tháng 7 (khoảng 776.000 BTC, khoảng 31,3 tỷ đô la), bài viết này xem xét khoảng cách giữa đà phục hồi của giá và sự thiếu tin tưởng của thị trường phái sinh."
+  "desc_vi": "Bitcoin giao dịch trong khoảng 62.600-62.900 đô la vào tối ngày 14 tháng 7 (giờ Hàn Quốc), sau khi lấy lại phần lớn mức giảm xuống thấp nhất 61.849 đô la do xung đột Iran-Mỹ tái bùng phát trong phiên sáng châu Á. CryptoTimes đưa tin các đợt thanh lý từ đợt giảm này tập trung ở phía long, trong khi thanh lý phía short vẫn ở mức thấp, nhưng tính đến ngày 14 tháng 7, tỷ lệ long/short vẫn ở mức 48,03% so với 51,97% trên Binance, 49,06% so với 50,94% trên OKX, và 47,93% so với 52,07% trên Bybit — độ nghiêng short khiêm tốn ở cả ba sàn. Thêm vào đó, khối lượng hợp đồng mở của hợp đồng tương lai đã thu hẹp gần một phần ba kể từ đỉnh ngày 3 tháng 7 (khoảng 776.000 BTC, khoảng 31,3 tỷ đô la), bài viết này xem xét khoảng cách giữa đà phục hồi của giá và sự thiếu tin tưởng của thị trường phái sinh.",
+  "desc_id": "Bitcoin diperdagangkan di kisaran $62.600-$62.900 pada malam 14 Juli (WSK), setelah memulihkan sebagian besar penurunan hingga serendah $61.849 yang dipicu oleh konflik Iran-AS yang kembali memanas pada sesi pagi Asia. CryptoTimes melaporkan likuidasi akibat penurunan ini terkonsentrasi di sisi long sementara likuidasi short tetap minim, namun per 14 Juli rasio long/short masih berada di 48,03% berbanding 51,97% di Binance, 49,06% berbanding 50,94% di OKX, dan 47,93% berbanding 52,07% di Bybit — kecondongan short tipis di ketiga bursa. Ditambah open interest futures yang menyusut hampir sepertiga dari puncaknya pada 3 Juli (sekitar 776.000 BTC, sekitar $31,3 miliar), tulisan ini mengulas kesenjangan antara pemulihan harga dan kurangnya keyakinan pasar derivatif.",
+  "desc_pl": "Bitcoin był notowany w przedziale 62 600-62 900 USD wieczorem 14 lipca (czasu koreańskiego), po odrobieniu większości spadku do 61 849 USD wywołanego wznowionym konfliktem Iran-USA podczas azjatyckiej sesji porannej. CryptoTimes poinformował, że likwidacje wynikające ze spadku koncentrowały się po stronie długiej, podczas gdy likwidacje krótkie pozostały ograniczone, jednak na 14 lipca wskaźnik long/short nadal wynosił 48,03% wobec 51,97% na Binance, 49,06% wobec 50,94% na OKX i 47,93% wobec 52,07% na Bybit — niewielkie przechylenie w stronę short na wszystkich trzech giełdach. Do tego dochodzi open interest kontraktów futures, który skurczył się o niemal jedną trzecią od szczytu z 3 lipca (około 776 000 BTC, około 31,3 mld USD); ten tekst analizuje rozbieżność między odbiciem ceny a brakiem przekonania na rynku instrumentów pochodnych.",
+  "desc_it": "Il bitcoin è stato scambiato tra 62.600 e 62.900 dollari la sera del 14 luglio (ora coreana), dopo aver recuperato gran parte di un calo fino a 61.849 dollari innescato dalla ripresa del conflitto Iran-USA durante la sessione mattutina asiatica. CryptoTimes ha riferito che le liquidazioni derivanti dal calo si sono concentrate sul lato long, mentre le liquidazioni short sono rimaste contenute, ma al 14 luglio il rapporto long/short si attestava ancora al 48,03% contro il 51,97% su Binance, 49,06% contro 50,94% su OKX e 47,93% contro 52,07% su Bybit — una modesta inclinazione corta su tutti e tre. A ciò si aggiunge l'open interest dei futures, ridottosi di quasi un terzo dal picco del 3 luglio (circa 776.000 BTC, circa 31,3 miliardi di dollari); questo articolo esamina il divario tra il recupero del prezzo e la mancanza di convinzione del mercato dei derivati.",
+  "desc_ru": "Биткоин торговался в диапазоне $62 600-$62 900 вечером 14 июля (по корейскому времени), отыграв большую часть падения до $61 849, вызванного возобновившимся конфликтом Ирана и США во время утренней азиатской сессии. CryptoTimes сообщил, что ликвидации из-за падения были сосредоточены на стороне лонгов, тогда как ликвидации шортов оставались скромными, однако по состоянию на 14 июля соотношение лонг/шорт всё ещё составляло 48,03% против 51,97% на Binance, 49,06% против 50,94% на OKX и 47,93% против 52,07% на Bybit — небольшой перевес в сторону шорта на всех трёх биржах. Добавьте к этому открытый интерес по фьючерсам, сократившийся почти на треть от пика 3 июля (около 776 000 BTC, около $31,3 млрд), и в этом материале рассматривается разрыв между восстановлением цены и отсутствием уверенности на рынке деривативов.",
+  "desc_zh": "比特幣於7月14日(韓國時間)晚間在6萬2,600至6萬2,900美元區間交易,已收復了亞洲早盤時段因伊朗與美國衝突再度升溫觸發的跌勢中大部分跌幅(一度低至6萬1,849美元)。CryptoTimes報導,這波跌勢的清算集中在多頭一側,空頭清算則維持輕微,但截至7月14日,多空比仍為幣安48.03%對51.97%、OKX 49.06%對50.94%、Bybit 47.93%對52.07%——三家交易所皆略微偏向空頭。再加上期貨未平倉合約自7月3日高峰(約77.6萬枚BTC,約313億美元)以來已萎縮近三分之一,本文檢視了價格反彈與衍生性商品市場信心不足之間的落差。"
 }
