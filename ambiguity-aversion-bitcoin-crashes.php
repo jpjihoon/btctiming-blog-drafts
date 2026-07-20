@@ -179,6 +179,69 @@
     </g>
   </svg>
   </div>
+  <div class="id">
+  <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Kecepatan Keruntuhan · Rata-Rata Penurunan Harian</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#d4d4d8" font-size="14">Penghentian Mt. Gox (Feb 2014) — Risiko Ambigu</text>
+      <rect x="20" y="66" width="390" height="30" rx="4" fill="#ef4444"/>
+      <text x="420" y="86" fill="#f87171" font-size="15" font-weight="700">−23%/hari</text>
+
+      <text x="20" y="138" fill="#d4d4d8" font-size="14">Keruntuhan FTX (Nov 2022) — Risiko Ambigu</text>
+      <rect x="20" y="146" width="238" height="30" rx="4" fill="#f97316"/>
+      <text x="268" y="166" fill="#fb923c" font-size="15" font-weight="700">−14%/hari</text>
+
+      <text x="20" y="218" fill="#d4d4d8" font-size="14">Penurunan Pengetatan The Fed (Nov 2021–Jun 2022) — Risiko Diketahui</text>
+      <rect x="20" y="226" width="10" height="30" rx="2" fill="#38bdf8"/>
+      <text x="40" y="246" fill="#7dd3fc" font-size="14" font-weight="700">−0.35%/hari (−74% selama 208 hari)</text>
+
+      <text x="20" y="288" fill="#a1a1aa" font-size="13">Berdasarkan satu hari Mt. Gox (24 Feb 2014), satu hari FTX (9 Nov 2022), dan penurunan pengetatan The Fed</text>
+      <text x="20" y="308" fill="#a1a1aa" font-size="13">dari puncak Nov 2021 ke titik terendah Jun 2022 (~208 hari). Risiko ambigu menghancurkan harga 40–65x lebih cepat per hari.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="pl">
+  <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Szybkość Załamania · Średni Dzienny Spadek</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#d4d4d8" font-size="14">Wstrzymanie Mt. Gox (luty 2014) — Ryzyko Niejednoznaczne</text>
+      <rect x="20" y="66" width="390" height="30" rx="4" fill="#ef4444"/>
+      <text x="420" y="86" fill="#f87171" font-size="15" font-weight="700">−23%/dzień</text>
+
+      <text x="20" y="138" fill="#d4d4d8" font-size="14">Upadek FTX (listopad 2022) — Ryzyko Niejednoznaczne</text>
+      <rect x="20" y="146" width="238" height="30" rx="4" fill="#f97316"/>
+      <text x="268" y="166" fill="#fb923c" font-size="15" font-weight="700">−14%/dzień</text>
+
+      <text x="20" y="218" fill="#d4d4d8" font-size="14">Spadek przy Zacieśnianiu Fedu (lis. 2021–cze. 2022) — Ryzyko Znane</text>
+      <rect x="20" y="226" width="10" height="30" rx="2" fill="#38bdf8"/>
+      <text x="40" y="246" fill="#7dd3fc" font-size="14" font-weight="700">−0,35%/dzień (−74% w ciągu 208 dni)</text>
+
+      <text x="20" y="288" fill="#a1a1aa" font-size="13">Na podstawie jednego dnia Mt. Gox (24 lut 2014), jednego dnia FTX (9 lis 2022) oraz spadku przy zacieśnianiu Fedu</text>
+      <text x="20" y="308" fill="#a1a1aa" font-size="13">od szczytu z listopada 2021 do dołka z czerwca 2022 (~208 dni). Ryzyko niejednoznaczne niszczyło cenę 40–65x szybciej dziennie.</text>
+    </g>
+  </svg>
+  </div>
+  <div class="it">
+  <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Velocità del Crollo · Calo Medio Giornaliero</text>
+    <g font-family="sans-serif">
+      <text x="20" y="58" fill="#d4d4d8" font-size="14">Sospensione Mt. Gox (feb 2014) — Rischio Ambiguo</text>
+      <rect x="20" y="66" width="390" height="30" rx="4" fill="#ef4444"/>
+      <text x="420" y="86" fill="#f87171" font-size="15" font-weight="700">−23%/giorno</text>
+
+      <text x="20" y="138" fill="#d4d4d8" font-size="14">Crollo FTX (nov 2022) — Rischio Ambiguo</text>
+      <rect x="20" y="146" width="238" height="30" rx="4" fill="#f97316"/>
+      <text x="268" y="166" fill="#fb923c" font-size="15" font-weight="700">−14%/giorno</text>
+
+      <text x="20" y="218" fill="#d4d4d8" font-size="14">Calo per la Stretta della Fed (nov 2021–giu 2022) — Rischio Noto</text>
+      <rect x="20" y="226" width="10" height="30" rx="2" fill="#38bdf8"/>
+      <text x="40" y="246" fill="#7dd3fc" font-size="14" font-weight="700">−0,35%/giorno (−74% in 208 giorni)</text>
+
+      <text x="20" y="288" fill="#a1a1aa" font-size="13">Basato sul singolo giorno di Mt. Gox (24 feb 2014), il singolo giorno di FTX (9 nov 2022) e il calo per la stretta della Fed</text>
+      <text x="20" y="308" fill="#a1a1aa" font-size="13">dal picco di nov 2021 al minimo di giu 2022 (~208 giorni). Il rischio ambiguo ha distrutto il prezzo 40–65 volte più velocemente al giorno.</text>
+    </g>
+  </svg>
+  </div>
   <div class="ru">
   <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Скорость обвала · Среднее дневное падение</text>
