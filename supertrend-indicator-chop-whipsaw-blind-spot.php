@@ -479,6 +479,181 @@
   </svg>
   </div>
 
+  <div class="id">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Perbandingan Jumlah Sinyal Selama Periode Chop</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Berdasarkan chop pasar bearish 2 bulan, Juli-Agustus 2022 · ilustrasi konseptual</text>
+    <line x1="250" y1="80" x2="250" y2="310" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="326" y1="80" x2="326" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="402" y1="80" x2="402" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="478" y1="80" x2="478" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="554" y1="80" x2="554" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="630" y1="80" x2="630" y2="310" stroke="#27272a" stroke-width="1"/>
+    <text x="240" y="108" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Pasar tren</text>
+    <text x="240" y="124" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(pemulihan 2023)</text>
+    <rect x="250" y="90" width="30" height="40" fill="#4ade80" rx="3"/>
+    <text x="290" y="115" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">2 sinyal</text>
+    <text x="240" y="188" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Chop · Klasik</text>
+    <text x="240" y="204" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(pengali 3,0)</text>
+    <rect x="250" y="170" width="350" height="40" fill="#f87171" rx="3"/>
+    <text x="610" y="195" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">23 sinyal</text>
+    <text x="240" y="268" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Chop · Adaptif</text>
+    <text x="240" y="284" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(band lebih lebar)</text>
+    <rect x="250" y="250" width="137" height="40" fill="#38bdf8" rx="3"/>
+    <text x="397" y="275" fill="#38bdf8" font-size="14" font-weight="700" font-family="sans-serif">9 sinyal (-60%)</text>
+    <line x1="250" y1="310" x2="630" y2="310" stroke="#52525b" stroke-width="1"/>
+    <text x="250" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">0</text>
+    <text x="326" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">5</text>
+    <text x="402" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">10</text>
+    <text x="478" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">15</text>
+    <text x="554" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">20</text>
+    <text x="630" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">25</text>
+    <text x="440" y="346" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Jumlah sinyal (selama 2 bulan)</text>
+    <text x="20" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif">Masalah yang tidak pernah hilang meski pengali disetel —</text>
+    <text x="20" y="390" fill="#d4d4d8" font-size="13" font-family="sans-serif">Supertrend tidak memiliki sumbu kedua untuk membedakan chop dari tren</text>
+  </svg>
+  </div>
+
+  <div class="pl">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Porównanie Liczby Sygnałów w Okresie Chop</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Na podstawie 2-miesięcznego chopu rynku niedźwiedzia, lipiec-sierpień 2022 · ilustracja koncepcyjna</text>
+    <line x1="250" y1="80" x2="250" y2="310" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="326" y1="80" x2="326" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="402" y1="80" x2="402" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="478" y1="80" x2="478" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="554" y1="80" x2="554" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="630" y1="80" x2="630" y2="310" stroke="#27272a" stroke-width="1"/>
+    <text x="240" y="108" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Rynek trendowy</text>
+    <text x="240" y="124" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(odbicie 2023)</text>
+    <rect x="250" y="90" width="30" height="40" fill="#4ade80" rx="3"/>
+    <text x="290" y="115" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">2 sygnały</text>
+    <text x="240" y="188" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Chop · Klasyczny</text>
+    <text x="240" y="204" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(mnożnik 3,0)</text>
+    <rect x="250" y="170" width="350" height="40" fill="#f87171" rx="3"/>
+    <text x="610" y="195" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">23 sygnały</text>
+    <text x="240" y="268" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Chop · Adaptacyjny</text>
+    <text x="240" y="284" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(szersze pasma)</text>
+    <rect x="250" y="250" width="137" height="40" fill="#38bdf8" rx="3"/>
+    <text x="397" y="275" fill="#38bdf8" font-size="14" font-weight="700" font-family="sans-serif">9 sygnałów (-60%)</text>
+    <line x1="250" y1="310" x2="630" y2="310" stroke="#52525b" stroke-width="1"/>
+    <text x="250" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">0</text>
+    <text x="326" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">5</text>
+    <text x="402" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">10</text>
+    <text x="478" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">15</text>
+    <text x="554" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">20</text>
+    <text x="630" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">25</text>
+    <text x="440" y="346" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Liczba sygnałów (w ciągu 2 miesięcy)</text>
+    <text x="20" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif">Problem, którego regulacja mnożnika nigdy nie usuwa —</text>
+    <text x="20" y="390" fill="#d4d4d8" font-size="13" font-family="sans-serif">Supertrend nie ma drugiej osi, by odróżnić chop od trendu</text>
+  </svg>
+  </div>
+
+  <div class="it">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Confronto del Numero di Segnali Durante un Periodo di Chop</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">Basato su 2 mesi di chop di mercato ribassista, luglio-agosto 2022 · illustrazione concettuale</text>
+    <line x1="250" y1="80" x2="250" y2="310" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="326" y1="80" x2="326" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="402" y1="80" x2="402" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="478" y1="80" x2="478" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="554" y1="80" x2="554" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="630" y1="80" x2="630" y2="310" stroke="#27272a" stroke-width="1"/>
+    <text x="240" y="108" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Mercato in trend</text>
+    <text x="240" y="124" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(ripresa 2023)</text>
+    <rect x="250" y="90" width="30" height="40" fill="#4ade80" rx="3"/>
+    <text x="290" y="115" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">2 segnali</text>
+    <text x="240" y="188" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Chop · Classico</text>
+    <text x="240" y="204" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(moltiplicatore 3,0)</text>
+    <rect x="250" y="170" width="350" height="40" fill="#f87171" rx="3"/>
+    <text x="610" y="195" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">23 segnali</text>
+    <text x="240" y="268" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Chop · Adattivo</text>
+    <text x="240" y="284" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(bande più larghe)</text>
+    <rect x="250" y="250" width="137" height="40" fill="#38bdf8" rx="3"/>
+    <text x="397" y="275" fill="#38bdf8" font-size="14" font-weight="700" font-family="sans-serif">9 segnali (-60%)</text>
+    <line x1="250" y1="310" x2="630" y2="310" stroke="#52525b" stroke-width="1"/>
+    <text x="250" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">0</text>
+    <text x="326" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">5</text>
+    <text x="402" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">10</text>
+    <text x="478" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">15</text>
+    <text x="554" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">20</text>
+    <text x="630" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">25</text>
+    <text x="440" y="346" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Numero di segnali (in 2 mesi)</text>
+    <text x="20" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif">Un problema che regolare il moltiplicatore non elimina mai —</text>
+    <text x="20" y="390" fill="#d4d4d8" font-size="13" font-family="sans-serif">Supertrend non ha un secondo asse per distinguere il chop dal trend</text>
+  </svg>
+  </div>
+
+  <div class="ru">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Сравнение Числа Сигналов в Период Чопа</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">На основе 2-месячного чопа медвежьего рынка, июль-август 2022 года · концептуальная иллюстрация</text>
+    <line x1="250" y1="80" x2="250" y2="310" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="326" y1="80" x2="326" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="402" y1="80" x2="402" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="478" y1="80" x2="478" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="554" y1="80" x2="554" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="630" y1="80" x2="630" y2="310" stroke="#27272a" stroke-width="1"/>
+    <text x="240" y="108" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Трендовый рынок</text>
+    <text x="240" y="124" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(восстановление 2023)</text>
+    <rect x="250" y="90" width="30" height="40" fill="#4ade80" rx="3"/>
+    <text x="290" y="115" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">2 сигнала</text>
+    <text x="240" y="188" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Чоп · Классика</text>
+    <text x="240" y="204" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(множитель 3,0)</text>
+    <rect x="250" y="170" width="350" height="40" fill="#f87171" rx="3"/>
+    <text x="610" y="195" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">23 сигнала</text>
+    <text x="240" y="268" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">Чоп · Адаптивный</text>
+    <text x="240" y="284" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(более широкие полосы)</text>
+    <rect x="250" y="250" width="137" height="40" fill="#38bdf8" rx="3"/>
+    <text x="397" y="275" fill="#38bdf8" font-size="14" font-weight="700" font-family="sans-serif">9 сигналов (-60%)</text>
+    <line x1="250" y1="310" x2="630" y2="310" stroke="#52525b" stroke-width="1"/>
+    <text x="250" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">0</text>
+    <text x="326" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">5</text>
+    <text x="402" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">10</text>
+    <text x="478" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">15</text>
+    <text x="554" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">20</text>
+    <text x="630" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">25</text>
+    <text x="440" y="346" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">Число сигналов (за 2 месяца)</text>
+    <text x="20" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif">Проблема, которую настройка множителя никогда не устраняет —</text>
+    <text x="20" y="390" fill="#d4d4d8" font-size="13" font-family="sans-serif">У Supertrend нет второй оси, чтобы отличить чоп от тренда</text>
+  </svg>
+  </div>
+
+  <div class="zh">
+  <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+    <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">盤整期間訊號次數比較</text>
+    <text x="20" y="50" fill="#a1a1aa" font-size="13" font-family="sans-serif">以2022年7-8月熊市盤整2個月為基準·概念示意圖</text>
+    <line x1="250" y1="80" x2="250" y2="310" stroke="#3f3f46" stroke-width="1"/>
+    <line x1="326" y1="80" x2="326" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="402" y1="80" x2="402" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="478" y1="80" x2="478" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="554" y1="80" x2="554" y2="310" stroke="#27272a" stroke-width="1"/>
+    <line x1="630" y1="80" x2="630" y2="310" stroke="#27272a" stroke-width="1"/>
+    <text x="240" y="108" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">趨勢市場</text>
+    <text x="240" y="124" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(2023年回升)</text>
+    <rect x="250" y="90" width="30" height="40" fill="#4ade80" rx="3"/>
+    <text x="290" y="115" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">2次</text>
+    <text x="240" y="188" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">盤整·經典設定</text>
+    <text x="240" y="204" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(倍數3.0)</text>
+    <rect x="250" y="170" width="350" height="40" fill="#f87171" rx="3"/>
+    <text x="610" y="195" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">23次</text>
+    <text x="240" y="268" fill="#d4d4d8" font-size="13" font-family="sans-serif" text-anchor="end">盤整·自適應</text>
+    <text x="240" y="284" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="end">(更寬軌道)</text>
+    <rect x="250" y="250" width="137" height="40" fill="#38bdf8" rx="3"/>
+    <text x="397" y="275" fill="#38bdf8" font-size="14" font-weight="700" font-family="sans-serif">9次(-60%)</text>
+    <line x1="250" y1="310" x2="630" y2="310" stroke="#52525b" stroke-width="1"/>
+    <text x="250" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">0</text>
+    <text x="326" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">5</text>
+    <text x="402" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">10</text>
+    <text x="478" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">15</text>
+    <text x="554" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">20</text>
+    <text x="630" y="328" fill="#71717a" font-size="12" font-family="sans-serif" text-anchor="middle">25</text>
+    <text x="440" y="346" fill="#a1a1aa" font-size="13" font-family="sans-serif" text-anchor="middle">訊號次數(以2個月為準)</text>
+    <text x="20" y="372" fill="#d4d4d8" font-size="13" font-family="sans-serif">調整倍數也無法消除的問題——</text>
+    <text x="20" y="390" fill="#d4d4d8" font-size="13" font-family="sans-serif">超級趨勢沒有第二個軸來分辨盤整與趨勢</text>
+  </svg>
+  </div>
+
   <h2 class="ko">구조적 한계 — 왜 배수를 조정해도 고쳐지지 않는가</h2>
   <h2 class="en">The Structural Limit: Why Tuning the Multiplier Never Fixes It</h2>
   <h2 class="ja">構造的な限界 — なぜ倍率を調整しても直らないのか</h2>
@@ -488,6 +663,11 @@
   <h2 class="pt">O Limite Estrutural: Por que Ajustar o Multiplicador Nunca Resolve</h2>
   <h2 class="tr">Yapısal Sınır: Çarpanı Ayarlamak Neden Asla Düzeltmiyor</h2>
   <h2 class="vi">Giới Hạn Cấu Trúc: Tại Sao Điều Chỉnh Hệ Số Nhân Không Bao Giờ Khắc Phục Được</h2>
+  <h2 class="id">Batas Struktural: Mengapa Menyetel Pengali Tidak Pernah Memperbaikinya</h2>
+  <h2 class="pl">Ograniczenie Strukturalne: Dlaczego Regulacja Mnożnika Nigdy Tego Nie Naprawia</h2>
+  <h2 class="it">Il Limite Strutturale: Perché Regolare il Moltiplicatore Non lo Risolve Mai</h2>
+  <h2 class="ru">Структурный Предел: Почему Настройка Множителя Никогда Это Не Исправляет</h2>
+  <h2 class="zh">結構性限制——為何調整倍數永遠無法修正</h2>
 
   <p class="ko">슈퍼트렌드의 입력값은 ATR 기간과 배수, 이 둘뿐이다. 이 두 숫자로 할 수 있는 일은 밴드를 더 좁히거나(더 빠른 반응, 더 많은 휩쏘) 더 넓히는(더 느린 반응, 덜한 휩쏘) 것뿐이다. 즉 슈퍼트렌드가 가진 유일한 손잡이는 '민감도'라는 하나의 축이고, 이 축을 아무리 조정해도 '이 변동이 추세인지 챕피인지'를 구분하는 두 번째 축은 새로 생기지 않는다. 배수를 3에서 5로 올리면 2022년형 챕피에서는 휩쏘가 줄지만, 그 넓어진 밴드는 2023년형 추세 전환기에 진입 신호를 너무 늦게 내놓아 초반 상승분을 고스란히 놓치게 만든다.</p>
   <p class="en">Supertrend has exactly two inputs: the ATR period and the multiplier. All these two numbers can do is tighten the bands (faster reaction, more whipsaws) or widen them (slower reaction, fewer whipsaws). In other words, the only lever Supertrend has is a single axis called sensitivity, and no amount of tuning that one axis creates a second axis that can tell "is this move a trend or a chop." Push the multiplier from 3 to 5 and whipsaws in a 2022-style chop shrink, sure — but those wider bands then fire entry signals too late in a 2023-style trend reversal, handing back the early gains entirely.</p>
@@ -498,6 +678,11 @@
   <p class="pt">O Supertrend tem exatamente duas entradas: o período do ATR e o multiplicador. Tudo o que esses dois números podem fazer é estreitar as bandas (reação mais rápida, mais whipsaws) ou alargá-las (reação mais lenta, menos whipsaws). Em outras palavras, a única alavanca que o Supertrend possui é um único eixo chamado sensibilidade, e por mais que se ajuste esse eixo, não surge um segundo eixo capaz de distinguir se este movimento é uma tendência ou um chop. Suba o multiplicador de 3 para 5 e os whipsaws num chop estilo 2022 diminuem, sim — mas essas bandas mais largas disparam sinais de entrada tarde demais numa reversão de tendência estilo 2023, devolvendo por completo os ganhos iniciais.</p>
   <p class="tr">Supertrend'in tam olarak iki girdisi vardır: ATR periyodu ve çarpan. Bu iki sayının yapabileceği tek şey, bantları daraltmak (daha hızlı tepki, daha fazla whipsaw) ya da genişletmek (daha yavaş tepki, daha az whipsaw). Başka bir deyişle, Supertrend'in sahip olduğu tek kaldıraç hassasiyet adlı tek bir eksendir ve bu ekseni ne kadar ayarlarsanız ayarlayın, "bu hareket bir trend mi yoksa çöp mü" ayrımını yapabilecek ikinci bir eksen ortaya çıkmaz. Çarpanı 3'ten 5'e çıkarırsanız 2022 tarzı bir çöpte whipsaw'lar azalır, elbette — ama o genişleyen bantlar 2023 tarzı bir trend dönüşünde giriş sinyallerini çok geç verir ve erken kazançları tamamen geri iade eder.</p>
   <p class="vi">Supertrend chỉ có đúng hai đầu vào: chu kỳ ATR và hệ số nhân. Tất cả những gì hai con số này có thể làm là thu hẹp các dải (phản ứng nhanh hơn, nhiều whipsaw hơn) hoặc mở rộng chúng (phản ứng chậm hơn, ít whipsaw hơn). Nói cách khác, đòn bẩy duy nhất mà Supertrend có là một trục duy nhất gọi là độ nhạy, và dù điều chỉnh trục đó bao nhiêu đi nữa cũng không tạo ra được trục thứ hai có khả năng phân biệt "chuyển động này là xu hướng hay là chop". Tăng hệ số nhân từ 3 lên 5, whipsaw trong một đợt chop kiểu 2022 sẽ giảm, đúng vậy — nhưng các dải rộng hơn đó lại phát tín hiệu vào lệnh quá muộn trong một đợt đảo chiều xu hướng kiểu 2023, trả lại toàn bộ khoản lợi nhuận ban đầu.</p>
+  <p class="id">Supertrend memiliki tepat dua input: periode ATR dan pengali. Yang bisa dilakukan kedua angka ini hanyalah merapatkan band (reaksi lebih cepat, whipsaw lebih banyak) atau melebarkannya (reaksi lebih lambat, whipsaw lebih sedikit). Dengan kata lain, satu-satunya tuas yang dimiliki Supertrend adalah satu sumbu tunggal bernama sensitivitas, dan seberapa pun tuas itu disetel, tidak pernah tercipta sumbu kedua yang bisa membedakan "apakah pergerakan ini tren atau chop". Naikkan pengali dari 3 ke 5 dan whipsaw dalam chop bergaya 2022 memang mengecil — tetapi band yang lebih lebar itu kemudian memicu sinyal masuk terlalu terlambat dalam pembalikan tren bergaya 2023, mengembalikan sepenuhnya keuntungan awal.</p>
+  <p class="pl">Supertrend ma dokładnie dwa parametry wejściowe: okres ATR i mnożnik. Wszystko, co te dwie liczby mogą zrobić, to zwęzić pasma (szybsza reakcja, więcej whipsawów) albo je poszerzyć (wolniejsza reakcja, mniej whipsawów). Innymi słowy, jedyną dźwignią, jaką dysponuje Supertrend, jest pojedyncza oś zwana czułością, a jakkolwiek by tej osi nie regulować, nie powstaje druga oś, która mogłaby powiedzieć, „czy ten ruch to trend, czy chop”. Podnieś mnożnik z 3 do 5, a whipsawy w chopie w stylu 2022 roku rzeczywiście się skurczą — ale te szersze pasma odpalają wtedy sygnały wejścia zbyt późno przy odwróceniu trendu w stylu 2023 roku, oddając w całości wcześniejsze zyski.</p>
+  <p class="it">Supertrend ha esattamente due input: il periodo dell'ATR e il moltiplicatore. Tutto ciò che questi due numeri possono fare è stringere le bande (reazione più rapida, più whipsaw) o allargarle (reazione più lenta, meno whipsaw). In altre parole, l'unica leva di cui dispone Supertrend è un unico asse chiamato sensibilità, e per quanto lo si regoli, non si crea mai un secondo asse capace di dire "se questo movimento è un trend o un chop". Porta il moltiplicatore da 3 a 5 e i whipsaw in un chop stile 2022 si riducono, certo — ma quelle bande più larghe fanno poi scattare i segnali di ingresso troppo tardi in un'inversione di trend stile 2023, restituendo per intero i guadagni iniziali.</p>
+  <p class="ru">У Supertrend ровно два входных параметра: период ATR и множитель. Всё, что могут сделать эти два числа, — это сузить полосы (более быстрая реакция, больше whipsaw) или расширить их (более медленная реакция, меньше whipsaw). Другими словами, единственный рычаг у Supertrend — это одна-единственная ось под названием чувствительность, и сколько бы её ни настраивали, вторая ось, способная определить, «тренд это движение или чоп», не появляется. Подними множитель с 3 до 5 — и whipsaw в чопе образца 2022 года действительно сократятся, — но эти расширенные полосы затем подают сигналы входа слишком поздно при развороте тренда образца 2023 года, полностью отдавая назад ранние прибыли.</p>
+  <p class="zh">超級趨勢的輸入值恰好只有兩個:ATR週期與倍數。這兩個數字所能做的,無非是收窄軌道(反應更快、假突破更多)或放寬軌道(反應更慢、假突破更少)。換句話說,超級趨勢唯一能操控的槓桿,就是名為『敏感度』的單一軸,而無論怎麼調整這個軸,都不會憑空生出能判斷『這波動是趨勢還是盤整』的第二個軸。把倍數從3拉高到5,2022年型態的盤整中假突破確實會減少——但那些變寬的軌道接著會在2023年型態的趨勢反轉中,發出過遲的進場訊號,把早期漲幅全數吐回去。</p>
 
   <p class="ko">이 사이트가 앞서 다룬 <a href="/blog/aroon-indicator-sideways-whipsaw-blind-spot">아룬 지표의 횡보 맹점</a>과 <a href="/blog/choppiness-index-regime-filter">촙피니스 지수</a>가 정확히 이 빈틈을 메우기 위해 존재한다. 촙피니스 지수는 가격이 실제로 한 방향으로 순이동했는지, 아니면 오르내림을 반복하며 제자리걸음만 했는지를 직접 측정하도록 설계됐다 — 슈퍼트렌드에 빠진 바로 그 두 번째 축이다. <a href="/blog/atr-lagging-indicator-trap">ATR 자체의 한계</a>를 다룬 글에서 짚었듯, ATR은 '크기'를 재는 계기판이지 '방향의 지속성'을 재는 나침반이 아니며, 그 계기판 위에 밴드를 얹은 슈퍼트렌드도 같은 유전자를 그대로 물려받는다.</p>
   <p class="en">This is precisely the gap that <a href="/en/blog/aroon-indicator-sideways-whipsaw-blind-spot">the Aroon indicator's sideways blind spot</a> and the <a href="/en/blog/choppiness-index-regime-filter">Choppiness Index</a>, both covered earlier on this site, exist to close. The Choppiness Index is built to directly measure whether price actually made net progress in one direction or just marked time bouncing back and forth — exactly the second axis Supertrend is missing. As covered in the piece on <a href="/en/blog/atr-lagging-indicator-trap">ATR's own limitations</a>, ATR is a gauge that measures magnitude, not a compass that measures directional persistence, and Supertrend, which builds its bands directly on top of that gauge, inherits the exact same gene.</p>
@@ -508,6 +693,11 @@
   <p class="pt">É exatamente esse vazio que <a href="/pt/blog/aroon-indicator-sideways-whipsaw-blind-spot">o ponto cego lateral do indicador Aroon</a> e o <a href="/pt/blog/choppiness-index-regime-filter">Índice de Choppiness</a>, ambos já abordados neste site, existem para preencher. O Índice de Choppiness foi projetado para medir diretamente se o preço realmente avançou de forma líquida numa direção ou apenas marcou passo, ricocheteando de um lado para o outro — exatamente o segundo eixo que falta ao Supertrend. Como apontado no texto sobre <a href="/pt/blog/atr-lagging-indicator-trap">as próprias limitações do ATR</a>, o ATR é um medidor que mede magnitude, não uma bússola que mede persistência direcional, e o Supertrend, que constrói suas bandas diretamente sobre esse medidor, herda exatamente o mesmo gene.</p>
   <p class="tr">Bu tam olarak <a href="/tr/blog/aroon-indicator-sideways-whipsaw-blind-spot">Aroon göstergesinin yatay kör noktasının</a> ve bu sitede daha önce ele alınan <a href="/tr/blog/choppiness-index-regime-filter">Choppiness Endeksi'nin</a> kapatmak için var olduğu boşluktur. Choppiness Endeksi, fiyatın gerçekten tek bir yönde net ilerleme mi kaydettiğini yoksa sadece ileri geri sekerek yerinde mi saydığını doğrudan ölçmek üzere tasarlanmıştır — Supertrend'de eksik olan tam da o ikinci eksen. <a href="/tr/blog/atr-lagging-indicator-trap">ATR'nin kendi sınırlamalarını</a> ele alan yazıda belirtildiği gibi, ATR yönü değil büyüklüğü ölçen bir göstergedir, yön kalıcılığını ölçen bir pusula değildir, ve bantlarını doğrudan bu gösterge üzerine kuran Supertrend de tıpatıp aynı geni devralır.</p>
   <p class="vi">Đây chính xác là khoảng trống mà <a href="/vi/blog/aroon-indicator-sideways-whipsaw-blind-spot">điểm mù đi ngang của chỉ báo Aroon</a> và <a href="/vi/blog/choppiness-index-regime-filter">Chỉ Số Choppiness</a>, cả hai đã được trang này đề cập trước đây, tồn tại để lấp đầy. Chỉ Số Choppiness được thiết kế để đo trực tiếp xem giá có thực sự di chuyển ròng theo một hướng hay chỉ giẫm chân tại chỗ khi bật qua bật lại — chính xác là trục thứ hai mà Supertrend đang thiếu. Như đã chỉ ra trong bài viết về <a href="/vi/blog/atr-lagging-indicator-trap">giới hạn của chính ATR</a>, ATR là một thước đo độ lớn, không phải la bàn đo tính bền bỉ của hướng đi, và Supertrend, vốn xây dựng các dải của nó trực tiếp trên thước đo đó, thừa hưởng chính xác cùng một gen đó.</p>
+  <p class="id">Inilah persisnya celah yang coba ditutup oleh <a href="/id/blog/aroon-indicator-sideways-whipsaw-blind-spot">titik buta sideways indikator Aroon</a> dan <a href="/id/blog/choppiness-index-regime-filter">Choppiness Index</a>, yang keduanya sudah pernah dibahas di situs ini. Choppiness Index dirancang untuk mengukur secara langsung apakah harga benar-benar mencatat kemajuan bersih ke satu arah atau hanya berjalan di tempat memantul bolak-balik — persis sumbu kedua yang tidak dimiliki Supertrend. Seperti dibahas dalam tulisan tentang <a href="/id/blog/atr-lagging-indicator-trap">keterbatasan ATR itu sendiri</a>, ATR adalah alat ukur yang mengukur besaran, bukan kompas yang mengukur persistensi arah, dan Supertrend, yang membangun band-nya langsung di atas alat ukur tersebut, mewarisi gen yang persis sama.</p>
+  <p class="pl">To dokładnie tę lukę mają wypełnić <a href="/pl/blog/aroon-indicator-sideways-whipsaw-blind-spot">boczny martwy punkt wskaźnika Aroon</a> oraz <a href="/pl/blog/choppiness-index-regime-filter">Choppiness Index</a>, oba omówione wcześniej na tej stronie. Choppiness Index został zbudowany, by bezpośrednio mierzyć, czy cena faktycznie zanotowała netto postęp w jednym kierunku, czy tylko tkwiła w miejscu, odbijając się tam i z powrotem — dokładnie ta druga oś, której brakuje Supertrendowi. Jak omówiono w tekście o <a href="/pl/blog/atr-lagging-indicator-trap">własnych ograniczeniach ATR</a>, ATR jest miernikiem mierzącym wielkość, a nie kompasem mierzącym trwałość kierunkową, a Supertrend, który buduje swoje pasma bezpośrednio na tym mierniku, dziedziczy dokładnie ten sam gen.</p>
+  <p class="it">Questo è esattamente il vuoto che <a href="/it/blog/aroon-indicator-sideways-whipsaw-blind-spot">il punto cieco laterale dell'indicatore Aroon</a> e il <a href="/it/blog/choppiness-index-regime-filter">Choppiness Index</a>, entrambi trattati in precedenza su questo sito, esistono per colmare. Il Choppiness Index è costruito per misurare direttamente se il prezzo abbia effettivamente compiuto un progresso netto in una direzione o si sia solo mosso avanti e indietro senza avanzare — esattamente il secondo asse che manca a Supertrend. Come trattato nell'articolo sui <a href="/it/blog/atr-lagging-indicator-trap">limiti dell'ATR stesso</a>, l'ATR è uno strumento che misura l'entità, non una bussola che misura la persistenza direzionale, e Supertrend, che costruisce le proprie bande direttamente sopra quello strumento, eredita esattamente lo stesso gene.</p>
+  <p class="ru">Именно этот пробел призваны закрыть <a href="/ru/blog/aroon-indicator-sideways-whipsaw-blind-spot">боковая слепая зона индикатора Aroon</a> и <a href="/ru/blog/choppiness-index-regime-filter">индекс Choppiness</a>, оба уже рассмотренные ранее на этом сайте. Индекс Choppiness построен так, чтобы напрямую измерять, действительно ли цена совершила чистое продвижение в одном направлении или просто топталась на месте, отскакивая туда-сюда, — именно ту вторую ось, которой не хватает Supertrend. Как отмечалось в материале о <a href="/ru/blog/atr-lagging-indicator-trap">собственных ограничениях ATR</a>, ATR — это прибор, измеряющий величину, а не компас, измеряющий направленную устойчивость, и Supertrend, строящий свои полосы прямо поверх этого прибора, наследует точно такой же ген.</p>
+  <p class="zh">這正是<a href="/zh/blog/aroon-indicator-sideways-whipsaw-blind-spot">阿隆指標的橫盤盲點</a>與<a href="/zh/blog/choppiness-index-regime-filter">Choppiness Index(盤整指數)</a>——本站先前都曾探討過——所要填補的空缺。Choppiness Index的設計目的,就是直接衡量價格究竟是否真的朝單一方向取得淨進展,還是只是來回彈跳、原地踏步——這正是超級趨勢所欠缺的那第二個軸。正如探討<a href="/zh/blog/atr-lagging-indicator-trap">ATR本身局限性</a>的文章所指出的,ATR是一個衡量『幅度』的儀表,而不是衡量『方向持續性』的羅盤,而把軌道直接建立在這個儀表之上的超級趨勢,也原封不動地繼承了同樣的基因。</p>
 
   <h2 class="ko">행동경제학적 함정 — 손실 뒤에 배수를 만지고 싶은 충동</h2>
   <h2 class="en">The Behavioral Trap: The Urge to Retune the Multiplier After a Losing Streak</h2>
@@ -518,6 +708,11 @@
   <h2 class="pt">A Armadilha Comportamental: o Impulso de Reajustar o Multiplicador Após uma Sequência de Perdas</h2>
   <h2 class="tr">Davranışsal Tuzak: Bir Kayıp Serisinin Ardından Çarpanı Yeniden Ayarlama Dürtüsü</h2>
   <h2 class="vi">Cái Bẫy Hành Vi: Sự Thôi Thúc Điều Chỉnh Lại Hệ Số Nhân Sau Một Chuỗi Thua Lỗ</h2>
+  <h2 class="id">Jebakan Perilaku: Dorongan untuk Menyetel Ulang Pengali Setelah Beruntun Kalah</h2>
+  <h2 class="pl">Pułapka Behawioralna: Chęć Ponownej Regulacji Mnożnika Po Serii Strat</h2>
+  <h2 class="it">La Trappola Comportamentale: L'Impulso a Ritarare il Moltiplicatore Dopo una Serie di Perdite</h2>
+  <h2 class="ru">Поведенческая Ловушка: Соблазн Перенастроить Множитель После Серии Убытков</h2>
+  <h2 class="zh">行為經濟學陷阱——連續虧損後想調整倍數的衝動</h2>
 
   <p class="ko">23번 연속 손실을 겪은 트레이더가 가장 먼저 하는 일은 대개 배수를 3에서 4, 5로 올리는 것이다. 최근 손실 구간에 백테스트를 돌려 보면 실제로 더 나은 숫자가 나온다 — 당연하다, 그 숫자는 바로 그 챕피 구간에 맞춰 고른 것이기 때문이다. 이 사이트가 <a href="/blog/backtest-overfitting-trap">백테스트 과최적화의 함정</a>에서 짚은 문제가 정확히 여기서 재현된다. 손실 이후 파라미터를 손보는 행위는 규율처럼 보이지만, 실제로는 지나간 챕피 구간 하나에 지표를 맞추는 사후적 커브피팅이고, 다음 국면이 추세로 바뀌는 순간 그 넓어진 배수는 또 다른 방식으로 발목을 잡는다.</p>
   <p class="en">The first thing a trader who's just eaten 23 consecutive losses usually does is push the multiplier from 3 up to 4, or 5. Run a backtest over that recent losing stretch, and sure enough, a better number turns up — of course it does, because that number was chosen specifically to fit that exact chop. This is exactly the trap this site examined in <a href="/en/blog/backtest-overfitting-trap">the backtest-overfitting trap</a>, reproducing itself here. Adjusting a parameter right after a loss looks like discipline, but it's actually after-the-fact curve-fitting to a single chop episode that's already passed — and the moment the next regime turns into a trend, that widened multiplier trips you up in a different way.</p>
@@ -528,6 +723,11 @@
   <p class="pt">A primeira coisa que um trader que acabou de sofrer 23 perdas seguidas geralmente faz é subir o multiplicador de 3 para 4, ou 5. Rode um backtest sobre esse trecho recente de perdas e, de fato, surge um número melhor — claro que surge, porque esse número foi escolhido especificamente para se ajustar àquele chop exato. Essa é exatamente a armadilha que este site examinou em <a href="/pt/blog/backtest-overfitting-trap">a armadilha do overfitting de backtest</a>, se reproduzindo aqui. Ajustar um parâmetro logo depois de uma perda parece disciplina, mas na verdade é curve-fitting posterior a um único episódio de chop que já passou — e no momento em que o próximo regime vira uma tendência, esse multiplicador alargado te derruba de outra maneira.</p>
   <p class="tr">Art arda 23 kayıp yaşayan bir trader'ın genellikle ilk yaptığı şey, çarpanı 3'ten 4'e, hatta 5'e çıkarmaktır. Bu yakın zamandaki kayıp dönemi üzerinde bir geriye dönük test çalıştırırsanız, gerçekten de daha iyi bir sayı ortaya çıkar — elbette çıkar, çünkü o sayı özellikle o çöp dönemine uyacak şekilde seçilmiştir. Bu, sitenin <a href="/tr/blog/backtest-overfitting-trap">geriye dönük test aşırı uyum tuzağında</a> ele aldığı sorunun tam olarak burada tekrarlanmasıdır. Bir kayıptan hemen sonra parametre ayarlamak disiplin gibi görünür, ama gerçekte çoktan geçmiş tek bir çöp bölümüne göstergeyi sonradan uydurmaktır — ve bir sonraki rejim bir trende döndüğü anda, o genişletilmiş çarpan sizi başka bir şekilde tökezletir.</p>
   <p class="vi">Điều đầu tiên mà một trader vừa hứng chịu 23 lần thua liên tiếp thường làm là tăng hệ số nhân từ 3 lên 4, hoặc 5. Chạy một bài kiểm tra lùi trên giai đoạn thua lỗ gần đây đó, và quả nhiên, một con số tốt hơn xuất hiện — dĩ nhiên là vậy, vì con số đó được chọn riêng để khớp với chính đợt chop đó. Đây chính xác là cái bẫy mà trang này đã xem xét trong <a href="/vi/blog/backtest-overfitting-trap">cái bẫy overfitting của kiểm tra lùi</a>, đang tái diễn ở đây. Điều chỉnh một tham số ngay sau khi thua lỗ trông giống như kỷ luật, nhưng thực chất đó là việc uốn nắn số liệu sau sự việc để khớp với một đợt chop đơn lẻ đã qua — và ngay khi chế độ tiếp theo chuyển sang xu hướng, hệ số nhân đã mở rộng đó lại khiến bạn vấp ngã theo một cách khác.</p>
+  <p class="id">Hal pertama yang biasanya dilakukan trader yang baru saja mengalami 23 kekalahan berturut-turut adalah menaikkan pengali dari 3 ke 4, atau 5. Jalankan backtest pada periode kekalahan baru-baru ini itu, dan benar saja, muncul angka yang lebih baik — tentu saja begitu, karena angka itu dipilih khusus agar cocok dengan chop yang persis itu. Ini persis jebakan yang pernah dibahas situs ini dalam <a href="/id/blog/backtest-overfitting-trap">jebakan overfitting backtest</a>, yang terulang kembali di sini. Menyesuaikan parameter tepat setelah kekalahan terlihat seperti disiplin, tetapi sebenarnya itu adalah curve-fitting setelah kejadian pada satu episode chop yang sudah berlalu — dan begitu rezim berikutnya berubah menjadi tren, pengali yang dilebarkan itu justru menjegal Anda dengan cara yang berbeda.</p>
+  <p class="pl">Pierwszą rzeczą, jaką zwykle robi trader, który właśnie poniósł 23 kolejne straty z rzędu, jest podniesienie mnożnika z 3 do 4 lub 5. Uruchom backtest na tym niedawnym odcinku strat, a rzeczywiście pojawi się lepsza liczba — oczywiście, że się pojawi, bo ta liczba została dobrana specjalnie tak, by pasować do dokładnie tego chopu. To dokładnie ta pułapka, którą ta strona omówiła w tekście o <a href="/pl/blog/backtest-overfitting-trap">pułapce nadmiernego dopasowania backtestu</a>, powtarzająca się tutaj. Korygowanie parametru zaraz po stracie wygląda jak dyscyplina, ale w rzeczywistości jest to dopasowywanie krzywej po fakcie do jednego, już minionego epizodu chopu — a w chwili, gdy kolejny reżim zamienia się w trend, ten poszerzony mnożnik podstawia nogę w inny sposób.</p>
+  <p class="it">La prima cosa che di solito fa un trader che ha appena incassato 23 perdite consecutive è portare il moltiplicatore da 3 a 4, o a 5. Esegui un backtest su quel recente tratto di perdite e, puntualmente, emerge un numero migliore — certo che emerge, perché quel numero è stato scelto apposta per adattarsi esattamente a quel chop. È esattamente la trappola che questo sito ha esaminato nella <a href="/it/blog/backtest-overfitting-trap">trappola dell'overfitting del backtest</a>, che si riproduce qui. Aggiustare un parametro subito dopo una perdita sembra disciplina, ma in realtà è curve-fitting a posteriori su un singolo episodio di chop già passato — e nel momento in cui il regime successivo si trasforma in un trend, quel moltiplicatore allargato ti fa inciampare in un altro modo.</p>
+  <p class="ru">Первое, что обычно делает трейдер, только что переживший 23 убытка подряд, — поднимает множитель с 3 до 4 или 5. Прогоните бэктест на этом недавнем убыточном отрезке — и действительно, всплывёт число получше, — конечно всплывёт, ведь это число было подобрано именно под этот конкретный чоп. Это в точности та ловушка, которую этот сайт разбирал в материале о <a href="/ru/blog/backtest-overfitting-trap">ловушке переобучения бэктеста</a>, воспроизводящаяся здесь. Корректировка параметра сразу после убытка выглядит как дисциплина, но на деле это постфактумная подгонка кривой под один-единственный уже прошедший эпизод чопа — и в момент, когда следующий режим превращается в тренд, этот расширенный множитель подставляет подножку уже другим способом.</p>
+  <p class="zh">剛連續虧損23次的交易者,通常第一個反應就是把倍數從3調高到4或5。若在這段近期虧損區間內跑一次回測,確實會跑出一個更好的數字——這當然是必然的,因為那個數字正是專門為了配合那段特定盤整而挑選出來的。這正是本站在<a href="/zh/blog/backtest-overfitting-trap">回測過度擬合陷阱</a>一文中探討過的問題,在此重演。虧損後立刻調整參數,看起來像是紀律,實際上卻是事後對單一段已經過去的盤整區間進行曲線擬合——而一旦下一個市場狀態轉為趨勢,那個放寬的倍數就會以另一種方式再度絆倒你。</p>
 
   <p class="ko">더 근본적인 문제는 이 충동이 지표 자체의 결함을 '설정값 문제'로 착각하게 만든다는 데 있다. 배수를 아무리 정교하게 조정해도 슈퍼트렌드에는 여전히 축이 하나뿐이다. 트레이더가 진짜로 해야 할 일은 배수를 손보는 게 아니라, 슈퍼트렌드가 애초에 답할 수 없는 질문 — '지금이 챕피인가 추세인가' — 을 다른 지표에 맡기고, 그 답이 '추세'일 때만 슈퍼트렌드의 신호를 신뢰하는 위계를 세우는 것이다. <a href="/blog/conflicting-indicators">신호가 충돌할 때 우선순위를 매기는 원칙</a>을 그대로 적용하면, 슈퍼트렌드는 '진입 시점'을 정하는 지표이지 '지금 진입해도 되는 국면인지'를 정하는 지표가 아니라는 위계가 먼저다.</p>
   <p class="en">The deeper problem is that this urge lets a trader mistake the indicator's own flaw for a settings problem. No matter how finely the multiplier gets tuned, Supertrend still has exactly one axis. What a trader actually needs to do isn't adjust the multiplier — it's hand off the question Supertrend was never built to answer in the first place, "is this a chop or a trend right now," to a different indicator, and trust Supertrend's signal only when that answer comes back "trend." Applying the same principle covered in <a href="/en/blog/conflicting-indicators">how to prioritize when signals conflict</a>, the hierarchy to settle first is this: Supertrend decides timing, not whether this is even a regime worth entering.</p>

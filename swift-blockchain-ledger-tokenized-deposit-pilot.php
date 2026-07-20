@@ -399,6 +399,136 @@
   <text x="20" y="400" fill="#71717a" font-size="12.5" font-family="sans-serif">Tổng cộng 17 ngân hàng · gồm BNY, Citi, Wells Fargo, HSBC, UBS, MUFG</text>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">17 Bank Pilot, Berdasarkan Benua</text>
+  <text x="20" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">Berdasarkan pengumuman SWIFT tanggal 9 Juli 2026</text>
+  <line x1="170" y1="90" x2="170" y2="370" stroke="rgba(255,255,255,.15)"/>
+  <text x="30" y="112" fill="#d4d4d8" font-size="14" font-family="sans-serif">Eropa</text>
+  <rect x="175" y="96" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="116" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="10" y="160" fill="#d4d4d8" font-size="14" font-family="sans-serif">Asia-Pas.</text>
+  <rect x="175" y="144" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="164" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="5" y="208" fill="#d4d4d8" font-size="14" font-family="sans-serif">Am. Utara</text>
+  <rect x="175" y="192" width="270" height="28" rx="4" fill="#fbbf24"/>
+  <text x="455" y="212" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">3</text>
+  <text x="10" y="256" fill="#d4d4d8" font-size="14" font-family="sans-serif">T. Tengah</text>
+  <rect x="175" y="240" width="180" height="28" rx="4" fill="#fbbf24"/>
+  <text x="365" y="260" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">2</text>
+  <text x="5" y="304" fill="#d4d4d8" font-size="14" font-family="sans-serif">Am. Latin</text>
+  <rect x="175" y="288" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="308" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="30" y="352" fill="#d4d4d8" font-size="14" font-family="sans-serif">Afrika</text>
+  <rect x="175" y="336" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="356" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="20" y="400" fill="#71717a" font-size="12.5" font-family="sans-serif">Total 17 bank · termasuk BNY, Citi, Wells Fargo, HSBC, UBS, MUFG</text>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">17 Banków Pilotażowych, według Kontynentu</text>
+  <text x="20" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">Na podstawie ogłoszenia SWIFT z 9 lipca 2026 r.</text>
+  <line x1="170" y1="90" x2="170" y2="370" stroke="rgba(255,255,255,.15)"/>
+  <text x="30" y="112" fill="#d4d4d8" font-size="14" font-family="sans-serif">Europa</text>
+  <rect x="175" y="96" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="116" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="25" y="160" fill="#d4d4d8" font-size="14" font-family="sans-serif">Azja-Pac.</text>
+  <rect x="175" y="144" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="164" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="15" y="208" fill="#d4d4d8" font-size="14" font-family="sans-serif">Am. Płn.</text>
+  <rect x="175" y="192" width="270" height="28" rx="4" fill="#fbbf24"/>
+  <text x="455" y="212" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">3</text>
+  <text x="20" y="256" fill="#d4d4d8" font-size="14" font-family="sans-serif">Bl. Wschód</text>
+  <rect x="175" y="240" width="180" height="28" rx="4" fill="#fbbf24"/>
+  <text x="365" y="260" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">2</text>
+  <text x="25" y="304" fill="#d4d4d8" font-size="14" font-family="sans-serif">Am. Łac.</text>
+  <rect x="175" y="288" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="308" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="35" y="352" fill="#d4d4d8" font-size="14" font-family="sans-serif">Afryka</text>
+  <rect x="175" y="336" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="356" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="20" y="400" fill="#71717a" font-size="12.5" font-family="sans-serif">17 banków łącznie · w tym BNY, Citi, Wells Fargo, HSBC, UBS, MUFG</text>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">Le 17 Banche Pilota, per Continente</text>
+  <text x="20" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">Sulla base dell'annuncio di SWIFT del 9 luglio 2026</text>
+  <line x1="170" y1="90" x2="170" y2="370" stroke="rgba(255,255,255,.15)"/>
+  <text x="30" y="112" fill="#d4d4d8" font-size="14" font-family="sans-serif">Europa</text>
+  <rect x="175" y="96" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="116" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="10" y="160" fill="#d4d4d8" font-size="14" font-family="sans-serif">Asia-Pac.</text>
+  <rect x="175" y="144" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="164" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="15" y="208" fill="#d4d4d8" font-size="14" font-family="sans-serif">Nord Am.</text>
+  <rect x="175" y="192" width="270" height="28" rx="4" fill="#fbbf24"/>
+  <text x="455" y="212" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">3</text>
+  <text x="0" y="256" fill="#d4d4d8" font-size="14" font-family="sans-serif">M. Oriente</text>
+  <rect x="175" y="240" width="180" height="28" rx="4" fill="#fbbf24"/>
+  <text x="365" y="260" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">2</text>
+  <text x="0" y="304" fill="#d4d4d8" font-size="14" font-family="sans-serif">Am. Latina</text>
+  <rect x="175" y="288" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="308" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="20" y="352" fill="#d4d4d8" font-size="14" font-family="sans-serif">Africa</text>
+  <rect x="175" y="336" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="356" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="20" y="400" fill="#71717a" font-size="12.5" font-family="sans-serif">17 banche in totale · tra cui BNY, Citi, Wells Fargo, HSBC, UBS, MUFG</text>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">17 Банков-Пилотов по Континентам</text>
+  <text x="20" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">На основе объявления SWIFT от 9 июля 2026 года</text>
+  <line x1="170" y1="90" x2="170" y2="370" stroke="rgba(255,255,255,.15)"/>
+  <text x="25" y="112" fill="#d4d4d8" font-size="14" font-family="sans-serif">Европа</text>
+  <rect x="175" y="96" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="116" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="45" y="160" fill="#d4d4d8" font-size="14" font-family="sans-serif">АТР</text>
+  <rect x="175" y="144" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="164" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="0" y="208" fill="#d4d4d8" font-size="14" font-family="sans-serif">С. Америка</text>
+  <rect x="175" y="192" width="270" height="28" rx="4" fill="#fbbf24"/>
+  <text x="455" y="212" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">3</text>
+  <text x="0" y="256" fill="#d4d4d8" font-size="14" font-family="sans-serif">Бл. Восток</text>
+  <rect x="175" y="240" width="180" height="28" rx="4" fill="#fbbf24"/>
+  <text x="365" y="260" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">2</text>
+  <text x="15" y="304" fill="#d4d4d8" font-size="14" font-family="sans-serif">Лат. Ам.</text>
+  <rect x="175" y="288" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="308" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="25" y="352" fill="#d4d4d8" font-size="14" font-family="sans-serif">Африка</text>
+  <rect x="175" y="336" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="356" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="20" y="400" fill="#71717a" font-size="12.5" font-family="sans-serif">Всего 17 банков · включая BNY, Citi, Wells Fargo, HSBC, UBS, MUFG</text>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="17" font-weight="700" font-family="sans-serif">17家試點銀行的洲別分布</text>
+  <text x="20" y="54" fill="#a1a1aa" font-size="13" font-family="sans-serif">根據SWIFT於2026年7月9日的公告</text>
+  <line x1="170" y1="90" x2="170" y2="370" stroke="rgba(255,255,255,.15)"/>
+  <text x="60" y="112" fill="#d4d4d8" font-size="14" font-family="sans-serif">歐洲</text>
+  <rect x="175" y="96" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="116" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="60" y="160" fill="#d4d4d8" font-size="14" font-family="sans-serif">亞太</text>
+  <rect x="175" y="144" width="450" height="28" rx="4" fill="#38bdf8"/>
+  <text x="635" y="164" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">5</text>
+  <text x="60" y="208" fill="#d4d4d8" font-size="14" font-family="sans-serif">北美</text>
+  <rect x="175" y="192" width="270" height="28" rx="4" fill="#fbbf24"/>
+  <text x="455" y="212" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">3</text>
+  <text x="60" y="256" fill="#d4d4d8" font-size="14" font-family="sans-serif">中東</text>
+  <rect x="175" y="240" width="180" height="28" rx="4" fill="#fbbf24"/>
+  <text x="365" y="260" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">2</text>
+  <text x="60" y="304" fill="#d4d4d8" font-size="14" font-family="sans-serif">拉美</text>
+  <rect x="175" y="288" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="308" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="60" y="352" fill="#d4d4d8" font-size="14" font-family="sans-serif">非洲</text>
+  <rect x="175" y="336" width="90" height="28" rx="4" fill="#71717a"/>
+  <text x="275" y="356" fill="#fafafa" font-size="14" font-weight="700" font-family="sans-serif">1</text>
+  <text x="20" y="400" fill="#71717a" font-size="12.5" font-family="sans-serif">共17家銀行·包括BNY、花旗、富國銀行、匯豐、瑞銀集團、三菱UFJ銀行</text>
+</svg>
+</div>
 
 <p class="ko" style="font-size:12px;color:#52525b;margin-top:24px">출처: Swift, "Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments"(2026년 7월 9일 보도자료). CoinDesk, "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants"(2026년 7월 9일). Ledger Insights, "Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain". The Block, "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks". Genfinity, 체인링크 CCIP 상호운용 계층 관련 보도. American Banker, 파일럿 은행 구성 관련 보도(2026년 7월 열람).</p>
 <p class="en" style="font-size:12px;color:#52525b;margin-top:24px">Sources: Swift, "Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments" (press release, July 9, 2026). CoinDesk, "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants" (July 9, 2026). Ledger Insights, "Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain." The Block, "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks." Genfinity, reporting on the Chainlink CCIP interoperability layer. American Banker, reporting on the pilot bank roster (accessed July 2026).</p>
@@ -409,4 +539,9 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: Swift, "Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments" (comunicado à imprensa, 9 de julho de 2026). CoinDesk, "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants" (9 de julho de 2026). Ledger Insights, "Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain." The Block, "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks." Genfinity, cobertura sobre a camada de interoperabilidade Chainlink CCIP. American Banker, cobertura sobre a composição dos bancos piloto (acessado em julho de 2026).</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: Swift, "Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments" (basın bülteni, 9 Temmuz 2026). CoinDesk, "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants" (9 Temmuz 2026). Ledger Insights, "Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain." The Block, "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks." Genfinity, Chainlink CCIP birlikte çalışabilirlik katmanına ilişkin haber. American Banker, pilot banka listesine ilişkin haber (Temmuz 2026'da erişildi).</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: Swift, "Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments" (thông cáo báo chí, ngày 9/7/2026). CoinDesk, "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants" (9/7/2026). Ledger Insights, "Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain." The Block, "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks." Genfinity, đưa tin về lớp khả năng tương tác Chainlink CCIP. American Banker, đưa tin về danh sách ngân hàng thí điểm (truy cập tháng 7/2026).</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: Swift, "Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments" (siaran pers, 9 Juli 2026). CoinDesk, "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants" (9 Juli 2026). Ledger Insights, "Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain." The Block, "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks." Genfinity, liputan mengenai lapisan interoperabilitas Chainlink CCIP. American Banker, liputan mengenai susunan bank peserta uji coba (diakses Juli 2026).</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: Swift, „Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments" (komunikat prasowy, 9 lipca 2026). CoinDesk, „Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants" (9 lipca 2026). Ledger Insights, „Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain." The Block, „Swift launches blockchain ledger for tokenized deposit pilot with 17 banks." Genfinity, doniesienia na temat warstwy interoperacyjności Chainlink CCIP. American Banker, doniesienia na temat składu banków pilotażowych (dostęp: lipiec 2026).</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: Swift, «Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments» (comunicato stampa, 9 luglio 2026). CoinDesk, «Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants» (9 luglio 2026). Ledger Insights, «Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain.» The Block, «Swift launches blockchain ledger for tokenized deposit pilot with 17 banks.» Genfinity, copertura sullo strato di interoperabilità Chainlink CCIP. American Banker, copertura sulla composizione delle banche pilota (consultato a luglio 2026).</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: Swift, «Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments» (пресс-релиз, 9 июля 2026 г.). CoinDesk, «Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants» (9 июля 2026 г.). Ledger Insights, «Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain». The Block, «Swift launches blockchain ledger for tokenized deposit pilot with 17 banks». Genfinity, материалы об уровне совместимости Chainlink CCIP. American Banker, материалы о составе банков-участников пилота (по состоянию на июль 2026 г.).</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:Swift,「Swift's blockchain ledger ready for use as 17 banks set to pioneer tokenised cross-border payments」(新聞稿,2026年7月9日)。CoinDesk,「Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants」(2026年7月9日)。Ledger Insights,「Citi, HSBC, UBS among 17 banks to pilot tokenized deposits via Swift blockchain」。The Block,「Swift launches blockchain ledger for tokenized deposit pilot with 17 banks」。Genfinity,關於Chainlink CCIP互通層的報導。American Banker,關於試點銀行名單的報導(2026年7月查閱)。</p>
 <?php require __DIR__.'/_footer.php'; ?>
