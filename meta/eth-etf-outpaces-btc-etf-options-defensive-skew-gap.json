@@ -12,6 +12,11 @@
   "read_pt": "8",
   "read_tr": "8",
   "read_vi": "8",
+  "read_id": "8",
+  "read_pl": "8",
+  "read_it": "8",
+  "read_ru": "8",
+  "read_zh": "8",
 
   "tag_ko": "ETH ETF 우위·옵션 방어적 스큐",
   "tag_en": "ETH ETF Lead & Defensive Options Skew",
@@ -22,6 +27,11 @@
   "tag_pt": "Liderança de ETF ETH e Skew Defensivo de Opções",
   "tag_tr": "ETH ETF Önde ve Savunmacı Opsiyon Skew'i",
   "tag_vi": "ETF ETH Dẫn Đầu và Độ Lệch Quyền Chọn Phòng Thủ",
+  "tag_id": "Keunggulan ETF ETH & Skew Opsi Defensif",
+  "tag_pl": "Przewaga ETF ETH i Defensywny Skew Opcji",
+  "tag_it": "Vantaggio ETF ETH e Skew Difensivo delle Opzioni",
+  "tag_ru": "Лидерство ETH-ETF и Защитный Скью Опционов",
+  "tag_zh": "ETH ETF領先與選擇權防禦性偏斜",
 
   "title_ko": "비트코인은 반등하는데 이더리움 ETF가 더 빨아들였다 — 옵션은 여전히 방어적이다",
   "title_en": "Bitcoin Rebounds, But Ether ETFs Pulled In More Money — Options Traders Are Still Playing Defense",
@@ -32,6 +42,11 @@
   "title_pt": "Bitcoin Se Recupera, Mas ETFs de Ether Atraíram Mais Dinheiro — Opções Continuam na Defensiva",
   "title_tr": "Bitcoin Toparlanıyor, Ama Ether ETF'leri Daha Fazla Para Çekti — Opsiyonlar Hâlâ Savunmada",
   "title_vi": "Bitcoin Phục Hồi, Nhưng ETF Ether Lại Hút Nhiều Tiền Hơn — Quyền Chọn Vẫn Đang Phòng Thủ",
+  "title_id": "Bitcoin Rebound, Tapi ETF Ether Justru Menyerap Lebih Banyak Dana — Trader Opsi Masih Bermain Defensif",
+  "title_pl": "Bitcoin Odbija, Ale ETF-y Ether Przyciągnęły Więcej Pieniędzy — Traderzy Opcji Wciąż Grają Defensywnie",
+  "title_it": "Bitcoin Rimbalza, Ma gli ETF su Ether Hanno Attratto Più Denaro — i Trader di Opzioni Giocano Ancora in Difesa",
+  "title_ru": "Биткоин Отскакивает, Но ETF на Эфир Привлекли Больше Денег — Опционные Трейдеры Всё Ещё Играют от Обороны",
+  "title_zh": "比特幣反彈,但以太幣ETF卻吸引更多資金 — 選擇權交易者依然採取防禦姿態",
 
   "h1_ko": "반등하는 비트코인,<br>ETF 자금은 이더리움 쪽으로 더 기울었다",
   "h1_en": "Bitcoin Rebounds,<br>But ETF Money Tilted Toward Ether",
@@ -42,6 +57,11 @@
   "h1_pt": "Bitcoin Se Recupera,<br>o Dinheiro dos ETFs Pendeu Para o Ether",
   "h1_tr": "Bitcoin Toparlanıyor,<br>ETF Parası Ether'e Kaydı",
   "h1_vi": "Bitcoin Phục Hồi,<br>Dòng Tiền ETF Lại Nghiêng Về Ether",
+  "h1_id": "Bitcoin Rebound,<br>Tapi Dana ETF Condong ke Ether",
+  "h1_pl": "Bitcoin Odbija,<br>Ale Pieniądze ETF Przechyliły Się ku Etherowi",
+  "h1_it": "Bitcoin Rimbalza,<br>Ma il Denaro degli ETF si è Inclinato verso Ether",
+  "h1_ru": "Биткоин Отскакивает,<br>Но Деньги ETF Сместились в Сторону Эфира",
+  "h1_zh": "比特幣反彈,<br>ETF資金卻更傾向以太幣",
 
   "bc_ko": "ETF 자금·옵션 스큐 점검",
   "bc_en": "ETF Flows & Options Skew Check",
@@ -52,6 +72,11 @@
   "bc_pt": "Verificação de Fluxos de ETF e Skew de Opções",
   "bc_tr": "ETF Akışları ve Opsiyon Skew Kontrolü",
   "bc_vi": "Kiểm Tra Dòng Vốn ETF và Độ Lệch Quyền Chọn",
+  "bc_id": "Pemeriksaan Arus ETF & Skew Opsi",
+  "bc_pl": "Kontrola Przepływów ETF i Skew Opcji",
+  "bc_it": "Controllo dei Flussi ETF e dello Skew delle Opzioni",
+  "bc_ru": "Проверка Потоков ETF и Скью Опционов",
+  "bc_zh": "ETF資金流與選擇權偏斜檢視",
 
   "desc_ko": "비트코인이 저점 대비 10% 넘게 반등해 $64,340까지 올랐지만, 최근 사흘 중 이틀은 이더리움 ETF가 비트코인 ETF보다 더 많은 자금을 빨아들였다. 옵션시장의 풋 프리미엄은 여전히 살아있고, 공포탐욕지수는 소스마다 22~30으로 갈린다. 가격과 자금·심리 지표가 다른 결을 그리는 지금 국면을 진단한다.",
   "desc_en": "Bitcoin bounced more than 10% off its low to $64,340, yet ether ETFs outpaced bitcoin ETFs in net inflows on two of the last three days. Options markets still show live put premiums, and Fear & Greed Index readings range from 22 to 30 depending on the source. A look at a phase where price, flows, and sentiment aren't telling the same story.",
@@ -61,5 +86,10 @@
   "desc_fr": "Le bitcoin a rebondi de plus de 10 % depuis son plus bas à 64 340 dollars, mais les ETF ether ont devancé les ETF bitcoin en entrées nettes deux jours sur trois. Les marchés d'options affichent toujours des primes de put bien vivantes, et l'indice Fear & Greed varie entre 22 et 30 selon la source. Un examen d'une phase où prix, flux et sentiment ne racontent pas la même histoire.",
   "desc_pt": "O bitcoin se recuperou mais de 10% da mínima para 64.340 dólares, mas os ETFs de ether superaram os de bitcoin em entradas líquidas em dois dos últimos três dias. Os mercados de opções ainda mostram prêmios de put bem vivos, e o Índice de Medo e Ganância varia entre 22 e 30 conforme a fonte. Uma análise de uma fase em que preço, fluxos e sentimento não contam a mesma história.",
   "desc_tr": "Bitcoin dipten %10'un üzerinde toparlanarak 64.340 dolara yükseldi, ancak ether ETF'leri son üç günün ikisinde net girişlerde bitcoin ETF'lerini geride bıraktı. Opsiyon piyasaları hâlâ canlı put primleri gösteriyor ve Korku ve Açgözlülük Endeksi kaynağa göre 22 ile 30 arasında değişiyor. Fiyatın, akışların ve duygu durumunun aynı hikâyeyi anlatmadığı bir aşamaya bakış.",
-  "desc_vi": "Bitcoin đã bật tăng hơn 10% từ đáy lên 64.340 đô la, nhưng ETF ether đã vượt qua ETF bitcoin về dòng vào ròng trong hai trên ba ngày gần nhất. Thị trường quyền chọn vẫn cho thấy phí bảo hiểm put còn sống động, và Chỉ số Sợ hãi & Tham lam dao động từ 22 đến 30 tùy nguồn. Một góc nhìn về giai đoạn mà giá cả, dòng vốn và tâm lý không kể cùng một câu chuyện."
+  "desc_vi": "Bitcoin đã bật tăng hơn 10% từ đáy lên 64.340 đô la, nhưng ETF ether đã vượt qua ETF bitcoin về dòng vào ròng trong hai trên ba ngày gần nhất. Thị trường quyền chọn vẫn cho thấy phí bảo hiểm put còn sống động, và Chỉ số Sợ hãi & Tham lam dao động từ 22 đến 30 tùy nguồn. Một góc nhìn về giai đoạn mà giá cả, dòng vốn và tâm lý không kể cùng một câu chuyện.",
+  "desc_id": "Bitcoin naik 10% lebih dari titik terendah ke $64.340, tapi ETF ether justru ungguli ETF bitcoin dalam arus masuk 2 dari 3 hari terakhir; sentimen masih pecah.",
+  "desc_pl": "Bitcoin odbił ponad 10% do $64,340, lecz ETF-y na ether wyprzedziły ETF-y na bitcoina pod względem napływów w 2 z ostatnich 3 dni; nastroje wciąż rozbieżne.",
+  "desc_it": "Bitcoin è rimbalzato oltre il 10% a $64.340, ma gli ETF ether hanno superato quelli bitcoin negli afflussi in 2 degli ultimi 3 giorni; sentiment diviso.",
+  "desc_ru": "Биткоин отскочил более чем на 10%, до $64,340, но ETF на эфир опередили ETF на биткоин по притокам в 2 из последних 3 дней; настроения рынка расходятся.",
+  "desc_zh": "比特幣自波段低點反彈逾10%,升至約6萬4,340美元,但過去三個交易日中有兩天,以太幣ETF的淨資金流入竟超越比特幣ETF,選擇權市場賣權溢價依然明顯,恐懼與貪婪指數依來源不同在22至30之間波動,價格、資金與情緒指標各說各話。"
 }
