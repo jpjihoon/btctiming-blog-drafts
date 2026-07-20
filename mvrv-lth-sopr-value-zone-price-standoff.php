@@ -659,6 +659,11 @@
 <h2 class="pt">Os Sinais Se Alinham? — Uma Fase de "Capitulação Sem Colapso"</h2>
 <h2 class="tr">Sinyaller Örtüşüyor mu? — "Çöküşsüz Teslimiyet" Evresi</h2>
 <h2 class="vi">Các Tín Hiệu Có Khớp Nhau? — Giai Đoạn "Đầu Hàng Không Sụp Đổ"</h2>
+<h2 class="id">Apakah Sinyal-sinyal Ini Sejalan? — Fase "Kapitulasi Tanpa Keruntuhan"</h2>
+<h2 class="pl">Czy Sygnały Się Pokrywają? — Faza "Kapitulacji Bez Załamania"</h2>
+<h2 class="it">I Segnali Coincidono? — Una Fase di "Capitolazione Senza Collasso"</h2>
+<h2 class="ru">Совпадают ли Сигналы? — Фаза «Капитуляции Без Обвала»</h2>
+<h2 class="zh">訊號是否一致?——一場「投降卻不崩盤」的階段</h2>
 
 <p class="ko">세 지표를 나란히 놓으면 하나의 그림이 그려진다. MVRV Z-스코어는 시장 전체가 평균 매입가 근방에 있다고 말하고, LTH SOPR는 그 매입가마저 밑돌며 코인을 넘기는 장기 보유자가 반년 가까이 존재한다고 말하며, 실현손실 데이터는 그 손실이 작지 않은 규모로 실제 확정되고 있다고 뒷받침한다. 이 조합은 과거 네 차례 — 2015년, 2018~19년, 2022~23년, 2020년 3월 — 사이클 바닥 근처에서만 관측된 조합이다. 온체인만 놓고 보면 지금은 '싸다'는 신호가 분명하다.</p>
 <p class="en">Line up all three indicators and one picture emerges. The MVRV Z-Score says the market overall sits near its average acquisition cost. LTH SOPR says long-term holders have been handing off coins below even that cost for nearly half a year. And the realized-loss data confirms those losses are being locked in at meaningful scale. This combination has only shown up near cycle bottoms four times before — 2015, 2018-19, 2022-23, and March 2020. Looking at on-chain data alone, the "cheap" signal is clear.</p>

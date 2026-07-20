@@ -534,6 +534,31 @@
     <li><strong><a href="/vi/blog/clarity-act-merged-draft-july20-target">Bản dự thảo hợp nhất mới của CLARITY Act có thể xuất hiện ngay tuần tới</a>:</strong> Bối cảnh về bản dự thảo hợp nhất của CLARITY Act và cuộc bỏ phiếu mục tiêu của Thượng viện ngày 20/7</li>
     <li><strong><a href="/vi/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Hé Lộ 'Reg Crypto' Cho Tháng Này</a>:</strong> Chương trình nghị sự quản lý song song 'Regulation Crypto' 2026 của SEC</li>
   </ul>
+  <ul class="id">
+    <li><strong><a href="/id/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid dan Phantom Minta CFTC Berhenti Memperlakukan Kode Onchain Seperti Broker</a>:</strong> Surat dengan tenggat sama yang lebih sempit — meminta CFTC tidak memperlakukan protokol on-chain sebagai broker</li>
+    <li><strong><a href="/id/blog/clarity-act-merged-draft-july20-target">Rancangan Gabungan Baru UU CLARITY Diperkirakan Muncul Pekan Depan</a>:</strong> Latar belakang rancangan gabungan UU CLARITY dan target pemungutan suara Senat 20 Juli</li>
+    <li><strong><a href="/id/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Beri Bocoran 'Reg Crypto' untuk Bulan Ini</a>:</strong> Agenda pembuatan aturan paralel SEC 'Regulation Crypto' 2026</li>
+  </ul>
+  <ul class="pl">
+    <li><strong><a href="/pl/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid i Phantom Proszą CFTC o Zaprzestanie Traktowania Kodu Onchain jak Brokera</a>:</strong> Węższe pismo złożone w tym samym terminie — z prośbą, by CFTC nie traktowała protokołów on-chain jako brokerów</li>
+    <li><strong><a href="/pl/blog/clarity-act-merged-draft-july20-target">Nowy Połączony Projekt Ustawy CLARITY Oczekiwany w Przyszłym Tygodniu</a>:</strong> Kontekst dotyczący połączonego projektu ustawy CLARITY oraz docelowego głosowania w Senacie 20 lipca</li>
+    <li><strong><a href="/pl/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC Zapowiada 'Reg Crypto' na Ten Miesiąc</a>:</strong> Równoległa agenda regulacyjna SEC 'Regulation Crypto' 2026</li>
+  </ul>
+  <ul class="it">
+    <li><strong><a href="/it/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid e Phantom Chiedono alla CFTC di Smettere di Trattare il Codice Onchain come un Broker</a>:</strong> Una lettera più ristretta, con la stessa scadenza — che chiede alla CFTC di non trattare i protocolli on-chain come broker</li>
+    <li><strong><a href="/it/blog/clarity-act-merged-draft-july20-target">Nuova Bozza Unificata del CLARITY Act Attesa la Prossima Settimana</a>:</strong> Il contesto sulla bozza unificata del CLARITY Act e il voto obiettivo del Senato del 20 luglio</li>
+    <li><strong><a href="/it/blog/sec-2026-agenda-reg-crypto-safe-harbor">La SEC Anticipa 'Reg Crypto' per Questo Mese</a>:</strong> L'agenda di regolamentazione parallela 'Regulation Crypto' 2026 della SEC</li>
+  </ul>
+  <ul class="ru">
+    <li><strong><a href="/ru/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid и Phantom просят CFTC перестать относиться к ончейн-коду как к брокеру</a>:</strong> Более узкое письмо, поданное в тот же срок — с просьбой не считать ончейн-протоколы брокерами</li>
+    <li><strong><a href="/ru/blog/clarity-act-merged-draft-july20-target">Новый объединённый проект закона CLARITY ожидается на следующей неделе</a>:</strong> Контекст об объединённом проекте закона CLARITY и намеченном голосовании в Сенате 20 июля</li>
+    <li><strong><a href="/ru/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC анонсирует 'Reg Crypto' на этот месяц</a>:</strong> Параллельная нормотворческая повестка SEC 'Regulation Crypto' 2026</li>
+  </ul>
+  <ul class="zh">
+    <li><strong><a href="/zh/blog/hyperliquid-phantom-cftc-onchain-exemption-letter">Hyperliquid與Phantom要求CFTC停止將鏈上代碼視為經紀商</a>:</strong> 同一截止日提交的範圍較窄意見書——要求CFTC不將鏈上協議視為經紀商</li>
+    <li><strong><a href="/zh/blog/clarity-act-merged-draft-july20-target">CLARITY法案新版合併草案預計下週出爐</a>:</strong> CLARITY法案合併草案及參議院7月20日目標表決的背景</li>
+    <li><strong><a href="/zh/blog/sec-2026-agenda-reg-crypto-safe-harbor">SEC預告本月推出「Reg Crypto」</a>:</strong> SEC並行推動的「Reg Crypto」2026規則制定議程</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">출처: 크립토타임스(블록체인협회 11개 권고안 보도), 크립토뉴스닷넷(솔라나정책연구소 CFTC 의견서 보도), 크립토브리핑(하이퍼리퀴드·팬텀 공동의견서 보도), CFTC.gov(RFI 원문 및 절차 공지), 몬닥·내셔널로리뷰(RFI 배경 법률 해설). 이 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">Sources: CryptoTimes (reporting on the Blockchain Association's 11 recommendations), cryptonews.net (reporting on the Solana Policy Institute's CFTC letter), CryptoBriefing (reporting on the Hyperliquid-Phantom joint letter), CFTC.gov (RFI text and procedural notice), Mondaq and the National Law Review (legal analysis of the RFI background). This is not investment advice.</p>
