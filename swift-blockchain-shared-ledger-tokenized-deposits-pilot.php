@@ -511,6 +511,11 @@
   <h2 class="pt">Por que importa — a competição entre stablecoins e depósitos tokenizados</h2>
   <h2 class="tr">Neden önemli — stablecoin'ler ile tokenize edilmiş mevduatlar arasındaki rekabet</h2>
   <h2 class="vi">Vì sao điều này quan trọng — cuộc cạnh tranh giữa stablecoin và tiền gửi được token hóa</h2>
+  <h2 class="id">Mengapa ini penting — persaingan antara stablecoin dan simpanan tertokenisasi</h2>
+  <h2 class="pl">Dlaczego to ważne — rywalizacja między stablecoinami a tokenizowanymi depozytami</h2>
+  <h2 class="it">Perché conta — la competizione tra stablecoin e depositi tokenizzati</h2>
+  <h2 class="ru">Почему это важно — конкуренция между стейблкоинами и токенизированными депозитами</h2>
+  <h2 class="zh">為何重要 — 穩定幣與代幣化存款之間的競爭</h2>
 
   <p class="ko">이번 파일럿이 성공적으로 확장된다면, 기업 재무팀은 국경 간 결제에서 공개 스테이블코인 대신 은행이 제공하는 예금보험·규제 보호가 딸린 토큰화 예금을 택할 유인이 커진다. 이는 제니어스법(GENIUS Act)이 스테이블코인 발행사에 요구하는 준비금·인가 규제와, 은행이 이미 갖춘 예금 규제 체계 사이의 경쟁이라는 더 큰 그림과 맞닿아 있다 — 결국 이 경쟁의 승자는 어느 쪽이 국경 간 결제에서 더 빠르고 저렴한 실사용 경험을 먼저 대규모로 입증하는지에 달려 있다.</p>
   <p class="en">If this pilot scales successfully, corporate treasury teams gain a stronger incentive to choose bank-issued tokenized deposits — with deposit insurance and regulatory protection attached — over public stablecoins for cross-border payments. That connects to a bigger picture: the competition between the reserve and licensing rules the GENIUS Act imposes on stablecoin issuers, and the deposit regulatory framework banks already operate under. Ultimately, the winner of that competition will come down to whichever side first proves a faster, cheaper real-world payment experience at real scale.</p>

@@ -366,6 +366,126 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Taruhan Infrastruktur Strategis Tether, 2025-2026</text>
+  <g font-family="sans-serif">
+    <rect x="12" y="56" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="56" width="5" height="36" fill="#22c55e"/>
+    <text x="30" y="79" fill="#d4d4d8" font-size="13">2025</text><text x="95" y="79" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro 70%</text><text x="400" y="79" fill="#a1a1aa" font-size="13">Pertanian</text><text x="660" y="79" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$620M</text>
+    <rect x="12" y="100" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="100" width="5" height="36" fill="#a78bfa"/>
+    <text x="30" y="123" fill="#d4d4d8" font-size="13">K1 '26</text><text x="95" y="123" fill="#fafafa" font-size="13.5" font-weight="700">Rumble</text><text x="400" y="123" fill="#a1a1aa" font-size="13">Media</text><text x="660" y="123" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$775M</text>
+    <rect x="12" y="144" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="144" width="5" height="36" fill="#38bdf8"/>
+    <text x="30" y="167" fill="#d4d4d8" font-size="13">S1 '26</text><text x="95" y="167" fill="#fafafa" font-size="13.5" font-weight="700">LayerZero</text><text x="400" y="167" fill="#a1a1aa" font-size="13">Interoperabilitas</text><text x="660" y="167" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">Tidak diungkapkan</text>
+    <rect x="12" y="188" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="188" width="5" height="36" fill="#f59e0b"/>
+    <text x="30" y="211" fill="#d4d4d8" font-size="13">2026</text><text x="95" y="211" fill="#fafafa" font-size="13.5" font-weight="700">Elemental Altus</text><text x="400" y="211" fill="#a1a1aa" font-size="13">Royalti emas</text><text x="660" y="211" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$100M</text>
+    <rect x="12" y="232" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="232" width="5" height="36" fill="#ec4899"/>
+    <text x="30" y="255" fill="#d4d4d8" font-size="13">Jun</text><text x="95" y="255" fill="#fafafa" font-size="13.5" font-weight="700">NEURA Robotics</text><text x="400" y="255" fill="#a1a1aa" font-size="13">Robotika</text><text x="660" y="255" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$1.4B</text>
+    <rect x="12" y="276" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="276" width="5" height="36" fill="#06b6d4"/>
+    <text x="30" y="299" fill="#d4d4d8" font-size="13">8 Jul</text><text x="95" y="299" fill="#fafafa" font-size="13.5" font-weight="700">Mercado Bitcoin</text><text x="400" y="299" fill="#a1a1aa" font-size="13">Bursa</text><text x="660" y="299" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$20M</text>
+    <rect x="12" y="320" width="676" height="36" rx="6" fill="#241a10" stroke="#f97316" stroke-width="1.4"/><rect x="12" y="320" width="5" height="36" fill="#f97316"/>
+    <text x="30" y="343" fill="#f97316" font-size="13" font-weight="700">9 Jul</text><text x="95" y="343" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro Telecom</text><text x="400" y="343" fill="#f97316" font-size="13">Telekom (DePIN)</text><text x="660" y="343" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$25M</text>
+    <rect x="12" y="378" width="676" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="402" fill="#a1a1aa" font-size="14" text-anchor="middle">Cadangan tetap didominasi obligasi Pemerintah AS/emas/bitcoin, tetapi taruhan infrastruktur yang didanai terpisah semakin cepat</text>
+    <text x="350" y="424" fill="#71717a" font-size="13" text-anchor="middle">Sumber: Fortune · NewsBTC · Tether.io · TelecomLead · CryptBull</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Strategiczne zakłady infrastrukturalne Tether, 2025-2026</text>
+  <g font-family="sans-serif">
+    <rect x="12" y="56" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="56" width="5" height="36" fill="#22c55e"/>
+    <text x="30" y="79" fill="#d4d4d8" font-size="13">2025</text><text x="95" y="79" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro 70%</text><text x="400" y="79" fill="#a1a1aa" font-size="13">Rolnictwo</text><text x="660" y="79" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$620M</text>
+    <rect x="12" y="100" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="100" width="5" height="36" fill="#a78bfa"/>
+    <text x="30" y="123" fill="#d4d4d8" font-size="13">K1 '26</text><text x="95" y="123" fill="#fafafa" font-size="13.5" font-weight="700">Rumble</text><text x="400" y="123" fill="#a1a1aa" font-size="13">Media</text><text x="660" y="123" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$775M</text>
+    <rect x="12" y="144" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="144" width="5" height="36" fill="#38bdf8"/>
+    <text x="30" y="167" fill="#d4d4d8" font-size="13">H1 '26</text><text x="95" y="167" fill="#fafafa" font-size="13.5" font-weight="700">LayerZero</text><text x="400" y="167" fill="#a1a1aa" font-size="13">Interoperacyjność</text><text x="660" y="167" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">Nieujawnione</text>
+    <rect x="12" y="188" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="188" width="5" height="36" fill="#f59e0b"/>
+    <text x="30" y="211" fill="#d4d4d8" font-size="13">2026</text><text x="95" y="211" fill="#fafafa" font-size="13.5" font-weight="700">Elemental Altus</text><text x="400" y="211" fill="#a1a1aa" font-size="13">Tantiemy złota</text><text x="660" y="211" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$100M</text>
+    <rect x="12" y="232" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="232" width="5" height="36" fill="#ec4899"/>
+    <text x="30" y="255" fill="#d4d4d8" font-size="13">Cze</text><text x="95" y="255" fill="#fafafa" font-size="13.5" font-weight="700">NEURA Robotics</text><text x="400" y="255" fill="#a1a1aa" font-size="13">Robotyka</text><text x="660" y="255" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$1.4B</text>
+    <rect x="12" y="276" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="276" width="5" height="36" fill="#06b6d4"/>
+    <text x="30" y="299" fill="#d4d4d8" font-size="13">8 lip</text><text x="95" y="299" fill="#fafafa" font-size="13.5" font-weight="700">Mercado Bitcoin</text><text x="400" y="299" fill="#a1a1aa" font-size="13">Giełda</text><text x="660" y="299" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$20M</text>
+    <rect x="12" y="320" width="676" height="36" rx="6" fill="#241a10" stroke="#f97316" stroke-width="1.4"/><rect x="12" y="320" width="5" height="36" fill="#f97316"/>
+    <text x="30" y="343" fill="#f97316" font-size="13" font-weight="700">9 lip</text><text x="95" y="343" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro Telecom</text><text x="400" y="343" fill="#f97316" font-size="13">Telekom (DePIN)</text><text x="660" y="343" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$25M</text>
+    <rect x="12" y="378" width="676" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="402" fill="#a1a1aa" font-size="14" text-anchor="middle">Rezerwy pozostają zdominowane przez obligacje skarbowe USA/złoto/bitcoin, ale odrębnie finansowane zakłady infrastrukturalne przyspieszają</text>
+    <text x="350" y="424" fill="#71717a" font-size="13" text-anchor="middle">Źródła: Fortune · NewsBTC · Tether.io · TelecomLead · CryptBull</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Le scommesse infrastrutturali strategiche di Tether, 2025-2026</text>
+  <g font-family="sans-serif">
+    <rect x="12" y="56" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="56" width="5" height="36" fill="#22c55e"/>
+    <text x="30" y="79" fill="#d4d4d8" font-size="13">2025</text><text x="95" y="79" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro 70%</text><text x="400" y="79" fill="#a1a1aa" font-size="13">Agricoltura</text><text x="660" y="79" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$620M</text>
+    <rect x="12" y="100" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="100" width="5" height="36" fill="#a78bfa"/>
+    <text x="30" y="123" fill="#d4d4d8" font-size="13">T1 '26</text><text x="95" y="123" fill="#fafafa" font-size="13.5" font-weight="700">Rumble</text><text x="400" y="123" fill="#a1a1aa" font-size="13">Media</text><text x="660" y="123" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$775M</text>
+    <rect x="12" y="144" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="144" width="5" height="36" fill="#38bdf8"/>
+    <text x="30" y="167" fill="#d4d4d8" font-size="13">S1 '26</text><text x="95" y="167" fill="#fafafa" font-size="13.5" font-weight="700">LayerZero</text><text x="400" y="167" fill="#a1a1aa" font-size="13">Interoperabilità</text><text x="660" y="167" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">Non divulgato</text>
+    <rect x="12" y="188" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="188" width="5" height="36" fill="#f59e0b"/>
+    <text x="30" y="211" fill="#d4d4d8" font-size="13">2026</text><text x="95" y="211" fill="#fafafa" font-size="13.5" font-weight="700">Elemental Altus</text><text x="400" y="211" fill="#a1a1aa" font-size="13">Royalty sull'oro</text><text x="660" y="211" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$100M</text>
+    <rect x="12" y="232" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="232" width="5" height="36" fill="#ec4899"/>
+    <text x="30" y="255" fill="#d4d4d8" font-size="13">Giu</text><text x="95" y="255" fill="#fafafa" font-size="13.5" font-weight="700">NEURA Robotics</text><text x="400" y="255" fill="#a1a1aa" font-size="13">Robotica</text><text x="660" y="255" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$1.4B</text>
+    <rect x="12" y="276" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="276" width="5" height="36" fill="#06b6d4"/>
+    <text x="30" y="299" fill="#d4d4d8" font-size="13">8 lug</text><text x="95" y="299" fill="#fafafa" font-size="13.5" font-weight="700">Mercado Bitcoin</text><text x="400" y="299" fill="#a1a1aa" font-size="13">Borsa</text><text x="660" y="299" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$20M</text>
+    <rect x="12" y="320" width="676" height="36" rx="6" fill="#241a10" stroke="#f97316" stroke-width="1.4"/><rect x="12" y="320" width="5" height="36" fill="#f97316"/>
+    <text x="30" y="343" fill="#f97316" font-size="13" font-weight="700">9 lug</text><text x="95" y="343" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro Telecom</text><text x="400" y="343" fill="#f97316" font-size="13">Telecomunicazioni (DePIN)</text><text x="660" y="343" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$25M</text>
+    <rect x="12" y="378" width="676" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="402" fill="#a1a1aa" font-size="14" text-anchor="middle">Le riserve restano concentrate su titoli del Tesoro USA/oro/bitcoin, ma le scommesse infrastrutturali finanziate separatamente accelerano</text>
+    <text x="350" y="424" fill="#71717a" font-size="13" text-anchor="middle">Fonti: Fortune · NewsBTC · Tether.io · TelecomLead · CryptBull</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Стратегические инфраструктурные ставки Tether, 2025-2026</text>
+  <g font-family="sans-serif">
+    <rect x="12" y="56" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="56" width="5" height="36" fill="#22c55e"/>
+    <text x="30" y="79" fill="#d4d4d8" font-size="13">2025</text><text x="95" y="79" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro 70%</text><text x="400" y="79" fill="#a1a1aa" font-size="13">Сельское хозяйство</text><text x="660" y="79" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$620M</text>
+    <rect x="12" y="100" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="100" width="5" height="36" fill="#a78bfa"/>
+    <text x="30" y="123" fill="#d4d4d8" font-size="13">1кв '26</text><text x="95" y="123" fill="#fafafa" font-size="13.5" font-weight="700">Rumble</text><text x="400" y="123" fill="#a1a1aa" font-size="13">Медиа</text><text x="660" y="123" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$775M</text>
+    <rect x="12" y="144" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="144" width="5" height="36" fill="#38bdf8"/>
+    <text x="30" y="167" fill="#d4d4d8" font-size="13">1П '26</text><text x="95" y="167" fill="#fafafa" font-size="13.5" font-weight="700">LayerZero</text><text x="400" y="167" fill="#a1a1aa" font-size="13">Совместимость</text><text x="660" y="167" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">Не раскрыто</text>
+    <rect x="12" y="188" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="188" width="5" height="36" fill="#f59e0b"/>
+    <text x="30" y="211" fill="#d4d4d8" font-size="13">2026</text><text x="95" y="211" fill="#fafafa" font-size="13.5" font-weight="700">Elemental Altus</text><text x="400" y="211" fill="#a1a1aa" font-size="13">Роялти на золото</text><text x="660" y="211" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$100M</text>
+    <rect x="12" y="232" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="232" width="5" height="36" fill="#ec4899"/>
+    <text x="30" y="255" fill="#d4d4d8" font-size="13">Июн</text><text x="95" y="255" fill="#fafafa" font-size="13.5" font-weight="700">NEURA Robotics</text><text x="400" y="255" fill="#a1a1aa" font-size="13">Робототехника</text><text x="660" y="255" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$1.4B</text>
+    <rect x="12" y="276" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="276" width="5" height="36" fill="#06b6d4"/>
+    <text x="30" y="299" fill="#d4d4d8" font-size="13">8 июл</text><text x="95" y="299" fill="#fafafa" font-size="13.5" font-weight="700">Mercado Bitcoin</text><text x="400" y="299" fill="#a1a1aa" font-size="13">Биржа</text><text x="660" y="299" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$20M</text>
+    <rect x="12" y="320" width="676" height="36" rx="6" fill="#241a10" stroke="#f97316" stroke-width="1.4"/><rect x="12" y="320" width="5" height="36" fill="#f97316"/>
+    <text x="30" y="343" fill="#f97316" font-size="13" font-weight="700">9 июл</text><text x="95" y="343" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro Telecom</text><text x="400" y="343" fill="#f97316" font-size="13">Телеком (DePIN)</text><text x="660" y="343" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$25M</text>
+    <rect x="12" y="378" width="676" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="402" fill="#a1a1aa" font-size="14" text-anchor="middle">Резервы остаются преимущественно в казначейских облигациях/золоте/биткоине, но отдельно финансируемые инфраструктурные ставки набирают обороты</text>
+    <text x="350" y="424" fill="#71717a" font-size="13" text-anchor="middle">Источники: Fortune · NewsBTC · Tether.io · TelecomLead · CryptBull</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="30" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">泰達幣2025至2026年戰略基礎設施投資</text>
+  <g font-family="sans-serif">
+    <rect x="12" y="56" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="56" width="5" height="36" fill="#22c55e"/>
+    <text x="30" y="79" fill="#d4d4d8" font-size="13">2025</text><text x="95" y="79" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro 70%</text><text x="400" y="79" fill="#a1a1aa" font-size="13">農業</text><text x="660" y="79" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$620M</text>
+    <rect x="12" y="100" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="100" width="5" height="36" fill="#a78bfa"/>
+    <text x="30" y="123" fill="#d4d4d8" font-size="13">'26 Q1</text><text x="95" y="123" fill="#fafafa" font-size="13.5" font-weight="700">Rumble</text><text x="400" y="123" fill="#a1a1aa" font-size="13">媒體</text><text x="660" y="123" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$775M</text>
+    <rect x="12" y="144" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="144" width="5" height="36" fill="#38bdf8"/>
+    <text x="30" y="167" fill="#d4d4d8" font-size="13">'26 H1</text><text x="95" y="167" fill="#fafafa" font-size="13.5" font-weight="700">LayerZero</text><text x="400" y="167" fill="#a1a1aa" font-size="13">互操作性</text><text x="660" y="167" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">未披露</text>
+    <rect x="12" y="188" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="188" width="5" height="36" fill="#f59e0b"/>
+    <text x="30" y="211" fill="#d4d4d8" font-size="13">2026</text><text x="95" y="211" fill="#fafafa" font-size="13.5" font-weight="700">Elemental Altus</text><text x="400" y="211" fill="#a1a1aa" font-size="13">黃金權利金</text><text x="660" y="211" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$100M</text>
+    <rect x="12" y="232" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="232" width="5" height="36" fill="#ec4899"/>
+    <text x="30" y="255" fill="#d4d4d8" font-size="13">6月</text><text x="95" y="255" fill="#fafafa" font-size="13.5" font-weight="700">NEURA Robotics</text><text x="400" y="255" fill="#a1a1aa" font-size="13">機器人技術</text><text x="660" y="255" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$1.4B</text>
+    <rect x="12" y="276" width="676" height="36" rx="6" fill="#1c1c1f"/><rect x="12" y="276" width="5" height="36" fill="#06b6d4"/>
+    <text x="30" y="299" fill="#d4d4d8" font-size="13">7/8</text><text x="95" y="299" fill="#fafafa" font-size="13.5" font-weight="700">Mercado Bitcoin</text><text x="400" y="299" fill="#a1a1aa" font-size="13">交易所</text><text x="660" y="299" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$20M</text>
+    <rect x="12" y="320" width="676" height="36" rx="6" fill="#241a10" stroke="#f97316" stroke-width="1.4"/><rect x="12" y="320" width="5" height="36" fill="#f97316"/>
+    <text x="30" y="343" fill="#f97316" font-size="13" font-weight="700">7/9</text><text x="95" y="343" fill="#fafafa" font-size="13.5" font-weight="700">Adecoagro Telecom</text><text x="400" y="343" fill="#f97316" font-size="13">電信（DePIN）</text><text x="660" y="343" fill="#fafafa" font-size="13.5" font-weight="700" text-anchor="end">$25M</text>
+    <rect x="12" y="378" width="676" height="60" rx="8" fill="#1c1c1f" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="350" y="402" fill="#a1a1aa" font-size="14" text-anchor="middle">儲備仍以美國公債／黃金／比特幣為主，但另行籌資的基礎設施投資正在加速</text>
+    <text x="350" y="424" fill="#71717a" font-size="13" text-anchor="middle">資料來源：Fortune · NewsBTC · Tether.io · TelecomLead · CryptBull</text>
+  </g>
+</svg>
+</div>
 
 <h2 class="ko">무엇을 지켜봐야 하나</h2>
 <h2 class="en">What to Watch</h2>
@@ -376,6 +496,11 @@
 <h2 class="pt">O que observar</h2>
 <h2 class="tr">Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Cần Theo Dõi Điều Gì</h2>
+<h2 class="id">Yang Perlu Diperhatikan</h2>
+<h2 class="pl">Na Co Warto Zwrócić Uwagę</h2>
+<h2 class="it">Cosa Osservare</h2>
+<h2 class="ru">На Что Обратить Внимание</h2>
+<h2 class="zh">後續觀察重點</h2>
 
 <p class="ko">가장 먼저 확인할 지표는 테더의 다음 분기 준비금 증명 보고서다. 비유동 실물자산 비중이 이번 라운드들을 거치며 얼마나 늘었는지, 그리고 회사가 자발적으로 완전 감사로 전환할 의지를 보이는지가 관전 포인트다. 둘째, 미국에서 논의 중인 디지털자산시장 명확화법(CLARITY Act)이나 EU의 미카(MiCA) 규정이 스테이블코인 발행사의 준비금 외 투자 활동까지 규율 범위에 포함시킬지 여부다. 현재 두 법안 모두 준비금의 구성과 상환 절차에 초점을 맞추고 있을 뿐, 발행사가 별도 자본으로 벌이는 인수합병까지는 다루지 않는다.</p>
 <p class="en">The first thing to track is Tether's next quarterly attestation. Worth watching is how much the illiquid physical-asset share grows across these rounds, and whether the company shows any willingness to move toward a full audit. Second is whether pending frameworks — the U.S. CLARITY Act or the EU's MiCA rules — extend beyond reserve composition and redemption mechanics to cover an issuer's separate capital investments; as written today, neither addresses acquisitions funded outside the reserve itself.</p>
