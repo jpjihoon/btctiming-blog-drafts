@@ -158,7 +158,7 @@
     </g>
   </svg>
   </div>
-  <div class="en es de fr pt tr vi id pl it">
+  <div class="en es de fr pt tr vi">
   <svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
     <text x="20" y="28" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Speed of Collapse · Average Daily Decline</text>
     <g font-family="sans-serif">
@@ -409,6 +409,31 @@
     <li><strong><a href="/vi/blog/exchange-reserve-custody-blind-spot">Điểm Mù Của Chỉ Số Dự Trữ Sàn</a>:</strong> Rủi ro lưu ký mà một con số không thể xóa bỏ hoàn toàn</li>
     <li><strong><a href="/vi/blog/normalcy-bias-bitcoin-crash-freeze">Thiên Kiến Bình Thường Hóa</a>:</strong> Một lý do khác khiến cơ thể đông cứng trước sự mơ hồ</li>
   </ul>
+  <ul class="id">
+    <li><strong><a href="/id/blog/bviv-fear-index-emerges">Indeks Volatilitas BVIV</a>:</strong> Bagaimana "risiko yang diketahui" diperhitungkan ke dalam harga opsi secara real time</li>
+    <li><strong><a href="/id/blog/exchange-reserve-custody-blind-spot">Titik Buta Cadangan Bursa</a>:</strong> Risiko kustodi yang tidak bisa sepenuhnya dihapus oleh satu angka saja</li>
+    <li><strong><a href="/id/blog/normalcy-bias-bitcoin-crash-freeze">Bias Normalitas</a>:</strong> Alasan lain mengapa tubuh membeku menghadapi ambiguitas</li>
+  </ul>
+  <ul class="pl">
+    <li><strong><a href="/pl/blog/bviv-fear-index-emerges">Wskaźnik Zmienności BVIV</a>:</strong> Jak "znane ryzyko" jest wyceniane w opcjach w czasie rzeczywistym</li>
+    <li><strong><a href="/pl/blog/exchange-reserve-custody-blind-spot">Martwy Punkt Rezerw Giełdowych</a>:</strong> Ryzyko depozytariusza, którego jedna liczba nie potrafi w pełni wymazać</li>
+    <li><strong><a href="/pl/blog/normalcy-bias-bitcoin-crash-freeze">Błąd Normalności</a>:</strong> Kolejny powód, dla którego ciało zamiera w obliczu niejednoznaczności</li>
+  </ul>
+  <ul class="it">
+    <li><strong><a href="/it/blog/bviv-fear-index-emerges">L'Indice di Volatilità BVIV</a>:</strong> Come il "rischio noto" viene prezzato nelle opzioni in tempo reale</li>
+    <li><strong><a href="/it/blog/exchange-reserve-custody-blind-spot">Il Punto Cieco delle Riserve degli Exchange</a>:</strong> Il rischio di custodia che un singolo numero non può cancellare del tutto</li>
+    <li><strong><a href="/it/blog/normalcy-bias-bitcoin-crash-freeze">Il Bias di Normalità</a>:</strong> Un altro motivo per cui il corpo si blocca di fronte all'ambiguità</li>
+  </ul>
+  <ul class="ru">
+    <li><strong><a href="/ru/blog/bviv-fear-index-emerges">Индекс волатильности BVIV</a>:</strong> Как "известный риск" закладывается в цены опционов в реальном времени</li>
+    <li><strong><a href="/ru/blog/exchange-reserve-custody-blind-spot">Слепая зона резервов биржи</a>:</strong> Риск хранения активов, который одно число не способно полностью стереть</li>
+    <li><strong><a href="/ru/blog/normalcy-bias-bitcoin-crash-freeze">Предвзятость нормальности</a>:</strong> Ещё одна причина, почему тело замирает перед лицом неопределённости</li>
+  </ul>
+  <ul class="zh">
+    <li><strong><a href="/zh/blog/bviv-fear-index-emerges">BVIV波動率指數</a>:</strong> 「已知風險」如何即時反映在選擇權定價中</li>
+    <li><strong><a href="/zh/blog/exchange-reserve-custody-blind-spot">交易所儲備指標的盲點</a>:</strong> 單一數字無法完全抹去的託管風險</li>
+    <li><strong><a href="/zh/blog/normalcy-bias-bitcoin-crash-freeze">常態化偏誤</a>:</strong> 面對模糊性時,身體僵住的另一個原因</li>
+  </ul>
 
   <p class="ko" style="font-size:.85rem;color:#71717a">참고: Ellsberg, "Risk, Ambiguity, and the Savage Axioms"(Quarterly Journal of Economics, 1961); "Bitcoin Ambiguity" 연구(ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies"(Journal of International Financial Markets, Institutions and Money); Forbes, CoinDesk, CNBC, Yahoo Finance의 마운트곡스·테라·루나·FTX·2022년 약세장 관련 보도. 본 글은 투자 조언이 아니다.</p>
   <p class="en" style="font-size:.85rem;color:#71717a">References: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); the "Bitcoin Ambiguity" study (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); reporting from Forbes, CoinDesk, CNBC, and Yahoo Finance on Mt. Gox, Terra/Luna, FTX, and the 2022 bear market. This is not investment advice.</p>
@@ -419,5 +444,10 @@
   <p class="pt" style="font-size:.85rem;color:#71717a">Referências: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); o estudo "Bitcoin Ambiguity" (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); reportagens da Forbes, CoinDesk, CNBC e Yahoo Finance sobre Mt. Gox, Terra/Luna, FTX e o mercado em baixa de 2022. Isto não é aconselhamento de investimento.</p>
   <p class="tr" style="font-size:.85rem;color:#71717a">Kaynaklar: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); "Bitcoin Ambiguity" araştırması (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); Mt. Gox, Terra/Luna, FTX ve 2022 ayı piyasasına ilişkin Forbes, CoinDesk, CNBC ve Yahoo Finance haberleri. Bu bir yatırım tavsiyesi değildir.</p>
   <p class="vi" style="font-size:.85rem;color:#71717a">Tài liệu tham khảo: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); nghiên cứu "Bitcoin Ambiguity" (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); các bài đưa tin từ Forbes, CoinDesk, CNBC và Yahoo Finance về Mt. Gox, Terra/Luna, FTX và thị trường giá xuống năm 2022. Đây không phải là lời khuyên đầu tư.</p>
+  <p class="id" style="font-size:.85rem;color:#71717a">Referensi: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); studi "Bitcoin Ambiguity" (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); liputan dari Forbes, CoinDesk, CNBC, dan Yahoo Finance tentang Mt. Gox, Terra/Luna, FTX, dan pasar beruang 2022. Ini bukan nasihat investasi.</p>
+  <p class="pl" style="font-size:.85rem;color:#71717a">Źródła: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); badanie "Bitcoin Ambiguity" (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); doniesienia Forbes, CoinDesk, CNBC i Yahoo Finance na temat Mt. Gox, Terra/Luna, FTX i bessy z 2022 roku. To nie jest porada inwestycyjna.</p>
+  <p class="it" style="font-size:.85rem;color:#71717a">Riferimenti: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); lo studio "Bitcoin Ambiguity" (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); resoconti di Forbes, CoinDesk, CNBC e Yahoo Finance su Mt. Gox, Terra/Luna, FTX e il mercato ribassista del 2022. Questo non è un consiglio di investimento.</p>
+  <p class="ru" style="font-size:.85rem;color:#71717a">Источники: Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961); исследование "Bitcoin Ambiguity" (ResearchGate); "Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies" (Journal of International Financial Markets, Institutions and Money); материалы Forbes, CoinDesk, CNBC и Yahoo Finance о Mt. Gox, Terra/Luna, FTX и медвежьем рынке 2022 года. Это не является инвестиционным советом.</p>
+  <p class="zh" style="font-size:.85rem;color:#71717a">參考資料:Ellsberg, "Risk, Ambiguity, and the Savage Axioms" (Quarterly Journal of Economics, 1961);〈Bitcoin Ambiguity〉研究(ResearchGate);〈Investing during a Fintech Revolution: Ambiguity and Return Risk in Cryptocurrencies〉(Journal of International Financial Markets, Institutions and Money);Forbes、CoinDesk、CNBC與Yahoo Finance對Mt. Gox、Terra/Luna、FTX以及2022年熊市的相關報導。本文不構成投資建議。</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
