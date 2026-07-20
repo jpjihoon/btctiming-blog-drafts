@@ -9,6 +9,11 @@
 <p class="pt">A Aave implantou oficialmente a V4 na mainnet da Avalanche em 15 de julho, informaram CryptoTimes, Crypto Economy e crypto.news. É a primeira vez que a V4 - que estreou na mainnet da Ethereum em junho - se expande para além da Ethereum. A implantação introduz uma arquitetura Hub-and-Spoke composta por um Hub de Liquidez central e três Spokes (Principal, Correlacionado com AVAX e Forex), com ativos suportados inicialmente sendo AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT e EURC. A Fundação Avalanche se comprometeu com até US$ 15 milhões em incentivos baseados em desempenho, com a LlamaRisk cuidando da avaliação de risco e a Chainlink fornecendo a infraestrutura de oráculos.</p>
 <p class="tr">Aave, 15 Temmuz'da Avalanche ana ağında V4'ü resmi olarak devreye aldı; bunu CryptoTimes, Crypto Economy ve crypto.news bildirdi. Haziran'da Ethereum ana ağında tanıtılan V4'ün Ethereum dışına genişlemesi bu ilk kez oluyor. Bu dağıtım, bir merkezi Likidite Hub'ı ve üç Spoke'tan (Ana, AVAX-Korelasyonlu ve Forex) oluşan bir Hub-and-Spoke mimarisi getiriyor; başlangıçta desteklenen varlıklar AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT ve EURC. Avalanche Vakfı, performansa dayalı teşviklerde 15 milyon dolara kadar taahhütte bulundu; risk değerlendirmesini LlamaRisk, oracle altyapısını ise Chainlink üstleniyor.</p>
 <p class="vi">Aave đã chính thức triển khai V4 trên mainnet Avalanche vào ngày 15 tháng 7, theo CryptoTimes, Crypto Economy và crypto.news. Đây là lần đầu tiên V4 — ra mắt trên mainnet Ethereum vào tháng 6 — mở rộng ra ngoài Ethereum. Việc triển khai này giới thiệu kiến trúc Hub-and-Spoke gồm một Hub Thanh khoản trung tâm và ba Spoke (Chính, Tương quan AVAX và Forex), với các tài sản được hỗ trợ ban đầu là AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT và EURC. Quỹ Avalanche đã cam kết tới 15 triệu đô la ưu đãi dựa trên hiệu suất, với LlamaRisk phụ trách đánh giá rủi ro và Chainlink cung cấp hạ tầng oracle.</p>
+<p class="id">Aave secara resmi menerapkan V4 di mainnet Avalanche pada 15 Juli, menurut laporan CryptoTimes, Crypto Economy, dan crypto.news. Ini pertama kalinya V4 — yang debut di mainnet Ethereum pada Juni — meluas melampaui Ethereum. Peluncuran ini memperkenalkan arsitektur Hub-and-Spoke yang terdiri dari satu Liquidity Hub sentral dan tiga Spoke (Main, AVAX-Correlated, dan Forex), dengan aset yang didukung awal berupa AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT, dan EURC. Avalanche Foundation telah berkomitmen hingga $15 juta dalam insentif berbasis kinerja, dengan LlamaRisk menangani penilaian risiko dan Chainlink menyediakan infrastruktur oracle.</p>
+<p class="pl">Aave oficjalnie wdrożyło V4 na mainnecie Avalanche 15 lipca, poinformowały CryptoTimes, Crypto Economy i crypto.news. To pierwszy raz, gdy V4 — które zadebiutowało na mainnecie Ethereum w czerwcu — rozszerza się poza Ethereum. Wdrożenie wprowadza architekturę Hub-and-Spoke składającą się z jednego centralnego Liquidity Hub i trzech Spoke'ów (Main, AVAX-Correlated i Forex), z początkowo obsługiwanymi aktywami AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT i EURC. Avalanche Foundation zobowiązała się przeznaczyć do 15 milionów dolarów na zachęty oparte na wynikach, przy czym LlamaRisk zajmuje się oceną ryzyka, a Chainlink dostarcza infrastrukturę oracle.</p>
+<p class="it">Aave ha ufficialmente distribuito V4 sulla mainnet di Avalanche il 15 luglio, hanno riportato CryptoTimes, Crypto Economy e crypto.news. È la prima volta che V4 — che ha debuttato sulla mainnet di Ethereum a giugno — si espande oltre Ethereum. Il rilascio introduce un'architettura Hub-and-Spoke composta da un Liquidity Hub centrale e tre Spoke (Main, AVAX-Correlated e Forex), con asset supportati inizialmente AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT ed EURC. La Avalanche Foundation si è impegnata fino a 15 milioni di dollari in incentivi basati sulle prestazioni, con LlamaRisk che gestisce la valutazione del rischio e Chainlink che fornisce l'infrastruttura oracle.</p>
+<p class="ru">Aave официально развернула V4 в основной сети Avalanche 15 июля, сообщили CryptoTimes, Crypto Economy и crypto.news. Это первый раз, когда V4 — дебютировавшая в основной сети Ethereum в июне — расширяется за пределы Ethereum. Развёртывание вводит архитектуру Hub-and-Spoke, состоящую из одного центрального Liquidity Hub и трёх Spoke (Main, AVAX-Correlated и Forex), с первоначально поддерживаемыми активами AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT и EURC. Avalanche Foundation выделил до 15 миллионов долларов на стимулы, основанные на результатах, при этом LlamaRisk занимается оценкой рисков, а Chainlink предоставляет инфраструктуру оракулов.</p>
+<p class="zh">Aave於7月15日正式在Avalanche主網部署V4,CryptoTimes、Crypto Economy與crypto.news均有報導。這是V4——今年6月才在以太坊主網首次亮相——第一次擴展到以太坊之外。此次部署引入了Hub-and-Spoke架構,由一個中央流動性樞紐(Liquidity Hub)與三個分支(Spoke:主要、AVAX關聯、外匯)組成,初期支援的資產包括AVAX、sAVAX、BTC.b、WETH.e、USDC、USDT與EURC。Avalanche基金會承諾提供最高1,500萬美元的績效導向獎勵,風險評估由LlamaRisk負責,預言機基礎設施則由Chainlink提供。</p>
 
 <h2 class="ko">허브앤스포크는 무엇이 다른가 — V3의 유동성 분절 문제</h2>
 <h2 class="en">What the Hub-and-Spoke Model Actually Changes — V3's Liquidity Fragmentation Problem</h2>
@@ -19,6 +24,11 @@
 <h2 class="pt">O que o modelo Hub-and-Spoke realmente muda — o problema de fragmentação de liquidez da V3</h2>
 <h2 class="tr">Hub-and-Spoke Modeli Gerçekte Neyi Değiştiriyor — V3'ün Likidite Parçalanması Sorunu</h2>
 <h2 class="vi">Mô hình Hub-and-Spoke thực sự thay đổi điều gì — vấn đề phân mảnh thanh khoản của V3</h2>
+<h2 class="id">Apa yang Sebenarnya Diubah oleh Model Hub-and-Spoke — Masalah Fragmentasi Likuiditas V3</h2>
+<h2 class="pl">Co Naprawdę Zmienia Model Hub-and-Spoke — Problem Fragmentacji Płynności V3</h2>
+<h2 class="it">Cosa Cambia Davvero il Modello Hub-and-Spoke — Il Problema della Frammentazione della Liquidità di V3</h2>
+<h2 class="ru">Что На Самом Деле Меняет Модель Hub-and-Spoke — Проблема Фрагментации Ликвидности V3</h2>
+<h2 class="zh">Hub-and-Spoke模式究竟改變了什麼——V3的流動性碎片化問題</h2>
 
 <p class="ko">기존 V3는 시장마다 독립된 유동성 풀을 쓰는 격리형(isolated) 구조였다. 한 시장에 공급된 자산이 다른 시장의 대출 수요에 쓰이지 못하는 유동성 사일로 문제, 그리고 새 시장을 열 때마다 유동성을 처음부터 다시 모아야 하는 부트스트래핑 마찰이 대표적 한계로 꼽혔다. 특화된 자산이나 리스크 프로필을 반영한 신규 마켓을 만들수록 자본 효율은 오히려 떨어지는 구조였다.</p>
 <p class="en">Aave V3 used an isolated structure, with each market running its own separate liquidity pool. That produced two well-known limitations: liquidity silos, where assets supplied to one market couldn't serve borrowing demand in another, and bootstrapping friction, where every new market had to build up its liquidity from zero. The more specialized markets were created to serve niche assets or risk profiles, the more capital efficiency actually declined.</p>
@@ -29,6 +39,11 @@
 <p class="pt">A Aave V3 usava uma estrutura isolada, com cada mercado operando seu próprio pool de liquidez separado. Isso gerava duas limitações conhecidas: silos de liquidez, em que ativos fornecidos a um mercado não podiam atender à demanda de empréstimo de outro, e atrito de inicialização, em que cada novo mercado precisava construir sua liquidez do zero. Quanto mais mercados especializados eram criados para ativos ou perfis de risco de nicho, mais a eficiência de capital de fato caía.</p>
 <p class="tr">Aave V3, her pazarın kendi ayrı likidite havuzunu çalıştırdığı izole bir yapı kullanıyordu. Bu, iki bilinen kısıtlamaya yol açıyordu: bir pazara sağlanan varlıkların başka bir pazarın borç verme talebine hizmet edemediği likidite siloları ve her yeni pazarın likiditesini sıfırdan inşa etmesi gereken başlangıç sürtünmesi. Niş varlıklar veya risk profilleri için ne kadar çok özelleşmiş pazar yaratılırsa, sermaye verimliliği o kadar düşüyordu.</p>
 <p class="vi">Aave V3 sử dụng cấu trúc cô lập, với mỗi thị trường vận hành một pool thanh khoản riêng biệt. Điều đó tạo ra hai hạn chế đã được biết đến: silo thanh khoản, nơi tài sản cung cấp cho một thị trường không thể phục vụ nhu cầu vay ở thị trường khác, và ma sát khởi động, nơi mỗi thị trường mới phải xây dựng thanh khoản từ con số không. Càng nhiều thị trường chuyên biệt được tạo ra cho các tài sản hoặc hồ sơ rủi ro ngách, hiệu quả sử dụng vốn thực tế càng giảm.</p>
+<p class="id">Aave V3 menggunakan struktur terisolasi, dengan setiap pasar menjalankan pool likuiditasnya sendiri secara terpisah. Hal ini menghasilkan dua keterbatasan yang sudah dikenal: silo likuiditas, di mana aset yang dipasok ke satu pasar tidak dapat melayani permintaan pinjaman di pasar lain, dan friksi bootstrapping, di mana setiap pasar baru harus membangun likuiditasnya dari nol. Semakin banyak pasar khusus yang dibuat untuk melayani aset atau profil risiko khusus, efisiensi modal justru semakin menurun.</p>
+<p class="pl">Aave V3 wykorzystywało strukturę izolowaną, w której każdy rynek prowadził własną, odrębną pulę płynności. Skutkowało to dwoma dobrze znanymi ograniczeniami: silosami płynności, w których aktywa dostarczone do jednego rynku nie mogły obsłużyć popytu na pożyczki w innym, oraz tarciem rozruchowym, gdy każdy nowy rynek musiał budować swoją płynność od zera. Im więcej wyspecjalizowanych rynków tworzono dla niszowych aktywów lub profili ryzyka, tym bardziej faktycznie spadała efektywność kapitału.</p>
+<p class="it">Aave V3 utilizzava una struttura isolata, in cui ogni mercato gestiva il proprio pool di liquidità separato. Ciò produceva due limiti ben noti: silos di liquidità, in cui gli asset forniti a un mercato non potevano servire la domanda di prestito in un altro, e attrito di bootstrapping, in cui ogni nuovo mercato doveva costruire la propria liquidità da zero. Più mercati specializzati venivano creati per servire asset o profili di rischio di nicchia, più l'efficienza del capitale effettivamente diminuiva.</p>
+<p class="ru">Aave V3 использовала изолированную структуру, где каждый рынок работал с собственным отдельным пулом ликвидности. Это порождало два хорошо известных ограничения: силосы ликвидности, где активы, предоставленные одному рынку, не могли обслуживать спрос на займы на другом, и трение начального запуска, когда каждому новому рынку приходилось наращивать ликвидность с нуля. Чем больше специализированных рынков создавалось для нишевых активов или профилей риска, тем сильнее фактически падала эффективность капитала.</p>
+<p class="zh">Aave V3採用的是孤立式結構,每個市場各自運行獨立的流動性池。這產生了兩個眾所周知的限制:流動性孤島——供給到某一市場的資產無法服務於另一市場的借貸需求;以及啟動摩擦——每個新市場都必須從零開始累積流動性。為小眾資產或風險概況打造的特化市場愈多,資本效率實際上反而愈低。</p>
 
 <p class="ko">V4는 이를 허브 1개가 체인 전체의 유동성과 회계를 통합하고, 사용자가 실제로 거래하는 개별 스포크들이 허브에서 필요한 만큼만 유동성을 끌어다 쓰는 방식으로 바꿨다. 허브는 각 스포크가 어떤 자산에 얼마나 접근할 수 있는지 한도를 관리하기 때문에, 리스크는 스포크별로 격리하면서도 유동성 자체는 쪼개지지 않는다. 이론적으로는 신규 특화 마켓을 열 때마다 유동성을 처음부터 다시 모을 필요가 없어진다는 뜻이다.</p>
 <p class="en">V4 changes that by having a single Hub consolidate liquidity and accounting across an entire chain, while individual Spokes - where users actually transact - draw only as much liquidity from the Hub as they need. Because the Hub manages limits on which assets each Spoke can access, risk stays isolated per Spoke while liquidity itself doesn't get split up. In theory, that means a new specialized market no longer has to rebuild liquidity from scratch every time.</p>
@@ -39,6 +54,11 @@
 <p class="pt">A V4 muda isso ao fazer com que um único Hub consolide a liquidez e a contabilidade de toda uma cadeia, enquanto os Spokes individuais - onde os usuários realmente transacionam - retiram do Hub apenas a liquidez de que precisam. Como o Hub gerencia limites sobre quais ativos cada Spoke pode acessar, o risco permanece isolado por Spoke sem que a liquidez em si seja dividida. Em teoria, isso significa que um novo mercado especializado não precisa mais reconstruir sua liquidez do zero a cada vez.</p>
 <p class="tr">V4 bunu, tek bir Hub'ın bir zincirin tamamındaki likiditeyi ve muhasebeyi birleştirmesini sağlayarak değiştiriyor; kullanıcıların fiilen işlem yaptığı bireysel Spoke'lar ise Hub'dan yalnızca ihtiyaç duydukları kadar likidite çekiyor. Hub, her Spoke'un hangi varlıklara erişebileceğine dair sınırları yönettiği için, likiditenin kendisi bölünmeden risk Spoke başına izole kalıyor. Teorik olarak bu, yeni bir özelleşmiş pazarın artık her seferinde likiditesini sıfırdan yeniden inşa etmesi gerekmediği anlamına geliyor.</p>
 <p class="vi">V4 thay đổi điều này bằng cách để một Hub duy nhất hợp nhất thanh khoản và kế toán trên toàn bộ một chuỗi, trong khi các Spoke riêng lẻ — nơi người dùng thực sự giao dịch — chỉ rút từ Hub lượng thanh khoản mà họ cần. Vì Hub quản lý giới hạn về việc mỗi Spoke có thể tiếp cận những tài sản nào, rủi ro vẫn được cô lập theo từng Spoke mà bản thân thanh khoản không bị chia tách. Về lý thuyết, điều đó có nghĩa là một thị trường chuyên biệt mới không còn phải xây dựng lại thanh khoản từ đầu mỗi lần nữa.</p>
+<p class="id">V4 mengubah hal ini dengan membuat satu Hub tunggal mengonsolidasikan likuiditas dan akuntansi di seluruh chain, sementara Spoke individual — tempat pengguna sebenarnya bertransaksi — hanya menarik likuiditas dari Hub sebanyak yang mereka butuhkan. Karena Hub mengelola batas aset apa yang dapat diakses setiap Spoke, risiko tetap terisolasi per Spoke sementara likuiditas itu sendiri tidak terpecah. Secara teori, ini berarti pasar khusus baru tidak lagi harus membangun ulang likuiditas dari nol setiap kali.</p>
+<p class="pl">V4 zmienia to, sprawiając, że pojedynczy Hub konsoliduje płynność i księgowość w obrębie całego łańcucha, podczas gdy poszczególne Spoke'i — gdzie użytkownicy faktycznie dokonują transakcji — pobierają z Huba tylko tyle płynności, ile potrzebują. Ponieważ Hub zarządza limitami tego, do jakich aktywów każdy Spoke ma dostęp, ryzyko pozostaje izolowane dla każdego Spoke'a, podczas gdy sama płynność nie ulega podziałowi. Teoretycznie oznacza to, że nowy wyspecjalizowany rynek nie musi już za każdym razem odbudowywać płynności od zera.</p>
+<p class="it">V4 cambia questo facendo sì che un unico Hub consolidi la liquidità e la contabilità su un'intera catena, mentre i singoli Spoke — dove gli utenti effettivamente operano — attingono dal Hub solo la liquidità di cui hanno bisogno. Poiché il Hub gestisce i limiti su quali asset ciascuno Spoke può accedere, il rischio rimane isolato per Spoke mentre la liquidità stessa non viene suddivisa. In teoria, questo significa che un nuovo mercato specializzato non deve più ricostruire la liquidità da zero ogni volta.</p>
+<p class="ru">V4 меняет это, позволяя единому Hub консолидировать ликвидность и учёт по всей цепочке, в то время как отдельные Spoke — где пользователи фактически совершают транзакции — берут из Hub только столько ликвидности, сколько им нужно. Поскольку Hub управляет лимитами на то, к каким активам может получить доступ каждый Spoke, риск остаётся изолированным для каждого Spoke, при этом сама ликвидность не дробится. Теоретически это означает, что новому специализированному рынку больше не нужно каждый раз восстанавливать ликвидность с нуля.</p>
+<p class="zh">V4改變了這一點:由單一Hub統一整條鏈上的流動性與帳務,而使用者實際交易的各個Spoke,則只從Hub中提取所需的流動性。由於Hub管理著每個Spoke可存取哪些資產的額度,風險依然按Spoke隔離,但流動性本身不會被切割。理論上,這意味著每次開設新的特化市場,都不必再從零重新累積流動性。</p>
 
 <h2 class="ko">왜 아발란체가 먼저인가 — RWA와 자사 확장 전적이 말해주는 것</h2>
 <h2 class="en">Why Avalanche Went First — What RWA Momentum and Aave's Own Track Record Say</h2>
@@ -49,6 +69,11 @@
 <h2 class="pt">Por que a Avalanche veio primeiro — o que o impulso de RWA e o histórico da própria Aave revelam</h2>
 <h2 class="tr">Avalanche Neden Önce Geldi — RWA Momentumu ve Aave'nin Kendi Geçmişi Ne Söylüyor</h2>
 <h2 class="vi">Vì sao Avalanche được chọn trước — điều mà đà tăng RWA và thành tích riêng của Aave cho thấy</h2>
+<h2 class="id">Kenapa Avalanche Duluan — Apa yang Diungkap Momentum RWA dan Rekam Jejak Aave</h2>
+<h2 class="pl">Dlaczego Avalanche Był Pierwszy — Co Mówi Impet RWA i Własna Historia Aave</h2>
+<h2 class="it">Perché Avalanche È Andata per Prima — Cosa Dicono lo Slancio degli RWA e il Track Record di Aave</h2>
+<h2 class="ru">Почему Avalanche Была Первой — Что Говорят Импульс RWA и Собственная История Aave</h2>
+<h2 class="zh">為何Avalanche搶得先機——RWA動能與Aave自身戰績說明了什麼</h2>
 
 <p class="ko">아베는 이번 로드맵에서 다음 단계로 토큰화된 실물자산(RWA) 전용 허브를 아발란체에 제안할 예정이라고 밝혔다. 공교롭게도 아발란체에는 이미 블랙록의 토큰화 머니마켓펀드 BUIDL이 <a href="/blog/blackrock-buidl-avalanche-900m-rwa-race">한 주 만에 105% 늘어 9억달러를 넘어선 전례</a>가 있다 — RWA 자금이 이미 몰려 있는 체인 위에 대출 인프라를 얹는 조합인 셈이다. 다만 그 BUIDL 급증이 신규 외부자금 유입인지, 기존 세 체인 자금의 재배분인지는 당시에도 불확실하다는 지적이 있었다는 점은 짚어둘 만하다.</p>
 <p class="en">Aave said its next roadmap step is proposing a dedicated tokenized real-world-asset (RWA) hub on Avalanche. Notably, Avalanche already has a track record here - BlackRock's tokenized money-market fund BUIDL <a href="/en/blog/blackrock-buidl-avalanche-900m-rwa-race">grew 105% in a single week to top $900 million</a> - meaning this pairs lending infrastructure with a chain where RWA capital was already concentrating. Worth noting, though: even at the time, it was unclear whether that BUIDL surge reflected genuinely new outside capital or simply a reallocation of existing funds across three chains.</p>
@@ -59,6 +84,11 @@
 <p class="pt">A Aave disse que o próximo passo do seu roteiro é propor um hub dedicado a ativos do mundo real tokenizados (RWA) na Avalanche. Vale notar que a Avalanche já tem um histórico nisso - o fundo tokenizado do mercado monetário da BlackRock, o BUIDL, <a href="/pt/blog/blackrock-buidl-avalanche-900m-rwa-race">cresceu 105% em uma única semana, ultrapassando US$ 900 milhões</a> -, o que significa que isso combina infraestrutura de empréstimo com uma cadeia onde o capital de RWA já estava se concentrando. Vale ressaltar, porém, que mesmo à época não estava claro se essa alta do BUIDL refletia capital externo genuinamente novo ou apenas uma realocação de fundos já existentes entre três cadeias.</p>
 <p class="tr">Aave, yol haritasındaki bir sonraki adımın Avalanche üzerinde token haline getirilmiş gerçek dünya varlıkları (RWA) için özel bir hub önermek olduğunu söyledi. Dikkat çekici olan, Avalanche'ın bu konuda zaten bir geçmişi olması — BlackRock'ın tokenize edilmiş para piyasası fonu BUIDL, <a href="/tr/blog/blackrock-buidl-avalanche-900m-rwa-race">tek bir haftada %105 büyüyerek 900 milyon doların üzerine çıktı</a> — bu da borç verme altyapısının, RWA sermayesinin zaten yoğunlaştığı bir zincirle eşleştiği anlamına geliyor. Yine de belirtmekte fayda var: o dönemde bile BUIDL'deki bu artışın gerçekten yeni dış sermayeyi mi yoksa üç zincir arasında mevcut fonların yeniden dağıtılmasını mı yansıttığı belirsizdi.</p>
 <p class="vi">Aave cho biết bước tiếp theo trong lộ trình của họ là đề xuất một hub chuyên biệt cho tài sản thế giới thực được token hóa (RWA) trên Avalanche. Đáng chú ý, Avalanche đã có thành tích trong lĩnh vực này — quỹ thị trường tiền tệ được token hóa BUIDL của BlackRock <a href="/vi/blog/blackrock-buidl-avalanche-900m-rwa-race">đã tăng 105% chỉ trong một tuần, vượt mốc 900 triệu đô la</a> — nghĩa là điều này kết hợp hạ tầng cho vay với một chuỗi mà vốn RWA vốn đã tập trung sẵn. Tuy nhiên, cũng cần lưu ý rằng ngay cả vào thời điểm đó, không rõ liệu đợt tăng BUIDL này phản ánh dòng vốn bên ngoài thực sự mới hay chỉ là sự phân bổ lại vốn hiện có giữa ba chuỗi.</p>
+<p class="id">Aave mengatakan langkah roadmap berikutnya adalah mengusulkan hub aset dunia nyata (RWA) khusus yang di-tokenisasi di Avalanche. Yang menarik, Avalanche sudah punya rekam jejak di sini — dana pasar uang tertokenisasi BUIDL milik BlackRock <a href="/id/blog/blackrock-buidl-avalanche-900m-rwa-race">tumbuh 105% hanya dalam satu minggu hingga melampaui $900 juta</a> — artinya ini memadukan infrastruktur pinjaman dengan chain tempat modal RWA sudah terkonsentrasi. Namun perlu dicatat: bahkan pada saat itu, tidak jelas apakah lonjakan BUIDL tersebut mencerminkan modal eksternal yang benar-benar baru atau sekadar realokasi dana yang sudah ada di tiga chain.</p>
+<p class="pl">Aave poinformowało, że kolejnym krokiem w planie rozwoju jest zaproponowanie dedykowanego huba dla tokenizowanych aktywów rzeczywistych (RWA) na Avalanche. Co ciekawe, Avalanche ma już w tej dziedzinie osiągnięcia — tokenizowany fundusz rynku pieniężnego BlackRock, BUIDL, <a href="/pl/blog/blackrock-buidl-avalanche-900m-rwa-race">wzrósł o 105% w ciągu jednego tygodnia, przekraczając 900 milionów dolarów</a> — co oznacza, że łączy to infrastrukturę pożyczkową z łańcuchem, na którym kapitał RWA już się koncentrował. Warto jednak zauważyć: nawet wtedy nie było jasne, czy ten wzrost BUIDL odzwierciedlał rzeczywiście nowy kapitał zewnętrzny, czy po prostu realokację istniejących środków między trzema łańcuchami.</p>
+<p class="it">Aave ha affermato che il prossimo passo della sua roadmap è proporre un hub dedicato agli asset del mondo reale tokenizzati (RWA) su Avalanche. È interessante notare che Avalanche ha già un track record in questo campo — il fondo del mercato monetario tokenizzato di BlackRock, BUIDL, <a href="/it/blog/blackrock-buidl-avalanche-900m-rwa-race">è cresciuto del 105% in una sola settimana superando i 900 milioni di dollari</a> — il che significa che questo abbina l'infrastruttura di prestito a una catena dove il capitale RWA si stava già concentrando. Vale la pena notare, tuttavia, che anche all'epoca non era chiaro se quel picco di BUIDL riflettesse capitale esterno realmente nuovo o semplicemente una riallocazione di fondi esistenti tra tre catene.</p>
+<p class="ru">Aave заявила, что следующий шаг её дорожной карты — предложить выделенный хаб для токенизированных реальных активов (RWA) на Avalanche. Примечательно, что у Avalanche уже есть послужной список в этой сфере — токенизированный фонд денежного рынка BlackRock, BUIDL, <a href="/ru/blog/blackrock-buidl-avalanche-900m-rwa-race">вырос на 105% за одну неделю, превысив 900 миллионов долларов</a> — а значит, это сочетает кредитную инфраструктуру с сетью, где капитал RWA уже концентрировался. Стоит отметить, впрочем: даже тогда было неясно, отражал ли этот всплеск BUIDL действительно новый внешний капитал или просто перераспределение существующих средств между тремя сетями.</p>
+<p class="zh">Aave表示,其路線圖的下一步是在Avalanche上提出一個專屬的代幣化真實世界資產(RWA)樞紐。值得注意的是,Avalanche在這方面已有戰績——貝萊德的代幣化貨幣市場基金BUIDL<a href="/zh/blog/blackrock-buidl-avalanche-900m-rwa-race">曾在短短一週內成長105%,突破9億美元</a>——這意味著這次部署把借貸基礎設施,配對到一條RWA資金早已聚集的鏈上。不過值得指出的是:即使在當時,那波BUIDL激增究竟反映的是真正新增的外部資金,還是三條鏈之間既有資金的重新分配,也並不明朗。</p>
 
 <p class="ko">아베의 신규 체인 확장 전적 자체는 엇갈린다. 지난 6월 몬애드(Monad) 배포는 48시간 만에 예치액(TVL) 1억달러를 끌어들인 반면, <a href="/blog/aave-v3-zksync-era-relaunch-tvl-gap">지난달 zkSync 이라 재배포는 DAO가 8개월 전 '시장 적합성 부족'으로 동결시켰던 전례를 딛고도 출시 하루 만에 TVL이 80만달러에도 못 미쳤다</a>. 이번 아발란체 V4가 몬애드 쪽에 가까울지 zkSync 쪽에 가까울지는, 이미 검증된 대형 체인이라는 점에서 전자에 무게가 실리지만 아직 확정된 것은 아니다.</p>
 <p class="en">Aave's own record expanding to new chains is mixed. Last June's Monad deployment pulled in $100 million in total value locked (TVL) within 48 hours, while <a href="/en/blog/aave-v3-zksync-era-relaunch-tvl-gap">last month's zkSync Era relaunch - reviving a deployment the DAO itself had frozen eight months earlier for "insufficient market fit" - drew less than $800,000 in TVL within a day of launch</a>. Whether this Avalanche V4 rollout tracks closer to Monad or to zkSync isn't settled yet, though Avalanche's status as an already-proven chain tilts the odds toward the former.</p>
@@ -69,6 +99,11 @@
 <p class="pt">O próprio histórico da Aave ao se expandir para novas cadeias é misto. A implantação na Monad em junho passado atraiu US$ 100 milhões em valor total bloqueado (TVL) em 48 horas, enquanto <a href="/pt/blog/aave-v3-zksync-era-relaunch-tvl-gap">o relançamento na zkSync Era no mês passado - reativando uma implantação que a própria DAO havia congelado oito meses antes por "ajuste de mercado insuficiente" - atraiu menos de US$ 800 mil em TVL em um dia após o lançamento</a>. Se esta implantação da V4 na Avalanche vai se parecer mais com a Monad ou com a zkSync ainda não está decidido, embora o status da Avalanche como cadeia já comprovada incline a balança para a primeira opção.</p>
 <p class="tr">Aave'nin yeni zincirlere genişleme konusundaki kendi geçmişi karışık. Geçen Haziran'daki Monad dağıtımı 48 saat içinde 100 milyon dolarlık toplam kilitli değer (TVL) çekerken, <a href="/tr/blog/aave-v3-zksync-era-relaunch-tvl-gap">geçen ay DAO'nun sekiz ay önce "yetersiz pazar uyumu" nedeniyle dondurduğu bir dağıtımı yeniden canlandıran zkSync Era yeniden lansmanı, lansmandan bir gün sonra 800 bin doların altında TVL çekti</a>. Bu Avalanche V4 dağıtımının Monad'a mı yoksa zkSync'e mi daha yakın olacağı henüz belli değil, ancak Avalanche'ın zaten kanıtlanmış bir zincir olması ihtimali birincisine kaydırıyor.</p>
 <p class="vi">Thành tích riêng của Aave khi mở rộng sang các chuỗi mới lại không đồng đều. Việc triển khai trên Monad hồi tháng 6 vừa qua đã thu hút 100 triệu đô la tổng giá trị bị khóa (TVL) trong 48 giờ, trong khi <a href="/vi/blog/aave-v3-zksync-era-relaunch-tvl-gap">việc tái ra mắt trên zkSync Era tháng trước — hồi sinh một đợt triển khai mà chính DAO đã đóng băng tám tháng trước đó vì "không phù hợp với thị trường" — chỉ thu hút chưa đến 800.000 đô la TVL trong vòng một ngày sau khi ra mắt</a>. Liệu đợt triển khai V4 trên Avalanche này sẽ gần với Monad hay zkSync hơn vẫn chưa được xác định, dù vị thế của Avalanche như một chuỗi đã được kiểm chứng nghiêng cán cân về phía trước.</p>
+<p class="id">Rekam jejak Aave sendiri dalam ekspansi ke chain baru bercampur. Peluncuran Monad Juni lalu menarik $100 juta total value locked (TVL) dalam 48 jam, sementara <a href="/id/blog/aave-v3-zksync-era-relaunch-tvl-gap">peluncuran ulang zkSync Era bulan lalu — menghidupkan kembali deployment yang bahkan pernah dibekukan DAO delapan bulan sebelumnya karena "kecocokan pasar tidak memadai" — hanya menarik kurang dari $800.000 TVL dalam sehari setelah peluncuran</a>. Apakah rilis Avalanche V4 ini akan lebih mendekati Monad atau zkSync belum jelas, meski status Avalanche sebagai chain yang sudah terbukti condong ke kemungkinan yang pertama.</p>
+<p class="pl">Własna historia Aave w ekspansji na nowe łańcuchy jest niejednoznaczna. Czerwcowe wdrożenie na Monad przyciągnęło 100 milionów dolarów całkowitej zablokowanej wartości (TVL) w ciągu 48 godzin, podczas gdy <a href="/pl/blog/aave-v3-zksync-era-relaunch-tvl-gap">ponowne uruchomienie zkSync Era w zeszłym miesiącu — przywracające wdrożenie, które sam DAO zamroził osiem miesięcy wcześniej z powodu „niewystarczającego dopasowania do rynku" — przyciągnęło mniej niż 800 000 dolarów TVL w ciągu doby od premiery</a>. Czy to wdrożenie V4 na Avalanche będzie bliższe Monad, czy zkSync, jeszcze nie wiadomo, choć status Avalanche jako sprawdzonego już łańcucha przechyla szalę na korzyść tego pierwszego.</p>
+<p class="it">Il track record di Aave nell'espansione verso nuove catene è discontinuo. Il rilascio su Monad dello scorso giugno ha attirato 100 milioni di dollari di valore totale bloccato (TVL) in 48 ore, mentre <a href="/it/blog/aave-v3-zksync-era-relaunch-tvl-gap">il rilancio di zkSync Era il mese scorso — che ha riportato in vita un rilascio che la stessa DAO aveva congelato otto mesi prima per "adattamento di mercato insufficiente" — ha attirato meno di 800.000 dollari di TVL entro un giorno dal lancio</a>. Se questo rollout V4 su Avalanche seguirà più da vicino Monad o zkSync non è ancora deciso, sebbene lo status di Avalanche come catena già collaudata sposti le probabilità verso il primo.</p>
+<p class="ru">Собственная история Aave в расширении на новые сети неоднородна. Июньское развёртывание на Monad привлекло 100 миллионов долларов общей заблокированной стоимости (TVL) за 48 часов, тогда как <a href="/ru/blog/aave-v3-zksync-era-relaunch-tvl-gap">повторный запуск zkSync Era в прошлом месяце — оживление развёртывания, которое сама DAO заморозила восемью месяцами ранее из-за «недостаточного соответствия рынку» — привлёк менее 800 000 долларов TVL в течение дня после запуска</a>. Будет ли этот запуск V4 на Avalanche ближе к Monad или к zkSync, пока не решено, хотя статус Avalanche как уже проверенной сети склоняет шансы в пользу первого варианта.</p>
+<p class="zh">Aave自身在拓展新鏈上的戰績可謂喜憂參半。去年6月的Monad部署在48小時內吸引了1億美元的總鎖倉價值(TVL),而<a href="/zh/blog/aave-v3-zksync-era-relaunch-tvl-gap">上個月的zkSync Era重新上線——重啟了一個DAO自己在八個月前因「市場契合度不足」而凍結的部署——上線一天內吸引的TVL卻不到80萬美元</a>。這次Avalanche V4的推出,究竟會更接近Monad還是zkSync的軌跡,目前尚無定論,不過Avalanche作為一條已被驗證過的鏈,這一身份讓天平略微傾向前者。</p>
 
 <h2 class="ko">1,500만달러 인센티브의 의미와 지켜볼 지점</h2>
 <h2 class="en">What the $15 Million Incentive Means, and What to Watch</h2>
@@ -79,6 +114,11 @@
 <h2 class="pt">O que significam os US$ 15 milhões em incentivos, e o que observar</h2>
 <h2 class="tr">15 Milyon Dolarlık Teşvik Ne Anlama Geliyor ve Nelere Dikkat Edilmeli</h2>
 <h2 class="vi">Ý nghĩa của khoản ưu đãi 15 triệu đô la, và những gì cần theo dõi</h2>
+<h2 class="id">Apa Arti Insentif $15 Juta Ini, dan Apa yang Perlu Diperhatikan</h2>
+<h2 class="pl">Co Oznacza Zachęta w Wysokości 15 Milionów Dolarów i Na Co Warto Zwrócić Uwagę</h2>
+<h2 class="it">Cosa Significa l'Incentivo da 15 Milioni di Dollari e Cosa Osservare</h2>
+<h2 class="ru">Что Означает Стимул в 15 Миллионов Долларов и На Что Обратить Внимание</h2>
+<h2 class="zh">1500萬美元獎勵計畫代表什麼,又該關注哪些重點</h2>
 
 <p class="ko">아발란체재단이 내건 인센티브는 정액 지급이 아니라 성과 기반(마일스톤형)으로 설계됐다 — TVL이나 대출 활동 같은 목표치를 달성해야 지급되는 구조다. 이는 유기적 수요 없이 보조금만으로 예치액을 부풀리는 '용병 자본(mercenary capital)' 우려를 줄이려는 설계로 읽힌다.</p>
 <p class="en">The Avalanche Foundation's incentive isn't a flat payout - it's structured around performance milestones, paying out only once targets like TVL or borrowing activity are hit. That design reads as an attempt to limit "mercenary capital," where subsidies alone inflate deposits without organic demand behind them.</p>
@@ -89,6 +129,11 @@
 <p class="pt">O incentivo da Fundação Avalanche não é um pagamento fixo - é estruturado em torno de marcos de desempenho, sendo pago somente quando metas como TVL ou atividade de empréstimo são atingidas. Esse desenho se lê como uma tentativa de limitar o "capital mercenário", em que apenas subsídios inflam depósitos sem demanda orgânica por trás.</p>
 <p class="tr">Avalanche Vakfı'nın teşviki sabit bir ödeme değil — performans kilometre taşları etrafında yapılandırılmış, yalnızca TVL veya borç verme etkinliği gibi hedeflere ulaşıldığında ödeniyor. Bu tasarım, arkasında organik talep olmadan yalnızca sübvansiyonların mevduatları şişirdiği "paralı asker sermayesi"ni sınırlama girişimi olarak okunuyor.</p>
 <p class="vi">Khoản ưu đãi của Quỹ Avalanche không phải là một khoản chi trả cố định — nó được cấu trúc theo các mốc hiệu suất, chỉ được chi trả khi đạt được các mục tiêu như TVL hoặc hoạt động cho vay. Thiết kế này được hiểu là một nỗ lực nhằm hạn chế "vốn lính đánh thuê", nơi chỉ riêng các khoản trợ cấp làm phồng tiền gửi mà không có nhu cầu thực sự đứng sau.</p>
+<p class="id">Insentif dari Avalanche Foundation bukan pembayaran flat — ini distrukturkan berdasarkan milestone kinerja, hanya dibayarkan setelah target seperti TVL atau aktivitas peminjaman tercapai. Desain ini terbaca sebagai upaya membatasi "modal bayaran" (mercenary capital), di mana subsidi semata menggelembungkan simpanan tanpa permintaan organik di baliknya.</p>
+<p class="pl">Zachęta Avalanche Foundation nie jest płatnością zryczałtowaną — jest skonstruowana wokół kamieni milowych wydajności, wypłacana dopiero po osiągnięciu celów takich jak TVL czy aktywność pożyczkowa. Ten projekt odczytywany jest jako próba ograniczenia „kapitału najemnego", w którym same subsydia napompowują depozyty bez organicznego popytu za nimi.</p>
+<p class="it">L'incentivo della Avalanche Foundation non è un pagamento fisso — è strutturato attorno a traguardi di performance, pagato solo una volta raggiunti obiettivi come il TVL o l'attività di prestito. Questo design si legge come un tentativo di limitare il "capitale mercenario", in cui i soli sussidi gonfiano i depositi senza domanda organica a sostenerli.</p>
+<p class="ru">Стимул от Avalanche Foundation — это не фиксированная выплата, а структура, построенная вокруг показателей эффективности, выплачиваемая только по достижении таких целей, как TVL или активность заимствования. Такой дизайн можно расценивать как попытку ограничить «наёмный капитал», при котором одни лишь субсидии раздувают депозиты без органического спроса за ними.</p>
+<p class="zh">Avalanche基金會的獎勵並非一次性固定發放,而是圍繞績效里程碑設計,只有在達到TVL或借貸活動等目標時才會撥付。這種設計讀起來像是為了限制「傭兵資本」——僅靠補貼而非有機需求撐起存款規模的問題。</p>
 
 <p class="ko">그러나 반론도 있다 — 인센티브가 소진되는 시점에 실제 대출 수요가 남아있을지는 별개의 문제라는 지적이다. 과거 여러 체인의 유동성 마이닝 프로그램에서도 보조금 종료 직후 TVL이 급감한 사례가 반복돼 왔다. 지켜볼 지점은 세 가지다 — (1) RWA 허브 제안이 실제로 통과되는지, (2) 인센티브 마일스톤 달성 이후에도 TVL이 유지되는지, (3) 이번 아발란체 사례가 향후 V4의 다른 체인 확장 순서에 어떤 기준으로 작용할지.</p>
 <p class="en">There's a counterargument, though: whether real borrowing demand remains once the incentives run dry is a separate question. Multiple chains' past liquidity-mining programs have seen TVL collapse right after subsidies ended. Three things are worth watching: (1) whether the proposed RWA hub actually gets approved; (2) whether TVL holds up once incentive milestones are met; (3) whether this Avalanche case sets the template for how V4 expands to other chains next.</p>
@@ -99,6 +144,11 @@
 <p class="pt">Ainda assim, há um contra-argumento: se a demanda real de empréstimos persiste depois que os incentivos se esgotam é uma questão à parte. Vários programas de mineração de liquidez em outras cadeias já viram o TVL despencar logo após o fim dos subsídios. Três coisas merecem atenção: (1) se o hub de RWA proposto de fato é aprovado; (2) se o TVL se sustenta depois que os marcos de incentivo são atingidos; (3) se este caso da Avalanche define o padrão de como a V4 se expandirá para outras cadeias em seguida.</p>
 <p class="tr">Yine de bir karşı argüman var: teşvikler tükendiğinde gerçek borç verme talebinin kalıp kalmayacağı ayrı bir sorun. Birçok zincirdeki geçmiş likidite madenciliği programlarında, sübvansiyonlar bittikten hemen sonra TVL'nin çöktüğü tekrar tekrar görüldü. İzlenmesi gereken üç şey var: (1) önerilen RWA hub'ının gerçekten onaylanıp onaylanmayacağı; (2) teşvik kilometre taşlarına ulaşıldıktan sonra TVL'nin korunup korunmayacağı; (3) bu Avalanche vakasının V4'ün bundan sonra diğer zincirlere nasıl genişleyeceğine dair bir şablon oluşturup oluşturmayacağı.</p>
 <p class="vi">Tuy nhiên, cũng có lập luận phản bác: liệu nhu cầu vay thực sự có còn tồn tại sau khi các ưu đãi cạn kiệt hay không là một câu hỏi khác. Nhiều chương trình khai thác thanh khoản trước đây trên các chuỗi khác đã chứng kiến TVL sụp đổ ngay sau khi trợ cấp kết thúc. Có ba điều cần theo dõi: (1) liệu hub RWA được đề xuất có thực sự được phê duyệt; (2) liệu TVL có được duy trì sau khi đạt các mốc ưu đãi; (3) liệu trường hợp Avalanche này có trở thành khuôn mẫu cho cách V4 mở rộng sang các chuỗi khác tiếp theo hay không.</p>
+<p class="id">Namun ada bantahan: apakah permintaan pinjaman sungguhan tetap ada setelah insentif habis adalah pertanyaan terpisah. Berbagai program penambangan likuiditas di banyak chain di masa lalu telah melihat TVL runtuh tepat setelah subsidi berakhir. Ada tiga hal yang layak diperhatikan: (1) apakah hub RWA yang diusulkan benar-benar disetujui; (2) apakah TVL bertahan setelah milestone insentif tercapai; (3) apakah kasus Avalanche ini menjadi templat untuk bagaimana V4 meluas ke chain lain selanjutnya.</p>
+<p class="pl">Istnieje jednak kontrargument: czy realny popyt na pożyczki utrzyma się po wyczerpaniu zachęt, to osobna kwestia. Wiele przeszłych programów wydobywania płynności na różnych łańcuchach doświadczyło załamania TVL zaraz po zakończeniu subsydiów. Warto obserwować trzy rzeczy: (1) czy proponowany hub RWA rzeczywiście zostanie zatwierdzony; (2) czy TVL utrzyma się po osiągnięciu kamieni milowych zachęt; (3) czy ten przypadek Avalanche stanie się wzorcem dla dalszej ekspansji V4 na inne łańcuchy.</p>
+<p class="it">C'è però una controargomentazione: se la domanda reale di prestiti rimarrà una volta esauriti gli incentivi è una questione separata. Diversi programmi di liquidity mining su altre catene in passato hanno visto il TVL crollare subito dopo la fine dei sussidi. Ci sono tre cose da osservare: (1) se l'hub RWA proposto venga effettivamente approvato; (2) se il TVL si mantenga una volta raggiunti i traguardi degli incentivi; (3) se questo caso Avalanche stabilisca il modello per come V4 si espanderà su altre catene in futuro.</p>
+<p class="ru">Впрочем, есть и контраргумент: сохранится ли реальный спрос на займы после исчерпания стимулов — это отдельный вопрос. В прошлом на нескольких сетях программы майнинга ликвидности видели обвал TVL сразу после окончания субсидий. Стоит следить за тремя вещами: (1) будет ли предложенный RWA-хаб действительно одобрен; (2) удержится ли TVL после достижения контрольных показателей стимулов; (3) станет ли этот кейс с Avalanche шаблоном для того, как V4 будет расширяться на другие сети в дальнейшем.</p>
+<p class="zh">不過也有反方論點:激勵措施耗盡後,真實的借貸需求是否還會留存,是另一回事。過去多條鏈的流動性挖礦計畫都曾出現補貼結束後TVL立即崩跌的案例。有三件事值得關注:(1)提議中的RWA樞紐是否真能獲得通過;(2)在達成激勵里程碑之後TVL能否維持;(3)這次的Avalanche案例是否會成為V4未來拓展至其他鏈的範本。</p>
 
 <div class="ko">
 <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
@@ -370,6 +420,156 @@
   </g>
 </svg>
 </div>
+<div class="id">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Kartu Skor Peluncuran Chain Baru Aave</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="205" height="150" rx="10" fill="#0f1a12" stroke="#4ade80" stroke-width="1.6"/>
+    <text x="36" y="76" fill="#4ade80" font-size="14" font-weight="700">Monad V3 (Juni)</text>
+    <text x="36" y="112" fill="#e4e4e7" font-size="22" font-weight="800">$100 Jt</text>
+    <text x="36" y="134" fill="#a1a1aa" font-size="13">TVL dalam 48 jam</text>
+    <text x="36" y="158" fill="#4ade80" font-size="13" font-weight="700">&#10003; Debut kuat</text>
+    <rect x="248" y="50" width="205" height="150" rx="10" fill="#1a0f0f" stroke="#f87171" stroke-width="1.6"/>
+    <text x="264" y="76" fill="#f87171" font-size="14" font-weight="700">Peluncuran Ulang zkSync (Juni)</text>
+    <text x="264" y="112" fill="#e4e4e7" font-size="22" font-weight="800">&lt;$800Rb</text>
+    <text x="264" y="134" fill="#a1a1aa" font-size="13">TVL dalam 1 hari</text>
+    <text x="264" y="158" fill="#f87171" font-size="13" font-weight="700">&#10007; Dibekukan 8bln sebelumnya</text>
+    <rect x="476" y="50" width="205" height="150" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="492" y="76" fill="#fbbf24" font-size="14" font-weight="700">Avalanche V4 (15 Jul)</text>
+    <text x="492" y="112" fill="#e4e4e7" font-size="22" font-weight="800">$15Jt</text>
+    <text x="492" y="134" fill="#a1a1aa" font-size="13">Insentif milestone</text>
+    <text x="492" y="158" fill="#fbbf24" font-size="13" font-weight="700">? Hasil belum pasti</text>
+    <line x1="20" y1="222" x2="680" y2="222" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="248" fill="#e4e4e7" font-size="14" font-weight="700">Struktur Hub-and-Spoke (Avalanche)</text>
+    <rect x="20" y="262" width="200" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="298" fill="#e4e4e7" text-anchor="middle" font-size="14" font-weight="700">1 Liquidity Hub</text>
+    <rect x="250" y="262" width="410" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="270" y="298" fill="#a1a1aa" font-size="13">3 Spoke: Main / AVAX-Correlated / Forex</text>
+    <text x="20" y="350" fill="#71717a" font-size="12">Aset yang didukung: AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT, EURC</text>
+    <text x="20" y="382" fill="#52525b" font-size="12">Sumber: CryptoTimes, Crypto Economy, crypto.news, The Block (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="pl">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Karta Wyników Wdrożeń Aave na Nowych Łańcuchach</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="205" height="150" rx="10" fill="#0f1a12" stroke="#4ade80" stroke-width="1.6"/>
+    <text x="36" y="76" fill="#4ade80" font-size="14" font-weight="700">Monad V3 (czerwiec)</text>
+    <text x="36" y="112" fill="#e4e4e7" font-size="22" font-weight="800">100 mln $</text>
+    <text x="36" y="134" fill="#a1a1aa" font-size="13">TVL w 48 godz.</text>
+    <text x="36" y="158" fill="#4ade80" font-size="13" font-weight="700">&#10003; Mocny debiut</text>
+    <rect x="248" y="50" width="205" height="150" rx="10" fill="#1a0f0f" stroke="#f87171" stroke-width="1.6"/>
+    <text x="264" y="76" fill="#f87171" font-size="14" font-weight="700">Relaunch zkSync (czerwiec)</text>
+    <text x="264" y="112" fill="#e4e4e7" font-size="22" font-weight="800">&lt;800 tys. $</text>
+    <text x="264" y="134" fill="#a1a1aa" font-size="13">TVL w 1 dzień</text>
+    <text x="264" y="158" fill="#f87171" font-size="13" font-weight="700">&#10007; Zamrożony 8 mies. wcześniej</text>
+    <rect x="476" y="50" width="205" height="150" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="492" y="76" fill="#fbbf24" font-size="14" font-weight="700">Avalanche V4 (15 lipca)</text>
+    <text x="492" y="112" fill="#e4e4e7" font-size="22" font-weight="800">15 mln $</text>
+    <text x="492" y="134" fill="#a1a1aa" font-size="13">Zachęta za kamienie milowe</text>
+    <text x="492" y="158" fill="#fbbf24" font-size="13" font-weight="700">? Wynik nieznany</text>
+    <line x1="20" y1="222" x2="680" y2="222" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="248" fill="#e4e4e7" font-size="14" font-weight="700">Struktura Hub-and-Spoke (Avalanche)</text>
+    <rect x="20" y="262" width="200" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="298" fill="#e4e4e7" text-anchor="middle" font-size="14" font-weight="700">1 Liquidity Hub</text>
+    <rect x="250" y="262" width="410" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="270" y="298" fill="#a1a1aa" font-size="13">3 Spoke'i: Main / AVAX-Correlated / Forex</text>
+    <text x="20" y="350" fill="#71717a" font-size="12">Obsługiwane aktywa: AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT, EURC</text>
+    <text x="20" y="382" fill="#52525b" font-size="12">Źródło: CryptoTimes, Crypto Economy, crypto.news, The Block (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="it">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Scheda di Valutazione dei Rilasci di Aave su Nuove Catene</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="205" height="150" rx="10" fill="#0f1a12" stroke="#4ade80" stroke-width="1.6"/>
+    <text x="36" y="76" fill="#4ade80" font-size="14" font-weight="700">Monad V3 (giugno)</text>
+    <text x="36" y="112" fill="#e4e4e7" font-size="22" font-weight="800">100 Mln $</text>
+    <text x="36" y="134" fill="#a1a1aa" font-size="13">TVL in 48 ore</text>
+    <text x="36" y="158" fill="#4ade80" font-size="13" font-weight="700">&#10003; Debutto forte</text>
+    <rect x="248" y="50" width="205" height="150" rx="10" fill="#1a0f0f" stroke="#f87171" stroke-width="1.6"/>
+    <text x="264" y="76" fill="#f87171" font-size="14" font-weight="700">Rilancio zkSync (giugno)</text>
+    <text x="264" y="112" fill="#e4e4e7" font-size="22" font-weight="800">&lt;800K $</text>
+    <text x="264" y="134" fill="#a1a1aa" font-size="13">TVL in 1 giorno</text>
+    <text x="264" y="158" fill="#f87171" font-size="13" font-weight="700">&#10007; Congelato 8 mesi prima</text>
+    <rect x="476" y="50" width="205" height="150" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="492" y="76" fill="#fbbf24" font-size="14" font-weight="700">Avalanche V4 (15 lug)</text>
+    <text x="492" y="112" fill="#e4e4e7" font-size="22" font-weight="800">15 Mln $</text>
+    <text x="492" y="134" fill="#a1a1aa" font-size="13">Incentivo a traguardi</text>
+    <text x="492" y="158" fill="#fbbf24" font-size="13" font-weight="700">? Esito in sospeso</text>
+    <line x1="20" y1="222" x2="680" y2="222" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="248" fill="#e4e4e7" font-size="14" font-weight="700">Struttura Hub-and-Spoke (Avalanche)</text>
+    <rect x="20" y="262" width="200" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="298" fill="#e4e4e7" text-anchor="middle" font-size="14" font-weight="700">1 Liquidity Hub</text>
+    <rect x="250" y="262" width="410" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="270" y="298" fill="#a1a1aa" font-size="13">3 Spoke: Main / AVAX-Correlated / Forex</text>
+    <text x="20" y="350" fill="#71717a" font-size="12">Asset supportati: AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT, EURC</text>
+    <text x="20" y="382" fill="#52525b" font-size="12">Fonte: CryptoTimes, Crypto Economy, crypto.news, The Block (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="ru">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Оценочная Карта Развёртываний Aave на Новых Сетях</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="205" height="150" rx="10" fill="#0f1a12" stroke="#4ade80" stroke-width="1.6"/>
+    <text x="36" y="76" fill="#4ade80" font-size="14" font-weight="700">Monad V3 (июнь)</text>
+    <text x="36" y="112" fill="#e4e4e7" font-size="22" font-weight="800">$100М</text>
+    <text x="36" y="134" fill="#a1a1aa" font-size="13">TVL за 48 часов</text>
+    <text x="36" y="158" fill="#4ade80" font-size="13" font-weight="700">&#10003; Сильный старт</text>
+    <rect x="248" y="50" width="205" height="150" rx="10" fill="#1a0f0f" stroke="#f87171" stroke-width="1.6"/>
+    <text x="264" y="76" fill="#f87171" font-size="14" font-weight="700">Релонч zkSync (июнь)</text>
+    <text x="264" y="112" fill="#e4e4e7" font-size="22" font-weight="800">&lt;$800К</text>
+    <text x="264" y="134" fill="#a1a1aa" font-size="13">TVL за 1 день</text>
+    <text x="264" y="158" fill="#f87171" font-size="13" font-weight="700">&#10007; Заморожен 8 мес. назад</text>
+    <rect x="476" y="50" width="205" height="150" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="492" y="76" fill="#fbbf24" font-size="14" font-weight="700">Avalanche V4 (15 июля)</text>
+    <text x="492" y="112" fill="#e4e4e7" font-size="22" font-weight="800">$15М</text>
+    <text x="492" y="134" fill="#a1a1aa" font-size="13">Стимул по этапам</text>
+    <text x="492" y="158" fill="#fbbf24" font-size="13" font-weight="700">? Итог неизвестен</text>
+    <line x1="20" y1="222" x2="680" y2="222" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="248" fill="#e4e4e7" font-size="14" font-weight="700">Структура Hub-and-Spoke (Avalanche)</text>
+    <rect x="20" y="262" width="200" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="298" fill="#e4e4e7" text-anchor="middle" font-size="14" font-weight="700">1 Liquidity Hub</text>
+    <rect x="250" y="262" width="410" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="270" y="298" fill="#a1a1aa" font-size="13">3 Spoke: Main / AVAX-Correlated / Forex</text>
+    <text x="20" y="350" fill="#71717a" font-size="12">Поддерживаемые активы: AVAX, sAVAX, BTC.b, WETH.e, USDC, USDT, EURC</text>
+    <text x="20" y="382" fill="#52525b" font-size="12">Источник: CryptoTimes, Crypto Economy, crypto.news, The Block (7/2026)</text>
+  </g>
+</svg>
+</div>
+<div class="zh">
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:#111113;border-radius:12px;border:1px solid rgba(255,255,255,.08);margin:20px 0">
+  <text x="20" y="32" fill="#fafafa" font-size="16" font-weight="700" font-family="sans-serif">Aave新鏈部署成績單</text>
+  <g font-family="sans-serif">
+    <rect x="20" y="50" width="205" height="150" rx="10" fill="#0f1a12" stroke="#4ade80" stroke-width="1.6"/>
+    <text x="36" y="76" fill="#4ade80" font-size="14" font-weight="700">Monad V3(6月)</text>
+    <text x="36" y="112" fill="#e4e4e7" font-size="22" font-weight="800">1億美元</text>
+    <text x="36" y="134" fill="#a1a1aa" font-size="13">48小時TVL</text>
+    <text x="36" y="158" fill="#4ade80" font-size="13" font-weight="700">&#10003; 強勁首發</text>
+    <rect x="248" y="50" width="205" height="150" rx="10" fill="#1a0f0f" stroke="#f87171" stroke-width="1.6"/>
+    <text x="264" y="76" fill="#f87171" font-size="14" font-weight="700">zkSync重新上線(6月)</text>
+    <text x="264" y="112" fill="#e4e4e7" font-size="22" font-weight="800">&lt;80萬美元</text>
+    <text x="264" y="134" fill="#a1a1aa" font-size="13">1天TVL</text>
+    <text x="264" y="158" fill="#f87171" font-size="13" font-weight="700">&#10007; 8個月前遭凍結</text>
+    <rect x="476" y="50" width="205" height="150" rx="10" fill="#1a1005" stroke="#f7931a" stroke-width="1.6"/>
+    <text x="492" y="76" fill="#fbbf24" font-size="14" font-weight="700">Avalanche V4(7/15)</text>
+    <text x="492" y="112" fill="#e4e4e7" font-size="22" font-weight="800">1,500萬美元</text>
+    <text x="492" y="134" fill="#a1a1aa" font-size="13">績效導向獎勵</text>
+    <text x="492" y="158" fill="#fbbf24" font-size="13" font-weight="700">? 結果未定</text>
+    <line x1="20" y1="222" x2="680" y2="222" stroke="#27272a" stroke-width="1"/>
+    <text x="20" y="248" fill="#e4e4e7" font-size="14" font-weight="700">Hub-and-Spoke結構(Avalanche)</text>
+    <rect x="20" y="262" width="200" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="120" y="298" fill="#e4e4e7" text-anchor="middle" font-size="14" font-weight="700">1個流動性樞紐</text>
+    <rect x="250" y="262" width="410" height="60" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.2"/>
+    <text x="270" y="298" fill="#a1a1aa" font-size="13">3個分支:主要 / AVAX關聯 / 外匯</text>
+    <text x="20" y="350" fill="#71717a" font-size="12">支援資產:AVAX、sAVAX、BTC.b、WETH.e、USDC、USDT、EURC</text>
+    <text x="20" y="382" fill="#52525b" font-size="12">資料來源:CryptoTimes, Crypto Economy, crypto.news, The Block(2026年7月)</text>
+  </g>
+</svg>
+</div>
 
 <div class="box ko">💡 <strong>관전 포인트:</strong> (1) 아발란체 RWA 허브 제안이 실제로 통과되는지, (2) 인센티브 마일스톤 달성 이후에도 TVL이 유지되는지, (3) 이번 배포가 몬애드형(성공)과 zkSync형(부진) 중 어느 궤적에 가까워지는지.</div>
 <div class="box en">💡 <strong>Watch for:</strong> (1) whether the proposed Avalanche RWA hub actually gets approved; (2) whether TVL holds up once incentive milestones are met; (3) whether this deployment tracks closer to the Monad trajectory (success) or the zkSync one (underperformance).</div>
@@ -380,6 +580,11 @@
 <div class="box pt">💡 <strong>Fique de olho:</strong> (1) se o hub de RWA proposto para a Avalanche de fato é aprovado; (2) se o TVL se sustenta depois que os marcos de incentivo são atingidos; (3) se esta implantação se aproxima mais da trajetória da Monad (sucesso) ou da zkSync (baixo desempenho).</div>
 <div class="box tr">💡 <strong>İzlenecekler:</strong> (1) önerilen Avalanche RWA hub'ının gerçekten onaylanıp onaylanmayacağı; (2) teşvik kilometre taşlarına ulaşıldıktan sonra TVL'nin korunup korunmayacağı; (3) bu dağıtımın Monad'ın başarı çizgisine mi yoksa zkSync'in zayıf performans çizgisine mi daha yakın olacağı.</div>
 <div class="box vi">💡 <strong>Cần theo dõi:</strong> (1) liệu hub RWA được đề xuất cho Avalanche có thực sự được phê duyệt; (2) liệu TVL có được duy trì sau khi đạt các mốc ưu đãi; (3) liệu đợt triển khai này sẽ gần với quỹ đạo thành công của Monad hay quỹ đạo kém hiệu quả của zkSync hơn.</div>
+<div class="box id">💡 <strong>Yang Perlu Diperhatikan:</strong> (1) apakah hub RWA Avalanche yang diusulkan benar-benar disetujui; (2) apakah TVL bertahan setelah milestone insentif tercapai; (3) apakah peluncuran ini lebih mendekati jalur Monad (sukses) atau zkSync (kurang optimal).</div>
+<div class="box pl">💡 <strong>Warto Obserwować:</strong> (1) czy proponowany hub RWA na Avalanche rzeczywiście zostanie zatwierdzony; (2) czy TVL utrzyma się po osiągnięciu kamieni milowych zachęt; (3) czy to wdrożenie zbliży się bardziej do trajektorii Monad (sukces) czy zkSync (słabszy wynik).</div>
+<div class="box it">💡 <strong>Da Osservare:</strong> (1) se l'hub RWA proposto per Avalanche venga effettivamente approvato; (2) se il TVL si mantenga una volta raggiunti i traguardi degli incentivi; (3) se questo rilascio segua più da vicino la traiettoria di Monad (successo) o quella di zkSync (prestazioni deludenti).</div>
+<div class="box ru">💡 <strong>На Что Обратить Внимание:</strong> (1) будет ли предложенный RWA-хаб на Avalanche действительно одобрен; (2) удержится ли TVL после достижения контрольных показателей стимулов; (3) будет ли это развёртывание ближе к траектории Monad (успех) или zkSync (слабый результат).</div>
+<div class="box zh">💡<strong>觀察重點:</strong>(1)提議中的Avalanche RWA樞紐是否真能獲得通過;(2)在達成激勵里程碑之後TVL能否維持;(3)這次部署最終會更接近Monad的成功軌跡,還是zkSync的低迷軌跡。</div>
 
 <div class="og-cover" style="display:none"><svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <text x="60" y="330" fill="#f4f4f5" font-size="150" font-weight="bold">$15M</text>
@@ -398,5 +603,10 @@
 <p class="pt" style="font-size:12px;color:#52525b;margin-top:24px">Fontes: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
 <p class="tr" style="font-size:12px;color:#52525b;margin-top:24px">Kaynaklar: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
 <p class="vi" style="font-size:12px;color:#52525b;margin-top:24px">Nguồn: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="id" style="font-size:12px;color:#52525b;margin-top:24px">Sumber: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="pl" style="font-size:12px;color:#52525b;margin-top:24px">Źródła: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="it" style="font-size:12px;color:#52525b;margin-top:24px">Fonti: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="ru" style="font-size:12px;color:#52525b;margin-top:24px">Источники: CryptoTimes, Crypto Economy, crypto.news, Coin-Turk, CoinEdition, The Block, Cointelegraph</p>
+<p class="zh" style="font-size:12px;color:#52525b;margin-top:24px">資料來源:CryptoTimes、Crypto Economy、crypto.news、Coin-Turk、CoinEdition、The Block、Cointelegraph</p>
 
 <?php require __DIR__.'/_footer.php'; ?>
