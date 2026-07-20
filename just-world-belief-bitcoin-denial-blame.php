@@ -742,6 +742,11 @@
   <h2 class="pt">Por Que É o Mesmo Viés — Duas Formas de Preservar a Sensação de Controle</h2>
   <h2 class="tr">Neden Aynı Önyargı — Kontrol Duygusunu Korumanın İki Yolu</h2>
   <h2 class="vi">Vì Sao Đây Là Cùng Một Thiên Kiến — Hai Cách Để Duy Trì Cảm Giác Kiểm Soát</h2>
+  <h2 class="id">Mengapa Ini Bias yang Sama — Dua Cara Mempertahankan Rasa Kendali</h2>
+  <h2 class="pl">Dlaczego To Ten Sam Błąd Poznawczy — Dwa Sposoby Zachowania Poczucia Kontroli</h2>
+  <h2 class="it">Perché È lo Stesso Bias — Due Modi per Preservare un Senso di Controllo</h2>
+  <h2 class="ru">Почему это одно и то же искажение — два способа сохранить чувство контроля</h2>
+  <h2 class="zh">為何這是同一種偏誤——維持掌控感的兩種方式</h2>
 
   <p class="ko">두 반응 모두 같은 계산을 하고 있다. 세상이 무작위로, 불공정하게, 통제 불가능하게 사람을 벌준다는 사실을 인정하면, "나도 다음 차례일 수 있다"는 훨씬 무서운 결론에 도달한다. 이걸 피하는 방법은 두 가지뿐이다 — 나의 불공정한 상황은 사실 일시적이고 곧 바로잡힐 거라고 믿거나(내부), 타인의 불공정한 상황은 사실 불공정이 아니라 자업자득이었다고 믿는 것이다(외부). 두 경로 모두 도착지는 같다 — "세상은 공정하고, 나는 안전하다."</p>
   <p class="en">Both reactions run the same calculation. Admitting that the world punishes people randomly, unfairly, and beyond anyone's control leads to a much scarier conclusion: "I could be next." There are only two ways to avoid that. Believe that my own unfair situation is really temporary and about to be corrected (inward), or believe that someone else's unfair situation wasn't unfair at all — it was earned (outward). Both roads arrive at the same destination: "The world is fair, and I'm safe."</p>
